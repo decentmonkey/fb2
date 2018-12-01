@@ -2,6 +2,11 @@ init python:
     obj_properties_prefix = "img"
     obj_properties_suffixes = {" ":"sprite", "_evening":"sprite", "_mask":"mask", "_overlay":"overlay", "_evening_mask":"mask", "_evening_overlay":"overlay"}
 
+    def get_image_filename(name):
+        return False
+    def get_canvas_offset(name):
+        return False
+
     def fill_object_properties(name, obj_data):
         obj_base = obj_data["base"]
         asset_found = False
@@ -27,40 +32,45 @@ init python:
                 obj_data["canvas_" + obj_prop_name] = canvas_offset
 
         if asset_found == False:
-            ui.text("Assets not found for " + name + "\nScene name: " + scene_name, size=40, xalign=0.5, yalign=0.5)
+            ui.text("Assets not found for " + name + "\nScene name: " + api_scene_name, size=40, xalign=0.5, yalign=0.5)
             renpy.pause()
         return obj_data
 
-    def add_object_to_scene_many(data):
-        for room_name in data:
-            if scenes_data["objects"].has_key(room_name) == False:
-                scenes_data["objects"][room_name] = {}
+#    def add_object_to_scene(obj_name, data, room_name = False): #adds to current scene
+    def add_object_to_scene(*args, **kwargs): #adds to scene
+        if kwargs.has_key("scene") == True:
+            room_name = kwargs["scene"]
+        else:
+            room_name = api_scene_name
+        obj_name = args[0]
+        data = args[1]
+        if len(args) > 2:
+            conditions = args[2]
+            data["conditions"] = conditions
 
-            for obj_name in data[room_name]:
-                obj_data = fill_object_properties(obj_name, data[room_name][obj_name])
-                if obj_data.has_key("actions") == False: obj_data["actions"] = "l" # по дефолту всегда есть взгляд в действиях с предметом
-                if obj_data.has_key("zorder") == False: obj_data["zorder"] = 0
-                if obj_data.has_key("larrow") == False:
-                    obj_data["larrow"] = False
-                else:
-                    obj_data["larrow"] = get_image_filename(obj_data["larrow"] + res.suffix)
-                    obj_data["larrow_hover"]
-                if obj_data.has_key("rarrow") == False:
-                    obj_data["rarrow"] = False
-                else:
-                    obj_data["rarrow"] = get_image_filename(obj_data["rarrow"] + res.suffix)
-                obj_data["hover_overlay"] = obj_data["hover_overlay"] if obj_data.has_key("hover_overlay") else False
-                obj_data["hover_enabled"] = obj_data["hover_enabled"] if obj_data.has_key("hover_enabled") else True
-                scenes_data["objects"][room_name][obj_name] = obj_data
-#        print scenes_data
-        return
-
-    def add_object_to_scene(obj_name, data, room_name = False): #adds to current scene
-        if room_name == False: room_name = scene_name
+#        if room_name == False: room_name = scene_name
         if scenes_data["objects"].has_key(room_name) == False:
             scenes_data["objects"][room_name] = {}
 
-        obj_data = fill_object_properties(obj_name, data)
+        if data.has_key("active") == False:
+            data["active"] = True
+        scenes_data["objects"][room_name][obj_name] = data
+#        print obj_data
+#        print scenes_data
+        return
+
+    def process_scene_object(obj_name, obj_data_source):
+        obj_data = copy.deepcopy(obj_data_source)
+        if obj_data.has_key("conditions"):
+            #процессим conditions
+            for var1 in obj_data["conditions"]:
+                if globals().has_key(var1) == True and globals()[var1] == obj_data["conditions"][var1]["v"]:
+                    #значение совпало, мержим!
+#                    obj_data = obj_data["conditions"][var1].update(obj_data)
+                    for var2 in obj_data["conditions"][var1]:
+                        obj_data[var2] = obj_data["conditions"][var1][var2]
+        obj_data.pop("conditions", None)
+        obj_data = fill_object_properties(obj_name, obj_data)
         obj_data["name"] = obj_name
         if obj_data.has_key("actions") == False: obj_data["actions"] = "l" # по дефолту всегда есть взгляд в действиях с предметом
         if obj_data.has_key("zorder") == False: obj_data["zorder"] = 0
@@ -74,10 +84,7 @@ init python:
             obj_data["rarrow"] = get_image_filename(obj_data["rarrow"] + res.suffix)
         obj_data["hover_overlay"] = obj_data["hover_overlay"] if obj_data.has_key("hover_overlay") else False
         obj_data["hover_enabled"] = obj_data["hover_enabled"] if obj_data.has_key("hover_enabled") else True
-        scenes_data["objects"][room_name][obj_name] = obj_data
-#        print obj_data
-#        print scenes_data
-        return
+        return obj_data
 
     def remove_object_from_scene(scene, obj_name):
         if obj_name in scenes_data["objects"][scene]: del scenes_data["objects"][scene][obj_name]
@@ -114,6 +121,54 @@ init python:
 
         return actions
 
+    def set_active(*args, **kwargs):
+        if len(args)>1:
+            #ищем по объекту
+            obj_name = args[0]
+            active_state = args[1]
+            if kwargs.has_key("scene"):
+                room_name = kwargs["scene"]
+                del kwargs["scene"]
+            else:
+                room_name = api_scene_name
+            if scenes_data["objects"].has_key(room_name) == True and scenes_data["objects"][room_name].has_key(obj_name) == True:
+                scenes_data["objects"][room_name][obj_name]["active"] = active_state
+                return True
+            return False
+        else:
+            #ищем объекты по фильтру
+            active_state = args[0]
+            if kwargs.has_key("scene"):
+                rooms_list = [kwargs["scene"]]
+                del kwargs["scene"]
+            else:
+                rooms_list = list(scenes_data["objects"].keys())
+            flag1 = False
+            for room_name in rooms_list:
+                for obj_name in scenes_data["objects"][room_name]:
+                    if check_filter(kwargs, scenes_data["objects"][room_name][obj_name]) == True:
+                        scenes_data["objects"][room_name][obj_name]["active"] = active_state
+                        flag1 = True
+            return flag1
+
+    def set_var(obj_name, **kwargs):
+        if kwargs.has_key("scene"):
+            room_name = kwargs["scene"]
+            del kwargs["scene"]
+        else:
+            room_name = api_scene_name
+        if scenes_data["objects"].has_key(room_name) == False or scenes_data["objects"][room_name].has_key(obj_name) == False:
+            return False
+        for var1, value1 in kwargs.items():
+            scenes_data["objects"][room_name][obj_name][var1] = value1
+        return True
+
+    def parse_str(str1):
+        result = re.findall(r'\[(.*?)\]', str1)
+        for var1 in result:
+            if globals().has_key(var1):
+                str1 = str1.replace("[" + str(var1) + "]", globals()[var1])
+        return str1
 
 label process_object_click(func_name, obj_name, obj_data):
     if clickHoldMode == True and clickHoldFlag == True:
@@ -137,7 +192,8 @@ label process_object_click(func_name, obj_name, obj_data):
     $ interface_blocked_flag = True
     $ screenActionHappened = False
     $ act = obj_data["action"]
-    call expression func_name pass (obj_name, obj_data) from _call_expression
+    call expression func_name pass (obj_name, obj_data)
+    call process_hooks(obj_name, api_scene_name)
     if screenActionHappened == True:
         $ clickHoldFlag = True
         $ clickHoldLastTime = time.time()

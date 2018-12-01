@@ -100,7 +100,7 @@ label change_scene(new_scene_name, in_transition_name="Fade", in_sound_name="hig
     $ lastSceneName = scene_name
     $ scene_name = new_scene_name
     $ scene_caption = scenes_data["objects"][scene_name]["data"]["caption"]
-    $ api_scene_name =new_scene_name
+    $ api_scene_name = new_scene_name
     call expression scene_label
     return
 
@@ -108,7 +108,7 @@ label refresh_scene():
     $ scene_refresh_flag = True
     $ show_scene_loop_flag = True
     $ lastSceneName = scene_name
-    call expression scene_name from _call_expression_5
+    call expression scene_name 
     return
 
 label refresh_scene_fade():

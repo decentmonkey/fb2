@@ -4,7 +4,6 @@ label fitness_locker_1:
 
     $ scene_name = "fitness_locker_1"
     $ scene_caption = _("Fitness Gym")
-    $ clear_scene_from_objects(scene_name)
     if fitnessStephanieRebeccaInLocker == True:
         $ scene_image = "scene_fitness_locker_1_Stephanie_Rebecca"
         $ add_object_to_scene("Stephanie", {"type":2, "base":"fitness_locker_1_Stephanie", "click" : "fitness_locker_1_environment", "actions" : "lw", "zorder" : 12})

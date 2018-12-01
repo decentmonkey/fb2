@@ -1,6 +1,6 @@
 default bettyLocation = "none"
 
-label bettyInteract1(obj_name, obj_data):
+label bettyInteract1:
     if act == "l":
         mt "Это Бетти..."
         "Редкая сучка!"

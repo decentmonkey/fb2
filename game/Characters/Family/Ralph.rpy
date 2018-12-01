@@ -2,7 +2,7 @@ default ralphLocation = "none"
 default ralphStage = 0
 default ralphAskedAboutPayment = False
 
-label ralphInteract1(obj_name, obj_data):
+label ralphInteract1:
     if act == "l":
         mt "Это Ральф."
         "Подкаблучник."
