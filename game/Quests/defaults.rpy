@@ -169,6 +169,89 @@ default wardrobeDay2EveningBlocked = True
 
 default monicaSteveDogOffended = False # Моника сказала Стиву что он отсосет у собаки если соврал
 
+default basementBedroomFound = False
+default basementBedroomStage = 0
+default basementBedroomJournal = True
+default basementHoleRefuseFlag = True
+default basementHoleStage = 0
+default laundry_box1_cnt = 0
+default laundry_box2_cnt = 0
+default laundry_box3_cnt = 0
+default laundry_box4_cnt = 0
+default laundry_box5_cnt = 0
+default laundry_box6_cnt = 0
+
+default laundry_box6_empty = False
+default laundry_box6_dress_looked = False
+default laundry_box6_dress_taken = False
+default laundryVisited = False
+default clothesPinsSeen = False
+
+default businessClothSearchDressInProgressLaundryVisited = False
+
+default laundrySearchingForDress = False
+default laundryDressFound = False
+default laundrySearchingForIron = False
+default laundryIronFound = False
+default landryIroningActive = False
+
+default laundryBoxesActive = True
+
+default laundryIroningBoardState = "Default"
+default laundry2_box2_empty = False
+default laundry2_box2_iron_looked = False
+default laundry2_ironOnBoard = False
+default laundry2_dressOnBoard = False
+default laundry2_dressIroned = False
+default laundry2_garbageOnBoard = True
+
+default Iron_Board_Full_looked = False
+default Dress_Ironed_looked = False
+default bathTaken = False
+default bathTakenJust = False
+default houseStreetFenceLocationOpened = False
+default neighborAsked = False # Моника общалась с соседом
+default driverMode = 0
+default streetHouseMainYardStage = 0
+default bedroomSecondStage = 0
+default journalTaken = False
+default journalViewed = False
+default hairDyeTaken = False
+default hairDyeSearchMode = False
+default Hairdye_looked = False
+default floor2SpotJustMade = False
+default floor2SpotEnabled = False
+default flowerViewed = False
+default livingRoomStage = 0
+default monicaOfficeCabinetMonkeys = False
+default monicaOfficeCabinetMonkeysSuffix = "1"
+
+default monicaOfficeWorkMonkeysPlanned = False
+default photostudioEmpty = False
+default melanieAlexBeforePhotoshoot = True
+default melanieAlexAfterPhotoshoot = False
+default photostudioLightsCntLooked = 0
+default monicaOfficeSecretaryLooked = False
+default monicaOfficeSecretaryQuest1Planned = True
+default monicaOfficeSecretaryCasualMode = False
+default monicaOfficeSteveCall1Planned = False
+
+default monicaOfficeDickIncomingCallPlanned = False
+
+default monicaOfficeSecretaryDialogueOffended1 = False
+default monicaOfficeSecretaryDialogueOffended2 = False
+
+default photoStudioOpened = False
+
+default monicaOfficeDay2TeaPlanned = False
+default monicaOfficeDay2TeaTalkStage = 0
+default monicaOfficeDay2PhoneLost = False
+default monicaOfficeSecretaryAtDesk = True
+default police_entrance_policeman1_talked = False
+default police_entrance_policeman2_talked = False
+default richHotelClosed1 = False
+default catchSteveInProgress = True
+
 # Monkeys
 default monicaMonkeysStage = 0
 default steveOffended1 = False # Моника обозвала по телефону Стива мешком с дерьмом

@@ -3,30 +3,26 @@ label bedroom_bardie:
     $ miniMapData = []
     call miniMapHouseGenerate()
 
-    $ scene_name = "bedroom_bardie"
-    $ scene_caption = "BARDIE'S ROOM"
-    $ clear_scene_from_objects(scene_name)
     $ scene_image = "scene_House_BedroomBardie" + day_suffix
+    return
 
+label bedroom_bardie_init:
     $ monica_tint = [1.0, 1.0, 1.0]
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_BedroomBardie_Monica_[cloth][day_suffix]", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder":10, "tint": monica_tint}, {"bardieLocation":{"v":"bedroom_bardie", "base" : "House_BedroomBardie_Bardie_Monica_[cloth][day_suffix]"}})
 
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_BedroomBardie_Monica_" + cloth + day_suffix, "click" : "bedroom_bardie_environment", "actions" : "l", "zorder":10, "tint": monica_tint})
+    $ add_object_to_scene("Bardie", {"type" : 2, "base" : "House_BedroomBardie_Bardie[day_suffix]", "click" : "bardieInteract1", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png", "active":False})
 
-    if bardieLocation == "BedroomBardie":
-        $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_BedroomBardie_Bardie_Monica_" + cloth + day_suffix, "click" : "bedroom_bardie_environment", "actions" : "l", "zorder":10, "tint": monica_tint})
-        $ add_object_to_scene("Bardie", {"type" : 2, "base" : "House_BedroomBardie_Bardie" + day_suffix, "click" : "bardieInteract1", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png"})
+    $ add_object_to_scene("Ball1", {"type":2, "base":"House_BedroomBardie_Ball1", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("Ball2", {"type":2, "base":"House_BedroomBardie_Ball2", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("BardieBed", {"type":2, "base":"House_BedroomBardie_Bed", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("Chair", {"type":2, "base":"House_BedroomBardie_Chair", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("MusicCenter", {"type":2, "base":"House_BedroomBardie_MusicCenter", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("Subwoofer", {"type":2, "base":"House_BedroomBardie_Subwoofer", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("Picture1", {"type":2, "base":"House_BedroomBardie_Picture1", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("Trash1", {"type":2, "base":"House_BedroomBardie_Trash1", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("Notebook", {"type":2, "base":"House_BedroomBardie_Notebook", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
 
-    $ add_object_to_scene("Ball1", {"type":2, "base":"House_BedroomBardie_Ball1", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0})
-    $ add_object_to_scene("Ball2", {"type":2, "base":"House_BedroomBardie_Ball2", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0})
-    $ add_object_to_scene("BardieBed", {"type":2, "base":"House_BedroomBardie_Bed", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0})
-    $ add_object_to_scene("Chair", {"type":2, "base":"House_BedroomBardie_Chair", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0})
-    $ add_object_to_scene("MusicCenter", {"type":2, "base":"House_BedroomBardie_MusicCenter", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0})
-    $ add_object_to_scene("Subwoofer", {"type":2, "base":"House_BedroomBardie_Subwoofer", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0})
-    $ add_object_to_scene("Picture1", {"type":2, "base":"House_BedroomBardie_Picture1", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0})
-    $ add_object_to_scene("Trash1", {"type":2, "base":"House_BedroomBardie_Trash1", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0})
-    $ add_object_to_scene("Notebook", {"type":2, "base":"House_BedroomBardie_Notebook", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0})
-
-    $ add_object_to_scene("Teleport_Floor2", {"type":3, "text" : _("ХОЛЛ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "bedroom_bardie_teleport", "xpos" : 960, "ypos" : 956, "zorder":20})
+    $ add_object_to_scene("Teleport_Floor2", {"type":3, "text" : _("ХОЛЛ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "bedroom_bardie_teleport", "xpos" : 960, "ypos" : 956, "zorder":20, "teleport":True})
     return
 
 #    $ add_object_to_scene("Mirrors", {"type":2, "base":"Floor2_Mirrors", "click" : "floor2_environment", "actions" : "l", "zorder" : 0})
@@ -34,13 +30,13 @@ label bedroom_bardie:
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
 
-label bedroom_bardie_teleport(obj_name, obj_data):
+label bedroom_bardie_teleport:
     if obj_name == "Teleport_Floor2":
         call change_scene("floor2")
         return
     return
 
-label bedroom_bardie_environment(obj_name, obj_data):
+label bedroom_bardie_environment:
     if obj_name == "Monica":
         mt "Раньше здесь была моя гардеробная."
         "Они переделали мою гардеробную под комнату этого оболтуса!!!"
