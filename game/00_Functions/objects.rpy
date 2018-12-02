@@ -154,28 +154,55 @@ init python:
 
         return actions
 
+    def move_object(*args, **kwargs): #(obj_name, scene_name), (obj_name, scene=scene_name)
+        if len(args) > 1:
+            obj_name = args[0]
+            target_scene = args[1]
+        else:
+            obj_name = args[0]
+            target_scene = kwargs["scene"]
+        set_active(obj_name, False, scene="all")
+        set_active(obj_name, True, scene=target_scene)
+        return
+
     def set_active(*args, **kwargs):
         if len(args)>1:
             #ищем по объекту
             obj_name = args[0]
             active_state = args[1]
             if kwargs.has_key("scene"):
-                room_name = kwargs["scene"]
+                if kwargs["scene"] == "all":
+                    rooms_list = list(scenes_data["objects"].keys())
+                else:
+                    rooms_list = [kwargs["scene"]]
                 del kwargs["scene"]
             else:
-                room_name = api_scene_name
-            if scenes_data["objects"].has_key(room_name) == True and scenes_data["objects"][room_name].has_key(obj_name) == True:
-                scenes_data["objects"][room_name][obj_name]["active"] = active_state
-                return True
-            return False
+                rooms_list = [api_scene_name]
+            if kwargs.has_key("recursive") == True and kwargs["recursive"] == True:
+                rooms_list = get_rooms_recursive(rooms_list[0])
+            kwargs.pop("recursive", None)
+
+            flag1 = False
+            for room_name in rooms_list:
+                if scenes_data["objects"].has_key(room_name) == True and scenes_data["objects"][room_name].has_key(obj_name) == True:
+                    scenes_data["objects"][room_name][obj_name]["active"] = active_state
+                    flag1 = True
+#                    return True
+            return flag1
         else:
             #ищем объекты по фильтру
             active_state = args[0]
             if kwargs.has_key("scene"):
-                rooms_list = [kwargs["scene"]]
+                if kwargs["scene"] == "all":
+                    rooms_list = list(scenes_data["objects"].keys())
+                else:
+                    rooms_list = [kwargs["scene"]]
                 del kwargs["scene"]
             else:
                 rooms_list = list(scenes_data["objects"].keys())
+            if kwargs.has_key("recursive") == True and kwargs["recursive"] == True:
+                rooms_list = get_rooms_recursive(rooms_list[0])
+            kwargs.pop("recursive", None)
             flag1 = False
             for room_name in rooms_list:
                 for obj_name in scenes_data["objects"][room_name]:
@@ -183,6 +210,51 @@ init python:
                         scenes_data["objects"][room_name][obj_name]["active"] = active_state
                         flag1 = True
             return flag1
+
+    def check_scene_parent(room_name, parent, **kwargs): #recursive=True
+        if kwargs.has_key("recursive") == True and kwargs["recursive"] == True:
+            rooms_list = get_rooms_recursive_up(room_name)
+        else:
+            rooms_list = [room_name]
+        for room_name in rooms_list:
+            if scenes_data["objects"].has_key(room_name) == True and scenes_data["objects"][room_name].has_key("data") == True and scenes_data["objects"][room_name]["data"].has_key("parent") == True and scenes_data["objects"][room_name]["data"]["parent"] == parent:
+                return True
+
+        return False
+
+    def scene_get_parent(room_name):
+        if scenes_data["objects"].has_key(room_name) == True and scenes_data["objects"][room_name].has_key("data") == True and scenes_data["objects"][room_name]["data"].has_key("parent") == True:
+            return scenes_data["objects"][room_name]["data"]["parent"]
+        return False
+
+    def get_rooms_recursive(start_room):
+        rooms_list = [start_room]
+        parent = start_room
+        cnt = 1
+        while cnt > 0:
+            cnt = 0
+            for room_name in scenes_data["objects"]:
+                if scenes_data["objects"][room_name].has_key("data") == True and scenes_data["objects"][room_name]["data"].has_key("parent") == True:
+                    if (scenes_data["objects"][room_name]["data"]["parent"] in rooms_list) and (room_name not in rooms_list):
+                        cnt = cnt + 1
+                        rooms_list.append(room_name)
+
+        return rooms_list
+
+    def get_rooms_recursive_up(start_room):
+        rooms_list = [start_room]
+#        parent = start_room
+        cnt = 1
+        while cnt > 0:
+            cnt = 0
+            for room_name in scenes_data["objects"]:
+                if scenes_data["objects"][room_name].has_key("data") == True and scenes_data["objects"][room_name]["data"].has_key("parent") == True:
+                    if (scenes_data["objects"][room_name]["data"]["parent"] not in rooms_list):
+                        cnt = cnt + 1
+                        rooms_list.append(scenes_data["objects"][room_name]["data"]["parent"])
+
+        return rooms_list
+
 
     def set_var(obj_name, **kwargs):
         if kwargs.has_key("scene"):
@@ -227,18 +299,22 @@ label process_object_click(func_name, obj_name_source, obj_data_source):
     $ interface_blocked_flag = True
     $ screenActionHappened = False
     $ act = obj_data["action"]
-    call expression func_name
     call process_hooks(obj_name, api_scene_name)
+    if _return != False:
+        call expression func_name
+        if _return != False:
+            $ scene_refresh_flag = True
+        else:
+            $ scene_refresh_flag = False
+    else:
+        $ scene_refresh_flag = True
+    $ interface_blocked_flag = False
+
     if screenActionHappened == True:
         $ clickHoldFlag = True
         $ clickHoldLastTime = time.time()
         $ clickHoldLastMouseX,clickHoldLastMouseY = renpy.get_mouse_pos()
 
-    $ interface_blocked_flag = False
-    if _return != False:
-        $ scene_refresh_flag = True
-    else:
-        $ scene_refresh_flag = False
 #        $ dialogue_active_flag = False
     $ show_scene_loop_flag = True
     $ parse_transition_flag = False
@@ -276,13 +352,17 @@ label process_object_click_alternate_action(idx, actions_list, click_label, name
 #    call expression func_name pass (name, data)
     $ obj_name = name
     $ obj_data = data
-    call expression func_name
-    $ interface_blocked_flag = False
+    call process_hooks(obj_name, api_scene_name)
     if _return != False:
-        $ scene_refresh_flag = True
-    else:
-        $ scene_refresh_flag = False
+        call expression func_name
+        if _return != False:
+            $ scene_refresh_flag = True
+        else:
+            $ scene_refresh_flag = False
 #        $ dialogue_active_flag = False
+    else:
+        $ scene_refresh_flag = True
+    $ interface_blocked_flag = False
     $ show_scene_loop_flag = True
     $ parse_transition_flag = False
     return

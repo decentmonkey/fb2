@@ -23,20 +23,10 @@ init python:
         return False
 
 label map_street_scene_visibility_check: #проверка того надо-ли показывать значок вызова карты в локациях не улица
-    if gameStage < 2:
-        if sceneIsStreet == True:
-            $ mapStreetCheckShowing = True
-            return
-        if scene_name == "bedroom1" or scene_name == "bedroom2":
-            $ mapStreetCheckShowing = True
-            return
-        $ mapStreetCheckShowing = False
+    if sceneIsStreet == True or scene_name == "basement_bedroom1" or scene_name == "basement_bedroom2":
+        $ mapStreetCheckShowing = True
         return
-    if gameStage >=2:
-        if sceneIsStreet == True:
-            $ mapStreetCheckShowing = True
-            return
-        $ mapStreetCheckShowing = False
+    $ mapStreetCheckShowing = False
     return
 
 label map_show(car=False):
@@ -59,7 +49,7 @@ label map_show(car=False):
 
 label map_close:
     $ hud_preset_current = map_source_scene_hud_preset
-    call change_scene(map_source_scene, "Fade", "open_map") from _call_change_scene_29
+    call change_scene(map_source_scene, "Fade", "open_map")
     return
 
 label map:

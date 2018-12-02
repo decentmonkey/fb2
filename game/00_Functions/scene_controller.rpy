@@ -5,6 +5,7 @@ default lastSceneName = False
 default refreshed_scene_name = False
 default game_version1_screen_ready_to_render = False
 default scene_caption = ""
+default exitHookCalled = False
 
 label show_scene:
     $ show_scene_loop_flag = False
@@ -73,6 +74,7 @@ label show_scene_now:
     $ parse_transition_flag = True
     $ interface_blocked_flag = False
 
+    $ makeDump()
     $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
     show screen screen_sprites(scene_data)
     if parse_transition_flag == True:
@@ -110,7 +112,12 @@ label show_scene_loop:
 
 
 label change_scene(new_scene_name, in_transition_name="Fade", in_sound_name="highheels_short_walk"):
-    call process_hooks("exit_scene", scene_name) #хук выхода со сцены
+    $ target_scene_name = new_scene_name
+    $ target_scene_parent = scene_get_parent(target_scene_name)
+    $ _return = None
+    if exitHookCalled == False:
+        call process_hooks("exit_scene", scene_name) #хук выхода со сцены
+        $ exitHookCalled = False
     if _return == False: #Если False, то прерываем смену сцены
         return
     if scenes_data["objects"].has_key(new_scene_name) == False or scenes_data["objects"][new_scene_name].has_key("data") == False:

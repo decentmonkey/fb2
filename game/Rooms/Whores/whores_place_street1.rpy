@@ -11,8 +11,8 @@ label whores_place_street1:
 label whores_place_street1_init:
     $ add_object_to_scene("Monica", {"type":2, "base":"Street_Whores_Street1_Monica_[cloth][day_suffix]", "click" : "whores_place_street1_environment", "actions" : "l", "zorder" : 10})
 
-    $ add_object_to_scene("Citizen14", {"type":2, "base":"Street_Whores_Street1_Citizen_14[day_suffix]", "click" : "citizens_dialogue", "actions" : "l", "zorder" : 5, "group":"citizens"})
-    $ add_object_to_scene("Citizen15", {"type":2, "base":"Street_Whores_Street1_Citizen_15[day_suffix]", "click" : "citizens_dialogue", "actions" : "l", "zorder" : 5, "group":"citizens"})
+    $ add_object_to_scene("Citizen_14", {"type":2, "base":"Street_Whores_Street1_Citizen_14[day_suffix]", "click" : "citizens_dialogue", "actions" : "lt", "zorder" : 5, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"citizens"})
+    $ add_object_to_scene("Citizen_15", {"type":2, "base":"Street_Whores_Street1_Citizen_15[day_suffix]", "click" : "citizens_dialogue", "actions" : "lt", "zorder" : 5, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"citizens"})
 
     $ add_object_to_scene("Fire_Valve", {"type":2, "base":"Street_Whores_Street1_Fire_Valve", "click" : "whores_place_street1_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Street_Fencing1", {"type":2, "base":"Street_Whores_Street1_Street_Fencing1", "click" : "whores_place_street1_environment", "actions" : "l", "zorder" : 0, "b":0.15, "group":"environment"})

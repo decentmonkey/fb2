@@ -46,6 +46,13 @@ label miniMapRemoveDisabled(name):
     return
 
 label miniMapHouseGenerateTeleport(name, minimapCell):
+    $ target_scene_name = minimapCell["teleport_scene"]
+    $ target_scene_parent = scene_get_parent(target_scene_name)
+    call process_hooks("exit_scene", scene_name)
+    if _return == False:
+        call refresh_scene()
+        return
+    $ exitHookCalled = True
     call process_hooks("mimimap_teleport", "global") #хук до инициализации сцены
     if _return == False:
         return

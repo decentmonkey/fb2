@@ -2,7 +2,6 @@ label bedroom2:
     $ print "enter_bedroom2"
     $ miniMapData = []
     call miniMapHouseGenerate()
-    $ miniMapSubst["all"] = "miniMapBedroomCheckCloth"
 
     $ scene_image = "scene_Bedroom2[day_suffix]"
 

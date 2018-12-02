@@ -12,7 +12,7 @@ label street_corner_init:
 
     $ add_object_to_scene("Monica", {"type":2, "base":"Street_Whores_Place_Car_Stop_Monica_[cloth][day_suffix]", "click" : "street_corner_environment", "actions" : "l", "zorder" : 10})
 
-    $ add_object_to_scene("Citizen5", {"type":2, "base":"Street_Whores_Place_Car_Stop_Citizen_5[day_suffix]", "click" : "citizens_dialogue", "actions" : "l", "zorder" : 5, "group":"citizens"})
+    $ add_object_to_scene("Citizen_5", {"type":2, "base":"Street_Whores_Place_Car_Stop_Citizen_5[day_suffix]", "click" : "citizens_dialogue", "actions" : "lt", "zorder" : 5, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"citizens"})
 
     $ add_object_to_scene("Teleport_Street1", {"type":3, "text" : _("ВНИЗ ПО УЛИЦЕ"), "larrow" : "arrow_left_2", "base":"Street_Whores_Place_Car_Stop_Teleport_Street1", "click" : "street_corner_teleport", "xpos" : 200, "ypos" : 644, "zorder":15, "teleport":True})
     $ add_object_to_scene("Teleport_Hostel_Street3", {"type":3, "text" : _("БЕДНЫЙ РАЙОН"), "rarrow" : "arrow_up_2", "base":"Street_Whores_Place_Car_Stop_Teleport_Hostel_Street3", "click" : "street_corner_teleport", "xpos" : 1713, "ypos" : 768, "zorder":15, "teleport":True, "high_sprite_hover":True})

@@ -69,6 +69,21 @@ define reporter2 = Character(_("Репортер 2"), who_color=c_orange) #Repor
 define reporter3 = Character(_("Репортер 3"), who_color=c_pink) #Reporter3
 
 define citizen = Character(_("Незнакомец"), who_color=c_pink) #Stranger
+define citizen1 = Character(_("Панк"), who_color=c_pink) #Stranger
+define citizen2 = Character(_("Панк"), who_color=c_pink) #Stranger
+define citizen3 = Character(_("Драгдилер"), who_color=c_orange) #Stranger
+define citizen4 = Character(_("Незнакомец"), who_color=c_blue) #Stranger
+define citizen5 = Character(_("Якудза"), who_color=c_blue) #Stranger
+define citizen6 = Character(_("Незнакомец"), who_color=c_orange) #Stranger
+define citizen7 = Character(_("Художник"), who_color=c_pink) #Stranger
+define citizen8 = Character(_("Болтун"), who_color=c_blue) #Stranger
+define citizen9 = Character(_("Наркоман"), who_color=c_green) #Stranger
+define citizen10 = Character(_("Флорист"), who_color=c_blue) #Stranger
+define citizen11 = Character(_("Алкоголик"), who_color=c_blue) #Stranger
+define citizen12 = Character(_("Незнакомец"), who_color=c_green) #Stranger
+define citizen13 = Character(_("Незнакомец"), who_color=c_pink) #Stranger
+define citizen14 = Character(_("Бомж-музыкан"), who_color=c_orange) #Stranger
+define citizen15 = Character(_("Член банды"), who_color=c_blue) #Stranger
 
 
 define sound_from_side = Character(_("Звук"), who_color=c_blue)

@@ -29,9 +29,7 @@ label kitchen2_init:
     return
 
 label kitchen2_environment:
-    if gameStage > 2:
-        if monicaKitchenForbidden == True:
-            mt "Бетти запретила мне притрагиваться к чему-либо..."
-            "Мне лучше уйти отсюда скорее, пока она не заметила меня!"
-            return
+    if monicaKitchenForbidden == True:
+        call afterJailHouse_dialogue15a()
+        return
     return

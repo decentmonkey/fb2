@@ -584,6 +584,7 @@ label monica_goout1_governess_restrict:
     #Рендер в зависимости от времени дня!
     if day_time == "day":
         img 6062
+        with fadelong
         w
         img 6063
         betty "Эй! Дорогуша!"
@@ -620,6 +621,7 @@ label monica_goout1_governess_restrict:
     else:
     #вечер
         img 6073
+        with fadelong
         w
         img 6074
         betty "Эй! Дорогуша!"

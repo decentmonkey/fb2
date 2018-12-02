@@ -7,6 +7,8 @@ label whores_place:
     $ sceneIsStreet = True
 
     $ scene_image = "scene_Street_Whores_Place_Whores[day_suffix]"
+
+    $ hostelStreet2MonicaFromSideSuffix = "2"
     return
 
 label whores_place_init:
@@ -15,7 +17,7 @@ label whores_place_init:
     $ add_object_to_scene("Mommy", {"type":2, "base":"Street_Whores_Place_Mommy[day_suffix]", "click" : "whores_place_environment2", "actions" : "lt", "zorder" : 5})
     $ add_object_to_scene("GrayMouse2", {"type":2, "base":"Street_Whores_Place_GrayMouse2[day_suffix]", "click" : "whores_place_environment2", "actions" : "lt", "zorder" : 5})
 
-    $ add_object_to_scene("Whore1", {"type":2, "base":"Street_Whores_Place_Whores_Whore1b[day_suffix]", "click" : "whores_place_environment", "actions" : "lt", "zorder" : 5})
+    $ add_object_to_scene("Whore1", {"type":2, "base":"Street_Whores_Place_Whores_Whore1b[day_suffix]", "click" : "whores_place_environment2", "actions" : "lt", "zorder" : 5})
 
     $ add_object_to_scene("Street_Fencing1", {"type":2, "base":"Street_Whores_Place_Fencing1", "click" : "whores_place_street1_environment", "actions" : "l", "zorder" : 0, "b":0.15, "group":"environment"})
     $ add_object_to_scene("Street_Fencing2", {"type":2, "base":"Street_Whores_Place_Fencing2", "click" : "whores_place_street1_environment", "actions" : "l", "zorder" : 0, "b":0.15, "group":"environment"})
@@ -41,6 +43,9 @@ label whores_place_teleport2:
         return
     if obj_name == "Teleport_Shawarma":
         call change_scene("whores_place_shawarma", "Fade", "highheels_run2")
+        return
+    if obj_name == "Teleport_Hostel_Street2":
+        call change_scene("hostel_street2", "Fade", "highheels_run2")
         return
     return
 label whores_place_environment2:

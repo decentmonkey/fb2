@@ -791,7 +791,7 @@ screen hud_screen(hud_presets):
                         ymaximum gui.resolution.hud_screen.value2
                         add "icons/calendar" + res.suffix + ".png":
                             yoffset -3
-                        $ current_calendar_day = calendar_days[(day-1)%7]
+                        $ current_calendar_day = calendar_days[(day)%7]
                         text __(current_calendar_day):
                             xalign 0.49
                             yalign 0.32

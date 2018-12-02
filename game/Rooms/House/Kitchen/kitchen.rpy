@@ -49,7 +49,7 @@ label kitchen_teleport:
         return
 
 label kitchen_environment:
-    if monicaKitchenForbidden == False:
-        call afterJailHouse_dialogue12()
+    if monicaKitchenForbidden == True:
+        call afterJailHouse_dialogue15a()
         return
     return

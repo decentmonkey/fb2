@@ -30,6 +30,17 @@ init python:
         scenes_data["hooks"][room_name][obj_name] = hooks_list
         return
 
+    def add_hook_day(hook_label, **kwargs):
+        suff = ""
+        if kwargs.has_key("evening") and kwargs["evening"] == True:
+            suff = "_evening"
+        if kwargs.has_key("day"):
+            add_hook("day_" + str(kwargs["day"]) + suff, hook_label, scene="global_day")
+
+        if kwargs.has_key("week_day"):
+            add_hook("week_day_" + str(kwargs[week_day]) + suff, hook_label, scene="global_week_day")
+        return
+
     def remove_hook(*args, **kwargs):
         if kwargs.has_key("scene"):
             if kwargs["scene"] == "all":
@@ -39,6 +50,9 @@ init python:
             del kwargs["scene"]
         else:
             rooms_list = [api_scene_name]
+        if kwargs.has_key("recursive") == True and kwargs["recursive"] == True:
+            rooms_list = get_rooms_recursive(rooms_list[0])
+        kwargs.pop("recursive", None)
 
         if len(args) == 2: #obj_name, hook_label
             obj_name = args[0]
@@ -54,17 +68,18 @@ init python:
                     filter_arr[var1] = value1
 
                 for room_name in rooms_list:
-                    for obj_name1 in scenes_data["hooks"][room_name]:
-                        flag2 = False
-                        hooks_list = scenes_data["hooks"][room_name][obj_name1]
+                    if scenes_data["hooks"].has_key(room_name) == True:
+                        for obj_name1 in scenes_data["hooks"][room_name]:
+                            flag2 = False
+                            hooks_list = scenes_data["hooks"][room_name][obj_name1]
 
-                        for idx in reversed(range(len(hooks_list))):
-                            if check_filter(filter_arr, hooks_list[idx]) == True:
-                                hooks_list.pop(idx)
-                                flag2 = True
+                            for idx in reversed(range(len(hooks_list))):
+                                if check_filter(filter_arr, hooks_list[idx]) == True:
+                                    hooks_list.pop(idx)
+                                    flag2 = True
 
-                        if flag2 == True:
-                            scenes_data["hooks"][room_name][obj_name1] = hooks_list
+                            if flag2 == True:
+                                scenes_data["hooks"][room_name][obj_name1] = hooks_list
 
             else:
                 if scenes_data["hooks"].has_key(last_hook_scene) and scenes_data["hooks"][last_hook_scene].has_key(last_hook_obj_name) == True:
@@ -177,33 +192,32 @@ init python:
 #        print priority_list
         return hooks_list_sorted
 
-label process_hooks(obj_name, room_name = False, sprites_hover_dummy_screen = False):
+label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen_flag = False):
     $ _return = None
-
     if room_name == False:
         $ room_name = api_scene_name
 
-    if scenes_data["hooks"].has_key(room_name) == False or scenes_data["hooks"][room_name].has_key(obj_name) == False:
+    if scenes_data["hooks"].has_key(room_name) == False or scenes_data["hooks"][room_name].has_key(hook_obj_name) == False:
         return _return
 
-    $ hooks_list = scenes_data["hooks"][room_name][obj_name]
+    $ hooks_list = scenes_data["hooks"][room_name][hook_obj_name]
     $ processed_hooks = []
     $ len1 = len(hooks_list)
     if len1 == 0:
         return _return
     $ idx = len1 - 1
     label .hooks_call_loop:
-        $ hooks_list = scenes_data["hooks"][room_name][obj_name] #повтор для цикла, восстановление из-за глобальных переменных
+        $ hooks_list = scenes_data["hooks"][room_name][hook_obj_name] #повтор для цикла, восстановление из-за глобальных переменных
         $ hook_data = hooks_list[idx]
         $ label_name = hook_data["hook_label"]
-        $ hooks_stack.append([room_name, obj_name, label_name, idx, processed_hooks])
+        $ hooks_stack.append([room_name, hook_obj_name, label_name, idx, processed_hooks])
         $ last_hook_scene = room_name
-        $ last_hook_obj_name = obj_name
+        $ last_hook_obj_name = hook_obj_name
         $ last_hook_label = label_name
         if label_name not in processed_hooks: #если во время вызова стерлись несколько хуков и список сдвинулся. Защита от повторения
-            if sprites_hover_dummy_screen == True:
+            if sprites_hover_dummy_screen_flag == True:
                 show screen sprites_hover_dummy_screen()
-                $ sprites_hover_dummy_screen = False
+                $ sprites_hover_dummy_screen_flag = False
             call expression label_name #вызов хука
         $ stack_data = hooks_stack.pop()
         $ label_name = stack_data[2]
@@ -215,9 +229,9 @@ label process_hooks(obj_name, room_name = False, sprites_hover_dummy_screen = Fa
         $ last_hook_scene = stack_data[0]
         $ last_hook_obj_name = stack_data[1]
         $ last_hook_label = stack_data[2]
-        $ hooks_list = scenes_data["hooks"][room_name][obj_name] #повтор для цикла
+        $ hooks_list = scenes_data["hooks"][room_name][hook_obj_name] #повтор для цикла
 
-        if _return != True: #для продолжения череды выполнения хуков, надо возвращать True
+        if _return == False: #для продолжения череды выполнения хуков, надо возвращать не False
             return _return
         label .hooks_call_loop2:
             $ idx = idx - 1

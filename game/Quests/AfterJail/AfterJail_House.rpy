@@ -39,16 +39,28 @@ label afterJailHouse_dialogue8: #bed
 
 
 label afterJailHouse_dialogue10: #бетти запретила
-    mt "Бетти запретила мне заходить сюда."
+    if lastSceneName != "bathroom_shower":
+        mt "Бетти запретила мне заходить сюда."
     return
 
 
 label afterJailHouse_dialogue15:
-    mt "Бетти запретила мне появляться на кухне... Так что в этом доме я остаюсь без еды..."
+    if lastSceneName != "kitchen2":
+        mt "Бетти запретила мне появляться на кухне... Так что в этом доме я остаюсь без еды..."
+    return
+label afterJailHouse_dialogue15b:
+    if lastSceneName != "kitchen":
+        mt "Бетти запретила мне появляться на кухне... Так что в этом доме я остаюсь без еды..."
+    return
+label afterJailHouse_dialogue15a:
+    mt "Бетти запретила мне притрагиваться к чему-либо..."
+    "Мне лучше уйти отсюда скорее, пока она не заметила меня!"
+    call change_scene("floor1")
     return
 
 label afterJailHouse_dialogue16a:
-    mt "Эту спальню заняли новые хозяева. Мне нежелательно сюда заходить..."
+    if lastSceneName != "bedroom1":
+        mt "Эту спальню заняли новые хозяева. Мне нежелательно сюда заходить..."
     return
 
 

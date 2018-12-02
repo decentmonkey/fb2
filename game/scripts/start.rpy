@@ -16,8 +16,8 @@ label start:
 #    jump credits
     $ debugMode = True
 
-    $ cloth_type = "Whore"
-    $ cloth = "Whore"
+    $ cloth_type = "Nude"
+    $ cloth = "Nude"
 
     $ gameStage = 0
     $ gameSubStage = 0
@@ -28,8 +28,8 @@ label start:
     $ game_version1_screen_ready_to_render = True
     $ zoom_factor = 1
 
-    $ day_time = "evening"
-    $ day_suffix = "_Evening"
+    $ day_time = "day"
+    $ day_suffix = ""
     $ day = 1
     $ week_day = (day-1)%7
     $ money = 0.0
@@ -76,12 +76,34 @@ label start:
     $ scene_name = "none"
     $ api_scene_name = "none"
     call locations_init()
+    call citizens_init()
 
     $ add_hook("exit_scene", "hook_basement_bedroom2_change_view_to_suffix3", scene="basement_bedroom2")
+    # Запрет Бетти ходить по дому
+    $ add_hook("enter_scene", "afterJailHouse_dialogue10", scene="bathroom_bath", label="betty_forbidden")
+    $ add_hook("enter_scene", "afterJailHouse_dialogue15", scene="kitchen", label="betty_forbidden")
+    $ add_hook("enter_scene", "afterJailHouse_dialogue15b", scene="kitchen2", label="betty_forbidden")
+    $ add_hook("enter_scene", "afterJailHouse_dialogue16a", scene="bedroom2", label="betty_forbidden")
 
+    # Проверка одежды при хождении по дому и покидании его
+    $ add_hook("exit_scene", "hook_basement_bedroom_check_exit_cloth", scene="basement_bedroom1")
+    $ add_hook("exit_scene", "hook_basement_bedroom_check_exit_cloth", scene="basement_bedroom2")
+    $ add_hook("exit_scene", "hook_basement_bedroom_check_exit_cloth", scene="basement_bedroom_cupboard")
+    $ add_hook("exit_scene", "hook_basement_bedroom_check_exit_cloth", scene="basement_bedroom_table")
+    $ add_hook("map_teleport", "hook_basement_bedroom_check_exit_cloth_map", scene="global")
+    $ add_hook("Gates", "hook_basement_bedroom_check_exit_cloth_gates", scene="street_house_gate")
+
+    # Ситизены
+    $ add_hook("change_time_day", "citizens_init_day", scene="global")
+    $ add_hook("change_time_evening", "citizens_init_evening", scene="global")
+
+
+#    $ remove_hook(label="betty_forbidden", scene="House", recursive=True)
     call change_scene("basement_bedroom2")
 
     $ scene_transition = "Fade_long"
+
+    $ changeDayTime("evening")
 #    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
 #    $ print scene_data
 
