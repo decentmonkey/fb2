@@ -175,7 +175,9 @@ init python:
 #        print priority_list
         return hooks_list_sorted
 
-label process_hooks(obj_name, room_name = False):
+label process_hooks(obj_name, room_name = False, sprites_hover_dummy_screen = False):
+    $ _return = None
+
     if room_name == False:
         $ room_name = api_scene_name
 
@@ -197,6 +199,9 @@ label process_hooks(obj_name, room_name = False):
         $ last_hook_obj_name = obj_name
         $ last_hook_label = label_name
         if label_name not in processed_hooks: #если во время вызова стерлись несколько хуков и список сдвинулся. Защита от повторения
+            if sprites_hover_dummy_screen == True:
+                show screen sprites_hover_dummy_screen()
+                $ sprites_hover_dummy_screen = False
             call expression label_name #вызов хука
         $ stack_data = hooks_stack.pop()
         $ label_name = stack_data[2]
@@ -211,7 +216,7 @@ label process_hooks(obj_name, room_name = False):
         $ hooks_list = scenes_data["hooks"][room_name][obj_name] #повтор для цикла
 
         if _return != True: #для продолжения череды выполнения хуков, надо возвращать True
-            return
+            return _return
         label .hooks_call_loop2:
             $ idx = idx - 1
             if idx >= len(hooks_list):
@@ -221,4 +226,4 @@ label process_hooks(obj_name, room_name = False):
             jump .hooks_call_loop
 
 
-    return
+    return _return

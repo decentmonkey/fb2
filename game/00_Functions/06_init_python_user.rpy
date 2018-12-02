@@ -21,17 +21,20 @@ init python:
 
 
     def changeDayTime(dayTime):
-        global day_time, day_suffix, day
+        global day_time, day_suffix, day, week_day, scene_name
         if dayTime == day_time:
             return
         if dayTime == "evening":
             day_time = "evening"
             day_suffix = "_Evening"
+            renpy.call("process_hooks", "change_time_evening", "global")
             return
         if dayTime == "day":
             day_time = "day"
             day_suffix = ""
             day = day + 1
+            week_day = (day-1)%7
+            renpy.call("process_hooks", "change_time_day", "global")
             return
         return
 

@@ -2,6 +2,7 @@ default pause_enter = 0
 default pause_exit = 0
 default sceneStages = []
 default lastSceneName = False
+default refreshed_scene_name = False
 default game_version1_screen_ready_to_render = False
 
 label show_scene:
@@ -51,7 +52,7 @@ label show_scene_now:
             $ renpy.pause(0.7, hard=True)
 
     $ renpy.scene()
-    $ scene_image_file = get_image_filename(scene_image, True)
+    $ scene_image_file = get_image_filename(parse_str(scene_image), True)
     $ scene_refresh_flag == False
     show screen show_image_screen(scene_image_file)
     $ image_screen_scene_flag = True
@@ -65,7 +66,9 @@ label show_scene_now:
     define idle_len = 0.0
     $ parse_transition_flag = True
     $ interface_blocked_flag = False
-    show screen screen_sprites(scenes_data)
+
+    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
+    show screen screen_sprites(scene_data)
     if parse_transition_flag == True:
         if scene_transition != False and gui.scenes_transitions == True:
             if scene_transition == "Fade":
@@ -74,12 +77,17 @@ label show_scene_now:
                 with Dissolve(0.7)
     $ scene_transition = False
 
-    if scenes_data["autorun"].has_key(scene_name):
-        $ autorunFunc = scenes_data["autorun"][scene_name]
-        $ del scenes_data["autorun"][scene_name]
+    if refreshed_scene_name != scene_name:
+        call process_hooks("enter_scene", scene_name) #хук вызывается после входа на сцену и отрисовки (как autorun)
+
+    if scenes_data["autorun"].has_key(scene_name) and scenes_data["autorun"][scene_name].has_key("scene"):
+        $ autorunFunc = scenes_data["autorun"][scene_name]["scene"]
+        $ del scenes_data["autorun"][scene_name]["scene"]
         show screen sprites_hover_dummy_screen()
-        call expression autorunFunc from _call_expression_7
+        call expression autorunFunc
         jump show_scene
+
+
 
 label show_scene_loop:
     $ pause_enter += 1
@@ -92,6 +100,9 @@ label show_scene_loop:
 
 
 label change_scene(new_scene_name, in_transition_name="Fade", in_sound_name="highheels_short_walk"):
+    call process_hooks("exit_scene", scene_name) #хук выхода со сцены
+    if _return = False: #Если False, то прерываем смену сцены
+        return
     $ sceneIsStreet = False
     $ scene_transition = in_transition_name
     $ scene_sound = in_sound_name
@@ -99,16 +110,20 @@ label change_scene(new_scene_name, in_transition_name="Fade", in_sound_name="hig
 #    $ scene_label = get_scene_label(scene_label)
     $ lastSceneName = scene_name
     $ scene_name = new_scene_name
+    $ refreshed_scene_name = False
     $ scene_caption = scenes_data["objects"][scene_name]["data"]["caption"]
     $ api_scene_name = new_scene_name
+
+    call process_hooks("before_open", scene_name) #хук до инициализации сцены
     call expression scene_label
+    call process_hooks("open", scene_name) #хук сразу после инициализации сцены
     return
 
 label refresh_scene():
     $ scene_refresh_flag = True
     $ show_scene_loop_flag = True
     $ lastSceneName = scene_name
-    call expression scene_name 
+    call expression scene_name
     return
 
 label refresh_scene_fade():

@@ -1,6 +1,3 @@
-default dickSearch = False
-default hotelVisited = False
-default homeVisited = False
 default gameStage = 0
 default gameSubStage = 0
 default afterJail = False
@@ -11,15 +8,23 @@ default sceneIsStreet = False
 
 label start:
 #    jump credits
+    $ cloth_type = "Nude"
+    $ cloth = "Nude"
+
+    $ gameStage = 0
+    $ gameSubStage = 0
+    $ afterJail = True
+    $ rain = False
+    $ sceneIsStreet = False
+
     $ game_version1_screen_ready_to_render = True
-    $ cloth_type = "Lingerie"
-    $ cloth = "Lingerie1"
     $ zoom_factor = 1
 
     define day_time = "day"
     $ day_suffix = ""
     $ day = 1
-    $ money = 100000000.0
+    $ week_day = (day-1)%7
+    $ money = 0.0
     $ scenes_data = {"objects": {}, "substs" : {}, "autorun": {}}
     $ inventory_objects = {}
     $ inventory = []
@@ -27,23 +32,23 @@ label start:
     $ hud_preset_current = "default"
     $ bitchmeterValue = 280
 
-    call game_init from _call_game_init
-    python:
-        for i in renpy.exports.get_image_load_log():
-            print i
+    call game_init()
+#    python:
+#        for i in renpy.exports.get_image_load_log():
+#            print i
 
     $ map_objects = {
-            "Teleport_Monica_Office" : {"text" : _("ОФИС МОНИКИ"), "xpos" : 882, "ypos" : 320, "base" : "map_marker", "state" : "visible"},
-            "Teleport_Street_Corner" : {"text" : _("УГОЛ УЛИЦЫ"), "xpos" : 124, "ypos" : 476, "base" : "map_marker", "state" : "invisible"},
-            "Teleport_Dick_Office" : {"text" : _("ОФИС ДИКА"), "xpos" : 1370, "ypos" : 127, "base" : "map_marker", "state" : "invisible"},
-            "Teleport_Gas_Station" : {"text" : _("ЗАПРАВКА"), "xpos" : 1125, "ypos" : 910, "base" : "map_marker", "state" : "invisible"},
-            "Teleport_Police" : {"text" : _("ПОЛИЦИЯ"), "xpos" : 912, "ypos" : 809, "base" : "map_marker", "state" : "invisible"},
-            "Teleport_Rich_Hotel" : {"text" : _("ОТЕЛЬ ЛЯ ГРАНД"), "xpos" : 1782, "ypos" : 593, "base" : "map_marker", "state" : "invisible"},
-            "Teleport_Fitness" : {"text" : _("ФИТНЕСС"), "xpos" : 356, "ypos" : 411, "base" : "map_marker", "state" : "invisible"},
-            "Teleport_Steve_Office" : {"text" : _("ОФИС СТИВА"), "xpos" : 1333, "ypos" : 724, "base" : "map_marker", "state" : "invisible"},
-            "Teleport_Bank" : {"text" : _("БАНК"), "xpos" : 1212, "ypos" : 439, "base" : "map_marker", "state" : "invisible"},
-            "Teleport_Cloth_Shop" : {"text" : _("МАГАЗИН ОДЕЖДЫ"), "xpos" : 340, "ypos" : 901, "base" : "map_marker", "state" : "invisible"},
-            "Teleport_Street_Corner" : {"text" : _("УГОЛ УЛИЦЫ"), "xpos" : 88, "ypos" : 942, "base" : "map_marker", "state" : "invisible"},
+            "Teleport_Monica_Office" : {"text" : _("ОФИС МОНИКИ"), "xpos" : 882, "ypos" : 320, "base" : "map_marker", "state" : "active"},
+            "Teleport_Street_Corner" : {"text" : _("УГОЛ УЛИЦЫ"), "xpos" : 124, "ypos" : 476, "base" : "map_marker", "state" : "active"},
+            "Teleport_Dick_Office" : {"text" : _("ОФИС ДИКА"), "xpos" : 1370, "ypos" : 127, "base" : "map_marker", "state" : "active"},
+            "Teleport_Gas_Station" : {"text" : _("ЗАПРАВКА"), "xpos" : 1125, "ypos" : 910, "base" : "map_marker", "state" : "active"},
+            "Teleport_Police" : {"text" : _("ПОЛИЦИЯ"), "xpos" : 912, "ypos" : 809, "base" : "map_marker", "state" : "active"},
+            "Teleport_Rich_Hotel" : {"text" : _("ОТЕЛЬ ЛЯ ГРАНД"), "xpos" : 1782, "ypos" : 593, "base" : "map_marker", "state" : "active"},
+            "Teleport_Fitness" : {"text" : _("ФИТНЕСС"), "xpos" : 356, "ypos" : 411, "base" : "map_marker", "state" : "active"},
+            "Teleport_Steve_Office" : {"text" : _("ОФИС СТИВА"), "xpos" : 1333, "ypos" : 724, "base" : "map_marker", "state" : "active"},
+            "Teleport_Bank" : {"text" : _("БАНК"), "xpos" : 1212, "ypos" : 439, "base" : "map_marker", "state" : "active"},
+            "Teleport_Cloth_Shop" : {"text" : _("МАГАЗИН ОДЕЖДЫ"), "xpos" : 340, "ypos" : 901, "base" : "map_marker", "state" : "active"},
+            "Teleport_Street_Corner" : {"text" : _("УГОЛ УЛИЦЫ"), "xpos" : 88, "ypos" : 942, "base" : "map_marker", "state" : "active"},
             "Teleport_House" : {"text" : _("ДОМ МОНИКИ"), "xpos" : 95, "ypos" : 798, "base" : "map_marker_house", "state" : "active"}
     }
 #mousedown_3, hide_windows
@@ -54,12 +59,9 @@ label start:
 
     $ scene_refresh_flag = True
     $ map_enabled = False
-    call intro_scene() from _call_intro_scene
-
-    $ add_objective("monica_wakeup", _("Разбудить Монику"), c_green, 0)
-
+    call basement_bedroom2()
     $ scene_transition = "Fade_long"
-    $ autorun_to_object("intro_scene", "intro_scene_start")
+#    $ autorun_to_object("intro_scene", "intro_scene_start")
     jump show_scene
 
 label start_new_game:

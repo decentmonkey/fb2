@@ -251,6 +251,9 @@ default police_entrance_policeman1_talked = False
 default police_entrance_policeman2_talked = False
 default richHotelClosed1 = False
 default catchSteveInProgress = True
+default dickSearch = False
+default hotelVisited = False
+default homeVisited = False
 
 # Monkeys
 default monicaMonkeysStage = 0

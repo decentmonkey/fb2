@@ -161,11 +161,11 @@ label game_init:
 #    $ print(config.keymap)
     $ config.log = True
 
-    call define_autorun() from _call_define_autorun
+    call define_autorun()
 
-    $ bitchmeter_places = {}
+#    $ bitchmeter_places = {}
 
-    $ objectives_list = []
+#    $ objectives_list = []
 
 #    $ map_enabled = False
 

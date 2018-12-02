@@ -125,7 +125,7 @@ screen credits_screen(creditsList):
                     style "credits_line1"
                 $ ptr = ptr + gui.credits.offset5
 
-screen screen_sprites(scenes_data):
+screen screen_sprites(data):
     zorder 10
     layer "master"
     default idle_num = 0.0
@@ -154,7 +154,7 @@ screen screen_sprites(scenes_data):
                     Call("call_save")
                 ]
 
-            $ data = scenes_data["objects"][scene_name] if scene_name in scenes_data["objects"] else False
+#            $ data = scenes_data["objects"][scene_name] if scene_name in scenes_data["objects"] else False
             if data != False and game_version1_screen_ready_to_render == True:
                 $ zorder_list = []
                 $ for i in data: zorder_list.append([i, data[i]["zorder"]])
@@ -162,240 +162,241 @@ screen screen_sprites(scenes_data):
 #                $ print zorder_list
                 for zorder_ptr in zorder_list:
                     $ i = zorder_ptr[0]
-                    $ tooltip_data = data[i]["tooltip"] if "tooltip" in data[i] else False
-                    $ day_time_suffix = "_" + day_time if day_time in ["evening"] else ""
-                    $ brightness_adjustment = 0.1
-                    $ saturation_adjustment = 1.0
-                    $ contrast_adjustment = 1.2
-                    if data[i]["type"] == 0 :
-                        $ varName = data[i]["text"]
-                        text "[varName]"
+                    if data[i].has_key("active") == False or data[i]["active"] == True:
+                        $ tooltip_data = data[i]["tooltip"] if "tooltip" in data[i] else False
+                        $ day_time_suffix = "_" + day_time if day_time in ["evening"] else ""
+                        $ brightness_adjustment = 0.1
+                        $ saturation_adjustment = 1.0
+                        $ contrast_adjustment = 1.2
+                        if data[i]["type"] == 0 :
+                            $ varName = data[i]["text"]
+                            text "[varName]"
 
-                    $ mask_canvas_offset = data[i]["canvas_img" + day_time_suffix + "_mask"] if data[i].has_key("canvas_img" + day_time_suffix + "_mask") != False else data[i]["canvas_img_mask"] if data[i].has_key("canvas_img_mask") != False else False
-                    $ canvas_offset = data[i]["canvas_img" + day_time_suffix] if data[i].has_key("canvas_img" + day_time_suffix) != False else data[i]["canvas_img"] if data[i].has_key("canvas_img") else False
-                    if canvas_offset == False:
-                        $ canvas_offset = mask_canvas_offset
-                    $ overlay_canvas_offset = data[i]["canvas_img" + day_time_suffix + "_overlay"] if data[i].has_key("canvas_img" + day_time_suffix + "_overlay") != False else data[i]["canvas_img_overlay"] if data[i].has_key("canvas_img_overlay") else False
+                        $ mask_canvas_offset = data[i]["canvas_img" + day_time_suffix + "_mask"] if data[i].has_key("canvas_img" + day_time_suffix + "_mask") != False else data[i]["canvas_img_mask"] if data[i].has_key("canvas_img_mask") != False else False
+                        $ canvas_offset = data[i]["canvas_img" + day_time_suffix] if data[i].has_key("canvas_img" + day_time_suffix) != False else data[i]["canvas_img"] if data[i].has_key("canvas_img") else False
+                        if canvas_offset == False:
+                            $ canvas_offset = mask_canvas_offset
+                        $ overlay_canvas_offset = data[i]["canvas_img" + day_time_suffix + "_overlay"] if data[i].has_key("canvas_img" + day_time_suffix + "_overlay") != False else data[i]["canvas_img_overlay"] if data[i].has_key("canvas_img_overlay") else False
 
-                    if data[i]["type"] == 2: #overlay image, with mask (if exists)
-#                        $ print data[i]
-                        $ spriteImageStr = data[i]["img" + day_time_suffix] if data[i]["img" + day_time_suffix] != False else data[i]["img"] if data[i]["img"] != False else scene_image_file
-                        $ maskName = data[i]["img" + day_time_suffix + "_mask"] if data[i]["img" + day_time_suffix + "_mask"] != False else data[i]["img" +"_mask"] if data[i]["img" +"_mask"] != False else False
-#                        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskName)),zoom_factor) if maskName != False else im.FactorScale(Image(spriteImageStr),zoom_factor)
-#                        if data[i].has_key("name") and data[i]["name"] == "Spot":
-#                            $ print data[i]
-                        if canvas_offset != False and spriteImageStr == scene_image_file:
-#                            $ idleImg = Image(spriteImageStr)
-                            $ maskImage = Image(maskName)
-                            $ maskImageSize = getImageSize(maskImage, maskName)
-                            $ canvas_offset[2] = canvas_offset[0] + maskImageSize[1] - 1
-                            $ canvas_offset[3] = canvas_offset[1] + maskImageSize[0] - 1
-                            $ croppedImg = im.Crop(spriteImageStr, (canvas_offset[1], canvas_offset[0], canvas_offset[3]-canvas_offset[1]+1, canvas_offset[2] - canvas_offset[0]+1))
-                            $ idleImg = im.AlphaMask(croppedImg, maskImage) if maskName != False else Image(spriteImageStr)
-                        else:
-#                            $ idleImg = Image(spriteImageStr)
-                            $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskName)) if maskName != False else Image(spriteImageStr)
-                        $ overlayName = data[i]["img" + day_time_suffix + "_overlay"] if data[i]["img" + day_time_suffix + "_overlay"] != False else data[i]["img" + "_overlay"] if data[i]["img" + "_overlay"] != False else False
-                        $ hoverImg = idleImg
-                        if overlayName != False:
-                            add overlayName at convert_resolution_transform:
-                                if overlay_canvas_offset != False:
-                                    xpos overlay_canvas_offset[1]
-                                    ypos overlay_canvas_offset[0]
-                                if data[i].has_key("xsprite") and data[i].has_key("ysprite"):
-                                    xpos int(float(data[i]["xsprite"]) / 1920.0 * config.screen_width)
-                                    ypos int(float(data[i]["ysprite"]) / 1080.0 * config.screen_height)
-                            if data[i]["hover_overlay"] == True:
-                                if overlay_canvas_offset != False and mask_canvas_offset != False:
-                                    $ overlayImage = Image(overlayName)
-                                    $ overlayImageSize = getImageSize(overlayImage, overlayName)
-                                    $ overlay_canvas_offset[2] = overlay_canvas_offset[0] + overlayImageSize[1] - 1
-                                    $ overlay_canvas_offset[3] = overlay_canvas_offset[1] + overlayImageSize[0] - 1
-                                    $ maskCompositeImage = im.Composite((overlay_canvas_offset[3] - overlay_canvas_offset[1] + 1, overlay_canvas_offset[2] - overlay_canvas_offset[0]+1), (mask_canvas_offset[1] - overlay_canvas_offset[1], mask_canvas_offset[0] - overlay_canvas_offset[0]), maskName)
-                                    $ hoverImg = im.AlphaMask(Image(overlayName), maskCompositeImage)
-                                else:
-                                    $ hoverImg = im.AlphaMask(Image(overlayName), Image(maskName)) if maskName != False else Image(overlayName)
-
-#                                $ hoverImg = im.FactorScale(im.AlphaMask(Image(overlayName), Image(maskName)),zoom_factor) if maskName != False else im.FactorScale(Image(overlayName),zoom_factor)
-                        if spriteImageStr != scene_image_file:
-                            add idleImg:
-                                if canvas_offset != False:
-                                    xpos canvas_offset[1]
-                                    ypos canvas_offset[0]
-                                if data[i].has_key("xsprite") and data[i].has_key("ysprite"):
-                                    xpos int(float(data[i]["xsprite"]) / 1920.0 * config.screen_width)
-                                    ypos int(float(data[i]["ysprite"]) / 1080.0 * config.screen_height)
-                        if spriteImageStr == scene_image_file: #добавляем яркость на фоновых предметах
-                            $ brightness_adjustment = 0.1
-                            $ saturation_adjustment = 1.07
-                            $ contrast_adjustment = 1.3
-                        $ if data[i].has_key("b") == True: brightness_adjustment = data[i]["b"]
-                        $ if data[i].has_key("s") == True: saturation_adjustment = data[i]["s"]
-                        $ if data[i].has_key("c") == True: contrast_adjustment = data[i]["c"]
-                        $ tint_adjustment = False
-                        $ if data[i].has_key("tint") == True: tint_adjustment = data[i]["tint"]
-                        if data[i].has_key("hover_enabled") == False or data[i]["hover_enabled"] == True:
-                            if tint_adjustment != False:
-                                $ hoveredImage = im.MatrixColor(
-                                    idleImg,
-                                    im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
-                                )
+                        if data[i]["type"] == 2: #overlay image, with mask (if exists)
+    #                        $ print data[i]
+                            $ spriteImageStr = data[i]["img" + day_time_suffix] if data[i]["img" + day_time_suffix] != False else data[i]["img"] if data[i]["img"] != False else scene_image_file
+                            $ maskName = data[i]["img" + day_time_suffix + "_mask"] if data[i]["img" + day_time_suffix + "_mask"] != False else data[i]["img" +"_mask"] if data[i]["img" +"_mask"] != False else False
+    #                        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskName)),zoom_factor) if maskName != False else im.FactorScale(Image(spriteImageStr),zoom_factor)
+    #                        if data[i].has_key("name") and data[i]["name"] == "Spot":
+    #                            $ print data[i]
+                            if canvas_offset != False and spriteImageStr == scene_image_file:
+    #                            $ idleImg = Image(spriteImageStr)
+                                $ maskImage = Image(maskName)
+                                $ maskImageSize = getImageSize(maskImage, maskName)
+                                $ canvas_offset[2] = canvas_offset[0] + maskImageSize[1] - 1
+                                $ canvas_offset[3] = canvas_offset[1] + maskImageSize[0] - 1
+                                $ croppedImg = im.Crop(spriteImageStr, (canvas_offset[1], canvas_offset[0], canvas_offset[3]-canvas_offset[1]+1, canvas_offset[2] - canvas_offset[0]+1))
+                                $ idleImg = im.AlphaMask(croppedImg, maskImage) if maskName != False else Image(spriteImageStr)
                             else:
-                                $ hoveredImage = im.MatrixColor(
-                                    hoverImg,
-                                    im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment)
-                                )
-                            imagebutton:
-                                if canvas_offset != False:
-                                    xpos canvas_offset[1]
-                                    ypos canvas_offset[0]
+    #                            $ idleImg = Image(spriteImageStr)
+                                $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskName)) if maskName != False else Image(spriteImageStr)
+                            $ overlayName = data[i]["img" + day_time_suffix + "_overlay"] if data[i]["img" + day_time_suffix + "_overlay"] != False else data[i]["img" + "_overlay"] if data[i]["img" + "_overlay"] != False else False
+                            $ hoverImg = idleImg
+                            if overlayName != False:
+                                add overlayName at convert_resolution_transform:
+                                    if overlay_canvas_offset != False:
+                                        xpos overlay_canvas_offset[1]
+                                        ypos overlay_canvas_offset[0]
+                                    if data[i].has_key("xsprite") and data[i].has_key("ysprite"):
+                                        xpos int(float(data[i]["xsprite"]) / 1920.0 * config.screen_width)
+                                        ypos int(float(data[i]["ysprite"]) / 1080.0 * config.screen_height)
                                 if data[i]["hover_overlay"] == True:
-                                    xpos overlay_canvas_offset[1]
-                                    ypos overlay_canvas_offset[0]
+                                    if overlay_canvas_offset != False and mask_canvas_offset != False:
+                                        $ overlayImage = Image(overlayName)
+                                        $ overlayImageSize = getImageSize(overlayImage, overlayName)
+                                        $ overlay_canvas_offset[2] = overlay_canvas_offset[0] + overlayImageSize[1] - 1
+                                        $ overlay_canvas_offset[3] = overlay_canvas_offset[1] + overlayImageSize[0] - 1
+                                        $ maskCompositeImage = im.Composite((overlay_canvas_offset[3] - overlay_canvas_offset[1] + 1, overlay_canvas_offset[2] - overlay_canvas_offset[0]+1), (mask_canvas_offset[1] - overlay_canvas_offset[1], mask_canvas_offset[0] - overlay_canvas_offset[0]), maskName)
+                                        $ hoverImg = im.AlphaMask(Image(overlayName), maskCompositeImage)
+                                    else:
+                                        $ hoverImg = im.AlphaMask(Image(overlayName), Image(maskName)) if maskName != False else Image(overlayName)
 
-                                if data[i].has_key("xsprite") and data[i].has_key("ysprite"):
-                                    xpos int(float(data[i]["xsprite"]) / 1920.0 * config.screen_width)
-                                    ypos int(float(data[i]["ysprite"]) / 1080.0 * config.screen_height)
-                                idle hoveredImage
-                                hover hoveredImage
-                                hovered SetScreenVariable("idle_num", 0.4)
-                                at imagebutton_hover_type1(idle_num)
-                                focus_mask True
-                                if data[i]["actions"] == "l": #если объекту не заданы действия кроме просмотра, то не выводим доп. меню
-                                    action [
-                                        Call("process_object_click", data[i]["click"], i, data[i]),
+    #                                $ hoverImg = im.FactorScale(im.AlphaMask(Image(overlayName), Image(maskName)),zoom_factor) if maskName != False else im.FactorScale(Image(overlayName),zoom_factor)
+                            if spriteImageStr != scene_image_file:
+                                add idleImg:
+                                    if canvas_offset != False:
+                                        xpos canvas_offset[1]
+                                        ypos canvas_offset[0]
+                                    if data[i].has_key("xsprite") and data[i].has_key("ysprite"):
+                                        xpos int(float(data[i]["xsprite"]) / 1920.0 * config.screen_width)
+                                        ypos int(float(data[i]["ysprite"]) / 1080.0 * config.screen_height)
+                            if spriteImageStr == scene_image_file: #добавляем яркость на фоновых предметах
+                                $ brightness_adjustment = 0.1
+                                $ saturation_adjustment = 1.07
+                                $ contrast_adjustment = 1.3
+                            $ if data[i].has_key("b") == True: brightness_adjustment = data[i]["b"]
+                            $ if data[i].has_key("s") == True: saturation_adjustment = data[i]["s"]
+                            $ if data[i].has_key("c") == True: contrast_adjustment = data[i]["c"]
+                            $ tint_adjustment = False
+                            $ if data[i].has_key("tint") == True: tint_adjustment = data[i]["tint"]
+                            if data[i].has_key("hover_enabled") == False or data[i]["hover_enabled"] == True:
+                                if tint_adjustment != False:
+                                    $ hoveredImage = im.MatrixColor(
+                                        idleImg,
+                                        im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
+                                    )
+                                else:
+                                    $ hoveredImage = im.MatrixColor(
+                                        hoverImg,
+                                        im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment)
+                                    )
+                                imagebutton:
+                                    if canvas_offset != False:
+                                        xpos canvas_offset[1]
+                                        ypos canvas_offset[0]
+                                    if data[i]["hover_overlay"] == True:
+                                        xpos overlay_canvas_offset[1]
+                                        ypos overlay_canvas_offset[0]
+
+                                    if data[i].has_key("xsprite") and data[i].has_key("ysprite"):
+                                        xpos int(float(data[i]["xsprite"]) / 1920.0 * config.screen_width)
+                                        ypos int(float(data[i]["ysprite"]) / 1080.0 * config.screen_height)
+                                    idle hoveredImage
+                                    hover hoveredImage
+                                    hovered SetScreenVariable("idle_num", 0.4)
+                                    at imagebutton_hover_type1(idle_num)
+                                    focus_mask True
+                                    if data[i]["actions"] == "l": #если объекту не заданы действия кроме просмотра, то не выводим доп. меню
+                                        action [
+                                            Call("process_object_click", data[i]["click"], i, data[i]),
+                                        ]
+                                    else:
+                                        action [
+                                            Show("action_menu_screen", None, data[i]["click"], i, data[i]),
+                                        ]
+
+    #                                alternate Show("action_menu_screen", None, data[i]["click"], i, data[i])
+                                    alternate Call("call_save")
+
+                        if data[i]["type"] == 3: #text with image
+                            $ button_layout = data[i]["layout"] if data[i].has_key("layout") else text_button_default_layout
+                            $ tint_adjustment = [1.0, 1.0, 1.0]
+                            $ if data[i].has_key("b") == True: brightness_adjustment = data[i]["b"]
+                            $ if data[i].has_key("s") == True: saturation_adjustment = data[i]["s"]
+                            $ if data[i].has_key("c") == True: contrast_adjustment = data[i]["c"]
+                            $ if data[i].has_key("tint") == True: tint_adjustment = data[i]["tint"]
+                            $ spriteStr = data[i]["img" + day_time_suffix] if data[i]["img" + day_time_suffix] != False else data[i]["img"] if data[i]["img"] != False else False
+                            $ maskStr = data[i]["img" + day_time_suffix + "_mask"] if data[i]["img" + day_time_suffix + "_mask"] != False else data[i]["img" +"_mask"] if data[i]["img" +"_mask"] != False else False
+                            $ if spriteStr != False: maskStr = False #убираем маску если есть спрайт
+                            $ overlayName = data[i]["img" + day_time_suffix + "_overlay"] if data[i]["img" + day_time_suffix + "_overlay"] != False else data[i]["img" + "_overlay"] if data[i]["img" + "_overlay"] != False else False
+
+                            $ left_arrow = data[i]["larrow"]
+                            $ right_arrow = data[i]["rarrow"]
+                            $ disableSprite = False
+                            $ if spriteStr == False and maskStr == False and overlayName == False: disableSprite = True
+                            if overlayName != False:
+                                add overlayName at convert_resolution_transform:
+                                    if overlay_canvas_offset != False:
+                                        xpos overlay_canvas_offset[1]
+                                        ypos overlay_canvas_offset[0]
+                                    if data[i].has_key("xsprite") and data[i].has_key("ysprite"):
+                                        xpos int(float(data[i]["xsprite"]) / 1920.0 * config.screen_width)
+                                        ypos int(float(data[i]["ysprite"]) / 1080.0 * config.screen_height)
+                                    if data[i].has_key("sprite_align"):
+                                        if data[i]["sprite_align"] == "dc":
+                                            anchor (0.5, 1.0)
+
+                            $ object_z_order = int(data[i]["zorder"])
+                            $ highSpriteHover = False
+                            $ if data[i].has_key("high_sprite_hover") and data[i]["high_sprite_hover"] == True: highSpriteHover = True #ебаный костыль из-за тупого ренпи!!!
+                            button:
+                                xpos int(float(data[i]["xpos"]) / 1920.0 * config.screen_width)
+                                ypos int(float(data[i]["ypos"]) / 1080.0 * config.screen_height)
+                                anchor (0.5,0.5)
+                                frame:
+                                    background Solid("#18181a")
+                                    margin (0,0)
+                                    padding text_button_layouts[button_layout]["text_button.padding"]
+                                    style "sprite_textbutton_frm"
+                                    hbox:
+                                        if left_arrow != False:
+                                            null:
+                                                width text_button_layouts[button_layout]["text_button.spacing1"]
+                                            add left_arrow:
+                                                yalign 0.5
+                                        null:
+                                            width text_button_layouts[button_layout]["text_button.spacing2"]
+                                        text __(data[i]["text"]) style text_button_layouts[button_layout]["text_button.style"]
+                                        null:
+                                            width text_button_layouts[button_layout]["text_button.spacing2"]
+                                        if right_arrow != False:
+                                            add right_arrow:
+                                                yalign 0.5
+                                            null:
+                                                width text_button_layouts[button_layout]["text_button.spacing1"]
+
+                                if highSpriteHover == False:
+                                    hovered [
+                                        Show("hover_text_sprite", None, spriteStr, maskStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data[i], canvas_offset)
+    #                                   With(dissolve)
                                     ]
                                 else:
-                                    action [
-                                        Show("action_menu_screen", None, data[i]["click"], i, data[i]),
+                                    hovered [
+                                        Show("hover_text_sprite_high_hover_sprite", None, spriteStr, maskStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data[i], canvas_offset)
+    #                                   With(dissolve)
                                     ]
+                                if highSpriteHover == False:
+                                    unhovered [
+                                        Hide("hover_text_sprite", Dissolve(0.4)),
+                                    ]
+                                else:
+                                    unhovered [
+                                        Hide("hover_text_sprite_high_hover_sprite", Dissolve(0.4)),
+                                    ]
+                                action Call("process_object_click", data[i]["click"], i, data[i])
 
-#                                alternate Show("action_menu_screen", None, data[i]["click"], i, data[i])
-                                alternate Call("call_save")
-
-                    if data[i]["type"] == 3: #text with image
-                        $ button_layout = data[i]["layout"] if data[i].has_key("layout") else text_button_default_layout
-                        $ tint_adjustment = [1.0, 1.0, 1.0]
-                        $ if data[i].has_key("b") == True: brightness_adjustment = data[i]["b"]
-                        $ if data[i].has_key("s") == True: saturation_adjustment = data[i]["s"]
-                        $ if data[i].has_key("c") == True: contrast_adjustment = data[i]["c"]
-                        $ if data[i].has_key("tint") == True: tint_adjustment = data[i]["tint"]
-                        $ spriteStr = data[i]["img" + day_time_suffix] if data[i]["img" + day_time_suffix] != False else data[i]["img"] if data[i]["img"] != False else False
-                        $ maskStr = data[i]["img" + day_time_suffix + "_mask"] if data[i]["img" + day_time_suffix + "_mask"] != False else data[i]["img" +"_mask"] if data[i]["img" +"_mask"] != False else False
-                        $ if spriteStr != False: maskStr = False #убираем маску если есть спрайт
-                        $ overlayName = data[i]["img" + day_time_suffix + "_overlay"] if data[i]["img" + day_time_suffix + "_overlay"] != False else data[i]["img" + "_overlay"] if data[i]["img" + "_overlay"] != False else False
-
-                        $ left_arrow = data[i]["larrow"]
-                        $ right_arrow = data[i]["rarrow"]
-                        $ disableSprite = False
-                        $ if spriteStr == False and maskStr == False and overlayName == False: disableSprite = True
-                        if overlayName != False:
-                            add overlayName at convert_resolution_transform:
-                                if overlay_canvas_offset != False:
-                                    xpos overlay_canvas_offset[1]
-                                    ypos overlay_canvas_offset[0]
-                                if data[i].has_key("xsprite") and data[i].has_key("ysprite"):
-                                    xpos int(float(data[i]["xsprite"]) / 1920.0 * config.screen_width)
-                                    ypos int(float(data[i]["ysprite"]) / 1080.0 * config.screen_height)
-                                if data[i].has_key("sprite_align"):
-                                    if data[i]["sprite_align"] == "dc":
-                                        anchor (0.5, 1.0)
-
-                        $ object_z_order = int(data[i]["zorder"])
-                        $ highSpriteHover = False
-                        $ if data[i].has_key("high_sprite_hover") and data[i]["high_sprite_hover"] == True: highSpriteHover = True #ебаный костыль из-за тупого ренпи!!!
-                        button:
-                            xpos int(float(data[i]["xpos"]) / 1920.0 * config.screen_width)
-                            ypos int(float(data[i]["ypos"]) / 1080.0 * config.screen_height)
-                            anchor (0.5,0.5)
-                            frame:
-                                background Solid("#18181a")
-                                margin (0,0)
-                                padding text_button_layouts[button_layout]["text_button.padding"]
-                                style "sprite_textbutton_frm"
-                                hbox:
-                                    if left_arrow != False:
-                                        null:
-                                            width text_button_layouts[button_layout]["text_button.spacing1"]
-                                        add left_arrow:
-                                            yalign 0.5
-                                    null:
-                                        width text_button_layouts[button_layout]["text_button.spacing2"]
-                                    text __(data[i]["text"]) style text_button_layouts[button_layout]["text_button.style"]
-                                    null:
-                                        width text_button_layouts[button_layout]["text_button.spacing2"]
-                                    if right_arrow != False:
-                                        add right_arrow:
-                                            yalign 0.5
-                                        null:
-                                            width text_button_layouts[button_layout]["text_button.spacing1"]
-
-                            if highSpriteHover == False:
-                                hovered [
-                                    Show("hover_text_sprite", None, spriteStr, maskStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data[i], canvas_offset)
-#                                   With(dissolve)
-                                ]
-                            else:
-                                hovered [
-                                    Show("hover_text_sprite_high_hover_sprite", None, spriteStr, maskStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data[i], canvas_offset)
-#                                   With(dissolve)
-                                ]
-                            if highSpriteHover == False:
-                                unhovered [
-                                    Hide("hover_text_sprite", Dissolve(0.4)),
-                                ]
-                            else:
-                                unhovered [
-                                    Hide("hover_text_sprite_high_hover_sprite", Dissolve(0.4)),
-                                ]
-                            action Call("process_object_click", data[i]["click"], i, data[i])
-
-                        $ spriteImageStr = spriteStr if spriteStr != False else scene_image_file
-#                        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskStr)),zoom_factor) if maskStr != False else im.FactorScale(Image(spriteImageStr),1.5)
-#                        $ idleImg = Image(spriteImageStr)
-                        if maskStr != False:
-                            if mask_canvas_offset != False and spriteImageStr == scene_image_file:
-#                                $ idleImg = Image(spriteImageStr)
-                                $ maskImage = Image(maskStr)
-                                $ maskImageSize = getImageSize(maskImage, maskStr)
-                                $ mask_canvas_offset[2] = mask_canvas_offset[0] + maskImageSize[1] - 1
-                                $ mask_canvas_offset[3] = mask_canvas_offset[1] + maskImageSize[0] - 1
-                                $ croppedImg = im.Crop(spriteImageStr, (mask_canvas_offset[1], mask_canvas_offset[0], mask_canvas_offset[3]-mask_canvas_offset[1]+1, mask_canvas_offset[2] - mask_canvas_offset[0]+1))
-                                $ idleImg = im.AlphaMask(croppedImg, maskImage)
-#                            $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskStr)) if maskStr != False else Image(spriteImageStr)
+                            $ spriteImageStr = spriteStr if spriteStr != False else scene_image_file
+    #                        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskStr)),zoom_factor) if maskStr != False else im.FactorScale(Image(spriteImageStr),1.5)
+    #                        $ idleImg = Image(spriteImageStr)
+                            if maskStr != False:
+                                if mask_canvas_offset != False and spriteImageStr == scene_image_file:
+    #                                $ idleImg = Image(spriteImageStr)
+                                    $ maskImage = Image(maskStr)
+                                    $ maskImageSize = getImageSize(maskImage, maskStr)
+                                    $ mask_canvas_offset[2] = mask_canvas_offset[0] + maskImageSize[1] - 1
+                                    $ mask_canvas_offset[3] = mask_canvas_offset[1] + maskImageSize[0] - 1
+                                    $ croppedImg = im.Crop(spriteImageStr, (mask_canvas_offset[1], mask_canvas_offset[0], mask_canvas_offset[3]-mask_canvas_offset[1]+1, mask_canvas_offset[2] - mask_canvas_offset[0]+1))
+                                    $ idleImg = im.AlphaMask(croppedImg, maskImage)
+    #                            $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskStr)) if maskStr != False else Image(spriteImageStr)
+                                else:
+                                    $ idleImg = Image(spriteImageStr)
                             else:
                                 $ idleImg = Image(spriteImageStr)
-                        else:
-                            $ idleImg = Image(spriteImageStr)
 
-                        $ spriteImage = im.MatrixColor(
-                            idleImg,
-                            im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
-                        )
+                            $ spriteImage = im.MatrixColor(
+                                idleImg,
+                                im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
+                            )
 
-                        if spriteStr != False or maskStr != False or overlayName != False:
-                            imagebutton:
-                                if canvas_offset != False:
-                                    xpos canvas_offset[1]
-                                    ypos canvas_offset[0]
-                                if data[i].has_key("xsprite") and data[i].has_key("ysprite"):
-                                    xpos int(float(data[i]["xsprite"]) / 1920.0 * config.screen_width)
-                                    ypos int(float(data[i]["ysprite"]) / 1080.0 * config.screen_height)
-                                if data[i].has_key("sprite_align"):
-                                    if data[i]["sprite_align"] == "dc":
-                                        anchor (0.5, 1.0)
-                                idle spriteImage
-                                hover spriteImage
-                                hovered [
-                                    SetScreenVariable("idle_num", 0.4),
-                                    Show("hover_sprite_text", None, i, data[i], left_arrow, right_arrow, button_layout)
-#                                    Show("hover_sprite_text", Dissolve(0.2), i, data[i])
-                                ]
-#                                unhovered Hide("hover_sprite_text", Dissolve(0.4))
-                                unhovered Hide("hover_sprite_text", None)
-                                at imagebutton_hover_type1(idle_num)
-                                focus_mask True
-                                action Call("process_object_click", data[i]["click"], i, data[i])
+                            if spriteStr != False or maskStr != False or overlayName != False:
+                                imagebutton:
+                                    if canvas_offset != False:
+                                        xpos canvas_offset[1]
+                                        ypos canvas_offset[0]
+                                    if data[i].has_key("xsprite") and data[i].has_key("ysprite"):
+                                        xpos int(float(data[i]["xsprite"]) / 1920.0 * config.screen_width)
+                                        ypos int(float(data[i]["ysprite"]) / 1080.0 * config.screen_height)
+                                    if data[i].has_key("sprite_align"):
+                                        if data[i]["sprite_align"] == "dc":
+                                            anchor (0.5, 1.0)
+                                    idle spriteImage
+                                    hover spriteImage
+                                    hovered [
+                                        SetScreenVariable("idle_num", 0.4),
+                                        Show("hover_sprite_text", None, i, data[i], left_arrow, right_arrow, button_layout)
+    #                                    Show("hover_sprite_text", Dissolve(0.2), i, data[i])
+                                    ]
+    #                                unhovered Hide("hover_sprite_text", Dissolve(0.4))
+                                    unhovered Hide("hover_sprite_text", None)
+                                    at imagebutton_hover_type1(idle_num)
+                                    focus_mask True
+                                    action Call("process_object_click", data[i]["click"], i, data[i])
 
 
 screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data, canvas_offset):

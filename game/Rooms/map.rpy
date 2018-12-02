@@ -96,8 +96,13 @@ label map_environment(obj_name, obj_data):
         call map_close() from _call_map_close
         return
     if obj_name == "Teleport_" + map_scene:
-        call map_close() from _call_map_close_1
+        call map_close()
         return
+    call process_hooks("map_teleport", "global") #хук перед телепортом из карты
+    if _return == False: #если отмена, то закрываем карту
+        call map_close()
+        return
+
     if movingByCar == False and bFredFollowingMonica == True:
         m "Я что, ненормальная идти пешком по дороге?"
         if day_time == "evening":

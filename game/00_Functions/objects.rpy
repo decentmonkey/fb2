@@ -59,6 +59,12 @@ init python:
 #        print scenes_data
         return
 
+    def process_scene_objects_list(room_name):
+        obj_list = {}
+        for obj_name in scenes_data["objects"][room_name]:
+            obj_list = process_scene_object(obj_name, scenes_data["objects"][room_name][obj_name])
+        return obj_list
+
     def process_scene_object(obj_name, obj_data_source):
         obj_data = copy.deepcopy(obj_data_source)
         if obj_data.has_key("conditions"):
@@ -70,6 +76,10 @@ init python:
                     for var2 in obj_data["conditions"][var1]:
                         obj_data[var2] = obj_data["conditions"][var1][var2]
         obj_data.pop("conditions", None)
+        for var1 in obj_data: #парсим переменные в свойствах
+            if isinstance(obj_data[var1], basestring) == True:
+                obj_data[var1] = parse_str(obj_data[var1])
+
         obj_data = fill_object_properties(obj_name, obj_data)
         obj_data["name"] = obj_name
         if obj_data.has_key("actions") == False: obj_data["actions"] = "l" # по дефолту всегда есть взгляд в действиях с предметом
@@ -95,20 +105,42 @@ init python:
         return
 
 
-    def subst_to_object(obj_name, subst_func):
-        if subst_func != False:
-            scenes_data["substs"][obj_name] = subst_func
+    def subst_to_object(obj_name, subst_func, **kwargs):
+        if kwargs.has_key("scene"):
+            room_name = kwargs["scene"]
+            del kwargs["scene"]
         else:
-            if obj_name in scenes_data["substs"]:
-                del scenes_data["substs"][obj_name]
+            room_name = api_scene_name
+
+        if scenes_data["substs"].has_key(room_name) == False:
+            scenes_data["substs"][room_name] = {}
+        if subst_func != False:
+            scenes_data["substs"][room_name][obj_name] = subst_func
+        else:
+            if obj_name in scenes_data["substs"][room_name]:
+                del scenes_data["substs"][room_name][obj_name]
         return
 
-    def autorun_to_object(obj_name, autorun_func):
-        if autorun_func != False:
-            scenes_data["autorun"][obj_name] = autorun_func
+#    def autorun_to_object(obj_name, autorun_func, **kwargs):
+    def autorun_to_object(*args, **kwargs):
+        if len(args) > 1:
+            obj_name = args[0]
+            autorun_func = args[1]
         else:
-            if obj_name in scenes_data["autorun"]:
-                del scenes_data["autorun"][obj_name]
+            obj_name = "scene"
+            autorun_func = args[0]
+        if kwargs.has_key("scene"):
+            room_name = kwargs["scene"]
+            del kwargs["scene"]
+        else:
+            room_name = api_scene_name
+        if scenes_data["autorun"].has_key(room_name) == False:
+            scenes_data["autorun"][room_name] = {}
+        if autorun_func != False:
+            scenes_data["autorun"][room_name][obj_name] = autorun_func
+        else:
+            if obj_name in scenes_data["autorun"][room_name]:
+                del scenes_data["autorun"][room_name][obj_name]
         return
 
     def get_object_actions(actions_str):
@@ -183,9 +215,9 @@ label process_object_click(func_name, obj_name, obj_data):
 #    $ print renpy.get_screen("say")
     if renpy.get_screen("say") != None or renpy.get_screen("choice") != None:
         return
-    if scenes_data["substs"].has_key(obj_name):
-        if scenes_data["substs"][obj_name] != False:
-            $ func_name = scenes_data["substs"][obj_name]
+    if scenes_data["substs"].has_key(scene_name) and scenes_data["substs"][scene_name].has_key(obj_name):
+        if scenes_data["substs"][scene_name][obj_name] != False:
+            $ func_name = scenes_data["substs"][scene_name][obj_name]
     hide screen action_menu_screen
     show screen sprites_hover_dummy_screen()
     $ obj_data["action"] = obj_data["actions"]
@@ -229,15 +261,15 @@ label process_object_click_alternate_action(idx, actions_list, click_label, name
     hide screen action_menu_screen
     #проверяем подстановку
     if func_name == click_label:
-        if scenes_data["substs"].has_key(name):
-            if scenes_data["substs"][name] != False:
-                $ func_name = scenes_data["substs"][name]
+        if scenes_data["substs"].has_key(scene_name) and scenes_data["substs"][scene_name].has_key(name):
+            if scenes_data["substs"][scene_name][name] != False:
+                $ func_name = scenes_data["substs"][scene_name][name]
 
     $ data["action"] = actions_list[idx]["action"]
     show screen sprites_hover_dummy_screen()
     $ interface_blocked_flag = True
     $ act = data["action"]
-    call expression func_name pass (name, data) from _call_expression_1
+    call expression func_name pass (name, data)
     $ interface_blocked_flag = False
     if _return != False:
         $ scene_refresh_flag = True

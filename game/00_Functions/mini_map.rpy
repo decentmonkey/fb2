@@ -45,6 +45,9 @@ label miniMapRemoveDisabled(name):
     return
 
 label miniMapHouseGenerateTeleport(name, minimapCell):
+    call process_hooks("mimimap_teleport", "global") #хук до инициализации сцены
+    if _return == False:
+        return
     if interface_blocked_flag == True:
         return
 #    $ print renpy.get_screen("say")
