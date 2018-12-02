@@ -3,7 +3,7 @@ label kitchen2:
     $ miniMapData = []
     call miniMapHouseGenerate()
 
-    $ scene_image = "scene_Kitchen2_[day_suffix]"
+    $ scene_image = "scene_Kitchen2[day_suffix]"
     return
 
 label kitchen2_init:

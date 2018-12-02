@@ -147,10 +147,16 @@ python early:
         return l.simple_expression()
 
     def music_exec(o):
+        global currentMusic
+        if o == "stop":
+            currentMusic = False
+            renpy.music.stop(channel='music', fadeout=1.0)
+            return
         try:
             musicName = renpy.eval(o)
         except:
             musicName = o
+        currentMusic = musicName
         checkPath = "Music/" + str(musicName) + ".ogg"
         if renpy.loadable(checkPath):
             renpy.music.play(checkPath, channel="music", loop=True, fadeout=1.0, fadein=1.0)

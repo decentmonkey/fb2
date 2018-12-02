@@ -6,6 +6,9 @@ default rainIntencity = 0
 default lightning = False
 default sceneIsStreet = False
 default objectives_list = []
+default currentMusic = False
+default storedMusic = False
+default day_time = "day"
 
 label start:
 #    jump credits
@@ -21,12 +24,13 @@ label start:
     $ game_version1_screen_ready_to_render = True
     $ zoom_factor = 1
 
-    define day_time = "day"
-    $ day_suffix = ""
+    $ day_time = "evening"
+    $ day_suffix = "_Evening"
     $ day = 1
     $ week_day = (day-1)%7
     $ money = 0.0
     $ scenes_data = {"objects": {}, "substs" : {}, "autorun": {}, "hooks": {}}
+    $ hooks_stack = []
     $ inventory_objects = {}
     $ inventory = []
 
@@ -63,14 +67,20 @@ label start:
     $ scene_name = "none"
     $ api_scene_name = "none"
     call locations_init()
+
+    $ add_hook("exit_scene", "hook_basement_bedroom2_change_view_to_suffix3", scene="basement_bedroom2")
+
     call change_scene("basement_bedroom2")
 
     $ scene_transition = "Fade_long"
-    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
+#    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
 #    $ print scene_data
+
 #    $ renpy.pause(100, hard=True)
 
 #    $ autorun_to_object("intro_scene", "intro_scene_start")
+    music stop
+
     jump show_scene
 
 label start_new_game:

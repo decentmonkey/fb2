@@ -5,7 +5,7 @@ label kitchen:
     $ miniMapData = []
     call miniMapHouseGenerate()
 
-    $ scene_image = "scene_Kitchen_[day_suffix]"
+    $ scene_image = "scene_Kitchen[day_suffix]"
 
 #    if gameStage > 2:
 #        if monicaKitchenForbidden == True and scene_name != lastSceneName:

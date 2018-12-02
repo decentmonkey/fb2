@@ -3,7 +3,7 @@ label basement_pool:
     $ miniMapData = []
     call miniMapHouseGenerate()
 
-    $ scene_image = "scene_Basement_Pool[cloth]"
+    $ scene_image = "scene_Basement_Pool"
     return
 
 label basement_pool_init:

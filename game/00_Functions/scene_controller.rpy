@@ -44,9 +44,14 @@ label show_scene_now:
 
     if scene_transition != False and gui.scenes_transitions == True:
         if scene_transition == "Fade":
-            scene black_screen at convert_resolution_transform
-            with Dissolve(0.2)
-            $ renpy.pause(0.2, hard=True)
+            if refreshed_scene_name == scene_name:
+                scene black_screen at convert_resolution_transform
+                with Dissolve(0.2)
+                $ renpy.pause(0.2, hard=True)
+            else:
+                scene black_screen at convert_resolution_transform
+                with Dissolve(0.1)
+    #            $ renpy.pause(0.2, hard=True)
         if scene_transition == "Fade_long":
             scene black_screen at convert_resolution_transform
             with Dissolve(0.7)
@@ -73,13 +78,17 @@ label show_scene_now:
     if parse_transition_flag == True:
         if scene_transition != False and gui.scenes_transitions == True:
             if scene_transition == "Fade":
-                with Dissolve(0.2)
+                if refreshed_scene_name == scene_name:
+                    with Dissolve(0.2)
+                else:
+                    with Dissolve(0.1)
             if scene_transition == "Fade_long":
                 with Dissolve(0.7)
     $ scene_transition = False
 
     if refreshed_scene_name != scene_name:
         call process_hooks("enter_scene", scene_name) #хук вызывается после входа на сцену и отрисовки (как autorun)
+    $ refreshed_scene_name = scene_name
 
     if scenes_data["autorun"].has_key(scene_name) and scenes_data["autorun"][scene_name].has_key("scene"):
         $ autorunFunc = scenes_data["autorun"][scene_name]["scene"]

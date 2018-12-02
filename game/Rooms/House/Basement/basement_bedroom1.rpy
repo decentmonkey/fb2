@@ -1,3 +1,5 @@
+default basementBedroom1MonicaSuffix = 2
+
 label basement_bedroom1:
     $ print "enter_basement_bedroom1"
     $ miniMapData = []
@@ -9,7 +11,7 @@ label basement_bedroom1:
     return
 
 label basement_bedroom1_init:
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "basement_bedroom1_Monica_[cloth]", "click" : "basement_bedroom1_environment", "actions" : "l", "zorder":10, "tint": [1.0, 1.0, 0.9]})
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "basement_bedroom1_Monica_[cloth]_[basementBedroom1MonicaSuffix]", "click" : "basement_bedroom1_environment", "actions" : "l", "zorder":10, "tint": [1.0, 1.0, 0.9]})
 
     $ add_object_to_scene("Cupboard", {"type":2, "base":"Basement_Bedroom1_Cupboard", "click" : "basement_bedroom1_environment", "actions" : "lw", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("BasementWardrobe", {"type":2, "base":"Basement_Bedroom1_Wardrobe", "click" : "basement_bedroom1_environment", "actions" : "lh", "zorder" : 0})
@@ -23,7 +25,7 @@ label basement_bedroom1_init:
     $ add_object_to_scene("Table", {"type":2, "base":"basement_bedroom1_Table", "click" : "basement_bedroom1_environment", "actions" : "lw", "zorder" : 0, "group":"environment"})
 
     $ add_object_to_scene("Teleport_Basement_Hole", {"type":3, "text" : _("КОРИДОР"), "larrow" : "arrow_left_2", "base":"Basement_Bedroom1_Teleport_Hole", "click" : "basement_bedroom1_teleport", "xpos" : 459, "ypos" : 877, "zorder":11, "teleport":True})
-    $ add_object_to_scene("Teleport_Basement_Bedroom2", {"type":3, "text" : _("КРОВАТЬ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "basement_bedroom1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11})
+    $ add_object_to_scene("Teleport_Basement_Bedroom2", {"type":3, "text" : _("КРОВАТЬ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "basement_bedroom1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "high_sprite_hover":True})
 
     return
 

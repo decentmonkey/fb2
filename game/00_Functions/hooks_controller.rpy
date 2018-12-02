@@ -1,3 +1,5 @@
+default hooks_stack = []
+
 init python:
 
     def add_hook(*args, **kwargs): #устанавливает хук

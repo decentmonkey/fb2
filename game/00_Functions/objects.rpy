@@ -60,7 +60,7 @@ init python:
             return
         obj_list = {}
         for obj_name in scenes_data["objects"][room_name]:
-            if scenes_data["objects"][room_name][obj_name].has_key("active"):
+            if scenes_data["objects"][room_name][obj_name].has_key("active") and scenes_data["objects"][room_name][obj_name]["active"] == True:
                 obj_list[obj_name] = process_scene_object(obj_name, scenes_data["objects"][room_name][obj_name])
         return obj_list
 
@@ -123,10 +123,12 @@ init python:
 #    def autorun_to_object(obj_name, autorun_func, **kwargs):
     def autorun_to_object(*args, **kwargs):
         if len(args) > 1:
-            obj_name = args[0]
+            obj_name = "scene"
+            room_name = args[0]
             autorun_func = args[1]
         else:
             obj_name = "scene"
+            room_name = api_scene_name
             autorun_func = args[0]
         if kwargs.has_key("scene"):
             room_name = kwargs["scene"]
@@ -198,7 +200,7 @@ init python:
         result = re.findall(r'\[(.*?)\]', str1)
         for var1 in result:
             if globals().has_key(var1):
-                str1 = str1.replace("[" + str(var1) + "]", globals()[var1])
+                str1 = str1.replace("[" + var1 + "]", str(globals()[var1]))
         return str1
 
 label process_object_click(func_name, obj_name_source, obj_data_source):

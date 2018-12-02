@@ -11,7 +11,7 @@ label wardrobeBasement:
             sound snd_fabric1
             img black_screen
             with Dissolve(0.5)
-            $ renpy.pause(0.5)
+#            $ renpy.pause(0.5)
 
             $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue1_whore")
 
@@ -21,18 +21,23 @@ label wardrobeBasement:
             sound snd_fabric1
             img black_screen
             with Dissolve(0.5)
-            $ renpy.pause(0.5)
-            img 3370
-            with fadelong
-            mt "Кошмарная униформа."
-            "Я никогда себя не представляла в этом..."
-        "Оставить трусики Юлии.":
+#            $ renpy.pause(0.5)
+            $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue2_governess")
+        "Оставить трусики Юлии." if cloth != "Nude":
             $ cloth = "GovernessPants"
             $ cloth_type = "Nude"
             sound snd_fabric1
             img black_screen
             with Dissolve(0.5)
-            $ renpy.pause(0.5)
+#            $ renpy.pause(0.5)
+            $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue2_pants")
+        "Одеть трусики Юлии." if cloth == "Nude":
+            $ cloth = "GovernessPants"
+            $ cloth_type = "Nude"
+            sound snd_fabric1
+            img black_screen
+            with Dissolve(0.5)
+#            $ renpy.pause(0.5)
             $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue2_pants")
 
         "Снять все.":
@@ -41,10 +46,8 @@ label wardrobeBasement:
             sound snd_fabric1
             img black_screen
             with Dissolve(0.5)
-            $ renpy.pause(0.5)
-            img 3369
-            with fadelong
-            mt "Какой ужас..."
+#            $ renpy.pause(0.5)
+            $ autorun_to_object("wardrobeBasement_dialogue2_nude")
 
     call refresh_scene_fade()
     return
@@ -62,5 +65,12 @@ label wardrobeBasement_dialogue2_pants:
     mt "Это не мои трусики..."
     "И мне не комфортно их носить..."
     "Но это лучше чем вообще без них..."
-    "(хмык)"
+    return
+label wardrobeBasement_dialogue2_governess:
+    mt "Кошмарная униформа."
+    "Я никогда себя не представляла в этом..."
+    return
+
+label wardrobeBasement_dialogue2_nude:
+    mt "Какой ужас..."
     return

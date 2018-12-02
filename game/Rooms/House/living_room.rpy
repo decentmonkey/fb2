@@ -16,7 +16,7 @@ label living_room_init:
     $ add_object_to_scene("Ralph", {"type" : 2, "base" : "House_LivingRoom_Ralph[day_suffix]", "click" : "ralphInteract1", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png"})
 
 
-    $ add_object_to_scene("Chair1", {"type":2, "base":"House_LivingRoom_Chair1", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+#    $ add_object_to_scene("Chair1", {"type":2, "base":"House_LivingRoom_Chair1", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Chair2", {"type":2, "base":"House_LivingRoom_Chair2", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Chair3", {"type":2, "base":"House_LivingRoom_Chair3", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Chair4", {"type":2, "base":"House_LivingRoom_Chair4", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
