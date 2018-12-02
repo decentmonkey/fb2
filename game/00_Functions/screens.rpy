@@ -186,19 +186,20 @@ screen screen_sprites(data):
         #                        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskName)),zoom_factor) if maskName != False else im.FactorScale(Image(spriteImageStr),zoom_factor)
         #                        if data[i].has_key("name") and data[i]["name"] == "Spot":
         #                            $ print data[i]
-                                if canvas_offset != False and spriteImageStr == scene_image_file:
-        #                            $ idleImg = Image(spriteImageStr)
-                                    $ maskImage = Image(maskName)
-                                    $ maskImageSize = getImageSize(maskImage, maskName)
-                                    $ canvas_offset[2] = canvas_offset[0] + maskImageSize[1] - 1
-                                    $ canvas_offset[3] = canvas_offset[1] + maskImageSize[0] - 1
-                                    $ croppedImg = im.Crop(spriteImageStr, (canvas_offset[1], canvas_offset[0], canvas_offset[3]-canvas_offset[1]+1, canvas_offset[2] - canvas_offset[0]+1))
-                                    $ idleImg = im.AlphaMask(croppedImg, maskImage) if maskName != False else Image(spriteImageStr)
-                                else:
-        #                            $ idleImg = Image(spriteImageStr)
-                                    $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskName)) if maskName != False else Image(spriteImageStr)
+                                if pass_num == 2:
+                                    if canvas_offset != False and spriteImageStr == scene_image_file:
+            #                            $ idleImg = Image(spriteImageStr)
+                                        $ maskImage = Image(maskName)
+                                        $ maskImageSize = getImageSize(maskImage, maskName)
+                                        $ canvas_offset[2] = canvas_offset[0] + maskImageSize[1] - 1
+                                        $ canvas_offset[3] = canvas_offset[1] + maskImageSize[0] - 1
+                                        $ croppedImg = im.Crop(spriteImageStr, (canvas_offset[1], canvas_offset[0], canvas_offset[3]-canvas_offset[1]+1, canvas_offset[2] - canvas_offset[0]+1))
+                                        $ idleImg = im.AlphaMask(croppedImg, maskImage) if maskName != False else Image(spriteImageStr)
+                                    else:
+            #                            $ idleImg = Image(spriteImageStr)
+                                        $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskName)) if maskName != False else Image(spriteImageStr)
+                                    $ hoverImg = idleImg
                                 $ overlayName = data[i]["img" + day_time_suffix + "_overlay"] if data[i]["img" + day_time_suffix + "_overlay"] != False else data[i]["img" + "_overlay"] if data[i]["img" + "_overlay"] != False else False
-                                $ hoverImg = idleImg
                                 if pass_num == 1:
                                     if overlayName != False:
                                         add overlayName at convert_resolution_transform:
@@ -293,7 +294,7 @@ screen screen_sprites(data):
                                 $ right_arrow = data[i]["rarrow"]
                                 $ disableSprite = False
                                 $ if spriteStr == False and maskStr == False and overlayName == False: disableSprite = True
-                                if pass_num == 2:
+                                if pass_num == 1:
                                     if overlayName != False:
                                         add overlayName at convert_resolution_transform:
                                             if overlay_canvas_offset != False:
@@ -360,6 +361,7 @@ screen screen_sprites(data):
             #                        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskStr)),zoom_factor) if maskStr != False else im.FactorScale(Image(spriteImageStr),1.5)
             #                        $ idleImg = Image(spriteImageStr)
                                     if maskStr != False:
+                                        $ print "screen here!!!!"
                                         if mask_canvas_offset != False and spriteImageStr == scene_image_file:
             #                                $ idleImg = Image(spriteImageStr)
                                             $ maskImage = Image(maskStr)
@@ -368,9 +370,11 @@ screen screen_sprites(data):
                                             $ mask_canvas_offset[3] = mask_canvas_offset[1] + maskImageSize[0] - 1
                                             $ croppedImg = im.Crop(spriteImageStr, (mask_canvas_offset[1], mask_canvas_offset[0], mask_canvas_offset[3]-mask_canvas_offset[1]+1, mask_canvas_offset[2] - mask_canvas_offset[0]+1))
                                             $ idleImg = im.AlphaMask(croppedImg, maskImage)
-            #                            $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskStr)) if maskStr != False else Image(spriteImageStr)
                                         else:
-                                            $ idleImg = Image(spriteImageStr)
+                                            $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskStr)) if maskStr != False else Image(spriteImageStr)
+
+#                                        else:
+#                                            $ idleImg = Image(spriteImageStr)
                                     else:
                                         $ idleImg = Image(spriteImageStr)
 
@@ -423,7 +427,8 @@ screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness
                 $ croppedImg = im.Crop(spriteImageStr, (canvas_offset[1], canvas_offset[0], canvas_offset[3]-canvas_offset[1]+1, canvas_offset[2] - canvas_offset[0]+1))
                 $ idleImg = im.AlphaMask(croppedImg, maskImage)
             else:
-                $ idleImg = Image(spriteImageStr)
+                $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
+#                $ idleImg = Image(spriteImageStr)
         else:
             $ idleImg = Image(spriteImageStr)
 #        $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
@@ -460,7 +465,8 @@ screen hover_text_sprite_high_hover_sprite(spriteImageStr, maskImageStr, disable
                 $ croppedImg = im.Crop(spriteImageStr, (canvas_offset[1], canvas_offset[0], canvas_offset[3]-canvas_offset[1]+1, canvas_offset[2] - canvas_offset[0]+1))
                 $ idleImg = im.AlphaMask(croppedImg, maskImage)
             else:
-                $ idleImg = Image(spriteImageStr)
+                $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
+                #$ idleImg = Image(spriteImageStr)
         else:
             $ idleImg = Image(spriteImageStr)
 #        $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
@@ -865,7 +871,7 @@ screen hud_screen(hud_presets):
                         xoffset gui.resolution.hud_screen.xoffset2
 
                 if hud_presets["display_scene_map"] == True:
-                    if map_enabled == True and mapStreetCheckShowing == True:
+                    if map_enabled == True and mapStreetCheckShowing == True and map_disabled_forced == False:
                         imagebutton:
                             xoffset 7
                             yoffset -7

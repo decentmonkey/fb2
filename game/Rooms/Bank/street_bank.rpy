@@ -4,7 +4,7 @@ label street_bank:
     $ miniMapData = []
 
     $ sceneIsStreet = True
-    $ scene_image = "scene_Bank_Street"
+    $ scene_image = "scene_Bank_Street[day_suffix]"
     $ scene_sound = "streets_sound"
     return
 

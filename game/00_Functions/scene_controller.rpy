@@ -113,6 +113,10 @@ label change_scene(new_scene_name, in_transition_name="Fade", in_sound_name="hig
     call process_hooks("exit_scene", scene_name) #хук выхода со сцены
     if _return == False: #Если False, то прерываем смену сцены
         return
+    if scenes_data["objects"].has_key(new_scene_name) == False or scenes_data["objects"][new_scene_name].has_key("data") == False:
+        $ notif ("No scene found! : " + new_scene_name)
+        $ makeDump()
+        return
     $ sceneIsStreet = False
     $ scene_transition = in_transition_name
     $ scene_sound = in_sound_name

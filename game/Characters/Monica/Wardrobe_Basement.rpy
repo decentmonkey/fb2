@@ -58,7 +58,7 @@ label wardrobeBasement_dialogue1_whore:
         "Это просто ужас..."
     else:
         mt "Я не могла подумать, когда увидела эти тряпки в хостеле, что мне придется носить их."
-        "Вместо моего красивого платья... (хмык)"
+        "Вместо моего красивого платья... Рррррр!!!"
     $ wardrobeBasementWhoreTakeFlag = True
     return
 label wardrobeBasement_dialogue2_pants:

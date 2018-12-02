@@ -19,7 +19,7 @@ label street_house_main_yard_init:
 
     $ add_object_to_scene("Bardie", {"type" : 2, "base" : "Street_House_Bardie[day_suffix]", "click" : "bardieInteract1", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png", "active":False})
 
-    $ add_object_to_scene("Teleport_Fence", {"type":3, "text" : _("К ЗАБОРУ"), "larrow" : "arrow_left_2", "base":"Street_House_Teleport_Fence", "click" : "street_house_main_yard_teleport", "xpos" : 758, "ypos" : 154, "zorder":11, "b":0.15, "tint":[1.0, 1.0, 0.9], "active":True})
+    $ add_object_to_scene("Teleport_Fence", {"type":3, "text" : _("К ЗАБОРУ"), "larrow" : "arrow_left_2", "base":"Street_House_Teleport_Fence", "click" : "street_house_main_yard_teleport", "xpos" : 758, "ypos" : 154, "zorder":11, "b":0.15, "tint":[1.0, 1.0, 0.9], "active":False})
 
     $ add_object_to_scene("Teleport_Gate", {"type":3, "text" : _("К ВОРОТАМ"), "larrow" : "arrow_left_2", "base":"Street_House_Teleport_Gate", "click" : "street_house_main_yard_teleport", "xpos" : 433, "ypos" : 660, "zorder":11, "b":0.15, "tint":[1.0, 1.0, 0.85], "teleport":True})
 
@@ -37,7 +37,7 @@ label street_house_main_yard_teleport:
         call change_scene("street_house_gate", "Fade", "highheels_run2")
         return
     if obj_name == "Teleport_House":
-        music casualMusic
+#        music casualMusic
         call change_scene("floor1", "Fade_long", "highheels_run2")
         return
     return

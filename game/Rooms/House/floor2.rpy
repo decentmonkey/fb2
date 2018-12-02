@@ -51,7 +51,7 @@ label floor2_teleport:
 
     return
 
-label floor2_environment(name, obj_data):
+label floor2_environment:
     if name == "Lamps":
         mt "Мне всегда нравилось когда много света."
         "Ничего, скоро я снова буду радоваться этому!"

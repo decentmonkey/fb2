@@ -22,7 +22,7 @@ label whores_place_street1_init:
     $ add_object_to_scene("Trash_Can", {"type":2, "base":"Street_Whores_Street1_Trash_Can", "click" : "whores_place_street1_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
 
     $ add_object_to_scene("Teleport_Street_Corner", {"type":3, "text" : _("УГОЛ УЛИЦЫ"), "rarrow" : "arrow_right_2", "base":"Street_Whores_Street1_Teleport_Street_Corner", "click" : "whores_place_street1_teleport", "xpos" : 1724, "ypos" : 462, "zorder":15, "teleport":True})
-    $ add_object_to_scene("Teleport_Whores_Place", {"type":3, "text" : _("ПЕРЕКРЕСТОК"), "larrow" : "arrow_left_2", "base":"Street_Whores_Street1_Teleport_Whores_Place", "click" : "whores_place_street1_teleport", "xpos" : 308, "ypos" : 515, "zorder":15, "teleport":True})
+    $ add_object_to_scene("Teleport_Whores_Place", {"type":3, "text" : _("ПЕРЕКРЕСТОК"), "larrow" : "arrow_left_2", "base":"Street_Whores_Street1_Teleport_Whores_Place", "click" : "whores_place_street1_teleport", "xpos" : 557, "ypos" : 830, "zorder":15, "teleport":True})
 
 
     return
@@ -32,10 +32,10 @@ label whores_place_street1_init:
 
 label whores_place_street1_teleport:
     if obj_name == "Teleport_Street_Corner":
-        call change_scene("street_corner", "Fade_long", "highheels_run2")
+        call change_scene("street_corner", "Fade", "highheels_run2")
         return
     if obj_name == "Teleport_Whores_Place":
-        call change_scene("whores_place", "Fade_long", "highheels_run2")
+        call change_scene("whores_place", "Fade", "highheels_run2")
         return
     return
 label whores_place_street1_environment:

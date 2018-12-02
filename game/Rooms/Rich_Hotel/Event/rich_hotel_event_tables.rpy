@@ -9,9 +9,7 @@ label rich_hotel_event_tables:
 label rich_hotel_event_tables_init:
 
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "rich_hotel_event_tables_Monica_[cloth]", "click" : "rich_hotel_event_tables_environment", "actions" : "l", "zorder":10})
-    $ add_object_to_scene("Philip", {"type" : 2, "base" : "rich_hotel_event_tables_Philip", "click" : "rich_hotel_event_tables_environment", "actions" : "lt", "zorder":10})
-
-    $ add_object_to_scene("Philip", {"type" : 2, "base" : "rich_hotel_event_tables_Philip", "click" : "rich_hotel_event_tables_environment", "actions" : "lt", "zorder":10})
+    $ add_object_to_scene("Philip", {"type" : 2, "base" : "rich_hotel_event_tables_Philip", "click" : "rich_hotel_event_tables_environment", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png"})
 
     $ add_object_to_scene("Chair1", {"type" : 2, "base" : "rich_hotel_event_tables_Chair1", "click" : "rich_hotel_event_tables_environment", "actions" : "l", "zorder":0})
     $ add_object_to_scene("Chair2", {"type" : 2, "base" : "rich_hotel_event_tables_Chair2", "click" : "rich_hotel_event_tables_environment", "actions" : "l", "zorder":0})

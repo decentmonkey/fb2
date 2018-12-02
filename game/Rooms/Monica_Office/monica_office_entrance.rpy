@@ -4,11 +4,11 @@ label monica_office_entrance:
     $ print "enter_monica_office_entrance"
     $ miniMapData = []
 
-    $ scene_image = "scene_Monica_Office_Entrance_Monica"
+    $ scene_image = "scene_Office_Entrance_Monica"
     return
 
 label monica_office_entrance_init:
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Monica_Office_Entrance_Monica_[cloth][monicaOfficeEntranceMonicaSuffix]", "click" : "monica_office_entrance_environment2", "actions" : "l", "zorder":10})
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Monica_Office_Entrance_Monica_[cloth]_[monicaOfficeEntranceMonicaSuffix]", "click" : "monica_office_entrance_environment2", "actions" : "l", "zorder":10})
 
     $ add_object_to_scene("Chest", {"type" : 2, "base" : "Monica_Office_Entrance_Chest", "click" : "monica_office_entrance_environment2", "actions" : "l", "zorder":0, "group":"environment"})
     $ add_object_to_scene("Composition", {"type" : 2, "base" : "Monica_Office_Entrance_Composition", "click" : "monica_office_entrance_environment2", "actions" : "l", "zorder":0, "group":"environment"})
@@ -16,7 +16,7 @@ label monica_office_entrance_init:
     $ add_object_to_scene("Plants", {"type" : 2, "base" : "Monica_Office_Entrance_Plants", "click" : "monica_office_entrance_environment2", "actions" : "l", "zorder":0, "group":"environment"})
 
     $ add_object_to_scene("Teleport_Monica_Office_Secretary", {"type":3, "text" : _("ЛИФТ"), "larrow" : "arrow_left_2", "base":"Monica_Office_Entrance_Lift", "click" : "monica_office_entrance_teleport2", "xpos" : 691, "ypos" : 884, "zorder":11, "teleport":True})
-    $ add_object_to_scene("Teleport_Street_Monica_Office", {"type":3, "text" : _("НАЗАД"), "rarrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "monica_office_entrance_teleport2", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Street_Monica_Office", {"type":3, "text" : _("НАЗАД"), "rarrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "monica_office_entrance_teleport2", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True})
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
@@ -24,6 +24,8 @@ label monica_office_entrance_init:
 
 label monica_office_entrance_teleport2:
     if obj_name == "Teleport_Monica_Office_Secretary":
+        call change_scene("monica_office_secretary", "Fade_long", "snd_lift")
+        return
         sound snd_lift
         $ renpy.pause(2.0)
         sound denied

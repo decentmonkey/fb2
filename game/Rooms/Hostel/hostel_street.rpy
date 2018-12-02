@@ -5,6 +5,8 @@ label hostel_street:
     $ sceneIsStreet = True
 
     $ scene_image = "scene_Hostel_Street[day_suffix]"
+
+    $ hostelStreet2MonicaFromSideSuffix = "2"
     return
 label hostel_street_init:
 
@@ -18,8 +20,8 @@ label hostel_street_init:
 
 #    $ add_object_to_scene("Car", {"type":2, "base":"hostel_street_Car", "click" : "hostel_street_environment", "actions" : "l", "zorder" : 0})
 
-    $ add_object_to_scene("Teleport_Hostel_Edge_C", {"type":3, "text" : _("УГОЛ ДОМА"), "rarrow" : "arrow_right_2", "base":"Hostel_Street_Teleport_Hostel_Edge_C", "click" : "hostel_street_teleport", "xpos" : 1655, "ypos" : 822, "zorder":15, "teleport":True})
-    $ add_object_to_scene("Teleport_Shawarma", {"type":3, "text" : _("НАЗАД К ШАВЕРМЕ"), "rarrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "hostel_street_teleport", "xpos" : 210, "ypos" : 956, "zorder":15, "teleport":True})
+    $ add_object_to_scene("Teleport_Hostel_Edge_C", {"type":3, "text" : _("УГОЛ ДОМА"), "rarrow" : "arrow_right_2", "base":"Hostel_Street_Teleport_Hostel_Edge_C", "click" : "hostel_street_teleport", "xpos" : 1609, "ypos" : 1030, "zorder":15, "teleport":True, "high_sprite_hover":True})
+    $ add_object_to_scene("Teleport_Shawarma", {"type":3, "text" : _("НАЗАД К ШАВЕРМЕ"), "rarrow" : "arrow_down_2", "base":"Screen_Down_Arrow_Short1", "click" : "hostel_street_teleport", "xpos" : 210, "ypos" : 1030, "zorder":15, "teleport":True})
 
     return
 #                            $ brightness_adjustment = 0.1
@@ -34,7 +36,7 @@ label hostel_street_teleport:
         call change_scene("hostel_edge_1_c", "Fade", "highheels_run2")
         return
     if obj_name == "Teleport_Shawarma":
-        call change_scene("whores_place_shawarma", "Fade_long", "highheels_run2")
+        call change_scene("whores_place_shawarma", "Fade", "highheels_run2")
         return
     if obj_name == "Teleport_Hostel_Street_Door":
         if act == "l":

@@ -26,8 +26,9 @@ label miniMapHouseGenerate:
     $ miniMapData.append({"name":"Floor1", "caption":_("Down Floor"), "img":"Floor1_Map", "teleport_scene":"floor1", "teleport_type":"scene"})
     $ miniMapData.append({"name":"Floor2", "caption":_("Up Floor"), "img":"Floor2_Map", "teleport_scene":"floor2", "teleport_type":"scene"})
     $ miniMapData.append({"name":"Kitchen", "caption":_("Kitchen"), "img":"Kitchen_Map", "teleport_scene":"kitchen2", "teleport_type":"scene"})
-    $ miniMapData.append({"name":"Basement", "caption":_("Basement"), "img":"Basement_Map", "teleport_scene":"basement_pool", "teleport_type":"scene"})
+#    $ miniMapData.append({"name":"Basement", "caption":_("Basement"), "img":"Basement_Map", "teleport_scene":"basement_pool", "teleport_type":"scene"})
     $ miniMapData.append({"name":"Street_Yard", "caption":_("Street Yard"), "img":"Street_Yard_Map", "teleport_scene":"house_out", "teleport_type":"function"})
+    $ miniMapData.append({"name":"Basement", "caption":_("Basement"), "img":"Basement_Bedroom_Map", "teleport_scene":"basement_bedroom2", "teleport_type":"scene"})
     return
 
 label miniMapDisabled(name, minimapCell):

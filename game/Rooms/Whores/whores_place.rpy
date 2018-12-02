@@ -6,7 +6,7 @@ label whores_place:
 
     $ sceneIsStreet = True
 
-    $ scene_image = "scene_Street_Whores_Place_Whores"
+    $ scene_image = "scene_Street_Whores_Place_Whores[day_suffix]"
     return
 
 label whores_place_init:
@@ -15,7 +15,7 @@ label whores_place_init:
     $ add_object_to_scene("Mommy", {"type":2, "base":"Street_Whores_Place_Mommy[day_suffix]", "click" : "whores_place_environment2", "actions" : "lt", "zorder" : 5})
     $ add_object_to_scene("GrayMouse2", {"type":2, "base":"Street_Whores_Place_GrayMouse2[day_suffix]", "click" : "whores_place_environment2", "actions" : "lt", "zorder" : 5})
 
-    $ add_object_to_scene("Whore1", {"type":2, "base":"Street_Whores_Place_Whore1b[day_suffix]", "click" : "whores_place_environment", "actions" : "lt", "zorder" : 5})
+    $ add_object_to_scene("Whore1", {"type":2, "base":"Street_Whores_Place_Whores_Whore1b[day_suffix]", "click" : "whores_place_environment", "actions" : "lt", "zorder" : 5})
 
     $ add_object_to_scene("Street_Fencing1", {"type":2, "base":"Street_Whores_Place_Fencing1", "click" : "whores_place_street1_environment", "actions" : "l", "zorder" : 0, "b":0.15, "group":"environment"})
     $ add_object_to_scene("Street_Fencing2", {"type":2, "base":"Street_Whores_Place_Fencing2", "click" : "whores_place_street1_environment", "actions" : "l", "zorder" : 0, "b":0.15, "group":"environment"})
@@ -28,7 +28,8 @@ label whores_place_init:
     $ add_object_to_scene("Trash6", {"type":2, "base":"Street_Whores_Place_Trash6", "click" : "whores_place_environment2", "actions" : "l", "zorder" : 0, "group":"environment"})
 
     $ add_object_to_scene("Teleport_Shawarma", {"type":3, "text" : _("ВНИЗ ПО УЛИЦЕ"), "larrow" : "arrow_left_2", "base":"Street_Whores_Place_Teleport_Shawarma", "click" : "whores_place_teleport2", "xpos" : 195, "ypos" : 778, "zorder":15, "teleport":True})
-    $ add_object_to_scene("Teleport_Street1", {"type":3, "text" : _("ВВЕРХ ПО УЛИЦЕ"), "rarrow" : "arrow_right_2", "base":"Street_Whores_Place_Teleport_Street1", "click" : "whores_place_teleport2", "xpos" : 1642, "ypos" : 218, "zorder":15, "teleport":True})
+    $ add_object_to_scene("Teleport_Hostel_Street2", {"type":3, "text" : _("ГРЯЗНАЯ УЛИЦА"), "rarrow" : "arrow_right_2", "base":"Street_Whores_Place_Teleport_Hostel_Street2", "click" : "whores_place_teleport2", "xpos" : 1642, "ypos" : 218, "zorder":15, "teleport":True})
+    $ add_object_to_scene("Teleport_Street1", {"type":3, "text" : _("ВВЕРХ ПО УЛИЦЕ"), "rarrow" : "arrow_right_2", "base":"Street_Whores_Place_Teleport_Street1", "click" : "whores_place_teleport2", "xpos" : 1497, "ypos" : 882, "zorder":15, "teleport":True})
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
@@ -36,10 +37,10 @@ label whores_place_init:
 
 label whores_place_teleport2:
     if obj_name == "Teleport_Street1":
-        call change_scene("whores_place_street1", "Fade_long", "highheels_run2")
+        call change_scene("whores_place_street1", "Fade", "highheels_run2")
         return
     if obj_name == "Teleport_Shawarma":
-        call change_scene("whores_place_shawarma", "Fade_long", "highheels_run2")
+        call change_scene("whores_place_shawarma", "Fade", "highheels_run2")
         return
     return
 label whores_place_environment2:

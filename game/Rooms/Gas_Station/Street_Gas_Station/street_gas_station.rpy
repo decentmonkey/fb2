@@ -3,14 +3,12 @@ label street_gas_station:
     $ miniMapData = []
 
     $ sceneIsStreet = True
-    $ clear_scene_from_objects(scene_name)
     $ scene_image = "scene_Street_Gas_Station[day_suffix]"
 
     return
 
 label street_gas_station_init:
 
-    $ scene_image = "scene_Street_Gas_Station_Monica_AfterJail" + day_suffix
     $ add_object_to_scene("Monica", {"type":2, "base":"Street_Gas_Station_Monica_[cloth][day_suffix]", "click" : "street_gas_station2_environment", "actions" : "l", "zorder" : 15})
 
     $ add_object_to_scene("Fuel1", {"type":2, "base":"Street_Gas_Station_Fuel1", "click" : "street_gas_station2_environment", "actions" : "l", "zorder" : 0, "type":"environment"})

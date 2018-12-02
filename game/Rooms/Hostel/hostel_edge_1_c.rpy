@@ -11,6 +11,9 @@ label hostel_edge_1_c:
     if day_suffix != "":
         $ localDaySuffix = day_suffix + "2"
     $ scene_image = "scene_Hostel_Edge_1_c[localDaySuffix]"
+
+    $ hostelStreet2MonicaFromSideSuffix = "2"
+
     return
 
 label hostel_edge_1_c_init:
@@ -34,7 +37,10 @@ label hostel_edge_1_c_teleport:
         call change_scene("hostel_street", "Fade", "highheels_run2")
         return
     if obj_name == "Teleport_Walk_Street":
-        call change_scene("hostel_street2")
+        if cloth_type == "Nude":
+            call change_scene("hostel_street2", "Fade", "snd_walk_barefoot")
+            return
+        call change_scene("hostel_street2", "Fade", "highheels_run2")
         return
     if obj_name == "Teleport_Hostel_1_a":
         if act == "l":

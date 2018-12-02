@@ -3,7 +3,6 @@ label intro_scene:
 
     $ scene_name = "intro_scene"
     $ scene_caption = _("Bedroom")
-    $ clear_scene_from_objects(scene_name)
 
     $ scene_image = "scene_Intro"
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "Intro_Monica", "click" : "intro_environment", "actions" : "lh", "zorder":10})

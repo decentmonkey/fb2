@@ -16,11 +16,17 @@ init python:
         return
 
     def makeDump():
-        global scenes_data
+        global scenes_data, debugMode
+        if debugMode != True:
+            return
         str1 = json.dumps(scenes_data)
         f = open("/Users/Denis/Documents/work/browse/renpy_debug.json","w")
         f.write(str1)
         f.close()
+        return
+
+    def notif(str1):
+        renpy.show_screen("notify", str1)
         return
 
 

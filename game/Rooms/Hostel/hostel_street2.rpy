@@ -7,6 +7,8 @@ label hostel_street2:
     $ sceneIsStreet = True
 
     $ scene_image = "scene_Hostel_Street2[day_suffix]"
+
+    $ hostelStreet3MonicaFromSideSuffix = "2"
     return
 label hostel_street2_init:
 
@@ -18,12 +20,35 @@ label hostel_street2_init:
     $ add_object_to_scene("Citizen_12", {"type" : 2, "base" : "Hostel_Street2_Citizen_12[day_suffix]", "click" : "citizens_dialogue", "actions" : "lt", "zorder":5, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"citizens"})
     $ add_object_to_scene("Citizen_13", {"type" : 2, "base" : "Hostel_Street2_Citizen_13[day_suffix]", "click" : "citizens_dialogue", "actions" : "lt", "zorder":5, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"citizens"})
 
+    $ add_object_to_scene("Teleport_Hostel_Edge_1_c", {"type":3, "text" : _("УГОЛ ДОМА"), "larrow" : "arrow_left_2", "base":"Hostel_Street2_Teleport_Hostel_Edge_1_c", "click" : "hostel_street2_teleport", "xpos" : 240, "ypos" : 905, "zorder":15, "teleport":True, "high_sprite_hover":True})
+    $ add_object_to_scene("Teleport_Hostel_Street3", {"type":3, "text" : _("БЕДНЫЙ РАЙОН"), "rarrow" : "arrow_right_2", "base":"Hostel_Street2_Teleport_Hostel_Street3", "click" : "hostel_street2_teleport", "xpos" : 1608, "ypos" : 1030, "zorder":15, "teleport":True, "high_sprite_hover":True})
+
+    $ add_object_to_scene("Teleport_Hostel_Whores_Place", {"type":3, "text" : _("ПЕРЕКРЕСТОК"), "larrow" : "arrow_down_2_a", "base":"Hostel_Street2_Teleport_Whores_Place", "click" : "hostel_street2_teleport", "xpos" : 560, "ypos" : 978, "zorder":15, "teleport":True, "high_sprite_hover":True})
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
 
 label hostel_street2_teleport:
+    if obj_name == "Teleport_Hostel_Edge_1_c":
+        if cloth_type == "Nude":
+            call change_scene("hostel_edge_1_c", "Fade", "snd_walk_barefoot")
+            return
+        call change_scene("hostel_edge_1_c", "Fade", "highheels_run2")
+        return
+    if obj_name == "Teleport_Hostel_Street3":
+        if cloth_type == "Nude":
+            call change_scene("hostel_street3", "Fade", "snd_walk_barefoot")
+            return
+        call change_scene("hostel_street3", "Fade", "highheels_run2")
+        return
+    if obj_name == "Teleport_Hostel_Whores_Place":
+        if cloth_type == "Nude":
+            call change_scene("whores_place", "Fade", "snd_walk_barefoot")
+            return
+        call change_scene("whores_place", "Fade", "highheels_run2")
+        return
+
 
     return
 label hostel_street2_environment:

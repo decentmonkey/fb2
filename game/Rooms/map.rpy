@@ -65,10 +65,9 @@ label map_close:
 label map:
     $ scene_name = "map"
     $ scene_caption = ""
-    $ clear_scene_from_objects(scene_name)
     $ scene_image = "scene_Map" + day_suffix
 
-    call define_hudpresets() from _call_define_hudpresets_1
+    call define_hudpresets()
 
     if hud_presets[hud_preset_current]["display_closemap"] == True:
         $ add_object_to_scene("Close", {"type" : 2, "img_overlay": "map_close" + res.suffix, "base":"map_close_hover" + res.suffix, "click" : "map_environment", "actions" : "l", "zorder":10, "xsprite":1839, "ysprite":17})
@@ -168,6 +167,9 @@ label map_environment:
         return
     if obj_name == "Teleport_Street_Corner":
         call process_drive_teleport("Street_Corner", "street_corner")
+        return
+    if obj_name == "Teleport_Hostel2":
+        call process_drive_teleport("Hostel2", "hostel_street2")
         return
     if obj_name == "Teleport_Police":
         call process_drive_teleport("Police", "street_police")

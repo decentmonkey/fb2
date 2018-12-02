@@ -1,7 +1,23 @@
 label locations_init:
+    #MAP
+    $ add_location("map", caption="", label="map", parent="World")
+    $ add_location("Monica_Office", caption="", label="empty_label", parent="World")
+    $ add_location("Street_Corner", caption="", label="empty_label", parent="World")
+    $ add_location("Dick_Office", caption="", label="empty_label", parent="World")
+    $ add_location("Gas_Station", caption="", label="empty_label", parent="World")
+    $ add_location("Police", caption="", label="empty_label", parent="World")
+    $ add_location("Rich_Hotel", caption="", label="empty_label", parent="World")
+    $ add_location("Fitness", caption="", label="empty_label", parent="World")
+    $ add_location("Steve_Office", caption="", label="empty_label", parent="World")
+    $ add_location("Bank", caption="", label="empty_label", parent="World")
+    $ add_location("Cloth_Shop", caption="", label="empty_label", parent="World")
+    $ add_location("Street_Corner", caption="", label="empty_label", parent="World")
+    $ add_location("Hostel2", caption="", label="empty_label", parent="World")
+    $ add_location("House", caption="", label="empty_label", parent="World")
+
     #BANK
     $ add_location("bank_office", caption=_("BANK"), label="bank_office", init_label="bank_office_init", parent="Bank")
-    $ add_location("street_bank", caption=_("BANK"), label="bank_office", init_label="bank_office_init", parent="Bank")
+    $ add_location("street_bank", caption=_("BANK"), label="street_bank", init_label="street_bank_init", parent="Bank")
 
     #CLOTHING SHOP
     $ add_location("street_cloth_shop", caption=_("Clothing Shop"), label="street_cloth_shop", init_label="street_cloth_shop_init", parent="Cloth_Shop")
@@ -34,7 +50,7 @@ label locations_init:
     $ add_location("hostel_street", caption=_("HOSTEL STREET"), label="hostel_street", init_label="hostel_street_init", parent="Street_Corner")
     $ add_location("hostel_street_door", caption=_("HOSTEL ENTRANCE"), label="hostel_street_door", init_label="hostel_street_door_init", parent="Street_Corner")
     $ add_location("hostel_street2", caption=_("DIRTY STREET"), label="hostel_street2", init_label="hostel_street2_init", parent="Street_Corner")
-    $ add_location("hostel_street3", caption=_("DIRTY STREET"), label="hostel_street3", init_label="hostel_street3_init", parent="Street_Corner")
+    $ add_location("hostel_street3", caption=_("POOR STREET"), label="hostel_street3", init_label="hostel_street3_init", parent="Street_Corner")
 
     #HOUSE
     $ add_location("basement_bedroom2_cupboard", caption=_("BASEMENT"), label="basement_bedroom2_cupboard", init_label="basement_bedroom2_cupboard_init", parent="House")
@@ -100,17 +116,8 @@ label locations_init:
     $ add_location("whores_place_shawarma", caption=_("Shawarma"), label="whores_place_shawarma", init_label="whores_place_shawarma_init", parent="House")
     $ add_location("whores_place_street1", caption=_("Dirty street"), label="whores_place_street1", init_label="whores_place_street1_init", parent="House")
 
-
-
-
-
-
-
-
-
-
-
-
+    # Dummy location
+    $ add_location("empty", caption="", label="", parent="none")
 
 
 

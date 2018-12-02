@@ -42,10 +42,10 @@ label whores_place_shawarma_teleport2:
         call change_scene("street_cloth_shop", "Fade_long", "highheels_run2")
         return
     if obj_name == "Teleport_Street_Hostel":
-        call change_scene("hostel_street", "Fade_long", "highheels_run2")
+        call change_scene("hostel_street", "Fade", "highheels_run2")
         return
     if obj_name == "Teleport_Whores_Place":
-        call change_scene("whores_place", "Fade_long", "highheels_run2")
+        call change_scene("whores_place", "Fade", "highheels_run2")
         return
 
     return

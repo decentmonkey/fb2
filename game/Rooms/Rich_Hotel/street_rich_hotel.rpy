@@ -22,6 +22,10 @@ label street_rich_hotel_teleport:
             mt "Вход в отель..."
             return
         if obj_data["action"] == "w":
+#            $ cloth_type = "PhotoDress"
+#            $ cloth = "PhotoDress"
+#            call change_scene("rich_hotel_event_sittable")
+#            return
             mt "Я еще не сошла с ума, чтобы идти в такой дорогой отель одетой в ЭТО!!!"
             return
             call change_scene("rich_hotel_reception")

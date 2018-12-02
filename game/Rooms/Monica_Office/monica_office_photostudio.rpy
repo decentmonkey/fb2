@@ -14,7 +14,6 @@ label monica_office_photostudio_init:
     $ add_object_to_scene("Melanie", {"type" : 2, "base" : "Office_Monica_PhotoStudio_Melanie[photostudioMelanieSuffix]", "click" : "monica_office_photostudio_environment", "actions" : "lt", "zorder":10})
     $ add_object_to_scene("AlexPhotograph", {"type" : 2, "base" : "Office_Monica_PhotoStudio_Alex[photostudioAlexSuffix]", "click" : "monica_office_photostudio_environment", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png" })
 
-
     $ add_object_to_scene("Box1", {"type" : 2, "base" : "Office_Monica_PhotoStudio_Box1", "click" : "monica_office_photostudio_environment", "actions" : "l", "zorder":0 ,"b":0.15, "group":"environment"})
     $ add_object_to_scene("Boxes", {"type" : 2, "base" : "Office_Monica_PhotoStudio_Boxes", "click" : "monica_office_photostudio_environment", "actions" : "l", "zorder":0 ,"b":0.15, "group":"environment"})
     $ add_object_to_scene("Cloth", {"type" : 2, "base" : "Office_Monica_PhotoStudio_Cloth", "click" : "monica_office_photostudio_environment", "actions" : "l", "zorder":0, "group":"environment"})

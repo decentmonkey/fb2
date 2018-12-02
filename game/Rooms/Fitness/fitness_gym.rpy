@@ -5,7 +5,6 @@ label fitness_gym:
 
     $ scene_name = "fitness_gym"
     $ scene_caption = _("Fitness Gym")
-    $ clear_scene_from_objects(scene_name)
     $ scene_image = "scene_Fitness_Gym"
 
 label fitness_gym_init:

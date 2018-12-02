@@ -8,7 +8,7 @@ label rich_hotel_event_sofa:
 
 label rich_hotel_event_sofa_init:
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "rich_hotel_event_sofa_Monica_[cloth]", "click" : "rich_hotel_event_sofa_environment", "actions" : "l", "zorder":10})
-    $ add_object_to_scene("Beef", {"type" : 2, "base" : "rich_hotel_event_sofa_Philip", "click" : "rich_hotel_event_sofa_environment", "actions" : "lt", "zorder":10})
+    $ add_object_to_scene("Beef", {"type" : 2, "base" : "rich_hotel_event_sofa_Beef", "click" : "rich_hotel_event_sofa_environment", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png"})
     $ add_object_to_scene("Melanie", {"type" : 2, "base" : "rich_hotel_event_sofa_Melanie", "click" : "rich_hotel_event_sofa_environment", "actions" : "lt", "zorder":11})
 
     $ add_object_to_scene("Komode", {"type" : 2, "base" : "rich_hotel_event_sofa_Komode", "click" : "rich_hotel_event_sofa_environment", "actions" : "l", "zorder":0, "group":"environment"})

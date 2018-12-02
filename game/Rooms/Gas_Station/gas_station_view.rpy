@@ -402,7 +402,6 @@ label gas_station_view_cashier:
 
     $ scene_name = "gas_station_view_cashier"
     $ scene_caption = _("Gas Station")
-    $ clear_scene_from_objects(scene_name)
     if gasStationSaleswomanMischiefed == True:
         $ scene_image = "scene_Gas_Station_View_CashierCashier_Sorry_Hard"
     else:
