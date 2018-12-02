@@ -13,7 +13,7 @@ label floor2:
 label floor2_init:
     $ monica_tint = [1.0, 1.0, 1.0]
 
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Floor2_Monica_" + cloth + "_Evening", "click" : "floor2_environment", "actions" : "l", "zorder":10, "tint": monica_tint}, {"bettyLocation": {"floor2", "base" : "Floor2_Monica_[cloth][day_suffix]"}})
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Floor2_Monica_[cloth][day_suffix]", "click" : "floor2_environment", "actions" : "l", "zorder":10, "tint": monica_tint}, {"bettyLocation": {"v":"floor2", "base" : "Floor2_Monica_[cloth]_Evening"}})
     $ add_object_to_scene("Betty", {"type" : 2, "base" : "Floor2_Betty_[floor2BettyPositionSuffix]_Evening", "click" : "bettyInteract1", "actions" : "lt", "zorder":10})
 
     $ add_object_to_scene("Spot", {"type" : 2, "base" : "Floor2_Spot", "click" : "floor2_environment", "actions" : "l", "zorder":10, "group":"environment"})

@@ -10,7 +10,7 @@ label intro_scene:
 
     return
 
-label intro_environment(obj_name, obj_data):
+label intro_environment:
     if obj_name == "Monica":
         if obj_data["action"] == "l":
             mt "Zzzzzzzz...."

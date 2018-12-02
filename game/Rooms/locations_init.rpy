@@ -96,8 +96,8 @@ label locations_init:
 
     # Whores place
     $ add_location("street_corner", caption=_("Street Edge"), label="street_corner", init_label="street_corner_init", parent="House")
-    $ add_location("enter_whores_place", caption=_("Whores place"), label="enter_whores_place", init_label="enter_whores_place_init", parent="House")
-    $ add_location("enter_whores_place_shawarma", caption=_("Shawarma"), label="enter_whores_place_shawarma", init_label="enter_whores_place_shawarma_init", parent="House")
+    $ add_location("whores_place", caption=_("Whores place"), label="whores_place", init_label="whores_place_init", parent="House")
+    $ add_location("whores_place_shawarma", caption=_("Shawarma"), label="whores_place_shawarma", init_label="whores_place_shawarma_init", parent="House")
     $ add_location("whores_place_street1", caption=_("Dirty street"), label="whores_place_street1", init_label="whores_place_street1_init", parent="House")
 
 

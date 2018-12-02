@@ -6,7 +6,7 @@ label bedroom_second:
     $ scene_image = "scene_House_BedroomSecond[day_suffix]"
     return
 
-label bedroom_second:
+label bedroom_second_init:
     $ monica_tint = [1.0, 1.0, 1.0]
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_BedroomSecond_Monica_[cloth][day_suffix]", "click" : "bedroom_second_environment", "actions" : "l", "zorder":10, "tint": monica_tint})
 

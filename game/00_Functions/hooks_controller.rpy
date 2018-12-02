@@ -182,13 +182,13 @@ label process_hooks(obj_name, room_name = False, sprites_hover_dummy_screen = Fa
         $ room_name = api_scene_name
 
     if scenes_data["hooks"].has_key(room_name) == False or scenes_data["hooks"][room_name].has_key(obj_name) == False:
-        return False
+        return _return
 
     $ hooks_list = scenes_data["hooks"][room_name][obj_name]
     $ processed_hooks = []
     $ len1 = len(hooks_list)
     if len1 == 0:
-        return False
+        return _return
     $ idx = len1 - 1
     label .hooks_call_loop:
         $ hooks_list = scenes_data["hooks"][room_name][obj_name] #повтор для цикла, восстановление из-за глобальных переменных

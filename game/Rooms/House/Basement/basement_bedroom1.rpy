@@ -36,7 +36,7 @@ label basement_bedroom1_teleport:
         return
     return
 
-label basement_bedroom1_environment(obj_name, obj_data):
+label basement_bedroom1_environment:
     if obj_name == "BasementWardrobe":
         if act == "l":
             mt "В этот старый шкаф можно повесить одежду..."

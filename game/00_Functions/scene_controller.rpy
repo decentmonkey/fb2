@@ -4,6 +4,7 @@ default sceneStages = []
 default lastSceneName = False
 default refreshed_scene_name = False
 default game_version1_screen_ready_to_render = False
+default scene_caption = ""
 
 label show_scene:
     $ show_scene_loop_flag = False
@@ -101,7 +102,7 @@ label show_scene_loop:
 
 label change_scene(new_scene_name, in_transition_name="Fade", in_sound_name="highheels_short_walk"):
     call process_hooks("exit_scene", scene_name) #хук выхода со сцены
-    if _return = False: #Если False, то прерываем смену сцены
+    if _return == False: #Если False, то прерываем смену сцены
         return
     $ sceneIsStreet = False
     $ scene_transition = in_transition_name
@@ -112,6 +113,7 @@ label change_scene(new_scene_name, in_transition_name="Fade", in_sound_name="hig
     $ scene_name = new_scene_name
     $ refreshed_scene_name = False
     $ scene_caption = scenes_data["objects"][scene_name]["data"]["caption"]
+    $ scene_label = scenes_data["objects"][scene_name]["data"]["label"]
     $ api_scene_name = new_scene_name
 
     call process_hooks("before_open", scene_name) #хук до инициализации сцены

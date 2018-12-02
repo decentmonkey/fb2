@@ -13,6 +13,16 @@ init python:
 
     def mycopytext(t):
         pygame.scrap.put(pygame.scrap.SCRAP_TEXT, t.encode("utf-8"))
+        return
+
+    def makeDump():
+        global scenes_data
+        str1 = json.dumps(scenes_data)
+        f = open("/Users/Denis/Documents/work/browse/renpy_debug.json","w")
+        f.write(str1)
+        f.close()
+        return
+
 
 label mycopytext_label(txt):
     $ mycopytext(txt)
@@ -66,8 +76,6 @@ label textonblack_long(in_text):
     scene black_screen
     with Dissolve(1)
     return
-
-
 
 
 

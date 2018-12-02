@@ -25,7 +25,7 @@ label dick_office_secretary_init:
     #                            $ saturation_adjustment = 1.07
     #                            $ contrast_adjustment = 1.3
 
-label dick_office_secretary_teleport(obj_name, obj_data):
+label dick_office_secretary_teleport:
     if obj_name == "Teleport_Hall":
         call change_scene("dick_office_hall1")
         return
@@ -38,7 +38,7 @@ label dick_office_secretary_teleport(obj_name, obj_data):
             call change_scene("dick_office_cabinet")
         return
     return
-label dick_office_secretary_environment(obj_name, obj_data):
+label dick_office_secretary_environment:
     if obj_name == "Monica":
         mt "(хмык)"
         return

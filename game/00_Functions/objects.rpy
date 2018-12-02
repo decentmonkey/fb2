@@ -2,11 +2,6 @@ init python:
     obj_properties_prefix = "img"
     obj_properties_suffixes = {" ":"sprite", "_evening":"sprite", "_mask":"mask", "_overlay":"overlay", "_evening_mask":"mask", "_evening_overlay":"overlay"}
 
-    def get_image_filename(name):
-        return False
-    def get_canvas_offset(name):
-        return False
-
     def fill_object_properties(name, obj_data):
         obj_base = obj_data["base"]
         asset_found = False
@@ -60,9 +55,13 @@ init python:
         return
 
     def process_scene_objects_list(room_name):
+        global scenes_data
+        if scenes_data["objects"].has_key(room_name) == False:
+            return
         obj_list = {}
         for obj_name in scenes_data["objects"][room_name]:
-            obj_list = process_scene_object(obj_name, scenes_data["objects"][room_name][obj_name])
+            if scenes_data["objects"][room_name][obj_name].has_key("active"):
+                obj_list[obj_name] = process_scene_object(obj_name, scenes_data["objects"][room_name][obj_name])
         return obj_list
 
     def process_scene_object(obj_name, obj_data_source):
@@ -202,7 +201,9 @@ init python:
                 str1 = str1.replace("[" + str(var1) + "]", globals()[var1])
         return str1
 
-label process_object_click(func_name, obj_name, obj_data):
+label process_object_click(func_name, obj_name_source, obj_data_source):
+    $ obj_name = obj_name_source
+    $ obj_data = obj_data_source
     if clickHoldMode == True and clickHoldFlag == True:
         $ x,y = renpy.get_mouse_pos()
         if time.time() - clickHoldLastTime < 1 and abs(x - clickHoldLastMouseX) < 3 and abs(y - clickHoldLastMouseY) < 3:
@@ -224,7 +225,7 @@ label process_object_click(func_name, obj_name, obj_data):
     $ interface_blocked_flag = True
     $ screenActionHappened = False
     $ act = obj_data["action"]
-    call expression func_name pass (obj_name, obj_data)
+    call expression func_name
     call process_hooks(obj_name, api_scene_name)
     if screenActionHappened == True:
         $ clickHoldFlag = True
@@ -269,7 +270,11 @@ label process_object_click_alternate_action(idx, actions_list, click_label, name
     show screen sprites_hover_dummy_screen()
     $ interface_blocked_flag = True
     $ act = data["action"]
-    call expression func_name pass (name, data)
+
+#    call expression func_name pass (name, data)
+    $ obj_name = name
+    $ obj_data = data
+    call expression func_name
     $ interface_blocked_flag = False
     if _return != False:
         $ scene_refresh_flag = True
@@ -301,9 +306,9 @@ label process_object_click_alternate_inventory(idx, inventory_data, click_label,
     $ interface_blocked_flag = True
     $ act = data["action"]
     if shortFunction == False:
-        call expression func_name pass (name, inventory[idx], inventory_data, data) from _call_expression_2
+        call expression func_name pass (name, inventory[idx], inventory_data, data)
     else:
-        call expression func_name from _call_expression_6
+        call expression func_name
     $ interface_blocked_flag = False
     if _return != False:
         $ scene_refresh_flag = True

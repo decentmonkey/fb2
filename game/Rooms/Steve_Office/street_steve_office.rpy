@@ -5,7 +5,9 @@ label street_steve_office:
 
     $ sceneIsStreet = True
     $ scene_image = "scene_Street_Steve_Office[day_suffix]"
+    return
 
+label street_steve_office_init:
     $ add_object_to_scene("Teleport_Building", {"type":2, "base":"Street_Steve_Office_Building", "click" : "street_steve_office_teleport", "actions" : "lw", "zorder" : 1, "b":0.05})
     return
 

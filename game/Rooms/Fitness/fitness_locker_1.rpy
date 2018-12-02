@@ -24,7 +24,7 @@ label fitness_locker_1:
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
 
-label fitness_locker_1_teleport(obj_name, obj_data):
+label fitness_locker_1_teleport:
     if obj_name == "Teleport_Gym":
         call change_scene("fitness_gym")
         return
@@ -33,7 +33,7 @@ label fitness_locker_1_teleport(obj_name, obj_data):
         return
 
     return
-label fitness_locker_1_environment(obj_name, obj_data):
+label fitness_locker_1_environment:
     if obj_name == "Benches":
         mt "Скамейки в раздевалке.
         Не знаю, может быть на них что-то и удобно делать, но точно не переодеваться!"

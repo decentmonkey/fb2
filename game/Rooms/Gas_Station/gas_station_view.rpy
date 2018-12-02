@@ -358,9 +358,9 @@ label gas_station_view6:
 
     return
 
-label gas_station_view6:
-    $ add_object_to_scene("Sofa", {"type":2, "base":"Gas_Station_View6_Sofa", "click" : "gas_station_view5_environment", "actions" : "l", "zorder" : 0 "group":"environment"})
-    $ add_object_to_scene("Flower", {"type":2, "base":"Gas_Station_View6_Flower", "click" : "gas_station_view1_environment", "actions" : "l", "zorder" : 0 "group":"environment"})
+label gas_station_view6_init:
+    $ add_object_to_scene("Sofa", {"type":2, "base":"Gas_Station_View6_Sofa", "click" : "gas_station_view5_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("Flower", {"type":2, "base":"Gas_Station_View6_Flower", "click" : "gas_station_view1_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
 
     $ add_object_to_scene("Beer1", {"type":2, "base":"Gas_Station_View6_Beer1", "click" : "gas_station_view6_environment", "actions" : "l", "zorder" : 0, "b":0.15, "group":"environment"})
     $ add_object_to_scene("Beer2", {"type":2, "base":"Gas_Station_View6_Beer2", "click" : "gas_station_view6_environment", "actions" : "l", "zorder" : 0, "b":0.15, "group":"environment"})

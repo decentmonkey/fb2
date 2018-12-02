@@ -5,6 +5,7 @@ default rain = False
 default rainIntencity = 0
 default lightning = False
 default sceneIsStreet = False
+default objectives_list = []
 
 label start:
 #    jump credits
@@ -25,7 +26,7 @@ label start:
     $ day = 1
     $ week_day = (day-1)%7
     $ money = 0.0
-    $ scenes_data = {"objects": {}, "substs" : {}, "autorun": {}}
+    $ scenes_data = {"objects": {}, "substs" : {}, "autorun": {}, "hooks": {}}
     $ inventory_objects = {}
     $ inventory = []
 
@@ -59,8 +60,16 @@ label start:
 
     $ scene_refresh_flag = True
     $ map_enabled = False
-    call basement_bedroom2()
+    $ scene_name = "none"
+    $ api_scene_name = "none"
+    call locations_init()
+    call change_scene("basement_bedroom2")
+
     $ scene_transition = "Fade_long"
+    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
+#    $ print scene_data
+#    $ renpy.pause(100, hard=True)
+
 #    $ autorun_to_object("intro_scene", "intro_scene_start")
     jump show_scene
 

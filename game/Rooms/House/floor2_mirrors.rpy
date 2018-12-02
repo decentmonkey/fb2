@@ -63,7 +63,7 @@ label floor2_mirrors_environment2:
     return
 
 
-label floor2_mirrors_environment(obj_name, obj_data):
+label floor2_mirrors_environment:
     if obj_name == "Journal":
         if obj_data["action"] == "l":
             m "А что это лежит сбоку от зеркала?"

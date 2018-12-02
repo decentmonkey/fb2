@@ -91,7 +91,7 @@ label map:
     return
 
 
-label map_environment(obj_name, obj_data):
+label map_environment:
     if obj_name == "Close":
         call map_close() from _call_map_close
         return

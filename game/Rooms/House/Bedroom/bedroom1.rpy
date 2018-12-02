@@ -9,9 +9,9 @@ label bedroom1:
 label bedroom1_init:
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "Bedroom1_Monica_[cloth]", "click" : "bedroom2_environment", "actions" : "l", "zorder":10})
 
-    if bettyLocation == "Bedroom1":
-        if day_time == "day":
-    $ add_object_to_scene("Betty", {"type" : 2, "base" : "Bedroom1_Betty", "click" : "bettyInteract1", "actions" : "lt", "zorder":10}, {"day_time":{"v":"evening", "base":"empty"}}, "active":False)
+#    if bettyLocation == "Bedroom1":
+#        if day_time == "day":
+    $ add_object_to_scene("Betty", {"type" : 2, "base" : "Bedroom1_Betty", "click" : "bettyInteract1", "actions" : "lt", "zorder":10, "active":False}, {"day_time":{"v":"evening", "base":"empty"}})
 
     $ add_object_to_scene("Chair", {"type":2, "base":"Bedroom1_Chair", "click" : "bedroom1_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Chair2", {"type":2, "base":"Bedroom1_Chair2", "click" : "bedroom1_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
