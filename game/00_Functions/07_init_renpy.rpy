@@ -1,6 +1,7 @@
 default tt = Tooltip("")
 define maxBitchness = 560
 define maxBitchness_EP1 = 560
+default monicaBitch = False
 define m = Character(_("Моника Бакфетт"), who_color=c_orange, what_color=c_white, what_italic=False) #Monica
 define mt = Character(kind=m, what_color=c_blue, what_italic=True) #Monica thinking
 #define narrator = Character(kind=m)

@@ -28,6 +28,11 @@ label define_autorun:
 
     $ define_version_current = define_version
 
+    $ char_info = {
+        "Betty":{"name": _("Бетти Робертс"), "face":"Face_Betty", "style":"char_face_style1", "level":1, "current_progress":0, "max_progress":100, "uplevel_label":"char_Betty_uplevel", "progress_label":False}
+        "Betty":{"name": _("Барди"), "face":"Face_Bardie", "style":"char_face_style1", "level":1, "current_progress":0, "max_progress":100, "uplevel_label":"char_Bardie_uplevel", "progress_label":False}
+    }
+
     $ actions_objects = { #иконки действий
         "l" : {
             "description" : _("Смотреть"),

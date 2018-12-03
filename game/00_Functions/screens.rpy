@@ -266,7 +266,7 @@ screen screen_sprites(data):
                                             hovered SetScreenVariable("idle_num", 0.4)
                                             at imagebutton_hover_type1(idle_num)
                                             focus_mask True
-                                            if data[i]["actions"] == "l": #если объекту не заданы действия кроме просмотра, то не выводим доп. меню
+                                            if data[i]["actions"] == "l" and check_object_has_character(i) == False: #если объекту не заданы действия кроме просмотра, то не выводим доп. меню
                                                 action [
                                                     Call("process_object_click", data[i]["click"], i, data[i]),
                                                 ]
