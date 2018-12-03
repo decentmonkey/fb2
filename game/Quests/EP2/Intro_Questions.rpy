@@ -32,7 +32,7 @@ label intro_questions_long:
                 "Моника сказала что сосед грязный.":
                     call bitch(2, "neighbor_dial3")
                     $ neighborOffended3 = True
-                "Нет."
+                "Нет.":
                     call bitch(-2, "neighbor_dial3")
 
             menu:
@@ -84,19 +84,19 @@ label intro_questions_long:
         "Юлия наказана криком, но пятно можно не убирать.":
             call bitch(-10, "monica_julia_revenge_punished")
             $ juliaPunishedLow = True
-        "Юлия наказана и убирает пятно в свободное время."
+        "Юлия наказана и убирает пятно в свободное время.":
             $ juliaPunishedVoluntarily = True
             call bitch(5, "monica_julia_revenge_punished_voluntarily")
-        "Юлию не наказана за пятно никак."
+        "Юлию не наказана за пятно никак.":
             $ juliaPunishedNone = True
             call bitch(-10, "monica_julia_revenge_punished")
             call bitch(-5, "monica_julia_revenge_punished_voluntarily")
 
     menu:
-        "Моника соврала про то что пятно поставила она."
+        "Моника соврала про то что пятно поставила она.":
             $ juliaMonicaLied = True
             call bitch(5, "monica_julia_revenge_lie")
-        "Моника сказала правду про пятно."
+        "Моника сказала правду про пятно.":
             pass
 
     img 4082
@@ -121,6 +121,7 @@ label intro_questions_long:
             $ steveOffended1 = True
             call bitch(2, "steve_offended1")
         "Нет.":
+            pass
 
     img 1198
     with fadelong
@@ -358,6 +359,7 @@ label intro_questions_long:
                     $ christineFuckedByFredBlowjob = True
                     $ christineFuckedByFredAnal = True
                 "Кристина не выдержала и убежала.":
+                    pass
         "Нет.":
             pass
 
@@ -475,6 +477,7 @@ label intro_questions_long:
                 "Моника проглотила сперму Фреда.":
                     $ monicaFredWasSpermEat = True
                 "Моника выплюнула сперму Фреда.":
+                    pass
         "Моника обошлась без миньета.":
             pass
 

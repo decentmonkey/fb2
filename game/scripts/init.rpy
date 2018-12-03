@@ -29,8 +29,8 @@ label define_autorun:
     $ define_version_current = define_version
 
     $ char_info = {
-        "Betty":{"name": _("Бетти Робертс"), "face":"Face_Betty", "style":"char_face_style1", "level":1, "current_progress":0, "max_progress":100, "uplevel_label":"char_Betty_uplevel", "progress_label":False}
-        "Betty":{"name": _("Барди"), "face":"Face_Bardie", "style":"char_face_style1", "level":1, "current_progress":0, "max_progress":100, "uplevel_label":"char_Bardie_uplevel", "progress_label":False}
+        "Betty":{"name": _("Бетти Робертс"), "face":"Face_Betty", "style":"char_face_style1", "level":1, "current_progress":0, "max_progress":100, "uplevel_label":"char_Betty_uplevel", "progress_label":False},
+        "Bardie":{"name": _("Барди"), "face":"Face_Bardie", "style":"char_face_style1", "level":1, "current_progress":0, "max_progress":100, "uplevel_label":"char_Bardie_uplevel", "progress_label":False}
     }
 
     $ actions_objects = { #иконки действий
@@ -53,7 +53,13 @@ label define_autorun:
             "description" : _("Идти"),
             "label_suffix" : "_walk",
             "icon" : "/Icons/walk" + res.suffix + ".png",
+        },
+        "i" : {
+            "description" : _("Инфо"),
+            "label_suffix" : "_info",
+            "icon" : "/Icons/info" + res.suffix + ".png",
         }
+
     }
 
 

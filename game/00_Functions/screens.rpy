@@ -524,7 +524,8 @@ screen action_menu_screen(click_label, name, data):
     default y = -1
     if x == -1 and y == -1:
         $ x,y = renpy.get_mouse_pos()
-
+    if check_object_has_character(i) == True:
+        $ data["actions"] = data["actions"] + "i"
     $ menu_len = (len(data["actions"]) + len(inventory)) * gui.resolution.action_menu.inventory_len1 + gui.resolution.action_menu.inventory_len2
     if x + menu_len > config.screen_width:
         $ x = config.screen_width - menu_len
