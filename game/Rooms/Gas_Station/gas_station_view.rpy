@@ -12,7 +12,7 @@ label gas_station_view1_init:
 
     $ add_object_to_scene("Monica", {"type":2, "base":"Gas_Station_View1_Monica_[cloth]", "click" : "gas_station_view1_environment", "actions" : "l", "zorder" : 10})
 
-    $ add_object_to_scene("Cashier", {"type":2, "base":"Gas_Station_View1_Cashier", "click" : "gas_station_view1_environment", "actions" : "lw", "zorder" : 0, "teleport":True})
+    $ add_object_to_scene("GasSaleswoman", {"type":2, "base":"Gas_Station_View1_Cashier", "click" : "gas_station_view1_environment", "actions" : "lw", "zorder" : 0, "teleport":True})
     $ add_object_to_scene("Books_Stand", {"type":2, "base":"Gas_Station_View1_Teleport_View2", "click" : "gas_station_view1_environment", "actions" : "lw", "zorder" : 0, "teleport":True})
     $ add_object_to_scene("Cakes_Stand", {"type":2, "base":"Gas_Station_View1_Teleport_View3", "click" : "gas_station_view1_environment", "actions" : "lw", "zorder" : 0, "teleport":True})
     $ add_object_to_scene("Beverages_Stand", {"type":2, "base":"Gas_Station_View1_Teleport_View4", "click" : "gas_station_view1_environment", "actions" : "lw", "zorder" : 0, "teleport":True})

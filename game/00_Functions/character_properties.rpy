@@ -30,6 +30,49 @@ init python:
             return True
         return False
 
+    def process_character_info_buttons(scene_data): #добавляем кнопки info для персонажей со свойствами
+        for obj_name in scene_data:
+            if check_object_has_character(obj_name) == True:
+                if scene_data[obj_name].has_key("actions"):
+                    scene_data[obj_name]["actions"] = scene_data[obj_name]["actions"] + "i"
+        return scene_data
+
+    def add_char_progress(char_name, progress_value, progress_name, **kwargs):
+        global char_data
+        duplicate = False
+        if kwargs.has_key("duplicate") == True and kwargs["duplicate"] == True:
+            duplicate = True
+        else:
+            if char_progress_stored.has_key(char_name) == True and char_progress_stored[char_name].has_key(progress_name) == True:
+                return
+        if char_progress_stored.has_key(char_name) == False:
+            char_progress_stored[char_name] = {}
+        if char_progress_stored[char_name].has_key(progress_name) == False:
+            char_progress_stored[char_name][progress_name] = 0
+        if char_info[char_name]["enabled"] == False:
+            notif(char_info[char_name]["name"] + " " + _("прогресс заморожен"))
+            return
+        char_progress_stored[char_name][progress_name] = char_progress_stored[char_name][progress_name] + 1
+        char_info[char_name]["current_progress"] = char_info[char_name]["current_progress"] + progress_value
+
+        char_data = char_info[char_name]
+        if char_info[char_name]["current_progress"] >= char_info[char_name]["max_progress"]:
+#            char_info[char_name]["current_progress"] = char_info[char_name]["max_progress"]
+            notif(char_info[char_name]["name"] + " " + _("прогресс перешел на следующий уровень!"))
+            char_info[char_name]["current_progress"] = 0
+            renpy.play("Sounds/level_up.ogg", channel="sound")
+            if char_info[char_name]["uplevel_label"] != False and renpy.has_label(char_info[char_name]["uplevel_label"]) == True:
+                progressFuncName = char_info[char_name]["uplevel_label"]
+                renpy.call(progressFuncName)
+        else:
+            notif(char_info[char_name]["name"] + " " + _("прогресс увеличен!"))
+            if char_info[char_name]["progress_label"] != False and renpy.has_label(char_info[char_name]["progress_label"]) == True:
+                progressFuncName = char_info[char_name]["progress_label"]
+                renpy.call(progressFuncName)
+        return
+
+#    if check_object_has_character(i) == True:
+#        $ data["actions"] = data["actions"] + "i"
 
 label bitch(amount, place=False):
     $ global bitchmeter_places

@@ -338,13 +338,18 @@ label process_object_click_alternate_action(idx, actions_list, click_label, name
 
 #    call showLog("alternate action click!") from _call_showLog
     hide screen action_menu_screen
+    $ data["action"] = actions_list[idx]["action"]
     #проверяем подстановку
+    if data["action"] == "i": #info
+        show screen sprites_hover_dummy_screen()
+        $ x,y = renpy.get_mouse_pos()
+        show screen character_info_screen(name, x, y)
+        return
     if func_name == click_label:
         if scenes_data["substs"].has_key(scene_name) and scenes_data["substs"][scene_name].has_key(name):
             if scenes_data["substs"][scene_name][name] != False:
                 $ func_name = scenes_data["substs"][scene_name][name]
 
-    $ data["action"] = actions_list[idx]["action"]
     show screen sprites_hover_dummy_screen()
     $ interface_blocked_flag = True
     $ act = data["action"]

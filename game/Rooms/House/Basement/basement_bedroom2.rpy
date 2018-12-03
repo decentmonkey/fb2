@@ -47,6 +47,8 @@ label basement_bedroom2_environment:
         "Но это временно!!!"
         "Это какое-то недоразуменее, которое скоро разрешится!"
     if obj_name == "BasementBed":
+        $ add_char_progress("Monica", 25, "progress1", duplicate=True)
+        return
         if act == "l":
             mt "Моя кровать..."
             "Но это временно!!!"

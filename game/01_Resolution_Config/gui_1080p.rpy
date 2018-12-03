@@ -173,6 +173,82 @@ transform credits_transform:
     ypos 1080
     linear 520.0 ypos -27240
 
+style char_face_style1_red_head:
+    xpos 0.52
+    ypos 0.13
+    anchor (0.5, 0.5)
+    font "fonts/BebasNeue Regular.ttf"
+    color c_red
+    size 60
+
+style char_face_style1_white_head:
+    xpos 0.52
+    ypos 0.13
+    anchor (0.5, 0.5)
+    font "fonts/BebasNeue Regular.ttf"
+    color c_white
+    size 60
+
+style char_face_style1_orange_head:
+    xpos 0.52
+    ypos 0.13
+    anchor (0.5, 0.5)
+    font "fonts/BebasNeue Regular.ttf"
+    color c_orange
+    size 60
+
+style char_face_style1_pink_head:
+    xpos 0.52
+    ypos 0.13
+    anchor (0.5, 0.5)
+    font "fonts/BebasNeue Regular.ttf"
+    color c_pink
+    size 60
+
+style char_face_style1_blue_head:
+    xpos 0.52
+    ypos 0.13
+    anchor (0.5, 0.5)
+    font "fonts/BebasNeue Regular.ttf"
+    color c_blue
+    size 60
+
+style char_face_style1_green_head:
+    xpos 0.52
+    ypos 0.13
+    anchor (0.5, 0.5)
+    font "fonts/BebasNeue Regular.ttf"
+    color c_green
+    size 60
+
+
+style char_face_style_progress:
+    xpos 0.52
+    ypos 0.35
+    anchor (0.5, 0.5)
+    size 35
+#    font "fonts/Tahoma.ttf"
+    font "fonts/Ubuntu-Condensed.ttf"
+    color "#efefef"
+
+style char_face_style_progress2:
+    xpos 0.52
+    ypos 0.5
+    anchor (0.5, 0.5)
+    size 30
+    font "fonts/Tahoma.ttf"
+#    font "fonts/BebasNeue Book.ttf"
+    color "#ffffff"
+
+style char_face_style_caption:
+    xpos 0.52
+    ypos 0.7
+    anchor (0.5, 0.0)
+    size 25
+#    font "fonts/Tahoma.ttf"
+    font "fonts/arial.ttf"
+    color "#ffffff"
+
 define gui.credits.offset1 = 30
 define gui.credits.offset2 = 42
 define gui.credits.offset3 = 40

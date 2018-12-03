@@ -99,7 +99,7 @@ label start:
 
 
 #    $ remove_hook(label="betty_forbidden", scene="House", recursive=True)
-    call change_scene("basement_bedroom2")
+    call change_scene("basement_bedroom2", "Fade_long", False)
 
     $ scene_transition = "Fade_long"
 

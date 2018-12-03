@@ -524,8 +524,6 @@ screen action_menu_screen(click_label, name, data):
     default y = -1
     if x == -1 and y == -1:
         $ x,y = renpy.get_mouse_pos()
-    if check_object_has_character(i) == True:
-        $ data["actions"] = data["actions"] + "i"
     $ menu_len = (len(data["actions"]) + len(inventory)) * gui.resolution.action_menu.inventory_len1 + gui.resolution.action_menu.inventory_len2
     if x + menu_len > config.screen_width:
         $ x = config.screen_width - menu_len
@@ -687,6 +685,105 @@ screen action_menu_tooltip_screen(in_x, in_y, item_offset, tooltip_text, in_text
 #            color "#ffc9c9"
             color in_text_color
 
+screen character_info_screen(obj_name, x, y):
+    $ width1 = 720 * gui.resolution.koeff
+    $ height1 = 320 * gui.resolution.koeff
+    $ style1 = char_info[obj_name]["style"]
+    $ x = x - width1/3
+    $ y = y - height1/3
+    if (1920*gui.resolution.koeff) - x + width1 < 273*gui.resolution.koeff:
+        $ x = (1920*gui.resolution.koeff) - width1 - (273*gui.resolution.koeff)
+    if x < (273*gui.resolution.koeff):
+        $ x = (273*gui.resolution.koeff)
+    if (1080*gui.resolution.koeff) - y + height1 < (144*gui.resolution.koeff):
+        $ y = (1080*gui.resolution.koeff) - height1 - (144*gui.resolution.koeff)
+    if y < (400*gui.resolution.koeff):
+        $ y = (400*gui.resolution.koeff)
+
+    if char_info[obj_name]["enabled"] == True:
+        $ captionText = char_info[obj_name]["caption"]
+        $ barSuffix = char_info[obj_name]["bar_suffix"]
+        $ barValue = (100.0 / char_info[obj_name]["max_progress"] * char_info[obj_name]["current_progress"]) / 100.0
+    else:
+        $ captionText = char_info[obj_name]["caption_diabled"]
+        $ barSuffix = "disabled"
+        $ barValue = 1.0
+    layer "master"
+    zorder 40
+    fixed:
+        button:
+            xfill True
+            yfill True
+            action [
+                Hide("say"),
+                Hide("dialogue_image_left"),
+                Hide("dialogue_image_right"),
+                Hide("dialogue_image_center"),
+                Hide("dialogue_down_arrow"),
+                Hide("action_menu_screen"),
+                Hide("action_menu_tooltip_screen"),
+                Hide("sprites_hover_dummy_screen"),
+                Hide("character_info_screen")
+            ]
+            alternate [
+                Hide("say"),
+                Hide("dialogue_image_left"),
+                Hide("dialogue_image_right"),
+                Hide("dialogue_image_center"),
+                Hide("dialogue_down_arrow"),
+                Hide("action_menu_screen"),
+                Hide("action_menu_tooltip_screen"),
+                Hide("sprites_hover_dummy_screen"),
+                Hide("character_info_screen")
+            ]
+
+        frame:
+#            background Solid("#242426")
+            background Frame("gui/frame3" + res.suffix + ".png", left=2, top=int(80*gui.resolution.koeff), right=2, bottom=2)
+            pos(x, y)
+            anchor(0, 0)
+            xysize (width1, height1)
+            $ imgName = get_image_filename(char_info[obj_name]["face"])
+            add imgName:
+                xpos int(-80 * gui.resolution.koeff)
+                ypos 0.5
+                anchor(0.5,0.5)
+
+#            text __(data[i]["text"]) style text_button_layouts[button_layout]["text_button.style"]
+            text __(char_info[obj_name]["name"]) style (style1 + "_head")
+            text __(char_info[obj_name]["progress_caption"]) + "{b}" + str(char_info[obj_name]["level"]) + "{/b}" style "char_face_style_progress"
+            text str(char_info[obj_name]["current_progress"]) + " / " + str(char_info[obj_name]["max_progress"]) style "char_face_style_progress2"
+            bar:
+                xpos 0.52
+                ypos 0.61
+                xsize int(365 * gui.resolution.koeff)
+                anchor (0.5, 0.0)
+                value barValue
+#                xysize(gui.resolution.hud_screen.bitchmeter_x_size,gui.resolution.hud_screen.bitchmeter_y_size)
+                bar_vertical False
+                right_bar "/icons/bar/bar2_empty" + res.suffix + ".png"
+                left_bar "/icons/bar/bar2_full_" + barSuffix + res.suffix + ".png"
+            text captionText style "char_face_style_caption":
+                xsize int(width1 / 1.94594595 * gui.resolution.koeff)
+                justify True
+#                thumb "/icons/bar/bar_thumb" + res.suffix + ".png"
+            imagebutton:
+                xpos 1.0
+                ypos 0.0
+                anchor (0.5, 0.5)
+                idle "/icons/window_close" + res.suffix + ".png"
+                hover "/icons/window_close_hover" + res.suffix + ".png"
+                action [
+                    Hide("say"),
+                    Hide("dialogue_image_left"),
+                    Hide("dialogue_image_right"),
+                    Hide("dialogue_image_center"),
+                    Hide("dialogue_down_arrow"),
+                    Hide("action_menu_screen"),
+                    Hide("action_menu_tooltip_screen"),
+                    Hide("sprites_hover_dummy_screen"),
+                    Hide("character_info_screen")
+                ]
 screen hud_minimap(minimapData):
     layer "master"
     zorder 60

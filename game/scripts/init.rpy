@@ -21,6 +21,10 @@ default clickHoldLastMouseX = 0
 default clickHoldLastMouseY = 0
 default screenActionHappened = False
 
+default bitchmeter_places = {}
+default char_progress_stored = {}
+default char_data = False
+
 define imagesSizesCache = {}
 
 label define_autorun:
@@ -29,9 +33,33 @@ label define_autorun:
     $ define_version_current = define_version
 
     $ char_info = {
-        "Betty":{"name": _("Бетти Робертс"), "face":"Face_Betty", "style":"char_face_style1", "level":1, "current_progress":0, "max_progress":100, "uplevel_label":"char_Betty_uplevel", "progress_label":False},
-        "Bardie":{"name": _("Барди"), "face":"Face_Bardie", "style":"char_face_style1", "level":1, "current_progress":0, "max_progress":100, "uplevel_label":"char_Bardie_uplevel", "progress_label":False}
+        "Monica":{"name": _("Бетти Робертс"), "enabled":True, "face":"Face_Betty", "style":"char_face_style1_red",  "bar_suffix": "red", "level":1, "current_progress":0, "caption": _("Бетти ждет что Моника будет регулярно убираться в доме."), "max_progress":100, "uplevel_label":"bettyProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Betty":{"name": _("Бетти Робертс"), "enabled":True, "face":"Face_Betty", "style":"char_face_style1_red",  "bar_suffix": "red", "level":1, "current_progress":0, "caption": _("Бетти ждет что Моника будет регулярно убираться в доме."), "max_progress":100, "uplevel_label":"bettyProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Bardie":{"name": _("Барди"), "enabled":True, "face":"Face_Bardie", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": _("Барди ищет способ заглянуть Монике под юбку."), "max_progress":100, "uplevel_label":"bardieProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "AlexPhotograph":{"name": _("Фотограф Алекс"), "enabled":False, "face":"Face_AlexPhotograph", "style":"char_face_style1_orange",  "bar_suffix": "orange", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"alexPhotographProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Cashier":{"name": _("Вивиан"), "enabled":False, "face":"Face_Cashier", "style":"char_face_style1_pink",  "bar_suffix": "yellow", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"cashierProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "DickSecretary":{"name": _("Виктория"), "enabled":False, "face":"Face_DickSecretary", "style":"char_face_style1_pink",  "bar_suffix": "yellow", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"dickSecretaryProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Driver":{"name": _("Водитель Фред"), "enabled":False, "face":"Face_Driver", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"driverProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "GasSalesWoman":{"name": _("Кристина"), "enabled":False, "face":"Face_GasSaleswoman", "style":"char_face_style1_pink",  "bar_suffix": "yellow", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"gasSalesWomanProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Jane":{"name": _("Джейн"), "enabled":False, "face":"Face_Jane", "style":"char_face_style1_pink",  "bar_suffix": "yellow", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"janeProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Marcus":{"name": _("Маркус"), "enabled":False, "face":"Face_Marcus", "style":"char_face_style1_red",  "bar_suffix": "red", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"marcusProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Melanie":{"name": _("Модель Мелани"), "enabled":False, "face":"Face_Melanie", "style":"char_face_style1_green",  "bar_suffix": "green", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"melanieProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Mommy":{"name": _("Мамочка"), "enabled":False, "face":"Face_Mommy", "style":"char_face_style1_orange",  "bar_suffix": "orange", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"mommyProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Neighbor":{"name": _("Сосед"), "enabled":False, "face":"Face_Neighbor", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"neighborProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Perry":{"name": _("Перри"), "enabled":False, "face":"Face_Perry", "style":"char_face_style1_pink",  "bar_suffix": "yellow", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"perryProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Ralph":{"name": _("Ральф Робертс"), "enabled":False, "face":"Face_Ralph", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"ralphProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Rebecca":{"name": _("Ребекка"), "enabled":False, "face":"Face_Rebecca", "style":"char_face_style1_pink",  "bar_suffix": "yellow", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"rebeccaProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "ReceptionGirl":{"name": _("Рецепшин Администратор"), "enabled":False, "face":"Face_RichHotelReception", "style":"char_face_style1_orange",  "bar_suffix": "orange", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"receptionGirlProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Shawarma_Trader":{"name": _("Продавец шавермы"), "enabled":False, "face":"Face_ShawarmaTrader", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"shawarma_TraderProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Stephanie":{"name": _("Стефани"), "enabled":False, "face":"Face_Stephanie", "style":"char_face_style1_pink",  "bar_suffix": "yellow", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"stephanieProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Steve":{"name": _("Партнер Стив"), "enabled":False, "face":"Face_Steve", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"steveProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Tiffany":{"name": _("Тиффани"), "enabled":False, "face":"Face_Tiffany", "style":"char_face_style1_pink",  "bar_suffix": "yellow", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"tiffanyProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
+#        "Monica":{"name": _("Betty Roberts"), "enabled":True, "face":"Face_Betty", "style":"char_face_style1",  "bar_suffix": "red", "level":1, "current_progress":0, "caption": _("Бетти ждет что Моника будет регулярно убираться в доме."), "max_progress":100, "uplevel_label":"bettyProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
     }
+
+    $ char_progress_stored = {}
+
+
 
     $ actions_objects = { #иконки действий
         "l" : {

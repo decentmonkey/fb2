@@ -76,6 +76,7 @@ label show_scene_now:
 
     $ makeDump()
     $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
+    $ scene_data = process_character_info_buttons(scene_data) #добавляем кнопки info для персонажей со свойствами
     show screen screen_sprites(scene_data)
     if parse_transition_flag == True:
         if scene_transition != False and gui.scenes_transitions == True:
