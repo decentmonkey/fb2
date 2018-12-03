@@ -26,35 +26,92 @@ label citizens_dialogue:
         return
 
     $ citizenObjName = obj_name
-
+define citizen1 = Character(("Панки... Выглядят не очень дружелюбно."), who_color=cpink) #Stranger
+define citizen2 = Character(("Панки... Выглядят не очень дружелюбно."), who_color=cpink) #Stranger
+define citizen3 = Character(("Какой хитрый взгляд. Похоже, этому парню есть что скрывать."), who_color=corange) #Stranger
+define citizen4 = Character(("Еще один обитатель трущеб. Таких тут полно."), who_color=cblue) #Stranger
+define citizen5 = Character(("Японец. Что он тут делает?"), who_color=cblue) #Stranger
+define citizen6 = Character(("Этот парень не выглядит злым. Надеюсь, так оно и есть."), who_color=corange) #Stranger
+define citizen7 = Character(("Уличные художники. Даже в таком районе они есть."), who_color=cpink) #Stranger
+define citizen8 = Character(("Этот парень выглядит опасным. С ним надо быть настороже."), who_color=cblue) #Stranger
+define citizen9 = Character(("Сразу видно, что наркоман. Ему тут самое место."), who_color=cgreen) #Stranger
+define citizen10 = Character(("И почему этот старик целый день на улице?"), who_color=cblue) #Stranger
+define citizen11 = Character(("С этим все понятно: редкий день для него обходится без бутылки."), who_color=cblue) #Stranger
+define citizen12 = Character(("Еще один обитатель трущеб. Таких тут полно."), who_color=cgreen) #Stranger
+define citizen13 = Character(("Какой милашка. Держу пари, девушки ему не интересны."), who_color=cpink) #Stranger
+define citizen14 = Character(("Еще один обитатель трущеб. Таких тут полно."), who_color=corange) #Stranger
+define citizen15 = Character(("Еще один обитатель трущеб. Таких тут полно."), who_color=c_blue) #Stranger
     if citizenObjName == "Citizen_1" or citizenObjName == "Citizen_2":
+        if act=="l":
+            mt "Панки... Выглядят не очень дружелюбно."
+            return
         call citizen1_dialogue()
 
     if citizenObjName == "Citizen_3":
+        if act=="l":
+            mt "Хитрый взгляд... Похоже, этому человеку есть что скрывать."
+            return
         call citizen3_dialogue()
     if citizenObjName == "Citizen_4":
+        if act=="l":
+            mt "Еще один обитатель трущоб. Таких тут полно."
+            return
         call citizen4_dialogue()
     if citizenObjName == "Citizen_5":
+        if act=="l":
+            mt "Откуда этот парень? Что он тут делает?"
+            return
         call citizen5_dialogue()
     if citizenObjName == "Citizen_6":
+        if act=="l":
+            mt "Этот парень не выглядит злым. Надеюсь, так оно и есть."
+            return
         call citizen6_dialogue()
     if citizenObjName == "Citizen_7":
+        if act=="l":
+            mt "Уличные художники. Даже в таком районе они есть."
+            return
         call citizen7_dialogue()
     if citizenObjName == "Citizen_8":
+        if act=="l":
+            mt "Этот человек выглядит опасным. С ним надо быть настороже."
+            return
         call citizen8_dialogue()
     if citizenObjName == "Citizen_9":
+        if act=="l":
+            mt "Сразу видно, что наркоман. Ему тут самое место."
+            "Фи!"
+            return
         call citizen9_dialogue()
     if citizenObjName == "Citizen_10":
+        if act=="l":
+            mt "И почему этот старик целый день на улице?"
+            return
         call citizen10_dialogue()
     if citizenObjName == "Citizen_11":
+        if act=="l":
+            mt "С этим все понятно: редкий день для него обходится без бутылки."
+            return
         call citizen11_dialogue()
     if citizenObjName == "Citizen_12":
+        if act=="l":
+            mt "Еще один обитатель трущоб. Таких тут полно."
+            return
         call citizen12_dialogue()
     if citizenObjName == "Citizen_13":
+        if act=="l":
+            mt "Какой милашка. Ха! Держу пари, девушки ему неинтересны..."
+            return
         call citizen13_dialogue()
     if citizenObjName == "Citizen_14":
+        if act=="l":
+            mt "Еще один обитатель трущеб. Таких тут полно."
+            return
         call citizen14_dialogue()
     if citizenObjName == "Citizen_15":
+        if act=="l":
+            mt "Еще один обитатель трущеб. Таких тут полно."
+            return
         call citizen15_dialogue()
 
     call refresh_scene_fade()
