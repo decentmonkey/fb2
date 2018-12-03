@@ -83,7 +83,7 @@ define citizen11 = Character(_("Саймон"), who_color=c_blue) #Stranger
 define citizen12 = Character(_("Незнакомец"), who_color=c_green) #Stranger
 define citizen13 = Character(_("Анджело"), who_color=c_pink) #Stranger
 define citizen14 = Character(_("Василий"), who_color=c_orange) #Stranger
-define citizen15 = Character(_("Член банды"), who_color=c_blue) #Stranger
+define citizen15 = Character(_("Френк"), who_color=c_blue) #Stranger
 
 
 define sound_from_side = Character(_("Звук"), who_color=c_blue)
