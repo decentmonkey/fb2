@@ -29,6 +29,11 @@ define gui.resolution.hud_screen.bitchmeter_desc_font_size = 26 #26, 18
 define gui.resolution.hud_screen.corruption_x_pos = (1920 - 1817) #26, 18
 define gui.resolution.hud_screen.corruption_desc_x_pos = (1920-1897) #26, 18
 
+define gui.resolution.hud_screen.calendar_text_x_align = 0.49
+define gui.resolution.hud_screen.calendar_text_y_align = 0.32
+
+define gui.resolution.hud_screen.minimap_x_pos = 1711
+
 
 define gui.resolution.text_button.spacing1 = 12 #12, 8
 define gui.resolution.text_button.spacing2 = 15 #15, 10

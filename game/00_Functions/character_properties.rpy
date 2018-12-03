@@ -75,7 +75,7 @@ init python:
 
 
     def add_corruption(amount, progress_name):
-        global char_data
+        global char_data, corruption
         duplicate = False
         if corruption_places.has_key(progress_name) == False:
             corruption_places[progress_name] = 0
@@ -93,7 +93,7 @@ init python:
         else:
             notif(_("Corruption decreased"))
 
-        renpy.call(process_hooks, "corruption", "global") #процессим хуки
+        renpy.call("process_hooks", "corruption", "global") #процессим хуки
         return
 
 

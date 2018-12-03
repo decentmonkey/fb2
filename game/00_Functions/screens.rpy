@@ -685,19 +685,19 @@ screen action_menu_tooltip_screen(in_x, in_y, item_offset, tooltip_text, in_text
             color in_text_color
 
 screen character_info_screen(obj_name, x, y):
-    $ width1 = 720 * gui.resolution.koeff
-    $ height1 = 320 * gui.resolution.koeff
+    $ width1 = int(720 * gui.resolution.koeff)
+    $ height1 = int(320 * gui.resolution.koeff)
     $ style1 = char_info[obj_name]["style"]
-    $ x = x - width1/3
-    $ y = y - height1/3
+    $ x = x - int(width1/3)
+    $ y = y - int(height1/3)
     if (1920*gui.resolution.koeff) - (x + width1) < 273*gui.resolution.koeff:
-        $ x = (1920*gui.resolution.koeff) - width1 - (273*gui.resolution.koeff)
+        $ x = int((1920*gui.resolution.koeff) - width1 - (273*gui.resolution.koeff))
     if x < ((273+210)*gui.resolution.koeff):
-        $ x = ((273+210)*gui.resolution.koeff)
+        $ x = int((273+210)*gui.resolution.koeff)
     if (1080*gui.resolution.koeff) - (y + height1 )< (144*gui.resolution.koeff):
-        $ y = (1080*gui.resolution.koeff) - height1 - (144*gui.resolution.koeff)
+        $ y = int((1080*gui.resolution.koeff) - height1 - (144*gui.resolution.koeff))
     if y < (300*gui.resolution.koeff):
-        $ y = (300*gui.resolution.koeff)
+        $ y = int((300*gui.resolution.koeff))
 
     if char_info[obj_name]["enabled"] == True:
         $ captionText = char_info[obj_name]["caption"]
@@ -763,7 +763,7 @@ screen character_info_screen(obj_name, x, y):
                 right_bar "/icons/bar/bar2_empty" + res.suffix + ".png"
                 left_bar "/icons/bar/bar2_full_" + barSuffix + res.suffix + ".png"
             text captionText style "char_face_style_caption":
-                xsize int(width1 / 1.94594595 * gui.resolution.koeff)
+                xsize int(width1 / 1.94594595)
                 justify True
 #                thumb "/icons/bar/bar_thumb" + res.suffix + ".png"
             imagebutton:
@@ -788,7 +788,7 @@ screen hud_minimap(minimapData):
     zorder 60
     fixed:
         if len(minimapData) > 0:
-            pos (int(1711 * gui.resolution.koeff), int(85 * gui.resolution.koeff))
+            pos (int(gui.resolution.hud_screen.minimap_x_pos * gui.resolution.koeff), int(85 * gui.resolution.koeff))
             if miniMapOpened == False:
                 button:
                     yanchor 0.0
@@ -890,8 +890,8 @@ screen hud_screen(hud_presets):
                             yoffset -3
                         $ current_calendar_day = calendar_days[(day)%7]
                         text __(current_calendar_day):
-                            xalign 0.49
-                            yalign 0.32
+                            xalign gui.resolution.hud_screen.calendar_text_x_align
+                            yalign gui.resolution.hud_screen.calendar_text_y_align
                             font "fonts/montserrat-bold.ttf"
                             color "#303030"
                             kerning -1
