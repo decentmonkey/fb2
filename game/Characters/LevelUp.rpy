@@ -4,7 +4,6 @@ label bettyProgressLevelUp:
     return
 
 label bettyProgressForward:
-    m "f"
     return
 
 label bardieProgressLevelUp:

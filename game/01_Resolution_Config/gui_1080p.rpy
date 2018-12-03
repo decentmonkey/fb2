@@ -15,7 +15,7 @@ define gui.resolution.hud_screen.xoffset2 = 0 #0, 3
 define gui.resolution.hud_screen.yoffset3 = 0 #0, -2
 define gui.resolution.hud_screen.spacing1 = 0 #0, -2
 define gui.resolution.hud_screen.bitchmeter_y_pos = 87 #87, 58
-define gui.resolution.hud_screen.bitchmeter_x_pos = (1920 - 1844) # (1920 - 1844), 52
+define gui.resolution.hud_screen.bitchmeter_x_pos = (1920 - 1790) # (1920 - 1844), 52
 define gui.resolution.hud_screen.bitchmeter_x_size = 69 #69, 46
 define gui.resolution.hud_screen.bitchmeter_y_size = 327 #327, 218
 define gui.resolution.hud_screen.bitchmeter_top_gutter = 18 #18, 12
@@ -23,8 +23,12 @@ define gui.resolution.hud_screen.bitchmeter_bottom_gutter = 15 #15, 10
 define gui.resolution.hud_screen.bitchmeter_thumb_offset = 22 #22, 14
 
 define gui.resolution.hud_screen.bitchmeter_desc_y_pos = 250 #250, 166
-define gui.resolution.hud_screen.bitchmeter_desc_x_pos = (1920-1866) #(1920-1866), 39
+define gui.resolution.hud_screen.bitchmeter_desc_x_pos = (1920-1813) #(1920-1866), 39
 define gui.resolution.hud_screen.bitchmeter_desc_font_size = 26 #26, 18
+
+define gui.resolution.hud_screen.corruption_x_pos = (1920 - 1817) #26, 18
+define gui.resolution.hud_screen.corruption_desc_x_pos = (1920-1897) #26, 18
+
 
 define gui.resolution.text_button.spacing1 = 12 #12, 8
 define gui.resolution.text_button.spacing2 = 15 #15, 10

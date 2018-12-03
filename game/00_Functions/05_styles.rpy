@@ -130,6 +130,9 @@ init:
     transform bitchmeter_style_transform():
         rotate_pad False
         rotate -90.0
+    transform corruption_style_transform():
+        rotate_pad False
+        rotate 90.0
 
     transform convert_resolution_transform():
 #        zoom zoom_factor

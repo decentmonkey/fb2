@@ -54,6 +54,8 @@ init python:
             return
         char_progress_stored[char_name][progress_name] = char_progress_stored[char_name][progress_name] + 1
         char_info[char_name]["current_progress"] = char_info[char_name]["current_progress"] + progress_value
+        if char_info[char_name]["current_progress"] < 0:
+            char_info[char_name]["current_progress"] = 0
 
         char_data = char_info[char_name]
         if char_info[char_name]["current_progress"] >= char_info[char_name]["max_progress"]:
@@ -70,6 +72,32 @@ init python:
                 progressFuncName = char_info[char_name]["progress_label"]
                 renpy.call(progressFuncName)
         return
+
+
+    def add_corruption(amount, progress_name):
+        global char_data
+        duplicate = False
+        if corruption_places.has_key(progress_name) == False:
+            corruption_places[progress_name] = 0
+        if corruption_places[progress_name] > 0:
+            return
+        corruption_places[progress_name] = corruption_places[progress_name] + 1
+        corruption = corruption + amount
+        if corruption < 0:
+            corruption = 0
+        if corruption > corruptionMax:
+            corruption = corruptionMax
+
+        if amount > 0:
+            notif(_("Corruption increased"))
+        else:
+            notif(_("Corruption decreased"))
+
+        renpy.call(process_hooks, "corruption", "global") #процессим хуки
+        return
+
+
+
 
 #    if check_object_has_character(i) == True:
 #        $ data["actions"] = data["actions"] + "i"

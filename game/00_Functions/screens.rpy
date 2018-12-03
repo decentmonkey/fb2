@@ -361,7 +361,6 @@ screen screen_sprites(data):
             #                        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskStr)),zoom_factor) if maskStr != False else im.FactorScale(Image(spriteImageStr),1.5)
             #                        $ idleImg = Image(spriteImageStr)
                                     if maskStr != False:
-                                        $ print "screen here!!!!"
                                         if mask_canvas_offset != False and spriteImageStr == scene_image_file:
             #                                $ idleImg = Image(spriteImageStr)
                                             $ maskImage = Image(maskStr)
@@ -691,14 +690,14 @@ screen character_info_screen(obj_name, x, y):
     $ style1 = char_info[obj_name]["style"]
     $ x = x - width1/3
     $ y = y - height1/3
-    if (1920*gui.resolution.koeff) - x + width1 < 273*gui.resolution.koeff:
+    if (1920*gui.resolution.koeff) - (x + width1) < 273*gui.resolution.koeff:
         $ x = (1920*gui.resolution.koeff) - width1 - (273*gui.resolution.koeff)
-    if x < (273*gui.resolution.koeff):
-        $ x = (273*gui.resolution.koeff)
-    if (1080*gui.resolution.koeff) - y + height1 < (144*gui.resolution.koeff):
+    if x < ((273+210)*gui.resolution.koeff):
+        $ x = ((273+210)*gui.resolution.koeff)
+    if (1080*gui.resolution.koeff) - (y + height1 )< (144*gui.resolution.koeff):
         $ y = (1080*gui.resolution.koeff) - height1 - (144*gui.resolution.koeff)
-    if y < (400*gui.resolution.koeff):
-        $ y = (400*gui.resolution.koeff)
+    if y < (300*gui.resolution.koeff):
+        $ y = (300*gui.resolution.koeff)
 
     if char_info[obj_name]["enabled"] == True:
         $ captionText = char_info[obj_name]["caption"]
@@ -1012,6 +1011,26 @@ screen hud_screen(hud_presets):
                 outlines [(2, "#808080", -1, 1), (2, "#404040", 0, 0)]
                 at bitchmeter_style_transform
 
+            text "Corruption":
+                xpos config.screen_width - gui.resolution.hud_screen.corruption_desc_x_pos
+                ypos gui.resolution.hud_screen.bitchmeter_desc_y_pos
+                xanchor 0.5
+                yanchor 0.5
+                xalign 0.5
+                yalign 0.5
+#                    color c_blue
+#                    color "#d3ea5f" #white green
+#                    color "#e0e85c"
+                color c_pink
+#                    color "#6383c2"
+#                    font "fonts/arial.ttf"
+                font "fonts/linotte-semibold.otf"
+#                        font "fonts/ubuntu-condensed.ttf"
+#                        font "fonts/tahoma.ttf"
+                size gui.resolution.hud_screen.bitchmeter_desc_font_size
+                outlines [(2, "#000000", 1, -1), (2, "#404040", 0, 0)]
+                at corruption_style_transform
+
             bar:
                 xpos config.screen_width - gui.resolution.hud_screen.bitchmeter_x_pos
                 ypos gui.resolution.hud_screen.bitchmeter_y_pos
@@ -1022,6 +1041,19 @@ screen hud_screen(hud_presets):
                 top_bar "/icons/bar/bar_empty" + res.suffix + ".png"
                 bottom_bar "/icons/bar/bar_full" + res.suffix + ".png"
                 thumb "/icons/bar/bar_thumb" + res.suffix + ".png"
+                bottom_gutter gui.resolution.hud_screen.bitchmeter_bottom_gutter
+                top_gutter gui.resolution.hud_screen.bitchmeter_top_gutter
+                thumb_offset gui.resolution.hud_screen.bitchmeter_thumb_offset
+            bar:
+                xpos config.screen_width - gui.resolution.hud_screen.corruption_x_pos
+                ypos gui.resolution.hud_screen.bitchmeter_y_pos
+                value (100.0 / corruptionMax * corruption) / 100.0
+                xoffset 5
+                xysize(gui.resolution.hud_screen.bitchmeter_x_size,gui.resolution.hud_screen.bitchmeter_y_size)
+                bar_vertical True
+                top_bar "/icons/bar/bar3_empty" + res.suffix + ".png"
+                bottom_bar "/icons/bar/bar3_full" + res.suffix + ".png"
+                thumb "/icons/bar/bar3_thumb" + res.suffix + ".png"
                 bottom_gutter gui.resolution.hud_screen.bitchmeter_bottom_gutter
                 top_gutter gui.resolution.hud_screen.bitchmeter_top_gutter
                 thumb_offset gui.resolution.hud_screen.bitchmeter_thumb_offset
