@@ -1,6 +1,6 @@
 default tt = Tooltip("")
 define maxBitchness = 560
-
+define maxBitchness_EP1 = 560
 define m = Character(_("Моника Бакфетт"), who_color=c_orange, what_color=c_white, what_italic=False) #Monica
 define mt = Character(kind=m, what_color=c_blue, what_italic=True) #Monica thinking
 #define narrator = Character(kind=m)
@@ -69,20 +69,20 @@ define reporter2 = Character(_("Репортер 2"), who_color=c_orange) #Repor
 define reporter3 = Character(_("Репортер 3"), who_color=c_pink) #Reporter3
 
 define citizen = Character(_("Незнакомец"), who_color=c_pink) #Stranger
-define citizen1 = Character(_("Панк"), who_color=c_pink) #Stranger
-define citizen2 = Character(_("Панк"), who_color=c_pink) #Stranger
-define citizen3 = Character(_("Драгдилер"), who_color=c_orange) #Stranger
+define citizen1 = Character(_("Том"), who_color=c_pink) #Stranger
+define citizen2 = Character(_("Тим"), who_color=c_pink) #Stranger
+define citizen3 = Character(_("Джек"), who_color=c_orange) #Stranger
 define citizen4 = Character(_("Незнакомец"), who_color=c_blue) #Stranger
-define citizen5 = Character(_("Якудза"), who_color=c_blue) #Stranger
-define citizen6 = Character(_("Незнакомец"), who_color=c_orange) #Stranger
-define citizen7 = Character(_("Художник"), who_color=c_pink) #Stranger
-define citizen8 = Character(_("Болтун"), who_color=c_blue) #Stranger
-define citizen9 = Character(_("Наркоман"), who_color=c_green) #Stranger
-define citizen10 = Character(_("Флорист"), who_color=c_blue) #Stranger
-define citizen11 = Character(_("Алкоголик"), who_color=c_blue) #Stranger
+define citizen5 = Character(_("Акира Сан"), who_color=c_blue) #Stranger
+define citizen6 = Character(_("Фил"), who_color=c_orange) #Stranger
+define citizen7 = Character(_("Сальвадор"), who_color=c_pink) #Stranger
+define citizen8 = Character(_("Хитрый Джонни"), who_color=c_blue) #Stranger
+define citizen9 = Character(_("Найджел"), who_color=c_green) #Stranger
+define citizen10 = Character(_("Реджинальд"), who_color=c_blue) #Stranger
+define citizen11 = Character(_("Саймон"), who_color=c_blue) #Stranger
 define citizen12 = Character(_("Незнакомец"), who_color=c_green) #Stranger
-define citizen13 = Character(_("Незнакомец"), who_color=c_pink) #Stranger
-define citizen14 = Character(_("Бомж-музыкан"), who_color=c_orange) #Stranger
+define citizen13 = Character(_("Анджело"), who_color=c_pink) #Stranger
+define citizen14 = Character(_("Василий"), who_color=c_orange) #Stranger
 define citizen15 = Character(_("Член банды"), who_color=c_blue) #Stranger
 
 

@@ -24,7 +24,6 @@ label whores_place_street1_init:
     $ add_object_to_scene("Teleport_Street_Corner", {"type":3, "text" : _("УГОЛ УЛИЦЫ"), "rarrow" : "arrow_right_2", "base":"Street_Whores_Street1_Teleport_Street_Corner", "click" : "whores_place_street1_teleport", "xpos" : 1724, "ypos" : 462, "zorder":15, "teleport":True})
     $ add_object_to_scene("Teleport_Whores_Place", {"type":3, "text" : _("ПЕРЕКРЕСТОК"), "larrow" : "arrow_left_2", "base":"Street_Whores_Street1_Teleport_Whores_Place", "click" : "whores_place_street1_teleport", "xpos" : 557, "ypos" : 830, "zorder":15, "teleport":True})
 
-
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
