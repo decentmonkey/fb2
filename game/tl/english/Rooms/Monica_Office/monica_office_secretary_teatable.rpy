@@ -86,3 +86,47 @@ translate english monica_office_secretary_teatable_environment_be15d39c:
     m "Wow! Little elephant!"
     "How nice!..."
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:32
+translate english monica_office_secretary_teatable_environment_33ac3dd1:
+
+    # m "Это чайный столик."
+    # "Неудивительно что выпечки и кофе здесь больше нет..."
+    # "А жаль, я бы с удовольствием съела что-нибудь!"
+    m "Это чайный столик."
+    "Неудивительно что выпечки и кофе здесь больше нет..."
+    "А жаль, я бы с удовольствием съела что-нибудь!"
+
+# game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:36
+translate english monica_office_secretary_teatable_environment_f7ff5360:
+
+    # m "Я в будущем разберусь со всеми делами что натворил здесь Биф!"
+    m "Я в будущем разберусь со всеми делами что натворил здесь Биф!"
+
+# game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:39
+translate english monica_office_secretary_teatable_environment_9e0527d4:
+
+    # m "Цветок..."
+    m "Цветок..."
+
+# game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:41
+translate english monica_office_secretary_teatable_environment_892e3d1a:
+
+    # m "Что это?"
+    # "Маленький Гонг?"
+    m "Что это?"
+    "Маленький Гонг?"
+
+# game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:44
+translate english monica_office_secretary_teatable_environment_dba33f62:
+
+    # m "Диван для ожидающих приема гостей."
+    m "Диван для ожидающих приема гостей."
+
+# game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:46
+translate english monica_office_secretary_teatable_environment_089bbb7c:
+
+    # m "Развлекательные книги для ожидающих гостей."
+    m "Развлекательные книги для ожидающих гостей."
+

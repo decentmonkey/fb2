@@ -39,19 +39,26 @@ label monica_office_cabinet_teleport:
     return
 label monica_office_cabinet_environment:
     if obj_name == "Beef":
+        mt "Какой-то самозванец занял мое место!"
+        "Это возмутительно!"
         return
     if obj_name == "Melanie":
+        mt "Ну надо же! Кто здесь!"
         return
     if obj_name == "Monica":
         m "Мой... Офис..."
     if obj_name == "Projector":
+        mt "Мне нравился этот проектор..."
         return
 
     if obj_name == "Flowers":
+        mt "Мои любимые цветы, они все еще здесь..."
         return
     if obj_name == "Paints":
+        mt "Картины никто не тронул. Это хорошо."
         return
     if obj_name == "Windows":
+        mt "Вид из окна мне не нравился, но я уже соскучилась по нему..."
         return
     if obj_name == "Table":
         if obj_data["action"] == "l":

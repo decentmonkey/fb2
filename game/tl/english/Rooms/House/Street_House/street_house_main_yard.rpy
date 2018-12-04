@@ -66,3 +66,11 @@ translate english strings:
     old "К ВОРОТАМ"
     new "TOWARDS THE GATE"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/House/Street_House/street_house_main_yard.rpy:57
+translate english street_house_main_yard_environment_60cdfbfc:
+
+    # mt "Мне не о чем разговаривать с ним!!!"
+    mt "Мне не о чем разговаривать с ним!!!"
+

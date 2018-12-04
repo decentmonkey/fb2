@@ -142,3 +142,13 @@ translate english strings:
     old "Юлия пользуется раритетными вещами"
     new "Julia enjoys rare things"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/House/Basement/basement_laundry.rpy:78
+translate english basement_laundry_environment_0ddd2109:
+
+    # m "ЧТО??"
+    # "Прищепки для белья? Деревянные???"
+    m "ЧТО??"
+    "Прищепки для белья? Деревянные???"
+

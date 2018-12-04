@@ -274,3 +274,21 @@ translate english strings:
     old "НАЗАД В ХОЛЛ"
     new "BACK TO THE HALL"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/Dick_Office/dick_office_secretary.rpy:48
+translate english dick_office_secretary_environment_ac1806e9:
+
+    # mt "Эта сучка много на себя берет!"
+    # mt "(хмык)"
+    mt "Эта сучка много на себя берет!"
+    mt "(хмык)"
+
+# game/Rooms/Dick_Office/dick_office_secretary.rpy:65
+translate english dick_office_secretary_environment_a580040a:
+
+    # mt "Терминал?"
+    # "Для записи на прием?"
+    mt "Терминал?"
+    "Для записи на прием?"
+

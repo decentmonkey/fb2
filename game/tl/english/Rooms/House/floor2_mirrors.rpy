@@ -152,3 +152,29 @@ translate english strings:
     old "Mirrors"
     new "Mirrors"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/House/floor2_mirrors.rpy:41
+translate english floor2_mirrors_environment2_3f457c68:
+
+    # m "Это тушь для ресниц."
+    m "Это тушь для ресниц."
+
+# game/Rooms/House/floor2_mirrors.rpy:47
+translate english floor2_mirrors_environment2_f11a4d6b:
+
+    # m "Помада."
+    m "Помада."
+
+# game/Rooms/House/floor2_mirrors.rpy:50
+translate english floor2_mirrors_environment2_a60071bb:
+
+    # m "Мои любимые духи."
+    m "Мои любимые духи."
+
+# game/Rooms/House/floor2_mirrors.rpy:59
+translate english floor2_mirrors_environment2_92fa8ca2:
+
+    # m "Одна из моих многочисленных косметичек."
+    m "Одна из моих многочисленных косметичек."
+

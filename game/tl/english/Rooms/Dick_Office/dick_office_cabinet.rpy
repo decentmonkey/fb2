@@ -140,3 +140,17 @@ translate english strings:
     old "СЕКРЕТАРЬ"
     new "SECRETARY"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/Dick_Office/dick_office_cabinet.rpy:42
+translate english dick_office_cabinet_environment_a295a245:
+
+    # "Я не верю в то что происходит!!!"
+    "Я не верю в то что происходит!!!"
+
+# game/Rooms/Dick_Office/dick_office_cabinet.rpy:46
+translate english dick_office_cabinet_environment_93e4e7c0:
+
+    # mt "Вот он! Жирный ублюдок, за которым я столько бегала!"
+    mt "Вот он! Жирный ублюдок, за которым я столько бегала!"
+

@@ -37,23 +37,46 @@ label rich_hotel_event_scene_teleport:
     return
 label rich_hotel_event_scene_environment:
     if obj_name == "Monica":
+        call monica_charity_event_dialogue2a()
         return
     if obj_name == "Beef":
+        img 6697
+        beef "Ну, давай кукла!"
+        "Притворись Моникой Бакфетт!"
+        img 6698
+        "Или тебя надо шлепнуть по попке, чтобы ты заговорила?!"
         return
     if obj_name == "Melanie":
+        img 6699
+        mt "Мелани смотрит на меня."
+        "Интересно что она думает обо всем этом..."
         return
 
     if obj_name == "People1" or obj_name == "People2" or obj_name == "People3" or obj_name == "People4" or obj_name == "People5" or obj_name == "People6" or obj_name == "People7" or obj_name == "People8":
+        mt "Эти люди..."
+        "Здесь столько людей... Они все смотрят на меня..."
+        "Ждут..."
+        "Что же мне делать???"
+        "Сказать им правду?"
         return
     if obj_name == "Cloth":
+        mt "Эта одежда закрывает собой мой постер!"
         return
     if obj_name == "Door":
+        mt "Эта дверь... Может быть мне просто убежать?"
+        "Но нет, это не выход из положения..."
         return
     if obj_name == "Flower1" or obj_name == "Flower2":
+        mt "Это место так украшена цветами..."
         return
     if obj_name == "Lamp":
+        mt "Милый светильник."
+        "Приятный свет."
         return
     if obj_name == "PosterMelanie":
+        img 6680
+        mt "Мелани?! Здесь?!"
+        "А почему не Я?!"
         return
 
     return

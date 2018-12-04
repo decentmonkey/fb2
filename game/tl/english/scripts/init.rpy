@@ -62,3 +62,35 @@ translate english strings:
     old "Краска для волос"
     new "Hair Dye"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+translate english strings:
+
+    # scripts/init.rpy:39
+    old "Бетти ждет что Моника будет регулярно убираться в доме."
+    new ""
+
+    # scripts/init.rpy:39
+    old "Work in progress..."
+    new ""
+
+    # scripts/init.rpy:39
+    old "Барди ищет способ заглянуть Монике под юбку."
+    new ""
+
+    # scripts/init.rpy:39
+    old "Вивиан"
+    new ""
+
+    # scripts/init.rpy:39
+    old "Виктория"
+    new ""
+
+    # scripts/init.rpy:39
+    old "Джейн"
+    new ""
+
+    # scripts/init.rpy:68
+    old "Инфо"
+    new ""
+

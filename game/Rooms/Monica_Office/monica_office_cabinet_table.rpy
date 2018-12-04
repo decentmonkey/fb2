@@ -8,6 +8,9 @@ label monica_office_cabinet_table:
         $ scene_image = "scene_Office_Monica_Cabinet_Table[day_suffix]"
     else:
         $ scene_image = "scene_Office_Monica_Cabinet_Table_Whiskey[day_suffix]"
+
+    if get_active_objects("Beef", scene="monica_office_cabinet") != False: #Если Биф в офисе, то помещаем его и сюда тоже
+        set_active("Beef", True)
     return
 
 label monica_office_cabinet_table_init:
@@ -17,8 +20,8 @@ label monica_office_cabinet_table_init:
 
     $ add_object_to_scene("Flowers", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_Flowers", "click" : "monica_office_cabinet_environment", "actions" : "l", "zorder":2, "group":"environment"})
     $ add_object_to_scene("Paints", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_Paints", "click" : "monica_office_cabinet_environment", "actions" : "l", "zorder":2, "group":"environment"})
-#    $ add_object_to_scene("Water", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_Water[day_suffix]", "click" : "monica_office_cabinet_table_environment", "actions" : "l", "zorder":2, "group":"environment"})
-#    $ add_object_to_scene("Whiskey", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_Whiskey[day_suffix]", "click" : "monica_office_cabinet_table_environment", "actions" : "l", "zorder":2, "group":"environment"})
+    $ add_object_to_scene("Water", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_Water", "click" : "monica_office_cabinet_table_environment", "actions" : "l", "zorder":2, "group":"environment"})
+    $ add_object_to_scene("Whiskey", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_Whiskey_Object", "click" : "monica_office_cabinet_table_environment", "actions" : "l", "zorder":2, "group":"environment"})
 
     $ add_object_to_scene("Teleport_Monica_Office_Secretary", {"type":3, "text" : _("К СЕКРЕТАРЮ"), "larrow" : "arrow_left_2", "base":"Office_Monica_Cabinet_Table_Exit", "click" : "monica_office_cabinet_table_teleport", "xpos" : 723, "ypos" : 166, "zorder":11, "b":0.15, "tint":[1.0, 1.0, 0.85], "teleport":True})
 
@@ -34,15 +37,26 @@ label monica_office_cabinet_table_teleport:
     return
 label monica_office_cabinet_table_environment:
     if obj_name == "Beef":
+        if act == "l":
+            mt "Я ненавижу этого мерзавца!!!"
         return
     if obj_name == "Monica":
+        mt "Меня бесит что я стою перед этим столом, словно какая-то попрошайка!!!"
+        "Это мой стол! МОЙ!!!"
         return
     if obj_name == "Journal":
+        mt "Что он смотрит в моем журнале?"
+        "Это мой журнал, который я любила разглядывать. Что ему надо там?"
         return
 
     if obj_name == "Water":
+        mt "Я любила пить эту воду..."
         return
-
+    if obj_name == "Whiskey":
+        mt "Виски???"
+        "На рабочем месте?!?!"
+        "Этот мерзавец не заслуживает своего положения!"
+        "Это возмутительно!"
     return
 
 

@@ -165,6 +165,26 @@ init python:
         set_active(obj_name, True, scene=target_scene)
         return
 
+    def get_active_objects(obj_name, **kwargs):
+        if kwargs.has_key("scene"):
+            if kwargs["scene"] == "all":
+                rooms_list = list(scenes_data["objects"].keys())
+            else:
+                rooms_list = [kwargs["scene"]]
+            del kwargs["scene"]
+        else:
+            rooms_list = [api_scene_name]
+        if kwargs.has_key("recursive") == True and kwargs["recursive"] == True:
+            rooms_list = get_rooms_recursive(rooms_list[0])
+        kwargs.pop("recursive", None)
+        return_objects_list = []
+        for room_name in rooms_list:
+            if scenes_data["objects"].has_key(room_name) == True and scenes_data["objects"][room_name].has_key(obj_name) == True and scenes_data["objects"][room_name][obj_name]["active"] == True:
+                return_objects_list.append(scenes_data["objects"][room_name][obj_name])
+        if len(return_objects_list) > 0:
+            return return_objects_list
+        return False
+
     def set_active(*args, **kwargs):
         if len(args)>1:
             #ищем по объекту

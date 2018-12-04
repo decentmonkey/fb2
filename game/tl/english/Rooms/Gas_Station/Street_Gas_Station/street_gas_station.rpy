@@ -138,3 +138,11 @@ translate english street_gas_station_environment_a55983b3:
     # "Мы можем ехать!"
     "We can go!"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/Gas_Station/Street_Gas_Station/street_gas_station.rpy:34
+translate english street_gas_station2_environment_bc94af96:
+
+    # mt "Это та самая заправка..."
+    mt "Это та самая заправка..."
+

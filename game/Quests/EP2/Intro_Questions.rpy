@@ -1,19 +1,55 @@
 label intro_questions:
     img 1201
-    with fadelong
+    with fade
     help "Прежде чем начать игру, пожалуйста, напомните, как вела себя Моника в Эпизоде 1?"
     menu:
         "Ответить очень кратко.":
             call intro_questions_short()
+            img 3367
+            with fade
+            help "Спасибо за ответ!"
         "Ответить очень подробно.":
             call intro_questions_long()
+            img 3367
+            with fade
+            help "Спасибо за ответы!"
+    help "Последний вопрос. В чем Моника легла спать?"
+    label .into_loop1:
+        menu:
+            "Моника легла спать в трусиках Юлии.":
+                $ cloth_type = "Nude"
+                $ cloth = "GovernessPants"
+
+            "Моника легла спать обнаженной (доступно только в сохранении Эпизода 1) (disabled)":
+                jump .intro_loop1
+    img black_screen
+    with Dissolve(1.0)
+#    pause(1.0)
+    return
+
+label intro_questions_save:
+    help "В чем Моника легла спать?"
+    menu:
+        "Моника легла спать в трусиках Юлии.":
+            $ cloth_type = "Nude"
+            $ cloth = "GovernessPants"
+
+        "Моника легла спать обнаженной.":
+            $ cloth_type = "Nude"
+            $ cloth = "Nude"
+    img black_screen
+    with Dissolve(1.0)
+#    pause(1.0)
+    return
+
 label intro_questions_long:
     img 1105
-    with fadelong
+    with fade
     menu:
-        "Моника общалась с соседом":
+        "Моника общалась с соседом.":
             $ neighborAsked = True
             $ neighborCalled = True
+            $ set_active("Teleport_Fence", True, scene="street_house_main_yard")
             menu:
                 "Моника поздоровалась с соседом.":
                     call bitch(-2, "neighbor_dial1")
@@ -57,11 +93,11 @@ label intro_questions_long:
                 "Моника решила отсудить маленькую сумму.":
                     $ neighborOffendedSue = True
 
-        "Моника не видела соседа:":
+        "Моника не видела соседа.":
             pass
 
     img 1035
-    with fadelong
+    with fade
     menu:
         "Моника обращается с Юлией криком":
             $ juliaMonicaYell = True
@@ -70,7 +106,7 @@ label intro_questions_long:
             call bitch(-5, "call_julia1")
 
     img 1080
-    with fadelong
+    with fade
     menu:
         "Юлия наказана и убирает пятно все время.":
             $ juliaPunished = True
@@ -93,19 +129,19 @@ label intro_questions_long:
             call bitch(-5, "monica_julia_revenge_punished_voluntarily")
 
     menu:
-        "Моника соврала про то что пятно поставила она.":
+        "Моника соврала про то что пятно поставила Юлия, а не Моника.":
             $ juliaMonicaLied = True
             call bitch(5, "monica_julia_revenge_lie")
         "Моника сказала правду про пятно.":
             pass
 
     img 4082
-    with fadelong
+    with fade
     menu:
         "Юлии пришлось заняться сексом со Фредом.":
             $ juliaHasSexInPool = True
             img 4090
-            with fadelong
+            with fade
             menu:
                 "Юлия не стала говорить Фреду что секс ей не понравился.":
                     $ juliaBasementSexLiked = True
@@ -115,7 +151,7 @@ label intro_questions_long:
             pass
 
     img 1328
-    with fadelong
+    with fade
     menu:
         "Моника сказала Стиву по телефону что он мешок с дерьмом.":
             $ steveOffended1 = True
@@ -124,7 +160,7 @@ label intro_questions_long:
             pass
 
     img 1198
-    with fadelong
+    with fade
     menu:
         "Моника обозвала моделей мартышками.":
             $ monkeysOffended1 = True
@@ -142,7 +178,7 @@ label intro_questions_long:
             pass
 
     img 1299
-    with fadelong
+    with fade
     menu:
         "Моника показала моделям фотосессию Мелани.":
             $ melaniePhotoShotProcessed = True
@@ -150,10 +186,12 @@ label intro_questions_long:
                 "Моника накричала на моделей после фотосессии.":
                     $ monkeysOffended4 = True
                     call bitch(2, "monkeys_offend4")
-        "Моника сказал моделям уйти.":
+                "Моника вежливо отказала.":
+                    pass
+        "Моника сказала моделям уйти.":
             pass
     img 1880
-    with fadelong
+    with fade
     menu:
         "Моника смеялась над моделью, когда увидела ее работающей проституткой.":
             $ grayMouse2WhoreOffended = True
@@ -162,7 +200,7 @@ label intro_questions_long:
             pass
 
     img 1308
-    with fadelong
+    with fade
     menu:
         "Моника сказала Мелани, чтобы та следила за своей фигурой, иначе может уволить ее.":
             $ melanieOffended1 = True
@@ -179,7 +217,7 @@ label intro_questions_long:
 
 
     img 1328
-    with fadelong
+    with fade
     menu:
         "Моника сказала Дику что вокруг одни идиоты.":
             call bitch(2, "dick_phone_call1_dial1")
@@ -197,8 +235,8 @@ label intro_questions_long:
 
 
     img black_screen
-    imgc 1390
-    with fadelong
+    imgc 1911
+    with fade
     menu:
         "Моника все время ругалась на Фреда.":
             call bitch(1, "fred_monica_office1")
@@ -232,7 +270,7 @@ label intro_questions_long:
             pass
 
     img Gas_Station_Monica_OilTrader_18
-    with fadelong
+    with fade
     menu:
         "Моника позвала продавщицу на заправке.":
             $ gasStationSaleswomanCalledOut = True
@@ -250,7 +288,7 @@ label intro_questions_long:
 
 
     img 1394
-    with fadelong
+    with fade
     menu:
         "Моника при покупке платья общалась в продавцом грубо":
             $ clothShopCashierOffended2 = True
@@ -274,7 +312,7 @@ label intro_questions_long:
             call bitch(-3, "clothShopCashierOffended3ReturnDress")
 
     img 5640
-    with fadelong
+    with fade
     menu:
         "Моника ругалась на продавца когда та застала ее утром в примерочной":
             $ clothShopCashierFirstNightOffended = True
@@ -283,7 +321,7 @@ label intro_questions_long:
             call bitch(-5, "clothShopCashierFirstNightOffended")
 
     img 1437
-    with fadelong
+    with fade
     menu:
         "Моника ругалась на Дика в машине и не стала подвозить его.":
             $ dickDriveDialOffend1 = True
@@ -299,7 +337,7 @@ label intro_questions_long:
         "Моника сказала Дику что он уродливый.":
             $ dickClothShopOffended1 = True
             call bitch(5, "dick_cloth_shop_peeping_dialogue1")
-            $ dickClothShopOffended2 = TRUE
+            $ dickClothShopOffended2 = True
             call bitch(5, "dick_cloth_shop_peeping_dialogue2")
         "Моника только пошутила насчет галстука.":
             pass
@@ -347,24 +385,25 @@ label intro_questions_long:
             call bitch(-1, "dickMonicaSaidToFredOffend")
 
 
-    img 4591
-    with fadelong
-    menu:
-        "У Фреда был секс с Кристиной.":
-            $ christineFuckedByFred = True
-            img 4621
-            with fadelong
-            menu:
-                "У Фреда с Кристиной был миньет и анал.":
-                    $ christineFuckedByFredBlowjob = True
-                    $ christineFuckedByFredAnal = True
-                "Кристина не выдержала и убежала.":
-                    pass
-        "Нет.":
-            pass
+    if bitchmeterValue > maxBitchness_EP1 / 2:
+        img 4591
+        with fade
+        menu:
+            "У Фреда был секс с Кристиной.":
+                $ christineFuckedByFred = True
+                img 4621
+                with fade
+                menu:
+                    "У Фреда с Кристиной был миньет и анал.":
+                        $ christineFuckedByFredBlowjob = True
+                        $ christineFuckedByFredAnal = True
+                    "Кристина не выдержала и убежала.":
+                        pass
+            "Нет.":
+                pass
 
     img 1646
-    with fadelong
+    with fade
     menu:
         "Моника грубо отшила инструктора по фитнесу":
             call bitch(1, "fitness_trainer1")
@@ -379,7 +418,7 @@ label intro_questions_long:
             pass
 
     img 1667
-    with fadelong
+    with fade
     menu:
         "Моника ругалась на клерка в банке.":
             $ clerksOffended = True
@@ -388,6 +427,7 @@ label intro_questions_long:
             call bitch(-2, "bank_office1")
 
     img 1822
+    with fade
     menu:
         "Моника сказала Стиву что он отсосет у собаки если соврал.":
             $ monicaSteveDogOffended = True
@@ -395,8 +435,17 @@ label intro_questions_long:
         "Моника не стала такого говорить.":
             pass
 
+    img 1901
+    with fade
+    menu:
+        "Моника назвала продавца кебабов животным.":
+            call bitch(2, "shawarmaTraderOffended1")
+            $ shawarmaTraderOffended1 = True
+        "Моника не стала его так называть.":
+            call bitch(-1, "shawarmaTraderOffended1")
+
     img 1974
-    with fadelong
+    with fade
     menu:
         "Моника решила уволилить Юлию":
             $ juliaFirePlanned = True
@@ -429,7 +478,7 @@ label intro_questions_long:
 
     if bitchmeterValue <= maxBitchness_EP1 / 2:
         img 5176
-        with fadelong
+        with fade
         menu:
             "Моника показывала Бобу грудь за еду.":
                 $ jailBoobsForFoodShowed = True
@@ -437,19 +486,19 @@ label intro_questions_long:
                 $ jailCageShowedBoobsForBobName = True
 
     img 5338
-    with fadelong
+    with fade
     menu:
-        "Моника показала заключенным грудь во время шантажа.":
+        "Монике пришлось показать заключенным грудь во время шантажа.":
             $ jailCageBlackmailBoobsShowed = True
             img 5406
-            with fadelong
+            with fade
             menu:
-                "Моника показала заключенным зад.":
+                "Монике пришлось также показать заключенным зад.":
                     $ jailCageBlackmailAssShowed = True
                     img 5412
-                    with fadelong
+                    with fade
                     menu:
-                        "Моника сказала что она хорошая шлюха.":
+                        "Монику заставили сказать что она хорошая шлюха.":
                             $ jailCageBlackmailMonicaSaidSheIsAWhore = True
                         "Моника отказалась это говорить.":
                             pass
@@ -460,7 +509,7 @@ label intro_questions_long:
             pass
 
     img 3114
-    with fadelong
+    with fade
     menu:
         "Моника накричала на Дика в его кабинете.":
             $ dickMonicaCabinetOffended = True
@@ -469,10 +518,12 @@ label intro_questions_long:
             call bitch(-1, "dickMonicaCabinetOffended")
 
     img 5900
+    with fade
     menu:
         "Моника делала миньет Фреду.":
             $ monicaFredWasForcedBlowjob = True
             img 5904
+            with fade
             menu:
                 "Моника проглотила сперму Фреда.":
                     $ monicaFredWasSpermEat = True
@@ -486,7 +537,7 @@ label intro_questions_long:
 
 label intro_questions_short:
     img 1200
-    with fadelong
+    with fade
     menu:
         "Моника вела себя как сучка!":
             $ neighborAsked = True
@@ -575,7 +626,7 @@ label intro_questions_short:
             call bitch(1, "dickDriveRestaurantOffended1")
             $ dickClothShopOffended1 = True
             call bitch(5, "dick_cloth_shop_peeping_dialogue1")
-            $ dickClothShopOffended2 = TRUE
+            $ dickClothShopOffended2 = True
             call bitch(5, "dick_cloth_shop_peeping_dialogue2")
             $ dickClothShopOffended4 = True
             call bitch(1, "dickClothShopOffended4")

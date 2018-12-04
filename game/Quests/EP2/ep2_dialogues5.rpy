@@ -135,17 +135,11 @@ label monica_charity_event_dialogue2:
     #уход на сцену где Моника стоит
 
     #нажатие на Бифа
-    img 6697
-    beef "Ну, давай кукла!"
-    "Притворись Моникой Бакфетт!"
-    img 6698
-    "Или тебя надо шлепнуть по попке, чтобы ты заговорила?!"
-
+    #scene
     #нажатие на Мелани
-    img 6699
-    mt "Мелани смотрит на меня."
-    "Интересно что она думает обо всем этом..."
+    #scene
 
+label monica_charity_event_dialogue2a:
     #нажатие на Монику
     img 6696
     m "..."
@@ -261,7 +255,8 @@ label monica_charity_event_dialogue2:
             "Скажите этим МНОГИМ что они могут не рассчитывать на большее!"
             "Интервью закончено!"
             reporter1 "Спасибо, Миссис Бакфетт!"
-
+        "Еще подумать...":
+            pass
     return
 
 
@@ -678,6 +673,10 @@ label monica_charity_event_dialogue11:
 label monica_charity_event_dialogue12:
     #Моника пытается идти к Бифу до танца с Филипом
     mt "Я думаю проще вытрясти деньги с простачка Филипа, нежели с этого безмозглого наглеца!"
+    return
+
+label monica_charity_event_dialogue12a:
+    mt "Куда я пойду??? Мне надо срочно найти деньги для Дика! Иначе конец!"
     return
 
 label monica_charity_event_dialogue14:

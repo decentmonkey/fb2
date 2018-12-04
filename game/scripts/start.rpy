@@ -11,14 +11,37 @@ default objectives_list = []
 default currentMusic = False
 default storedMusic = False
 default day_time = "day"
+default episode = 1
 
 label start:
-#    jump credits
+    #new game
+    $ episode = 2
     $ debugMode = True
 
     $ cloth_type = "Nude"
     $ cloth = "Nude"
+    $ day = 1
+    $ week_day = (day-1)%7
+    $ bitchmeterValue = 280
+    $ scenes_data = {"objects": {}, "substs" : {}, "autorun": {}, "hooks": {}}
+    $ hooks_stack = []
+    $ inventory_objects = {}
+    $ inventory = []
 
+    call intro_questions()
+    call start_game()
+    return
+
+label start_saved_game:
+    $ episode = 2
+    $ scenes_data = {"objects": {}, "substs" : {}, "autorun": {}, "hooks": {}}
+    $ hooks_stack = []
+    $ inventory_objects = {}
+    $ inventory = []
+    call start_game()
+    return
+
+label start_game:
     $ gameStage = 0
     $ gameSubStage = 0
     $ afterJail = True
@@ -30,16 +53,9 @@ label start:
 
     $ day_time = "day"
     $ day_suffix = ""
-    $ day = 1
-    $ week_day = (day-1)%7
     $ money = 0.0
-    $ scenes_data = {"objects": {}, "substs" : {}, "autorun": {}, "hooks": {}}
-    $ hooks_stack = []
-    $ inventory_objects = {}
-    $ inventory = []
 
     $ hud_preset_current = "default"
-    $ bitchmeterValue = 280
 
     call game_init()
 #    python:
@@ -93,9 +109,21 @@ label start:
     $ add_hook("map_teleport", "hook_basement_bedroom_check_exit_cloth_map", scene="global")
     $ add_hook("Gates", "hook_basement_bedroom_check_exit_cloth_gates", scene="street_house_gate")
 
-    # Ситизены
+    # Жизнь персонажей
     $ add_hook("change_time_day", "citizens_init_day", scene="global")
     $ add_hook("change_time_evening", "citizens_init_evening", scene="global")
+    $ add_hook("change_time_day", "Beef_Life_day", scene="global")
+    $ add_hook("change_time_evening", "Beef_Life_evening", scene="global")
+    $ add_hook("change_time_day", "Bardie_Life_day", scene="global")
+    $ add_hook("change_time_evening", "Bardie_Life_evening", scene="global")
+    $ add_hook("change_time_day", "Betty_Life_day", scene="global")
+    $ add_hook("change_time_evening", "Betty_Life_evening", scene="global")
+    $ add_hook("change_time_day", "Ralph_Life_day", scene="global")
+    $ add_hook("change_time_evening", "Ralph_Life_evening", scene="global")
+
+
+    # Офис Моники
+    $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_secretary_dialogue4a", scene="monica_office_secretary")
 
 
 #    $ remove_hook(label="betty_forbidden", scene="House", recursive=True)
@@ -103,7 +131,7 @@ label start:
 
     $ scene_transition = "Fade_long"
 
-    $ changeDayTime("evening")
+#    $ changeDayTime("evening")
 #    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
 #    $ print scene_data
 

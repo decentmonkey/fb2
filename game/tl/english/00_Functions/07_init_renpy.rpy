@@ -266,3 +266,59 @@ translate english strings:
     old "Незнакомец"
     new ""
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+translate english strings:
+
+    # 00_Functions/07_init_renpy.rpy:73
+    old "Том"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:74
+    old "Тим"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:75
+    old "Джек"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:77
+    old "Акира Сан"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:78
+    old "Фил"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:79
+    old "Сальвадор"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:80
+    old "Хитрый Джонни"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:81
+    old "Найджел"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:82
+    old "Реджинальд"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:83
+    old "Саймон"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:85
+    old "Анджело"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:86
+    old "Василий"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:87
+    old "Френк"
+    new ""
+

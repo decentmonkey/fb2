@@ -382,3 +382,65 @@ translate english strings:
     old "Идти в свой кабинет и позвонить Стиву"
     new "Go to your office and call Steve."
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/Monica_Office/monica_office_secretary.rpy:59
+translate english monica_office_secretary_environment_44e0e614:
+
+    # mt "Это этаж моего главного офиса."
+    # "У меня здесь все под рукой."
+    # "Моя секретарь, фото-студия и мой кабинет."
+    # "Вернее сейчас кабинет не мой, но скоро будет МОЙ снова!!!"
+    mt "Это этаж моего главного офиса."
+    "У меня здесь все под рукой."
+    "Моя секретарь, фото-студия и мой кабинет."
+    "Вернее сейчас кабинет не мой, но скоро будет МОЙ снова!!!"
+
+# game/Rooms/Monica_Office/monica_office_secretary.rpy:65
+translate english monica_office_secretary_environment_08ba9afd:
+
+    # mt "Моя секретарь слишком много увлекается чтением."
+    mt "Моя секретарь слишком много увлекается чтением."
+
+# game/Rooms/Monica_Office/monica_office_secretary.rpy:68
+translate english monica_office_secretary_environment_e672e7bf:
+
+    # mt "Моя секретарь играет на музыкальных инструментах."
+    mt "Моя секретарь играет на музыкальных инструментах."
+
+# game/Rooms/Monica_Office/monica_office_secretary.rpy:71
+translate english monica_office_secretary_environment_ee057710:
+
+    # mt "За этим столом моя секретарь проводит почти все рабочее время."
+    mt "За этим столом моя секретарь проводит почти все рабочее время."
+
+# game/Rooms/Monica_Office/monica_office_secretary.rpy:74
+translate english monica_office_secretary_environment_9b84380b:
+
+    # mt "Из этих окон ужасный вид на город!"
+    mt "Из этих окон ужасный вид на город!"
+
+# game/Rooms/Monica_Office/monica_office_secretary.rpy:77
+translate english monica_office_secretary_environment_15bd50a9:
+
+    # mt "Это чайный столик."
+    # "Моя секретарь обычно угощает чаем, либо кофе тех, кто ожидает моего приема."
+    # "Неудивительно что выпечки и кофе здесь больше нет..."
+    # "А жаль, я бы с удовольствием съела что-нибудь!"
+    mt "Это чайный столик."
+    "Моя секретарь обычно угощает чаем, либо кофе тех, кто ожидает моего приема."
+    "Неудивительно что выпечки и кофе здесь больше нет..."
+    "А жаль, я бы с удовольствием съела что-нибудь!"
+
+# game/Rooms/Monica_Office/monica_office_secretary.rpy:89
+translate english monica_office_secretary_environment_f6f37a04:
+
+    # mt "Это моя секретарша."
+    # mt "Одна из немногих нормальных женщин, которые знают как держать себя с окружающими."
+    # "Она очень воспитанна и интеллигентна."
+    # "Я знаю, она сохранит верность мне и поможет вернуть все назад..."
+    mt "Это моя секретарша."
+    mt "Одна из немногих нормальных женщин, которые знают как держать себя с окружающими."
+    "Она очень воспитанна и интеллигентна."
+    "Я знаю, она сохранит верность мне и поможет вернуть все назад..."
+

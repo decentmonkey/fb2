@@ -31,22 +31,49 @@ label rich_hotel_event_sofa_teleport:
     return
 label rich_hotel_event_sofa_environment:
     if obj_name == "Monica":
+        if richHotelEventStage == 1:
+            mt "Что же мне делать???"
+            mt "Может быть как-то уговорить Бифа дать мне недостающую сумму денег?"
+        if richHotelEventStage == 0:
+            mt "Мне не нравится этот Биф!"
+            "Надо скорее забрать у него деньги и больше с ним не встречаться!"
         return
     if obj_name == "Beef":
         if act == "l":
+            mt "Мерзкий слизняк Биф!"
+            "Я найду на него управу!!!"
+            "Клянусь!"
             return
         if act == "t":
             return
     if obj_name == "Melanie":
         if act == "l":
+            mt "Мелани пристально смотрит на меня..."
             return
         if act == "t":
+            mt "Мелани пристально смотрит на меня..."
+            "И молчит..."
             return
 
     if obj_name == "Komode":
+        if richHotelEventStage == 1:
+            mt "Может здесь внутри есть какие-нибудь деньги?"
+            "Но нет... Это чушь..."
+        if richHotelEventStage == 0:
+            mt "..."
         return
     if obj_name == "Lamp":
+        if richHotelEventStage == 1:
+            mt "Мне не до этого сейчас!"
+            "Мне надо найти деньги, срочно!"
+        if richHotelEventStage == 0:
+            mt "Милый светильник."
+            "Приятный свет."
         return
     if obj_name == "TV1" or obj_name == "TV2":
+        mt "Скоро на всех модных ТВ-каналах начнут показывать мое выступление..."
+        "Надеюсь мои слова не слишком растиражируют..."
+        "Мне надо будет потом как-то отказаться от них, объяснить что это было не так понято."
+        "Я придумаю что-нибудь когда верну все назад!"
         return
     return

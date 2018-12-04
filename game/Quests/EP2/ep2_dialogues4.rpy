@@ -463,6 +463,7 @@ label monica_office_cabinet_beef_dialogue1:
 
     #Моника выходит
 
+    $ monicaOfficeSecretaryMonicaSuffix_forced = ""
     mt "Это было..."
     "Очень..."
     "Сложно..."
@@ -472,8 +473,12 @@ label monica_office_cabinet_beef_dialogue1:
     "На моем кресле, за моим столом сидит этот Биф, а я ничего не могу сделать!"
     "Но я сделаю! Я верну себе эту компанию!"
     "И первое что я сделаю - это выкину этого Бифа!!!"
+
+    # Если Моника разносила флаеры
     "Он будет разносить газеты всю свою оставшуюся жизнь!!!"
     "Или флаеры!!! Да!!!"
+    #
+
     "Клянусь!!!"
 
     return
@@ -565,17 +570,46 @@ label monica_office_secretary_dialogue3:
 
 label monica_office_secretary_dialogue4:
     #Моника разговаривает с секретаршей когда приходит получать работу, но еще не пятница.
-    #render
-    img 6342
-    secretary "Миссис Бакфетт!"
-    "Мистера Бифа сейчас нет на месте!"
-    img 6343
-    m "Когда он будет?"
-    img 6344
-    secretary "Он сказал что будет в пятницу вечером!"
-    "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
-    img 6343
-    m "Хорошо, дорогая, спасибо."
+    if get_active_objects("Beef", scene="monica_office_cabinet") == False:
+        #render
+        img 6342
+        secretary "Миссис Бакфетт!"
+        "Мистера Бифа сейчас нет на месте!"
+        img 6343
+        m "Когда он будет?"
+        img 6344
+        secretary "Он сказал что будет в пятницу вечером!"
+        "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+        img 6343
+        m "Хорошо, дорогая, спасибо."
+        return False
+    $ remove_hook()
+    return
+
+label monica_office_secretary_dialogue4a:
+    #Моника разговаривает с секретаршей днем, когда Бифа нет (регулярно).
+    if get_active_objects("Beef", scene="monica_office_cabinet") == False:
+        if day_time == "day":
+            if cloth == "Whore":
+                #render
+                img 6342
+                secretary "Миссис Бакфетт!"
+                "Мистера Бифа сейчас нет на месте!"
+                img 6343
+                m "Когда он будет?"
+                img 6344
+                secretary "Он сказал что будет вечером!"
+                "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+                img 6343
+                m "Хорошо, дорогая, спасибо."
+            else:
+                secretary "Миссис Бакфетт!"
+                "Мистера Бифа сейчас нет на месте!"
+                m "Когда он будет?"
+                secretary "Он сказал что будет вечером!"
+                "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+                m "Хорошо, дорогая, спасибо."
+            return False
     return
 
 
@@ -592,9 +626,11 @@ label monica_office_cabinet_beef_dialogue2a:
     "Тем более что у меня нет больше никаких идей где взять деньги для Дика..."
     "Так что я могу достигнуть двух целей сразу!"
 
+    #уход на сцену, клик по Бифу вызывает monica_office_cabinet_beef_dialogue3
     return
 
 label monica_office_cabinet_beef_dialogue3:
+
     #render
     #Моника разговаривает с Бифом второй раз, уже о работе.
     img 6441
@@ -733,6 +769,7 @@ label monica_office_cabinet_beef_dialogue3:
 
 label monica_office_secretary_dialogue5:
     #Моника выходит в локацию секретарши
+#    $ monicaOfficeSecretaryMonicaSuffix_forced = True
     mt "ЧТО ОНИ СОБРАЛИСЬ СДЕЛАТЬ С МОИМ ЖУРНАЛОМ?!?!"
     mt "Полное обнажение???"
     "И этот мерзавец еще и предлагает МНЕ это сделать?!"
@@ -881,9 +918,15 @@ label monica_office_cabinet_beef_dialogue4:
 
     return
 
+
 label monica_office_secretary_dialogue6:
     #Моника пытается зайти в кабинет к Бифу или выйти из офиса до конца фотосессии
     mt "Мне надо идти в фотостудию..."
+    return
+label monica_office_dialogue9:
+    #Моника пытается выйти из офиса после фотосессии.
+    mt "Мне надо идти к Бифу и ехать на благотворительный вечер!"
+    "Я так соскучилась по этому!"
     return
 
 label monica_office_photostudio_alex_dialogue2:
@@ -1279,7 +1322,6 @@ label monica_office_secretary_dialogue7:
     "Я жду ВАС!"
 
     return
-
 
 label monica_office_cabinet_beef_dialogue5:
     #render

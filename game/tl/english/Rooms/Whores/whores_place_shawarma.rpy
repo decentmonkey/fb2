@@ -40,3 +40,11 @@ translate english strings:
     old "К ПЕРЕКРЕСТКУ"
     new "TO THE CROSSROAD"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/Whores/whores_place_shawarma.rpy:57
+translate english whores_place_shawarma_environment2_a708cfd4:
+
+    # mt "Дешевый ларек, но пахнет оттуда вкусно..."
+    mt "Дешевый ларек, но пахнет оттуда вкусно..."
+

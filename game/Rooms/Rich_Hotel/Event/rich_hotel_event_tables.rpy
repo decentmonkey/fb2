@@ -41,26 +41,48 @@ label rich_hotel_event_tables_teleport:
     return
 label rich_hotel_event_tables_environment:
     if obj_name == "Monica":
+        mt "Вот мерзавец!"
+        "Что же мне делать?"
+        "Я ведь не буду соглашаться на его предложение, так ведь?!?!"
+        "Это безумие!"
+        "Ведь у меня есть другой выход?!?! Или нет??..."
         return
     if obj_name == "Philip":
         if act == "l":
+            mt "Я не могу поверить в то что этот мерзавец сказал мне только что!!!"
+            "Что же мне делать?"
+            "Я ведь не буду соглашаться на его предложение, так ведь?!?!"
+            "Это безумие!"
+            "Ведь у меня есть другой выход?!?! Или нет??..."
             return
         if act == "t":
             return
 
     if obj_name == "Chair1" or obj_name == "Chair2" or obj_name == "Chair3" or obj_name == "Chair4":
+        mt "Мне не до этого сейчас!"
+        "Мне надо найти деньги, срочно!"
         return
     if obj_name == "Chair5" or obj_name == "Chair6" or obj_name == "Chair7" or obj_name == "Chair8":
+        mt "Я не собираюсь сидеть за столиком с этим мерзавцем!"
         return
     if obj_name == "Drinks":
+        mt "Здесь полно недорогого алкоголя!"
+        "Кто бы мог подумать что это вино столько стоит!!!"
         return
     if obj_name == "Flower":
+        mt "Мне не до этого сейчас!"
+        "Мне надо найти деньги, срочно!"
         return
     if obj_name == "People":
+        mt "Может быть попросить помощи у кого-нибудь???"
+        "Но вряд-ли это поможет. Судя по виду, здесь все такие же мерзавцы как этот Филип!"
         return
     if obj_name == "Table1":
+        mt "Мне не до этого сейчас!"
+        "Мне надо найти деньги, срочно!"
         return
     if obj_name == "Table2":
+        mt "Я не собираюсь сидеть за столиком с этим мерзавцем!"
         return
 
     return

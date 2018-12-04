@@ -94,3 +94,11 @@ translate english strings:
     old "Photostudio"
     new "Photostudio"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/Monica_Office/monica_office_photostudio.rpy:39
+translate english monica_office_photostudio_environment_7c6cf6c0:
+
+    # mt "Я все переделаю здесь, когда верну назад свой офис!"
+    mt "Я все переделаю здесь, когда верну назад свой офис!"
+

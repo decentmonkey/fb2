@@ -1,6 +1,8 @@
 default monicaOfficeSecretaryMonicaSuffix = ""
 default monicaOfficeSecretarySecretarySuffix = 2
 
+default monicaOfficeSecretaryMonicaSuffix_forced = False
+
 label monica_office_secretary:
     $ print "enter_monica_office_secretary"
     $ miniMapData = []
@@ -11,7 +13,9 @@ label monica_office_secretary:
     if cloth == "Whore":
         if renpy.random.randint(1,2) == 2:
             $ monicaOfficeSecretaryMonicaSuffix = "2"
-
+    if monicaOfficeSecretaryMonicaSuffix_forced != False:
+        $ monicaOfficeSecretaryMonicaSuffix = monicaOfficeSecretaryMonicaSuffix_forced
+        $ monicaOfficeSecretaryMonicaSuffix_forced = False
     return
 
 label monica_office_secretary_init:

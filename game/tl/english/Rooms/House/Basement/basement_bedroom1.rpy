@@ -60,3 +60,17 @@ translate english strings:
     old "КРОВАТЬ"
     new "BED"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/House/Basement/basement_bedroom1.rpy:52
+translate english basement_bedroom1_environment_4c19961a:
+
+    # mt "Здесь я теперь сплю..."
+    # "(хмык)"
+    # "Но это временно!!!"
+    # "Это какое-то недоразуменее, которое скоро разрешится!"
+    mt "Здесь я теперь сплю..."
+    "(хмык)"
+    "Но это временно!!!"
+    "Это какое-то недоразуменее, которое скоро разрешится!"
+

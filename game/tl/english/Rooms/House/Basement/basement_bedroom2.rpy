@@ -80,3 +80,27 @@ translate english strings:
     old "ШКАФ"
     new "WARDROBE"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/House/Basement/basement_bedroom2.rpy:45
+translate english basement_bedroom2_environment_4c19961a:
+
+    # mt "Здесь я теперь сплю..."
+    # "(хмык)"
+    # "Но это временно!!!"
+    # "Это какое-то недоразуменее, которое скоро разрешится!"
+    mt "Здесь я теперь сплю..."
+    "(хмык)"
+    "Но это временно!!!"
+    "Это какое-то недоразуменее, которое скоро разрешится!"
+
+# game/Rooms/House/Basement/basement_bedroom2.rpy:54
+translate english basement_bedroom2_environment_f1f099e4:
+
+    # mt "Моя кровать..."
+    # "Но это временно!!!"
+    # "Это какое-то недоразуменее, которое скоро разрешится!"
+    mt "Моя кровать..."
+    "Но это временно!!!"
+    "Это какое-то недоразуменее, которое скоро разрешится!"
+

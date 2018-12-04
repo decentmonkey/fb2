@@ -22,14 +22,18 @@ label rich_hotel_event_sittable_teleport:
     return
 label rich_hotel_event_sittable_environment:
     if obj_name == "Monica":
+        mt "Этот вечер нравится мне все больше..."
         return
     if obj_name == "Philip":
         if act == "l":
+            mt "Мне надо как-то использовать этого мужчину..."
+            "Не зря же я согласилась посидеть с ним!"
             return
         if act == "t":
             return
 
 
     if obj_name == "Drinks":
+        mt "Судя по виду, это вино очень дорогое..."
         return
     return

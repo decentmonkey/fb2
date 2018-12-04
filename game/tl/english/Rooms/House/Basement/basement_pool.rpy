@@ -138,3 +138,19 @@ translate english strings:
     old "ЛЕСТНИЦА"
     new "STAIRS"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/House/Basement/basement_pool.rpy:61
+translate english basement_pool_environment_3b21556a:
+
+    # mt "Бетти запретила мне пользоваться ванной наверху."
+    # "Может быть мне можно пользоваться душем здесь?"
+    mt "Бетти запретила мне пользоваться ванной наверху."
+    "Может быть мне можно пользоваться душем здесь?"
+
+# game/Rooms/House/Basement/basement_pool.rpy:66
+translate english basement_pool_environment_ae1f1045:
+
+    # mt "Вот и бассейн. Не понимаю зачем он нужен здесь."
+    mt "Вот и бассейн. Не понимаю зачем он нужен здесь."
+

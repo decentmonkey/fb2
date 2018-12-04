@@ -32,3 +32,11 @@ translate english strings:
     old "HOSTEL ENTRANCE"
     new "HOSTEL ENTRANCE"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+translate english strings:
+
+    # Rooms/Hostel/hostel_street2.rpy:24
+    old "БЕДНЫЙ РАЙОН"
+    new ""
+

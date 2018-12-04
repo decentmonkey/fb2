@@ -114,3 +114,11 @@ translate english strings:
     old "ЛИФТ"
     new "ELEVATOR"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/Monica_Office/monica_office_entrance.rpy:59
+translate english monica_office_entrance_environment2_dfad3f01:
+
+    # mt "Когда я решу свою проблему, я непременно встречусь с ней..."
+    mt "Когда я решу свою проблему, я непременно встречусь с ней..."
+

@@ -802,3 +802,19 @@ translate english strings:
     old "Там на столике что-то лежит..."
     new "There's something on the table..."
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Quests/AfterJail/AfterJail_House.rpy:53
+translate english afterJailHouse_dialogue15b_74cc07a6:
+
+    # mt "Бетти запретила мне появляться на кухне... Так что в этом доме я остаюсь без еды..."
+    mt "Бетти запретила мне появляться на кухне... Так что в этом доме я остаюсь без еды..."
+
+# game/Quests/AfterJail/AfterJail_House.rpy:56
+translate english afterJailHouse_dialogue15a_ac4d1288:
+
+    # mt "Бетти запретила мне притрагиваться к чему-либо..."
+    # "Мне лучше уйти отсюда скорее, пока она не заметила меня!"
+    mt "Бетти запретила мне притрагиваться к чему-либо..."
+    "Мне лучше уйти отсюда скорее, пока она не заметила меня!"
+

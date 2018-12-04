@@ -1,3 +1,5 @@
+default richHotelEventStage = 0
+
 label rich_hotel_event_hall:
     $ print "rich_hotel_event_hall"
     $ miniMapData = []
@@ -49,35 +51,85 @@ label rich_hotel_event_hall_teleport:
 label rich_hotel_event_hall_environment:
 
     if obj_name == "Monica":
+        if richHotelEventStage == 1:
+            mt "Черт! Что же делать???"
+            "Где мне достать деньги???"
+        if richHotelEventStage == 0:
+            mt "Приятное место..."
+            "Я расслабляюсь..."
         return
     if obj_name == "Philip":
         if act == "l":
+            mt "Какой-то кавалер..."
+            "Сотрит на меня весь вечер."
+            "Мило..."
             return
         if act == "t":
             return
     if obj_name == "HotelStaff":
         if act == "l":
+            mt "Этот мальчик из персонала отеля."
+            "Не стоит внимания..."
             return
         if act == "t":
             return
 
     if obj_name == "Cloth":
+        mt "Эта одежда закрывает собой мой постер!"
         return
     if obj_name == "Chair1" or obj_name == "Chair2" or obj_name == "Chair3" or obj_name == "Chair4":
+        if richHotelEventStage == 1:
+            mt "В этих стульях явно не спрятаны деньги, которые мне так нужны!"
+        if richHotelEventStage == 0:
+            mt "В этом месте дорогая мебель..."
+            "Мило..."
         return
     if obj_name == "Lamp":
+        if richHotelEventStage == 1:
+            mt "Мне не до этого сейчас!"
+            "Мне надо найти деньги, срочно!"
+        if richHotelEventStage == 0:
+            mt "Милый светильник."
+            "Приятный свет."
         return
     if obj_name == "Palm":
+        if richHotelEventStage == 1:
+            mt "Мне не до этого сейчас!"
+            "Мне надо найти деньги, срочно!"
+        if richHotelEventStage == 0:
+            mt "Пальма..."
+            "Вспоминаю свой отдых на островах..."
         return
     if obj_name == "People":
+        if richHotelEventStage == 1:
+            mt "Может быть попросить помощи у кого-нибудь???"
+            "Но вряд-ли это поможет. Судя по виду, здесь все такие же мерзавцы как этот Филип!"
+        if richHotelEventStage == 0:
+            mt "Наверное это журналист..."
+            "Надеюсь мои слова не слишком растиражируют..."
+            "Мне надо будет потом как-то отказаться от них, объяснить что это было не так понято."
+            "Я придумаю что-нибудь когда верну все назад!"
         return
     if obj_name == "Poster":
+        mt "Постер с обложкой моего журнала."
+        mt "Эта одежда закрывает собой мой постер!"
         return
     if obj_name == "PosterMelanie":
+        mt "Мелани?! Здесь?!"
+        "А почему не Я?!"
         return
     if obj_name == "Scene":
+        mt "Я наговорила на этой сцене всякой ерунды..."
+        mt "Надеюсь мои слова не слишком растиражируют..."
+        "Мне надо будет потом как-то отказаться от них, объяснить что это было не так понято."
+        "Я придумаю что-нибудь когда верну все назад!"
         return
     if obj_name == "Table":
+        if richHotelEventStage == 1:
+            mt "Мне не до этого сейчас!"
+            "Мне надо найти деньги, срочно!"
+        if richHotelEventStage == 0:
+            mt "Может быть мне присесть за один из столиков?"
         return
 
     return

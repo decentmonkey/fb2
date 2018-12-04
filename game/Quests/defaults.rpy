@@ -367,6 +367,8 @@ default clothShopCashierAtCashDesk = True
 default s2ClothShopCashierView1 = False
 
 #
+default shawarmaTraderOffended1 = False # Моника назвала продавца кебабов животным
+#
 default hostelStreetStage = 0
 
 #

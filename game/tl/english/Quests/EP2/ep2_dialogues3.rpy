@@ -906,3 +906,35 @@ translate english strings:
     old "Сделать Виктории комплимент..."
     new ""
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Quests/EP2/ep2_dialogues3.rpy:46
+translate english monica_dick_office_dialogue1a_de6b1938:
+
+    # reception_secretary "Мэм, вы куда?"
+    # m "Я к Дику Адвокату!"
+    # reception_secretary "Мэм, его сегодня нет..."
+    # reception_secretary "Он и Мисс Виктория куда-то уехали."
+    # reception_secretary "Он куда-то уехал с самого утра."
+    # mt "Вот черт! Дика нет!"
+    # "Надо зайти в другой день..."
+    reception_secretary "Мэм, вы куда?"
+    m "Я к Дику Адвокату!"
+    reception_secretary "Мэм, его сегодня нет..."
+    reception_secretary "Он и Мисс Виктория куда-то уехали."
+    reception_secretary "Он куда-то уехал с самого утра."
+    mt "Вот черт! Дика нет!"
+    "Надо зайти в другой день..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:456
+translate english monica_dick_secretary_dialogue4_7296451c:
+
+    # dick_secretary "Миссис Бакфетт!"
+    # "Мистера Дика сейчас нет."
+    # "И Вам не следует отвлекать его."
+    # "Для этого есть секретарь."
+    dick_secretary "Миссис Бакфетт!"
+    "Мистера Дика сейчас нет."
+    "И Вам не следует отвлекать его."
+    "Для этого есть секретарь."
+

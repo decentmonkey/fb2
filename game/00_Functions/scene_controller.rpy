@@ -169,6 +169,9 @@ label remove_dialogue():
 
 
 label after_load():
+    if episode < 2:
+        call start_saved_game()
+        return
     if game_version1_screen_ready_to_render == False:
         $ game_version1_screen_ready_to_render = True
         call refresh_scene()

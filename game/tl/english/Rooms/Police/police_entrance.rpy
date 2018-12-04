@@ -114,3 +114,41 @@ translate english strings:
     old "ВХОД"
     new "ENTRANCE"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/Police/police_entrance.rpy:25
+translate english police_entrance_teleport_262e4978:
+
+    # mt "Я НИ ЗА ЧТО НЕ ПОЙДУ ТУДА!"
+    # "Мне надо быстрее убраться из этого страшного места!"
+    mt "Я НИ ЗА ЧТО НЕ ПОЙДУ ТУДА!"
+    "Мне надо быстрее убраться из этого страшного места!"
+
+# game/Rooms/Police/police_entrance.rpy:35
+translate english police_entrance_environment_28ea3c81:
+
+    # mt "Это место, где работает эта страшная женщина..."
+    mt "Это место, где работает эта страшная женщина..."
+
+# game/Rooms/Police/police_entrance.rpy:37
+translate english police_entrance_environment_b13ea4dd:
+
+    # mt "Я не буду приближаться к этому турникету! Мне страшно!"
+    mt "Я не буду приближаться к этому турникету! Мне страшно!"
+
+# game/Rooms/Police/police_entrance.rpy:39
+translate english police_entrance_environment_e7551fb0:
+
+    # mt "Что я здесь делаю???"
+    # "Мне надо быстрее убраться из этого страшного места!"
+    mt "Что я здесь делаю???"
+    "Мне надо быстрее убраться из этого страшного места!"
+
+# game/Rooms/Police/police_entrance.rpy:42
+translate english police_entrance_environment_d12f8fac:
+
+    # mt "Я не буду говорить с этой жуткой женщиной!"
+    # "Мне надо быстрее убраться из этого страшного места!"
+    mt "Я не буду говорить с этой жуткой женщиной!"
+    "Мне надо быстрее убраться из этого страшного места!"
+

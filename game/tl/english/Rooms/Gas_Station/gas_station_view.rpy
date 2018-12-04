@@ -490,3 +490,83 @@ translate english strings:
     old "Вежливо позвать, вдруг она за дверью?"
     new "Is it polite to call if she's at the door?"
 
+# TODO: Translation updated at 2018-12-04 18:51
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:41
+translate english gas_station_view1_environment_30c81931:
+
+    # mt "Это кассирша, которую я так долго искала."
+    mt "Это кассирша, которую я так долго искала."
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:43
+translate english gas_station_view1_environment_c5ee4e02:
+
+    # mt "Я не собираюсь подходить к ней. Чем она может мне помочь?"
+    # "У нее же нет мозгов!"
+    mt "Я не собираюсь подходить к ней. Чем она может мне помочь?"
+    "У нее же нет мозгов!"
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:47
+translate english gas_station_view1_environment_f240e055:
+
+    # m "Полудохлое растение."
+    m "Полудохлое растение."
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:50
+translate english gas_station_view1_environment_9509b5db:
+
+    # mt "Что я здесь делаю?"
+    mt "Что я здесь делаю?"
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:53
+translate english gas_station_view1_environment_76e17b52:
+
+    # mt "Что я здесь делаю? Мне надо к Дику!"
+    mt "Что я здесь делаю? Мне надо к Дику!"
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:55
+translate english gas_station_view1_environment_7dc02888:
+
+    # mt "Что я здесь делаю?"
+    # "Может здесь можно было бы переночевать, но эта дура будет работать всю ночь!"
+    mt "Что я здесь делаю?"
+    "Может здесь можно было бы переночевать, но эта дура будет работать всю ночь!"
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:59
+translate english gas_station_view1_environment_34480279:
+
+    # mt "Это касса..."
+    mt "Это касса..."
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:61
+translate english gas_station_view1_environment_8458910a:
+
+    # mt "Я не хочу туда подходить."
+    # "Мне нечего делать здесь!"
+    mt "Я не хочу туда подходить."
+    "Мне нечего делать здесь!"
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:68
+translate english gas_station_view1_environment_8458910a_1:
+
+    # mt "Я не хочу туда подходить."
+    # "Мне нечего делать здесь!"
+    mt "Я не хочу туда подходить."
+    "Мне нечего делать здесь!"
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:75
+translate english gas_station_view1_environment_8458910a_2:
+
+    # mt "Я не хочу туда подходить."
+    # "Мне нечего делать здесь!"
+    mt "Я не хочу туда подходить."
+    "Мне нечего делать здесь!"
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:82
+translate english gas_station_view1_environment_8458910a_3:
+
+    # mt "Я не хочу туда подходить."
+    # "Мне нечего делать здесь!"
+    mt "Я не хочу туда подходить."
+    "Мне нечего делать здесь!"
+
