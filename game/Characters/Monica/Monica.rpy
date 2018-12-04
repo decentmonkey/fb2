@@ -1,3 +1,4 @@
+default monicaCleaningRoomsAmount = 2
 default monicaCleaningInProgress = False
 default monicaCleaningObject = ""
 

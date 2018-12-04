@@ -8,9 +8,11 @@ default scene_caption = ""
 default exitHookCalled = False
 
 label show_scene:
+    $ print "hereb"
     $ show_scene_loop_flag = False
     if scene_refresh_flag == False:
         jump show_scene_loop
+    $ print "herec"
     $ hide_screens_for_scene()
 #    if dialogue_active_flag == True:
 #        $ renpy.show_screen("dialogue_down_arrow")
@@ -19,11 +21,11 @@ label show_scene:
 
 label show_scene_now:
     if define_version_current != define_version:
-        call define_autorun() from _call_define_autorun_2
-    $ print "pause_enter"
-    $ print pause_enter
-    $ print "pause_exit"
-    $ print pause_exit
+        call define_autorun()
+#    $ print "pause_enter"
+#    $ print pause_enter
+#    $ print "pause_exit"
+#    $ print pause_exit
 
     if rain != True or sceneIsStreet != True:
         hide screen Rain
@@ -36,6 +38,7 @@ label show_scene_now:
         $ scene_sound = False
     $ print "Bitchiness"
     $ print bitchmeterValue
+    $ print "hered"
     hide screen sprites_hover_dummy_screen
 
 #    window hide
@@ -44,8 +47,8 @@ label show_scene_now:
 #    config.keymap["hide_windows"] = ["mouseup_3", "mouseup_2", "h"]
 
     if scene_transition != False and gui.scenes_transitions == True:
-        if scene_transition == "Fade":
-            if refreshed_scene_name == scene_name:
+        if scene_transition == "Fade" or scene_transition == "Fade_fast":
+            if refreshed_scene_name == scene_name and scene_transition != "Fade_fast":
                 scene black_screen at convert_resolution_transform
                 with Dissolve(0.2)
                 $ renpy.pause(0.2, hard=True)
@@ -60,7 +63,7 @@ label show_scene_now:
 
     $ renpy.scene()
     $ scene_image_file = get_image_filename(parse_str(scene_image), True)
-    $ scene_refresh_flag == False
+    $ scene_refresh_flag = False
     show screen show_image_screen(scene_image_file)
     $ image_screen_scene_flag = True
     call map_street_scene_visibility_check()
@@ -87,17 +90,24 @@ label show_scene_now:
                     with Dissolve(0.1)
             if scene_transition == "Fade_long":
                 with Dissolve(0.7)
+            if scene_transition == "Dissolve_fast":
+                with Dissolve(0.3)
     $ scene_transition = False
 
     if refreshed_scene_name != scene_name:
         call process_hooks("enter_scene", scene_name) #хук вызывается после входа на сцену и отрисовки (как autorun)
     $ refreshed_scene_name = scene_name
+    if scene_refresh_flag == True:
+        jump show_scene
 
     if scenes_data["autorun"].has_key(scene_name) and scenes_data["autorun"][scene_name].has_key("scene"):
         $ autorunFunc = scenes_data["autorun"][scene_name]["scene"]
         $ del scenes_data["autorun"][scene_name]["scene"]
         show screen sprites_hover_dummy_screen()
         call expression autorunFunc
+#        hide screen sprites_hover_dummy_screen
+        $ print "herea"
+        $ scene_refresh_flag = True
         jump show_scene
 
 
@@ -142,7 +152,10 @@ label change_scene(new_scene_name, in_transition_name="Fade", in_sound_name="hig
     call process_hooks("open", scene_name) #хук сразу после инициализации сцены
     return
 
-label refresh_scene():
+label refresh_scene(fade_param = False):
+    if fade_param != False:
+        $ scene_transition = fade_param
+
     $ scene_refresh_flag = True
     $ show_scene_loop_flag = True
     $ lastSceneName = scene_name

@@ -6,12 +6,16 @@ label bardieInteract1:
         mt "Этот маленький оболтус меня бесит!"
         return
     if act == "t":
-        if bardieLocation == "BedroomBardie":
-            call bardieDialogue1()
+        if scene_name == "street_house_main_yard":
+            call bardie_comment5()
             return
+    return
+#        if bardieLocation == "BedroomBardie":
+#            call bardieDialogue1()
+#            return
 
-    if bardieLocation == "Floor1" and act == "w":
-        call change_scene("floor1_fountain", "Fade", "snd_fountain")
+#    if bardieLocation == "Floor1" and act == "w":
+#        call change_scene("floor1_fountain", "Fade", "snd_fountain")
 
 
     return

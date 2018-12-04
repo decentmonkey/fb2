@@ -19,13 +19,13 @@ init python:
 
     def restore_scene(stored_scene_data): #восстановить сцену из переменной
         for room_name in stored_scene_data["rooms_list"]:
-            if stored_scene["objects"].has_key(room_name):
-                scenes_data["objects"][room_name] = stored_scene["objects"][room_name]
-            if stored_scene["hooks"].has_key(room_name):
-                scenes_data["hooks"][room_name] = stored_scene["hooks"][room_name]
-            if stored_scene["substs"].has_key(room_name):
-                scenes_data["substs"][room_name] = stored_scene["substs"][room_name]
-            if stored_scene["autorun"].has_key(room_name):
-                scenes_data["autorun"][room_name] = stored_scene["autorun"][room_name]
+            if stored_scene_data["objects"].has_key(room_name):
+                scenes_data["objects"][room_name] = stored_scene_data["objects"][room_name]
+            if stored_scene_data["hooks"].has_key(room_name):
+                scenes_data["hooks"][room_name] = stored_scene_data["hooks"][room_name]
+            if stored_scene_data["substs"].has_key(room_name):
+                scenes_data["substs"][room_name] = stored_scene_data["substs"][room_name]
+            if stored_scene_data["autorun"].has_key(room_name):
+                scenes_data["autorun"][room_name] = stored_scene_data["autorun"][room_name]
 
-        return stored_scene
+        return stored_scene_data

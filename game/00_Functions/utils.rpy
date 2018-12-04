@@ -29,6 +29,8 @@ init python:
         renpy.show_screen("notify", str1)
         return
 
+    def rand(from_int, to_int):
+        return renpy.random.randint(from_int,to_int)
 
 label mycopytext_label(txt):
     $ mycopytext(txt)

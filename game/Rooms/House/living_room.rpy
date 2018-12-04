@@ -9,7 +9,7 @@ label living_room:
 label living_room_init:
 
     $ monica_tint = [1.0, 1.0, 1.0]
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_LivingRoom_Monica_[cloth][day_suffix]", "click" : "living_room_environment", "actions" : "l", "zorder":10, "tint": monica_tint}, {"ralphLocation":{"v":"living_room", "base" : "House_LivingRoom_Ralph_Monica_[cloth][day_suffix]"}, "monicaCleaningInProgress":{"v":True, "base":"House_LivingRoom_Monica_[cloth]_Cleaning_[monicaCleaningObject]"}})
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_LivingRoom_Monica_[cloth][day_suffix]", "click" : "living_room_environment", "actions" : "l", "zorder":11, "tint": monica_tint}, {"ralphLocation":{"v":"living_room", "base" : "House_LivingRoom_Ralph_Monica_[cloth][day_suffix]"}, "monicaCleaningInProgress":{"v":True, "base":"House_LivingRoom_Monica_[cloth]_Cleaning_[monicaCleaningObject]"}})
 
 #        $ scene_image = "scene_House_LivingRoom_Ralph_Monica_" + cloth + day_suffix
 #        $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_LivingRoom_Ralph_Monica_" + cloth + day_suffix, "click" : "living_room_environment", "actions" : "l", "zorder":10, "tint": monica_tint})

@@ -120,10 +120,25 @@ label start_game:
     $ add_hook("change_time_evening", "Betty_Life_evening", scene="global")
     $ add_hook("change_time_day", "Ralph_Life_day", scene="global")
     $ add_hook("change_time_evening", "Ralph_Life_evening", scene="global")
+    $ add_hook("change_time_day", "Fred_Life_day", scene="global")
+    $ add_hook("change_time_evening", "Fred_Life_evening", scene="global")
 
     # Уборка в доме
     $ add_hook("enter_scene", "house_cleaning", scene="floor1")
-
+    $ add_hook("enter_scene", "house_cleaning", scene="floor2")
+    $ add_hook("enter_scene", "house_cleaning", scene="bedroom_bardie")
+    $ add_hook("enter_scene", "house_cleaning", scene="bedroom_second")
+    $ add_hook("enter_scene", "house_cleaning", scene="living_room")
+    $ add_hook("enter_scene", "house_cleaning", scene="bedroom1")
+    $ add_hook("enter_scene", "house_cleaning", scene="bedroom2")
+    $ add_hook("monica_cleaning_start", "Bardie_Life_Monica_Cleaning_Start", scene="global")
+    $ add_hook("monica_cleaning_end", "Bardie_Life_Monica_Cleaning_End", scene="global")
+    $ add_hook("monica_cleaning_start", "Betty_Life_Monica_Cleaning_Start", scene="global")
+    $ add_hook("monica_cleaning_end", "Betty_Life_Monica_Cleaning_End", scene="global")
+    $ add_hook("monica_cleaning_start", "Ralph_Life_Monica_Cleaning_Start", scene="global")
+    $ add_hook("monica_cleaning_end", "Ralph_Life_Monica_Cleaning_End", scene="global")
+    $ add_hook("monica_cleaning_start", "Fred_Life_Monica_Cleaning_Start", scene="global")
+    $ add_hook("monica_cleaning_end", "Fred_Life_Monica_Cleaning_End", scene="global")
     # Офис Моники
     $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_secretary_dialogue4a", scene="monica_office_secretary")
 

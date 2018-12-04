@@ -59,7 +59,7 @@ label afterJailHouse_dialogue15a:
     return
 
 label afterJailHouse_dialogue16a:
-    if lastSceneName != "bedroom1":
+    if lastSceneName != "bedroom1" and monicaCleaningInProgress != True:
         mt "Эту спальню заняли новые хозяева. Мне нежелательно сюда заходить..."
     return
 

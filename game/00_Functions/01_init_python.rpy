@@ -134,10 +134,14 @@ python early:
         return l.simple_expression()
 
     def sound_exec(o):
-        checkPath = "Sounds/" + str(o) + ".ogg"
+        try:
+            soundName = renpy.eval(o)
+        except:
+            soundName = o
+        checkPath = "Sounds/" + str(soundName) + ".ogg"
         if renpy.loadable(checkPath):
             renpy.play(checkPath, channel="sound")
-        checkPath = "Sounds/" + str(o) + ".wav"
+        checkPath = "Sounds/" + str(soundName) + ".wav"
         if renpy.loadable(checkPath):
             renpy.play(checkPath, channel="sound")
 
@@ -163,6 +167,21 @@ python early:
 
     renpy.register_statement("music", parse=music_parse, execute=music_exec) #music - оператор воспроизведения музыки
 
+    def store_music():
+        global storedMusic, currentMusic
+        storedMusic = currentMusic
+        return
+
+    def restore_music():
+        global storedMusic, currentMusic
+        currentMusic = storedMusic
+        if currentMusic == False:
+            renpy.music.stop(channel='music', fadeout=1.0)
+            return
+        checkPath = "Music/" + str(musicName) + ".ogg"
+        if renpy.loadable(checkPath):
+            renpy.music.play(checkPath, channel="music", loop=True, fadeout=1.0, fadein=1.0)
+        return
 
     def video_parse(l):
         return l.simple_expression()

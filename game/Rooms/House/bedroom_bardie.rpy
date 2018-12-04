@@ -14,7 +14,7 @@ label bedroom_bardie_init:
 
     $ add_object_to_scene("Ball1", {"type":2, "base":"House_BedroomBardie_Ball1", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Ball2", {"type":2, "base":"House_BedroomBardie_Ball2", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("BardieBed", {"type":2, "base":"House_BedroomBardie_Bed", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "base":"House_BedroomBardie_Bed_Dust"}})
+    $ add_object_to_scene("BardieBed", {"type":2, "base":"House_BedroomBardie_Bed", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "base":"House_BedroomBardie_BardieBed_Dust"}})
     $ add_object_to_scene("Chair", {"type":2, "base":"House_BedroomBardie_Chair", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("MusicCenter", {"type":2, "base":"House_BedroomBardie_MusicCenter", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Subwoofer", {"type":2, "base":"House_BedroomBardie_Subwoofer", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})

@@ -8,6 +8,7 @@ python early:
     import math
     import json
     import copy
+    from random import shuffle
 
     dialogue_active_flag = False
     list_files = []

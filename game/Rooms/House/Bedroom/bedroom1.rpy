@@ -15,7 +15,7 @@ label bedroom1_init:
 
     $ add_object_to_scene("Chair", {"type":2, "base":"Bedroom1_Chair", "click" : "bedroom1_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "base":"Bedroom1_Chair_Dust"}})
     $ add_object_to_scene("Chair2", {"type":2, "base":"Bedroom1_Chair2", "click" : "bedroom1_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "base":"Bedroom1_Chair2_Dust"}})
-    $ add_object_to_scene("Bed", {"type":2, "base":"Bedroom1_Bed", "click" : "bedroom1_environment", "actions" : "lh", "group":"environment", "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "base":"Bedroom1_Bed_Dust"}})
+    $ add_object_to_scene("Bed", {"type":2, "base":"Bedroom1_Bed", "click" : "bedroom1_environment", "actions" : "lh", "group":"environment", "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "base":"Bedroom1_Bed_Dust", "actions":"l"}})
     $ add_object_to_scene("Curtains", {"type":2, "base":"Bedroom1_Curtains", "click" : "bedroom1_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Flowers", {"type":2, "base":"Bedroom1_Flowers", "click" : "bedroom1_environment", "actions" : "l", "zorder" : 0, "b":0.12, "group":"environment"})
     $ add_object_to_scene("Lamp", {"type":2, "base":"Bedroom1_Lamp", "click" : "bedroom1_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
@@ -38,46 +38,46 @@ label bedroom1_teleport:
     return
 
 label bedroom1_environment:
-    if name == "Chair":
+    if obj_name == "Chair":
         mt "Мой любимый удобный стул... Эхххх...."
         return
-    if name == "Chair2":
+    if obj_name == "Chair2":
         mt "Один из моих бывших стульев..."
         return
-    if name == "Bed":
+    if obj_name == "Bed":
         mt "Моя любимая кроватка!"
         "Она такая удобная!"
         "Как я скучаю по ней!"
         "Я ВЕРНУ ЕЕ!!!"
         return
-    if name == "Curtains":
+    if obj_name == "Curtains":
         mt "Я помню как эти шторы спасали меня от солнечного света..."
         return
 
-    if name == "Flowers":
+    if obj_name == "Flowers":
         mt "Мои цветы! Мои любимые цветы!"
         return
-    if name == "Lamp":
+    if obj_name == "Lamp":
         mt "Я помню каждую лампу в моем доме..."
         return
-    if name == "Mess":
+    if obj_name == "Mess":
         mt "Я складывала сюда свои длинные ножки..."
         "Красивые, не то что у этой Бетти!"
         return
-    if name == "Mirror":
+    if obj_name == "Mirror":
         mt "Я уверена что я скоро увижу себя в этом зеркале снова в дорогом платье!"
         return
-    if name == "Table":
+    if obj_name == "Table":
         mt "Этот столик такой романтичный."
         "Я оставлю его после того как сменю дизайн этого дома."
         return
-    if name == "Windows":
+    if obj_name == "Windows":
         mt "Я помню вид из своего окна..."
         return
-    if name == "Carpet":
+    if obj_name == "Carpet":
         mt "Мой коврик..."
         return
-    elif name == "none":
+    elif obj_name == "none":
         "none ((("
 
     return

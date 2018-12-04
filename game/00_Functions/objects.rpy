@@ -165,7 +165,12 @@ init python:
         set_active(obj_name, True, scene=target_scene)
         return
 
-    def get_active_objects(obj_name, **kwargs):
+    def get_active_objects(*args, **kwargs):
+        if len(args) > 0:
+            obj_name = args[0]
+        else:
+            obj_name = False
+            kwargs["active"] = True
         if kwargs.has_key("scene"):
             if kwargs["scene"] == "all":
                 rooms_list = list(scenes_data["objects"].keys())
@@ -179,8 +184,14 @@ init python:
         kwargs.pop("recursive", None)
         return_objects_list = []
         for room_name in rooms_list:
-            if scenes_data["objects"].has_key(room_name) == True and scenes_data["objects"][room_name].has_key(obj_name) == True and scenes_data["objects"][room_name][obj_name]["active"] == True:
-                return_objects_list.append(scenes_data["objects"][room_name][obj_name])
+            if obj_name != False:
+                if scenes_data["objects"].has_key(room_name) == True and scenes_data["objects"][room_name].has_key(obj_name) == True and scenes_data["objects"][room_name][obj_name]["active"] == True:
+                    return_objects_list.append(scenes_data["objects"][room_name][obj_name])
+            else:
+                if scenes_data["objects"].has_key(room_name) == True:
+                    for obj1 in scenes_data["objects"][room_name]:
+                        if check_filter(kwargs, scenes_data["objects"][room_name][obj1]) == True:
+                            return_objects_list.append([scenes_data["objects"][room_name][obj1], obj1, room_name])
         if len(return_objects_list) > 0:
             return return_objects_list
         return False

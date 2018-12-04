@@ -56,21 +56,21 @@ label floor2_teleport:
     return
 
 label floor2_environment:
-    if name == "Lamps":
+    if obj_name == "Lamps":
         mt "Мне всегда нравилось когда много света."
         "Ничего, скоро я снова буду радоваться этому!"
         return
 
-    if name == "Flower1":
+    if obj_name == "Flower1":
         mt "Это мои цветы!"
         "МОИ!!!"
         return
-    if name == "Flower2":
+    if obj_name == "Flower2":
         mt "Это мои цветы!"
         "МОИ!!!"
         return
 
-    if name == "Mirrors":
+    if obj_name == "Mirrors":
         if obj_data["action"] == "l":
             mt "Это мои зеркала с косметикой..."
             "Сейчас их захватила эта сучка Бетти."
@@ -82,11 +82,11 @@ label floor2_environment:
             return
 
 
-    if name == "Monica":
+    if obj_name == "Monica":
         m "Они захватили мой дом, но я верну его!"
         return
 
-    if name == "Spot":
+    if obj_name == "Spot":
         if obj_data["action"] == "l":
             mt "Пятно на ковре все еще здесь..."
             "Может быть эта Бетти не заметила его?"
