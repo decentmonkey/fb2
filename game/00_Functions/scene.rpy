@@ -1,25 +1,31 @@
 init python:
-    def store_scene(scene_name): #сохранить сцену в переменную
-        stored_scene = {}
-        if scenes_data["objects"].has_key(scene_name) == True:
-            stored_scene["objects"] = copy.deepcopy(scenes_data["objects"][scene_name])
-        if scenes_data["hooks"].has_key(scene_name) == True:
-            stored_scene["hooks"] = copy.deepcopy(scenes_data["hooks"][scene_name])
-        if scenes_data["substs"].has_key(scene_name) == True:
-            stored_scene["substs"] = copy.deepcopy(scenes_data["substs"][scene_name])
-        if scenes_data["autorun"].has_key(scene_name) == True:
-            stored_scene["autorun"] = copy.deepcopy(scenes_data["autorun"][scene_name])
+    def store_scene(scene_name, **kwargs): #сохранить сцену в переменную
+        stored_scene = {"objects":{}, "hooks":{}, "substs":{}, "autorun":{}, "rooms_list":[]}
+        rooms_list = [scene_name]
+        if kwargs.has_key("recursive") == True and kwargs["recursive"] == True:
+            rooms_list = get_rooms_recursive(rooms_list[0])
 
+        for room_name in rooms_list:
+            if scenes_data["objects"].has_key(room_name) == True:
+                stored_scene["objects"][room_name] = copy.deepcopy(scenes_data["objects"][room_name])
+            if scenes_data["hooks"].has_key(room_name) == True:
+                stored_scene["hooks"][room_name] = copy.deepcopy(scenes_data["hooks"][room_name])
+            if scenes_data["substs"].has_key(room_name) == True:
+                stored_scene["substs"][room_name] = copy.deepcopy(scenes_data["substs"][room_name])
+            if scenes_data["autorun"].has_key(room_name) == True:
+                stored_scene["autorun"][room_name] = copy.deepcopy(scenes_data["autorun"][room_name])
+            stored_scene["rooms_list"].append(room_name)
         return stored_scene
 
-    def restore_scene(scene_name, stored_scene): #восстановить сцену из переменной
-        if stored_scene.has_key("objects") == True:
-            scenes_data["objects"][scene_name] = stored_scene["objects"]
-        if stored_scene.has_key("hooks") == True:
-            scenes_data["hooks"][scene_name] = stored_scene["hooks"]
-        if stored_scene.has_key("substs") == True:
-            scenes_data["substs"][scene_name] = stored_scene["substs"]
-        if stored_scene.has_key("autorun") == True:
-            scenes_data["autorun"][scene_name] = stored_scene["autorun"]
+    def restore_scene(stored_scene_data): #восстановить сцену из переменной
+        for room_name in stored_scene_data["rooms_list"]:
+            if stored_scene["objects"].has_key(room_name):
+                scenes_data["objects"][room_name] = stored_scene["objects"][room_name]
+            if stored_scene["hooks"].has_key(room_name):
+                scenes_data["hooks"][room_name] = stored_scene["hooks"][room_name]
+            if stored_scene["substs"].has_key(room_name):
+                scenes_data["substs"][room_name] = stored_scene["substs"][room_name]
+            if stored_scene["autorun"].has_key(room_name):
+                scenes_data["autorun"][room_name] = stored_scene["autorun"][room_name]
 
         return stored_scene

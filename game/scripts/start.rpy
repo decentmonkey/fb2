@@ -20,15 +20,13 @@ label start:
 
     $ cloth_type = "Nude"
     $ cloth = "Nude"
-    $ day = 1
-    $ week_day = (day-1)%7
     $ bitchmeterValue = 280
     $ scenes_data = {"objects": {}, "substs" : {}, "autorun": {}, "hooks": {}}
     $ hooks_stack = []
     $ inventory_objects = {}
     $ inventory = []
 
-    call intro_questions()
+#    call intro_questions()
     call start_game()
     return
 
@@ -51,6 +49,8 @@ label start_game:
     $ game_version1_screen_ready_to_render = True
     $ zoom_factor = 1
 
+    $ day = 10
+    $ week_day = (day)%7
     $ day_time = "day"
     $ day_suffix = ""
     $ money = 0.0
@@ -121,6 +121,8 @@ label start_game:
     $ add_hook("change_time_day", "Ralph_Life_day", scene="global")
     $ add_hook("change_time_evening", "Ralph_Life_evening", scene="global")
 
+    # Уборка в доме
+    $ add_hook("enter_scene", "house_cleaning", scene="floor1")
 
     # Офис Моники
     $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_secretary_dialogue4a", scene="monica_office_secretary")

@@ -12,7 +12,7 @@ label bedroom2:
 
 label bedroom2_init:
     $ monica_tint = [1.0, 1.0, 1.0]
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Bedroom2_Monica_[cloth]", "click" : "bedroom2_environment", "actions" : "l", "zorder":10})
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Bedroom2_Monica_[cloth][day_suffix]", "click" : "bedroom2_environment", "actions" : "l", "zorder":10}, {"monicaCleaningInProgress":{"v":True, "base":"Bedroom2_Monica_[cloth]_Cleaning_[monicaCleaningObject]"}})
 
     $ add_object_to_scene("Mess", {"type":2, "base":"Bedroom2_Mess", "click" : "bedroom1_environment", "actions" : "l", "group":"environment"})
     $ add_object_to_scene("Chair2", {"type":2, "base":"Bedroom2_Chair", "click" : "bedroom1_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
@@ -20,10 +20,10 @@ label bedroom2_init:
     $ add_object_to_scene("Table2", {"type":2, "base":"Bedroom2_Table2", "click" : "bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Picture", {"type":2, "base":"Bedroom2_Picture", "click" : "bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Windows", {"type":2, "base":"Bedroom2_Windows", "click" : "bedroom1_environment", "actions" : "l", "zorder" : 0, "c":1.0, "b":0.1, "group":"environment"})
-    $ add_object_to_scene("Curtains", {"type":2, "base":"Bedroom2_Curtains", "click" : "bedroom1_environment", "actions" : "l", "zorder" : -1, "group":"environment"})
+    $ add_object_to_scene("Curtains", {"type":2, "base":"Bedroom2_Curtains", "click" : "bedroom1_environment", "actions" : "l", "zorder" : -1, "group":"environment", "cleaning_group":True})
     $ add_object_to_scene("Carpet", {"type":2, "base":"Bedroom2_Carpet", "click" : "bedroom1_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
 
-    $ add_object_to_scene("Wardrobe", {"type":2, "base":"Bedroom2_Wardrobe", "click" : "bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("Wardrobe", {"type":2, "base":"Bedroom2_Wardrobe", "click" : "bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True})
 
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

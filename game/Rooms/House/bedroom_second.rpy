@@ -8,13 +8,15 @@ label bedroom_second:
 
 label bedroom_second_init:
     $ monica_tint = [1.0, 1.0, 1.0]
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_BedroomSecond_Monica_[cloth][day_suffix]", "click" : "bedroom_second_environment", "actions" : "l", "zorder":10, "tint": monica_tint})
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_BedroomSecond_Monica_[cloth][day_suffix]", "click" : "bedroom_second_environment", "actions" : "l", "zorder":10, "tint": monica_tint}, {"monicaCleaningInProgress":{"v":True, "base":"House_BedroomSecond_Monica_[cloth]_Cleaning_[monicaCleaningObject]"}})
 
-    $ add_object_to_scene("BedroomSecondBed", {"type":2, "base":"House_BedroomSecond_Bed", "click" : "bedroom_second_environment", "actions" : "lh", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("Bardie", {"type" : 2, "active":False, "base" : "House_BedroomSecond_Bardie[day_suffix]", "click" : "bardieInteract1", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png", "active":False}, {"monicaCleaningInProgress":{"v":True, "base":"House_BedroomSecond_Bardie_Cleaning"}})
+
+    $ add_object_to_scene("BedroomSecondBed", {"type":2, "base":"House_BedroomSecond_Bed", "click" : "bedroom_second_environment", "actions" : "lh", "zorder" : 0, "group":"environment", "cleaning_group":True})
     $ add_object_to_scene("LampTable", {"type":2, "base":"House_BedroomSecond_LampTable", "click" : "bedroom_second_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("LegChair", {"type":2, "base":"House_BedroomSecond_LegChair", "click" : "bedroom_second_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("LegChair", {"type":2, "base":"House_BedroomSecond_LegChair", "click" : "bedroom_second_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True})
     $ add_object_to_scene("MirrorTable", {"type":2, "base":"House_BedroomSecond_MirrorTable", "click" : "bedroom_second_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("TV", {"type":2, "base":"House_BedroomSecond_TV", "click" : "bedroom_second_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("TV", {"type":2, "base":"House_BedroomSecond_TV", "click" : "bedroom_second_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True})
     $ add_object_to_scene("Window1", {"type":2, "base":"House_BedroomSecond_Window1", "click" : "bedroom_second_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Window2", {"type":2, "base":"House_BedroomSecond_Window2", "click" : "bedroom_second_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
 

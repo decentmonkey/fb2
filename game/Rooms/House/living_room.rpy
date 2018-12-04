@@ -9,7 +9,7 @@ label living_room:
 label living_room_init:
 
     $ monica_tint = [1.0, 1.0, 1.0]
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_LivingRoom_Monica_[cloth][day_suffix]", "click" : "living_room_environment", "actions" : "l", "zorder":10, "tint": monica_tint}, {"ralphLocation":{"v":"living_room", "base" : "House_LivingRoom_Ralph_Monica_[cloth][day_suffix]"}})
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_LivingRoom_Monica_[cloth][day_suffix]", "click" : "living_room_environment", "actions" : "l", "zorder":10, "tint": monica_tint}, {"ralphLocation":{"v":"living_room", "base" : "House_LivingRoom_Ralph_Monica_[cloth][day_suffix]"}, "monicaCleaningInProgress":{"v":True, "base":"House_LivingRoom_Monica_[cloth]_Cleaning_[monicaCleaningObject]"}})
 
 #        $ scene_image = "scene_House_LivingRoom_Ralph_Monica_" + cloth + day_suffix
 #        $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_LivingRoom_Ralph_Monica_" + cloth + day_suffix, "click" : "living_room_environment", "actions" : "l", "zorder":10, "tint": monica_tint})
@@ -18,12 +18,12 @@ label living_room_init:
 
 #    $ add_object_to_scene("Chair1", {"type":2, "base":"House_LivingRoom_Chair1", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Chair2", {"type":2, "base":"House_LivingRoom_Chair2", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("Chair3", {"type":2, "base":"House_LivingRoom_Chair3", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("Chair4", {"type":2, "base":"House_LivingRoom_Chair4", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("Chair3", {"type":2, "base":"House_LivingRoom_Chair3", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True})
+    $ add_object_to_scene("Chair4", {"type":2, "base":"House_LivingRoom_Chair4", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True})
     $ add_object_to_scene("Chandelier", {"type":2, "base":"House_LivingRoom_Chandelier", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("DinnerTable", {"type":2, "base":"House_LivingRoom_DinnerTable", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("Sofa", {"type":2, "base":"House_LivingRoom_Sofa", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("TableLamp1", {"type":2, "base":"House_LivingRoom_TableLamp1", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("Sofa", {"type":2, "base":"House_LivingRoom_Sofa", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True})
+    $ add_object_to_scene("TableLamp1", {"type":2, "base":"House_LivingRoom_TableLamp1", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True})
     $ add_object_to_scene("TableLamp2", {"type":2, "base":"House_LivingRoom_TableLamp2", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("TV", {"type":2, "base":"House_LivingRoom_TV", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Wine1", {"type":2, "base":"House_LivingRoom_Wine1", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
