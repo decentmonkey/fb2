@@ -14,12 +14,12 @@ label bedroom_bardie_init:
 
     $ add_object_to_scene("Ball1", {"type":2, "base":"House_BedroomBardie_Ball1", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Ball2", {"type":2, "base":"House_BedroomBardie_Ball2", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("BardieBed", {"type":2, "base":"House_BedroomBardie_Bed", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True})
+    $ add_object_to_scene("BardieBed", {"type":2, "base":"House_BedroomBardie_Bed", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "base":"House_BedroomBardie_Bed_Dust"}})
     $ add_object_to_scene("Chair", {"type":2, "base":"House_BedroomBardie_Chair", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("MusicCenter", {"type":2, "base":"House_BedroomBardie_MusicCenter", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Subwoofer", {"type":2, "base":"House_BedroomBardie_Subwoofer", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Picture1", {"type":2, "base":"House_BedroomBardie_Picture1", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("Trash1", {"type":2, "base":"House_BedroomBardie_Trash1", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True})
+    $ add_object_to_scene("Trash1", {"type":2, "base":"House_BedroomBardie_Trash1", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "base":"House_BedroomBardie_Trash1_Dust"}})
     $ add_object_to_scene("Notebook", {"type":2, "base":"House_BedroomBardie_Notebook", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
 
     $ add_object_to_scene("Teleport_Floor2", {"type":3, "text" : _("ХОЛЛ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "bedroom_bardie_teleport", "xpos" : 960, "ypos" : 956, "zorder":20, "teleport":True})

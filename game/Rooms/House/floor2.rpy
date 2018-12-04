@@ -16,8 +16,8 @@ label floor2_init:
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "Floor2_Monica_[cloth][day_suffix]", "click" : "floor2_environment", "actions" : "l", "zorder":10, "tint": monica_tint}, {"bettyLocation": {"v":"floor2", "base" : "Floor2_Monica_[cloth]_Evening"}, "monicaCleaningInProgress":{"v":True, "base":"Floor2_Monica_[cloth]_Cleaning_[monicaCleaningObject]"}})
     $ add_object_to_scene("Betty", {"type" : 2, "base" : "Floor2_Betty_[floor2BettyPositionSuffix]_Evening", "click" : "bettyInteract1", "actions" : "lt", "zorder":10})
 
-    $ add_object_to_scene("Carpet", {"type" : 2, "active":False, "base" : "Floor2_Carpet", "click" : "floor2_environment", "actions" : "l", "zorder":10, "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "active":True}})
-    $ add_object_to_scene("Sofa", {"type":2, "active":False, "base":"Floor2_Sofa", "click" : "floor2_environment", "actions" : "l", "zorder" : 0, "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "active":True}})
+    $ add_object_to_scene("Carpet", {"type" : 2, "active":False, "base" : "Floor2_Carpet", "click" : "floor2_environment", "actions" : "l", "zorder":10, "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "base":"Floor2_Carpet_Dust"}})
+    $ add_object_to_scene("Sofa", {"type":2, "active":False, "base":"Floor2_Sofa", "click" : "floor2_environment", "actions" : "l", "zorder" : 0, "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "base":"Floor2_Sofa_Dust"}})
 
     $ add_object_to_scene("Spot", {"type" : 2, "base" : "Floor2_Spot", "click" : "floor2_environment", "actions" : "lh", "zorder":10, "group":"environment"}, {"monicaCleaningInProgress":{"v":True, "active":False}})
 

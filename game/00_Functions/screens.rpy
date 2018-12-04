@@ -196,8 +196,15 @@ screen screen_sprites(data):
                                         $ croppedImg = im.Crop(spriteImageStr, (canvas_offset[1], canvas_offset[0], canvas_offset[3]-canvas_offset[1]+1, canvas_offset[2] - canvas_offset[0]+1))
                                         $ idleImg = im.AlphaMask(croppedImg, maskImage) if maskName != False else Image(spriteImageStr)
                                     else:
-            #                            $ idleImg = Image(spriteImageStr)
-                                        $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskName)) if maskName != False else Image(spriteImageStr)
+                                        if canvas_offset != False and spriteImageStr != scene_image_file and maskName != False:
+                                            $ maskImage = Image(maskName)
+                                            $ maskImageSize = getImageSize(maskImage, maskName)
+                                            $ canvas_offset[2] = canvas_offset[0] + maskImageSize[1] - 1
+                                            $ canvas_offset[3] = canvas_offset[1] + maskImageSize[0] - 1
+                                            $ croppedImg = im.Crop(spriteImageStr, (canvas_offset[1], canvas_offset[0], canvas_offset[3]-canvas_offset[1]+1, canvas_offset[2] - canvas_offset[0]+1))
+                                            $ idleImg = im.AlphaMask(croppedImg, maskImage) if maskName != False else Image(spriteImageStr)
+                                        else:
+                                            $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskName)) if maskName != False else Image(spriteImageStr)
                                     $ hoverImg = idleImg
                                 $ overlayName = data[i]["img" + day_time_suffix + "_overlay"] if data[i]["img" + day_time_suffix + "_overlay"] != False else data[i]["img" + "_overlay"] if data[i]["img" + "_overlay"] != False else False
                                 if pass_num == 1:
