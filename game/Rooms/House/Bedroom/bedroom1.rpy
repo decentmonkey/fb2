@@ -1,3 +1,5 @@
+default bedroom1_betty_suffix = ""
+
 label bedroom1:
     $ print "enter_bedroom1"
     $ miniMapData = []
@@ -7,11 +9,11 @@ label bedroom1:
     return
 
 label bedroom1_init:
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Bedroom1_Monica_[cloth][day_suffix]", "click" : "bedroom2_environment", "actions" : "l", "zorder":10}, {"monicaCleaningInProgress":{"v":True, "base":"Bedroom1_Monica_[cloth]_Cleaning_[monicaCleaningObject]"}})
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Bedroom1_Monica_[cloth][day_suffix]", "click" : "bedroom2_environment", "actions" : "l", "zorder":18}, {"monicaCleaningInProgress":{"v":True, "base":"Bedroom1_Monica_[cloth]_Cleaning_[monicaCleaningObject]"}})
 
 #    if bettyLocation == "Bedroom1":
 #        if day_time == "day":
-    $ add_object_to_scene("Betty", {"type" : 2, "base" : "Bedroom1_Betty", "click" : "bettyInteract1", "actions" : "lt", "zorder":10, "active":False}, {"day_time":{"v":"evening", "base":"empty"}})
+    $ add_object_to_scene("Betty", {"type" : 2, "base" : "Bedroom1_Betty_[bedroom1_betty_suffix][day_suffix]", "click" : "bettyInteract1", "actions" : "lt", "zorder":15, "active":False})
 
     $ add_object_to_scene("Chair", {"type":2, "base":"Bedroom1_Chair", "click" : "bedroom1_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "base":"Bedroom1_Chair_Dust"}})
     $ add_object_to_scene("Chair2", {"type":2, "base":"Bedroom1_Chair2", "click" : "bedroom1_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "base":"Bedroom1_Chair2_Dust"}})
@@ -48,6 +50,10 @@ label bedroom1_environment:
         mt "Моя любимая кроватка!"
         "Она такая удобная!"
         "Как я скучаю по ней!"
+        if get_active_objects("Betty") != False:
+            mt "А теперь на моей кровати лежит эта жирная корова!"
+            "А я вынуждена смотреть на это и выполнять все ее капризы!"
+            "(хмык)"
         "Я ВЕРНУ ЕЕ!!!"
         return
     if obj_name == "Curtains":

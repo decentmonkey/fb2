@@ -48,6 +48,10 @@ label basement_bedroom2_environment:
         "Это какое-то недоразуменее, которое скоро разрешится!"
     if obj_name == "BasementBed":
         if act == "l":
+            $ print bettyPantiesCurrentList
+            $ print bettyPantiesCurrent
+#            $ print char_info["Betty"]
+            return
             $ add_corruption(100, "place1")
             $ add_char_progress("Monica", 25, "progress1", duplicate=True)
             $ cleaningLog = [True, True, False, True, True]

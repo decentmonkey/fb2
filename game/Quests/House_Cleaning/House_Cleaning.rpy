@@ -189,6 +189,13 @@ label house_cleaning_room_finished2:
     call change_scene(rooms_dirty.pop(0))
     return False
 
+label processHouseCleaningEvening:
+    if monicaLastCleaningCompletedDay < day:
+        $ add_cleaning(False)
+        $ add_char_progress("Betty", bettyCleaningProgessRegressAmount, "cleaning_day_" + str(day))
+
+    return
+
 label start_cleaning_dialogue1a:
     mt "Сегодня пришла очередь убрать"
     python:

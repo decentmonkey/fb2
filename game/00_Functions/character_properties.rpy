@@ -56,7 +56,6 @@ init python:
         char_info[char_name]["current_progress"] = char_info[char_name]["current_progress"] + progress_value
         if char_info[char_name]["current_progress"] < 0:
             char_info[char_name]["current_progress"] = 0
-
         char_data = char_info[char_name]
         if char_info[char_name]["current_progress"] >= char_info[char_name]["max_progress"]:
 #            char_info[char_name]["current_progress"] = char_info[char_name]["max_progress"]
@@ -67,7 +66,11 @@ init python:
                 progressFuncName = char_info[char_name]["uplevel_label"]
                 renpy.call(progressFuncName)
         else:
-            notif(char_info[char_name]["name"] + " " + _("прогресс увеличен!"))
+            if progress_value > 0:
+                notif(char_info[char_name]["name"] + " " + _("прогресс увеличен!"))
+            else:
+                if char_info[char_name]["current_progress"] > 0:
+                    notif(char_info[char_name]["name"] + " " + _("прогресс понижен!"))
             if char_info[char_name]["progress_label"] != False and renpy.has_label(char_info[char_name]["progress_label"]) == True:
                 progressFuncName = char_info[char_name]["progress_label"]
                 renpy.call(progressFuncName)
@@ -89,9 +92,9 @@ init python:
             corruption = corruptionMax
 
         if amount > 0:
-            notif(_("Corruption increased"))
+            notif(_("Corruption +") + str(amount))
         else:
-            notif(_("Corruption decreased"))
+            notif(_("Corruption -") + str(amount))
 
         renpy.call("process_hooks", "corruption", "global") #процессим хуки
         return

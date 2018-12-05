@@ -27,7 +27,11 @@ label start:
     $ inventory_objects = {}
     $ inventory = []
 
+
 #    call intro_questions()
+    $ ralphAskedAboutPayment = False
+    $ add_objective("ask_ralph", _("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
+    $ add_objective("freedom", _("Избежать наказания"), c_red, 0)
     call start_game()
     return
 
@@ -38,6 +42,10 @@ label start_saved_game:
     $ inventory_objects = {}
     $ inventory = []
     call intro_questions_save()
+    $ objectives_list = []
+    if ralphAskedAboutPayment == False:
+        $ add_objective("ask_ralph", _("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
+    $ add_objective("freedom", _("Избежать наказания"), c_red, 0)
     call start_game()
     return
 
@@ -96,6 +104,7 @@ label start_game:
     $ api_scene_name = "none"
     call locations_init()
     call citizens_init()
+    call characters_init()
 
     $ add_hook("exit_scene", "hook_basement_bedroom2_change_view_to_suffix3", scene="basement_bedroom2")
     # Запрет Бетти ходить по дому
@@ -147,9 +156,14 @@ label start_game:
     $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_secretary_dialogue4a", scene="monica_office_secretary")
 
 
+    # Узнать про оплату у Ральфа
+    $ add_hook("enter_scene", "Ralph_Life_Ask_About_Payment", scene="living_room")
+
 #    $ remove_hook(label="betty_forbidden", scene="House", recursive=True)
     call change_scene("basement_bedroom2", "Fade_long", False)
     $ changeDayTime("day")
+
+    $ miniMapEnabledOnly = []
 
     $ scene_transition = "Fade_long"
 

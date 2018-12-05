@@ -3,13 +3,13 @@ default bardieStage = 0
 label Bardie_Life_init:
     $ add_hook("change_time_day", "Bardie_Life_day", scene="global")
     $ add_hook("change_time_evening", "Bardie_Life_evening", scene="global")
-    $ add_hook("Bardie_life_day", "Bardie_Life_Day1", scene="global")
+    $ add_hook("Bardie_Life_day", "Bardie_Life_Day1", scene="global")
     $ add_hook("Bardie_Life_evening", "Bardie_Life_evening1", scene="global")
 
     return
 
 label Bardie_Life_day:
-    call process_hooks("Bardie_life_day", "global")
+    call process_hooks("Bardie_Life_day", "global")
     return True
 
 label Bardie_Life_Day1:

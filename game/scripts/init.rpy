@@ -1,6 +1,10 @@
-define bettyCleaningProgessAmount = 5 #Прогресс с Бетти за уборку
+define bettyCleaningProgessAmount = 20 #5 #Прогресс с Бетти за уборку
+define bettyCleaningProgessRegressAmount = -10 # Насколько убавляется прогресс с Бетти если Моника пропустила уборку
+define bettyTryOutInGovernessClothRegressAmount = -10 # Насколько убавляется прогресс с Бетти если Моника пытается выйти за пределы дома в одежде гувернантки
 define bardieCleaningUpskirtTry = 60 #15 #Прогресс с Барди за попытку подсмотреть во время уборки (начальная стадия)
+define bardieCleaningUpskirtTryCorruption = 0 # Увеличение corruption, когда Барди подсматривает под юбку Моники
 define monicaCleaningAddCorruptionPerCleaning = 1 #Увеличение corruption за одну уборку
+
 
 default persistent.pause_before_change_slide = False
 default persistent.auto_clipboard = False
@@ -35,11 +39,7 @@ default char_data = False
 
 define imagesSizesCache = {}
 
-label define_autorun:
-    $ print "autorun!"
-
-    $ define_version_current = define_version
-
+label characters_init:
     $ char_info = {
         "Monica":{"name": _("Бетти Робертс"), "enabled":True, "face":"Face_Betty", "style":"char_face_style1_red",  "bar_suffix": "red", "level":1, "current_progress":0, "caption": _("Бетти ждет что Моника будет регулярно убираться в доме."), "max_progress":100, "uplevel_label":"bettyProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
         "Beef":{"name": _("Биф"), "enabled":True, "face":"Face_Beef", "style":"char_face_style1_orange",  "bar_suffix": "orange", "level":1, "current_progress":0, "caption": _("Биф обещал взять Монику работать в офис."), "max_progress":100, "uplevel_label":"beefProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
@@ -67,6 +67,12 @@ label define_autorun:
     }
 
     $ char_progress_stored = {}
+    return
+
+label define_autorun:
+    $ print "autorun!"
+
+    $ define_version_current = define_version
 
 
 

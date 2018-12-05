@@ -1,6 +1,5 @@
 label bettyProgressLevelUp:
-    $ char_data["level"] = char_data["level"] + 1
-    $ char_data["enabled"] = False
+    call bettyProgressLevelUp1()
     return
 
 label bettyProgressForward:

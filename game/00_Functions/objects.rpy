@@ -27,7 +27,7 @@ init python:
                 obj_data["canvas_" + obj_prop_name] = canvas_offset
 
         if asset_found == False:
-            ui.text("Assets not found for " + name + "\nScene name: " + api_scene_name, size=40, xalign=0.5, yalign=0.5)
+            ui.text("Assets not found for " + name + "\nScene name: " + api_scene_name + "\n" + str(obj_base), size=40, xalign=0.5, yalign=0.5)
             renpy.pause()
         return obj_data
 

@@ -42,7 +42,7 @@ label monica_take_nap:
 label monica_gosleep1:
     #если Моника голодная
     if monicaEatedLastDay < day:
-        if day - monicaEatedLastDay >= 3:
+        if day - monicaEatedLastDay >= 3 and monicaCantSleepHungry == True:
             #если Моника не ела 3 дня
             $ autorun_to_object("basement_monica_hungry_cant_sleep")
             call refresh_scene_fade()
@@ -51,6 +51,7 @@ label monica_gosleep1:
             mt "Я сегодня ничего не ела! Лечь спать голодной?"
             menu:
                 "Лечь спать голодной.":
+                    call processHouseCleaningEvening()
                     if cloth != "Nude":
                         $ cloth_type = "Nude"
                         $ cloth = "GovernessPants"
@@ -61,6 +62,7 @@ label monica_gosleep1:
                     return False
     menu:
         "Лечь спать.":
+            call processHouseCleaningEvening()
             if cloth != "Nude":
                 $ cloth_type = "Nude"
                 $ cloth = "GovernessPants"

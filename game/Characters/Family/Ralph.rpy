@@ -9,14 +9,17 @@ label ralphInteract1:
         "Бетти неплохо выдрессировала его, надо отдать должное ей."
         "Но мужчины такими и должны быть."
         "Мы, женщины, выше мужчин и они должны это понимать!"
+        return
     if act == "t":
-        if ralphLocation == "LivingRoom":
-            if ralphStage == 1:
-                call ralphDialogue2()
-                return
-            if ralphStage == 0:
-                call ralphDialogue1()
-                return
+        if cloth_type != "Governess":
+            mt "Мне надо переодеться сначала."
+            "Не стоит портить впечатление у Ральфа."
+            if monicaBitch == True:
+                "Я не хочу оставаться один на один с этой сучкой Бетти."
+            else:
+                "Я не хочу оставаться один на один с Бетти."
+            return
+        call ralphDialogue1()
         call refresh_scene_fade()
         return
     return

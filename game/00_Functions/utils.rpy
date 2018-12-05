@@ -29,6 +29,15 @@ init python:
         renpy.show_screen("notify", str1)
         return
 
+    def notif_monica():
+        global monicaBitch
+        if monicaBitch:
+            renpy.show_screen("notify", _("Моника стерва"))
+        else:
+            renpy.show_screen("notify", _("Моника приличная"))
+
+        return
+
     def rand(from_int, to_int):
         return renpy.random.randint(from_int,to_int)
 

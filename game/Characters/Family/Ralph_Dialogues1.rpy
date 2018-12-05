@@ -1,14 +1,15 @@
 
 label ralphDialogue1:
-    if cloth != "Governess":
+    if cloth_type != "Governess":
         mt "Я не хочу разговаривать с ним в таком виде."
         "Мне надо переодеться!"
         return
     #render+
     #Ральф отвечает Монике в гостиной
     music Groove2_85
-    img 5804
-    with fade
+    if day_time == "day":
+        img 5804
+        with fade
 #    imgr Dial_Ralph_1
     ralph "Моника, ты что-то хотела?"
 #    imgl Dial_begin37_1
@@ -18,8 +19,13 @@ label ralphDialogue1:
     return
 
 label ralphDialogue2:
+    if act != "t":
+        return
+    if cloth_type != "Governess":
+        return
     $ ralphAskedAboutPayment = True
     #render
+    $ store_music()
     #Моника спрашивает у Ральфа про деньги. Гостиная
     music Groove2_85
     img 5805
@@ -117,7 +123,9 @@ label ralphDialogue2:
     mt "СВОЛОЧЬ!!!"
 
     $ remove_objective("ask_ralph")
+    $ restore_music()
+    $ remove_hook()
 
     call refresh_scene_fade()
 
-    return
+    return False
