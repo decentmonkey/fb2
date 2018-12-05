@@ -49,6 +49,9 @@ label basement_bedroom2_environment:
     if obj_name == "BasementBed":
         $ add_corruption(100, "place1")
         $ add_char_progress("Monica", 25, "progress1", duplicate=True)
+        $ cleaningLog = [True, True, False, True, True]
+        $ print "log"
+        $ print get_cleaning_status(3)
         return
         if act == "l":
             mt "Моя кровать..."

@@ -8,11 +8,9 @@ default scene_caption = ""
 default exitHookCalled = False
 
 label show_scene:
-    $ print "hereb"
     $ show_scene_loop_flag = False
     if scene_refresh_flag == False:
         jump show_scene_loop
-    $ print "herec"
     $ hide_screens_for_scene()
 #    if dialogue_active_flag == True:
 #        $ renpy.show_screen("dialogue_down_arrow")
@@ -38,7 +36,6 @@ label show_scene_now:
         $ scene_sound = False
     $ print "Bitchiness"
     $ print bitchmeterValue
-    $ print "hered"
     hide screen sprites_hover_dummy_screen
 
 #    window hide
@@ -106,7 +103,6 @@ label show_scene_now:
         show screen sprites_hover_dummy_screen()
         call expression autorunFunc
 #        hide screen sprites_hover_dummy_screen
-        $ print "herea"
         $ scene_refresh_flag = True
         jump show_scene
 

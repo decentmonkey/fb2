@@ -4,12 +4,13 @@ label floor1:
     call miniMapHouseGenerate()
 
     $ scene_image = "scene_Floor1[day_suffix]"
+
     return
 
 label floor1_init:
     $ monica_tint = [1.0, 1.0, 1.0]
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "Floor1_Monica_[cloth]", "click" : "floor1_environment", "actions" : "l", "zorder":10, "tint": monica_tint}, {"monicaCleaningInProgress":{"v":True, "base":"Floor1_Monica_[cloth]_Cleaning_[monicaCleaningObject]"}})
-    $ add_object_to_scene("Bardie", {"type" : 2, "base" : "Floor1_Bardie[day_suffix]", "click" : "bardieInteract1", "actions" : "lw", "zorder":10, "active":False}, {"monicaCleaningInProgress":{"v":True, "base":"Floor1_Bardie_Cleaning"}})
+    $ add_object_to_scene("Bardie", {"type" : 2, "base" : "Floor1_Bardie[day_suffix]", "click" : "bardieInteract1", "actions" : "lt", "zorder":12, "active":False, "icon_t":"/Icons/talk" + res.suffix +".png"}, {"monicaCleaningInProgress":{"v":True, "base":"Floor1_Bardie_Cleaning"}})
     $ add_object_to_scene("Ralph", {"type" : 2, "base" : "Floor1_Ralph[day_suffix]", "click" : "ralphInteract1", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png", "active":False})
 
     $ add_object_to_scene("Chandelier", {"type":2, "base":"Floor1_Chandelier", "click" : "floor1_environment", "actions" : "l", "zorder" : 1, "group":"environment"})
@@ -24,7 +25,7 @@ label floor1_init:
     $ add_object_to_scene("Teleport_LivingRoom", {"type":3, "text" : _("ГОСТИНАЯ"), "rarrow" : "arrow_right_2", "base":"empty", "click" : "floor1_teleport", "xpos" : 1594, "ypos" : 306, "zorder":9, "b":0.15, "tint":[1.0, 1.0, 0.9], "teleport":True})
 
     $ add_object_to_scene("Teleport_Floor1_Stairs", {"type":3, "text" : _("ЛЕСТНИЦА"), "larrow" : "arrow_left_2", "base":"Floor1_Stairs_Object", "click" : "floor1_teleport", "xpos" : 367, "ypos" : 219, "zorder":9, "b":0.15, "tint":[1.0, 1.0, 0.9], "teleport":True})
-    $ add_object_to_scene("Teleport_Kitchen", {"type":3, "text" : _("КУХНЯ"), "larrow" : "arrow_left_2", "base":"Floor1_Teleport_Kitchen", "click" : "floor1_teleport", "xpos" : 130, "ypos" : 758, "zorder":9, "b":0.2, "teleport":True, "high_sprite_hover":True})
+    $ add_object_to_scene("Teleport_Kitchen", {"type":3, "text" : _("КУХНЯ"), "larrow" : "arrow_left_2", "base":"Floor1_Teleport_Kitchen", "click" : "floor1_teleport", "xpos" : 130, "ypos" : 758, "zorder":15, "b":0.2, "teleport":True, "high_sprite_hover":True})
     $ add_object_to_scene("Teleport_Street", {"type":3, "text" : _("НА УЛИЦУ"), "rarrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "floor1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "high_sprite_hover": True, "teleport":True})
 
 #                            $ brightness_adjustment = 0.1

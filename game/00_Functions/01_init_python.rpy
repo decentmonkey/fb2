@@ -169,16 +169,18 @@ python early:
 
     def store_music():
         global storedMusic, currentMusic
-        storedMusic = currentMusic
+        storedMusic.insert(0, currentMusic)
         return
 
     def restore_music():
         global storedMusic, currentMusic
-        currentMusic = storedMusic
+        currentMusic = False
+        if len(storedMusic) > 0:
+            currentMusic = storedMusic.pop(0)
         if currentMusic == False:
             renpy.music.stop(channel='music', fadeout=1.0)
             return
-        checkPath = "Music/" + str(musicName) + ".ogg"
+        checkPath = "Music/" + str(currentMusic) + ".ogg"
         if renpy.loadable(checkPath):
             renpy.music.play(checkPath, channel="music", loop=True, fadeout=1.0, fadein=1.0)
         return

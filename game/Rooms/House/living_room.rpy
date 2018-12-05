@@ -1,15 +1,19 @@
+default livingRoomRalphIsHere = False
+
 label living_room:
     $ print "enter_living_room"
     $ miniMapData = []
     call miniMapHouseGenerate()
 
     $ scene_image = "scene_House_LivingRoom[day_suffix]"
+
+    $ livingRoomRalphIsHere = True if get_active_objects("Ralph") != False else False
     return
 
 label living_room_init:
 
     $ monica_tint = [1.0, 1.0, 1.0]
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_LivingRoom_Monica_[cloth][day_suffix]", "click" : "living_room_environment", "actions" : "l", "zorder":11, "tint": monica_tint}, {"ralphLocation":{"v":"living_room", "base" : "House_LivingRoom_Ralph_Monica_[cloth][day_suffix]"}, "monicaCleaningInProgress":{"v":True, "base":"House_LivingRoom_Monica_[cloth]_Cleaning_[monicaCleaningObject]"}})
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_LivingRoom_Monica_[cloth][day_suffix]", "click" : "living_room_environment", "actions" : "l", "zorder":11, "tint": monica_tint}, {"monicaCleaningInProgress":{"v":True, "base":"House_LivingRoom_Monica_[cloth]_Cleaning_[monicaCleaningObject]", "stop":True}, "livingRoomRalphIsHere":{"v":True, "base" : "House_LivingRoom_Ralph_Monica_[cloth][day_suffix]"}})
 
 #        $ scene_image = "scene_House_LivingRoom_Ralph_Monica_" + cloth + day_suffix
 #        $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_LivingRoom_Ralph_Monica_" + cloth + day_suffix, "click" : "living_room_environment", "actions" : "l", "zorder":10, "tint": monica_tint})

@@ -8,13 +8,22 @@ init python:
         for room_name in rooms_list:
             if scenes_data["objects"].has_key(room_name) == True:
                 stored_scene["objects"][room_name] = copy.deepcopy(scenes_data["objects"][room_name])
+            else:
+                stored_scene["objects"][room_name] = {}
             if scenes_data["hooks"].has_key(room_name) == True:
                 stored_scene["hooks"][room_name] = copy.deepcopy(scenes_data["hooks"][room_name])
+            else:
+                stored_scene["hooks"][room_name] = {}
             if scenes_data["substs"].has_key(room_name) == True:
                 stored_scene["substs"][room_name] = copy.deepcopy(scenes_data["substs"][room_name])
+            else:
+                stored_scene["substs"][room_name] = {}
             if scenes_data["autorun"].has_key(room_name) == True:
                 stored_scene["autorun"][room_name] = copy.deepcopy(scenes_data["autorun"][room_name])
+            else:
+                stored_scene["autorun"][room_name] = {}
             stored_scene["rooms_list"].append(room_name)
+#        scenes_data["temp"] = stored_scene
         return stored_scene
 
     def restore_scene(stored_scene_data): #восстановить сцену из переменной

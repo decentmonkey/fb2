@@ -74,6 +74,8 @@ init python:
 #                    obj_data = obj_data["conditions"][var1].update(obj_data)
                     for var2 in obj_data["conditions"][var1]:
                         obj_data[var2] = obj_data["conditions"][var1][var2]
+                    if obj_data["conditions"][var1].has_key("stop") and obj_data["conditions"][var1]["stop"] == True:
+                        break
         obj_data.pop("conditions", None)
         for var1 in obj_data: #парсим переменные в свойствах
             if isinstance(obj_data[var1], basestring) == True:
@@ -184,14 +186,20 @@ init python:
         kwargs.pop("recursive", None)
         return_objects_list = []
         for room_name in rooms_list:
-            if obj_name != False:
+            if obj_name != False and len(rooms_list) == 1:
                 if scenes_data["objects"].has_key(room_name) == True and scenes_data["objects"][room_name].has_key(obj_name) == True and scenes_data["objects"][room_name][obj_name]["active"] == True:
                     return_objects_list.append(scenes_data["objects"][room_name][obj_name])
             else:
-                if scenes_data["objects"].has_key(room_name) == True:
-                    for obj1 in scenes_data["objects"][room_name]:
-                        if check_filter(kwargs, scenes_data["objects"][room_name][obj1]) == True:
-                            return_objects_list.append([scenes_data["objects"][room_name][obj1], obj1, room_name])
+                if obj_name == False:
+                    if scenes_data["objects"].has_key(room_name) == True:
+                        for obj1 in scenes_data["objects"][room_name]:
+                            if check_filter(kwargs, scenes_data["objects"][room_name][obj1]) == True:
+                                return_objects_list.append([scenes_data["objects"][room_name][obj1], obj1, room_name])
+                else:
+                    if scenes_data["objects"].has_key(room_name) == True and scenes_data["objects"][room_name].has_key(obj_name) == True:
+                        if check_filter(kwargs, scenes_data["objects"][room_name][obj_name]) == True:
+                            return_objects_list.append([scenes_data["objects"][room_name][obj_name], obj_name, room_name])
+
         if len(return_objects_list) > 0:
             return return_objects_list
         return False

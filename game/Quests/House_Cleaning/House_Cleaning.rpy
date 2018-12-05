@@ -1,4 +1,5 @@
 default houseCleaningStoredScene = False
+default cleaningLog = []
 
 label house_cleaning:
     # хук проверки на начало уборки
@@ -18,12 +19,12 @@ label house_cleaning:
 
 label house_cleaning_start:
     # старт уборки
+    $ miniMapEnabledOnly = ["none"]
     $ houseCleaningStoredScene = store_scene("House", recursive=True)
     $ monicaCleaningInProgress = True
     $ monicaCleaningObject = ""
-    call process_hooks("monica_cleaning_start", "global")
-
-    $ rooms_clean_list = ["floor2", "floor1", "bedroom_bardie", "bedroom_second", "living_room", "bedroom1"]
+    $ rooms_clean_list = ["floor2", "floor1", "bedroom_bardie", "bedroom_second", "living_room", "bedroom2"]
+#    $ rooms_clean_list = ["floor1", "living_room"]
     $ rooms_dirty = random.sample(set(rooms_clean_list), monicaCleaningRoomsAmount)
     $ shuffle(rooms_dirty)
 
@@ -32,21 +33,26 @@ label house_cleaning_start:
         $ rooms_dirty.pop(idx1)
         $ rooms_dirty.insert(0, scene_name)
 
-    if "bedroom1" in rooms_dirty:
-        $ rooms_dirty.insert(rooms_dirty.index("bedroom1"), "bedroom2")
+    if "bedroom2" in rooms_dirty:
+        $ rooms_dirty.insert(rooms_dirty.index("bedroom2"), "bedroom1")
+
 
     $ store_music()
     music Sugar_plum
 
 
+    call house_cleaning_start3()
 
-    $ autorun_to_object("house_cleaning_start2")
-    call refresh_scene_fade()
+    call process_hooks("monica_cleaning_start", "global")
+
+    $ autorun_to_object("start_cleaning_dialogue1a", scene=rooms_dirty[0])
+    call change_scene(rooms_dirty[0])
+#    call refresh_scene_fade()
     return
 
-label house_cleaning_start2:
-    call start_cleaning_dialogue1a()
-    return
+#label house_cleaning_start2:
+#    call start_cleaning_dialogue1a()
+#    return
 
 label house_cleaning_start3:
     #создаем среду для уборки
@@ -54,6 +60,7 @@ label house_cleaning_start3:
         set_active(False, group="environment", scene="House", recursive=True)
         set_active(True, cleaning_group=True, scene="House", recursive=True)
 
+    # Вешаем комментарии при входе на грязные сцены
     python:
         flag1 = False
         for room_name in rooms_dirty:
@@ -64,23 +71,35 @@ label house_cleaning_start3:
                 autorun_to_object("start_cleaning_dialogue1b", scene=room_name)
 
 
+    # Вешаем хуки на запрет телепортов
+
     python:
         for room_name in rooms_dirty:
             objects = get_active_objects(scene="House", recursive=True, teleport=True)
             if objects != False:
                 for obj1 in objects:
-                    print "hook"
-                    print obj1[1]
-                    print obj1[2]
                     add_hook(obj1[1], "cleaning_monica_goout1", scene=obj1[2])
 
-    # переделать на фильтр!
-
+    # Вешаем хуки на грязные предметы
     python:
         objects = get_active_objects(scene="House", recursive=True, cleaning_group=True)
         if objects != False:
             for obj1 in objects:
                 add_hook(obj1[1], "house_cleaning_clean_object", scene=obj1[2])
+
+    # Вешаем хук на Барди
+    python:
+        objects = get_active_objects("Bardie", scene="House", recursive=True)
+        if objects != False:
+            for obj1 in objects:
+                add_hook(obj1[1], "bardieMonicaCleaningInteract", scene=obj1[2])
+
+    # Вешаем хук на Монику
+    python:
+        objects = get_active_objects("Monica", scene="House", recursive=True)
+        if objects != False:
+            for obj1 in objects:
+                add_hook(obj1[1], "cleaning_monica_comment", scene=obj1[2])
 
 #    $ add_hook("Carpet", "house_cleaning_clean_object", scene="floor2")
 #    $ add_hook("Sofa", "house_cleaning_clean_object", scene="floor2")
@@ -117,6 +136,10 @@ label house_cleaning_end2:
     call process_hooks("monica_cleaning_end", "global")
     $ restore_music()
     $ monicaLastCleaningCompletedDay = day
+    $ add_cleaning(True)
+    $ add_char_progress("Betty", 5, "cleaning_day " + str(day))
+    $ miniMapEnabledOnly = []
+
     call refresh_scene_fade()
     return
 
@@ -138,12 +161,17 @@ label house_cleaning_clean_object:
 
 label house_cleaning_room_finished:
     $ monicaCleaningObject = ""
-    mt "Кажется все."
-    if len(rooms_dirty) > 0:
-        $ monicaCleaningObject = ""
-        $ autorun_to_object("house_cleaning_room_finished2")
-        call refresh_scene("Dissolve_fast")
+    if scene_name == "bedroom1":
+        mt "Здесь все, теперь другую сторону."
+        call change_scene(rooms_dirty.pop(0))
         return False
+    else:
+        mt "Кажется все."
+        if len(rooms_dirty) > 0:
+            $ monicaCleaningObject = ""
+            $ autorun_to_object("house_cleaning_room_finished2")
+            call refresh_scene("Dissolve_fast")
+            return False
 
     call house_cleaning_end()
     return False
@@ -171,11 +199,11 @@ label start_cleaning_dialogue1a:
             if obj1 == "bedroom1":
                 renpy.say(mt, "Мою бывшую спальню.")
 
-    call house_cleaning_start3()
-    if rooms_dirty[0] != scene_name:
-        call change_scene(rooms_dirty.pop(0))
-    else:
-        call refresh_scene()
+    $ rooms_dirty.pop(0)
+    call start_cleaning_dialogue1()
+#    if rooms_dirty[0] != scene_name:
+#    else:
+#        call refresh_scene()
 
     return
 label start_cleaning_dialogue1:
@@ -185,6 +213,7 @@ label start_cleaning_dialogue1:
         return
     mt "Начну уборку отсюда."
     if get_active_objects("Bardie") != False:
+        mt "!!!"
         mt "Снова здесь этот Барди!"
         "Догадываюсь зачем..."
         "Ненавижу эту малявку!"
@@ -195,13 +224,14 @@ label start_cleaning_dialogue1b:
         "Но ничего! Скоро она будет снова моя! Клянусь!"
         return
     if get_active_objects("Bardie") != False:
+        mt "!!!"
         mt "Снова здесь этот Барди!"
         "Догадываюсь зачем..."
         "Ненавижу эту малявку!"
     return
 label start_cleaning_dialogue2:
     $ next_room = rooms_dirty[0]
-    if scene_name == "bedroom2" and next_room == "bedroom1":
+    if scene_name == "bedroom1" and next_room == "bedroom2":
         pass
     else:
         if scene_name == "floor2":

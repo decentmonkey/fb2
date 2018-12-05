@@ -452,13 +452,18 @@ label cleaning_bardie_comment1:
     #render+
     #иногда Барди появляется в комнате, где убирается Моника
     #комнаты floor1 (если нет Ральфа)
+    $ store_music()
+    music Marty_Gots_a_Plan
     img 6030
     w
     img 6031
     w
+    sound Jump2
     img 6032
     bardie "Моника! Покажи трусики!"
+    music Pyro_Flow
     img 6033
+    with fade
     m "Как ты себе позволяешь общаться со старшими?!"
     img 6034
     bardie "Ты гувернантка! Я твой хозяин!"
@@ -467,14 +472,18 @@ label cleaning_bardie_comment1:
     img 6036
     m "Здесь хозяин Мистер Ральф, а не ты, малявка!"
     "Исчезни, пока я тебя не прибила прямо здесь и сейчас!"
+    music Marty_Gots_a_Plan
     img 6037
     bardie "Ах ты так!"
     bardie_t "Ну она у меня попляшет!"
+    $ restore_music()
     return
 
 label cleaning_bardie_comment2:
     #render+
     #когда Моника убирает у Барди в комнате
+    $ store_music()
+    music Marty_Gots_a_Plan
     img 6038
     w
     img 6040
@@ -482,21 +491,27 @@ label cleaning_bardie_comment2:
     img 6039
     w
     bardie "Моника! Убирайся в комнате хозяина как следует!"
+    music Pyro_Flow
     img 6041
+    with fade
     m "Ты здесь не хозяин, малявка!"
     img 6042
     bardie "Если ты мне покажешь трусики, то я разрешу тебе не убирать здесь."
     img 6043
     m "Нет уж! Я ни за что этого не сделаю!"
     "Лучше исчезни!"
+    music Marty_Gots_a_Plan
     img 6044
     bardie "Ах ты так!"
     bardie_t "Ну она у меня попляшет!"
+    $ restore_music()
     return
 
 label cleaning_bardie_comment3:
     #render+
     #когда Моника убирает в bedroom_second
+    $ store_music()
+    music Marty_Gots_a_Plan
     img 6045
     w
     img 6047
@@ -505,11 +520,14 @@ label cleaning_bardie_comment3:
     w
     img 6048
     w
+    sound Jump2
     img 6049
     w
     img 6050
     bardie "Моника! Покажи трусики!"
+    music Pyro_Flow
     img 6051
+    with fade
     m "Как ты себе позволяешь общаться со старшими?!"
     img 6052
     bardie "Ты гувернантка! Я твой хозяин!"
@@ -519,8 +537,10 @@ label cleaning_bardie_comment3:
     m "Здесь хозяин Мистер Ральф, а не ты, малявка!"
     "Исчезни, пока я тебя не прибила прямо здесь и сейчас!"
     img 6055
+    music Marty_Gots_a_Plan
     bardie "Ах ты так!"
     bardie_t "Ну она у меня попляшет!"
+    $ restore_music()
     return
 
 label cleaning_monica_goout1:
@@ -541,7 +561,7 @@ label cleaning_monica_finished1:
 label cleaning_monica_comment:
     mt "Ненавижу убираться!!!"
     "Я королева и мне нельзя заниматься такой работой!"
-    return
+    return False
 
 #Барди находится либо во дворе (днем), либо у себя в комнате или у лестницы (вечером)
 label bardie_comment4:
