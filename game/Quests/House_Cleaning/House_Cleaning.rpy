@@ -3,10 +3,15 @@ default cleaningLog = []
 
 label house_cleaning:
     # хук проверки на начало уборки
+    if day_time != "day":
+        return
+    if cloth_type != "Governess":
+        return
     if monicaCleaningInProgress == True:
         return
     if monicaLastCleaningOfferedDay == day:
         return
+
 
     $ monicaLastCleaningOfferedDay = day
     menu:
@@ -137,7 +142,8 @@ label house_cleaning_end2:
     $ restore_music()
     $ monicaLastCleaningCompletedDay = day
     $ add_cleaning(True)
-    $ add_char_progress("Betty", 5, "cleaning_day " + str(day))
+    if get_cleaning_status(3) == True:
+        $ add_char_progress("Betty", 5, "cleaning_day " + str(day))
     $ miniMapEnabledOnly = []
 
     call refresh_scene_fade()

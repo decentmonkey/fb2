@@ -35,6 +35,7 @@ label bardieMonicaCleaningInteract:
             call cleaning_bardie_comment3()
         $ move_object("Bardie", "empty")
         $ monicaCleaningObject = "" # Ставим Монику в исходное положение стоя
+        $ add_char_progress("Bardie", 15, "cleaning_upskirt_day " + str(day))
         call refresh_scene_fade()
         return False
     return
