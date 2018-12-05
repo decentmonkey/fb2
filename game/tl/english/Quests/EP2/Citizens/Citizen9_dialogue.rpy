@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-04 18:51
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:4
 translate english citizen9_dialogue_b8f1bd99:
@@ -18,7 +18,7 @@ translate english citizen9_dialogue_3d347aff:
     # citizen9 "А? Да?"
     # "Что?"
     citizen9 "А? Да?"
-    "Что?"
+    "What?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:15
 translate english citizen9_dialogue_bb6e048a:
@@ -45,11 +45,11 @@ translate english citizen9_dialogue_dc8a0f13:
     # citizen9 "Флаер? Ладно. Как насчет потрогать сиську еще раз?"
     # m "Нет!"
     # mt "Идиот."
-    m "Вот."
+    m "Well."
     citizen9 "Отлично. Узнаю старину Джека. Отличная вещь. Хочешь?"
     m "Нет, спасибо. Вот, возьми еще флаер."
     citizen9 "Флаер? Ладно. Как насчет потрогать сиську еще раз?"
-    m "Нет!"
+    m "No!"
     mt "Идиот."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:35
@@ -72,7 +72,7 @@ translate english citizen9_dialogue_9e64e4cf:
     # "Хорошо..."
     citizen9 "А? Что?"
     "Флаер?"
-    "Хорошо..."
+    "Good..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:51
 translate english citizen9_dialogue_a033e3ba:

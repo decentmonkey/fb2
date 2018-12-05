@@ -10,6 +10,8 @@ init python:
             del kwargs["scene"]
         else:
             room_name = api_scene_name
+        if len(args) >= 3:
+            room_name = args[2]
 
         hook_data = {"hook_label":hook_label}
         for var1, value1 in kwargs.items():
@@ -49,7 +51,10 @@ init python:
                 rooms_list = [kwargs["scene"]]
             del kwargs["scene"]
         else:
-            rooms_list = [api_scene_name]
+            if len(args) > 0:
+                rooms_list = [api_scene_name]
+            else:
+                rooms_list = list(scenes_data["hooks"].keys())
         if kwargs.has_key("recursive") == True and kwargs["recursive"] == True:
             rooms_list = get_rooms_recursive(rooms_list[0])
         kwargs.pop("recursive", None)
@@ -61,7 +66,7 @@ init python:
             obj_name = False
             hook_label = args[0]
         if len(args) == 0: #() удаление текущего хука, либо удаление хука по фильтру
-            if len(kwargs) > 0:
+            if len(kwargs) > 0: #удаление всех хуков на сцене по фильтру
                 flag1 = False
                 filter_arr = {}
                 for var1, value1 in kwargs.items():

@@ -1,3 +1,6 @@
+default monicaEatedLastDay = 0
+default monicaEatedLastDayTime = "day"
+
 default monicaCleaningRoomsAmount = 2
 default monicaCleaningInProgress = False
 default monicaCleaningObject = ""

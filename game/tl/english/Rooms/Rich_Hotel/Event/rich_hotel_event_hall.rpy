@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-04 18:51
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:55
 translate english rich_hotel_event_hall_environment_e53dfcf1:
@@ -119,8 +119,8 @@ translate english rich_hotel_event_hall_environment_c8ebb783:
 
     # mt "Мелани?! Здесь?!"
     # "А почему не Я?!"
-    mt "Мелани?! Здесь?!"
-    "А почему не Я?!"
+    mt "Melanie?! Here?!"
+    "Why not Me?!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:122
 translate english rich_hotel_event_hall_environment_5a2e00d7:

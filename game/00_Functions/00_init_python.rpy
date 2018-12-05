@@ -17,6 +17,13 @@ python early:
     list_files_scene_drop_flag = False
     last_renpy_files_list_crc = 0
 
+    def missing_filename_callback(image):
+        global episode
+        if episode == 1:
+#            emptyFileName = get_image_filename("empty.png")
+            return im.Image("images/icons/empty.png")
+        return False
+
     def refresh_list_files():
         global list_files
         global list_files_dict, list_files_parsed, list_files_scene_drop_flag, last_renpy_files_list_crc
@@ -33,6 +40,17 @@ python early:
             last_renpy_files_list_crc = crc
         else:
             list_files = renpy.list_files()
+
+        for filename in list_files:
+            baseName = os.path.basename(os.path.splitext(filename)[0]).lower()
+            list_files_dict[baseName] = filename
+        list_files_parsed = True
+        list_files_scene_drop_flag = True
+        return
+
+    def refresh_list_files_forced():
+        global list_files
+        global list_files_dict, list_files_parsed, list_files_scene_drop_flag, last_renpy_files_list_crc
 
         for filename in list_files:
             baseName = os.path.basename(os.path.splitext(filename)[0]).lower()

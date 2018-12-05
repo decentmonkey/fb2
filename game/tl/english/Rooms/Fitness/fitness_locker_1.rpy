@@ -1,12 +1,12 @@
-﻿# TODO: Translation updated at 2018-11-29 14:08
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
-# game/Rooms/Fitness/fitness_locker_1.rpy:39
+# game/Rooms/Fitness/fitness_locker_1.rpy:38
 translate english fitness_locker_1_environment_9c327102:
 
     # mt "Скамейки в раздевалке. Не знаю, может быть на них что-то и удобно делать, но точно не переодеваться!"
     mt "Locker room benches. I do not know, maybe there was something convenient to do here, but just not to change my clothes!"
 
-# game/Rooms/Fitness/fitness_locker_1.rpy:43
+# game/Rooms/Fitness/fitness_locker_1.rpy:42
 translate english fitness_locker_1_environment_de56c890:
 
     # mt "Это Стефани. Моя подружка."
@@ -16,13 +16,13 @@ translate english fitness_locker_1_environment_de56c890:
     "She has very rich and powerful parents. That's why I let her be my friend."
     "But she's too obsessed with men, I think."
 
-# game/Rooms/Fitness/fitness_locker_1.rpy:53
+# game/Rooms/Fitness/fitness_locker_1.rpy:52
 translate english fitness_locker_1_environment_0b1b40cf:
 
     # mt "Это Ребекка. Они слишком любит деньги и тех кто ими обладает. Но она часто льстит мне, потому я держу ее рядом со мной."
     mt "It's Rebecca. She is too fond of money and those who possessed them. But she often flatters me, so I held her close to me."
 
-# game/Rooms/Fitness/fitness_locker_1.rpy:61
+# game/Rooms/Fitness/fitness_locker_1.rpy:60
 translate english fitness_locker_1_environment_46f1c2f6:
 
     # mt "Шкафчики для переодевания. Один из них мой."
@@ -30,11 +30,11 @@ translate english fitness_locker_1_environment_46f1c2f6:
 
 translate english strings:
 
-    # Rooms/Fitness/fitness_locker_1.rpy:18
+    # Rooms/Fitness/fitness_locker_1.rpy:17
     old "ШКАФЧИКИ ДЛЯ ПЕРЕОДЕВАНИЯ"
     new "Lockers"
 
-    # Rooms/Fitness/fitness_locker_1.rpy:19
+    # Rooms/Fitness/fitness_locker_1.rpy:18
     old "НАЗАД В ЗАЛ"
     new "BACK TO THE HALL"
 

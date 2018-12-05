@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-04 18:51
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_tables.rpy:44
 translate english rich_hotel_event_tables_environment_73489c5c:
@@ -9,7 +9,7 @@ translate english rich_hotel_event_tables_environment_73489c5c:
     # "Это безумие!"
     # "Ведь у меня есть другой выход?!?! Или нет??..."
     mt "Вот мерзавец!"
-    "Что же мне делать?"
+    "What should I do?"
     "Я ведь не буду соглашаться на его предложение, так ведь?!?!"
     "Это безумие!"
     "Ведь у меня есть другой выход?!?! Или нет??..."
@@ -23,7 +23,7 @@ translate english rich_hotel_event_tables_environment_bfee702e:
     # "Это безумие!"
     # "Ведь у меня есть другой выход?!?! Или нет??..."
     mt "Я не могу поверить в то что этот мерзавец сказал мне только что!!!"
-    "Что же мне делать?"
+    "What should I do?"
     "Я ведь не буду соглашаться на его предложение, так ведь?!?!"
     "Это безумие!"
     "Ведь у меня есть другой выход?!?! Или нет??..."

@@ -67,7 +67,7 @@ label rich_hotel_event_scene_environment:
         "Но нет, это не выход из положения..."
         return
     if obj_name == "Flower1" or obj_name == "Flower2":
-        mt "Это место так украшена цветами..."
+        mt "Это место так украшено цветами..."
         return
     if obj_name == "Lamp":
         mt "Милый светильник."

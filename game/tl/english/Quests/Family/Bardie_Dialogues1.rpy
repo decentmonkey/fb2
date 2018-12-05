@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-11-29 14:08
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 # game/Quests/Family/Bardie_Dialogues1.rpy:3
 translate english bardieDialogue1_876a775e:

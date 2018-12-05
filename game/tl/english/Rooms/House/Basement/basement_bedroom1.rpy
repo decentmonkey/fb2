@@ -1,12 +1,6 @@
-﻿# TODO: Translation updated at 2018-11-29 14:08
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
-# game/Rooms/House/Basement/basement_bedroom1.rpy:36
-translate english basement_bedroom1_teleport_93507b9b:
-
-    # mt "У меня нет сил идти никуда..."
-    mt "I don't have the strength to go anywhere..."
-
-# game/Rooms/House/Basement/basement_bedroom1.rpy:48
+# game/Rooms/House/Basement/basement_bedroom1.rpy:44
 translate english basement_bedroom1_environment_8b1d5d88:
 
     # mt "В этот старый шкаф можно повесить одежду..."
@@ -14,19 +8,25 @@ translate english basement_bedroom1_environment_8b1d5d88:
     mt "In this old wardrobe, I can hang clothes..."
     "If you can call it clothes..."
 
-# game/Rooms/House/Basement/basement_bedroom1.rpy:56
-translate english basement_bedroom1_environment_908b85cf:
+# game/Rooms/House/Basement/basement_bedroom1.rpy:52
+translate english basement_bedroom1_environment_4c19961a:
 
-    # mt "Видимо это и есть место где я теперь буду спать..."
-    mt "I guess this is where I'm gonna sleep now..."
+    # mt "Здесь я теперь сплю..."
+    # "(хмык)"
+    # "Но это временно!!!"
+    # "Это какое-то недоразуменее, которое скоро разрешится!"
+    mt "Здесь я теперь сплю..."
+    "(sob)"
+    "But it's only temporary!!!"
+    "Это какое-то недоразуменее, которое скоро разрешится!"
 
-# game/Rooms/House/Basement/basement_bedroom1.rpy:60
+# game/Rooms/House/Basement/basement_bedroom1.rpy:59
 translate english basement_bedroom1_environment_0beb8f0a:
 
     # mt "Старый шкаф..."
     mt "Old cabinet..."
 
-# game/Rooms/House/Basement/basement_bedroom1.rpy:67
+# game/Rooms/House/Basement/basement_bedroom1.rpy:66
 translate english basement_bedroom1_environment_dbe585da:
 
     # mt "Живопись..."
@@ -38,7 +38,7 @@ translate english basement_bedroom1_environment_dbe585da:
     "Was she trying to be like me?"
     "..."
 
-# game/Rooms/House/Basement/basement_bedroom1.rpy:73
+# game/Rooms/House/Basement/basement_bedroom1.rpy:72
 translate english basement_bedroom1_environment_cab17d2a:
 
     # mt "Этот старый яркий пестрый стол пытается скрасить уныние этой каморки..."
@@ -48,29 +48,11 @@ translate english basement_bedroom1_environment_cab17d2a:
 
 translate english strings:
 
-    # Rooms/House/Basement/basement_bedroom1.rpy:11
-    old "BASEMENT"
-    new "BASEMENT"
-
-    # Rooms/House/Basement/basement_bedroom1.rpy:28
+    # Rooms/House/Basement/basement_bedroom1.rpy:27
     old "КОРИДОР"
     new "CORRIDOR"
 
-    # Rooms/House/Basement/basement_bedroom1.rpy:29
+    # Rooms/House/Basement/basement_bedroom1.rpy:28
     old "КРОВАТЬ"
     new "BED"
-
-# TODO: Translation updated at 2018-12-04 18:51
-
-# game/Rooms/House/Basement/basement_bedroom1.rpy:52
-translate english basement_bedroom1_environment_4c19961a:
-
-    # mt "Здесь я теперь сплю..."
-    # "(хмык)"
-    # "Но это временно!!!"
-    # "Это какое-то недоразуменее, которое скоро разрешится!"
-    mt "Здесь я теперь сплю..."
-    "(хмык)"
-    "Но это временно!!!"
-    "Это какое-то недоразуменее, которое скоро разрешится!"
 

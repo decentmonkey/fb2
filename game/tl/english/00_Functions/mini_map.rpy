@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-11-29 14:08
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 translate english strings:
 
@@ -22,11 +22,11 @@ translate english strings:
     old "Kitchen"
     new "Kitchen"
 
-    # 00_Functions/mini_map.rpy:29
-    old "Basement"
-    new "Basement"
-
     # 00_Functions/mini_map.rpy:30
     old "Street Yard"
     new "Street Yard"
+
+    # 00_Functions/mini_map.rpy:31
+    old "Basement"
+    new "Basement"
 

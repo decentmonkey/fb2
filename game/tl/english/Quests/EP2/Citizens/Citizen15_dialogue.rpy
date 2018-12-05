@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-04 18:51
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:4
 translate english citizen15_dialogue_b8f1bd99:
@@ -34,7 +34,7 @@ translate english citizen15_dialogue_b57d7b0b:
 translate english citizen15_dialogue_59b1e0ad:
 
     # "Давай!"
-    "Давай!"
+    "Come on!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:22
 translate english citizen15_dialogue_loop1_4dded6da:
@@ -44,7 +44,7 @@ translate english citizen15_dialogue_loop1_4dded6da:
     # citizen15 "Я важная персона! Все девочки тащатся от меня!"
     # "Продолжай подкатывать ко мне! Мне нравится!"
     citizen15 "А что дальше?"
-    m "В смысле?"
+    m "What do you mean?"
     citizen15 "Я важная персона! Все девочки тащатся от меня!"
     "Продолжай подкатывать ко мне! Мне нравится!"
 

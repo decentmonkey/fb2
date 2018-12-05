@@ -1,12 +1,8 @@
-﻿# TODO: Translation updated at 2018-11-29 14:08
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 translate english strings:
 
-    # Rooms/House/Bathroom/bathroom_shower.rpy:7
-    old "Bathroom Shower"
-    new "Bathroom Shower"
-
-    # Rooms/House/Bathroom/bathroom_shower.rpy:17
+    # Rooms/House/Bathroom/bathroom_shower.rpy:16
     old "ВАННА"
     new "Bathroom"
 

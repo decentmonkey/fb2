@@ -1,84 +1,18 @@
-﻿# TODO: Translation updated at 2018-11-29 14:08
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:51
-translate english dick_office_cabinet_teleport_44bd22af:
+# game/Rooms/Dick_Office/dick_office_cabinet.rpy:42
+translate english dick_office_cabinet_environment_a295a245:
 
-    # mt "Я не уйду, пока не дождусь помощи от Дика!"
-    mt "I'm not leaving until I get help from Dick!"
-
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:57
-translate english dick_office_cabinet_environment_fb895596:
-
-    # m "КТО Я????"
-    m "WHO AM I????"
-
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:60
-translate english dick_office_cabinet_environment_c34e2469:
-
-    # mt "Что это за мелкая сучка завелась у Дика?"
-    mt "Who's that little bitch at Dick's?"
-
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:63
-translate english dick_office_cabinet_environment_05c825fb:
-
-    # mt "Ведь переночевать у Дика это не проблема, Правда?"
-    mt "It's not a problem staying with Dick, is it?"
-
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:66
-translate english dick_office_cabinet_environment_912db232:
-
-    # mt "О НЕТ!!!!!"
     # "Я не верю в то что происходит!!!"
-    mt "OH NO!!!!!"
     "I don't believe this is happening!!!"
 
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:70
-translate english dick_office_cabinet_environment_f678ecea:
-
-    # mt "Наконец-то я добралась до Дика!"
-    mt "I finally got to Dick!"
-
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:74
-translate english dick_office_cabinet_environment_fb895596_1:
-
-    # m "КТО Я????"
-    m "WHO AM I????"
-
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:77
-translate english dick_office_cabinet_environment_c34e2469_1:
-
-    # mt "Что это за мелкая сучка завелась у Дика?"
-    mt "Who's that little bitch at Dick's?"
-
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:80
-translate english dick_office_cabinet_environment_05c825fb_1:
-
-    # mt "Ведь переночевать у Дика это не проблема, Правда?"
-    mt "It's not a problem staying with Dick, is it?"
-
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:83
-translate english dick_office_cabinet_environment_912db232_1:
-
-    # mt "О НЕТ!!!!!"
-    # "Я не верю в то что происходит!!!"
-    mt "OH NO!!!!!"
-    "I don't believe this is happening!!!"
-
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:86
-translate english dick_office_cabinet_environment_23d27a05:
+# game/Rooms/Dick_Office/dick_office_cabinet.rpy:46
+translate english dick_office_cabinet_environment_93e4e7c0:
 
     # mt "Вот он! Жирный ублюдок, за которым я столько бегала!"
-    # "Я!!!"
     mt "There he is! The fat bastard I've been chasing!"
-    "I!!!"
 
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:109
-translate english dick_office_cabinet_environment_c34e2469_2:
-
-    # mt "Что это за мелкая сучка завелась у Дика?"
-    mt "Who's that little bitch at Dick's?"
-
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:117
+# game/Rooms/Dick_Office/dick_office_cabinet.rpy:52
 translate english dick_office_cabinet_environment_84ed6bc3:
 
     # mt "Умные юридические книжки."
@@ -88,7 +22,7 @@ translate english dick_office_cabinet_environment_84ed6bc3:
     "Dick's immersed himself."
     "I hope they will be good for my business. Otherwise, they are of no use!"
 
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:123
+# game/Rooms/Dick_Office/dick_office_cabinet.rpy:58
 translate english dick_office_cabinet_environment_01eea9a8:
 
     # mt "Что это такое? Это ведь не Дик?"
@@ -98,7 +32,7 @@ translate english dick_office_cabinet_environment_01eea9a8:
     "Maybe that's who he's trying to be."
     "He is far from it!"
 
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:127
+# game/Rooms/Dick_Office/dick_office_cabinet.rpy:62
 translate english dick_office_cabinet_environment_399e1442:
 
     # mt "Здесь столько стульев!"
@@ -106,7 +40,7 @@ translate english dick_office_cabinet_environment_399e1442:
     mt "There are so many chairs!"
     "Dick could have offered me one!"
 
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:130
+# game/Rooms/Dick_Office/dick_office_cabinet.rpy:65
 translate english dick_office_cabinet_environment_5041bc79:
 
     # mt "Вазы, цвет..."
@@ -116,13 +50,13 @@ translate english dick_office_cabinet_environment_5041bc79:
     "Where is this coming from?"
     "Clearly someone's female hand..."
 
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:134
+# game/Rooms/Dick_Office/dick_office_cabinet.rpy:69
 translate english dick_office_cabinet_environment_bd7c4edd:
 
     # mt "Что это?"
     mt "What is that?"
 
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:140
+# game/Rooms/Dick_Office/dick_office_cabinet.rpy:75
 translate english dick_office_cabinet_environment_3be0e16d:
 
     # mt "ЧТО????"
@@ -132,25 +66,7 @@ translate english dick_office_cabinet_environment_3be0e16d:
 
 translate english strings:
 
-    # Rooms/Dick_Office/dick_office_cabinet.rpy:8
-    old "Dick's Cabinet"
-    new "Dick's Cabinet"
-
-    # Rooms/Dick_Office/dick_office_cabinet.rpy:41
+    # Rooms/Dick_Office/dick_office_cabinet.rpy:28
     old "СЕКРЕТАРЬ"
     new "SECRETARY"
-
-# TODO: Translation updated at 2018-12-04 18:51
-
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:42
-translate english dick_office_cabinet_environment_a295a245:
-
-    # "Я не верю в то что происходит!!!"
-    "Я не верю в то что происходит!!!"
-
-# game/Rooms/Dick_Office/dick_office_cabinet.rpy:46
-translate english dick_office_cabinet_environment_93e4e7c0:
-
-    # mt "Вот он! Жирный ублюдок, за которым я столько бегала!"
-    mt "Вот он! Жирный ублюдок, за которым я столько бегала!"
 

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-04 18:51
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 # game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:4
 translate english citizen10_dialogue_b8f1bd99:
@@ -49,6 +49,10 @@ translate english strings:
     # Quests/EP2/Citizens/Citizen10_dialogue.rpy:2
     old "Можно к Вам обратиться?"
     new ""
+
+    # Quests/EP2/Citizens/Citizen10_dialogue.rpy:2
+    old "Уйти."
+    new "Leave."
 
     # Quests/EP2/Citizens/Citizen10_dialogue.rpy:12
     old "Возьмите, пожалуйста, этот флаер..."

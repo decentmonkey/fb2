@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-04 18:51
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:23
 translate english citizens_dialogue_079708da:
@@ -58,7 +58,7 @@ translate english citizens_dialogue_1b3c14b3:
     # mt "Сразу видно, что наркоман. Ему тут самое место."
     # "Фи!"
     mt "Сразу видно, что наркоман. Ему тут самое место."
-    "Фи!"
+    "Phi!"
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:73
 translate english citizens_dialogue_c3a48b7a:

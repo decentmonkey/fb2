@@ -1,6 +1,6 @@
-﻿# TODO: Translation updated at 2018-11-29 14:08
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
-# game/Rooms/House/bedroom_bardie.rpy:45
+# game/Rooms/House/bedroom_bardie.rpy:41
 translate english bedroom_bardie_environment_5f0c394b:
 
     # mt "Раньше здесь была моя гардеробная."
@@ -8,19 +8,19 @@ translate english bedroom_bardie_environment_5f0c394b:
     mt "This used to be my walk-in closet."
     "They made my closet look like the dork's room!!!"
 
-# game/Rooms/House/bedroom_bardie.rpy:50
+# game/Rooms/House/bedroom_bardie.rpy:46
 translate english bedroom_bardie_environment_14c17054:
 
     # mt "Этот оболтус разбрасывает вещи где попало!"
     mt "This idiot throws things anywhere!"
 
-# game/Rooms/House/bedroom_bardie.rpy:52
+# game/Rooms/House/bedroom_bardie.rpy:48
 translate english bedroom_bardie_environment_0cb9b3ed:
 
     # mt "Я сейчас мечтаю даже о такой дурацкой кровати!"
     mt "I now dream even about such a stupid bed!"
 
-# game/Rooms/House/bedroom_bardie.rpy:54
+# game/Rooms/House/bedroom_bardie.rpy:50
 translate english bedroom_bardie_environment_215a7c63:
 
     # mt "Стул Барди..."
@@ -28,19 +28,19 @@ translate english bedroom_bardie_environment_215a7c63:
     mt "Bardy's Chair..."
     "I wish he'd fallen off it!!!"
 
-# game/Rooms/House/bedroom_bardie.rpy:57
+# game/Rooms/House/bedroom_bardie.rpy:53
 translate english bedroom_bardie_environment_e083f928:
 
     # mt "Я выкину эти его музыкальные штуки, когда верну себе мой дом!"
     mt "I'll throw out his musical stuff when I get my house back!"
 
-# game/Rooms/House/bedroom_bardie.rpy:59
+# game/Rooms/House/bedroom_bardie.rpy:55
 translate english bedroom_bardie_environment_0c08bf3e:
 
     # mt "Дурацкие детские постеры!"
     mt "Stupid baby posters!"
 
-# game/Rooms/House/bedroom_bardie.rpy:61
+# game/Rooms/House/bedroom_bardie.rpy:57
 translate english bedroom_bardie_environment_81c6d78f:
 
     # mt "В этой комнате куча хлама!"
@@ -48,7 +48,7 @@ translate english bedroom_bardie_environment_81c6d78f:
     mt "There's a lot of junk in this room!"
     "This moron doesn't clean up after himself!"
 
-# game/Rooms/House/bedroom_bardie.rpy:64
+# game/Rooms/House/bedroom_bardie.rpy:60
 translate english bedroom_bardie_environment_1c61f77e:
 
     # mt "Компьютер этого оболтуса."
@@ -56,7 +56,7 @@ translate english bedroom_bardie_environment_1c61f77e:
     mt "That idiot's computer."
     "I wonder what he's watching."
 
-# game/Rooms/House/bedroom_bardie.rpy:83
+# game/Rooms/House/bedroom_bardie.rpy:79
 translate english bedroom_bardie_environment_09a5cf46:
 
     # mt "Фу! Какая мерзость!"
@@ -64,7 +64,11 @@ translate english bedroom_bardie_environment_09a5cf46:
 
 translate english strings:
 
-    # Rooms/House/bedroom_bardie.rpy:66
+    # Rooms/House/bedroom_bardie.rpy:62
     old "Посмотреть на компьютер."
     new "Look at the computer."
+
+    # Rooms/House/bedroom_bardie.rpy:62
+    old "Уйти..."
+    new "Leave..."
 

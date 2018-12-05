@@ -9,6 +9,12 @@ label bardieInteract1:
         if scene_name == "street_house_main_yard":
             call bardie_comment5()
             return
+        if scene_name == "bedroom_bardie":
+            if day_time == "day":
+                call bardieDialogue1()
+            else:
+                call bardie_comment5()
+            return
     return
 #        if bardieLocation == "BedroomBardie":
 #            call bardieDialogue1()
@@ -35,7 +41,48 @@ label bardieMonicaCleaningInteract:
             call cleaning_bardie_comment3()
         $ move_object("Bardie", "empty")
         $ monicaCleaningObject = "" # Ставим Монику в исходное положение стоя
-        $ add_char_progress("Bardie", 15, "cleaning_upskirt_day " + str(day))
+        $ add_char_progress("Bardie", bardieCleaningUpskirtTry, "cleaning_upskirt_day " + str(day))
         call refresh_scene_fade()
         return False
+    return
+
+label bardieProgressLevelUp1:
+    $ char_data["level"] = char_data["level"] + 1
+    if char_data["level"] == 2:
+        $ add_hook("monica_cleaning_end", "bardieProgressApplyAfterCleaning", scene="global")
+        $ char_data["enabled"] = False #закрываем прогресс до следующей версии
+    return
+
+label bardieProgressApplyAfterCleaning:
+    $ add_hook("Bardie_Life_evening", "Bardie_Life_evening2", scene="global")
+    $ add_hook("Bardie", "bardieStairsFloor1Hook1", scene="floor1_stairs", label="bardie_catch_monica_at_stairs") # Диалог с Барди у лестницы
+    $ add_hook("Teleport_Basement_Pool", "bardieCatchAtStaitsTeleportPoolHook", scene="floor1_stairs", label="bardie_catch_monica_at_stairs_onetime")
+    $ add_hook("mimimap_teleport", "bardieCatchAtStaitsMinimapHook", scene="global", label="bardie_catch_monica_at_stairs_onetime")
+    $ remove_hook()
+    return
+
+
+label bardieStairsFloor1Hook1:
+    call bardie_comment4()
+    $ add_hook("exit_scene", "bardieStairsLeaveOnMonicaLocationExit", scene="floor1_stairs")
+    return False
+
+label bardieCatchAtStaitsMinimapHook:
+    if target_scene_name == "basement_bedroom2" and get_active_objects("Bardie", scene="floor1_stairs") != False:
+        call bardie_comment4()
+        call change_scene("floor1_stairs", "Fade", False)
+        $ add_hook("exit_scene", "bardieStairsLeaveOnMonicaLocationExit", scene="floor1_stairs")
+        return False
+    return True
+
+label bardieCatchAtStaitsTeleportPoolHook:
+    if get_active_objects("Bardie", scene="floor1_stairs") != False:
+        call bardie_comment4()
+        $ add_hook("exit_scene", "bardieStairsLeaveOnMonicaLocationExit", scene="floor1_stairs")
+        return False
+    return
+
+label bardieStairsLeaveOnMonicaLocationExit:
+    $ move_object("Bardie", "bedroom_bardie")
+    $ remove_hook()
     return

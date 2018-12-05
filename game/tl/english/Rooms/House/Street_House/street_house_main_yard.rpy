@@ -1,6 +1,6 @@
-﻿# TODO: Translation updated at 2018-11-29 14:08
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
-# game/Rooms/House/Street_House/street_house_main_yard.rpy:73
+# game/Rooms/House/Street_House/street_house_main_yard.rpy:46
 translate english street_house_main_yard_environment_9fb6cf0f:
 
     # mt "Моя бывшая машина..."
@@ -10,7 +10,7 @@ translate english street_house_main_yard_environment_9fb6cf0f:
     "But I'll get it back, I swear!"
     "I'll give them all HELL!!!"
 
-# game/Rooms/House/Street_House/street_house_main_yard.rpy:82
+# game/Rooms/House/Street_House/street_house_main_yard.rpy:52
 translate english street_house_main_yard_environment_1f97ba8c:
 
     # mt "Фред... Мой бывший водитель..."
@@ -20,57 +20,29 @@ translate english street_house_main_yard_environment_1f97ba8c:
     "Rare bastard..."
     "He will not escape his fate!"
 
-# game/Rooms/House/Street_House/street_house_main_yard.rpy:113
-translate english street_house_main_yard_environment_060a1c80:
-
-    # mt "(хмык)"
-    mt "(sob)"
-
-# game/Rooms/House/Street_House/street_house_main_yard.rpy:115
-translate english street_house_main_yard_environment_14a58821:
-
-    # m "Мой уютный дворик."
-    # "За домом есть бассейн, где я люблю расслабляться. Но сейчас нет на это времени."
-    m "My cozy courtyard."
-    "There's a pool behind the house where I like to relax. But now there is no time for it."
-
-# game/Rooms/House/Street_House/street_house_main_yard.rpy:119
-translate english street_house_main_yard_environment_ceb523fc:
-
-    # m "Но сейчас уже слишком темно."
-    m "But it's too dark now."
-
-# game/Rooms/House/Street_House/street_house_main_yard.rpy:124
-translate english street_house_main_yard_environment_0b2a0fa7:
-
-    # mt "Мне надо подойти к ним..."
-    # "Мне надо где-то ночевать!!!"
-    mt "I need to get close to them..."
-    "I have to sleep somewhere!!!"
-
-translate english strings:
-
-    # Rooms/House/Street_House/street_house_main_yard.rpy:15
-    old "House Yard"
-    new "House Yard"
-
-    # Rooms/House/Street_House/street_house_main_yard.rpy:27
-    old "В ДОМ"
-    new "INTO THE HOUSE"
-
-    # Rooms/House/Street_House/street_house_main_yard.rpy:48
-    old "К ЗАБОРУ"
-    new "TO THE FENCE"
-
-    # Rooms/House/Street_House/street_house_main_yard.rpy:50
-    old "К ВОРОТАМ"
-    new "TOWARDS THE GATE"
-
-# TODO: Translation updated at 2018-12-04 18:51
-
 # game/Rooms/House/Street_House/street_house_main_yard.rpy:57
 translate english street_house_main_yard_environment_60cdfbfc:
 
     # mt "Мне не о чем разговаривать с ним!!!"
     mt "Мне не о чем разговаривать с ним!!!"
+
+# game/Rooms/House/Street_House/street_house_main_yard.rpy:60
+translate english street_house_main_yard_environment_060a1c80:
+
+    # mt "(хмык)"
+    mt "(sob)"
+
+translate english strings:
+
+    # Rooms/House/Street_House/street_house_main_yard.rpy:18
+    old "В ДОМ"
+    new "INTO THE HOUSE"
+
+    # Rooms/House/Street_House/street_house_main_yard.rpy:22
+    old "К ЗАБОРУ"
+    new "TO THE FENCE"
+
+    # Rooms/House/Street_House/street_house_main_yard.rpy:24
+    old "К ВОРОТАМ"
+    new "TOWARDS THE GATE"
 

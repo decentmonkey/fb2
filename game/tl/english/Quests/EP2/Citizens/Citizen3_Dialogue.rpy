@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-04 18:51
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:5
 translate english citizen3_dialogue_b8f1bd99:
@@ -122,7 +122,7 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen3_Dialogue.rpy:35
     old "Ладно."
-    new ""
+    new "Okay."
 
     # Quests/EP2/Citizens/Citizen3_Dialogue.rpy:35
     old "Ну уж нет."

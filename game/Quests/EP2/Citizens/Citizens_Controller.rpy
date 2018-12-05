@@ -125,14 +125,14 @@ label citizens_init:
 label citizens_init_day:
     python:
         citizensDayList = random.sample(set(list(citizens_list_source.keys())), citizensAmountDay)
-        if "Citizen_1" in citizensEveningList:
-            citizensEveningList.append("Citizen_2")
-        if "Citizen_2" in citizensEveningList:
-            citizensEveningList.append("Citizen_1")
-        if "Citizen_3" in citizensEveningList:
-            citizensEveningList.append("Citizen_9")
-        if "Citizen_9" in citizensEveningList:
-            citizensEveningList.append("Citizen_3")
+        if "Citizen_1" in citizensDayList:
+            citizensDayList.append("Citizen_2")
+        if "Citizen_2" in citizensDayList:
+            citizensDayList.append("Citizen_1")
+        if "Citizen_3" in citizensDayList:
+            citizensDayList.append("Citizen_9")
+        if "Citizen_9" in citizensDayList:
+            citizensDayList.append("Citizen_3")
         citizensDayList = list(set(citizensDayList)) #unique
         set_active(False, scene="all", group="citizens")
         for var1 in citizensDayList:

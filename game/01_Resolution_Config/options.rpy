@@ -233,3 +233,5 @@ init python:
 
 #define config.mouse = {"default" : [("gui/mouse_pointer_default.png", 0, 0)],}
     config.layers = [ 'zero', 'master', 'transient', 'belowmid', 'midlayer', 'abovemid', 'screens', 'overlay', 'hud']
+
+define config.missing_image_callback = missing_filename_callback

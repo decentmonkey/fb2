@@ -8,6 +8,7 @@ default scene_caption = ""
 default exitHookCalled = False
 
 label show_scene:
+    $ exitHookCalled = False
     $ show_scene_loop_flag = False
     if scene_refresh_flag == False:
         jump show_scene_loop
@@ -178,6 +179,7 @@ label remove_dialogue():
 
 
 label after_load():
+    $ refresh_list_files_forced()
     if episode < 2:
         call start_saved_game()
         return

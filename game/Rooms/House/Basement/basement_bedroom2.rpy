@@ -47,13 +47,13 @@ label basement_bedroom2_environment:
         "Но это временно!!!"
         "Это какое-то недоразуменее, которое скоро разрешится!"
     if obj_name == "BasementBed":
-        $ add_corruption(100, "place1")
-        $ add_char_progress("Monica", 25, "progress1", duplicate=True)
-        $ cleaningLog = [True, True, False, True, True]
-        $ print "log"
-        $ print get_cleaning_status(3)
-        return
         if act == "l":
+            $ add_corruption(100, "place1")
+            $ add_char_progress("Monica", 25, "progress1", duplicate=True)
+            $ cleaningLog = [True, True, False, True, True]
+            $ print "log"
+            $ print get_cleaning_status(3)
+            return
             mt "Моя кровать..."
             "Но это временно!!!"
             "Это какое-то недоразуменее, которое скоро разрешится!"

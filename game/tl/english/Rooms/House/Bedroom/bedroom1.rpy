@@ -1,40 +1,18 @@
-﻿# TODO: Translation updated at 2018-11-29 14:08
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
-# game/Rooms/House/Bedroom/bedroom1.rpy:52
+# game/Rooms/House/Bedroom/bedroom1.rpy:42
 translate english bedroom1_environment_e0361535:
 
     # mt "Мой любимый удобный стул... Эхххх...."
     mt "My favorite comfortable chair... Ehhh..."
 
-# game/Rooms/House/Bedroom/bedroom1.rpy:55
-translate english bedroom1_environment_ea8fd989:
-
-    # m "Мой стул..."
-    # "Он очень удобный. Я люблю сидеть в нем и листать свежую прессу."
-    # "Свежая пресса - это обычно свежие издания моих журналов. Хи-хи."
-    m "My chair..."
-    "It's comfortable. I like to sit in it and look through the fresh press."
-    "The fresh press is usually the latest edition of my magazines. Hee Hee."
-
-# game/Rooms/House/Bedroom/bedroom1.rpy:65
+# game/Rooms/House/Bedroom/bedroom1.rpy:45
 translate english bedroom1_environment_b6bb820d:
 
     # mt "Один из моих бывших стульев..."
     mt "One of my old chairs..."
 
-# game/Rooms/House/Bedroom/bedroom1.rpy:67
-translate english bedroom1_environment_a2ea71b6:
-
-    # m "На этом стуле я обычно не сижу..."
-    # "На нем никто не сидит."
-    # "Вернее сидит муж... иногда..."
-    # "В общем эта вещь явно лишняя в моей спальне."
-    m "I don't usually sit in this chair..."
-    "Nobody's sitting on it."
-    "Rather sits husband... sometimes..."
-    "In General, this thing is clearly unnecessary in my bedroom."
-
-# game/Rooms/House/Bedroom/bedroom1.rpy:77
+# game/Rooms/House/Bedroom/bedroom1.rpy:48
 translate english bedroom1_environment_4ba6f90f:
 
     # mt "Моя любимая кроватка!"
@@ -46,61 +24,25 @@ translate english bedroom1_environment_4ba6f90f:
     "I miss it!"
     "I'LL GET IT BACK!!!"
 
-# game/Rooms/House/Bedroom/bedroom1.rpy:82
-translate english bedroom1_environment_80925196:
-
-    # m "Моя любимая кроватка..."
-    # "Когда я в ней сплю, мне всегда снятся хорошие сны."
-    m "My favorite crib..."
-    "When I sleep in it, I always have good dreams."
-
-# game/Rooms/House/Bedroom/bedroom1.rpy:88
+# game/Rooms/House/Bedroom/bedroom1.rpy:54
 translate english bedroom1_environment_783339bf:
 
     # mt "Я помню как эти шторы спасали меня от солнечного света..."
     mt "I remember how those curtains were saving me from the sunlight..."
 
-# game/Rooms/House/Bedroom/bedroom1.rpy:90
-translate english bedroom1_environment_1f3c4022:
-
-    # m "Эти шторы довольно плотные, однако они не спасают меня от утреннего солнца."
-    m "These curtains are quite thick, but they do not save me from the morning sun."
-
-# game/Rooms/House/Bedroom/bedroom1.rpy:94
+# game/Rooms/House/Bedroom/bedroom1.rpy:58
 translate english bedroom1_environment_fa742aa4:
 
     # mt "Мои цветы! Мои любимые цветы!"
     mt "My flowers! My favorite flowers!"
 
-# game/Rooms/House/Bedroom/bedroom1.rpy:96
-translate english bedroom1_environment_e2278519:
-
-    # m "Я люблю цветы. Особенно красивые цветы. Мне нравится как они украшают мою комнату."
-    # "Они называются..."
-    # "Называются..."
-    # "Она называются 'Красивые Цветы', точно!!!"
-    m "I love flowers. Especially beautiful flowers. I like the way they decorate my room."
-    "They're called..."
-    "Called..."
-    "They are called 'Beautiful Flowers', that's right!!!"
-
-# game/Rooms/House/Bedroom/bedroom1.rpy:108
+# game/Rooms/House/Bedroom/bedroom1.rpy:61
 translate english bedroom1_environment_bb864cda:
 
     # mt "Я помню каждую лампу в моем доме..."
     mt "I remember every lamp in my house..."
 
-# game/Rooms/House/Bedroom/bedroom1.rpy:110
-translate english bedroom1_environment_e86837d1:
-
-    # m "Да, эта лампа горит."
-    # "В моем доме всегда горит свет. Свет украшает интерьер."
-    # "Счета за электричество? Вы про что? Я богата! Я не знаю что такое счета за электричество!"
-    m "Yes, this lamp is on."
-    "My house is always lit. Light decorates the interior."
-    "Electricity bills? You mean what? I'm rich! I don't know what an electricity bill is!"
-
-# game/Rooms/House/Bedroom/bedroom1.rpy:122
+# game/Rooms/House/Bedroom/bedroom1.rpy:64
 translate english bedroom1_environment_310d6da3:
 
     # mt "Я складывала сюда свои длинные ножки..."
@@ -108,31 +50,13 @@ translate english bedroom1_environment_310d6da3:
     mt "I put my long legs here..."
     "Beautiful, not like this Betty!"
 
-# game/Rooms/House/Bedroom/bedroom1.rpy:125
-translate english bedroom1_environment_002d8aaa:
-
-    # m "У меня длинные ноги, но я их не складываю сюда когда сплю."
-    # "Я использую это место когда переодеваюсь."
-    m "I have long legs, but I don't put them here when I sleep."
-    "I use this place when I change."
-
-# game/Rooms/House/Bedroom/bedroom1.rpy:131
+# game/Rooms/House/Bedroom/bedroom1.rpy:68
 translate english bedroom1_environment_0bad2c52:
 
     # mt "Я уверена что я скоро увижу себя в этом зеркале снова в дорогом платье!"
     mt "I am sure that I will soon see myself in this mirror again in an expensive dress!"
 
-# game/Rooms/House/Bedroom/bedroom1.rpy:133
-translate english bedroom1_environment_cba6dd2a:
-
-    # m "Зеркало."
-    # "В моем доме много зеркал. Я их люблю."
-    # "Зеркала не любят только те кому не нравится свое отражение в них."
-    m "Mirror."
-    "There are many mirrors in my house. I love them."
-    "Only those don’t like mirrors who do not like their reflection in them."
-
-# game/Rooms/House/Bedroom/bedroom1.rpy:142
+# game/Rooms/House/Bedroom/bedroom1.rpy:71
 translate english bedroom1_environment_8b7274a0:
 
     # mt "Этот столик такой романтичный."
@@ -140,71 +64,27 @@ translate english bedroom1_environment_8b7274a0:
     mt "This table is so romantic."
     "I'll keep it after I will change the design of this house."
 
-# game/Rooms/House/Bedroom/bedroom1.rpy:145
-translate english bedroom1_environment_c59c11c4:
-
-    # m "Этот столик такой романтичный. Я люблю романтику."
-    # "В моей жизни мало романтики. Мое положение в обществе накладывает определенные ограничения."
-    # "Но меня это не беспокоит. Власть я люблю гораздо больше романтики."
-    m "This table is so romantic. I love romance."
-    "I don't have much romance in my life. My position in society imposes certain restrictions."
-    "But it doesn't bother me. I like power much more than romance."
-
-# game/Rooms/House/Bedroom/bedroom1.rpy:156
+# game/Rooms/House/Bedroom/bedroom1.rpy:75
 translate english bedroom1_environment_2c6f638e:
 
     # mt "Я помню вид из своего окна..."
     mt "I remember the view from my window..."
 
-# game/Rooms/House/Bedroom/bedroom1.rpy:159
-translate english bedroom1_environment_bedcf0e1:
-
-    # m "Эти окна такие солнечные!"
-    # "Мне это нравится! Правда солнце будит меня по утрам."
-    # "А я люблю поспать. Не знаю как вы!"
-    m "These windows are so Sunny!"
-    "I like that! The truth is the sun wakes me up in the morning."
-    "I like sleeping. I don't know how to do you!"
-
-# game/Rooms/House/Bedroom/bedroom1.rpy:168
-translate english bedroom1_environment_11f0ddb2:
-
-    # m "За окнами темно."
-    # "Уже вечер!"
-    m "It's dark outside the windows."
-    "It's already evening!"
-
-# game/Rooms/House/Bedroom/bedroom1.rpy:174
+# game/Rooms/House/Bedroom/bedroom1.rpy:78
 translate english bedroom1_environment_c45bfd63:
 
     # mt "Мой коврик..."
     mt "My Mat..."
 
-# game/Rooms/House/Bedroom/bedroom1.rpy:176
-translate english bedroom1_environment_2740560a:
-
-    # m "Коврик. Я люблю коврики. Коврики - это мило."
-    # "Помню когда-то в детстве я испачкала ковер."
-    # "Меня сильно ругали за это."
-    m "The rug. I love rugs. Rugs are cute."
-    "I remember when I was a child I stained the carpet."
-    "I was really scolded for that."
-
-# game/Rooms/House/Bedroom/bedroom1.rpy:185
+# game/Rooms/House/Bedroom/bedroom1.rpy:81
 translate english bedroom1_environment_1d4d2b82:
 
     # "none ((("
     "none ((("
 
-# game/Rooms/House/Bedroom/bedroom1.rpy:190
-translate english teleport_label1_9c0c1365:
-
-    # "teleport!"
-    "teleport!"
-
 translate english strings:
 
-    # Rooms/House/Bedroom/bedroom1.rpy:36
+    # Rooms/House/Bedroom/bedroom1.rpy:31
     old "ГАРДЕРОБ"
     new "WARDROBE"
 

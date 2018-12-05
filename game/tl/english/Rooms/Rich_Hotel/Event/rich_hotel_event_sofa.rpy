@@ -1,11 +1,11 @@
-﻿# TODO: Translation updated at 2018-12-04 18:51
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_sofa.rpy:35
 translate english rich_hotel_event_sofa_environment_8e867cd7:
 
     # mt "Что же мне делать???"
     # mt "Может быть как-то уговорить Бифа дать мне недостающую сумму денег?"
-    mt "Что же мне делать???"
+    mt "What should I do???"
     mt "Может быть как-то уговорить Бифа дать мне недостающую сумму денег?"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_sofa.rpy:38
@@ -24,7 +24,7 @@ translate english rich_hotel_event_sofa_environment_70b277eb:
     # "Клянусь!"
     mt "Мерзкий слизняк Биф!"
     "Я найду на него управу!!!"
-    "Клянусь!"
+    "I swear!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_sofa.rpy:51
 translate english rich_hotel_event_sofa_environment_1bb250b4:

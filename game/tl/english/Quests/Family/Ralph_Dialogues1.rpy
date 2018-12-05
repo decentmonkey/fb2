@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-11-29 14:08
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 # game/Quests/Family/Ralph_Dialogues1.rpy:4
 translate english ralphDialogue1_876a775e:

@@ -15,6 +15,7 @@ default episode = 1
 
 label start:
     #new game
+    $ refresh_list_files_forced()
     $ episode = 2
     $ debugMode = True
 
@@ -31,11 +32,12 @@ label start:
     return
 
 label start_saved_game:
-    $ episode = 2
+    $ refresh_list_files_forced()
     $ scenes_data = {"objects": {}, "substs" : {}, "autorun": {}, "hooks": {}}
     $ hooks_stack = []
     $ inventory_objects = {}
     $ inventory = []
+    call intro_questions_save()
     call start_game()
     return
 
@@ -49,9 +51,10 @@ label start_game:
     $ game_version1_screen_ready_to_render = True
     $ zoom_factor = 1
 
-    $ day = 10
+    $ day = 2
+    $ monicaEatedLastDay = day
     $ week_day = (day)%7
-    $ day_time = "day"
+    $ day_time = "evening"
     $ day_suffix = ""
     $ money = 0.0
 
@@ -112,16 +115,17 @@ label start_game:
     # Жизнь персонажей
     $ add_hook("change_time_day", "citizens_init_day", scene="global")
     $ add_hook("change_time_evening", "citizens_init_evening", scene="global")
-    $ add_hook("change_time_day", "Beef_Life_day", scene="global")
-    $ add_hook("change_time_evening", "Beef_Life_evening", scene="global")
-    $ add_hook("change_time_day", "Bardie_Life_day", scene="global")
-    $ add_hook("change_time_evening", "Bardie_Life_evening", scene="global")
-    $ add_hook("change_time_day", "Betty_Life_day", scene="global")
-    $ add_hook("change_time_evening", "Betty_Life_evening", scene="global")
-    $ add_hook("change_time_day", "Ralph_Life_day", scene="global")
-    $ add_hook("change_time_evening", "Ralph_Life_evening", scene="global")
-    $ add_hook("change_time_day", "Fred_Life_day", scene="global")
-    $ add_hook("change_time_evening", "Fred_Life_evening", scene="global")
+
+    call Bardie_Life_init()
+    call Betty_Life_init()
+    call Ralph_Life_init()
+    call Fred_Life_init()
+    call Beef_Life_init()
+
+    # Постель в подвале
+    $ add_hook("BasementBed", "basement_bed_hook", scene="basement_bedroom2")
+    $ add_hook("change_time_day", "basement_monica_after_sleep", scene="global")
+    $ add_hook("change_time_evening", "basement_monica_after_nap", scene="global")
 
     # Уборка в доме
     $ add_hook("enter_scene", "house_cleaning", scene="floor1")
@@ -145,6 +149,7 @@ label start_game:
 
 #    $ remove_hook(label="betty_forbidden", scene="House", recursive=True)
     call change_scene("basement_bedroom2", "Fade_long", False)
+    $ changeDayTime("day")
 
     $ scene_transition = "Fade_long"
 
@@ -157,6 +162,7 @@ label start_game:
 #    $ autorun_to_object("intro_scene", "intro_scene_start")
     music stop
 
+    $ episode = 2
     jump show_scene
 
 label start_new_game:

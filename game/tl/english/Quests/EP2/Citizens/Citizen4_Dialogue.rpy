@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-04 18:51
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:4
 translate english citizen4_dialogue_b8f1bd99:
@@ -16,7 +16,7 @@ translate english citizen4_dialogue_2df7ab1d:
 translate english citizen4_loop1_67ab3514:
 
     # citizen4 "Да?"
-    citizen4 "Да?"
+    citizen4 "Yes?"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:15
 translate english citizen4_loop1_05979ea1:
@@ -30,7 +30,7 @@ translate english citizen4_dialogue_5e125193:
     # citizen4 "Хорошо."
     # citizen4 "А что на нем?"
     # m "Это реклама вкусного кебаба... Там же написано!"
-    citizen4 "Хорошо."
+    citizen4 "Alright."
     citizen4 "А что на нем?"
     m "Это реклама вкусного кебаба... Там же написано!"
 

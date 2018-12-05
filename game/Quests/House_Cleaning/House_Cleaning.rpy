@@ -135,6 +135,7 @@ label house_cleaning_end:
     call refresh_scene("Dissolve_fast")
     return
 label house_cleaning_end2:
+    $ add_corruption(monicaCleaningAddCorruptionPerCleaning, "monica_cleaning_corruption_day_" + str(day))
     call cleaning_monica_finished1()
     $ monicaCleaningInProgress = False
     $ restore_scene(houseCleaningStoredScene)
@@ -143,7 +144,7 @@ label house_cleaning_end2:
     $ monicaLastCleaningCompletedDay = day
     $ add_cleaning(True)
     if get_cleaning_status(3) == True:
-        $ add_char_progress("Betty", 5, "cleaning_day " + str(day))
+        $ add_char_progress("Betty", bettyCleaningProgessAmount, "cleaning_day_" + str(day))
     $ miniMapEnabledOnly = []
 
     call refresh_scene_fade()

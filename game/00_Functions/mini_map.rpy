@@ -55,6 +55,7 @@ label miniMapHouseGenerateTeleport(name, minimapCell):
     $ exitHookCalled = True
     call process_hooks("mimimap_teleport", "global") #хук до инициализации сцены
     if _return == False:
+        call refresh_scene()
         return
     if interface_blocked_flag == True:
         return

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-04 18:51
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 # game/Quests/EP2/Intro_Questions.rpy:4
 translate english intro_questions_2f9353e5:
@@ -82,7 +82,15 @@ translate english strings:
 
     # Quests/EP2/Intro_Questions.rpy:67
     old "Нет."
-    new ""
+    new "No."
+
+    # Quests/EP2/Intro_Questions.rpy:74
+    old "Ох ничего себе! Он сломал мне забор!"
+    new "Oh wow!"
+
+    # Quests/EP2/Intro_Questions.rpy:74
+    old "Эту царапину еле видно! Из-за чего весь шум?"
+    new "That scratch is barely visible! What's all the noise about?"
 
     # Quests/EP2/Intro_Questions.rpy:80
     old "Моника прогнала соседа."

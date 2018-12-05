@@ -1,6 +1,18 @@
 default bardieStage = 0
 
+label Bardie_Life_init:
+    $ add_hook("change_time_day", "Bardie_Life_day", scene="global")
+    $ add_hook("change_time_evening", "Bardie_Life_evening", scene="global")
+    $ add_hook("Bardie_life_day", "Bardie_Life_Day1", scene="global")
+    $ add_hook("Bardie_Life_evening", "Bardie_Life_evening1", scene="global")
+
+    return
+
 label Bardie_Life_day:
+    call process_hooks("Bardie_life_day", "global")
+    return True
+
+label Bardie_Life_Day1:
 #    $ move_object("Beef", "empty")
     if bardieStage == 0:
         $ rand1 = rand(1,2)
@@ -12,10 +24,18 @@ label Bardie_Life_day:
     return
 
 label Bardie_Life_evening:
+    call process_hooks("Bardie_Life_evening", "global")
+    return True
+
+label Bardie_Life_evening1:
 #    $ move_object("Beef", "monica_office_cabinet")
     if bardieStage == 0:
         $ move_object("Bardie", "bedroom_bardie")
     return
+
+label Bardie_Life_evening2: #Барди вечером преследует Монику у лестницы
+    $ move_object("Bardie", "floor1_stairs")
+    return False
 
 label Bardie_Life_Monica_Cleaning_Start:
     if "bedroom_bardie" in rooms_dirty:
@@ -31,4 +51,5 @@ label Bardie_Life_Monica_Cleaning_Start:
     return
 
 label Bardie_Life_Monica_Cleaning_End:
+    call Bardie_Life_day()
     return

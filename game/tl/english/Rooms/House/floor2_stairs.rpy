@@ -1,6 +1,6 @@
-﻿# TODO: Translation updated at 2018-11-29 14:08
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
-# game/Rooms/House/floor2_stairs.rpy:42
+# game/Rooms/House/floor2_stairs.rpy:36
 translate english floor2_stairs_environment_afb47468:
 
     # mt "Они ничего не собираются делать с лестницей."
@@ -14,19 +14,9 @@ translate english floor2_stairs_environment_afb47468:
     "They are happy to live in what I created!!!"
     "IT'S NOT FAIR!!!"
 
-# game/Rooms/House/floor2_stairs.rpy:48
-translate english floor2_stairs_environment_2ac054e7:
-
-    # m "Между этажами я перемещаюсь по лестнице."
-    # "Сейчас модно использовать лифт, но..."
-    # "Впрочем, можно подумать об этом."
-    m "Between floors, I'm moving on the ladder."
-    "It's fashionable to use the Elevator now, but..."
-    "However, you can think about it."
-
 translate english strings:
 
-    # Rooms/House/floor2_stairs.rpy:22
+    # Rooms/House/floor2_stairs.rpy:17
     old "ЛЕСТНИЦА ВНИЗ"
     new "STAIRS DOWN"
 

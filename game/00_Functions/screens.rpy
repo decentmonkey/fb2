@@ -155,7 +155,7 @@ screen screen_sprites(data):
                 ]
 
 #            $ data = scenes_data["objects"][scene_name] if scene_name in scenes_data["objects"] else False
-            if data != False and game_version1_screen_ready_to_render == True:
+            if data != False and game_version1_screen_ready_to_render == True and episode == 2:
                 $ zorder_list = []
                 $ for i in data: zorder_list.append([i, data[i]["zorder"]])
                 $ zorder_list.sort(key=lambda x:x[1])

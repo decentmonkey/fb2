@@ -5,7 +5,6 @@ python early:
 #        return l.string()
     def img_exec(s):
         global dialogue_active_flag, screenActionHappened
-
         try:
             imagePath = img_find_path(renpy.eval(s))
         except:

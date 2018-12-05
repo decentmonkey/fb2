@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-11-29 14:08
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 # game/Rooms/House/living_room.rpy:51
 translate english living_room_environment_fb032ef2:
@@ -66,7 +66,7 @@ translate english living_room_environment_de7b961c:
     # mt "Хотя эта Бетти, кажется, переписала все вещи в доме и она следит за мной..."
     mt "Although this Betty seems to have inventoried everything in the house and she's watching me..."
 
-# game/Rooms/House/living_room.rpy:78
+# game/Rooms/House/living_room.rpy:77
 translate english living_room_environment_2429ef6b:
 
     # mt "Похоже это вино Бетти специально оставила здесь."
@@ -77,10 +77,4 @@ translate english living_room_environment_2429ef6b:
     "Like a trap..."
     "They're just looking for an excuse to kick me out of here!"
     "I have to be careful..."
-
-# game/Rooms/House/living_room.rpy:83
-translate english living_room_environment_b4f315ec:
-
-    # mt "Надо будет выпить вина, отпраздновать, хоть и грустное, но возвращение домой..."
-    mt "It will be necessary to drink some wine, to celebrate, though sad, but the return to home..."
 

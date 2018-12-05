@@ -1,12 +1,12 @@
-﻿# TODO: Translation updated at 2018-11-29 14:08
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
-# game/Rooms/Intro/intro_scene.rpy:16
+# game/Rooms/Intro/intro_scene.rpy:15
 translate english intro_environment_ff65acd3:
 
     # mt "Zzzzzzzz...."
     mt "Zzzzzzzz..."
 
-# game/Rooms/Intro/intro_scene.rpy:27
+# game/Rooms/Intro/intro_scene.rpy:26
 translate english intro_scene_start_0f8988c1:
 
     # help "Привет! Добро пожаловать в обновленную игру про Монику!"
@@ -14,13 +14,13 @@ translate english intro_scene_start_0f8988c1:
     help "Hi! Welcome to the updated game about Monica!"
     "The first thing you need to remember."
 
-# game/Rooms/Intro/intro_scene.rpy:34
+# game/Rooms/Intro/intro_scene.rpy:33
 translate english intro_scene_start_8fe2cf87:
 
     # "В левом верхнем углу вы можете всегда видеть много полезной информации. Например, текущие задания!"
     "In the upper left corner, you can always see a lot of useful information. For example, the current task!"
 
-# game/Rooms/Intro/intro_scene.rpy:39
+# game/Rooms/Intro/intro_scene.rpy:38
 translate english intro_scene_start_32569033:
 
     # "Справа располагается название текущей локации и кнопка вызова карты."
@@ -28,7 +28,7 @@ translate english intro_scene_start_32569033:
     "On the right, there is the name of the current location and the map button."
     "It's not available now because Monica's sleeping. :)"
 
-# game/Rooms/Intro/intro_scene.rpy:44
+# game/Rooms/Intro/intro_scene.rpy:43
 translate english intro_scene_start_9010f170:
 
     # "Также справа находится Bitchmeter :). Он показывает кем сейчас является Моника."
@@ -40,7 +40,7 @@ translate english intro_scene_start_9010f170:
     "And make her either a modest girl or a complete bitch."
     "All this will affect the game and the development of the plot!"
 
-# game/Rooms/Intro/intro_scene.rpy:53
+# game/Rooms/Intro/intro_scene.rpy:52
 translate english intro_scene_start_b6fb1663:
 
     # "На экране много интерактивных объектов. С ними можно взаимодействовать по разному."
@@ -52,7 +52,7 @@ translate english intro_scene_start_b6fb1663:
     "Or use them on some items of equipment."
     "Action menu is called by left mouse click optional, or right mouse click force."
 
-# game/Rooms/Intro/intro_scene.rpy:64
+# game/Rooms/Intro/intro_scene.rpy:63
 translate english intro_scene_start_796043ad:
 
     # "Во время диалогов правая кнопка мыши, либо клавиша <H>, скрывают диалог, чтобы вы могли видеть картинку целиком!"
@@ -60,7 +60,7 @@ translate english intro_scene_start_796043ad:
     "During dialogs, the right mouse button or the <H> key hides the dialog so you can see the whole picture!"
     "You can also enable forced pause after the dialogue before changing the picture in the game settings!"
 
-# game/Rooms/Intro/intro_scene.rpy:70
+# game/Rooms/Intro/intro_scene.rpy:69
 translate english intro_scene_start_7f023d30:
 
     # "Если появилась кнопка с вопросом, значит для этого квеста есть подсказки!"
@@ -68,7 +68,7 @@ translate english intro_scene_start_7f023d30:
     "If there was a button with a question, then there are tips for this quest!"
     "Click on the button if you are confused."
 
-# game/Rooms/Intro/intro_scene.rpy:77
+# game/Rooms/Intro/intro_scene.rpy:76
 translate english intro_scene_start_a647fbff:
 
     # "А теперь пришла мора разбудить Монику и начать игру! Удачи!"

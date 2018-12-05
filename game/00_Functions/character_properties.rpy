@@ -96,6 +96,11 @@ init python:
         renpy.call("process_hooks", "corruption", "global") #процессим хуки
         return
 
+    def monica_eated(): # Вызывается когда Моника поела
+        global day, day_time
+        monicaEatedLastDay = day
+        monicaEatedLastDayTime = day_time
+        return
 
 
 

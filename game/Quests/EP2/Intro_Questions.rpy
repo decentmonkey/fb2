@@ -28,6 +28,8 @@ label intro_questions:
     return
 
 label intro_questions_save:
+    img 3370
+    with fadelong
     help "В чем Моника легла спать?"
     menu:
         "Моника легла спать в трусиках Юлии.":

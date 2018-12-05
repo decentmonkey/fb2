@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-11-29 14:08
+﻿# TODO: Translation updated at 2018-12-05 18:00
 
 # game/Quests/Family/Betty_Dialogues1.rpy:8
 translate english bettyDialogue1_269ef339:

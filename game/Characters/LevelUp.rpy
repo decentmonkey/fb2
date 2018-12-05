@@ -7,6 +7,7 @@ label bettyProgressForward:
     return
 
 label bardieProgressLevelUp:
+    call bardieProgressLevelUp1()
     return
 
 label alexPhotographProgressLevelUp:

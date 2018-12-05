@@ -109,12 +109,16 @@ label hook_basement_bedroom_check_exit_cloth_map: #проверка при вы�
                 return True
         if cloth_type == "Governess": #Бетти запрещает выходить из дома в одежде гувернантки!
             call monica_goout1_governess_restrict()
-            call refresh_scene_fade()
+            call change_scene("street_house_gate", "Fade", False)
+            $ map_source_scene = "street_house_gate"
+#            call refresh_scene_fade()
             return False
 
     if obj_name != "Teleport_House" and map_scene == "House":
         if cloth_type == "Governess": #Моника пытается убежать с улицы в одежде гувернантки (мимо ворот)
             call monica_goout1_governess_restrict()
+            call change_scene("street_house_gate", "Fade", False)
+            $ map_source_scene = "street_house_gate"
             return False
 
     return
