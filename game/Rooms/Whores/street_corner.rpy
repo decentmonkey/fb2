@@ -1,6 +1,7 @@
 label street_corner:
     $ print "enter_street_corner"
     $ miniMapData = []
+    call miniMapHostelGenerate()
 
     $ sceneIsStreet = True
     $ scene_image = "scene_street_Whores_Place_Car_Stop[day_suffix]"

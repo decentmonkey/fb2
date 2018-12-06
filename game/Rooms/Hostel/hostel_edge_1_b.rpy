@@ -1,6 +1,7 @@
 label hostel_edge_1_b:
     $ print "enter_hostel_edge_1_b"
     $ miniMapData = []
+    call miniMapHostelGenerate()
 
     $ sceneIsStreet = True
 

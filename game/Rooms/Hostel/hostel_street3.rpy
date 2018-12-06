@@ -3,6 +3,7 @@ default hostelStreet3MonicaFromSideSuffix = ""
 label hostel_street3:
     $ print "enter_hostel_street2"
     $ miniMapData = []
+    call miniMapHostelGenerate()
 
     $ sceneIsStreet = True
 

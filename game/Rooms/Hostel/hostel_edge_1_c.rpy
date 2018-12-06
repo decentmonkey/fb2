@@ -4,6 +4,7 @@ default localDaySuffix = ""
 label hostel_edge_1_c:
     $ print "enter_hostel_edge_1_c"
     $ miniMapData = []
+    call miniMapHostelGenerate()
 
     $ sceneIsStreet = True
 

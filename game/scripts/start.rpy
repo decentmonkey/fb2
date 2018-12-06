@@ -165,6 +165,7 @@ label start_game:
     call change_scene("basement_bedroom2", "Fade_long", False)
     $ changeDayTime("day")
 
+    $ miniMapDisabled = {"House":[], "Street_Corner":[]}
     $ miniMapEnabledOnly = []
 
     $ scene_transition = "Fade_long"

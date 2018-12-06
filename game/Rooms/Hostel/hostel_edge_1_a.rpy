@@ -3,6 +3,7 @@ default hostel_edge_1_a_visited = False
 label hostel_edge_1_a:
     $ print "enter_hostel_edge_1_a"
     $ miniMapData = []
+    call miniMapHostelGenerate()
 
     $ sceneIsStreet = True
 

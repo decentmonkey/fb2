@@ -802,7 +802,7 @@ screen hud_minimap(minimapData):
                     xanchor 0.5
                     xysize (int(196 * gui.resolution.koeff), int(110 * gui.resolution.koeff))
                     padding (0,0)
-                    $ imgName = get_image_filename("Open_Button_Map1" + res.suffix)
+                    $ imgName = get_image_filename(miniMapOpenButtonImg + res.suffix)
                     add imgName
                     text "":
                         xanchor 0.5
@@ -819,7 +819,7 @@ screen hud_minimap(minimapData):
                         xanchor 0.5
                         xysize (int(196 * gui.resolution.koeff), int(110 * gui.resolution.koeff))
                         padding (0,0)
-                        add get_image_filename("Open_Button_Map2" + res.suffix)
+                        add get_image_filename(miniMapOpenButtonImg2 + res.suffix)
                         text "":
                             xanchor 0.5
                             xpos 0.465
@@ -838,9 +838,13 @@ screen hud_minimap(minimapData):
                                 $ locationDisabledFlag = False
                             else:
                                 $ locationDisabledFlag = True
-                        if minimapCell["name"] in miniMapDisabled:
+#                        if minimapCell["name"] in miniMapDisabled:
+#                            $ locationDisabledFlag = True
+                        $ minimapCheckMapScene = map_scene
+                        if map_scene == "Hostel2" or map_scene == "Cloth_Shop":
+                            $ minimapCheckMapScene = "Street_Corner"
+                        if miniMapDisabled.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled[minimapCheckMapScene]:
                             $ locationDisabledFlag = True
-                        $ print miniMapDisabled
                         button:
                             yanchor 0.0
                             xanchor 0.5

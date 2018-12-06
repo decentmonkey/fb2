@@ -3,6 +3,7 @@ default hostelStreet2MonicaFromSideSuffix = ""
 label hostel_street2:
     $ print "enter_hostel_street2"
     $ miniMapData = []
+    call miniMapHostelGenerate()
 
     $ sceneIsStreet = True
 
@@ -23,7 +24,7 @@ label hostel_street2_init:
     $ add_object_to_scene("Teleport_Hostel_Edge_1_c", {"type":3, "text" : _("УГОЛ ДОМА"), "larrow" : "arrow_left_2", "base":"Hostel_Street2_Teleport_Hostel_Edge_1_c", "click" : "hostel_street2_teleport", "xpos" : 240, "ypos" : 905, "zorder":15, "teleport":True, "high_sprite_hover":True})
     $ add_object_to_scene("Teleport_Hostel_Street3", {"type":3, "text" : _("БЕДНЫЙ РАЙОН"), "rarrow" : "arrow_right_2", "base":"Hostel_Street2_Teleport_Hostel_Street3", "click" : "hostel_street2_teleport", "xpos" : 1608, "ypos" : 1030, "zorder":15, "teleport":True, "high_sprite_hover":True})
 
-    $ add_object_to_scene("Teleport_Hostel_Whores_Place", {"type":3, "text" : _("ПЕРЕКРЕСТОК"), "larrow" : "arrow_down_2_a", "base":"Hostel_Street2_Teleport_Whores_Place", "click" : "hostel_street2_teleport", "xpos" : 560, "ypos" : 978, "zorder":15, "teleport":True, "high_sprite_hover":True})
+#    $ add_object_to_scene("Teleport_Hostel_Whores_Place", {"type":3, "text" : _("ПЕРЕКРЕСТОК"), "larrow" : "arrow_down_2_a", "base":"Hostel_Street2_Teleport_Whores_Place", "click" : "hostel_street2_teleport", "xpos" : 560, "ypos" : 978, "zorder":15, "teleport":True, "high_sprite_hover":True})
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

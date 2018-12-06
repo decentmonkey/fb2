@@ -1,6 +1,7 @@
 label whores_place_street1:
     $ print "enter_whores_place_street1"
     $ miniMapData = []
+    call miniMapHostelGenerate()
 
     $ sceneIsStreet = True
     $ scene_image = "scene_street_Whores_Street1[day_suffix]"
