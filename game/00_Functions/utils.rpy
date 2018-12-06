@@ -19,7 +19,7 @@ init python:
         global scenes_data, debugMode
         if debugMode != True:
             return
-        if os.path.isdir("/Users/Denis/Documents/work/browse")) == True:
+        if os.path.isdir("/Users/Denis/Documents/work/browse") == True:
             str1 = json.dumps(scenes_data)
             f = open("/Users/Denis/Documents/work/browse/renpy_debug.json","w")
             f.write(str1)
