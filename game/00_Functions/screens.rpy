@@ -916,7 +916,6 @@ screen hud_screen(hud_presets):
                     if money == 100000000.0:
                         add "icons/money_rich" + res.suffix + ".png":
                             yalign 0.5
-
                         $ money_text = "$ " + '{:10,.2f}'.format(money)
                         text money_text:
                             color "#00a000"
@@ -925,7 +924,24 @@ screen hud_screen(hud_presets):
                             yoffset gui.resolution.hud_screen.yoffset3
                             outlines [(3, "#000000", 0, 0)]
                     else:
-                        if money < 20:
+                        if money < 10000:
+
+                            if money == 0:
+                                pass
+                            else:
+                                if money < 5:
+                                    add "icons/money_dollar" + res.suffix + ".png":
+                                        yalign 0.5
+                                else:
+                                    if money < 50:
+                                        add "icons/money_five" + res.suffix + ".png":
+                                            yalign 0.5
+                                    else:
+                                        if money < 10000:
+                                            add "icons/money_lower_100" + res.suffix + ".png":
+                                                yalign 0.5
+
+
                             $ money_text = "$ " + '{:2,.2f}'.format(money)
                             text money_text:
                                 color "#e80000"
