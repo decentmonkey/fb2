@@ -1,4 +1,5 @@
 label citizen11_dialogue:
+    imgl Dial_Monica_Sandwich_0
     menu:
         "Можно к Вам обратиться?":
             m "Мистер... Можно к Вам обратиться?"
@@ -11,12 +12,14 @@ label citizen11_dialogue:
             citizen11 "Да? Что? Ох, моя голова..."
             menu:
                 "Возьмите, пожалуйста, этот флаер...":
+                    imgl Dial_Monica_Sandwich_1
                     $ citizen11_offered_last_day = day
                     m "Возьмите, пожалуйста, этот флаер..."
-                    if renpy.random.randint(0, 1) == 0:
-                        citizen11 "Милая, флаер это последнее, что мне сейчас нужно. Нет ли у тебя чего покрепче?"
-                        m "Вы про алкоголь?"
-                        citizen11 "Господи, ну конечно..."
+#                    if renpy.random.randint(0, 1) == 0:
+                    imgr Dial_Citizen_11_2
+                    citizen11 "Милая, флаер это последнее, что мне сейчас нужно. Нет ли у тебя чего покрепче?"
+                    m "Вы про алкоголь?"
+                    citizen11 "Господи, ну конечно..."
                     label .loop1:
                         menu:
                         #будет появляться если моника найдет к примеру рядом с помойкой или где еще полупустую бутылку. Надо подумать куда ее поставить.
@@ -35,10 +38,14 @@ label citizen11_dialogue:
     #                    m "Возьмите, пожалуйста, этот флаер..."
     #                    citizen11 "Флаер? Конечно, сколько угодно!"
                             "У меня нет алкоголя.":
+                                imgl Dial_Monica_Sandwich_1
                                 m "Мистер, у меня нет алкоголя, только флаеры с рекламой вкуснейших кебабов..."
                                 #злая картинка citizen
+                                imgr Dial_Citizen_11_4
                                 citizen11 "Каких еще кебабов? Проваливай отсюда!"
+                                imgl Dial_Monica_Sandwich_0
                                 mt "Старый алкаш..."
+                                $ kebabWorkMonicaRefusedAmount += 1
                                 return
     #                        call reduce_flyers()
     #                        img Dial_Citizen_11_2

@@ -43,7 +43,7 @@ define imagesSizesCache = {}
 
 label characters_init:
     $ char_info = {
-        "Monica":{"name": _("Бетти Робертс"), "enabled":True, "face":"Face_Betty", "style":"char_face_style1_red",  "bar_suffix": "red", "level":1, "current_progress":0, "caption": _("Бетти ждет что Моника будет регулярно убираться в доме."), "max_progress":100, "uplevel_label":"bettyProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+#        "Monica":{"name": _("Бетти Робертс"), "enabled":True, "face":"Face_Betty", "style":"char_face_style1_red",  "bar_suffix": "red", "level":1, "current_progress":0, "caption": _("Бетти ждет что Моника будет регулярно убираться в доме."), "max_progress":100, "uplevel_label":"bettyProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
         "Beef":{"name": _("Биф"), "enabled":True, "face":"Face_Beef", "style":"char_face_style1_orange",  "bar_suffix": "orange", "level":1, "current_progress":0, "caption": _("Биф обещал взять Монику работать в офис."), "max_progress":100, "uplevel_label":"beefProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
         "Betty":{"name": _("Бетти Робертс"), "enabled":True, "face":"Face_Betty", "style":"char_face_style1_red",  "bar_suffix": "red", "level":1, "current_progress":0, "caption": _("Бетти ждет что Моника будет регулярно убираться в доме."), "max_progress":100, "uplevel_label":"bettyProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
         "Bardie":{"name": _("Барди"), "enabled":True, "face":"Face_Bardie", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": _("Барди ищет способ заглянуть Монике под юбку."), "max_progress":100, "uplevel_label":"bardieProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
@@ -232,6 +232,7 @@ label game_init:
     $ define_inventory_object("journal", {"description" : _("Журнал Моды"), "label_suffix" : "_use_journal", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/journal" + res.suffix + ".png"})
     $ define_inventory_object("hairdye", {"description" : _("Краска для волос"), "label_suffix" : "_use_hairdye", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/hairdye" + res.suffix + ".png"})
     $ define_inventory_object("crumpled_dress", {"description" : _("Мятое платье"), "label_suffix" : "_use_crumpled_dress", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/crumpled_dress" + res.suffix + ".png"})
+    $ define_inventory_object("joint", {"description" : _("Косяк"), "label_suffix" : "_use_joint", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/joint" + res.suffix + ".png"})
 
     $ scene_transition = False
     $ scene_sound = False

@@ -161,12 +161,19 @@ label start_game:
     # Узнать про оплату у Ральфа
     $ add_hook("enter_scene", "Ralph_Life_Ask_About_Payment", scene="living_room")
 
+    # Заправка
+    $ add_hook("enter_scene", "monica_gas_station_thief_dialogue1", scene="gas_station_view1")
+
 #    $ remove_hook(label="betty_forbidden", scene="House", recursive=True)
     call change_scene("basement_bedroom2", "Fade_long", False)
     $ changeDayTime("day")
 
-    $ miniMapDisabled = {"House":[], "Street_Corner":[]}
+    $ miniMapDisabled = {"House":[], "Street_Corner":["Hostel_Street", "Hostel_Street2", "Hostel_Street3", "Hostel_Edge_1_c"]}
     $ miniMapEnabledOnly = []
+
+    # Закрываем вначале доп. локации в Street_Corner (бедный квартал)
+    $ add_hook("Teleport_Street_Hostel", "kebab_work_block_teleports", scene="whores_place_shawarma", label="kebab_work_block_teleports")
+    $ add_hook("Teleport_Hostel_Street3", "kebab_work_block_teleports", scene="street_corner", label="kebab_work_block_teleports")
 
     $ scene_transition = "Fade_long"
 

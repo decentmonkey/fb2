@@ -1,4 +1,5 @@
 label citizen8_dialogue:
+    imgl Dial_Monica_Sandwich_0
     menu:
         "Мистер... Можно к Вам обратиться?":
             m "Мистер... Можно к Вам обратиться?"
@@ -11,9 +12,10 @@ label citizen8_dialogue:
             citizen8 "Да, детка? Что ты хочешь мне предложить?"
             menu:
                 "Возьмите, пожалуйста, этот флаер...":
+                    imgl Dial_Monica_Sandwich_1
                     $ citizen8_offered_last_day = day
                     m "Возьмите, пожалуйста, этот флаер..."
-                    if renpy.random.randint(0, 1) == 0:
+                    if rand(0, citizen8_refuse_probability) > 0:
                         imgr Dial_Citizen_8_2
                         call reduce_flyers()
                         citizen8 "Взять флаер? Хорошо..."
@@ -23,13 +25,16 @@ label citizen8_dialogue:
                         label .loop1:
                             menu:
                                 "Я ничего не собираюсь предлагать!":
+                                    imgl Dial_Monica_Sandwich_2
+                                    $ kebabWorkHarassmentAmount +=1
                                     #img Моника злится
                                     m "Я ничего не собираюсь предлагать!"
                                 "А что бы Вы хотели? (disabled)":
                                     jump .loop1
                     else:
-                        imgr Dial_Citizen_8_3
+                        imgr Dial_Citizen_8_4
                         citizen8 "Детка! Не приставай ко мне с этим!"
+                        $ kebabWorkMonicaRefusedAmount += 1
         "Уйти.":
             pass
     return

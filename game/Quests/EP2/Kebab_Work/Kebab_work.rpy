@@ -1,7 +1,10 @@
-default kebabWorkInProgress = True
+default kebabWorkInProgress = False
 default monicaKnowAboutKebabWork = False #Знает-ли Моника об этой работе
 default kebabWorkFirstTime = True
 default kebabWorkFlyersLeft = 0
+default kebabWorkFlyersTotal = 0
+default kebabWorkMonicaRefusedAmount = 0
+default kebabWorkHarassmentAmount = 0
 
 label kebab_work_init:
     $ add_hook("Shawarma_Trader", "kebab_work_trader_interact1", scene="whores_place_shawarma", label="kebab_dialogue")
@@ -9,7 +12,11 @@ label kebab_work_init:
 
 label reduce_flyers:
     $ kebabWorkFlyersLeft = kebabWorkFlyersLeft - 1
+    $ notif(_("Флаеры убавлено"))
     call kebab_work_objective_refresh()
+    if kebabWorkFlyersLeft == 0:
+        $ autorun_to_object("monica_shawarma_dialogue3a")
+        call refresh_scene_fade()
     return
 
 label kebab_work_trader_interact1: # первый разговор о кебабах
@@ -21,8 +28,8 @@ label kebab_work_trader_interact1: # первый разговор о кебаб
             call monica_shawarma_dialogue0() # он уже закрывается
             call refresh_scene_fade()
             return False
-        call kebab_work_start()
-        return
+#        call kebab_work_start()
+#        return
         call monica_shawarma_dialogue1()
         if monicaKnowAboutKebabWork == True:
             $ replace_hook("kebab_work_trader_interact2", scene="all", label="kebab_dialogue")
@@ -36,6 +43,7 @@ label kebab_work_start:
     if rand(0,1) == 1:
         $ rnd1 = rnd1 * -1
     $ kebabWorkFlyersLeft = kebabWorkFlyersLeft + rnd1
+    $ kebabWorkFlyersTotal = kebabWorkFlyersLeft
 
     $ add_hook("Teleport_Clothing_Shop", "monica_shawarma_dialogue5", scene="whores_place_shawarma", label="kebab_work")
     if kebabWorkFirstTime == True:
@@ -43,6 +51,7 @@ label kebab_work_start:
         $ add_hook("enter_scene", "monica_shawarma_dialogue7", scene="hostel_street2", label="kebab_work")
         $ add_hook("enter_scene", "monica_shawarma_dialogue9", scene="hostel_street3", label="kebab_work")
         $ add_hook("enter_scene", "monica_shawarma_dialogue8", scene="hostel_edge_1_c", label="kebab_work")
+        $ add_hook("Teleport_Hostel_1_a", "kebab_work_block_hostel_edge_1_a", scene="hostel_edge_1_c", label="kebab_work")
         $ rooms_list = get_rooms_recursive("Street_Corner")
         python:
             for room_name in rooms_list:
@@ -50,15 +59,26 @@ label kebab_work_start:
 
         #monica_shawarma_dialogue10 mt "В этом районе одни наркоманы и извращенцы!"
 
+    $ last_map_enabled = map_enabled
     $ map_enabled = False
+
+    $ cloth_type_last = cloth_type
+    $ cloth_last = cloth
 
     $ cloth_type = "Kebab"
     $ cloth = "Kebab"
     call kebab_work_objective_refresh()
     $ kebabWorkFirstTime = False
+    $ kebabWorkInProgress = True
+    $ kebabWorkMonicaRefusedAmount = 0
+    $ kebabWorkHarassmentAmount = 0
+    $ miniMapDisabled["Street_Corner"] = []
+    $ remove_hook(label="kebab_work_block_teleports")
     return
 
 label kebab_work_objective_refresh:
+    $ print "kebab refresh"
+    $ print kebabWorkFlyersLeft
     if kebabWorkFlyersLeft > 0:
         $ remove_objective("give_flyers")
         $ add_objective("give_flyers", _("Осталось флаеров") + " " + str(kebabWorkFlyersLeft), c_orange, 20)
@@ -70,8 +90,53 @@ label kebab_work_trader_interact2:
     if act == "l":
         return
     if act == "t":
+        if kebabWorkInProgress == True:
+            call kebab_work_end()
+            call refresh_scene_fade()
+            return False
         if monicaEatedLastDay == day:
             call monica_shawarma_dialogue4() #Моника сыта
-            return
+            return False
+        if day_time == "evening":
+            call monica_shawarma_dialogue2a()
+            return False
+        if day_time == "day":
+            call monica_shawarma_dialogue2()
+            return False
     m "interact2"
     return
+
+label kebab_work_end:
+    menu:
+        "Я раздала все флаеры, где мой кебаб?" if kebabWorkFlyersLeft == kebabWorkFlyersTotal or kebabWorkFlyersLeft <= 0:
+            if kebabWorkFlyersLeft == kebabWorkFlyersTotal: #Моника не раздала ни одного флаера
+                call monica_shawarma_dialogue3_end_no_food() #Монику НЕ кормим
+            if kebabWorkFlyersLeft <= 0: #Моника раздала все флаеры
+                call monica_shawarma_dialogue3_food()
+                call monicaEat()
+        "У меня не получилось раздать все флаеры..." if kebabWorkFlyersLeft > 0 and kebabWorkFlyersLeft < kebabWorkFlyersTotal: #Моника раздала не все флаеры
+            call monica_shawarma_dialogue3_end_half_food()
+            call monicaEat()
+        "Уйти.":
+            return
+
+    $ remove_objective("give_flyers")
+    $ remove_hook(label="kebab_work")
+    $ kebabWorkInProgress = False
+    $ cloth_type = cloth_type_last
+    $ cloth = cloth_last
+    $ map_enabled = last_map_enabled
+    call refresh_scene_fade()
+    return
+
+
+label kebab_work_block_hostel_edge_1_a:
+    if act == "l":
+        return
+    call kebab_work_block_teleports()
+    return False
+
+label kebab_work_block_teleports:
+    mt "Я не пойду в эту вонючую подворотню!"
+    "Что там забыла такая девушка как Я!??"
+    return False

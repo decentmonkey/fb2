@@ -105,7 +105,15 @@ init python:
         monicaEatedLastDayTime = day_time
         return
 
-
+    def add_money(amount):
+        global money
+        money = money + amount
+        if amount >= 0:
+            notif ("+ $" + str(amount))
+        else:
+            notif ("- $" + str(amount))
+        renpy.call("process_hooks", "money_change", "global") #процессим хуки
+        return
 
 #    if check_object_has_character(i) == True:
 #        $ data["actions"] = data["actions"] + "i"

@@ -12,11 +12,11 @@ label gas_station_view1_init:
 
     $ add_object_to_scene("Monica", {"type":2, "base":"Gas_Station_View1_Monica_[cloth]", "click" : "gas_station_view1_environment", "actions" : "l", "zorder" : 10})
 
-    $ add_object_to_scene("GasSaleswoman", {"type":2, "base":"Gas_Station_View1_Cashier", "click" : "gas_station_view1_environment", "actions" : "lw", "zorder" : 0, "teleport":True})
+#    $ add_object_to_scene("GasSaleswoman", {"type":2, "base":"Gas_Station_View1_Cashier", "click" : "gas_station_view1_environment", "actions" : "lw", "zorder" : 0, "teleport":True})
     $ add_object_to_scene("Books_Stand", {"type":2, "base":"Gas_Station_View1_Teleport_View2", "click" : "gas_station_view1_environment", "actions" : "lw", "zorder" : 0, "teleport":True})
-    $ add_object_to_scene("Cakes_Stand", {"type":2, "base":"Gas_Station_View1_Teleport_View3", "click" : "gas_station_view1_environment", "actions" : "lw", "zorder" : 0, "teleport":True})
+    $ add_object_to_scene("Cakes_Stand", {"type":2, "base":"Gas_Station_View1_Teleport_View3", "click" : "gas_station_view1_environment", "actions" : "lh", "zorder" : 0, "teleport":True})
     $ add_object_to_scene("Beverages_Stand", {"type":2, "base":"Gas_Station_View1_Teleport_View4", "click" : "gas_station_view1_environment", "actions" : "lw", "zorder" : 0, "teleport":True})
-    $ add_object_to_scene("Flower", {"type":2, "base":"Gas_Station_View1_Flower", "click" : "gas_station_view1_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
+#    $ add_object_to_scene("Flower", {"type":2, "base":"Gas_Station_View1_Flower", "click" : "gas_station_view1_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
 
     $ add_object_to_scene("Logo", {"type":2, "base":"Gas_Station_View1_Logo", "click" : "street_gas_station_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
 
@@ -41,19 +41,16 @@ label gas_station_view1_environment:
             mt "Это кассирша, которую я так долго искала."
         if obj_data["action"] == "w":
             mt "Я не собираюсь подходить к ней. Чем она может мне помочь?"
-            "У нее же нет мозгов!"
+            if monicaBitch == True:
+                "У нее же нет мозгов!"
             return
     if obj_name == "Flower":
-        m "Полудохлое растение."
+        mt "Полудохлое растение."
     if obj_name == "Monica":
-        if gameStage == 3:
-            mt "Что я здесь делаю?"
-            return
-        if gameSubStage == 1:
-            mt "Что я здесь делаю? Мне надо к Дику!"
-            return
-        mt "Что я здесь делаю?"
-        "Может здесь можно было бы переночевать, но эта дура будет работать всю ночь!"
+        call monica_gas_station_thief_dialogue1()
+#        mt "Что я здесь делаю?"
+        return
+
     if obj_name == "Cashier":
         if obj_data["action"] == "l":
             mt "Это касса..."
@@ -63,22 +60,28 @@ label gas_station_view1_environment:
             return
     if obj_name == "Books_Stand":
         if obj_data["action"] == "l":
-            m "Прилавок с книгами..."
+            mt "Прилавок с книгами..."
         if obj_data["action"] == "w":
             mt "Я не хочу туда подходить."
             "Мне нечего делать здесь!"
             return
     if obj_name == "Cakes_Stand":
         if obj_data["action"] == "l":
-            m "Прилавок с пирожными!!!"
-        if obj_data["action"] == "w":
-            mt "Я не хочу туда подходить."
-            "Мне нечего делать здесь!"
+            mt "Прилавок с пирожными!!!"
+            "Может украсть одно?.."
+        if obj_data["action"] == "h":
+            call monica_gas_station_thief()
+            return
+#            mt "Я не хочу туда подходить."
+#            "Мне нечего делать здесь!"
             return
     if obj_name == "Beverages_Stand":
         if obj_data["action"] == "l":
-            m "Прилавки с напитками..."
+            mt "Прилавки с напитками..."
         if obj_data["action"] == "w":
+            mt "Мне не взять оттуда ничего."
+            "Эта дура все время смотрит туда..."
+            return
             mt "Я не хочу туда подходить."
             "Мне нечего делать здесь!"
             return

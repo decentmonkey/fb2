@@ -196,18 +196,29 @@ label monica_shawarma_dialogue1:
 label monica_shawarma_dialogue2:
     #Моника пришла разносить флаеры
     #render
+    $ store_music()
+    music DarxieLand
     img 6139
     shawarma "Мадаме! Я знаю! Вы пришли за вкусный кебаб!"
     menu:
         "Купить кебаб за $ 1":
+            if money < 1:
+                mt "У меня нет этого гребаного доллара!"
+                return
             img 6140
             m "Давай сюда свой жуткий кебаб..."
+            $ add_money(-1)
             img 6141
             shawarma "Пожалуйста, Мадаме!"
+            music stop
             "Самый вкусный кебаб в округе!"
             img 6142
             w
+            sound snd_gulp
+            call monicaEat()
             img 6143
+            with fade
+            w
             #звук еды
             img 6144
             mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
@@ -220,32 +231,61 @@ label monica_shawarma_dialogue2:
             "Я бесплатно угощу Вас кебаб, когда Вы разнести все флаер!"
             img 6147
             m "Еще бы! Я и не надеялась на твою порядочность и щедрость..."
+            music stop
             "Давай сюда свои флаеры!"
             #звук одежды
+            sound snd_cardboard1
             img 6148
+            with fade
             mt "Черт! Сколько же мне еще придется позориться?"
-            pass
+            call kebab_work_start()
+            call refresh_scene_fade()
+            $ restore_music()
+            return
+        "Я не собираюсь ничего разносить! Давай кебаб сюда!":
+            music Power_Bots_Loop
+            img 6135
+            m "Я не собираюсь ничего разносить! Давай кебаб сюда!"
+            img 6136
+            shawarma "Нет, Мадаме! Нет флаер, нет кебаб!"
+            w
+            img 6138
+            with fade
+            w
+            $ autorun_to_object("monica_shawarma_dialogue0a")
+
         "Уйти.":
             pass
 
+    $ restore_music()
     return
 
 label monica_shawarma_dialogue2a:
     #Моника пришла покупать кебаб
     #render
 
+    $ store_music()
+    music DarxieLand
     #день
     if day_time == "day":
         menu:
             "Купить кебаб за $ 1":
+                if money < 1:
+                    mt "У меня нет этого гребаного доллара!"
+                    return
                 img 6140
                 m "Давай сюда свой жуткий кебаб..."
+                $ add_money(-1)
                 img 6141
                 shawarma "Пожалуйста, Мадаме!"
+                music stop
                 "Самый вкусный кебаб в округе!"
                 img 6142
                 w
+                sound snd_gulp
+                call monicaEat()
                 img 6143
+                with fade
                 w
                 #звук еды
                 img 6144
@@ -264,41 +304,65 @@ label monica_shawarma_dialogue2a:
             "Купить кебаб за $ 1":
                 img 6150
                 m "Давай сюда свой жуткий кебаб..."
+                $ add_money(-1)
                 img 6151
                 shawarma "Пожалуйста, Мадаме!"
+                music stop
                 "Самый вкусный кебаб в округе!"
+                sound snd_gulp
+                call monicaEat()
                 img 6152
+                with fade
                 w
                 #звук еды
                 img 6153
                 mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
             "Уйти.":
                 pass
+    $ restore_music()
+    return
 
 
+label monica_shawarma_dialogue3a:
+    #Моника раздала все флаеры
+    # комментарий на улице
+    mt "Я раздала все флаеры, где мой кебаб?"
+    return
 
-label monica_shawarma_dialogue3:
+label monica_shawarma_dialogue3_food:
     #Моника раздала все флаеры
     #render
+    $ store_music()
+    music DarxieLand
     img 6154
     m "Я раздала все флаеры, где мой кебаб?"
     img 6155
     w
     img 6141
+    music stop
     shawarma "Пожалуйста, Мадаме! Приятного аппетита!"
     #звук бросаемого полотна
+    sound snd_cardboard2
     img 6156
     w
     img 6142
     w
+    sound snd_gulp
     img 6143
+    with fade
     w
     #звук еды
     img 6144
     mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
+    $ restore_music()
+    return
 
+label monica_shawarma_dialogue3_end_half_food:
     #Моника раздала не все флаеры
+    $ store_music()
+    music DarxieLand
     img 6157
+    with fade
     m "У меня не получилось раздать все флаеры..."
     img 6158
     w
@@ -308,28 +372,40 @@ label monica_shawarma_dialogue3:
     "У меня есть половина кебаб! Не вся работа, не весь кебаб!"
     m "Его что, кто-то ел?!?!"
     shawarma "Нет, мадаме! Это половина кебаб. Он такой родился на свет!"
+    music stop
     mt "Что-то я сомневаюсь... Но у меня нет выбора..."
     #звук бросаемого полотна
+    sound snd_cardboard2
     img 6156
     m "Давай сюда свой кебаб..."
     img 6142
     w
+    sound snd_gulp
     img 6143
     w
     #звук еды
     img 6144
     mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
+    $ restore_music()
+    return
 
+label monica_shawarma_dialogue3_end_no_food:
     #Моника не раздала флаеры
+    $ store_music()
+    music DarxieLand
     img 6161
+    with fade
     m "Я раздала все флаеры, где мой кебаб?"
     shawarma "Мадаме! Вы не раздали флаер!"
     "Кебаб ждать Вас когда флаер будет роздан!"
+    music stop
     img 6162
     mt "Сволочь!!!"
     #звук бросаемого полотна
+    sound snd_cardboard2
     img 6156
     w
+    $ restore_music()
     return
 
 label monica_shawarma_dialogue4:

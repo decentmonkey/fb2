@@ -44,8 +44,6 @@ label hostel_street_teleport:
             mt "Я не пойду туда! Там насильники! И я теперь должна $10.000 управляющей этой дыры."
             return
         if act == "w":
-            mt "Я не пойду туда! Там насильники! И я теперь должна $10.000 управляющей этой дыры."
-            return
             call change_scene("hostel_street_door")
             return
     return

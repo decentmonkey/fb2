@@ -35,11 +35,11 @@ label street_gas_station2_environment:
         return
 
     if obj_name == "Fuel1" or obj_name == "Fuel2":
-        m "Пистолеты для заправки бензина."
+        mt "Пистолеты для заправки бензина."
         "Мне они сейчас ни к чему!"
     if obj_name == "Logo":
-        m "Модная запрака?"
+        mt "Модная запрака?"
     if obj_name == "Station_Building":
-        m "Здание заправки.
+        mt "Здание заправки.
         Здесь должнен быть где-то вход..."
     return

@@ -10,7 +10,7 @@ label hostel_street_door:
 label hostel_street_door_init:
     $ add_object_to_scene("Teleport_hostel_reception", {"type":2, "base":"Hostel_Street2_Door", "click" : "hostel_street_door_teleport", "actions" : "lw", "zorder" : 0, "b":0.13, "tint":[1.0, 1.0, 0.7], "teleport":True})
     $ add_object_to_scene("Poster", {"type":2, "base":"Hostel_Street2_Poster", "click" : "hostel_street_door_environment", "actions" : "l", "zorder" : 0, "b":0.13, "tint":[1.0, 1.0, 0.7], "group":"environment"})
-    $ add_object_to_scene("Pipes", {"type":2, "base":"Hostel_Street2_Pipes", "click" : "hostel_street_door_environment", "actions" : "l", "zorder" : 0, "b":0.13, "tint":[1.0, 1.0, 0.7], "group":"environment"})
+#    $ add_object_to_scene("Pipes", {"type":2, "base":"Hostel_Street2_Pipes", "click" : "hostel_street_door_environment", "actions" : "l", "zorder" : 0, "b":0.13, "tint":[1.0, 1.0, 0.7], "group":"environment"})
 
 #    $ add_object_to_scene("Car", {"type":2, "base":"hostel_street2_Car", "click" : "hostel_street2_environment", "actions" : "l", "zorder" : 0})
 
@@ -32,13 +32,16 @@ label hostel_street_door_teleport:
         if act == "l":
             mt "Это вход в хостел..."
         if act == "w":
+            mt "Я не пойду туда! Там насильники! И я теперь должна $10.000 управляющей этой дыры."
+            return
             call change_scene("hostel_reception", "Fade_long", "snd_jail_door")
             return
         return
     return
 label hostel_street_door_environment:
     if obj_name == "Poster":
-        pass
+        mt "Я не пойду туда! Там насильники! И я теперь должна $10.000 управляющей этой дыры."
+        return
     if obj_name == "Pipes":
         pass
 
