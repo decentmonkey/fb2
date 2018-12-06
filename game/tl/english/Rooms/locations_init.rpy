@@ -48,11 +48,11 @@ translate english strings:
 
     # Rooms/locations_init.rpy:52
     old "DIRTY STREET"
-    new ""
+    new "DIRTY STREET"
 
     # Rooms/locations_init.rpy:53
     old "POOR STREET"
-    new ""
+    new "POOR STREET"
 
     # Rooms/locations_init.rpy:56
     old "BASEMENT"
@@ -72,15 +72,15 @@ translate english strings:
 
     # Rooms/locations_init.rpy:72
     old "BARDIE'S ROOM"
-    new ""
+    new "BARDIE''S ROOM"
 
     # Rooms/locations_init.rpy:73
     old "GUEST'S BEDROOM"
-    new ""
+    new "GUEST''S BEDROOM"
 
     # Rooms/locations_init.rpy:75
     old "LIVING ROOM"
-    new ""
+    new "LIVING ROOM"
 
     # Rooms/locations_init.rpy:77
     old "Fountain"
@@ -88,7 +88,7 @@ translate english strings:
 
     # Rooms/locations_init.rpy:78
     old "Stairs Ground Floor"
-    new ""
+    new "Stairs Ground Floor"
 
     # Rooms/locations_init.rpy:79
     old "Hall Ground Floor"
@@ -100,7 +100,7 @@ translate english strings:
 
     # Rooms/locations_init.rpy:81
     old "Stairs Top Floor"
-    new ""
+    new "Stairs Top Floor"
 
     # Rooms/locations_init.rpy:82
     old "Hall Top Floor"

@@ -4,19 +4,19 @@
 translate english rich_hotel_event_sittable_environment_4c15ed90:
 
     # mt "Этот вечер нравится мне все больше..."
-    mt "Этот вечер нравится мне все больше..."
+    mt "I am keen on this evening more and more..."
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_sittable.rpy:29
 translate english rich_hotel_event_sittable_environment_ca6ab076:
 
     # mt "Мне надо как-то использовать этого мужчину..."
     # "Не зря же я согласилась посидеть с ним!"
-    mt "Мне надо как-то использовать этого мужчину..."
-    "Не зря же я согласилась посидеть с ним!"
+    mt "I need to use this man somehow..."
+    "No wonder I agreed to sit with him!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_sittable.rpy:37
 translate english rich_hotel_event_sittable_environment_7face56a:
 
     # mt "Судя по виду, это вино очень дорогое..."
-    mt "Судя по виду, это вино очень дорогое..."
+    mt "Most likely, this wine is very expensive..."
 

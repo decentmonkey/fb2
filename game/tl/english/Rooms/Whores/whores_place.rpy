@@ -86,3 +86,21 @@ translate english strings:
     old "ВВЕРХ ПО УЛИЦЕ"
     new "UP THE STREET"
 
+# TODO: Translation updated at 2018-12-06 21:42
+
+# game/Rooms/Whores/whores_place.rpy:81
+translate english whores_place_environment2_2e0ba45b:
+
+    # mt "Тем более в таком виде!"
+    # "Ужас!"
+    mt "Тем более в таком виде!"
+    "The horror!"
+
+# game/Rooms/Whores/whores_place.rpy:95
+translate english whores_place_environment2_2e0ba45b_1:
+
+    # mt "Тем более в таком виде!"
+    # "Ужас!"
+    mt "Тем более в таком виде!"
+    "The horror!"
+

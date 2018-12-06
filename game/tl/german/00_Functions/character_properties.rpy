@@ -22,3 +22,19 @@ translate german strings:
     old "Corruption decreased"
     new ""
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+translate german strings:
+
+    # 00_Functions/character_properties.rpy:73
+    old "прогресс понижен!"
+    new ""
+
+    # 00_Functions/character_properties.rpy:95
+    old "Corruption +"
+    new ""
+
+    # 00_Functions/character_properties.rpy:97
+    old "Corruption -"
+    new ""
+

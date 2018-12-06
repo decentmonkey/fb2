@@ -126,6 +126,7 @@ label kebab_work_end:
     $ cloth_type = cloth_type_last
     $ cloth = cloth_last
     $ map_enabled = last_map_enabled
+    $ monicaKebabWorkAmount +=1
     call refresh_scene_fade()
     return
 

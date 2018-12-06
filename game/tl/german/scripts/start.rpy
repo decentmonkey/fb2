@@ -42,3 +42,15 @@ translate german strings:
     old "ДОМ МОНИКИ"
     new "MONICAS HAUS"
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+translate german strings:
+
+    # scripts/start.rpy:33
+    old "Узнать у Ральфа по поводу оплаты"
+    new "Frage Ralph nach der Bezahlung"
+
+    # scripts/start.rpy:34
+    old "Избежать наказания"
+    new "Entkomme der Bestrafung"
+

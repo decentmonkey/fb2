@@ -4,35 +4,35 @@ translate english strings:
 
     # scripts/init.rpy:39
     old "Бетти ждет что Моника будет регулярно убираться в доме."
-    new ""
+    new "Betty is waiting that Monica will regularly clean the house."
 
     # scripts/init.rpy:39
     old "Work in progress..."
-    new ""
+    new "Work in progress..."
 
     # scripts/init.rpy:39
     old "Биф обещал взять Монику работать в офис."
-    new ""
+    new "Beef promised to take Monica to work in the office."
 
     # scripts/init.rpy:39
     old "Барди ищет способ заглянуть Монике под юбку."
-    new ""
+    new "Bardie's looking for a way to look up Monica's skirt."
 
     # scripts/init.rpy:39
     old "Вивиан"
-    new ""
+    new "Vivian"
 
     # scripts/init.rpy:39
     old "Виктория"
-    new ""
+    new "Victoria"
 
     # scripts/init.rpy:39
     old "Виктория видит в Монике угрозу."
-    new ""
+    new "Victoria sees Monica as a threat."
 
     # scripts/init.rpy:39
     old "Джейн"
-    new ""
+    new "Jane"
 
     # scripts/init.rpy:69
     old "Смотреть"
@@ -52,7 +52,7 @@ translate english strings:
 
     # scripts/init.rpy:69
     old "Инфо"
-    new ""
+    new "Info"
 
     # scripts/init.rpy:140
     old "Пн"
@@ -101,4 +101,12 @@ translate english strings:
     # scripts/init.rpy:222
     old "Мятое платье"
     new "Crumpled dress"
+
+# TODO: Translation updated at 2018-12-06 21:42
+
+translate english strings:
+
+    # scripts/init.rpy:235
+    old "Косяк"
+    new ""
 

@@ -1198,7 +1198,7 @@ translate english monica_charity_event_dialogue12_a89e1fbd:
 translate english monica_charity_event_dialogue12a_1fd69040:
 
     # mt "Куда я пойду??? Мне надо срочно найти деньги для Дика! Иначе конец!"
-    mt "Куда я пойду??? Мне надо срочно найти деньги для Дика! Иначе конец!"
+    mt "Where I can go??? I need to find money for Dick right away! Otherwise, it is the end!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:686
 translate english monica_charity_event_dialogue14_38d4ceed:
@@ -2900,7 +2900,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:155
     old "Еще подумать..."
-    new ""
+    new "Think carefully..."
 
     # Quests/EP2/ep2_dialogues5.rpy:355
     old "Я - та кто уволит тебя за этот проступок!"

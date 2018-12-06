@@ -44,3 +44,15 @@ translate german strings:
     old "ХОЛЛ"
     new "FLUR"
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+# game/Rooms/House/Bedroom/bedroom2.rpy:52
+translate german bedroom2_environment_2b30eee2:
+
+    # mt "А теперь на моей кровати лежит эта жирная корова!"
+    # "А я вынуждена смотреть на это и выполнять все ее капризы!"
+    # "(хмык)"
+    mt "А теперь на моей кровати лежит эта жирная корова!"
+    "А я вынуждена смотреть на это и выполнять все ее капризы!"
+    "(schnief)"
+

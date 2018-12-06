@@ -92,3 +92,23 @@ translate german strings:
     old "Снять все."
     new "Zieh alles aus."
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+# game/Characters/Monica/Wardrobe_Basement.rpy:88
+translate german hook_basement_bedroom_check_exit_cloth_14d7d0c2:
+
+    # mt "Я не могу идти в дом в таком виде!"
+    # "Этот сопляк Барди только этого и ждёт!"
+    # "И, не представляю что со мной сделает Бетти за это!"
+    # "Она и так все время называет меня шлюхой..."
+    mt "Я не могу идти в дом в таком виде!"
+    "Этот сопляк Барди только этого и ждёт!"
+    "И, не представляю что со мной сделает Бетти за это!"
+    "Она и так все время называет меня шлюхой..."
+
+# game/Characters/Monica/Wardrobe_Basement.rpy:93
+translate german hook_basement_bedroom_check_exit_cloth_58d95acf:
+
+    # "Сучка..."
+    "Сучка..."
+

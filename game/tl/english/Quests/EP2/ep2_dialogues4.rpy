@@ -1069,7 +1069,7 @@ translate english monica_office_secretary_dialogue4a_138b30f3:
 
     # secretary "Он сказал что будет вечером!"
     # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
-    secretary "Он сказал что будет вечером!"
+    secretary "He said he would be in the evening!"
     "But You know, he says what he wants and has absolutely no discipline!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:604
@@ -1090,7 +1090,7 @@ translate english monica_office_secretary_dialogue4a_6415e49b:
     secretary "Mrs. Buckfett!"
     "Mr. Beef is not here right now!"
     m "When will it be?"
-    secretary "Он сказал что будет вечером!"
+    secretary "He said he would be in the evening!"
     "But You know, he says what he wants and has absolutely no discipline!"
     m "Okay, honey, thank you."
 
@@ -1683,8 +1683,8 @@ translate english monica_office_dialogue9_55a4cc97:
 
     # mt "Мне надо идти к Бифу и ехать на благотворительный вечер!"
     # "Я так соскучилась по этому!"
-    mt "Мне надо идти к Бифу и ехать на благотворительный вечер!"
-    "Я так соскучилась по этому!"
+    mt "I have to go to Beef's and go to the charity event!"
+    "I've missed this so much!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:936
 translate english monica_office_photostudio_alex_dialogue2_67a011f7:

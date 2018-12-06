@@ -86,3 +86,21 @@ translate german strings:
     old "ВВЕРХ ПО УЛИЦЕ"
     new "DIE STRAßE RAUF"
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+# game/Rooms/Whores/whores_place.rpy:81
+translate german whores_place_environment2_2e0ba45b:
+
+    # mt "Тем более в таком виде!"
+    # "Ужас!"
+    mt "Тем более в таком виде!"
+    "Ужас!"
+
+# game/Rooms/Whores/whores_place.rpy:95
+translate german whores_place_environment2_2e0ba45b_1:
+
+    # mt "Тем более в таком виде!"
+    # "Ужас!"
+    mt "Тем более в таком виде!"
+    "Ужас!"
+

@@ -10,7 +10,7 @@ translate english monica_office_secretary_environment_44e0e614:
     mt "This is the floor of my main office."
     "I have everything at hand here."
     "My Secretary, my photo Studio and my office."
-    "Вернее сейчас кабинет не мой, но скоро будет МОЙ снова!!!"
+    "Now the Cabinet is not mine but soon it will be MINE again!!!"
 
 # game/Rooms/Monica_Office/monica_office_secretary.rpy:65
 translate english monica_office_secretary_environment_08ba9afd:
@@ -34,7 +34,7 @@ translate english monica_office_secretary_environment_ee057710:
 translate english monica_office_secretary_environment_9b84380b:
 
     # mt "Из этих окон ужасный вид на город!"
-    mt "Из этих окон ужасный вид на город!"
+    mt "From these windows there is a terrible view of the city!"
 
 # game/Rooms/Monica_Office/monica_office_secretary.rpy:77
 translate english monica_office_secretary_environment_15bd50a9:
@@ -45,8 +45,8 @@ translate english monica_office_secretary_environment_15bd50a9:
     # "А жаль, я бы с удовольствием съела что-нибудь!"
     mt "This is the tea table."
     "My Secretary usually serves tea or coffee to those who are waiting for my reception."
-    "Неудивительно что выпечки и кофе здесь больше нет..."
-    "А жаль, я бы с удовольствием съела что-нибудь!"
+    "It's no wonder that there are no more bakes and coffee..."
+    "What a pity, I'd love to eat something!"
 
 # game/Rooms/Monica_Office/monica_office_secretary.rpy:89
 translate english monica_office_secretary_environment_f6f37a04:
@@ -58,7 +58,7 @@ translate english monica_office_secretary_environment_f6f37a04:
     mt "This is my secretary."
     mt "One of the few normal women who knows how to behave herself with others."
     "She is very educated and intelligent."
-    "Я знаю, она сохранит верность мне и поможет вернуть все назад..."
+    "I know she'll stay faithful to me and will help me to get it back..."
 
 translate english strings:
 

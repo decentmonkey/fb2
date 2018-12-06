@@ -88,3 +88,31 @@ translate german strings:
     old "ГАРДЕРОБ"
     new "KLEIDERSCHRANK"
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+# game/Rooms/House/Bedroom/bedroom1.rpy:50
+translate german bedroom1_environment_64907934:
+
+    # mt "Моя любимая кроватка!"
+    # "Она такая удобная!"
+    # "Как я скучаю по ней!"
+    mt "Meine Lieblingsschaukel!"
+    "Sie ist so angenehm!"
+    "Ich vermisse das!"
+
+# game/Rooms/House/Bedroom/bedroom1.rpy:54
+translate german bedroom1_environment_2b30eee2:
+
+    # mt "А теперь на моей кровати лежит эта жирная корова!"
+    # "А я вынуждена смотреть на это и выполнять все ее капризы!"
+    # "(хмык)"
+    mt "А теперь на моей кровати лежит эта жирная корова!"
+    "А я вынуждена смотреть на это и выполнять все ее капризы!"
+    "(schnief)"
+
+# game/Rooms/House/Bedroom/bedroom1.rpy:57
+translate german bedroom1_environment_69fdc71c:
+
+    # "Я ВЕРНУ ЕЕ!!!"
+    "ICH BEKOMME ALLES ZURÜCK!!!"
+

@@ -44,3 +44,17 @@ translate german citizen6_dialogue_02f91a1d:
     # citizen6 "Я тороплюсь! Давайте в другой раз!"
     citizen6 "Я тороплюсь! Давайте в другой раз!"
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:23
+translate german citizen6_dialogue_46c66cc7:
+
+    # citizen6 "Какой красивый флаер! Прямо такой-же как Вы!"
+    citizen6 "Какой красивый флаер! Прямо такой-же как Вы!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:25
+translate german citizen6_dialogue_ef801c40:
+
+    # m "Спасибо конечно, но меня не нужно сравнивать с флаером."
+    m "Спасибо конечно, но меня не нужно сравнивать с флаером."
+

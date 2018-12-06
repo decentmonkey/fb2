@@ -14,6 +14,10 @@ default monicaLastPissedDayTime = "day"
 default monicaLastShowerDay = 0 # Последний день, когда Моника принимала душ
 default monicaLastShowerDayTime = ""
 
+default monicaStoleFoodGasStationAmount = 0
+default monicaStoleFoodTotal = 0
+default monicaKebabWorkAmount = 0
+
 label monicaEat: #кормим Монику
     $ monicaEatedLastDay = day #кормим Монику
     $ monicaEatedLastDayTime = day_time

@@ -1252,3 +1252,93 @@ translate german strings:
     old "Лечь спать."
     new "Geh' schlafen."
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+# game/Quests/EP2/ep2_dialogues1.rpy:449
+translate german cleaning_betty_comment1_ba11ae58_1:
+
+    # betty "Моника, гувернантка."
+    betty "Моника, гувернантка."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:451
+translate german cleaning_betty_comment1_000edcab_1:
+
+    # "Как я выгляжу?"
+    "Как я выгляжу?"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:453
+translate german cleaning_betty_comment1_e3d7fad2_1:
+
+    # "Тебе нравится?"
+    "Gefällt es dir?"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:455
+translate german cleaning_betty_comment1_0a5616b8_1:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:457
+translate german cleaning_betty_comment1_1ff29d6f_1:
+
+    # m "Да, Мэм. Вы выглядите великолепно."
+    m "Да, Мэм. Вы выглядите великолепно."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:459
+translate german cleaning_betty_comment1_72197c04:
+
+    # betty "Да, получше чем ты!"
+    # "Продолжай убираться."
+    betty "Да, получше чем ты!"
+    "Продолжай убираться."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:476
+translate german cleaning_betty_comment1_72c4389d:
+
+    # mt "..."
+    mt "..."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:479
+translate german cleaning_betty_comment1_faa5a50a:
+
+    # "Сучка!"
+    "Schlampe!"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:694
+translate german monica_goout1_governess_restrict_30f16a20_1:
+
+    # "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
+    # "Но если ты решила все-таки уйти, то, будь добра, {b}переоденься в свою одежду{/b}!!!"
+    # "ЯСНО ТЕБЕ?!"
+    "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
+    "Но если ты решила все-таки уйти, то, будь добра, {b}переоденься в свою одежду{/b}!!!"
+    "IST DAS KLAR?!"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:699
+translate german monica_goout1_governess_restrict_0d0e3a0d_1:
+
+    # m "Да, Миссис Робертс... Я поняла..."
+    m "Да, Миссис Робертс... Я поняла..."
+
+translate german strings:
+
+    # Quests/EP2/ep2_dialogues1.rpy:434
+    old "Бетти подумывает взять Монику в фитнесс зал"
+    new ""
+
+    # Quests/EP2/ep2_dialogues1.rpy:440
+    old "Моника еще не проявила себя"
+    new ""
+
+    # Quests/EP2/ep2_dialogues1.rpy:461
+    old "Моника регулярно убирается"
+    new ""
+
+    # Quests/EP2/ep2_dialogues1.rpy:467
+    old "Моника плохо работает"
+    new ""
+
+    # Quests/EP2/ep2_dialogues1.rpy:643
+    old "Моника нерегулярно убирается в доме"
+    new ""
+

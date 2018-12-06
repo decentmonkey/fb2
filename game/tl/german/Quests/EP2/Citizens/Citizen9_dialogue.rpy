@@ -96,3 +96,79 @@ translate german strings:
     old "Ничего"
     new ""
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:17
+translate german citizen9_dialogue_0096c5e5:
+
+    # m "Потрогай мою сиську."
+    m "Потрогай мою сиську."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:19
+translate german citizen9_dialogue_4e0f6bb0:
+
+    # citizen9 "Как скажешь, дамочка."
+    # m "Идиот! Что ты делаешь?"
+    citizen9 "Как скажешь, дамочка."
+    m "Идиот! Что ты делаешь?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:23
+translate german citizen9_dialogue_a870583f:
+
+    # citizen9 "То, что ты мне сказала! Хе-хе-хе. Отличная грудь кстати!"
+    # m "Идиот! Я от Джека!"
+    citizen9 "То, что ты мне сказала! Хе-хе-хе. Отличная грудь кстати!"
+    m "Идиот! Я от Джека!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:26
+translate german citizen9_dialogue_85e25246:
+
+    # citizen9 "Ууу, дамочка, с этого и надо было начинать. Что у тебя?"
+    citizen9 "Ууу, дамочка, с этого и надо было начинать. Что у тебя?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:32
+translate german citizen9_dialogue_0e5dcd34:
+
+    # m "Вот."
+    m "Hm."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:34
+translate german citizen9_dialogue_ff01ee61:
+
+    # citizen9 "Отлично. Узнаю старину Джека. Отличная вещь. Хочешь?"
+    citizen9 "Отлично. Узнаю старину Джека. Отличная вещь. Хочешь?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:37
+translate german citizen9_dialogue_b23d7b29:
+
+    # m "Нет, спасибо. Вот, возьми еще флаер."
+    m "Нет, спасибо. Вот, возьми еще флаер."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:39
+translate german citizen9_dialogue_6d15b6ec:
+
+    # citizen9 "Флаер? Ладно. Как насчет потрогать сиську еще раз?"
+    citizen9 "Флаер? Ладно. Как насчет потрогать сиську еще раз?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:41
+translate german citizen9_dialogue_ea3f27a9:
+
+    # m "Нет!"
+    # mt "Идиот."
+    m "Nein!"
+    mt "Идиот."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:59
+translate german citizen9_dialogue_9d96a026:
+
+    # citizen9 "А? Что?"
+    # "Флаер?"
+    citizen9 "А? Что?"
+    "Флаер?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:63
+translate german citizen9_dialogue_5437aaad:
+
+    # "Хорошо..."
+    "Gut..."
+

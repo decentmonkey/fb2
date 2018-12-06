@@ -44,3 +44,15 @@ translate english strings:
     old "ХОЛЛ"
     new "HALL"
 
+# TODO: Translation updated at 2018-12-06 21:42
+
+# game/Rooms/House/Bedroom/bedroom2.rpy:52
+translate english bedroom2_environment_2b30eee2:
+
+    # mt "А теперь на моей кровати лежит эта жирная корова!"
+    # "А я вынуждена смотреть на это и выполнять все ее капризы!"
+    # "(хмык)"
+    mt "А теперь на моей кровати лежит эта жирная корова!"
+    "А я вынуждена смотреть на это и выполнять все ее капризы!"
+    "(sob)"
+

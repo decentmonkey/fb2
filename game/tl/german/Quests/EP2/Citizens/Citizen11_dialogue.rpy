@@ -54,3 +54,33 @@ translate german strings:
     old "У меня нет алкоголя."
     new ""
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+# game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:20
+translate german citizen11_dialogue_loop1_6fcede6c:
+
+    # citizen11 "Милая, флаер это последнее, что мне сейчас нужно. Нет ли у тебя чего покрепче?"
+    # m "Вы про алкоголь?"
+    # citizen11 "Господи, ну конечно..."
+    citizen11 "Милая, флаер это последнее, что мне сейчас нужно. Нет ли у тебя чего покрепче?"
+    m "Вы про алкоголь?"
+    citizen11 "Господи, ну конечно..."
+
+# game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:42
+translate german citizen11_dialogue_loop1_abba711a:
+
+    # m "Мистер, у меня нет алкоголя, только флаеры с рекламой вкуснейших кебабов..."
+    m "Мистер, у меня нет алкоголя, только флаеры с рекламой вкуснейших кебабов..."
+
+# game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:45
+translate german citizen11_dialogue_loop1_5705e2ac:
+
+    # citizen11 "Каких еще кебабов? Проваливай отсюда!"
+    citizen11 "Каких еще кебабов? Проваливай отсюда!"
+
+# game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:47
+translate german citizen11_dialogue_loop1_ea9512e8:
+
+    # mt "Старый алкаш..."
+    mt "Старый алкаш..."
+

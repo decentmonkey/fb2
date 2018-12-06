@@ -42,3 +42,15 @@ translate english strings:
     old "ДОМ МОНИКИ"
     new "MONICA'S HOUSE"
 
+# TODO: Translation updated at 2018-12-06 21:42
+
+translate english strings:
+
+    # scripts/start.rpy:33
+    old "Узнать у Ральфа по поводу оплаты"
+    new "To ask Ralph about the payment"
+
+    # scripts/start.rpy:34
+    old "Избежать наказания"
+    new "Escape punishment"
+

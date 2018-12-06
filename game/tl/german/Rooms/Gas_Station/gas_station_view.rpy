@@ -416,3 +416,51 @@ translate german strings:
     old "Gas Station"
     new "Tankstelle"
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:43
+translate german gas_station_view1_environment_237ea3da:
+
+    # mt "Я не собираюсь подходить к ней. Чем она может мне помочь?"
+    mt "Ich gehe nicht zu ihr hin, was könnte sie schon für mich tun?"
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:45
+translate german gas_station_view1_environment_95d83e10:
+
+    # "У нее же нет мозгов!"
+    "Sie hat kein Hirn!"
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:48
+translate german gas_station_view1_environment_1e29c7d7:
+
+    # mt "Полудохлое растение."
+    mt "Halbtote Pflanze."
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:63
+translate german gas_station_view1_environment_5653bd78:
+
+    # mt "Прилавок с книгами..."
+    mt "Regal mit Büchern..."
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:70
+translate german gas_station_view1_environment_c47568c6:
+
+    # mt "Прилавок с пирожными!!!"
+    # "Может украсть одно?.."
+    mt "Kuchentheke!!!"
+    "Может украсть одно?.."
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:80
+translate german gas_station_view1_environment_a3c88f50:
+
+    # mt "Прилавки с напитками..."
+    mt "Regal mit Getränken..."
+
+# game/Rooms/Gas_Station/gas_station_view.rpy:82
+translate german gas_station_view1_environment_ca4990ec:
+
+    # mt "Мне не взять оттуда ничего."
+    # "Эта дура все время смотрит туда..."
+    mt "Мне не взять оттуда ничего."
+    "Эта дура все время смотрит туда..."
+

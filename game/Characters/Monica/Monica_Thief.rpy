@@ -43,6 +43,8 @@ label monica_gas_station_thief_dialogue2:
     img images[0]
     "Я заслужила его за все то что пережила..."
 
+    $ monicaStoleFoodGasStationAmount +=1
+    $ monicaStoleFoodTotal +=1
     call monicaEat()
     $ restore_music()
     call change_scene("street_gas_station", "Fade_long", "snd_gulp")

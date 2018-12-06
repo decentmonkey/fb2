@@ -24,7 +24,7 @@ translate english street_house_main_yard_environment_1f97ba8c:
 translate english street_house_main_yard_environment_60cdfbfc:
 
     # mt "Мне не о чем разговаривать с ним!!!"
-    mt "Мне не о чем разговаривать с ним!!!"
+    mt "I have nothing to speak with him about!!!"
 
 # game/Rooms/House/Street_House/street_house_main_yard.rpy:60
 translate english street_house_main_yard_environment_060a1c80:

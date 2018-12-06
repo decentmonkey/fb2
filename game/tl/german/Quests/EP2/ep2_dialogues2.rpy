@@ -576,3 +576,175 @@ translate german strings:
     old "Разносить флаеры."
     new ""
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+# game/Quests/EP2/ep2_dialogues2.rpy:15
+translate german monica_shawarma_dialogue0a_c0e012d2:
+
+    # mt "Животное!"
+    mt "So ein Tier!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:17
+translate german monica_shawarma_dialogue0a_8727578b:
+
+    # mt "Вот мерзавец!"
+    mt "Вот мерзавец!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:206
+translate german monica_shawarma_dialogue2_6ef85f2c:
+
+    # mt "У меня нет этого гребаного доллара!"
+    mt "У меня нет этого гребаного доллара!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:212
+translate german monica_shawarma_dialogue2_eef02ec9:
+
+    # shawarma "Пожалуйста, Мадаме!"
+    shawarma "Пожалуйста, Мадаме!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:214
+translate german monica_shawarma_dialogue2_2f17e599:
+
+    # "Самый вкусный кебаб в округе!"
+    "Самый вкусный кебаб в округе!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:233
+translate german monica_shawarma_dialogue2_b6008e7f:
+
+    # m "Еще бы! Я и не надеялась на твою порядочность и щедрость..."
+    m "Еще бы! Я и не надеялась на твою порядочность и щедрость..."
+
+# game/Quests/EP2/ep2_dialogues2.rpy:235
+translate german monica_shawarma_dialogue2_87bd9da0:
+
+    # "Давай сюда свои флаеры!"
+    "Давай сюда свои флаеры!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:248
+translate german monica_shawarma_dialogue2_8411bd20:
+
+    # m "Я не собираюсь ничего разносить! Давай кебаб сюда!"
+    m "Я не собираюсь ничего разносить! Давай кебаб сюда!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:250
+translate german monica_shawarma_dialogue2_8e0d7ead:
+
+    # shawarma "Нет, Мадаме! Нет флаер, нет кебаб!"
+    shawarma "Нет, Мадаме! Нет флаер, нет кебаб!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:274
+translate german monica_shawarma_dialogue2a_6ef85f2c:
+
+    # mt "У меня нет этого гребаного доллара!"
+    mt "У меня нет этого гребаного доллара!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:280
+translate german monica_shawarma_dialogue2a_eef02ec9:
+
+    # shawarma "Пожалуйста, Мадаме!"
+    shawarma "Пожалуйста, Мадаме!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:282
+translate german monica_shawarma_dialogue2a_2f17e599:
+
+    # "Самый вкусный кебаб в округе!"
+    "Самый вкусный кебаб в округе!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:309
+translate german monica_shawarma_dialogue2a_eef02ec9_1:
+
+    # shawarma "Пожалуйста, Мадаме!"
+    shawarma "Пожалуйста, Мадаме!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:311
+translate german monica_shawarma_dialogue2a_2f17e599_1:
+
+    # "Самый вкусный кебаб в округе!"
+    "Самый вкусный кебаб в округе!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:329
+translate german monica_shawarma_dialogue3a_6b64dc9c:
+
+    # mt "Я раздала все флаеры, где мой кебаб?"
+    mt "Я раздала все флаеры, где мой кебаб?"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:338
+translate german monica_shawarma_dialogue3_food_5a9b0055:
+
+    # m "Я раздала все флаеры, где мой кебаб?"
+    m "Я раздала все флаеры, где мой кебаб?"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:343
+translate german monica_shawarma_dialogue3_food_18e6a0ae:
+
+    # shawarma "Пожалуйста, Мадаме! Приятного аппетита!"
+    shawarma "Пожалуйста, Мадаме! Приятного аппетита!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:356
+translate german monica_shawarma_dialogue3_food_f0e9d431:
+
+    # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
+    mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
+
+# game/Quests/EP2/ep2_dialogues2.rpy:366
+translate german monica_shawarma_dialogue3_end_half_food_fe7c2047:
+
+    # m "У меня не получилось раздать все флаеры..."
+    m "У меня не получилось раздать все флаеры..."
+
+# game/Quests/EP2/ep2_dialogues2.rpy:370
+translate german monica_shawarma_dialogue3_end_half_food_eb851840:
+
+    # shawarma "Ничего страшного, Мадаме!"
+    shawarma "Ничего страшного, Мадаме!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:372
+translate german monica_shawarma_dialogue3_end_half_food_421c68a8:
+
+    # "У меня есть половина кебаб! Не вся работа, не весь кебаб!"
+    # m "Его что, кто-то ел?!?!"
+    # shawarma "Нет, мадаме! Это половина кебаб. Он такой родился на свет!"
+    "У меня есть половина кебаб! Не вся работа, не весь кебаб!"
+    m "Его что, кто-то ел?!?!"
+    shawarma "Нет, мадаме! Это половина кебаб. Он такой родился на свет!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:376
+translate german monica_shawarma_dialogue3_end_half_food_570519aa:
+
+    # mt "Что-то я сомневаюсь... Но у меня нет выбора..."
+    mt "Что-то я сомневаюсь... Но у меня нет выбора..."
+
+# game/Quests/EP2/ep2_dialogues2.rpy:380
+translate german monica_shawarma_dialogue3_end_half_food_48aa8d00:
+
+    # m "Давай сюда свой кебаб..."
+    m "Давай сюда свой кебаб..."
+
+# game/Quests/EP2/ep2_dialogues2.rpy:388
+translate german monica_shawarma_dialogue3_end_half_food_f0e9d431:
+
+    # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
+    mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
+
+# game/Quests/EP2/ep2_dialogues2.rpy:398
+translate german monica_shawarma_dialogue3_end_no_food_8ab1c296:
+
+    # m "Я раздала все флаеры, где мой кебаб?"
+    # shawarma "Мадаме! Вы не раздали флаер!"
+    # "Кебаб ждать Вас когда флаер будет роздан!"
+    m "Я раздала все флаеры, где мой кебаб?"
+    shawarma "Мадаме! Вы не раздали флаер!"
+    "Кебаб ждать Вас когда флаер будет роздан!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:403
+translate german monica_shawarma_dialogue3_end_no_food_8cf89654:
+
+    # mt "Сволочь!!!"
+    mt "Schwein!"
+
+translate german strings:
+
+    # Quests/EP2/ep2_dialogues2.rpy:203
+    old "Я не собираюсь ничего разносить! Давай кебаб сюда!"
+    new ""
+

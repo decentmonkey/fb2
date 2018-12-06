@@ -4,7 +4,7 @@ translate english strings:
 
     # Rooms/Hostel/hostel_street2.rpy:24
     old "БЕДНЫЙ РАЙОН"
-    new ""
+    new "POOR AREA"
 
     # Rooms/Hostel/hostel_street2.rpy:26
     old "ПЕРЕКРЕСТОК"

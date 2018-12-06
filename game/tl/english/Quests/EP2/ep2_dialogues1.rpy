@@ -983,8 +983,8 @@ translate english cleaning_monica_goout1_eebeb95c:
 
     # mt "Мне надо закончить уборку здесь прежде чем уходить."
     # "Иначе Бетти уволит меня и я окажусь на улице!"
-    mt "Мне надо закончить уборку здесь прежде чем уходить."
-    "Иначе Бетти уволит меня и я окажусь на улице!"
+    mt "I have to finish cleaning here before I go."
+    "Otherwise Betty will fire me and I'll end up on the street!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:558
 translate english cleaning_monica_finished1_f1525b35:
@@ -997,8 +997,8 @@ translate english cleaning_monica_comment_96d431d6:
 
     # mt "Ненавижу убираться!!!"
     # "Я королева и мне нельзя заниматься такой работой!"
-    mt "Ненавижу убираться!!!"
-    "Я королева и мне нельзя заниматься такой работой!"
+    mt "I hate cleaning!!!"
+    "I'm the Queen and I can't do this kind of work!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:571
 translate english bardie_comment4_9cdfbb8a:
@@ -1215,12 +1215,12 @@ translate english monica_wakeup1_a2404ba7:
     # mt "Это мой дом! Я не заслуживаю того чтобы спать в подвале!"
     # mt "Мне надо что-то придумать, чтобы вернуть все назад как было!"
     mt "Another morning in this hole! I have to think of something to get it back!"
-    mt "Я не высыпаюсь на этой кровати."
-    "Мне нужна нормальная постель!"
-    mt "Такая королева как я не может привыкнуть спать в таких условиях!"
-    "Я заслуживаю лучшего!"
-    mt "Это мой дом! Я не заслуживаю того чтобы спать в подвале!"
-    mt "Мне надо что-то придумать, чтобы вернуть все назад как было!"
+    mt "I don't get enough sleep on this bed."
+    "I need a proper bed!"
+    mt "A Queen like me can't get used to sleeping in these conditions!"
+    "I deserve better!"
+    mt "This is my house! I don't deserve to sleep in the basement!"
+    mt "I have to think of something to get it back!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:688
 translate english monica_gosleep1_1a9716fb:
@@ -1251,4 +1251,94 @@ translate english strings:
     # Quests/EP2/ep2_dialogues1.rpy:700
     old "Лечь спать."
     new "Go to sleep."
+
+# TODO: Translation updated at 2018-12-06 21:42
+
+# game/Quests/EP2/ep2_dialogues1.rpy:449
+translate english cleaning_betty_comment1_ba11ae58_1:
+
+    # betty "Моника, гувернантка."
+    betty "Monica, governess."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:451
+translate english cleaning_betty_comment1_000edcab_1:
+
+    # "Как я выгляжу?"
+    "How I look?"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:453
+translate english cleaning_betty_comment1_e3d7fad2_1:
+
+    # "Тебе нравится?"
+    "Do you like it?"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:455
+translate english cleaning_betty_comment1_0a5616b8_1:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:457
+translate english cleaning_betty_comment1_1ff29d6f_1:
+
+    # m "Да, Мэм. Вы выглядите великолепно."
+    m "Yes, MA'am. You look great."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:459
+translate english cleaning_betty_comment1_72197c04:
+
+    # betty "Да, получше чем ты!"
+    # "Продолжай убираться."
+    betty "Better than you!"
+    "Keep cleaning."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:476
+translate english cleaning_betty_comment1_72c4389d:
+
+    # mt "..."
+    mt "..."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:479
+translate english cleaning_betty_comment1_faa5a50a:
+
+    # "Сучка!"
+    "Bitch!"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:694
+translate english monica_goout1_governess_restrict_30f16a20_1:
+
+    # "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
+    # "Но если ты решила все-таки уйти, то, будь добра, {b}переоденься в свою одежду{/b}!!!"
+    # "ЯСНО ТЕБЕ?!"
+    "For the money they pay you, I don't think you should have any free time!"
+    "But if you decide to leave, then please {b}change into your clothes!!!{/b}"
+    "IS THAT CLEAR?!"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:699
+translate english monica_goout1_governess_restrict_0d0e3a0d_1:
+
+    # m "Да, Миссис Робертс... Я поняла..."
+    m "Yes, Mrs. Roberts... I understand..."
+
+translate english strings:
+
+    # Quests/EP2/ep2_dialogues1.rpy:434
+    old "Бетти подумывает взять Монику в фитнесс зал"
+    new ""
+
+    # Quests/EP2/ep2_dialogues1.rpy:440
+    old "Моника еще не проявила себя"
+    new ""
+
+    # Quests/EP2/ep2_dialogues1.rpy:461
+    old "Моника регулярно убирается"
+    new ""
+
+    # Quests/EP2/ep2_dialogues1.rpy:467
+    old "Моника плохо работает"
+    new ""
+
+    # Quests/EP2/ep2_dialogues1.rpy:643
+    old "Моника нерегулярно убирается в доме"
+    new ""
 

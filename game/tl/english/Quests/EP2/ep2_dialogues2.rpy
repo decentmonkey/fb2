@@ -5,8 +5,8 @@ translate english monica_shawarma_dialogue0_650b1fcd:
 
     # shawarma "Я уже закрываюсь!"
     # "Приходите завтра!!!"
-    shawarma "Я уже закрываюсь!"
-    "Приходите завтра!!!"
+    shawarma "I was about to close!"
+    "Come back tomorrow!!!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:8
 translate english monica_shawarma_dialogue0_c0e012d2:
@@ -18,7 +18,7 @@ translate english monica_shawarma_dialogue0_c0e012d2:
 translate english monica_shawarma_dialogue0_8727578b:
 
     # mt "Вот мерзавец!"
-    mt "Вот мерзавец!"
+    mt "That bastard!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:17
 translate english monica_shawarma_dialogue1_f0f3aac7:
@@ -500,15 +500,15 @@ translate english monica_shawarma_dialogue5_50a39a46:
     # mt "Я не собираюсь ходить по приличным улицам в таком виде!"
     # "Мне лучше ходить по этому району, где я в таком виде не слишком выделяюсь на фоне окружающих."
     mt "I'm not going to walk the streets looking like that!"
-    "Мне лучше ходить по этому району, где я в таком виде не слишком выделяюсь на фоне окружающих."
+    "I'd better go to this area, where I can not stand out from others."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:305
 translate english monica_shawarma_dialogue6_bd7d8acb:
 
     # mt "Возможно здесь я найду кого-то кому можно раздать эти дурацкие флаеры..."
     # "Главное не подходить к тому хостелу..."
-    mt "Возможно здесь я найду кого-то кому можно раздать эти дурацкие флаеры..."
-    "Главное не подходить к тому хостелу..."
+    mt "Maybe here I'll find someone to hand out these stupid flyers to..."
+    "The main thing is not to approach the hostel..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:310
 translate english monica_shawarma_dialogue7_57bdab85:
@@ -517,32 +517,32 @@ translate english monica_shawarma_dialogue7_57bdab85:
     # "Такие же и обитатели здесь..."
     # "Но мне главное раздать эти флаеры и убраться отсюда!"
     # "Такая девушка как Я не подходит подобному месту!"
-    mt "Какой грязный вонючий район..."
-    "Такие же и обитатели здесь..."
-    "Но мне главное раздать эти флаеры и убраться отсюда!"
-    "Такая девушка как Я не подходит подобному месту!"
+    mt "What a filthy, smelly neighborhood..."
+    "The same inhabitants here..."
+    "But I have to hand out these flyers and get out of here!"
+    "A girl like me doesn't fit in a place like this!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:318
 translate english monica_shawarma_dialogue8_02873c92:
 
     # mt "Грязная подворотня."
     # "Там дальше есть улица, может быть попробовать поискать там кого-то, чтобы раздать эти дурацки флаеры?"
-    mt "Грязная подворотня."
-    "Там дальше есть улица, может быть попробовать поискать там кого-то, чтобы раздать эти дурацки флаеры?"
+    mt "A dirty alley."
+    "There's a street down there, maybe try looking for someone to hand out these stupid flyers?"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:323
 translate english monica_shawarma_dialogue9_6ac2272d:
 
     # mt "Этот место не совсем уж грязное, но жители здесь не лучше..."
-    mt "Этот место не совсем уж грязное, но жители здесь не лучше..."
+    mt "This place isn't exactly dirty, but the people here are not better..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:328
 translate english monica_shawarma_dialogue10_f7f02719:
 
     # mt "В этом районе одни наркоманы и извращенцы!"
     # "Здесь нет ни одного нормального человека, которому можно просто так дать этот чертов флаер!!!"
-    mt "В этом районе одни наркоманы и извращенцы!"
-    "Здесь нет ни одного нормального человека, которому можно просто так дать этот чертов флаер!!!"
+    mt "There are only addicts and perverts in this district!"
+    "There's not a normal person you can just give this damn flyer to!!!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:334
 translate english monica_shawarma_dialogue11_9630037f:
@@ -553,9 +553,9 @@ translate english monica_shawarma_dialogue11_9630037f:
     # "И разносить флаеры за еду!!!"
     # mt "О БОЖЕ!"
     mt "Oh my God!"
-    mt "Какой ужас"
-    "Моника! Как ты докатилась до того, чтобы ходить В ЭТОМ!!!"
-    "И разносить флаеры за еду!!!"
+    mt "What a horror."
+    "Monica! How did you end up to be wearing IT!!!"
+    "And deliver flyers for food!!!"
     mt "Oh my God!"
 
 translate english strings:
@@ -575,4 +575,176 @@ translate english strings:
     # Quests/EP2/ep2_dialogues2.rpy:157
     old "Разносить флаеры."
     new "Deliver flyers."
+
+# TODO: Translation updated at 2018-12-06 21:42
+
+# game/Quests/EP2/ep2_dialogues2.rpy:15
+translate english monica_shawarma_dialogue0a_c0e012d2:
+
+    # mt "Животное!"
+    mt "Animal!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:17
+translate english monica_shawarma_dialogue0a_8727578b:
+
+    # mt "Вот мерзавец!"
+    mt "That bastard!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:206
+translate english monica_shawarma_dialogue2_6ef85f2c:
+
+    # mt "У меня нет этого гребаного доллара!"
+    mt "У меня нет этого гребаного доллара!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:212
+translate english monica_shawarma_dialogue2_eef02ec9:
+
+    # shawarma "Пожалуйста, Мадаме!"
+    shawarma "Please, Madam!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:214
+translate english monica_shawarma_dialogue2_2f17e599:
+
+    # "Самый вкусный кебаб в округе!"
+    "The most delicious kebab in the area!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:233
+translate english monica_shawarma_dialogue2_b6008e7f:
+
+    # m "Еще бы! Я и не надеялась на твою порядочность и щедрость..."
+    m "You betcha! I didn't expect you to be decent or generous..."
+
+# game/Quests/EP2/ep2_dialogues2.rpy:235
+translate english monica_shawarma_dialogue2_87bd9da0:
+
+    # "Давай сюда свои флаеры!"
+    "Give me your flyers!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:248
+translate english monica_shawarma_dialogue2_8411bd20:
+
+    # m "Я не собираюсь ничего разносить! Давай кебаб сюда!"
+    m "I'm not going to deliver anything! Get the kebab!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:250
+translate english monica_shawarma_dialogue2_8e0d7ead:
+
+    # shawarma "Нет, Мадаме! Нет флаер, нет кебаб!"
+    shawarma "No, Madam! No flyer, no kebabs!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:274
+translate english monica_shawarma_dialogue2a_6ef85f2c:
+
+    # mt "У меня нет этого гребаного доллара!"
+    mt "У меня нет этого гребаного доллара!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:280
+translate english monica_shawarma_dialogue2a_eef02ec9:
+
+    # shawarma "Пожалуйста, Мадаме!"
+    shawarma "Please, Madam!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:282
+translate english monica_shawarma_dialogue2a_2f17e599:
+
+    # "Самый вкусный кебаб в округе!"
+    "The most delicious kebab in the area!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:309
+translate english monica_shawarma_dialogue2a_eef02ec9_1:
+
+    # shawarma "Пожалуйста, Мадаме!"
+    shawarma "Please, Madam!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:311
+translate english monica_shawarma_dialogue2a_2f17e599_1:
+
+    # "Самый вкусный кебаб в округе!"
+    "The most delicious kebab in the area!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:329
+translate english monica_shawarma_dialogue3a_6b64dc9c:
+
+    # mt "Я раздала все флаеры, где мой кебаб?"
+    mt "I gave out all the flyers, where's my kebab?"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:338
+translate english monica_shawarma_dialogue3_food_5a9b0055:
+
+    # m "Я раздала все флаеры, где мой кебаб?"
+    m "I gave out all the flyers, where's my kebab?"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:343
+translate english monica_shawarma_dialogue3_food_18e6a0ae:
+
+    # shawarma "Пожалуйста, Мадаме! Приятного аппетита!"
+    shawarma "Please, Madam! Bon appetit!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:356
+translate english monica_shawarma_dialogue3_food_f0e9d431:
+
+    # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
+    mt "Disgusting food... But at least I don't want to eat anymore... Bye..."
+
+# game/Quests/EP2/ep2_dialogues2.rpy:366
+translate english monica_shawarma_dialogue3_end_half_food_fe7c2047:
+
+    # m "У меня не получилось раздать все флаеры..."
+    m "I couldn't get all the flyers out..."
+
+# game/Quests/EP2/ep2_dialogues2.rpy:370
+translate english monica_shawarma_dialogue3_end_half_food_eb851840:
+
+    # shawarma "Ничего страшного, Мадаме!"
+    shawarma "It's all right, Madam!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:372
+translate english monica_shawarma_dialogue3_end_half_food_421c68a8:
+
+    # "У меня есть половина кебаб! Не вся работа, не весь кебаб!"
+    # m "Его что, кто-то ел?!?!"
+    # shawarma "Нет, мадаме! Это половина кебаб. Он такой родился на свет!"
+    "I have a half of kebab! Not the whole work, not the whole kebab!"
+    m "Has someone eaten it?!?!"
+    shawarma "No, Madam! It's half kebab. He was born in such shape!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:376
+translate english monica_shawarma_dialogue3_end_half_food_570519aa:
+
+    # mt "Что-то я сомневаюсь... Но у меня нет выбора..."
+    mt "Something I doubt... But I don't have a choice..."
+
+# game/Quests/EP2/ep2_dialogues2.rpy:380
+translate english monica_shawarma_dialogue3_end_half_food_48aa8d00:
+
+    # m "Давай сюда свой кебаб..."
+    m "Give me your kebab..."
+
+# game/Quests/EP2/ep2_dialogues2.rpy:388
+translate english monica_shawarma_dialogue3_end_half_food_f0e9d431:
+
+    # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
+    mt "Disgusting food... But at least I don't want to eat anymore... Bye..."
+
+# game/Quests/EP2/ep2_dialogues2.rpy:398
+translate english monica_shawarma_dialogue3_end_no_food_8ab1c296:
+
+    # m "Я раздала все флаеры, где мой кебаб?"
+    # shawarma "Мадаме! Вы не раздали флаер!"
+    # "Кебаб ждать Вас когда флаер будет роздан!"
+    m "I gave out all the flyers, where's my kebab?"
+    shawarma "Madam! You didn't deliever the flyers!"
+    "Kebab is waiting for you when the flyers will be distributed!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:403
+translate english monica_shawarma_dialogue3_end_no_food_8cf89654:
+
+    # mt "Сволочь!!!"
+    mt "Swine!!!"
+
+translate english strings:
+
+    # Quests/EP2/ep2_dialogues2.rpy:203
+    old "Я не собираюсь ничего разносить! Давай кебаб сюда!"
+    new "I'm not going to deliver anything! Get the kebab!"
 

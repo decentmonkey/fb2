@@ -58,3 +58,17 @@ translate german strings:
     old "Возьмите, пожалуйста, этот флаер..."
     new ""
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+# game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:23
+translate german citizen10_dialogue_343947b7:
+
+    # citizen10 "Оу! Какая ты красотка! Прямо как бутон молодой орхидеи."
+    citizen10 "Оу! Какая ты красотка! Прямо как бутон молодой орхидеи."
+
+# game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:25
+translate german citizen10_dialogue_725e3c63:
+
+    # mt "Что? Странный тип..."
+    mt "Что? Странный тип..."
+

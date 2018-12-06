@@ -8,5 +8,5 @@ translate english strings:
 
     # Rooms/Hostel/hostel_street3.rpy:22
     old "ГРЯЗНАЯ УЛИЦА"
-    new ""
+    new "DIRTY STREET"
 

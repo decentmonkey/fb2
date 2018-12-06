@@ -88,3 +88,31 @@ translate english strings:
     old "ГАРДЕРОБ"
     new "WARDROBE"
 
+# TODO: Translation updated at 2018-12-06 21:42
+
+# game/Rooms/House/Bedroom/bedroom1.rpy:50
+translate english bedroom1_environment_64907934:
+
+    # mt "Моя любимая кроватка!"
+    # "Она такая удобная!"
+    # "Как я скучаю по ней!"
+    mt "My favorite crib!"
+    "It's so comfortable!"
+    "I miss it!"
+
+# game/Rooms/House/Bedroom/bedroom1.rpy:54
+translate english bedroom1_environment_2b30eee2:
+
+    # mt "А теперь на моей кровати лежит эта жирная корова!"
+    # "А я вынуждена смотреть на это и выполнять все ее капризы!"
+    # "(хмык)"
+    mt "А теперь на моей кровати лежит эта жирная корова!"
+    "А я вынуждена смотреть на это и выполнять все ее капризы!"
+    "(sob)"
+
+# game/Rooms/House/Bedroom/bedroom1.rpy:57
+translate english bedroom1_environment_69fdc71c:
+
+    # "Я ВЕРНУ ЕЕ!!!"
+    "I'LL GET IT BACK!!!"
+

@@ -15,10 +15,10 @@ translate english basement_bedroom1_environment_4c19961a:
     # "(хмык)"
     # "Но это временно!!!"
     # "Это какое-то недоразуменее, которое скоро разрешится!"
-    mt "Здесь я теперь сплю..."
+    mt "I sleep here..."
     "(sob)"
     "But it's only temporary!!!"
-    "Это какое-то недоразуменее, которое скоро разрешится!"
+    "This is some kind of misunderstanding that will soon be resolved!"
 
 # game/Rooms/House/Basement/basement_bedroom1.rpy:59
 translate english basement_bedroom1_environment_0beb8f0a:

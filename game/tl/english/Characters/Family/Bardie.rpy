@@ -11,6 +11,6 @@ translate english bardieMonicaCleaningInteract_2f2381ad:
 
     # mt "Он так и пытается подкрасться ко мне!"
     # "Мне надо быть осторожнее..."
-    mt "Он так и пытается подкрасться ко мне!"
-    "Мне надо быть осторожнее..."
+    mt "He's still trying to sneak up on me!"
+    "I need to be more careful..."
 

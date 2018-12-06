@@ -4,81 +4,81 @@
 translate english intro_questions_2f9353e5:
 
     # help "Прежде чем начать игру, пожалуйста, напомните, как вела себя Моника в Эпизоде 1?"
-    help "Прежде чем начать игру, пожалуйста, напомните, как вела себя Моника в Эпизоде 1?"
+    help "Before you start the game, please remind me how Monica behaved in Episode 1?"
 
 # game/Quests/EP2/Intro_Questions.rpy:10
 translate english intro_questions_af34d34b:
 
     # help "Спасибо за ответ!"
-    help "Спасибо за ответ!"
+    help "Thanks for reply!"
 
 # game/Quests/EP2/Intro_Questions.rpy:15
 translate english intro_questions_eb169654:
 
     # help "Спасибо за ответы!"
-    help "Спасибо за ответы!"
+    help "Thanks for the replies!"
 
 # game/Quests/EP2/Intro_Questions.rpy:16
 translate english intro_questions_into_loop1_594974f5:
 
     # help "Последний вопрос. В чем Моника легла спать?"
-    help "Последний вопрос. В чем Моника легла спать?"
+    help "Last question. What was Monica wearing when she went to sleep?"
 
 # game/Quests/EP2/Intro_Questions.rpy:31
 translate english intro_questions_save_b69d9a8d:
 
     # help "В чем Моника легла спать?"
-    help "В чем Моника легла спать?"
+    help "What was Monica wearing when she went to sleep?"
 
 translate english strings:
 
     # Quests/EP2/Intro_Questions.rpy:5
     old "Ответить очень кратко."
-    new ""
+    new "Answer very briefly."
 
     # Quests/EP2/Intro_Questions.rpy:5
     old "Ответить очень подробно."
-    new ""
+    new "To answer in great detail."
 
     # Quests/EP2/Intro_Questions.rpy:18
     old "Моника легла спать в трусиках Юлии."
-    new ""
+    new "Monica went to bed in Julia's panties."
 
     # Quests/EP2/Intro_Questions.rpy:18
     old "Моника легла спать обнаженной (доступно только в сохранении Эпизода 1) (disabled)"
-    new ""
+    new "Monica went to bed naked (only available in Episode 1 saving) (disabled)"
 
     # Quests/EP2/Intro_Questions.rpy:32
     old "Моника легла спать обнаженной."
-    new ""
+    new "Monica went to bed naked."
 
     # Quests/EP2/Intro_Questions.rpy:48
     old "Моника общалась с соседом."
-    new ""
+    new "Monica talked to her neighbor."
 
     # Quests/EP2/Intro_Questions.rpy:48
     old "Моника не видела соседа."
-    new ""
+    new "Monica didn't see her neighbor."
 
     # Quests/EP2/Intro_Questions.rpy:53
     old "Моника поздоровалась с соседом."
-    new ""
+    new "Monica said Hello to her neighbor."
 
     # Quests/EP2/Intro_Questions.rpy:53
     old "Моника не стала здороваться."
-    new ""
+    new "Monica didn't say Hello."
 
     # Quests/EP2/Intro_Questions.rpy:61
     old "Монике было все-равно что сосед чуть не погиб."
-    new ""
+    new "Monica didn't care that the neighbor had been almost killed."
 
     # Quests/EP2/Intro_Questions.rpy:61
     old "Моника проявила обеспокоенность."
-    new ""
+    new "Monica showed concern."
 
     # Quests/EP2/Intro_Questions.rpy:67
     old "Моника сказала что сосед грязный."
-    new ""
+    new "Monica said the neighbor was dirty."
 
     # Quests/EP2/Intro_Questions.rpy:67
     old "Нет."
@@ -94,389 +94,389 @@ translate english strings:
 
     # Quests/EP2/Intro_Questions.rpy:80
     old "Моника прогнала соседа."
-    new ""
+    new "Monica chased her neighbor away."
 
     # Quests/EP2/Intro_Questions.rpy:80
     old "Моника закатила соседу большой иск."
-    new ""
+    new "Monica made her neighbor big claim."
 
     # Quests/EP2/Intro_Questions.rpy:80
     old "Моника решила отсудить маленькую сумму."
-    new ""
+    new "Monica decided to sue a small amount."
 
     # Quests/EP2/Intro_Questions.rpy:87
     old "Моника высказалась по поводу фермы соседа."
-    new ""
+    new "Monica commented on the farm of a neighbor."
 
     # Quests/EP2/Intro_Questions.rpy:101
     old "Моника обращается с Юлией криком"
-    new ""
+    new "Monica communicates with Julia shouting."
 
     # Quests/EP2/Intro_Questions.rpy:101
     old "Моника общается более вежливо."
-    new ""
+    new "Monica talks more politely."
 
     # Quests/EP2/Intro_Questions.rpy:110
     old "Юлия наказана и убирает пятно все время."
-    new ""
+    new "Julia is punished and removes the stain all the time."
 
     # Quests/EP2/Intro_Questions.rpy:110
     old "Юлия наказана криком, но пятно можно не убирать."
-    new ""
+    new "Julia is punished by the scream, and the stain can be not removed."
 
     # Quests/EP2/Intro_Questions.rpy:110
     old "Юлия наказана и убирает пятно в свободное время."
-    new ""
+    new "Julia punished and removes the stain in his free time."
 
     # Quests/EP2/Intro_Questions.rpy:110
     old "Юлию не наказана за пятно никак."
-    new ""
+    new "Julia is not punished for the stain in any way."
 
     # Quests/EP2/Intro_Questions.rpy:114
     old "Моника простила Юлию после строгого наказания."
-    new ""
+    new "Monica forgave Julia after a severe punishment."
 
     # Quests/EP2/Intro_Questions.rpy:131
     old "Моника соврала про то что пятно поставила Юлия, а не Моника."
-    new ""
+    new "Monica lied about the stain being made by Julia, not Monica."
 
     # Quests/EP2/Intro_Questions.rpy:131
     old "Моника сказала правду про пятно."
-    new ""
+    new "Monica was telling the truth about the blur."
 
     # Quests/EP2/Intro_Questions.rpy:140
     old "Юлии пришлось заняться сексом со Фредом."
-    new ""
+    new "Julia had to have sex with Fred."
 
     # Quests/EP2/Intro_Questions.rpy:140
     old "Юлия не решилась на это..."
-    new ""
+    new "Julia didn't dare..."
 
     # Quests/EP2/Intro_Questions.rpy:145
     old "Юлия не стала говорить Фреду что секс ей не понравился."
-    new ""
+    new "Julia did not tell Fred that she had not liked sex."
 
     # Quests/EP2/Intro_Questions.rpy:145
     old "Юлия взывала к совести Фреда."
-    new ""
+    new "Julia appealed to Fred's conscience."
 
     # Quests/EP2/Intro_Questions.rpy:155
     old "Моника сказала Стиву по телефону что он мешок с дерьмом."
-    new ""
+    new "Monica told Steve on the phone that he was a bag of shit."
 
     # Quests/EP2/Intro_Questions.rpy:164
     old "Моника обозвала моделей мартышками."
-    new ""
+    new "Monica called the models monkeys."
 
     # Quests/EP2/Intro_Questions.rpy:164
     old "Моника повела себя вежливо."
-    new ""
+    new "Monica was polite."
 
     # Quests/EP2/Intro_Questions.rpy:171
     old "Моника заставила моделей полностью раздеться."
-    new ""
+    new "Monica made the models take their clothes off."
 
     # Quests/EP2/Intro_Questions.rpy:171
     old "Моника не стала издеваться на моделями."
-    new ""
+    new "Monica has not become the urge to mock on models."
 
     # Quests/EP2/Intro_Questions.rpy:182
     old "Моника показала моделям фотосессию Мелани."
-    new ""
+    new "Monica showed the models a photo shoot of Melanie."
 
     # Quests/EP2/Intro_Questions.rpy:182
     old "Моника сказала моделям уйти."
-    new ""
+    new "Monica told the models to leave."
 
     # Quests/EP2/Intro_Questions.rpy:185
     old "Моника накричала на моделей после фотосессии."
-    new ""
+    new "Monica yelled at the models after the photo shoot."
 
     # Quests/EP2/Intro_Questions.rpy:185
     old "Моника вежливо отказала."
-    new ""
+    new "Monica politely declined."
 
     # Quests/EP2/Intro_Questions.rpy:195
     old "Моника смеялась над моделью, когда увидела ее работающей проституткой."
-    new ""
+    new "Monica laughed at the model when she saw her working as a prostitute."
 
     # Quests/EP2/Intro_Questions.rpy:195
     old "Моника не стала смеяться над ней."
-    new ""
+    new "Monica didn't laugh at her."
 
     # Quests/EP2/Intro_Questions.rpy:204
     old "Моника сказала Мелани, чтобы та следила за своей фигурой, иначе может уволить ее."
-    new ""
+    new "Monica told Melanie to watch her figure or she might fire her."
 
     # Quests/EP2/Intro_Questions.rpy:204
     old "Моника похвалила Мелани."
-    new ""
+    new "Monica praised Melanie."
 
     # Quests/EP2/Intro_Questions.rpy:211
     old "Моника сказала Алексу, что он будет уволен если продолжит брать пикантные ракурсы."
-    new ""
+    new "Monica told Alex that he'd be fired if he kept taking piquant angles."
 
     # Quests/EP2/Intro_Questions.rpy:211
     old "Моника попросила Алекса войти в ее положение."
-    new ""
+    new "Monica asked Alex to step into her position."
 
     # Quests/EP2/Intro_Questions.rpy:221
     old "Моника сказала Дику что вокруг одни идиоты."
-    new ""
+    new "Monica said Dick that there are only idiots around."
 
     # Quests/EP2/Intro_Questions.rpy:221
     old "Моника сказала Дику что она самостоятельная."
-    new ""
+    new "Monica told Dick she was on her own."
 
     # Quests/EP2/Intro_Questions.rpy:229
     old "Моника сказала что не любит общаться с Диком."
-    new ""
+    new "Monica said she didn't like talking to Dick."
 
     # Quests/EP2/Intro_Questions.rpy:229
     old "Моника согласилась на встречу."
-    new ""
+    new "Monica agreed to the meeting."
 
     # Quests/EP2/Intro_Questions.rpy:240
     old "Моника все время ругалась на Фреда."
-    new ""
+    new "Monica fought all the time on Fred."
 
     # Quests/EP2/Intro_Questions.rpy:240
     old "Моника иногда ругалась на Фреда."
-    new ""
+    new "Monica sometimes swore at Fred."
 
     # Quests/EP2/Intro_Questions.rpy:240
     old "Моника не ругалась на Фреда никогда."
-    new ""
+    new "Monica never swore at Fred."
 
     # Quests/EP2/Intro_Questions.rpy:274
     old "Моника позвала продавщицу на заправке."
-    new ""
+    new "Monica called the shop girl at the gas station."
 
     # Quests/EP2/Intro_Questions.rpy:274
     old "Моника разбила бутылку, чтобы привлечь внимание."
-    new ""
+    new "Monica broke the bottle to get attention."
 
     # Quests/EP2/Intro_Questions.rpy:282
     old "Моника обвинила в этом кассиршу."
-    new ""
+    new "Monica blamed it on the cashier."
 
     # Quests/EP2/Intro_Questions.rpy:282
     old "Моника согласилась возместить ущерб."
-    new ""
+    new "Monica agreed to repair the damage."
 
     # Quests/EP2/Intro_Questions.rpy:292
     old "Моника при покупке платья общалась в продавцом грубо"
-    new ""
+    new "While buying the dress Monica spoke to seller rudely."
 
     # Quests/EP2/Intro_Questions.rpy:292
     old "Вежливо."
-    new ""
+    new "Politely."
 
     # Quests/EP2/Intro_Questions.rpy:299
     old "Моника заплатила за платье сама."
-    new ""
+    new "Monica paid for the dress herself."
 
     # Quests/EP2/Intro_Questions.rpy:299
     old "За платье заплатил Дик."
-    new ""
+    new "Dick paid for the dress."
 
     # Quests/EP2/Intro_Questions.rpy:307
     old "Моника грубила когда возвращала платье."
-    new ""
+    new "Monica was rude when she returned the dress."
 
     # Quests/EP2/Intro_Questions.rpy:307
     old "Моника общалась вежливо."
-    new ""
+    new "Monica spoke politely."
 
     # Quests/EP2/Intro_Questions.rpy:316
     old "Моника ругалась на продавца когда та застала ее утром в примерочной"
-    new ""
+    new "Monica was swearing at the salesman when she found her in the dressing room this morning."
 
     # Quests/EP2/Intro_Questions.rpy:316
     old "Моника выкрутилась за счет вежливости."
-    new ""
+    new "Monica got out of the situation by being polite."
 
     # Quests/EP2/Intro_Questions.rpy:325
     old "Моника ругалась на Дика в машине и не стала подвозить его."
-    new ""
+    new "Monica sweared at Dick in the car and didn't drive him."
 
     # Quests/EP2/Intro_Questions.rpy:325
     old "Моника общалась с Диком мило."
-    new ""
+    new "Monica talked to Dick kindly."
 
     # Quests/EP2/Intro_Questions.rpy:336
     old "Моника сказала Дику что он уродливый."
-    new ""
+    new "Monica told Dick he was ugly."
 
     # Quests/EP2/Intro_Questions.rpy:336
     old "Моника только пошутила насчет галстука."
-    new ""
+    new "Monica was just kidding about the tie."
 
     # Quests/EP2/Intro_Questions.rpy:345
     old "Моника назвала Дика плюшевым мишкой и сказала что он смешной."
-    new ""
+    new "Monica called Dick a Teddy bear and said he was funny."
 
     # Quests/EP2/Intro_Questions.rpy:345
     old "Моника назвала Дика кавалером."
-    new ""
+    new "Monica called Dick a boyfriend."
 
     # Quests/EP2/Intro_Questions.rpy:355
     old "Дик собирается помочь подать иск на соседа."
-    new ""
+    new "Dick is going to help file a lawsuit against a neighbor."
 
     # Quests/EP2/Intro_Questions.rpy:362
     old "Дик проговорился что хочет Мелани."
-    new ""
+    new "Dick blurted out that he wanted Melanie."
 
     # Quests/EP2/Intro_Questions.rpy:368
     old "Моника ругалась на официантку и сказала Дику ее уволить."
-    new ""
+    new "Monica swore at the waitress and told Dick to fire her."
 
     # Quests/EP2/Intro_Questions.rpy:368
     old "Моника попросила Дика оставить официантке чаевые."
-    new ""
+    new "Monica asked Dick to tip the waitress."
 
     # Quests/EP2/Intro_Questions.rpy:380
     old "Моника сказала Фреду что Дик жирный урод."
-    new ""
+    new "Monica told Fred that Dick was a fat bastard."
 
     # Quests/EP2/Intro_Questions.rpy:380
     old "Моника сказала Фреду что Дик старался угодить ей."
-    new ""
+    new "Monica told Fred that Dick was trying to please her."
 
     # Quests/EP2/Intro_Questions.rpy:391
     old "У Фреда был секс с Кристиной."
-    new ""
+    new "Fred had sex with Christina."
 
     # Quests/EP2/Intro_Questions.rpy:396
     old "У Фреда с Кристиной был миньет и анал."
-    new ""
+    new "Fred and Christina had a blow job and anal."
 
     # Quests/EP2/Intro_Questions.rpy:396
     old "Кристина не выдержала и убежала."
-    new ""
+    new "Christina broke down and ran away."
 
     # Quests/EP2/Intro_Questions.rpy:407
     old "Моника грубо отшила инструктора по фитнесу"
-    new ""
+    new "Monica rudely rebuffed fitness instructor"
 
     # Quests/EP2/Intro_Questions.rpy:407
     old "Вежливо отказала."
-    new ""
+    new "Politely refused."
 
     # Quests/EP2/Intro_Questions.rpy:414
     old "У Stephanie был секс с инструктором"
-    new ""
+    new "Stephanie had sex with an instructor"
 
     # Quests/EP2/Intro_Questions.rpy:422
     old "Моника ругалась на клерка в банке."
-    new ""
+    new "Monica swore at a clerk in a Bank."
 
     # Quests/EP2/Intro_Questions.rpy:422
     old "Моника вошла в положение."
-    new ""
+    new "Monica's in position."
 
     # Quests/EP2/Intro_Questions.rpy:431
     old "Моника сказала Стиву что он отсосет у собаки если соврал."
-    new ""
+    new "Monica told Steve he'd suck a dog's dick if he lied."
 
     # Quests/EP2/Intro_Questions.rpy:431
     old "Моника не стала такого говорить."
-    new ""
+    new "Monica wouldn't say that."
 
     # Quests/EP2/Intro_Questions.rpy:440
     old "Моника назвала продавца кебабов животным."
-    new ""
+    new "Monica called the seller of kebabs an animal."
 
     # Quests/EP2/Intro_Questions.rpy:440
     old "Моника не стала его так называть."
-    new ""
+    new "Monica didn't call him that."
 
     # Quests/EP2/Intro_Questions.rpy:449
     old "Моника решила уволилить Юлию"
-    new ""
+    new "Monica decided to fire Yulia"
 
     # Quests/EP2/Intro_Questions.rpy:453
     old "Моника в итоге пожалела Юлию и не стала увольнять ее"
-    new ""
+    new "Monica eventually regretted Julia and did not fire her"
 
     # Quests/EP2/Intro_Questions.rpy:453
     old "Уволила."
-    new ""
+    new "Dismissed."
 
     # Quests/EP2/Intro_Questions.rpy:463
     old "Моника запланировала уволить Тиффани и Джейн"
-    new ""
+    new "Monica planned to fire Tiffany and Jane"
 
     # Quests/EP2/Intro_Questions.rpy:463
     old "Моника решила еще проследить за ними."
-    new ""
+    new "Monica decided to follow them."
 
     # Quests/EP2/Intro_Questions.rpy:471
     old "Моника запланировала уволить Фреда"
-    new ""
+    new "Monica planned to fire Fred."
 
     # Quests/EP2/Intro_Questions.rpy:471
     old "Моника решила еще подумать над этим."
-    new ""
+    new "Monica decided to think about it."
 
     # Quests/EP2/Intro_Questions.rpy:482
     old "Моника показывала Бобу грудь за еду."
-    new ""
+    new "Monica showed Bob her Breasts for food."
 
     # Quests/EP2/Intro_Questions.rpy:482
     old "Моника показала грудь заключенным, чтобы узнать имя Боба"
-    new ""
+    new "Monica showed the Breasts to the prisoners to find out the name of Bob."
 
     # Quests/EP2/Intro_Questions.rpy:490
     old "Монике пришлось показать заключенным грудь во время шантажа."
-    new ""
+    new "Monica had to show the prisoners her Breasts during the blackmail."
 
     # Quests/EP2/Intro_Questions.rpy:490
     old "Моника поставила заключенных на место."
-    new ""
+    new "Monica put the prisoners in their place."
 
     # Quests/EP2/Intro_Questions.rpy:495
     old "Монике пришлось также показать заключенным зад."
-    new ""
+    new "Monica also had to show the prisoners her ass."
 
     # Quests/EP2/Intro_Questions.rpy:500
     old "Монику заставили сказать что она хорошая шлюха."
-    new ""
+    new "Monica was made to say she was a good whore."
 
     # Quests/EP2/Intro_Questions.rpy:500
     old "Моника отказалась это говорить."
-    new ""
+    new "Monica refused to say it."
 
     # Quests/EP2/Intro_Questions.rpy:513
     old "Моника накричала на Дика в его кабинете."
-    new ""
+    new "Monica yelled at Dick in his office."
 
     # Quests/EP2/Intro_Questions.rpy:513
     old "Моника пробовала уговорить Дика."
-    new ""
+    new "Monica tried to persuade Dick."
 
     # Quests/EP2/Intro_Questions.rpy:522
     old "Моника делала миньет Фреду."
-    new ""
+    new "Monica gave Fred a blow job."
 
     # Quests/EP2/Intro_Questions.rpy:522
     old "Моника обошлась без миньета."
-    new ""
+    new "Monica didn't gave a blow job."
 
     # Quests/EP2/Intro_Questions.rpy:527
     old "Моника проглотила сперму Фреда."
-    new ""
+    new "Monica swallowed Fred's semen."
 
     # Quests/EP2/Intro_Questions.rpy:527
     old "Моника выплюнула сперму Фреда."
-    new ""
+    new "Monica spit out Fred's semen."
 
     # Quests/EP2/Intro_Questions.rpy:541
     old "Моника вела себя как сучка!"
-    new ""
+    new "Monica acted like a bitch!"
 
     # Quests/EP2/Intro_Questions.rpy:541
     old "Моника старалась быть вежливой насколько умеет..."
-    new ""
+    new "Monica tried to be as polite as she could..."
 

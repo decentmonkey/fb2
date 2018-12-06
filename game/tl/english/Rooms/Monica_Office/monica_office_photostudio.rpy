@@ -4,7 +4,7 @@
 translate english monica_office_photostudio_environment_7c6cf6c0:
 
     # mt "Я все переделаю здесь, когда верну назад свой офис!"
-    mt "Я все переделаю здесь, когда верну назад свой офис!"
+    mt "I'll rework this when I get my office back!"
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:54
 translate english monica_office_photostudio_environment_2cdb093b:

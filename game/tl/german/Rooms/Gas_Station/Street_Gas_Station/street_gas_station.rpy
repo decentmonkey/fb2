@@ -32,3 +32,25 @@ translate german street_gas_station2_environment_bf076d6e:
     # m "Здание заправки. Здесь должнен быть где-то вход..."
     m "Die Tankstelle. Muss ja einen Eingang irgendwo geben..."
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+# game/Rooms/Gas_Station/Street_Gas_Station/street_gas_station.rpy:38
+translate german street_gas_station2_environment_08406bd8:
+
+    # mt "Пистолеты для заправки бензина."
+    # "Мне они сейчас ни к чему!"
+    mt "Die Einfüllstutzen für Benzin."
+    "Die sind fьr mich derzeit nutzlos!"
+
+# game/Rooms/Gas_Station/Street_Gas_Station/street_gas_station.rpy:41
+translate german street_gas_station2_environment_0d4144ed:
+
+    # mt "Модная запрака?"
+    mt "Extravagante Tankstelle?"
+
+# game/Rooms/Gas_Station/Street_Gas_Station/street_gas_station.rpy:43
+translate german street_gas_station2_environment_5fe7e012:
+
+    # mt "Здание заправки. Здесь должнен быть где-то вход..."
+    mt "Die Tankstelle. Muss ja einen Eingang irgendwo geben..."
+

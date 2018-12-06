@@ -31,38 +31,38 @@ translate english rich_hotel_event_scene_environment_e24d0151:
     # "Что же мне делать???"
     # "Сказать им правду?"
     mt "These people..."
-    "Здесь столько людей... Они все смотрят на меня..."
-    "Ждут..."
+    "So many people... They're all looking at me..."
+    "Waiting..."
     "What should I do???"
-    "Сказать им правду?"
+    "Tell them the truth?"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_scene.rpy:63
 translate english rich_hotel_event_scene_environment_a127c17c:
 
     # mt "Эта одежда закрывает собой мой постер!"
-    mt "Эта одежда закрывает собой мой постер!"
+    mt "This apparel closes my poster!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_scene.rpy:66
 translate english rich_hotel_event_scene_environment_5b5b3f94:
 
     # mt "Эта дверь... Может быть мне просто убежать?"
     # "Но нет, это не выход из положения..."
-    mt "Эта дверь... Может быть мне просто убежать?"
-    "Но нет, это не выход из положения..."
+    mt "This door... Maybe I should just run away."
+    "But no, this is not a way out..."
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_scene.rpy:70
 translate english rich_hotel_event_scene_environment_c7064c5c:
 
     # mt "Это место так украшено цветами..."
-    mt "Это место так украшено цветами..."
+    mt "This place is beautifully decorated with flowers..."
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_scene.rpy:73
 translate english rich_hotel_event_scene_environment_65b86e51:
 
     # mt "Милый светильник."
     # "Приятный свет."
-    mt "Милый светильник."
-    "Приятный свет."
+    mt "Nice lamp."
+    "Nice light."
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_scene.rpy:78
 translate english rich_hotel_event_scene_environment_c8ebb783:

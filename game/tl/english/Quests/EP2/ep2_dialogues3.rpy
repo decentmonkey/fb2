@@ -97,12 +97,12 @@ translate english monica_dick_office_dialogue1a_de6b1938:
     # mt "Вот черт! Дика нет!"
     # "Надо зайти в другой день..."
     reception_secretary "MA'am, where are you going?"
-    m "Я к Дику Адвокату!"
-    reception_secretary "Мэм, его сегодня нет..."
-    reception_secretary "Он и Мисс Виктория куда-то уехали."
-    reception_secretary "Он куда-то уехал с самого утра."
-    mt "Вот черт! Дика нет!"
-    "Надо зайти в другой день..."
+    m "I'm going to Dick the Lawyer!"
+    reception_secretary "MA'am, he's not here today..."
+    reception_secretary "He and Miss Victoria have gone somewhere."
+    reception_secretary "He went somewhere in the morning."
+    mt "Oh shit! There is no Dick!"
+    "I should come back another day..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:75
 translate english monica_dick_secretary_dialogue1_74c27378:
@@ -856,9 +856,9 @@ translate english monica_dick_secretary_dialogue4_7296451c:
     # "И Вам не следует отвлекать его."
     # "Для этого есть секретарь."
     dick_secretary "Mrs. Buckfett!"
-    "Мистера Дика сейчас нет."
-    "И Вам не следует отвлекать его."
-    "Для этого есть секретарь."
+    "Mr. Dick's not here right now."
+    "And You shouldn't distract him."
+    "There's a Secretary for that."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:464
 translate english monica_dick_office_dialogue2_eae1459d:

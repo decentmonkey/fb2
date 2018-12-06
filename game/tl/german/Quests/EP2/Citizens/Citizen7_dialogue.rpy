@@ -46,3 +46,29 @@ translate german citizen7_dialogue_4c2eaf1c_1:
     citizen7 "Я пытаюсь сосредоточиться на искусстве!"
     "Не отвлекайте меня!"
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:18
+translate german citizen7_dialogue_05979ea1:
+
+    # m "Возьмите, пожалуйста, этот флаер..."
+    m "Возьмите, пожалуйста, этот флаер..."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:20
+translate german citizen7_dialogue_b5612d4f:
+
+    # citizen7 "Что? Ооо, мадам, Вы прекрасны! И как я Вас раньше не видел? Минуту..."
+    # citizen7 "Прекрасно, очень хорошо! А теперь повернитесь!"
+    # mt "Что вообще происходит?"
+    # m "Эй, мистер, Вы возьмете флаер?"
+    citizen7 "Что? Ооо, мадам, Вы прекрасны! И как я Вас раньше не видел? Минуту..."
+    citizen7 "Прекрасно, очень хорошо! А теперь повернитесь!"
+    mt "Что вообще происходит?"
+    m "Эй, мистер, Вы возьмете флаер?"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:32
+translate german citizen7_dialogue_d9b0cf9e:
+
+    # citizen7 "Я закончил. Флаер? Да давайте уже..."
+    citizen7 "Я закончил. Флаер? Да давайте уже..."
+

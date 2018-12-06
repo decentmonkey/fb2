@@ -70,3 +70,45 @@ translate german strings:
     old "А что бы ты хотел? (disabled)"
     new ""
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:10
+translate german citizen1_dialogue_c4e0284a:
+
+    # citizen1 "Эй! Тетя!"
+    # "Ты уже подходила к нам!"
+    # "Хватит с нас твоих флаеров!"
+    citizen1 "Эй! Тетя!"
+    "Ты уже подходила к нам!"
+    "Хватит с нас твоих флаеров!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:22
+translate german citizen1_dialogue_c8ca3306:
+
+    # citizen1 "Тетя, не видишь, мы заняты, нам сейчас не до тебя."
+    citizen1 "Тетя, не видишь, мы заняты, нам сейчас не до тебя."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:24
+translate german citizen1_dialogue_b3228aed:
+
+    # citizen2 "Погоди, Том, разве ты не видишь? Она работает."
+    citizen2 "Погоди, Том, разве ты не видишь? Она работает."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:26
+translate german citizen1_dialogue_e9665f96:
+
+    # citizen1 "С такой внешностью тебе бы не флаеры раздавать!"
+    citizen1 "С такой внешностью тебе бы не флаеры раздавать!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:28
+translate german citizen1_dialogue_89817c55:
+
+    # mt "(Вот козел...)"
+    mt "(Вот козел...)"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:32
+translate german citizen1_dialogue_174ad47d:
+
+    # citizen2 "А я возьму, давай свой флаер."
+    citizen2 "А я возьму, давай свой флаер."
+

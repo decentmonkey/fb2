@@ -62,3 +62,17 @@ translate german strings:
     old "Место для чего? (disabled)"
     new ""
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:35
+translate german citizen5_loop1_894fd97d:
+
+    # citizen5 "У Мистера нет времени вашего места!"
+    citizen5 "У Мистера нет времени вашего места!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:38
+translate german citizen5_loop1_3d588a6b:
+
+    # m "Какого еще места?"
+    m "Какого еще места?"
+

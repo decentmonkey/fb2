@@ -7,10 +7,10 @@ translate english basement_bedroom2_environment_4c19961a:
     # "(хмык)"
     # "Но это временно!!!"
     # "Это какое-то недоразуменее, которое скоро разрешится!"
-    mt "Здесь я теперь сплю..."
+    mt "I sleep here..."
     "(sob)"
     "But it's only temporary!!!"
-    "Это какое-то недоразуменее, которое скоро разрешится!"
+    "This is some kind of misunderstanding that will soon be resolved!"
 
 # game/Rooms/House/Basement/basement_bedroom2.rpy:57
 translate english basement_bedroom2_environment_f1f099e4:
@@ -18,9 +18,9 @@ translate english basement_bedroom2_environment_f1f099e4:
     # mt "Моя кровать..."
     # "Но это временно!!!"
     # "Это какое-то недоразуменее, которое скоро разрешится!"
-    mt "Моя кровать..."
+    mt "My bed..."
     "But it's only temporary!!!"
-    "Это какое-то недоразуменее, которое скоро разрешится!"
+    "This is some kind of misunderstanding that will soon be resolved!"
 
 # game/Rooms/House/Basement/basement_bedroom2.rpy:62
 translate english basement_bedroom2_environment_dbc51c20:

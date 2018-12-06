@@ -102,3 +102,11 @@ translate german strings:
     old "Мятое платье"
     new "Zerknittertes Kleid"
 
+# TODO: Translation updated at 2018-12-06 21:43
+
+translate german strings:
+
+    # scripts/init.rpy:235
+    old "Косяк"
+    new ""
+
