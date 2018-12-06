@@ -105,6 +105,8 @@ label start_game:
     call locations_init()
     call citizens_init()
     call characters_init()
+    call basement_shower_init()
+    call kebab_work_init()
 
     $ add_hook("exit_scene", "hook_basement_bedroom2_change_view_to_suffix3", scene="basement_bedroom2")
     # Запрет Бетти ходить по дому

@@ -11,7 +11,7 @@ label whores_place_shawarma:
 label whores_place_shawarma_init:
 
     $ add_object_to_scene("Monica", {"type":2, "base":"Street_whores_place_shawarma_Monica_[cloth][day_suffix]", "click" : "whores_place_shawarma_environment2", "actions" : "l", "zorder" : 10})
-    $ add_object_to_scene("Shawarma_Trader", {"type":2, "base":"Street_whores_place_shawarma_Trader[day_suffix]", "click" : "whores_place_shawarma_environment2", "actions" : "lt", "zorder" : 5})
+    $ add_object_to_scene("Shawarma_Trader", {"type":2, "base":"Street_whores_place_shawarma_Trader[day_suffix]", "click" : "whores_place_shawarma_environment2", "actions" : "lt", "zorder" : 5, "icon_t":"/Icons/talk" + res.suffix +".png"})
 
     $ add_object_to_scene("Shawarma_Stall", {"type":2, "base":"Street_whores_place_shawarma_Stall", "click" : "whores_place_shawarma_environment2", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Street_Fencing1", {"type":2, "base":"Street_whores_place_shawarma_Street_Fencing1", "click" : "whores_place_street1_environment", "actions" : "l", "zorder" : 0, "b":0.15, "group":"environment"})

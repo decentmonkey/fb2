@@ -1,9 +1,16 @@
 label monica_shawarma_dialogue0:
     #Моника пришла к кебабу вечером до того как узнала про разноску кебабов (нет рендеров вечера)
     #вечер
+    $ store_music()
+    music DarxieLand
+    img 6159
     shawarma "Я уже закрываюсь!"
     "Приходите завтра!!!"
     #
+    $ restore_music()
+    $ autorun_to_object("monica_shawarma_dialogue0a")
+    return
+label monica_shawarma_dialogue0a:
     if shawarmaTraderOffended1 == True:
         mt "Животное!"
     else:
@@ -13,6 +20,8 @@ label monica_shawarma_dialogue1:
     #render
     #Моника пришла к кебабу говорить о еде
     #первый раз
+    $ store_music()
+    music DarxieLand
     img 6084
     shawarma "Мадаме! Снова ВЫ!"
     "Осмелюсь высказать сожаление, Мадаме!"
@@ -21,28 +30,37 @@ label monica_shawarma_dialogue1:
     shawarma "О Вашем платье, Мадаме!"
     "Вам оно шло гораздо больше, Мадаме!"
     "Все женщины, в погоне за красотой, в конце концов теряют её!"
+    music Hidden_Agenda
     img 6086
+    with fade
     m "Ты считаешь что я некрасивая?"
     img 6087
+    music DarxieLand
     shawarma "О нет, Мадаме! Вы прекрасны как утренний цветок!"
     img 6088
     m "Какой еще утренний цветок?"
     m "Слушай... У меня к тебе вопрос..."
     img 6089
     shawarma "Да, Мадаме! Я слушаю Вас!"
+    music Hidden_Agenda
     img 6090
+    with fade
     m "Так я тебе нравлюсь или нет..." #ехидно смотрит
     img 6091
     w
     img 6092
+    music DarxieLand
     shawarma "Да, Мадаме! Как утренний цветок!"
     img 6093
     mt "Что за утренний цветок!? Этот идиот несет какую-то чушь..."
+    music Hidden_Agenda
     img 6094
+    with fade
     m "Ты говорил что у тебя вкусный кебаб?"
     img 6095
     mt "Как же я хочу есть!"
     img 6096
+    with fade
     shawarma "Да, Мадаме! Самый вкусный кебаб в округе, Мадаме!"
     img 6097
     m "И ты дашь его попробовать такой красивой девушке как Я?"
@@ -52,11 +70,13 @@ label monica_shawarma_dialogue1:
     m "Почему это?"
     img 6100
     shawarma "Ваша красота слишком велика, чтобы покупать её, Мадаме!"
+    music Stealth_Groover
     img 6101
     m "Причем здесь покупать? Я ничего не собираюсь продавать тебе!"
     #до этого добавить kebab advertising!
     img 6102
     shawarma "Но как же, Мадаме! Вы предложили французский поцелуй за мой вкусный кебаб, Мадаме!"
+    music Pyro_Flow
     img 6103
     m "ЧТО Я ПРЕДЛОЖИЛА?!"
     img 6104
@@ -67,17 +87,25 @@ label monica_shawarma_dialogue1:
     img 6118
     w
     img 6119
+    with fade
     w
+    music DarxieLand
+    if money > 0:
+        call monica_shawarma_dialogue2a()
+        return
     #если есть доллар, то уходим на покупку
+#    music Stealth_Groover
     img 6106
     mt "Черт! У меня нет этого гребаного доллара!!!"
     img 6107
     m "Можешь дать мне его просто так?"
     img 6108
     shawarma "Нет, Мадаме! Только за $ 1, Мадаме!"
+#    music Pyro_Flow
     img 6109
     m "У меня нет этого гребаного доллара! Есть еще какие-то варианты?"
     img 6110
+    music DarxieLand
     shawarma "Конечно есть, Мадаме!"
     "Если такой красивый женщин, как Вы, {b}расскажет всем вокруг про мой самый вкусный кебаб{/b}, то кебаб сам будет Вас искать!"
     img 6111
@@ -87,10 +115,13 @@ label monica_shawarma_dialogue1:
     img 6113
     shawarma "Да, Мадаме! Вы разносить всем красивый флаер с рекламой самого вкусного кебаба!"
     "Если Вы разнести все флаер, то вкусный кебаб ждать Вас!"
+    music Stealth_Groover
     img 6114
     m "Хорошо, если ты дашь мне сейчас свой кебаб, то {b}я разнесу твои флаеры{/b}..."
     img 6115
+    with fade
     w
+    music DarxieLand
     img 6116
     shawarma "Нет, Мадаме! Сначала флаер, потом вкусный кебаб!"
     img 6117
@@ -98,21 +129,28 @@ label monica_shawarma_dialogue1:
     "Неужели мне правда стоит разносить эти флаеры за какой-то кебаб?"
     menu:
         "Согласиться разносить флаеры.":
+            music Hidden_Agenda
             img 6120
             mt "О БОЖЕ! Что мне только ни приходится делать чтобы хоть что-то поесть!"
             img 6121
             "Надеюсь я скоро решу это небольшое недоразумение и забуду это как кошмарный сон!"
             img 6122
+            with fade
             m "Давай сюда свои флаеры!"
             img 6123
+            music DarxieLand
             shawarma "Да, Мадаме! Вам надо надеть это!"
+            music stop
             img 6124
             w
             #звук одежды
+            sound snd_cardboard1
             img 6125
+            with fade
             w
             img 6126
             w
+            music Power_Bots_Loop
             img 6127
             m "ЧТО..."
             "ЧТО ЭТО ЗА ХРЕНЬ!?!?!?"
@@ -128,6 +166,7 @@ label monica_shawarma_dialogue1:
             w
             img 6132
             w
+            music Hidden_Agenda
             img 6133
             m "О БОЖЕ!"
             "Мне придется в этом ходить?!?!"
@@ -136,17 +175,22 @@ label monica_shawarma_dialogue1:
             "..."
             "Но по крайней мере меня точно никто не узнает в этом!"
             "Я быстро раздам эти долбаные флаеры и забуду этот кошмар!"
+
+            $ monicaKnowAboutKebabWork = True
         "Отказаться.":
+            music Power_Bots_Loop
             img 6135
             m "Я не собираюсь ничего разносить! Давай кебаб сюда!"
             img 6136
             shawarma "Нет, Мадаме! Нет флаер, нет кебаб!"
             w
             img 6138
+            with fade
             w
+            $ autorun_to_object("monica_shawarma_dialogue0a")
 
-
-
+    $ restore_music()
+    call refresh_scene_fade()
     return
 
 label monica_shawarma_dialogue2:
@@ -298,12 +342,13 @@ label monica_shawarma_dialogue5:
     #Моника хочет уйти в сторону магазина во время раздачи кебабов
     mt "Я не собираюсь ходить по приличным улицам в таком виде!"
     "Мне лучше ходить по этому району, где я в таком виде не слишком выделяюсь на фоне окружающих."
-    return
+    return False
 
 label monica_shawarma_dialogue6:
     #Моника заходит первый раз в hostel_street с полотном
     mt "Возможно здесь я найду кого-то кому можно раздать эти дурацкие флаеры..."
     "Главное не подходить к тому хостелу..."
+    $ remove_hook()
     return
 label monica_shawarma_dialogue7:
     #Моника заходит первый раз в hostel_street2 с полотном
@@ -311,22 +356,26 @@ label monica_shawarma_dialogue7:
     "Такие же и обитатели здесь..."
     "Но мне главное раздать эти флаеры и убраться отсюда!"
     "Такая девушка как Я не подходит подобному месту!"
+    $ remove_hook()
     return
 
 label monica_shawarma_dialogue8:
     #Моника заходит первый раз в hostel_edge_1c с полотном
     mt "Грязная подворотня."
     "Там дальше есть улица, может быть попробовать поискать там кого-то, чтобы раздать эти дурацки флаеры?"
+    $ remove_hook()
     return
 label monica_shawarma_dialogue9:
     #Моника заходит первый раз в hostel_street3 с полотном
     mt "Этот место не совсем уж грязное, но жители здесь не лучше..."
+    $ remove_hook()
     return
 
 label monica_shawarma_dialogue10:
     #Моника высказывается по поводу ситизенов
     mt "В этом районе одни наркоманы и извращенцы!"
     "Здесь нет ни одного нормального человека, которому можно просто так дать этот чертов флаер!!!"
+    $ remove_hook()
     return
 
 label monica_shawarma_dialogue11:
@@ -336,4 +385,4 @@ label monica_shawarma_dialogue11:
     "Моника! Как ты докатилась до того, чтобы ходить В ЭТОМ!!!"
     "И разносить флаеры за еду!!!"
     mt "О БОЖЕ!"
-    return
+    return False
