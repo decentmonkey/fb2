@@ -41,8 +41,12 @@ label dick_office_entrance_environment:
             mt "Мне кажется она старовата для работы здесь."
             "Хотя для своего возраста она выглядит неплохо."
         if act == "t":
-            reception_secretary "Мэм."
-            "Проходите."
+            if get_active_objects("DickTheLawyer", scene="dick_office_cabinet") != False:
+                reception_secretary "Мэм."
+                "Проходите."
+            else:
+                reception_secretary "Мэм, я могу Вам чем-то помочь?"
+                mt "..."
             return
 
     if obj_name == "Desk":

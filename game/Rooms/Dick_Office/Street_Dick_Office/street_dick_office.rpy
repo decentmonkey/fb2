@@ -25,8 +25,9 @@ label street_dick_office_teleport:
             m "Вход в офисное здание где заседает Дик..."
             return
         if obj_data["action"] == "w":
-            mt "У меня нет галстука для Дика, что мне там делать... (хмык)"
-            return
+#            mt "У меня нет галстука для Дика, что мне там делать... (хмык)"
+#            return
+            $ dickReceptionMonicaSuffix = 1
             call change_scene("dick_office_entrance")
             return
     return

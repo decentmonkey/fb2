@@ -163,6 +163,13 @@ label start_game:
     # Узнать про оплату у Ральфа
     $ add_hook("enter_scene", "Ralph_Life_Ask_About_Payment", scene="living_room")
 
+    # Офис Дика вначале закрыт
+    $ add_hook("Teleport_Inside", "monica_dick_office_dialogue1a", scene="dick_office_entrance")
+#    $ move_object("DickTheLawyer", "empty")
+
+    # Офис Моники
+    $ add_hook("Teleport_Monica_Office_Secretary", "monica_office_entrance_beef_dialogue1", scene="monica_office_entrance")
+
     # Заправка
     $ add_hook("enter_scene", "monica_gas_station_thief_dialogue1", scene="gas_station_view1")
 

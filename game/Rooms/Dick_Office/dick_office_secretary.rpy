@@ -1,5 +1,5 @@
 default dickOfficeSecretaryMonicaSuffix = 1
-default dickOfficeSecretarySecretarySuffix = 0
+default dickOfficeSecretarySecretarySuffix = 1
 
 label dick_office_secretary:
     $ print "dick_office_secretary"
@@ -8,7 +8,7 @@ label dick_office_secretary:
     return
 
 label dick_office_secretary_init:
-    $ add_object_to_scene("Monica", {"type":2, "base":"Office_Dick_Secretary_Monica_Secretary_[cloth]_[dickOfficeSecretaryMonicaSuffix]", "click" : "dick_office_secretary_environment", "actions" : "l", "zorder" : 10})
+    $ add_object_to_scene("Monica", {"type":2, "base":"Office_Dick_Secretary_Monica_Secretary_Monica_[cloth]_[dickOfficeSecretaryMonicaSuffix]", "click" : "dick_office_secretary_environment", "actions" : "l", "zorder" : 10})
     $ add_object_to_scene("Secretary", {"type":2, "base":"Office_Dick_Secretary_Secretary_[dickOfficeSecretarySecretarySuffix]", "click" : "dick_office_secretary_environment", "actions" : "lt", "zorder" : 0})
 
     $ add_object_to_scene("Computer", {"type":2, "base":"Office_Dick_Secretary_Computer", "click" : "dick_office_secretary_environment", "actions" : "l", "zorder" : 1, "group":"environment", "active":False})

@@ -42,15 +42,29 @@ label monica_dick_office_dialogue1:
     return
 
 label monica_dick_office_dialogue1a:
+    if get_active_objects("DickTheLawyer", scene="dick_office_cabinet") != False:
+        return True
     # Моника заходит в office_dick_entrance, когда Дика нет
+    img 3045
+    w
+    img 3046
     reception_secretary "Мэм, вы куда?"
+    img 3047
     m "Я к Дику Адвокату!"
+    img 3056
     reception_secretary "Мэм, его сегодня нет..."
-    #
-    reception_secretary "Он и Мисс Виктория куда-то уехали."
-    #
-    reception_secretary "Он куда-то уехал с самого утра."
+    if day_time == "day":
+        #
+        reception_secretary "Он куда-то уехал с самого утра."
+    else:
+        #
+        reception_secretary "Он и Мисс Виктория куда-то уехали."
 
+    $ autorun_to_object("monica_dick_office_dialogue1b")
+    call refresh_scene_fade()
+    return False
+
+label monica_dick_office_dialogue1b:
     mt "Вот черт! Дика нет!"
     "Надо зайти в другой день..."
     return

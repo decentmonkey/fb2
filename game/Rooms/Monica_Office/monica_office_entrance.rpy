@@ -27,14 +27,6 @@ label monica_office_entrance_teleport2:
     if obj_name == "Teleport_Monica_Office_Secretary":
         call change_scene("monica_office_secretary", "Fade_long", "snd_lift")
         return
-        sound snd_lift
-        $ renpy.pause(2.0)
-        sound denied
-        mt "Черт!"
-        "Кто-то поменял код на лифте!"
-        "Теперь мне не попасть внутрь!"
-        "Но ничего! Я еще найду способ это сделать и посмотреть на этого ублюдка!"
-        "Который думает что он теперь главный в моей компании!"
 #        call change_scene("monica_office_secretary", "Fade_long", "snd_lift") from _call_change_scene_79
         return
     if obj_name == "Teleport_Street_Monica_Office":

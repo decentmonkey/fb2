@@ -8,7 +8,7 @@ label dick_office_hall1:
     return
 
 label dick_office_hall1_init:
-    $ add_object_to_scene("Monica", {"type":2, "base":"Office_Dick_Hall1_Monica_[dickOfficeHallMonicaSuffix]", "click" : "dick_office_hall1_environment", "actions" : "l", "zorder" : 10})
+    $ add_object_to_scene("Monica", {"type":2, "base":"Office_Dick_Hall1_Monica_[cloth]_[dickOfficeHallMonicaSuffix]", "click" : "dick_office_hall1_environment", "actions" : "l", "zorder" : 10})
 
     $ add_object_to_scene("Door", {"type":2, "base":"Office_Dick_Hall1_Door", "click" : "dick_office_hall1_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Exhibit1", {"type":2, "base":"Office_Dick_Hall1_Exhibit1", "click" : "dick_office_hall1_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
