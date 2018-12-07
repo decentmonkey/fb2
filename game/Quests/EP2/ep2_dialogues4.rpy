@@ -288,6 +288,7 @@ label monica_office_cabinet_beef_dialogue1:
     w
     img 6387
     w
+    $ move_object("Melanie", "monica_office_photostudio")
 
 
     #Моника наедине с Бифом
@@ -354,6 +355,7 @@ label monica_office_cabinet_beef_dialogue1:
     "Если хотите, садитесь на это кресло!"
     "Я представляю насколько Вы опасны!"
 
+    sound snd_phone1
     img 6403
     m "Полиция???"
     img 6404
@@ -544,6 +546,10 @@ label monica_office_cabinet_beef_dialogue1a:
     #
 
     "Клянусь!!!"
+
+    $ remove_hook(label="secretary1")
+    $ remove_hook(label="biff1")
+    $ replace_hook("monica_office_cabinet_beef_dialogue2", scene="all", label="biff1")
 
     return
 

@@ -40,7 +40,7 @@ label whores_place_init:
     $ add_object_to_scene("Teleport_Shawarma", {"type":3, "text" : _("ВНИЗ ПО УЛИЦЕ"), "larrow" : "arrow_left_2", "base":"Street_Whores_Place_Teleport_Shawarma", "click" : "whores_place_teleport2", "xpos" : 195, "ypos" : 778, "zorder":15, "teleport":True})
 #    $ add_object_to_scene("Teleport_Hostel_Street2", {"type":3, "text" : _("ГРЯЗНАЯ УЛИЦА"), "rarrow" : "arrow_right_2", "base":"Street_Whores_Place_Teleport_Hostel_Street2", "click" : "whores_place_teleport2", "xpos" : 1642, "ypos" : 218, "zorder":15, "teleport":True})
 #    $ add_object_to_scene("Teleport_Street1", {"type":3, "text" : _("ВВЕРХ ПО УЛИЦЕ"), "rarrow" : "arrow_right_2", "base":"Street_Whores_Place_Teleport_Street1", "click" : "whores_place_teleport2", "xpos" : 1497, "ypos" : 882, "zorder":15, "teleport":True})
-    $ add_object_to_scene("Teleport_Street1", {"type":3, "text" : _("ВВЕРХ ПО УЛИЦЕ"), "rarrow" : "arrow_right_2", "base":"Street_Whores_Place_Teleport_Hostel_Street2", "click" : "whores_place_teleport2", "xpos" : 1542, "ypos" : 308, "zorder":15, "teleport":True})
+    $ add_object_to_scene("Teleport_Street1", {"type":3, "text" : _("ВВЕРХ ПО УЛИЦЕ"), "rarrow" : "arrow_right_2", "base":"Street_Whores_Place_Teleport_Hostel_Street2", "click" : "whores_place_teleport2", "xpos" : 1542, "ypos" : 238, "zorder":15, "teleport":True})
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
