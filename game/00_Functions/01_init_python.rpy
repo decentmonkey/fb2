@@ -147,41 +147,62 @@ python early:
     renpy.register_statement("sound", parse=sound_parse, execute=sound_exec) #sound - оператор воспроизведения звука
 
     def music_parse(l):
-        return l.simple_expression()
+        return (l.simple_expression(), l.rest())
 
-    def music_exec(o):
-        global currentMusic
+    def music_exec(ob1):
+        global currentMusic, currentMusicPriority
+        o, priority = ob1
+
         if o == "stop":
             currentMusic = False
+            currentMusicPriority = 0
             renpy.music.stop(channel='music', fadeout=1.0)
             return
         try:
             musicName = renpy.eval(o)
         except:
             musicName = o
+        if musicName == currentMusic:
+            return
+
+        try:
+            priority1 = int(priority)
+        except ValueError:
+            priority1 = 0
+        if str(priority) == "low":
+            priority1 = 0
+        if str(priority) == "high":
+            priority1 = 10
+        if priority1 < currentMusicPriority:
+            return
         currentMusic = musicName
+        currentMusicPriority = priority1
         checkPath = "Music/" + str(musicName) + ".ogg"
         if renpy.loadable(checkPath):
             renpy.music.play(checkPath, channel="music", loop=True, fadeout=1.0, fadein=1.0)
+        return
 
     renpy.register_statement("music", parse=music_parse, execute=music_exec) #music - оператор воспроизведения музыки
 
     def store_music():
-        global storedMusic, currentMusic
+        global storedMusic, currentMusic, currentMusicPriority
         storedMusic.insert(0, currentMusic)
+        storedMusicPriority.insert(0, currentMusicPriority)
         return
 
     def restore_music():
-        global storedMusic, currentMusic
+        global storedMusic, currentMusic, currentMusicPriority
         currentMusic1 = False
         if len(storedMusic) > 0:
             currentMusic1 = storedMusic.pop(0)
+            currentMusicPriority1 = storedMusicPriority.pop(0)
         if currentMusic1 == False:
             renpy.music.stop(channel='music', fadeout=1.0)
             return
         if currentMusic1 == currentMusic:
             return
         currentMusic = currentMusic1
+        currentMusicPriority = currentMusicPriority1
         checkPath = "Music/" + str(currentMusic) + ".ogg"
         if renpy.loadable(checkPath):
             renpy.music.play(checkPath, channel="music", loop=True, fadeout=1.0, fadein=1.0)

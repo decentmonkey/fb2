@@ -9,7 +9,9 @@ default lightning = False
 default sceneIsStreet = False
 default objectives_list = []
 default currentMusic = False
+default currentMusicPriority = 0
 default storedMusic = []
+default storedMusicPriority = []
 default day_time = "day"
 default episode = 1
 

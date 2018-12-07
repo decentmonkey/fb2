@@ -43,7 +43,7 @@ label house_cleaning_start:
 
 
     $ store_music()
-    music Sugar_plum
+    music Sugar_plum high
 
 
     call house_cleaning_start3()
