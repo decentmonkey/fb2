@@ -11,11 +11,15 @@ label monica_office_entrance_beef_dialogue1:
         return False
 
     else:
-
         #render
         #Разговор Моники с Бифом около входа в лифт (появляется когда Моника пытается поехать на нем)
         img 6298
+        sound snd_lift
+        $ renpy.pause(2.0)
+        sound denied
         w
+        $ store_music()
+        music biffMusic
         img 6299
         beef "Детка? Ты хочешь попасть наверх?"
         img 6300
@@ -37,30 +41,39 @@ label monica_office_entrance_beef_dialogue1:
         "Как Вы позволяете себе разговаривать со мной?!"
         img 6306
         beef "Детка, ты ведь едешь сниматься в студии, правда?"
+        music stop
         img 6307
         w
         #звук jump1
         #шлепает ее по попе
+        sound Jump2
         img 6308
         w
         img 6309
         "Алексу влетит за то, что решил скрыть от меня такую цыпочку!"
+        music Pyro_Flow
         img 6310
         m "Я не цыпочка!"
-        "Отвали от меня, урод!"
+        if monicaBitch == True:
+            $ notif_monica()
+            "Отвали от меня, урод!"
         beef "Ха-ха-ха!"
+        $ restore_music()
         $ remove_hook()
     return
 
 label monica_office_secretary_dialogue1:
     #render
     #Моника разговаривает с секретаршей. (срабатывает даже если Моника идет в студию или в офис)
+    $ store_music()
+    music RnB4_100
     img 6311
+    with fade
     secretary "МИССИС БАКФЕТТ!!!"
     "ЭТО ВЫ?!?!"
     img 6312
     "О БОЖЕ!"
-    #звук jump1
+    sound Jump2
     img 6313
     w
     #подбегает и обнимает ее
@@ -72,6 +85,7 @@ label monica_office_secretary_dialogue1:
     "Приходил страшный человек, он говорил страшные вещи про Вас!"
     "Что Вы сидели в тюрьме!"
     "Миссис Бакфетт! Скажите что это неправда!"
+    music Stealth_Groover
     img 6316
     m "Это неправда, дорогуша." #выделываясь как обычно
     "У меня были кое-какие проблемы, но я их решила."
@@ -110,11 +124,16 @@ label monica_office_secretary_dialogue1:
     "(хмык)"
     img 6325
     m "Пойду побеседую с ним!"
+    $ remove_hook(label="secretary1")
+    $ restore_music()
     return
 
 label monica_office_secretary_dialogue2:
     #render
     #Моника разговаривает с секретаршей повторно
+
+    $ store_music()
+    music Stealth_Groover
     img 6326
     secretary "Миссис Бакфетт!"
     "Пожалуйста! Возвращайтесь скорее!"
@@ -157,6 +176,7 @@ label monica_office_secretary_dialogue2:
 
                 secretary "Да, Миссис Бакфетт!"
                 "Конечно, держите..."
+                add_money(5)
                 #дает 5 баксов
 
 
@@ -165,12 +185,16 @@ label monica_office_secretary_dialogue2:
             m "Не переживай, дорогуша!"
             "Я скоро вернусь!"
 
+    $ restore_music()
     return
 
 label monica_office_photostudio_alex_dialogue1:
     #render
     #Моника разговаривает с Алексом в фотостудии (первый приход)
+    $ store_music()
+    music Stealth_Groover
     img 6350
+    with fade
     w
     img 6351
     w
@@ -193,6 +217,7 @@ label monica_office_photostudio_alex_dialogue1:
     alex_photograph "Да, Миссис Бакфетт! Конечно!"
     img 6358
     w
+    $ restore_music()
     return
 
 label monica_office_cabinet_beef_dialogue1:
@@ -200,6 +225,7 @@ label monica_office_cabinet_beef_dialogue1:
     #Моника разговаривает с Бифом первый раз. На столе сидит Мелани.
     #Мелани замечает Монику и выходит
     #подходит к Монике и здоровается
+    $ store_music()
     img 6359
     w
     img 6360
@@ -213,6 +239,7 @@ label monica_office_cabinet_beef_dialogue1:
     img 6364
     w
     #музыка Мелани zigzag
+    music ZigZag
     img 6365
     w
     img 6366
@@ -264,12 +291,14 @@ label monica_office_cabinet_beef_dialogue1:
 
 
     #Моника наедине с Бифом
+    music biffMusic
     img 6388
     beef "О! Цыпочка!"
     "Алекс клялся что не прятал тебя!"
     "Значит он, все-таки, врал и решил исправить свою вину прислав тебя ко мне?"
     "Ха-ха!"
 
+    music Pyro_Flow
     img 6389
     m "Это значит ты Биф?!"
     "Мерзавец!"
@@ -295,6 +324,7 @@ label monica_office_cabinet_beef_dialogue1:
     beef "Ого!"
     "Это какая-то шутка?"
     "Должно быть ты самозванка?" #Биф озабочен
+    music biffMusic
     img 6396
     "..." #у Бифа озарение, улыбается
     img 6397

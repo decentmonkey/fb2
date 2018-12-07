@@ -14,7 +14,7 @@ label street_cloth_shop:
         music street_evening4
 
 label street_cloth_shop_init:
-    $ add_object_to_scene("Monica", {"type":2, "base":"Street_Cloth_Shop_Monica_" + cloth + day_suffix, "click" : "street_cloth_shop_environment", "actions" : "l", "zorder" : 12})
+    $ add_object_to_scene("Monica", {"type":2, "base":"Street_Cloth_Shop_Monica_" + cloth + day_suffix, "click" : "street_cloth_shop_environment2", "actions" : "l", "zorder" : 12})
 
     $ add_object_to_scene("Parking_Cash", {"type":2, "base":"Street_Cloth_Shop_Parking_Cash", "click" : "street_cloth_shop_environment2", "actions" : "l", "zorder" : 0})
     $ add_object_to_scene("Trees", {"type":2, "base":"Street_Cloth_Shop_Trees", "click" : "street_cloth_shop_environment2", "actions" : "l", "zorder" : 0})

@@ -169,6 +169,17 @@ label start_game:
 
     # Офис Моники
     $ add_hook("Teleport_Monica_Office_Secretary", "monica_office_entrance_beef_dialogue1", scene="monica_office_entrance")
+    $ move_object("Secretary", "monica_office_secretary")
+    $ add_hook("Secretary", "monica_office_secretary_dialogue2", scene="monica_office_secretary") # Регулярный разговор попросить деньги
+    $ add_hook("Secretary", "monica_office_secretary_dialogue1", scene="monica_office_secretary", label="secretary1")
+    $ add_hook("Teleport_Monica_Office_Photostudio", "monica_office_secretary_dialogue1", scene="monica_office_secretary", label="secretary1")
+    $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_cabinet_beef_dialogue1", scene="monica_office_secretary", label="biff1")
+    $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_secretary_dialogue1", scene="monica_office_secretary", label="secretary1")
+
+    $ move_object("Melanie", "monica_office_cabinet")
+    $ add_hook("Melanie", "monica_office_photostudio_melanie_dialogue1", scene="monica_office_secretary")
+    $ move_object("AlexPhotograph", "monica_office_photostudio")
+    $ add_hook("AlexPhotograph", "monica_office_photostudio_alex_dialogue1", scene="monica_office_photostudio") # Приветствие Алекса
 
     # Заправка
     $ add_hook("enter_scene", "monica_gas_station_thief_dialogue1", scene="gas_station_view1")

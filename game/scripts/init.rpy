@@ -8,6 +8,7 @@ define monicaKebabWorkFlyersAmount = 5 # Количество флаеров, к
 define monicaKebabWorkFlyersAmountRandomDiff = 1 #Рандом, в котором будет делаться отклонение от monicaKebabWorkFlyersAmount
 
 default houseMusic = "Mandeville"
+default biffMusic = "Funk_loop8"
 
 default persistent.pause_before_change_slide = False
 default persistent.auto_clipboard = False
