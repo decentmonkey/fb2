@@ -1,6 +1,9 @@
 default houseCleaningStoredScene = False
 default cleaningLog = []
 
+#default houseCleaningCurrent = 3
+#default houseCleaningCurrentList = []
+
 label house_cleaning:
     # хук проверки на начало уборки
     if day_time != "day":

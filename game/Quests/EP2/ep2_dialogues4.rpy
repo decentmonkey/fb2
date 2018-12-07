@@ -333,6 +333,7 @@ label monica_office_cabinet_beef_dialogue1:
     beef "Это отлично!"
     "У тебя так натурально получается играть!"
     "Цыпочка! Я думаю у меня есть для тебя работа!"
+    music Pyro_Flow
     img 6399
     m "Цыпочка?! Играть?!"
     "Что ты несешь, урод?!"
@@ -340,6 +341,7 @@ label monica_office_cabinet_beef_dialogue1:
     "Вставай с моего стула!"
     "БЫСТРО!!!"
 
+    music Villainous_Treachery
     img 6400
     beef "Нет, этого не может быть..."
     "Насколько мне известно, Моника Бакфетт - опасный преступник, которого ждет суровое наказание..."
@@ -394,6 +396,7 @@ label monica_office_cabinet_beef_dialogue1:
     "Иначе конец!"
     "Маркус будет очень рад заполучить меня с заявлением об угрозах от этого слизняка!"
     "О БОЖЕ!!!"
+    music Hidden_Agenda
     img 6411
     m "Эй! Биф!" #Кокетливо встает
     "Не бойся!"
@@ -420,11 +423,13 @@ label monica_office_cabinet_beef_dialogue1:
     "Иди ко мне на коленки, скорее!"
     "Надо пожалеть папочку!"
 
+    music Stealth_Groover
     img 6418
     m "Я... не собираюсь никуда садиться!"
     img 6419
     "Как ты вообще здесь оказался и кто ты такой?"
 
+    music biffMusic
     img 6420
     beef "Я - Биф!"
     "Владелец Модного Журнала!"
@@ -442,6 +447,7 @@ label monica_office_cabinet_beef_dialogue1:
     img 6423
     "Я ведь могу тебя сделать моделью, ты понимаешь?" #подмигивает
 
+    music Power_Bots_Loop
     img 6424
     mt "!!!"
     "СВОЛОЧЬ!!!"
@@ -451,6 +457,7 @@ label monica_office_cabinet_beef_dialogue1:
     img 6425
     m "У меня нет желания становиться моделью!"
 
+    music biffMusic
     img 6426
     beef "Я бы мог {b}дать тебе работу{/b}, детка!"
     "Ты так похожа на Монику Бакфетт, что никто не увидит разницы!"
@@ -459,6 +466,8 @@ label monica_office_cabinet_beef_dialogue1:
     img 6427
     "К тому же многие задают вопросы где эта сучка!"
     "А мне не всегда получается объяснить журналистам что она не должна интересовать их, потому что есть Я!"
+
+    music Power_Bots_Loop
     img 6428
     mt "!!!"
     "КТО Я???"
@@ -474,6 +483,7 @@ label monica_office_cabinet_beef_dialogue1:
     img 6431
     m "Меня не интересует твоя работа, Биф!"
 
+    music biffMusic
     img 6432
     beef "Хорошо, цыпочка."
     "Зачем же ты тогда пришла сюда?"
@@ -488,6 +498,7 @@ label monica_office_cabinet_beef_dialogue1:
     "Пытаешь произвести на меня впечатление, понимаю..."
     "Мне нравятся такие цыпочки!"
 
+    music Power_Bots_Loop
     img 6435
     mt "Я больше не могу выдерживать этого урода..."
     "У меня все кипит внутри!"
@@ -505,7 +516,13 @@ label monica_office_cabinet_beef_dialogue1:
     beef "До свидания, цыпочка!"
     "Я буду звать тебя Моника Бакфетт! Ха-ха-ха!"
 
+    $ restore_music()
+    $ autoru_to_object("monica_office_secretary", "monica_office_cabinet_beef_dialogue1a")
+    call change_scene("monica_office_secretary")
+    return
     #Моника выходит
+
+label monica_office_cabinet_beef_dialogue1a:
 
     $ monicaOfficeSecretaryMonicaSuffix_forced = ""
     mt "Это было..."
@@ -519,8 +536,11 @@ label monica_office_cabinet_beef_dialogue1:
     "И первое что я сделаю - это выкину этого Бифа!!!"
 
     # Если Моника разносила флаеры
-    "Он будет разносить газеты всю свою оставшуюся жизнь!!!"
-    "Или флаеры!!! Да!!!"
+    if monicaKnowAboutKebabWork == True:
+        notif(_("Монике пришлось зарабатывать на еду разноской флаеров"))
+        "Он будет разносить газеты всю свою оставшуюся жизнь!!!"
+        "Или флаеры!!! Да!!!"
+        call bitch(10, "monicaKnowAboutKebabWork_biff")
     #
 
     "Клянусь!!!"
