@@ -173,6 +173,8 @@ label start_game:
     $ add_hook("Secretary", "monica_office_secretary_dialogue2", scene="monica_office_secretary") # Регулярный разговор попросить деньги
     $ add_hook("Secretary", "monica_office_secretary_dialogue1", scene="monica_office_secretary", label="secretary1")
     $ add_hook("Teleport_Monica_Office_Photostudio", "monica_office_secretary_dialogue1", scene="monica_office_secretary", label="secretary1")
+
+    $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_secretary_dialogue4a", scene="monica_office_secretary", label="check_bill_at_place")
     $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_cabinet_beef_dialogue1", scene="monica_office_secretary", label="biff1")
     $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_secretary_dialogue1", scene="monica_office_secretary", label="secretary1")
 

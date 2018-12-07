@@ -8,12 +8,15 @@ label monica_office_entrance_beef_dialogue1:
         "Теперь мне не попасть внутрь!"
         "Но ничего! Я еще найду способ это сделать и посмотреть на этого ублюдка!"
         "Который думает что он теперь главный в моей компании!"
+        "..."
+        "Может быть {b}попробовать вечером?{/b}"
         return False
 
     else:
         #render
         #Разговор Моники с Бифом около входа в лифт (появляется когда Моника пытается поехать на нем)
         img 6298
+        with fade
         sound snd_lift
         $ renpy.pause(2.0)
         sound denied
@@ -21,6 +24,7 @@ label monica_office_entrance_beef_dialogue1:
         $ store_music()
         music biffMusic
         img 6299
+        with fade
         beef "Детка? Ты хочешь попасть наверх?"
         img 6300
         m "Кто вы?"
@@ -49,9 +53,9 @@ label monica_office_entrance_beef_dialogue1:
         sound Jump2
         img 6308
         w
+        music Pyro_Flow
         img 6309
         "Алексу влетит за то, что решил скрыть от меня такую цыпочку!"
-        music Pyro_Flow
         img 6310
         m "Я не цыпочка!"
         if monicaBitch == True:
@@ -65,6 +69,8 @@ label monica_office_entrance_beef_dialogue1:
 label monica_office_secretary_dialogue1:
     #render
     #Моника разговаривает с секретаршей. (срабатывает даже если Моника идет в студию или в офис)
+    if act == "l":
+        return
     $ store_music()
     music RnB4_100
     img 6311
@@ -93,6 +99,7 @@ label monica_office_secretary_dialogue1:
     secretary "Это значит что Вы вернулись?!"
     "Как хорошо!!!"
     img 6318
+    with fade
     "Миссис Бакфетт!"
     "Пожалуйста!"
     "Выгоните того жуткого человека, который занял Ваш кабинет!"
@@ -126,11 +133,14 @@ label monica_office_secretary_dialogue1:
     m "Пойду побеседую с ним!"
     $ remove_hook(label="secretary1")
     $ restore_music()
-    return
+
+    return False
 
 label monica_office_secretary_dialogue2:
     #render
     #Моника разговаривает с секретаршей повторно
+    if act == "l":
+        return
 
     $ store_music()
     music Stealth_Groover
@@ -191,6 +201,8 @@ label monica_office_secretary_dialogue2:
 label monica_office_photostudio_alex_dialogue1:
     #render
     #Моника разговаривает с Алексом в фотостудии (первый приход)
+    if act == "l":
+        return
     $ store_music()
     music Stealth_Groover
     img 6350
@@ -560,6 +572,8 @@ label monica_office_cabinet_beef_dialogue2:
     return
 
 label monica_office_photostudio_melanie_dialogue1:
+    if act == "l":
+        return
     #render
     img 6503
     w
@@ -606,6 +620,8 @@ label monica_office_photostudio_melanie_dialogue1:
 
 
 label monica_office_secretary_dialogue3:
+    if act == "l":
+        return
     #render
     #Моника разговаривает с секретаршей когда приходит получать работу. (срабатывает даже если Моника идет в студию или в офис)
     img 6337
@@ -639,6 +655,8 @@ label monica_office_secretary_dialogue3:
     return
 
 label monica_office_secretary_dialogue4:
+    if act == "l":
+        return
     #Моника разговаривает с секретаршей когда приходит получать работу, но еще не пятница.
     if get_active_objects("Beef", scene="monica_office_cabinet") == False:
         #render
@@ -657,6 +675,8 @@ label monica_office_secretary_dialogue4:
     return
 
 label monica_office_secretary_dialogue4a:
+    if act == "l":
+        return
     #Моника разговаривает с секретаршей днем, когда Бифа нет (регулярно).
     if get_active_objects("Beef", scene="monica_office_cabinet") == False:
         if day_time == "day":
@@ -1000,6 +1020,8 @@ label monica_office_dialogue9:
     return
 
 label monica_office_photostudio_alex_dialogue2:
+    if act == "l":
+        return
     #render
     #Моника разговаривает с Алексом в фотостудии (фотосессия)
     img 6516
@@ -1371,6 +1393,8 @@ label monica_office_photostudio_alex_dialogue2:
     return
 
 label monica_office_secretary_dialogue7:
+    if act == "l":
+        return
     #Моника обращается к секретарше одетая в платье
     img 6345
     secretary "МИССИС БАКФЕТТ!!!"

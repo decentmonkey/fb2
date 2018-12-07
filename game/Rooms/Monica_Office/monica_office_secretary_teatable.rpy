@@ -29,23 +29,23 @@ label monica_office_secretary_teatable_teleport:
     return
 label monica_office_secretary_teatable_environment:
     if obj_name == "Monica":
-        m "Это чайный столик."
+        mt "Это чайный столик."
         "Неудивительно что выпечки и кофе здесь больше нет..."
         "А жаль, я бы с удовольствием съела что-нибудь!"
     if obj_name == "Documents":
-        m "Я в будущем разберусь со всеми делами что натворил здесь Биф!"
+        mt "Я в будущем разберусь со всеми делами что натворил здесь Биф!"
 
     if obj_name == "Flower":
-        m "Цветок..."
+        mt "Цветок..."
     if obj_name == "Gong":
-        m "Что это?"
+        mt "Что это?"
         "Маленький Гонг?"
     if obj_name == "Sofa":
-        m "Диван для ожидающих приема гостей."
+        mt "Диван для ожидающих приема гостей."
     if obj_name == "TableBooks":
-        m "Развлекательные книги для ожидающих гостей."
+        mt "Развлекательные книги для ожидающих гостей."
     if obj_name == "Elephant":
-        m "Ух-ты!
+        mt "Ух-ты!
         Маленький слоник!"
         "Как это мило!..."
         call bitch(-3, "secretary_elephant")
