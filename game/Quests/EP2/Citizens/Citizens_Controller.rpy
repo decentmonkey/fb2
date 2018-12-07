@@ -39,7 +39,7 @@ default citizen15_offered_last_day = 0
 
 
 label citizens_dialogue:
-    if kebabWorkFlyersLeft == 0:
+    if kebabWorkFlyersLeft == 0 and kebabWorkInProgress == True:
         call monica_shawarma_dialogue3a()
         return
     call citizens_dialogue_process()
