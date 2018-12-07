@@ -45,6 +45,7 @@ label monica_dick_office_dialogue1a:
     if get_active_objects("DickTheLawyer", scene="dick_office_cabinet") != False:
         return True
     # Моника заходит в office_dick_entrance, когда Дика нет
+    sound highheels_short_walk
     img 3045
     w
     img 3046
