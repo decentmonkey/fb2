@@ -4,6 +4,7 @@ label bedroom2:
     call miniMapHouseGenerate()
 
     $ scene_image = "scene_Bedroom2[day_suffix]"
+    music Mandeville
 
 #    if gameStage > 2:
 #        if scene_name != lastSceneName and lastSceneName != "bedroom1":

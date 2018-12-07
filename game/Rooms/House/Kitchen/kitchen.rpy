@@ -6,6 +6,7 @@ label kitchen:
     call miniMapHouseGenerate()
 
     $ scene_image = "scene_Kitchen[day_suffix]"
+    music Mandeville
 
 #    if gameStage > 2:
 #        if monicaKitchenForbidden == True and scene_name != lastSceneName:

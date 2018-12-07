@@ -1653,7 +1653,7 @@ translate german monica_office_cabinet_beef_dialogue4_030ddf09:
     # "Ты покажешь мне свою попку в следующий раз!"
     beef "Да! Детка!"
     "И тебе стоит поторопиться!"
-    "Не переживай!"
+    "Keine Sorge!"
     "Ты покажешь мне свою попку в следующий раз!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:910
@@ -2332,11 +2332,11 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues4.rpy:108
     old "Попросить деньги в долг."
-    new ""
+    new "Frage, ob Du Dir Geld leihen kannst."
 
     # Quests/EP2/ep2_dialogues4.rpy:340
     old "Притвориться что это не Я..."
-    new ""
+    new "Behaupte, Du warst es nicht..."
 
     # Quests/EP2/ep2_dialogues4.rpy:510
     old "Да, я примерно понимаю в чем заключаются они, твои силы..."
@@ -2352,7 +2352,7 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues4.rpy:823
     old "Согласиться."
-    new ""
+    new "Stimme zu."
 
     # Quests/EP2/ep2_dialogues4.rpy:939
     old "Да, буду..."
@@ -2364,5 +2364,5 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues4.rpy:990
     old "Переодеться."
-    new ""
+    new "Zieh Dich um."
 

@@ -8,6 +8,10 @@ label street_cloth_shop:
     $ scene_name = "street_cloth_shop"
     $ sceneIsStreet = True
     $ scene_image = "scene_Street_Cloth_Shop[day_suffix]"
+    if day_time == "day":
+        music street7
+    else:
+        music street_evening4
 
 label street_cloth_shop_init:
     $ add_object_to_scene("Monica", {"type":2, "base":"Street_Cloth_Shop_Monica_" + cloth + day_suffix, "click" : "street_cloth_shop_environment", "actions" : "l", "zorder" : 12})

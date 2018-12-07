@@ -6,6 +6,7 @@ label basement_hole:
     call miniMapHouseGenerate()
 
     $ scene_image = "scene_Basement_Hole"
+    music Sneak_n_Get_Caught
     return
 
 label basement_hole_init:

@@ -918,21 +918,21 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues3.rpy:146
     old "Приставать к Дику."
-    new ""
+    new "Nerve Dick."
 
     # Quests/EP2/ep2_dialogues3.rpy:146
     old "Я пока не нашла деньги..."
-    new ""
+    new "Ich habe noch kein Geld verdient..."
 
     # Quests/EP2/ep2_dialogues3.rpy:359
     old "Попросить Викторию вежливо..."
-    new ""
+    new "Frage höflich Victoria..."
 
     # Quests/EP2/ep2_dialogues3.rpy:368
     old "Попросить Викторию еще вежливее..."
-    new ""
+    new "Frage Victoria noch höflicher..."
 
     # Quests/EP2/ep2_dialogues3.rpy:382
     old "Сделать Виктории комплимент..."
-    new ""
+    new "Mache Victoria ein Kompliment..."
 

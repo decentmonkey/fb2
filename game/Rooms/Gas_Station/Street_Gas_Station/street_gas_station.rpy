@@ -4,6 +4,10 @@ label street_gas_station:
 
     $ sceneIsStreet = True
     $ scene_image = "scene_Street_Gas_Station[day_suffix]"
+    if day_time == "day":
+        music street8
+    else:
+        music street_evening4
 
     return
 

@@ -13,6 +13,6 @@ translate german street_monica_office_teleport2_15a907b2:
     "Oder besser: gehörte..."
     "(schnief)"
     "Ich hole mir alles zurück!"
-    "Ich schwöre!!"
+    "Das schwöre ich!"
     "Ich brauche nur etwas Zeit!"
 

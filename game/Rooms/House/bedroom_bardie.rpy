@@ -4,6 +4,7 @@ label bedroom_bardie:
     call miniMapHouseGenerate()
 
     $ scene_image = "scene_House_BedroomBardie" + day_suffix
+    music Sneaky_Snitch
     return
 
 label bedroom_bardie_init:

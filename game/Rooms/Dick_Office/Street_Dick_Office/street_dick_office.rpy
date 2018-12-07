@@ -5,6 +5,10 @@ label street_dick_office:
 
     $ sceneIsStreet = True
     $ scene_image = "scene_Street_Dick_Office[day_suffix]"
+    if day_time == "day":
+        music street9
+    else:
+        music street_evening2
     return
 
 label street_dick_office_init:

@@ -1829,7 +1829,7 @@ translate german monica_charity_event_dialogue17_7f459658:
 
     # m "В МОЕМ!" 
     # mt "(хмык)"
-    m "В МОЕМ!" 
+    m "IN MEINEM!" 
     mt "(schnief)"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1063
@@ -2892,11 +2892,11 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:155
     old "Сказать всем правду!"
-    new ""
+    new "Erzähle jedem die Wahrheit!"
 
     # Quests/EP2/ep2_dialogues5.rpy:155
     old "Подыграть Бифу. Если я хочу все вернуть назад, то надо быть хитрее..."
-    new ""
+    new "Mache Beef's Spiel mit. Wenn ich alles zurück will, muss ich schlauer vorgehen..."
 
     # Quests/EP2/ep2_dialogues5.rpy:155
     old "Еще подумать..."
@@ -2908,7 +2908,7 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:355
     old "Я понимаю. У тебя много забот..."
-    new ""
+    new "Verstehe. Du hast so viel zu tun..."
 
     # Quests/EP2/ep2_dialogues5.rpy:420
     old "Согласиться..."
@@ -2916,7 +2916,7 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:420
     old "Отказаться..."
-    new ""
+    new "Lehne ab..."
 
     # Quests/EP2/ep2_dialogues5.rpy:690
     old "Ну... Хорошо... Давай потанцуем..."
@@ -2924,11 +2924,11 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:690
     old "Я пока не решила..."
-    new ""
+    new "Ich habe mich noch nicht entschieden..."
 
     # Quests/EP2/ep2_dialogues5.rpy:824
     old "$ 30.000.000 и я подумаю!"
-    new ""
+    new "$ 30.000.000 und ich denke drüber nach!"
 
     # Quests/EP2/ep2_dialogues5.rpy:824
     old "Вы правда думаете что я стою так мало?"
@@ -2944,7 +2944,7 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:899
     old "Я ни за что это не скажу! Уйти."
-    new ""
+    new "Um nichts auf der Welt würde ich das sagen! Hau ab."
 
     # Quests/EP2/ep2_dialogues5.rpy:966
     old "Да, давай еще потанцуем."
@@ -2960,7 +2960,7 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:1046
     old "В МОЕМ! (хмык)"
-    new ""
+    new "IN MEINS! (hmpf)"
 
     # Quests/EP2/ep2_dialogues5.rpy:1046
     old "Мне... Мне надо подумать!"
@@ -2968,19 +2968,19 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:1173
     old "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!! (убежать)"
-    new ""
+    new "DAS WERDE ICH NICHT TUN!!! (Lauf weg)"
 
     # Quests/EP2/ep2_dialogues5.rpy:1173
     old "Открыть рот..."
-    new ""
+    new "Öffne den Mund..."
 
     # Quests/EP2/ep2_dialogues5.rpy:1197
     old "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!!"
-    new ""
+    new "Mach was Philip sagt. Ich habe keine Wahl. Ich brauche Geld!!!"
 
     # Quests/EP2/ep2_dialogues5.rpy:1278
     old "Пожалуйста, дайте еще $ 500!!!"
-    new ""
+    new "Bitte gib mir weitere $500!!!"
 
     # Quests/EP2/ep2_dialogues5.rpy:1302
     old "Я могу сделать это еще раз..."
@@ -2988,29 +2988,29 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:1302
     old "Я не знаю... Мне нечего предложить..."
-    new ""
+    new "Ich weiß nicht... Ich habe nichts anzubieten..."
 
     # Quests/EP2/ep2_dialogues5.rpy:1495
     old "Открыть рот. Я решила делать все что говорит Филип. Если я не достану эти деньги, то мне конец!"
-    new ""
+    new "Öffne den Mund. Ich habe mich dazu entschieden, alles zu tun, was Philip sagt. Wenn ich das Geld nicht bekomme, wars das mit mir!"
 
     # Quests/EP2/ep2_dialogues5.rpy:1495
     old "Я не могу это сделать..."
-    new ""
+    new "I könnte das nicht tun..."
 
     # Quests/EP2/ep2_dialogues5.rpy:1557
     old "Делать как сказал Филип..."
-    new ""
+    new "Mach, was Philip sagt..."
 
     # Quests/EP2/ep2_dialogues5.rpy:1584
     old "Проглотить сперму двух мужчин..."
-    new ""
+    new "Schlucke das Sperma von zwei Männern..."
 
     # Quests/EP2/ep2_dialogues5.rpy:1584
     old "Притвориться что проглотила..."
-    new ""
+    new "Tue so, als ob Du schluckst..."
 
     # Quests/EP2/ep2_dialogues5.rpy:1602
     old "Проглотить сперму по настоящему, иначе Филип увидит и я не получу деньги..."
-    new ""
+    new "Schlucke das Sperma wirklich, sonst checkt das Philip und ich bekomme kein Geld..."
 

@@ -5,6 +5,7 @@ label floor1:
 
     $ scene_image = "scene_Floor1[day_suffix]"
 
+    music houseMusic
     return
 
 label floor1_init:

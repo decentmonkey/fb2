@@ -7,6 +7,7 @@ label basement_bedroom2:
 
     $ scene_image = "scene_Basement_Bedroom2"
     $ basementHoleIncomingDirection = "Bedroom"
+    music Stealth_Groover
     return
 
 label basement_bedroom2_init:

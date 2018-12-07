@@ -8,6 +8,7 @@ label street_house_outside:
 
     $ sceneIsStreet = True
     $ scene_image = "scene_Street_House_Outside[day_suffix]"
+    music night_ambience
     return
 
 label street_house_outside_init:

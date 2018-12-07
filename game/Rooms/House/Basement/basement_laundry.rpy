@@ -6,6 +6,7 @@ label basement_laundry:
     $ scene_image = "scene_Laundry1"
 
     $ basementHoleIncomingDirection = "Laundry"
+    music Mandeville
     return
 
 label basement_laundry_init:

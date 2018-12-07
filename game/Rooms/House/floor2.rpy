@@ -8,6 +8,7 @@ label floor2:
     $ scene_image = "scene_Floor2_Evening"
 
     $ floor2BettyPositionSuffix = str(renpy.random.randint(1,3))
+    music houseMusic
     return
 
 label floor2_init:

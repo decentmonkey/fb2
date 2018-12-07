@@ -15,6 +15,11 @@ label hostel_edge_1_c:
 
     $ hostelStreet2MonicaFromSideSuffix = "2"
 
+    if rand(1,4) > 1:
+        music street_evening1
+    else:
+        music street13_ambulance
+
     return
 
 label hostel_edge_1_c_init:

@@ -106,9 +106,9 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues6.rpy:16
     old "Украсть еду."
-    new ""
+    new "Klaue Essen."
 
     # Quests/EP2/ep2_dialogues6.rpy:16
     old "Не делать этого."
-    new ""
+    new "Klaue nichts."
 

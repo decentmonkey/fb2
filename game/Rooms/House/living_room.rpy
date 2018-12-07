@@ -8,6 +8,7 @@ label living_room:
     $ scene_image = "scene_House_LivingRoom[day_suffix]"
 
     $ livingRoomRalphIsHere = True if get_active_objects("Ralph") != False else False
+    music houseMusic
     return
 
 label living_room_init:

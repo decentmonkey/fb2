@@ -562,19 +562,19 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues2.rpy:99
     old "Согласиться разносить флаеры."
-    new ""
+    new "Stimme zu, die Flyer zu verteilen."
 
     # Quests/EP2/ep2_dialogues2.rpy:99
     old "Отказаться."
-    new ""
+    new "Lehne ab."
 
     # Quests/EP2/ep2_dialogues2.rpy:157
     old "Купить кебаб за $ 1"
-    new ""
+    new "Kaufe einen Kebab für $1"
 
     # Quests/EP2/ep2_dialogues2.rpy:157
     old "Разносить флаеры."
-    new ""
+    new "Verteile die Flyer."
 
 # TODO: Translation updated at 2018-12-06 21:43
 
@@ -746,5 +746,5 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues2.rpy:203
     old "Я не собираюсь ничего разносить! Давай кебаб сюда!"
-    new ""
+    new "Я не собираюсь ничего разносить! Давай кебаб сюда!"
 

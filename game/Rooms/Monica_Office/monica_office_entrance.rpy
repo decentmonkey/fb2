@@ -5,6 +5,7 @@ label monica_office_entrance:
     $ miniMapData = []
 
     $ scene_image = "scene_Office_Entrance_Monica"
+    music Groove2_85
     return
 
 label monica_office_entrance_init:

@@ -7,6 +7,13 @@ label whores_place_shawarma:
     $ sceneIsStreet = True
     $ scene_image = "scene_street_whores_place_shawarma[day_suffix]"
     $ whoresPlacePreviousLocation = "shawarma"
+    if day_time == "day":
+        music street4
+    else:
+        if rand(1,4) > 1:
+            music street_evening1
+        else:
+            music street13_ambulance
     return
 
 label whores_place_shawarma_init:

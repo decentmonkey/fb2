@@ -196,7 +196,7 @@ translate german strings:
 
     # 00_Functions/07_init_renpy.rpy:59
     old "Биф"
-    new ""
+    new "Beef"
 
     # 00_Functions/07_init_renpy.rpy:60
     old "Бетти Робертс"
@@ -212,27 +212,27 @@ translate german strings:
 
     # 00_Functions/07_init_renpy.rpy:64
     old "Сотрудник Отеля"
-    new ""
+    new "Hotelmitarbeiter"
 
     # 00_Functions/07_init_renpy.rpy:65
     old "Филип"
-    new ""
+    new "Philip"
 
     # 00_Functions/07_init_renpy.rpy:68
     old "Репортер 1"
-    new ""
+    new "Journalist 1"
 
     # 00_Functions/07_init_renpy.rpy:69
     old "Репортер 2"
-    new ""
+    new "Journalist 2"
 
     # 00_Functions/07_init_renpy.rpy:70
     old "Репортер 3"
-    new ""
+    new "Journalist 3"
 
     # 00_Functions/07_init_renpy.rpy:72
     old "Незнакомец"
-    new ""
+    new "Fremder"
 
     # 00_Functions/07_init_renpy.rpy:73
     old "Том"

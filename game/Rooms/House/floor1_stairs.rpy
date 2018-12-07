@@ -11,6 +11,7 @@ label floor1_stairs:
     if get_active_objects("Bardie") != False:
         $ floor1_stairs_Teleport_Basement_Pool_offset = True
 
+    music houseMusic
     return
 
 label floor1_stairs_init:

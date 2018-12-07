@@ -4,6 +4,10 @@ label street_rich_hotel:
 
     $ sceneIsStreet = True
     $ scene_image = "scene_Street_Rich_Hotel[day_suffix]"
+    if day_time == "day":
+        music rich_hotel_park
+    else:
+        music street_evening4
     return
 
 label street_rich_hotel_init:

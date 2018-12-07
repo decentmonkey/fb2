@@ -7,6 +7,7 @@ define monicaCleaningAddCorruptionPerCleaning = 1 #Увеличение corrupti
 define monicaKebabWorkFlyersAmount = 5 # Количество флаеров, которые надо раздать Монике
 define monicaKebabWorkFlyersAmountRandomDiff = 1 #Рандом, в котором будет делаться отклонение от monicaKebabWorkFlyersAmount
 
+default houseMusic = "Mandeville"
 
 default persistent.pause_before_change_slide = False
 default persistent.auto_clipboard = False

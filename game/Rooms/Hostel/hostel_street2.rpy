@@ -10,6 +10,14 @@ label hostel_street2:
     $ scene_image = "scene_Hostel_Street2[day_suffix]"
 
     $ hostelStreet3MonicaFromSideSuffix = "2"
+
+    if day_time == "day":
+        music street2
+    else:
+        if rand(1,4) > 1:
+            music street_evening3
+        else:
+            music street13_ambulance
     return
 label hostel_street2_init:
 

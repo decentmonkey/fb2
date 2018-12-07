@@ -4,6 +4,7 @@ label bedroom_second:
     call miniMapHouseGenerate()
 
     $ scene_image = "scene_House_BedroomSecond[day_suffix]"
+    music houseMusic
     return
 
 label bedroom_second_init:

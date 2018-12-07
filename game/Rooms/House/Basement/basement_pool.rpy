@@ -4,6 +4,7 @@ label basement_pool:
     call miniMapHouseGenerate()
 
     $ scene_image = "scene_Basement_Pool"
+    music Mandeville
     return
 
 label basement_pool_init:

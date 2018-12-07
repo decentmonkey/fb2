@@ -56,7 +56,7 @@ translate german strings:
 
     # Quests/EP2/Citizens/Citizen10_dialogue.rpy:12
     old "Возьмите, пожалуйста, этот флаер..."
-    new ""
+    new "Возьмите, пожалуйста, этот флаер..."
 
 # TODO: Translation updated at 2018-12-06 21:43
 

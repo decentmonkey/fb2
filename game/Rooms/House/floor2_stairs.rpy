@@ -4,6 +4,7 @@ label floor2_stairs:
     call miniMapHouseGenerate()
 
     $ scene_image = "scene_Floor2_Stairs"
+    music houseMusic
     return
 
 label floor2_stairs_init:

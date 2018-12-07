@@ -7,6 +7,13 @@ label whores_place_street1:
     $ scene_image = "scene_street_Whores_Street1[day_suffix]"
 
     $ whoresPlacePreviousLocation = "street"
+    if day_time == "day":
+        music street4
+    else:
+        if rand(1,4) > 1:
+            music street_evening3
+        else:
+            music street13_ambulance
     return
 
 label whores_place_street1_init:

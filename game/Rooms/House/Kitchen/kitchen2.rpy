@@ -4,6 +4,7 @@ label kitchen2:
     call miniMapHouseGenerate()
 
     $ scene_image = "scene_Kitchen2[day_suffix]"
+    music Mandeville
     return
 
 label kitchen2_init:

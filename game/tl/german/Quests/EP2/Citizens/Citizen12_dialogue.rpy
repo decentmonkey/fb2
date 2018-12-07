@@ -60,7 +60,7 @@ translate german strings:
 
     # Quests/EP2/Citizens/Citizen12_dialogue.rpy:2
     old "Мистер... Можно к Вам обратиться?"
-    new ""
+    new "Мистер... Можно к Вам обратиться?"
 
     # Quests/EP2/Citizens/Citizen12_dialogue.rpy:25
     old "Я никого не собираюсь развлекать!"

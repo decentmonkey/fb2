@@ -24,7 +24,7 @@ translate german rich_hotel_event_sofa_environment_70b277eb:
     # "Клянусь!"
     mt "Мерзкий слизняк Биф!"
     "Я найду на него управу!!!"
-    "Ich schwöre!!"
+    "Das schwöre ich!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_sofa.rpy:51
 translate german rich_hotel_event_sofa_environment_1bb250b4:

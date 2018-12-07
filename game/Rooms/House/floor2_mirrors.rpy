@@ -4,6 +4,7 @@ label floor2_mirrors:
     call miniMapHouseGenerate()
 
     $ scene_image = "scene_Floor2_Mirrors_no_hair_dye[day_suffix]"
+    music houseMusic
     return
 
 label floor2_mirrors_init:

@@ -7,6 +7,10 @@ label street_house_main_yard:
 
     $ sceneIsStreet = True
     $ scene_image = "scene_Street_House[day_suffix]"
+    if day_time == "day":
+        music Mandeville
+    else:
+        music night_ambience
     return
 
 label street_house_main_yard_init:

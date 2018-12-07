@@ -5,6 +5,10 @@ label street_monica_office:
     $ sceneIsStreet = True
 
     $ scene_image = "scene_Street_Monica_Office[day_suffix]"
+    if day_time == "day":
+        music street9
+    else:
+        music street_evening1
     return
 
 label street_monica_office_init:

@@ -6,6 +6,7 @@ label street_police:
     $ sceneIsStreet = True
 
     $ scene_image = "scene_street_Police[day_suffix]"
+    music Master_Disorder
     return
 
 label street_police_init:

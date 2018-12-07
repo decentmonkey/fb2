@@ -4,6 +4,7 @@ label gas_station_view1:
     $ miniMapData = []
 
     $ scene_image = "scene_Gas_Station_View1"
+    music Groove2_85
     return
 
 label gas_station_view1_init:

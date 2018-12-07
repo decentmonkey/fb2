@@ -5,6 +5,14 @@ label hostel_street_door:
 
     $ sceneIsStreet = True
     $ scene_image = "scene_hostel_street_door[day_suffix]"
+
+    if day_time == "day":
+        music street3
+    else:
+        if rand(1,4) > 1:
+            music street_evening4
+        else:
+            music street13_ambulance
     return
 
 label hostel_street_door_init:

@@ -4,6 +4,7 @@ label floor1_fountain:
     call miniMapHouseGenerate()
 
     $ scene_image = "scene_Floor1_Fountain[day_suffix]"
+    music snd_fountain_music
     return
 
 label floor1_fountain_init:

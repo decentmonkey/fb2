@@ -7,6 +7,13 @@ label street_corner:
     $ scene_image = "scene_street_Whores_Place_Car_Stop[day_suffix]"
 
     $ hostelStreet3MonicaFromSideSuffix = ""
+    if day_time == "day":
+        music street5
+    else:
+        if rand(1,4) > 1:
+            music street_evening3
+        else:
+            music street13_ambulance
     return
 
 label street_corner_init:
