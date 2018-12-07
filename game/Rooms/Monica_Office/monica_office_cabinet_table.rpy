@@ -9,14 +9,14 @@ label monica_office_cabinet_table:
     else:
         $ scene_image = "scene_Office_Monica_Cabinet_Table_Whiskey[day_suffix]"
 
-    if get_active_objects("Beef", scene="monica_office_cabinet") != False: #Если Биф в офисе, то помещаем его и сюда тоже
-        set_active("Beef", True)
+    if get_active_objects("biff", scene="monica_office_cabinet") != False: #Если Биф в офисе, то помещаем его и сюда тоже
+        set_active("biff", True)
     return
 
 label monica_office_cabinet_table_init:
 
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_Monica_[cloth][day_suffix]", "click" : "monica_office_cabinet_table_environment", "actions" : "l", "zorder":10})
-    $ add_object_to_scene("Beef", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_Beef[day_suffix]", "click" : "monica_office_cabinet_table_environment", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png"})
+    $ add_object_to_scene("biff", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_biff[day_suffix]", "click" : "monica_office_cabinet_table_environment", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png"})
 
     $ add_object_to_scene("Flowers", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_Flowers", "click" : "monica_office_cabinet_environment", "actions" : "l", "zorder":2, "group":"environment"})
     $ add_object_to_scene("Paints", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_Paints", "click" : "monica_office_cabinet_environment", "actions" : "l", "zorder":2, "group":"environment"})
@@ -36,7 +36,7 @@ label monica_office_cabinet_table_teleport:
         return
     return
 label monica_office_cabinet_table_environment:
-    if obj_name == "Beef":
+    if obj_name == "biff":
         if act == "l":
             mt "Я ненавижу этого мерзавца!!!"
         return

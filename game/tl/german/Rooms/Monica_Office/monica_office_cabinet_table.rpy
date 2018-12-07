@@ -3,8 +3,8 @@
 # game/Rooms/Monica_Office/monica_office_cabinet_table.rpy:13
 translate german monica_office_cabinet_table_338e4a26:
 
-    # set_active("Beef", True)
-    set_active("Beef", True)
+    # set_active("biff", True)
+    set_active("biff", True)
 
 # game/Rooms/Monica_Office/monica_office_cabinet_table.rpy:41
 translate german monica_office_cabinet_table_environment_e4cf4946:

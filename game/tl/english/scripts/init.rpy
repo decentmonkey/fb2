@@ -12,7 +12,7 @@ translate english strings:
 
     # scripts/init.rpy:39
     old "Биф обещал взять Монику работать в офис."
-    new "Beef promised to take Monica to work in the office."
+    new "biff promised to take Monica to work in the office."
 
     # scripts/init.rpy:39
     old "Барди ищет способ заглянуть Монике под юбку."

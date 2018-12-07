@@ -3,9 +3,9 @@
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_scene.rpy:44
 translate german rich_hotel_event_scene_environment_3f064834:
 
-    # beef "Ну, давай кукла!"
+    # biff "Ну, давай кукла!"
     # "Притворись Моникой Бакфетт!"
-    beef "Ну, давай кукла!"
+    biff "Ну, давай кукла!"
     "Притворись Моникой Бакфетт!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_scene.rpy:47

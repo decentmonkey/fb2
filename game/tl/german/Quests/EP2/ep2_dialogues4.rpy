@@ -1,49 +1,49 @@
 ﻿# TODO: Translation updated at 2018-12-05 17:53
 
 # game/Quests/EP2/ep2_dialogues4.rpy:7
-translate german monica_office_entrance_beef_dialogue1_2a439d3a:
+translate german monica_office_entrance_biff_dialogue1_2a439d3a:
 
-    # beef "Детка? Ты хочешь попасть наверх?"
-    beef "Детка? Ты хочешь попасть наверх?"
+    # biff "Детка? Ты хочешь попасть наверх?"
+    biff "Детка? Ты хочешь попасть наверх?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:9
-translate german monica_office_entrance_beef_dialogue1_5c8f8e3e:
+translate german monica_office_entrance_biff_dialogue1_5c8f8e3e:
 
     # m "Кто вы?"
-    # beef "Меня зовут Биф!"
+    # biff "Меня зовут Биф!"
     m "Was glaubt ihr, wer ihr seid?"
-    beef "Меня зовут Биф!"
+    biff "Меня зовут Биф!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:12
-translate german monica_office_entrance_beef_dialogue1_c9166873:
+translate german monica_office_entrance_biff_dialogue1_c9166873:
 
     # m "Биф, ты знаешь код?"
-    # beef "Конечно, детка!"
+    # biff "Конечно, детка!"
     m "Биф, ты знаешь код?"
-    beef "Конечно, детка!"
+    biff "Конечно, детка!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:15
-translate german monica_office_entrance_beef_dialogue1_49ad18d9:
+translate german monica_office_entrance_biff_dialogue1_49ad18d9:
 
     # "Код 4287!"
     "Код 4287!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:17
-translate german monica_office_entrance_beef_dialogue1_c5add415:
+translate german monica_office_entrance_biff_dialogue1_c5add415:
 
     # m "Спасибо, Мистер!" 
     m "Спасибо, Мистер!" 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:20
-translate german monica_office_entrance_beef_dialogue1_b241d991:
+translate german monica_office_entrance_biff_dialogue1_b241d991:
 
-    # beef "О! Не за что, детка!"
+    # biff "О! Не за что, детка!"
     # "Интересно, как такая попка прошла мимо меня?"
-    beef "О! Не за что, детка!"
+    biff "О! Не за что, детка!"
     "Интересно, как такая попка прошла мимо меня?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:23
-translate german monica_office_entrance_beef_dialogue1_22731345:
+translate german monica_office_entrance_biff_dialogue1_22731345:
 
     # m "Что Вы имеете ввиду?!"
     # "Как Вы позволяете себе разговаривать со мной?!"
@@ -51,26 +51,26 @@ translate german monica_office_entrance_beef_dialogue1_22731345:
     "Как Вы позволяете себе разговаривать со мной?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:26
-translate german monica_office_entrance_beef_dialogue1_02e48dc5:
+translate german monica_office_entrance_biff_dialogue1_02e48dc5:
 
-    # beef "Детка, ты ведь едешь сниматься в студии, правда?"
-    beef "Детка, ты ведь едешь сниматься в студии, правда?"
+    # biff "Детка, ты ведь едешь сниматься в студии, правда?"
+    biff "Детка, ты ведь едешь сниматься в студии, правда?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:34
-translate german monica_office_entrance_beef_dialogue1_4c2bc47c:
+translate german monica_office_entrance_biff_dialogue1_4c2bc47c:
 
     # "Алексу влетит за то, что решил скрыть от меня такую цыпочку!"
     "Алексу влетит за то, что решил скрыть от меня такую цыпочку!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:36
-translate german monica_office_entrance_beef_dialogue1_6a07b022:
+translate german monica_office_entrance_biff_dialogue1_6a07b022:
 
     # m "Я не цыпочка!"
     # "Отвали от меня, урод!"
-    # beef "Ха-ха-ха!"
+    # biff "Ха-ха-ха!"
     m "Я не цыпочка!"
     "Отвали от меня, урод!"
-    beef "Ха-ха-ха!"
+    biff "Ха-ха-ха!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:45
 translate german monica_office_secretary_dialogue1_c64aa55c:
@@ -349,49 +349,49 @@ translate german monica_office_photostudio_alex_dialogue1_9eb0c9fb:
     alex_photograph "Да, Миссис Бакфетт! Конечно!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:235
-translate german monica_office_cabinet_beef_dialogue1_d76921eb:
+translate german monica_office_cabinet_biff_dialogue1_d76921eb:
 
     # melanie "Здравствуйте, Миссис Бакфетт!"
     melanie "Hallo, Frau Buckfett!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:238
-translate german monica_office_cabinet_beef_dialogue1_84f0bd80:
+translate german monica_office_cabinet_biff_dialogue1_84f0bd80:
 
     # "Рада видеть Вас!"
     "Рада видеть Вас!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:240
-translate german monica_office_cabinet_beef_dialogue1_b12601f8:
+translate german monica_office_cabinet_biff_dialogue1_b12601f8:
 
     # m "Здравствуй, Мелани."
     m "Здравствуй, Мелани."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:242
-translate german monica_office_cabinet_beef_dialogue1_3b7c6360:
+translate german monica_office_cabinet_biff_dialogue1_3b7c6360:
 
     # "Я смотрю ты не теряешь времени даром..."
     "Я смотрю ты не теряешь времени даром..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:244
-translate german monica_office_cabinet_beef_dialogue1_80584ae2:
+translate german monica_office_cabinet_biff_dialogue1_80584ae2:
 
     # melanie "Миссис Бакфетт..."
     melanie "Frau Buckfett..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:254
-translate german monica_office_cabinet_beef_dialogue1_eaab9b94:
+translate german monica_office_cabinet_biff_dialogue1_eaab9b94:
 
-    # beef "О! Цыпочка!"
+    # biff "О! Цыпочка!"
     # "Алекс клялся что не прятал тебя!"
     # "Значит он, все-таки, врал и решил исправить свою вину прислав тебя ко мне?"
     # "Ха-ха!"
-    beef "О! Цыпочка!"
+    biff "О! Цыпочка!"
     "Алекс клялся что не прятал тебя!"
     "Значит он, все-таки, врал и решил исправить свою вину прислав тебя ко мне?"
     "Haha!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:260
-translate german monica_office_cabinet_beef_dialogue1_79c31f11:
+translate german monica_office_cabinet_biff_dialogue1_79c31f11:
 
     # m "Это значит ты Биф?!"
     # "Мерзавец!"
@@ -401,77 +401,77 @@ translate german monica_office_cabinet_beef_dialogue1_79c31f11:
     "Как ты посмел занять мое место?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:265
-translate german monica_office_cabinet_beef_dialogue1_e3f021f0:
+translate german monica_office_cabinet_biff_dialogue1_e3f021f0:
 
-    # beef "Эй! Цыпочка! Полегче!"
+    # biff "Эй! Цыпочка! Полегче!"
     # "Ты кто такая?!"
     # "Это у тебя такой косплей?"
     # "Пытаешься произвести впечатление на меня?"
     # "Ха-ха-ха!"
-    beef "Эй! Цыпочка! Полегче!"
+    biff "Эй! Цыпочка! Полегче!"
     "Ты кто такая?!"
     "Это у тебя такой косплей?"
     "Пытаешься произвести впечатление на меня?"
     "Ха-ха-ха!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:272
-translate german monica_office_cabinet_beef_dialogue1_12186b79:
+translate german monica_office_cabinet_biff_dialogue1_12186b79:
 
     # m "Я - ТА, НА ЧЬЕМ СТУЛЕ ТЫ СИДИШЬ!"
     m "Я - ТА, НА ЧЬЕМ СТУЛЕ ТЫ СИДИШЬ!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:274
-translate german monica_office_cabinet_beef_dialogue1_3a2a3cac:
+translate german monica_office_cabinet_biff_dialogue1_3a2a3cac:
 
     # "МЕНЯ ЗОВУТ МОНИКА БАКФЕТТ!"
     "МЕНЯ ЗОВУТ МОНИКА БАКФЕТТ!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:276
-translate german monica_office_cabinet_beef_dialogue1_a0ee25f5:
+translate german monica_office_cabinet_biff_dialogue1_a0ee25f5:
 
     # "И Я БЫ СОВЕТОВАЛА ТЕБЕ ВСТАТЬ С МОЕГО СТУЛА!"
     "И Я БЫ СОВЕТОВАЛА ТЕБЕ ВСТАТЬ С МОЕГО СТУЛА!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:278
-translate german monica_office_cabinet_beef_dialogue1_f3dcd0a3:
+translate german monica_office_cabinet_biff_dialogue1_f3dcd0a3:
 
     # "ПОКА Я НЕ ОТОРВАЛА ТЕБЕ ТВОИ ЯЙЦА К ЧЕРТЯМ!!!" 
     "ПОКА Я НЕ ОТОРВАЛА ТЕБЕ ТВОИ ЯЙЦА К ЧЕРТЯМ!!!" 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:281
-translate german monica_office_cabinet_beef_dialogue1_894d8baf:
+translate german monica_office_cabinet_biff_dialogue1_894d8baf:
 
-    # beef "Ого!"
+    # biff "Ого!"
     # "Это какая-то шутка?"
     # "Должно быть ты самозванка?" 
-    beef "Wow!"
+    biff "Wow!"
     "Это какая-то шутка?"
     "Должно быть ты самозванка?" 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:285
-translate german monica_office_cabinet_beef_dialogue1_a21a0e09:
+translate german monica_office_cabinet_biff_dialogue1_a21a0e09:
 
     # "..." 
     "..." 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:287
-translate german monica_office_cabinet_beef_dialogue1_29a4f6ab:
+translate german monica_office_cabinet_biff_dialogue1_29a4f6ab:
 
     # m "!!!"
     m "!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:289
-translate german monica_office_cabinet_beef_dialogue1_c00812e1:
+translate german monica_office_cabinet_biff_dialogue1_c00812e1:
 
-    # beef "Это отлично!"
+    # biff "Это отлично!"
     # "У тебя так натурально получается играть!"
     # "Цыпочка! Я думаю у меня есть для тебя работа!"
-    beef "Это отлично!"
+    biff "Это отлично!"
     "У тебя так натурально получается играть!"
     "Цыпочка! Я думаю у меня есть для тебя работа!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:293
-translate german monica_office_cabinet_beef_dialogue1_4e6b82f6:
+translate german monica_office_cabinet_biff_dialogue1_4e6b82f6:
 
     # m "Цыпочка?! Играть?!"
     # "Что ты несешь, урод?!"
@@ -485,17 +485,17 @@ translate german monica_office_cabinet_beef_dialogue1_4e6b82f6:
     "SOFORT!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:300
-translate german monica_office_cabinet_beef_dialogue1_e3bdba57:
+translate german monica_office_cabinet_biff_dialogue1_e3bdba57:
 
-    # beef "Нет, этого не может быть..."
+    # biff "Нет, этого не может быть..."
     # "Насколько мне известно, Моника Бакфетт - опасный преступник, которого ждет суровое наказание..."
     # "Если это действительно Вы..."
-    beef "Нет, этого не может быть..."
+    biff "Нет, этого не может быть..."
     "Насколько мне известно, Моника Бакфетт - опасный преступник, которого ждет суровое наказание..."
     "Если это действительно Вы..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:304
-translate german monica_office_cabinet_beef_dialogue1_fb9dfd7c:
+translate german monica_office_cabinet_biff_dialogue1_fb9dfd7c:
 
     # "Вы сбежали?!?!?"
     # "Тогда я блокирую лифт и вызываю полицию..."
@@ -503,7 +503,7 @@ translate german monica_office_cabinet_beef_dialogue1_fb9dfd7c:
     "Тогда я блокирую лифт и вызываю полицию..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:307
-translate german monica_office_cabinet_beef_dialogue1_6b32e841:
+translate german monica_office_cabinet_biff_dialogue1_6b32e841:
 
     # "Пожалуйста! Пожалуйста! Не делайте мне ничего!"
     # "Если хотите, садитесь на это кресло!"
@@ -513,13 +513,13 @@ translate german monica_office_cabinet_beef_dialogue1_6b32e841:
     "Я представляю насколько Вы опасны!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:312
-translate german monica_office_cabinet_beef_dialogue1_c1c7a567:
+translate german monica_office_cabinet_biff_dialogue1_c1c7a567:
 
     # m "Полиция???"
     m "Полиция???"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:314
-translate german monica_office_cabinet_beef_dialogue1_1146047b:
+translate german monica_office_cabinet_biff_dialogue1_1146047b:
 
     # mt "ЧЕРТ! КАКАЯ ПОЛИЦИЯ!!!"
     # "ПОЧЕМУ ВСЕ ВРЕМЯ ПОЛИЦИЯ?!?!"
@@ -527,13 +527,13 @@ translate german monica_office_cabinet_beef_dialogue1_1146047b:
     "ПОЧЕМУ ВСЕ ВРЕМЯ ПОЛИЦИЯ?!?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:318
-translate german monica_office_cabinet_beef_dialogue1_620e5d2c:
+translate german monica_office_cabinet_biff_dialogue1_620e5d2c:
 
-    # beef "Алло! Полиция?!" 
-    beef "Алло! Полиция?!" 
+    # biff "Алло! Полиция?!" 
+    biff "Алло! Полиция?!" 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:321
-translate german monica_office_cabinet_beef_dialogue1_15609ee9:
+translate german monica_office_cabinet_biff_dialogue1_15609ee9:
 
     # mt "Заблокировать лифт??? Полиция???"
     # mt "ЧЕРТ!"
@@ -543,7 +543,7 @@ translate german monica_office_cabinet_beef_dialogue1_15609ee9:
     mt "NEIN!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:326
-translate german monica_office_cabinet_beef_dialogue1_29a7e95f:
+translate german monica_office_cabinet_biff_dialogue1_29a7e95f:
 
     # mt "Мне надо что-то придумать! Как избежать полиции???"
     # "..."
@@ -555,17 +555,17 @@ translate german monica_office_cabinet_beef_dialogue1_29a7e95f:
     "Думай, Моника!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:332
-translate german monica_office_cabinet_beef_dialogue1_01fb6e8c:
+translate german monica_office_cabinet_biff_dialogue1_01fb6e8c:
 
-    # beef "Полиция?! Я в опасности, помогите мне!"
+    # biff "Полиция?! Я в опасности, помогите мне!"
     # "Здесь опасная преступница!"
     # "Она угрожает мне!"
-    beef "Полиция?! Я в опасности, помогите мне!"
+    biff "Полиция?! Я в опасности, помогите мне!"
     "Здесь опасная преступница!"
     "Она угрожает мне!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:337
-translate german monica_office_cabinet_beef_dialogue1_d7e39d0b:
+translate german monica_office_cabinet_biff_dialogue1_d7e39d0b:
 
     # mt "ЧЕРТ!"
     # "Как мне остановить его???"
@@ -575,7 +575,7 @@ translate german monica_office_cabinet_beef_dialogue1_d7e39d0b:
     "..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:345
-translate german monica_office_cabinet_beef_dialogue1_c40a323b:
+translate german monica_office_cabinet_biff_dialogue1_c40a323b:
 
     # "Он говорил что не верит что это я, и что я хорошо играю сама себя..."
     # "Мне надо притвориться что это не Я!"
@@ -595,7 +595,7 @@ translate german monica_office_cabinet_beef_dialogue1_c40a323b:
     "Oh mein Gott!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:354
-translate german monica_office_cabinet_beef_dialogue1_922e1f42:
+translate german monica_office_cabinet_biff_dialogue1_922e1f42:
 
     # m "Эй! Биф!" 
     # "Не бойся!"
@@ -605,7 +605,7 @@ translate german monica_office_cabinet_beef_dialogue1_922e1f42:
     "Ты правда здорово напугался?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:358
-translate german monica_office_cabinet_beef_dialogue1_a75bb9d3:
+translate german monica_office_cabinet_biff_dialogue1_a75bb9d3:
 
     # "Я - молодец, я провела тебя!"
     # "Как тебе мой талант?"
@@ -613,27 +613,27 @@ translate german monica_office_cabinet_beef_dialogue1_a75bb9d3:
     "Как тебе мой талант?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:362
-translate german monica_office_cabinet_beef_dialogue1_b26168a9:
+translate german monica_office_cabinet_biff_dialogue1_b26168a9:
 
-    # beef "???"
+    # biff "???"
     # "Так ты не Моника Бакфетт?"
-    beef "???"
+    biff "???"
     "Так ты не Моника Бакфетт?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:366
-translate german monica_office_cabinet_beef_dialogue1_e8120f68:
+translate german monica_office_cabinet_biff_dialogue1_e8120f68:
 
     # m "Конечно нет, глупый!"
     m "Конечно нет, глупый!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:369
-translate german monica_office_cabinet_beef_dialogue1_2442dffb:
+translate german monica_office_cabinet_biff_dialogue1_2442dffb:
 
-    # beef "Извините!" 
-    beef "Извините!" 
+    # biff "Извините!" 
+    biff "Извините!" 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:371
-translate german monica_office_cabinet_beef_dialogue1_add680c5:
+translate german monica_office_cabinet_biff_dialogue1_add680c5:
 
     # "Черт, цыпочка!"
     # "Ты так похожа на нее!"
@@ -643,7 +643,7 @@ translate german monica_office_cabinet_beef_dialogue1_add680c5:
     "Я действительно поверил!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:376
-translate german monica_office_cabinet_beef_dialogue1_06735ada:
+translate german monica_office_cabinet_biff_dialogue1_06735ada:
 
     # "Иди ко мне на коленки, скорее!"
     # "Надо пожалеть папочку!"
@@ -651,55 +651,55 @@ translate german monica_office_cabinet_beef_dialogue1_06735ada:
     "Надо пожалеть папочку!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:380
-translate german monica_office_cabinet_beef_dialogue1_dce617e7:
+translate german monica_office_cabinet_biff_dialogue1_dce617e7:
 
     # m "Я... не собираюсь никуда садиться!"
     m "Я... не собираюсь никуда садиться!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:382
-translate german monica_office_cabinet_beef_dialogue1_30012764:
+translate german monica_office_cabinet_biff_dialogue1_30012764:
 
     # "Как ты вообще здесь оказался и кто ты такой?"
     "Как ты вообще здесь оказался и кто ты такой?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:385
-translate german monica_office_cabinet_beef_dialogue1_f73ca63e:
+translate german monica_office_cabinet_biff_dialogue1_f73ca63e:
 
-    # beef "Я - Биф!"
+    # biff "Я - Биф!"
     # "Владелец Модного Журнала!"
     # "Да - это Я"
     # "Я - это Биф!"
     # "Я люблю себя! Вау!"
-    beef "Я - Биф!"
+    biff "Я - Биф!"
     "Владелец Модного Журнала!"
     "Да - это Я"
     "Я - это Биф!"
     "Я люблю себя! Вау!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:392
-translate german monica_office_cabinet_beef_dialogue1_367e6de1:
+translate german monica_office_cabinet_biff_dialogue1_367e6de1:
 
     # mt "СЛИЗНЯК!!!"
     mt "СЛИЗНЯК!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:395
-translate german monica_office_cabinet_beef_dialogue1_25fab957:
+translate german monica_office_cabinet_biff_dialogue1_25fab957:
 
-    # beef "Так значит ты цыпочка от Алекса?"
+    # biff "Так значит ты цыпочка от Алекса?"
     # "А почему ты не хочешь ко мне на коленки?"
     # "Ты ведь знаешь, детка, что с таким как я нужно дружить..."
-    beef "Так значит ты цыпочка от Алекса?"
+    biff "Так значит ты цыпочка от Алекса?"
     "А почему ты не хочешь ко мне на коленки?"
     "Ты ведь знаешь, детка, что с таким как я нужно дружить..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:399
-translate german monica_office_cabinet_beef_dialogue1_be5e12bd:
+translate german monica_office_cabinet_biff_dialogue1_be5e12bd:
 
     # "Я ведь могу тебя сделать моделью, ты понимаешь?" 
     "Я ведь могу тебя сделать моделью, ты понимаешь?" 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:402
-translate german monica_office_cabinet_beef_dialogue1_18e11c83:
+translate german monica_office_cabinet_biff_dialogue1_18e11c83:
 
     # mt "!!!"
     # "СВОЛОЧЬ!!!"
@@ -711,25 +711,25 @@ translate german monica_office_cabinet_beef_dialogue1_18e11c83:
     "AAAAAAAAAA!!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:408
-translate german monica_office_cabinet_beef_dialogue1_424fb1b1:
+translate german monica_office_cabinet_biff_dialogue1_424fb1b1:
 
     # m "У меня нет желания становиться моделью!"
     m "У меня нет желания становиться моделью!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:411
-translate german monica_office_cabinet_beef_dialogue1_47477008:
+translate german monica_office_cabinet_biff_dialogue1_47477008:
 
-    # beef "Я бы мог {b}дать тебе работу{/b}, детка!"
+    # biff "Я бы мог {b}дать тебе работу{/b}, детка!"
     # "Ты так похожа на Монику Бакфетт, что никто не увидит разницы!"
     # "У меня крутой журнал и я решил сменить его курс!"
     # "И если бы Моника Бакфетт одобрила его и рассказала бы всем об этом, то это был бы большой плюс!"
-    beef "Я бы мог {b}дать тебе работу{/b}, детка!"
+    biff "Я бы мог {b}дать тебе работу{/b}, детка!"
     "Ты так похожа на Монику Бакфетт, что никто не увидит разницы!"
     "У меня крутой журнал и я решил сменить его курс!"
     "И если бы Моника Бакфетт одобрила его и рассказала бы всем об этом, то это был бы большой плюс!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:416
-translate german monica_office_cabinet_beef_dialogue1_42a0c4e6:
+translate german monica_office_cabinet_biff_dialogue1_42a0c4e6:
 
     # "К тому же многие задают вопросы где эта сучка!"
     # "А мне не всегда получается объяснить журналистам что она не должна интересовать их, потому что есть Я!"
@@ -737,7 +737,7 @@ translate german monica_office_cabinet_beef_dialogue1_42a0c4e6:
     "А мне не всегда получается объяснить журналистам что она не должна интересовать их, потому что есть Я!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:419
-translate german monica_office_cabinet_beef_dialogue1_809797d4:
+translate german monica_office_cabinet_biff_dialogue1_809797d4:
 
     # mt "!!!"
     # "КТО Я???"
@@ -745,7 +745,7 @@ translate german monica_office_cabinet_beef_dialogue1_809797d4:
     "КТО Я???"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:423
-translate german monica_office_cabinet_beef_dialogue1_0fce4965:
+translate german monica_office_cabinet_biff_dialogue1_0fce4965:
 
     # mt "КАК МНЕ СДЕРЖАТЬСЯ???"
     # "Я ХОЧУ ОТОРВАТЬ ЯЙЦА ЭТОМУ УРОДУ!!!"
@@ -755,7 +755,7 @@ translate german monica_office_cabinet_beef_dialogue1_0fce4965:
     "JETZT!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:427
-translate german monica_office_cabinet_beef_dialogue1_d9121b6a:
+translate german monica_office_cabinet_biff_dialogue1_d9121b6a:
 
     # "Но тогда я попаду в руки к Маркусу, сразу же!"
     # "(хмык)"
@@ -763,41 +763,41 @@ translate german monica_office_cabinet_beef_dialogue1_d9121b6a:
     "(schnief)"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:431
-translate german monica_office_cabinet_beef_dialogue1_9a637516:
+translate german monica_office_cabinet_biff_dialogue1_9a637516:
 
     # m "Меня не интересует твоя работа, Биф!"
     m "Меня не интересует твоя работа, Биф!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:434
-translate german monica_office_cabinet_beef_dialogue1_214da0cf:
+translate german monica_office_cabinet_biff_dialogue1_214da0cf:
 
-    # beef "Хорошо, цыпочка."
+    # biff "Хорошо, цыпочка."
     # "Зачем же ты тогда пришла сюда?"
-    beef "Хорошо, цыпочка."
+    biff "Хорошо, цыпочка."
     "Зачем же ты тогда пришла сюда?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:438
-translate german monica_office_cabinet_beef_dialogue1_8b85edac:
+translate german monica_office_cabinet_biff_dialogue1_8b85edac:
 
     # m "Я... Я пришла просто напугать тебя, Биф!"
     m "Я... Я пришла просто напугать тебя, Биф!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:441
-translate german monica_office_cabinet_beef_dialogue1_a699ed0e:
+translate german monica_office_cabinet_biff_dialogue1_a699ed0e:
 
-    # beef "Ха-ха-ха!"
+    # biff "Ха-ха-ха!"
     # "У тебя крутой нрав, цыпочка!"
     # "Смею заметить!"
     # "Пытаешь произвести на меня впечатление, понимаю..."
     # "Мне нравятся такие цыпочки!"
-    beef "Ха-ха-ха!"
+    biff "Ха-ха-ха!"
     "У тебя крутой нрав, цыпочка!"
     "Смею заметить!"
     "Пытаешь произвести на меня впечатление, понимаю..."
     "Мне нравятся такие цыпочки!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:448
-translate german monica_office_cabinet_beef_dialogue1_c763d258:
+translate german monica_office_cabinet_biff_dialogue1_c763d258:
 
     # mt "Я больше не могу выдерживать этого урода..."
     # "У меня все кипит внутри!"
@@ -807,27 +807,27 @@ translate german monica_office_cabinet_beef_dialogue1_c763d258:
     "Мне стоит убраться отсюда!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:456
-translate german monica_office_cabinet_beef_dialogue1_d643ac77:
+translate german monica_office_cabinet_biff_dialogue1_d643ac77:
 
     # m "До свидания, Биф!"
     m "До свидания, Биф!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:458
-translate german monica_office_cabinet_beef_dialogue1_ddc2e9b4:
+translate german monica_office_cabinet_biff_dialogue1_ddc2e9b4:
 
     # "Еще увидимся!"
     "Еще увидимся!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:461
-translate german monica_office_cabinet_beef_dialogue1_3c0f42a4:
+translate german monica_office_cabinet_biff_dialogue1_3c0f42a4:
 
-    # beef "До свидания, цыпочка!"
+    # biff "До свидания, цыпочка!"
     # "Я буду звать тебя Моника Бакфетт! Ха-ха-ха!"
-    beef "До свидания, цыпочка!"
+    biff "До свидания, цыпочка!"
     "Я буду звать тебя Моника Бакфетт! Ха-ха-ха!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:467
-translate german monica_office_cabinet_beef_dialogue1_7c33889d:
+translate german monica_office_cabinet_biff_dialogue1_7c33889d:
 
     # mt "Это было..."
     # "Очень..."
@@ -855,7 +855,7 @@ translate german monica_office_cabinet_beef_dialogue1_7c33889d:
     "Клянусь!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:488
-translate german monica_office_cabinet_beef_dialogue2_5ba56d88:
+translate german monica_office_cabinet_biff_dialogue2_5ba56d88:
 
     # mt "Я не собираюсь идти к этому слизняку!"
     # "Если я приду к нему снова, то только затем, чтобы выкинуть его отсюда!!!"
@@ -1095,7 +1095,7 @@ translate german monica_office_secretary_dialogue4a_6415e49b:
     m "Хорошо, дорогая, спасибо."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:620
-translate german monica_office_cabinet_beef_dialogue2a_32ebc16c:
+translate german monica_office_cabinet_biff_dialogue2a_32ebc16c:
 
     # mt "Ну что-ж... Биф..."
     # mt "Поговорим с ним о том чтобы получить работу..."
@@ -1103,7 +1103,7 @@ translate german monica_office_cabinet_beef_dialogue2a_32ebc16c:
     mt "Поговорим с ним о том чтобы получить работу..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:623
-translate german monica_office_cabinet_beef_dialogue2a_5f01f975:
+translate german monica_office_cabinet_biff_dialogue2a_5f01f975:
 
     # "Посмотрим что он хочет от меня..."
     # "Если я хочу вернуть назад компанию, то мне стоит находиться где-то здесь, рядом..."
@@ -1117,13 +1117,13 @@ translate german monica_office_cabinet_beef_dialogue2a_5f01f975:
     "Так что я могу достигнуть двух целей сразу!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:637
-translate german monica_office_cabinet_beef_dialogue3_814c4cfb:
+translate german monica_office_cabinet_biff_dialogue3_814c4cfb:
 
-    # beef "О! Цыпочка! Ты вернулась!"
-    beef "О! Цыпочка! Ты вернулась!"
+    # biff "О! Цыпочка! Ты вернулась!"
+    biff "О! Цыпочка! Ты вернулась!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:639
-translate german monica_office_cabinet_beef_dialogue3_be61f882:
+translate german monica_office_cabinet_biff_dialogue3_be61f882:
 
     # m "Биф!"
     # "Что ты говорил по поводу работы?"
@@ -1131,17 +1131,17 @@ translate german monica_office_cabinet_beef_dialogue3_be61f882:
     "Что ты говорил по поводу работы?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:642
-translate german monica_office_cabinet_beef_dialogue3_cd908608:
+translate german monica_office_cabinet_biff_dialogue3_cd908608:
 
-    # beef "По поводу работы?"
+    # biff "По поводу работы?"
     # "Хм... Ты знаешь..."
     # "Я хотел чтобы ты снималась для журнала под видом Моники Бакфетт..."
-    beef "По поводу работы?"
+    biff "По поводу работы?"
     "Хм... Ты знаешь..."
     "Я хотел чтобы ты снималась для журнала под видом Моники Бакфетт..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:648
-translate german monica_office_cabinet_beef_dialogue3_5f96740f:
+translate german monica_office_cabinet_biff_dialogue3_5f96740f:
 
     # "Но я думаю что предпочту Мелани на эту роль."
     # "Хотя она и отзывалась о тебе хорошо."
@@ -1151,7 +1151,7 @@ translate german monica_office_cabinet_beef_dialogue3_5f96740f:
     "Похоже что вы откуда-то знакомы..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:654
-translate german monica_office_cabinet_beef_dialogue3_c20a6521:
+translate german monica_office_cabinet_biff_dialogue3_c20a6521:
 
     # "Но когда Мелани узнала об этом, то она убедила чтобы я оставил ее..."
     # "Она боится что ты займешь пъедестал вместо нее."
@@ -1163,21 +1163,21 @@ translate german monica_office_cabinet_beef_dialogue3_c20a6521:
     "Ха-ха-ха!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:660
-translate german monica_office_cabinet_beef_dialogue3_46c5b10e:
+translate german monica_office_cabinet_biff_dialogue3_46c5b10e:
 
     # m "Я лучше Мелани!"
     m "Я лучше Мелани!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:662
-translate german monica_office_cabinet_beef_dialogue3_819419d8:
+translate german monica_office_cabinet_biff_dialogue3_819419d8:
 
-    # beef "Ха-ха-ха!"
+    # biff "Ха-ха-ха!"
     # "Конечно лучше! Ведь ты похожа на Монику Бакфетт!"
-    beef "Ха-ха-ха!"
+    biff "Ха-ха-ха!"
     "Конечно лучше! Ведь ты похожа на Монику Бакфетт!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:665
-translate german monica_office_cabinet_beef_dialogue3_7752b0b1:
+translate german monica_office_cabinet_biff_dialogue3_7752b0b1:
 
     # m "Послушай, Биф!"
     # "Да, Мелани топ модель."
@@ -1187,31 +1187,31 @@ translate german monica_office_cabinet_beef_dialogue3_7752b0b1:
     "Но ты говорил что хочешь сменить курс журнала."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:669
-translate german monica_office_cabinet_beef_dialogue3_495f2391:
+translate german monica_office_cabinet_biff_dialogue3_495f2391:
 
     # "И что тебе очень помогло бы, если бы сама Бакфетт объявила об этом!"
     "И что тебе очень помогло бы, если бы сама Бакфетт объявила об этом!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:671
-translate german monica_office_cabinet_beef_dialogue3_88eda3a9:
+translate german monica_office_cabinet_biff_dialogue3_88eda3a9:
 
-    # beef "Хм..."
+    # biff "Хм..."
     # "Возможно ты права..."
     # "Пресса пока не пронюхала про то что Бакфетт сидит в тюрьме."
     # "И я бы не хотел чтобы это случилось очень скоро."
-    beef "Hmm..."
+    biff "Hmm..."
     "Возможно ты права..."
     "Пресса пока не пронюхала про то что Бакфетт сидит в тюрьме."
     "И я бы не хотел чтобы это случилось очень скоро."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:676
-translate german monica_office_cabinet_beef_dialogue3_616a1451:
+translate german monica_office_cabinet_biff_dialogue3_616a1451:
 
     # "Такая говорящая кукла как ты мне бы очень пригодилась..."
     "Такая говорящая кукла как ты мне бы очень пригодилась..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:678
-translate german monica_office_cabinet_beef_dialogue3_a36e4dff:
+translate german monica_office_cabinet_biff_dialogue3_a36e4dff:
 
     # mt "!!!"
     # "НЕНАВИЖУ!!!"
@@ -1219,15 +1219,15 @@ translate german monica_office_cabinet_beef_dialogue3_a36e4dff:
     "HASS!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:682
-translate german monica_office_cabinet_beef_dialogue3_dc927120:
+translate german monica_office_cabinet_biff_dialogue3_dc927120:
 
-    # beef "Так что я предлагаю тебе сделать серию фотосессий, посвященную смене курса журнала."
+    # biff "Так что я предлагаю тебе сделать серию фотосессий, посвященную смене курса журнала."
     # "За каждую фотосессию я предлагаю тебе {b}$ 1.000{/b}."
     # "К тому же, думаю, можно будет оборудовать офис для тебя, чтобы ты могла общаться с прессой."
     # "А также с партнерами журнала."
     # "Я смогу продавать твое личико."
     # "Какое-то время."
-    beef "Так что я предлагаю тебе сделать серию фотосессий, посвященную смене курса журнала."
+    biff "Так что я предлагаю тебе сделать серию фотосессий, посвященную смене курса журнала."
     "За каждую фотосессию я предлагаю тебе {b}$ 1.000{/b}."
     "К тому же, думаю, можно будет оборудовать офис для тебя, чтобы ты могла общаться с прессой."
     "А также с партнерами журнала."
@@ -1235,13 +1235,13 @@ translate german monica_office_cabinet_beef_dialogue3_dc927120:
     "Какое-то время."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:694
-translate german monica_office_cabinet_beef_dialogue3_8bbf3f36:
+translate german monica_office_cabinet_biff_dialogue3_8bbf3f36:
 
     # m "$ 5.000!!!"
     m "$ 5.000!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:696
-translate german monica_office_cabinet_beef_dialogue3_a2ce45ca:
+translate german monica_office_cabinet_biff_dialogue3_a2ce45ca:
 
     # mt "Отлично! Я смогу находиться здесь..."
     # "Это будет началом моего плана по возвращению компании!"
@@ -1249,25 +1249,25 @@ translate german monica_office_cabinet_beef_dialogue3_a2ce45ca:
     "Это будет началом моего плана по возвращению компании!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:700
-translate german monica_office_cabinet_beef_dialogue3_b9ff5436:
+translate german monica_office_cabinet_biff_dialogue3_b9ff5436:
 
-    # beef "Что ты имеешь ввиду под $ 5.000?"
-    beef "Что ты имеешь ввиду под $ 5.000?"
+    # biff "Что ты имеешь ввиду под $ 5.000?"
+    biff "Что ты имеешь ввиду под $ 5.000?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:703
-translate german monica_office_cabinet_beef_dialogue3_0649a99e:
+translate german monica_office_cabinet_biff_dialogue3_0649a99e:
 
     # m "$ 5.000 за каждую фотосессию!"
     m "$ 5.000 за каждую фотосессию!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:705
-translate german monica_office_cabinet_beef_dialogue3_c9a71918:
+translate german monica_office_cabinet_biff_dialogue3_c9a71918:
 
-    # beef "А ты весьма амбициозна для цыпочки с улицы!"
-    beef "А ты весьма амбициозна для цыпочки с улицы!"
+    # biff "А ты весьма амбициозна для цыпочки с улицы!"
+    biff "А ты весьма амбициозна для цыпочки с улицы!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:707
-translate german monica_office_cabinet_beef_dialogue3_84b73f7f:
+translate german monica_office_cabinet_biff_dialogue3_84b73f7f:
 
     # "Судя по твоему виду, ты делаешь минет за $ 10!"
     # "Не слишком-ли быстрый рост для какой-то шлюхи?"
@@ -1275,7 +1275,7 @@ translate german monica_office_cabinet_beef_dialogue3_84b73f7f:
     "Не слишком-ли быстрый рост для какой-то шлюхи?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:711
-translate german monica_office_cabinet_beef_dialogue3_faa44d6e:
+translate german monica_office_cabinet_biff_dialogue3_faa44d6e:
 
     # mt "!!!"
     # mt "Каждый раз когда я общаюсь с ним, я хочу убить его!"
@@ -1283,15 +1283,15 @@ translate german monica_office_cabinet_beef_dialogue3_faa44d6e:
     mt "Каждый раз когда я общаюсь с ним, я хочу убить его!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:715
-translate german monica_office_cabinet_beef_dialogue3_33596535:
+translate german monica_office_cabinet_biff_dialogue3_33596535:
 
-    # beef "Тем более тебя будет окружать пресса, поклонники!"
+    # biff "Тем более тебя будет окружать пресса, поклонники!"
     # "Я уверен ты не испытывала и доли той славы, что имела сучка Бакфетт!"
-    beef "Тем более тебя будет окружать пресса, поклонники!"
+    biff "Тем более тебя будет окружать пресса, поклонники!"
     "Я уверен ты не испытывала и доли той славы, что имела сучка Бакфетт!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:719
-translate german monica_office_cabinet_beef_dialogue3_b9d70247:
+translate german monica_office_cabinet_biff_dialogue3_b9d70247:
 
     # mt "Испытывала! Я и есть она!!!"
     # "А ты - никто! И время докажет это!!!"
@@ -1299,7 +1299,7 @@ translate german monica_office_cabinet_beef_dialogue3_b9d70247:
     "А ты - никто! И время докажет это!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:723
-translate german monica_office_cabinet_beef_dialogue3_41bc4c81:
+translate german monica_office_cabinet_biff_dialogue3_41bc4c81:
 
     # m "Я не думаю что ты найдешь другую модель, которая больше похожа на Миссис Бакфетт чем я!"
     # "Так что я ухожу! А ты хорошенько подумай!"
@@ -1307,91 +1307,91 @@ translate german monica_office_cabinet_beef_dialogue3_41bc4c81:
     "Так что я ухожу! А ты хорошенько подумай!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:728
-translate german monica_office_cabinet_beef_dialogue3_60e32b88:
+translate german monica_office_cabinet_biff_dialogue3_60e32b88:
 
-    # beef "Окей, цыпочка!"
+    # biff "Окей, цыпочка!"
     # "Когда-нибудь увидимся!"
-    beef "Окей, цыпочка!"
+    biff "Окей, цыпочка!"
     "Когда-нибудь увидимся!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:735
-translate german monica_office_cabinet_beef_dialogue3_5f398bfc:
+translate german monica_office_cabinet_biff_dialogue3_5f398bfc:
 
     # m "Что? Ты не будешь останавливать меня?"
     m "Что? Ты не будешь останавливать меня?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:737
-translate german monica_office_cabinet_beef_dialogue3_03df8337:
+translate german monica_office_cabinet_biff_dialogue3_03df8337:
 
-    # beef "Конечно нет!"
-    beef "Natürlich nicht!"
+    # biff "Конечно нет!"
+    biff "Natürlich nicht!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:739
-translate german monica_office_cabinet_beef_dialogue3_0a5616b8:
+translate german monica_office_cabinet_biff_dialogue3_0a5616b8:
 
     # mt "!!!"
     mt "!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:741
-translate german monica_office_cabinet_beef_dialogue3_f4ae6e10:
+translate german monica_office_cabinet_biff_dialogue3_f4ae6e10:
 
-    # beef "Ладно! Цыпочка!"
+    # biff "Ладно! Цыпочка!"
     # "Я дам тебе {b}$ 5.000{/b}!"
     # "Но я не обещаю тебе их регулярно!"
     # "Я посмотрю еще стоишь-ли ты этих денег!"
-    beef "Ладно! Цыпочка!"
+    biff "Ладно! Цыпочка!"
     "Я дам тебе {b}$ 5.000{/b}!"
     "Но я не обещаю тебе их регулярно!"
     "Я посмотрю еще стоишь-ли ты этих денег!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:746
-translate german monica_office_cabinet_beef_dialogue3_0a5616b8_1:
+translate german monica_office_cabinet_biff_dialogue3_0a5616b8_1:
 
     # mt "!!!"
     mt "!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:748
-translate german monica_office_cabinet_beef_dialogue3_2efbf005:
+translate german monica_office_cabinet_biff_dialogue3_2efbf005:
 
-    # beef "Итак, ты согласна?"
+    # biff "Итак, ты согласна?"
     # m "Да, я согласна..."
-    beef "Итак, ты согласна?"
+    biff "Итак, ты согласна?"
     m "Да, я согласна..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:752
-translate german monica_office_cabinet_beef_dialogue3_e9ee6308:
+translate german monica_office_cabinet_biff_dialogue3_e9ee6308:
 
-    # beef "Отлично!"
+    # biff "Отлично!"
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
-    beef "Ausgezeichnet!"
+    biff "Ausgezeichnet!"
     "Если честно, Мелани отказалась от этой серии фотосессий."
     "Она сказала что не хочет иметь ничего общего с полным обнажением."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:756
-translate german monica_office_cabinet_beef_dialogue3_98b66c4d:
+translate german monica_office_cabinet_biff_dialogue3_98b66c4d:
 
     # "Хорошо что мне подвернулась такая цыпочка как ты, которая не имеет проблем с этим!"
     "Хорошо что мне подвернулась такая цыпочка как ты, которая не имеет проблем с этим!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:758
-translate german monica_office_cabinet_beef_dialogue3_4aee1b50:
+translate german monica_office_cabinet_biff_dialogue3_4aee1b50:
 
     # m "С чем общего??? С ОБНАЖЕНИЕМ?!?!?"
     m "С чем общего??? С ОБНАЖЕНИЕМ?!?!?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:760
-translate german monica_office_cabinet_beef_dialogue3_4357bb14:
+translate german monica_office_cabinet_biff_dialogue3_4357bb14:
 
-    # beef "Ну да, этот журнал слишком скучный!"
+    # biff "Ну да, этот журнал слишком скучный!"
     # "Сейчас такое уже не модно."
     # "Деньги приносит что-нибудь погорячее!"
-    beef "Ну да, этот журнал слишком скучный!"
+    biff "Ну да, этот журнал слишком скучный!"
     "Сейчас такое уже не модно."
     "Деньги приносит что-нибудь погорячее!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:764
-translate german monica_office_cabinet_beef_dialogue3_fa9e0cb0:
+translate german monica_office_cabinet_biff_dialogue3_fa9e0cb0:
 
     # m "Я не собираюсь раздеваться ни за какие деньги!!!"
     # "До свидания!!!"
@@ -1399,10 +1399,10 @@ translate german monica_office_cabinet_beef_dialogue3_fa9e0cb0:
     "До свидания!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:767
-translate german monica_office_cabinet_beef_dialogue3_b1204ee4:
+translate german monica_office_cabinet_biff_dialogue3_b1204ee4:
 
-    # beef "{b}Если передумаешь, заглядывай!{/b}"
-    beef "{b}Если передумаешь, заглядывай!{/b}"
+    # biff "{b}Если передумаешь, заглядывай!{/b}"
+    biff "{b}Если передумаешь, заглядывай!{/b}"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:773
 translate german monica_office_secretary_dialogue5_e3868f3a:
@@ -1471,13 +1471,13 @@ translate german monica_office_secretary_dialogue5_e3868f3a:
     "Мне надо успеть!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:811
-translate german monica_office_cabinet_beef_dialogue4_ed765dc8:
+translate german monica_office_cabinet_biff_dialogue4_ed765dc8:
 
-    # beef "О! Цыпочка! Ну как, ты надумала?"
-    beef "О! Цыпочка! Ну как, ты надумала?"
+    # biff "О! Цыпочка! Ну как, ты надумала?"
+    biff "О! Цыпочка! Ну как, ты надумала?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:813
-translate german monica_office_cabinet_beef_dialogue4_60bc59b8:
+translate german monica_office_cabinet_biff_dialogue4_60bc59b8:
 
     # m "Биф! Ты сказал это будет серия фотосессий..."
     # "Ты предлагаешь мне обнажаться сразу или постепенно?"
@@ -1485,33 +1485,33 @@ translate german monica_office_cabinet_beef_dialogue4_60bc59b8:
     "Ты предлагаешь мне обнажаться сразу или постепенно?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:816
-translate german monica_office_cabinet_beef_dialogue4_08f35aea:
+translate german monica_office_cabinet_biff_dialogue4_08f35aea:
 
-    # beef "Конечно постепенно, цыпочка!"
+    # biff "Конечно постепенно, цыпочка!"
     # "Аудитория журнала не примет слишком быстрых перемен..."
     # "Мы начнем с начала и закончим чем-то очень горячим."
     # "Тебе понравится!"
     # "Ха-ха-ха!"
-    beef "Конечно постепенно, цыпочка!"
+    biff "Конечно постепенно, цыпочка!"
     "Аудитория журнала не примет слишком быстрых перемен..."
     "Мы начнем с начала и закончим чем-то очень горячим."
     "Тебе понравится!"
     "Ха-ха-ха!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:822
-translate german monica_office_cabinet_beef_dialogue4_83109b9a:
+translate german monica_office_cabinet_biff_dialogue4_83109b9a:
 
-    # beef "Ну что, ты согласна?"
-    beef "Ну что, ты согласна?"
+    # biff "Ну что, ты согласна?"
+    biff "Ну что, ты согласна?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:829
-translate german monica_office_cabinet_beef_dialogue4_072aa1a5:
+translate german monica_office_cabinet_biff_dialogue4_072aa1a5:
 
     # m "Я еще подумаю, Биф!"
     m "Я еще подумаю, Биф!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:833
-translate german monica_office_cabinet_beef_dialogue4_6bd3b394:
+translate german monica_office_cabinet_biff_dialogue4_6bd3b394:
 
     # m "Хорошо, Биф!"
     # "Но только при условии того что мне не надо раздеваться на первой же фотосессии!"
@@ -1519,33 +1519,33 @@ translate german monica_office_cabinet_beef_dialogue4_6bd3b394:
     "Но только при условии того что мне не надо раздеваться на первой же фотосессии!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:836
-translate german monica_office_cabinet_beef_dialogue4_53226bcf:
+translate german monica_office_cabinet_biff_dialogue4_53226bcf:
 
-    # beef "Конечно, цыпочка!"
+    # biff "Конечно, цыпочка!"
     # "Перед камерой тебе раздеваться не придется в этот раз!"
     # "Только передо мной!"
-    beef "Конечно, цыпочка!"
+    biff "Конечно, цыпочка!"
     "Перед камерой тебе раздеваться не придется в этот раз!"
     "Только передо мной!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:844
-translate german monica_office_cabinet_beef_dialogue4_415a7fa9:
+translate german monica_office_cabinet_biff_dialogue4_415a7fa9:
 
     # m "ЧТО?!?!"
     m "ЧТО?!?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:847
-translate german monica_office_cabinet_beef_dialogue4_7f266796:
+translate german monica_office_cabinet_biff_dialogue4_7f266796:
 
-    # beef "Ха-ха-ха!"
-    # beef "Когда я пришел сюда, то обнаружил несколько забавных традиций!"
+    # biff "Ха-ха-ха!"
+    # biff "Когда я пришел сюда, то обнаружил несколько забавных традиций!"
     # "Одна из них - это осмотр модели перед съемками!"
-    beef "Ха-ха-ха!"
-    beef "Когда я пришел сюда, то обнаружил несколько забавных традиций!"
+    biff "Ха-ха-ха!"
+    biff "Когда я пришел сюда, то обнаружил несколько забавных традиций!"
     "Одна из них - это осмотр модели перед съемками!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:851
-translate german monica_office_cabinet_beef_dialogue4_fd312060:
+translate german monica_office_cabinet_biff_dialogue4_fd312060:
 
     # "Модель должна раздеться передо мной и продемонстрировать свои навыки!"
     # m "ЧТО?!?!"
@@ -1553,7 +1553,7 @@ translate german monica_office_cabinet_beef_dialogue4_fd312060:
     m "ЧТО?!?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:856
-translate german monica_office_cabinet_beef_dialogue4_0f8b97e5:
+translate german monica_office_cabinet_biff_dialogue4_0f8b97e5:
 
     # mt "ЧЕРТ! Я ЗАБЫЛА ПРО ЭТО!"
     # "Но это же были мои шалости..."
@@ -1563,7 +1563,7 @@ translate german monica_office_cabinet_beef_dialogue4_0f8b97e5:
     "Причем здесь этот Биф и Я?!?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:861
-translate german monica_office_cabinet_beef_dialogue4_89e48f62:
+translate german monica_office_cabinet_biff_dialogue4_89e48f62:
 
     # m "Биф... Я..."
     # "Я думаю это необязательно, ведь правда?!"
@@ -1571,15 +1571,15 @@ translate german monica_office_cabinet_beef_dialogue4_89e48f62:
     "Я думаю это необязательно, ведь правда?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:865
-translate german monica_office_cabinet_beef_dialogue4_f1d7963c:
+translate german monica_office_cabinet_biff_dialogue4_f1d7963c:
 
-    # beef "Ха-ха-ха!"
+    # biff "Ха-ха-ха!"
     # "Детка! Смею тебя огорчить!"
-    beef "Ха-ха-ха!"
+    biff "Ха-ха-ха!"
     "Детка! Смею тебя огорчить!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:870
-translate german monica_office_cabinet_beef_dialogue4_4ca21e63:
+translate german monica_office_cabinet_biff_dialogue4_4ca21e63:
 
     # "Тебе придется это сделать в следующий раз!"
     # "Так как уже нет на это времени!"
@@ -1593,7 +1593,7 @@ translate german monica_office_cabinet_beef_dialogue4_4ca21e63:
     "Там тебе надо будет сказать небольшую речь о смене курса нашего журнала."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:880
-translate german monica_office_cabinet_beef_dialogue4_9a8839c5:
+translate german monica_office_cabinet_biff_dialogue4_9a8839c5:
 
     # m "Мне? Речь?!"
     # "Ты хочешь чтобы я сама заявила об этом?!"
@@ -1601,33 +1601,33 @@ translate german monica_office_cabinet_beef_dialogue4_9a8839c5:
     "Ты хочешь чтобы я сама заявила об этом?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:884
-translate german monica_office_cabinet_beef_dialogue4_6e2c018e:
+translate german monica_office_cabinet_biff_dialogue4_6e2c018e:
 
-    # beef "Конечно! Как я и говорил!"
+    # biff "Конечно! Как я и говорил!"
     # "Ты очень похожа на Монику Бакфетт!"
-    beef "Конечно! Как я и говорил!"
+    biff "Конечно! Как я и говорил!"
     "Ты очень похожа на Монику Бакфетт!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:887
-translate german monica_office_cabinet_beef_dialogue4_808f00a2:
+translate german monica_office_cabinet_biff_dialogue4_808f00a2:
 
     # "Потому я и держу такую цыпочку как ты!"
     "Потому я и держу такую цыпочку как ты!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:890
-translate german monica_office_cabinet_beef_dialogue4_50a40eda:
+translate german monica_office_cabinet_biff_dialogue4_50a40eda:
 
     # "При этом там будет вкусная еда и дорогое вино!"
     "При этом там будет вкусная еда и дорогое вино!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:893
-translate german monica_office_cabinet_beef_dialogue4_e2606d80:
+translate german monica_office_cabinet_biff_dialogue4_e2606d80:
 
     # m "Это... После фотосессии?"
     m "Это... После фотосессии?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:896
-translate german monica_office_cabinet_beef_dialogue4_3f98851f:
+translate german monica_office_cabinet_biff_dialogue4_3f98851f:
 
     # mt "Вкусная еда... дорогое вино..."
     # "Благотворительный вечер..."
@@ -1637,7 +1637,7 @@ translate german monica_office_cabinet_beef_dialogue4_3f98851f:
     "Черт... Как же я соскучилась по этому!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:900
-translate german monica_office_cabinet_beef_dialogue4_7811da53:
+translate german monica_office_cabinet_biff_dialogue4_7811da53:
 
     # "Это и есть мой образ жизни, а не то чем мне приходится заниматься сейчас..."
     # "По какому-то небольшому недоразумению..."
@@ -1645,29 +1645,29 @@ translate german monica_office_cabinet_beef_dialogue4_7811da53:
     "По какому-то небольшому недоразумению..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:904
-translate german monica_office_cabinet_beef_dialogue4_030ddf09:
+translate german monica_office_cabinet_biff_dialogue4_030ddf09:
 
-    # beef "Да! Детка!"
+    # biff "Да! Детка!"
     # "И тебе стоит поторопиться!"
     # "Не переживай!"
     # "Ты покажешь мне свою попку в следующий раз!"
-    beef "Да! Детка!"
+    biff "Да! Детка!"
     "И тебе стоит поторопиться!"
     "Keine Sorge!"
     "Ты покажешь мне свою попку в следующий раз!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:910
-translate german monica_office_cabinet_beef_dialogue4_fbd93fc4:
+translate german monica_office_cabinet_biff_dialogue4_fbd93fc4:
 
     # mt "УБЛЮДОК!!!"
     # m "Мне {b}идти в фотостудию{/b}?"
-    # beef "Да! Детка!"
+    # biff "Да! Детка!"
     mt "Bastard!!!"
     m "Мне {b}идти в фотостудию{/b}?"
-    beef "Да! Детка!"
+    biff "Да! Детка!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:915
-translate german monica_office_cabinet_beef_dialogue4_211576f8:
+translate german monica_office_cabinet_biff_dialogue4_211576f8:
 
     # "Беги! И повиляй попой!"
     "Беги! И повиляй попой!"
@@ -2125,7 +2125,7 @@ translate german monica_office_secretary_dialogue7_b7049b8e:
     "Я жду ВАС!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1330
-translate german monica_office_cabinet_beef_dialogue5_56f89571:
+translate german monica_office_cabinet_biff_dialogue5_56f89571:
 
     # m "Биф!"
     # "Я закончила фотосессию!"
@@ -2135,17 +2135,17 @@ translate german monica_office_cabinet_beef_dialogue5_56f89571:
     "И я жду свои деньги..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1334
-translate german monica_office_cabinet_beef_dialogue5_d64c1ad9:
+translate german monica_office_cabinet_biff_dialogue5_d64c1ad9:
 
-    # beef "О! Цыпочка!"
+    # biff "О! Цыпочка!"
     # "Сообщи моей секретарше свои реквизиты и деньги будут переведены в течении..."
     # "Ну... Может быть месяца..."
-    beef "О! Цыпочка!"
+    biff "О! Цыпочка!"
     "Сообщи моей секретарше свои реквизиты и деньги будут переведены в течении..."
     "Ну... Может быть месяца..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1339
-translate german monica_office_cabinet_beef_dialogue5_46c00914:
+translate german monica_office_cabinet_biff_dialogue5_46c00914:
 
     # m "ЧТО???"
     # "МНЕ НУЖНЫ ДЕНЬГИ СЕЙЧАС, ПРЯМО СЕЙЧАС!"
@@ -2153,13 +2153,13 @@ translate german monica_office_cabinet_beef_dialogue5_46c00914:
     "МНЕ НУЖНЫ ДЕНЬГИ СЕЙЧАС, ПРЯМО СЕЙЧАС!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1343
-translate german monica_office_cabinet_beef_dialogue5_5808dcc7:
+translate german monica_office_cabinet_biff_dialogue5_5808dcc7:
 
-    # beef "Банки уже не работают, детка!"
-    beef "Банки уже не работают, детка!"
+    # biff "Банки уже не работают, детка!"
+    biff "Банки уже не работают, детка!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1346
-translate german monica_office_cabinet_beef_dialogue5_aa460355:
+translate german monica_office_cabinet_biff_dialogue5_aa460355:
 
     # m "Биф!"
     # "Мне нужны деньги! Сейчас же!"
@@ -2171,13 +2171,13 @@ translate german monica_office_cabinet_beef_dialogue5_aa460355:
     "Я просто уйду!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1352
-translate german monica_office_cabinet_beef_dialogue5_688a50a5:
+translate german monica_office_cabinet_biff_dialogue5_688a50a5:
 
-    # beef "Детка, я сказал, что банки уже не работают!"
-    beef "Детка, я сказал, что банки уже не работают!"
+    # biff "Детка, я сказал, что банки уже не работают!"
+    biff "Детка, я сказал, что банки уже не работают!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1355
-translate german monica_office_cabinet_beef_dialogue5_b14baea2:
+translate german monica_office_cabinet_biff_dialogue5_b14baea2:
 
     # m "Мне нужны наличные, Биф!"
     # "И прямо сейчас!"
@@ -2185,41 +2185,41 @@ translate german monica_office_cabinet_beef_dialogue5_b14baea2:
     "И прямо сейчас!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1359
-translate german monica_office_cabinet_beef_dialogue5_c6c89e38:
+translate german monica_office_cabinet_biff_dialogue5_c6c89e38:
 
-    # beef "Ха-ха-ха!"
+    # biff "Ха-ха-ха!"
     # "Какой темперамент!"
-    beef "Ха-ха-ха!"
+    biff "Ха-ха-ха!"
     "Какой темперамент!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1363
-translate german monica_office_cabinet_beef_dialogue5_16606127:
+translate german monica_office_cabinet_biff_dialogue5_16606127:
 
-    # beef "Хорошо!"
+    # biff "Хорошо!"
     # "Если ты уйдешь сейчас, то я не успею посмотреть на твою голую попку!"
     # "Я заплачу тебе наличными, но только после речи на благотворительном вечере!"
-    beef "Großartig!"
+    biff "Großartig!"
     "Если ты уйдешь сейчас, то я не успею посмотреть на твою голую попку!"
     "Я заплачу тебе наличными, но только после речи на благотворительном вечере!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1368
-translate german monica_office_cabinet_beef_dialogue5_bb7c3aa0:
+translate german monica_office_cabinet_biff_dialogue5_bb7c3aa0:
 
     # m "Я не верю тебе! Какие гарантии, Биф?!"
     m "Я не верю тебе! Какие гарантии, Биф?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1371
-translate german monica_office_cabinet_beef_dialogue5_b6dc82f2:
+translate german monica_office_cabinet_biff_dialogue5_b6dc82f2:
 
-    # beef "Гарантии???"
+    # biff "Гарантии???"
     # "Ты знаешь, что расчет наличными сам по себе является незаконным!"
     # "Ты хочешь чтобы я заплатил тебе деньги без оформления бумаг и еще хочешь каких-то гарантий?!"
-    beef "Гарантии???"
+    biff "Гарантии???"
     "Ты знаешь, что расчет наличными сам по себе является незаконным!"
     "Ты хочешь чтобы я заплатил тебе деньги без оформления бумаг и еще хочешь каких-то гарантий?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1376
-translate german monica_office_cabinet_beef_dialogue5_c3869a0e:
+translate german monica_office_cabinet_biff_dialogue5_c3869a0e:
 
     # "Мои гарантии - это твой ротик!"
     # "Он должен говорить то что скажу Я и только тогда ты получишь свои деньги!"
@@ -2227,25 +2227,25 @@ translate german monica_office_cabinet_beef_dialogue5_c3869a0e:
     "Он должен говорить то что скажу Я и только тогда ты получишь свои деньги!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1380
-translate german monica_office_cabinet_beef_dialogue5_d79f1557:
+translate german monica_office_cabinet_biff_dialogue5_d79f1557:
 
     # m "Биф, если я скажу речь, я получу деньги?"
     m "Биф, если я скажу речь, я получу деньги?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1382
-translate german monica_office_cabinet_beef_dialogue5_eea80414:
+translate german monica_office_cabinet_biff_dialogue5_eea80414:
 
-    # beef "Конечно, цыпочка!"
+    # biff "Конечно, цыпочка!"
     # "Я понимаю, ты стесняешься."
     # "Но не переживай, это небольшой вип зал, там будет мало людей."
     # "В основном пресса."
-    beef "Конечно, цыпочка!"
+    biff "Конечно, цыпочка!"
     "Я понимаю, ты стесняешься."
     "Но не переживай, это небольшой вип зал, там будет мало людей."
     "В основном пресса."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1388
-translate german monica_office_cabinet_beef_dialogue5_0d43d283:
+translate german monica_office_cabinet_biff_dialogue5_0d43d283:
 
     # "Я же не рассчитывал что найду такую цыпочку!"
     # "В следующий раз я позабочусь чтобы мою новую куклу увидели все!"
@@ -2253,73 +2253,73 @@ translate german monica_office_cabinet_beef_dialogue5_0d43d283:
     "В следующий раз я позабочусь чтобы мою новую куклу увидели все!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1392
-translate german monica_office_cabinet_beef_dialogue5_0a5616b8:
+translate german monica_office_cabinet_biff_dialogue5_0a5616b8:
 
     # mt "!!!"
     mt "!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1395
-translate german monica_office_cabinet_beef_dialogue5_2a2613c1:
+translate german monica_office_cabinet_biff_dialogue5_2a2613c1:
 
-    # beef "Поехали, детка!"
+    # biff "Поехали, детка!"
     # "Уже пора!"
     # "И не забудь вернуть платье назад после вечера!"
     # "А также украшения!"
-    beef "Поехали, детка!"
+    biff "Поехали, детка!"
     "Уже пора!"
     "И не забудь вернуть платье назад после вечера!"
     "А также украшения!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1400
-translate german monica_office_cabinet_beef_dialogue5_83e8051b:
+translate german monica_office_cabinet_biff_dialogue5_83e8051b:
 
     # "Без них ты не похожа на Монику Бакфетт и только поэтому я разрешил тебе одеть их!"
     "Без них ты не похожа на Монику Бакфетт и только поэтому я разрешил тебе одеть их!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1403
-translate german monica_office_cabinet_beef_dialogue5_98fb848b:
+translate german monica_office_cabinet_biff_dialogue5_98fb848b:
 
     # m "Я оставлю это платье себе! Оно мое!"
-    # beef "Нет! Даже не обсуждается!"
+    # biff "Нет! Даже не обсуждается!"
     # "Я не позволю чтобы шлюха за $ 10 ходила сниматься в платье от Модного Журнала!"
     # "А вдруг кто-нибудь узнает это платье?!"
     # "Что тогда?!"
     m "Я оставлю это платье себе! Оно мое!"
-    beef "Нет! Даже не обсуждается!"
+    biff "Нет! Даже не обсуждается!"
     "Я не позволю чтобы шлюха за $ 10 ходила сниматься в платье от Модного Журнала!"
     "А вдруг кто-нибудь узнает это платье?!"
     "Что тогда?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1411
-translate german monica_office_cabinet_beef_dialogue5_4c122358:
+translate german monica_office_cabinet_biff_dialogue5_4c122358:
 
     # m "Я поставлю пятно на него!"
     m "Я поставлю пятно на него!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1414
-translate german monica_office_cabinet_beef_dialogue5_7479d6c0:
+translate german monica_office_cabinet_biff_dialogue5_7479d6c0:
 
-    # beef "Только попробуй!"
+    # biff "Только попробуй!"
     # "И тогда твой гонорар пойдет на погашение стоимости платья!"
-    beef "Только попробуй!"
+    biff "Только попробуй!"
     "И тогда твой гонорар пойдет на погашение стоимости платья!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1418
-translate german monica_office_cabinet_beef_dialogue5_0a5616b8_1:
+translate german monica_office_cabinet_biff_dialogue5_0a5616b8_1:
 
     # mt "!!!"
     mt "!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1421
-translate german monica_office_cabinet_beef_dialogue5_6c734d1e:
+translate german monica_office_cabinet_biff_dialogue5_6c734d1e:
 
-    # beef "Закрой свой ротик, пока я не заткнул его своим членом!"
+    # biff "Закрой свой ротик, пока я не заткнул его своим членом!"
     # "Ты будешь открывать его когда скажу Я!"
-    beef "Закрой свой ротик, пока я не заткнул его своим членом!"
+    biff "Закрой свой ротик, пока я не заткнул его своим членом!"
     "Ты будешь открывать его когда скажу Я!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1424
-translate german monica_office_cabinet_beef_dialogue5_2ef926dc:
+translate german monica_office_cabinet_biff_dialogue5_2ef926dc:
 
     # "А сейчас поехали!"
     # "Нам еще надо подобрать {b}Мелани{/b} по пути!"

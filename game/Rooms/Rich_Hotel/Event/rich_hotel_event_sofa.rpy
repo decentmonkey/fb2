@@ -3,12 +3,12 @@ label rich_hotel_event_sofa:
     $ miniMapData = []
 
     $ sceneIsStreet = True
-    $ scene_image = "scene_rich_hotel_event_sofa_Monica_Melanie_Beef"
+    $ scene_image = "scene_rich_hotel_event_sofa_Monica_Melanie_biff"
     return
 
 label rich_hotel_event_sofa_init:
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "rich_hotel_event_sofa_Monica_[cloth]", "click" : "rich_hotel_event_sofa_environment", "actions" : "l", "zorder":10})
-    $ add_object_to_scene("Beef", {"type" : 2, "base" : "rich_hotel_event_sofa_Beef", "click" : "rich_hotel_event_sofa_environment", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png"})
+    $ add_object_to_scene("biff", {"type" : 2, "base" : "rich_hotel_event_sofa_biff", "click" : "rich_hotel_event_sofa_environment", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png"})
     $ add_object_to_scene("Melanie", {"type" : 2, "base" : "rich_hotel_event_sofa_Melanie", "click" : "rich_hotel_event_sofa_environment", "actions" : "lt", "zorder":11})
 
     $ add_object_to_scene("Komode", {"type" : 2, "base" : "rich_hotel_event_sofa_Komode", "click" : "rich_hotel_event_sofa_environment", "actions" : "l", "zorder":0, "group":"environment"})
@@ -38,7 +38,7 @@ label rich_hotel_event_sofa_environment:
             mt "Мне не нравится этот Биф!"
             "Надо скорее забрать у него деньги и больше с ним не встречаться!"
         return
-    if obj_name == "Beef":
+    if obj_name == "biff":
         if act == "l":
             mt "Мерзкий слизняк Биф!"
             "Я найду на него управу!!!"

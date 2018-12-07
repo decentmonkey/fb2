@@ -6,6 +6,7 @@ label monica_office_photostudio:
     $ miniMapData = []
 
     $ scene_image = "scene_Office_Monica_PhotoStudio"
+    music Mandeville
     return
 
 label monica_office_photostudio_init:
@@ -46,7 +47,7 @@ label monica_office_photostudio_environment:
 
     if obj_name == "AlexPhotograph":
         if obj_data["action"] == "l":
-            "Алекс - мой фотограф.
+            mt "Алекс - мой фотограф.
             Самый лучший профессионал в стране, которого можно купить за деньги."
             return
         if obj_data["action"] == "t":

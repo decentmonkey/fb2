@@ -1,49 +1,49 @@
 ﻿# TODO: Translation updated at 2018-12-05 18:00
 
 # game/Quests/EP2/ep2_dialogues4.rpy:7
-translate english monica_office_entrance_beef_dialogue1_2a439d3a:
+translate english monica_office_entrance_biff_dialogue1_2a439d3a:
 
-    # beef "Детка? Ты хочешь попасть наверх?"
-    beef "Babe? Do you want to get upstairs?"
+    # biff "Детка? Ты хочешь попасть наверх?"
+    biff "Babe? Do you want to get upstairs?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:9
-translate english monica_office_entrance_beef_dialogue1_5c8f8e3e:
+translate english monica_office_entrance_biff_dialogue1_5c8f8e3e:
 
     # m "Кто вы?"
-    # beef "Меня зовут Биф!"
+    # biff "Меня зовут Биф!"
     m "Who are you?"
-    beef "I'm Beef!"
+    biff "I'm biff!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:12
-translate english monica_office_entrance_beef_dialogue1_c9166873:
+translate english monica_office_entrance_biff_dialogue1_c9166873:
 
     # m "Биф, ты знаешь код?"
-    # beef "Конечно, детка!"
+    # biff "Конечно, детка!"
     m "Biff, do you know the code?"
-    beef "Sure, baby!"
+    biff "Sure, baby!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:15
-translate english monica_office_entrance_beef_dialogue1_49ad18d9:
+translate english monica_office_entrance_biff_dialogue1_49ad18d9:
 
     # "Код 4287!"
     "The code is 4287!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:17
-translate english monica_office_entrance_beef_dialogue1_c5add415:
+translate english monica_office_entrance_biff_dialogue1_c5add415:
 
     # m "Спасибо, Мистер!" 
     m "Thanks, Mister!" 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:20
-translate english monica_office_entrance_beef_dialogue1_b241d991:
+translate english monica_office_entrance_biff_dialogue1_b241d991:
 
-    # beef "О! Не за что, детка!"
+    # biff "О! Не за что, детка!"
     # "Интересно, как такая попка прошла мимо меня?"
-    beef "Oh! You're welcome!"
+    biff "Oh! You're welcome!"
     "I wonder how that ass got past me."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:23
-translate english monica_office_entrance_beef_dialogue1_22731345:
+translate english monica_office_entrance_biff_dialogue1_22731345:
 
     # m "Что Вы имеете ввиду?!"
     # "Как Вы позволяете себе разговаривать со мной?!"
@@ -51,26 +51,26 @@ translate english monica_office_entrance_beef_dialogue1_22731345:
     "How do you allow yourself to talk to me?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:26
-translate english monica_office_entrance_beef_dialogue1_02e48dc5:
+translate english monica_office_entrance_biff_dialogue1_02e48dc5:
 
-    # beef "Детка, ты ведь едешь сниматься в студии, правда?"
-    beef "Baby, you're going to be in the Studio, aren't you?"
+    # biff "Детка, ты ведь едешь сниматься в студии, правда?"
+    biff "Baby, you're going to be in the Studio, aren't you?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:34
-translate english monica_office_entrance_beef_dialogue1_4c2bc47c:
+translate english monica_office_entrance_biff_dialogue1_4c2bc47c:
 
     # "Алексу влетит за то, что решил скрыть от меня такую цыпочку!"
     "Alex will get in trouble for being decided to hide from me such a chick!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:36
-translate english monica_office_entrance_beef_dialogue1_6a07b022:
+translate english monica_office_entrance_biff_dialogue1_6a07b022:
 
     # m "Я не цыпочка!"
     # "Отвали от меня, урод!"
-    # beef "Ха-ха-ха!"
+    # biff "Ха-ха-ха!"
     m "Not a chick!"
     "Get off me, motherfucker!"
-    beef "Ha ha ha!"
+    biff "Ha ha ha!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:45
 translate english monica_office_secretary_dialogue1_c64aa55c:
@@ -156,7 +156,7 @@ translate english monica_office_secretary_dialogue1_6e13407d:
 translate english monica_office_secretary_dialogue1_fc04f284:
 
     # m "Биф говоришь?!?!" 
-    m "You say Beef?!?!" 
+    m "You say biff?!?!" 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:82
 translate english monica_office_secretary_dialogue1_87d59515:
@@ -349,129 +349,129 @@ translate english monica_office_photostudio_alex_dialogue1_9eb0c9fb:
     alex_photograph "Yes, Mrs. Buckfett! Of course!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:235
-translate english monica_office_cabinet_beef_dialogue1_d76921eb:
+translate english monica_office_cabinet_biff_dialogue1_d76921eb:
 
     # melanie "Здравствуйте, Миссис Бакфетт!"
     melanie "Hello, Mrs. Buckfett!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:238
-translate english monica_office_cabinet_beef_dialogue1_84f0bd80:
+translate english monica_office_cabinet_biff_dialogue1_84f0bd80:
 
     # "Рада видеть Вас!"
     "Good to see you!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:240
-translate english monica_office_cabinet_beef_dialogue1_b12601f8:
+translate english monica_office_cabinet_biff_dialogue1_b12601f8:
 
     # m "Здравствуй, Мелани."
     m "Hello, Melanie."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:242
-translate english monica_office_cabinet_beef_dialogue1_3b7c6360:
+translate english monica_office_cabinet_biff_dialogue1_3b7c6360:
 
     # "Я смотрю ты не теряешь времени даром..."
     "I see you're not wasting any time..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:244
-translate english monica_office_cabinet_beef_dialogue1_80584ae2:
+translate english monica_office_cabinet_biff_dialogue1_80584ae2:
 
     # melanie "Миссис Бакфетт..."
     melanie "Mrs. Buckfett ..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:254
-translate english monica_office_cabinet_beef_dialogue1_eaab9b94:
+translate english monica_office_cabinet_biff_dialogue1_eaab9b94:
 
-    # beef "О! Цыпочка!"
+    # biff "О! Цыпочка!"
     # "Алекс клялся что не прятал тебя!"
     # "Значит он, все-таки, врал и решил исправить свою вину прислав тебя ко мне?"
     # "Ха-ха!"
-    beef "Oh! Chick!"
+    biff "Oh! Chick!"
     "Alex swore he wasn't hiding you!"
     "So he was lying, after all, and he decided to rectify his guilt by sending you to me?"
     "Haha!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:260
-translate english monica_office_cabinet_beef_dialogue1_79c31f11:
+translate english monica_office_cabinet_biff_dialogue1_79c31f11:
 
     # m "Это значит ты Биф?!"
     # "Мерзавец!"
     # "Как ты посмел занять мое место?!"
-    m "Is it you Beef?!"
+    m "Is it you biff?!"
     "Bastard!"
     "How dare you take my place?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:265
-translate english monica_office_cabinet_beef_dialogue1_e3f021f0:
+translate english monica_office_cabinet_biff_dialogue1_e3f021f0:
 
-    # beef "Эй! Цыпочка! Полегче!"
+    # biff "Эй! Цыпочка! Полегче!"
     # "Ты кто такая?!"
     # "Это у тебя такой косплей?"
     # "Пытаешься произвести впечатление на меня?"
     # "Ха-ха-ха!"
-    beef "Hey! Chick! Easy!"
+    biff "Hey! Chick! Easy!"
     "Who are you?!"
     "Is it a cosplay?"
     "Are you trying to impress me?"
     "Ha ha ha!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:272
-translate english monica_office_cabinet_beef_dialogue1_12186b79:
+translate english monica_office_cabinet_biff_dialogue1_12186b79:
 
     # m "Я - ТА, НА ЧЬЕМ СТУЛЕ ТЫ СИДИШЬ!"
     m "I'M THE ONE ON WHOSE CHAIR YOU SIT!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:274
-translate english monica_office_cabinet_beef_dialogue1_3a2a3cac:
+translate english monica_office_cabinet_biff_dialogue1_3a2a3cac:
 
     # "МЕНЯ ЗОВУТ МОНИКА БАКФЕТТ!"
     "MY NAME IS MONICA BUCKFETT!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:276
-translate english monica_office_cabinet_beef_dialogue1_a0ee25f5:
+translate english monica_office_cabinet_biff_dialogue1_a0ee25f5:
 
     # "И Я БЫ СОВЕТОВАЛА ТЕБЕ ВСТАТЬ С МОЕГО СТУЛА!"
     "AND I WOULD ADVISE YOU TO GET OUT OF MY CHAIR!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:278
-translate english monica_office_cabinet_beef_dialogue1_f3dcd0a3:
+translate english monica_office_cabinet_biff_dialogue1_f3dcd0a3:
 
     # "ПОКА Я НЕ ОТОРВАЛА ТЕБЕ ТВОИ ЯЙЦА К ЧЕРТЯМ!!!" 
     "I'LL RIP YOU YOUR BALLS TO HELL!!!" 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:281
-translate english monica_office_cabinet_beef_dialogue1_894d8baf:
+translate english monica_office_cabinet_biff_dialogue1_894d8baf:
 
-    # beef "Ого!"
+    # biff "Ого!"
     # "Это какая-то шутка?"
     # "Должно быть ты самозванка?" 
-    beef "Wow!"
+    biff "Wow!"
     "Is this some kind of joke?"
     "You must be the imposter." 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:285
-translate english monica_office_cabinet_beef_dialogue1_a21a0e09:
+translate english monica_office_cabinet_biff_dialogue1_a21a0e09:
 
     # "..." 
     "..." 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:287
-translate english monica_office_cabinet_beef_dialogue1_29a4f6ab:
+translate english monica_office_cabinet_biff_dialogue1_29a4f6ab:
 
     # m "!!!"
     m "!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:289
-translate english monica_office_cabinet_beef_dialogue1_c00812e1:
+translate english monica_office_cabinet_biff_dialogue1_c00812e1:
 
-    # beef "Это отлично!"
+    # biff "Это отлично!"
     # "У тебя так натурально получается играть!"
     # "Цыпочка! Я думаю у меня есть для тебя работа!"
-    beef "That's great!"
+    biff "That's great!"
     "You have so naturally turns to act"
     "Chick! I think I have a job for you!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:293
-translate english monica_office_cabinet_beef_dialogue1_4e6b82f6:
+translate english monica_office_cabinet_biff_dialogue1_4e6b82f6:
 
     # m "Цыпочка?! Играть?!"
     # "Что ты несешь, урод?!"
@@ -485,17 +485,17 @@ translate english monica_office_cabinet_beef_dialogue1_4e6b82f6:
     "QUICKLY!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:300
-translate english monica_office_cabinet_beef_dialogue1_e3bdba57:
+translate english monica_office_cabinet_biff_dialogue1_e3bdba57:
 
-    # beef "Нет, этого не может быть..."
+    # biff "Нет, этого не может быть..."
     # "Насколько мне известно, Моника Бакфетт - опасный преступник, которого ждет суровое наказание..."
     # "Если это действительно Вы..."
-    beef "No, this can't happen..."
+    biff "No, this can't happen..."
     "As far as I know, Monica Buckfett - a dangerous criminal facing a severe punishment..."
     "If that's really you..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:304
-translate english monica_office_cabinet_beef_dialogue1_fb9dfd7c:
+translate english monica_office_cabinet_biff_dialogue1_fb9dfd7c:
 
     # "Вы сбежали?!?!?"
     # "Тогда я блокирую лифт и вызываю полицию..."
@@ -503,7 +503,7 @@ translate english monica_office_cabinet_beef_dialogue1_fb9dfd7c:
     "Then I block the Elevator and call the police..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:307
-translate english monica_office_cabinet_beef_dialogue1_6b32e841:
+translate english monica_office_cabinet_biff_dialogue1_6b32e841:
 
     # "Пожалуйста! Пожалуйста! Не делайте мне ничего!"
     # "Если хотите, садитесь на это кресло!"
@@ -513,13 +513,13 @@ translate english monica_office_cabinet_beef_dialogue1_6b32e841:
     "I can imagine how dangerous you are!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:312
-translate english monica_office_cabinet_beef_dialogue1_c1c7a567:
+translate english monica_office_cabinet_biff_dialogue1_c1c7a567:
 
     # m "Полиция???"
     m "The police???"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:314
-translate english monica_office_cabinet_beef_dialogue1_1146047b:
+translate english monica_office_cabinet_biff_dialogue1_1146047b:
 
     # mt "ЧЕРТ! КАКАЯ ПОЛИЦИЯ!!!"
     # "ПОЧЕМУ ВСЕ ВРЕМЯ ПОЛИЦИЯ?!?!"
@@ -527,13 +527,13 @@ translate english monica_office_cabinet_beef_dialogue1_1146047b:
     "WHY ALWAYS THE POLICE?!?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:318
-translate english monica_office_cabinet_beef_dialogue1_620e5d2c:
+translate english monica_office_cabinet_biff_dialogue1_620e5d2c:
 
-    # beef "Алло! Полиция?!" 
-    beef "Hello! The police?!" 
+    # biff "Алло! Полиция?!" 
+    biff "Hello! The police?!" 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:321
-translate english monica_office_cabinet_beef_dialogue1_15609ee9:
+translate english monica_office_cabinet_biff_dialogue1_15609ee9:
 
     # mt "Заблокировать лифт??? Полиция???"
     # mt "ЧЕРТ!"
@@ -543,7 +543,7 @@ translate english monica_office_cabinet_beef_dialogue1_15609ee9:
     mt "NO!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:326
-translate english monica_office_cabinet_beef_dialogue1_29a7e95f:
+translate english monica_office_cabinet_biff_dialogue1_29a7e95f:
 
     # mt "Мне надо что-то придумать! Как избежать полиции???"
     # "..."
@@ -555,17 +555,17 @@ translate english monica_office_cabinet_beef_dialogue1_29a7e95f:
     "Think about it, Monica!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:332
-translate english monica_office_cabinet_beef_dialogue1_01fb6e8c:
+translate english monica_office_cabinet_biff_dialogue1_01fb6e8c:
 
-    # beef "Полиция?! Я в опасности, помогите мне!"
+    # biff "Полиция?! Я в опасности, помогите мне!"
     # "Здесь опасная преступница!"
     # "Она угрожает мне!"
-    beef "The police?! I'm in danger, help me!"
+    biff "The police?! I'm in danger, help me!"
     "There's a dangerous criminal here!"
     "She threatens me!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:337
-translate english monica_office_cabinet_beef_dialogue1_d7e39d0b:
+translate english monica_office_cabinet_biff_dialogue1_d7e39d0b:
 
     # mt "ЧЕРТ!"
     # "Как мне остановить его???"
@@ -575,7 +575,7 @@ translate english monica_office_cabinet_beef_dialogue1_d7e39d0b:
     "..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:345
-translate english monica_office_cabinet_beef_dialogue1_c40a323b:
+translate english monica_office_cabinet_biff_dialogue1_c40a323b:
 
     # "Он говорил что не верит что это я, и что я хорошо играю сама себя..."
     # "Мне надо притвориться что это не Я!"
@@ -595,17 +595,17 @@ translate english monica_office_cabinet_beef_dialogue1_c40a323b:
     "Oh my God!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:354
-translate english monica_office_cabinet_beef_dialogue1_922e1f42:
+translate english monica_office_cabinet_biff_dialogue1_922e1f42:
 
     # m "Эй! Биф!" 
     # "Не бойся!"
     # "Ты правда здорово напугался?!"
-    m "Hey! Beef!" 
+    m "Hey! biff!" 
     "Do not be afraid!"
     "Are you really scared?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:358
-translate english monica_office_cabinet_beef_dialogue1_a75bb9d3:
+translate english monica_office_cabinet_biff_dialogue1_a75bb9d3:
 
     # "Я - молодец, я провела тебя!"
     # "Как тебе мой талант?"
@@ -613,27 +613,27 @@ translate english monica_office_cabinet_beef_dialogue1_a75bb9d3:
     "Do you like my talent?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:362
-translate english monica_office_cabinet_beef_dialogue1_b26168a9:
+translate english monica_office_cabinet_biff_dialogue1_b26168a9:
 
-    # beef "???"
+    # biff "???"
     # "Так ты не Моника Бакфетт?"
-    beef "???"
+    biff "???"
     "So you're not Monica Buckfett?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:366
-translate english monica_office_cabinet_beef_dialogue1_e8120f68:
+translate english monica_office_cabinet_biff_dialogue1_e8120f68:
 
     # m "Конечно нет, глупый!"
     m "Of course not, silly!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:369
-translate english monica_office_cabinet_beef_dialogue1_2442dffb:
+translate english monica_office_cabinet_biff_dialogue1_2442dffb:
 
-    # beef "Извините!" 
-    beef "Sorry!" 
+    # biff "Извините!" 
+    biff "Sorry!" 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:371
-translate english monica_office_cabinet_beef_dialogue1_add680c5:
+translate english monica_office_cabinet_biff_dialogue1_add680c5:
 
     # "Черт, цыпочка!"
     # "Ты так похожа на нее!"
@@ -643,7 +643,7 @@ translate english monica_office_cabinet_beef_dialogue1_add680c5:
     "I really believed it!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:376
-translate english monica_office_cabinet_beef_dialogue1_06735ada:
+translate english monica_office_cabinet_biff_dialogue1_06735ada:
 
     # "Иди ко мне на коленки, скорее!"
     # "Надо пожалеть папочку!"
@@ -651,55 +651,55 @@ translate english monica_office_cabinet_beef_dialogue1_06735ada:
     "You should feel sorry for daddy!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:380
-translate english monica_office_cabinet_beef_dialogue1_dce617e7:
+translate english monica_office_cabinet_biff_dialogue1_dce617e7:
 
     # m "Я... не собираюсь никуда садиться!"
     m "I am... I'm not going anywhere!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:382
-translate english monica_office_cabinet_beef_dialogue1_30012764:
+translate english monica_office_cabinet_biff_dialogue1_30012764:
 
     # "Как ты вообще здесь оказался и кто ты такой?"
     "How did you even get here and who are you?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:385
-translate english monica_office_cabinet_beef_dialogue1_f73ca63e:
+translate english monica_office_cabinet_biff_dialogue1_f73ca63e:
 
-    # beef "Я - Биф!"
+    # biff "Я - Биф!"
     # "Владелец Модного Журнала!"
     # "Да - это Я"
     # "Я - это Биф!"
     # "Я люблю себя! Вау!"
-    beef "I'm Beef!"
+    biff "I'm biff!"
     "The Owner Of A Fashion Magazine!"
     "Yes - it's me."
-    "I'm Beef!"
+    "I'm biff!"
     "I love myself! Wow!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:392
-translate english monica_office_cabinet_beef_dialogue1_367e6de1:
+translate english monica_office_cabinet_biff_dialogue1_367e6de1:
 
     # mt "СЛИЗНЯК!!!"
     mt "SLUG!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:395
-translate english monica_office_cabinet_beef_dialogue1_25fab957:
+translate english monica_office_cabinet_biff_dialogue1_25fab957:
 
-    # beef "Так значит ты цыпочка от Алекса?"
+    # biff "Так значит ты цыпочка от Алекса?"
     # "А почему ты не хочешь ко мне на коленки?"
     # "Ты ведь знаешь, детка, что с таким как я нужно дружить..."
-    beef "So you're Alex's chick?"
+    biff "So you're Alex's chick?"
     "Why don't you come on my knees?"
     "You know, baby, you should be friends with someone like me..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:399
-translate english monica_office_cabinet_beef_dialogue1_be5e12bd:
+translate english monica_office_cabinet_biff_dialogue1_be5e12bd:
 
     # "Я ведь могу тебя сделать моделью, ты понимаешь?" 
     "I can make you a model, you know?" 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:402
-translate english monica_office_cabinet_beef_dialogue1_18e11c83:
+translate english monica_office_cabinet_biff_dialogue1_18e11c83:
 
     # mt "!!!"
     # "СВОЛОЧЬ!!!"
@@ -711,25 +711,25 @@ translate english monica_office_cabinet_beef_dialogue1_18e11c83:
     "AAAAAAAAA!!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:408
-translate english monica_office_cabinet_beef_dialogue1_424fb1b1:
+translate english monica_office_cabinet_biff_dialogue1_424fb1b1:
 
     # m "У меня нет желания становиться моделью!"
     m "I have no desire to become a model!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:411
-translate english monica_office_cabinet_beef_dialogue1_47477008:
+translate english monica_office_cabinet_biff_dialogue1_47477008:
 
-    # beef "Я бы мог {b}дать тебе работу{/b}, детка!"
+    # biff "Я бы мог {b}дать тебе работу{/b}, детка!"
     # "Ты так похожа на Монику Бакфетт, что никто не увидит разницы!"
     # "У меня крутой журнал и я решил сменить его курс!"
     # "И если бы Моника Бакфетт одобрила его и рассказала бы всем об этом, то это был бы большой плюс!"
-    beef "I could {b}provide you a work{/b}, baby!"
+    biff "I could {b}provide you a work{/b}, baby!"
     "You have so much in common with Monica Buckfett that no one will see the difference!"
     "I have a cool magazine and I decided to change its policy!"
     "And if Monica Buckfett approved it and told everyone about it, it would be a big plus!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:416
-translate english monica_office_cabinet_beef_dialogue1_42a0c4e6:
+translate english monica_office_cabinet_biff_dialogue1_42a0c4e6:
 
     # "К тому же многие задают вопросы где эта сучка!"
     # "А мне не всегда получается объяснить журналистам что она не должна интересовать их, потому что есть Я!"
@@ -737,7 +737,7 @@ translate english monica_office_cabinet_beef_dialogue1_42a0c4e6:
     "And I don't always get to explain to journalists that they shouldn't be interested in her, because there I am!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:419
-translate english monica_office_cabinet_beef_dialogue1_809797d4:
+translate english monica_office_cabinet_biff_dialogue1_809797d4:
 
     # mt "!!!"
     # "КТО Я???"
@@ -745,7 +745,7 @@ translate english monica_office_cabinet_beef_dialogue1_809797d4:
     "WHO AM I???"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:423
-translate english monica_office_cabinet_beef_dialogue1_0fce4965:
+translate english monica_office_cabinet_biff_dialogue1_0fce4965:
 
     # mt "КАК МНЕ СДЕРЖАТЬСЯ???"
     # "Я ХОЧУ ОТОРВАТЬ ЯЙЦА ЭТОМУ УРОДУ!!!"
@@ -755,7 +755,7 @@ translate english monica_office_cabinet_beef_dialogue1_0fce4965:
     "RIGHT NOW!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:427
-translate english monica_office_cabinet_beef_dialogue1_d9121b6a:
+translate english monica_office_cabinet_biff_dialogue1_d9121b6a:
 
     # "Но тогда я попаду в руки к Маркусу, сразу же!"
     # "(хмык)"
@@ -763,41 +763,41 @@ translate english monica_office_cabinet_beef_dialogue1_d9121b6a:
     "(sob)"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:431
-translate english monica_office_cabinet_beef_dialogue1_9a637516:
+translate english monica_office_cabinet_biff_dialogue1_9a637516:
 
     # m "Меня не интересует твоя работа, Биф!"
-    m "I'm not interested in your work, Beef!"
+    m "I'm not interested in your work, biff!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:434
-translate english monica_office_cabinet_beef_dialogue1_214da0cf:
+translate english monica_office_cabinet_biff_dialogue1_214da0cf:
 
-    # beef "Хорошо, цыпочка."
+    # biff "Хорошо, цыпочка."
     # "Зачем же ты тогда пришла сюда?"
-    beef "Okay, chick."
+    biff "Okay, chick."
     "Then why did you come here?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:438
-translate english monica_office_cabinet_beef_dialogue1_8b85edac:
+translate english monica_office_cabinet_biff_dialogue1_8b85edac:
 
     # m "Я... Я пришла просто напугать тебя, Биф!"
     m "I am... I just came to scare you, Biff!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:441
-translate english monica_office_cabinet_beef_dialogue1_a699ed0e:
+translate english monica_office_cabinet_biff_dialogue1_a699ed0e:
 
-    # beef "Ха-ха-ха!"
+    # biff "Ха-ха-ха!"
     # "У тебя крутой нрав, цыпочка!"
     # "Смею заметить!"
     # "Пытаешь произвести на меня впечатление, понимаю..."
     # "Мне нравятся такие цыпочки!"
-    beef "Ha ha ha!"
+    biff "Ha ha ha!"
     "You have a temper, girl!"
     "I dare say!"
     "Trying to impress me, I get it..."
     "I like such Chicks!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:448
-translate english monica_office_cabinet_beef_dialogue1_c763d258:
+translate english monica_office_cabinet_biff_dialogue1_c763d258:
 
     # mt "Я больше не могу выдерживать этого урода..."
     # "У меня все кипит внутри!"
@@ -807,27 +807,27 @@ translate english monica_office_cabinet_beef_dialogue1_c763d258:
     "I should get out of here!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:456
-translate english monica_office_cabinet_beef_dialogue1_d643ac77:
+translate english monica_office_cabinet_biff_dialogue1_d643ac77:
 
     # m "До свидания, Биф!"
-    m "Good-bye, Beef!"
+    m "Good-bye, biff!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:458
-translate english monica_office_cabinet_beef_dialogue1_ddc2e9b4:
+translate english monica_office_cabinet_biff_dialogue1_ddc2e9b4:
 
     # "Еще увидимся!"
     "See you later!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:461
-translate english monica_office_cabinet_beef_dialogue1_3c0f42a4:
+translate english monica_office_cabinet_biff_dialogue1_3c0f42a4:
 
-    # beef "До свидания, цыпочка!"
+    # biff "До свидания, цыпочка!"
     # "Я буду звать тебя Моника Бакфетт! Ха-ха-ха!"
-    beef "Goodbye, chick!"
+    biff "Goodbye, chick!"
     "I'll call you Monica Buckfett! Ha ha ha!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:467
-translate english monica_office_cabinet_beef_dialogue1_7c33889d:
+translate english monica_office_cabinet_biff_dialogue1_7c33889d:
 
     # mt "Это было..."
     # "Очень..."
@@ -847,15 +847,15 @@ translate english monica_office_cabinet_beef_dialogue1_7c33889d:
     "Calm down and don't kill that slug."
     "I usually dust such people in a few minutes..."
     "And here..."
-    "There's Beef on my chair at my Desk, and there's nothing I can do!"
+    "There's biff on my chair at my Desk, and there's nothing I can do!"
     "But I will! I'm gonna get this company back!"
-    "And the first thing I'm gonna do is throw Beef out!!!"
+    "And the first thing I'm gonna do is throw biff out!!!"
     "He'll be delivering Newspapers for the rest of his life!!!"
     "Or flyers!!! Yes!!!"
     "I swear!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:488
-translate english monica_office_cabinet_beef_dialogue2_5ba56d88:
+translate english monica_office_cabinet_biff_dialogue2_5ba56d88:
 
     # mt "Я не собираюсь идти к этому слизняку!"
     # "Если я приду к нему снова, то только затем, чтобы выкинуть его отсюда!!!"
@@ -1028,7 +1028,7 @@ translate english monica_office_secretary_dialogue4_5706e483:
     # secretary "Миссис Бакфетт!"
     # "Мистера Бифа сейчас нет на месте!"
     secretary "Mrs. Buckfett!"
-    "Mr. Beef is not here right now!"
+    "Mr. biff is not here right now!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:579
 translate english monica_office_secretary_dialogue4_bbef166c:
@@ -1056,7 +1056,7 @@ translate english monica_office_secretary_dialogue4a_5706e483:
     # secretary "Миссис Бакфетт!"
     # "Мистера Бифа сейчас нет на месте!"
     secretary "Mrs. Buckfett!"
-    "Mr. Beef is not here right now!"
+    "Mr. biff is not here right now!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:599
 translate english monica_office_secretary_dialogue4a_bbef166c:
@@ -1088,22 +1088,22 @@ translate english monica_office_secretary_dialogue4a_6415e49b:
     # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
     # m "Хорошо, дорогая, спасибо."
     secretary "Mrs. Buckfett!"
-    "Mr. Beef is not here right now!"
+    "Mr. biff is not here right now!"
     m "When will it be?"
     secretary "He said he would be in the evening!"
     "But You know, he says what he wants and has absolutely no discipline!"
     m "Okay, honey, thank you."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:620
-translate english monica_office_cabinet_beef_dialogue2a_32ebc16c:
+translate english monica_office_cabinet_biff_dialogue2a_32ebc16c:
 
     # mt "Ну что-ж... Биф..."
     # mt "Поговорим с ним о том чтобы получить работу..."
-    mt "Well... Beef..."
+    mt "Well... biff..."
     mt "We'll talk to him about getting a job..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:623
-translate english monica_office_cabinet_beef_dialogue2a_5f01f975:
+translate english monica_office_cabinet_biff_dialogue2a_5f01f975:
 
     # "Посмотрим что он хочет от меня..."
     # "Если я хочу вернуть назад компанию, то мне стоит находиться где-то здесь, рядом..."
@@ -1117,31 +1117,31 @@ translate english monica_office_cabinet_beef_dialogue2a_5f01f975:
     "So I can achieve two goals at once!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:637
-translate english monica_office_cabinet_beef_dialogue3_814c4cfb:
+translate english monica_office_cabinet_biff_dialogue3_814c4cfb:
 
-    # beef "О! Цыпочка! Ты вернулась!"
-    beef "Oh! Chick! You're back!"
+    # biff "О! Цыпочка! Ты вернулась!"
+    biff "Oh! Chick! You're back!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:639
-translate english monica_office_cabinet_beef_dialogue3_be61f882:
+translate english monica_office_cabinet_biff_dialogue3_be61f882:
 
     # m "Биф!"
     # "Что ты говорил по поводу работы?"
-    m "Beef!"
+    m "biff!"
     "What did you say about the job?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:642
-translate english monica_office_cabinet_beef_dialogue3_cd908608:
+translate english monica_office_cabinet_biff_dialogue3_cd908608:
 
-    # beef "По поводу работы?"
+    # biff "По поводу работы?"
     # "Хм... Ты знаешь..."
     # "Я хотел чтобы ты снималась для журнала под видом Моники Бакфетт..."
-    beef "About job?"
+    biff "About job?"
     "Um... You know..."
     "I wanted you to be photographed for the magazine under the guise of Monica Buckfett..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:648
-translate english monica_office_cabinet_beef_dialogue3_5f96740f:
+translate english monica_office_cabinet_biff_dialogue3_5f96740f:
 
     # "Но я думаю что предпочту Мелани на эту роль."
     # "Хотя она и отзывалась о тебе хорошо."
@@ -1151,7 +1151,7 @@ translate english monica_office_cabinet_beef_dialogue3_5f96740f:
     "Looks like you know each other from somewhere..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:654
-translate english monica_office_cabinet_beef_dialogue3_c20a6521:
+translate english monica_office_cabinet_biff_dialogue3_c20a6521:
 
     # "Но когда Мелани узнала об этом, то она убедила чтобы я оставил ее..."
     # "Она боится что ты займешь пъедестал вместо нее."
@@ -1163,55 +1163,55 @@ translate english monica_office_cabinet_beef_dialogue3_c20a6521:
     "Ha ha ha!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:660
-translate english monica_office_cabinet_beef_dialogue3_46c5b10e:
+translate english monica_office_cabinet_biff_dialogue3_46c5b10e:
 
     # m "Я лучше Мелани!"
     m "I'm better than Melanie!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:662
-translate english monica_office_cabinet_beef_dialogue3_819419d8:
+translate english monica_office_cabinet_biff_dialogue3_819419d8:
 
-    # beef "Ха-ха-ха!"
+    # biff "Ха-ха-ха!"
     # "Конечно лучше! Ведь ты похожа на Монику Бакфетт!"
-    beef "Ha ha ha!"
+    biff "Ha ha ha!"
     "Of course better! Because you're like Monica Buckfett!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:665
-translate english monica_office_cabinet_beef_dialogue3_7752b0b1:
+translate english monica_office_cabinet_biff_dialogue3_7752b0b1:
 
     # m "Послушай, Биф!"
     # "Да, Мелани топ модель."
     # "Но ты говорил что хочешь сменить курс журнала."
-    m "Listen, Beef!"
+    m "Listen, biff!"
     "Yeah, Melanie's a top model."
     "But you said you wanted to change the policy of the magazine."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:669
-translate english monica_office_cabinet_beef_dialogue3_495f2391:
+translate english monica_office_cabinet_biff_dialogue3_495f2391:
 
     # "И что тебе очень помогло бы, если бы сама Бакфетт объявила об этом!"
     "And that it would be a great help if Buckfett announced it by herself!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:671
-translate english monica_office_cabinet_beef_dialogue3_88eda3a9:
+translate english monica_office_cabinet_biff_dialogue3_88eda3a9:
 
-    # beef "Хм..."
+    # biff "Хм..."
     # "Возможно ты права..."
     # "Пресса пока не пронюхала про то что Бакфетт сидит в тюрьме."
     # "И я бы не хотел чтобы это случилось очень скоро."
-    beef "Hmm ..."
+    biff "Hmm ..."
     "Maybe you're right..."
     "Until the press got wind of the fact that Buckfett is in a jail."
     "And I wouldn't like that to happen very soon."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:676
-translate english monica_office_cabinet_beef_dialogue3_616a1451:
+translate english monica_office_cabinet_biff_dialogue3_616a1451:
 
     # "Такая говорящая кукла как ты мне бы очень пригодилась..."
     "I could really use a talking doll like you..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:678
-translate english monica_office_cabinet_beef_dialogue3_a36e4dff:
+translate english monica_office_cabinet_biff_dialogue3_a36e4dff:
 
     # mt "!!!"
     # "НЕНАВИЖУ!!!"
@@ -1219,15 +1219,15 @@ translate english monica_office_cabinet_beef_dialogue3_a36e4dff:
     "HATE!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:682
-translate english monica_office_cabinet_beef_dialogue3_dc927120:
+translate english monica_office_cabinet_biff_dialogue3_dc927120:
 
-    # beef "Так что я предлагаю тебе сделать серию фотосессий, посвященную смене курса журнала."
+    # biff "Так что я предлагаю тебе сделать серию фотосессий, посвященную смене курса журнала."
     # "За каждую фотосессию я предлагаю тебе {b}$ 1.000{/b}."
     # "К тому же, думаю, можно будет оборудовать офис для тебя, чтобы ты могла общаться с прессой."
     # "А также с партнерами журнала."
     # "Я смогу продавать твое личико."
     # "Какое-то время."
-    beef "So I suggest you do a series of photo shoots dedicated to the change of policy of the magazine."
+    biff "So I suggest you do a series of photo shoots dedicated to the change of policy of the magazine."
     "For every photo shoot I offer you {b}$ 1,000{/b}."
     "Besides, I think we can set up an office for you so you can talk to the press."
     "And also with partners of the magazine."
@@ -1235,13 +1235,13 @@ translate english monica_office_cabinet_beef_dialogue3_dc927120:
     "For a while."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:694
-translate english monica_office_cabinet_beef_dialogue3_8bbf3f36:
+translate english monica_office_cabinet_biff_dialogue3_8bbf3f36:
 
     # m "$ 5.000!!!"
     m "$ 5,000!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:696
-translate english monica_office_cabinet_beef_dialogue3_a2ce45ca:
+translate english monica_office_cabinet_biff_dialogue3_a2ce45ca:
 
     # mt "Отлично! Я смогу находиться здесь..."
     # "Это будет началом моего плана по возвращению компании!"
@@ -1249,25 +1249,25 @@ translate english monica_office_cabinet_beef_dialogue3_a2ce45ca:
     "This will be the beginning of my plan of getting the company back!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:700
-translate english monica_office_cabinet_beef_dialogue3_b9ff5436:
+translate english monica_office_cabinet_biff_dialogue3_b9ff5436:
 
-    # beef "Что ты имеешь ввиду под $ 5.000?"
-    beef "What do you mean, $ 5,000?"
+    # biff "Что ты имеешь ввиду под $ 5.000?"
+    biff "What do you mean, $ 5,000?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:703
-translate english monica_office_cabinet_beef_dialogue3_0649a99e:
+translate english monica_office_cabinet_biff_dialogue3_0649a99e:
 
     # m "$ 5.000 за каждую фотосессию!"
     m "$ 5,000 for every photo shoot!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:705
-translate english monica_office_cabinet_beef_dialogue3_c9a71918:
+translate english monica_office_cabinet_biff_dialogue3_c9a71918:
 
-    # beef "А ты весьма амбициозна для цыпочки с улицы!"
-    beef "You're very ambitious for a chick from the street!"
+    # biff "А ты весьма амбициозна для цыпочки с улицы!"
+    biff "You're very ambitious for a chick from the street!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:707
-translate english monica_office_cabinet_beef_dialogue3_84b73f7f:
+translate english monica_office_cabinet_biff_dialogue3_84b73f7f:
 
     # "Судя по твоему виду, ты делаешь минет за $ 10!"
     # "Не слишком-ли быстрый рост для какой-то шлюхи?"
@@ -1275,7 +1275,7 @@ translate english monica_office_cabinet_beef_dialogue3_84b73f7f:
     "Isn't that a great growth for some whore?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:711
-translate english monica_office_cabinet_beef_dialogue3_faa44d6e:
+translate english monica_office_cabinet_biff_dialogue3_faa44d6e:
 
     # mt "!!!"
     # mt "Каждый раз когда я общаюсь с ним, я хочу убить его!"
@@ -1283,15 +1283,15 @@ translate english monica_office_cabinet_beef_dialogue3_faa44d6e:
     mt "Every time I talk to him, I want to kill him!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:715
-translate english monica_office_cabinet_beef_dialogue3_33596535:
+translate english monica_office_cabinet_biff_dialogue3_33596535:
 
-    # beef "Тем более тебя будет окружать пресса, поклонники!"
+    # biff "Тем более тебя будет окружать пресса, поклонники!"
     # "Я уверен ты не испытывала и доли той славы, что имела сучка Бакфетт!"
-    beef "All the more you will be surrounded by the press, fans!"
+    biff "All the more you will be surrounded by the press, fans!"
     "I am sure you haven't experienced and shared the glory that had bitch, Buckfett!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:719
-translate english monica_office_cabinet_beef_dialogue3_b9d70247:
+translate english monica_office_cabinet_biff_dialogue3_b9d70247:
 
     # mt "Испытывала! Я и есть она!!!"
     # "А ты - никто! И время докажет это!!!"
@@ -1299,7 +1299,7 @@ translate english monica_office_cabinet_beef_dialogue3_b9d70247:
     "You're nobody! And time will prove it!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:723
-translate english monica_office_cabinet_beef_dialogue3_41bc4c81:
+translate english monica_office_cabinet_biff_dialogue3_41bc4c81:
 
     # m "Я не думаю что ты найдешь другую модель, которая больше похожа на Миссис Бакфетт чем я!"
     # "Так что я ухожу! А ты хорошенько подумай!"
@@ -1307,91 +1307,91 @@ translate english monica_office_cabinet_beef_dialogue3_41bc4c81:
     "So I quit! Think about it!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:728
-translate english monica_office_cabinet_beef_dialogue3_60e32b88:
+translate english monica_office_cabinet_biff_dialogue3_60e32b88:
 
-    # beef "Окей, цыпочка!"
+    # biff "Окей, цыпочка!"
     # "Когда-нибудь увидимся!"
-    beef "Okay, chick!"
+    biff "Okay, chick!"
     "See you someday!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:735
-translate english monica_office_cabinet_beef_dialogue3_5f398bfc:
+translate english monica_office_cabinet_biff_dialogue3_5f398bfc:
 
     # m "Что? Ты не будешь останавливать меня?"
     m "What? You're not gonna stop me?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:737
-translate english monica_office_cabinet_beef_dialogue3_03df8337:
+translate english monica_office_cabinet_biff_dialogue3_03df8337:
 
-    # beef "Конечно нет!"
-    beef "Of course not!"
+    # biff "Конечно нет!"
+    biff "Of course not!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:739
-translate english monica_office_cabinet_beef_dialogue3_0a5616b8:
+translate english monica_office_cabinet_biff_dialogue3_0a5616b8:
 
     # mt "!!!"
     mt "!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:741
-translate english monica_office_cabinet_beef_dialogue3_f4ae6e10:
+translate english monica_office_cabinet_biff_dialogue3_f4ae6e10:
 
-    # beef "Ладно! Цыпочка!"
+    # biff "Ладно! Цыпочка!"
     # "Я дам тебе {b}$ 5.000{/b}!"
     # "Но я не обещаю тебе их регулярно!"
     # "Я посмотрю еще стоишь-ли ты этих денег!"
-    beef "OK! Chick!"
+    biff "OK! Chick!"
     "I'll give you {b}$ 5,000{/b}!"
     "But I don't promise you them regularly!"
     "I'll see if you're worth the money!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:746
-translate english monica_office_cabinet_beef_dialogue3_0a5616b8_1:
+translate english monica_office_cabinet_biff_dialogue3_0a5616b8_1:
 
     # mt "!!!"
     mt "!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:748
-translate english monica_office_cabinet_beef_dialogue3_2efbf005:
+translate english monica_office_cabinet_biff_dialogue3_2efbf005:
 
-    # beef "Итак, ты согласна?"
+    # biff "Итак, ты согласна?"
     # m "Да, я согласна..."
-    beef "So, do you agree?"
+    biff "So, do you agree?"
     m "I agree..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:752
-translate english monica_office_cabinet_beef_dialogue3_e9ee6308:
+translate english monica_office_cabinet_biff_dialogue3_e9ee6308:
 
-    # beef "Отлично!"
+    # biff "Отлично!"
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
-    beef "Excellent!"
+    biff "Excellent!"
     "To be honest, Melanie refused this series of photo shoots."
     "She said she didn't want to do anything in common with total nudity."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:756
-translate english monica_office_cabinet_beef_dialogue3_98b66c4d:
+translate english monica_office_cabinet_biff_dialogue3_98b66c4d:
 
     # "Хорошо что мне подвернулась такая цыпочка как ты, которая не имеет проблем с этим!"
     "Good thing I got a chick like you who doesn't have problems with that!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:758
-translate english monica_office_cabinet_beef_dialogue3_4aee1b50:
+translate english monica_office_cabinet_biff_dialogue3_4aee1b50:
 
     # m "С чем общего??? С ОБНАЖЕНИЕМ?!?!?"
     m "Anything in common??? WITH NUDITY?!?!?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:760
-translate english monica_office_cabinet_beef_dialogue3_4357bb14:
+translate english monica_office_cabinet_biff_dialogue3_4357bb14:
 
-    # beef "Ну да, этот журнал слишком скучный!"
+    # biff "Ну да, этот журнал слишком скучный!"
     # "Сейчас такое уже не модно."
     # "Деньги приносит что-нибудь погорячее!"
-    beef "Yeah, this magazine is too boring!"
+    biff "Yeah, this magazine is too boring!"
     "Now this is no longer fashionable."
     "Money brings something hotter!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:764
-translate english monica_office_cabinet_beef_dialogue3_fa9e0cb0:
+translate english monica_office_cabinet_biff_dialogue3_fa9e0cb0:
 
     # m "Я не собираюсь раздеваться ни за какие деньги!!!"
     # "До свидания!!!"
@@ -1399,10 +1399,10 @@ translate english monica_office_cabinet_beef_dialogue3_fa9e0cb0:
     "Good bye!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:767
-translate english monica_office_cabinet_beef_dialogue3_b1204ee4:
+translate english monica_office_cabinet_biff_dialogue3_b1204ee4:
 
-    # beef "{b}Если передумаешь, заглядывай!{/b}"
-    beef "{b}if you change your mind, look in!{/b}"
+    # biff "{b}Если передумаешь, заглядывай!{/b}"
+    biff "{b}if you change your mind, look in!{/b}"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:773
 translate english monica_office_secretary_dialogue5_e3868f3a:
@@ -1471,81 +1471,81 @@ translate english monica_office_secretary_dialogue5_e3868f3a:
     "I need time!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:811
-translate english monica_office_cabinet_beef_dialogue4_ed765dc8:
+translate english monica_office_cabinet_biff_dialogue4_ed765dc8:
 
-    # beef "О! Цыпочка! Ну как, ты надумала?"
-    beef "Oh! Chick! What are you thinking?"
+    # biff "О! Цыпочка! Ну как, ты надумала?"
+    biff "Oh! Chick! What are you thinking?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:813
-translate english monica_office_cabinet_beef_dialogue4_60bc59b8:
+translate english monica_office_cabinet_biff_dialogue4_60bc59b8:
 
     # m "Биф! Ты сказал это будет серия фотосессий..."
     # "Ты предлагаешь мне обнажаться сразу или постепенно?"
-    m "Beef! You said it would be a series of photo shoots..."
+    m "biff! You said it would be a series of photo shoots..."
     "You're asking me to take off all at once or gradually?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:816
-translate english monica_office_cabinet_beef_dialogue4_08f35aea:
+translate english monica_office_cabinet_biff_dialogue4_08f35aea:
 
-    # beef "Конечно постепенно, цыпочка!"
+    # biff "Конечно постепенно, цыпочка!"
     # "Аудитория журнала не примет слишком быстрых перемен..."
     # "Мы начнем с начала и закончим чем-то очень горячим."
     # "Тебе понравится!"
     # "Ха-ха-ха!"
-    beef "Gradually, of course, chick!"
+    biff "Gradually, of course, chick!"
     "The audience of the magazine will not accept too fast changes..."
     "We'll start at the beginning and end up with something very hot."
     "You will like it!"
     "Ha ha ha!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:822
-translate english monica_office_cabinet_beef_dialogue4_83109b9a:
+translate english monica_office_cabinet_biff_dialogue4_83109b9a:
 
-    # beef "Ну что, ты согласна?"
-    beef "Well, do you agree?"
+    # biff "Ну что, ты согласна?"
+    biff "Well, do you agree?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:829
-translate english monica_office_cabinet_beef_dialogue4_072aa1a5:
+translate english monica_office_cabinet_biff_dialogue4_072aa1a5:
 
     # m "Я еще подумаю, Биф!"
-    m "I still think about it, Beef!"
+    m "I still think about it, biff!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:833
-translate english monica_office_cabinet_beef_dialogue4_6bd3b394:
+translate english monica_office_cabinet_biff_dialogue4_6bd3b394:
 
     # m "Хорошо, Биф!"
     # "Но только при условии того что мне не надо раздеваться на первой же фотосессии!"
-    m "Okay, Beef!"
+    m "Okay, biff!"
     "But only on condition that I do not need to undress at the first photo shoot!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:836
-translate english monica_office_cabinet_beef_dialogue4_53226bcf:
+translate english monica_office_cabinet_biff_dialogue4_53226bcf:
 
-    # beef "Конечно, цыпочка!"
+    # biff "Конечно, цыпочка!"
     # "Перед камерой тебе раздеваться не придется в этот раз!"
     # "Только передо мной!"
-    beef "Of course, chick!"
+    biff "Of course, chick!"
     "In front of the camera you do not have to undress this time!"
     "Just in front of me!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:844
-translate english monica_office_cabinet_beef_dialogue4_415a7fa9:
+translate english monica_office_cabinet_biff_dialogue4_415a7fa9:
 
     # m "ЧТО?!?!"
     m "What?!?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:847
-translate english monica_office_cabinet_beef_dialogue4_7f266796:
+translate english monica_office_cabinet_biff_dialogue4_7f266796:
 
-    # beef "Ха-ха-ха!"
-    # beef "Когда я пришел сюда, то обнаружил несколько забавных традиций!"
+    # biff "Ха-ха-ха!"
+    # biff "Когда я пришел сюда, то обнаружил несколько забавных традиций!"
     # "Одна из них - это осмотр модели перед съемками!"
-    beef "Ha ha ha!"
-    beef "When I came here, I discovered some funny traditions!"
+    biff "Ha ha ha!"
+    biff "When I came here, I discovered some funny traditions!"
     "One of them is the inspection of the model before shooting!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:851
-translate english monica_office_cabinet_beef_dialogue4_fd312060:
+translate english monica_office_cabinet_biff_dialogue4_fd312060:
 
     # "Модель должна раздеться передо мной и продемонстрировать свои навыки!"
     # m "ЧТО?!?!"
@@ -1553,33 +1553,33 @@ translate english monica_office_cabinet_beef_dialogue4_fd312060:
     m "What?!?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:856
-translate english monica_office_cabinet_beef_dialogue4_0f8b97e5:
+translate english monica_office_cabinet_biff_dialogue4_0f8b97e5:
 
     # mt "ЧЕРТ! Я ЗАБЫЛА ПРО ЭТО!"
     # "Но это же были мои шалости..."
     # "Причем здесь этот Биф и Я?!?"
     mt "Fuck! I FORGOT ABOUT THAT!"
     "But those were my pranks..."
-    "What does this Beef do?!?"
+    "What does this biff do?!?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:861
-translate english monica_office_cabinet_beef_dialogue4_89e48f62:
+translate english monica_office_cabinet_biff_dialogue4_89e48f62:
 
     # m "Биф... Я..."
     # "Я думаю это необязательно, ведь правда?!"
-    m "Beef.. I am..."
+    m "biff.. I am..."
     "I don't think it's necessary, is it?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:865
-translate english monica_office_cabinet_beef_dialogue4_f1d7963c:
+translate english monica_office_cabinet_biff_dialogue4_f1d7963c:
 
-    # beef "Ха-ха-ха!"
+    # biff "Ха-ха-ха!"
     # "Детка! Смею тебя огорчить!"
-    beef "Ha ha ha!"
+    biff "Ha ha ha!"
     "Baby! I dare you!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:870
-translate english monica_office_cabinet_beef_dialogue4_4ca21e63:
+translate english monica_office_cabinet_biff_dialogue4_4ca21e63:
 
     # "Тебе придется это сделать в следующий раз!"
     # "Так как уже нет на это времени!"
@@ -1593,7 +1593,7 @@ translate english monica_office_cabinet_beef_dialogue4_4ca21e63:
     "There you will have to say a little speech about the change of policy of our magazine."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:880
-translate english monica_office_cabinet_beef_dialogue4_9a8839c5:
+translate english monica_office_cabinet_biff_dialogue4_9a8839c5:
 
     # m "Мне? Речь?!"
     # "Ты хочешь чтобы я сама заявила об этом?!"
@@ -1601,33 +1601,33 @@ translate english monica_office_cabinet_beef_dialogue4_9a8839c5:
     "Do you want me to report about it?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:884
-translate english monica_office_cabinet_beef_dialogue4_6e2c018e:
+translate english monica_office_cabinet_biff_dialogue4_6e2c018e:
 
-    # beef "Конечно! Как я и говорил!"
+    # biff "Конечно! Как я и говорил!"
     # "Ты очень похожа на Монику Бакфетт!"
-    beef "Of course! Like I said!"
+    biff "Of course! Like I said!"
     "You look a lot like Monica Buckfett!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:887
-translate english monica_office_cabinet_beef_dialogue4_808f00a2:
+translate english monica_office_cabinet_biff_dialogue4_808f00a2:
 
     # "Потому я и держу такую цыпочку как ты!"
     "That's why I keep a chick like you!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:890
-translate english monica_office_cabinet_beef_dialogue4_50a40eda:
+translate english monica_office_cabinet_biff_dialogue4_50a40eda:
 
     # "При этом там будет вкусная еда и дорогое вино!"
     "At the same time there will be delicious food and expensive wine!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:893
-translate english monica_office_cabinet_beef_dialogue4_e2606d80:
+translate english monica_office_cabinet_biff_dialogue4_e2606d80:
 
     # m "Это... После фотосессии?"
     m "It... After the photo shoot?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:896
-translate english monica_office_cabinet_beef_dialogue4_3f98851f:
+translate english monica_office_cabinet_biff_dialogue4_3f98851f:
 
     # mt "Вкусная еда... дорогое вино..."
     # "Благотворительный вечер..."
@@ -1637,7 +1637,7 @@ translate english monica_office_cabinet_beef_dialogue4_3f98851f:
     "Damn... I've missed this so much!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:900
-translate english monica_office_cabinet_beef_dialogue4_7811da53:
+translate english monica_office_cabinet_biff_dialogue4_7811da53:
 
     # "Это и есть мой образ жизни, а не то чем мне приходится заниматься сейчас..."
     # "По какому-то небольшому недоразумению..."
@@ -1645,29 +1645,29 @@ translate english monica_office_cabinet_beef_dialogue4_7811da53:
     "Because of some little misunderstanding..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:904
-translate english monica_office_cabinet_beef_dialogue4_030ddf09:
+translate english monica_office_cabinet_biff_dialogue4_030ddf09:
 
-    # beef "Да! Детка!"
+    # biff "Да! Детка!"
     # "И тебе стоит поторопиться!"
     # "Не переживай!"
     # "Ты покажешь мне свою попку в следующий раз!"
-    beef "Yes! Baby!"
+    biff "Yes! Baby!"
     "And you should hurry!"
     "Don't worry!"
     "You'll show me your ass next time!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:910
-translate english monica_office_cabinet_beef_dialogue4_fbd93fc4:
+translate english monica_office_cabinet_biff_dialogue4_fbd93fc4:
 
     # mt "УБЛЮДОК!!!"
     # m "Мне {b}идти в фотостудию{/b}?"
-    # beef "Да! Детка!"
+    # biff "Да! Детка!"
     mt "Bastard!!!"
     m "Do I {b}go to the photo Studio {/b}?"
-    beef "Yes! Baby!"
+    biff "Yes! Baby!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:915
-translate english monica_office_cabinet_beef_dialogue4_211576f8:
+translate english monica_office_cabinet_biff_dialogue4_211576f8:
 
     # "Беги! И повиляй попой!"
     "Run! And wag your ass!"
@@ -1683,7 +1683,7 @@ translate english monica_office_dialogue9_55a4cc97:
 
     # mt "Мне надо идти к Бифу и ехать на благотворительный вечер!"
     # "Я так соскучилась по этому!"
-    mt "I have to go to Beef's and go to the charity event!"
+    mt "I have to go to biff's and go to the charity event!"
     "I've missed this so much!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:936
@@ -1693,7 +1693,7 @@ translate english monica_office_photostudio_alex_dialogue2_67a011f7:
     # "Мистер Биф сказал что мне надо провести фотосессию с Вами!"
     # "Вы будете участвовать?"
     alex_photograph "Mrs. Buckfett!"
-    "Mr. Beef said I should do a photo shoot with you!"
+    "Mr. biff said I should do a photo shoot with you!"
     "Will you participate?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:943
@@ -1720,7 +1720,7 @@ translate english monica_office_photostudio_alex_dialogue2_cc79f217:
     # "Но я бы попросил Вас сначала сделать несколько кадров в этом наряде!"
     # "Он Вам очень идет, у Вас потрясающий вкус!"
     alex_photograph "That would be a great idea!"
-    "Unfortunately, Mr. Beef said to wear the dress You wore last time!"
+    "Unfortunately, Mr. biff said to wear the dress You wore last time!"
     "But I would ask you to take a few shots in this outfit first!"
     "It suits you very well, you have an amazing taste!"
 
@@ -1940,7 +1940,7 @@ translate english monica_office_photostudio_alex_dialogue2_71d56546:
 translate english monica_office_photostudio_alex_dialogue2_ee44fa05:
 
     # alex_photograph "Мистер Биф! И он сказал мне брать все возможные ракурсы!"
-    alex_photograph "Mr. Beef! And he told me to take every possible angle!"
+    alex_photograph "Mr. biff! And he told me to take every possible angle!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1201
 translate english monica_office_photostudio_alex_dialogue2_17aa563c:
@@ -1963,7 +1963,7 @@ translate english monica_office_photostudio_alex_dialogue2_dda4fc83:
     # "Тогда я вынужден сообщить Мистеру Бифу о срыве фотосессии..."
     # m "Мы сделали достаточно кадров!"
     alex_photograph "Mrs. Buckfett!"
-    "Then I must inform Mr. Beef about the disruption of the photo shoot..."
+    "Then I must inform Mr. biff about the disruption of the photo shoot..."
     m "We've taken enough shots!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1214
@@ -1974,7 +1974,7 @@ translate english monica_office_photostudio_alex_dialogue2_bb4a2cdc:
     # "Я сообщу Мистеру Бифу..."
     alex_photograph "We haven't done the most important, Mrs. Buckfett."
     "But I have the right to insist..."
-    "I'll let Mr. Beef know..."
+    "I'll let Mr. biff know..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1218
 translate english monica_office_photostudio_alex_dialogue2_8802c129:
@@ -1984,7 +1984,7 @@ translate english monica_office_photostudio_alex_dialogue2_8802c129:
     # "И я не поеду на благотворительный вечер..."
     # "А я так хочу туда!"
     mt "Fuck! I SHOULDN'T LET THE COLLAPSE OF PHOTO SHOOT!!!"
-    "It means Beef won't give me the money..."
+    "It means biff won't give me the money..."
     "And I'm not going to the benefit..."
     "I want to go there so much!"
 
@@ -1999,7 +1999,7 @@ translate english monica_office_photostudio_alex_dialogue2_45f6fc39:
     alex_photograph "Mrs. Buckfett!"
     "I know you value me as a professional."
     "And I understand you don't want to take these pictures..."
-    "But it's Mr. Beef's orders."
+    "But it's Mr. biff's orders."
     "If I disobey, I'll be fired!..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1232
@@ -2074,7 +2074,7 @@ translate english monica_office_photostudio_alex_dialogue2_b37e2637:
 translate english monica_office_photostudio_alex_dialogue2_2ba31af5:
 
     # mt "Итак, {b}надо вернуться к Бифу{/b}..."
-    mt "So, {b} I must return to the BEEF{/b}..."
+    mt "So, {b} I must return to the biff{/b}..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1306
 translate english monica_office_secretary_dialogue7_48df83dc:
@@ -2125,27 +2125,27 @@ translate english monica_office_secretary_dialogue7_b7049b8e:
     "I'm waiting for YOU!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1330
-translate english monica_office_cabinet_beef_dialogue5_56f89571:
+translate english monica_office_cabinet_biff_dialogue5_56f89571:
 
     # m "Биф!"
     # "Я закончила фотосессию!"
     # "И я жду свои деньги..."
-    m "Beef!"
+    m "biff!"
     "I finished the photo shoot!"
     "I'm waiting for my money..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1334
-translate english monica_office_cabinet_beef_dialogue5_d64c1ad9:
+translate english monica_office_cabinet_biff_dialogue5_d64c1ad9:
 
-    # beef "О! Цыпочка!"
+    # biff "О! Цыпочка!"
     # "Сообщи моей секретарше свои реквизиты и деньги будут переведены в течении..."
     # "Ну... Может быть месяца..."
-    beef "Oh! Chick!"
+    biff "Oh! Chick!"
     "Tell my Secretary your bank details and the money will be transferred within..."
     "Well... Maybe a month..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1339
-translate english monica_office_cabinet_beef_dialogue5_46c00914:
+translate english monica_office_cabinet_biff_dialogue5_46c00914:
 
     # m "ЧТО???"
     # "МНЕ НУЖНЫ ДЕНЬГИ СЕЙЧАС, ПРЯМО СЕЙЧАС!"
@@ -2153,73 +2153,73 @@ translate english monica_office_cabinet_beef_dialogue5_46c00914:
     "I NEED THE MONEY NOW, RIGHT NOW!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1343
-translate english monica_office_cabinet_beef_dialogue5_5808dcc7:
+translate english monica_office_cabinet_biff_dialogue5_5808dcc7:
 
-    # beef "Банки уже не работают, детка!"
-    beef "The banks don't work anymore, baby!"
+    # biff "Банки уже не работают, детка!"
+    biff "The banks don't work anymore, baby!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1346
-translate english monica_office_cabinet_beef_dialogue5_aa460355:
+translate english monica_office_cabinet_biff_dialogue5_aa460355:
 
     # m "Биф!"
     # "Мне нужны деньги! Сейчас же!"
     # "Иначе можешь забыть про речь, которую я должна сказать на благотворительном вечере!"
     # "Я просто уйду!"
-    m "Beef!"
+    m "biff!"
     "I need money! Now!"
     "Otherwise, you can forget about the speech I have to give at the charity event!"
     "I'll leave!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1352
-translate english monica_office_cabinet_beef_dialogue5_688a50a5:
+translate english monica_office_cabinet_biff_dialogue5_688a50a5:
 
-    # beef "Детка, я сказал, что банки уже не работают!"
-    beef "Baby, I said the banks aren't working anymore!"
+    # biff "Детка, я сказал, что банки уже не работают!"
+    biff "Baby, I said the banks aren't working anymore!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1355
-translate english monica_office_cabinet_beef_dialogue5_b14baea2:
+translate english monica_office_cabinet_biff_dialogue5_b14baea2:
 
     # m "Мне нужны наличные, Биф!"
     # "И прямо сейчас!"
-    m "I need cash, Beef!"
+    m "I need cash, biff!"
     "And right now!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1359
-translate english monica_office_cabinet_beef_dialogue5_c6c89e38:
+translate english monica_office_cabinet_biff_dialogue5_c6c89e38:
 
-    # beef "Ха-ха-ха!"
+    # biff "Ха-ха-ха!"
     # "Какой темперамент!"
-    beef "Ha ha ha!"
+    biff "Ha ha ha!"
     "What a temper!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1363
-translate english monica_office_cabinet_beef_dialogue5_16606127:
+translate english monica_office_cabinet_biff_dialogue5_16606127:
 
-    # beef "Хорошо!"
+    # biff "Хорошо!"
     # "Если ты уйдешь сейчас, то я не успею посмотреть на твою голую попку!"
     # "Я заплачу тебе наличными, но только после речи на благотворительном вечере!"
-    beef "Great!"
+    biff "Great!"
     "If you leave now, I won't have time to see your naked ass!"
     "I'll pay you in cash, but only after the speech at the charity event!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1368
-translate english monica_office_cabinet_beef_dialogue5_bb7c3aa0:
+translate english monica_office_cabinet_biff_dialogue5_bb7c3aa0:
 
     # m "Я не верю тебе! Какие гарантии, Биф?!"
-    m "I don't believe you! What guarantees, Beef?!"
+    m "I don't believe you! What guarantees, biff?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1371
-translate english monica_office_cabinet_beef_dialogue5_b6dc82f2:
+translate english monica_office_cabinet_biff_dialogue5_b6dc82f2:
 
-    # beef "Гарантии???"
+    # biff "Гарантии???"
     # "Ты знаешь, что расчет наличными сам по себе является незаконным!"
     # "Ты хочешь чтобы я заплатил тебе деньги без оформления бумаг и еще хочешь каких-то гарантий?!"
-    beef "Guarantees???"
+    biff "Guarantees???"
     "You know that cash settlement is illegal in itself!"
     "You want me to pay you money without paperwork and you want some kind of guarantee?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1376
-translate english monica_office_cabinet_beef_dialogue5_c3869a0e:
+translate english monica_office_cabinet_biff_dialogue5_c3869a0e:
 
     # "Мои гарантии - это твой ротик!"
     # "Он должен говорить то что скажу Я и только тогда ты получишь свои деньги!"
@@ -2227,25 +2227,25 @@ translate english monica_office_cabinet_beef_dialogue5_c3869a0e:
     "It has to say what I say and only then will you give your money!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1380
-translate english monica_office_cabinet_beef_dialogue5_d79f1557:
+translate english monica_office_cabinet_biff_dialogue5_d79f1557:
 
     # m "Биф, если я скажу речь, я получу деньги?"
-    m "Beef, if I give the speech, will I get the money?"
+    m "biff, if I give the speech, will I get the money?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1382
-translate english monica_office_cabinet_beef_dialogue5_eea80414:
+translate english monica_office_cabinet_biff_dialogue5_eea80414:
 
-    # beef "Конечно, цыпочка!"
+    # biff "Конечно, цыпочка!"
     # "Я понимаю, ты стесняешься."
     # "Но не переживай, это небольшой вип зал, там будет мало людей."
     # "В основном пресса."
-    beef "Of course, chick!"
+    biff "Of course, chick!"
     "I understand you're embarrassed."
     "But don't worry, it's a small VIP room, there will be few people."
     "Mostly the press."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1388
-translate english monica_office_cabinet_beef_dialogue5_0d43d283:
+translate english monica_office_cabinet_biff_dialogue5_0d43d283:
 
     # "Я же не рассчитывал что найду такую цыпочку!"
     # "В следующий раз я позабочусь чтобы мою новую куклу увидели все!"
@@ -2253,73 +2253,73 @@ translate english monica_office_cabinet_beef_dialogue5_0d43d283:
     "Next time I'll make sure everyone sees my new doll!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1392
-translate english monica_office_cabinet_beef_dialogue5_0a5616b8:
+translate english monica_office_cabinet_biff_dialogue5_0a5616b8:
 
     # mt "!!!"
     mt "!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1395
-translate english monica_office_cabinet_beef_dialogue5_2a2613c1:
+translate english monica_office_cabinet_biff_dialogue5_2a2613c1:
 
-    # beef "Поехали, детка!"
+    # biff "Поехали, детка!"
     # "Уже пора!"
     # "И не забудь вернуть платье назад после вечера!"
     # "А также украшения!"
-    beef "Come on, baby!"
+    biff "Come on, baby!"
     "It is time to go!"
     "And don't forget to bring the dress back after tonight!"
     "And jewelry also!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1400
-translate english monica_office_cabinet_beef_dialogue5_83e8051b:
+translate english monica_office_cabinet_biff_dialogue5_83e8051b:
 
     # "Без них ты не похожа на Монику Бакфетт и только поэтому я разрешил тебе одеть их!"
     "Without them you don't look like Monica Buckfett and this the the only reason I let you put them on!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1403
-translate english monica_office_cabinet_beef_dialogue5_98fb848b:
+translate english monica_office_cabinet_biff_dialogue5_98fb848b:
 
     # m "Я оставлю это платье себе! Оно мое!"
-    # beef "Нет! Даже не обсуждается!"
+    # biff "Нет! Даже не обсуждается!"
     # "Я не позволю чтобы шлюха за $ 10 ходила сниматься в платье от Модного Журнала!"
     # "А вдруг кто-нибудь узнает это платье?!"
     # "Что тогда?!"
     m "I'm keeping this dress! It's mine!"
-    beef "No! Not even discussed!"
+    biff "No! Not even discussed!"
     "I'm not gonna let a $ 10 whore go in a Fashion Magazine dress!"
     "What if someone recognizes this dress?!"
     "What then?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1411
-translate english monica_office_cabinet_beef_dialogue5_4c122358:
+translate english monica_office_cabinet_biff_dialogue5_4c122358:
 
     # m "Я поставлю пятно на него!"
     m "I'll put a stain on it!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1414
-translate english monica_office_cabinet_beef_dialogue5_7479d6c0:
+translate english monica_office_cabinet_biff_dialogue5_7479d6c0:
 
-    # beef "Только попробуй!"
+    # biff "Только попробуй!"
     # "И тогда твой гонорар пойдет на погашение стоимости платья!"
-    beef "Just try!"
+    biff "Just try!"
     "And then your fee will go to pay off the cost of the dress!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1418
-translate english monica_office_cabinet_beef_dialogue5_0a5616b8_1:
+translate english monica_office_cabinet_biff_dialogue5_0a5616b8_1:
 
     # mt "!!!"
     mt "!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1421
-translate english monica_office_cabinet_beef_dialogue5_6c734d1e:
+translate english monica_office_cabinet_biff_dialogue5_6c734d1e:
 
-    # beef "Закрой свой ротик, пока я не заткнул его своим членом!"
+    # biff "Закрой свой ротик, пока я не заткнул его своим членом!"
     # "Ты будешь открывать его когда скажу Я!"
-    beef "Shut your mouth before I shut it with my dick!"
+    biff "Shut your mouth before I shut it with my dick!"
     "You'll open it when I say!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1424
-translate english monica_office_cabinet_beef_dialogue5_2ef926dc:
+translate english monica_office_cabinet_biff_dialogue5_2ef926dc:
 
     # "А сейчас поехали!"
     # "Нам еще надо подобрать {b}Мелани{/b} по пути!"

@@ -28,11 +28,11 @@ label Ralph_Life_day1:
         $ move_object("Ralph", "empty")
     if rnd == 2:
         $ move_object("Ralph", "living_room")
-#    $ move_object("Beef", "empty")
+#    $ move_object("biff", "empty")
     return
 
 label Ralph_Life_evening1:
-#    $ move_object("Beef", "monica_office_cabinet")
+#    $ move_object("biff", "monica_office_cabinet")
     if ralphAskedAboutPayment == False:
         $ move_object("Ralph", "empty") #рендеры только дневные
         return

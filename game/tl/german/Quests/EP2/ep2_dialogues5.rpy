@@ -3,9 +3,9 @@
 # game/Quests/EP2/ep2_dialogues5.rpy:9
 translate german monica_rich_hotel_entrance_b6cdf6f7:
 
-    # beef "Добрый вечер!"
+    # biff "Добрый вечер!"
     # "Я веду этих цыпочек на благотворительный вечер!"
-    beef "Добрый вечер!"
+    biff "Добрый вечер!"
     "Я веду этих цыпочек на благотворительный вечер!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:12
@@ -63,17 +63,17 @@ translate german monica_charity_event_dialogue1_27c1e774:
 # game/Quests/EP2/ep2_dialogues5.rpy:54
 translate german monica_charity_event_dialogue1_1b90a539:
 
-    # beef "Ты все подготовил?"
+    # biff "Ты все подготовил?"
     # "Хороший мальчик!"
-    beef "Ты все подготовил?"
+    biff "Ты все подготовил?"
     "Хороший мальчик!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:58
 translate german monica_charity_event_dialogue1_418d4685:
 
-    # beef "Моника, Мелани! Быстро на сцену!"
+    # biff "Моника, Мелани! Быстро на сцену!"
     # "Отрабатывайте свои деньги!"
-    beef "Моника, Мелани! Быстро на сцену!"
+    biff "Моника, Мелани! Быстро на сцену!"
     "Отрабатывайте свои деньги!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:62
@@ -91,9 +91,9 @@ translate german monica_charity_event_dialogue1_181b1847:
 # game/Quests/EP2/ep2_dialogues5.rpy:71
 translate german monica_charity_event_dialogue2_09c6fd10:
 
-    # beef "Господа!"
+    # biff "Господа!"
     # "Я рад приветствовать Вас на этом благотворительном вечере!"
-    beef "Господа!"
+    biff "Господа!"
     "Я рад приветствовать Вас на этом благотворительном вечере!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:75
@@ -107,9 +107,9 @@ translate german monica_charity_event_dialogue2_c8ebb783:
 # game/Quests/EP2/ep2_dialogues5.rpy:79
 translate german monica_charity_event_dialogue2_a091034b:
 
-    # beef "Как Вы знаете, наш журнал является законодателем Моды!"
+    # biff "Как Вы знаете, наш журнал является законодателем Моды!"
     # "Это самое авторитетное издание из всех подобных!"
-    beef "Как Вы знаете, наш журнал является законодателем Моды!"
+    biff "Как Вы знаете, наш журнал является законодателем Моды!"
     "Это самое авторитетное издание из всех подобных!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:83
@@ -187,9 +187,9 @@ translate german monica_charity_event_dialogue2_e6f3e7c0:
 # game/Quests/EP2/ep2_dialogues5.rpy:123
 translate german monica_charity_event_dialogue2_3f064834:
 
-    # beef "Ну, давай кукла!"
+    # biff "Ну, давай кукла!"
     # "Притворись Моникой Бакфетт!"
-    beef "Ну, давай кукла!"
+    biff "Ну, давай кукла!"
     "Притворись Моникой Бакфетт!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:127
@@ -310,9 +310,9 @@ translate german monica_charity_event_dialogue2a_0c58ee8c:
 translate german monica_charity_event_dialogue2a_d94887fe:
 
     # m "..."
-    # beef "Ну, курица! Скажи что-нибудь еще!!!"
+    # biff "Ну, курица! Скажи что-нибудь еще!!!"
     m "..."
-    beef "Ну, курица! Скажи что-нибудь еще!!!"
+    biff "Ну, курица! Скажи что-нибудь еще!!!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:200
 translate german monica_charity_event_dialogue2a_0a5616b8:
@@ -341,9 +341,9 @@ translate german monica_charity_event_dialogue2a_dd4345d2:
 # game/Quests/EP2/ep2_dialogues5.rpy:211
 translate german monica_charity_event_dialogue2a_ebbf765c:
 
-    # beef "Молодец, цыпочка!"
+    # biff "Молодец, цыпочка!"
     # "Продолжай играть!"
-    beef "Молодец, цыпочка!"
+    biff "Молодец, цыпочка!"
     "Продолжай играть!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:216
@@ -465,20 +465,20 @@ translate german monica_charity_event_dialogue4_07965b42:
 
     # m "Биф!"
     # "Ты удовлетворен выступлением?"
-    # beef "Да, цыпочка!"
+    # biff "Да, цыпочка!"
     # "Ты хорошо поработала!"
     m "Биф!"
     "Ты удовлетворен выступлением?"
-    beef "Да, цыпочка!"
+    biff "Да, цыпочка!"
     "Ты хорошо поработала!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:286
 translate german monica_charity_event_dialogue4_bf864382:
 
     # m "Биф, ты ничего не забыл?"
-    # beef "Что ты имеешь ввиду?"
+    # biff "Что ты имеешь ввиду?"
     m "Биф, ты ничего не забыл?"
-    beef "Что ты имеешь ввиду?"
+    biff "Что ты имеешь ввиду?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:290
 translate german monica_charity_event_dialogue4_39278edd:
@@ -489,10 +489,10 @@ translate german monica_charity_event_dialogue4_39278edd:
 # game/Quests/EP2/ep2_dialogues5.rpy:293
 translate german monica_charity_event_dialogue4_848413e3:
 
-    # beef "Ах! Про это!"
+    # biff "Ах! Про это!"
     # "У меня нет с собой наличных, детка!"
     # "Мне их скоро привезут."
-    beef "Ах! Про это!"
+    biff "Ах! Про это!"
     "У меня нет с собой наличных, детка!"
     "Мне их скоро привезут."
 
@@ -505,9 +505,9 @@ translate german monica_charity_event_dialogue4_f8f6da0c:
 # game/Quests/EP2/ep2_dialogues5.rpy:300
 translate german monica_charity_event_dialogue4_b346abb5:
 
-    # beef "В течении часа."
+    # biff "В течении часа."
     # "Ты пока можешь {b}расслабиться и выпить вина{/b}."
-    beef "В течении часа."
+    biff "В течении часа."
     "Ты пока можешь {b}расслабиться и выпить вина{/b}."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:304
@@ -521,9 +521,9 @@ translate german monica_charity_event_dialogue4_8455ca28:
 # game/Quests/EP2/ep2_dialogues5.rpy:312
 translate german monica_charity_event_dialogue5_136cef76:
 
-    # beef "Мне пока не привезли деньги, детка!"
+    # biff "Мне пока не привезли деньги, детка!"
     # "{b}Расслабься, выпей вина{/b}!"
-    beef "Мне пока не привезли деньги, детка!"
+    biff "Мне пока не привезли деньги, детка!"
     "{b}Расслабься, выпей вина{/b}!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:320
@@ -1037,10 +1037,10 @@ translate german monica_charity_event_dialogue10_4c197b43:
 # game/Quests/EP2/ep2_dialogues5.rpy:599
 translate german monica_charity_event_dialogue10_bd17a33d:
 
-    # beef "О! Крошка!"
+    # biff "О! Крошка!"
     # "Я вижу ты неплохо отдыхаешь!"
     # "Тебе понравилось вино?"
-    beef "О! Крошка!"
+    biff "О! Крошка!"
     "Я вижу ты неплохо отдыхаешь!"
     "Тебе понравилось вино?"
 
@@ -1057,14 +1057,14 @@ translate german monica_charity_event_dialogue10_a4c4e9f1:
 # game/Quests/EP2/ep2_dialogues5.rpy:609
 translate german monica_charity_event_dialogue10_edfbdedc:
 
-    # beef "Иди сюда, цыпочка!"
-    beef "Иди сюда, цыпочка!"
+    # biff "Иди сюда, цыпочка!"
+    biff "Иди сюда, цыпочка!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:612
 translate german monica_charity_event_dialogue10_65cd6077:
 
-    # beef "Вот, держи!"
-    beef "Вот, держи!"
+    # biff "Вот, держи!"
+    biff "Вот, держи!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:616
 translate german monica_charity_event_dialogue10_009fed20:
@@ -1095,11 +1095,11 @@ translate german monica_charity_event_dialogue10_40034e37:
 # game/Quests/EP2/ep2_dialogues5.rpy:627
 translate german monica_charity_event_dialogue10_4bbd69f7:
 
-    # beef "Я все помню, цыпочка!"
+    # biff "Я все помню, цыпочка!"
     # "Не повышай на меня голос!"
     # "Это деньги за вычетом благотворительного вечера!"
     # "Я не стал вычитать сумму взносов, но вычел расходы на еду и напитки!"
-    beef "Я все помню, цыпочка!"
+    biff "Я все помню, цыпочка!"
     "Не повышай на меня голос!"
     "Это деньги за вычетом благотворительного вечера!"
     "Я не стал вычитать сумму взносов, но вычел расходы на еду и напитки!"
@@ -1121,8 +1121,8 @@ translate german monica_charity_event_dialogue10_4c8d1b9e:
 # game/Quests/EP2/ep2_dialogues5.rpy:638
 translate german monica_charity_event_dialogue10_6e701bf6:
 
-    # beef "Ничем не могу помочь, детка!"
-    beef "Ничем не могу помочь, детка!"
+    # biff "Ничем не могу помочь, детка!"
+    biff "Ничем не могу помочь, детка!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:641
 translate german monica_charity_event_dialogue10_618b309e:
@@ -1133,8 +1133,8 @@ translate german monica_charity_event_dialogue10_618b309e:
 # game/Quests/EP2/ep2_dialogues5.rpy:643
 translate german monica_charity_event_dialogue10_c578b973:
 
-    # beef "Эй! Детка! Следи за языком!"
-    beef "Эй! Детка! Следи за языком!"
+    # biff "Эй! Детка! Следи за языком!"
+    biff "Эй! Детка! Следи за языком!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:645
 translate german monica_charity_event_dialogue10_0a5616b8:
@@ -1525,9 +1525,9 @@ translate german monica_charity_event_dialogue16_5d8cf607:
 # game/Quests/EP2/ep2_dialogues5.rpy:869
 translate german monica_charity_event_dialogue16_310b64d1:
 
-    # beef "Детка! Я говорил тебе уже!"
+    # biff "Детка! Я говорил тебе уже!"
     # "Я с тобой полностью рассчитался!"
-    beef "Детка! Я говорил тебе уже!"
+    biff "Детка! Я говорил тебе уже!"
     "Я с тобой полностью рассчитался!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:873
@@ -1553,8 +1553,8 @@ translate german monica_charity_event_dialogue16_d030d885:
 # game/Quests/EP2/ep2_dialogues5.rpy:888
 translate german monica_charity_event_dialogue16_c24a1f1b:
 
-    # beef "Нет, говори!"
-    beef "Нет, говори!"
+    # biff "Нет, говори!"
+    biff "Нет, говори!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:890
 translate german monica_charity_event_dialogue16_7bf82a1d:
@@ -1575,8 +1575,8 @@ translate german monica_charity_event_dialogue16_8108a8af:
 # game/Quests/EP2/ep2_dialogues5.rpy:898
 translate german monica_charity_event_dialogue16_2c17a002:
 
-    # beef "Вот видишь, цыпочка!"
-    beef "Вот видишь, цыпочка!"
+    # biff "Вот видишь, цыпочка!"
+    biff "Вот видишь, цыпочка!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:906
 translate german monica_charity_event_dialogue16_ef28a711:
@@ -1587,8 +1587,8 @@ translate german monica_charity_event_dialogue16_ef28a711:
 # game/Quests/EP2/ep2_dialogues5.rpy:911
 translate german monica_charity_event_dialogue16_f4bd0c25:
 
-    # beef "Хорошей цыпочкой - это какой?"
-    beef "Хорошей цыпочкой - это какой?"
+    # biff "Хорошей цыпочкой - это какой?"
+    biff "Хорошей цыпочкой - это какой?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:914
 translate german monica_charity_event_dialogue16_d22766a9:
@@ -1609,9 +1609,9 @@ translate german monica_charity_event_dialogue16_3986736e:
 # game/Quests/EP2/ep2_dialogues5.rpy:921
 translate german monica_charity_event_dialogue16_1fa52dec:
 
-    # beef "Ха-ха-ха!"
+    # biff "Ха-ха-ха!"
     # "Детка, а ты знаешь подход к папочке!"
-    beef "Ха-ха-ха!"
+    biff "Ха-ха-ха!"
     "Детка, а ты знаешь подход к папочке!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:924
@@ -1651,11 +1651,11 @@ translate german monica_charity_event_dialogue16_aec294bc:
 # game/Quests/EP2/ep2_dialogues5.rpy:944
 translate german monica_charity_event_dialogue16_8fcc20ea:
 
-    # beef "Ха-ха-ха!"
+    # biff "Ха-ха-ха!"
     # "Мелани! Я спросил тебя просто так!"
     # "В любом случае решать папочке!"
     # "..."
-    beef "Ха-ха-ха!"
+    biff "Ха-ха-ха!"
     "Мелани! Я спросил тебя просто так!"
     "В любом случае решать папочке!"
     "..."
@@ -2709,86 +2709,86 @@ translate german monica_charity_event_dialogue19_5690dfb1:
 
     # m "Биф! Я ухожу отсюда!"
     # imt 6766
-    # beef "Постой, детка! Мы вместе поедем сейчас в офис!"
+    # biff "Постой, детка! Мы вместе поедем сейчас в офис!"
     # "Ты забыла там свою одежду!"
     # "Ха-ха-ха!"
     m "Биф! Я ухожу отсюда!"
     imt 6766
-    beef "Постой, детка! Мы вместе поедем сейчас в офис!"
+    biff "Постой, детка! Мы вместе поедем сейчас в офис!"
     "Ты забыла там свою одежду!"
     "Ха-ха-ха!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1717
-translate german monica_office_beef_dialogue_evening1_dc58d129:
+translate german monica_office_biff_dialogue_evening1_dc58d129:
 
-    # beef "Детка, ты свободна на сегодня!"
+    # biff "Детка, ты свободна на сегодня!"
     # "Не уверен что ты стоишь $ 5.000, но я подумаю..."
-    beef "Детка, ты свободна на сегодня!"
+    biff "Детка, ты свободна на сегодня!"
     "Не уверен что ты стоишь $ 5.000, но я подумаю..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1721
-translate german monica_office_beef_dialogue_evening1_86c1ddb3:
+translate german monica_office_biff_dialogue_evening1_86c1ddb3:
 
     # m "Я могу идти, Биф?"
     m "Я могу идти, Биф?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1725
-translate german monica_office_beef_dialogue_evening1_2f5d61b6:
+translate german monica_office_biff_dialogue_evening1_2f5d61b6:
 
-    # beef "А попа! Ты собираешься мне ее показывать или нет?"
-    beef "А попа! Ты собираешься мне ее показывать или нет?"
+    # biff "А попа! Ты собираешься мне ее показывать или нет?"
+    biff "А попа! Ты собираешься мне ее показывать или нет?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1728
-translate german monica_office_beef_dialogue_evening1_daab6f76:
+translate german monica_office_biff_dialogue_evening1_daab6f76:
 
     # m "Я не буду этого делать, Биф!"
     m "Я не буду этого делать, Биф!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1730
-translate german monica_office_beef_dialogue_evening1_7e42dba0:
+translate german monica_office_biff_dialogue_evening1_7e42dba0:
 
-    # beef "Ах да! Ты сделаешь это перед следующей фотосессией!"
-    beef "Ах да! Ты сделаешь это перед следующей фотосессией!"
+    # biff "Ах да! Ты сделаешь это перед следующей фотосессией!"
+    biff "Ах да! Ты сделаешь это перед следующей фотосессией!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1732
-translate german monica_office_beef_dialogue_evening1_0a5616b8:
+translate german monica_office_biff_dialogue_evening1_0a5616b8:
 
     # mt "!!!"
     mt "!!!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1735
-translate german monica_office_beef_dialogue_evening1_0886f698:
+translate german monica_office_biff_dialogue_evening1_0886f698:
 
-    # beef "До следующей фотосессии, цыпочка!"
-    beef "До следующей фотосессии, цыпочка!"
+    # biff "До следующей фотосессии, цыпочка!"
+    biff "До следующей фотосессии, цыпочка!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1739
-translate german monica_office_beef_dialogue_evening1_75e593a3:
+translate german monica_office_biff_dialogue_evening1_75e593a3:
 
     # mt "Не будет больше никакой фотосессии, УРОД!!!"
     mt "Не будет больше никакой фотосессии, УРОД!!!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1742
-translate german monica_office_beef_dialogue_evening1_875220a7:
+translate german monica_office_biff_dialogue_evening1_875220a7:
 
-    # beef "Иди переодевайся!"
+    # biff "Иди переодевайся!"
     # "Это платье и украшения принадлежат компании!"
-    beef "Иди переодевайся!"
+    biff "Иди переодевайся!"
     "Это платье и украшения принадлежат компании!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1752
-translate german monica_office_beef_dialogue_evening1_d6e07ebf:
+translate german monica_office_biff_dialogue_evening1_d6e07ebf:
 
     # m "Ты доволен, Биф?!"
     m "Ты доволен, Биф?!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1755
-translate german monica_office_beef_dialogue_evening1_62c01ede:
+translate german monica_office_biff_dialogue_evening1_62c01ede:
 
-    # beef "Да!"
-    # beef "Можешь идти!"
-    beef "Ja?"
-    beef "Du kannst gehen!"
+    # biff "Да!"
+    # biff "Можешь идти!"
+    biff "Ja?"
+    biff "Du kannst gehen!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1763
 translate german monica_office_dialogue1_e0a8c4df:
@@ -2896,7 +2896,7 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:155
     old "Подыграть Бифу. Если я хочу все вернуть назад, то надо быть хитрее..."
-    new "Mache Beef's Spiel mit. Wenn ich alles zurück will, muss ich schlauer vorgehen..."
+    new "Mache biff's Spiel mit. Wenn ich alles zurück will, muss ich schlauer vorgehen..."
 
     # Quests/EP2/ep2_dialogues5.rpy:155
     old "Еще подумать..."

@@ -3,13 +3,13 @@ label rich_hotel_event_scene:
     $ miniMapData = []
 
     $ sceneIsStreet = True
-    $ scene_image = "scene_rich_hotel_event_scene_melanie_beef_monica_photodress"
+    $ scene_image = "scene_rich_hotel_event_scene_melanie_biff_monica_photodress"
     return
 
 label rich_hotel_event_scene_init:
 
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "rich_hotel_event_scene_Monica_[cloth]", "click" : "rich_hotel_event_scene_environment", "actions" : "l", "zorder":10})
-    $ add_object_to_scene("Beef", {"type" : 2, "base" : "rich_hotel_event_scene_Beef", "click" : "rich_hotel_event_scene_environment", "actions" : "lt", "zorder":9, "icon_t":"/Icons/talk" + res.suffix +".png"})
+    $ add_object_to_scene("biff", {"type" : 2, "base" : "rich_hotel_event_scene_biff", "click" : "rich_hotel_event_scene_environment", "actions" : "lt", "zorder":9, "icon_t":"/Icons/talk" + res.suffix +".png"})
     $ add_object_to_scene("Melanie", {"type" : 2, "base" : "rich_hotel_event_scene_Melanie", "click" : "rich_hotel_event_scene_environment", "actions" : "lt", "zorder":10})
 
     $ add_object_to_scene("Cloth", {"type" : 2, "base" : "rich_hotel_event_scene_Cloth", "click" : "rich_hotel_event_scene_environment", "actions" : "l", "zorder":0})
@@ -39,9 +39,9 @@ label rich_hotel_event_scene_environment:
     if obj_name == "Monica":
         call monica_charity_event_dialogue2a()
         return
-    if obj_name == "Beef":
+    if obj_name == "biff":
         img 6697
-        beef "Ну, давай кукла!"
+        biff "Ну, давай кукла!"
         "Притворись Моникой Бакфетт!"
         img 6698
         "Или тебя надо шлепнуть по попке, чтобы ты заговорила?!"

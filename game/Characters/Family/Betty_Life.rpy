@@ -20,7 +20,7 @@ label Betty_Life_evening:
 label Betty_Life_day1:
     call bettyGetTodayPanties()
     $ bedroom1_betty_suffix = ""
-#    $ move_object("Beef", "empty")
+#    $ move_object("biff", "empty")
     $ rnd = rand(1,3)
     if rnd == 1 or rnd == 2:
         $ move_object("Betty", "floor2")
@@ -34,7 +34,7 @@ label Betty_Life_day1_lower:
     return
 
 label Betty_Life_evening1:
-#    $ move_object("Beef", "monica_office_cabinet")
+#    $ move_object("biff", "monica_office_cabinet")
     $ bedroom1_betty_suffix = bettyPantiesCurrent
     $ move_object("Betty", "bedroom1")
     #bedroom1_betty_suffix

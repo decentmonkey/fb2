@@ -13,7 +13,7 @@ label Bardie_Life_day:
     return True
 
 label Bardie_Life_Day1:
-#    $ move_object("Beef", "empty")
+#    $ move_object("biff", "empty")
     if bardieStage == 0:
         $ rand1 = rand(1,2)
         if rand1 == 1:
@@ -28,7 +28,7 @@ label Bardie_Life_evening:
     return True
 
 label Bardie_Life_evening1:
-#    $ move_object("Beef", "monica_office_cabinet")
+#    $ move_object("biff", "monica_office_cabinet")
     if bardieStage == 0:
         $ move_object("Bardie", "bedroom_bardie")
     return

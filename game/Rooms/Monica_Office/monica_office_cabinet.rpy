@@ -1,4 +1,4 @@
-default monicaOfficeBeefMelanie = True
+default monicaOfficebiffMelanie = True
 
 label monica_office_cabinet:
     $ print "enter_monica_office_cabinet"
@@ -9,16 +9,17 @@ label monica_office_cabinet:
     else:
         $ scene_image = "scene_Office_Monica_Cabinet_Whiskey[day_suffix]"
 
-    if monicaOfficeBeefMelanie == True:
-        $ scene_image = "scene_Office_Monica_Cabinet_Beef_Melanie_Monica_Whore_Evening"
+    if monicaOfficebiffMelanie == True:
+        $ scene_image = "scene_Office_Monica_Cabinet_biff_Melanie_Monica_Whore_Evening"
 
+    music Mandeville
     return
 
 label monica_office_cabinet_init:
 
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "Office_Monica_Cabinet_Monica_[cloth]", "click" : "monica_office_cabinet_environment", "actions" : "l", "zorder":10})
-    $ add_object_to_scene("Beef", {"type" : 2, "base" : "Office_Monica_Cabinet_Beef[day_suffix]", "click" : "monica_office_cabinet_environment", "actions" : "l", "zorder":5}, {"monicaOfficeBeefMelanie":{"v":True, "base" : "Office_Monica_Cabinet_Beef_Melanie_Monica_Beef[day_suffix]"}})
-    $ add_object_to_scene("Melanie", {"type" : 2, "base" : "Office_Monica_Cabinet_Beef_Melanie_monica_Melanie[day_suffix]", "click" : "monica_office_cabinet_environment", "actions" : "l", "zorder":6, "active":False})
+    $ add_object_to_scene("biff", {"type" : 2, "base" : "Office_Monica_Cabinet_biff[day_suffix]", "click" : "monica_office_cabinet_environment", "actions" : "l", "zorder":5}, {"monicaOfficebiffMelanie":{"v":True, "base" : "Office_Monica_Cabinet_biff_Melanie_Monica_biff[day_suffix]"}})
+    $ add_object_to_scene("Melanie", {"type" : 2, "base" : "Office_Monica_Cabinet_biff_Melanie_monica_Melanie[day_suffix]", "click" : "monica_office_cabinet_environment", "actions" : "l", "zorder":6, "active":False})
 
     $ add_object_to_scene("Flowers", {"type" : 2, "base" : "Office_Monica_Cabinet_Flowers", "click" : "monica_office_cabinet_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"})
     $ add_object_to_scene("Paints", {"type" : 2, "base" : "Office_Monica_Cabinet_Paints", "click" : "monica_office_cabinet_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"})
@@ -38,7 +39,7 @@ label monica_office_cabinet_teleport:
         return
     return
 label monica_office_cabinet_environment:
-    if obj_name == "Beef":
+    if obj_name == "biff":
         mt "Какой-то самозванец занял мое место!"
         "Это возмутительно!"
         return

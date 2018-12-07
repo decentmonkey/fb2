@@ -15,11 +15,11 @@ label Fred_Life_evening:
     return True
 
 label Fred_Life_day1:
-#    $ move_object("Beef", "empty")
+#    $ move_object("biff", "empty")
     return
 
 label Fred_Life_evening1:
-#    $ move_object("Beef", "monica_office_cabinet")
+#    $ move_object("biff", "monica_office_cabinet")
     return
 
 

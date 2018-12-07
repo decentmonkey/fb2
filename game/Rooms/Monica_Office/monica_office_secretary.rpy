@@ -16,6 +16,8 @@ label monica_office_secretary:
     if monicaOfficeSecretaryMonicaSuffix_forced != False:
         $ monicaOfficeSecretaryMonicaSuffix = monicaOfficeSecretaryMonicaSuffix_forced
         $ monicaOfficeSecretaryMonicaSuffix_forced = False
+
+    music Mandeville
     return
 
 label monica_office_secretary_init:
