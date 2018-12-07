@@ -1,6 +1,7 @@
 default dickOfficeCabinetStage = 0
 
-default dickOfficeDickMonicaState = 1
+default dickOfficeMonicaState = 2
+default dickOfficeDickState = 4
 
 label dick_office_cabinet:
     $ print "dick_office_cabinet"
@@ -10,8 +11,8 @@ label dick_office_cabinet:
     return
 
 label dick_office_cabinet_init:
-    $ add_object_to_scene("Monica", {"type":2, "base":"Office_Dick_Cabinet_Dick_Monica_Whore_[dickOfficeDickMonicaState]_Monica", "click" : "dick_office_cabinet_environment", "actions" : "l", "zorder" : 10})
-    $ add_object_to_scene("DickTheLawyer", {"type":2, "base":"Office_Dick_Cabinet_Dick_Monica_Whore_[dickOfficeDickMonicaState]_Dick", "click" : "dick_office_cabinet_environment", "actions" : "lt", "zorder" : 10, "icon_t":"/Icons/talk" + res.suffix +".png", "b":0.14, "s":1.3, "tint":[1.0, 1.0, 0.8]})
+    $ add_object_to_scene("Monica", {"type":2, "base":"Office_Dick_Cabinet_Dick_Monica_Whore_[dickOfficeMonicaState]_Monica", "click" : "dick_office_cabinet_environment", "actions" : "l", "zorder" : 10})
+    $ add_object_to_scene("DickTheLawyer", {"type":2, "base":"Office_Dick_Cabinet_Dick_Monica_Whore_[dickOfficeDickState]_Dick", "click" : "dick_office_cabinet_environment", "actions" : "lt", "zorder" : 10, "icon_t":"/Icons/talk" + res.suffix +".png", "b":0.14, "s":1.3, "tint":[1.0, 1.0, 0.8]})
 
     $ add_object_to_scene("Book1", {"type":2, "base":"Office_Dick_Cabinet_Book1", "click" : "dick_office_cabinet_environment", "actions" : "l", "zorder" : 0, "active":False, "group":"environment"})
     $ add_object_to_scene("Book2", {"type":2, "base":"Office_Dick_Cabinet_Book2", "click" : "dick_office_cabinet_environment", "actions" : "l", "zorder" : 0, "active":False, "group":"environment"})
