@@ -163,6 +163,7 @@ label monica_office_biff_talk_about_work1: #Моника разговарива�
         $ biffOnlyFridayEvening = True
         $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_cabinet_biff_dialogue2", scene="monica_office_secretary", label="biff_refuse1") # Если не пятница, то блокируем Бифа на сегодня
         $ add_hook("enter_scene", "monica_office_secretary_dialogue5a", scene="monica_office_secretary", label="biff_comment1") #При входе в офис Моника думает все-же согласиться на фотосессию
+        $ add_hook("change_time_day", "monica_office_biff_talk_about_work1_next_day", scene="global")
     $ remove_hook(label="monica_secretary2")
     if nextFriday == day: # уже пятница, активируем
         $ replace_hook("monica_office_biff_talk_about_work2", scene="monica_office_cabinet_table", label="biff2") # Разговариваем с Бифом в 3-ий раз, соглашаясь на обнажение постепенно
@@ -173,7 +174,8 @@ label monica_office_biff_talk_about_work1: #Моника разговарива�
 label monica_office_biff_talk_about_work1_next_day: # Если вчера была не пятница, то вешаем хуки об отсутствии Бифа до пятницы (хрень какая-то, так и есть :) )
     m "monica_office_biff_talk_about_work1_next_day"
     $ remove_hook()
-    $ replace_hook("monica_office_secretary_dialogue4", scene="monica_office_secretary", label="biff_refuse1")
+    $ remove_hook(label="biff_refuse1")
+    $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_secretary_dialogue4", scene="monica_office_secretary", label="biff_refuse1", priority=160)
 #    $ remove_hook(label="biff_refuse1")
     $ replace_hook("monica_office_biff_talk_about_work2", scene="monica_office_cabinet_table", label="biff2")  # Разговариваем с Бифом в 3-ий раз, соглашаясь на обнажение постепенно
 

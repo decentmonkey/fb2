@@ -985,7 +985,7 @@ label monica_office_secretary_dialogue5a:
 #    $ remove_hook()
     return
 label monica_office_secretary_dialogue5b:
-    "..."
+    mt "..."
     "Дик... Сегодня пятница..."
     "Если сегодня вечером не будет денег, то мне конец..."
     "Что же мне делать???"
