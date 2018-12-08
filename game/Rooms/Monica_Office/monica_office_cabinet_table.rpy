@@ -36,7 +36,7 @@ label monica_office_cabinet_table_teleport:
         return
     return
 label monica_office_cabinet_table_environment:
-    if obj_name == "biff":
+    if obj_name == "Biff":
         if act == "l":
             mt "Я ненавижу этого мерзавца!!!"
         return

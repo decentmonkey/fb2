@@ -769,6 +769,7 @@ label monica_office_secretary_dialogue4a:
 label monica_office_cabinet_biff_dialogue2a:
     #render
     #Моника заходит в кабинет Бифа, второй раз, для разговора о работе
+    $ monicaOfficeWhiskeyOnTable = True
     music Groove2_85
     img 6439
     with fade
@@ -827,6 +828,7 @@ label monica_office_cabinet_biff_dialogue3:
     biff "Ха-ха-ха!"
     "Конечно лучше! Ведь ты похожа на Монику Бакфетт!"
     img 6447
+    with fade
     m "Послушай, Биф!"
     "Да, Мелани топ модель."
     "Но ты говорил что хочешь сменить курс журнала."
@@ -898,6 +900,7 @@ label monica_office_cabinet_biff_dialogue3:
     with Dissolve(0.7)
     biff "Окей, цыпочка!"
     "Когда-нибудь увидимся!"
+    sound highheels_short_walk
     img 6464
     with Dissolve(0.7)
     w
@@ -906,6 +909,7 @@ label monica_office_cabinet_biff_dialogue3:
     w
     music Power_Bots_Loop
     img 6466
+    with fade
     m "Что? Ты не будешь останавливать меня?"
     img 6467
     biff "Конечно нет!"
@@ -921,6 +925,7 @@ label monica_office_cabinet_biff_dialogue3:
     "Я посмотрю еще стоишь-ли ты этих денег!"
     img 6470
     mt "!!!"
+    sound highheels_short_walk
     img 6471
     biff "Итак, ты согласна?"
     menu:
@@ -954,7 +959,7 @@ label monica_office_cabinet_biff_dialogue3:
     with Dissolve(0.5)
     biff "{b}Если передумаешь, заглядывай!{/b}"
 
-    return
+    return True
 
 label monica_office_secretary_dialogue5:
     #Моника выходит в локацию секретарши

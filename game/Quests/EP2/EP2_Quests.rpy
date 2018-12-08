@@ -155,6 +155,8 @@ label monica_office_biff_talk_about_work1: #Моника разговарива�
         return
     call monica_office_cabinet_biff_dialogue3()
     $ monicaOfficeSecretaryMonicaSuffix = ""
+    if _return == False:
+        return False
     $ autorun_to_object("monica_office_secretary_dialogue5", scene="monica_office_secretary")
     if nextFriday != day:
         $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_cabinet_biff_dialogue2", scene="monica_office_secretary", label="biff_refuse1") # Если не пятница, то блокируем Бифа на сегодня
