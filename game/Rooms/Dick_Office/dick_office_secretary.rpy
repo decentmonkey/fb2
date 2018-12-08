@@ -9,7 +9,7 @@ label dick_office_secretary:
 
 label dick_office_secretary_init:
     $ add_object_to_scene("Monica", {"type":2, "base":"Office_Dick_Secretary_Monica_Secretary_Monica_[cloth]_[dickOfficeSecretaryMonicaSuffix]", "click" : "dick_office_secretary_environment", "actions" : "l", "zorder" : 10})
-    $ add_object_to_scene("Secretary", {"type":2, "base":"Office_Dick_Secretary_Secretary_[dickOfficeSecretarySecretarySuffix]", "click" : "dick_office_secretary_environment", "actions" : "lt", "zorder" : 0})
+    $ add_object_to_scene("DickSecretary", {"type":2, "base":"Office_Dick_Secretary_Secretary_[dickOfficeSecretarySecretarySuffix]", "click" : "dick_office_secretary_environment", "actions" : "lt", "zorder" : 0})
 
     $ add_object_to_scene("Computer", {"type":2, "base":"Office_Dick_Secretary_Computer", "click" : "dick_office_secretary_environment", "actions" : "l", "zorder" : 1, "group":"environment", "active":False})
     $ add_object_to_scene("Papers", {"type":2, "base":"Office_Dick_Secretary_Papers", "click" : "dick_office_secretary_environment", "actions" : "l", "zorder" : 1, "group":"environment", "active":False})
@@ -40,13 +40,19 @@ label dick_office_secretary_teleport:
     return
 label dick_office_secretary_environment:
     if obj_name == "Monica":
-        mt "(хмык)"
+        if monicaBitch == True:
+            mt "Эта сучка много на себя берет!"
+        else:
+            mt "Она много на себя берет!"
         return
 
-    if obj_name == "Secretary":
+    if obj_name == "DickSecretary":
         if act == "l":
-            mt "Эта сучка много на себя берет!"
-            mt "(хмык)"
+            if monicaBitch == True:
+                mt "Эта сучка много на себя берет!"
+            else:
+                mt "Она много на себя берет!"
+#            mt "(хмык)"
             return
         if act == "t":
             return

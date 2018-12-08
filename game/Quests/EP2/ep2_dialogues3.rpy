@@ -9,7 +9,10 @@ label monica_fred_about_dick_dialogue1:
 label monica_fred_about_dick_dialogue2:
     #Моника подошла ко Фреду (день и если одета одежда whore)
     #render
+    $ store_music()
+    music Groove2_85
     img 6163
+    with fade
     m "Что тебе надо, Фред?!" #зло
     img 6164
     fred "Миссис Бакфетт! Мне сообщили что {b}Мистер Дик просил Вас зайти к нему{/b}!"
@@ -33,7 +36,9 @@ label monica_fred_about_dick_dialogue2:
     m "Спасибо! ТВОЕЙ помощи мне уж точно не надо!"
     "Я скоро вновь верну этот дом и ты получишь по заслугам!"
     img 6173
+    with fade
     mt "Дик просил меня зайти... Что-ж, может и пришло время попытаться еще раз..."
+    $ restore_music()
     return
 
 label monica_dick_office_dialogue1:
@@ -72,10 +77,14 @@ label monica_dick_office_dialogue1b:
 label monica_dick_secretary_dialogue1:
     #Моника заходит в офис к Дику, общается с секретаршей (даже если идет мимо нее, диалог срабатывает)
     #render
+    $ store_music()
+    music Groove2_85
+
     img 6174
+    with fade
     w
     img 6175
-    with fadelong
+    with Dissolve(0.5)
     w
     img 6176
     w
@@ -83,10 +92,14 @@ label monica_dick_secretary_dialogue1:
     w
     img 6178
     w
-    #звук хи-хи
     img 6179
+    #звук хи-хи
+    sound snd_woman_laugh
+    pause(3)
+    sound snd_woman_laugh2
     w
     img 6180
+    with Dissolve(0.5)
     dick_secretary "Миссис Бакфетт!"
     "Вы также прекрасны как и в прошлый раз!"
     "Время на Вас совсем не влияет!"
@@ -95,129 +108,200 @@ label monica_dick_secretary_dialogue1:
     img 6182
     dick_secretary "Это комплимент..." #с ехидной улыбкой
     "Я просто хочу подружиться с Вами..."
-    img 6183
-    m "Мне не нужны такие друзья!"
+    $ restore_music()
+    return
 
+label monica_dick_secretary_dialogue1a:
+
+    img 6183
+    with fade
+    m "Мне не нужны такие друзья!"
     dick_secretary "..." #ехидно улыбается
     return
 
+
+label monica_dick_dialogue1a:
+    show screen sprites_hover_dummy_screen()
+    pause 1
+    hide screen sprites_hover_dummy_screen
+    img 6184
+    with fade
+    mt "Вот и тюфяк... Надеюсь в этот раз получится лучше..."
+    call refresh_scene_fade()
+    return
 label monica_dick_dialogue1:
     #Моника говорит с Диком в кабинете
     #render
-    img 6184
-    mt "Вот и тюфяк... Надеюсь в этот раз получится лучше..."
+    $ store_music()
+    music Hidden_Agenda
     img 6185
+    with fade
     m "Дик! Привет!"
     "Я рада что ты обо мне вспомнил!"
     img 6186
     "Ты позвал меня чтобы сказать что передумал?"
     img 6187
     w
+    sound highheels_short_walk
     img 6188
+    with fade
     "Ты поможешь мне?"
     img 6189
+    with Dissolve(0.5)
     "Милый..." #кокетливо смотрит
     img 6190
     w
     img 6191
     w
     img 6192
+    music Master_Disorder
     w
     img 6193
+#    music Pyro_Flow
     w
     img 6194
     dick "Моника, я позвал тебя чтобы напомнить о себе..."
     img 6195
     w
+    music Hidden_Agenda
     img 6196
+    with Dissolve(0.5)
     m "Дорогой!"
+    sound snd_heavy_papers_drop
     #звук падения бумаги
     img 6197
+    with fade
     w
     img 6198
+    with Dissolve(0.5)
     w
     img 6199
+    with Dissolve(0.5)
     m "Дорогой!"
     img 6200
+    with fade
     "Я помню о тебе все время и я..."
+    music stop
+    sound plastinka2
+    pause(0.5)
+    music Master_Disorder
     img 6201
     dick "Моника, ты решила разбить его?!"
     "Разбить мое сердце?!"
+    img 6200
+    m "..."
+    img 6201
+    dick "???"
 
     img 6202
+    with Dissolve(0.5)
+    music Hidden_Agenda
     m "Нет, дорогой! Что ты!!!"
     img 6203
+    with Dissolve(0.5)
     w
     img 6204
+    with Dissolve(0.5)
     w
     img 6205
+    with Dissolve(0.5)
     "Твое сердце - это самое важное что есть для меня..."
     img 6206
+    with Dissolve(0.5)
     w
+    music stop
+    sound plastinka2
+    pause(0.5)
+    music Master_Disorder
     img 6207
+    with fade
     dick "Тогда где та мелочь, о которой я попросил тебя?"
     img 6208
     w
-    menu:
-        "Приставать к Дику.":
-            img 6213
-            "Дик..."
-            img 6214
-            w
-            img 6215
-            w
-            img 6216
-            "Дик... Милый..."
-            img 6217
-            w
-            img 6218
-            w
-            img 6219
-            "Дик..."
-            img 6220
-            "Я пока не нашла деньги на..."
-            img 6221
-            "Я пока не нашла деньги на твой галстук..."
-            img 6222
-            "Но ведь тебе нужен не галстук, милый?"
-            img 6223
-            w
-            img 6224
-            "Дик! Иди ко мне!"
-            img 6225
-            w
+    label .local1:
+        menu:
+            "Приставать к Дику. (low corruption) (disabled)" if corruption < monicaTryToDickBlowjobRequiredCorruption:
+                jump local1
+            "Приставать к Дику. (corruption)" if corruption >= monicaTryToDickBlowjobRequiredCorruption:
+                #corruption check!!!
+                $ monicaTryToDickBlowjob = True
+                music Loved_up
+                img 6213
+                with Dissolve(0.5)
+                m "Дик..."
+                img 6214
+                with Dissolve(0.5)
+                w
+                img 6215
+                with Dissolve(0.5)
+                w
+                img 6216
+                with Dissolve(0.5)
+                "Дик... Милый..."
+                img 6217
+                with fade
+                w
+                img 6218
+                with Dissolve(0.5)
+                w
+                img 6219
+                with Dissolve(0.5)
+                "Дик..."
+                img 6220
+                with Dissolve(0.5)
+                "Я пока не нашла деньги на..."
+                img 6221
+                with Dissolve(0.5)
+                "Я пока не нашла деньги на твой галстук..."
+                img 6222
+                with Dissolve(0.5)
+                "Но ведь тебе нужен не галстук, милый?"
+                img 6223
+                with Dissolve(0.5)
+                w
+                img 6224
+                with Dissolve(0.5)
+                "Дик! Иди ко мне!"
+                img 6225
+                with Dissolve(0.5)
+                w
 
-            img 6226
-            dick "Моника, я знаю что ты лжешь."
-            "Для тебя не составит труда найти эти деньги."
-            img 6227
-            "Ты просто не хочешь уделить мне знак внимания."
+                music Power_Bots_Loop
+                img 6226
+                with fade
+                dick "Моника, я знаю что ты лжешь."
+                "Для тебя не составит труда найти эти деньги."
+                img 6227
+                "Ты просто не хочешь уделить мне знак внимания."
 
-            "..."
+                "..."
+                img 6228
+                "В общем Моника. Я позвал тебя чтобы сообщить..."
+                "Я не хочу больше заниматься твоим делом."
+                img 6229
+                w
 
-            img 6228
-            "В общем Моника. Я позвал тебя чтобы сообщить..."
-            "Я не хочу больше заниматься твоим делом."
-            img 6229
-            w
+            "Я пока не нашла деньги...":
+                music Gloove2_85
+                img 6209
+                with fade
+                m "Дик... Я...."
+                "Я пока не нашла деньги на..."
 
-        "Я пока не нашла деньги...":
-            img 6209
-            m "Дик... Я...."
-            "Я пока не нашла деньги на..."
+                img 6210
+                dick "Моника, я знаю что ты лжешь."
+                "Для тебя не составит труда найти эти деньги."
+                "Ты просто не хочешь уделить мне знак внимания."
 
-            img 6210
-            dick "Моника, я знаю что ты лжешь."
-            "Для тебя не составит труда найти эти деньги."
-            "Ты просто не хочешь уделить мне знак внимания."
-
-            img 6211
-            "..."
-            img 6212
-            "В общем Моника. Я позвал тебя чтобы сообщить..."
-            "Я не хочу больше заниматься твоим делом."
+                img 6211
+                "..."
+                music Power_Bots_Loop
+                img 6212
+                "В общем Моника. Я позвал тебя чтобы сообщить..."
+                "Я не хочу больше заниматься твоим делом."
 
     img 6230
+    with fade
     m "КАК?!?!"
 
     dick "У тебя есть другие друзья. Тот же Маркус."
@@ -236,12 +320,15 @@ label monica_dick_dialogue1:
     "Причем тут я?!"
 
     img 6234
+    with fade
     mt "О БОЖЕ!!! КАК ЖЕ ТАК!?!?"
     "Я НЕ ОЖИДАЛА ТАКОГО ПОВОРОТА!!!"
     "МНЕ НАДО КАК-ТО ПЕРЕУБЕДИТЬ ЕГО!!!"
     "ИНАЧЕ КОНЕЦ!!!"
 
+    music Hidden_Agenda
     img 6235
+    with fade
     m "ДИК! ПОЖАЛУЙСТА!"
     "Я могу тоже быть твоим другом!"
     "ДИК!"
@@ -261,6 +348,7 @@ label monica_dick_dialogue1:
     img 6239
     m "Я?? С ней??"
     img 6240
+    with fade
     "Конечно, Дик!"
     "Конечно! Я с радостью полажу с ней!"
 
@@ -297,28 +385,35 @@ label monica_dick_dialogue1:
     "Только пожалуйста, не бросай мое дело, Дик..."
     dick "Хм... Возможно Виктория еще не успела отослать факс об отмене дела..."
 
+    music Power_Bots_Loop
     img 6249
     dick "В общем Моника, я жду того что Вы {b}подружитесь с Викторией до конца недели{/b}."
     dick "Я даю тебе шанс, Моника."
-    "{b}В пятницу вечером галстук должен быть на мне!{/b}"
+    if week_day != 5:
+        "{b}В пятницу вечером галстук должен быть на мне!{/b}"
+    else:
+        "{b}В следующую пятницу вечером галстук должен быть на мне!{/b}"
     img 6250
     m "Да, дорогой! Я тебя не подведу!"
     img 6251
     dick "До свидания, Моника!"
     m "До свидания, Дик!"
 
+    $ restore_music()
     return
 
 label monica_dick_secretary_dialogue2a:
     #Моника пытается выйти из локации до того как поговороила с секретаршей Дика
     mt "Я думаю мне надо проконтролировать эту сучку, вдруг она отправила факс?"
-    return
+    return False
 label monica_dick_secretary_dialogue2:
     #render
     #Моника говорит с секретаршей Дика после разговора с Диком
     img 6252
+    with fade
     m "Виктория..."
     img 6253
+    with Dissolve(0.5)
     dick_secretary "Мисс Виктория..."
     img 6254
     m "Мисс Виктория... Скажите..."
@@ -326,11 +421,14 @@ label monica_dick_secretary_dialogue2:
     img 6255
     dick_secretary "Я отправила все факсы, которые он мне поручал!"
     "Я хорошо делаю свою работу, Миссис Бакфетт!"
+    music Power_Bots_Loop
     img 6256
     m "О НЕТ!"
     img 6257
+    with Dissolve(0.5)
     dick_secretary "Мистер Дик сообщил о том что один факс посылать не надо."
     "Этот факс касается Вашего дела, Миссис Бакфетт!"
+    music Hidden_Agenda
     img 6258
     m "ДА! О ДА!"
     "Нет, его не надо посылать..."
@@ -349,7 +447,8 @@ label monica_dick_secretary_dialogue2:
     "Чтобы купить галстук для Мистера Дика..."
     img 6264
     mt "Дьявол! Не могу поверить что я говорю это!!!"
-    "Говорю этой сучке!"
+    if monicaBitch == True:
+        "Говорю этой сучке!"
     img 6265
     dick_secretary "Вы бы хотели?"
     "Хи-хи!"
@@ -365,7 +464,10 @@ label monica_dick_secretary_dialogue2:
     "Вы плохо умеете уговаривать, Миссис Бакфетт!"
     "У Вас мало практики в этом! Вам надо больше практиковаться!"
 
+
+    music Power_Bots_Loop
     img 6270
+    with fade
     mt "Она издевается! Эта сучка издевается!"
     "Я уже заранее знаю что ей не понравится цвет!"
     "И если она не пойдет со мной, то Дик обвинит меня в том что мы не поладили!"
@@ -375,7 +477,9 @@ label monica_dick_secretary_dialogue2:
         "Попросить Викторию вежливо...":
             pass
 
+    music Hidden_Agenda
     img 6271
+    with fade
     m "Мисс Виктория... Пожалуйста, составьте мне компанию..."
     img 6272
     dick_secretary "Нет, не думаю..."
@@ -385,11 +489,14 @@ label monica_dick_secretary_dialogue2:
             pass
     img 6273
     m "Мисс Виктория... Пожалуйста, я очень прошу Вас составить мне компанию..."
+    with fade
 
     img 6274
     dick_secretary "Ну кто так уговаривает?"
     "Скажите что я одеваюсь лучше чем Вы и что у меня лучше вкус, на который Вы бы хотели положиться..."
+    music Power_Bots_Loop
     img 6275
+    with fade
     mt "СУЧКА!!!"
     "ОНА ИЗДЕВАЕТСЯ НАДО МНОЙ!!!"
     "Я НЕНАВИЖУ ЕЕ!!!"
@@ -398,7 +505,9 @@ label monica_dick_secretary_dialogue2:
         "Сделать Виктории комплимент...":
             pass
 
+    music Loved_up
     img 6276
+    with fadelong
     m "..."
     img 6277
     dick_secretary "..." #хитро улыбается
@@ -411,10 +520,12 @@ label monica_dick_secretary_dialogue2:
     img 6281
     dick_secretary "..."
     img 6282
+    with fade
     m "Мисс Виктория..."
     img 6283
     "Вы очень хорошо одеваетесь, гораздо лучше чем Я..."
     img 6284
+    sound snd_woman_laugh2
     dick_secretary "Хи-хи!"
     img 6285
     m "..."
@@ -424,14 +535,20 @@ label monica_dick_secretary_dialogue2:
     "Я боюсь что мне может не хватить вкуса и я бы хотела положиться на Ваш вкус и опыт в этом деле..."
     img 6287
     dick_secretary "Ну вот! Другое дело!"
+    sound snd_woman_laugh2
     "Хи-хи!"
+    music Groove2_85
     img 6288
-    dick_secretary "Хорошо, {b}в пятницу вечером приходите сюда{/b}."
+    if week_day != 5:
+        dick_secretary "Хорошо, {b}в пятницу вечером приходите сюда{/b}."
+    else:
+        dick_secretary "Хорошо, {b}в следующую пятницу вечером приходите сюда{/b}."
     "Я знаю хороший галстук за {b}$ 5.000{/b}."
     "Так что {b}приготовьте деньги{/b}."
     "{b}Если у Вас не будет нужной суммы, то, пожалуйста, не беспокойте меня{/b}."
 
     img 6289
+    with fade
     m "Да, я поняла."
     "Мисс Виктория, я могу идти?"
     img 6290
@@ -440,7 +557,9 @@ label monica_dick_secretary_dialogue2:
     img 6291
     m "До свидания, Миссис Виктория..."
 
-    mt "Сучка!"
+    if monicaBitch == True:
+        $ notif_monica()
+        mt "Сучка!"
 
     return
 
@@ -448,10 +567,12 @@ label monica_dick_secretary_dialogue3:
     #render
     #Моника подходит к секретарше повторно
     img 6293
+    with fade
     m "Виктория..."
     img 6294
     dick_secretary "Мисс Виктория!"
     img 6295
+    with fade
     m "Мисс Виктория..."
     img 6294
     dick_secretary "Вы что-то хотели?"
@@ -459,12 +580,24 @@ label monica_dick_secretary_dialogue3:
     m "Тот факс... Он все еще у Вас?"
     img 6297
     dick_secretary "Да, я его отправлю в субботу утром."
-    "Либо не отправлю, если мы проведем хорошо время в {b}пятницу{/b}."
+    if week_day != 5:
+        "Либо не отправлю, если мы проведем хорошо время в {b}пятницу{/b}."
+    else:
+        "Либо не отправлю, если мы проведем хорошо время в следующую {b}пятницу{/b}."
     "Хи-хи!"
     m "Да, Мисс Виктория, конечно..."
     "До свидания..."
     mt "Эта сучка заплатит за все!"
     return
+
+label monica_dick_secretary_dialogue4a:
+    if act == "l":
+        return
+    if dickDoorBlockedDay == day:
+        mt "(хмык)"
+    else:
+        call monica_dick_secretary_dialogue4()
+    return False
 
 label monica_dick_secretary_dialogue4:
     # Моника пытается зайти к Дику в кабинет, когда Дика нет
@@ -491,10 +624,12 @@ label monica_dick_office_dialogue2:
     "..."
     "Но где мне найти такую сумму?!"
 
-    #если Моника разносила флаеры
-    "Мне понадобится разносить флаеры несколько лет, чтобы заработать такие деньги!"
-    "Это не вариант!"
-    #
+    if monicaKnowAboutKebabWork == True:
+        notif(_("Монике пришлось зарабатывать на еду разноской флаеров"))
+        #если Моника разносила флаеры
+        "Мне понадобится разносить флаеры несколько лет, чтобы заработать такие деньги!"
+        "Это не вариант!"
+        #
 
     "Я - Моника Бакфетт!"
     "Для того чтобы заработать эту сумму мне надо лишь пошевелить пальцем!"

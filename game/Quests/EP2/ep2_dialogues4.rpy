@@ -52,6 +52,7 @@ label monica_office_entrance_biff_dialogue1:
         #шлепает ее по попе
         sound Jump2
         img 6308
+        with hpunch
         w
         music Pyro_Flow
         img 6309
@@ -69,7 +70,7 @@ label monica_office_entrance_biff_dialogue1:
 label monica_office_secretary_dialogue1:
     #render
     #Моника разговаривает с секретаршей. (срабатывает даже если Моника идет в студию или в офис)
-    if act == "l":
+    if obj_name == "Secretary" and act == "l":
         return
     $ store_music()
     music RnB4_100
@@ -233,6 +234,8 @@ label monica_office_photostudio_alex_dialogue1:
     return
 
 label monica_office_cabinet_biff_dialogue1:
+    if act == "l":
+        return
     #render
     #Моника разговаривает с Бифом первый раз. На столе сидит Мелани.
     #Мелани замечает Монику и выходит
@@ -247,24 +250,33 @@ label monica_office_cabinet_biff_dialogue1:
     img 6361
     w
     img 6362
+    with fade
     w
     img 6363
+    with fade
     w
     img 6364
+    with fade
     w
     #музыка Мелани zigzag
     music ZigZag
     img 6365
+    with fade
     w
     img 6366
+    with Dissolve(0.3)
     w
     img 6367
+    with Dissolve(0.3)
     w
     img 6368
+    with Dissolve(0.3)
     w
     img 6369
+    with Dissolve(0.3)
     w
     img 6370
+    with Dissolve(0.3)
     w
     img 6371
     w
@@ -293,21 +305,27 @@ label monica_office_cabinet_biff_dialogue1:
     "Рада видеть Вас!"
     img 6383
     m "Здравствуй, Мелани."
-    img 6384
-    "Я смотрю ты не теряешь времени даром..."
+    if monicaBitch == True:
+        img 6384
+        "Я смотрю ты не теряешь времени даром..."
+
+    $ notif_monica()
     img 6385
     melanie "Миссис Бакфетт..."
     #уходит
     img 6386
+    with Dissolve(0.3)
     w
     img 6387
+    with Dissolve(0.3)
     w
     $ move_object("Melanie", "monica_office_photostudio")
-
+    $ monicaOfficeBiffMelanie = False
 
     #Моника наедине с Бифом
     music biffMusic
     img 6388
+    with fadelong
     biff "О! Цыпочка!"
     "Алекс клялся что не прятал тебя!"
     "Значит он, все-таки, врал и решил исправить свою вину прислав тебя ко мне?"
@@ -332,8 +350,11 @@ label monica_office_cabinet_biff_dialogue1:
     "МЕНЯ ЗОВУТ МОНИКА БАКФЕТТ!"
     img 6393
     "И Я БЫ СОВЕТОВАЛА ТЕБЕ ВСТАТЬ С МОЕГО СТУЛА!"
-    img 6394
-    "ПОКА Я НЕ ОТОРВАЛА ТЕБЕ ТВОИ ЯЙЦА К ЧЕРТЯМ!!!" #злая наезжает нагнувшись над столом
+    if monicaBitch == True:
+        img 6394
+        with hpunch
+        "ПОКА Я НЕ ОТОРВАЛА ТЕБЕ ТВОИ ЯЙЦА К ЧЕРТЯМ!!!" #злая наезжает нагнувшись над столом
+        $ notif_monica()
 
     img 6395
     biff "Ого!"
@@ -428,6 +449,7 @@ label monica_office_cabinet_biff_dialogue1:
     img 6414
     m "Конечно нет, глупый!"
 
+    sound snd_phone_short_beeps
     img 6415
     biff "Извините!" #кладет трубку
     img 6416
@@ -489,6 +511,7 @@ label monica_office_cabinet_biff_dialogue1:
     "КТО Я???"
 
     img 6429
+    with fade
     mt "КАК МНЕ СДЕРЖАТЬСЯ???"
     "Я ХОЧУ ОТОРВАТЬ ЯЙЦА ЭТОМУ УРОДУ!!!"
     "ПРЯМО СЕЙЧАС!!!"
@@ -497,6 +520,7 @@ label monica_office_cabinet_biff_dialogue1:
     "(хмык)"
 
     img 6431
+    with fade
     m "Меня не интересует твоя работа, Биф!"
 
     music biffMusic
@@ -522,25 +546,27 @@ label monica_office_cabinet_biff_dialogue1:
 
     #подходит и берет за подбородок
     #звук ходьбы
+    sound highheels_short_walk
     img 6436
     with fadelong
     m "До свидания, Биф!"
     img 6437
     "Еще увидимся!"
 
+    sound highheels_short_walk
     img 6438
     biff "До свидания, цыпочка!"
     "Я буду звать тебя Моника Бакфетт! Ха-ха-ха!"
 
     $ restore_music()
-    $ autoru_to_object("monica_office_secretary", "monica_office_cabinet_biff_dialogue1a")
+    $ monicaOfficeSecretaryMonicaSuffix_forced = ""
+    $ autorun_to_object("monica_office_cabinet_biff_dialogue1a", scene="monica_office_secretary")
     call change_scene("monica_office_secretary")
-    return
+    return False
     #Моника выходит
 
 label monica_office_cabinet_biff_dialogue1a:
 
-    $ monicaOfficeSecretaryMonicaSuffix_forced = ""
     mt "Это было..."
     "Очень..."
     "Сложно..."
@@ -563,25 +589,32 @@ label monica_office_cabinet_biff_dialogue1a:
 
     $ remove_hook(label="secretary1")
     $ remove_hook(label="biff1")
-    $ replace_hook("monica_office_cabinet_biff_dialogue2", scene="all", label="biff1")
-
+    $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_cabinet_biff_dialogue2", scene="monica_office_secretary", label="biff_refuse1")
+    call Melanie_Life_init()
+    $ add_hook("Melanie", "monica_office_photostudio_melanie_dialogue1", scene="monica_office_photostudio")
+    $ add_hook("change_time_day", "fred_talk_monica1", scene="global")
     return
 
 label monica_office_cabinet_biff_dialogue2:
     #Моника пытается пойти в кабинет Бифа после разговора первого дня
     mt "Я не собираюсь идти к этому слизняку!"
     "Если я приду к нему снова, то только затем, чтобы выкинуть его отсюда!!!"
-    return
+    return False
 
 label monica_office_photostudio_melanie_dialogue1:
     if act == "l":
         return
     #render
+    $ store_music()
+    music ZigZan
     img 6503
+    with fade
     w
     img 6504
+    with fade
     w
     img 6505
+    with Dissolve(0.5)
     melanie "Миссис Бакфетт!"
     "Еще раз, рада Вас видеть!"
     img 6506
@@ -593,40 +626,64 @@ label monica_office_photostudio_melanie_dialogue1:
     m "И что, тебя он устраивает?"
     img 6509
     melanie "Миссис Бакфетт, я уверена в своих силах..."
+    if monicaTalkedToMelanie1 == True:
+        if melanieOffended2 == True:
+            jump .local1
+        else:
+            jump .local2
     menu:
         "Да, я примерно понимаю в чем заключаются они, твои силы...":
-            img 6510
-            m "Да, я примерно понимаю в чем заключаются они, твои силы..."
-            img 6511
-            mt "Конечно, со мной у нее эти фокусы не проходили..."
-            img 6512
-            melanie "Миссис Бакфетт... Вы выглядите потрясающе." #осматривает Монику (whore)
-            "Ваш вкус настолько изыскан, что недоступен моему пониманию..."
-            img 6513
-            mt "Сучка!"
-            img 6514
-            "Я понимаю что такой Босс как сейчас тебе кажется лучше."
-            "Но поверь, я скоро вернусь на свое место..."
-            img 6515
-            melanie "Я была бы очень рада этому, Миссис Бакфетт..."
+            call bitch(5, "monicaTalkedToMelanie1")
+            jump .local1
         "Мелани, ни один мужчина не устоит перед тобой!":
-            img 6514
-            m "Мелани, ни один мужчина не устоит перед тобой!"
-            "Я понимаю что такой Босс как сейчас тебе кажется лучше."
-            "Но поверь, я скоро вернусь на свое место..."
-            img 6515
-            melanie "Спасибо..."
-            melanie "Я была бы очень рада этому, Миссис Бакфетт..."
-    return
+            call bitch(-5, "monicaTalkedToMelanie1")
+            jump .local2
+
+    label .local1:
+        $ melanieOffended2 = True
+        img 6510
+        with fade
+        m "Да, я примерно понимаю в чем заключаются они, твои силы..."
+        img 6511
+        mt "Конечно, со мной у нее эти фокусы не проходили..."
+        img 6512
+        melanie "Миссис Бакфетт... Вы выглядите потрясающе." #осматривает Монику (whore)
+        "Ваш вкус настолько изыскан, что недоступен моему пониманию..."
+        img 6513
+        mt "Сучка!"
+        img 6514
+        m "Я понимаю что такой Босс как сейчас тебе кажется лучше."
+        "Но поверь, я скоро вернусь на свое место..."
+        img 6515
+        melanie "Я была бы очень рада этому, Миссис Бакфетт..."
+        jump .local3
+    label .local2:
+        img 6514
+        with fade
+        m "Мелани, ни один мужчина не устоит перед тобой!"
+        "Я понимаю что такой Босс как сейчас тебе кажется лучше."
+        "Но поверь, я скоро вернусь на свое место..."
+        img 6515
+        with fade
+        melanie "Спасибо..."
+        melanie "Я была бы очень рада этому, Миссис Бакфетт..."
+
+    label .local3:
+        $ monicaTalkedToMelanie1 = True
+        $ restore_music()
+        call refresh_scene_fade()
+    return False
 
 
 
 label monica_office_secretary_dialogue3:
-    if act == "l":
-        return
     #render
     #Моника разговаривает с секретаршей когда приходит получать работу. (срабатывает даже если Моника идет в студию или в офис)
+    $ store_music()
+#    music RnB4_100
+    music Groove2_85
     img 6337
+    with fade
     secretary "Миссис Бакфетт!!!"
     "Пожалуйста, помогите мне!"
     img 6336
@@ -653,14 +710,15 @@ label monica_office_secretary_dialogue3:
     "Скоро я вернусь и все будет как прежде!"
     img 6337
     secretary "Миссис Бакфетт! Возвращайтесь скорее, прошу ВАС!!!"
+    $ restore_music()
 
     return
 
 label monica_office_secretary_dialogue4:
-    if act == "l":
+    if obj_name == "Secretary" and act == "l":
         return
     #Моника разговаривает с секретаршей когда приходит получать работу, но еще не пятница.
-    if get_active_objects("biff", scene="monica_office_cabinet") == False:
+    if get_active_objects("Biff", scene="monica_office_cabinet") == False:
         #render
         img 6342
         secretary "Миссис Бакфетт!"
@@ -668,19 +726,22 @@ label monica_office_secretary_dialogue4:
         img 6343
         m "Когда он будет?"
         img 6344
-        secretary "Он сказал что будет в пятницу вечером!"
+        if week_day != 5:
+            secretary "Он сказал что будет в пятницу вечером!"
+        else:
+            secretary "Он сказал что будет вечером!"
         "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
         img 6343
         m "Хорошо, дорогая, спасибо."
         return False
-    $ remove_hook()
+#    $ remove_hook()
     return
 
 label monica_office_secretary_dialogue4a:
-    if act == "l":
-        return
-    #Моника разговаривает с секретаршей днем, когда Бифа нет (регулярно).
-    if get_active_objects("biff", scene="monica_office_cabinet") == False:
+#    if act == "l":
+#        return
+    #Моника разговаривает с секретаршей днем, когда Бифа нет (регулярно).  когда идет мимо в кабинет
+    if get_active_objects("Biff", scene="monica_office_cabinet") == False:
         if day_time == "day":
             if cloth == "Whore":
                 #render
@@ -709,6 +770,7 @@ label monica_office_cabinet_biff_dialogue2a:
     #render
     #Моника заходит в кабинет Бифа, второй раз, для разговора о работе
     img 6439
+    with fade
     mt "Ну что-ж... Биф..."
     mt "Поговорим с ним о том чтобы получить работу..."
     img 6440
@@ -717,7 +779,7 @@ label monica_office_cabinet_biff_dialogue2a:
     "А работа - это хороший повод..."
     "Тем более что у меня нет больше никаких идей где взять деньги для Дика..."
     "Так что я могу достигнуть двух целей сразу!"
-
+    $ remove_hook()
     #уход на сцену, клик по Бифу вызывает monica_office_cabinet_biff_dialogue3
     return
 

@@ -1,12 +1,14 @@
 default monicaOfficeEntranceMonicaSuffix = "2"
 
+default monicaOfficeOpened = False
+
 label monica_office_entrance:
     $ print "enter_monica_office_entrance"
     $ miniMapData = []
 
     $ scene_image = "scene_Office_Entrance_Monica"
-#    music Groove2_85
-    music Stealth_Groover
+    music Groove2_85
+#    music Stealth_Groover
     return
 
 label monica_office_entrance_init:

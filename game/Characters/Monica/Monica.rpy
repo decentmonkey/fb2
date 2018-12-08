@@ -18,6 +18,10 @@ default monicaStoleFoodGasStationAmount = 0
 default monicaStoleFoodTotal = 0
 default monicaKebabWorkAmount = 0
 
+default melanieOffended2 = False # Моника съязвила Мелани в фотостудии при встрече после Бифа
+default monicaTalkedToMelanie1 = False
+default monicaTryToDickBlowjob = False # Моника пыталась сделать Дику миньет
+
 label monicaEat: #кормим Монику
     $ monicaEatedLastDay = day #кормим Монику
     $ monicaEatedLastDayTime = day_time

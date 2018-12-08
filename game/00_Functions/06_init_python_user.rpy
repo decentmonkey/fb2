@@ -14,7 +14,7 @@ init python:
             day_time = "day"
             day_suffix = ""
             day = day + 1
-            week_day = (day)%7 + 1
+            week_day = (day)%7
             renpy.call("process_hooks", "change_time_day", "global")
             renpy.call("process_hooks", "day_" + str(week_day), "global_week_day")
             renpy.call("process_hooks", "day_" + str(day), "global_day")

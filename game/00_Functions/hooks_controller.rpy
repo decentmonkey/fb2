@@ -32,70 +32,24 @@ init python:
         scenes_data["hooks"][room_name][obj_name] = hooks_list
         return
 
-    def add_hook_multi(*args, **kwargs): #устанавливает хук
-        multipleFlag = False
-        if kwargs.has_key("scene"):
-            if kwargs["scene"] == "all":
-                multipleFlag = True
+    def add_hook_multi(hook_label, **kwargs): #устанавливает хук
+        if kwargs["scene"] == "all":
+            rooms_list = list(scenes_data["hooks"].keys())
+        else:
+            rooms_list = [kwargs["scene"]]
+        del kwargs["scene"]
         if kwargs.has_key("recursive") == True and kwargs["recursive"] == True:
-            multipleFlag = True
-
-        if multipleFlag == True:
-            if len(args) == 1:
-                # устанавливаем хуки во всех сценах
-                obj_name = False
-                hook_label = args[0]
-            else:
-                obj_name = args[0]
-                hook_label = args[1]
-            if kwargs.has_key("scene"):
-                if kwargs["scene"] == "all":
-                    rooms_list = list(scenes_data["objects"].keys())
-                else:
-                    rooms_list = [kwargs["scene"]]
-                del kwargs["scene"]
-            else:
-                rooms_list = [api_scene_name]
-            if kwargs.has_key("recursive") == True and kwargs["recursive"] == True:
-                rooms_list = get_rooms_recursive(rooms_list[0])
-
-            rooms_list = list(scenes_data["objects"].keys())
-            kwargs.pop("recursive", None)
-            kwargs.pop("scene", None)
-            for room_name in rooms_list:
-                for obj1 in scenes_data["objects"][room_name]:
-                    if check_filter(kwargs, scenes_data["objects"][room_name][obj1]) == True and (obj1 == obj_name or obj_name == False):
-                        add_hook(obj1, hook_label, scene=room_name)
-            return
-
-        else:
-            obj_name = args[0]
-            hook_label = args[1]
-        if kwargs.has_key("scene"):
-            room_name = kwargs["scene"]
-            del kwargs["scene"]
-        else:
-            room_name = api_scene_name
-        if len(args) >= 3:
-            room_name = args[2]
-
-        hook_data = {"hook_label":hook_label}
-        for var1, value1 in kwargs.items():
-            hook_data[var1] = value1
-        if hook_data.has_key("priority") == False:
-            hook_data["priority"] = 100
-
-        if scenes_data["hooks"].has_key(room_name) == False:
-            scenes_data["hooks"][room_name] = {}
-        if scenes_data["hooks"][room_name].has_key(obj_name) == False:
-            scenes_data["hooks"][room_name][obj_name] = []
-
-        remove_hook(obj_name, hook_label, scene=room_name)
-        hooks_list = scenes_data["hooks"][room_name][obj_name]
-        flag1 = False
-        hooks_list.append(hook_data)
-        hooks_list = sort_hooks(hooks_list)
-        scenes_data["hooks"][room_name][obj_name] = hooks_list
+            rooms_list = get_rooms_recursive(rooms_list[0])
+        kwargs.pop("recursive", None)
+        filter_arr = {}
+        for var1 in kwargs["filter"]:
+            filter_arr[var1] = kwargs["filter"][var1]
+        kwargs.pop("filter", None)
+        for room_name in rooms_list:
+            for obj_name in scenes_data["objects"][room_name]:
+                if check_filter(filter_arr, scenes_data["objects"][room_name][obj_name]) == True:
+                    kwargs["scene"] = room_name
+                    add_hook(obj_name, hook_label, **kwargs)
         return
 
     def add_hook_day(hook_label, **kwargs):
@@ -107,6 +61,17 @@ init python:
 
         if kwargs.has_key("week_day"):
             add_hook("week_day_" + str(kwargs[week_day]) + suff, hook_label, scene="global_week_day")
+        return
+
+    def remove_hook_day(hook_label, **kwargs):
+        suff = ""
+        if kwargs.has_key("evening") and kwargs["evening"] == True:
+            suff = "_evening"
+        if kwargs.has_key("day"):
+            remove_hook("day_" + str(kwargs["day"]) + suff, hook_label, scene="global_day")
+
+        if kwargs.has_key("week_day"):
+            remove_hook("week_day_" + str(kwargs[week_day]) + suff, hook_label, scene="global_week_day")
         return
 
     def remove_hook(*args, **kwargs):
@@ -211,6 +176,8 @@ init python:
                         hooks_list[idx]["hook_label"] = new_hook_label
                         scenes_data["hooks"][room_name][obj_name] = hooks_list
                         flag1 = True
+            if flag1 == False and debugMode == True:
+                notif("Can't find object for hook: " + str(new_hook_label))
             return flag1
         if len(args) == 2: #hook_label, new_hook_label, [scene=scene_name]
             hook_label = args[0]
@@ -225,10 +192,13 @@ init python:
                             hooks_list[idx]["hook_label"] = new_hook_label
                             scenes_data["hooks"][room_name][obj_name] = hooks_list
                             flag1 = True
+            if flag1 == False and debugMode == True:
+                notif("Can't find object for hook: " + str(new_hook_label))
             return flag1
 
         if len(args) == 1: #new_hook_label, [scene=scene_name, filters]
             new_hook_label = args[0]
+            flag1 = False
             if len(filter_arr) > 0:
                 for room_name in rooms_list:
                     for obj_name in scenes_data["hooks"][room_name]:
@@ -238,6 +208,8 @@ init python:
                                 hooks_list[idx]["hook_label"] = new_hook_label
                                 flag1 = True
                                 scenes_data["hooks"][room_name][obj_name] = hooks_list
+                if flag1 == False and debugMode == True:
+                    notif("Can't find object for hook: " + str(new_hook_label))
                 return flag1
         return False
 
@@ -289,6 +261,8 @@ label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen
             if sprites_hover_dummy_screen_flag == True:
                 show screen sprites_hover_dummy_screen()
                 $ sprites_hover_dummy_screen_flag = False
+            $ print "call HOOOK!!!"
+            $ print label_name
             call expression label_name #вызов хука
         $ stack_data = hooks_stack.pop()
         $ label_name = stack_data[2]

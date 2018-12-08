@@ -44,7 +44,8 @@ label dick_office_cabinet_environment:
         return
     if obj_name == "DickTheLawyer":
         if act == "l":
-            mt "Вот он! Жирный ублюдок, за которым я столько бегала!"
+            mt "Мне надо как-то вырвать Дика из когтей этой сучки!"
+#            mt "Вот он! Жирный ублюдок, за которым я столько бегала!"
             return
         if act == "t":
             return

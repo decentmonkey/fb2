@@ -41,6 +41,8 @@ label monica_office_photostudio_environment:
         return
     if obj_name == "Melanie":
         if obj_data["action"] == "l":
+            "Мелани - это топ-модель на сегодняшний день."
+            "Похоже она неплохо себя чувствует пока меня нет..."
             return
         if obj_data["action"] == "t":
             return
@@ -54,26 +56,26 @@ label monica_office_photostudio_environment:
             return
 
     if obj_name == "Box1":
-        m "Этот световой бокс для заполняющего света, снизу."
+        mt "Этот световой бокс для заполняющего света, снизу."
     if obj_name == "Boxes":
-        m "Какие-то ящики с хламом."
+        mt "Какие-то ящики с хламом."
         "Конечно там не хлам, а дорогое оборудование, но тем не менее..."
     if obj_name == "Cloth":
-        m "Полотно для фона во время съемок."
+        mt "Полотно для фона во время съемок."
         $ photostudioLightsCntLooked += 1
     if obj_name == "SpotLight1" or obj_name == "SpotLight2":
-        m "Софтбокс для бокового света, насколько я помню..."
+        mt "Софтбокс для бокового света, насколько я помню..."
         $ photostudioLightsCntLooked += 1
     if obj_name == "SpotLight3":
-        m "Это просветный зонт, для заливающего света."
+        mt "Это просветный зонт, для заливающего света."
         $ photostudioLightsCntLooked += 1
     if obj_name == "SpotLight4":
-        m "Это контровой свет.
+        mt "Это контровой свет.
         Цветной."
         $ photostudioLightsCntLooked += 1
 
     if obj_name == "Top_Spotlights":
-        m "Эти прожекторы освещают модель сверху, а также подсвечивают фон за ней."
+        mt "Эти прожекторы освещают модель сверху, а также подсвечивают фон за ней."
         $ photostudioLightsCntLooked += 1
 
 

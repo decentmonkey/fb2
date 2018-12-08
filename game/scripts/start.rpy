@@ -133,7 +133,7 @@ label start_game:
     call Betty_Life_init()
     call Ralph_Life_init()
     call Fred_Life_init()
-    call biff_Life_init()
+    call Biff_Life_init()
 
     # Постель в подвале
     $ add_hook("BasementBed", "basement_bed_hook", scene="basement_bedroom2")
@@ -175,7 +175,9 @@ label start_game:
     $ add_hook("Teleport_Monica_Office_Photostudio", "monica_office_secretary_dialogue1", scene="monica_office_secretary", label="secretary1")
 
     $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_secretary_dialogue4a", scene="monica_office_secretary", label="check_bill_at_place", priority=150)
-    $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_cabinet_biff_dialogue1", scene="monica_office_secretary", label="biff1")
+    $ add_hook("Table", "monica_office_cabinet_biff_dialogue1", scene="monica_office_cabinet", label="biff1")
+    $ add_hook("Biff", "monica_office_cabinet_biff_dialogue1", scene="monica_office_cabinet", label="biff1")
+
     $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_secretary_dialogue1", scene="monica_office_secretary", label="secretary1")
 
     $ move_object("Melanie", "monica_office_cabinet")
