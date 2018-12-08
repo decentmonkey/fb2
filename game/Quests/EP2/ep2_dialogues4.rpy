@@ -787,7 +787,9 @@ label monica_office_cabinet_biff_dialogue2a:
     return
 
 label monica_office_cabinet_biff_dialogue3:
-
+    if monica_office_cabinet_biff_dialogue3Flag == True:
+        jump .local1
+    $ monica_office_cabinet_biff_dialogue3Flag = True
     #render
     #Моника разговаривает с Бифом второй раз, уже о работе.
     music Groove2_85
@@ -925,39 +927,41 @@ label monica_office_cabinet_biff_dialogue3:
     "Я посмотрю еще стоишь-ли ты этих денег!"
     img 6470
     mt "!!!"
-    sound highheels_short_walk
-    img 6471
-    biff "Итак, ты согласна?"
-    menu:
-        "Да, я согласна...":
-            pass
-        "Уйти.":
-            call change_scene("monica_office_secretary")
-            return False
-    $ add_corruption(monicaBiffWork1CorruptionAdding, "monica_office_cabinet_biff_dialogue3")
-    m "Да, я согласна..."
+    label .local1:
+        sound highheels_short_walk
+        img 6471
+        with fade
+        biff "Итак, ты согласна?"
+        menu:
+            "Да, я согласна...":
+                pass
+            "Уйти.":
+                call change_scene("monica_office_secretary")
+                return False
+        $ add_corruption(monicaBiffWork1CorruptionAdding, "monica_office_cabinet_biff_dialogue3")
+        m "Да, я согласна..."
 
-    img 6472
-    biff "Отлично!"
-    "Если честно, Мелани отказалась от этой серии фотосессий."
-    "Она сказала что не хочет иметь ничего общего с полным обнажением."
-    img 6473
-    "Хорошо что мне подвернулась такая цыпочка как ты, которая не имеет проблем с этим!"
-    music Power_Bots_Loop
-    img 6474
-    with fade
-    m "С чем общего??? С ОБНАЖЕНИЕМ?!?!?"
-    img 6475
-    biff "Ну да, этот журнал слишком скучный!"
-    "Сейчас такое уже не модно."
-    "Деньги приносит что-нибудь погорячее!"
-    img 6476
-    with fade
-    m "Я не собираюсь раздеваться ни за какие деньги!!!"
-    "До свидания!!!"
-    img 6477
-    with Dissolve(0.5)
-    biff "{b}Если передумаешь, заглядывай!{/b}"
+        img 6472
+        biff "Отлично!"
+        "Если честно, Мелани отказалась от этой серии фотосессий."
+        "Она сказала что не хочет иметь ничего общего с полным обнажением."
+        img 6473
+        "Хорошо что мне подвернулась такая цыпочка как ты, которая не имеет проблем с этим!"
+        music Power_Bots_Loop
+        img 6474
+        with fade
+        m "С чем общего??? С ОБНАЖЕНИЕМ?!?!?"
+        img 6475
+        biff "Ну да, этот журнал слишком скучный!"
+        "Сейчас такое уже не модно."
+        "Деньги приносит что-нибудь погорячее!"
+        img 6476
+        with fade
+        m "Я не собираюсь раздеваться ни за какие деньги!!!"
+        "До свидания!!!"
+        img 6477
+        with Dissolve(0.5)
+        biff "{b}Если передумаешь, заглядывай!{/b}"
 
     return True
 

@@ -1,6 +1,7 @@
 default dickDoorBlockedDay = 0
 default biffWaitingForMonicaToWork = False
 default monicaTalkedSecretary1 = False
+default monica_office_cabinet_biff_dialogue3Flag = False
 
 label fred_talk_monica1:
     $ add_hook("before_open", "fred_talk_monica1a", scene="street_house_main_yard", label="fred_talk1")
