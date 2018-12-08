@@ -137,9 +137,10 @@ label start_game:
 
     # Постель в подвале
     $ add_hook("BasementBed", "basement_bed_hook", scene="basement_bedroom2")
-    $ add_hook("change_time_day", "basement_monica_after_sleep", scene="global")
-    $ add_hook("change_time_evening", "basement_monica_after_nap", scene="global")
-
+    $ add_hook("basement_monica_after_sleep", "basement_monica_after_sleep", scene="global")
+    $ add_hook("basement_monica_after_nap", "basement_monica_after_nap", scene="global")
+    $ add_hook("basement_monica_after_sleep_dialogue", "basement_monica_after_sleep_dialogue1", scene="global")
+    $ add_hook("basement_monica_after_nap_dialogue", "basement_monica_after_nap_dialogue1", scene="global")
     # Уборка в доме
     $ add_hook("enter_scene", "house_cleaning", scene="floor1")
     $ add_hook("enter_scene", "house_cleaning", scene="floor2")

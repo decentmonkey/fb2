@@ -6,18 +6,14 @@ init python:
         if dayTime == "evening":
             day_time = "evening"
             day_suffix = "_Evening"
-            renpy.call("process_hooks", "change_time_evening", "global")
-            renpy.call("process_hooks", "day_" + str(week_day) + "_evening", "global_week_day")
-            renpy.call("process_hooks", "day_" + str(day) + "_evening", "global_day")
+            renpy.call("changeDayTime_evening_hooks")
             return
         if dayTime == "day":
             day_time = "day"
             day_suffix = ""
             day = day + 1
             week_day = (day)%7
-            renpy.call("process_hooks", "change_time_day", "global")
-            renpy.call("process_hooks", "day_" + str(week_day), "global_week_day")
-            renpy.call("process_hooks", "day_" + str(day), "global_day")
+            renpy.call("changeDayTime_day_hooks")
             return
         return
 
@@ -36,3 +32,15 @@ init python:
             if renpy.has_label(scene_label + sceneStages[idx]):
                 return scene_label + sceneStages[idx]
         return scene_label
+
+
+label changeDayTime_day_hooks:
+    call process_hooks("change_time_day", "global")
+    call process_hooks("day_" + str(week_day), "global_week_day")
+    call process_hooks("day_" + str(day), "global_day")
+    return
+label changeDayTime_evening_hooks:
+    call process_hooks("change_time_evening", "global")
+    call process_hooks("day_" + str(week_day) + "_evening", "global_week_day")
+    call process_hooks("day_" + str(day) + "_evening", "global_day")
+    return

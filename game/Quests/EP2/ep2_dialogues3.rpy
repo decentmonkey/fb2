@@ -607,6 +607,12 @@ label monica_dick_secretary_dialogue4:
     "Для этого есть секретарь."
     return
 
+label monica_dick_office_refuse_dialogue1:
+    if act=="l":
+        return
+    mt "Без денег мне там нечего делать."
+    return False
+
 label monica_dick_office_dialogue2:
     #Моника выходит из офиса Дика после разговора о галстуке
     mt "ЧЕРТ!"

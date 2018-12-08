@@ -94,7 +94,8 @@ label dick_the_lawyer_talk1:
     $ autorun_to_object("monica_dick_secretary_dialogue2a", scene="dick_office_secretary")
     $ autorun_to_object("monica_dick_office_dialogue2", scene="street_dick_office")
     $ nextFriday = getNextDayByWeekDay(5)
-    $ add_hook_day("dick_secretary_time_to_pay1", day = nextFriday, evening=True)
+#    $ add_hook_day("dick_secretary_time_to_pay1", day = nextFriday, evening=True)
+    $ add_hook_day("dick_secretary_time_to_pay1", day = nextFriday)
     $ remove_hook(label="biff_refuse1") # очищаем дорогу к Бифу
     $ add_hook("Secretary", "monica_office_secretary_talk_before_work_request", scene="monica_office_secretary", label="monica_secretary2")
     $ add_hook_multi("monica_office_secretary_talk_before_work_request", scene="monica_office_secretary", filter={"teleport":True}, label="monica_secretary2_teleport", priority=160)
@@ -121,15 +122,26 @@ label dick_secretary_talk3: #регулярный
 
 
 label dick_secretary_time_to_pay1:
-    m "Время платить!"
-    if biffWaitingForMonicaToWork == False:
-        "но пока не надо!"
-        $ nextFriday = getNextDayByWeekDay(5)
-        $ remove_hook()
-        $ add_hook_day("dick_secretary_time_to_pay1", day = nextFriday, evening=True)
-
-        return
+    $ add_hook("Teleport_Inside", "monica_dick_office_refuse_dialogue1", scene="street_dick_office", label="dick_blocked")
+    $ add_hook("BasementBed", "basement_bed_hook", scene="basement_bedroom2")
+    $ add_hook("basement_monica_before_sleep", "dick_secretary_time_to_pay2", scene="global")
+    $ add_hook("basement_monica_after_sleep_dialogue", "dick_secretary_time_to_pay1a", scene="global")
+    $ remove_hook()
+#    if biffWaitingForMonicaToWork == False:
+#        "но пока не надо!"
+#        $ nextFriday = getNextDayByWeekDay(5)
+#        $ remove_hook()
+#        $ add_hook_day("dick_secretary_time_to_pay1", day = nextFriday, evening=True)
+#        return
     return
+label dick_secretary_time_to_pay1a:
+    mt "Сегодня пятница. Мне надо {b}найти $ 5000 до вечера{/b}!"
+    "Тогда Дик убедится в моей лояльности и вытащит меня из этой ситуации, в которую я попала!"
+    $ remove_hook()
+    return
+label dick_secretary_time_to_pay2:
+    mt "Я не могу идти спать. Я должна {b}принести сегодня $ 5000 Дику{/b}!"
+    return False
 
 label monica_office_secretary_talk_before_work_request:
     if obj_name == "Secretary" and act == "l":
@@ -145,19 +157,22 @@ label monica_office_biff_talk_about_work1: #Моника разговарива�
     $ monicaOfficeSecretaryMonicaSuffix = ""
     $ autorun_to_object("monica_office_secretary_dialogue5", scene="monica_office_secretary")
     if nextFriday != day:
-        $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_cabinet_biff_dialogue2", scene="monica_office_secretary", label="biff_refuse1")
+        $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_cabinet_biff_dialogue2", scene="monica_office_secretary", label="biff_refuse1") # Если не пятница, то блокируем Бифа на сегодня
     $ remove_hook(label="monica_secretary2")
+    if nextFriday == day: # уже пятница, активируем
+        $ replace_hook("monica_office_biff_talk_about_work2", scene="monica_office_cabinet_table", label="biff2") # Разговариваем с Бифом в 3-ий раз, соглашаясь на обнажение постепенно
+
     $ biffWaitingForMonicaToWork = True
     $ add_hook("change_time_day", "monica_office_biff_talk_about_work1_next_day", scene="global")
 #    $ biffOnlyFridayEvening = True # Бифф будет только в пятницу вечером
     return False
 
-label monica_office_biff_talk_about_work1_next_day:
+label monica_office_biff_talk_about_work1_next_day: # Если вчера была не пятница, то вешаем хуки об отсутствии Бифа до пятницы (хрень какая-то, так и есть :) )
     m "monica_office_biff_talk_about_work1_next_day"
     $ remove_hook()
     $ replace_hook("monica_office_secretary_dialogue4", scene="monica_office_secretary", label="biff_refuse1")
-    $ remove_hook(label="biff_refuse1")
-    $ replace_hook("monica_office_biff_talk_about_work1", scene="monica_office_cabinet_table", label="biff2")
+#    $ remove_hook(label="biff_refuse1")
+    $ replace_hook("monica_office_biff_talk_about_work2", scene="monica_office_cabinet_table", label="biff2")  # Разговариваем с Бифом в 3-ий раз, соглашаясь на обнажение постепенно
 
     return
 

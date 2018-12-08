@@ -6,6 +6,7 @@ define bettyTryOutInGovernessClothRegressAmount = -10 # Насколько уб�
 define bardieCleaningUpskirtTry = 60 #15 #Прогресс с Барди за попытку подсмотреть во время уборки (начальная стадия)
 define bardieCleaningUpskirtTryCorruption = 0 # Увеличение corruption, когда Барди подсматривает под юбку Моники
 define monicaCleaningAddCorruptionPerCleaning = 1 #Увеличение corruption за одну уборку
+define monicaBiffWork1CorruptionAdding = 20 # Увеличение corruption за согласие сниматься (пока просто, без обнажения)
 define monicaKebabWorkFlyersAmount = 5 # Количество флаеров, которые надо раздать Монике
 define monicaKebabWorkFlyersAmountRandomDiff = 1 #Рандом, в котором будет делаться отклонение от monicaKebabWorkFlyersAmount
 

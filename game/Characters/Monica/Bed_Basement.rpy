@@ -33,7 +33,14 @@ label monica_take_nap:
         "Лечь и ждать вечера.":
             #транзиция на отдых
             call basement_monica_nap_transition1()
+            call process_hooks("basement_monica_before_nap", "global")
+            if _return == False:
+                $ basement_bedroom2_MonicaSuffix = 2
+                call refresh_scene_fade()
+                return False
             $ changeDayTime("evening")
+            call process_hooks("basement_monica_after_nap", "global")
+            call refresh_scene_fade()
             return False
         "Не ложиться.":
             return False
@@ -51,23 +58,37 @@ label monica_gosleep1:
             mt "Я сегодня ничего не ела! Лечь спать голодной?"
             menu:
                 "Лечь спать голодной.":
+                    call basement_monica_sleep_transition1()
+                    call process_hooks("basement_monica_before_sleep", "global")
+                    if _return == False:
+                        $ basement_bedroom2_MonicaSuffix = 2
+                        call refresh_scene_fade()
+                        return False
                     call processHouseCleaningEvening()
                     if cloth != "Nude":
                         $ cloth_type = "Nude"
                         $ cloth = "GovernessPants"
-                    call basement_monica_sleep_transition1()
                     $ changeDayTime("day")
+                    call process_hooks("basement_monica_after_sleep", "global")
+                    call refresh_scene_fade()
                     return False
                 "Не ложиться.":
                     return False
     menu:
         "Лечь спать.":
+            call basement_monica_sleep_transition1()
+            call process_hooks("basement_monica_before_sleep", "global")
+            if _return == False:
+                $ basement_bedroom2_MonicaSuffix = 2
+                call refresh_scene_fade()
+                return False
             call processHouseCleaningEvening()
             if cloth != "Nude":
                 $ cloth_type = "Nude"
                 $ cloth = "GovernessPants"
-            call basement_monica_sleep_transition1()
             $ changeDayTime("day")
+            call process_hooks("basement_monica_after_sleep", "global")
+            call refresh_scene_fade()
             return False
         "Не ложиться.":
             return False
@@ -87,7 +108,11 @@ label basement_monica_sleep_transition1:
     return
 
 label basement_monica_after_nap:
-    $ autorun_to_object("basement_monica_after_nap_dialogue1")
+    $ autorun_to_object("basement_monica_after_nap_dialogue")
+    return
+
+label basement_monica_after_nap_dialogue:
+    call process_hooks("basement_monica_after_nap_dialogue", "global")
     return
 label basement_monica_after_nap_dialogue1:
     if day - monicaEatedLastDay >= 2:
@@ -97,14 +122,17 @@ label basement_monica_after_nap_dialogue1:
     return
 
 label basement_monica_after_sleep:
-    $ autorun_to_object("basement_monica_after_sleep_dialogue1")
+    $ autorun_to_object("basement_monica_after_sleep_dialogue")
+    return
+label basement_monica_after_sleep_dialogue:
+    call process_hooks("basement_monica_after_sleep_dialogue", "global")
     return
 
 label basement_monica_after_sleep_dialogue1:
     #Моника встает с утра
-    if basement_monica_after_sleep_dialogue1_skip == True:
-        $ basement_monica_after_sleep_dialogue1_skip = False
-        return
+#    if basement_monica_after_sleep_dialogue1_skip == True:
+#        $ basement_monica_after_sleep_dialogue1_skip = False
+#        return
     $ rnd = rand(1,5)
     if rnd == 1:
         mt "Еще одно утро в этой дыре! Мне надо что-то придумать, чтобы вернуть все назад как было!"

@@ -261,8 +261,6 @@ label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen
             if sprites_hover_dummy_screen_flag == True:
                 show screen sprites_hover_dummy_screen()
                 $ sprites_hover_dummy_screen_flag = False
-            $ print "call HOOOK!!!"
-            $ print label_name
             call expression label_name #вызов хука
         $ stack_data = hooks_stack.pop()
         $ label_name = stack_data[2]
