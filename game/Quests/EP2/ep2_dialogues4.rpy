@@ -775,6 +775,7 @@ label monica_office_cabinet_biff_dialogue2a:
     mt "Ну что-ж... Биф..."
     mt "Поговорим с ним о том чтобы получить работу..."
     img 6440
+    with Dissolve(0.5)
     "Посмотрим что он хочет от меня..."
     "Если я хочу вернуть назад компанию, то мне стоит находиться где-то здесь, рядом..."
     "А работа - это хороший повод..."
@@ -952,7 +953,7 @@ label monica_office_cabinet_biff_dialogue3:
     img 6477
     with Dissolve(0.5)
     biff "{b}Если передумаешь, заглядывай!{/b}"
-    
+
     return
 
 label monica_office_secretary_dialogue5:
