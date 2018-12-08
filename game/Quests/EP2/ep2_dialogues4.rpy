@@ -579,7 +579,7 @@ label monica_office_cabinet_biff_dialogue1a:
 
     # Если Моника разносила флаеры
     if monicaKnowAboutKebabWork == True:
-        notif(_("Монике пришлось зарабатывать на еду разноской флаеров"))
+        $ notif(_("Монике пришлось зарабатывать на еду разноской флаеров"))
         "Он будет разносить газеты всю свою оставшуюся жизнь!!!"
         "Или флаеры!!! Да!!!"
         call bitch(10, "monicaKnowAboutKebabWork_biff")
