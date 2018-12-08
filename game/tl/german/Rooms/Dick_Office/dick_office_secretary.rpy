@@ -58,3 +58,29 @@ translate german strings:
     old "НАЗАД В ХОЛЛ"
     new "ZURÜCK ZUR VORHALLE"
 
+# TODO: Translation updated at 2018-12-08 17:35
+
+# game/Rooms/Dick_Office/dick_office_secretary.rpy:44
+translate german dick_office_secretary_environment_7019b42d:
+
+    # mt "Эта сучка много на себя берет!"
+    mt "Эта сучка много на себя берет!"
+
+# game/Rooms/Dick_Office/dick_office_secretary.rpy:46
+translate german dick_office_secretary_environment_1f8599a5:
+
+    # mt "Она много на себя берет!"
+    mt "Она много на себя берет!"
+
+# game/Rooms/Dick_Office/dick_office_secretary.rpy:52
+translate german dick_office_secretary_environment_7019b42d_1:
+
+    # mt "Эта сучка много на себя берет!"
+    mt "Эта сучка много на себя берет!"
+
+# game/Rooms/Dick_Office/dick_office_secretary.rpy:54
+translate german dick_office_secretary_environment_1f8599a5_1:
+
+    # mt "Она много на себя берет!"
+    mt "Она много на себя берет!"
+

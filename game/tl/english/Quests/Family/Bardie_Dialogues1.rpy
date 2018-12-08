@@ -13,7 +13,7 @@ translate english bardieDialogue1_97c85581:
 
     # bardie "Я тебя сюда устроил, помнишь?"
     # "Ты мне должна!"
-    bardie "I employed you here, remember?"
+    bardie "I employed you here, do you remember?"
     "You owe me!"
 
 # game/Quests/Family/Bardie_Dialogues1.rpy:15

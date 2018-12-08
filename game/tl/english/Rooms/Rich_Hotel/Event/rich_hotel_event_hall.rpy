@@ -22,7 +22,7 @@ translate english rich_hotel_event_hall_environment_23ced526:
     # mt "Какой-то кавалер..."
     # "Сотрит на меня весь вечер."
     # "Мило..."
-    mt "Some admirer.."
+    mt "Some admirer..."
     "Staring at me all night."
     "Nice..."
 
@@ -44,7 +44,7 @@ translate english rich_hotel_event_hall_environment_a127c17c:
 translate english rich_hotel_event_hall_environment_3775ea5b:
 
     # mt "В этих стульях явно не спрятаны деньги, которые мне так нужны!"
-    mt "It is clearly that there is no money that I need in these chairs."
+    mt "It is clear that there is no money that I need in these chairs."
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:84
 translate english rich_hotel_event_hall_environment_32e9aad3:

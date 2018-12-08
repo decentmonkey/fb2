@@ -10,7 +10,7 @@ translate english monica_office_secretary_environment_44e0e614:
     mt "This is the floor of my main office."
     "I have everything at hand here."
     "My Secretary, my photo Studio and my office."
-    "Now the Cabinet is not mine but soon it will be MINE again!!!"
+    "Now the Cabinet is not mine, but soon it will be MINE again!!!"
 
 # game/Rooms/Monica_Office/monica_office_secretary.rpy:65
 translate english monica_office_secretary_environment_08ba9afd:
@@ -34,7 +34,7 @@ translate english monica_office_secretary_environment_ee057710:
 translate english monica_office_secretary_environment_9b84380b:
 
     # mt "Из этих окон ужасный вид на город!"
-    mt "From these windows there is a terrible view of the city!"
+    mt "From these windows, there is a terrible view of the city!"
 
 # game/Rooms/Monica_Office/monica_office_secretary.rpy:77
 translate english monica_office_secretary_environment_15bd50a9:

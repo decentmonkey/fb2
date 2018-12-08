@@ -70,3 +70,11 @@ translate english strings:
     old "СЕКРЕТАРЬ"
     new "SECRETARY"
 
+# TODO: Translation updated at 2018-12-08 17:34
+
+# game/Rooms/Dick_Office/dick_office_cabinet.rpy:47
+translate english dick_office_cabinet_environment_f85fb8b3:
+
+    # mt "Мне надо как-то вырвать Дика из когтей этой сучки!"
+    mt "Мне надо как-то вырвать Дика из когтей этой сучки!"
+

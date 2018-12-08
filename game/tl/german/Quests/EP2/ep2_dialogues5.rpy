@@ -3014,3 +3014,263 @@ translate german strings:
     old "Проглотить сперму по настоящему, иначе Филип увидит и я не получу деньги..."
     new "Schlucke das Sperma wirklich, sonst checkt das Philip und ich bekomme kein Geld..."
 
+# TODO: Translation updated at 2018-12-08 17:35
+
+# game/Quests/EP2/ep2_dialogues5.rpy:9
+translate german monica_rich_hotel_entrance_31ad8d20:
+
+    # biff "Добрый вечер!"
+    # "Я веду этих цыпочек на благотворительный вечер!"
+    biff "Добрый вечер!"
+    "Я веду этих цыпочек на благотворительный вечер!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:54
+translate german monica_charity_event_dialogue1_61d2530c:
+
+    # biff "Ты все подготовил?"
+    # "Хороший мальчик!"
+    biff "Ты все подготовил?"
+    "Хороший мальчик!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:58
+translate german monica_charity_event_dialogue1_53a55bd9:
+
+    # biff "Моника, Мелани! Быстро на сцену!"
+    # "Отрабатывайте свои деньги!"
+    biff "Моника, Мелани! Быстро на сцену!"
+    "Отрабатывайте свои деньги!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:71
+translate german monica_charity_event_dialogue2_6972e54e:
+
+    # biff "Господа!"
+    # "Я рад приветствовать Вас на этом благотворительном вечере!"
+    biff "Господа!"
+    "Я рад приветствовать Вас на этом благотворительном вечере!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:79
+translate german monica_charity_event_dialogue2_99b9f9cb:
+
+    # biff "Как Вы знаете, наш журнал является законодателем Моды!"
+    # "Это самое авторитетное издание из всех подобных!"
+    biff "Как Вы знаете, наш журнал является законодателем Моды!"
+    "Это самое авторитетное издание из всех подобных!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:123
+translate german monica_charity_event_dialogue2_83604d5b:
+
+    # biff "Ну, давай кукла!"
+    # "Притворись Моникой Бакфетт!"
+    biff "Ну, давай кукла!"
+    "Притворись Моникой Бакфетт!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:196
+translate german monica_charity_event_dialogue2a_09baa364:
+
+    # m "..."
+    # biff "Ну, курица! Скажи что-нибудь еще!!!"
+    m "..."
+    biff "Ну, курица! Скажи что-нибудь еще!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:211
+translate german monica_charity_event_dialogue2a_195dfcea:
+
+    # biff "Молодец, цыпочка!"
+    # "Продолжай играть!"
+    biff "Молодец, цыпочка!"
+    "Продолжай играть!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:280
+translate german monica_charity_event_dialogue4_d3e53b66:
+
+    # m "Биф!"
+    # "Ты удовлетворен выступлением?"
+    # biff "Да, цыпочка!"
+    # "Ты хорошо поработала!"
+    m "Биф!"
+    "Ты удовлетворен выступлением?"
+    biff "Да, цыпочка!"
+    "Ты хорошо поработала!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:286
+translate german monica_charity_event_dialogue4_edc88a28:
+
+    # m "Биф, ты ничего не забыл?"
+    # biff "Что ты имеешь ввиду?"
+    m "Биф, ты ничего не забыл?"
+    biff "Что ты имеешь ввиду?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:293
+translate german monica_charity_event_dialogue4_2ff20edf:
+
+    # biff "Ах! Про это!"
+    # "У меня нет с собой наличных, детка!"
+    # "Мне их скоро привезут."
+    biff "Ах! Про это!"
+    "У меня нет с собой наличных, детка!"
+    "Мне их скоро привезут."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:300
+translate german monica_charity_event_dialogue4_b0ba191f:
+
+    # biff "В течении часа."
+    # "Ты пока можешь {b}расслабиться и выпить вина{/b}."
+    biff "В течении часа."
+    "Ты пока можешь {b}расслабиться и выпить вина{/b}."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:312
+translate german monica_charity_event_dialogue5_0af9d6c6:
+
+    # biff "Мне пока не привезли деньги, детка!"
+    # "{b}Расслабься, выпей вина{/b}!"
+    biff "Мне пока не привезли деньги, детка!"
+    "{b}Расслабься, выпей вина{/b}!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:599
+translate german monica_charity_event_dialogue10_29306ad4:
+
+    # biff "О! Крошка!"
+    # "Я вижу ты неплохо отдыхаешь!"
+    # "Тебе понравилось вино?"
+    biff "О! Крошка!"
+    "Я вижу ты неплохо отдыхаешь!"
+    "Тебе понравилось вино?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:609
+translate german monica_charity_event_dialogue10_b6a087bd:
+
+    # biff "Иди сюда, цыпочка!"
+    biff "Иди сюда, цыпочка!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:612
+translate german monica_charity_event_dialogue10_041616f4:
+
+    # biff "Вот, держи!"
+    biff "Вот, держи!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:627
+translate german monica_charity_event_dialogue10_89a515cc:
+
+    # biff "Я все помню, цыпочка!"
+    # "Не повышай на меня голос!"
+    # "Это деньги за вычетом благотворительного вечера!"
+    # "Я не стал вычитать сумму взносов, но вычел расходы на еду и напитки!"
+    biff "Я все помню, цыпочка!"
+    "Не повышай на меня голос!"
+    "Это деньги за вычетом благотворительного вечера!"
+    "Я не стал вычитать сумму взносов, но вычел расходы на еду и напитки!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:638
+translate german monica_charity_event_dialogue10_59b1c611:
+
+    # biff "Ничем не могу помочь, детка!"
+    biff "Ничем не могу помочь, детка!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:643
+translate german monica_charity_event_dialogue10_1d727408:
+
+    # biff "Эй! Детка! Следи за языком!"
+    biff "Эй! Детка! Следи за языком!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:869
+translate german monica_charity_event_dialogue16_2674bf33:
+
+    # biff "Детка! Я говорил тебе уже!"
+    # "Я с тобой полностью рассчитался!"
+    biff "Детка! Я говорил тебе уже!"
+    "Я с тобой полностью рассчитался!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:888
+translate german monica_charity_event_dialogue16_8c04d6f1:
+
+    # biff "Нет, говори!"
+    biff "Нет, говори!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:898
+translate german monica_charity_event_dialogue16_8952d999:
+
+    # biff "Вот видишь, цыпочка!"
+    biff "Вот видишь, цыпочка!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:911
+translate german monica_charity_event_dialogue16_7d6edbde:
+
+    # biff "Хорошей цыпочкой - это какой?"
+    biff "Хорошей цыпочкой - это какой?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:921
+translate german monica_charity_event_dialogue16_ec258e6e:
+
+    # biff "Ха-ха-ха!"
+    # "Детка, а ты знаешь подход к папочке!"
+    biff "Ха-ха-ха!"
+    "Детка, а ты знаешь подход к папочке!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:944
+translate german monica_charity_event_dialogue16_6a333edf:
+
+    # biff "Ха-ха-ха!"
+    # "Мелани! Я спросил тебя просто так!"
+    # "В любом случае решать папочке!"
+    # "..."
+    biff "Ха-ха-ха!"
+    "Мелани! Я спросил тебя просто так!"
+    "В любом случае решать папочке!"
+    "..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1707
+translate german monica_charity_event_dialogue19_0357ca5a:
+
+    # m "Биф! Я ухожу отсюда!"
+    # imt 6766
+    # biff "Постой, детка! Мы вместе поедем сейчас в офис!"
+    # "Ты забыла там свою одежду!"
+    # "Ха-ха-ха!"
+    m "Биф! Я ухожу отсюда!"
+    imt 6766
+    biff "Постой, детка! Мы вместе поедем сейчас в офис!"
+    "Ты забыла там свою одежду!"
+    "Ха-ха-ха!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1717
+translate german monica_office_biff_dialogue_evening1_174473eb:
+
+    # biff "Детка, ты свободна на сегодня!"
+    # "Не уверен что ты стоишь $ 5.000, но я подумаю..."
+    biff "Детка, ты свободна на сегодня!"
+    "Не уверен что ты стоишь $ 5.000, но я подумаю..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1725
+translate german monica_office_biff_dialogue_evening1_560f6971:
+
+    # biff "А попа! Ты собираешься мне ее показывать или нет?"
+    biff "А попа! Ты собираешься мне ее показывать или нет?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1730
+translate german monica_office_biff_dialogue_evening1_87428f5c:
+
+    # biff "Ах да! Ты сделаешь это перед следующей фотосессией!"
+    biff "Ах да! Ты сделаешь это перед следующей фотосессией!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1735
+translate german monica_office_biff_dialogue_evening1_ababf4e4:
+
+    # biff "До следующей фотосессии, цыпочка!"
+    biff "До следующей фотосессии, цыпочка!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1742
+translate german monica_office_biff_dialogue_evening1_7a886726:
+
+    # biff "Иди переодевайся!"
+    # "Это платье и украшения принадлежат компании!"
+    biff "Иди переодевайся!"
+    "Это платье и украшения принадлежат компании!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1755
+translate german monica_office_biff_dialogue_evening1_51889768:
+
+    # biff "Да!"
+    # biff "Можешь идти!"
+    biff "Да!"
+    biff "Можешь идти!"
+

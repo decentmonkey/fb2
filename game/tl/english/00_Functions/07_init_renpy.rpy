@@ -196,7 +196,7 @@ translate english strings:
 
     # 00_Functions/07_init_renpy.rpy:59
     old "Биф"
-    new "biff"
+    new "Beef"
 
     # 00_Functions/07_init_renpy.rpy:60
     old "Бетти Робертс"
@@ -212,7 +212,7 @@ translate english strings:
 
     # 00_Functions/07_init_renpy.rpy:64
     old "Сотрудник Отеля"
-    new "Hotel stuff member"
+    new "Hotel staff member"
 
     # 00_Functions/07_init_renpy.rpy:65
     old "Филип"

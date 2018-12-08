@@ -12,7 +12,7 @@ translate english strings:
 
     # scripts/init.rpy:39
     old "Биф обещал взять Монику работать в офис."
-    new "biff promised to take Monica to work in the office."
+    new "Beef promised to take Monica to work in the office."
 
     # scripts/init.rpy:39
     old "Барди ищет способ заглянуть Монике под юбку."
@@ -108,5 +108,13 @@ translate english strings:
 
     # scripts/init.rpy:235
     old "Косяк"
-    new ""
+    new "Косяк"
+
+# TODO: Translation updated at 2018-12-08 17:34
+
+translate english strings:
+
+    # scripts/init.rpy:54
+    old "Фотограф извращенец"
+    new "Фотограф извращенец"
 

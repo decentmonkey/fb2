@@ -70,3 +70,11 @@ translate german strings:
     old "СЕКРЕТАРЬ"
     new "SEKRETÄRIN"
 
+# TODO: Translation updated at 2018-12-08 17:35
+
+# game/Rooms/Dick_Office/dick_office_cabinet.rpy:47
+translate german dick_office_cabinet_environment_f85fb8b3:
+
+    # mt "Мне надо как-то вырвать Дика из когтей этой сучки!"
+    mt "Мне надо как-то вырвать Дика из когтей этой сучки!"
+

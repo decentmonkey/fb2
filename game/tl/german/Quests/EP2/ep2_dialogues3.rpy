@@ -936,3 +936,539 @@ translate german strings:
     old "Сделать Виктории комплимент..."
     new "Mache Victoria ein Kompliment..."
 
+# TODO: Translation updated at 2018-12-08 17:35
+
+# game/Quests/EP2/ep2_dialogues3.rpy:57
+translate german monica_dick_office_dialogue1a_1c5e2e8b:
+
+    # reception_secretary "Мэм, вы куда?"
+    reception_secretary "Мэм, вы куда?"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:59
+translate german monica_dick_office_dialogue1a_6cfb7f6b:
+
+    # m "Я к Дику Адвокату!"
+    m "Я к Дику Адвокату!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:61
+translate german monica_dick_office_dialogue1a_0557580c:
+
+    # reception_secretary "Мэм, его сегодня нет..."
+    reception_secretary "Мэм, его сегодня нет..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:64
+translate german monica_dick_office_dialogue1a_119feeef:
+
+    # reception_secretary "Он куда-то уехал с самого утра."
+    reception_secretary "Он куда-то уехал с самого утра."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:67
+translate german monica_dick_office_dialogue1a_1e890bd2:
+
+    # reception_secretary "Он и Мисс Виктория куда-то уехали."
+    reception_secretary "Он и Мисс Виктория куда-то уехали."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:74
+translate german monica_dick_office_dialogue1b_1aabf85d:
+
+    # mt "Вот черт! Дика нет!"
+    # "Надо зайти в другой день..."
+    mt "Вот черт! Дика нет!"
+    "Надо зайти в другой день..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:118
+translate german monica_dick_secretary_dialogue1a_e81b8d80:
+
+    # m "Мне не нужны такие друзья!"
+    # dick_secretary "..." 
+    m "Мне не нужны такие друзья!"
+    dick_secretary "..." 
+
+# game/Quests/EP2/ep2_dialogues3.rpy:129
+translate german monica_dick_dialogue1a_c9ac6675:
+
+    # mt "Вот и тюфяк... Надеюсь в этот раз получится лучше..."
+    mt "Вот и тюфяк... Надеюсь в этот раз получится лучше..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:192
+translate german monica_dick_dialogue1_e612037c:
+
+    # m "..."
+    m "..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:194
+translate german monica_dick_dialogue1_2158d6fe:
+
+    # dick "???"
+    dick "???"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:231
+translate german monica_dick_dialogue1_local1_2bd7df44:
+
+    # m "Дик..."
+    m "Дик..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:240
+translate german monica_dick_dialogue1_local1_36599e87:
+
+    # "Дик... Милый..."
+    "Дик... Милый..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:249
+translate german monica_dick_dialogue1_local1_f782ea5e:
+
+    # "Дик..."
+    "Дик..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:252
+translate german monica_dick_dialogue1_local1_b954613b:
+
+    # "Я пока не нашла деньги на..."
+    "Я пока не нашла деньги на..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:255
+translate german monica_dick_dialogue1_local1_409f6450:
+
+    # "Я пока не нашла деньги на твой галстук..."
+    "Я пока не нашла деньги на твой галстук..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:258
+translate german monica_dick_dialogue1_local1_2fdc9f98:
+
+    # "Но ведь тебе нужен не галстук, милый?"
+    "Но ведь тебе нужен не галстук, милый?"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:264
+translate german monica_dick_dialogue1_local1_f7234d4c:
+
+    # "Дик! Иди ко мне!"
+    "Дик! Иди ко мне!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:272
+translate german monica_dick_dialogue1_local1_ff8a2831:
+
+    # dick "Моника, я знаю что ты лжешь."
+    # "Для тебя не составит труда найти эти деньги."
+    dick "Моника, я знаю что ты лжешь."
+    "Для тебя не составит труда найти эти деньги."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:275
+translate german monica_dick_dialogue1_local1_2a02690b:
+
+    # "Ты просто не хочешь уделить мне знак внимания."
+    # "..."
+    "Ты просто не хочешь уделить мне знак внимания."
+    "..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:279
+translate german monica_dick_dialogue1_local1_e928c19e:
+
+    # "В общем Моника. Я позвал тебя чтобы сообщить..."
+    # "Я не хочу больше заниматься твоим делом."
+    "В общем Моника. Я позвал тебя чтобы сообщить..."
+    "Я не хочу больше заниматься твоим делом."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:288
+translate german monica_dick_dialogue1_local1_359aeee3:
+
+    # m "Дик... Я...."
+    # "Я пока не нашла деньги на..."
+    m "Дик... Я...."
+    "Я пока не нашла деньги на..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:292
+translate german monica_dick_dialogue1_local1_d18f6e2d:
+
+    # dick "Моника, я знаю что ты лжешь."
+    # "Для тебя не составит труда найти эти деньги."
+    # "Ты просто не хочешь уделить мне знак внимания."
+    dick "Моника, я знаю что ты лжешь."
+    "Для тебя не составит труда найти эти деньги."
+    "Ты просто не хочешь уделить мне знак внимания."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:297
+translate german monica_dick_dialogue1_local1_a20cefa7:
+
+    # "..."
+    "..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:300
+translate german monica_dick_dialogue1_local1_e928c19e_1:
+
+    # "В общем Моника. Я позвал тебя чтобы сообщить..."
+    # "Я не хочу больше заниматься твоим делом."
+    "В общем Моника. Я позвал тебя чтобы сообщить..."
+    "Я не хочу больше заниматься твоим делом."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:305
+translate german monica_dick_dialogue1_local1_12bd232e:
+
+    # m "КАК?!?!"
+    # dick "У тебя есть другие друзья. Тот же Маркус."
+    # "Общайся с ними. А у меня есть свои друзья, которые думают обо мне!"
+    m "КАК?!?!"
+    dick "У тебя есть другие друзья. Тот же Маркус."
+    "Общайся с ними. А у меня есть свои друзья, которые думают обо мне!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:310
+translate german monica_dick_dialogue1_local1_5e17e74e:
+
+    # "В отличии от тебя, Моника..."
+    "В отличии от тебя, Моника..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:313
+translate german monica_dick_dialogue1_local1_931ddbc7:
+
+    # m "ДИК?!"
+    # "МАРКУС МНЕ НЕ ДРУГ!!!"
+    # "ОН..."
+    m "ДИК?!"
+    "МАРКУС МНЕ НЕ ДРУГ!!!"
+    "ОН..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:318
+translate german monica_dick_dialogue1_local1_355dc4cc:
+
+    # dick "Моника, мне не важно кто он!"
+    # "Это твои связи и твои проблемы."
+    # "Причем тут я?!"
+    dick "Моника, мне не важно кто он!"
+    "Это твои связи и твои проблемы."
+    "Причем тут я?!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:324
+translate german monica_dick_dialogue1_local1_8f3e882a:
+
+    # mt "О БОЖЕ!!! КАК ЖЕ ТАК!?!?"
+    # "Я НЕ ОЖИДАЛА ТАКОГО ПОВОРОТА!!!"
+    # "МНЕ НАДО КАК-ТО ПЕРЕУБЕДИТЬ ЕГО!!!"
+    # "ИНАЧЕ КОНЕЦ!!!"
+    mt "О БОЖЕ!!! КАК ЖЕ ТАК!?!?"
+    "Я НЕ ОЖИДАЛА ТАКОГО ПОВОРОТА!!!"
+    "МНЕ НАДО КАК-ТО ПЕРЕУБЕДИТЬ ЕГО!!!"
+    "ИНАЧЕ КОНЕЦ!!!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:332
+translate german monica_dick_dialogue1_local1_2d002724:
+
+    # m "ДИК! ПОЖАЛУЙСТА!"
+    # "Я могу тоже быть твоим другом!"
+    # "ДИК!"
+    # "МИЛЫЙ!"
+    m "ДИК! ПОЖАЛУЙСТА!"
+    "Я могу тоже быть твоим другом!"
+    "ДИК!"
+    "МИЛЫЙ!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:338
+translate german monica_dick_dialogue1_local1_bac12071:
+
+    # dick "У меня уже есть друг..."
+    dick "У меня уже есть друг..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:341
+translate german monica_dick_dialogue1_local1_a1b053fa:
+
+    # m "Я... могу дружить и с твоим другом тоже..."
+    # "Дик!"
+    # "Я могу быть вместе с Вами!"
+    m "Я... могу дружить и с твоим другом тоже..."
+    "Дик!"
+    "Я могу быть вместе с Вами!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:346
+translate german monica_dick_dialogue1_local1_9dc6116f:
+
+    # dick "Ты хочешь сказать что можешь поладить с Викторией?"
+    dick "Ты хочешь сказать что можешь поладить с Викторией?"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:349
+translate german monica_dick_dialogue1_local1_28f0bc6e:
+
+    # m "Я?? С ней??"
+    m "Я?? С ней??"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:352
+translate german monica_dick_dialogue1_local1_acf13872:
+
+    # "Конечно, Дик!"
+    # "Конечно! Я с радостью полажу с ней!"
+    "Конечно, Дик!"
+    "Конечно! Я с радостью полажу с ней!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:356
+translate german monica_dick_dialogue1_local1_8884b8ab:
+
+    # dick "Хм..."
+    # "Моника... Я не знаю..."
+    # "Я сомневаюсь..."
+    dick "Хм..."
+    "Моника... Я не знаю..."
+    "Я сомневаюсь..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:361
+translate german monica_dick_dialogue1_local1_6583b402:
+
+    # m "Дорогой! Пожалуйста, не сомневайся во мне!"
+    # "Пожалуйста, дай мне шанс! Я не разочарую тебя!"
+    m "Дорогой! Пожалуйста, не сомневайся во мне!"
+    "Пожалуйста, дай мне шанс! Я не разочарую тебя!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:365
+translate german monica_dick_dialogue1_local1_333f3d1a:
+
+    # dick "Твое дело занимает слишком много сил, а ты..."
+    dick "Твое дело занимает слишком много сил, а ты..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:368
+translate german monica_dick_dialogue1_local1_5db59aea:
+
+    # m "Цвет?"
+    m "Цвет?"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:371
+translate german monica_dick_dialogue1_local1_146f05b3:
+
+    # dick "Что, Моника?"
+    # m "Какой цвет галстука ты хочешь, милый?"
+    dick "Что, Моника?"
+    m "Какой цвет галстука ты хочешь, милый?"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:376
+translate german monica_dick_dialogue1_local1_7fc4c7bd:
+
+    # dick "Хм... Я не думал..."
+    # "Такой чтобы понравился Виктории..."
+    dick "Хм... Я не думал..."
+    "Такой чтобы понравился Виктории..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:379
+translate german monica_dick_dialogue1_local1_2dd02d49:
+
+    # "Моника! А почему бы Вам вместе с ней не купить мне галстук?"
+    # "Вы хотите подружиться! Это будет прекрасный повод!"
+    "Моника! А почему бы Вам вместе с ней не купить мне галстук?"
+    "Вы хотите подружиться! Это будет прекрасный повод!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:383
+translate german monica_dick_dialogue1_local1_099ae1fa:
+
+    # m "Да, дорогой..."
+    # "Я буду очень рада..."
+    # "Только пожалуйста, не бросай мое дело, Дик..."
+    # dick "Хм... Возможно Виктория еще не успела отослать факс об отмене дела..."
+    m "Да, дорогой..."
+    "Я буду очень рада..."
+    "Только пожалуйста, не бросай мое дело, Дик..."
+    dick "Хм... Возможно Виктория еще не успела отослать факс об отмене дела..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:390
+translate german monica_dick_dialogue1_local1_bf657e77:
+
+    # dick "В общем Моника, я жду того что Вы {b}подружитесь с Викторией до конца недели{/b}."
+    # dick "Я даю тебе шанс, Моника."
+    dick "В общем Моника, я жду того что Вы {b}подружитесь с Викторией до конца недели{/b}."
+    dick "Я даю тебе шанс, Моника."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:393
+translate german monica_dick_dialogue1_local1_fdf4f1ae:
+
+    # "{b}В пятницу вечером галстук должен быть на мне!{/b}"
+    "{b}В пятницу вечером галстук должен быть на мне!{/b}"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:395
+translate german monica_dick_dialogue1_local1_00e5f169:
+
+    # "{b}В следующую пятницу вечером галстук должен быть на мне!{/b}"
+    "{b}В следующую пятницу вечером галстук должен быть на мне!{/b}"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:397
+translate german monica_dick_dialogue1_local1_df96b777:
+
+    # m "Да, дорогой! Я тебя не подведу!"
+    m "Да, дорогой! Я тебя не подведу!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:399
+translate german monica_dick_dialogue1_local1_9da8cb28:
+
+    # dick "До свидания, Моника!"
+    # m "До свидания, Дик!"
+    dick "До свидания, Моника!"
+    m "До свидания, Дик!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:449
+translate german monica_dick_secretary_dialogue2_81e39c51:
+
+    # mt "Дьявол! Не могу поверить что я говорю это!!!"
+    mt "Дьявол! Не могу поверить что я говорю это!!!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:451
+translate german monica_dick_secretary_dialogue2_a8de7387:
+
+    # "Говорю этой сучке!"
+    "Говорю этой сучке!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:537
+translate german monica_dick_secretary_dialogue2_57ffa4ac:
+
+    # dick_secretary "Ну вот! Другое дело!"
+    dick_secretary "Ну вот! Другое дело!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:539
+translate german monica_dick_secretary_dialogue2_e2bec9da:
+
+    # "Хи-хи!"
+    "Хи-хи!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:543
+translate german monica_dick_secretary_dialogue2_40414ea3:
+
+    # dick_secretary "Хорошо, {b}в пятницу вечером приходите сюда{/b}."
+    dick_secretary "Хорошо, {b}в пятницу вечером приходите сюда{/b}."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:545
+translate german monica_dick_secretary_dialogue2_ec61311b:
+
+    # dick_secretary "Хорошо, {b}в следующую пятницу вечером приходите сюда{/b}."
+    dick_secretary "Хорошо, {b}в следующую пятницу вечером приходите сюда{/b}."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:546
+translate german monica_dick_secretary_dialogue2_d027e8ed:
+
+    # "Я знаю хороший галстук за {b}$ 5.000{/b}."
+    # "Так что {b}приготовьте деньги{/b}."
+    # "{b}Если у Вас не будет нужной суммы, то, пожалуйста, не беспокойте меня{/b}."
+    "Я знаю хороший галстук за {b}$ 5.000{/b}."
+    "Так что {b}приготовьте деньги{/b}."
+    "{b}Если у Вас не будет нужной суммы, то, пожалуйста, не беспокойте меня{/b}."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:558
+translate german monica_dick_secretary_dialogue2_d8213a8d:
+
+    # m "До свидания, Миссис Виктория..."
+    m "До свидания, Миссис Виктория..."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:562
+translate german monica_dick_secretary_dialogue2_f0d79344:
+
+    # mt "Сучка!"
+    mt "Сучка!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:582
+translate german monica_dick_secretary_dialogue3_5166c006:
+
+    # dick_secretary "Да, я его отправлю в субботу утром."
+    dick_secretary "Да, я его отправлю в субботу утром."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:584
+translate german monica_dick_secretary_dialogue3_20308857:
+
+    # "Либо не отправлю, если мы проведем хорошо время в {b}пятницу{/b}."
+    "Либо не отправлю, если мы проведем хорошо время в {b}пятницу{/b}."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:586
+translate german monica_dick_secretary_dialogue3_596dc1bc:
+
+    # "Либо не отправлю, если мы проведем хорошо время в следующую {b}пятницу{/b}."
+    "Либо не отправлю, если мы проведем хорошо время в следующую {b}пятницу{/b}."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:587
+translate german monica_dick_secretary_dialogue3_5da2dfc9:
+
+    # "Хи-хи!"
+    # m "Да, Мисс Виктория, конечно..."
+    # "До свидания..."
+    # mt "Эта сучка заплатит за все!"
+    "Хи-хи!"
+    m "Да, Мисс Виктория, конечно..."
+    "До свидания..."
+    mt "Эта сучка заплатит за все!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:597
+translate german monica_dick_secretary_dialogue4a_060a1c80:
+
+    # mt "(хмык)"
+    mt "(хмык)"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:613
+translate german monica_dick_office_refuse_dialogue1_dc7749f6:
+
+    # mt "Без денег мне там нечего делать."
+    mt "Без денег мне там нечего делать."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:618
+translate german monica_dick_office_dialogue2_3afdb398:
+
+    # mt "ЧЕРТ!"
+    # "Я еле уломала Дика!"
+    # "Я была на волоске от гибели или чего еще похуже!"
+    # "Эта Виктория!"
+    # "Она полностью овладела Диком!"
+    # "Мне надо будет что-то придумать с этим!"
+    # "Это ее идея с галстуком, я уверена!"
+    # "И мне не получилось выкрутиться и не покупать этот галстук!"
+    # "Я больше не допущу такого, но сейчас мне {b}надо найти где-то $ 5.000{/b}!"
+    # "Иначе конец! Я видела это по Дику!"
+    # "Он не блефовал!"
+    # "Моя судьба сейчас действительно зависит от этих денег!"
+    # "..."
+    # "Но где мне найти такую сумму?!"
+    mt "ЧЕРТ!"
+    "Я еле уломала Дика!"
+    "Я была на волоске от гибели или чего еще похуже!"
+    "Эта Виктория!"
+    "Она полностью овладела Диком!"
+    "Мне надо будет что-то придумать с этим!"
+    "Это ее идея с галстуком, я уверена!"
+    "И мне не получилось выкрутиться и не покупать этот галстук!"
+    "Я больше не допущу такого, но сейчас мне {b}надо найти где-то $ 5.000{/b}!"
+    "Иначе конец! Я видела это по Дику!"
+    "Он не блефовал!"
+    "Моя судьба сейчас действительно зависит от этих денег!"
+    "..."
+    "Но где мне найти такую сумму?!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:636
+translate german monica_dick_office_dialogue2_00dd91cf:
+
+    # "Мне понадобится разносить флаеры несколько лет, чтобы заработать такие деньги!"
+    # "Это не вариант!"
+    "Мне понадобится разносить флаеры несколько лет, чтобы заработать такие деньги!"
+    "Это не вариант!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:640
+translate german monica_dick_office_dialogue2_fd095fe1:
+
+    # "Я - Моника Бакфетт!"
+    # "Для того чтобы заработать эту сумму мне надо лишь пошевелить пальцем!"
+    # "Так было всегда!"
+    # "..."
+    # "Но что сейчас?"
+    # "Может быть попробовать снова поговорить с этим {b}ублюдком в моем офисе{/b}?"
+    # "Из нашего разговора мне показалось что у него есть какое-то предложение ко мне!"
+    # "Стоит попробовать!"
+    # "Я чувствую что могу об этом пожалеть, но у меня нет выбора..."
+    "Я - Моника Бакфетт!"
+    "Для того чтобы заработать эту сумму мне надо лишь пошевелить пальцем!"
+    "Так было всегда!"
+    "..."
+    "Но что сейчас?"
+    "Может быть попробовать снова поговорить с этим {b}ублюдком в моем офисе{/b}?"
+    "Из нашего разговора мне показалось что у него есть какое-то предложение ко мне!"
+    "Стоит попробовать!"
+    "Я чувствую что могу об этом пожалеть, но у меня нет выбора..."
+
+translate german strings:
+
+    # Quests/EP2/ep2_dialogues3.rpy:222
+    old "Приставать к Дику. (low corruption) (disabled)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues3.rpy:222
+    old "Приставать к Дику. (corruption)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues3.rpy:634
+    old "Монике пришлось зарабатывать на еду разноской флаеров"
+    new ""
+

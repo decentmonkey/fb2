@@ -60,7 +60,7 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen5_Dialogue.rpy:24
     old "Место для чего? (disabled)"
-    new "Place for what? (disabled)"
+    new "A place for what? (disabled)"
 
 # TODO: Translation updated at 2018-12-06 21:42
 

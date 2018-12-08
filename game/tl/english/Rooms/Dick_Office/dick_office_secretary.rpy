@@ -58,3 +58,29 @@ translate english strings:
     old "НАЗАД В ХОЛЛ"
     new "BACK TO THE HALL"
 
+# TODO: Translation updated at 2018-12-08 17:34
+
+# game/Rooms/Dick_Office/dick_office_secretary.rpy:44
+translate english dick_office_secretary_environment_7019b42d:
+
+    # mt "Эта сучка много на себя берет!"
+    mt "This bitch takes a lot on!"
+
+# game/Rooms/Dick_Office/dick_office_secretary.rpy:46
+translate english dick_office_secretary_environment_1f8599a5:
+
+    # mt "Она много на себя берет!"
+    mt "Она много на себя берет!"
+
+# game/Rooms/Dick_Office/dick_office_secretary.rpy:52
+translate english dick_office_secretary_environment_7019b42d_1:
+
+    # mt "Эта сучка много на себя берет!"
+    mt "This bitch takes a lot on!"
+
+# game/Rooms/Dick_Office/dick_office_secretary.rpy:54
+translate english dick_office_secretary_environment_1f8599a5_1:
+
+    # mt "Она много на себя берет!"
+    mt "Она много на себя берет!"
+

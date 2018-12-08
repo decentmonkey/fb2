@@ -1159,14 +1159,17 @@ label monica_office_dialogue9:
     #Моника пытается выйти из офиса после фотосессии.
     mt "Мне надо идти к Бифу и ехать на благотворительный вечер!"
     "Я так соскучилась по этому!"
-    return
+    return False
 
 label monica_office_photostudio_alex_dialogue2:
     if act == "l":
         return
     #render
     #Моника разговаривает с Алексом в фотостудии (фотосессия)
+    $ store_music()
+    music Stealth_Groover
     img 6516
+    with fade
     alex_photograph "Миссис Бакфетт!"
     "Мистер Биф сказал что мне надо провести фотосессию с Вами!"
     "Вы будете участвовать?"
@@ -1175,9 +1178,12 @@ label monica_office_photostudio_alex_dialogue2:
             pass
         "Пока нет...":
             m "Пока нет..."
-            return
+            $ restore_music()
+            return False
 
     img 6517
+    with fade
+    $ add_corruption(monicaBiffWork3CorruptionAdding, "monicaBiffWork3CorruptionAdding")
     m "Да, буду..."
     "Что мне одеть?"
     "Я ведь не буду сниматься в этом?!"
@@ -1194,10 +1200,12 @@ label monica_office_photostudio_alex_dialogue2:
     img 6520
     alex_photograph "Но Вы бы иначе не надели его, так ведь?"
 
+    music Hidden_Agenda
     img 6521
     m "Ну... Вообще-то да..."
     "Это мой маленький эксперимент."
     "Но я бы пока не хотела широко освещать его."
+    music Stealth_Groover
     img 6522
     "Поэтому Алекс... Не надо делать никаких лишних кадров, хорошо?"
 
@@ -1225,16 +1233,20 @@ label monica_office_photostudio_alex_dialogue2:
         "Переодеться.":
             pass
         "Уйти.":
-            return
+            $ restore_music()
+            return False
 
     #переодевание
     img 6528
+    with fade
     m "Алекс, отвернись!"
     "Если попробуешь подсмотреть, я прибью тебя!!!"
     img 6529
     alex_photograph "Обещаю, Мэм!"
     #музыка переодевания
+    music Loved_up
     img 6530
+    with fadelong
     w
     img 6531
     w
@@ -1249,6 +1261,7 @@ label monica_office_photostudio_alex_dialogue2:
     img 6536
     w
     img 6537
+    with fade
     w
     img 6538
     w
@@ -1273,9 +1286,11 @@ label monica_office_photostudio_alex_dialogue2:
     img 6548
     w
     img 6549
+    with fade
     w
     img 6551
     w
+    sound wow
     img 6550
     w
     img 6552
@@ -1292,6 +1307,7 @@ label monica_office_photostudio_alex_dialogue2:
     w
     img 6558
     w
+    sound wow
     img 6559
     w
     img 6560
@@ -1300,24 +1316,31 @@ label monica_office_photostudio_alex_dialogue2:
     w
     img 6561
     w
+    music Loved_up2
     img 6562
+    with fade
     w
     img 6563
+    with fade
     mt "Черт!"
     "Гребаные колготки!"
     img 6564
     w
     img 6565
+    with fade
     w
     img 6566
     w
     img 6567
     w
     img 6568
+    alex_photograph "Ну же, фокусируйся, скорее!"
     w
     img 6569
     w
+    music Stealth_Groover
     img 6570
+    with fade
     m "Алекс!"
     img 6571
     alex_photograph "Да, Мэм?"
@@ -1330,6 +1353,7 @@ label monica_office_photostudio_alex_dialogue2:
     "Я все время стою неподвижно!"
     "И жду Вашего разрешения, Мэм!"
 
+    music Loved_up2
     img 6572
     with fadelong
     w
@@ -1340,27 +1364,36 @@ label monica_office_photostudio_alex_dialogue2:
     img 6575
     w
     img 6576
+    with fade
     mt "Черт! У меня нет трусиков под это платье!"
     "Надо было взять хоты бы трусики Юлии!"
     "Но под те жуткие джинсовые шорты, что я ношу, их все-равно не оденешь..."
     img 6577
+    with Dissolve(0.5)
     w
     img 6578
+    with Dissolve(0.5)
     w
     #звук затвора
+    sound snd_photo_capture
     img 6579
     w
     #звук затвора
+    sound snd_photo_capture
     img 6580
     w
     img 6581
     w
     img 6582
+    alex_photograph "..."
     w
     img 6583
+    with fade
     mt "Ладно... Этого все-равно никто не заметит..."
 
+    music Stealth_Groover
     img 6584
+    with fadelong
     alex_photograph "Вы выглядите потрясающе, Миссис Бакфетт!"
     m "Спасибо, Алекс..."
 
@@ -1371,48 +1404,69 @@ label monica_office_photostudio_alex_dialogue2:
     img 6586
     alex_photograph "Это РАЗНЫЕ фотосессии, Миссис Бакфетт!"
 
+    music Molten_Alloy
     img 6587
     alex_photograph "Начинайте, позировать!"
     "Мотор!"
+    img black_screen
+    with Dissolve(1.0)
     #фотосессия Моники обычная
 
     img 6588
+    call photoshop_flash()
     w
     img 6589
+    call photoshop_flash()
     w
     img 6590
+    call photoshop_flash()
     w
     img 6591
+    call photoshop_flash()
     w
     img 6592
+    call photoshop_flash()
     w
     img 6593
+    call photoshop_flash()
     w
     img 6594
+    call photoshop_flash()
     w
     img 6596
+    call photoshop_flash()
     w
     img 6595
+    call photoshop_flash()
     w
     img 6597
+    call photoshop_flash()
     w
 
+    music Groove2_85
     img 6598
+    with fade
     alex_photograph "Миссис Бакфетт! Сядьте, пожалуйста, на этот стул!"
     img 6599
     m "Зачем?"
     alex_photograph "Я фотограф! Я вижу композицию со стороны!"
     m "Ладно..."
 
+    music Molten_Alloy
     #фотосессия Моники со стулом
     img 6600
+    call photoshop_flash()
     w
     img 6601
+    call photoshop_flash()
     w
     img 6602
+    call photoshop_flash()
     w
 
+    music Groove2_85
     img 6603
+    with fade
     alex_photograph "Миссис Бакфетт! Сядьте, пожалуйста, вот так..."
     #сажает Монику в развратную позу
     m "Алекс! Я не собираюсь сниматься в такой позе!"
@@ -1443,26 +1497,31 @@ label monica_office_photostudio_alex_dialogue2:
 
     m "Мы сделали достаточно кадров!"
 
-    #если Моника зла к Алексу
-    img 6610
-    alex_photograph "Мы не сделали самого главного, Миссис Бакфетт."
-    "Но я имею права настаивать..."
-    "Я сообщу Мистеру Бифу..."
-    img 6611
-    mt "ЧЕРТ! НЕ ХВАТАЛО ЕЩЕ СРЫВА ФОТОСЕССИИ!!!"
-    "Это значит что Биф не даст мне деньги..."
-    "И я не поеду на благотворительный вечер..."
-    "А я так хочу туда!"
+    if alexPhotographOffended1 == True:
+        $ notif("Моника была груба к Алексу")
+        #если Моника зла к Алексу
+        img 6610
+        alex_photograph "Мы не сделали самого главного, Миссис Бакфетт."
+        "Но я имею права настаивать..."
+        "Я сообщу Мистеру Бифу..."
+        img 6611
+        mt "ЧЕРТ! НЕ ХВАТАЛО ЕЩЕ СРЫВА ФОТОСЕССИИ!!!"
+        "Это значит что Биф не даст мне деньги..."
+        "И я не поеду на благотворительный вечер..."
+        "А я так хочу туда!"
 
-    #если Моника добра к Алексу
-    img 6612
-    alex_photograph "Миссис Бакфетт!"
-    "Я знаю что Вы цените меня как профессионала."
-    "И я понимаю что Вы не хотите делать эти кадры..."
-    "Но это приказ Мистера Бифа."
-    "Если я ослушаюсь, то меня уволят!..."
+    else:
+        $ notif("Моника была добра к Алексу")
+        #если Моника добра к Алексу
+        img 6612
+        alex_photograph "Миссис Бакфетт!"
+        "Я знаю что Вы цените меня как профессионала."
+        "И я понимаю что Вы не хотите делать эти кадры..."
+        "Но это приказ Мистера Бифа."
+        "Если я ослушаюсь, то меня уволят!..."
 
     img 6613
+    with fade
     m "Хорошо, Алекс."
     "Давай сделаем пару кадров, но постарайся брать ракурсы поприличнее, хорошо?"
     mt "По крайней мере мне надо потерпеть это всего один раз!"
@@ -1472,46 +1531,67 @@ label monica_office_photostudio_alex_dialogue2:
     "Хорошо, Мэм!"
     "Как скажете!"
 
+
+    music Molten_Alloy
     img 6615
     w
 
     #Идет фотосессия с пошлыми ракурсами
     img 6616
+    call photoshop_flash()
     w
     img 6617
+    call photoshop_flash()
     w
     img 6618
+    call photoshop_flash()
     w
     img 6619
+    call photoshop_flash()
     w
     img 6620
+    call photoshop_flash()
     w
-    img 6621
-    w
-    img 6622
-    w
-    img 6623
-    w
-    img 6624
-    w
-    img 6625
-    w
-    img 6626
-    w
-    img 6627
-    w
-    img 6628
-    w
-    img 6629
-    m "Эй! Не вздумай заглядывать туда!!!"
-    mt "Черт!!!"
+    label .local1:
+        menu:
+            "Продолжить делать кадры. (corruption)" if corruption >= monicaBiffWorkPhotoShot1PervertCorruptionRequired:
+                img 6621
+                w
+                img 6622
+                w
+                img 6623
+                w
+                img 6624
+                w
+                img 6625
+                w
+                img 6626
+                w
+                img 6627
+                w
+                img 6628
+                w
+                img 6629
+                m "Эй! Не вздумай заглядывать туда!!!"
+                mt "Черт!!!"
 
-    #конец фотосессии
-    img 6630
-    alex_photograph "Мы закончили, Мэм!"
-    "Хотите переодеться назад?"
+            "Продолжить делать кадры. (недостаточно corruption) (disabled)" if corruption < monicaBiffWorkPhotoShot1PervertCorruptionRequired:
+                jump .local1
+            "Прекратить это.":
+                music Stealth_Groover
+                img 6630
+                with fade
+                m "Я не буду так сниматься!"
+                m "Мы сделали достаточно кадров!"
+                alex_photograph "Хотите переодеться назад?"
+
+                #конец фотосессии
+                img 6630
+                alex_photograph "Мы закончили, Мэм!"
+                "Хотите переодеться назад?"
 
     img 6631
+    with fade
     mt "Вот еще! Теперь это мое платье!!!"
     "Я не собираюсь переодеваться в те тряпки!"
     "Ни за что!"
@@ -1531,14 +1611,18 @@ label monica_office_photostudio_alex_dialogue2:
 
     img 6634
     mt "Итак, {b}надо вернуться к Бифу{/b}..."
+    $ store_music()
 
-    return
+    return True
 
 label monica_office_secretary_dialogue7:
     if act == "l":
         return
     #Моника обращается к секретарше одетая в платье
+    $ store_music()
+    music RnB4_100
     img 6345
+    with fade
     secretary "МИССИС БАКФЕТТ!!!"
     "Вы бесподобны в этом платье!"
     img 6346
@@ -1556,13 +1640,15 @@ label monica_office_secretary_dialogue7:
     img 6348
     secretary "Да, Миссис Бакфетт!"
     "Я жду ВАС!"
-
-    return
+    $ restore_music()
+    return False
 
 label monica_office_cabinet_biff_dialogue5:
     #render
     #Моника разговаривает с Бифом после фотосессии.
+    music Stealth_Groover
     img 6635
+    with fade
     m "Биф!"
     "Я закончила фотосессию!"
     "И я жду свои деньги..."
@@ -1571,6 +1657,7 @@ label monica_office_cabinet_biff_dialogue5:
     "Сообщи моей секретарше свои реквизиты и деньги будут переведены в течении..."
     "Ну... Может быть месяца..."
 
+    music Power_Bots_Loop
     img 6637
     m "ЧТО???"
     "МНЕ НУЖНЫ ДЕНЬГИ СЕЙЧАС, ПРЯМО СЕЙЧАС!"
@@ -1591,6 +1678,7 @@ label monica_office_cabinet_biff_dialogue5:
     m "Мне нужны наличные, Биф!"
     "И прямо сейчас!"
 
+    music Groove2_85
     img 6642
     biff "Ха-ха-ха!"
     "Какой темперамент!"
@@ -1624,9 +1712,11 @@ label monica_office_cabinet_biff_dialogue5:
     "Я же не рассчитывал что найду такую цыпочку!"
     "В следующий раз я позабочусь чтобы мою новую куклу увидели все!"
 
+    music Power_Bots_Loop
     img 6650
     mt "!!!"
 
+    music Groove2_85
     img 6651
     biff "Поехали, детка!"
     "Уже пора!"
@@ -1636,6 +1726,7 @@ label monica_office_cabinet_biff_dialogue5:
     "Без них ты не похожа на Монику Бакфетт и только поэтому я разрешил тебе одеть их!"
 
     img 6653
+    with fade
     m "Я оставлю это платье себе! Оно мое!"
 
     biff "Нет! Даже не обсуждается!"
@@ -1644,19 +1735,23 @@ label monica_office_cabinet_biff_dialogue5:
     "Что тогда?!"
 
     img 6654
+    with fade
     m "Я поставлю пятно на него!"
 
     img 6655
     biff "Только попробуй!"
     "И тогда твой гонорар пойдет на погашение стоимости платья!"
 
+    music Power_Bots_Loop
     img 6656
     mt "!!!"
 
+    music Groove2_85
     img 6657
     biff "Закрой свой ротик, пока я не заткнул его своим членом!"
     "Ты будешь открывать его когда скажу Я!"
     img 6658
+    with fade
     "А сейчас поехали!"
     "Нам еще надо подобрать {b}Мелани{/b} по пути!"
     mt "!!!"

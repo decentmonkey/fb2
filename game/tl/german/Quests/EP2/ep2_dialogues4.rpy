@@ -2366,3 +2366,881 @@ translate german strings:
     old "Переодеться."
     new "Zieh Dich um."
 
+# TODO: Translation updated at 2018-12-08 17:35
+
+# game/Quests/EP2/ep2_dialogues4.rpy:6
+translate german monica_office_entrance_biff_dialogue1_a29637f9:
+
+    # mt "Черт!"
+    # "Кто-то поменял код на лифте!"
+    # "Теперь мне не попасть внутрь!"
+    # "Но ничего! Я еще найду способ это сделать и посмотреть на этого ублюдка!"
+    # "Который думает что он теперь главный в моей компании!"
+    # "..."
+    # "Может быть {b}попробовать вечером?{/b}"
+    mt "Черт!"
+    "Кто-то поменял код на лифте!"
+    "Теперь мне не попасть внутрь!"
+    "Но ничего! Я еще найду способ это сделать и посмотреть на этого ублюдка!"
+    "Который думает что он теперь главный в моей компании!"
+    "..."
+    "Может быть {b}попробовать вечером?{/b}"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:28
+translate german monica_office_entrance_biff_dialogue1_410852da:
+
+    # biff "Детка? Ты хочешь попасть наверх?"
+    biff "Детка? Ты хочешь попасть наверх?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:30
+translate german monica_office_entrance_biff_dialogue1_129a7c27:
+
+    # m "Кто вы?"
+    # biff "Меня зовут Биф!"
+    m "Кто вы?"
+    biff "Меня зовут Биф!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:33
+translate german monica_office_entrance_biff_dialogue1_32105344:
+
+    # m "Биф, ты знаешь код?"
+    # biff "Конечно, детка!"
+    m "Биф, ты знаешь код?"
+    biff "Конечно, детка!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:41
+translate german monica_office_entrance_biff_dialogue1_77211e0d:
+
+    # biff "О! Не за что, детка!"
+    # "Интересно, как такая попка прошла мимо меня?"
+    biff "О! Не за что, детка!"
+    "Интересно, как такая попка прошла мимо меня?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:47
+translate german monica_office_entrance_biff_dialogue1_72476d55:
+
+    # biff "Детка, ты ведь едешь сниматься в студии, правда?"
+    biff "Детка, ты ведь едешь сниматься в студии, правда?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:61
+translate german monica_office_entrance_biff_dialogue1_982cba09:
+
+    # m "Я не цыпочка!"
+    m "Я не цыпочка!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:64
+translate german monica_office_entrance_biff_dialogue1_93b1029b:
+
+    # "Отвали от меня, урод!"
+    "Отвали от меня, урод!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:65
+translate german monica_office_entrance_biff_dialogue1_b9503994:
+
+    # biff "Ха-ха-ха!"
+    biff "Ха-ха-ха!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:329
+translate german monica_office_cabinet_biff_dialogue1_39ddc17e:
+
+    # biff "О! Цыпочка!"
+    # "Алекс клялся что не прятал тебя!"
+    # "Значит он, все-таки, врал и решил исправить свою вину прислав тебя ко мне?"
+    # "Ха-ха!"
+    biff "О! Цыпочка!"
+    "Алекс клялся что не прятал тебя!"
+    "Значит он, все-таки, врал и решил исправить свою вину прислав тебя ко мне?"
+    "Ха-ха!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:341
+translate german monica_office_cabinet_biff_dialogue1_6bc63a49:
+
+    # biff "Эй! Цыпочка! Полегче!"
+    # "Ты кто такая?!"
+    # "Это у тебя такой косплей?"
+    # "Пытаешься произвести впечатление на меня?"
+    # "Ха-ха-ха!"
+    biff "Эй! Цыпочка! Полегче!"
+    "Ты кто такая?!"
+    "Это у тебя такой косплей?"
+    "Пытаешься произвести впечатление на меня?"
+    "Ха-ха-ха!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:360
+translate german monica_office_cabinet_biff_dialogue1_1f2ce2e7:
+
+    # biff "Ого!"
+    # "Это какая-то шутка?"
+    # "Должно быть ты самозванка?" 
+    biff "Ого!"
+    "Это какая-то шутка?"
+    "Должно быть ты самозванка?" 
+
+# game/Quests/EP2/ep2_dialogues4.rpy:369
+translate german monica_office_cabinet_biff_dialogue1_71039942:
+
+    # biff "Это отлично!"
+    # "У тебя так натурально получается играть!"
+    # "Цыпочка! Я думаю у меня есть для тебя работа!"
+    biff "Это отлично!"
+    "У тебя так натурально получается играть!"
+    "Цыпочка! Я думаю у меня есть для тебя работа!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:382
+translate german monica_office_cabinet_biff_dialogue1_52e51f92:
+
+    # biff "Нет, этого не может быть..."
+    # "Насколько мне известно, Моника Бакфетт - опасный преступник, которого ждет суровое наказание..."
+    # "Если это действительно Вы..."
+    biff "Нет, этого не может быть..."
+    "Насколько мне известно, Моника Бакфетт - опасный преступник, которого ждет суровое наказание..."
+    "Если это действительно Вы..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:401
+translate german monica_office_cabinet_biff_dialogue1_eaf0131a:
+
+    # biff "Алло! Полиция?!" 
+    biff "Алло! Полиция?!" 
+
+# game/Quests/EP2/ep2_dialogues4.rpy:415
+translate german monica_office_cabinet_biff_dialogue1_d7425938:
+
+    # biff "Полиция?! Я в опасности, помогите мне!"
+    # "Здесь опасная преступница!"
+    # "Она угрожает мне!"
+    biff "Полиция?! Я в опасности, помогите мне!"
+    "Здесь опасная преступница!"
+    "Она угрожает мне!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:446
+translate german monica_office_cabinet_biff_dialogue1_2a660934:
+
+    # biff "???"
+    # "Так ты не Моника Бакфетт?"
+    biff "???"
+    "Так ты не Моника Бакфетт?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:454
+translate german monica_office_cabinet_biff_dialogue1_5e393eb3:
+
+    # biff "Извините!" 
+    biff "Извините!" 
+
+# game/Quests/EP2/ep2_dialogues4.rpy:472
+translate german monica_office_cabinet_biff_dialogue1_0921d34d:
+
+    # biff "Я - Биф!"
+    # "Владелец Модного Журнала!"
+    # "Да - это Я"
+    # "Я - это Биф!"
+    # "Я люблю себя! Вау!"
+    biff "Я - Биф!"
+    "Владелец Модного Журнала!"
+    "Да - это Я"
+    "Я - это Биф!"
+    "Я люблю себя! Вау!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:482
+translate german monica_office_cabinet_biff_dialogue1_840399d7:
+
+    # biff "Так значит ты цыпочка от Алекса?"
+    # "А почему ты не хочешь ко мне на коленки?"
+    # "Ты ведь знаешь, детка, что с таким как я нужно дружить..."
+    biff "Так значит ты цыпочка от Алекса?"
+    "А почему ты не хочешь ко мне на коленки?"
+    "Ты ведь знаешь, детка, что с таким как я нужно дружить..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:500
+translate german monica_office_cabinet_biff_dialogue1_08070e8d:
+
+    # biff "Я бы мог {b}дать тебе работу{/b}, детка!"
+    # "Ты так похожа на Монику Бакфетт, что никто не увидит разницы!"
+    # "У меня крутой журнал и я решил сменить его курс!"
+    # "И если бы Моника Бакфетт одобрила его и рассказала бы всем об этом, то это был бы большой плюс!"
+    biff "Я бы мог {b}дать тебе работу{/b}, детка!"
+    "Ты так похожа на Монику Бакфетт, что никто не увидит разницы!"
+    "У меня крутой журнал и я решил сменить его курс!"
+    "И если бы Моника Бакфетт одобрила его и рассказала бы всем об этом, то это был бы большой плюс!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:528
+translate german monica_office_cabinet_biff_dialogue1_653731c5:
+
+    # biff "Хорошо, цыпочка."
+    # "Зачем же ты тогда пришла сюда?"
+    biff "Хорошо, цыпочка."
+    "Зачем же ты тогда пришла сюда?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:535
+translate german monica_office_cabinet_biff_dialogue1_9b74bb23:
+
+    # biff "Ха-ха-ха!"
+    # "У тебя крутой нрав, цыпочка!"
+    # "Смею заметить!"
+    # "Пытаешь произвести на меня впечатление, понимаю..."
+    # "Мне нравятся такие цыпочки!"
+    biff "Ха-ха-ха!"
+    "У тебя крутой нрав, цыпочка!"
+    "Смею заметить!"
+    "Пытаешь произвести на меня впечатление, понимаю..."
+    "Мне нравятся такие цыпочки!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:558
+translate german monica_office_cabinet_biff_dialogue1_e19f26e7:
+
+    # biff "До свидания, цыпочка!"
+    # "Я буду звать тебя Моника Бакфетт! Ха-ха-ха!"
+    biff "До свидания, цыпочка!"
+    "Я буду звать тебя Моника Бакфетт! Ха-ха-ха!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:570
+translate german monica_office_cabinet_biff_dialogue1a_8180d8fe:
+
+    # mt "Это было..."
+    # "Очень..."
+    # "Сложно..."
+    # "Сдержаться и не прибить этого слизняка."
+    # "Обычно я подобных стираю в порошок за пару минут..."
+    # "А здесь..."
+    # "На моем кресле, за моим столом сидит этот Биф, а я ничего не могу сделать!"
+    # "Но я сделаю! Я верну себе эту компанию!"
+    # "И первое что я сделаю - это выкину этого Бифа!!!"
+    mt "Это было..."
+    "Очень..."
+    "Сложно..."
+    "Сдержаться и не прибить этого слизняка."
+    "Обычно я подобных стираю в порошок за пару минут..."
+    "А здесь..."
+    "На моем кресле, за моим столом сидит этот Биф, а я ничего не могу сделать!"
+    "Но я сделаю! Я верну себе эту компанию!"
+    "И первое что я сделаю - это выкину этого Бифа!!!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:583
+translate german monica_office_cabinet_biff_dialogue1a_185ab1c2:
+
+    # "Он будет разносить газеты всю свою оставшуюся жизнь!!!"
+    # "Или флаеры!!! Да!!!"
+    "Он будет разносить газеты всю свою оставшуюся жизнь!!!"
+    "Или флаеры!!! Да!!!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:588
+translate german monica_office_cabinet_biff_dialogue1a_626b7203:
+
+    # "Клянусь!!!"
+    "Клянусь!!!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:646
+translate german monica_office_photostudio_melanie_dialogue1_local1_276da7c6:
+
+    # m "Да, я примерно понимаю в чем заключаются они, твои силы..."
+    m "Да, я примерно понимаю в чем заключаются они, твои силы..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:648
+translate german monica_office_photostudio_melanie_dialogue1_local1_e8268737:
+
+    # mt "Конечно, со мной у нее эти фокусы не проходили..."
+    mt "Конечно, со мной у нее эти фокусы не проходили..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:650
+translate german monica_office_photostudio_melanie_dialogue1_local1_a7e31ec1:
+
+    # melanie "Миссис Бакфетт... Вы выглядите потрясающе." 
+    # "Ваш вкус настолько изыскан, что недоступен моему пониманию..."
+    melanie "Миссис Бакфетт... Вы выглядите потрясающе." 
+    "Ваш вкус настолько изыскан, что недоступен моему пониманию..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:653
+translate german monica_office_photostudio_melanie_dialogue1_local1_f0d79344:
+
+    # mt "Сучка!"
+    mt "Сучка!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:655
+translate german monica_office_photostudio_melanie_dialogue1_local1_13555fcc:
+
+    # m "Я понимаю что такой Босс как сейчас тебе кажется лучше."
+    # "Но поверь, я скоро вернусь на свое место..."
+    m "Я понимаю что такой Босс как сейчас тебе кажется лучше."
+    "Но поверь, я скоро вернусь на свое место..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:658
+translate german monica_office_photostudio_melanie_dialogue1_local1_0ee7cf81:
+
+    # melanie "Я была бы очень рада этому, Миссис Бакфетт..."
+    melanie "Я была бы очень рада этому, Миссис Бакфетт..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:663
+translate german monica_office_photostudio_melanie_dialogue1_local2_6d9b5bf9:
+
+    # m "Мелани, ни один мужчина не устоит перед тобой!"
+    # "Я понимаю что такой Босс как сейчас тебе кажется лучше."
+    # "Но поверь, я скоро вернусь на свое место..."
+    m "Мелани, ни один мужчина не устоит перед тобой!"
+    "Я понимаю что такой Босс как сейчас тебе кажется лучше."
+    "Но поверь, я скоро вернусь на свое место..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:668
+translate german monica_office_photostudio_melanie_dialogue1_local2_e6203777:
+
+    # melanie "Спасибо..."
+    # melanie "Я была бы очень рада этому, Миссис Бакфетт..."
+    melanie "Спасибо..."
+    melanie "Я была бы очень рада этому, Миссис Бакфетт..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:730
+translate german monica_office_secretary_dialogue4_9cd0fd5b:
+
+    # secretary "Он сказал что будет в пятницу вечером!"
+    secretary "Он сказал что будет в пятницу вечером!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:732
+translate german monica_office_secretary_dialogue4_9f6e5332:
+
+    # secretary "Он сказал что будет вечером!"
+    secretary "Он сказал что будет вечером!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:733
+translate german monica_office_secretary_dialogue4_34702624:
+
+    # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+    "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:799
+translate german monica_office_cabinet_biff_dialogue3_c5803d62:
+
+    # biff "О! Цыпочка! Ты вернулась!"
+    biff "О! Цыпочка! Ты вернулась!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:804
+translate german monica_office_cabinet_biff_dialogue3_ab90a2b2:
+
+    # biff "По поводу работы?"
+    # "Хм... Ты знаешь..."
+    # "Я хотел чтобы ты снималась для журнала под видом Моники Бакфетт..."
+    biff "По поводу работы?"
+    "Хм... Ты знаешь..."
+    "Я хотел чтобы ты снималась для журнала под видом Моники Бакфетт..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:830
+translate german monica_office_cabinet_biff_dialogue3_ba6792dd:
+
+    # biff "Ха-ха-ха!"
+    # "Конечно лучше! Ведь ты похожа на Монику Бакфетт!"
+    biff "Ха-ха-ха!"
+    "Конечно лучше! Ведь ты похожа на Монику Бакфетт!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:840
+translate german monica_office_cabinet_biff_dialogue3_79a5dbbf:
+
+    # biff "Хм..."
+    # "Возможно ты права..."
+    # "Пресса пока не пронюхала про то что Бакфетт сидит в тюрьме."
+    # "И я бы не хотел чтобы это случилось очень скоро."
+    biff "Хм..."
+    "Возможно ты права..."
+    "Пресса пока не пронюхала про то что Бакфетт сидит в тюрьме."
+    "И я бы не хотел чтобы это случилось очень скоро."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:853
+translate german monica_office_cabinet_biff_dialogue3_2f495354:
+
+    # biff "Так что я предлагаю тебе сделать серию фотосессий, посвященную смене курса журнала."
+    # "За каждую фотосессию я предлагаю тебе {b}$ 1.000{/b}."
+    # "К тому же, думаю, можно будет оборудовать офис для тебя, чтобы ты могла общаться с прессой."
+    # "А также с партнерами журнала."
+    # "Я смогу продавать твое личико."
+    # "Какое-то время."
+    biff "Так что я предлагаю тебе сделать серию фотосессий, посвященную смене курса журнала."
+    "За каждую фотосессию я предлагаю тебе {b}$ 1.000{/b}."
+    "К тому же, думаю, можно будет оборудовать офис для тебя, чтобы ты могла общаться с прессой."
+    "А также с партнерами журнала."
+    "Я смогу продавать твое личико."
+    "Какое-то время."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:871
+translate german monica_office_cabinet_biff_dialogue3_17bd862d:
+
+    # biff "Что ты имеешь ввиду под $ 5.000?"
+    biff "Что ты имеешь ввиду под $ 5.000?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:876
+translate german monica_office_cabinet_biff_dialogue3_a4e50d51:
+
+    # biff "А ты весьма амбициозна для цыпочки с улицы!"
+    biff "А ты весьма амбициозна для цыпочки с улицы!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:887
+translate german monica_office_cabinet_biff_dialogue3_4f4e6a07:
+
+    # biff "Тем более тебя будет окружать пресса, поклонники!"
+    # "Я уверен ты не испытывала и доли той славы, что имела сучка Бакфетт!"
+    biff "Тем более тебя будет окружать пресса, поклонники!"
+    "Я уверен ты не испытывала и доли той славы, что имела сучка Бакфетт!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:903
+translate german monica_office_cabinet_biff_dialogue3_375caeae:
+
+    # biff "Окей, цыпочка!"
+    # "Когда-нибудь увидимся!"
+    biff "Окей, цыпочка!"
+    "Когда-нибудь увидимся!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:917
+translate german monica_office_cabinet_biff_dialogue3_41e43f16:
+
+    # biff "Конечно нет!"
+    biff "Конечно нет!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:924
+translate german monica_office_cabinet_biff_dialogue3_8229a62d:
+
+    # biff "Ладно! Цыпочка!"
+    # "Я дам тебе {b}$ 5.000{/b}!"
+    # "Но я не обещаю тебе их регулярно!"
+    # "Я посмотрю еще стоишь-ли ты этих денег!"
+    biff "Ладно! Цыпочка!"
+    "Я дам тебе {b}$ 5.000{/b}!"
+    "Но я не обещаю тебе их регулярно!"
+    "Я посмотрю еще стоишь-ли ты этих денег!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:929
+translate german monica_office_cabinet_biff_dialogue3_local1_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:934
+translate german monica_office_cabinet_biff_dialogue3_local1_840938b6:
+
+    # biff "Итак, ты согласна?"
+    biff "Итак, ты согласна?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:942
+translate german monica_office_cabinet_biff_dialogue3_local1_7e9dfa4d:
+
+    # m "Да, я согласна..."
+    m "Да, я согласна..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:945
+translate german monica_office_cabinet_biff_dialogue3_local1_b7eb643b:
+
+    # biff "Отлично!"
+    # "Если честно, Мелани отказалась от этой серии фотосессий."
+    # "Она сказала что не хочет иметь ничего общего с полным обнажением."
+    biff "Отлично!"
+    "Если честно, Мелани отказалась от этой серии фотосессий."
+    "Она сказала что не хочет иметь ничего общего с полным обнажением."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:949
+translate german monica_office_cabinet_biff_dialogue3_local1_98b66c4d:
+
+    # "Хорошо что мне подвернулась такая цыпочка как ты, которая не имеет проблем с этим!"
+    "Хорошо что мне подвернулась такая цыпочка как ты, которая не имеет проблем с этим!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:953
+translate german monica_office_cabinet_biff_dialogue3_local1_4aee1b50:
+
+    # m "С чем общего??? С ОБНАЖЕНИЕМ?!?!?"
+    m "С чем общего??? С ОБНАЖЕНИЕМ?!?!?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:955
+translate german monica_office_cabinet_biff_dialogue3_local1_3e8455c1:
+
+    # biff "Ну да, этот журнал слишком скучный!"
+    # "Сейчас такое уже не модно."
+    # "Деньги приносит что-нибудь погорячее!"
+    biff "Ну да, этот журнал слишком скучный!"
+    "Сейчас такое уже не модно."
+    "Деньги приносит что-нибудь погорячее!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:960
+translate german monica_office_cabinet_biff_dialogue3_local1_fa9e0cb0:
+
+    # m "Я не собираюсь раздеваться ни за какие деньги!!!"
+    # "До свидания!!!"
+    m "Я не собираюсь раздеваться ни за какие деньги!!!"
+    "До свидания!!!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:964
+translate german monica_office_cabinet_biff_dialogue3_local1_647ab3ac:
+
+    # biff "{b}Если передумаешь, заглядывай!{/b}"
+    biff "{b}Если передумаешь, заглядывай!{/b}"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:971
+translate german monica_office_secretary_dialogue5_30c54a83:
+
+    # mt "ЧТО ОНИ СОБРАЛИСЬ СДЕЛАТЬ С МОИМ ЖУРНАЛОМ?!?!"
+    # mt "Полное обнажение???"
+    # "И этот мерзавец еще и предлагает МНЕ это сделать?!"
+    # "МНЕ - МОНИКЕ БАКФЕТТ!!!"
+    # "ОБНАЖАТЬСЯ В СВОЕМ ЖЕ ЖУРНАЛЕ?!?!"
+    # "Моника!"
+    # "Это все слишком далеко зашло!"
+    # "Тебе надо как-то скорее разобраться со всем этим!"
+    # "Эти мерзавцы, которые меня окружают..."
+    # "Как же мне выпутаться и сохранить достоинство?!"
+    mt "ЧТО ОНИ СОБРАЛИСЬ СДЕЛАТЬ С МОИМ ЖУРНАЛОМ?!?!"
+    mt "Полное обнажение???"
+    "И этот мерзавец еще и предлагает МНЕ это сделать?!"
+    "МНЕ - МОНИКЕ БАКФЕТТ!!!"
+    "ОБНАЖАТЬСЯ В СВОЕМ ЖЕ ЖУРНАЛЕ?!?!"
+    "Моника!"
+    "Это все слишком далеко зашло!"
+    "Тебе надо как-то скорее разобраться со всем этим!"
+    "Эти мерзавцы, которые меня окружают..."
+    "Как же мне выпутаться и сохранить достоинство?!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:992
+translate german monica_office_secretary_dialogue5b_631e76ef:
+
+    # mt "..."
+    # "Дик... Сегодня пятница..."
+    # "Если сегодня вечером не будет денег, то мне конец..."
+    # "Что же мне делать???"
+    # "Он сказал серия фотосессий..."
+    # "Плавная смена курса журнала..."
+    # "Мне нужна всего одна фотосессия."
+    # "Мне нужны эти гребаные $ 5.000!"
+    # "Я отнесу их Дику, мы купим ему галстук и он перестанет шантажировать меня..."
+    # "Он всего-лишь хочет доказательство моей лояльности."
+    # "Если я докажу ему что я ему друг, то он изменит отношение ко мне..."
+    # "Он придумает как вернуть мне документы и деньги..."
+    # "Я уверена он знает как это сделать, но проверяет меня..."
+    # "..."
+    # "Итак, одна фотосессия..."
+    # "Мне надо убедить этого негодяя {b}сделать одну нейтральную фотосессию{/b}..."
+    # "Безобидную."
+    # "Тем более будет полезно миру напомнить о себе..."
+    # "Я надеюсь за это Маркус не заберет меня?"
+    # "Нет, не должен..."
+    # "Мне надо успеть!!!"
+    mt "..."
+    "Дик... Сегодня пятница..."
+    "Если сегодня вечером не будет денег, то мне конец..."
+    "Что же мне делать???"
+    "Он сказал серия фотосессий..."
+    "Плавная смена курса журнала..."
+    "Мне нужна всего одна фотосессия."
+    "Мне нужны эти гребаные $ 5.000!"
+    "Я отнесу их Дику, мы купим ему галстук и он перестанет шантажировать меня..."
+    "Он всего-лишь хочет доказательство моей лояльности."
+    "Если я докажу ему что я ему друг, то он изменит отношение ко мне..."
+    "Он придумает как вернуть мне документы и деньги..."
+    "Я уверена он знает как это сделать, но проверяет меня..."
+    "..."
+    "Итак, одна фотосессия..."
+    "Мне надо убедить этого негодяя {b}сделать одну нейтральную фотосессию{/b}..."
+    "Безобидную."
+    "Тем более будет полезно миру напомнить о себе..."
+    "Я надеюсь за это Маркус не заберет меня?"
+    "Нет, не должен..."
+    "Мне надо успеть!!!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1021
+translate german monica_office_cabinet_biff_dialogue4_eec3d64f:
+
+    # biff "О! Цыпочка! Ну как, ты надумала?"
+    biff "О! Цыпочка! Ну как, ты надумала?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1027
+translate german monica_office_cabinet_biff_dialogue4_8f0cdafb:
+
+    # biff "Конечно постепенно, цыпочка!"
+    # "Аудитория журнала не примет слишком быстрых перемен..."
+    # "Мы начнем с начала и закончим чем-то очень горячим."
+    # "Тебе понравится!"
+    # "Ха-ха-ха!"
+    biff "Конечно постепенно, цыпочка!"
+    "Аудитория журнала не примет слишком быстрых перемен..."
+    "Мы начнем с начала и закончим чем-то очень горячим."
+    "Тебе понравится!"
+    "Ха-ха-ха!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1033
+translate german monica_office_cabinet_biff_dialogue4_bc5a6e97:
+
+    # biff "Ну что, ты согласна?"
+    biff "Ну что, ты согласна?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1050
+translate german monica_office_cabinet_biff_dialogue4_bcbb5250:
+
+    # biff "Конечно, цыпочка!"
+    # "Перед камерой тебе раздеваться не придется в этот раз!"
+    biff "Конечно, цыпочка!"
+    "Перед камерой тебе раздеваться не придется в этот раз!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1056
+translate german monica_office_cabinet_biff_dialogue4_4ba5d420:
+
+    # "Только передо мной!"
+    "Только передо мной!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1064
+translate german monica_office_cabinet_biff_dialogue4_4f8c0ffe:
+
+    # biff "Ха-ха-ха!"
+    # biff "Когда я пришел сюда, то обнаружил несколько забавных традиций!"
+    # "Одна из них - это осмотр модели перед съемками!"
+    biff "Ха-ха-ха!"
+    biff "Когда я пришел сюда, то обнаружил несколько забавных традиций!"
+    "Одна из них - это осмотр модели перед съемками!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1083
+translate german monica_office_cabinet_biff_dialogue4_28062d59:
+
+    # biff "Ха-ха-ха!"
+    # "Детка! Смею тебя огорчить!"
+    biff "Ха-ха-ха!"
+    "Детка! Смею тебя огорчить!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1088
+translate german monica_office_cabinet_biff_dialogue4_55cf85c7:
+
+    # "Тебе придется это сделать в следующий раз!"
+    # "Так как уже нет на это времени!"
+    "Тебе придется это сделать в следующий раз!"
+    "Так как уже нет на это времени!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1098
+translate german monica_office_cabinet_biff_dialogue4_ff3b54cc:
+
+    # "Сегодня будет небольшой благотворительный вечер, посвященный моему журналу."
+    # "Я хочу чтобы ты сделала фотосессию и поехала со мной."
+    # "Там тебе надо будет сказать небольшую речь о смене курса нашего журнала."
+    "Сегодня будет небольшой благотворительный вечер, посвященный моему журналу."
+    "Я хочу чтобы ты сделала фотосессию и поехала со мной."
+    "Там тебе надо будет сказать небольшую речь о смене курса нашего журнала."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1107
+translate german monica_office_cabinet_biff_dialogue4_c849cf2b:
+
+    # biff "Конечно! Как я и говорил!"
+    # "Ты очень похожа на Монику Бакфетт!"
+    biff "Конечно! Как я и говорил!"
+    "Ты очень похожа на Монику Бакфетт!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1131
+translate german monica_office_cabinet_biff_dialogue4_66ee7f8c:
+
+    # biff "Да! Детка!"
+    # "И тебе стоит поторопиться!"
+    biff "Да! Детка!"
+    "И тебе стоит поторопиться!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1134
+translate german monica_office_cabinet_biff_dialogue4_1d9c5255:
+
+    # "Не переживай!"
+    # "Ты покажешь мне свою попку в следующий раз!"
+    "Не переживай!"
+    "Ты покажешь мне свою попку в следующий раз!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1138
+translate german monica_office_cabinet_biff_dialogue4_477c62d4:
+
+    # mt "УБЛЮДОК!!!"
+    # m "Мне {b}идти в фотостудию{/b}?"
+    # biff "Да! Детка!"
+    mt "УБЛЮДОК!!!"
+    m "Мне {b}идти в фотостудию{/b}?"
+    biff "Да! Детка!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1336
+translate german monica_office_photostudio_alex_dialogue2_59f44dd4:
+
+    # alex_photograph "Ну же, фокусируйся, скорее!"
+    alex_photograph "Ну же, фокусируйся, скорее!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1387
+translate german monica_office_photostudio_alex_dialogue2_1fc25dbe:
+
+    # alex_photograph "..."
+    alex_photograph "..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1574
+translate german monica_office_photostudio_alex_dialogue2_local1_c14450c7:
+
+    # m "Эй! Не вздумай заглядывать туда!!!"
+    # mt "Черт!!!"
+    m "Эй! Не вздумай заглядывать туда!!!"
+    mt "Черт!!!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1583
+translate german monica_office_photostudio_alex_dialogue2_local1_83504b00:
+
+    # m "Я не буду так сниматься!"
+    # m "Мы сделали достаточно кадров!"
+    # alex_photograph "Хотите переодеться назад?"
+    m "Я не буду так сниматься!"
+    m "Мы сделали достаточно кадров!"
+    alex_photograph "Хотите переодеться назад?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1589
+translate german monica_office_photostudio_alex_dialogue2_local1_89b65137:
+
+    # alex_photograph "Мы закончили, Мэм!"
+    # "Хотите переодеться назад?"
+    alex_photograph "Мы закончили, Мэм!"
+    "Хотите переодеться назад?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1594
+translate german monica_office_photostudio_alex_dialogue2_local1_509dc425:
+
+    # mt "Вот еще! Теперь это мое платье!!!"
+    # "Я не собираюсь переодеваться в те тряпки!"
+    # "Ни за что!"
+    mt "Вот еще! Теперь это мое платье!!!"
+    "Я не собираюсь переодеваться в те тряпки!"
+    "Ни за что!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1599
+translate german monica_office_photostudio_alex_dialogue2_local1_1fdc7cc4:
+
+    # m "Нет, Алекс."
+    # "Мне понравилось это платье, я оставлю его."
+    # alex_photograph "Но Мэм..."
+    # "Платье, украшения..."
+    # "Это реквизит фотостудии и..."
+    m "Нет, Алекс."
+    "Мне понравилось это платье, я оставлю его."
+    alex_photograph "Но Мэм..."
+    "Платье, украшения..."
+    "Это реквизит фотостудии и..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1607
+translate german monica_office_photostudio_alex_dialogue2_local1_b37e2637:
+
+    # m "Алекс, достаточно."
+    # alex_photograph "Мэм..."
+    m "Алекс, достаточно."
+    alex_photograph "Мэм..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1612
+translate german monica_office_photostudio_alex_dialogue2_local1_2ba31af5:
+
+    # mt "Итак, {b}надо вернуться к Бифу{/b}..."
+    mt "Итак, {b}надо вернуться к Бифу{/b}..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1655
+translate german monica_office_cabinet_biff_dialogue5_49238c3a:
+
+    # biff "О! Цыпочка!"
+    # "Сообщи моей секретарше свои реквизиты и деньги будут переведены в течении..."
+    # "Ну... Может быть месяца..."
+    biff "О! Цыпочка!"
+    "Сообщи моей секретарше свои реквизиты и деньги будут переведены в течении..."
+    "Ну... Может быть месяца..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1665
+translate german monica_office_cabinet_biff_dialogue5_979be4e8:
+
+    # biff "Банки уже не работают, детка!"
+    biff "Банки уже не работают, детка!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1674
+translate german monica_office_cabinet_biff_dialogue5_d08d1d60:
+
+    # biff "Детка, я сказал, что банки уже не работают!"
+    biff "Детка, я сказал, что банки уже не работают!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1682
+translate german monica_office_cabinet_biff_dialogue5_27e59075:
+
+    # biff "Ха-ха-ха!"
+    # "Какой темперамент!"
+    biff "Ха-ха-ха!"
+    "Какой темперамент!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1686
+translate german monica_office_cabinet_biff_dialogue5_8637d6f3:
+
+    # biff "Хорошо!"
+    # "Если ты уйдешь сейчас, то я не успею посмотреть на твою голую попку!"
+    # "Я заплачу тебе наличными, но только после речи на благотворительном вечере!"
+    biff "Хорошо!"
+    "Если ты уйдешь сейчас, то я не успею посмотреть на твою голую попку!"
+    "Я заплачу тебе наличными, но только после речи на благотворительном вечере!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1694
+translate german monica_office_cabinet_biff_dialogue5_623e8436:
+
+    # biff "Гарантии???"
+    # "Ты знаешь, что расчет наличными сам по себе является незаконным!"
+    # "Ты хочешь чтобы я заплатил тебе деньги без оформления бумаг и еще хочешь каких-то гарантий?!"
+    biff "Гарантии???"
+    "Ты знаешь, что расчет наличными сам по себе является незаконным!"
+    "Ты хочешь чтобы я заплатил тебе деньги без оформления бумаг и еще хочешь каких-то гарантий?!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1705
+translate german monica_office_cabinet_biff_dialogue5_0a147cd4:
+
+    # biff "Конечно, цыпочка!"
+    # "Я понимаю, ты стесняешься."
+    # "Но не переживай, это небольшой вип зал, там будет мало людей."
+    # "В основном пресса."
+    biff "Конечно, цыпочка!"
+    "Я понимаю, ты стесняешься."
+    "Но не переживай, это небольшой вип зал, там будет мало людей."
+    "В основном пресса."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1720
+translate german monica_office_cabinet_biff_dialogue5_d89d2540:
+
+    # biff "Поехали, детка!"
+    # "Уже пора!"
+    # "И не забудь вернуть платье назад после вечера!"
+    # "А также украшения!"
+    biff "Поехали, детка!"
+    "Уже пора!"
+    "И не забудь вернуть платье назад после вечера!"
+    "А также украшения!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1729
+translate german monica_office_cabinet_biff_dialogue5_b37fca49:
+
+    # m "Я оставлю это платье себе! Оно мое!"
+    # biff "Нет! Даже не обсуждается!"
+    # "Я не позволю чтобы шлюха за $ 10 ходила сниматься в платье от Модного Журнала!"
+    # "А вдруг кто-нибудь узнает это платье?!"
+    # "Что тогда?!"
+    m "Я оставлю это платье себе! Оно мое!"
+    biff "Нет! Даже не обсуждается!"
+    "Я не позволю чтобы шлюха за $ 10 ходила сниматься в платье от Модного Журнала!"
+    "А вдруг кто-нибудь узнает это платье?!"
+    "Что тогда?!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1741
+translate german monica_office_cabinet_biff_dialogue5_fbfe54da:
+
+    # biff "Только попробуй!"
+    # "И тогда твой гонорар пойдет на погашение стоимости платья!"
+    biff "Только попробуй!"
+    "И тогда твой гонорар пойдет на погашение стоимости платья!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1750
+translate german monica_office_cabinet_biff_dialogue5_804bca1b:
+
+    # biff "Закрой свой ротик, пока я не заткнул его своим членом!"
+    # "Ты будешь открывать его когда скажу Я!"
+    biff "Закрой свой ротик, пока я не заткнул его своим членом!"
+    "Ты будешь открывать его когда скажу Я!"
+
+translate german strings:
+
+    # Quests/EP2/ep2_dialogues4.rpy:935
+    old "Да, я согласна..."
+    new ""
+
+    # Quests/EP2/ep2_dialogues4.rpy:1555
+    old "Продолжить делать кадры. (corruption)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues4.rpy:1555
+    old "Продолжить делать кадры. (недостаточно corruption) (disabled)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues4.rpy:1555
+    old "Прекратить это."
+    new ""
+

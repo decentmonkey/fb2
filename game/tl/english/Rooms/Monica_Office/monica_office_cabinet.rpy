@@ -56,3 +56,17 @@ translate english strings:
     old "К СЕКРЕТАРЮ"
     new "TO THE SECRETARY"
 
+# TODO: Translation updated at 2018-12-08 17:34
+
+# game/Rooms/Monica_Office/monica_office_cabinet.rpy:53
+translate english monica_office_cabinet_environment_5b6a47be:
+
+    # mt "Мой... Офис..."
+    mt "My... Office..."
+
+# game/Rooms/Monica_Office/monica_office_cabinet.rpy:69
+translate english monica_office_cabinet_environment_75cdad00:
+
+    # mt "Мой... Стол..."
+    mt "My... Table..."
+

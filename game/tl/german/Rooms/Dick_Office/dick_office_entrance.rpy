@@ -68,3 +68,13 @@ translate german strings:
     old "НА УЛИЦУ"
     new "ZUR STRASSE"
 
+# TODO: Translation updated at 2018-12-08 17:35
+
+# game/Rooms/Dick_Office/dick_office_entrance.rpy:48
+translate german dick_office_entrance_environment_42470e33:
+
+    # reception_secretary "Мэм, я могу Вам чем-то помочь?"
+    # mt "..."
+    reception_secretary "Мэм, я могу Вам чем-то помочь?"
+    mt "..."
+

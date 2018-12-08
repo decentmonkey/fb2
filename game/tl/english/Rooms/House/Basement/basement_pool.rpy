@@ -4,7 +4,7 @@
 translate english basement_pool_environment_7c31c4d0:
 
     # m "Насколько помню, здесь одна дверь ведет назад в дом, а вторая в прачечную."
-    m "As far as I remember, here is one door that leads back into the house, and second, leads to the Laundry."
+    m "As far as I remember, there is one door that leads back into the house, and second, leads to the Laundry."
 
 # game/Rooms/House/Basement/basement_pool.rpy:42
 translate english basement_pool_environment_194ad6e1:

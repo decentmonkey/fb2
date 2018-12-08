@@ -6,15 +6,15 @@ translate english rich_hotel_event_sofa_environment_8e867cd7:
     # mt "Что же мне делать???"
     # mt "Может быть как-то уговорить Бифа дать мне недостающую сумму денег?"
     mt "What should I do???"
-    mt "Is there any way I can get biff to give me the missing amount of money?"
+    mt "Is there any way I can get Beef to give me the missing amount of money?"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_sofa.rpy:38
 translate english rich_hotel_event_sofa_environment_af9f1c53:
 
     # mt "Мне не нравится этот Биф!"
     # "Надо скорее забрать у него деньги и больше с ним не встречаться!"
-    mt "I don't like that biff!"
-    "I must quickly take money and never see him again!"
+    mt "I don't like that Beef!"
+    "I must quickly take the money and never see him again!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_sofa.rpy:43
 translate english rich_hotel_event_sofa_environment_70b277eb:
@@ -22,7 +22,7 @@ translate english rich_hotel_event_sofa_environment_70b277eb:
     # mt "Мерзкий слизняк Биф!"
     # "Я найду на него управу!!!"
     # "Клянусь!"
-    mt "Nasty slug biff!"
+    mt "Nasty slug Beef!"
     "I'll find a way to control him!!!"
     "I swear!"
 
@@ -46,7 +46,7 @@ translate english rich_hotel_event_sofa_environment_a7a3111c:
     # mt "Может здесь внутри есть какие-нибудь деньги?"
     # "Но нет... Это чушь..."
     mt "Maybe there's some money in here?"
-    "But no... It's a bullshit..."
+    "But no... It's bullshit..."
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_sofa.rpy:63
 translate english rich_hotel_event_sofa_environment_72c4389d:

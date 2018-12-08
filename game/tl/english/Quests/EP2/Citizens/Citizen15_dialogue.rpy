@@ -10,7 +10,7 @@ translate english citizen15_dialogue_b8f1bd99:
 translate english citizen15_dialogue_94f4dc6e:
 
     # citizen15 "Я важная персона! Ты отвлекаешь меня!"
-    citizen15 "I'm important person! You distract me!"
+    citizen15 "I'm an important person! You distract me!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:11
 translate english citizen15_dialogue_loop1_0c6511a1:
@@ -45,7 +45,7 @@ translate english citizen15_dialogue_loop1_4dded6da:
     # "Продолжай подкатывать ко мне! Мне нравится!"
     citizen15 "What's next?"
     m "What do you mean?"
-    citizen15 "I'm important person! All the girls love me!"
+    citizen15 "I'm the important person! All the girls love me!"
     "Keep flirting with me! I love it!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:30
@@ -58,7 +58,7 @@ translate english citizen15_dialogue_loop1_23b531ff:
 translate english citizen15_dialogue_loop1_afada078:
 
     # citizen15 "Я важная персона! У меня нет времени на флаеры!"
-    citizen15 "I'm important person! I don't have time for flyers!"
+    citizen15 "I'm an important person! I don't have time for flyers!"
 
 translate english strings:
 

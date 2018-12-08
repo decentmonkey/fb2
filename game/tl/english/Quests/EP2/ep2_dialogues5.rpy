@@ -58,7 +58,7 @@ translate english monica_charity_event_dialogue1_27c1e774:
     # "Все уже готово!"
     # "Все давно ждут!"
     "It's ready!"
-    "Everyone have been waiting for!"
+    "Everyone has been waiting for!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:54
 translate english monica_charity_event_dialogue1_1b90a539:
@@ -202,14 +202,14 @@ translate english monica_charity_event_dialogue2_243c917f:
 translate english monica_charity_event_dialogue2_582659c0:
 
     # "Ты привыкла сосать члены, но сюда надо говорить!"
-    "You're used to suck dicks, but you got to talk!"
+    "You're used to sucking dicks, but you got to talk!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:132
 translate english monica_charity_event_dialogue2_6df67c90:
 
     # m "Я знаю, Биф!"
     # "Заткнись!"
-    m "I know, biff!"
+    m "I know, Beef!"
     "Shut up!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:145
@@ -303,7 +303,7 @@ translate english monica_charity_event_dialogue2a_0c58ee8c:
     # "Наш журнал изменит свой курс!"
     m "..."
     m "I am - Monica Buckfett!"
-    "And I confirm the words of Mr. biff!"
+    "And I confirm the words of Mr. Beef!"
     "Our magazine will change its policy!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:196
@@ -334,7 +334,7 @@ translate english monica_charity_event_dialogue2a_dd4345d2:
     # "Я благодарна Мистеру Бифу за новые идеи..."
     # "Наш журнал должен преобразиться..."
     # "Спасибо Вам за то что Вы пришли..."
-    "I'm grateful to Mr. biff for the new ideas..."
+    "I'm grateful to Mr. Beef for the new ideas..."
     "Our magazine needs to be transformed..."
     "Thank you for coming..."
 
@@ -380,7 +380,7 @@ translate english monica_charity_event_dialogue2a_9e5167a0:
     "Tell me! Why did you decide to change policy?"
     reporter2 "Tell me! Are you ready to support the new policy by your own example?"
     reporter3 "We heard you just had a photo shoot!"
-    "Did you decide to be shoot naked?"
+    "Did you decide to shoot naked?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:233
 translate english monica_charity_event_dialogue2a_ef2531f1:
@@ -403,7 +403,7 @@ translate english monica_charity_event_dialogue2a_03b03c9b:
     # "Мы слышали что эта фотосессия достаточно смелая!"
     # reporter3 "Расскажите про фотосессию, Миссис Бакфетт!"
     reporter1 "But we heard that this is an unusual photo shoot!"
-    "We've heard that this photo shoot is daring enough!"
+    "We've heard that this photoshoot is daring enough!"
     reporter3 "Tell us about the photo shoot, Mrs. Buckfett!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:244
@@ -411,7 +411,7 @@ translate english monica_charity_event_dialogue2a_2ed92c8c:
 
     # m "Ой! Что Вы? Это обычная фотосессия!"
     # reporter2 "Мы слышали что вы принимали необычные позы!"
-    m "Ow! What are you talking about. This is a regular photo shoot!"
+    m "Ow! What are you talking about? This is a regular photo shoot!"
     reporter2 "We heard you were taking unusual poses!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:247
@@ -439,9 +439,9 @@ translate english monica_charity_event_dialogue2a_4a0485c9:
     # "Интервью закончено!"
     # reporter1 "Спасибо, Миссис Бакфетт!"
     m "No..."
-    "This was single time..."
+    "This was a single time..."
     "Tell it THE PEOPLE that they can not count on more!"
-    "Interview's over!"
+    "The interview's over!"
     reporter1 "Thank you, Mrs. Buckfett!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:265
@@ -451,14 +451,14 @@ translate english monica_charity_event_dialogue3_46e6999a:
     # "Я сказала что хотел этот мерзавец Биф!"
     # "Надо идти {b}узнать про деньги{/b}!"
     mt "That’s all!"
-    "I said what that bastard biff wanted!"
+    "I said what that bastard Beef wanted!"
     "Need to go {b}to find out about money {/b}!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:273
 translate english monica_charity_event_dialogue4a_898554ad:
 
     # mt "Я не собираюсь уходить пока не получу деньги от Бифа!"
-    mt "I'm not leaving until I get the money from biff!"
+    mt "I'm not leaving until I get the money from Beef!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:280
 translate english monica_charity_event_dialogue4_07965b42:
@@ -467,24 +467,24 @@ translate english monica_charity_event_dialogue4_07965b42:
     # "Ты удовлетворен выступлением?"
     # biff "Да, цыпочка!"
     # "Ты хорошо поработала!"
-    m "biff!"
+    m "Beef!"
     "Are you satisfied with the performance?"
     biff "Yeah, chick!"
-    "You did good!"
+    "You did well!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:286
 translate english monica_charity_event_dialogue4_bf864382:
 
     # m "Биф, ты ничего не забыл?"
     # biff "Что ты имеешь ввиду?"
-    m "Biff, have you forgotten something?"
+    m "Beef, have you forgotten something?"
     biff "What do you mean?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:290
 translate english monica_charity_event_dialogue4_39278edd:
 
     # m "Я про нашу договоренность, Биф!!!"
-    m "I'm talking about our arrangement, biff!!!"
+    m "I'm talking about our arrangement, Beef!!!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:293
 translate english monica_charity_event_dialogue4_848413e3:
@@ -515,7 +515,7 @@ translate english monica_charity_event_dialogue4_8455ca28:
 
     # m "Хорошо, Биф."
     # "Я подожду..."
-    m "Okay, biff."
+    m "Okay, Beef."
     "I will wait..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:312
@@ -596,14 +596,14 @@ translate english monica_charity_event_dialogue6_1cc4e75d:
     # "Можешь считать что ты уже не работаешь здесь!"
     m "I'm the one who will fire you for this misdemeanor!"
     "You're a little worm who doesn't understand the greatness of people like me!"
-    "You can consider that you don't work here any more!"
+    "You can consider that you don't work here anymore!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:362
 translate english monica_charity_event_dialogue6_593bbc43:
 
     # mt "Я поговорю с Бифом! Вместе мы уволим этого недоноска!"
     # mt "Ах! Как прекрасно снова чувствовать власть!"
-    mt "I'll talk to biff! Together we will dismiss this miscarriage!"
+    mt "I'll talk to Beef! Together we will dismiss this miscarriage!"
     mt "Ah! How wonderful to feel the power again!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:365
@@ -650,7 +650,7 @@ translate english monica_charity_event_dialogue6_655fdc6e:
 translate english monica_charity_event_dialogue6_f1aa0f78:
 
     # mt "В конце концов я не в том положении чтобы еще кого-то увольнять..."
-    mt "In the end I'm not in the position to fire someone..."
+    mt "In the end, I'm not in the position to fire someone..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:392
 translate english monica_charity_event_dialogue7_b1366bfb:
@@ -695,7 +695,7 @@ translate english monica_charity_event_dialogue8_212059e7:
     "..."
     "Although..."
     "Buy some wine..."
-    "Why not?.."
+    "Why not?..."
     "At least he looks rich..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:424
@@ -758,7 +758,7 @@ translate english monica_charity_event_dialogue8_2b979871:
     philip "MA'am! I love wine!"
     "And wine-a product that eventually becomes more expensive!"
     "Unfortunately, time flies quickly and all other things lose value!"
-    "What can not be said about paintings or Antiques!"
+    "What cannot be said about paintings or Antiques!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:460
 translate english monica_charity_event_dialogue8_e77bcf3e:
@@ -776,7 +776,7 @@ translate english monica_charity_event_dialogue8_5dfafb41:
 translate english monica_charity_event_dialogue8_6f1f11f9:
 
     # m "Но как же, на женщин время оказывает влияние, в отличие от живописи..."
-    m "But, of course, for women the time has an impact, unlike paintings..."
+    m "But, of course, for women, the time has an impact, unlike paintings..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:468
 translate english monica_charity_event_dialogue8_6fb4ec9e:
@@ -844,14 +844,14 @@ translate english monica_charity_event_dialogue8_558c1fc7:
     "He can give me a lot of money..."
     "And it will be easier for me to achieve my goal..."
     "It doesn't look complicated."
-    "I just have to play along a little."
+    "I just have to play along with a little."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:503
 translate english monica_charity_event_dialogue8_2f6a25d8:
 
     # "Конечно, я не собираюсь спать с ним!"
     # "Об этом бедняга может только мечтать!"
-    "Of course I'm not going to sleep with him!"
+    "Of course, I'm not going to sleep with him!"
     "This poor man can only dream of!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:507
@@ -980,7 +980,7 @@ translate english monica_charity_event_dialogue8_07254c0c:
     # "Этот Филип покроет любые мои возможные расходы, но все-же..."
     "Dance?"
     "Why not?"
-    "But I have to go get the money from biff first."
+    "But I have to go get the money from Beef first."
     "I won't need them anymore, most likely."
     "This Philip will cover any expenses I might have, but still..."
 
@@ -1025,14 +1025,14 @@ translate english monica_charity_event_dialogue9_b4deadde:
 
     # mt "Мне надо {b}забрать деньги у Бифа{/b}."
     # "Филип пусть пока будет в неуверенности..."
-    mt "I need to {b}get money from biff {/b}."
+    mt "I need to {b}get money from Beef {/b}."
     "Let Philip be in uncertainty..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:597
 translate english monica_charity_event_dialogue10_4c197b43:
 
     # m "Биф! Уже прошел час!"
-    m "biff! It's past an hour!"
+    m "Beef! It's past an hour!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:599
 translate english monica_charity_event_dialogue10_bd17a33d:
@@ -1052,7 +1052,7 @@ translate english monica_charity_event_dialogue10_a4c4e9f1:
     # "Так что, Биф? Я жду!"
     m "Yes, the wine is quite tasty."
     "It's worth the money."
-    "So, biff? I wait!"
+    "So, Beef? I wait!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:609
 translate english monica_charity_event_dialogue10_edfbdedc:
@@ -1102,7 +1102,7 @@ translate english monica_charity_event_dialogue10_4bbd69f7:
     biff "I remember everything, chick!"
     "Don't raise your voice at me!"
     "It's money minus the benefit of charity!"
-    "I did not deduct the amount of contributions, but deducted the cost of food and drinks!"
+    "I did not deduct the number of contributions, but deducted the cost of food and drinks!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:632
 translate english monica_charity_event_dialogue10_da24091f:
@@ -1179,14 +1179,14 @@ translate english monica_charity_event_dialogue11_b242174a:
     "That bitch Victoria said it very clear that if there was less money, I might not even come!"
     "Dick is useless to negotiate with!"
     "He blindly listens to this fool!"
-    "It's evening and I have to hurry!"
+    "It's evening, and I have to hurry!"
     "I have to go buy this damn tie!"
     "And I'm in lack with $ 1,000!"
     "It all adds up so if I don't get that $ 1,000, I will go to Marcus!!!"
     "Oh my God!!!"
     "Where should I get it?!?!"
     "Maybe I should speed things up with {b}Philip{/b}?"
-    "Or try to persuade {b}biff {/b}?"
+    "Or try to persuade {b}Beef {/b}?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:675
 translate english monica_charity_event_dialogue12_a89e1fbd:
@@ -1219,8 +1219,8 @@ translate english monica_charity_event_dialogue14_714c2d3d:
 
     # "Ну... Хорошо... Давай потанцуем..."
     # "Ты ведь так этого хочешь..."
-    "Well..OK..Let's dance..."
-    "Is that what you want, right?.."
+    "Well... OK...Let's dance..."
+    "Is that what you want, right?..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:701
 translate english monica_charity_event_dialogue14_4f137c3a:
@@ -1328,7 +1328,7 @@ translate english monica_charity_event_dialogue14_4ad50a1c:
     # "Но деньги нужны прямо сейчас, потому я и обращаюсь к Вам!"
     # "Мне многие могут помочь в этой мелочи, но я выбрала именно Вас!"
     "But the money is needed right now, so I appeal to you!"
-    "Many people can help me in this little thing, but I have chosen You!"
+    "Many people can help me with this little thing, but I have chosen You!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:768
 translate english monica_charity_event_dialogue14_c31c0e25:
@@ -1359,7 +1359,7 @@ translate english monica_charity_event_dialogue14_dc19b0ed:
 
     # m "Конечно согласна, Филип!"
     # "Я считаю что моя улыбка стоит гораздо больше!"
-    m "Of course I do, Philip!"
+    m "Of course, I do, Philip!"
     "I believe that my smile is worth much more!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:783
@@ -1368,7 +1368,7 @@ translate english monica_charity_event_dialogue14_bf3bd7c2:
     # philip "Если честно, Мэм, на протяжении вечера я оценивал не Вашу улыбку!"
     # m "А что же?"
     # philip "Ваш ротик, Мэм!"
-    philip "To be honest, mA'am, throughout the evening I did not appreciate your smile!"
+    philip "To be honest, ma'am, throughout the evening I did not appreciate your smile!"
     m "What?"
     philip "Your mouth, mA'am!"
 
@@ -1458,7 +1458,7 @@ translate english monica_charity_event_dialogue14_d9fc079a:
 translate english monica_charity_event_dialogue14_595f0022:
 
     # m "Вы правда думаете что я стою так мало?"
-    m "Do you realy think my cost is so little?"
+    m "Do you really think my cost is so little?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:834
 translate english monica_charity_event_dialogue14_9555aae1:
@@ -1468,7 +1468,7 @@ translate english monica_charity_event_dialogue14_9555aae1:
     # "Я хорошо умею считать и я оцениваю Ваш ротик в $ 500!"
     philip "What do you mean, MA'am?"
     "How can you think so badly of me?"
-    "I'm good at counting and I estimate your mouth at $ 500!"
+    "I'm good at counting, and I estimate your mouth at $ 500!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:838
 translate english monica_charity_event_dialogue14_cf0d85a6:
@@ -1509,7 +1509,7 @@ translate english monica_charity_event_dialogue15_806c6a0d:
     "But what should I do?"
     "If I don't get {b}$ 1,000 urgently{/b}, I'm finished!"
     "I only have a few minutes before it's too late!"
-    "I have to think, mb I should {b}talk to the biff{/b} again?"
+    "I have to think, mb I should {b}talk to the BEEF{/b} again?"
     "Or {b}come back to Philip {/b}?"
     "I have no choice! No choice!!!"
     "(sob)"
@@ -1519,7 +1519,7 @@ translate english monica_charity_event_dialogue16_5d8cf607:
 
     # m "Биф!"
     # "Мне нужна $ 1.000!"
-    m "biff!"
+    m "Beef!"
     "I need $ 1,000!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:869
@@ -1548,7 +1548,7 @@ translate english monica_charity_event_dialogue16_0f8cca7f:
 translate english monica_charity_event_dialogue16_d030d885:
 
     # m "Биф! Мы можем отойти на пару минут?"
-    m "biff! Can we take a few minutes?"
+    m "Beef! Can we take a few minutes?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:888
 translate english monica_charity_event_dialogue16_c24a1f1b:
@@ -1570,7 +1570,7 @@ translate english monica_charity_event_dialogue16_7bf82a1d:
 translate english monica_charity_event_dialogue16_8108a8af:
 
     # melanie "Правда, Биф..."
-    melanie "Yes, biff..."
+    melanie "Yes, Beef..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:898
 translate english monica_charity_event_dialogue16_2c17a002:
@@ -1582,7 +1582,7 @@ translate english monica_charity_event_dialogue16_2c17a002:
 translate english monica_charity_event_dialogue16_ef28a711:
 
     # m "Биф, пожалуйста, дай деньги. Я буду хорошей цыпочкой..."
-    m "biff, please give me the money. I'm gonna be a good chick..."
+    m "Beef, please give me the money. I'm gonna be a good chick..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:911
 translate english monica_charity_event_dialogue16_f4bd0c25:
@@ -1631,7 +1631,7 @@ translate english monica_charity_event_dialogue16_db704ec7:
 
     # melanie "Да, Биф!"
     # "Это хорошая девушка! Она заслуживает твоей доброты!"
-    melanie "Yes, biff!"
+    melanie "Yes, Beef!"
     "She is a good girl! She deserves your kindness!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:937
@@ -1639,14 +1639,14 @@ translate english monica_charity_event_dialogue16_81461505:
 
     # melanie "Биф, это решать тебе!"
     # "Я плохо знаю ее..."
-    melanie "biff, it's up to you!"
+    melanie "Beef, it's up to you!"
     "I know her a little..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:940
 translate english monica_charity_event_dialogue16_aec294bc:
 
     # mt "Сучка Мелани!!! Не даром я ее не любила!"
-    mt "Melanie's Bitch!!! Not for nothing I didn't love her!"
+    mt "Melanie's Bitch!!! Not for nothing, I didn't love her!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:944
 translate english monica_charity_event_dialogue16_8fcc20ea:
@@ -1778,7 +1778,7 @@ translate english monica_charity_event_dialogue17_7f797f09:
     # "Я начинаю торопиться и скоро уже ухожу!"
     philip "Mrs. Buckfett!"
     "This hotel provides a variety of services!"
-    "I'm in a hurry and I'm leaving soon!"
+    "I'm in a hurry, and I'm leaving soon!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1029
 translate english monica_charity_event_dialogue17_6ab6a8d7:
@@ -1786,7 +1786,7 @@ translate english monica_charity_event_dialogue17_6ab6a8d7:
     # "Перед уходом мой член побывает в чьем-нибудь ротике!"
     # "В Вашем, либо в каком-то другом!"
     "Before leaving, my dick will be in someone's mouth!"
-    "In Your's, either in some other's!"
+    "In Your's, either in some others!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1033
 translate english monica_charity_event_dialogue17_63253b7b:
@@ -2056,7 +2056,7 @@ translate english monica_charity_event_dialogue18_16bf02aa:
     # "Я почти поверила что она Леди!"
     # "В нашей гостинице запрещено заниматься проституцией без разрешения!"
     "I almost believed she was a Lady!"
-    "In our hotel it is forbidden to be engaged in prostitution without permission!"
+    "In our hotel, it is forbidden to be engaged in prostitution without permission!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1253
 translate english monica_charity_event_dialogue18_81291b3f:
@@ -2166,7 +2166,7 @@ translate english monica_charity_event_dialogue18_57e22111:
     # "Благодаря этому правилу их у меня много и я могу наслаждаться их вкусом!"
     "Because they are different! Different women, mA'am!"
     "I never! I never put my dick two times in the same woman!"
-    "Thanks to this rule I have a lot of women and I can enjoy their taste!"
+    "Thanks to this rule I have a lot of women, and I can enjoy their taste!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1319
 translate english monica_charity_event_dialogue18_9a6e6fad:
@@ -2194,7 +2194,7 @@ translate english monica_charity_event_dialogue18_17b7c5ac:
     # "Для меня это жизнь или смерть!"
     m "I have nothing to offer, but please!"
     "Mister."
-    "For me it's life or death!"
+    "For me, it's life or death!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1332
 translate english monica_charity_event_dialogue18_40240c22:
@@ -2204,7 +2204,7 @@ translate english monica_charity_event_dialogue18_40240c22:
     # "Вы сделаете миньет первому мужчине, который зайдет сюда!"
     # "Тогда Вы получите еще $ 500!"
     philip "Although..."
-    "Do you know what?.."
+    "Do you know what?..."
     "You'll blow the first man who comes in here!"
     "Then you get another $ 500!"
 
@@ -2258,7 +2258,7 @@ translate english monica_charity_event_dialogue18_b3b05c8d:
     # philip "Член! Есть член у тебя?!"
     # "Я имею ввиду ту штуку что должна быть в штанах у каждого мужчины!"
     # "Есть она у тебя или ее нет?"
-    philip "Dick! You have cock?!"
+    philip "Dick! You have a cock?!"
     "I mean, the thing that should be in every man's pants!"
     "Do you have it or don't you?"
 
@@ -2268,7 +2268,7 @@ translate english monica_charity_event_dialogue18_9c36dd64:
     # hotel_staff "Сэр... Конечно есть..."
     # "Но я не понимаю зачем этот вопрос."
     # "Я могу как-то помочь Вам?"
-    hotel_staff "Sir... Certainly I do..."
+    hotel_staff "Sir... Certainly, I do..."
     "But I do not understand why this question."
     "Is there any way I can help you?"
 
@@ -2320,7 +2320,7 @@ translate english monica_charity_event_dialogue18_71e2c3f0:
     # "Моника Бакфетт сидит в туалете и ждет твой член!"
     # "Она ждет его!"
     # "Ее ротик приглашает твой член! Чтобы ты вставил его!"
-    "Monica Buckfett sitting on the toilet and waiting for your dick!"
+    "Monica Buckfett is sitting on the toilet and waiting for your dick!"
     "She's waiting for him!"
     "Her mouth invites your cock! Put it in!"
 
@@ -2342,7 +2342,7 @@ translate english monica_charity_event_dialogue18_bc00340f:
     # "Приглашай его член!"
     # "Иначе не получишь деньги!"
     "Invite his cock!"
-    "Otherwise you will not get the money!"
+    "Otherwise, you will not get the money!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1417
 translate english monica_charity_event_dialogue18_77d91fa8:
@@ -2452,7 +2452,7 @@ translate english monica_charity_event_dialogue18_loopa1_b775e166:
     # philip "Открой рот! Приглашай его член в себя!"
     # "Иначе не получишь деньги!!!"
     philip "Open your mouth! Invite his cock inside you!"
-    "Otherwise you will not get the money!!!"
+    "Otherwise, you will not get the money!!!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1499
 translate english monica_charity_event_dialogue18_loopa1_3234df34:
@@ -2643,7 +2643,7 @@ translate english monica_charity_event_dialogue18_loopa1_4273793a:
     "I have..."
     "I HAVE NO WORDS!!!"
     "WHAT THEY HAVE DONE WITH ME???"
-    "FOR THOUSAND OF DOLLARS!!!"
+    "FOR ONE THOUSAND OF DOLLARS!!!"
     "MONICA, HOW COULD YOU?!?!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1662
@@ -2712,7 +2712,7 @@ translate english monica_charity_event_dialogue19_5690dfb1:
     # biff "Постой, детка! Мы вместе поедем сейчас в офис!"
     # "Ты забыла там свою одежду!"
     # "Ха-ха-ха!"
-    m "biff! I'm leaving!"
+    m "Beef! I'm leaving!"
     imt 6766
     biff "Wait a minute, baby! We're going to the office together!"
     "You left your clothes there!"
@@ -2742,7 +2742,7 @@ translate english monica_office_biff_dialogue_evening1_2f5d61b6:
 translate english monica_office_biff_dialogue_evening1_daab6f76:
 
     # m "Я не буду этого делать, Биф!"
-    m "I'm not doing this, biff!"
+    m "I'm not doing this, Beef!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1730
 translate english monica_office_biff_dialogue_evening1_7e42dba0:
@@ -2760,7 +2760,7 @@ translate english monica_office_biff_dialogue_evening1_0a5616b8:
 translate english monica_office_biff_dialogue_evening1_0886f698:
 
     # biff "До следующей фотосессии, цыпочка!"
-    biff "See you on next photo shoot, chick!"
+    biff "See you on the next photo shoot, chick!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1739
 translate english monica_office_biff_dialogue_evening1_75e593a3:
@@ -2774,13 +2774,13 @@ translate english monica_office_biff_dialogue_evening1_875220a7:
     # biff "Иди переодевайся!"
     # "Это платье и украшения принадлежат компании!"
     biff "Go change!"
-    "This dress and jewelry belongs to the company!"
+    "This dress and jewelry belonging to the company!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1752
 translate english monica_office_biff_dialogue_evening1_d6e07ebf:
 
     # m "Ты доволен, Биф?!"
-    m "Are you happy, biff?!"
+    m "Are you happy, Beef?!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1755
 translate english monica_office_biff_dialogue_evening1_62c01ede:
@@ -2846,7 +2846,7 @@ translate english monica_dick_office_entrance_dialogue1_bf2b2cc2:
     # "Мне надо дождаться утро..."
     "..."
     "That bitch said she'd fax it in the morning..."
-    "I have to wait till morning..."
+    "I have to wait until morning..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1790
 translate english monica_dick_office_entrance_dialogue1_01bc1219:
@@ -2896,7 +2896,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:155
     old "Подыграть Бифу. Если я хочу все вернуть назад, то надо быть хитрее..."
-    new "To play along with biff. If I want everything back, I have to be smarter..."
+    new "To play along with Beef. If I want everything back, I have to be smarter..."
 
     # Quests/EP2/ep2_dialogues5.rpy:155
     old "Еще подумать..."
@@ -2920,7 +2920,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:690
     old "Ну... Хорошо... Давай потанцуем..."
-    new "Well..OK..Let's dance..."
+    new "Well... OK...Let's dance..."
 
     # Quests/EP2/ep2_dialogues5.rpy:690
     old "Я пока не решила..."
@@ -2932,15 +2932,15 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:824
     old "Вы правда думаете что я стою так мало?"
-    new "Do you realy think my cost is so little?"
+    new "Do you really think my cost is so little?"
 
     # Quests/EP2/ep2_dialogues5.rpy:878
     old "Биф! Мы можем отойти на пару минут?"
-    new "biff! Can we take a few minutes?"
+    new "Beef! Can we take a few minutes?"
 
     # Quests/EP2/ep2_dialogues5.rpy:899
     old "Биф, пожалуйста, дай деньги. Я буду хорошей цыпочкой..."
-    new "biff, please give me the money. I'm gonna be a good chick..."
+    new "Beef, please give me the money. I'm gonna be a good chick..."
 
     # Quests/EP2/ep2_dialogues5.rpy:899
     old "Я ни за что это не скажу! Уйти."
@@ -3012,5 +3012,265 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:1602
     old "Проглотить сперму по настоящему, иначе Филип увидит и я не получу деньги..."
-    new "Swallow the cum for real, or Philip will check it and I won't give the money..."
+    new "Swallow the cum for real, or Philip will check it, and I won't give the money..."
+
+# TODO: Translation updated at 2018-12-08 17:34
+
+# game/Quests/EP2/ep2_dialogues5.rpy:9
+translate english monica_rich_hotel_entrance_31ad8d20:
+
+    # biff "Добрый вечер!"
+    # "Я веду этих цыпочек на благотворительный вечер!"
+    biff "Good evening!"
+    "I'm taking these chicks to a charity event!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:54
+translate english monica_charity_event_dialogue1_61d2530c:
+
+    # biff "Ты все подготовил?"
+    # "Хороший мальчик!"
+    biff "Have you set everything?"
+    "Good boy!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:58
+translate english monica_charity_event_dialogue1_53a55bd9:
+
+    # biff "Моника, Мелани! Быстро на сцену!"
+    # "Отрабатывайте свои деньги!"
+    biff "Monica, Melanie! Quickly on the stage."
+    "Earn your money!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:71
+translate english monica_charity_event_dialogue2_6972e54e:
+
+    # biff "Господа!"
+    # "Я рад приветствовать Вас на этом благотворительном вечере!"
+    biff "Gentlemen!"
+    "I am happy to welcome you to this charity event!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:79
+translate english monica_charity_event_dialogue2_99b9f9cb:
+
+    # biff "Как Вы знаете, наш журнал является законодателем Моды!"
+    # "Это самое авторитетное издание из всех подобных!"
+    biff "As you know, our magazine is a trendsetter!"
+    "This is the most authoritative magazine of its kind!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:123
+translate english monica_charity_event_dialogue2_83604d5b:
+
+    # biff "Ну, давай кукла!"
+    # "Притворись Моникой Бакфетт!"
+    biff "Get it, doll!"
+    "Pretend Monica Buckfett!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:196
+translate english monica_charity_event_dialogue2a_09baa364:
+
+    # m "..."
+    # biff "Ну, курица! Скажи что-нибудь еще!!!"
+    m "..."
+    biff "Well, chicken! Say something else!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:211
+translate english monica_charity_event_dialogue2a_195dfcea:
+
+    # biff "Молодец, цыпочка!"
+    # "Продолжай играть!"
+    biff "Good, chick!"
+    "Keep acting!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:280
+translate english monica_charity_event_dialogue4_d3e53b66:
+
+    # m "Биф!"
+    # "Ты удовлетворен выступлением?"
+    # biff "Да, цыпочка!"
+    # "Ты хорошо поработала!"
+    m "Beef!"
+    "Are you satisfied with the performance?"
+    biff "Yeah, chick!"
+    "You did well!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:286
+translate english monica_charity_event_dialogue4_edc88a28:
+
+    # m "Биф, ты ничего не забыл?"
+    # biff "Что ты имеешь ввиду?"
+    m "Beef, have you forgotten something?"
+    biff "What do you mean?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:293
+translate english monica_charity_event_dialogue4_2ff20edf:
+
+    # biff "Ах! Про это!"
+    # "У меня нет с собой наличных, детка!"
+    # "Мне их скоро привезут."
+    biff "Ah! About that!"
+    "I don't have any cash with me, baby!"
+    "I'll have them delivered soon."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:300
+translate english monica_charity_event_dialogue4_b0ba191f:
+
+    # biff "В течении часа."
+    # "Ты пока можешь {b}расслабиться и выпить вина{/b}."
+    biff "For an hour."
+    "You can {b}relax and drink wine{/b}."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:312
+translate english monica_charity_event_dialogue5_0af9d6c6:
+
+    # biff "Мне пока не привезли деньги, детка!"
+    # "{b}Расслабься, выпей вина{/b}!"
+    biff "I haven't got the money yet, baby!"
+    "{b}Relax, have some wine {/b}!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:599
+translate english monica_charity_event_dialogue10_29306ad4:
+
+    # biff "О! Крошка!"
+    # "Я вижу ты неплохо отдыхаешь!"
+    # "Тебе понравилось вино?"
+    biff "Oh! Baby!"
+    "I see you're resting well!"
+    "Did you like the wine?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:609
+translate english monica_charity_event_dialogue10_b6a087bd:
+
+    # biff "Иди сюда, цыпочка!"
+    biff "Come here, chick!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:612
+translate english monica_charity_event_dialogue10_041616f4:
+
+    # biff "Вот, держи!"
+    biff "Here you go!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:627
+translate english monica_charity_event_dialogue10_89a515cc:
+
+    # biff "Я все помню, цыпочка!"
+    # "Не повышай на меня голос!"
+    # "Это деньги за вычетом благотворительного вечера!"
+    # "Я не стал вычитать сумму взносов, но вычел расходы на еду и напитки!"
+    biff "I remember everything, chick!"
+    "Don't raise your voice at me!"
+    "It's money minus the benefit of charity!"
+    "I did not deduct the number of contributions, but deducted the cost of food and drinks!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:638
+translate english monica_charity_event_dialogue10_59b1c611:
+
+    # biff "Ничем не могу помочь, детка!"
+    biff "I can't help you, baby!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:643
+translate english monica_charity_event_dialogue10_1d727408:
+
+    # biff "Эй! Детка! Следи за языком!"
+    biff "Hey! Baby! Watch your mouth!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:869
+translate english monica_charity_event_dialogue16_2674bf33:
+
+    # biff "Детка! Я говорил тебе уже!"
+    # "Я с тобой полностью рассчитался!"
+    biff "Baby! I have told you!"
+    "I have paid you off completely!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:888
+translate english monica_charity_event_dialogue16_8c04d6f1:
+
+    # biff "Нет, говори!"
+    biff "No, tell me!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:898
+translate english monica_charity_event_dialogue16_8952d999:
+
+    # biff "Вот видишь, цыпочка!"
+    biff "See, chick?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:911
+translate english monica_charity_event_dialogue16_7d6edbde:
+
+    # biff "Хорошей цыпочкой - это какой?"
+    biff "What's a good chick?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:921
+translate english monica_charity_event_dialogue16_ec258e6e:
+
+    # biff "Ха-ха-ха!"
+    # "Детка, а ты знаешь подход к папочке!"
+    biff "Ha ha ha!"
+    "Baby, you know how to approach daddy!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:944
+translate english monica_charity_event_dialogue16_6a333edf:
+
+    # biff "Ха-ха-ха!"
+    # "Мелани! Я спросил тебя просто так!"
+    # "В любом случае решать папочке!"
+    # "..."
+    biff "Ha ha ha!"
+    "Melanie! I asked you for nothing!"
+    "It's daddy's decision anyway!"
+    "..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1707
+translate english monica_charity_event_dialogue19_0357ca5a:
+
+    # m "Биф! Я ухожу отсюда!"
+    # imt 6766
+    # biff "Постой, детка! Мы вместе поедем сейчас в офис!"
+    # "Ты забыла там свою одежду!"
+    # "Ха-ха-ха!"
+    m "Beef! I'm leaving!"
+    imt 6766
+    biff "Wait a minute, baby! We're going to the office together!"
+    "You left your clothes there!"
+    "Ha ha ha!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1717
+translate english monica_office_biff_dialogue_evening1_174473eb:
+
+    # biff "Детка, ты свободна на сегодня!"
+    # "Не уверен что ты стоишь $ 5.000, но я подумаю..."
+    biff "Baby, you're free for tonight!"
+    "I'm not sure you're worth $ 5,000, but I'll think about it..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1725
+translate english monica_office_biff_dialogue_evening1_560f6971:
+
+    # biff "А попа! Ты собираешься мне ее показывать или нет?"
+    biff "What about the ass! Are you going to show it to me or not?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1730
+translate english monica_office_biff_dialogue_evening1_87428f5c:
+
+    # biff "Ах да! Ты сделаешь это перед следующей фотосессией!"
+    biff "Oh yeah! You'll do it before the next photo shoot!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1735
+translate english monica_office_biff_dialogue_evening1_ababf4e4:
+
+    # biff "До следующей фотосессии, цыпочка!"
+    biff "See you on the next photo shoot, chick!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1742
+translate english monica_office_biff_dialogue_evening1_7a886726:
+
+    # biff "Иди переодевайся!"
+    # "Это платье и украшения принадлежат компании!"
+    biff "Go change!"
+    "This dress and jewelry belonging to the company!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1755
+translate english monica_office_biff_dialogue_evening1_51889768:
+
+    # biff "Да!"
+    # biff "Можешь идти!"
+    biff "Yes!"
+    biff "You can go!"
 

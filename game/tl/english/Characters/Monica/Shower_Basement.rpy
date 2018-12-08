@@ -34,7 +34,7 @@ translate english basement_shower_check_f6a62ff9:
     # mt "Было бы неплохо пописать..."
     # "Я уже давно не писала и Бетти как раз нет поблизости."
     mt "It would be nice to pee..."
-    "I haven't pee in a while and Betty's not around."
+    "I haven't pee in a while, and Betty's not around."
 
 # game/Characters/Monica/Shower_Basement.rpy:42
 translate english basement_shower_check_a5243971:

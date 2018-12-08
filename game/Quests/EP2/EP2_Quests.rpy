@@ -199,6 +199,26 @@ label monica_office_biff_talk_about_work2: #Моника разговарива�
 label monica_office_photoshot1:
     if act == "l":
         return
-    return False
     call monica_office_photostudio_alex_dialogue2()
+    if _return == False:
+        return False
+    $ cloth_type = "PhotoDress"
+    $ cloth = "PhotoDress"
+    $ remove_hook()
+    $ remove_hook(label="photoshot_exit_refuse")
+
+    $ add_hook("AlexPhotograph", "monica_office_dialogue9", scene="monica_office_photostudio", label="after_photoshot")
+    $ add_hook("Secretary", "monica_office_secretary_dialogue7", scene="monica_office_secretary", label="after_photoshot") # Комментарий Моники в платье
+    $ add_hook("Teleport_Monica_Office_Entrance", "monica_office_dialogue9", scene="monica_office_secretary", label="after_photoshot")
+    $ add_hook("Biff", "monica_office_photoshot1_biff_talk1", scene="monica_office_cabinet_table", label="biff3")
+    return False
+
+label monica_office_photoshot1_biff_talk1:
+    if act=="l":
+        return
+    call monica_office_cabinet_biff_dialogue5()
+    $ remove_hook()
+    $ remove_hook(label="after_photoshot")
+    m "EVENT"
+    # идем на эвент
     return False

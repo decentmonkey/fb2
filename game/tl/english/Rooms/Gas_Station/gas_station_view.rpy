@@ -162,7 +162,7 @@ translate english gas_station_view3_environment_27bab23a:
 translate english gas_station_view3_environment_f6395b65:
 
     # m "Жуткие лепешки... Жирные..."
-    m "Those tortilas are terrible... Fatty..."
+    m "Those tortillas are terrible... Fatty..."
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:189
 translate english gas_station_view3_environment_29234384:

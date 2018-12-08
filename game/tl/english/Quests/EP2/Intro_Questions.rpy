@@ -10,7 +10,7 @@ translate english intro_questions_2f9353e5:
 translate english intro_questions_af34d34b:
 
     # help "Спасибо за ответ!"
-    help "Thanks for reply!"
+    help "Thanks for the reply!"
 
 # game/Quests/EP2/Intro_Questions.rpy:15
 translate english intro_questions_eb169654:
@@ -462,7 +462,7 @@ translate english strings:
 
     # Quests/EP2/Intro_Questions.rpy:522
     old "Моника обошлась без миньета."
-    new "Monica didn't gave a blow job."
+    new "Monica didn't give a blow job."
 
     # Quests/EP2/Intro_Questions.rpy:527
     old "Моника проглотила сперму Фреда."
@@ -470,7 +470,7 @@ translate english strings:
 
     # Quests/EP2/Intro_Questions.rpy:527
     old "Моника выплюнула сперму Фреда."
-    new "Monica spit out Fred's semen."
+    new "Monica spits out Fred's semen."
 
     # Quests/EP2/Intro_Questions.rpy:541
     old "Моника вела себя как сучка!"

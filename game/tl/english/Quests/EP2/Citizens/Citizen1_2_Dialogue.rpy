@@ -20,7 +20,7 @@ translate english citizen1_dialogue_2fea40eb:
 translate english citizen1_loop1_7e35fe8e:
 
     # citizen1 "Да, тетя? Что тебе надо?"
-    citizen1 "Yes, aunty? What you want?"
+    citizen1 "Yes, aunty? What do you want?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:17
 translate english citizen1_loop1_05979ea1:
@@ -38,7 +38,7 @@ translate english citizen1_dialogue_2fc5fc65:
     # citizen2 "А я возьму, давай свой флаер."
     citizen1 "Aunty, can you see we're busy, we're not up to you now."
     citizen2 "Wait, Tom, can't you see? She's working."
-    citizen1 "With that appearance like yours, you would better not delivering flyers!"
+    citizen1 "With that appearance like yours, you would better not be delivering flyers, but something else!"
     mt "(A goat...)"
     citizen2 "I'll take it, give me your flyer."
 
@@ -98,7 +98,7 @@ translate english citizen1_dialogue_b3228aed:
 translate english citizen1_dialogue_e9665f96:
 
     # citizen1 "С такой внешностью тебе бы не флаеры раздавать!"
-    citizen1 "With that appearance like yours, you would better not delivering flyers!"
+    citizen1 "With that appearance like yours, you would better not be delivering flyers, but something else!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:28
 translate english citizen1_dialogue_89817c55:

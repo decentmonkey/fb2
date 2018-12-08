@@ -60,5 +60,5 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen4_Dialogue.rpy:25
     old "Что Вы подразумеваете под знакомством? (disabled)"
-    new "What do you mean by acquaintance? (disabled)"
+    new "What do you mean by an acquaintance? (disabled)"
 

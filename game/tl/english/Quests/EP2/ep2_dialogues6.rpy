@@ -53,7 +53,7 @@ translate english monica_pissing_basement_4c23a0d6:
     # "Я уже давно не писала и Бетти как раз нет поблизости."
     # mt "Я уже писала недавно. Я пока не хочу."
     mt "It would be nice to pee..."
-    "I haven't pee in a while and Betty's not around."
+    "I haven't pee in a while, and Betty's not around."
     mt "I have already pee. I don't want now."
 
 # game/Quests/EP2/ep2_dialogues6.rpy:63
@@ -111,4 +111,26 @@ translate english strings:
     # Quests/EP2/ep2_dialogues6.rpy:16
     old "Не делать этого."
     new "Don't steal."
+
+# TODO: Translation updated at 2018-12-08 17:34
+
+# game/Quests/EP2/ep2_dialogues6.rpy:7
+translate english cloth_shop_refuse1_3b69b5c2:
+
+    # mt "Здесь снова полно народа!"
+    # "Но ведь здесь никого не было, когда я приходила сюда с Диком!"
+    # "Почему так???"
+    mt "Здесь снова полно народа!"
+    "Но ведь здесь никого не было, когда я приходила сюда с Диком!"
+    "Почему так???"
+
+# game/Quests/EP2/ep2_dialogues6.rpy:11
+translate english cloth_shop_refuse1_38c02b7f:
+
+    # "Мне надо скорее убираться отсюда, пока меня не заметили!"
+    # "Они сразу позовут эту продавщицу."
+    # "Увидев меня в таком виде, она сразу вызовет полицию."
+    "Мне надо скорее убираться отсюда, пока меня не заметили!"
+    "Они сразу позовут эту продавщицу."
+    "Увидев меня в таком виде, она сразу вызовет полицию."
 

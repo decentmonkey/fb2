@@ -8,6 +8,8 @@ define bardieCleaningUpskirtTryCorruption = 0 # Увеличение corruption,
 define monicaCleaningAddCorruptionPerCleaning = 1 #Увеличение corruption за одну уборку
 define monicaBiffWork1CorruptionAdding = 20 # Увеличение corruption за согласие сниматься (пока просто, без обнажения)
 define monicaBiffWork2CorruptionAdding = 50 # Увеличение corruption за согласие сниматься в плавном обнажении
+define monicaBiffWork3CorruptionAdding = 50 # Увеличение corruption разговор с Алексом, согласие на фотосессию (вначале)
+define monicaBiffWorkPhotoShot1PervertCorruptionRequired = 10 # Необходимо corruption, чтобы продолжить сниматься в развратных ракурсах
 define monicaKebabWorkFlyersAmount = 5 # Количество флаеров, которые надо раздать Монике
 define monicaKebabWorkFlyersAmountRandomDiff = 1 #Рандом, в котором будет делаться отклонение от monicaKebabWorkFlyersAmount
 

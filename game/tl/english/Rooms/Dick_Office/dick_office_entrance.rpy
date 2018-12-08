@@ -68,3 +68,13 @@ translate english strings:
     old "НА УЛИЦУ"
     new "INTO THE STREET"
 
+# TODO: Translation updated at 2018-12-08 17:34
+
+# game/Rooms/Dick_Office/dick_office_entrance.rpy:48
+translate english dick_office_entrance_environment_42470e33:
+
+    # reception_secretary "Мэм, я могу Вам чем-то помочь?"
+    # mt "..."
+    reception_secretary "Мэм, я могу Вам чем-то помочь?"
+    mt "..."
+

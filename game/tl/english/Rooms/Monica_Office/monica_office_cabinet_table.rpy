@@ -26,7 +26,7 @@ translate english monica_office_cabinet_table_environment_713e0b2d:
     # mt "Что он смотрит в моем журнале?"
     # "Это мой журнал, который я любила разглядывать. Что ему надо там?"
     mt "What's he looking at in my magazine?"
-    "This is my magazine I used to like to look at. What he wants?"
+    "This is my magazine I used to like to look at. What does he want?"
 
 # game/Rooms/Monica_Office/monica_office_cabinet_table.rpy:53
 translate english monica_office_cabinet_table_environment_0784783e:

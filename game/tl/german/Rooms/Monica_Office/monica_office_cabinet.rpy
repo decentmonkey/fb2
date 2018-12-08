@@ -56,3 +56,17 @@ translate german strings:
     old "К СЕКРЕТАРЮ"
     new "ZUR SEKRETÄRIN"
 
+# TODO: Translation updated at 2018-12-08 17:35
+
+# game/Rooms/Monica_Office/monica_office_cabinet.rpy:53
+translate german monica_office_cabinet_environment_5b6a47be:
+
+    # mt "Мой... Офис..."
+    mt "Мой... Офис..."
+
+# game/Rooms/Monica_Office/monica_office_cabinet.rpy:69
+translate german monica_office_cabinet_environment_75cdad00:
+
+    # mt "Мой... Стол..."
+    mt "Мой... Стол..."
+

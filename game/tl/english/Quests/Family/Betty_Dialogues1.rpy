@@ -4,5 +4,5 @@
 translate english bettyDialogue1_269ef339:
 
     # betty "Я буду следить за тем как ты работаешь."
-    betty "I'll be watching you work."
+    betty "I'll be watching your work."
 

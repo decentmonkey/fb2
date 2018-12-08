@@ -72,3 +72,13 @@ translate english rich_hotel_event_scene_environment_c8ebb783:
     mt "Melanie?! Here?!"
     "Why not Me?!"
 
+# TODO: Translation updated at 2018-12-08 17:34
+
+# game/Rooms/Rich_Hotel/Event/rich_hotel_event_scene.rpy:44
+translate english rich_hotel_event_scene_environment_83604d5b:
+
+    # biff "Ну, давай кукла!"
+    # "Притворись Моникой Бакфетт!"
+    biff "Get it, doll!"
+    "Pretend Monica Buckfett!"
+

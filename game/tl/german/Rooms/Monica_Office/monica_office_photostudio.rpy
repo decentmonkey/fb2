@@ -50,3 +50,63 @@ translate german monica_office_photostudio_environment_beb695e1:
     # m "Эти прожекторы освещают модель сверху, а также подсвечивают фон за ней."
     m "Diese Spotlichter beleuchten das Model von oben und den Hintergrund."
 
+# TODO: Translation updated at 2018-12-08 17:35
+
+# game/Rooms/Monica_Office/monica_office_photostudio.rpy:44
+translate german monica_office_photostudio_environment_cfb586fd:
+
+    # "Мелани - это топ-модель на сегодняшний день."
+    # "Похоже она неплохо себя чувствует пока меня нет..."
+    "Мелани - это топ-модель на сегодняшний день."
+    "Похоже она неплохо себя чувствует пока меня нет..."
+
+# game/Rooms/Monica_Office/monica_office_photostudio.rpy:52
+translate german monica_office_photostudio_environment_4fe49e73:
+
+    # mt "Алекс - мой фотограф. Самый лучший профессионал в стране, которого можно купить за деньги."
+    mt "Алекс - мой фотограф. Самый лучший профессионал в стране, которого можно купить за деньги."
+
+# game/Rooms/Monica_Office/monica_office_photostudio.rpy:59
+translate german monica_office_photostudio_environment_c0e618d6:
+
+    # mt "Этот световой бокс для заполняющего света, снизу."
+    mt "Этот световой бокс для заполняющего света, снизу."
+
+# game/Rooms/Monica_Office/monica_office_photostudio.rpy:61
+translate german monica_office_photostudio_environment_37b032ab:
+
+    # mt "Какие-то ящики с хламом."
+    # "Конечно там не хлам, а дорогое оборудование, но тем не менее..."
+    mt "Какие-то ящики с хламом."
+    "Конечно там не хлам, а дорогое оборудование, но тем не менее..."
+
+# game/Rooms/Monica_Office/monica_office_photostudio.rpy:64
+translate german monica_office_photostudio_environment_5128fefb:
+
+    # mt "Полотно для фона во время съемок."
+    mt "Полотно для фона во время съемок."
+
+# game/Rooms/Monica_Office/monica_office_photostudio.rpy:67
+translate german monica_office_photostudio_environment_40a9ebdb:
+
+    # mt "Софтбокс для бокового света, насколько я помню..."
+    mt "Софтбокс для бокового света, насколько я помню..."
+
+# game/Rooms/Monica_Office/monica_office_photostudio.rpy:70
+translate german monica_office_photostudio_environment_587cae7e:
+
+    # mt "Это просветный зонт, для заливающего света."
+    mt "Это просветный зонт, для заливающего света."
+
+# game/Rooms/Monica_Office/monica_office_photostudio.rpy:73
+translate german monica_office_photostudio_environment_163e48fd:
+
+    # mt "Это контровой свет. Цветной."
+    mt "Это контровой свет. Цветной."
+
+# game/Rooms/Monica_Office/monica_office_photostudio.rpy:78
+translate german monica_office_photostudio_environment_7bd32022:
+
+    # mt "Эти прожекторы освещают модель сверху, а также подсвечивают фон за ней."
+    mt "Эти прожекторы освещают модель сверху, а также подсвечивают фон за ней."
+

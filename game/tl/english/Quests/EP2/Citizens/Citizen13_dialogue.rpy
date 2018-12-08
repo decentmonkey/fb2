@@ -16,7 +16,7 @@ translate english citizen13_dialogue_ab99e990:
 translate english citizen13_dialogue_8ba2d7a6:
 
     # citizen13 "Ой, привет! Что у тебя, подруга?"
-    citizen13 "Oh, Hello! What do you got, darling?"
+    citizen13 "Oh, Hello! What do you get, darling?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:15
 translate english citizen13_dialogue_05979ea1:
@@ -54,7 +54,7 @@ translate english citizen13_dialogue_0881bda1:
     # citizen13 "Дааа! Только я думаю, что совсем не немного. Я знал, что мы найдем общий язык."
     mt "God, what a psycho! I think I'll tell him what he wants to hear."
     m "Well, it's a bit like a penis."
-    citizen13 "Yeah! I just don't think it's a little. I knew we'd find a common ground."
+    citizen13 "Yeah! I just don't think it's a little. I knew we'd find common ground."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:33
 translate english citizen13_dialogue_5938169b:
@@ -84,7 +84,7 @@ translate english strings:
 translate english citizen13_dialogue_loop1_8ba2d7a6:
 
     # citizen13 "Ой, привет! Что у тебя, подруга?"
-    citizen13 "Oh, Hello! What do you got, darling?"
+    citizen13 "Oh, Hello! What do you get, darling?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:17
 translate english citizen13_dialogue_loop1_05979ea1:
@@ -136,7 +136,7 @@ translate english citizen13_dialogue_loop1_c6d548e5:
 translate english citizen13_dialogue_loop1_71274d68:
 
     # citizen13 "Дааа! Только я думаю, что совсем не немного. Я знал, что мы найдем общий язык."
-    citizen13 "Yeah! I just don't think it's a little. I knew we'd find a common ground."
+    citizen13 "Yeah! I just don't think it's a little. I knew we'd find common ground."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:49
 translate english citizen13_dialogue_loop1_5938169b:
@@ -154,5 +154,5 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:28
     old "На пенис... (disabled)"
-    new ""
+    new "На пенис... (disabled)"
 

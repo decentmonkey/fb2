@@ -187,7 +187,7 @@ translate english monica_shawarma_dialogue1_069451ee:
 
     # shawarma "Конечно есть, Мадаме!"
     # "Если такой красивый женщин, как Вы, {b}расскажет всем вокруг про мой самый вкусный кебаб{/b}, то кебаб сам будет Вас искать!"
-    shawarma "Of course there is, Madam!"
+    shawarma "Of course, there is, Madam!"
     "If such a beautiful woman like you {b}tells everyone around about my most delicious kebab {/b}, the kebab will be looking for you!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:84
@@ -214,7 +214,7 @@ translate english monica_shawarma_dialogue1_9aa04107:
 translate english monica_shawarma_dialogue1_95c500ca:
 
     # m "Хорошо, если ты дашь мне сейчас свой кебаб, то {b}я разнесу твои флаеры{/b}..."
-    m "Okay, if you give me your kebab now, {b}I'll deliever your flyers{/b}..."
+    m "Okay, if you give me your kebab now, {b}I'll deliver your flyers{/b}..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:95
 translate english monica_shawarma_dialogue1_a1ff310e:
@@ -293,7 +293,7 @@ translate english monica_shawarma_dialogue1_30cbf8b0:
     # "Я быстро раздам эти долбаные флаеры и забуду этот кошмар!"
     mt "He will pay for this!"
     "..."
-    "But at least for sure no one will recognize me!"
+    "But at least for sure, no one will recognize me!"
     "I'm gonna hand out these fucking flyers and forget this nightmare!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:141
@@ -346,7 +346,7 @@ translate english monica_shawarma_dialogue2_9b157aef:
     # shawarma "Конечно, Мадаме!"
     # "Я бесплатно угощу Вас кебаб, когда Вы разнести все флаер!"
     shawarma "Of course, madam!"
-    "I'll give you a free kebab when you deliever all flyers!"
+    "I'll give you a free kebab when you deliver all the flyers!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:178
 translate english monica_shawarma_dialogue2_43517a57:
@@ -394,7 +394,7 @@ translate english monica_shawarma_dialogue2a_04644164:
     # mt "Черт! У меня нет денег!"
     # "И я не собираюсь разносить флаеры по ночным улицам!"
     mt "Fuck! I have no money!"
-    "And I'm not going to deliever flyers in the streets at night!"
+    "And I'm not going to deliver flyers in the streets at night!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:222
 translate english monica_shawarma_dialogue2a_85adcca4_1:
@@ -455,7 +455,7 @@ translate english monica_shawarma_dialogue3_a1db368c:
     # mt "Что-то я сомневаюсь... Но у меня нет выбора..."
     "I have a half of kebab! Not the whole work, not the whole kebab!"
     m "Has someone eaten it?!?!"
-    shawarma "No, Madam! It's half kebab. He was born in such shape!"
+    shawarma "No, Madam! It's half kebab. He was born in such a shape!"
     mt "Something I doubt... But I don't have a choice..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:270
@@ -477,7 +477,7 @@ translate english monica_shawarma_dialogue3_8ab1c296:
     # shawarma "Мадаме! Вы не раздали флаер!"
     # "Кебаб ждать Вас когда флаер будет роздан!"
     m "I gave out all the flyers, where's my kebab?"
-    shawarma "Madam! You didn't deliever the flyers!"
+    shawarma "Madam! You didn't deliver the flyers!"
     "Kebab is waiting for you when the flyers will be distributed!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:285
@@ -706,7 +706,7 @@ translate english monica_shawarma_dialogue3_end_half_food_421c68a8:
     # shawarma "Нет, мадаме! Это половина кебаб. Он такой родился на свет!"
     "I have a half of kebab! Not the whole work, not the whole kebab!"
     m "Has someone eaten it?!?!"
-    shawarma "No, Madam! It's half kebab. He was born in such shape!"
+    shawarma "No, Madam! It's half kebab. He was born in such a shape!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:376
 translate english monica_shawarma_dialogue3_end_half_food_570519aa:
@@ -733,7 +733,7 @@ translate english monica_shawarma_dialogue3_end_no_food_8ab1c296:
     # shawarma "Мадаме! Вы не раздали флаер!"
     # "Кебаб ждать Вас когда флаер будет роздан!"
     m "I gave out all the flyers, where's my kebab?"
-    shawarma "Madam! You didn't deliever the flyers!"
+    shawarma "Madam! You didn't deliver the flyers!"
     "Kebab is waiting for you when the flyers will be distributed!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:403

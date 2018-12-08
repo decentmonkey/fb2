@@ -28,13 +28,13 @@ translate english strings:
 
     # 00_Functions/character_properties.rpy:73
     old "прогресс понижен!"
-    new ""
+    new "прогресс понижен!"
 
     # 00_Functions/character_properties.rpy:95
     old "Corruption +"
-    new ""
+    new "Corruption +"
 
     # 00_Functions/character_properties.rpy:97
     old "Corruption -"
-    new ""
+    new "Corruption -"
 

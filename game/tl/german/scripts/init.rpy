@@ -110,3 +110,11 @@ translate german strings:
     old "Косяк"
     new ""
 
+# TODO: Translation updated at 2018-12-08 17:35
+
+translate german strings:
+
+    # scripts/init.rpy:54
+    old "Фотограф извращенец"
+    new ""
+

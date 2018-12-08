@@ -60,5 +60,5 @@ translate english strings:
 
     # Characters/Monica/Bed_Basement.rpy:32
     old "Лечь и ждать вечера."
-    new ""
+    new "Лечь и ждать вечера."
 

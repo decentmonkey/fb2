@@ -72,11 +72,11 @@ translate english strings:
 
     # Rooms/locations_init.rpy:72
     old "BARDIE'S ROOM"
-    new "BARDIE''S ROOM"
+    new "BARDIE'S ROOM"
 
     # Rooms/locations_init.rpy:73
     old "GUEST'S BEDROOM"
-    new "GUEST''S BEDROOM"
+    new "GUEST'S BEDROOM"
 
     # Rooms/locations_init.rpy:75
     old "LIVING ROOM"
