@@ -186,5 +186,19 @@ label monica_office_biff_talk_about_work2: #Моника разговарива�
     if act == "l":
         return
     call monica_office_cabinet_biff_dialogue4()
+    if _return == False:
+        return False
+    $ remove_hook(label="biff_comment1")
+    $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_secretary_dialogue6", scene="monica_office_secretary", label="photoshot_exit_refuse")
+    $ add_hook("Teleport_Monica_Office_Entrance", "monica_office_secretary_dialogue6", scene="monica_office_secretary", label="photoshot_exit_refuse")
+    $ add_hook("AlexPhotograph", "monica_office_photoshot1", scene="monica_office_photostudio")
     $ remove_hook()
-    return
+    call change_scene("monica_office_secretary")
+    return False
+
+label monica_office_photoshot1:
+    if act == "l":
+        return
+    return False
+    call monica_office_photostudio_alex_dialogue2()
+    return False

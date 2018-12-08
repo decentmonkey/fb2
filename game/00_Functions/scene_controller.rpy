@@ -96,8 +96,9 @@ label show_scene_now:
     $ scene_transition = False
 
     if refreshed_scene_name != scene_name:
+        $ refreshed_scene_name = scene_name
         call process_hooks("enter_scene", scene_name) #хук вызывается после входа на сцену и отрисовки (как autorun)
-    $ refreshed_scene_name = scene_name
+        call remove_dialogue()
     if scene_refresh_flag == True:
         jump show_scene
 

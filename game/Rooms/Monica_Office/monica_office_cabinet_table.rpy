@@ -20,8 +20,8 @@ label monica_office_cabinet_table_init:
 
     $ add_object_to_scene("Flowers", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_Flowers", "click" : "monica_office_cabinet_environment", "actions" : "l", "zorder":2, "group":"environment"})
     $ add_object_to_scene("Paints", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_Paints", "click" : "monica_office_cabinet_environment", "actions" : "l", "zorder":2, "group":"environment"})
-    $ add_object_to_scene("Water", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_Water", "click" : "monica_office_cabinet_table_environment", "actions" : "l", "zorder":2, "group":"environment"})
-    $ add_object_to_scene("Whiskey", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_Whiskey_Object", "click" : "monica_office_cabinet_table_environment", "actions" : "l", "zorder":2, "group":"environment"})
+    $ add_object_to_scene("Water", {"type" : 2, "base" : "Office_Monica_Cabinet_Table_Water", "click" : "monica_office_cabinet_table_environment", "actions" : "l", "zorder":2, "group":"environment"}, {"monicaOfficeWhiskeyOnTable":{"v":False, "active":True}})
+    $ add_object_to_scene("Whiskey", {"type" : 2, "active":False, "base" : "Office_Monica_Cabinet_Table_Whiskey_Object", "click" : "monica_office_cabinet_table_environment", "actions" : "l", "zorder":2, "group":"environment"}, {"monicaOfficeWhiskeyOnTable":{"v":True, "active":True}})
 
     $ add_object_to_scene("Teleport_Monica_Office_Secretary", {"type":3, "text" : _("К СЕКРЕТАРЮ"), "larrow" : "arrow_left_2", "base":"Office_Monica_Cabinet_Table_Exit", "click" : "monica_office_cabinet_table_teleport", "xpos" : 723, "ypos" : 166, "zorder":11, "b":0.15, "tint":[1.0, 1.0, 0.85], "teleport":True})
 
