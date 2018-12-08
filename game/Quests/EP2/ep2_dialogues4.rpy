@@ -974,6 +974,17 @@ label monica_office_secretary_dialogue5:
     "Тебе надо как-то скорее разобраться со всем этим!"
     "Эти мерзавцы, которые меня окружают..."
     "Как же мне выпутаться и сохранить достоинство?!"
+    if day == nextFriday:
+        call monica_office_secretary_dialogue5b()
+    return
+
+label monica_office_secretary_dialogue5a:
+    if day != nextFriday:
+        return
+    call monica_office_secretary_dialogue5b()
+#    $ remove_hook()
+    return
+label monica_office_secretary_dialogue5b:
     "..."
     "Дик... Сегодня пятница..."
     "Если сегодня вечером не будет денег, то мне конец..."
@@ -995,7 +1006,6 @@ label monica_office_secretary_dialogue5:
     "Я надеюсь за это Маркус не заберет меня?"
     "Нет, не должен..."
     "Мне надо успеть!!!"
-
     return
 
 label monica_office_cabinet_biff_dialogue4:

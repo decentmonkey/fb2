@@ -154,19 +154,19 @@ label monica_office_biff_talk_about_work1: #Моника разговарива�
     if act == "l":
         return
     call monica_office_cabinet_biff_dialogue3()
-    $ monicaOfficeSecretaryMonicaSuffix = ""
+    $ monicaOfficeSecretaryMonicaSuffix_forced = ""
     if _return == False:
         return False
     call change_scene("monica_office_secretary")
     $ autorun_to_object("monica_office_secretary_dialogue5", scene="monica_office_secretary")
     if nextFriday != day:
+        $ biffOnlyFridayEvening = True
         $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_cabinet_biff_dialogue2", scene="monica_office_secretary", label="biff_refuse1") # Если не пятница, то блокируем Бифа на сегодня
+        $ add_hook("enter_scene", "monica_office_secretary_dialogue5a", scene="monica_office_secretary", label="biff_comment1") #При входе в офис Моника думает все-же согласиться на фотосессию
     $ remove_hook(label="monica_secretary2")
     if nextFriday == day: # уже пятница, активируем
         $ replace_hook("monica_office_biff_talk_about_work2", scene="monica_office_cabinet_table", label="biff2") # Разговариваем с Бифом в 3-ий раз, соглашаясь на обнажение постепенно
 
-    $ biffWaitingForMonicaToWork = True
-    $ add_hook("change_time_day", "monica_office_biff_talk_about_work1_next_day", scene="global")
 #    $ biffOnlyFridayEvening = True # Бифф будет только в пятницу вечером
     return False
 
