@@ -264,20 +264,20 @@ translate english monica_office_secretary_dialogue2_dc29b0c6:
     # secretary "У меня есть только кредитная карточка, но мне надо платить за ипотечный кредит."
     # "У меня есть $ 5 наличными и все..."
     secretary "I only have a credit card, but I have to pay for my mortgage."
-    "I have  cash, and that's all..."
+    "I have $ 5 cash, and that's all..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:135
 translate english monica_office_secretary_dialogue2_3e99585a:
 
     # m "Дорогуша, дай мне, пожалуйста, эти $ 5..."
-    m "Honey, give me that , please..."
+    m "Honey, give me that $ 5, please..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:137
 translate english monica_office_secretary_dialogue2_c4de147c:
 
     # secretary "Но Миссис Бакфетт! Зачем Вам какие-то $ 5?"
     # "Я даже не понимаю, для чего?"
-    secretary "But Mrs. Buckfett! Why would you need ?"
+    secretary "But Mrs. Buckfett! Why would you need $ 5?"
     "I don't understand why you would need that."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:140
@@ -1228,7 +1228,7 @@ translate english monica_office_cabinet_biff_dialogue3_dc927120:
     # "Я смогу продавать твое личико."
     # "Какое-то время."
     biff "So I suggest you do a series of photo shoots dedicated to the new policy of the magazine."
-    "For every photo shoot, I'll offer you {b}$ 1,000{/b}."
+    "For every photo shoot, I'll offer you {b}$ 1.000{/b}."
     "Besides, I think we can set up an office for you, where you can talk to the press."
     "And also with partners of the magazine."
     "I will be able to sell your face."
@@ -1238,7 +1238,7 @@ translate english monica_office_cabinet_biff_dialogue3_dc927120:
 translate english monica_office_cabinet_biff_dialogue3_8bbf3f36:
 
     # m "$ 5.000!!!"
-    m ",000!!!"
+    m "$ 5.000!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:696
 translate english monica_office_cabinet_biff_dialogue3_a2ce45ca:
@@ -1252,13 +1252,13 @@ translate english monica_office_cabinet_biff_dialogue3_a2ce45ca:
 translate english monica_office_cabinet_biff_dialogue3_b9ff5436:
 
     # biff "Что ты имеешь ввиду под $ 5.000?"
-    biff "What do you mean, ,000?"
+    biff "What do you mean $ 5.000?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:703
 translate english monica_office_cabinet_biff_dialogue3_0649a99e:
 
     # m "$ 5.000 за каждую фотосессию!"
-    m ",000 for every photo shoot!"
+    m "$ 5.000 for every photo shoot!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:705
 translate english monica_office_cabinet_biff_dialogue3_c9a71918:
@@ -1271,7 +1271,7 @@ translate english monica_office_cabinet_biff_dialogue3_84b73f7f:
 
     # "Судя по твоему виду, ты делаешь минет за $ 10!"
     # "Не слишком-ли быстрый рост для какой-то шлюхи?"
-    "Based on your look, you're giving out  blowjobs!"
+    "Based on your look, you're giving out $ 10 blowjobs!"
     "Isn't that a great upgrade for a whore like you?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:711
@@ -1455,7 +1455,7 @@ translate english monica_office_secretary_dialogue5_e3868f3a:
     "He said a series of photo shoots..."
     "Smooth change in course for the magazine..."
     "I just need to do one photo shoot."
-    "And I need that fucking ,000!"
+    "And I need that fucking $ 5.000!"
     "I'll take it to Dick, we'll buy him a tie, and he'll stop blackmailing me..."
     "He just wants proof of my loyalty."
     "If I prove to him that I am his friend, he will change his attitude towards me..."
@@ -2286,7 +2286,7 @@ translate english monica_office_cabinet_biff_dialogue5_98fb848b:
     # "Что тогда?!"
     m "I'm keeping this dress! It's mine!"
     biff "No! I'm not discussing this!"
-    "I'm not gonna let a  whore walk around in a Fashion Magazine dress!"
+    "I'm not gonna let a $ 10 whore walk around in a Fashion Magazine dress!"
     "What if someone recognizes this dress?!"
     "What would happen then?!"
 
@@ -2348,7 +2348,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues4.rpy:689
     old "$ 5.000!!!"
-    new "$5,000!!!"
+    new "$ 5.000!!!"
 
     # Quests/EP2/ep2_dialogues4.rpy:823
     old "Согласиться."
@@ -2750,7 +2750,7 @@ translate english monica_office_cabinet_biff_dialogue3_2f495354:
     # "Я смогу продавать твое личико."
     # "Какое-то время."
     biff "So I suggest you do a series of photo shoots dedicated to the new policy of the magazine."
-    "For every photo shoot, I'll offer you {b}$ 1,000{/b}."
+    "For every photo shoot, I'll offer you {b}$ 1.000{/b}."
     "Besides, I think we can set up an office for you, where you can talk to the press."
     "And also with partners of the magazine."
     "I will be able to sell your face."
@@ -2760,7 +2760,7 @@ translate english monica_office_cabinet_biff_dialogue3_2f495354:
 translate english monica_office_cabinet_biff_dialogue3_17bd862d:
 
     # biff "Что ты имеешь ввиду под $ 5.000?"
-    biff "What do you mean, ,000?"
+    biff "What do you mean $ 5.000?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:876
 translate english monica_office_cabinet_biff_dialogue3_a4e50d51:
@@ -2921,7 +2921,7 @@ translate english monica_office_secretary_dialogue5b_631e76ef:
     "He said a series of photo shoots..."
     "Smooth change in course for the magazine..."
     "I just need to do one photo shoot."
-    "And I need that fucking ,000!"
+    "And I need that fucking $ 5.000!"
     "I'll take it to Dick, we'll buy him a tie, and he'll stop blackmailing me..."
     "He just wants proof of my loyalty."
     "If I prove to him that I am his friend, he will change his attitude towards me..."
@@ -3206,7 +3206,7 @@ translate english monica_office_cabinet_biff_dialogue5_b37fca49:
     # "Что тогда?!"
     m "I'm keeping this dress! It's mine!"
     biff "No! I'm not discussing this!"
-    "I'm not gonna let a  whore walk around in a Fashion Magazine dress!"
+    "I'm not gonna let a $ 10 whore walk around in a Fashion Magazine dress!"
     "What if someone recognizes this dress?!"
     "What would happen then?!"
 
@@ -3234,15 +3234,15 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues4.rpy:1555
     old "Продолжить делать кадры. (corruption)"
-    new "Продолжить делать кадры. (corruption)"
+    new "Continue taking shots... (corruption)"
 
     # Quests/EP2/ep2_dialogues4.rpy:1555
     old "Продолжить делать кадры. (недостаточно corruption) (disabled)"
-    new "Продолжить делать кадры. (недостаточно corruption) (disabled)"
+    new "Continue taking shots... (low corruption) (disabled)"
 
     # Quests/EP2/ep2_dialogues4.rpy:1555
     old "Прекратить это."
-    new "Прекратить это."
+    new "Stop it."
 
 # TODO: Translation updated at 2018-12-09 22:48
 
@@ -3314,7 +3314,7 @@ translate english monica_office_secretary_dialogue5b_local1_d09bd339:
     "He said a series of photo shoots..."
     "Smooth change in course for the magazine..."
     "I just need to do one photo shoot."
-    "And I need that fucking ,000!"
+    "And I need that fucking $ 5.000!"
     "I'll take it to Dick, we'll buy him a tie, and he'll stop blackmailing me..."
     "He just wants proof of my loyalty."
     "If I prove to him that I am his friend, he will change his attitude towards me..."

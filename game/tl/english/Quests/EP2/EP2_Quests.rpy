@@ -34,7 +34,7 @@ translate english strings:
 
     # Quests/EP2/EP2_Quests.rpy:112
     old "Принести Виктории $ 5000 до вечера пятницы"
-    new "Принести Виктории $ 5000 до вечера пятницы"
+    new "Bring Victoria $ 5,000 until Friday evening"
 
 # TODO: Translation updated at 2018-12-09 22:48
 

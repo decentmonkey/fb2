@@ -4,9 +4,9 @@ translate english strings:
 
     # 00_Functions/utils.rpy:36
     old "Моника стерва"
-    new "Моника стерва"
+    new "Monica is a bitch"
 
     # 00_Functions/utils.rpy:38
     old "Моника приличная"
-    new "Моника приличная"
+    new "Monica is decent"
 

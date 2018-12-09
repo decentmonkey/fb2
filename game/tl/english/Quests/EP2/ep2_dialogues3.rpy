@@ -774,7 +774,7 @@ translate english monica_dick_secretary_dialogue2_39a035b7:
     # "Так что {b}приготовьте деньги{/b}."
     # "{b}Если у Вас не будет нужной суммы, то, пожалуйста, не беспокойте меня{/b}."
     dick_secretary "Okay, {b}Friday night, be here {/b}."
-    "I know a good tie for {b}$ 5,000 {/b}."
+    "I know a good tie for {b}$ 5.000 {/b}."
     "So {b}prepare the money {/b}."
     "{b}If you don't have the right amount, please don't bother me{/b}."
 
@@ -896,7 +896,7 @@ translate english monica_dick_office_dialogue2_eae1459d:
     "I'll have to figure something out!"
     "This tie must be her idea, I'm sure of it!"
     "I couldn't get out of it and avoid having to buy that damn tie!"
-    "I won't let it happen again, but right now I need to find {b},000{/b}!"
+    "I won't let it happen again, but right now I need to find {b}$ 5.000{/b}!"
     "Otherwise, it'll be the end, I guess..."
     "Dick wasn't bluffing!"
     "My fate really depends on this money now!"
@@ -918,7 +918,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues3.rpy:146
     old "Приставать к Дику."
-    new "Bother Dick."
+    new "Seduce Dick."
 
     # Quests/EP2/ep2_dialogues3.rpy:146
     old "Я пока не нашла деньги..."
@@ -1338,7 +1338,7 @@ translate english monica_dick_secretary_dialogue2_d027e8ed:
     # "Я знаю хороший галстук за {b}$ 5.000{/b}."
     # "Так что {b}приготовьте деньги{/b}."
     # "{b}Если у Вас не будет нужной суммы, то, пожалуйста, не беспокойте меня{/b}."
-    "I know a good tie for {b}$ 5,000 {/b}."
+    "I know a good tie for {b}$ 5.000 {/b}."
     "So {b}prepare the money {/b}."
     "{b}If you don't have the right amount, please don't bother me{/b}."
 
@@ -1421,7 +1421,7 @@ translate english monica_dick_office_dialogue2_3afdb398:
     "I'll have to figure something out!"
     "This tie must be her idea, I'm sure of it!"
     "I couldn't get out of it and avoid having to buy that damn tie!"
-    "I won't let it happen again, but right now I need to find {b},000{/b}!"
+    "I won't let it happen again, but right now I need to find {b}$ 5.000{/b}!"
     "Otherwise, it'll be the end, I guess..."
     "Dick wasn't bluffing!"
     "My fate really depends on this money now!"
@@ -1462,13 +1462,13 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues3.rpy:222
     old "Приставать к Дику. (low corruption) (disabled)"
-    new "Приставать к Дику. (low corruption) (disabled)"
+    new "Seduce dick (low corruption) (disabled)"
 
     # Quests/EP2/ep2_dialogues3.rpy:222
     old "Приставать к Дику. (corruption)"
-    new "Приставать к Дику. (corruption)"
+    new "Seduce dick. (corruption)"
 
     # Quests/EP2/ep2_dialogues3.rpy:634
     old "Монике пришлось зарабатывать на еду разноской флаеров"
-    new "Монике пришлось зарабатывать на еду разноской флаеров"
+    new "Monica had to earn money by posting flyers"
 

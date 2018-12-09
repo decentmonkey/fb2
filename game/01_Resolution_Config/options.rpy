@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "EP1-COMPLETED"
+define config.version = "EP2-v0.1"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -32,9 +32,9 @@ define config.version = "EP1-COMPLETED"
 define gui.about = _p("""
 Thanks to:
 
-Meli_x3 and ColdBlade for English correction
+Meli_x3, Koskesh and ColdBlade for English correction
 
-Ragnaroekr
+Ragnaroekr and BruceLee73
 for German translation
 
 renpytom (Tom Rothamel) for the Ren'Py Game Engine

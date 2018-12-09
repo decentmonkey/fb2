@@ -28,7 +28,7 @@ translate english strings:
 
     # 00_Functions/character_properties.rpy:73
     old "прогресс понижен!"
-    new "прогресс понижен!"
+    new "progress down!"
 
     # 00_Functions/character_properties.rpy:95
     old "Corruption +"

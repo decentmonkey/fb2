@@ -1070,19 +1070,19 @@ translate english monica_charity_event_dialogue10_65cd6077:
 translate english monica_charity_event_dialogue10_009fed20:
 
     # "Твои $ 4.000!"
-    "Your $ 4,000!"
+    "Your $ 4.000!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:618
 translate english monica_charity_event_dialogue10_3b07704e:
 
     # m "$ 4.000???"
-    m ",000???"
+    m "$ 4.000???"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:621
 translate english monica_charity_event_dialogue10_efcd3cde:
 
     # "Здесь должно быть $ 5.000!"
-    "There should be ,000 here!"
+    "There should be $ 5.000 here!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:623
 translate english monica_charity_event_dialogue10_40034e37:
@@ -1116,7 +1116,7 @@ translate english monica_charity_event_dialogue10_da24091f:
 translate english monica_charity_event_dialogue10_4c8d1b9e:
 
     # m "Мне нужно $ 5.000!"
-    m "But I need ,000!"
+    m "But I need $ 5.000!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:638
 translate english monica_charity_event_dialogue10_6e701bf6:
@@ -1168,21 +1168,21 @@ translate english monica_charity_event_dialogue11_b242174a:
     # "Или попробовать уговорить {b}Бифа{/b}?"
     mt "That bastard!"
     "He tricked me!"
-    "If I had known this wine was worth If I'd known this wine was worth $ 1,000, I wouldn't have drunk it!,000, I wouldn't have drunk it!"
+    "If I had known this wine was worth If I'd known this wine was worth $ 1.000, I wouldn't have drunk it!"
     "And by the way, I thought that Philip was treating me!"
     "What kind of men are nowadays?!"
     "Let them not be surprised that they can only be used!"
     "To a normal attitude, they are absolutely not suitable!"
     "..."
     "Nonetheless,"
-    "But I need ,000!"
+    "But I need $ 5.000!"
     "That bitch Victoria said very clearly that if I don't have enough money, she might not even come with me!"
     "Dick is useless to negotiate with!"
     "He blindly listens to that fool!"
     "It's evening, and I have to hurry!"
     "I have to go buy that damn tie!"
-    "And I'm short by And I'm in lack with $ 1,000!,000!"
-    "And if I don't get it, I will have to go to Marcus!!!"
+    "And I'm short by And I'm in lack with $ 1.000!"
+    "And if I don't get it $ 1.000, I will have to go to Marcus!!!"
     "Oh my God!!!"
     "How can I get the money?"
     "Maybe I should speed things up with {b}Philip{/b}?"
@@ -1319,7 +1319,7 @@ translate english monica_charity_event_dialogue14_d27b95d5:
 
     # m "Всего-лишь $ 300.000!"
     # "Ничего особенного!"
-    m "Only 0,000!"
+    m "Only $ 300.000!"
     "Nothing special!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:765
@@ -1436,7 +1436,7 @@ translate english monica_charity_event_dialogue14_2e58cf14:
 translate english monica_charity_event_dialogue14_e8166d50:
 
     # m "Ты думаешь что я способна сделать минет за $ 300.000?"
-    m "Do you seriously think I'm the type of woman to a blowjob for 0,000?"
+    m "Do you seriously think I'm the type of woman to a blowjob for $ 300.000?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:818
 translate english monica_charity_event_dialogue14_eb315ec2:
@@ -1451,14 +1451,14 @@ translate english monica_charity_event_dialogue14_d9fc079a:
 
     # m "Если Вы подымете сумму до $ 30.000.000, то я готова подумать..."
     # mt "В конце концов еще один небольшой кошмар, но я смогу решить все свои проблемы!"
-    m "If you raise the amount to .000.000, I'm ready to think..."
+    m "If you raise the amount to $ 30.000.000, I'm ready to think..."
     mt "Ugh, another nightmare, but I can solve all my problems!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:831
 translate english monica_charity_event_dialogue14_595f0022:
 
     # m "Вы правда думаете что я стою так мало?"
-    m "Do you really think my price is as little as 0,000?"
+    m "Do you really think my price is as little?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:834
 translate english monica_charity_event_dialogue14_9555aae1:
@@ -1468,7 +1468,7 @@ translate english monica_charity_event_dialogue14_9555aae1:
     # "Я хорошо умею считать и я оцениваю Ваш ротик в $ 500!"
     philip "What do you mean, Ma'am?"
     "How can you think that badly of me?"
-    "I'm good at valuating things, and I estimate your mouth to be worth 0!"
+    "I'm good at valuating things, and I estimate your mouth to be worth $ 500!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:838
 translate english monica_charity_event_dialogue14_cf0d85a6:
@@ -1507,7 +1507,7 @@ translate english monica_charity_event_dialogue15_806c6a0d:
     "Bastard!"
     "..."
     "But what should I do?"
-    "If I don't get {b}$ 1,000 urgently{/b}, I'm finished!"
+    "If I don't get {b}$ 1.000 urgently{/b}, I'm finished!"
     "I only have a few minutes before it's too late!"
     "I have to think, maybe I should {b}talk to the BEEF{/b} again?"
     "Or {b}go back to Philip {/b}?"
@@ -1520,7 +1520,7 @@ translate english monica_charity_event_dialogue16_5d8cf607:
     # m "Биф!"
     # "Мне нужна $ 1.000!"
     m "Beef!"
-    "I need I need $ 1,000!,000!"
+    "I need $ 1.000!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:869
 translate english monica_charity_event_dialogue16_310b64d1:
@@ -1668,7 +1668,7 @@ translate english monica_charity_event_dialogue16_d61b8796:
     # "Ты забыла там свою одежду!"
     # "Ха-ха-ха!"
     "Okay, chick!"
-    "Take Keep $ 1,000 and go to the office!,000 and go to the office!"
+    "Take Keep $ 1.000 and go to the office!"
     "You left your clothes there!"
     "Ha ha ha!"
 
@@ -1726,34 +1726,34 @@ translate english monica_charity_event_dialogue17_3a22feb0:
     # philip "Итак... Миссис Бакфетт!"
     # "$ 500 и мой член в Вашем прекрасном ротике!"
     philip "So... Mrs. Buckfett!"
-    "0 and my cock in your beautiful mouth!"
+    "$ 500 and my cock in your beautiful mouth!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1007
 translate english monica_charity_event_dialogue17_b0ed7d85:
 
     # m "$ 10.000, Филип..."
-    m ",000, Philip..."
+    m "$ 10.000, Philip..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1009
 translate english monica_charity_event_dialogue17_bf8c27eb:
 
     # philip "$ 500, Миссис Бакфетт! Сегодня Ваш ротик не стоит больше..."
     # "Это как на Бирже! Я покупаю акции на низкой цене!"
-    philip "0, Mrs. Buckfett! Today, your mouth is not worth more than that..."
+    philip "$ 500, Mrs. Buckfett! Today, your mouth is not worth more than that..."
     "It's like at the stock exchange! I buy shares at a low price!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1013
 translate english monica_charity_event_dialogue17_2ca4f79e:
 
     # m "Мне нужна хотя бы $ 1.000, Филип!"
-    m "I need at least I need at least $ 1,000, Philip!,000, Philip!"
+    m "I need at least I need at least $ 1.000, Philip!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1016
 translate english monica_charity_event_dialogue17_99422fd5:
 
     # philip "$ 500, Миссис Бакфетт!"
     # "Ваш ротик слишком долго говорит! Скоро он начнет дешеветь!"
-    philip "0, Mrs. Buckfett!"
+    philip "$ 500, Mrs. Buckfett!"
     "Your mouth talks too much! If you're not careful, it will fall in price very soon!!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1020
@@ -1761,7 +1761,7 @@ translate english monica_charity_event_dialogue17_fbc2de3f:
 
     # m "$ 1.000!!!"
     # "Мне никак нельзя меньше!"
-    m "$ 1,000!!!,000!!!"
+    m "$ 1.000!!!"
     "I can't do any less!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1023
@@ -2035,10 +2035,10 @@ translate english monica_charity_event_dialogue18_d7fc46bf:
     "Excellent!"
     "I imagine that you have lack of practice!"
     "But I'm actually enjoying this!"
-    "To be honest, I doubted that your mouth was worth 0!"
-    "I thought it was better valued at 0!"
+    "To be honest, I doubted that your mouth was worth $ 500!"
+    "I thought it was better valued at $ 300!"
     "But no!"
-    "Now I'm sure 0 is worth it completely!"
+    "Now I'm sure $ 500 is worth it completely!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1243
 translate english monica_charity_event_dialogue18_84144033:
@@ -2082,13 +2082,13 @@ translate english monica_charity_event_dialogue18_38a2ca68:
     # philip "Спасибо, Моника Бакфетт!"
     # philip "Вы заработали свои $ 500!"
     philip "Thank you, Monica Buckfett!"
-    philip "You've earned your 0!"
+    philip "You've earned your $ 500!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1283
 translate english monica_charity_event_dialogue18_2030cc2a:
 
     # m "Еще $ 500!"
-    m "Another 0, please!"
+    m "Another $ 500, please!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1285
 translate english monica_charity_event_dialogue18_79dc8e91:
@@ -2100,7 +2100,7 @@ translate english monica_charity_event_dialogue18_79dc8e91:
 translate english monica_charity_event_dialogue18_0af385d8:
 
     # m "Мне нужно еще $ 500!"
-    m "I need another 0!"
+    m "I need another $ 500!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1290
 translate english monica_charity_event_dialogue18_9998fe87:
@@ -2148,7 +2148,7 @@ translate english monica_charity_event_dialogue18_a4912742:
 translate english monica_charity_event_dialogue18_a0fd8f9d:
 
     # "Вы дадите мне еще $ 500..."
-    "You'll give me another 0..."
+    "You'll give me another $ 500..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1312
 translate english monica_charity_event_dialogue18_1cda21fc:
@@ -2724,7 +2724,7 @@ translate english monica_office_biff_dialogue_evening1_dc58d129:
     # biff "Детка, ты свободна на сегодня!"
     # "Не уверен что ты стоишь $ 5.000, но я подумаю..."
     biff "Baby, you're free for tonight!"
-    "I'm not sure you're worth ,000, but I'll think about it..."
+    "I'm not sure you're worth $ 5.000, but I'll think about it..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1721
 translate english monica_office_biff_dialogue_evening1_86c1ddb3:
@@ -2932,7 +2932,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:824
     old "Вы правда думаете что я стою так мало?"
-    new "Do you really think my price is as little as $300,000?"
+    new "Do you really think my price is as little?"
 
     # Quests/EP2/ep2_dialogues5.rpy:878
     old "Биф! Мы можем отойти на пару минут?"
@@ -2980,7 +2980,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:1278
     old "Пожалуйста, дайте еще $ 500!!!"
-    new "Please give me another $500!!!"
+    new "Please give me another $ 500!!!"
 
     # Quests/EP2/ep2_dialogues5.rpy:1302
     old "Я могу сделать это еще раз..."
@@ -3238,7 +3238,7 @@ translate english monica_office_biff_dialogue_evening1_174473eb:
     # biff "Детка, ты свободна на сегодня!"
     # "Не уверен что ты стоишь $ 5.000, но я подумаю..."
     biff "Baby, you're free for tonight!"
-    "I'm not sure you're worth ,000, but I'll think about it..."
+    "I'm not sure you're worth $ 5.000, but I'll think about it..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1725
 translate english monica_office_biff_dialogue_evening1_560f6971:
@@ -3671,14 +3671,14 @@ translate english monica_charity_event_dialogue14_local1_d9fc079a:
 
     # m "Если Вы подымете сумму до $ 30.000.000, то я готова подумать..."
     # mt "В конце концов еще один небольшой кошмар, но я смогу решить все свои проблемы!"
-    m "If you raise the amount to .000.000, I'm ready to think..."
+    m "If you raise the amount to $ 30.000.000, I'm ready to think..."
     mt "Ugh, another nightmare, but I can solve all my problems!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1092
 translate english monica_charity_event_dialogue14_local1_595f0022:
 
     # m "Вы правда думаете что я стою так мало?"
-    m "Do you really think my price is as little as 0,000?"
+    m "Do you really think my price is as little?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1096
 translate english monica_charity_event_dialogue14_local1_9555aae1:
@@ -3688,7 +3688,7 @@ translate english monica_charity_event_dialogue14_local1_9555aae1:
     # "Я хорошо умею считать и я оцениваю Ваш ротик в $ 500!"
     philip "What do you mean, Ma'am?"
     "How can you think that badly of me?"
-    "I'm good at valuating things, and I estimate your mouth to be worth 0!"
+    "I'm good at valuating things, and I estimate your mouth to be worth $ 500!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1101
 translate english monica_charity_event_dialogue14_local1_cf0d85a6:
@@ -3829,10 +3829,10 @@ translate english monica_charity_event_dialogue18_local3_d7fc46bf:
     "Excellent!"
     "I imagine that you have lack of practice!"
     "But I'm actually enjoying this!"
-    "To be honest, I doubted that your mouth was worth 0!"
-    "I thought it was better valued at 0!"
+    "To be honest, I doubted that your mouth was worth $ 500!"
+    "I thought it was better valued at $ 300!"
     "But no!"
-    "Now I'm sure 0 is worth it completely!"
+    "Now I'm sure $ 500 is worth it completely!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1619
 translate english monica_charity_event_dialogue18_local3_84144033:
@@ -3876,13 +3876,13 @@ translate english monica_charity_event_dialogue18_local3_38a2ca68:
     # philip "Спасибо, Моника Бакфетт!"
     # philip "Вы заработали свои $ 500!"
     philip "Thank you, Monica Buckfett!"
-    philip "You've earned your 0!"
+    philip "You've earned your $ 500!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1663
 translate english monica_charity_event_dialogue18_local3_2030cc2a:
 
     # m "Еще $ 500!"
-    m "Another 0, please!"
+    m "Another $ 500, please!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1665
 translate english monica_charity_event_dialogue18_local3_79dc8e91:
@@ -3894,7 +3894,7 @@ translate english monica_charity_event_dialogue18_local3_79dc8e91:
 translate english monica_charity_event_dialogue18_local3_0af385d8:
 
     # m "Мне нужно еще $ 500!"
-    m "I need another 0!"
+    m "I need another $ 500!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1670
 translate english monica_charity_event_dialogue18_local3_9998fe87:
@@ -3942,7 +3942,7 @@ translate english monica_charity_event_dialogue18_local4_a4912742:
 translate english monica_charity_event_dialogue18_local4_a0fd8f9d:
 
     # "Вы дадите мне еще $ 500..."
-    "You'll give me another 0..."
+    "You'll give me another $ 500..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1697
 translate english monica_charity_event_dialogue18_local4_1cda21fc:

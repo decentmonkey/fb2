@@ -455,8 +455,8 @@ translate english sleep_scene1_373eef24:
 # game/Quests/EP2/ep2_dialogues1.rpy:233
 translate english sleep_scene1_a21a0e09:
 
-    # "..." 
-    "..." 
+    # "..."
+    "..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:237
 translate english sleep_scene1_48b2e946:
@@ -1324,23 +1324,23 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues1.rpy:434
     old "Бетти подумывает взять Монику в фитнесс зал"
-    new "Бетти подумывает взять Монику в фитнесс зал"
+    new "Betty is considering taking Monica to the fitness gym."
 
     # Quests/EP2/ep2_dialogues1.rpy:440
     old "Моника еще не проявила себя"
-    new "Моника еще не проявила себя"
+    new "Monica hasn't shown herself yet"
 
     # Quests/EP2/ep2_dialogues1.rpy:461
     old "Моника регулярно убирается"
-    new "Моника регулярно убирается"
+    new "Monica cleaned up regularly"
 
     # Quests/EP2/ep2_dialogues1.rpy:467
     old "Моника плохо работает"
-    new "Моника плохо работает"
+    new "Monica doesn't work well"
 
     # Quests/EP2/ep2_dialogues1.rpy:643
     old "Моника нерегулярно убирается в доме"
-    new "Моника нерегулярно убирается в доме"
+    new "Monica irregularly cleaned the house"
 
 # TODO: Translation updated at 2018-12-09 22:48
 
@@ -1401,4 +1401,3 @@ translate english sleep_scene1_638b971b:
     "So..."
     "Now I think I should {b}pretend to be a maid{/b}."
     "Then {b}go looking for food {/b}..."
-

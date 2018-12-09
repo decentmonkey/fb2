@@ -60,7 +60,7 @@ translate english ralphDialogue2_21b7df00:
     # m "Мистер Робертс. Мне Ваша супруга только что сказала что я слишком дорого для Вас стою."
     # "И что у меня зарплата $90 в час..."
     m "Mr. Roberts. Your wife has just told me I'm too expensive for you."
-    "And that my salary is  an hour..."
+    "And that my salary is $ 90 an hour..."
 
 # game/Quests/Family/Ralph_Dialogues1.rpy:49
 translate english ralphDialogue2_3e4f1b21:
@@ -131,7 +131,7 @@ translate english ralphDialogue2_2886d472:
     "Especially since Betty spends almost all of our money on herself."
     "So the fact that she works and benefits - was fine for me."
     "Fred offered me an idea..."
-    "Anyway, I told Betty I'd be paying you per hour."
+    "Anyway, I told Betty I'd be paying you $ 90 per hour."
     "To keep some money for myself."
 
 # game/Quests/Family/Ralph_Dialogues1.rpy:82

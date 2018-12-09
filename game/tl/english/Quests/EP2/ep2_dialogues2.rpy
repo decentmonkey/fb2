@@ -570,7 +570,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues2.rpy:157
     old "Купить кебаб за $ 1"
-    new "Buy the kebab for $1"
+    new "Buy the kebab for $ 1"
 
     # Quests/EP2/ep2_dialogues2.rpy:157
     old "Разносить флаеры."
