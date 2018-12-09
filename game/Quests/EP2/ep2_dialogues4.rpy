@@ -1,3 +1,5 @@
+default monica_office_secretary_dialogue5bSeen = False
+
 label monica_office_entrance_biff_dialogue1:
     if day_time == "day":
         sound snd_lift
@@ -989,6 +991,9 @@ label monica_office_secretary_dialogue5a:
 #    $ remove_hook()
     return
 label monica_office_secretary_dialogue5b:
+    if monica_office_secretary_dialogue5bSeen == True:
+        jump .local1
+    $ monica_office_secretary_dialogue5bSeen = True
     mt "..."
     "Дик... Сегодня пятница..."
     "Если сегодня вечером не будет денег, то мне конец..."
@@ -1003,13 +1008,14 @@ label monica_office_secretary_dialogue5b:
     "Он придумает как вернуть мне документы и деньги..."
     "Я уверена он знает как это сделать, но проверяет меня..."
     "..."
-    "Итак, одна фотосессия..."
-    "Мне надо убедить этого негодяя {b}сделать одну нейтральную фотосессию{/b}..."
-    "Безобидную."
-    "Тем более будет полезно миру напомнить о себе..."
-    "Я надеюсь за это Маркус не заберет меня?"
-    "Нет, не должен..."
-    "Мне надо успеть!!!"
+    label .local1:
+        "Итак, одна фотосессия..."
+        "Мне надо убедить этого негодяя {b}сделать одну нейтральную фотосессию{/b}..."
+        "Безобидную."
+        "Тем более будет полезно миру напомнить о себе..."
+        "Я надеюсь за это Маркус не заберет меня?"
+        "Нет, не должен..."
+        "Мне надо успеть!!!"
     return
 
 label monica_office_cabinet_biff_dialogue4:
@@ -1052,7 +1058,6 @@ label monica_office_cabinet_biff_dialogue4:
 
 
     #если Моника раздевала мартышек
-    $ monkeysOffended2 = True
     if monkeysOffended2 == True:
         "Только передо мной!"
 
@@ -1248,13 +1253,16 @@ label monica_office_photostudio_alex_dialogue2:
     img 6530
     with fadelong
     w
+    sound snd_fabric1
     img 6531
+    with fadelong
     w
     img 6532
     w
     img 6533
     w
     img 6534
+    with fade
     w
     img 6535
     w
@@ -1307,16 +1315,18 @@ label monica_office_photostudio_alex_dialogue2:
     w
     img 6558
     w
-    sound wow
+    sound Jump2
     img 6559
     w
     img 6560
     w
     img 6558
     w
+    sound wow
     img 6561
     w
     music Loved_up2
+    sound Jump1
     img 6562
     with fade
     w
@@ -1329,6 +1339,7 @@ label monica_office_photostudio_alex_dialogue2:
     img 6565
     with fade
     w
+    sound Jump2
     img 6566
     w
     img 6567
@@ -1339,6 +1350,7 @@ label monica_office_photostudio_alex_dialogue2:
     img 6569
     w
     music Stealth_Groover
+    sound Jump1
     img 6570
     with fade
     m "Алекс!"
@@ -1354,12 +1366,14 @@ label monica_office_photostudio_alex_dialogue2:
     "И жду Вашего разрешения, Мэм!"
 
     music Loved_up2
+    sound snd_fabric1
     img 6572
     with fadelong
     w
     img 6573
     w
     img 6574
+    with Dissolve(0.8)
     w
     img 6575
     w
@@ -1368,19 +1382,21 @@ label monica_office_photostudio_alex_dialogue2:
     mt "Черт! У меня нет трусиков под это платье!"
     "Надо было взять хоты бы трусики Юлии!"
     "Но под те жуткие джинсовые шорты, что я ношу, их все-равно не оденешь..."
+    sound Jump2
+
     img 6577
-    with Dissolve(0.5)
     w
     img 6578
     with Dissolve(0.5)
     w
     #звук затвора
     sound snd_photo_capture
-    img 6579
+    img 6580
     w
     #звук затвора
     sound snd_photo_capture
-    img 6580
+    img 6579
+    with Dissolve(0.5)
     w
     img 6581
     w
@@ -1402,6 +1418,7 @@ label monica_office_photostudio_alex_dialogue2:
     "Думаешь будет уместно делать две одинаковые фотосессии в одном и том же?"
 
     img 6586
+    with fade
     alex_photograph "Это РАЗНЫЕ фотосессии, Миссис Бакфетт!"
 
     music Molten_Alloy
@@ -1411,6 +1428,7 @@ label monica_office_photostudio_alex_dialogue2:
     img black_screen
     with Dissolve(1.0)
     #фотосессия Моники обычная
+    $ add_char_progress("AlexPhotograph", photoshot1AlexProgressAmount, "photoshot1")
 
     img 6588
     call photoshop_flash()
@@ -1453,8 +1471,11 @@ label monica_office_photostudio_alex_dialogue2:
     m "Ладно..."
 
     music Molten_Alloy
+    img black_screen
+    with Dissolve(1.0)
     #фотосессия Моники со стулом
     img 6600
+    with fade
     call photoshop_flash()
     w
     img 6601
@@ -1488,6 +1509,7 @@ label monica_office_photostudio_alex_dialogue2:
     img 6607
     mt "Вот сволочь!"
     img 6608
+    with fade
     m "Я не буду так сниматься!"
     m "Мы закончили фотосессию! Хватит и того что снято!"
 
@@ -1528,12 +1550,16 @@ label monica_office_photostudio_alex_dialogue2:
     "Давай, Моника! Ты справишься! Ты выдержишь!"
 
     img 6614
+    with fade
     "Хорошо, Мэм!"
     "Как скажете!"
 
 
     music Molten_Alloy
+    img black_screen
+    with Dissolve(1.0)
     img 6615
+    with fade
     w
 
     #Идет фотосессия с пошлыми ракурсами
@@ -1555,25 +1581,43 @@ label monica_office_photostudio_alex_dialogue2:
     label .local1:
         menu:
             "Продолжить делать кадры. (corruption)" if corruption >= monicaBiffWorkPhotoShot1PervertCorruptionRequired:
+                $ add_char_progress("AlexPhotograph", photoshot1AlexProgressPervertAmount, "photoshot1_corruption")
+
                 img 6621
+                with fade
+                call photoshop_flash()
                 w
                 img 6622
+                call photoshop_flash()
                 w
                 img 6623
+                call photoshop_flash()
                 w
                 img 6624
+                call photoshop_flash()
                 w
                 img 6625
+                call photoshop_flash()
                 w
                 img 6626
+                call photoshop_flash()
                 w
                 img 6627
+                call photoshop_flash()
                 w
                 img 6628
+                with Dissolve(0.5)
                 w
                 img 6629
+                with Dissolve(0.5)
                 m "Эй! Не вздумай заглядывать туда!!!"
                 mt "Черт!!!"
+                #конец фотосессии
+                music Stealth_Groover
+                img 6630
+                with fade
+                alex_photograph "Мы закончили, Мэм!"
+                "Хотите переодеться назад?"
 
             "Продолжить делать кадры. (недостаточно corruption) (disabled)" if corruption < monicaBiffWorkPhotoShot1PervertCorruptionRequired:
                 jump .local1
@@ -1585,10 +1629,6 @@ label monica_office_photostudio_alex_dialogue2:
                 m "Мы сделали достаточно кадров!"
                 alex_photograph "Хотите переодеться назад?"
 
-                #конец фотосессии
-                img 6630
-                alex_photograph "Мы закончили, Мэм!"
-                "Хотите переодеться назад?"
 
     img 6631
     with fade

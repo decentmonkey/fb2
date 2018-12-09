@@ -10,6 +10,9 @@ define monicaBiffWork1CorruptionAdding = 20 # Увеличение corruption з
 define monicaBiffWork2CorruptionAdding = 50 # Увеличение corruption за согласие сниматься в плавном обнажении
 define monicaBiffWork3CorruptionAdding = 50 # Увеличение corruption разговор с Алексом, согласие на фотосессию (вначале)
 define monicaBiffWorkPhotoShot1PervertCorruptionRequired = 10 # Необходимо corruption, чтобы продолжить сниматься в развратных ракурсах
+define photoshot1AlexProgressAmount = 20 # Прогресс у Алекса за первую фотосессию
+define photoshot1AlexProgressPervertAmount = 10 # Прогресс у Алекса за продолжение развратных поз
+
 define monicaKebabWorkFlyersAmount = 5 # Количество флаеров, которые надо раздать Монике
 define monicaKebabWorkFlyersAmountRandomDiff = 1 #Рандом, в котором будет делаться отклонение от monicaKebabWorkFlyersAmount
 

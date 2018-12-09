@@ -30,7 +30,7 @@ label start:
     $ inventory = []
 
 
-#    call intro_questions()
+    call intro_questions()
     $ ralphAskedAboutPayment = False
     $ add_objective("ask_ralph", _("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
     $ add_objective("freedom", _("Избежать наказания"), c_red, 0)

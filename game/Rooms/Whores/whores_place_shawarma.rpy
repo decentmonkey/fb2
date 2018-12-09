@@ -5,7 +5,10 @@ label whores_place_shawarma:
     call miniMapHostelGenerate()
 
     $ sceneIsStreet = True
-    $ scene_image = "scene_street_whores_place_shawarma[day_suffix]"
+    if kebabWorkInProgress == True:
+        $ scene_image = "scene_street_whores_place_shawarma[day_suffix]"
+    else:
+        $ scene_image = "scene_street_whores_place_shawarma_Kebab[day_suffix]"
     $ whoresPlacePreviousLocation = "shawarma"
     if day_time == "day":
         music street4

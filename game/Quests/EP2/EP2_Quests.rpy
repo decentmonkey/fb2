@@ -200,6 +200,7 @@ label monica_office_photoshot1:
     if act == "l":
         return
     call monica_office_photostudio_alex_dialogue2()
+    call refresh_scene_fade()
     if _return == False:
         return False
     $ cloth_type = "PhotoDress"
