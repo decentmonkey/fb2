@@ -12,20 +12,20 @@ translate english intro_scene_start_0f8988c1:
     # help "Привет! Добро пожаловать в обновленную игру про Монику!"
     # "Что стоит сразу запомнить."
     help "Hi! Welcome to the updated game about Monica!"
-    "The first thing you need to remember."
+    "The first thing you need to remember_"
 
 # game/Rooms/Intro/intro_scene.rpy:33
 translate english intro_scene_start_8fe2cf87:
 
     # "В левом верхнем углу вы можете всегда видеть много полезной информации. Например, текущие задания!"
-    "In the upper left corner, you can always see a lot of useful information. For example, the current task!"
+    "In the upper left corner, there is always a lot of useful information. For example, the current task!"
 
 # game/Rooms/Intro/intro_scene.rpy:38
 translate english intro_scene_start_32569033:
 
     # "Справа располагается название текущей локации и кнопка вызова карты."
     # "Сейчас она недоступна, потому что Моника спит :)"
-    "On the right, there is the name of the current location and the map button."
+    "On the right, you'll find the name of the current location and the map button."
     "It's not available now because Monica's sleeping. :)"
 
 # game/Rooms/Intro/intro_scene.rpy:43
@@ -35,10 +35,10 @@ translate english intro_scene_start_9010f170:
     # "Вы можете влиять на ее поведение в течении игры."
     # "И сделать из нее либо скромную девушку, либо законченную сучку."
     # "Все это будет сказываться на игре и на развитии сюжета!"
-    "Also on the right, there is Bitchmeter:). It shows who Monica is now."
+    "Also on the right, we have the Bitchmeter:). It shows what type of person Monica is currently."
     "You can influence her behavior during the game."
     "And make her either a modest girl or a complete bitch."
-    "All this will affect the game and the development of the plot!"
+    "All of your decisions will affect the game and the development of the plot!"
 
 # game/Rooms/Intro/intro_scene.rpy:52
 translate english intro_scene_start_b6fb1663:
@@ -49,28 +49,28 @@ translate english intro_scene_start_b6fb1663:
     # "Меню действий вызывается левым кликом мышки опционально, либо правым кликом мышки принудительно."
     "There are many interactive objects on the screen. You can interact with them in different ways."
     "For example, you can look at them, you can use, talk, etc."
-    "Or use them on some items of equipment."
-    "Action menu is called by left mouse click optional, or right mouse click force."
+    "Or use them together with some items of equipment."
+    "The action menu is optional, and brought up by clicking the left mouse. The right mouse button will click force."
 
 # game/Rooms/Intro/intro_scene.rpy:63
 translate english intro_scene_start_796043ad:
 
     # "Во время диалогов правая кнопка мыши, либо клавиша <H>, скрывают диалог, чтобы вы могли видеть картинку целиком!"
     # "Также вы можете включить принудительную паузу после диалога перед сменой картинки в настройках игры!"
-    "During dialogs, the right mouse button or the <H> key hides the dialog so you can see the whole picture!"
-    "You can also enable forced pause after the dialogue before changing the picture in the game settings!"
+    "During dialogs, the right mouse button or the <H> key hides the dialog so you can see the whole image!"
+    "In the game settings, you can also enable a forced pause after the dialogue ends, before the picture changes!"
 
 # game/Rooms/Intro/intro_scene.rpy:69
 translate english intro_scene_start_7f023d30:
 
     # "Если появилась кнопка с вопросом, значит для этого квеста есть подсказки!"
     # "Нажмите на кнопку, если Вы запутались!"
-    "If there was a button with a question, then there are tips for this quest!"
-    "Click on the button if you are confused."
+    "If there is an icon with a question mark, then there are tips for the current quest!"
+    "Press it if you are confused."
 
 # game/Rooms/Intro/intro_scene.rpy:76
 translate english intro_scene_start_a647fbff:
 
     # "А теперь пришла мора разбудить Монику и начать игру! Удачи!"
-    "And now it is time to wake Monica up and start the game! Good luck!"
+    "Now it is time to wake Monica up and start the game! Good luck!"
 

@@ -12,7 +12,7 @@ translate english street_house_fence_environment_99685a41:
     "It feels like it was yesterday..."
     "It's never been fixed."
     "These masters are unworthy of my house!"
-    "I'll bring it back, I swear!"
+    "I'll get it back, I swear!"
 
 # game/Rooms/House/Street_House/street_house_fence.rpy:40
 translate english street_house_fence_environment_99685a41_1:
@@ -26,7 +26,7 @@ translate english street_house_fence_environment_99685a41_1:
     "It feels like it was yesterday..."
     "It's never been fixed."
     "These masters are unworthy of my house!"
-    "I'll bring it back, I swear!"
+    "I'll get it back, I swear!"
 
 translate english strings:
 

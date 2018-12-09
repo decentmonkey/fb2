@@ -665,6 +665,7 @@ label intro_questions_short:
             call bitch(2, "dickMonicaCabinetOffended")
             $ monicaFredWasForcedBlowjob = True
             $ monicaFredWasSpermEat = True
+            $ shawarmaTraderOffended1 = True
         "Моника старалась быть вежливой насколько умеет...":
             $ neighborAsked = True
             $ neighborCalled = True

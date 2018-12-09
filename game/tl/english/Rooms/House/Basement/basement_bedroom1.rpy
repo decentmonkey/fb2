@@ -5,7 +5,7 @@ translate english basement_bedroom1_environment_8b1d5d88:
 
     # mt "В этот старый шкаф можно повесить одежду..."
     # "Если это можно назвать одеждой..."
-    mt "In this old wardrobe, I can hang clothes..."
+    mt "I can hang my clothes in this old wardrobe..."
     "If you can call it clothes..."
 
 # game/Rooms/House/Basement/basement_bedroom1.rpy:52
@@ -34,7 +34,7 @@ translate english basement_bedroom1_environment_dbe585da:
     # "Она пыталась быть похожей на меня?"
     # "..."
     mt "Painting..."
-    "I didn't know Julia had been into it."
+    "I didn't know Julia was into that."
     "Was she trying to be like me?"
     "..."
 
@@ -43,7 +43,7 @@ translate english basement_bedroom1_environment_cab17d2a:
 
     # mt "Этот старый яркий пестрый стол пытается скрасить уныние этой каморки..."
     # "Тщетно..."
-    mt "This old bright, colorful table is trying to brighten up the despondency of this room..."
+    mt "This old, bright, colorful table is trying to brighten up the despondency of this room..."
     "Vainly..."
 
 translate english strings:

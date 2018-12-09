@@ -211,6 +211,18 @@ label start_game:
 #    $ autorun_to_object("intro_scene", "intro_scene_start")
     music stop
 
+    $ _dismiss_pause = False
+    scene black_screen
+    with Dissolve(1)
+    call textonblack_long("FASHION BUSINESS")
+    scene black_screen
+    with Dissolve(1)
+    call textonblack_long("EPISODE 2")
+    scene black_screen
+    with Dissolve(1)
+    $ _dismiss_pause = True
+    call sleep_scene1()
+
     $ episode = 2
     jump show_scene
 

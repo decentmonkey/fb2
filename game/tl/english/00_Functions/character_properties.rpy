@@ -4,15 +4,15 @@ translate english strings:
 
     # 00_Functions/character_properties.rpy:53
     old "прогресс заморожен"
-    new "progress frozen"
+    new "Progress frozen"
 
     # 00_Functions/character_properties.rpy:63
     old "прогресс перешел на следующий уровень!"
-    new "progress has moved to the next level!"
+    new "Progress has moved on to the next level!"
 
     # 00_Functions/character_properties.rpy:70
     old "прогресс увеличен!"
-    new "progress increased!"
+    new "Progress increased!"
 
     # 00_Functions/character_properties.rpy:92
     old "Corruption increased"

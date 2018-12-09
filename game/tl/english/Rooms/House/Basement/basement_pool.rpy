@@ -4,13 +4,13 @@
 translate english basement_pool_environment_7c31c4d0:
 
     # m "Насколько помню, здесь одна дверь ведет назад в дом, а вторая в прачечную."
-    m "As far as I remember, there is one door that leads back into the house, and second, leads to the Laundry."
+    m "As far as I remember, there is one door that leads back into the house, and a second, which leads to the Laundry."
 
 # game/Rooms/House/Basement/basement_pool.rpy:42
 translate english basement_pool_environment_194ad6e1:
 
     # mt "Здесь не бывает настоящего солнца... "
-    mt "Here's no real sun ..."
+    mt "There's no real sunshine here ..."
 
 # game/Rooms/House/Basement/basement_pool.rpy:46
 translate english basement_pool_environment_0795c97a:

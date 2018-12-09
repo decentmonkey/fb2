@@ -22,7 +22,7 @@ translate english citizen8_dialogue_loop1_bd4f2b46:
 translate english citizen8_dialogue_loop1_05979ea1:
 
     # m "Возьмите, пожалуйста, этот флаер..."
-    m "Please take this flyer..."
+    m "Please, take this flyer..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:19
 translate english citizen8_dialogue_738dcc83:
@@ -36,13 +36,13 @@ translate english citizen8_dialogue_loop1_df22fd43:
     # citizen8 "Детка! Ты подошла только за этим?"
     # "Хочешь предложить что-то еще?"
     citizen8 "Baby! Is that all you came for?"
-    "Do you have anything else to offer?"
+    "Do you not have anything else to offer?"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:27
 translate english citizen8_dialogue_loop1_73661fbe:
 
     # m "Я ничего не собираюсь предлагать!"
-    m "I'm not going to suggest anything!"
+    m "No, I don't!"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:32
 translate english citizen8_dialogue_loop1_cd2099c6:
@@ -54,9 +54,9 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen8_dialogue.rpy:24
     old "Я ничего не собираюсь предлагать!"
-    new "I'm not going to suggest anything!"
+    new "No, I don't!"
 
     # Quests/EP2/Citizens/Citizen8_dialogue.rpy:24
     old "А что бы Вы хотели? (disabled)"
-    new "What would You like? (disabled)"
+    new "What would you like? (disabled)"
 

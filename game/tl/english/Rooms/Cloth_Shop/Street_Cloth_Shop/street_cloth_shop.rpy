@@ -4,7 +4,7 @@
 translate english street_cloth_shop_environment2_9cdcd76b:
 
     # mt "Парковочный автомат?"
-    mt "A Parking machine?"
+    mt "A parking machine?"
 
 # game/Rooms/Cloth_Shop/Street_Cloth_Shop/street_cloth_shop.rpy:37
 translate english street_cloth_shop_environment2_dc232290:

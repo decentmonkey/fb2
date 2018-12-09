@@ -18,7 +18,7 @@ translate english monica_fred_about_dick_dialogue2_f81a58f0:
 translate english monica_fred_about_dick_dialogue2_ded502ac:
 
     # fred "Миссис Бакфетт! Мне сообщили что {b}Мистер Дик просил Вас зайти к нему{/b}!"
-    fred "Mrs. Buckfett! I've been informed that {b}Mr. Dick has asked you to come to him{/b}!"
+    fred "Mrs. Buckfett! I've been informed that {b}Mr. Dick has asked you to come see him{/b}!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:17
 translate english monica_fred_about_dick_dialogue2_b002ed16:
@@ -30,7 +30,7 @@ translate english monica_fred_about_dick_dialogue2_b002ed16:
 translate english monica_fred_about_dick_dialogue2_0df9d541:
 
     # fred "Нет, Миссис Бакфетт! Со мной связалась его секретарь..."
-    fred "No, Mrs. Buckfett! His Secretary contacted me..."
+    fred "No, Mrs. Buckfett! His secretary contacted me..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:21
 translate english monica_fred_about_dick_dialogue2_6c36ebc3:
@@ -43,20 +43,20 @@ translate english monica_fred_about_dick_dialogue2_04c6546e:
 
     # fred "Я не знаю, Миссис Бакфетт! Наверное у нее не было другого способа связаться с Вами!"
     # "Ведь у Вас нет телефона, правда?!"
-    fred "I don't know, Mrs. Buckfett! She probably had no other way of contacting you!"
-    "You don't have a phone, do you?!"
+    fred "I don't know, Mrs. Buckfett! She probably didn't have a way of contacting you directly!"
+    "You don't have a phone, do you?"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:26
 translate english monica_fred_about_dick_dialogue2_a30e643f:
 
     # "Или есть?!"
-    "Or do you have it?!"
+    "Or do you have one?!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:28
 translate english monica_fred_about_dick_dialogue2_045a4a65:
 
     # m "Пока нет, но это ненадолго, поверь!"
-    m "Not yet, but not for long, trust me!"
+    m "I don't have one, but not for long, trust me!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:30
 translate english monica_fred_about_dick_dialogue2_0264b6f3:
@@ -78,13 +78,13 @@ translate english monica_fred_about_dick_dialogue2_600ea1d6:
 translate english monica_fred_about_dick_dialogue2_94fb8832:
 
     # mt "Дик просил меня зайти... Что-ж, может и пришло время попытаться еще раз..."
-    mt "Dick asked me to come in... Well, maybe it's time to try again..."
+    mt "Dick asked me to come to him... Well, maybe it's time to try again..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:41
 translate english monica_dick_office_dialogue1_3a4e63b1:
 
     # mt "Я обязательно зайду и поговорю с Диком, но чуть позже..."
-    mt "I'll be sure to stop by and talk to Dick, but later..."
+    mt "I'll be sure to stop by and talk to Dick, but not until later..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:46
 translate english monica_dick_office_dialogue1a_de6b1938:
@@ -96,12 +96,12 @@ translate english monica_dick_office_dialogue1a_de6b1938:
     # reception_secretary "Он куда-то уехал с самого утра."
     # mt "Вот черт! Дика нет!"
     # "Надо зайти в другой день..."
-    reception_secretary "MA'am, where are you going?"
+    reception_secretary "Ma'am, where are you going?"
     m "I'm going to Dick the Lawyer!"
-    reception_secretary "MA'am, he's not here today..."
+    reception_secretary "Ma'am, he's not here today..."
     reception_secretary "He and Miss Victoria have gone somewhere."
     reception_secretary "He went somewhere in the morning."
-    mt "Oh shit! There is no Dick!"
+    mt "Oh shit! Dick isn't here!"
     "I should come back another day..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:75
@@ -125,7 +125,7 @@ translate english monica_dick_secretary_dialogue1_f3a6c948:
 
     # dick_secretary "Это комплимент..." 
     # "Я просто хочу подружиться с Вами..."
-    dick_secretary "This is a compliment..." 
+    dick_secretary "And that's a compliment..." 
     "I just want to be friends with you..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:84
@@ -133,7 +133,7 @@ translate english monica_dick_secretary_dialogue1_e81b8d80:
 
     # m "Мне не нужны такие друзья!"
     # dick_secretary "..." 
-    m "I don't need friends like that!"
+    m "I don't need friends like you!"
     dick_secretary "..." 
 
 # game/Quests/EP2/ep2_dialogues3.rpy:93
@@ -154,7 +154,7 @@ translate english monica_dick_dialogue1_5b9361e7:
 translate english monica_dick_dialogue1_533751a8:
 
     # "Ты позвал меня чтобы сказать что передумал?"
-    "You called me here to tell me you changed your mind?"
+    "Did you call me here to tell me you changed your mind?"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:102
 translate english monica_dick_dialogue1_a341518a:
@@ -190,7 +190,7 @@ translate english monica_dick_dialogue1_ce282acc_1:
 translate english monica_dick_dialogue1_4fbda268:
 
     # "Я помню о тебе все время и я..."
-    "I remember about you all the time and I..."
+    "I remember. I think about you all the time and I..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:129
 translate english monica_dick_dialogue1_65ff4afa:
@@ -240,13 +240,13 @@ translate english monica_dick_dialogue1_f782ea5e_1:
 translate english monica_dick_dialogue1_b954613b:
 
     # "Я пока не нашла деньги на..."
-    "I haven't found the money yet..."
+    "I haven't got the money yet..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:165
 translate english monica_dick_dialogue1_409f6450:
 
     # "Я пока не нашла деньги на твой галстук..."
-    "I haven't found the money for your tie yet..."
+    "I haven't got the money for your tie yet..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:167
 translate english monica_dick_dialogue1_2fdc9f98:
@@ -281,8 +281,8 @@ translate english monica_dick_dialogue1_e928c19e:
 
     # "В общем Моника. Я позвал тебя чтобы сообщить..."
     # "Я не хочу больше заниматься твоим делом."
-    "In general, Monica. I called you here to tell you..."
-    "I don't want to do your business anymore."
+    "In fact, Monica. I called you here to tell you something else to..."
+    "I don't want to take care of your case anymore."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:191
 translate english monica_dick_dialogue1_359aeee3:
@@ -290,7 +290,7 @@ translate english monica_dick_dialogue1_359aeee3:
     # m "Дик... Я...."
     # "Я пока не нашла деньги на..."
     m "Dick... I am..."
-    "I haven't found the money yet..."
+    "I haven't got the money yet..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:195
 translate english monica_dick_dialogue1_d18f6e2d:
@@ -313,8 +313,8 @@ translate english monica_dick_dialogue1_e928c19e_1:
 
     # "В общем Моника. Я позвал тебя чтобы сообщить..."
     # "Я не хочу больше заниматься твоим делом."
-    "In general, Monica. I called you here to tell you..."
-    "I don't want to do your business anymore."
+    "In fact, Monica. I called you here to tell you something else to..."
+    "I don't want to take care of your case anymore."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:206
 translate english monica_dick_dialogue1_12bd232e:
@@ -322,9 +322,9 @@ translate english monica_dick_dialogue1_12bd232e:
     # m "КАК?!?!"
     # dick "У тебя есть другие друзья. Тот же Маркус."
     # "Общайся с ними. А у меня есть свои друзья, которые думают обо мне!"
-    m "How?!?!"
-    dick "You have other friends.Marcus for example."
-    "Communicate with them. And I have friends who think of me!"
+    m "Why?!?!"
+    dick "You have other friends. Marcus for example."
+    "Talk to them. I have friends who care for me!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:211
 translate english monica_dick_dialogue1_5e17e74e:
@@ -349,7 +349,7 @@ translate english monica_dick_dialogue1_355dc4cc:
     # "Это твои связи и твои проблемы."
     # "Причем тут я?!"
     dick "Monica, I don't care who he is!"
-    "It's your connections and your problems."
+    "That's your connections and your problems."
     "What about me?!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:224
@@ -359,10 +359,10 @@ translate english monica_dick_dialogue1_8f3e882a:
     # "Я НЕ ОЖИДАЛА ТАКОГО ПОВОРОТА!!!"
     # "МНЕ НАДО КАК-ТО ПЕРЕУБЕДИТЬ ЕГО!!!"
     # "ИНАЧЕ КОНЕЦ!!!"
-    mt "Oh my God!!! HOW IS IT!?!?"
-    "I DIDN'T EXPECT THIS TURN!!!"
-    "I NEED TO CONVINCE HIM!!!"
-    "OTHERWISE, THE END!!!"
+    mt "Oh my God!!!"
+    "I DIDN'T EXPECT THIS!!!"
+    "I NEED TO CONVINCE HIM TO NOT DO THIS!!!"
+    "OTHERWISE, IT'S THE END!!!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:230
 translate english monica_dick_dialogue1_2d002724:
@@ -388,9 +388,9 @@ translate english monica_dick_dialogue1_a1b053fa:
     # m "Я... могу дружить и с твоим другом тоже..."
     # "Дик!"
     # "Я могу быть вместе с Вами!"
-    m "I am... I can be friends with your friend, too..."
+    m "I... I can be friends with your friend, too..."
     "Dick!"
-    "I can be together with you!"
+    "I can be with you together!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:244
 translate english monica_dick_dialogue1_9dc6116f:
@@ -402,15 +402,15 @@ translate english monica_dick_dialogue1_9dc6116f:
 translate english monica_dick_dialogue1_28f0bc6e:
 
     # m "Я?? С ней??"
-    m "Me?? With her??"
+    m "Me?? Get along with her??"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:249
 translate english monica_dick_dialogue1_acf13872:
 
     # "Конечно, Дик!"
     # "Конечно! Я с радостью полажу с ней!"
-    "Sure, Dick!"
-    "Of course! I'm happy to get along with her!"
+    "Of course, Dick!"
+    "I'm happy to get along with her!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:253
 translate english monica_dick_dialogue1_8884b8ab:
@@ -418,9 +418,9 @@ translate english monica_dick_dialogue1_8884b8ab:
     # dick "Хм..."
     # "Моника... Я не знаю..."
     # "Я сомневаюсь..."
-    dick "Hmm ..."
-    "Monica... I do not know..."
-    "I doubt..."
+    dick "Hmm..."
+    "I don't know, Monica..."
+    "I have my doubts..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:258
 translate english monica_dick_dialogue1_6583b402:
@@ -428,13 +428,13 @@ translate english monica_dick_dialogue1_6583b402:
     # m "Дорогой! Пожалуйста, не сомневайся во мне!"
     # "Пожалуйста, дай мне шанс! Я не разочарую тебя!"
     m "Dear! Please don't doubt me!"
-    "Please give me a chance! I won't disappoint you!"
+    "Give me a chance! I won't disappoint you!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:262
 translate english monica_dick_dialogue1_333f3d1a:
 
     # dick "Твое дело занимает слишком много сил, а ты..."
-    dick "Your case takes too much strength, and you..."
+    dick "Your case takes so much strength, and you..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:265
 translate english monica_dick_dialogue1_5db59aea:
@@ -463,8 +463,8 @@ translate english monica_dick_dialogue1_2dd02d49:
 
     # "Моника! А почему бы Вам вместе с ней не купить мне галстук?"
     # "Вы хотите подружиться! Это будет прекрасный повод!"
-    "Monica! Why don't you buy me a tie with her?"
-    "You want to make friends! It will be a wonderful occasion!"
+    "Monica! Why don't you go with her to buy me a tie?"
+    "You said wanted to be friends with her! It would be a wonderful occasion!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:280
 translate english monica_dick_dialogue1_099ae1fa:
@@ -475,8 +475,8 @@ translate english monica_dick_dialogue1_099ae1fa:
     # dick "Хм... Возможно Виктория еще не успела отослать факс об отмене дела..."
     m "Yes, dear..."
     "I'm so excited..."
-    "Just please don't give up my case, Dick..."
-    dick "Um... Perhaps Victoria has not had time to send a fax about the cancellation of the case..."
+    "Just please don't give up on my case, Dick..."
+    dick "Um... Perhaps Victoria hasn't had time to send that fax about the cancellation of your case yet..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:286
 translate english monica_dick_dialogue1_10527ccd:
@@ -484,9 +484,9 @@ translate english monica_dick_dialogue1_10527ccd:
     # dick "В общем Моника, я жду того что Вы {b}подружитесь с Викторией до конца недели{/b}."
     # dick "Я даю тебе шанс, Моника."
     # "{b}В пятницу вечером галстук должен быть на мне!{/b}"
-    dick "Anyway, Monica, I expect you to be {b}friends with Victoria by the end of the week{/b}."
+    dick "Anyway, Monica, I expect you to be {b}friends with Victoria by the end of this week{/b}."
     dick "I'm giving you a chance, Monica."
-    "{b}Friday night, I should be wearing a tie!{/b}"
+    "{b}By Friday night, I should be wearing a new tie!{/b}"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:290
 translate english monica_dick_dialogue1_df96b777:
@@ -506,7 +506,7 @@ translate english monica_dick_dialogue1_9da8cb28:
 translate english monica_dick_secretary_dialogue2a_97394985:
 
     # mt "Я думаю мне надо проконтролировать эту сучку, вдруг она отправила факс?"
-    mt "I think I need to check on this bitch, see if she has sent the fax."
+    mt "I think I need to check so that this bitch hasn't sent thefax."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:305
 translate english monica_dick_secretary_dialogue2_ce9a25fa:
@@ -526,15 +526,15 @@ translate english monica_dick_secretary_dialogue2_f21aacea:
     # m "Мисс Виктория... Скажите..."
     # "Вы ведь не отправили факс, о котором говорил мистер Дик?"
     m "Miss Victoria... Say..."
-    "You haven't sent the fax Mr. Dick was talking about, have you?"
+    "You haven't sent that fax Mr. Dick was talking about yet, have you?"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:312
 translate english monica_dick_secretary_dialogue2_4b4e178a:
 
     # dick_secretary "Я отправила все факсы, которые он мне поручал!"
     # "Я хорошо делаю свою работу, Миссис Бакфетт!"
-    dick_secretary "I sent all the faxes he had given me!"
-    "I do my work, Mrs. Buckfett!"
+    dick_secretary "I have sent all the faxes he has given me!"
+    "I do my work very well, Mrs. Buckfett!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:315
 translate english monica_dick_secretary_dialogue2_a7c446f6:
@@ -547,8 +547,8 @@ translate english monica_dick_secretary_dialogue2_790f5414:
 
     # dick_secretary "Мистер Дик сообщил о том что один факс посылать не надо."
     # "Этот факс касается Вашего дела, Миссис Бакфетт!"
-    dick_secretary "Mr. Dick said there's no need to send one fax."
-    "This fax machine for Your business, Mrs. Buckfett!"
+    dick_secretary "Mr. Dick said that there was a fax that you didn't have to send"
+    "This fax machine for your business, Mrs. Buckfett!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:320
 translate english monica_dick_secretary_dialogue2_e15b2360:
@@ -580,7 +580,7 @@ translate english monica_dick_secretary_dialogue2_e612037c:
 translate english monica_dick_secretary_dialogue2_f8acafc7:
 
     # dick_secretary "Есть еще какие-то вопросы, Миссис Бакфетт?"
-    dick_secretary "Are there any other questions, Mrs. Buckfett?"
+    dick_secretary "Do you have any other questions, Mrs. Buckfett?"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:331
 translate english monica_dick_secretary_dialogue2_b27a5120:
@@ -591,7 +591,7 @@ translate english monica_dick_secretary_dialogue2_b27a5120:
     # "Чтобы купить галстук для Мистера Дика..."
     m "Miss Victoria... I am..."
     "I'd like to be friends with you..."
-    "And I'd like to ask you to keep me company..."
+    "And I'd like to ask if you want come with me..."
     "To buy a tie for Mr. Dick..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:336
@@ -609,10 +609,10 @@ translate english monica_dick_secretary_dialogue2_bdef915a:
     # "Хи-хи!"
     # "Да, Вам стоило бы купить галстук вместе со мной!"
     # "Иначе, я очень боюсь, что его цвет может не понравиться любимой девушке Мистера Дика!"
-    dick_secretary "Would you like it?"
+    dick_secretary "You'd like that, huh?"
     "Hee-hee!"
-    "Yes, you should buy a tie with me!"
-    "Otherwise, I am afraid that its color may not like the girlfriend of Mr. Dck!"
+    "Actually, yes. You should buy a tie with me!"
+    "Otherwise, I am afraid that Mr. Dick's girlfriend may not like the color."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:344
 translate english monica_dick_secretary_dialogue2_3ee95d07:
@@ -630,15 +630,15 @@ translate english monica_dick_secretary_dialogue2_5b125dfe:
 translate english monica_dick_secretary_dialogue2_5d3d7911:
 
     # "Знаете, мне надо хорошо выглядеть, а это занимает много времени..."
-    "You know, I have to look good, and it takes a long time..."
+    "You know, I have to look good first, and it takes me a long time to get ready..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:350
 translate english monica_dick_secretary_dialogue2_34d935cc:
 
     # "Вы плохо умеете уговаривать, Миссис Бакфетт!"
     # "У Вас мало практики в этом! Вам надо больше практиковаться!"
-    "You do not know how to persuade, Mrs. Buckfett!"
-    "You have a little practice with this! You should practice more!"
+    "And you're not good at convincing people, Mrs. Buckfett!"
+    "You barely have any experience with doing so! I think you should practice more!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:354
 translate english monica_dick_secretary_dialogue2_36c07bd0:
@@ -647,16 +647,16 @@ translate english monica_dick_secretary_dialogue2_36c07bd0:
     # "Я уже заранее знаю что ей не понравится цвет!"
     # "И если она не пойдет со мной, то Дик обвинит меня в том что мы не поладили!"
     # "Этот тюфяк полностью у нее под каблуком!"
-    mt "She's kidding! That bitch is mocking me!"
-    "I already know in advance she wouldn't like the color!"
-    "And if she doesn't come with me, Dick will blame me for not getting along!"
-    "This mattress is totally under her heel!"
+    mt "She's kidding around! That bitch is mocking me!"
+    "I already know beforehand that she wouldn't like the color, no matter what I choose!"
+    "And if she doesn't come with me, Dick will blame me for not getting along with her!"
+    "That door mat is totally whipped by her!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:364
 translate english monica_dick_secretary_dialogue2_dd4f1d32:
 
     # m "Мисс Виктория... Пожалуйста, составьте мне компанию..."
-    m "Miss Victoria... Please, keep me company..."
+    m "Miss Victoria... Please, come with me..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:366
 translate english monica_dick_secretary_dialogue2_2d314620:
@@ -668,7 +668,7 @@ translate english monica_dick_secretary_dialogue2_2d314620:
 translate english monica_dick_secretary_dialogue2_604669db:
 
     # m "Мисс Виктория... Пожалуйста, я очень прошу Вас составить мне компанию..."
-    m "Miss Victoria... Please, I'm really asking you to keep me company..."
+    m "Miss Victoria... Please, I'm really asking you to do this with me..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:375
 translate english monica_dick_secretary_dialogue2_44fce3e0:
@@ -676,7 +676,7 @@ translate english monica_dick_secretary_dialogue2_44fce3e0:
     # dick_secretary "Ну кто так уговаривает?"
     # "Скажите что я одеваюсь лучше чем Вы и что у меня лучше вкус, на который Вы бы хотели положиться..."
     dick_secretary "Who says like that?"
-    "Say that I dress better than You and that I have better taste, on which You would like to rely..."
+    "Say that I dress better than you. And that I have better taste, which you would like to consult when buying the tie..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:378
 translate english monica_dick_secretary_dialogue2_d43e67c1:
@@ -685,7 +685,7 @@ translate english monica_dick_secretary_dialogue2_d43e67c1:
     # "ОНА ИЗДЕВАЕТСЯ НАДО МНОЙ!!!"
     # "Я НЕНАВИЖУ ЕЕ!!!"
     mt "BITCH!!!"
-    "SHE IS KIDDING ME!!!"
+    "SHE IS MOCKING ME!!!"
     "I HATE HER!!!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:387
@@ -734,7 +734,7 @@ translate english monica_dick_secretary_dialogue2_c9e11ba7_1:
 translate english monica_dick_secretary_dialogue2_67c52bb8:
 
     # "Вы очень хорошо одеваетесь, гораздо лучше чем Я..."
-    "You dress very well, much better than I do..."
+    "Yes, you dress very well, much better than I do..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:403
 translate english monica_dick_secretary_dialogue2_b49e8173:
@@ -754,9 +754,9 @@ translate english monica_dick_secretary_dialogue2_b846ade4:
     # m "Я вижу что у Вас очень хороший вкус и я бы очень попросила Вас составить компанию мне..."
     # "В покупке галстука для Мистера Дика."
     # "Я боюсь что мне может не хватить вкуса и я бы хотела положиться на Ваш вкус и опыт в этом деле..."
-    m "I see That you have very good taste and I would like to ask you to accompany me..."
+    m "I see that you have very good taste and I would like to ask you to accompany me..."
     "In buying a tie for Mr. Dick."
-    "I'm afraid that I may not have enough taste and I would like to rely on your taste and experience in this business..."
+    "I'm afraid that my fashion sense may not be good enough, so I would like to rely on your judgement and experience for this matter..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:411
 translate english monica_dick_secretary_dialogue2_8e63260f:
@@ -773,10 +773,10 @@ translate english monica_dick_secretary_dialogue2_39a035b7:
     # "Я знаю хороший галстук за {b}$ 5.000{/b}."
     # "Так что {b}приготовьте деньги{/b}."
     # "{b}Если у Вас не будет нужной суммы, то, пожалуйста, не беспокойте меня{/b}."
-    dick_secretary "Okay, {b}Friday night, come here {/b}."
+    dick_secretary "Okay, {b}Friday night, be here {/b}."
     "I know a good tie for {b}$ 5,000 {/b}."
     "So {b}prepare the money {/b}."
-    "{b}If You don't have the right amount, please don't bother me{/b}."
+    "{b}If you don't have the right amount, please don't bother me{/b}."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:420
 translate english monica_dick_secretary_dialogue2_a511aa09:
@@ -824,13 +824,13 @@ translate english monica_dick_secretary_dialogue3_c9e11ba7:
 translate english monica_dick_secretary_dialogue3_c80077e2:
 
     # dick_secretary "Вы что-то хотели?"
-    dick_secretary "Is there something you want?"
+    dick_secretary "Do you want something?"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:444
 translate english monica_dick_secretary_dialogue3_537fef9a:
 
     # m "Тот факс... Он все еще у Вас?"
-    m "That fax... Do You still have it?"
+    m "That fax... Do you still have it?"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:446
 translate english monica_dick_secretary_dialogue3_a3acfa73:
@@ -842,7 +842,7 @@ translate english monica_dick_secretary_dialogue3_a3acfa73:
     # "До свидания..."
     # mt "Эта сучка заплатит за все!"
     dick_secretary "Yeah, I'll send it Saturday morning."
-    "Or I won't if we have a good time at {b}Friday{/b}."
+    "Or I won't... If we have a good time on {b}Friday{/b}, that is."
     "Hee-hee!"
     m "Yes, Miss Victoria, of course..."
     "Goodbye..."
@@ -857,8 +857,8 @@ translate english monica_dick_secretary_dialogue4_7296451c:
     # "Для этого есть секретарь."
     dick_secretary "Mrs. Buckfett!"
     "Mr. Dick's not here right now."
-    "And You shouldn't distract him."
-    "There's a Secretary for that."
+    "And you shouldn't distract him."
+    "There's a secretary for that."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:464
 translate english monica_dick_office_dialogue2_eae1459d:
@@ -890,39 +890,39 @@ translate english monica_dick_office_dialogue2_eae1459d:
     # "Я чувствую что могу об этом пожалеть, но у меня нет выбора..."
     mt "Fuck!"
     "I barely got Dick!"
-    "I was on the verge of death or worse!"
+    "I was on the verge of death!"
     "This Victoria!"
     "She's completely taken over Dick!"
     "I'll have to figure something out!"
-    "It's her idea about the tie, I'm sure!"
-    "And I couldn't get out of it and not to buy this tie!"
-    "I won't let it happen again, but right now I need to find {b}somewhere around $ 5,000{/b}!"
-    "Otherwise, the end! I guess it!"
+    "This tie must be her idea, I'm sure of it!"
+    "I couldn't get out of it and avoid having to buy that damn tie!"
+    "I won't let it happen again, but right now I need to find {b},000{/b}!"
+    "Otherwise, it'll be the end, I guess..."
     "Dick wasn't bluffing!"
-    "My fate now really depends on this money!"
+    "My fate really depends on this money now!"
     "..."
-    "But where can I find such a sum?!"
-    "It's gonna take me years to deliver flyers to make that kind of money!"
-    "Not an option!"
-    "I am - Monica Buckfett!"
-    "In order to earn this amount I just need to move my finger!"
-    "It always was!"
+    "But how can I find such a sum?!"
+    "It's gonna take me years of delivering flyers to make that kind of money!"
+    "So that's not an option!"
+    "I am Monica Buckfett!"
+    "Before all of this happened, all I had to do to make such a sum was to move my finger..."
+    "It was always like that!"
     "..."
     "But what now?"
-    "Maybe try talking to that {b}bastard in my office{/b} again?"
-    "From our conversation, it seemed to me that he had some kind of proposal to me!"
-    "Worth a try!"
+    "Maybe I should try talking to that {b}bastard in my office{/b} again?"
+    "From our conversation, it seemed to me that he had some kind of proposal for me!"
+    "It's worth a try!"
     "I feel like I might regret it, but I don't have a choice..."
 
 translate english strings:
 
     # Quests/EP2/ep2_dialogues3.rpy:146
     old "Приставать к Дику."
-    new "To bother Dick."
+    new "Bother Dick."
 
     # Quests/EP2/ep2_dialogues3.rpy:146
     old "Я пока не нашла деньги..."
-    new "I haven't found money yet..."
+    new "I haven't found any money yet..."
 
     # Quests/EP2/ep2_dialogues3.rpy:359
     old "Попросить Викторию вежливо..."
@@ -930,11 +930,11 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues3.rpy:368
     old "Попросить Викторию еще вежливее..."
-    new "Ask Victoria more polite..."
+    new "Ask Victoria more politely..."
 
     # Quests/EP2/ep2_dialogues3.rpy:382
     old "Сделать Виктории комплимент..."
-    new "To make Victoria a compliment..."
+    new "Give Victoria a compliment..."
 
 # TODO: Translation updated at 2018-12-08 17:34
 
@@ -942,7 +942,7 @@ translate english strings:
 translate english monica_dick_office_dialogue1a_1c5e2e8b:
 
     # reception_secretary "Мэм, вы куда?"
-    reception_secretary "MA'am, where are you going?"
+    reception_secretary "Ma'am, where are you going?"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:59
 translate english monica_dick_office_dialogue1a_6cfb7f6b:
@@ -954,7 +954,7 @@ translate english monica_dick_office_dialogue1a_6cfb7f6b:
 translate english monica_dick_office_dialogue1a_0557580c:
 
     # reception_secretary "Мэм, его сегодня нет..."
-    reception_secretary "MA'am, he's not here today..."
+    reception_secretary "Ma'am, he's not here today..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:64
 translate english monica_dick_office_dialogue1a_119feeef:
@@ -973,7 +973,7 @@ translate english monica_dick_office_dialogue1b_1aabf85d:
 
     # mt "Вот черт! Дика нет!"
     # "Надо зайти в другой день..."
-    mt "Oh shit! There is no Dick!"
+    mt "Oh shit! Dick isn't here!"
     "I should come back another day..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:118
@@ -981,7 +981,7 @@ translate english monica_dick_secretary_dialogue1a_e81b8d80:
 
     # m "Мне не нужны такие друзья!"
     # dick_secretary "..." 
-    m "I don't need friends like that!"
+    m "I don't need friends like you!"
     dick_secretary "..." 
 
 # game/Quests/EP2/ep2_dialogues3.rpy:129
@@ -1024,13 +1024,13 @@ translate english monica_dick_dialogue1_local1_f782ea5e:
 translate english monica_dick_dialogue1_local1_b954613b:
 
     # "Я пока не нашла деньги на..."
-    "I haven't found the money yet..."
+    "I haven't got the money yet..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:255
 translate english monica_dick_dialogue1_local1_409f6450:
 
     # "Я пока не нашла деньги на твой галстук..."
-    "I haven't found the money for your tie yet..."
+    "I haven't got the money for your tie yet..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:258
 translate english monica_dick_dialogue1_local1_2fdc9f98:
@@ -1065,8 +1065,8 @@ translate english monica_dick_dialogue1_local1_e928c19e:
 
     # "В общем Моника. Я позвал тебя чтобы сообщить..."
     # "Я не хочу больше заниматься твоим делом."
-    "In general, Monica. I called you here to tell you..."
-    "I don't want to do your business anymore."
+    "In fact, Monica. I called you here to tell you something else to..."
+    "I don't want to take care of your case anymore."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:288
 translate english monica_dick_dialogue1_local1_359aeee3:
@@ -1074,7 +1074,7 @@ translate english monica_dick_dialogue1_local1_359aeee3:
     # m "Дик... Я...."
     # "Я пока не нашла деньги на..."
     m "Dick... I am..."
-    "I haven't found the money yet..."
+    "I haven't got the money yet..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:292
 translate english monica_dick_dialogue1_local1_d18f6e2d:
@@ -1097,8 +1097,8 @@ translate english monica_dick_dialogue1_local1_e928c19e_1:
 
     # "В общем Моника. Я позвал тебя чтобы сообщить..."
     # "Я не хочу больше заниматься твоим делом."
-    "In general, Monica. I called you here to tell you..."
-    "I don't want to do your business anymore."
+    "In fact, Monica. I called you here to tell you something else to..."
+    "I don't want to take care of your case anymore."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:305
 translate english monica_dick_dialogue1_local1_12bd232e:
@@ -1106,9 +1106,9 @@ translate english monica_dick_dialogue1_local1_12bd232e:
     # m "КАК?!?!"
     # dick "У тебя есть другие друзья. Тот же Маркус."
     # "Общайся с ними. А у меня есть свои друзья, которые думают обо мне!"
-    m "How?!?!"
-    dick "You have other friends.Marcus for example."
-    "Communicate with them. And I have friends who think of me!"
+    m "Why?!?!"
+    dick "You have other friends. Marcus for example."
+    "Talk to them. I have friends who care for me!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:310
 translate english monica_dick_dialogue1_local1_5e17e74e:
@@ -1133,7 +1133,7 @@ translate english monica_dick_dialogue1_local1_355dc4cc:
     # "Это твои связи и твои проблемы."
     # "Причем тут я?!"
     dick "Monica, I don't care who he is!"
-    "It's your connections and your problems."
+    "That's your connections and your problems."
     "What about me?!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:324
@@ -1143,10 +1143,10 @@ translate english monica_dick_dialogue1_local1_8f3e882a:
     # "Я НЕ ОЖИДАЛА ТАКОГО ПОВОРОТА!!!"
     # "МНЕ НАДО КАК-ТО ПЕРЕУБЕДИТЬ ЕГО!!!"
     # "ИНАЧЕ КОНЕЦ!!!"
-    mt "Oh my God!!! HOW IS IT!?!?"
-    "I DIDN'T EXPECT THIS TURN!!!"
-    "I NEED TO CONVINCE HIM!!!"
-    "OTHERWISE, THE END!!!"
+    mt "Oh my God!!!"
+    "I DIDN'T EXPECT THIS!!!"
+    "I NEED TO CONVINCE HIM TO NOT DO THIS!!!"
+    "OTHERWISE, IT'S THE END!!!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:332
 translate english monica_dick_dialogue1_local1_2d002724:
@@ -1172,9 +1172,9 @@ translate english monica_dick_dialogue1_local1_a1b053fa:
     # m "Я... могу дружить и с твоим другом тоже..."
     # "Дик!"
     # "Я могу быть вместе с Вами!"
-    m "I am... I can be friends with your friend, too..."
+    m "I... I can be friends with your friend, too..."
     "Dick!"
-    "I can be together with you!"
+    "I can be with you together!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:346
 translate english monica_dick_dialogue1_local1_9dc6116f:
@@ -1186,15 +1186,15 @@ translate english monica_dick_dialogue1_local1_9dc6116f:
 translate english monica_dick_dialogue1_local1_28f0bc6e:
 
     # m "Я?? С ней??"
-    m "Me?? With her??"
+    m "Me?? Get along with her??"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:352
 translate english monica_dick_dialogue1_local1_acf13872:
 
     # "Конечно, Дик!"
     # "Конечно! Я с радостью полажу с ней!"
-    "Sure, Dick!"
-    "Of course! I'm happy to get along with her!"
+    "Of course, Dick!"
+    "I'm happy to get along with her!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:356
 translate english monica_dick_dialogue1_local1_8884b8ab:
@@ -1202,9 +1202,9 @@ translate english monica_dick_dialogue1_local1_8884b8ab:
     # dick "Хм..."
     # "Моника... Я не знаю..."
     # "Я сомневаюсь..."
-    dick "Hmm ..."
-    "Monica... I do not know..."
-    "I doubt..."
+    dick "Hmm..."
+    "I don't know, Monica..."
+    "I have my doubts..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:361
 translate english monica_dick_dialogue1_local1_6583b402:
@@ -1212,13 +1212,13 @@ translate english monica_dick_dialogue1_local1_6583b402:
     # m "Дорогой! Пожалуйста, не сомневайся во мне!"
     # "Пожалуйста, дай мне шанс! Я не разочарую тебя!"
     m "Dear! Please don't doubt me!"
-    "Please give me a chance! I won't disappoint you!"
+    "Give me a chance! I won't disappoint you!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:365
 translate english monica_dick_dialogue1_local1_333f3d1a:
 
     # dick "Твое дело занимает слишком много сил, а ты..."
-    dick "Your case takes too much strength, and you..."
+    dick "Your case takes so much strength, and you..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:368
 translate english monica_dick_dialogue1_local1_5db59aea:
@@ -1247,8 +1247,8 @@ translate english monica_dick_dialogue1_local1_2dd02d49:
 
     # "Моника! А почему бы Вам вместе с ней не купить мне галстук?"
     # "Вы хотите подружиться! Это будет прекрасный повод!"
-    "Monica! Why don't you buy me a tie with her?"
-    "You want to make friends! It will be a wonderful occasion!"
+    "Monica! Why don't you go with her to buy me a tie?"
+    "You said wanted to be friends with her! It would be a wonderful occasion!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:383
 translate english monica_dick_dialogue1_local1_099ae1fa:
@@ -1259,28 +1259,28 @@ translate english monica_dick_dialogue1_local1_099ae1fa:
     # dick "Хм... Возможно Виктория еще не успела отослать факс об отмене дела..."
     m "Yes, dear..."
     "I'm so excited..."
-    "Just please don't give up my case, Dick..."
-    dick "Um... Perhaps Victoria has not had time to send a fax about the cancellation of the case..."
+    "Just please don't give up on my case, Dick..."
+    dick "Um... Perhaps Victoria hasn't had time to send that fax about the cancellation of your case yet..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:390
 translate english monica_dick_dialogue1_local1_bf657e77:
 
     # dick "В общем Моника, я жду того что Вы {b}подружитесь с Викторией до конца недели{/b}."
     # dick "Я даю тебе шанс, Моника."
-    dick "Anyway, Monica, I expect you to be {b}friends with Victoria by the end of the week{/b}."
+    dick "Anyway, Monica, I expect you to be {b}friends with Victoria by the end of this week{/b}."
     dick "I'm giving you a chance, Monica."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:393
 translate english monica_dick_dialogue1_local1_fdf4f1ae:
 
     # "{b}В пятницу вечером галстук должен быть на мне!{/b}"
-    "{b}Friday night, I should be wearing a tie!{/b}"
+    "{b}By Friday night, I should be wearing a new tie!{/b}"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:395
 translate english monica_dick_dialogue1_local1_00e5f169:
 
     # "{b}В следующую пятницу вечером галстук должен быть на мне!{/b}"
-    "{b}В следующую пятницу вечером галстук должен быть на мне!{/b}"
+    "{b}Next Friday evening, the tie should be on me!{/b}"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:397
 translate english monica_dick_dialogue1_local1_df96b777:
@@ -1324,13 +1324,13 @@ translate english monica_dick_secretary_dialogue2_e2bec9da:
 translate english monica_dick_secretary_dialogue2_40414ea3:
 
     # dick_secretary "Хорошо, {b}в пятницу вечером приходите сюда{/b}."
-    dick_secretary "Okay, {b}Friday night, come here {/b}."
+    dick_secretary "Okay, {b}Friday night, be here {/b}."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:545
 translate english monica_dick_secretary_dialogue2_ec61311b:
 
     # dick_secretary "Хорошо, {b}в следующую пятницу вечером приходите сюда{/b}."
-    dick_secretary "Хорошо, {b}в следующую пятницу вечером приходите сюда{/b}."
+    dick_secretary "Well, {b}next Friday evening, come here{/b}."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:546
 translate english monica_dick_secretary_dialogue2_d027e8ed:
@@ -1340,7 +1340,7 @@ translate english monica_dick_secretary_dialogue2_d027e8ed:
     # "{b}Если у Вас не будет нужной суммы, то, пожалуйста, не беспокойте меня{/b}."
     "I know a good tie for {b}$ 5,000 {/b}."
     "So {b}prepare the money {/b}."
-    "{b}If You don't have the right amount, please don't bother me{/b}."
+    "{b}If you don't have the right amount, please don't bother me{/b}."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:558
 translate english monica_dick_secretary_dialogue2_d8213a8d:
@@ -1364,13 +1364,13 @@ translate english monica_dick_secretary_dialogue3_5166c006:
 translate english monica_dick_secretary_dialogue3_20308857:
 
     # "Либо не отправлю, если мы проведем хорошо время в {b}пятницу{/b}."
-    "Or I won't if we have a good time at {b}Friday{/b}."
+    "Or I won't... If we have a good time on {b}Friday{/b}, that is."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:586
 translate english monica_dick_secretary_dialogue3_596dc1bc:
 
     # "Либо не отправлю, если мы проведем хорошо время в следующую {b}пятницу{/b}."
-    "Либо не отправлю, если мы проведем хорошо время в следующую {b}пятницу{/b}."
+    "Or I'll not send it if we have a good time next {b}Friday{/b}."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:587
 translate english monica_dick_secretary_dialogue3_5da2dfc9:
@@ -1394,7 +1394,7 @@ translate english monica_dick_secretary_dialogue4a_060a1c80:
 translate english monica_dick_office_refuse_dialogue1_dc7749f6:
 
     # mt "Без денег мне там нечего делать."
-    mt "Без денег мне там нечего делать."
+    mt "Without money, I have nothing to do there."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:618
 translate english monica_dick_office_dialogue2_3afdb398:
@@ -1415,26 +1415,26 @@ translate english monica_dick_office_dialogue2_3afdb398:
     # "Но где мне найти такую сумму?!"
     mt "Fuck!"
     "I barely got Dick!"
-    "I was on the verge of death or worse!"
+    "I was on the verge of death!"
     "This Victoria!"
     "She's completely taken over Dick!"
     "I'll have to figure something out!"
-    "It's her idea about the tie, I'm sure!"
-    "And I couldn't get out of it and not to buy this tie!"
-    "I won't let it happen again, but right now I need to find {b}somewhere around $ 5,000{/b}!"
-    "Otherwise, the end! I guess it!"
+    "This tie must be her idea, I'm sure of it!"
+    "I couldn't get out of it and avoid having to buy that damn tie!"
+    "I won't let it happen again, but right now I need to find {b},000{/b}!"
+    "Otherwise, it'll be the end, I guess..."
     "Dick wasn't bluffing!"
-    "My fate now really depends on this money!"
+    "My fate really depends on this money now!"
     "..."
-    "But where can I find such a sum?!"
+    "But how can I find such a sum?!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:636
 translate english monica_dick_office_dialogue2_00dd91cf:
 
     # "Мне понадобится разносить флаеры несколько лет, чтобы заработать такие деньги!"
     # "Это не вариант!"
-    "It's gonna take me years to deliver flyers to make that kind of money!"
-    "Not an option!"
+    "It's gonna take me years of delivering flyers to make that kind of money!"
+    "So that's not an option!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:640
 translate english monica_dick_office_dialogue2_fd095fe1:
@@ -1448,14 +1448,14 @@ translate english monica_dick_office_dialogue2_fd095fe1:
     # "Из нашего разговора мне показалось что у него есть какое-то предложение ко мне!"
     # "Стоит попробовать!"
     # "Я чувствую что могу об этом пожалеть, но у меня нет выбора..."
-    "I am - Monica Buckfett!"
-    "In order to earn this amount I just need to move my finger!"
-    "It always was!"
+    "I am Monica Buckfett!"
+    "Before all of this happened, all I had to do to make such a sum was to move my finger..."
+    "It was always like that!"
     "..."
     "But what now?"
-    "Maybe try talking to that {b}bastard in my office{/b} again?"
-    "From our conversation, it seemed to me that he had some kind of proposal to me!"
-    "Worth a try!"
+    "Maybe I should try talking to that {b}bastard in my office{/b} again?"
+    "From our conversation, it seemed to me that he had some kind of proposal for me!"
+    "It's worth a try!"
     "I feel like I might regret it, but I don't have a choice..."
 
 translate english strings:

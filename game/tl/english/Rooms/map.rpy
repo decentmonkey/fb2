@@ -4,7 +4,7 @@
 translate english map_environment_0135dace:
 
     # m "Я что, ненормальная идти пешком по дороге?"
-    m "Am I crazy to walk down the road?"
+    m "Am I crazy to walk down this road?"
 
 # game/Rooms/map.rpy:98
 translate english map_environment_86070bc3:

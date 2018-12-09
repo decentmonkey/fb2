@@ -4,5 +4,5 @@
 translate english Ralph_Life_Ask_About_Payment_af85dfb5:
 
     # mt "Надо узнать у Ральфа по поводу моей оплаты."
-    mt "I need to check with Ralph about my payment."
+    mt "I need to speak with Ralph about my payment."
 

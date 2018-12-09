@@ -25,8 +25,8 @@ translate english bedroom2_environment_42fcf75b:
 
     # mt "Масляная живопись."
     # "Так и висит..."
-    mt "masle!"
-    "It is still hanging..."
+    mt "Masle!"
+    "It's still hanging..."
 
 # game/Rooms/House/Bedroom/bedroom2.rpy:60
 translate english bedroom2_environment_66308f7d:
@@ -35,7 +35,7 @@ translate english bedroom2_environment_66308f7d:
     # "Сейчас там висят тряпки ненавистной Бетти!"
     # "НЕНАВИЖУ!!!"
     mt "My favorite closet..."
-    "Now there are fuckin Betty's rags!"
+    "Now there's just Betty's fucking rags!"
     "HATE!!!"
 
 translate english strings:
@@ -52,7 +52,7 @@ translate english bedroom2_environment_2b30eee2:
     # mt "А теперь на моей кровати лежит эта жирная корова!"
     # "А я вынуждена смотреть на это и выполнять все ее капризы!"
     # "(хмык)"
-    mt "А теперь на моей кровати лежит эта жирная корова!"
-    "А я вынуждена смотреть на это и выполнять все ее капризы!"
+    mt "And now this fat cow lying on my bed!"
+    "And I have to look at it and fulfill all her whims!"
     "(sob)"
 

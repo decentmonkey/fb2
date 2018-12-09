@@ -12,7 +12,7 @@ translate english kebab_work_block_teleports_69d82d22:
     # mt "Я не пойду в эту вонючую подворотню!"
     # "Что там забыла такая девушка как Я!??"
     mt "I'm not going to that stinking alley!"
-    "There is nothing to do there for such girl as I am!!"
+    "There is nothing to do there for a girl like me!!"
 
 translate english strings:
 

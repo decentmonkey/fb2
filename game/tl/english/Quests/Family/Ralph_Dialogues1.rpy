@@ -60,7 +60,7 @@ translate english ralphDialogue2_21b7df00:
     # m "Мистер Робертс. Мне Ваша супруга только что сказала что я слишком дорого для Вас стою."
     # "И что у меня зарплата $90 в час..."
     m "Mr. Roberts. Your wife has just told me I'm too expensive for you."
-    "And that my salary is $ 90 an hour..."
+    "And that my salary is  an hour..."
 
 # game/Quests/Family/Ralph_Dialogues1.rpy:49
 translate english ralphDialogue2_3e4f1b21:
@@ -69,7 +69,7 @@ translate english ralphDialogue2_3e4f1b21:
     # "Хм..."
     # "И что ты хочешь узнать?"
     ralph "..."
-    "Hmm ..."
+    "Hmm..."
     "What do you want to know?"
 
 # game/Quests/Family/Ralph_Dialogues1.rpy:55
@@ -131,8 +131,8 @@ translate english ralphDialogue2_2886d472:
     "Especially since Betty spends almost all of our money on herself."
     "So the fact that she works and benefits - was fine for me."
     "Fred offered me an idea..."
-    "Anyway, I told Betty I'd be paying you an hour."
-    "To keep some money for me."
+    "Anyway, I told Betty I'd be paying you per hour."
+    "To keep some money for myself."
 
 # game/Quests/Family/Ralph_Dialogues1.rpy:82
 translate english ralphDialogue2_0f8644d4:
@@ -148,7 +148,7 @@ translate english ralphDialogue2_34de61fc:
     # mt "О! Я понимаю!"
     # "Я понимаю, склизкий червяк!"
     mt "Oh! I understand!"
-    "I understand, slimy worm!"
+    "I understand, you slimy worm!"
 
 # game/Quests/Family/Ralph_Dialogues1.rpy:92
 translate english ralphDialogue2_ef211ac0:
@@ -172,7 +172,7 @@ translate english ralphDialogue2_95b1e6c1:
     # "Хочешь я прямо сейчас скажу Бетти что ты уходишь?"
     ralph "To be honest, I'm a little afraid of this adventure myself."
     "So if you don't want to, you don't have to work."
-    "You want me to tell Betty right now that you're leaving?"
+    "Do you want me to tell Betty right away that you're leaving?"
 
 # game/Quests/Family/Ralph_Dialogues1.rpy:105
 translate english ralphDialogue2_8c2bad97:

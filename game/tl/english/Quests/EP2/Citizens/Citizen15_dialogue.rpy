@@ -10,7 +10,7 @@ translate english citizen15_dialogue_b8f1bd99:
 translate english citizen15_dialogue_94f4dc6e:
 
     # citizen15 "Я важная персона! Ты отвлекаешь меня!"
-    citizen15 "I'm an important person! You distract me!"
+    citizen15 "I'm an important person! You're distracting me!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:11
 translate english citizen15_dialogue_loop1_0c6511a1:
@@ -22,7 +22,7 @@ translate english citizen15_dialogue_loop1_0c6511a1:
 translate english citizen15_dialogue_loop1_05979ea1:
 
     # m "Возьмите, пожалуйста, этот флаер..."
-    m "Please take this flyer..."
+    m "Please, take this flyer..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:18
 translate english citizen15_dialogue_b57d7b0b:
@@ -45,7 +45,7 @@ translate english citizen15_dialogue_loop1_4dded6da:
     # "Продолжай подкатывать ко мне! Мне нравится!"
     citizen15 "What's next?"
     m "What do you mean?"
-    citizen15 "I'm the important person! All the girls love me!"
+    citizen15 "I'm an important person! All the girls love me!"
     "Keep flirting with me! I love it!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:30

@@ -35,7 +35,7 @@ translate english monica_shawarma_dialogue1_caf2fc19:
     # shawarma "О Вашем платье, Мадаме!"
     # "Вам оно шло гораздо больше, Мадаме!"
     # "Все женщины, в погоне за красотой, в конце концов теряют её!"
-    m "What about?!" 
+    m "For what?!" 
     shawarma "Your dress, Madam!"
     "It was much better for you, Madam!"
     "All women, in pursuit of beauty, eventually lose it!"
@@ -57,14 +57,14 @@ translate english monica_shawarma_dialogue1_7a3666af:
 
     # m "Какой еще утренний цветок?"
     # m "Слушай... У меня к тебе вопрос..."
-    m "What morning flower?"
+    m "A morning flower?"
     m "Listen...... I have a question for you..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:32
 translate english monica_shawarma_dialogue1_bbbecf64:
 
     # shawarma "Да, Мадаме! Я слушаю Вас!"
-    shawarma "Yes, Madam! I'm listening!"
+    shawarma "Yes, Madam! Go ahead, I'm listening!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:34
 translate english monica_shawarma_dialogue1_5d024480:
@@ -82,13 +82,13 @@ translate english monica_shawarma_dialogue1_b1152add:
 translate english monica_shawarma_dialogue1_9cc4af42:
 
     # mt "Что за утренний цветок!? Этот идиот несет какую-то чушь..."
-    mt "What a morning flower!? This idiot's talking nonsense..."
+    mt "What does he mean by that?! Morning flower? This idiot is talking nonsense..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:42
 translate english monica_shawarma_dialogue1_b15843b7:
 
     # m "Ты говорил что у тебя вкусный кебаб?"
-    m "Did you say you have a delicious kebab?"
+    m "Did you say you have delicious kebab?"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:44
 translate english monica_shawarma_dialogue1_07b93442:
@@ -100,13 +100,13 @@ translate english monica_shawarma_dialogue1_07b93442:
 translate english monica_shawarma_dialogue1_c57771b2:
 
     # shawarma "Да, Мадаме! Самый вкусный кебаб в округе, Мадаме!"
-    shawarma "Yes, Madam! The most delicious kebab in the area, Madam!"
+    shawarma "Yes, Madam! I have the most delicious kebab in the area!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:48
 translate english monica_shawarma_dialogue1_72f52965:
 
     # m "И ты дашь его попробовать такой красивой девушке как Я?"
-    m "And you're gonna give it to a pretty girl like me?"
+    m "Good. And surely you're gonna give it to a pretty girl like me, right?"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:50
 translate english monica_shawarma_dialogue1_ee911212:
@@ -142,7 +142,7 @@ translate english monica_shawarma_dialogue1_b9608652:
 translate english monica_shawarma_dialogue1_a0ba36e2:
 
     # m "ЧТО Я ПРЕДЛОЖИЛА?!"
-    m "WHAT I SUGGESTED?!"
+    m "I SUGGESTED WHAT?!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:63
 translate english monica_shawarma_dialogue1_fc21055c:
@@ -156,25 +156,25 @@ translate english monica_shawarma_dialogue1_fc21055c:
 translate english monica_shawarma_dialogue1_6a85058e:
 
     # shawarma "Хорошо, Мадаме! Только для Вас самый вкусный кебаб за $ 1! Мадаме!"
-    shawarma "Okay, Madam! Only for you the most delicious kebab for $ 1! Madam!"
+    shawarma "Okay, Madam! Only for you the most delicious kebab for Okay, Madam! Only for you the most delicious kebab for $ 1! Madam!! Madam!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:73
 translate english monica_shawarma_dialogue1_b95b69e5:
 
     # mt "Черт! У меня нет этого гребаного доллара!!!"
-    mt "Fuck! I don't have a fucking dollar!!!"
+    mt "Fuck! I don't have even have one fucking dollar!!!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:75
 translate english monica_shawarma_dialogue1_3fe4c2df:
 
     # m "Можешь дать мне его просто так?"
-    m "Can you just give it to me?"
+    m "Can't you just give it to me?"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:77
 translate english monica_shawarma_dialogue1_7db9d8a8:
 
     # shawarma "Нет, Мадаме! Только за $ 1, Мадаме!"
-    shawarma "No, Madam! Only for $ 1, Madam!"
+    shawarma "No, Madam! Only for No, Madam! Only for $ 1, Madam!!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:79
 translate english monica_shawarma_dialogue1_349d457d:
@@ -187,14 +187,14 @@ translate english monica_shawarma_dialogue1_069451ee:
 
     # shawarma "Конечно есть, Мадаме!"
     # "Если такой красивый женщин, как Вы, {b}расскажет всем вокруг про мой самый вкусный кебаб{/b}, то кебаб сам будет Вас искать!"
-    shawarma "Of course, there is, Madam!"
-    "If such a beautiful woman like you {b}tells everyone around about my most delicious kebab {/b}, the kebab will be looking for you!"
+    shawarma "Of course there is, Madam!"
+    "If such a beautiful woman like you {b}tells everyone around about my most delicious kebab {/b}, the kebab will be waiting for you!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:84
 translate english monica_shawarma_dialogue1_e85bead3:
 
     # "Он уже ждет, он хочет чтобы Вы всем рассказали про него!"
-    "He's waiting, he wants you to tell everyone about him!"
+    "He wants you to tell everyone about him!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:86
 translate english monica_shawarma_dialogue1_bec92266:
@@ -207,8 +207,8 @@ translate english monica_shawarma_dialogue1_9aa04107:
 
     # shawarma "Да, Мадаме! Вы разносить всем красивый флаер с рекламой самого вкусного кебаба!"
     # "Если Вы разнести все флаер, то вкусный кебаб ждать Вас!"
-    shawarma "Yes, Madam! To deliver a beautiful flyer advertising the most delicious kebab!"
-    "If You post all flyers, delicious kebabs will wait for You."
+    shawarma "Yes, Madam! I want you to deliver a beautiful flyer advertising the most delicious kebab!"
+    "If you hand out all flyers, delicious kebabs will await you."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:91
 translate english monica_shawarma_dialogue1_95c500ca:
@@ -234,13 +234,13 @@ translate english monica_shawarma_dialogue1_d1c0ae85:
 translate english monica_shawarma_dialogue1_2ed92da4:
 
     # mt "О БОЖЕ! Что мне только ни приходится делать чтобы хоть что-то поесть!"
-    mt "Oh my God! What I have to do to get something to eat!"
+    mt "Oh my God! The things I have to do to get something to eat..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:104
 translate english monica_shawarma_dialogue1_fd3290b0:
 
     # "Надеюсь я скоро решу это небольшое недоразумение и забуду это как кошмарный сон!"
-    "I hope I will soon solve this little misunderstanding and forget it as a nightmare!"
+    "I hope I will solve this little misunderstanding soon, and forget it all as a nightmare!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:106
 translate english monica_shawarma_dialogue1_c506941a:
@@ -259,21 +259,21 @@ translate english monica_shawarma_dialogue1_bbb1603d:
 
     # m "ЧТО..."
     # "ЧТО ЭТО ЗА ХРЕНЬ!?!?!?"
-    m "THAT..."
+    m "WHAT..."
     "WHAT THE HELL IS THAT!?!?!?"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:120
 translate english monica_shawarma_dialogue1_ba48465d:
 
     # "ЧТО ТЫ НАЦЕПИЛ НА МЕНЯ?!"
-    "WHAT YOU PUT ON ME?!"
+    "WHAT HAVE YOU PUT ON ME?!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:125
 translate english monica_shawarma_dialogue1_3d438dbd:
 
     # shawarma "Это условие работа!"
     # "Нет реклама, нет вкусный кебаб!"
-    shawarma "This condition work!"
+    shawarma "This is a work condition!"
     "No advertising, no delicious kebab!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:132
@@ -293,7 +293,7 @@ translate english monica_shawarma_dialogue1_30cbf8b0:
     # "Я быстро раздам эти долбаные флаеры и забуду этот кошмар!"
     mt "He will pay for this!"
     "..."
-    "But at least for sure, no one will recognize me!"
+    "But at least no one will recognize me now, that's for sure!"
     "I'm gonna hand out these fucking flyers and forget this nightmare!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:141
@@ -312,7 +312,7 @@ translate english monica_shawarma_dialogue1_8e0d7ead:
 translate english monica_shawarma_dialogue2_debfd935:
 
     # shawarma "Мадаме! Я знаю! Вы пришли за вкусный кебаб!"
-    shawarma "Madam! I know! You've come for a delicious kebab!"
+    shawarma "Madam! I know! You've come for my delicious kebab!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:160
 translate english monica_shawarma_dialogue2_85adcca4:
@@ -326,13 +326,13 @@ translate english monica_shawarma_dialogue2_a46ad354:
     # shawarma "Пожалуйста, Мадаме!"
     # "Самый вкусный кебаб в округе!"
     shawarma "Please, Madam!"
-    "The most delicious kebab in the area!"
+    "This is the most delicious kebab in the area!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:169
 translate english monica_shawarma_dialogue2_f0e9d431:
 
     # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
-    mt "Disgusting food... But at least I don't want to eat anymore... Bye..."
+    mt "Disgusting food... But at least I'm not hungry anymore... Bye..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:173
 translate english monica_shawarma_dialogue2_16bc3a36:
@@ -360,7 +360,7 @@ translate english monica_shawarma_dialogue2_43517a57:
 translate english monica_shawarma_dialogue2_5c27082c:
 
     # mt "Черт! Сколько же мне еще придется позориться?"
-    mt "Fuck! How long do I have to embarrass myself?"
+    mt "Fuck! How long do I have to embarrass myself for?"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:198
 translate english monica_shawarma_dialogue2a_85adcca4:
@@ -374,19 +374,19 @@ translate english monica_shawarma_dialogue2a_a46ad354:
     # shawarma "Пожалуйста, Мадаме!"
     # "Самый вкусный кебаб в округе!"
     shawarma "Please, Madam!"
-    "The most delicious kebab in the area!"
+    "This is the most delicious kebab in the area!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:208
 translate english monica_shawarma_dialogue2a_f0e9d431:
 
     # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
-    mt "Disgusting food... But at least I don't want to eat anymore... Bye..."
+    mt "Disgusting food... But at least I'm not hungry anymore... Bye..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:215
 translate english monica_shawarma_dialogue2a_debfd935:
 
     # shawarma "Мадаме! Я знаю! Вы пришли за вкусный кебаб!"
-    shawarma "Madam! I know! You've come for a delicious kebab!"
+    shawarma "Madam! I know! You've come for my delicious kebab!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:217
 translate english monica_shawarma_dialogue2a_04644164:
@@ -408,13 +408,13 @@ translate english monica_shawarma_dialogue2a_a46ad354_1:
     # shawarma "Пожалуйста, Мадаме!"
     # "Самый вкусный кебаб в округе!"
     shawarma "Please, Madam!"
-    "The most delicious kebab in the area!"
+    "This is the most delicious kebab in the area!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:230
 translate english monica_shawarma_dialogue2a_f0e9d431_1:
 
     # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
-    mt "Disgusting food... But at least I don't want to eat anymore... Bye..."
+    mt "Disgusting food... But at least I'm not hungry anymore... Bye..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:240
 translate english monica_shawarma_dialogue3_5a9b0055:
@@ -432,7 +432,7 @@ translate english monica_shawarma_dialogue3_18e6a0ae:
 translate english monica_shawarma_dialogue3_f0e9d431:
 
     # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
-    mt "Disgusting food... But at least I don't want to eat anymore... Bye..."
+    mt "Disgusting food... But at least I'm not hungry anymore... Bye..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:258
 translate english monica_shawarma_dialogue3_fe7c2047:
@@ -453,9 +453,9 @@ translate english monica_shawarma_dialogue3_a1db368c:
     # m "Его что, кто-то ел?!?!"
     # shawarma "Нет, мадаме! Это половина кебаб. Он такой родился на свет!"
     # mt "Что-то я сомневаюсь... Но у меня нет выбора..."
-    "I have a half of kebab! Not the whole work, not the whole kebab!"
+    "I have a half of a kebab! Not the whole work, not the whole kebab!"
     m "Has someone eaten it?!?!"
-    shawarma "No, Madam! It's half kebab. He was born in such a shape!"
+    shawarma "No, Madam! It's half of a kebab. He was born in such a shape!"
     mt "Something I doubt... But I don't have a choice..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:270
@@ -468,7 +468,7 @@ translate english monica_shawarma_dialogue3_48aa8d00:
 translate english monica_shawarma_dialogue3_f0e9d431_1:
 
     # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
-    mt "Disgusting food... But at least I don't want to eat anymore... Bye..."
+    mt "Disgusting food... But at least I'm not hungry anymore... Bye..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:281
 translate english monica_shawarma_dialogue3_8ab1c296:
@@ -499,16 +499,16 @@ translate english monica_shawarma_dialogue5_50a39a46:
 
     # mt "Я не собираюсь ходить по приличным улицам в таком виде!"
     # "Мне лучше ходить по этому району, где я в таком виде не слишком выделяюсь на фоне окружающих."
-    mt "I'm not going to walk the streets looking like that!"
-    "I'd better go to this area, where I can not stand out from others."
+    mt "I'm not going to walk the streets looking like this!"
+    "I better go to this area, where I won't stand out from others."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:305
 translate english monica_shawarma_dialogue6_bd7d8acb:
 
     # mt "Возможно здесь я найду кого-то кому можно раздать эти дурацкие флаеры..."
     # "Главное не подходить к тому хостелу..."
-    mt "Maybe here I'll find someone to hand out these stupid flyers to..."
-    "The main thing is not to approach the hostel..."
+    mt "Maybe I'll find someone here to hand out these stupid flyers to as well..."
+    "The main thing is to no approach the hostel..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:310
 translate english monica_shawarma_dialogue7_57bdab85:
@@ -520,7 +520,7 @@ translate english monica_shawarma_dialogue7_57bdab85:
     mt "What a filthy, smelly neighborhood..."
     "The same inhabitants here..."
     "But I have to hand out these flyers and get out of here!"
-    "A girl like me doesn't fit in a place like this!"
+    "A girl like me doesn't belong in a place like this!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:318
 translate english monica_shawarma_dialogue8_02873c92:
@@ -528,13 +528,13 @@ translate english monica_shawarma_dialogue8_02873c92:
     # mt "Грязная подворотня."
     # "Там дальше есть улица, может быть попробовать поискать там кого-то, чтобы раздать эти дурацки флаеры?"
     mt "A dirty alley."
-    "There's a street down there, maybe try looking for someone to hand out these stupid flyers?"
+    "There's a street down there, maybe I should try looking for someone there to hand out these stupid flyers to."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:323
 translate english monica_shawarma_dialogue9_6ac2272d:
 
     # mt "Этот место не совсем уж грязное, но жители здесь не лучше..."
-    mt "This place isn't exactly dirty, but the people here are not better..."
+    mt "This place isn't exactly dirty, but the people here aren't any better..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:328
 translate english monica_shawarma_dialogue10_f7f02719:
@@ -554,7 +554,7 @@ translate english monica_shawarma_dialogue11_9630037f:
     # mt "О БОЖЕ!"
     mt "Oh my God!"
     mt "What a horror."
-    "Monica! How did you end up to be wearing IT!!!"
+    "Monica! How did you end up wearing THIS!!!"
     "And deliver flyers for food!!!"
     mt "Oh my God!"
 
@@ -570,7 +570,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues2.rpy:157
     old "Купить кебаб за $ 1"
-    new "Buy kebab for $ 1"
+    new "Buy the kebab for $1"
 
     # Quests/EP2/ep2_dialogues2.rpy:157
     old "Разносить флаеры."
@@ -594,7 +594,7 @@ translate english monica_shawarma_dialogue0a_8727578b:
 translate english monica_shawarma_dialogue2_6ef85f2c:
 
     # mt "У меня нет этого гребаного доллара!"
-    mt "У меня нет этого гребаного доллара!"
+    mt "I don't have that damn dollar!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:212
 translate english monica_shawarma_dialogue2_eef02ec9:
@@ -606,7 +606,7 @@ translate english monica_shawarma_dialogue2_eef02ec9:
 translate english monica_shawarma_dialogue2_2f17e599:
 
     # "Самый вкусный кебаб в округе!"
-    "The most delicious kebab in the area!"
+    "This is the most delicious kebab in the area!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:233
 translate english monica_shawarma_dialogue2_b6008e7f:
@@ -636,7 +636,7 @@ translate english monica_shawarma_dialogue2_8e0d7ead:
 translate english monica_shawarma_dialogue2a_6ef85f2c:
 
     # mt "У меня нет этого гребаного доллара!"
-    mt "У меня нет этого гребаного доллара!"
+    mt "I don't have that damn dollar!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:280
 translate english monica_shawarma_dialogue2a_eef02ec9:
@@ -648,7 +648,7 @@ translate english monica_shawarma_dialogue2a_eef02ec9:
 translate english monica_shawarma_dialogue2a_2f17e599:
 
     # "Самый вкусный кебаб в округе!"
-    "The most delicious kebab in the area!"
+    "This is the most delicious kebab in the area!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:309
 translate english monica_shawarma_dialogue2a_eef02ec9_1:
@@ -660,7 +660,7 @@ translate english monica_shawarma_dialogue2a_eef02ec9_1:
 translate english monica_shawarma_dialogue2a_2f17e599_1:
 
     # "Самый вкусный кебаб в округе!"
-    "The most delicious kebab in the area!"
+    "This is the most delicious kebab in the area!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:329
 translate english monica_shawarma_dialogue3a_6b64dc9c:
@@ -684,7 +684,7 @@ translate english monica_shawarma_dialogue3_food_18e6a0ae:
 translate english monica_shawarma_dialogue3_food_f0e9d431:
 
     # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
-    mt "Disgusting food... But at least I don't want to eat anymore... Bye..."
+    mt "Disgusting food... But at least I'm not hungry anymore... Bye..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:366
 translate english monica_shawarma_dialogue3_end_half_food_fe7c2047:
@@ -704,9 +704,9 @@ translate english monica_shawarma_dialogue3_end_half_food_421c68a8:
     # "У меня есть половина кебаб! Не вся работа, не весь кебаб!"
     # m "Его что, кто-то ел?!?!"
     # shawarma "Нет, мадаме! Это половина кебаб. Он такой родился на свет!"
-    "I have a half of kebab! Not the whole work, not the whole kebab!"
+    "I have a half of a kebab! Not the whole work, not the whole kebab!"
     m "Has someone eaten it?!?!"
-    shawarma "No, Madam! It's half kebab. He was born in such a shape!"
+    shawarma "No, Madam! It's half of a kebab. He was born in such a shape!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:376
 translate english monica_shawarma_dialogue3_end_half_food_570519aa:
@@ -724,7 +724,7 @@ translate english monica_shawarma_dialogue3_end_half_food_48aa8d00:
 translate english monica_shawarma_dialogue3_end_half_food_f0e9d431:
 
     # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
-    mt "Disgusting food... But at least I don't want to eat anymore... Bye..."
+    mt "Disgusting food... But at least I'm not hungry anymore... Bye..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:398
 translate english monica_shawarma_dialogue3_end_no_food_8ab1c296:

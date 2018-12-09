@@ -36,3 +36,11 @@ translate german strings:
     old "Принести Виктории $ 5000 до вечера пятницы"
     new ""
 
+# TODO: Translation updated at 2018-12-09 22:47
+
+translate german strings:
+
+    # Quests/EP2/EP2_Quests.rpy:426
+    old "Принести деньги Дику завтра"
+    new ""
+

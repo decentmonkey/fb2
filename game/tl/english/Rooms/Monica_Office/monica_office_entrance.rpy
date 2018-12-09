@@ -9,16 +9,16 @@ translate english monica_office_entrance_teleport2_6f88456d:
     # "Но ничего! Я еще найду способ это сделать и посмотреть на этого ублюдка!"
     # "Который думает что он теперь главный в моей компании!"
     mt "Heck!"
-    "Someone has changed the code on the elevator!"
+    "Someone has changed the code for the elevator!"
     "Now I can't get inside!"
-    "But no problem! I'll find a way to do that and look at that bastard!"
-    "Who thinks he's in charge of my company now!"
+    "But no problem! I'll find a way to do that and locate that bastard!"
+    "That bastard who thinks he's in charge of my company now!"
 
 # game/Rooms/Monica_Office/monica_office_entrance.rpy:46
 translate english monica_office_entrance_environment2_4728c7bc:
 
     # mt "Это просто декорация."
-    mt "It's just decoration."
+    mt "But that's just like a temporary decoration."
 
 # game/Rooms/Monica_Office/monica_office_entrance.rpy:49
 translate english monica_office_entrance_environment2_75ac79eb:

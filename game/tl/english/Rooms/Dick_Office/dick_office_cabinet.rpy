@@ -4,7 +4,7 @@
 translate english dick_office_cabinet_environment_a295a245:
 
     # "Я не верю в то что происходит!!!"
-    "I don't believe this is happening!!!"
+    "I can't believe this is happening!!!"
 
 # game/Rooms/Dick_Office/dick_office_cabinet.rpy:46
 translate english dick_office_cabinet_environment_93e4e7c0:
@@ -28,7 +28,7 @@ translate english dick_office_cabinet_environment_01eea9a8:
     # mt "Что это такое? Это ведь не Дик?"
     # "Может это тот на кого он пытается быть похож?"
     # "Ему до этого далеко!"
-    mt "What is it? Is that Dick?"
+    mt "What is this? Is that Dick?"
     "Maybe that's who he's trying to be."
     "He is far from it!"
 
@@ -48,13 +48,13 @@ translate english dick_office_cabinet_environment_5041bc79:
     # "Явно чья-то женская рука..."
     mt "Vases, color..."
     "Where is this coming from?"
-    "Clearly someone's female hand..."
+    "Clearly some female's hand..."
 
 # game/Rooms/Dick_Office/dick_office_cabinet.rpy:69
 translate english dick_office_cabinet_environment_bd7c4edd:
 
     # mt "Что это?"
-    mt "What is that?"
+    mt "Oh, is that?"
 
 # game/Rooms/Dick_Office/dick_office_cabinet.rpy:75
 translate english dick_office_cabinet_environment_3be0e16d:
@@ -76,5 +76,5 @@ translate english strings:
 translate english dick_office_cabinet_environment_f85fb8b3:
 
     # mt "Мне надо как-то вырвать Дика из когтей этой сучки!"
-    mt "Мне надо как-то вырвать Дика из когтей этой сучки!"
+    mt "I need to somehow pull Dick out of this bitch's claws!"
 

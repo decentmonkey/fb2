@@ -943,12 +943,27 @@ screen hud_screen(hud_presets):
 
 
                             $ money_text = "$ " + '{:2,.2f}'.format(money)
-                            text money_text:
-                                color "#e80000"
-                                xalign 0.0
-                                yalign 0.5
-                                yoffset gui.resolution.hud_screen.yoffset3
-                                outlines [(3, "#000000", 0, 0)]
+                            if money < 10:
+                                text money_text:
+                                    color "#e80000"
+                                    xalign 0.0
+                                    yalign 0.5
+                                    yoffset gui.resolution.hud_screen.yoffset3
+                                    outlines [(3, "#000000", 0, 0)]
+                            if money >= 10 and money < 5000:
+                                text money_text:
+                                    color c_orange
+                                    xalign 0.0
+                                    yalign 0.5
+                                    yoffset gui.resolution.hud_screen.yoffset3
+                                    outlines [(3, "#000000", 0, 0)]
+                            if money >= 5000:
+                                text money_text:
+                                    color c_green
+                                    xalign 0.0
+                                    yalign 0.5
+                                    yoffset gui.resolution.hud_screen.yoffset3
+                                    outlines [(3, "#000000", 0, 0)]
 
             fixed:
                 yoffset gui.resolution.hud_screen.yoffset1
@@ -1084,6 +1099,11 @@ screen hud_screen(hud_presets):
                 bottom_gutter gui.resolution.hud_screen.bitchmeter_bottom_gutter
                 top_gutter gui.resolution.hud_screen.bitchmeter_top_gutter
                 thumb_offset gui.resolution.hud_screen.bitchmeter_thumb_offset
+
+screen vignette_screen():
+    zorder 100
+    fixed:
+        add "Sprites/Utils/vignette.png"
 
 screen photoshot_screen():
     zorder 100

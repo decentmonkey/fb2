@@ -4,7 +4,7 @@ translate english strings:
 
     # scripts/init.rpy:39
     old "Бетти ждет что Моника будет регулярно убираться в доме."
-    new "Betty is waiting that Monica will regularly clean the house."
+    new "Betty is waiting for Monica to clean the house regularly"
 
     # scripts/init.rpy:39
     old "Work in progress..."
@@ -12,7 +12,7 @@ translate english strings:
 
     # scripts/init.rpy:39
     old "Биф обещал взять Монику работать в офис."
-    new "Beef promised to take Monica to work in the office."
+    new "Beef promised to get Monica some work in the office."
 
     # scripts/init.rpy:39
     old "Барди ищет способ заглянуть Монике под юбку."

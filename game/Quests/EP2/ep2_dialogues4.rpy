@@ -830,7 +830,7 @@ label monica_office_cabinet_biff_dialogue3:
 
     #если с Мелани отношения хорошие
     if melanieOffended2 == False and melanieOffended1 == False:
-        $ notif("У Моники хорошие отношения с Мелани")
+        $ notif(_("У Моники хорошие отношения с Мелани"))
         img 6444
         with fade
         "Но я думаю что предпочту Мелани на эту роль."
@@ -838,7 +838,7 @@ label monica_office_cabinet_biff_dialogue3:
         "Похоже что вы откуда-то знакомы..."
     else:
     #если с Мелани отношения плохие
-        $ notif("У Моники плохие отношения с Мелани")
+        $ notif(_("У Моники плохие отношения с Мелани"))
         img 6444
         with fade
         "Но когда Мелани узнала об этом, то она убедила чтобы я оставил ее..."
@@ -1082,7 +1082,7 @@ label monica_office_cabinet_biff_dialogue4:
     if monkeysOffended2 == True:
         "Только передо мной!"
 
-        $ notif("Моника заставляла моделей проходить обнаженный кастинг")
+        $ notif(_("Моника заставляла моделей проходить обнаженный кастинг"))
         music Power_Bots_Loop
         img 6485
         m "ЧТО?!?!"
@@ -1116,7 +1116,7 @@ label monica_office_cabinet_biff_dialogue4:
         "Так как уже нет на это времени!"
         music Groove2_85
     else:
-        $ notif("Моника не проводила с моделями обнаженный кастинг")
+        $ notif(_("Моника не проводила с моделями обнаженный кастинг"))
         img 6492
         with fade
     #
@@ -1543,7 +1543,7 @@ label monica_office_photostudio_alex_dialogue2:
     m "Мы сделали достаточно кадров!"
 
     if alexPhotographOffended1 == True:
-        $ notif("Моника была груба к Алексу")
+        $ notif(_("Моника была груба к Алексу"))
         #если Моника зла к Алексу
         img 6610
         alex_photograph "Мы не сделали самого главного, Миссис Бакфетт."
@@ -1556,7 +1556,7 @@ label monica_office_photostudio_alex_dialogue2:
         "А я так хочу туда!"
 
     else:
-        $ notif("Моника была добра к Алексу")
+        $ notif(_("Моника была добра к Алексу"))
         #если Моника добра к Алексу
         img 6612
         alex_photograph "Миссис Бакфетт!"

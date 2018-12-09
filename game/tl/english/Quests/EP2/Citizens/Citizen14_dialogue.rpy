@@ -16,13 +16,13 @@ translate english citizen14_dialogue_831932e5:
 translate english citizen14_dialogue_loop1_41bbe4e1:
 
     # citizen14 "Какая красавица! Что тебе надо от такого как Я? Ик!..."
-    citizen14 "What a beauty! What do you want with someone like me? HICC!..."
+    citizen14 "What a beauty! What do you want from someone like me? HICC!..."
 
 # game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:15
 translate english citizen14_dialogue_loop1_05979ea1:
 
     # m "Возьмите, пожалуйста, этот флаер..."
-    m "Please take this flyer..."
+    m "Please, take this flyer..."
 
 # game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:18
 translate english citizen14_dialogue_ec6df32a:
@@ -48,7 +48,7 @@ translate english citizen14_dialogue_loop1_68d0364d:
 translate english citizen14_dialogue_loop1_ff6d2e2b:
 
     # m "Мне никто не может понравиться в этой дыре!"
-    m "I can't like anyone in this shithole!"
+    m "I don't like anyone in this shithole!"
 
 # game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:33
 translate english citizen14_dialogue_loop1_8b77541b:
@@ -60,7 +60,7 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen14_dialogue.rpy:25
     old "Мне никто не может понравиться в этой дыре!"
-    new "I can't like anyone in this shithole!"
+    new "I don't like anyone in this shithole!"
 
     # Quests/EP2/Citizens/Citizen14_dialogue.rpy:25
     old "Может и так... (disabled)"

@@ -32,8 +32,8 @@ translate english citizen9_dialogue_bb6e048a:
     m "Touch my tit."
     citizen9 "As you say, lady."
     m "You are an idiot! What are you doing?"
-    citizen9 "That's what you told me! Heh-heh-heh. Great tits by the way!"
-    m "You are an idiot! I am from Jack!"
+    citizen9 "That's what you told me to do! Heh-heh-heh. Great tits by the way!"
+    m "You are an idiot! I came on the behalf of Jack!"
     citizen9 "Ooh, lady, that's where we should have started. What ya got?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:25
@@ -46,9 +46,9 @@ translate english citizen9_dialogue_dc8a0f13:
     # m "Нет!"
     # mt "Идиот."
     m "Well."
-    citizen9 "Perfectly. I know my man Jack. Excellent thing. You want?"
+    citizen9 "Perfect. I know my man Jack. Excellent thing. You want some?"
     m "No, thanks. Here, take another flyer."
-    citizen9 "Flyer? All right. How about I touch the boob again?"
+    citizen9 "Flyer? All right. How about I touch your boob again?"
     m "No!"
     mt "Idiot."
 
@@ -62,7 +62,7 @@ translate english citizen9_dialogue_cb821901:
 translate english citizen9_dialogue_05979ea1:
 
     # m "Возьмите, пожалуйста, этот флаер..."
-    m "Please take this flyer..."
+    m "Please, take this flyer..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:45
 translate english citizen9_dialogue_9e64e4cf:
@@ -117,8 +117,8 @@ translate english citizen9_dialogue_a870583f:
 
     # citizen9 "То, что ты мне сказала! Хе-хе-хе. Отличная грудь кстати!"
     # m "Идиот! Я от Джека!"
-    citizen9 "That's what you told me! Heh-heh-heh. Great tits by the way!"
-    m "You are an idiot! I am from Jack!"
+    citizen9 "That's what you told me to do! Heh-heh-heh. Great tits by the way!"
+    m "You are an idiot! I came on the behalf of Jack!"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:26
 translate english citizen9_dialogue_85e25246:
@@ -136,7 +136,7 @@ translate english citizen9_dialogue_0e5dcd34:
 translate english citizen9_dialogue_ff01ee61:
 
     # citizen9 "Отлично. Узнаю старину Джека. Отличная вещь. Хочешь?"
-    citizen9 "Perfectly. I know my man Jack. Excellent thing. You want?"
+    citizen9 "Perfect. I know my man Jack. Excellent thing. You want some?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:37
 translate english citizen9_dialogue_b23d7b29:
@@ -148,7 +148,7 @@ translate english citizen9_dialogue_b23d7b29:
 translate english citizen9_dialogue_6d15b6ec:
 
     # citizen9 "Флаер? Ладно. Как насчет потрогать сиську еще раз?"
-    citizen9 "Flyer? All right. How about I touch the boob again?"
+    citizen9 "Flyer? All right. How about I touch your boob again?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:41
 translate english citizen9_dialogue_ea3f27a9:

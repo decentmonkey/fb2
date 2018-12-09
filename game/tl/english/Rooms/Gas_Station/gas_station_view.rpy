@@ -107,7 +107,7 @@ translate english gas_station_view2_environment_cfd7f45a:
 
     # m "Книга про кофе?? Да что этот автор может знать про кофе!!!"
     # "Никчемные люди пишут никчемные книги!!!"
-    m "The coffee book?? What this author might know about coffee!!!"
+    m "The coffee book?? What does this author know about coffee??!!"
     "Useless people write useless books!!!"
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:133
@@ -118,7 +118,7 @@ translate english gas_station_view2_environment_7ae60e3b:
     # "Я была такой счастливой! Все мне казалось добрым и красивым!"
     m "Lake..."
     "I remember when I was a kid, there was a lake near my house."
-    "I've been so happy! Everything seemed kind and beautiful to me!"
+    "I was so happy! Everything seemed so kind and beautiful to me!"
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:139
 translate english gas_station_view2_environment_0130624e:
@@ -130,33 +130,33 @@ translate english gas_station_view2_environment_0130624e:
 translate english gas_station_view3_environment_c031abd0:
 
     # m "Чем эти ватрушки политы? Шоколадом?"
-    m "What these tarts watered with? Chocolate?"
+    m "What these tarts flavoured with? Chocolate?"
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:173
 translate english gas_station_view3_environment_c3f5a8f9:
 
     # m "Выглядит невкусно!"
-    m "Looks not tasty!"
+    m "it doesn't look tasty!"
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:175
 translate english gas_station_view3_environment_db6201cc:
 
     # m "Пирожные... От них полнеешь, я такие не ем!"
-    m "Cakes... They make me fat, I don't eat such!"
+    m "Cakes... They make me fat, so I don't eat that junk!"
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:178
 translate english gas_station_view3_environment_1b93a05e:
 
     # m "Пирожные... От них полнеешь, я такие не ем!"
     # "Хотя у меня прямо текут слюнки!!!"
-    m "Cakes... They make me fat, I don't eat such!"
-    "Although I have directly flow salivating!!!"
+    m "Cakes... They make me fat, so I don't eat that junk!"
+    "Although my mouth is watering looking at them!!!"
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:182
 translate english gas_station_view3_environment_27bab23a:
 
     # m "Я детстве любила лакомиться такими! Как было здорово!"
-    m "I loved to eat these in a childhood! That was great!"
+    m "I loved to eat these during my childhood! That was great!"
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:186
 translate english gas_station_view3_environment_f6395b65:
@@ -252,7 +252,7 @@ translate english gas_station_view4_environment_80b12dd9:
 translate english gas_station_view4_environment_d1dfccb4:
 
     # m "Пиво из... слона??? Бедный слон ((("
-    m "Beer from... elephant??? Poor elephant ((("
+    m "Beer from... elephants??? Poor elephants :((("
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:279
 translate english gas_station_view4_environment_32c15a43:
@@ -296,7 +296,7 @@ translate english gas_station_wine_cheap_9868495d:
 translate english gas_station_view5_environment_b9d831ab:
 
     # m "Какой-то дешевый диван, такой же дешевый как и заправка!"
-    m "Some kind of cheap couch, as cheap as a gas station!"
+    m "Some kind of cheap couch, as cheap as the gas station!"
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:327
 translate english gas_station_view5_environment_cf6915ee:
@@ -324,7 +324,7 @@ translate english gas_station_view5_environment_cee9e318:
     # m "Там вдалеке еще стеллаж с алкоголем. Мне не видно отсюда..."
     # "Можно подойти посмотреть."
     m "There's a shelf of alcohol in the distance. I can't see from here..."
-    "I can come closer and check it."
+    "I can go closer and check it."
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:390
 translate english gas_station_view6_environment_9d5b36c8:
@@ -342,7 +342,7 @@ translate english gas_station_view6_environment_e6577ba9:
 translate english gas_station_view_cashier_environment_9018d2eb:
 
     # m "А, это та жалкая кассирша?"
-    m "Oh, that is that pathetic cashier?"
+    m "Oh, is that that pathetic cashier?"
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:460
 translate english gas_station_view_cashier_environment_bc9771b3:
@@ -372,14 +372,14 @@ translate english gas_station_view_cashier_environment_97c1b73d:
 translate english gas_station_view_cashier_environment_b03a6995:
 
     # m "На этом прилавке молочные продукты и йогурты..."
-    m "There are dairy and yogurt on this counter..."
+    m "There is dairy and yogurt on this counter..."
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:479
 translate english gas_station_view_cashier_environment_f274fc9d:
 
     # m "Терминал для пластиковых карточек."
     # "Значит они не принимают карты?"
-    m "Terminal for plastic cards."
+    m "Terminal for credit cards."
     "So they don't take cards?"
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:482
@@ -392,7 +392,7 @@ translate english gas_station_view_cashier_environment_eae6954d:
 translate english gas_station_view_door_environment_db22660a:
 
     # m "Мне кажется я что-то слышу там..."
-    m "I think I hear something there..."
+    m "I think I hear something from in there..."
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:514
 translate english gas_station_view_door_environment_7fb07a4c:
@@ -404,7 +404,7 @@ translate english gas_station_view_door_environment_7fb07a4c:
 translate english gas_station_view_door_environment_db22660a_1:
 
     # m "Мне кажется я что-то слышу там..."
-    m "I think I hear something there..."
+    m "I think I hear something from in there..."
 
 translate english strings:
 
@@ -448,7 +448,7 @@ translate english gas_station_view1_environment_c47568c6:
     # mt "Прилавок с пирожными!!!"
     # "Может украсть одно?.."
     mt "Cake counter!!!"
-    "Может украсть одно?.."
+    "Maybe can steal one?"
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:80
 translate english gas_station_view1_environment_a3c88f50:
@@ -461,6 +461,6 @@ translate english gas_station_view1_environment_ca4990ec:
 
     # mt "Мне не взять оттуда ничего."
     # "Эта дура все время смотрит туда..."
-    mt "Мне не взять оттуда ничего."
-    "Эта дура все время смотрит туда..."
+    mt "I can not take anything out."
+    "This bitch looks there all the time..."
 

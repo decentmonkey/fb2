@@ -6,7 +6,7 @@ translate english rich_hotel_event_scene_environment_3f064834:
     # biff "Ну, давай кукла!"
     # "Притворись Моникой Бакфетт!"
     biff "Get it, doll!"
-    "Pretend Monica Buckfett!"
+    "Pretend you're Monica Buckfett!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_scene.rpy:47
 translate english rich_hotel_event_scene_environment_71473458:
@@ -19,7 +19,7 @@ translate english rich_hotel_event_scene_environment_3d99d345:
 
     # mt "Мелани смотрит на меня."
     # "Интересно что она думает обо всем этом..."
-    mt "Melanie looks at me."
+    mt "Melanie's looking at me."
     "I wonder what she thinks about all this..."
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_scene.rpy:56
@@ -40,7 +40,7 @@ translate english rich_hotel_event_scene_environment_e24d0151:
 translate english rich_hotel_event_scene_environment_a127c17c:
 
     # mt "Эта одежда закрывает собой мой постер!"
-    mt "This apparel closes my poster!"
+    mt "This apparel covers my poster!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_scene.rpy:66
 translate english rich_hotel_event_scene_environment_5b5b3f94:
@@ -70,7 +70,7 @@ translate english rich_hotel_event_scene_environment_c8ebb783:
     # mt "Мелани?! Здесь?!"
     # "А почему не Я?!"
     mt "Melanie?! Here?!"
-    "Why not Me?!"
+    "Why not me?!"
 
 # TODO: Translation updated at 2018-12-08 17:34
 
@@ -80,5 +80,5 @@ translate english rich_hotel_event_scene_environment_83604d5b:
     # biff "Ну, давай кукла!"
     # "Притворись Моникой Бакфетт!"
     biff "Get it, doll!"
-    "Pretend Monica Buckfett!"
+    "Pretend you're Monica Buckfett!"
 

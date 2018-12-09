@@ -23,7 +23,7 @@ translate english basement_laundry_environment_0ddd2109:
 
     # m "ЧТО??"
     # "Прищепки для белья? Деревянные???"
-    m "WHAT."
+    m "WHAT?"
     "Clothespins for linen? Wooden???"
 
 # game/Rooms/House/Basement/basement_laundry.rpy:82
@@ -52,7 +52,7 @@ translate english basement_laundry_environment_256696d3:
     # m "Какие-то тряпки. Я не могу назвать это одеждой."
     # "Наверное это что-то из одежды Юлии. Фи!"
     m "Some rags. I can't call it clothes."
-    "Maybe it's something of the clothes of Julia. Fi!"
+    "Maybe it's something for Julia's clothes. Fi!"
 
 # game/Rooms/House/Basement/basement_laundry.rpy:95
 translate english basement_laundry_environment_f9bcad5c:
@@ -64,7 +64,7 @@ translate english basement_laundry_environment_f9bcad5c:
 translate english basement_laundry_environment_595d6fe4:
 
     # m "Туалетная бумага?! И я тянулась туда чтобы об этом узнать?!"
-    m "Toilet paper?! And I went there to find out it?!"
+    m "Toilet paper?! And I went all the way here to find that out?!"
 
 # game/Rooms/House/Basement/basement_laundry.rpy:101
 translate english basement_laundry_environment_6265a6d6:
@@ -77,7 +77,7 @@ translate english basement_laundry_environment_5e7f5efb:
 
     # m "Судя по всему это стиральная машина..."
     # "Пустая..."
-    m "Apparently, it's a washing machine..."
+    m "Apparently, this is a washing machine..."
     "Empty..."
 
 translate english strings:

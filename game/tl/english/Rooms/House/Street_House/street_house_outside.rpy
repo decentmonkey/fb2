@@ -8,7 +8,7 @@ translate english street_house_outside_environment_18c0e8a9:
     # "Скоро это все должно закончиться!"
     mt "I remember knocking on that gate one day..."
     "This is all a nightmare!"
-    "This should all be over soon!"
+    "It should all be over soon!"
 
 translate english strings:
 

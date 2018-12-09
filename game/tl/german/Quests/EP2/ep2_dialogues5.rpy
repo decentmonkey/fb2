@@ -3274,3 +3274,1279 @@ translate german monica_office_biff_dialogue_evening1_51889768:
     biff "Да!"
     biff "Можешь идти!"
 
+# TODO: Translation updated at 2018-12-09 22:47
+
+# game/Quests/EP2/ep2_dialogues5.rpy:242
+translate german monica_charity_event_dialogue2a_84feb14b:
+
+    # m "Меня незаконно обвинили в том, чего я не совершала!"
+    # "У меня отняли счета и документы!"
+    # "И теперь шантажируют, заставляя говорить немыслимые вещи!"
+    # "Помогите мне!!!"
+    m "Меня незаконно обвинили в том, чего я не совершала!"
+    "У меня отняли счета и документы!"
+    "И теперь шантажируют, заставляя говорить немыслимые вещи!"
+    "Помогите мне!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:256
+translate german monica_charity_event_dialogue2a_23e0d671:
+
+    # marcus "Что-ж, Миссис Бакфетт!"
+    # "Хорошая попытка!"
+    marcus "Что-ж, Миссис Бакфетт!"
+    "Хорошая попытка!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:259
+translate german monica_charity_event_dialogue2a_f071db4d:
+
+    # "Должен признать Вам что я проиграл."
+    "Должен признать Вам что я проиграл."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:261
+translate german monica_charity_event_dialogue2a_e612037c_1:
+
+    # m "..."
+    m "..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:264
+translate german monica_charity_event_dialogue2a_e588bfe5:
+
+    # marcus "Да, я проиграл лучший виски на моем ранчо!"
+    marcus "Да, я проиграл лучший виски на моем ранчо!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:266
+translate german monica_charity_event_dialogue2a_d137503b:
+
+    # "Вы продержались больше одного дня!"
+    # "И Вы вернулись сюда... Феерично!"
+    "Вы продержались больше одного дня!"
+    "И Вы вернулись сюда... Феерично!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:270
+translate german monica_charity_event_dialogue2a_24b34515:
+
+    # "Вы отправитесь на Ранчо прямо из этого кабинета..."
+    "Вы отправитесь на Ранчо прямо из этого кабинета..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:273
+translate german monica_charity_event_dialogue2a_1e9cd71f:
+
+    # m "НЕЕЕЕЕТ!!!"
+    m "НЕЕЕЕЕТ!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:311
+translate german monica_charity_event_dialogue2a_d0d2972e:
+
+    # "Я благодарна Мистеру Бифу за новые идеи..."
+    # "Наш журнал должен преобразиться..."
+    "Я благодарна Мистеру Бифу за новые идеи..."
+    "Наш журнал должен преобразиться..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:314
+translate german monica_charity_event_dialogue2a_f9273614:
+
+    # "Спасибо Вам за то что Вы пришли..."
+    "Спасибо Вам за то что Вы пришли..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:606
+translate german monica_charity_event_dialogue8a_58c7cea5:
+
+    # philip "Мэм! Позвольте я налью Вам вина!"
+    philip "Мэм! Позвольте я налью Вам вина!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:609
+translate german monica_charity_event_dialogue8a_a9ea2750:
+
+    # m "Итак, Филип..."
+    # "Расскажи о себе..."
+    # "Чем ты занимаешься?"
+    m "Итак, Филип..."
+    "Расскажи о себе..."
+    "Чем ты занимаешься?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:614
+translate german monica_charity_event_dialogue8a_d8f896e3:
+
+    # philip "О, Мэм! Я занимаюсь живописью и антиквариатом!"
+    # m "Что привело тебя к такому занятию?"
+    philip "О, Мэм! Я занимаюсь живописью и антиквариатом!"
+    m "Что привело тебя к такому занятию?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:619
+translate german monica_charity_event_dialogue8a_2b979871:
+
+    # philip "Мэм! Я люблю вино!"
+    # "А вино - это продукт, который со временем становится дороже!"
+    # "К сожалению, время летит быстро и все остальные вещи теряют ценность!"
+    # "Чего не скажешь про живопись или антиквариат!"
+    philip "Мэм! Я люблю вино!"
+    "А вино - это продукт, который со временем становится дороже!"
+    "К сожалению, время летит быстро и все остальные вещи теряют ценность!"
+    "Чего не скажешь про живопись или антиквариат!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:626
+translate german monica_charity_event_dialogue8a_e77bcf3e:
+
+    # m "А женщины?"
+    m "А женщины?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:628
+translate german monica_charity_event_dialogue8a_5dfafb41:
+
+    # philip "Я также очень люблю женщин, Мэм!"
+    philip "Я также очень люблю женщин, Мэм!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:632
+translate german monica_charity_event_dialogue8a_6f1f11f9:
+
+    # m "Но как же, на женщин время оказывает влияние, в отличие от живописи..."
+    m "Но как же, на женщин время оказывает влияние, в отличие от живописи..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:635
+translate german monica_charity_event_dialogue8a_6fb4ec9e:
+
+    # philip "Я люблю настоящих женщин, Мэм!"
+    # "Леди, таких как Вы!"
+    # "Я знаю Вас заочно с тех времен, когда Вы только вошли в круги моды!"
+    # "И скажу, что Вы один из тех драгоценных камней, которые неподвластны времени!"
+    philip "Я люблю настоящих женщин, Мэм!"
+    "Леди, таких как Вы!"
+    "Я знаю Вас заочно с тех времен, когда Вы только вошли в круги моды!"
+    "И скажу, что Вы один из тех драгоценных камней, которые неподвластны времени!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:641
+translate german monica_charity_event_dialogue8a_f7f050b5:
+
+    # "С каждый годом Вы становитесь женственнее и привлекательнее!"
+    # "Вы - настоящее чудо, Мэм!"
+    "С каждый годом Вы становитесь женственнее и привлекательнее!"
+    "Вы - настоящее чудо, Мэм!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:646
+translate german monica_charity_event_dialogue8a_99555e66:
+
+    # mt "Хи-хи..."
+    mt "Хи-хи..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:650
+translate german monica_charity_event_dialogue8a_251635c3:
+
+    # mt "Какой очаровательный плюшевый мишка..."
+    # "Может быть стоит поиграть с ним..."
+    mt "Какой очаровательный плюшевый мишка..."
+    "Может быть стоит поиграть с ним..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:655
+translate german monica_charity_event_dialogue8a_395d7b89:
+
+    # mt "Кажется я ему нравлюсь. Стоит узнать про него побольше..."
+    mt "Кажется я ему нравлюсь. Стоит узнать про него побольше..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:659
+translate german monica_charity_event_dialogue8a_1736514a:
+
+    # m "И как идут Ваши дела, Филип?"
+    # "Вы достаточно успешны?"
+    m "И как идут Ваши дела, Филип?"
+    "Вы достаточно успешны?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:663
+translate german monica_charity_event_dialogue8a_e20ebd35:
+
+    # philip "О! Я весьма успешен, Мэм!"
+    # "Я не сравнюсь с Вами, но, думаю, мое состояние - это половина Вашего, Мэм!"
+    philip "О! Я весьма успешен, Мэм!"
+    "Я не сравнюсь с Вами, но, думаю, мое состояние - это половина Вашего, Мэм!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:668
+translate german monica_charity_event_dialogue8a_558c1fc7:
+
+    # mt "Хм... А он богат..."
+    # "И, судя по всему, простачок..."
+    # "Мне бы очень непомешало обзавестись таким..."
+    # "В конце концов, у него должен быть хороший дом..."
+    # "Он может дать мне много денег..."
+    # "И мне будет проще осуществить свою цель..."
+    # "Это не выглядит сложным."
+    # "Надо только немного подыграть ему."
+    mt "Хм... А он богат..."
+    "И, судя по всему, простачок..."
+    "Мне бы очень непомешало обзавестись таким..."
+    "В конце концов, у него должен быть хороший дом..."
+    "Он может дать мне много денег..."
+    "И мне будет проще осуществить свою цель..."
+    "Это не выглядит сложным."
+    "Надо только немного подыграть ему."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:678
+translate german monica_charity_event_dialogue8a_2f6a25d8:
+
+    # "Конечно, я не собираюсь спать с ним!"
+    # "Об этом бедняга может только мечтать!"
+    "Конечно, я не собираюсь спать с ним!"
+    "Об этом бедняга может только мечтать!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:683
+translate german monica_charity_event_dialogue8a_d56fdaaf:
+
+    # m "И на что Вы готовы ради прекрасной женщины, Филип?"
+    # philip "О, Мэм! Ради прекрасной женщины я готов на все!"
+    m "И на что Вы готовы ради прекрасной женщины, Филип?"
+    philip "О, Мэм! Ради прекрасной женщины я готов на все!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:688
+translate german monica_charity_event_dialogue8a_b7353a7f:
+
+    # m "А кто я для Вас, Филип?"
+    m "А кто я для Вас, Филип?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:690
+translate german monica_charity_event_dialogue8a_0cf8c7d8:
+
+    # philip "Мэм! Вы самая прекрасная женщина на свете!"
+    # "Мое сердце принадлежит Вам!"
+    philip "Мэм! Вы самая прекрасная женщина на свете!"
+    "Мое сердце принадлежит Вам!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:694
+translate german monica_charity_event_dialogue8a_3006d714:
+
+    # m "Живопись... У меня в доме висит много картин..."
+    m "Живопись... У меня в доме висит много картин..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:697
+translate german monica_charity_event_dialogue8a_c724f9b8:
+
+    # philip "О! Мэм!"
+    # "Я бы с радостью пополнил Вашу коллекцию, подарив Вам несколько полотен!"
+    # "Если бы Вы только согласились поехать ко мне домой..."
+    # "Я бы показал Вам свои самые лучшие картины!"
+    # "Вы могли-бы выбрать любые, которые Вам понравятся!"
+    # "Я буду счастлив подарить их Вам!"
+    philip "О! Мэм!"
+    "Я бы с радостью пополнил Вашу коллекцию, подарив Вам несколько полотен!"
+    "Если бы Вы только согласились поехать ко мне домой..."
+    "Я бы показал Вам свои самые лучшие картины!"
+    "Вы могли-бы выбрать любые, которые Вам понравятся!"
+    "Я буду счастлив подарить их Вам!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:707
+translate german monica_charity_event_dialogue8a_5e461c0a:
+
+    # mt "Хитрец пытается заманить меня к себе в дом..."
+    # "Я знаю все эти глупые мужские штучки..."
+    # "У него нет никаких шансов обыграть меня..."
+    # "А вот картины..."
+    # "Это неплохие деньги..."
+    # "А они мне сейчас нужны..."
+    mt "Хитрец пытается заманить меня к себе в дом..."
+    "Я знаю все эти глупые мужские штучки..."
+    "У него нет никаких шансов обыграть меня..."
+    "А вот картины..."
+    "Это неплохие деньги..."
+    "А они мне сейчас нужны..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:716
+translate german monica_charity_event_dialogue8a_a75aa7bb:
+
+    # m "Филип! Налейте самой прекрасной даме еще вина!"
+    m "Филип! Налейте самой прекрасной даме еще вина!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:721
+translate german monica_charity_event_dialogue8a_84c28420:
+
+    # philip "Конечно, Мэм!"
+    philip "Конечно, Мэм!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:726
+translate german monica_charity_event_dialogue8a_cb46d0b8:
+
+    # philip "Мэм! Разрешите пригласить Вас на танец!"
+    philip "Мэм! Разрешите пригласить Вас на танец!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:729
+translate german monica_charity_event_dialogue8a_88e770d5:
+
+    # mt "Танец?"
+    # "У меня ощущение что вино начало слегка давать мне в голову."
+    mt "Танец?"
+    "У меня ощущение что вино начало слегка давать мне в голову."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:734
+translate german monica_charity_event_dialogue8a_98648137:
+
+    # "Вкусный ужин, вино..."
+    # "Пресса, внимание..."
+    # "Я начинаю чувствовать себя как раньше..."
+    "Вкусный ужин, вино..."
+    "Пресса, внимание..."
+    "Я начинаю чувствовать себя как раньше..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:739
+translate german monica_charity_event_dialogue8a_0b786464:
+
+    # "Может не все так уж и плохо?"
+    # "Прежняя жизнь возвращается..."
+    "Может не все так уж и плохо?"
+    "Прежняя жизнь возвращается..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:743
+translate german monica_charity_event_dialogue8a_6979bd0d:
+
+    # "Меня все любят и уважают..."
+    # "У меня есть власть..."
+    # "Мужчины стараются чтобы понравиться мне..."
+    # "..."
+    "Меня все любят и уважают..."
+    "У меня есть власть..."
+    "Мужчины стараются чтобы понравиться мне..."
+    "..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:749
+translate german monica_charity_event_dialogue8a_07254c0c:
+
+    # "Танец?"
+    # "Почему-бы и нет?"
+    # "Но мне надо сначала сходить забрать деньги у Бифа."
+    # "Они мне уже не понадобятся, скорее всего."
+    # "Этот Филип покроет любые мои возможные расходы, но все-же..."
+    "Танец?"
+    "Почему-бы и нет?"
+    "Но мне надо сначала сходить забрать деньги у Бифа."
+    "Они мне уже не понадобятся, скорее всего."
+    "Этот Филип покроет любые мои возможные расходы, но все-же..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:757
+translate german monica_charity_event_dialogue8a_537ea3f2:
+
+    # m "Филип."
+    # "Я не уверена насчет танцев и вообще..."
+    # "Я отойду и подумаю над твоим предложением..."
+    m "Филип."
+    "Я не уверена насчет танцев и вообще..."
+    "Я отойду и подумаю над твоим предложением..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:762
+translate german monica_charity_event_dialogue8a_04e752bf:
+
+    # mt "Пусть попереживает..."
+    # "Надо заставить мужчину бегать за мной..."
+    # "Вызвать чувство вины..."
+    # "Тогда он будет в моих руках..."
+    mt "Пусть попереживает..."
+    "Надо заставить мужчину бегать за мной..."
+    "Вызвать чувство вины..."
+    "Тогда он будет в моих руках..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:769
+translate german monica_charity_event_dialogue8a_8f12d59d:
+
+    # philip "Мэм? Я что-то сделал не так?" 
+    # "Прошу простить меня если так..."
+    philip "Мэм? Я что-то сделал не так?" 
+    "Прошу простить меня если так..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:774
+translate german monica_charity_event_dialogue8a_1ee9790b:
+
+    # m "Ты подумай пока, а я скоро вернусь... возможно..."
+    m "Ты подумай пока, а я скоро вернусь... возможно..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1024
+translate german monica_charity_event_dialogue14_66e1a47a:
+
+    # philip "Если честно, Мэм, на протяжении вечера я оценивал не Вашу улыбку!"
+    # m "А что же?"
+    philip "Если честно, Мэм, на протяжении вечера я оценивал не Вашу улыбку!"
+    m "А что же?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1028
+translate german monica_charity_event_dialogue14_5dd227de:
+
+    # philip "Ваш ротик, Мэм!"
+    philip "Ваш ротик, Мэм!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1084
+translate german monica_charity_event_dialogue14_local1_d9fc079a:
+
+    # m "Если Вы подымете сумму до $ 30.000.000, то я готова подумать..."
+    # mt "В конце концов еще один небольшой кошмар, но я смогу решить все свои проблемы!"
+    m "Если Вы подымете сумму до $ 30.000.000, то я готова подумать..."
+    mt "В конце концов еще один небольшой кошмар, но я смогу решить все свои проблемы!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1092
+translate german monica_charity_event_dialogue14_local1_595f0022:
+
+    # m "Вы правда думаете что я стою так мало?"
+    m "Вы правда думаете что я стою так мало?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1096
+translate german monica_charity_event_dialogue14_local1_9555aae1:
+
+    # philip "Что Вы, Мэм?"
+    # "Как Вы можете думать обо мне так плохо?"
+    # "Я хорошо умею считать и я оцениваю Ваш ротик в $ 500!"
+    philip "Что Вы, Мэм?"
+    "Как Вы можете думать обо мне так плохо?"
+    "Я хорошо умею считать и я оцениваю Ваш ротик в $ 500!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1101
+translate german monica_charity_event_dialogue14_local1_cf0d85a6:
+
+    # m "ЧТО??? ДА КАК ВЫ СМЕЕТЕ!!!"
+    m "ЧТО??? ДА КАК ВЫ СМЕЕТЕ!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1105
+translate german monica_charity_event_dialogue14_local1_7c88afb8:
+
+    # m "Я ухожу!"
+    # philip "Мэм! Спасибо за танец!"
+    # "Если захотите потанцевать еще, то пригласите меня!"
+    m "Я ухожу!"
+    philip "Мэм! Спасибо за танец!"
+    "Если захотите потанцевать еще, то пригласите меня!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1197
+translate german monica_charity_event_dialogue16_78ba4f97:
+
+    # m "Я буду исправно сниматься в фотосессиях и..."
+    m "Я буду исправно сниматься в фотосессиях и..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1200
+translate german monica_charity_event_dialogue16_f6265135:
+
+    # "И пройду твой кастинг перед следующей съемкой..."
+    "И пройду твой кастинг перед следующей съемкой..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1201
+translate german monica_charity_event_dialogue16_d11bb20c:
+
+    # "Буду послушной..."
+    "Буду послушной..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1479
+translate german monica_charity_event_dialogue18_local1_02b87dc6:
+
+    # m "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!"
+    m "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1483
+translate german monica_charity_event_dialogue18_local1_a21ca16c:
+
+    # mt "У меня нет времени!"
+    # "Это единственный выход!"
+    # "(хмык)"
+    mt "У меня нет времени!"
+    "Это единственный выход!"
+    "(хмык)"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1487
+translate german monica_charity_event_dialogue18_local1_1609c27d:
+
+    # philip "Ну!?"
+    # "Я жду!!!"
+    philip "Ну!?"
+    "Я жду!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1495
+translate german monica_charity_event_dialogue18_local1_b53e0a75:
+
+    # philip "Хорошая девочка..."
+    philip "Хорошая девочка..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1517
+translate german monica_charity_event_dialogue18_local1_eb6e53ba:
+
+    # philip "Миссис Бакфетт! Я попрошу Вас открыть свой ротик!"
+    # "Я мог бы сделать это своим членом..."
+    # "Но я привык к комфорту!"
+    # "Я привык что женщины сами открывают свой ротик чтобы принять мой член внутрь!"
+    philip "Миссис Бакфетт! Я попрошу Вас открыть свой ротик!"
+    "Я мог бы сделать это своим членом..."
+    "Но я привык к комфорту!"
+    "Я привык что женщины сами открывают свой ротик чтобы принять мой член внутрь!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1525
+translate german monica_charity_event_dialogue18_local2_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1533
+translate german monica_charity_event_dialogue18_local2_8899f263:
+
+    # m "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!"
+    # philip "Мэм! Куда-же ВЫ?!"
+    # "Мы ведь только начали!"
+    m "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!"
+    philip "Мэм! Куда-же ВЫ?!"
+    "Мы ведь только начали!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1549
+translate german monica_charity_event_dialogue18_local2_6cc320f0:
+
+    # philip "Миссис Бакфетт!"
+    # "Не могли-бы Вы пошире открыть его?"
+    philip "Миссис Бакфетт!"
+    "Не могли-бы Вы пошире открыть его?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1552
+translate german monica_charity_event_dialogue18_local2_1f42a2f0:
+
+    # "Наверное Вам оттуда плохо видно..."
+    # "Но поверьте, мне отсюда видно хорошо!"
+    "Наверное Вам оттуда плохо видно..."
+    "Но поверьте, мне отсюда видно хорошо!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1555
+translate german monica_charity_event_dialogue18_local3_75852df3:
+
+    # "Ваш ротик недостаточно открыт для того чтобы мой член комфортно вошел в него!"
+    "Ваш ротик недостаточно открыт для того чтобы мой член комфортно вошел в него!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1562
+translate german monica_charity_event_dialogue18_local3_8899f263:
+
+    # m "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!"
+    # philip "Мэм! Куда-же ВЫ?!"
+    # "Мы ведь только начали!"
+    m "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!"
+    philip "Мэм! Куда-же ВЫ?!"
+    "Мы ведь только начали!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1596
+translate german monica_charity_event_dialogue18_local3_d7fc46bf:
+
+    # philip "Миссис Бакфетт!"
+    # "Отлично!"
+    # "Чувствуется что у Вас недостаток практики!"
+    # "Но мне это даже нравится!"
+    # "Если честно, я сомневался что Ваш ротик стоит $ 500!"
+    # "Я думал что ему больше подходит цена в $ 300!"
+    # "Но нет!"
+    # "Теперь я уверен что $ 500 он стоит вполне!"
+    philip "Миссис Бакфетт!"
+    "Отлично!"
+    "Чувствуется что у Вас недостаток практики!"
+    "Но мне это даже нравится!"
+    "Если честно, я сомневался что Ваш ротик стоит $ 500!"
+    "Я думал что ему больше подходит цена в $ 300!"
+    "Но нет!"
+    "Теперь я уверен что $ 500 он стоит вполне!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1619
+translate german monica_charity_event_dialogue18_local3_84144033:
+
+    # reception_t "Ага!"
+    # "А я уже начала было сомневаться в своем чутье!"
+    # "Эта шлюха искусно маскируется!"
+    reception_t "Ага!"
+    "А я уже начала было сомневаться в своем чутье!"
+    "Эта шлюха искусно маскируется!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1623
+translate german monica_charity_event_dialogue18_local3_16bf02aa:
+
+    # "Я почти поверила что она Леди!"
+    # "В нашей гостинице запрещено заниматься проституцией без разрешения!"
+    "Я почти поверила что она Леди!"
+    "В нашей гостинице запрещено заниматься проституцией без разрешения!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1628
+translate german monica_charity_event_dialogue18_local3_81291b3f:
+
+    # "В прошлый раз она приходила с такой же целью, могу поспорить!"
+    "В прошлый раз она приходила с такой же целью, могу поспорить!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1636
+translate german monica_charity_event_dialogue18_local3_13d27132:
+
+    # philip "АААААААРРГГГХХХ!!!"
+    philip "АААААААРРГГГХХХ!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1642
+translate german monica_charity_event_dialogue18_local3_13d27132_1:
+
+    # philip "АААААААРРГГГХХХ!!!"
+    philip "АААААААРРГГГХХХ!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1655
+translate german monica_charity_event_dialogue18_local3_38a2ca68:
+
+    # philip "Спасибо, Моника Бакфетт!"
+    # philip "Вы заработали свои $ 500!"
+    philip "Спасибо, Моника Бакфетт!"
+    philip "Вы заработали свои $ 500!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1663
+translate german monica_charity_event_dialogue18_local3_2030cc2a:
+
+    # m "Еще $ 500!"
+    m "Еще $ 500!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1665
+translate german monica_charity_event_dialogue18_local3_79dc8e91:
+
+    # philip "?"
+    philip "?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1668
+translate german monica_charity_event_dialogue18_local3_0af385d8:
+
+    # m "Мне нужно еще $ 500!"
+    m "Мне нужно еще $ 500!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1670
+translate german monica_charity_event_dialogue18_local3_9998fe87:
+
+    # "Пожалуйста! Прошу Вас!!!"
+    "Пожалуйста! Прошу Вас!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1673
+translate german monica_charity_event_dialogue18_local3_c86f0170:
+
+    # philip "Миссис Бакфетт!"
+    # "Почему я должен давать Вам еще $ 500?"
+    philip "Миссис Бакфетт!"
+    "Почему я должен давать Вам еще $ 500?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1676
+translate german monica_charity_event_dialogue18_local3_d39316a6:
+
+    # m "Мне очень надо! ОЧЕНЬ!!!"
+    m "Мне очень надо! ОЧЕНЬ!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1678
+translate german monica_charity_event_dialogue18_local3_9aae6c78:
+
+    # philip "Это не аргумент, Миссис Бакфетт!"
+    # "Что Вы можете предложить взамен?"
+    philip "Это не аргумент, Миссис Бакфетт!"
+    "Что Вы можете предложить взамен?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1688
+translate german monica_charity_event_dialogue18_local4_a86df63c:
+
+    # m "Мистер..."
+    m "Мистер..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1691
+translate german monica_charity_event_dialogue18_local4_a4912742:
+
+    # "Я могу..."
+    # "Я могу сделать это еще раз..."
+    "Я могу..."
+    "Я могу сделать это еще раз..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1695
+translate german monica_charity_event_dialogue18_local4_a0fd8f9d:
+
+    # "Вы дадите мне еще $ 500..."
+    "Вы дадите мне еще $ 500..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1697
+translate german monica_charity_event_dialogue18_local4_1cda21fc:
+
+    # philip "Мэм! Я говорил Вам про то что люблю женщин!"
+    # "Женщины не стареют и не теряют своей цены, потому что..."
+    philip "Мэм! Я говорил Вам про то что люблю женщин!"
+    "Женщины не стареют и не теряют своей цены, потому что..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1700
+translate german monica_charity_event_dialogue18_local4_57e22111:
+
+    # "Потому что они разные! Разные женщины, Мэм!"
+    # "Я никогда! Никогда не вставляю два раза член в одну и ту же женщину!"
+    # "Благодаря этому правилу их у меня много и я могу наслаждаться их вкусом!"
+    "Потому что они разные! Разные женщины, Мэм!"
+    "Я никогда! Никогда не вставляю два раза член в одну и ту же женщину!"
+    "Благодаря этому правилу их у меня много и я могу наслаждаться их вкусом!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1704
+translate german monica_charity_event_dialogue18_local4_9a6e6fad:
+
+    # m "Но пожалуйста, Мистер!"
+    m "Но пожалуйста, Мистер!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1707
+translate german monica_charity_event_dialogue18_local4_f0ab15bd:
+
+    # philip "Миссис Бакфетт! Я уже купил Ваш ротик!"
+    philip "Миссис Бакфетт! Я уже купил Ваш ротик!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1709
+translate german monica_charity_event_dialogue18_local4_ffb042ed:
+
+    # "Я не собираюсь еще раз покупать его!!!"
+    "Я не собираюсь еще раз покупать его!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1714
+translate german monica_charity_event_dialogue18_local4_17b7c5ac:
+
+    # m "Мне нечего предложить, но пожалуйста!"
+    # "Мистер!"
+    # "Для меня это жизнь или смерть!"
+    m "Мне нечего предложить, но пожалуйста!"
+    "Мистер!"
+    "Для меня это жизнь или смерть!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1720
+translate german monica_charity_event_dialogue18_local4_852d67ec:
+
+    # philip "Хотя..."
+    # "Знаете что..."
+    philip "Хотя..."
+    "Знаете что..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1723
+translate german monica_charity_event_dialogue18_local4_60c90766:
+
+    # "Вы сделаете миньет первому мужчине, который зайдет сюда!"
+    # "Тогда Вы получите еще $ 500!"
+    "Вы сделаете миньет первому мужчине, который зайдет сюда!"
+    "Тогда Вы получите еще $ 500!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1726
+translate german monica_charity_event_dialogue18_local4_9c5a9762:
+
+    # "Вы согласны?"
+    # m "Я... Я..."
+    "Вы согласны?"
+    m "Я... Я..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1734
+translate german monica_charity_event_dialogue18_local4_e68dbd78:
+
+    # hotel_staff "Ой!"
+    hotel_staff "Ой!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1737
+translate german monica_charity_event_dialogue18_local4_aa55f0df:
+
+    # "Прошу прощения за беспокойство!"
+    # "Я зайду позже!"
+    # philip "Эй! Парень!"
+    # "Постой-ка!"
+    "Прошу прощения за беспокойство!"
+    "Я зайду позже!"
+    philip "Эй! Парень!"
+    "Постой-ка!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1744
+translate german monica_charity_event_dialogue18_local4_f0426d9d:
+
+    # hotel_staff "Да, Сэр?"
+    # philip "Иди-ка сюда!"
+    # hotel_staff "Да, Сэр? Чем могу быть полезен?"
+    hotel_staff "Да, Сэр?"
+    philip "Иди-ка сюда!"
+    hotel_staff "Да, Сэр? Чем могу быть полезен?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1749
+translate german monica_charity_event_dialogue18_local4_7630fcb4:
+
+    # philip "У тебя есть член, парень?"
+    # hotel_staff "Что Вы имеете ввиду, Сэр?"
+    philip "У тебя есть член, парень?"
+    hotel_staff "Что Вы имеете ввиду, Сэр?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1753
+translate german monica_charity_event_dialogue18_local4_b3b05c8d:
+
+    # philip "Член! Есть член у тебя?!"
+    # "Я имею ввиду ту штуку что должна быть в штанах у каждого мужчины!"
+    # "Есть она у тебя или ее нет?"
+    philip "Член! Есть член у тебя?!"
+    "Я имею ввиду ту штуку что должна быть в штанах у каждого мужчины!"
+    "Есть она у тебя или ее нет?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1758
+translate german monica_charity_event_dialogue18_local4_9c36dd64:
+
+    # hotel_staff "Сэр... Конечно есть..."
+    # "Но я не понимаю зачем этот вопрос."
+    # "Я могу как-то помочь Вам?"
+    hotel_staff "Сэр... Конечно есть..."
+    "Но я не понимаю зачем этот вопрос."
+    "Я могу как-то помочь Вам?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1763
+translate german monica_charity_event_dialogue18_local4_71626b37:
+
+    # philip "Да, парень!"
+    # "Открой глаза и посмотри!"
+    # "У меня здесь сидит сучка и сосет бесплатно члены!"
+    # "У тех кто сюда заходит!"
+    philip "Да, парень!"
+    "Открой глаза и посмотри!"
+    "У меня здесь сидит сучка и сосет бесплатно члены!"
+    "У тех кто сюда заходит!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1769
+translate german monica_charity_event_dialogue18_local4_cb5b6136:
+
+    # "Для тебя бесплатно, конечно."
+    # "Для меня это кое-что стоит, но я готов потратить эти деньги для такого удовольствия."
+    "Для тебя бесплатно, конечно."
+    "Для меня это кое-что стоит, но я готов потратить эти деньги для такого удовольствия."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1774
+translate german monica_charity_event_dialogue18_local4_570a81c4:
+
+    # "Ты только посмотри кто это!"
+    "Ты только посмотри кто это!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1777
+translate german monica_charity_event_dialogue18_local4_6cfbf8c5:
+
+    # hotel_staff "МИССИС БАКФЕТТ?!?!" 
+    hotel_staff "МИССИС БАКФЕТТ?!?!" 
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1784
+translate german monica_charity_event_dialogue18_local4_7e11c4b0:
+
+    # philip "Да, это она!"
+    # "Парень! Такой шанс выпадает только раз!"
+    # "Ты счастливчик!"
+    philip "Да, это она!"
+    "Парень! Такой шанс выпадает только раз!"
+    "Ты счастливчик!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1790
+translate german monica_charity_event_dialogue18_local4_71e2c3f0:
+
+    # "Моника Бакфетт сидит в туалете и ждет твой член!"
+    # "Она ждет его!"
+    # "Ее ротик приглашает твой член! Чтобы ты вставил его!"
+    "Моника Бакфетт сидит в туалете и ждет твой член!"
+    "Она ждет его!"
+    "Ее ротик приглашает твой член! Чтобы ты вставил его!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1796
+translate german monica_charity_event_dialogue18_local5_80f71655:
+
+    # philip "Ну-ка открой свой ротик!"
+    philip "Ну-ка открой свой ротик!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1803
+translate german monica_charity_event_dialogue18_local5_77d91fa8:
+
+    # philip "Давай, парень!"
+    philip "Давай, парень!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1805
+translate german monica_charity_event_dialogue18_local5_d6bd638d:
+
+    # philip "Этот ротик приглашает тебя!"
+    philip "Этот ротик приглашает тебя!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1814
+translate german monica_charity_event_dialogue18_local5_31ae7b0e:
+
+    # "Приглашай его член!"
+    "Приглашай его член!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1818
+translate german monica_charity_event_dialogue18_local5_bc00340f:
+
+    # "Приглашай его член!"
+    # "Иначе не получишь деньги!"
+    "Приглашай его член!"
+    "Иначе не получишь деньги!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1828
+translate german monica_charity_event_dialogue18_local5_77d91fa8_1:
+
+    # philip "Давай, парень!"
+    philip "Давай, парень!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1831
+translate german monica_charity_event_dialogue18_local5_d6bd638d_1:
+
+    # philip "Этот ротик приглашает тебя!"
+    philip "Этот ротик приглашает тебя!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1833
+translate german monica_charity_event_dialogue18_local5_e46fc839:
+
+    # philip "Видишь?"
+    philip "Видишь?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1845
+translate german monica_charity_event_dialogue18_local5_f12cb7bb:
+
+    # philip "Давай! Засунь свой член туда!"
+    philip "Давай! Засунь свой член туда!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1851
+translate german monica_charity_event_dialogue18_local5_5bbad7b2:
+
+    # philip "Засовывай же скорее!"
+    philip "Засовывай же скорее!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1853
+translate german monica_charity_event_dialogue18_local5_81ab43db:
+
+    # philip "Миссис Бакфетт не может ждать!"
+    # "Она хочет скорее твой член!"
+    philip "Миссис Бакфетт не может ждать!"
+    "Она хочет скорее твой член!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1856
+translate german monica_charity_event_dialogue18_local5_596a60b8:
+
+    # philip "Решайся, Малыш!"
+    # "Иначе это сделает следующий кто войдет сюда!"
+    philip "Решайся, Малыш!"
+    "Иначе это сделает следующий кто войдет сюда!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1859
+translate german monica_charity_event_dialogue18_local5_796ddf65:
+
+    # philip "Этот ротик не уйдет отсюда, пока не попробует еще какой-нибудь член!"
+    philip "Этот ротик не уйдет отсюда, пока не попробует еще какой-нибудь член!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1861
+translate german monica_charity_event_dialogue18_local5_dee3abf9:
+
+    # philip "Мой член только что проверил! Там внутри все очень комфортно!"
+    philip "Мой член только что проверил! Там внутри все очень комфортно!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1869
+translate german monica_charity_event_dialogue18_local5_b7d55d2b:
+
+    # hotel_staff "Сэр!"
+    # "Но я не могу этого сделать!"
+    # "Эта женщина была добра ко мне!"
+    # "Пожалуйста, дайте ей то что она хочет!"
+    hotel_staff "Сэр!"
+    "Но я не могу этого сделать!"
+    "Эта женщина была добра ко мне!"
+    "Пожалуйста, дайте ей то что она хочет!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1875
+translate german monica_charity_event_dialogue18_local5_17fd81ee:
+
+    # philip "Ха-ха!"
+    # "Ладно, парень, как хочешь!"
+    philip "Ха-ха!"
+    "Ладно, парень, как хочешь!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1880
+translate german monica_charity_event_dialogue18_local5_955a0a0b:
+
+    # philip "Можешь закрыть свой ротик! Ты заслужила свои деньги!"
+    philip "Можешь закрыть свой ротик! Ты заслужила свои деньги!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1890
+translate german monica_charity_event_dialogue18_local5_e745bbc6:
+
+    # hotel_staff "А ведь она собиралась уволить меня!"
+    # philip "Ха-ха!"
+    # "Тем более!"
+    hotel_staff "А ведь она собиралась уволить меня!"
+    philip "Ха-ха!"
+    "Тем более!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1896
+translate german monica_charity_event_dialogue18_local5_f0e0cfc0:
+
+    # "Этот ротик заслужил твой член!"
+    # "Давай! Вставь его! Скорее!"
+    "Этот ротик заслужил твой член!"
+    "Давай! Вставь его! Скорее!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1968
+translate german monica_charity_event_dialogue18_loopa1_48c80411:
+
+    # hotel_staff "Так, Сэр?"
+    # philip "Долби ее в ротик!"
+    # "Чего ты с ней возишься?!"
+    hotel_staff "Так, Сэр?"
+    philip "Долби ее в ротик!"
+    "Чего ты с ней возишься?!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1975
+translate german monica_charity_event_dialogue18_loopa1_7562759e:
+
+    # hotel_staff "Простите, Мэм!"
+    # "Пожалуйста, не увольняйте меня!"
+    hotel_staff "Простите, Мэм!"
+    "Пожалуйста, не увольняйте меня!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2027
+translate german monica_charity_event_dialogue18_local6_8d091eca:
+
+    # philip "Глотай! И наша сделка закрыта!"
+    philip "Глотай! И наша сделка закрыта!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2041
+translate german monica_charity_event_dialogue18_local6_7cec6a3d:
+
+    # philip "Покажи рот! Покажи что ты все проглотила!"
+    # "Иначе никакой сделки!"
+    philip "Покажи рот! Покажи что ты все проглотила!"
+    "Иначе никакой сделки!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2050
+translate german monica_charity_event_dialogue18_local6_26e02253:
+
+    # philip "Отлично, спасибо."
+    philip "Отлично, спасибо."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2058
+translate german monica_charity_event_dialogue18_local6_ed581213:
+
+    # philip "Еще глоток! Там наверняка что-то осталось!!!"
+    philip "Еще глоток! Там наверняка что-то осталось!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2065
+translate german monica_charity_event_dialogue18_local6_7cec6a3d_1:
+
+    # philip "Покажи рот! Покажи что ты все проглотила!"
+    # "Иначе никакой сделки!"
+    philip "Покажи рот! Покажи что ты все проглотила!"
+    "Иначе никакой сделки!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2085
+translate german monica_charity_event_dialogue18_local6_26e02253_1:
+
+    # philip "Отлично, спасибо."
+    philip "Отлично, спасибо."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2091
+translate german monica_charity_event_dialogue18_local6_5dcc16d5:
+
+    # philip "Иди, парень! Ты повеселил меня!"
+    philip "Иди, парень! Ты повеселил меня!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2101
+translate german monica_charity_event_dialogue18_local6_708afc47:
+
+    # philip "Вот Ваши деньги, Миссис Бакфетт!"
+    philip "Вот Ваши деньги, Миссис Бакфетт!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2103
+translate german monica_charity_event_dialogue18_local6_4317b027:
+
+    # "Я найду Вас когда захочу попробовать Вашу попку!"
+    "Я найду Вас когда захочу попробовать Вашу попку!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2107
+translate german monica_charity_event_dialogue18_local6_417200ce:
+
+    # m "Пожалуйста!"
+    # "Не говорите про это никому!!!"
+    m "Пожалуйста!"
+    "Не говорите про это никому!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2111
+translate german monica_charity_event_dialogue18_local6_4dc77364:
+
+    # hotel_staff "Конечно, Мэм!"
+    # "Я никому не скажу!"
+    hotel_staff "Конечно, Мэм!"
+    "Я никому не скажу!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2118
+translate german monica_charity_event_dialogue18_local6_b39f23fe:
+
+    # mt "Что это?"
+    # "Деньги?"
+    mt "Что это?"
+    "Деньги?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2122
+translate german monica_charity_event_dialogue18_local6_46d1e55b:
+
+    # mt "Деньги!"
+    mt "Деньги!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2125
+translate german monica_charity_event_dialogue18_local6_024445c5:
+
+    # mt "Это деньги!"
+    # "У меня теперь есть деньги для Дика!"
+    # "Я нашла их! Я сделала это!!!"
+    mt "Это деньги!"
+    "У меня теперь есть деньги для Дика!"
+    "Я нашла их! Я сделала это!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2132
+translate german monica_charity_event_dialogue18_local6_4273793a:
+
+    # mt "Но что..."
+    # "ЧТО ЭТО БЫЛО???"
+    # "Я ДАЖЕ НЕ МОГУ ОСОЗНАТЬ ТОГО ЧТО ПРОИЗОШЛО!!!"
+    # "Это... ЭТО..."
+    # "У меня..."
+    # "У МЕНЯ НЕТ СЛОВ!!!"
+    # "ЧТО СО МНОЙ СДЕЛАЛИ???"
+    # "ИЗ-ЗА КАКОЙ-ТО ТЫСЯЧИ ДОЛЛАРОВ!!!"
+    # "МОНИКА, КАК ТЫ МОГЛА?!?!"
+    mt "Но что..."
+    "ЧТО ЭТО БЫЛО???"
+    "Я ДАЖЕ НЕ МОГУ ОСОЗНАТЬ ТОГО ЧТО ПРОИЗОШЛО!!!"
+    "Это... ЭТО..."
+    "У меня..."
+    "У МЕНЯ НЕТ СЛОВ!!!"
+    "ЧТО СО МНОЙ СДЕЛАЛИ???"
+    "ИЗ-ЗА КАКОЙ-ТО ТЫСЯЧИ ДОЛЛАРОВ!!!"
+    "МОНИКА, КАК ТЫ МОГЛА?!?!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2143
+translate german monica_charity_event_dialogue18_local6_23bea4f6:
+
+    # mt "Но что мне оставалось делать?"
+    # "У меня был выбор между жизнью или смертью!!!"
+    # "..."
+    # "Но какая жизнь теперь после того что случилось???"
+    mt "Но что мне оставалось делать?"
+    "У меня был выбор между жизнью или смертью!!!"
+    "..."
+    "Но какая жизнь теперь после того что случилось???"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2150
+translate german monica_charity_event_dialogue18_local6_681ddc6a:
+
+    # mt "Я, пожалуй, забуду о том что произошло здесь."
+    # "Даже если кто-то расскажет, все-равно этому никто не поверит!"
+    # "Что Моника Бакфетт могла сделать такое! Это звучит как абсурд!"
+    mt "Я, пожалуй, забуду о том что произошло здесь."
+    "Даже если кто-то расскажет, все-равно этому никто не поверит!"
+    "Что Моника Бакфетт могла сделать такое! Это звучит как абсурд!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2160
+translate german monica_charity_event_dialogue18_local6_5e5a7722:
+
+    # mt "Ну а что касается того кто здесь был..."
+    # "Когда я решу свои небольшие проблемы, я найду Маркуса и узнаю у него..."
+    # "Наверняка есть какое-нибудь Ранчо 219 или что-то вроде того..."
+    mt "Ну а что касается того кто здесь был..."
+    "Когда я решу свои небольшие проблемы, я найду Маркуса и узнаю у него..."
+    "Наверняка есть какое-нибудь Ранчо 219 или что-то вроде того..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2165
+translate german monica_charity_event_dialogue18_local6_de5bdcd0:
+
+    # mt "ДЛЯ МУЖЧИН!!!"
+    # "И кое-кто направится прямиком туда!!!"
+    # "И я не успокоюсь пока этого не случится!!!"
+    # "Никто не смеет сделать подобное с Моникой Бакфетт и остаться в живых!!!"
+    # "Клянусь!!!"
+    mt "ДЛЯ МУЖЧИН!!!"
+    "И кое-кто направится прямиком туда!!!"
+    "И я не успокоюсь пока этого не случится!!!"
+    "Никто не смеет сделать подобное с Моникой Бакфетт и остаться в живых!!!"
+    "Клянусь!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2175
+translate german monica_charity_event_dialogue18_local6_f5c7f68b:
+
+    # mt "Но что мне сейчас делать?"
+    mt "Но что мне сейчас делать?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2179
+translate german monica_charity_event_dialogue18_local6_abc73e9f:
+
+    # mt "Мне надо умыться и {b}идти к Дику{/b}..."
+    mt "Мне надо умыться и {b}идти к Дику{/b}..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2200
+translate german monica_charity_event_dialogue19_be713e11:
+
+    # m "Биф! Я ухожу отсюда!"
+    m "Биф! Я ухожу отсюда!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2202
+translate german monica_charity_event_dialogue19_e527f501:
+
+    # biff "Постой, детка! Мы вместе поедем сейчас в офис!"
+    # "Ты забыла там свою одежду!"
+    # "Ха-ха-ха!"
+    biff "Постой, детка! Мы вместе поедем сейчас в офис!"
+    "Ты забыла там свою одежду!"
+    "Ха-ха-ха!"
+
+translate german strings:
+
+    # Quests/EP2/ep2_dialogues5.rpy:250
+    old "Несколько часов спустя..."
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:275
+    old "Продолжение следует..."
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1077
+    old "$ 30.000.000 и я подумаю! (corruption)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1077
+    old "$ 30.000.000 и я подумаю! (low corruption) (disabled)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1471
+    old "Сесть на колени. (corruption)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1471
+    old "Сесть на колени. (low corruption) (disabled)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1471
+    old "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1528
+    old "Открыть рот... (corruption)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1528
+    old "Открыть рот... (low corruption) (disabled)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1557
+    old "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (corruption)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1557
+    old "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (low corruption) (disabled)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1683
+    old "Я могу сделать это еще раз... (corruption)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1683
+    old "Я могу сделать это еще раз... (low corruption) (disabled)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1798
+    old "Открыть рот для нового члена. (corruption)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1798
+    old "Открыть рот для нового члена. (low corruption) (disabled)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1798
+    old "Не открывать самой..."
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1867
+    old "Моника была добра к нему"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:1888
+    old "Моника обещала уволить его"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:2029
+    old "Проглотить сперму двух мужчин... (corruption)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues5.rpy:2029
+    old "Проглотить сперму двух мужчин... (low corruption) (disabled)"
+    new ""
+

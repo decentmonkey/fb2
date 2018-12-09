@@ -10,13 +10,13 @@ translate english street_rich_hotel_teleport_8354d840:
 translate english street_rich_hotel_teleport_b649d48b:
 
     # mt "Я еще не сошла с ума, чтобы идти в такой дорогой отель одетой в ЭТО!!!"
-    mt "I'm not crazy to go to such an expensive hotel dressed IN this!!!"
+    mt "I'm not crazy enough to go to such an expensive hotel dressed in this!!!"
 
 # game/Rooms/Rich_Hotel/street_rich_hotel.rpy:36
 translate english street_rich_hotel_environment_dd629fa0:
 
     # m "Это и есть Hotel La Grand?"
-    m "Is this the Grand Hotel La?"
+    m "Is this the La Grand hotel?"
 
 # game/Rooms/Rich_Hotel/street_rich_hotel.rpy:38
 translate english street_rich_hotel_environment_493c4781:
@@ -47,4 +47,14 @@ translate english street_rich_hotel_environment_b65fa23a:
     # "Как банально..."
     m "La Grand?"
     "So trite..."
+
+# TODO: Translation updated at 2018-12-09 22:48
+
+# game/Rooms/Rich_Hotel/street_rich_hotel.rpy:35
+translate english street_rich_hotel_teleport_c9a1d674:
+
+    # mt "Я доказала этой сучке на рецепшине что Я - ЛЕДИ!"
+    # "И не хочу портить впечатление."
+    mt "I proved to this bitch at the reception desk that I am the LADY!"
+    "And I don't want to spoil the impression."
 

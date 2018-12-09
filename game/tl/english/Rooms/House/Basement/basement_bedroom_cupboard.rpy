@@ -12,5 +12,5 @@ translate english basement_bedroom2_cupboard_environment_fb7d1960:
     # mt "Закрыт..."
     # "Мне неинтересно что там..."
     mt "Closed..."
-    "I'm not interested in it..."
+    "I'm not interested in that..."
 

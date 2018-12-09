@@ -10,13 +10,13 @@ translate english house_cleaning_room_finished_3615f202:
 translate english house_cleaning_room_finished_a47cb48b:
 
     # mt "Кажется все."
-    mt "That seems all."
+    mt "That seems to be everything."
 
 # game/Quests/House_Cleaning/House_Cleaning.rpy:192
 translate english start_cleaning_dialogue1a_b6cc470f:
 
     # mt "Сегодня пришла очередь убрать"
-    mt "Today is time to clean up."
+    mt "Today it's time to clean up."
 
 # game/Quests/House_Cleaning/House_Cleaning.rpy:217
 translate english start_cleaning_dialogue1_f03b8b11:
@@ -24,13 +24,13 @@ translate english start_cleaning_dialogue1_f03b8b11:
     # mt "Моя бывшая спальня..."
     # "Но ничего! Скоро она будет снова моя! Клянусь!"
     mt "My former bedroom..."
-    "But nothing! Soon it will be mine again! I swear!"
+    "But it's nothing! Soon it will be mine again! I swear!"
 
 # game/Quests/House_Cleaning/House_Cleaning.rpy:220
 translate english start_cleaning_dialogue1_f077c48c:
 
     # mt "Начну уборку отсюда."
-    mt "I'll start cleaning from here."
+    mt "I'll start cleaning here."
 
 # game/Quests/House_Cleaning/House_Cleaning.rpy:222
 translate english start_cleaning_dialogue1_e40c8367:
@@ -50,7 +50,7 @@ translate english start_cleaning_dialogue1b_f03b8b11:
     # mt "Моя бывшая спальня..."
     # "Но ничего! Скоро она будет снова моя! Клянусь!"
     mt "My former bedroom..."
-    "But nothing! Soon it will be mine again! I swear!"
+    "But it's nothing! Soon it will be mine again! I swear!"
 
 # game/Quests/House_Cleaning/House_Cleaning.rpy:233
 translate english start_cleaning_dialogue1b_e40c8367:
@@ -116,7 +116,7 @@ translate english start_cleaning_dialogue2_bafab389:
 translate english start_cleaning_dialogue2_70fc1b00:
 
     # mt "Теперь надо убрать спальню Барди."
-    mt "Now I need to clean up Bardie's bedroom."
+    mt "Now I need to clean Bardie's bedroom."
 
 # game/Quests/House_Cleaning/House_Cleaning.rpy:263
 translate english start_cleaning_dialogue2_06f80b34:
@@ -144,5 +144,5 @@ translate english strings:
 
     # Quests/House_Cleaning/House_Cleaning.rpy:17
     old "Не убираться сегодня..."
-    new "Not to clean today..."
+    new "Don't clean today..."
 

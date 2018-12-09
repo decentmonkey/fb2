@@ -10,7 +10,7 @@ translate english street_dick_office_teleport_4707bc1d:
 translate english street_dick_office_teleport_40e002b3:
 
     # mt "У меня нет галстука для Дика, что мне там делать... (хмык)"
-    mt "I don't have a tie for Dick, what can I do there?.. (sob)"
+    mt "I don't have a tie for Dick, what could I do there?.. (sob)"
 
 # game/Rooms/Dick_Office/Street_Dick_Office/street_dick_office.rpy:31
 translate english street_dick_office_environment_c86d7a74:

@@ -47,16 +47,16 @@ translate english floor2_mirrors_environment_e3acfe03:
 
     # m "А что это лежит сбоку от зеркала?"
     # m "Да это же выпуск моего журнала!"
-    m "And what is that lies near the mirror?"
-    m "This is an edition of my magazine!"
+    m "And what is that, that lies near the mirror?"
+    m "It is an edition of my magazine!"
 
 # game/Rooms/House/floor2_mirrors.rpy:81
 translate english floor2_mirrors_environment_e1aa0ea8:
 
     # m "А что это лежит сбоку от зеркала?"
     # "Да это же выпуск моего журнала!"
-    m "And what is that lies near the mirror?"
-    "This is an edition of my magazine!"
+    m "And what is that, that lies near the mirror?"
+    "It is an edition of my magazine!"
 
 # game/Rooms/House/floor2_mirrors.rpy:85
 translate english floor2_mirrors_environment_638f653d:
@@ -68,9 +68,9 @@ translate english floor2_mirrors_environment_638f653d:
     # "Как владелец журнала, я могу позволить себе такие мелочи."
     # "Такие как быть на обложке самого модного журнала."
     # "Хи-хи."
-    m "This edition is special."
-    "It is decorated with my image."
-    "How do I look like on the cover?"
+    m "A special edition."
+    "With my image"
+    "How do I look on the cover?"
     "I think I look great!"
     "As the owner of the magazine, I can allow myself such trifles."
     "Such as being on the cover of the most fashionable magazine."

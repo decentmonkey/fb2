@@ -22,8 +22,8 @@ translate english dick_meeting1_car_parting2_9b936715:
     m "Well, dear?"
     "Is our evening over for today?"
     dick "Monica."
-    "You know, there's one bar on your way home."
-    "Why don't we go in there for a minute?"
+    "You know, there's a bar on your way home."
+    "Why don't we go there for a minute?"
     "It is fun there!"
 
 # game/Quests/Dick_Car_Parting.rpy:35
@@ -53,7 +53,7 @@ translate english dick_meeting1_car_parting2_b99aba93:
     # "А ты для меня пока еще полезен."
     m "No, Dick!"
     "You've already disappointed me twice!"
-    "I'm afraid that the third time will have too much impact on our relationship!"
+    "I'm afraid that the third time will have too much of an impact on our relationship!"
     "And you're still useful for me."
 
 # game/Quests/Dick_Car_Parting.rpy:50
@@ -90,7 +90,7 @@ translate english dick_meeting1_car_parting2_0407bbc7:
     # "Мне неинтересно где ты живешь! Я не хочу этого знать!"
     # m "..."
     m "No, Dick!"
-    "I am not going to trust that trick!"
+    "Oh no, I am not falling for that trick!"
     "I'm not interested in where you live! I don't want to know that!"
     m "..."
 
@@ -101,10 +101,10 @@ translate english dick_meeting1_car_parting2_3ecbc530:
     # "Это случилось!"
     # dick "Что, Моника?"
     # m "Ты умудрился мне надоесть, в конце концов!"
-    m "Dick, actually!"
+    m "Actually, Dick!"
     "It has happened!"
     dick "What, Monica?"
-    m "You have managed to bore me in the end!"
+    m "You have managed to bore me to my wit's end!"
 
 # game/Quests/Dick_Car_Parting.rpy:78
 translate english dick_meeting1_car_parting2_40c829b5:
@@ -123,7 +123,7 @@ translate english dick_meeting1_car_parting2_2ab87f62:
 
     # m "Фред, быстро останови машину!"
     # "Мистеру Дику надо срочно выйти!"
-    m "Fred, quickly stop the car!"
+    m "Quickly stop the car!"
     "Mr. Dick needs to get out now!"
 
 # game/Quests/Dick_Car_Parting.rpy:85
@@ -152,7 +152,7 @@ translate english dick_meeting1_car_parting2_0407bbc7_1:
     # "Мне неинтересно где ты живешь! Я не хочу этого знать!"
     # m "..."
     m "No, Dick!"
-    "I am not going to trust that trick!"
+    "Oh no, I am not falling for that trick!"
     "I'm not interested in where you live! I don't want to know that!"
     m "..."
 
@@ -162,32 +162,32 @@ translate english dick_meeting1_car_parting2_6c70dc0e:
     # m "Хорошо. Я отвезу тебя к твоему офису."
     # "Тебя устроит это?"
     m "Good. I'll take you to your office."
-    "Is it OK for you?"
+    "Is that OK for you?"
 
 # game/Quests/Dick_Car_Parting.rpy:107
 translate english dick_meeting1_car_parting2_b7ced523:
 
     # m "Хорошо, дорогая! Меня это устроит!"
-    m "Okay, honey! It's OK!"
+    m "Okay, honey! That's fine!"
 
 # game/Quests/Dick_Car_Parting.rpy:120
 translate english dick_meeting1_car_parting3_ea6eb378:
 
     # dick "Мне очень жаль что все так вышло в этот вечер..."
-    dick "I'm very sorry that this evening everything went in such a way..."
+    dick "I'm very sorry that this evening went this terribly..."
 
 # game/Quests/Dick_Car_Parting.rpy:123
 translate english dick_meeting1_car_parting3_f4f7cde9:
 
     # m "Дик, ты испортил все с самого начала."
-    m "Dick, you spoiled everything from the very beginning."
+    m "Dick, you ruined everything from the very beginning."
 
 # game/Quests/Dick_Car_Parting.rpy:125
 translate english dick_meeting1_car_parting3_7ca7e903:
 
     # m "Нам повезло что мы как раз проезжали мимо той дыры, куда ты привез меня!"
     # "Вот и оставайся здесь! А я не хочу тебя видеть!"
-    m "We're lucky we were just passing that hole you had brought me to!"
+    m "We're lucky we were just passing that hole you brought me to!"
     "Stay here! I don't want to see you!"
 
 # game/Quests/Dick_Car_Parting.rpy:129
@@ -196,7 +196,7 @@ translate english dick_meeting1_car_parting3_476d51ba:
     # dick "Дорогая, но ты должна меня понять."
     # "Ведь я стараюсь."
     # "Если у тебя есть какие-то желания, я все сделаю для тебя."
-    dick "Honey, but you have to understand me."
+    dick "But, honey, you have to understand me."
     "After all, I am trying."
     "If you have any wishes, I'll do anything for you."
 
@@ -217,9 +217,9 @@ translate english dick_meeting1_car_parting3_46fde947:
     "I'll think about what you can do for me."
     "But now I'm going home."
     "And you will go by yourself!"
-    "UNDERSTOOD ??"
+    "IS THAT CLEAR??"
     dick "Yes, Monica."
-    "I understood."
+    "I understand."
     m "Goodbye then!"
     dick "See you, Monica."
     "I will wait."
@@ -235,14 +235,14 @@ translate english dick_meeting1_car_parting4_fred_dialogue_6ffb30d5:
 
     # m "Вот ведь жирный урод!"
     # "Испортил мне весь вечер своим присутствием."
-    m "Fat freak!"
-    "He spoiled my evening with his presence."
+    m "That fat freak!"
+    "He completely ruined my evening."
 
 # game/Quests/Dick_Car_Parting.rpy:162
 translate english dick_meeting1_car_parting4_fred_dialogue_b7f423cb:
 
     # "Ты тоже так считаешь, Фред?"
-    "Do you have the same opinion, Fred?"
+    "Don't you agree, Fred?"
 
 # game/Quests/Dick_Car_Parting.rpy:165
 translate english dick_meeting1_car_parting4_fred_dialogue_50693721:
@@ -280,9 +280,9 @@ translate english dick_meeting1_car_parting4_fred_dialogue_880f6f6c:
     # "Но то что ему он может никогда не рассчитывать на секс со мной - это сто процентов!"
     m "Stupid night!"
     "That Dick..."
-    "So, even though he screwed up, he seemed to try to please me."
+    "So even though he screwed up, he seemed to try and please me."
     "Let's see if he's still useful..."
-    "But the fact that he can never expect to have sex with me-it's one hundred percent!"
+    "But the fact that he can never expect to have sex with me is one hundred percent certain!"
 
 # game/Quests/Dick_Car_Parting.rpy:189
 translate english dick_meeting1_car_parting4_fred_dialogue_40c829b5:
@@ -300,7 +300,7 @@ translate english dick_meeting1_car_parting4_fred_dialogue_dd053b7b:
 translate english dick_meeting1_car_parting4_fred_dialogue_fe017777:
 
     # m "Долго ты будешь меня везти!?"
-    m "How long are you going to drive me!?"
+    m "How long are you going to drive me for?!"
 
 # game/Quests/Dick_Car_Parting.rpy:195
 translate english dick_meeting1_car_parting4_fred_dialogue_43802f23:
@@ -316,11 +316,11 @@ translate english strings:
 
     # Quests/Dick_Car_Parting.rpy:55
     old "Отвезти к офису..."
-    new "To get to the office..."
+    new "Get to the office..."
 
     # Quests/Dick_Car_Parting.rpy:152
     old "Дик жирный урод!"
-    new "Dick fat bastard!"
+    new "Dick, the fat bastard!"
 
     # Quests/Dick_Car_Parting.rpy:152
     old "Дик облажался, но он старался..."

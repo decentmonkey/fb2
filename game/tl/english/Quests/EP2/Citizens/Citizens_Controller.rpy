@@ -26,13 +26,13 @@ translate english citizens_dialogue_b6e8a871:
 translate english citizens_dialogue_ba170977:
 
     # mt "Еще один обитатель трущоб. Таких тут полно."
-    mt "Another slum-dweller. Here's plenty of them."
+    mt "Another slum-dweller. There's plenty of them here."
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:47
 translate english citizens_dialogue_438ba6e3:
 
     # mt "Откуда этот парень? Что он тут делает?"
-    mt "Where is this guy? What's he doing here?"
+    mt "Who is this guy? What's he doing here?"
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:52
 translate english citizens_dialogue_43c0da90:
@@ -70,13 +70,13 @@ translate english citizens_dialogue_c3a48b7a:
 translate english citizens_dialogue_ef363068:
 
     # mt "С этим все понятно: редкий день для него обходится без бутылки."
-    mt "It is everything clear with this guy: a rare day without the bottle."
+    mt "Everything is clear about this guy: a day without a bottle is a rare day..."
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:83
 translate english citizens_dialogue_ba170977_1:
 
     # mt "Еще один обитатель трущоб. Таких тут полно."
-    mt "Another slum-dweller. Here's plenty of them."
+    mt "Another slum-dweller. There's plenty of them here."
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:88
 translate english citizens_dialogue_fbcc248b:
@@ -88,13 +88,13 @@ translate english citizens_dialogue_fbcc248b:
 translate english citizens_dialogue_fcdf0310:
 
     # mt "Еще один обитатель трущеб. Таких тут полно."
-    mt "Another slum-dweller. Here's plenty of them."
+    mt "Another slum-dweller. There's plenty of them here."
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:98
 translate english citizens_dialogue_fcdf0310_1:
 
     # mt "Еще один обитатель трущеб. Таких тут полно."
-    mt "Another slum-dweller. Here's plenty of them."
+    mt "Another slum-dweller. There's plenty of them here."
 
 # TODO: Translation updated at 2018-12-06 21:42
 
@@ -130,13 +130,13 @@ translate english citizens_dialogue_process_b6e8a871:
 translate english citizens_dialogue_process_ba170977:
 
     # mt "Еще один обитатель трущоб. Таких тут полно."
-    mt "Another slum-dweller. Here's plenty of them."
+    mt "Another slum-dweller. There's plenty of them here."
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:93
 translate english citizens_dialogue_process_438ba6e3:
 
     # mt "Откуда этот парень? Что он тут делает?"
-    mt "Where is this guy? What's he doing here?"
+    mt "Who is this guy? What's he doing here?"
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:102
 translate english citizens_dialogue_process_43c0da90:
@@ -174,13 +174,13 @@ translate english citizens_dialogue_process_c3a48b7a:
 translate english citizens_dialogue_process_ef363068:
 
     # mt "С этим все понятно: редкий день для него обходится без бутылки."
-    mt "It is everything clear with this guy: a rare day without the bottle."
+    mt "Everything is clear about this guy: a day without a bottle is a rare day..."
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:157
 translate english citizens_dialogue_process_ba170977_1:
 
     # mt "Еще один обитатель трущоб. Таких тут полно."
-    mt "Another slum-dweller. Here's plenty of them."
+    mt "Another slum-dweller. There's plenty of them here."
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:166
 translate english citizens_dialogue_process_fbcc248b:
@@ -192,11 +192,11 @@ translate english citizens_dialogue_process_fbcc248b:
 translate english citizens_dialogue_process_fcdf0310:
 
     # mt "Еще один обитатель трущеб. Таких тут полно."
-    mt "Another slum-dweller. Here's plenty of them."
+    mt "Another slum-dweller. There's plenty of them here."
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:184
 translate english citizens_dialogue_process_fcdf0310_1:
 
     # mt "Еще один обитатель трущеб. Таких тут полно."
-    mt "Another slum-dweller. Here's plenty of them."
+    mt "Another slum-dweller. There's plenty of them here."
 

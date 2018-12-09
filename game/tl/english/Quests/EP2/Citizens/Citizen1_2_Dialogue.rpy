@@ -4,7 +4,7 @@
 translate english citizen1_dialogue_607c78e6:
 
     # m "Эй, ребята... Можно к Вам обратиться?"
-    m "Hey, guys... May I address you?"
+    m "Hey, guys... May I speak to you?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:9
 translate english citizen1_dialogue_2fea40eb:
@@ -26,7 +26,7 @@ translate english citizen1_loop1_7e35fe8e:
 translate english citizen1_loop1_05979ea1:
 
     # m "Возьмите, пожалуйста, этот флаер..."
-    m "Please take this flyer..."
+    m "Please, take this flyer..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:20
 translate english citizen1_dialogue_2fc5fc65:
@@ -36,11 +36,11 @@ translate english citizen1_dialogue_2fc5fc65:
     # citizen1 "С такой внешностью тебе бы не флаеры раздавать!"
     # mt "(Вот козел...)"
     # citizen2 "А я возьму, давай свой флаер."
-    citizen1 "Aunty, can you see we're busy, we're not up to you now."
+    citizen1 "Aunty, can't you see that we're busy? We don't have time for you right now."
     citizen2 "Wait, Tom, can't you see? She's working."
-    citizen1 "With that appearance like yours, you would better not be delivering flyers, but something else!"
+    citizen1 "Oh! Well, with an appearance like yours, you should not be delivering flyers, but rather something else!"
     mt "(A goat...)"
-    citizen2 "I'll take it, give me your flyer."
+    citizen2 "I'll take it, give me a flyer."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:27
 translate english citizen1_loop1_5daabde6:
@@ -52,7 +52,7 @@ translate english citizen1_loop1_5daabde6:
 translate english citizen1_loop1_1bed6e87:
 
     # m "Больше ничего!"
-    m "Nothing else!"
+    m "No, nothing else!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:38
 translate english citizen1_loop1_f46e98e2:
@@ -64,7 +64,7 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:29
     old "Больше ничего!"
-    new "Nothing else!"
+    new "No, nothing else!"
 
     # Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:29
     old "А что бы ты хотел? (disabled)"
@@ -86,7 +86,7 @@ translate english citizen1_dialogue_c4e0284a:
 translate english citizen1_dialogue_c8ca3306:
 
     # citizen1 "Тетя, не видишь, мы заняты, нам сейчас не до тебя."
-    citizen1 "Aunty, can you see we're busy, we're not up to you now."
+    citizen1 "Aunty, can't you see that we're busy? We don't have time for you right now."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:24
 translate english citizen1_dialogue_b3228aed:
@@ -98,7 +98,7 @@ translate english citizen1_dialogue_b3228aed:
 translate english citizen1_dialogue_e9665f96:
 
     # citizen1 "С такой внешностью тебе бы не флаеры раздавать!"
-    citizen1 "With that appearance like yours, you would better not be delivering flyers, but something else!"
+    citizen1 "Oh! Well, with an appearance like yours, you should not be delivering flyers, but rather something else!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:28
 translate english citizen1_dialogue_89817c55:
@@ -110,5 +110,5 @@ translate english citizen1_dialogue_89817c55:
 translate english citizen1_dialogue_174ad47d:
 
     # citizen2 "А я возьму, давай свой флаер."
-    citizen2 "I'll take it, give me your flyer."
+    citizen2 "I'll take it, give me a flyer."
 

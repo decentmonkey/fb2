@@ -11,7 +11,7 @@ translate english wardrobeBasement_dialogue1_whore_be4692e0:
 
     # mt "Никогда не представляла себя в этом..."
     # "Это просто ужас..."
-    mt "I have never imagined myself in this..."
+    mt "I could never have imagined myself something like this..."
     "It's horrible..."
 
 # game/Characters/Monica/Wardrobe_Basement.rpy:62
@@ -19,7 +19,7 @@ translate english wardrobeBasement_dialogue1_whore_f4ed01ee:
 
     # mt "Я не могла подумать, когда увидела эти тряпки в хостеле, что мне придется носить их."
     # "Вместо моего красивого платья... Рррррр!!!"
-    mt "I couldn't think when I saw those rags in the hostel that I would have to wear them."
+    mt "I couldn't imagine, when I saw those rags in the hostel, that I would actually have to wear them."
     "Instead of my beautiful dress... Rrrrrr!!!"
 
 # game/Characters/Monica/Wardrobe_Basement.rpy:67
@@ -38,7 +38,7 @@ translate english wardrobeBasement_dialogue2_governess_5f3c77f6:
     # mt "Кошмарная униформа."
     # "Я никогда себя не представляла в этом..."
     mt "Nightmarish uniform."
-    "I have never imagined myself in this..."
+    "I could never have never imagined myself in this..."
 
 # game/Characters/Monica/Wardrobe_Basement.rpy:77
 translate english wardrobeBasement_dialogue2_nude_5ce627fb:
@@ -55,7 +55,7 @@ translate english hook_basement_bedroom_check_exit_cloth_b6d3bca0:
     # "Она и так все время называет меня шлюхой..."
     # "Сучка..."
     mt "I can't go inside like this!"
-    "Bardie the sucker is just waiting for this!"
+    "Bardie the sucker is just waiting for it!"
     "And I have no idea what Betty would do to me for that!"
     "She calls me a whore all the time..."
     "Bitch..."
@@ -102,7 +102,7 @@ translate english hook_basement_bedroom_check_exit_cloth_14d7d0c2:
     # "И, не представляю что со мной сделает Бетти за это!"
     # "Она и так все время называет меня шлюхой..."
     mt "I can't go inside like this!"
-    "Bardie the sucker is just waiting for this!"
+    "Bardie the sucker is just waiting for it!"
     "And I have no idea what Betty would do to me for that!"
     "She calls me a whore all the time..."
 

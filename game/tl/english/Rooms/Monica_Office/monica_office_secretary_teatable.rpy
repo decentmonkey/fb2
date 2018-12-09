@@ -27,20 +27,20 @@ translate english monica_office_secretary_teatable_environment_892e3d1a:
 
     # m "Что это?"
     # "Маленький Гонг?"
-    m "What is that?"
-    "A Little Gong?"
+    m "Oh, is that?"
+    "A little gong?"
 
 # game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:44
 translate english monica_office_secretary_teatable_environment_dba33f62:
 
     # m "Диван для ожидающих приема гостей."
-    m "Sofa for waiting guests."
+    m "A sofa, for waiting guests."
 
 # game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:46
 translate english monica_office_secretary_teatable_environment_089bbb7c:
 
     # m "Развлекательные книги для ожидающих гостей."
-    m "Entertaining books for waiting guests."
+    m "Entertainment books for waiting guests."
 
 # game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:48
 translate english monica_office_secretary_teatable_environment_be15d39c:
@@ -79,20 +79,20 @@ translate english monica_office_secretary_teatable_environment_da5307a0:
 
     # mt "Что это?"
     # "Маленький Гонг?"
-    mt "What is that?"
-    "A Little Gong?"
+    mt "Oh, is that?"
+    "A little gong?"
 
 # game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:44
 translate english monica_office_secretary_teatable_environment_71cfabab:
 
     # mt "Диван для ожидающих приема гостей."
-    mt "Sofa for waiting guests."
+    mt "A sofa, for waiting guests."
 
 # game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:46
 translate english monica_office_secretary_teatable_environment_4c7c1daf:
 
     # mt "Развлекательные книги для ожидающих гостей."
-    mt "Entertaining books for waiting guests."
+    mt "Entertainment books for waiting guests."
 
 # game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:48
 translate english monica_office_secretary_teatable_environment_1606d28f:

@@ -18,7 +18,7 @@ translate english street_bank_teleport_8c863c23:
     # mt "Что мне там делать?"
     # "У меня нет никаких документов!"
     # "(хмык)"
-    mt "What should I do there?"
+    mt "What business do i have here?"
     "I don't have any documents!"
     "(sob)"
 
@@ -38,7 +38,7 @@ translate english street_bank_environment_bb668b81:
 translate english street_bank_environment_03dba5fa:
 
     # m "Это зеленое здание. В нем должен быть мой банк."
-    m "It's a green building. There should be my Bank inside it."
+    m "It's a green building. My bank should be inside it."
 
 # game/Rooms/Bank/street_bank.rpy:48
 translate english street_bank_environment_4ccf505d:
@@ -47,8 +47,8 @@ translate english street_bank_environment_4ccf505d:
     # "Но мне он сейчас ни к чему..."
     # "У меня нет никаких документов!"
     # "(хмык)"
-    mt "My Bank is on this busy street..."
-    "But I don't need him right now..."
+    mt "My bank is on this busy street..."
+    "But I don't need it right now..."
     "I don't have any documents!"
     "(sob)"
 

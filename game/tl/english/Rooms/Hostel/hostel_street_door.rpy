@@ -12,11 +12,11 @@ translate english hostel_street_door_teleport_62dc00d2:
 translate english hostel_street_door_teleport_b25c6d23:
 
     # mt "Я не пойду туда! Там насильники! И я теперь должна $10.000 управляющей этой дыры."
-    mt "I'm not going there! There are rapists! And now I owe $ 10,000 to the manager of this hole."
+    mt "I'm not going there! There are rapists! And now I owe ,000 to the manager of this hole."
 
 # game/Rooms/Hostel/hostel_street_door.rpy:43
 translate english hostel_street_door_environment_b25c6d23:
 
     # mt "Я не пойду туда! Там насильники! И я теперь должна $10.000 управляющей этой дыры."
-    mt "I'm not going there! There are rapists! And now I owe $ 10,000 to the manager of this hole."
+    mt "I'm not going there! There are rapists! And now I owe ,000 to the manager of this hole."
 

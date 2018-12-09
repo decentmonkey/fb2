@@ -22,7 +22,7 @@ translate english citizen11_dialogue_loop1_81efebb8:
 translate english citizen11_dialogue_05979ea1:
 
     # m "Возьмите, пожалуйста, этот флаер..."
-    m "Please take this flyer..."
+    m "Please, take this flyer..."
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:17
 translate english citizen11_dialogue_6fcede6c:
@@ -40,7 +40,7 @@ translate english citizen11_dialogue_loop1_188f72ee:
     # m "Мистер, у меня нет алкоголя, только флаеры с рекламой вкуснейших кебабов..."
     # citizen11 "Каких еще кебабов? Проваливай отсюда!"
     # mt "Старый алкаш..."
-    m "Mister, I have no alcohol, only flyers advertising the delicious kebabs..."
+    m "Mister, I don't have any alcohol, only flyers advertising this delicious kebab..."
     citizen11 "What kind of kebab? Get outta here!"
     mt "Old drunk..."
 
@@ -70,7 +70,7 @@ translate english citizen11_dialogue_loop1_6fcede6c:
 translate english citizen11_dialogue_loop1_abba711a:
 
     # m "Мистер, у меня нет алкоголя, только флаеры с рекламой вкуснейших кебабов..."
-    m "Mister, I have no alcohol, only flyers advertising the delicious kebabs..."
+    m "Mister, I don't have any alcohol, only flyers advertising this delicious kebab..."
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:45
 translate english citizen11_dialogue_loop1_5705e2ac:

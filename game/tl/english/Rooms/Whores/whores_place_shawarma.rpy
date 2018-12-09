@@ -10,7 +10,7 @@ translate english whores_place_shawarma_environment2_a708cfd4:
 translate english whores_place_shawarma_environment2_d74615d3:
 
     # mt "Грязный продавец. Я не выношу даже его вида! Фу!"
-    mt "Dirty salesman. I can't even stand his sight! EW!"
+    mt "Dirty salesman. I can't even stand the sight of him! EW!"
 
 translate english strings:
 

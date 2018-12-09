@@ -4,7 +4,7 @@
 translate english rich_hotel_event_sittable_environment_4c15ed90:
 
     # mt "Этот вечер нравится мне все больше..."
-    mt "I am keen on this evening more and more..."
+    mt "I'm getting more and more keen on this evening."
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_sittable.rpy:29
 translate english rich_hotel_event_sittable_environment_ca6ab076:

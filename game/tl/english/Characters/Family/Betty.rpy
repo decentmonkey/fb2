@@ -10,7 +10,7 @@ translate english bettyInteract1_fb6fa74f:
     # "Она еще поплатится за свое ко мне отношение!"
     mt "It's Betty..."
     "Rare bitch!"
-    "She's watching me, watching my every move."
+    "She's watching me and my every move."
     "I need to be more careful with her, for now..."
     "She'll pay for her attitude!"
 

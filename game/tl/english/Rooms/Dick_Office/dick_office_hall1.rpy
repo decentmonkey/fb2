@@ -16,7 +16,7 @@ translate english dick_office_hall1_environment_2b5958f5:
     # "Куда она ведет?"
     mt "Um.. closed..."
     "What is this door?"
-    "Where it leads?"
+    "Where does it lead?"
 
 # game/Rooms/Dick_Office/dick_office_hall1.rpy:46
 translate english dick_office_hall1_environment_a4360877:
@@ -24,9 +24,9 @@ translate english dick_office_hall1_environment_a4360877:
     # mt "Что это такое?"
     # "Какие-то экспонаты?"
     # "Это нравится Дику???"
-    mt "What is it?"
+    mt "What is this?"
     "Some of the exhibits?"
-    "Does Dick like it???"
+    "Does Dick like this???"
 
 translate english strings:
 

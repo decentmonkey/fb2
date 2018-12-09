@@ -12,7 +12,7 @@ translate english police_entrance_teleport_262e4978:
 translate english police_entrance_environment_28ea3c81:
 
     # mt "Это место, где работает эта страшная женщина..."
-    mt "This is the place where this horrible woman works..."
+    mt "This is the place where that horrible woman works..."
 
 # game/Rooms/Police/police_entrance.rpy:37
 translate english police_entrance_environment_b13ea4dd:

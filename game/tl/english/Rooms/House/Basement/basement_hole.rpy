@@ -4,7 +4,7 @@
 translate english basement_hole_teleport_615e611e:
 
     # mt "В том коридоре нет света. Я туда не пойду!"
-    mt "There's no light in that hallway. I'm not going!"
+    mt "There's no light in that hallway. I'm not going there!"
 
 # game/Rooms/House/Basement/basement_hole.rpy:45
 translate english basement_hole_environment_d108adf3:

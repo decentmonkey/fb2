@@ -12,20 +12,20 @@ translate english bedroom_bardie_environment_5f0c394b:
 translate english bedroom_bardie_environment_14c17054:
 
     # mt "Этот оболтус разбрасывает вещи где попало!"
-    mt "This idiot throws things anywhere!"
+    mt "This idiot throws things around anywhere!"
 
 # game/Rooms/House/bedroom_bardie.rpy:48
 translate english bedroom_bardie_environment_0cb9b3ed:
 
     # mt "Я сейчас мечтаю даже о такой дурацкой кровати!"
-    mt "I now dream even about such a stupid bed!"
+    mt "I even dream of stupids beds like this now..."
 
 # game/Rooms/House/bedroom_bardie.rpy:50
 translate english bedroom_bardie_environment_215a7c63:
 
     # mt "Стул Барди..."
     # "Хорошо бы он свалился с него!!!"
-    mt "Bardy's Chair..."
+    mt "Bardie's Chair..."
     "I wish he'd fallen off it!!!"
 
 # game/Rooms/House/bedroom_bardie.rpy:53

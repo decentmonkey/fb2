@@ -45,7 +45,7 @@ translate english whores_place_environment2_e9e57107:
     mt "Just a street whore..."
     "The cheapest..."
     "They usually dress like this."
-    "At least, like I have seen in the movies."
+    "At least from what I have seen in the movies."
     "I can't look at this without a disgust!"
 
 # game/Rooms/Whores/whores_place.rpy:76
@@ -70,7 +70,7 @@ translate english whores_place_environment2_fcf31986:
     "YOU!!!"
     "KNOW!!!"
     "THE WHORE!!!"
-    "I don't believe in it."
+    "I don't believe it."
 
 # game/Rooms/Whores/whores_place.rpy:87
 translate english whores_place_environment2_a7145b5c_1:
@@ -93,14 +93,14 @@ translate english whores_place_environment2_2e0ba45b:
 
     # mt "Тем более в таком виде!"
     # "Ужас!"
-    mt "Тем более в таком виде!"
-    "The horror!"
+    mt "Especially in this look!"
+    "What a horror!"
 
 # game/Rooms/Whores/whores_place.rpy:95
 translate english whores_place_environment2_2e0ba45b_1:
 
     # mt "Тем более в таком виде!"
     # "Ужас!"
-    mt "Тем более в таком виде!"
-    "The horror!"
+    mt "Especially in this look!"
+    "What a horror!"
 

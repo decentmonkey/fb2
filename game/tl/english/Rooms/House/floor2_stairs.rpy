@@ -9,7 +9,7 @@ translate english floor2_stairs_environment_afb47468:
     # "Они счастливы жить в том что создала Я!!!"
     # "ЭТО НЕСПРАВЕДЛИВО!!!"
     mt "They're not going to do anything with the stairs."
-    "Of course, why on earth would they do anything with it?"
+    "Of course, why on earth would they do anything with them?"
     "They obviously don't have my taste!"
     "They are happy to live in what I created!!!"
     "IT'S NOT FAIR!!!"

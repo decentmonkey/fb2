@@ -26,7 +26,7 @@ translate english dick_office_entrance_environment_2458f3fe:
 translate english dick_office_entrance_environment_44e9fa83:
 
     # mt "За этой стойкой находится рецепшин на входе в офисное здание Дика."
-    mt "Behind this counter is a receptionist at the entrance to Dick's office building."
+    mt "Behind this counter is the receptionist at the entrance to Dick's office building."
 
 # game/Rooms/Dick_Office/dick_office_entrance.rpy:51
 translate english dick_office_entrance_environment_ed2a7992:
@@ -41,7 +41,7 @@ translate english dick_office_entrance_environment_f2444813:
     # "Не ожидала от этого толстяка..."
     # "Но мне сейчас не до этого!"
     mt "Wow! A picture in Dick's building?"
-    "I didn't expect that fat man..."
+    "I didn't expect that, fat man..."
     "But I don't need this now!"
 
 # game/Rooms/Dick_Office/dick_office_entrance.rpy:57
@@ -75,6 +75,6 @@ translate english dick_office_entrance_environment_42470e33:
 
     # reception_secretary "Мэм, я могу Вам чем-то помочь?"
     # mt "..."
-    reception_secretary "Мэм, я могу Вам чем-то помочь?"
+    reception_secretary "Ma'am, can I help you?"
     mt "..."
 

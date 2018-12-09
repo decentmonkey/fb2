@@ -48,7 +48,7 @@ translate english strings:
 
     # scripts/start.rpy:33
     old "Узнать у Ральфа по поводу оплаты"
-    new "To ask Ralph about the payment"
+    new "Ask Ralph about the payment"
 
     # scripts/start.rpy:34
     old "Избежать наказания"

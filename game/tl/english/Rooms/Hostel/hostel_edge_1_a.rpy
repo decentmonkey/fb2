@@ -7,7 +7,7 @@ translate english hostel_edge_1_a_environment_16e8395a:
     # "Это вывеска от какого-то бара."
     # "Выброшенная..."
     mt "Bar24?"
-    "It's a sign of some bar."
+    "It's the sign of some bar."
     "Thrown..."
 
 # game/Rooms/Hostel/hostel_edge_1_a.rpy:69

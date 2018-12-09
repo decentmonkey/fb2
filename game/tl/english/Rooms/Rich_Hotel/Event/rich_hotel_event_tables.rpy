@@ -22,7 +22,7 @@ translate english rich_hotel_event_tables_environment_bfee702e:
     # "Я ведь не буду соглашаться на его предложение, так ведь?!?!"
     # "Это безумие!"
     # "Ведь у меня есть другой выход?!?! Или нет??..."
-    mt "I can't believe that bastard just told me!!!"
+    mt "I can't believe what that bastard just told me!!!"
     "What should I do?"
     "I'm not going to accept his offer, am I?!?!"
     "This is crazy!"
@@ -48,7 +48,7 @@ translate english rich_hotel_event_tables_environment_24cbfdc0:
     # mt "Здесь полно недорогого алкоголя!"
     # "Кто бы мог подумать что это вино столько стоит!!!"
     mt "It's full of cheap alcohol!"
-    "Who would have thought that this wine is worth so much!!!"
+    "Who would have thought that this wine is worth so much??!!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_tables.rpy:73
 translate english rich_hotel_event_tables_environment_9efc8dbb_1:
@@ -63,8 +63,8 @@ translate english rich_hotel_event_tables_environment_1bfda7ac:
 
     # mt "Может быть попросить помощи у кого-нибудь???"
     # "Но вряд-ли это поможет. Судя по виду, здесь все такие же мерзавцы как этот Филип!"
-    mt "Maybe ask for help from someone???"
-    "But it is unlikely to help. Apparently, they're all scoundrels like this Philip!"
+    mt "Maybe I should ask for help from someone???"
+    "But they're unlikely to help. Apparently, they're all scoundrels like that Philip!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_tables.rpy:81
 translate english rich_hotel_event_tables_environment_9efc8dbb_2:

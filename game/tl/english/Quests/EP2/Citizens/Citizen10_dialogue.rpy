@@ -10,7 +10,7 @@ translate english citizen10_dialogue_b8f1bd99:
 translate english citizen10_dialogue_035f122f:
 
     # citizen10 "Я Вас не знаю! Не отвлекайте меня!"
-    citizen10 "I don't know You! Don't distract me!"
+    citizen10 "I don't know you! Don't distract me!"
 
 # game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:11
 translate english citizen10_dialogue_8b577aba:
@@ -22,13 +22,13 @@ translate english citizen10_dialogue_8b577aba:
 translate english citizen10_dialogue_05979ea1:
 
     # m "Возьмите, пожалуйста, этот флаер..."
-    m "Please take this flyer..."
+    m "Please, take this flyer..."
 
 # game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:19
 translate english citizen10_dialogue_adcab373:
 
     # citizen10 "Флаер? Хорошо..."
-    citizen10 "Flyer? Good..."
+    citizen10 "A flyer? Good..."
 
 # game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:21
 translate english citizen10_dialogue_a5bd9c38:
@@ -56,7 +56,7 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen10_dialogue.rpy:12
     old "Возьмите, пожалуйста, этот флаер..."
-    new "Please take this flyer..."
+    new "Please, take this flyer..."
 
 # TODO: Translation updated at 2018-12-06 21:42
 

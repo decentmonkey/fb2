@@ -16,13 +16,13 @@ translate english citizen12_dialogue_e8749aae:
 translate english citizen12_dialogue_loop1_7d295d4f:
 
     # citizen12 "Да, Крошка? Что ты хочешь от меня?"
-    citizen12 "Yes, Baby? What do you want from me?"
+    citizen12 "Yes, baby? What do you want from me?"
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:15
 translate english citizen12_dialogue_loop1_05979ea1:
 
     # m "Возьмите, пожалуйста, этот флаер..."
-    m "Please take this flyer..."
+    m "Please, take this flyer..."
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:18
 translate english citizen12_dialogue_13e4b5a3:
@@ -30,7 +30,7 @@ translate english citizen12_dialogue_13e4b5a3:
     # citizen12 "Ээээ... взять что?"
     # m "Возьмите, пожалуйста, этот флаер..."
     citizen12 "Uhh... take what?"
-    m "Please take this flyer..."
+    m "Please, take this flyer..."
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:21
 translate english citizen12_dialogue_ce279234:

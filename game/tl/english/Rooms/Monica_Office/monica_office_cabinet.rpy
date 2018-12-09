@@ -5,14 +5,14 @@ translate english monica_office_cabinet_environment_f16007b5:
 
     # mt "Какой-то самозванец занял мое место!"
     # "Это возмутительно!"
-    mt "Some impostor has taken my place!"
+    mt "Some imposter has taken my place!"
     "This is outrageous!"
 
 # game/Rooms/Monica_Office/monica_office_cabinet.rpy:46
 translate english monica_office_cabinet_environment_16d0fe3d:
 
     # mt "Ну надо же! Кто здесь!"
-    mt "Wow! Who's here!"
+    mt "Wow! Who's here?!"
 
 # game/Rooms/Monica_Office/monica_office_cabinet.rpy:49
 translate english monica_office_cabinet_environment_b6d9cbcf:
@@ -36,7 +36,7 @@ translate english monica_office_cabinet_environment_e9df2270:
 translate english monica_office_cabinet_environment_747438e9:
 
     # mt "Картины никто не тронул. Это хорошо."
-    mt "The paintings had not been touched. This is a good thing."
+    mt "The paintings have not been touched. That is a good thing."
 
 # game/Rooms/Monica_Office/monica_office_cabinet.rpy:61
 translate english monica_office_cabinet_environment_1091e835:

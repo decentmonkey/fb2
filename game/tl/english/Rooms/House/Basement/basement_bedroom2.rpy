@@ -32,7 +32,7 @@ translate english basement_bedroom2_environment_dbc51c20:
 translate english basement_bedroom2_environment_544975d9:
 
     # mt "Какая-то книга Юлии..."
-    mt "Some of Julia's book..."
+    mt "Some of Julia's books..."
 
 # game/Rooms/House/Basement/basement_bedroom2.rpy:80
 translate english basement_bedroom2_environment_0beb8f0a:
@@ -54,7 +54,7 @@ translate english basement_bedroom2_environment_dbe585da:
     # "Она пыталась быть похожей на меня?"
     # "..."
     mt "Painting..."
-    "I didn't know Julia had been into it."
+    "I didn't know Julia was into that."
     "Was she trying to be like me?"
     "..."
 
@@ -63,7 +63,7 @@ translate english basement_bedroom2_environment_cab17d2a:
 
     # mt "Этот старый яркий пестрый стол пытается скрасить уныние этой каморки..."
     # "Тщетно..."
-    mt "This old bright, colorful table is trying to brighten up the despondency of this room..."
+    mt "This old, bright, colorful table is trying to brighten up the despondency of this room..."
     "Vainly..."
 
 translate english strings:

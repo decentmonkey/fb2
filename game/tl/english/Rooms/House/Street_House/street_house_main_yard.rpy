@@ -17,7 +17,7 @@ translate english street_house_main_yard_environment_1f97ba8c:
     # "Редкий ублюдок..."
     # "Он не избежит своей участи!"
     mt "Fred... My ex-driver..."
-    "Rare bastard..."
+    "Bastard..."
     "He will not escape his fate!"
 
 # game/Rooms/House/Street_House/street_house_main_yard.rpy:57

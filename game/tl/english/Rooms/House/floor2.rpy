@@ -6,7 +6,7 @@ translate english floor2_environment_da890081:
     # mt "Мне всегда нравилось когда много света."
     # "Ничего, скоро я снова буду радоваться этому!"
     mt "I always liked a lot of light."
-    "No problem, soon I'll be back to enjoy it!"
+    "But it's no problem, I'll soon be back to enjoy it!"
 
 # game/Rooms/House/floor2.rpy:65
 translate english floor2_environment_9d91de77:
@@ -31,7 +31,7 @@ translate english floor2_environment_2227eca2:
     # "Сейчас их захватила эта сучка Бетти."
     # "Но это ненадолго!"
     mt "These are my makeup mirrors..."
-    "That bitch Betty's got them now."
+    "That bitch Betty has them now."
     "But not for long!"
 
 # game/Rooms/House/floor2.rpy:86
@@ -49,7 +49,7 @@ translate english floor2_environment_583af93e:
     # "Этому ковру нужна химчистка!"
     mt "The stain on the carpet is still here..."
     "Maybe Betty didn't notice it."
-    "Certainly, I'm not going to clean it up!"
+    "I'm certainly not going to clean it up!"
     "This carpet needs to be dry-cleaned!"
 
 translate english strings:

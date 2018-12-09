@@ -4,13 +4,13 @@
 translate english basement_monica_after_nap_dialogue1_81018372:
 
     # mt "Неплохо было бы что-то поесть..."
-    mt "Неплохо было бы что-то поесть..."
+    mt "It would be nice to eat something..."
 
 # game/Characters/Monica/Bed_Basement.rpy:96
 translate english basement_monica_after_nap_dialogue1_9ad51c5f:
 
     # mt "Я передохнула. Что дальше?"
-    mt "Я передохнула. Что дальше?"
+    mt "I took a rest. What next?"
 
 # game/Characters/Monica/Bed_Basement.rpy:110
 translate english basement_monica_after_sleep_dialogue1_465fecb3:

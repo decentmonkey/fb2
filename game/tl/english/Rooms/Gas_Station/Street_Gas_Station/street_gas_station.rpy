@@ -30,7 +30,7 @@ translate english street_gas_station2_environment_b84fcf54:
 translate english street_gas_station2_environment_bf076d6e:
 
     # m "Здание заправки. Здесь должнен быть где-то вход..."
-    m "The building of the gas station. There might be an entrance somewhere..."
+    m "The gas station building. There might be an entrance somewhere..."
 
 # TODO: Translation updated at 2018-12-06 21:42
 
@@ -52,5 +52,5 @@ translate english street_gas_station2_environment_0d4144ed:
 translate english street_gas_station2_environment_5fe7e012:
 
     # mt "Здание заправки. Здесь должнен быть где-то вход..."
-    mt "The building of the gas station. There might be an entrance somewhere..."
+    mt "The gas station building. There might be an entrance somewhere..."
 

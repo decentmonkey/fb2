@@ -31,8 +31,8 @@ translate english bedroom_second_environment_5339d692:
 
     # mt "Я бы сложила сюда свои длинные ножки, если бы..."
     # "ЕСЛИ БЫ ЭТА БЕТТИ СДОХЛА, СВОЛОЧЬ!!!"
-    mt "I'd put my long legs down here if ..."
-    "IF THIS BETTY IS DEAD, BASTARD!!!"
+    mt "I'd put my long legs down here if..."
+    "IF THIS BETTY WOULD BE DEAD, BASTARD!!!"
 
 # game/Rooms/House/bedroom_second.rpy:56
 translate english bedroom_second_environment_1111aff4:

@@ -6,7 +6,7 @@ translate english living_room_environment_fb032ef2:
     # mt "Не помню когда я здесь была в последний раз."
     # "Кажется когда запретила мужу приводить гостей."
     mt "I don't remember the last time I was here."
-    "It seems when forbade my husband to bring guests."
+    "It was probably when I forbade my husband to bring guests to the house."
 
 # game/Rooms/House/living_room.rpy:55
 translate english living_room_environment_b7d20976:
@@ -16,8 +16,8 @@ translate english living_room_environment_b7d20976:
     # "Когда я верну дом себе, то выкину эту мебель и вообще переделаю весь дизайн дома."
     # "Чтобы ничего не напоминало мне об этом кошмаре, в который я, по-прежнему, не могу поверить!"
     mt "There are a lot of chairs, but I didn't let my husband bring guests here."
-    "These new owners love to receive guests, show off my house."
-    "When I return the house, I'd kick the furniture, and generally redo the design of the house."
+    "These new owners love to have guests over, and show off my house."
+    "When I return to the house, I'd get rid of all the furniture, and generally redesign the entire house."
     "So that nothing reminds me of this nightmare that I still can't believe!"
 
 # game/Rooms/House/living_room.rpy:60
@@ -50,7 +50,7 @@ translate english living_room_environment_f5c6bb90:
     # mt "Хоть у меня и отобрали дом... пока..."
     # "Но эти лампочки светят только для меня!"
     mt "Even though my house was taken away... Bye..."
-    "But these lights Shine only for me!"
+    "These lights shine only for me."
 
 # game/Rooms/House/living_room.rpy:72
 translate english living_room_environment_cb56e1b3:

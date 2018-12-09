@@ -6,7 +6,7 @@ translate english rich_hotel_event_sofa_environment_8e867cd7:
     # mt "Что же мне делать???"
     # mt "Может быть как-то уговорить Бифа дать мне недостающую сумму денег?"
     mt "What should I do???"
-    mt "Is there any way I can get Beef to give me the missing amount of money?"
+    mt "Is there any way I can get Beef to give me the remaining amount of money?"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_sofa.rpy:38
 translate english rich_hotel_event_sofa_environment_af9f1c53:
@@ -79,12 +79,12 @@ translate english rich_hotel_event_sofa_environment_715a7d25:
     # "Я придумаю что-нибудь когда верну все назад!"
     mt "Soon all the fancy TV channels will start showing my performance..."
     "I hope my words aren't too public..."
-    "I will have to give them up later, explain that everything was not understood correctly."
+    "I will have to take them back later, and explain that everything was not understood correctly."
     "I'll figure something out when I get my life back!"
 
 translate english strings:
 
     # Rooms/Rich_Hotel/Event/rich_hotel_event_sofa.rpy:21
     old "ИДТИ КО СЦЕНЕ"
-    new "TO GO TO THE STAGE"
+    new "GO TO THE STAGE"
 

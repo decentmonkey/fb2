@@ -4,7 +4,7 @@
 translate english bedroom1_environment_e0361535:
 
     # mt "Мой любимый удобный стул... Эхххх...."
-    mt "My favorite comfortable chair... Ehhh..."
+    mt "My favorite and most comfortable chair... Ehhh..."
 
 # game/Rooms/House/Bedroom/bedroom1.rpy:45
 translate english bedroom1_environment_b6bb820d:
@@ -62,7 +62,7 @@ translate english bedroom1_environment_8b7274a0:
     # mt "Этот столик такой романтичный."
     # "Я оставлю его после того как сменю дизайн этого дома."
     mt "This table is so romantic."
-    "I'll keep it after I will change the design of this house."
+    "I'll keep it after I've changed the design of this house."
 
 # game/Rooms/House/Bedroom/bedroom1.rpy:75
 translate english bedroom1_environment_2c6f638e:
@@ -106,8 +106,8 @@ translate english bedroom1_environment_2b30eee2:
     # mt "А теперь на моей кровати лежит эта жирная корова!"
     # "А я вынуждена смотреть на это и выполнять все ее капризы!"
     # "(хмык)"
-    mt "А теперь на моей кровати лежит эта жирная корова!"
-    "А я вынуждена смотреть на это и выполнять все ее капризы!"
+    mt "And now this fat cow lying on my bed!"
+    "And I have to look at it and fulfill all her whims!"
     "(sob)"
 
 # game/Rooms/House/Bedroom/bedroom1.rpy:57

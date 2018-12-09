@@ -6,7 +6,7 @@ translate english rich_hotel_event_hall_environment_e53dfcf1:
     # mt "Черт! Что же делать???"
     # "Где мне достать деньги???"
     mt "Fuck! What should I do???"
-    "Where I can get money???"
+    "Where can I get money???"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:58
 translate english rich_hotel_event_hall_environment_e3973153:
@@ -38,7 +38,7 @@ translate english rich_hotel_event_hall_environment_c595b2e9:
 translate english rich_hotel_event_hall_environment_a127c17c:
 
     # mt "Эта одежда закрывает собой мой постер!"
-    mt "This apparel closes my poster!"
+    mt "This apparel covers my poster!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:82
 translate english rich_hotel_event_hall_environment_3775ea5b:
@@ -83,7 +83,7 @@ translate english rich_hotel_event_hall_environment_5ed498fe:
 
     # mt "Пальма..."
     # "Вспоминаю свой отдых на островах..."
-    mt "The palm tree..."
+    mt "Palm tree..."
     "I remember my vacation on the Islands..."
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:105
@@ -91,8 +91,8 @@ translate english rich_hotel_event_hall_environment_1bfda7ac:
 
     # mt "Может быть попросить помощи у кого-нибудь???"
     # "Но вряд-ли это поможет. Судя по виду, здесь все такие же мерзавцы как этот Филип!"
-    mt "Maybe ask for help from someone???"
-    "But it is unlikely to help. Apparently, they're all scoundrels like this Philip!"
+    mt "Maybe I should ask for help from someone???"
+    "But they're unlikely to help. Apparently, they're all scoundrels like that Philip!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:108
 translate english rich_hotel_event_hall_environment_d05e7948:
@@ -103,7 +103,7 @@ translate english rich_hotel_event_hall_environment_d05e7948:
     # "Я придумаю что-нибудь когда верну все назад!"
     mt "Probably a journalist..."
     "I hope my words aren't too public..."
-    "I will have to give them up later, explain that everything was not understood correctly."
+    "I will have to take them back later, and explain that everything was not understood correctly."
     "I'll figure something out when I get my life back!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:114
@@ -112,7 +112,7 @@ translate english rich_hotel_event_hall_environment_0a9c18c7:
     # mt "Постер с обложкой моего журнала."
     # mt "Эта одежда закрывает собой мой постер!"
     mt "A poster with the cover of my magazine."
-    mt "This apparel closes my poster!"
+    mt "This apparel covers my poster!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:118
 translate english rich_hotel_event_hall_environment_c8ebb783:
@@ -120,7 +120,7 @@ translate english rich_hotel_event_hall_environment_c8ebb783:
     # mt "Мелани?! Здесь?!"
     # "А почему не Я?!"
     mt "Melanie?! Here?!"
-    "Why not Me?!"
+    "Why not me?!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:122
 translate english rich_hotel_event_hall_environment_5a2e00d7:
@@ -131,7 +131,7 @@ translate english rich_hotel_event_hall_environment_5a2e00d7:
     # "Я придумаю что-нибудь когда верну все назад!"
     mt "I said some bullshit on that stage..."
     mt "I hope my words aren't too public..."
-    "I will have to give them up later, explain that everything was not understood correctly."
+    "I will have to take them back later, and explain that everything was not understood correctly."
     "I'll figure something out when I get my life back!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:129

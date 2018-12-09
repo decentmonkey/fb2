@@ -10,7 +10,7 @@ translate english whores_place_street1_environment_2d9e048a:
 translate english whores_place_street1_environment_caa91191:
 
     # mt "Что это? Пожарный вентиль? Из позапрошлого века??"
-    mt "What's it? Fire valve? From the last century??"
+    mt "What's this? A fire valve? From the last century??"
 
 # game/Rooms/Whores/whores_place_street1.rpy:48
 translate english whores_place_street1_environment_49ba14d5:
@@ -22,7 +22,7 @@ translate english whores_place_street1_environment_49ba14d5:
 translate english whores_place_street1_environment_6d0614b0:
 
     # mt "Хорошо бы чтоб этот фонарь не упал на меня, пока я здесь иду!"
-    mt "I wish that light wouldn't have fallen on me while I would be walking here!"
+    mt "I wish that light wouldn't fall on me while I'm walking here!"
 
 # game/Rooms/Whores/whores_place_street1.rpy:53
 translate english whores_place_street1_environment_7811010f:

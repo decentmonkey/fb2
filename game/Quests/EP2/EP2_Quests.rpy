@@ -323,6 +323,7 @@ label monica_charity_event_biff_talk4: #я буду хорошей цыпочк�
         call refresh_scene_fade()
         return False
     # уезжают в офис
+    $ add_money(1000)
     call monica_after_charity_event()
     return False
 
@@ -378,8 +379,23 @@ label monica_charity_event_philip_talk3:
 label monica_charity_event_philip_talk4: #танец с согласием на миньет
     if act == "l":
         return
-
-    return
+    call monica_charity_event_dialogue17()
+    if _return == False:
+        call refresh_scene_fade()
+        return False
+    $ remove_hook()
+#    $ hotelStaffOffended1 = False
+    call monica_charity_event_dialogue18() #сцена blowjob
+    $ move_object("Philip", "empty")
+    $ move_object("HotelStaff", "empty")
+    $ set_active("Teleport_Rich_Hotel_Tables", False, scene="rich_hotel_event_hall")
+    if _return == False:
+        call change_scene("rich_hotel_event_hall")
+        return False
+    call monica_charity_event_dialogue19()
+    music stop
+    call monica_after_charity_event()
+    return False
 #    $ add_char_progress("Biff", 20, "photoshot1")
 
 

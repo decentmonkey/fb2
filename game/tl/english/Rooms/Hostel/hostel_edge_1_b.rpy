@@ -7,7 +7,7 @@ translate english hostel_edge_1_b_environment_ede1f3d7:
     # "Нет, я преодолею все заборы в моей жизни!!!"
     # "Я не сдамся!!!"
     mt "Iron fence..."
-    "No, I will pass over all the fences in my life!!!"
+    "No, I will pass all fence like obstacles in my life!!!"
     "I will not give up!!!"
 
 # game/Rooms/Hostel/hostel_edge_1_b.rpy:64

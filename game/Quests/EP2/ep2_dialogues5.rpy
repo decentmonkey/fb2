@@ -847,6 +847,7 @@ label monica_charity_event_dialogue10:
     img 6744
     with fade
     mt "!!!"
+    $ add_money(4000)
     return
 
 label monica_charity_event_dialogue11:
@@ -1028,6 +1029,7 @@ label monica_charity_event_dialogue14:
 
     music Power_Bots_Loop
     img 6849
+    with hpunch
     m "В смысле ротик?"
     "Филип, Вы про что?"
 
@@ -1194,7 +1196,7 @@ label monica_charity_event_dialogue16:
     with fade
     m "Я буду исправно сниматься в фотосессиях и..."
     if monkeysOffended2 == True:
-        $ notif("Моника заставляла моделей проходить обнаженный кастинг")
+        $ notif(_("Моника заставляла моделей проходить обнаженный кастинг"))
         "И пройду твой кастинг перед следующей съемкой..."
     "Буду послушной..."
 
@@ -1207,7 +1209,7 @@ label monica_charity_event_dialogue16:
 
 
     if melanieOffended2 == False and melanieOffended1 == False:
-        $ notif("У Моники хорошие отношения с Мелани")
+        $ notif(_("У Моники хорошие отношения с Мелани"))
         #Моника была добра к Мелани
         music stop
         img 6760
@@ -1221,7 +1223,7 @@ label monica_charity_event_dialogue16:
         #
 
     else:
-        $ notif("У Моники плохие отношения с Мелани")
+        $ notif(_("У Моники плохие отношения с Мелани"))
         #Моника была зла к Мелани
         img 6761
         with fade
@@ -1252,9 +1254,13 @@ label monica_charity_event_dialogue16:
 label monica_charity_event_dialogue17:
     #render
     #Моника обращается к Филипу с танцем повторно
+    $ store_music()
+    music Groove2_85
     img 6864
+    with fade
     w
     img 6865
+    with fade
     philip "Да, Мэм?"
     "Вы надумали еще потанцевать?"
 
@@ -1263,38 +1269,47 @@ label monica_charity_event_dialogue17:
             pass
         "Уйти.":
             img 6866
+            with fade
             m "Нет!"
             philip "Мэм! Спасибо за танец!"
             "Если захотите потанцевать еще, то пригласите меня!"
-            return
+            $ restore_music()
+            return False
 
     m "Да, давай еще потанцуем."
 
     #танцуют
     #музыка
+    music Last_Kiss_Goodnight
     img 6867
     with fadelong
     w
     img 6868
+    with fade
     philip "Мэм! Продолжим наш светский разговор по поводу Вашего ротика?"
 
     img 6869
     w
     menu:
         "Я не собираюсь про это говорить!":
+            music Groove2_85
             img 6870
+            with fade
             m "Я не собираюсь про это говорить!"
             philip "Мэм! Спасибо за танец!"
             "Если захотите потанцевать еще, то пригласите меня!"
-            return
+            $ restore_music()
+            return False
         "Хх... Хорошо... Филип...":
             pass
 
 
+    $ add_corruption(monicaPhilipTalkBlowjob2CorruptionAmount, "monicaPhilipTalkBlowjob2CorruptionAmount")
     m "Хх... Хорошо... Филип..."
     "Давай поговорим про это..."
 
     img 6871
+    with fade
     philip "Итак... Миссис Бакфетт!"
     "$ 500 и мой член в Вашем прекрасном ротике!"
 
@@ -1311,6 +1326,7 @@ label monica_charity_event_dialogue17:
     philip "$ 500, Миссис Бакфетт!"
     "Ваш ротик слишком долго говорит! Скоро он начнет дешеветь!"
 
+    music Villainous_Treachery
     img 6876
     m "$ 1.000!!!"
     "Мне никак нельзя меньше!"
@@ -1342,43 +1358,58 @@ label monica_charity_event_dialogue17:
         "В МОЕМ! (хмык)":
             pass
         "Мне... Мне надо подумать!":
+            music Groove2_85
             img 6884
+            with fade
             m "Мне... Мне надо подумать!"
             philip "Мэм! Спасибо за танец!"
             "Если захотите потанцевать еще, то пригласите меня!"
-            return
+            $ restore_music()
+            return False
 
-
+    music Power_Bots_Loop
+    $ add_corruption(monicaPhilipTalkBlowjob3CorruptionAmount, "monicaPhilipTalkBlowjob3CorruptionAmount")
     img 6885
+    with fade
     m "В МОЕМ!" #очень переживает
     mt "(хмык)"
     img 6886
     w
+    music Last_Kiss_Goodnight
     img 6887
+    with fade
     philip "Хорошо, Миссис Бакфетт!"
     img 6888
+    sound Jump2
     "Давайте еще немного потанцуем!"
     img 6889
     "Я хочу сделать это до того как испорчу помаду у Вас на губах!"
 
     #танцуют
     img 6890
+    with Dissolve(0.5)
     w
     img 6891
+    with Dissolve(0.5)
     w
     img 6892
+    with Dissolve(0.5)
     w
     img 6893
+    with Dissolve(0.5)
     w
     img 6894
+    with Dissolve(0.5)
     w
 
     img 6895
+    with fade
     philip "Мне нравится этот танец!"
     "Мне доставляет удовольствием наблюдать за Вашим ротиком!"
     "Ведь через 5 минут мой член будет глубоко в нем!"
 
     img 6896
+    with fade
     mt "!!!"
     philip "Танцевать при таких обстоятельствах доставляет мне эстетическое удовольствие!"
 
@@ -1386,22 +1417,31 @@ label monica_charity_event_dialogue17:
     mt "!!!"
 
     img 6891
+    with Dissolve(0.5)
     w
     img 6892
+    with Dissolve(0.5)
     w
     img 6893
+    with Dissolve(0.5)
     w
 
+    music Groove2_85
     img 6898
+    with fade
     philip "Достаточно! Пришла пора испортить Ваш макияж, Миссис Бакфетт!"
     img 6899
     "Идемте!"
 
+    $ restore_music()
     return
 label monica_charity_event_dialogue18:
+    music Groove2_85
     #render
     #Туалет. Моника. Филип
+    sound highheels_short_walk
     img 6900
+    with fadelong
     m "Куда ты меня привел, Филип?"
     "Это мужской туалет!"
     img 6901
@@ -1420,13 +1460,26 @@ label monica_charity_event_dialogue18:
     mt "!!!"
 
     img 6905
+    with fade
     philip "Итак, Миссис Бакфетт!"
     "Садитесь на колени! Вам будет неудобно принимать мой член стоя!"
     img 6906
     w
     img 6907
     w
+    label .local1:
+        menu:
+            "Сесть на колени. (corruption)" if corruption >= monicaPhilipBlojwobKneesCorruptionRequired:
+                pass
+            "Сесть на колени. (low corruption) (disabled)" if corruption < monicaPhilipBlojwobKneesCorruptionRequired:
+                jump .local1
+            "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!":
+                img 6904
+                with fade
+                m "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!"
+                return False
     img 6908
+    with fade
     mt "У меня нет времени!"
     "Это единственный выход!"
     "(хмык)"
@@ -1436,19 +1489,24 @@ label monica_charity_event_dialogue18:
 
     #Моника садится
     img 6910
+    with Dissolve(1.0)
     w
     img 6911
     philip "Хорошая девочка..."
+    sound snd_fabric1
     #звук раздевания
     img 6912
     with fadelong
     w
     #звук расстегивания змейки
+    sound snd_zip
     img 6913
     w
     img 6914
+    with fade
     w
     img 6915
+    with Dissolve(0.5)
     w
 
     #Филип подносит член ко рту
@@ -1463,22 +1521,28 @@ label monica_charity_event_dialogue18:
     "Я привык что женщины сами открывают свой ротик чтобы принять мой член внутрь!"
 
     img 6918
+    with fade
     mt "!!!"
 
-    menu:
-        "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!! (убежать)":
-            img 7052
-            m "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!"
-            philip "Мэм! Куда-же ВЫ?!"
-            "Мы ведь только начали!"
-            #уходим в hall без филиппа и helper'а
-            return
-        "Открыть рот...":
-            pass
+    label .local2:
+        menu:
+            "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!! (убежать)":
+                music Pyro_Flow
+                img 7052
+                with fade
+                m "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!"
+                philip "Мэм! Куда-же ВЫ?!"
+                "Мы ведь только начали!"
+                #уходим в hall без филиппа и helper'а
+                return False
+            "Открыть рот... (corruption)" if corruption >= monicaPhilipBlojwobOpenMouthCorruptionRequired:
+                pass
+            "Открыть рот... (low corruption) (disabled)" if corruption < monicaPhilipBlojwobOpenMouthCorruptionRequired:
+                jump local2
 
     #Моника открывает рот
     img 6919
-    with fadelong
+    with Dissolve(0.5)
     w
 
     img 6920
@@ -1489,29 +1553,43 @@ label monica_charity_event_dialogue18:
     "Но поверьте, мне отсюда видно хорошо!"
     img 6922
     "Ваш ротик недостаточно открыт для того чтобы мой член комфортно вошел в него!"
-    menu:
-        "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!! (убежать)":
-            img 7052
-            m "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!"
-            philip "Мэм! Куда-же ВЫ?!"
-            "Мы ведь только начали!"
-            #уходим в hall без филиппа и helper'а
-            return
-        "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!!":
-            pass
+    label .local3:
+        menu:
+            "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!! (убежать)":
+                music Pyro_Flow
+                img 7052
+                with fade
+                m "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!"
+                philip "Мэм! Куда-же ВЫ?!"
+                "Мы ведь только начали!"
+                #уходим в hall без филиппа и helper'а
+                return False
+            "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (corruption)" if corruption >= monicaPhilipBlojwobOpenMouth2CorruptionRequired:
+                pass
+            "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (low corruption) (disabled)" if corruption < monicaPhilipBlojwobOpenMouth2CorruptionRequired:
+                jump local3
     img 6923
+    with Dissolve(0.5)
     w
     img 6924
+    with fade
     w
     img 6925
+    with fade
     w
     img 6926
+    with fade
     w
     img 6927
+    with fade
     w
 
+    # звук хлюпания, вход члена в рот
     img 6928 #?????
     w
+
+    music stop
+    #video
 
     #Моника открывает рот сильнее
     #идет видео минета
@@ -1530,40 +1608,47 @@ label monica_charity_event_dialogue18:
 
 
     #заглядывает рецепшин
+    sound snd_door_open1
     img 6929
+    with fade
     w
     img 6930
     w
+    #видео 13
     img 6931
     reception_t "Ага!"
     "А я уже начала было сомневаться в своем чутье!"
     "Эта шлюха искусно маскируется!"
-    #видео
     img 6933
     "Я почти поверила что она Леди!"
     "В нашей гостинице запрещено заниматься проституцией без разрешения!"
-    #видео
+    #видео 14
 
     img 6932
     "В прошлый раз она приходила с такой же целью, могу поспорить!"
 
 
-
-    #идет видео минета
+    music Groove2_85
     img 6934
+    with fade
     w
+    # звук кончания в рот Филипом
     philip "АААААААРРГГГХХХ!!!"
     img 6935
     w
+    # звук кончания в рот Филипом
     img 6936
+    with fade
     philip "АААААААРРГГГХХХ!!!"
 
     #Моника сидит со спермой
     img 6937
+    with fadelong
     w
     img 6938
     w
     img 6939
+    with fade
     w
 
     img 6940
@@ -1594,38 +1679,47 @@ label monica_charity_event_dialogue18:
     "Что Вы можете предложить взамен?"
 
     img 6946
-    menu:
-        "Я могу сделать это еще раз...":
-            img 6947
-            m "Мистер..."
-            img 6948
-            "Я могу..."
-            "Я могу сделать это еще раз..."
-            img 6949
-            "Вы дадите мне еще $ 500..."
-            img 6950
-            philip "Мэм! Я говорил Вам про то что люблю женщин!"
-            "Женщины не стареют и не теряют своей цены, потому что..."
-            img 6951
-            "Потому что они разные! Разные женщины, Мэм!"
-            "Я никогда! Никогда не вставляю два раза член в одну и ту же женщину!"
-            "Благодаря этому правилу их у меня много и я могу наслаждаться их вкусом!"
-            img 6952
-            m "Но пожалуйста, Мистер!"
-            img 6953
-            philip "Миссис Бакфетт! Я уже купил Ваш ротик!"
-            img 6954
-            "Я не собираюсь еще раз покупать его!!!"
-
-        "Я не знаю... Мне нечего предложить...":
-            img 6955
-            m "Мне нечего предложить, но пожалуйста!"
-            "Мистер!"
-            "Для меня это жизнь или смерть!"
+    label .local4:
+        menu:
+            "Я могу сделать это еще раз... (corruption)" if corruption >= monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired:
+                $ monicaOfferedBlowjobAgain = True
+                img 6947
+                with fade
+                m "Мистер..."
+                img 6948
+                with Dissolve(0.5)
+                "Я могу..."
+                "Я могу сделать это еще раз..."
+                img 6949
+                with Dissolve(0.5)
+                "Вы дадите мне еще $ 500..."
+                img 6950
+                philip "Мэм! Я говорил Вам про то что люблю женщин!"
+                "Женщины не стареют и не теряют своей цены, потому что..."
+                img 6951
+                "Потому что они разные! Разные женщины, Мэм!"
+                "Я никогда! Никогда не вставляю два раза член в одну и ту же женщину!"
+                "Благодаря этому правилу их у меня много и я могу наслаждаться их вкусом!"
+                img 6952
+                m "Но пожалуйста, Мистер!"
+                # звук пальца в ротике Моники
+                img 6953
+                philip "Миссис Бакфетт! Я уже купил Ваш ротик!"
+                img 6954
+                "Я не собираюсь еще раз покупать его!!!"
+            "Я могу сделать это еще раз... (low corruption) (disabled)" if corruption < monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired:
+                jump local4
+            "Я не знаю... Мне нечего предложить...":
+                img 6955
+                m "Мне нечего предложить, но пожалуйста!"
+                "Мистер!"
+                "Для меня это жизнь или смерть!"
 
     img 6956
+    with fade
     philip "Хотя..."
     "Знаете что..."
+    music Power_Bots_Loop
     "Вы сделаете миньет первому мужчине, который зайдет сюда!"
     "Тогда Вы получите еще $ 500!"
     img 6957
@@ -1633,19 +1727,23 @@ label monica_charity_event_dialogue18:
 
     m "Я... Я..."
 
+    music Groove2_85
     #Заходит hotel_staff
+    sound snd_door_open1
     img 6958
     hotel_staff "Ой!"
     img 6959
+    with fade
     "Прошу прощения за беспокойство!"
     "Я зайду позже!"
     philip "Эй! Парень!"
     "Постой-ка!"
 
+    img 6960
+    with Dissolve(0.5)
     hotel_staff "Да, Сэр?"
     philip "Иди-ка сюда!"
 
-    img 6960
     hotel_staff "Да, Сэр? Чем могу быть полезен?"
     img 6961
     philip "У тебя есть член, парень?"
@@ -1672,7 +1770,9 @@ label monica_charity_event_dialogue18:
     "Для меня это кое-что стоит, но я готов потратить эти деньги для такого удовольствия."
 
     img 6966
+    with fade
     "Ты только посмотри кто это!"
+    sound Jump2
     img 6967
     hotel_staff "МИССИС БАКФЕТТ?!?!" #смотрит с ужасом
 
@@ -1686,6 +1786,7 @@ label monica_charity_event_dialogue18:
     "Ты счастливчик!"
 
     img 6970
+    with Dissolve(0.5)
     "Моника Бакфетт сидит в туалете и ждет твой член!"
     "Она ждет его!"
     "Ее ротик приглашает твой член! Чтобы ты вставил его!"
@@ -1693,25 +1794,41 @@ label monica_charity_event_dialogue18:
     #обращается к Монике
     img 6971
     philip "Ну-ка открой свой ротик!"
-    img 6972
-    w
-    img 6973
-    "Приглашай его член!"
-    img 6974
-    w
-    img 6973
-    "Приглашай его член!"
-    "Иначе не получишь деньги!"
-    img 6975
-    w
-    #Моника открывает рот
-    img 6976
-    with Dissolve(0.5)
-    w
-    img 6977
-    philip "Давай, парень!"
-    img 6978
-    philip "Этот ротик приглашает тебя!"
+    label .local5:
+        menu:
+            "Открыть рот для нового члена. (corruption)" if corruption >= monicaPhilipBlojwobOpenMouthAgainCorruptionRequired:
+                img 6978
+                with Dissolve(0.5)
+                w
+                philip "Давай, парень!"
+                img 6977
+                philip "Этот ротик приглашает тебя!"
+
+            "Открыть рот для нового члена. (low corruption) (disabled)" if corruption < monicaPhilipBlojwobOpenMouthAgainCorruptionRequired:
+                jump local5
+            "Не открывать самой...":
+                img 6972
+                with fade
+                w
+                img 6973
+                "Приглашай его член!"
+                img 6974
+                w
+                img 6973
+                "Приглашай его член!"
+                "Иначе не получишь деньги!"
+                img 6975
+                w
+                #Моника открывает рот
+                #звук открывания рта пальцем Филипа
+                img 6976
+                with Dissolve(0.5)
+                w
+                img 6977
+                philip "Давай, парень!"
+                img 6978
+                with fade
+                philip "Этот ротик приглашает тебя!"
     img 6979
     philip "Видишь?"
     img 6980
@@ -1729,6 +1846,7 @@ label monica_charity_event_dialogue18:
     img 6980
     w
     img 6984
+    with fade
     w
     philip "Засовывай же скорее!"
     img 6985
@@ -1745,39 +1863,50 @@ label monica_charity_event_dialogue18:
     #парень смотрит в ужасе
 
     #если Моника была добра к нему
-    img 6990
-    hotel_staff "Сэр!"
-    "Но я не могу этого сделать!"
-    "Эта женщина была добра ко мне!"
-    "Пожалуйста, дайте ей то что она хочет!"
+    if hotelStaffOffended1 == False:
+        $ notif(_("Моника была добра к нему"))
+        img 6990
+        hotel_staff "Сэр!"
+        "Но я не могу этого сделать!"
+        "Эта женщина была добра ко мне!"
+        "Пожалуйста, дайте ей то что она хочет!"
 
-    img 6989
-    philip "Ха-ха!"
-    "Ладно, парень, как хочешь!"
-    #смотрит на Монику
-    img 6991
-    philip "Можешь закрыть свой ротик! Ты заслужила свои деньги!"
-    #Моника закрывает рот
-    img 6992
-    w
-    jump monica_charity_event_dialogue18_end_scene
+        img 6989
+        philip "Ха-ха!"
+        "Ладно, парень, как хочешь!"
+        #смотрит на Монику
+        img 6991
+        with fade
+        philip "Можешь закрыть свой ротик! Ты заслужила свои деньги!"
+        #Моника закрывает рот
+        img 6992
+        with Dissolve(0.5)
+        w
+        jump monica_charity_event_dialogue18_end_scene
 
     #если Моника была зла к нему
+    $ notif(_("Моника обещала уволить его"))
     img 6993
     hotel_staff "А ведь она собиралась уволить меня!"
     philip "Ха-ха!"
     "Тем более!"
+    sound snd_zip
     img 6994
+    with fade
     "Этот ротик заслужил твой член!"
     "Давай! Вставь его! Скорее!"
     #звук одежды
+    sound snd_zip
     img 6995
+    with fade
     w
     img 6996
     w
     img 6997
+    with fade
     w
     img 6998
+    with Dissolve(0.5)
     w
     img 6999
     w
@@ -1786,6 +1915,7 @@ label monica_charity_event_dialogue18:
         philip "Открой рот! Приглашай его член в себя!"
         "Иначе не получишь деньги!!!"
         img 7001
+        w
         #выбор делать или нет и повтор
         menu:
             "Открыть рот. Я решила делать все что говорит Филип. Если я не достану эти деньги, то мне конец!":
@@ -1804,6 +1934,7 @@ label monica_charity_event_dialogue18:
     with Dissolve(0.5)
     w
     img 7005
+    with fade
     w
     img 7006
     w
@@ -1815,24 +1946,30 @@ label monica_charity_event_dialogue18:
     hotel_staff "А она ничего мне потом не сделает за это?"
     philip "Парень! Она не сделает тебе ничего!"
     img 7010
+    with fade
     hotel_staff "Правда, Сэр?"
     philip "Правда, малыш!"
     "Сделай движение вперед, не бойся!"
     hotel_staff "Хорошо, Сэр..."
     #чавкающий звук
+    # звук входа члена в Моникин рот
     img 7011
+    with Dissolve(0.5)
     w
     philip "Смелее, малыш!"
     img 7012
     hotel_staff "Хорошо, Сэр..."
     #чавкающий звук
+    # звук чавкающий
     img 7013
+    with Dissolve(0.5)
     w
     img 7014
     hotel_staff "Так, Сэр?"
     philip "Долби ее в ротик!"
     "Чего ты с ней возишься?!"
 
+    music stop
     #парень начинает ее долбить
     #видео
     hotel_staff "Простите, Мэм!"
@@ -1841,10 +1978,14 @@ label monica_charity_event_dialogue18:
 
 
     #парень кончает
+    # звук кончания Монике в рот
     img 7015
+    with fade
     hotel_staff "Иииииииииииии!!!"
 
+    music Groove2_85
     img 7016
+    with fade
     hotel_staff "Сэр, я могу идти?"
     img 7017
     philip "Сядь и открой рот!"
@@ -1853,74 +1994,116 @@ label monica_charity_event_dialogue18:
         "Делать как сказал Филип...":
             pass
     img 7018
+    with fade
     w
     img 7019
+    with Dissolve(0.5)
     w
+    sound man_steps
     img 7020
+    with fadelong
     w
     img 7021
     philip "Я кое-что забыл..."
 
 
     img 7022
+    with fade
     w
+    # звук слизи1
     img 7023
     with Dissolve(0.5)
     w
+    # звук слизи2
     img 7024
     with Dissolve(0.5)
     w
     img 7025
+    with fade
     philip "Теперь глотай!"
     img 7026
     w
     img 7027
     philip "Глотай! И наша сделка закрыта!"
-    menu:
-        "Проглотить сперму двух мужчин...":
-            pass
-        "Притвориться что проглотила...":
-            pass
-    #звук глотания
-    img 7028
-    w
-    img 7029
-    philip "Еще глоток! Там наверняка что-то осталось!!!"
-    #звук глотания
-    img 7030
-    w
-    img 7031
-    philip "Покажи рот! Покажи что ты все проглотила!"
-    "Иначе никакой сделки!"
+    label .local6:
+        menu:
+            "Проглотить сперму двух мужчин... (corruption)" if corruption >= monicaPhilipBlojwobTakeSpermCorruptionRequired:
+                #звук глотания
+                music stop
+                img 7028
+                with fade
+                w
+                sound snd_gulp
+                w
+                music Groove2_85
+                img 7031
+                with fade
+                philip "Покажи рот! Покажи что ты все проглотила!"
+                "Иначе никакой сделки!"
+                img 7033
+                with Dissolve(0.5)
+                w
+                img 7034
+                with Dissolve(0.5)
+                w
+                img 7035
+                philip "Отлично, спасибо."
+            "Проглотить сперму двух мужчин... (low corruption) (disabled)" if corruption < monicaPhilipBlojwobTakeSpermCorruptionRequired:
+                jump local6
+            "Притвориться что проглотила...":
+                img 7028
+                with fade
+                w
+                img 7029
+                philip "Еще глоток! Там наверняка что-то осталось!!!"
+                #звук глотания
+#                sound snd_gulp
+                img 7030
+                w
+                img 7031
+                with fade
+                philip "Покажи рот! Покажи что ты все проглотила!"
+                "Иначе никакой сделки!"
+                #если не проглотила, то выбор и звук глотания
+                menu:
+                    "Проглотить сперму по настоящему, иначе Филип увидит и я не получу деньги...":
+                        pass
+                music stop
+                img 7032
+                with fade
+                w
+                sound snd_gulp
+                w
+                music Groove2_85
+                img 7033
+                with Dissolve(0.5)
+                w
+                img 7034
+                with Dissolve(0.5)
+                w
+                img 7035
+                philip "Отлично, спасибо."
 
-    #если не проглотила, то выбор и звук глотания
-    menu:
-        "Проглотить сперму по настоящему, иначе Филип увидит и я не получу деньги...":
-            pass
-    #звук глотания
-    #
 
-    img 7032
-    w
-    img 7033
-    w
-    img 7034
-    w
-    img 7035
-    philip "Отлично, спасибо."
+
     img 7036
+    with fade
     philip "Иди, парень! Ты повеселил меня!"
     #звук одежды
+    sound snd_fabric1
     img 7037
     with fadelong
     w
     #бросает деньги и они уходят
+    sound snd_take_paper
     img 7038
+    with fade
     philip "Вот Ваши деньги, Миссис Бакфетт!"
     img 7039
     "Я найду Вас когда захочу попробовать Вашу попку!"
 
     img 7040
+    with fade
     m "Пожалуйста!"
     "Не говорите про это никому!!!"
 
@@ -1929,6 +2112,7 @@ label monica_charity_event_dialogue18:
     "Я никому не скажу!"
 
     #закрывается дверь
+    sound snd_door_close1
     img 7042
     with fadelong
     mt "Что это?"
@@ -1942,7 +2126,9 @@ label monica_charity_event_dialogue18:
     "У меня теперь есть деньги для Дика!"
     "Я нашла их! Я сделала это!!!"
 
+    $ add_money(1000)
     img 7045
+    with fade
     mt "Но что..."
     "ЧТО ЭТО БЫЛО???"
     "Я ДАЖЕ НЕ МОГУ ОСОЗНАТЬ ТОГО ЧТО ПРОИЗОШЛО!!!"
@@ -1960,28 +2146,38 @@ label monica_charity_event_dialogue18:
     "Но какая жизнь теперь после того что случилось???"
 
     img 7047
+    with fade
     mt "Я, пожалуй, забуду о том что произошло здесь."
     "Даже если кто-то расскажет, все-равно этому никто не поверит!"
     "Что Моника Бакфетт могла сделать такое! Это звучит как абсурд!"
 
     #если Моника сучка
-    img 7048
-    mt "Ну а что касается того кто здесь был..."
-    "Когда я решу свои небольшие проблемы, я найду Маркуса и узнаю у него..."
-    "Наверняка есть какое-нибудь Ранчо 219 или что-то вроде того..."
-    img 7049
-    mt "ДЛЯ МУЖЧИН!!!"
-    "И кое-кто направится прямиком туда!!!"
-    "И я не успокоюсь пока этого не случится!!!"
-    "Никто не смеет сделать подобное с Моникой Бакфетт и остаться в живых!!!"
-    "Клянусь!!!"
-    #
+    if monicaBitch == True:
+        music Pyro_Flow
+        $ notif_monica()
+        img 7048
+        with fade
+        mt "Ну а что касается того кто здесь был..."
+        "Когда я решу свои небольшие проблемы, я найду Маркуса и узнаю у него..."
+        "Наверняка есть какое-нибудь Ранчо 219 или что-то вроде того..."
+        img 7049
+        with fade
+        mt "ДЛЯ МУЖЧИН!!!"
+        "И кое-кто направится прямиком туда!!!"
+        "И я не успокоюсь пока этого не случится!!!"
+        "Никто не смеет сделать подобное с Моникой Бакфетт и остаться в живых!!!"
+        "Клянусь!!!"
+        #
 
+    music Groove2_85
     img 7050
+    with fade
     mt "Но что мне сейчас делать?"
 
     img 7051
+    with Dissolve(0.5)
     mt "Мне надо умыться и {b}идти к Дику{/b}..."
+    sound snd_water_hose
     #звук воды
     w
 
@@ -1993,14 +2189,16 @@ label monica_charity_event_dialogue18:
 
 
 
-    return
+    return True
 
 
 label monica_charity_event_dialogue19:
     #Моника разговаривает с Бифом, рядом сидит Мелани, разговор по поводу того чтобы уехать
+    music Pyro_Flow
     img 6765
+    with fade
     m "Биф! Я ухожу отсюда!"
-    imt 6766
+    img 6766
     biff "Постой, детка! Мы вместе поедем сейчас в офис!"
     "Ты забыла там свою одежду!"
     "Ха-ха-ха!"
@@ -2020,7 +2218,7 @@ label monica_office_biff_dialogue_evening1:
 
 
     if monkeysOffended2 == True:
-        $ notif("Моника заставляла моделей проходить обнаженный кастинг")
+        $ notif(_("Моника заставляла моделей проходить обнаженный кастинг"))
         #Если Моника раздевала мартышек
         img 7055
         biff "А попа! Ты собираешься мне ее показывать или нет?"

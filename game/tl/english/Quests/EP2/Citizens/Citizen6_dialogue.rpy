@@ -16,13 +16,13 @@ translate english citizen6_dialogue_0c39bd32:
 translate english citizen6_dialogue_67f2556b:
 
     # citizen6 "Да, Леди? Что Вы хотели?"
-    citizen6 "Yes, Lady? What did you want?"
+    citizen6 "Yes, lady? What do you want?"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:15
 translate english citizen6_dialogue_05979ea1:
 
     # m "Возьмите, пожалуйста, этот флаер..."
-    m "Please take this flyer..."
+    m "Please, take this flyer..."
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:19
 translate english citizen6_dialogue_f0f6a680:
@@ -35,8 +35,8 @@ translate english citizen6_dialogue_d17d4b50:
 
     # citizen6 "Какой красивый флаер! Прямо такой-же как Вы!"
     # m "Спасибо конечно, но меня не нужно сравнивать с флаером."
-    citizen6 "What a beautiful flyer! Just the same as you are!"
-    m "Thank you, but I don't need to be compared to the flyer."
+    citizen6 "What a beautiful flyer! Just like you!"
+    m "Thank you, but I don't need to be compared to a flyer."
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:25
 translate english citizen6_dialogue_02f91a1d:
@@ -50,11 +50,11 @@ translate english citizen6_dialogue_02f91a1d:
 translate english citizen6_dialogue_46c66cc7:
 
     # citizen6 "Какой красивый флаер! Прямо такой-же как Вы!"
-    citizen6 "What a beautiful flyer! Just the same as you are!"
+    citizen6 "What a beautiful flyer! Just like you!"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:25
 translate english citizen6_dialogue_ef801c40:
 
     # m "Спасибо конечно, но меня не нужно сравнивать с флаером."
-    m "Thank you, but I don't need to be compared to the flyer."
+    m "Thank you, but I don't need to be compared to a flyer."
 

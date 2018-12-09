@@ -42,7 +42,7 @@ translate english dick_office_secretary_environment_a01693e5:
 translate english dick_office_secretary_environment_855f2908:
 
     # mt "Похоже здесь эта сучка печатает документы Дику на подпись."
-    mt "Looks like this bitch prints the documents to Dick for signature."
+    mt "Looks like this bitch prints the documents for Dick to sign."
 
 # game/Rooms/Dick_Office/dick_office_secretary.rpy:65
 translate english dick_office_secretary_environment_a580040a:
@@ -70,7 +70,7 @@ translate english dick_office_secretary_environment_7019b42d:
 translate english dick_office_secretary_environment_1f8599a5:
 
     # mt "Она много на себя берет!"
-    mt "Она много на себя берет!"
+    mt "She takes on a lot!"
 
 # game/Rooms/Dick_Office/dick_office_secretary.rpy:52
 translate english dick_office_secretary_environment_7019b42d_1:
@@ -82,5 +82,5 @@ translate english dick_office_secretary_environment_7019b42d_1:
 translate english dick_office_secretary_environment_1f8599a5_1:
 
     # mt "Она много на себя берет!"
-    mt "Она много на себя берет!"
+    mt "She takes on a lot!"
 

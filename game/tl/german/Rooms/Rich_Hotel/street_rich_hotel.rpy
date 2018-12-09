@@ -48,3 +48,13 @@ translate german street_rich_hotel_environment_b65fa23a:
     m "La Grand?"
     "So abgedroschen..."
 
+# TODO: Translation updated at 2018-12-09 22:47
+
+# game/Rooms/Rich_Hotel/street_rich_hotel.rpy:35
+translate german street_rich_hotel_teleport_c9a1d674:
+
+    # mt "Я доказала этой сучке на рецепшине что Я - ЛЕДИ!"
+    # "И не хочу портить впечатление."
+    mt "Я доказала этой сучке на рецепшине что Я - ЛЕДИ!"
+    "И не хочу портить впечатление."
+

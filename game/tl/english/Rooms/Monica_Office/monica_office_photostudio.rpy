@@ -10,7 +10,7 @@ translate english monica_office_photostudio_environment_7c6cf6c0:
 translate english monica_office_photostudio_environment_2cdb093b:
 
     # m "Этот световой бокс для заполняющего света, снизу."
-    m "This lightbox is for fill light, from below."
+    m "This lightbox is for light coming from below."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:56
 translate english monica_office_photostudio_environment_19bbca79:
@@ -18,13 +18,13 @@ translate english monica_office_photostudio_environment_19bbca79:
     # m "Какие-то ящики с хламом."
     # "Конечно там не хлам, а дорогое оборудование, но тем не менее..."
     m "Some boxes of junk."
-    "Of course there is not trash, but expensive equipment, but nevertheless..."
+    "Of course it is not trash, it's expensive equipment, but still..."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:59
 translate english monica_office_photostudio_environment_bd7900bd:
 
     # m "Полотно для фона во время съемок."
-    m "The canvas for the background for filming."
+    m "The canvas used for the background of the photos."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:62
 translate english monica_office_photostudio_environment_e31cc57e:
@@ -57,20 +57,20 @@ translate english monica_office_photostudio_environment_cfb586fd:
 
     # "Мелани - это топ-модель на сегодняшний день."
     # "Похоже она неплохо себя чувствует пока меня нет..."
-    "Мелани - это топ-модель на сегодняшний день."
-    "Похоже она неплохо себя чувствует пока меня нет..."
+    "Melanie is the top model today."
+    "Looks like she feels rather well while I'm not here..."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:52
 translate english monica_office_photostudio_environment_4fe49e73:
 
     # mt "Алекс - мой фотограф. Самый лучший профессионал в стране, которого можно купить за деньги."
-    mt "Алекс - мой фотограф. Самый лучший профессионал в стране, которого можно купить за деньги."
+    mt "Alex is my photographer. The best professional in the country that can be bought."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:59
 translate english monica_office_photostudio_environment_c0e618d6:
 
     # mt "Этот световой бокс для заполняющего света, снизу."
-    mt "This lightbox is for fill light, from below."
+    mt "This lightbox is for light coming from below."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:61
 translate english monica_office_photostudio_environment_37b032ab:
@@ -78,13 +78,13 @@ translate english monica_office_photostudio_environment_37b032ab:
     # mt "Какие-то ящики с хламом."
     # "Конечно там не хлам, а дорогое оборудование, но тем не менее..."
     mt "Some boxes of junk."
-    "Of course there is not trash, but expensive equipment, but nevertheless..."
+    "Of course it is not trash, it's expensive equipment, but still..."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:64
 translate english monica_office_photostudio_environment_5128fefb:
 
     # mt "Полотно для фона во время съемок."
-    mt "The canvas for the background for filming."
+    mt "The canvas used for the background of the photos."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:67
 translate english monica_office_photostudio_environment_40a9ebdb:

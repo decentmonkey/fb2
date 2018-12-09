@@ -4,7 +4,7 @@
 translate english question_helper_hairdye_99c30ae8:
 
     # help "Подойти к зеркалам и взять краску для волос."
-    help "Come to the mirror and take the hair dye."
+    help "Go to the mirror and take the hair dye."
 
 # game/Quests/Question_Helper_Info.rpy:9
 translate english question_helper_hairdye_446cd0a1:
@@ -16,7 +16,7 @@ translate english question_helper_hairdye_446cd0a1:
 translate english question_helper_hairdye_find_julia_87501fac:
 
     # help "Юлия в подвале. Вход в подвал у лестницы на нижнем этаже."
-    help "Julia is in the basement. Entrance to the basement at the stairs on the ground floor."
+    help "Julia is in the basement. The basement entrance is at the stairs on the ground floor."
 
 # game/Quests/Question_Helper_Info.rpy:33
 translate english question_helper_laundry_e020c3e0:
@@ -94,7 +94,7 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:2
     old "Посмотреть подсказку"
-    new "Look a hint."
+    new "Look for a hint."
 
     # Quests/Question_Helper_Info.rpy:2
     old "Продолжить игру."
