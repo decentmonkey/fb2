@@ -146,3 +146,31 @@ translate english strings:
     old "Не убираться сегодня..."
     new "Don't clean today..."
 
+# TODO: Translation updated at 2018-12-10 00:04
+
+translate english strings:
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:207
+    old "Верхний холл."
+    new "Upper hall"
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:209
+    old "Нижний холл."
+    new "Lower hall"
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:211
+    old "Спальню Барди."
+    new "Bardie's bedroom."
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:213
+    old "Спальню для гостей."
+    new "Guest bedroom."
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:215
+    old "Гостиную."
+    new "Living room"
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:217
+    old "Мою бывшую спальню."
+    new "My former bedroom."
+

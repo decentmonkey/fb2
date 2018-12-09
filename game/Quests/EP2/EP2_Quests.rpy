@@ -174,7 +174,6 @@ label monica_office_biff_talk_about_work1: #Моника разговарива�
     return False
 
 label monica_office_biff_talk_about_work1_next_day: # Если вчера была не пятница, то вешаем хуки об отсутствии Бифа до пятницы (хрень какая-то, так и есть :) )
-    m "monica_office_biff_talk_about_work1_next_day"
     $ remove_hook()
     $ remove_hook(label="biff_refuse1")
     $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_secretary_dialogue4", scene="monica_office_secretary", label="biff_refuse1", priority=160)

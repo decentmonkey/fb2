@@ -146,3 +146,31 @@ translate german strings:
     old "Не убираться сегодня..."
     new ""
 
+# TODO: Translation updated at 2018-12-10 00:05
+
+translate german strings:
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:207
+    old "Верхний холл."
+    new ""
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:209
+    old "Нижний холл."
+    new ""
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:211
+    old "Спальню Барди."
+    new ""
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:213
+    old "Спальню для гостей."
+    new ""
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:215
+    old "Гостиную."
+    new ""
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:217
+    old "Мою бывшую спальню."
+    new ""
+
