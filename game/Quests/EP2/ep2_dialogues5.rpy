@@ -1,11 +1,52 @@
+label monica_rich_hotel_event_drive:
+    # едут на event
+    music stop
+    img scene_Street_Monica_Office_Evening
+    with fade
+    sound snd_car_door
+    $ renpy.pause (1.0, hard=True)
+    sound snd_car_turn_on
+    $ renpy.pause (1.0, hard=True)
+    img scene_Map_Evening
+    with fade
+    sound snd_car_engine
+    $ renpy.pause(6.0, hard=True)
+    img scene_Street_Rich_Hotel_Evening
+    with fade
+    sound snd_car_door
+    $ renpy.pause (2.0, hard=True)
+    music m80s_Things
+    $ renpy.pause (2.0, hard=True)
+    return
+
+label monica_rich_hotel_event_drive_back:
+    sound highheels_short_walk
+    img scene_Street_Rich_Hotel_Evening
+    with fadelong
+    sound snd_car_door
+    $ renpy.pause (1.0, hard=True)
+    sound snd_car_turn_on
+    $ renpy.pause (1.0, hard=True)
+    img scene_Map_Evening
+    with fade
+    sound snd_car_engine
+    $ renpy.pause(6.0, hard=True)
+    img scene_Street_Monica_Office_Evening
+    with fade
+    sound snd_car_door
+    $ renpy.pause (2.0, hard=True)
+    return
 label monica_rich_hotel_entrance:
     #render
     #Идет Биф, Моника, Мелани, стоит администратор на рецепшине
     img 6659
+    with fade
     w
     img 6660
+    with Dissolve(0.5)
     w
     img 6661
+    with fade
     biff "Добрый вечер!"
     "Я веду этих цыпочек на благотворительный вечер!"
     img 6662
@@ -14,25 +55,30 @@ label monica_rich_hotel_entrance:
     reception "Проходите, господа!"
     "Мы Вам рады!"
     img 6664
+    with fade
     w
     img 6665
+    with Dissolve(0.5)
     w
     #Смотрят друг на друга
     img 6666
+    with fade
     w
     img 6667
     w
     img 6668
     reception_t "Эта шлюха???"
     img 6669
+    with fade
     w
     img 6670
     "Что она делает здесь???"
     img 6671
+    with fade
     w
 
     img 6672
-    with fadelong
+    with fade
     mt "Ну что, сучка, получила???"
     "Убедилась что Я - Леди!"
     "А ты - никто!"
@@ -44,38 +90,55 @@ label monica_charity_event_dialogue1:
     #Моника, Биф, Мелани заходят в зал, их встречает hotel staff
     #звук лифта
     img 6673
+    with fadelong
     hotel_staff "Добрый вечер, господа!"
     "Пожалуйста, проходите!"
     img 6674
+    with Dissolve(0.5)
     "Все уже готово!"
     "Все давно ждут!"
 
     img 6675
+    with fade
     biff "Ты все подготовил?"
     "Хороший мальчик!"
 
     img 6676
+    with fade
     biff "Моника, Мелани! Быстро на сцену!"
     "Отрабатывайте свои деньги!"
 
     img 6677
+    with fade
     mt "Я не поняла! Это что еще такое?!"
     img 6678
+    with fade
     "Почему мой {b}постер завешен одеждой{/b}?!?!"
     return
 
 label monica_charity_event_dialogue2:
     #render
     #Моника, Биф, Мелани стоят на сцене и говорят речь
+    $ _dismiss_pause = False
+    img black_screen
+    with Dissolve(2.0)
+    $ renpy.pause(2.0, hard=True)
+    music audience
     img 6679
+    with fadelong
+    show screen Reporters_Shoots_Screen
+    $ _dismiss_pause = True
     biff "Господа!"
     "Я рад приветствовать Вас на этом благотворительном вечере!"
 
+    hide screen Reporters_Shoots_Screen
+    show screen Reporters_Shoots_Screen2
     img 6680
     mt "Мелани?! Здесь?!"
     "А почему не Я?!"
 
     img 6681
+    with fade
     biff "Как Вы знаете, наш журнал является законодателем Моды!"
     "Это самое авторитетное издание из всех подобных!"
 
@@ -88,8 +151,9 @@ label monica_charity_event_dialogue2:
     "Все имеет свое начало и имеет свой финал!"
     "Сегодня я хочу объявить Вам о том что долгий путь закончен!"
     img 6684
+    with fade
     "Мода больше не является краеугольным камнем нашего творчества!"
-
+    sound audience_wow
     #ропот зала
     w
     img 6685
@@ -102,9 +166,11 @@ label monica_charity_event_dialogue2:
     "Это отражено в живописе и поэзии!"
 
     img 6686
+    with Dissolve(0.5)
     "Потому новый курс журнала будет направлен на женское тело!"
     "Мы видим в этом огромный потенциал!"
     img 6687
+    with fade
     "И, хоть многие с нами пока не согласны, я уверен что они придут к выводу что мы были правы!"
     img 6688
     "Наши конкуренты последуют за нами!"
@@ -114,12 +180,15 @@ label monica_charity_event_dialogue2:
     "Потому я предоставляю слово лицу Модного Журнала..."
     "Монике Бакфетт!!!"
     img 6690
+    with fade
     w
     #восторженный ропот зала
+    sound applause2
     img 6691
     w
 
     img 6692
+    with fade
     biff "Ну, давай кукла!"
     "Притворись Моникой Бакфетт!"
 
@@ -129,6 +198,7 @@ label monica_charity_event_dialogue2:
     "Ты привыкла сосать члены, но сюда надо говорить!"
 
     img 6695
+    with fade
     m "Я знаю, Биф!"
     "Заткнись!"
 
@@ -138,10 +208,12 @@ label monica_charity_event_dialogue2:
     #scene
     #нажатие на Мелани
     #scene
+    return
 
 label monica_charity_event_dialogue2a:
     #нажатие на Монику
     img 6696
+    with fade
     m "..."
     img 6700
     mt "Черт! Что же мне делать?!"
@@ -154,28 +226,56 @@ label monica_charity_event_dialogue2a:
     "Что же мне делать???"
     menu:
         "Сказать всем правду!":
+            music Power_Bots_Loop
             img 6701
+            with fade
             m "Я - Моника Бакфетт!"
             "И я хочу объявить о преступлении, которое совершено в отношении меня!"
             img 6702
+            music stop
+            pause(1.0)
+            sound microphone_off
             empty_name "Выключается микрофон."
+            $ renpy.pause(1.0, hard=True)
+            music Power_Bots_Loop
             img 6703
-            "Меня незаконно обвинили в том, чего я не совершала!"
+            m "Меня незаконно обвинили в том, чего я не совершала!"
             "У меня отняли счета и документы!"
             "И теперь шантажируют, заставляя говорить немыслимые вещи!"
             "Помогите мне!!!"
             #затемнение. спустя несколько часов
-
+            music stop
+            img black_screen
+            with Dissolve(2.0)
+            call textonblack(_("Несколько часов спустя..."))
+            img black_screen
+            with Dissolve(2.0)
+            music Gearhead
+            img 2530
+            with fadelong
             marcus "Что-ж, Миссис Бакфетт!"
             "Хорошая попытка!"
+            img 2533
             "Должен признать Вам что я проиграл."
+            img 2542
             m "..."
+            img 2533
+            with fade
             marcus "Да, я проиграл лучший виски на моем ранчо!"
+            img 2571
             "Вы продержались больше одного дня!"
             "И Вы вернулись сюда... Феерично!"
+            img 2563
+            with fade
             "Вы отправитесь на Ранчо прямо из этого кабинета..."
-
+            img 2572
+            sound snd_woman_scream2
             m "НЕЕЕЕЕТ!!!"
+            music stop
+            call textonblack(_("Продолжение следует..."))
+            img black_screen
+            with Dissolve(1)
+            $ renpy.full_restart(transition=Fade(1.0, 1.0, 1.0))
             # конец игры
             return
 
@@ -186,41 +286,59 @@ label monica_charity_event_dialogue2a:
             "Мне надо сказать эти гребаные слова и заработать деньги на чертов галстук!"
 
             img 6704
+            with fade
             m "..."
             m "Я - Моника Бакфетт!"
             "И я подтверждаю слова Мистера Бифа!"
             "Наш журнал изменит свой курс!"
 
             #ропот в зале
+            sound audience_wow
             img 6705
+            with fade
             m "..."
             biff "Ну, курица! Скажи что-нибудь еще!!!"
 
             img 6706
+            with fade
             mt "!!!"
 
             img 6707
+            with fade
             m "Старый курс морально устарел..."
             "Новые времена диктуют новые тренды..."
             img 6708
             "Я благодарна Мистеру Бифу за новые идеи..."
             "Наш журнал должен преобразиться..."
+            sound applause1
             "Спасибо Вам за то что Вы пришли..."
 
             img 6709
+            with fade
             biff "Молодец, цыпочка!"
             "Продолжай играть!"
 
             #появляется рецепшин и смотрит на Монику
+            music Hidden_Agenda
             img 6710
+            with fadelong
             reception_t "Не понимаю..."
             "Она выступает на сцене..."
             img 6711
+            with fade
+            sound applause2
             "Неужели она правда Леди?"
             "Но этого не может быть!"
             img 6712
             "Мое чутье никогда не обманывало меня!"
 
+            music
+            hide screen Reporters_Shoots_Screen2
+            hide screen Reporters_Shoots_Screen
+            hide screen Reporters_Shoots_Screen3
+            show screen Reporters_Shoots_Screen
+#            show screen Reporters_Shoots_Screen3
+            music audience
             #меняется фон, Моника внизу отвечает на вопросы журналистов
             img 6713
             with fadelong
@@ -230,11 +348,14 @@ label monica_charity_event_dialogue2a:
             reporter3 "Мы слышали что Вы только что провели фотосессию!"
             "Вы решили сняться обнаженной?"
             img 6714
+            with fade
             m "Нет, что вы?"
             "Это всего-лишь курс журнала!"
             "Я не собираюсь сниматься обнаженной!"
             "Я - Леди!"
             "И у меня есть достоинство!"
+            hide screen Reporters_Shoots_Screen
+            show screen Reporters_Shoots_Screen2
             img 6715
             with fadelong
             reporter1 "Но мы слышали что это необычная фотосессия!"
@@ -249,14 +370,19 @@ label monica_charity_event_dialogue2a:
             img 6718
             reporter1 "Собираетесь-ли Вы продолжать эксперименты?"
             reporter3 "Многие хотели-бы увидеть больше!"
+            hide screen Reporters_Shoots_Screen
+            hide screen Reporters_Shoots_Screen2
+            hide screen Reporters_Shoots_Screen3
+            music Power_Bots_Loop
             img 6719
             m "Нет..."
             "Это разовый случай..."
             "Скажите этим МНОГИМ что они могут не рассчитывать на большее!"
             "Интервью закончено!"
             reporter1 "Спасибо, Миссис Бакфетт!"
+            return
         "Еще подумать...":
-            pass
+            return False
     return
 
 
@@ -271,12 +397,15 @@ label monica_charity_event_dialogue3:
 label monica_charity_event_dialogue4a:
     #Моника пытается выйти в туалет или на выход
     mt "Я не собираюсь уходить пока не получу деньги от Бифа!"
-    return
+    return False
 
 label monica_charity_event_dialogue4:
     #render
     #Моника разговаривает с Бифом. Рядом сидит Мелани
+    $ store_music()
+    music Stealth_Groover
     img 6720
+    with fade
     m "Биф!"
     "Ты удовлетворен выступлением?"
     biff "Да, цыпочка!"
@@ -303,6 +432,8 @@ label monica_charity_event_dialogue4:
     img 6726
     m "Хорошо, Биф."
     "Я подожду..."
+
+    $ restore_music()
     return
 
 
@@ -316,12 +447,16 @@ label monica_charity_event_dialogue5:
 label monica_charity_event_dialogue6:
     #render
     #Моника разговаривает с Hotel Staff
+    $ store_music()
+    music Stealth_Groover
     img 6767
+    with fade
     hotel_staff "Мэм!"
     "Хорошего вечера!"
     "Надеюсь Вам все нравится!"
 
     img 6768
+    with fade
     m "Это ты отвечаешь за порядок здесь???"
 
     img 6769
@@ -344,17 +479,21 @@ label monica_charity_event_dialogue6:
     hotel_staff "Я точно не знаю, Мэм! Я..."
 
     img 6773
+    with fade
     m "НА НЕМ ИЗОБРАЖЕНА Я!!!"
 
     m "А ты знаешь кто Я???"
-
 
     hotel_staff "Вы - Моника Бакфетт, Мэм..." #испуганно
 
     m "Верно! И не только!"
     menu:
         "Я - та кто уволит тебя за этот проступок!":
+            music Pyro_Flow
+            $ hotelStaffOffended1 = True
             img 6774
+            with fade
+            call bitch(20, "hotelStaffOffended1")
             m "Я - та кто уволит тебя за этот проступок!"
             "Ты - мелкий червь, который не понимает величия таких людей как Я!"
             "Можешь считать что ты уже не работаешь здесь!"
@@ -373,42 +512,58 @@ label monica_charity_event_dialogue6:
             hotel_staff "..." #жалобный
 
         "Я понимаю. У тебя много забот...":
+            music Hidden_Agenda
             img 6779
+            with fade
+            call bitch(-20, "hotelStaffOffended1")
             m "Ладно... Я понимаю что у тебя много забот."
             "От тебя требуют многого, а здесь действительно нет больше места..."
             img 6780
             hotel_staff "Мэм! Спасибо что меня понимаете!"
             img 6781
+            with fade
             mt "В конце концов я не в том положении чтобы еще кого-то увольнять..."
 
+    $ restore_music()
     return
 
 label monica_charity_event_dialogue7:
     #render
     #Моника разговаривает с Hotel Staff повторно
+    $ store_music()
+    if hotelStaffOffended1 == True:
+        #если Моника нагрубила
+        music Pyro_Flow
+        img 6782
+        with fade
+        hotel_staff "Мэм! Пожалуйста!"
+        "Прошу Вас передумать!"
+        m "Я не передумаю, мальчик!"
 
-    #если Моника нагрубила
-    img 6782
-    hotel_staff "Мэм! Пожалуйста!"
-    "Прошу Вас передумать!"
-    m "Я не передумаю, мальчик!"
+    else:
+        #если Моника пожалела
+        music Hidden_Agenda
+        img 6783
+        with fade
+        hotel_staff "Мэм! Прошу прощения!"
+        "В следующий раз такого не повторится!"
 
-    #если Моника пожалела
-    img 6783
-    hotel_staff "Мэм! Прошу прощения!"
-    "В следующий раз такого не повторится!"
+    $ restore_music()
     return
 
 
 label monica_charity_event_dialogue8:
     #render
     #Моника знакомится с Филипом
+    $ store_music()
     img 6784
+    with fade
     philip "Добрый вечер, Миссис Бакфетт!"
     "Разрешите представиться? Меня зовут Филип."
     "Позвольте мне угостить Вас вином?"
 
     img 6785
+    with fade
     mt "Фи! Очередной прилипала!"
     "Надо отшить его!"
     "..."
@@ -421,22 +576,32 @@ label monica_charity_event_dialogue8:
         "Согласиться...":
             pass
         "Отказаться...":
+#            music Pyro_Flow
             m "Здесь слишком много поклонников!"
             "Вы ничем не выделяетесь среди них!"
+            $ restore_music()
             #уход на сцену
-            return
+            return False
 
     img 6786
+    with fade
     m "Добрый вечер, Филип!"
     "Хорошо... Я позволю тебе угостить меня."
     "Куда ты хочешь пригласить такую даму как Я?"
     img 6787
+    with fade
     philip "Я бы хотел пригласить такую прекрасную даму за столик!"
     m "Хорошо, пойдем..."
 
-    #сидят за столиком
+    $ restore_music()
+    return
 
+label monica_charity_event_dialogue8a:
+    #сидят за столиком
+#    $ store_music()
     img 6788
+    with fade
+    sound pour_wine
     #звук наливаемого вина
     philip "Мэм! Позвольте я налью Вам вина!"
 
@@ -450,6 +615,7 @@ label monica_charity_event_dialogue8:
     m "Что привело тебя к такому занятию?"
 
     img 6791
+    with fade
     philip "Мэм! Я люблю вино!"
     "А вино - это продукт, который со временем становится дороже!"
     "К сожалению, время летит быстро и все остальные вещи теряют ценность!"
@@ -462,6 +628,7 @@ label monica_charity_event_dialogue8:
     philip "Я также очень люблю женщин, Мэм!"
 
     img 6794
+    with fade
     m "Но как же, на женщин время оказывает влияние, в отличие от живописи..."
 
     img 6795
@@ -470,19 +637,25 @@ label monica_charity_event_dialogue8:
     "Я знаю Вас заочно с тех времен, когда Вы только вошли в круги моды!"
     "И скажу, что Вы один из тех драгоценных камней, которые неподвластны времени!"
     img 6796
+    with fade
     "С каждый годом Вы становитесь женственнее и привлекательнее!"
     "Вы - настоящее чудо, Мэм!"
 
     img 6797
     w
     mt "Хи-хи..."
-    #если сучка
-    mt "Какой очаровательный плюшевый мишка..."
-    "Может быть стоит поиграть с ним..."
-    #если не сучка
-    mt "Кажется я ему нравлюсь. Стоит узнать про него побольше..."
+    if monicaBitch == True:
+        $ notif_monica()
+        #если сучка
+        mt "Какой очаровательный плюшевый мишка..."
+        "Может быть стоит поиграть с ним..."
+    else:
+        #если не сучка
+        $ notif_monica()
+        mt "Кажется я ему нравлюсь. Стоит узнать про него побольше..."
 
     img 6798
+    with fade
     m "И как идут Ваши дела, Филип?"
     "Вы достаточно успешны?"
 
@@ -491,6 +664,7 @@ label monica_charity_event_dialogue8:
     "Я не сравнюсь с Вами, но, думаю, мое состояние - это половина Вашего, Мэм!"
 
     img 6800
+    with fade
     mt "Хм... А он богат..."
     "И, судя по всему, простачок..."
     "Мне бы очень непомешало обзавестись таким..."
@@ -500,19 +674,23 @@ label monica_charity_event_dialogue8:
     "Это не выглядит сложным."
     "Надо только немного подыграть ему."
     img 6801
+    with Dissolve(0.5)
     "Конечно, я не собираюсь спать с ним!"
     "Об этом бедняга может только мечтать!"
 
     img 6802
+    with fade
     m "И на что Вы готовы ради прекрасной женщины, Филип?"
     philip "О, Мэм! Ради прекрасной женщины я готов на все!"
 
     img 6803
+    with fade
     m "А кто я для Вас, Филип?"
     img 6804
     philip "Мэм! Вы самая прекрасная женщина на свете!"
     "Мое сердце принадлежит Вам!"
     img 6805
+    with fade
     m "Живопись... У меня в доме висит много картин..."
 
     img 6806
@@ -525,6 +703,7 @@ label monica_charity_event_dialogue8:
     "Я буду счастлив подарить их Вам!"
 
     img 6807
+    with fade
     mt "Хитрец пытается заманить меня к себе в дом..."
     "Я знаю все эти глупые мужские штучки..."
     "У него нет никаких шансов обыграть меня..."
@@ -533,9 +712,12 @@ label monica_charity_event_dialogue8:
     "А они мне сейчас нужны..."
 
     img 6808
+    with Dissolve(0.5)
     m "Филип! Налейте самой прекрасной даме еще вина!"
 
     img 6809
+    with fade
+    sound pour_wine
     philip "Конечно, Мэм!"
     #наливает вино
 
@@ -546,25 +728,32 @@ label monica_charity_event_dialogue8:
     img 6811
     mt "Танец?"
     "У меня ощущение что вино начало слегка давать мне в голову."
-    img 6812
+#    img 6812
+    img 6814
+    with fade
     "Вкусный ужин, вино..."
     "Пресса, внимание..."
     "Я начинаю чувствовать себя как раньше..."
     img 6813
+    with fade
     "Может не все так уж и плохо?"
     "Прежняя жизнь возвращается..."
-    img 6812
+    img 6811
+    with fade
     "Меня все любят и уважают..."
     "У меня есть власть..."
     "Мужчины стараются чтобы понравиться мне..."
     "..."
     img 6814
+    with fade
     "Танец?"
     "Почему-бы и нет?"
     "Но мне надо сначала сходить забрать деньги у Бифа."
     "Они мне уже не понадобятся, скорее всего."
     "Этот Филип покроет любые мои возможные расходы, но все-же..."
+    music Stealth_Groover
     img 6815
+    with fadelong
     m "Филип."
     "Я не уверена насчет танцев и вообще..."
     "Я отойду и подумаю над твоим предложением..."
@@ -576,24 +765,27 @@ label monica_charity_event_dialogue8:
     "Тогда он будет в моих руках..."
 
     img 6817
+    with fade
     philip "Мэм? Я что-то сделал не так?" #грустно
     "Прошу простить меня если так..."
 
     img 6818
+    with Dissolve(0.5)
     m "Ты подумай пока, а я скоро вернусь... возможно..."
-
+#    $ restore_music()
     return
 
 label monica_charity_event_dialogue9:
     #Моника пытается разговаривать с Филипом, но еще не брала деньги у Бифа.
     mt "Мне надо {b}забрать деньги у Бифа{/b}."
     "Филип пусть пока будет в неуверенности..."
-    return
+    return False
 
 label monica_charity_event_dialogue10:
     #render
     #Моника разговаривает с Бифом, рядом сидит Мелани
     img 6728
+    with fade
     m "Биф! Уже прошел час!"
     img 6729
     biff "О! Крошка!"
@@ -601,20 +793,28 @@ label monica_charity_event_dialogue10:
     "Тебе понравилось вино?"
 
     img 6730
+    with fade
     m "Да, вино довольно вкусное."
     "Оно стоит своих денег."
     "Так что, Биф? Я жду!"
 
+    music RnB3_65
     img 6731
+    with fadelong
     biff "Иди сюда, цыпочка!"
 
     img 6732
+    with Dissolve(0.5)
     biff "Вот, держи!"
     img 6733
     w
     img 6734
+    music stop
+    sound plastinka2
     "Твои $ 4.000!"
+    music Power_Bots_Loop
     img 6735
+    with fade
     m "$ 4.000???"
 
     img 6736
@@ -623,6 +823,7 @@ label monica_charity_event_dialogue10:
     "Мы договаривались!"
     "Ты забыл?!?!"
 
+    music Groove2_85
     img 6738
     biff "Я все помню, цыпочка!"
     "Не повышай на меня голос!"
@@ -632,16 +833,19 @@ label monica_charity_event_dialogue10:
     "Ты сама их ела и пила!"
     "И, между прочим, согласилась что вино стоит своих денег!"
 
+    music Power_Bots_Loop
     img 6741
     m "Мне нужно $ 5.000!"
     img 6740
     biff "Ничем не могу помочь, детка!"
 
     img 6742
+    with fade
     m "Ты сволочь!"
     img 6743
     biff "Эй! Детка! Следи за языком!"
     img 6744
+    with fade
     mt "!!!"
     return
 
@@ -673,16 +877,19 @@ label monica_charity_event_dialogue11:
 label monica_charity_event_dialogue12:
     #Моника пытается идти к Бифу до танца с Филипом
     mt "Я думаю проще вытрясти деньги с простачка Филипа, нежели с этого безмозглого наглеца!"
-    return
+    return False
 
 label monica_charity_event_dialogue12a:
     mt "Куда я пойду??? Мне надо срочно найти деньги для Дика! Иначе конец!"
-    return
+    return False
 
 label monica_charity_event_dialogue14:
+
+    music Lobby_Time
     #render
     #Моника обращается к Филипу с танцем
     img 6819
+    with fade
     philip "Моника! Вы готовы потанцевать со мной?"
     img 6820
     m "Филип..."
@@ -692,32 +899,47 @@ label monica_charity_event_dialogue14:
             pass
         "Я пока не решила...":
             #уход на сцену
-            return
+            return False
     img 6821
+    with fade
     "Ну... Хорошо... Давай потанцуем..."
     "Ты ведь так этого хочешь..."
 
+    music Modern_Jazz_Samba
     img 6822
+    with fade
     philip "Я этого очень хочу, Мэм!"
 
     #танцуют
     img 6823
+    with Dissolve(0.5)
     w
     img 6824
+    with Dissolve(0.5)
     w
     img 6825
+    with Dissolve(0.5)
     w
     img 6826
+    with Dissolve(0.5)
     w
     img 6827
+    with Dissolve(0.5)
     w
     img 6828
+    with Dissolve(0.5)
     w
     img 6829
+    with Dissolve(0.5)
     w
     img 6830
+    with Dissolve(0.5)
     w
     #сменяется музыка на медленную
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    music Last_Kiss_Goodnight
     img 6831
     with fadelong
     m "А ты неплохо танцуешь, Филип!"
@@ -726,6 +948,7 @@ label monica_charity_event_dialogue14:
     "Потому я обязан это неплохо уметь!"
 
     img 6832
+    with fade
     m "Ты прав..."
     "Но, ты знаешь, женщины любят внимание..."
 
@@ -735,55 +958,75 @@ label monica_charity_event_dialogue14:
     m "Я хочу это проверить, Филип!"
     philip "Мэм! Я готов на все!"
 
+    music Hidden_Agenda
     img 6834
+    with fade
     m "На этом вечере я познакомилась еще с одним ценителем искусства."
     img 6835
+    with fade
     "И, оказалось, что в его коллекции как раз есть картина, которую я давно искала."
     img 6836
+    with fade
     "Это очень редкое произведение и, к сожалению, у него уже есть покупатель."
     "Есть возможность опередить покупателя."
     "В случае если я выкуплю эту картину прямо сегодня за наличные деньги."
 
     img 6837
+    with Dissolve(0.5)
     "Филип, Вы знаете, я не очень разбираюсь в финансах."
     "И для меня будет сложно очень быстро получить наличность."
     img 6838
+    with fade
     "Поэтому... Если Вы готовы взять на себя эти небольшие хлопоты, то я бы оценила этот жест!"
     img 6839
+    with Dissolve(0.5)
     "Возможно, я даже согласилась бы когда-нибудь осмотреть Вашу коллекцию картин в Вашем доме!"
 
+    music Last_Kiss_Goodnight
     img 6840
+    with fadelong
     philip "О! Мэм! Я буду рад помочь Вам!"
     img 6841
+    with fade
     "Это для меня сущие пустяки!"
     "Какова сумма этой картины?"
 
     img 6842
+    with Dissolve(0.5)
     m "Всего-лишь $ 300.000!"
     "Ничего особенного!"
     img 6843
+    with Dissolve(0.5)
     "Но деньги нужны прямо сейчас, потому я и обращаюсь к Вам!"
     "Мне многие могут помочь в этой мелочи, но я выбрала именно Вас!"
     img 6844
+    with Dissolve(0.5)
     mt "Сейчас я раскручу этого тюфяка!"
 
     img 6845
+    with fade
     philip "Мэм! Я польщен такой честью!"
     "Вы правы что обратились ко мне!"
     img 6846
+    with fade
     "Для меня это совсем небольшие деньги, но Вы знаете..."
     "Я занимаюсь предметами искусства, а значит должен скурпулезно оценивать все за что плачу!"
     "Вы согласны?"
 
     img 6847
+    with Dissolve(0.5)
     m "Конечно согласна, Филип!"
     "Я считаю что моя улыбка стоит гораздо больше!"
 
     img 6848
+    with fade
     philip "Если честно, Мэм, на протяжении вечера я оценивал не Вашу улыбку!"
     m "А что же?"
+    music stop
+    sound plastinka
     philip "Ваш ротик, Мэм!"
 
+    music Power_Bots_Loop
     img 6849
     m "В смысле ротик?"
     "Филип, Вы про что?"
@@ -791,6 +1034,7 @@ label monica_charity_event_dialogue14:
     philip "Для этого я и пришел сюда, Мэм!"
 
     img 6850
+    with fade
     m "Для чего вы пришли???"
     "Филип, я не понимаю Вас!"
     img 6851
@@ -802,42 +1046,60 @@ label monica_charity_event_dialogue14:
     "И я пришел чтобы засунуть него свой член..."
 
     img 6853
+    with fade
     m "ЧТО??? ДА КАК ВЫ СМЕЕТЕ ТАКОЕ ГОВОРИТЬ?!?!"
 
+    music Groove2_85
     img 6854
+    with fade
     philip "Я реалист, Мэм!"
     "И я в курсе того что с Вами случилось."
     img 6855
+    with fade
     "Про это никто не знает, но я весьма хорошо осведомлен."
     img 6852
     "Поэтому если Вы хотите получить что-то от меня, то Вам придется попробовать меня на вкус!"
 
     img 6856
+    with fade
     m "Ты думаешь что я способна сделать минет за $ 300.000?"
     img 6857
     philip "Я знаю что Вы будете делать минеты, но я хочу быть одним из первых!"
     "Потому я и пришел сюда!"
 
     img 6858
+    with fade
     w
-
-    menu:
-        "$ 30.000.000 и я подумаю!":
-            img 6859
-            m "Если Вы подымете сумму до $ 30.000.000, то я готова подумать..."
-            mt "В конце концов еще один небольшой кошмар, но я смогу решить все свои проблемы!"
-        "Вы правда думаете что я стою так мало?":
-            img 6860
-            m "Вы правда думаете что я стою так мало?"
+    music stop
+    label .local1:
+        menu:
+            "$ 30.000.000 и я подумаю! (corruption)" if corruption >= monicaPhilipTalkBlowjobCorruptionRequired:
+                $ add_corruption(monicaPhilipTalkBlowjobCorruptionAmount, "monicaPhilipTalkBlowjobCorruptionAmount")
+                $ monicaOfferedBlowjobForBigMoney = True
+                music Groove2_85
+                img 6859
+                with fade
+                m "Если Вы подымете сумму до $ 30.000.000, то я готова подумать..."
+                mt "В конце концов еще один небольшой кошмар, но я смогу решить все свои проблемы!"
+            "$ 30.000.000 и я подумаю! (low corruption) (disabled)" if corruption < monicaPhilipTalkBlowjobCorruptionRequired:
+                jump .local1
+            "Вы правда думаете что я стою так мало?":
+                music Groove2_85
+                img 6860
+                with fade
+                m "Вы правда думаете что я стою так мало?"
 
     img 6861
+    with fade
     philip "Что Вы, Мэм?"
     "Как Вы можете думать обо мне так плохо?"
     "Я хорошо умею считать и я оцениваю Ваш ротик в $ 500!"
+    music Power_Bots_Loop
     img 6862
     m "ЧТО??? ДА КАК ВЫ СМЕЕТЕ!!!"
 
     img 6863
+    with Dissolve(0.5)
     m "Я ухожу!"
     philip "Мэм! Спасибо за танец!"
     "Если захотите потанцевать еще, то пригласите меня!"
@@ -861,7 +1123,11 @@ label monica_charity_event_dialogue15:
 
 label monica_charity_event_dialogue16:
     #Моника разговаривает с Бифом, рядом сидит Мелани, уговор насчет дать денег
+    $ store_music()
+    music Groove2_85
     img 6745
+    with fade
+
     m "Биф!"
     "Мне нужна $ 1.000!"
 
@@ -873,17 +1139,22 @@ label monica_charity_event_dialogue16:
     mt "Что мне делать?"
     "Может быть попытаться уговорить его?"
     img 6748
+    with fade
     "Мне неудобно делать это при Мелани!"
     img 6747
+    with fade
     menu:
         "Биф! Мы можем отойти на пару минут?":
             pass
         "Уйти.":
             #уход на сцену
-            return
+            $ restore_music()
+            return False
 
     img 6749
+    with fade
     m "Биф! Мы можем отойти на пару минут?"
+    with fade
     img 6750
     biff "Нет, говори!"
     img 6751
@@ -892,6 +1163,7 @@ label monica_charity_event_dialogue16:
     "Правда, Мелани?"
 
     img 6752
+    with Dissolve(0.5)
     melanie "Правда, Биф..."
 
     img 6753
@@ -900,23 +1172,33 @@ label monica_charity_event_dialogue16:
         "Биф, пожалуйста, дай деньги. Я буду хорошей цыпочкой...":
             pass
         "Я ни за что это не скажу! Уйти.":
-            return
+            $ restore_music()
+            return False
 
+    music Hidden_Agenda]
     img 6754
+    with fade
     m "Биф, пожалуйста, дай деньги. Я буду хорошей цыпочкой..."
     img 6755
+    with Dissolve(0.5)
     w
+
     #мелани улыбается
     img 6756
+    with fade
     biff "Хорошей цыпочкой - это какой?"
 
     img 6755
     mt "Черт! Мне так неудобно говорить при Мелани это!"
     img 6757
+    with fade
     m "Я буду исправно сниматься в фотосессиях и..."
-    "И пройду твой кастинг перед следующей съемкой..."
+    if monkeysOffended2 == True:
+        $ notif("Моника заставляла моделей проходить обнаженный кастинг")
+        "И пройду твой кастинг перед следующей съемкой..."
     "Буду послушной..."
 
+    $ add_char_progress("Biff", 10, "monica_charity_event_dialogue16")
     img 6758
     biff "Ха-ха-ха!"
     "Детка, а ты знаешь подход к папочке!"
@@ -924,35 +1206,48 @@ label monica_charity_event_dialogue16:
     "Мелани, как ты думаешь, стоит дать ей эти деньги?"
 
 
-    #Моника была добра к Мелани
-    img 6760
-    mt "Мелани, я была добра к тебе! Не вздумай ответить нет!"
-    img 6761
-    melanie "Да, Биф!"
-    "Это хорошая девушка! Она заслуживает твоей доброты!"
-    #
+    if melanieOffended2 == False and melanieOffended1 == False:
+        $ notif("У Моники хорошие отношения с Мелани")
+        #Моника была добра к Мелани
+        music stop
+        img 6760
+        with fade
+        mt "Мелани, я была добра к тебе! Не вздумай ответить нет!"
+        music Groove2_85
+        img 6761
+        with Dissolve(0.5)
+        melanie "Да, Биф!"
+        "Это хорошая девушка! Она заслуживает твоей доброты!"
+        #
 
-    #Моника была зла к Мелани
-    img 6761
-    melanie "Биф, это решать тебе!"
-    "Я плохо знаю ее..."
-    img 6762
-    mt "Сучка Мелани!!! Не даром я ее не любила!"
-    #
+    else:
+        $ notif("У Моники плохие отношения с Мелани")
+        #Моника была зла к Мелани
+        img 6761
+        with fade
+        melanie "Биф, это решать тебе!"
+        "Я плохо знаю ее..."
+        img 6762
+        mt "Сучка Мелани!!! Не даром я ее не любила!"
+        #
 
     img 6763
+    with fade
     biff "Ха-ха-ха!"
     "Мелани! Я спросил тебя просто так!"
     "В любом случае решать папочке!"
     "..."
 
     img 6764
+    with fade
     "Хорошо, цыпочка!"
     "Держи $ 1.000 и поехали в офис!"
     "Ты забыла там свою одежду!"
     "Ха-ха-ха!"
+    $ restore_music()
+    music stop
     #уезжают в офис
-    return
+    return True
 
 label monica_charity_event_dialogue17:
     #render
@@ -1713,27 +2008,37 @@ label monica_charity_event_dialogue19:
 
 label monica_office_biff_dialogue_evening1:
     #Моника разговаривает с Бифом в офисе
+    music Groove2_85
     img 7053
+    with fadelong
     biff "Детка, ты свободна на сегодня!"
     "Не уверен что ты стоишь $ 5.000, но я подумаю..."
 
     img 7054
+    with fade
     m "Я могу идти, Биф?"
 
-    #Если Моника раздевала мартышек
-    img 7055
-    biff "А попа! Ты собираешься мне ее показывать или нет?"
 
-    img 7056
-    m "Я не буду этого делать, Биф!"
-    img 7057
-    biff "Ах да! Ты сделаешь это перед следующей фотосессией!"
-    img 7058
-    mt "!!!"
-    #иначе
-    img 7055
-    biff "До следующей фотосессии, цыпочка!"
-    #
+    if monkeysOffended2 == True:
+        $ notif("Моника заставляла моделей проходить обнаженный кастинг")
+        #Если Моника раздевала мартышек
+        img 7055
+        biff "А попа! Ты собираешься мне ее показывать или нет?"
+
+        img 7056
+        with fade
+        m "Я не буду этого делать, Биф!"
+        img 7057
+        biff "Ах да! Ты сделаешь это перед следующей фотосессией!"
+        img 7058
+        with fade
+        mt "!!!"
+    else:
+        #иначе
+        img 7055
+        with fade
+        biff "До следующей фотосессии, цыпочка!"
+        #
 
     img 7058
     mt "Не будет больше никакой фотосессии, УРОД!!!"
@@ -1743,10 +2048,15 @@ label monica_office_biff_dialogue_evening1:
     "Это платье и украшения принадлежат компании!"
 
     img 7058
+    with fade
     w
+    img black_screen
+    with Dissolve(1.0)
+    sound snd_fabric1
     #звук одежды
     img 7060
-    with fadelong
+    with Dissolve(1.0)
+#    with fadelong
     w
     img 7061
     m "Ты доволен, Биф?!"
@@ -1755,6 +2065,7 @@ label monica_office_biff_dialogue_evening1:
     biff "Да!"
     biff "Можешь идти!"
     img 7063
+    with fade
     w
     return
 
@@ -1765,11 +2076,14 @@ label monica_office_dialogue1:
     "Через что мне пришлось пройти чтобы добыть эти деньги!"
     "Ужас!"
 
-    return
+    return False
 
 label monica_dick_office_entrance_dialogue1:
     #Моника на входе в офис Дика
+    $ store_music()
+    music Groove2_85
     img 7064
+    with fade
     reception_secretary "Мэм, вы куда?"
     img 7065
     m "Я к Дику Адвокату! Он ждет меня!"
@@ -1778,7 +2092,9 @@ label monica_dick_office_entrance_dialogue1:
     m "Не может быть! Он должен был дождаться меня!"
     img 7067
     reception_secretary "Мистер Дик с Мисс Викторией ушли 30 минут назад..."
+    music Power_Bots_Loop
     img 7068
+    with fade
     mt "НЕЕЕТ!!!"
     "Я ОПОЗДАЛА!!!"
     "ЧТО ЖЕ МНЕ ДЕЛАТЬ?!?!"
@@ -1787,19 +2103,22 @@ label monica_dick_office_entrance_dialogue1:
     "Эта сучка говорила что отправит факс с утра..."
     "Мне надо дождаться утро..."
     img 7070
+    with fade
     "Но где мне ждать???"
     "Здесь нет ни одного чертового стула!!!"
     "ЧТО ЭТО ВООБЩЕ ЗА ОФИС!!!"
     "НА УЛИЦЕ ДОЖДЬ!!!"
     img 7071
+    with Dissolve(0.5)
     "..."
     "Думаю лучшим выходом будет {b}идти в дом{/b}..."
     "Завтра {b}пораньше встать и идти сюда{/b}..."
     "Да! Это лучший вариант!"
-
+    $ restore_music()
     return
 
 label monica_basement_bedroom_before_sleep1:
+    $ remove_hook()
     #Моника ложиться спать
     mt "Надо поспать..."
     "Я нашла деньги..."
@@ -1807,6 +2126,16 @@ label monica_basement_bedroom_before_sleep1:
     "Я лучше забуду про тот кошмар, который мне пришлось пройти, чтобы достать эти деньги..."
     "Я почти у цели..."
     "Я сплю..."
+    $ _dismiss_pause = False
+    scene black_screen
+    with Dissolve(2)
+    $ _dismiss_pause = True
+    call textonblack_pause("The End of EP2 V0.1\nYou could support me on Patreon if you like the game :)")
+    $ _dismiss_pause = False
+    scene black_screen
+    with Dissolve(1)
+    $ _dismiss_pause = True
+    $ renpy.full_restart(transition=Fade(1.0, 1.0, 1.0))
     return
 
 

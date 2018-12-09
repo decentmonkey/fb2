@@ -41,6 +41,7 @@ label monica_gas_station_thief_dialogue2:
     $ gasStationThiefImages = ["7076", "7077", "7078"]
     $ images = random.sample(set(gasStationThiefImages), 1)
     img images[0]
+    $ add_corruption(monicaThiefCorruptionAmount, "stole_food_gas_station_day" + str(day))
     "Я заслужила его за все то что пережила..."
 
     $ monicaStoleFoodGasStationAmount +=1

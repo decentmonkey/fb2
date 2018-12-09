@@ -357,6 +357,7 @@ label process_object_click(func_name, obj_name_source, obj_data_source):
 #        $ dialogue_active_flag = False
     $ show_scene_loop_flag = True
     $ parse_transition_flag = False
+    call remove_dialogue()
     return
 #    jump show_scene
 
@@ -409,6 +410,7 @@ label process_object_click_alternate_action(idx, actions_list, click_label, name
     $ interface_blocked_flag = False
     $ show_scene_loop_flag = True
     $ parse_transition_flag = False
+    call remove_dialogue()
     return
 #    jump show_scene
 #    return

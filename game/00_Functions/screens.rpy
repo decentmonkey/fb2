@@ -1090,6 +1090,11 @@ screen photoshot_screen():
     fixed:
         add "Overlays/white_screen.jpg" at photoshoot_transform
 
+screen photoshot_screen_low():
+    zorder 100
+    fixed:
+        add "Overlays/white_screen.jpg" at photoshoot_transform2
+
 screen textonblack_screen(in_text):
     zorder 100
     layer "master"
@@ -2034,6 +2039,25 @@ screen Rain_overlay:
         add "rain":
             alpha .15
 
+
+screen Reporters_Shoots_Screen:
+    timer 2 repeat True action [SPlay("snd_photo_capture2", "thunder1"), Hide("photoshot_screen_low"), Show("photoshot_screen_low")]
+    timer 2.5 repeat True action [SPlay("snd_photo_capture3", "thunder2"), Hide("photoshot_screen_low"), Show("photoshot_screen_low")]
+    timer 4.5 repeat True action [SPlay("snd_photo_capture4", "thunder3"), Hide("photoshot_screen_low"), Show("photoshot_screen_low")]
+    timer 1.3 repeat True action [SPlay("snd_photo_capture5", "thunder1"), Hide("photoshot_screen_low"), Show("photoshot_screen_low")]
+    timer 2.2 repeat True action [SPlay("snd_photo_capture2", "thunder2"), Hide("photoshot_screen_low"), Show("photoshot_screen_low")]
+    timer 3.1 repeat True action [SPlay("snd_photo_capture3", "thunder3"), Hide("photoshot_screen_low"), Show("photoshot_screen_low")]
+
+screen Reporters_Shoots_Screen2:
+    timer 2 repeat True action [SPlay("snd_photo_capture2", "thunder1")]
+    timer 2.5 repeat True action [SPlay("snd_photo_capture3", "thunder2")]
+    timer 4.5 repeat True action [SPlay("snd_photo_capture4", "thunder3")]
+    timer 1.3 repeat True action [SPlay("snd_photo_capture5", "thunder1")]
+    timer 2.2 repeat True action [SPlay("snd_photo_capture2", "thunder2")]
+    timer 3.1 repeat True action [SPlay("snd_photo_capture3", "thunder3")]
+
+screen Reporters_Shoots_Screen3:
+    timer 3.0 action [Hide("Reporters_Shoots_Screen"), Show("Reporters_Shoots_Screen3")]
 screen Rain:
     # включаем и выключаем дождь вместе с экраном
     if rain == True:

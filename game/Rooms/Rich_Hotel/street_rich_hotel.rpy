@@ -31,6 +31,9 @@ label street_rich_hotel_teleport:
 #            call change_scene("rich_hotel_event_sittable")
 #            return
             mt "Я еще не сошла с ума, чтобы идти в такой дорогой отель одетой в ЭТО!!!"
+            if charityEventCompleted == True:
+                mt "Я доказала этой сучке на рецепшине что Я - ЛЕДИ!"
+                "И не хочу портить впечатление."
             return
             call change_scene("rich_hotel_reception")
         return

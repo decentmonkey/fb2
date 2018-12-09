@@ -6,6 +6,7 @@ label rich_hotel_event_hall:
 
     $ sceneIsStreet = True
     $ scene_image = "scene_Rich_Hotel_Event_Hall"
+
     return
 
 label rich_hotel_event_hall_init:

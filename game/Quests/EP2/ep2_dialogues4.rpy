@@ -765,6 +765,27 @@ label monica_office_secretary_dialogue4a:
                 "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
                 m "Хорошо, дорогая, спасибо."
             return False
+        if day_time == "evening":
+            if cloth == "Whore":
+                #render
+                img 6342
+                secretary "Миссис Бакфетт!"
+                "Мистера Бифа сейчас нет на месте!"
+                img 6343
+                m "Когда он будет?"
+                img 6344
+                secretary "Он сказал что будет завтра!"
+                "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+                img 6343
+                m "Хорошо, дорогая, спасибо."
+            else:
+                secretary "Миссис Бакфетт!"
+                "Мистера Бифа сейчас нет на месте!"
+                m "Когда он будет?"
+                secretary "Он сказал что будет завтра!"
+                "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+                m "Хорошо, дорогая, спасибо."
+            return False
     return
 
 
@@ -1399,6 +1420,7 @@ label monica_office_photostudio_alex_dialogue2:
     with Dissolve(0.5)
     w
     img 6581
+    with Dissolve(0.5)
     w
     img 6582
     alex_photograph "..."
@@ -1423,6 +1445,7 @@ label monica_office_photostudio_alex_dialogue2:
 
     music Molten_Alloy
     img 6587
+    with fade
     alex_photograph "Начинайте, позировать!"
     "Мотор!"
     img black_screen
@@ -1741,6 +1764,7 @@ label monica_office_cabinet_biff_dialogue5:
     "Он должен говорить то что скажу Я и только тогда ты получишь свои деньги!"
 
     img 6647
+    with fade
     m "Биф, если я скажу речь, я получу деньги?"
     img 6648
     biff "Конечно, цыпочка!"
@@ -1758,6 +1782,7 @@ label monica_office_cabinet_biff_dialogue5:
 
     music Groove2_85
     img 6651
+    with fade
     biff "Поехали, детка!"
     "Уже пора!"
     "И не забудь вернуть платье назад после вечера!"
@@ -1765,6 +1790,7 @@ label monica_office_cabinet_biff_dialogue5:
     img 6652
     "Без них ты не похожа на Монику Бакфетт и только поэтому я разрешил тебе одеть их!"
 
+    music Power_Bots_Loop
     img 6653
     with fade
     m "Я оставлю это платье себе! Оно мое!"
@@ -1782,7 +1808,7 @@ label monica_office_cabinet_biff_dialogue5:
     biff "Только попробуй!"
     "И тогда твой гонорар пойдет на погашение стоимости платья!"
 
-    music Power_Bots_Loop
+#    music Power_Bots_Loop
     img 6656
     mt "!!!"
 
@@ -1794,6 +1820,7 @@ label monica_office_cabinet_biff_dialogue5:
     with fade
     "А сейчас поехали!"
     "Нам еще надо подобрать {b}Мелани{/b} по пути!"
+    $ add_char_progress("Biff", 20, "photoshot1")
     mt "!!!"
     return
     #

@@ -1,6 +1,6 @@
 default monicaEatedLastDay = 0
 default monicaEatedLastDayTime = "day"
-define monicaCantSleepHungry = True
+default monicaCantSleepHungry = True
 
 default monicaCleaningRoomsAmount = 2
 default monicaCleaningInProgress = False
@@ -21,6 +21,10 @@ default monicaKebabWorkAmount = 0
 default melanieOffended2 = False # Моника съязвила Мелани в фотостудии при встрече после Бифа
 default monicaTalkedToMelanie1 = False
 default monicaTryToDickBlowjob = False # Моника пыталась сделать Дику миньет
+
+default hotelStaffOffended1 = False # Моника ругалась на hotelStaff за то что постер с ее изображением заслонен одеждой
+
+default monicaOfferedBlowjobForBigMoney = False #Моника предложила сделать минет за $30 млн
 
 label monicaEat: #кормим Монику
     $ monicaEatedLastDay = day #кормим Монику

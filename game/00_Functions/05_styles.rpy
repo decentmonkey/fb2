@@ -141,6 +141,10 @@ transform photoshoot_transform(idle_num):
     alpha 0.8
     linear 0.7 alpha 0.0
 
+transform photoshoot_transform2(idle_num):
+    alpha 0.3
+    linear 0.4 alpha 0.0
+
 style menu_choice_empty_background_button:
     background None
 

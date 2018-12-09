@@ -38,7 +38,7 @@ label rich_hotel_event_sofa_environment:
             mt "Мне не нравится этот Биф!"
             "Надо скорее забрать у него деньги и больше с ним не встречаться!"
         return
-    if obj_name == "biff":
+    if obj_name == "Biff":
         if act == "l":
             mt "Мерзкий слизняк Биф!"
             "Я найду на него управу!!!"
@@ -47,6 +47,8 @@ label rich_hotel_event_sofa_environment:
         if act == "t":
             return
     if obj_name == "Melanie":
+        img 7108
+        with fade
         if act == "l":
             mt "Мелани пристально смотрит на меня..."
             return
@@ -54,7 +56,8 @@ label rich_hotel_event_sofa_environment:
             mt "Мелани пристально смотрит на меня..."
             "И молчит..."
             return
-
+        call refresh_scene_fade()
+        return
     if obj_name == "Komode":
         if richHotelEventStage == 1:
             mt "Может здесь внутри есть какие-нибудь деньги?"

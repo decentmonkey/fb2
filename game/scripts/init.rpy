@@ -16,6 +16,11 @@ define photoshot1AlexProgressPervertAmount = 10 # Прогресс у Алекс
 define monicaKebabWorkFlyersAmount = 5 # Количество флаеров, которые надо раздать Монике
 define monicaKebabWorkFlyersAmountRandomDiff = 1 #Рандом, в котором будет делаться отклонение от monicaKebabWorkFlyersAmount
 
+define monicaThiefCorruptionAmount = 1 # Кол-во corruption, увеличивается при воровстве еды на заправке
+
+define monicaPhilipTalkBlowjobCorruptionRequired = 10 # Кол-во corruption, чтобы активировать фразу blowjob за $30.000.000
+define monicaPhilipTalkBlowjobCorruptionAmount = 10 # Кол-во corruption, которые добавляются если Моника сказала фразу про blowjob за $30.000.000
+
 default houseMusic = "Mandeville"
 #default biffMusic = "Funk_loop8"
 default biffMusic = "Groove2_85"
@@ -56,7 +61,7 @@ define imagesSizesCache = {}
 label characters_init:
     $ char_info = {
 #        "Monica":{"name": _("Бетти Робертс"), "enabled":True, "face":"Face_Betty", "style":"char_face_style1_red",  "bar_suffix": "red", "level":1, "current_progress":0, "caption": _("Бетти ждет что Моника будет регулярно убираться в доме."), "max_progress":100, "uplevel_label":"bettyProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
-        "biff":{"name": _("Биф"), "enabled":True, "face":"Face_biff", "style":"char_face_style1_orange",  "bar_suffix": "orange", "level":1, "current_progress":0, "caption": _("Биф обещал взять Монику работать в офис."), "max_progress":100, "uplevel_label":"biffProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Biff":{"name": _("Биф"), "enabled":True, "face":"Face_biff", "style":"char_face_style1_orange",  "bar_suffix": "orange", "level":1, "current_progress":0, "caption": _("Биф обещал взять Монику работать в офис."), "max_progress":100, "uplevel_label":"biffProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
         "Betty":{"name": _("Бетти Робертс"), "enabled":True, "face":"Face_Betty", "style":"char_face_style1_red",  "bar_suffix": "red", "level":1, "current_progress":0, "caption": _("Бетти ждет что Моника будет регулярно убираться в доме."), "max_progress":100, "uplevel_label":"bettyProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
         "Bardie":{"name": _("Барди"), "enabled":True, "face":"Face_Bardie", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": _("Барди ищет способ заглянуть Монике под юбку."), "max_progress":100, "uplevel_label":"bardieProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
         "AlexPhotograph":{"name": _("Фотограф Алекс"), "enabled":True, "face":"Face_AlexPhotograph", "style":"char_face_style1_orange",  "bar_suffix": "orange", "level":1, "current_progress":0, "caption": _("Фотограф извращенец"), "max_progress":100, "uplevel_label":"alexPhotographProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},

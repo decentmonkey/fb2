@@ -4,13 +4,19 @@ label rich_hotel_event_scene:
 
     $ sceneIsStreet = True
     $ scene_image = "scene_rich_hotel_event_scene_melanie_biff_monica_photodress"
+    hide screen Reporters_Shoots_Screen2
+    hide screen Reporters_Shoots_Screen
+    hide screen Reporters_Shoots_Screen3
+    show screen Reporters_Shoots_Screen
+    show screen Reporters_Shoots_Screen3
+    music Master_Disorder
     return
 
 label rich_hotel_event_scene_init:
 
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "rich_hotel_event_scene_Monica_[cloth]", "click" : "rich_hotel_event_scene_environment", "actions" : "l", "zorder":10})
-    $ add_object_to_scene("Biff", {"type" : 2, "base" : "rich_hotel_event_scene_biff", "click" : "rich_hotel_event_scene_environment", "actions" : "lt", "zorder":9, "icon_t":"/Icons/talk" + res.suffix +".png"})
-    $ add_object_to_scene("Melanie", {"type" : 2, "base" : "rich_hotel_event_scene_Melanie", "click" : "rich_hotel_event_scene_environment", "actions" : "lt", "zorder":10})
+    $ add_object_to_scene("Biff", {"type" : 2, "base" : "rich_hotel_event_scene_biff", "click" : "rich_hotel_event_scene_environment", "actions" : "l", "zorder":9, "icon_t":"/Icons/talk" + res.suffix +".png"})
+    $ add_object_to_scene("Melanie", {"type" : 2, "base" : "rich_hotel_event_scene_Melanie", "click" : "rich_hotel_event_scene_environment", "actions" : "l", "zorder":10})
 
     $ add_object_to_scene("Cloth", {"type" : 2, "base" : "rich_hotel_event_scene_Cloth", "click" : "rich_hotel_event_scene_environment", "actions" : "l", "zorder":0})
     $ add_object_to_scene("Door", {"type" : 2, "base" : "rich_hotel_event_scene_Door", "click" : "rich_hotel_event_scene_environment", "actions" : "l", "zorder":0})
@@ -37,19 +43,25 @@ label rich_hotel_event_scene_teleport:
     return
 label rich_hotel_event_scene_environment:
     if obj_name == "Monica":
-        call monica_charity_event_dialogue2a()
         return
-    if obj_name == "biff":
+    if obj_name == "Biff":
+        hide screen Reporters_Shoots_Screen
+        show screen Reporters_Shoots_Screen2
         img 6697
         biff "Ну, давай кукла!"
         "Притворись Моникой Бакфетт!"
         img 6698
         "Или тебя надо шлепнуть по попке, чтобы ты заговорила?!"
+        call refresh_scene_fade()
         return
     if obj_name == "Melanie":
+        hide screen Reporters_Shoots_Screen
+        show screen Reporters_Shoots_Screen2
         img 6699
+        with fade
         mt "Мелани смотрит на меня."
         "Интересно что она думает обо всем этом..."
+        call refresh_scene_fade()
         return
 
     if obj_name == "People1" or obj_name == "People2" or obj_name == "People3" or obj_name == "People4" or obj_name == "People5" or obj_name == "People6" or obj_name == "People7" or obj_name == "People8":
@@ -74,9 +86,12 @@ label rich_hotel_event_scene_environment:
         "Приятный свет."
         return
     if obj_name == "PosterMelanie":
+        hide screen Reporters_Shoots_Screen
+        show screen Reporters_Shoots_Screen2
         img 6680
         mt "Мелани?! Здесь?!"
         "А почему не Я?!"
+        call refresh_scene_fade()
         return
 
     return

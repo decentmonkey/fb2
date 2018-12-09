@@ -2,6 +2,7 @@ default dickDoorBlockedDay = 0
 default biffWaitingForMonicaToWork = False
 default monicaTalkedSecretary1 = False
 default monica_office_cabinet_biff_dialogue3Flag = False
+default charityEventCompleted = False
 
 label fred_talk_monica1:
     $ add_hook("before_open", "fred_talk_monica1a", scene="street_house_main_yard", label="fred_talk1")
@@ -217,9 +218,225 @@ label monica_office_photoshot1:
 label monica_office_photoshot1_biff_talk1:
     if act=="l":
         return
+#    call monica_charity_event1() #debug!!
+#    return
+
     call monica_office_cabinet_biff_dialogue5()
     $ remove_hook()
     $ remove_hook(label="after_photoshot")
-    m "EVENT"
+
     # идем на эвент
+    call monica_charity_event1()
     return False
+
+label monica_charity_event1:
+    # Charity Event
+    $ move_object("Philip", "rich_hotel_event_hall")
+    $ add_hook("Philip", "monica_charity_event_philip_talk1", scene="rich_hotel_event_hall")
+    $ move_object("HotelStaff", "rich_hotel_event_hall")
+    $ add_hook("HotelStaff", "monica_charity_event_hotelstaff_talk1", scene="rich_hotel_event_hall")
+    $ move_object("Melanie", "rich_hotel_event_scene")
+    $ move_object("Biff", "rich_hotel_event_scene")
+    call monica_rich_hotel_event_drive()
+    call monica_rich_hotel_entrance()
+    call monica_charity_event_dialogue1()
+    music stop
+    sound Piano_Between
+    call monica_charity_event_dialogue2()
+
+    $ add_hook("Monica", "monica_charity_event_talk1", scene="rich_hotel_event_scene")
+    call change_scene("rich_hotel_event_scene", "Fade_long", False)
+    return
+
+label monica_charity_event_talk1:
+    call monica_charity_event_dialogue2a()
+    if _return == False:
+        call refresh_scene_fade()
+        return False
+
+    $ add_hook("Teleport_Rich_Hotel_Reception", "monica_charity_event_dialogue4a", scene="rich_hotel_event_hall")
+    $ set_active("Teleport_Rich_Hotel_Tables", False, scene="rich_hotel_event_hall")
+    $ move_object("Philip", "empty")
+    $ move_object("Biff", "rich_hotel_event_sofa")
+    $ move_object("Melanie", "rich_hotel_event_sofa")
+    $ add_hook("HotelStaff", "monica_charity_event_hotelstaff_talk1", scene="rich_hotel_event_hall")
+    $ add_hook("Biff", "monica_charity_event_biff_talk1", scene="rich_hotel_event_sofa", label="biff4")
+    $ autorun_to_object("monica_charity_event_dialogue3", scene="rich_hotel_event_hall")
+    music Backbay_Lounge
+    call change_scene("rich_hotel_event_hall", "Fade_long", False)
+    return
+
+
+label monica_charity_event_hotelstaff_talk1: #наезд вначале
+    if act == "l":
+        return
+    call monica_charity_event_dialogue6()
+    $ replace_hook("HotelStaff", "monica_charity_event_hotelstaff_talk1", "monica_charity_event_hotelstaff_talk2", scene="rich_hotel_event_hall")
+    call refresh_scene_fade()
+    return
+label monica_charity_event_hotelstaff_talk2: #регулярно
+    if act == "l":
+        return
+    call monica_charity_event_dialogue7()
+    call refresh_scene_fade()
+    return False
+
+label monica_charity_event_biff_talk1:
+    if act == "l":
+        return
+    call monica_charity_event_dialogue4()
+    $ replace_hook("monica_charity_event_biff_talk2", label="biff4")
+    $ move_object("Philip", "rich_hotel_event_hall")
+    $ add_hook("Philip", "monica_charity_event_philip_talk1", scene="rich_hotel_event_hall")
+    return
+label monica_charity_event_biff_talk2:
+    if act == "l":
+        return
+    call monica_charity_event_dialogue5()
+    return
+
+label monica_charity_event_biff_talk3:
+    if act == "l":
+        return
+    call monica_charity_event_dialogue10()
+    $ remove_hook()
+    $ richHotelEventStage = 1
+    $ remove_hook("Teleport_Rich_Hotel_Tables", "monica_charity_event_dialogue9", scene="rich_hotel_event_hall")
+    $ set_active("Teleport_Rich_Hotel_Tables", False, scene="rich_hotel_event_hall")
+    $ move_object("Philip", "rich_hotel_event_hall")
+    $ add_hook("Philip", "monica_charity_event_philip_talk3", scene="rich_hotel_event_hall")
+#    music Stealth_Groover
+    music Pyro_Flow
+#    music Malicious
+    $ set_var("Monica", base="Rich_Hotel_Event_Hall_Monica2_[cloth]", scene="rich_hotel_event_hall")
+    $ replace_hook("Teleport_Rich_Hotel_Reception", "monica_charity_event_dialogue4a", "monica_charity_event_dialogue12a", scene="rich_hotel_event_hall")
+    $ add_hook("Teleport_Rich_Hotel_Sofa", "monica_charity_event_dialogue12", scene="rich_hotel_event_hall", label="block_teleport1")
+    $ autorun_to_object("monica_charity_event_dialogue11", scene="rich_hotel_event_hall")
+    call change_scene("rich_hotel_event_hall")
+    return
+
+label monica_charity_event_biff_talk4: #я буду хорошей цыпочкой
+    if act == "l":
+        return
+    call monica_charity_event_dialogue16()
+    if _return == False:
+        call refresh_scene_fade()
+        return False
+    # уезжают в офис
+    call monica_after_charity_event()
+    return False
+
+label monica_charity_event_melanie_talk1:
+    return
+
+label monica_charity_event_philip_talk1:
+    if act == "l":
+        return
+    $ remove_hook()
+    call monica_charity_event_dialogue8()
+    if _return == False:
+        call refresh_scene_fade()
+        return False
+    $ move_object("Philip", "rich_hotel_event_sittable")
+    $ add_hook("Philip", "monica_charity_event_philip_talk2", scene="rich_hotel_event_sittable")
+    music Lobby_Time
+    call change_scene("rich_hotel_event_sittable", "Fade_long", False)
+    return
+
+label monica_charity_event_philip_talk2:
+    if act == "l":
+        return
+    $ remove_hook()
+    call monica_charity_event_dialogue8a()
+    $ move_object("Philip", "rich_hotel_event_tables")
+    $ set_active("Teleport_Rich_Hotel_Tables", True, scene="rich_hotel_event_hall")
+    $ add_hook("Teleport_Rich_Hotel_Tables", "monica_charity_event_dialogue9", scene="rich_hotel_event_hall")
+    $ replace_hook("monica_charity_event_biff_talk3", label="biff4", scene="rich_hotel_event_sofa")
+    $ autorun_to_object("monica_charity_event_dialogue9", scene="rich_hotel_event_hall")
+    call change_scene("rich_hotel_event_hall")
+    return
+
+label monica_charity_event_philip_talk3:
+    if act == "l":
+        return
+    call monica_charity_event_dialogue14()
+    if _return == False:
+        music Backbay_Lounge
+        call refresh_scene_fade()
+        return False
+    music Malicious
+    $ remove_hook()
+    $ set_active("Teleport_Rich_Hotel_Tables", True, scene="rich_hotel_event_hall")
+    $ move_object("Philip", "rich_hotel_event_tables")
+    $ add_hook("Philip", "monica_charity_event_philip_talk4", scene="rich_hotel_event_tables")
+    $ autorun_to_object("monica_charity_event_dialogue15", scene="rich_hotel_event_hall")
+    $ remove_hook(label="block_teleport1")
+    $ add_hook("Biff", "monica_charity_event_biff_talk4", scene="rich_hotel_event_sofa")
+    call refresh_scene_fade()
+    return
+
+label monica_charity_event_philip_talk4: #танец с согласием на миньет
+    if act == "l":
+        return
+
+    return
+#    $ add_char_progress("Biff", 20, "photoshot1")
+
+
+label monica_after_charity_event:
+    $ move_object("Melanie", "empty")
+    $ move_object("Biff", "monica_office_cabinet")
+    call monica_rich_hotel_event_drive_back()
+    call monica_office_biff_dialogue_evening1()
+    $ autorun_to_object("monica_office_dialogue1", scene="street_monica_office")
+    $ add_hook("Teleport_Inside", "monica_office_dialogue1", scene="street_monica_office", label="block_monica_office")
+    $ add_hook("Teleport_Inside", "monica_after_charity_event_dick_entrance_talk1", scene="dick_office_entrance", label="dick_office_entrance")
+    $ cloth = "Whore"
+    $ cloth_type = "Whore"
+    $ rain = True
+    $ rainIntencity = 3
+    $ lightning = True
+    $ remove_hook(label="dick_blocked")
+    $ move_object("DickTheLawyer", "empty")
+    $ focus_map("Teleport_Dick_Office", "monica_after_charity_event_go_dick")
+    $ charityEventCompleted = True
+    call change_scene("street_monica_office", "Fade_long")
+    return
+
+label monica_after_charity_event_dick_entrance_talk1:
+    $ remove_hook()
+    call monica_dick_office_entrance_dialogue1()
+    $ remove_objective("dicksecretary_find_money")
+    $ add_objective("dick_money_tomorrow", _("Принести деньги Дику завтра"), c_blue, 40)
+    $ unfocus_map()
+    $ move_object("Biff", "empty")
+    $ move_object("AlexPhotograph", "empty")
+    $ remove_hook(label="block_monica_office")
+    $ remove_hook("Teleport_Monica_Office_Cabinet", "monica_office_secretary_dialogue4", scene="monica_office_secretary")
+    $ add_hook("enter_scene", "monica_after_charity_event_return_home", scene="basement_bedroom2")
+    $ add_hook("before_open", "monica_after_charity_event_return_home1", scene="street_house_main_yard")
+    $ dickReceptionMonicaSuffix = 3
+    call refresh_scene_fade()
+    return False
+
+label monica_after_charity_event_go_dick:
+    call monica_office_dialogue1()
+    return False
+
+label monica_after_charity_event_return_home:
+    $ monicaCantSleepHungry = False
+    $ dickReceptionMonicaSuffix = 1
+    music Continue_Life high
+    $ remove_hook()
+    $ remove_hook("basement_monica_before_sleep", "dick_secretary_time_to_pay2", scene="global")
+    $ add_hook("basement_monica_before_sleep", "monica_after_charity_event_home_sleep", scene="global")
+    return
+label monica_after_charity_event_return_home1:
+    $ remove_hook()
+    $ rainIntencity = 1
+    $ lightning = False
+    return
+
+label monica_after_charity_event_home_sleep:
+    call monica_basement_bedroom_before_sleep1()
+    return

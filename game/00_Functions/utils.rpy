@@ -75,6 +75,18 @@ label textonblack_long(in_text):
     with Dissolve(1)
     return
 
+label textonblack_pause(in_text):
+    $ _dismiss_pause = False
+    scene black_screen
+    with Dissolve(1)
+    show screen textonblack_screen(in_text)
+    with Dissolve(1)
+    $ _dismiss_pause = True
+    pause
+    scene black_screen
+    with Dissolve(1)
+    return
+
 
 
 
