@@ -14,16 +14,18 @@ label fred_talk_monica1:
 label fred_talk_monica1aMap:
     if day_time != "day":
         return
+    $ cloth = "Whore"
+    $ cloth_type = "Whore"
     call fred_talk_monica1a()
     return False
 
 label fred_talk_monica1a:
-    if day_time != "day":
+    if day_time != "day" or cloth != "Whore":
         return
     $ miniMapEnabledOnly = ["none"]
     $ map_enabled = False
-    $ cloth = "Whore"
-    $ cloth_type = "Whore"
+#    $ cloth = "Whore"
+#    $ cloth_type = "Whore"
 
     $ add_hook("Driver", "fred_talk_monica1c", scene="street_house_main_yard", label="fred_talk1a")
 
@@ -32,7 +34,7 @@ label fred_talk_monica1a:
     return
 
 label fred_talk_monica1b:
-    if day_time != "day":
+    if day_time != "day" or cloth != "Whore":
         return
     call monica_fred_about_dick_dialogue1()
     return False

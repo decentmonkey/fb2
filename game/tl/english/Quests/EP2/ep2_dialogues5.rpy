@@ -209,7 +209,7 @@ translate english monica_charity_event_dialogue2_6df67c90:
 
     # m "Я знаю, Биф!"
     # "Заткнись!"
-    m "I know, Beef!"
+    m "I know, Biff!"
     "Shut up!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:145
@@ -303,7 +303,7 @@ translate english monica_charity_event_dialogue2a_0c58ee8c:
     # "Наш журнал изменит свой курс!"
     m "..."
     m "I am Monica Buckfett!"
-    "And I confirm everything that Mr. Beef has said!"
+    "And I confirm everything that Mr. Biff has said!"
     "Our magazine will change its policy!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:196
@@ -334,7 +334,7 @@ translate english monica_charity_event_dialogue2a_dd4345d2:
     # "Я благодарна Мистеру Бифу за новые идеи..."
     # "Наш журнал должен преобразиться..."
     # "Спасибо Вам за то что Вы пришли..."
-    "I'm grateful to Mr. Beef for the new ideas..."
+    "I'm grateful to Mr. Biff for the new ideas..."
     "Our magazine needs to be transformed..."
     "Thank you for coming..."
 
@@ -451,14 +451,14 @@ translate english monica_charity_event_dialogue3_46e6999a:
     # "Я сказала что хотел этот мерзавец Биф!"
     # "Надо идти {b}узнать про деньги{/b}!"
     mt "That’s all!"
-    "I said what that bastard Beef wanted!"
+    "I said what that bastard Biff wanted!"
     "Now I need to go {b}and find out about the money {/b}!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:273
 translate english monica_charity_event_dialogue4a_898554ad:
 
     # mt "Я не собираюсь уходить пока не получу деньги от Бифа!"
-    mt "I'm not leaving until I get the money from Beef!"
+    mt "I'm not leaving until I get the money from Biff!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:280
 translate english monica_charity_event_dialogue4_07965b42:
@@ -467,7 +467,7 @@ translate english monica_charity_event_dialogue4_07965b42:
     # "Ты удовлетворен выступлением?"
     # biff "Да, цыпочка!"
     # "Ты хорошо поработала!"
-    m "Beef!"
+    m "Biff!"
     "Are you satisfied with my performance?"
     biff "Yeah, chick!"
     "You did well!"
@@ -477,14 +477,14 @@ translate english monica_charity_event_dialogue4_bf864382:
 
     # m "Биф, ты ничего не забыл?"
     # biff "Что ты имеешь ввиду?"
-    m "Beef, have you forgotten something?"
+    m "Biff, have you forgotten something?"
     biff "What do you mean?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:290
 translate english monica_charity_event_dialogue4_39278edd:
 
     # m "Я про нашу договоренность, Биф!!!"
-    m "I'm talking about our arrangement, Beef!!!"
+    m "I'm talking about our arrangement, Biff!!!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:293
 translate english monica_charity_event_dialogue4_848413e3:
@@ -515,7 +515,7 @@ translate english monica_charity_event_dialogue4_8455ca28:
 
     # m "Хорошо, Биф."
     # "Я подожду..."
-    m "Okay, Beef."
+    m "Okay, Biff."
     "I will wait..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:312
@@ -603,7 +603,7 @@ translate english monica_charity_event_dialogue6_593bbc43:
 
     # mt "Я поговорю с Бифом! Вместе мы уволим этого недоноска!"
     # mt "Ах! Как прекрасно снова чувствовать власть!"
-    mt "I'll talk to Beef! Together we will dismiss this miscarriage!"
+    mt "I'll talk to Biff! Together we will dismiss this miscarriage!"
     mt "Ah! How wonderful it is to feel the power again!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:365
@@ -980,7 +980,7 @@ translate english monica_charity_event_dialogue8_07254c0c:
     # "Этот Филип покроет любые мои возможные расходы, но все-же..."
     "Dance?"
     "Why not?"
-    "But I have to go get the money from Beef first."
+    "But I have to go get the money from Biff first."
     "I won't need them anymore, most likely."
     "This Philip will cover any expenses I might have, but still..."
 
@@ -1025,14 +1025,14 @@ translate english monica_charity_event_dialogue9_b4deadde:
 
     # mt "Мне надо {b}забрать деньги у Бифа{/b}."
     # "Филип пусть пока будет в неуверенности..."
-    mt "I need to {b}get my money from Beef {/b}."
+    mt "I need to {b}get my money from Biff {/b}."
     "Let Philip be in uncertainty..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:597
 translate english monica_charity_event_dialogue10_4c197b43:
 
     # m "Биф! Уже прошел час!"
-    m "Beef! It's been an hour!"
+    m "Biff! It's been an hour!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:599
 translate english monica_charity_event_dialogue10_bd17a33d:
@@ -1052,7 +1052,7 @@ translate english monica_charity_event_dialogue10_a4c4e9f1:
     # "Так что, Биф? Я жду!"
     m "Yes, the wine was quite tasty."
     "It was worth the money."
-    "So, Beef? I'm waiting!"
+    "So, Biff? I'm waiting!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:609
 translate english monica_charity_event_dialogue10_edfbdedc:
@@ -1186,7 +1186,7 @@ translate english monica_charity_event_dialogue11_b242174a:
     "Oh my God!!!"
     "How can I get the money?"
     "Maybe I should speed things up with {b}Philip{/b}?"
-    "Or try to persuade {b}Beef {/b}?"
+    "Or try to persuade {b}Biff {/b}?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:675
 translate english monica_charity_event_dialogue12_a89e1fbd:
@@ -1509,7 +1509,7 @@ translate english monica_charity_event_dialogue15_806c6a0d:
     "But what should I do?"
     "If I don't get {b}$ 1.000 urgently{/b}, I'm finished!"
     "I only have a few minutes before it's too late!"
-    "I have to think, maybe I should {b}talk to the BEEF{/b} again?"
+    "I have to think, maybe I should {b}talk to the Biff{/b} again?"
     "Or {b}go back to Philip {/b}?"
     "I have no choice! No choice!!!"
     "(sob)"
@@ -1519,7 +1519,7 @@ translate english monica_charity_event_dialogue16_5d8cf607:
 
     # m "Биф!"
     # "Мне нужна $ 1.000!"
-    m "Beef!"
+    m "Biff!"
     "I need $ 1.000!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:869
@@ -1548,7 +1548,7 @@ translate english monica_charity_event_dialogue16_0f8cca7f:
 translate english monica_charity_event_dialogue16_d030d885:
 
     # m "Биф! Мы можем отойти на пару минут?"
-    m "Beef! Could we take a few minutes?"
+    m "Biff! Could we take a few minutes?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:888
 translate english monica_charity_event_dialogue16_c24a1f1b:
@@ -1570,7 +1570,7 @@ translate english monica_charity_event_dialogue16_7bf82a1d:
 translate english monica_charity_event_dialogue16_8108a8af:
 
     # melanie "Правда, Биф..."
-    melanie "Yes, Beef..."
+    melanie "Yes, Biff..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:898
 translate english monica_charity_event_dialogue16_2c17a002:
@@ -1582,7 +1582,7 @@ translate english monica_charity_event_dialogue16_2c17a002:
 translate english monica_charity_event_dialogue16_ef28a711:
 
     # m "Биф, пожалуйста, дай деньги. Я буду хорошей цыпочкой..."
-    m "Beef, please give me the money. I'm gonna be a good chick..."
+    m "Biff, please give me the money. I'm gonna be a good chick..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:911
 translate english monica_charity_event_dialogue16_f4bd0c25:
@@ -1631,7 +1631,7 @@ translate english monica_charity_event_dialogue16_db704ec7:
 
     # melanie "Да, Биф!"
     # "Это хорошая девушка! Она заслуживает твоей доброты!"
-    melanie "Yes, Beef!"
+    melanie "Yes, Biff!"
     "She is a good girl! She deserves your kindness!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:937
@@ -1639,7 +1639,7 @@ translate english monica_charity_event_dialogue16_81461505:
 
     # melanie "Биф, это решать тебе!"
     # "Я плохо знаю ее..."
-    melanie "Beef, it's up to you!"
+    melanie "Biff, it's up to you!"
     "I know her a little bit..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:940
@@ -2712,7 +2712,7 @@ translate english monica_charity_event_dialogue19_5690dfb1:
     # biff "Постой, детка! Мы вместе поедем сейчас в офис!"
     # "Ты забыла там свою одежду!"
     # "Ха-ха-ха!"
-    m "Beef! I'm leaving!"
+    m "Biff! I'm leaving!"
     imt 6766
     biff "Wait a minute, baby! We're going to the office together!"
     "You left your clothes there!"
@@ -2742,7 +2742,7 @@ translate english monica_office_biff_dialogue_evening1_2f5d61b6:
 translate english monica_office_biff_dialogue_evening1_daab6f76:
 
     # m "Я не буду этого делать, Биф!"
-    m "I'm not doing that, Beef!"
+    m "I'm not doing that, Biff!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1730
 translate english monica_office_biff_dialogue_evening1_7e42dba0:
@@ -2780,7 +2780,7 @@ translate english monica_office_biff_dialogue_evening1_875220a7:
 translate english monica_office_biff_dialogue_evening1_d6e07ebf:
 
     # m "Ты доволен, Биф?!"
-    m "Are you happy, Beef?!"
+    m "Are you happy, Biff?!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1755
 translate english monica_office_biff_dialogue_evening1_62c01ede:
@@ -2896,7 +2896,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:155
     old "Подыграть Бифу. Если я хочу все вернуть назад, то надо быть хитрее..."
-    new "Play along with Beef. If I want everything back, I have to be smart..."
+    new "Play along with Biff. If I want everything back, I have to be smart..."
 
     # Quests/EP2/ep2_dialogues5.rpy:155
     old "Еще подумать..."
@@ -2936,11 +2936,11 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:878
     old "Биф! Мы можем отойти на пару минут?"
-    new "Beef! Could we take a few minutes?"
+    new "Biff! Could we take a few minutes?"
 
     # Quests/EP2/ep2_dialogues5.rpy:899
     old "Биф, пожалуйста, дай деньги. Я буду хорошей цыпочкой..."
-    new "Beef, please give me the money. I'm gonna be a good chick..."
+    new "Biff, please give me the money. I'm gonna be a good chick..."
 
     # Quests/EP2/ep2_dialogues5.rpy:899
     old "Я ни за что это не скажу! Уйти."
@@ -3087,7 +3087,7 @@ translate english monica_charity_event_dialogue4_d3e53b66:
     # "Ты удовлетворен выступлением?"
     # biff "Да, цыпочка!"
     # "Ты хорошо поработала!"
-    m "Beef!"
+    m "Biff!"
     "Are you satisfied with my performance?"
     biff "Yeah, chick!"
     "You did well!"
@@ -3097,7 +3097,7 @@ translate english monica_charity_event_dialogue4_edc88a28:
 
     # m "Биф, ты ничего не забыл?"
     # biff "Что ты имеешь ввиду?"
-    m "Beef, have you forgotten something?"
+    m "Biff, have you forgotten something?"
     biff "What do you mean?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:293
@@ -3226,7 +3226,7 @@ translate english monica_charity_event_dialogue19_0357ca5a:
     # biff "Постой, детка! Мы вместе поедем сейчас в офис!"
     # "Ты забыла там свою одежду!"
     # "Ха-ха-ха!"
-    m "Beef! I'm leaving!"
+    m "Biff! I'm leaving!"
     imt 6766
     biff "Wait a minute, baby! We're going to the office together!"
     "You left your clothes there!"
@@ -3339,7 +3339,7 @@ translate english monica_charity_event_dialogue2a_d0d2972e:
 
     # "Я благодарна Мистеру Бифу за новые идеи..."
     # "Наш журнал должен преобразиться..."
-    "I'm grateful to Mr. Beef for the new ideas..."
+    "I'm grateful to Mr. Biff for the new ideas..."
     "Our magazine needs to be transformed..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:314
@@ -3612,7 +3612,7 @@ translate english monica_charity_event_dialogue8a_07254c0c:
     # "Этот Филип покроет любые мои возможные расходы, но все-же..."
     "Dance?"
     "Why not?"
-    "But I have to go get the money from Beef first."
+    "But I have to go get the money from Biff first."
     "I won't need them anymore, most likely."
     "This Philip will cover any expenses I might have, but still..."
 
@@ -4456,7 +4456,7 @@ translate english monica_charity_event_dialogue18_local6_abc73e9f:
 translate english monica_charity_event_dialogue19_be713e11:
 
     # m "Биф! Я ухожу отсюда!"
-    m "Beef! I'm leaving!"
+    m "Biff! I'm leaving!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2202
 translate english monica_charity_event_dialogue19_e527f501:

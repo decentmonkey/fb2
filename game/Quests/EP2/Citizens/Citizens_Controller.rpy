@@ -1,7 +1,7 @@
-#default citizensAmountDay = 8
-d#efault citizensAmountEvening = 5
-default citizensAmountDay = 15
-default citizensAmountEvening = 15
+default citizensAmountDay = 8
+default citizensAmountEvening = 5
+#default citizensAmountDay = 15
+#default citizensAmountEvening = 15
 
 # чем больше, тем меньше вероятность что откажет
 default citizen1_refuse_probability = 5

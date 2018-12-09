@@ -196,7 +196,7 @@ translate english strings:
 
     # 00_Functions/07_init_renpy.rpy:59
     old "Биф"
-    new "Beef"
+    new "Biff"
 
     # 00_Functions/07_init_renpy.rpy:60
     old "Бетти Робертс"

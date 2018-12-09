@@ -14,7 +14,7 @@ translate english monica_office_secretary_teatable_environment_33ac3dd1:
 translate english monica_office_secretary_teatable_environment_f7ff5360:
 
     # m "Я в будущем разберусь со всеми делами что натворил здесь Биф!"
-    m "In the future, I'll deal with all the things that Beef's messed up here!"
+    m "In the future, I'll deal with all the things that Biff's messed up here!"
 
 # game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:39
 translate english monica_office_secretary_teatable_environment_9e0527d4:
@@ -66,7 +66,7 @@ translate english monica_office_secretary_teatable_environment_eb2b77b3:
 translate english monica_office_secretary_teatable_environment_7c24f30e:
 
     # mt "Я в будущем разберусь со всеми делами что натворил здесь Биф!"
-    mt "In the future, I'll deal with all the things that Beef's messed up here!"
+    mt "In the future, I'll deal with all the things that Biff's messed up here!"
 
 # game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:39
 translate english monica_office_secretary_teatable_environment_9d7ef9b7:
