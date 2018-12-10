@@ -1470,7 +1470,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues3.rpy:634
     old "Монике пришлось зарабатывать на еду разноской флаеров"
-    new "Monica had to earn money by posting flyers"
+    new "Monica had to earn money by delivering flyers"
 
 # TODO: Translation updated at 2018-12-10 21:17
 

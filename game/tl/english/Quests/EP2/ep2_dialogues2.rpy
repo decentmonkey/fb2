@@ -332,7 +332,7 @@ translate english monica_shawarma_dialogue2_a46ad354:
 translate english monica_shawarma_dialogue2_f0e9d431:
 
     # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
-    mt "Disgusting food... But at least I'm not hungry anymore... Bye..."
+    mt "Disgusting food... But at least I'm not hungry anymore... Not for long..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:173
 translate english monica_shawarma_dialogue2_16bc3a36:
@@ -380,7 +380,7 @@ translate english monica_shawarma_dialogue2a_a46ad354:
 translate english monica_shawarma_dialogue2a_f0e9d431:
 
     # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
-    mt "Disgusting food... But at least I'm not hungry anymore... Bye..."
+    mt "Disgusting food... But at least I'm not hungry anymore... Not for long..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:215
 translate english monica_shawarma_dialogue2a_debfd935:
@@ -414,7 +414,7 @@ translate english monica_shawarma_dialogue2a_a46ad354_1:
 translate english monica_shawarma_dialogue2a_f0e9d431_1:
 
     # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
-    mt "Disgusting food... But at least I'm not hungry anymore... Bye..."
+    mt "Disgusting food... But at least I'm not hungry anymore... Not for long..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:240
 translate english monica_shawarma_dialogue3_5a9b0055:
@@ -432,7 +432,7 @@ translate english monica_shawarma_dialogue3_18e6a0ae:
 translate english monica_shawarma_dialogue3_f0e9d431:
 
     # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
-    mt "Disgusting food... But at least I'm not hungry anymore... Bye..."
+    mt "Disgusting food... But at least I'm not hungry anymore... Not for long..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:258
 translate english monica_shawarma_dialogue3_fe7c2047:
@@ -468,7 +468,7 @@ translate english monica_shawarma_dialogue3_48aa8d00:
 translate english monica_shawarma_dialogue3_f0e9d431_1:
 
     # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
-    mt "Disgusting food... But at least I'm not hungry anymore... Bye..."
+    mt "Disgusting food... But at least I'm not hungry anymore... Not for long..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:281
 translate english monica_shawarma_dialogue3_8ab1c296:
@@ -684,7 +684,7 @@ translate english monica_shawarma_dialogue3_food_18e6a0ae:
 translate english monica_shawarma_dialogue3_food_f0e9d431:
 
     # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
-    mt "Disgusting food... But at least I'm not hungry anymore... Bye..."
+    mt "Disgusting food... But at least I'm not hungry anymore... Not for long..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:366
 translate english monica_shawarma_dialogue3_end_half_food_fe7c2047:
@@ -724,7 +724,7 @@ translate english monica_shawarma_dialogue3_end_half_food_48aa8d00:
 translate english monica_shawarma_dialogue3_end_half_food_f0e9d431:
 
     # mt "Отвратительная еда... Но, по крайней мере, я больше не хочу есть... Пока..."
-    mt "Disgusting food... But at least I'm not hungry anymore... Bye..."
+    mt "Disgusting food... But at least I'm not hungry anymore... Not for long..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:398
 translate english monica_shawarma_dialogue3_end_no_food_8ab1c296:

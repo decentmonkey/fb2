@@ -27,6 +27,11 @@ default hotelStaffOffended1 = False # Моника ругалась на hotelSt
 default monicaOfferedBlowjobForBigMoney = False #Моника предложила сделать минет за $30 млн
 default monicaOfferedBlowjobAgain = False #Моника предложила Филипу сделать минет еще раз
 
+
+default monicaMadeBlowjobToPhilip = False
+default monicaMadeBlowjobToHotelStaff = False
+default monicaSaidBiffSheIsWillBeAGoodChick = False
+
 label monicaEat: #кормим Монику
     $ monicaEatedLastDay = day #кормим Монику
     $ monicaEatedLastDayTime = day_time

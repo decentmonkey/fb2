@@ -1178,6 +1178,7 @@ label monica_charity_event_dialogue16:
             $ restore_music()
             return False
 
+    $ monicaSaidBiffSheIsWillBeAGoodChick = True
     music Hidden_Agenda]
     img 6754
     with fade
@@ -1592,6 +1593,8 @@ label monica_charity_event_dialogue18:
     img 6928 #?????
     w
 
+    $ monicaMadeBlowjobToPhilip = True
+
     music stop
     #video
 
@@ -1702,6 +1705,7 @@ label monica_charity_event_dialogue18:
     image videov_Monica_Philip_Blowjob_1_13 = Movie(play="video/v_Monica_Philip_Blowjob_1_13.mp4", fps=30)
     show videov_Monica_Philip_Blowjob_1_13
     wclean
+    music stop
     music Hidden_Agenda
     img 6933
     "Я почти поверила что она Леди!"
@@ -1713,7 +1717,7 @@ label monica_charity_event_dialogue18:
     image videov_Monica_Philip_Blowjob_1_14 = Movie(play="video/v_Monica_Philip_Blowjob_1_14.mp4", fps=30)
     show videov_Monica_Philip_Blowjob_1_14
     wclean
-
+    music stop
     music Hidden_Agenda
     img 6932
     "В прошлый раз она приходила с такой же целью, могу поспорить!"
@@ -2017,6 +2021,7 @@ label monica_charity_event_dialogue18:
                 mt "Если я не получу эти деньги, то завтра попаду в руки Маркуса!"
                 "О БОЖЕ!!!"
                 jump .loopa1
+    $ monicaMadeBlowjobToHotelStaff = True
     img 7002
     with fadelong
     w

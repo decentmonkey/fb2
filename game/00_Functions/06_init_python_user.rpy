@@ -13,6 +13,9 @@ init python:
             day_suffix = ""
             day = day + 1
             week_day = (day)%7
+            if week_day == 0:
+                week_day = 7
+
             renpy.call("changeDayTime_day_hooks")
             return
         return

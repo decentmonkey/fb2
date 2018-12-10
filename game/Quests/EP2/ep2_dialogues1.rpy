@@ -600,7 +600,7 @@ label cleaning_bardie_comment1:
     #иногда Барди появляется в комнате, где убирается Моника
     #комнаты floor1 (если нет Ральфа)
     $ store_music()
-    music Marty_Gots_a_Plan
+    music Marty_Gots_a_Plan high
     img 6030
     w
     img 6031
@@ -609,7 +609,7 @@ label cleaning_bardie_comment1:
     img 6032
     $ add_corruption(bardieCleaningUpskirtTryCorruption, "bardie_monica_upskirt_corruption_day_" + str(day))
     bardie "Моника! Покажи трусики!"
-    music Pyro_Flow
+    music Pyro_Flow high
     img 6033
     with fade
     m "Как ты себе позволяешь общаться со старшими?!"
@@ -620,7 +620,7 @@ label cleaning_bardie_comment1:
     img 6036
     m "Здесь хозяин Мистер Ральф, а не ты, малявка!"
     "Исчезни, пока я тебя не прибила прямо здесь и сейчас!"
-    music Marty_Gots_a_Plan
+    music Marty_Gots_a_Plan high
     img 6037
     bardie "Ах ты так!"
     bardie_t "Ну она у меня попляшет!"
@@ -631,7 +631,7 @@ label cleaning_bardie_comment2:
     #render+
     #когда Моника убирает у Барди в комнате
     $ store_music()
-    music Marty_Gots_a_Plan
+    music Marty_Gots_a_Plan high
     img 6038
     w
     img 6040
@@ -649,7 +649,7 @@ label cleaning_bardie_comment2:
     img 6043
     m "Нет уж! Я ни за что этого не сделаю!"
     "Лучше исчезни!"
-    music Marty_Gots_a_Plan
+    music Marty_Gots_a_Plan high
     img 6044
     bardie "Ах ты так!"
     bardie_t "Ну она у меня попляшет!"
@@ -660,7 +660,7 @@ label cleaning_bardie_comment3:
     #render+
     #когда Моника убирает в bedroom_second
     $ store_music()
-    music Marty_Gots_a_Plan
+    music Marty_Gots_a_Plan high
     img 6045
     w
     img 6047
@@ -675,7 +675,7 @@ label cleaning_bardie_comment3:
     $ add_corruption(bardieCleaningUpskirtTryCorruption, "bardie_monica_upskirt_corruption_day_" + str(day))
     img 6050
     bardie "Моника! Покажи трусики!"
-    music Pyro_Flow
+    music Pyro_Flow high
     img 6051
     with fade
     m "Как ты себе позволяешь общаться со старшими?!"
@@ -687,7 +687,7 @@ label cleaning_bardie_comment3:
     m "Здесь хозяин Мистер Ральф, а не ты, малявка!"
     "Исчезни, пока я тебя не прибила прямо здесь и сейчас!"
     img 6055
-    music Marty_Gots_a_Plan
+    music Marty_Gots_a_Plan high
     bardie "Ах ты так!"
     bardie_t "Ну она у меня попляшет!"
     $ restore_music()

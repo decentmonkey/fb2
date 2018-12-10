@@ -1,4 +1,4 @@
-define debugMode = False
+define debugMode = True
 
 default gameStage = 0
 default gameSubStage = 0
@@ -70,9 +70,12 @@ label start_game:
     $ game_version1_screen_ready_to_render = True
     $ zoom_factor = 1
 
-    $ day = 2
+    $ day = 5
     $ monicaEatedLastDay = day
     $ week_day = (day)%7
+    if week_day == 0:
+        $ week_day = 7
+
     $ day_time = "evening"
     $ day_suffix = ""
     $ money = 0.0

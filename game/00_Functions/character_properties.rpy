@@ -79,6 +79,8 @@ init python:
 
     def add_corruption(amount, progress_name):
         global char_data, corruption
+        if amount == 0:
+            return
         duplicate = False
         if corruption_places.has_key(progress_name) == False:
             corruption_places[progress_name] = 0
@@ -141,6 +143,6 @@ label bitch(amount, place=False):
     return
 
 label low_corruption(req):
-    $ requiredCorruption = req 
+    $ requiredCorruption = req
     help "Not enough corruption! Required [requiredCorruption]."
     return

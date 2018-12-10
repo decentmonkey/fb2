@@ -126,17 +126,17 @@ label dick_secretary_talk3: #регулярный
 
 
 label dick_secretary_time_to_pay1:
-    $ add_hook("Teleport_Inside", "monica_dick_office_refuse_dialogue1", scene="street_dick_office", label="dick_blocked")
-    $ add_hook("BasementBed", "basement_bed_hook", scene="basement_bedroom2")
-    $ add_hook("basement_monica_before_sleep", "dick_secretary_time_to_pay2", scene="global")
-    $ add_hook("basement_monica_after_sleep_dialogue", "dick_secretary_time_to_pay1a", scene="global")
-    $ remove_hook()
 #    if biffWaitingForMonicaToWork == False:
 #        "но пока не надо!"
 #        $ nextFriday = getNextDayByWeekDay(5)
 #        $ remove_hook()
 #        $ add_hook_day("dick_secretary_time_to_pay1", day = nextFriday, evening=True)
 #        return
+    $ add_hook("Teleport_Inside", "monica_dick_office_refuse_dialogue1", scene="street_dick_office", label="dick_blocked")
+    $ add_hook("BasementBed", "basement_bed_hook", scene="basement_bedroom2")
+    $ add_hook("basement_monica_before_sleep", "dick_secretary_time_to_pay2", scene="global")
+    $ add_hook("basement_monica_after_sleep_dialogue", "dick_secretary_time_to_pay1a", scene="global")
+    $ remove_hook()
     return
 label dick_secretary_time_to_pay1a:
     mt "Сегодня пятница. Мне надо {b}найти $ 5000 до вечера{/b}!"

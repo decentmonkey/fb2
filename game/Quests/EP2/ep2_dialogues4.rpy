@@ -957,11 +957,13 @@ label monica_office_cabinet_biff_dialogue3:
         biff "Итак, ты согласна?"
         label .local2:
             menu:
-                "Да, я согласна... (corruption)" if corruption >= monicaBiffWorkPhotoShot1Agree:
+                "Да, я согласна... (corruption)" :
                     pass
-                "Да, я согласна... (low corruption, required [monicaBiffWorkPhotoShot1Agree]) (disabled)" if corruption < monicaBiffWorkPhotoShot1Agree:
-                    call low_corruption(monicaBiffWorkPhotoShot1Agree)
-                    jump .local2
+#                "Да, я согласна... (corruption)" if corruption >= monicaBiffWorkPhotoShot1Agree:
+#                    pass
+#                "Да, я согласна... (low corruption, required [monicaBiffWorkPhotoShot1Agree]) (disabled)" if corruption < monicaBiffWorkPhotoShot1Agree:
+#                    call low_corruption(monicaBiffWorkPhotoShot1Agree)
+#                    jump .local2
                 "Уйти.":
                     call change_scene("monica_office_secretary")
                     return False

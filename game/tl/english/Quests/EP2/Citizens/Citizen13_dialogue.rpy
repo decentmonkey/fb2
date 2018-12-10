@@ -72,7 +72,7 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:22
     old "На кебабы."
-    new "Not the kebabs."
+    new "Like the kebabs."
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:22
     old "На пенис..."
@@ -154,5 +154,5 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:28
     old "На пенис... (disabled)"
-    new "На пенис... (disabled)"
+    new "On the penis... (disabled)"
 
