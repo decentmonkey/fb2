@@ -63,12 +63,15 @@ label bardieProgressApplyAfterCleaning:
 
 
 label bardieStairsFloor1Hook1:
+    if cloth_type != "Governess":
+        bardie "Моника! Покажи трусики!"
+        return False
     call bardie_comment4()
     $ add_hook("exit_scene", "bardieStairsLeaveOnMonicaLocationExit", scene="floor1_stairs")
     return False
 
 label bardieCatchAtStaitsMinimapHook:
-    if target_scene_name == "basement_bedroom2" and get_active_objects("Bardie", scene="floor1_stairs") != False:
+    if target_scene_name == "basement_bedroom2" and get_active_objects("Bardie", scene="floor1_stairs") != False and cloth_type == "Governess":
         call bardie_comment4()
         call change_scene("floor1_stairs", "Fade", False)
         $ add_hook("exit_scene", "bardieStairsLeaveOnMonicaLocationExit", scene="floor1_stairs")
@@ -76,7 +79,7 @@ label bardieCatchAtStaitsMinimapHook:
     return True
 
 label bardieCatchAtStaitsTeleportPoolHook:
-    if get_active_objects("Bardie", scene="floor1_stairs") != False:
+    if get_active_objects("Bardie", scene="floor1_stairs") != False and cloth_type == "Governess":
         call bardie_comment4()
         $ add_hook("exit_scene", "bardieStairsLeaveOnMonicaLocationExit", scene="floor1_stairs")
         return False
