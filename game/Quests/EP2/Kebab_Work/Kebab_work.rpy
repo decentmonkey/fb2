@@ -75,6 +75,7 @@ label kebab_work_start:
     $ miniMapDisabled["Street_Corner"] = []
     $ map_objects["Teleport_Hostel2"]["state"] = "visible"
     $ remove_hook(label="kebab_work_block_teleports")
+    $ add_corruption(monicaKebabWorkCorruptionAddingPerDay, "monicaKebabWorkCorruptionAddingPerDay_day" + str(day))
     return
 
 label kebab_work_objective_refresh:

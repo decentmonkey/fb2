@@ -3,7 +3,8 @@ define wardrobeLastUsedDay = 0
 
 label wardrobeBasement:
     $ wardrobeLastUsedDay = day
-    img 3368
+#    img 3368
+    img 7119
 #    with fadelong
     mt "Что мне одеть?"
     menu:

@@ -1,27 +1,32 @@
-define monicaTryToDickBlowjobRequiredCorruption = 0 # Кол-во corruption для приставания Моники к Дику
 
 define bettyCleaningProgessAmount = 20 #5 #Прогресс с Бетти за уборку
 define bettyCleaningProgessRegressAmount = -10 # Насколько убавляется прогресс с Бетти если Моника пропустила уборку
 define bettyTryOutInGovernessClothRegressAmount = -10 # Насколько убавляется прогресс с Бетти если Моника пытается выйти за пределы дома в одежде гувернантки
+
 define bardieCleaningUpskirtTry = 60 #15 #Прогресс с Барди за попытку подсмотреть во время уборки (начальная стадия)
 define bardieCleaningUpskirtTryCorruption = 0 # Увеличение corruption, когда Барди подсматривает под юбку Моники
 define monicaCleaningAddCorruptionPerCleaning = 1 #Увеличение corruption за одну уборку
+
 define monicaBiffWork1CorruptionAdding = 20 # Увеличение corruption за согласие сниматься (пока просто, без обнажения)
-define monicaBiffWork2CorruptionAdding = 50 # Увеличение corruption за согласие сниматься в плавном обнажении
+define monicaBiffWork2CorruptionAdding = 80 # Увеличение corruption за согласие сниматься в плавном обнажении
 define monicaBiffWork3CorruptionAdding = 50 # Увеличение corruption разговор с Алексом, согласие на фотосессию (вначале)
-define monicaBiffWorkPhotoShot1PervertCorruptionRequired = 10 # Необходимо corruption, чтобы продолжить сниматься в развратных ракурсах
+
 define photoshot1AlexProgressAmount = 20 # Прогресс у Алекса за первую фотосессию
 define photoshot1AlexProgressPervertAmount = 10 # Прогресс у Алекса за продолжение развратных поз
 
 define monicaKebabWorkFlyersAmount = 5 # Количество флаеров, которые надо раздать Монике
 define monicaKebabWorkFlyersAmountRandomDiff = 1 #Рандом, в котором будет делаться отклонение от monicaKebabWorkFlyersAmount
+define monicaKebabWorkCorruptionAddingPerDay = 1 # Кол-во corruption, которые добавляются при разноске кебабов
 
 define monicaThiefCorruptionAmount = 1 # Кол-во corruption, увеличивается при воровстве еды на заправке
 
+define monicaTryToDickBlowjobRequiredCorruption = 0 # Кол-во corruption для приставания Моники к Дику
+define monicaBiffWorkPhotoShot1PervertCorruptionRequired = 10 # Необходимо corruption, чтобы продолжить сниматься в развратных ракурсах
 define monicaPhilipTalkBlowjobCorruptionRequired = 10 # Кол-во corruption, чтобы активировать фразу blowjob за $30.000.000
 define monicaPhilipTalkBlowjobCorruptionAmount = 10 # Кол-во corruption, которые добавляются если Моника сказала фразу про blowjob за $30.000.000
 define monicaPhilipTalkBlowjob2CorruptionAmount = 10 # Кол-во corruption, которые добавляются если Моника согласилась говорить про blowjob во время танца
 define monicaPhilipTalkBlowjob3CorruptionAmount = 10 # Кол-во corruption, которые добавляются если Моника согласилась сделать blowjob
+
 define monicaPhilipBlojwobKneesCorruptionRequired = 10 # Кол-во corruption, которые необходимы, чтобы Моника села на колени перед Филипом
 define monicaPhilipBlojwobOpenMouthCorruptionRequired = 10 # Кол-во corruption, которые необходимы, чтобы Моника открыла рот перед членом Филипа
 define monicaPhilipBlojwobOpenMouth2CorruptionRequired = 10 # Кол-во corruption, которые необходимы, чтобы Моника открыла рот еще больше

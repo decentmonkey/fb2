@@ -14,3 +14,11 @@ translate english bardieMonicaCleaningInteract_2f2381ad:
     mt "He's still trying to sneak up on me!"
     "I need to be more careful..."
 
+# TODO: Translation updated at 2018-12-10 16:45
+
+# game/Characters/Family/Bardie.rpy:67
+translate english bardieStairsFloor1Hook1_4c88471c:
+
+    # bardie "Моника! Покажи трусики!"
+    bardie "Monica! Show me your panties!"
+
