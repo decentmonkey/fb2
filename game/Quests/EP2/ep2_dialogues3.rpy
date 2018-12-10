@@ -220,7 +220,7 @@ label monica_dick_dialogue1:
     w
     label .local1:
         menu:
-            "Приставать к Дику. (low corruption) (disabled)" if corruption < monicaTryToDickBlowjobRequiredCorruption:
+            "Приставать к Дику. (low corruption, required 10) (disabled)" if corruption < monicaTryToDickBlowjobRequiredCorruption:
                 jump local1
             "Приставать к Дику. (corruption)" if corruption >= monicaTryToDickBlowjobRequiredCorruption:
                 #corruption check!!!
