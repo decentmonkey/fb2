@@ -75,7 +75,6 @@ label kebab_work_start:
     $ miniMapDisabled["Street_Corner"] = []
     $ map_objects["Teleport_Hostel2"]["state"] = "visible"
     $ remove_hook(label="kebab_work_block_teleports")
-    $ add_corruption(monicaKebabWorkCorruptionAddingPerDay, "monicaKebabWorkCorruptionAddingPerDay_day" + str(day))
     return
 
 label kebab_work_objective_refresh:
@@ -116,9 +115,11 @@ label kebab_work_end:
             if kebabWorkFlyersLeft <= 0: #Моника раздала все флаеры
                 call monica_shawarma_dialogue3_food()
                 call monicaEat()
+                $ add_corruption(monicaKebabWorkCorruptionAddingPerDay, "monicaKebabWorkCorruptionAddingPerDay_day" + str(day))
         "У меня не получилось раздать все флаеры..." if kebabWorkFlyersLeft > 0 and kebabWorkFlyersLeft < kebabWorkFlyersTotal: #Моника раздала не все флаеры
             call monica_shawarma_dialogue3_end_half_food()
             call monicaEat()
+            $ add_corruption(monicaKebabWorkCorruptionAddingPerDay, "monicaKebabWorkCorruptionAddingPerDay_day" + str(day))
         "Уйти.":
             return
 

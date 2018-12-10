@@ -955,9 +955,12 @@ label monica_office_cabinet_biff_dialogue3:
         img 6471
         with fade
         biff "Итак, ты согласна?"
-        menu:
-            "Да, я согласна...":
-                pass
+        label .local1:
+            menu:
+                "Да, я согласна... (corruption)" if corruption >= monicaBiffWorkPhotoShot1Agree:
+                    pass
+                "Да, я согласна... (low corruption) (disabled)" if corruption < monicaBiffWorkPhotoShot1Agree:
+                    jump .local1
             "Уйти.":
                 call change_scene("monica_office_secretary")
                 return False

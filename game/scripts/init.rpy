@@ -20,7 +20,8 @@ define monicaKebabWorkCorruptionAddingPerDay = 1 # Кол-во corruption, ко�
 
 define monicaThiefCorruptionAmount = 1 # Кол-во corruption, увеличивается при воровстве еды на заправке
 
-define monicaTryToDickBlowjobRequiredCorruption = 0 # Кол-во corruption для приставания Моники к Дику
+define monicaTryToDickBlowjobRequiredCorruption = 10 # Кол-во corruption для приставания Моники к Дику
+define monicaBiffWorkPhotoShot1Agree = 0 #Кол-во corruption для согласия сниматься у Бифа
 define monicaBiffWorkPhotoShot1PervertCorruptionRequired = 10 # Необходимо corruption, чтобы продолжить сниматься в развратных ракурсах
 define monicaPhilipTalkBlowjobCorruptionRequired = 10 # Кол-во corruption, чтобы активировать фразу blowjob за $30.000.000
 define monicaPhilipTalkBlowjobCorruptionAmount = 10 # Кол-во corruption, которые добавляются если Моника сказала фразу про blowjob за $30.000.000
