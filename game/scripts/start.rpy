@@ -1,4 +1,4 @@
-define debugMode = True
+define debugMode = False
 
 default gameStage = 0
 default gameSubStage = 0
@@ -97,7 +97,7 @@ label start_game:
             "Teleport_Cloth_Shop" : {"text" : _("МАГАЗИН ОДЕЖДЫ"), "xpos" : 340, "ypos" : 901, "base" : "map_marker", "state" : "visible"},
             "Teleport_Street_Corner" : {"text" : _("УГОЛ УЛИЦЫ"), "xpos" : 88, "ypos" : 942, "base" : "map_marker", "state" : "visible"},
             "Teleport_Hostel2" : {"text" : _("ГРЯЗНАЯ УЛИЦА"), "xpos" : 259, "ypos" : 1046, "base" : "map_marker", "state" : "invisible"},
-            "Teleport_House" : {"text" : _("ДОМ МОНИКИ"), "xpos" : 95, "ypos" : 798, "base" : "map_marker_house", "state" : "active"}
+            "Teleport_House" : {"text" : _("ДОМ МОНИКИ"), "xpos" : 105, "ypos" : 798, "base" : "map_marker_house", "state" : "active"}
     }
 #mousedown_3, hide_windows
 #    $ print(config.keymap["game_menu"])

@@ -39,6 +39,7 @@ label citizen9_dialogue:
                         "Дать косяк.":
                             $ remove_inventory("joint", 1, True)
                             imgl Dial_Monica_Sandwich_0
+                            $ add_corruption(1, "monica_give_joint_day_" + str(day))
                             m "Вот."
                             imgr Dial_Citizen_9_3
                             citizen9 "Отлично. Узнаю старину Джека. Отличная вещь. Хочешь?"

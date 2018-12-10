@@ -60,7 +60,7 @@ translate english strings:
 
     # Characters/Monica/Bed_Basement.rpy:32
     old "Лечь и ждать вечера."
-    new "Take nap and wait for the evening."
+    new "Take a nap and wait till evening."
 
 # TODO: Translation updated at 2018-12-10 23:52
 
