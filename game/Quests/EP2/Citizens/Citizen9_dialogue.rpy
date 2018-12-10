@@ -18,6 +18,16 @@ label citizen9_dialogue:
                     imgr Dial_Citizen_9_3
                     citizen9 "Как скажешь, дамочка."
                     #подходит к монике сзади и хватает за грудь. так как на ней табличка, ей сложно сопротивляться.
+                    $ imagesArr = ["7110", "7111", "7112", "7113", "7114"]
+                    $ images = random.sample(set(imagesArr), 2)
+                    sound Jump2
+                    img images[0]
+                    w
+                    img images[1]
+                    w
+                    img scene_Hostel_Street
+                    imgl Dial_Monica_Sandwich_0
+                    imgr Dial_Citizen_9_3
                     m "Идиот! Что ты делаешь?"
                     imgr Dial_Citizen_9_3
                     citizen9 "То, что ты мне сказала! Хе-хе-хе. Отличная грудь кстати!"

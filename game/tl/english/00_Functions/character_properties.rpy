@@ -38,3 +38,11 @@ translate english strings:
     old "Corruption -"
     new "Corruption -"
 
+# TODO: Translation updated at 2018-12-10 21:17
+
+# game/00_Functions/character_properties.rpy:145
+translate english low_corruption_d8229b96:
+
+    # help "Not enough corruption! Required [requiredCorruption]."
+    help "Not enough corruption! Required [requiredCorruption]."
+

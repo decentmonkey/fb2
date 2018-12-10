@@ -1032,6 +1032,7 @@ screen hud_screen(hud_presets):
     fixed:
 #            size (200, 327)
         if hud_presets.has_key("display_bitchmeter") and hud_presets["display_bitchmeter"] == True:
+#            $ bitchmeter_description = get_bitchmeter_description() + " (" + str(bitchmeterValue) + ")"
             $ bitchmeter_description = get_bitchmeter_description()
             text bitchmeter_description:
                 xpos config.screen_width - gui.resolution.hud_screen.bitchmeter_desc_x_pos
@@ -1053,7 +1054,8 @@ screen hud_screen(hud_presets):
                 outlines [(2, "#808080", -1, 1), (2, "#404040", 0, 0)]
                 at bitchmeter_style_transform
 
-            text "Corruption":
+            $ corruption_description = "Corruption: " + str(corruption) + ""
+            text corruption_description:
                 xpos config.screen_width - gui.resolution.hud_screen.corruption_desc_x_pos
                 ypos gui.resolution.hud_screen.bitchmeter_desc_y_pos
                 xanchor 0.5

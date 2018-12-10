@@ -1472,3 +1472,17 @@ translate german strings:
     old "Монике пришлось зарабатывать на еду разноской флаеров"
     new ""
 
+# TODO: Translation updated at 2018-12-10 21:18
+
+# game/Quests/EP2/ep2_dialogues3.rpy:221
+translate german monica_dick_dialogue1_local1_9beb19ec:
+
+    # m "here"
+    m "here"
+
+translate german strings:
+
+    # Quests/EP2/ep2_dialogues3.rpy:223
+    old "Приставать к Дику. (low corruption, required [monicaTryToDickBlowjobRequiredCorruption]) (disabled)"
+    new ""
+

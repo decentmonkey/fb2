@@ -72,3 +72,23 @@ translate english citizen7_dialogue_d9b0cf9e:
     # citizen7 "Я закончил. Флаер? Да давайте уже..."
     citizen7 "I'm done. Flyer? Come on..."
 
+# TODO: Translation updated at 2018-12-10 21:34
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:23
+translate english citizen7_dialogue_f77faae5:
+
+    # citizen7 "Прекрасно, очень хорошо! А теперь повернитесь!"
+    citizen7 "Fine, very good! Now turn around!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:27
+translate english citizen7_dialogue_e96c3b0c:
+
+    # mt "Что вообще происходит?"
+    mt "What's happening?"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:32
+translate english citizen7_dialogue_ca74f711:
+
+    # m "Эй, мистер, Вы возьмете флаер?"
+    m "Hey, mister, do you want the flyer?"
+

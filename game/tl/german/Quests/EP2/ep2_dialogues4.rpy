@@ -3380,3 +3380,79 @@ translate german strings:
     old "Моника была добра к Алексу"
     new ""
 
+# TODO: Translation updated at 2018-12-10 21:18
+
+# game/Quests/EP2/ep2_dialogues4.rpy:952
+translate german monica_office_cabinet_biff_dialogue3_local2_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:957
+translate german monica_office_cabinet_biff_dialogue3_local2_840938b6:
+
+    # biff "Итак, ты согласна?"
+    biff "Итак, ты согласна?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:969
+translate german monica_office_cabinet_biff_dialogue3_local2_7e9dfa4d:
+
+    # m "Да, я согласна..."
+    m "Да, я согласна..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:972
+translate german monica_office_cabinet_biff_dialogue3_local2_b7eb643b:
+
+    # biff "Отлично!"
+    # "Если честно, Мелани отказалась от этой серии фотосессий."
+    # "Она сказала что не хочет иметь ничего общего с полным обнажением."
+    biff "Отлично!"
+    "Если честно, Мелани отказалась от этой серии фотосессий."
+    "Она сказала что не хочет иметь ничего общего с полным обнажением."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:976
+translate german monica_office_cabinet_biff_dialogue3_local2_98b66c4d:
+
+    # "Хорошо что мне подвернулась такая цыпочка как ты, которая не имеет проблем с этим!"
+    "Хорошо что мне подвернулась такая цыпочка как ты, которая не имеет проблем с этим!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:980
+translate german monica_office_cabinet_biff_dialogue3_local2_4aee1b50:
+
+    # m "С чем общего??? С ОБНАЖЕНИЕМ?!?!?"
+    m "С чем общего??? С ОБНАЖЕНИЕМ?!?!?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:982
+translate german monica_office_cabinet_biff_dialogue3_local2_3e8455c1:
+
+    # biff "Ну да, этот журнал слишком скучный!"
+    # "Сейчас такое уже не модно."
+    # "Деньги приносит что-нибудь погорячее!"
+    biff "Ну да, этот журнал слишком скучный!"
+    "Сейчас такое уже не модно."
+    "Деньги приносит что-нибудь погорячее!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:987
+translate german monica_office_cabinet_biff_dialogue3_local2_fa9e0cb0:
+
+    # m "Я не собираюсь раздеваться ни за какие деньги!!!"
+    # "До свидания!!!"
+    m "Я не собираюсь раздеваться ни за какие деньги!!!"
+    "До свидания!!!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:991
+translate german monica_office_cabinet_biff_dialogue3_local2_647ab3ac:
+
+    # biff "{b}Если передумаешь, заглядывай!{/b}"
+    biff "{b}Если передумаешь, заглядывай!{/b}"
+
+translate german strings:
+
+    # Quests/EP2/ep2_dialogues4.rpy:959
+    old "Да, я согласна... (corruption)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues4.rpy:959
+    old "Да, я согласна... (low corruption, required [monicaBiffWorkPhotoShot1Agree]) (disabled)"
+    new ""
+

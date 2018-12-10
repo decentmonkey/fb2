@@ -4584,3 +4584,35 @@ translate english monica_charity_event_dialogue18_local3_8adb05a0:
     "But no!"
     "Now I'm sure $ 500 is worth it completely!"
 
+# TODO: Translation updated at 2018-12-10 21:17
+
+translate english strings:
+
+    # Quests/EP2/ep2_dialogues5.rpy:1077
+    old "$ 30.000.000 и я подумаю! (low corruption, required [monicaPhilipTalkBlowjobCorruptionRequired]) (disabled)"
+    new "$ 30.000.000 and I'll think! (low corruption, required [monicaPhilipTalkBlowjobCorruptionRequired]) (disabled)"
+
+    # Quests/EP2/ep2_dialogues5.rpy:1472
+    old "Сесть на колени. (low corruption, required [monicaPhilipBlojwobKneesCorruptionRequired]) (disabled)"
+    new "Sit on the knees. (low corruption, required [monicaPhilipBlojwobKneesCorruptionRequired]) (disabled)"
+
+    # Quests/EP2/ep2_dialogues5.rpy:1530
+    old "Открыть рот... (low corruption, required [monicaPhilipBlojwobOpenMouthCorruptionRequired]) (disabled)"
+    new "To open the mouth... (low corruption, required [monicaPhilipBlojwobOpenMouthCorruptionRequired]) (disabled)"
+
+    # Quests/EP2/ep2_dialogues5.rpy:1560
+    old "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (low corruption, required [monicaPhilipBlojwobOpenMouth2CorruptionRequired]) (disabled)"
+    new "Do what Philip says. I have no choice. I need the money!!! (low corruption, required [monicaPhilipBlojwobOpenMouth2CorruptionRequired]) (disabled)"
+
+    # Quests/EP2/ep2_dialogues5.rpy:1774
+    old "Я могу сделать это еще раз... (low corruption, required [monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired]) (disabled)"
+    new "I can do it again... (low corruption, required [monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired]) (disabled)"
+
+    # Quests/EP2/ep2_dialogues5.rpy:1890
+    old "Открыть рот для нового члена. (low corruption, required [monicaPhilipBlojwobOpenMouthAgainCorruptionRequired]) (disabled)"
+    new "Open your mouth for a new dick. (low corruption, required [monicaPhilipBlojwobOpenMouthAgainCorruptionRequired]) (disabled)"
+
+    # Quests/EP2/ep2_dialogues5.rpy:2205
+    old "Проглотить сперму двух мужчин... (low corruption, required [monicaPhilipBlojwobTakeSpermCorruptionRequired]) (disabled)"
+    new "Swallow the sperm of the two men... (low corruption, required [monicaPhilipBlojwobTakeSpermCorruptionRequired]) (disabled)"
+

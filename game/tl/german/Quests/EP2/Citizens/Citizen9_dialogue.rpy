@@ -172,3 +172,17 @@ translate german citizen9_dialogue_5437aaad:
     # "Хорошо..."
     "Gut..."
 
+# TODO: Translation updated at 2018-12-10 21:33
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:19
+translate german citizen9_dialogue_2047750b:
+
+    # citizen9 "Как скажешь, дамочка."
+    citizen9 "Как скажешь, дамочка."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:31
+translate german citizen9_dialogue_5f662773:
+
+    # m "Идиот! Что ты делаешь?"
+    m "Идиот! Что ты делаешь?"
+

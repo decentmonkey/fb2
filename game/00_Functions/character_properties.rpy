@@ -139,3 +139,8 @@ label bitch(amount, place=False):
     else:
         show screen notify ("Bitchness decreased!")
     return
+
+label low_corruption(req):
+    $ requiredCorruption = req 
+    help "Not enough corruption! Required [requiredCorruption]."
+    return

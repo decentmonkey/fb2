@@ -54,3 +54,11 @@ translate german strings:
     old "Избежать наказания"
     new "Entkomme der Bestrafung"
 
+# TODO: Translation updated at 2018-12-10 21:18
+
+# game/scripts/start.rpy:43
+translate german start_saved_game_b06a0c44:
+
+    # help "Пожалуйста, используйте сохранение из финальной локации в подвале дома."
+    help "Пожалуйста, используйте сохранение из финальной локации в подвале дома."
+

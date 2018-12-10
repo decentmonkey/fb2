@@ -54,3 +54,11 @@ translate english strings:
     old "Избежать наказания"
     new "Escape punishment"
 
+# TODO: Translation updated at 2018-12-10 21:17
+
+# game/scripts/start.rpy:43
+translate english start_saved_game_b06a0c44:
+
+    # help "Пожалуйста, используйте сохранение из финальной локации в подвале дома."
+    help "Please use the save from the final location in the basement of the house."
+

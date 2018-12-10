@@ -959,7 +959,8 @@ label monica_office_cabinet_biff_dialogue3:
             menu:
                 "Да, я согласна... (corruption)" if corruption >= monicaBiffWorkPhotoShot1Agree:
                     pass
-                "Да, я согласна... (low corruption) (disabled)" if corruption < monicaBiffWorkPhotoShot1Agree:
+                "Да, я согласна... (low corruption, required [monicaBiffWorkPhotoShot1Agree]) (disabled)" if corruption < monicaBiffWorkPhotoShot1Agree:
+                    call low_corruption(monicaBiffWorkPhotoShot1Agree)
                     jump .local2
                 "Уйти.":
                     call change_scene("monica_office_secretary")

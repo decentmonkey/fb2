@@ -218,9 +218,11 @@ label monica_dick_dialogue1:
     dick "Тогда где та мелочь, о которой я попросил тебя?"
     img 6208
     w
+    m "here"
     label .local1:
         menu:
-            "Приставать к Дику. (low corruption, required 10) (disabled)" if corruption < monicaTryToDickBlowjobRequiredCorruption:
+            "Приставать к Дику. (low corruption, required [monicaTryToDickBlowjobRequiredCorruption]) (disabled)" if corruption < monicaTryToDickBlowjobRequiredCorruption:
+                call low_corruption(monicaTryToDickBlowjobRequiredCorruption)
                 jump local1
             "Приставать к Дику. (corruption)" if corruption >= monicaTryToDickBlowjobRequiredCorruption:
                 #corruption check!!!

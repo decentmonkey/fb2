@@ -1083,7 +1083,8 @@ label monica_charity_event_dialogue14:
                 with fade
                 m "Если Вы подымете сумму до $ 30.000.000, то я готова подумать..."
                 mt "В конце концов еще один небольшой кошмар, но я смогу решить все свои проблемы!"
-            "$ 30.000.000 и я подумаю! (low corruption) (disabled)" if corruption < monicaPhilipTalkBlowjobCorruptionRequired:
+            "$ 30.000.000 и я подумаю! (low corruption, required [monicaPhilipTalkBlowjobCorruptionRequired]) (disabled)" if corruption < monicaPhilipTalkBlowjobCorruptionRequired:
+                call low_corruption(monicaPhilipTalkBlowjobCorruptionRequired)
                 jump .local1
             "Вы правда думаете что я стою так мало?":
                 music Groove2_85
@@ -1471,7 +1472,8 @@ label monica_charity_event_dialogue18:
         menu:
             "Сесть на колени. (corruption)" if corruption >= monicaPhilipBlojwobKneesCorruptionRequired:
                 pass
-            "Сесть на колени. (low corruption) (disabled)" if corruption < monicaPhilipBlojwobKneesCorruptionRequired:
+            "Сесть на колени. (low corruption, required [monicaPhilipBlojwobKneesCorruptionRequired]) (disabled)" if corruption < monicaPhilipBlojwobKneesCorruptionRequired:
+                call low_corruption(monicaPhilipBlojwobKneesCorruptionRequired)
                 jump .local1
             "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!":
                 img 6904
@@ -1537,7 +1539,8 @@ label monica_charity_event_dialogue18:
                 return False
             "Открыть рот... (corruption)" if corruption >= monicaPhilipBlojwobOpenMouthCorruptionRequired:
                 pass
-            "Открыть рот... (low corruption) (disabled)" if corruption < monicaPhilipBlojwobOpenMouthCorruptionRequired:
+            "Открыть рот... (low corruption, required [monicaPhilipBlojwobOpenMouthCorruptionRequired]) (disabled)" if corruption < monicaPhilipBlojwobOpenMouthCorruptionRequired:
+                call low_corruption(monicaPhilipBlojwobOpenMouthCorruptionRequired)
                 jump local2
 
     #Моника открывает рот
@@ -1566,7 +1569,8 @@ label monica_charity_event_dialogue18:
                 return False
             "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (corruption)" if corruption >= monicaPhilipBlojwobOpenMouth2CorruptionRequired:
                 pass
-            "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (low corruption) (disabled)" if corruption < monicaPhilipBlojwobOpenMouth2CorruptionRequired:
+            "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (low corruption, required [monicaPhilipBlojwobOpenMouth2CorruptionRequired]) (disabled)" if corruption < monicaPhilipBlojwobOpenMouth2CorruptionRequired:
+                call low_corruption(monicaPhilipBlojwobOpenMouth2CorruptionRequired)
                 jump local3
     img 6923
     with Dissolve(0.5)
@@ -1794,7 +1798,8 @@ label monica_charity_event_dialogue18:
                 philip "Миссис Бакфетт! Я уже купил Ваш ротик!"
                 img 6954
                 "Я не собираюсь еще раз покупать его!!!"
-            "Я могу сделать это еще раз... (low corruption) (disabled)" if corruption < monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired:
+            "Я могу сделать это еще раз... (low corruption, required [monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired]) (disabled)" if corruption < monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired:
+                call low_corruption(monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired)
                 jump local4
             "Я не знаю... Мне нечего предложить...":
                 img 6955
@@ -1891,7 +1896,8 @@ label monica_charity_event_dialogue18:
                 img 6977
                 philip "Этот ротик приглашает тебя!"
 
-            "Открыть рот для нового члена. (low corruption) (disabled)" if corruption < monicaPhilipBlojwobOpenMouthAgainCorruptionRequired:
+            "Открыть рот для нового члена. (low corruption, required [monicaPhilipBlojwobOpenMouthAgainCorruptionRequired]) (disabled)" if corruption < monicaPhilipBlojwobOpenMouthAgainCorruptionRequired:
+                call low_corruption(monicaPhilipBlojwobOpenMouthAgainCorruptionRequired)
                 jump local5
             "Не открывать самой...":
                 img 6972
@@ -2218,7 +2224,8 @@ label monica_charity_event_dialogue18:
                 w
                 img 7035
                 philip "Отлично, спасибо."
-            "Проглотить сперму двух мужчин... (low corruption) (disabled)" if corruption < monicaPhilipBlojwobTakeSpermCorruptionRequired:
+            "Проглотить сперму двух мужчин... (low corruption, required [monicaPhilipBlojwobTakeSpermCorruptionRequired]) (disabled)" if corruption < monicaPhilipBlojwobTakeSpermCorruptionRequired:
+                call low_corruption(monicaPhilipBlojwobTakeSpermCorruptionRequired)
                 jump local6
             "Притвориться что проглотила...":
                 img 7028

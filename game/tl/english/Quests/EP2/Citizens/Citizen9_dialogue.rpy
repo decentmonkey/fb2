@@ -172,3 +172,17 @@ translate english citizen9_dialogue_5437aaad:
     # "Хорошо..."
     "Good..."
 
+# TODO: Translation updated at 2018-12-10 21:34
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:19
+translate english citizen9_dialogue_2047750b:
+
+    # citizen9 "Как скажешь, дамочка."
+    citizen9 "As you say, lady."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:31
+translate english citizen9_dialogue_5f662773:
+
+    # m "Идиот! Что ты делаешь?"
+    m "You are an idiot! What are you doing?"
+

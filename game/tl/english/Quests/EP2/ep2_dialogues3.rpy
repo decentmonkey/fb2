@@ -1472,3 +1472,17 @@ translate english strings:
     old "Монике пришлось зарабатывать на еду разноской флаеров"
     new "Monica had to earn money by posting flyers"
 
+# TODO: Translation updated at 2018-12-10 21:17
+
+# game/Quests/EP2/ep2_dialogues3.rpy:221
+translate english monica_dick_dialogue1_local1_9beb19ec:
+
+    # m "here"
+    m "here"
+
+translate english strings:
+
+    # Quests/EP2/ep2_dialogues3.rpy:223
+    old "Приставать к Дику. (low corruption, required [monicaTryToDickBlowjobRequiredCorruption]) (disabled)"
+    new "Seduce Dick. (low corruption, required [monicaTryToDickBlowjobRequiredCorruption]) (disabled)"
+
