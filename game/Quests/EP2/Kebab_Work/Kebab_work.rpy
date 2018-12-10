@@ -81,7 +81,7 @@ label kebab_work_objective_refresh:
     $ print kebabWorkFlyersLeft
     if kebabWorkFlyersLeft > 0:
         $ remove_objective("give_flyers")
-        $ add_objective("give_flyers", _("Осталось флаеров") + " " + str(kebabWorkFlyersLeft), c_orange, 20)
+        $ add_objective("give_flyers", __("Осталось флаеров") + " " + str(kebabWorkFlyersLeft), c_orange, 20)
     else:
         $ remove_objective("give_flyers")
     return
