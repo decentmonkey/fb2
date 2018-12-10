@@ -4550,3 +4550,37 @@ translate english strings:
     old "Проглотить сперму двух мужчин... (low corruption) (disabled)"
     new "Swallow the sperm of two men... (low corruption) (disabled)"
 
+# TODO: Translation updated at 2018-12-10 03:03
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1596
+translate english monica_charity_event_dialogue18_local3_1d7fc3ae:
+
+    # philip "Миссис Бакфетт!"
+    # "Отлично!"
+    # "Чувствуется что у Вас недостаток практики!"
+    # "Но мне это даже нравится!"
+    philip "Mrs. Buckfett!"
+    "Excellent!"
+    "I imagine that you have lack of practice!"
+    "But I'm actually enjoying this!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1625
+translate english monica_charity_event_dialogue18_local3_b8827b2c:
+
+    # "Если честно, я сомневался что Ваш ротик стоит $ 500!"
+    "To be honest, I doubted that your mouth was worth $ 500!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1638
+translate english monica_charity_event_dialogue18_local3_5f8bc01b:
+
+    # "Я думал что ему больше подходит цена в $ 300!"
+    "I thought it was better valued at $ 300!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1651
+translate english monica_charity_event_dialogue18_local3_8adb05a0:
+
+    # "Но нет!"
+    # "Теперь я уверен что $ 500 он стоит вполне!"
+    "But no!"
+    "Now I'm sure $ 500 is worth it completely!"
+

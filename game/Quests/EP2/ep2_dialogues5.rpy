@@ -1599,31 +1599,118 @@ label monica_charity_event_dialogue18:
     "Но мне это даже нравится!"
 
     #идет видео минета
-
+    stop music
+    play music "Sounds/v_Monica_Philip_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob_1_1 = Movie(play="video/v_Monica_Philip_Blowjob_1_1.mp4", fps=30)
+    show videov_Monica_Philip_Blowjob_1_1
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Philip_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob_1_2 = Movie(play="video/v_Monica_Philip_Blowjob_1_2.mp4", fps=30)
+    show videov_Monica_Philip_Blowjob_1_2
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Philip_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob_1_3 = Movie(play="video/v_Monica_Philip_Blowjob_1_3.mp4", fps=30)
+    show videov_Monica_Philip_Blowjob_1_3
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Philip_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob_1_4 = Movie(play="video/v_Monica_Philip_Blowjob_1_4.mp4", fps=30)
+    show videov_Monica_Philip_Blowjob_1_4
     "Если честно, я сомневался что Ваш ротик стоит $ 500!"
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Philip_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob_1_5 = Movie(play="video/v_Monica_Philip_Blowjob_1_5.mp4", fps=30)
+    show videov_Monica_Philip_Blowjob_1_5
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Philip_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob_1_6 = Movie(play="video/v_Monica_Philip_Blowjob_1_6.mp4", fps=30)
+    show videov_Monica_Philip_Blowjob_1_6
     "Я думал что ему больше подходит цена в $ 300!"
-
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Philip_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob_1_7 = Movie(play="video/v_Monica_Philip_Blowjob_1_7.mp4", fps=30)
+    show videov_Monica_Philip_Blowjob_1_7
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Philip_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob_1_8 = Movie(play="video/v_Monica_Philip_Blowjob_1_8.mp4", fps=30)
+    show videov_Monica_Philip_Blowjob_1_8
     "Но нет!"
     "Теперь я уверен что $ 500 он стоит вполне!"
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Philip_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob_1_9 = Movie(play="video/v_Monica_Philip_Blowjob_1_9.mp4", fps=30)
+    show videov_Monica_Philip_Blowjob_1_9
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Philip_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob_1_10 = Movie(play="video/v_Monica_Philip_Blowjob_1_10.mp4", fps=30)
+    show videov_Monica_Philip_Blowjob_1_10
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Philip_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob_1_11 = Movie(play="video/v_Monica_Philip_Blowjob_1_11.mp4", fps=30)
+    show videov_Monica_Philip_Blowjob_1_11
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Philip_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob_1_12 = Movie(play="video/v_Monica_Philip_Blowjob_1_12.mp4", fps=30)
+    show videov_Monica_Philip_Blowjob_1_12 #????
+    wclean
+
 
 
     #заглядывает рецепшин
+    music Hidden_Agenda
     sound snd_door_open1
     img 6929
     with fade
     w
     img 6930
     w
-    #видео 13
+    music Hidden_Agenda
     img 6931
     reception_t "Ага!"
     "А я уже начала было сомневаться в своем чутье!"
     "Эта шлюха искусно маскируется!"
+    #видео 13
+    stop music
+    play music "Sounds/v_Monica_Philip_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob_1_13 = Movie(play="video/v_Monica_Philip_Blowjob_1_13.mp4", fps=30)
+    show videov_Monica_Philip_Blowjob_1_13
+    wclean
+    music Hidden_Agenda
     img 6933
     "Я почти поверила что она Леди!"
     "В нашей гостинице запрещено заниматься проституцией без разрешения!"
     #видео 14
+    stop music
+    play music "Sounds/v_Monica_Philip_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob_1_14 = Movie(play="video/v_Monica_Philip_Blowjob_1_14.mp4", fps=30)
+    show videov_Monica_Philip_Blowjob_1_14
+    wclean
 
+    music Hidden_Agenda
     img 6932
     "В прошлый раз она приходила с такой же целью, могу поспорить!"
 
@@ -1969,11 +2056,93 @@ label monica_charity_event_dialogue18:
     philip "Долби ее в ротик!"
     "Чего ты с ней возишься?!"
 
-    music stop
     #парень начинает ее долбить
     #видео
+    stop music
+    play music "Sounds/v_Monica_Helper_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_1_1 = Movie(play="video/v_Monica_Helper_Blowjob_1_1.mp4", fps=30)
+    show videov_Monica_Helper_Blowjob_1_1
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Helper_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_1_2 = Movie(play="video/v_Monica_Helper_Blowjob_1_2.mp4", fps=30)
+    show videov_Monica_Helper_Blowjob_1_2
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Helper_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_1_3 = Movie(play="video/v_Monica_Helper_Blowjob_1_3.mp4", fps=30)
+    show videov_Monica_Helper_Blowjob_1_3
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Helper_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_1_4 = Movie(play="video/v_Monica_Helper_Blowjob_1_4.mp4", fps=30)
+    show videov_Monica_Helper_Blowjob_1_4
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Helper_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_1_5 = Movie(play="video/v_Monica_Helper_Blowjob_1_5.mp4", fps=30)
+    show videov_Monica_Helper_Blowjob_1_5
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Helper_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_1_6 = Movie(play="video/v_Monica_Helper_Blowjob_1_6.mp4", fps=30)
+    show videov_Monica_Helper_Blowjob_1_6
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Helper_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_1_7 = Movie(play="video/v_Monica_Helper_Blowjob_1_7.mp4", fps=30)
+    show videov_Monica_Helper_Blowjob_1_7
     hotel_staff "Простите, Мэм!"
     "Пожалуйста, не увольняйте меня!"
+    stop music
+    play music "Sounds/v_Monica_Helper_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_1_8 = Movie(play="video/v_Monica_Helper_Blowjob_1_8.mp4", fps=30)
+    show videov_Monica_Helper_Blowjob_1_8
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Helper_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_1_9 = Movie(play="video/v_Monica_Helper_Blowjob_1_9.mp4", fps=30)
+    show videov_Monica_Helper_Blowjob_1_9
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Helper_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_1_10 = Movie(play="video/v_Monica_Helper_Blowjob_1_10.mp4", fps=30)
+    show videov_Monica_Helper_Blowjob_1_10
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Helper_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_1_11 = Movie(play="video/v_Monica_Helper_Blowjob_1_11.mp4", fps=30)
+    show videov_Monica_Helper_Blowjob_1_11
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Helper_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_1_12 = Movie(play="video/v_Monica_Helper_Blowjob_1_12.mp4", fps=30)
+    show videov_Monica_Helper_Blowjob_1_12
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Helper_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_1_13 = Movie(play="video/v_Monica_Helper_Blowjob_1_13.mp4", fps=30)
+    show videov_Monica_Helper_Blowjob_1_13
+    wclean
+    stop music
+    play music "Sounds/v_Monica_Helper_Blowjob_1_sound.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_1_14 = Movie(play="video/v_Monica_Helper_Blowjob_1_14.mp4", fps=30)
+    show videov_Monica_Helper_Blowjob_1_14
+    wclean
 #    "Я обязательно учту Ваши пожелания по поводу постера в следующий раз!"
 
 
@@ -1983,6 +2152,7 @@ label monica_charity_event_dialogue18:
     with fade
     hotel_staff "Иииииииииииии!!!"
 
+    music stop
     music Groove2_85
     img 7016
     with fade

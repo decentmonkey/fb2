@@ -4550,3 +4550,37 @@ translate german strings:
     old "Проглотить сперму двух мужчин... (low corruption) (disabled)"
     new ""
 
+# TODO: Translation updated at 2018-12-10 03:02
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1596
+translate german monica_charity_event_dialogue18_local3_1d7fc3ae:
+
+    # philip "Миссис Бакфетт!"
+    # "Отлично!"
+    # "Чувствуется что у Вас недостаток практики!"
+    # "Но мне это даже нравится!"
+    philip "Миссис Бакфетт!"
+    "Отлично!"
+    "Чувствуется что у Вас недостаток практики!"
+    "Но мне это даже нравится!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1625
+translate german monica_charity_event_dialogue18_local3_b8827b2c:
+
+    # "Если честно, я сомневался что Ваш ротик стоит $ 500!"
+    "Если честно, я сомневался что Ваш ротик стоит $ 500!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1638
+translate german monica_charity_event_dialogue18_local3_5f8bc01b:
+
+    # "Я думал что ему больше подходит цена в $ 300!"
+    "Я думал что ему больше подходит цена в $ 300!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1651
+translate german monica_charity_event_dialogue18_local3_8adb05a0:
+
+    # "Но нет!"
+    # "Теперь я уверен что $ 500 он стоит вполне!"
+    "Но нет!"
+    "Теперь я уверен что $ 500 он стоит вполне!"
+
