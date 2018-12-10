@@ -1608,7 +1608,7 @@ label monica_office_photostudio_alex_dialogue2:
         menu:
             "Продолжить делать кадры. (corruption)" if corruption >= monicaBiffWorkPhotoShot1PervertCorruptionRequired:
                 $ add_char_progress("AlexPhotograph", photoshot1AlexProgressPervertAmount, "photoshot1_corruption")
-
+                $ add_corruption(monicaBiffWorkPhotoShot1PervertCorruptionAdding, "monicaBiffWorkPhotoShot1PervertCorruptionAdding")
                 img 6621
                 with fade
                 call photoshop_flash()
