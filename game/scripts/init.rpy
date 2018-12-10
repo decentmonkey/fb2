@@ -3,7 +3,7 @@ define bettyCleaningProgessAmount = 20 #5 #Прогресс с Бетти за �
 define bettyCleaningProgessRegressAmount = -10 # Насколько убавляется прогресс с Бетти если Моника пропустила уборку
 define bettyTryOutInGovernessClothRegressAmount = -10 # Насколько убавляется прогресс с Бетти если Моника пытается выйти за пределы дома в одежде гувернантки
 
-define bardieCleaningUpskirtTry = 60 #15 #Прогресс с Барди за попытку подсмотреть во время уборки (начальная стадия)
+define bardieCleaningUpskirtTry = 15 #15 #Прогресс с Барди за попытку подсмотреть во время уборки (начальная стадия)
 define bardieCleaningUpskirtTryCorruption = 0 # Увеличение corruption, когда Барди подсматривает под юбку Моники
 define monicaCleaningAddCorruptionPerCleaning = 1 #Увеличение corruption за одну уборку
 
@@ -24,17 +24,17 @@ define monicaTryToDickBlowjobRequiredCorruption = 10 # Кол-во corruption д
 define monicaBiffWorkPhotoShot1Agree = 10 #Кол-во corruption для согласия сниматься у Бифа
 define monicaBiffWorkPhotoShot1PervertCorruptionRequired = 45 # Необходимо corruption, чтобы продолжить сниматься в развратных ракурсах
 define monicaBiffWorkPhotoShot1PervertCorruptionAdding = 5 # Кол-во corruption за съемку в развратных ракурсах
-define monicaPhilipTalkBlowjobCorruptionRequired = 10 # Кол-во corruption, чтобы активировать фразу blowjob за $30.000.000
-define monicaPhilipTalkBlowjobCorruptionAmount = 10 # Кол-во corruption, которые добавляются если Моника сказала фразу про blowjob за $30.000.000
-define monicaPhilipTalkBlowjob2CorruptionAmount = 10 # Кол-во corruption, которые добавляются если Моника согласилась говорить про blowjob во время танца
+define monicaPhilipTalkBlowjobCorruptionRequired = 52 # Кол-во corruption, чтобы активировать фразу blowjob за $30.000.000
+define monicaPhilipTalkBlowjobCorruptionAmount = 0 # Кол-во corruption, которые добавляются если Моника сказала фразу про blowjob за $30.000.000
+define monicaPhilipTalkBlowjob2CorruptionAmount = 0 # Кол-во corruption, которые добавляются если Моника согласилась говорить про blowjob во время танца
 define monicaPhilipTalkBlowjob3CorruptionAmount = 10 # Кол-во corruption, которые добавляются если Моника согласилась сделать blowjob
 
-define monicaPhilipBlojwobKneesCorruptionRequired = 10 # Кол-во corruption, которые необходимы, чтобы Моника села на колени перед Филипом
-define monicaPhilipBlojwobOpenMouthCorruptionRequired = 10 # Кол-во corruption, которые необходимы, чтобы Моника открыла рот перед членом Филипа
-define monicaPhilipBlojwobOpenMouth2CorruptionRequired = 10 # Кол-во corruption, которые необходимы, чтобы Моника открыла рот еще больше
-define monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired = 10 # Кол-во corruption, которые необходимы, чтобы Моника предложила Филипу сделать минет еще раз
-define monicaPhilipBlojwobOpenMouthAgainCorruptionRequired = 10 # Кол-во corruption, которые необходимы, чтобы Моника снова открыла рот для нового мужчины
-define monicaPhilipBlojwobTakeSpermCorruptionRequired = 10 # Кол-во corruption, которые необходимы, чтобы Моника сама проглотила сперму
+define monicaPhilipBlojwobKneesCorruptionRequired = 55 # Кол-во corruption, которые необходимы, чтобы Моника села на колени перед Филипом
+define monicaPhilipBlojwobOpenMouthCorruptionRequired = 57 # Кол-во corruption, которые необходимы, чтобы Моника открыла рот перед членом Филипа
+define monicaPhilipBlojwobOpenMouth2CorruptionRequired = 59 # Кол-во corruption, которые необходимы, чтобы Моника открыла рот еще больше
+define monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired = 70 # Кол-во corruption, которые необходимы, чтобы Моника предложила Филипу сделать минет еще раз
+define monicaPhilipBlojwobOpenMouthAgainCorruptionRequired = 80 # Кол-во corruption, которые необходимы, чтобы Моника снова открыла рот для нового мужчины
+define monicaPhilipBlojwobTakeSpermCorruptionRequired = 80 # Кол-во corruption, которые необходимы, чтобы Моника сама проглотила сперму
 
 default houseMusic = "Mandeville"
 #default biffMusic = "Funk_loop8"

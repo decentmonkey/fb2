@@ -38,6 +38,14 @@ label start:
     return
 
 label start_saved_game:
+    if scene_name != "basement_bedroom1" and scene_name != "basement_bedroom2":
+        img black_screen
+        help "Пожалуйста, используйте сохранение из финальной локации в подвале дома."
+        scene black_screen
+        with Dissolve(1)
+        $ renpy.full_restart(transition=Fade(1.0, 1.0, 1.0))
+        return
+
     $ refresh_list_files_forced()
     $ scenes_data = {"objects": {}, "substs" : {}, "autorun": {}, "hooks": {}}
     $ hooks_stack = []
@@ -48,6 +56,7 @@ label start_saved_game:
     if ralphAskedAboutPayment == False:
         $ add_objective("ask_ralph", _("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
     $ add_objective("freedom", _("Избежать наказания"), c_red, 0)
+    $ teleportHomeFredBlowjobFlag = False
     call start_game()
     return
 
