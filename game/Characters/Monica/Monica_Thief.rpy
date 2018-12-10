@@ -17,6 +17,10 @@ label monica_gas_station_thief_dialogue1:
 
 label monica_gas_station_thief_dialogue2:
     #Моника ворует еду
+    if monicaEatedLastDay == day:
+        mt "Я не так уж голодна."
+        "Не стоит лишний раз рисковать..."
+        return
     menu:
         "Украсть еду.":
             pass
