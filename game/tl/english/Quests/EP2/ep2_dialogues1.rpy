@@ -31,8 +31,8 @@ translate english sleep_scene1_f66c0265:
 
     # dick "Моника, что значит что я здесь делаю?"
     # "Я еду с тобой в ресторан."
-    dick "Monica, what do you mean?"
-    "I'm going to a restaurant with you."
+    dick "What do you mean?"
+    "I'm taking you to a restaurant."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:23
 translate english sleep_scene1_3d95f619:
@@ -56,15 +56,15 @@ translate english sleep_scene1_93974b21:
 translate english sleep_scene1_75ca308a:
 
     # m "Я... Я не знаю..."
-    m "I am... I do not know..."
+    m "I... I do not know..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:33
 translate english sleep_scene1_92b3f2eb:
 
     # dick "Моника, мне показалось что ты заснула."
     # "Ты не выспалась сегодня?"
-    dick "Monica, I thought you were asleep."
-    "Did you get enough sleep tonight?"
+    dick "I thought you were sleeping."
+    "Did you not get enough sleep last night?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:37
 translate english sleep_scene1_e897ad46:
@@ -118,7 +118,7 @@ translate english sleep_scene1_355cbb6f:
     # m "Ты уволен, Фред!!!"
     # "Едь скорее на место и вон из машины!"
     m "You're fired!!!"
-    "Get back to your seat and get out of the car!"
+    "Go back to your seat and get out of the car!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:63
 translate english sleep_scene1_27441ed8:
@@ -138,7 +138,7 @@ translate english sleep_scene1_5184a778:
 translate english sleep_scene1_c055cabc:
 
     # m "Что за проступок, ты спрашиваешь?!?!"
-    m "What kind of offense are you asking about?!?!"
+    m "You don't know what kind of offense you've commited?!?!?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:71
 translate english sleep_scene1_21f3fe6f:
@@ -146,13 +146,13 @@ translate english sleep_scene1_21f3fe6f:
     # "Ты..."
     # "Ты... Я не скажу что ты сделал..."
     "You..."
-    "You... I won't tell you what you did..."
+    "You... I won't even tell you what you did..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:74
 translate english sleep_scene1_01da7dfa:
 
     # "Но этого более чем достаточно для увольнения!"
-    "But it is more than enough to be fired!"
+    "All you have to know is that it was more than enough to be fired!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:77
 translate english sleep_scene1_c4897e4b:
@@ -172,7 +172,7 @@ translate english sleep_scene1_71519e67:
 translate english sleep_scene1_9d7d9e92:
 
     # "Но нет! Я не смогу находиться рядом с ним после того что я пережила, даже во сне!"
-    "No! I can't be around him after what I've been through, not even in my dream!"
+    "No, it doesn't matter! I can't be around him after what I've been through, even if it was just in my dreams!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:86
 translate english sleep_scene1_ab56cc75:
@@ -204,7 +204,7 @@ translate english sleep_scene1_4358bf7e:
 translate english sleep_scene1_22213875:
 
     # "Ходи с ней по ресторанам! Ты не достоин меня!"
-    "Go to restaurant with her! You don't deserve me!"
+    "Go to the restaurant with her! You don't deserve me!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:104
 translate english sleep_scene1_375477be:
@@ -256,7 +256,7 @@ translate english sleep_scene1_58f40e48:
     # dick "У тебя его не было, Моника."
     # "Я не знаю почему, но ты не взяла его..."
     dick "You don't have one, Monica."
-    "I don't know why, but you haven't brought it..."
+    "I don't know why, but you don't have one with you"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:128
 translate english sleep_scene1_d0666177:
@@ -274,7 +274,7 @@ translate english sleep_scene1_4208bcef:
 translate english sleep_scene1_cf3dcabb:
 
     # "А где твой браслет? Ты всегда одевала его..."
-    "An where's your bracelet? You always wear it..."
+    "And where's your bracelet? You always wear it..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:136
 translate english sleep_scene1_e612037c:
@@ -287,8 +287,8 @@ translate english sleep_scene1_4da2f5bd:
 
     # dick "И трусики, зачем-то ты их тоже не носишь."
     # "Почему, Моника?"
-    dick "And your panties... For some reason you're not wearing any of those either."
-    "Why, Monica?"
+    dick "And your panties... For some reason you're not wearing them either."
+    "Why is that, Monica?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:143
 translate english sleep_scene1_e612037c_1:
@@ -358,7 +358,7 @@ translate english sleep_scene1_0b43fb38:
 translate english sleep_scene1_f887c792:
 
     # "Главное помни про галстук и не разбей мое сердце..."
-    "Just remember the tie and that you won't break my heart..."
+    "As long as you remember the tie, and that you won't break my heart..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:178
 translate english sleep_scene1_29a4f6ab_2:
@@ -394,7 +394,7 @@ translate english sleep_scene1_90441304:
     # mt "Черт! Я все вспомнила!"
     # mt "Этого не может быть!!!"
     mt "Fuck! I remember everything!"
-    mt "That's impossible!!!"
+    mt "No, this is impossible!!!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:200
 translate english sleep_scene1_87d6a4f8:
@@ -416,21 +416,21 @@ translate english sleep_scene1_cefb8771:
     # "У меня нет денег, нет документов."
     # "Любой полцейский, который меня остановит, {b}может забрать меня к Маркусу{/b} и..."
     "I have no money, no documents."
-    "Any police officer who stops me, {b}can take me to Marcus{/b} and..."
+    "Any police officer who stops me {b}can take me to Marcus{/b} and..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:216
 translate english sleep_scene1_c99485b8:
 
     # "Никаких И! Я не попаду к нему!"
-    "No, no more! I'm not going there!"
+    "No, don't think about that! I'm not going there!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:219
 translate english sleep_scene1_fff00551:
 
     # "На самом деле, не все так плохо."
     # "У меня есть крыша над головой, правда я не могу забыть какой ценой она досталась мне..."
-    "Actually, it's not that bad."
-    "I have a roof over my head, though I can't forget the price I paid for it..."
+    "Well, actually, everything is not that bad."
+    "I have a roof over my head, though I can't forget the price I had to pay for it..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:222
 translate english sleep_scene1_313ea9a5:
@@ -444,7 +444,7 @@ translate english sleep_scene1_313ea9a5:
 translate english sleep_scene1_6f8f4b40:
 
     # "Итак... Меня пустили в свой же дом при условии что {b}я буду убираться в нем{/b}..."
-    "So... I was allowed in your house provided that {b}I will clean it{/b}..."
+    "So... I was allowed to stay in this house provided that {b}I will clean it{/b}..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:231
 translate english sleep_scene1_373eef24:
@@ -467,7 +467,7 @@ translate english sleep_scene1_48b2e946:
     # "Сделать вид что я убираюсь."
     # "В конце концов, эта семейка идиотов что здесь живет - она недалекого ума."
     # "Притвориться перед ними и обхитрить их будет пустяковой задачей..."
-    "But it's good... If I have to go through this, I will..."
+    "But it's okay... If I have to go through this, I will..."
     "They don't know who I am so my pride won't suffer much..."
     "All I have to do is to pretend... For a while..."
     "Pretend I'm cleaning."
@@ -487,7 +487,7 @@ translate english sleep_scene1_65b7e92f:
 
     # "Потому что Я - Моника Бакфетт!"
     # "А они - никто!"
-    "Because I'm a Monica Buckfett!"
+    "Because I'm Monica Buckfett!"
     "They're a complete nonentity!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:252
@@ -499,7 +499,7 @@ translate english sleep_scene1_de23fcc8:
     # "Так что крыша у меня над головой есть, но {b}еду мне придется доставать где-то еще...{/b}"
     "This Betty..."
     "Damn... She's a fool, but she's watching me."
-    "Wherever I go here, she follows me..."
+    "Wherever I go in this house, she follows..."
     "So I have a roof over my head, but I have to get {b}food somewhere else...{/b}"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:259
@@ -510,7 +510,7 @@ translate english sleep_scene1_7c99658a:
     # "Но хочу-ли я воровать?..."
     "I wonder where?..."
     "Can I steal food from that {b}idiot at the gas station{/b}?"
-    "But do I want to steal?..."
+    "Do I really want to steal, though?..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:266
 translate english sleep_scene1_25bbcb35:
@@ -526,9 +526,9 @@ translate english sleep_scene1_56e2d0d8:
     # "Животное, фу!"
     # "Маленькое ничтожество..."
     # "Конечно ему никогда не светит прикоснуться к такой красоте как Я..."
-    "Animal, ew!"
+    "That animal, ew!"
     "Little jerk..."
-    "Of course, he'd never touch a beauty like me..."
+    "Of course, he would never get touch a beauty like me..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:278
 translate english sleep_scene1_c72691d4:
@@ -567,7 +567,7 @@ translate english sleep_scene1_013af7f9:
     # "Это ее происки по поводу галстука!"
     # "Мне надо сходить к нему еще раз, может получится {b}отбить Дика у нее{/b}?"
     "That bitch!"
-    "It's her intrigues about the tie!"
+    "It's all her idea about the tie!"
     "I need to see Dick again, maybe I could {b}take him away from her{/b}?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:302
@@ -578,15 +578,15 @@ translate english sleep_scene1_1d6410c1:
     # "Еще эти его дурацкие слова про галстук!"
     "After all, to get my money back, I have to get rid of Marcus first!"
     "Only Dick can help me with that!"
-    "His stupid words about the tie!"
+    "I can't believe his stupid words about the tie!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:306
 translate english sleep_scene1_364bbb8a:
 
     # "Уверена что Дик просто шутил!"
     # "Не думаю что мне стоит всеръез воспринимать его слова об этом!"
-    "I'm sure Dick was just joking!"
-    "I don't think I should take his words seriously!"
+    "I'm sure he was just joking though!"
+    "I don't think I should take his words that seriously!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:311
 translate english sleep_scene1_4a08cf47:
@@ -613,7 +613,7 @@ translate english sleep_scene1_d710f8b7:
     # "Я - лицо модного журнала!"
     # "Невозможно представить журнал без меня!"
     "I am Monica Buckfett!"
-    "I'm the face of a fashion magazine!"
+    "I'm the face of the fashion magazine!"
     "It is impossible to imagine the magazine without me!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:325
@@ -643,7 +643,7 @@ translate english sleep_scene1_358e3b1d:
     "I know him too well..."
     "Plus, he has those two prostitutes running around him..."
     "Tiffany and Jane..."
-    "After I threatened to fire them, they might be more afraid than that secretary at Dick's office..."
+    "After I threatened to fire them, they might be more of a hassle than that secretary at Dick's office..."
     "Pathetic little insects..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:341
@@ -653,7 +653,7 @@ translate english sleep_scene1_7b9278a7:
     # "Это касается и моих подружек Стефани и Ребекки..."
     # "В конце концов, мне придется общаться со всеми ними когда я верну положение в обществе."
     # "И вообще, надо бы найти одежду получше чем те тряпки, которые я схватила у той шлюхи..."
-    "And I shouldn't look like this in front of people who know me."
+    "And I shouldn't look like this in front of the people who know me."
     "That goes especially for my friends Stephanie and Rebecca..."
     "Eventually, I'll deal with all of them, when I get my status back."
     "But firstly, I ought to find better clothes than the rags I grabbed from that whore..."
@@ -664,9 +664,9 @@ translate english sleep_scene1_5c939173:
     # "Не могу поверить что мне приходится ходить в этом по городу..."
     # "Может лучше ходить в униформе Юлии?"
     # "Как хорошо что меня никто не узнает в этом!"
-    "I can't believe I have to wear this around the city..."
+    "I can't believe I have to wear that around the city..."
     "Maybe it's better to wear Julia's uniform."
-    "It's good that nobody would recognize me in this!"
+    "It's good that nobody would recognize me in whatever I wear!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:353
 translate english sleep_scene1_b745dc40:
@@ -690,14 +690,14 @@ translate english sleep_scene1_45bc818c:
     "Ralph..."
     "It would be very easy to take him away from this provincial fool."
     "After that, it only remains to throw that little bastard and that bitch Betty out of the house."
-    "And then throw Ralph away..."
+    "And then eventually throw Ralph away as well..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:365
 translate english sleep_scene1_621ef18f:
 
     # "Но Бетти не дает возможности даже взять бутерброд на кухне, что уж говорить о том что она не даст даже близко приблизиться к Ральфу..."
     # "..."
-    "But Betty does not even give me the opportunity to make a sandwich in the kitchen, to say nothing about the fact that she will not come close to Ralph..."
+    "But Betty does not even give me the opportunity to make a sandwich in the kitchen,so she won't let me come near Ralph..."
     "..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:370
@@ -722,7 +722,7 @@ translate english sleep_scene1_856f9e68:
     # m "Да, это все небольшое недоразумение..."
     # "И, когда я решу его, я поквитаюсь со всеми вами!"
     # "Клянусь!"
-    m "Yeah, it's all a little misunderstanding..."
+    m "Yeah, thi is all a little misunderstanding..."
     "And when I solve it, I'll get even with all of you!"
     "I swear!"
 
@@ -754,7 +754,7 @@ translate english sleep_scene1_31aad242:
     # "Мне, почему-то, кажется что еду брать она все-равно не разрешит."
     "But sometimes it's worth cleaning up. It can build Betty's trust."
     "Although why should I trust her?"
-    "For some reason, it seems that I won't be allowed to take any food."
+    "For some reason, it seems that I won't be allowed to take any food either way."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:400
 translate english spot_monica_comment1_c3fef90e:
@@ -896,7 +896,7 @@ translate english cleaning_bardie_comment1_27701d53:
     # bardie "Ах ты так!"
     # bardie_t "Ну она у меня попляшет!"
     bardie "You!"
-    bardie_t "Well, she will have to be held responsible!"
+    bardie_t "Well, she will have to be held responsible for this!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:493
 translate english cleaning_bardie_comment2_07d4936c:
@@ -914,7 +914,7 @@ translate english cleaning_bardie_comment2_23409edc:
 translate english cleaning_bardie_comment2_b768a194:
 
     # bardie "Если ты мне покажешь трусики, то я разрешу тебе не убирать здесь."
-    bardie "If you show me your panties, I'll let you avoid cleaning up in here."
+    bardie "If you show me your panties, I'll let you avoid cleaning in here."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:501
 translate english cleaning_bardie_comment2_db13d9a8:
@@ -930,7 +930,7 @@ translate english cleaning_bardie_comment2_27701d53:
     # bardie "Ах ты так!"
     # bardie_t "Ну она у меня попляшет!"
     bardie "You!"
-    bardie_t "Well, she will have to be held responsible!"
+    bardie_t "Well, she will have to be held responsible for this!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:527
 translate english cleaning_bardie_comment3_4c88471c:
@@ -970,7 +970,7 @@ translate english cleaning_bardie_comment3_27701d53:
     # bardie "Ах ты так!"
     # bardie_t "Ну она у меня попляшет!"
     bardie "You!"
-    bardie_t "Well, she will have to be held responsible!"
+    bardie_t "Well, she will have to be held responsible for this!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:549
 translate english cleaning_monica_goout1_eeafc057:
@@ -1098,8 +1098,8 @@ translate english monica_goout1_governess_restrict_0ccdfa5c:
     # betty "Собстенность дома не должна покидать его пределы!"
     # "Я не понимаю что у тебя за дела за пределами этого дома."
     # "Неужели ты уже закончила все дела?"
-    betty "Items belonging to this household must not leave this territory!"
-    "I don't understand what business you have outside of this house."
+    betty "Items belonging to this household should not leave this territory!"
+    "I don't understand what business you have outside of the house."
     "Have you already finished?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:623
@@ -1172,8 +1172,8 @@ translate english monica_goout1_governess_restrict_0ccdfa5c_1:
     # betty "Собстенность дома не должна покидать его пределы!"
     # "Я не понимаю что у тебя за дела за пределами этого дома."
     # "Неужели ты уже закончила все дела?"
-    betty "Items belonging to this household must not leave this territory!"
-    "I don't understand what business you have outside of this house."
+    betty "Items belonging to this household should not leave this territory!"
+    "I don't understand what business you have outside of the house."
     "Have you already finished?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:659
@@ -1214,7 +1214,7 @@ translate english monica_wakeup1_a2404ba7:
     # "Я заслуживаю лучшего!"
     # mt "Это мой дом! Я не заслуживаю того чтобы спать в подвале!"
     # mt "Мне надо что-то придумать, чтобы вернуть все назад как было!"
-    mt "Another morning in this hole! I have to think of something to get it back!"
+    mt "Another morning in this hole! I have to think of something to get my house back!"
     mt "I don't get enough sleep on this bed."
     "I need a proper bed!"
     mt "A Queen like me can't get used to sleeping in these conditions!"
@@ -1348,7 +1348,7 @@ translate english strings:
 translate english sleep_scene1_1d6bb01b:
 
     # "Животное, фу!"
-    "Animal, ew!"
+    "That animal, ew!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:353
 translate english sleep_scene1_49eb913b:
@@ -1360,7 +1360,7 @@ translate english sleep_scene1_49eb913b:
 translate english sleep_scene1_e3c24c48:
 
     # "Конечно ему никогда не светит прикоснуться к такой красоте как Я..."
-    "Of course, he'd never touch a beauty like me..."
+    "Of course, he would never get touch a beauty like me..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:430
 translate english sleep_scene1_af2511a3:
@@ -1383,7 +1383,7 @@ translate english sleep_scene1_fd0730f3:
     # "Жалкие ничтожества..."
     "Plus, he has those two prostitutes running around him..."
     "Tiffany and Jane..."
-    "After I threatened to fire them, they might be more afraid than that secretary at Dick's office..."
+    "After I threatened to fire them, they might be more of a hassle than that secretary at Dick's office..."
     "Pathetic little insects..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:495

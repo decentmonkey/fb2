@@ -13,7 +13,7 @@ label basement_bedroom2:
     return
 
 label basement_bedroom2_init:
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Basement_Bedroom2_Monica_[cloth]_[basement_bedroom2_MonicaSuffix]", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder":10, "tint": [1.0, 1.0, 0.9]})
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Basement_Bedroom2_Monica_[cloth]_[basement_bedroom2_MonicaSuffix]", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder":10, "tint": [1.0, 1.0, 0.9]}, {"basementBedroomMonicaNapGfx":{"v":True, "base":"Basement_Bedroom2_Monica_[cloth]_Nap_[basementBedNapIndex]"}, "basementBedroomMonicaSleepGfx":{"v":True, "base":"Basement_Bedroom2_Monica_Sleep_[basementBedSleepIndex]"}})
 
 #    if basementBedroomJournal == True:
 #        $ add_object_to_scene("Journal", {"type":2, "base":"Basement_Bedroom2_Journal", "click" : "basement_bedroom2_environment", "actions" : "lw", "zorder" : 1})

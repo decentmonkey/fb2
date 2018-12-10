@@ -92,6 +92,12 @@ label show_scene_now:
                 with Dissolve(0.7)
             if scene_transition == "Dissolve_fast":
                 with Dissolve(0.3)
+            if scene_transition == "Dissolve_05":
+                with Dissolve(0.5)
+            if scene_transition == "Dissolve_07":
+                with Dissolve(0.7)
+            if scene_transition == "Dissolve_10":
+                with Dissolve(1.0)
         $ _dismiss_pause = True
     $ scene_transition = False
 

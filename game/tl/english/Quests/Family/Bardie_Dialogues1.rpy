@@ -30,5 +30,5 @@ translate english bardieDialogue1_27701d53:
     # bardie "Ах ты так!"
     # bardie_t "Ну она у меня попляшет!"
     bardie "You!"
-    bardie_t "Well, she will have to be held responsible!"
+    bardie_t "Well, she will have to be held responsible for this!"
 

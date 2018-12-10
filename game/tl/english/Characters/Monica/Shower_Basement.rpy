@@ -26,7 +26,7 @@ translate english basement_shower_begin_c8ad7f11:
     # mt "Бетти запретила мне пользоваться ванной наверху."
     # "Может быть мне можно пользоваться туалетом здесь?"
     mt "Betty told me not to use the upstairs bathroom."
-    "Maybe I can use the bathroom here."
+    "Maybe I can use the toilet that's down here."
 
 # game/Characters/Monica/Shower_Basement.rpy:37
 translate english basement_shower_check_f6a62ff9:

@@ -17,11 +17,12 @@ init python:
 
     def makeDump():
         global scenes_data, debugMode
+        print "Debug!"
         if debugMode != True:
             return
-        if os.path.isdir("/Users//Documents/work/browse") == True:
+        if os.path.isdir("/Users/Denis/Documents/work/browse") == True:
             str1 = json.dumps(scenes_data)
-            f = open("/Users//Documents/work/browse/renpy_debug.json","w")
+            f = open("/Users/Denis/Documents/work/browse/renpy_debug.json","w")
             f.write(str1)
             f.close()
         return

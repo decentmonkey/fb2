@@ -59,7 +59,7 @@ translate english ralphDialogue2_21b7df00:
 
     # m "Мистер Робертс. Мне Ваша супруга только что сказала что я слишком дорого для Вас стою."
     # "И что у меня зарплата $90 в час..."
-    m "Mr. Roberts. Your wife has just told me I'm too expensive for you."
+    m "Mr. Roberts. Your wife just told me I'm too expensive for you."
     "And that my salary is $ 90 an hour..."
 
 # game/Quests/Family/Ralph_Dialogues1.rpy:49

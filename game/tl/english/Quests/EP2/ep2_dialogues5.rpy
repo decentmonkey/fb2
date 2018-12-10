@@ -6,7 +6,7 @@ translate english monica_rich_hotel_entrance_b6cdf6f7:
     # biff "Добрый вечер!"
     # "Я веду этих цыпочек на благотворительный вечер!"
     biff "Good evening!"
-    "I'm taking these chicks to a charity event!"
+    "I'm taking these chicks to the charity event!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:12
 translate english monica_rich_hotel_entrance_134f69df:
@@ -58,7 +58,7 @@ translate english monica_charity_event_dialogue1_27c1e774:
     # "Все уже готово!"
     # "Все давно ждут!"
     "Everything is ready!"
-    "And everyone have been waiting for you!"
+    "And everyone has been waiting for you!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:54
 translate english monica_charity_event_dialogue1_1b90a539:
@@ -73,14 +73,14 @@ translate english monica_charity_event_dialogue1_418d4685:
 
     # biff "Моника, Мелани! Быстро на сцену!"
     # "Отрабатывайте свои деньги!"
-    biff "Monica, Melanie! Quickly get on the stage."
+    biff "Monica, Melanie! Quickly get on stage."
     "Earn your money!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:62
 translate english monica_charity_event_dialogue1_a20f4901:
 
     # mt "Я не поняла! Это что еще такое?!"
-    mt "I don't understand! What's that?!"
+    mt "I don't understand! What's this?!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:64
 translate english monica_charity_event_dialogue1_181b1847:
@@ -166,7 +166,7 @@ translate english monica_charity_event_dialogue2_493a1aef:
 translate english monica_charity_event_dialogue2_798563e6:
 
     # "И, хоть многие с нами пока не согласны, я уверен что они придут к выводу что мы были правы!"
-    "And, though many won't agree with us right away, I am sure that they will soon come to the realization that we are doing is right!"
+    "And, though many won't agree with us right away, I am sure that they will soon come to the realization that what we are doing is right!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:110
 translate english monica_charity_event_dialogue2_a22a69e0:
@@ -180,7 +180,7 @@ translate english monica_charity_event_dialogue2_e6f3e7c0:
     # "Многие не верят в то что мы и правда решились на столь серъезный шаг!"
     # "Потому я предоставляю слово лицу Модного Журнала..."
     # "Монике Бакфетт!!!"
-    "Now, a lot of people may not believe that we have really decided to take such a massive decision!"
+    "A lot of people may not believe that we have really decided to take such a massive decision!"
     "To get rid of all doubt, I'd now like to hand over the floor to the face of our magazine..."
     "Monica Buckfett!!!"
 
@@ -230,10 +230,10 @@ translate english monica_charity_event_dialogue2a_e5620e55:
     # "Очень рискованный!"
     # "Что же мне делать???"
     mt "Fuck! What should I do?!"
-    "There're so many journalists..."
+    "There are so many journalists..."
     "Should I announce that my magazine has been taken over?!"
     "Ask for help?"
-    "But that's dangerous! I have no idea what the consequences would be!"
+    "That's dangerous! I have no idea what the consequences would be!"
     "Perhaps the worst... But this is my only chance..."
     "Very risky!"
     "What should I do???"
@@ -403,7 +403,7 @@ translate english monica_charity_event_dialogue2a_03b03c9b:
     # "Мы слышали что эта фотосессия достаточно смелая!"
     # reporter3 "Расскажите про фотосессию, Миссис Бакфетт!"
     reporter1 "But we heard that this is an unusual photo shoot!"
-    "We've heard that this photoshoot is daring enough!"
+    "Yeah, we've heard that this photoshoot is daring enough!"
     reporter3 "Tell us about the photo shoot, Mrs. Buckfett!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:244
@@ -477,7 +477,7 @@ translate english monica_charity_event_dialogue4_bf864382:
 
     # m "Биф, ты ничего не забыл?"
     # biff "Что ты имеешь ввиду?"
-    m "Biff, have you forgotten something?"
+    m "Biff, haven't you forgotten something?"
     biff "What do you mean?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:290
@@ -714,7 +714,7 @@ translate english monica_charity_event_dialogue8_bd91e71f:
     # "Куда ты хочешь пригласить такую даму как Я?"
     m "Good evening, Philip."
     "Good... I'll let you buy me a drink."
-    "Now, where would you like to invite such a beautiful lady as me to?"
+    "Tell me Philip, to where would you like to invite a beautiful lady like me?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:434
 translate english monica_charity_event_dialogue8_85e0acc3:
@@ -746,7 +746,7 @@ translate english monica_charity_event_dialogue8_d8f896e3:
     # philip "О, Мэм! Я занимаюсь живописью и антиквариатом!"
     # m "Что привело тебя к такому занятию?"
     philip "Oh, Ma'am! I am involved in the painting and antiques business!"
-    m "What brings you to this task?"
+    m "What led you to do this?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:453
 translate english monica_charity_event_dialogue8_2b979871:
@@ -787,8 +787,8 @@ translate english monica_charity_event_dialogue8_6fb4ec9e:
     # "И скажу, что Вы один из тех драгоценных камней, которые неподвластны времени!"
     philip "I love real women, Ma'am!"
     "Ladies like you!"
-    "I know you in absentia from the time when you just entered the fashion circles!"
-    "And I must, you are one of those gems that are timeless!"
+    "I've known of you ever since you just entered the fashion circles!"
+    "And I must say, you are one of the gems that are timeless!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:473
 translate english monica_charity_event_dialogue8_f7f050b5:
@@ -842,7 +842,7 @@ translate english monica_charity_event_dialogue8_558c1fc7:
     "I could really use one of those..."
     "After all, he must have a good home..."
     "He can give me a lot of money..."
-    "And ithat would make it easier for me to achieve my goal..."
+    "And that would make it easier for me to achieve my goal..."
     "It doesn't seem too complicated."
     "I just have to play along a little bit."
 
@@ -892,7 +892,7 @@ translate english monica_charity_event_dialogue8_c724f9b8:
     # "Вы могли-бы выбрать любые, которые Вам понравятся!"
     # "Я буду счастлив подарить их Вам!"
     philip "Oh! Ma'am!"
-    "I would love to add to your collection, by giving you a few paintings!"
+    "I would love to add to your collection, by giving you a few from mine!"
     "If only you agree to come to my house..."
     "I would show you my best works!"
     "And you could choose which ever one you like!"
@@ -910,7 +910,7 @@ translate english monica_charity_event_dialogue8_5e461c0a:
     mt "This sly one is trying to lure me into his house..."
     "I know all about the stupid man stuff..."
     "He has no chance of beating me at this game..."
-    "And here is the picture..."
+    "But the pictures..."
     "Good money..."
     "And they are what I need right now..."
 
@@ -1116,7 +1116,7 @@ translate english monica_charity_event_dialogue10_da24091f:
 translate english monica_charity_event_dialogue10_4c8d1b9e:
 
     # m "Мне нужно $ 5.000!"
-    m "But I need $ 5.000!"
+    m "I need $ 5.000!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:638
 translate english monica_charity_event_dialogue10_6e701bf6:
@@ -1168,21 +1168,21 @@ translate english monica_charity_event_dialogue11_b242174a:
     # "Или попробовать уговорить {b}Бифа{/b}?"
     mt "That bastard!"
     "He tricked me!"
-    "If I had known this wine was worth If I'd known this wine was worth $ 1.000, I wouldn't have drunk it!"
+    "If I'd known this wine was worth $ 1.000, I wouldn't have drunk it!"
     "And by the way, I thought that Philip was treating me!"
-    "What kind of men are nowadays?!"
+    "What kind of men do we have nowadays?!"
     "Let them not be surprised that they can only be used!"
     "To a normal attitude, they are absolutely not suitable!"
     "..."
     "Nonetheless,"
-    "But I need $ 5.000!"
+    "I need $ 5.000!"
     "That bitch Victoria said very clearly that if I don't have enough money, she might not even come with me!"
     "Dick is useless to negotiate with!"
     "He blindly listens to that fool!"
     "It's evening, and I have to hurry!"
     "I have to go buy that damn tie!"
-    "And I'm short by And I'm in lack with $ 1.000!"
-    "And if I don't get it $ 1.000, I will have to go to Marcus!!!"
+    "And I'm short by $ 1.000!"
+    "And if I don't get it, I will have to go to Marcus!!!"
     "Oh my God!!!"
     "How can I get the money?"
     "Maybe I should speed things up with {b}Philip{/b}?"
@@ -1436,7 +1436,7 @@ translate english monica_charity_event_dialogue14_2e58cf14:
 translate english monica_charity_event_dialogue14_e8166d50:
 
     # m "Ты думаешь что я способна сделать минет за $ 300.000?"
-    m "Do you seriously think I'm the type of woman to a blowjob for $ 300.000?"
+    m "Do you seriously think I'm the type of woman to do a blowjob for $ 300.000?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:818
 translate english monica_charity_event_dialogue14_eb315ec2:
@@ -1640,7 +1640,7 @@ translate english monica_charity_event_dialogue16_81461505:
     # melanie "Биф, это решать тебе!"
     # "Я плохо знаю ее..."
     melanie "Biff, it's up to you!"
-    "I know her a little bit..."
+    "I know her only a little bit..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:940
 translate english monica_charity_event_dialogue16_aec294bc:
@@ -1656,7 +1656,7 @@ translate english monica_charity_event_dialogue16_8fcc20ea:
     # "В любом случае решать папочке!"
     # "..."
     biff "Ha ha ha!"
-    "Melanie! I asked you for nothing!"
+    "Melanie! I didn't actually care about your opinion!"
     "It's daddy's decision anyway!"
     "..."
 
@@ -1668,7 +1668,7 @@ translate english monica_charity_event_dialogue16_d61b8796:
     # "Ты забыла там свою одежду!"
     # "Ха-ха-ха!"
     "Okay, chick!"
-    "Take Keep $ 1.000 and go to the office!"
+    "Take $ 1.000 and go to the office!"
     "You left your clothes there!"
     "Ha ha ha!"
 
@@ -1829,7 +1829,7 @@ translate english monica_charity_event_dialogue17_7f459658:
 
     # m "В МОЕМ!" 
     # mt "(хмык)"
-    m "IN MINE!" 
+    m "IT WILL BE IN MINE!" 
     mt "(sob)"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1063
@@ -2972,7 +2972,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:1173
     old "Открыть рот..."
-    new "To open the mouth..."
+    new "Open your mouth..."
 
     # Quests/EP2/ep2_dialogues5.rpy:1197
     old "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!!"
@@ -2992,7 +2992,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:1495
     old "Открыть рот. Я решила делать все что говорит Филип. Если я не достану эти деньги, то мне конец!"
-    new "To open the mouth. I've decided to do everything Philip says. If I don't get that money, I'm dead!"
+    new "Open your mouth. I've decided to do everything Philip says. If I don't get that money, I'm dead!"
 
     # Quests/EP2/ep2_dialogues5.rpy:1495
     old "Я не могу это сделать..."
@@ -3022,7 +3022,7 @@ translate english monica_rich_hotel_entrance_31ad8d20:
     # biff "Добрый вечер!"
     # "Я веду этих цыпочек на благотворительный вечер!"
     biff "Good evening!"
-    "I'm taking these chicks to a charity event!"
+    "I'm taking these chicks to the charity event!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:54
 translate english monica_charity_event_dialogue1_61d2530c:
@@ -3037,7 +3037,7 @@ translate english monica_charity_event_dialogue1_53a55bd9:
 
     # biff "Моника, Мелани! Быстро на сцену!"
     # "Отрабатывайте свои деньги!"
-    biff "Monica, Melanie! Quickly get on the stage."
+    biff "Monica, Melanie! Quickly get on stage."
     "Earn your money!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:71
@@ -3097,7 +3097,7 @@ translate english monica_charity_event_dialogue4_edc88a28:
 
     # m "Биф, ты ничего не забыл?"
     # biff "Что ты имеешь ввиду?"
-    m "Biff, have you forgotten something?"
+    m "Biff, haven't you forgotten something?"
     biff "What do you mean?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:293
@@ -3214,7 +3214,7 @@ translate english monica_charity_event_dialogue16_6a333edf:
     # "В любом случае решать папочке!"
     # "..."
     biff "Ha ha ha!"
-    "Melanie! I asked you for nothing!"
+    "Melanie! I didn't actually care about your opinion!"
     "It's daddy's decision anyway!"
     "..."
 
@@ -3370,7 +3370,7 @@ translate english monica_charity_event_dialogue8a_d8f896e3:
     # philip "О, Мэм! Я занимаюсь живописью и антиквариатом!"
     # m "Что привело тебя к такому занятию?"
     philip "Oh, Ma'am! I am involved in the painting and antiques business!"
-    m "What brings you to this task?"
+    m "What led you to do this?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:619
 translate english monica_charity_event_dialogue8a_2b979871:
@@ -3411,8 +3411,8 @@ translate english monica_charity_event_dialogue8a_6fb4ec9e:
     # "И скажу, что Вы один из тех драгоценных камней, которые неподвластны времени!"
     philip "I love real women, Ma'am!"
     "Ladies like you!"
-    "I know you in absentia from the time when you just entered the fashion circles!"
-    "And I must, you are one of those gems that are timeless!"
+    "I've known of you ever since you just entered the fashion circles!"
+    "And I must say, you are one of the gems that are timeless!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:641
 translate english monica_charity_event_dialogue8a_f7f050b5:
@@ -3474,7 +3474,7 @@ translate english monica_charity_event_dialogue8a_558c1fc7:
     "I could really use one of those..."
     "After all, he must have a good home..."
     "He can give me a lot of money..."
-    "And ithat would make it easier for me to achieve my goal..."
+    "And that would make it easier for me to achieve my goal..."
     "It doesn't seem too complicated."
     "I just have to play along a little bit."
 
@@ -3524,7 +3524,7 @@ translate english monica_charity_event_dialogue8a_c724f9b8:
     # "Вы могли-бы выбрать любые, которые Вам понравятся!"
     # "Я буду счастлив подарить их Вам!"
     philip "Oh! Ma'am!"
-    "I would love to add to your collection, by giving you a few paintings!"
+    "I would love to add to your collection, by giving you a few from mine!"
     "If only you agree to come to my house..."
     "I would show you my best works!"
     "And you could choose which ever one you like!"
@@ -3542,7 +3542,7 @@ translate english monica_charity_event_dialogue8a_5e461c0a:
     mt "This sly one is trying to lure me into his house..."
     "I know all about the stupid man stuff..."
     "He has no chance of beating me at this game..."
-    "And here is the picture..."
+    "But the pictures..."
     "Good money..."
     "And they are what I need right now..."
 
@@ -4598,7 +4598,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:1530
     old "Открыть рот... (low corruption, required [monicaPhilipBlojwobOpenMouthCorruptionRequired]) (disabled)"
-    new "To open the mouth... (low corruption, required [monicaPhilipBlojwobOpenMouthCorruptionRequired]) (disabled)"
+    new "Open your mouth... (low corruption, required [monicaPhilipBlojwobOpenMouthCorruptionRequired]) (disabled)"
 
     # Quests/EP2/ep2_dialogues5.rpy:1560
     old "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (low corruption, required [monicaPhilipBlojwobOpenMouth2CorruptionRequired]) (disabled)"

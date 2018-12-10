@@ -62,3 +62,11 @@ translate german strings:
     old "Лечь и ждать вечера."
     new ""
 
+# TODO: Translation updated at 2018-12-10 23:52
+
+# game/Characters/Monica/Bed_Basement.rpy:82
+translate german monica_gosleep1a_1a9716fb:
+
+    # mt "Я сегодня ничего не ела! Лечь спать голодной?"
+    mt "Я сегодня ничего не ела! Лечь спать голодной?"
+

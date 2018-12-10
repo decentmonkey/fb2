@@ -54,7 +54,7 @@ translate english monica_office_entrance_biff_dialogue1_22731345:
 translate english monica_office_entrance_biff_dialogue1_02e48dc5:
 
     # biff "Детка, ты ведь едешь сниматься в студии, правда?"
-    biff "Baby, you're going to be in the studio, aren't you?"
+    biff "Baby, you're going to the studio, aren't you?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:34
 translate english monica_office_entrance_biff_dialogue1_4c2bc47c:
@@ -68,7 +68,7 @@ translate english monica_office_entrance_biff_dialogue1_6a07b022:
     # m "Я не цыпочка!"
     # "Отвали от меня, урод!"
     # biff "Ха-ха-ха!"
-    m "Not a chick!"
+    m "I'm not a 'chick'!"
     "Get off me, motherfucker!"
     biff "Ha ha ha!"
 
@@ -111,7 +111,7 @@ translate english monica_office_secretary_dialogue1_3b0ed062:
 
     # m "Это неправда, дорогуша." 
     # "У меня были кое-какие проблемы, но я их решила."
-    m "That's not true, sweetheart." 
+    m "It's not true, sweetheart." 
     "I had some problems, but I solved them."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:65
@@ -149,7 +149,7 @@ translate english monica_office_secretary_dialogue1_6e13407d:
     # "Просто ужасные!"
     secretary "Mrs. Buckfett! His name is Biff!"
     "He took your place..."
-    "And makes some obscene things, Mrs. Buckfett!"
+    "And he does some obscene things, Mrs. Buckfett!"
     "Just awful!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:80
@@ -278,7 +278,7 @@ translate english monica_office_secretary_dialogue2_c4de147c:
     # secretary "Но Миссис Бакфетт! Зачем Вам какие-то $ 5?"
     # "Я даже не понимаю, для чего?"
     secretary "But Mrs. Buckfett! Why would you need $ 5?"
-    "I don't understand why you would need that."
+    "I don't understand why you of all people would need that."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:140
 translate english monica_office_secretary_dialogue2_c924a1df:
@@ -288,8 +288,8 @@ translate english monica_office_secretary_dialogue2_c924a1df:
     # "Карту я забыла дома..."
     # secretary "Да, Миссис Бакфетт!"
     # "Конечно, держите..."
-    m "Don't you think about that, sweetheart."
-    "I want to buy coffee in the vending machine, and I don't have any change..."
+    m "Don't you worry about that, sweetheart."
+    "I want to buy coffee in the vending machine, but I don't have any change..."
     "I left my card at home..."
     secretary "Yes, Mrs. Buckfett!"
     "Sure take it..."
@@ -339,7 +339,7 @@ translate english monica_office_photostudio_alex_dialogue1_25ef66e9:
 
     # m "Еще чего!"
     # "Я не собираюсь сниматься ни в чем, пока не наведу порядок здесь!"
-    m "Still what!"
+    m "Don't even think!"
     "I'm not going to do anything until I clean up this place!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:179
@@ -396,7 +396,7 @@ translate english monica_office_cabinet_biff_dialogue1_79c31f11:
     # m "Это значит ты Биф?!"
     # "Мерзавец!"
     # "Как ты посмел занять мое место?!"
-    m "Is it you Biff?!"
+    m "Are you Biff?!"
     "Bastard!"
     "How dare you take my place?!"
 
@@ -410,7 +410,7 @@ translate english monica_office_cabinet_biff_dialogue1_e3f021f0:
     # "Ха-ха-ха!"
     biff "Hey! Chick! Easy!"
     "Who are you?!"
-    "Is this some sort of cosplay?"
+    "Is this some sort of roleplay?"
     "Are you trying to impress me?"
     "Ha ha ha!"
 
@@ -478,7 +478,7 @@ translate english monica_office_cabinet_biff_dialogue1_4e6b82f6:
     # "Мне нет резона играть саму себя!"
     # "Вставай с моего стула!"
     # "БЫСТРО!!!"
-    m "Chick?! To play?!"
+    m "Chick?! Acting?!"
     "What are you talking about?!"
     "I have no reason to act!"
     "Get off my chair!"
@@ -562,7 +562,7 @@ translate english monica_office_cabinet_biff_dialogue1_01fb6e8c:
     # "Она угрожает мне!"
     biff "The police?! I'm in danger, help me!"
     "There's a dangerous criminal here!"
-    "She threatens me!"
+    "She's threatening me!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:337
 translate english monica_office_cabinet_biff_dialogue1_d7e39d0b:
@@ -591,7 +591,7 @@ translate english monica_office_cabinet_biff_dialogue1_c40a323b:
     "I'll think of something better later!"
     "Right now I need to solve this problem, at any cost!"
     "Otherwise, it will be the end!"
-    "Marcus will be happy to catch me, having reports of threats from that slug!"
+    "Marcus will be happy to catch me, especially having reports of threats from that slug!"
     "Oh my God!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:354
@@ -602,7 +602,7 @@ translate english monica_office_cabinet_biff_dialogue1_922e1f42:
     # "Ты правда здорово напугался?!"
     m "Hey! Biff!" 
     "Don't be afraid!"
-    "Are you really scared?!"
+    "Are you really that scared?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:358
 translate english monica_office_cabinet_biff_dialogue1_a75bb9d3:
@@ -647,7 +647,7 @@ translate english monica_office_cabinet_biff_dialogue1_06735ada:
 
     # "Иди ко мне на коленки, скорее!"
     # "Надо пожалеть папочку!"
-    "Come to my knees, quick!"
+    "Come to me, quick!"
     "You should feel sorry for daddy!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:380
@@ -689,14 +689,14 @@ translate english monica_office_cabinet_biff_dialogue1_25fab957:
     # "А почему ты не хочешь ко мне на коленки?"
     # "Ты ведь знаешь, детка, что с таким как я нужно дружить..."
     biff "So you're Alex's chick?"
-    "Why don't you come to my knees?"
+    "Why don't you come to me here?"
     "You know, baby, you should be friends with someone like me..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:399
 translate english monica_office_cabinet_biff_dialogue1_be5e12bd:
 
     # "Я ведь могу тебя сделать моделью, ты понимаешь?" 
-    "I can turn you into a model, you know?" 
+    "I can turn you into a model." 
 
 # game/Quests/EP2/ep2_dialogues4.rpy:402
 translate english monica_office_cabinet_biff_dialogue1_18e11c83:
@@ -734,7 +734,7 @@ translate english monica_office_cabinet_biff_dialogue1_42a0c4e6:
     # "К тому же многие задают вопросы где эта сучка!"
     # "А мне не всегда получается объяснить журналистам что она не должна интересовать их, потому что есть Я!"
     "Besides, a lot of people ask questions about where that bitch is!"
-    "And I don't always get to explain to journalists that they shouldn't be interested in her, because I'm her now!"
+    "And I don't always get to explain to journalists that they shouldn't be interested in her, because I'm here now!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:419
 translate english monica_office_cabinet_biff_dialogue1_809797d4:
@@ -750,8 +750,8 @@ translate english monica_office_cabinet_biff_dialogue1_0fce4965:
     # mt "КАК МНЕ СДЕРЖАТЬСЯ???"
     # "Я ХОЧУ ОТОРВАТЬ ЯЙЦА ЭТОМУ УРОДУ!!!"
     # "ПРЯМО СЕЙЧАС!!!"
-    mt "HOW SHOULD I KEEP IT???"
-    "I WANT TO RIP THE BALLS OF THIS FREAK!!!"
+    mt "HOW AM I SUPPOSED TO KEEP CALM???"
+    "I WANT TO RIP THE BALLS OFF OF THIS FREAK!!!"
     "RIGHT NOW!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:427
@@ -759,7 +759,7 @@ translate english monica_office_cabinet_biff_dialogue1_d9121b6a:
 
     # "Но тогда я попаду в руки к Маркусу, сразу же!"
     # "(хмык)"
-    "But then I'll be caught by Marcus, right at that moment!"
+    "But then I'll be caught by Marcus, at that very moment!"
     "(sob)"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:431
@@ -875,7 +875,7 @@ translate english monica_office_photostudio_melanie_dialogue1_f2b8bb9f:
 
     # m "Да, Мелани, я тоже рада."
     # "Как тебе твой новый Босс?"
-    m "Yes, Melanie, so am I."
+    m "Yes, Melanie, I'm glad too."
     "How do you like your new boss?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:505
@@ -894,13 +894,13 @@ translate english monica_office_photostudio_melanie_dialogue1_c5f7c95f:
 translate english monica_office_photostudio_melanie_dialogue1_8eb997ec:
 
     # melanie "Миссис Бакфетт, я уверена в своих силах..."
-    melanie "Mrs. Buckfett, I'm confident..."
+    melanie "Mrs. Buckfett, I am confident in my strength..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:513
 translate english monica_office_photostudio_melanie_dialogue1_276da7c6:
 
     # m "Да, я примерно понимаю в чем заключаются они, твои силы..."
-    m "Yes, I understand roughly what they are, your strength."
+    m "Yes, I understand about what they are, your strength..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:515
 translate english monica_office_photostudio_melanie_dialogue1_e8268737:
@@ -1229,8 +1229,8 @@ translate english monica_office_cabinet_biff_dialogue3_dc927120:
     # "Какое-то время."
     biff "So I suggest you do a series of photo shoots dedicated to the new policy of the magazine."
     "For every photo shoot, I'll offer you {b}$ 1.000{/b}."
-    "Besides, I think we can set up an office for you, where you can talk to the press."
-    "And also with partners of the magazine."
+    "Also, I think we can set up an office for you, where you can talk to the press."
+    "And with partners of the magazine."
     "I will be able to sell your face."
     "For a while."
 
@@ -1365,7 +1365,7 @@ translate english monica_office_cabinet_biff_dialogue3_e9ee6308:
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
     biff "Excellent!"
-    "To be honest with you, Melanie refused this series of photo shoots."
+    "To be honest with you, Melanie refused to do this series of photo shoots."
     "She said she didn't want to do anything with full nudity."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:756
@@ -1442,10 +1442,10 @@ translate english monica_office_secretary_dialogue5_e3868f3a:
     mt "Full nudity???"
     "How can that scoundrel ask me to do that?!"
     "I, MONICA BUCKFETT!!!"
-    "TO BE NAKED ON MY OWN MAGAZINE?!?!"
+    "TO BE NAKED IN MY OWN MAGAZINE?!?!"
     "Monica!"
     "This has gone too far!"
-    "You need to figure this out soon, Monica!"
+    "You need to figure this out soon!"
     "Ugh, these bastards that surround me..."
     "How am I supposed to get out and keep my dignity?!"
     "..."
@@ -1459,7 +1459,7 @@ translate english monica_office_secretary_dialogue5_e3868f3a:
     "I'll take it to Dick, we'll buy him a tie, and he'll stop blackmailing me..."
     "He just wants proof of my loyalty."
     "If I prove to him that I am his friend, he will change his attitude towards me..."
-    "He'll figure out a way to get me my documents and my money back..."
+    "He'll figure out a way to get me my documents and money back..."
     "I'm sure he knows how to do it, and that he's just testing me..."
     "..."
     "So one photo shoot..."
@@ -1694,7 +1694,7 @@ translate english monica_office_photostudio_alex_dialogue2_67a011f7:
     # "Вы будете участвовать?"
     alex_photograph "Mrs. Buckfett!"
     "Mr. Biff said I should do a photo shoot with you!"
-    "Will you participate in it?"
+    "Have you decided to participate in it?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:943
 translate english monica_office_photostudio_alex_dialogue2_f76c77e0:
@@ -1708,9 +1708,9 @@ translate english monica_office_photostudio_alex_dialogue2_21db3a37:
     # m "Да, буду..."
     # "Что мне одеть?"
     # "Я ведь не буду сниматься в этом?!"
-    m "Yes, I will..."
+    m "Yes, I have..."
     "What should I put on?"
-    "I'm not doing this, am I?!"
+    "I'm not doing it in this, am I?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:952
 translate english monica_office_photostudio_alex_dialogue2_cc79f217:
@@ -1719,9 +1719,9 @@ translate english monica_office_photostudio_alex_dialogue2_cc79f217:
     # "К сожалению, Мистер Биф сказал одеть то платье, в котором Вы снимались в прошлый раз!"
     # "Но я бы попросил Вас сначала сделать несколько кадров в этом наряде!"
     # "Он Вам очень идет, у Вас потрясающий вкус!"
-    alex_photograph "That would be a great idea!"
-    "Unfortunately, Mr. Biff asked you to wear the dress you wore last time!"
-    "But I'd like to take a few shots of you in this outfit first!"
+    alex_photograph "Acutally, that would be a great idea!"
+    "But unfortunately, Mr. Biff asked you to wear the dress you wore last time!"
+    "I'd like to take a few shots of you in this outfit first, though!"
     "It suits you very well, you have an amazing taste!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:958
@@ -1836,7 +1836,7 @@ translate english monica_office_photostudio_alex_dialogue2_29d71615:
     # "Я все время стою неподвижно!"
     # "И жду Вашего разрешения, Мэм!"
     alex_photograph "Yes, Ma'am?"
-    "Can I turn?"
+    "Can I turn around?"
     m "No!"
     "I'm still changing!"
     "And don't even dare to move if you value your life!"
@@ -1954,7 +1954,7 @@ translate english monica_office_photostudio_alex_dialogue2_4693e14d:
     # m "Я не буду так сниматься!"
     # m "Мы закончили фотосессию! Хватит и того что снято!"
     m "I'm not going to do that!"
-    m "We have finished the photo shoot! This is enough!"
+    m "We have finished this photo shoot! This is enough!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1207
 translate english monica_office_photostudio_alex_dialogue2_dda4fc83:
@@ -1973,7 +1973,7 @@ translate english monica_office_photostudio_alex_dialogue2_bb4a2cdc:
     # "Но я имею права настаивать..."
     # "Я сообщу Мистеру Бифу..."
     alex_photograph "But we haven't taken the most important one, Mrs. Buckfett."
-    "But I have the right to insist..."
+    "I have the right to insist..."
     "I'll let Mr. Biff know..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1218
@@ -2150,7 +2150,7 @@ translate english monica_office_cabinet_biff_dialogue5_46c00914:
     # m "ЧТО???"
     # "МНЕ НУЖНЫ ДЕНЬГИ СЕЙЧАС, ПРЯМО СЕЙЧАС!"
     m "WHAT???"
-    "I NEED THE MONEY NOW, RIGHT NOW!"
+    "I NEED THE MONEY NOW!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1343
 translate english monica_office_cabinet_biff_dialogue5_5808dcc7:
@@ -2182,7 +2182,7 @@ translate english monica_office_cabinet_biff_dialogue5_b14baea2:
     # m "Мне нужны наличные, Биф!"
     # "И прямо сейчас!"
     m "I need cash, Biff!"
-    "And that is NOW!"
+    "RIGHT NOW!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1359
 translate english monica_office_cabinet_biff_dialogue5_c6c89e38:
@@ -2224,13 +2224,13 @@ translate english monica_office_cabinet_biff_dialogue5_c3869a0e:
     # "Мои гарантии - это твой ротик!"
     # "Он должен говорить то что скажу Я и только тогда ты получишь свои деньги!"
     "My guarantee is your mouth!"
-    "It has to say what I say and only then will you give your money!"
+    "It has to say what I say and only then will you get your money!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1380
 translate english monica_office_cabinet_biff_dialogue5_d79f1557:
 
     # m "Биф, если я скажу речь, я получу деньги?"
-    m "Biff, if I give the speech, will I get the money?"
+    m "Biff, if I give the speech, do you promise that I will get the money?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1382
 translate english monica_office_cabinet_biff_dialogue5_eea80414:
@@ -2249,7 +2249,7 @@ translate english monica_office_cabinet_biff_dialogue5_0d43d283:
 
     # "Я же не рассчитывал что найду такую цыпочку!"
     # "В следующий раз я позабочусь чтобы мою новую куклу увидели все!"
-    "I didn't expect to find a chick like this!"
+    "I didn't expect to find a chick like you!"
     "Next time I'll make sure everyone sees my new doll!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1392
@@ -2315,7 +2315,7 @@ translate english monica_office_cabinet_biff_dialogue5_6c734d1e:
 
     # biff "Закрой свой ротик, пока я не заткнул его своим членом!"
     # "Ты будешь открывать его когда скажу Я!"
-    biff "Shut your mouth before I shut it with my dick!"
+    biff "So shut your mouth before I shut it with my dick!"
     "You'll open it when I say so!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1424
@@ -2332,7 +2332,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues4.rpy:108
     old "Попросить деньги в долг."
-    new "Ask for money in debt."
+    new "Ask for money to borrow."
 
     # Quests/EP2/ep2_dialogues4.rpy:340
     old "Притвориться что это не Я..."
@@ -2340,7 +2340,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues4.rpy:510
     old "Да, я примерно понимаю в чем заключаются они, твои силы..."
-    new "Yes, I understand roughly what they are, your strength."
+    new "Yes, I understand about what they are, your strength..."
 
     # Quests/EP2/ep2_dialogues4.rpy:510
     old "Мелани, ни один мужчина не устоит перед тобой!"
@@ -2356,7 +2356,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues4.rpy:939
     old "Да, буду..."
-    new "Yes, I will..."
+    new "Yes, I have..."
 
     # Quests/EP2/ep2_dialogues4.rpy:939
     old "Пока нет..."
@@ -2420,13 +2420,13 @@ translate english monica_office_entrance_biff_dialogue1_77211e0d:
 translate english monica_office_entrance_biff_dialogue1_72476d55:
 
     # biff "Детка, ты ведь едешь сниматься в студии, правда?"
-    biff "Baby, you're going to be in the studio, aren't you?"
+    biff "Baby, you're going to the studio, aren't you?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:61
 translate english monica_office_entrance_biff_dialogue1_982cba09:
 
     # m "Я не цыпочка!"
-    m "Not a chick!"
+    m "I'm not a 'chick'!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:64
 translate english monica_office_entrance_biff_dialogue1_93b1029b:
@@ -2462,7 +2462,7 @@ translate english monica_office_cabinet_biff_dialogue1_6bc63a49:
     # "Ха-ха-ха!"
     biff "Hey! Chick! Easy!"
     "Who are you?!"
-    "Is this some sort of cosplay?"
+    "Is this some sort of roleplay?"
     "Are you trying to impress me?"
     "Ha ha ha!"
 
@@ -2510,7 +2510,7 @@ translate english monica_office_cabinet_biff_dialogue1_d7425938:
     # "Она угрожает мне!"
     biff "The police?! I'm in danger, help me!"
     "There's a dangerous criminal here!"
-    "She threatens me!"
+    "She's threatening me!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:446
 translate english monica_office_cabinet_biff_dialogue1_2a660934:
@@ -2547,7 +2547,7 @@ translate english monica_office_cabinet_biff_dialogue1_840399d7:
     # "А почему ты не хочешь ко мне на коленки?"
     # "Ты ведь знаешь, детка, что с таким как я нужно дружить..."
     biff "So you're Alex's chick?"
-    "Why don't you come to my knees?"
+    "Why don't you come to me here?"
     "You know, baby, you should be friends with someone like me..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:500
@@ -2632,7 +2632,7 @@ translate english monica_office_cabinet_biff_dialogue1a_626b7203:
 translate english monica_office_photostudio_melanie_dialogue1_local1_276da7c6:
 
     # m "Да, я примерно понимаю в чем заключаются они, твои силы..."
-    m "Yes, I understand roughly what they are, your strength."
+    m "Yes, I understand about what they are, your strength..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:648
 translate english monica_office_photostudio_melanie_dialogue1_local1_e8268737:
@@ -2751,8 +2751,8 @@ translate english monica_office_cabinet_biff_dialogue3_2f495354:
     # "Какое-то время."
     biff "So I suggest you do a series of photo shoots dedicated to the new policy of the magazine."
     "For every photo shoot, I'll offer you {b}$ 1.000{/b}."
-    "Besides, I think we can set up an office for you, where you can talk to the press."
-    "And also with partners of the magazine."
+    "Also, I think we can set up an office for you, where you can talk to the press."
+    "And with partners of the magazine."
     "I will be able to sell your face."
     "For a while."
 
@@ -2827,7 +2827,7 @@ translate english monica_office_cabinet_biff_dialogue3_local1_b7eb643b:
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
     biff "Excellent!"
-    "To be honest with you, Melanie refused this series of photo shoots."
+    "To be honest with you, Melanie refused to do this series of photo shoots."
     "She said she didn't want to do anything with full nudity."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:949
@@ -2883,10 +2883,10 @@ translate english monica_office_secretary_dialogue5_30c54a83:
     mt "Full nudity???"
     "How can that scoundrel ask me to do that?!"
     "I, MONICA BUCKFETT!!!"
-    "TO BE NAKED ON MY OWN MAGAZINE?!?!"
+    "TO BE NAKED IN MY OWN MAGAZINE?!?!"
     "Monica!"
     "This has gone too far!"
-    "You need to figure this out soon, Monica!"
+    "You need to figure this out soon!"
     "Ugh, these bastards that surround me..."
     "How am I supposed to get out and keep my dignity?!"
 
@@ -2925,7 +2925,7 @@ translate english monica_office_secretary_dialogue5b_631e76ef:
     "I'll take it to Dick, we'll buy him a tie, and he'll stop blackmailing me..."
     "He just wants proof of my loyalty."
     "If I prove to him that I am his friend, he will change his attitude towards me..."
-    "He'll figure out a way to get me my documents and my money back..."
+    "He'll figure out a way to get me my documents and money back..."
     "I'm sure he knows how to do it, and that he's just testing me..."
     "..."
     "So one photo shoot..."
@@ -3223,7 +3223,7 @@ translate english monica_office_cabinet_biff_dialogue5_804bca1b:
 
     # biff "Закрой свой ротик, пока я не заткнул его своим членом!"
     # "Ты будешь открывать его когда скажу Я!"
-    biff "Shut your mouth before I shut it with my dick!"
+    biff "So shut your mouth before I shut it with my dick!"
     "You'll open it when I say so!"
 
 translate english strings:
@@ -3318,7 +3318,7 @@ translate english monica_office_secretary_dialogue5b_local1_d09bd339:
     "I'll take it to Dick, we'll buy him a tie, and he'll stop blackmailing me..."
     "He just wants proof of my loyalty."
     "If I prove to him that I am his friend, he will change his attitude towards me..."
-    "He'll figure out a way to get me my documents and my money back..."
+    "He'll figure out a way to get me my documents and money back..."
     "I'm sure he knows how to do it, and that he's just testing me..."
     "..."
 
@@ -3407,7 +3407,7 @@ translate english monica_office_cabinet_biff_dialogue3_local2_b7eb643b:
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
     biff "Excellent!"
-    "To be honest with you, Melanie refused this series of photo shoots."
+    "To be honest with you, Melanie refused to do this series of photo shoots."
     "She said she didn't want to do anything with full nudity."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:976

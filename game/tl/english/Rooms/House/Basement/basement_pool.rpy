@@ -19,7 +19,7 @@ translate english basement_pool_environment_0795c97a:
     # "Может быть мне можно пользоваться туалетом здесь?"
     # "Но я сейчас не хочу..."
     mt "Betty told me not to use the upstairs bathroom."
-    "Maybe I can use the bathroom here."
+    "Maybe I can use the toilet that's down here."
     "But now I don't want to..."
 
 # game/Rooms/House/Basement/basement_pool.rpy:52

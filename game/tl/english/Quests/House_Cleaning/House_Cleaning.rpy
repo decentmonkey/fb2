@@ -16,7 +16,7 @@ translate english house_cleaning_room_finished_a47cb48b:
 translate english start_cleaning_dialogue1a_b6cc470f:
 
     # mt "Сегодня пришла очередь убрать"
-    mt "Today it's time to clean up."
+    mt "Now it's time to clean up."
 
 # game/Quests/House_Cleaning/House_Cleaning.rpy:217
 translate english start_cleaning_dialogue1_f03b8b11:

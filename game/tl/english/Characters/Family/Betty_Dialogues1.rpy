@@ -19,7 +19,7 @@ translate english bettyDialogue3_7562f25e:
 
     # mt "Мне лучше не подходить к Бетти в таком виде..."
     # "Она и так все время называет меня шлюхой..."
-    mt "I'd rather not approach Betty in this cloth..."
+    mt "I'd rather not approach Betty in this clothes..."
     "She calls me a whore all the time..."
 
 # game/Characters/Family/Betty_Dialogues1.rpy:27

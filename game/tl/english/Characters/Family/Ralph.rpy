@@ -9,7 +9,7 @@ translate english ralphInteract1_026d6ed0:
     # "Но мужчины такими и должны быть."
     # "Мы, женщины, выше мужчин и они должны это понимать!"
     mt "It's Ralph."
-    "Henpecked."
+    "A henpecked man"
     "Betty trained him well, I'll give her that."
     "Men should be like that."
     "Women are above them and they need to understand that!"

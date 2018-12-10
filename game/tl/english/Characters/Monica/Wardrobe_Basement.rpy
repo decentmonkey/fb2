@@ -19,7 +19,7 @@ translate english wardrobeBasement_dialogue1_whore_f4ed01ee:
 
     # mt "Я не могла подумать, когда увидела эти тряпки в хостеле, что мне придется носить их."
     # "Вместо моего красивого платья... Рррррр!!!"
-    mt "I couldn't imagine, when I saw those rags in the hostel, that I would actually have to wear them."
+    mt "I couldn't imagine, when I saw these rags in the hostel, that I would actually have to wear them."
     "Instead of my beautiful dress... Rrrrrr!!!"
 
 # game/Characters/Monica/Wardrobe_Basement.rpy:67
@@ -38,7 +38,7 @@ translate english wardrobeBasement_dialogue2_governess_5f3c77f6:
     # mt "Кошмарная униформа."
     # "Я никогда себя не представляла в этом..."
     mt "Nightmarish uniform."
-    "I could never have never imagined myself in this..."
+    "I could never ever have imagined myself in this..."
 
 # game/Characters/Monica/Wardrobe_Basement.rpy:77
 translate english wardrobeBasement_dialogue2_nude_5ce627fb:

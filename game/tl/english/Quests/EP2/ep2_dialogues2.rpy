@@ -70,7 +70,7 @@ translate english monica_shawarma_dialogue1_bbbecf64:
 translate english monica_shawarma_dialogue1_5d024480:
 
     # m "Так я тебе нравлюсь или нет..." 
-    m "Whether you like me or not..." 
+    m "I was wondering whether you like me or not..." 
 
 # game/Quests/EP2/ep2_dialogues2.rpy:38
 translate english monica_shawarma_dialogue1_b1152add:
@@ -149,14 +149,14 @@ translate english monica_shawarma_dialogue1_fc21055c:
 
     # "ЕЩЕ ЧЕГО!!!"
     # "Я говорю тебе дай свой кебаб сюда, быстро!"
-    "STILL WHAT!!!"
+    "WHAT??!!"
     "I'm telling you, get your kebab over here, quick!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:66
 translate english monica_shawarma_dialogue1_6a85058e:
 
     # shawarma "Хорошо, Мадаме! Только для Вас самый вкусный кебаб за $ 1! Мадаме!"
-    shawarma "Okay, Madam! Only for you the most delicious kebab for Okay, Madam! Only for you the most delicious kebab for $ 1! Madam!! Madam!"
+    shawarma "Okay, Madam! Only for you the most delicious kebab for $ 1! Madam!!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:73
 translate english monica_shawarma_dialogue1_b95b69e5:
@@ -174,7 +174,7 @@ translate english monica_shawarma_dialogue1_3fe4c2df:
 translate english monica_shawarma_dialogue1_7db9d8a8:
 
     # shawarma "Нет, Мадаме! Только за $ 1, Мадаме!"
-    shawarma "No, Madam! Only for No, Madam! Only for $ 1, Madam!!"
+    shawarma "No, Madam! Only for $ 1, Madam!!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:79
 translate english monica_shawarma_dialogue1_349d457d:
@@ -187,8 +187,8 @@ translate english monica_shawarma_dialogue1_069451ee:
 
     # shawarma "Конечно есть, Мадаме!"
     # "Если такой красивый женщин, как Вы, {b}расскажет всем вокруг про мой самый вкусный кебаб{/b}, то кебаб сам будет Вас искать!"
-    shawarma "Of course there is, Madam!"
-    "If such a beautiful woman like you {b}tells everyone around about my most delicious kebab {/b}, the kebab will be waiting for you!"
+    shawarma "Of course there are, Madam!"
+    "If a beautiful woman such as you {b}tells everyone around about my most delicious kebab {/b}, the kebab will be waiting for you!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:84
 translate english monica_shawarma_dialogue1_e85bead3:
@@ -200,7 +200,7 @@ translate english monica_shawarma_dialogue1_e85bead3:
 translate english monica_shawarma_dialogue1_bec92266:
 
     # m "Итак, ты хочешь чтобы я кому-то рассказала про тебя?"
-    m "So you want me to tell someone about you?"
+    m "So you want me to tell everyone about your kebab stand?"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:88
 translate english monica_shawarma_dialogue1_9aa04107:
@@ -260,7 +260,7 @@ translate english monica_shawarma_dialogue1_bbb1603d:
     # m "ЧТО..."
     # "ЧТО ЭТО ЗА ХРЕНЬ!?!?!?"
     m "WHAT..."
-    "WHAT THE HELL IS THAT!?!?!?"
+    "WHAT THE HELL IS THIS!?!?!?"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:120
 translate english monica_shawarma_dialogue1_ba48465d:
@@ -507,7 +507,7 @@ translate english monica_shawarma_dialogue6_bd7d8acb:
 
     # mt "Возможно здесь я найду кого-то кому можно раздать эти дурацкие флаеры..."
     # "Главное не подходить к тому хостелу..."
-    mt "Maybe I'll find someone here to hand out these stupid flyers to as well..."
+    mt "Maybe I'll find someone here to hand out these stupid flyers to..."
     "The main thing is to no approach the hostel..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:310
@@ -518,7 +518,7 @@ translate english monica_shawarma_dialogue7_57bdab85:
     # "Но мне главное раздать эти флаеры и убраться отсюда!"
     # "Такая девушка как Я не подходит подобному месту!"
     mt "What a filthy, smelly neighborhood..."
-    "The same inhabitants here..."
+    "The same goes for its inhabitants"
     "But I have to hand out these flyers and get out of here!"
     "A girl like me doesn't belong in a place like this!"
 

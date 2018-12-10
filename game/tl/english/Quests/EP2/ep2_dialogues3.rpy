@@ -140,7 +140,7 @@ translate english monica_dick_secretary_dialogue1_e81b8d80:
 translate english monica_dick_dialogue1_c9ac6675:
 
     # mt "Вот и тюфяк... Надеюсь в этот раз получится лучше..."
-    mt "What a mattress... I hope it works out better this time..."
+    mt "Door mat... I hope it works out better this time..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:95
 translate english monica_dick_dialogue1_5b9361e7:
@@ -281,7 +281,7 @@ translate english monica_dick_dialogue1_e928c19e:
 
     # "В общем Моника. Я позвал тебя чтобы сообщить..."
     # "Я не хочу больше заниматься твоим делом."
-    "In fact, Monica. I called you here to tell you something else to..."
+    "In fact, Monica. I called you here to tell you something else too..."
     "I don't want to take care of your case anymore."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:191
@@ -313,7 +313,7 @@ translate english monica_dick_dialogue1_e928c19e_1:
 
     # "В общем Моника. Я позвал тебя чтобы сообщить..."
     # "Я не хочу больше заниматься твоим делом."
-    "In fact, Monica. I called you here to tell you something else to..."
+    "In fact, Monica. I called you here to tell you something else too..."
     "I don't want to take care of your case anymore."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:206
@@ -506,7 +506,7 @@ translate english monica_dick_dialogue1_9da8cb28:
 translate english monica_dick_secretary_dialogue2a_97394985:
 
     # mt "Я думаю мне надо проконтролировать эту сучку, вдруг она отправила факс?"
-    mt "I think I need to check so that this bitch hasn't sent thefax."
+    mt "I think I need to check so that this bitch hasn't sent the fax."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:305
 translate english monica_dick_secretary_dialogue2_ce9a25fa:
@@ -547,8 +547,8 @@ translate english monica_dick_secretary_dialogue2_790f5414:
 
     # dick_secretary "Мистер Дик сообщил о том что один факс посылать не надо."
     # "Этот факс касается Вашего дела, Миссис Бакфетт!"
-    dick_secretary "Mr. Dick said that there was a fax that you didn't have to send"
-    "This fax machine for your business, Mrs. Buckfett!"
+    dick_secretary "But, of course, Mr. Dick said that there was one fax that I didn't have to send"
+    "The fax regarding your business, Mrs. Buckfett!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:320
 translate english monica_dick_secretary_dialogue2_e15b2360:
@@ -556,13 +556,13 @@ translate english monica_dick_secretary_dialogue2_e15b2360:
     # m "ДА! О ДА!"
     # "Нет, его не надо посылать..."
     m "YES! OH YEAH!"
-    "No, you don't have to send it..."
+    "Yes, you don't have to send it..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:323
 translate english monica_dick_secretary_dialogue2_49d5c15f:
 
     # dick_secretary "Я не буду его далеко убирать."
-    dick_secretary "I won't take it far away."
+    dick_secretary "Sure, but I won't take it far away from me."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:325
 translate english monica_dick_secretary_dialogue2_9bf6e2b3:
@@ -589,7 +589,7 @@ translate english monica_dick_secretary_dialogue2_b27a5120:
     # "Я бы хотела подружиться с Вами..."
     # "И я бы хотела попросить Вас составить компанию мне..."
     # "Чтобы купить галстук для Мистера Дика..."
-    m "Miss Victoria... I am..."
+    m "Miss Victoria... I..."
     "I'd like to be friends with you..."
     "And I'd like to ask if you want come with me..."
     "To buy a tie for Mr. Dick..."
@@ -675,7 +675,7 @@ translate english monica_dick_secretary_dialogue2_44fce3e0:
 
     # dick_secretary "Ну кто так уговаривает?"
     # "Скажите что я одеваюсь лучше чем Вы и что у меня лучше вкус, на который Вы бы хотели положиться..."
-    dick_secretary "Who says like that?"
+    dick_secretary "Who begs like that?"
     "Say that I dress better than you. And that I have better taste, which you would like to consult when buying the tie..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:378
@@ -763,7 +763,7 @@ translate english monica_dick_secretary_dialogue2_8e63260f:
 
     # dick_secretary "Ну вот! Другое дело!"
     # "Хи-хи!"
-    dick_secretary "Well! Another matter!"
+    dick_secretary "Well! Now you're talking!"
     "Hee-hee!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:414
@@ -889,7 +889,7 @@ translate english monica_dick_office_dialogue2_eae1459d:
     # "Стоит попробовать!"
     # "Я чувствую что могу об этом пожалеть, но у меня нет выбора..."
     mt "Fuck!"
-    "I barely got Dick!"
+    "I almost got Dick!"
     "I was on the verge of death!"
     "This Victoria!"
     "She's completely taken over Dick!"
@@ -988,7 +988,7 @@ translate english monica_dick_secretary_dialogue1a_e81b8d80:
 translate english monica_dick_dialogue1a_c9ac6675:
 
     # mt "Вот и тюфяк... Надеюсь в этот раз получится лучше..."
-    mt "What a mattress... I hope it works out better this time..."
+    mt "Door mat... I hope it works out better this time..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:192
 translate english monica_dick_dialogue1_e612037c:
@@ -1065,7 +1065,7 @@ translate english monica_dick_dialogue1_local1_e928c19e:
 
     # "В общем Моника. Я позвал тебя чтобы сообщить..."
     # "Я не хочу больше заниматься твоим делом."
-    "In fact, Monica. I called you here to tell you something else to..."
+    "In fact, Monica. I called you here to tell you something else too..."
     "I don't want to take care of your case anymore."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:288
@@ -1097,7 +1097,7 @@ translate english monica_dick_dialogue1_local1_e928c19e_1:
 
     # "В общем Моника. Я позвал тебя чтобы сообщить..."
     # "Я не хочу больше заниматься твоим делом."
-    "In fact, Monica. I called you here to tell you something else to..."
+    "In fact, Monica. I called you here to tell you something else too..."
     "I don't want to take care of your case anymore."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:305
@@ -1312,7 +1312,7 @@ translate english monica_dick_secretary_dialogue2_a8de7387:
 translate english monica_dick_secretary_dialogue2_57ffa4ac:
 
     # dick_secretary "Ну вот! Другое дело!"
-    dick_secretary "Well! Another matter!"
+    dick_secretary "Well! Now you're talking!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:539
 translate english monica_dick_secretary_dialogue2_e2bec9da:
@@ -1414,7 +1414,7 @@ translate english monica_dick_office_dialogue2_3afdb398:
     # "..."
     # "Но где мне найти такую сумму?!"
     mt "Fuck!"
-    "I barely got Dick!"
+    "I almost got Dick!"
     "I was on the verge of death!"
     "This Victoria!"
     "She's completely taken over Dick!"

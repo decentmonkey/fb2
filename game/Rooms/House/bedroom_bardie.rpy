@@ -77,5 +77,6 @@ label bedroom_bardie_environment:
             img 5803
             with fade
             pass
+        $ add_corruption(2, "look_at_bardies_notebook")
         mt "Фу! Какая мерзость!"
     return

@@ -16,7 +16,7 @@ translate english basement_monica_after_nap_dialogue1_9ad51c5f:
 translate english basement_monica_after_sleep_dialogue1_465fecb3:
 
     # mt "Еще одно утро в этой дыре! Мне надо что-то придумать, чтобы вернуть все назад как было!"
-    mt "Another morning in this hole! I have to think of something to get it back!"
+    mt "Another morning in this hole! I have to think of something to get my house back!"
 
 # game/Characters/Monica/Bed_Basement.rpy:113
 translate english basement_monica_after_sleep_dialogue1_7d6e1ea1:
@@ -61,4 +61,12 @@ translate english strings:
     # Characters/Monica/Bed_Basement.rpy:32
     old "Лечь и ждать вечера."
     new "Take nap and wait for the evening."
+
+# TODO: Translation updated at 2018-12-10 23:52
+
+# game/Characters/Monica/Bed_Basement.rpy:82
+translate english monica_gosleep1a_1a9716fb:
+
+    # mt "Я сегодня ничего не ела! Лечь спать голодной?"
+    mt "I didn't eat anything today! Go to bed hungry?"
 
