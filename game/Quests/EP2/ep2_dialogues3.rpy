@@ -218,7 +218,6 @@ label monica_dick_dialogue1:
     dick "Тогда где та мелочь, о которой я попросил тебя?"
     img 6208
     w
-    m "here"
     label .local1:
         menu:
             "Приставать к Дику. (low corruption, required [monicaTryToDickBlowjobRequiredCorruption]) (disabled)" if corruption < monicaTryToDickBlowjobRequiredCorruption:

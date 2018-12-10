@@ -118,7 +118,7 @@ translate english sleep_scene1_355cbb6f:
     # m "Ты уволен, Фред!!!"
     # "Едь скорее на место и вон из машины!"
     m "You're fired!!!"
-    "Go back to your seat and get out of the car!"
+    "Drive quickly to the place and get out of the car!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:63
 translate english sleep_scene1_27441ed8:
@@ -165,7 +165,7 @@ translate english sleep_scene1_71519e67:
 
     # m "Значит это все-таки был сон!"
     # "Получается Фред этого не делал?"
-    m "So it was still a dream."
+    m "So it was a dream."
     "So Fred didn't do it?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:83
@@ -179,8 +179,8 @@ translate english sleep_scene1_ab56cc75:
 
     # "Сон!"
     # "Ура! Сон!"
-    "Sleep!"
-    "Hurray! Sleep!"
+    "Dream!"
+    "Hurray! Dream!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:91
 translate english sleep_scene1_dfef7c22:
@@ -722,7 +722,7 @@ translate english sleep_scene1_856f9e68:
     # m "Да, это все небольшое недоразумение..."
     # "И, когда я решу его, я поквитаюсь со всеми вами!"
     # "Клянусь!"
-    m "Yeah, thi is all a little misunderstanding..."
+    m "Yeah, this is all a little misunderstanding..."
     "And when I solve it, I'll get even with all of you!"
     "I swear!"
 
