@@ -50,7 +50,7 @@ init python:
         if char_progress_stored[char_name].has_key(progress_name) == False:
             char_progress_stored[char_name][progress_name] = 0
         if char_info[char_name]["enabled"] == False:
-            notif(char_info[char_name]["name"] + " " + _("прогресс заморожен"))
+            notif(char_info[char_name]["name"] + " " + __("прогресс заморожен"))
             return
         char_progress_stored[char_name][progress_name] = char_progress_stored[char_name][progress_name] + 1
         char_info[char_name]["current_progress"] = char_info[char_name]["current_progress"] + progress_value
@@ -59,7 +59,7 @@ init python:
         char_data = char_info[char_name]
         if char_info[char_name]["current_progress"] >= char_info[char_name]["max_progress"]:
 #            char_info[char_name]["current_progress"] = char_info[char_name]["max_progress"]
-            notif(char_info[char_name]["name"] + " " + _("прогресс перешел на следующий уровень!"))
+            notif(char_info[char_name]["name"] + " " + __("прогресс перешел на следующий уровень!"))
             char_info[char_name]["current_progress"] = 0
             renpy.play("Sounds/level_up.ogg", channel="sound")
             if char_info[char_name]["uplevel_label"] != False and renpy.has_label(char_info[char_name]["uplevel_label"]) == True:
@@ -67,10 +67,10 @@ init python:
                 renpy.call(progressFuncName)
         else:
             if progress_value > 0:
-                notif(char_info[char_name]["name"] + " " + _("прогресс увеличен!"))
+                notif(char_info[char_name]["name"] + " " + __("прогресс увеличен!"))
             else:
                 if char_info[char_name]["current_progress"] > 0:
-                    notif(char_info[char_name]["name"] + " " + _("прогресс понижен!"))
+                    notif(char_info[char_name]["name"] + " " + __("прогресс понижен!"))
             if char_info[char_name]["progress_label"] != False and renpy.has_label(char_info[char_name]["progress_label"]) == True:
                 progressFuncName = char_info[char_name]["progress_label"]
                 renpy.call(progressFuncName)
