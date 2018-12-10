@@ -73,6 +73,7 @@ label kebab_work_start:
     $ kebabWorkMonicaRefusedAmount = 0
     $ kebabWorkHarassmentAmount = 0
     $ miniMapDisabled["Street_Corner"] = []
+    $ map_objects["Teleport_Hostel2"]["state"] = "visible"
     $ remove_hook(label="kebab_work_block_teleports")
     return
 
