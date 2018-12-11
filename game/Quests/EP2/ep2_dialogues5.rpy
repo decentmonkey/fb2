@@ -1585,11 +1585,13 @@ label monica_charity_event_dialogue18:
     img 6926
     with fade
     w
+    music stop
     img 6927
     with fade
     w
 
     # звук хлюпания, вход члена в рот
+    sound hlup19
     img 6928 #?????
     w
 
@@ -1600,10 +1602,6 @@ label monica_charity_event_dialogue18:
 
     #Моника открывает рот сильнее
     #идет видео минета
-    philip "Миссис Бакфетт!"
-    "Отлично!"
-    "Чувствуется что у Вас недостаток практики!"
-    "Но мне это даже нравится!"
 
     #идет видео минета
     stop music
@@ -1617,6 +1615,10 @@ label monica_charity_event_dialogue18:
     scene black
     image videov_Monica_Philip_Blowjob_1_2 = Movie(play="video/v_Monica_Philip_Blowjob_1_2.mp4", fps=30)
     show videov_Monica_Philip_Blowjob_1_2
+    philip "Миссис Бакфетт!"
+    "Отлично!"
+    "Чувствуется что у Вас недостаток практики!"
+    "Но мне это даже нравится!"
     wclean
     stop music
     play music "Sounds/v_Monica_Philip_Blowjob_1_sound.ogg"
@@ -1728,12 +1730,14 @@ label monica_charity_event_dialogue18:
     with fade
     w
     # звук кончания в рот Филипом
+    sound bulk1
     philip "АААААААРРГГГХХХ!!!"
     img 6935
     w
     # звук кончания в рот Филипом
     img 6936
     with fade
+    sound bulk1
     philip "АААААААРРГГГХХХ!!!"
 
     #Моника сидит со спермой
@@ -1798,6 +1802,7 @@ label monica_charity_event_dialogue18:
                 img 6952
                 m "Но пожалуйста, Мистер!"
                 # звук пальца в ротике Моники
+                sound squelch9
                 img 6953
                 philip "Миссис Бакфетт! Я уже купил Ваш ротик!"
                 img 6954
@@ -1914,13 +1919,16 @@ label monica_charity_event_dialogue18:
                 img 6973
                 "Приглашай его член!"
                 "Иначе не получишь деньги!"
+                music stop
                 img 6975
                 w
                 #Моника открывает рот
                 #звук открывания рта пальцем Филипа
+                sound squelch9
                 img 6976
                 with Dissolve(0.5)
                 w
+                music Groove2_85
                 img 6977
                 philip "Давай, парень!"
                 img 6978
@@ -2048,20 +2056,26 @@ label monica_charity_event_dialogue18:
     hotel_staff "Правда, Сэр?"
     philip "Правда, малыш!"
     "Сделай движение вперед, не бойся!"
+    music stop
     hotel_staff "Хорошо, Сэр..."
     #чавкающий звук
     # звук входа члена в Моникин рот
+    sound hlup19
     img 7011
     with Dissolve(0.5)
     w
+    music Groove2_85
     philip "Смелее, малыш!"
     img 7012
+    music stop
     hotel_staff "Хорошо, Сэр..."
     #чавкающий звук
     # звук чавкающий
+    sound hlup25
     img 7013
     with Dissolve(0.5)
     w
+    music Groove2_85
     img 7014
     hotel_staff "Так, Сэр?"
     philip "Долби ее в ротик!"
@@ -2069,6 +2083,7 @@ label monica_charity_event_dialogue18:
 
     #парень начинает ее долбить
     #видео
+    music stop
     stop music
     play music "Sounds/v_Monica_Helper_Blowjob_1_sound.ogg"
     scene black
