@@ -28,12 +28,12 @@ label monica_office_entrance_init:
 
 label monica_office_entrance_teleport2:
     if obj_name == "Teleport_Monica_Office_Secretary":
-        call change_scene("monica_office_secretary", "Fade_long", "snd_lift")
+        call change_scene("monica_office_secretary", "Fade_long", "snd_lift") from _call_change_scene_41
         return
 #        call change_scene("monica_office_secretary", "Fade_long", "snd_lift") from _call_change_scene_79
         return
     if obj_name == "Teleport_Street_Monica_Office":
-        call change_scene("street_monica_office", "Fade_long", "highheels_run2")
+        call change_scene("street_monica_office", "Fade_long", "highheels_run2") from _call_change_scene_42
         return
 
     return

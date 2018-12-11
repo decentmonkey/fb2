@@ -15,7 +15,7 @@ label basement_bedroom2_cupboard_init:
 
 label basement_bedroom2_cupboard_teleport:
     if obj_name == "Teleport_Bedroom_Back":
-        call change_scene(basementBedroom2CupboardReturnScene)
+        call change_scene(basementBedroom2CupboardReturnScene) from _call_change_scene_95
         return
     return
 

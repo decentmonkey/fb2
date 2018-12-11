@@ -19,7 +19,7 @@ label house_cleaning:
     $ monicaLastCleaningOfferedDay = day
     menu:
         "Начать уборку в доме.":
-            call house_cleaning_start()
+            call house_cleaning_start() from _call_house_cleaning_start
             return False
         "Не убираться сегодня...":
             return
@@ -49,12 +49,12 @@ label house_cleaning_start:
     music Sugar_plum high
 
 
-    call house_cleaning_start3()
+    call house_cleaning_start3() from _call_house_cleaning_start3
 
-    call process_hooks("monica_cleaning_start", "global")
+    call process_hooks("monica_cleaning_start", "global") from _call_process_hooks_27
 
     $ autorun_to_object("start_cleaning_dialogue1a", scene=rooms_dirty[0])
-    call change_scene(rooms_dirty[0])
+    call change_scene(rooms_dirty[0]) from _call_change_scene_173
 #    call refresh_scene_fade()
     return
 
@@ -135,14 +135,14 @@ label house_cleaning_start3:
 
 label house_cleaning_end:
     $ autorun_to_object("house_cleaning_end2")
-    call refresh_scene("Dissolve_fast")
+    call refresh_scene("Dissolve_fast") from _call_refresh_scene_5
     return
 label house_cleaning_end2:
     $ add_corruption(monicaCleaningAddCorruptionPerCleaning, "monica_cleaning_corruption_day_" + str(day))
-    call cleaning_monica_finished1()
+    call cleaning_monica_finished1() from _call_cleaning_monica_finished1
     $ monicaCleaningInProgress = False
     $ restore_scene(houseCleaningStoredScene)
-    call process_hooks("monica_cleaning_end", "global")
+    call process_hooks("monica_cleaning_end", "global") from _call_process_hooks_28
     $ restore_music()
     $ monicaLastCleaningCompletedDay = day
     $ add_cleaning(True)
@@ -150,7 +150,7 @@ label house_cleaning_end2:
         $ add_char_progress("Betty", bettyCleaningProgessAmount, "cleaning_day_" + str(day))
     $ miniMapEnabledOnly = []
 
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_42
     return
 
 label house_cleaning_clean_object:
@@ -162,34 +162,34 @@ label house_cleaning_clean_object:
     if get_active_objects(cleaning_group=True) != False:
         # еще есть объекты для чистки
 #        call refresh_scene_fade()
-        call refresh_scene("Dissolve_fast")
+        call refresh_scene("Dissolve_fast") from _call_refresh_scene_6
         return False
 
     $ autorun_to_object("house_cleaning_room_finished")
-    call refresh_scene("Dissolve_fast")
+    call refresh_scene("Dissolve_fast") from _call_refresh_scene_7
     return False
 
 label house_cleaning_room_finished:
     $ monicaCleaningObject = ""
     if scene_name == "bedroom1":
         mt "Здесь все, теперь другую сторону."
-        call change_scene(rooms_dirty.pop(0))
+        call change_scene(rooms_dirty.pop(0)) from _call_change_scene_174
         return False
     else:
         mt "Кажется все."
         if len(rooms_dirty) > 0:
             $ monicaCleaningObject = ""
             $ autorun_to_object("house_cleaning_room_finished2")
-            call refresh_scene("Dissolve_fast")
+            call refresh_scene("Dissolve_fast") from _call_refresh_scene_8
             return False
 
-    call house_cleaning_end()
+    call house_cleaning_end() from _call_house_cleaning_end
     return False
 
 label house_cleaning_room_finished2:
-    call start_cleaning_dialogue2()
+    call start_cleaning_dialogue2() from _call_start_cleaning_dialogue2
 #    w
-    call change_scene(rooms_dirty.pop(0))
+    call change_scene(rooms_dirty.pop(0)) from _call_change_scene_175
     return False
 
 label processHouseCleaningEvening:
@@ -217,7 +217,7 @@ label start_cleaning_dialogue1a:
                 renpy.say(mt, _("Мою бывшую спальню."))
 
     $ rooms_dirty.pop(0)
-    call start_cleaning_dialogue1()
+    call start_cleaning_dialogue1() from _call_start_cleaning_dialogue1
 #    if rooms_dirty[0] != scene_name:
 #    else:
 #        call refresh_scene()

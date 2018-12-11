@@ -3,7 +3,7 @@ default livingRoomRalphIsHere = False
 label living_room:
     $ print "enter_living_room"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_2
 
     $ scene_image = "scene_House_LivingRoom[day_suffix]"
 
@@ -43,7 +43,7 @@ label living_room_init:
 
 label living_room_teleport:
     if obj_name == "Teleport_Floor1":
-        call change_scene("floor1")
+        call change_scene("floor1") from _call_change_scene_40
         return
     return
 

@@ -26,7 +26,7 @@ label rich_hotel_event_sofa_init:
 
 label rich_hotel_event_sofa_teleport:
     if obj_name == "Teleport_Rich_Hotel_Hall":
-        call change_scene("rich_hotel_event_hall")
+        call change_scene("rich_hotel_event_hall") from _call_change_scene_76
         return
     return
 label rich_hotel_event_sofa_environment:
@@ -56,7 +56,7 @@ label rich_hotel_event_sofa_environment:
             mt "Мелани пристально смотрит на меня..."
             "И молчит..."
             return
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_25
         return
     if obj_name == "Komode":
         if richHotelEventStage == 1:

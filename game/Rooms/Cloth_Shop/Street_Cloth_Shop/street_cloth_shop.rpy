@@ -29,10 +29,10 @@ label street_cloth_shop_init:
 
 label street_cloth_shop_teleport2:
     if obj_name == "Teleport_Cloth_Shop_Entrance":
-        call cloth_shop_refuse1()
+        call cloth_shop_refuse1() from _call_cloth_shop_refuse1
         return
     if obj_name == "Teleport_Shawarma":
-        call change_scene("whores_place_shawarma", "Fade_long", "highheels_run2")
+        call change_scene("whores_place_shawarma", "Fade_long", "highheels_run2") from _call_change_scene_99
         return
     return
 label street_cloth_shop_environment2:

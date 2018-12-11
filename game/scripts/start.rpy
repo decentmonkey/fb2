@@ -30,11 +30,11 @@ label start:
     $ inventory = []
 
 
-    call intro_questions()
+    call intro_questions() from _call_intro_questions
     $ ralphAskedAboutPayment = False
     $ add_objective("ask_ralph", _("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
     $ add_objective("freedom", _("Избежать наказания"), c_red, 0)
-    call start_game()
+    call start_game() from _call_start_game
     return
 
 label start_saved_game:
@@ -51,13 +51,13 @@ label start_saved_game:
     $ hooks_stack = []
     $ inventory_objects = {}
     $ inventory = []
-    call intro_questions_save()
+    call intro_questions_save() from _call_intro_questions_save
     $ objectives_list = []
     if ralphAskedAboutPayment == False:
         $ add_objective("ask_ralph", _("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
     $ add_objective("freedom", _("Избежать наказания"), c_red, 0)
     $ teleportHomeFredBlowjobFlag = False
-    call start_game()
+    call start_game() from _call_start_game_1
     return
 
 label start_game:
@@ -82,7 +82,7 @@ label start_game:
 
     $ hud_preset_current = "default"
 
-    call game_init()
+    call game_init() from _call_game_init
 #    python:
 #        for i in renpy.exports.get_image_load_log():
 #            print i
@@ -116,11 +116,11 @@ label start_game:
     $ map_disabled_forced = False
     $ scene_name = "none"
     $ api_scene_name = "none"
-    call locations_init()
-    call citizens_init()
-    call characters_init()
-    call basement_shower_init()
-    call kebab_work_init()
+    call locations_init() from _call_locations_init
+    call citizens_init() from _call_citizens_init
+    call characters_init() from _call_characters_init
+    call basement_shower_init() from _call_basement_shower_init
+    call kebab_work_init() from _call_kebab_work_init
 
     $ add_hook("exit_scene", "hook_basement_bedroom2_change_view_to_suffix3", scene="basement_bedroom2")
     # Запрет Бетти ходить по дому
@@ -141,11 +141,11 @@ label start_game:
     $ add_hook("change_time_day", "citizens_init_day", scene="global")
     $ add_hook("change_time_evening", "citizens_init_evening", scene="global")
 
-    call Bardie_Life_init()
-    call Betty_Life_init()
-    call Ralph_Life_init()
-    call Fred_Life_init()
-    call Biff_Life_init()
+    call Bardie_Life_init() from _call_Bardie_Life_init
+    call Betty_Life_init() from _call_Betty_Life_init
+    call Ralph_Life_init() from _call_Ralph_Life_init
+    call Fred_Life_init() from _call_Fred_Life_init
+    call Biff_Life_init() from _call_Biff_Life_init
 
     # Постель в подвале
     $ add_hook("BasementBed", "basement_bed_hook", scene="basement_bedroom2")
@@ -202,7 +202,7 @@ label start_game:
     $ add_hook("enter_scene", "monica_gas_station_thief_dialogue1", scene="gas_station_view1")
 
 #    $ remove_hook(label="betty_forbidden", scene="House", recursive=True)
-    call change_scene("basement_bedroom2", "Fade_long", False)
+    call change_scene("basement_bedroom2", "Fade_long", False) from _call_change_scene_51
     $ changeDayTime("day")
 
     $ miniMapDisabled = {"House":[], "Street_Corner":["Hostel_Street", "Hostel_Street2", "Hostel_Street3", "Hostel_Edge_1_c"]}
@@ -226,14 +226,14 @@ label start_game:
     $ _dismiss_pause = False
     scene black_screen
     with Dissolve(1)
-    call textonblack_long("FASHION BUSINESS")
+    call textonblack_long("FASHION BUSINESS") from _call_textonblack_long
     scene black_screen
     with Dissolve(1)
-    call textonblack_long("EPISODE 2")
+    call textonblack_long("EPISODE 2") from _call_textonblack_long_1
     scene black_screen
     with Dissolve(1)
     $ _dismiss_pause = True
-    call sleep_scene1()
+    call sleep_scene1() from _call_sleep_scene1
 
     $ episode = 2
     jump show_scene

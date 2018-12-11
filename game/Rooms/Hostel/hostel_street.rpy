@@ -1,7 +1,7 @@
 label hostel_street:
     $ print "enter_hostel_street"
     $ miniMapData = []
-    call miniMapHostelGenerate()
+    call miniMapHostelGenerate() from _call_miniMapHostelGenerate_6
 
     $ sceneIsStreet = True
 
@@ -40,19 +40,19 @@ label hostel_street_init:
 label hostel_street_teleport:
     if obj_name == "Teleport_Hostel_Edge_C":
         if cloth_type == "Nude":
-            call change_scene("hostel_edge_1_c", "Fade", "snd_walk_barefoot")
+            call change_scene("hostel_edge_1_c", "Fade", "snd_walk_barefoot") from _call_change_scene_47
             return
-        call change_scene("hostel_edge_1_c", "Fade", "highheels_run2")
+        call change_scene("hostel_edge_1_c", "Fade", "highheels_run2") from _call_change_scene_48
         return
     if obj_name == "Teleport_Shawarma":
-        call change_scene("whores_place_shawarma", "Fade", "highheels_run2")
+        call change_scene("whores_place_shawarma", "Fade", "highheels_run2") from _call_change_scene_49
         return
     if obj_name == "Teleport_Hostel_Street_Door":
         if act == "l":
             mt "Я не пойду туда! Там насильники! И я теперь должна $10.000 управляющей этой дыры."
             return
         if act == "w":
-            call change_scene("hostel_street_door")
+            call change_scene("hostel_street_door") from _call_change_scene_50
             return
     return
 label hostel_street_environment:

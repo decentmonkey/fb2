@@ -1,7 +1,7 @@
 label street_house_fence:
     $ print "enter_street_house_fence"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_15
 
     $ sceneIsStreet = True
     $ scene_image = "scene_Street_House_Fence[day_suffix]"
@@ -26,10 +26,10 @@ label street_house_fence_init:
 
 label street_house_fence_teleport:
     if obj_name == "Teleport_House_Yard":
-        call change_scene("street_house_main_yard")
+        call change_scene("street_house_main_yard") from _call_change_scene_115
         return
     if obj_name == "Teleport_House_Outside":
-        call change_scene("street_house_outside")
+        call change_scene("street_house_outside") from _call_change_scene_116
         return
     return
 label street_house_fence_environment:

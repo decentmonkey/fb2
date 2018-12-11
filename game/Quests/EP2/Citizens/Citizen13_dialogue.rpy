@@ -45,7 +45,7 @@ label citizen13_dialogue:
 
                                     imgr Dial_Citizen_13_2
                                     imgl Dial_Monica_Sandwich_1
-                                    call reduce_flyers()
+                                    call reduce_flyers() from _call_reduce_flyers_6
                                     citizen13 "Приятно было пообщаться."
                                     return
                     else:

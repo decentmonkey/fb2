@@ -34,7 +34,7 @@ label afterJailHouse_dialogue8: #bed
     if bathTaken == False:
         mt "Хоть меня дождь хорошенько помыл, я хотела бы освежиться перед сном!"
         return
-    call afterJailHouse_dialogue17()
+    call afterJailHouse_dialogue17() from _call_afterJailHouse_dialogue17
     return
 
 
@@ -55,7 +55,7 @@ label afterJailHouse_dialogue15b:
 label afterJailHouse_dialogue15a:
     mt "Бетти запретила мне притрагиваться к чему-либо..."
     "Мне лучше уйти отсюда скорее, пока она не заметила меня!"
-    call change_scene("floor1")
+    call change_scene("floor1") from _call_change_scene_127
     return
 
 label afterJailHouse_dialogue16a:
@@ -117,7 +117,7 @@ label afterJailHouse_dialogue21:
     $ basementBedroomStage = 1
     $ autorun_to_object("basement_bedroom1", "afterJailHouse_dialogue22")
 
-    call change_scene("basement_bedroom2", "Fade", False)
+    call change_scene("basement_bedroom2", "Fade", False) from _call_change_scene_128
     return
 
 label afterJailHouse_dialogue22:

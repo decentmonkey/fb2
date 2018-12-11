@@ -1,12 +1,12 @@
 label bettyProgressLevelUp:
-    call bettyProgressLevelUp1()
+    call bettyProgressLevelUp1() from _call_bettyProgressLevelUp1
     return
 
 label bettyProgressForward:
     return
 
 label bardieProgressLevelUp:
-    call bardieProgressLevelUp1()
+    call bardieProgressLevelUp1() from _call_bardieProgressLevelUp1
     return
 
 label alexPhotographProgressLevelUp:

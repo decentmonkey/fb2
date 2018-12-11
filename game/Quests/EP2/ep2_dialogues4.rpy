@@ -563,7 +563,7 @@ label monica_office_cabinet_biff_dialogue1:
     $ restore_music()
     $ monicaOfficeSecretaryMonicaSuffix_forced = ""
     $ autorun_to_object("monica_office_cabinet_biff_dialogue1a", scene="monica_office_secretary")
-    call change_scene("monica_office_secretary")
+    call change_scene("monica_office_secretary") from _call_change_scene_62
     return False
     #Моника выходит
 
@@ -584,7 +584,7 @@ label monica_office_cabinet_biff_dialogue1a:
         $ notif(_("Монике пришлось зарабатывать на еду разноской флаеров"))
         "Он будет разносить газеты всю свою оставшуюся жизнь!!!"
         "Или флаеры!!! Да!!!"
-        call bitch(10, "monicaKnowAboutKebabWork_biff")
+        call bitch(10, "monicaKnowAboutKebabWork_biff") from _call_bitch
     #
 
     "Клянусь!!!"
@@ -592,7 +592,7 @@ label monica_office_cabinet_biff_dialogue1a:
     $ remove_hook(label="secretary1")
     $ remove_hook(label="biff1")
     $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_cabinet_biff_dialogue2", scene="monica_office_secretary", label="biff_refuse1")
-    call Melanie_Life_init()
+    call Melanie_Life_init() from _call_Melanie_Life_init
     $ add_hook("Melanie", "monica_office_photostudio_melanie_dialogue1", scene="monica_office_photostudio")
     $ add_hook("change_time_day", "fred_talk_monica1", scene="global")
     return
@@ -635,10 +635,10 @@ label monica_office_photostudio_melanie_dialogue1:
             jump .local2
     menu:
         "Да, я примерно понимаю в чем заключаются они, твои силы...":
-            call bitch(5, "monicaTalkedToMelanie1")
+            call bitch(5, "monicaTalkedToMelanie1") from _call_bitch_1
             jump .local1
         "Мелани, ни один мужчина не устоит перед тобой!":
-            call bitch(-5, "monicaTalkedToMelanie1")
+            call bitch(-5, "monicaTalkedToMelanie1") from _call_bitch_2
             jump .local2
 
     label .local1:
@@ -673,7 +673,7 @@ label monica_office_photostudio_melanie_dialogue1:
     label .local3:
         $ monicaTalkedToMelanie1 = True
         $ restore_music()
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_21
     return False
 
 
@@ -965,7 +965,7 @@ label monica_office_cabinet_biff_dialogue3:
 #                    call low_corruption(monicaBiffWorkPhotoShot1Agree)
 #                    jump .local2
                 "Уйти.":
-                    call change_scene("monica_office_secretary")
+                    call change_scene("monica_office_secretary") from _call_change_scene_64
                     return False
         $ add_corruption(monicaBiffWork1CorruptionAdding, "monica_office_cabinet_biff_dialogue3")
         m "Да, я согласна..."
@@ -1008,13 +1008,13 @@ label monica_office_secretary_dialogue5:
     "Эти мерзавцы, которые меня окружают..."
     "Как же мне выпутаться и сохранить достоинство?!"
     if day == nextFriday:
-        call monica_office_secretary_dialogue5b()
+        call monica_office_secretary_dialogue5b() from _call_monica_office_secretary_dialogue5b
     return
 
 label monica_office_secretary_dialogue5a:
     if day != nextFriday:
         return
-    call monica_office_secretary_dialogue5b()
+    call monica_office_secretary_dialogue5b() from _call_monica_office_secretary_dialogue5b_1
 #    $ remove_hook()
     return
 label monica_office_secretary_dialogue5b:
@@ -1460,34 +1460,34 @@ label monica_office_photostudio_alex_dialogue2:
     $ add_char_progress("AlexPhotograph", photoshot1AlexProgressAmount, "photoshot1")
 
     img 6588
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash
     w
     img 6589
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_1
     w
     img 6590
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_2
     w
     img 6591
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_3
     w
     img 6592
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_4
     w
     img 6593
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_5
     w
     img 6594
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_6
     w
     img 6596
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_7
     w
     img 6595
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_8
     w
     img 6597
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_9
     w
 
     music Groove2_85
@@ -1505,13 +1505,13 @@ label monica_office_photostudio_alex_dialogue2:
     #фотосессия Моники со стулом
     img 6600
     with fade
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_10
     w
     img 6601
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_11
     w
     img 6602
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_12
     w
 
     music Groove2_85
@@ -1593,19 +1593,19 @@ label monica_office_photostudio_alex_dialogue2:
 
     #Идет фотосессия с пошлыми ракурсами
     img 6616
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_13
     w
     img 6617
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_14
     w
     img 6618
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_15
     w
     img 6619
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_16
     w
     img 6620
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_17
     w
     label .local1:
         menu:
@@ -1614,25 +1614,25 @@ label monica_office_photostudio_alex_dialogue2:
                 $ add_corruption(monicaBiffWorkPhotoShot1PervertCorruptionAdding, "monicaBiffWorkPhotoShot1PervertCorruptionAdding")
                 img 6621
                 with fade
-                call photoshop_flash()
+                call photoshop_flash() from _call_photoshop_flash_18
                 w
                 img 6622
-                call photoshop_flash()
+                call photoshop_flash() from _call_photoshop_flash_19
                 w
                 img 6623
-                call photoshop_flash()
+                call photoshop_flash() from _call_photoshop_flash_20
                 w
                 img 6624
-                call photoshop_flash()
+                call photoshop_flash() from _call_photoshop_flash_21
                 w
                 img 6625
-                call photoshop_flash()
+                call photoshop_flash() from _call_photoshop_flash_22
                 w
                 img 6626
-                call photoshop_flash()
+                call photoshop_flash() from _call_photoshop_flash_23
                 w
                 img 6627
-                call photoshop_flash()
+                call photoshop_flash() from _call_photoshop_flash_24
                 w
                 img 6628
                 with Dissolve(0.5)

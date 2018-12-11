@@ -35,7 +35,7 @@ label monica_office_cabinet_init:
 
 label monica_office_cabinet_teleport:
     if obj_name == "Teleport_Monica_Office_Secretary":
-        call change_scene("monica_office_secretary")
+        call change_scene("monica_office_secretary") from _call_change_scene_109
         return
     return
 label monica_office_cabinet_environment:
@@ -44,7 +44,7 @@ label monica_office_cabinet_environment:
             mt "Какой-то самозванец занял мое место!"
             "Это возмутительно!"
         if obj_data["action"] == "w":
-            call change_scene("monica_office_cabinet_table")
+            call change_scene("monica_office_cabinet_table") from _call_change_scene_110
         return
     if obj_name == "Melanie":
         mt "Ну надо же! Кто здесь!"
@@ -68,7 +68,7 @@ label monica_office_cabinet_environment:
         if obj_data["action"] == "l":
             mt "Мой... Стол..."
         if obj_data["action"] == "w":
-            call change_scene("monica_office_cabinet_table")
+            call change_scene("monica_office_cabinet_table") from _call_change_scene_111
             return
     return
 

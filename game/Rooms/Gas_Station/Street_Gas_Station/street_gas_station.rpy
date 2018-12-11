@@ -30,7 +30,7 @@ label street_gas_station2_teleport:
         if obj_data["action"] == "l":
             m "Вход в здание заправки..."
         if obj_data["action"] == "w":
-            call change_scene("gas_station_view1")
+            call change_scene("gas_station_view1") from _call_change_scene_61
             return
     return
 label street_gas_station2_environment:

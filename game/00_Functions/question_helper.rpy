@@ -21,7 +21,7 @@ label question_helper_call:
         return
     hide screen action_menu_screen
     show screen sprites_hover_dummy_screen()
-    call expression questionHelperFuncName
+    call expression questionHelperFuncName from _call_expression
     $ scene_refresh_flag = True
     $ show_scene_loop_flag = True
     $ parse_transition_flag = False

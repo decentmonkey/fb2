@@ -3,7 +3,7 @@ default hostel_edge_1_a_visited = False
 label hostel_edge_1_a:
     $ print "enter_hostel_edge_1_a"
     $ miniMapData = []
-    call miniMapHostelGenerate()
+    call miniMapHostelGenerate() from _call_miniMapHostelGenerate_2
 
     $ sceneIsStreet = True
 
@@ -47,15 +47,15 @@ label hostel_edge_1_a_init:
 label hostel_edge_1_a_teleport:
     if obj_name == "Teleport_Hostel_1_c":
         if cloth_type == "Nude":
-            call change_scene("hostel_edge_1_c", "Fade", "snd_walk_barefoot")
+            call change_scene("hostel_edge_1_c", "Fade", "snd_walk_barefoot") from _call_change_scene_10
             return
-        call change_scene("hostel_edge_1_c")
+        call change_scene("hostel_edge_1_c") from _call_change_scene_11
         return
     if obj_name == "Teleport_Hostel_1_b":
         if cloth_type == "Nude":
-            call change_scene("hostel_edge_1_b", "Fade", "snd_walk_barefoot")
+            call change_scene("hostel_edge_1_b", "Fade", "snd_walk_barefoot") from _call_change_scene_12
             return
-        call change_scene("hostel_edge_1_b")
+        call change_scene("hostel_edge_1_b") from _call_change_scene_13
         return
     return
 label hostel_edge_1_a_environment:

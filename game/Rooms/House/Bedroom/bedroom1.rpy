@@ -3,7 +3,7 @@ default bedroom1_betty_suffix = ""
 label bedroom1:
     $ print "enter_bedroom1"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_19
 
     $ scene_image = "scene_Bedroom1[day_suffix]"
     return
@@ -36,7 +36,7 @@ label bedroom1_init:
 
 label bedroom1_teleport:
     if obj_name == "Teleport_Bedroom2":
-        call change_scene("bedroom2")
+        call change_scene("bedroom2") from _call_change_scene_129
     return
 
 label bedroom1_environment:

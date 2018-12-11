@@ -13,10 +13,10 @@ label kebab_work_init:
 label reduce_flyers:
     $ kebabWorkFlyersLeft = kebabWorkFlyersLeft - 1
     $ notif(_("Флаеры убавлено"))
-    call kebab_work_objective_refresh()
+    call kebab_work_objective_refresh() from _call_kebab_work_objective_refresh
     if kebabWorkFlyersLeft == 0:
         $ autorun_to_object("monica_shawarma_dialogue3a")
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_16
     return
 
 label kebab_work_trader_interact1: # первый разговор о кебабах
@@ -25,15 +25,15 @@ label kebab_work_trader_interact1: # первый разговор о кебаб
     if act == "t":
         if day_time == "evening":
             # нет вечерних рендеров разговора о работе
-            call monica_shawarma_dialogue0() # он уже закрывается
-            call refresh_scene_fade()
+            call monica_shawarma_dialogue0() from _call_monica_shawarma_dialogue0 # он уже закрывается
+            call refresh_scene_fade() from _call_refresh_scene_fade_17
             return False
 #        call kebab_work_start()
 #        return
-        call monica_shawarma_dialogue1()
+        call monica_shawarma_dialogue1() from _call_monica_shawarma_dialogue1
         if monicaKnowAboutKebabWork == True:
             $ replace_hook("kebab_work_trader_interact2", scene="all", label="kebab_dialogue")
-            call kebab_work_start()
+            call kebab_work_start() from _call_kebab_work_start
 
     return
 
@@ -67,7 +67,7 @@ label kebab_work_start:
 
     $ cloth_type = "Kebab"
     $ cloth = "Kebab"
-    call kebab_work_objective_refresh()
+    call kebab_work_objective_refresh() from _call_kebab_work_objective_refresh_1
     $ kebabWorkFirstTime = False
     $ kebabWorkInProgress = True
     $ kebabWorkMonicaRefusedAmount = 0
@@ -92,17 +92,17 @@ label kebab_work_trader_interact2:
         return
     if act == "t":
         if kebabWorkInProgress == True:
-            call kebab_work_end()
-            call refresh_scene_fade()
+            call kebab_work_end() from _call_kebab_work_end
+            call refresh_scene_fade() from _call_refresh_scene_fade_18
             return False
         if monicaEatedLastDay == day:
-            call monica_shawarma_dialogue4() #Моника сыта
+            call monica_shawarma_dialogue4() from _call_monica_shawarma_dialogue4 #Моника сыта
             return False
         if day_time == "evening":
-            call monica_shawarma_dialogue2a()
+            call monica_shawarma_dialogue2a() from _call_monica_shawarma_dialogue2a
             return False
         if day_time == "day":
-            call monica_shawarma_dialogue2()
+            call monica_shawarma_dialogue2() from _call_monica_shawarma_dialogue2
             return False
     m "interact2"
     return
@@ -111,14 +111,14 @@ label kebab_work_end:
     menu:
         "Я раздала все флаеры, где мой кебаб?" if kebabWorkFlyersLeft == kebabWorkFlyersTotal or kebabWorkFlyersLeft <= 0:
             if kebabWorkFlyersLeft == kebabWorkFlyersTotal: #Моника не раздала ни одного флаера
-                call monica_shawarma_dialogue3_end_no_food() #Монику НЕ кормим
+                call monica_shawarma_dialogue3_end_no_food() from _call_monica_shawarma_dialogue3_end_no_food #Монику НЕ кормим
             if kebabWorkFlyersLeft <= 0: #Моника раздала все флаеры
-                call monica_shawarma_dialogue3_food()
-                call monicaEat()
+                call monica_shawarma_dialogue3_food() from _call_monica_shawarma_dialogue3_food
+                call monicaEat() from _call_monicaEat
                 $ add_corruption(monicaKebabWorkCorruptionAddingPerDay, "monicaKebabWorkCorruptionAddingPerDay_day" + str(day))
         "У меня не получилось раздать все флаеры..." if kebabWorkFlyersLeft > 0 and kebabWorkFlyersLeft < kebabWorkFlyersTotal: #Моника раздала не все флаеры
-            call monica_shawarma_dialogue3_end_half_food()
-            call monicaEat()
+            call monica_shawarma_dialogue3_end_half_food() from _call_monica_shawarma_dialogue3_end_half_food
+            call monicaEat() from _call_monicaEat_1
             $ add_corruption(monicaKebabWorkCorruptionAddingPerDay, "monicaKebabWorkCorruptionAddingPerDay_day" + str(day))
         "Уйти.":
             return
@@ -131,14 +131,14 @@ label kebab_work_end:
     $ map_enabled = last_map_enabled
     $ monicaKebabWorkAmount +=1
     $ changeDayTime("evening")
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_19
     return
 
 
 label kebab_work_block_hostel_edge_1_a:
     if act == "l":
         return
-    call kebab_work_block_teleports()
+    call kebab_work_block_teleports() from _call_kebab_work_block_teleports
     return False
 
 label kebab_work_block_teleports:

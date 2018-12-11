@@ -338,9 +338,9 @@ label process_object_click(func_name, obj_name_source, obj_data_source):
     $ interface_blocked_flag = True
     $ screenActionHappened = False
     $ act = obj_data["action"]
-    call process_hooks(obj_name, api_scene_name)
+    call process_hooks(obj_name, api_scene_name) from _call_process_hooks_10
     if _return != False:
-        call expression func_name
+        call expression func_name from _call_expression_1
         if _return != False:
             $ scene_refresh_flag = True
         else:
@@ -357,7 +357,7 @@ label process_object_click(func_name, obj_name_source, obj_data_source):
 #        $ dialogue_active_flag = False
     $ show_scene_loop_flag = True
     $ parse_transition_flag = False
-    call remove_dialogue()
+    call remove_dialogue() from _call_remove_dialogue
     return
 #    jump show_scene
 
@@ -397,9 +397,9 @@ label process_object_click_alternate_action(idx, actions_list, click_label, name
 #    call expression func_name pass (name, data)
     $ obj_name = name
     $ obj_data = data
-    call process_hooks(obj_name, api_scene_name)
+    call process_hooks(obj_name, api_scene_name) from _call_process_hooks_11
     if _return != False:
-        call expression func_name
+        call expression func_name from _call_expression_2
         if _return != False:
             $ scene_refresh_flag = True
         else:
@@ -410,7 +410,7 @@ label process_object_click_alternate_action(idx, actions_list, click_label, name
     $ interface_blocked_flag = False
     $ show_scene_loop_flag = True
     $ parse_transition_flag = False
-    call remove_dialogue()
+    call remove_dialogue() from _call_remove_dialogue_1
     return
 #    jump show_scene
 #    return
@@ -434,9 +434,9 @@ label process_object_click_alternate_inventory(idx, inventory_data, click_label,
     $ interface_blocked_flag = True
     $ act = data["action"]
     if shortFunction == False:
-        call expression func_name pass (name, inventory[idx], inventory_data, data)
+        call expression func_name pass (name, inventory[idx], inventory_data, data) from _call_expression_3
     else:
-        call expression func_name
+        call expression func_name from _call_expression_4
     $ interface_blocked_flag = False
     if _return != False:
         $ scene_refresh_flag = True

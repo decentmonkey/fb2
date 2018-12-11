@@ -35,7 +35,7 @@ label street_rich_hotel_teleport:
                 mt "Я доказала этой сучке на рецепшине что Я - ЛЕДИ!"
                 "И не хочу портить впечатление."
             return
-            call change_scene("rich_hotel_reception")
+            call change_scene("rich_hotel_reception") from _call_change_scene_108
         return
     return
 label street_rich_hotel_environment:

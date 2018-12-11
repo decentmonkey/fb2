@@ -6,12 +6,12 @@ label Fred_Life_init:
     return
 
 label Fred_Life_day:
-    call process_hooks("Fred_Life_day", "global")
+    call process_hooks("Fred_Life_day", "global") from _call_process_hooks_8
     return True
 
 
 label Fred_Life_evening:
-    call process_hooks("Fred_Life_evening", "global")
+    call process_hooks("Fred_Life_evening", "global") from _call_process_hooks_9
     return True
 
 label Fred_Life_day1:

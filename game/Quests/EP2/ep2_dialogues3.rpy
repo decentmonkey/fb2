@@ -67,7 +67,7 @@ label monica_dick_office_dialogue1a:
         reception_secretary "Он и Мисс Виктория куда-то уехали."
 
     $ autorun_to_object("monica_dick_office_dialogue1b")
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_23
     return False
 
 label monica_dick_office_dialogue1b:
@@ -127,7 +127,7 @@ label monica_dick_dialogue1a:
     img 6184
     with fade
     mt "Вот и тюфяк... Надеюсь в этот раз получится лучше..."
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_24
     return
 label monica_dick_dialogue1:
     #Моника говорит с Диком в кабинете
@@ -221,7 +221,7 @@ label monica_dick_dialogue1:
     label .local1:
         menu:
             "Приставать к Дику. (low corruption, required [monicaTryToDickBlowjobRequiredCorruption]) (disabled)" if corruption < monicaTryToDickBlowjobRequiredCorruption:
-                call low_corruption(monicaTryToDickBlowjobRequiredCorruption)
+                call low_corruption(monicaTryToDickBlowjobRequiredCorruption) from _call_low_corruption
                 jump local1
             "Приставать к Дику. (corruption)" if corruption >= monicaTryToDickBlowjobRequiredCorruption:
                 #corruption check!!!
@@ -597,7 +597,7 @@ label monica_dick_secretary_dialogue4a:
     if dickDoorBlockedDay == day:
         mt "(хмык)"
     else:
-        call monica_dick_secretary_dialogue4()
+        call monica_dick_secretary_dialogue4() from _call_monica_dick_secretary_dialogue4
     return False
 
 label monica_dick_secretary_dialogue4:

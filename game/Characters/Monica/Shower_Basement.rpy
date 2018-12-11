@@ -10,7 +10,7 @@ label basement_shower_interact:
         "Она бы запретила и этот душ, но я могу принимать его пока она не видит..."
         return
     if act == "h":
-        call basement_shower_use1()
+        call basement_shower_use1() from _call_basement_shower_use1
         return
     return
 
@@ -21,7 +21,7 @@ label basement_toilet_interact:
         "Уверена она бы и это запретила."
         return
     if act == "h":
-        call basement_toilet_use1()
+        call basement_toilet_use1() from _call_basement_toilet_use1
         return
     return
 
@@ -78,7 +78,7 @@ label basement_shower_use1:
     $ monicaLastShowerDay = day
     $ monicaLastShowerDayTime = day_time
     $ restore_music()
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_28
 
     return
 
@@ -134,6 +134,6 @@ label basement_toilet_use1:
     $ monicaLastPissedDay = day
     $ monicaLastPissedDayTime = day_time
     $ restore_music()
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_29
 
     return

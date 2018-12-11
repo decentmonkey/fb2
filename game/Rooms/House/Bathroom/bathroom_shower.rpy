@@ -1,7 +1,7 @@
 label bathroom_shower:
     $ print "enter_bathroom_shower"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_16
 
     $ scene_image = "scene_Bathroom_Shower"
     return

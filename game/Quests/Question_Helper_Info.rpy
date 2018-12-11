@@ -10,7 +10,7 @@ label question_helper_hairdye:
         "Продолжить игру.":
             pass
 
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_30
 #    help "Help!"
     return
 
@@ -42,7 +42,7 @@ label question_helper_laundry:
             help "Убрать мусор. Затем применить поочереди платье и утюг, чтобы погладить."
         "Продолжить игру.":
             pass
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_31
     return
 
 label question_gas_trader1:
@@ -53,7 +53,7 @@ label question_gas_trader1:
             help "Кассир за дверью."
         "Продолжить игру.":
             pass
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_32
     return
 
 label question_gas_trader2:
@@ -70,7 +70,7 @@ label question_gas_trader2:
             help "Разбить дорогую бутылку вина."
         "Продолжить игру.":
             pass
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_33
     return
 
 label question_cloth_shop_dick_buy_dress:
@@ -93,7 +93,7 @@ label question_cloth_shop_dick_buy_dress:
             help "Нажать сюда чтобы примерить новое платье."
         "Продолжить игру.":
             pass
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_34
     return
 
 label question_hostel_perry_dress:

@@ -44,13 +44,13 @@ label monica_office_secretary_init:
 
 label monica_office_secretary_teleport:
     if obj_name == "Teleport_Monica_Office_Entrance":
-        call change_scene("monica_office_entrance", "Fade_long", "snd_lift")
+        call change_scene("monica_office_entrance", "Fade_long", "snd_lift") from _call_change_scene_131
         return
     if obj_name == "Teleport_Monica_Office_Cabinet":
-        call change_scene("monica_office_cabinet")
+        call change_scene("monica_office_cabinet") from _call_change_scene_132
         return
     if obj_name == "Teleport_Monica_Office_Photostudio":
-        call change_scene("monica_office_photostudio")
+        call change_scene("monica_office_photostudio") from _call_change_scene_133
         return
 
     return
@@ -82,7 +82,7 @@ label monica_office_secretary_environment:
             "А жаль, я бы с удовольствием съела что-нибудь!"
 
         if obj_data["action"] == "w":
-            call change_scene("monica_office_secretary_teatable")
+            call change_scene("monica_office_secretary_teatable") from _call_change_scene_134
             return
 
     if obj_name == "Secretary":

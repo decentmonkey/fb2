@@ -1,7 +1,7 @@
 label bedroom2:
     $ print "enter_bedroom2"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_23
 
     $ scene_image = "scene_Bedroom2[day_suffix]"
     music Mandeville
@@ -37,9 +37,9 @@ label bedroom2_init:
 
 label bedroom2_teleport:
     if obj_name == "Teleport_Bedroom1":
-        call change_scene("bedroom1")
+        call change_scene("bedroom1") from _call_change_scene_176
     if obj_name == "Teleport_Floor2":
-        call change_scene("floor2")
+        call change_scene("floor2") from _call_change_scene_177
     return
 
 label bedroom2_environment:

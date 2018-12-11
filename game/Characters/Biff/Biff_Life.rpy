@@ -8,12 +8,12 @@ label Biff_Life_init:
     return
 
 label Biff_Life_day:
-    call process_hooks("Biff_Life_day", "global")
+    call process_hooks("Biff_Life_day", "global") from _call_process_hooks
     return True
 
 
 label Biff_Life_evening:
-    call process_hooks("Biff_Life_evening", "global")
+    call process_hooks("Biff_Life_evening", "global") from _call_process_hooks_1
     return True
 
 label Biff_Life_day1:

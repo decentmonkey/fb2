@@ -49,7 +49,7 @@ label map_show(car=False):
 
 label map_close:
     $ hud_preset_current = map_source_scene_hud_preset
-    call change_scene(map_source_scene, "Fade", "open_map")
+    call change_scene(map_source_scene, "Fade", "open_map") from _call_change_scene_86
     return
 
 label map:
@@ -57,7 +57,7 @@ label map:
     $ scene_caption = ""
     $ scene_image = "scene_Map" + day_suffix
 
-    call define_hudpresets()
+    call define_hudpresets() from _call_define_hudpresets_1
 
     if hud_presets[hud_preset_current]["display_closemap"] == True:
         $ add_object_to_scene("Close", {"type" : 2, "img_overlay": "map_close" + res.suffix, "base":"map_close_hover" + res.suffix, "click" : "map_environment", "actions" : "l", "zorder":10, "xsprite":1839, "ysprite":17})
@@ -85,11 +85,11 @@ label map_environment:
         call map_close() from _call_map_close
         return
     if obj_name == "Teleport_" + map_scene:
-        call map_close()
+        call map_close() from _call_map_close_1
         return
-    call process_hooks("map_teleport", "global") #хук перед телепортом из карты
+    call process_hooks("map_teleport", "global") from _call_process_hooks_12 #хук перед телепортом из карты
     if _return == False: #если отмена, то закрываем карту
-        call map_close()
+        call map_close() from _call_map_close_2
         return
 
     if movingByCar == False and bFredFollowingMonica == True:
@@ -102,13 +102,13 @@ label map_environment:
 
     if obj_name == "Teleport_House":
         if teleportHomeFredBlowjobFlag == True:
-            call afterJailFredDialogue3()
-            call process_drive_teleport("House", "street_house_main_yard")
+            call afterJailFredDialogue3() from _call_afterJailFredDialogue3
+            call process_drive_teleport("House", "street_house_main_yard") from _call_process_drive_teleport
             return
         if gameStage == 2 or gameStage == 3:
-            call process_drive_teleport("House", "street_house_outside")
+            call process_drive_teleport("House", "street_house_outside") from _call_process_drive_teleport_4
             return
-        call process_drive_teleport("House", "street_house_main_yard")
+        call process_drive_teleport("House", "street_house_main_yard") from _call_process_drive_teleport_5
         return
     if obj_name == "Teleport_Monica_Office":
         if mapSubstMonicaOfficeToPolice == True:
@@ -137,32 +137,32 @@ label map_environment:
         return
     if obj_name == "Teleport_Cloth_Shop":
         if mapSubstClothingShopToStreetCorner == False:
-            call process_drive_teleport("Cloth_Shop", "street_cloth_shop")
+            call process_drive_teleport("Cloth_Shop", "street_cloth_shop") from _call_process_drive_teleport_6
             return
         else:
             $ obj_name = "Teleport_Street_Corner"
             $ map_objects["Teleport_Street_Corner"]["state"] = "visible"
             $ mapSubstClothingShopToStreetCorner = False
     if obj_name == "Teleport_Rich_Hotel":
-        call process_drive_teleport("Rich_Hotel", "street_rich_hotel")
+        call process_drive_teleport("Rich_Hotel", "street_rich_hotel") from _call_process_drive_teleport_7
         return
     if obj_name == "Teleport_Fitness":
-        call process_drive_teleport("Fitness", "street_fitness")
+        call process_drive_teleport("Fitness", "street_fitness") from _call_process_drive_teleport_8
         return
     if obj_name == "Teleport_Bank":
-        call process_drive_teleport("Bank", "street_bank")
+        call process_drive_teleport("Bank", "street_bank") from _call_process_drive_teleport_9
         return
     if obj_name == "Teleport_Steve_Office":
-        call process_drive_teleport("Steve_Office", "street_steve_office")
+        call process_drive_teleport("Steve_Office", "street_steve_office") from _call_process_drive_teleport_10
         return
     if obj_name == "Teleport_Street_Corner":
-        call process_drive_teleport("Street_Corner", "street_corner")
+        call process_drive_teleport("Street_Corner", "street_corner") from _call_process_drive_teleport_11
         return
     if obj_name == "Teleport_Hostel2":
-        call process_drive_teleport("Hostel2", "hostel_street2")
+        call process_drive_teleport("Hostel2", "hostel_street2") from _call_process_drive_teleport_12
         return
     if obj_name == "Teleport_Police":
-        call process_drive_teleport("Police", "street_police")
+        call process_drive_teleport("Police", "street_police") from _call_process_drive_teleport_13
         return
     m "drive!"
     return
@@ -185,7 +185,7 @@ label process_drive_teleport(in_target_map_scene, in_target_scene):
             return
     else:
         $ mapChangedFlag = True
-        call start_walk_direct()
+        call start_walk_direct() from _call_start_walk_direct
     $ mapChangedFlag = True
     return
 

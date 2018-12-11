@@ -1,7 +1,7 @@
 label basement_laundry:
     $ print "enter_basement_laundry"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_22
 
     $ scene_image = "scene_Laundry1"
 
@@ -38,35 +38,35 @@ label basement_laundry_init:
 
 label basement_laundry_teleport:
     if obj_name == "Teleport_Basement_Pool":
-        call change_scene("basement_pool")
+        call change_scene("basement_pool") from _call_change_scene_153
         return
     if obj_name == "Teleport_Basement_Hole":
         $ basementHoleIncomingDirection = "Laundry"
-        call change_scene("basement_hole")
+        call change_scene("basement_hole") from _call_change_scene_154
         return
     if obj_name == "Teleport_Basement_Ironing_Board":
-        call change_scene("basement_laundry2")
+        call change_scene("basement_laundry2") from _call_change_scene_155
         return
     if laundryBoxesActive == False:
         m "Мне ничего не надо в этом ящике."
         return
     if obj_name == "Teleport_Box1":
-        call change_scene("basement_laundry_box1", "Fade", "desk_open")
+        call change_scene("basement_laundry_box1", "Fade", "desk_open") from _call_change_scene_156
         return
     if obj_name == "Teleport_Box2":
-        call change_scene("basement_laundry_box2", "Fade", "desk_open")
+        call change_scene("basement_laundry_box2", "Fade", "desk_open") from _call_change_scene_157
         return
     if obj_name == "Teleport_Box3":
-        call change_scene("basement_laundry_box3", "Fade", "desk_open")
+        call change_scene("basement_laundry_box3", "Fade", "desk_open") from _call_change_scene_158
         return
     if obj_name == "Teleport_Box4":
-        call change_scene("basement_laundry_box4", "Fade", "desk_open")
+        call change_scene("basement_laundry_box4", "Fade", "desk_open") from _call_change_scene_159
         return
     if obj_name == "Teleport_Box5":
-        call change_scene("basement_laundry_box5", "Fade", "desk_open")
+        call change_scene("basement_laundry_box5", "Fade", "desk_open") from _call_change_scene_160
         return
     if obj_name == "Teleport_Box6":
-        call change_scene("basement_laundry_box6", "Fade", "desk_open")
+        call change_scene("basement_laundry_box6", "Fade", "desk_open") from _call_change_scene_161
         return
     return
 

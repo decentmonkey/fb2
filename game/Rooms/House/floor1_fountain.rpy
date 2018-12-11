@@ -1,7 +1,7 @@
 label floor1_fountain:
     $ print "enter_floor1_fountain"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_1
 
     $ scene_image = "scene_Floor1_Fountain[day_suffix]"
     music snd_fountain_music
@@ -27,7 +27,7 @@ label floor1_fountain_init:
 
 label floor1_fountain_teleport:
     if obj_name == "Teleport_Floor1":
-        call change_scene("floor1")
+        call change_scene("floor1") from _call_change_scene_18
         return
 
 label floor1_fountain_environment:

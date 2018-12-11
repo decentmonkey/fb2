@@ -2,7 +2,7 @@
 label whores_place_shawarma:
     $ print "enter_whores_place_shawarma"
     $ miniMapData = []
-    call miniMapHostelGenerate()
+    call miniMapHostelGenerate() from _call_miniMapHostelGenerate_5
 
     $ sceneIsStreet = True
     if kebabWorkInProgress == True:
@@ -50,19 +50,19 @@ label whores_place_shawarma_init:
 
 label whores_place_shawarma_teleport2:
     if obj_name == "Teleport_Clothing_Shop":
-        call change_scene("street_cloth_shop", "Fade_long", "highheels_run2")
+        call change_scene("street_cloth_shop", "Fade_long", "highheels_run2") from _call_change_scene_36
         return
     if obj_name == "Teleport_Street_Hostel":
-        call change_scene("hostel_street", "Fade", "highheels_run2")
+        call change_scene("hostel_street", "Fade", "highheels_run2") from _call_change_scene_37
         return
     if obj_name == "Teleport_Whores_Place":
-        call change_scene("whores_place", "Fade", "highheels_run2")
+        call change_scene("whores_place", "Fade", "highheels_run2") from _call_change_scene_38
         return
 
     return
 label whores_place_shawarma_environment2:
     if obj_name == "Monica":
-        call hostelAfterJail_street_dialogue3()
+        call hostelAfterJail_street_dialogue3() from _call_hostelAfterJail_street_dialogue3
         return
     if obj_name == "Shawarma_Stall":
         mt "Дешевый ларек, но пахнет оттуда вкусно..."
@@ -71,5 +71,5 @@ label whores_place_shawarma_environment2:
         if obj_data["action"] == "l":
             mt "Грязный продавец. Я не выношу даже его вида! Фу!"
         if obj_data["action"] == "t":
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _call_refresh_scene_fade_15
         return

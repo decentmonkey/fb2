@@ -1,7 +1,7 @@
 label floor2_mirrors:
     $ print "enter_floor2_mirrors"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_21
 
     $ scene_image = "scene_Floor2_Mirrors_no_hair_dye[day_suffix]"
     music houseMusic
@@ -30,7 +30,7 @@ label floor2_mirrors_init:
 
 label floor2_mirrors_teleport:
     if obj_name == "Teleport_Floor2":
-        call change_scene("floor2")
+        call change_scene("floor2") from _call_change_scene_151
         return
 
 label floor2_mirrors_environment2:

@@ -36,7 +36,7 @@ label rich_hotel_event_tables_init:
 
 label rich_hotel_event_tables_teleport:
     if obj_name == "Teleport_Rich_Hotel_Hall":
-        call change_scene("rich_hotel_event_hall")
+        call change_scene("rich_hotel_event_hall") from _call_change_scene_70
         return
     return
 label rich_hotel_event_tables_environment:
