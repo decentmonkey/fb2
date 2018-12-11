@@ -70,3 +70,21 @@ translate english monica_gosleep1a_1a9716fb:
     # mt "Я сегодня ничего не ела! Лечь спать голодной?"
     mt "I didn't eat anything today! Go to bed hungry?"
 
+# TODO: Translation updated at 2018-12-11 14:48
+
+# game/Characters/Monica/Bed_Basement.rpy:195
+translate english basement_monica_hungry_cant_sleep_e08d40f0:
+
+    # mt "{b}Я не ела{/b} уже третий день!"
+    # "Я не могу лечь спать в таком состоянии!"
+    # "Я ХОЧУ ЕСТЬ!!!"
+    # "..."
+    # mt "Может быть я смогу что-то найти на заправке?"
+    # mt "Или у кого-нибудь занять деньги на еду?"
+    mt "{b}Я не ела{/b} уже третий день!"
+    "Я не могу лечь спать в таком состоянии!"
+    "Я ХОЧУ ЕСТЬ!!!"
+    "..."
+    mt "Может быть я смогу что-то найти на заправке?"
+    mt "Или у кого-нибудь занять деньги на еду?"
+
