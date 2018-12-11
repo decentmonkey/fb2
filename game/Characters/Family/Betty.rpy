@@ -15,7 +15,7 @@ label bettyInteract1:
     if act == "t":
         if bettyLocation == "Bedroom1":
             if day_time == "day":
-                call bettyDialogue1() from _call_bettyDialogue1
+                call bettyDialogue1()
                 return
     return
 
@@ -36,7 +36,7 @@ label bettyGetTodayPanties:
         bettyPantiesCurrentList.append(bettyPantiesCurrent)
         print bettyPantiesCurrentList
 
-    call bettyGetTodayPanties() from _call_bettyGetTodayPanties
+    call bettyGetTodayPanties()
     return
 
 label bettyProgressLevelUp1:

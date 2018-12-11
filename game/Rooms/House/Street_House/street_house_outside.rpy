@@ -4,7 +4,7 @@ label street_house_outside:
     $ print "enter_street_house_outside"
     $ miniMapData = []
     if miniMapTurnedOff == False:
-        call miniMapHouseGenerate() from _call_miniMapHouseGenerate_17
+        call miniMapHouseGenerate()
 
     $ sceneIsStreet = True
     $ scene_image = "scene_Street_House_Outside[day_suffix]"
@@ -24,10 +24,10 @@ label street_house_outside_init:
 
 label street_house_outside_teleport:
     if obj_name == "Teleport_House_Gate":
-        call change_scene("street_house_gate") from _call_change_scene_143
+        call change_scene("street_house_gate")
         return
     if obj_name == "Teleport_House_Outside_Outside":
-        call map_show() from _call_map_show_1
+        call map_show()
         return
     return
 label street_house_outside_environment:

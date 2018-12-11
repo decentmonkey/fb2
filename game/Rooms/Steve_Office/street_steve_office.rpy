@@ -32,7 +32,7 @@ label street_steve_office_teleport:
             "Я разберусь с ним позже."
             "Сейчас мне не до того..."
             return
-            call change_scene("steve_office_secretary", "Fade_long", "snd_lift") from _call_change_scene_14
+            call change_scene("steve_office_secretary", "Fade_long", "snd_lift")
             return
     return
 label street_steve_office_environment:

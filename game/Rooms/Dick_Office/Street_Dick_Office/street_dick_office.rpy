@@ -28,7 +28,7 @@ label street_dick_office_teleport:
 #            mt "У меня нет галстука для Дика, что мне там делать... (хмык)"
 #            return
             $ dickReceptionMonicaSuffix = 1
-            call change_scene("dick_office_entrance") from _call_change_scene_2
+            call change_scene("dick_office_entrance")
             return
     return
 label street_dick_office_environment:

@@ -6,11 +6,11 @@ label Melanie_Life_init:
     return
 
 label Melanie_Life_day:
-    call process_hooks("Melanie_Life_day", "global") from _call_process_hooks_24
+    call process_hooks("Melanie_Life_day", "global")
     return True
 
 label Melanie_Life_evening:
-    call process_hooks("Melanie_Life_evening", "global") from _call_process_hooks_25
+    call process_hooks("Melanie_Life_evening", "global")
     return True
 
 label Melanie_Life_day1:

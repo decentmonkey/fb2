@@ -28,10 +28,10 @@ label dick_office_entrance_init:
 
 label dick_office_entrance_teleport:
     if obj_name == "Teleport_Inside":
-        call change_scene("dick_office_hall1", "Fade_long", "snd_lift") from _call_change_scene_94
+        call change_scene("dick_office_hall1", "Fade_long", "snd_lift")
         return
     if obj_name == "Teleport_Street":
-        call change_scene("street_dick_office") from _call_change_scene_95
+        call change_scene("street_dick_office")
     return
 label dick_office_entrance_environment:
     if obj_name == "Monica":

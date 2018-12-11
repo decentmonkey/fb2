@@ -35,7 +35,7 @@ label citizen7_dialogue:
                     # здесь будет вставка новых событий
                     if rand(0, citizen7_refuse_probability) > 0:
                         imgr Dial_Citizen_7_2
-                        call reduce_flyers() from _call_reduce_flyers_11
+                        call reduce_flyers()
                         imgr Dial_Citizen_7_2
                         citizen7 "Я закончил. Флаер? Да давайте уже..."
                         imgr Dial_Citizen_7_3

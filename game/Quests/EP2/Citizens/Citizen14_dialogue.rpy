@@ -18,7 +18,7 @@ label citizen14_dialogue:
                     if rand(0, citizen14_refuse_probability) > 0:
                         imgr Dial_Citizen_14_2
                         citizen14 "Флаер?..."
-                        call reduce_flyers() from _call_reduce_flyers_5
+                        call reduce_flyers()
                         "Хорошо... Ик!"
                         imgr Dial_Citizen_14_3
                         citizen14 "Но ты же не просто так подошла ко мне!"

@@ -24,7 +24,7 @@ label monica_office_secretary_teatable_init:
 
 label monica_office_secretary_teatable_teleport:
     if obj_name == "Teleport_Monica_Office_Secretary":
-        call change_scene("monica_office_secretary") from _call_change_scene
+        call change_scene("monica_office_secretary")
         return
     return
 label monica_office_secretary_teatable_environment:
@@ -48,7 +48,7 @@ label monica_office_secretary_teatable_environment:
         mt "Ух-ты!
         Маленький слоник!"
         "Как это мило!..."
-        call bitch(-3, "secretary_elephant") from _call_bitch
+        call bitch(-3, "secretary_elephant")
     return
 
 

@@ -3,7 +3,7 @@ default basementBedroom1MonicaSuffix = 2
 label basement_bedroom1:
     $ print "enter_basement_bedroom1"
     $ miniMapData = []
-    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_21
+    call miniMapHouseGenerate()
 
     $ scene_image = "scene_basement_bedroom1"
 
@@ -31,10 +31,10 @@ label basement_bedroom1_init:
 
 label basement_bedroom1_teleport:
     if obj_name == "Teleport_Basement_Hole":
-        call change_scene("basement_hole") from _call_change_scene_161
+        call change_scene("basement_hole")
         return
     if obj_name == "Teleport_Basement_Bedroom2":
-        call change_scene("basement_bedroom2") from _call_change_scene_162
+        call change_scene("basement_bedroom2")
         return
     return
 
@@ -44,7 +44,7 @@ label basement_bedroom1_environment:
             mt "В этот старый шкаф можно повесить одежду..."
             "Если это можно назвать одеждой..."
         if act == "h":
-            call wardrobeBasement() from _call_wardrobeBasement
+            call wardrobeBasement()
             return
         return
 
@@ -59,7 +59,7 @@ label basement_bedroom1_environment:
             mt "Старый шкаф..."
         if act == "w":
             $ basementBedroom2CupboardReturnScene = "basement_bedroom1"
-            call change_scene("basement_bedroom2_cupboard") from _call_change_scene_163
+            call change_scene("basement_bedroom2_cupboard")
             return
 
     if obj_name == "Picture1" or obj_name == "Picture2" or obj_name == "Picture3" or obj_name == "Picture4" or obj_name == "Picture5" or obj_name == "Picture6" or obj_name == "Picture7" or obj_name == "Picture8" or obj_name == "Picture9":
@@ -72,6 +72,6 @@ label basement_bedroom1_environment:
             mt "Этот старый яркий пестрый стол пытается скрасить уныние этой каморки..."
             "Тщетно..."
         if act == "w":
-            call change_scene("basement_bedroom_table") from _call_change_scene_164
+            call change_scene("basement_bedroom_table")
             return
     return

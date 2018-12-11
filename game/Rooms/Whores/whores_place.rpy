@@ -3,7 +3,7 @@ default whoresPlacePreviousLocation = ""
 label whores_place:
     $ print "enter_whores_place"
     $ miniMapData = []
-    call miniMapHostelGenerate() from _call_miniMapHostelGenerate_5
+    call miniMapHostelGenerate()
 
     $ sceneIsStreet = True
 
@@ -48,13 +48,13 @@ label whores_place_init:
 
 label whores_place_teleport2:
     if obj_name == "Teleport_Street1":
-        call change_scene("whores_place_street1", "Fade", "highheels_run2") from _call_change_scene_91
+        call change_scene("whores_place_street1", "Fade", "highheels_run2")
         return
     if obj_name == "Teleport_Shawarma":
-        call change_scene("whores_place_shawarma", "Fade", "highheels_run2") from _call_change_scene_92
+        call change_scene("whores_place_shawarma", "Fade", "highheels_run2")
         return
     if obj_name == "Teleport_Hostel_Street2":
-        call change_scene("hostel_street2", "Fade", "highheels_run2") from _call_change_scene_93
+        call change_scene("hostel_street2", "Fade", "highheels_run2")
         return
     return
 label whores_place_environment2:

@@ -9,7 +9,7 @@ label Bardie_Life_init:
     return
 
 label Bardie_Life_day:
-    call process_hooks("Bardie_Life_day", "global") from _call_process_hooks_14
+    call process_hooks("Bardie_Life_day", "global")
     return True
 
 label Bardie_Life_Day1:
@@ -24,7 +24,7 @@ label Bardie_Life_Day1:
     return
 
 label Bardie_Life_evening:
-    call process_hooks("Bardie_Life_evening", "global") from _call_process_hooks_15
+    call process_hooks("Bardie_Life_evening", "global")
     return True
 
 label Bardie_Life_evening1:
@@ -51,5 +51,5 @@ label Bardie_Life_Monica_Cleaning_Start:
     return
 
 label Bardie_Life_Monica_Cleaning_End:
-    call Bardie_Life_day() from _call_Bardie_Life_day
+    call Bardie_Life_day()
     return

@@ -30,7 +30,7 @@ label street_police_init:
 #                            $ contrast_adjustment = 1.3
 
 label street_police_teleport2:
-    call map_show() from _call_map_show
+    call map_show()
     return
 label street_police_environment2:
     if obj_name == "Monica":
@@ -43,7 +43,7 @@ label street_police_environment2:
             "Страшное место..."
             "Мне лучше уйти отсюда, скорее!!!"
         if act == "w":
-            call change_scene("police_entrance") from _call_change_scene_32
+            call change_scene("police_entrance")
 
     if obj_name == "Bench1" or obj_name == "Bench2":
         mt "Я не буду сидеть на скамейке около этого страшного места!"

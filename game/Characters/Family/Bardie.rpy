@@ -7,13 +7,13 @@ label bardieInteract1:
         return
     if act == "t":
         if scene_name == "street_house_main_yard":
-            call bardie_comment5() from _call_bardie_comment5
+            call bardie_comment5()
             return
         if scene_name == "bedroom_bardie":
             if day_time == "day":
-                call bardieDialogue1() from _call_bardieDialogue1
+                call bardieDialogue1()
             else:
-                call bardie_comment5() from _call_bardie_comment5_1
+                call bardie_comment5()
             return
     return
 #        if bardieLocation == "BedroomBardie":
@@ -34,15 +34,15 @@ label bardieMonicaCleaningInteract:
         return False
     if act == "t":
         if scene_name == "floor1":
-            call cleaning_bardie_comment1() from _call_cleaning_bardie_comment1
+            call cleaning_bardie_comment1()
         if scene_name == "bedroom_bardie":
-            call cleaning_bardie_comment2() from _call_cleaning_bardie_comment2
+            call cleaning_bardie_comment2()
         if scene_name == "bedroom_second":
-            call cleaning_bardie_comment3() from _call_cleaning_bardie_comment3
+            call cleaning_bardie_comment3()
         $ move_object("Bardie", "empty")
         $ monicaCleaningObject = "" # Ставим Монику в исходное положение стоя
         $ add_char_progress("Bardie", bardieCleaningUpskirtTry, "cleaning_upskirt_day " + str(day))
-        call refresh_scene_fade() from _call_refresh_scene_fade_1
+        call refresh_scene_fade()
         return False
     return
 
@@ -66,21 +66,21 @@ label bardieStairsFloor1Hook1:
     if cloth_type != "Governess":
         bardie "Моника! Покажи трусики!"
         return False
-    call bardie_comment4() from _call_bardie_comment4
+    call bardie_comment4()
     $ add_hook("exit_scene", "bardieStairsLeaveOnMonicaLocationExit", scene="floor1_stairs")
     return False
 
 label bardieCatchAtStaitsMinimapHook:
     if target_scene_name == "basement_bedroom2" and get_active_objects("Bardie", scene="floor1_stairs") != False and cloth_type == "Governess":
-        call bardie_comment4() from _call_bardie_comment4_1
-        call change_scene("floor1_stairs", "Fade", False) from _call_change_scene_4
+        call bardie_comment4()
+        call change_scene("floor1_stairs", "Fade", False)
         $ add_hook("exit_scene", "bardieStairsLeaveOnMonicaLocationExit", scene="floor1_stairs")
         return False
     return True
 
 label bardieCatchAtStaitsTeleportPoolHook:
     if get_active_objects("Bardie", scene="floor1_stairs") != False and cloth_type == "Governess":
-        call bardie_comment4() from _call_bardie_comment4_2
+        call bardie_comment4()
         $ add_hook("exit_scene", "bardieStairsLeaveOnMonicaLocationExit", scene="floor1_stairs")
         return False
     return

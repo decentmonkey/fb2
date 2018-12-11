@@ -26,7 +26,7 @@ label police_entrance_teleport:
         "Мне надо быстрее убраться из этого страшного места!"
         return
     if obj_name == "Telepost_Street_Police":
-        call change_scene("street_police") from _call_change_scene_109
+        call change_scene("street_police")
         return
 
     return

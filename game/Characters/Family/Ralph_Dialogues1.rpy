@@ -126,6 +126,6 @@ label ralphDialogue2:
     $ restore_music()
     $ remove_hook()
 
-    call refresh_scene_fade() from _call_refresh_scene_fade
+    call refresh_scene_fade()
 
     return False

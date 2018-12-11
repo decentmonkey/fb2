@@ -20,7 +20,7 @@ label show_scene:
 
 label show_scene_now:
     if define_version_current != define_version:
-        call define_autorun() from _call_define_autorun
+        call define_autorun()
 #    $ print "pause_enter"
 #    $ print pause_enter
 #    $ print "pause_exit"
@@ -65,7 +65,7 @@ label show_scene_now:
     $ scene_refresh_flag = False
     show screen show_image_screen(scene_image_file)
     $ image_screen_scene_flag = True
-    call map_street_scene_visibility_check() from _call_map_street_scene_visibility_check
+    call map_street_scene_visibility_check()
     show screen hud_screen(hud_presets[hud_preset_current])
     show screen hud_minimap(miniMapData)
     if rain == True and sceneIsStreet == True:
@@ -103,8 +103,8 @@ label show_scene_now:
 
     if refreshed_scene_name != scene_name:
         $ refreshed_scene_name = scene_name
-        call process_hooks("enter_scene", scene_name) from _call_process_hooks_20 #хук вызывается после входа на сцену и отрисовки (как autorun)
-        call remove_dialogue() from _call_remove_dialogue_2
+        call process_hooks("enter_scene", scene_name) #хук вызывается после входа на сцену и отрисовки (как autorun)
+        call remove_dialogue()
     if scene_refresh_flag == True:
         jump show_scene
 
@@ -112,7 +112,7 @@ label show_scene_now:
         $ autorunFunc = scenes_data["autorun"][scene_name]["scene"]
         $ del scenes_data["autorun"][scene_name]["scene"]
         show screen sprites_hover_dummy_screen()
-        call expression autorunFunc from _call_expression_7
+        call expression autorunFunc
 #        hide screen sprites_hover_dummy_screen
         $ scene_refresh_flag = True
         jump show_scene
@@ -134,7 +134,7 @@ label change_scene(new_scene_name, in_transition_name="Fade", in_sound_name="hig
     $ target_scene_parent = scene_get_parent(target_scene_name)
     $ _return = None
     if exitHookCalled == False:
-        call process_hooks("exit_scene", scene_name) from _call_process_hooks_21 #хук выхода со сцены
+        call process_hooks("exit_scene", scene_name) #хук выхода со сцены
         $ exitHookCalled = False
     if _return == False: #Если False, то прерываем смену сцены
         return
@@ -154,9 +154,9 @@ label change_scene(new_scene_name, in_transition_name="Fade", in_sound_name="hig
     $ scene_label = scenes_data["objects"][scene_name]["data"]["label"]
     $ api_scene_name = new_scene_name
 
-    call process_hooks("before_open", scene_name) from _call_process_hooks_22 #хук до инициализации сцены
-    call expression scene_label from _call_expression_8
-    call process_hooks("open", scene_name) from _call_process_hooks_23 #хук сразу после инициализации сцены
+    call process_hooks("before_open", scene_name) #хук до инициализации сцены
+    call expression scene_label
+    call process_hooks("open", scene_name) #хук сразу после инициализации сцены
     return
 
 label refresh_scene(fade_param = False):
@@ -166,18 +166,18 @@ label refresh_scene(fade_param = False):
     $ scene_refresh_flag = True
     $ show_scene_loop_flag = True
     $ lastSceneName = scene_name
-    call expression scene_name from _call_expression_9
+    call expression scene_name
     return
 
 label refresh_scene_fade():
     $ scene_transition = "Fade"
     $ lastSceneName = scene_name
-    call refresh_scene() from _call_refresh_scene_6
+    call refresh_scene()
     return
 label refresh_scene_fade_long():
     $ scene_transition = "Fade_long"
     $ lastSceneName = scene_name
-    call refresh_scene() from _call_refresh_scene_7
+    call refresh_scene()
     return
 
 label remove_dialogue():
@@ -191,11 +191,11 @@ label remove_dialogue():
 label after_load():
     $ refresh_list_files_forced()
     if episode < 2:
-        call start_saved_game() from _call_start_saved_game
+        call start_saved_game()
         return
     if game_version1_screen_ready_to_render == False:
         $ game_version1_screen_ready_to_render = True
-        call refresh_scene() from _call_refresh_scene_8
+        call refresh_scene()
     $ imagesSizesCache = {}
     $ scene_refresh_flag = True #???
     $ show_scene_loop_flag = True

@@ -1,7 +1,7 @@
 label whores_place_street1:
     $ print "enter_whores_place_street1"
     $ miniMapData = []
-    call miniMapHostelGenerate() from _call_miniMapHostelGenerate
+    call miniMapHostelGenerate()
 
     $ sceneIsStreet = True
     $ scene_image = "scene_street_Whores_Street1[day_suffix]"
@@ -39,10 +39,10 @@ label whores_place_street1_init:
 
 label whores_place_street1_teleport:
     if obj_name == "Teleport_Street_Corner":
-        call change_scene("street_corner", "Fade", "highheels_run2") from _call_change_scene_5
+        call change_scene("street_corner", "Fade", "highheels_run2")
         return
     if obj_name == "Teleport_Whores_Place":
-        call change_scene("whores_place", "Fade", "highheels_run2") from _call_change_scene_6
+        call change_scene("whores_place", "Fade", "highheels_run2")
         return
     return
 label whores_place_street1_environment:

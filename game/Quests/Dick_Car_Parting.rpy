@@ -8,7 +8,7 @@ label dick_meeting1_car_parting1:
     return
 
 label dick_meeting1_car_parting2:
-    call get_to_drive_dialogue_return_result() from _call_get_to_drive_dialogue_return_result
+    call get_to_drive_dialogue_return_result()
     if _return == False:
         return
     $ remove_objective("dick_meeting1_goto_car")
@@ -16,7 +16,7 @@ label dick_meeting1_car_parting2:
     $ richHotelReceptionDickEnabled = False
     $ photostudioEmpty = True
     $ dickMeeting1RestaurantPlanned = False
-    call get_into_car() from _call_get_into_car
+    call get_into_car()
     sound snd_car_turn_on
     img 1437
     with fadelong
@@ -55,7 +55,7 @@ label dick_meeting1_car_parting2:
     menu:
         "Выбросить его прямо здесь...":
             sound snd_car_engine
-            call bitch(5, "dickCarKickedOut") from _call_bitch_171
+            call bitch(5, "dickCarKickedOut")
             $ dickCarKickedOut = True
             img 1439
             m "Дик, ты правда думаешь что я буду тратить время чтобы отвозить тебя домой?"
@@ -83,12 +83,12 @@ label dick_meeting1_car_parting2:
             "Мистеру Дику надо срочно выйти!"
             imgr 1442
             fred "Конечно, Мэм!"
-            call process_change_map_location("Cloth_Shop") from _call_process_change_map_location
+            call process_change_map_location("Cloth_Shop")
             $ autorun_to_object("street_cloth_shop", "dick_meeting1_car_parting3")
-            call change_scene("street_cloth_shop", "Fade_long", "snd_car_engine") from _call_change_scene_85
+            call change_scene("street_cloth_shop", "Fade_long", "snd_car_engine")
         "Отвезти к офису...":
             sound snd_car_engine
-            call bitch(-2, "dickCarKickedOut") from _call_bitch_172
+            call bitch(-2, "dickCarKickedOut")
             img 1439
             m "Дик, ты правда думаешь что я буду тратить время чтобы отвозить тебя домой?"
             img 1438
@@ -110,9 +110,9 @@ label dick_meeting1_car_parting2:
             $ dickWaitingMonica4 = False
             $ bDickFollowingMonica = False
             $ monicaEnterCarLookingCharacter = "Fred"
-            call process_change_map_location("Dick_Office") from _call_process_change_map_location_1
+            call process_change_map_location("Dick_Office")
             $ autorun_to_object("street_dick_office", "dick_meeting1_car_parting3")
-            call change_scene("street_dick_office", "Fade_long", "snd_car_engine") from _call_change_scene_86
+            call change_scene("street_dick_office", "Fade_long", "snd_car_engine")
     return
 
 label dick_meeting1_car_parting3:
@@ -153,7 +153,7 @@ label dick_meeting1_car_parting4_fred_dialogue(target_scene):
         "Дик жирный урод!":
             sound snd_car_engine
             $ dickMonicaSaidToFredOffend = True
-            call bitch(2, "dickMonicaSaidToFredOffend") from _call_bitch_173
+            call bitch(2, "dickMonicaSaidToFredOffend")
 
             m "Вот ведь жирный урод!"
             "Испортил мне весь вечер своим присутствием."
@@ -179,7 +179,7 @@ label dick_meeting1_car_parting4_fred_dialogue(target_scene):
 
         "Дик облажался, но он старался...":
             sound snd_car_engine
-            call bitch(-2, "dickMonicaSaidToFredOffend") from _call_bitch_174
+            call bitch(-2, "dickMonicaSaidToFredOffend")
             m "Дурацкий вечер!"
             "Этот Дик..."
             "Ландо, хоть он и облажался, но он, похоже, старался угодить мне."
@@ -195,5 +195,5 @@ label dick_meeting1_car_parting4_fred_dialogue(target_scene):
             fred "Мы уж почти приехали, Мэм!"
     $ driverMode = 1
     $ autorun_to_object("street_house_main_yard", "monica_fred_day1_evening_dialogue")
-    call quest_house_monica_day1_evening_init() from _call_quest_house_monica_day1_evening_init
+    call quest_house_monica_day1_evening_init()
     return

@@ -1,7 +1,7 @@
 label floor2_stairs:
     $ print "enter_floor2_stairs"
     $ miniMapData = []
-    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_10
+    call miniMapHouseGenerate()
 
     $ scene_image = "scene_Floor2_Stairs"
     music houseMusic
@@ -25,10 +25,10 @@ label floor2_stairs_init:
 
 label floor2_stairs_teleport:
     if obj_name == "Teleport_Floor2":
-        call change_scene("floor2") from _call_change_scene_103
+        call change_scene("floor2")
         return
     if obj_name == "Teleport_Floor1_Stairs":
-        call change_scene("floor1_stairs", "Fade_long", "highheels_run2") from _call_change_scene_104
+        call change_scene("floor1_stairs", "Fade_long", "highheels_run2")
         return
     return
 

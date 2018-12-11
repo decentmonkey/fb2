@@ -27,7 +27,7 @@ label dick_office_secretary_init:
 
 label dick_office_secretary_teleport:
     if obj_name == "Teleport_Hall":
-        call change_scene("dick_office_hall1") from _call_change_scene_18
+        call change_scene("dick_office_hall1")
         return
     if obj_name == "Door":
         if act == "l":
@@ -35,7 +35,7 @@ label dick_office_secretary_teleport:
             return
 
         if act == "w":
-            call change_scene("dick_office_cabinet") from _call_change_scene_19
+            call change_scene("dick_office_cabinet")
         return
     return
 label dick_office_secretary_environment:

@@ -28,7 +28,7 @@ label citizen1_dialogue:
                         mt "(Вот козел...)"
                         imgr Dial_Citizen_2_2
                         imgl Dial_Monica_Sandwich_1
-                        call reduce_flyers() from _call_reduce_flyers
+                        call reduce_flyers()
                         citizen2 "А я возьму, давай свой флаер."
                         # на 3 раз будут они давать какие то задания ей
                         imgr Dial_Citizen_1_3

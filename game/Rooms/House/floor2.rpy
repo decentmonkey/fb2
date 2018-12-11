@@ -3,7 +3,7 @@ default floor2BettyPositionSuffix = 0
 label floor2:
     $ print "enter_floor2"
     $ miniMapData = []
-    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_7
+    call miniMapHouseGenerate()
 
     $ scene_image = "scene_Floor2_Evening"
 
@@ -42,16 +42,16 @@ label floor2_init:
 
 label floor2_teleport:
     if obj_name == "Teleport_Floor2_Stairs":
-        call change_scene("floor2_stairs") from _call_change_scene_79
+        call change_scene("floor2_stairs")
     if obj_name == "Teleport_Bedroom":
-        call change_scene("bedroom2") from _call_change_scene_80
+        call change_scene("bedroom2")
     if obj_name == "Teleport_Bathroom":
-        call change_scene("bathroom_bath") from _call_change_scene_81
+        call change_scene("bathroom_bath")
     if obj_name == "Teleport_BedroomBardie":
-        call change_scene("bedroom_bardie") from _call_change_scene_82
+        call change_scene("bedroom_bardie")
         return
     if obj_name == "Teleport_BedroomSecond":
-        call change_scene("bedroom_second") from _call_change_scene_83
+        call change_scene("bedroom_second")
         return
 
     return
@@ -79,7 +79,7 @@ label floor2_environment:
             return
 
         if obj_data["action"] == "w":
-            call change_scene("floor2_mirrors") from _call_change_scene_84
+            call change_scene("floor2_mirrors")
             return
 
 
@@ -95,6 +95,6 @@ label floor2_environment:
             "Этому ковру нужна химчистка!"
             return
         if act == "h":
-            call spot_monica_comment1() from _call_spot_monica_comment1
+            call spot_monica_comment1()
             return
     return

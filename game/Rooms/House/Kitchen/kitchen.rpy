@@ -3,7 +3,7 @@ default monicaKitchenForbidden = True
 label kitchen:
     $ print "enter_kitchen"
     $ miniMapData = []
-    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_14
+    call miniMapHouseGenerate()
 
     $ scene_image = "scene_Kitchen[day_suffix]"
     music Mandeville
@@ -40,17 +40,17 @@ label kitchen_init:
 
 label kitchen_teleport:
     if obj_name == "Teleport_Floor1":
-        call change_scene("floor1") from _call_change_scene_125
+        call change_scene("floor1")
         return
     if obj_name == "Teleport_Kitchen2":
-        call change_scene("kitchen2") from _call_change_scene_126
+        call change_scene("kitchen2")
         return
     if obj_name == "Teleport_Kitchen":
-        call change_scene("kitchen") from _call_change_scene_127
+        call change_scene("kitchen")
         return
 
 label kitchen_environment:
     if monicaKitchenForbidden == True:
-        call afterJailHouse_dialogue15a() from _call_afterJailHouse_dialogue15a_1
+        call afterJailHouse_dialogue15a()
         return
     return

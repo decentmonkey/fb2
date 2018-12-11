@@ -38,12 +38,12 @@ init python:
 
 
 label changeDayTime_day_hooks:
-    call process_hooks("change_time_day", "global") from _call_process_hooks_4
-    call process_hooks("day_" + str(week_day), "global_week_day") from _call_process_hooks_5
-    call process_hooks("day_" + str(day), "global_day") from _call_process_hooks_6
+    call process_hooks("change_time_day", "global")
+    call process_hooks("day_" + str(week_day), "global_week_day")
+    call process_hooks("day_" + str(day), "global_day")
     return
 label changeDayTime_evening_hooks:
-    call process_hooks("change_time_evening", "global") from _call_process_hooks_7
-    call process_hooks("day_" + str(week_day) + "_evening", "global_week_day") from _call_process_hooks_8
-    call process_hooks("day_" + str(day) + "_evening", "global_day") from _call_process_hooks_9
+    call process_hooks("change_time_evening", "global")
+    call process_hooks("day_" + str(week_day) + "_evening", "global_week_day")
+    call process_hooks("day_" + str(day) + "_evening", "global_day")
     return

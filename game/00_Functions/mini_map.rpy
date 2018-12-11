@@ -67,14 +67,14 @@ label miniMapRemoveDisabled(name):
 label miniMapHouseGenerateTeleport(name, minimapCell):
     $ target_scene_name = minimapCell["teleport_scene"]
     $ target_scene_parent = scene_get_parent(target_scene_name)
-    call process_hooks("exit_scene", scene_name) from _call_process_hooks_12
+    call process_hooks("exit_scene", scene_name)
     if _return == False:
-        call refresh_scene() from _call_refresh_scene_4
+        call refresh_scene()
         return
     $ exitHookCalled = True
-    call process_hooks("mimimap_teleport", "global") from _call_process_hooks_13 #хук до инициализации сцены
+    call process_hooks("mimimap_teleport", "global") #хук до инициализации сцены
     if _return == False:
-        call refresh_scene() from _call_refresh_scene_5
+        call refresh_scene()
         return
     if interface_blocked_flag == True:
         return
@@ -85,14 +85,14 @@ label miniMapHouseGenerateTeleport(name, minimapCell):
     show screen sprites_hover_dummy_screen()
     $ _return = True
     if miniMapSubst.has_key("all") and miniMapSubst["all"] != False:
-        call expression miniMapSubst["all"] from _call_expression_4
+        call expression miniMapSubst["all"]
     if miniMapSubst.has_key(name) and miniMapSubst[name] != False:
-        call expression miniMapSubst[name] from _call_expression_5
+        call expression miniMapSubst[name]
     if _return != False:
         if minimapCell["teleport_type"] == "function":
-            call expression minimapCell["teleport_scene"] from _call_expression_6
+            call expression minimapCell["teleport_scene"]
         if minimapCell["teleport_type"] == "scene":
-            call change_scene(minimapCell["teleport_scene"]) from _call_change_scene_65
+            call change_scene(minimapCell["teleport_scene"])
     $ scene_refresh_flag = True
     $ show_scene_loop_flag = True
     $ parse_transition_flag = False

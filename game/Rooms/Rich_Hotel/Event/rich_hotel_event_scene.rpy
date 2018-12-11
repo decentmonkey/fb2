@@ -52,7 +52,7 @@ label rich_hotel_event_scene_environment:
         "Притворись Моникой Бакфетт!"
         img 6698
         "Или тебя надо шлепнуть по попке, чтобы ты заговорила?!"
-        call refresh_scene_fade() from _call_refresh_scene_fade_9
+        call refresh_scene_fade()
         return
     if obj_name == "Melanie":
         hide screen Reporters_Shoots_Screen
@@ -61,7 +61,7 @@ label rich_hotel_event_scene_environment:
         with fade
         mt "Мелани смотрит на меня."
         "Интересно что она думает обо всем этом..."
-        call refresh_scene_fade() from _call_refresh_scene_fade_10
+        call refresh_scene_fade()
         return
 
     if obj_name == "People1" or obj_name == "People2" or obj_name == "People3" or obj_name == "People4" or obj_name == "People5" or obj_name == "People6" or obj_name == "People7" or obj_name == "People8":
@@ -91,7 +91,7 @@ label rich_hotel_event_scene_environment:
         img 6680
         mt "Мелани?! Здесь?!"
         "А почему не Я?!"
-        call refresh_scene_fade() from _call_refresh_scene_fade_11
+        call refresh_scene_fade()
         return
 
     return

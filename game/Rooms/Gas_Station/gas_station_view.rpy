@@ -48,7 +48,7 @@ label gas_station_view1_environment:
     if obj_name == "Flower":
         mt "Полудохлое растение."
     if obj_name == "Monica":
-        call monica_gas_station_thief_dialogue1() from _call_monica_gas_station_thief_dialogue1
+        call monica_gas_station_thief_dialogue1()
 #        mt "Что я здесь делаю?"
         return
 
@@ -71,7 +71,7 @@ label gas_station_view1_environment:
             mt "Прилавок с пирожными!!!"
             "Может украсть одно?.."
         if obj_data["action"] == "h":
-            call monica_gas_station_thief() from _call_monica_gas_station_thief
+            call monica_gas_station_thief()
             return
 #            mt "Я не хочу туда подходить."
 #            "Мне нечего делать здесь!"
@@ -131,14 +131,14 @@ label gas_station_view2_environment:
         m "Книга про кофе??
         Да что этот автор может знать про кофе!!!"
         "Никчемные люди пишут никчемные книги!!!"
-        call bitch(1, "book20") from _call_bitch_178
+        call bitch(1, "book20")
         return
     if obj_name == "Book9":
         m "Озеро..."
         "Помню в детстве рядом с моим домом было озеро."
         "Я была такой счастливой!
         Все мне казалось добрым и красивым!"
-        call bitch(-1, "book9") from _call_bitch_179
+        call bitch(-1, "book9")
         return
     m "Какая-то скучная книга...
     Фи!"
@@ -185,14 +185,14 @@ label gas_station_view3_environment:
     if obj_name == "Cakes7":
         m "Я детстве любила лакомиться такими!
         Как было здорово!"
-        call bitch(-1, "cakes7") from _call_bitch_180
+        call bitch(-1, "cakes7")
     if obj_name == "Cakes8":
         m "Жуткие лепешки...
         Жирные..."
     if obj_name == "Cakes9":
         m "Этим печеньем пусть кормят бездомных!
         Я такое бы есть не стала!"
-        call bitch(1, "cakes9") from _call_bitch_181
+        call bitch(1, "cakes9")
 
     return
 
@@ -246,7 +246,7 @@ label gas_station_view4_environment:
         if obj_data["action"] == "l":
             m "Там какие-то соки..."
         if obj_data["action"] == "w":
-            call change_scene("gas_station_view5") from _call_change_scene_110
+            call change_scene("gas_station_view5")
             return
 
     if obj_name == "Cans1":
@@ -346,7 +346,7 @@ label gas_station_view5_environment:
             "Можно подойти посмотреть."
 
         if obj_data["action"] == "w":
-            call change_scene("gas_station_view6") from _call_change_scene_111
+            call change_scene("gas_station_view6")
             return
 
     return
@@ -385,7 +385,7 @@ label gas_station_view6_init:
 
 label gas_station_view6_teleport:
     if obj_name == "Teleport_Gas_Station_View5":
-        call change_scene("gas_station_view5") from _call_change_scene_112
+        call change_scene("gas_station_view5")
         return
 
 label gas_station_view6_environment:
@@ -452,7 +452,7 @@ label gas_station_view_cashier_init:
 
 label gas_station_view_cashier_teleport:
     if obj_name == "Teleport_Gas_Station_View5":
-        call change_scene("gas_station_view5") from _call_change_scene_113
+        call change_scene("gas_station_view5")
         return
 
 label gas_station_view_cashier_environment:
@@ -463,14 +463,14 @@ label gas_station_view_cashier_environment:
             else:
                 m "Это кассирша, которую я так долго искала."
         if obj_data["action"] == "t":
-            call gas_salewoman_sorry_dialogue() from _call_gas_salewoman_sorry_dialogue
+            call gas_salewoman_sorry_dialogue()
             return
 
     if obj_name == "Door":
         if obj_data["action"] == "l":
             m "Какая-то дверь."
         if obj_data["action"] == "w":
-            call change_scene("gas_station_view_door") from _call_change_scene_114
+            call change_scene("gas_station_view_door")
             return
     if obj_name == "Oil":
         m "Какие-то банки.
@@ -506,14 +506,14 @@ label gas_station_view_door_init:
     return
 label gas_station_view_door_environment:
     if obj_name == "Teleport_Gas_Station_View_Cashier":
-        call change_scene("gas_station_view_cashier") from _call_change_scene_115
+        call change_scene("gas_station_view_cashier")
         return
     if obj_name == "Door":
         if obj_data["action"] == "l":
             m "Мне кажется я что-то слышу там..."
             if gasStationDoorLooked == False:
                 $ gasStationDoorLooked = True
-                call gas_saleswoman_scene1() from _call_gas_saleswoman_scene1
+                call gas_saleswoman_scene1()
             else:
                 m "Или мне просто показалось?..."
             return
@@ -521,7 +521,7 @@ label gas_station_view_door_environment:
             if gasStationDoorLooked == False:
                 $ gasStationDoorLooked = True
                 m "Мне кажется я что-то слышу там..."
-                call gas_saleswoman_scene1() from _call_gas_saleswoman_scene1_1
+                call gas_saleswoman_scene1()
             else:
                 jump gas_station_door_talk
 

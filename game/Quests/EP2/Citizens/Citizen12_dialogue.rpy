@@ -19,7 +19,7 @@ label citizen12_dialogue:
                         imgr Dial_Citizen_12_2
                         citizen12 "Ээээ... взять что?"
                         m "Возьмите, пожалуйста, этот флаер..."
-                        call reduce_flyers() from _call_reduce_flyers_8
+                        call reduce_flyers()
                         citizen12 "Ок..."
                         imgr Dial_Citizen_12_3
                         citizen12 "И все? А как же развлечься?"

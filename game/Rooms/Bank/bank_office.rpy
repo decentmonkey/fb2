@@ -27,7 +27,7 @@ label bank_office_init:
 
 label bank_office_teleport:
     if obj_name == "Teleport_Street":
-        call change_scene("street_bank", "Fade_long") from _call_change_scene_20
+        call change_scene("street_bank", "Fade_long")
         return
     return
 label bank_office_environment:

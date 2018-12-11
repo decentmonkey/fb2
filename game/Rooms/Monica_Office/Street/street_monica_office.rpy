@@ -31,7 +31,7 @@ label street_monica_office_teleport2:
             "Мне просто надо немного времени!"
         if obj_data["action"] == "w":
             music Stealth_Groover
-            call change_scene("monica_office_entrance", "Fade_long", "highheels_run2") from _call_change_scene_96
+            call change_scene("monica_office_entrance", "Fade_long", "highheels_run2")
             return
     return
 label street_monica_office_environment2:

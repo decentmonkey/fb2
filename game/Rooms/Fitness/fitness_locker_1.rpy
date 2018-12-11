@@ -17,8 +17,8 @@ label fitness_locker_1:
     $ add_object_to_scene("Teleport_Lockers", {"type":3, "text" : _("ШКАФЧИКИ ДЛЯ ПЕРЕОДЕВАНИЯ"), "larrow" : "arrow_down_2", "base":"fitness_locker_1_Lockers", "click" : "fitness_locker_1_teleport", "xpos" : 1492, "ypos" : 311, "zorder":11})
     $ add_object_to_scene("Teleport_Gym", {"type":3, "text" : _("НАЗАД В ЗАЛ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "fitness_locker_1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11})
     if driveTriggers.has_key("stephanie_return_event") == True and driveTriggers["stephanie_return_event"] == "on":
-        call stephanie_fitness_return_scene() from _call_stephanie_fitness_return_scene
-        call refresh_scene_fade() from _call_refresh_scene_fade_5
+        call stephanie_fitness_return_scene()
+        call refresh_scene_fade()
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
@@ -26,10 +26,10 @@ label fitness_locker_1:
 
 label fitness_locker_1_teleport:
     if obj_name == "Teleport_Gym":
-        call change_scene("fitness_gym") from _call_change_scene_21
+        call change_scene("fitness_gym")
         return
     if obj_name == "Teleport_Lockers":
-        call change_scene("fitness_locker_2") from _call_change_scene_23
+        call change_scene("fitness_locker_2")
         return
 
     return
@@ -45,7 +45,7 @@ label fitness_locker_1_environment:
             Потому я резрешаю ей дружить со мной."
             "Но она слишком помешана на мужчинах, как я считаю."
         if obj_data["action"] == "w":
-            call change_scene("fitness_locker_2") from _call_change_scene_24
+            call change_scene("fitness_locker_2")
             return
     if obj_name == "Rebecca":
         if obj_data["action"] == "l":
@@ -53,13 +53,13 @@ label fitness_locker_1_environment:
             Они слишком любит деньги и тех кто ими обладает.
             Но она часто льстит мне, потому я держу ее рядом со мной."
         if obj_data["action"] == "w":
-            call change_scene("fitness_locker_2") from _call_change_scene_25
+            call change_scene("fitness_locker_2")
             return
     if obj_name == "Lockers":
         if obj_data["action"] == "l":
             mt "Шкафчики для переодевания.
             Один из них мой."
         if obj_data["action"] == "w":
-            call change_scene("fitness_locker_2") from _call_change_scene_26
+            call change_scene("fitness_locker_2")
             return
     return

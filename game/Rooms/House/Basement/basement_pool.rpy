@@ -1,7 +1,7 @@
 label basement_pool:
     $ print "enter_basement_pool"
     $ miniMapData = []
-    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_18
+    call miniMapHouseGenerate()
 
     $ scene_image = "scene_Basement_Pool"
     music Mandeville
@@ -28,16 +28,16 @@ label basement_pool_init:
 
 label basement_pool_teleport:
     if obj_name == "Teleport_Floor1_Stairs":
-        call change_scene("floor1_stairs", "Fade_long", "highheels_run2") from _call_change_scene_144
+        call change_scene("floor1_stairs", "Fade_long", "highheels_run2")
         return
     if obj_name == "Teleport_Basement_Laundry":
-        call change_scene("basement_laundry") from _call_change_scene_145
+        call change_scene("basement_laundry")
         return
     return
 
 label basement_pool_environment:
     if obj_name == "Monica":
-        call basement_shower_check() from _call_basement_shower_check
+        call basement_shower_check()
         return
 #        m "Насколько помню, здесь одна дверь ведет назад в дом, а вторая в прачечную."
 

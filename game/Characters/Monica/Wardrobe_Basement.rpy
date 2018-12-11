@@ -52,7 +52,7 @@ label wardrobeBasement:
 #            $ renpy.pause(0.5)
             $ autorun_to_object("wardrobeBasement_dialogue2_nude")
 
-    call refresh_scene_fade() from _call_refresh_scene_fade_18
+    call refresh_scene_fade()
     return
 
 label wardrobeBasement_dialogue1_whore:
@@ -92,7 +92,7 @@ label hook_basement_bedroom_check_exit_cloth: #проверка при выхо�
             "Она и так все время называет меня шлюхой..."
             if monicaBitch == True:
                 "Сучка..."
-            call refresh_scene_fade() from _call_refresh_scene_fade_19
+            call refresh_scene_fade()
         return False
     return
 
@@ -110,16 +110,16 @@ label hook_basement_bedroom_check_exit_cloth_map: #проверка при вы�
                 $ cloth_type = "Whore"
                 return True
         if cloth_type == "Governess": #Бетти запрещает выходить из дома в одежде гувернантки!
-            call monica_goout1_governess_restrict() from _call_monica_goout1_governess_restrict
-            call change_scene("street_house_gate", "Fade", False) from _call_change_scene_123
+            call monica_goout1_governess_restrict()
+            call change_scene("street_house_gate", "Fade", False)
             $ map_source_scene = "street_house_gate"
 #            call refresh_scene_fade()
             return False
 
     if obj_name != "Teleport_House" and map_scene == "House":
         if cloth_type == "Governess": #Моника пытается убежать с улицы в одежде гувернантки (мимо ворот)
-            call monica_goout1_governess_restrict() from _call_monica_goout1_governess_restrict_1
-            call change_scene("street_house_gate", "Fade", False) from _call_change_scene_124
+            call monica_goout1_governess_restrict()
+            call change_scene("street_house_gate", "Fade", False)
             $ map_source_scene = "street_house_gate"
             return False
 
@@ -129,8 +129,8 @@ label hook_basement_bedroom_check_exit_cloth_gates: #проверка на вы�
     if act != "w":
         return True
     if cloth_type == "Governess":
-        call monica_goout1_governess_restrict() from _call_monica_goout1_governess_restrict_2
-        call refresh_scene_fade() from _call_refresh_scene_fade_20
+        call monica_goout1_governess_restrict()
+        call refresh_scene_fade()
         return False
 
     return
