@@ -4,6 +4,7 @@
 label sleep_scene1:
     #Дик, Моника и водитель в машине. День. Моника в платье AfterJail
     #белый экран
+    music dream
     img white_screen
     with fade
     dick "Моника..."
