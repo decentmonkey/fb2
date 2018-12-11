@@ -139,12 +139,12 @@ label dick_secretary_time_to_pay1:
     $ remove_hook()
     return
 label dick_secretary_time_to_pay1a:
-    mt "Сегодня пятница. Мне надо {b}найти $ 5000 до вечера{/b}!"
+    mt "Сегодня пятница. Мне надо {c]найти $ 5000 до вечера{/c]!"
     "Тогда Дик убедится в моей лояльности и вытащит меня из этой ситуации, в которую я попала!"
     $ remove_hook()
     return
 label dick_secretary_time_to_pay2:
-    mt "Я не могу идти спать. Я должна {b}принести сегодня $ 5000 Дику{/b}!"
+    mt "Я не могу идти спать. Я должна {c]принести сегодня $ 5000 Дику{/c]!"
     return False
 
 label monica_office_secretary_talk_before_work_request:

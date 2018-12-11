@@ -49,10 +49,10 @@ translate english basement_monica_after_sleep_dialogue1_71131ee4:
 # game/Characters/Monica/Bed_Basement.rpy:129
 translate english basement_monica_hungry_cant_sleep_39f822c8:
 
-    # mt "{b}Я не ела{/b} уже третий день!"
+    # mt "{c]Я не ела{/c] уже третий день!"
     # "Я не могу лечь спать в таком состоянии!"
     # "Я ХОЧУ ЕСТЬ!!!"
-    mt "{b}I haven't eaten{/b} for three days!"
+    mt "{c]I haven't eaten{/c] for three days!"
     "I can't sleep like this!"
     "I WANT TO EAT!!!"
 
@@ -75,13 +75,13 @@ translate english monica_gosleep1a_1a9716fb:
 # game/Characters/Monica/Bed_Basement.rpy:195
 translate english basement_monica_hungry_cant_sleep_e08d40f0:
 
-    # mt "{b}Я не ела{/b} уже третий день!"
+    # mt "{c]Я не ела{/c] уже третий день!"
     # "Я не могу лечь спать в таком состоянии!"
     # "Я ХОЧУ ЕСТЬ!!!"
     # "..."
     # mt "Может быть я смогу что-то найти на заправке?"
     # mt "Или у кого-нибудь занять деньги на еду?"
-    mt "{b}I haven't eaten{/b} for three days!"
+    mt "{c]I haven't eaten{/c] for three days!"
     "I can't sleep like this!"
     "I WANT TO EAT!!!"
     "..."

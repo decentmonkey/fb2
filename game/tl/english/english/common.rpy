@@ -927,8 +927,8 @@ translate english strings:
     new "DirectX web setup has been started. It may start minimized in the taskbar. Please follow the prompts to install DirectX."
 
     # 00gltest.rpy:272
-    old "{b}Note:{/b} Microsoft's DirectX web setup program will, by default, install the Bing toolbar. If you do not want this toolbar, uncheck the appropriate box."
-    new "{b}Note:{/b} Microsoft's DirectX web setup program will, by default, install the Bing toolbar. If you do not want this toolbar, uncheck the appropriate box."
+    old "{c]Note:{/c] Microsoft's DirectX web setup program will, by default, install the Bing toolbar. If you do not want this toolbar, uncheck the appropriate box."
+    new "{c]Note:{/c] Microsoft's DirectX web setup program will, by default, install the Bing toolbar. If you do not want this toolbar, uncheck the appropriate box."
 
     # 00gltest.rpy:276
     old "When setup finishes, please click below to restart this program."

@@ -85,8 +85,8 @@ translate english monica_charity_event_dialogue1_a20f4901:
 # game/Quests/EP2/ep2_dialogues5.rpy:64
 translate english monica_charity_event_dialogue1_181b1847:
 
-    # "Почему мой {b}постер завешен одеждой{/b}?!?!"
-    "Why is my {b}poster covered with{/b} clothes?!?!"
+    # "Почему мой {c]постер завешен одеждой{/c]?!?!"
+    "Why is my {c]poster covered with{/c] clothes?!?!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:71
 translate english monica_charity_event_dialogue2_09c6fd10:
@@ -449,10 +449,10 @@ translate english monica_charity_event_dialogue3_46e6999a:
 
     # mt "Все!"
     # "Я сказала что хотел этот мерзавец Биф!"
-    # "Надо идти {b}узнать про деньги{/b}!"
+    # "Надо идти {c]узнать про деньги{/c]!"
     mt "That’s all!"
     "I said what that bastard Biff wanted!"
-    "Now I need to go {b}and find out about the money {/b}!"
+    "Now I need to go {c]and find out about the money {/c]!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:273
 translate english monica_charity_event_dialogue4a_898554ad:
@@ -506,9 +506,9 @@ translate english monica_charity_event_dialogue4_f8f6da0c:
 translate english monica_charity_event_dialogue4_b346abb5:
 
     # biff "В течении часа."
-    # "Ты пока можешь {b}расслабиться и выпить вина{/b}."
+    # "Ты пока можешь {c]расслабиться и выпить вина{/c]."
     biff "In an hour."
-    "You can {b}relax and drink wine{/b} in the mean time."
+    "You can {c]relax and drink wine{/c] in the mean time."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:304
 translate english monica_charity_event_dialogue4_8455ca28:
@@ -522,9 +522,9 @@ translate english monica_charity_event_dialogue4_8455ca28:
 translate english monica_charity_event_dialogue5_136cef76:
 
     # biff "Мне пока не привезли деньги, детка!"
-    # "{b}Расслабься, выпей вина{/b}!"
+    # "{c]Расслабься, выпей вина{/c]!"
     biff "I haven't got the money yet, baby!"
-    "{b}Relax, have some wine {/b}!"
+    "{c]Relax, have some wine {/c]!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:320
 translate english monica_charity_event_dialogue6_a7f3a7d8:
@@ -1023,9 +1023,9 @@ translate english monica_charity_event_dialogue8_1ee9790b:
 # game/Quests/EP2/ep2_dialogues5.rpy:589
 translate english monica_charity_event_dialogue9_b4deadde:
 
-    # mt "Мне надо {b}забрать деньги у Бифа{/b}."
+    # mt "Мне надо {c]забрать деньги у Бифа{/c]."
     # "Филип пусть пока будет в неуверенности..."
-    mt "I need to {b}get my money from Biff {/b}."
+    mt "I need to {c]get my money from Biff {/c]."
     "Let Philip be in uncertainty..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:597
@@ -1164,8 +1164,8 @@ translate english monica_charity_event_dialogue11_b242174a:
     # "Все складывается так что если я не найду эту $ 1.000, то попаду к Маркусу!!!"
     # "О БОЖЕ!!!"
     # "Где же мне ее взять?!?!"
-    # "Может быть стоит ускорить события с {b}Филипом{/b}?"
-    # "Или попробовать уговорить {b}Бифа{/b}?"
+    # "Может быть стоит ускорить события с {c]Филипом{/c]?"
+    # "Или попробовать уговорить {c]Бифа{/c]?"
     mt "That bastard!"
     "He tricked me!"
     "If I'd known this wine was worth $ 1.000, I wouldn't have drunk it!"
@@ -1185,8 +1185,8 @@ translate english monica_charity_event_dialogue11_b242174a:
     "And if I don't get it, I will have to go to Marcus!!!"
     "Oh my God!!!"
     "How can I get the money?"
-    "Maybe I should speed things up with {b}Philip{/b}?"
-    "Or try to persuade {b}Biff {/b}?"
+    "Maybe I should speed things up with {c]Philip{/c]?"
+    "Or try to persuade {c]Biff {/c]?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:675
 translate english monica_charity_event_dialogue12_a89e1fbd:
@@ -1495,10 +1495,10 @@ translate english monica_charity_event_dialogue15_806c6a0d:
     # "Мерзавец!"
     # "..."
     # "Но что мне делать?"
-    # "Если я не достану {b}$ 1.000 срочно{/b}, то мне конец!"
+    # "Если я не достану {c]$ 1.000 срочно{/c], то мне конец!"
     # "У меня есть лишь несколько минут, пока еще не слишком поздний вечер!"
-    # "Мне надо подумать, может быть снова {b}поговорить с Бифом{/b}?"
-    # "Или {b}вернуться к Филипу{/b}?"
+    # "Мне надо подумать, может быть снова {c]поговорить с Бифом{/c]?"
+    # "Или {c]вернуться к Филипу{/c]?"
     # "У меня нет выбора! Нет выбора!!!"
     # "(хмык)"
     mt "BASTARD!!!"
@@ -1507,10 +1507,10 @@ translate english monica_charity_event_dialogue15_806c6a0d:
     "Bastard!"
     "..."
     "But what should I do?"
-    "If I don't get {b}$ 1.000 urgently{/b}, I'm finished!"
+    "If I don't get {c]$ 1.000 urgently{/c], I'm finished!"
     "I only have a few minutes before it's too late!"
-    "I have to think, maybe I should {b}talk to the Biff{/b} again?"
-    "Or {b}go back to Philip {/b}?"
+    "I have to think, maybe I should {c]talk to the Biff{/c] again?"
+    "Or {c]go back to Philip {/c]?"
     "I have no choice! No choice!!!"
     "(sob)"
 
@@ -2701,8 +2701,8 @@ translate english monica_charity_event_dialogue18_loopa1_f5c7f68b:
 # game/Quests/EP2/ep2_dialogues5.rpy:1689
 translate english monica_charity_event_dialogue18_loopa1_abc73e9f:
 
-    # mt "Мне надо умыться и {b}идти к Дику{/b}..."
-    mt "I have to wash up and {b}go to Dick {/b}..."
+    # mt "Мне надо умыться и {c]идти к Дику{/c]..."
+    mt "I have to wash up and {c]go to Dick {/c]..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1707
 translate english monica_charity_event_dialogue19_5690dfb1:
@@ -2793,11 +2793,11 @@ translate english monica_office_biff_dialogue_evening1_62c01ede:
 # game/Quests/EP2/ep2_dialogues5.rpy:1763
 translate english monica_office_dialogue1_e0a8c4df:
 
-    # mt "Мне надо {b}скорее бежать к Дику{/b}!"
+    # mt "Мне надо {c]скорее бежать к Дику{/c]!"
     # "Надо купить этот чертов галстук и закончить кошмар!"
     # "Через что мне пришлось пройти чтобы добыть эти деньги!"
     # "Ужас!"
-    mt "I have {b}to run to Dick quickly{/b}!"
+    mt "I have {c]to run to Dick quickly{/c]!"
     "I need to buy that damn tie and finish this nightmare!"
     "And to even think what I had to go through to get that money..."
     "What a horror!"
@@ -2864,12 +2864,12 @@ translate english monica_dick_office_entrance_dialogue1_01bc1219:
 translate english monica_dick_office_entrance_dialogue1_cceb6235:
 
     # "..."
-    # "Думаю лучшим выходом будет {b}идти в дом{/b}..."
-    # "Завтра {b}пораньше встать и идти сюда{/b}..."
+    # "Думаю лучшим выходом будет {c]идти в дом{/c]..."
+    # "Завтра {c]пораньше встать и идти сюда{/c]..."
     # "Да! Это лучший вариант!"
     "..."
-    "I think the best solution is to {b}go to the house...{/b}"
-    "Tomorrow I {b}get up early and come here{/b}..."
+    "I think the best solution is to {c]go to the house...{/c]"
+    "Tomorrow I {c]get up early and come here{/c]..."
     "Yes! That is the best option!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1804
@@ -2877,13 +2877,13 @@ translate english monica_basement_bedroom_before_sleep1_c15af630:
 
     # mt "Надо поспать..."
     # "Я нашла деньги..."
-    # "Завтра я {b}приду к Дику{/b} и все закончится..."
+    # "Завтра я {c]приду к Дику{/c] и все закончится..."
     # "Я лучше забуду про тот кошмар, который мне пришлось пройти, чтобы достать эти деньги..."
     # "Я почти у цели..."
     # "Я сплю..."
     mt "Need to sleep..."
     "I found money..."
-    "Tomorrow I {b}come to Dick {/b} and it's all over..."
+    "Tomorrow I {c]come to Dick {/c] and it's all over..."
     "I'd rather forget about the nightmare I had to go through to get that money..."
     "Almost there..."
     "I'm sleeping..."
@@ -3114,17 +3114,17 @@ translate english monica_charity_event_dialogue4_2ff20edf:
 translate english monica_charity_event_dialogue4_b0ba191f:
 
     # biff "В течении часа."
-    # "Ты пока можешь {b}расслабиться и выпить вина{/b}."
+    # "Ты пока можешь {c]расслабиться и выпить вина{/c]."
     biff "In an hour."
-    "You can {b}relax and drink wine{/b} in the mean time."
+    "You can {c]relax and drink wine{/c] in the mean time."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:312
 translate english monica_charity_event_dialogue5_0af9d6c6:
 
     # biff "Мне пока не привезли деньги, детка!"
-    # "{b}Расслабься, выпей вина{/b}!"
+    # "{c]Расслабься, выпей вина{/c]!"
     biff "I haven't got the money yet, baby!"
-    "{b}Relax, have some wine {/b}!"
+    "{c]Relax, have some wine {/c]!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:599
 translate english monica_charity_event_dialogue10_29306ad4:
@@ -4449,8 +4449,8 @@ translate english monica_charity_event_dialogue18_local6_f5c7f68b:
 # game/Quests/EP2/ep2_dialogues5.rpy:2179
 translate english monica_charity_event_dialogue18_local6_abc73e9f:
 
-    # mt "Мне надо умыться и {b}идти к Дику{/b}..."
-    mt "I have to wash up and {b}go to Dick {/b}..."
+    # mt "Мне надо умыться и {c]идти к Дику{/c]..."
+    mt "I have to wash up and {c]go to Dick {/c]..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2200
 translate english monica_charity_event_dialogue19_be713e11:

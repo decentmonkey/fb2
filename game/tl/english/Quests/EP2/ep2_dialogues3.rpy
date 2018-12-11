@@ -17,8 +17,8 @@ translate english monica_fred_about_dick_dialogue2_f81a58f0:
 # game/Quests/EP2/ep2_dialogues3.rpy:15
 translate english monica_fred_about_dick_dialogue2_ded502ac:
 
-    # fred "Миссис Бакфетт! Мне сообщили что {b}Мистер Дик просил Вас зайти к нему{/b}!"
-    fred "Mrs. Buckfett! I've been informed that {b}Mr. Dick has asked you to come see him{/b}!"
+    # fred "Миссис Бакфетт! Мне сообщили что {c]Мистер Дик просил Вас зайти к нему{/c]!"
+    fred "Mrs. Buckfett! I've been informed that {c]Mr. Dick has asked you to come see him{/c]!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:17
 translate english monica_fred_about_dick_dialogue2_b002ed16:
@@ -481,12 +481,12 @@ translate english monica_dick_dialogue1_099ae1fa:
 # game/Quests/EP2/ep2_dialogues3.rpy:286
 translate english monica_dick_dialogue1_10527ccd:
 
-    # dick "В общем Моника, я жду того что Вы {b}подружитесь с Викторией до конца недели{/b}."
+    # dick "В общем Моника, я жду того что Вы {c]подружитесь с Викторией до конца недели{/c]."
     # dick "Я даю тебе шанс, Моника."
-    # "{b}В пятницу вечером галстук должен быть на мне!{/b}"
-    dick "Anyway, Monica, I expect you to be {b}friends with Victoria by the end of this week{/b}."
+    # "{c]В пятницу вечером галстук должен быть на мне!{/c]"
+    dick "Anyway, Monica, I expect you to be {c]friends with Victoria by the end of this week{/c]."
     dick "I'm giving you a chance, Monica."
-    "{b}By Friday night, I should be wearing a new tie!{/b}"
+    "{c]By Friday night, I should be wearing a new tie!{/c]"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:290
 translate english monica_dick_dialogue1_df96b777:
@@ -567,8 +567,8 @@ translate english monica_dick_secretary_dialogue2_49d5c15f:
 # game/Quests/EP2/ep2_dialogues3.rpy:325
 translate english monica_dick_secretary_dialogue2_9bf6e2b3:
 
-    # "Мистер Дик сказал чтобы {b}я послала его в субботу утром, если Вы себя будете плохо вести{/b}."
-    "Mr. Dick said that {b}I should send it on Saturday morning if you misbehave {/b}."
+    # "Мистер Дик сказал чтобы {c]я послала его в субботу утром, если Вы себя будете плохо вести{/c]."
+    "Mr. Dick said that {c]I should send it on Saturday morning if you misbehave {/c]."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:327
 translate english monica_dick_secretary_dialogue2_e612037c:
@@ -769,14 +769,14 @@ translate english monica_dick_secretary_dialogue2_8e63260f:
 # game/Quests/EP2/ep2_dialogues3.rpy:414
 translate english monica_dick_secretary_dialogue2_39a035b7:
 
-    # dick_secretary "Хорошо, {b}в пятницу вечером приходите сюда{/b}."
-    # "Я знаю хороший галстук за {b}$ 5.000{/b}."
-    # "Так что {b}приготовьте деньги{/b}."
-    # "{b}Если у Вас не будет нужной суммы, то, пожалуйста, не беспокойте меня{/b}."
-    dick_secretary "Okay, {b}Friday night, be here {/b}."
-    "I know a good tie for {b}$ 5.000 {/b}."
-    "So {b}prepare the money {/b}."
-    "{b}If you don't have the right amount, please don't bother me{/b}."
+    # dick_secretary "Хорошо, {c]в пятницу вечером приходите сюда{/c]."
+    # "Я знаю хороший галстук за {c]$ 5.000{/c]."
+    # "Так что {c]приготовьте деньги{/c]."
+    # "{c]Если у Вас не будет нужной суммы, то, пожалуйста, не беспокойте меня{/c]."
+    dick_secretary "Okay, {c]Friday night, be here {/c]."
+    "I know a good tie for {c]$ 5.000 {/c]."
+    "So {c]prepare the money {/c]."
+    "{c]If you don't have the right amount, please don't bother me{/c]."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:420
 translate english monica_dick_secretary_dialogue2_a511aa09:
@@ -836,13 +836,13 @@ translate english monica_dick_secretary_dialogue3_537fef9a:
 translate english monica_dick_secretary_dialogue3_a3acfa73:
 
     # dick_secretary "Да, я его отправлю в субботу утром."
-    # "Либо не отправлю, если мы проведем хорошо время в {b}пятницу{/b}."
+    # "Либо не отправлю, если мы проведем хорошо время в {c]пятницу{/c]."
     # "Хи-хи!"
     # m "Да, Мисс Виктория, конечно..."
     # "До свидания..."
     # mt "Эта сучка заплатит за все!"
     dick_secretary "Yeah, I'll send it Saturday morning."
-    "Or I won't... If we have a good time on {b}Friday{/b}, that is."
+    "Or I won't... If we have a good time on {c]Friday{/c], that is."
     "Hee-hee!"
     m "Yes, Miss Victoria, of course..."
     "Goodbye..."
@@ -871,7 +871,7 @@ translate english monica_dick_office_dialogue2_eae1459d:
     # "Мне надо будет что-то придумать с этим!"
     # "Это ее идея с галстуком, я уверена!"
     # "И мне не получилось выкрутиться и не покупать этот галстук!"
-    # "Я больше не допущу такого, но сейчас мне {b}надо найти где-то $ 5.000{/b}!"
+    # "Я больше не допущу такого, но сейчас мне {c]надо найти где-то $ 5.000{/c]!"
     # "Иначе конец! Я видела это по Дику!"
     # "Он не блефовал!"
     # "Моя судьба сейчас действительно зависит от этих денег!"
@@ -884,7 +884,7 @@ translate english monica_dick_office_dialogue2_eae1459d:
     # "Так было всегда!"
     # "..."
     # "Но что сейчас?"
-    # "Может быть попробовать снова поговорить с этим {b}ублюдком в моем офисе{/b}?"
+    # "Может быть попробовать снова поговорить с этим {c]ублюдком в моем офисе{/c]?"
     # "Из нашего разговора мне показалось что у него есть какое-то предложение ко мне!"
     # "Стоит попробовать!"
     # "Я чувствую что могу об этом пожалеть, но у меня нет выбора..."
@@ -896,7 +896,7 @@ translate english monica_dick_office_dialogue2_eae1459d:
     "I'll have to figure something out!"
     "This tie must be her idea, I'm sure of it!"
     "I couldn't get out of it and avoid having to buy that damn tie!"
-    "I won't let it happen again, but right now I need to find {b}$ 5.000{/b}!"
+    "I won't let it happen again, but right now I need to find {c]$ 5.000{/c]!"
     "Otherwise, it'll be the end, I guess..."
     "Dick wasn't bluffing!"
     "My fate really depends on this money now!"
@@ -909,7 +909,7 @@ translate english monica_dick_office_dialogue2_eae1459d:
     "It was always like that!"
     "..."
     "But what now?"
-    "Maybe I should try talking to that {b}bastard in my office{/b} again?"
+    "Maybe I should try talking to that {c]bastard in my office{/c] again?"
     "From our conversation, it seemed to me that he had some kind of proposal for me!"
     "It's worth a try!"
     "I feel like I might regret it, but I don't have a choice..."
@@ -1265,22 +1265,22 @@ translate english monica_dick_dialogue1_local1_099ae1fa:
 # game/Quests/EP2/ep2_dialogues3.rpy:390
 translate english monica_dick_dialogue1_local1_bf657e77:
 
-    # dick "В общем Моника, я жду того что Вы {b}подружитесь с Викторией до конца недели{/b}."
+    # dick "В общем Моника, я жду того что Вы {c]подружитесь с Викторией до конца недели{/c]."
     # dick "Я даю тебе шанс, Моника."
-    dick "Anyway, Monica, I expect you to be {b}friends with Victoria by the end of this week{/b}."
+    dick "Anyway, Monica, I expect you to be {c]friends with Victoria by the end of this week{/c]."
     dick "I'm giving you a chance, Monica."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:393
 translate english monica_dick_dialogue1_local1_fdf4f1ae:
 
-    # "{b}В пятницу вечером галстук должен быть на мне!{/b}"
-    "{b}By Friday night, I should be wearing a new tie!{/b}"
+    # "{c]В пятницу вечером галстук должен быть на мне!{/c]"
+    "{c]By Friday night, I should be wearing a new tie!{/c]"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:395
 translate english monica_dick_dialogue1_local1_00e5f169:
 
-    # "{b}В следующую пятницу вечером галстук должен быть на мне!{/b}"
-    "{b}Next Friday evening, the tie should be on me!{/b}"
+    # "{c]В следующую пятницу вечером галстук должен быть на мне!{/c]"
+    "{c]Next Friday evening, the tie should be on me!{/c]"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:397
 translate english monica_dick_dialogue1_local1_df96b777:
@@ -1323,24 +1323,24 @@ translate english monica_dick_secretary_dialogue2_e2bec9da:
 # game/Quests/EP2/ep2_dialogues3.rpy:543
 translate english monica_dick_secretary_dialogue2_40414ea3:
 
-    # dick_secretary "Хорошо, {b}в пятницу вечером приходите сюда{/b}."
-    dick_secretary "Okay, {b}Friday night, be here {/b}."
+    # dick_secretary "Хорошо, {c]в пятницу вечером приходите сюда{/c]."
+    dick_secretary "Okay, {c]Friday night, be here {/c]."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:545
 translate english monica_dick_secretary_dialogue2_ec61311b:
 
-    # dick_secretary "Хорошо, {b}в следующую пятницу вечером приходите сюда{/b}."
-    dick_secretary "Well, {b}next Friday evening, come here{/b}."
+    # dick_secretary "Хорошо, {c]в следующую пятницу вечером приходите сюда{/c]."
+    dick_secretary "Well, {c]next Friday evening, come here{/c]."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:546
 translate english monica_dick_secretary_dialogue2_d027e8ed:
 
-    # "Я знаю хороший галстук за {b}$ 5.000{/b}."
-    # "Так что {b}приготовьте деньги{/b}."
-    # "{b}Если у Вас не будет нужной суммы, то, пожалуйста, не беспокойте меня{/b}."
-    "I know a good tie for {b}$ 5.000 {/b}."
-    "So {b}prepare the money {/b}."
-    "{b}If you don't have the right amount, please don't bother me{/b}."
+    # "Я знаю хороший галстук за {c]$ 5.000{/c]."
+    # "Так что {c]приготовьте деньги{/c]."
+    # "{c]Если у Вас не будет нужной суммы, то, пожалуйста, не беспокойте меня{/c]."
+    "I know a good tie for {c]$ 5.000 {/c]."
+    "So {c]prepare the money {/c]."
+    "{c]If you don't have the right amount, please don't bother me{/c]."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:558
 translate english monica_dick_secretary_dialogue2_d8213a8d:
@@ -1363,14 +1363,14 @@ translate english monica_dick_secretary_dialogue3_5166c006:
 # game/Quests/EP2/ep2_dialogues3.rpy:584
 translate english monica_dick_secretary_dialogue3_20308857:
 
-    # "Либо не отправлю, если мы проведем хорошо время в {b}пятницу{/b}."
-    "Or I won't... If we have a good time on {b}Friday{/b}, that is."
+    # "Либо не отправлю, если мы проведем хорошо время в {c]пятницу{/c]."
+    "Or I won't... If we have a good time on {c]Friday{/c], that is."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:586
 translate english monica_dick_secretary_dialogue3_596dc1bc:
 
-    # "Либо не отправлю, если мы проведем хорошо время в следующую {b}пятницу{/b}."
-    "Or I'll not send it if we have a good time next {b}Friday{/b}."
+    # "Либо не отправлю, если мы проведем хорошо время в следующую {c]пятницу{/c]."
+    "Or I'll not send it if we have a good time next {c]Friday{/c]."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:587
 translate english monica_dick_secretary_dialogue3_5da2dfc9:
@@ -1407,7 +1407,7 @@ translate english monica_dick_office_dialogue2_3afdb398:
     # "Мне надо будет что-то придумать с этим!"
     # "Это ее идея с галстуком, я уверена!"
     # "И мне не получилось выкрутиться и не покупать этот галстук!"
-    # "Я больше не допущу такого, но сейчас мне {b}надо найти где-то $ 5.000{/b}!"
+    # "Я больше не допущу такого, но сейчас мне {c]надо найти где-то $ 5.000{/c]!"
     # "Иначе конец! Я видела это по Дику!"
     # "Он не блефовал!"
     # "Моя судьба сейчас действительно зависит от этих денег!"
@@ -1421,7 +1421,7 @@ translate english monica_dick_office_dialogue2_3afdb398:
     "I'll have to figure something out!"
     "This tie must be her idea, I'm sure of it!"
     "I couldn't get out of it and avoid having to buy that damn tie!"
-    "I won't let it happen again, but right now I need to find {b}$ 5.000{/b}!"
+    "I won't let it happen again, but right now I need to find {c]$ 5.000{/c]!"
     "Otherwise, it'll be the end, I guess..."
     "Dick wasn't bluffing!"
     "My fate really depends on this money now!"
@@ -1444,7 +1444,7 @@ translate english monica_dick_office_dialogue2_fd095fe1:
     # "Так было всегда!"
     # "..."
     # "Но что сейчас?"
-    # "Может быть попробовать снова поговорить с этим {b}ублюдком в моем офисе{/b}?"
+    # "Может быть попробовать снова поговорить с этим {c]ублюдком в моем офисе{/c]?"
     # "Из нашего разговора мне показалось что у него есть какое-то предложение ко мне!"
     # "Стоит попробовать!"
     # "Я чувствую что могу об этом пожалеть, но у меня нет выбора..."
@@ -1453,7 +1453,7 @@ translate english monica_dick_office_dialogue2_fd095fe1:
     "It was always like that!"
     "..."
     "But what now?"
-    "Maybe I should try talking to that {b}bastard in my office{/b} again?"
+    "Maybe I should try talking to that {c]bastard in my office{/c] again?"
     "From our conversation, it seemed to me that he had some kind of proposal for me!"
     "It's worth a try!"
     "I feel like I might regret it, but I don't have a choice..."

@@ -186,9 +186,9 @@ translate german monica_shawarma_dialogue1_349d457d:
 translate german monica_shawarma_dialogue1_069451ee:
 
     # shawarma "Конечно есть, Мадаме!"
-    # "Если такой красивый женщин, как Вы, {b}расскажет всем вокруг про мой самый вкусный кебаб{/b}, то кебаб сам будет Вас искать!"
+    # "Если такой красивый женщин, как Вы, {c]расскажет всем вокруг про мой самый вкусный кебаб{/c], то кебаб сам будет Вас искать!"
     shawarma "Natürlich gibt es die!"
-    "Wenn eine so wunderschöne Frau wie Sie, {b}jedem in der Umgebung von meinem leckeren Kebab erzählt{/b},bekommen Sie einen gratis!"
+    "Wenn eine so wunderschöne Frau wie Sie, {c]jedem in der Umgebung von meinem leckeren Kebab erzählt{/c],bekommen Sie einen gratis!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:84
 translate german monica_shawarma_dialogue1_e85bead3:
@@ -213,8 +213,8 @@ translate german monica_shawarma_dialogue1_9aa04107:
 # game/Quests/EP2/ep2_dialogues2.rpy:91
 translate german monica_shawarma_dialogue1_95c500ca:
 
-    # m "Хорошо, если ты дашь мне сейчас свой кебаб, то {b}я разнесу твои флаеры{/b}..."
-    m "Gut, wenn du mir jetzt einen Kebab gibst {b}veteile ich die Flyer{/b}..."
+    # m "Хорошо, если ты дашь мне сейчас свой кебаб, то {c]я разнесу твои флаеры{/c]..."
+    m "Gut, wenn du mir jetzt einen Kebab gibst {c]veteile ich die Flyer{/c]..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:95
 translate german monica_shawarma_dialogue1_a1ff310e:
