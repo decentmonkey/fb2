@@ -2477,10 +2477,10 @@ translate english monica_charity_event_dialogue18_loopa1_851c3f79:
     # philip "Правда, малыш!"
     # "Сделай движение вперед, не бойся!"
     # hotel_staff "Хорошо, Сэр..."
-    hotel_staff "Is that right, Sir?"
-    philip "Yes, really!"
-    "Move forward, don't be afraid!"
-    hotel_staff "Yes, Sir..."
+    hotel_staff "Правда, Сэр?"
+    philip "Правда, малыш!"
+    "Сделай движение вперед, не бойся!"
+    hotel_staff "Хорошо, Сэр..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1530
 translate english monica_charity_event_dialogue18_loopa1_0f702f99:
@@ -2492,7 +2492,7 @@ translate english monica_charity_event_dialogue18_loopa1_0f702f99:
 translate english monica_charity_event_dialogue18_loopa1_ddb03c18:
 
     # hotel_staff "Хорошо, Сэр..."
-    hotel_staff "Yes, Sir..."
+    hotel_staff "Хорошо, Сэр..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1537
 translate english monica_charity_event_dialogue18_loopa1_f90b5f70:
@@ -4615,4 +4615,22 @@ translate english strings:
     # Quests/EP2/ep2_dialogues5.rpy:2205
     old "Проглотить сперму двух мужчин... (low corruption, required [monicaPhilipBlojwobTakeSpermCorruptionRequired]) (disabled)"
     new "Swallow the sperm of the two men... (low corruption, required [monicaPhilipBlojwobTakeSpermCorruptionRequired]) (disabled)"
+
+# TODO: Translation updated at 2018-12-11 17:28
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2056
+translate english monica_charity_event_dialogue18_loopa1_2e739f47:
+
+    # hotel_staff "Правда, Сэр?"
+    # philip "Правда, малыш!"
+    # "Сделай движение вперед, не бойся!"
+    hotel_staff "Правда, Сэр?"
+    philip "Правда, малыш!"
+    "Сделай движение вперед, не бойся!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2071
+translate english monica_charity_event_dialogue18_loopa1_ddb03c18_1:
+
+    # hotel_staff "Хорошо, Сэр..."
+    hotel_staff "Хорошо, Сэр..."
 
