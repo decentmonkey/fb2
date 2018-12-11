@@ -152,9 +152,9 @@ translate german strings:
 
     # Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:33
     old "СТОЛИКИ"
-    new ""
+    new "TISCHE"
 
     # Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:34
     old "ВИП ЗОНА"
-    new ""
+    new "VIP AREA"
 

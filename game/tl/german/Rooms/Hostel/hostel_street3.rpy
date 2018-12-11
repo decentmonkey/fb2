@@ -8,5 +8,5 @@ translate german strings:
 
     # Rooms/Hostel/hostel_street3.rpy:22
     old "ГРЯЗНАЯ УЛИЦА"
-    new ""
+    new "SCHMUTZIGE STRASSE"
 

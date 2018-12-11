@@ -26,9 +26,9 @@ translate german strings:
 
     # Quests/EP2/Kebab_Work/Kebab_work.rpy:110
     old "Я раздала все флаеры, где мой кебаб?"
-    new "Я раздала все флаеры, где мой кебаб?"
+    new "Ich habe alle Flyer verteilt, wo ist mein Kebab?"
 
     # Quests/EP2/Kebab_Work/Kebab_work.rpy:110
     old "У меня не получилось раздать все флаеры..."
-    new "У меня не получилось раздать все флаеры..."
+    new "Ich konnte nicht alle Flyer verteilen..."
 

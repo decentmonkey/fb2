@@ -140,11 +140,11 @@ translate german strings:
 
     # Quests/House_Cleaning/House_Cleaning.rpy:17
     old "Начать уборку в доме."
-    new ""
+    new "Beginne, das Haus zu putzen."
 
     # Quests/House_Cleaning/House_Cleaning.rpy:17
     old "Не убираться сегодня..."
-    new ""
+    new "Heute wird nicht geputzt..."
 
 # TODO: Translation updated at 2018-12-10 00:05
 

@@ -58,7 +58,7 @@ translate german monica_office_secretary_teatable_environment_eb2b77b3:
     # mt "Это чайный столик."
     # "Неудивительно что выпечки и кофе здесь больше нет..."
     # "А жаль, я бы с удовольствием съела что-нибудь!"
-    mt "Это чайный столик."
+    mt "Das ist der Teetisch."
     "Неудивительно что выпечки и кофе здесь больше нет..."
     "А жаль, я бы с удовольствием съела что-нибудь!"
 
@@ -79,8 +79,8 @@ translate german monica_office_secretary_teatable_environment_da5307a0:
 
     # mt "Что это?"
     # "Маленький Гонг?"
-    mt "Что это?"
-    "Маленький Гонг?"
+    mt "Was soll das sein?"
+    "Ein kleiner Gong?"
 
 # game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:44
 translate german monica_office_secretary_teatable_environment_71cfabab:
@@ -92,13 +92,13 @@ translate german monica_office_secretary_teatable_environment_71cfabab:
 translate german monica_office_secretary_teatable_environment_4c7c1daf:
 
     # mt "Развлекательные книги для ожидающих гостей."
-    mt "Развлекательные книги для ожидающих гостей."
+    mt "Bücher zur Unterhaltung für wartende Gäste."
 
 # game/Rooms/Monica_Office/monica_office_secretary_teatable.rpy:48
 translate german monica_office_secretary_teatable_environment_1606d28f:
 
     # mt "Ух-ты! Маленький слоник!"
     # "Как это мило!..."
-    mt "Ух-ты! Маленький слоник!"
-    "Как это мило!..."
+    mt "Wow, ein kleiner Elefant!"
+    "Wie lieb...!"
 

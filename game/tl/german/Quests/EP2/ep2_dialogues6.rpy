@@ -42,9 +42,9 @@ translate german monica_pissing_basement_f28ea5da:
     # mt "Тулает..."
     # mt "Я могу здесь писать пока Бетти не видит."
     # "Уверена она бы и это запретила."
-    mt "Тулает..."
-    mt "Я могу здесь писать пока Бетти не видит."
-    "Уверена она бы и это запретила."
+    mt "WC..."
+    mt "Hier kann ich pinkeln, solange es Betty nicht sieht."
+    "Ich bin sicher, Sie würde mir das verbieten."
 
 # game/Quests/EP2/ep2_dialogues6.rpy:49
 translate german monica_pissing_basement_4c23a0d6:
@@ -52,9 +52,9 @@ translate german monica_pissing_basement_4c23a0d6:
     # mt "Было бы неплохо пописать..."
     # "Я уже давно не писала и Бетти как раз нет поблизости."
     # mt "Я уже писала недавно. Я пока не хочу."
-    mt "Было бы неплохо пописать..."
-    "Я уже давно не писала и Бетти как раз нет поблизости."
-    mt "Я уже писала недавно. Я пока не хочу."
+    mt "Es wäre schön zu pinkeln..."
+    "Ich habe schon länger nicht mehr gepinkelt und Betty ist gerade nicht da."
+    mt "Ich habe schon gepinkelt, ich muss nicht mehr."
 
 # game/Quests/EP2/ep2_dialogues6.rpy:63
 translate german monica_pissing_basement_bdef56c9:
@@ -65,12 +65,12 @@ translate german monica_pissing_basement_bdef56c9:
     # "Но, по крайней мере я здесь, а не на улице..."
     # mt "Надеюсь Бетти не заметит как я делаю это..."
     # mt "Девушка с такой красотой как у меня не заслуживает того что со мной случилось..."
-    mt "Эх... мне надо придумать как вернуть все назад..."
-    mt "Я такая красивая... Как со мной могло случиться такое?"
-    mt "Этот дом такой большой, а мне приходится прятаться чтобы пописать..."
-    "Но, по крайней мере я здесь, а не на улице..."
-    mt "Надеюсь Бетти не заметит как я делаю это..."
-    mt "Девушка с такой красотой как у меня не заслуживает того что со мной случилось..."
+    mt "Eh... Ich muss einen Weg finden, es zurück zu bekommen..."
+    mt "Ich bin so schön... Wie konnte sowas gerade mir passieren?"
+    mt "Das Haus ist so riesig, und dennoch muss ich mich zum pinkeln verstecken..."
+    "Aber wenigstens bin ich hier und nicht draußen..."
+    mt "Ich hoffe, Betty sieht mich nicht dabei..."
+    mt "Ein Mädchen, so schön wie ich, verdient es nicht was mir zugestoßen ist..."
 
 # game/Quests/EP2/ep2_dialogues6.rpy:78
 translate german monica_shower_basement_4328e8bf:
@@ -78,9 +78,9 @@ translate german monica_shower_basement_4328e8bf:
     # mt "Душ..."
     # "Я могу его использовать вместо верхнего душа, куда Бетти запретила мне заходить."
     # "Она бы запретила и этот душ, но я могу принимать его пока она не видит..."
-    mt "Душ..."
-    "Я могу его использовать вместо верхнего душа, куда Бетти запретила мне заходить."
-    "Она бы запретила и этот душ, но я могу принимать его пока она не видит..."
+    mt "Dusche..."
+    "Ich könnte diese nutzen, anstelle der oberen Dusche, die mir Betty verboten hat."
+    "Sie würde mir auch diese verbieten, aber ich kann sie benutzen, bis sie dahinter kommt..."
 
 # game/Quests/EP2/ep2_dialogues6.rpy:82
 translate german monica_shower_basement_fd992643:
@@ -88,9 +88,9 @@ translate german monica_shower_basement_fd992643:
     # mt "Было бы неплохо принять душ..."
     # "Я уже давно его не принимала, а мое тело требует чистоты. Да и Бетти поблизости нет..."
     # mt "Я уже принимала душ недавно..."
-    mt "Было бы неплохо принять душ..."
-    "Я уже давно его не принимала, а мое тело требует чистоты. Да и Бетти поблизости нет..."
-    mt "Я уже принимала душ недавно..."
+    mt "Es wäre wohltuend zu duschen..."
+    "Das habe ich schon länger nicht mehr, mein Körper muss sauber sein. Betty ist grade nicht in der Nähe..."
+    mt "Ich habe erst kürzlich geduscht..."
 
 # game/Quests/EP2/ep2_dialogues6.rpy:93
 translate german monica_shower_basement_edca9c20:
@@ -98,9 +98,9 @@ translate german monica_shower_basement_edca9c20:
     # mt "Как же хорошо принять душ!"
     # mt "Мне приятно ощущать капельки воды, стекающей по моему телу..."
     # mt "Мое тело божественно!"
-    mt "Duschen ist so angenehm!"
-    mt "Мне приятно ощущать капельки воды, стекающей по моему телу..."
-    mt "Мое тело божественно!"
+    mt "Duschen ist so wohltuend!"
+    mt "Es fühlt sich gut an, wie die Wassertropfen meinen Körper herunter rinnen..."
+    mt "Mein Körper ist göttlich!"
 
 translate german strings:
 

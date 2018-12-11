@@ -20,7 +20,7 @@ translate german wardrobeBasement_dialogue1_whore_f4ed01ee:
     # mt "Я не могла подумать, когда увидела эти тряпки в хостеле, что мне придется носить их."
     # "Вместо моего красивого платья... Рррррр!!!"
     mt "Ich hätte nie gedacht, das ich sowas tragen würde, als ich diese Lumpen im Hostel gesehen habe."
-    "Вместо моего красивого платья... Рррррр!!!"
+    "Anstatt meinem wunderschönen Kleid... Grrrr!!!"
 
 # game/Characters/Monica/Wardrobe_Basement.rpy:67
 translate german wardrobeBasement_dialogue2_pants_d6d3051b:
@@ -54,11 +54,11 @@ translate german hook_basement_bedroom_check_exit_cloth_b6d3bca0:
     # "И, не представляю что со мной сделает Бетти за это!"
     # "Она и так все время называет меня шлюхой..."
     # "Сучка..."
-    mt "Я не могу идти в дом в таком виде!"
-    "Этот сопляк Барди только этого и ждёт!"
-    "И, не представляю что со мной сделает Бетти за это!"
-    "Она и так все время называет меня шлюхой..."
-    "Сучка..."
+    mt "So kann ich nicht rein gehen!"
+    "Bardie der Pisser wartet doch nur auf sowas!"
+    "Und ich habe keine Ahnung, was Betty mir antun würde dafür!"
+    "Dauernd nennt sie mich eine Nutte..."
+    "Schlampe..."
 
 # game/Characters/Monica/Wardrobe_Basement.rpy:101
 translate german hook_basement_bedroom_check_exit_cloth_map_c28d4e8a:
@@ -66,9 +66,9 @@ translate german hook_basement_bedroom_check_exit_cloth_map_c28d4e8a:
     # mt "Я не могу идти на улицу в таком виде."
     # "Я еще не сошла с ума!!!"
     # "Мне надо одеться."
-    mt "Я не могу идти на улицу в таком виде."
-    "Я еще не сошла с ума!!!"
-    "Мне надо одеться."
+    mt "So kann ich nicht raus gehen."
+    "Noch bin ich nicht verrückt!!!"
+    "Ich brauche Kleidung."
 
 translate german strings:
 
@@ -86,7 +86,7 @@ translate german strings:
 
     # Characters/Monica/Wardrobe_Basement.rpy:9
     old "Одеть трусики Юлии."
-    new ""
+    new "Zieh Julias Höschen an."
 
     # Characters/Monica/Wardrobe_Basement.rpy:9
     old "Снять все."
@@ -101,14 +101,14 @@ translate german hook_basement_bedroom_check_exit_cloth_14d7d0c2:
     # "Этот сопляк Барди только этого и ждёт!"
     # "И, не представляю что со мной сделает Бетти за это!"
     # "Она и так все время называет меня шлюхой..."
-    mt "Я не могу идти в дом в таком виде!"
-    "Этот сопляк Барди только этого и ждёт!"
-    "И, не представляю что со мной сделает Бетти за это!"
-    "Она и так все время называет меня шлюхой..."
+    mt "So kann ich nicht rein gehen!"
+    "Bardie der Pisser wartet doch nur auf sowas!"
+    "Und ich habe keine Ahnung, was Betty mir antun würde dafür!"
+    "Dauernd nennt sie mich eine Nutte..."
 
 # game/Characters/Monica/Wardrobe_Basement.rpy:93
 translate german hook_basement_bedroom_check_exit_cloth_58d95acf:
 
     # "Сучка..."
-    "Сучка..."
+    "Schlampe..."
 

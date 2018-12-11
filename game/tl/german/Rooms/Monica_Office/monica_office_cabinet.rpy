@@ -62,7 +62,7 @@ translate german strings:
 translate german monica_office_cabinet_environment_5b6a47be:
 
     # mt "Мой... Офис..."
-    mt "Мой... Офис..."
+    mt "Mein...Büro..."
 
 # game/Rooms/Monica_Office/monica_office_cabinet.rpy:69
 translate german monica_office_cabinet_environment_75cdad00:

@@ -20,5 +20,5 @@ translate german bardieMonicaCleaningInteract_2f2381ad:
 translate german bardieStairsFloor1Hook1_4c88471c:
 
     # bardie "Моника! Покажи трусики!"
-    bardie "Моника! Покажи трусики!"
+    bardie "Monica! Zeig dein Höschen!"
 

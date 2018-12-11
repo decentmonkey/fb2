@@ -4,23 +4,23 @@ translate german strings:
 
     # 00_Functions/character_properties.rpy:53
     old "прогресс заморожен"
-    new ""
+    new "Fortschritt eingefroren"
 
     # 00_Functions/character_properties.rpy:63
     old "прогресс перешел на следующий уровень!"
-    new ""
+    new "Fortschritt aufs nächste Level!"
 
     # 00_Functions/character_properties.rpy:70
     old "прогресс увеличен!"
-    new ""
+    new "Fortschritt erfolgreich!"
 
     # 00_Functions/character_properties.rpy:92
     old "Corruption increased"
-    new ""
+    new "Korruption erhöht"
 
     # 00_Functions/character_properties.rpy:94
     old "Corruption decreased"
-    new ""
+    new "Korruption vermindert"
 
 # TODO: Translation updated at 2018-12-06 21:43
 

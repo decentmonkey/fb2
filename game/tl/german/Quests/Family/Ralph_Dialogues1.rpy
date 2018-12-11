@@ -114,7 +114,7 @@ translate german ralphDialogue2_748f403e:
     # "Я не очень-то хотел."
     # "Честно говоря, Бетти и сама хорошо справлялась с домом."
     # "И нам не нужна была гувернантка."
-    ralph "Okay."
+    ralph "Ok."
     "Fred hat mich überredet, dich zu engagieren."
     "Ich wollte eigentlich nicht."
     "Um ehrlich zu sein, Betty hatte alles im Griff."

@@ -18,8 +18,8 @@ translate german basement_pool_environment_0795c97a:
     # mt "Бетти запретила мне пользоваться ванной наверху."
     # "Может быть мне можно пользоваться туалетом здесь?"
     # "Но я сейчас не хочу..."
-    mt "Betty hat mir verboten, das Bad oben zu benutzen."
-    "Vielleicht kann ich das Bad hier benutzen."
+    mt "Betty sagte mir, dass ich das obere Badezimmer nicht benutzen darf."
+    "Vielleicht kann ich das Bad hier nutzen."
     "Aber das will ich jetzt nicht..."
 
 # game/Rooms/House/Basement/basement_pool.rpy:52
@@ -39,7 +39,7 @@ translate german basement_pool_environment_3b21556a:
 
     # mt "Бетти запретила мне пользоваться ванной наверху."
     # "Может быть мне можно пользоваться душем здесь?"
-    mt "Betty hat mir verboten, das Bad oben zu benutzen."
+    mt "Betty sagte mir, dass ich das obere Badezimmer nicht benutzen darf."
     "Vielleicht kann ich die Dusche hier benutzen."
 
 # game/Rooms/House/Basement/basement_pool.rpy:66

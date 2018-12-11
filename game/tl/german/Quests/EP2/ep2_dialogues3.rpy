@@ -1006,7 +1006,7 @@ translate german monica_dick_dialogue1_2158d6fe:
 translate german monica_dick_dialogue1_local1_2bd7df44:
 
     # m "Дик..."
-    m "Дик..."
+    m "Dick..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:240
 translate german monica_dick_dialogue1_local1_36599e87:
@@ -1018,7 +1018,7 @@ translate german monica_dick_dialogue1_local1_36599e87:
 translate german monica_dick_dialogue1_local1_f782ea5e:
 
     # "Дик..."
-    "Дик..."
+    "Dick..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:252
 translate german monica_dick_dialogue1_local1_b954613b:
@@ -1146,7 +1146,7 @@ translate german monica_dick_dialogue1_local1_8f3e882a:
     mt "О БОЖЕ!!! КАК ЖЕ ТАК!?!?"
     "Я НЕ ОЖИДАЛА ТАКОГО ПОВОРОТА!!!"
     "МНЕ НАДО КАК-ТО ПЕРЕУБЕДИТЬ ЕГО!!!"
-    "ИНАЧЕ КОНЕЦ!!!"
+    "SONST, AUS DIE MAUS!!!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:332
 translate german monica_dick_dialogue1_local1_2d002724:
@@ -1157,7 +1157,7 @@ translate german monica_dick_dialogue1_local1_2d002724:
     # "МИЛЫЙ!"
     m "ДИК! ПОЖАЛУЙСТА!"
     "Я могу тоже быть твоим другом!"
-    "ДИК!"
+    "DICK!!!"
     "МИЛЫЙ!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:338
@@ -1173,7 +1173,7 @@ translate german monica_dick_dialogue1_local1_a1b053fa:
     # "Дик!"
     # "Я могу быть вместе с Вами!"
     m "Я... могу дружить и с твоим другом тоже..."
-    "Дик!"
+    "Dick!"
     "Я могу быть вместе с Вами!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:346
@@ -1202,7 +1202,7 @@ translate german monica_dick_dialogue1_local1_8884b8ab:
     # dick "Хм..."
     # "Моника... Я не знаю..."
     # "Я сомневаюсь..."
-    dick "Хм..."
+    dick "Hmm..."
     "Моника... Я не знаю..."
     "Я сомневаюсь..."
 
@@ -1231,7 +1231,7 @@ translate german monica_dick_dialogue1_local1_146f05b3:
 
     # dick "Что, Моника?"
     # m "Какой цвет галстука ты хочешь, милый?"
-    dick "Что, Моника?"
+    dick "Was denn, Monica?"
     m "Какой цвет галстука ты хочешь, милый?"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:376
@@ -1318,7 +1318,7 @@ translate german monica_dick_secretary_dialogue2_57ffa4ac:
 translate german monica_dick_secretary_dialogue2_e2bec9da:
 
     # "Хи-хи!"
-    "Хи-хи!"
+    "Hehe!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:543
 translate german monica_dick_secretary_dialogue2_40414ea3:
@@ -1352,7 +1352,7 @@ translate german monica_dick_secretary_dialogue2_d8213a8d:
 translate german monica_dick_secretary_dialogue2_f0d79344:
 
     # mt "Сучка!"
-    mt "Сучка!"
+    mt "Schlampe!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:582
 translate german monica_dick_secretary_dialogue3_5166c006:
@@ -1379,16 +1379,16 @@ translate german monica_dick_secretary_dialogue3_5da2dfc9:
     # m "Да, Мисс Виктория, конечно..."
     # "До свидания..."
     # mt "Эта сучка заплатит за все!"
-    "Хи-хи!"
+    "Hehe!"
     m "Да, Мисс Виктория, конечно..."
-    "До свидания..."
+    "Auf Wiedersehen..."
     mt "Эта сучка заплатит за все!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:597
 translate german monica_dick_secretary_dialogue4a_060a1c80:
 
     # mt "(хмык)"
-    mt "(хмык)"
+    mt "(schnief)"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:613
 translate german monica_dick_office_refuse_dialogue1_dc7749f6:
@@ -1413,7 +1413,7 @@ translate german monica_dick_office_dialogue2_3afdb398:
     # "Моя судьба сейчас действительно зависит от этих денег!"
     # "..."
     # "Но где мне найти такую сумму?!"
-    mt "ЧЕРТ!"
+    mt "Fuck!!!"
     "Я еле уломала Дика!"
     "Я была на волоске от гибели или чего еще похуже!"
     "Эта Виктория!"
@@ -1448,7 +1448,7 @@ translate german monica_dick_office_dialogue2_fd095fe1:
     # "Из нашего разговора мне показалось что у него есть какое-то предложение ко мне!"
     # "Стоит попробовать!"
     # "Я чувствую что могу об этом пожалеть, но у меня нет выбора..."
-    "Я - Моника Бакфетт!"
+    "Ich bin - Monica Buckfett!"
     "Для того чтобы заработать эту сумму мне надо лишь пошевелить пальцем!"
     "Так было всегда!"
     "..."

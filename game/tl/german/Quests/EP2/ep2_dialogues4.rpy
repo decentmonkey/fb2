@@ -2378,11 +2378,11 @@ translate german monica_office_entrance_biff_dialogue1_a29637f9:
     # "Который думает что он теперь главный в моей компании!"
     # "..."
     # "Может быть {b}попробовать вечером?{/b}"
-    mt "Черт!"
-    "Кто-то поменял код на лифте!"
-    "Теперь мне не попасть внутрь!"
-    "Но ничего! Я еще найду способ это сделать и посмотреть на этого ублюдка!"
-    "Который думает что он теперь главный в моей компании!"
+    mt "Huch!"
+    "Jemand hat das Passwort für den Aufzug geändert."
+    "Jetzt kann ich nicht rein!"
+    "Kein Problem! Ich finde einen anderen Weg!"
+    "Wer denkt, dass er jetzt meine Firma hat?"
     "..."
     "Может быть {b}попробовать вечером?{/b}"
 
@@ -2397,7 +2397,7 @@ translate german monica_office_entrance_biff_dialogue1_129a7c27:
 
     # m "Кто вы?"
     # biff "Меня зовут Биф!"
-    m "Кто вы?"
+    m "Was glaubt ihr, wer ihr seid?"
     biff "Меня зовут Биф!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:33
@@ -2450,7 +2450,7 @@ translate german monica_office_cabinet_biff_dialogue1_39ddc17e:
     biff "О! Цыпочка!"
     "Алекс клялся что не прятал тебя!"
     "Значит он, все-таки, врал и решил исправить свою вину прислав тебя ко мне?"
-    "Ха-ха!"
+    "Haha!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:341
 translate german monica_office_cabinet_biff_dialogue1_6bc63a49:
@@ -2472,7 +2472,7 @@ translate german monica_office_cabinet_biff_dialogue1_1f2ce2e7:
     # biff "Ого!"
     # "Это какая-то шутка?"
     # "Должно быть ты самозванка?" 
-    biff "Ого!"
+    biff "Wow!"
     "Это какая-то шутка?"
     "Должно быть ты самозванка?" 
 
@@ -2652,7 +2652,7 @@ translate german monica_office_photostudio_melanie_dialogue1_local1_a7e31ec1:
 translate german monica_office_photostudio_melanie_dialogue1_local1_f0d79344:
 
     # mt "Сучка!"
-    mt "Сучка!"
+    mt "Schlampe!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:655
 translate german monica_office_photostudio_melanie_dialogue1_local1_13555fcc:
@@ -2683,7 +2683,7 @@ translate german monica_office_photostudio_melanie_dialogue1_local2_e6203777:
 
     # melanie "Спасибо..."
     # melanie "Я была бы очень рада этому, Миссис Бакфетт..."
-    melanie "Спасибо..."
+    melanie "Danke..."
     melanie "Я была бы очень рада этому, Миссис Бакфетт..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:730
@@ -2735,7 +2735,7 @@ translate german monica_office_cabinet_biff_dialogue3_79a5dbbf:
     # "Возможно ты права..."
     # "Пресса пока не пронюхала про то что Бакфетт сидит в тюрьме."
     # "И я бы не хотел чтобы это случилось очень скоро."
-    biff "Хм..."
+    biff "Hmm..."
     "Возможно ты права..."
     "Пресса пока не пронюхала про то что Бакфетт сидит в тюрьме."
     "И я бы не хотел чтобы это случилось очень скоро."
@@ -2788,7 +2788,7 @@ translate german monica_office_cabinet_biff_dialogue3_375caeae:
 translate german monica_office_cabinet_biff_dialogue3_41e43f16:
 
     # biff "Конечно нет!"
-    biff "Конечно нет!"
+    biff "Natürlich nicht!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:924
 translate german monica_office_cabinet_biff_dialogue3_8229a62d:
@@ -2826,7 +2826,7 @@ translate german monica_office_cabinet_biff_dialogue3_local1_b7eb643b:
     # biff "Отлично!"
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
-    biff "Отлично!"
+    biff "Ausgezeichnet!"
     "Если честно, Мелани отказалась от этой серии фотосессий."
     "Она сказала что не хочет иметь ничего общего с полным обнажением."
 
@@ -2884,7 +2884,7 @@ translate german monica_office_secretary_dialogue5_30c54a83:
     "И этот мерзавец еще и предлагает МНЕ это сделать?!"
     "МНЕ - МОНИКЕ БАКФЕТТ!!!"
     "ОБНАЖАТЬСЯ В СВОЕМ ЖЕ ЖУРНАЛЕ?!?!"
-    "Моника!"
+    "Monica!"
     "Это все слишком далеко зашло!"
     "Тебе надо как-то скорее разобраться со всем этим!"
     "Эти мерзавцы, которые меня окружают..."
@@ -3033,7 +3033,7 @@ translate german monica_office_cabinet_biff_dialogue4_1d9c5255:
 
     # "Не переживай!"
     # "Ты покажешь мне свою попку в следующий раз!"
-    "Не переживай!"
+    "Keine Sorge!"
     "Ты покажешь мне свою попку в следующий раз!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1138
@@ -3042,7 +3042,7 @@ translate german monica_office_cabinet_biff_dialogue4_477c62d4:
     # mt "УБЛЮДОК!!!"
     # m "Мне {b}идти в фотостудию{/b}?"
     # biff "Да! Детка!"
-    mt "УБЛЮДОК!!!"
+    mt "Bastard!!!"
     m "Мне {b}идти в фотостудию{/b}?"
     biff "Да! Детка!"
 
@@ -3114,7 +3114,7 @@ translate german monica_office_photostudio_alex_dialogue2_local1_b37e2637:
     # m "Алекс, достаточно."
     # alex_photograph "Мэм..."
     m "Алекс, достаточно."
-    alex_photograph "Мэм..."
+    alex_photograph "Ehm..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1612
 translate german monica_office_photostudio_alex_dialogue2_local1_2ba31af5:
@@ -3158,7 +3158,7 @@ translate german monica_office_cabinet_biff_dialogue5_8637d6f3:
     # biff "Хорошо!"
     # "Если ты уйдешь сейчас, то я не успею посмотреть на твою голую попку!"
     # "Я заплачу тебе наличными, но только после речи на благотворительном вечере!"
-    biff "Хорошо!"
+    biff "Großartig!"
     "Если ты уйдешь сейчас, то я не успею посмотреть на твою голую попку!"
     "Я заплачу тебе наличными, но только после речи на благотворительном вечере!"
 
@@ -3230,7 +3230,7 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues4.rpy:935
     old "Да, я согласна..."
-    new ""
+    new "Да, я согласна..."
 
     # Quests/EP2/ep2_dialogues4.rpy:1555
     old "Продолжить делать кадры. (corruption)"
@@ -3251,7 +3251,7 @@ translate german monica_office_secretary_dialogue4a_5706e483_1:
 
     # secretary "Миссис Бакфетт!"
     # "Мистера Бифа сейчас нет на месте!"
-    secretary "Миссис Бакфетт!"
+    secretary "Frau Buckfett!"
     "Мистера Бифа сейчас нет на месте!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:775
@@ -3283,7 +3283,7 @@ translate german monica_office_secretary_dialogue4a_fbef2ec0:
     # secretary "Он сказал что будет завтра!"
     # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
     # m "Хорошо, дорогая, спасибо."
-    secretary "Миссис Бакфетт!"
+    secretary "Frau Buckfett!"
     "Мистера Бифа сейчас нет на месте!"
     m "Когда он будет?"
     secretary "Он сказал что будет завтра!"
@@ -3406,7 +3406,7 @@ translate german monica_office_cabinet_biff_dialogue3_local2_b7eb643b:
     # biff "Отлично!"
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
-    biff "Отлично!"
+    biff "Ausgezeichnet!"
     "Если честно, Мелани отказалась от этой серии фотосессий."
     "Она сказала что не хочет иметь ничего общего с полным обнажением."
 

@@ -196,7 +196,7 @@ translate german strings:
 
     # 00_Functions/07_init_renpy.rpy:59
     old "Биф"
-    new "biff"
+    new "Beef"
 
     # 00_Functions/07_init_renpy.rpy:60
     old "Бетти Робертс"
@@ -236,55 +236,55 @@ translate german strings:
 
     # 00_Functions/07_init_renpy.rpy:73
     old "Том"
-    new ""
+    new "Tom"
 
     # 00_Functions/07_init_renpy.rpy:74
     old "Тим"
-    new ""
+    new "Tim"
 
     # 00_Functions/07_init_renpy.rpy:75
     old "Джек"
-    new ""
+    new "Jack"
 
     # 00_Functions/07_init_renpy.rpy:77
     old "Акира Сан"
-    new ""
+    new "Akira San"
 
     # 00_Functions/07_init_renpy.rpy:78
     old "Фил"
-    new ""
+    new "Phil"
 
     # 00_Functions/07_init_renpy.rpy:79
     old "Сальвадор"
-    new ""
+    new "Salvador"
 
     # 00_Functions/07_init_renpy.rpy:80
     old "Хитрый Джонни"
-    new ""
+    new "Sly John"
 
     # 00_Functions/07_init_renpy.rpy:81
     old "Найджел"
-    new ""
+    new "Nigel"
 
     # 00_Functions/07_init_renpy.rpy:82
     old "Реджинальд"
-    new ""
+    new "Reginald"
 
     # 00_Functions/07_init_renpy.rpy:83
     old "Саймон"
-    new ""
+    new "Simon"
 
     # 00_Functions/07_init_renpy.rpy:85
     old "Анджело"
-    new ""
+    new "Angelo"
 
     # 00_Functions/07_init_renpy.rpy:86
     old "Василий"
-    new ""
+    new "Basil"
 
     # 00_Functions/07_init_renpy.rpy:87
     old "Френк"
-    new ""
+    new "Frank"
 
     # 00_Functions/07_init_renpy.rpy:90
     old "Звук"

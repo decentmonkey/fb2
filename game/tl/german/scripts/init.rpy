@@ -4,35 +4,35 @@ translate german strings:
 
     # scripts/init.rpy:39
     old "Бетти ждет что Моника будет регулярно убираться в доме."
-    new ""
+    new "Betty erwartet, dass Monica das Haus regelmäßig reinigt."
 
     # scripts/init.rpy:39
     old "Work in progress..."
-    new ""
+    new "In Arbeit..."
 
     # scripts/init.rpy:39
     old "Биф обещал взять Монику работать в офис."
-    new ""
+    new "Biff versprach Monica, dass sie im Büro arbeiten kann."
 
     # scripts/init.rpy:39
     old "Барди ищет способ заглянуть Монике под юбку."
-    new ""
+    new "Bardie versucht einen Weg zu finden, unter Monicas Rock zu schauen."
 
     # scripts/init.rpy:39
     old "Вивиан"
-    new ""
+    new "Vivian"
 
     # scripts/init.rpy:39
     old "Виктория"
-    new ""
+    new "Victoria"
 
     # scripts/init.rpy:39
     old "Виктория видит в Монике угрозу."
-    new ""
+    new "Victoria empfindet Monica als Bedrohung"
 
     # scripts/init.rpy:39
     old "Джейн"
-    new ""
+    new "Jane"
 
     # scripts/init.rpy:69
     old "Смотреть"
@@ -52,7 +52,7 @@ translate german strings:
 
     # scripts/init.rpy:69
     old "Инфо"
-    new ""
+    new "Info"
 
     # scripts/init.rpy:140
     old "Пн"

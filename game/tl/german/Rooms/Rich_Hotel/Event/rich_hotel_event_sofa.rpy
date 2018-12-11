@@ -86,5 +86,5 @@ translate german strings:
 
     # Rooms/Rich_Hotel/Event/rich_hotel_event_sofa.rpy:21
     old "ИДТИ КО СЦЕНЕ"
-    new ""
+    new "GEH ZUR BÜHNE"
 

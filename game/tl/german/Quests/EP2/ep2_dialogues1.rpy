@@ -735,16 +735,16 @@ translate german sleep_scene1_56d4df9e:
     # "Затем {b}пойти поискать еду{/b}..."
     mt "..."
     "Also..."
-    "Сейчас, думаю, надо {b}притвориться горничной{/b}."
-    "Затем {b}пойти поискать еду{/b}..."
+    "Jetzt, denke ich, sollte ich {b}so tun als wäre ich ein Dienstmädchen{/b}."
+    "Dann{b}muss ich nah Essen suchen{/b}..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:390
 translate german sleep_scene1_e8d4e1fc:
 
     # "Думаю мне необязательно все время убираться здесь..."
     # "Эта семейка не привыкла к тем стандартам чистоты, которые требовала я от гувернанток."
-    "Думаю мне необязательно все время убираться здесь..."
-    "Эта семейка не привыкла к тем стандартам чистоты, которые требовала я от гувернанток."
+    "Ich denke nicht, dass ich das Haus die ganze Zeit putzen muss..."
+    "Diese Familie ist nicht an den Standard für Sauberkeit gewohnt, den ich von meiner Dienstmagd erwartet habe."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:393
 translate german sleep_scene1_31aad242:
@@ -752,9 +752,9 @@ translate german sleep_scene1_31aad242:
     # "Но иногда убираться все-же стоит. Это может вызвать доверие у Бетти."
     # "Хотя зачем мне ее доверие?"
     # "Мне, почему-то, кажется что еду брать она все-равно не разрешит."
-    "Но иногда убираться все-же стоит. Это может вызвать доверие у Бетти."
-    "Хотя зачем мне ее доверие?"
-    "Мне, почему-то, кажется что еду брать она все-равно не разрешит."
+    "Aber es könnte sich lohnen zu putzen. Das sollte Bettys Vertrauen in mich steigern."
+    "Andererseits, wieso sollte ich ihr trauen?"
+    "Aus irgend einem Grund denke ich, ist mir nicht erlaubt, Essen zu nehmen."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:400
 translate german spot_monica_comment1_c3fef90e:
@@ -762,29 +762,29 @@ translate german spot_monica_comment1_c3fef90e:
     # mt "Я не собираюсь убирать это пятно!"
     # "Этот ковер надо менять!"
     # "Думаю Бетти это прекрасно понимает, потому и не говорит про пятно."
-    mt "Я не собираюсь убирать это пятно!"
-    "Этот ковер надо менять!"
-    "Думаю Бетти это прекрасно понимает, потому и не говорит про пятно."
+    mt "Ich werde ganz sicher nicht den Fleck weg machen!"
+    "Der Teppich muss ausgewechselt werden!"
+    "Ich denke, das weiß Betty. Deswegen redet sie auch nicht über den Fleck"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:411
 translate german cleaning_betty_comment1_a2ac888f:
 
     # betty "Моника, гувернантка."
     # "Продолжай убираться."
-    betty "Моника, гувернантка."
-    "Продолжай убираться."
+    betty "Monica, Dienstmädchen."
+    "Putz weiter."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:416
 translate german cleaning_betty_comment1_ba11ae58:
 
     # betty "Моника, гувернантка."
-    betty "Моника, гувернантка."
+    betty "Monica, Dienstmädchen."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:418
 translate german cleaning_betty_comment1_000edcab:
 
     # "Как я выгляжу?"
-    "Как я выгляжу?"
+    "Wie sehe ich aus?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:420
 translate german cleaning_betty_comment1_e3d7fad2:
@@ -802,13 +802,13 @@ translate german cleaning_betty_comment1_0a5616b8:
 translate german cleaning_betty_comment1_1ff29d6f:
 
     # m "Да, Мэм. Вы выглядите великолепно."
-    m "Да, Мэм. Вы выглядите великолепно."
+    m "Ja, Sie sehen toll aus."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:426
 translate german cleaning_betty_comment1_00e9e1c8:
 
     # betty "Да, получше чем ты!"
-    betty "Да, получше чем ты!"
+    betty "Besser als du!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:428
 translate german cleaning_betty_comment1_d4f97589:
@@ -817,38 +817,38 @@ translate german cleaning_betty_comment1_d4f97589:
     # "Твою фигуру можно поправить."
     # m "Да, Мэм..."
     # "Спасибо..."
-    "Если ты будешь также стараться и дальше, то я возьму тебя с собой на фитнес."
-    "Твою фигуру можно поправить."
-    m "Да, Мэм..."
+    "Wenn du weiter fleißig bist, nehme ich dich ins Fitnessstudio mit."
+    "Deine Figur könnte es vertragen."
+    m "Ja."
     "Danke..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:435
 translate german cleaning_betty_comment1_3c8166d4:
 
     # betty "Продолжай убираться."
-    betty "Продолжай убираться."
+    betty "Putz weiter."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:439
 translate german cleaning_betty_comment1_842f0875:
 
     # betty "Моника, гувернантка."
     # "Ты плохо работаешь и нерегулярно убираешь, я вижу!"
-    betty "Моника, гувернантка."
-    "Ты плохо работаешь и нерегулярно убираешь, я вижу!"
+    betty "Monica, Dienstmädchen."
+    "Du arbeitest nicht fleißig und putzt unregelmäßig, das sehe ich!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:442
 translate german cleaning_betty_comment1_225f9c2d:
 
     # m "Мэм, простите..."
     # "Я буду стараться лучше..."
-    m "Мэм, простите..."
-    "Я буду стараться лучше..."
+    m "Ja, tut mir leid..."
+    "Ich gelobe mich zu bessern..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:445
 translate german cleaning_betty_comment1_4bd51cb5:
 
     # betty "Не знаю зачем Ральф тебя держит, Фи!"
-    betty "Не знаю зачем Ральф тебя держит, Фи!"
+    betty "Ich weiß nicht, warum Ralph dich behalten will. Pah!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:447
 translate german cleaning_betty_comment1_b1d15285:
@@ -862,33 +862,33 @@ translate german cleaning_betty_comment1_b1d15285:
 translate german cleaning_bardie_comment1_4c88471c:
 
     # bardie "Моника! Покажи трусики!"
-    bardie "Моника! Покажи трусики!"
+    bardie "Monica! Zeig dein Höschen!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:467
 translate german cleaning_bardie_comment1_509c5b3e:
 
     # m "Как ты себе позволяешь общаться со старшими?!"
-    m "Как ты себе позволяешь общаться со старшими?!"
+    m "Wie kannst du es wagen, mit Älteren zu sprechen?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:469
 translate german cleaning_bardie_comment1_1e00507b:
 
     # bardie "Ты гувернантка! Я твой хозяин!"
-    bardie "Ты гувернантка! Я твой хозяин!"
+    bardie "Du bist ne Dienstmagd! Du gehörst mir!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:471
 translate german cleaning_bardie_comment1_ccf772db:
 
     # "Покажи что у тебя под юбочкой!"
-    "Покажи что у тебя под юбочкой!"
+    "Zeig mir was unter deinem Rock ist!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:473
 translate german cleaning_bardie_comment1_ed774a63:
 
     # m "Здесь хозяин Мистер Ральф, а не ты, малявка!"
     # "Исчезни, пока я тебя не прибила прямо здесь и сейчас!"
-    m "Здесь хозяин Мистер Ральф, а не ты, малявка!"
-    "Исчезни, пока я тебя не прибила прямо здесь и сейчас!"
+    m "Ralph ist hier der Chef, nicht du, kleiner Mensch!"
+    "Verschwinde bevor ich dich auf der Stelle töte!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:477
 translate german cleaning_bardie_comment1_27701d53:
@@ -902,27 +902,27 @@ translate german cleaning_bardie_comment1_27701d53:
 translate german cleaning_bardie_comment2_07d4936c:
 
     # bardie "Моника! Убирайся в комнате хозяина как следует!"
-    bardie "Моника! Убирайся в комнате хозяина как следует!"
+    bardie "Monica! Putze das Schlafzimmer des Hausherren ordentlich!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:497
 translate german cleaning_bardie_comment2_23409edc:
 
     # m "Ты здесь не хозяин, малявка!"
-    m "Ты здесь не хозяин, малявка!"
+    m "Du bist nicht der Chef hier, Baby!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:499
 translate german cleaning_bardie_comment2_b768a194:
 
     # bardie "Если ты мне покажешь трусики, то я разрешу тебе не убирать здесь."
-    bardie "Если ты мне покажешь трусики, то я разрешу тебе не убирать здесь."
+    bardie "Wenn du mir dein Höschen zeigst, musst du hier nicht putzen."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:501
 translate german cleaning_bardie_comment2_db13d9a8:
 
     # m "Нет уж! Я ни за что этого не сделаю!"
     # "Лучше исчезни!"
-    m "Нет уж! Я ни за что этого не сделаю!"
-    "Лучше исчезни!"
+    m "Keine Chance! Das würde ich nie tun!"
+    "Geh besser weg!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:505
 translate german cleaning_bardie_comment2_27701d53:
@@ -936,33 +936,33 @@ translate german cleaning_bardie_comment2_27701d53:
 translate german cleaning_bardie_comment3_4c88471c:
 
     # bardie "Моника! Покажи трусики!"
-    bardie "Моника! Покажи трусики!"
+    bardie "Monica! Zeig dein Höschen!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:531
 translate german cleaning_bardie_comment3_509c5b3e:
 
     # m "Как ты себе позволяешь общаться со старшими?!"
-    m "Как ты себе позволяешь общаться со старшими?!"
+    m "Wie kannst du es wagen, mit Älteren zu sprechen?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:533
 translate german cleaning_bardie_comment3_1e00507b:
 
     # bardie "Ты гувернантка! Я твой хозяин!"
-    bardie "Ты гувернантка! Я твой хозяин!"
+    bardie "Du bist ne Dienstmagd! Du gehörst mir!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:535
 translate german cleaning_bardie_comment3_ccf772db:
 
     # "Покажи что у тебя под юбочкой!"
-    "Покажи что у тебя под юбочкой!"
+    "Zeig mir was unter deinem Rock ist!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:537
 translate german cleaning_bardie_comment3_ed774a63:
 
     # m "Здесь хозяин Мистер Ральф, а не ты, малявка!"
     # "Исчезни, пока я тебя не прибила прямо здесь и сейчас!"
-    m "Здесь хозяин Мистер Ральф, а не ты, малявка!"
-    "Исчезни, пока я тебя не прибила прямо здесь и сейчас!"
+    m "Ralph ist hier der Chef, nicht du, kleiner Mensch!"
+    "Verschwinde bevor ich dich auf der Stelle töte!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:541
 translate german cleaning_bardie_comment3_27701d53:
@@ -976,121 +976,121 @@ translate german cleaning_bardie_comment3_27701d53:
 translate german cleaning_monica_goout1_eeafc057:
 
     # mt "Мне надо закончить эту гребаную уборку, прежде чем уходить!"
-    mt "Мне надо закончить эту гребаную уборку, прежде чем уходить!"
+    mt "Ich muss dieses verdammte Saubermachen fertig bekommen, bevor ich gehe!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:551
 translate german cleaning_monica_goout1_eebeb95c:
 
     # mt "Мне надо закончить уборку здесь прежде чем уходить."
     # "Иначе Бетти уволит меня и я окажусь на улице!"
-    mt "Мне надо закончить уборку здесь прежде чем уходить."
-    "Иначе Бетти уволит меня и я окажусь на улице!"
+    mt "Ich muss hier noch fertig putzen."
+    "Sonst wird mich Betty feuern und dann muss ich auf der Straße wohnen!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:558
 translate german cleaning_monica_finished1_f1525b35:
 
     # mt "Я закончила уборку. Что там у нас дальше?"
-    mt "Я закончила уборку. Что там у нас дальше?"
+    mt "Fertig mit Putzen, was nun?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:562
 translate german cleaning_monica_comment_96d431d6:
 
     # mt "Ненавижу убираться!!!"
     # "Я королева и мне нельзя заниматься такой работой!"
-    mt "Ненавижу убираться!!!"
-    "Я королева и мне нельзя заниматься такой работой!"
+    mt "Ich hasse putzen!!!"
+    "Ich bin die Königin und ich kann diese Arbeit nicht machen!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:571
 translate german bardie_comment4_9cdfbb8a:
 
     # bardie "Эй! Гувернантка!"
     # "Покажи что у тебя под юбкой!"
-    bardie "Эй! Гувернантка!"
-    "Покажи что у тебя под юбкой!"
+    bardie "Hey! Dienstmädchen!"
+    "Zeig mir was unter deinem Rock ist!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:574
 translate german bardie_comment4_5e66c3f2:
 
     # m "С какой стати я буду это делать?!"
-    m "С какой стати я буду это делать?!"
+    m "Warum zur Hölle sollte ich das tun?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:576
 translate german bardie_comment4_2fbbe860:
 
     # bardie "Ты там что-то прячешь! Ты что-то украла!"
-    bardie "Ты там что-то прячешь! Ты что-то украла!"
+    bardie "Du versteckst da doch was! Du hast etwas gestohlen!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:578
 translate german bardie_comment4_07aec8d6:
 
     # m "Я ничего не украла, малявка!"
     # "Как ты смеешь обвинять меня?!"
-    m "Я ничего не украла, малявка!"
-    "Как ты смеешь обвинять меня?!"
+    m "Ich habe gar nichts gestohlen, Baby!"
+    "Wie kannst du es wagen, mich zu beschuldigen?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:581
 translate german bardie_comment4_4cbe27a0:
 
     # bardie "Тогда докажи! Подними юбку!"
-    bardie "Тогда докажи! Подними юбку!"
+    bardie "Beweise es! Zieh den Rock hoch!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:583
 translate german bardie_comment4_fc252d69:
 
     # m "Я не собираюсь ничего доказывать тебе, малявка!"
     # "Прочь с дороги!"
-    m "Я не собираюсь ничего доказывать тебе, малявка!"
-    "Прочь с дороги!"
+    m "Ich werde dir gar nichts beweisen, Baby!"
+    "Geh mir aus dem Weg!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:589
 translate german bardie_comment5_6a718a4c:
 
     # mt "Я не собираюсь подходить к этой малявке!"
-    mt "Я не собираюсь подходить к этой малявке!"
+    mt "Ich werde mich nicht diesem kleinen Ding nähern!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:601
 translate german monica_goout1_governess_restrict_e711cb47:
 
     # betty "Эй! Дорогуша!"
     # "Куда это ты собралась?!"
-    betty "Эй! Дорогуша!"
-    "Куда это ты собралась?!"
+    betty "Hey! Darling!"
+    "Wo willst Du hin?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:604
 translate german monica_goout1_governess_restrict_9028c6f4:
 
     # m "Миссис Робертс! Я..."
-    m "Миссис Робертс! Я..."
+    m "Frau Roberts! Ich..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:606
 translate german monica_goout1_governess_restrict_dedab34e:
 
     # "Я собиралась идти по свои делам и..."
     # betty "Ты собралась вынести собственность дома за его пределы?"
-    "Я собиралась идти по свои делам и..."
-    betty "Ты собралась вынести собственность дома за его пределы?"
+    "Ich wollte meinem Job nachgehen..."
+    betty "Willst du irgendwelche Besitztümer aus dem Haus schmuggeln?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:609
 translate german monica_goout1_governess_restrict_c51204ff:
 
     # m "Что Вы имеете ввиду, Мэм?!"
     # betty "Эта униформа! Это моя собственность!"
-    m "Что Вы имеете ввиду, Мэм?!"
-    betty "Эта униформа! Это моя собственность!"
+    m "Von was reden Sie bitte?"
+    betty "Die Uniform! Das ist mein Eigentum!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:612
 translate german monica_goout1_governess_restrict_50d777da:
 
     # "Кто разрешал тебе покидать территорию дома, {b}одетой в униформу{/b}?"
     # "Ты решила украсть ее?!"
-    "Кто разрешал тебе покидать территорию дома, {b}одетой в униформу{/b}?"
-    "Ты решила украсть ее?!"
+    "Wer hat dir erlaubt, das Haus zu verlassen, {b}mit der Uniform{/b}?"
+    "Wolltest du sie stehlen?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:615
 translate german monica_goout1_governess_restrict_853e6c7c:
 
     # m "Нет, Мэм! Я всего-лишь собиралась выйти ненадолго, чтобы..."
-    m "Нет, Мэм! Я всего-лишь собиралась выйти ненадолго, чтобы..."
+    m "Nein, ich wollte nur kurz raus um..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:617
 translate german monica_goout1_governess_restrict_0ccdfa5c:
@@ -1098,15 +1098,15 @@ translate german monica_goout1_governess_restrict_0ccdfa5c:
     # betty "Собстенность дома не должна покидать его пределы!"
     # "Я не понимаю что у тебя за дела за пределами этого дома."
     # "Неужели ты уже закончила все дела?"
-    betty "Собстенность дома не должна покидать его пределы!"
-    "Я не понимаю что у тебя за дела за пределами этого дома."
-    "Неужели ты уже закончила все дела?"
+    betty "Hauseigentum darf das Gelände nicht verlassen!"
+    "Ich wüsste nicht, was du außerhalb des Hauses zu tun hättest?"
+    "Bist du schon fertig?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:623
 translate german monica_goout1_governess_restrict_e4a1e664:
 
     # "Я вижу как ты отлыниваешь от работы!"
-    "Я вижу как ты отлыниваешь от работы!"
+    "Ich sehe, dass du mit der Arbeit aufgehört hast!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:626
 translate german monica_goout1_governess_restrict_cbc0092b:
@@ -1115,28 +1115,28 @@ translate german monica_goout1_governess_restrict_cbc0092b:
     # "Но если ты решила все-таки уйти, то, будь добра, {b}переоденься в свою одежду{/b}!!!"
     # "ЯСНО ТЕБЕ?!"
     # m "Да, Миссис Робертс... Я поняла..."
-    "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
-    "Но если ты решила все-таки уйти, то, будь добра, {b}переоденься в свою одежду{/b}!!!"
+    "Für das Geld, was wir dir zahlen, denke ich nicht, dass du überhaupt Freizeit haben solltest."
+    "Aber wenn du schon gehen willst, dann bitte, {b}zieh dir deine eigenen Kleider an{/b}!!!"
     "IST DAS KLAR?!"
-    m "Да, Миссис Робертс... Я поняла..."
+    m "Ja, Frau Roberts... Ich verstehe..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:631
 translate german monica_goout1_governess_restrict_1f686299:
 
     # mt "Черт! Похоже, чтобы выйти, мне надо переодеться!"
-    mt "Черт! Похоже, чтобы выйти, мне надо переодеться!"
+    mt "Fuck! Ich muss mich wohl umziehen, wenn ich raus will!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:638
 translate german monica_goout1_governess_restrict_289b3d9b:
 
     # betty "Эй! Дорогуша!"
-    betty "Эй! Дорогуша!"
+    betty "Hey! Darling!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:640
 translate german monica_goout1_governess_restrict_b36e4c68:
 
     # "Куда это ты собралась?!"
-    "Куда это ты собралась?!"
+    "Wo willst Du hin?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:642
 translate german monica_goout1_governess_restrict_3d1abcf4:
@@ -1145,10 +1145,10 @@ translate german monica_goout1_governess_restrict_3d1abcf4:
     # "Я собиралась идти по свои делам и..."
     # betty "Ты собралась вынести собственность дома за его пределы?"
     # m "Что Вы имеете ввиду, Мэм?!"
-    m "Миссис Робертс! Я..."
-    "Я собиралась идти по свои делам и..."
-    betty "Ты собралась вынести собственность дома за его пределы?"
-    m "Что Вы имеете ввиду, Мэм?!"
+    m "Frau Roberts! Ich..."
+    "Ich wollte meinem Job nachgehen..."
+    betty "Willst du irgendwelche Besitztümer aus dem Haus schmuggeln?"
+    m "Von was reden Sie bitte?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:647
 translate german monica_goout1_governess_restrict_c813c170:
@@ -1156,15 +1156,15 @@ translate german monica_goout1_governess_restrict_c813c170:
     # betty "Эта униформа! Это моя собственность!"
     # "Кто разрешал тебе покидать территорию дома, {b}одетой в униформу{/b}?"
     # "Ты решила украсть ее?!"
-    betty "Эта униформа! Это моя собственность!"
-    "Кто разрешал тебе покидать территорию дома, {b}одетой в униформу{/b}?"
-    "Ты решила украсть ее?!"
+    betty "Die Uniform! Das ist mein Eigentum!"
+    "Wer hat dir erlaubt, das Haus zu verlassen, {b}mit der Uniform{/b}?"
+    "Wolltest du sie stehlen?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:651
 translate german monica_goout1_governess_restrict_853e6c7c_1:
 
     # m "Нет, Мэм! Я всего-лишь собиралась выйти ненадолго, чтобы..."
-    m "Нет, Мэм! Я всего-лишь собиралась выйти ненадолго, чтобы..."
+    m "Nein, ich wollte nur kurz raus um..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:653
 translate german monica_goout1_governess_restrict_0ccdfa5c_1:
@@ -1172,15 +1172,15 @@ translate german monica_goout1_governess_restrict_0ccdfa5c_1:
     # betty "Собстенность дома не должна покидать его пределы!"
     # "Я не понимаю что у тебя за дела за пределами этого дома."
     # "Неужели ты уже закончила все дела?"
-    betty "Собстенность дома не должна покидать его пределы!"
-    "Я не понимаю что у тебя за дела за пределами этого дома."
-    "Неужели ты уже закончила все дела?"
+    betty "Hauseigentum darf das Gelände nicht verlassen!"
+    "Ich wüsste nicht, was du außerhalb des Hauses zu tun hättest?"
+    "Bist du schon fertig?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:659
 translate german monica_goout1_governess_restrict_e4a1e664_1:
 
     # "Я вижу как ты отлыниваешь от работы!"
-    "Я вижу как ты отлыниваешь от работы!"
+    "Ich sehe, dass du mit der Arbeit aufgehört hast!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:662
 translate german monica_goout1_governess_restrict_30f16a20:
@@ -1188,21 +1188,21 @@ translate german monica_goout1_governess_restrict_30f16a20:
     # "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
     # "Но если ты решила все-таки уйти, то, будь добра, {b}переоденься в свою одежду{/b}!!!"
     # "ЯСНО ТЕБЕ?!"
-    "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
-    "Но если ты решила все-таки уйти, то, будь добра, {b}переоденься в свою одежду{/b}!!!"
+    "Für das Geld, was wir dir zahlen, denke ich nicht, dass du überhaupt Freizeit haben solltest."
+    "Aber wenn du schon gehen willst, dann bitte, {b}zieh dir deine eigenen Kleider an{/b}!!!"
     "IST DAS KLAR?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:666
 translate german monica_goout1_governess_restrict_0d0e3a0d:
 
     # m "Да, Миссис Робертс... Я поняла..."
-    m "Да, Миссис Робертс... Я поняла..."
+    m "Ja, Frau Roberts... Ich verstehe..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:668
 translate german monica_goout1_governess_restrict_1f686299_1:
 
     # mt "Черт! Похоже, чтобы выйти, мне надо переодеться!"
-    mt "Черт! Похоже, чтобы выйти, мне надо переодеться!"
+    mt "Fuck! Ich muss mich wohl umziehen, wenn ich raus will!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:673
 translate german monica_wakeup1_a2404ba7:
@@ -1214,19 +1214,19 @@ translate german monica_wakeup1_a2404ba7:
     # "Я заслуживаю лучшего!"
     # mt "Это мой дом! Я не заслуживаю того чтобы спать в подвале!"
     # mt "Мне надо что-то придумать, чтобы вернуть все назад как было!"
-    mt "Еще одно утро в этой дыре! Мне надо что-то придумать, чтобы вернуть все назад как было!"
-    mt "Я не высыпаюсь на этой кровати."
-    "Мне нужна нормальная постель!"
-    mt "Такая королева как я не может привыкнуть спать в таких условиях!"
-    "Я заслуживаю лучшего!"
-    mt "Это мой дом! Я не заслуживаю того чтобы спать в подвале!"
-    mt "Мне надо что-то придумать, чтобы вернуть все назад как было!"
+    mt "Ein weiterer Morgen in diesem Loch. Ich muss mir etwas einfallen lassen, um es zurück zu bekommen."
+    mt "Ich bekomme nicht genug Schlaf auf diesem Bett."
+    "Ich brauche ein vernünftiges Bett!"
+    mt "Eine Königin wie ich kann sich zum Schlafen nicht an diese Umstände gewöhnen."
+    "Ich verdiene besseres!"
+    mt "Das ist mein Haus. Ich habe es nicht verdient, im Keller zu schlafen!"
+    mt "Ich muss mir etwas einfallen lassen, um es zurück zu bekommen!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:688
 translate german monica_gosleep1_1a9716fb:
 
     # mt "Я сегодня ничего не ела! Лечь спать голодной?"
-    mt "Я сегодня ничего не ела! Лечь спать голодной?"
+    mt "Ich habe heute nichts gegessen? Soll ich hungrig ins Bett?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:696
 translate german monica_gosleep1_39f822c8:
@@ -1234,9 +1234,9 @@ translate german monica_gosleep1_39f822c8:
     # mt "{b}Я не ела{/b} уже третий день!"
     # "Я не могу лечь спать в таком состоянии!"
     # "Я ХОЧУ ЕСТЬ!!!"
-    mt "{b}Я не ела{/b} уже третий день!"
-    "Я не могу лечь спать в таком состоянии!"
-    "Я ХОЧУ ЕСТЬ!!!"
+    mt "{b}Ich habe nichts gegessen{/b} seit drei Tagen!"
+    "So kann ich nicht schlafen!"
+    "ICH WILL ESSEN!!!"
 
 translate german strings:
 
@@ -1258,13 +1258,13 @@ translate german strings:
 translate german cleaning_betty_comment1_ba11ae58_1:
 
     # betty "Моника, гувернантка."
-    betty "Моника, гувернантка."
+    betty "Monica, Dienstmädchen."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:451
 translate german cleaning_betty_comment1_000edcab_1:
 
     # "Как я выгляжу?"
-    "Как я выгляжу?"
+    "Wie sehe ich aus?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:453
 translate german cleaning_betty_comment1_e3d7fad2_1:
@@ -1282,15 +1282,15 @@ translate german cleaning_betty_comment1_0a5616b8_1:
 translate german cleaning_betty_comment1_1ff29d6f_1:
 
     # m "Да, Мэм. Вы выглядите великолепно."
-    m "Да, Мэм. Вы выглядите великолепно."
+    m "Ja, Sie sehen toll aus."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:459
 translate german cleaning_betty_comment1_72197c04:
 
     # betty "Да, получше чем ты!"
     # "Продолжай убираться."
-    betty "Да, получше чем ты!"
-    "Продолжай убираться."
+    betty "Besser als du!"
+    "Putz weiter."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:476
 translate german cleaning_betty_comment1_72c4389d:
@@ -1310,15 +1310,15 @@ translate german monica_goout1_governess_restrict_30f16a20_1:
     # "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
     # "Но если ты решила все-таки уйти, то, будь добра, {b}переоденься в свою одежду{/b}!!!"
     # "ЯСНО ТЕБЕ?!"
-    "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
-    "Но если ты решила все-таки уйти, то, будь добра, {b}переоденься в свою одежду{/b}!!!"
+    "Für das Geld, was wir dir zahlen, denke ich nicht, dass du überhaupt Freizeit haben solltest."
+    "Aber wenn du schon gehen willst, dann bitte, {b}zieh dir deine eigenen Kleider an{/b}!!!"
     "IST DAS KLAR?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:699
 translate german monica_goout1_governess_restrict_0d0e3a0d_1:
 
     # m "Да, Миссис Робертс... Я поняла..."
-    m "Да, Миссис Робертс... Я поняла..."
+    m "Ja, Frau Roberts... Ich verstehe..."
 
 translate german strings:
 
@@ -1348,19 +1348,19 @@ translate german strings:
 translate german sleep_scene1_1d6bb01b:
 
     # "Животное, фу!"
-    "Животное, фу!"
+    "Welch Tier, wah!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:353
 translate german sleep_scene1_49eb913b:
 
     # "Маленькое ничтожество..."
-    "Маленькое ничтожество..."
+    "Kleiner Pisser..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:355
 translate german sleep_scene1_e3c24c48:
 
     # "Конечно ему никогда не светит прикоснуться к такой красоте как Я..."
-    "Конечно ему никогда не светит прикоснуться к такой красоте как Я..."
+    "Natürlich wird er nie eine Schönheit wie mich berühren..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:430
 translate german sleep_scene1_af2511a3:
@@ -1369,10 +1369,10 @@ translate german sleep_scene1_af2511a3:
     # "Нет, к этому слизняку в таком виде идти точно не стоит."
     # "Этот мешок с дерьмом сделает все чтобы использовать это небольшое недоразумение в своих целях..."
     # "Я его слишком хорошо знаю..."
-    "Стив?..."
-    "Нет, к этому слизняку в таком виде идти точно не стоит."
-    "Этот мешок с дерьмом сделает все чтобы использовать это небольшое недоразумение в своих целях..."
-    "Я его слишком хорошо знаю..."
+    "Steve?..."
+    "Nein, es wäre falsch, zu diesem Schleimbeutel in seinem Sackoutfit zu gehen."
+    "Dieser Drecksack würde alles tun, dieses kleine Missverständnis auszukosten..."
+    "Ich kenne ihn zu gut..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:436
 translate german sleep_scene1_fd0730f3:
@@ -1381,10 +1381,10 @@ translate german sleep_scene1_fd0730f3:
     # "Тиффани и Джейн..."
     # "После того как я угрожала уволить их, они могут быть пострашнее той секретарши у Дика..."
     # "Жалкие ничтожества..."
-    "Плюс вокруг недо въются эти две проститутки..."
-    "Тиффани и Джейн..."
-    "После того как я угрожала уволить их, они могут быть пострашнее той секретарши у Дика..."
-    "Жалкие ничтожества..."
+    "Desweiteren schwirren diese zwei Nutten um ihn herum..."
+    "Tiffany und Jane..."
+    "Nachdem ich ihnen drohte, sie zu feuern, könnten sie verängstigter sein als Dicks Sekretärin..."
+    "Nutzlose, kleine Insekten..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:495
 translate german sleep_scene1_72c4389d:
@@ -1398,7 +1398,7 @@ translate german sleep_scene1_638b971b:
     # "Итак..."
     # "Сейчас, думаю, надо {b}притвориться горничной{/b}."
     # "Затем {b}пойти поискать еду{/b}..."
-    "Итак..."
-    "Сейчас, думаю, надо {b}притвориться горничной{/b}."
-    "Затем {b}пойти поискать еду{/b}..."
+    "Also..."
+    "Jetzt, denke ich, sollte ich {b}so tun als wäre ich ein Dienstmädchen{/b}."
+    "Dann{b}muss ich nah Essen suchen{/b}..."
 

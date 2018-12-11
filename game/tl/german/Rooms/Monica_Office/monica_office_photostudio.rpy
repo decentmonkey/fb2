@@ -70,43 +70,43 @@ translate german monica_office_photostudio_environment_4fe49e73:
 translate german monica_office_photostudio_environment_c0e618d6:
 
     # mt "Этот световой бокс для заполняющего света, снизу."
-    mt "Этот световой бокс для заполняющего света, снизу."
+    mt "Das ist für mehr Licht von unten."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:61
 translate german monica_office_photostudio_environment_37b032ab:
 
     # mt "Какие-то ящики с хламом."
     # "Конечно там не хлам, а дорогое оборудование, но тем не менее..."
-    mt "Какие-то ящики с хламом."
-    "Конечно там не хлам, а дорогое оборудование, но тем не менее..."
+    mt "Einige Kisten mit Zeug."
+    "Natürlich gibt es hier keinen Müll, sondern nur teures Equipment, aber was solls jetzt..."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:64
 translate german monica_office_photostudio_environment_5128fefb:
 
     # mt "Полотно для фона во время съемок."
-    mt "Полотно для фона во время съемок."
+    mt "Die Leinwand für den Hintergrund beim filmen."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:67
 translate german monica_office_photostudio_environment_40a9ebdb:
 
     # mt "Софтбокс для бокового света, насколько я помню..."
-    mt "Софтбокс для бокового света, насколько я помню..."
+    mt "Die Softbox für das Seitenlicht, wenn ich mich recht erinnere..."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:70
 translate german monica_office_photostudio_environment_587cae7e:
 
     # mt "Это просветный зонт, для заливающего света."
-    mt "Это просветный зонт, для заливающего света."
+    mt "Das ist ein Skylight Schirm für frontales Licht."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:73
 translate german monica_office_photostudio_environment_163e48fd:
 
     # mt "Это контровой свет. Цветной."
-    mt "Это контровой свет. Цветной."
+    mt "Das ist farbiges Gegenlicht."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:78
 translate german monica_office_photostudio_environment_7bd32022:
 
     # mt "Эти прожекторы освещают модель сверху, а также подсвечивают фон за ней."
-    mt "Эти прожекторы освещают модель сверху, а также подсвечивают фон за ней."
+    mt "Diese Spotlichter beleuchten das Model von oben und den Hintergrund."
 

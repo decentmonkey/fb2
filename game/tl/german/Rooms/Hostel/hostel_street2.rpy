@@ -4,7 +4,7 @@ translate german strings:
 
     # Rooms/Hostel/hostel_street2.rpy:24
     old "БЕДНЫЙ РАЙОН"
-    new ""
+    new "ZURÜCK ZUM KEBAB"
 
     # Rooms/Hostel/hostel_street2.rpy:26
     old "ПЕРЕКРЕСТОК"

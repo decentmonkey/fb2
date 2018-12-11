@@ -64,7 +64,7 @@ translate german strings:
 translate german dick_office_secretary_environment_7019b42d:
 
     # mt "Эта сучка много на себя берет!"
-    mt "Эта сучка много на себя берет!"
+    mt "Die Schlampe trägt ganz schön auf!"
 
 # game/Rooms/Dick_Office/dick_office_secretary.rpy:46
 translate german dick_office_secretary_environment_1f8599a5:
@@ -76,7 +76,7 @@ translate german dick_office_secretary_environment_1f8599a5:
 translate german dick_office_secretary_environment_7019b42d_1:
 
     # mt "Эта сучка много на себя берет!"
-    mt "Эта сучка много на себя берет!"
+    mt "Die Schlampe trägt ganz schön auf!"
 
 # game/Rooms/Dick_Office/dick_office_secretary.rpy:54
 translate german dick_office_secretary_environment_1f8599a5_1:

@@ -1166,7 +1166,7 @@ translate german monica_charity_event_dialogue11_b242174a:
     # "Где же мне ее взять?!?!"
     # "Может быть стоит ускорить события с {b}Филипом{/b}?"
     # "Или попробовать уговорить {b}Бифа{/b}?"
-    mt "Вот урод!"
+    mt "Dieser Bastard!"
     "Он обманул меня!"
     "Если бы я знала что это вино стоит целую $ 1.000, то я бы не стала его пить!"
     "И, кстати, я думала что этот Филип угощает меня!"
@@ -2896,11 +2896,11 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:155
     old "Подыграть Бифу. Если я хочу все вернуть назад, то надо быть хитрее..."
-    new "Mache biff's Spiel mit. Wenn ich alles zurück will, muss ich schlauer vorgehen..."
+    new "Mache Beef's Spiel mit. Wenn ich alles zurück will, muss ich schlauer vorgehen..."
 
     # Quests/EP2/ep2_dialogues5.rpy:155
     old "Еще подумать..."
-    new ""
+    new "Denke gründlich nach..."
 
     # Quests/EP2/ep2_dialogues5.rpy:355
     old "Я - та кто уволит тебя за этот проступок!"
@@ -2960,7 +2960,7 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:1046
     old "В МОЕМ! (хмык)"
-    new "IN MEINS! (hmpf)"
+    new "IN MEINEN! (hmpf)"
 
     # Quests/EP2/ep2_dialogues5.rpy:1046
     old "Мне... Мне надо подумать!"
@@ -3271,8 +3271,8 @@ translate german monica_office_biff_dialogue_evening1_51889768:
 
     # biff "Да!"
     # biff "Можешь идти!"
-    biff "Да!"
-    biff "Можешь идти!"
+    biff "Ja?"
+    biff "Du kannst gehen!"
 
 # TODO: Translation updated at 2018-12-09 22:47
 
@@ -3332,7 +3332,7 @@ translate german monica_charity_event_dialogue2a_24b34515:
 translate german monica_charity_event_dialogue2a_1e9cd71f:
 
     # m "НЕЕЕЕЕТ!!!"
-    m "НЕЕЕЕЕТ!!!"
+    m "NEEEEEEIN!!!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:311
 translate german monica_charity_event_dialogue2a_d0d2972e:
@@ -3426,7 +3426,7 @@ translate german monica_charity_event_dialogue8a_f7f050b5:
 translate german monica_charity_event_dialogue8a_99555e66:
 
     # mt "Хи-хи..."
-    mt "Хи-хи..."
+    mt "Hehe..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:650
 translate german monica_charity_event_dialogue8a_251635c3:
@@ -3506,7 +3506,7 @@ translate german monica_charity_event_dialogue8a_0cf8c7d8:
     # philip "Мэм! Вы самая прекрасная женщина на свете!"
     # "Мое сердце принадлежит Вам!"
     philip "Мэм! Вы самая прекрасная женщина на свете!"
-    "Мое сердце принадлежит Вам!"
+    "Mein Herz gehört Ihnen!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:694
 translate german monica_charity_event_dialogue8a_3006d714:
@@ -3556,7 +3556,7 @@ translate german monica_charity_event_dialogue8a_a75aa7bb:
 translate german monica_charity_event_dialogue8a_84c28420:
 
     # philip "Конечно, Мэм!"
-    philip "Конечно, Мэм!"
+    philip "Natürlich."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:726
 translate german monica_charity_event_dialogue8a_cb46d0b8:
@@ -3658,7 +3658,7 @@ translate german monica_charity_event_dialogue14_66e1a47a:
     # philip "Если честно, Мэм, на протяжении вечера я оценивал не Вашу улыбку!"
     # m "А что же?"
     philip "Если честно, Мэм, на протяжении вечера я оценивал не Вашу улыбку!"
-    m "А что же?"
+    m "Was?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1028
 translate german monica_charity_event_dialogue14_5dd227de:
@@ -3702,7 +3702,7 @@ translate german monica_charity_event_dialogue14_local1_7c88afb8:
     # m "Я ухожу!"
     # philip "Мэм! Спасибо за танец!"
     # "Если захотите потанцевать еще, то пригласите меня!"
-    m "Я ухожу!"
+    m "Ich gehe!"
     philip "Мэм! Спасибо за танец!"
     "Если захотите потанцевать еще, то пригласите меня!"
 
@@ -3738,7 +3738,7 @@ translate german monica_charity_event_dialogue18_local1_a21ca16c:
     # "(хмык)"
     mt "У меня нет времени!"
     "Это единственный выход!"
-    "(хмык)"
+    "(schnief)"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1487
 translate german monica_charity_event_dialogue18_local1_1609c27d:
@@ -3787,7 +3787,7 @@ translate german monica_charity_event_dialogue18_local2_6cc320f0:
 
     # philip "Миссис Бакфетт!"
     # "Не могли-бы Вы пошире открыть его?"
-    philip "Миссис Бакфетт!"
+    philip "Frau Buckfett!"
     "Не могли-бы Вы пошире открыть его?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1552
@@ -3825,8 +3825,8 @@ translate german monica_charity_event_dialogue18_local3_d7fc46bf:
     # "Я думал что ему больше подходит цена в $ 300!"
     # "Но нет!"
     # "Теперь я уверен что $ 500 он стоит вполне!"
-    philip "Миссис Бакфетт!"
-    "Отлично!"
+    philip "Frau Buckfett!"
+    "Ausgezeichnet!"
     "Чувствуется что у Вас недостаток практики!"
     "Но мне это даже нравится!"
     "Если честно, я сомневался что Ваш ротик стоит $ 500!"
@@ -3840,7 +3840,7 @@ translate german monica_charity_event_dialogue18_local3_84144033:
     # reception_t "Ага!"
     # "А я уже начала было сомневаться в своем чутье!"
     # "Эта шлюха искусно маскируется!"
-    reception_t "Ага!"
+    reception_t "Ja!"
     "А я уже начала было сомневаться в своем чутье!"
     "Эта шлюха искусно маскируется!"
 
@@ -3907,7 +3907,7 @@ translate german monica_charity_event_dialogue18_local3_c86f0170:
 
     # philip "Миссис Бакфетт!"
     # "Почему я должен давать Вам еще $ 500?"
-    philip "Миссис Бакфетт!"
+    philip "Frau Buckfett!"
     "Почему я должен давать Вам еще $ 500?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1676
@@ -3995,7 +3995,7 @@ translate german monica_charity_event_dialogue18_local4_852d67ec:
 
     # philip "Хотя..."
     # "Знаете что..."
-    philip "Хотя..."
+    philip "Obwohl..."
     "Знаете что..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1723
@@ -4018,7 +4018,7 @@ translate german monica_charity_event_dialogue18_local4_9c5a9762:
 translate german monica_charity_event_dialogue18_local4_e68dbd78:
 
     # hotel_staff "Ой!"
-    hotel_staff "Ой!"
+    hotel_staff "Oh!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1737
 translate german monica_charity_event_dialogue18_local4_aa55f0df:
@@ -4170,7 +4170,7 @@ translate german monica_charity_event_dialogue18_local5_d6bd638d_1:
 translate german monica_charity_event_dialogue18_local5_e46fc839:
 
     # philip "Видишь?"
-    philip "Видишь?"
+    philip "Siehst Du?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1845
 translate german monica_charity_event_dialogue18_local5_f12cb7bb:
@@ -4219,7 +4219,7 @@ translate german monica_charity_event_dialogue18_local5_b7d55d2b:
     # "Но я не могу этого сделать!"
     # "Эта женщина была добра ко мне!"
     # "Пожалуйста, дайте ей то что она хочет!"
-    hotel_staff "Сэр!"
+    hotel_staff "Bitte!"
     "Но я не могу этого сделать!"
     "Эта женщина была добра ко мне!"
     "Пожалуйста, дайте ей то что она хочет!"
@@ -4229,7 +4229,7 @@ translate german monica_charity_event_dialogue18_local5_17fd81ee:
 
     # philip "Ха-ха!"
     # "Ладно, парень, как хочешь!"
-    philip "Ха-ха!"
+    philip "Haha!"
     "Ладно, парень, как хочешь!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1880
@@ -4245,7 +4245,7 @@ translate german monica_charity_event_dialogue18_local5_e745bbc6:
     # philip "Ха-ха!"
     # "Тем более!"
     hotel_staff "А ведь она собиралась уволить меня!"
-    philip "Ха-ха!"
+    philip "Haha!"
     "Тем более!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1896
@@ -4271,7 +4271,7 @@ translate german monica_charity_event_dialogue18_loopa1_7562759e:
 
     # hotel_staff "Простите, Мэм!"
     # "Пожалуйста, не увольняйте меня!"
-    hotel_staff "Простите, Мэм!"
+    hotel_staff "Tut mir leid."
     "Пожалуйста, не увольняйте меня!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2027
@@ -4337,7 +4337,7 @@ translate german monica_charity_event_dialogue18_local6_417200ce:
 
     # m "Пожалуйста!"
     # "Не говорите про это никому!!!"
-    m "Пожалуйста!"
+    m "Bitte!"
     "Не говорите про это никому!!!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2111
@@ -4345,7 +4345,7 @@ translate german monica_charity_event_dialogue18_local6_4dc77364:
 
     # hotel_staff "Конечно, Мэм!"
     # "Я никому не скажу!"
-    hotel_staff "Конечно, Мэм!"
+    hotel_staff "Natürlich."
     "Я никому не скажу!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2118
@@ -4353,7 +4353,7 @@ translate german monica_charity_event_dialogue18_local6_b39f23fe:
 
     # mt "Что это?"
     # "Деньги?"
-    mt "Что это?"
+    mt "Was soll das sein?"
     "Деньги?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2122
@@ -4388,8 +4388,8 @@ translate german monica_charity_event_dialogue18_local6_4273793a:
     "ЧТО ЭТО БЫЛО???"
     "Я ДАЖЕ НЕ МОГУ ОСОЗНАТЬ ТОГО ЧТО ПРОИЗОШЛО!!!"
     "Это... ЭТО..."
-    "У меня..."
-    "У МЕНЯ НЕТ СЛОВ!!!"
+    "Ich habe..."
+    "MIR FEHLEN DIE WORTE!!!"
     "ЧТО СО МНОЙ СДЕЛАЛИ???"
     "ИЗ-ЗА КАКОЙ-ТО ТЫСЯЧИ ДОЛЛАРОВ!!!"
     "МОНИКА, КАК ТЫ МОГЛА?!?!"
@@ -4496,7 +4496,7 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:1471
     old "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!"
-    new ""
+    new "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!"
 
     # Quests/EP2/ep2_dialogues5.rpy:1528
     old "Открыть рот... (corruption)"
@@ -4559,8 +4559,8 @@ translate german monica_charity_event_dialogue18_local3_1d7fc3ae:
     # "Отлично!"
     # "Чувствуется что у Вас недостаток практики!"
     # "Но мне это даже нравится!"
-    philip "Миссис Бакфетт!"
-    "Отлично!"
+    philip "Frau Buckfett!"
+    "Ausgezeichnet!"
     "Чувствуется что у Вас недостаток практики!"
     "Но мне это даже нравится!"
 
