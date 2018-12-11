@@ -757,7 +757,7 @@ screen character_info_screen(obj_name, x, y):
 
 #            text __(data[i]["text"]) style text_button_layouts[button_layout]["text_button.style"]
             text __(char_info[obj_name]["name"]) style (style1 + "_head")
-            text __(char_info[obj_name]["progress_caption"]) + "{c]" + str(char_info[obj_name]["level"]) + "{/c]" style "char_face_style_progress"
+            text __(char_info[obj_name]["progress_caption"]) + "{c}" + str(char_info[obj_name]["level"]) + "{/c}" style "char_face_style_progress"
             text str(char_info[obj_name]["current_progress"]) + " / " + str(char_info[obj_name]["max_progress"]) style "char_face_style_progress2"
             bar:
                 xpos 0.52

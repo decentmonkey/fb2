@@ -188,11 +188,11 @@ translate english monica_office_secretary_dialogue1_5ea032a2:
 translate english monica_office_secretary_dialogue1_adefdb3c:
 
     # secretary "Миссис Бакфетт!"
-    # "{c]Он сидит в Вашем кабинете!{/c]"
+    # "{c}Он сидит в Вашем кабинете!{/c}"
     # "Прямо в Вашем кабинете, Миссис Бакфетт!"
     # "(хмык)"
     secretary "Mrs. Buckfett!"
-    "{c]He's sitting in your office!{/c]"
+    "{c}He's sitting in your office!{/c}"
     "Right in your office, Mrs. Buckfett!"
     "(sob)"
 
@@ -719,11 +719,11 @@ translate english monica_office_cabinet_biff_dialogue1_424fb1b1:
 # game/Quests/EP2/ep2_dialogues4.rpy:411
 translate english monica_office_cabinet_biff_dialogue1_47477008:
 
-    # biff "Я бы мог {c]дать тебе работу{/c], детка!"
+    # biff "Я бы мог {c}дать тебе работу{/c}, детка!"
     # "Ты так похожа на Монику Бакфетт, что никто не увидит разницы!"
     # "У меня крутой журнал и я решил сменить его курс!"
     # "И если бы Моника Бакфетт одобрила его и рассказала бы всем об этом, то это был бы большой плюс!"
-    biff "I could {c]provide you with work{/c], baby!"
+    biff "I could {c}provide you with work{/c}, baby!"
     "You have so much in common with Monica Buckfett that no one will see the difference!"
     "I have a cool magazine, and I decided to change its policy!"
     "And if Monica Buckfett approved it and told everyone about it, it would be a big plus!"
@@ -1222,13 +1222,13 @@ translate english monica_office_cabinet_biff_dialogue3_a36e4dff:
 translate english monica_office_cabinet_biff_dialogue3_dc927120:
 
     # biff "Так что я предлагаю тебе сделать серию фотосессий, посвященную смене курса журнала."
-    # "За каждую фотосессию я предлагаю тебе {c]$ 1.000{/c]."
+    # "За каждую фотосессию я предлагаю тебе {c}$ 1.000{/c}."
     # "К тому же, думаю, можно будет оборудовать офис для тебя, чтобы ты могла общаться с прессой."
     # "А также с партнерами журнала."
     # "Я смогу продавать твое личико."
     # "Какое-то время."
     biff "So I suggest you do a series of photo shoots dedicated to the new policy of the magazine."
-    "For every photo shoot, I'll offer you {c]$ 1.000{/c]."
+    "For every photo shoot, I'll offer you {c}$ 1.000{/c}."
     "Also, I think we can set up an office for you, where you can talk to the press."
     "And with partners of the magazine."
     "I will be able to sell your face."
@@ -1336,11 +1336,11 @@ translate english monica_office_cabinet_biff_dialogue3_0a5616b8:
 translate english monica_office_cabinet_biff_dialogue3_f4ae6e10:
 
     # biff "Ладно! Цыпочка!"
-    # "Я дам тебе {c]$ 5.000{/c]!"
+    # "Я дам тебе {c}$ 5.000{/c}!"
     # "Но я не обещаю тебе их регулярно!"
     # "Я посмотрю еще стоишь-ли ты этих денег!"
     biff "OK! Chick!"
-    "I'll give you {c]$ 5,000{/c]!"
+    "I'll give you {c}$ 5,000{/c}!"
     "But I'm not promising you regular payments!"
     "I'll see if you're worth the money!"
 
@@ -1401,8 +1401,8 @@ translate english monica_office_cabinet_biff_dialogue3_fa9e0cb0:
 # game/Quests/EP2/ep2_dialogues4.rpy:767
 translate english monica_office_cabinet_biff_dialogue3_b1204ee4:
 
-    # biff "{c]Если передумаешь, заглядывай!{/c]"
-    biff "{c]Okay, if you change your mind, just come back!{/c]"
+    # biff "{c}Если передумаешь, заглядывай!{/c}"
+    biff "{c}Okay, if you change your mind, just come back!{/c}"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:773
 translate english monica_office_secretary_dialogue5_e3868f3a:
@@ -1432,7 +1432,7 @@ translate english monica_office_secretary_dialogue5_e3868f3a:
     # "Я уверена он знает как это сделать, но проверяет меня..."
     # "..."
     # "Итак, одна фотосессия..."
-    # "Мне надо убедить этого негодяя {c]сделать одну нейтральную фотосессию{/c]..."
+    # "Мне надо убедить этого негодяя {c}сделать одну нейтральную фотосессию{/c}..."
     # "Безобидную."
     # "Тем более будет полезно миру напомнить о себе..."
     # "Я надеюсь за это Маркус не заберет меня?"
@@ -1463,7 +1463,7 @@ translate english monica_office_secretary_dialogue5_e3868f3a:
     "I'm sure he knows how to do it, and that he's just testing me..."
     "..."
     "So one photo shoot..."
-    "I need to convince that {c]scoundrel to do a neutral{/c] photo shoot..."
+    "I need to convince that {c}scoundrel to do a neutral{/c} photo shoot..."
     "Harmless."
     "It will also be useful to remind the world about me."
     "I hope Marcus won't catch me doing this."
@@ -1660,10 +1660,10 @@ translate english monica_office_cabinet_biff_dialogue4_030ddf09:
 translate english monica_office_cabinet_biff_dialogue4_fbd93fc4:
 
     # mt "УБЛЮДОК!!!"
-    # m "Мне {c]идти в фотостудию{/c]?"
+    # m "Мне {c}идти в фотостудию{/c}?"
     # biff "Да! Детка!"
     mt "Bastard!!!"
-    m "Do I {c]go to the photo studio {/c]?"
+    m "Do I {c}go to the photo studio {/c}?"
     biff "Yes! Baby!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:915
@@ -2073,8 +2073,8 @@ translate english monica_office_photostudio_alex_dialogue2_b37e2637:
 # game/Quests/EP2/ep2_dialogues4.rpy:1299
 translate english monica_office_photostudio_alex_dialogue2_2ba31af5:
 
-    # mt "Итак, {c]надо вернуться к Бифу{/c]..."
-    mt "So, {c] I must return to the Biff{/c]..."
+    # mt "Итак, {c}надо вернуться к Бифу{/c}..."
+    mt "So, {c} I must return to the Biff{/c}..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1306
 translate english monica_office_secretary_dialogue7_48df83dc:
@@ -2322,10 +2322,10 @@ translate english monica_office_cabinet_biff_dialogue5_6c734d1e:
 translate english monica_office_cabinet_biff_dialogue5_2ef926dc:
 
     # "А сейчас поехали!"
-    # "Нам еще надо подобрать {c]Мелани{/c] по пути!"
+    # "Нам еще надо подобрать {c}Мелани{/c} по пути!"
     # mt "!!!"
     "Now, let's go!"
-    "We still have to pick up {c]Melanie {/c] along the way!"
+    "We still have to pick up {c}Melanie {/c} along the way!"
     mt "!!!"
 
 translate english strings:
@@ -2377,14 +2377,14 @@ translate english monica_office_entrance_biff_dialogue1_a29637f9:
     # "Но ничего! Я еще найду способ это сделать и посмотреть на этого ублюдка!"
     # "Который думает что он теперь главный в моей компании!"
     # "..."
-    # "Может быть {c]попробовать вечером?{/c]"
+    # "Может быть {c}попробовать вечером?{/c}"
     mt "Heck!"
     "Someone has changed the code for the elevator!"
     "Now I can't get inside!"
     "But no problem! I'll find a way to do that and locate that bastard!"
     "That bastard who thinks he's in charge of my company now!"
     "..."
-    "Maybe {c]try tonight evening?{/c]"
+    "Maybe {c}try tonight evening?{/c}"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:28
 translate english monica_office_entrance_biff_dialogue1_410852da:
@@ -2553,11 +2553,11 @@ translate english monica_office_cabinet_biff_dialogue1_840399d7:
 # game/Quests/EP2/ep2_dialogues4.rpy:500
 translate english monica_office_cabinet_biff_dialogue1_08070e8d:
 
-    # biff "Я бы мог {c]дать тебе работу{/c], детка!"
+    # biff "Я бы мог {c}дать тебе работу{/c}, детка!"
     # "Ты так похожа на Монику Бакфетт, что никто не увидит разницы!"
     # "У меня крутой журнал и я решил сменить его курс!"
     # "И если бы Моника Бакфетт одобрила его и рассказала бы всем об этом, то это был бы большой плюс!"
-    biff "I could {c]provide you with work{/c], baby!"
+    biff "I could {c}provide you with work{/c}, baby!"
     "You have so much in common with Monica Buckfett that no one will see the difference!"
     "I have a cool magazine, and I decided to change its policy!"
     "And if Monica Buckfett approved it and told everyone about it, it would be a big plus!"
@@ -2744,13 +2744,13 @@ translate english monica_office_cabinet_biff_dialogue3_79a5dbbf:
 translate english monica_office_cabinet_biff_dialogue3_2f495354:
 
     # biff "Так что я предлагаю тебе сделать серию фотосессий, посвященную смене курса журнала."
-    # "За каждую фотосессию я предлагаю тебе {c]$ 1.000{/c]."
+    # "За каждую фотосессию я предлагаю тебе {c}$ 1.000{/c}."
     # "К тому же, думаю, можно будет оборудовать офис для тебя, чтобы ты могла общаться с прессой."
     # "А также с партнерами журнала."
     # "Я смогу продавать твое личико."
     # "Какое-то время."
     biff "So I suggest you do a series of photo shoots dedicated to the new policy of the magazine."
-    "For every photo shoot, I'll offer you {c]$ 1.000{/c]."
+    "For every photo shoot, I'll offer you {c}$ 1.000{/c}."
     "Also, I think we can set up an office for you, where you can talk to the press."
     "And with partners of the magazine."
     "I will be able to sell your face."
@@ -2794,11 +2794,11 @@ translate english monica_office_cabinet_biff_dialogue3_41e43f16:
 translate english monica_office_cabinet_biff_dialogue3_8229a62d:
 
     # biff "Ладно! Цыпочка!"
-    # "Я дам тебе {c]$ 5.000{/c]!"
+    # "Я дам тебе {c}$ 5.000{/c}!"
     # "Но я не обещаю тебе их регулярно!"
     # "Я посмотрю еще стоишь-ли ты этих денег!"
     biff "OK! Chick!"
-    "I'll give you {c]$ 5,000{/c]!"
+    "I'll give you {c}$ 5,000{/c}!"
     "But I'm not promising you regular payments!"
     "I'll see if you're worth the money!"
 
@@ -2863,8 +2863,8 @@ translate english monica_office_cabinet_biff_dialogue3_local1_fa9e0cb0:
 # game/Quests/EP2/ep2_dialogues4.rpy:964
 translate english monica_office_cabinet_biff_dialogue3_local1_647ab3ac:
 
-    # biff "{c]Если передумаешь, заглядывай!{/c]"
-    biff "{c]Okay, if you change your mind, just come back!{/c]"
+    # biff "{c}Если передумаешь, заглядывай!{/c}"
+    biff "{c}Okay, if you change your mind, just come back!{/c}"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:971
 translate english monica_office_secretary_dialogue5_30c54a83:
@@ -2908,7 +2908,7 @@ translate english monica_office_secretary_dialogue5b_631e76ef:
     # "Я уверена он знает как это сделать, но проверяет меня..."
     # "..."
     # "Итак, одна фотосессия..."
-    # "Мне надо убедить этого негодяя {c]сделать одну нейтральную фотосессию{/c]..."
+    # "Мне надо убедить этого негодяя {c}сделать одну нейтральную фотосессию{/c}..."
     # "Безобидную."
     # "Тем более будет полезно миру напомнить о себе..."
     # "Я надеюсь за это Маркус не заберет меня?"
@@ -2929,7 +2929,7 @@ translate english monica_office_secretary_dialogue5b_631e76ef:
     "I'm sure he knows how to do it, and that he's just testing me..."
     "..."
     "So one photo shoot..."
-    "I need to convince that {c]scoundrel to do a neutral{/c] photo shoot..."
+    "I need to convince that {c}scoundrel to do a neutral{/c} photo shoot..."
     "Harmless."
     "It will also be useful to remind the world about me."
     "I hope Marcus won't catch me doing this."
@@ -3040,10 +3040,10 @@ translate english monica_office_cabinet_biff_dialogue4_1d9c5255:
 translate english monica_office_cabinet_biff_dialogue4_477c62d4:
 
     # mt "УБЛЮДОК!!!"
-    # m "Мне {c]идти в фотостудию{/c]?"
+    # m "Мне {c}идти в фотостудию{/c}?"
     # biff "Да! Детка!"
     mt "Bastard!!!"
-    m "Do I {c]go to the photo studio {/c]?"
+    m "Do I {c}go to the photo studio {/c}?"
     biff "Yes! Baby!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1336
@@ -3119,8 +3119,8 @@ translate english monica_office_photostudio_alex_dialogue2_local1_b37e2637:
 # game/Quests/EP2/ep2_dialogues4.rpy:1612
 translate english monica_office_photostudio_alex_dialogue2_local1_2ba31af5:
 
-    # mt "Итак, {c]надо вернуться к Бифу{/c]..."
-    mt "So, {c] I must return to the Biff{/c]..."
+    # mt "Итак, {c}надо вернуться к Бифу{/c}..."
+    mt "So, {c} I must return to the Biff{/c}..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1655
 translate english monica_office_cabinet_biff_dialogue5_49238c3a:
@@ -3326,14 +3326,14 @@ translate english monica_office_secretary_dialogue5b_local1_d09bd339:
 translate english monica_office_secretary_dialogue5b_local1_e4f8f8b0:
 
     # "Итак, одна фотосессия..."
-    # "Мне надо убедить этого негодяя {c]сделать одну нейтральную фотосессию{/c]..."
+    # "Мне надо убедить этого негодяя {c}сделать одну нейтральную фотосессию{/c}..."
     # "Безобидную."
     # "Тем более будет полезно миру напомнить о себе..."
     # "Я надеюсь за это Маркус не заберет меня?"
     # "Нет, не должен..."
     # "Мне надо успеть!!!"
     "So one photo shoot..."
-    "I need to convince that {c]scoundrel to do a neutral{/c] photo shoot..."
+    "I need to convince that {c}scoundrel to do a neutral{/c} photo shoot..."
     "Harmless."
     "It will also be useful to remind the world about me."
     "I hope Marcus won't catch me doing this."
@@ -3344,9 +3344,9 @@ translate english monica_office_secretary_dialogue5b_local1_e4f8f8b0:
 translate english monica_office_cabinet_biff_dialogue5_e5e48b3a:
 
     # "А сейчас поехали!"
-    # "Нам еще надо подобрать {c]Мелани{/c] по пути!"
+    # "Нам еще надо подобрать {c}Мелани{/c} по пути!"
     "Now, let's go!"
-    "We still have to pick up {c]Melanie {/c] along the way!"
+    "We still have to pick up {c}Melanie {/c} along the way!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1824
 translate english monica_office_cabinet_biff_dialogue5_0a5616b8_2:
@@ -3443,8 +3443,8 @@ translate english monica_office_cabinet_biff_dialogue3_local2_fa9e0cb0:
 # game/Quests/EP2/ep2_dialogues4.rpy:991
 translate english monica_office_cabinet_biff_dialogue3_local2_647ab3ac:
 
-    # biff "{c]Если передумаешь, заглядывай!{/c]"
-    biff "{c]Okay, if you change your mind, just come back!{/c]"
+    # biff "{c}Если передумаешь, заглядывай!{/c}"
+    biff "{c}Okay, if you change your mind, just come back!{/c}"
 
 translate english strings:
 
@@ -3475,35 +3475,35 @@ translate english monica_office_entrance_biff_dialogue1_2e37a529:
     # "Но ничего! Я еще найду способ это сделать и посмотреть на этого ублюдка!"
     # "Который думает что он теперь главный в моей компании!"
     # "..."
-    # "Может быть {c]попробовать вечером?{/c]"
+    # "Может быть {c}попробовать вечером?{/c}"
     mt "Heck!"
     "Someone has changed the code for the elevator!"
     "Now I can't get inside!"
     "But no problem! I'll find a way to do that and locate that bastard!"
     "That bastard who thinks he's in charge of my company now!"
     "..."
-    "Maybe {c]try tonight evening?{/c]"
+    "Maybe {c}try tonight evening?{/c}"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:131
 translate english monica_office_secretary_dialogue1_9d2218c8:
 
     # secretary "Миссис Бакфетт!"
-    # "{c]Он сидит в Вашем кабинете!{/c]"
+    # "{c}Он сидит в Вашем кабинете!{/c}"
     # "Прямо в Вашем кабинете, Миссис Бакфетт!"
     # "(хмык)"
     secretary "Mrs. Buckfett!"
-    "{c]He's sitting in your office!{/c]"
+    "{c}He's sitting in your office!{/c}"
     "Right in your office, Mrs. Buckfett!"
     "(sob)"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:502
 translate english monica_office_cabinet_biff_dialogue1_e27e90d5:
 
-    # biff "Я бы мог {c]дать тебе работу{/c], детка!"
+    # biff "Я бы мог {c}дать тебе работу{/c}, детка!"
     # "Ты так похожа на Монику Бакфетт, что никто не увидит разницы!"
     # "У меня крутой журнал и я решил сменить его курс!"
     # "И если бы Моника Бакфетт одобрила его и рассказала бы всем об этом, то это был бы большой плюс!"
-    biff "I could {c]provide you with work{/c], baby!"
+    biff "I could {c}provide you with work{/c}, baby!"
     "You have so much in common with Monica Buckfett that no one will see the difference!"
     "I have a cool magazine, and I decided to change its policy!"
     "And if Monica Buckfett approved it and told everyone about it, it would be a big plus!"
@@ -3512,13 +3512,13 @@ translate english monica_office_cabinet_biff_dialogue1_e27e90d5:
 translate english monica_office_cabinet_biff_dialogue3_60139894:
 
     # biff "Так что я предлагаю тебе сделать серию фотосессий, посвященную смене курса журнала."
-    # "За каждую фотосессию я предлагаю тебе {c]$ 1.000{/c]."
+    # "За каждую фотосессию я предлагаю тебе {c}$ 1.000{/c}."
     # "К тому же, думаю, можно будет оборудовать офис для тебя, чтобы ты могла общаться с прессой."
     # "А также с партнерами журнала."
     # "Я смогу продавать твое личико."
     # "Какое-то время."
     biff "So I suggest you do a series of photo shoots dedicated to the new policy of the magazine."
-    "For every photo shoot, I'll offer you {c]$ 1.000{/c]."
+    "For every photo shoot, I'll offer you {c}$ 1.000{/c}."
     "Also, I think we can set up an office for you, where you can talk to the press."
     "And with partners of the magazine."
     "I will be able to sell your face."
@@ -3528,32 +3528,32 @@ translate english monica_office_cabinet_biff_dialogue3_60139894:
 translate english monica_office_cabinet_biff_dialogue3_7999158e:
 
     # biff "Ладно! Цыпочка!"
-    # "Я дам тебе {c]$ 5.000{/c]!"
+    # "Я дам тебе {c}$ 5.000{/c}!"
     # "Но я не обещаю тебе их регулярно!"
     # "Я посмотрю еще стоишь-ли ты этих денег!"
     biff "OK! Chick!"
-    "I'll give you {c]$ 5,000{/c]!"
+    "I'll give you {c}$ 5,000{/c}!"
     "But I'm not promising you regular payments!"
     "I'll see if you're worth the money!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:993
 translate english monica_office_cabinet_biff_dialogue3_local2_63f399ac:
 
-    # biff "{c]Если передумаешь, заглядывай!{/c]"
-    biff "{c]Okay, if you change your mind, just come back!{/c]"
+    # biff "{c}Если передумаешь, заглядывай!{/c}"
+    biff "{c}Okay, if you change your mind, just come back!{/c}"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1039
 translate english monica_office_secretary_dialogue5b_local1_9a9fb806:
 
     # "Итак, одна фотосессия..."
-    # "Мне надо убедить этого негодяя {c]сделать одну нейтральную фотосессию{/c]..."
+    # "Мне надо убедить этого негодяя {c}сделать одну нейтральную фотосессию{/c}..."
     # "Безобидную."
     # "Тем более будет полезно миру напомнить о себе..."
     # "Я надеюсь за это Маркус не заберет меня?"
     # "Нет, не должен..."
     # "Мне надо успеть!!!"
     "So one photo shoot..."
-    "I need to convince that {c]scoundrel to do a neutral{/c] photo shoot..."
+    "I need to convince that {c}scoundrel to do a neutral{/c} photo shoot..."
     "Harmless."
     "It will also be useful to remind the world about me."
     "I hope Marcus won't catch me doing this."
@@ -3564,23 +3564,143 @@ translate english monica_office_secretary_dialogue5b_local1_9a9fb806:
 translate english monica_office_cabinet_biff_dialogue4_c1b20e08:
 
     # mt "УБЛЮДОК!!!"
-    # m "Мне {c]идти в фотостудию{/c]?"
+    # m "Мне {c}идти в фотостудию{/c}?"
     # biff "Да! Детка!"
     mt "Bastard!!!"
-    m "Do I {c]go to the photo studio {/c]?"
+    m "Do I {c}go to the photo studio {/c}?"
     biff "Yes! Baby!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1682
 translate english monica_office_photostudio_alex_dialogue2_local1_fef63b17:
 
-    # mt "Итак, {c]надо вернуться к Бифу{/c]..."
-    mt "So, {c] I must return to the Biff{/c]..."
+    # mt "Итак, {c}надо вернуться к Бифу{/c}..."
+    mt "So, {c} I must return to the Biff{/c}..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1827
 translate english monica_office_cabinet_biff_dialogue5_8dc08930:
 
     # "А сейчас поехали!"
-    # "Нам еще надо подобрать {c]Мелани{/c] по пути!"
+    # "Нам еще надо подобрать {c}Мелани{/c} по пути!"
     "Now, let's go!"
-    "We still have to pick up {c]Melanie {/c] along the way!"
+    "We still have to pick up {c}Melanie {/c} along the way!"
+
+# TODO: Translation updated at 2018-12-11 23:50
+
+# game/Quests/EP2/ep2_dialogues4.rpy:8
+translate english monica_office_entrance_biff_dialogue1_698a18e0:
+
+    # mt "Черт!"
+    # "Кто-то поменял код на лифте!"
+    # "Теперь мне не попасть внутрь!"
+    # "Но ничего! Я еще найду способ это сделать и посмотреть на этого ублюдка!"
+    # "Который думает что он теперь главный в моей компании!"
+    # "..."
+    # "Может быть {c}попробовать вечером?{/c}"
+    mt "Heck!"
+    "Someone has changed the code for the elevator!"
+    "Now I can't get inside!"
+    "But no problem! I'll find a way to do that and locate that bastard!"
+    "That bastard who thinks he's in charge of my company now!"
+    "..."
+    "Maybe {c}try tonight evening?{/c}"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:131
+translate english monica_office_secretary_dialogue1_589ef466:
+
+    # secretary "Миссис Бакфетт!"
+    # "{c}Он сидит в Вашем кабинете!{/c}"
+    # "Прямо в Вашем кабинете, Миссис Бакфетт!"
+    # "(хмык)"
+    secretary "Mrs. Buckfett!"
+    "{c}He's sitting in your office!{/c}"
+    "Right in your office, Mrs. Buckfett!"
+    "(sob)"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:502
+translate english monica_office_cabinet_biff_dialogue1_f217866b:
+
+    # biff "Я бы мог {c}дать тебе работу{/c}, детка!"
+    # "Ты так похожа на Монику Бакфетт, что никто не увидит разницы!"
+    # "У меня крутой журнал и я решил сменить его курс!"
+    # "И если бы Моника Бакфетт одобрила его и рассказала бы всем об этом, то это был бы большой плюс!"
+    biff "I could {c}provide you with work{/c}, baby!"
+    "You have so much in common with Monica Buckfett that no one will see the difference!"
+    "I have a cool magazine, and I decided to change its policy!"
+    "And if Monica Buckfett approved it and told everyone about it, it would be a big plus!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:876
+translate english monica_office_cabinet_biff_dialogue3_e916b657:
+
+    # biff "Так что я предлагаю тебе сделать серию фотосессий, посвященную смене курса журнала."
+    # "За каждую фотосессию я предлагаю тебе {c}$ 1.000{/c}."
+    # "К тому же, думаю, можно будет оборудовать офис для тебя, чтобы ты могла общаться с прессой."
+    # "А также с партнерами журнала."
+    # "Я смогу продавать твое личико."
+    # "Какое-то время."
+    biff "So I suggest you do a series of photo shoots dedicated to the new policy of the magazine."
+    "For every photo shoot, I'll offer you {c}$ 1.000{/c}."
+    "Also, I think we can set up an office for you, where you can talk to the press."
+    "And with partners of the magazine."
+    "I will be able to sell your face."
+    "For a while."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:947
+translate english monica_office_cabinet_biff_dialogue3_f5ed9f5d:
+
+    # biff "Ладно! Цыпочка!"
+    # "Я дам тебе {c}$ 5.000{/c}!"
+    # "Но я не обещаю тебе их регулярно!"
+    # "Я посмотрю еще стоишь-ли ты этих денег!"
+    biff "OK! Chick!"
+    "I'll give you {c}$ 5,000{/c}!"
+    "But I'm not promising you regular payments!"
+    "I'll see if you're worth the money!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:993
+translate english monica_office_cabinet_biff_dialogue3_local2_89b1da7d:
+
+    # biff "{c}Если передумаешь, заглядывай!{/c}"
+    biff "{c}Okay, if you change your mind, just come back!{/c}"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1039
+translate english monica_office_secretary_dialogue5b_local1_f75bc0e5:
+
+    # "Итак, одна фотосессия..."
+    # "Мне надо убедить этого негодяя {c}сделать одну нейтральную фотосессию{/c}..."
+    # "Безобидную."
+    # "Тем более будет полезно миру напомнить о себе..."
+    # "Я надеюсь за это Маркус не заберет меня?"
+    # "Нет, не должен..."
+    # "Мне надо успеть!!!"
+    "So one photo shoot..."
+    "I need to convince that {c}scoundrel to do a neutral{/c} photo shoot..."
+    "Harmless."
+    "It will also be useful to remind the world about me."
+    "I hope Marcus won't catch me doing this."
+    "He shouldn't..."
+    "I need time!!!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1171
+translate english monica_office_cabinet_biff_dialogue4_f005f7f6:
+
+    # mt "УБЛЮДОК!!!"
+    # m "Мне {c}идти в фотостудию{/c}?"
+    # biff "Да! Детка!"
+    mt "Bastard!!!"
+    m "Do I {c}go to the photo studio {/c}?"
+    biff "Yes! Baby!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1682
+translate english monica_office_photostudio_alex_dialogue2_local1_b62e51c4:
+
+    # mt "Итак, {c}надо вернуться к Бифу{/c}..."
+    mt "So, {c} I must return to the Biff{/c}..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1827
+translate english monica_office_cabinet_biff_dialogue5_e478df33:
+
+    # "А сейчас поехали!"
+    # "Нам еще надо подобрать {c}Мелани{/c} по пути!"
+    "Now, let's go!"
+    "We still have to pick up {c}Melanie {/c} along the way!"
 

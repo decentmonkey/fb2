@@ -192,7 +192,7 @@ label basement_monica_after_sleep_dialogue1:
 
 label basement_monica_hungry_cant_sleep:
     #если Моника не ела 3 дня
-    mt "{c]Я не ела{/c] уже третий день!"
+    mt "{c}Я не ела{/c} уже третий день!"
     "Я не могу лечь спать в таком состоянии!"
     "Я ХОЧУ ЕСТЬ!!!"
     "..."

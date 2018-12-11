@@ -49,10 +49,10 @@ translate english basement_monica_after_sleep_dialogue1_71131ee4:
 # game/Characters/Monica/Bed_Basement.rpy:129
 translate english basement_monica_hungry_cant_sleep_39f822c8:
 
-    # mt "{c]Я не ела{/c] уже третий день!"
+    # mt "{c}Я не ела{/c} уже третий день!"
     # "Я не могу лечь спать в таком состоянии!"
     # "Я ХОЧУ ЕСТЬ!!!"
-    mt "{c]I haven't eaten{/c] for three days!"
+    mt "{c}I haven't eaten{/c} for three days!"
     "I can't sleep like this!"
     "I WANT TO EAT!!!"
 
@@ -75,13 +75,13 @@ translate english monica_gosleep1a_1a9716fb:
 # game/Characters/Monica/Bed_Basement.rpy:195
 translate english basement_monica_hungry_cant_sleep_e08d40f0:
 
-    # mt "{c]Я не ела{/c] уже третий день!"
+    # mt "{c}Я не ела{/c} уже третий день!"
     # "Я не могу лечь спать в таком состоянии!"
     # "Я ХОЧУ ЕСТЬ!!!"
     # "..."
     # mt "Может быть я смогу что-то найти на заправке?"
     # mt "Или у кого-нибудь занять деньги на еду?"
-    mt "{c]I haven't eaten{/c] for three days!"
+    mt "{c}I haven't eaten{/c} for three days!"
     "I can't sleep like this!"
     "I WANT TO EAT!!!"
     "..."
@@ -93,13 +93,31 @@ translate english basement_monica_hungry_cant_sleep_e08d40f0:
 # game/Characters/Monica/Bed_Basement.rpy:195
 translate english basement_monica_hungry_cant_sleep_677ba52e:
 
-    # mt "{c]Я не ела{/c] уже третий день!"
+    # mt "{c}Я не ела{/c} уже третий день!"
     # "Я не могу лечь спать в таком состоянии!"
     # "Я ХОЧУ ЕСТЬ!!!"
     # "..."
     # mt "Может быть я смогу что-то найти на заправке?"
     # mt "Или у кого-нибудь занять деньги на еду?"
-    mt "{c]I haven't eaten{/c] for three days!"
+    mt "{c}I haven't eaten{/c} for three days!"
+    "I can't sleep like this!"
+    "I WANT TO EAT!!!"
+    "..."
+    mt "Maybe I can find something at the gas station?"
+    mt "Or someone to borrow money for food?"
+
+# TODO: Translation updated at 2018-12-11 23:50
+
+# game/Characters/Monica/Bed_Basement.rpy:195
+translate english basement_monica_hungry_cant_sleep_c026432e:
+
+    # mt "{c}Я не ела{/c} уже третий день!"
+    # "Я не могу лечь спать в таком состоянии!"
+    # "Я ХОЧУ ЕСТЬ!!!"
+    # "..."
+    # mt "Может быть я смогу что-то найти на заправке?"
+    # mt "Или у кого-нибудь занять деньги на еду?"
+    mt "{c}I haven't eaten{/c} for three days!"
     "I can't sleep like this!"
     "I WANT TO EAT!!!"
     "..."

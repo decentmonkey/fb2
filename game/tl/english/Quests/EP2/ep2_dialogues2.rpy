@@ -186,9 +186,9 @@ translate english monica_shawarma_dialogue1_349d457d:
 translate english monica_shawarma_dialogue1_069451ee:
 
     # shawarma "Конечно есть, Мадаме!"
-    # "Если такой красивый женщин, как Вы, {c]расскажет всем вокруг про мой самый вкусный кебаб{/c], то кебаб сам будет Вас искать!"
+    # "Если такой красивый женщин, как Вы, {c}расскажет всем вокруг про мой самый вкусный кебаб{/c}, то кебаб сам будет Вас искать!"
     shawarma "Of course there are, Madam!"
-    "If a beautiful woman such as you {c]tells everyone around about my most delicious kebab {/c], the kebab will be waiting for you!"
+    "If a beautiful woman such as you {c}tells everyone around about my most delicious kebab {/c}, the kebab will be waiting for you!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:84
 translate english monica_shawarma_dialogue1_e85bead3:
@@ -213,8 +213,8 @@ translate english monica_shawarma_dialogue1_9aa04107:
 # game/Quests/EP2/ep2_dialogues2.rpy:91
 translate english monica_shawarma_dialogue1_95c500ca:
 
-    # m "Хорошо, если ты дашь мне сейчас свой кебаб, то {c]я разнесу твои флаеры{/c]..."
-    m "Okay, if you give me your kebab now, {c]I'll deliver your flyers{/c]..."
+    # m "Хорошо, если ты дашь мне сейчас свой кебаб, то {c}я разнесу твои флаеры{/c}..."
+    m "Okay, if you give me your kebab now, {c}I'll deliver your flyers{/c}..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:95
 translate english monica_shawarma_dialogue1_a1ff310e:
@@ -754,13 +754,29 @@ translate english strings:
 translate english monica_shawarma_dialogue1_919e1160:
 
     # shawarma "Конечно есть, Мадаме!"
-    # "Если такой красивый женщин, как Вы, {c]расскажет всем вокруг про мой самый вкусный кебаб{/c], то кебаб сам будет Вас искать!"
+    # "Если такой красивый женщин, как Вы, {c}расскажет всем вокруг про мой самый вкусный кебаб{/c}, то кебаб сам будет Вас искать!"
     shawarma "Of course there are, Madam!"
-    "If a beautiful woman such as you {c]tells everyone around about my most delicious kebab {/c], the kebab will be waiting for you!"
+    "If a beautiful woman such as you {c}tells everyone around about my most delicious kebab {/c}, the kebab will be waiting for you!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:120
 translate english monica_shawarma_dialogue1_cf6bdd7a:
 
-    # m "Хорошо, если ты дашь мне сейчас свой кебаб, то {c]я разнесу твои флаеры{/c]..."
-    m "Okay, if you give me your kebab now, {c]I'll deliver your flyers{/c]..."
+    # m "Хорошо, если ты дашь мне сейчас свой кебаб, то {c}я разнесу твои флаеры{/c}..."
+    m "Okay, if you give me your kebab now, {c}I'll deliver your flyers{/c}..."
+
+# TODO: Translation updated at 2018-12-11 23:50
+
+# game/Quests/EP2/ep2_dialogues2.rpy:109
+translate english monica_shawarma_dialogue1_8e9f3993:
+
+    # shawarma "Конечно есть, Мадаме!"
+    # "Если такой красивый женщин, как Вы, {c}расскажет всем вокруг про мой самый вкусный кебаб{/c}, то кебаб сам будет Вас искать!"
+    shawarma "Of course there are, Madam!"
+    "If a beautiful woman such as you {c}tells everyone around about my most delicious kebab {/c}, the kebab will be waiting for you!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:120
+translate english monica_shawarma_dialogue1_0f2c5860:
+
+    # m "Хорошо, если ты дашь мне сейчас свой кебаб, то {c}я разнесу твои флаеры{/c}..."
+    m "Okay, if you give me your kebab now, {c}I'll deliver your flyers{/c}..."
 
