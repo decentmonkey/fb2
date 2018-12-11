@@ -61,7 +61,7 @@ label citizen3_dialogue:
                                             imgl Dial_Monica_Sandwich_0
                                             m "И у кого хватило ума придумал такой пароль?!"
                                             citizen3 "А ты как думаешь? Конечно Найджел, но не переживый, как только ты произесешь пароль, он сразу все поймет."
-                                            call reduce_flyers()
+                                            call reduce_flyers() from _call_reduce_flyers_3
                                             m "Ладно, но если ты меня обманываешь..."
                                             #citizen33
                                             imgr Dial_Citizen_3_4

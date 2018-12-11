@@ -1,7 +1,7 @@
 label floor1:
     $ print "enter_floor1"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_5
 
     $ scene_image = "scene_Floor1[day_suffix]"
 
@@ -38,11 +38,11 @@ label floor1_init:
 
 label floor1_teleport:
     if obj_name == "Teleport_Floor1_Stairs":
-        call change_scene("floor1_stairs")
+        call change_scene("floor1_stairs") from _call_change_scene_54
     if obj_name == "Teleport_Kitchen":
-        call change_scene("kitchen")
+        call change_scene("kitchen") from _call_change_scene_57
     if obj_name == "Teleport_LivingRoom":
-        call change_scene("living_room")
+        call change_scene("living_room") from _call_change_scene_58
         return
     if obj_name == "Teleport_Street":
         jump house_out
@@ -104,7 +104,7 @@ label floor1_environment:
             return
 
         if obj_data["action"] == "w":
-            call change_scene("floor1_fountain", "Fade", "snd_fountain")
+            call change_scene("floor1_fountain", "Fade", "snd_fountain") from _call_change_scene_59
             return
 
     return

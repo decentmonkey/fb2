@@ -43,10 +43,10 @@ label rich_hotel_event_hall_teleport:
 #            call change_scene("rich_hotel_reception")
         return
     if obj_name == "Teleport_Rich_Hotel_Tables":
-        call change_scene("rich_hotel_event_tables")
+        call change_scene("rich_hotel_event_tables") from _call_change_scene_170
         return
     if obj_name == "Teleport_Rich_Hotel_Sofa":
-        call change_scene("rich_hotel_event_sofa")
+        call change_scene("rich_hotel_event_sofa") from _call_change_scene_171
         return
     return
 label rich_hotel_event_hall_environment:

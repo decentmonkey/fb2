@@ -11,7 +11,7 @@ label episode1End:
     img 3373
     with Dissolve(8.0)
     show black at credits_black_overlay
-    call credits
+    call credits from _call_credits
     $ renpy.pause(5.0, hard = True)
 #    hide screen show_image_screen
     $ renpy.pause(gui.credits.timeout, hard=True)
@@ -30,7 +30,7 @@ label episode1End_Dick:
 #    $ renpy.pause(3.0)
     with Dissolve(8.0)
     show black at credits_black_overlay
-    call credits
+    call credits from _call_credits_1
     $ renpy.pause(5.0, hard = True)
 #    hide screen show_image_screen
     $ renpy.pause(gui.credits.timeout, hard=True)

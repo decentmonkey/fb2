@@ -10,12 +10,12 @@ label Ralph_Life_init:
     return
 
 label Ralph_Life_day:
-    call process_hooks("Ralph_Life_day", "global")
+    call process_hooks("Ralph_Life_day", "global") from _call_process_hooks_16
     return True
 
 
 label Ralph_Life_evening:
-    call process_hooks("Ralph_Life_evening", "global")
+    call process_hooks("Ralph_Life_evening", "global") from _call_process_hooks_17
     return True
 
 label Ralph_Life_day1:

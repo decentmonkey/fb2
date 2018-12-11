@@ -247,7 +247,7 @@ label monica_charity_event_dialogue2a:
             music stop
             img black_screen
             with Dissolve(2.0)
-            call textonblack(_("Несколько часов спустя..."))
+            call textonblack(_("Несколько часов спустя...")) from _call_textonblack
             img black_screen
             with Dissolve(2.0)
             music Gearhead
@@ -272,7 +272,7 @@ label monica_charity_event_dialogue2a:
             sound snd_woman_scream2
             m "НЕЕЕЕЕТ!!!"
             music stop
-            call textonblack(_("Продолжение следует..."))
+            call textonblack(_("Продолжение следует...")) from _call_textonblack_1
             img black_screen
             with Dissolve(1)
             $ renpy.full_restart(transition=Fade(1.0, 1.0, 1.0))
@@ -493,7 +493,7 @@ label monica_charity_event_dialogue6:
             $ hotelStaffOffended1 = True
             img 6774
             with fade
-            call bitch(20, "hotelStaffOffended1")
+            call bitch(20, "hotelStaffOffended1") from _call_bitch_182
             m "Я - та кто уволит тебя за этот проступок!"
             "Ты - мелкий червь, который не понимает величия таких людей как Я!"
             "Можешь считать что ты уже не работаешь здесь!"
@@ -515,7 +515,7 @@ label monica_charity_event_dialogue6:
             music Hidden_Agenda
             img 6779
             with fade
-            call bitch(-20, "hotelStaffOffended1")
+            call bitch(-20, "hotelStaffOffended1") from _call_bitch_183
             m "Ладно... Я понимаю что у тебя много забот."
             "От тебя требуют многого, а здесь действительно нет больше места..."
             img 6780
@@ -1084,7 +1084,7 @@ label monica_charity_event_dialogue14:
                 m "Если Вы подымете сумму до $ 30.000.000, то я готова подумать..."
                 mt "В конце концов еще один небольшой кошмар, но я смогу решить все свои проблемы!"
             "$ 30.000.000 и я подумаю! (low corruption, required [monicaPhilipTalkBlowjobCorruptionRequired]) (disabled)" if corruption < monicaPhilipTalkBlowjobCorruptionRequired:
-                call low_corruption(monicaPhilipTalkBlowjobCorruptionRequired)
+                call low_corruption(monicaPhilipTalkBlowjobCorruptionRequired) from _call_low_corruption_1
                 jump .local1
             "Вы правда думаете что я стою так мало?":
                 music Groove2_85
@@ -1474,7 +1474,7 @@ label monica_charity_event_dialogue18:
             "Сесть на колени. (corruption)" if corruption >= monicaPhilipBlojwobKneesCorruptionRequired:
                 pass
             "Сесть на колени. (low corruption, required [monicaPhilipBlojwobKneesCorruptionRequired]) (disabled)" if corruption < monicaPhilipBlojwobKneesCorruptionRequired:
-                call low_corruption(monicaPhilipBlojwobKneesCorruptionRequired)
+                call low_corruption(monicaPhilipBlojwobKneesCorruptionRequired) from _call_low_corruption_2
                 jump .local1
             "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!":
                 img 6904
@@ -1541,7 +1541,7 @@ label monica_charity_event_dialogue18:
             "Открыть рот... (corruption)" if corruption >= monicaPhilipBlojwobOpenMouthCorruptionRequired:
                 pass
             "Открыть рот... (low corruption, required [monicaPhilipBlojwobOpenMouthCorruptionRequired]) (disabled)" if corruption < monicaPhilipBlojwobOpenMouthCorruptionRequired:
-                call low_corruption(monicaPhilipBlojwobOpenMouthCorruptionRequired)
+                call low_corruption(monicaPhilipBlojwobOpenMouthCorruptionRequired) from _call_low_corruption_3
                 jump local2
 
     #Моника открывает рот
@@ -1571,7 +1571,7 @@ label monica_charity_event_dialogue18:
             "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (corruption)" if corruption >= monicaPhilipBlojwobOpenMouth2CorruptionRequired:
                 pass
             "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (low corruption, required [monicaPhilipBlojwobOpenMouth2CorruptionRequired]) (disabled)" if corruption < monicaPhilipBlojwobOpenMouth2CorruptionRequired:
-                call low_corruption(monicaPhilipBlojwobOpenMouth2CorruptionRequired)
+                call low_corruption(monicaPhilipBlojwobOpenMouth2CorruptionRequired) from _call_low_corruption_4
                 jump local3
     img 6923
     with Dissolve(0.5)
@@ -1808,7 +1808,7 @@ label monica_charity_event_dialogue18:
                 img 6954
                 "Я не собираюсь еще раз покупать его!!!"
             "Я могу сделать это еще раз... (low corruption, required [monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired]) (disabled)" if corruption < monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired:
-                call low_corruption(monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired)
+                call low_corruption(monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired) from _call_low_corruption_5
                 jump local4
             "Я не знаю... Мне нечего предложить...":
                 img 6955
@@ -1906,7 +1906,7 @@ label monica_charity_event_dialogue18:
                 philip "Этот ротик приглашает тебя!"
 
             "Открыть рот для нового члена. (low corruption, required [monicaPhilipBlojwobOpenMouthAgainCorruptionRequired]) (disabled)" if corruption < monicaPhilipBlojwobOpenMouthAgainCorruptionRequired:
-                call low_corruption(monicaPhilipBlojwobOpenMouthAgainCorruptionRequired)
+                call low_corruption(monicaPhilipBlojwobOpenMouthAgainCorruptionRequired) from _call_low_corruption_6
                 jump local5
             "Не открывать самой...":
                 img 6972
@@ -2249,7 +2249,7 @@ label monica_charity_event_dialogue18:
                 img 7035
                 philip "Отлично, спасибо."
             "Проглотить сперму двух мужчин... (low corruption, required [monicaPhilipBlojwobTakeSpermCorruptionRequired]) (disabled)" if corruption < monicaPhilipBlojwobTakeSpermCorruptionRequired:
-                call low_corruption(monicaPhilipBlojwobTakeSpermCorruptionRequired)
+                call low_corruption(monicaPhilipBlojwobTakeSpermCorruptionRequired) from _call_low_corruption_7
                 jump local6
             "Притвориться что проглотила...":
                 img 7028
@@ -2529,7 +2529,7 @@ label monica_basement_bedroom_before_sleep1:
     scene black_screen
     with Dissolve(2)
     $ _dismiss_pause = True
-    call textonblack_pause("The End of EP2 V0.1\nYou could support me on Patreon if you like the game :)")
+    call textonblack_pause("The End of EP2 V0.1\nYou could support me on Patreon if you like the game :)") from _call_textonblack_pause
     $ _dismiss_pause = False
     scene black_screen
     with Dissolve(1)

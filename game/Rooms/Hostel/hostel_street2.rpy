@@ -3,7 +3,7 @@ default hostelStreet2MonicaFromSideSuffix = ""
 label hostel_street2:
     $ print "enter_hostel_street2"
     $ miniMapData = []
-    call miniMapHostelGenerate()
+    call miniMapHostelGenerate() from _call_miniMapHostelGenerate_8
 
     $ sceneIsStreet = True
 
@@ -41,21 +41,21 @@ label hostel_street2_init:
 label hostel_street2_teleport:
     if obj_name == "Teleport_Hostel_Edge_1_c":
         if cloth_type == "Nude":
-            call change_scene("hostel_edge_1_c", "Fade", "snd_walk_barefoot")
+            call change_scene("hostel_edge_1_c", "Fade", "snd_walk_barefoot") from _call_change_scene_130
             return
-        call change_scene("hostel_edge_1_c", "Fade", "highheels_run2")
+        call change_scene("hostel_edge_1_c", "Fade", "highheels_run2") from _call_change_scene_131
         return
     if obj_name == "Teleport_Hostel_Street3":
         if cloth_type == "Nude":
-            call change_scene("hostel_street3", "Fade", "snd_walk_barefoot")
+            call change_scene("hostel_street3", "Fade", "snd_walk_barefoot") from _call_change_scene_132
             return
-        call change_scene("hostel_street3", "Fade", "highheels_run2")
+        call change_scene("hostel_street3", "Fade", "highheels_run2") from _call_change_scene_133
         return
     if obj_name == "Teleport_Hostel_Whores_Place":
         if cloth_type == "Nude":
-            call change_scene("whores_place", "Fade", "snd_walk_barefoot")
+            call change_scene("whores_place", "Fade", "snd_walk_barefoot") from _call_change_scene_134
             return
-        call change_scene("whores_place", "Fade", "highheels_run2")
+        call change_scene("whores_place", "Fade", "highheels_run2") from _call_change_scene_135
         return
 
 

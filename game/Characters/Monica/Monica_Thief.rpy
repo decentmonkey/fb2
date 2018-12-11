@@ -1,5 +1,5 @@
 label monica_gas_station_thief:
-    call monica_gas_station_thief_dialogue2()
+    call monica_gas_station_thief_dialogue2() from _call_monica_gas_station_thief_dialogue2
     return
 
 label monica_gas_station_thief_dialogue1:
@@ -50,7 +50,7 @@ label monica_gas_station_thief_dialogue2:
 
     $ monicaStoleFoodGasStationAmount +=1
     $ monicaStoleFoodTotal +=1
-    call monicaEat()
+    call monicaEat() from _call_monicaEat
     $ restore_music()
-    call change_scene("street_gas_station", "Fade_long", "snd_gulp")
+    call change_scene("street_gas_station", "Fade_long", "snd_gulp") from _call_change_scene_76
     return

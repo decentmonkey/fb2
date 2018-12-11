@@ -3,7 +3,7 @@ default monicaBathroomForbidden = True
 label bathroom_bath:
     $ print "enter_bathroom_bath"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_3
 
     $ scene_image = "scene_Bathroom_Bath"
 
@@ -27,13 +27,13 @@ label bathroom_bath_init:
 
 label bathroom_teleport:
     if obj_name == "Teleport_Bathroom_Shower":
-        call change_scene("bathroom_shower")
+        call change_scene("bathroom_shower") from _call_change_scene_44
         return
     if obj_name == "Teleport_Floor2":
-        call change_scene("floor2")
+        call change_scene("floor2") from _call_change_scene_45
         return
     if obj_name == "Teleport_Bathroom_Bath":
-        call change_scene("bathroom_bath")
+        call change_scene("bathroom_bath") from _call_change_scene_46
         return
 
 label bathroom_environment:

@@ -19,7 +19,7 @@ label basement_bedroom_table_init:
 
 label basement_bedroom_table_teleport:
     if obj_name == "Teleport_Bedroom_Back":
-        call change_scene("basement_bedroom2")
+        call change_scene("basement_bedroom2") from _call_change_scene_1
         return
     return
 

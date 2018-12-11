@@ -9,10 +9,10 @@ label basement_bed_hook:
         return True
     if act == "h":
         if day_time == "day":
-            call monica_take_nap()
+            call monica_take_nap() from _call_monica_take_nap
             return _return
         if day_time == "evening":
-            call monica_gosleep1()
+            call monica_gosleep1() from _call_monica_gosleep1
             return _return
     return
 
@@ -34,7 +34,7 @@ label monica_wakeup1:
 
 label monica_take_nap:
     $ basementBedroomMonicaNapGfx = True
-    call basement_monica_nap_transition1()
+    call basement_monica_nap_transition1() from _call_basement_monica_nap_transition1
     $ autorun_to_object("monica_take_nap1")
     return False
 label monica_take_nap1:
@@ -44,18 +44,18 @@ label monica_take_nap1:
         "Лечь и ждать вечера.":
             $ basementBedroomMonicaNapGfx = False
             #транзиция на отдых
-            call process_hooks("basement_monica_before_nap", "global")
+            call process_hooks("basement_monica_before_nap", "global") from _call_process_hooks_27
             if _return == False:
                 $ basement_bedroom2_MonicaSuffix = 2
-                call refresh_scene_fade()
+                call refresh_scene_fade() from _call_refresh_scene_fade_30
                 return False
             $ changeDayTime("evening")
-            call process_hooks("basement_monica_after_nap", "global")
-            call refresh_scene_fade()
+            call process_hooks("basement_monica_after_nap", "global") from _call_process_hooks_28
+            call refresh_scene_fade() from _call_refresh_scene_fade_31
             return False
         "Не ложиться.":
             $ basementBedroomMonicaNapGfx = False
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _call_refresh_scene_fade_32
             return False
     return
 
@@ -65,16 +65,16 @@ label monica_gosleep1:
         if day - monicaEatedLastDay >= 3 and monicaCantSleepHungry == True:
             #если Моника не ела 3 дня
             $ autorun_to_object("basement_monica_hungry_cant_sleep")
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _call_refresh_scene_fade_33
             return False
         else:
             $ basement_bedroom2_MonicaSuffix = 2
             $ basementBedroomMonicaSleepGfx = True
-            call basement_monica_sleep_transition1()
+            call basement_monica_sleep_transition1() from _call_basement_monica_sleep_transition1
             $ autorun_to_object("monica_gosleep1a")
             return False
     $ basementBedroomMonicaSleepGfx = True
-    call basement_monica_sleep_transition1()
+    call basement_monica_sleep_transition1() from _call_basement_monica_sleep_transition1_1
     $ autorun_to_object("monica_gosleep1b")
     return False
 label monica_gosleep1a:
@@ -83,22 +83,22 @@ label monica_gosleep1a:
     menu:
         "Лечь спать голодной.":
             $ basementBedroomMonicaSleepGfx = False
-            call process_hooks("basement_monica_before_sleep", "global")
+            call process_hooks("basement_monica_before_sleep", "global") from _call_process_hooks_29
             if _return == False:
                 $ basement_bedroom2_MonicaSuffix = 2
-                call refresh_scene_fade()
+                call refresh_scene_fade() from _call_refresh_scene_fade_34
                 return False
-            call processHouseCleaningEvening()
+            call processHouseCleaningEvening() from _call_processHouseCleaningEvening
             if cloth != "Nude":
                 $ cloth_type = "Nude"
                 $ cloth = "GovernessPants"
             $ changeDayTime("day")
-            call process_hooks("basement_monica_after_sleep", "global")
-            call refresh_scene_fade()
+            call process_hooks("basement_monica_after_sleep", "global") from _call_process_hooks_30
+            call refresh_scene_fade() from _call_refresh_scene_fade_35
             return False
         "Не ложиться.":
             $ basementBedroomMonicaSleepGfx = False
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _call_refresh_scene_fade_36
             return False
 
 label monica_gosleep1b:
@@ -107,22 +107,22 @@ label monica_gosleep1b:
     menu:
         "Лечь спать.":
             $ basementBedroomMonicaSleepGfx = False
-            call process_hooks("basement_monica_before_sleep", "global")
+            call process_hooks("basement_monica_before_sleep", "global") from _call_process_hooks_31
             if _return == False:
                 $ basement_bedroom2_MonicaSuffix = 2
-                call refresh_scene_fade()
+                call refresh_scene_fade() from _call_refresh_scene_fade_37
                 return False
-            call processHouseCleaningEvening()
+            call processHouseCleaningEvening() from _call_processHouseCleaningEvening_1
             if cloth != "Nude":
                 $ cloth_type = "Nude"
                 $ cloth = "GovernessPants"
             $ changeDayTime("day")
-            call process_hooks("basement_monica_after_sleep", "global")
-            call refresh_scene_fade()
+            call process_hooks("basement_monica_after_sleep", "global") from _call_process_hooks_32
+            call refresh_scene_fade() from _call_refresh_scene_fade_38
             return False
         "Не ложиться.":
             $ basementBedroomMonicaSleepGfx = False
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _call_refresh_scene_fade_39
             return False
     return False
 
@@ -130,7 +130,7 @@ label basement_monica_nap_transition1:
 #    $ basementBedNapIndex = rand(1,4)
     $ basementBedNapIndex = ((day+1)%4) + 1
     $ set_active("BasementBed", False, scene="basement_bedroom2")
-    call refresh_scene("Dissolve_05")
+    call refresh_scene("Dissolve_05") from _call_refresh_scene_9
     return
 #    img black_screen
 #    with Dissolve(0.5)
@@ -139,7 +139,7 @@ label basement_monica_nap_transition1:
 label basement_monica_sleep_transition1:
     $ basementBedSleepIndex = rand(1,1)
     $ set_active("BasementBed", False, scene="basement_bedroom2")
-    call refresh_scene("Dissolve_05")
+    call refresh_scene("Dissolve_05") from _call_refresh_scene_10
 #    img black_screen
 #    with Dissolve(0.5)
 #    call refresh_scene_fade()
@@ -150,7 +150,7 @@ label basement_monica_after_nap:
     return
 
 label basement_monica_after_nap_dialogue:
-    call process_hooks("basement_monica_after_nap_dialogue", "global")
+    call process_hooks("basement_monica_after_nap_dialogue", "global") from _call_process_hooks_33
     return
 label basement_monica_after_nap_dialogue1:
     if day - monicaEatedLastDay >= 2:
@@ -163,7 +163,7 @@ label basement_monica_after_sleep:
     $ autorun_to_object("basement_monica_after_sleep_dialogue")
     return
 label basement_monica_after_sleep_dialogue:
-    call process_hooks("basement_monica_after_sleep_dialogue", "global")
+    call process_hooks("basement_monica_after_sleep_dialogue", "global") from _call_process_hooks_34
     return
 
 label basement_monica_after_sleep_dialogue1:

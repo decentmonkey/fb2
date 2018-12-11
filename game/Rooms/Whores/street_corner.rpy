@@ -1,7 +1,7 @@
 label street_corner:
     $ print "enter_street_corner"
     $ miniMapData = []
-    call miniMapHostelGenerate()
+    call miniMapHostelGenerate() from _call_miniMapHostelGenerate_1
 
     $ sceneIsStreet = True
     $ scene_image = "scene_street_Whores_Place_Car_Stop[day_suffix]"
@@ -32,15 +32,15 @@ label street_corner_init:
 label street_corner_teleport:
     if obj_name == "Teleport_Street1":
         if cloth_type == "Nude":
-            call change_scene("whores_place_street1", "Fade", "snd_walk_barefoot")
+            call change_scene("whores_place_street1", "Fade", "snd_walk_barefoot") from _call_change_scene_10
             return
-        call change_scene("whores_place_street1", "Fade", "highheels_run2")
+        call change_scene("whores_place_street1", "Fade", "highheels_run2") from _call_change_scene_11
         return
     if obj_name == "Teleport_Hostel_Street3":
         if cloth_type == "Nude":
-            call change_scene("hostel_street3", "Fade", "snd_walk_barefoot")
+            call change_scene("hostel_street3", "Fade", "snd_walk_barefoot") from _call_change_scene_12
             return
-        call change_scene("hostel_street3", "Fade", "highheels_run2")
+        call change_scene("hostel_street3", "Fade", "highheels_run2") from _call_change_scene_13
         return
     return
 label street_corner_environment:

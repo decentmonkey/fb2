@@ -40,9 +40,9 @@ default citizen15_offered_last_day = 0
 
 label citizens_dialogue:
     if kebabWorkFlyersLeft == 0 and kebabWorkInProgress == True:
-        call monica_shawarma_dialogue3a()
+        call monica_shawarma_dialogue3a() from _call_monica_shawarma_dialogue3a
         return
-    call citizens_dialogue_process()
+    call citizens_dialogue_process() from _call_citizens_dialogue_process
     if kebabWorkFlyersLeft > 0:
         if kebabWorkMonicaRefusedAmount + kebabWorkHarassmentAmount > 0 and (kebabWorkMonicaRefusedAmount+kebabWorkHarassmentAmount) % 3 == 0:
             $ autorun_to_object("monica_shawarma_dialogue10")
@@ -65,129 +65,129 @@ label citizens_dialogue_process:
             mt "Панки... Выглядят не очень дружелюбно."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse()
+            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse
             return
         music citizenMusic
-        call citizen1_dialogue()
+        call citizen1_dialogue() from _call_citizen1_dialogue
 
     if citizenObjName == "Citizen_3":
         if act=="l":
             mt "Хитрый взгляд... Похоже, этому человеку есть что скрывать."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse()
+            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_1
             return
         music citizenMusic
-        call citizen3_dialogue()
+        call citizen3_dialogue() from _call_citizen3_dialogue
     if citizenObjName == "Citizen_4":
         if act=="l":
             mt "Еще один обитатель трущоб. Таких тут полно."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse()
+            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_2
             return
         music citizenMusic
-        call citizen4_dialogue()
+        call citizen4_dialogue() from _call_citizen4_dialogue
     if citizenObjName == "Citizen_5":
         if act=="l":
             mt "Откуда этот парень? Что он тут делает?"
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse()
+            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_3
             return
         music citizenMusic
-        call citizen5_dialogue()
+        call citizen5_dialogue() from _call_citizen5_dialogue
     if citizenObjName == "Citizen_6":
         if act=="l":
             mt "Этот парень не выглядит злым. Надеюсь, так оно и есть."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse()
+            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_4
             return
         music citizenMusic
-        call citizen6_dialogue()
+        call citizen6_dialogue() from _call_citizen6_dialogue
     if citizenObjName == "Citizen_7":
         if act=="l":
             mt "Уличные художники. Даже в таком районе они есть."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse()
+            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_5
             return
         music citizenMusic
-        call citizen7_dialogue()
+        call citizen7_dialogue() from _call_citizen7_dialogue
     if citizenObjName == "Citizen_8":
         if act=="l":
             mt "Этот человек выглядит опасным. С ним надо быть настороже."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse()
+            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_6
             return
         music citizenMusic
-        call citizen8_dialogue()
+        call citizen8_dialogue() from _call_citizen8_dialogue
     if citizenObjName == "Citizen_9":
         if act=="l":
             mt "Сразу видно, что наркоман. Ему тут самое место."
             "Фи!"
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse()
+            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_7
             return
         music citizenMusic
-        call citizen9_dialogue()
+        call citizen9_dialogue() from _call_citizen9_dialogue
     if citizenObjName == "Citizen_10":
         if act=="l":
             mt "И почему этот старик целый день на улице?"
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse()
+            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_8
             return
         music citizenMusic
-        call citizen10_dialogue()
+        call citizen10_dialogue() from _call_citizen10_dialogue
     if citizenObjName == "Citizen_11":
         if act=="l":
             mt "С этим все понятно: редкий день для него обходится без бутылки."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse()
+            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_9
             return
         music citizenMusic
-        call citizen11_dialogue()
+        call citizen11_dialogue() from _call_citizen11_dialogue
     if citizenObjName == "Citizen_12":
         if act=="l":
             mt "Еще один обитатель трущоб. Таких тут полно."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse()
+            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_10
             return
         music citizenMusic
-        call citizen12_dialogue()
+        call citizen12_dialogue() from _call_citizen12_dialogue
     if citizenObjName == "Citizen_13":
         if act=="l":
             mt "Какой милашка. Ха! Держу пари, девушки ему неинтересны..."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse()
+            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_11
             return
         music citizenMusic
-        call citizen13_dialogue()
+        call citizen13_dialogue() from _call_citizen13_dialogue
     if citizenObjName == "Citizen_14":
         if act=="l":
             mt "Еще один обитатель трущеб. Таких тут полно."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse()
+            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_12
             return
         music citizenMusic
-        call citizen14_dialogue()
+        call citizen14_dialogue() from _call_citizen14_dialogue
     if citizenObjName == "Citizen_15":
         if act=="l":
             mt "Еще один обитатель трущеб. Таких тут полно."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse()
+            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_13
             return
         music citizenMusic
-        call citizen15_dialogue()
+        call citizen15_dialogue() from _call_citizen15_dialogue
 
 #    call refresh_scene_fade()
     return

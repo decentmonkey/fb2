@@ -3,7 +3,7 @@ default basementHoleIncomingDirection = ""
 label basement_hole:
     $ print "enter_basement_hole"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_19
 
     $ scene_image = "scene_Basement_Hole"
     music Sneak_n_Get_Caught
@@ -32,10 +32,10 @@ label basement_hole_init:
 
 label basement_hole_teleport:
     if obj_name == "Teleport_Basement_Laundry":
-        call change_scene("basement_laundry")
+        call change_scene("basement_laundry") from _call_change_scene_147
         return
     if obj_name == "Teleport_Basement_Bedroom":
-        call change_scene("basement_bedroom1")
+        call change_scene("basement_bedroom1") from _call_change_scene_148
         return
     if obj_name == "Teleport_Basement_Side":
         mt "В том коридоре нет света. Я туда не пойду!"

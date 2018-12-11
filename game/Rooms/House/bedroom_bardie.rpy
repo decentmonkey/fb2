@@ -1,7 +1,7 @@
 label bedroom_bardie:
     $ print "enter_bedroom_bardie"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_16
 
     $ scene_image = "scene_House_BedroomBardie" + day_suffix
     music Sneaky_Snitch
@@ -33,7 +33,7 @@ label bedroom_bardie_init:
 
 label bedroom_bardie_teleport:
     if obj_name == "Teleport_Floor2":
-        call change_scene("floor2")
+        call change_scene("floor2") from _call_change_scene_142
         return
     return
 

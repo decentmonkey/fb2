@@ -19,7 +19,7 @@ label ralphInteract1:
             else:
                 "Я не хочу оставаться один на один с Бетти."
             return
-        call ralphDialogue1()
-        call refresh_scene_fade()
+        call ralphDialogue1() from _call_ralphDialogue1
+        call refresh_scene_fade() from _call_refresh_scene_fade_2
         return
     return

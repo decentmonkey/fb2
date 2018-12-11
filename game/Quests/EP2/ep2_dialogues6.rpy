@@ -12,5 +12,5 @@ label cloth_shop_refuse1:
     "Они сразу позовут эту продавщицу."
     "Увидев меня в таком виде, она сразу вызовет полицию."
     $ restore_music()
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_52
     return

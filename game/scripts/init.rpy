@@ -250,7 +250,7 @@ label game_init:
 #    $ print(config.keymap)
     $ config.log = True
 
-    call define_autorun()
+    call define_autorun() from _call_define_autorun_2
 
 #    $ bitchmeter_places = {}
 

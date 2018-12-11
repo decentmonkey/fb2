@@ -91,7 +91,7 @@ label monica_shawarma_dialogue1:
     w
     music DarxieLand
     if money > 0:
-        call monica_shawarma_dialogue2a()
+        call monica_shawarma_dialogue2a() from _call_monica_shawarma_dialogue2a
         return
     #если есть доллар, то уходим на покупку
 #    music Stealth_Groover
@@ -190,7 +190,7 @@ label monica_shawarma_dialogue1:
             $ autorun_to_object("monica_shawarma_dialogue0a")
 
     $ restore_music()
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_14
     return
 
 label monica_shawarma_dialogue2:
@@ -215,7 +215,7 @@ label monica_shawarma_dialogue2:
             img 6142
             w
             sound snd_gulp
-            call monicaEat()
+            call monicaEat() from _call_monicaEat_1
             img 6143
             with fade
             w
@@ -238,8 +238,8 @@ label monica_shawarma_dialogue2:
             img 6148
             with fade
             mt "Черт! Сколько же мне еще придется позориться?"
-            call kebab_work_start()
-            call refresh_scene_fade()
+            call kebab_work_start() from _call_kebab_work_start
+            call refresh_scene_fade() from _call_refresh_scene_fade_15
             $ restore_music()
             return
         "Я не собираюсь ничего разносить! Давай кебаб сюда!":
@@ -283,7 +283,7 @@ label monica_shawarma_dialogue2a:
                 img 6142
                 w
                 sound snd_gulp
-                call monicaEat()
+                call monicaEat() from _call_monicaEat_2
                 img 6143
                 with fade
                 w
@@ -310,7 +310,7 @@ label monica_shawarma_dialogue2a:
                 music stop
                 "Самый вкусный кебаб в округе!"
                 sound snd_gulp
-                call monicaEat()
+                call monicaEat() from _call_monicaEat_3
                 img 6152
                 with fade
                 w

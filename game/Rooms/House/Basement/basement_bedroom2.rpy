@@ -3,7 +3,7 @@ default basement_bedroom2_MonicaSuffix = 2
 label basement_bedroom2:
     $ print "enter_basement_bedroom2"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_12
 
     $ scene_image = "scene_Basement_Bedroom2"
     $ basementHoleIncomingDirection = "Bedroom"
@@ -39,7 +39,7 @@ label basement_bedroom2_init:
 
 label basement_bedroom2_teleport:
     if obj_name == "Teleport_Bedroom1":
-        call change_scene("basement_bedroom1")
+        call change_scene("basement_bedroom1") from _call_change_scene_116
         return
     return
 
@@ -67,27 +67,27 @@ label basement_bedroom2_environment:
         if act == "h":
             if cloth != "Nude" and cloth != "GovernessPants":
                 mt "Мне надо раздеться сначала"
-                call refresh_scene_fade()
+                call refresh_scene_fade() from _call_refresh_scene_fade_17
                 return
             menu:
                 "Лечь спать.":
                     pass
                 "Не ложиться.":
                     return
-            call episode1End()
+            call episode1End() from _call_episode1End
             return
     if obj_name == "Book":
         if act == "l":
             mt "Какая-то книга Юлии..."
         if act == "w":
-            call change_scene("basement_bedroom_table")
+            call change_scene("basement_bedroom_table") from _call_change_scene_117
             return
     if obj_name == "Cupboard":
         if act == "l":
             mt "Старый шкаф..."
         if act == "w":
             $ basementBedroom2CupboardReturnScene = "basement_bedroom2"
-            call change_scene("basement_bedroom2_cupboard")
+            call change_scene("basement_bedroom2_cupboard") from _call_change_scene_118
             return
 
     if obj_name == "Lamp":
@@ -102,7 +102,7 @@ label basement_bedroom2_environment:
             mt "Этот старый яркий пестрый стол пытается скрасить уныние этой каморки..."
             "Тщетно..."
         if act == "w":
-            call change_scene("basement_bedroom_table")
+            call change_scene("basement_bedroom_table") from _call_change_scene_119
             return
     return
 

@@ -1,7 +1,7 @@
 label kitchen2:
     $ print "enter_kitchen2"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_1
 
     $ scene_image = "scene_Kitchen2[day_suffix]"
     music Mandeville
@@ -31,6 +31,6 @@ label kitchen2_init:
 
 label kitchen2_environment:
     if monicaKitchenForbidden == True:
-        call afterJailHouse_dialogue15a()
+        call afterJailHouse_dialogue15a() from _call_afterJailHouse_dialogue15a
         return
     return

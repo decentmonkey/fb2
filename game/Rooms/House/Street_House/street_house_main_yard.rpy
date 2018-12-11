@@ -3,7 +3,7 @@ default driverOnHouseYard = True
 label street_house_main_yard:
     $ print "enter_street_house_main_yard"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_13
 
     $ sceneIsStreet = True
     $ scene_image = "scene_Street_House[day_suffix]"
@@ -35,14 +35,14 @@ label street_house_main_yard_init:
 
 label street_house_main_yard_teleport:
     if obj_name == "Teleport_Fence":
-        call change_scene("street_house_fence", "Fade", "highheels_run2")
+        call change_scene("street_house_fence", "Fade", "highheels_run2") from _call_change_scene_120
         return
     if obj_name == "Teleport_Gate":
-        call change_scene("street_house_gate", "Fade", "highheels_run2")
+        call change_scene("street_house_gate", "Fade", "highheels_run2") from _call_change_scene_121
         return
     if obj_name == "Teleport_House":
 #        music casualMusic
-        call change_scene("floor1", "Fade_long", "highheels_run2")
+        call change_scene("floor1", "Fade_long", "highheels_run2") from _call_change_scene_122
         return
     return
 label street_house_main_yard_environment:

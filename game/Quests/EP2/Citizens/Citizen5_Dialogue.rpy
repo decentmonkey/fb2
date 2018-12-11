@@ -27,7 +27,7 @@ label citizen5_dialogue:
                                     $ kebabWorkHarassmentAmount +=1
                                     #img Моника злится
                                     m "Я ничего не предлагаю! Просто возьмите флаер!"
-                                    call reduce_flyers()
+                                    call reduce_flyers() from _call_reduce_flyers_2
                                 "Место для чего? (disabled)":
                                     jump citizen5_loop1
                     else:

@@ -9,16 +9,16 @@ label Betty_Life_init:
     return
 
 label Betty_Life_day:
-    call process_hooks("Betty_Life_day", "global")
+    call process_hooks("Betty_Life_day", "global") from _call_process_hooks_10
     return True
 
 
 label Betty_Life_evening:
-    call process_hooks("Betty_Life_evening", "global")
+    call process_hooks("Betty_Life_evening", "global") from _call_process_hooks_11
     return True
 
 label Betty_Life_day1:
-    call bettyGetTodayPanties()
+    call bettyGetTodayPanties() from _call_bettyGetTodayPanties_1
     $ bedroom1_betty_suffix = ""
 #    $ move_object("biff", "empty")
     $ rnd = rand(1,3)
@@ -49,9 +49,9 @@ label Betty_Life_Monica_Cleaning_End:
 label Betty_Life_Dialogue_Floor2:
     if act == "t":
         if cloth_type == "Governess":
-            call cleaning_betty_comment1()
+            call cleaning_betty_comment1() from _call_cleaning_betty_comment1
         else:
-            call bettyDialogue3()
+            call bettyDialogue3() from _call_bettyDialogue3
         return False
     return
 
@@ -59,11 +59,11 @@ label Betty_Life_Dialogue_Bedroom1:
     if act == "t":
         if day_time == "day":
             if cloth_type == "Governess":
-                call bettyDialogue1()
+                call bettyDialogue1() from _call_bettyDialogue1_1
             else:
-                call bettyDialogue3()
+                call bettyDialogue3() from _call_bettyDialogue3_1
             return False
         if day_time == "evening":
-            call bettyDialogue2()
+            call bettyDialogue2() from _call_bettyDialogue2
             return False
     return

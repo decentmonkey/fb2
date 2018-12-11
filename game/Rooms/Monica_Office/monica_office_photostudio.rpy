@@ -32,7 +32,7 @@ label monica_office_photostudio_init:
 
 label monica_office_photostudio_teleport:
     if obj_name == "Teleport_Monica_Office_Secretary":
-        call change_scene("monica_office_secretary")
+        call change_scene("monica_office_secretary") from _call_change_scene_53
         return
     return
 label monica_office_photostudio_environment:

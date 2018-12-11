@@ -24,10 +24,10 @@ label fitness_gym_init:
 
 label fitness_gym_teleport:
     if obj_name == "Teleport_Outside":
-        call change_scene("street_fitness")
+        call change_scene("street_fitness") from _call_change_scene_42
         return
     if obj_name == "Teleport_Locker_1":
-        call change_scene("fitness_locker_1")
+        call change_scene("fitness_locker_1") from _call_change_scene_43
         return
 
     return

@@ -44,7 +44,7 @@ label citizen9_dialogue:
                             imgr Dial_Citizen_9_3
                             citizen9 "Отлично. Узнаю старину Джека. Отличная вещь. Хочешь?"
                             imgl Dial_Monica_Sandwich_1
-                            call reduce_flyers()
+                            call reduce_flyers() from _call_reduce_flyers_12
                             m "Нет, спасибо. Вот, возьми еще флаер."
                             imgr Dial_Citizen_9_2
                             citizen9 "Флаер? Ладно. Как насчет потрогать сиську еще раз?"
@@ -69,7 +69,7 @@ label citizen9_dialogue:
                         imgr Dial_Citizen_9_2
                         citizen9 "А? Что?"
                         "Флаер?"
-                        call reduce_flyers()
+                        call reduce_flyers() from _call_reduce_flyers_13
                         imgr Dial_Citizen_9_3
                         "Хорошо..."
                     else:
@@ -85,6 +85,6 @@ label citizen9_dialogue:
 
 label Citizen_9_use_joint:
     $ obj_name = "Citizen_9"
-    call citizens_dialogue_process()
+    call citizens_dialogue_process() from _call_citizens_dialogue_process_1
     $ restore_music()
     return

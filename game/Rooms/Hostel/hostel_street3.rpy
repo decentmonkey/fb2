@@ -3,7 +3,7 @@ default hostelStreet3MonicaFromSideSuffix = ""
 label hostel_street3:
     $ print "enter_hostel_street2"
     $ miniMapData = []
-    call miniMapHostelGenerate()
+    call miniMapHostelGenerate() from _call_miniMapHostelGenerate_3
 
     $ sceneIsStreet = True
 
@@ -36,15 +36,15 @@ label hostel_street3_init:
 label hostel_street3_teleport:
     if obj_name == "Teleport_Hostel_Street_Corner":
         if cloth_type == "Nude":
-            call change_scene("street_corner", "Fade", "snd_walk_barefoot")
+            call change_scene("street_corner", "Fade", "snd_walk_barefoot") from _call_change_scene_47
             return
-        call change_scene("street_corner", "Fade", "highheels_run2")
+        call change_scene("street_corner", "Fade", "highheels_run2") from _call_change_scene_48
         return
     if obj_name == "Teleport_Hostel_Street2":
         if cloth_type == "Nude":
-            call change_scene("hostel_street2", "Fade", "snd_walk_barefoot")
+            call change_scene("hostel_street2", "Fade", "snd_walk_barefoot") from _call_change_scene_49
             return
-        call change_scene("hostel_street2", "Fade", "highheels_run2")
+        call change_scene("hostel_street2", "Fade", "highheels_run2") from _call_change_scene_50
         return
 
     return

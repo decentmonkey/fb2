@@ -3,7 +3,7 @@ default floor1_stairs_Teleport_Basement_Pool_offset = False
 label floor1_stairs:
     $ print "enter_floor1_stairs"
     $ miniMapData = []
-    call miniMapHouseGenerate()
+    call miniMapHouseGenerate() from _call_miniMapHouseGenerate_15
 
     $ scene_image = "scene_Floor1_Stairs[day_suffix]"
 
@@ -36,13 +36,13 @@ label floor1_stairs_init:
 
 label floor1_stairs_teleport:
     if obj_name == "Teleport_Floor2_Stairs":
-        call change_scene("floor2_stairs", "Fade_long", "highheels_run2")
+        call change_scene("floor2_stairs", "Fade_long", "highheels_run2") from _call_change_scene_137
         return
     if obj_name == "Teleport_Basement_Pool":
-        call change_scene("basement_pool")
+        call change_scene("basement_pool") from _call_change_scene_138
         return
     if obj_name == "Teleport_Floor1":
-        call change_scene("floor1")
+        call change_scene("floor1") from _call_change_scene_139
         return
     return
 

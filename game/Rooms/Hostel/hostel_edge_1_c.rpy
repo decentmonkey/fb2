@@ -4,7 +4,7 @@ default localDaySuffix = ""
 label hostel_edge_1_c:
     $ print "enter_hostel_edge_1_c"
     $ miniMapData = []
-    call miniMapHostelGenerate()
+    call miniMapHostelGenerate() from _call_miniMapHostelGenerate_4
 
     $ sceneIsStreet = True
 
@@ -38,15 +38,15 @@ label hostel_edge_1_c_init:
 label hostel_edge_1_c_teleport:
     if obj_name == "Teleport_Hostel_Street":
         if cloth_type == "Nude":
-            call change_scene("hostel_street", "Fade", "snd_walk_barefoot")
+            call change_scene("hostel_street", "Fade", "snd_walk_barefoot") from _call_change_scene_66
             return
-        call change_scene("hostel_street", "Fade", "highheels_run2")
+        call change_scene("hostel_street", "Fade", "highheels_run2") from _call_change_scene_67
         return
     if obj_name == "Teleport_Walk_Street":
         if cloth_type == "Nude":
-            call change_scene("hostel_street2", "Fade", "snd_walk_barefoot")
+            call change_scene("hostel_street2", "Fade", "snd_walk_barefoot") from _call_change_scene_68
             return
-        call change_scene("hostel_street2", "Fade", "highheels_run2")
+        call change_scene("hostel_street2", "Fade", "highheels_run2") from _call_change_scene_69
         return
     if obj_name == "Teleport_Hostel_1_a":
         if act == "l":
@@ -62,14 +62,14 @@ label hostel_edge_1_c_teleport:
                 return
         if act == "w":
             if gameStage == 3 and gameSubStage == 0:
-                call hostelAfterJail_street_dialogue4()
+                call hostelAfterJail_street_dialogue4() from _call_hostelAfterJail_street_dialogue4
                 return
             if gameStage == 2:
                 $ autorun_to_object("hostel_edge_1_a", "hostel_edge_1_a_dialogue1")
             if cloth_type == "Nude":
-                call change_scene("hostel_edge_1_a", "Fade", "snd_walk_barefoot")
+                call change_scene("hostel_edge_1_a", "Fade", "snd_walk_barefoot") from _call_change_scene_70
                 return
-            call change_scene("hostel_edge_1_a")
+            call change_scene("hostel_edge_1_a") from _call_change_scene_71
             return
     return
 label hostel_edge_1_c_environment:
