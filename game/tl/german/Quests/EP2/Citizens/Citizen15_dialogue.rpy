@@ -70,3 +70,41 @@ translate german strings:
     old "Я не подкатываю, но все-же... (disabled)"
     new "Ich stecke nicht, jedoch... (disabled)"
 
+# TODO: Translation updated at 2018-12-12 01:35
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:12
+translate german citizen15_dialogue_0c6511a1:
+
+    # citizen15 "Йо! Бэби! Что ты хочешь?"
+    citizen15 "Йо! Бэби! Что ты хочешь?"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:17
+translate german citizen15_dialogue_05979ea1:
+
+    # m "Возьмите, пожалуйста, этот флаер..."
+    m "Возьмите, пожалуйста, этот флаер..."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:24
+translate german citizen15_dialogue_4dded6da:
+
+    # citizen15 "А что дальше?"
+    # m "В смысле?"
+    # citizen15 "Я важная персона! Все девочки тащатся от меня!"
+    # "Продолжай подкатывать ко мне! Мне нравится!"
+    citizen15 "А что дальше?"
+    m "В смысле?"
+    citizen15 "Я важная персона! Все девочки тащатся от меня!"
+    "Продолжай подкатывать ко мне! Мне нравится!"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:34
+translate german citizen15_dialogue_23b531ff:
+
+    # m "Я не собираюсь к тебе подкатывать!"
+    m "Я не собираюсь к тебе подкатывать!"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:39
+translate german citizen15_dialogue_afada078:
+
+    # citizen15 "Я важная персона! У меня нет времени на флаеры!"
+    citizen15 "Я важная персона! У меня нет времени на флаеры!"
+

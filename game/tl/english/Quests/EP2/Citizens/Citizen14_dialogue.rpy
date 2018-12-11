@@ -66,3 +66,37 @@ translate english strings:
     old "Может и так... (disabled)"
     new "Maybe so... (disabled)"
 
+# TODO: Translation updated at 2018-12-12 01:36
+
+# game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:12
+translate english citizen14_dialogue_41bbe4e1:
+
+    # citizen14 "Какая красавица! Что тебе надо от такого как Я? Ик!..."
+    citizen14 "What a beauty! What do you want from someone like me? HICC!..."
+
+# game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:17
+translate english citizen14_dialogue_05979ea1:
+
+    # m "Возьмите, пожалуйста, этот флаер..."
+    m "Please, take this flyer..."
+
+# game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:24
+translate english citizen14_dialogue_68d0364d:
+
+    # citizen14 "Но ты же не просто так подошла ко мне!"
+    # "Я ведь понравился тебе? Хрюк..."
+    citizen14 "But you came to me for some reason, didn't you?!"
+    "Do you like me? Oink..."
+
+# game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:32
+translate english citizen14_dialogue_ff6d2e2b:
+
+    # m "Мне никто не может понравиться в этой дыре!"
+    m "I don't like anyone in this shithole!"
+
+# game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:37
+translate english citizen14_dialogue_8b77541b:
+
+    # citizen14 "Не возьму... Я все-равно его потеряю... Хрюк..."
+    citizen14 "I won't take it... I'm gonna lose it anyway... Oink..."
+

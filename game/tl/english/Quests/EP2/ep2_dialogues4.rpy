@@ -3704,3 +3704,21 @@ translate english monica_office_cabinet_biff_dialogue5_e478df33:
     "Now, let's go!"
     "We still have to pick up {c}Melanie {/c} along the way!"
 
+# TODO: Translation updated at 2018-12-12 01:36
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1657
+translate english monica_office_photostudio_alex_dialogue2_83504b00:
+
+    # m "Я не буду так сниматься!"
+    # m "Мы сделали достаточно кадров!"
+    # alex_photograph "Хотите переодеться назад?"
+    m "I'm not going to do that!"
+    m "We've taken enough shots!"
+    alex_photograph "Would you like to change back into your other clothes?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1682
+translate english monica_office_photostudio_alex_dialogue2_b62e51c4:
+
+    # mt "Итак, {c}надо вернуться к Бифу{/c}..."
+    mt "So, {c} I must return to the Biff{/c}..."
+

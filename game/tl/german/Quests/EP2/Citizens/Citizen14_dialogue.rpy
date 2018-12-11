@@ -66,3 +66,37 @@ translate german strings:
     old "Может и так... (disabled)"
     new "Vielleicht so... (disabled)"
 
+# TODO: Translation updated at 2018-12-12 01:35
+
+# game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:12
+translate german citizen14_dialogue_41bbe4e1:
+
+    # citizen14 "Какая красавица! Что тебе надо от такого как Я? Ик!..."
+    citizen14 "Какая красавица! Что тебе надо от такого как Я? Ик!..."
+
+# game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:17
+translate german citizen14_dialogue_05979ea1:
+
+    # m "Возьмите, пожалуйста, этот флаер..."
+    m "Возьмите, пожалуйста, этот флаер..."
+
+# game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:24
+translate german citizen14_dialogue_68d0364d:
+
+    # citizen14 "Но ты же не просто так подошла ко мне!"
+    # "Я ведь понравился тебе? Хрюк..."
+    citizen14 "Но ты же не просто так подошла ко мне!"
+    "Я ведь понравился тебе? Хрюк..."
+
+# game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:32
+translate german citizen14_dialogue_ff6d2e2b:
+
+    # m "Мне никто не может понравиться в этой дыре!"
+    m "Мне никто не может понравиться в этой дыре!"
+
+# game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:37
+translate german citizen14_dialogue_8b77541b:
+
+    # citizen14 "Не возьму... Я все-равно его потеряю... Хрюк..."
+    citizen14 "Не возьму... Я все-равно его потеряю... Хрюк..."
+

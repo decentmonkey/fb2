@@ -70,3 +70,35 @@ translate german strings:
     old "Чем тебя развлечь? (disabled)"
     new "Wie kann ich Dich unterhalten? (disabled)"
 
+# TODO: Translation updated at 2018-12-12 01:35
+
+# game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:12
+translate german citizen12_dialogue_7d295d4f:
+
+    # citizen12 "Да, Крошка? Что ты хочешь от меня?"
+    citizen12 "Да, Крошка? Что ты хочешь от меня?"
+
+# game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:17
+translate german citizen12_dialogue_05979ea1:
+
+    # m "Возьмите, пожалуйста, этот флаер..."
+    m "Возьмите, пожалуйста, этот флаер..."
+
+# game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:25
+translate german citizen12_dialogue_b936b49e:
+
+    # citizen12 "И все? А как же развлечься?"
+    citizen12 "И все? А как же развлечься?"
+
+# game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:32
+translate german citizen12_dialogue_9c33a01e:
+
+    # m "Я никого не собираюсь развлекать!"
+    m "Я никого не собираюсь развлекать!"
+
+# game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:37
+translate german citizen12_dialogue_156d4eb2:
+
+    # citizen12 "Мне неинтересны никакие флаеры!"
+    citizen12 "Мне неинтересны никакие флаеры!"
+

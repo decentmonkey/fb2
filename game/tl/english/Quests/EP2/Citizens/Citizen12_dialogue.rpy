@@ -70,3 +70,35 @@ translate english strings:
     old "Чем тебя развлечь? (disabled)"
     new "How can I entertain you? (disabled)"
 
+# TODO: Translation updated at 2018-12-12 01:36
+
+# game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:12
+translate english citizen12_dialogue_7d295d4f:
+
+    # citizen12 "Да, Крошка? Что ты хочешь от меня?"
+    citizen12 "Yes, baby? What do you want from me?"
+
+# game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:17
+translate english citizen12_dialogue_05979ea1:
+
+    # m "Возьмите, пожалуйста, этот флаер..."
+    m "Please, take this flyer..."
+
+# game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:25
+translate english citizen12_dialogue_b936b49e:
+
+    # citizen12 "И все? А как же развлечься?"
+    citizen12 "That's it? What about fun?"
+
+# game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:32
+translate english citizen12_dialogue_9c33a01e:
+
+    # m "Я никого не собираюсь развлекать!"
+    m "I'm not entertaining anyone!"
+
+# game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:37
+translate english citizen12_dialogue_156d4eb2:
+
+    # citizen12 "Мне неинтересны никакие флаеры!"
+    citizen12 "I'm not interested in any flyers!"
+

@@ -3704,3 +3704,21 @@ translate german monica_office_cabinet_biff_dialogue5_e478df33:
     "А сейчас поехали!"
     "Нам еще надо подобрать {c}Мелани{/c} по пути!"
 
+# TODO: Translation updated at 2018-12-12 01:35
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1657
+translate german monica_office_photostudio_alex_dialogue2_83504b00:
+
+    # m "Я не буду так сниматься!"
+    # m "Мы сделали достаточно кадров!"
+    # alex_photograph "Хотите переодеться назад?"
+    m "Я не буду так сниматься!"
+    m "Мы сделали достаточно кадров!"
+    alex_photograph "Хотите переодеться назад?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1682
+translate german monica_office_photostudio_alex_dialogue2_b62e51c4:
+
+    # mt "Итак, {c}надо вернуться к Бифу{/c}..."
+    mt "Итак, {c}надо вернуться к Бифу{/c}..."
+
