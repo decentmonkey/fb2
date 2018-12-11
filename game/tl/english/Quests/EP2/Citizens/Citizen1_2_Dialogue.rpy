@@ -36,7 +36,7 @@ translate english citizen1_dialogue_2fc5fc65:
     # citizen1 "С такой внешностью тебе бы не флаеры раздавать!"
     # mt "(Вот козел...)"
     # citizen2 "А я возьму, давай свой флаер."
-    citizen1 "Aunty, can't you see that we're busy? We don't have time for you right now."
+    citizen1 "Aunty, can't you see we're busy? We're not up to you now."
     citizen2 "Wait, Tom, can't you see? She's working."
     citizen1 "Oh! Well, with an appearance like yours, you should not be delivering flyers, but rather something else!"
     mt "(A goat...)"
@@ -86,7 +86,7 @@ translate english citizen1_dialogue_c4e0284a:
 translate english citizen1_dialogue_c8ca3306:
 
     # citizen1 "Тетя, не видишь, мы заняты, нам сейчас не до тебя."
-    citizen1 "Aunty, can't you see that we're busy? We don't have time for you right now."
+    citizen1 "Aunty, can't you see we're busy? We're not up to you now."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:24
 translate english citizen1_dialogue_b3228aed:

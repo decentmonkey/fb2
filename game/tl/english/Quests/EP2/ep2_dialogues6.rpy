@@ -54,7 +54,7 @@ translate english monica_pissing_basement_4c23a0d6:
     # mt "Я уже писала недавно. Я пока не хочу."
     mt "It would be nice to pee..."
     "I haven't peed in a while, and Betty's not around."
-    mt "I have already peed. I don't need to do it again."
+    mt "I have already peed. I don't need to right now."
 
 # game/Quests/EP2/ep2_dialogues6.rpy:63
 translate english monica_pissing_basement_bdef56c9:

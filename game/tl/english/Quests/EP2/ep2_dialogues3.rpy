@@ -374,7 +374,7 @@ translate english monica_dick_dialogue1_2d002724:
     m "DICK! PLEASE!"
     "I can be your friend too!"
     "DICK!!"
-    "CUTE!"
+    "CUTIE!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:236
 translate english monica_dick_dialogue1_bac12071:
@@ -1158,7 +1158,7 @@ translate english monica_dick_dialogue1_local1_2d002724:
     m "DICK! PLEASE!"
     "I can be your friend too!"
     "DICK!!"
-    "CUTE!"
+    "CUTIE!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:338
 translate english monica_dick_dialogue1_local1_bac12071:

@@ -771,14 +771,14 @@ translate english cleaning_betty_comment1_a2ac888f:
 
     # betty "Моника, гувернантка."
     # "Продолжай убираться."
-    betty "Monica, governess."
+    betty "Monica, the maid."
     "Keep cleaning."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:416
 translate english cleaning_betty_comment1_ba11ae58:
 
     # betty "Моника, гувернантка."
-    betty "Monica, governess."
+    betty "Monica, the maid."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:418
 translate english cleaning_betty_comment1_000edcab:
@@ -833,7 +833,7 @@ translate english cleaning_betty_comment1_842f0875:
 
     # betty "Моника, гувернантка."
     # "Ты плохо работаешь и нерегулярно убираешь, я вижу!"
-    betty "Monica, governess."
+    betty "Monica, the maid."
     "You work poorly and clean irregularly, I see!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:442
@@ -874,7 +874,7 @@ translate english cleaning_bardie_comment1_509c5b3e:
 translate english cleaning_bardie_comment1_1e00507b:
 
     # bardie "Ты гувернантка! Я твой хозяин!"
-    bardie "You are a governess! I own you!"
+    bardie "You are a maid! I own you!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:471
 translate english cleaning_bardie_comment1_ccf772db:
@@ -948,7 +948,7 @@ translate english cleaning_bardie_comment3_509c5b3e:
 translate english cleaning_bardie_comment3_1e00507b:
 
     # bardie "Ты гувернантка! Я твой хозяин!"
-    bardie "You are a governess! I own you!"
+    bardie "You are a maid! I own you!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:535
 translate english cleaning_bardie_comment3_ccf772db:
@@ -1005,7 +1005,7 @@ translate english bardie_comment4_9cdfbb8a:
 
     # bardie "Эй! Гувернантка!"
     # "Покажи что у тебя под юбкой!"
-    bardie "Hey! Governess!"
+    bardie "Hey! The maid!"
     "Show me what's under your skirt!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:574
@@ -1258,7 +1258,7 @@ translate english strings:
 translate english cleaning_betty_comment1_ba11ae58_1:
 
     # betty "Моника, гувернантка."
-    betty "Monica, governess."
+    betty "Monica, the maid."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:451
 translate english cleaning_betty_comment1_000edcab_1:

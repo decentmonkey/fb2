@@ -4616,3 +4616,21 @@ translate german strings:
     old "Проглотить сперму двух мужчин... (low corruption, required [monicaPhilipBlojwobTakeSpermCorruptionRequired]) (disabled)"
     new ""
 
+# TODO: Translation updated at 2018-12-11 22:46
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2056
+translate german monica_charity_event_dialogue18_loopa1_2e739f47:
+
+    # hotel_staff "Правда, Сэр?"
+    # philip "Правда, малыш!"
+    # "Сделай движение вперед, не бойся!"
+    hotel_staff "Правда, Сэр?"
+    philip "Правда, малыш!"
+    "Сделай движение вперед, не бойся!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:2071
+translate german monica_charity_event_dialogue18_loopa1_ddb03c18_1:
+
+    # hotel_staff "Хорошо, Сэр..."
+    hotel_staff "Хорошо, Сэр..."
+

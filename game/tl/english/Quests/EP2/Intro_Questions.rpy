@@ -126,7 +126,7 @@ translate english strings:
 
     # Quests/EP2/Intro_Questions.rpy:110
     old "Юлия наказана и убирает пятно в свободное время."
-    new "Julia was punished and cleaned the stain in her free time."
+    new "Julia was punished and removes the stain in her free time."
 
     # Quests/EP2/Intro_Questions.rpy:110
     old "Юлию не наказана за пятно никак."
@@ -266,7 +266,7 @@ translate english strings:
 
     # Quests/EP2/Intro_Questions.rpy:292
     old "Моника при покупке платья общалась в продавцом грубо"
-    new "While buying the dress, Monica spoke to seller rudely."
+    new "While buying the dress, Monica spoke to the seller rudely."
 
     # Quests/EP2/Intro_Questions.rpy:292
     old "Вежливо."

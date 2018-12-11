@@ -49,7 +49,7 @@ translate english citizen3_dialogue_64cf8271:
     citizen3 "Yeah, and I'm gonna ask you to give something to my friend Nigel. He's on the other side of the street, and you can tell him apart by the blue down jacket he's wearing all year round."
     m "What am I supposed to tell him?"
     mt "(What?! )"
-    m "What's that? Drugs?!"
+    m "What's this? Drugs?!"
     citizen3 "(Whispering) When did weed become equivalent to drugs? It's completely legal. So, will you help me out?"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:37
@@ -179,7 +179,7 @@ translate english citizen3_dialogue_b59678fd:
 
     # m "Что это? Наркотики?!"
     # citizen3 "(Шепотом) С каких пор травку слали приравнивать к наркотикам? Она абсолютно легальна. Ну дак что, поможешь мне?"
-    m "What's that? Drugs?!"
+    m "What's this? Drugs?!"
     citizen3 "(Whispering) When did weed become equivalent to drugs? It's completely legal. So, will you help me out?"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:50

@@ -60,7 +60,7 @@ translate english monica_office_entrance_biff_dialogue1_02e48dc5:
 translate english monica_office_entrance_biff_dialogue1_4c2bc47c:
 
     # "Алексу влетит за то, что решил скрыть от меня такую цыпочку!"
-    "Alex will get into trouble for keeping me away from me such a chick!"
+    "Alex will get in trouble for being decided to hide from me such a chick!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:36
 translate english monica_office_entrance_biff_dialogue1_6a07b022:
@@ -707,7 +707,7 @@ translate english monica_office_cabinet_biff_dialogue1_18e11c83:
     # "ААААААААА!!!!"
     mt "!!!"
     "SWINE!!!"
-    "IF IT WASN'T FOR THE POLICE, I WOULD KILL HIM RIGHT HERE!!!"
+    "IF NOT FOR THE POLICE, I WOULD KILL HIM RIGHT HERE!!!"
     "AAAAAAAAA!!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:408

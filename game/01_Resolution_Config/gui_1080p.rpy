@@ -72,8 +72,16 @@ define gui.choice_button_text_size = 34 #25
 
 define gui.resolution.koeff = 1
 
+define gui.resolution.preferences1 = 400
+
 
 define res.suffix = "" #"", "_720p"
+
+
+style game_menu_navigation_frame:
+    xsize 420
+    yfill True
+
 style dialogue_text:
     line_spacing 5 #5, 3
 

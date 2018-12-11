@@ -844,7 +844,7 @@ translate english monica_charity_event_dialogue8_558c1fc7:
     "He can give me a lot of money..."
     "And that would make it easier for me to achieve my goal..."
     "It doesn't seem too complicated."
-    "I just have to play along a little bit."
+    "I just have to play along with him a little."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:503
 translate english monica_charity_event_dialogue8_2f6a25d8:
@@ -948,7 +948,7 @@ translate english monica_charity_event_dialogue8_98648137:
     # "Я начинаю чувствовать себя как раньше..."
     "Good dinner, wine..."
     "Journalists, attention..."
-    "I'm starting to feel like I used to..."
+    "I'm starting to feel like I'm used to..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:554
 translate english monica_charity_event_dialogue8_0b786464:
@@ -1198,7 +1198,7 @@ translate english monica_charity_event_dialogue12_a89e1fbd:
 translate english monica_charity_event_dialogue12a_1fd69040:
 
     # mt "Куда я пойду??? Мне надо срочно найти деньги для Дика! Иначе конец!"
-    mt "Where I can go??? I need to find money for Dick right away! Otherwise, it is the end!"
+    mt "Where can I go??? I need to find money for Dick right away! Otherwise, it is the end!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:686
 translate english monica_charity_event_dialogue14_38d4ceed:
@@ -2477,10 +2477,10 @@ translate english monica_charity_event_dialogue18_loopa1_851c3f79:
     # philip "Правда, малыш!"
     # "Сделай движение вперед, не бойся!"
     # hotel_staff "Хорошо, Сэр..."
-    hotel_staff "Правда, Сэр?"
-    philip "Правда, малыш!"
-    "Сделай движение вперед, не бойся!"
-    hotel_staff "Хорошо, Сэр..."
+    hotel_staff "Is that right, Sir?"
+    philip "Yes, really!"
+    "Move forward, don't be afraid!"
+    hotel_staff "Yes, Sir..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1530
 translate english monica_charity_event_dialogue18_loopa1_0f702f99:
@@ -2492,7 +2492,7 @@ translate english monica_charity_event_dialogue18_loopa1_0f702f99:
 translate english monica_charity_event_dialogue18_loopa1_ddb03c18:
 
     # hotel_staff "Хорошо, Сэр..."
-    hotel_staff "Хорошо, Сэр..."
+    hotel_staff "Yes, Sir..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1537
 translate english monica_charity_event_dialogue18_loopa1_f90b5f70:
@@ -2960,7 +2960,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:1046
     old "В МОЕМ! (хмык)"
-    new "IN MINE! (hmyk)"
+    new "IN MINE! (sob)"
 
     # Quests/EP2/ep2_dialogues5.rpy:1046
     old "Мне... Мне надо подумать!"
@@ -2972,7 +2972,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:1173
     old "Открыть рот..."
-    new "Open your mouth..."
+    new "Open my mouth..."
 
     # Quests/EP2/ep2_dialogues5.rpy:1197
     old "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!!"
@@ -2992,7 +2992,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:1495
     old "Открыть рот. Я решила делать все что говорит Филип. Если я не достану эти деньги, то мне конец!"
-    new "Open your mouth. I've decided to do everything Philip says. If I don't get that money, I'm dead!"
+    new "Open my mouth. I decided to do everything Philip says. If I don't get that money, I'm dead!"
 
     # Quests/EP2/ep2_dialogues5.rpy:1495
     old "Я не могу это сделать..."
@@ -3012,7 +3012,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:1602
     old "Проглотить сперму по настоящему, иначе Филип увидит и я не получу деньги..."
-    new "Swallow the cum for real. Philip will check for sure, and I need to get the money..."
+    new "Swallow the cum for real. Philip will check for sure, and I won't get the money..."
 
 # TODO: Translation updated at 2018-12-08 17:34
 
@@ -3476,7 +3476,7 @@ translate english monica_charity_event_dialogue8a_558c1fc7:
     "He can give me a lot of money..."
     "And that would make it easier for me to achieve my goal..."
     "It doesn't seem too complicated."
-    "I just have to play along a little bit."
+    "I just have to play along with him a little."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:678
 translate english monica_charity_event_dialogue8a_2f6a25d8:
@@ -3580,7 +3580,7 @@ translate english monica_charity_event_dialogue8a_98648137:
     # "Я начинаю чувствовать себя как раньше..."
     "Good dinner, wine..."
     "Journalists, attention..."
-    "I'm starting to feel like I used to..."
+    "I'm starting to feel like I'm used to..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:739
 translate english monica_charity_event_dialogue8a_0b786464:
@@ -4624,13 +4624,13 @@ translate english monica_charity_event_dialogue18_loopa1_2e739f47:
     # hotel_staff "Правда, Сэр?"
     # philip "Правда, малыш!"
     # "Сделай движение вперед, не бойся!"
-    hotel_staff "Правда, Сэр?"
-    philip "Правда, малыш!"
-    "Сделай движение вперед, не бойся!"
+    hotel_staff "Is that right, Sir?"
+    philip "Yes, really!"
+    "Move forward, don't be afraid!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2071
 translate english monica_charity_event_dialogue18_loopa1_ddb03c18_1:
 
     # hotel_staff "Хорошо, Сэр..."
-    hotel_staff "Хорошо, Сэр..."
+    hotel_staff "Yes, Sir..."
 

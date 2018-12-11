@@ -94,7 +94,7 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:2
     old "Посмотреть подсказку"
-    new "Look for a hint."
+    new "Look at the hint."
 
     # Quests/Question_Helper_Info.rpy:2
     old "Продолжить игру."

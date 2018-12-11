@@ -1634,10 +1634,6 @@ style game_menu_outer_frame:
 
     background "gui/overlay/game_menu.png"
 
-style game_menu_navigation_frame:
-    xsize 420
-    yfill True
-
 style game_menu_content_frame:
     left_margin 60
     right_margin 30
@@ -1693,7 +1689,7 @@ screen about():
 
             ## gui.about is usually set in options.rpy.
             if gui.about:
-                text "[gui.about!t]\n"
+                text "[gui.about]\n"
 
 #            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
 
@@ -1891,7 +1887,7 @@ screen preferences():
                     textbutton _("Disable") action SetField(persistent, "pause_before_change_slide", False)
 
                 vbox:
-                    xmaximum 400
+                    xmaximum gui.resolution.preferences1
 
                     if config.has_music:
                         label _("Music Volume")

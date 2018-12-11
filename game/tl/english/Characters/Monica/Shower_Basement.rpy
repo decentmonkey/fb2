@@ -72,7 +72,7 @@ translate english basement_shower_use1_55a3eca6:
 translate english basement_toilet_use1_cc5d0faf:
 
     # mt "Я уже писала недавно. Я пока не хочу."
-    mt "I have already peed. I don't need to do it again."
+    mt "I have already peed. I don't need to right now."
 
 # game/Characters/Monica/Shower_Basement.rpy:110
 translate english basement_toilet_use1_13842f8a:
