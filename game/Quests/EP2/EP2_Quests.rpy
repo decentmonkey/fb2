@@ -334,11 +334,11 @@ label monica_charity_event_melanie_talk1:
 label monica_charity_event_philip_talk1:
     if act == "l":
         return
-    $ remove_hook()
     call monica_charity_event_dialogue8()
     if _return == False:
         call refresh_scene_fade()
         return False
+    $ remove_hook()
     $ move_object("Philip", "rich_hotel_event_sittable")
     $ add_hook("Philip", "monica_charity_event_philip_talk2", scene="rich_hotel_event_sittable")
     music Lobby_Time
