@@ -748,3 +748,19 @@ translate german strings:
     old "Я не собираюсь ничего разносить! Давай кебаб сюда!"
     new "Ich werde gar nichts ausliefern! Gib mir den Kebab!"
 
+# TODO: Translation updated at 2018-12-11 23:38
+
+# game/Quests/EP2/ep2_dialogues2.rpy:109
+translate german monica_shawarma_dialogue1_919e1160:
+
+    # shawarma "Конечно есть, Мадаме!"
+    # "Если такой красивый женщин, как Вы, {c]расскажет всем вокруг про мой самый вкусный кебаб{/c], то кебаб сам будет Вас искать!"
+    shawarma "Конечно есть, Мадаме!"
+    "Если такой красивый женщин, как Вы, {c]расскажет всем вокруг про мой самый вкусный кебаб{/c], то кебаб сам будет Вас искать!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:120
+translate german monica_shawarma_dialogue1_cf6bdd7a:
+
+    # m "Хорошо, если ты дашь мне сейчас свой кебаб, то {c]я разнесу твои флаеры{/c]..."
+    m "Хорошо, если ты дашь мне сейчас свой кебаб, то {c]я разнесу твои флаеры{/c]..."
+

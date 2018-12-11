@@ -88,3 +88,21 @@ translate english basement_monica_hungry_cant_sleep_e08d40f0:
     mt "Maybe I can find something at the gas station?"
     mt "Or someone to borrow money for food?"
 
+# TODO: Translation updated at 2018-12-11 23:38
+
+# game/Characters/Monica/Bed_Basement.rpy:195
+translate english basement_monica_hungry_cant_sleep_677ba52e:
+
+    # mt "{c]Я не ела{/c] уже третий день!"
+    # "Я не могу лечь спать в таком состоянии!"
+    # "Я ХОЧУ ЕСТЬ!!!"
+    # "..."
+    # mt "Может быть я смогу что-то найти на заправке?"
+    # mt "Или у кого-нибудь занять деньги на еду?"
+    mt "{c]I haven't eaten{/c] for three days!"
+    "I can't sleep like this!"
+    "I WANT TO EAT!!!"
+    "..."
+    mt "Maybe I can find something at the gas station?"
+    mt "Or someone to borrow money for food?"
+

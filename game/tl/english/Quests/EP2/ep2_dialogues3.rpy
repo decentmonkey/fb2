@@ -1486,3 +1486,125 @@ translate english strings:
     old "Приставать к Дику. (low corruption, required [monicaTryToDickBlowjobRequiredCorruption]) (disabled)"
     new "Seduce Dick. (low corruption, required [monicaTryToDickBlowjobRequiredCorruption]) (disabled)"
 
+# TODO: Translation updated at 2018-12-11 23:38
+
+# game/Quests/EP2/ep2_dialogues3.rpy:18
+translate english monica_fred_about_dick_dialogue2_c76544ea:
+
+    # fred "Миссис Бакфетт! Мне сообщили что {c]Мистер Дик просил Вас зайти к нему{/c]!"
+    fred "Mrs. Buckfett! I've been informed that {c]Mr. Dick has asked you to come see him{/c]!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:391
+translate english monica_dick_dialogue1_local1_def1a561:
+
+    # dick "В общем Моника, я жду того что Вы {c]подружитесь с Викторией до конца недели{/c]."
+    # dick "Я даю тебе шанс, Моника."
+    dick "Anyway, Monica, I expect you to be {c]friends with Victoria by the end of this week{/c]."
+    dick "I'm giving you a chance, Monica."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:394
+translate english monica_dick_dialogue1_local1_f80d56fc:
+
+    # "{c]В пятницу вечером галстук должен быть на мне!{/c]"
+    "{c]By Friday night, I should be wearing a new tie!{/c]"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:396
+translate english monica_dick_dialogue1_local1_a1685f3a:
+
+    # "{c]В следующую пятницу вечером галстук должен быть на мне!{/c]"
+    "{c]Next Friday evening, the tie should be on me!{/c]"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:439
+translate english monica_dick_secretary_dialogue2_b4d01600:
+
+    # "Мистер Дик сказал чтобы {c]я послала его в субботу утром, если Вы себя будете плохо вести{/c]."
+    "Mr. Dick said that {c]I should send it on Saturday morning if you misbehave {/c]."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:544
+translate english monica_dick_secretary_dialogue2_bdd75054:
+
+    # dick_secretary "Хорошо, {c]в пятницу вечером приходите сюда{/c]."
+    dick_secretary "Okay, {c]Friday night, be here {/c]."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:546
+translate english monica_dick_secretary_dialogue2_93efb7bc:
+
+    # dick_secretary "Хорошо, {c]в следующую пятницу вечером приходите сюда{/c]."
+    dick_secretary "Well, {c]next Friday evening, come here{/c]."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:547
+translate english monica_dick_secretary_dialogue2_808a330a:
+
+    # "Я знаю хороший галстук за {c]$ 5.000{/c]."
+    # "Так что {c]приготовьте деньги{/c]."
+    # "{c]Если у Вас не будет нужной суммы, то, пожалуйста, не беспокойте меня{/c]."
+    "I know a good tie for {c]$ 5.000 {/c]."
+    "So {c]prepare the money {/c]."
+    "{c]If you don't have the right amount, please don't bother me{/c]."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:585
+translate english monica_dick_secretary_dialogue3_e92a97b6:
+
+    # "Либо не отправлю, если мы проведем хорошо время в {c]пятницу{/c]."
+    "Or I won't... If we have a good time on {c]Friday{/c], that is."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:587
+translate english monica_dick_secretary_dialogue3_c4b17429:
+
+    # "Либо не отправлю, если мы проведем хорошо время в следующую {c]пятницу{/c]."
+    "Or I'll not send it if we have a good time next {c]Friday{/c]."
+
+# game/Quests/EP2/ep2_dialogues3.rpy:619
+translate english monica_dick_office_dialogue2_c3747af3:
+
+    # mt "ЧЕРТ!"
+    # "Я еле уломала Дика!"
+    # "Я была на волоске от гибели или чего еще похуже!"
+    # "Эта Виктория!"
+    # "Она полностью овладела Диком!"
+    # "Мне надо будет что-то придумать с этим!"
+    # "Это ее идея с галстуком, я уверена!"
+    # "И мне не получилось выкрутиться и не покупать этот галстук!"
+    # "Я больше не допущу такого, но сейчас мне {c]надо найти где-то $ 5.000{/c]!"
+    # "Иначе конец! Я видела это по Дику!"
+    # "Он не блефовал!"
+    # "Моя судьба сейчас действительно зависит от этих денег!"
+    # "..."
+    # "Но где мне найти такую сумму?!"
+    mt "Fuck!"
+    "I almost got Dick!"
+    "I was on the verge of death!"
+    "This Victoria!"
+    "She's completely taken over Dick!"
+    "I'll have to figure something out!"
+    "This tie must be her idea, I'm sure of it!"
+    "I couldn't get out of it and avoid having to buy that damn tie!"
+    "I won't let it happen again, but right now I need to find {c]$ 5.000{/c]!"
+    "Otherwise, it'll be the end, I guess..."
+    "Dick wasn't bluffing!"
+    "My fate really depends on this money now!"
+    "..."
+    "But how can I find such a sum?!"
+
+# game/Quests/EP2/ep2_dialogues3.rpy:641
+translate english monica_dick_office_dialogue2_99f2d903:
+
+    # "Я - Моника Бакфетт!"
+    # "Для того чтобы заработать эту сумму мне надо лишь пошевелить пальцем!"
+    # "Так было всегда!"
+    # "..."
+    # "Но что сейчас?"
+    # "Может быть попробовать снова поговорить с этим {c]ублюдком в моем офисе{/c]?"
+    # "Из нашего разговора мне показалось что у него есть какое-то предложение ко мне!"
+    # "Стоит попробовать!"
+    # "Я чувствую что могу об этом пожалеть, но у меня нет выбора..."
+    "I am Monica Buckfett!"
+    "Before all of this happened, all I had to do to make such a sum was to move my finger..."
+    "It was always like that!"
+    "..."
+    "But what now?"
+    "Maybe I should try talking to that {c]bastard in my office{/c] again?"
+    "From our conversation, it seemed to me that he had some kind of proposal for me!"
+    "It's worth a try!"
+    "I feel like I might regret it, but I don't have a choice..."
+

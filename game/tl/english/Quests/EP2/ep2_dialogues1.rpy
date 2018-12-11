@@ -1773,3 +1773,117 @@ translate english sleep_scene1_local1_31aad242:
     "Although why should I trust her?"
     "For some reason, it seems that I won't be allowed to take any food either way."
 
+# TODO: Translation updated at 2018-12-11 23:38
+
+# game/Quests/EP2/ep2_dialogues1.rpy:275
+translate english sleep_scene1_local1_7f60d8f5:
+
+    # "У меня нет денег, нет документов."
+    # "Любой полцейский, который меня остановит, {c]может забрать меня к Маркусу{/c] и..."
+    "I have no money, no documents."
+    "Any police officer who stops me {c]can take me to Marcus{/c] and..."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:294
+translate english sleep_scene1_local1_bb4a3af3:
+
+    # "Итак... Меня пустили в свой же дом при условии что {c]я буду убираться в нем{/c]..."
+    "So... I was allowed to stay in this house provided that {c]I will clean it{/c]..."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:326
+translate english sleep_scene1_local1_e84b805a:
+
+    # "Эта Бетти..."
+    # "Черт... Хоть она и дура, но она следит за мной."
+    # "Куда бы я здесь ни пошла, она следует за мной по пятам..."
+    # "Так что крыша у меня над головой есть, но {c]еду мне придется доставать где-то еще...{/c]"
+    "This Betty..."
+    "Damn... She's a fool, but she's watching me."
+    "Wherever I go in this house, she follows..."
+    "So I have a roof over my head, but I have to get {c]food somewhere else...{/c]"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:336
+translate english sleep_scene1_local1_8819e7b9:
+
+    # "Интересно где?..."
+    # "Может украсть еду у той {c]дуры на заправке{/c]?"
+    # "Но хочу-ли я воровать?..."
+    "I wonder where?..."
+    "Can I steal food from that {c]idiot at the gas station{/c]?"
+    "Do I really want to steal, though?..."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:346
+translate english sleep_scene1_local1_81c75420:
+
+    # "Или может спросить еду у того {c]продавца кебабов{/c]?"
+    # "Я видела как он смотрит на меня..."
+    "Can I ask the {c]kebab seller{/c]for some food?"
+    "I've seen the way he looks at me..."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:387
+translate english sleep_scene1_local1_2df5267a:
+
+    # "Эту сучку!"
+    # "Это ее происки по поводу галстука!"
+    # "Мне надо сходить к нему еще раз, может получится {c]отбить Дика у нее{/c]?"
+    "That bitch!"
+    "It's all her idea about the tie!"
+    "I need to see Dick again, maybe I could {c]take him away from her{/c]?"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:408
+translate english sleep_scene1_local1_8905bc80:
+
+    # "..."
+    # "Мне интересно что там происходит в {c]моем офисе{/c]?"
+    # "Кто-то сменил код на лифте, но может я найду способ попасть туда?"
+    "..."
+    "I wonder what's going on in {c]my office{/c]?"
+    "Someone changed the code for the elevator, but surely I can find a way to get there?"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:499
+translate english sleep_scene1_local1_1acd7b48:
+
+    # "Итак..."
+    # "Сейчас, думаю, надо {c]притвориться горничной{/c]."
+    # "Затем {c]пойти поискать еду{/c]..."
+    "So..."
+    "Now I think I should {c]pretend to be a maid{/c]."
+    "Then {c]go looking for food {/c]..."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:746
+translate english monica_goout1_governess_restrict_1fe02068:
+
+    # "Кто разрешал тебе покидать территорию дома, {c]одетой в униформу{/c]?"
+    # "Ты решила украсть ее?!"
+    "Who allowed you to leave the house, {c]dressed in the uniform{/c]?"
+    "Did you decide to steal it?!"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:764
+translate english monica_goout1_governess_restrict_3fcccbfa:
+
+    # "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
+    # "Но если ты решила все-таки уйти, то, будь добра, {c]переоденься в свою одежду{/c]!!!"
+    # "ЯСНО ТЕБЕ?!"
+    "For the money we pay you, I don't think you should have any free time!"
+    "But if you decide to leave, then please {c]change into your clothes!!!{/c]"
+    "IS THAT CLEAR?!"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:792
+translate english monica_goout1_governess_restrict_613f5a63:
+
+    # betty "Эта униформа! Это моя собственность!"
+    # "Кто разрешал тебе покидать территорию дома, {c]одетой в униформу{/c]?"
+    # "Ты решила украсть ее?!"
+    betty "That uniform! It belongs to me!"
+    "Who allowed you to leave the house, {c]dressed in the uniform{/c]?"
+    "Did you decide to steal it?!"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:809
+translate english monica_goout1_governess_restrict_3fcccbfa_1:
+
+    # "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
+    # "Но если ты решила все-таки уйти, то, будь добра, {c]переоденься в свою одежду{/c]!!!"
+    # "ЯСНО ТЕБЕ?!"
+    "For the money we pay you, I don't think you should have any free time!"
+    "But if you decide to leave, then please {c]change into your clothes!!!{/c]"
+    "IS THAT CLEAR?!"
+

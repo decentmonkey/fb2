@@ -748,3 +748,19 @@ translate english strings:
     old "Я не собираюсь ничего разносить! Давай кебаб сюда!"
     new "I'm not going to deliver anything! Get the kebab!"
 
+# TODO: Translation updated at 2018-12-11 23:38
+
+# game/Quests/EP2/ep2_dialogues2.rpy:109
+translate english monica_shawarma_dialogue1_919e1160:
+
+    # shawarma "Конечно есть, Мадаме!"
+    # "Если такой красивый женщин, как Вы, {c]расскажет всем вокруг про мой самый вкусный кебаб{/c], то кебаб сам будет Вас искать!"
+    shawarma "Of course there are, Madam!"
+    "If a beautiful woman such as you {c]tells everyone around about my most delicious kebab {/c], the kebab will be waiting for you!"
+
+# game/Quests/EP2/ep2_dialogues2.rpy:120
+translate english monica_shawarma_dialogue1_cf6bdd7a:
+
+    # m "Хорошо, если ты дашь мне сейчас свой кебаб, то {c]я разнесу твои флаеры{/c]..."
+    m "Okay, if you give me your kebab now, {c]I'll deliver your flyers{/c]..."
+
