@@ -10,6 +10,7 @@ label sleep_scene1:
     dick "Моника..."
     dick "Моника?"
     dick "Моника!"
+    jump .local1
     #Моника просыпается в машине
     music Power_Bots_Loop
     img 5905
@@ -265,7 +266,7 @@ label sleep_scene1:
     mt "Стоп. Моника, не унывай!"
 
     "Давай подумаем что у нас есть на данный момент."
-
+    label .local1:
     if cloth != "Nude":
         img 5967
     else:
