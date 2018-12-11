@@ -212,6 +212,8 @@ init python:
 
     config.keymap["game_menu"].remove("mouseup_3")
     config.keymap["hide_windows"] = []
+    config.keymap["rollback"] = []
+    config.keymap["rollforward"] = []
 
 ## Set this to a string containing your Apple Developer ID Application to enable
 ## codesigning on the Mac. Be sure to change it to your own Apple-issued ID.
