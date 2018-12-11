@@ -3456,3 +3456,11 @@ translate english strings:
     old "Да, я согласна... (low corruption, required [monicaBiffWorkPhotoShot1Agree]) (disabled)"
     new "I agree... (low corruption, required [monicaBiffWorkPhotoShot1Agree]) (disabled)"
 
+# TODO: Translation updated at 2018-12-11 13:41
+
+translate english strings:
+
+    # Quests/EP2/ep2_dialogues4.rpy:1611
+    old "Продолжить делать кадры. (low corruption, required [monicaBiffWorkPhotoShot1PervertCorruptionRequired]) (disabled)"
+    new "Continue taking shots... (low corruption, required [monicaBiffWorkPhotoShot1PervertCorruptionRequired]) (disabled)"
+

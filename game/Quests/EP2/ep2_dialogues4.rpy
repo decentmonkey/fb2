@@ -1648,7 +1648,7 @@ label monica_office_photostudio_alex_dialogue2:
                 alex_photograph "Мы закончили, Мэм!"
                 "Хотите переодеться назад?"
 
-            "Продолжить делать кадры. (недостаточно corruption) (disabled)" if corruption < monicaBiffWorkPhotoShot1PervertCorruptionRequired:
+            "Продолжить делать кадры. (low corruption, required [monicaBiffWorkPhotoShot1PervertCorruptionRequired]) (disabled)" if corruption < monicaBiffWorkPhotoShot1PervertCorruptionRequired:
                 jump .local1
             "Прекратить это.":
                 music Stealth_Groover

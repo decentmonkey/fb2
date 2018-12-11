@@ -3456,3 +3456,11 @@ translate german strings:
     old "Да, я согласна... (low corruption, required [monicaBiffWorkPhotoShot1Agree]) (disabled)"
     new ""
 
+# TODO: Translation updated at 2018-12-11 13:41
+
+translate german strings:
+
+    # Quests/EP2/ep2_dialogues4.rpy:1611
+    old "Продолжить делать кадры. (low corruption, required [monicaBiffWorkPhotoShot1PervertCorruptionRequired]) (disabled)"
+    new ""
+
