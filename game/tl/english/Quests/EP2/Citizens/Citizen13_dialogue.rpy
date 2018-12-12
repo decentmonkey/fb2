@@ -34,7 +34,7 @@ translate english citizen13_dialogue_0822178d:
     # citizen13 "Глупенькая, ну конечно форма. На что они похожи?"
     citizen13 "Kebab? Boo...Don't you know they're bad for your figure?"
     m "But no one's forcing you to buy it. Just take the flyer."
-    citizen13 "You're funny. Okay, I'll take one, but promise me you won't eat those nasty kebabs. Although, you know, they have one advantage and you probably know what it is."
+    citizen13 "You're funny. Okay, I'll take one, but promise me you won't eat those nasty kebabs. Although, you know, they have one advantage, and you probably know what it is."
     m "?"
     citizen13 "And that is their shape. What do they look like?"
 
@@ -103,7 +103,7 @@ translate english citizen13_dialogue_27d46b2d:
     citizen13 "Kebab? Boo...Don't you know they're bad for your figure?"
     m "But no one's forcing you to buy it. Just take the flyer."
     citizen13 "You're funny. Okay, I'll take one, but promise me you won't eat those nasty kebabs."
-    "Although, you know, they have one advantage and you probably know what it is."
+    "Although, you know, they have one advantage, and you probably know what it is."
     m "?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:26

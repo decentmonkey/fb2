@@ -26,7 +26,7 @@ translate german citizens_dialogue_b6e8a871:
 translate german citizens_dialogue_ba170977:
 
     # mt "Еще один обитатель трущоб. Таких тут полно."
-    mt "Noch so ein Penner. Gibt ganz schön viele hier."
+    mt "Noch ein Penner. Wirklich viele gibt's hier."
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:47
 translate german citizens_dialogue_438ba6e3:
@@ -76,7 +76,7 @@ translate german citizens_dialogue_ef363068:
 translate german citizens_dialogue_ba170977_1:
 
     # mt "Еще один обитатель трущоб. Таких тут полно."
-    mt "Noch so ein Penner. Gibt ganz schön viele hier."
+    mt "Noch ein Penner. Wirklich viele gibt's hier."
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:88
 translate german citizens_dialogue_fbcc248b:
@@ -130,7 +130,7 @@ translate german citizens_dialogue_process_b6e8a871:
 translate german citizens_dialogue_process_ba170977:
 
     # mt "Еще один обитатель трущоб. Таких тут полно."
-    mt "Noch so ein Penner. Gibt ganz schön viele hier."
+    mt "Noch ein Penner. Wirklich viele gibt's hier."
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:93
 translate german citizens_dialogue_process_438ba6e3:
@@ -180,7 +180,7 @@ translate german citizens_dialogue_process_ef363068:
 translate german citizens_dialogue_process_ba170977_1:
 
     # mt "Еще один обитатель трущоб. Таких тут полно."
-    mt "Noch so ein Penner. Gibt ganz schön viele hier."
+    mt "Noch ein Penner. Wirklich viele gibt's hier."
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:166
 translate german citizens_dialogue_process_fbcc248b:
@@ -196,6 +196,20 @@ translate german citizens_dialogue_process_fcdf0310:
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:184
 translate german citizens_dialogue_process_fcdf0310_1:
+
+    # mt "Еще один обитатель трущоб. Таких тут полно."
+    mt "Noch ein Penner. Wirklich viele gibt's hier."
+
+# TODO: Translation updated at 2018-12-12 15:08
+
+# game/Quests/EP2/Citizens/Citizens_Controller.rpy:175
+translate german citizens_dialogue_process_ba170977_2:
+
+    # mt "Еще один обитатель трущоб. Таких тут полно."
+    mt "Noch ein Penner. Wirklich viele gibt's hier."
+
+# game/Quests/EP2/Citizens/Citizens_Controller.rpy:184
+translate german citizens_dialogue_process_ba170977_3:
 
     # mt "Еще один обитатель трущоб. Таких тут полно."
     mt "Noch ein Penner. Wirklich viele gibt's hier."

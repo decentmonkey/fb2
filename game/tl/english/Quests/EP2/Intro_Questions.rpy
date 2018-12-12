@@ -138,7 +138,7 @@ translate english strings:
 
     # Quests/EP2/Intro_Questions.rpy:131
     old "Моника соврала про то что пятно поставила Юлия, а не Моника."
-    new "Monica lied about the stain being made by herself, and blamed Julia instead."
+    new "Monica lied about the stain being made by herself and blamed Julia instead."
 
     # Quests/EP2/Intro_Questions.rpy:131
     old "Моника сказала правду про пятно."

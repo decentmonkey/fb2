@@ -82,7 +82,7 @@ translate english citizen3_dialogue_660704c4:
     # m "Ладно, но если ты меня обманываешь..."
     # citizen3 "Что ты, детка, зачем мне это?"
     m "Who was smart enough to come up with such a password?!"
-    citizen3 "What do you think? Of course it was Nigel, but don't worry, once you say the password, he'll understand."
+    citizen3 "What do you think? Of course, it was Nigel, but don't worry, once you say the password, he'll understand."
     m "Okay, but if you're lying to me..."
     citizen3 "Why, baby, why would I lie to you?"
 
@@ -212,7 +212,7 @@ translate english citizen3_dialogue_e82b94d8:
     # m "И у кого хватило ума придумал такой пароль?!"
     # citizen3 "А ты как думаешь? Конечно Найджел, но не переживай, как только ты произнесешь пароль, он сразу все поймет."
     m "Who was smart enough to come up with such a password?!"
-    citizen3 "What do you think? Of course it was Nigel, but don't worry, once you say the password, he'll understand."
+    citizen3 "What do you think? Of course, it was Nigel, but don't worry, once you say the password, he'll understand."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:65
 translate english citizen3_dialogue_841014a6:
@@ -255,4 +255,14 @@ translate english citizen3_dialogue_c00b349b:
 
     # mt "(Вот засранец.)"
     mt "(What an asshole.)"
+
+# TODO: Translation updated at 2018-12-12 15:07
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:62
+translate english citizen3_dialogue_f61d80ae:
+
+    # m "И у кого хватило ума придумал такой пароль?!"
+    # citizen3 "А ты как думаешь? Конечно Найджел, но не переживай, как только ты произнесешь пароль, он сразу все поймет."
+    m "Who was smart enough to come up with such a password?!"
+    citizen3 "What do you think? Of course, it was Nigel, but don't worry, once you say the password, he'll understand."
 

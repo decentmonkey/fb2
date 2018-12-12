@@ -70,3 +70,17 @@ translate german strings:
     old "КАБИНЕТ МОНИКИ"
     new "BÜRO MONICA"
 
+# TODO: Translation updated at 2018-12-12 15:08
+
+# game/Rooms/Monica_Office/monica_office_secretary.rpy:91
+translate german monica_office_secretary_environment_6e6e7512:
+
+    # mt "Это моя секретарша."
+    # mt "Одна из немногих нормальных женщин, которые знают как держать себя с окружающими."
+    # "Она очень воспитана и интеллигентна."
+    # "Я знаю, она сохранит верность мне и поможет вернуть все назад..."
+    mt "Das ist meine Sekretärin."
+    mt "Eine der wenigen Personen, die weiß, wie man sich um Umgang mit Anderen verhält."
+    "Sie ist wohl erzogen und intelligent."
+    "Ich weiß sie steht loyal zu mir und würde mir auf jede Weise helfen, um mir mein Leben zurück zu holen..."
+

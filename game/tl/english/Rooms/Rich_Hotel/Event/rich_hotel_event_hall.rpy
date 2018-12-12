@@ -103,7 +103,7 @@ translate english rich_hotel_event_hall_environment_d05e7948:
     # "Я придумаю что-нибудь когда верну все назад!"
     mt "Probably a journalist..."
     "I hope my words aren't too public..."
-    "I will have to take them back later, and explain that everything was not understood correctly."
+    "I will have to take them back later and explain that everything was not understood correctly."
     "I'll figure something out when I get my life back!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:114
@@ -131,7 +131,7 @@ translate english rich_hotel_event_hall_environment_5a2e00d7:
     # "Я придумаю что-нибудь когда верну все назад!"
     mt "I said some bullshit on that stage..."
     mt "I hope my words aren't too public..."
-    "I will have to take them back later, and explain that everything was not understood correctly."
+    "I will have to take them back later and explain that everything was not understood correctly."
     "I'll figure something out when I get my life back!"
 
 # game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:129
@@ -157,4 +157,24 @@ translate english strings:
     # Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:34
     old "ВИП ЗОНА"
     new "VIP AREA"
+
+# TODO: Translation updated at 2018-12-12 15:07
+
+# game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:63
+translate english rich_hotel_event_hall_environment_dbb51f59:
+
+    # mt "Какой-то кавалер..."
+    # "Смотрит на меня весь вечер."
+    # "Мило..."
+    mt "Some admirer..."
+    "Staring at me all night."
+    "Nice..."
+
+# game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:105
+translate english rich_hotel_event_hall_environment_8698f46e:
+
+    # mt "Может быть попросить помощи у кого-нибудь???"
+    # "Но вряд-ли это поможет. Судя по виду, здесь все такие же мерзавцы как этот Филипп!"
+    mt "Maybe I should ask for help from someone???"
+    "But they're unlikely to help. Apparently, they're all scoundrels like that Philip!"
 

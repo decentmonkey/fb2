@@ -4958,3 +4958,323 @@ translate german monica_basement_bedroom_before_sleep1_7513074d:
     "Fast da..."
     "Ich schlafe..."
 
+# TODO: Translation updated at 2018-12-12 15:08
+
+# game/Quests/EP2/ep2_dialogues5.rpy:160
+translate german monica_charity_event_dialogue2_195f363d:
+
+    # "Но, всегда, когда что-то старое заканчивается, что-то новое начинается!"
+    # "Мы открыли для себя, что все что мы делали с помощью моды..."
+    # "...Это раскрывали женскую красоту!"
+    # "Но женская красота сама по себе является ценностью!"
+    # "Она неподвластна моде и времени!"
+    # "В любые времена женские линии ценились выше любых других ценностей этого мира!"
+    # "Это отражено в живописи и поэзии!"
+    "Aber, wie immer, wenn etwas Altes endet, beginnt etwas Neues!"
+    "Wir kamen zu dem Schluss, dass alles was wir bisher mit Mode machten..."
+    "...das Freisetzen der weiblichen Schönheit war!"
+    "Aber weibliche Schönheit ist ein Wert für sich selbst!"
+    "Und dieser Wert geht weit über Mode und Zeit hinaus!"
+    "Durch die Geschichte hindurch, wurden die Kruven der Frau geschätzt weit über alles Andere in dieser Welt!"
+    "Es spiegelt sich wider in Malerei und Poesie!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:179
+translate german monica_charity_event_dialogue2_d510f45c:
+
+    # "Многие не верят в то что мы и правда решились на столь серьезный шаг!"
+    # "Потому я предоставляю слово лицу Модного Журнала..."
+    # "Монике Бакфетт!!!"
+    "Manche werden sogar daran zweifeln, dass wir diesen Schritt zu gehen bereit sind!"
+    "Und um jeden Zweifel zu beseitigen möchte ich nun das Gesicht des Magazins auf der Bühne begrüßen..."
+    "Monica Buckfett!!!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:561
+translate german monica_charity_event_dialogue8_d2eecf1e:
+
+    # philip "Добрый вечер, Миссис Бакфетт!"
+    # "Разрешите представиться? Меня зовут Филипп."
+    # "Позвольте мне угостить Вас вином?"
+    philip "Guten Abend, Frau Buckfett!"
+    "Darf ich mich vorstellen? Ich bin Philip."
+    "Bitte, darf ich Ihnen etwas Wein besorgen?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:588
+translate german monica_charity_event_dialogue8_22895f07:
+
+    # m "Добрый вечер, Филипп!"
+    # "Хорошо... Я позволю тебе угостить меня."
+    # "Куда ты хочешь пригласить такую даму как Я?"
+    m "Guten Abend, Philip!"
+    "Gut, ich lasse mri einen Drink ausgeben."
+    "Sagen Sie mir Philip, wohin würden Sie eine Dame wie mich ausführen?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:609
+translate german monica_charity_event_dialogue8a_a87284b3:
+
+    # m "Итак, Филипп..."
+    # "Расскажи о себе..."
+    # "Чем ты занимаешься?"
+    m "So, Philip..."
+    "Erzählen Sie mir von sich..."
+    "Was machen Sie so?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:659
+translate german monica_charity_event_dialogue8a_c5c5a7a9:
+
+    # m "И как идут Ваши дела, Филипп?"
+    # "Вы достаточно успешны?"
+    m "Und wie geht es Ihnen, Phlip?"
+    "Haben sie Erfolg?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:668
+translate german monica_charity_event_dialogue8a_f9fc6e04:
+
+    # mt "Хм... А он богат..."
+    # "И, судя по всему, простачок..."
+    # "Мне бы очень не помешало обзавестись таким..."
+    # "В конце концов, у него должен быть хороший дом..."
+    # "Он может дать мне много денег..."
+    # "И мне будет проще осуществить свою цель..."
+    # "Это не выглядит сложным."
+    # "Надо только немного подыграть ему."
+    mt "Hm... Er ist reich..."
+    "Und offenbar ein Trottel..."
+    "So einen köntne ich wirklich gebrauchen..."
+    "Er wird owhl auch ein gutes Heim haben..."
+    "Er kann mri viel Geld bieten..."
+    "Das würde mir ungemein dabei hlefen, mein Ziel zu erreichen..."
+    "Scheint nicht sehr schwer."
+    "Ich muss nur ein bisschen mitspielen."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:683
+translate german monica_charity_event_dialogue8a_454c9056:
+
+    # m "И на что Вы готовы ради прекрасной женщины, Филипп?"
+    # philip "О, Мэм! Ради прекрасной женщины я готов на все!"
+    m "Und was sind Sie bereit für eine schöne Frau zu tun, Philip?"
+    philip "Oh! Natürlich würde ich alles für eine schöne Frau tun!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:688
+translate german monica_charity_event_dialogue8a_efcc80c5:
+
+    # m "А кто я для Вас, Филипп?"
+    m "Und was bin ich für Sie, Philip?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:716
+translate german monica_charity_event_dialogue8a_f1ac230b:
+
+    # m "Филипп! Налейте самой прекрасной даме еще вина!"
+    m "Philip! Schenk der schönsten Frau der Welt noch etwas Wein ein!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:749
+translate german monica_charity_event_dialogue8a_abc6d77d:
+
+    # "Танец?"
+    # "Почему-бы и нет?"
+    # "Но мне надо сначала сходить забрать деньги у Бифа."
+    # "Они мне уже не понадобятся, скорее всего."
+    # "Этот Филипп покроет любые мои возможные расходы, но все-же..."
+    "Tanz?"
+    "Warum nicht?"
+    "Aber ich muss unbedingt das Geld von Biff holen."
+    "Ich werde sie wohl nicht mehr brauchen."
+    "Dieser Philip wird all meine Ausgaben decken, aber dennoch..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:757
+translate german monica_charity_event_dialogue8a_03c0db2e:
+
+    # m "Филипп."
+    # "Я не уверена насчет танцев и вообще..."
+    # "Я отойду и подумаю над твоим предложением..."
+    m "Philip."
+    "Ich bin mir nicht sicher wegen des Tanzes."
+    "Ich möchte erst über Ihr Angebot nachdenken..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:780
+translate german monica_charity_event_dialogue9_806d0309:
+
+    # mt "Мне надо {c}забрать деньги у Бифа{/c}."
+    # "Филипп пусть пока будет в неуверенности..."
+    mt "Ich muss jetzt {c}mein Geld von Biff holen{/c}."
+    "Ich lasse Philip noch etwas zappeln..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:855
+translate german monica_charity_event_dialogue11_d06f874d:
+
+    # mt "Вот урод!"
+    # "Он обманул меня!"
+    # "Если бы я знала что это вино стоит целую $ 1.000, то я бы не стала его пить!"
+    # "И, кстати, я думала что этот Филипп угощает меня!"
+    # "Что за мужчины пошли в наше время?!"
+    # "Пусть не удивляются что их можно только использовать!"
+    # "Для нормального отношения к себе они совершенно не годятся!"
+    # "..."
+    # "Тем не менее..."
+    # "Мне нужно $ 5.000!"
+    # "Эта сучка Виктория ясно дала понять, что если денег будет меньше, то я могу даже не приходить!"
+    # "А с Диком бесполезно пытаться договориться!"
+    # "Он слепо слушается эту дуру!"
+    # "Уже вечер и мне надо спешить!"
+    # "Мне надо идти покупать этот чертов галстук!"
+    # "А у меня не хватает $ 1.000!"
+    # "Все складывается так что если я не найду эту $ 1.000, то попаду к Маркусу!!!"
+    # "О БОЖЕ!!!"
+    # "Где же мне ее взять?!?!"
+    # "Может быть стоит ускорить события с {c}Филиппом{/c}?"
+    # "Или попробовать уговорить {c}Бифа{/c}?"
+    mt "Dieser Bastard!"
+    "Er hat mich ausgetrickst!"
+    "Wenn ich gewusst hätte dass dieser Wein mich 1.000€ kostet, hätte ich ihn nicht getrunken!"
+    "Außerdem dachte ich, Philip lädt mich ein!"
+    "Was für eine Art Männer seid ihr eigentlich?!"
+    "Solche Typen verdienen es, benutzt zu werden!"
+    "Angebrachte Etiquette ist ein Fremdwort für diese Leute! Absolut ungehörig."
+    "..."
+    "Dennoch..."
+    "Ich brauche aber 5.000€ !"
+    "Victoria sagte klar und duetlich, dass ich das Geld haben muss, sonst kommt sie nicht mit!"
+    "Mit Dick zu sprechen bringt auch nichts!"
+    "Er hört blind auf dieses Miststück!"
+    "Es ist schon Abend und ich muss mich beeilen!"
+    "Ich muss los, diese verdammte Krawatte kaufen!"
+    "Und mir fehlen 1.000€ !"
+    "Wenn ich das nicht schaffe, lande ich bei Marcus!!!"
+    "Oh mein Gott!!!"
+    "Wie komme ich nur an das Geld!?!"
+    "Vielleicht sollte ich einen Zahn zulegen {c}mit Philip{/c}?"
+    "Oder versuchen{c}Biff zu überzeugen{/c}?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:880
+translate german monica_charity_event_dialogue12_68ec37c0:
+
+    # mt "Я думаю проще вытрясти деньги с простачка Филиппа, нежели с этого безмозглого наглеца!"
+    mt "Ich glaube es ist einfacher das Geld aus einem Einfaltspinsel wie Philip zu kriegen, als diesem herzlosen Biff!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:896
+translate german monica_charity_event_dialogue14_68567abf:
+
+    # m "Филипп..."
+    # "Я подумала... Если честно я не уверена..."
+    m "Philip..."
+    "Ich dachte... Ehrlich gesagt, ich bin mir nicht sicher..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:946
+translate german monica_charity_event_dialogue14_6618e896:
+
+    # m "А ты неплохо танцуешь, Филипп!"
+    # philip "Я люблю женщин!"
+    # "А женщины любят танцевать!"
+    # "Потому я обязан это неплохо уметь!"
+    m "Sie sind ein guter Tänzer, Philip!"
+    philip "Ich liebe Frauen!"
+    "Und Frauen lieben es, zu tanzen!"
+    "Also muss auch ich gut tanzen!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:959
+translate german monica_charity_event_dialogue14_56f510a1:
+
+    # m "Я хочу это проверить, Филипп!"
+    # philip "Мэм! Я готов на все!"
+    m "Das würde ich gerne testen. Philip!"
+    philip "Ich bin bereit!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:977
+translate german monica_charity_event_dialogue14_d649e067:
+
+    # "Филипп, Вы знаете, я не очень разбираюсь в финансах."
+    # "И для меня будет сложно очень быстро получить наличность."
+    "Philip, Sie wissen ich bin nicht gut mit Finanzen."
+    "Und es wäre wirklich prolematisch für mich so schnell noch Bargeld aufzutreiben."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1013
+translate german monica_charity_event_dialogue14_c1ec2a08:
+
+    # "Для меня это совсем небольшие деньги, но Вы знаете..."
+    # "Я занимаюсь предметами искусства, а значит должен скрупулезно оценивать все за что плачу!"
+    # "Вы согласны?"
+    "Das ist nicht viel Geld für mich, aber wissen Sie..."
+    "Ich bin ein Experte in der Kunst, deshalb inspiziere ich genaustens jedes Exemplar, das ich kaufe!"
+    "Verstehen Sie mich?"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1019
+translate german monica_charity_event_dialogue14_a6568152:
+
+    # m "Конечно согласна, Филипп!"
+    # "Я считаю что моя улыбка стоит гораздо больше!"
+    m "Natürlich, Philip!"
+    "Aber ich nehme an, mein Lächeln ist mehr wert!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1033
+translate german monica_charity_event_dialogue14_daf5f521:
+
+    # m "В смысле ротик?"
+    # "Филипп, Вы про что?"
+    # philip "Для этого я и пришел сюда, Мэм!"
+    m "Wie meinen Sie das?"
+    "Philip wovon reden Sie?"
+    philip "Deshalb bin ich heute hier!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1040
+translate german monica_charity_event_dialogue14_35024880:
+
+    # m "Для чего вы пришли???"
+    # "Филипп, я не понимаю Вас!"
+    m "Was meinen Sie???"
+    "Ich verstehe nicht was Sie sagen!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1113
+translate german monica_charity_event_dialogue15_939d835a:
+
+    # mt "ПОДОНОК!!!"
+    # "Откуда он знает про меня???"
+    # "И как он смеет использовать мое затруднительное положение в своих гнусных целях?!"
+    # "Мерзавец!"
+    # "..."
+    # "Но что мне делать?"
+    # "Если я не достану {c}$ 1.000 срочно{/c}, то мне конец!"
+    # "У меня есть лишь несколько минут, пока еще не слишком поздний вечер!"
+    # "Мне надо подумать, может быть снова {c}поговорить с Бифом{/c}?"
+    # "Или {c}вернуться к Филиппу{/c}?"
+    # "У меня нет выбора! Нет выбора!!!"
+    # "(хмык)"
+    mt "BASTARD!!!"
+    "Wie kann er von meiner Situation wissen???"
+    "Und wie kann er meine Not nur für seine Gelüste missbrauchen?!"
+    "Bastard!"
+    "..."
+    "Was soll ich nur tun?"
+    "Wenn ich nicht schnellstens {c}1.000€ auftreibe{/c}, dann wars das!"
+    "Mir bleiben nur noch Minuten!"
+    "Ich muss nachdenken, vielleicht sollte ich nochmal {c}mit Biff sprechen{/c}?"
+    "Oder ich {c}gehe zurück zu Philip{/c}?"
+    "Ich habe keine Wahl! Keine Wahl!!!"
+    "(schnief)"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1310
+translate german monica_charity_event_dialogue17_bf0c0ae6:
+
+    # m "Хх... Хорошо... Филипп..."
+    # "Давай поговорим про это..."
+    m "Mm...ok... Philip..."
+    "reden wir darüber..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1319
+translate german monica_charity_event_dialogue17_55071e67:
+
+    # m "$ 10.000, Филипп..."
+    m "Nein, 10.000€, Philip..."
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1325
+translate german monica_charity_event_dialogue17_2435008b:
+
+    # m "Мне нужна хотя бы $ 1.000, Филипп!"
+    m "Ich brauche mindestens 1.000€, Philip!"
+
+# game/Quests/EP2/ep2_dialogues5.rpy:1447
+translate german monica_charity_event_dialogue18_cc6cefeb:
+
+    # m "Куда ты меня привел, Филипп?"
+    # "Это мужской туалет!"
+    m "Wo sind wir hier, Philip?"
+    "Die Herrentoilette!"
+

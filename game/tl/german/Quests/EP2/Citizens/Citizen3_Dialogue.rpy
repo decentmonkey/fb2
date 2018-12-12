@@ -256,3 +256,13 @@ translate german citizen3_dialogue_c00b349b:
     # mt "(Вот засранец.)"
     mt "(Arschloch)"
 
+# TODO: Translation updated at 2018-12-12 15:08
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:62
+translate german citizen3_dialogue_f61d80ae:
+
+    # m "И у кого хватило ума придумал такой пароль?!"
+    # citizen3 "А ты как думаешь? Конечно Найджел, но не переживай, как только ты произнесешь пароль, он сразу все поймет."
+    m "Welcher Held vom Erdbeerfeld kommt denn auf so ein Passwort?"
+    citizen3 "Was denkst du? Nigel natürlich, aber keine Sorge, sobald du das Passwort sagst, weiß er Bescheid."
+

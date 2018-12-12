@@ -16,7 +16,7 @@ translate english living_room_environment_b7d20976:
     # "Когда я верну дом себе, то выкину эту мебель и вообще переделаю весь дизайн дома."
     # "Чтобы ничего не напоминало мне об этом кошмаре, в который я, по-прежнему, не могу поверить!"
     mt "There are a lot of chairs, but I didn't let my husband bring guests here."
-    "These new owners love to have guests over, and show off my house."
+    "These new owners love to have guests over and show off my house."
     "When I return to the house, I'd get rid of all the furniture, and generally redesign the entire house."
     "So that nothing reminds me of this nightmare that I still can't believe!"
 

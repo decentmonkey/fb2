@@ -38,3 +38,11 @@ translate german whores_place_street1_environment_0fd49528:
     mt "Müll? Warum liegt der hier?"
     "Dieser ganze Ort ist eine Müllhalde!"
 
+# TODO: Translation updated at 2018-12-12 15:08
+
+# game/Rooms/Whores/whores_place_street1.rpy:61
+translate german whores_place_street1_environment_9e1f4102:
+
+    # mt "Какой-то старый ржавый дорожный знак..."
+    mt "Ein altes, rostiges Straßenschild..."
+

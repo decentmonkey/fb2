@@ -33,7 +33,7 @@ translate english citizen9_dialogue_bb6e048a:
     citizen9 "As you say, lady."
     m "You are an idiot! What are you doing?"
     citizen9 "That's what you told me to do! Heh-heh-heh. Great tits by the way!"
-    m "You are an idiot! I came on the behalf of Jack!"
+    m "You are an idiot! I came on behalf of Jack!"
     citizen9 "Ooh, lady, that's where we should have started. What ya got?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:25
@@ -118,7 +118,7 @@ translate english citizen9_dialogue_a870583f:
     # citizen9 "То, что ты мне сказала! Хе-хе-хе. Отличная грудь кстати!"
     # m "Идиот! Я от Джека!"
     citizen9 "That's what you told me to do! Heh-heh-heh. Great tits by the way!"
-    m "You are an idiot! I came on the behalf of Jack!"
+    m "You are an idiot! I came on behalf of Jack!"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:26
 translate english citizen9_dialogue_85e25246:

@@ -108,5 +108,17 @@ translate english basement_toilet_use1_f00ca341:
 translate english basement_toilet_use1_e683e995:
 
     # mt "Девушка с такой красотой как у меня не заслуживает того что со мной случилось..."
-    mt "A girl as beautiful as me, doesn't deserve everything that has happened..."
+    mt "A girl as beautiful as me doesn't deserve everything that has happened..."
+
+# TODO: Translation updated at 2018-12-12 15:07
+
+# game/Characters/Monica/Shower_Basement.rpy:19
+translate english basement_toilet_interact_aa39d73c:
+
+    # mt "Туалет..."
+    # mt "Я могу здесь писать пока Бетти не видит."
+    # "Уверена она бы и это запретила."
+    mt "WC..."
+    mt "I can pee here while Betty can't see."
+    "I'm sure she would forbid that too."
 

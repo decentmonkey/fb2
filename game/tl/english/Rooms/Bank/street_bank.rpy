@@ -18,7 +18,7 @@ translate english street_bank_teleport_8c863c23:
     # mt "Что мне там делать?"
     # "У меня нет никаких документов!"
     # "(хмык)"
-    mt "What business do i have here?"
+    mt "What business do I have here?"
     "I don't have any documents!"
     "(sob)"
 

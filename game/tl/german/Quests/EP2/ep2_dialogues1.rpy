@@ -2002,3 +2002,75 @@ translate german monica_goout1_governess_restrict_9926d56b_1:
     "Aber wenn du schon gehen willst, dann bitte, {c}zieh dir deine eigenen Kleider an{/c}!!!"
     "IST DAS KLAR?!"
 
+# TODO: Translation updated at 2018-12-12 15:08
+
+# game/Quests/EP2/ep2_dialogues1.rpy:275
+translate german sleep_scene1_local1_f536db91:
+
+    # "У меня нет денег, нет документов."
+    # "Любой полицейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
+    "Ich habe kein Geld, keine Dokumente."
+    "Jeder Polizist, der mich kontrolliert, kann mich zu Marcus bringen und..."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:286
+translate german sleep_scene1_local1_3586a6f5:
+
+    # "Этот Фред... Я убью его!"
+    # "Но это потом... Моника, давай подумаем про то что делать сейчас..."
+    "Fred... Ich töte ihn!"
+    "Aber darum kümmere ich mich später... Monica, denk dran was Du jetzt zu tun hast..."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:357
+translate german sleep_scene1_local1_793b785f:
+
+    # "Конечно, ему никогда не светит прикоснуться к такой красоте как Я..."
+    "Natürlich wird er nie eine Schönheit wie mich berühren..."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:360
+translate german sleep_scene1_local1_a3d6dde4:
+
+    # "Но... это можно использовать, чтобы достать хоть какую-то пищу..."
+    # "Я никогда в жизни не пробовала такой еды, но сейчас выбирать не приходится."
+    "Aber... Ich kann ihn ausnutzen, um wenigstens an etwas Essen zu kommen..."
+    "Ich habe sowas noch nie vorher gegessen, aber ich kann jetzt nicht wählerisch sein."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:401
+translate german sleep_scene1_local1_313c682a:
+
+    # "Уверена что Дик просто шутил!"
+    # "Не думаю что мне стоит всерьез воспринимать его слова об этом!"
+    "Ich bin sicher, Dick hat nur gescherzt!"
+    "Ich denke nicht, dass ich seine Worte ernst nehmen sollte!"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:438
+translate german sleep_scene1_local1_9fab7d0f:
+
+    # "Плюс вокруг него вьются эти две проститутки..."
+    # "Тиффани и Джейн..."
+    # "После того как я угрожала уволить их, они могут быть пострашнее той секретарши у Дика..."
+    # "Жалкие ничтожества..."
+    "Desweiteren schwirren diese zwei Nutten um ihn herum..."
+    "Tiffany und Jane..."
+    "Nachdem ich ihnen drohte, sie zu feuern, könnten sie verängstigter sein als Dicks Sekretärin..."
+    "Nutzlose, kleine Insekten..."
+
+# game/Quests/EP2/ep2_dialogues1.rpy:752
+translate german monica_goout1_governess_restrict_6f9e4e73:
+
+    # betty "Собственность дома не должна покидать его пределы!"
+    # "Я не понимаю что у тебя за дела за пределами этого дома."
+    # "Неужели ты уже закончила все дела?"
+    betty "Hauseigentum darf das Gelände nicht verlassen!"
+    "Ich wüsste nicht, was du außerhalb des Hauses zu tun hättest?"
+    "Bist du schon fertig?"
+
+# game/Quests/EP2/ep2_dialogues1.rpy:798
+translate german monica_goout1_governess_restrict_6f9e4e73_1:
+
+    # betty "Собственность дома не должна покидать его пределы!"
+    # "Я не понимаю что у тебя за дела за пределами этого дома."
+    # "Неужели ты уже закончила все дела?"
+    betty "Hauseigentum darf das Gelände nicht verlassen!"
+    "Ich wüsste nicht, was du außerhalb des Hauses zu tun hättest?"
+    "Bist du schon fertig?"
+

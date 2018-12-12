@@ -187,7 +187,7 @@ translate english monica_shawarma_dialogue1_069451ee:
 
     # shawarma "Конечно есть, Мадаме!"
     # "Если такой красивый женщин, как Вы, {c}расскажет всем вокруг про мой самый вкусный кебаб{/c}, то кебаб сам будет Вас искать!"
-    shawarma "Of course there are, Madam!"
+    shawarma "Of course, there are, Madam!"
     "If a beautiful woman such as you {c}tells everyone around about my most delicious kebab {/c}, the kebab will be waiting for you!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:84
@@ -755,7 +755,7 @@ translate english monica_shawarma_dialogue1_919e1160:
 
     # shawarma "Конечно есть, Мадаме!"
     # "Если такой красивый женщин, как Вы, {c}расскажет всем вокруг про мой самый вкусный кебаб{/c}, то кебаб сам будет Вас искать!"
-    shawarma "Of course there are, Madam!"
+    shawarma "Of course, there are, Madam!"
     "If a beautiful woman such as you {c}tells everyone around about my most delicious kebab {/c}, the kebab will be waiting for you!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:120
@@ -771,7 +771,7 @@ translate english monica_shawarma_dialogue1_8e9f3993:
 
     # shawarma "Конечно есть, Мадаме!"
     # "Если такой красивый женщин, как Вы, {c}расскажет всем вокруг про мой самый вкусный кебаб{/c}, то кебаб сам будет Вас искать!"
-    shawarma "Of course there are, Madam!"
+    shawarma "Of course, there are, Madam!"
     "If a beautiful woman such as you {c}tells everyone around about my most delicious kebab {/c}, the kebab will be waiting for you!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:120

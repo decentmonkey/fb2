@@ -76,3 +76,13 @@ translate english citizen5_loop1_3d588a6b:
     # m "Какого еще места?"
     m "What place?"
 
+# TODO: Translation updated at 2018-12-12 15:07
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:20
+translate english citizen5_dialogue_baa3bdc6:
+
+    # citizen5 "Да, да, конечно...Я взять этот флаер... Но ты мне должна. Акира сан никогда не делает ничего просто так."
+    # mt "О чем это он?"
+    citizen5 "Yeah, yeah...I'll take the flyer... You owe me, though. Akira-San never does anything for nothing."
+    mt "What is it?"
+

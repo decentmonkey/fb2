@@ -1,7 +1,7 @@
 label bardieDialogue1:
     if cloth != "Governess":
         mt "Я не хочу разговаривать с ним в таком виде."
-        "Мне надо переодеться!"
+        mt "Мне надо переодеться!"
         return
     #render+
     #Моника говорит с Барди в его комнате
@@ -9,11 +9,11 @@ label bardieDialogue1:
     img 5798
 #    imgr Dial_Bardie_1
     bardie "Я тебя сюда устроил, помнишь?"
-    "Ты мне должна!"
+    bardie "Ты мне должна!"
     img 5799
 #    imgl Dial_begin37_2
     m "Я тебе ничего не должна, мальчик!"
-    "Веди себя вежливо по отношению ко старшим!"
+    m "Веди себя вежливо по отношению ко старшим!"
 
     music Power_Bots_Loop
     img 5800
@@ -33,7 +33,7 @@ label bardie_comment4:
     music Marty_Gots_a_Plan
     img 6056
     bardie "Эй! Гувернантка!"
-    "Покажи что у тебя под юбкой!"
+    bardie "Покажи что у тебя под юбкой!"
     img 6057
     m "С какой стати я буду это делать?!"
     img 6058
@@ -41,12 +41,12 @@ label bardie_comment4:
     music Pyro_Flow
     img 6059
     m "Я ничего не украла, малявка!"
-    "Как ты смеешь обвинять меня?!"
+    m "Как ты смеешь обвинять меня?!"
     img 6060
     bardie "Тогда докажи! Подними юбку!"
     img 6061
     m "Я не собираюсь ничего доказывать тебе, малявка!"
-    "Прочь с дороги!"
+    m "Прочь с дороги!"
     $ restore_music()
     $ remove_hook(label="bardie_catch_monica_at_stairs_onetime")
     return True

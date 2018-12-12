@@ -326,3 +326,17 @@ translate german strings:
     old "Дик облажался, но он старался..."
     new "Dick hat es vermasselt, aber er hat sich wenigstens Mühe gegeben."
 
+# TODO: Translation updated at 2018-12-12 15:08
+
+# game/Quests/Dick_Car_Parting.rpy:45
+translate german dick_meeting1_car_parting2_28c16d2b:
+
+    # m "Нет, Дик!"
+    # "Ты уже дважды разочаровал меня!"
+    # "Боюсь, что третий раз уже слишком сильно скажется на наших отношениях!"
+    # "А ты для меня пока еще полезен."
+    m "Nein, Dick!"
+    "Du hast mich schon zweimal enttäuscht!"
+    "Ich fürchte, dass ein drittes Mal zu viel negativen Einfluss auf unsere Beziehung haben wird."
+    "Aber bisher bist du noch nützlich für mich."
+

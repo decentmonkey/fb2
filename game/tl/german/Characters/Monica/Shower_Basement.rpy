@@ -110,3 +110,15 @@ translate german basement_toilet_use1_e683e995:
     # mt "Девушка с такой красотой как у меня не заслуживает того что со мной случилось..."
     mt "Ein Mädchen, so schön wie ich, verdient es nicht was mir zugestoßen ist..."
 
+# TODO: Translation updated at 2018-12-12 15:08
+
+# game/Characters/Monica/Shower_Basement.rpy:19
+translate german basement_toilet_interact_aa39d73c:
+
+    # mt "Туалет..."
+    # mt "Я могу здесь писать пока Бетти не видит."
+    # "Уверена она бы и это запретила."
+    mt "WC..."
+    mt "Hier kann ich pinkeln, solange es Betty nicht sieht."
+    "Ich bin sicher, sie würde mir das verbieten."
+
