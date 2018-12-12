@@ -60,5 +60,5 @@ translate german strings:
 
     # Quests/EP2/Citizens/Citizen4_Dialogue.rpy:25
     old "Что Вы подразумеваете под знакомством? (disabled)"
-    new "Was meinst Du mit Bekanntschaft? (disabled)"
+    new "Was meinst du mit Bekanntschaft? (disabled)"
 

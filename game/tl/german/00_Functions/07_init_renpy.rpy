@@ -72,7 +72,7 @@ translate german strings:
 
     # 00_Functions/07_init_renpy.rpy:26
     old "Бармен"
-    new "Bartender"
+    new "Barmann"
 
     # 00_Functions/07_init_renpy.rpy:27
     old "Фитнесс-инструктор"
@@ -124,11 +124,11 @@ translate german strings:
 
     # 00_Functions/07_init_renpy.rpy:39
     old "Полицейский 1"
-    new "Police officer 1"
+    new "Polizeibeamter 1"
 
     # 00_Functions/07_init_renpy.rpy:40
     old "Полицейский 2"
-    new "Police officer 2"
+    new "Polizeibeamter 2"
 
     # 00_Functions/07_init_renpy.rpy:41
     old "Детектив"
@@ -196,7 +196,7 @@ translate german strings:
 
     # 00_Functions/07_init_renpy.rpy:59
     old "Биф"
-    new "Beef"
+    new "Biff"
 
     # 00_Functions/07_init_renpy.rpy:60
     old "Бетти Робертс"

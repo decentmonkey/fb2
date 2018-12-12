@@ -4,37 +4,37 @@
 translate german intro_questions_2f9353e5:
 
     # help "Прежде чем начать игру, пожалуйста, напомните, как вела себя Моника в Эпизоде 1?"
-    help "Прежде чем начать игру, пожалуйста, напомните, как вела себя Моника в Эпизоде 1?"
+    help "Bevor wir starten, bitte erinnere mich, was Monica in Episode 1 getan hat!"
 
 # game/Quests/EP2/Intro_Questions.rpy:10
 translate german intro_questions_af34d34b:
 
     # help "Спасибо за ответ!"
-    help "Спасибо за ответ!"
+    help "Danke für die Antwort!"
 
 # game/Quests/EP2/Intro_Questions.rpy:15
 translate german intro_questions_eb169654:
 
     # help "Спасибо за ответы!"
-    help "Спасибо за ответы!"
+    help "Danke für die Antworten!"
 
 # game/Quests/EP2/Intro_Questions.rpy:16
 translate german intro_questions_into_loop1_594974f5:
 
     # help "Последний вопрос. В чем Моника легла спать?"
-    help "Последний вопрос. В чем Моника легла спать?"
+    help "Letzte Frage. Was trug Monica beim Schlafen?"
 
 # game/Quests/EP2/Intro_Questions.rpy:31
 translate german intro_questions_save_b69d9a8d:
 
     # help "В чем Моника легла спать?"
-    help "В чем Моника легла спать?"
+    help "Was trug Manica beim Schlafen?"
 
 translate german strings:
 
     # Quests/EP2/Intro_Questions.rpy:5
     old "Ответить очень кратко."
-    new "Antworte sehr kurz"
+    new "Antworte sehr kurz."
 
     # Quests/EP2/Intro_Questions.rpy:5
     old "Ответить очень подробно."
@@ -46,11 +46,11 @@ translate german strings:
 
     # Quests/EP2/Intro_Questions.rpy:18
     old "Моника легла спать обнаженной (доступно только в сохранении Эпизода 1) (disabled)"
-    new "Monica ist nackt ins Bett (nur verfügbar mit save von Ep1) (disabled)"
+    new "Monica ging nackt ins Bett (nur verfügbar mit save von Ep1) (disabled)"
 
     # Quests/EP2/Intro_Questions.rpy:32
     old "Моника легла спать обнаженной."
-    new "Monica ist nackt ins Bett."
+    new "Monica ging nackt ins Bett."
 
     # Quests/EP2/Intro_Questions.rpy:48
     old "Моника общалась с соседом."
@@ -74,7 +74,7 @@ translate german strings:
 
     # Quests/EP2/Intro_Questions.rpy:61
     old "Моника проявила обеспокоенность."
-    new "Monica zeigte Mitleid."
+    new "Monica zeigte Besorgnis."
 
     # Quests/EP2/Intro_Questions.rpy:67
     old "Моника сказала что сосед грязный."
@@ -94,7 +94,7 @@ translate german strings:
 
     # Quests/EP2/Intro_Questions.rpy:80
     old "Моника прогнала соседа."
-    new "Monica hat den Nachbarn verjagdt."
+    new "Monica hat den Nachbarn verjagt."
 
     # Quests/EP2/Intro_Questions.rpy:80
     old "Моника закатила соседу большой иск."
@@ -402,7 +402,7 @@ translate german strings:
 
     # Quests/EP2/Intro_Questions.rpy:453
     old "Уволила."
-    new "Verschwinde."
+    new "Julia wurde fortgeschickt."
 
     # Quests/EP2/Intro_Questions.rpy:463
     old "Моника запланировала уволить Тиффани и Джейн"
@@ -474,7 +474,7 @@ translate german strings:
 
     # Quests/EP2/Intro_Questions.rpy:541
     old "Моника вела себя как сучка!"
-    new "Monica verhielt sich wie eine Schlampe!"
+    new "Monica verhielt sich wie ein Miststück!"
 
     # Quests/EP2/Intro_Questions.rpy:541
     old "Моника старалась быть вежливой насколько умеет..."

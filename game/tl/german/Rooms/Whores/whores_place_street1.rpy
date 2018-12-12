@@ -36,5 +36,5 @@ translate german whores_place_street1_environment_0fd49528:
     # mt "Мусорка? Зачем она здесь нужна?"
     # "Все это место - сплошная помойка!"
     mt "Müll? Warum liegt der hier?"
-    "Dieser ganze Ort ist Müll!"
+    "Dieser ganze Ort ist eine Müllhalde!"
 

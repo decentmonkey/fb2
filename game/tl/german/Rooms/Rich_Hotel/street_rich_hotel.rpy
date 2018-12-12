@@ -10,7 +10,7 @@ translate german street_rich_hotel_teleport_8354d840:
 translate german street_rich_hotel_teleport_b649d48b:
 
     # mt "Я еще не сошла с ума, чтобы идти в такой дорогой отель одетой в ЭТО!!!"
-    mt "Ich bin nicht verrückt, so angezogen in ein so teures Hotel zu gehen!!!"
+    mt "Ich bin nicht verrückt genug, so angezogen in ein so teures Hotel zu gehen!!!"
 
 # game/Rooms/Rich_Hotel/street_rich_hotel.rpy:36
 translate german street_rich_hotel_environment_dd629fa0:
@@ -55,6 +55,6 @@ translate german street_rich_hotel_teleport_c9a1d674:
 
     # mt "Я доказала этой сучке на рецепшине что Я - ЛЕДИ!"
     # "И не хочу портить впечатление."
-    mt "Я доказала этой сучке на рецепшине что Я - ЛЕДИ!"
-    "И не хочу портить впечатление."
+    mt "Ich habe der Rezeptionistinnen-Schlampe gezeigt, dass ich eine echte Dame bin!"
+    "Ich will den Eindruck nicht vermiesen."
 

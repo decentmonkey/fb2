@@ -76,29 +76,29 @@ translate german strings:
 translate german citizen12_dialogue_7d295d4f:
 
     # citizen12 "Да, Крошка? Что ты хочешь от меня?"
-    citizen12 "Да, Крошка? Что ты хочешь от меня?"
+    citizen12 "Ja, Baby? Was willst du von mir?"
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:17
 translate german citizen12_dialogue_05979ea1:
 
     # m "Возьмите, пожалуйста, этот флаер..."
-    m "Возьмите, пожалуйста, этот флаер..."
+    m "Bitte nehmen Sie diesen Flyer..."
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:25
 translate german citizen12_dialogue_b936b49e:
 
     # citizen12 "И все? А как же развлечься?"
-    citizen12 "И все? А как же развлечься?"
+    citizen12 "War's das? Was ist mit Spaß?"
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:32
 translate german citizen12_dialogue_9c33a01e:
 
     # m "Я никого не собираюсь развлекать!"
-    m "Я никого не собираюсь развлекать!"
+    m "Ich unterhalte niemanden!"
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:37
 translate german citizen12_dialogue_156d4eb2:
 
     # citizen12 "Мне неинтересны никакие флаеры!"
-    citizen12 "Мне неинтересны никакие флаеры!"
+    citizen12 "Ich habe kein Interesse an Flyern!"
 

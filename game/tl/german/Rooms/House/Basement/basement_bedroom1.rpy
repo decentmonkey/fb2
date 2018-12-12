@@ -15,10 +15,10 @@ translate german basement_bedroom1_environment_4c19961a:
     # "(хмык)"
     # "Но это временно!!!"
     # "Это какое-то недоразуменее, которое скоро разрешится!"
-    mt "Здесь я теперь сплю..."
+    mt "Ich schlafe hier..."
     "(schnief)"
     "Aber das ist nur übergangsweise!!!"
-    "Это какое-то недоразуменее, которое скоро разрешится!"
+    "Das ist ales ein Missverständnis, das bald aufgeklärt sein wird!"
 
 # game/Rooms/House/Basement/basement_bedroom1.rpy:59
 translate german basement_bedroom1_environment_0beb8f0a:

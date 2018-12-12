@@ -49,7 +49,7 @@ translate german citizen3_dialogue_64cf8271:
     citizen3 "Ja, und dafür bringst du etwas meinem Freund Nigel. Er steht auf der anderen Straßenseite. Du erkennst ihn an seiner blauen Jacke, die er immerzu trägt."
     m "Was soll ich ihm sagen?"
     mt "(Was?!)"
-    m "Was ist das? Dorgen?"
+    m "Was ist das? Drogen?"
     citizen3 "(Flüstert) Was haben wir mit Drogen am Hut? Das ist komplett legal. Also, hilft du mir?"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:37
@@ -71,7 +71,7 @@ translate german citizen3_dialogue_e3da6dd1:
     m "Gut."
     citizen3 "Ja, aber vor allem musst du Nigel unser Passwort sagen, dass er weiß, dass alles ok ist."
     m "Wie lautet das Passwort?"
-    citizen3 "Fass meine Brust an."
+    citizen3 "Fass meine Titten an."
     m "(Was zur Hölle?)"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:48
@@ -81,10 +81,10 @@ translate german citizen3_dialogue_660704c4:
     # citizen3 "А ты как думаешь? Конечно Найджел, но не переживый, как только ты произесешь пароль, он сразу все поймет."
     # m "Ладно, но если ты меня обманываешь..."
     # citizen3 "Что ты, детка, зачем мне это?"
-    m "Welcher Held vom Erdbeerfeld kommt den auf so ein Passwort?"
+    m "Welcher Held vom Erdbeerfeld kommt denn auf so ein Passwort?"
     citizen3 "Was denkst du? Nigel natürlich, aber keine Sorge, sobald du das Passwort sagst, weiß er Bescheid."
     m "Ok, aber wenn du mich anlügst..."
-    citizen3 "Warum, Baby, sollte ich?"
+    citizen3 "Warum, Baby. Warum sollte ich?"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:56
 translate german citizen3_dialogue_30f112b6:
@@ -134,7 +134,7 @@ translate german strings:
 
     # Quests/EP2/Citizens/Citizen3_Dialogue.rpy:46
     old "Ну уж нет, это слишком."
-    new "Eh, nein, das ist zu viel."
+    new "Ehm, nein, das ist zu viel."
 
 # TODO: Translation updated at 2018-12-06 21:43
 
@@ -179,7 +179,7 @@ translate german citizen3_dialogue_b59678fd:
 
     # m "Что это? Наркотики?!"
     # citizen3 "(Шепотом) С каких пор травку слали приравнивать к наркотикам? Она абсолютно легальна. Ну дак что, поможешь мне?"
-    m "Was ist das? Dorgen?"
+    m "Was ist das? Drogen?"
     citizen3 "(Flüstert) Was haben wir mit Drogen am Hut? Das ist komplett legal. Also, hilft du mir?"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:50
@@ -198,7 +198,7 @@ translate german citizen3_dialogue_eea83318:
 translate german citizen3_dialogue_1153a6cc:
 
     # citizen3 "Потрогай мою сиську."
-    citizen3 "Fass meine Brust an."
+    citizen3 "Fass meine Titten an."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:57
 translate german citizen3_dialogue_255d09d2:
@@ -211,7 +211,7 @@ translate german citizen3_dialogue_e82b94d8:
 
     # m "И у кого хватило ума придумал такой пароль?!"
     # citizen3 "А ты как думаешь? Конечно Найджел, но не переживый, как только ты произесешь пароль, он сразу все поймет."
-    m "Welcher Held vom Erdbeerfeld kommt den auf so ein Passwort?"
+    m "Welcher Held vom Erdbeerfeld kommt denn auf so ein Passwort?"
     citizen3 "Was denkst du? Nigel natürlich, aber keine Sorge, sobald du das Passwort sagst, weiß er Bescheid."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:65
@@ -224,7 +224,7 @@ translate german citizen3_dialogue_841014a6:
 translate german citizen3_dialogue_06a0d965:
 
     # citizen3 "Что ты, детка, зачем мне это?"
-    citizen3 "Warum, Baby, sollte ich?"
+    citizen3 "Warum, Baby. Warum sollte ich?"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:79
 translate german citizen3_dialogue_ea9d98ed:

@@ -6,9 +6,9 @@ translate german monica_gas_station_thief_dialogue1_894025c2:
     # mt "На этой заправке продается еда."
     # "Если я буду осторожна, то могу украсть какое-нибудь пирожное..."
     # "Но стоит-ли мне рисковать?"
-    mt "На этой заправке продается еда."
-    "Если я буду осторожна, то могу украсть какое-нибудь пирожное..."
-    "Но стоит-ли мне рисковать?"
+    mt "Diese Tankstelle verkauft Essen."
+    "Wenn ich vorsichtig bin, könnte ich etwas Kuchen stehelen..."
+    "Aber sollte ich das Risiko eingehen?"
 
 # game/Quests/EP2/ep2_dialogues6.rpy:9
 translate german monica_gas_station_thief_dialogue1_b803e232:
@@ -16,25 +16,25 @@ translate german monica_gas_station_thief_dialogue1_b803e232:
     # mt "Что я здесь делаю?"
     # mt "Есть я пока не хочу, а говорить с этой кассиршей мне не о чем..."
     mt "Was mache ich hier überhaupt?"
-    mt "Есть я пока не хочу, а говорить с этой кассиршей мне не о чем..."
+    mt "Ich will noch nichts essen und ich habe keinen Grund mit dem Kassierer zu sprechen..."
 
 # game/Quests/EP2/ep2_dialogues6.rpy:20
 translate german monica_gas_station_thief_dialogue2_fd01d992:
 
     # mt "Я не стану рисковать..."
-    mt "Я не стану рисковать..."
+    mt "Ich will mein Glück nicht strapazieren..."
 
 # game/Quests/EP2/ep2_dialogues6.rpy:29
 translate german monica_gas_station_thief_dialogue2_ef73b07c:
 
     # mt "Думаю не будет ничего страшного если я украду одно пирожное..."
-    mt "Думаю не будет ничего страшного если я украду одно пирожное..."
+    mt "Es wäre doch keine große Sache einen kleinen Kuchen zu stehlen..."
 
 # game/Quests/EP2/ep2_dialogues6.rpy:39
 translate german monica_gas_station_thief_dialogue2_f32ac4c3:
 
     # "Я заслужила его за все то что пережила..."
-    "Я заслужила его за все то что пережила..."
+    "Ich verdiene das, für all das was ich durchmachen musste..."
 
 # game/Quests/EP2/ep2_dialogues6.rpy:45
 translate german monica_pissing_basement_f28ea5da:
@@ -44,7 +44,7 @@ translate german monica_pissing_basement_f28ea5da:
     # "Уверена она бы и это запретила."
     mt "WC..."
     mt "Hier kann ich pinkeln, solange es Betty nicht sieht."
-    "Ich bin sicher, Sie würde mir das verbieten."
+    "Ich bin sicher, sie würde mir das verbieten."
 
 # game/Quests/EP2/ep2_dialogues6.rpy:49
 translate german monica_pissing_basement_4c23a0d6:
@@ -80,7 +80,7 @@ translate german monica_shower_basement_4328e8bf:
     # "Она бы запретила и этот душ, но я могу принимать его пока она не видит..."
     mt "Dusche..."
     "Ich könnte diese nutzen, anstelle der oberen Dusche, die mir Betty verboten hat."
-    "Sie würde mir auch diese verbieten, aber ich kann sie benutzen, bis sie dahinter kommt..."
+    "Sie würde mir auch diese verbieten, aber ich kann sie benutzen, solange sie nicht dahinter kommt..."
 
 # game/Quests/EP2/ep2_dialogues6.rpy:82
 translate german monica_shower_basement_fd992643:
@@ -106,11 +106,11 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues6.rpy:16
     old "Украсть еду."
-    new "Klaue Essen."
+    new "Stehle etwas zu essen."
 
     # Quests/EP2/ep2_dialogues6.rpy:16
     old "Не делать этого."
-    new "Klaue nichts."
+    new "Stehle nichts."
 
 # TODO: Translation updated at 2018-12-08 17:35
 
@@ -120,9 +120,9 @@ translate german cloth_shop_refuse1_3b69b5c2:
     # mt "Здесь снова полно народа!"
     # "Но ведь здесь никого не было, когда я приходила сюда с Диком!"
     # "Почему так???"
-    mt "Здесь снова полно народа!"
-    "Но ведь здесь никого не было, когда я приходила сюда с Диком!"
-    "Почему так???"
+    mt "Und wieder, voll mit Menschen!"
+    "Aber es war niemand hier, als ich mit Dick herkam!"
+    "Wie kann das sein???"
 
 # game/Quests/EP2/ep2_dialogues6.rpy:11
 translate german cloth_shop_refuse1_38c02b7f:
@@ -130,7 +130,7 @@ translate german cloth_shop_refuse1_38c02b7f:
     # "Мне надо скорее убираться отсюда, пока меня не заметили!"
     # "Они сразу позовут эту продавщицу."
     # "Увидев меня в таком виде, она сразу вызовет полицию."
-    "Мне надо скорее убираться отсюда, пока меня не заметили!"
-    "Они сразу позовут эту продавщицу."
-    "Увидев меня в таком виде, она сразу вызовет полицию."
+    "Ich muss hier raus, bevor mich jemand sieht!"
+    "Sie würden die Verkäuferin rufen."
+    "Und die ruft die Polizei wenn sie mich sieht."
 

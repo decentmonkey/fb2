@@ -9,8 +9,8 @@ translate german bettyInteract1_fb6fa74f:
     # "Мне надо быть осторожнее с ней, пока..."
     # "Она еще поплатится за свое ко мне отношение!"
     mt "Es ist Betty..."
-    "Seltene Schlampe!"
+    "So ein Miststück!"
     "Sie beobachtet mich, auf Schritt und Tritt."
-    "Ich muss vorsichtiger sein mit ihr, für jetzt..."
+    "Ich muss vorsichtiger sein mit ihr, vorerst..."
     "Für ihre Art wird sie bezahlen!"
 

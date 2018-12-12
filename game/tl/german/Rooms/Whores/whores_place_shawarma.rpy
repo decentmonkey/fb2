@@ -4,7 +4,7 @@
 translate german whores_place_shawarma_environment2_a708cfd4:
 
     # mt "Дешевый ларек, но пахнет оттуда вкусно..."
-    mt "Дешевый ларек, но пахнет оттуда вкусно..."
+    mt "Billiger Stand, aber es riecht gut..."
 
 # game/Rooms/Whores/whores_place_shawarma.rpy:61
 translate german whores_place_shawarma_environment2_d74615d3:

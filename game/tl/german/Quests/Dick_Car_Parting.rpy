@@ -42,7 +42,7 @@ translate german dick_meeting1_car_parting2_41006220:
     # dick "Ну дорогая."
     # "Я с тобой даже не успел побыть."
     dick "Na gut."
-    "Aber ich hatte kaum Zeit, Deine Gesellschaft zu genießen."
+    "Aber ich hatte kaum Zeit, deine Gesellschaft zu genießen."
 
 # game/Quests/Dick_Car_Parting.rpy:45
 translate german dick_meeting1_car_parting2_b99aba93:
@@ -54,7 +54,7 @@ translate german dick_meeting1_car_parting2_b99aba93:
     m "Nein, Dick!"
     "Du hast mich schon zweimal enttäuscht!"
     "Ich fürchte, dass ein drittes Mal zu viel negativen Einfluss auf unsere Beziehung haben wird."
-    "Aber bisher bist Du noch nützlich für mich."
+    "Aber bisher bist du noch nützlich für mich."
 
 # game/Quests/Dick_Car_Parting.rpy:50
 translate german dick_meeting1_car_parting2_e3afa1ad:
@@ -68,19 +68,19 @@ translate german dick_meeting1_car_parting2_5f93b3cb:
     # dick "Хорошо, Моника."
     # "Отвезешь меня к дому?"
     dick "Naaa gut, Monica."
-    "Fährst Du mich nach Hause?"
+    "Fährst du mich nach Hause?"
 
 # game/Quests/Dick_Car_Parting.rpy:61
 translate german dick_meeting1_car_parting2_361bc315:
 
     # m "Дик, ты правда думаешь что я буду тратить время чтобы отвозить тебя домой?"
-    m "Dick, denkst Du wirklich, ich veschwende meine Zeit damit, Dich nach Hause zu fahren?"
+    m "Dick, denkst du wirklich, ich veschwende meine Zeit damit, dich nach Hause zu fahren?"
 
 # game/Quests/Dick_Car_Parting.rpy:63
 translate german dick_meeting1_car_parting2_6dc338c8:
 
     # dick "Дорогая, я бы тебе показал где я живу и..."
-    dick "Schätzchen, ich zeige Dir, wo ich wohne..."
+    dick "Schätzchen, ich zeige dir, wo ich wohne..."
 
 # game/Quests/Dick_Car_Parting.rpy:65
 translate german dick_meeting1_car_parting2_0407bbc7:
@@ -91,7 +91,7 @@ translate german dick_meeting1_car_parting2_0407bbc7:
     # m "..."
     m "Nein, Dick!"
     "Ich falle darauf sicher nicht rein!"
-    "Es interessiert mich nicht, wo Du wohnst. Ist mir egal!"
+    "Es interessiert mich nicht, wo du wohnst. Ist mir egal!"
     m "..."
 
 # game/Quests/Dick_Car_Parting.rpy:72
@@ -104,7 +104,7 @@ translate german dick_meeting1_car_parting2_3ecbc530:
     m "Dick, ehrlich gesagt..."
     "Ist es jetzt passiert!"
     dick "Was denn, Monica?"
-    m "Du hast es geschafft mich engültig zu langweilen!"
+    m "Du hast es geschafft mich endgültig zu langweilen!"
 
 # game/Quests/Dick_Car_Parting.rpy:78
 translate german dick_meeting1_car_parting2_40c829b5:
@@ -136,13 +136,13 @@ translate german dick_meeting1_car_parting2_a95e18d2:
 translate german dick_meeting1_car_parting2_361bc315_1:
 
     # m "Дик, ты правда думаешь что я буду тратить время чтобы отвозить тебя домой?"
-    m "Dick, denkst Du wirklich, ich veschwende meine Zeit damit, Dich nach Hause zu fahren?"
+    m "Dick, denkst du wirklich, ich veschwende meine Zeit damit, dich nach Hause zu fahren?"
 
 # game/Quests/Dick_Car_Parting.rpy:95
 translate german dick_meeting1_car_parting2_6dc338c8_1:
 
     # dick "Дорогая, я бы тебе показал где я живу и..."
-    dick "Schätzchen, ich zeige Dir, wo ich wohne..."
+    dick "Schätzchen, ich zeige dir, wo ich wohne..."
 
 # game/Quests/Dick_Car_Parting.rpy:97
 translate german dick_meeting1_car_parting2_0407bbc7_1:
@@ -153,7 +153,7 @@ translate german dick_meeting1_car_parting2_0407bbc7_1:
     # m "..."
     m "Nein, Dick!"
     "Ich falle darauf sicher nicht rein!"
-    "Es interessiert mich nicht, wo Du wohnst. Ist mir egal!"
+    "Es interessiert mich nicht, wo du wohnst. Ist mir egal!"
     m "..."
 
 # game/Quests/Dick_Car_Parting.rpy:103
@@ -161,8 +161,8 @@ translate german dick_meeting1_car_parting2_6c70dc0e:
 
     # m "Хорошо. Я отвезу тебя к твоему офису."
     # "Тебя устроит это?"
-    m "Gerne, ich fahre Dich zum Büro."
-    "Ist das ok für Dich?"
+    m "Gerne, ich fahre dich zum Büro."
+    "Ist das ok für dich?"
 
 # game/Quests/Dick_Car_Parting.rpy:107
 translate german dick_meeting1_car_parting2_b7ced523:
@@ -180,15 +180,15 @@ translate german dick_meeting1_car_parting3_ea6eb378:
 translate german dick_meeting1_car_parting3_f4f7cde9:
 
     # m "Дик, ты испортил все с самого начала."
-    m "Dick, Du hast von Anfang an alles vermasselt."
+    m "Dick, du hast von Anfang an alles vermasselt."
 
 # game/Quests/Dick_Car_Parting.rpy:125
 translate german dick_meeting1_car_parting3_7ca7e903:
 
     # m "Нам повезло что мы как раз проезжали мимо той дыры, куда ты привез меня!"
     # "Вот и оставайся здесь! А я не хочу тебя видеть!"
-    m "Wir haben Glück, wir sind gerade an dem Loch vorbei gefahren, zu dem Du mich gebracht hast!"
-    "Bleib hier! Ich möchte Dich nicht mehr sehen!"
+    m "Wir haben Glück, wir sind gerade an dem Loch vorbei gefahren, zu dem du mich gebracht hast!"
+    "Bleib hier! Ich möchte dich nicht mehr sehen!"
 
 # game/Quests/Dick_Car_Parting.rpy:129
 translate german dick_meeting1_car_parting3_476d51ba:
@@ -196,9 +196,9 @@ translate german dick_meeting1_car_parting3_476d51ba:
     # dick "Дорогая, но ты должна меня понять."
     # "Ведь я стараюсь."
     # "Если у тебя есть какие-то желания, я все сделаю для тебя."
-    dick "Schätzchen, Du musst mich verstehen."
+    dick "Schätzchen, du musst mich verstehen."
     "Ich versuche es zumindest."
-    "Wenn Du irgendwelche Wünsche hast, werde ich Sie Dir von den Lippen ablesen."
+    "Wenn du irgendwelche Wünsche hast, werde ich sie dir von den Lippen ablesen."
 
 # game/Quests/Dick_Car_Parting.rpy:134
 translate german dick_meeting1_car_parting3_46fde947:
@@ -214,15 +214,15 @@ translate german dick_meeting1_car_parting3_46fde947:
     # dick "До встречи, Моника."
     # "Буду ждать."
     m "So, Dick."
-    "Ich überlege mir was, was Du für mich tun kannst."
+    "Ich überlege mir was, das du für mich tun kannst."
     "Aber jetzt gehe ich nach Hause."
-    "Und Du gehst in Dein eigenes zu Hause!"
+    "Und du gehst in dein eigenes zu Hause!"
     "VERSTANDEN??"
     dick "Ja, Monica,"
     "Verstanden."
-    m "Gute Nacht, dann!"
+    m "Dann gute Nacht!"
     dick "Man sieht sich, Monica."
-    "Ich werde auf Dich warten."
+    "Ich werde auf dich warten."
 
 # game/Quests/Dick_Car_Parting.rpy:151
 translate german dick_meeting1_car_parting4_fred_dialogue_2bd7df44:
@@ -242,7 +242,7 @@ translate german dick_meeting1_car_parting4_fred_dialogue_6ffb30d5:
 translate german dick_meeting1_car_parting4_fred_dialogue_b7f423cb:
 
     # "Ты тоже так считаешь, Фред?"
-    "Siehst Du das auch so, Fred?"
+    "Siehst du das auch so, Fred?"
 
 # game/Quests/Dick_Car_Parting.rpy:165
 translate german dick_meeting1_car_parting4_fred_dialogue_50693721:
@@ -300,7 +300,7 @@ translate german dick_meeting1_car_parting4_fred_dialogue_dd053b7b:
 translate german dick_meeting1_car_parting4_fred_dialogue_fe017777:
 
     # m "Долго ты будешь меня везти!?"
-    m "Wie lange willst Du mich noch rum fahren?"
+    m "Wie lange willst du mich noch rum fahren?"
 
 # game/Quests/Dick_Car_Parting.rpy:195
 translate german dick_meeting1_car_parting4_fred_dialogue_43802f23:

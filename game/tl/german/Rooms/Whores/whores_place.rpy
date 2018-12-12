@@ -93,14 +93,14 @@ translate german whores_place_environment2_2e0ba45b:
 
     # mt "Тем более в таком виде!"
     # "Ужас!"
-    mt "Тем более в таком виде!"
-    "Ужас!"
+    mt "Besonders in diesem Outfit!"
+    "Der reine Horror!"
 
 # game/Rooms/Whores/whores_place.rpy:95
 translate german whores_place_environment2_2e0ba45b_1:
 
     # mt "Тем более в таком виде!"
     # "Ужас!"
-    mt "Тем более в таком виде!"
-    "Ужас!"
+    mt "Besonders in diesem Outfit!"
+    "Der reine Horror!"
 

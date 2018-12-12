@@ -1462,11 +1462,11 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues3.rpy:222
     old "Приставать к Дику. (low corruption) (disabled)"
-    new "Seduce dick (low corruption) (disabled)"
+    new "Seduce Dick. (low corruption) (disabled)"
 
     # Quests/EP2/ep2_dialogues3.rpy:222
     old "Приставать к Дику. (corruption)"
-    new "Seduce dick. (corruption)"
+    new "Seduce Dick. (corruption)"
 
     # Quests/EP2/ep2_dialogues3.rpy:634
     old "Монике пришлось зарабатывать на еду разноской флаеров"

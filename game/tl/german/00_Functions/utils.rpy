@@ -4,9 +4,9 @@ translate german strings:
 
     # 00_Functions/utils.rpy:36
     old "Моника стерва"
-    new ""
+    new "Monica ist eine Bitch"
 
     # 00_Functions/utils.rpy:38
     old "Моника приличная"
-    new ""
+    new "Monica ist anständig"
 

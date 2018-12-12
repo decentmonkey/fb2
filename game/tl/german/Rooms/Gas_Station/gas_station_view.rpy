@@ -448,7 +448,7 @@ translate german gas_station_view1_environment_c47568c6:
     # mt "Прилавок с пирожными!!!"
     # "Может украсть одно?.."
     mt "Kuchentheke!!!"
-    "Может украсть одно?.."
+    "Vielleicht einen stehlen?.."
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:80
 translate german gas_station_view1_environment_a3c88f50:
@@ -461,6 +461,6 @@ translate german gas_station_view1_environment_ca4990ec:
 
     # mt "Мне не взять оттуда ничего."
     # "Эта дура все время смотрит туда..."
-    mt "Мне не взять оттуда ничего."
-    "Эта дура все время смотрит туда..."
+    mt "Ich kann nichts heraus nehmen."
+    "Die Tussi schaut die ganze Zeit hin..."
 

@@ -137,7 +137,7 @@ label basement_monica_nap_transition1:
 #    call refresh_scene_fade()
     return
 label basement_monica_sleep_transition1:
-    $ basementBedSleepIndex = rand(1,1)
+    $ basementBedSleepIndex = ((day+1)%4) + 1
     $ set_active("BasementBed", False, scene="basement_bedroom2")
     call refresh_scene("Dissolve_05") from _call_refresh_scene_10
 #    img black_screen

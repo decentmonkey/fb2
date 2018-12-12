@@ -54,7 +54,7 @@ translate german dick_office_cabinet_environment_5041bc79:
 translate german dick_office_cabinet_environment_bd7c4edd:
 
     # mt "Что это?"
-    mt "Was soll das sein?"
+    mt "Ist das..?"
 
 # game/Rooms/Dick_Office/dick_office_cabinet.rpy:75
 translate german dick_office_cabinet_environment_3be0e16d:
@@ -76,5 +76,5 @@ translate german strings:
 translate german dick_office_cabinet_environment_f85fb8b3:
 
     # mt "Мне надо как-то вырвать Дика из когтей этой сучки!"
-    mt "Мне надо как-то вырвать Дика из когтей этой сучки!"
+    mt "Irgendwie muss ich Dick aus ihren Krallen befreien!"
 

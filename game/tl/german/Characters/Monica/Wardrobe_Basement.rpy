@@ -58,7 +58,7 @@ translate german hook_basement_bedroom_check_exit_cloth_b6d3bca0:
     "Bardie der Pisser wartet doch nur auf sowas!"
     "Und ich habe keine Ahnung, was Betty mir antun würde dafür!"
     "Dauernd nennt sie mich eine Nutte..."
-    "Schlampe..."
+    "Miststück..."
 
 # game/Characters/Monica/Wardrobe_Basement.rpy:101
 translate german hook_basement_bedroom_check_exit_cloth_map_c28d4e8a:
@@ -74,7 +74,7 @@ translate german strings:
 
     # Characters/Monica/Wardrobe_Basement.rpy:9
     old "Одежда шлюхи."
-    new "Prostituiertenkleidung."
+    new "Hurenkleidung."
 
     # Characters/Monica/Wardrobe_Basement.rpy:9
     old "Униформа гувернантки."
@@ -110,5 +110,5 @@ translate german hook_basement_bedroom_check_exit_cloth_14d7d0c2:
 translate german hook_basement_bedroom_check_exit_cloth_58d95acf:
 
     # "Сучка..."
-    "Schlampe..."
+    "Miststück..."
 

@@ -25,8 +25,8 @@ translate german dick_office_hall1_environment_a4360877:
     # "Какие-то экспонаты?"
     # "Это нравится Дику???"
     mt "Was ist das?"
-    "Ein Austellungsstück?"
-    "Mag sowas Dick???"
+    "Ein Ausstellungsstück?"
+    "Mag Dick sowas ???"
 
 translate german strings:
 

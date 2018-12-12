@@ -52,7 +52,7 @@ translate german strings:
 
     # Quests/EP2/Citizens/Citizen10_dialogue.rpy:2
     old "Уйти."
-    new "Entkomme."
+    new "Geh weg."
 
     # Quests/EP2/Citizens/Citizen10_dialogue.rpy:12
     old "Возьмите, пожалуйста, этот флаер..."

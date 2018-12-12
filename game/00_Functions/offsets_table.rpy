@@ -2056,11 +2056,17 @@ define offsets_table = {
     "basement_bedroom2_monica_nude_nap_2":(547,892,835,1674),
     "basement_bedroom2_monica_nude_nap_3":(369,1011,803,1615),
     "basement_bedroom2_monica_nude_nap_4":(510,987,745,1506),
-    "basement_bedroom2_monica_sleep_1":(537,959,813,1559),
     "basement_bedroom2_monica_whore_nap_1":(389,837,996,1457),
     "basement_bedroom2_monica_whore_nap_2":(509,837,1079,1563),
     "basement_bedroom2_monica_whore_nap_3":(407,837,996,1543),
-    "basement_bedroom2_monica_whore_nap_4":(379,837,996,1476)
+    "basement_bedroom2_monica_whore_nap_4":(379,837,996,1476),
+    "basement_bedroom2_monica_sleep_2_overlay":(504,728,1079,1919),
+    "basement_bedroom2_monica_sleep_3_overlay":(516,635,1079,1886),
+    "basement_bedroom2_monica_sleep_4_overlay":(487,731,1079,1904),
+    "basement_bedroom2_monica_sleep_1":(537,959,813,1559),
+    "basement_bedroom2_monica_sleep_2":(540,1027,752,1298),
+    "basement_bedroom2_monica_sleep_3":(553,1031,869,1603),
+    "basement_bedroom2_monica_sleep_4":(545,981,712,1189)
 }
 
 init python:

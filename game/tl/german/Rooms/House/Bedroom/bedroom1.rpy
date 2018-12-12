@@ -106,8 +106,8 @@ translate german bedroom1_environment_2b30eee2:
     # mt "А теперь на моей кровати лежит эта жирная корова!"
     # "А я вынуждена смотреть на это и выполнять все ее капризы!"
     # "(хмык)"
-    mt "А теперь на моей кровати лежит эта жирная корова!"
-    "А я вынуждена смотреть на это и выполнять все ее капризы!"
+    mt "Und jetzt liegt diese fette Kuh auf meinem Bett!"
+    "Ich muss zusehen und all ihre Marotten ertragen!"
     "(schnief)"
 
 # game/Rooms/House/Bedroom/bedroom1.rpy:57

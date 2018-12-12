@@ -156,13 +156,13 @@ translate german monica_shawarma_dialogue1_fc21055c:
 translate german monica_shawarma_dialogue1_6a85058e:
 
     # shawarma "Хорошо, Мадаме! Только для Вас самый вкусный кебаб за $ 1! Мадаме!"
-    shawarma "Okay. Der super leckere Kebab kostet nur Хорошо, Мадаме! Только для Вас самый вкусный кебаб за $ 1! Мадаме!!"
+    shawarma "Okay. Der super leckere Kebab kostet nur 1€!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:73
 translate german monica_shawarma_dialogue1_b95b69e5:
 
     # mt "Черт! У меня нет этого гребаного доллара!!!"
-    mt "Verdammt, ich habe keinen verfluchten Dollar!"
+    mt "Verdammt, ich habe keinen verfluchten Euro!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:75
 translate german monica_shawarma_dialogue1_3fe4c2df:
@@ -174,13 +174,13 @@ translate german monica_shawarma_dialogue1_3fe4c2df:
 translate german monica_shawarma_dialogue1_7db9d8a8:
 
     # shawarma "Нет, Мадаме! Только за $ 1, Мадаме!"
-    shawarma "Nein! Nur für Нет, Мадаме! Только за $ 1, Мадаме!!"
+    shawarma "Nein, Fräulein! Nur für 1€, Fräulein!!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:79
 translate german monica_shawarma_dialogue1_349d457d:
 
     # m "У меня нет этого гребаного доллара! Есть еще какие-то варианты?"
-    m "Ich habe keinen verdammten Dollar! Gibt's da keine andere Möglichkeit?"
+    m "Ich habe keinen verdammten Euro! Gibt's da keine andere Möglichkeit?"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:81
 translate german monica_shawarma_dialogue1_069451ee:
@@ -194,13 +194,13 @@ translate german monica_shawarma_dialogue1_069451ee:
 translate german monica_shawarma_dialogue1_e85bead3:
 
     # "Он уже ждет, он хочет чтобы Вы всем рассказали про него!"
-    "Ich warte, erzähle Jedem von mir!"
+    "Er will, dass du Werbung für ihn machst!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:86
 translate german monica_shawarma_dialogue1_bec92266:
 
     # m "Итак, ты хочешь чтобы я кому-то рассказала про тебя?"
-    m "Also, soll ich irgendwem etwas über dich erzählen?"
+    m "Also, soll ich jedem von deinem Stand erzählen?"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:88
 translate german monica_shawarma_dialogue1_9aa04107:
@@ -491,24 +491,24 @@ translate german monica_shawarma_dialogue4_630b1a55:
 
     # mt "Спасибо, я на сегодня сыта!"
     # "У меня нет желания подходить к этому негодяю!"
-    mt "Спасибо, я на сегодня сыта!"
-    "У меня нет желания подходить к этому негодяю!"
+    mt "Danke, ich bin satt für heute!"
+    "Ich habe keine Lust mich diesem Halunken zu nähern!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:299
 translate german monica_shawarma_dialogue5_50a39a46:
 
     # mt "Я не собираюсь ходить по приличным улицам в таком виде!"
     # "Мне лучше ходить по этому району, где я в таком виде не слишком выделяюсь на фоне окружающих."
-    mt "Я не собираюсь ходить по приличным улицам в таком виде!"
-    "Мне лучше ходить по этому району, где я в таком виде не слишком выделяюсь на фоне окружающих."
+    mt "So kann ich nicht auf der Straße gesehen werden!"
+    "Ich gehe lieber dahin, wo ich nicht so auffalle."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:305
 translate german monica_shawarma_dialogue6_bd7d8acb:
 
     # mt "Возможно здесь я найду кого-то кому можно раздать эти дурацкие флаеры..."
     # "Главное не подходить к тому хостелу..."
-    mt "Возможно здесь я найду кого-то кому можно раздать эти дурацкие флаеры..."
-    "Главное не подходить к тому хостелу..."
+    mt "Vielleicht finde ich jemanden, der für mich diese blöden Flyer verteilt..."
+    "Hauptsache nicht dem Hostel zu nahe kommen..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:310
 translate german monica_shawarma_dialogue7_57bdab85:
@@ -517,32 +517,32 @@ translate german monica_shawarma_dialogue7_57bdab85:
     # "Такие же и обитатели здесь..."
     # "Но мне главное раздать эти флаеры и убраться отсюда!"
     # "Такая девушка как Я не подходит подобному месту!"
-    mt "Какой грязный вонючий район..."
-    "Такие же и обитатели здесь..."
-    "Но мне главное раздать эти флаеры и убраться отсюда!"
-    "Такая девушка как Я не подходит подобному месту!"
+    mt "Was für eine schmutzige, stinkende Nachbarschaft..."
+    "Genau wie die Anwohner..."
+    "Aber ich muss hier die Flyer los werden. Und dann schnell weg!"
+    "Eine Frau wie ich gehört hier nicht hin!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:318
 translate german monica_shawarma_dialogue8_02873c92:
 
     # mt "Грязная подворотня."
     # "Там дальше есть улица, может быть попробовать поискать там кого-то, чтобы раздать эти дурацки флаеры?"
-    mt "Грязная подворотня."
-    "Там дальше есть улица, может быть попробовать поискать там кого-то, чтобы раздать эти дурацки флаеры?"
+    mt "Eine dreckige Gasse."
+    "Da geht eine Straße entlang, vielleicht finde ich da jemanden, der für mich die Flyer verteilt..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:323
 translate german monica_shawarma_dialogue9_6ac2272d:
 
     # mt "Этот место не совсем уж грязное, но жители здесь не лучше..."
-    mt "Этот место не совсем уж грязное, но жители здесь не лучше..."
+    mt "Hier ist es nicht so heruntergekommen aber die Leute sind nicht besser..."
 
 # game/Quests/EP2/ep2_dialogues2.rpy:328
 translate german monica_shawarma_dialogue10_f7f02719:
 
     # mt "В этом районе одни наркоманы и извращенцы!"
     # "Здесь нет ни одного нормального человека, которому можно просто так дать этот чертов флаер!!!"
-    mt "В этом районе одни наркоманы и извращенцы!"
-    "Здесь нет ни одного нормального человека, которому можно просто так дать этот чертов флаер!!!"
+    mt "In diesem Viertel gibt es nur Süchtige und Perverse!"
+    "Hier ist keine einzige normale Person, der man die Flyer geben könnte!!!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:334
 translate german monica_shawarma_dialogue11_9630037f:
@@ -553,9 +553,9 @@ translate german monica_shawarma_dialogue11_9630037f:
     # "И разносить флаеры за еду!!!"
     # mt "О БОЖЕ!"
     mt "Oh mein Gott!"
-    mt "Какой ужас"
-    "Моника! Как ты докатилась до того, чтобы ходить В ЭТОМ!!!"
-    "И разносить флаеры за еду!!!"
+    mt "Was für ein Horror!"
+    "Моnica! Wie bist du in SOLCHEN Klamotten gelandet???"
+    "Und verteilst Flyer für Essen!!"
     mt "Oh mein Gott!"
 
 translate german strings:
@@ -570,7 +570,7 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues2.rpy:157
     old "Купить кебаб за $ 1"
-    new "Kaufe einen Kebab für $1"
+    new "Kaufe einen Kebab für 1€"
 
     # Quests/EP2/ep2_dialogues2.rpy:157
     old "Разносить флаеры."
@@ -594,7 +594,7 @@ translate german monica_shawarma_dialogue0a_8727578b:
 translate german monica_shawarma_dialogue2_6ef85f2c:
 
     # mt "У меня нет этого гребаного доллара!"
-    mt "У меня нет этого гребаного доллара!"
+    mt "Weil ich nichtmal einen Euro habe!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:212
 translate german monica_shawarma_dialogue2_eef02ec9:
@@ -636,7 +636,7 @@ translate german monica_shawarma_dialogue2_8e0d7ead:
 translate german monica_shawarma_dialogue2a_6ef85f2c:
 
     # mt "У меня нет этого гребаного доллара!"
-    mt "У меня нет этого гребаного доллара!"
+    mt "Weil ich nichtmal einen Euro habe!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:280
 translate german monica_shawarma_dialogue2a_eef02ec9:
@@ -755,14 +755,14 @@ translate german monica_shawarma_dialogue1_919e1160:
 
     # shawarma "Конечно есть, Мадаме!"
     # "Если такой красивый женщин, как Вы, {c}расскажет всем вокруг про мой самый вкусный кебаб{/c}, то кебаб сам будет Вас искать!"
-    shawarma "Конечно есть, Мадаме!"
-    "Если такой красивый женщин, как Вы, {c}расскажет всем вокруг про мой самый вкусный кебаб{/c}, то кебаб сам будет Вас искать!"
+    shawarma "Natürlich gibt es die!"
+    "Wenn eine so wunderschöne Frau wie Sie, {c}jedem in der Umgebung von meinem leckeren Kebab erzählt{/c},bekommen Sie einen gratis!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:120
 translate german monica_shawarma_dialogue1_cf6bdd7a:
 
     # m "Хорошо, если ты дашь мне сейчас свой кебаб, то {c}я разнесу твои флаеры{/c}..."
-    m "Хорошо, если ты дашь мне сейчас свой кебаб, то {c}я разнесу твои флаеры{/c}..."
+    m "Gut, wenn du mir jetzt einen Kebab gibst {c}veteile ich die Flyer{/c}..."
 
 # TODO: Translation updated at 2018-12-11 23:50
 
@@ -771,12 +771,12 @@ translate german monica_shawarma_dialogue1_8e9f3993:
 
     # shawarma "Конечно есть, Мадаме!"
     # "Если такой красивый женщин, как Вы, {c}расскажет всем вокруг про мой самый вкусный кебаб{/c}, то кебаб сам будет Вас искать!"
-    shawarma "Конечно есть, Мадаме!"
-    "Если такой красивый женщин, как Вы, {c}расскажет всем вокруг про мой самый вкусный кебаб{/c}, то кебаб сам будет Вас искать!"
+    shawarma "Natürlich gibt es die!"
+    "Wenn eine so wunderschöne Frau wie Sie, {c}jedem in der Umgebung von meinem leckeren Kebab erzählt{/c},bekommen Sie einen gratis!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:120
 translate german monica_shawarma_dialogue1_0f2c5860:
 
     # m "Хорошо, если ты дашь мне сейчас свой кебаб, то {c}я разнесу твои флаеры{/c}..."
-    m "Хорошо, если ты дашь мне сейчас свой кебаб, то {c}я разнесу твои флаеры{/c}..."
+    m "Gut, wenn du mir jetzt einen Kebab gibst {c}veteile ich die Flyer{/c}..."
 

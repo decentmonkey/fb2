@@ -34,7 +34,7 @@ translate german monica_office_secretary_environment_ee057710:
 translate german monica_office_secretary_environment_9b84380b:
 
     # mt "Из этих окон ужасный вид на город!"
-    mt "Из этих окон ужасный вид на город!"
+    mt "Von hier aus hat man eine schreckliche Aussicht!"
 
 # game/Rooms/Monica_Office/monica_office_secretary.rpy:77
 translate german monica_office_secretary_environment_15bd50a9:
@@ -45,8 +45,8 @@ translate german monica_office_secretary_environment_15bd50a9:
     # "А жаль, я бы с удовольствием съела что-нибудь!"
     mt "Das ist der Teetisch."
     "Meine Sekretärin serviert hier normalerweise Tee oder Kaffee für die, die auch mich warten."
-    "Неудивительно что выпечки и кофе здесь больше нет..."
-    "А жаль, я бы с удовольствием съела что-нибудь!"
+    "Kein Wunder dass wir hier kein gebäck und Kaffee mehr haben..."
+    "Echt schade. Ich würde so gerne etwas essen!"
 
 # game/Rooms/Monica_Office/monica_office_secretary.rpy:89
 translate german monica_office_secretary_environment_f6f37a04:
@@ -58,7 +58,7 @@ translate german monica_office_secretary_environment_f6f37a04:
     mt "Das ist meine Sekretärin."
     mt "Eine der wenigen Personen, die weiß, wie man sich um Umgang mit Anderen verhält."
     "Sie ist wohl erzogen und intelligent."
-    "Я знаю, она сохранит верность мне и поможет вернуть все назад..."
+    "Ich weiß sie steht loyal zu mir und würde mir auf jede Weise helfen, um mir mein Leben zurück zu holen..."
 
 translate german strings:
 

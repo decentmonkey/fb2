@@ -5,6 +5,6 @@ translate german monica_gas_station_thief_dialogue2_f5b61198:
 
     # mt "Я не так уж голодна."
     # "Не стоит лишний раз рисковать..."
-    mt "Я не так уж голодна."
-    "Не стоит лишний раз рисковать..."
+    mt "Ich bin gar nicht so hungrig."
+    "Nochmal das Risiko? Das ist es nicht wert..."
 

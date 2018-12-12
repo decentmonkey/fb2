@@ -4,19 +4,19 @@
 translate german basement_monica_after_nap_dialogue1_81018372:
 
     # mt "Неплохо было бы что-то поесть..."
-    mt "Неплохо было бы что-то поесть..."
+    mt "Es wäre schön etwas zu essen..."
 
 # game/Characters/Monica/Bed_Basement.rpy:96
 translate german basement_monica_after_nap_dialogue1_9ad51c5f:
 
     # mt "Я передохнула. Что дальше?"
-    mt "Я передохнула. Что дальше?"
+    mt "Ich habe mich ausgeruht. Was nun?"
 
 # game/Characters/Monica/Bed_Basement.rpy:110
 translate german basement_monica_after_sleep_dialogue1_465fecb3:
 
     # mt "Еще одно утро в этой дыре! Мне надо что-то придумать, чтобы вернуть все назад как было!"
-    mt "Ein weiterer Morgen in diesem Loch. Ich muss mir etwas einfallen lassen, um es zurück zu bekommen."
+    mt "Ein weiterer Morgen in diesem Loch. Ich muss mir etwas einfallen lassen, um mein Haus zurück zu bekommen."
 
 # game/Characters/Monica/Bed_Basement.rpy:113
 translate german basement_monica_after_sleep_dialogue1_7d6e1ea1:
@@ -60,7 +60,7 @@ translate german strings:
 
     # Characters/Monica/Bed_Basement.rpy:32
     old "Лечь и ждать вечера."
-    new ""
+    new "Mach ein Nickerchen bis zum Abend."
 
 # TODO: Translation updated at 2018-12-10 23:52
 
@@ -81,9 +81,9 @@ translate german basement_monica_hungry_cant_sleep_e08d40f0:
     # "..."
     # mt "Может быть я смогу что-то найти на заправке?"
     # mt "Или у кого-нибудь занять деньги на еду?"
-    mt "{c}Я не ела{/c} уже третий день!"
-    "Я не могу лечь спать в таком состоянии!"
-    "Я ХОЧУ ЕСТЬ!!!"
+    mt "{c}Ich habe nichts gegessen{/c} seit drei Tagen!"
+    "So kann ich nicht schlafen!"
+    "ICH WILL ESSEN!!!"
     "..."
     mt "Может быть я смогу что-то найти на заправке?"
     mt "Или у кого-нибудь занять деньги на еду?"
@@ -99,9 +99,9 @@ translate german basement_monica_hungry_cant_sleep_677ba52e:
     # "..."
     # mt "Может быть я смогу что-то найти на заправке?"
     # mt "Или у кого-нибудь занять деньги на еду?"
-    mt "{c}Я не ела{/c} уже третий день!"
-    "Я не могу лечь спать в таком состоянии!"
-    "Я ХОЧУ ЕСТЬ!!!"
+    mt "{c}Ich habe nichts gegessen{/c} seit drei Tagen!"
+    "So kann ich nicht schlafen!"
+    "ICH WILL ESSEN!!!"
     "..."
     mt "Может быть я смогу что-то найти на заправке?"
     mt "Или у кого-нибудь занять деньги на еду?"
@@ -117,9 +117,9 @@ translate german basement_monica_hungry_cant_sleep_c026432e:
     # "..."
     # mt "Может быть я смогу что-то найти на заправке?"
     # mt "Или у кого-нибудь занять деньги на еду?"
-    mt "{c}Я не ела{/c} уже третий день!"
-    "Я не могу лечь спать в таком состоянии!"
-    "Я ХОЧУ ЕСТЬ!!!"
+    mt "{c}Ich habe nichts gegessen{/c} seit drei Tagen!"
+    "So kann ich nicht schlafen!"
+    "ICH WILL ESSEN!!!"
     "..."
     mt "Может быть я смогу что-то найти на заправке?"
     mt "Или у кого-нибудь занять деньги на еду?"

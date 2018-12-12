@@ -10,7 +10,7 @@ translate german street_gas_station2_teleport_c5bf312b:
 translate german street_gas_station2_environment_bc94af96:
 
     # mt "Это та самая заправка..."
-    mt "Это та самая заправка..."
+    mt "Das ist die Tankstelle..."
 
 # game/Rooms/Gas_Station/Street_Gas_Station/street_gas_station.rpy:38
 translate german street_gas_station2_environment_b08dd1c3:

@@ -30,9 +30,9 @@ translate german citizen11_dialogue_6fcede6c:
     # citizen11 "Милая, флаер это последнее, что мне сейчас нужно. Нет ли у тебя чего покрепче?"
     # m "Вы про алкоголь?"
     # citizen11 "Господи, ну конечно..."
-    citizen11 "Schätzchen, der Flyer ist das Letzte, was ich gerade brauche. Haben Sie nicht was berauschendes?"
+    citizen11 "Schätzchen, der Flyer ist das Letzte, was ich gerade brauche. Haben Sie nicht was Stärkeres?"
     m "Reden Sie von Alkohol?"
-    citizen11 "Herrgott, natürlich..."
+    citizen11 "Himmel... ja natürlich!"
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:38
 translate german citizen11_dialogue_loop1_188f72ee:
@@ -62,9 +62,9 @@ translate german citizen11_dialogue_loop1_6fcede6c:
     # citizen11 "Милая, флаер это последнее, что мне сейчас нужно. Нет ли у тебя чего покрепче?"
     # m "Вы про алкоголь?"
     # citizen11 "Господи, ну конечно..."
-    citizen11 "Schätzchen, der Flyer ist das Letzte, was ich gerade brauche. Haben Sie nicht was berauschendes?"
+    citizen11 "Schätzchen, der Flyer ist das Letzte, was ich gerade brauche. Haben Sie nicht was Stärkeres?"
     m "Reden Sie von Alkohol?"
-    citizen11 "Herrgott, natürlich..."
+    citizen11 "Himmel... ja natürlich!"
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:42
 translate german citizen11_dialogue_loop1_abba711a:

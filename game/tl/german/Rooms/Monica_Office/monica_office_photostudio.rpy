@@ -4,7 +4,7 @@
 translate german monica_office_photostudio_environment_7c6cf6c0:
 
     # mt "Я все переделаю здесь, когда верну назад свой офис!"
-    mt "Я все переделаю здесь, когда верну назад свой офис!"
+    mt "Das werde ich überarbeiten, wenn ich mein Büro zurück habe!"
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:54
 translate german monica_office_photostudio_environment_2cdb093b:
@@ -57,14 +57,14 @@ translate german monica_office_photostudio_environment_cfb586fd:
 
     # "Мелани - это топ-модель на сегодняшний день."
     # "Похоже она неплохо себя чувствует пока меня нет..."
-    "Мелани - это топ-модель на сегодняшний день."
-    "Похоже она неплохо себя чувствует пока меня нет..."
+    "Melanie, sie ist das Topmodel heute."
+    "Sieht aus als ob sie sich recht wohl fühlt, wenn ich nicht hier bin..."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:52
 translate german monica_office_photostudio_environment_4fe49e73:
 
     # mt "Алекс - мой фотограф. Самый лучший профессионал в стране, которого можно купить за деньги."
-    mt "Алекс - мой фотограф. Самый лучший профессионал в стране, которого можно купить за деньги."
+    mt "Alex ist mein Photograph. Der beste Profi des Landes."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:59
 translate german monica_office_photostudio_environment_c0e618d6:

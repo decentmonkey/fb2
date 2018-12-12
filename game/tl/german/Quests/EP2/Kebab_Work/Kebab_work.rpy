@@ -18,11 +18,11 @@ translate german strings:
 
     # Quests/EP2/Kebab_Work/Kebab_work.rpy:15
     old "Флаеры убавлено"
-    new ""
+    new "Flyer reduziert"
 
     # Quests/EP2/Kebab_Work/Kebab_work.rpy:84
     old "Осталось флаеров"
-    new ""
+    new "Flyer übrig"
 
     # Quests/EP2/Kebab_Work/Kebab_work.rpy:110
     old "Я раздала все флаеры, где мой кебаб?"

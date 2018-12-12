@@ -16,7 +16,7 @@ translate german citizen5_dialogue_38679270:
 translate german citizen5_loop1_1672ed6d:
 
     # citizen5 "Что Вы хотеть от Мистера?"
-    citizen5 "Was willst Du von mir?"
+    citizen5 "Was willst du von mir?"
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:15
 translate german citizen5_loop1_05979ea1:

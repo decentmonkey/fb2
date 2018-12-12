@@ -16,11 +16,11 @@ translate german strings:
 
     # 00_Functions/character_properties.rpy:92
     old "Corruption increased"
-    new "Korruption erhöht"
+    new "Verdorbenheit erhöht"
 
     # 00_Functions/character_properties.rpy:94
     old "Corruption decreased"
-    new "Korruption vermindert"
+    new "Verdorbenheit vermindert"
 
 # TODO: Translation updated at 2018-12-06 21:43
 
@@ -28,15 +28,15 @@ translate german strings:
 
     # 00_Functions/character_properties.rpy:73
     old "прогресс понижен!"
-    new ""
+    new "Fortschritt gemindert"
 
     # 00_Functions/character_properties.rpy:95
     old "Corruption +"
-    new ""
+    new "Verdorbenheit +"
 
     # 00_Functions/character_properties.rpy:97
     old "Corruption -"
-    new ""
+    new "Verdorbenheit -"
 
 # TODO: Translation updated at 2018-12-10 21:18
 
@@ -44,5 +44,5 @@ translate german strings:
 translate german low_corruption_d8229b96:
 
     # help "Not enough corruption! Required [requiredCorruption]."
-    help "Not enough corruption! Required [requiredCorruption]."
+    help "Nicht genug Verdorbenheit! Benötigt [requiredCorruption]."
 

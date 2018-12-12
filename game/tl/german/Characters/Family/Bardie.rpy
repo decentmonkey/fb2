@@ -11,8 +11,8 @@ translate german bardieMonicaCleaningInteract_2f2381ad:
 
     # mt "Он так и пытается подкрасться ко мне!"
     # "Мне надо быть осторожнее..."
-    mt "Он так и пытается подкрасться ко мне!"
-    "Мне надо быть осторожнее..."
+    mt "Er versucht immernoch sich an mich heran zu schleichen!"
+    "Ich muss vorsichtiger sein..."
 
 # TODO: Translation updated at 2018-12-10 16:45
 
@@ -20,5 +20,5 @@ translate german bardieMonicaCleaningInteract_2f2381ad:
 translate german bardieStairsFloor1Hook1_4c88471c:
 
     # bardie "Моника! Покажи трусики!"
-    bardie "Monica! Zeig dein Höschen!"
+    bardie "Monica! Zeig mir dein Höschen!"
 

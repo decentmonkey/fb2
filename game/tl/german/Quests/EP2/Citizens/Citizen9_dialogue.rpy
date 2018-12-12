@@ -29,7 +29,7 @@ translate german citizen9_dialogue_bb6e048a:
     # citizen9 "То, что ты мне сказала! Хе-хе-хе. Отличная грудь кстати!"
     # m "Идиот! Я от Джека!"
     # citizen9 "Ууу, дамочка, с этого и надо было начинать. Что у тебя?"
-    m "Fass meine Brust an."
+    m "Fass meine Titten an."
     citizen9 "Was auch immer."
     m "Du Idiot! Was machst du?"
     citizen9 "Das, was du mir gesagt hast! Hehehe. Tolle Titten, so anbei!"
@@ -86,7 +86,7 @@ translate german strings:
 
     # Quests/EP2/Citizens/Citizen9_dialogue.rpy:13
     old "Потрогай мою сиську."
-    new "Fass meine Brust an."
+    new "Fass meine Titten an."
 
     # Quests/EP2/Citizens/Citizen9_dialogue.rpy:23
     old "Дать косяк."
@@ -102,7 +102,7 @@ translate german strings:
 translate german citizen9_dialogue_0096c5e5:
 
     # m "Потрогай мою сиську."
-    m "Fass meine Brust an."
+    m "Fass meine Titten an."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:19
 translate german citizen9_dialogue_4e0f6bb0:

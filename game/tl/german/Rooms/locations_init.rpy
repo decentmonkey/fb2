@@ -52,11 +52,11 @@ translate german strings:
 
     # Rooms/locations_init.rpy:53
     old "POOR STREET"
-    new "KELLER"
+    new "ARMENGASSE"
 
     # Rooms/locations_init.rpy:56
     old "BASEMENT"
-    new "ERDGESCHOSS"
+    new "KELLER"
 
     # Rooms/locations_init.rpy:61
     old "Laundry"

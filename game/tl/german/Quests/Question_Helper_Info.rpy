@@ -94,7 +94,7 @@ translate german strings:
 
     # Quests/Question_Helper_Info.rpy:2
     old "Посмотреть подсказку"
-    new "Schau, ein Hinweis."
+    new "Suche einen Hinweis."
 
     # Quests/Question_Helper_Info.rpy:2
     old "Продолжить игру."

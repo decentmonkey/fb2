@@ -60,5 +60,5 @@ translate german strings:
 translate german start_saved_game_b06a0c44:
 
     # help "Пожалуйста, используйте сохранение из финальной локации в подвале дома."
-    help "Пожалуйста, используйте сохранение из финальной локации в подвале дома."
+    help "Bitte nutzen Sie den Speicherstand aus der letzten Szene aus Episode1 (Schlafen gehen in julias Kammer)."
 

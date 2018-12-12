@@ -75,6 +75,6 @@ translate german dick_office_entrance_environment_42470e33:
 
     # reception_secretary "Мэм, я могу Вам чем-то помочь?"
     # mt "..."
-    reception_secretary "Мэм, я могу Вам чем-то помочь?"
+    reception_secretary "Entschuldigung, kann ich Ihnen helfen?"
     mt "..."
 

@@ -24,15 +24,15 @@ translate german sleep_scene1_d6511922:
     # m "ДИК???"
     # "Что ты здесь делаешь?"
     m "DICK???"
-    "Was machst Du hier?"
+    "Was machst du hier?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:20
 translate german sleep_scene1_f66c0265:
 
     # dick "Моника, что значит что я здесь делаю?"
     # "Я еду с тобой в ресторан."
-    dick "Monica, was meinst Du, was ich hier mache?"
-    "Ich gehe mit Dir in das Restaurant."
+    dick "Monica, was meinst du, was ich hier mache?"
+    "Ich gehe mit dir in das Restaurant."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:23
 translate german sleep_scene1_3d95f619:
@@ -50,7 +50,7 @@ translate german sleep_scene1_059f3a5a:
 translate german sleep_scene1_93974b21:
 
     # dick "Моника, ты себя хорошо чувствуешь?"
-    dick "Monica, geht's Dir gut?"
+    dick "Monica, geht's dir gut?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:30
 translate german sleep_scene1_75ca308a:
@@ -63,7 +63,7 @@ translate german sleep_scene1_92b3f2eb:
 
     # dick "Моника, мне показалось что ты заснула."
     # "Ты не выспалась сегодня?"
-    dick "Monica, ich dachte, Du schläfst."
+    dick "Monica, ich dachte, du schläfst."
     "Hattest Du genug Schlaf heute Nacht?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:37
@@ -118,7 +118,7 @@ translate german sleep_scene1_355cbb6f:
     # m "Ты уволен, Фред!!!"
     # "Едь скорее на место и вон из машины!"
     m "Du bist gefeuert!!!"
-    "Zurück auf Deinen Platz und dann raus aus dem Auto!"
+    "Zurück auf deinen Platz und dann raus aus dem Auto!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:63
 translate german sleep_scene1_27441ed8:
@@ -138,7 +138,7 @@ translate german sleep_scene1_5184a778:
 translate german sleep_scene1_c055cabc:
 
     # m "Что за проступок, ты спрашиваешь?!?!"
-    m "Was Du getan hast, fragst Du ernsthaft?!?!"
+    m "Was du getan hast, fragst du ernsthaft?!?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:71
 translate german sleep_scene1_21f3fe6f:
@@ -146,7 +146,7 @@ translate german sleep_scene1_21f3fe6f:
     # "Ты..."
     # "Ты... Я не скажу что ты сделал..."
     "Du..."
-    "Du... Ich werde nicht sagen, was Du getan hast..."
+    "Du... Ich werde nicht sagen, was du getan hast..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:74
 translate german sleep_scene1_01da7dfa:
@@ -198,7 +198,7 @@ translate german sleep_scene1_4358bf7e:
     # "Что ты здесь делаешь? Иди к своей секретарше!"
     m "Dick, hör auf mich zu nerven."
     "Du bist auch gut!"
-    "Was machst du hier? Geh zu Deiner Sekretärin!"
+    "Was machst du hier? Geh zu deiner Sekretärin!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:101
 translate german sleep_scene1_22213875:
@@ -212,7 +212,7 @@ translate german sleep_scene1_375477be:
     # dick "С какой секретаршей, Моника?!"
     # "Мне нравишься ТЫ!"
     dick "Welche Sekretärin, Monica?!"
-    "ich mag DICH!"
+    "Ich mag DICH!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:108
 translate german sleep_scene1_ec6e35ae:
@@ -248,7 +248,7 @@ translate german sleep_scene1_6bad4cd9:
 translate german sleep_scene1_28eaf94a:
 
     # "Дик, ты не видел его?"
-    "Dick, hast Du es gesehen?"
+    "Dick, hast du es gesehen?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:124
 translate german sleep_scene1_58f40e48:
@@ -256,7 +256,7 @@ translate german sleep_scene1_58f40e48:
     # dick "У тебя его не было, Моника."
     # "Я не знаю почему, но ты не взяла его..."
     dick "Du hattest keins dabei, Monica."
-    "Ich weiß nicht warum, aber Du hast keins mitgenommen..."
+    "Ich weiß nicht warum, aber du hast keins mitgenommen..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:128
 translate german sleep_scene1_d0666177:
@@ -268,7 +268,7 @@ translate german sleep_scene1_d0666177:
 translate german sleep_scene1_4208bcef:
 
     # dick "Более того, ты почему-то не носишь свои украшения."
-    dick "Und weiter, trägst Du auch keinen Schmuck aus irgendeinem Grund."
+    dick "Und weiter, trägst du auch keinen Schmuck aus irgendeinem Grund."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:133
 translate german sleep_scene1_cf3dcabb:
@@ -287,7 +287,7 @@ translate german sleep_scene1_4da2f5bd:
 
     # dick "И трусики, зачем-то ты их тоже не носишь."
     # "Почему, Моника?"
-    dick "Und Höschen, aus unerfindlichen Gründen trägst Du auch keine."
+    dick "Und Höschen, aus unerfindlichen Gründen trägst du auch keine."
     "Monica, warum?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:143
@@ -328,7 +328,7 @@ translate german sleep_scene1_1255ede9:
 translate german sleep_scene1_89975fb9:
 
     # "Главное не забудь!"
-    "Vor allem darfst Du eins nicht vergessen!"
+    "Vor allem darfst du eins nicht vergessen!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:164
 translate german sleep_scene1_0c3d6c82:
@@ -612,7 +612,7 @@ translate german sleep_scene1_d710f8b7:
     # "Я - Моника Бакфетт!"
     # "Я - лицо модного журнала!"
     # "Невозможно представить журнал без меня!"
-    "Ich bin - Monica Buckfett!"
+    "Ich bin Monica Buckfett!"
     "Ich bin das Gesicht des Modemagazines!"
     "Es ist unmöglich, sich das Magazin ohne mich vorzustellen!"
 
@@ -754,7 +754,7 @@ translate german sleep_scene1_31aad242:
     # "Мне, почему-то, кажется что еду брать она все-равно не разрешит."
     "Aber es könnte sich lohnen zu putzen. Das sollte Bettys Vertrauen in mich steigern."
     "Andererseits, wieso sollte ich ihr trauen?"
-    "Aus irgend einem Grund denke ich, ist mir nicht erlaubt, Essen zu nehmen."
+    "Aus irgend einem Grund, ist mir nicht erlaubt, mir Essen zu nehmen."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:400
 translate german spot_monica_comment1_c3fef90e:
@@ -862,7 +862,7 @@ translate german cleaning_betty_comment1_b1d15285:
 translate german cleaning_bardie_comment1_4c88471c:
 
     # bardie "Моника! Покажи трусики!"
-    bardie "Monica! Zeig dein Höschen!"
+    bardie "Monica! Zeig mir dein Höschen!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:467
 translate german cleaning_bardie_comment1_509c5b3e:
@@ -936,7 +936,7 @@ translate german cleaning_bardie_comment2_27701d53:
 translate german cleaning_bardie_comment3_4c88471c:
 
     # bardie "Моника! Покажи трусики!"
-    bardie "Monica! Zeig dein Höschen!"
+    bardie "Monica! Zeig mir dein Höschen!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:531
 translate german cleaning_bardie_comment3_509c5b3e:
@@ -1054,7 +1054,7 @@ translate german monica_goout1_governess_restrict_e711cb47:
     # betty "Эй! Дорогуша!"
     # "Куда это ты собралась?!"
     betty "Hey! Darling!"
-    "Wo willst Du hin?!"
+    "Wo willst du hin?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:604
 translate german monica_goout1_governess_restrict_9028c6f4:
@@ -1136,7 +1136,7 @@ translate german monica_goout1_governess_restrict_289b3d9b:
 translate german monica_goout1_governess_restrict_b36e4c68:
 
     # "Куда это ты собралась?!"
-    "Wo willst Du hin?!"
+    "Wo willst du hin?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:642
 translate german monica_goout1_governess_restrict_3d1abcf4:
@@ -1214,7 +1214,7 @@ translate german monica_wakeup1_a2404ba7:
     # "Я заслуживаю лучшего!"
     # mt "Это мой дом! Я не заслуживаю того чтобы спать в подвале!"
     # mt "Мне надо что-то придумать, чтобы вернуть все назад как было!"
-    mt "Ein weiterer Morgen in diesem Loch. Ich muss mir etwas einfallen lassen, um es zurück zu bekommen."
+    mt "Ein weiterer Morgen in diesem Loch. Ich muss mir etwas einfallen lassen, um mein Haus zurück zu bekommen."
     mt "Ich bekomme nicht genug Schlaf auf diesem Bett."
     "Ich brauche ein vernünftiges Bett!"
     mt "Eine Königin wie ich kann sich zum Schlafen nicht an diese Umstände gewöhnen."
@@ -1324,23 +1324,23 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues1.rpy:434
     old "Бетти подумывает взять Монику в фитнесс зал"
-    new ""
+    new "Betty überlegt, Monica ins Fitnessstudio mitzunehmen."
 
     # Quests/EP2/ep2_dialogues1.rpy:440
     old "Моника еще не проявила себя"
-    new ""
+    new "Monica hat sich noch nicht gezeigt"
 
     # Quests/EP2/ep2_dialogues1.rpy:461
     old "Моника регулярно убирается"
-    new ""
+    new "Monica hat regelmäßig sauber gemacht"
 
     # Quests/EP2/ep2_dialogues1.rpy:467
     old "Моника плохо работает"
-    new ""
+    new "Monica leistet keine gute Arbeit"
 
     # Quests/EP2/ep2_dialogues1.rpy:643
     old "Моника нерегулярно убирается в доме"
-    new ""
+    new "Monika hat ihre Arbeit schlecht gemacht"
 
 # TODO: Translation updated at 2018-12-09 22:47
 
@@ -1409,50 +1409,50 @@ translate german sleep_scene1_local1_1d87f312:
 
     # mt "Стоп. Моника, не унывай!"
     # "Давай подумаем что у нас есть на данный момент."
-    mt "Стоп. Моника, не унывай!"
-    "Давай подумаем что у нас есть на данный момент."
+    mt "Stopp. Monica. Kopf hoch!"
+    "Denk einfach dran, was Du jetzt im Moment hast."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:275
 translate german sleep_scene1_local1_cefb8771:
 
     # "У меня нет денег, нет документов."
     # "Любой полцейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
-    "У меня нет денег, нет документов."
-    "Любой полцейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
+    "Ich habe kein Geld, keine Dokumente."
+    "Jeder Polizist, der mich kontrolliert, kann mich zu Marcus bringen und..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:278
 translate german sleep_scene1_local1_c99485b8:
 
     # "Никаких И! Я не попаду к нему!"
-    "Никаких И! Я не попаду к нему!"
+    "Nein! Ich gehe da nicht mehr hin!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:282
 translate german sleep_scene1_local1_fff00551:
 
     # "На самом деле, не все так плохо."
     # "У меня есть крыша над головой, правда я не могу забыть какой ценой она досталась мне..."
-    "На самом деле, не все так плохо."
-    "У меня есть крыша над головой, правда я не могу забыть какой ценой она досталась мне..."
+    "Eigentlich ist es derzeit gar nicht so schlecht."
+    "Ich habe ein Dach über meinem Kopf. Auch wenn ich nicht vergessen kann, welchen Preis ich dafür bezahlen musste."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:286
 translate german sleep_scene1_local1_313ea9a5:
 
     # "Этот Фред... Я убъю его!"
     # "Но это потом... Моника, давай подумаем про то что делать сейчас..."
-    "Этот Фред... Я убъю его!"
-    "Но это потом... Моника, давай подумаем про то что делать сейчас..."
+    "Fred... Ich töte ihn!"
+    "Aber darum kümmere ich mich später... Monica, denk dran was Du jetzt zu tun hast..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:294
 translate german sleep_scene1_local1_6f8f4b40:
 
     # "Итак... Меня пустили в свой же дом при условии что {c}я буду убираться в нем{/c}..."
-    "Итак... Меня пустили в свой же дом при условии что {c}я буду убираться в нем{/c}..."
+    "Also... Ich darf hier im Haus sein, vorausgesetzt, dass ich es putze..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:300
 translate german sleep_scene1_local1_373eef24:
 
     # "ЗА БЕСПЛАТНО!!!"
-    "ЗА БЕСПЛАТНО!!!"
+    "UMSONST!!!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:302
 translate german sleep_scene1_local1_a21a0e09:
@@ -1469,28 +1469,28 @@ translate german sleep_scene1_local1_48b2e946:
     # "Сделать вид что я убираюсь."
     # "В конце концов, эта семейка идиотов что здесь живет - она недалекого ума."
     # "Притвориться перед ними и обхитрить их будет пустяковой задачей..."
-    "Но хорошо... Если мне надо пройти через это, то я пройду..."
-    "Они не знают кто я такая, поэтому моя гордость не сильно пострадает..."
-    "Мне надо всего-лишь притвориться... Ненадолго..."
-    "Сделать вид что я убираюсь."
-    "В конце концов, эта семейка идиотов что здесь живет - она недалекого ума."
-    "Притвориться перед ними и обхитрить их будет пустяковой задачей..."
+    "Aber es ist ok... Ich muss da durch, Ich werde..."
+    "Sie wissen nicht, wer ich bin, daher wird mein Stolz nicht so sehr leiden..."
+    "Alles, was ich tun muss, ist, vorzugeben... Während..."
+    "Vorzugeben, dass ich putze."
+    "Denn die Idiotenfamilie, die hier lebt, ist nicht sehr schlau."
+    "Sie auszutricksen ist keine Kunst..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:317
 translate german sleep_scene1_local1_1a5bc687:
 
     # "Они глазом не успеют моргнуть, как вылетят отсюда, из этого дома."
     # "А я займу свое достойное место здесь..."
-    "Они глазом не успеют моргнуть, как вылетят отсюда, из этого дома."
-    "А я займу свое достойное место здесь..."
+    "Sie sind aus dem Haus wieder draußen, bevor sie wissen, wie ihnen geschieht."
+    "Ich nehme meinen rechtmäßigen Platz wieder ein..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:321
 translate german sleep_scene1_local1_65b7e92f:
 
     # "Потому что Я - Моника Бакфетт!"
     # "А они - никто!"
-    "Потому что Я - Моника Бакфетт!"
-    "А они - никто!"
+    "Denn ich bin Monica Buckfett!"
+    "Sie sind Nichts!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:326
 translate german sleep_scene1_local1_de23fcc8:
@@ -1499,10 +1499,10 @@ translate german sleep_scene1_local1_de23fcc8:
     # "Черт... Хоть она и дура, но она следит за мной."
     # "Куда бы я здесь ни пошла, она следует за мной по пятам..."
     # "Так что крыша у меня над головой есть, но {c}еду мне придется доставать где-то еще...{/c}"
-    "Эта Бетти..."
-    "Черт... Хоть она и дура, но она следит за мной."
-    "Куда бы я здесь ни пошла, она следует за мной по пятам..."
-    "Так что крыша у меня над головой есть, но {c}еду мне придется доставать где-то еще...{/c}"
+    "Diese Betty..."
+    "Verdammt... Sie ist so dumm, aber sie beobachet mich."
+    "Wohin ich auch gehe, sie folgt mir..."
+    "Ich habe ein Dach über dem Kopf, aber ich muss irgendwo her Essen bekommen..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:336
 translate german sleep_scene1_local1_7c99658a:
@@ -1510,65 +1510,65 @@ translate german sleep_scene1_local1_7c99658a:
     # "Интересно где?..."
     # "Может украсть еду у той {c}дуры на заправке{/c}?"
     # "Но хочу-ли я воровать?..."
-    "Интересно где?..."
-    "Может украсть еду у той {c}дуры на заправке{/c}?"
-    "Но хочу-ли я воровать?..."
+    "Ich frage mich, woher?..."
+    "Kann ich Essen von der Idiotin aus der Tankstelle klauen?"
+    "Aber will ich wirklich stehlen?..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:346
 translate german sleep_scene1_local1_25bbcb35:
 
     # "Или может спросить еду у того {c}продавца кебабов{/c}?"
     # "Я видела как он смотрит на меня..."
-    "Или может спросить еду у того {c}продавца кебабов{/c}?"
-    "Я видела как он смотрит на меня..."
+    "Ich könnte den Kebabverkäufer um Essen bitten."
+    "Ich habe gesehen, wie er mich ansieht."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:352
 translate german sleep_scene1_local1_1d6bb01b:
 
     # "Животное, фу!"
-    "Животное, фу!"
+    "Welch Tier, wah!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:355
 translate german sleep_scene1_local1_49eb913b:
 
     # "Маленькое ничтожество..."
-    "Маленькое ничтожество..."
+    "Kleiner Pisser..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:357
 translate german sleep_scene1_local1_e3c24c48:
 
     # "Конечно ему никогда не светит прикоснуться к такой красоте как Я..."
-    "Конечно ему никогда не светит прикоснуться к такой красоте как Я..."
+    "Natürlich wird er nie eine Schönheit wie mich berühren..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:360
 translate german sleep_scene1_local1_c72691d4:
 
     # "Но... это можно использовать чтобы достать хоть какую-то пищу..."
     # "Я никогда в жизни не пробовала такой еды, но сейчас выбирать не приходится."
-    "Но... это можно использовать чтобы достать хоть какую-то пищу..."
-    "Я никогда в жизни не пробовала такой еды, но сейчас выбирать не приходится."
+    "Aber... Ich kann ihn ausnutzen, um wenigstens an etwas Essen zu kommen..."
+    "Ich habe sowas noch nie vorher gegessen, aber ich kann jetzt nicht wählerisch sein."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:368
 translate german sleep_scene1_local1_0273dc2b:
 
     # "Даже она мне кажется вкусной сейчас, учитывая что я толком ничего не ела уже давно..."
     # "И уж тем более не сравнится с теми помоями, что мне пришлось выпрашивать, когда я была в подвале у Маркуса..."
-    "Даже она мне кажется вкусной сейчас, учитывая что я толком ничего не ела уже давно..."
-    "И уж тем более не сравнится с теми помоями, что мне пришлось выпрашивать, когда я была в подвале у Маркуса..."
+    "Obwohl es jetzt köstlich zu sein scheint, in Anbetracht der Tatsache allerdings, dass ich schon seit Ewigkeiten nichts mehr gegessen habe..."
+    "Und sicher kein Vergleich zu der Pampe, für die ich betteln musste, als ich in Marcus Keller war..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:376
 translate german sleep_scene1_local1_5fa23f70:
 
     # "И мне надо как-то придумать как вернуть назад свое положение..."
-    "И мне надо как-то придумать как вернуть назад свое положение..."
+    "Und ich muss einen Weg finden, wie ich wieder an meine alte Position komme..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:380
 translate german sleep_scene1_local1_117aaaa7:
 
     # "Дик... Да уж, помощник!"
     # "Этот подкаблучник теперь влюблен в свою новую секретаршу."
-    "Дик... Да уж, помощник!"
-    "Этот подкаблучник теперь влюблен в свою новую секретаршу."
+    "Dick... diese Sekretärin!"
+    "Dieser Pantoffelheld liebt jetzt seine neue Sekretärin."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:387
 translate german sleep_scene1_local1_013af7f9:
@@ -1576,9 +1576,9 @@ translate german sleep_scene1_local1_013af7f9:
     # "Эту сучку!"
     # "Это ее происки по поводу галстука!"
     # "Мне надо сходить к нему еще раз, может получится {c}отбить Дика у нее{/c}?"
-    "Эту сучку!"
-    "Это ее происки по поводу галстука!"
-    "Мне надо сходить к нему еще раз, может получится {c}отбить Дика у нее{/c}?"
+    "Die Schlampe!"
+    "Sie ist an der Causa mit der Krawatte Schuld!"
+    "Ich muss ihn nochmal sehen, vielleicht bekomme ich Dick von ihr losgeeist."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:396
 translate german sleep_scene1_local1_1d6410c1:
@@ -1586,17 +1586,17 @@ translate german sleep_scene1_local1_1d6410c1:
     # "В конце концов, чтобы вернуть назад свои деньги, мне надо сначала отделаться от Маркуса!"
     # "А в этом мне может помочь только Дик!"
     # "Еще эти его дурацкие слова про галстук!"
-    "В конце концов, чтобы вернуть назад свои деньги, мне надо сначала отделаться от Маркуса!"
-    "А в этом мне может помочь только Дик!"
-    "Еще эти его дурацкие слова про галстук!"
+    "Jedenfalls, wenn ich mein Geld zurück will, muss ich zuerst Marcus los werden!"
+    "Nur Dick kann mir damit helfen!"
+    "Seine dummen Aussagen wegen der Krawatte!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:401
 translate german sleep_scene1_local1_364bbb8a:
 
     # "Уверена что Дик просто шутил!"
     # "Не думаю что мне стоит всеръез воспринимать его слова об этом!"
-    "Уверена что Дик просто шутил!"
-    "Не думаю что мне стоит всеръез воспринимать его слова об этом!"
+    "Ich bin sicher, Dick hat nur gescherzt!"
+    "Ich denke nicht, dass ich seine Worte ernst nehmen sollte!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:408
 translate german sleep_scene1_local1_4a08cf47:
@@ -1605,16 +1605,16 @@ translate german sleep_scene1_local1_4a08cf47:
     # "Мне интересно что там происходит в {c}моем офисе{/c}?"
     # "Кто-то сменил код на лифте, но может я найду способ попасть туда?"
     "..."
-    "Мне интересно что там происходит в {c}моем офисе{/c}?"
-    "Кто-то сменил код на лифте, но может я найду способ попасть туда?"
+    "Ich frage mich, was in meinem Büro los ist?"
+    "Jemand hat den Code am Aufzug geändert. Finde ich dennoch einen Weg rein?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:417
 translate german sleep_scene1_local1_e5bef1d4:
 
     # "Я хочу посмотреть на того смельчака, который посмел занять мое место!"
     # "Да и как это вообще возможно?!"
-    "Я хочу посмотреть на того смельчака, который посмел занять мое место!"
-    "Да и как это вообще возможно?!"
+    "Ich will den tapferen Mann kennne lernen, der es wagte, meinen Platz einzunehmen!"
+    "Wie kann das überhaupt möglich sein?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:422
 translate german sleep_scene1_local1_d710f8b7:
@@ -1622,9 +1622,9 @@ translate german sleep_scene1_local1_d710f8b7:
     # "Я - Моника Бакфетт!"
     # "Я - лицо модного журнала!"
     # "Невозможно представить журнал без меня!"
-    "Я - Моника Бакфетт!"
-    "Я - лицо модного журнала!"
-    "Невозможно представить журнал без меня!"
+    "Ich bin Monica Buckfett!"
+    "Ich bin das Gesicht des Modemagazines!"
+    "Es ist unmöglich, sich das Magazin ohne mich vorzustellen!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:426
 translate german sleep_scene1_local1_b492e753:
@@ -1632,9 +1632,9 @@ translate german sleep_scene1_local1_b492e753:
     # "Это невозможно! И, думаю, они это прекрасно понимают!"
     # "Поэтому им не обойтись без меня!"
     # "Это шанс для меня вернуть все назад..."
-    "Это невозможно! И, думаю, они это прекрасно понимают!"
-    "Поэтому им не обойтись без меня!"
-    "Это шанс для меня вернуть все назад..."
+    "Das ist unmöglich! Und ich glaube, dass wissen die auch ganz genau!"
+    "Also können Sie ohne mich gar nichts machen!"
+    "Das ist meine Chance, alles zurück zu erhalten..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:432
 translate german sleep_scene1_local1_af2511a3:
@@ -1643,10 +1643,10 @@ translate german sleep_scene1_local1_af2511a3:
     # "Нет, к этому слизняку в таком виде идти точно не стоит."
     # "Этот мешок с дерьмом сделает все чтобы использовать это небольшое недоразумение в своих целях..."
     # "Я его слишком хорошо знаю..."
-    "Стив?..."
-    "Нет, к этому слизняку в таком виде идти точно не стоит."
-    "Этот мешок с дерьмом сделает все чтобы использовать это небольшое недоразумение в своих целях..."
-    "Я его слишком хорошо знаю..."
+    "Steve?..."
+    "Nein, es wäre falsch, zu diesem Schleimbeutel in seinem Sackoutfit zu gehen."
+    "Dieser Drecksack würde alles tun, dieses kleine Missverständnis auszukosten..."
+    "Ich kenne ihn zu gut..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:438
 translate german sleep_scene1_local1_fd0730f3:
@@ -1655,10 +1655,10 @@ translate german sleep_scene1_local1_fd0730f3:
     # "Тиффани и Джейн..."
     # "После того как я угрожала уволить их, они могут быть пострашнее той секретарши у Дика..."
     # "Жалкие ничтожества..."
-    "Плюс вокруг недо въются эти две проститутки..."
-    "Тиффани и Джейн..."
-    "После того как я угрожала уволить их, они могут быть пострашнее той секретарши у Дика..."
-    "Жалкие ничтожества..."
+    "Desweiteren schwirren diese zwei Nutten um ihn herum..."
+    "Tiffany und Jane..."
+    "Nachdem ich ihnen drohte, sie zu feuern, könnten sie verängstigter sein als Dicks Sekretärin..."
+    "Nutzlose, kleine Insekten..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:445
 translate german sleep_scene1_local1_7b9278a7:
@@ -1667,10 +1667,10 @@ translate german sleep_scene1_local1_7b9278a7:
     # "Это касается и моих подружек Стефани и Ребекки..."
     # "В конце концов, мне придется общаться со всеми ними когда я верну положение в обществе."
     # "И вообще, надо бы найти одежду получше чем те тряпки, которые я схватила у той шлюхи..."
-    "И мне вообще стоит поменьше показываться в таком виде перед людьми, которые мне знакомы."
-    "Это касается и моих подружек Стефани и Ребекки..."
-    "В конце концов, мне придется общаться со всеми ними когда я верну положение в обществе."
-    "И вообще, надо бы найти одежду получше чем те тряпки, которые я схватила у той шлюхи..."
+    "Allgemein sollte ich nicht so angezogen sein vor Leuten, die mich kennen."
+    "Das gilt besonders für meine Freundinnnen Stephanie und Rebecca..."
+    "Vielleicht muss ich mich um Alle kümmern, wenn ich meinen Status wieder habe."
+    "Tatsächlich muss ich zu besseren Kleidern kommen, anstelle derer, die ich von der Hure mitgenommen habe..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:454
 translate german sleep_scene1_local1_5c939173:
@@ -1678,9 +1678,9 @@ translate german sleep_scene1_local1_5c939173:
     # "Не могу поверить что мне приходится ходить в этом по городу..."
     # "Может лучше ходить в униформе Юлии?"
     # "Как хорошо что меня никто не узнает в этом!"
-    "Не могу поверить что мне приходится ходить в этом по городу..."
-    "Может лучше ходить в униформе Юлии?"
-    "Как хорошо что меня никто не узнает в этом!"
+    "Ich fasse es nicht, dass ich mich so in der Stadt zeige..."
+    "Vielleicht sollte ich lieber Julias Uniform tragen."
+    "Gut, dass mich darin niemand erkennen würde!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:461
 translate german sleep_scene1_local1_b745dc40:
@@ -1688,9 +1688,9 @@ translate german sleep_scene1_local1_b745dc40:
     # "Никто даже подумать не может что Моника Бакфетт может ходить по улице в униформе горничной..."
     # "Или в одежде проститутки..."
     # "Это мне на руку!"
-    "Никто даже подумать не может что Моника Бакфетт может ходить по улице в униформе горничной..."
-    "Или в одежде проститутки..."
-    "Это мне на руку!"
+    "Niemand könnte sich auch nur vorstellen, dass Monica Buckfett in einer Hausmädchenuniform die Straße runter läuft..."
+    "Oder wie eine Hure angezogen ist..."
+    "Gut für mich!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:467
 translate german sleep_scene1_local1_45bc818c:
@@ -1701,17 +1701,17 @@ translate german sleep_scene1_local1_45bc818c:
     # "После этого выкинуть того маленького недоноска и эту Бетти из дома."
     # "А потом выкинуть и Ральфа..."
     "..."
-    "Ральф..."
-    "Его было бы очень просто отбить у этой провинциальной дуры."
-    "После этого выкинуть того маленького недоноска и эту Бетти из дома."
-    "А потом выкинуть и Ральфа..."
+    "Ralph..."
+    "Es wäre sehr einfach, ihn von diesem Provinztrottel zu trennen."
+    "Danach werfe ich den kleinen Bastard und Becky aus dem Haus."
+    "Und dann entledige ich mich Ralph..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:474
 translate german sleep_scene1_local1_621ef18f:
 
     # "Но Бетти не дает возможности даже взять бутерброд на кухне, что уж говорить о том что она не даст даже близко приблизиться к Ральфу..."
     # "..."
-    "Но Бетти не дает возможности даже взять бутерброд на кухне, что уж говорить о том что она не даст даже близко приблизиться к Ральфу..."
+    "Aber Betty gibt mir nicht mal die Gelegenheit, ein Sandwich aus der Küche zu nehmen. Abgesehen von der Tatsache, dass sie Ralph nicht nahe kommt."
     "..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:479
@@ -1723,12 +1723,12 @@ translate german sleep_scene1_local1_06f5aeee:
     # "Считает что я ему обязана тем что нахожусь здесь!"
     # "Наивный дурачок!"
     # "Надо как-то избавиться от него..."
-    "Барди..."
-    "Этот мелкий неудачник даже не заслуживает внимания."
-    "Он вертится вокруг как назойливая муха!"
-    "Считает что я ему обязана тем что нахожусь здесь!"
-    "Наивный дурачок!"
-    "Надо как-то избавиться от него..."
+    "Bardi..."
+    "Dieser kleine Verlierer verdient nicht mal meine Aufmerksamkeit."
+    "Er schwirrt rum wie eine lästige Fliege!"
+    "Er denkt, ich schulde ihm was, weil ich jetzt da bin!"
+    "Naiver Trottel!"
+    "Wir müssen ihn irgendwie los werden..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:489
 translate german sleep_scene1_local1_856f9e68:
@@ -1736,9 +1736,9 @@ translate german sleep_scene1_local1_856f9e68:
     # m "Да, это все небольшое недоразумение..."
     # "И, когда я решу его, я поквитаюсь со всеми вами!"
     # "Клянусь!"
-    m "Да, это все небольшое недоразумение..."
-    "И, когда я решу его, я поквитаюсь со всеми вами!"
-    "Клянусь!"
+    m "Ja, das ist alles nur ein Missverständnis..."
+    "Und wenn ich es gelöst habe, werde ich mich um euch alle kümmern!"
+    "Das schwöre ich!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:497
 translate german sleep_scene1_local1_72c4389d:
@@ -1752,17 +1752,17 @@ translate german sleep_scene1_local1_638b971b:
     # "Итак..."
     # "Сейчас, думаю, надо {c}притвориться горничной{/c}."
     # "Затем {c}пойти поискать еду{/c}..."
-    "Итак..."
-    "Сейчас, думаю, надо {c}притвориться горничной{/c}."
-    "Затем {c}пойти поискать еду{/c}..."
+    "Also..."
+    "Jetzt, denke ich, sollte ich {c}so tun als wäre ich ein Dienstmädchen{/c}."
+    "Dann{c}muss ich nah Essen suchen{/c}..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:504
 translate german sleep_scene1_local1_e8d4e1fc:
 
     # "Думаю мне необязательно все время убираться здесь..."
     # "Эта семейка не привыкла к тем стандартам чистоты, которые требовала я от гувернанток."
-    "Думаю мне необязательно все время убираться здесь..."
-    "Эта семейка не привыкла к тем стандартам чистоты, которые требовала я от гувернанток."
+    "Ich denke nicht, dass ich das Haus die ganze Zeit putzen muss..."
+    "Diese Familie ist nicht an den Standard für Sauberkeit gewohnt, den ich von meiner Dienstmagd erwartet habe."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:508
 translate german sleep_scene1_local1_31aad242:
@@ -1770,9 +1770,9 @@ translate german sleep_scene1_local1_31aad242:
     # "Но иногда убираться все-же стоит. Это может вызвать доверие у Бетти."
     # "Хотя зачем мне ее доверие?"
     # "Мне, почему-то, кажется что еду брать она все-равно не разрешит."
-    "Но иногда убираться все-же стоит. Это может вызвать доверие у Бетти."
-    "Хотя зачем мне ее доверие?"
-    "Мне, почему-то, кажется что еду брать она все-равно не разрешит."
+    "Aber es könnte sich lohnen zu putzen. Das sollte Bettys Vertrauen in mich steigern."
+    "Andererseits, wieso sollte ich ihr trauen?"
+    "Aus irgend einem Grund, ist mir nicht erlaubt, mir Essen zu nehmen."
 
 # TODO: Translation updated at 2018-12-11 23:38
 
@@ -1781,14 +1781,14 @@ translate german sleep_scene1_local1_7f60d8f5:
 
     # "У меня нет денег, нет документов."
     # "Любой полцейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
-    "У меня нет денег, нет документов."
-    "Любой полцейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
+    "Ich habe kein Geld, keine Dokumente."
+    "Jeder Polizist, der mich kontrolliert, kann mich zu Marcus bringen und..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:294
 translate german sleep_scene1_local1_bb4a3af3:
 
     # "Итак... Меня пустили в свой же дом при условии что {c}я буду убираться в нем{/c}..."
-    "Итак... Меня пустили в свой же дом при условии что {c}я буду убираться в нем{/c}..."
+    "Also... Ich darf hier im Haus sein, vorausgesetzt, dass ich es putze..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:326
 translate german sleep_scene1_local1_e84b805a:
@@ -1797,10 +1797,10 @@ translate german sleep_scene1_local1_e84b805a:
     # "Черт... Хоть она и дура, но она следит за мной."
     # "Куда бы я здесь ни пошла, она следует за мной по пятам..."
     # "Так что крыша у меня над головой есть, но {c}еду мне придется доставать где-то еще...{/c}"
-    "Эта Бетти..."
-    "Черт... Хоть она и дура, но она следит за мной."
-    "Куда бы я здесь ни пошла, она следует за мной по пятам..."
-    "Так что крыша у меня над головой есть, но {c}еду мне придется доставать где-то еще...{/c}"
+    "Diese Betty..."
+    "Verdammt... Sie ist so dumm, aber sie beobachet mich."
+    "Wohin ich auch gehe, sie folgt mir..."
+    "Ich habe ein Dach über dem Kopf, aber ich muss irgendwo her Essen bekommen..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:336
 translate german sleep_scene1_local1_8819e7b9:
@@ -1808,17 +1808,17 @@ translate german sleep_scene1_local1_8819e7b9:
     # "Интересно где?..."
     # "Может украсть еду у той {c}дуры на заправке{/c}?"
     # "Но хочу-ли я воровать?..."
-    "Интересно где?..."
-    "Может украсть еду у той {c}дуры на заправке{/c}?"
-    "Но хочу-ли я воровать?..."
+    "Ich frage mich, woher?..."
+    "Kann ich Essen von der Idiotin aus der Tankstelle klauen?"
+    "Aber will ich wirklich stehlen?..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:346
 translate german sleep_scene1_local1_81c75420:
 
     # "Или может спросить еду у того {c}продавца кебабов{/c}?"
     # "Я видела как он смотрит на меня..."
-    "Или может спросить еду у того {c}продавца кебабов{/c}?"
-    "Я видела как он смотрит на меня..."
+    "Ich könnte den Kebabverkäufer um Essen bitten."
+    "Ich habe gesehen, wie er mich ansieht."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:387
 translate german sleep_scene1_local1_2df5267a:
@@ -1826,9 +1826,9 @@ translate german sleep_scene1_local1_2df5267a:
     # "Эту сучку!"
     # "Это ее происки по поводу галстука!"
     # "Мне надо сходить к нему еще раз, может получится {c}отбить Дика у нее{/c}?"
-    "Эту сучку!"
-    "Это ее происки по поводу галстука!"
-    "Мне надо сходить к нему еще раз, может получится {c}отбить Дика у нее{/c}?"
+    "Die Schlampe!"
+    "Sie ist an der Causa mit der Krawatte Schuld!"
+    "Ich muss ihn nochmal sehen, vielleicht bekomme ich Dick von ihr losgeeist."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:408
 translate german sleep_scene1_local1_8905bc80:
@@ -1837,8 +1837,8 @@ translate german sleep_scene1_local1_8905bc80:
     # "Мне интересно что там происходит в {c}моем офисе{/c}?"
     # "Кто-то сменил код на лифте, но может я найду способ попасть туда?"
     "..."
-    "Мне интересно что там происходит в {c}моем офисе{/c}?"
-    "Кто-то сменил код на лифте, но может я найду способ попасть туда?"
+    "Ich frage mich, was in meinem Büro los ist?"
+    "Jemand hat den Code am Aufzug geändert. Finde ich dennoch einen Weg rein?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:499
 translate german sleep_scene1_local1_1acd7b48:
@@ -1846,17 +1846,17 @@ translate german sleep_scene1_local1_1acd7b48:
     # "Итак..."
     # "Сейчас, думаю, надо {c}притвориться горничной{/c}."
     # "Затем {c}пойти поискать еду{/c}..."
-    "Итак..."
-    "Сейчас, думаю, надо {c}притвориться горничной{/c}."
-    "Затем {c}пойти поискать еду{/c}..."
+    "Also..."
+    "Jetzt, denke ich, sollte ich {c}so tun als wäre ich ein Dienstmädchen{/c}."
+    "Dann{c}muss ich nah Essen suchen{/c}..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:746
 translate german monica_goout1_governess_restrict_1fe02068:
 
     # "Кто разрешал тебе покидать территорию дома, {c}одетой в униформу{/c}?"
     # "Ты решила украсть ее?!"
-    "Кто разрешал тебе покидать территорию дома, {c}одетой в униформу{/c}?"
-    "Ты решила украсть ее?!"
+    "Wer hat dir erlaubt, das Haus zu verlassen, {c}mit der Uniform{/c}?"
+    "Wolltest du sie stehlen?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:764
 translate german monica_goout1_governess_restrict_3fcccbfa:
@@ -1864,9 +1864,9 @@ translate german monica_goout1_governess_restrict_3fcccbfa:
     # "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
     # "Но если ты решила все-таки уйти, то, будь добра, {c}переоденься в свою одежду{/c}!!!"
     # "ЯСНО ТЕБЕ?!"
-    "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
-    "Но если ты решила все-таки уйти, то, будь добра, {c}переоденься в свою одежду{/c}!!!"
-    "ЯСНО ТЕБЕ?!"
+    "Für das Geld, was wir dir zahlen, denke ich nicht, dass du überhaupt Freizeit haben solltest."
+    "Aber wenn du schon gehen willst, dann bitte, {c}zieh dir deine eigenen Kleider an{/c}!!!"
+    "IST DAS KLAR?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:792
 translate german monica_goout1_governess_restrict_613f5a63:
@@ -1874,9 +1874,9 @@ translate german monica_goout1_governess_restrict_613f5a63:
     # betty "Эта униформа! Это моя собственность!"
     # "Кто разрешал тебе покидать территорию дома, {c}одетой в униформу{/c}?"
     # "Ты решила украсть ее?!"
-    betty "Эта униформа! Это моя собственность!"
-    "Кто разрешал тебе покидать территорию дома, {c}одетой в униформу{/c}?"
-    "Ты решила украсть ее?!"
+    betty "Die Uniform! Das ist mein Eigentum!"
+    "Wer hat dir erlaubt, das Haus zu verlassen, {c}mit der Uniform{/c}?"
+    "Wolltest du sie stehlen?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:809
 translate german monica_goout1_governess_restrict_3fcccbfa_1:
@@ -1884,9 +1884,9 @@ translate german monica_goout1_governess_restrict_3fcccbfa_1:
     # "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
     # "Но если ты решила все-таки уйти, то, будь добра, {c}переоденься в свою одежду{/c}!!!"
     # "ЯСНО ТЕБЕ?!"
-    "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
-    "Но если ты решила все-таки уйти, то, будь добра, {c}переоденься в свою одежду{/c}!!!"
-    "ЯСНО ТЕБЕ?!"
+    "Für das Geld, was wir dir zahlen, denke ich nicht, dass du überhaupt Freizeit haben solltest."
+    "Aber wenn du schon gehen willst, dann bitte, {c}zieh dir deine eigenen Kleider an{/c}!!!"
+    "IST DAS KLAR?!"
 
 # TODO: Translation updated at 2018-12-11 23:50
 
@@ -1895,14 +1895,14 @@ translate german sleep_scene1_local1_f5565a19:
 
     # "У меня нет денег, нет документов."
     # "Любой полцейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
-    "У меня нет денег, нет документов."
-    "Любой полцейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
+    "Ich habe kein Geld, keine Dokumente."
+    "Jeder Polizist, der mich kontrolliert, kann mich zu Marcus bringen und..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:294
 translate german sleep_scene1_local1_7bacb022:
 
     # "Итак... Меня пустили в свой же дом при условии что {c}я буду убираться в нем{/c}..."
-    "Итак... Меня пустили в свой же дом при условии что {c}я буду убираться в нем{/c}..."
+    "Also... Ich darf hier im Haus sein, vorausgesetzt, dass ich es putze..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:326
 translate german sleep_scene1_local1_aa1dd64d:
@@ -1911,10 +1911,10 @@ translate german sleep_scene1_local1_aa1dd64d:
     # "Черт... Хоть она и дура, но она следит за мной."
     # "Куда бы я здесь ни пошла, она следует за мной по пятам..."
     # "Так что крыша у меня над головой есть, но {c}еду мне придется доставать где-то еще...{/c}"
-    "Эта Бетти..."
-    "Черт... Хоть она и дура, но она следит за мной."
-    "Куда бы я здесь ни пошла, она следует за мной по пятам..."
-    "Так что крыша у меня над головой есть, но {c}еду мне придется доставать где-то еще...{/c}"
+    "Diese Betty..."
+    "Verdammt... Sie ist so dumm, aber sie beobachet mich."
+    "Wohin ich auch gehe, sie folgt mir..."
+    "Ich habe ein Dach über dem Kopf, aber ich muss irgendwo her Essen bekommen..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:336
 translate german sleep_scene1_local1_85eb7182:
@@ -1922,17 +1922,17 @@ translate german sleep_scene1_local1_85eb7182:
     # "Интересно где?..."
     # "Может украсть еду у той {c}дуры на заправке{/c}?"
     # "Но хочу-ли я воровать?..."
-    "Интересно где?..."
-    "Может украсть еду у той {c}дуры на заправке{/c}?"
-    "Но хочу-ли я воровать?..."
+    "Ich frage mich, woher?..."
+    "Kann ich Essen von der Idiotin aus der Tankstelle klauen?"
+    "Aber will ich wirklich stehlen?..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:346
 translate german sleep_scene1_local1_230b0e91:
 
     # "Или может спросить еду у того {c}продавца кебабов{/c}?"
     # "Я видела как он смотрит на меня..."
-    "Или может спросить еду у того {c}продавца кебабов{/c}?"
-    "Я видела как он смотрит на меня..."
+    "Ich könnte den Kebabverkäufer um Essen bitten."
+    "Ich habe gesehen, wie er mich ansieht."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:387
 translate german sleep_scene1_local1_efb089f6:
@@ -1940,9 +1940,9 @@ translate german sleep_scene1_local1_efb089f6:
     # "Эту сучку!"
     # "Это ее происки по поводу галстука!"
     # "Мне надо сходить к нему еще раз, может получится {c}отбить Дика у нее{/c}?"
-    "Эту сучку!"
-    "Это ее происки по поводу галстука!"
-    "Мне надо сходить к нему еще раз, может получится {c}отбить Дика у нее{/c}?"
+    "Die Schlampe!"
+    "Sie ist an der Causa mit der Krawatte Schuld!"
+    "Ich muss ihn nochmal sehen, vielleicht bekomme ich Dick von ihr losgeeist."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:408
 translate german sleep_scene1_local1_58451c59:
@@ -1951,8 +1951,8 @@ translate german sleep_scene1_local1_58451c59:
     # "Мне интересно что там происходит в {c}моем офисе{/c}?"
     # "Кто-то сменил код на лифте, но может я найду способ попасть туда?"
     "..."
-    "Мне интересно что там происходит в {c}моем офисе{/c}?"
-    "Кто-то сменил код на лифте, но может я найду способ попасть туда?"
+    "Ich frage mich, was in meinem Büro los ist?"
+    "Jemand hat den Code am Aufzug geändert. Finde ich dennoch einen Weg rein?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:499
 translate german sleep_scene1_local1_dd6103c6:
@@ -1960,17 +1960,17 @@ translate german sleep_scene1_local1_dd6103c6:
     # "Итак..."
     # "Сейчас, думаю, надо {c}притвориться горничной{/c}."
     # "Затем {c}пойти поискать еду{/c}..."
-    "Итак..."
-    "Сейчас, думаю, надо {c}притвориться горничной{/c}."
-    "Затем {c}пойти поискать еду{/c}..."
+    "Also..."
+    "Jetzt, denke ich, sollte ich {c}so tun als wäre ich ein Dienstmädchen{/c}."
+    "Dann{c}muss ich nah Essen suchen{/c}..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:746
 translate german monica_goout1_governess_restrict_e07aa109:
 
     # "Кто разрешал тебе покидать территорию дома, {c}одетой в униформу{/c}?"
     # "Ты решила украсть ее?!"
-    "Кто разрешал тебе покидать территорию дома, {c}одетой в униформу{/c}?"
-    "Ты решила украсть ее?!"
+    "Wer hat dir erlaubt, das Haus zu verlassen, {c}mit der Uniform{/c}?"
+    "Wolltest du sie stehlen?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:764
 translate german monica_goout1_governess_restrict_9926d56b:
@@ -1978,9 +1978,9 @@ translate german monica_goout1_governess_restrict_9926d56b:
     # "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
     # "Но если ты решила все-таки уйти, то, будь добра, {c}переоденься в свою одежду{/c}!!!"
     # "ЯСНО ТЕБЕ?!"
-    "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
-    "Но если ты решила все-таки уйти, то, будь добра, {c}переоденься в свою одежду{/c}!!!"
-    "ЯСНО ТЕБЕ?!"
+    "Für das Geld, was wir dir zahlen, denke ich nicht, dass du überhaupt Freizeit haben solltest."
+    "Aber wenn du schon gehen willst, dann bitte, {c}zieh dir deine eigenen Kleider an{/c}!!!"
+    "IST DAS KLAR?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:792
 translate german monica_goout1_governess_restrict_02de7924:
@@ -1988,9 +1988,9 @@ translate german monica_goout1_governess_restrict_02de7924:
     # betty "Эта униформа! Это моя собственность!"
     # "Кто разрешал тебе покидать территорию дома, {c}одетой в униформу{/c}?"
     # "Ты решила украсть ее?!"
-    betty "Эта униформа! Это моя собственность!"
-    "Кто разрешал тебе покидать территорию дома, {c}одетой в униформу{/c}?"
-    "Ты решила украсть ее?!"
+    betty "Die Uniform! Das ist mein Eigentum!"
+    "Wer hat dir erlaubt, das Haus zu verlassen, {c}mit der Uniform{/c}?"
+    "Wolltest du sie stehlen?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:809
 translate german monica_goout1_governess_restrict_9926d56b_1:
@@ -1998,7 +1998,7 @@ translate german monica_goout1_governess_restrict_9926d56b_1:
     # "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
     # "Но если ты решила все-таки уйти, то, будь добра, {c}переоденься в свою одежду{/c}!!!"
     # "ЯСНО ТЕБЕ?!"
-    "За такие деньги, что тебе платят, я думаю у тебя не должно быть свободного времени!"
-    "Но если ты решила все-таки уйти, то, будь добра, {c}переоденься в свою одежду{/c}!!!"
-    "ЯСНО ТЕБЕ?!"
+    "Für das Geld, was wir dir zahlen, denke ich nicht, dass du überhaupt Freizeit haben solltest."
+    "Aber wenn du schon gehen willst, dann bitte, {c}zieh dir deine eigenen Kleider an{/c}!!!"
+    "IST DAS KLAR?!"
 

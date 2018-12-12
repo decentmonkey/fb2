@@ -8,7 +8,7 @@ translate german basement_shower_interact_4328e8bf:
     # "Она бы запретила и этот душ, но я могу принимать его пока она не видит..."
     mt "Dusche..."
     "Ich könnte diese nutzen, anstelle der oberen Dusche, die mir Betty verboten hat."
-    "Sie würde mir auch diese verbieten, aber ich kann sie benutzen, bis sie dahinter kommt..."
+    "Sie würde mir auch diese verbieten, aber ich kann sie benutzen, solange sie nicht dahinter kommt..."
 
 # game/Characters/Monica/Shower_Basement.rpy:19
 translate german basement_toilet_interact_f28ea5da:
@@ -18,7 +18,7 @@ translate german basement_toilet_interact_f28ea5da:
     # "Уверена она бы и это запретила."
     mt "WC..."
     mt "Hier kann ich pinkeln, solange es Betty nicht sieht."
-    "Ich bin sicher, Sie würde mir das verbieten."
+    "Ich bin sicher, sie würde mir das verbieten."
 
 # game/Characters/Monica/Shower_Basement.rpy:30
 translate german basement_shower_begin_c8ad7f11:
