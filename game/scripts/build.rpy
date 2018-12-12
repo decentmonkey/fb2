@@ -13,6 +13,7 @@ init python:
     # Put images into the images archive.
     build.classify("game/**.jpg", "images")
     build.classify("game/**.png", "images")
+    build.classify("game/**.webp", "images")
 
     # Put sounds into the sounds archive.
     build.classify("game/Sounds/*.ogg", "sounds")
@@ -23,3 +24,4 @@ init python:
     # Put video into the video archive.
     build.classify("game/video/*.mp4", "video")
     build.classify("game/video/*.mkv", "video")
+    build.classify("game/video/*.webm", "video")
