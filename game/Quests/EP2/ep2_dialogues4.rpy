@@ -630,18 +630,18 @@ label monica_office_photostudio_melanie_dialogue1:
     melanie "Миссис Бакфетт, я уверена в своих силах..."
     if monicaTalkedToMelanie1 == True:
         if melanieOffended2 == True:
-            jump .local1
+            jump monica_office_photostudio_melanie_dialogue1_local1
         else:
-            jump .local2
+            jump monica_office_photostudio_melanie_dialogue1_local2
     menu:
         "Да, я примерно понимаю в чем заключаются они, твои силы...":
             call bitch(5, "monicaTalkedToMelanie1") from _call_bitch_1
-            jump .local1
+            jump monica_office_photostudio_melanie_dialogue1_local1
         "Мелани, ни один мужчина не устоит перед тобой!":
             call bitch(-5, "monicaTalkedToMelanie1") from _call_bitch_2
-            jump .local2
+            jump monica_office_photostudio_melanie_dialogue1_local2
 
-    label .local1:
+    label monica_office_photostudio_melanie_dialogue1_local1:
         $ melanieOffended2 = True
         img 6510
         with fade
@@ -658,8 +658,8 @@ label monica_office_photostudio_melanie_dialogue1:
         "Но поверь, я скоро вернусь на свое место..."
         img 6515
         melanie "Я была бы очень рада этому, Миссис Бакфетт..."
-        jump .local3
-    label .local2:
+        jump monica_office_photostudio_melanie_dialogue1_local3
+    label monica_office_photostudio_melanie_dialogue1_local2:
         img 6514
         with fade
         m "Мелани, ни один мужчина не устоит перед тобой!"
@@ -670,7 +670,7 @@ label monica_office_photostudio_melanie_dialogue1:
         melanie "Спасибо..."
         melanie "Я была бы очень рада этому, Миссис Бакфетт..."
 
-    label .local3:
+    label monica_office_photostudio_melanie_dialogue1_local3:
         $ monicaTalkedToMelanie1 = True
         $ restore_music()
         call refresh_scene_fade() from _call_refresh_scene_fade_21

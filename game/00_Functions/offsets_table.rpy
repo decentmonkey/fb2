@@ -1121,7 +1121,7 @@ define offsets_table = {
     "gas_station_view1_monica_businesscloth3":(0,1191,1079,1689),
     "gas_station_view1_monica_eveningdress":(0,1250,1079,1693),
     "gas_station_view1_monica_governess":(0,1249,1079,1679),
-    "gas_station_view1_monica_whore":(0,1215,1079,1689),
+    "gas_station_view1_monica_whore":(0,440,1079,914),
     "gas_station_view1_oiltrader":(543,1025,826,1110),
     "gas_station_view_cashiercashier_sorry_hard":(118,790,957,1071),
     "gas_station_view_cashiercashier_sorry_soft":(160,756,957,1079),
