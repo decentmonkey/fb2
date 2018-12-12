@@ -4,7 +4,6 @@ label rich_hotel_event_hall:
     $ print "rich_hotel_event_hall"
     $ miniMapData = []
 
-    $ sceneIsStreet = True
     $ scene_image = "scene_Rich_Hotel_Event_Hall"
 
     return

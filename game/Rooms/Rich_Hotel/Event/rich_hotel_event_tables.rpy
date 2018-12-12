@@ -2,7 +2,6 @@ label rich_hotel_event_tables:
     $ print "rich_hotel_event_tables"
     $ miniMapData = []
 
-    $ sceneIsStreet = True
     $ scene_image = "scene_rich_hotel_event_tables"
     return
 

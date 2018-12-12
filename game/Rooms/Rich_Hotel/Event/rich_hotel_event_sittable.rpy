@@ -2,7 +2,6 @@ label rich_hotel_event_sittable:
     $ print "rich_hotel_event_sittable"
     $ miniMapData = []
 
-    $ sceneIsStreet = True
     $ scene_image = "scene_rich_hotel_event_sittable_Philip_Monica"
     return
 
