@@ -1986,6 +1986,7 @@ label monica_charity_event_dialogue18:
         #Моника закрывает рот
         img 6992
         with Dissolve(0.5)
+        $ add_money(1000)
         w
         jump monica_charity_event_dialogue18_end_scene
 
