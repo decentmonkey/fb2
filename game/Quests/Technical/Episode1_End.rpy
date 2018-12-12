@@ -1,5 +1,5 @@
 label episode1End:
-    $ _dismiss_pause = False
+#    $ _dismiss_pause = False
     img black_screen
     with Dissolve(2.0)
     img 3371
@@ -16,7 +16,7 @@ label episode1End:
 #    hide screen show_image_screen
     $ renpy.pause(gui.credits.timeout, hard=True)
 #    $ renpy.pause()
-    $ _dismiss_pause = True
+#    $ _dismiss_pause = True
     stop music fadeout 1.0
     $ renpy.full_restart(transition=Fade(1.0, 1.0, 1.0))
 #    help "the end"
@@ -24,7 +24,7 @@ label episode1End:
 
 label episode1End_Dick:
 #    music beautiful_messenger_piano
-    $ _dismiss_pause = False
+#    $ _dismiss_pause = False
     img 5765
     with Dissolve(5.0)
 #    $ renpy.pause(3.0)
@@ -35,7 +35,7 @@ label episode1End_Dick:
 #    hide screen show_image_screen
     $ renpy.pause(gui.credits.timeout, hard=True)
 #    $ renpy.pause()
-    $ _dismiss_pause = True
+#    $ _dismiss_pause = True
     stop music fadeout 1.0
     $ renpy.full_restart(transition=Fade(1.0, 1.0, 1.0))
     return

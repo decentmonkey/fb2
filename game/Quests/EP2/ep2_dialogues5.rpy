@@ -119,7 +119,7 @@ label monica_charity_event_dialogue1:
 label monica_charity_event_dialogue2:
     #render
     #Моника, Биф, Мелани стоят на сцене и говорят речь
-    $ _dismiss_pause = False
+#    $ _dismiss_pause = False
     img black_screen
     with Dissolve(2.0)
     $ renpy.pause(2.0, hard=True)
@@ -127,7 +127,7 @@ label monica_charity_event_dialogue2:
     img 6679
     with fadelong
     show screen Reporters_Shoots_Screen
-    $ _dismiss_pause = True
+#    $ _dismiss_pause = True
     biff "Господа!"
     "Я рад приветствовать Вас на этом благотворительном вечере!"
 
@@ -2526,15 +2526,15 @@ label monica_basement_bedroom_before_sleep1:
     "Я лучше забуду про тот кошмар, который мне пришлось пройти, чтобы достать эти деньги..."
     "Я почти у цели..."
     "Я сплю..."
-    $ _dismiss_pause = False
+#    $ _dismiss_pause = False
     scene black_screen
     with Dissolve(2)
-    $ _dismiss_pause = True
+#    $ _dismiss_pause = True
     call textonblack_pause("The End of EP2 V0.1\nYou could support me on Patreon if you like the game :)") from _call_textonblack_pause
-    $ _dismiss_pause = False
+#    $ _dismiss_pause = False
     scene black_screen
     with Dissolve(1)
-    $ _dismiss_pause = True
+#    $ _dismiss_pause = True
     $ renpy.full_restart(transition=Fade(1.0, 1.0, 1.0))
     return
 
