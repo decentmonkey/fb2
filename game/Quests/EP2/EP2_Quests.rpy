@@ -238,7 +238,7 @@ label monica_charity_event1:
     $ add_hook("HotelStaff", "monica_charity_event_hotelstaff_talk1", scene="rich_hotel_event_hall")
     $ move_object("Melanie", "rich_hotel_event_scene")
     $ move_object("Biff", "rich_hotel_event_scene")
-    $ map_enabled = False
+#    $ map_enabled = False
     call monica_rich_hotel_event_drive() from _call_monica_rich_hotel_event_drive
     call monica_rich_hotel_entrance() from _call_monica_rich_hotel_entrance
     call monica_charity_event_dialogue1() from _call_monica_charity_event_dialogue1
@@ -418,7 +418,7 @@ label monica_after_charity_event:
     $ move_object("DickTheLawyer", "empty")
     $ focus_map("Teleport_Dick_Office", "monica_after_charity_event_go_dick")
     $ charityEventCompleted = True
-    $ map_enabled = True
+#    $ map_enabled = True
     call change_scene("street_monica_office", "Fade_long") from _call_change_scene_30
     return
 
