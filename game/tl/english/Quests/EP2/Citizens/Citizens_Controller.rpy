@@ -87,13 +87,13 @@ translate english citizens_dialogue_fbcc248b:
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:93
 translate english citizens_dialogue_fcdf0310:
 
-    # mt "Еще один обитатель трущеб. Таких тут полно."
+    # mt "Еще один обитатель трущоб. Таких тут полно."
     mt "Another slum-dweller. There's plenty of them here."
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:98
 translate english citizens_dialogue_fcdf0310_1:
 
-    # mt "Еще один обитатель трущеб. Таких тут полно."
+    # mt "Еще один обитатель трущоб. Таких тут полно."
     mt "Another slum-dweller. There's plenty of them here."
 
 # TODO: Translation updated at 2018-12-06 21:42
@@ -191,12 +191,12 @@ translate english citizens_dialogue_process_fbcc248b:
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:175
 translate english citizens_dialogue_process_fcdf0310:
 
-    # mt "Еще один обитатель трущеб. Таких тут полно."
+    # mt "Еще один обитатель трущоб. Таких тут полно."
     mt "Another slum-dweller. There's plenty of them here."
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:184
 translate english citizens_dialogue_process_fcdf0310_1:
 
-    # mt "Еще один обитатель трущеб. Таких тут полно."
+    # mt "Еще один обитатель трущоб. Таких тут полно."
     mt "Another slum-dweller. There's plenty of them here."
 

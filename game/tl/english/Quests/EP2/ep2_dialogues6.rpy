@@ -39,7 +39,7 @@ translate english monica_gas_station_thief_dialogue2_f32ac4c3:
 # game/Quests/EP2/ep2_dialogues6.rpy:45
 translate english monica_pissing_basement_f28ea5da:
 
-    # mt "Тулает..."
+    # mt "Туалет..."
     # mt "Я могу здесь писать пока Бетти не видит."
     # "Уверена она бы и это запретила."
     mt "WC..."

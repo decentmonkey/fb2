@@ -393,7 +393,7 @@ translate german strings:
     new "Monica nannte ihn so nicht."
 
     # Quests/EP2/Intro_Questions.rpy:449
-    old "Моника решила уволилить Юлию"
+    old "Моника решила уволить Юлию"
     new "Monica entschied, Julia zu feuern."
 
     # Quests/EP2/Intro_Questions.rpy:453

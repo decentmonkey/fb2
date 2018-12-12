@@ -27,7 +27,7 @@ translate english whores_place_street1_environment_6d0614b0:
 # game/Rooms/Whores/whores_place_street1.rpy:53
 translate english whores_place_street1_environment_7811010f:
 
-    # mt "Какой-то старый ржавык дорожный знак..."
+    # mt "Какой-то старый ржавый дорожный знак..."
     mt "Some old rusty road sign..."
 
 # game/Rooms/Whores/whores_place_street1.rpy:55

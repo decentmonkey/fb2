@@ -145,7 +145,7 @@ translate english monica_charity_event_dialogue2_f6618f22:
     # "Но женская красота сама по себе является ценностью!"
     # "Она неподвластна моде и времени!"
     # "В любые времена женские линии ценились выше любых других ценностей этого мира!"
-    # "Это отражено в живописе и поэзии!"
+    # "Это отражено в живописи и поэзии!"
     "But, as always, when something old ends, something new begins!"
     "We discovered that everything we did with fashion..."
     "...is opening women's beauty!"
@@ -177,7 +177,7 @@ translate english monica_charity_event_dialogue2_a22a69e0:
 # game/Quests/EP2/ep2_dialogues5.rpy:113
 translate english monica_charity_event_dialogue2_e6f3e7c0:
 
-    # "Многие не верят в то что мы и правда решились на столь серъезный шаг!"
+    # "Многие не верят в то что мы и правда решились на столь серьезный шаг!"
     # "Потому я предоставляю слово лицу Модного Журнала..."
     # "Монике Бакфетт!!!"
     "A lot of people may not believe that we have really decided to take such a massive decision!"
@@ -674,7 +674,7 @@ translate english monica_charity_event_dialogue7_f6995b11:
 translate english monica_charity_event_dialogue8_0f645f5b:
 
     # philip "Добрый вечер, Миссис Бакфетт!"
-    # "Разрешите представиться? Меня зовут Филип."
+    # "Разрешите представиться? Меня зовут Филипп."
     # "Позвольте мне угостить Вас вином?"
     philip "Good evening, Mrs. Buckfett!"
     "May I introduce myself? I'm Philip."
@@ -709,7 +709,7 @@ translate english monica_charity_event_dialogue8_9da23dc8:
 # game/Quests/EP2/ep2_dialogues5.rpy:430
 translate english monica_charity_event_dialogue8_bd91e71f:
 
-    # m "Добрый вечер, Филип!"
+    # m "Добрый вечер, Филипп!"
     # "Хорошо... Я позволю тебе угостить меня."
     # "Куда ты хочешь пригласить такую даму как Я?"
     m "Good evening, Philip."
@@ -733,7 +733,7 @@ translate english monica_charity_event_dialogue8_58c7cea5:
 # game/Quests/EP2/ep2_dialogues5.rpy:444
 translate english monica_charity_event_dialogue8_a9ea2750:
 
-    # m "Итак, Филип..."
+    # m "Итак, Филипп..."
     # "Расскажи о себе..."
     # "Чем ты занимаешься?"
     m "So, Philip..."
@@ -813,7 +813,7 @@ translate english monica_charity_event_dialogue8_7be4f727:
 # game/Quests/EP2/ep2_dialogues5.rpy:486
 translate english monica_charity_event_dialogue8_1736514a:
 
-    # m "И как идут Ваши дела, Филип?"
+    # m "И как идут Ваши дела, Филипп?"
     # "Вы достаточно успешны?"
     m "And how are you doing, Philip?"
     "Are you successful enough?"
@@ -831,7 +831,7 @@ translate english monica_charity_event_dialogue8_558c1fc7:
 
     # mt "Хм... А он богат..."
     # "И, судя по всему, простачок..."
-    # "Мне бы очень непомешало обзавестись таким..."
+    # "Мне бы очень не помешало обзавестись таким..."
     # "В конце концов, у него должен быть хороший дом..."
     # "Он может дать мне много денег..."
     # "И мне будет проще осуществить свою цель..."
@@ -857,7 +857,7 @@ translate english monica_charity_event_dialogue8_2f6a25d8:
 # game/Quests/EP2/ep2_dialogues5.rpy:507
 translate english monica_charity_event_dialogue8_d56fdaaf:
 
-    # m "И на что Вы готовы ради прекрасной женщины, Филип?"
+    # m "И на что Вы готовы ради прекрасной женщины, Филипп?"
     # philip "О, Мэм! Ради прекрасной женщины я готов на все!"
     m "And what are you willing to do for a beautiful woman, Philip?"
     philip "Oh, Ma'am! I would do anything for a beautiful woman!"
@@ -865,7 +865,7 @@ translate english monica_charity_event_dialogue8_d56fdaaf:
 # game/Quests/EP2/ep2_dialogues5.rpy:511
 translate english monica_charity_event_dialogue8_b7353a7f:
 
-    # m "А кто я для Вас, Филип?"
+    # m "А кто я для Вас, Филипп?"
     m "And what am I to you, Philip?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:513
@@ -917,7 +917,7 @@ translate english monica_charity_event_dialogue8_5e461c0a:
 # game/Quests/EP2/ep2_dialogues5.rpy:536
 translate english monica_charity_event_dialogue8_a75aa7bb:
 
-    # m "Филип! Налейте самой прекрасной даме еще вина!"
+    # m "Филипп! Налейте самой прекрасной даме еще вина!"
     m "Philip! Pour the most beautiful lady in the world some more wine!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:539
@@ -977,7 +977,7 @@ translate english monica_charity_event_dialogue8_07254c0c:
     # "Почему-бы и нет?"
     # "Но мне надо сначала сходить забрать деньги у Бифа."
     # "Они мне уже не понадобятся, скорее всего."
-    # "Этот Филип покроет любые мои возможные расходы, но все-же..."
+    # "Этот Филипп покроет любые мои возможные расходы, но все-же..."
     "Dance?"
     "Why not?"
     "But I have to go get the money from Biff first."
@@ -987,7 +987,7 @@ translate english monica_charity_event_dialogue8_07254c0c:
 # game/Quests/EP2/ep2_dialogues5.rpy:568
 translate english monica_charity_event_dialogue8_537ea3f2:
 
-    # m "Филип."
+    # m "Филипп."
     # "Я не уверена насчет танцев и вообще..."
     # "Я отойду и подумаю над твоим предложением..."
     m "Philip."
@@ -1024,7 +1024,7 @@ translate english monica_charity_event_dialogue8_1ee9790b:
 translate english monica_charity_event_dialogue9_b4deadde:
 
     # mt "Мне надо {c}забрать деньги у Бифа{/c}."
-    # "Филип пусть пока будет в неуверенности..."
+    # "Филипп пусть пока будет в неуверенности..."
     mt "I need to {c}get my money from Biff {/c}."
     "Let Philip be in uncertainty..."
 
@@ -1148,7 +1148,7 @@ translate english monica_charity_event_dialogue11_b242174a:
     # mt "Вот урод!"
     # "Он обманул меня!"
     # "Если бы я знала что это вино стоит целую $ 1.000, то я бы не стала его пить!"
-    # "И, кстати, я думала что этот Филип угощает меня!"
+    # "И, кстати, я думала что этот Филипп угощает меня!"
     # "Что за мужчины пошли в наше время?!"
     # "Пусть не удивляются что их можно только использовать!"
     # "Для нормального отношения к себе они совершенно не годятся!"
@@ -1164,7 +1164,7 @@ translate english monica_charity_event_dialogue11_b242174a:
     # "Все складывается так что если я не найду эту $ 1.000, то попаду к Маркусу!!!"
     # "О БОЖЕ!!!"
     # "Где же мне ее взять?!?!"
-    # "Может быть стоит ускорить события с {c}Филипом{/c}?"
+    # "Может быть стоит ускорить события с {c}Филиппом{/c}?"
     # "Или попробовать уговорить {c}Бифа{/c}?"
     mt "That bastard!"
     "He tricked me!"
@@ -1191,7 +1191,7 @@ translate english monica_charity_event_dialogue11_b242174a:
 # game/Quests/EP2/ep2_dialogues5.rpy:675
 translate english monica_charity_event_dialogue12_a89e1fbd:
 
-    # mt "Я думаю проще вытрясти деньги с простачка Филипа, нежели с этого безмозглого наглеца!"
+    # mt "Я думаю проще вытрясти деньги с простачка Филиппа, нежели с этого безмозглого наглеца!"
     mt "I think it is easier to get money out of a simpleton like Philip than that brainless idiot!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:679
@@ -1209,7 +1209,7 @@ translate english monica_charity_event_dialogue14_38d4ceed:
 # game/Quests/EP2/ep2_dialogues5.rpy:688
 translate english monica_charity_event_dialogue14_7d244ead:
 
-    # m "Филип..."
+    # m "Филипп..."
     # "Я подумала... Если честно я не уверена..."
     m "Philip..."
     "I thought... Honestly, I'm not sure..."
@@ -1231,7 +1231,7 @@ translate english monica_charity_event_dialogue14_4f137c3a:
 # game/Quests/EP2/ep2_dialogues5.rpy:723
 translate english monica_charity_event_dialogue14_6a4dc4eb:
 
-    # m "А ты неплохо танцуешь, Филип!"
+    # m "А ты неплохо танцуешь, Филипп!"
     # philip "Я люблю женщин!"
     # "А женщины любят танцевать!"
     # "Потому я обязан это неплохо уметь!"
@@ -1253,7 +1253,7 @@ translate english monica_charity_event_dialogue14_5df1d04c:
 # game/Quests/EP2/ep2_dialogues5.rpy:735
 translate english monica_charity_event_dialogue14_bfb5ee3b:
 
-    # m "Я хочу это проверить, Филип!"
+    # m "Я хочу это проверить, Филипп!"
     # philip "Мэм! Я готов на все!"
     m "I want to test that out, Philip!"
     philip "Ma'am! I'm ready!"
@@ -1283,7 +1283,7 @@ translate english monica_charity_event_dialogue14_9e19d2bb:
 # game/Quests/EP2/ep2_dialogues5.rpy:748
 translate english monica_charity_event_dialogue14_60742940:
 
-    # "Филип, Вы знаете, я не очень разбираюсь в финансах."
+    # "Филипп, Вы знаете, я не очень разбираюсь в финансах."
     # "И для меня будет сложно очень быстро получить наличность."
     "Philip, you know I'm not very good with finance."
     "And it will be difficult for me to get cash that quickly."
@@ -1348,7 +1348,7 @@ translate english monica_charity_event_dialogue14_53fe2997:
 translate english monica_charity_event_dialogue14_3a68e82f:
 
     # "Для меня это совсем небольшие деньги, но Вы знаете..."
-    # "Я занимаюсь предметами искусства, а значит должен скурпулезно оценивать все за что плачу!"
+    # "Я занимаюсь предметами искусства, а значит должен скрупулезно оценивать все за что плачу!"
     # "Вы согласны?"
     "It isn't much money for me, but you know..."
     "I'm an expert when it comes to art and therefore I meticulously evaluate everything I buy!"
@@ -1357,7 +1357,7 @@ translate english monica_charity_event_dialogue14_3a68e82f:
 # game/Quests/EP2/ep2_dialogues5.rpy:779
 translate english monica_charity_event_dialogue14_dc19b0ed:
 
-    # m "Конечно согласна, Филип!"
+    # m "Конечно согласна, Филипп!"
     # "Я считаю что моя улыбка стоит гораздо больше!"
     m "Of course, I do, Philip!"
     "But I believe that my smile is worth much more!"
@@ -1376,7 +1376,7 @@ translate english monica_charity_event_dialogue14_bf3bd7c2:
 translate english monica_charity_event_dialogue14_b7f0cf34:
 
     # m "В смысле ротик?"
-    # "Филип, Вы про что?"
+    # "Филипп, Вы про что?"
     # philip "Для этого я и пришел сюда, Мэм!"
     m "What do you mean my mouth?"
     "Philip, what are you talking about?"
@@ -1386,7 +1386,7 @@ translate english monica_charity_event_dialogue14_b7f0cf34:
 translate english monica_charity_event_dialogue14_88a10b71:
 
     # m "Для чего вы пришли???"
-    # "Филип, я не понимаю Вас!"
+    # "Филипп, я не понимаю Вас!"
     m "What do you mean???"
     "Philip, I don't understand anything you're saying!"
 
@@ -1498,7 +1498,7 @@ translate english monica_charity_event_dialogue15_806c6a0d:
     # "Если я не достану {c}$ 1.000 срочно{/c}, то мне конец!"
     # "У меня есть лишь несколько минут, пока еще не слишком поздний вечер!"
     # "Мне надо подумать, может быть снова {c}поговорить с Бифом{/c}?"
-    # "Или {c}вернуться к Филипу{/c}?"
+    # "Или {c}вернуться к Филиппу{/c}?"
     # "У меня нет выбора! Нет выбора!!!"
     # "(хмык)"
     mt "BASTARD!!!"
@@ -1715,7 +1715,7 @@ translate english monica_charity_event_dialogue17_d37e45c3:
 # game/Quests/EP2/ep2_dialogues5.rpy:999
 translate english monica_charity_event_dialogue17_7948c1f2:
 
-    # m "Хх... Хорошо... Филип..."
+    # m "Хх... Хорошо... Филипп..."
     # "Давай поговорим про это..."
     m "Mm.. OK... Philip..."
     "Let's talk about it..."
@@ -1731,7 +1731,7 @@ translate english monica_charity_event_dialogue17_3a22feb0:
 # game/Quests/EP2/ep2_dialogues5.rpy:1007
 translate english monica_charity_event_dialogue17_b0ed7d85:
 
-    # m "$ 10.000, Филип..."
+    # m "$ 10.000, Филипп..."
     m "$ 10.000, Philip..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1009
@@ -1745,7 +1745,7 @@ translate english monica_charity_event_dialogue17_bf8c27eb:
 # game/Quests/EP2/ep2_dialogues5.rpy:1013
 translate english monica_charity_event_dialogue17_2ca4f79e:
 
-    # m "Мне нужна хотя бы $ 1.000, Филип!"
+    # m "Мне нужна хотя бы $ 1.000, Филипп!"
     m "I need at least I need at least $ 1.000, Philip!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1016
@@ -1889,7 +1889,7 @@ translate english monica_charity_event_dialogue17_e9f5334d:
 # game/Quests/EP2/ep2_dialogues5.rpy:1110
 translate english monica_charity_event_dialogue18_ae0cebfe:
 
-    # m "Куда ты меня привел, Филип?"
+    # m "Куда ты меня привел, Филипп?"
     # "Это мужской туалет!"
     m "Where did you take me, Philip?"
     "The men's room!"
@@ -2955,7 +2955,7 @@ translate english strings:
     new "I'm not going to talk about that!"
 
     # Quests/EP2/ep2_dialogues5.rpy:988
-    old "Хх... Хорошо... Филип..."
+    old "Хх... Хорошо... Филипп..."
     new "Mm.. OK... Philip..."
 
     # Quests/EP2/ep2_dialogues5.rpy:1046
@@ -2975,7 +2975,7 @@ translate english strings:
     new "Open my mouth..."
 
     # Quests/EP2/ep2_dialogues5.rpy:1197
-    old "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!!"
+    old "Делать все что говорит Филипп. У меня нет выхода. Мне нужны эти деньги!!!"
     new "Do what Philip says. I have no choice. I need the money!!!"
 
     # Quests/EP2/ep2_dialogues5.rpy:1278
@@ -2991,7 +2991,7 @@ translate english strings:
     new "I do not know... I have nothing to offer..."
 
     # Quests/EP2/ep2_dialogues5.rpy:1495
-    old "Открыть рот. Я решила делать все что говорит Филип. Если я не достану эти деньги, то мне конец!"
+    old "Открыть рот. Я решила делать все что говорит Филипп. Если я не достану эти деньги, то мне конец!"
     new "Open my mouth. I decided to do everything Philip says. If I don't get that money, I'm dead!"
 
     # Quests/EP2/ep2_dialogues5.rpy:1495
@@ -2999,7 +2999,7 @@ translate english strings:
     new "I couldn't possibly do that..."
 
     # Quests/EP2/ep2_dialogues5.rpy:1557
-    old "Делать как сказал Филип..."
+    old "Делать как сказал Филипп..."
     new "Do as Philip said..."
 
     # Quests/EP2/ep2_dialogues5.rpy:1584
@@ -3011,7 +3011,7 @@ translate english strings:
     new "Pretend to swallow..."
 
     # Quests/EP2/ep2_dialogues5.rpy:1602
-    old "Проглотить сперму по настоящему, иначе Филип увидит и я не получу деньги..."
+    old "Проглотить сперму по настоящему, иначе Филипп увидит и я не получу деньги..."
     new "Swallow the cum for real. Philip will check for sure, and I won't get the money..."
 
 # TODO: Translation updated at 2018-12-08 17:34
@@ -3357,7 +3357,7 @@ translate english monica_charity_event_dialogue8a_58c7cea5:
 # game/Quests/EP2/ep2_dialogues5.rpy:609
 translate english monica_charity_event_dialogue8a_a9ea2750:
 
-    # m "Итак, Филип..."
+    # m "Итак, Филипп..."
     # "Расскажи о себе..."
     # "Чем ты занимаешься?"
     m "So, Philip..."
@@ -3445,7 +3445,7 @@ translate english monica_charity_event_dialogue8a_395d7b89:
 # game/Quests/EP2/ep2_dialogues5.rpy:659
 translate english monica_charity_event_dialogue8a_1736514a:
 
-    # m "И как идут Ваши дела, Филип?"
+    # m "И как идут Ваши дела, Филипп?"
     # "Вы достаточно успешны?"
     m "And how are you doing, Philip?"
     "Are you successful enough?"
@@ -3463,7 +3463,7 @@ translate english monica_charity_event_dialogue8a_558c1fc7:
 
     # mt "Хм... А он богат..."
     # "И, судя по всему, простачок..."
-    # "Мне бы очень непомешало обзавестись таким..."
+    # "Мне бы очень не помешало обзавестись таким..."
     # "В конце концов, у него должен быть хороший дом..."
     # "Он может дать мне много денег..."
     # "И мне будет проще осуществить свою цель..."
@@ -3489,7 +3489,7 @@ translate english monica_charity_event_dialogue8a_2f6a25d8:
 # game/Quests/EP2/ep2_dialogues5.rpy:683
 translate english monica_charity_event_dialogue8a_d56fdaaf:
 
-    # m "И на что Вы готовы ради прекрасной женщины, Филип?"
+    # m "И на что Вы готовы ради прекрасной женщины, Филипп?"
     # philip "О, Мэм! Ради прекрасной женщины я готов на все!"
     m "And what are you willing to do for a beautiful woman, Philip?"
     philip "Oh, Ma'am! I would do anything for a beautiful woman!"
@@ -3497,7 +3497,7 @@ translate english monica_charity_event_dialogue8a_d56fdaaf:
 # game/Quests/EP2/ep2_dialogues5.rpy:688
 translate english monica_charity_event_dialogue8a_b7353a7f:
 
-    # m "А кто я для Вас, Филип?"
+    # m "А кто я для Вас, Филипп?"
     m "And what am I to you, Philip?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:690
@@ -3549,7 +3549,7 @@ translate english monica_charity_event_dialogue8a_5e461c0a:
 # game/Quests/EP2/ep2_dialogues5.rpy:716
 translate english monica_charity_event_dialogue8a_a75aa7bb:
 
-    # m "Филип! Налейте самой прекрасной даме еще вина!"
+    # m "Филипп! Налейте самой прекрасной даме еще вина!"
     m "Philip! Pour the most beautiful lady in the world some more wine!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:721
@@ -3609,7 +3609,7 @@ translate english monica_charity_event_dialogue8a_07254c0c:
     # "Почему-бы и нет?"
     # "Но мне надо сначала сходить забрать деньги у Бифа."
     # "Они мне уже не понадобятся, скорее всего."
-    # "Этот Филип покроет любые мои возможные расходы, но все-же..."
+    # "Этот Филипп покроет любые мои возможные расходы, но все-же..."
     "Dance?"
     "Why not?"
     "But I have to go get the money from Biff first."
@@ -3619,7 +3619,7 @@ translate english monica_charity_event_dialogue8a_07254c0c:
 # game/Quests/EP2/ep2_dialogues5.rpy:757
 translate english monica_charity_event_dialogue8a_537ea3f2:
 
-    # m "Филип."
+    # m "Филипп."
     # "Я не уверена насчет танцев и вообще..."
     # "Я отойду и подумаю над твоим предложением..."
     m "Philip."
@@ -4507,11 +4507,11 @@ translate english strings:
     new "Open mouth... (low corruption) (disabled)"
 
     # Quests/EP2/ep2_dialogues5.rpy:1557
-    old "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (corruption)"
+    old "Делать все что говорит Филипп. У меня нет выхода. Мне нужны эти деньги!!! (corruption)"
     new "Do all that Philip says. I have no choice. I need this money!!! (corruption)"
 
     # Quests/EP2/ep2_dialogues5.rpy:1557
-    old "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (low corruption) (disabled)"
+    old "Делать все что говорит Филипп. У меня нет выхода. Мне нужны эти деньги!!! (low corruption) (disabled)"
     new "Do all that Philip says. I have no choice. I need this money!!! (low corruption) (disabled)"
 
     # Quests/EP2/ep2_dialogues5.rpy:1683
@@ -4601,7 +4601,7 @@ translate english strings:
     new "Open your mouth... (low corruption, required [monicaPhilipBlojwobOpenMouthCorruptionRequired]) (disabled)"
 
     # Quests/EP2/ep2_dialogues5.rpy:1560
-    old "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (low corruption, required [monicaPhilipBlojwobOpenMouth2CorruptionRequired]) (disabled)"
+    old "Делать все что говорит Филипп. У меня нет выхода. Мне нужны эти деньги!!! (low corruption, required [monicaPhilipBlojwobOpenMouth2CorruptionRequired]) (disabled)"
     new "Do what Philip says. I have no choice. I need the money!!! (low corruption, required [monicaPhilipBlojwobOpenMouth2CorruptionRequired]) (disabled)"
 
     # Quests/EP2/ep2_dialogues5.rpy:1774
@@ -4672,7 +4672,7 @@ translate english monica_charity_event_dialogue5_14c24c04:
 translate english monica_charity_event_dialogue9_a784420f:
 
     # mt "Мне надо {c}забрать деньги у Бифа{/c}."
-    # "Филип пусть пока будет в неуверенности..."
+    # "Филипп пусть пока будет в неуверенности..."
     mt "I need to {c}get my money from Biff {/c}."
     "Let Philip be in uncertainty..."
 
@@ -4682,7 +4682,7 @@ translate english monica_charity_event_dialogue11_f34d7b8f:
     # mt "Вот урод!"
     # "Он обманул меня!"
     # "Если бы я знала что это вино стоит целую $ 1.000, то я бы не стала его пить!"
-    # "И, кстати, я думала что этот Филип угощает меня!"
+    # "И, кстати, я думала что этот Филипп угощает меня!"
     # "Что за мужчины пошли в наше время?!"
     # "Пусть не удивляются что их можно только использовать!"
     # "Для нормального отношения к себе они совершенно не годятся!"
@@ -4698,7 +4698,7 @@ translate english monica_charity_event_dialogue11_f34d7b8f:
     # "Все складывается так что если я не найду эту $ 1.000, то попаду к Маркусу!!!"
     # "О БОЖЕ!!!"
     # "Где же мне ее взять?!?!"
-    # "Может быть стоит ускорить события с {c}Филипом{/c}?"
+    # "Может быть стоит ускорить события с {c}Филиппом{/c}?"
     # "Или попробовать уговорить {c}Бифа{/c}?"
     mt "That bastard!"
     "He tricked me!"
@@ -4734,7 +4734,7 @@ translate english monica_charity_event_dialogue15_a4957e79:
     # "Если я не достану {c}$ 1.000 срочно{/c}, то мне конец!"
     # "У меня есть лишь несколько минут, пока еще не слишком поздний вечер!"
     # "Мне надо подумать, может быть снова {c}поговорить с Бифом{/c}?"
-    # "Или {c}вернуться к Филипу{/c}?"
+    # "Или {c}вернуться к Филиппу{/c}?"
     # "У меня нет выбора! Нет выбора!!!"
     # "(хмык)"
     mt "BASTARD!!!"
@@ -4834,7 +4834,7 @@ translate english monica_charity_event_dialogue5_9988e2ce:
 translate english monica_charity_event_dialogue9_ddc80527:
 
     # mt "Мне надо {c}забрать деньги у Бифа{/c}."
-    # "Филип пусть пока будет в неуверенности..."
+    # "Филипп пусть пока будет в неуверенности..."
     mt "I need to {c}get my money from Biff {/c}."
     "Let Philip be in uncertainty..."
 
@@ -4844,7 +4844,7 @@ translate english monica_charity_event_dialogue11_760eff2b:
     # mt "Вот урод!"
     # "Он обманул меня!"
     # "Если бы я знала что это вино стоит целую $ 1.000, то я бы не стала его пить!"
-    # "И, кстати, я думала что этот Филип угощает меня!"
+    # "И, кстати, я думала что этот Филипп угощает меня!"
     # "Что за мужчины пошли в наше время?!"
     # "Пусть не удивляются что их можно только использовать!"
     # "Для нормального отношения к себе они совершенно не годятся!"
@@ -4860,7 +4860,7 @@ translate english monica_charity_event_dialogue11_760eff2b:
     # "Все складывается так что если я не найду эту $ 1.000, то попаду к Маркусу!!!"
     # "О БОЖЕ!!!"
     # "Где же мне ее взять?!?!"
-    # "Может быть стоит ускорить события с {c}Филипом{/c}?"
+    # "Может быть стоит ускорить события с {c}Филиппом{/c}?"
     # "Или попробовать уговорить {c}Бифа{/c}?"
     mt "That bastard!"
     "He tricked me!"
@@ -4896,7 +4896,7 @@ translate english monica_charity_event_dialogue15_cd394090:
     # "Если я не достану {c}$ 1.000 срочно{/c}, то мне конец!"
     # "У меня есть лишь несколько минут, пока еще не слишком поздний вечер!"
     # "Мне надо подумать, может быть снова {c}поговорить с Бифом{/c}?"
-    # "Или {c}вернуться к Филипу{/c}?"
+    # "Или {c}вернуться к Филиппу{/c}?"
     # "У меня нет выбора! Нет выбора!!!"
     # "(хмык)"
     mt "BASTARD!!!"

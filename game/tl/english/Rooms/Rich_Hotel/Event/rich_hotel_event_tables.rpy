@@ -62,7 +62,7 @@ translate english rich_hotel_event_tables_environment_9efc8dbb_1:
 translate english rich_hotel_event_tables_environment_1bfda7ac:
 
     # mt "Может быть попросить помощи у кого-нибудь???"
-    # "Но вряд-ли это поможет. Судя по виду, здесь все такие же мерзавцы как этот Филип!"
+    # "Но вряд-ли это поможет. Судя по виду, здесь все такие же мерзавцы как этот Филипп!"
     mt "Maybe I should ask for help from someone???"
     "But they're unlikely to help. Apparently, they're all scoundrels like that Philip!"
 

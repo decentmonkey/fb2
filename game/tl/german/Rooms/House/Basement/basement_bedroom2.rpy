@@ -6,7 +6,7 @@ translate german basement_bedroom2_environment_4c19961a:
     # mt "Здесь я теперь сплю..."
     # "(хмык)"
     # "Но это временно!!!"
-    # "Это какое-то недоразуменее, которое скоро разрешится!"
+    # "Это какое-то недоразумение, которое скоро разрешится!"
     mt "Ich schlafe hier..."
     "(schnief)"
     "Aber das ist nur übergangsweise!!!"
@@ -17,7 +17,7 @@ translate german basement_bedroom2_environment_f1f099e4:
 
     # mt "Моя кровать..."
     # "Но это временно!!!"
-    # "Это какое-то недоразуменее, которое скоро разрешится!"
+    # "Это какое-то недоразумение, которое скоро разрешится!"
     mt "Mein Bett..."
     "Aber das ist nur übergangsweise!!!"
     "Das ist ales ein Missverständnis, das bald aufgeklärt sein wird!"

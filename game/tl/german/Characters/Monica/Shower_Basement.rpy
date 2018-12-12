@@ -13,7 +13,7 @@ translate german basement_shower_interact_4328e8bf:
 # game/Characters/Monica/Shower_Basement.rpy:19
 translate german basement_toilet_interact_f28ea5da:
 
-    # mt "Тулает..."
+    # mt "Туалет..."
     # mt "Я могу здесь писать пока Бетти не видит."
     # "Уверена она бы и это запретила."
     mt "WC..."

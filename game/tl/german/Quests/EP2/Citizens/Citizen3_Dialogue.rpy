@@ -78,7 +78,7 @@ translate german citizen3_dialogue_e3da6dd1:
 translate german citizen3_dialogue_660704c4:
 
     # m "И у кого хватило ума придумал такой пароль?!"
-    # citizen3 "А ты как думаешь? Конечно Найджел, но не переживый, как только ты произесешь пароль, он сразу все поймет."
+    # citizen3 "А ты как думаешь? Конечно Найджел, но не переживай, как только ты произнесешь пароль, он сразу все поймет."
     # m "Ладно, но если ты меня обманываешь..."
     # citizen3 "Что ты, детка, зачем мне это?"
     m "Welcher Held vom Erdbeerfeld kommt denn auf so ein Passwort?"
@@ -210,7 +210,7 @@ translate german citizen3_dialogue_255d09d2:
 translate german citizen3_dialogue_e82b94d8:
 
     # m "И у кого хватило ума придумал такой пароль?!"
-    # citizen3 "А ты как думаешь? Конечно Найджел, но не переживый, как только ты произесешь пароль, он сразу все поймет."
+    # citizen3 "А ты как думаешь? Конечно Найджел, но не переживай, как только ты произнесешь пароль, он сразу все поймет."
     m "Welcher Held vom Erdbeerfeld kommt denn auf so ein Passwort?"
     citizen3 "Was denkst du? Nigel natürlich, aber keine Sorge, sobald du das Passwort sagst, weiß er Bescheid."
 

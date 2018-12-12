@@ -1154,8 +1154,8 @@ translate german monica_office_cabinet_biff_dialogue3_5f96740f:
 translate german monica_office_cabinet_biff_dialogue3_c20a6521:
 
     # "Но когда Мелани узнала об этом, то она убедила чтобы я оставил ее..."
-    # "Она боится что ты займешь пъедестал вместо нее."
-    # "Она такая каръеристка..."
+    # "Она боится что ты займешь пьедестал вместо нее."
+    # "Она такая карьеристка..."
     # "Ха-ха-ха!"
     "Aber als Melanie gehört hat, dass ich dir den Job geben will, hat sich mich davon überzeugt besser siе zu engagieren..."
     "Sie hat wohl Angst, von dir verdrängt zu werden."

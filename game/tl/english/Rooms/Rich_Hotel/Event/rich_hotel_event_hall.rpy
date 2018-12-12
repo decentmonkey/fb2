@@ -20,7 +20,7 @@ translate english rich_hotel_event_hall_environment_e3973153:
 translate english rich_hotel_event_hall_environment_23ced526:
 
     # mt "Какой-то кавалер..."
-    # "Сотрит на меня весь вечер."
+    # "Смотрит на меня весь вечер."
     # "Мило..."
     mt "Some admirer..."
     "Staring at me all night."
@@ -90,7 +90,7 @@ translate english rich_hotel_event_hall_environment_5ed498fe:
 translate english rich_hotel_event_hall_environment_1bfda7ac:
 
     # mt "Может быть попросить помощи у кого-нибудь???"
-    # "Но вряд-ли это поможет. Судя по виду, здесь все такие же мерзавцы как этот Филип!"
+    # "Но вряд-ли это поможет. Судя по виду, здесь все такие же мерзавцы как этот Филипп!"
     mt "Maybe I should ask for help from someone???"
     "But they're unlikely to help. Apparently, they're all scoundrels like that Philip!"
 

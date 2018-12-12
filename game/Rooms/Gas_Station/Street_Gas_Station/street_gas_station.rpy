@@ -45,5 +45,5 @@ label street_gas_station2_environment:
         mt "Модная запрака?"
     if obj_name == "Station_Building":
         mt "Здание заправки.
-        Здесь должнен быть где-то вход..."
+        Здесь должен быть где-то вход..."
     return

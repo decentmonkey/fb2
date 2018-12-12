@@ -449,7 +449,7 @@ label intro_questions_long:
     img 1974
     with fade
     menu:
-        "Моника решила уволилить Юлию":
+        "Моника решила уволить Юлию":
             $ juliaFirePlanned = True
             call bitch(5, "juliaFirePlanned") from _call_bitch_90
             menu:

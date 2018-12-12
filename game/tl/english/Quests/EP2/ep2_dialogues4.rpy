@@ -1154,8 +1154,8 @@ translate english monica_office_cabinet_biff_dialogue3_5f96740f:
 translate english monica_office_cabinet_biff_dialogue3_c20a6521:
 
     # "Но когда Мелани узнала об этом, то она убедила чтобы я оставил ее..."
-    # "Она боится что ты займешь пъедестал вместо нее."
-    # "Она такая каръеристка..."
+    # "Она боится что ты займешь пьедестал вместо нее."
+    # "Она такая карьеристка..."
     # "Ха-ха-ха!"
     "But when Melanie found out I was thinking of giving you the job, she convinced me to keep her..."
     "She is afraid that you will take the pedestal instead of her."

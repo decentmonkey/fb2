@@ -414,7 +414,7 @@ translate english sleep_scene1_1d87f312:
 translate english sleep_scene1_cefb8771:
 
     # "У меня нет денег, нет документов."
-    # "Любой полцейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
+    # "Любой полицейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
     "I have no money, no documents."
     "Any police officer who stops me {c}can take me to Marcus{/c} and..."
 
@@ -435,7 +435,7 @@ translate english sleep_scene1_fff00551:
 # game/Quests/EP2/ep2_dialogues1.rpy:222
 translate english sleep_scene1_313ea9a5:
 
-    # "Этот Фред... Я убъю его!"
+    # "Этот Фред... Я убью его!"
     # "Но это потом... Моника, давай подумаем про то что делать сейчас..."
     "Fred... That bastard! I'll kill him!"
     "But that is for another time... Let's think about what to do now, Monica..."
@@ -525,7 +525,7 @@ translate english sleep_scene1_56e2d0d8:
 
     # "Животное, фу!"
     # "Маленькое ничтожество..."
-    # "Конечно ему никогда не светит прикоснуться к такой красоте как Я..."
+    # "Конечно, ему никогда не светит прикоснуться к такой красоте как Я..."
     "That animal, ew!"
     "Little jerk..."
     "Of course, he would never get touch a beauty like me..."
@@ -533,7 +533,7 @@ translate english sleep_scene1_56e2d0d8:
 # game/Quests/EP2/ep2_dialogues1.rpy:278
 translate english sleep_scene1_c72691d4:
 
-    # "Но... это можно использовать чтобы достать хоть какую-то пищу..."
+    # "Но... это можно использовать, чтобы достать хоть какую-то пищу..."
     # "Я никогда в жизни не пробовала такой еды, но сейчас выбирать не приходится."
     "But... I could at least use it to get some food..."
     "I've never tasted food like that in my entire life, but I don't have any choice."
@@ -584,7 +584,7 @@ translate english sleep_scene1_1d6410c1:
 translate english sleep_scene1_364bbb8a:
 
     # "Уверена что Дик просто шутил!"
-    # "Не думаю что мне стоит всеръез воспринимать его слова об этом!"
+    # "Не думаю что мне стоит всерьез воспринимать его слова об этом!"
     "I'm sure he was just joking though!"
     "I don't think I should take his words that seriously!"
 
@@ -633,7 +633,7 @@ translate english sleep_scene1_358e3b1d:
     # "Нет, к этому слизняку в таком виде идти точно не стоит."
     # "Этот мешок с дерьмом сделает все чтобы использовать это небольшое недоразумение в своих целях..."
     # "Я его слишком хорошо знаю..."
-    # "Плюс вокруг недо въются эти две проститутки..."
+    # "Плюс вокруг него вьются эти две проститутки..."
     # "Тиффани и Джейн..."
     # "После того как я угрожала уволить их, они могут быть пострашнее той секретарши у Дика..."
     # "Жалкие ничтожества..."
@@ -1095,7 +1095,7 @@ translate english monica_goout1_governess_restrict_853e6c7c:
 # game/Quests/EP2/ep2_dialogues1.rpy:617
 translate english monica_goout1_governess_restrict_0ccdfa5c:
 
-    # betty "Собстенность дома не должна покидать его пределы!"
+    # betty "Собственность дома не должна покидать его пределы!"
     # "Я не понимаю что у тебя за дела за пределами этого дома."
     # "Неужели ты уже закончила все дела?"
     betty "Items belonging to this household should not leave this territory!"
@@ -1169,7 +1169,7 @@ translate english monica_goout1_governess_restrict_853e6c7c_1:
 # game/Quests/EP2/ep2_dialogues1.rpy:653
 translate english monica_goout1_governess_restrict_0ccdfa5c_1:
 
-    # betty "Собстенность дома не должна покидать его пределы!"
+    # betty "Собственность дома не должна покидать его пределы!"
     # "Я не понимаю что у тебя за дела за пределами этого дома."
     # "Неужели ты уже закончила все дела?"
     betty "Items belonging to this household should not leave this territory!"
@@ -1359,7 +1359,7 @@ translate english sleep_scene1_49eb913b:
 # game/Quests/EP2/ep2_dialogues1.rpy:355
 translate english sleep_scene1_e3c24c48:
 
-    # "Конечно ему никогда не светит прикоснуться к такой красоте как Я..."
+    # "Конечно, ему никогда не светит прикоснуться к такой красоте как Я..."
     "Of course, he would never get touch a beauty like me..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:430
@@ -1377,7 +1377,7 @@ translate english sleep_scene1_af2511a3:
 # game/Quests/EP2/ep2_dialogues1.rpy:436
 translate english sleep_scene1_fd0730f3:
 
-    # "Плюс вокруг недо въются эти две проститутки..."
+    # "Плюс вокруг него вьются эти две проститутки..."
     # "Тиффани и Джейн..."
     # "После того как я угрожала уволить их, они могут быть пострашнее той секретарши у Дика..."
     # "Жалкие ничтожества..."
@@ -1415,7 +1415,7 @@ translate english sleep_scene1_local1_1d87f312:
 translate english sleep_scene1_local1_cefb8771:
 
     # "У меня нет денег, нет документов."
-    # "Любой полцейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
+    # "Любой полицейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
     "I have no money, no documents."
     "Any police officer who stops me {c}can take me to Marcus{/c} and..."
 
@@ -1436,7 +1436,7 @@ translate english sleep_scene1_local1_fff00551:
 # game/Quests/EP2/ep2_dialogues1.rpy:286
 translate english sleep_scene1_local1_313ea9a5:
 
-    # "Этот Фред... Я убъю его!"
+    # "Этот Фред... Я убью его!"
     # "Но это потом... Моника, давай подумаем про то что делать сейчас..."
     "Fred... That bastard! I'll kill him!"
     "But that is for another time... Let's think about what to do now, Monica..."
@@ -1536,13 +1536,13 @@ translate english sleep_scene1_local1_49eb913b:
 # game/Quests/EP2/ep2_dialogues1.rpy:357
 translate english sleep_scene1_local1_e3c24c48:
 
-    # "Конечно ему никогда не светит прикоснуться к такой красоте как Я..."
+    # "Конечно, ему никогда не светит прикоснуться к такой красоте как Я..."
     "Of course, he would never get touch a beauty like me..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:360
 translate english sleep_scene1_local1_c72691d4:
 
-    # "Но... это можно использовать чтобы достать хоть какую-то пищу..."
+    # "Но... это можно использовать, чтобы достать хоть какую-то пищу..."
     # "Я никогда в жизни не пробовала такой еды, но сейчас выбирать не приходится."
     "But... I could at least use it to get some food..."
     "I've never tasted food like that in my entire life, but I don't have any choice."
@@ -1593,7 +1593,7 @@ translate english sleep_scene1_local1_1d6410c1:
 translate english sleep_scene1_local1_364bbb8a:
 
     # "Уверена что Дик просто шутил!"
-    # "Не думаю что мне стоит всеръез воспринимать его слова об этом!"
+    # "Не думаю что мне стоит всерьез воспринимать его слова об этом!"
     "I'm sure he was just joking though!"
     "I don't think I should take his words that seriously!"
 
@@ -1650,7 +1650,7 @@ translate english sleep_scene1_local1_af2511a3:
 # game/Quests/EP2/ep2_dialogues1.rpy:438
 translate english sleep_scene1_local1_fd0730f3:
 
-    # "Плюс вокруг недо въются эти две проститутки..."
+    # "Плюс вокруг него вьются эти две проститутки..."
     # "Тиффани и Джейн..."
     # "После того как я угрожала уволить их, они могут быть пострашнее той секретарши у Дика..."
     # "Жалкие ничтожества..."
@@ -1779,7 +1779,7 @@ translate english sleep_scene1_local1_31aad242:
 translate english sleep_scene1_local1_7f60d8f5:
 
     # "У меня нет денег, нет документов."
-    # "Любой полцейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
+    # "Любой полицейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
     "I have no money, no documents."
     "Any police officer who stops me {c}can take me to Marcus{/c} and..."
 
@@ -1893,7 +1893,7 @@ translate english monica_goout1_governess_restrict_3fcccbfa_1:
 translate english sleep_scene1_local1_f5565a19:
 
     # "У меня нет денег, нет документов."
-    # "Любой полцейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
+    # "Любой полицейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
     "I have no money, no documents."
     "Any police officer who stops me {c}can take me to Marcus{/c} and..."
 

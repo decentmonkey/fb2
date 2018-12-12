@@ -25,7 +25,7 @@ default monicaTryToDickBlowjob = False # Моника пыталась сдел�
 default hotelStaffOffended1 = False # Моника ругалась на hotelStaff за то что постер с ее изображением заслонен одеждой
 
 default monicaOfferedBlowjobForBigMoney = False #Моника предложила сделать минет за $30 млн
-default monicaOfferedBlowjobAgain = False #Моника предложила Филипу сделать минет еще раз
+default monicaOfferedBlowjobAgain = False #Моника предложила Филиппу сделать минет еще раз
 
 
 default monicaMadeBlowjobToPhilip = False

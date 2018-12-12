@@ -78,7 +78,7 @@ translate english citizen3_dialogue_e3da6dd1:
 translate english citizen3_dialogue_660704c4:
 
     # m "И у кого хватило ума придумал такой пароль?!"
-    # citizen3 "А ты как думаешь? Конечно Найджел, но не переживый, как только ты произесешь пароль, он сразу все поймет."
+    # citizen3 "А ты как думаешь? Конечно Найджел, но не переживай, как только ты произнесешь пароль, он сразу все поймет."
     # m "Ладно, но если ты меня обманываешь..."
     # citizen3 "Что ты, детка, зачем мне это?"
     m "Who was smart enough to come up with such a password?!"
@@ -210,7 +210,7 @@ translate english citizen3_dialogue_255d09d2:
 translate english citizen3_dialogue_e82b94d8:
 
     # m "И у кого хватило ума придумал такой пароль?!"
-    # citizen3 "А ты как думаешь? Конечно Найджел, но не переживый, как только ты произесешь пароль, он сразу все поймет."
+    # citizen3 "А ты как думаешь? Конечно Найджел, но не переживай, как только ты произнесешь пароль, он сразу все поймет."
     m "Who was smart enough to come up with such a password?!"
     citizen3 "What do you think? Of course it was Nigel, but don't worry, once you say the password, he'll understand."
 

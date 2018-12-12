@@ -12,7 +12,7 @@ translate english citizen1_dialogue_2fea40eb:
     # citizen "Эй! Тетя!"
     # "Ты уже подходила к нам!"
     # "Хватит с нас твоих флаеров!"
-    citizen "Hey! Aunty!"
+    citizen "Hey! Hag!"
     "You've already approached us!"
     "We've had enough of your flyers!"
 
@@ -20,7 +20,7 @@ translate english citizen1_dialogue_2fea40eb:
 translate english citizen1_loop1_7e35fe8e:
 
     # citizen1 "Да, тетя? Что тебе надо?"
-    citizen1 "Yes, aunty? What do you want?"
+    citizen1 "Yes, hag? What do you want?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:17
 translate english citizen1_loop1_05979ea1:
@@ -36,7 +36,7 @@ translate english citizen1_dialogue_2fc5fc65:
     # citizen1 "С такой внешностью тебе бы не флаеры раздавать!"
     # mt "(Вот козел...)"
     # citizen2 "А я возьму, давай свой флаер."
-    citizen1 "Aunty, can't you see we're busy? We're not up to you now."
+    citizen1 "Hag, can't you see we're busy? We're not up to you now."
     citizen2 "Wait, Tom, can't you see? She's working."
     citizen1 "Oh! Well, with an appearance like yours, you should not be delivering flyers, but rather something else!"
     mt "(A goat...)"
@@ -46,7 +46,7 @@ translate english citizen1_dialogue_2fc5fc65:
 translate english citizen1_loop1_5daabde6:
 
     # citizen1 "Тетя! А больше ты ничего мне не можешь дать?"
-    citizen1 "Aunty! Is there anything else you can give me?"
+    citizen1 "Hag! Is there anything else you can give me?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:33
 translate english citizen1_loop1_1bed6e87:
@@ -58,7 +58,7 @@ translate english citizen1_loop1_1bed6e87:
 translate english citizen1_loop1_f46e98e2:
 
     # citizen1 "Нам не нужны твои флаеры, тетя!"
-    citizen1 "We don't need your flyers, aunty!"
+    citizen1 "We don't need your flyers, hag!"
 
 translate english strings:
 
@@ -78,7 +78,7 @@ translate english citizen1_dialogue_c4e0284a:
     # citizen1 "Эй! Тетя!"
     # "Ты уже подходила к нам!"
     # "Хватит с нас твоих флаеров!"
-    citizen1 "Hey! Aunty!"
+    citizen1 "Hey! Hag!"
     "You've already approached us!"
     "We've had enough of your flyers!"
 
@@ -86,7 +86,7 @@ translate english citizen1_dialogue_c4e0284a:
 translate english citizen1_dialogue_c8ca3306:
 
     # citizen1 "Тетя, не видишь, мы заняты, нам сейчас не до тебя."
-    citizen1 "Aunty, can't you see we're busy? We're not up to you now."
+    citizen1 "Hag, can't you see we're busy? We're not up to you now."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:24
 translate english citizen1_dialogue_b3228aed:

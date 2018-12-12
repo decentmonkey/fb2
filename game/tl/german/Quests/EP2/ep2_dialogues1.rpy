@@ -414,7 +414,7 @@ translate german sleep_scene1_1d87f312:
 translate german sleep_scene1_cefb8771:
 
     # "У меня нет денег, нет документов."
-    # "Любой полцейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
+    # "Любой полицейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
     "Ich habe kein Geld, keine Dokumente."
     "Jeder Polizist, der mich kontrolliert, kann mich zu Marcus bringen und..."
 
@@ -435,7 +435,7 @@ translate german sleep_scene1_fff00551:
 # game/Quests/EP2/ep2_dialogues1.rpy:222
 translate german sleep_scene1_313ea9a5:
 
-    # "Этот Фред... Я убъю его!"
+    # "Этот Фред... Я убью его!"
     # "Но это потом... Моника, давай подумаем про то что делать сейчас..."
     "Fred... Ich töte ihn!"
     "Aber darum kümmere ich mich später... Monica, denk dran was Du jetzt zu tun hast..."
@@ -525,7 +525,7 @@ translate german sleep_scene1_56e2d0d8:
 
     # "Животное, фу!"
     # "Маленькое ничтожество..."
-    # "Конечно ему никогда не светит прикоснуться к такой красоте как Я..."
+    # "Конечно, ему никогда не светит прикоснуться к такой красоте как Я..."
     "Welch Tier, wah!"
     "Kleiner Pisser..."
     "Natürlich wird er nie eine Schönheit wie mich berühren..."
@@ -533,7 +533,7 @@ translate german sleep_scene1_56e2d0d8:
 # game/Quests/EP2/ep2_dialogues1.rpy:278
 translate german sleep_scene1_c72691d4:
 
-    # "Но... это можно использовать чтобы достать хоть какую-то пищу..."
+    # "Но... это можно использовать, чтобы достать хоть какую-то пищу..."
     # "Я никогда в жизни не пробовала такой еды, но сейчас выбирать не приходится."
     "Aber... Ich kann ihn ausnutzen, um wenigstens an etwas Essen zu kommen..."
     "Ich habe sowas noch nie vorher gegessen, aber ich kann jetzt nicht wählerisch sein."
@@ -584,7 +584,7 @@ translate german sleep_scene1_1d6410c1:
 translate german sleep_scene1_364bbb8a:
 
     # "Уверена что Дик просто шутил!"
-    # "Не думаю что мне стоит всеръез воспринимать его слова об этом!"
+    # "Не думаю что мне стоит всерьез воспринимать его слова об этом!"
     "Ich bin sicher, Dick hat nur gescherzt!"
     "Ich denke nicht, dass ich seine Worte ernst nehmen sollte!"
 
@@ -633,7 +633,7 @@ translate german sleep_scene1_358e3b1d:
     # "Нет, к этому слизняку в таком виде идти точно не стоит."
     # "Этот мешок с дерьмом сделает все чтобы использовать это небольшое недоразумение в своих целях..."
     # "Я его слишком хорошо знаю..."
-    # "Плюс вокруг недо въются эти две проститутки..."
+    # "Плюс вокруг него вьются эти две проститутки..."
     # "Тиффани и Джейн..."
     # "После того как я угрожала уволить их, они могут быть пострашнее той секретарши у Дика..."
     # "Жалкие ничтожества..."
@@ -1095,7 +1095,7 @@ translate german monica_goout1_governess_restrict_853e6c7c:
 # game/Quests/EP2/ep2_dialogues1.rpy:617
 translate german monica_goout1_governess_restrict_0ccdfa5c:
 
-    # betty "Собстенность дома не должна покидать его пределы!"
+    # betty "Собственность дома не должна покидать его пределы!"
     # "Я не понимаю что у тебя за дела за пределами этого дома."
     # "Неужели ты уже закончила все дела?"
     betty "Hauseigentum darf das Gelände nicht verlassen!"
@@ -1169,7 +1169,7 @@ translate german monica_goout1_governess_restrict_853e6c7c_1:
 # game/Quests/EP2/ep2_dialogues1.rpy:653
 translate german monica_goout1_governess_restrict_0ccdfa5c_1:
 
-    # betty "Собстенность дома не должна покидать его пределы!"
+    # betty "Собственность дома не должна покидать его пределы!"
     # "Я не понимаю что у тебя за дела за пределами этого дома."
     # "Неужели ты уже закончила все дела?"
     betty "Hauseigentum darf das Gelände nicht verlassen!"
@@ -1359,7 +1359,7 @@ translate german sleep_scene1_49eb913b:
 # game/Quests/EP2/ep2_dialogues1.rpy:355
 translate german sleep_scene1_e3c24c48:
 
-    # "Конечно ему никогда не светит прикоснуться к такой красоте как Я..."
+    # "Конечно, ему никогда не светит прикоснуться к такой красоте как Я..."
     "Natürlich wird er nie eine Schönheit wie mich berühren..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:430
@@ -1377,7 +1377,7 @@ translate german sleep_scene1_af2511a3:
 # game/Quests/EP2/ep2_dialogues1.rpy:436
 translate german sleep_scene1_fd0730f3:
 
-    # "Плюс вокруг недо въются эти две проститутки..."
+    # "Плюс вокруг него вьются эти две проститутки..."
     # "Тиффани и Джейн..."
     # "После того как я угрожала уволить их, они могут быть пострашнее той секретарши у Дика..."
     # "Жалкие ничтожества..."
@@ -1416,7 +1416,7 @@ translate german sleep_scene1_local1_1d87f312:
 translate german sleep_scene1_local1_cefb8771:
 
     # "У меня нет денег, нет документов."
-    # "Любой полцейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
+    # "Любой полицейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
     "Ich habe kein Geld, keine Dokumente."
     "Jeder Polizist, der mich kontrolliert, kann mich zu Marcus bringen und..."
 
@@ -1437,7 +1437,7 @@ translate german sleep_scene1_local1_fff00551:
 # game/Quests/EP2/ep2_dialogues1.rpy:286
 translate german sleep_scene1_local1_313ea9a5:
 
-    # "Этот Фред... Я убъю его!"
+    # "Этот Фред... Я убью его!"
     # "Но это потом... Моника, давай подумаем про то что делать сейчас..."
     "Fred... Ich töte ihn!"
     "Aber darum kümmere ich mich später... Monica, denk dran was Du jetzt zu tun hast..."
@@ -1537,13 +1537,13 @@ translate german sleep_scene1_local1_49eb913b:
 # game/Quests/EP2/ep2_dialogues1.rpy:357
 translate german sleep_scene1_local1_e3c24c48:
 
-    # "Конечно ему никогда не светит прикоснуться к такой красоте как Я..."
+    # "Конечно, ему никогда не светит прикоснуться к такой красоте как Я..."
     "Natürlich wird er nie eine Schönheit wie mich berühren..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:360
 translate german sleep_scene1_local1_c72691d4:
 
-    # "Но... это можно использовать чтобы достать хоть какую-то пищу..."
+    # "Но... это можно использовать, чтобы достать хоть какую-то пищу..."
     # "Я никогда в жизни не пробовала такой еды, но сейчас выбирать не приходится."
     "Aber... Ich kann ihn ausnutzen, um wenigstens an etwas Essen zu kommen..."
     "Ich habe sowas noch nie vorher gegessen, aber ich kann jetzt nicht wählerisch sein."
@@ -1594,7 +1594,7 @@ translate german sleep_scene1_local1_1d6410c1:
 translate german sleep_scene1_local1_364bbb8a:
 
     # "Уверена что Дик просто шутил!"
-    # "Не думаю что мне стоит всеръез воспринимать его слова об этом!"
+    # "Не думаю что мне стоит всерьез воспринимать его слова об этом!"
     "Ich bin sicher, Dick hat nur gescherzt!"
     "Ich denke nicht, dass ich seine Worte ernst nehmen sollte!"
 
@@ -1651,7 +1651,7 @@ translate german sleep_scene1_local1_af2511a3:
 # game/Quests/EP2/ep2_dialogues1.rpy:438
 translate german sleep_scene1_local1_fd0730f3:
 
-    # "Плюс вокруг недо въются эти две проститутки..."
+    # "Плюс вокруг него вьются эти две проститутки..."
     # "Тиффани и Джейн..."
     # "После того как я угрожала уволить их, они могут быть пострашнее той секретарши у Дика..."
     # "Жалкие ничтожества..."
@@ -1780,7 +1780,7 @@ translate german sleep_scene1_local1_31aad242:
 translate german sleep_scene1_local1_7f60d8f5:
 
     # "У меня нет денег, нет документов."
-    # "Любой полцейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
+    # "Любой полицейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
     "Ich habe kein Geld, keine Dokumente."
     "Jeder Polizist, der mich kontrolliert, kann mich zu Marcus bringen und..."
 
@@ -1894,7 +1894,7 @@ translate german monica_goout1_governess_restrict_3fcccbfa_1:
 translate german sleep_scene1_local1_f5565a19:
 
     # "У меня нет денег, нет документов."
-    # "Любой полцейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
+    # "Любой полицейский, который меня остановит, {c}может забрать меня к Маркусу{/c} и..."
     "Ich habe kein Geld, keine Dokumente."
     "Jeder Polizist, der mich kontrolliert, kann mich zu Marcus bringen und..."
 

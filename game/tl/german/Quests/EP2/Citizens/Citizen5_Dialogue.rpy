@@ -27,7 +27,7 @@ translate german citizen5_loop1_05979ea1:
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:19
 translate german citizen5_dialogue_60833fb7:
 
-    # citizen5 "Да, да, конено...Я взять этот флаер... Но ты мне должна. Акира сан никогда не делает ничего просто так."
+    # citizen5 "Да, да, конечно...Я взять этот флаер... Но ты мне должна. Акира сан никогда не делает ничего просто так."
     # mt "О чем это он?"
     citizen5 "Ja, ja... Ich nehme den Flyer... Du schuldest mir was. Akira-San macht nichts umsonst."
     mt "Bitte was?"

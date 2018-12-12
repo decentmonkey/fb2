@@ -53,7 +53,7 @@ translate english monica_office_secretary_environment_f6f37a04:
 
     # mt "Это моя секретарша."
     # mt "Одна из немногих нормальных женщин, которые знают как держать себя с окружающими."
-    # "Она очень воспитанна и интеллигентна."
+    # "Она очень воспитана и интеллигентна."
     # "Я знаю, она сохранит верность мне и поможет вернуть все назад..."
     mt "This is my secretary."
     mt "One of the few normal women who knows how to behave herself with others."

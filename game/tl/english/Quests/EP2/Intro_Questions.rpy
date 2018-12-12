@@ -393,7 +393,7 @@ translate english strings:
     new "Monica didn't call him that."
 
     # Quests/EP2/Intro_Questions.rpy:449
-    old "Моника решила уволилить Юлию"
+    old "Моника решила уволить Юлию"
     new "Monica decided to fire Julia"
 
     # Quests/EP2/Intro_Questions.rpy:453
