@@ -4,6 +4,8 @@ define bettyCleaningProgessRegressAmount = -10 # Насколько убавля
 define bettyTryOutInGovernessClothRegressAmount = -10 # Насколько убавляется прогресс с Бетти если Моника пытается выйти за пределы дома в одежде гувернантки
 
 define bardieCleaningUpskirtTry = 15 #15 #Прогресс с Барди за попытку подсмотреть во время уборки (начальная стадия)
+define bardieCleaning2Upskirt = 15 # Прогресс Барди за просмотр юбки Моники (трусики Юлии)
+
 define bardieCleaningUpskirtTryCorruption = 0 # Увеличение corruption, когда Барди подсматривает под юбку Моники
 define monicaCleaningAddCorruptionPerCleaning = 1 #Увеличение corruption за одну уборку
 
