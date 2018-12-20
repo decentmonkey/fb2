@@ -492,6 +492,17 @@ label ep22_dialogues2_6:
     return
 label ep22_dialogue2_7:
     # Моника закончила тереть пятно
+    # Пикчи того как Моника трет пятно
+    # Общие 7420, 7422, 7423, 7424, 7425, 7426, 7427, 7428, 7429, 7430, 7431
+
+    # Если Governess Pants (Betty 7419), 7421, 7432, 7433, 7434, 7435
+    # Если Governess Pants Betty_1 (Betty 7436) 7437, 7438, 7439
+    # Если Governess Pants Betty_2 (Betty 7440) 7441, 7442, 7443
+    # Если Governess Pants Betty_3 (Betty 7444) 7445, 7446, 7447
+    # Если Governess Pants Betty_4 (Betty 7448) 7449, 7450, 7451
+    # Если Governess Pants Betty_5 (Betty 7452) 7453, 7454, 7455
+
+
     mt "Все! Я устала тереть это пятно!"
     return
 
