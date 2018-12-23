@@ -12,7 +12,7 @@ translate english ralphInteract1_026d6ed0:
     "A henpecked man"
     "Betty trained him well, I'll give her that."
     "Men should be like that."
-    "Women are above them and they need to understand that!"
+    "Women are above them, and they need to understand that!"
 
 # TODO: Translation updated at 2018-12-06 21:42
 

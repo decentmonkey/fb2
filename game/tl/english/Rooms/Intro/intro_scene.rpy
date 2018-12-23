@@ -50,7 +50,7 @@ translate english intro_scene_start_b6fb1663:
     "There are many interactive objects on the screen. You can interact with them in different ways."
     "For example, you can look at them, you can use, talk, etc."
     "Or use them together with some items of equipment."
-    "The action menu is optional, and brought up by clicking the left mouse. The right mouse button will click force."
+    "The action menu is optional and brought up by clicking the left mouse. The right mouse button will click force."
 
 # game/Rooms/Intro/intro_scene.rpy:63
 translate english intro_scene_start_796043ad:

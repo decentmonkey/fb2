@@ -18,7 +18,7 @@ translate english monica_fred_about_dick_dialogue2_f81a58f0:
 translate english monica_fred_about_dick_dialogue2_ded502ac:
 
     # fred "Миссис Бакфетт! Мне сообщили что {c}Мистер Дик просил Вас зайти к нему{/c}!"
-    fred "Mrs. Buckfett! I've been informed that {c}Mr. Dick has asked you to come see him{/c}!"
+    fred "Mrs. Buckfett! I've been informed that {c}Mr. Dick has asked you to come to see him{/c}!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:17
 translate english monica_fred_about_dick_dialogue2_b002ed16:
@@ -140,7 +140,7 @@ translate english monica_dick_secretary_dialogue1_e81b8d80:
 translate english monica_dick_dialogue1_c9ac6675:
 
     # mt "Вот и тюфяк... Надеюсь в этот раз получится лучше..."
-    mt "Door mat... I hope it works out better this time..."
+    mt "Doormat... I hope it works out better this time..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:95
 translate english monica_dick_dialogue1_5b9361e7:
@@ -591,7 +591,7 @@ translate english monica_dick_secretary_dialogue2_b27a5120:
     # "Чтобы купить галстук для Мистера Дика..."
     m "Miss Victoria... I..."
     "I'd like to be friends with you..."
-    "And I'd like to ask if you want come with me..."
+    "And I'd like to ask if you want to come with me..."
     "To buy a tie for Mr. Dick..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:336
@@ -650,7 +650,7 @@ translate english monica_dick_secretary_dialogue2_36c07bd0:
     mt "She's kidding around! That bitch is mocking me!"
     "I already know beforehand that she wouldn't like the color, no matter what I choose!"
     "And if she doesn't come with me, Dick will blame me for not getting along with her!"
-    "That door mat is totally whipped by her!"
+    "That doormat is totally whipped by her!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:364
 translate english monica_dick_secretary_dialogue2_dd4f1d32:
@@ -756,7 +756,7 @@ translate english monica_dick_secretary_dialogue2_b846ade4:
     # "Я боюсь что мне может не хватить вкуса и я бы хотела положиться на Ваш вкус и опыт в этом деле..."
     m "I see that you have very good taste and I would like to ask you to accompany me..."
     "In buying a tie for Mr. Dick."
-    "I'm afraid that my fashion sense may not be good enough, so I would like to rely on your judgement and experience for this matter..."
+    "I'm afraid that my fashion sense may not be good enough so I would like to rely on your judgement and experience for this matter..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:411
 translate english monica_dick_secretary_dialogue2_8e63260f:
@@ -988,7 +988,7 @@ translate english monica_dick_secretary_dialogue1a_e81b8d80:
 translate english monica_dick_dialogue1a_c9ac6675:
 
     # mt "Вот и тюфяк... Надеюсь в этот раз получится лучше..."
-    mt "Door mat... I hope it works out better this time..."
+    mt "Doormat... I hope it works out better this time..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:192
 translate english monica_dick_dialogue1_e612037c:
@@ -1492,7 +1492,7 @@ translate english strings:
 translate english monica_fred_about_dick_dialogue2_c76544ea:
 
     # fred "Миссис Бакфетт! Мне сообщили что {c}Мистер Дик просил Вас зайти к нему{/c}!"
-    fred "Mrs. Buckfett! I've been informed that {c}Mr. Dick has asked you to come see him{/c}!"
+    fred "Mrs. Buckfett! I've been informed that {c}Mr. Dick has asked you to come to see him{/c}!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:391
 translate english monica_dick_dialogue1_local1_def1a561:
@@ -1614,7 +1614,7 @@ translate english monica_dick_office_dialogue2_99f2d903:
 translate english monica_fred_about_dick_dialogue2_8b643a4f:
 
     # fred "Миссис Бакфетт! Мне сообщили что {c}Мистер Дик просил Вас зайти к нему{/c}!"
-    fred "Mrs. Buckfett! I've been informed that {c}Mr. Dick has asked you to come see him{/c}!"
+    fred "Mrs. Buckfett! I've been informed that {c}Mr. Dick has asked you to come to see him{/c}!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:391
 translate english monica_dick_dialogue1_local1_1dcbc90f:

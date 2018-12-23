@@ -20,9 +20,9 @@ init python:
         print "Debug!"
         if debugMode != True:
             return
-        if os.path.isdir("/Users/Denis/Documents/work/browse") == True:
+        if os.path.isdir("/Users//Documents/work/browse") == True:
             str1 = json.dumps(scenes_data)
-            f = open("/Users/Denis/Documents/work/browse/renpy_debug.json","w")
+            f = open("/Users//Documents/work/browse/renpy_debug.json","w")
             f.write(str1)
             f.close()
         return
@@ -77,12 +77,12 @@ label textonblack_long(in_text):
     return
 
 label textonblack_pause(in_text):
-    $ _dismiss_pause = False
+#    $ _dismiss_pause = False
     scene black_screen
     with Dissolve(1)
     show screen textonblack_screen(in_text)
     with Dissolve(1)
-    $ _dismiss_pause = True
+#    $ _dismiss_pause = True
     pause
     scene black_screen
     with Dissolve(1)

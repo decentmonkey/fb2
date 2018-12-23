@@ -342,7 +342,7 @@ translate english gas_station_view6_environment_e6577ba9:
 translate english gas_station_view_cashier_environment_9018d2eb:
 
     # m "А, это та жалкая кассирша?"
-    m "Oh, is that that pathetic cashier?"
+    m "Oh, is that pathetic cashier?"
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:460
 translate english gas_station_view_cashier_environment_bc9771b3:
@@ -372,7 +372,7 @@ translate english gas_station_view_cashier_environment_97c1b73d:
 translate english gas_station_view_cashier_environment_b03a6995:
 
     # m "На этом прилавке молочные продукты и йогурты..."
-    m "There is dairy and yogurt on this counter..."
+    m "There are dairy and yogurt on this counter..."
 
 # game/Rooms/Gas_Station/gas_station_view.rpy:479
 translate english gas_station_view_cashier_environment_f274fc9d:

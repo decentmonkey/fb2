@@ -14,7 +14,7 @@ translate german basement_bedroom1_environment_4c19961a:
     # mt "Здесь я теперь сплю..."
     # "(хмык)"
     # "Но это временно!!!"
-    # "Это какое-то недоразуменее, которое скоро разрешится!"
+    # "Это какое-то недоразумение, которое скоро разрешится!"
     mt "Ich schlafe hier..."
     "(schnief)"
     "Aber das ist nur übergangsweise!!!"
@@ -55,4 +55,18 @@ translate german strings:
     # Rooms/House/Basement/basement_bedroom1.rpy:28
     old "КРОВАТЬ"
     new "BETT"
+
+# TODO: Translation updated at 2018-12-12 15:08
+
+# game/Rooms/House/Basement/basement_bedroom1.rpy:52
+translate german basement_bedroom1_environment_55fca1d7:
+
+    # mt "Здесь я теперь сплю..."
+    # "(хмык)"
+    # "Но это временно!!!"
+    # "Это какое-то недоразумение, которое скоро разрешится!"
+    mt "Ich schlafe hier..."
+    "(schnief)"
+    "Aber das ist nur übergangsweise!!!"
+    "Das ist ales ein Missverständnis, das bald aufgeklärt sein wird!"
 

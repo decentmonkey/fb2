@@ -172,7 +172,7 @@ label citizens_dialogue_process:
         call citizen13_dialogue() from _call_citizen13_dialogue
     if citizenObjName == "Citizen_14":
         if act=="l":
-            mt "Еще один обитатель трущеб. Таких тут полно."
+            mt "Еще один обитатель трущоб. Таких тут полно."
             return
         if kebabWorkInProgress == False:
             call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_12
@@ -181,7 +181,7 @@ label citizens_dialogue_process:
         call citizen14_dialogue() from _call_citizen14_dialogue
     if citizenObjName == "Citizen_15":
         if act=="l":
-            mt "Еще один обитатель трущеб. Таких тут полно."
+            mt "Еще один обитатель трущоб. Таких тут полно."
             return
         if kebabWorkInProgress == False:
             call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_13

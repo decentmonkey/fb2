@@ -44,7 +44,7 @@ label show_scene_now:
 #    config.keymap["hide_windows"] = ["mouseup_3", "mouseup_2", "h"]
 
     if scene_transition != False and gui.scenes_transitions == True:
-        $ _dismiss_pause = False
+#        $ _dismiss_pause = False
         if scene_transition == "Fade" or scene_transition == "Fade_fast":
             if refreshed_scene_name == scene_name and scene_transition != "Fade_fast":
                 scene black_screen at convert_resolution_transform
@@ -58,7 +58,7 @@ label show_scene_now:
             scene black_screen at convert_resolution_transform
             with Dissolve(0.7)
 #            $ renpy.pause(0.7, hard=True)
-        $ _dismiss_pause = True
+#        $ _dismiss_pause = True
 
     $ renpy.scene()
     $ scene_image_file = get_image_filename(parse_str(scene_image), True)
@@ -81,7 +81,7 @@ label show_scene_now:
     $ scene_data = process_character_info_buttons(scene_data) #добавляем кнопки info для персонажей со свойствами
     show screen screen_sprites(scene_data)
     if parse_transition_flag == True:
-        $ _dismiss_pause = False
+#        $ _dismiss_pause = False
         if scene_transition != False and gui.scenes_transitions == True:
             if scene_transition == "Fade":
                 if refreshed_scene_name == scene_name:
@@ -98,7 +98,7 @@ label show_scene_now:
                 with Dissolve(0.7)
             if scene_transition == "Dissolve_10":
                 with Dissolve(1.0)
-        $ _dismiss_pause = True
+#        $ _dismiss_pause = True
     $ scene_transition = False
 
     if refreshed_scene_name != scene_name:

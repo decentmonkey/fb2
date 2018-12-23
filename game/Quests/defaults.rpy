@@ -150,10 +150,10 @@ default lastDayFunMusic = 0
 default notWantToBasement = True
 
 default monicaFiringDecision = False
-default juliaFirePlanned = False # Моника решила уволилить Юлию
+default juliaFirePlanned = False # Моника решила уволить Юлию
 default juliaFireCancelled = False # Моника в итоге пожалела Юлию и не стала увольнять ее
 default janeTiffanyFirePlanned = False # Моника запланировала уволить Тиффани и Джейн
-default fredFirePlanned = False # Моника запланирована уволилить Фреда
+default fredFirePlanned = False # Моника запланирована уволить Фреда
 default fireAmount = 0
 
 default monicaFredWasForcedBlowjob = False # Моника делала миньет Фреду

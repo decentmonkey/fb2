@@ -119,7 +119,7 @@ label monica_charity_event_dialogue1:
 label monica_charity_event_dialogue2:
     #render
     #Моника, Биф, Мелани стоят на сцене и говорят речь
-    $ _dismiss_pause = False
+#    $ _dismiss_pause = False
     img black_screen
     with Dissolve(2.0)
     $ renpy.pause(2.0, hard=True)
@@ -127,7 +127,7 @@ label monica_charity_event_dialogue2:
     img 6679
     with fadelong
     show screen Reporters_Shoots_Screen
-    $ _dismiss_pause = True
+#    $ _dismiss_pause = True
     biff "Господа!"
     "Я рад приветствовать Вас на этом благотворительном вечере!"
 
@@ -163,7 +163,7 @@ label monica_charity_event_dialogue2:
     "Но женская красота сама по себе является ценностью!"
     "Она неподвластна моде и времени!"
     "В любые времена женские линии ценились выше любых других ценностей этого мира!"
-    "Это отражено в живописе и поэзии!"
+    "Это отражено в живописи и поэзии!"
 
     img 6686
     with Dissolve(0.5)
@@ -176,7 +176,7 @@ label monica_charity_event_dialogue2:
     "Наши конкуренты последуют за нами!"
 
     img 6689
-    "Многие не верят в то что мы и правда решились на столь серъезный шаг!"
+    "Многие не верят в то что мы и правда решились на столь серьезный шаг!"
     "Потому я предоставляю слово лицу Модного Журнала..."
     "Монике Бакфетт!!!"
     img 6690
@@ -387,7 +387,7 @@ label monica_charity_event_dialogue2a:
 
 
 label monica_charity_event_dialogue3:
-    #Моника стоит в зале. Также стоит Филип и Hotel Staff. Моника может подойти к вешалке, которая закрывает постер.
+    #Моника стоит в зале. Также стоит Филипп и Hotel Staff. Моника может подойти к вешалке, которая закрывает постер.
     mt "Все!"
     "Я сказала что хотел этот мерзавец Биф!"
     "Надо идти {c}узнать про деньги{/c}!"
@@ -554,12 +554,12 @@ label monica_charity_event_dialogue7:
 
 label monica_charity_event_dialogue8:
     #render
-    #Моника знакомится с Филипом
+    #Моника знакомится с Филиппом
     $ store_music()
     img 6784
     with fade
     philip "Добрый вечер, Миссис Бакфетт!"
-    "Разрешите представиться? Меня зовут Филип."
+    "Разрешите представиться? Меня зовут Филипп."
     "Позвольте мне угостить Вас вином?"
 
     img 6785
@@ -585,7 +585,7 @@ label monica_charity_event_dialogue8:
 
     img 6786
     with fade
-    m "Добрый вечер, Филип!"
+    m "Добрый вечер, Филипп!"
     "Хорошо... Я позволю тебе угостить меня."
     "Куда ты хочешь пригласить такую даму как Я?"
     img 6787
@@ -606,7 +606,7 @@ label monica_charity_event_dialogue8a:
     philip "Мэм! Позвольте я налью Вам вина!"
 
     img 6789
-    m "Итак, Филип..."
+    m "Итак, Филипп..."
     "Расскажи о себе..."
     "Чем ты занимаешься?"
 
@@ -656,7 +656,7 @@ label monica_charity_event_dialogue8a:
 
     img 6798
     with fade
-    m "И как идут Ваши дела, Филип?"
+    m "И как идут Ваши дела, Филипп?"
     "Вы достаточно успешны?"
 
     img 6799
@@ -667,7 +667,7 @@ label monica_charity_event_dialogue8a:
     with fade
     mt "Хм... А он богат..."
     "И, судя по всему, простачок..."
-    "Мне бы очень непомешало обзавестись таким..."
+    "Мне бы очень не помешало обзавестись таким..."
     "В конце концов, у него должен быть хороший дом..."
     "Он может дать мне много денег..."
     "И мне будет проще осуществить свою цель..."
@@ -680,12 +680,12 @@ label monica_charity_event_dialogue8a:
 
     img 6802
     with fade
-    m "И на что Вы готовы ради прекрасной женщины, Филип?"
+    m "И на что Вы готовы ради прекрасной женщины, Филипп?"
     philip "О, Мэм! Ради прекрасной женщины я готов на все!"
 
     img 6803
     with fade
-    m "А кто я для Вас, Филип?"
+    m "А кто я для Вас, Филипп?"
     img 6804
     philip "Мэм! Вы самая прекрасная женщина на свете!"
     "Мое сердце принадлежит Вам!"
@@ -713,7 +713,7 @@ label monica_charity_event_dialogue8a:
 
     img 6808
     with Dissolve(0.5)
-    m "Филип! Налейте самой прекрасной даме еще вина!"
+    m "Филипп! Налейте самой прекрасной даме еще вина!"
 
     img 6809
     with fade
@@ -750,11 +750,11 @@ label monica_charity_event_dialogue8a:
     "Почему-бы и нет?"
     "Но мне надо сначала сходить забрать деньги у Бифа."
     "Они мне уже не понадобятся, скорее всего."
-    "Этот Филип покроет любые мои возможные расходы, но все-же..."
+    "Этот Филипп покроет любые мои возможные расходы, но все-же..."
     music Stealth_Groover
     img 6815
     with fadelong
-    m "Филип."
+    m "Филипп."
     "Я не уверена насчет танцев и вообще..."
     "Я отойду и подумаю над твоим предложением..."
 
@@ -776,9 +776,9 @@ label monica_charity_event_dialogue8a:
     return
 
 label monica_charity_event_dialogue9:
-    #Моника пытается разговаривать с Филипом, но еще не брала деньги у Бифа.
+    #Моника пытается разговаривать с Филиппом, но еще не брала деньги у Бифа.
     mt "Мне надо {c}забрать деньги у Бифа{/c}."
-    "Филип пусть пока будет в неуверенности..."
+    "Филипп пусть пока будет в неуверенности..."
     return False
 
 label monica_charity_event_dialogue10:
@@ -855,7 +855,7 @@ label monica_charity_event_dialogue11:
     mt "Вот урод!"
     "Он обманул меня!"
     "Если бы я знала что это вино стоит целую $ 1.000, то я бы не стала его пить!"
-    "И, кстати, я думала что этот Филип угощает меня!"
+    "И, кстати, я думала что этот Филипп угощает меня!"
     "Что за мужчины пошли в наше время?!"
     "Пусть не удивляются что их можно только использовать!"
     "Для нормального отношения к себе они совершенно не годятся!"
@@ -871,13 +871,13 @@ label monica_charity_event_dialogue11:
     "Все складывается так что если я не найду эту $ 1.000, то попаду к Маркусу!!!"
     "О БОЖЕ!!!"
     "Где же мне ее взять?!?!"
-    "Может быть стоит ускорить события с {c}Филипом{/c}?"
+    "Может быть стоит ускорить события с {c}Филиппом{/c}?"
     "Или попробовать уговорить {c}Бифа{/c}?"
     return
 
 label monica_charity_event_dialogue12:
-    #Моника пытается идти к Бифу до танца с Филипом
-    mt "Я думаю проще вытрясти деньги с простачка Филипа, нежели с этого безмозглого наглеца!"
+    #Моника пытается идти к Бифу до танца с Филиппом
+    mt "Я думаю проще вытрясти деньги с простачка Филиппа, нежели с этого безмозглого наглеца!"
     return False
 
 label monica_charity_event_dialogue12a:
@@ -888,12 +888,12 @@ label monica_charity_event_dialogue14:
 
     music Lobby_Time
     #render
-    #Моника обращается к Филипу с танцем
+    #Моника обращается к Филиппу с танцем
     img 6819
     with fade
     philip "Моника! Вы готовы потанцевать со мной?"
     img 6820
-    m "Филип..."
+    m "Филипп..."
     "Я подумала... Если честно я не уверена..."
     menu:
         "Ну... Хорошо... Давай потанцуем...":
@@ -943,7 +943,7 @@ label monica_charity_event_dialogue14:
     music Last_Kiss_Goodnight
     img 6831
     with fadelong
-    m "А ты неплохо танцуешь, Филип!"
+    m "А ты неплохо танцуешь, Филипп!"
     philip "Я люблю женщин!"
     "А женщины любят танцевать!"
     "Потому я обязан это неплохо уметь!"
@@ -956,7 +956,7 @@ label monica_charity_event_dialogue14:
     philip "Я готов уделить Вам все свое внимание, Мэм!"
 
     img 6833
-    m "Я хочу это проверить, Филип!"
+    m "Я хочу это проверить, Филипп!"
     philip "Мэм! Я готов на все!"
 
     music Hidden_Agenda
@@ -974,7 +974,7 @@ label monica_charity_event_dialogue14:
 
     img 6837
     with Dissolve(0.5)
-    "Филип, Вы знаете, я не очень разбираюсь в финансах."
+    "Филипп, Вы знаете, я не очень разбираюсь в финансах."
     "И для меня будет сложно очень быстро получить наличность."
     img 6838
     with fade
@@ -1011,12 +1011,12 @@ label monica_charity_event_dialogue14:
     img 6846
     with fade
     "Для меня это совсем небольшие деньги, но Вы знаете..."
-    "Я занимаюсь предметами искусства, а значит должен скурпулезно оценивать все за что плачу!"
+    "Я занимаюсь предметами искусства, а значит должен скрупулезно оценивать все за что плачу!"
     "Вы согласны?"
 
     img 6847
     with Dissolve(0.5)
-    m "Конечно согласна, Филип!"
+    m "Конечно согласна, Филипп!"
     "Я считаю что моя улыбка стоит гораздо больше!"
 
     img 6848
@@ -1031,14 +1031,14 @@ label monica_charity_event_dialogue14:
     img 6849
     with hpunch
     m "В смысле ротик?"
-    "Филип, Вы про что?"
+    "Филипп, Вы про что?"
 
     philip "Для этого я и пришел сюда, Мэм!"
 
     img 6850
     with fade
     m "Для чего вы пришли???"
-    "Филип, я не понимаю Вас!"
+    "Филипп, я не понимаю Вас!"
     img 6851
     "Говорите яснее!"
     "И поехали скорее за деньгами!"
@@ -1119,7 +1119,7 @@ label monica_charity_event_dialogue15:
     "Если я не достану {c}$ 1.000 срочно{/c}, то мне конец!"
     "У меня есть лишь несколько минут, пока еще не слишком поздний вечер!"
     "Мне надо подумать, может быть снова {c}поговорить с Бифом{/c}?"
-    "Или {c}вернуться к Филипу{/c}?"
+    "Или {c}вернуться к Филиппу{/c}?"
     "У меня нет выбора! Нет выбора!!!"
     "(хмык)"
     return
@@ -1255,7 +1255,7 @@ label monica_charity_event_dialogue16:
 
 label monica_charity_event_dialogue17:
     #render
-    #Моника обращается к Филипу с танцем повторно
+    #Моника обращается к Филиппу с танцем повторно
     $ store_music()
     music Groove2_85
     img 6864
@@ -1302,12 +1302,12 @@ label monica_charity_event_dialogue17:
             "Если захотите потанцевать еще, то пригласите меня!"
             $ restore_music()
             return False
-        "Хх... Хорошо... Филип...":
+        "Хх... Хорошо... Филипп...":
             pass
 
 
     $ add_corruption(monicaPhilipTalkBlowjob2CorruptionAmount, "monicaPhilipTalkBlowjob2CorruptionAmount")
-    m "Хх... Хорошо... Филип..."
+    m "Хх... Хорошо... Филипп..."
     "Давай поговорим про это..."
 
     img 6871
@@ -1316,13 +1316,13 @@ label monica_charity_event_dialogue17:
     "$ 500 и мой член в Вашем прекрасном ротике!"
 
     img 6872
-    m "$ 10.000, Филип..."
+    m "$ 10.000, Филипп..."
     img 6873
     philip "$ 500, Миссис Бакфетт! Сегодня Ваш ротик не стоит больше..."
     "Это как на Бирже! Я покупаю акции на низкой цене!"
 
     img 6874
-    m "Мне нужна хотя бы $ 1.000, Филип!"
+    m "Мне нужна хотя бы $ 1.000, Филипп!"
 
     img 6875
     philip "$ 500, Миссис Бакфетт!"
@@ -1440,11 +1440,11 @@ label monica_charity_event_dialogue17:
 label monica_charity_event_dialogue18:
     music Groove2_85
     #render
-    #Туалет. Моника. Филип
+    #Туалет. Моника. Филипп
     sound highheels_short_walk
     img 6900
     with fadelong
-    m "Куда ты меня привел, Филип?"
+    m "Куда ты меня привел, Филипп?"
     "Это мужской туалет!"
     img 6901
     philip "Миссис Бакфетт!"
@@ -1512,7 +1512,7 @@ label monica_charity_event_dialogue18:
     with Dissolve(0.5)
     w
 
-    #Филип подносит член ко рту
+    #Филипп подносит член ко рту
     img 6916
     w
     img 6917
@@ -1568,9 +1568,9 @@ label monica_charity_event_dialogue18:
                 "Мы ведь только начали!"
                 #уходим в hall без филиппа и helper'а
                 return False
-            "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (corruption)" if corruption >= monicaPhilipBlojwobOpenMouth2CorruptionRequired:
+            "Делать все что говорит Филипп. У меня нет выхода. Мне нужны эти деньги!!! (corruption)" if corruption >= monicaPhilipBlojwobOpenMouth2CorruptionRequired:
                 pass
-            "Делать все что говорит Филип. У меня нет выхода. Мне нужны эти деньги!!! (low corruption, required [monicaPhilipBlojwobOpenMouth2CorruptionRequired]) (disabled)" if corruption < monicaPhilipBlojwobOpenMouth2CorruptionRequired:
+            "Делать все что говорит Филипп. У меня нет выхода. Мне нужны эти деньги!!! (low corruption, required [monicaPhilipBlojwobOpenMouth2CorruptionRequired]) (disabled)" if corruption < monicaPhilipBlojwobOpenMouth2CorruptionRequired:
                 call low_corruption(monicaPhilipBlojwobOpenMouth2CorruptionRequired) from _call_low_corruption_4
                 jump local3
     img 6923
@@ -1729,12 +1729,12 @@ label monica_charity_event_dialogue18:
     img 6934
     with fade
     w
-    # звук кончания в рот Филипом
+    # звук кончания в рот Филиппом
     sound bulk1
     philip "АААААААРРГГГХХХ!!!"
     img 6935
     w
-    # звук кончания в рот Филипом
+    # звук кончания в рот Филиппом
     img 6936
     with fade
     sound bulk1
@@ -1923,7 +1923,7 @@ label monica_charity_event_dialogue18:
                 img 6975
                 w
                 #Моника открывает рот
-                #звук открывания рта пальцем Филипа
+                #звук открывания рта пальцем Филиппа
                 sound squelch9
                 img 6976
                 with Dissolve(0.5)
@@ -2024,7 +2024,7 @@ label monica_charity_event_dialogue18:
         w
         #выбор делать или нет и повтор
         menu:
-            "Открыть рот. Я решила делать все что говорит Филип. Если я не достану эти деньги, то мне конец!":
+            "Открыть рот. Я решила делать все что говорит Филипп. Если я не достану эти деньги, то мне конец!":
                 pass
             "Я не могу это сделать...":
                 mt "Если я не получу эти деньги, то завтра попаду в руки Маркуса!"
@@ -2190,7 +2190,7 @@ label monica_charity_event_dialogue18:
     philip "Сядь и открой рот!"
     "Я не говорил тебе его закрывать!"
     menu:
-        "Делать как сказал Филип...":
+        "Делать как сказал Филипп...":
             pass
     img 7018
     with fade
@@ -2268,7 +2268,7 @@ label monica_charity_event_dialogue18:
                 "Иначе никакой сделки!"
                 #если не проглотила, то выбор и звук глотания
                 menu:
-                    "Проглотить сперму по настоящему, иначе Филип увидит и я не получу деньги...":
+                    "Проглотить сперму по настоящему, иначе Филипп увидит и я не получу деньги...":
                         pass
                 music stop
                 img 7032
@@ -2526,15 +2526,15 @@ label monica_basement_bedroom_before_sleep1:
     "Я лучше забуду про тот кошмар, который мне пришлось пройти, чтобы достать эти деньги..."
     "Я почти у цели..."
     "Я сплю..."
-    $ _dismiss_pause = False
+#    $ _dismiss_pause = False
     scene black_screen
     with Dissolve(2)
-    $ _dismiss_pause = True
+#    $ _dismiss_pause = True
     call textonblack_pause("The End of EP2 V0.1\nYou could support me on Patreon if you like the game :)") from _call_textonblack_pause
-    $ _dismiss_pause = False
+#    $ _dismiss_pause = False
     scene black_screen
     with Dissolve(1)
-    $ _dismiss_pause = True
+#    $ _dismiss_pause = True
     $ renpy.full_restart(transition=Fade(1.0, 1.0, 1.0))
     return
 

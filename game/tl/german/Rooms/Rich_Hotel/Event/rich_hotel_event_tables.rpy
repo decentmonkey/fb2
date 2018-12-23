@@ -62,7 +62,7 @@ translate german rich_hotel_event_tables_environment_9efc8dbb_1:
 translate german rich_hotel_event_tables_environment_1bfda7ac:
 
     # mt "Может быть попросить помощи у кого-нибудь???"
-    # "Но вряд-ли это поможет. Судя по виду, здесь все такие же мерзавцы как этот Филип!"
+    # "Но вряд-ли это поможет. Судя по виду, здесь все такие же мерзавцы как этот Филипп!"
     mt "Vielleicht sollte ich jemanden um Hilfe bitten???"
     "Aer die Chancen auf Hilfe stehen schlecht. Es sind wohl alles Halunken, so wie Philip!"
 
@@ -79,4 +79,14 @@ translate german rich_hotel_event_tables_environment_15b5c9e6_1:
 
     # mt "Я не собираюсь сидеть за столиком с этим мерзавцем!"
     mt "Ich sitze nicht an einem Tisch mit diesem Scheißkerl!"
+
+# TODO: Translation updated at 2018-12-12 15:08
+
+# game/Rooms/Rich_Hotel/Event/rich_hotel_event_tables.rpy:76
+translate german rich_hotel_event_tables_environment_8698f46e:
+
+    # mt "Может быть попросить помощи у кого-нибудь???"
+    # "Но вряд-ли это поможет. Судя по виду, здесь все такие же мерзавцы как этот Филипп!"
+    mt "Vielleicht sollte ich jemanden um Hilfe bitten???"
+    "Aer die Chancen auf Hilfe stehen schlecht. Es sind wohl alles Halunken, so wie Philip!"
 

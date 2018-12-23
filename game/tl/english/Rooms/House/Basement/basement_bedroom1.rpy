@@ -14,7 +14,7 @@ translate english basement_bedroom1_environment_4c19961a:
     # mt "Здесь я теперь сплю..."
     # "(хмык)"
     # "Но это временно!!!"
-    # "Это какое-то недоразуменее, которое скоро разрешится!"
+    # "Это какое-то недоразумение, которое скоро разрешится!"
     mt "I sleep here..."
     "(sob)"
     "But it's only temporary!!!"
@@ -55,4 +55,18 @@ translate english strings:
     # Rooms/House/Basement/basement_bedroom1.rpy:28
     old "КРОВАТЬ"
     new "BED"
+
+# TODO: Translation updated at 2018-12-12 15:07
+
+# game/Rooms/House/Basement/basement_bedroom1.rpy:52
+translate english basement_bedroom1_environment_55fca1d7:
+
+    # mt "Здесь я теперь сплю..."
+    # "(хмык)"
+    # "Но это временно!!!"
+    # "Это какое-то недоразумение, которое скоро разрешится!"
+    mt "I sleep here..."
+    "(sob)"
+    "But it's only temporary!!!"
+    "This is some kind of misunderstanding that will soon be resolved!"
 

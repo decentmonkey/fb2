@@ -1154,8 +1154,8 @@ translate german monica_office_cabinet_biff_dialogue3_5f96740f:
 translate german monica_office_cabinet_biff_dialogue3_c20a6521:
 
     # "Но когда Мелани узнала об этом, то она убедила чтобы я оставил ее..."
-    # "Она боится что ты займешь пъедестал вместо нее."
-    # "Она такая каръеристка..."
+    # "Она боится что ты займешь пьедестал вместо нее."
+    # "Она такая карьеристка..."
     # "Ха-ха-ха!"
     "Aber als Melanie gehört hat, dass ich dir den Job geben will, hat sich mich davon überzeugt besser siе zu engagieren..."
     "Sie hat wohl Angst, von dir verdrängt zu werden."
@@ -3721,4 +3721,18 @@ translate german monica_office_photostudio_alex_dialogue2_b62e51c4:
 
     # mt "Итак, {c}надо вернуться к Бифу{/c}..."
     mt "Also, ich muss {c}zurück zu Biff{/c}..."
+
+# TODO: Translation updated at 2018-12-12 15:08
+
+# game/Quests/EP2/ep2_dialogues4.rpy:844
+translate german monica_office_cabinet_biff_dialogue3_445e6d51:
+
+    # "Но когда Мелани узнала об этом, то она убедила чтобы я оставил ее..."
+    # "Она боится что ты займешь пьедестал вместо нее."
+    # "Она такая карьеристка..."
+    # "Ха-ха-ха!"
+    "Aber als Melanie gehört hat, dass ich dir den Job geben will, hat sich mich davon überzeugt besser siе zu engagieren..."
+    "Sie hat wohl Angst, von dir verdrängt zu werden."
+    "Sie ist wirklich ehrgeizig..."
+    "Ha Ha Ha!"
 

@@ -178,7 +178,7 @@ translate english monica_office_secretary_dialogue1_5ea032a2:
     # "И любых сотрудников, кто хоть как-то сотрудничал с ним во время моего отсутствия!"
     # m "А сейчас, покажи мне где он сидит???"
     # "Этот негодяй!"
-    "But I promise you that soon I will come and kick out everyone of them!"
+    "But I promise you that soon I will come and kick out every one of them!"
     "And that scoundrel who dared to take my place while I was gone!" 
     "And all employees who even showed the slightest cooperation with him during my absence!"
     m "Now, can you show me where he is???"
@@ -332,7 +332,7 @@ translate english monica_office_photostudio_alex_dialogue1_10e2e55a:
     # alex_photograph "Миссис Бакфетт! Вы теперь будете у нас моделью?"
     # "У меня много идей по поводу композиций с Вашим прекрасным видом!"
     alex_photograph "Mrs. Buckfett! Will you be one of our models now?"
-    "I have a lot of ideas about compositions with your beautiful look!"
+    "I have a lot of ideas about compositions with your beauty look!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:176
 translate english monica_office_photostudio_alex_dialogue1_25ef66e9:
@@ -1154,8 +1154,8 @@ translate english monica_office_cabinet_biff_dialogue3_5f96740f:
 translate english monica_office_cabinet_biff_dialogue3_c20a6521:
 
     # "Но когда Мелани узнала об этом, то она убедила чтобы я оставил ее..."
-    # "Она боится что ты займешь пъедестал вместо нее."
-    # "Она такая каръеристка..."
+    # "Она боится что ты займешь пьедестал вместо нее."
+    # "Она такая карьеристка..."
     # "Ха-ха-ха!"
     "But when Melanie found out I was thinking of giving you the job, she convinced me to keep her..."
     "She is afraid that you will take the pedestal instead of her."
@@ -1174,7 +1174,7 @@ translate english monica_office_cabinet_biff_dialogue3_819419d8:
     # biff "Ха-ха-ха!"
     # "Конечно лучше! Ведь ты похожа на Монику Бакфетт!"
     biff "Ha ha ha!"
-    "Of course you're better! Because you look exactly like Monica Buckfett!"
+    "Of course, you're better! Because you look exactly like Monica Buckfett!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:665
 translate english monica_office_cabinet_biff_dialogue3_7752b0b1:
@@ -1201,7 +1201,7 @@ translate english monica_office_cabinet_biff_dialogue3_88eda3a9:
     # "И я бы не хотел чтобы это случилось очень скоро."
     biff "Hmm..."
     "Maybe you're right..."
-    "At least until the press get wind of the fact that Buckfett is in jail."
+    "At least until the press gets wind of the fact that Buckfett is in jail."
     "And I wouldn't like that to happen very soon."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:676
@@ -1719,7 +1719,7 @@ translate english monica_office_photostudio_alex_dialogue2_cc79f217:
     # "К сожалению, Мистер Биф сказал одеть то платье, в котором Вы снимались в прошлый раз!"
     # "Но я бы попросил Вас сначала сделать несколько кадров в этом наряде!"
     # "Он Вам очень идет, у Вас потрясающий вкус!"
-    alex_photograph "Acutally, that would be a great idea!"
+    alex_photograph "Actually, that would be a great idea!"
     "But unfortunately, Mr. Biff asked you to wear the dress you wore last time!"
     "I'd like to take a few shots of you in this outfit first, though!"
     "It suits you very well, you have an amazing taste!"
@@ -2060,7 +2060,7 @@ translate english monica_office_photostudio_alex_dialogue2_1fdc7cc4:
     "I like this dress, I'll keep it."
     alex_photograph "But, Ma'am..."
     "The dress, the jewelry..."
-    "They're all things that belongs to the studio.."
+    "They're all things that belong to the studio..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1294
 translate english monica_office_photostudio_alex_dialogue2_b37e2637:
@@ -2274,7 +2274,7 @@ translate english monica_office_cabinet_biff_dialogue5_2a2613c1:
 translate english monica_office_cabinet_biff_dialogue5_83e8051b:
 
     # "Без них ты не похожа на Монику Бакфетт и только поэтому я разрешил тебе одеть их!"
-    "Without them, you don't look like Monica Buckfett and that is the only reason I let you wear them!"
+    "Without them, you don't look like Monica Buckfett, and that is the only reason I let you wear them!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1403
 translate english monica_office_cabinet_biff_dialogue5_98fb848b:
@@ -2726,7 +2726,7 @@ translate english monica_office_cabinet_biff_dialogue3_ba6792dd:
     # biff "Ха-ха-ха!"
     # "Конечно лучше! Ведь ты похожа на Монику Бакфетт!"
     biff "Ha ha ha!"
-    "Of course you're better! Because you look exactly like Monica Buckfett!"
+    "Of course, you're better! Because you look exactly like Monica Buckfett!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:840
 translate english monica_office_cabinet_biff_dialogue3_79a5dbbf:
@@ -2737,7 +2737,7 @@ translate english monica_office_cabinet_biff_dialogue3_79a5dbbf:
     # "И я бы не хотел чтобы это случилось очень скоро."
     biff "Hmm..."
     "Maybe you're right..."
-    "At least until the press get wind of the fact that Buckfett is in jail."
+    "At least until the press gets wind of the fact that Buckfett is in jail."
     "And I wouldn't like that to happen very soon."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:853
@@ -3106,7 +3106,7 @@ translate english monica_office_photostudio_alex_dialogue2_local1_1fdc7cc4:
     "I like this dress, I'll keep it."
     alex_photograph "But, Ma'am..."
     "The dress, the jewelry..."
-    "They're all things that belongs to the studio.."
+    "They're all things that belong to the studio..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1607
 translate english monica_office_photostudio_alex_dialogue2_local1_b37e2637:
@@ -3721,4 +3721,18 @@ translate english monica_office_photostudio_alex_dialogue2_b62e51c4:
 
     # mt "Итак, {c}надо вернуться к Бифу{/c}..."
     mt "So, {c} I must return to the Biff{/c}..."
+
+# TODO: Translation updated at 2018-12-12 15:07
+
+# game/Quests/EP2/ep2_dialogues4.rpy:844
+translate english monica_office_cabinet_biff_dialogue3_445e6d51:
+
+    # "Но когда Мелани узнала об этом, то она убедила чтобы я оставил ее..."
+    # "Она боится что ты займешь пьедестал вместо нее."
+    # "Она такая карьеристка..."
+    # "Ха-ха-ха!"
+    "But when Melanie found out I was thinking of giving you the job, she convinced me to keep her..."
+    "She is afraid that you will take the pedestal instead of her."
+    "She's such a try-hard..."
+    "Ha ha ha!"
 

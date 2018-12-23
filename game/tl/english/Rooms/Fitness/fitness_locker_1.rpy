@@ -20,7 +20,7 @@ translate english fitness_locker_1_environment_de56c890:
 translate english fitness_locker_1_environment_0b1b40cf:
 
     # mt "Это Ребекка. Они слишком любит деньги и тех кто ими обладает. Но она часто льстит мне, потому я держу ее рядом со мной."
-    mt "It's Rebecca. She is too fond of money and those who possess them. But she often flatters me, so I hold her close to me."
+    mt "It's Rebecca. She is too fond of money and those who possess them. But she often flatters me, so I held her close to me."
 
 # game/Rooms/Fitness/fitness_locker_1.rpy:60
 translate english fitness_locker_1_environment_46f1c2f6:

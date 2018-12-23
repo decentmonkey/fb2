@@ -4,7 +4,7 @@ translate english strings:
 
     # 00_Functions/character_properties.rpy:53
     old "прогресс заморожен"
-    new "Progress frozen"
+    new "Progress is frozen"
 
     # 00_Functions/character_properties.rpy:63
     old "прогресс перешел на следующий уровень!"

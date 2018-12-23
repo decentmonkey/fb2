@@ -6,7 +6,7 @@ translate german basement_bedroom2_environment_4c19961a:
     # mt "Здесь я теперь сплю..."
     # "(хмык)"
     # "Но это временно!!!"
-    # "Это какое-то недоразуменее, которое скоро разрешится!"
+    # "Это какое-то недоразумение, которое скоро разрешится!"
     mt "Ich schlafe hier..."
     "(schnief)"
     "Aber das ist nur übergangsweise!!!"
@@ -17,7 +17,7 @@ translate german basement_bedroom2_environment_f1f099e4:
 
     # mt "Моя кровать..."
     # "Но это временно!!!"
-    # "Это какое-то недоразуменее, которое скоро разрешится!"
+    # "Это какое-то недоразумение, которое скоро разрешится!"
     mt "Mein Bett..."
     "Aber das ist nur übergangsweise!!!"
     "Das ist ales ein Missverständnis, das bald aufgeklärt sein wird!"
@@ -71,4 +71,28 @@ translate german strings:
     # Rooms/House/Basement/basement_bedroom2.rpy:33
     old "ШКАФ"
     new "UMKLEIDE"
+
+# TODO: Translation updated at 2018-12-12 15:08
+
+# game/Rooms/House/Basement/basement_bedroom2.rpy:48
+translate german basement_bedroom2_environment_55fca1d7:
+
+    # mt "Здесь я теперь сплю..."
+    # "(хмык)"
+    # "Но это временно!!!"
+    # "Это какое-то недоразумение, которое скоро разрешится!"
+    mt "Ich schlafe hier..."
+    "(schnief)"
+    "Aber das ist nur übergangsweise!!!"
+    "Das ist ales ein Missverständnis, das bald aufgeklärt sein wird!"
+
+# game/Rooms/House/Basement/basement_bedroom2.rpy:64
+translate german basement_bedroom2_environment_fb695496:
+
+    # mt "Моя кровать..."
+    # "Но это временно!!!"
+    # "Это какое-то недоразумение, которое скоро разрешится!"
+    mt "Mein Bett..."
+    "Aber das ist nur übergangsweise!!!"
+    "Das ist ales ein Missverständnis, das bald aufgeklärt sein wird!"
 

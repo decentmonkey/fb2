@@ -53,12 +53,12 @@ translate english monica_office_secretary_environment_f6f37a04:
 
     # mt "Это моя секретарша."
     # mt "Одна из немногих нормальных женщин, которые знают как держать себя с окружающими."
-    # "Она очень воспитанна и интеллигентна."
+    # "Она очень воспитана и интеллигентна."
     # "Я знаю, она сохранит верность мне и поможет вернуть все назад..."
     mt "This is my secretary."
     mt "One of the few normal women who knows how to behave herself with others."
     "She is very educated and intelligent."
-    "I know she'll stay faithful to me and will help me to get everythings that's mine back..."
+    "I know she'll stay faithful to me and will help me to get everything that's mine back..."
 
 translate english strings:
 
@@ -69,4 +69,18 @@ translate english strings:
     # Rooms/Monica_Office/monica_office_secretary.rpy:35
     old "КАБИНЕТ МОНИКИ"
     new "OFFICE MONICA"
+
+# TODO: Translation updated at 2018-12-12 15:07
+
+# game/Rooms/Monica_Office/monica_office_secretary.rpy:91
+translate english monica_office_secretary_environment_6e6e7512:
+
+    # mt "Это моя секретарша."
+    # mt "Одна из немногих нормальных женщин, которые знают как держать себя с окружающими."
+    # "Она очень воспитана и интеллигентна."
+    # "Я знаю, она сохранит верность мне и поможет вернуть все назад..."
+    mt "This is my secretary."
+    mt "One of the few normal women who knows how to behave herself with others."
+    "She is very educated and intelligent."
+    "I know she'll stay faithful to me and will help me to get everything that's mine back..."
 

@@ -20,7 +20,7 @@ translate german rich_hotel_event_hall_environment_e3973153:
 translate german rich_hotel_event_hall_environment_23ced526:
 
     # mt "Какой-то кавалер..."
-    # "Сотрит на меня весь вечер."
+    # "Смотрит на меня весь вечер."
     # "Мило..."
     mt "Ein Bewunderer..."
     "Starrt mich die ganze Nacht an."
@@ -90,7 +90,7 @@ translate german rich_hotel_event_hall_environment_5ed498fe:
 translate german rich_hotel_event_hall_environment_1bfda7ac:
 
     # mt "Может быть попросить помощи у кого-нибудь???"
-    # "Но вряд-ли это поможет. Судя по виду, здесь все такие же мерзавцы как этот Филип!"
+    # "Но вряд-ли это поможет. Судя по виду, здесь все такие же мерзавцы как этот Филипп!"
     mt "Vielleicht sollte ich jemanden um Hilfe bitten???"
     "Aer die Chancen auf Hilfe stehen schlecht. Es sind wohl alles Halunken, so wie Philip!"
 
@@ -157,4 +157,24 @@ translate german strings:
     # Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:34
     old "ВИП ЗОНА"
     new "VIP AREA"
+
+# TODO: Translation updated at 2018-12-12 15:08
+
+# game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:63
+translate german rich_hotel_event_hall_environment_dbb51f59:
+
+    # mt "Какой-то кавалер..."
+    # "Смотрит на меня весь вечер."
+    # "Мило..."
+    mt "Ein Bewunderer..."
+    "Starrt mich die ganze Nacht an."
+    "Schön..."
+
+# game/Rooms/Rich_Hotel/Event/rich_hotel_event_hall.rpy:105
+translate german rich_hotel_event_hall_environment_8698f46e:
+
+    # mt "Может быть попросить помощи у кого-нибудь???"
+    # "Но вряд-ли это поможет. Судя по виду, здесь все такие же мерзавцы как этот Филипп!"
+    mt "Vielleicht sollte ich jemanden um Hilfe bitten???"
+    "Aer die Chancen auf Hilfe stehen schlecht. Es sind wohl alles Halunken, so wie Philip!"
 

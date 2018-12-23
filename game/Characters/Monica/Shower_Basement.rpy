@@ -16,7 +16,7 @@ label basement_shower_interact:
 
 label basement_toilet_interact:
     if act == "l":
-        mt "Тулает..."
+        mt "Туалет..."
         mt "Я могу здесь писать пока Бетти не видит."
         "Уверена она бы и это запретила."
         return

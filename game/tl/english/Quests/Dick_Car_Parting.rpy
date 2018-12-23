@@ -42,14 +42,14 @@ translate english dick_meeting1_car_parting2_41006220:
     # dick "Ну дорогая."
     # "Я с тобой даже не успел побыть."
     dick "Well, dear."
-    "I haven’t had time to be with you."
+    "I havenТt had time to be with you."
 
 # game/Quests/Dick_Car_Parting.rpy:45
 translate english dick_meeting1_car_parting2_b99aba93:
 
     # m "Нет, Дик!"
     # "Ты уже дважды разочаровал меня!"
-    # "Боюсь что третий раз уже слишком сильно скажется на наших отношениях!"
+    # "Боюсь, что третий раз уже слишком сильно скажется на наших отношениях!"
     # "А ты для меня пока еще полезен."
     m "No, Dick!"
     "You've already disappointed me twice!"
@@ -325,4 +325,18 @@ translate english strings:
     # Quests/Dick_Car_Parting.rpy:152
     old "Дик облажался, но он старался..."
     new "Dick screwed up, but he tried..."
+
+# TODO: Translation updated at 2018-12-12 15:07
+
+# game/Quests/Dick_Car_Parting.rpy:45
+translate english dick_meeting1_car_parting2_28c16d2b:
+
+    # m "Нет, Дик!"
+    # "Ты уже дважды разочаровал меня!"
+    # "Боюсь, что третий раз уже слишком сильно скажется на наших отношениях!"
+    # "А ты для меня пока еще полезен."
+    m "No, Dick!"
+    "You've already disappointed me twice!"
+    "I'm afraid that the third time will have too much of an impact on our relationship!"
+    "And you're still useful for me."
 

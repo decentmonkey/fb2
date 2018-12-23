@@ -48,7 +48,7 @@ label basement_bedroom2_environment:
         mt "Здесь я теперь сплю..."
         "(хмык)"
         "Но это временно!!!"
-        "Это какое-то недоразуменее, которое скоро разрешится!"
+        "Это какое-то недоразумение, которое скоро разрешится!"
     if obj_name == "BasementBed":
         if act == "l":
 #            $ print bettyPantiesCurrentList
@@ -63,7 +63,7 @@ label basement_bedroom2_environment:
 #            return
             mt "Моя кровать..."
             "Но это временно!!!"
-            "Это какое-то недоразуменее, которое скоро разрешится!"
+            "Это какое-то недоразумение, которое скоро разрешится!"
         if act == "h":
             if cloth != "Nude" and cloth != "GovernessPants":
                 mt "Мне надо раздеться сначала"

@@ -85,8 +85,8 @@ translate german basement_monica_hungry_cant_sleep_e08d40f0:
     "So kann ich nicht schlafen!"
     "ICH WILL ESSEN!!!"
     "..."
-    mt "Может быть я смогу что-то найти на заправке?"
-    mt "Или у кого-нибудь занять деньги на еду?"
+    mt "Vielleicht finde ich etwas bei der Tankstelle?"
+    mt "Vielleicht jemanden, von dem ich mir Geld oder Essen leihen kann?"
 
 # TODO: Translation updated at 2018-12-11 23:38
 
@@ -103,8 +103,8 @@ translate german basement_monica_hungry_cant_sleep_677ba52e:
     "So kann ich nicht schlafen!"
     "ICH WILL ESSEN!!!"
     "..."
-    mt "Может быть я смогу что-то найти на заправке?"
-    mt "Или у кого-нибудь занять деньги на еду?"
+    mt "Vielleicht finde ich etwas bei der Tankstelle?"
+    mt "Vielleicht jemanden, von dem ich mir Geld oder Essen leihen kann?"
 
 # TODO: Translation updated at 2018-12-11 23:50
 
@@ -121,6 +121,6 @@ translate german basement_monica_hungry_cant_sleep_c026432e:
     "So kann ich nicht schlafen!"
     "ICH WILL ESSEN!!!"
     "..."
-    mt "Может быть я смогу что-то найти на заправке?"
-    mt "Или у кого-нибудь занять деньги на еду?"
+    mt "Vielleicht finde ich etwas bei der Tankstelle?"
+    mt "Vielleicht jemanden, von dem ich mir Geld oder Essen leihen kann?"
 

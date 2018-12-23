@@ -29,7 +29,7 @@ translate german street_gas_station2_environment_b84fcf54:
 # game/Rooms/Gas_Station/Street_Gas_Station/street_gas_station.rpy:43
 translate german street_gas_station2_environment_bf076d6e:
 
-    # m "Здание заправки. Здесь должнен быть где-то вход..."
+    # m "Здание заправки. Здесь должен быть где-то вход..."
     m "Die Tankstelle. Muss ja einen Eingang irgendwo geben..."
 
 # TODO: Translation updated at 2018-12-06 21:43
@@ -51,6 +51,14 @@ translate german street_gas_station2_environment_0d4144ed:
 # game/Rooms/Gas_Station/Street_Gas_Station/street_gas_station.rpy:43
 translate german street_gas_station2_environment_5fe7e012:
 
-    # mt "Здание заправки. Здесь должнен быть где-то вход..."
+    # mt "Здание заправки. Здесь должен быть где-то вход..."
+    mt "Die Tankstelle. Muss ja einen Eingang irgendwo geben..."
+
+# TODO: Translation updated at 2018-12-12 15:08
+
+# game/Rooms/Gas_Station/Street_Gas_Station/street_gas_station.rpy:47
+translate german street_gas_station2_environment_e62a6f7b:
+
+    # mt "Здание заправки. Здесь должен быть где-то вход..."
     mt "Die Tankstelle. Muss ja einen Eingang irgendwo geben..."
 

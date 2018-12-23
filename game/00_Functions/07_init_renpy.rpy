@@ -63,7 +63,7 @@ define bardie = Character(_("Барди"), who_color=c_blue) #Bardie
 define bardie_t = Character(_("Барди"), who_color=c_blue, what_color=c_blue, what_italic=True) #Bardie
 define gas_boyfriend = Character(_("Бойфренд"), who_color=c_blue) #бойфренд девушки с заправки
 define hotel_staff = Character(_("Сотрудник Отеля"), who_color=c_blue) #сотрудник отеля
-define philip = Character(_("Филип"), who_color=c_blue) #Philip
+define philip = Character(_("Филипп"), who_color=c_blue) #Philip
 define empty_name = Character("", who_color=c_blue) #empty name
 
 define reporter1 = Character(_("Репортер 1"), who_color=c_blue) #Reporter1

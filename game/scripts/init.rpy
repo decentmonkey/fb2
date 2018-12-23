@@ -29,10 +29,10 @@ define monicaPhilipTalkBlowjobCorruptionAmount = 0 # Кол-во corruption, к�
 define monicaPhilipTalkBlowjob2CorruptionAmount = 0 # Кол-во corruption, которые добавляются если Моника согласилась говорить про blowjob во время танца
 define monicaPhilipTalkBlowjob3CorruptionAmount = 10 # Кол-во corruption, которые добавляются если Моника согласилась сделать blowjob
 
-define monicaPhilipBlojwobKneesCorruptionRequired = 55 # Кол-во corruption, которые необходимы, чтобы Моника села на колени перед Филипом
-define monicaPhilipBlojwobOpenMouthCorruptionRequired = 57 # Кол-во corruption, которые необходимы, чтобы Моника открыла рот перед членом Филипа
+define monicaPhilipBlojwobKneesCorruptionRequired = 55 # Кол-во corruption, которые необходимы, чтобы Моника села на колени перед Филиппом
+define monicaPhilipBlojwobOpenMouthCorruptionRequired = 57 # Кол-во corruption, которые необходимы, чтобы Моника открыла рот перед членом Филиппа
 define monicaPhilipBlojwobOpenMouth2CorruptionRequired = 59 # Кол-во corruption, которые необходимы, чтобы Моника открыла рот еще больше
-define monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired = 70 # Кол-во corruption, которые необходимы, чтобы Моника предложила Филипу сделать минет еще раз
+define monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired = 70 # Кол-во corruption, которые необходимы, чтобы Моника предложила Филиппу сделать минет еще раз
 define monicaPhilipBlojwobOpenMouthAgainCorruptionRequired = 80 # Кол-во corruption, которые необходимы, чтобы Моника снова открыла рот для нового мужчины
 define monicaPhilipBlojwobTakeSpermCorruptionRequired = 80 # Кол-во corruption, которые необходимы, чтобы Моника сама проглотила сперму
 

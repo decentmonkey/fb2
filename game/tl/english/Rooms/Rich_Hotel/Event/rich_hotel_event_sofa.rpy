@@ -79,7 +79,7 @@ translate english rich_hotel_event_sofa_environment_715a7d25:
     # "Я придумаю что-нибудь когда верну все назад!"
     mt "Soon all the fancy TV channels will start showing my performance..."
     "I hope my words aren't too public..."
-    "I will have to take them back later, and explain that everything was not understood correctly."
+    "I will have to take them back later and explain that everything was not understood correctly."
     "I'll figure something out when I get my life back!"
 
 translate english strings:

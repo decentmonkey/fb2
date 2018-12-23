@@ -27,7 +27,7 @@ translate english whores_place_street1_environment_6d0614b0:
 # game/Rooms/Whores/whores_place_street1.rpy:53
 translate english whores_place_street1_environment_7811010f:
 
-    # mt "Какой-то старый ржавык дорожный знак..."
+    # mt "Какой-то старый ржавый дорожный знак..."
     mt "Some old rusty road sign..."
 
 # game/Rooms/Whores/whores_place_street1.rpy:55
@@ -37,4 +37,12 @@ translate english whores_place_street1_environment_0fd49528:
     # "Все это место - сплошная помойка!"
     mt "Trash? Why is it here?"
     "This place is a dump!"
+
+# TODO: Translation updated at 2018-12-12 15:07
+
+# game/Rooms/Whores/whores_place_street1.rpy:61
+translate english whores_place_street1_environment_9e1f4102:
+
+    # mt "Какой-то старый ржавый дорожный знак..."
+    mt "Some old rusty road sign..."
 

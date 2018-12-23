@@ -215,7 +215,7 @@ translate german strings:
     new "Hotelmitarbeiter"
 
     # 00_Functions/07_init_renpy.rpy:65
-    old "Филип"
+    old "Филипп"
     new "Philip"
 
     # 00_Functions/07_init_renpy.rpy:68

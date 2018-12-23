@@ -1,4 +1,4 @@
-define debugMode = True
+define debugMode = False
 
 default gameStage = 0
 default gameSubStage = 0
@@ -223,7 +223,7 @@ label start_game:
 #    $ autorun_to_object("intro_scene", "intro_scene_start")
     music stop
 
-    $ _dismiss_pause = False
+#    $ _dismiss_pause = False
     scene black_screen
     with Dissolve(1)
     call textonblack_long("FASHION BUSINESS") from _call_textonblack_long
@@ -232,7 +232,7 @@ label start_game:
     call textonblack_long("EPISODE 2") from _call_textonblack_long_1
     scene black_screen
     with Dissolve(1)
-    $ _dismiss_pause = True
+#    $ _dismiss_pause = True
     call sleep_scene1() from _call_sleep_scene1
 
     $ episode = 2

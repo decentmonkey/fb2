@@ -39,7 +39,7 @@ translate english monica_gas_station_thief_dialogue2_f32ac4c3:
 # game/Quests/EP2/ep2_dialogues6.rpy:45
 translate english monica_pissing_basement_f28ea5da:
 
-    # mt "Тулает..."
+    # mt "Туалет..."
     # mt "Я могу здесь писать пока Бетти не видит."
     # "Уверена она бы и это запретила."
     mt "WC..."
@@ -70,7 +70,7 @@ translate english monica_pissing_basement_bdef56c9:
     mt "This house is so big, and I have to hide to pee..."
     "But at least I'm here, and not outside..."
     mt "I hope Betty won't notice me doing this..."
-    mt "A girl as beautiful as me, doesn't deserve everything that has happened..."
+    mt "A girl as beautiful as me doesn't deserve everything that has happened..."
 
 # game/Quests/EP2/ep2_dialogues6.rpy:78
 translate english monica_shower_basement_4328e8bf:
