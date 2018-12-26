@@ -33,15 +33,18 @@ label citizen1_dialogue:
                         # на 3 раз будут они давать какие то задания ей
                         imgr Dial_Citizen_1_3
                         citizen1 "Тетя! А больше ты ничего мне не можешь дать?"
-                        label citizen1_loop1:
-                            menu:
-                                "Больше ничего!":
-                                    imgl Dial_Monica_Sandwich_2
-                                    #img Моника злится
-                                    m "Больше ничего!"
-                                    $ kebabWorkHarassmentAmount +=1
-                                "А что бы ты хотел? (disabled)":
-                                    jump citizen1_loop1
+                        menu:
+                            "Больше ничего!":
+                                imgl Dial_Monica_Sandwich_2
+                                #img Моника злится
+                                m "Больше ничего!"
+                                $ kebabWorkHarassmentAmount +=1
+                            "А что бы вы хотели?":
+                                m "А что бы вы хотели?"
+                                citizen1 "А то ты не знаешь, тетя! Конечно тебя!"
+                                citizen2 "Мой брат слишком груб, но в целом он прав."
+                                imgl Dial_Monica_Sandwich_2
+                                m "Что?! Да как вы можете просить такое?"
                     else:
                         imgr Dial_Citizen_1_4
                         citizen1 "Нам не нужны твои флаеры, тетя!"

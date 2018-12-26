@@ -33,7 +33,7 @@ label citizen13_dialogue:
                                     citizen13 "Нууу...С тобой не интересно"
                                     $ kebabWorkMonicaRefusedAmount += 1
                                     return
-                                "На пенис... (disabled)" if corruption <= 30:
+                                "На пенис... (requires 30 corruption)" if corruption <= 30:
                                     jump .loop1
                                 "На пенис..." if corruption > 30:
                                     $ kebabWorkHarassmentAmount +=1

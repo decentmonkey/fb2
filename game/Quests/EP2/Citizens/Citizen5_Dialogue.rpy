@@ -21,15 +21,17 @@ label citizen5_dialogue:
                         mt "О чем это он?"
                         imgr Dial_Citizen_5_3
                         citizen5 "Я думать Вы предлагать место?"
-                        label citizen5_loop1:
-                            menu:
-                                "Я ничего не предлагаю! Просто возьмите флаер!":
-                                    $ kebabWorkHarassmentAmount +=1
-                                    #img Моника злится
-                                    m "Я ничего не предлагаю! Просто возьмите флаер!"
-                                    call reduce_flyers() from _call_reduce_flyers_11
-                                "Место для чего? (disabled)":
-                                    jump citizen5_loop1
+                        call reduce_flyers()
+                        menu:
+                            "Я ничего не предлагаю! Просто возьмите флаер!":
+                                $ kebabWorkHarassmentAmount +=1
+                                #img Моника злится
+                                m "Я ничего не предлагаю! Просто возьмите флаер!"
+                            "Место для чего?":
+                                m "Место для чего?"
+                                citizen5 "Место для развлечения! Я очень любить трогать большие попы!"
+                                m "Что вы такое говорите?"
+                                mt "Лучше пойду отсюда..."
                     else:
                         imgr Dial_Citizen_5_4
                         citizen5 "У Мистера нет времени вашего места!"
