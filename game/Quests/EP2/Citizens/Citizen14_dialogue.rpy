@@ -42,3 +42,13 @@ label citizen14_dialogue:
         "Уйти.":
             pass
     return
+
+label citizen14_dialogue_pilon:
+    imgl Dial_begin35_17
+    imgr Dial_Citizen_14_1
+    m "Привет! Помнишь меня?"
+    imgr Dial_Citizen_14_3
+    citizen14 "Ик! Конечно! Ну признайся уже, что я тебе понравился."
+    mt "Животное... Думаю, не стоит иметь с этим типом ничего общего..."
+    m "Ладно, я пожалуй пойду."
+    return

@@ -41,3 +41,12 @@ label citizen10_dialogue:
         "Уйти.":
             pass
     return
+
+    # диалог доступен только когда моника не работает на раздаче флаеров
+label citizen10_dialogue_pilon:
+    imgl Dial_begin35_17
+    imgr Dial_Citizen_10_3
+    m "Эй, простите..."
+    citizen10 "Не сейчас, я занят!"
+    mt "Что это с ним?"
+    return

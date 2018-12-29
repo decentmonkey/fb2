@@ -66,3 +66,8 @@ label citizen12_dialogue:
         "Уйти.":
             pass
     return
+
+label citizen12_dialogue_pilon:
+    imgl Dial_begin35_22
+    m "Он хотел меня изнасиловать... Ни за что к нему не подойду..."
+    return
