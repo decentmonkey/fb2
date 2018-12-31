@@ -1,3 +1,5 @@
+default fallingPathStarted = False
+
 default citizensAmountDay = 8
 default citizensAmountEvening = 5
 #default citizensAmountDay = 15
