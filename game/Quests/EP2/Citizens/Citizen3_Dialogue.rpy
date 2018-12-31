@@ -124,7 +124,8 @@ label citizen3_dialogue_pilon:
     citizen3 "У меня много дел, но такое я пропустить не могу."
     # уходят к пилону.
     citizen3 "Ну что, тетя..."
-    $ showedAmount = 0
+    $ showedBoobs = False
+    $ showedButt = False
     label .loop3:
     menu:
         "Покажи сиськи.":
@@ -149,7 +150,7 @@ label citizen3_dialogue_pilon:
             m "Ну уж нет."
             call pylonController(2, 3, 1) #(2- камера со спины Моники, чуваки лицом, 3 - эмоция и поза чувака, 1 - Моника стоит спиной скрестив руки)
             citizen3 "Надо же с чего-то начинать..."
-            $ showedAmount += 1
+            $ showedBoobs = True
             jump .loop3
         "Покажи попу.":
             citizen3 "Детка, повернись ко мне спиной. И покажи свою попку."
@@ -162,16 +163,21 @@ label citizen3_dialogue_pilon:
             m "Я не собираюсь раздеваться, только так."
             # img показывает зад
             citizen3 "Детка, ты красотка!"
-            $ showedAmount += 1
+            $ showedButt = True
             jump .loop3
         "Достаточно на сегодня.":
-            citizen3 "Ты сделала мой день, отлично потрудилась."
-            if showedAmount > 1:
-                $ add_money(0.5)
-            else:
-                $ add_money(0.25)
             # дает монике копейку если были показы
-            m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+            if showedBoobs == True and showedButt == True:
+                $ add_money(0.5)
+                citizen3 "Ты сделала мой день, отлично потрудилась."
+                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                return
+                $ add_money(0.25)
+            if showedBoobs == True or showedButt == True:
+                citizen3 "Ты сделала мой день, отлично потрудилась."
+                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                return
             #если не было
             citizen3 "Похоже, я только зря потратил с тобой время..."
+            return
     return
