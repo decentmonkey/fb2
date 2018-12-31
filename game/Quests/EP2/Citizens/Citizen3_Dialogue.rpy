@@ -127,6 +127,7 @@ label citizen3_dialogue_pilon:
     label .loop3:
     menu:
         "Покажи сиськи.":
+            call pylonController(2, 3, 1) #1 - Моника стоит спиной скрестив руки
             citizen3 "Покажи ка свои сиськи!"
             if corruption < 50:
                 mt "Я не могу себе этого позволить!"
@@ -134,6 +135,8 @@ label citizen3_dialogue_pilon:
                 "И, надеюсь, этого не произойдет НИКОГДА!"
                 help "Требуется 50 corruption"
                 jump .loop3
+
+
             m "Я не собираюсь раздеваться, только так."
             # img показывает сиськи
             citizen3 "Детка, нет слов! Теперь сними свою курточку."
