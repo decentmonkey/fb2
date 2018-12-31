@@ -139,7 +139,6 @@ label citizen3_dialogue_pilon:
             call pylonController(1, 1, 2) #(1 - камера со спины чуваков, Моника лицом, 1 - эмоция, 2 - Моника недовольно отвечает, жестикулируя)
             m "Я не собираюсь раздеваться, только так."
             # img показывает сиськи
-            $ boobsImages = [1000, 1001, 1002, 1003, 1004, 1005]
             call showRandomImages(boobsImages, 4)
 
 
