@@ -1,3 +1,5 @@
+default questOffendMonicaFlyersCitizen6ThanksGiven = False
+
 label citizen6_dialogue:
     imgl Dial_Monica_Sandwich_0
     menu:
@@ -12,7 +14,7 @@ label citizen6_dialogue:
             citizen6 "Да, Леди? Что Вы хотели?"
             menu:
                 # этот пункт появляется единождыпосле выполнения события нападения(проверка на переменную диалога 12)
-                "Спасибо, что помог мне..." if questOffendMonicaFlyersCitizen12Completed == True:
+                "Спасибо, что помог мне..." if questOffendMonicaFlyersCitizen12Completed == True and questOffendMonicaFlyersCitizen6ThanksGive == False:
                     if cloth == "Kebab":
                         mt "Надо бы поблагодарить его, но я не хочу делать это одетой в рекламу кебеба..."
                         return
@@ -56,6 +58,7 @@ label citizen6_dialogue:
                     citizen6 "Да, детка, ты великолепна! Ох, у меня кажется встал... Нужно срочно отойти..."
                     citizen6 "Можешь идти, считай, ты мне ничего не должна."
                     # переменная отвечающая за А что бы ты хотел в диалогах с кебабом = 1
+                    $ questOffendMonicaFlyersCitizen6ThanksGiven = True
                     return
                 "Возьмите, пожалуйста, этот флаер...":
                     imgl Dial_Monica_Sandwich_1
