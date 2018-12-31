@@ -1,3 +1,5 @@
+default citizen11TookBottle = False
+
 label citizen11_dialogue:
     imgl Dial_Monica_Sandwich_0
     menu:
@@ -22,8 +24,9 @@ label citizen11_dialogue:
                     citizen11 "Господи, ну конечно..."
                     menu:
                         #этот пункт меню будет появляться если моника найдет к примеру рядом с помойкой или где еще полупустую бутылку. Надо подумать куда ее поставить.
-                        "Вот, возьмите.zzz":
+                        "Вот, возьмите.":
                             m "Вот, возьмите, тут кое что есть."
+                            $ citizen11TookBottle = True
                             imgl Dial_Monica_Gives_Bottle
                             imgr Dial_Citizen_11_drink
                             citizen11 "(Пьет) Ооо, Богиня! Ты меня спасла! Давай выпьем со мной, мне одному грустно."

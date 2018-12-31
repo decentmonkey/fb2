@@ -96,6 +96,7 @@ label citizen6_dialogue_after_offend:
     citizen6 "Можешь идти, считай, ты мне ничего не должна."
     # переменная отвечающая за А что бы ты хотел в диалогах с кебабом = 1
     $ questOffendMonicaFlyersCitizen6ThanksGiven = True
+    $ fallingPathStarted = True
     return
 
 label citizen6_dialogue_pilon:
