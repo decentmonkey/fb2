@@ -1,4 +1,5 @@
 default questOffendMonicaFlyersCitizen12Started = False
+default questOffendMonicaFlyersCitizen12Completed = False
 
 label citizen12_dialogue:
     imgl Dial_Monica_Sandwich_0
@@ -41,6 +42,7 @@ label citizen12_dialogue:
                         m "Что?"
                         citizen6 "Ну ты же сама обещала, что у меня будет все, что я захочу..."
                         $ questOffendMonicaFlyersCitizen12Started = False # и это событие больше не появляется
+                        $ questOffendMonicaFlyersCitizen12Completed = True
                         return
                     if rand(0, citizen12_refuse_probability) > 0:
                         imgr Dial_Citizen_12_2
