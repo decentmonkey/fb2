@@ -1,3 +1,5 @@
+default questOffendMonicaFlyersCitizen12Started = False
+
 label citizen12_dialogue:
     imgl Dial_Monica_Sandwich_0
     menu:
@@ -15,7 +17,7 @@ label citizen12_dialogue:
                     imgl Dial_Monica_Sandwich_1
                     $ citizen12_offered_last_day = day
                     m "Возьмите, пожалуйста, этот флаер..."
-                    if какая то переменная == 0:
+                    if questOffendMonicaFlyersCitizen12Started == True:
                         citizen12 "Конечно, крошка, а ты не хочешь ничего у меня взять?"
                         m "Вы это о чем?"
                         citizen12 "Сейчас, я покажу..."
@@ -38,7 +40,7 @@ label citizen12_dialogue:
                         citizen6 "Ага, подойдешь ко мне, обсудим мою награду."
                         m "Что?"
                         citizen6 "Ну ты же сама обещала, что у меня будет все, что я захочу..."
-                        переменная = 1 и это событие больше не появляется
+                        $ questOffendMonicaFlyersCitizen12Started = False # и это событие больше не появляется
                         return
                     if rand(0, citizen12_refuse_probability) > 0:
                         imgr Dial_Citizen_12_2
