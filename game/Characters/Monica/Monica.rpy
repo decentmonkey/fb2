@@ -32,6 +32,9 @@ default monicaMadeBlowjobToPhilip = False
 default monicaMadeBlowjobToHotelStaff = False
 default monicaSaidBiffSheIsWillBeAGoodChick = False
 
+default monicaVictoriaKissHeels = False
+default monicaVictoriaLickAssAtBegin = False
+
 label monicaEat: #кормим Монику
     $ monicaEatedLastDay = day #кормим Монику
     $ monicaEatedLastDayTime = day_time
