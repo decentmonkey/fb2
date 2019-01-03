@@ -142,9 +142,7 @@ label citizen3_dialogue_pilon:
             m "Я не собираюсь раздеваться, только так."
             # img показывает сиськи
             call showRandomImages(boobsImages, 4)
-
-
-            call pylonController(2, 3, 1) #(2- камера со спины Моники, чуваки лицом, 3 - эмоция и поза чувака, 3 - Моника стоит спиной, показывая грудь в одежде)
+            call pylonController(2, 3, 1)#(2- камера со спины Моники, чуваки лицом, 3 - эмоция и поза чувака, 3 - Моника стоит спиной, показывая грудь в одежде)
             citizen3 "Детка, нет слов! Теперь сними свою курточку."
             call pylonController(1, 1, 2) #(1 - камера со спины чуваков, Моника лицом, 1 - эмоция, 2 - Моника недовольно отвечает, жестикулируя)
             m "Ну уж нет."
@@ -153,6 +151,7 @@ label citizen3_dialogue_pilon:
             $ showedBoobs = True
             jump .loop3
         "Покажи попу.":
+            call pylonController(2, 3, 1)
             citizen3 "Детка, повернись ко мне спиной. И покажи свою попку."
             if corruption < 70:
                 mt "Я не могу себе этого позволить!"
@@ -160,9 +159,14 @@ label citizen3_dialogue_pilon:
                 "И, надеюсь, этого не произойдет НИКОГДА!"
                 help "Требуется 70 corruption"
                 jump .loop3
+            call pylonController(1, 1, 2)
             m "Я не собираюсь раздеваться, только так."
             # img показывает зад
+            call showRandomImages(assImages, 4)
+            call pylonController(2, 3, 1)
             citizen3 "Детка, ты красотка!"
+            call pylonController(1, 1, 2)
+            citizen3 "Какая красота!"
             $ showedButt = True
             jump .loop3
         "Достаточно на сегодня.":

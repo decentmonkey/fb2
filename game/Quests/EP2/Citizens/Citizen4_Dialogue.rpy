@@ -54,25 +54,64 @@ label citizen4_dialogue_pilon:
     citizen4 "Да не вопрос, я понимаю о чем речь. Любой из нашего района тебя поймет с полу слова."
     # уходят к пилону.
     citizen4 "Ну что, давай начнем."
+    $ showedBoobs = False
+    $ showedButt = False
     label .loop4:
     menu:
         "Покажи сиськи.":
+            call pylonController(2, 3, 1)
             citizen4 "Покажи мне свои сиськи!"
+            if corruption < 50:
+                mt "Я не могу себе этого позволить!"
+                "Я еще не настолько опустилась!"
+                "И, надеюсь, этого не произойдет НИКОГДА!"
+                help "Требуется 50 corruption"
+                jump .loop4
+            call pylonController(1, 1, 2)
             m "Я не собираюсь раздеваться, только так."
+            call showRandomImages(boobsImages, 4)
+            call pylonController(2, 3, 1)
             # img показывает сиськи
             citizen4 "Да, очень хорошо, но я видел сиськи и получше!"
+            call pylonController(1, 1, 2)
             mt "Козел!"
+            call pylonController(2, 3, 1)
+            citizen4 "Хотя весьма не плохо."
+            $ showedBoobs = True
             jump .loop4
         "Покажи попу.":
+            call pylonController(2, 3, 1)
             citizen4 "Покажи свой задницу."
+            if corruption < 70:
+                mt "Я не могу себе этого позволить!"
+                "Я еще не настолько опустилась!"
+                "И, надеюсь, этого не произойдет НИКОГДА!"
+                help "Требуется 70 corruption"
+                jump .loop4
+            call pylonController(1, 1, 2)
             m "Я не собираюсь раздеваться, только так."
             # img показывает зад
+            call showRandomImages(assImages, 4)
+            call pylonController(2, 3, 1)
             citizen4 "Красивая задница, но я люблю побольше!"
+            call pylonController(1, 1, 2)
+            citizen4 "Но ее можно увеличить, подумай об этом."
+            $ showedButt = True
             jump .loop4
         "Достаточно на сегодня.":
-            citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству."
-            # дает монике копейку если были показы
-            m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+            if showedBoobs == True and showedButt == True:
+                $ add_money(0.5)
+                citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
+                # дает монике копейку если были показы
+                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                return
+            if showedBoobs == True or showedButt == True:
+                citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
+                # дает монике копейку если были показы
+                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                $ add_money(0.25)
+                return
             #если не было
             citizen4 "Какое то не продуктивное вышло знакомство. Надеюсь, в другой раз будет лучше."
+            return
     return

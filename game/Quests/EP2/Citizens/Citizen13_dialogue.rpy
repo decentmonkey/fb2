@@ -75,24 +75,61 @@ label citizen13_dialogue_pilon:
     citizen13 "А вообще знаешь, раз тебе так нужны деньги, у меня есть идея. Пошли."
      # уходят к пилону.
     citizen13 "Вот мы и пришли. Вечером тут полно народу. А теперь..."
+    $ showedBoobs = False
+    $ showedButt = False
     label .loop13:
     menu:
         "Покажи сиськи.":
+            call pylonController(2, 3, 1)
             citizen13 "Подруга, а что у тебя под футболкой?"
+            if corruption < 50:
+                mt "Я не могу себе этого позволить!"
+                "Я еще не настолько опустилась!"
+                "И, надеюсь, этого не произойдет НИКОГДА!"
+                help "Требуется 50 corruption"
+                jump .loop13
+
+            call pylonController(1, 1, 2)
             m "Я не собираюсь раздеваться, только так."
             # img показывает сиськи
+            call showRandomImages(boobsImages, 4)
+            call pylonController(2, 3, 1)
             citizen13 "Прекрасно, я вижу форму!"
+            call pylonController(1, 1, 2)
+            citizen13 "Не дурно!"
+            call pylonController(2, 3, 1)
+            $ showedBoobs = True
             jump .loop13
         "Покажи попу.":
+            call pylonController(2, 3, 1)
             citizen13 "А что у тебя сзади? Покажи!"
+            if corruption < 70:
+                mt "Я не могу себе этого позволить!"
+                "Я еще не настолько опустилась!"
+                "И, надеюсь, этого не произойдет НИКОГДА!"
+                help "Требуется 70 corruption"
+                jump .loop13
+            call pylonController(1, 1, 2)
             m "Я не собираюсь раздеваться, только так."
+            call showRandomImages(assImages, 4)
+            call pylonController(2, 3, 1)
             # img показывает зад
             citizen13 "Оу, шикарная попка! Уж поверь, в этом я понимаю!"
+            call pylonController(1, 1, 2)
+            $ showedButt = True
             jump .loop13
         "Достаточно на сегодня.":
-            citizen13 "Славно потрудилась, подруга! Вот, держи."
-            # дает монике копейку если были показы
-            m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+            if showedBoobs == True and showedButt == True:
+                $ add_money(0.5)
+                citizen13 "Славно потрудилась, подруга! Вот, держи."
+                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                return
+            if showedBoobs == True or showedButt == True:
+                citizen13 "Славно потрудилась, подруга! Вот, держи."
+                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                $ add_money(0.25)
+                return
             #если не было
             citizen13 "Подруга, в следующий раз не халтурь."
+            return
     return

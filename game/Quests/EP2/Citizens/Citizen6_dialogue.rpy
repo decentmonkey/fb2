@@ -83,16 +83,44 @@ label citizen6_dialogue_after_offend:
     # переход на локацию с пилоном
     citizen6 "Ну вот, я же говтрил, что это не далеко."
     mt "Я уже была в этой грязной подворотне..."
+    call pylonController(2, 3, 1)
     citizen6 "А теперь покажи сиськи!"
+    if corruption < 50:
+        mt "Я не могу себе этого позволить!"
+        "Я еще не настолько опустилась!"
+        "И, надеюсь, этого не произойдет НИКОГДА!"
+        m "Да как ты можешь такое просить!?"
+        citizen6 "Дорогуша, ты же обещала Все, что угодно. Дак вот, я хочу твои сиськи!"
+        m "Я не могу!"
+        help "Требуется 50 corruption"
+        return
     m "Что? А что если нас кто-то увидит?"
+
     citizen6 "Расслабься, тут никого нет. Давай уже, показывай. Чем быстрее ты это сделаешь, тем быстрее пойдешь куда шла."
+    call pylonController(1, 1, 2)
     mt "Что за извращенец..."
     m "Ладно..."
     # моника кажет сиськи
+    call showRandomImages(boobsImages, 4)
+    call pylonController(2, 3, 1)
     citizen6 "О да, какие сочные!"
+    call pylonController(1, 1, 2)
     citizen6 "Да, у тебя шикарные сиськи! А теперь повернись и нагнись немного."
+    if corruption < 70:
+        mt "Я не могу себе этого позволить!"
+        "Я еще не настолько опустилась!"
+        "И, надеюсь, этого не произойдет НИКОГДА!"
+        m "Ну уж нет, это слишком!"
+        citizen6 "Ну ладно, я сегодня добрый. Можешь идти. Тем более твои сиськи это нечто!"
+        $ questOffendMonicaFlyersCitizen6ThanksGiven = True
+        $ fallingPathStarted = True
+        help "Для активации этого события требовалось 70 corruption, но не переживайте, Моника еще покажет себя."
+        return
     # моника кажет жопу
+    call showRandomImages(assImages, 4)
+    call pylonController(2, 3, 1)
     citizen6 "Да, детка, ты великолепна! Ох, у меня кажется встал... Нужно срочно отойти..."
+    call pylonController(1, 1, 2)
     citizen6 "Можешь идти, считай, ты мне ничего не должна."
     # переменная отвечающая за А что бы ты хотел в диалогах с кебабом = 1
     $ questOffendMonicaFlyersCitizen6ThanksGiven = True
@@ -109,24 +137,63 @@ label citizen6_dialogue_pilon:
     citizen6 "В общем, я понимаю о чем ты. Давай не будем тратить время и пойдем уже в наше место"
     # уходят к пилону.
     citizen6 "Начнем."
+    $ showedBoobs = False
+    $ showedButt = False
     label .loop6:
     menu:
         "Покажи сиськи.":
+            call pylonController(2, 3, 1)
             citizen6 "Покажи сиськи!"
+            if corruption < 50:
+                mt "Я не могу себе этого позволить!"
+                "Я еще не настолько опустилась!"
+                "И, надеюсь, этого не произойдет НИКОГДА!"
+                help "Требуется 50 corruption"
+                jump .loop6
+
+            call pylonController(1, 1, 2)
             m "Я не собираюсь раздеваться, только так."
+            call showRandomImages(boobsImages, 4)
+            call pylonController(2, 3, 1)
             # img показывает сиськи
+            citizen6 "Корошее начало!"
+            call pylonController(1, 1, 2)
             citizen6 "Ух, мне достаточно только взгляда и у меня встает..."
+            call pylonController(2, 3, 1)
+            citizen6 "Ооо... Как хорошо..."
+            $ showedBoobs = True
             jump .loop6
         "Покажи попу.":
+            call pylonController(2, 3, 1)
             citizen6 "Покажи жопу!"
+            if corruption < 70:
+                mt "Я не могу себе этого позволить!"
+                "Я еще не настолько опустилась!"
+                "И, надеюсь, этого не произойдет НИКОГДА!"
+                help "Требуется 70 corruption"
+                jump .loop6
+            call pylonController(1, 1, 2)
             m "Я не собираюсь раздеваться, только так."
-            # img показывает зад
+            call showRandomImages(assImages, 4)
+            call pylonController(2, 3, 1)
             citizen6 "Вау, вот это да!"
+            call pylonController(1, 1, 2)
+            citizen3 "Никогда не видел таких шикарной жопы!"
+            $ showedButt = True
+            # img показывает зад
             jump .loop6
         "Достаточно на сегодня.":
-            citizen6 "Какая ты сочная! Вот держи, а я пойду займусь очень важным делом."
-            # дает монике копейку если были показы
-            m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+            if showedBoobs == True and showedButt == True:
+                $ add_money(0.5)
+                citizen6 "Какая ты сочная! Вот держи, а я пойду займусь очень важным делом."
+                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                return
+            if showedBoobs == True or showedButt == True:
+                citizen6 "Какая ты сочная! Вот держи, а я пойду займусь очень важным делом."
+                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                $ add_money(0.25)
+                return
             #если не было
             citizen6 "Похоже, я зря потратил свое время, пойду найду другую шлюху."
+            return
     return
