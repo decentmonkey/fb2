@@ -39,6 +39,18 @@ label citizen7_dialogue:
                         imgr Dial_Citizen_7_2
                         citizen7 "Я закончил. Флаер? Да давайте уже..."
                         imgr Dial_Citizen_7_3
+                        citizen7 "Я бы хотел провести блее детальные замеры. В менее людном месте, это необходимо. Давайте отойдем чуть подальше."
+                        menu:
+                            "Я никуда с тобой не пойду":
+                                $ kebabWorkHarassmentAmount +=1
+                                #img Моника злится
+                                m "Мне ничего от тебя не нужно!"
+                            "Куда именно?":
+                                m "Куда именно?"
+                                citizen7 "Здесь в подворотне есть прекрасное место для вдохновения. Мне нужно оценить ваши формы."
+                                mt "Кажется я знаю о каком месте он говорит..."
+                                m "Не дождешься!"
+                                citizen7 "И напрасно. Вы же понимаете, что работа модели всегда оплачивается?"
                     else:
                         imgr Dial_Citizen_7_4
                         citizen7 "Я пытаюсь сосредоточиться на искусстве!"
@@ -46,4 +58,75 @@ label citizen7_dialogue:
                         $ kebabWorkMonicaRefusedAmount += 1
         "Уйти.":
             pass
+    return
+
+    # диалог доступен только когда моника не работает на раздаче флаеров
+label citizen7_dialogue_pilon:
+    imgl Dial_begin35_17
+    imgr Dial_Citizen_7_1
+    m "Привет! Думаю, я могу помочь тебе с вдохновением."
+    imgr Dial_Citizen_7_3
+    citizen7 "Как хорошо! Не зря ты мне снилась прошлой ночью!"
+    m "Только нам нужно не самое людное место..."
+    citizen7 "Конечно, как скажешь. Я знаю одно подходящее, пойдем!"
+    # уходят к пилону.
+    citizen7 "Вдохновение вещь сложная: очень сложно его найти... С чего бы нам начать?"
+    $ showedBoobs = False
+    $ showedButt = False
+    label .loop7:
+    menu:
+        "Покажи сиськи.":
+            call pylonController(2, 3, 1)
+            citizen7 "Милая, покажи свою чудесную грудь!"
+            if corruption < 50:
+                mt "Я не могу себе этого позволить!"
+                "Я еще не настолько опустилась!"
+                "И, надеюсь, этого не произойдет НИКОГДА!"
+                help "Требуется 50 corruption"
+                jump .loop7
+            call pylonController(1, 1, 2)
+            m "Я не собираюсь раздеваться, только так."
+            call showRandomImages(boobsImages, 4)
+            call pylonController(2, 3, 1)
+            # img показывает сиськи
+            citizen7 "Божественно, я так и вижу идею для новой картины!"
+            call pylonController(1, 1, 2)
+            citizen7 "Еще немного..."
+            call pylonController(2, 3, 1)
+            citizen7 "Отлично!"
+            $ showedBoobs = True
+            jump .loop7
+        "Покажи попу.":
+            call pylonController(2, 3, 1)
+            citizen7 "Как насчет попы? Уверен, она прекрасна, как и ты!"
+            if corruption < 70:
+                mt "Я не могу себе этого позволить!"
+                "Я еще не настолько опустилась!"
+                "И, надеюсь, этого не произойдет НИКОГДА!"
+                help "Требуется 70 corruption"
+                jump .loop7
+            call pylonController(1, 1, 2)
+            m "Я не собираюсь раздеваться, только так."
+            call showRandomImages(assImages, 4)
+            call pylonController(2, 3, 1)
+            # img показывает зад
+            citizen7 "Не дурно! Очень похожа на персик, на картине моего коллеги. Милая, ты ему не позировала?"
+            call pylonController(1, 1, 2)
+            mt "Что за извращенец..."
+            $ showedButt = True
+            jump .loop7
+        "Достаточно на сегодня.":
+            if showedBoobs == True and showedButt == True:
+                $ add_money(0.5)
+                citizen7 "Как и любой модели, тебе полагается награда."
+                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                return
+            if showedBoobs == True or showedButt == True:
+                citizen7 "Как и любой модели, тебе полагается награда."
+                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                $ add_money(0.25)
+                return
+            #если не было
+            citizen7 "Ты не дала мне ни капли вдохновения!"
+            return
     return

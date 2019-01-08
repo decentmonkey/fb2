@@ -23,19 +23,32 @@ label citizen14_dialogue:
                         imgr Dial_Citizen_14_3
                         citizen14 "Но ты же не просто так подошла ко мне!"
                         "Я ведь понравился тебе? Хрюк..."
-                        label .loop1:
-                            menu:
-                                "Мне никто не может понравиться в этой дыре!":
-                                    $ kebabWorkHarassmentAmount +=1
-                                    imgl Dial_Monica_Sandwich_2
-                                    #img Моника злится
-                                    m "Мне никто не может понравиться в этой дыре!"
-                                "Может и так... (disabled)":
-                                    jump .loop1
+                        menu:
+                            "Мне никто не может понравиться в этой дыре!":
+                                $ kebabWorkHarassmentAmount +=1
+                                imgl Dial_Monica_Sandwich_2
+                                #img Моника злится
+                                m "Мне никто не может понравиться в этой дыре!"
+                            "Может и так...":
+                                m "Возможно..."
+                                citizen14 "Да, я знал, что ты заметишь, что я красавец! Хрюк..."
+                                citizen14 "Ну что, пойдем с тобой в подворотню!"
+                                m "Да ни за что!"
+                                mt "Черт, и кто тынул меня за язык..."
                     else:
                         imgr Dial_Citizen_14_4
                         citizen14 "Не возьму... Я все-равно его потеряю... Хрюк..."
                         $ kebabWorkMonicaRefusedAmount += 1
         "Уйти.":
             pass
+    return
+
+label citizen14_dialogue_pilon:
+    imgl Dial_begin35_17
+    imgr Dial_Citizen_14_1
+    m "Привет! Помнишь меня?"
+    imgr Dial_Citizen_14_3
+    citizen14 "Ик! Конечно! Ну признайся уже, что я тебе понравился."
+    mt "Животное... Думаю, не стоит иметь с этим типом ничего общего..."
+    m "Ладно, я пожалуй пойду."
     return

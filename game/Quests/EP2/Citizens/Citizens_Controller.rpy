@@ -1,3 +1,5 @@
+default fallingPathStarted = False
+
 default citizensAmountDay = 8
 default citizensAmountEvening = 5
 #default citizensAmountDay = 15
@@ -50,9 +52,13 @@ label citizens_dialogue:
     $ restore_music()
     return
 label citizens_dialogue_refuse:
-    mt "Я не собираюсь с ним разговаривать без надобности!"
-    "Мне противны эти люди!"
-    "Они не соответствуют моему статусу!"
+    if fallingPathStarted == False:
+        mt "Я не собираюсь с ним разговаривать без надобности!"
+        "Мне противны эти люди!"
+        "Они не соответствуют моему статусу!"
+    else:
+        mt "Я боюсь подходить к людям в вечернее время."
+        "Это опасно..."
     return
 label citizens_dialogue_process:
     $ store_music()
@@ -65,7 +71,10 @@ label citizens_dialogue_process:
             mt "Панки... Выглядят не очень дружелюбно."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse
+            if fallingPathStarted == False or day_time == "Evening":
+                call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse
+                return
+            call citizen1_dialogue_pilon()
             return
         music citizenMusic
         call citizen1_dialogue() from _call_citizen1_dialogue
@@ -75,7 +84,10 @@ label citizens_dialogue_process:
             mt "Хитрый взгляд... Похоже, этому человеку есть что скрывать."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_1
+            if fallingPathStarted == False or day_time == "Evening":
+                call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_1
+                return
+            call citizen3_dialogue_pilon()
             return
         music citizenMusic
         call citizen3_dialogue() from _call_citizen3_dialogue
@@ -84,7 +96,10 @@ label citizens_dialogue_process:
             mt "Еще один обитатель трущоб. Таких тут полно."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_2
+            if fallingPathStarted == False or day_time == "Evening":
+                call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_2
+                return
+            call citizen4_dialogue_pilon()
             return
         music citizenMusic
         call citizen4_dialogue() from _call_citizen4_dialogue
@@ -93,7 +108,10 @@ label citizens_dialogue_process:
             mt "Откуда этот парень? Что он тут делает?"
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_3
+            if fallingPathStarted == False or day_time == "Evening":
+                call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_3
+                return
+            call citizen5_dialogue_pilon()
             return
         music citizenMusic
         call citizen5_dialogue() from _call_citizen5_dialogue
@@ -102,7 +120,13 @@ label citizens_dialogue_process:
             mt "Этот парень не выглядит злым. Надеюсь, так оно и есть."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_4
+            if fallingPathStarted == False or day_time == "Evening":
+                call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_4
+                return
+            if questOffendMonicaFlyersCitizen12Completed == True and questOffendMonicaFlyersCitizen6ThanksGiven == False:
+                call citizen6_dialogue_after_offend()
+                return
+            call citizen6_dialogue_pilon()
             return
         music citizenMusic
         call citizen6_dialogue() from _call_citizen6_dialogue
@@ -111,7 +135,10 @@ label citizens_dialogue_process:
             mt "Уличные художники. Даже в таком районе они есть."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_5
+            if fallingPathStarted == False or day_time == "Evening":
+                call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_5
+                return
+            call citizen7_dialogue_pilon()
             return
         music citizenMusic
         call citizen7_dialogue() from _call_citizen7_dialogue
@@ -120,7 +147,10 @@ label citizens_dialogue_process:
             mt "Этот человек выглядит опасным. С ним надо быть настороже."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_6
+            if fallingPathStarted == False or day_time == "Evening":
+                call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_6
+                return
+            call citizen8_dialogue_pilon()
             return
         music citizenMusic
         call citizen8_dialogue() from _call_citizen8_dialogue
@@ -130,7 +160,10 @@ label citizens_dialogue_process:
             "Фи!"
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_7
+            if fallingPathStarted == False or day_time == "Evening":
+                call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_7
+                return
+            call citizen9_dialogue_pilon()
             return
         music citizenMusic
         call citizen9_dialogue() from _call_citizen9_dialogue
@@ -139,7 +172,10 @@ label citizens_dialogue_process:
             mt "И почему этот старик целый день на улице?"
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_8
+            if fallingPathStarted == False or day_time == "Evening":
+                call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_8
+                return
+            call citizen10_dialogue_pilon()
             return
         music citizenMusic
         call citizen10_dialogue() from _call_citizen10_dialogue
@@ -148,7 +184,10 @@ label citizens_dialogue_process:
             mt "С этим все понятно: редкий день для него обходится без бутылки."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_9
+            if fallingPathStarted == False or day_time == "Evening":
+                call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_9
+                return
+            call citizen11_dialogue_pilon()
             return
         music citizenMusic
         call citizen11_dialogue() from _call_citizen11_dialogue
@@ -157,7 +196,10 @@ label citizens_dialogue_process:
             mt "Еще один обитатель трущоб. Таких тут полно."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_10
+            if fallingPathStarted == False or day_time == "Evening":
+                call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_10
+                return
+            call citizen12_dialogue_pilon()
             return
         music citizenMusic
         call citizen12_dialogue() from _call_citizen12_dialogue
@@ -166,7 +208,10 @@ label citizens_dialogue_process:
             mt "Какой милашка. Ха! Держу пари, девушки ему неинтересны..."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_11
+            if fallingPathStarted == False or day_time == "Evening":
+                call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_11
+                return
+            call citizen13_dialogue_pilon()
             return
         music citizenMusic
         call citizen13_dialogue() from _call_citizen13_dialogue
@@ -175,7 +220,10 @@ label citizens_dialogue_process:
             mt "Еще один обитатель трущоб. Таких тут полно."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_12
+            if fallingPathStarted == False or day_time == "Evening":
+                call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_12
+                return
+            call citizen14_dialogue_pilon()
             return
         music citizenMusic
         call citizen14_dialogue() from _call_citizen14_dialogue
@@ -184,7 +232,10 @@ label citizens_dialogue_process:
             mt "Еще один обитатель трущоб. Таких тут полно."
             return
         if kebabWorkInProgress == False:
-            call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_13
+            if fallingPathStarted == False or day_time == "Evening":
+                call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_13
+                return
+            call citizen15_dialogue_pilon()
             return
         music citizenMusic
         call citizen15_dialogue() from _call_citizen15_dialogue

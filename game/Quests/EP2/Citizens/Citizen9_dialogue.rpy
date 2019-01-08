@@ -72,6 +72,15 @@ label citizen9_dialogue:
                         call reduce_flyers() from _call_reduce_flyers_8
                         imgr Dial_Citizen_9_3
                         "Хорошо..."
+                        citizen9 "Ооо, дамочка, а пойдемте к пилону! я потрогаю твою сиську еще разок!"
+                        menu:
+                            "Да ни за что на свете!":
+                                $ kebabWorkHarassmentAmount +=1
+                                #img Моника злится
+                                m "Мне ничего от тебя не нужно!"
+                            "Ну точно не сейчас.":
+                                m "Не в этот раз."
+                                citizen7 "Ооо, ты не отказываешься... Хорошо. Тогда приходи, как будешь не так занята. Кстати, у Найджела есть деньги!"
                     else:
                         imgr Dial_Citizen_9_4
                         citizen9 "Отстань, дамочка! Я пытаюсь кое-что вспомнить..."
@@ -87,4 +96,80 @@ label Citizen_9_use_joint:
     $ obj_name = "Citizen_9"
     call citizens_dialogue_process() from _call_citizens_dialogue_process_1
     $ restore_music()
+    return
+
+    # диалог доступен только когда моника не работает на раздаче флаеров
+label citizen9_dialogue_pilon:
+    imgl Dial_begin35_17
+    imgr Dial_Citizen_9_1
+    m "Привет! Ты ведь покупал кое что у Джека?"
+    citizen9 "Не совсем понимаю к чему ты клонишь..."
+    imgr Dial_Citizen_9_3
+    citizen9 "Ууу, дамочке нужна наличка?"
+    m "Ну, не совсем..."
+    citizen9 "Ага, рассказывай... По твоей одежде мне все понятно..."
+    imgl Dial_begin35_18
+    mt "Ах ты деревеньщина! Ты даже не знаешь кто я такая!"
+    citizen9 "Да ладно, дамочка, не злись."
+    citizen9 "Знаешь подворотню с пилоном? Там часто появлябтся желающие заработать. Пойдем туда."
+    # уходят к пилону.
+    citizen9 "Ладно, дамочка, что там у тебя?"
+    $ showedBoobs = False
+    $ showedButt = False
+    label .loop9:
+    menu:
+        "Покажи сиськи.":
+            call pylonController(2, 3, 1)
+            citizen9 "Сиськи!"
+            m "Что, это значит?"
+            citizen9 "Дамочка, а что это может значить? Давай показывай!"
+            if corruption < 50:
+                mt "Я не могу себе этого позволить!"
+                "Я еще не настолько опустилась!"
+                "И, надеюсь, этого не произойдет НИКОГДА!"
+                help "Требуется 50 corruption"
+                jump .loop9
+            call pylonController(1, 1, 2)
+            m "Я не собираюсь раздеваться, только так."
+            call showRandomImages(boobsImages, 4)
+            call pylonController(2, 3, 1)
+            # img показывает сиськи
+            citizen9 "Ну хоть что-то."
+            call pylonController(1, 1, 2)
+            $ showedBoobs = True
+            jump .loop9
+        "Покажи попу.":
+            call pylonController(2, 3, 1)
+            citizen9 "Жопа!"
+            m "Что 'Жопа!'?"
+            citizen9 "Повернико ко мне задом и показывай!"
+            if corruption < 70:
+                mt "Я не могу себе этого позволить!"
+                "Я еще не настолько опустилась!"
+                "И, надеюсь, этого не произойдет НИКОГДА!"
+                help "Требуется 70 corruption"
+                jump .loop9
+            call pylonController(1, 1, 2)
+            m "Я не собираюсь раздеваться, только так."
+            call showRandomImages(assImages, 4)
+            call pylonController(2, 3, 1)
+            # img показывает зад
+            citizen9 "Мда, скучно как-то. Приходи сюда вечером, увидишь как можно реально заработать."
+            call pylonController(1, 1, 2)
+            $ showedButt = True
+            jump .loop9
+        "Достаточно на сегодня.":
+            if showedBoobs == True and showedButt == True:
+                $ add_money(0.5)
+                citizen9 "Ну что-то ты заслужила..."
+                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                return
+            if showedBoobs == True or showedButt == True:
+                citizen9 "Ну что-то ты заслужила..."
+                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                $ add_money(0.25)
+                return
+            #если не было
+            citizen9 "Дамочка, ни цента! Ничего не получишь!"
+            return
     return
