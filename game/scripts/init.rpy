@@ -4,6 +4,8 @@ define bettyCleaningProgessRegressAmount = -10 # Насколько убавля
 define bettyTryOutInGovernessClothRegressAmount = -10 # Насколько убавляется прогресс с Бетти если Моника пытается выйти за пределы дома в одежде гувернантки
 
 define bardieCleaningUpskirtTry = 15 #15 #Прогресс с Барди за попытку подсмотреть во время уборки (начальная стадия)
+define bardieCleaning2Upskirt = 15 # Прогресс Барди за просмотр юбки Моники (трусики Юлии)
+
 define bardieCleaningUpskirtTryCorruption = 0 # Увеличение corruption, когда Барди подсматривает под юбку Моники
 define monicaCleaningAddCorruptionPerCleaning = 1 #Увеличение corruption за одну уборку
 
@@ -35,6 +37,10 @@ define monicaPhilipBlojwobOpenMouth2CorruptionRequired = 59 # Кол-во corrup
 define monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired = 70 # Кол-во corruption, которые необходимы, чтобы Моника предложила Филиппу сделать минет еще раз
 define monicaPhilipBlojwobOpenMouthAgainCorruptionRequired = 80 # Кол-во corruption, которые необходимы, чтобы Моника снова открыла рот для нового мужчины
 define monicaPhilipBlojwobTakeSpermCorruptionRequired = 80 # Кол-во corruption, которые необходимы, чтобы Моника сама проглотила сперму
+
+define photoshoot1_casting_corruption_required = 0 #Кол-во corruption для кастинга после фотосессии
+define photoshoot2_casting_corruption_required = 0 #Кол-во corruption для кастинга после фотосессии
+define photoshoot3_casting_corruption_required = 0 #Кол-во corruption для кастинга после фотосессии
 
 default houseMusic = "Mandeville"
 #default biffMusic = "Funk_loop8"
