@@ -272,7 +272,7 @@ label ep22_dialogue6_5:
 #    call photoshop_flash() from _call_photoshop_flash
 
     alex_photograph "Миссис Бакфетт! Примите, пожалуйста, эту позу!"
-    m "Адекс, снова ты за свое!"
+    m "Алекс, снова ты за свое!"
     alex_photograph "Мэм! Это теперь моя работа!"
     menu:
         "Смириться с неизбежностью откровенных поз...":

@@ -38,6 +38,10 @@ define monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired = 70 # Кол-во 
 define monicaPhilipBlojwobOpenMouthAgainCorruptionRequired = 80 # Кол-во corruption, которые необходимы, чтобы Моника снова открыла рот для нового мужчины
 define monicaPhilipBlojwobTakeSpermCorruptionRequired = 80 # Кол-во corruption, которые необходимы, чтобы Моника сама проглотила сперму
 
+define photoshoot1_casting_corruption_required = 0 #Кол-во corruption для кастинга после фотосессии
+define photoshoot2_casting_corruption_required = 0 #Кол-во corruption для кастинга после фотосессии
+define photoshoot3_casting_corruption_required = 0 #Кол-во corruption для кастинга после фотосессии
+
 default houseMusic = "Mandeville"
 #default biffMusic = "Funk_loop8"
 default biffMusic = "Groove2_85"

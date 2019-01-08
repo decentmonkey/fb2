@@ -1076,7 +1076,7 @@ translate english monica_charity_event_dialogue10_009fed20:
 translate english monica_charity_event_dialogue10_3b07704e:
 
     # m "$ 4.000???"
-    m "$ 4.000???"
+    m "$ 4,000???"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:621
 translate english monica_charity_event_dialogue10_efcd3cde:
@@ -1761,7 +1761,7 @@ translate english monica_charity_event_dialogue17_fbc2de3f:
 
     # m "$ 1.000!!!"
     # "Мне никак нельзя меньше!"
-    m "$ 1.000!!!"
+    m "$ 1,000!!!"
     "I can't do any less!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1023
