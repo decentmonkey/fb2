@@ -607,6 +607,12 @@ label monica_office_photostudio_melanie_dialogue1:
     if act == "l":
         return
     #render
+    if monicaWantToAskMelanieHelpEnabled == True:
+        menu:
+            "Попросить помощь у Мелани. (will be available in the next version) (disabled)":
+                pass
+            "Говорить с Мелани.":
+                pass
     $ store_music()
     music ZigZan
     img 6503

@@ -224,3 +224,13 @@ translate english citizens_dialogue_refuse_ada061db:
     mt "Я боюсь подходить к людям в вечернее время."
     "Это опасно..."
 
+# TODO: Translation updated at 2019-01-09 21:51
+
+# game/Quests/EP2/Citizens/Citizens_Controller.rpy:305
+translate english needToFindWhorePlace_d27097d8:
+
+    # mt "Мне надо найти какое-то тихое место."
+    # "Не собираюсь-же я делать это здесь..."
+    mt "Мне надо найти какое-то тихое место."
+    "Не собираюсь-же я делать это здесь..."
+

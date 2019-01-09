@@ -232,3 +232,67 @@ translate english strings:
     old "Что Вы подразумеваете под знакомством?"
     new ""
 
+# TODO: Translation updated at 2019-01-09 21:51
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:39
+translate english citizen4_dialogue_d443b848:
+
+    # mt "В любом случае об этом лучше говорить без этой дурацкой рекламы кебаба..."
+    mt "В любом случае об этом лучше говорить без этой дурацкой рекламы кебаба..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:54
+translate english citizen4_dialogue_pilon_5385b0de:
+
+    # citizen4 "Конечно, давай познакомимся."
+    # m "Ну я не о близком знакомстве...Немного о другом."
+    # citizen4 "Да не вопрос, я понимаю о чем речь. Любой из нашего района тебя поймет с полуслова."
+    # citizen4 "Ну что, давай начнем."
+    citizen4 "Конечно, давай познакомимся."
+    m "Ну я не о близком знакомстве...Немного о другом."
+    citizen4 "Да не вопрос, я понимаю о чем речь. Любой из нашего района тебя поймет с полуслова."
+    citizen4 "Ну что, давай начнем."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:67
+translate english citizen4_dialogue_pilon_loop4_e7678610:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:88
+translate english citizen4_dialogue_pilon_loop4_299ae0b0:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:106
+translate english citizen4_dialogue_pilon_loop4_ff0104e6:
+
+    # citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:112
+translate english citizen4_dialogue_pilon_loop4_ff0104e6_1:
+
+    # citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+

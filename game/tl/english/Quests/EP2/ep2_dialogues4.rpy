@@ -3736,3 +3736,15 @@ translate english monica_office_cabinet_biff_dialogue3_445e6d51:
     "She's such a try-hard..."
     "Ha ha ha!"
 
+# TODO: Translation updated at 2019-01-09 21:51
+
+translate english strings:
+
+    # Quests/EP2/ep2_dialogues4.rpy:611
+    old "Попросить помощь у Мелани. (will be available in the next version) (disabled)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues4.rpy:611
+    old "Говорить с Мелани."
+    new ""
+

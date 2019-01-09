@@ -244,3 +244,55 @@ translate english strings:
     old "Куда именно?"
     new ""
 
+# TODO: Translation updated at 2019-01-09 21:51
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:55
+translate english citizen7_dialogue_d443b848:
+
+    # mt "В любом случае об этом лучше говорить без этой дурацкой рекламы кебаба..."
+    mt "В любом случае об этом лучше говорить без этой дурацкой рекламы кебаба..."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:85
+translate english citizen7_dialogue_pilon_loop7_e7678610:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:106
+translate english citizen7_dialogue_pilon_loop7_299ae0b0:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:124
+translate english citizen7_dialogue_pilon_loop7_ad16f282:
+
+    # citizen7 "Как и любой модели, тебе полагается награда."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen7 "Как и любой модели, тебе полагается награда."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:129
+translate english citizen7_dialogue_pilon_loop7_ad16f282_1:
+
+    # citizen7 "Как и любой модели, тебе полагается награда."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen7 "Как и любой модели, тебе полагается награда."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+

@@ -340,3 +340,71 @@ translate english strings:
     old "Ну точно не сейчас."
     new ""
 
+# TODO: Translation updated at 2019-01-09 21:51
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:112
+translate english citizen9_dialogue_pilon_c18aa4ee:
+
+    # mt "Ах ты деревеньщина! Ты даже не знаешь кто я такая!"
+    # citizen9 "Да ладно, дамочка, не злись."
+    # citizen9 "Знаешь подворотню с пилоном? Там часто появляются желающие заработать. Пойдем туда."
+    # citizen9 "Ладно, дамочка, что там у тебя?"
+    mt "Ах ты деревеньщина! Ты даже не знаешь кто я такая!"
+    citizen9 "Да ладно, дамочка, не злись."
+    citizen9 "Знаешь подворотню с пилоном? Там часто появляются желающие заработать. Пойдем туда."
+    citizen9 "Ладно, дамочка, что там у тебя?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:127
+translate english citizen9_dialogue_pilon_loop9_e7678610:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:143
+translate english citizen9_dialogue_pilon_loop9_98294c42:
+
+    # citizen9 "Жопа!"
+    # m "Что 'Жопа!'?"
+    # citizen9 "Повернис ко мне задом и показывай!"
+    citizen9 "Жопа!"
+    m "Что 'Жопа!'?"
+    citizen9 "Повернис ко мне задом и показывай!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:147
+translate english citizen9_dialogue_pilon_loop9_299ae0b0:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:164
+translate english citizen9_dialogue_pilon_loop9_643513c1:
+
+    # citizen9 "Ну что-то ты заслужила..."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen9 "Ну что-то ты заслужила..."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:169
+translate english citizen9_dialogue_pilon_loop9_643513c1_1:
+
+    # citizen9 "Ну что-то ты заслужила..."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen9 "Ну что-то ты заслужила..."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+

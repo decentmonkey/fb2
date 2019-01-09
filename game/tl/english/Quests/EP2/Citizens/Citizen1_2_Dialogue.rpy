@@ -304,3 +304,67 @@ translate english strings:
     old "Я подумаю, но сейчас я занята..."
     new ""
 
+# TODO: Translation updated at 2019-01-09 21:51
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:43
+translate english citizen1_dialogue_45d546da:
+
+    # m "А что бы вы хотели?"
+    m "А что бы вы хотели?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:45
+translate english citizen1_dialogue_1ee37981:
+
+    # citizen1 "А то ты не знаешь, тетя! Конечно тебя!"
+    citizen1 "А то ты не знаешь, тетя! Конечно тебя!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:47
+translate english citizen1_dialogue_66e2c318:
+
+    # citizen2 "Мой брат слишком груб, но в целом он прав."
+    citizen2 "Мой брат слишком груб, но в целом он прав."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:87
+translate english citizen1_dialogue_pilon_loop1_e7678610:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:109
+translate english citizen1_dialogue_pilon_loop1_299ae0b0:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:127
+translate english citizen1_dialogue_pilon_loop1_09e94663:
+
+    # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:133
+translate english citizen1_dialogue_pilon_loop1_09e94663_1:
+
+    # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+

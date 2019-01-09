@@ -390,3 +390,49 @@ translate english citizen3_dialogue_pilon_loop3_1621f382:
     # citizen3 "Похоже, я только зря потратил с тобой время..."
     citizen3 "Похоже, я только зря потратил с тобой время..."
 
+# TODO: Translation updated at 2019-01-09 21:51
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:135
+translate english citizen3_dialogue_pilon_loop3_e7678610:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:157
+translate english citizen3_dialogue_pilon_loop3_299ae0b0:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:176
+translate english citizen3_dialogue_pilon_loop3_859b5ea4:
+
+    # citizen3 "Ты сделала мой день, отлично потрудилась."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen3 "Ты сделала мой день, отлично потрудилась."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:181
+translate english citizen3_dialogue_pilon_loop3_859b5ea4_1:
+
+    # citizen3 "Ты сделала мой день, отлично потрудилась."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen3 "Ты сделала мой день, отлично потрудилась."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+

@@ -262,3 +262,55 @@ translate english strings:
     old "Место для чего?"
     new ""
 
+# TODO: Translation updated at 2019-01-09 21:51
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:36
+translate english citizen5_dialogue_d443b848:
+
+    # mt "В любом случае об этом лучше говорить без этой дурацкой рекламы кебаба..."
+    mt "В любом случае об этом лучше говорить без этой дурацкой рекламы кебаба..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:68
+translate english citizen5_dialogue_pilon_loop5_e7678610:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:89
+translate english citizen5_dialogue_pilon_loop5_299ae0b0:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:107
+translate english citizen5_dialogue_pilon_loop5_177488bd:
+
+    # citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:113
+translate english citizen5_dialogue_pilon_loop5_177488bd_1:
+
+    # citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+

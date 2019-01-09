@@ -306,3 +306,87 @@ translate english strings:
     old "Ну уж нет!"
     new ""
 
+# TODO: Translation updated at 2019-01-09 21:51
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:22
+translate english citizen8_dialogue_06c0843f:
+
+    # citizen8 "Взять флаер? Хорошо... Но что я получу взамен?"
+    # m "Вы получите флаер, разве этого мало?"
+    # citizen8 "Для меня он бесполезен. Я бы хотел чтобы ты..."
+    citizen8 "Взять флаер? Хорошо... Но что я получу взамен?"
+    m "Вы получите флаер, разве этого мало?"
+    citizen8 "Для меня он бесполезен. Я бы хотел чтобы ты..."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:29
+translate english citizen8_dialogue_e27d2938:
+
+    # citizen8 "Показала язык." 
+    citizen8 "Показала язык." 
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:31
+translate english citizen8_dialogue_0c9c0671:
+
+    # citizen8 "шлепнула себя по попе. " 
+    citizen8 "шлепнула себя по попе. " 
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:33
+translate english citizen8_dialogue_f1424915:
+
+    # mt "Что за бред. Это только ради того, чтобы он взял флаер?! Что же делать..."
+    mt "Что за бред. Это только ради того, чтобы он взял флаер?! Что же делать..."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:95
+translate english citizen8_dialogue_pilon_loop8_e7678610:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:110
+translate english citizen8_dialogue_pilon_loop8_1_5ef83602:
+
+    # mt "Уже достаточно, что он вот так глазеет на меня"
+    # "Хватит с него и того, что он видит."
+    # help "Требуется [monicaWhoringClothBoobsTongueCorruptionRequired] corruption"
+    mt "Уже достаточно, что он вот так глазеет на меня"
+    "Хватит с него и того, что он видит."
+    help "Требуется [monicaWhoringClothBoobsTongueCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:128
+translate english citizen8_dialogue_pilon_loop8_1_299ae0b0:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:147
+translate english citizen8_dialogue_pilon_loop8_1_4b2baa6c:
+
+    # citizen8 "Славно потрудилась. Вот, держи."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen8 "Славно потрудилась. Вот, держи."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:152
+translate english citizen8_dialogue_pilon_loop8_1_4b2baa6c_1:
+
+    # citizen8 "Славно потрудилась. Вот, держи."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen8 "Славно потрудилась. Вот, держи."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
