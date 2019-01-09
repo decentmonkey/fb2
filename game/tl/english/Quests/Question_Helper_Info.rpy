@@ -106,73 +106,73 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:113
     old "Барди постоянно пытается заглянуть мне под юбку."
-    new ""
+    new "Bardie's always trying to look up my skirt."
 
     # Quests/Question_Helper_Info.rpy:113
     old "Барди в при любом удобном случае заглядывает мне под юбку. И я ничего не могу с этим поделать..."
-    new ""
+    new "Bardie looks up my skirt at every opportunity. And there's nothing I can do about it..."
 
     # Quests/Question_Helper_Info.rpy:113
     old "Барди хочет чтобы я одевала трусики Бетти, которые она носила в прошлый раз. Интересно, как я узнаю какие именно трусики она носит сегодня?"
-    new ""
+    new "Bardie wants me to wear Betty's panties, which she wore last time. I wonder how I'll know what kind of panties she's wearing today?"
 
     # Quests/Question_Helper_Info.rpy:113
     old "Бетти ждет от меня, что я буду регулярно убираться в доме."
-    new ""
+    new "Betty expects me to clean the house regularly."
 
     # Quests/Question_Helper_Info.rpy:113
     old "Бетти ждет от меня, что я буду регулярно убираться в доме и тереть это проклятое пятно."
-    new ""
+    new "Betty is waiting that I will regularly clean the house and scrub that damned spot."
 
     # Quests/Question_Helper_Info.rpy:113
     old "Бетти хочет чтобы я носила ее сумку с вещами, пока она занимается фитнесом. Фитнес у Бетти по вторникам и четвергам."
-    new ""
+    new "Betty wants me to carry her fitness stuff bag. Betty trains on Tuesdays and Thursdays."
 
     # Quests/Question_Helper_Info.rpy:113
     old "Мне надо проверить что происходит в моем офисе."
-    new ""
+    new "I need to check what's going on in my office."
 
     # Quests/Question_Helper_Info.rpy:113
     old "Мне надо как-то найти $ 5000 до пятницы. Где мне их взять? Может быть спросить Бифа о работе?"
-    new ""
+    new "I need to find $ 5,000 by Friday somehow. Where can I get them? Can be to ask Beef about the job?"
 
     # Quests/Question_Helper_Info.rpy:113
     old "Я отказалась от того что хочет Биф. Но найду-ли я другой способ достать деньги? Возможно, мне придется, все-таки, передумать?"
-    new ""
+    new "I gave up what Beef wanted. But will I find another way to get the money? Though, I might have to change my mind."
 
     # Quests/Question_Helper_Info.rpy:113
     old "Мне надо найти еще $ 1000, иначе конец!"
-    new ""
+    new "I have to find another $ 1,000, or it's over!"
 
     # Quests/Question_Helper_Info.rpy:113
     old "В фитнес-зале я встретила Стефани и Ребекку. Я, кажется, убедила их что все это игра. Но долго-ли они будут в это верить?"
-    new ""
+    new "I met Stephanie and Rebecca at the gym. I think I convinced them it was all a game. But how long will they believe it?"
 
     # Quests/Question_Helper_Info.rpy:113
     old "Похоже я нашла возможность зарабатывать деньги, делая фотосессии у Бифа. Но эти фотосессии все более развратные. Долго-ли я смогу себе это позволять?"
-    new ""
+    new "Looks like I found a way to make money by doing a photo shoot at Beef's. But these photo shoots are more and more depraved. Can I afford it?"
 
     # Quests/Question_Helper_Info.rpy:113
     old "Биф хочет чтобы я ходила к нему на кастинги. Если я хочу убедить его взять меня в офис, мне надо завоевать его доверие. Но смогу-ли я на это пойти?"
-    new ""
+    new "Beef wants me to visit his castings. If I want to convince him to take me to the office, I need to earn his trust. But will I be able to do it?"
 
     # Quests/Question_Helper_Info.rpy:113
     old "Теперь я должна приносить Виктории раз в неделю $ 5000 до пятницы. Я даже не представляла насколько она опасна."
-    new ""
+    new "I have to bring Victoria $ 5,000 weekly by Friday. I had no idea how dangerous she was."
 
     # Quests/Question_Helper_Info.rpy:113
     old "Так продолжаться не может. Виктория не даст мне нормально жить. Надо как-то воздействовать на Дика. Его единственное слабое место - это женщины. У меня не получается, как я ни пыталась. Может быть попробовать попросить помощи у Мелани?"
-    new ""
+    new "It can't go on like this. Victoria won't let me live a normal life. We need to do something about Dick. Women are his only weakness. I can't do it, no matter how hard I try. Maybe try to ask for help from Melanie?"
 
     # Quests/Question_Helper_Info.rpy:113
     old "В доме для меня еды нет. По крайней мере пока. Мне надо где-то питаться. Есть эта дурацкая разноска флаеров. Но, может быть, проще воровать еду где-нибудь? Но готова-ли я на это пойти? Или, может быть, проще занять у кого-то деньги?"
-    new ""
+    new "There's no food in the house. At least not yet. I have to eat somewhere. I can earn by delivering flyers. But maybe it's easier to steal food somewhere? Am I ready to do that? Or maybe it's easier to borrow money from someone?"
 
     # Quests/Question_Helper_Info.rpy:113
     old "Я разношу гребаные флаеры за жалкий кебаб. Может быть есть способы заработать на еду проще?"
-    new ""
+    new "I have delivered the fucking flyers to get a measly kebab. Maybe there are ways to make food easier?"
 
     # Quests/Question_Helper_Info.rpy:113
     old "Мне надо как-то вернуть мою прошлую жизнь. Я не смогу долго прожить в этом кошмаре!"
-    new ""
+    new "I need to get my old life back somehow. I can't live long in this nightmare!"
 

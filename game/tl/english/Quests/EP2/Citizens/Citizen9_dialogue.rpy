@@ -186,3 +186,157 @@ translate english citizen9_dialogue_5f662773:
     # m "Идиот! Что ты делаешь?"
     m "You are an idiot! What are you doing?"
 
+# TODO: Translation updated at 2019-01-09 13:28
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:74
+translate english citizen9_dialogue_5db972c4:
+
+    # "Хорошо..."
+    # citizen9 "Ооо, дамочка, а пойдемте к пилону! я потрогаю твою сиську еще разок!"
+    "Good..."
+    citizen9 "Ооо, дамочка, а пойдемте к пилону! я потрогаю твою сиську еще разок!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:80
+translate english citizen9_dialogue_069ad2f2:
+
+    # m "Мне ничего от тебя не нужно!"
+    m "Мне ничего от тебя не нужно!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:82
+translate english citizen9_dialogue_386294e1:
+
+    # m "Не в этот раз."
+    # citizen7 "Ооо, ты не отказываешься... Хорошо. Тогда приходи, как будешь не так занята. Кстати, у Найджела есть деньги!"
+    m "Не в этот раз."
+    citizen7 "Ооо, ты не отказываешься... Хорошо. Тогда приходи, как будешь не так занята. Кстати, у Найджела есть деньги!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:105
+translate english citizen9_dialogue_pilon_882f1251:
+
+    # m "Привет! Ты ведь покупал кое что у Джека?"
+    # citizen9 "Не совсем понимаю к чему ты клонишь..."
+    m "Привет! Ты ведь покупал кое что у Джека?"
+    citizen9 "Не совсем понимаю к чему ты клонишь..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:108
+translate english citizen9_dialogue_pilon_4937d838:
+
+    # citizen9 "Ууу, дамочке нужна наличка?"
+    # m "Ну, не совсем..."
+    # citizen9 "Ага, рассказывай... По твоей одежде мне все понятно..."
+    citizen9 "Ууу, дамочке нужна наличка?"
+    m "Ну, не совсем..."
+    citizen9 "Ага, рассказывай... По твоей одежде мне все понятно..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:112
+translate english citizen9_dialogue_pilon_e79c8675:
+
+    # mt "Ах ты деревеньщина! Ты даже не знаешь кто я такая!"
+    # citizen9 "Да ладно, дамочка, не злись."
+    # citizen9 "Знаешь подворотню с пилоном? Там часто появлябтся желающие заработать. Пойдем туда."
+    # citizen9 "Ладно, дамочка, что там у тебя?"
+    mt "Ах ты деревеньщина! Ты даже не знаешь кто я такая!"
+    citizen9 "Да ладно, дамочка, не злись."
+    citizen9 "Знаешь подворотню с пилоном? Там часто появлябтся желающие заработать. Пойдем туда."
+    citizen9 "Ладно, дамочка, что там у тебя?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:123
+translate english citizen9_dialogue_pilon_loop9_1b776fc7:
+
+    # citizen9 "Сиськи!"
+    # m "Что, это значит?"
+    # citizen9 "Дамочка, а что это может значить? Давай показывай!"
+    citizen9 "Сиськи!"
+    m "Что, это значит?"
+    citizen9 "Дамочка, а что это может значить? Давай показывай!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:127
+translate english citizen9_dialogue_pilon_loop9_a7283d00:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется 50 corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется 50 corruption"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:133
+translate english citizen9_dialogue_pilon_loop9_48b1ace1:
+
+    # m "Я не собираюсь раздеваться, только так."
+    m "Я не собираюсь раздеваться, только так."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:137
+translate english citizen9_dialogue_pilon_loop9_5fedd840:
+
+    # citizen9 "Ну хоть что-то."
+    citizen9 "Ну хоть что-то."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:143
+translate english citizen9_dialogue_pilon_loop9_f1e13c5f:
+
+    # citizen9 "Жопа!"
+    # m "Что 'Жопа!'?"
+    # citizen9 "Повернико ко мне задом и показывай!"
+    citizen9 "Жопа!"
+    m "Что 'Жопа!'?"
+    citizen9 "Повернико ко мне задом и показывай!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:147
+translate english citizen9_dialogue_pilon_loop9_f7e05701:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется 70 corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется 70 corruption"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:153
+translate english citizen9_dialogue_pilon_loop9_48b1ace1_1:
+
+    # m "Я не собираюсь раздеваться, только так."
+    m "Я не собираюсь раздеваться, только так."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:157
+translate english citizen9_dialogue_pilon_loop9_4e3a88b0:
+
+    # citizen9 "Мда, скучно как-то. Приходи сюда вечером, увидишь как можно реально заработать."
+    citizen9 "Мда, скучно как-то. Приходи сюда вечером, увидишь как можно реально заработать."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:164
+translate english citizen9_dialogue_pilon_loop9_6a27ce46:
+
+    # citizen9 "Ну что-то ты заслужила..."
+    # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen9 "Ну что-то ты заслужила..."
+    m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:168
+translate english citizen9_dialogue_pilon_loop9_6a27ce46_1:
+
+    # citizen9 "Ну что-то ты заслужила..."
+    # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen9 "Ну что-то ты заслужила..."
+    m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:173
+translate english citizen9_dialogue_pilon_loop9_c3741169:
+
+    # citizen9 "Дамочка, ни цента! Ничего не получишь!"
+    citizen9 "Дамочка, ни цента! Ничего не получишь!"
+
+translate english strings:
+
+    # Quests/EP2/Citizens/Citizen9_dialogue.rpy:76
+    old "Да ни за что на свете!"
+    new ""
+
+    # Quests/EP2/Citizens/Citizen9_dialogue.rpy:76
+    old "Ну точно не сейчас."
+    new ""
+

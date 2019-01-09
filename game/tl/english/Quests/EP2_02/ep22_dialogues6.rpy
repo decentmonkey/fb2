@@ -608,7 +608,7 @@ translate english ep22_dialogue6_1_7daa9e79:
     # secretary "Да, Мистер Биф! Одну секунду!"
     biff "Hey! Boob!"
     "Come to my office quickly!"
-    "И захвати еще виски!!!"
+    "And bring another bottle of whiskey!!!"
     secretary "Yes, Mr. Beef! One second!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:57
@@ -616,28 +616,28 @@ translate english ep22_dialogue6_1_3cf55901:
 
     # "Где же?!"
     # "Где же виски???"
-    "Где же?!"
-    "Где же виски???"
+    "Where?!"
+    "Where's whiskey???"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:60
 translate english ep22_dialogue6_1_06c02b71:
 
     # "Здесь нет!"
     # "Он все выпил..."
-    "Здесь нет!"
-    "Он все выпил..."
+    "Not here!"
+    "He drank it..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:65
 translate english ep22_dialogue6_1_c61dcbe1:
 
     # "Ах, я же спрятала еще бутылку здесь, чтобы он сразу не нашел..."
-    "Ах, я же спрятала еще бутылку здесь, чтобы он сразу не нашел..."
+    "Oh, I hid another bottle here so he wouldn't find it right away..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:67
 translate english ep22_dialogue6_1_ed0f5016:
 
     # "Вот оно!"
-    "Вот оно!"
+    "Here it is!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:72
 translate english ep22_dialogue6_1_b6453702:
@@ -703,7 +703,7 @@ translate english ep22_dialogue6_3_3c7281b0:
 translate english ep22_dialogue6_3_8d06aa28:
 
     # "Мне нужны деньги..."
-    "Мне нужны деньги..."
+    "I need money..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:143
 translate english ep22_dialogue6_3_f5dcc011:
@@ -711,21 +711,21 @@ translate english ep22_dialogue6_3_f5dcc011:
     # biff "Нет, цыпочка!"
     # "Сейчас очередь других цыпочек!"
     # "Ты пока еще не настолько полюбилась папочке!"
-    biff "Нет, цыпочка!"
-    "Сейчас очередь других цыпочек!"
-    "Ты пока еще не настолько полюбилась папочке!"
+    biff "No, chick!"
+    "It's the other chicks' turn!"
+    "Daddy is not yet so fond of you!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:147
 translate english ep22_dialogue6_3_f27eb96d:
 
     # mt "УРОД!!!"
-    mt "УРОД!!!"
+    mt "FREAK!!!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:153
 translate english ep22_dialogue6_3_eaa18a59:
 
     # m "А если я пройду дополнительный кастинг?..."
-    m "А если я пройду дополнительный кастинг?..."
+    m "What if I get an extra audition?..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:155
 translate english ep22_dialogue6_3_6bf66bbb:
@@ -733,17 +733,17 @@ translate english ep22_dialogue6_3_6bf66bbb:
     # biff "Эта цыпочка пока слишком скучная для дополнительного кастинга!"
     # "Я держу эту куклу только из-за того что она похожа на сучку Бакфетт!"
     # "Иди и не отвлекай папочку! Ему нужно заботить о других цыпочках!"
-    biff "Эта цыпочка пока слишком скучная для дополнительного кастинга!"
-    "Я держу эту куклу только из-за того что она похожа на сучку Бакфетт!"
-    "Иди и не отвлекай папочку! Ему нужно заботить о других цыпочках!"
+    biff "This chick is still too boring for additional casting!"
+    "I got this doll just because she looks like a bitch Buckfett!"
+    "Go and don't distract daddy! He needs to take care of the other chicks!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:159
 translate english ep22_dialogue6_3_383c8c67:
 
     # mt "Я НЕНАВИЖУ ЭТОГО УРОДА!!!"
     # "КОГДА Я ВЕРНУ СВОЕ МЕСТО НАЗАД?!?!"
-    mt "Я НЕНАВИЖУ ЭТОГО УРОДА!!!"
-    "КОГДА Я ВЕРНУ СВОЕ МЕСТО НАЗАД?!?!"
+    mt "I HATE THIS MONSTER!!!"
+    "WHEN I RETURN IT BACK?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:164
 translate english ep22_dialogue6_3_7099d95e:
@@ -833,15 +833,15 @@ translate english ep22_dialogue6_5_e8b1bba9:
     # alex_photograph "Миссис Бакфетт!"
     # "Вы уже знаете кем в каком наряде Вы будете сниматься в этот раз?"
     alex_photograph "Mrs. Buckfett!"
-    "Вы уже знаете кем в каком наряде Вы будете сниматься в этот раз?"
+    "Do you know what outfit you are going to put on this time?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:235
 translate english ep22_dialogue6_5_d36a5df4:
 
     # m "Еще не знаю..."
     # "Что там Биф придумал на этот раз?"
-    m "Еще не знаю..."
-    "Что там Биф придумал на этот раз?"
+    m "Not sure yet..."
+    "What did Beef come up with this time?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:240
 translate english ep22_dialogue6_5_30c909fa:
@@ -922,7 +922,7 @@ translate english ep22_dialogue6_7_edf913d9:
     # "Где мои деньги?"
     # biff "Только хорошие цыпочки получают деньги от папочки!"
     # "Моника хорошая цыпочка?"
-    m "Биф! Я сделала фотосессию!"
+    m "Beef! I took a photo shoot!"
     "Where is my money?"
     biff "Only good Chicks get money from daddy!"
     "Is Monica a good chick?"
@@ -1075,5 +1075,5 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:148
     old "А если я пройду дополнительный кастинг?..."
-    new ""
+    new "What if I get an extra audition?..."
 

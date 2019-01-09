@@ -214,3 +214,13 @@ translate english citizens_dialogue_process_ba170977_3:
     # mt "Еще один обитатель трущоб. Таких тут полно."
     mt "Another slum-dweller. There's plenty of them here."
 
+# TODO: Translation updated at 2019-01-09 13:28
+
+# game/Quests/EP2/Citizens/Citizens_Controller.rpy:60
+translate english citizens_dialogue_refuse_ada061db:
+
+    # mt "Я боюсь подходить к людям в вечернее время."
+    # "Это опасно..."
+    mt "Я боюсь подходить к людям в вечернее время."
+    "Это опасно..."
+

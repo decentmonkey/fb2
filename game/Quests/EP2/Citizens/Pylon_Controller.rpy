@@ -1,6 +1,6 @@
-define boobsImages = [1000, 1001, 1002, 1003, 1004, 1005]
-define boobsImagesTonque = [1006, 1007]
-define assImages = [1008, 1009, 1010, 1011, 1012, 1013]
+define boobsImages = [8506, 8507, 8508, 8509, 8510, 8511, 8512, 8513, 8514, 8515]
+define boobsImagesTonque = [8516, 8517]
+define assImages = [8518, 8519, 8520, 8521, 8522, 8523, 8524, 8525, 8526, 8527]
 
 label pylonController(camera, citizenBehaviorSuffix, monicaBehaviorSuffix):
     return
