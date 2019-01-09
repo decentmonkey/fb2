@@ -51,6 +51,9 @@ label citizen7_dialogue:
                                 mt "Кажется я знаю о каком месте он говорит..."
                                 m "Не дождешься!"
                                 citizen7 "И напрасно. Вы же понимаете, что работа модели всегда оплачивается?"
+                                if fallingPathStarted == True:
+                                    mt "В любом случае об этом лучше говорить без этой дурацкой рекламы кебаба..."
+
                     else:
                         imgr Dial_Citizen_7_4
                         citizen7 "Я пытаюсь сосредоточиться на искусстве!"
@@ -73,17 +76,17 @@ label citizen7_dialogue_pilon:
     citizen7 "Вдохновение вещь сложная: очень сложно его найти... С чего бы нам начать?"
     $ showedBoobs = False
     $ showedButt = False
-    label .loop7:
+    label citizen7_dialogue_pilon_loop7:
     menu:
         "Покажи сиськи.":
             call pylonController(2, 3, 1)
             citizen7 "Милая, покажи свою чудесную грудь!"
-            if corruption < 50:
+            if corruption < monicaWhoringClothBoobsCorruptionRequired:
                 mt "Я не могу себе этого позволить!"
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
-                help "Требуется 50 corruption"
-                jump .loop7
+                help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+                jump citizen7_dialogue_pilon_loop7
             call pylonController(1, 1, 2)
             m "Я не собираюсь раздеваться, только так."
             call showRandomImages(boobsImages, 4)
@@ -95,16 +98,16 @@ label citizen7_dialogue_pilon:
             call pylonController(2, 3, 1)
             citizen7 "Отлично!"
             $ showedBoobs = True
-            jump .loop7
+            jump citizen7_dialogue_pilon_loop7
         "Покажи попу.":
             call pylonController(2, 3, 1)
             citizen7 "Как насчет попы? Уверен, она прекрасна, как и ты!"
-            if corruption < 70:
+            if corruption < monicaWhoringClothAssCorruptionRequired:
                 mt "Я не могу себе этого позволить!"
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
-                help "Требуется 70 corruption"
-                jump .loop7
+                help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+                jump citizen7_dialogue_pilon_loop7
             call pylonController(1, 1, 2)
             m "Я не собираюсь раздеваться, только так."
             call showRandomImages(assImages, 4)
@@ -114,16 +117,18 @@ label citizen7_dialogue_pilon:
             call pylonController(1, 1, 2)
             mt "Что за извращенец..."
             $ showedButt = True
-            jump .loop7
+            jump citizen7_dialogue_pilon_loop7
         "Достаточно на сегодня.":
             if showedBoobs == True and showedButt == True:
                 $ add_money(0.5)
                 citizen7 "Как и любой модели, тебе полагается награда."
-                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                m "Что?! Так мало? Мог бы дать и больше!"
+                mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
                 return
             if showedBoobs == True or showedButt == True:
                 citizen7 "Как и любой модели, тебе полагается награда."
-                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                m "Что?! Так мало? Мог бы дать и больше!"
+                mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
                 $ add_money(0.25)
                 return
             #если не было

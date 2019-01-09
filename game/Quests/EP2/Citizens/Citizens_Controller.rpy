@@ -1,4 +1,5 @@
 default fallingPathStarted = False
+default whorePlaceFounded = False
 
 default citizensAmountDay = 8
 default citizensAmountEvening = 5
@@ -297,4 +298,10 @@ label citizens_init_evening:
         for var1 in citizensEveningList:
             set_active(var1, True, scene="all")
     $ print citizensEveningList
+    return
+
+
+label needToFindWhorePlace:
+    mt "Мне надо найти какое-то тихое место."
+    "Не собираюсь-же я делать это здесь..."
     return

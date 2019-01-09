@@ -126,17 +126,17 @@ label citizen3_dialogue_pilon:
     citizen3 "Ну что, тетя..."
     $ showedBoobs = False
     $ showedButt = False
-    label .loop3:
+    label citizen3_dialogue_pilon_loop3:
     menu:
         "Покажи сиськи.":
             call pylonController(2, 3, 1) #(2- камера со спины Моники, чуваки лицом, 3 - эмоция и поза чувака, 1 - Моника стоит спиной скрестив руки)
             citizen3 "Покажи ка свои сиськи!"
-            if corruption < 50:
+            if corruption < monicaWhoringClothBoobsCorruptionRequired:
                 mt "Я не могу себе этого позволить!"
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
-                help "Требуется 50 corruption"
-                jump .loop3
+                help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+                jump citizen3_dialogue_pilon_loop3
 
             call pylonController(1, 1, 2) #(1 - камера со спины чуваков, Моника лицом, 1 - эмоция, 2 - Моника недовольно отвечает, жестикулируя)
             m "Я не собираюсь раздеваться, только так."
@@ -149,16 +149,16 @@ label citizen3_dialogue_pilon:
             call pylonController(2, 3, 1) #(2- камера со спины Моники, чуваки лицом, 3 - эмоция и поза чувака, 1 - Моника стоит спиной скрестив руки)
             citizen3 "Надо же с чего-то начинать..."
             $ showedBoobs = True
-            jump .loop3
+            jump citizen3_dialogue_pilon_loop3
         "Покажи попу.":
             call pylonController(2, 3, 1)
             citizen3 "Детка, повернись ко мне спиной. И покажи свою попку."
-            if corruption < 70:
+            if corruption < monicaWhoringClothAssCorruptionRequired:
                 mt "Я не могу себе этого позволить!"
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
-                help "Требуется 70 corruption"
-                jump .loop3
+                help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+                jump citizen3_dialogue_pilon_loop3
             call pylonController(1, 1, 2)
             m "Я не собираюсь раздеваться, только так."
             # img показывает зад
@@ -168,17 +168,19 @@ label citizen3_dialogue_pilon:
             call pylonController(1, 1, 2)
             citizen3 "Какая красота!"
             $ showedButt = True
-            jump .loop3
+            jump citizen3_dialogue_pilon_loop3
         "Достаточно на сегодня.":
             # дает монике копейку если были показы
             if showedBoobs == True and showedButt == True:
                 $ add_money(0.5)
                 citizen3 "Ты сделала мой день, отлично потрудилась."
-                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                m "Что?! Так мало? Мог бы дать и больше!"
+                mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
                 return
             if showedBoobs == True or showedButt == True:
                 citizen3 "Ты сделала мой день, отлично потрудилась."
-                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                m "Что?! Так мало? Мог бы дать и больше!"
+                mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
                 $ add_money(0.25)
                 return
             #если не было

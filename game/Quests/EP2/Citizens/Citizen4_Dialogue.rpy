@@ -35,6 +35,8 @@ label citizen4_dialogue:
                                 m "Договорились о чем?"
                                 citizen4 "Что за вопросы? Обычно девушки вашей профессии это понимают."
                                 mt "Да что за люди здесь живут?! Всем надо одно и то же..."
+                                if fallingPathStarted == True:
+                                    mt "В любом случае об этом лучше говорить без этой дурацкой рекламы кебаба..."
                     else:
                         imgr Dial_Citizen_4_4
                         citizen4 "Давайте в другой раз!"
@@ -51,22 +53,22 @@ label citizen4_dialogue_pilon:
     imgr Dial_Citizen_4_3
     citizen4 "Конечно, давай познакомимся."
     m "Ну я не о близком знакомстве...Немного о другом."
-    citizen4 "Да не вопрос, я понимаю о чем речь. Любой из нашего района тебя поймет с полу слова."
+    citizen4 "Да не вопрос, я понимаю о чем речь. Любой из нашего района тебя поймет с полуслова."
     # уходят к пилону.
     citizen4 "Ну что, давай начнем."
     $ showedBoobs = False
     $ showedButt = False
-    label .loop4:
+    label citizen4_dialogue_pilon_loop4:
     menu:
         "Покажи сиськи.":
             call pylonController(2, 3, 1)
             citizen4 "Покажи мне свои сиськи!"
-            if corruption < 50:
+            if corruption < monicaWhoringClothBoobsCorruptionRequired:
                 mt "Я не могу себе этого позволить!"
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
-                help "Требуется 50 corruption"
-                jump .loop4
+                help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+                jump citizen4_dialogue_pilon_loop4
             call pylonController(1, 1, 2)
             m "Я не собираюсь раздеваться, только так."
             call showRandomImages(boobsImages, 4)
@@ -78,16 +80,16 @@ label citizen4_dialogue_pilon:
             call pylonController(2, 3, 1)
             citizen4 "Хотя весьма не плохо."
             $ showedBoobs = True
-            jump .loop4
+            jump citizen4_dialogue_pilon_loop4
         "Покажи попу.":
             call pylonController(2, 3, 1)
             citizen4 "Покажи свой задницу."
-            if corruption < 70:
+            if corruption < monicaWhoringClothAssCorruptionRequired:
                 mt "Я не могу себе этого позволить!"
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
-                help "Требуется 70 corruption"
-                jump .loop4
+                help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+                jump citizen4_dialogue_pilon_loop4
             call pylonController(1, 1, 2)
             m "Я не собираюсь раздеваться, только так."
             # img показывает зад
@@ -97,18 +99,20 @@ label citizen4_dialogue_pilon:
             call pylonController(1, 1, 2)
             citizen4 "Но ее можно увеличить, подумай об этом."
             $ showedButt = True
-            jump .loop4
+            jump citizen4_dialogue_pilon_loop4
         "Достаточно на сегодня.":
             if showedBoobs == True and showedButt == True:
                 $ add_money(0.5)
                 citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
                 # дает монике копейку если были показы
-                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                m "Что?! Так мало? Мог бы дать и больше!"
+                mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
                 return
             if showedBoobs == True or showedButt == True:
                 citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
                 # дает монике копейку если были показы
-                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                m "Что?! Так мало? Мог бы дать и больше!"
+                mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
                 $ add_money(0.25)
                 return
             #если не было

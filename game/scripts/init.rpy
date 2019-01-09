@@ -42,6 +42,11 @@ define photoshoot1_casting_corruption_required = 0 #Кол-во corruption дл�
 define photoshoot2_casting_corruption_required = 0 #Кол-во corruption для кастинга после фотосессии
 define photoshoot3_casting_corruption_required = 0 #Кол-во corruption для кастинга после фотосессии
 
+define monicaWhoringClothBoobsCorruptionRequired = 50 # Кол-во corruption, чтобы Моника показала грудь в одежде
+define monicaWhoringClothBoobsTongueCorruptionRequired = 60 #Кол-во corruption, чтобы Моника показала грудь в одежде и высунула язык
+define monicaWhoringClothAssCorruptionRequired = 70 # Кол-во corruption, чтобы Моника показала грудь в одежде
+
+
 default houseMusic = "Mandeville"
 #default biffMusic = "Funk_loop8"
 default biffMusic = "Groove2_85"

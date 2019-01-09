@@ -37,6 +37,9 @@ label citizen15_dialogue:
                                 m "А?"
                                 citizen15 "Давай сходим за угол, там нам никто не помешает.. Глядишь и заработаешь что нибудь."
                                 m "Да кем ты себя возомнил?!"
+                                if fallingPathStarted == True:
+                                    mt "В любом случае об этом лучше говорить без этой дурацкой рекламы кебаба..."
+
                     else:
                         imgr Dial_Citizen_15_4
                         citizen15 "Я важная персона! У меня нет времени на флаеры!"
@@ -58,17 +61,17 @@ label citizen15_dialogue_pilon:
     citizen15 "Ну что, начинай, только не разочаруй меня."
     $ showedBoobs = False
     $ showedButt = False
-    label .loop15:
+    label citizen15_dialogue_pilon_loop15:
     menu:
         "Покажи сиськи.":
             call pylonController(2, 3, 1)
             citizen15 "Для начала сиськи, показывай!"
-            if corruption < 50:
+            if corruption < monicaWhoringClothBoobsCorruptionRequired:
                 mt "Я не могу себе этого позволить!"
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
-                help "Требуется 50 corruption"
-                jump .loop15
+                help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+                jump citizen15_dialogue_pilon_loop15
 
             call pylonController(1, 1, 2)
             m "Я не собираюсь раздеваться, только так."
@@ -79,16 +82,16 @@ label citizen15_dialogue_pilon:
             # img показывает сиськи
             citizen15 "Мда, ну и так сойдет..."
             $ showedBoobs = True
-            jump .loop15
+            jump citizen15_dialogue_pilon_loop15
         "Покажи попу.":
             call pylonController(2, 3, 1)
             citizen15 "А теперь повернсь и покажи свой зад!"
-            if corruption < 70:
+            if corruption < monicaWhoringClothAssCorruptionRequired:
                 mt "Я не могу себе этого позволить!"
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
-                help "Требуется 70 corruption"
-                jump .loop15
+                help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+                jump citizen15_dialogue_pilon_loop15
             call pylonController(1, 1, 2)
             m "Я не собираюсь раздеваться, только так."
             call showRandomImages(assImages, 4)
@@ -98,16 +101,18 @@ label citizen15_dialogue_pilon:
             call pylonController(1, 1, 2)
             mt "Что за козел. Врезать может ему?"
             $ showedButt = True
-            jump .loop15
+            jump citizen15_dialogue_pilon_loop15
         "Достаточно на сегодня.":
             if showedBoobs == True and showedButt == True:
                 $ add_money(0.5)
                 citizen15 "Красивая шлюшка. Уверен, ты можешь больше, а пока так..."
-                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                m "Что?! Так мало? Мог бы дать и больше!"
+                mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
                 return
             if showedBoobs == True or showedButt == True:
                 citizen15 "Красивая шлюшка. Уверен, ты можешь больше, а пока так..."
-                m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+                m "Что?! Так мало? Мог бы дать и больше!"
+                mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
                 $ add_money(0.25)
                 return
             #если не было
