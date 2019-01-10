@@ -4,6 +4,9 @@ define bettyCleaningProgessRegressAmount = -10 # Насколько убавля
 define bettyTryOutInGovernessClothRegressAmount = -10 # Насколько убавляется прогресс с Бетти если Моника пытается выйти за пределы дома в одежде гувернантки
 
 define bardieCleaningUpskirtTry = 15 #15 #Прогресс с Барди за попытку подсмотреть во время уборки (начальная стадия)
+define bardieCleaningUpskirtTry2 = 15 #15 #Прогресс с Барди за просмотр трусиков во время уборки (трусики Юлии)
+define bardieCleaningUpskirtTry3 = 10 # Прогресс с Барди за просмотр трусиков во время уборки (трусики Бетти)
+define bardieCleaningUpskirtTry3_wrong_panties = -7 # Убавление прогресса за неверные трусики
 define bardieCleaning2Upskirt = 15 # Прогресс Барди за просмотр юбки Моники (трусики Юлии)
 
 define bardieCleaningUpskirtTryCorruption = 0 # Увеличение corruption, когда Барди подсматривает под юбку Моники
@@ -243,6 +246,8 @@ label define_hudpresets:
 
 label run_after_load:
     $ print "after load!"
+    call define_hudpresets()
+    call questLog_init()
     return
 
 label game_init:

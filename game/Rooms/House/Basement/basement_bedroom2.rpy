@@ -7,33 +7,39 @@ label basement_bedroom2:
 
     $ scene_image = "scene_Basement_Bedroom2"
     $ basementHoleIncomingDirection = "Bedroom"
+
+    $ basementBedroomBettyPantiesOnly = False
+    if cloth == "GovernessPants" and monicaBettyPanties == True:
+        $ basementBedroomBettyPantiesOnly = True
+
+
 #    music Sneak_n_Get_Caught
     music Stealth_Groover
 
     return
 
 label basement_bedroom2_init:
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Basement_Bedroom2_Monica_[cloth]_[basement_bedroom2_MonicaSuffix]", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder":10, "tint": [1.0, 1.0, 0.9]}, {"basementBedroomMonicaNapGfx":{"v":True, "base":"Basement_Bedroom2_Monica_[cloth]_Nap_[basementBedNapIndex]"}, "basementBedroomMonicaSleepGfx":{"v":True, "base":"Basement_Bedroom2_Monica_Sleep_[basementBedSleepIndex]"}})
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Basement_Bedroom2_Monica_[cloth]_[basement_bedroom2_MonicaSuffix]", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder":10, "tint": [1.0, 1.0, 0.9]}, {"basementBedroomMonicaNapGfxBettyPanties":{"v":True, "base":"Basement_Bedroom2_Monica_Governess_Betty_[monicaBettyPantiesId]_Nap_1", "img_overlay":"Basement_Bedroom2_Monica_GovernessPants_Nap_1_Overlay"}, "basementBedroomMonicaNapGfx":{"v":True, "base":"Basement_Bedroom2_Monica_[cloth]_Nap_[basementBedNapIndex]"}, "basementBedroomMonicaSleepGfx":{"v":True, "base":"Basement_Bedroom2_Monica_Sleep_[basementBedSleepIndex]"}, "basementBedroomBettyPantiesOnly":{"v":True, "base":"Basement_Bedroom2_Monica_Governess[basement_bedroom2_MonicaSuffix]_Betty_[monicaBettyPantiesId]", "img_overlay":"Basement_Bedroom2_Monica_GovernessPants_[basement_bedroom2_MonicaSuffix]_Overlay"}}, scene="basement_bedroom2")
 
 #    if basementBedroomJournal == True:
 #        $ add_object_to_scene("Journal", {"type":2, "base":"Basement_Bedroom2_Journal", "click" : "basement_bedroom2_environment", "actions" : "lw", "zorder" : 1})
 
-    $ add_object_to_scene("BasementBed", {"type":2, "base":"Basement_Bedroom2_Bed", "click" : "basement_bedroom2_environment", "actions" : "lh", "zorder" : 0})
-    $ add_object_to_scene("Book", {"type":2, "base":"Basement_Bedroom2_Book", "click" : "basement_bedroom2_environment", "actions" : "lw", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("Cupboard", {"type":2, "base":"Basement_Bedroom2_Cupboard", "click" : "basement_bedroom2_environment", "actions" : "lw", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("Lamp", {"type":2, "base":"Basement_Bedroom2_Lamp", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "b":0.18, "group":"environment"})
-    $ add_object_to_scene("Picture1", {"type":2, "base":"Basement_Bedroom2_Picture1", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("Picture2", {"type":2, "base":"Basement_Bedroom2_Picture2", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("Picture3", {"type":2, "base":"Basement_Bedroom2_Picture3", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("Picture4", {"type":2, "base":"Basement_Bedroom2_Picture4", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("Picture5", {"type":2, "base":"Basement_Bedroom2_Picture5", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("Picture6", {"type":2, "base":"Basement_Bedroom2_Picture6", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("Picture7", {"type":2, "base":"Basement_Bedroom2_Picture7", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("Picture8", {"type":2, "base":"Basement_Bedroom2_Picture8", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("Picture9", {"type":2, "base":"Basement_Bedroom2_Picture9", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
-    $ add_object_to_scene("Table", {"type":2, "base":"Basement_Bedroom2_Table", "click" : "basement_bedroom2_environment", "actions" : "lw", "zorder" : 0, "group":"environment"})
+    $ add_object_to_scene("BasementBed", {"type":2, "base":"Basement_Bedroom2_Bed", "click" : "basement_bedroom2_environment", "actions" : "lh", "zorder" : 0}, scene="basement_bedroom2")
+    $ add_object_to_scene("Book", {"type":2, "base":"Basement_Bedroom2_Book", "click" : "basement_bedroom2_environment", "actions" : "lw", "zorder" : 0, "group":"environment"}, scene="basement_bedroom2")
+    $ add_object_to_scene("Cupboard", {"type":2, "base":"Basement_Bedroom2_Cupboard", "click" : "basement_bedroom2_environment", "actions" : "lw", "zorder" : 0, "group":"environment"}, scene="basement_bedroom2")
+    $ add_object_to_scene("Lamp", {"type":2, "base":"Basement_Bedroom2_Lamp", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "b":0.18, "group":"environment"}, scene="basement_bedroom2")
+    $ add_object_to_scene("Picture1", {"type":2, "base":"Basement_Bedroom2_Picture1", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="basement_bedroom2")
+    $ add_object_to_scene("Picture2", {"type":2, "base":"Basement_Bedroom2_Picture2", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="basement_bedroom2")
+    $ add_object_to_scene("Picture3", {"type":2, "base":"Basement_Bedroom2_Picture3", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="basement_bedroom2")
+    $ add_object_to_scene("Picture4", {"type":2, "base":"Basement_Bedroom2_Picture4", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="basement_bedroom2")
+    $ add_object_to_scene("Picture5", {"type":2, "base":"Basement_Bedroom2_Picture5", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="basement_bedroom2")
+    $ add_object_to_scene("Picture6", {"type":2, "base":"Basement_Bedroom2_Picture6", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="basement_bedroom2")
+    $ add_object_to_scene("Picture7", {"type":2, "base":"Basement_Bedroom2_Picture7", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="basement_bedroom2")
+    $ add_object_to_scene("Picture8", {"type":2, "base":"Basement_Bedroom2_Picture8", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="basement_bedroom2")
+    $ add_object_to_scene("Picture9", {"type":2, "base":"Basement_Bedroom2_Picture9", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="basement_bedroom2")
+    $ add_object_to_scene("Table", {"type":2, "base":"Basement_Bedroom2_Table", "click" : "basement_bedroom2_environment", "actions" : "lw", "zorder" : 0, "group":"environment"}, scene="basement_bedroom2")
 
-    $ add_object_to_scene("Teleport_Bedroom1", {"type":3, "text" : _("ШКАФ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "basement_bedroom2_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "high_sprite_hover":True})
+    $ add_object_to_scene("Teleport_Bedroom1", {"type":3, "text" : _("ШКАФ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "basement_bedroom2_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "high_sprite_hover":True}, scene="basement_bedroom2")
 
     return
 

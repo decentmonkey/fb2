@@ -1,11 +1,15 @@
 default floor2BettyPositionSuffix = 0
-
+default floor2WashingSport = False
 label floor2:
     $ print "enter_floor2"
     $ miniMapData = []
     call miniMapHouseGenerate() from _call_miniMapHouseGenerate_17
 
     $ scene_image = "scene_Floor2_Evening"
+
+    if floor2WashingSport == True:
+        $ scene_image = "scene_Floor2_Evening_WashingSpot"
+
 
     $ floor2BettyPositionSuffix = str(renpy.random.randint(1,3))
     music houseMusic

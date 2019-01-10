@@ -561,6 +561,8 @@ label monica_office_cabinet_biff_dialogue1:
     "Я буду звать тебя Моника Бакфетт! Ха-ха-ха!"
 
     $ restore_music()
+    $ questLog(6, False)
+    $ questLog(7, True)
     $ monicaOfficeSecretaryMonicaSuffix_forced = ""
     $ autorun_to_object("monica_office_cabinet_biff_dialogue1a", scene="monica_office_secretary")
     call change_scene("monica_office_secretary") from _call_change_scene_62
@@ -1219,6 +1221,7 @@ label monica_office_photostudio_alex_dialogue2:
             $ restore_music()
             return False
 
+    $ questLog(9, False)
     img 6517
     with fade
     $ add_corruption(monicaBiffWork3CorruptionAdding, "monicaBiffWork3CorruptionAdding")

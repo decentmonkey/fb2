@@ -21,3 +21,13 @@ init python:
 #                renpy.pause()
 #                idx = 0
         print objectives_list
+
+    def questLog(questLogIdx, status):
+        global questLogDataEnabled
+        questLogDataEnabled[str(questLogIdx)] = status
+        notif(_("Журнал обновлен"))
+#        for idx in range(0, len(questLogData)):
+#            if questLogData[idx][0] == questLogIdx:
+#                questLogData[idx][2] = status
+#                break
+        return

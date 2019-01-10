@@ -85,6 +85,7 @@ label dick_the_lawyer_enter1:
     $ remove_objective("go_dick")
     $ remove_hook()
     call monica_dick_dialogue1a() from _call_monica_dick_dialogue1a
+
     return
 
 label dick_the_lawyer_talk1:
@@ -113,6 +114,7 @@ label dick_secretary_talk2:
         return
     call monica_dick_secretary_dialogue2() from _call_monica_dick_secretary_dialogue2
     $ add_objective("dicksecretary_find_money", _("Принести Виктории $ 5000 до вечера пятницы"), c_red, 30)
+    $ questLog(10, True)
     $ add_char_progress("DickSecretary", 20, "dick_secretary_talk2")
     $ remove_hook(label="secretary1")
     $ add_hook("DickSecretary", "dick_secretary_talk3", scene="dick_office_secretary")
@@ -161,6 +163,7 @@ label monica_office_biff_talk_about_work1: #Моника разговарива�
     $ monicaOfficeSecretaryMonicaSuffix_forced = ""
     if _return == False:
         return False
+    $ questLog(9, True)
     call change_scene("monica_office_secretary") from _call_change_scene_20
     $ autorun_to_object("monica_office_secretary_dialogue5", scene="monica_office_secretary")
     if nextFriday != day:
@@ -303,6 +306,8 @@ label monica_charity_event_biff_talk3:
     call monica_charity_event_dialogue10() from _call_monica_charity_event_dialogue10
     $ remove_hook()
     $ richHotelEventStage = 1
+    $ questLog(10, False)
+    $ questLog(11, True)
     $ remove_hook("Teleport_Rich_Hotel_Tables", "monica_charity_event_dialogue9", scene="rich_hotel_event_hall")
     $ set_active("Teleport_Rich_Hotel_Tables", False, scene="rich_hotel_event_hall")
     $ move_object("Philip", "rich_hotel_event_hall")
@@ -406,6 +411,7 @@ label monica_after_charity_event:
     $ move_object("Biff", "monica_office_cabinet")
     call monica_rich_hotel_event_drive_back() from _call_monica_rich_hotel_event_drive_back
     call monica_office_biff_dialogue_evening1() from _call_monica_office_biff_dialogue_evening1
+    $ questLog(11, False)
     $ autorun_to_object("monica_office_dialogue1", scene="street_monica_office")
     $ add_hook("Teleport_Inside", "monica_office_dialogue1", scene="street_monica_office", label="block_monica_office")
     $ add_hook("Teleport_Inside", "monica_after_charity_event_dick_entrance_talk1", scene="dick_office_entrance", label="dick_office_entrance")

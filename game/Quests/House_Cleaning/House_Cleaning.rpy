@@ -1,6 +1,8 @@
 default houseCleaningStoredScene = False
 default cleaningLog = []
 
+default spotCleaning = False
+
 #default houseCleaningCurrent = 3
 #default houseCleaningCurrentList = []
 
@@ -183,6 +185,9 @@ label house_cleaning_room_finished:
             call refresh_scene("Dissolve_fast") from _call_refresh_scene_8
             return False
 
+    if spotCleaning == True:
+        call house_cleaning_spot()
+        return False
     call house_cleaning_end() from _call_house_cleaning_end
     return False
 
@@ -198,6 +203,68 @@ label processHouseCleaningEvening:
         $ add_char_progress("Betty", bettyCleaningProgessRegressAmount, "cleaning_day_" + str(day))
 
     return
+
+label house_cleaning_spot:
+    $ set_active(False, group="environment", scene="House", recursive=True)
+    $ monicaCleaningInProgress = False
+    $ set_active("Spot", True, scene="floor2")
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Floor2_Monica_Cleaning_Spot_Evening", "click" : "house_cleaning_spot_click", "actions" : "l", "zorder":11, "tint": monica_tint}, {"monicaBettyPanties": {"v":True, "base" : "Floor2_Monica_Cleaning_Spot_Betty_[monicaBettyPantiesId]_Evening"}}, scene="floor2")
+    $ add_object_to_scene("Spot", {"type" : 2, "base" : "Floor2_Spot", "click" : "house_cleaning_spot_click", "actions" : "l", "zorder":10, "group":"environment"}, scene="floor2")
+    $ add_hook("Spot", "house_cleaning_spot_click", scene="floor2")
+    $ add_hook("Monica", "house_cleaning_spot_click", scene="floor2")
+    $ autorun_to_object("ep22_dialogue2_7a", scene="floor2")
+    call refresh_scene_fade()
+    call change_scene("floor2")
+    return
+label house_cleaning_spot_click:
+#    $ monicaCleaningInProgress = True
+    $ store_music()
+    music stop
+    menu:
+        "Смотреть...":
+            music snd_scrub_music
+            call ep22_Act_Images_monica_cleaning_spot()
+        "Пропустить.":
+            pass
+    $ restore_music()
+    call house_cleaning_end()
+    #Floor2_Monica_Cleaning_Spot_Evening_Overlay
+    #Floor2_Monica_Cleaning_Spot_Evening
+    #Floor2_Monica_Cleaning_Spot_Betty_1_Evening
+    #monicaBettyPanties
+    #monicaBettyPantiesId
+    return False
+
+label house_cleaning_spot_external_call:
+    $ houseCleaningStoredScene = store_scene("floor2")
+    python:
+        objects = get_active_objects(scene="floor2", teleport=True)
+        if objects != False:
+            for obj1 in objects:
+                add_hook(obj1[1], "cleaning_monica_goout1", scene=obj1[2])
+    $ set_active(False, group="environment", scene="floor2")
+    $ set_active("Spot", True, scene="floor2")
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Floor2_Monica_Cleaning_Spot_Evening", "click" : "house_cleaning_spot_click_external_call", "actions" : "l", "zorder":11, "tint": monica_tint}, {"monicaBettyPanties": {"v":True, "base" : "Floor2_Monica_Cleaning_Spot_Betty_[monicaBettyPantiesId]_Evening"}}, scene="floor2")
+    $ add_object_to_scene("Spot", {"type" : 2, "base" : "Floor2_Spot", "click" : "house_cleaning_spot_click_external_call", "actions" : "l", "zorder":10, "group":"environment"}, scene="floor2")
+    $ add_hook("Spot", "house_cleaning_spot_click_external_call", scene="floor2")
+    $ add_hook("Monica", "house_cleaning_spot_click_external_call", scene="floor2")
+    call refresh_scene_fade()
+    call change_scene("floor2")
+    return
+
+label house_cleaning_spot_click_external_call:
+    $ store_music()
+    music stop
+    menu:
+        "Смотреть...":
+            music snd_scrub_music
+            call ep22_Act_Images_monica_cleaning_spot()
+        "Пропустить.":
+            pass
+    $ restore_music()
+    $ restore_scene(houseCleaningStoredScene)
+    call refresh_scene_fade()
+    return False
 
 label start_cleaning_dialogue1a:
     mt "Сегодня пришла очередь убрать"

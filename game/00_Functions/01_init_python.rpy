@@ -90,7 +90,9 @@ python early:
             copy_what = re.sub("\?\s{1,}", "?\n", copy_what)
             copy_what = re.sub("\.\s{1,}", ".\n", copy_what)
             mycopytext(copy_what) #put into clipboard
-
+        keyPressed = pygame.key.get_pressed()
+        if keyPressed[pygame.K_SLASH]:
+            return
         renpy.say(who, what)
 
     renpy.register_statement("", parse=saywrapper_parse, execute=saywrapper_execute, lint = saywrapper_lint, translatable=True) #враппер для say, чтобы подымать флаг активного диалога
@@ -105,7 +107,9 @@ python early:
         renpy.hide_screen("choice")
         renpy.hide("window")
         renpy.show_screen("dialogue_down_arrow")
-        renpy.pause()
+        keyPressed = pygame.key.get_pressed()
+        if not keyPressed[pygame.K_SLASH]:
+            renpy.pause()
         renpy.hide_screen("dialogue_down_arrow")
         dialogue_active_flag = False
         screenActionHappened = True

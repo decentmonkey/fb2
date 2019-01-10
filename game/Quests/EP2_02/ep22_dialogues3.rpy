@@ -12,9 +12,11 @@ label ep22_dialogues3_1:
     "Пойду отдохну..."
     return
 label ep22_dialogues3_2:
+    music Groove2_85 high
     #render
     #У Барди уровень 2. Моника приходит в спальню в подвале в одежде гувернантки, либо телепортируется туда после уборки
     img 7456
+    with fade
     m "Эй! Малявка!"
     "Что ты делаешь здесь?!"
     img 7457
@@ -27,11 +29,13 @@ label ep22_dialogues3_2:
     img 7459
     bardie "Моника, покажи трусики..."
     m "ЧТО?!?!"
+    music Pyro_Flow high
     img 7460
     "ТЫ ПРИШЕЛ СЮДА ЧТОБЫ СНОВА СКАЗАТЬ ЭТУ ЧУШЬ?!?!"
     "Я тебе отвечала сто раз чтобы ты перестал нести этот вздор!"
     "Кто ты вообще такой! Ты какая-то малявка!"
     "Как ты смеешь вообще говорить такое мне!!!"
+    music Groove2_85
     img 7461
     bardie "Тебе, это кому?"
     img 7462
@@ -41,19 +45,23 @@ label ep22_dialogues3_2:
     "Малявка!!!"
     img 7463
     bardie "Моника, если ты не покажешь мне свои трусики, то я все расскажу Маркусу!"
+    music Power_Bots_Loop high
     img 7464
     m "ЧТО?!?! КОМУ?!?"
     mt "О ЧЕМ ЭТО ОН???"
+    music Groove2_85 high
     img 7465
     bardie "Мистеру Маркусу! Я завтра же пойду в полицию и расскажу о тебе!"
     m "И что ты собираешь обо мне рассказать?!"
     bardie "Что ты работаешь в доме, но не имеешь разрешение на это!"
     "Тебе выдадут за это штраф!"
     "Так что лучше покажи мне свои трусики!"
+    music Pyro_Flow high
     img 7466
     m "ЧТО?!?!"
     "ТЫ ЕЩЕ СМЕЕШЬ ШАНТАЖИРОВАТЬ МЕНЯ, МАЛЯВКА?!?!"
     "Тебя даже не впустят туда! Такого маленького болвана!"
+    music Groove2_85 high
     img 7467
     bardie "Я не маленький! Я уже большой!"
     img 7468
@@ -64,11 +72,14 @@ label ep22_dialogues3_2:
     img 7470
     m "У тебя еще не отросло то что нужно для таких дел, как это!"
     img 7471
+    with fade
     bardie "Ты пожалеешь об этом!"
     "О том что сказала мне!"
     # Барди уходит
 
+    music Hidden_Agenda high
     img 7472
+    with fadelong
     mt "Вот малявка!"
     "Я не собираюсь поддаваться на его шантаж!"
     "Он не сможет рассказать Маркусу обо мне!"
@@ -84,15 +95,26 @@ label ep22_dialogues3_3:
     # Сон, первая же ночь после разговора с Барди
     #Моника едет с Маркусом в машине.
     #Вечер. Фреда нет
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    music dream
+    pause 1.0
+    img white_screen
+    with Dissolve(1.0)
+    pause 2.0
     img 7474
+    with Dissolve(1.0)
     m "Ммммпххф..."
     "ГДЕ Я?!?"
     img 7473
+    with fade
     w
     img 7475
     m "Маркус? Мммпхф... Здесь? Мммм..."
     "Что ты ммммффф делаешь здесь??"
     img 7476
+    with fade
     "..."
     "Что со мной?!"
     #Смотрит на водителя
@@ -101,6 +123,7 @@ label ep22_dialogues3_3:
     img 7477
     "И почему нет водителя?"
 
+    music Master_Disorder
     img 7479
     marcus "Это сон, Моника."
     marcus "Я захотел поговорить наедине с тобой."
@@ -116,6 +139,7 @@ label ep22_dialogues3_3:
     img 7484
     mt "!!!"
     img 7485
+    with fade
     marcus "Эх, Моника."
     "Мне так жаль..."
     "Ты ведь могла стать звездой..."
@@ -127,12 +151,16 @@ label ep22_dialogues3_3:
     img 7488
     "Это было только вступление, Моника."
     img 7489
+    with fade
     "Я жду тебя завтра."
     img 7490
     m "!!!"
 
+    music Power_Bots_Loop
+    sound snd_woman_scream1a
     # Крик, Моника просыпается
     img 7491
+    with fade
     m "Аааааааааа!!!"
     img 7492
     mt "Вдруг у Барди хватит смелости пойти к Маркусу?!"
@@ -144,11 +172,25 @@ label ep22_dialogues3_3:
     # делается focus_map на полицию
     return
 
+label ep22_dialogues3_3a:
+    mt "Мне надо в полицию!!!"
+    "Срочно!!!"
+    "Я должна перехватить его если он пошел туда!"
+    return
+label ep22_dialogues3_3b:
+    mt "Мне надо в полицию!!!"
+    "Срочно!!!"
+    "Я должна перехватить его если он пошел туда!"
+    return False
+
 
 label ep22_dialogues3_4:
     #render
     # Полиция. Моника, Барди, Рецепшин
+    sound highheels_short_walk
+    music Power_Bots_Loop
     img 7494
+    with fadelong
     mt "О БОЖЕ!!!"
     "ОН ЗДЕСЬ!!!"
     img 7495
@@ -156,7 +198,9 @@ label ep22_dialogues3_4:
     bardie "Я пришел к Мистеру Маркусу!"
     policewoman "Зачем Мистер Маркус такому мальчику как ты?"
     bardie "У меня важная информация для него!"
+    sound highheels_short_walk
     img 7496
+    with fade
     m "Барди! Пожалуйста! Не надо!"
     img 7497
     bardie "Ааа! Ты здесь!"
@@ -164,6 +208,7 @@ label ep22_dialogues3_4:
     bardie "Я тебя предупреждал! Теперь не жалуйся!"
     bardie "Ты получишь штраф! И тебе теперь не отвертеться!"
     img 7498
+    with fade
     m "Нет! Барди! Пожалуйста! Мне не нужен штраф!"
     img 7499
     mt "!!!"
@@ -175,6 +220,7 @@ label ep22_dialogues3_4:
     bardie "Отстань от меня! Уже поздно меня уговаривать!"
     "И отпусти мою руку, иначе я закричу!"
     img 7502
+    with fade
     m "Барди! Пожалуйста! Извини за то что тебя так называла!"
     menu:
         "Я сделаю все что ты хочешь, только не зови Маркуса!":
@@ -200,19 +246,23 @@ label ep22_dialogues3_4:
 
 
     img 7505
+    with fade
     "Я буду делать все что ты скажешь, только не зови его!"
+    music Marty_Gots_a_Plan
     bardie "Точно?"
     m "Да... точно..."
     img 7506
     bardie "Тогда сделай глаза вот так!" #сводит их в кучу
     img 7507
     m "Я... не умею так делать..."
+    music Power_Bots_Loop
     img 7508
     bardie "Ты обманываешь меня!"
     "Я не верю тебе!"
     m "НЕЕЕЕТ! Я буду слушаться тебя!"
     "Ты мой новый хозяин дома!"
     img 7509
+    with fade
     bardie "Хм..."
     "Ладно..."
     "Но если ты ослушаешься меня хоть раз, то Мистер Маркус выпишет штраф тебе!"
@@ -222,6 +272,7 @@ label ep22_dialogues3_4:
     "Пожалуйста, уйдем отсюда!"
 
     img 7511
+    with fade
     policewoman "Мальчик! Так что мне передать Мистеру Маркусу?"
     img 7512
     bardie "Извините, пока ничего. Я приду позже, возможно..."
@@ -230,6 +281,7 @@ label ep22_dialogues3_4:
     img 7514
     bardie "Я очень скоро проверю свою новую игрушку!"
     img 7515
+    with fade
     bardie "Завтра после уборки жду тебя в твоей спальне!"
     "До встречи!"
     return
@@ -259,7 +311,10 @@ label ep22_dialogues3_6:
     #Барди сидит с журналом на кровати Моники в спальне в подвале
     #Возвращение в спальню на следующий день
     #Если Моника одета в гувернантку, иначе Барди нет
+    sound highheels_short_walk
+    music Power_Bots_Loop high
     img 7516
+    with fadelong
     m "Что это у тебя в руках???"
     img 7517
     bardie "Смотри что я нашел у тебя!"
@@ -268,19 +323,23 @@ label ep22_dialogues3_6:
     menu:
         "Да, это Я. Я - миссис Бакфетт!":
             pass
+    music Groove2_85 high
     img 7518
+    with fade
     "Да, это Я. Я - миссис Бакфетт!"
     "Но это не твое дело!"
     img 7519
     bardie "Но ведь Моника Бакфетт - это глава компании где работает мой отец!"
     bardie "Как это можешь быть ты?"
     "Гувернанка???"
+    music Hidden_Agenda high
     img 7520
     m "У меня небольшие сложности... Временные..."
     "Это не твое дело..."
     img 7521
     bardie "Насколько я знаю, этот дом тоже принадлежал тебе?"
     m "Да, это мой дом!"
+    music Groove2_85 high
     "Вы поселились в нем незаконно! И я восстановлю справедливость!"
     img 7522
     m "Можешь не сомневаться, Барди..." #смотрит прищурившись
@@ -294,14 +353,17 @@ label ep22_dialogues3_6:
     m "Вашей семье пока не стоит про это знать..."
     "И я бы тебе советовала держать рот на замке!"
     img 7527
+    with fade
     "Ты ведь послушный мальчик?"
     img 7528
     bardie "..." #Испуганно смотрит
+    music Pyro_Flow high
     img 7529
     m "Отвечай!" #Надменно
     img 7530
     bardie "Да, Миссис Бакфетт..."
     "Я никому не скажу про вас..."
+    music Groove2_85 high
     img 7531
     m "И не называй меня по фамилии, еще не время..."
     bardie "Хорошо, Ми... Миссис Моника..."
@@ -310,19 +372,24 @@ label ep22_dialogues3_6:
     img 7533
     bardie "Хорошо, Моника. Я никому не скажу кто ты."
     img 7534
+    with fade
     m "Вот и отлично!"
     m "Я надеюсь наше маленькое недоразумение закончено?"
     "Этот дурацкий разговор в полиции и твои глупые просьбы..."
     img 7535
     "Ты можешь быть свободен, я хочу отдохнуть!"
     "ИДИ!"
+    music Marty_Gots_a_Plan high
     img 7536
+    with fade
     bardie "Хм... Моника!"
     m "Чего тебе еще? Ты разве не понял?"
     "Ты можешь идти!"
     img 7537
     bardie "Моника, но ты так и не показала трусики мне!"
+    music Pyro_Flow high
     img 7538
+    with fade
     m "ЧТО?!?! ТЫ СНОВА ЗА СВОЕ?!?"
     m "Ты разве не понял кто я такая?!"
     "Я - Моника Бакфетт!"
@@ -332,11 +399,13 @@ label ep22_dialogues3_6:
     "Ты дала слово!"
     img 7540
     m "Я не считаю словом то что сказала такому малявке как ты!"
+    music Power_Bots_Loop high
     bardie "ЧТО?!?!"
     "ТЫ СНОВА ОБЗЫВАЕШЬ МЕНЯ МАЛЯВКОЙ?!?"
     img 7541
     bardie "Сейчас же покажи свои трусики, иначе я иду к Мистеру Маркусу!"
     img 7542
+    with fade
     m "Ты что, правда не понял кто Я?!"
     "Как ты смеешь от меня требовать это?!"
     img 7543
@@ -349,6 +418,7 @@ label ep22_dialogues3_6:
     m "ЧТО?!?! Дрочить на него?!"
     "Это мой журнал! Мой!"
     img 7546
+    with fade
     bardie "Это теперь мой журнал, как и ты теперь моя!"
     "Ты моя игрушка!"
     img 7547
@@ -356,10 +426,13 @@ label ep22_dialogues3_6:
     img 7548
     "Я собираюсь, наконец-то, рассмотреть твои трусики как следует!"
     img 7549
+    with fade
     m "Я не буду делать этого!!!" #Моника переживает
     img 7550
     bardie "Тогда я иду к Мистеру Маркусу! Прямо сейчас!"
+    music Hidden_Agenda high
     img 7551
+    with fadelong
     mt "Дьявол!!! Этот Барди!!!"
     "Это очень рискованно! Если он сообщит Маркусу обо мне, то мне конец!"
     img 7552
@@ -371,23 +444,30 @@ label ep22_dialogues3_6:
         "Хорошо, я покажу тебе, но только один раз!":
             pass
     img 7553
+    with fade
     m "Хорошо, я покажу тебе, но только один раз!"
     img 7554
     bardie "Ты будешь показывать мне трусики каждый раз, когда я захочу этого!"
+    music Pyro_Flow high
     img 7555
+    with fade
     mt "!!!" #Моника злая
+    music Groove2_85 high
     img 7556
     bardie "Теперь нагибайся, я теряю терпение!"
     menu:
         "Повернуться спиной и нагнуться...":
             pass
+    music Loved_up high
     img 7557
+    with fade
     w
     img 7558
     w
     img 7559
     w
     img 7560
+    with fade
     w
     img 7561
     w
@@ -398,10 +478,13 @@ label ep22_dialogues3_6:
     img 7564
     w
     img 7565
+    with fade
     w
     img 7566 #нагнулась
+    with fade
     w
     img 7567
+    with fade
     w
     img 7568
     w
@@ -416,6 +499,7 @@ label ep22_dialogues3_6:
     img 7573
     w
     img 7574
+    with fade
     w
     img 7575
     w
@@ -424,6 +508,7 @@ label ep22_dialogues3_6:
     img 7584
     w
     img 7577
+    with fade
     w
     bardie "Отличный вид, хе-хе!"
     img 7579
@@ -438,9 +523,12 @@ label ep22_dialogues3_6:
     "Пожалуй, я оставлю эту гувернантку себе!"
     img 7583
     mt "Маленький ублюдок!"
+    music Groove2_85 high
     img 7585
+    with fade
     bardie "Пока достаточно! Ты можешь идти работать!"
     img 7586
+    with fade
     bardie "Я буду регулярно проверять у тебя под юбкой"
     img 7587
     "Беду следить чтобы там был порядок!"
@@ -465,7 +553,7 @@ label cleaning2_bardie_comment1:
     #комнаты floor1 (если нет Ральфа)
     $ store_music()
     music Marty_Gots_a_Plan high
-    $ add_corruption(bardieCleaningUpskirtTryCorruption, "bardie_monica_upskirt_corruption_day_" + str(day))
+#    $ add_corruption(bardieCleaningUpskirtTryCorruption, "bardie_monica_upskirt_corruption_day_" + str(day))
     img 6030
     w
     img 6031
@@ -474,57 +562,70 @@ label cleaning2_bardie_comment1:
     w
     #Governess Pants
 #    bardie "Моника! Покажи трусики!"
-    img 7659
-    bardie "Моника! Можешь не отвлекаться!"
-    img 7660
-    "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
-    img 7661
-    w
-    #Betty1
-    img 7662
-    bardie "Моника! Можешь не отвлекаться!"
-    img 7663
-    "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
-    img 7664
-    #Betty2
-    img 7665
-    bardie "Моника! Можешь не отвлекаться!"
-    img 7666
-    "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
-    img 7667
-    w
-    #Betty3
-    img 7668
-    bardie "Моника! Можешь не отвлекаться!"
-    img 7669
-    "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
-    img 7670
-    w
-    #Betty4
-    img 7671
-    bardie "Моника! Можешь не отвлекаться!"
-    img 7672
-    "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
-    img 7673
-    w
-    #Betty5
-    img 7674
-    bardie "Моника! Можешь не отвлекаться!"
-    img 7675
-    "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
-    img 7676
-    w
-    img 7677
-    w
+    if monicaBettyPanties == False:
+        img 7659
+        bardie "Моника! Можешь не отвлекаться!"
+        img 7660
+        "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+        img 7661
+        w
+    else:
+        if monicaBettyPantiesId == 1:
+            #Betty1
+            img 7662
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7663
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7664
+        if monicaBettyPantiesId == 2:
+            #Betty2
+            img 7665
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7666
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7667
+            w
+        if monicaBettyPantiesId == 3:
+            #Betty3
+            img 7668
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7669
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7670
+            w
+        if monicaBettyPantiesId == 4:
+            #Betty4
+            img 7671
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7672
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7673
+            w
+        if monicaBettyPantiesId == 5:
+            #Betty5
+            img 7674
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7675
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7676
+            w
+            img 7677
+            w
 
     img 7658
     mt "!!!"
-    # Если Моника одела не те трусики
-    bardie "Ты одела не те трусики! Бетти была вчера в других!"
-    mt "!!!"
-    music Pyro_Flow high
+    if monicaMustWearBettyPanties == True and monicaBettyPantiesId != bettyPantiesLog[1]:
+        # Если Моника одела не те трусики
+        music Groove2_85 high
+        call bardieMonicaCleaningInteract_wrong_panties()
+        bardie "Ты одела не те трусики! Бетти была вчера в других!"
+        mt "!!!"
+#    music Pyro_Flow high
     # Моника
     $ restore_music()
+#    call EP22_Quests_Bardie4_check_progress()
+    if rand(0,2) == 0:
+        $ autorun_to_object("floor1", "ep22_dialogues3_7")
     return
 
 label cleaning2_bardie_comment2:
@@ -542,53 +643,66 @@ label cleaning2_bardie_comment2:
     mt "!!!"
     m "Да, Барди... Я стараюсь убираться хорошо..."
 #    bardie "И подними юбку! Я хочу проверить твои трусики!"
-    #Governess Pants - 7619, 7620, 7621
-    img 7619
-    w
-    img 7620
-    w
-    img 7621
-    w
-    #Betty1
-    img 7622
-    w
-    img 7623
-    w
-    img 7624
-    w
-    #Betty2
-    img 7625
-    w
-    img 7626
-    w
-    img 7627
-    w
-    #Betty3
-    img 7628
-    w
-    img 7629
-    w
-    img 7630
-    w
-    #Betty4
-    img 7631
-    w
-    img 7632
-    w
-    img 7633
-    w
-    #Betty5
-    img 7634
-    w
-    img 7635
-    w
-    img 7636
-    w
-    bardie "Ты одела не те трусики! Бетти была вчера в других!"
-    mt "!!!"
-    music Pyro_Flow
+    if monicaBettyPanties == False:
+        #Governess Pants - 7619, 7620, 7621
+        img 7619
+        w
+        img 7620
+        w
+        img 7621
+        w
+    else:
+        if monicaBettyPantiesId == 1:
+            #Betty1
+            img 7622
+            w
+            img 7623
+            w
+            img 7624
+            w
+        if monicaBettyPantiesId == 2:
+            #Betty2
+            img 7625
+            w
+            img 7626
+            w
+            img 7627
+            w
+        if monicaBettyPantiesId == 3:
+            #Betty3
+            img 7628
+            w
+            img 7629
+            w
+            img 7630
+            w
+        if monicaBettyPantiesId == 4:
+            #Betty4
+            img 7631
+            w
+            img 7632
+            w
+            img 7633
+            w
+        if monicaBettyPantiesId == 5:
+            #Betty5
+            img 7634
+            w
+            img 7635
+            w
+            img 7636
+            w
+    if monicaMustWearBettyPanties == True and monicaBettyPantiesId != bettyPantiesLog[1]:
+        music Groove2_85 high
+        call bardieMonicaCleaningInteract_wrong_panties()
+        bardie "Ты одела не те трусики! Бетти была вчера в других!"
+        mt "!!!"
+#    music Pyro_Flow
 #    music Marty_Gots_a_Plan high
     $ restore_music()
+#    call EP22_Quests_Bardie4_check_progress()
+    if rand(0,2) == 0:
+        $ autorun_to_object("bedroom_bardie", "ep22_dialogues3_7")
     return
 
 label cleaning2_bardie_comment3:
@@ -606,59 +720,77 @@ label cleaning2_bardie_comment3:
     w
     img 7638
     bardie "Моника! Покажи трусики!"
-    #Governess Pants
-    img 7639
-    w
-    img 7640
-    w
-    img 7641
-    w
-    #Betty1
-    img 7642
-    w
-    img 7643
-    w
-    img 7644
-    w
-    #Betty2
-    img 7645
-    w
-    img 7646
-    w
-    img 7647
-    w
-    #Betty3
-    img 7648
-    w
-    img 7649
-    w
-    img 7650
-    w
-    #Betty4
-    img 7651
-    w
-    img 7652
-    w
-    img 7653
-    w
-    #Betty5
-    img 7654
-    w
-    img 7655
-    w
-    img 7656
-    w
+    if monicaBettyPanties == False:
+        #Governess Pants
+        img 7639
+        w
+        img 7640
+        w
+        img 7641
+        w
+    else:
+        if monicaBettyPantiesId == 1:
+            #Betty1
+            img 7642
+            w
+            img 7643
+            w
+            img 7644
+            w
+        if monicaBettyPantiesId == 2:
+            #Betty2
+            img 7645
+            w
+            img 7646
+            w
+            img 7647
+            w
+        if monicaBettyPantiesId == 3:
+            #Betty3
+            img 7648
+            w
+            img 7649
+            w
+            img 7650
+            w
+        if monicaBettyPantiesId == 4:
+            #Betty4
+            img 7651
+            w
+            img 7652
+            w
+            img 7653
+            w
+        if monicaBettyPantiesId == 5:
+            #Betty5
+            img 7654
+            w
+            img 7655
+            w
+            img 7656
+            w
 
-    img 7657
-    bardie "Ты одела не те трусики! Бетти была вчера в других!"
-    mt "!!!"
-    music Pyro_Flow high
-    $ add_corruption(bardieCleaning2UpskirtCorruption, "bardie_monica_upskirt_corruption_day_" + str(day))
+
+    if monicaMustWearBettyPanties == True and monicaBettyPantiesId != bettyPantiesLog[1]:
+        music Groove2_85 high
+        img 7657
+        call bardieMonicaCleaningInteract_wrong_panties()
+        bardie "Ты одела не те трусики! Бетти была вчера в других!"
+        mt "!!!"
+#    music Pyro_Flow high
+#    $ add_corruption(bardieCleaning2UpskirtCorruption, "bardie_monica_upskirt_corruption_day_" + str(day))
     $ restore_music()
+#    call EP22_Quests_Bardie4_check_progress()
+    if rand(0,2) == 0:
+        $ autorun_to_object("bedroom_second", "ep22_dialogues3_7")
     return
 
 label ep22_dialogues3_8:
     # Если Барди прокачался до 3, то он говорит Монике после просмотра юбки, зайти в подвал после уборки
+    sound highheels_short_walk
+    music Groove2_85 high
+    img 6034
+    with fadelong
     bardie "Гувернантка, {c}зайди после уборки к себе в спальню{/c}."
     "Я хочу поговорить с тобой."
     # Отключается когда Моника поговорила
@@ -675,15 +807,20 @@ label ep22_dialogues3_9:
     #render Барди сидит на кровати Моники
     # Если Моника одета в гувернантку
     # Любое действие - диалог с Барди
+    sound highheels_short_walk
+    music Marty_Gots_a_Plan high
     img 7590
+    with fadelong
     bardie "Моника, мне надоели эти трусики!"
     m "И??? ЧТО ТЕПЕРЬ?!?!"
     bardie "Я хочу чтобы ты ходила без них!"
+    music Pyro_Flow high
     img 7591
     m "ЧТО?!?!"
     m "Я НИ ЗА ЧТО!!!"
     "СЛЫШИШЬ?!?!"
     "НИ ЗА ЧТО НЕ БУДУ ХОДИТЬ БЕЗ ТРУСИКОВ!!!"
+    music Marty_Gots_a_Plan high
     img 7592
     bardie "Вау! Ты такая злая!"
     bardie "Ну ладно, ладно!"
@@ -694,12 +831,14 @@ label ep22_dialogues3_9:
     img 7594
     bardie "Что значит нет?"
     bardie "В этом доме что, нет других трусиков, кроме тех что на тебе?"
+    music Pyro_Flow high
     img 7595
     m "А я откуда знаю?!"
     "Это у Бетти куча трусиков!"
     "У меня только одни!"
     "Так что довольствуйся тем что есть!"
     "Маленький извращенец!!!"
+    music Groove2_85 high
     img 7596
     bardie "Точно! Бетти!!!"
     "Ты будешь носить ее трусики!"
@@ -711,6 +850,7 @@ label ep22_dialogues3_9:
     "Но это будет отличный промежуточный вариант!"
     "Я не могу посмотреть ее трусики на ней, но могу на тебе!"
     img 7599
+    music Pyro_Flow high
     m "Я НЕ СОБИРАЮСЬ НОСИТЬ ЕЕ ТРУСИКИ!!!"
     img 7600
     bardie "Ты будешь делать то что я скажу!"
@@ -719,8 +859,10 @@ label ep22_dialogues3_9:
     m "Я НЕ БУДУ ДЕЛАТЬ ЭТОГО!!!"
     "ЭТО ИСКЛЮЧЕНО!!!"
     img 7602
+    with fade
     "Я ЛУЧШЕ СВЕРНУ ТЕБЕ ШЕЮ, МЕЛКИЙ ЗАСРАНЕЦ!!!"
     img 7603
+    music Groove2_85 high
     bardie "Только попробуй коснуться меня!"
     "У меня есть школьный друг, я передал письмо ему!"
     "Если со мной что-то случится, он сразу отправит его куда я попросил!"
@@ -736,6 +878,7 @@ label ep22_dialogues3_9:
     "Она стирает свои трусики каждый день и одевает их."
     img 7607
     bardie "Да, но есть трусики, которые лежат для стирки!"
+    music Power_Bots_Loop high
     img 7608
     m "Но она носила их!!!"
     img 7609

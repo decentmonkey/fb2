@@ -1,4 +1,4 @@
-define debugMode = False
+define debugMode = True
 
 default gameStage = 0
 default gameSubStage = 0
@@ -14,6 +14,7 @@ default storedMusic = []
 default storedMusicPriority = []
 default day_time = "day"
 default episode = 1
+default notifList = []
 
 label start:
     #new game
@@ -81,6 +82,13 @@ label start_game:
     $ money = 0.0
 
     $ hud_preset_current = "default"
+
+    call questLog_init()
+    $ questLog(19, True)
+    $ questLog(18, True)
+    $ questLog(15, True)
+    $ questLog(6, True)
+    $ questLog(3, True)
 
     call game_init() from _call_game_init
 #    python:

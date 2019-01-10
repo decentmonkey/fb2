@@ -8,6 +8,7 @@ python early:
     import math
     import json
     import copy
+    import pygame
     from random import shuffle
 
     dialogue_active_flag = False

@@ -1,5 +1,9 @@
 default bardieLocation = "none"
 default monicaBardieOffended1 = False
+default bardieMonicaCleaningInteractFirstTime = True
+default bardieHeardAboutMarcus = False
+default bardieBlackmailStage = 0
+default bardieFollowMonicaDuringCleaning = True
 
 label bardieInteract1:
     if act == "l":
@@ -33,24 +37,62 @@ label bardieMonicaCleaningInteract:
         "Мне надо быть осторожнее..."
         return False
     if act == "t":
-        if scene_name == "floor1":
-            call cleaning_bardie_comment1() from _call_cleaning_bardie_comment1
-        if scene_name == "bedroom_bardie":
-            call cleaning_bardie_comment2() from _call_cleaning_bardie_comment2
-        if scene_name == "bedroom_second":
-            call cleaning_bardie_comment3() from _call_cleaning_bardie_comment3
+        if bardieMonicaCleaningInteractFirstTime == True:
+            $ bardieMonicaCleaningInteractFirstTime = False
+            if char_info["Bardie"]["level"] == 1:
+                $ questLog(0, True)
+        if bardieBlackmailStage < 3:
+            if scene_name == "floor1":
+                call cleaning_bardie_comment1() from _call_cleaning_bardie_comment1
+            if scene_name == "bedroom_bardie":
+                call cleaning_bardie_comment2() from _call_cleaning_bardie_comment2
+            if scene_name == "bedroom_second":
+                call cleaning_bardie_comment3() from _call_cleaning_bardie_comment3
+        if bardieBlackmailStage >= 3:
+            if scene_name == "floor1":
+                call cleaning2_bardie_comment1()
+            if scene_name == "bedroom_bardie":
+                call cleaning2_bardie_comment2()
+            if scene_name == "bedroom_second":
+                call cleaning2_bardie_comment3()
         $ move_object("Bardie", "empty")
         $ monicaCleaningObject = "" # Ставим Монику в исходное положение стоя
-        $ add_char_progress("Bardie", bardieCleaningUpskirtTry, "cleaning_upskirt_day " + str(day))
+        if bardieBlackmailStage < 2 and char_info["Bardie"]["level"] == 2:
+            pass
+        else:
+            if bardieBlackmailStage == 3:
+                $ add_char_progress("Bardie", bardieCleaningUpskirtTry2, "cleaning_upskirt_day " + str(day))
+                call EP22_Quests_Bardie4_check_progress()
+            else:
+                if bardieBlackmailStage == 4:
+                    $ add_char_progress("Bardie", bardieCleaningUpskirtTry3, "cleaning_upskirt_day " + str(day))
+                else:
+                    $ add_char_progress("Bardie", bardieCleaningUpskirtTry, "cleaning_upskirt_day " + str(day))
         call refresh_scene_fade() from _call_refresh_scene_fade_20
         return False
+    return
+
+label bardieMonicaCleaningInteract_wrong_panties:
+    $ add_char_progress("Bardie", bardieCleaningUpskirtTry3_wrong_panties, "cleaning_upskirt_wrong_panties_day " + str(day))
+
     return
 
 label bardieProgressLevelUp1:
     $ char_data["level"] = char_data["level"] + 1
     if char_data["level"] == 2:
         $ add_hook("monica_cleaning_end", "bardieProgressApplyAfterCleaning", scene="global")
-        $ char_data["enabled"] = False #закрываем прогресс до следующей версии
+        $ add_hook("monica_cleaning_end", "EP22_Quests_Bardie_Monica_Rest_After_Cleaning", scene="global", label="EP22_Quests_Bardie_Monica_Rest_After_Cleaning")
+        if ep22_started == False:
+            $ char_data["enabled"] = False
+            $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+#        $ char_data["enabled"] = False #закрываем прогресс до следующей версии
+    if char_data["level"] == 3 and bardieBlackmailStage < 3:
+        char_data["level"] = char_data["level"] - 1
+        char_data["current_progress"] = 90
+        return
+    if char_data["level"] == 4:
+        $ char_data["enabled"] = False
+        $ char_data["caption_diabled"] = _("Work in progress...")
     return
 
 label bardieProgressApplyAfterCleaning:

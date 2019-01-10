@@ -77,6 +77,7 @@ define gui.resolution.preferences1 = 400
 
 define res.suffix = "" #"", "_720p"
 
+define notifyLineOffset = 50 #ep22
 
 style game_menu_navigation_frame:
     xsize 420
@@ -265,6 +266,16 @@ style char_face_style_caption:
 #    font "fonts/Tahoma.ttf"
     font "fonts/arial.ttf"
     color "#ffffff"
+
+style questlog_text_style:
+    size 21
+    color "#18181a"
+    font "fonts/tahoma.ttf"
+
+style questlog_text_category_style:
+    size 25
+    color "#18181a"
+    font "fonts/tahoma.ttf"
 
 define gui.credits.offset1 = 30
 define gui.credits.offset2 = 42

@@ -28,10 +28,11 @@ label bardieDialogue1:
 
 label bardie_comment4:
     #render+
-    #Барди у лестницы
+    #Барди у лестницы, stairs
     $ store_music()
     music Marty_Gots_a_Plan
     img 6056
+    with fade
     bardie "Эй! Гувернантка!"
     bardie "Покажи что у тебя под юбкой!"
     img 6057
@@ -47,6 +48,9 @@ label bardie_comment4:
     img 6061
     m "Я не собираюсь ничего доказывать тебе, малявка!"
     m "Прочь с дороги!"
+#    if bardieHeardAboutMarcus == True:
+#        call EP22_Quests_Bardie1()
     $ restore_music()
     $ remove_hook(label="bardie_catch_monica_at_stairs_onetime")
+
     return True

@@ -5,6 +5,9 @@ default bettyPantiesCurrent = 3
 default bettyPantiesCurrentList = []
 define bettyPantiesList = [1, 2, 3, 4, 5]
 
+default bettyTouchedFredDick = False
+default bettyFredLandrySexPlanned = False
+
 label bettyInteract1:
     if act == "l":
         mt "Это Бетти..."
@@ -25,7 +28,6 @@ label bettyGetTodayPanties:
         $ bettyPantiesLog.insert(0, bettyPantiesCurrent)
         return
     python:
-        print "panties"
         bettyPantiesCurrentList = copy.deepcopy(bettyPantiesList)
         print bettyPantiesCurrentList
         idx = bettyPantiesCurrentList.index(bettyPantiesCurrent)
@@ -42,7 +44,9 @@ label bettyGetTodayPanties:
 label bettyProgressLevelUp1:
     $ char_data["level"] = char_data["level"] + 1
     if char_data["level"] == 2:
-        $ char_data["enabled"] = False
+        if ep22_started == False:
+            $ char_data["enabled"] = False
+            $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
         $ move_object("Betty", "floor2")
         $ add_hook("Betty_Life_day", "Betty_Life_day1_lower", scene="global", priority=50, label="betty_level2_onetime")
     return

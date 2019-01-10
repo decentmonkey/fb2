@@ -29,7 +29,6 @@ label Betty_Life_day1:
     return
 
 label Betty_Life_day1_lower:
-    m "lower onetime"
     $ move_object("Betty", "floor2")
     return
 

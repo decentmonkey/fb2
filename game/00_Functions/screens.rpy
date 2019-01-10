@@ -978,6 +978,14 @@ screen hud_screen(hud_presets):
                                 font objectivesFont
                                 size gui.resolution.hud_screen.font2_size
                                 outlines [(2, "#000000", 0, 0)]
+                    null:
+                        height gui.resolution.hud_screen.height1
+                    imagebutton:
+                        idle "icons/questlog_icon" + res.suffix + ".png"
+                        hover "icons/questlog_icon_hover" + res.suffix + ".png"
+                        action [
+                            Call("show_questlog")
+                        ]
                     if questionHelperEnabled == True:
                         null:
                             height gui.resolution.hud_screen.height1
@@ -1102,6 +1110,38 @@ screen hud_screen(hud_presets):
                 top_gutter gui.resolution.hud_screen.bitchmeter_top_gutter
                 thumb_offset gui.resolution.hud_screen.bitchmeter_thumb_offset
 
+screen questlog_screen(inText):
+    zorder 60
+    modal True
+    fixed:
+        add "Icons2/Questlog_background.png":
+            xpos getRes(587)
+            ypos getRes(42)
+
+#        $ lastCategory = False
+#        for idx in questLogData:
+#            if questLogData[idx][3] != lastCategory:
+#                $ lastCategory =
+        text inText:
+            xpos getRes(700)
+            ypos getRes(95)
+            xsize getRes(580)
+            style "questlog_text_style"
+        button:
+            xfill True
+            yfill True
+            action [
+                Return()
+            ]
+        imagebutton:
+            xpos getRes(1280)
+            ypos getRes(80)
+            anchor (0.5, 0.5)
+            idle "/icons/window_close" + res.suffix + ".png"
+            hover "/icons/window_close_hover" + res.suffix + ".png"
+            action [
+                Return()
+            ]
 screen vignette_screen():
     zorder 100
     fixed:
@@ -1205,6 +1245,9 @@ screen say(who, what):
     key "h" action Hide("say")
     key "c" action [
         Call("mycopytext_label" ,what),
+    ]
+    key "/" action [
+        Return(True)
     ]
     ## If there's a side image, display it above the text. Do not display on the
     ## phone variant - there's no room.
@@ -2453,12 +2496,20 @@ screen notify(message):
 
     zorder 100
     style_prefix "notify"
+    if message != "notifList":
+        frame at notify_appear:
+            ypos 0.2
+            text "[message!tq]"
+    else:
+        $ notifOffset = 0
+        for msg in notifList:
+            frame at notify_appear:
+                ypos 0.2
+                yoffset notifOffset
+                text "[msg!tq]"
+            $ notifOffset += notifyLineOffset
 
-    frame at notify_appear:
-        ypos 0.2
-        text "[message!tq]"
-
-    timer 3.25 action Hide('notify')
+    timer 3.25 action [Hide('notify'), SetVariable("notifList", [])]
 
 
 transform notify_appear:

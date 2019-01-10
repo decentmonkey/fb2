@@ -7,6 +7,8 @@ default miniMapOpened = False
 default miniMapOpenButtonImg = "Open_Button_Map1"
 default miniMapOpenButtonImg2 = "Open_Button_Map2"
 
+default miniMapHousePreset = "default"
+
 label miniMapOpen:
     hide screen hud_minimap
     sound metal_slide
@@ -25,14 +27,25 @@ label miniMapHouseGenerate:
     $ miniMapOpenButtonImg = "Open_Button_Map1"
     $ miniMapOpenButtonImg2 = "Open_Button_Map2"
     $ miniMapData = []
-    $ miniMapData.append({"name":"Bedroom", "caption":_("Bedroom"), "img":"Bedroom_Map", "teleport_scene":"bedroom2", "teleport_type":"scene"})
-    $ miniMapData.append({"name":"Bathroom", "caption":_("Bathroom"), "img":"Bathroom_Map", "teleport_scene":"bathroom_bath", "teleport_type":"scene"})
-    $ miniMapData.append({"name":"Floor1", "caption":_("Down Floor"), "img":"Floor1_Map", "teleport_scene":"floor1", "teleport_type":"scene"})
-    $ miniMapData.append({"name":"Floor2", "caption":_("Up Floor"), "img":"Floor2_Map", "teleport_scene":"floor2", "teleport_type":"scene"})
-    $ miniMapData.append({"name":"Kitchen", "caption":_("Kitchen"), "img":"Kitchen_Map", "teleport_scene":"kitchen2", "teleport_type":"scene"})
-#    $ miniMapData.append({"name":"Basement", "caption":_("Basement"), "img":"Basement_Map", "teleport_scene":"basement_pool", "teleport_type":"scene"})
-    $ miniMapData.append({"name":"Street_Yard", "caption":_("Street Yard"), "img":"Street_Yard_Map", "teleport_scene":"house_out", "teleport_type":"function"})
-    $ miniMapData.append({"name":"Basement", "caption":_("Basement"), "img":"Basement_Bedroom_Map", "teleport_scene":"basement_bedroom2", "teleport_type":"scene"})
+    if miniMapHousePreset == "default":
+        $ miniMapData.append({"name":"Bedroom", "caption":_("Bedroom"), "img":"Bedroom_Map", "teleport_scene":"bedroom2", "teleport_type":"scene"})
+        $ miniMapData.append({"name":"Bathroom", "caption":_("Bathroom"), "img":"Bathroom_Map", "teleport_scene":"bathroom_bath", "teleport_type":"scene"})
+        $ miniMapData.append({"name":"Floor1", "caption":_("Down Floor"), "img":"Floor1_Map", "teleport_scene":"floor1", "teleport_type":"scene"})
+        $ miniMapData.append({"name":"Floor2", "caption":_("Up Floor"), "img":"Floor2_Map", "teleport_scene":"floor2", "teleport_type":"scene"})
+        $ miniMapData.append({"name":"Kitchen", "caption":_("Kitchen"), "img":"Kitchen_Map", "teleport_scene":"kitchen2", "teleport_type":"scene"})
+    #    $ miniMapData.append({"name":"Basement", "caption":_("Basement"), "img":"Basement_Map", "teleport_scene":"basement_pool", "teleport_type":"scene"})
+        $ miniMapData.append({"name":"Street_Yard", "caption":_("Street Yard"), "img":"Street_Yard_Map", "teleport_scene":"house_out", "teleport_type":"function"})
+        $ miniMapData.append({"name":"Basement", "caption":_("Basement"), "img":"Basement_Bedroom_Map", "teleport_scene":"basement_bedroom2", "teleport_type":"scene"})
+    if miniMapHousePreset == "laundry":
+        $ miniMapData.append({"name":"Bedroom", "caption":_("Bedroom"), "img":"Bedroom_Map", "teleport_scene":"bedroom2", "teleport_type":"scene"})
+        $ miniMapData.append({"name":"Bathroom", "caption":_("Bathroom"), "img":"Bathroom_Map", "teleport_scene":"bathroom_bath", "teleport_type":"scene"})
+        $ miniMapData.append({"name":"Floor1", "caption":_("Down Floor"), "img":"Floor1_Map", "teleport_scene":"floor1", "teleport_type":"scene"})
+        $ miniMapData.append({"name":"Floor2", "caption":_("Up Floor"), "img":"Floor2_Map", "teleport_scene":"floor2", "teleport_type":"scene"})
+#        $ miniMapData.append({"name":"Kitchen", "caption":_("Kitchen"), "img":"Kitchen_Map", "teleport_scene":"kitchen2", "teleport_type":"scene"})
+    #    $ miniMapData.append({"name":"Basement", "caption":_("Basement"), "img":"Basement_Map", "teleport_scene":"basement_pool", "teleport_type":"scene"})
+        $ miniMapData.append({"name":"Street_Yard", "caption":_("Street Yard"), "img":"Street_Yard_Map", "teleport_scene":"house_out", "teleport_type":"function"})
+        $ miniMapData.append({"name":"Laundry", "caption":_("Laundry"), "img":"Basement_Laundry_Map", "teleport_scene":"basement_laundry", "teleport_type":"scene"})
+        $ miniMapData.append({"name":"Basement", "caption":_("Basement"), "img":"Basement_Bedroom_Map", "teleport_scene":"basement_bedroom2", "teleport_type":"scene"})
     return
 
 label miniMapHostelGenerate:

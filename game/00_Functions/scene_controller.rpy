@@ -186,6 +186,7 @@ label remove_dialogue():
         renpy.hide_screen("choice")
         renpy.hide("window")
         dialogue_active_flag = False
+    return
 
 
 label after_load():
@@ -199,6 +200,7 @@ label after_load():
     $ imagesSizesCache = {}
     $ scene_refresh_flag = True #???
     $ show_scene_loop_flag = True
+    call run_after_load()
     jump show_scene
 #    return
 

@@ -38,18 +38,31 @@ label Bardie_Life_evening2: #Барди вечером преследует Мо
     return False
 
 label Bardie_Life_Monica_Cleaning_Start:
-    if "bedroom_bardie" in rooms_dirty:
-        $ move_object("Bardie", "bedroom_bardie")
-        return
-    if "floor1" in rooms_dirty:
-        $ move_object("Bardie", "floor1")
-        return
-    if "bedroom_second" in rooms_dirty:
-        $ move_object("Bardie", "bedroom_second")
-        return
+    if bardieFollowMonicaDuringCleaning == True:
+        if "bedroom_bardie" in rooms_dirty:
+            $ move_object("Bardie", "bedroom_bardie")
+            return
+        if "floor1" in rooms_dirty:
+            $ move_object("Bardie", "floor1")
+            return
+        if "bedroom_second" in rooms_dirty:
+            $ move_object("Bardie", "bedroom_second")
+            return
 
     return
 
 label Bardie_Life_Monica_Cleaning_End:
     call Bardie_Life_day() from _call_Bardie_Life_day
     return
+
+label Bardie_Life_day2_init: #Барди нигде нет, кроме подвала
+    $ add_hook("Bardie_Life_day", "Bardie_Life_day3", scene="global")
+    $ add_hook("Bardie_Life_evening", "Bardie_Life_evening3", scene="global")
+    return
+
+label Bardie_Life_day3:
+    $ move_object("Bardie", "empty")
+    return False
+label Bardie_Life_evening3:
+    $ move_object("Bardie", "empty")
+    return False

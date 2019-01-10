@@ -1,5 +1,8 @@
 
 init python:
+    def getRes(pixels):
+        return int(pixels * gui.resolution.koeff)
+
     def getMousePosition():
         import pygame
         x, y = pygame.mouse.get_pos()
@@ -20,23 +23,27 @@ init python:
         print "Debug!"
         if debugMode != True:
             return
-        if os.path.isdir("/Users//Documents/work/browse") == True:
+        if os.path.isdir("/Users/Denis/Documents/work/browse") == True:
             str1 = json.dumps(scenes_data)
-            f = open("/Users//Documents/work/browse/renpy_debug.json","w")
+            f = open("/Users/Denis/Documents/work/browse/renpy_debug.json","w")
             f.write(str1)
             f.close()
         return
 
     def notif(str1):
-        renpy.show_screen("notify", str1)
+        global notifList
+        notifList.append(str1)
+#        renpy.notify(str1)
+        renpy.hide_screen("notify")
+        renpy.show_screen("notify", "notifList")
         return
 
     def notif_monica():
         global monicaBitch
         if monicaBitch:
-            renpy.show_screen("notify", _("Моника стерва"))
+            notif(_("Моника стерва"))
         else:
-            renpy.show_screen("notify", _("Моника приличная"))
+            notif(_("Моника приличная"))
 
         return
 
@@ -88,7 +95,23 @@ label textonblack_pause(in_text):
     with Dissolve(1)
     return
 
+label cleanNotifList():
+    $ notifList = []
+    return
 
+label showRandomImages(imagesList, imagesAmount, makeRandom=False):
+    $ imagesList = random.sample(set(imagesList), imagesAmount)
+    if makeRandom == False:
+        $ imagesList.sort()
+    $ imagesListIdx = 0
+    label showRandomImages_loop:
+        if imagesListIdx < imagesAmount:
+            $ imageName = str(imagesList[imagesListIdx])
+            img imageName
+            w
+            $ imagesListIdx += 1
+            jump showRandomImages_loop
+    return
 
 
 

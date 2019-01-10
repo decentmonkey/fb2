@@ -521,7 +521,6 @@ label spot_monica_comment1:
 label cleaning_betty_comment1:
     #render+
     #комментарий Бетти hall2
-
     if char_info["Betty"]["level"] == 2:
         #если уровень2
         img 6018
@@ -557,7 +556,6 @@ label cleaning_betty_comment1:
         betty "Моника, гувернантка."
         "Продолжай убираться."
         return
-
     if get_cleaning_status(3) != False:
         #если нет пропущенных дней уборки за 3 дня
         img 6018
@@ -574,8 +572,7 @@ label cleaning_betty_comment1:
         betty "Да, получше чем ты!"
         "Продолжай убираться."
         $ notif(_("Моника регулярно убирается"))
-    return
-
+        return
     if get_cleaning_status(3) == False:
         #если есть пропущенные дни уборки за 3 последних дня
         img 6027
@@ -720,6 +717,9 @@ label bardie_comment5:
     #Барди на улице
     mt "Я не собираюсь подходить к этой малявке!"
     return
+label bardie_comment5a:
+    mt "Я не собираюсь подходить к этой малявке!"
+    return False
 
 label monica_goout1_governess_restrict:
     #render+

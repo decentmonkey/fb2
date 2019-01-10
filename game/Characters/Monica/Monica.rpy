@@ -1,6 +1,6 @@
 default monicaEatedLastDay = 0
 default monicaEatedLastDayTime = "day"
-default monicaCantSleepHungry = True
+default monicaCantSleepHungry = False
 
 default monicaCleaningRoomsAmount = 2
 default monicaCleaningInProgress = False
@@ -34,6 +34,10 @@ default monicaSaidBiffSheIsWillBeAGoodChick = False
 
 default monicaVictoriaKissHeels = False
 default monicaVictoriaLickAssAtBegin = False
+
+default monicaBettyPanties = False
+default monicaBettyPantiesId = 1
+default monicaMustWearBettyPanties = False
 
 label monicaEat: #кормим Монику
     $ monicaEatedLastDay = day #кормим Монику

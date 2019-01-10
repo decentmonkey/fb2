@@ -47,6 +47,8 @@ label kebab_work_start:
 
     $ add_hook("Teleport_Clothing_Shop", "monica_shawarma_dialogue5", scene="whores_place_shawarma", label="kebab_work")
     if kebabWorkFirstTime == True:
+        $ questLog(15, False)
+        $ questLog(16, True)
         $ add_hook("enter_scene", "monica_shawarma_dialogue6", scene="hostel_street", label="kebab_work")
         $ add_hook("enter_scene", "monica_shawarma_dialogue7", scene="hostel_street2", label="kebab_work")
         $ add_hook("enter_scene", "monica_shawarma_dialogue9", scene="hostel_street3", label="kebab_work")
