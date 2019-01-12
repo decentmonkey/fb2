@@ -101,6 +101,7 @@ label EP22_Quests_Bardie4: #второй разговор с Барди
     $ bardieBlackmailStage = 3
     $ questLog(0, False)
     $ questLog(1, True)
+    $ char_info["Bardie"]["caption"] = _("Барди имеет полный доступ к трусикам Моники.")
     $ basement_bedroom2_MonicaSuffix = 2
     $ add_hook("Bardie", "bardie_comment5a", scene="bedroom_bardie")
     $ autorun_to_object("ep22_dialogues3_7", scene="basement_bedroom2")
@@ -120,6 +121,7 @@ label EP22_Quests_Bardie5: #третий разговор с Барди (тру�
     $ basement_bedroom2_MonicaSuffix = 2
     $ autorun_to_object("ep22_dialogues3_10", scene="basement_bedroom2")
     $ autorun_to_object("ep22_dialogues3_11", scene="basement_laundry")
+    $ autorun_to_object("ep22_dialogues3_11a", scene="bedroom1")
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "Basement_Laundry1_Monica_[cloth]", "click" : "ep22_dialogues3_11", "actions" : "l", "zorder":10, "tint": monica_tint}, scene="basement_laundry")
     $ add_object_to_scene("Panties_Box", {"type":2, "base":"Basement_Laundry1_Panties_Box", "click" : "EP22_Quests_Bardie6_panties_box", "actions" : "lh", "zorder" : 0, "group":"environment", "active":True}, scene="basement_laundry")
     $ questLog(1, False)
@@ -145,8 +147,8 @@ label EP22_Quests_Bardie6_panties_box:
         $ monicaBettyPanties = True
         $ monicaBettyPantiesId = result
 
-    $ print "panties_id:"
-    $ print result
+    hide screen screen_betty_panties_select
+    call ep22_Act_Images_monica_put_up_panties()
     $ restore_music()
-
+    call refresh_scene_fade()
     return

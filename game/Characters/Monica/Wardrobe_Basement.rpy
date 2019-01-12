@@ -26,22 +26,25 @@ label wardrobeBasement:
             with Dissolve(0.5)
 #            $ renpy.pause(0.5)
             $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue2_governess")
-        "Оставить трусики Юлии." if cloth != "Nude":
+        "Только трусики.":
             $ cloth = "GovernessPants"
             $ cloth_type = "Nude"
             sound snd_fabric1
             img black_screen
             with Dissolve(0.5)
 #            $ renpy.pause(0.5)
-            $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue2_pants")
-        "Одеть трусики Юлии." if cloth == "Nude":
-            $ cloth = "GovernessPants"
-            $ cloth_type = "Nude"
-            sound snd_fabric1
-            img black_screen
-            with Dissolve(0.5)
-#            $ renpy.pause(0.5)
-            $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue2_pants")
+            if monicaBettyPanties == True:
+                $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue2_pants_betty")
+            else:
+                $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue2_pants")
+#        "Одеть трусики Юлии." if cloth == "Nude":
+#            $ cloth = "GovernessPants"
+#            $ cloth_type = "Nude"
+#            sound snd_fabric1
+#            img black_screen
+#            with Dissolve(0.5)
+##            $ renpy.pause(0.5)
+#            $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue2_pants")
 
         "Снять все.":
             $ cloth = "Nude"
@@ -68,6 +71,10 @@ label wardrobeBasement_dialogue2_pants:
     mt "Это не мои трусики..."
     "И мне не комфортно их носить..."
     "Но это лучше чем вообще без них..."
+    return
+label wardrobeBasement_dialogue2_pants_betty:
+    mt "Это трусики Бетти..."
+    "Какой ужас..."
     return
 label wardrobeBasement_dialogue2_governess:
     mt "Кошмарная униформа."

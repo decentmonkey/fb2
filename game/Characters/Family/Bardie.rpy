@@ -65,7 +65,11 @@ label bardieMonicaCleaningInteract:
                 call EP22_Quests_Bardie4_check_progress()
             else:
                 if bardieBlackmailStage == 4:
+#                    if monicaBettyPantiesId != bettyPantiesLog[1]:
+#                        $ add_char_progress("Bardie", bardieCleaningUpskirtTry3_wrong_panties, "cleaning_upskirt_day " + str(day)) #wrong panties
+#                    else:
                     $ add_char_progress("Bardie", bardieCleaningUpskirtTry3, "cleaning_upskirt_day " + str(day))
+
                 else:
                     $ add_char_progress("Bardie", bardieCleaningUpskirtTry, "cleaning_upskirt_day " + str(day))
         call refresh_scene_fade() from _call_refresh_scene_fade_20
@@ -89,6 +93,10 @@ label bardieProgressLevelUp1:
     if char_data["level"] == 3 and bardieBlackmailStage < 3:
         char_data["level"] = char_data["level"] - 1
         char_data["current_progress"] = 90
+        return
+    if char_data["level"] == 3:
+        $ char_data["enabled"] = False
+        $ char_data["caption_diabled"] = _("Work in progress...")
         return
     if char_data["level"] == 4:
         $ char_data["enabled"] = False

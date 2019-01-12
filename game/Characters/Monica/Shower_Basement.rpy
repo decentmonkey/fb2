@@ -100,6 +100,20 @@ label basement_toilet_use1:
         $ toilet_images = ["7088", "7089", "7090", "7091", "7092", "7093", "7094"]
 
     $ images = random.sample(set(toilet_images), 3)
+
+    if monicaBettyPanties == True:
+        if monicaBettyPantiesId == 1:
+            $ images = [7163, 7164, 7165]
+        if monicaBettyPantiesId == 2:
+            $ images = [7166, 7167, 7168]
+        if monicaBettyPantiesId == 3:
+            $ images = [7169, 7170, 7171]
+        if monicaBettyPantiesId == 4:
+            $ images = [7172, 7173, 7174]
+        if monicaBettyPantiesId == 5:
+            $ images = [7175, 7176, 7177]
+
+    
     img images[0]
     with fade
     w

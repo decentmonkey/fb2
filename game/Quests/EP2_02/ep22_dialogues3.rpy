@@ -564,6 +564,7 @@ label cleaning2_bardie_comment1:
 #    bardie "Моника! Покажи трусики!"
     if monicaBettyPanties == False:
         img 7659
+        sound Jump2
         bardie "Моника! Можешь не отвлекаться!"
         img 7660
         "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
@@ -573,6 +574,7 @@ label cleaning2_bardie_comment1:
         if monicaBettyPantiesId == 1:
             #Betty1
             img 7662
+            sound Jump2
             bardie "Моника! Можешь не отвлекаться!"
             img 7663
             "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
@@ -580,6 +582,7 @@ label cleaning2_bardie_comment1:
         if monicaBettyPantiesId == 2:
             #Betty2
             img 7665
+            sound Jump2
             bardie "Моника! Можешь не отвлекаться!"
             img 7666
             "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
@@ -588,6 +591,7 @@ label cleaning2_bardie_comment1:
         if monicaBettyPantiesId == 3:
             #Betty3
             img 7668
+            sound Jump2
             bardie "Моника! Можешь не отвлекаться!"
             img 7669
             "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
@@ -596,6 +600,7 @@ label cleaning2_bardie_comment1:
         if monicaBettyPantiesId == 4:
             #Betty4
             img 7671
+            sound Jump2
             bardie "Моника! Можешь не отвлекаться!"
             img 7672
             "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
@@ -604,6 +609,7 @@ label cleaning2_bardie_comment1:
         if monicaBettyPantiesId == 5:
             #Betty5
             img 7674
+            sound Jump2
             bardie "Моника! Можешь не отвлекаться!"
             img 7675
             "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
@@ -619,6 +625,9 @@ label cleaning2_bardie_comment1:
         music Groove2_85 high
         call bardieMonicaCleaningInteract_wrong_panties()
         bardie "Ты одела не те трусики! Бетти была вчера в других!"
+        mt "!!!"
+    else:
+        bardie "Ты одела правильные трусики! Хорошая гувернантка!"
         mt "!!!"
 #    music Pyro_Flow high
     # Моника
@@ -638,6 +647,7 @@ label cleaning2_bardie_comment2:
     img 6040
     w
     img 7618
+    sound Jump2
     bardie "Моника! Убирайся в комнате хозяина как следует!"
     img 7617
     mt "!!!"
@@ -697,6 +707,9 @@ label cleaning2_bardie_comment2:
         call bardieMonicaCleaningInteract_wrong_panties()
         bardie "Ты одела не те трусики! Бетти была вчера в других!"
         mt "!!!"
+    else:
+        bardie "Ты одела правильные трусики! Хорошая гувернантка!"
+        mt "!!!"
 #    music Pyro_Flow
 #    music Marty_Gots_a_Plan high
     $ restore_music()
@@ -717,6 +730,7 @@ label cleaning2_bardie_comment3:
     img 6047
     w
     img 7637
+    sound Jump2
     w
     img 7638
     bardie "Моника! Покажи трусики!"
@@ -776,6 +790,9 @@ label cleaning2_bardie_comment3:
         img 7657
         call bardieMonicaCleaningInteract_wrong_panties()
         bardie "Ты одела не те трусики! Бетти была вчера в других!"
+        mt "!!!"
+    else:
+        bardie "Ты одела правильные трусики! Хорошая гувернантка!"
         mt "!!!"
 #    music Pyro_Flow high
 #    $ add_corruption(bardieCleaning2UpskirtCorruption, "bardie_monica_upskirt_corruption_day_" + str(day))
@@ -930,6 +947,13 @@ label ep22_dialogues3_11:
     mt "Где-то здесь Бетти хранит свои трусики..."
     return
 
+label ep22_dialogues3_11a:
+    mt "Я придумала как мне узнать какие трусики носит Бетти сегодня..."
+    "По вечерам она валяется своей толстой задницей на моей кровати..."
+    $ questLog(2, False)
+    $ questLog(20, True)
+    return
+
 label ep22_dialogues3_12:
     img 7616
     mt "Какие трусики мне надеть?"
@@ -937,6 +961,8 @@ label ep22_dialogues3_12:
 
 label ep22_dialogues3_13:
     # Моника выходит из дома по карте, либо через ворота и одеты трусики Бетти
+    img 7616
+    with fade
     mt "Мне лучше вернуть трусики Бетти на место, пока она не заметила что я их использую..."
     return
 label ep22_dialogues3_14:
