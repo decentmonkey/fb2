@@ -62,13 +62,13 @@ label ep22_dialogues4_1:
                 img black_screen
                 with Dissolve(1.0)
                 pause 1.0
-                sound snd_car_turn_on
                 img 8531
                 with fade
                 w
                 img 8532
-                sound snd_car_engine
+                sound snd_car_turn_on
                 pause 2.0
+                sound snd_car_engine
                 img scene_Map
                 with fade
                 w
@@ -111,10 +111,16 @@ label ep22_dialogues4_2a:
     "Поторопись! За мной!"
     return False
 
-label ep22_dialogues4_3:
-    # Зал фитнеса, autorun первый раз
+label ep22_dialogues4_3a:
     mt "Черт! Этот инструктор!"
     "Мне надо как-то повернуться, чтобы он не узнал меня!"
+    return False
+label ep22_dialogues4_3:
+    if fitness_gym_visited_amount == 0:
+        # Зал фитнеса, autorun первый раз
+        mt "Черт! Этот инструктор!"
+        "Мне надо как-то повернуться, чтобы он не узнал меня!"
+
 
     fitness_instructor "Добрый день, Миссис Робертс!"
     "Вы сегодня выглядите очаровательно."
@@ -126,7 +132,10 @@ label ep22_dialogues4_3:
     return
 
 label ep22_dialogues4_4: #клик по Бетти ил иниструктору в фитнесс-зале
-    mt "Эта сучка что, флиртует с ним?!"
+    if act == "l":
+        mt "Эта сучка что, флиртует с ним?!"
+        return
+    call ep22_dialogues4_2a()
     return False
 
 label ep22_dialogues4_5:
@@ -144,9 +153,12 @@ label ep22_dialogues4_5a:
     # первый раз
     #rebecca
     #stephanie
+    music Groove2_85
     img 7678
+    with fade
     w
     img 7679
+    with fade
     w
     img 7680
     w
@@ -154,16 +166,22 @@ label ep22_dialogues4_5a:
     w
     img 7682
     w
+    sound Jump1
     img 7683
+    with hpunch
     w
     # Подружки смотрят на нее с удивлением
+    sound Jump1
     img 7684
+    with hpunch
     w
     img 7685
+    with fade
     w
     img 7686
     w
     img 7687
+    with fade
     betty "Гуверантка! Где моя сумка с униформой?"
     img 7688
     betty "Быстро неси ее сюда!"
@@ -174,6 +192,8 @@ label ep22_dialogues4_5a:
     #fade
     img 7691
     sound snd_fabric1
+    with fadelong
+    w
     img 7692
     betty "Гувернантка, ты можешь подождать меня здесь, пока я занимаюсь." #Вид на голую грудь Бетти
     img 7694
@@ -188,13 +208,19 @@ label ep22_dialogues4_5a:
 
     # Бетти в спортивном
     img 7697
+    with fade
     betty "Можешь посидеть здесь или понаблюдать за мной."
 
     # Бетти уходит
     img 7698
 
     #fade
+    img black_screen
+    with Dissolve(1.0)
+    pause 2.0
+    music BossaBossa
     img 7699
+    with fadelong
     stephanie "Моника! Что это значит?!"
     stephanie "Почему эта провинциальная дура разговаривает с тобой в таком тоне?!"
 
@@ -218,6 +244,7 @@ label ep22_dialogues4_5a:
     "ДЬЯВОЛ!!!"
 
     img 7706
+    with fade
     m "Ой! Девочки!"
     "Пожалуйста, тише!"
     "Не выдавайте меня этой дуре!"
@@ -270,6 +297,7 @@ label ep22_dialogues4_5a:
     m "Я подумаю, девочки."
     "Мне это кажется сейчас скучным."
     img 7722
+    with fade
     rebecca "Моника, но мы все-равно будем ждать тебя!"
     img 7723
     stephanie "Моника, приходи!"
@@ -281,6 +309,7 @@ label ep22_dialogues4_5a:
     rebecca "Пока, подружка!"
     m "Пока, девочки!"
     img 7725
+    with fade
     w
     return
 
@@ -289,111 +318,345 @@ label ep22_dialogues4_6:
     #Сцена занятия йогой.
     #Стефани, Ребекка, Бетти
 
+
     #выбор
-    img 7755
+#    img 7755
 
-    #Stephanie - 7756, 7757, 7765, 7766, 7767, 7768, 7780, 7781, 7782, 7783, 7798, 7799, 7800, 7801, 7802, 7803, 7816, 7817, 7818, 7819, 7824, 7825, 7826, 7827, 7828, 7829,
-    # 7842, 7843, 7844, 7845, 7846, 7861, 7862, 7863, 7864, 7875, 7876, 7877, 7878, 7879, 7880, 7892, 7893, 7894, 7895, 7896, 7908, 7909, 7910, 7911
-    #Rebecca - 7760, 7761, 7762, 7763, 7764, 7784, 7785, 7786, 7787, 7788, 7789, 7790, 7791, 7792, 7793, 7794, 7795, 7796, 7797, 7820, 7821, 7822, 7823, 7830, 7831, 7832,
-    # 7833, 7834, 7847, 7848, 7849, 7850, 7851, 7852, 7858, 7859, 7860, 7881, 7882, 7883, 7884, 7885, 7897, 7898, 7899, 7900, 7901, 7902, 7903, 7904, 7912, 7913, 7914, 7915, 7916
-    #Betty - 7758, 7759, 7769, 7770, 7771, 7772, 7773, 7774, 7775, 7776, 7777, 7778, 7779, 7804, 7805, 7806, 7807, 7808, 7809, 7810, 7811, 7812, 7813, 7814, 7815,
-    # 7835, 7836, 7837, 7838, 7839, 7840, 7841, 7853, 7854, 7855, 7856, 7857, 7865, 7866, 7867, 7868, 7869, 7870, 7871, 7872, 7873, 7874, 7886, 7887, 7888, 7889, 7890, 7891,
-    # 7905, 7906, 7907, 7917, 7918, 7919, 7920, 7921, 7922, 7923, 7924, 7925, 7926, 7927, 7928, 7929, 7930
+    $ imagesListIdx = 0
 
-    #Инструктор подходит к Ребекке
-    img 7931
-    fitness_instructor "Ребекка, давай я помогу тебе..."
-    img 7932
-    rebecca "Спасибо, не надо..."
+    if obj_name == "Stephanie":
+        menu:
+            "Смотреть на Стефани.":
+                pass
+            "Нет.":
+                return False
 
-    #Инструктор подходит к Стефани
-    img 7933
-    fitness_instructor "Стефани, давай я помогу тебе..."
-    #Если был секс
-    img 7934
-    stephanie "Муррр..."
-    stephanie "Мой тигр хочет помочь мне?..."
-    img 7935
-    fitness_instructor "Стефани, твой тигр всегда готов придти на помощь!"
-    img 7936
-    stephanie "Муррр..."
-    img 7937
-    w
-    img 7938
-    w
+        music Ready_and_Waiting
+        #Stephanie - 7756, 7757, 7765, 7766, 7767, 7768, 7780, 7781, 7782, 7783, 7798, 7799, 7800, 7801, 7802, 7803, 7816, 7817, 7818, 7819, 7824, 7825, 7826, 7827, 7828, 7829,
+        # 7842, 7843, 7844, 7845, 7846, 7861, 7862, 7863, 7864, 7875, 7876, 7877, 7878, 7879, 7880, 7892, 7893, 7894, 7895, 7896, 7908, 7909, 7910, 7911
+        $ images = [7756, 7757, 7765, 7766, 7767, 7768, 7780, 7781, 7782, 7783, 7798, 7799, 7800, 7801, 7802, 7803, 7816, 7817, 7818, 7819, 7824, 7825, 7826, 7827, 7828, 7829, 7842, 7843, 7844, 7845, 7846, 7861, 7862, 7863, 7864, 7875, 7876, 7877, 7878, 7879, 7880, 7892, 7893, 7894, 7895, 7896, 7908, 7909, 7910, 7911]
+        $ imagesAmount = 25
+        $ imagesList = random.sample(set(images), imagesAmount)
+        $ imagesList.sort()
+        label ep22_dialogues4_6_loop1:
+            if imagesListIdx < imagesAmount:
+                $ imageName = str(imagesList[imagesListIdx])
+                img imageName
+                if imagesListIdx == 0:
+                    with fadelong
+                w
+                $ imagesListIdx += 1
+                jump ep22_dialogues4_6_loop1
 
-    #Если секса не было
-    img 7933
-    stephanie "Я предпочитаю помощь от кого-то более сообразительного чем ты..."
-    fitness_instructor "Стефани, что я могу сделать?"
-    img 7939
-    stephanie "Продолжай быть настойчивым..."
-    "Хи-хи..."
+        $ videoList = [1, 2, 3, 4, 5]
+        $ videosAmount = 3
+        $ videoList = random.sample(set(videoList), videosAmount)
+        if 1 in videoList:
+            scene black
+            image videov_Fitness_Stephanie_1_1 = Movie(play="video/v_Fitness_Stephanie_1_1.mp4", fps=30)
+            show videov_Fitness_Stephanie_1_1
+            wclean
+        if 2 in videoList:
+            scene black
+            image videov_Fitness_Stephanie_1_2 = Movie(play="video/v_Fitness_Stephanie_1_2.mp4", fps=30)
+            show videov_Fitness_Stephanie_1_2
+            wclean
+        if 3 in videoList:
+            scene black
+            image videov_Fitness_Stephanie_1_3 = Movie(play="video/v_Fitness_Stephanie_1_3.mp4", fps=30)
+            show videov_Fitness_Stephanie_1_3
+            wclean
+        if 4 in videoList:
+            scene black
+            image videov_Fitness_Stephanie_1_4 = Movie(play="video/v_Fitness_Stephanie_1_4.mp4", fps=30)
+            show videov_Fitness_Stephanie_1_4
+            wclean
+        if 5 in videoList:
+            scene black
+            image videov_Fitness_Stephanie_1_5 = Movie(play="video/v_Fitness_Stephanie_1_5.mp4", fps=30)
+            show videov_Fitness_Stephanie_1_5
+            wclean
+
+        music Loved_Up
+        #Инструктор подходит к Стефани
+        img 7933
+        with fadelong
+        fitness_instructor "Стефани, давай я помогу тебе..."
+        #Если был секс
+        if stephanieFitnessJustSex == True:
+            img 7934
+            with fade
+            stephanie "Муррр..."
+            stephanie "Мой тигр хочет помочь мне?..."
+            img 7935
+            fitness_instructor "Стефани, твой тигр всегда готов придти на помощь!"
+            img 7936
+            with fade
+            stephanie "Муррр..."
+            img 7937
+            with fade
+            w
+            img 7938
+            with fade
+            w
+
+        else:
+            #Если секса не было
+            music Groove2_85
+            img 7933
+            with fadelong
+            stephanie "Я предпочитаю помощь от кого-то более сообразительного чем ты..."
+            fitness_instructor "Стефани, что я могу сделать?"
+            img 7939
+            with fade
+            stephanie "Продолжай быть настойчивым..."
+            "Хи-хи..."
+
+    if obj_name == "Rebecca":
+        menu:
+            "Смотреть на Ребекку.":
+                pass
+            "Нет.":
+                return False
+
+        music Ready_and_Waiting
+        #Rebecca - 7760, 7761, 7762, 7763, 7764, 7784, 7785, 7786, 7787, 7788, 7789, 7790, 7791, 7792, 7793, 7794, 7795, 7796, 7797, 7820, 7821, 7822, 7823, 7830, 7831, 7832,
+        # 7833, 7834, 7847, 7848, 7849, 7850, 7851, 7852, 7858, 7859, 7860, 7881, 7882, 7883, 7884, 7885, 7897, 7898, 7899, 7900, 7901, 7902, 7903, 7904, 7912, 7913, 7914, 7915, 7916
+        $ images = [7760, 7761, 7762, 7763, 7764, 7784, 7785, 7786, 7787, 7788, 7789, 7790, 7791, 7792, 7793, 7794, 7795, 7796, 7797, 7820, 7821, 7822, 7823, 7830, 7831, 7832, 7833, 7834, 7847, 7848, 7849, 7850, 7851, 7852, 7858, 7859, 7860, 7881, 7882, 7883, 7884, 7885, 7897, 7898, 7899, 7900, 7901, 7902, 7903, 7904, 7912, 7913, 7914, 7915, 7916]
+        $ imagesAmount = 27
+        $ imagesList = random.sample(set(images), imagesAmount)
+        $ imagesList.sort()
+        $ videoFlag = False
+        label ep22_dialogues4_6_loop2:
+            if imagesListIdx < imagesAmount:
+                $ imageName = str(imagesList[imagesListIdx])
+                if imagesList[imagesListIdx] >= 7832 and videoFlag == False:
+                    $ videoFlag = True
+                    $ videoList = [1, 3, 4]
+                    $ videosAmount = 2
+                    $ videoList = random.sample(set(videoList), videosAmount)
+                    if 1 in videoList:
+                        scene black
+                        image videov_Fitness_Rebecca_1_1 = Movie(play="video/v_Fitness_Rebecca_1_1.mp4", fps=30)
+                        show videov_Fitness_Rebecca_1_1
+                        wclean
+                    if 3 in videoList:
+                        scene black
+                        image videov_Fitness_Rebecca_1_3 = Movie(play="video/v_Fitness_Rebecca_1_3.mp4", fps=30)
+                        show videov_Fitness_Rebecca_1_3
+                        wclean
+                    if 4 in videoList:
+                        scene black
+                        image videov_Fitness_Rebecca_1_4 = Movie(play="video/v_Fitness_Rebecca_1_4.mp4", fps=30)
+                        show videov_Fitness_Rebecca_1_4
+                        wclean
+
+                img imageName
+                if imagesListIdx == 0:
+                    with fadelong
+                w
+                $ imagesListIdx += 1
+                jump ep22_dialogues4_6_loop2
+
+        #Инструктор подходит к Ребекке
+        music Loved_Up
+        img 7931
+        with fadelong
+        fitness_instructor "Ребекка, давай я помогу тебе..."
+        img 7932
+        rebecca "Спасибо, не надо..."
+
+    if obj_name == "Betty":
+        menu:
+            "Смотреть на Бетти.":
+                pass
+            "Нет.":
+                return False
+        music Ready_and_Waiting
+        #Betty - 7758, 7759, 7769, 7770, 7771, 7772, 7773, 7774, 7775, 7776, 7777, 7778, 7779, 7804, 7805, 7806, 7807, 7808, 7809, 7810, 7811, 7812, 7813, 7814, 7815,
+        # 7835, 7836, 7837, 7838, 7839, 7840, 7841, 7853, 7854, 7855, 7856, 7857, 7865, 7866, 7867, 7868, 7869, 7870, 7871, 7872, 7873, 7874, 7886, 7887, 7888, 7889, 7890, 7891,
+        # 7905, 7906, 7907, 7917, 7918, 7919, 7920, 7921, 7922, 7923, 7924, 7925, 7926, 7927, 7928, 7929, 7930
+        $ images = [7758, 7759, 7769, 7770, 7771, 7772, 7773, 7774, 7775, 7776, 7777, 7778, 7779, 7804, 7805, 7806, 7807, 7808, 7809, 7810, 7811, 7812, 7813, 7814, 7815, 7835, 7836, 7837, 7838, 7839, 7840, 7841, 7853, 7854, 7855, 7856, 7857, 7865, 7866, 7867, 7868, 7869, 7870, 7871, 7872, 7873, 7874, 7886, 7887, 7888, 7889, 7890, 7891, 7905, 7906, 7907, 7917, 7918, 7919, 7920, 7921, 7922, 7923, 7924, 7925, 7926, 7927, 7928, 7929, 7930]
+        $ imagesAmount = 35
+        $ imagesList = random.sample(set(images), imagesAmount)
+        $ imagesList.sort()
+        $ videoFlag1 = False
+        $ videoFlag2 = False
+        label ep22_dialogues4_6_loop3:
+            if imagesListIdx < imagesAmount:
+                $ imageName = str(imagesList[imagesListIdx])
+                if imagesList[imagesListIdx] >= 7808 and videoFlag1 == False:
+                    $ videoList = [1, 2, 3, 4]
+                    $ videosAmount = 2
+                    $ videoList = random.sample(set(videoList), videosAmount)
+                    $ videoFlag1 = True
+                    if 1 in videoList:
+                        scene black
+                        image videov_Fitness_Betty_1_1 = Movie(play="video/v_Fitness_Betty_1_1.mp4", fps=30)
+                        show videov_Fitness_Betty_1_1
+                        wclean
+                    if 2 in videoList:
+                        scene black
+                        image videov_Fitness_Betty_1_2 = Movie(play="video/v_Fitness_Betty_1_2.mp4", fps=30)
+                        show videov_Fitness_Betty_1_2
+                        wclean
+                    if 3 in videoList:
+                        scene black
+                        image videov_Fitness_Betty_1_3 = Movie(play="video/v_Fitness_Betty_1_3.mp4", fps=30)
+                        show videov_Fitness_Betty_1_3
+                        wclean
+                    if 4 in videoList:
+                        scene black
+                        image videov_Fitness_Betty_1_4 = Movie(play="video/v_Fitness_Betty_1_4.mp4", fps=30)
+                        show videov_Fitness_Betty_1_4
+                        wclean
 
 
-    #Инструктор подходит к Бетти
-    img 7940
-    fitness_instructor "Бетти, давай я помогу тебе..."
-    betty "Конечно!"
-    "С удовольствием!"
-    img 7941
-    fitness_instructor "Сосредоточься на себе..."
-    img 7942
-    betty "Хорошо..."
-    img 7943
-    fitness_instructor "Давай попробуем еще одно упражнение..."
-    betty "Хорошо..."
-    #fade
-    #если первый раз
-    img 7944
-    betty "Ой! Мне больно!"
-    img 7945
-    fitness_instructor "Надо немножечко потерпеть..."
-    betty "У меня не получается..."
-    img 7946
-    fitness_instructor "Бетти, ты прекрасна!"
-    "У тебя все получится!"
-    img 7947
-    betty "Правда?"
-    img 7948
-    fitness_instructor "Хочешь остаться на частный урок?"
-    img 7949
-    "У меня есть методики, которые дадут потрясающе быстрый результат..."
-    img 7950
-    betty "Хочу..."
 
-    #если последующие разы
-    fitness_instructor "У тебя уже лучше получается, Бетти!"
-    betty "Спасибо!"
-    fitness_instructor "Останешься сегодня снова на частный урок?"
-    fitness_instructor "Тебе надо еще позаниматься..."
-    betty "Да, я останусь..."
-    #
+                img imageName
+                if imagesListIdx == 0:
+                    with fadelong
+                w
+                $ imagesListIdx += 1
+                jump ep22_dialogues4_6_loop3
 
-    img 7951
-    stephanie "Эй! Прошу прощения!"
-    img 7952
-    "Мне тут нужна небольшая помощь в упражнениях!"
-    img 7953
-    fitness_instructor "Тогда до встречи после занятий, Бетти..."
-    img 7954
-    betty "До встречи!"
+
+        #Инструктор подходит к Бетти
+        music Loved_Up
+        img 7940
+        with fadelong
+        fitness_instructor "Бетти, давай я помогу тебе..."
+        betty "Конечно!"
+        "С удовольствием!"
+        img 7941
+        with fade
+        fitness_instructor "Сосредоточься на себе..."
+        img 7942
+        betty "Хорошо..."
+        img 7943
+        fitness_instructor "Давай попробуем еще одно упражнение..."
+        betty "Хорошо..."
+        #fade
+        #если первый раз
+        if fitness_gym_betty_first_time_interact_with_trainer == True:
+            img 7944
+            with fade
+            betty "Ой! Мне больно!"
+            img 7945
+            fitness_instructor "Надо немножечко потерпеть..."
+            betty "У меня не получается..."
+            img 7946
+            fitness_instructor "Бетти, ты прекрасна!"
+            "У тебя все получится!"
+            img 7947
+            betty "Правда?"
+            img 7948
+            fitness_instructor "Хочешь остаться на частный урок?"
+            img 7949
+            "У меня есть методики, которые дадут потрясающе быстрый результат..."
+            img 7950
+            betty "Хочу..."
+            music Groove2_85
+            img 7951
+            with fade
+            stephanie "Эй! Прошу прощения!"
+            img 7952
+            "Мне тут нужна небольшая помощь в упражнениях!"
+            img 7953
+            with fade
+            fitness_instructor "Тогда до встречи после занятий, Бетти..."
+            img 7954
+            betty "До встречи!"
+        else:
+            #если последующие разы
+            img 7944
+            with fade
+            fitness_instructor "У тебя уже лучше получается, Бетти!"
+            img 7950
+            betty "Спасибо!"
+            img 7948
+            with fade
+            fitness_instructor "Останешься сегодня снова на частный урок?"
+            img 7949
+            fitness_instructor "Тебе надо еще позаниматься..."
+            img 7954
+            betty "Да, я останусь..."
+            img 7953
+            with fade
+            fitness_instructor "Тогда до встречи после занятий, Бетти..."
+            img 7954
+            betty "До встречи!"
+            #
+
+
+        if fitness_gym_betty_first_time_interact_with_trainer == False:
+            music Ready_and_Waiting
+#            if imagesList[imagesListIdx] >= 7808 and videoFlag2 == False:
+#                $ videoFlag2 = True
+            $ videoList = [5, 6, 7, 8, 9]
+            $ videosAmount = 3
+            $ videoList = random.sample(set(videoList), videosAmount)
+            if 5 in videoList:
+                scene black
+                image videov_Fitness_Betty_1_5 = Movie(play="video/v_Fitness_Betty_1_5.mp4", fps=30)
+                show videov_Fitness_Betty_1_5
+                wclean
+            if 6 in videoList:
+                scene black
+                image videov_Fitness_Betty_1_6 = Movie(play="video/v_Fitness_Betty_1_6.mp4", fps=30)
+                show videov_Fitness_Betty_1_6
+                wclean
+            if 7 in videoList:
+                scene black
+                image videov_Fitness_Betty_1_7 = Movie(play="video/v_Fitness_Betty_1_7.mp4", fps=30)
+                show videov_Fitness_Betty_1_7
+                wclean
+            if 8 in videoList:
+                scene black
+                image videov_Fitness_Betty_1_8 = Movie(play="video/v_Fitness_Betty_1_8.mp4", fps=30)
+                show videov_Fitness_Betty_1_8
+                wclean
+            if 9 in videoList:
+                scene black
+                image videov_Fitness_Betty_1_9 = Movie(play="video/v_Fitness_Betty_1_9.mp4", fps=30)
+                show videov_Fitness_Betty_1_9
+                wclean
+            img v_Fitness_Betty_1_5_23
+            with fade
+            w
+            img v_Fitness_Betty_1_6_20
+            with fade
+            w
+        $ fitness_gym_betty_first_time_interact_with_trainer = False
 
     return
 
 label ep22_dialogues4_7:
     #render
     #Конец занятия йогой, Бетти говорит с Моникой
+    music Groove2_85
     img 7726
+    with fadelong
     betty "Моника, гувернантка, подожди меня на улице, я скоро выйду."
     m "Да, Миссис Робертс..."
+    return
 
+label ep22_dialogues4_7a:
     #Сменяется на город
     mt "Черт! Уже прошел час!"
     "Что там делает эта сучка Бетти?!"
+    img black_screen
+    with Dissolve(0.5)
+    pause 2.0
+    $ add_hook("open", "EP22_Quests_Betty6b", scene="street_fitness")
+    call change_scene("street_fitness")
+    return
+
+label ep22_dialogues4_7b:
     #fade
     betty "Я закончила. Поехали, Фред!"
     fred "Поехали, Мэм!"
+    call EP22_Quests_Betty8()
     return
 
 # При повторе, Стефани и Ребекка спрашивают у Моники что когда она закончит свое приключение? Та отвечает что скоро.
@@ -405,13 +668,16 @@ label ep22_dialogues4_8:
     # в раздевалки издалека Стефани и Ребекка обнаженные
     # render
     # Повтор, раздевалка. Стефани, Ребекка, Бетти
+    music Groove2_85
     img 7727
+    with fade
     w
     img 7729
     w
     img 7728
     w
     img 7730
+    with fade
     betty "Гуверантка! Где моя сумка с униформой?"
     img 7731
     betty "Быстро неси ее сюда!"
@@ -419,10 +685,12 @@ label ep22_dialogues4_8:
     img 7732
     betty "Что ты там копаешься?!"
     img 7733
+    with fade
     m "Вот Ваша сумка, Миссис Робертс."
 
     # Бетти уходит в спортивном
     img 7734
+    with fade
     betty "Можешь посидеть здесь или понаблюдать за мной."
     img 7735
     m "Спасибо, Миссис Робертс... Я посижу здесь..."
@@ -430,26 +698,32 @@ label ep22_dialogues4_8:
     w
     #fade
     # Девочки обнаженные
+    music BossaBossa
     img 7737
+    with fadelong
     rebecca "Привет, Моника!"
     img 7738
     stephanie "Моника, когда ты закончишь свое приключение?"
     img 7739
+    with fade
     "Ты знаешь..."
     img 7740
+    with Dissolve(0.5)
     "Это смешно выглядит со стороны..."
     sound snd_fabric1
     img 7742
+    with Dissolve(0.5)
     "Хи-хи!"
 
     img 7741
+    with fade
     rebecca "И когда ты будешь снова заниматься с нами?"
-    img 7743 #?
-    w
     sound snd_fabric1
     img 7744
+    with fade
     w
     img 7745
+    with Dissolve(0.5)
     w
     img 7746
     with Dissolve(0.5)
@@ -457,19 +731,24 @@ label ep22_dialogues4_8:
     img 7747
     "Почему ты всю тренировку сидишь здесь?"
     img 7748
+    with fade
     m "Привет, девочки!"
     "Я уже скоро закончу свое приключение."
     img 7749
     "Осталось совсем немного!"
     img 7750
     "Скоро я снова буду заниматься с Вами!"
+    music Groove2_85
     img 7751
+    with fade
     stephanie "Ну хорошо... Как-то это все странно..."
     img 7752
+    with fade
     rebecca "Хи-хи"
     img 7753
+    with fade
     w
-
+    img 7754
     mt "СУЧКИ!!!"
     return
 # На фитнесе в первый раз Моника в шоке что это тот фитнесс где занимается она.

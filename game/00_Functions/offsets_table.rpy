@@ -1000,8 +1000,6 @@ define offsets_table = {
     "fitness_locker_2_monica_businesscloth2":(149,700,874,905),
     "fitness_locker_2_monica_businesscloth3":(150,666,874,891),
     "fitness_locker_2_monica_fitnesssuit":(164,655,881,967),
-    "fitness_locker_2_rebecca":(209,264,814,420),
-    "fitness_locker_2_stephanie":(219,468,730,641),
     "fitness_locker_2_stephanie_rebecca_monica2_businesscloth2":(181,1141,741,1309),
     "fitness_locker_2_stephanie_rebecca_monica_businesscloth2":(96,683,981,989),
     "fitness_street_driver_monica_businesscloth2":(565,1278,917,1424),
