@@ -72,3 +72,12 @@ label ep22_Act_Images_monica_cleaning_spot:
                 w
     call ep22_dialogue2_7()
     return
+
+label ep22_Act_Images_monica_put_up_panties:
+    if monicaBettyPanties == False:
+    else:
+        if monicaBettyPantiesId == 1:
+        if monicaBettyPantiesId == 2:
+        if monicaBettyPantiesId == 3:
+        if monicaBettyPantiesId == 4:
+        if monicaBettyPantiesId == 5:

@@ -132,6 +132,21 @@ label EP22_Quests_Bardie6_panties_box:
     if act == "l":
         call ep22_dialogues3_11()
         return
+    $ store_music()
+    music Hidden_Agenda
     call ep22_dialogues3_12() #какие трусики мне надеть?
+    show screen screen_betty_panties_select()
+    with Dissolve(0.2)
+    $ result = ui.interact()
+    if result == 6:
+        $ monicaBettyPanties = False
+        $ monicaBettyPantiesId = 1
+    else:
+        $ monicaBettyPanties = True
+        $ monicaBettyPantiesId = result
+
+    $ print "panties_id:"
+    $ print result
+    $ restore_music()
 
     return

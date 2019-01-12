@@ -208,7 +208,7 @@ label house_cleaning_spot:
     $ set_active(False, group="environment", scene="House", recursive=True)
     $ monicaCleaningInProgress = False
     $ set_active("Spot", True, scene="floor2")
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Floor2_Monica_Cleaning_Spot_Evening", "click" : "house_cleaning_spot_click", "actions" : "l", "zorder":11, "tint": monica_tint}, {"monicaBettyPanties": {"v":True, "base" : "Floor2_Monica_Cleaning_Spot_Betty_[monicaBettyPantiesId]_Evening"}}, scene="floor2")
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Floor2_Monica_Cleaning_Spot_Evening", "img_overlay":"Floor2_Monica_Cleaning_Spot_Evening_Overlay", "click" : "house_cleaning_spot_click", "actions" : "l", "zorder":11, "tint": monica_tint}, {"monicaBettyPanties": {"v":True, "base" : "Floor2_Monica_Cleaning_Spot_Betty_[monicaBettyPantiesId]_Evening", "img_overlay":"Floor2_Monica_Cleaning_Spot_Evening_Overlay"}}, scene="floor2")
     $ add_object_to_scene("Spot", {"type" : 2, "base" : "Floor2_Spot", "click" : "house_cleaning_spot_click", "actions" : "l", "zorder":10, "group":"environment"}, scene="floor2")
     $ add_hook("Spot", "house_cleaning_spot_click", scene="floor2")
     $ add_hook("Monica", "house_cleaning_spot_click", scene="floor2")
@@ -244,7 +244,7 @@ label house_cleaning_spot_external_call:
                 add_hook(obj1[1], "cleaning_monica_goout1", scene=obj1[2])
     $ set_active(False, group="environment", scene="floor2")
     $ set_active("Spot", True, scene="floor2")
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Floor2_Monica_Cleaning_Spot_Evening", "click" : "house_cleaning_spot_click_external_call", "actions" : "l", "zorder":11, "tint": monica_tint}, {"monicaBettyPanties": {"v":True, "base" : "Floor2_Monica_Cleaning_Spot_Betty_[monicaBettyPantiesId]_Evening"}}, scene="floor2")
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Floor2_Monica_Cleaning_Spot_Evening", "img_overlay":"Floor2_Monica_Cleaning_Spot_Evening_Overlay", "click" : "house_cleaning_spot_click_external_call", "actions" : "l", "zorder":11, "tint": monica_tint}, {"monicaBettyPanties": {"v":True, "base" : "Floor2_Monica_Cleaning_Spot_Betty_[monicaBettyPantiesId]_Evening", "img_overlay":"Floor2_Monica_Cleaning_Spot_Evening_Overlay"}}, scene="floor2")
     $ add_object_to_scene("Spot", {"type" : 2, "base" : "Floor2_Spot", "click" : "house_cleaning_spot_click_external_call", "actions" : "l", "zorder":10, "group":"environment"}, scene="floor2")
     $ add_hook("Spot", "house_cleaning_spot_click_external_call", scene="floor2")
     $ add_hook("Monica", "house_cleaning_spot_click_external_call", scene="floor2")
