@@ -68,7 +68,7 @@ label ep22_dialogues4_1:
                 w
                 img 8532
                 sound snd_car_engine
-                pause 1.0
+                pause 2.0
                 img scene_Map
                 with fade
                 w

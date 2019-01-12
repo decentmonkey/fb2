@@ -16,6 +16,7 @@ label Fred_Life_evening:
 
 label Fred_Life_day1:
 #    $ move_object("biff", "empty")
+    $ move_object("Driver", "street_house_main_yard") 
     return
 
 label Fred_Life_evening1:

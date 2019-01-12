@@ -20,12 +20,16 @@ label EP22_Quests_Betty3:
         return
     call ep22_dialogues4_1()
     if _return == False:
+        if bettyFitnessToday == True:
+            $ add_object_to_scene("Car", {"type" : 2, "base" : "Street_House_Car", "click" : "street_house_main_yard_environment", "actions" : "l", "zorder":0, "b":0.15}, {"driverOnHouseYard":{"v":False, "active":False}}, scene="street_house_main_yard")
+            $ move_object("Betty", "empty")
+            $ move_object("Driver", "empty")
+            call refresh_scene_fade()
         return False
     $ add_cleaning(True)
     $ add_hook("open", "EP22_Quests_Betty4", scene="street_fitness")
-    call change_scene("street_fitness", "Fade_long", snd_car_engine)
-
-    return
+    call change_scene("street_fitness", "Fade_long", "snd_car_engine")
+    return False
 
 label EP22_Quests_Betty4: #инитим улицу у фитнеса
     $ fitnessStreetStoredScene = store_scene("street_fitness", recursive=True)
