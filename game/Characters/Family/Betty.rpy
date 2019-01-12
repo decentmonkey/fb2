@@ -57,6 +57,9 @@ label bettyProgressLevelUp1:
     if char_data["level"] == 3:
         $ char_data["enabled"] = True
         $ char_data["caption"] = _("Бетти хочет чтобы я носила ее сумку с вещами на фитнесс...")
-
+        call EP22_Quests_Betty1()
+    if char_data["level"] == 4:
+        $ char_data["enabled"] = False
+        $ char_data["caption_diabled"] = _("Work in progress...")
 
     return

@@ -627,8 +627,9 @@ label cleaning2_bardie_comment1:
         bardie "Ты одела не те трусики! Бетти была вчера в других!"
         mt "!!!"
     else:
-        bardie "Ты одела правильные трусики! Хорошая гувернантка!"
-        mt "!!!"
+        if monicaMustWearBettyPanties == True:
+            bardie "Ты одела правильные трусики! Хорошая гувернантка!"
+            mt "!!!"
 #    music Pyro_Flow high
     # Моника
     $ restore_music()
@@ -708,8 +709,9 @@ label cleaning2_bardie_comment2:
         bardie "Ты одела не те трусики! Бетти была вчера в других!"
         mt "!!!"
     else:
-        bardie "Ты одела правильные трусики! Хорошая гувернантка!"
-        mt "!!!"
+        if monicaMustWearBettyPanties == True:
+            bardie "Ты одела правильные трусики! Хорошая гувернантка!"
+            mt "!!!"
 #    music Pyro_Flow
 #    music Marty_Gots_a_Plan high
     $ restore_music()
@@ -792,8 +794,9 @@ label cleaning2_bardie_comment3:
         bardie "Ты одела не те трусики! Бетти была вчера в других!"
         mt "!!!"
     else:
-        bardie "Ты одела правильные трусики! Хорошая гувернантка!"
-        mt "!!!"
+        if monicaMustWearBettyPanties == True:
+            bardie "Ты одела правильные трусики! Хорошая гувернантка!"
+            mt "!!!"
 #    music Pyro_Flow high
 #    $ add_corruption(bardieCleaning2UpskirtCorruption, "bardie_monica_upskirt_corruption_day_" + str(day))
     $ restore_music()
