@@ -78,7 +78,7 @@ label EP22_Quests_Bardie2: #сон
     $ unfocus_map() #debug!!!!
     $ focus_map("Teleport_Police", "ep22_dialogues3_3a")
     $ add_hook("basement_monica_before_nap", "ep22_dialogues3_3b", scene="global", label="hurry_to_police")
-
+    $ EP22_Quests_Bardie_Monica_Blackmail_Stage2_init_day = day
     return
 
 label EP22_Quests_Bardie3: #разговор в полиции
