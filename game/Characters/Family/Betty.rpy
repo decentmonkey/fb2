@@ -8,6 +8,8 @@ define bettyPantiesList = [1, 2, 3, 4, 5]
 default bettyTouchedFredDick = False
 default bettyFredLandrySexPlanned = False
 
+default bettyFitnessToday = False
+
 label bettyInteract1:
     if act == "l":
         mt "Это Бетти..."
@@ -52,4 +54,9 @@ label bettyProgressLevelUp1:
             $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
         $ move_object("Betty", "floor2")
         $ add_hook("Betty_Life_day", "Betty_Life_day1_lower", scene="global", priority=50, label="betty_level2_onetime")
+    if char_data["level"] == 3:
+        $ char_data["enabled"] = True
+        $ char_data["caption"] = _("Бетти хочет чтобы я носила ее сумку с вещами на фитнесс...")
+
+
     return
