@@ -65,7 +65,7 @@ label bedroom_bardie_environment:
                 pass
             "Уйти...":
                 return
-        if bardieLocation == "BedroomBardie":
+        if get_active_objects("Bardie") != False:
             #render+
             #ноутбук Барди крупным планом и Барди
             img 5802

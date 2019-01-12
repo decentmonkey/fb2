@@ -12,7 +12,7 @@ label street_house_main_yard:
     if get_active_objects("Driver") == False:
         $ driverOnHouseYard = False
         help "no fred"
-        #$ scene_image = "scene_Street_House_NoDriver[day_suffix]" #debug!!!
+        $ scene_image = "scene_Street_House_NoDriver[day_suffix]"
     if day_time == "day":
         music Mandeville
     else:

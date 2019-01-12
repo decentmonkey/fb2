@@ -89,8 +89,7 @@ label ep22_dialogues4_1:
     return False
 
 
-
-label ep22_dialogues4_2:
+label ep22_dialogues4_1a:
     # На улице. Водитель Фред, Бетти и Моника. Первый раз
     if ep22_quest_flag1 == False:
         $ ep22_quest_flag1 = True
@@ -99,11 +98,18 @@ label ep22_dialogues4_2:
         "Мне нельзя туда в таком виде!!!"
         betty "Моника, гувернантка, почему ты отстаешь от меня?"
         "Поторопись! За мной!"
-    else:
-        # повтор
-        betty "Моника, гувернантка, почему ты отстаешь от меня?"
-        "Поторопись! За мной!"
     return
+
+label ep22_dialogues4_2:
+    # повтор
+    betty "Моника, гувернантка, почему ты отстаешь от меня?"
+    "Поторопись! За мной!"
+    return
+label ep22_dialogues4_2a:
+    # повтор
+    betty "Моника, гувернантка, почему ты отстаешь от меня?"
+    "Поторопись! За мной!"
+    return False
 
 label ep22_dialogues4_3:
     # Зал фитнеса, autorun первый раз
@@ -121,7 +127,7 @@ label ep22_dialogues4_3:
 
 label ep22_dialogues4_4: #клик по Бетти ил иниструктору в фитнесс-зале
     mt "Эта сучка что, флиртует с ним?!"
-    return
+    return False
 
 label ep22_dialogues4_5:
     # Моника заходит в раздевалку, там Стефани и Ребекка
