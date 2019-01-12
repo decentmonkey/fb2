@@ -49,7 +49,7 @@ label monica_take_nap1:
         "Лечь и ждать вечера.":
             $ basementBedroomMonicaNapGfx = False
             $ basementBedroomMonicaNapGfxBettyPanties = False
-            $ basement_bedroom2_Monica_Nap_Betty_Suffix = False
+            $ basement_bedroom2_Monica_Nap_Betty_Suffix = ""
             #транзиция на отдых
             call process_hooks("basement_monica_before_nap", "global") from _call_process_hooks_29
             if _return == False:
@@ -63,7 +63,7 @@ label monica_take_nap1:
         "Не ложиться.":
             $ basementBedroomMonicaNapGfx = False
             $ basementBedroomMonicaNapGfxBettyPanties = False
-            $ basement_bedroom2_Monica_Nap_Betty_Suffix = False
+            $ basement_bedroom2_Monica_Nap_Betty_Suffix = ""
             call refresh_scene_fade() from _call_refresh_scene_fade_45
             return False
     return
