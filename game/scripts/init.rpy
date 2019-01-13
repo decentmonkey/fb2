@@ -51,6 +51,14 @@ define monicaWhoringClothBoobsCorruptionRequired = 50 # Кол-во corruption, 
 define monicaWhoringClothBoobsTongueCorruptionRequired = 60 #Кол-во corruption, чтобы Моника показала грудь в одежде и высунула язык
 define monicaWhoringClothAssCorruptionRequired = 70 # Кол-во corruption, чтобы Моника показала грудь в одежде
 
+define monicaVictoriaShowBoobsToCameraCorruptionRequired = 65 #Кол-во corruption, чтобы Моника показала грудь Виктории на телефон
+define monicaDickSeduceAsVictoriaByAssCorruptionRequired = 70 #Кол-во corruption, чтобы Моника показала Дику зад
+define monicaVictoriaLickAssBeginCorruptionRequired = 70 #Кол-во corruption, чтобы Моника лизнула зад Виктории вначале
+
+define monicaVictoriaKissHeelsProgress = 5 # Кол-во прогресса за поцелуй каблука
+define monicaVictoriaLickAssBeginProgress = 10 # Кол-во прогресса за лизание зада Виктории в самом начале
+define monicaVictoriaPunishmentAssLickProgress = 10 # Кол-во прогресса за наказание лизанием зада
+define monicaVictoriaEarnedWeeklyMoneyProgress = 5 # Кол-во прогресса за зарабатывание денег за неделю
 
 default houseMusic = "Mandeville"
 #default biffMusic = "Funk_loop8"

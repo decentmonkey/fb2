@@ -7,6 +7,8 @@ define bettyPantiesList = [1, 2, 3, 4, 5]
 
 default bettyTouchedFredDick = False
 default bettyFredLandrySexPlanned = False
+default bettyTouchedFredDickByTongue = False
+default bettyFredLaundryHasSex = False
 
 default bettyFitnessToday = False
 

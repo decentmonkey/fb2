@@ -15,9 +15,6 @@ label alexPhotographProgressLevelUp:
 label cashierProgressLevelUp:
     return
 
-label dickSecretaryProgressLevelUp:
-    return
-
 label driverProgressLevelUp:
     return
 

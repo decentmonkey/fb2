@@ -1,4 +1,3 @@
-default monicaWantToAskMelanieHelpEnabled = False
 default ep22_started = False
 default monicaLateToDick = False
 
@@ -41,6 +40,14 @@ label ep22_init:
     $ add_hook("map_teleport", "ep22_betty_catch_exit_map", scene="global", label="betty_catch")
     $ add_hook("Gates", "ep22_betty_catch_exit_gates", scene="street_house_gate", label="betty_catch")
 
+    # Инициализируем общение с Диком и Викторией
+    $ remove_hook("DickSecretary", "dick_secretary_talk3", scene="dick_office_secretary")
+    $ add_hook("DickSecretary", "ep22_quests_Dick1", scene="dick_office_secretary", label="dicksecretary_stage1")
+    $ add_hook("Door", "ep22_dialogues5_1", scene="dick_office_secretary", label="dicksecretary_stage1")
+    $ move_object("DickTheLawyer", "dick_office_cabinet")
+    $ remove_hook("DickTheLawyer", "dick_the_lawyer_talk1", scene="dick_office_cabinet")
+    $ add_hook("DickTheLawyer", "ep22_quests_Dick2", scene="dick_office_cabinet", label="dicksecretary_stage2")
+
     call basement_bedroom1_init()
     call basement_bedroom2_init()
 
@@ -67,6 +74,7 @@ label ep22_betty_catch_process:
     $ remove_hook(lable="hurry_to_dick") #debug!!!!
 
     $ remove_hook(label="betty_catch")
+    $ add_hook("map_teleport", "EP22_Quests_Betty0_Fred_scene", scene="global") #Вешаем сцену с Бетти
     $ monicaLastCleaningOfferedDay = day
 
     call ep22_dialogues2_4()
@@ -92,4 +100,7 @@ label ep22_betty_catch_process:
         $ add_cleaning(True)
         call house_cleaning_spot_external_call()
         return False
+    return
+
+label ep22_dick_enter_map:
     return

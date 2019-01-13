@@ -60,7 +60,7 @@ init python:
             add_hook("day_" + str(kwargs["day"]) + suff, hook_label, scene="global_day")
 
         if kwargs.has_key("week_day"):
-            add_hook("week_day_" + str(kwargs[week_day]) + suff, hook_label, scene="global_week_day")
+            add_hook("week_day_" + str(kwargs["week_day"]) + suff, hook_label, scene="global_week_day")
         return
 
     def remove_hook_day(hook_label, **kwargs):

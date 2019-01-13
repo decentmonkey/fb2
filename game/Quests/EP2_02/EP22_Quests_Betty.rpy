@@ -3,6 +3,13 @@ default ep22_fitness_gym_inited = False
 default fitness_gym_visited_amount = 0
 default fitness_gym_betty_first_time_interact_with_trainer = True
 
+label EP22_Quests_Betty0_Fred_scene:
+    if cloth != "Governess":
+        $ remove_hook()
+        $ map_enabled = False
+        call ep22_dialogue2_8()
+    return
+
 label EP22_Quests_Betty1: #init quest
     $ add_hook("Betty_Life_day", "EP22_Quests_Betty2", scene="global", label="betty_fitness_days")
     $ add_hook("Betty", "EP22_Quests_Betty3", scene="floor2")

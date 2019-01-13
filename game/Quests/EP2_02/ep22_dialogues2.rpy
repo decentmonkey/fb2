@@ -369,6 +369,15 @@ label ep22_dialogues2_3:
     $ remove_hook()
     return
 
+label ep22_dialogues2_3a:
+    mt "Наконец-то у Дика есть его чертов галстук!"
+    "Мне пришлось через многое пройти, чтобы добыть эти деньги."
+    "Я даже не буду думать об этом... Черт..."
+    "Неплохо было бы теперь {c}проведать Дика{/c}."
+    "Он должен уладить мою небольшую проблему и помочь вернуть все назад!"
+    $ remove_hook()
+    return
+
 # С утра Моника просыпается и пытается быстрее бежать к Дику
 # Ее останавливает Бетти и заставляет тереть пятно, либо чтобы она отдала его в химчистку.
 # Моника говорит что это пятно поставила нерадивая гувернантка и что она ее знает
@@ -606,287 +615,413 @@ label ep22_dialogue2_8:
     #render
     #сцена Бетти и Фреда в прачечной
     #Бетти что-то делает
-    img 7272
-    w
-    img 7269
-    w
-    img 7270
-    w
-    img 7271
-    w
-    img 7273
-    fred "О! Мэм! Вы пришли..."
-    img 7274
-    betty "Я пришла, Фред."
-    img 7275
-    fred "Мэм, что Вы прикажете делать мне?"
-    img 7276
-    betty "Покажи его..."
-    #фред раздевается
-    #звук одежды
-    #fade
-    img 7277
-    w
-    img 7278
-    w
-    img 7279
-    betty "..."
-    img 7281
-    w
-    img 7282
-    fred "..." #улыбается
-    img 7283
-    w
-    img 7280
-    betty "Можно я потрогаю его?"
-    img 7282
-    fred "Конечно, Мэм!"
-    img 7284
-    w
-    img 7285
-    w
-    img 7286
-    betty "..."
-    img 7287
-    betty "Упругий..."
-    img 7288
-    fred "Вы можете потрогать его язычком..."
-    img 7289
-    betty "..."
-    #Бетти садится и трогает член Фреда я языком
-    img 7290
-    w
-    img 7291
-    w
-    img 7292
-    w
-    img 7293
-    w
-    img 7294
-    w
-    #касается языком
-    img 7295
-    w
-    img 7296
-    w
-    img 7297
-    w
-    img 7298
-    w
-    img 7299
-    betty "Соленый..."
-    img 7300
-    fred "Мэм..."
-    "Вы можете взять его в свой ротик..."
-    img 7301
-    w
-    img 7302
-    betty "В следующий раз!"
-    "Мало времени, Фред!"
-    img 7303
-    "Меня ждет Ральф!"
-    img 7304
-    "Давай скорее!"
-    img 7305
-    w
-    img 7306
-    w
-    fred "Давайте я подержу Ваши трусики, Мэм!"
-    img 7308
-    w
-    img 7309
-    w
-    #Бетти нагибается задом
-    img 7310
-    w
-    img 7311
-    w
-    img 7312
-    w
-    #Фред одевает трусики на член
-    img 7313
-    w
-    img 7314
-    w
-    img 7315
-    w
-    img 7316
-    betty "Фред! Давай скорее!"
-    "Меня ждет Ральф!"
-    img 7317
-    fred "Как скажете, Миссис Робертс!"
-    img 7318
-    "Вы мой Босс!"
-    #Фред трахает Бетти сзади
-    img 7319
-    w
-    img 7320
-    w
-    img 7321
-    w
-    img 7322
-    w
-    img 7323
-    w
-    img 7324
-    w
-    img 7325
-    w
-    img 7326
-    w
-    img 7327
-    w
-    img 7238
-    w
-    img 7329
-    w
-    img 7330
-    w
-    img 7331
-    w
-    img 7332
-    w
-    img 7333
-    w
-    img 7334
-    w
-    img 7335
-    w
-    img 7336
-    w
-    img 7337
-    w
-    img 7338
-    w
-    img 7339
-    w
-    img 7340
-    w
-    img 7341
-    w
-    img 7342
-    w
-    img 7343
-    fred "Ааааагх!!!"
-    img 7344
-    betty "Не вздумай кончить в меня!"
-    fred "Да, Мэм! Как скажете!"
-    img 7345
-    fred "Ааааагх!!!"
-    img 7346
-    w
+    scene black_screen
+    with Dissolve(1)
+    stop music fadeout 1.0
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    scene black_screen
+    with Dissolve(1)
+    if bettyFredLandrySexPlanned == True:
+        music Loved_Up
+        img 7272
+        with fade
+        w
+        img 7269
+        with fade
+        w
+        img 7270
+        w
+        img 7271
+        with fade
+        w
+        img 7273
+        with fade
+        fred "О! Мэм! Вы пришли..."
+        img 7274
+        betty "Я пришла, Фред."
+        img 7275
+        fred "Мэм, что Вы прикажете делать мне?"
+        img 7276
+        with fade
+        betty "Покажи его..."
+        #фред раздевается
+        #звук одежды
+        #fade
+        sound snd_fabric1
+        img 7277
+        with fadelong
+        w
+        img 7278
+        w
+        img 7279
+        betty "..."
+        img 7281
+        w
+        img 7282
+        fred "..." #улыбается
+        img 7283
+        w
+        img 7280
+        betty "Можно я потрогаю его?"
+        img 7282
+        fred "Конечно, Мэм!"
+        img 7284
+        with fade
+        w
+        img 7285
+        w
+        img 7286
+        betty "..."
+        img 7287
+        betty "Упругий..."
+        img 7288
+        fred "Вы можете потрогать его язычком..."
+        img 7289
+        betty "..."
+        menu:
+            "Коснуться члена Фреда язычком...":
+                pass
+            "Нет времени на это...":
+                jump ep22_dialogue2_8_1
+        #Бетти садится и трогает член Фреда я языком
+        $ bettyTouchedFredDickByTongue = True
+        img 7290
+        with fade
+        w
+        img 7291
+        w
+        img 7292
+        w
+        img 7293
+        w
+        img 7294
+        w
+        #касается языком
+        img 7295
+        with fade
+        w
+        img 7296
+        w
+        img 7297
+        w
+        img 7298
+        w
+        img 7299
+        with fade
+        betty "Соленый..."
+        img 7300
+        fred "Мэм..."
+        "Вы можете взять его в свой ротик..."
+        img 7301
+        w
+        label ep22_dialogue2_8_1:
+            img 7302
+            with fade
+            betty "В следующий раз!"
+            "Мало времени, Фред!"
+            img 7303
+            "Меня ждет Ральф!"
+            menu:
+                "Сделай это быстро...":
+                    pass
+                "Я ухожу...":
+                    "Меня ждет Ральф!"
+                    betty "Я ухожу..."
+                    fred "Как скажете, Мэм..."
+                    jump ep22_dialogue2_8_2
+            $ bettyFredLaundryHasSex = True
+            img 7304
+            with fade
+            "Давай скорее!"
+            img 7305
+            with Dissolve(0.5)
+            w
+            img 7306
+            with Dissolve(0.5)
+            w
+            img 7307
+            with Dissolve(0.5)
+            w
+            img 7308
+            with fade
+            fred "Давайте я подержу Ваши трусики, Мэм!"
+            w
+            img 7309
+            with fade
+            w
+            #Бетти нагибается задом
+            img 7310
+            w
+            img 7311
+            w
+            img 7312
+            w
+            #Фред одевает трусики на член
+            sound Jump2
+            img 7313
+            with fade
+            w
+            img 7314
+            w
+            img 7315
+            w
+            img 7316
+            with fade
+            betty "Фред! Давай скорее!"
+            "Меня ждет Ральф!"
+            img 7317
+            with fade
+            fred "Как скажете, Миссис Робертс!"
+            img 7318
+            "Вы мой Босс!"
+            #Фред трахает Бетти сзади
+            music Indo_Rock
+            img 7319
+            w
+            img 7320
+            w
+            scene black
+            image videov_Basement_Laundry_Fred_Betty_Sex_1_1 = Movie(play="video/v_Basement_Laundry_Fred_Betty_Sex_1_1.mp4", fps=30)
+            show videov_Basement_Laundry_Fred_Betty_Sex_1_1
+            wclean
+            img 7321
+            w
+            img 7322
+            w
+            scene black
+            image videov_Basement_Laundry_Fred_Betty_Sex_1_2 = Movie(play="video/v_Basement_Laundry_Fred_Betty_Sex_1_2.mp4", fps=30)
+            show videov_Basement_Laundry_Fred_Betty_Sex_1_2
+            wclean
+            img 7323
+            w
+            img 7324
+            w
+            scene black
+            image videov_Basement_Laundry_Fred_Betty_Sex_1_3 = Movie(play="video/v_Basement_Laundry_Fred_Betty_Sex_1_3.mp4", fps=30)
+            show videov_Basement_Laundry_Fred_Betty_Sex_1_3
+            wclean
+            img 7325
+            w
+            img 7326
+            w
+            scene black
+            image videov_Basement_Laundry_Fred_Betty_Sex_1_4 = Movie(play="video/v_Basement_Laundry_Fred_Betty_Sex_1_4.mp4", fps=30)
+            show videov_Basement_Laundry_Fred_Betty_Sex_1_4
+            wclean
+            img 7327
+            w
+            img 7328
+            w
+            scene black
+            image videov_Basement_Laundry_Fred_Betty_Sex_1_5 = Movie(play="video/v_Basement_Laundry_Fred_Betty_Sex_1_5.mp4", fps=30)
+            show videov_Basement_Laundry_Fred_Betty_Sex_1_5
+            wclean
+            scene black
+            image videov_Basement_Laundry_Fred_Betty_Sex_1_6 = Movie(play="video/v_Basement_Laundry_Fred_Betty_Sex_1_6.mp4", fps=30)
+            show videov_Basement_Laundry_Fred_Betty_Sex_1_6
+            wclean
+            img 7329
+            w
+            img 7330
+            w
+            scene black
+            image videov_Basement_Laundry_Fred_Betty_Sex_1_7 = Movie(play="video/v_Basement_Laundry_Fred_Betty_Sex_1_7.mp4", fps=30)
+            show videov_Basement_Laundry_Fred_Betty_Sex_1_7
+            wclean
+            img 7331
+            w
+            img 7332
+            w
+            scene black
+            image videov_Basement_Laundry_Fred_Betty_Sex_1_8 = Movie(play="video/v_Basement_Laundry_Fred_Betty_Sex_1_8.mp4", fps=30)
+            show videov_Basement_Laundry_Fred_Betty_Sex_1_8
+            wclean
+            scene black
+            image videov_Basement_Laundry_Fred_Betty_Sex_1_9 = Movie(play="video/v_Basement_Laundry_Fred_Betty_Sex_1_9.mp4", fps=30)
+            show videov_Basement_Laundry_Fred_Betty_Sex_1_9
+            wclean
+            img 7333
+            w
+            img 7334
+            w
+            img 7335
+            w
+            scene black
+            image videov_Basement_Laundry_Fred_Betty_Sex_1_12 = Movie(play="video/v_Basement_Laundry_Fred_Betty_Sex_1_12.mp4", fps=30)
+            show videov_Basement_Laundry_Fred_Betty_Sex_1_12
+            wclean
+            img 7336
+            w
+            img 7337
+            w
+            img 7338
+            w
+            scene black
+            image videov_Basement_Laundry_Fred_Betty_Sex_1_13 = Movie(play="video/v_Basement_Laundry_Fred_Betty_Sex_1_13.mp4", fps=30)
+            show videov_Basement_Laundry_Fred_Betty_Sex_1_13
+            wclean
+            img 7339
+            w
+            img 7340
+            w
+            scene black
+            image videov_Basement_Laundry_Fred_Betty_Sex_1_14 = Movie(play="video/v_Basement_Laundry_Fred_Betty_Sex_1_14.mp4", fps=30)
+            show videov_Basement_Laundry_Fred_Betty_Sex_1_14
+            wclean
+            scene black
+            image videov_Basement_Laundry_Fred_Betty_Sex_1_15 = Movie(play="video/v_Basement_Laundry_Fred_Betty_Sex_1_15.mp4", fps=30)
+            show videov_Basement_Laundry_Fred_Betty_Sex_1_15
+            wclean
+            img 7341
+            w
+            img 7342
+            w
+            img 7343
+            with fade
+            fred "Ааааагх!!!"
+            img 7344
+            betty "Не вздумай кончить в меня!"
+            fred "Да, Мэм! Как скажете!"
+            img 7345
+            with fade
+            fred "Ааааагх!!!"
+            img 7346
+            w
 
-    #Фред кончает Бетти на лицо
-    img 7347
-    betty "Что ты сделал?"
-    "Зачем ты кончил мне на лицо???"
-    img 7348
-    w
-    img 7349
-    "Мои трусики???" #Смотрит на член Фреда
-    img 7350
-    w
-    img 7351
-    fred "Мэм, Вы просто не в курсе..."
-    "В больших городах принято после секса кончать девушке на лицо..."
-    "Все прогрессивные люди делают это!"
-    img 7352
-    betty "Правда? Так принято?"
-    fred "Да, Мэм!"
+            #Фред кончает Бетти на лицо
+            music Groove2_85
+            img 7347
+            with fade
+            betty "Что ты сделал?"
+            "Зачем ты кончил мне на лицо???"
+            img 7348
+            with fade
+            w
+            img 7349
+            "Мои трусики???" #Смотрит на член Фреда
+            img 7350
+            w
+            img 7351
+            fred "Мэм, Вы просто не в курсе..."
+            "В больших городах принято после секса кончать девушке на лицо..."
+            "Все прогрессивные люди делают это!"
+            img 7352
+            with fade
+            betty "Правда? Так принято?"
+            fred "Да, Мэм!"
 
-    img 7353
-    betty "Где мой шарф? Ты видел его?"
-    img 7354
-    fred "Вы имеете ввиду этот шарф, Миссис Робертс?"
-    img 7355
-    w
-    img 7356
-    w
-    img 7357
-    w
-    img 7358
-    w
-    #Бетти недовольно смотрит на него и одевает шарф
-    img 7359
-    w
-    img 7360
-    betty "..."
-    img 7361
-    fred "..."
+            img 7353
+            betty "Где мой шарф? Ты видел его?"
+            img 7354
+            with fade
+            fred "Вы имеете ввиду этот шарф, Миссис Робертс?"
+            img 7355
+            w
+            img 7356
+            w
+            img 7357
+            w
+            img 7358
+            with fade
+            w
+            #Бетти недовольно смотрит на него и одевает шарф
+            img 7359
+            w
+            img 7360
+            with fade
+            betty "..."
+            img 7361
+            fred "..."
 
-    img 7362
-    betty "Кто-то идет!"
-    "Скорее всего это оболтус Барди!"
-    fred "Мэм! Я знаю отсюда другой выход."
-    "Не беспокойтесь, меня не увидят."
-    img 7363
-    betty "Я скажу тебе когда захочу снова."
-    fred "Конечно, Мэм!"
-    "Это моя работа!"
+            img 7362
+            with fade
+            betty "Кто-то идет!"
+            "Скорее всего это оболтус Барди!"
+            fred "Мэм! Я знаю отсюда другой выход."
+            "Не беспокойтесь, меня не увидят."
+            img 7363
+            with fade
+            betty "Я скажу тебе когда захочу снова."
+            fred "Конечно, Мэм!"
+            "Это моя работа!"
 
-    #Бетти выходит
-    #В бассейне натыкается на Барди
-    img 7364
-    betty "Барди?"
-    "Маленький оболтус, что ты здесь делаешь??"
-    "Ты никогда не спускался сюда."
-    img 7365
-    bardie "Бетти, а где живет гувернантка?"
-    img 7366
-    betty "Я не имею понятия где она живет."
-    "Мне это неинтересно!"
-    img 7367
-    bardie "Бетти, а что это у тебя на лице?"
-    "Это похоже на... Я видел подобное в одном фильме..."
-    img 7368
-    betty "Где???"
-    img 7369
-    bardie "У тебя на лице!"
-    #вытирает
-    img 7370
-    betty "Это???"
-    img 7371
-    "Я только что занималась стиркой белья!"
-    "Должно быть кондиционер для белья попал мне на лицо..."
-    img 7372
-    "Это, между прочим, не очень полезно для кожи!"
-    img 7373
-    "Я занимаюсь домашними делами, обстирывая Вас, оболтусов!"
-    "Что тебя, что Ральфа!"
-    img 7374
-    "Еще и готовлю для Вас еду!!!"
-    img 7375
-    bardie "Поручи это гувернантке!"
-    betty "Еще чего!"
-    "Я и так с трудом терплю эту шлюху в моем доме!"
-    "..."
-    img 7376
-    "Барди! Я согласилась принять на работу эту проститутку при условии что ты не будешь трепать мне нервы!"
-    "Проваливай отсюда, пока я ни вышвырнула ее из дома!"
-    img 7377
-    w
-    img 7378
-    #Бетти надменно смотрит на Барди
-    bardie "Хорошо! Бетти!"
-    "Я исчезаю!"
+            img black_screen
+            with Dissolve(0.5)
+            sound highheels_short_walk
+            pause 2.0
+            #Бетти выходит
+            #В бассейне натыкается на Барди
+            img 7364
+            with fade
+            betty "Барди?"
+            "Маленький оболтус, что ты здесь делаешь??"
+            "Ты никогда не спускался сюда."
+            img 7365
+            bardie "Бетти, а где живет гувернантка?"
+            img 7366
+            betty "Я не имею понятия где она живет."
+            "Мне это неинтересно!"
+            img 7367
+            bardie "Бетти, а что это у тебя на лице?"
+            "Это похоже на... Я видел подобное в одном фильме..."
+            img 7368
+            betty "Где???"
+            img 7369
+            bardie "У тебя на лице!"
+            #вытирает
+            img 7370
+            with fade
+            betty "Это???"
+            img 7371
+            "Я только что занималась стиркой белья!"
+            "Должно быть кондиционер для белья попал мне на лицо..."
+            img 7372
+            "Это, между прочим, не очень полезно для кожи!"
+            music Pyro_Flow
+            img 7373
+            with fade
+            "Я занимаюсь домашними делами, обстирывая Вас, оболтусов!"
+            "Что тебя, что Ральфа!"
+            img 7374
+            "Еще и готовлю для Вас еду!!!"
+            img 7375
+            bardie "Поручи это гувернантке!"
+            betty "Еще чего!"
+            "Я и так с трудом терплю эту шлюху в моем доме!"
+            "..."
+            img 7376
+            "Барди! Я согласилась принять на работу эту проститутку при условии что ты не будешь трепать мне нервы!"
+            "Проваливай отсюда, пока я ни вышвырнула ее из дома!"
+            img 7377
+            w
+            img 7378
+            sound Jump1
+            #Бетти надменно смотрит на Барди
+            bardie "Хорошо! Бетти!"
+            "Я исчезаю!"
 
-    #сцена Бетти кричит на Ральфа floor1
-    #темнота
-    betty "Ральф!!! Где ты?!?!"
+    label ep22_dialogue2_8_2:
+        #сцена Бетти кричит на Ральфа floor1
+        #темнота
+        img black_screen
+        with fade
+        music Pyro_Flow
+        betty "Ральф!!! Где ты?!?!"
 
-    img 7379
-    betty "Ральф! Что ты здесь делаешь?!"
-    "Твое место в гостиной!"
-    "Почему я должна искать тебя?!"
-    ralph "Бетти... Я..."
+        img 7379
+        with fade
+        betty "Ральф! Что ты здесь делаешь?!"
+        "Твое место в гостиной!"
+        "Почему я должна искать тебя?!"
+        ralph "Бетти... Я..."
 
-    img 7380
-    betty "Ну-ка быстро пошел есть!"
-    "Ты хочешь испортить себе желудок?!"
-    img 7381
-    "Для кого я готовлю в этом доме?!"
+        img 7380
+        betty "Ну-ка быстро пошел есть!"
+        "Ты хочешь испортить себе желудок?!"
+        img 7381
+        "Для кого я готовлю в этом доме?!"
 
-    #Офис Дика...
+        #Офис Дика...
 
 
     return
