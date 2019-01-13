@@ -136,4 +136,4 @@ label ep22_quests_Dick11: #уменьшение дождя в доме
 label ep22_quests_Dick12: #сцена секса Виктории с Диком
     $ remove_hook()
     call ep22_dialogues5_14()
-    return
+    return True

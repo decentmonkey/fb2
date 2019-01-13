@@ -1576,10 +1576,12 @@ label ep22_dialogues5_14:
     dick_secretary "У меня не очень хорошее настроение сегодня..."
     dick "Кто посмел испортить тебе настроение, детка?"
     dick_secretary "Миссис Бакфетт!"
+    music Power_Bots_Loop
     img 8251
     with hpunch
     dick2 "ЧТО?!?!"
     "ОПЯТЬ ОНА ЗА СВОЕ?!?!"
+    music Loved_Up
     dick_secretary "Нет, Мистер Дик..."
     "Она все поняла и теперь ведет себя как подруга."
     "Но она по дружески обратилась ко мне с просьбой помочь ей деньгами."
@@ -1665,6 +1667,7 @@ label ep22_dialogues5_14:
             "Обещайте что будете защищать меня!"
             dick "Я буду защищать тебя, Виктория!"
             img 8267
+            with fade
             dick "..."
             dick "Значит мне придется быть вторым?"
             dick_secretary "Если Вы не брезгуете ласкать меня после лица Миссис Бакфетт..."
@@ -1680,12 +1683,74 @@ label ep22_dialogues5_14:
 
 
     #Виктория встает на колени на стол, а Дик ее лижет
-
+    music Loved_Up2
+    scene black
+    image videov_Dick_Victoria_Sex_1_1 = Movie(play="video/v_Dick_Victoria_Sex_1_1.mp4", fps=30)
+    show videov_Dick_Victoria_Sex_1_1
+    with fadelong
     dick "Ммммммм"
+    wclean
+    scene black
+    image videov_Dick_Victoria_Sex_1_2 = Movie(play="video/v_Dick_Victoria_Sex_1_2.mp4", fps=30)
+    show videov_Dick_Victoria_Sex_1_2
     dick "Мммммм... ням"
+    wclean
+    scene black
+    image videov_Dick_Victoria_Sex_1_3 = Movie(play="video/v_Dick_Victoria_Sex_1_3.mp4", fps=30)
+    show videov_Dick_Victoria_Sex_1_3
+    wclean
+    scene black
+    image videov_Dick_Victoria_Sex_1_4 = Movie(play="video/v_Dick_Victoria_Sex_1_4.mp4", fps=30)
+    show videov_Dick_Victoria_Sex_1_4
+    wclean
+    scene black
+    image videov_Dick_Victoria_Sex_1_5 = Movie(play="video/v_Dick_Victoria_Sex_1_5.mp4", fps=30)
+    show videov_Dick_Victoria_Sex_1_5
+    wclean
     "Виктория, ты божество!"
+    scene black
+    image videov_Dick_Victoria_Sex_1_6 = Movie(play="video/v_Dick_Victoria_Sex_1_6.mp4", fps=30)
+    show videov_Dick_Victoria_Sex_1_6
+    wclean
+    scene black
+    image videov_Dick_Victoria_Sex_1_7 = Movie(play="video/v_Dick_Victoria_Sex_1_7.mp4", fps=30)
+    show videov_Dick_Victoria_Sex_1_7
+    wclean
     dick_secretary "Мистер Дик, у меня вкусная попка?"
     dick "У тебя самая вкусная попка на свете!"
-    dick_secretary "Как Вы думаете, она понравится Миссис Бакфетт?"
-    dick "О! Виктория! Я думаю она будет без ума от нее!"
+    scene black
+    image videov_Dick_Victoria_Sex_1_8 = Movie(play="video/v_Dick_Victoria_Sex_1_8.mp4", fps=30)
+    show videov_Dick_Victoria_Sex_1_8
+    wclean
+    scene black
+    image videov_Dick_Victoria_Sex_1_9 = Movie(play="video/v_Dick_Victoria_Sex_1_9.mp4", fps=30)
+    show videov_Dick_Victoria_Sex_1_9
+    wclean
+    scene black
+    image videov_Dick_Victoria_Sex_1_10 = Movie(play="video/v_Dick_Victoria_Sex_1_10.mp4", fps=30)
+    show videov_Dick_Victoria_Sex_1_10
+    wclean
+    scene black
+    image videov_Dick_Victoria_Sex_1_11 = Movie(play="video/v_Dick_Victoria_Sex_1_11.mp4", fps=30)
+    show videov_Dick_Victoria_Sex_1_11
+    wclean
+    scene black
+    image videov_Dick_Victoria_Sex_1_12 = Movie(play="video/v_Dick_Victoria_Sex_1_12.mp4", fps=30)
+    show videov_Dick_Victoria_Sex_1_12
+    wclean
+    if monicaVictoriaLickAssAtBegin == True:
+        dick_secretary "Как Вы думаете, она нравится Миссис Бакфетт?"
+        dick "О! Виктория! Я думаю она без ума от нее!"
+    else:
+        dick_secretary "Как Вы думаете, она понравится Миссис Бакфетт?"
+        dick "О! Виктория! Я думаю она будет без ума от нее!"
+    scene black
+    image videov_Dick_Victoria_Sex_1_13 = Movie(play="video/v_Dick_Victoria_Sex_1_13.mp4", fps=30)
+    show videov_Dick_Victoria_Sex_1_13
+    with fade
+    wclean
+    music stop
+    img black_screen
+    with Dissolve(0.7)
+    pause 1.0
     return
