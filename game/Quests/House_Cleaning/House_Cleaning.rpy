@@ -4,6 +4,8 @@ default cleaningLog = []
 default spotCleaning = False
 default monicaCleaningInProgressEngineWorkingFlag = False
 
+default monicaHouseCleaningBettyAffection = True
+
 #default houseCleaningCurrent = 3
 #default houseCleaningCurrentList = []
 
@@ -151,8 +153,12 @@ label house_cleaning_end2:
     $ restore_music()
     $ monicaLastCleaningCompletedDay = day
     $ add_cleaning(True)
-    if get_cleaning_status(3) == True:
-        $ add_char_progress("Betty", bettyCleaningProgessAmount, "cleaning_day_" + str(day))
+    if get_cleaning_status(3) == True and monicaHouseCleaningBettyAffection == True:
+        if char_info["Betty"]["level"] < 3:
+            $ add_char_progress("Betty", bettyCleaningProgessAmount, "cleaning_day_" + str(day))
+        else:
+            $ add_char_progress("Betty", bettyCleaningProgessAmountLevel3, "cleaning_day_" + str(day))
+
     $ miniMapEnabledOnly = []
 
     call refresh_scene_fade() from _call_refresh_scene_fade_42
@@ -203,7 +209,9 @@ label house_cleaning_room_finished2:
 label processHouseCleaningEvening:
     if monicaLastCleaningCompletedDay < day:
         $ add_cleaning(False)
-        $ add_char_progress("Betty", bettyCleaningProgessRegressAmount, "cleaning_day_" + str(day))
+        if monicaHouseCleaningBettyAffection == True:
+            if char_info["Betty"]["level"] < 3:
+                $ add_char_progress("Betty", bettyCleaningProgessRegressAmount, "cleaning_day_" + str(day))
 
     return
 

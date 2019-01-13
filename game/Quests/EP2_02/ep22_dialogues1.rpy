@@ -24,7 +24,6 @@
 label ep22_dialogues1:
     return
 
-
 label ep22_dialogue1_2_governess_refuse_to_go:
     if cloth == "Governess":
         mt "Я не пойду туда в таком виде!"
@@ -50,3 +49,24 @@ label ep22_dialogue1_4_clothshop:
         mt "Магазин закрыт..."
         "Интересно почему..."
     return False
+
+label ep22_dialogue1_5_kitchen:
+    menu:
+        "Поесть пока Бетти нет дома...":
+            pass
+        "Уйти.":
+            call change_scene("floor1")
+            return
+    $ store_music()
+    music RnB3_65
+    img 8533
+    with fadelong
+    mt "Наконец-то я поем нормальную еду!"
+    img 8534
+    with fadelong
+    mt "Как же хорошо снова посидеть за этим столиком..."
+    "Скоро я верну себе этот дом, обещаю..."
+    call monicaEat()
+    $ restore_music()
+    call change_scene("floor1", "Fade_long")
+    return

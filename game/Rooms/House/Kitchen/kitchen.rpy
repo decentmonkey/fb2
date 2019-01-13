@@ -51,6 +51,9 @@ label kitchen_teleport:
 
 label kitchen_environment:
     if monicaKitchenForbidden == True:
-        call afterJailHouse_dialogue15a() from _call_afterJailHouse_dialogue15a_1
+        if get_active_objects("Betty", scene="House", recursive=True) != False:
+            call afterJailHouse_dialogue15a() from _call_afterJailHouse_dialogue15a_1
+            return
+        call ep22_dialogue1_5_kitchen()
         return
     return

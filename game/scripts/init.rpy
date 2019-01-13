@@ -1,5 +1,7 @@
 
 define bettyCleaningProgessAmount = 20 #5 #Прогресс с Бетти за уборку
+define bettyCleaningProgessAmountLevel3 = 10 # Прогресс с Бетти за уборку после lvl 3
+define bettyFitnessProgressAmount = 10 #Прогресс с Бетти за посещение фитнесса
 define bettyCleaningProgessRegressAmount = -10 # Насколько убавляется прогресс с Бетти если Моника пропустила уборку
 define bettyTryOutInGovernessClothRegressAmount = -10 # Насколько убавляется прогресс с Бетти если Моника пытается выйти за пределы дома в одежде гувернантки
 

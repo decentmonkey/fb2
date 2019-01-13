@@ -135,6 +135,8 @@ label EP22_Quests_Betty6b:
     $ autorun_to_object("ep22_dialogues4_7b", scene="street_fitness")
     $ add_object_to_scene("Betty", {"type":2, "base":"Fitness_Street_Betty2", "click" : "street_fitness_environment2", "actions" : "l", "zorder" : 10}, scene="street_fitness")
     $ autorun_to_object("ep22_dialogues4_7b")
+    $ add_char_progress("Betty", bettyFitnessProgressAmount, "fitness_day_" + str(day))
+
     return
 
 label EP22_Quests_Betty7: #показ пикч занятия фитнесом
