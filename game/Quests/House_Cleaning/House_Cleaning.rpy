@@ -2,6 +2,7 @@ default houseCleaningStoredScene = False
 default cleaningLog = []
 
 default spotCleaning = False
+default monicaCleaningInProgressEngineWorkingFlag = False
 
 #default houseCleaningCurrent = 3
 #default houseCleaningCurrentList = []
@@ -32,6 +33,7 @@ label house_cleaning_start:
     $ miniMapEnabledOnly = ["none"]
     $ houseCleaningStoredScene = store_scene("House", recursive=True)
     $ monicaCleaningInProgress = True
+    $ monicaCleaningInProgressEngineWorkingFlag = True
     $ monicaCleaningObject = ""
     $ rooms_clean_list = ["floor2", "floor1", "bedroom_bardie", "bedroom_second", "living_room", "bedroom2"]
 #    $ rooms_clean_list = ["floor1", "living_room"]
@@ -143,6 +145,7 @@ label house_cleaning_end2:
     $ add_corruption(monicaCleaningAddCorruptionPerCleaning, "monica_cleaning_corruption_day_" + str(day))
     call cleaning_monica_finished1() from _call_cleaning_monica_finished1
     $ monicaCleaningInProgress = False
+    $ monicaCleaningInProgressEngineWorkingFlag = False
     $ restore_scene(houseCleaningStoredScene)
     call process_hooks("monica_cleaning_end", "global") from _call_process_hooks_28
     $ restore_music()

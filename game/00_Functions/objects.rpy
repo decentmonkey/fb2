@@ -196,7 +196,7 @@ init python:
                             if check_filter(kwargs, scenes_data["objects"][room_name][obj1]) == True:
                                 return_objects_list.append([scenes_data["objects"][room_name][obj1], obj1, room_name])
                 else:
-                    if scenes_data["objects"].has_key(room_name) == True and scenes_data["objects"][room_name].has_key(obj_name) == True:
+                    if scenes_data["objects"].has_key(room_name) == True and scenes_data["objects"][room_name].has_key(obj_name) == True and scenes_data["objects"][room_name][obj_name]["active"] == True:
                         if check_filter(kwargs, scenes_data["objects"][room_name][obj_name]) == True:
                             return_objects_list.append([scenes_data["objects"][room_name][obj_name], obj_name, room_name])
 

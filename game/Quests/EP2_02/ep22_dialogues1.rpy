@@ -23,3 +23,30 @@
 
 label ep22_dialogues1:
     return
+
+
+label ep22_dialogue1_2_governess_refuse_to_go:
+    if cloth == "Governess":
+        mt "Я не пойду туда в таком виде!"
+        "Все сразу поймут что я работаю гувернанткой и без труда вычислят где я живу."
+        "Уверена, Маркус будет рад узнать это..."
+        return False
+    return
+
+label ep22_dialogue1_3_slums_map:
+    if obj_name == "Teleport_Street_Corner" or obj_name == "Teleport_Hostel2":
+        call ep22_dialogue1_3_slums()
+        return _return
+    return
+label ep22_dialogue1_3_slums:
+    if cloth == "Governess":
+        mt "В этой районе одни извращенцы."
+        "К костюме горничной меня там сразу изнасилуют, я уверена!"
+        return False
+    return
+
+label ep22_dialogue1_4_clothshop:
+    if cloth == "Governess":
+        mt "Магазин закрыт..."
+        "Интересно почему..."
+    return False

@@ -6,6 +6,17 @@ default fitness_gym_betty_first_time_interact_with_trainer = True
 label EP22_Quests_Betty1: #init quest
     $ add_hook("Betty_Life_day", "EP22_Quests_Betty2", scene="global", label="betty_fitness_days")
     $ add_hook("Betty", "EP22_Quests_Betty3", scene="floor2")
+    call ep22_Quests_Betty_Monica_Governess_outfit()
+    return
+
+label ep22_Quests_Betty_Monica_Governess_outfit:
+    # инитим проверки на путешествия в костюме горничной
+    $ add_hook("Teleport_Cloth_Shop_Entrance", "ep22_dialogue1_4_clothshop", scene="street_cloth_shop", label="monica_governess_outfit_restrictions")
+    $ add_hook("Teleport_Shawarma", "ep22_dialogue1_3_slums", scene="street_cloth_shop", label="monica_governess_outfit_restrictions")
+    $ add_hook("Teleport_Monica_Office_Secretary", "ep22_dialogue1_2_governess_refuse_to_go", scene="monica_office_entrance", label="monica_governess_outfit_restrictions")
+    $ add_hook("Teleport_Inside", "ep22_dialogue1_2_governess_refuse_to_go", scene="street_dick_office", label="monica_governess_outfit_restrictions")
+    $ add_hook("map_teleport", "ep22_dialogue1_3_slums_map", scene="global", label="monica_governess_outfit_restrictions")
+
     return
 
 label EP22_Quests_Betty2: #определение дня фитнеса
@@ -20,6 +31,9 @@ label EP22_Quests_Betty2: #определение дня фитнеса
 label EP22_Quests_Betty3:
     if act=="l":
         return
+    if monicaCleaningInProgressEngineWorkingFlag == True:
+        call ep22_dialogues4_1b()
+        return False
     call ep22_dialogues4_1()
     if _return == False:
         if bettyFitnessToday == True:
@@ -66,6 +80,8 @@ label EP22_Quests_Betty4: #инитим улицу у фитнеса
     return
 
 label EP22_Quests_Betty5:
+    if act=="l":
+        return
     music Loved_Up
     $ autorun_to_object("ep22_dialogues4_3", scene="fitness_gym")
     $ move_object("Betty", "fitness_gym")

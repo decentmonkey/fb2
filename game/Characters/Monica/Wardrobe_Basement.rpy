@@ -117,27 +117,29 @@ label hook_basement_bedroom_check_exit_cloth_map: #проверка при вы�
                 $ cloth_type = "Whore"
                 return True
         if cloth_type == "Governess": #Бетти запрещает выходить из дома в одежде гувернантки!
-            call monica_goout1_governess_restrict() from _call_monica_goout1_governess_restrict
-            call change_scene("street_house_gate", "Fade", False) from _call_change_scene_118
-            $ map_source_scene = "street_house_gate"
-#            call refresh_scene_fade()
-            return False
+            if get_active_objects("Betty", scene="House", recursive=True) != False:
+                call monica_goout1_governess_restrict() from _call_monica_goout1_governess_restrict
+                call change_scene("street_house_gate", "Fade", False) from _call_change_scene_118
+                $ map_source_scene = "street_house_gate"
+#               call refresh_scene_fade()
+                return False
 
     if obj_name != "Teleport_House" and map_scene == "House":
         if cloth_type == "Governess": #Моника пытается убежать с улицы в одежде гувернантки (мимо ворот)
-            call monica_goout1_governess_restrict() from _call_monica_goout1_governess_restrict_1
-            call change_scene("street_house_gate", "Fade", False) from _call_change_scene_119
-            $ map_source_scene = "street_house_gate"
-            return False
-
+            if get_active_objects("Betty", scene="House", recursive=True) != False:
+                call monica_goout1_governess_restrict() from _call_monica_goout1_governess_restrict_1
+                call change_scene("street_house_gate", "Fade", False) from _call_change_scene_119
+                $ map_source_scene = "street_house_gate"
+                return False
     return
 
 label hook_basement_bedroom_check_exit_cloth_gates: #проверка на выход Моники из дома в одежде гувернантки через Ворота
     if act != "w":
         return True
     if cloth_type == "Governess":
-        call monica_goout1_governess_restrict() from _call_monica_goout1_governess_restrict_2
-        call refresh_scene_fade() from _call_refresh_scene_fade_39
-        return False
+        if get_active_objects("Betty", scene="House", recursive=True) != False:
+            call monica_goout1_governess_restrict() from _call_monica_goout1_governess_restrict_2
+            call refresh_scene_fade() from _call_refresh_scene_fade_39
+            return False
 
     return
