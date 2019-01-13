@@ -6,7 +6,7 @@ translate english ep22_photoshoot3_a69435de:
     # m "Алекс, это что? Какая-то шутка?"
     # "Кто-то перепутал коробку для нарядов с одеждой для рабочих???"
     m "Alex, what is it? Some kind of joke?"
-    "Someone mixed up box of outfits with the clothes for the workers???"
+    "Someone mixed up the box of outfits with the clothes for the workers???"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:7
 translate english ep22_photoshoot3_ee35a2a3:
@@ -26,7 +26,7 @@ translate english ep22_photoshoot3_52bb81ac:
     # "И, в конце концов, это всего-лишь образ, Миссис Бакфетт!"
     m "What the hell, Alex?!?!"
     "Have you actually forgotten who I am?!"
-    alex_photograph "MA'am! This is Mr. Beef's order!"
+    alex_photograph "MA'am! This is Mr. Biff's order!"
     "We have a contract with a major construction company!"
     "And, in the end, it's just the way Mrs. Buckfett!"
 
@@ -37,7 +37,7 @@ translate english ep22_photoshoot3_210fdb22:
     # "Можно я сниму их? Я могу пораниться!"
     # alex_photograph "Нет, Мэм! Это часть образа!"
     m "These things... I don't know what they're called..."
-    "Can I take them? I could hurt!"
+    "Can I take them off? I could hurt!"
     alex_photograph "No, MA'am! This part of way of!"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:20
@@ -46,7 +46,7 @@ translate english ep22_photoshoot3_pose1_b18fd05d:
     # m "Ладно... Только давай без своих грязных ракурсов..."
     # alex_photograph "Так точно, Мэм!"
     m "All right... I don't want any of their dirty angles..."
-    alex_photograph "Yes MA'am!"
+    alex_photograph "Yes, MA'am!"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:26
 translate english ep22_photoshoot3_pose1_5cd72d0a:
@@ -74,7 +74,7 @@ translate english ep22_photoshoot3_pose2_d1205335:
     "You will encourage workers to work better!"
     "You have to be seductive!"
     m "I can't see anything tempting, Alex!"
-    mt "Oh my God! I'm taking pictures for the workers calendar!"
+    mt "Oh my God! I'm taking pictures for the worker's calendar!"
     "I AM MONICA BUCKFETT!!"
     "Oh my God!!!"
 
@@ -153,7 +153,7 @@ translate english ep22_photoshoot3_pose6_7fb7d5b8:
     "This will be the most popular frame!"
     m "What??!"
     "NEVER!"
-    alex_photograph "Mrs. Buckfett! But the hammer is clean It's props!"
+    alex_photograph "Mrs. Buckfett! But the hammer is clean. It's props!"
     "I prepared it specially!"
     "NEVER!"
     m "Alex!"
@@ -230,7 +230,7 @@ translate english ep22_photoshoot3_pose7_80acecf7:
     "But if you like it a little bit, please stick out your tongue..."
     "Without it, the composition will be incomplete..."
     "But You know that they expect the best results from me."
-    "Otherwise, Mr. Beef will fire me..."
+    "Otherwise, Mr. Biff will fire me..."
     "Believe me, this frame looks decent..."
     m "..."
     "Alex, does this look decent?"
@@ -241,7 +241,7 @@ translate english ep22_photoshoot3_pose7_80acecf7:
     m "What?!?!..."
     alex_photograph "I am shooting, Mrs. Buckfett!"
     "Please show emotion!"
-    m "I am...."
+    m "I am..."
     "All right..."
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:226
@@ -268,20 +268,20 @@ translate english ep22_photoshoot3_end_b0d7667d:
     # "Ведь у меня нет к нему чувств, я хладнокровная женщина, идущая к своей мести..."
     # "..."
     # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
-    mt "Beef's waiting for me at his stupid casting..."
+    mt "Biff's waiting for me at his stupid casting..."
     "He said he'd give me a job if I would be a good chick..."
     "This will allow me to get closer to the goal, to bring my company back!"
     "So maybe pretend?"
     "After all, I have no feelings for him, I'm a cold-blooded woman going to her revenge..."
     "..."
-    "Damn... Especially since I promised him I'd be a good chick and otherwise he might stop giving me a job..."
+    "Damn... Especially since I promised him I'd be a good chick, and otherwise, he might stop giving me a job..."
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:249
 translate english ep22_photoshoot3_casting_3b145b91:
 
     # m "Привет, Биф. Я пришла..."
     # biff "О! Цыпочка пришла к папочке!"
-    m "Hi, Beef. I came..."
+    m "Hi, Biff. I came..."
     biff "Oh! Chick came to daddy!"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:253
@@ -297,7 +297,7 @@ translate english ep22_photoshoot3_casting_3627424f:
     m "Yeah, the chick came to daddy..."
     "Nice chick..."
     biff "Who's the chick tonight?"
-    m "Today, the chick is a working girl from the calendar, which every engineer and manager from the construction company will hang..."
+    m "Today, the chick is a pipe cleaner girl from the calendar, which every engineer and manager from the construction company will hang..."
     biff "What does the calendar girl want to show daddy?"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:262
@@ -330,7 +330,7 @@ translate english ep22_photoshoot3_casting_f4e1f245_1:
 translate english ep22_photoshoot3_casting_cb9f49f2:
 
     # m "Привет, Биф. Я пришла..."
-    m "Hi, Beef. I came..."
+    m "Hi, Biff. I came..."
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:255
 translate english ep22_photoshoot3_casting_e97962ff:
@@ -359,7 +359,7 @@ translate english ep22_photoshoot3_casting_b3e78dca:
     # m "Сегодня цыпочка - это девушка-рабочий с календаря, который будет висеть у каждого менеджера строительной компании..."
     # biff "Что девушка с календаря хочет показать папочке?"
     biff "Who's the chick tonight?"
-    m "Today, the chick is a working girl from the calendar, which every engineer and manager from the construction company will hang..."
+    m "Today, the chick is a pipe cleaner girl from the calendar, which every engineer and manager from the construction company will hang..."
     biff "What does the calendar girl want to show daddy?"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:275
@@ -382,5 +382,5 @@ translate english strings:
 
     # Quests/EP2_02/ep22_photoshoot3.rpy:231
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot3_casting_corruption_required]) (disabled)"
-    new "Behave as chick at Beef' casting... (low corruption, required [photoshoot3_casting_corruption_required]) (disabled)"
+    new "Behave as chick at Biff' casting... (low corruption, required [photoshoot3_casting_corruption_required]) (disabled)"
 

@@ -174,3 +174,15 @@ translate german strings:
     old "Мою бывшую спальню."
     new "Mein früheres Schlafzimmer"
 
+# TODO: Translation updated at 2019-01-14 00:27
+
+translate german strings:
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:234
+    old "Смотреть..."
+    new ""
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:234
+    old "Пропустить."
+    new ""
+

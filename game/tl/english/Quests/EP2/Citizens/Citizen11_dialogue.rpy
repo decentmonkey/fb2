@@ -96,7 +96,7 @@ translate english citizen11_dialogue_81efebb8:
 translate english citizen11_dialogue_5c8f1a31:
 
     # m "Вот, возьмите, тут кое что есть."
-    m "Вот, возьмите, тут кое что есть."
+    m "Here, take this, here's something."
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:32
 translate english citizen11_dialogue_f0d40aa8:
@@ -107,12 +107,12 @@ translate english citizen11_dialogue_f0d40aa8:
     # citizen11 "И очень даже зря. Божественный напиток. Дак что ты хотела?"
     # m "Возьмите, пожалуйста, этот флаер..."
     # citizen11 "Флаер? Конечно, сколько угодно!"
-    citizen11 "(Пьет) Ооо, Богиня! Ты меня спасла! Давай выпьем со мной, мне одному грустно."
-    m "Нет, что-то, не хочется."
-    mt "Ни за что."
-    citizen11 "И очень даже зря. Божественный напиток. Дак что ты хотела?"
+    citizen11 "(Drinks) Ltd, A Goddess! You saved me! Let's have a drink with me, I'm sad alone."
+    m "No, I don't feel like it."
+    mt "No way."
+    citizen11 "And very even for a good reason. Divine drink. What did you want?"
     m "Please, take this flyer..."
-    citizen11 "Флаер? Конечно, сколько угодно!"
+    citizen11 "Flyer? Of course, as much as you want!"
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:41
 translate english citizen11_dialogue_abba711a:
@@ -136,39 +136,39 @@ translate english citizen11_dialogue_ea9512e8:
 translate english citizen11_dialogue_pilon_02b33f02:
 
     # m "Привет! Помнишь меня?"
-    m "Привет! Помнишь меня?"
+    m "Hi! Remember me?"
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:62
 translate english citizen11_dialogue_pilon_2f331efd:
 
     # citizen11 "Конечно! Как я могу забыть мою спасительницу?"
     # citizen11 "Знаешь, недавно выплатили пособие по безработице и я купил один божественный напиток. Угостишься?"
-    citizen11 "Конечно! Как я могу забыть мою спасительницу?"
-    citizen11 "Знаешь, недавно выплатили пособие по безработице и я купил один божественный напиток. Угостишься?"
+    citizen11 "Of course! How can I forget my savior?"
+    citizen11 "You know, they recently paid unemployment, and I bought one divine drink. Would you like to taste?"
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:66
 translate english citizen11_dialogue_pilon_a99a1b5d:
 
     # m "Думаю, в другой раз."
     # citizen11 "Как хочешь, ты не знаешь от чего отказываешься..."
-    m "Думаю, в другой раз."
-    citizen11 "Как хочешь, ты не знаешь от чего отказываешься..."
+    m "I think another time."
+    citizen11 "Whatever you want, you don't know what you're giving up..."
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:68
 translate english citizen11_dialogue_pilon_4d02bdba:
 
     # mt "Похоже, его единственный интерес - алкоголь. Думаю, мне лучше уйти."
     # m "Ладно, я пойду."
-    mt "Похоже, его единственный интерес - алкоголь. Думаю, мне лучше уйти."
-    m "Ладно, я пойду."
+    mt "Looks like his only interest is alcohol. I think I'd better leave."
+    m "I'm going."
 
 translate english strings:
 
     # Quests/EP2/Citizens/Citizen11_dialogue.rpy:25
     old "Вот, возьмите."
-    new ""
+    new "Here, take this."
 
     # Quests/EP2/Citizens/Citizen11_dialogue.rpy:64
     old "Нет, спасибо."
-    new ""
+    new "No, thanks."
 

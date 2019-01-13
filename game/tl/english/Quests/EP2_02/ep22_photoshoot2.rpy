@@ -18,7 +18,7 @@ translate english ep22_photoshoot2_e18906f0:
     alex_photograph "Apparently Yes, Mrs. Buckfett!"
     m "Do you think it suits me?"
     alex_photograph "Oh, Mrs. Buckfett!"
-    "Everything suits you, if you take the right angle!"
+    "Everything suits you if you take the right angle!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:11
 translate english ep22_photoshoot2_pose1_eb5a4879:
@@ -140,7 +140,7 @@ translate english ep22_photoshoot2_pose7_2840fcfa:
     "My dress is stretched, it's going to rise!"
     alex_photograph "Mrs. Buckfett! You have to!"
     "You are Lady Noir."
-    "It's kind of a message. Discovery of yours internal good, which is deep into You!"
+    "It's kind of a message. Discovery of your internal good, which is deep into You!"
     m "What's the fuck is internal good?!"
     "Ass showing?!"
     alex_photograph "Mrs. Buckfett!"
@@ -192,7 +192,7 @@ translate english ep22_photoshoot2_pose7_031a3d59:
     m "Alex! Why did you take the photo?!"
     "Remove it immediately!"
     alex_photograph "MA'am! Don't worry!"
-    "It turned out in the dark and there is nothing to see!"
+    "It turned out in the dark, and there is nothing to see!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:149
 translate english ep22_photoshoot2_end_b9cd880a:
@@ -218,20 +218,20 @@ translate english ep22_photoshoot2_end_b0d7667d:
     # "Ведь у меня нет к нему чувств, я хладнокровная женщина, идущая к своей мести..."
     # "..."
     # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
-    mt "Beef's waiting for me at his stupid casting..."
+    mt "Biff's waiting for me at his stupid casting..."
     "He said he'd give me a job if I would be a good chick..."
     "This will allow me to get closer to the goal, to bring my company back!"
     "So maybe pretend?"
     "After all, I have no feelings for him, I'm a cold-blooded woman going to her revenge..."
     "..."
-    "Damn... Especially since I promised him I'd be a good chick and otherwise he might stop giving me a job..."
+    "Damn... Especially since I promised him I'd be a good chick, and otherwise, he might stop giving me a job..."
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:171
 translate english ep22_photoshoot2_casting_3b145b91:
 
     # m "Привет, Биф. Я пришла..."
     # biff "О! Цыпочка пришла к папочке!"
-    m "Hi, Beef. I came..."
+    m "Hi, Biff. I came..."
     biff "Oh! Chick came to daddy!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:175
@@ -306,7 +306,7 @@ translate english ep22_photoshoot2_pose7_b78199ca:
     "My dress is stretched, it's going to rise!"
     alex_photograph "Mrs. Buckfett! You have to!"
     "You are Lady Noir!"
-    "It's kind of a message. Discovery of yours internal good, which is deep into You!"
+    "It's kind of a message. Discovery of your internal good, which is deep into You!"
     m "What's the fuck is internal good?!"
     "Ass showing?!"
     alex_photograph "Mrs. Buckfett!"
@@ -322,7 +322,7 @@ translate english ep22_photoshoot2_pose7_b78199ca:
 translate english ep22_photoshoot2_casting_cb9f49f2:
 
     # m "Привет, Биф. Я пришла..."
-    m "Hi, Beef. I came..."
+    m "Hi, Biff. I came..."
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:177
 translate english ep22_photoshoot2_casting_e97962ff:
@@ -374,5 +374,5 @@ translate english strings:
 
     # Quests/EP2_02/ep22_photoshoot2.rpy:154
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot2_casting_corruption_required]) (disabled)"
-    new "Behave as chick at Beef' casting... (low corruption, required [photoshoot2_casting_corruption_required]) (disabled)"
+    new "Behave as chick at Biff' casting... (low corruption, required [photoshoot2_casting_corruption_required]) (disabled)"
 

@@ -266,3 +266,131 @@ translate german citizen3_dialogue_f61d80ae:
     m "Welcher Held vom Erdbeerfeld kommt denn auf so ein Passwort?"
     citizen3 "Was denkst du? Nigel natürlich, aber keine Sorge, sobald du das Passwort sagst, weiß er Bescheid."
 
+# TODO: Translation updated at 2019-01-14 00:27
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:118
+translate german citizen3_dialogue_pilon_fd1951ec:
+
+    # m "Привет! Ты меня помнишь?"
+    # citizen3 "Конечно, помню, тебя сложно забыть."
+    # m "Могу тебе, кое что показать."
+    # citizen3 "Детка, ты говоришь о том, что я думаю?"
+    m "Привет! Ты меня помнишь?"
+    citizen3 "Конечно, помню, тебя сложно забыть."
+    m "Могу тебе, кое что показать."
+    citizen3 "Детка, ты говоришь о том, что я думаю?"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:123
+translate german citizen3_dialogue_pilon_0b574a27:
+
+    # m "Возможно..."
+    # citizen3 "У меня много дел, но такое я пропустить не могу."
+    # citizen3 "Ну что, тетя..."
+    m "Возможно..."
+    citizen3 "У меня много дел, но такое я пропустить не могу."
+    citizen3 "Ну что, тетя..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:133
+translate german citizen3_dialogue_pilon_loop3_8267dcb3:
+
+    # citizen3 "Покажи ка свои сиськи!"
+    citizen3 "Покажи ка свои сиськи!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:135
+translate german citizen3_dialogue_pilon_loop3_e7678610:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:142
+translate german citizen3_dialogue_pilon_loop3_48b1ace1:
+
+    # m "Я не собираюсь раздеваться, только так."
+    m "Я не собираюсь раздеваться, только так."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:146
+translate german citizen3_dialogue_pilon_loop3_38021ad2:
+
+    # citizen3 "Детка, нет слов! Теперь сними свою курточку."
+    citizen3 "Детка, нет слов! Теперь сними свою курточку."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:148
+translate german citizen3_dialogue_pilon_loop3_095af695:
+
+    # m "Ну уж нет."
+    m "Eh, nein."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:150
+translate german citizen3_dialogue_pilon_loop3_9f4fa25f:
+
+    # citizen3 "Надо же с чего-то начинать..."
+    citizen3 "Надо же с чего-то начинать..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:155
+translate german citizen3_dialogue_pilon_loop3_9e87bc60:
+
+    # citizen3 "Детка, повернись ко мне спиной. И покажи свою попку."
+    citizen3 "Детка, повернись ко мне спиной. И покажи свою попку."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:157
+translate german citizen3_dialogue_pilon_loop3_299ae0b0:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:163
+translate german citizen3_dialogue_pilon_loop3_48b1ace1_1:
+
+    # m "Я не собираюсь раздеваться, только так."
+    m "Я не собираюсь раздеваться, только так."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:167
+translate german citizen3_dialogue_pilon_loop3_389282ff:
+
+    # citizen3 "Детка, ты красотка!"
+    citizen3 "Детка, ты красотка!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:169
+translate german citizen3_dialogue_pilon_loop3_dea3f89d:
+
+    # citizen3 "Какая красота!"
+    citizen3 "Какая красота!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:176
+translate german citizen3_dialogue_pilon_loop3_859b5ea4:
+
+    # citizen3 "Ты сделала мой день, отлично потрудилась."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen3 "Ты сделала мой день, отлично потрудилась."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:181
+translate german citizen3_dialogue_pilon_loop3_859b5ea4_1:
+
+    # citizen3 "Ты сделала мой день, отлично потрудилась."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen3 "Ты сделала мой день, отлично потрудилась."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:187
+translate german citizen3_dialogue_pilon_loop3_1621f382:
+
+    # citizen3 "Похоже, я только зря потратил с тобой время..."
+    citizen3 "Похоже, я только зря потратил с тобой время..."
+

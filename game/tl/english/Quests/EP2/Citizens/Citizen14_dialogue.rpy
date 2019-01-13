@@ -110,17 +110,17 @@ translate english citizen14_dialogue_ac53427e:
     # citizen14 "Ну что, пойдем с тобой в подворотню!"
     # m "Да ни за что!"
     # mt "Черт, и кто тынул меня за язык..."
-    m "Возможно..."
-    citizen14 "Да, я знал, что ты заметишь, что я красавец! Хрюк..."
-    citizen14 "Ну что, пойдем с тобой в подворотню!"
-    m "Да ни за что!"
-    mt "Черт, и кто тынул меня за язык..."
+    m "That's possible..."
+    citizen14 "Yes, I knew you'd notice I was handsome! Oink..."
+    citizen14 "Well, let's go with you to the gateway!"
+    m "No way!"
+    mt "Hell, who the hell was pulling my tongue..."
 
 # game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:49
 translate english citizen14_dialogue_pilon_02b33f02:
 
     # m "Привет! Помнишь меня?"
-    m "Привет! Помнишь меня?"
+    m "Hi! Remember me?"
 
 # game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:51
 translate english citizen14_dialogue_pilon_f227022c:
@@ -128,13 +128,13 @@ translate english citizen14_dialogue_pilon_f227022c:
     # citizen14 "Ик! Конечно! Ну признайся уже, что я тебе понравился."
     # mt "Животное... Думаю, не стоит иметь с этим типом ничего общего..."
     # m "Ладно, я пожалуй пойду."
-    citizen14 "Ик! Конечно! Ну признайся уже, что я тебе понравился."
-    mt "Животное... Думаю, не стоит иметь с этим типом ничего общего..."
-    m "Ладно, я пожалуй пойду."
+    citizen14 "EEK! Of course! Well, just admit that you liked me."
+    mt "Animal... I don't think we should have anything to do with this guy..."
+    m "Okay, I better go."
 
 translate english strings:
 
     # Quests/EP2/Citizens/Citizen14_dialogue.rpy:26
     old "Может и так..."
-    new ""
+    new "Maybe so..."
 

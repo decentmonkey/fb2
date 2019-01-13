@@ -62,7 +62,7 @@ translate english ep22_dialogue6_6_loop1_e04d86e7:
 translate english ep22_dialogue6_6_loop1_618979c5:
 
     # m "Биф, мне обязательно это делать?"
-    m "Beef, do I have to do this?"
+    m "Biff, do I have to do this?"
 
 # game/Quests/EP2_02/ep22_casting.rpy:46
 translate english ep22_dialogue6_6_loop1_8be61c7b:
@@ -105,7 +105,7 @@ translate english ep22_dialogue6_6_loop1_35bfbc4b:
     # "Сколько мне терпеть это???"
     # "..."
     # "Нет... Слишком опасно..."
-    mt "Fuck! I have hammer... Maybe kill the bastard?!"
+    mt "Fuck! I have a hammer... Maybe kill the bastard?!"
     "How long can I stand this???"
     "..."
     "No... Too dangerous..."

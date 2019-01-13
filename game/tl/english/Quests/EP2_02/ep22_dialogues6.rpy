@@ -22,15 +22,15 @@ translate english ep22_dialogue6_1_97ecccd6:
     secretary "..."
     m "I know you're under a lot of pressure from your new Boss."
     "But trust me, I'll deal with it soon!"
-    secretary "Mr. Beef knows better what we need than we do ."
-    secretary "Mr. Beef takes care of us..."
+    secretary "Mr. Biff knows better what we need than we do."
+    secretary "Mr. Biff takes care of us..."
     m "What?"
     "What are you talking about, honey???"
-    secretary "We should thank Mr. Beef for working for him..."
+    secretary "We should thank Mr. Biff for working for him..."
     m "What did they do to you???"
     biff "Hey! Boob!"
     "Come to my office quickly!"
-    secretary "Yes, Mr. Beef! One second!"
+    secretary "Yes, Mr. Biff! One second!"
     mt "Oh my God!!!"
     "Poor thing! What did they do to you?!?!"
 
@@ -39,8 +39,8 @@ translate english ep22_dialogue6_2_1adc3f0a:
 
     # secretary "Мистер Биф лучше нас знает что нам необходимо."
     # secretary "Мистер Биф заботится о нас..."
-    secretary "Mr. Beef knows better what we need than we do ."
-    secretary "Mr. Beef takes care of us..."
+    secretary "Mr. Biff knows better what we need than we do."
+    secretary "Mr. Biff takes care of us..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:68
 translate english ep22_dialogue6_2_c1dab8f2:
@@ -63,8 +63,8 @@ translate english ep22_dialogue6_2_dc4b654f:
     # secretary "Мистер Биф лучше нас знает что нам необходимо."
     secretary "So I have no money now Mrs. Buckfett!"
     "Sorry!"
-    m "What about Beef? Does he give you money, doesn't he?"
-    secretary "Mr. Beef knows better what we need than we do ."
+    m "What about Biff? Does he give you money, doesn't he?"
+    secretary "Mr. Biff knows better what we need than we do."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:82
 translate english ep22_dialogue6_2_dc29b0c6:
@@ -113,7 +113,7 @@ translate english ep22_dialogue6_3_8885aaa6:
     # "Ты понимаешь?"
     # m "Да, я понимаю, Биф..."
     # mt "Сволочь!!!"
-    m "Beef..."
+    m "Biff..."
     "I wanted to ask you..."
     "Is there any work?"
     biff "Yeah, chick!"
@@ -123,9 +123,9 @@ translate english ep22_dialogue6_3_8885aaa6:
     mt "Oh my God!!!"
     "Not again!!!"
     biff "I know you're avoiding the casting, but you're gonna have to pass!"
-    "Otherwise there will be no career growth!"
+    "Otherwise, there will be no career growth!"
     "Do you understand?"
-    m "Yeah, I understand, Beef..."
+    m "Yeah, I understand, Biff..."
     mt "Swine!!!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:132
@@ -266,7 +266,7 @@ translate english ep22_dialogue6_6_loop2_12700f66:
     mt "I hate this!!!"
     biff "Well done chick!"
     biff "Oh! Chick! Are you here?"
-    m "Yes, Beef! I came because you made me!"
+    m "Yes, Biff! I came because you made me!"
     biff "So, the chick came to the casting..."
     "What is the chick ready to surprise daddy this time with?"
 
@@ -289,7 +289,7 @@ translate english ep22_dialogue6_7_c63ed67c:
     # "Где мои деньги?"
     # biff "Только хорошие цыпочки получают деньги от папочки!"
     # "Моника хорошая цыпочка?"
-    m "Beef! I took a photo shoot!"
+    m "Biff! I took a photo shoot!"
     "Where is my money?"
     biff "Only good Chicks get money from daddy!"
     "Is Monica a good chick?"
@@ -363,7 +363,7 @@ translate english ep22_dialogue6_7_8dc93ea9:
     "You probably have already forgotten!"
     "Ha Ha Ha!"
     mt "!!!"
-    biff "But, can be and not only little face!"
+    biff "But, can be and not the only little face!"
     "I think many partners will be willing to pay well to run their fingers..."
     "In pussy of Monica Buckfett!"
     "Not just fingers!"
@@ -373,7 +373,7 @@ translate english ep22_dialogue6_7_8dc93ea9:
     "You're gonna love this!"
     "You're gonna be doing the same thing you're doing on the street right now..."
     "Only going to get much more for it!"
-    m "No, Beef!"
+    m "No, Biff!"
     "Let's just confine ourselves to the face for now!"
     biff "No problem, baby!"
     "You still have to earn that trust!"
@@ -404,11 +404,11 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:178
     old "Идти на кастинг к Бифу."
-    new "Go to the casting to Beef."
+    new "Go to the casting to Biff."
 
     # Quests/EP2_02/ep22_dialogues6.rpy:178
     old "Не идти к Бифу."
-    new "Not to go to Beef."
+    new "Not to go to Biff."
 
     # Quests/EP2_02/ep22_dialogues6.rpy:199
     old "Смириться с неизбежностью откровенных поз..."
@@ -432,7 +432,7 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:245
     old "Раздеться и встать на колени задом к Бифу. (disabled)"
-    new "Take off clothes and get on the knees showing ass to Beef. (disabled)"
+    new "Take off clothes and get on the knees showing ass to Biff. (disabled)"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:245
     old "Раздеться и лечь на пол раздвинув ноги. (disabled)"
@@ -444,7 +444,7 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:245
     old "Раздеться и сесть на Бифа."
-    new "Take off clothes and sit on Beef."
+    new "Take off clothes and sit on Biff."
 
     # Quests/EP2_02/ep22_dialogues6.rpy:245
     old "Полизать папочке зад. (disabled)"
@@ -460,27 +460,27 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:258
     old "Сесть на стол лицом к Бифу, широко раздвинув ноги. (disabled)"
-    new "Sit on the table face-to-Beef, spread legs wide apart. (disabled)"
+    new "Sit on the table face-to-Biff, spread legs wide apart. (disabled)"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:258
     old "Сесть на стол спиной к Бифу. (disabled)"
-    new "Sit on the table with back to Beef. (disabled)"
+    new "Sit on the table with back to Biff. (disabled)"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:258
     old "Сесть на стол, достать член Бифа и взять его в рот. (disabled)"
-    new "Sit on the table get Beef's dick and take it in mouth. (disabled)"
+    new "Sit on the table get Biff's dick and take it in the mouth. (disabled)"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:258
     old "Сесть на стол. достать член Бифа и возить им по киске. (disabled)"
-    new "Sit on the table get Beef's dick and pet it on the pussy. (disabled)"
+    new "Sit on the table get Biff's dick and pet it on the pussy. (disabled)"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:258
     old "Сесть на стол, достать член Бифа и вставить его в свою киску. (disabled)"
-    new "Sit on the table get Beef's dick and put it into pussy. (disabled)"
+    new "Sit on the table get Biff's dick and put it into pussy. (disabled)"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:258
     old "Сесть на стол, достать член Бифа и вставить его в анальное отверстие. (disabled)"
-    new "Sit on the table get Beef's dick and put it into anal. (disabled)"
+    new "Sit on the table get Biff's dick and put it into anal. (disabled)"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:258
     old "Назад."
@@ -488,27 +488,27 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:276
     old "Сесть к Бифу на коленки лицом к нему. (disabled)"
-    new "Sit on Beef's knees face to him. (disabled)"
+    new "Sit on Biff's knees face to him. (disabled)"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:276
     old "Сесть к Бифу на коленки спиной. (disabled)"
-    new "Sit on Beef's knees back to him. (disabled)"
+    new "Sit on Biff's knees back to him. (disabled)"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:276
     old "Сесть Бифу киской на лицо. (disabled)"
-    new "Sit on Beef's face with pussy. (disabled)"
+    new "Sit on Biff's face with pussy. (disabled)"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:276
     old "Достать член Бифа и сесть на него лицом к Бифу (disabled)"
-    new "Get Beef's dick and sit on him face-to-Beef (disabled)"
+    new "Get Biff's dick and sit on him face-to-Biff (disabled)"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:276
     old "Достать член Бифа и сесть на него спиной к Бифу (disabled)"
-    new "Get Beef's dick and sit on it back to the Beef (disabled)"
+    new "Get Biff's dick and sit on it back to the Biff (disabled)"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:276
     old "Достать член Бифа и сесть на него анальным отверстием (disabled)"
-    new "Get Beef's dick and sit on it with anal (disabled)"
+    new "Get Biff's dick and sit on it with anal (disabled)"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:295
     old "Поцеловать секретаршу. (disabled)"
@@ -528,7 +528,7 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:295
     old "Достать член Бифа и засунуть его в секретаршу."
-    new "Get Beef's dick and put it to the Secretary."
+    new "Get Biff's dick and put it to the Secretary."
 
     # Quests/EP2_02/ep22_dialogues6.rpy:295
     old "Засунуть член в ее киску, затем вытащить и облизать его. (disabled)"
@@ -576,8 +576,8 @@ translate english ep22_dialogue6_1_1adc3f0a:
 
     # secretary "Мистер Биф лучше нас знает что нам необходимо."
     # secretary "Мистер Биф заботится о нас..."
-    secretary "Mr. Beef knows better what we need than we do ."
-    secretary "Mr. Beef takes care of us..."
+    secretary "Mr. Biff knows better what we need than we do."
+    secretary "Mr. Biff takes care of us..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:42
 translate english ep22_dialogue6_1_9b69fd9c:
@@ -591,7 +591,7 @@ translate english ep22_dialogue6_1_9b69fd9c:
 translate english ep22_dialogue6_1_972d55ce:
 
     # secretary "Мы должна благодарить Мистера Бифа что работаем у него..."
-    secretary "We should thank Mr. Beef for working for him..."
+    secretary "We should thank Mr. Biff for working for him..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:47
 translate english ep22_dialogue6_1_9f235251:
@@ -609,7 +609,7 @@ translate english ep22_dialogue6_1_7daa9e79:
     biff "Hey! Boob!"
     "Come to my office quickly!"
     "And bring another bottle of whiskey!!!"
-    secretary "Yes, Mr. Beef! One second!"
+    secretary "Yes, Mr. Biff! One second!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:57
 translate english ep22_dialogue6_1_3cf55901:
@@ -671,13 +671,13 @@ translate english ep22_dialogue6_2_91c6d945:
     # m "А как же Биф? Он что, не дает тебе деньги?"
     secretary "So I have no money now Mrs. Buckfett!"
     "Sorry!"
-    m "What about Beef? Does he give you money, doesn't he?"
+    m "What about Biff? Does he give you money, doesn't he?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:106
 translate english ep22_dialogue6_2_454e3c57:
 
     # secretary "Мистер Биф лучше нас знает что нам необходимо."
-    secretary "Mr. Beef knows better what we need than we do ."
+    secretary "Mr. Biff knows better what we need than we do."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:109
 translate english ep22_dialogue6_2_13f34d54:
@@ -695,7 +695,7 @@ translate english ep22_dialogue6_3_3c7281b0:
     # m "Биф..."
     # "Я хотела узнать у тебя..."
     # "Есть-ли еще работа?"
-    m "Beef..."
+    m "Biff..."
     "I wanted to ask you..."
     "Is there any work?"
 
@@ -776,14 +776,14 @@ translate english ep22_dialogue6_3_ebd5bf2f:
     # "Иначе не будет карьерного роста!"
     # "Ты понимаешь?"
     biff "I know you're avoiding the casting, but you're gonna have to pass!"
-    "Otherwise there will be no career growth!"
+    "Otherwise, there will be no career growth!"
     "Do you understand?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:181
 translate english ep22_dialogue6_3_92868277:
 
     # m "Да, я понимаю, Биф..."
-    m "Yeah, I understand, Beef..."
+    m "Yeah, I understand, Biff..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:183
 translate english ep22_dialogue6_3_8cf89654:
@@ -841,7 +841,7 @@ translate english ep22_dialogue6_5_d36a5df4:
     # m "Еще не знаю..."
     # "Что там Биф придумал на этот раз?"
     m "Not sure yet..."
-    "What did Beef come up with this time?"
+    "What did Biff come up with this time?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:240
 translate english ep22_dialogue6_5_30c909fa:
@@ -910,7 +910,7 @@ translate english ep22_dialogue6_6_5a195ad5:
     mt "I hate this!!!"
     biff "Well done chick!"
     biff "Oh! Chick! Are you here?"
-    m "Yes, Beef! I came because you made me!"
+    m "Yes, Biff! I came because you made me!"
     biff "So, the chick came to the casting..."
     "What is the chick ready to surprise daddy this time with?"
     mt "Bastard!"
@@ -922,7 +922,7 @@ translate english ep22_dialogue6_7_edf913d9:
     # "Где мои деньги?"
     # biff "Только хорошие цыпочки получают деньги от папочки!"
     # "Моника хорошая цыпочка?"
-    m "Beef! I took a photo shoot!"
+    m "Biff! I took a photo shoot!"
     "Where is my money?"
     biff "Only good Chicks get money from daddy!"
     "Is Monica a good chick?"
@@ -1008,7 +1008,7 @@ translate english ep22_dialogue6_7_aaa3154a:
     # "И не только пальчики!"
     # "Ха-Ха-Ха!"
     # "И все будут думать что ты настоящая!"
-    biff "But, can be and not only little face!"
+    biff "But, can be and not the only little face!"
     "I think many partners will be willing to pay well to run their fingers..."
     "In pussy of Monica Buckfett!"
     "Not just fingers!"
@@ -1036,7 +1036,7 @@ translate english ep22_dialogue6_7_262e9e9b:
 
     # m "Нет, Биф!"
     # "Давай пока ограничимся личиком!"
-    m "No, Beef!"
+    m "No, Biff!"
     "Let's just confine ourselves to the face for now!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:399

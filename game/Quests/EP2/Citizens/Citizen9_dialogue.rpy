@@ -142,7 +142,7 @@ label citizen9_dialogue_pilon:
             call pylonController(2, 3, 1)
             citizen9 "Жопа!"
             m "Что 'Жопа!'?"
-            citizen9 "Повернис ко мне задом и показывай!"
+            citizen9 "Повернись ко мне задом и показывай!"
             if corruption < monicaWhoringClothAssCorruptionRequired:
                 mt "Я не могу себе этого позволить!"
                 "Я еще не настолько опустилась!"

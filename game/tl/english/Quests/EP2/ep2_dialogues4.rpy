@@ -3742,9 +3742,9 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues4.rpy:611
     old "Попросить помощь у Мелани. (will be available in the next version) (disabled)"
-    new ""
+    new "Ask Melanie for help. (will be available in the next version) (disabled)"
 
     # Quests/EP2/ep2_dialogues4.rpy:611
     old "Говорить с Мелани."
-    new ""
+    new "Talking to Melanie."
 

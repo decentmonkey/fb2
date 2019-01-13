@@ -40,7 +40,7 @@ label ep22_dialogue1_3_slums_map:
 label ep22_dialogue1_3_slums:
     if cloth == "Governess":
         mt "В этой районе одни извращенцы."
-        "К костюме горничной меня там сразу изнасилуют, я уверена!"
+        "В костюме горничной меня там сразу изнасилуют, я уверена!"
         return False
     return
 

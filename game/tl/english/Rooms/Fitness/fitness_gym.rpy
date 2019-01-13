@@ -10,3 +10,11 @@ translate english strings:
     old "В РАЗДЕВАЛКУ"
     new "LOCKER ROOM"
 
+# TODO: Translation updated at 2019-01-14 00:27
+
+# game/Rooms/Fitness/fitness_gym.rpy:35
+translate english fitness_gym_environment_54c7aa25:
+
+    # mt "Мне не до этого сейчас..."
+    mt "I am not up to it now..."
+

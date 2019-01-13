@@ -174,3 +174,15 @@ translate english strings:
     old "Мою бывшую спальню."
     new "My former bedroom."
 
+# TODO: Translation updated at 2019-01-14 00:27
+
+translate english strings:
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:234
+    old "Смотреть..."
+    new "Look..."
+
+    # Quests/House_Cleaning/House_Cleaning.rpy:234
+    old "Пропустить."
+    new "Skip."
+

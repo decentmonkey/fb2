@@ -112,3 +112,19 @@ translate german hook_basement_bedroom_check_exit_cloth_58d95acf:
     # "Сучка..."
     "Miststück..."
 
+# TODO: Translation updated at 2019-01-14 00:27
+
+# game/Characters/Monica/Wardrobe_Basement.rpy:76
+translate german wardrobeBasement_dialogue2_pants_betty_f66a75c7:
+
+    # mt "Это трусики Бетти..."
+    # "Какой ужас..."
+    mt "Это трусики Бетти..."
+    "Was für ein Horror..."
+
+translate german strings:
+
+    # Characters/Monica/Wardrobe_Basement.rpy:10
+    old "Только трусики."
+    new ""
+

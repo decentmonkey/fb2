@@ -72,3 +72,51 @@ translate german citizen10_dialogue_725e3c63:
     # mt "Что? Странный тип..."
     mt "Was? Seltsamer Typ..."
 
+# TODO: Translation updated at 2019-01-14 00:27
+
+# game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:25
+translate german citizen10_dialogue_61862b2e:
+
+    # mt "Что? Странный тип..."
+    # citizen10 "Как насчет того, чтобы продолжить нашу беседу?"
+    mt "Was? Seltsamer Typ..."
+    citizen10 "Как насчет того, чтобы продолжить нашу беседу?"
+
+# game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:31
+translate german citizen10_dialogue_e946ecb0:
+
+    # m "Мы уже достаточно с вами поговорили!"
+    m "Мы уже достаточно с вами поговорили!"
+
+# game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:33
+translate german citizen10_dialogue_a8d99408:
+
+    # m "О чем бы вы хотели поговорить?"
+    # сitizen10 "Понимаете, я флорист. Я изучаю растения. Но также меня интересует красота женского тела. Это меня вдохновляет."
+    # m "Нет, спасибо, как нибудь в другой раз."
+    # mt "Он вообще нормальный?"
+    m "О чем бы вы хотели поговорить?"
+    сitizen10 "Понимаете, я флорист. Я изучаю растения. Но также меня интересует красота женского тела. Это меня вдохновляет."
+    m "Нет, спасибо, как нибудь в другой раз."
+    mt "Он вообще нормальный?"
+
+# game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:49
+translate german citizen10_dialogue_pilon_517f152f:
+
+    # m "Эй, простите..."
+    # citizen10 "Не сейчас, я занят!"
+    # mt "Что это с ним?"
+    m "Эй, простите..."
+    citizen10 "Не сейчас, я занят!"
+    mt "Что это с ним?"
+
+translate german strings:
+
+    # Quests/EP2/Citizens/Citizen10_dialogue.rpy:27
+    old "Хватит с меня разговоров!"
+    new ""
+
+    # Quests/EP2/Citizens/Citizen10_dialogue.rpy:27
+    old "А о чем бы вы хотели поговорить?"
+    new ""
+

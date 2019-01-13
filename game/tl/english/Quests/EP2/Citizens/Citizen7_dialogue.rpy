@@ -98,13 +98,13 @@ translate english citizen7_dialogue_ca74f711:
 translate english citizen7_dialogue_be43400a:
 
     # citizen7 "Я бы хотел провести блее детальные замеры. В менее людном месте, это необходимо. Давайте отойдем чуть подальше."
-    citizen7 "Я бы хотел провести блее детальные замеры. В менее людном месте, это необходимо. Давайте отойдем чуть подальше."
+    citizen7 "I'd like to take some more detailed measurements. In a less public place, it's necessary. Let's go a little further."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:47
 translate english citizen7_dialogue_069ad2f2:
 
     # m "Мне ничего от тебя не нужно!"
-    m "Мне ничего от тебя не нужно!"
+    m "I don't want anything from you!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:49
 translate english citizen7_dialogue_f3825c2a:
@@ -114,17 +114,17 @@ translate english citizen7_dialogue_f3825c2a:
     # mt "Кажется я знаю о каком месте он говорит..."
     # m "Не дождешься!"
     # citizen7 "И напрасно. Вы же понимаете, что работа модели всегда оплачивается?"
-    m "Куда именно?"
-    citizen7 "Здесь в подворотне есть прекрасное место для вдохновения. Мне нужно оценить ваши формы."
-    mt "Кажется я знаю о каком месте он говорит..."
-    m "Не дождешься!"
-    citizen7 "И напрасно. Вы же понимаете, что работа модели всегда оплачивается?"
+    m "Where exactly?"
+    citizen7 "There is a great place for inspiration here in the gateway. I need to check your forms."
+    mt "I think I know where he's talking about..."
+    m "Can't wait!"
+    citizen7 "And in vain. Do you understand that the work of a model is always paid?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:67
 translate english citizen7_dialogue_pilon_87d4b0e7:
 
     # m "Привет! Думаю, я могу помочь тебе с вдохновением."
-    m "Привет! Думаю, я могу помочь тебе с вдохновением."
+    m "Hi! I think I can help you get inspired."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:69
 translate english citizen7_dialogue_pilon_d1b3edf6:
@@ -133,16 +133,16 @@ translate english citizen7_dialogue_pilon_d1b3edf6:
     # m "Только нам нужно не самое людное место..."
     # citizen7 "Конечно, как скажешь. Я знаю одно подходящее, пойдем!"
     # citizen7 "Вдохновение вещь сложная: очень сложно его найти... С чего бы нам начать?"
-    citizen7 "Как хорошо! Не зря ты мне снилась прошлой ночью!"
-    m "Только нам нужно не самое людное место..."
-    citizen7 "Конечно, как скажешь. Я знаю одно подходящее, пойдем!"
-    citizen7 "Вдохновение вещь сложная: очень сложно его найти... С чего бы нам начать?"
+    citizen7 "How nice! No wonder I dreamt about you last night!"
+    m "But we don't need the most crowded place..."
+    citizen7 "Of course, as you say. I know a good one, let's go!"
+    citizen7 "Inspiration is a difficult thing: it is very difficult to find it... Where do we start?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:80
 translate english citizen7_dialogue_pilon_loop7_0192bbc2:
 
     # citizen7 "Милая, покажи свою чудесную грудь!"
-    citizen7 "Милая, покажи свою чудесную грудь!"
+    citizen7 "Honey, show me your beautiful breasts!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:82
 translate english citizen7_dialogue_pilon_loop7_a7283d00:
@@ -151,28 +151,28 @@ translate english citizen7_dialogue_pilon_loop7_a7283d00:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 50 corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется 50 corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "50 corruption required"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:88
 translate english citizen7_dialogue_pilon_loop7_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "Я не собираюсь раздеваться, только так."
+    m "I'm not going to take off clothes, just like that."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:92
 translate english citizen7_dialogue_pilon_loop7_ad04766a:
 
     # citizen7 "Божественно, я так и вижу идею для новой картины!"
-    citizen7 "Божественно, я так и вижу идею для новой картины!"
+    citizen7 "Divinely, I can see the idea for a new picture!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:94
 translate english citizen7_dialogue_pilon_loop7_e3fd528c:
 
     # citizen7 "Еще немного..."
-    citizen7 "Еще немного..."
+    citizen7 "A little more..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:96
 translate english citizen7_dialogue_pilon_loop7_b4b7dc55:
@@ -184,7 +184,7 @@ translate english citizen7_dialogue_pilon_loop7_b4b7dc55:
 translate english citizen7_dialogue_pilon_loop7_36c4ef64:
 
     # citizen7 "Как насчет попы? Уверен, она прекрасна, как и ты!"
-    citizen7 "Как насчет попы? Уверен, она прекрасна, как и ты!"
+    citizen7 "What about ass? I'm sure it's as beautiful as you!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:103
 translate english citizen7_dialogue_pilon_loop7_f7e05701:
@@ -193,56 +193,56 @@ translate english citizen7_dialogue_pilon_loop7_f7e05701:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 70 corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется 70 corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "Requires 70 corruption"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:109
 translate english citizen7_dialogue_pilon_loop7_48b1ace1_1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "Я не собираюсь раздеваться, только так."
+    m "I'm not going to take off clothes, just like that."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:113
 translate english citizen7_dialogue_pilon_loop7_c75b48c6:
 
     # citizen7 "Не дурно! Очень похожа на персик, на картине моего коллеги. Милая, ты ему не позировала?"
-    citizen7 "Не дурно! Очень похожа на персик, на картине моего коллеги. Милая, ты ему не позировала?"
+    citizen7 "Not bad! Very similar to a peach, in the picture of my colleague. Honey, did you pose for him, didn't you?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:115
 translate english citizen7_dialogue_pilon_loop7_6eead2b2:
 
     # mt "Что за извращенец..."
-    mt "Что за извращенец..."
+    mt "What a Perv..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:121
 translate english citizen7_dialogue_pilon_loop7_f6879f3c:
 
     # citizen7 "Как и любой модели, тебе полагается награда."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen7 "Как и любой модели, тебе полагается награда."
-    m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen7 "Like any model, you're entitled to a reward."
+    m "What?! So little? Well, I'll be rich soon and get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:125
 translate english citizen7_dialogue_pilon_loop7_f6879f3c_1:
 
     # citizen7 "Как и любой модели, тебе полагается награда."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen7 "Как и любой модели, тебе полагается награда."
-    m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen7 "Like any model, you're entitled to a reward."
+    m "What?! So little? Well, I'll be rich soon and get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:130
 translate english citizen7_dialogue_pilon_loop7_b0b26d8d:
 
     # citizen7 "Ты не дала мне ни капли вдохновения!"
-    citizen7 "Ты не дала мне ни капли вдохновения!"
+    citizen7 "You didn't give me any inspiration!"
 
 translate english strings:
 
     # Quests/EP2/Citizens/Citizen7_dialogue.rpy:43
     old "Куда именно?"
-    new ""
+    new "Where exactly?"
 
 # TODO: Translation updated at 2019-01-09 21:51
 
@@ -250,7 +250,7 @@ translate english strings:
 translate english citizen7_dialogue_d443b848:
 
     # mt "В любом случае об этом лучше говорить без этой дурацкой рекламы кебаба..."
-    mt "В любом случае об этом лучше говорить без этой дурацкой рекламы кебаба..."
+    mt "In any case, it is better to speak without this stupid commercial kebab..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:85
 translate english citizen7_dialogue_pilon_loop7_e7678610:
@@ -259,10 +259,10 @@ translate english citizen7_dialogue_pilon_loop7_e7678610:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "Required [monicaWhoringClothBoobsCorruptionrequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:106
 translate english citizen7_dialogue_pilon_loop7_299ae0b0:
@@ -271,10 +271,10 @@ translate english citizen7_dialogue_pilon_loop7_299ae0b0:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "Required [monicaWhoringClothAssCorruptionRequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:124
 translate english citizen7_dialogue_pilon_loop7_ad16f282:
@@ -282,9 +282,9 @@ translate english citizen7_dialogue_pilon_loop7_ad16f282:
     # citizen7 "Как и любой модели, тебе полагается награда."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen7 "Как и любой модели, тебе полагается награда."
-    m "Что?! Так мало? Мог бы дать и больше!"
-    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen7 "Like any model, you're entitled to a reward."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:129
 translate english citizen7_dialogue_pilon_loop7_ad16f282_1:
@@ -292,7 +292,7 @@ translate english citizen7_dialogue_pilon_loop7_ad16f282_1:
     # citizen7 "Как и любой модели, тебе полагается награда."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen7 "Как и любой модели, тебе полагается награда."
-    m "Что?! Так мало? Мог бы дать и больше!"
-    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen7 "Like any model, you're entitled to a reward."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
 

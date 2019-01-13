@@ -22,3 +22,17 @@ translate german bardieStairsFloor1Hook1_4c88471c:
     # bardie "Моника! Покажи трусики!"
     bardie "Monica! Zeig mir dein Höschen!"
 
+# TODO: Translation updated at 2019-01-14 00:27
+
+# game/Characters/Family/Bardie.rpy:94
+translate german bardieProgressLevelUp1_35862969:
+
+    # char_data["current_progress"] = 90
+    char_data["current_progress"] = 90
+
+translate german strings:
+
+    # Characters/Family/Bardie.rpy:91
+    old "Ожидание дальнейшего прогресса сюжета игры..."
+    new ""
+

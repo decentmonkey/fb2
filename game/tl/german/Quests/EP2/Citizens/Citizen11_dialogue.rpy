@@ -84,3 +84,91 @@ translate german citizen11_dialogue_loop1_ea9512e8:
     # mt "Старый алкаш..."
     mt "Alter Suffkopf..."
 
+# TODO: Translation updated at 2019-01-14 00:27
+
+# game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:14
+translate german citizen11_dialogue_81efebb8:
+
+    # citizen11 "Да? Что? Ох, моя голова..."
+    citizen11 "Ja? Was? Oh, mein Kopf..."
+
+# game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:28
+translate german citizen11_dialogue_5c8f1a31:
+
+    # m "Вот, возьмите, тут кое что есть."
+    m "Вот, возьмите, тут кое что есть."
+
+# game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:32
+translate german citizen11_dialogue_f0d40aa8:
+
+    # citizen11 "(Пьет) Ооо, Богиня! Ты меня спасла! Давай выпьем со мной, мне одному грустно."
+    # m "Нет, что-то, не хочется."
+    # mt "Ни за что."
+    # citizen11 "И очень даже зря. Божественный напиток. Дак что ты хотела?"
+    # m "Возьмите, пожалуйста, этот флаер..."
+    # citizen11 "Флаер? Конечно, сколько угодно!"
+    citizen11 "(Пьет) Ооо, Богиня! Ты меня спасла! Давай выпьем со мной, мне одному грустно."
+    m "Нет, что-то, не хочется."
+    mt "Ни за что."
+    citizen11 "И очень даже зря. Божественный напиток. Дак что ты хотела?"
+    m "Bitte nehmen Sie diesen Flyer..."
+    citizen11 "Флаер? Конечно, сколько угодно!"
+
+# game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:41
+translate german citizen11_dialogue_abba711a:
+
+    # m "Мистер, у меня нет алкоголя, только флаеры с рекламой вкуснейших кебабов..."
+    m "Ich habe leider keinen Alkohol, nur Flyer die den köstlichen Kebab anpreisen..."
+
+# game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:43
+translate german citizen11_dialogue_5705e2ac:
+
+    # citizen11 "Каких еще кебабов? Проваливай отсюда!"
+    citizen11 "Was für Kebab? Verschwinde!"
+
+# game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:45
+translate german citizen11_dialogue_ea9512e8:
+
+    # mt "Старый алкаш..."
+    mt "Alter Suffkopf..."
+
+# game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:60
+translate german citizen11_dialogue_pilon_02b33f02:
+
+    # m "Привет! Помнишь меня?"
+    m "Привет! Помнишь меня?"
+
+# game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:62
+translate german citizen11_dialogue_pilon_2f331efd:
+
+    # citizen11 "Конечно! Как я могу забыть мою спасительницу?"
+    # citizen11 "Знаешь, недавно выплатили пособие по безработице и я купил один божественный напиток. Угостишься?"
+    citizen11 "Конечно! Как я могу забыть мою спасительницу?"
+    citizen11 "Знаешь, недавно выплатили пособие по безработице и я купил один божественный напиток. Угостишься?"
+
+# game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:66
+translate german citizen11_dialogue_pilon_a99a1b5d:
+
+    # m "Думаю, в другой раз."
+    # citizen11 "Как хочешь, ты не знаешь от чего отказываешься..."
+    m "Думаю, в другой раз."
+    citizen11 "Как хочешь, ты не знаешь от чего отказываешься..."
+
+# game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:68
+translate german citizen11_dialogue_pilon_4d02bdba:
+
+    # mt "Похоже, его единственный интерес - алкоголь. Думаю, мне лучше уйти."
+    # m "Ладно, я пойду."
+    mt "Похоже, его единственный интерес - алкоголь. Думаю, мне лучше уйти."
+    m "Ладно, я пойду."
+
+translate german strings:
+
+    # Quests/EP2/Citizens/Citizen11_dialogue.rpy:25
+    old "Вот, возьмите."
+    new ""
+
+    # Quests/EP2/Citizens/Citizen11_dialogue.rpy:64
+    old "Нет, спасибо."
+    new ""
+

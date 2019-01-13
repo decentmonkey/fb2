@@ -2074,3 +2074,11 @@ translate german monica_goout1_governess_restrict_6f9e4e73_1:
     "Ich wüsste nicht, was du außerhalb des Hauses zu tun hättest?"
     "Bist du schon fertig?"
 
+# TODO: Translation updated at 2019-01-14 00:27
+
+# game/Quests/EP2/ep2_dialogues1.rpy:721
+translate german bardie_comment5a_6a718a4c:
+
+    # mt "Я не собираюсь подходить к этой малявке!"
+    mt "Ich werde mich nicht diesem kleinen Ding nähern!"
+

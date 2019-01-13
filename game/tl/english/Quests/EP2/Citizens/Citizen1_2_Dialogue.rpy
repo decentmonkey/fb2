@@ -144,23 +144,23 @@ translate english citizen1_dialogue_b0452a25:
     # m "А что бы вы хотели?"
     # citizen1 "А то ты не знаешь, тетя! Конечно тебя!"
     # citizen2 "Мой брат слишком груб, но в целом он прав."
-    m "А что бы вы хотели?"
-    citizen1 "А то ты не знаешь, тетя! Конечно тебя!"
-    citizen2 "Мой брат слишком груб, но в целом он прав."
+    m "What would you like?"
+    citizen1 "You don't know, hag? Of course you!"
+    citizen2 "My brother's too rough, but he's right overall."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:49
 translate english citizen1_dialogue_39f6ca08:
 
     # m "Что?! Да как вы можете просить такое?"
-    m "Что?! Да как вы можете просить такое?"
+    m "What?! How can you ask for that?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:52
 translate english citizen1_dialogue_29a5cee2:
 
     # m "Я подумаю, но сейчас я занята..."
     # mt "В любом случае я не могу ничего поделать в этом жутком наряде..."
-    m "Я подумаю, но сейчас я занята..."
-    mt "В любом случае я не могу ничего поделать в этом жутком наряде..."
+    m "I'll think, but I'm busy now..."
+    mt "Anyway, I can't do anything about this creepy outfit..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:58
 translate english citizen1_dialogue_f46e98e2:
@@ -175,10 +175,10 @@ translate english citizen1_dialogue_pilon_6ba7637a:
     # citizen1 "Смотря для чего, тетя. А тебе зачем?"
     # m "Вы помнится хотели на меня посмотреть..."
     # citizen1 "Да, тетя, и до сих пор хотим!"
-    m "Эй, парни! Скажите, у вас есть деньги?"
-    citizen1 "Смотря для чего, тетя. А тебе зачем?"
-    m "Вы помнится хотели на меня посмотреть..."
-    citizen1 "Да, тетя, и до сих пор хотим!"
+    m "Hey, guys! Tell me, do you have any money?"
+    citizen1 "Depends on what you want, hag. Why do you ask?"
+    m "I remember you wanted to see me..."
+    citizen1 "Yes, hag, and still want!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:73
 translate english citizen1_dialogue_pilon_06c6eafd:
@@ -186,15 +186,15 @@ translate english citizen1_dialogue_pilon_06c6eafd:
     # m "Ну, я могу Вам кое-что показать, только нам лучше уйти отсюда."
     # citizen1 "Конечно, тетя, без проблем."
     # citizen1 "Ну что, тетя..."
-    m "Ну, я могу Вам кое-что показать, только нам лучше уйти отсюда."
-    citizen1 "Конечно, тетя, без проблем."
-    citizen1 "Ну что, тетя..."
+    m "Well, I can show you something, but we'd better get out of here."
+    citizen1 "Of course, hag, no problem."
+    citizen1 "Well, hag..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:83
 translate english citizen1_dialogue_pilon_loop1_01433504:
 
     # citizen1 "Покажи нам свои классные сиськи!"
-    citizen1 "Покажи нам свои классные сиськи!"
+    citizen1 "Show us your nice tits!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:85
 translate english citizen1_dialogue_pilon_loop1_a7283d00:
@@ -203,22 +203,22 @@ translate english citizen1_dialogue_pilon_loop1_a7283d00:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 50 corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется 50 corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "50 corruption required"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:92
 translate english citizen1_dialogue_pilon_loop1_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "Я не собираюсь раздеваться, только так."
+    m "I'm not going to take off clothes, just like that."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:96
 translate english citizen1_dialogue_pilon_loop1_92ed4ca8:
 
     # citizen1 "Отличные сиськи, но как насчет того, чтобы снять все лишнее?"
-    citizen1 "Отличные сиськи, но как насчет того, чтобы снять все лишнее?"
+    citizen1 "Nice tits, but how about we take the extra ones off?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:98
 translate english citizen1_dialogue_pilon_loop1_095af695:
@@ -230,13 +230,13 @@ translate english citizen1_dialogue_pilon_loop1_095af695:
 translate english citizen1_dialogue_pilon_loop1_d85bef0d:
 
     # citizen1 "Ну и так не плохо."
-    citizen1 "Ну и так не плохо."
+    citizen1 "Not bad."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:105
 translate english citizen1_dialogue_pilon_loop1_749aa56b:
 
     # citizen1 "Покажи нам свои красивый зад!"
-    citizen1 "Покажи нам свои красивый зад!"
+    citizen1 "Show us your beautiful ass!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:107
 translate english citizen1_dialogue_pilon_loop1_f7e05701:
@@ -245,64 +245,64 @@ translate english citizen1_dialogue_pilon_loop1_f7e05701:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 70 corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется 70 corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "Requires 70 corruption"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:113
 translate english citizen1_dialogue_pilon_loop1_48b1ace1_1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "Я не собираюсь раздеваться, только так."
+    m "I'm not going to take off clothes, just like that."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:117
 translate english citizen1_dialogue_pilon_loop1_4cf0df57:
 
     # citizen1 "Шикарная жопа, тетя!"
-    citizen1 "Шикарная жопа, тетя!"
+    citizen1 "Nice ass hag!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:119
 translate english citizen1_dialogue_pilon_loop1_eb3da318:
 
     # citizen1 "Почти как у моей бывшей."
-    citizen1 "Почти как у моей бывшей."
+    citizen1 "Almost like my ex-girlfriend."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:125
 translate english citizen1_dialogue_pilon_loop1_508767ff:
 
     # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
-    m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen1 "Okay, Hag, that's enough. Until next time. Here you go."
+    m "What?! So little? Well, I'll be rich soon and get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:130
 translate english citizen1_dialogue_pilon_loop1_508767ff_1:
 
     # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
-    m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen1 "Okay, Hag, that's enough. Until next time. Here you go."
+    m "What?! So little? Well, I'll be rich soon and get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:136
 translate english citizen1_dialogue_pilon_loop1_ef576f0b:
 
     # citizen1 "Тетя, и за что тебе платить? Ничего не получишь."
-    citizen1 "Тетя, и за что тебе платить? Ничего не получишь."
+    citizen1 "Hag, what are you being paid for? Nothing."
 
 translate english strings:
 
     # Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:36
     old "А что бы вы хотели?"
-    new ""
+    new "What would you like?"
 
     # Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:47
     old "Что?! Да как вы можете просить такое?"
-    new ""
+    new "What?! How can you ask for that?"
 
     # Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:47
     old "Я подумаю, но сейчас я занята..."
-    new ""
+    new "I'll think, but I'm busy now..."
 
 # TODO: Translation updated at 2019-01-09 21:51
 
@@ -310,19 +310,19 @@ translate english strings:
 translate english citizen1_dialogue_45d546da:
 
     # m "А что бы вы хотели?"
-    m "А что бы вы хотели?"
+    m "What would you like?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:45
 translate english citizen1_dialogue_1ee37981:
 
     # citizen1 "А то ты не знаешь, тетя! Конечно тебя!"
-    citizen1 "А то ты не знаешь, тетя! Конечно тебя!"
+    citizen1 "You don't know, hag? Of course you!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:47
 translate english citizen1_dialogue_66e2c318:
 
     # citizen2 "Мой брат слишком груб, но в целом он прав."
-    citizen2 "Мой брат слишком груб, но в целом он прав."
+    citizen2 "My brother's too rough, but he's right overall."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:87
 translate english citizen1_dialogue_pilon_loop1_e7678610:
@@ -331,10 +331,10 @@ translate english citizen1_dialogue_pilon_loop1_e7678610:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "Required [monicaWhoringClothBoobsCorruptionrequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:109
 translate english citizen1_dialogue_pilon_loop1_299ae0b0:
@@ -343,10 +343,10 @@ translate english citizen1_dialogue_pilon_loop1_299ae0b0:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "Required [monicaWhoringClothAssCorruptionRequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:127
 translate english citizen1_dialogue_pilon_loop1_09e94663:
@@ -354,9 +354,9 @@ translate english citizen1_dialogue_pilon_loop1_09e94663:
     # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
-    m "Что?! Так мало? Мог бы дать и больше!"
-    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen1 "Okay, Hag, that's enough. Until next time. Here you go."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:133
 translate english citizen1_dialogue_pilon_loop1_09e94663_1:
@@ -364,7 +364,7 @@ translate english citizen1_dialogue_pilon_loop1_09e94663_1:
     # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
-    m "Что?! Так мало? Мог бы дать и больше!"
-    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen1 "Okay, Hag, that's enough. Until next time. Here you go."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
 

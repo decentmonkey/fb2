@@ -108,7 +108,7 @@ translate english ep22_dialogues2_1_d08c3151:
     # "Нет, Фред! Мне нужны гарантии!"
     # "А что если она, все-таки, выйдет из-под контроля? Что я ей скажу?"
     "No, Fred! I need guarantees!"
-    "What if she gets out of control after all? What I will tell her?"
+    "What if she gets out of control after all? What will I tell her?"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:122
 translate english ep22_dialogues2_1_52d33b34:
@@ -136,9 +136,9 @@ translate english ep22_dialogues2_1_aae9dbf7:
     "She was a very well-paid governess!"
     "But I did not take care of the extension of the papers in time."
     "Now she could be in trouble."
-    "She can be deported from the country and she will not be able to work as a governess for a high salary."
+    "She can be deported from the country, and she will not be able to work as a governess for a high salary."
     "So she's trying to sit out for a while somewhere until she's done with the paperwork."
-    "It can take a long time and it is beneficial to you!"
+    "It can take a long time, and it is beneficial to you!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:136
 translate english ep22_dialogues2_1_68db854d:
@@ -164,7 +164,7 @@ translate english ep22_dialogues2_1_86ab6e61:
     # fred "Это офицер полиции, который занимается ее нарушением миграционного закона."
     # "Если вдруг она будет создавать неприятности, то скажите имя этого человека."
     fred "This is a police officer who's handling her immigration violation."
-    "If she'll give you any trouble, tell me the name of that person."
+    "If she gives you any trouble, tell me the name of that person."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:145
 translate english ep22_dialogues2_1_03db9ff5:
@@ -185,7 +185,7 @@ translate english ep22_dialogues2_1_829d42d4:
 
     # fred "О! Мистер Робертс!"
     # "Я профессионал!"
-    # "Я мне доставляет эстетическое удовольствие то что я окружен другими профессионалами."
+    # "Мне доставляет эстетическое удовольствие то что я окружен другими профессионалами."
     fred "Oh! Mr. Roberts!"
     "I'm a professional!"
     "I get aesthetic pleasure in being surrounded by the professionals."
@@ -225,7 +225,7 @@ translate english ep22_dialogues2_1_65d1db93:
 
     # fred "Миссис Робертс!"
     # "Мистер Робертс спрашивал мое профессиональное мнение по поводу пятна на ковре в верхнем холле."
-    fred "Mrs Roberts!"
+    fred "Mrs. Roberts!"
     "Mr. Roberts asked my professional opinion about the stain on the carpet in the upper hall."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:187
@@ -241,7 +241,7 @@ translate english ep22_dialogues2_1_edb69f76:
     # "И вообще мое мнение что ковер испорчен, его надо выкидывать!"
     # "Я займусь этим."
     betty "Since what time does a driver have a professional opinion about cleaning the house?"
-    "In general my opinion is that the carpet is spoiled, it should be thrown out!"
+    "In general, my opinion is that the carpet is spoiled, it should be thrown out!"
     "I got this."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:197
@@ -260,7 +260,7 @@ translate english ep22_dialogues2_1_2873f95b:
 translate english ep22_dialogues2_1_51d8c6bd:
 
     # fred "Насколько мне известно, в богатых домах этим занимается прислуга."
-    fred "As far as I know, in rich houses the servants are engaged in it."
+    fred "As far as I know, in rich houses, the servants are engaged in it."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:203
 translate english ep22_dialogues2_1_599c306c:
@@ -303,8 +303,8 @@ translate english ep22_dialogues2_1_48271a1e:
 # game/Quests/EP2_02/ep22_dialogues2.rpy:222
 translate english ep22_dialogues2_1_f9c1b037:
 
-    # fred "..." 
-    fred "..." 
+    # fred "..."
+    fred "..."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:226
 translate english ep22_dialogues2_1_e00f1841:
@@ -331,7 +331,7 @@ translate english ep22_dialogues2_1_7c02f55c:
 
     # betty "Ральф! Иди в дом!"
     # "Ты простынешь на улице!"
-    betty "Ralph! Go in the house!"
+    betty "Ralph! Go into the house!"
     "You'll get cold outside!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:236
@@ -349,14 +349,14 @@ translate english ep22_dialogues2_1_0c35fd57:
 # game/Quests/EP2_02/ep22_dialogues2.rpy:240
 translate english ep22_dialogues2_1_3bdb6613:
 
-    # ralph "..." 
-    ralph "..." 
+    # ralph "..."
+    ralph "..."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:242
 translate english ep22_dialogues2_1_f9c1b037_1:
 
-    # fred "..." 
-    fred "..." 
+    # fred "..."
+    fred "..."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:246
 translate english ep22_dialogues2_1_06bde803:
@@ -378,7 +378,7 @@ translate english ep22_dialogues2_1_7d54c98b:
     # betty "А?! ЧТО?!"
     # "Ты что-то сказал? Я не расслышала..."
     betty "Ah?! What?!"
-    "You said something? I couldn't hear..."
+    "Did you say something? I couldn't hear..."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:254
 translate english ep22_dialogues2_1_e5be62c3:
@@ -414,7 +414,7 @@ translate english ep22_dialogues2_1_ce263b8a:
 translate english ep22_dialogues2_1_a9a3cae8:
 
     # fred "Мэм! Я вижу Вы недавно в столице."
-    # "А Вас ведь не было личного водителя до этого?"
+    # "У Вас ведь не было личного водителя до этого?"
     # betty "Нет, не было..."
     fred "MA'am! I see you have been in the capital for not long."
     "You didn't have a personal driver before, did you?"
@@ -445,7 +445,7 @@ translate english ep22_dialogues2_1_f59ebf56:
 
     # "Вы должны проверить его, ведь Вы хотите чтобы Вас окружали только профессионалы."
     # "Ведь правда?"
-    "You should check it, because you want to be surrounded only by professionals."
+    "You should check it because you want to be surrounded only by professionals."
     "Isn't it?"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:279
@@ -514,7 +514,7 @@ translate english ep22_dialogues2_1_7b6b507b:
     # fred "Будьте в прачечной в районе обеда. Я спущусь к Вам."
     fred "MA'am, as far as I know, do you load the laundry yourself?"
     betty "Yes... I do it myself..."
-    fred "Be at the laundry in the lunch. I'll come down."
+    fred "Be at the laundry at the lunch. I'll come down."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:309
 translate english ep22_dialogues2_1_b6c3de98:
@@ -595,8 +595,8 @@ translate english ep22_dialogues2_4_4307dcb3:
 # game/Quests/EP2_02/ep22_dialogues2.rpy:365
 translate english ep22_dialogues2_4_3a99a038:
 
-    # betty "Тогда вот ЭТО ЧТО ТАКОЕ???" 
-    betty "Then WHAT is THIS???" 
+    # betty "Тогда вот ЭТО ЧТО ТАКОЕ???"
+    betty "Then WHAT is THIS???"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:367
 translate english ep22_dialogues2_4_0a5616b8:
@@ -640,7 +640,7 @@ translate english ep22_dialogues2_4_25de51de:
     # "Круг гувернанток такого высокого уровня не слишком велик и мы знаем друг друга..."
     m "MA'am! I've been cleaning professionally for a long time..."
     "I clean wealthy houses."
-    "The circle of governesses of such high level is not too big and we know each other..."
+    "The circle of governesses of such high level is not too big, and we know each other..."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:385
 translate english ep22_dialogues2_4_1ac0a8da:
@@ -891,8 +891,8 @@ translate english ep22_dialogue2_8_f2060836:
 # game/Quests/EP2_02/ep22_dialogues2.rpy:542
 translate english ep22_dialogue2_8_f9c1b037:
 
-    # fred "..." 
-    fred "..." 
+    # fred "..."
+    fred "..."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:546
 translate english ep22_dialogue2_8_9bf469f2:
@@ -1021,8 +1021,8 @@ translate english ep22_dialogue2_8_8337b73a:
 # game/Quests/EP2_02/ep22_dialogues2.rpy:691
 translate english ep22_dialogue2_8_23b77084:
 
-    # "Мои трусики???" 
-    "My panties???" 
+    # "Мои трусики???"
+    "My panties???"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:695
 translate english ep22_dialogue2_8_d924fe99:
@@ -1031,7 +1031,7 @@ translate english ep22_dialogue2_8_d924fe99:
     # "В больших городах принято после секса кончать девушке на лицо..."
     # "Все прогрессивные люди делают это!"
     fred "MA'am, you just don't know..."
-    "In big cities it is accepted after sex to cum the girl on the face..."
+    "In big cities, it is accepted after sex to cum the girl on the face..."
     "All progressive people do it!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:699
@@ -1239,4 +1239,433 @@ translate english strings:
     # Quests/EP2_02/ep22_dialogues2.rpy:466
     old "Да, Мэм. Я уже приступаю. (Опоздание к Дику)"
     new "Yes, MA'am. I'm starting. (Late arrival to Dick)"
+
+# TODO: Translation updated at 2019-01-14 00:27
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:354
+translate english ep22_dialogues2_1_d1fdddaf:
+
+    # betty "Я не собираюсь делать этого!"
+    betty "I'm not going to do that!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:360
+translate english ep22_dialogues2_1_d1fdddaf_1:
+
+    # betty "Я не собираюсь делать этого!"
+    betty "I'm not going to do that!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:368
+translate english ep22_dialogues2_3_5932acdd:
+
+    # mt "Мне надо скорее {c}бежать к Дику!{/c}"
+    mt "I should rather {c}run to Dick!{/c}"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:373
+translate english ep22_dialogues2_3a_acfbec77:
+
+    # mt "Наконец-то у Дика есть его чертов галстук!"
+    # "Мне пришлось через многое пройти, чтобы добыть эти деньги."
+    # "Я даже не буду думать об этом... Черт..."
+    # "Неплохо было бы теперь {c}проведать Дика{/c}."
+    # "Он должен уладить мою небольшую проблему и помочь вернуть все назад!"
+    mt "Dick finally has his damn tie!"
+    "I had to go through a lot to get this money."
+    "I won't even think about it... Damn..."
+    "It would be nice now to {c}see Dick{/c}."
+    "He should settle my little problem and help get everything back!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:404
+translate english ep22_dialogues2_4_d789648b:
+
+    # m "Да, Миссис Робертс?"
+    # betty "Быстро переоденься в униформу и иди за мной!"
+    # mt "..."
+    # mt "!!!"
+    m "Yes, Mrs. Roberts?"
+    betty "Quickly change into your uniform and follow me!"
+    mt "..."
+    mt "!!!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:420
+translate english ep22_dialogues2_4_ec8a0ffd_1:
+
+    # betty "Дорогуша!"
+    betty "Darling!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:424
+translate english ep22_dialogues2_4_0ef5f6f7:
+
+    # m "Да, Миссис Робертс?"
+    # betty "Быстро иди за мной!"
+    m "Yes, Mrs. Roberts?"
+    betty "Quickly follow me!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:587
+translate english ep22_dialogue2_6a_9f8e13e6:
+
+    # mt "Черт! Мне придется каждый день тереть это пятно!"
+    # "За что мне это все?!?!"
+    # "Проклятие! Я ненавижу эту Бетти!"
+    mt "Fuck! I have to rub this stain every day!"
+    "Why should I?!?!"
+    "The curse! I hate Betty!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:608
+translate english ep22_dialogue2_7a_ff299ab9:
+
+    # mt "Теперь надо тереть это пятно..."
+    mt "Now I have to rub this spot..."
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:610
+translate english ep22_dialogue2_7a_e73126c8:
+
+    # mt "Иначе Бетти уволит меня и я окажусь на улице!"
+    mt "Otherwise, Betty will fire me and I'll end up on the street!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:720
+translate english ep22_dialogue2_8_1_8e067807:
+
+    # betty "В следующий раз!"
+    # "Мало времени, Фред!"
+    betty "Next time!"
+    "Little time, Fred!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:723
+translate english ep22_dialogue2_8_1_9ef3b535:
+
+    # "Меня ждет Ральф!"
+    "Ralph is waiting for me!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:728
+translate english ep22_dialogue2_8_1_921a2a5e:
+
+    # "Меня ждет Ральф!"
+    # betty "Я ухожу..."
+    # fred "Как скажете, Мэм..."
+    "Ralph is waiting for me!"
+    betty "I'm leaving..."
+    fred "As you say, Ma'am..."
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:735
+translate english ep22_dialogue2_8_1_a1d5cbf2:
+
+    # "Давай скорее!"
+    "Hurry up!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:747
+translate english ep22_dialogue2_8_1_19082b7b:
+
+    # fred "Давайте я подержу Ваши трусики, Мэм!"
+    fred "Let me hold your panties, MA'am!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:770
+translate english ep22_dialogue2_8_1_9d9109f2:
+
+    # betty "Фред! Давай скорее!"
+    # "Меня ждет Ральф!"
+    betty "Fred! Hurry up!"
+    "Ralph is waiting for me!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:774
+translate english ep22_dialogue2_8_1_1429de9c:
+
+    # fred "Как скажете, Миссис Робертс!"
+    fred "Whatever you say, Mrs. Roberts!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:776
+translate english ep22_dialogue2_8_1_1afd056c:
+
+    # "Вы мой Босс!"
+    "You're my Boss!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:881
+translate english ep22_dialogue2_8_1_1024d6cf:
+
+    # fred "Ааааагх!!!"
+    fred "Aaaahhh!!!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:883
+translate english ep22_dialogue2_8_1_119c260a:
+
+    # betty "Не вздумай кончить в меня!"
+    # fred "Да, Мэм! Как скажете!"
+    betty "Don't you dare cum inside me!"
+    fred "Yes, MA'am! As you say!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:887
+translate english ep22_dialogue2_8_1_1024d6cf_1:
+
+    # fred "Ааааагх!!!"
+    fred "Aaaahhh!!!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:895
+translate english ep22_dialogue2_8_1_8337b73a:
+
+    # betty "Что ты сделал?"
+    # "Зачем ты кончил мне на лицо???"
+    betty "What did you do?"
+    "Why did you cum on my face???"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:901
+translate english ep22_dialogue2_8_1_23b77084:
+
+    # "Мои трусики???"
+    "My panties???"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:905
+translate english ep22_dialogue2_8_1_d924fe99:
+
+    # fred "Мэм, Вы просто не в курсе..."
+    # "В больших городах принято после секса кончать девушке на лицо..."
+    # "Все прогрессивные люди делают это!"
+    fred "MA'am, you just don't know..."
+    "In big cities, it is accepted after sex to cum the girl on the face..."
+    "All progressive people do it!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:910
+translate english ep22_dialogue2_8_1_5d556320:
+
+    # betty "Правда? Так принято?"
+    # fred "Да, Мэм!"
+    betty "Really? Is that accepted?"
+    fred "Yes, Ma'am!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:914
+translate english ep22_dialogue2_8_1_725ee282:
+
+    # betty "Где мой шарф? Ты видел его?"
+    betty "Where's my scarf? Did you see it?"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:917
+translate english ep22_dialogue2_8_1_20f33b5b:
+
+    # fred "Вы имеете ввиду этот шарф, Миссис Робертс?"
+    fred "You mean that scarf, Mrs. Roberts?"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:932
+translate english ep22_dialogue2_8_1_f2060836:
+
+    # betty "..."
+    betty "..."
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:934
+translate english ep22_dialogue2_8_1_d684ab34:
+
+    # fred "..."
+    fred "..."
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:938
+translate english ep22_dialogue2_8_1_4dbdb6e1:
+
+    # betty "Кто-то идет!"
+    # "Скорее всего это оболтус Барди!"
+    # fred "Мэм! Я знаю отсюда другой выход."
+    # "Не беспокойтесь, меня не увидят."
+    betty "Someone's coming!"
+    "Probably it is Bardie the doofus!"
+    fred "MA'am! I know another way out of here."
+    "Don't worry, they won't see me."
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:944
+translate english ep22_dialogue2_8_1_084dea06:
+
+    # betty "Я скажу тебе когда захочу снова."
+    # fred "Конечно, Мэм!"
+    # "Это моя работа!"
+    betty "I'll tell you when I want to again."
+    fred "Of course, Ma'am!"
+    "This is my job!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:956
+translate english ep22_dialogue2_8_1_c125ae51:
+
+    # betty "Барди?"
+    # "Маленький оболтус, что ты здесь делаешь??"
+    # "Ты никогда не спускался сюда."
+    betty "Bardie?"
+    "Little doofus, what are you doing here??"
+    "You have never come down here."
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:960
+translate english ep22_dialogue2_8_1_9ff175ae:
+
+    # bardie "Бетти, а где живет гувернантка?"
+    bardie "Betty, where does the governess live?"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:962
+translate english ep22_dialogue2_8_1_0b5b343c:
+
+    # betty "Я не имею понятия где она живет."
+    # "Мне это неинтересно!"
+    betty "I have no idea where she lives."
+    "I'm not interested!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:965
+translate english ep22_dialogue2_8_1_c624bf50:
+
+    # bardie "Бетти, а что это у тебя на лице?"
+    # "Это похоже на... Я видел подобное в одном фильме..."
+    bardie "Betty, what's that on your face?"
+    "It looks like... I've seen it in one movie..."
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:968
+translate english ep22_dialogue2_8_1_a0d7216a:
+
+    # betty "Где???"
+    betty "Where???"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:970
+translate english ep22_dialogue2_8_1_b53584e0:
+
+    # bardie "У тебя на лице!"
+    bardie "On your face!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:974
+translate english ep22_dialogue2_8_1_6c99a804:
+
+    # betty "Это???"
+    betty "This???"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:976
+translate english ep22_dialogue2_8_1_5d4d2bd3:
+
+    # "Я только что занималась стиркой белья!"
+    # "Должно быть кондиционер для белья попал мне на лицо..."
+    "I was just doing laundry!"
+    "The fabric softener must have hit me in the face..."
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:979
+translate english ep22_dialogue2_8_1_991f344e:
+
+    # "Это, между прочим, не очень полезно для кожи!"
+    "This, incidentally, is not very good for the skin!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:983
+translate english ep22_dialogue2_8_1_ec4aa01c:
+
+    # "Я занимаюсь домашними делами, обстирывая Вас, оболтусов!"
+    # "Что тебя, что Ральфа!"
+    "I do the housework, cleaning up your messes!"
+    "That you, that Ralph!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:986
+translate english ep22_dialogue2_8_1_6409828a:
+
+    # "Еще и готовлю для Вас еду!!!"
+    "I'm also cooking for you!!!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:988
+translate english ep22_dialogue2_8_1_608886a8:
+
+    # bardie "Поручи это гувернантке!"
+    # betty "Еще чего!"
+    # "Я и так с трудом терплю эту шлюху в моем доме!"
+    # "..."
+    bardie "Give it to the governess!"
+    betty "Don't even think!"
+    "I can barely stand that whore in my house!"
+    "..."
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:993
+translate english ep22_dialogue2_8_1_c0ef9d88:
+
+    # "Барди! Я согласилась принять на работу эту проститутку при условии что ты не будешь трепать мне нервы!"
+    # "Проваливай отсюда, пока я ни вышвырнула ее из дома!"
+    "Bardie! I agreed to hire this prostitute on the condition that you wouldn't get on my nerves!"
+    "Get out of here before I kick her out of the house!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:1000
+translate english ep22_dialogue2_8_1_281d7f18:
+
+    # bardie "Хорошо! Бетти!"
+    # "Я исчезаю!"
+    bardie "Good! Betty!"
+    "I'm disappearing!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:1009
+translate english ep22_dialogue2_8_2_b64906b4:
+
+    # betty "Ральф!!! Где ты?!?!"
+    betty "Ralph!!! Where are you?!?!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:1013
+translate english ep22_dialogue2_8_2_cb2bfc7d:
+
+    # betty "Ральф! Что ты здесь делаешь?!"
+    # "Твое место в гостиной!"
+    # "Почему я должна искать тебя?!"
+    # ralph "Бетти... Я..."
+    betty "Ralph! What are you doing here?!"
+    "Your place is in the living room!"
+    "Why should I look for you?!"
+    ralph "Betty... I am..."
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:1019
+translate english ep22_dialogue2_8_2_e39bb211:
+
+    # betty "Ну-ка быстро пошел есть!"
+    # "Ты хочешь испортить себе желудок?!"
+    betty "Come on, you're eating fast!"
+    "Do you want to spoil your stomach?!"
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:1022
+translate english ep22_dialogue2_8_2_b9dd673e:
+
+    # "Для кого я готовлю в этом доме?!"
+    "Who am I cooking for in this house?!"
+
+translate english strings:
+
+    # Quests/EP2_02/ep22_dialogues2.rpy:298
+    old "Дотронуться до члена Фреда."
+    new "Touch Fred's dick."
+
+    # Quests/EP2_02/ep22_dialogues2.rpy:330
+    old "Хорошо, я приду в прачечную в районе обеда."
+    new "Okay, I'll go to the laundry around lunch."
+
+    # Quests/EP2_02/ep22_dialogues2.rpy:330
+    old "Я не собираюсь делать этого!"
+    new "I'm not going to do that!"
+
+    # Quests/EP2_02/ep22_dialogues2.rpy:621
+    old "ТЕМ ВРЕМЕНЕМ..."
+    new "MEANWHILE..."
+
+    # Quests/EP2_02/ep22_dialogues2.rpy:681
+    old "Коснуться члена Фреда язычком..."
+    new "Touch Fred's cock with the tongue..."
+
+    # Quests/EP2_02/ep22_dialogues2.rpy:681
+    old "Нет времени на это..."
+    new "No time for this..."
+
+    # Quests/EP2_02/ep22_dialogues2.rpy:724
+    old "Сделай это быстро..."
+    new "Let's do it quickly..."
+
+    # Quests/EP2_02/ep22_dialogues2.rpy:724
+    old "Я ухожу..."
+    new "I'm leaving..."
+# TODO: Translation updated at 2019-01-14 02:05
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:154
+translate english ep22_dialogues2_1_2dc59ffb:
+
+    # fred "О! Мистер Робертс!"
+    # "Я профессионал!"
+    # "Мне доставляет эстетическое удовольствие то что я окружен другими профессионалами."
+    fred "Oh! Mr. Roberts!"
+    "I'm a professional!"
+    "I get aesthetic pleasure in being surrounded by the professionals."
+
+# game/Quests/EP2_02/ep22_dialogues2.rpy:281
+translate english ep22_dialogues2_1_47b3c708:
+
+    # fred "Мэм! Я вижу Вы недавно в столице."
+    # "У Вас ведь не было личного водителя до этого?"
+    # betty "Нет, не было..."
+    fred "MA'am! I see you have been in the capital for not long."
+    "You didn't have a personal driver before, did you?"
+    betty "No, never..."
 

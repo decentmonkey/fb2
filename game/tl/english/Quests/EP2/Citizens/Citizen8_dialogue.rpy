@@ -102,55 +102,55 @@ translate english citizen8_dialogue_12c78507:
     # citizen8 "Взять флаер? Хорошо... Но что я получу взамен?"
     # m "Вы получите флаер, разве этого мало?"
     # citizen8 "Для меня он бесполезен. Я бы хотел чтобы ты..."
-    # citizen8 "Показала язык." 
+    # citizen8 "Показала язык."
     # mt "Что за бред. Это только ради того, чтобы он взял флаер?! Что же делать..."
-    citizen8 "Взять флаер? Хорошо... Но что я получу взамен?"
-    m "Вы получите флаер, разве этого мало?"
-    citizen8 "Для меня он бесполезен. Я бы хотел чтобы ты..."
-    citizen8 "Показала язык." 
-    mt "Что за бред. Это только ради того, чтобы он взял флаер?! Что же делать..."
+    citizen8 "Take the flyer? Good... But what will I get in return?"
+    m "You'll get a flyer, isn't that enough?"
+    citizen8 "He's useless to me. I'd like you..."
+    citizen8 "Showed tongue"
+    mt "That kind of nonsense. Is it just for him to take the flyer?! What to do..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:30
 translate english citizen8_dialogue_18102b64:
 
     # m "Ну ладно."
     # mt "Скорее бы уже раздать эти флаеры..."
-    m "Ну ладно."
-    mt "Скорее бы уже раздать эти флаеры..."
+    m "All right."
+    mt "I'd rather hand out those flyers..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:34
 translate english citizen8_dialogue_a97cdc9c:
 
     # citizen8 "Миленько, ты отлично справилась."
-    citizen8 "Миленько, ты отлично справилась."
+    citizen8 "Nice, you did great."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:37
 translate english citizen8_dialogue_80baac2a:
 
     # m "Извращенец! Я не собираюсь выполнять твои извращенные просьбы!"
-    m "Извращенец! Я не собираюсь выполнять твои извращенные просьбы!"
+    m "Pervert! I'm not going to do your perverse requests!"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:50
 translate english citizen8_dialogue_65e0e316:
 
-    # m "А что бы вы хоотели?"
+    # m "А что бы вы хотели?"
     # citizen8 "Покажи мне свой язык."
     # m "Ну ладно."
-    m "А что бы вы хоотели?"
-    citizen8 "Покажи мне свой язык."
-    m "Ну ладно."
+    m "What would you like?"
+    citizen8 "Show me your tongue."
+    m "All right."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:54
 translate english citizen8_dialogue_0b59c195:
 
     # citizen8 "Чудесно, ты просто молодец! Вот, возьми это..."
-    citizen8 "Чудесно, ты просто молодец! Вот, возьми это..."
+    citizen8 "Wonderful, you're just great! Take this..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:69
 translate english citizen8_dialogue_pilon_c2c908e6:
 
     # m "Привет! Ты меня помнишь?"
-    m "Привет! Ты меня помнишь?"
+    m "Hi! You remember me?"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:71
 translate english citizen8_dialogue_pilon_d60b0719:
@@ -159,16 +159,16 @@ translate english citizen8_dialogue_pilon_d60b0719:
     # m "Я хочу предложить сделку: ты мне дашь денег. Взамен я разрешу тебе на меня посмотреть."
     # citizen8 "Звучит как честная сделка, но лучше совершить ее не здесь."
     # citizen8 "С чего бы нам начать..."
-    citizen8 "Конечно! Твой язычек сложно забыть!"
-    m "Я хочу предложить сделку: ты мне дашь денег. Взамен я разрешу тебе на меня посмотреть."
-    citizen8 "Звучит как честная сделка, но лучше совершить ее не здесь."
-    citizen8 "С чего бы нам начать..."
+    citizen8 "Of course! Your tongue is hard to forget!"
+    m "I want to make a deal, you give me the money. In return, I'll let you look at me."
+    citizen8 "Sounds like a fair deal, but it's better not here."
+    citizen8 "Where do we start from?..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:82
 translate english citizen8_dialogue_pilon_loop8_d117970c:
 
     # citizen8 "Покажи мне свои сиськи."
-    citizen8 "Покажи мне свои сиськи."
+    citizen8 "Show me your boobs."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:84
 translate english citizen8_dialogue_pilon_loop8_a7283d00:
@@ -177,22 +177,22 @@ translate english citizen8_dialogue_pilon_loop8_a7283d00:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 50 corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется 50 corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "50 corruption required"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:90
 translate english citizen8_dialogue_pilon_loop8_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "Я не собираюсь раздеваться, только так."
+    m "I'm not going to take off clothes, just like that."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:94
 translate english citizen8_dialogue_pilon_loop8_1_be60da89:
 
     # citizen8 "Хорошо, а теперь высунь язык!"
-    citizen8 "Хорошо, а теперь высунь язык!"
+    citizen8 "Okay, now stick out your tongue!"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:99
 translate english citizen8_dialogue_pilon_loop8_1_e363ea69:
@@ -200,9 +200,9 @@ translate english citizen8_dialogue_pilon_loop8_1_e363ea69:
     # mt "Уже достаточно, что он вот так глазеет на меня"
     # "Хватит с него и того, что он видит."
     # help "Требуется 60 corruption"
-    mt "Уже достаточно, что он вот так глазеет на меня"
-    "Хватит с него и того, что он видит."
-    help "Требуется 60 corruption"
+    mt "It's enough that he's staring at me like that."
+    "He's had enough of what he sees."
+    help "60 corruption required"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:103
 translate english citizen8_dialogue_pilon_loop8_1_745b11c5:
@@ -214,21 +214,21 @@ translate english citizen8_dialogue_pilon_loop8_1_745b11c5:
 translate english citizen8_dialogue_pilon_loop8_1_80e1b804:
 
     # citizen8 "Чудно, а ты молодец!"
-    citizen8 "Чудно, а ты молодец!"
+    citizen8 "Wonderful, well done"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:109
 translate english citizen8_dialogue_pilon_loop8_1_cb648ac7:
 
     # m "Не собираюсь, и так достаточно."
     # citizen8 "Ладно, но с этим цена сделки могла стать выше."
-    m "Не собираюсь, и так достаточно."
-    citizen8 "Ладно, но с этим цена сделки могла стать выше."
+    m "I'm not going to, that's enough."
+    citizen8 "Okay, but with that, the price of the deal could be higher."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:115
 translate english citizen8_dialogue_pilon_loop8_1_9d33af80:
 
     # citizen8 "Развернись и поверти задом."
-    citizen8 "Развернись и поверти задом."
+    citizen8 "Turn around and shake your ass."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:117
 translate english citizen8_dialogue_pilon_loop8_1_f7e05701:
@@ -237,66 +237,66 @@ translate english citizen8_dialogue_pilon_loop8_1_f7e05701:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 70 corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется 70 corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "Requires 70 corruption"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:123
 translate english citizen8_dialogue_pilon_loop8_1_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "Я не собираюсь раздеваться, только так."
+    m "I'm not going to take off clothes, just like that."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:127
 translate english citizen8_dialogue_pilon_loop8_1_427ea1b1:
 
     # citizen8 "Молодец, цена нашей сделки растет."
     # mt "И почему он говорит все об этой сделке. Я же вроде не продаю себя..."
-    citizen8 "Молодец, цена нашей сделки растет."
-    mt "И почему он говорит все об этой сделке. Я же вроде не продаю себя..."
+    citizen8 "Well done, the price of our deal is rising."
+    mt "And why he talks about this deal. I don't seem to be selling myself..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:130
 translate english citizen8_dialogue_pilon_loop8_1_57748123:
 
     # citizen8 "О да!"
-    citizen8 "О да!"
+    citizen8 "Yes!"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:136
 translate english citizen8_dialogue_pilon_loop8_1_e297089b:
 
     # citizen8 "Славно потрудилась. Вот, держи."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen8 "Славно потрудилась. Вот, держи."
-    m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen8 "You did a good job. Here you go."
+    m "What?! So little? Well, I'll be rich soon and get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:140
 translate english citizen8_dialogue_pilon_loop8_1_e297089b_1:
 
     # citizen8 "Славно потрудилась. Вот, держи."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen8 "Славно потрудилась. Вот, держи."
-    m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen8 "You did a good job. Here you go."
+    m "What?! So little? Well, I'll be rich soon and get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:145
 translate english citizen8_dialogue_pilon_loop8_1_c6ccc6e1:
 
     # citizen8 "Сделки нет, ты не выполнила свою часть."
-    citizen8 "Сделки нет, ты не выполнила свою часть."
+    citizen8 "No deal, you didn't do your part."
 
 translate english strings:
 
     # Quests/EP2/Citizens/Citizen8_dialogue.rpy:28
     old "Выполнить просьбу."
-    new ""
+    new "Fulfill the request."
 
     # Quests/EP2/Citizens/Citizen8_dialogue.rpy:28
     old "Ну уж нет, извращенец!"
-    new ""
+    new "Oh, no, you pervert!"
 
     # Quests/EP2/Citizens/Citizen8_dialogue.rpy:42
     old "А что бы Вы хотели?"
-    new ""
+    new "What would You like?"
 
     # Quests/EP2/Citizens/Citizen8_dialogue.rpy:96
     old "Хорошо."
@@ -304,7 +304,7 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen8_dialogue.rpy:96
     old "Ну уж нет!"
-    new ""
+    new "Oh, no!"
 
 # TODO: Translation updated at 2019-01-09 21:51
 
@@ -314,27 +314,27 @@ translate english citizen8_dialogue_06c0843f:
     # citizen8 "Взять флаер? Хорошо... Но что я получу взамен?"
     # m "Вы получите флаер, разве этого мало?"
     # citizen8 "Для меня он бесполезен. Я бы хотел чтобы ты..."
-    citizen8 "Взять флаер? Хорошо... Но что я получу взамен?"
-    m "Вы получите флаер, разве этого мало?"
-    citizen8 "Для меня он бесполезен. Я бы хотел чтобы ты..."
+    citizen8 "Take the flyer? Good... But what will I get in return?"
+    m "You'll get a flyer, isn't that enough?"
+    citizen8 "He's useless to me. I'd like you..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:29
 translate english citizen8_dialogue_e27d2938:
 
-    # citizen8 "Показала язык." 
-    citizen8 "Показала язык." 
+    # citizen8 "Показала язык."
+    citizen8 "Showed tongue"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:31
 translate english citizen8_dialogue_0c9c0671:
 
-    # citizen8 "шлепнула себя по попе. " 
-    citizen8 "шлепнула себя по попе. " 
+    # citizen8 "шлепнула себя по попе. "
+    citizen8 "Slapped her butt."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:33
 translate english citizen8_dialogue_f1424915:
 
     # mt "Что за бред. Это только ради того, чтобы он взял флаер?! Что же делать..."
-    mt "Что за бред. Это только ради того, чтобы он взял флаер?! Что же делать..."
+    mt "That kind of nonsense. Is it just for him to take the flyer?! What to do..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:95
 translate english citizen8_dialogue_pilon_loop8_e7678610:
@@ -343,10 +343,10 @@ translate english citizen8_dialogue_pilon_loop8_e7678610:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "Required [monicaWhoringClothBoobsCorruptionrequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:110
 translate english citizen8_dialogue_pilon_loop8_1_5ef83602:
@@ -354,9 +354,9 @@ translate english citizen8_dialogue_pilon_loop8_1_5ef83602:
     # mt "Уже достаточно, что он вот так глазеет на меня"
     # "Хватит с него и того, что он видит."
     # help "Требуется [monicaWhoringClothBoobsTongueCorruptionRequired] corruption"
-    mt "Уже достаточно, что он вот так глазеет на меня"
-    "Хватит с него и того, что он видит."
-    help "Требуется [monicaWhoringClothBoobsTongueCorruptionRequired] corruption"
+    mt "It's enough that he's staring at me like that."
+    "He's had enough of what he sees."
+    help "Required [monicaWhoringClothBoobsTongueCorruptionrequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:128
 translate english citizen8_dialogue_pilon_loop8_1_299ae0b0:
@@ -365,10 +365,10 @@ translate english citizen8_dialogue_pilon_loop8_1_299ae0b0:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "Required [monicaWhoringClothAssCorruptionRequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:147
 translate english citizen8_dialogue_pilon_loop8_1_4b2baa6c:
@@ -376,9 +376,9 @@ translate english citizen8_dialogue_pilon_loop8_1_4b2baa6c:
     # citizen8 "Славно потрудилась. Вот, держи."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen8 "Славно потрудилась. Вот, держи."
-    m "Что?! Так мало? Мог бы дать и больше!"
-    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen8 "You did a good job. Here you go."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:152
 translate english citizen8_dialogue_pilon_loop8_1_4b2baa6c_1:
@@ -386,7 +386,18 @@ translate english citizen8_dialogue_pilon_loop8_1_4b2baa6c_1:
     # citizen8 "Славно потрудилась. Вот, держи."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen8 "Славно потрудилась. Вот, держи."
-    m "Что?! Так мало? Мог бы дать и больше!"
-    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen8 "You did a good job. Here you go."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+# TODO: Translation updated at 2019-01-14 02:05
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:61
+translate english citizen8_dialogue_74088cf7:
+
+    # m "А что бы вы хотели?"
+    # citizen8 "Покажи мне свой язык."
+    # m "Ну ладно."
+    m "What would you like?"
+    citizen8 "Show me your tongue."
+    m "All right."
 

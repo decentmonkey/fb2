@@ -142,7 +142,7 @@ translate english ep22_dialogues5_2_409a1d2f:
     # mt "Сучка!!!"
     # "Она издевается надо мной!"
     mt "Bitch!"
-    "She's fucking kidin me!"
+    "She's fucking kidding me!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:188
 translate english ep22_dialogues5_2_19f69c24:
@@ -238,7 +238,7 @@ translate english ep22_dialogues5_2_06023181:
 translate english ep22_dialogues5_2_6246afc5:
 
     # dick_secretary "Ну же! Смелее!"
-    # dick_secretary "Вы просите меня о помощи не хотите улыбнуться мне?"
+    # dick_secretary "Вы просите меня о помощи и даже не хотите улыбнуться мне?"
     dick_secretary "Come on! Bolder!"
     dick_secretary "You're asking me for help, do you want to smile for me, don't you?"
 
@@ -547,7 +547,7 @@ translate english ep22_dialogues5_4_29ede23b:
     "MONICA!!!"
     "I'm sick of your constant lies!"
     "I know you're not on time on Friday!"
-    "I was here and Victoria and I left together!"
+    "I was here, and Victoria and I left together!"
     "I'm sick of you trying to blame Victoria all the time!"
     "This is a virgin creature!"
     "She doesn't deserve to be treated like that by you!"
@@ -686,7 +686,7 @@ translate english ep22_dialogues5_4_d94c8685:
 translate english ep22_dialogues5_4_c55b6fed:
 
     # dick2 "Я сказал быстро оденься и не смущай Викторию своим видом!!!"
-    dick2 "I said get dressed quickly and don't embarrass Victoria with your look!!!"
+    dick2 "I said to get dressed quickly and don't embarrass Victoria with your look!!!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:515
 translate english ep22_dialogues5_4_1e48df60:
@@ -984,7 +984,7 @@ translate english ep22_dialogues5_7_679ccd60:
 translate english ep22_dialogues5_7_0f4560a6:
 
     # mt "У меня нет выбора и нет времени искать другие варианты..."
-    # "Похоже единственный путь к спасению - поцеловать каблук это сучки Виктории..."
+    # "Похоже единственный путь к спасению - поцеловать каблук этой сучки Виктории..."
     mt "I have no choice and no time to look for other options..."
     "Looks like the only way to save myself is to kiss the heel of that bitch Victoria..."
 
@@ -1034,7 +1034,7 @@ translate english ep22_dialogues5_7_303e863c:
     # dick_secretary "Но это было бы хорошим шагом в начале нашей дружбы..."
     dick_secretary "You don't have to do this..."
     dick_secretary "I'll accept your forgiveness anyway..."
-    dick_secretary "But it would be a good step in the beginning of our friendship..."
+    dick_secretary "But it would be a good step at the beginning of our friendship..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:774
 translate english ep22_dialogues5_7_a2521aaf:
@@ -1115,8 +1115,8 @@ translate english ep22_dialogues5_7_8999b5e0:
     # "Не увлекайтесь..."
     # "Вы вылизали свое прощение..."
     # "Хи-хи-хи"
-    dick_secretary "Enough, Mrs Buckfett!"
-    "Don't get carried away.."
+    dick_secretary "Enough, Mrs. Buckfett!"
+    "Don't get carried away..."
     "You have licked your forgiveness..."
     "Hee-hee-hee"
 
@@ -1250,7 +1250,7 @@ translate english ep22_dialogues5_7_665963bb:
     # "Для меня довольно сложно снова возобновить это дело..."
     dick "Victoria, honey..."
     "Are you sure about that?"
-    "For me it is quite difficult again to resume the case..."
+    "For me, it is quite difficult again to resume the case..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:889
 translate english ep22_dialogues5_7_38e7391c:
@@ -1260,7 +1260,7 @@ translate english ep22_dialogues5_7_38e7391c:
     # "Я не могу позволить Миссис Бакфетт страдать..."
     dick_secretary "Mr. Dick..."
     "You know my heart is small but very kind..."
-    "I can't let Mrs. Buckfett to suffer..."
+    "I can't let Mrs. Buckfett suffer..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:893
 translate english ep22_dialogues5_7_0f81ca10:
@@ -1352,7 +1352,7 @@ translate english ep22_dialogues5_7_c338fadd:
     # policeman2 "Мистер Дик, мы здесь с целью задержать эту преступницу..."
     # policeman1 "Но нам только что сделали звонок и отменили задержание..."
     policeman2 "Mr. Dick, we're here to arrest this criminal..."
-    policeman1 "But we just got a call and the arrest was canceled..."
+    policeman1 "But we just got a call, and the arrest was canceled..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:942
 translate english ep22_dialogues5_7_37a126ca:
@@ -1400,13 +1400,13 @@ translate english ep22_dialogues5_7_ef070c5f:
 translate english ep22_dialogues5_7_f22a58f7:
 
     # dick "Мальчики, хорошего дня Вам!"
-    dick "Boys, have a nice day."
+    dick "Boys have a nice day."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:964
 translate english ep22_dialogues5_7_ac6b08f6:
 
     # policeman1 "Да, Мистер Дик! До свидания!"
-    policeman1 "Yes, Mr. Dick! Good bye!"
+    policeman1 "Yes, Mr. Dick! Goodbye!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:969
 translate english ep22_dialogues5_7_29c5981c:
@@ -1415,7 +1415,7 @@ translate english ep22_dialogues5_7_29c5981c:
     # "Мистер Дик..."
     # "Спасибо Вам..."
     # "Я... Я пошла..."
-    m "Mmm... Mmmm.."
+    m "Mmm... Mmmm..."
     "Mr. Dick..."
     "Thank you..."
     "I am... I went..."
@@ -1524,7 +1524,7 @@ translate english ep22_dialogues5_9_b2031c90:
     # m "Ддда... Мне нравится эта сумочка, Мисс Виктория..."
     # "У Вас хороший вкус..."
     m "Yep... I like this handbag, Miss Victoria..."
-    "You have a good taste..."
+    "You have good taste..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1044
 translate english ep22_dialogues5_9_d559d803:
@@ -1533,8 +1533,8 @@ translate english ep22_dialogues5_9_d559d803:
     # "У Вас тоже есть вкус, возможно я даже посоветуюсь с Вами."
     # "Миссис Бакфетт, вы же дадите совет мне?"
     dick_secretary "I'm thinking of buying something else next Friday when you bring money."
-    "You have taste too, maybe I'll even consult you."
-    "Mrs. Buckfett, will you advice me something?"
+    "You have a taste too, maybe I'll even consult you."
+    "Mrs. Buckfett, will you advise me something?"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1048
 translate english ep22_dialogues5_9_846c7379:
@@ -1621,8 +1621,8 @@ translate english ep22_dialogues5_12_35997325:
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1097
 translate english ep22_dialogues5_12_c693c2fc:
 
-    # dick_secretary "Лижите прощения, Миссис Бакфетт!"
-    dick_secretary "Lick it, Mrs. Buckfett!"
+    # dick_secretary "Лижите прощение, Миссис Бакфетт!"
+    dick_secretary "Lick your forgiveness, Mrs. Buckfett!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1099
 translate english ep22_dialogues5_12_ea3a9c59:
@@ -1818,7 +1818,7 @@ translate english ep22_dialogues5_13_7ea49bc6:
 translate english ep22_dialogues5_14_6db92207:
 
     # dick "Виктория, детка моя!"
-    # "Можно я потрогяю твою попу?"
+    # "Можно я потрогаю твою попу?"
     dick "Victoria, baby!"
     "Can I touch your butt?"
 
@@ -2056,11 +2056,11 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues5.rpy:254
     old "Улыбнуться искренней улыбкой..."
-    new "Smile with sincere smile..."
+    new "Smile with the sincere smile..."
 
     # Quests/EP2_02/ep22_dialogues5.rpy:269
     old "Это провокация. Лучше ответить что ее грудь лучше."
-    new "This is provocation. Better say her breasts are better."
+    new "This is a provocation. Better say her breasts are better."
 
     # Quests/EP2_02/ep22_dialogues5.rpy:441
     old "Послать Дика к черту."
@@ -2165,21 +2165,352 @@ translate english ep22_dialogues5_9a_530d7415:
     # "Может быть поговорить с Мелани?"
     # "Я уверена что Дик не сможет устоять перед ней..."
     # "Только я не представляю что потребуется чтобы уговорить ее помочь мне..."
-    mt "БОЖЕ!!! ЧТО Я ПЕРЕЖИЛА?!"
-    "Я прошла через столько всего, чтобы эта Виктория купила себе новую сумочку!"
-    "А Дик, вместо того чтобы защищать меня, пошел на поводу у Виктории..."
-    "Которая заставила меня делать какие-то немыслимые вещи!"
-    "Но это оказалось лучшим вариантом, учитывая ЧТО меня ждет у Маркуса!"
-    "И теперь мне надо приносить {c}$ 5000 каждую неделю{/c} этой гребаной сучке!"
-    "Откуда я буду их брать?!"
-    "У меня нет ни дома, ни документов, ни денег!"
-    "Надо как-то воздействовать на Дика..."
-    "У него единственное слабое место - это женщины."
-    "НО У МЕНЯ НЕ ПОЛУЧАЕТСЯ!!!"
-    "ХОТЯ Я САМАЯ КРАСИВАЯ ИЗ ВСЕХ ЖЕНЩИН ВОКРУГ!!!"
-    "Наверное я слишком добрая..."
+    mt "GOD!!! WHAT HAVE I BEEN THROUGH?!"
+    "I've been through so much to get this Victoria to buy herself a new purse!"
+    "Dick, instead of protecting me, he went after Victoria..."
+    "Which made me do some unthinkable things!"
+    "But it turned out to be the best option, given that I was waiting for Marcus!"
+    "And now I have to bring {c} $ 5000 every week {/c} to that fucking bitch!"
+    "Where will I get them from?!"
+    "I have no house, no papers, no money!"
+    "We need to do something about Dick..."
+    "His only weakness is women."
+    "BUT I CAN'T!!!"
+    "ALTHOUGH I AM THE MOST BEAUTIFUL OF ALL WOMEN AROUND!!!"
+    "I guess I'm too kind..."
     "..."
-    "Может быть поговорить с Мелани?"
-    "Я уверена что Дик не сможет устоять перед ней..."
-    "Только я не представляю что потребуется чтобы уговорить ее помочь мне..."
+    "Maybe talk to Melanie?"
+    "I'm sure Dick can't resist her..."
+    "I just can't imagine what it would take to get her to help me..."
+
+# TODO: Translation updated at 2019-01-14 00:27
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:124
+translate english ep22_dialogues5_0a_5932acdd:
+
+    # mt "Мне надо скорее {c}бежать к Дику!{/c}"
+    mt "I should rather {c}run to Dick!{/c}"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:127
+translate english ep22_dialogues5_0b_5932acdd:
+
+    # mt "Мне надо скорее {c}бежать к Дику!{/c}"
+    mt "I should rather {c}run to Dick!{/c}"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:166
+translate english ep22_dialogues5_2_3a077eb2:
+
+    # dick_secretary "Я решила задержаться для того чтобы при Вас нажать на Enter для посылки факса."
+    # dick_secretary "Замечательно что Вы пришли, я отправляю его..."
+    # m "НЕТ!!!"
+    # m "Мисс Виктория! Пожалуйста!"
+    # "Я прошу Вас! Не посылайте этот факс!"
+    dick_secretary "I decided to stay in order for you to press Enter to send a Fax."
+    dick_secretary "It's great that you came, I'm sending it..."
+    m "NO!!!"
+    m "Miss Victoria! Please!"
+    "I beg you! Don't send that Fax!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:596
+translate english ep22_dialogues5_4_7e0e2cd3:
+
+    # mt "СУЧКА!!!"
+    mt "BITCH!!!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:733
+translate english ep22_dialogues5_6a_ff852736:
+
+    # "МНЕ НАДО БЕЖАТЬ НАЗАД!!!"
+    "I HAVE TO GO BACK!!!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:793
+translate english ep22_dialogues5_7_0da4e837:
+
+    # "Я готова Вас простить, если Вы будете {c}приносить мне $ 5000 каждую пятницу{/c}."
+    # "Я люблю шоппинг, наверное Вы, как женщина, меня понимаете..."
+    "I'm ready to forgive you if you {c}bring me $ 5000 every Friday{/c}."
+    "I love shopping, you must understand me as a woman..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:940
+translate english ep22_dialogues5_7_f89b40a5:
+
+    # m "Я считаю что то что я поцеловала Ваш каблук - достаточно для начала нашей дружбы, Мисс Виктория..."
+    m "I believe that the fact that I kissed your heel is enough to start our friendship, Miss Victoria..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:942
+translate english ep22_dialogues5_7_ca0847f1:
+
+    # dick_secretary "Хи-хи-хи..."
+    dick_secretary "Hee hee hee..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:991
+translate english ep22_dialogues5_7_cc6242d7:
+
+    # dick_secretary "Достаточно, Миссис Бакфетт!"
+    # "Не увлекайтесь..."
+    # "Вы вылизали свое прощение..."
+    dick_secretary "Enough, Mrs. Buckfett!"
+    "Don't get carried away..."
+    "You have licked your forgiveness..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:995
+translate english ep22_dialogues5_7_3463467b:
+
+    # "Хи-хи-хи"
+    "Hee-hee-hee"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1219
+translate english ep22_dialogues5_8a_5a35e64f:
+
+    # dick_secretary "Миссис Бакфетт!"
+    dick_secretary "Mrs. Buckfett!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1227
+translate english ep22_dialogues5_8b_7019b42d:
+
+    # mt "Эта сучка много на себя берет!"
+    mt "This bitch takes a lot on!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1229
+translate english ep22_dialogues5_8b_1f8599a5:
+
+    # mt "Она много на себя берет!"
+    mt "She takes on a lot!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1230
+translate english ep22_dialogues5_8b_34c87598:
+
+    # "Я даже не подозревала насколько она опасна..."
+    "I had no idea how dangerous she was..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1286
+translate english ep22_dialogues5_9_947818a6:
+
+    # philip "Спасибо, Моника Бакфетт!"
+    philip "Thank you, Monica Buckfett!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1288
+translate english ep22_dialogues5_9_a551ad0c:
+
+    # philip "Вы заработали свои $ 500!"
+    philip "You've earned your $ 500!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1291
+translate english ep22_dialogues5_9_a5a29da3:
+
+    # m "Мне нужно еще $ 500!"
+    # "Пожалуйста! Прошу Вас!!!"
+    m "I need another $ 500!"
+    "Please! I beg You!!!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1295
+translate english ep22_dialogues5_9_9aae6c78:
+
+    # philip "Это не аргумент, Миссис Бакфетт!"
+    # "Что Вы можете предложить взамен?"
+    philip "This is not an argument, Mrs. Buckfett!"
+    "What can you offer in return?"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1329
+translate english ep22_dialogues5_9_329034b5:
+
+    # m "..."
+    # m "Виктория..."
+    # dick_secretary "Мисс Виктория!!!"
+    # m "Мисс Виктория, скажите. Если у меня не будет наличных, то как мне доставить Вам эти деньги?"
+    m "..."
+    m "Victoria..."
+    dick_secretary "Miss Victoria!!!"
+    m "Miss Victoria, tell me. If I don't have cash, how do I get the money to You?"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1334
+translate english ep22_dialogues5_9_a698195d:
+
+    # dick_secretary "Нет проблем, Миссис Бакфетт!"
+    # "Просто купите в интернете сертификат на это имя и адрес email..."
+    dick_secretary "No problem, Mrs. Buckfett!"
+    "Just buy a certificate on the Internet using this name and email address ..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1542
+translate english ep22_dialogues5_13a_4ffd1e69:
+
+    # mt "$ 5000 каждую неделю!"
+    # "Сучка!!!"
+    mt "$ 5,000 every week!"
+    "Bitch!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1582
+translate english ep22_dialogues5_14_51145218:
+
+    # dick2 "ЧТО?!?!"
+    # "ОПЯТЬ ОНА ЗА СВОЕ?!?!"
+    dick2 "What?!?!"
+    "HERE SHE GOES AGAIN?!?!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1585
+translate english ep22_dialogues5_14_90729561:
+
+    # dick_secretary "Нет, Мистер Дик..."
+    # "Она все поняла и теперь ведет себя как подруга."
+    # "Но она по дружески обратилась ко мне с просьбой помочь ей деньгами."
+    dick_secretary "No, Mr. Dick..."
+    "She got the message and now behaves like a friend."
+    "But she was friendly and asked me to help her with money."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1633
+translate english ep22_dialogues5_14_020c0302:
+
+    # dick_secretary "Да, Мистер Дик!"
+    # "Миссис Бакфетт сразу захотела меня как только мы познакомились в первый раз!"
+    dick_secretary "Yes, Mr. Dick!"
+    "Mrs. Buckfettt immediately wanted as soon as we met for the first time!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1636
+translate english ep22_dialogues5_14_83544eec:
+
+    # "Сначала показывала мне свою грудь..."
+    # "Затем пыталась подражать мне перед Вами..."
+    "She showed me her breasts first..."
+    "Then she tried to imitate me in front of you..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1657
+translate english ep22_dialogues5_14_b2d9f57c:
+
+    # dick_secretary "Эта Миссис Бакфетт..."
+    # "Я не хотела, Мистер Дик!"
+    # "Но она... Она сама... Буквально силой..."
+    # "Простите!!!"
+    dick_secretary "That Mrs. Buckfett..."
+    "I didn't mean to, Mr. Dick!"
+    "But she... She did... Literally by force..."
+    "Sorry!!!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1662
+translate english ep22_dialogues5_14_c8317083:
+
+    # dick "О, Малышка! Я знаю эту Бакфетт!"
+    # "Она всегда добивается своего!"
+    # "Куда уж тебе, бедной девочке, справиться с ней!"
+    dick "Oh, Baby! I know Buckfett!"
+    "She always gets her way!"
+    "How can you, poor girl, deal with it!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1666
+translate english ep22_dialogues5_14_cc83bc9f:
+
+    # dick_secretary "Да, Мистер Дик!"
+    # "Обещайте что будете защищать меня!"
+    # dick "Я буду защищать тебя, Виктория!"
+    dick_secretary "Yes, Mr. Dick!"
+    "Promise me you'll protect me!"
+    dick "I'll protect you, Victoria!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1671
+translate english ep22_dialogues5_14_7e969477:
+
+    # dick "..."
+    # dick "Значит мне придется быть вторым?"
+    # dick_secretary "Если Вы не брезгуете ласкать меня после лица Миссис Бакфетт..."
+    # dick "Моника весьма чистоплотна..."
+    # dick_secretary "Хорошо, Мистер Дик. Как скажете..."
+    dick "..."
+    dick "So I have to be second?"
+    dick_secretary "If You do not disdain to caress me after the face of Mrs. Buckfett..."
+    dick "Monica's very clean..."
+    dick_secretary "Okay, Mr. Dick. As you say..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1691
+translate english ep22_dialogues5_14_5bbd2fce:
+
+    # dick "Ммммммм"
+    dick "Mmmmmm."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1696
+translate english ep22_dialogues5_14_5971763f:
+
+    # dick "Мммммм... ням"
+    dick "Mmmmm... but"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1710
+translate english ep22_dialogues5_14_5c736847:
+
+    # "Виктория, ты божество!"
+    "Victoria, you're a God!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1719
+translate english ep22_dialogues5_14_6d716afe:
+
+    # dick_secretary "Мистер Дик, у меня вкусная попка?"
+    # dick "У тебя самая вкусная попка на свете!"
+    dick_secretary "Mr. Dick, do I have a tasty ass?"
+    dick "You have the most delicious ass in the world!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1742
+translate english ep22_dialogues5_14_d3076610:
+
+    # dick_secretary "Как Вы думаете, она нравится Миссис Бакфетт?"
+    # dick "О! Виктория! Я думаю она без ума от нее!"
+    dick_secretary "Do you think Mrs. Buckfett likes mine ass?"
+    dick "Oh! Victoria! I think she is crazy about it!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1745
+translate english ep22_dialogues5_14_f559f401:
+
+    # dick_secretary "Как Вы думаете, она понравится Миссис Бакфетт?"
+    # dick "О! Виктория! Я думаю она будет без ума от нее!"
+    dick_secretary "Do You think Mrs. Buckfett will like it?"
+    dick "Oh! Victoria! I think she'll be crazy about it!"
+
+translate english strings:
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:251
+    old "У меня нет выбора... (low corruption, required [monicaVictoriaShowBoobsToCameraCorruptionRequired]) (disabled)"
+    new "I have no choice... (low corruption, required [monicaVictoriaShowBoobsToCameraCorruptionRequired]) (disabled)"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:251
+    old "У меня нет выбора... (corruption)"
+    new "I have no choice... (corruption)"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:529
+    old "Попробовать соблазнить Дика как это делает Виктория (low corruption, required [monicaDickSeduceAsVictoriaByAssCorruptionRequired]) (disabled)"
+    new "Try to seduce Dick like Victoria does. (low corruption, required [monicaDickSeduceAsVictoriaByAssCorruptionRequired]) (disabled)"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:937
+    old "Лизнуть зад Виктории... (low corruption, required [monicaVictoriaLickAssBeginCorruptionRequired]) (disabled)"
+    new "Lick Victoria's ass... (low corruption, required [monicaVictoriaLickAssBeginCorruptionRequired]) (disabled)"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:1116
+    old "5 минут спустя..."
+    new "5 minutes later..."
+# TODO: Translation updated at 2019-01-14 02:05
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:282
+translate english ep22_dialogues5_2_d12f24bd:
+
+    # dick_secretary "Ну же! Смелее!"
+    # dick_secretary "Вы просите меня о помощи и даже не хотите улыбнуться мне?"
+    dick_secretary "Come on! Bolder!"
+    dick_secretary "You're asking me for help, do you want to smile for me, don't you?"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:871
+translate english ep22_dialogues5_7_fb6bfa58:
+
+    # mt "У меня нет выбора и нет времени искать другие варианты..."
+    # "Похоже единственный путь к спасению - поцеловать каблук этой сучки Виктории..."
+    mt "I have no choice and no time to look for other options..."
+    "Looks like the only way to save myself is to kiss the heel of that bitch Victoria..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1408
+translate english ep22_dialogues5_12_643654e6:
+
+    # dick_secretary "Лижите прощение, Миссис Бакфетт!"
+    dick_secretary "Lick your forgiveness, Mrs. Buckfett!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1562
+translate english ep22_dialogues5_14_81462817:
+
+    # dick "Виктория, детка моя!"
+    # "Можно я потрогаю твою попу?"
+    dick "Victoria, baby!"
+    "Can I touch your butt?"
 

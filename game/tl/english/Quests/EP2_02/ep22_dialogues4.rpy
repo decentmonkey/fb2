@@ -68,7 +68,7 @@ translate english ep22_dialogues4_1_a52a7494:
     # "В конце концов, ты прислуга и это стоит подчеркивать!"
     m "Mrs. Roberts, I can go in my uniform, if you'll excuse me..."
     betty "Okay, you can go in your uniform."
-    "After all, you're a servant and it's worth emphasizing!"
+    "After all, you're a servant, and it's worth emphasizing!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:60
 translate english ep22_dialogues4_1_0a5616b8_1:
@@ -127,8 +127,8 @@ translate english ep22_dialogues4_3_1d074eaa:
     # "Ты заставляешь краснеть меня!"
     # mt "Эта сучка что, флиртует с ним?!"
     mt "Fuck! This instructor!"
-    "I need to turn around so he doesn't recognize me!"
-    fitness_instructor "Good afternoon, Mrs Roberts!"
+    "I need to turn around, so he doesn't recognize me!"
+    fitness_instructor "Good afternoon, Mrs. Roberts!"
     "You look lovely today."
     betty "Oh, thanks!"
     "You're making me blush!"
@@ -158,7 +158,7 @@ translate english ep22_dialogues4_5_4c013db3:
 translate english ep22_dialogues4_5a_fdee4e3e:
 
     # betty "Гуверантка! Где моя сумка с униформой?"
-    betty "Goverance! Where's my uniform bag?"
+    betty "Governess! Where's my uniform bag?"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:144
 translate english ep22_dialogues4_5a_7dc6e6eb:
@@ -222,7 +222,7 @@ translate english ep22_dialogues4_5a_e8ecb4eb:
 translate english ep22_dialogues4_5a_b5c985b9:
 
     # "У нас был девичник и мы не смогли дозвониться до тебя!"
-    "We had a bachelorette party and we couldn't reach you!"
+    "We had a bachelorette party, and we couldn't reach you!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:186
 translate english ep22_dialogues4_5a_b08e5211:
@@ -281,7 +281,7 @@ translate english ep22_dialogues4_5a_bb32007c:
     # "Скоро все будет закончено и я окажусь на первых полосах всех газет!"
     # "Вот увидите!"
     "It's a secret operation, Dick put me up to it!"
-    "Soon everything will be over and I will be on the front pages of all the newspapers!"
+    "Soon everything will be over, and I will be on the front pages of all the newspapers!"
     "You'll see!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:211
@@ -294,7 +294,7 @@ translate english ep22_dialogues4_5a_c83bf902:
 translate english ep22_dialogues4_5a_e8dc3e9a:
 
     # "Ее муж крупный мафиози и мы выведем его на чистую воду!"
-    "Her husband is a major mobster and we will depersonalize him!"
+    "Her husband is a major mobster, and we will depersonalize him!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:215
 translate english ep22_dialogues4_5a_bffae8fe:
@@ -312,7 +312,7 @@ translate english ep22_dialogues4_5a_561c598c:
     # "Но зачем позволять так общаться с собой, как делает эта провинциальная дура!"
     stephanie "Yes, Monica!"
     "I assume that You are playing in some strange games with Dick."
-    "But why do you let her to talk yourself like provincial fool does!"
+    "But why do you let her talk yourself like a provincial fool does!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:222
 translate english ep22_dialogues4_5a_cca4f080:
@@ -594,7 +594,7 @@ translate english ep22_dialogues4_7_ec2df5c9:
 translate english ep22_dialogues4_8_fdee4e3e:
 
     # betty "Гуверантка! Где моя сумка с униформой?"
-    betty "Goverance! Where's my uniform bag?"
+    betty "Governess! Where's my uniform bag?"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:392
 translate english ep22_dialogues4_8_7dc6e6eb:
@@ -705,4 +705,318 @@ translate english ep22_dialogues4_8_08bcecaf:
 
     # mt "СУЧКИ!!!"
     mt "BITCHES!!!"
+
+# TODO: Translation updated at 2019-01-14 00:27
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:28
+translate english ep22_dialogues4_1b_0c077cbd:
+
+    # mt "Бетти говорила что сегодня день поездки в фитнесс-зал."
+    # mt "Но мне надо сначала закончить уборку..."
+    mt "Betty said that today is the day of going to the fitness gym."
+    mt "But I need to finish cleaning first..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:90
+translate english ep22_dialogues4_1_f08085f8:
+
+    # betty "Я собираюсь поехать на фитнесс на днях. Если ты хочешь, я смогу взять тебя с собой."
+    # betty "Он {c}по вторникам и четвергам{/c}"
+    # betty "Напомни мне."
+    betty "I'm going to fitness the other day. If you want, I can take you with me."
+    betty "It {c}on Tuesdays and Thursdays{/c}"
+    betty "Remind me."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:102
+translate english ep22_dialogues4_1a_b6d755be:
+
+    # mt "О БОЖЕ!!!"
+    # "Это же фитнесс-зал куда я ходила!!!"
+    # "Мне нельзя туда в таком виде!!!"
+    # betty "Моника, гувернантка, почему ты отстаешь от меня?"
+    # "Поторопись! За мной!"
+    mt "Oh my God!!!"
+    "This is the gym I went to!!!"
+    "I can't go there in clothes like this!!!"
+    betty "Monica, the governess, why are you falling behind me?"
+    "Hurry up! Follow me!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:111
+translate english ep22_dialogues4_2_22d87923:
+
+    # betty "Моника, гувернантка, почему ты отстаешь от меня?"
+    # "Поторопись! За мной!"
+    betty "Monica, the governess, why are you falling behind me?"
+    "Hurry up! Follow me!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:116
+translate english ep22_dialogues4_2a_22d87923:
+
+    # betty "Моника, гувернантка, почему ты отстаешь от меня?"
+    # "Поторопись! За мной!"
+    betty "Monica, the governess, why are you falling behind me?"
+    "Hurry up! Follow me!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:121
+translate english ep22_dialogues4_3a_94e862b9:
+
+    # mt "Черт! Этот инструктор!"
+    # "Мне надо как-то повернуться, чтобы он не узнал меня!"
+    mt "Fuck! This instructor!"
+    "I need to turn around, so he doesn't recognize me!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:127
+translate english ep22_dialogues4_3_94e862b9:
+
+    # mt "Черт! Этот инструктор!"
+    # "Мне надо как-то повернуться, чтобы он не узнал меня!"
+    mt "Fuck! This instructor!"
+    "I need to turn around, so he doesn't recognize me!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:131
+translate english ep22_dialogues4_3_2ff0ccb4:
+
+    # fitness_instructor "Добрый день, Миссис Робертс!"
+    # "Вы сегодня выглядите очаровательно."
+    # betty "Ой, спасибо!"
+    # "Ты заставляешь краснеть меня!"
+    # mt "Эта сучка что, флиртует с ним?!"
+    fitness_instructor "Good afternoon, Mrs. Roberts!"
+    "You look lovely today."
+    betty "Oh, thanks!"
+    "You're making me blush!"
+    mt "Is that bitch flirting with him?!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:390
+translate english ep22_dialogues4_6_loop1_c57af425:
+
+    # fitness_instructor "Стефани, давай я помогу тебе..."
+    fitness_instructor "Stephanie, let me help you..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:395
+translate english ep22_dialogues4_6_loop1_e3c50ba4:
+
+    # stephanie "Муррр..."
+    # stephanie "Мой тигр хочет помочь мне?..."
+    stephanie "Mrrrr..."
+    stephanie "My tiger wants to help me?..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:398
+translate english ep22_dialogues4_6_loop1_a1f472c1:
+
+    # fitness_instructor "Стефани, твой тигр всегда готов придти на помощь!"
+    fitness_instructor "Stephanie, your tiger is always ready to help!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:401
+translate english ep22_dialogues4_6_loop1_ea730c87:
+
+    # stephanie "Муррр..."
+    stephanie "Mrrrr..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:414
+translate english ep22_dialogues4_6_loop1_640085d9:
+
+    # stephanie "Я предпочитаю помощь от кого-то более сообразительного чем ты..."
+    # fitness_instructor "Стефани, что я могу сделать?"
+    stephanie "I prefer help from someone more savvy than you..."
+    fitness_instructor "Stephanie, what can I do?"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:418
+translate english ep22_dialogues4_6_loop1_3e3981ae:
+
+    # stephanie "Продолжай быть настойчивым..."
+    # "Хи-хи..."
+    stephanie "Keep pushing..."
+    "Hee-hee..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:471
+translate english ep22_dialogues4_6_loop2_fa966bab:
+
+    # fitness_instructor "Ребекка, давай я помогу тебе..."
+    fitness_instructor "Rebecca, let me help you..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:473
+translate english ep22_dialogues4_6_loop2_341d01c3:
+
+    # rebecca "Спасибо, не надо..."
+    rebecca "No thanks..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:534
+translate english ep22_dialogues4_6_loop3_af78cd21:
+
+    # fitness_instructor "Бетти, давай я помогу тебе..."
+    # betty "Конечно!"
+    # "С удовольствием!"
+    fitness_instructor "Betty, let me help you..."
+    betty "Certainly!"
+    "With pleasure!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:539
+translate english ep22_dialogues4_6_loop3_120168c2:
+
+    # fitness_instructor "Сосредоточься на себе..."
+    fitness_instructor "Focus on yourself..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:541
+translate english ep22_dialogues4_6_loop3_3e46ee9f:
+
+    # betty "Хорошо..."
+    betty "Good..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:543
+translate english ep22_dialogues4_6_loop3_bc9847de:
+
+    # fitness_instructor "Давай попробуем еще одно упражнение..."
+    # betty "Хорошо..."
+    fitness_instructor "Let's try another exercise..."
+    betty "Good..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:550
+translate english ep22_dialogues4_6_loop3_64188de3:
+
+    # betty "Ой! Мне больно!"
+    betty "Ow! You're hurting me!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:552
+translate english ep22_dialogues4_6_loop3_1f842f5e:
+
+    # fitness_instructor "Надо немножечко потерпеть..."
+    # betty "У меня не получается..."
+    fitness_instructor "It takes a little patience..."
+    betty "I can't do it..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:555
+translate english ep22_dialogues4_6_loop3_ff5c6891:
+
+    # fitness_instructor "Бетти, ты прекрасна!"
+    # "У тебя все получится!"
+    fitness_instructor "Betty, you're beautiful!"
+    "You will succeed!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:558
+translate english ep22_dialogues4_6_loop3_75cec871:
+
+    # betty "Правда?"
+    betty "Really?"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:560
+translate english ep22_dialogues4_6_loop3_7bf9017b:
+
+    # fitness_instructor "Хочешь остаться на частный урок?"
+    fitness_instructor "Would you like to stay for a private lesson?"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:562
+translate english ep22_dialogues4_6_loop3_c4ac4f6b:
+
+    # "У меня есть методики, которые дадут потрясающе быстрый результат..."
+    "I have techniques that will give a stunningly fast result..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:564
+translate english ep22_dialogues4_6_loop3_0f060c74:
+
+    # betty "Хочу..."
+    betty "I want..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:568
+translate english ep22_dialogues4_6_loop3_5bddb0cf:
+
+    # stephanie "Эй! Прошу прощения!"
+    stephanie "Hey! Excuse me!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:570
+translate english ep22_dialogues4_6_loop3_5cf28804:
+
+    # "Мне тут нужна небольшая помощь в упражнениях!"
+    "I need a little help in the exercises!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:573
+translate english ep22_dialogues4_6_loop3_3bffcab9:
+
+    # fitness_instructor "Тогда до встречи после занятий, Бетти..."
+    fitness_instructor "See you after class, Betty..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:575
+translate english ep22_dialogues4_6_loop3_fed56514:
+
+    # betty "До встречи!"
+    betty "See you!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:580
+translate english ep22_dialogues4_6_loop3_e56bd3c1:
+
+    # fitness_instructor "У тебя уже лучше получается, Бетти!"
+    fitness_instructor "You're getting better, Betty!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:582
+translate english ep22_dialogues4_6_loop3_1b4dac45:
+
+    # betty "Спасибо!"
+    betty "Thank you!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:585
+translate english ep22_dialogues4_6_loop3_b41ef86c:
+
+    # fitness_instructor "Останешься сегодня снова на частный урок?"
+    fitness_instructor "Will you stay for a private lesson again tonight?"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:587
+translate english ep22_dialogues4_6_loop3_4188f781:
+
+    # fitness_instructor "Тебе надо еще позаниматься..."
+    fitness_instructor "You need to exercise more..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:589
+translate english ep22_dialogues4_6_loop3_8fd039b5:
+
+    # betty "Да, я останусь..."
+    betty "I'll stay..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:592
+translate english ep22_dialogues4_6_loop3_3bffcab9_1:
+
+    # fitness_instructor "Тогда до встречи после занятий, Бетти..."
+    fitness_instructor "See you after class, Betty..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:594
+translate english ep22_dialogues4_6_loop3_fed56514_1:
+
+    # betty "До встречи!"
+    betty "See you!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:646
+translate english ep22_dialogues4_7_05122343:
+
+    # betty "Моника, гувернантка, подожди меня на улице, я скоро выйду."
+    # m "Да, Миссис Робертс..."
+    betty "Monica, the governess, wait for me outside, I'll be out soon."
+    m "Yes, Mrs. Roberts..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:652
+translate english ep22_dialogues4_7a_1d53611d:
+
+    # mt "Черт! Уже прошел час!"
+    # "Что там делает эта сучка Бетти?!"
+    mt "Fuck! It's been an hour!"
+    "What's that bitch Betty doing?!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:663
+translate english ep22_dialogues4_7b_41ab0b08:
+
+    # betty "Я закончила. Поехали, Фред!"
+    # fred "Поехали, Мэм!"
+    betty "I'm done. Go, Fred!"
+    fred "Come, MA'am!"
+
+translate english strings:
+
+    # Quests/EP2_02/ep22_dialogues4.rpy:334
+    old "Смотреть на Стефани."
+    new "Look at Stephanie."
+
+    # Quests/EP2_02/ep22_dialogues4.rpy:422
+    old "Смотреть на Ребекку."
+    new "Look at Rebecca."
+
+    # Quests/EP2_02/ep22_dialogues4.rpy:476
+    old "Смотреть на Бетти."
+    new "Look at Betty."
 

@@ -2073,3 +2073,11 @@ translate english monica_goout1_governess_restrict_6f9e4e73_1:
     "I don't understand what business you have outside of the house."
     "Have you already finished?"
 
+# TODO: Translation updated at 2019-01-14 00:27
+
+# game/Quests/EP2/ep2_dialogues1.rpy:721
+translate english bardie_comment5a_6a718a4c:
+
+    # mt "Я не собираюсь подходить к этой малявке!"
+    mt "I'm not going close to that little thing!"
+

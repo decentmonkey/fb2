@@ -134,11 +134,11 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:113
     old "Мне надо как-то найти $ 5000 до пятницы. Где мне их взять? Может быть спросить Бифа о работе?"
-    new "I need to find $ 5,000 by Friday somehow. Where can I get them? Can be to ask Beef about the job?"
+    new "I need to find $ 5,000 by Friday somehow. Where can I get them? Can be to ask Biff about the job?"
 
     # Quests/Question_Helper_Info.rpy:113
     old "Я отказалась от того что хочет Биф. Но найду-ли я другой способ достать деньги? Возможно, мне придется, все-таки, передумать?"
-    new "I gave up what Beef wanted. But will I find another way to get the money? Though, I might have to change my mind."
+    new "I gave up what Biff wanted. But will I find another way to get the money? Though, I might have to change my mind."
 
     # Quests/Question_Helper_Info.rpy:113
     old "Мне надо найти еще $ 1000, иначе конец!"
@@ -150,11 +150,11 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:113
     old "Похоже я нашла возможность зарабатывать деньги, делая фотосессии у Бифа. Но эти фотосессии все более развратные. Долго-ли я смогу себе это позволять?"
-    new "Looks like I found a way to make money by doing a photo shoot at Beef's. But these photo shoots are more and more depraved. Can I afford it?"
+    new "Looks like I found a way to make money by doing a photo shoot at Biff. But these photo shoots are more and more depraved. Can I afford it?"
 
     # Quests/Question_Helper_Info.rpy:113
     old "Биф хочет чтобы я ходила к нему на кастинги. Если я хочу убедить его взять меня в офис, мне надо завоевать его доверие. Но смогу-ли я на это пойти?"
-    new "Beef wants me to visit his castings. If I want to convince him to take me to the office, I need to earn his trust. But will I be able to do it?"
+    new "Biff wants me to visit his castings. If I want to convince him to take me to the office, I need to earn his trust. But will I be able to do it?"
 
     # Quests/Question_Helper_Info.rpy:113
     old "Теперь я должна приносить Виктории раз в неделю $ 5000 до пятницы. Я даже не представляла насколько она опасна."
@@ -175,4 +175,44 @@ translate english strings:
     # Quests/Question_Helper_Info.rpy:113
     old "Мне надо как-то вернуть мою прошлую жизнь. Я не смогу долго прожить в этом кошмаре!"
     new "I need to get my old life back somehow. I can't live long in this nightmare!"
+
+# TODO: Translation updated at 2019-01-14 00:27
+
+translate english strings:
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Барди хочет чтобы я одевала трусики Бетти, которые она носила в прошлый раз. Бетти валяется в них своей толстой задницей на моей кровати по вечерам."
+    new "Bardi wants me to wear Betty's panties that she wore last time. Betty wallows in them with her fat ass on my bed in the evenings."
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Бетти"
+    new "Betty"
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Кажется, Бетти не так строго следит за тем, чтобы я убиралась все время."
+    new "It seems that Betty is not so strictly watching that I cleaned all the time."
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Офис"
+    new "Office"
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Дик"
+    new "Dick"
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Теперь Дик имеет свой галстук! Мой кошмар закончился. Надо проведать его."
+    new "Now Dick has his tie! My nightmare is over. I should go see him."
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "В доме для меня еды нет. По крайней мере пока. Мне надо где-то питаться!"
+    new "There is no food for me in the house. At least for now. I need to eat somewhere!"
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Жизнь"
+    new "Life"
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Любой ценой избегать встречи с Маркусом!"
+    new "Avoid meeting with Marcus at all costs!"
 

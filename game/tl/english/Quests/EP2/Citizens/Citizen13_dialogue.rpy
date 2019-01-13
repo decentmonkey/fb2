@@ -162,7 +162,7 @@ translate english strings:
 translate english citizen13_dialogue_pilon_c2c908e6:
 
     # m "Привет! Ты меня помнишь?"
-    m "Привет! Ты меня помнишь?"
+    m "Hi! You remember me?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:65
 translate english citizen13_dialogue_pilon_8d1a6fd3:
@@ -179,24 +179,24 @@ translate english citizen13_dialogue_pilon_8d1a6fd3:
     # citizen13 "Ха-ха-ха. Подруга, я похож на идиота?"
     # citizen13 "А вообще знаешь, раз тебе так нужны деньги, у меня есть идея. Пошли."
     # citizen13 "Вот мы и пришли. Вечером тут полно народу. А теперь..."
-    citizen13 "Кончно помню, подруга! Ты разносишь флаеры с рекламой этих ужасных кебабов."
-    m "Ну да, иногда."
-    mt "А он выглядит дружелюбно и похоже, я ему не интересна."
-    m "Не будет ли у тебя лишних денег?"
-    citizen13 "А тебе зачем, подруга? Если нужна защита, дак у меня есть!"
-    mt "Да за кого он меня принимает?"
-    m "Нет, мне нужна наличка."
-    citizen13 "Ну для тебя у меня есть немного, но ты же знаешь, что ничегго не делается просто так."
-    m "Ты мог бы мне одолжить."
-    citizen13 "Ха-ха-ха. Подруга, я похож на идиота?"
-    citizen13 "А вообще знаешь, раз тебе так нужны деньги, у меня есть идея. Пошли."
-    citizen13 "Вот мы и пришли. Вечером тут полно народу. А теперь..."
+    citizen13 "Of course, I remember you, friend! You spread flyers advertising these terrible kebabs."
+    m "Yeah, sometimes."
+    mt "He looks friendly, and he doesn't seem to be interested in me."
+    m "Do you have extra money?"
+    citizen13 "What do you want, friend? If you need protection, I have it!"
+    mt "Who does he think I am?"
+    m "No, I need some cash."
+    citizen13 "Well, I have a little bit for you, but you know that nothing is done for nothing."
+    m "Could you lend me some money?"
+    citizen13 "Ha ha ha. Dude, do I look like an idiot?"
+    citizen13 "In fact, you know, since you need money, I have an idea. Go."
+    citizen13 "Here we are. In the evening there are a lot of people. Now..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:84
 translate english citizen13_dialogue_pilon_loop13_66cc90b4:
 
     # citizen13 "Подруга, а что у тебя под футболкой?"
-    citizen13 "Подруга, а что у тебя под футболкой?"
+    citizen13 "Dude, what's under your shirt?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:86
 translate english citizen13_dialogue_pilon_loop13_a7283d00:
@@ -205,34 +205,34 @@ translate english citizen13_dialogue_pilon_loop13_a7283d00:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 50 corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется 50 corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "50 corruption required"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:93
 translate english citizen13_dialogue_pilon_loop13_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "Я не собираюсь раздеваться, только так."
+    m "I'm not going to take off clothes, just like that."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:97
 translate english citizen13_dialogue_pilon_loop13_06e5f23d:
 
     # citizen13 "Прекрасно, я вижу форму!"
-    citizen13 "Прекрасно, я вижу форму!"
+    citizen13 "Fine, I can see the forms!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:99
 translate english citizen13_dialogue_pilon_loop13_ea8db678:
 
     # citizen13 "Не дурно!"
-    citizen13 "Не дурно!"
+    citizen13 "Not bad!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:105
 translate english citizen13_dialogue_pilon_loop13_3604dbaa:
 
     # citizen13 "А что у тебя сзади? Покажи!"
-    citizen13 "А что у тебя сзади? Покажи!"
+    citizen13 "What's behind you? Show me!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:107
 translate english citizen13_dialogue_pilon_loop13_f7e05701:
@@ -241,62 +241,62 @@ translate english citizen13_dialogue_pilon_loop13_f7e05701:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 70 corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется 70 corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "Requires 70 corruption"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:113
 translate english citizen13_dialogue_pilon_loop13_48b1ace1_1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "Я не собираюсь раздеваться, только так."
+    m "I'm not going to take off clothes, just like that."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:117
 translate english citizen13_dialogue_pilon_loop13_e9a25479:
 
     # citizen13 "Оу, шикарная попка! Уж поверь, в этом я понимаю!"
-    citizen13 "Оу, шикарная попка! Уж поверь, в этом я понимаю!"
+    citizen13 "Oh, gorgeous ass! Believe me, I understand that!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:124
 translate english citizen13_dialogue_pilon_loop13_f02f4943:
 
     # citizen13 "Славно потрудилась, подруга! Вот, держи."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen13 "Славно потрудилась, подруга! Вот, держи."
-    m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen13 "Nice work, girlfriend! Here you go."
+    m "What?! So little? Well, I'll be rich soon and get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:128
 translate english citizen13_dialogue_pilon_loop13_f02f4943_1:
 
     # citizen13 "Славно потрудилась, подруга! Вот, держи."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen13 "Славно потрудилась, подруга! Вот, держи."
-    m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen13 "Nice work, girlfriend! Here you go."
+    m "What?! So little? Well, I'll be rich soon and get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:133
 translate english citizen13_dialogue_pilon_loop13_9e37347b:
 
     # citizen13 "Подруга, в следующий раз не халтурь."
-    citizen13 "Подруга, в следующий раз не халтурь."
+    citizen13 "Dude, next time don't mess around."
 
 translate english strings:
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:28
     old "На пенис... (requires 30 corruption)"
-    new ""
+    new "On the penis... (requires 30 corruption)"
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:81
     old "Покажи сиськи."
-    new ""
+    new "Show us your tits."
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:81
     old "Покажи попу."
-    new ""
+    new "Show your ass."
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:81
     old "Достаточно на сегодня."
-    new ""
+    new "That's enough for today."
 
 # TODO: Translation updated at 2019-01-09 21:51
 
@@ -315,18 +315,18 @@ translate english citizen13_dialogue_pilon_f14f1081:
     # citizen13 "Ха-ха-ха. Подруга, я похож на идиота?"
     # citizen13 "А вообще знаешь, раз тебе так нужны деньги, у меня есть идея. Пошли."
     # citizen13 "Вот мы и пришли. Вечером тут полно народу. А теперь..."
-    citizen13 "Кончно помню, подруга! Ты разносишь флаеры с рекламой этих ужасных кебабов."
-    m "Ну да, иногда."
-    mt "А он выглядит дружелюбно и, похоже, я ему не интересна."
-    m "Не будет ли у тебя лишних денег?"
-    citizen13 "А тебе зачем, подруга? Если нужна контрацептив, дак у меня есть!"
-    mt "Да за кого он меня принимает?"
-    m "Нет, мне нужна наличка."
-    citizen13 "Ну для тебя у меня есть немного, но ты же знаешь, что ничего не делается просто так."
-    m "Ты мог бы мне одолжить."
-    citizen13 "Ха-ха-ха. Подруга, я похож на идиота?"
-    citizen13 "А вообще знаешь, раз тебе так нужны деньги, у меня есть идея. Пошли."
-    citizen13 "Вот мы и пришли. Вечером тут полно народу. А теперь..."
+    citizen13 "Of course, I remember you, friend! You spread flyers advertising these terrible kebabs."
+    m "Yeah, sometimes."
+    mt "He looks friendly and doesn't seem to be interested in me."
+    m "Do you have extra money?"
+    citizen13 "What do you want, friend? If you need a contraceptive, I have one!"
+    mt "Who does he think I am?"
+    m "No, I need some cash."
+    citizen13 "Well, I have a little bit for you, but you know nothing's done for nothing."
+    m "Could you lend me some money?"
+    citizen13 "Ha ha ha. Dude, do I look like an idiot?"
+    citizen13 "In fact, you know, since you need money, I have an idea. Go."
+    citizen13 "Here we are. In the evening there are a lot of people. Now..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:86
 translate english citizen13_dialogue_pilon_loop13_e7678610:
@@ -335,10 +335,10 @@ translate english citizen13_dialogue_pilon_loop13_e7678610:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "Required [monicaWhoringClothBoobsCorruptionrequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:107
 translate english citizen13_dialogue_pilon_loop13_299ae0b0:
@@ -347,10 +347,10 @@ translate english citizen13_dialogue_pilon_loop13_299ae0b0:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "Required [monicaWhoringClothAssCorruptionRequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:124
 translate english citizen13_dialogue_pilon_loop13_86b5e6dc:
@@ -358,9 +358,9 @@ translate english citizen13_dialogue_pilon_loop13_86b5e6dc:
     # citizen13 "Славно потрудилась, подруга! Вот, держи."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen13 "Славно потрудилась, подруга! Вот, держи."
-    m "Что?! Так мало? Мог бы дать и больше!"
-    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen13 "Nice work, girlfriend! Here you go."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:129
 translate english citizen13_dialogue_pilon_loop13_86b5e6dc_1:
@@ -368,7 +368,7 @@ translate english citizen13_dialogue_pilon_loop13_86b5e6dc_1:
     # citizen13 "Славно потрудилась, подруга! Вот, держи."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen13 "Славно потрудилась, подруга! Вот, держи."
-    m "Что?! Так мало? Мог бы дать и больше!"
-    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen13 "Nice work, girlfriend! Here you go."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
 

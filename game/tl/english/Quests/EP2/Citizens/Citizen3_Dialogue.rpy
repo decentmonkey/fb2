@@ -275,10 +275,10 @@ translate english citizen3_dialogue_pilon_fd1951ec:
     # citizen3 "Конечно, помню, тебя сложно забыть."
     # m "Могу тебе, кое что показать."
     # citizen3 "Детка, ты говоришь о том, что я думаю?"
-    m "Привет! Ты меня помнишь?"
-    citizen3 "Конечно, помню, тебя сложно забыть."
-    m "Могу тебе, кое что показать."
-    citizen3 "Детка, ты говоришь о том, что я думаю?"
+    m "Hi! You remember me?"
+    citizen3 "Of course, I remember, you're hard to forget."
+    m "I can show you something."
+    citizen3 "Baby, are you talking about what I think?"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:123
 translate english citizen3_dialogue_pilon_0b574a27:
@@ -286,15 +286,15 @@ translate english citizen3_dialogue_pilon_0b574a27:
     # m "Возможно..."
     # citizen3 "У меня много дел, но такое я пропустить не могу."
     # citizen3 "Ну что, тетя..."
-    m "Возможно..."
-    citizen3 "У меня много дел, но такое я пропустить не могу."
-    citizen3 "Ну что, тетя..."
+    m "That's possible..."
+    citizen3 "I have a lot to do, but I can't miss this."
+    citizen3 "Well, hag..."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:133
 translate english citizen3_dialogue_pilon_loop3_8267dcb3:
 
     # citizen3 "Покажи ка свои сиськи!"
-    citizen3 "Покажи ка свои сиськи!"
+    citizen3 "Show me your boobs!"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:135
 translate english citizen3_dialogue_pilon_loop3_a7283d00:
@@ -303,22 +303,22 @@ translate english citizen3_dialogue_pilon_loop3_a7283d00:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 50 corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется 50 corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "50 corruption required"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:142
 translate english citizen3_dialogue_pilon_loop3_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "Я не собираюсь раздеваться, только так."
+    m "I'm not going to take off clothes, just like that."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:146
 translate english citizen3_dialogue_pilon_loop3_38021ad2:
 
     # citizen3 "Детка, нет слов! Теперь сними свою курточку."
-    citizen3 "Детка, нет слов! Теперь сними свою курточку."
+    citizen3 "No words baby! Now, take off your jacket."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:148
 translate english citizen3_dialogue_pilon_loop3_095af695:
@@ -330,13 +330,13 @@ translate english citizen3_dialogue_pilon_loop3_095af695:
 translate english citizen3_dialogue_pilon_loop3_9f4fa25f:
 
     # citizen3 "Надо же с чего-то начинать..."
-    citizen3 "Надо же с чего-то начинать..."
+    citizen3 "We have to start somewhere..."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:155
 translate english citizen3_dialogue_pilon_loop3_9e87bc60:
 
     # citizen3 "Детка, повернись ко мне спиной. И покажи свою попку."
-    citizen3 "Детка, повернись ко мне спиной. И покажи свою попку."
+    citizen3 "Baby, turn your back on me. Show your ass."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:157
 translate english citizen3_dialogue_pilon_loop3_f7e05701:
@@ -345,50 +345,50 @@ translate english citizen3_dialogue_pilon_loop3_f7e05701:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 70 corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется 70 corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "Requires 70 corruption"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:163
 translate english citizen3_dialogue_pilon_loop3_48b1ace1_1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "Я не собираюсь раздеваться, только так."
+    m "I'm not going to take off clothes, just like that."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:167
 translate english citizen3_dialogue_pilon_loop3_389282ff:
 
     # citizen3 "Детка, ты красотка!"
-    citizen3 "Детка, ты красотка!"
+    citizen3 "You're beautiful!"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:169
 translate english citizen3_dialogue_pilon_loop3_dea3f89d:
 
     # citizen3 "Какая красота!"
-    citizen3 "Какая красота!"
+    citizen3 "What a beauty!"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:176
 translate english citizen3_dialogue_pilon_loop3_6a37576b:
 
     # citizen3 "Ты сделала мой день, отлично потрудилась."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen3 "Ты сделала мой день, отлично потрудилась."
-    m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen3 "You made my day, you did a great job."
+    m "What?! So little? Well, I'll be rich soon and get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:180
 translate english citizen3_dialogue_pilon_loop3_6a37576b_1:
 
     # citizen3 "Ты сделала мой день, отлично потрудилась."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen3 "Ты сделала мой день, отлично потрудилась."
-    m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen3 "You made my day, you did a great job."
+    m "What?! So little? Well, I'll be rich soon and get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:185
 translate english citizen3_dialogue_pilon_loop3_1621f382:
 
     # citizen3 "Похоже, я только зря потратил с тобой время..."
-    citizen3 "Похоже, я только зря потратил с тобой время..."
+    citizen3 "I guess I just wasted my time with you..."
 
 # TODO: Translation updated at 2019-01-09 21:51
 
@@ -399,10 +399,10 @@ translate english citizen3_dialogue_pilon_loop3_e7678610:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "Required [monicaWhoringClothBoobsCorruptionrequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:157
 translate english citizen3_dialogue_pilon_loop3_299ae0b0:
@@ -411,10 +411,10 @@ translate english citizen3_dialogue_pilon_loop3_299ae0b0:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    help "Required [monicaWhoringClothAssCorruptionRequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:176
 translate english citizen3_dialogue_pilon_loop3_859b5ea4:
@@ -422,9 +422,9 @@ translate english citizen3_dialogue_pilon_loop3_859b5ea4:
     # citizen3 "Ты сделала мой день, отлично потрудилась."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen3 "Ты сделала мой день, отлично потрудилась."
-    m "Что?! Так мало? Мог бы дать и больше!"
-    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen3 "You made my day, you did a great job."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:181
 translate english citizen3_dialogue_pilon_loop3_859b5ea4_1:
@@ -432,7 +432,7 @@ translate english citizen3_dialogue_pilon_loop3_859b5ea4_1:
     # citizen3 "Ты сделала мой день, отлично потрудилась."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen3 "Ты сделала мой день, отлично потрудилась."
-    m "Что?! Так мало? Мог бы дать и больше!"
-    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen3 "You made my day, you did a great job."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
 

@@ -112,3 +112,19 @@ translate english hook_basement_bedroom_check_exit_cloth_58d95acf:
     # "Сучка..."
     "Bitch..."
 
+# TODO: Translation updated at 2019-01-14 00:27
+
+# game/Characters/Monica/Wardrobe_Basement.rpy:76
+translate english wardrobeBasement_dialogue2_pants_betty_f66a75c7:
+
+    # mt "Это трусики Бетти..."
+    # "Какой ужас..."
+    mt "This is Betty's panties..."
+    "What a horror..."
+
+translate english strings:
+
+    # Characters/Monica/Wardrobe_Basement.rpy:10
+    old "Только трусики."
+    new "Only panties."
+

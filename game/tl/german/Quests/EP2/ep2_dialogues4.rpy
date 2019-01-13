@@ -3736,3 +3736,15 @@ translate german monica_office_cabinet_biff_dialogue3_445e6d51:
     "Sie ist wirklich ehrgeizig..."
     "Ha Ha Ha!"
 
+# TODO: Translation updated at 2019-01-14 00:27
+
+translate german strings:
+
+    # Quests/EP2/ep2_dialogues4.rpy:615
+    old "Попросить помощь у Мелани. (will be available in the next version) (disabled)"
+    new ""
+
+    # Quests/EP2/ep2_dialogues4.rpy:615
+    old "Говорить с Мелани."
+    new ""
+

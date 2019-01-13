@@ -80,13 +80,13 @@ translate english citizen10_dialogue_61862b2e:
     # mt "Что? Странный тип..."
     # citizen10 "Как насчет того, чтобы продолжить нашу беседу?"
     mt "What? Strange guy..."
-    citizen10 "Как насчет того, чтобы продолжить нашу беседу?"
+    citizen10 "How about we continue our conversation?"
 
 # game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:31
 translate english citizen10_dialogue_e946ecb0:
 
     # m "Мы уже достаточно с вами поговорили!"
-    m "Мы уже достаточно с вами поговорили!"
+    m "We've talked to you enough!"
 
 # game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:33
 translate english citizen10_dialogue_a8d99408:
@@ -95,10 +95,10 @@ translate english citizen10_dialogue_a8d99408:
     # сitizen10 "Понимаете, я флорист. Я изучаю растения. Но также меня интересует красота женского тела. Это меня вдохновляет."
     # m "Нет, спасибо, как нибудь в другой раз."
     # mt "Он вообще нормальный?"
-    m "О чем бы вы хотели поговорить?"
-    сitizen10 "Понимаете, я флорист. Я изучаю растения. Но также меня интересует красота женского тела. Это меня вдохновляет."
-    m "Нет, спасибо, как нибудь в другой раз."
-    mt "Он вообще нормальный?"
+    m "What would you like to talk about?"
+    сitizen10 "I'm a florist, you know. I study plants. But I'm also interested in the beauty of the female body. It inspires me."
+    m "No, thank you, next time."
+    mt "Is he normal?"
 
 # game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:49
 translate english citizen10_dialogue_pilon_517f152f:
@@ -106,17 +106,17 @@ translate english citizen10_dialogue_pilon_517f152f:
     # m "Эй, простите..."
     # citizen10 "Не сейчас, я занят!"
     # mt "Что это с ним?"
-    m "Эй, простите..."
-    citizen10 "Не сейчас, я занят!"
-    mt "Что это с ним?"
+    m "Hey, I'm sorry..."
+    citizen10 "Not now, I'm busy!"
+    mt "What about him?"
 
 translate english strings:
 
     # Quests/EP2/Citizens/Citizen10_dialogue.rpy:27
     old "Хватит с меня разговоров!"
-    new ""
+    new "I'm done talking!"
 
     # Quests/EP2/Citizens/Citizen10_dialogue.rpy:27
     old "А о чем бы вы хотели поговорить?"
-    new ""
+    new "What would you like to talk about?"
 
