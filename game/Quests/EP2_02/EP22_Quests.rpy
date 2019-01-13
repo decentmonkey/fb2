@@ -71,7 +71,7 @@ label ep22_betty_catch_exit_gates:
     return False
 
 label ep22_betty_catch_process:
-    $ remove_hook(lable="hurry_to_dick") #debug!!!!
+#    $ remove_hook(lable="hurry_to_dick") #debug!!!!
 
     $ remove_hook(label="betty_catch")
     $ add_hook("map_teleport", "EP22_Quests_Betty0_Fred_scene", scene="global") #Вешаем сцену с Бетти

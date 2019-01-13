@@ -30,8 +30,8 @@ label ep22_dialogues4_1b:
     return
 label ep22_dialogues4_1:
     # Если Бетти ур.3
-    call ep22_Quests_Betty_Monica_Governess_outfit() #debug!!!
-    
+#    call ep22_Quests_Betty_Monica_Governess_outfit() #debug!!!
+
     img 6018
     with fade
     betty "Моника, гувернантка."
