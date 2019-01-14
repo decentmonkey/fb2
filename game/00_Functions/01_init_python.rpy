@@ -4,7 +4,9 @@ python early:
         return l.simple_expression()
 #        return l.string()
     def img_exec(s):
-        global dialogue_active_flag, screenActionHappened
+        global dialogue_active_flag, screenActionHappened, config
+        config.has_autosave = False
+        config.autosave_on_choice = False
         try:
             imagePath = img_find_path(renpy.eval(s))
         except:
@@ -73,7 +75,10 @@ python early:
 
     def saywrapper_execute(o):
         global last_dialogue_character
-        global dialogue_active_flag, screenActionHappened
+        global dialogue_active_flag, screenActionHappened, config
+        config.has_autosave = False
+        config.autosave_on_choice = False
+
         who, what = o
         if who == "Noone":
             who = last_dialogue_character

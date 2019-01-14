@@ -23,7 +23,7 @@ python early:
         if episode == 1:
 #            emptyFileName = get_image_filename("empty.png")
             return im.Image("images/icons/empty.png")
-        return False
+        return None
 
     def refresh_list_files():
         global list_files
