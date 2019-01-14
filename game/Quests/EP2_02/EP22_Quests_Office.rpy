@@ -13,7 +13,8 @@ label ep22_quests_office1: #регулярный разговор с Бифом 
         return
     call ep22_dialogue6_3()
     if _return == False:
-        call refresh_scene_fade()
+        call change_scene("monica_office_cabinet")
+#        call refresh_scene_fade()
         return
     # Инициализируем фотосессию
     $ add_hook("Teleport_Monica_Office_Entrance", "monica_office_secretary_dialogue6", scene="monica_office_secretary", label="photoshoot") #Блокируем выход пока идет фотосессия
@@ -72,6 +73,7 @@ label ep22_quests_office6: #Биф, где мои деньги?
 
 label ep22_quests_office7: #enable Biff
     $ biffDisabled = False
+    $ biffOnlyFridayEvening = False
     return
 label ep22_quests_office8:
     return

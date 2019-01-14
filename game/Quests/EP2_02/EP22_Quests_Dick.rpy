@@ -81,7 +81,7 @@ label ep22_quests_Dick6:
     $ add_hook("change_time_day", "ep22_quests_Dick10", scene="global")
     $ add_hook("open", "ep22_quests_Dick11", scene="street_house_main_yard")
     $ add_hook("map_teleport", "ep22_quests_Dick12", scene="global")
-    $ remove_hook(label = "dick_no_evening")
+    $ remove_hook(lable = "dick_no_evening")
     $ rain = True
     $ rainIntencity = 3
     $ lightning = False
