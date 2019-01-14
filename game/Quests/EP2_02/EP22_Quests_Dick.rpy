@@ -9,6 +9,7 @@ label ep22_quests_Dick1:
     $ add_hook("DickSecretary", "ep22_dialogues5_3")
     $ add_hook("change_time_day", "ep22_quests_Dick3", scene="global")
     $ add_hook("basement_monica_after_sleep_dialogue", "ep22_dialogues2_3a", scene="global")
+    $ add_hook("Dick_Life_evening", "Dick_Life_evening2", scene="global", lable="dick_no_evening")
     $ questLog(21, True)
     $ remove_objective("dick_money_tomorrow")
     $ map_enabled = True
@@ -80,6 +81,7 @@ label ep22_quests_Dick6:
     $ add_hook("change_time_day", "ep22_quests_Dick10", scene="global")
     $ add_hook("open", "ep22_quests_Dick11", scene="street_house_main_yard")
     $ add_hook("map_teleport", "ep22_quests_Dick12", scene="global")
+    $ remove_hook(label = "dick_no_evening")
     $ rain = True
     $ rainIntencity = 3
     $ lightning = False
@@ -129,7 +131,8 @@ label ep22_quests_Dick9: #поза Моники перед Викторией
         $ dickOfficeSecretaryMonicaSuffix = 4
     return
 
-label ep22_quests_Dick10: #rain off
+label ep22_quests_Dick10: #rain off and enable Biff
+    call ep22_quests_office7()
     $ rain = False
     $ rainIntencity = 1
     $ lightning = False

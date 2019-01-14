@@ -47,6 +47,7 @@ label ep22_init:
     $ move_object("DickTheLawyer", "dick_office_cabinet")
     $ remove_hook("DickTheLawyer", "dick_the_lawyer_talk1", scene="dick_office_cabinet")
     $ add_hook("DickTheLawyer", "ep22_quests_Dick2", scene="dick_office_cabinet", label="dicksecretary_stage2")
+    call Dick_Life_init()
 
     call basement_bedroom1_init()
     call basement_bedroom2_init()

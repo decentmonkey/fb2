@@ -29,7 +29,7 @@ label ep22_quests_office3: # Регулярный разговор с Алекс
         return
     call ep22_dialogue6_4()
     call refresh_scene_fade()
-    return
+    return False
 label ep22_quests_office4: # Алекс стартует фотосессию
     if act == "l":
         return
@@ -69,8 +69,9 @@ label ep22_quests_office6: #Биф, где мои деньги?
     $ biffWeeklyPhotoShootEnabled = False
     $ remove_hook(label="photoshoot")
     return
-    
-label ep22_quests_office7:
+
+label ep22_quests_office7: #enable Biff
+    $ biffDisabled = False
     return
 label ep22_quests_office8:
     return
