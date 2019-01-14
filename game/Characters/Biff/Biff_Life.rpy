@@ -1,4 +1,5 @@
 default biffOnlyFridayEvening = False
+default biffDisabled = False
 
 label Biff_Life_init:
     $ add_hook("change_time_day", "Biff_Life_day", scene="global")
@@ -21,6 +22,9 @@ label Biff_Life_day1:
     return
 
 label Biff_Life_evening1:
+    if biffDisabled == True:
+        $ move_object("Biff", "empty")
+        return
     if biffOnlyFridayEvening == True:
         if week_day == 5:
             $ move_object("Biff", "monica_office_cabinet")

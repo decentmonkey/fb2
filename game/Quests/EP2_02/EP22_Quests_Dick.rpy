@@ -124,6 +124,8 @@ label ep22_quests_Dick9: #поза Моники перед Викторией
 
 label ep22_quests_Dick10: #rain off
     $ rain = False
+    $ rainIntencity = 1
+    $ lightning = False
     $ remove_hook()
     return
 
@@ -136,4 +138,6 @@ label ep22_quests_Dick11: #уменьшение дождя в доме
 label ep22_quests_Dick12: #сцена секса Виктории с Диком
     $ remove_hook()
     call ep22_dialogues5_14()
+    $ lightning = True
+    $ changeDayTime("evening")
     return True

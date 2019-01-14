@@ -51,6 +51,9 @@ label ep22_init:
     call basement_bedroom1_init()
     call basement_bedroom2_init()
 
+    # Инициализируем Бифа
+    call ep22_quests_office_init()
+
     $ ep22_started = True
     return
 
