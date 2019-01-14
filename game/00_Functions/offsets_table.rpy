@@ -2282,7 +2282,27 @@ define offsets_table = {
     "dial_citizen_pylon_9_4_c1":(131,1017,1079,1446),
     "dial_citizen_pylon_9_4_c2":(214,1028,1079,1390),
     "dial_citizen_pylon_9_5_c1":(123,1025,1079,1397),
-    "dial_citizen_pylon_9_5_c2":(196,1044,1079,1325)
+    "dial_citizen_pylon_9_5_c2":(196,1044,1079,1325),
+    "hostel_edge_pylon_monica_1_c1_overlay":(587,597,1079,1282),
+    "hostel_edge_pylon_monica_2_c1_overlay":(629,567,1048,1267),
+    "hostel_edge_pylon_monica_3_c1_overlay":(640,570,1073,1304),
+    "hostel_edge_pylon_monica_4_c1_overlay":(623,563,1065,1298),
+    "hostel_edge_pylon_monica_5_c1_overlay":(453,610,1075,1341),
+    "dial_citizen_pylon_5_1_c1":(154,1002,1079,1422),
+    "dial_citizen_pylon_5_2_c1":(153,1001,1079,1430),
+    "dial_citizen_pylon_5_3_c1":(153,1025,1079,1424),
+    "dial_citizen_pylon_5_4_c1":(155,1025,1079,1424),
+    "dial_citizen_pylon_5_5_c1":(150,1031,1079,1413),
+    "hostel_edge_pylon_monica_1_c1":(123,689,1049,954),
+    "hostel_edge_pylon_monica_1_c2":(44,700,1079,1014),
+    "hostel_edge_pylon_monica_2_c1":(134,662,1014,926),
+    "hostel_edge_pylon_monica_2_c2":(58,648,1079,1120),
+    "hostel_edge_pylon_monica_3_c1":(122,680,1015,942),
+    "hostel_edge_pylon_monica_3_c2":(65,623,1079,1000),
+    "hostel_edge_pylon_monica_4_c1":(122,680,1015,942),
+    "hostel_edge_pylon_monica_4_c2":(65,623,1079,1000),
+    "hostel_edge_pylon_monica_5_c1":(123,713,1034,979),
+    "hostel_edge_pylon_monica_5_c2":(49,706,1079,1090)
 }
 
 init python:
