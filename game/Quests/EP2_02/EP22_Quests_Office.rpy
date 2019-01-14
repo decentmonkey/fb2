@@ -31,8 +31,20 @@ label ep22_quests_office4: # Алекс стартует фотосессию
     if _return == False:
         call refresh_scene_fade()
         return
+    $ monicaPhotoShootInProgress = True
     # Выбор наряда
     call ep22_dialogue6_5a()
+    if monicaPhotoShootOutfitIdx == 1:
+        call ep22_photoshoot1()
+        call ep22_photoshoot1_end()
+    if monicaPhotoShootOutfitIdx == 1:
+        call ep22_photoshoot2()
+        call ep22_photoshoot2_end()
+    if monicaPhotoShootOutfitIdx == 1:
+        call ep22_photoshoot3()
+        call ep22_photoshoot3_end()
+    #конец фотосессии
+
     return
 label ep22_quests_office5: # Мне надо идти в фотостудию, блок на Биффа
     if act=="l":

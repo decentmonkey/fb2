@@ -1,7 +1,8 @@
 
 label cloth_shop_refuse1:
     $ store_music()
-    hide screen rain
+    hide screen Rain
+    hide screen Rain_overlay
     music Power_Bots_Loop
     img 3042
     with fade
