@@ -89,28 +89,28 @@ label house_cleaning_start3:
 
     python:
         for room_name in rooms_dirty:
-            objects = get_active_objects(scene="House", recursive=True, teleport=True)
+            objects = get_objects(scene="House", recursive=True, teleport=True)
             if objects != False:
                 for obj1 in objects:
                     add_hook(obj1[1], "cleaning_monica_goout1", scene=obj1[2])
 
     # Вешаем хуки на грязные предметы
     python:
-        objects = get_active_objects(scene="House", recursive=True, cleaning_group=True)
+        objects = get_objects(scene="House", recursive=True, cleaning_group=True)
         if objects != False:
             for obj1 in objects:
                 add_hook(obj1[1], "house_cleaning_clean_object", scene=obj1[2])
 
     # Вешаем хук на Барди
     python:
-        objects = get_active_objects("Bardie", scene="House", recursive=True)
+        objects = get_objects("Bardie", scene="House", recursive=True)
         if objects != False:
             for obj1 in objects:
                 add_hook(obj1[1], "bardieMonicaCleaningInteract", scene=obj1[2])
 
     # Вешаем хук на Монику
     python:
-        objects = get_active_objects("Monica", scene="House", recursive=True)
+        objects = get_objects("Monica", scene="House", recursive=True)
         if objects != False:
             for obj1 in objects:
                 add_hook(obj1[1], "cleaning_monica_comment", scene=obj1[2])

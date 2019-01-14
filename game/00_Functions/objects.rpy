@@ -204,6 +204,43 @@ init python:
             return return_objects_list
         return False
 
+    def get_objects(*args, **kwargs):
+        if len(args) > 0:
+            obj_name = args[0]
+        else:
+            obj_name = False
+#            kwargs["active"] = True
+        if kwargs.has_key("scene"):
+            if kwargs["scene"] == "all":
+                rooms_list = list(scenes_data["objects"].keys())
+            else:
+                rooms_list = [kwargs["scene"]]
+            del kwargs["scene"]
+        else:
+            rooms_list = [api_scene_name]
+        if kwargs.has_key("recursive") == True and kwargs["recursive"] == True:
+            rooms_list = get_rooms_recursive(rooms_list[0])
+        kwargs.pop("recursive", None)
+        return_objects_list = []
+        for room_name in rooms_list:
+            if obj_name != False and len(rooms_list) == 1:
+                if scenes_data["objects"].has_key(room_name) == True and scenes_data["objects"][room_name].has_key(obj_name) == True:
+                    return_objects_list.append(scenes_data["objects"][room_name][obj_name])
+            else:
+                if obj_name == False:
+                    if scenes_data["objects"].has_key(room_name) == True:
+                        for obj1 in scenes_data["objects"][room_name]:
+                            if check_filter(kwargs, scenes_data["objects"][room_name][obj1]) == True:
+                                return_objects_list.append([scenes_data["objects"][room_name][obj1], obj1, room_name])
+                else:
+                    if scenes_data["objects"].has_key(room_name) == True and scenes_data["objects"][room_name].has_key(obj_name) == True:
+                        if check_filter(kwargs, scenes_data["objects"][room_name][obj_name]) == True:
+                            return_objects_list.append([scenes_data["objects"][room_name][obj_name], obj_name, room_name])
+
+        if len(return_objects_list) > 0:
+            return return_objects_list
+        return False
+
     def set_active(*args, **kwargs):
         if len(args)>1:
             #ищем по объекту
