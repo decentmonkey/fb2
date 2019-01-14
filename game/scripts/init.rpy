@@ -43,9 +43,52 @@ define monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired = 70 # Кол-во 
 define monicaPhilipBlojwobOpenMouthAgainCorruptionRequired = 80 # Кол-во corruption, которые необходимы, чтобы Моника снова открыла рот для нового мужчины
 define monicaPhilipBlojwobTakeSpermCorruptionRequired = 80 # Кол-во corruption, которые необходимы, чтобы Моника сама проглотила сперму
 
-define photoshoot1_casting_corruption_required = 0 #Кол-во corruption для кастинга после фотосессии
-define photoshoot2_casting_corruption_required = 0 #Кол-во corruption для кастинга после фотосессии
-define photoshoot3_casting_corruption_required = 0 #Кол-во corruption для кастинга после фотосессии
+define photoshoot1_casting_corruption_required = 30 #Кол-во corruption для кастинга после фотосессии
+define photoshoot2_casting_corruption_required = 40 #Кол-во corruption для кастинга после фотосессии
+define photoshoot3_casting_corruption_required = 50 #Кол-во corruption для кастинга после фотосессии
+
+define PS1_monica_shot1_corruption_required = 60
+define PS1_monica_shot2_corruption_required = 60
+define PS1_monica_shot3_corruption_required = 60
+define PS1_monica_shot4_corruption_required = 60
+define PS1_monica_shot5_corruption_required = 60
+define PS1_monica_shot6_corruption_required = 60
+define PS1_AlexProgressEachCorruptionShot = 3
+define PS1_BiffProgress = 5 #Прогресс просто за фотосессию
+define PS1_BiffProgressCasting = 5 #Прогресс за то что пришла на кастинг
+define PS1_BiffProgressCastingChick = 5 #Прогресс за то что притворилась цыпочкой на кастинге
+
+define PS2_monica_shot1_corruption_required = 60
+define PS2_monica_shot2_corruption_required = 60
+define PS2_monica_shot3_corruption_required = 60
+define PS2_monica_pose5_corruption_required = 60 # Поза 5!
+define PS2_monica_shot4_corruption_required = 60
+define PS2_monica_shot5_corruption_required = 60
+define PS2_monica_pose7_corruption_required = 60 # Поза 7!
+define PS2_monica_shot6_corruption_required = 60
+define PS2_monica_shot7_corruption_required = 60
+define PS2_monica_shot8_corruption_required = 60
+define PS2_AlexProgressEachCorruptionShot = 3
+define PS2_BiffProgress = 5 #Прогресс просто за фотосессию
+define PS2_BiffProgressCasting = 5 #Прогресс за то что пришла на кастинг
+define PS2_BiffProgressCastingChick = 5 #Прогресс за то что притворилась цыпочкой на кастинге
+
+
+define PS3_monica_shot1_corruption_required = 60
+define PS3_monica_shot2_corruption_required = 60
+define PS3_monica_pose3_corruption_required = 60 # Поза 3!
+define PS3_monica_shot3_corruption_required = 60
+define PS3_monica_shot4_corruption_required = 60
+define PS3_monica_shot5_corruption_required = 60
+define PS3_monica_shot6_corruption_required = 60 #лизать молоток
+define PS3_monica_shot7_corruption_required = 60
+define PS3_monica_pose6_corruption_required = 60 # молоток упирается в попу поза
+define PS3_monica_shot8_corruption_required = 60
+define PS3_AlexProgressEachCorruptionShot = 3
+define PS3_BiffProgress = 5 #Прогресс просто за фотосессию
+define PS3_BiffProgressCasting = 5 #Прогресс за то что пришла на кастинг
+define PS3_BiffProgressCastingChick = 5 #Прогресс за то что притворилась цыпочкой на кастинге
+
 
 define monicaWhoringClothBoobsCorruptionRequired = 50 # Кол-во corruption, чтобы Моника показала грудь в одежде
 define monicaWhoringClothBoobsTongueCorruptionRequired = 60 #Кол-во corruption, чтобы Моника показала грудь в одежде и высунула язык

@@ -1,12 +1,14 @@
 label ep22_photoshoot3:
-
-    img 8317
+    music Groove2_85
+    img 8384
+    with fade
     m "Алекс, это что? Какая-то шутка?"
     "Кто-то перепутал коробку для нарядов с одеждой для рабочих???"
-    img 8318
+    img 8385
     alex_photograph "Нет, Мэм!"
     "Вы сегодня девушка-рабочий! Бригадир!"
     img 8386
+    with fade
     m "Какого черта, Алекс?!?!"
     "Ты не забыл вообще-то кто я такая?!"
     alex_photograph "Мэм! Это распоряжение Мистера Бифа!"
@@ -17,213 +19,736 @@ label ep22_photoshoot3:
     "Можно я сниму их? Я могу пораниться!"
     alex_photograph "Нет, Мэм! Это часть образа!"
     img 8388
+    with fade
     m "Ладно... Только давай без своих грязных ракурсов..."
     alex_photograph "Так точно, Мэм!"
 
+    $ shotsAmount = PS1_shots_amount
+    $ shotsTotalAmount = 21
 
+    $ shots = 2
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+
+    music stop
+    img 8389
+    with fade
+    alex_photograph "Мотор!"
     label ep22_photoshoot3_pose1:
         #кадр
-        alex_photograph "Мотор!"
         img 8389
         #up
-        img 8390
+#        img 8390
         #side
-        img 8391
+#        img 8391
         #down
-        img 8392
+#        img 8392
+
+        if shots == 0 or shotsAmount == 0:
+            $ shots = 2
+            $ arrowUp = True
+            $ arrowSide = True
+            $ arrowDown = True
+            music Groove2_85
+            img 8393
+            with fadelong
+            alex_photograph "Следующая поза, Миссис Бакфетт!"
+            m "Алекс! Ты снова начинаешь?!"
+            "Мы не успели начать, а у тебя уже двусмысленные позы!"
+            alex_photograph "Мэм! Эти фото на календарь строительной компании!"
+            "Вы будете стимулировать рабочих трудиться лучше!"
+            "Вы должны быть соблазнительны!"
+
+            m "Не вижу в этом ничего соблазнительного, Алекс!"
+            mt "О БОЖЕ! Я фотографируюсь на календарь для рабочих!"
+            "Я - МОНИКА БАКФЕТТ!!"
+            "О БОЖЕ!!!"
+            music stop
+            jump ep22_photoshoot3_pose2
+        show screen photoshoot_camera_icon(PS3_shoots_array)
+        show screen photoshoot()
+        $ result = ui.interact()
+        hide screen photoshoot
+        if result == "next":
+            $ shots = 0
+            jump ep22_photoshoot3_pose1
+        #up
+        if result == "up":
+            sound camera_lens1
+            $ photoImage = 8390
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose1
+        if result == "side":
+            #side
+            sound camera_lens1
+            $ photoImage = 8391
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose1
+        if result == "down":
+            #down
+            sound camera_lens1
+            $ photoImage = 8392
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose1
+
 
 
     label ep22_photoshoot3_pose2:
         #кадр
         img 8393
-        alex_photograph "Следующая поза, Миссис Бакфетт!"
-        m "Алекс! Ты снова начинаешь?!"
-        "Мы не успели начать, а у тебя уже двусмысленные позы!"
-        alex_photograph "Мэм! Эти фото на календарь строительной компании!"
-        "Вы будете стимулировать рабочих трудиться лучше!"
-        "Вы должны быть соблазнительны!"
-
-        m "Не вижу в этом ничего соблазнительного, Алекс!"
-        mt "О БОЖЕ! Я фотографируюсь на календарь для рабочих!"
-        "Я - МОНИКА БАКФЕТТ!!"
-        "О БОЖЕ!!!"
 
         #up
-        img 8394
+#        img 8394
         #side+
-        m "Алекс! Не начинай!"
+#        m "Алекс! Не начинай!"
         #иначе
-        img 8395
+#        img 8395
 
         #down+
-        m "Алекс! Хватит!"
+#        m "Алекс! Хватит!"
         #иначе
-        img 8396
+#        img 8396
+
+        if shots == 0 or shotsAmount == 0:
+            $ shots = 2
+            $ arrowUp = True
+            $ arrowSide = True
+            $ arrowDown = True
+            img 8397
+            with fadelong
+            alex_photograph "Следующая поза, Миссис Бакфетт!"
+            jump ep22_photoshoot3_pose3
+        show screen photoshoot_camera_icon(PS3_shoots_array)
+        show screen photoshoot()
+        $ result = ui.interact()
+        hide screen photoshoot
+        if result == "next":
+            $ shots = 0
+            jump ep22_photoshoot3_pose2
+        #up
+        if result == "up":
+            sound camera_lens1
+            $ photoImage = 8394
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose2
+        if result == "side":
+            #side+
+            sound camera_lens1
+            $ photoImage = 8395
+            img photoImage
+            with Dissolve(0.2)
+            if corruption < PS3_monica_shot1_corruption_required:
+                m "Алекс! Не начинай!"
+                call corruption_required(PS3_monica_shot1_corruption_required)
+                jump ep22_photoshoot3_pose2
+            w
+            $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot1_progress")
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose2
+        if result == "down":
+            #down+
+            sound camera_lens1
+            $ photoImage = 8396
+            img photoImage
+            with Dissolve(0.2)
+            if corruption < PS3_monica_shot2_corruption_required:
+                m "Алекс! Хватит!"
+                call corruption_required(PS3_monica_shot2_corruption_required)
+                jump ep22_photoshoot3_pose2
+            w
+            $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot2_progress")
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose2
+
+
+
 
     label ep22_photoshoot3_pose3:
         #кадр
         img 8397
-        alex_photograph "Следующая поза, Миссис Бакфетт!"
 
         #up
-        img 8398
+#        img 8398
 
         #side
-        img 8399
+#        img 8399
 
         #down
-        img 8400
+#        img 8400
+
+
+        if shots == 0 or shotsAmount == 0:
+            $ shots = 2
+            $ arrowUp = True
+            $ arrowSide = True
+            $ arrowDown = True
+            img 8401
+            with fadelong
+            alex_photograph "Следующая поза, Миссис Бакфетт!"
+            if corruption < PS3_monica_pose3_corruption_required:
+                call corruption_required(PS3_monica_pose3_corruption_required)
+                m "Алекс! Я не буду вставать в такую развратную позу!"
+                "И это не обсуждается!"
+                return
+            jump ep22_photoshoot3_pose4
+        show screen photoshoot_camera_icon(PS3_shoots_array)
+        show screen photoshoot()
+        $ result = ui.interact()
+        hide screen photoshoot
+        if result == "next":
+            $ shots = 0
+            jump ep22_photoshoot3_pose3
+        #up
+        if result == "up":
+            sound camera_lens1
+            $ photoImage = 8398
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose3
+        if result == "side":
+            #side
+            sound camera_lens1
+            $ photoImage = 8399
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose3
+        if result == "down":
+            #down
+            sound camera_lens1
+            $ photoImage = 8400
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose3
+
+
 
     label ep22_photoshoot3_pose4:
         #кадр
         img 8401
-        alex_photograph "Следующая поза, Миссис Бакфетт!"
-        m "Алекс! Я не буду вставать в такую развратную позу!"
-        "И это не обсуждается!"
         #иначе
         #up
-        img 8402
+#        img 8402
         #side+
-        m "Алекс! Я не буду делать такой кадр!"
-        img 8403
+#        m "Алекс! Я не буду делать такой кадр!"
+#        img 8403
 
         #down+
-        m "Алекс! Забудь про такие ракурсы!"
-        img 8403
+#        m "Алекс! Забудь про такие ракурсы!"
+#        img 8404
+
+        if shots == 0 or shotsAmount == 0:
+            $ shots = 2
+            $ arrowUp = True
+            $ arrowSide = True
+            $ arrowDown = True
+            img 8405
+            with fadelong
+            alex_photograph "Следующая поза, Миссис Бакфетт!"
+            jump ep22_photoshoot3_pose5
+        show screen photoshoot_camera_icon(PS3_shoots_array)
+        show screen photoshoot()
+        $ result = ui.interact()
+        hide screen photoshoot
+        if result == "next":
+            $ shots = 0
+            jump ep22_photoshoot3_pose4
+        #up
+        if result == "up":
+            sound camera_lens1
+            $ photoImage = 8402
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose4
+        if result == "side":
+            #side+
+            sound camera_lens1
+            $ photoImage = 8403
+            img photoImage
+            with Dissolve(0.2)
+            if corruption < PS3_monica_shot3_corruption_required:
+                m "Алекс! Я не буду делать такой кадр!"
+                call corruption_required(PS3_monica_shot3_corruption_required)
+                jump ep22_photoshoot3_pose4
+            w
+            $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot3_progress")
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose4
+        if result == "down":
+            #down+
+            sound camera_lens1
+            $ photoImage = 8404
+            img photoImage
+            with Dissolve(0.2)
+            if corruption < PS3_monica_shot4_corruption_required:
+                m "Алекс! Забудь про такие ракурсы!"
+                call corruption_required(PS3_monica_shot4_corruption_required)
+                jump ep22_photoshoot3_pose4
+            w
+            $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot4_progress")
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose4
+
 
     label ep22_photoshoot3_pose5:
         #кадр
         img 8405
-        alex_photograph "Следующая поза, Миссис Бакфетт!"
 
         #up
-        img 8406
+#        img 8406
 
         #side
-        img 8407
-        img 8408
+#        img 8407
+#        img 8408
 
         #down+
-        m "Алекс! Я не буду делать такой кадр!"
-        img 8409
+#        m "Алекс! Я не буду делать такой кадр!"
+#        img 8409
+
+
+        if shots == 0 or shotsAmount == 0:
+            $ shots = 2
+            $ arrowUp = True
+            $ arrowSide = True
+            $ arrowDown = True
+            img 8410
+            with fadelong
+            alex_photograph "Следующая поза, Миссис Бакфетт!"
+            jump ep22_photoshoot3_pose6
+        show screen photoshoot_camera_icon(PS3_shoots_array)
+        show screen photoshoot()
+        $ result = ui.interact()
+        hide screen photoshoot
+        if result == "next":
+            $ shots = 0
+            jump ep22_photoshoot3_pose5
+        #up
+        if result == "up":
+            sound camera_lens1
+            $ photoImage = 8406
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose5
+        if result == "side":
+            #side
+            sound camera_lens1
+            $ photoImage = 8407
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8408
+            with Dissolve(0.2)
+            w
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose5
+        if result == "down":
+            #down+
+            sound camera_lens1
+            $ photoImage = 8409
+            img photoImage
+            with Dissolve(0.2)
+            if corruption < PS3_monica_shot5_corruption_required:
+                m "Алекс! Я не буду делать такой кадр!"
+                call corruption_required(PS3_monica_shot5_corruption_required)
+                jump ep22_photoshoot3_pose5
+            w
+            $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot5_progress")
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose5
+
+
 
     label ep22_photoshoot3_pose6:
         #кадр
         img 8410
-        alex_photograph "Следующая поза, Миссис Бакфетт!"
 
         #up+ (жесткий)
-        alex_photograph "Миссис Бакфетт!"
-        "Возьмите, пожалуйста, молоток и сделайте вид, как-будто вы его лижите."
-        "Сексуально."
-        "Это будет самый популярный кадр!"
-        #если не хватает
-        m "ЧТО??!"
-        "НИКОГДА!"
-        alex_photograph "Миссис Бакфетт! Но молоток чистый! Это реквизит!"
-        "Я специально подготовил его!"
-        "НИКОГДА!"
-        #иначе
-        m "Алекс!"
-        "Это последнее что я сделаю!"
-        "Ты меня достал своей назойливостью!"
-        img 8413
-        img 8414
-        img 8415
-        img 8416
-        img 8417
+#        alex_photograph "Миссис Бакфетт!"
+#        "Возьмите, пожалуйста, молоток и сделайте вид, как-будто вы его лижите."
+#        "Сексуально."
+#        "Это будет самый популярный кадр!"
+#        #если не хватает
+#        m "ЧТО??!"
+#        "НИКОГДА!"
+#        alex_photograph "Миссис Бакфетт! Но молоток чистый! Это реквизит!"
+#        "Я специально подготовил его!"
+#        "НИКОГДА!"
+#        #иначе
+#        m "Алекс!"
+#        "Это последнее что я сделаю!"
+#        "Ты меня достал своей назойливостью!"
+#        img 8413
+#        img 8414
+#        img 8415
+#        img 8416
+#        img 8417
+#
+#        #side
+#        img 8411
+#
+#        #down+
+#        m "Алекс! Забудь про такие ракурсы!"
+#        img 8412
 
-        #side
-        img 8411
 
-        #down+
-        m "Алекс! Забудь про такие ракурсы!"
-        img 8412
+        if shots == 0 or shotsAmount == 0:
+            $ shots = 2
+            $ arrowUp = True
+            $ arrowSide = True
+            $ arrowDown = True
+            alex_photograph "Следующая поза, Миссис Бакфетт!"
+            "Пожалуйста, сядьте на колени и выдвиньте одну ногу вперед!"
+            m "Хорошо, звучит не так уж страшно..."
+            music Groove2_85
+            img 8419
+            with fadelong
+            m "ЧТО?!?!"
+            "ЧТО ТЫ СДЕЛАЛ, МЕРЗАВЕЦ???"
+            "Куда ты поставил молоток!"
+            "Ты хоть заметил куда в какое место он упирается мне?!?!"
+            alex_photograph "Миссис Бакфетт!"
+            "И сделайте, пожалуйста, такое лицо как когда Вы облизывали молоток..."
+            if corruption < PS3_monica_pose6_corruption_required:
+                call corruption_required(PS3_monica_pose6_corruption_required)
+                #если не хватает
+                m "ЧТО?!?!"
+                "Иди ты к черту!"
+                "Это называется фотосессия для календаря?!?!"
+                "Может быть мне еще снять шорты и дать ему свободу войти туда куда он упирается сейчас?!"
+                alex_photograph "..."
+                m "Ах! Что я спрашиваю!"
+                "Для тебя это было бы прекрасной новостью!"
+                "НО НЕ ДЛЯ МЕНЯ?!?!"
+                "Фотосессия закончена!!!"
+                #уходим на конец фотосессии
+                return
+
+            #если хватает
+            alex_photograph "Мэм, я понимаю, может быть Вам неудобно как он упирается..."
+            "Но если Вам чуточку приятно это, то, пожалуйста, высуньте язычок..."
+            "Без него композиция будет неполной..."
+            "А ведь Вы знаете, что от меня ждут лучших результатов."
+            "Иначе Мистер Биф уволит меня..."
+            "Поверьте, этот кадр выглядит прилично..."
+            m "..."
+            "Алекс, это точно выглядит прилично?"
+            alex_photograph "Да, Мэм!"
+            "Поверьте мне!"
+            m "Мне это не нравится, Алекс..."
+            alex_photograph "Миссис Бакфетт... Не переживайте, я сделаю кадры быстрее чем будет заметно что Вы стали влажной..."
+            m "ЧТО?!?!..."
+            alex_photograph "Я снимаю, Миссис Бакфетт!"
+            "Пожалуйста, покажите эмоции!"
+            m "Я...."
+            "Ладно..."
+            music stop
+            img 8418
+            with fadelong
+            jump ep22_photoshoot3_pose7
+        show screen photoshoot_camera_icon(PS3_shoots_array)
+        show screen photoshoot()
+        $ result = ui.interact()
+        hide screen photoshoot
+        if result == "next":
+            $ shots = 0
+            jump ep22_photoshoot3_pose6
+        #up
+        if result == "up":
+            alex_photograph "Миссис Бакфетт!"
+            "Возьмите, пожалуйста, молоток и сделайте вид, как-будто вы его лижите."
+            "Сексуально."
+            "Это будет самый популярный кадр!"
+            if corruption < PS3_monica_shot6_corruption_required:
+                m "ЧТО??!"
+                "НИКОГДА!"
+                alex_photograph "Миссис Бакфетт! Но молоток чистый! Это реквизит!"
+                "Я специально подготовил его!"
+                "НИКОГДА!"
+                call corruption_required(PS3_monica_shot6_corruption_required)
+                jump ep22_photoshoot3_pose5
+            m "Алекс!"
+            "Это последнее что я сделаю!"
+            "Ты меня достал своей назойливостью!"
+            sound camera_lens1
+            $ photoImage = 8413
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8414
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8415
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8416
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8417
+            w
+            call photoshop_flash()
+            w
+            $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot6_progress")
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose6
+        if result == "side":
+            #side
+            sound camera_lens1
+            $ photoImage = 8411
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose6
+        if result == "down":
+            #down+
+            sound camera_lens1
+            $ photoImage = 8412
+            img photoImage
+            with Dissolve(0.2)
+            if corruption < PS3_monica_shot7_corruption_required:
+                m "Алекс! Забудь про такие ракурсы!"
+                call corruption_required(PS3_monica_shot7_corruption_required)
+                jump ep22_photoshoot3_pose5
+            w
+            $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot7_progress")
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose6
 
 
     label ep22_photoshoot3_pose7:
-        alex_photograph "Следующая поза, Миссис Бакфетт!"
-        "Пожалуйста, сядьте на колени и выдвиньте одну ногу вперед!"
-        m "Хорошо, звучит не так уж страшно..."
-        img 8419 #пикча
-        m "ЧТО?!?!"
-        "ЧТО ТЫ СДЕЛАЛ, МЕРЗАВЕЦ???"
-        "Куда ты поставил молоток!"
-        "Ты хоть заметил куда в какое место он упирается мне?!?!"
-        alex_photograph "Миссис Бакфетт!"
-        "И сделайте, пожалуйста, такое лицо как когда Вы облизывали молоток..."
-        #если не хватает
-        m "ЧТО?!?!"
-        "Иди ты к черту!"
-        "Это называется фотосессия для календаря?!?!"
-        "Может быть мне еще снять шорты и дать ему свободу войти туда куда он упирается сейчас?!"
-        alex_photograph "..."
-        m "Ах! Что я спрашиваю!"
-        "Для тебя это было бы прекрасной новостью!"
-        "НО НЕ ДЛЯ МЕНЯ?!?!"
-        "Фотосессия закончена!!!"
-        #уходим на конец фотосессии
-
-        #если хватает
-        alex_photograph "Мэм, я понимаю, может быть Вам неудобно как он упирается..."
-        "Но если Вам чуточку приятно это, то, пожалуйста, высуньте язычок..."
-        "Без него композиция будет неполной..."
-        "А ведь Вы знаете, что от меня ждут лучших результатов."
-        "Иначе Мистер Биф уволит меня..."
-        "Поверьте, этот кадр выглядит прилично..."
-        m "..."
-        "Алекс, это точно выглядит прилично?"
-        alex_photograph "Да, Мэм!"
-        "Поверьте мне!"
-        m "Мне это не нравится, Алекс..."
-        alex_photograph "Миссис Бакфетт... Не переживайте, я сделаю кадры быстрее чем будет заметно что Вы стали влажной..."
-        m "ЧТО?!?!..."
-        alex_photograph "Я снимаю, Миссис Бакфетт!"
-        "Пожалуйста, покажите эмоции!"
-        m "Я...."
-        "Ладно..."
 
         #кадр
         img 8418
 
+#        #up
+#        img 8420
+#        w
+#        img 8421
+#        w
+#        img 8422
+#        w
+#        img 8423
+#        w
+#        img 8424
+#        w
+#
+#        #side
+#        img 8425
+#        w
+#        img 8426
+#        w
+#        img 8427
+#        w
+#        img 8428
+#        w
+#
+#        #down
+#        img 8429
+#        w
+#        img 8430
+#        w
+#        img 8431
+#        w
+#        img 8432
+#        w
+#        img 8433
+#        w
+
+
+        if shots == 0 or shotsAmount == 0:
+            $ shots = 2
+            $ arrowUp = True
+            $ arrowSide = True
+            $ arrowDown = True
+            return
+        show screen photoshoot_camera_icon(PS3_shoots_array)
+        show screen photoshoot()
+        $ result = ui.interact()
+        hide screen photoshoot
+        if result == "next":
+            $ shots = 0
+            jump ep22_photoshoot3_pose7
         #up
-        img 8420
-        w
-        img 8421
-        w
-        img 8422
-        w
-        img 8423
-        w
-        img 8424
-        w
-
-        #side
-        img 8425
-        w
-        img 8426
-        w
-        img 8427
-        w
-        img 8428
-        w
-
-        #down
-        img 8429
-        w
-        img 8430
-        w
-        img 8431
-        w
-        img 8432
-        w
-        img 8433
-        w
+        if result == "up":
+            sound camera_lens1
+            img 8420
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8421
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8422
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8423
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8424
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            $ photoImage = 8420
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose7
+        if result == "side":
+            #side
+            sound camera_lens1
+            img 8425
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8426
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8427
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8428
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            $ photoImage = 8425
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose7
+        if result == "down":
+            #down
+            sound camera_lens1
+            img 8429
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8430
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8431
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8432
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            img 8433
+            with Dissolve(0.2)
+            w
+            call photoshop_flash()
+            w
+            $ photoImage = 8429
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshoot_flash_count()
+            $ PS3_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot3_pose7
 
     return
 
 label ep22_photoshoot3_end:
+    hide screen photoshoot_camera_icon
+    hide screen photoshoot
+
+    music Stealth_Groover
     img 8434
+    with fadelong
     alex_photograph "Мэм! Мы закончили фотосессию!"
     m "Наконец-то!!!"
     img 8435
@@ -231,7 +756,6 @@ label ep22_photoshoot3_end:
     #Если кастинг у Бифа
     menu:
         "Переодеться назад...":
-            call ep22_dialogue6_6()
             $ biffMonicaLastCastingSkipped = True
         "Идти на кастинг к Бифу и притвориться цыпочкой... (corruption)" if biffMonicaCastingsEnabled == True and corruption >= photoshoot3_casting_corruption_required: #если есть кастинги
             mt "Биф ждет меня на свой дурацкий кастинг..."
@@ -242,48 +766,61 @@ label ep22_photoshoot3_end:
             #если обещала
             "..."
             "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
+            call ep22_photoshoot3_casting()
+            return
         "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot3_casting_corruption_required]) (disabled)" if biffMonicaCastingsEnabled == False or corruption < photoshoot3_casting_corruption_required:
             pass
 
-
-return
+    return
 
 label ep22_photoshoot3_casting:
+    music Groove2_85
+    sound highheels_short_walk
     img 8463
+    with fadelong
     w
     img 8464
+    with Dissolve(0.5)
     m "Привет, Биф. Я пришла..."
     img 8465
+    $ add_char_progress("Biff", PS3_BiffProgressCasting, "PS3_BiffProgressCasting_day" + str(day))
     biff "О! Цыпочка пришла к папочке!"
     menu:
         "Притвориться цыпочкой...":
             mt "Мне надо притвориться и завоевать его расположение..."
             img 8467
+            with fade
             m "Да, цыпочка пришла к папочке..."
             "Цыпочка хорошая..."
             img 8468
             biff "Кто сегодня цыпочка?"
             m "Сегодня цыпочка - это девушка-рабочий с календаря, который будет висеть у каждого менеджера строительной компании..."
+            $ add_char_progress("Biff", PS3_BiffProgressCastingChick, "PS3_BiffProgressCastingChick_day" + str(day))
             biff "Что девушка с календаря хочет показать папочке?"
             $ chickMode = True
             $ castingCloth = 3
             call ep22_casting()
             img 8480
+            with fade
             mt "Мерзавец!"
             #рост прогресса у Бифа
 
         "Я не собираюсь никем притворяться!":
             #если обещала хорошо себя вести
-            m "Я пришла, потому что обещала хорошо вести себя..."
-            #иначе
-            img 8466
-            m "Ты заставил меня придти..."
+            if monicaSaidBiffSheIsWillBeAGoodChick == True:
+                m "Я пришла, потому что обещала хорошо вести себя..."
+            else:
+                #иначе
+                img 8466
+                with fade
+                m "Ты заставил меня придти..."
             mt "Ненавижу!!!"
             biff "И что цыпочка будет делать?"
             $ castingCloth = 3
             $ chickMode = False
             call ep22_casting()
             img 8480
+            with fade
             mt "Мерзавец!"
             #рост прогресса у Бифа
 

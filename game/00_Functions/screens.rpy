@@ -2500,6 +2500,7 @@ screen notify(message):
         frame at notify_appear:
             ypos 0.2
             text "[message!tq]"
+        timer 3.25 action [Hide('notify'), SetVariable("notifList", [])]
     else:
         $ notifOffset = 0
         for msg in notifList:
@@ -2508,8 +2509,8 @@ screen notify(message):
                 yoffset notifOffset
                 text "[msg!tq]"
             $ notifOffset += notifyLineOffset
+        timer (3.25*len(notifList)) action [Hide('notify'), SetVariable("notifList", [])]
 
-    timer 3.25 action [Hide('notify'), SetVariable("notifList", [])]
 
 
 transform notify_appear:

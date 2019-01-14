@@ -277,6 +277,18 @@ style questlog_text_category_style:
     color "#18181a"
     font "fonts/tahoma.ttf"
 
+style photoshoot_camera_text_style:
+    size 100
+    font "fonts/arial.ttf"
+    color "#e8b131"
+    outlines [(13, "#18181a", 0, 0)]
+
+style photoshoot_cinema_text_style:
+    size 100
+    font "fonts/arial.ttf"
+    color "#33b18b"
+    outlines [(13, "#18181a", 0, 0)]
+
 define gui.credits.offset1 = 30
 define gui.credits.offset2 = 42
 define gui.credits.offset3 = 40

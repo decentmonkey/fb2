@@ -11,20 +11,26 @@ label ep22_casting:
                         with Dissolve(0.5)
                         m "Моника Бакфетт хочет показать папочке грудь..."
                         img 8442
+                        with fade
                         w
                         img 8444
+                        with Dissolve(0.5)
                         w
                     else:
                         img 8441
                         with Dissolve(0.5)
                         m "Я покажу тебе грудь, потому что ты заставил меня..."
                         img 8442
+                        with fade
                         w
                         img 8443
+                        with Dissolve(0.5)
                         w
                 if castingCloth == 2:
                     if chickMode == True:
+                        sound snd_fabric1
                         img 8460
+                        with fade
                         m "Леди Нуар хочет показать папочке грудь..."
                         img 8461
                         biff "Давай, Леди Нуар! Показывай свои сиськи!"
@@ -33,47 +39,62 @@ label ep22_casting:
                         with Dissolve(0.5)
                         w
                         img 8457
+                        with Dissolve(0.5)
                         w
                         img 8458
+                        with Dissolve(0.5)
                         w
                         img 8459
+                        with Dissolve(0.5)
                         w
 
                     else:
+                        sound snd_fabric1
                         img 8453
+                        with fade
                         m "Биф, мне обязательно это делать?"
                         img 8454
                         biff "Давай, Леди Нуар! Показывай свои сиськи!"
                         "Не прячь их от папочки!"
                         "А то я заставлю Леди Нуар показать еще кое-что!"
                         img 8455
+                        with fade
                         w
                         img 8445
                         biff "Я жду!"
                         img 8455
+                        with fade
                         w
                         img 8456
                         with Dissolve(0.5)
                         w
                         img 8457
+                        with Dissolve(0.5)
                         w
                         img 8458
+                        with Dissolve(0.5)
                         w
                         img 8459
+                        with Dissolve(0.5)
                         w
-                if castingCloth == 2:
+                if castingCloth == 3:
                     if chickMode == True:
                         img 8473
+                        with fade
                         m "Девушка с календаря хочет показать папочке грудь..."
+                        sound snd_fabric1
                         img 8477
                         with Dissolve(0.5)
                         w
                         img 8478
+                        with Dissolve(0.5)
                         w
                         img 8479
+                        with Dissolve(0.5)
                         w
                     else:
                         img 8469
+                        with fade
                         m "Я знаю, я должна показать тебе грудь..."
                         "Но можно я не буду делать этого?"
                         img 8470
@@ -81,6 +102,7 @@ label ep22_casting:
                         "Показывай свои сиськи!"
                         "Иначе я скажу Алексу чтобы эти голые сиськи смотрели с прямо с календаря!"
                         img 8471
+                        with fade
                         mt "Черт! У меня молоток... Может убить этого мерзавца?!"
                         "Сколько мне терпеть это???"
                         "..."
@@ -88,14 +110,19 @@ label ep22_casting:
                         img 8472
                         biff "Ну же! Сиськи!"
                         img 8471
+                        with fade
                         w
                         img 8474
                         with Dissolve(0.5)
                         w
                         img 8475
+                        with Dissolve(0.5)
                         m "На, смотри..."
                         img 8476
+                        with Dissolve(0.5)
+                        w
                         "Мне не нужны проблемы..."
+                        w
 
                 img 8445
                 biff "Хорошо, папочка доволен!"
@@ -156,7 +183,7 @@ label ep22_casting:
                             pass
                         "Засунуть секретарше язык глубоко в анальное отверстие. (disabled)":
                             pass
-                        "Достать член Бифа и засунуть его в секретаршу.":
+                        "Достать член Бифа и засунуть его в секретаршу. (disabled)":
                             pass
                         "Засунуть член в ее киску, затем вытащить и облизать его. (disabled)":
                             pass
