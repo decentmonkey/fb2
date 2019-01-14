@@ -1,3 +1,5 @@
+default monicaEarnedWeeklyMoneySkip = False
+
 label ep22_quests_Dick1:
     if act=="l":
         return
@@ -70,6 +72,8 @@ label ep22_quests_Dick6:
 
     #Инициализация регулярного поведения Виктории
     $ add_hook_day("ep22_quests_Dick7", week_day = 6) #каждую субботу утром будет проверка на деньги для Виктории
+    if week_day == 7:
+        $ monicaEarnedWeeklyMoneySkip = True
     $ add_hook("DickSecretary", "ep22_quests_Dick8", scene="dick_office_secretary")
     $ add_hook("open", "ep22_quests_Dick9", scene="dick_office_secretary")
     $ add_hook("Monica", "ep22_dialogues5_13a", scene="dick_office_hall1")
@@ -87,6 +91,9 @@ label ep22_quests_Dick6:
 
 label ep22_quests_Dick7:
     # Пятничная проверка на деньги для Виктории
+    if monicaEarnedWeeklyMoneySkip == True:
+        $ monicaEarnedWeeklyMoneySkip = False
+        return
     if monicaEarnedWeeklyMoney == True: #если деньги для Виктории заработаны
         $ monicaEarnedWeeklyMoney = False #Виктория их тратит
         $ add_char_progress("DickSecretary", monicaVictoriaEarnedWeeklyMoneyProgress, "monicaVictoriaEarnedWeeklyMoneyProgress " + str(day))
