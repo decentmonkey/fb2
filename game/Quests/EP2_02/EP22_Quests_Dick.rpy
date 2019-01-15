@@ -100,6 +100,7 @@ label ep22_quests_Dick7:
         $ monicaEarnedWeeklyMoney = False #Виктория их тратит
         $ monicaWeeklyMoneySpent = True
         $ add_char_progress("DickSecretary", monicaVictoriaEarnedWeeklyMoneyProgress, "monicaVictoriaEarnedWeeklyMoneyProgress " + str(day))
+        $ notif(_("Виктория потратила деньги Моники на шоппинг. Она ждет деньги снова до следующей пятницы."))
         $ add_objective("money_for_victoria", _("Заработать $ 5000 для Виктории до Пятницы!"), c_pink, 10)
     else:
         #если деньги не заработаны
