@@ -5,6 +5,10 @@ default basementBedroomMonicaSleepGfx = False
 default basementBedNapIndex = 0
 default basementBedSleepIndex = 0
 
+default basementBedSkipUntilFridayEnabled = False
+default skipDaysInterrupted = False # Флаг того что надо заблокировать пропускание дней и проснуться
+default skipDaysActiveFlag = False # В данный момент пропускаются дни (инфа для хуков)
+
 label basement_bed_hook:
     if act == "l":
         return True
@@ -108,6 +112,10 @@ label monica_gosleep1a:
             call process_hooks("basement_monica_after_sleep", "global") from _call_process_hooks_32
             call refresh_scene_fade() from _call_refresh_scene_fade_48
             return False
+        "Пропустить до Пятницы." if basementBedSkipUntilFridayEnabled == True and week_day != 5:
+            $ basementBedroomMonicaSleepGfx = False
+            call monica_skip_until_friday()
+            return False
         "Не ложиться.":
             $ basementBedroomMonicaSleepGfx = False
             call refresh_scene_fade() from _call_refresh_scene_fade_49
@@ -131,6 +139,13 @@ label monica_gosleep1b:
             $ changeDayTime("day")
             call process_hooks("basement_monica_after_sleep", "global") from _call_process_hooks_34
             call refresh_scene_fade() from _call_refresh_scene_fade_51
+            return False
+        "Пропустить до Пятницы." if basementBedSkipUntilFridayEnabled == True and week_day != 5:
+            $ basementBedroomMonicaSleepGfx = False
+            if cloth != "Nude":
+                $ cloth_type = "Nude"
+                $ cloth = "GovernessPants"
+            call monica_skip_until_friday()
             return False
         "Не ложиться.":
             $ basementBedroomMonicaSleepGfx = False
@@ -176,6 +191,44 @@ label basement_monica_after_sleep:
     return
 label basement_monica_after_sleep_dialogue:
     call process_hooks("basement_monica_after_sleep_dialogue", "global") from _call_process_hooks_36
+    return
+
+label monica_skip_until_friday: # Пропуск дней до пятницы
+    img black_screen
+    with Dissolve(0.5)
+    $ skipDaysActiveFlag = True
+    label monica_skip_until_friday_loop1:
+        if day_time == "day":
+            call process_hooks("basement_monica_before_nap", "global")
+            if _return == False:
+                $ basement_bedroom2_MonicaSuffix = 2
+                $ skipDaysInterrupted = True
+            else:
+                $ changeDayTime("evening")
+                call process_hooks("basement_monica_after_nap", "global")
+        if day_time == "evening":
+            call process_hooks("basement_monica_before_sleep", "global")
+            if _return == False:
+                $ basement_bedroom2_MonicaSuffix = 2
+                $ skipDaysInterrupted = True
+            else:
+                #call processHouseCleaningEvening()
+                $ changeDayTime("day")
+                call process_hooks("basement_monica_after_sleep", "global")
+        if week_day != 5 and skipDaysInterrupted == False:
+            jump monica_skip_until_friday_loop1
+
+    if skipDaysInterrupted == True:
+        $ add_hook("basement_monica_after_sleep_dialogue", "monica_skip_until_friday_interrupted", scene="global", label="monica_skip_until_friday_interrupted", priority = 10000)
+        $ add_hook("basement_monica_after_nap_dialogue", "monica_skip_until_friday_interrupted", scene="global", label="monica_skip_until_friday_interrupted", priority = 10000)
+    $ skipDaysActiveFlag = False
+    $ skipDaysInterrupted = False
+    call refresh_scene_fade()
+    return False
+
+label monica_skip_until_friday_interrupted:
+    $ remove_hook(label="monica_skip_until_friday_interrupted")
+    empty_name "Пропускание дней прервано..."
     return
 
 label basement_monica_after_sleep_dialogue1:

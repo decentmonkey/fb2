@@ -63,6 +63,9 @@ label ep22_quests_office4_l1:
     if monicaPhotoShootOutfitIdx == 2:
         call ep22_photoshoot2()
         call ep22_photoshoot2_end()
+        if monicaSecretaryOutfit1EnforcementPlanned == False: # После фотосессии в костюме #2 планируем переодевание секретарши
+            $ monicaSecretaryOutfit1EnforcementPlanned = True
+            $ add_hook("before_open", "ep22_quests_office9", scene="monica_office_secretary") # Планируем инициализацию outfit1 для секретарши
     if monicaPhotoShootOutfitIdx == 3:
         call ep22_photoshoot3()
         call ep22_photoshoot3_end()
@@ -120,13 +123,39 @@ label ep22_quests_office8: # Последний раз секретарша пр
     call refresh_scene_fade()
     return False
 label ep22_quests_office9:
+    if biffWeeklyPhotoShootEnabled == False:
+        return
+    $ remove_hook()
+    # инициализируем outfit1 на секретарше
+    $ monicaOfficeSecretarySecretarySuffix = 4
+    $ remove_hook("Secretary", "monica_office_secretary_dialogue2", scene="monica_office_secretary")
+    $ add_hook("Secretary", "ep22_quests_office12", scene="monica_office_secretary", label="secretary_regular_talk")
+    $ add_hook("Secretary", "ep22_quests_office10", scene="monica_office_secretary", label="secretary_last_request")
+    $ add_hook("Teleport_Monica_Office_Cabinet", "ep22_quests_office11", scene="monica_office_secretary", label="secretary_last_request")
+
+
     return
-label ep22_quests_office10:
-    return
+label ep22_quests_office10: # Последний запрос о помощи со стороны секретарши
+    if act=="l":
+        return
+    call ep22_dialogue6_1()
+    $ remove_hook(label="secretary_last_request")
+    call refresh_scene_fade()
+    return False
 label ep22_quests_office11:
+    call ep22_dialogue6_1()
+    $ remove_hook(label="secretary_last_request")
+    call refresh_scene_fade()
+    return False
+label ep22_quests_office12: # Регулярный разговор с секретаршей
+    if act=="l":
+        call ep22_dialogue6_2a()
+        return False
+    call ep22_dialogue6_2()
+    call refresh_scene_fade()
     return
-label ep22_quests_office12:
-    return
+
+
 label ep22_quests_office13:
     return
 label ep22_quests_office14:

@@ -99,8 +99,8 @@ label ep22_quests_Dick7:
     if monicaEarnedWeeklyMoney == True: #если деньги для Виктории заработаны
         $ monicaEarnedWeeklyMoney = False #Виктория их тратит
         $ monicaWeeklyMoneySpent = True
-        $ add_char_progress("DickSecretary", monicaVictoriaEarnedWeeklyMoneyProgress, "monicaVictoriaEarnedWeeklyMoneyProgress " + str(day))
         $ notif(_("Виктория потратила деньги Моники на шоппинг. Она ждет деньги снова до следующей пятницы."))
+        $ add_char_progress("DickSecretary", monicaVictoriaEarnedWeeklyMoneyProgress, "monicaVictoriaEarnedWeeklyMoneyProgress " + str(day))
         $ add_objective("money_for_victoria", _("Заработать $ 5000 для Виктории до Пятницы!"), c_pink, 10)
     else:
         #если деньги не заработаны
@@ -139,6 +139,7 @@ label ep22_quests_Dick10: #rain off and enable Biff
     $ rain = False
     $ rainIntencity = 1
     $ lightning = False
+    $ basementBedSkipUntilFridayEnabled = True #включаем возможность пропускания дней до пятницы
     $ remove_hook()
     return
 
