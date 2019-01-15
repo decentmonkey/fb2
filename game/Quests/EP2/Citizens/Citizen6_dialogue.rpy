@@ -2,55 +2,55 @@ default questOffendMonicaFlyersCitizen6ThanksGiven = False
 
 label citizen6_dialogue:
     imgl Dial_Monica_Sandwich_0
+#    menu:
+#    "Можно к Вам обратиться?":
+    m "Мистер... Можно к Вам обратиться?"
+    #img Моника спрашивает
+    imgr Dial_Citizen_6_1
+    if citizen6_offered_last_day == day:
+        imgr Dial_Citizen_6_4
+        citizen6 "Нельзя! Я тороплюсь!"
+        return
+    citizen6 "Да, Леди? Что Вы хотели?"
     menu:
-        "Можно к Вам обратиться?":
-            m "Мистер... Можно к Вам обратиться?"
-            #img Моника спрашивает
-            imgr Dial_Citizen_6_1
-            if citizen6_offered_last_day == day:
-                imgr Dial_Citizen_6_4
-                citizen6 "Нельзя! Я тороплюсь!"
-                return
-            citizen6 "Да, Леди? Что Вы хотели?"
-            menu:
-                # этот пункт появляется единождыпосле выполнения события нападения(проверка на переменную диалога 12)
-                "Спасибо, что помог мне..." if questOffendMonicaFlyersCitizen12Completed == True and questOffendMonicaFlyersCitizen6ThanksGive == False:
-                    mt "Надо бы поблагодарить его, но я не хочу делать это одетой в рекламу кебеба..."
-                    return
+        # этот пункт появляется единождыпосле выполнения события нападения(проверка на переменную диалога 12)
+        "Спасибо, что помог мне..." if questOffendMonicaFlyersCitizen12Completed == True and questOffendMonicaFlyersCitizen6ThanksGive == False:
+            mt "Надо бы поблагодарить его, но я не хочу делать это одетой в рекламу кебеба..."
+            return
 
-                "Возьмите, пожалуйста, этот флаер...":
-                    imgl Dial_Monica_Sandwich_1
-                    $ citizen6_offered_last_day = day
-                    m "Возьмите, пожалуйста, этот флаер..."
-                    if rand(0, citizen6_refuse_probability) > 0:
-                        imgr Dial_Citizen_6_2
-                        call reduce_flyers() from _call_reduce_flyers_1
-                        citizen6 "Взять флаер? Хорошо..."
-                        imgr Dial_Citizen_6_3
-                        citizen6 "Какой красивый флаер! Прямо такой-же как Вы!"
-                        imgl Dial_Monica_Sandwich_2
-                        m "Спасибо конечно, но меня не нужно сравнивать с флаером."
-                        citizen6 "Как насчет того чтобы сходить со мной в одно интересное место?"
-                        menu:
-                            "Я никуда с тобой не пойду":
-                                $ kebabWorkHarassmentAmount +=1
-                                #img Моника злится
-                                m "Я ничего не предлагаю! Просто возьмите флаер!"
-                            "В какое это место?" if fallingPathStarted == True:
-                                m "Куда это?"
-                                citizen6 "Да тут не далеко, тем более мы уже там были с тобой. Ха-ха!"
-                                m "Хватит с меня этого места..."
-                                citizen6 "Ну если тебе не нужны деньги..."
-                                m "Ты это о чем?"
-                                citizen6 "Как это о чем? Как будто ты ничего не понимаешь. За это обычно платят."
-                                m "У меня есть деньги!"
-                                mt "Точнее были..."
-                    else:
-                        imgr Dial_Citizen_6_4
-                        citizen6 "Я тороплюсь! Давайте в другой раз!"
-                        $ kebabWorkMonicaRefusedAmount += 1
-        "Уйти.":
-            pass
+        "Возьмите, пожалуйста, этот флаер...":
+            imgl Dial_Monica_Sandwich_1
+            $ citizen6_offered_last_day = day
+            m "Возьмите, пожалуйста, этот флаер..."
+            if rand(0, citizen6_refuse_probability) > 0:
+                imgr Dial_Citizen_6_2
+                call reduce_flyers() from _call_reduce_flyers_1
+                citizen6 "Взять флаер? Хорошо..."
+                imgr Dial_Citizen_6_3
+                citizen6 "Какой красивый флаер! Прямо такой-же как Вы!"
+                imgl Dial_Monica_Sandwich_2
+                m "Спасибо конечно, но меня не нужно сравнивать с флаером."
+                citizen6 "Как насчет того чтобы сходить со мной в одно интересное место?"
+                menu:
+                    "Я никуда с тобой не пойду":
+                        $ kebabWorkHarassmentAmount +=1
+                        #img Моника злится
+                        m "Я ничего не предлагаю! Просто возьмите флаер!"
+                    "В какое это место?" if fallingPathStarted == True:
+                        m "Куда это?"
+                        citizen6 "Да тут не далеко, тем более мы уже там были с тобой. Ха-ха!"
+                        m "Хватит с меня этого места..."
+                        citizen6 "Ну если тебе не нужны деньги..."
+                        m "Ты это о чем?"
+                        citizen6 "Как это о чем? Как будто ты ничего не понимаешь. За это обычно платят."
+                        m "У меня есть деньги!"
+                        mt "Точнее были..."
+            else:
+                imgr Dial_Citizen_6_4
+                citizen6 "Я тороплюсь! Давайте в другой раз!"
+                $ kebabWorkMonicaRefusedAmount += 1
+#        "Уйти.":
+#            pass
     return
 
     # диалог доступен только когда моника не работает на раздаче флаеров
