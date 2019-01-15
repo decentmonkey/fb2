@@ -300,6 +300,7 @@ label monica_shawarma_dialogue2a:
         if money < 1:
             mt "Черт! У меня нет денег!"
             "И я не собираюсь разносить флаеры по ночным улицам!"
+            return
         menu:
             "Купить кебаб за $ 1":
                 img 6150
