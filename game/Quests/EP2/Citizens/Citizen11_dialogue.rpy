@@ -2,6 +2,33 @@ default citizen11TookBottle = False
 
 label citizen11_dialogue:
     imgl Dial_Monica_Sandwich_0
+    "Можно к Вам обратиться?":
+        m "Мистер... Можно к Вам обратиться?"
+        #img Моника спрашивает
+        imgr Dial_Citizen_11_1
+        if citizen11_offered_last_day == day:
+            imgr Dial_Citizen_11_4
+            citizen11 "Ох, не сейчас..."
+            return
+        if citizen11TookBottle == True:
+            imgl Dial_Monica_Sandwich_1
+            imgr Dial_Citizen_11_3
+            citizen11 "Моя спасительница! Для тебя, все что угодно!"
+            m "Возьмите, пожалуйста, этот флаер..."
+            citizen11 "Флаер? Да хоть два! Давай свой флаер!"
+            call reduce_flyers()
+            citizen11 "Ты такая красивая! А дай я тебя поцелую!"
+            m "Отвали, алкаш..."
+            imgr Dial_Citizen_11_4
+            citizen11 "Ах вот ты как... Ну ничего, я тебя это припомню!"
+            mt "Я лучше пойду..."
+            return
+        citizen11 "Да? Что? Ох, моя голова..."
+        menu:
+            "Возьмите, пожалуйста, этот флаер...":
+                imgl Dial_Monica_Sandwich_1
+                $ citizen11_offered_last_day = day
+                m "Возьмите, пожалуйста, этот флаер..."
 #    "Можно к Вам обратиться?":
     m "Мистер... Можно к Вам обратиться?"
     #img Моника спрашивает
