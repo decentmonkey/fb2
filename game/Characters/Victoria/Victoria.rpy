@@ -2,6 +2,7 @@ default monicaShowedBoobsToVictoriaCamera = False
 default monicaShowedAssToDickAndVictoria = False
 
 default monicaEarnedWeeklyMoney = False # Моника заработала деньги для Виктории в эту неделю (поднимается после фотосессии)
+default monicaWeeklyMoneySpent = False # Виктория потратила деньги на шоппинг
 default monicaVictoriaPunishmentPlanned = False # Монику ожидает наказание у Виктории
 
 label dickSecretaryProgressLevelUp:
