@@ -166,3 +166,97 @@ translate english strings:
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot1_casting_corruption_required]) (disabled)"
     new "Behave as chick at Biff' casting... (low corruption, required [photoshoot1_casting_corruption_required]) (disabled)"
 
+# TODO: Translation updated at 2019-01-15 21:45
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:6
+translate english ep22_photoshoot1_d5c14705:
+
+    # alex_photograph "Мистер Биф сказал одеть его!"
+    # "Вы всем очень понравились на благотворительном вечере!"
+    # "Публика хочет еще Ваших фотографий в этом платье!"
+    alex_photograph "Mr. Biff said to put it on!"
+    "Everyone loved you at the charity event!"
+    "The public wants more of your photos in this dress!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:161
+translate english ep22_photoshoot1_pose3_a9a99046:
+
+    # m "Алекс! Я не буду делать такой кадр!"
+    m "Alex! I'm not taking that shot!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:230
+translate english ep22_photoshoot1_pose4_8f79d3a9:
+
+    # m "Алекс! Забудь про такие ракурсы!"
+    m "Alex! Forget the angles!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:277
+translate english ep22_photoshoot1_pose5_8f79d3a9:
+
+    # m "Алекс! Забудь про такие ракурсы!"
+    m "Alex! Forget the angles!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:335
+translate english ep22_photoshoot1_pose6_a9a99046:
+
+    # m "Алекс! Я не буду делать такой кадр!"
+    m "Alex! I'm not taking that shot!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:382
+translate english ep22_photoshoot1_pose7_a9a99046:
+
+    # m "Алекс! Я не буду делать такой кадр!"
+    m "Alex! I'm not taking that shot!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:456
+translate english ep22_photoshoot1_pose8_8f79d3a9:
+
+    # m "Алекс! Забудь про такие ракурсы!"
+    m "Alex! Forget the angles!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:508
+translate english ep22_photoshoot1_casting_cb9f49f2:
+
+    # m "Привет, Биф. Я пришла..."
+    m "Hi, Biff. I came..."
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:510
+translate english ep22_photoshoot1_casting_e97962ff:
+
+    # biff "О! Цыпочка пришла к папочке!"
+    biff "Oh! Chick came to daddy!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:519
+translate english ep22_photoshoot1_casting_b464a529:
+
+    # biff "Кто сегодня цыпочка?"
+    # m "Сегодня цыпочка - это Моника Бакфетт с благотворительного вечера..."
+    biff "Who's the chick tonight?"
+    m "Today the chick is Monica Buckfett from the charity event..."
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:522
+translate english ep22_photoshoot1_casting_74be009d:
+
+    # biff "Что Моника Бакфетт хочет показать папочке?"
+    biff "What does Monica Buckfett want to show daddy?"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:541
+translate english ep22_photoshoot1_casting_b65c11aa:
+
+    # m "Ты заставил меня придти..."
+    m "You made me come here..."
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:542
+translate english ep22_photoshoot1_casting_2b8d9f4a:
+
+    # mt "Ненавижу!!!"
+    # biff "И что цыпочка будет делать?"
+    mt "I hate this!!!"
+    biff "What's chick gonna do?"
+
+translate english strings:
+
+    # Quests/EP2_02/ep22_photoshoot1.rpy:563
+    old " corruption required!"
+    new ""
+

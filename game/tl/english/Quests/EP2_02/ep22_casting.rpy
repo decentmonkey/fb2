@@ -136,3 +136,11 @@ translate english ep22_dialogue6_6_loop1_e4b86f27:
     biff "Okay, daddy's happy!"
     biff "But daddy's starting to get bored of the same thing..."
 
+# TODO: Translation updated at 2019-01-15 21:45
+
+translate english strings:
+
+    # Quests/EP2_02/ep22_casting.rpy:177
+    old "Достать член Бифа и засунуть его в секретаршу. (disabled)"
+    new ""
+

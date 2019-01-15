@@ -407,3 +407,15 @@ translate english citizen9_dialogue_pilon_loop9_643513c1_1:
     citizen9 "Well, you deserve something..."
     m "What?! So little? Could give more!"
     mt "Well, I'll be rich soon and get my life back..."
+# TODO: Translation updated at 2019-01-15 21:45
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:143
+translate english citizen9_dialogue_pilon_loop9_f20736b2:
+
+    # citizen9 "Жопа!"
+    # m "Что 'Жопа!'?"
+    # citizen9 "Повернись ко мне задом и показывай!"
+    citizen9 "Ass!"
+    m "That 'Ass!'?"
+    citizen9 "Turn your back on me and show me!"
+

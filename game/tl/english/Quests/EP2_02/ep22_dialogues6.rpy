@@ -1077,3 +1077,127 @@ translate english strings:
     old "А если я пройду дополнительный кастинг?..."
     new "What if I get an extra audition?..."
 
+# TODO: Translation updated at 2019-01-15 21:45
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:98
+translate english ep22_dialogue6_2a_aa9c6e9e:
+
+    # mt "Бедняжка! Что они с тобой сделали?!?!"
+    mt "Poor thing! What did they do to you?!?!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:290
+translate english ep22_dialogue6_5a_30c909fa:
+
+    # alex_photograph "Отлично, Миссис Бакфетт!"
+    # "Можете переодеваться здесь! Я не буду смотреть!"
+    alex_photograph "OK, Mrs. Buckfett!"
+    "You can change here! I'm not looking at you."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:293
+translate english ep22_dialogue6_5a_daac2c93:
+
+    # m "Я переоденусь в гримерке!"
+    # "Надеюсь Мелани не закрыла ее в этот раз?"
+    m "I'll change in the dressing room!"
+    "I hope Melanie hasn't closed it this time."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:296
+translate english ep22_dialogue6_5a_01b2865a:
+
+    # alex_photograph "Нет, Миссис Бакфетт, она открыта..." 
+    alex_photograph "No, Mrs. Buckfett, it's open..." 
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:299
+translate english ep22_dialogue6_5a_b415592f:
+
+    # m "Я скоро вернусь!"
+    m "I'll be right back!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:309
+translate english ep22_dialogue6_5a_e68fc1f8:
+
+    # "Выберите наряд для фотосессии сегодня!"
+    # m "Я выбираю это..."
+    "Choose an outfit for a photo shoot today!"
+    m "I choose this..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:322
+translate english ep22_dialogue6_5a_b4361c05:
+
+    # alex_photograph "Начинайте, позировать!"
+    # "Мотор!"
+    alex_photograph "Start posing!"
+    "Action!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:331
+translate english ep22_dialogue6_5a_ecb3ed97:
+
+    # alex_photograph "Миссис Бакфетт! Примите, пожалуйста, эту позу!"
+    # m "Алекс, снова ты за свое!"
+    # alex_photograph "Мэм! Это теперь моя работа!"
+    alex_photograph "Mrs. Buckfett! Please accept this pose!"
+    m "Alex, you're back for yours!"
+    alex_photograph "MA'am! That's my job now"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:345
+translate english ep22_dialogue6_5a_89b65137:
+
+    # alex_photograph "Мы закончили, Мэм!"
+    # "Хотите переодеться назад?"
+    alex_photograph "We're done!"
+    "Would you like to change back into your other clothes?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:351
+translate english ep22_dialogue6_5a_83504b00:
+
+    # m "Я не буду так сниматься!"
+    # m "Мы сделали достаточно кадров!"
+    # alex_photograph "Хотите переодеться назад?"
+    m "I'm not going to do that!"
+    m "We've taken enough shots!"
+    alex_photograph "Would you like to change back into your other clothes?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:386
+translate english ep22_dialogue6_7a_f5ebacc5:
+
+    # mt "Я сделала фотосессию!"
+    # mt "Мне надо получить деньги от Бифа!"
+    mt "Я сделала фотосессию!"
+    mt "Мне надо получить деньги от Бифа!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:395
+translate english ep22_dialogue6_7_c165afa3:
+
+    # m "Биф! Я сделала фотосессию!"
+    # "Где мои деньги?"
+    m "Biff! I took a photo shoot!"
+    "Where is my money?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:401
+translate english ep22_dialogue6_7_d716a468:
+
+    # biff "Только хорошие цыпочки получают деньги от папочки!"
+    # "Моника хорошая цыпочка?"
+    biff "Only good Chicks get money from daddy!"
+    "Is Monica a good chick?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:470
+translate english ep22_dialogue6_7_b8aa5f0a:
+
+    # biff "Тебе это очень понравится!"
+    # "Ты будешь заниматься тем же самым чем занимаешься на улице сейчас..."
+    # "Только будешь значительно больше получать за это!"
+    biff "You're gonna love this!"
+    "You're gonna be doing the same thing you're doing on the street right now..."
+    "Only going to get much more for it!"
+
+translate english strings:
+
+    # Quests/EP2_02/ep22_dialogues6.rpy:400
+    old "Моника обещала быть хорошей цыпочкой."
+    new ""
+
+    # Quests/EP2_02/ep22_dialogues6.rpy:439
+    old "Подарочный сертификат на $ 5000 отправлен Виктории"
+    new ""
+

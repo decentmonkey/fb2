@@ -376,3 +376,173 @@ translate english strings:
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot2_casting_corruption_required]) (disabled)"
     new "Behave as chick at Biff' casting... (low corruption, required [photoshoot2_casting_corruption_required]) (disabled)"
 
+# TODO: Translation updated at 2019-01-15 21:45
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:13
+translate english ep22_photoshoot2_eb5a4879:
+
+    # m "Знаю я твои правильные ракурсы..."
+    m "I know your right views..."
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:46
+translate english ep22_photoshoot2_pose1_495a0ac0:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    alex_photograph "Next pose, Mrs. Buckfett!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:251
+translate english ep22_photoshoot2_pose4_cc5969c0:
+
+    # m "Эй! Алекс!"
+    # "Я не собираюсь делать снимки в такой позе!"
+    m "Hey! Alex!"
+    "I'm not going to take pictures like this!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:291
+translate english ep22_photoshoot2_pose4_27f707c7:
+
+    # m "Эй! Ты что делаешь?!"
+    # "Ты что не видишь что у меня там ничего нет?!"
+    # "Хотя только попробуй увидь!"
+    m "Hey! What are you doing?!"
+    "Can't you see I don't have anything in there?!"
+    "Although just try and see!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:296
+translate english ep22_photoshoot2_pose4_c63ee9ab:
+
+    # m "Алекс, не вздумай подвинуть камеру ни на градус!"
+    # alex_photograph "Хорошо, Мэм!"
+    m "Alex, don't move the camera by a degree!"
+    alex_photograph "All right, Ma'am!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:366
+translate english ep22_photoshoot2_pose5_73085adc:
+
+    # m "Алекс! Даже не думай об этом!"
+    m "Alex! Don't even think about it!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:369
+translate english ep22_photoshoot2_pose5_f0182510:
+
+    # m "Алекс, не вздумай подвинуть камеру ни на градус!"
+    m "Alex, don't move the camera by a degree!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:400
+translate english ep22_photoshoot2_pose6_239fea7d:
+
+    # m "Алекс! Ты сошел с ума?!"
+    # "У меня платье натянулось, оно сейчас поднимется!"
+    # alex_photograph "Миссис Бакфетт! Это необходимо!"
+    # "Вы - Леди Нуар!"
+    # "Это, как бы, послание. Раскрытие сущности добра, которое находится вглубине Вас!"
+    # m "Какое раскрытие сущности добра?!"
+    # "Показывая жопу?!"
+    # alex_photograph "Миссис Бакфетт!"
+    # "Всего несколько кадров!"
+    m "Alex! Are you crazy?!"
+    "My dress is stretched, it's going to rise!"
+    alex_photograph "Mrs. Buckfett! You have to!"
+    "You are Lady Noir!"
+    "It's kind of a message. Discovery of your internal good, which is deep into You!"
+    m "What's the fuck is internal good?!"
+    "Ass showing?!"
+    alex_photograph "Mrs. Buckfett!"
+    "Just a few frames!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:411
+translate english ep22_photoshoot2_pose6_24e152e2:
+
+    # m "Даже не думай!"
+    m "Don't think!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:413
+translate english ep22_photoshoot2_pose6_0691ad22:
+
+    # mt "О Боже! Зачем я связалась с этими фотосессиями!!!"
+    # "Если бы только у меня был выбор!"
+    mt "Oh my God! Why I contacted with these photo shoots!!!"
+    "If only I had a choice!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:416
+translate english ep22_photoshoot2_pose6_997943ae:
+
+    # m "Хорошо, только быстро!"
+    # "И не бери камеру слишком низко!"
+    # alex_photograph "Конечно, Мэм!"
+    m "Okay, make it quick!"
+    "And don't take the camera too low!"
+    alex_photograph "Of course, Ma'am!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:457
+translate english ep22_photoshoot2_pose6_73085adc:
+
+    # m "Алекс! Даже не думай об этом!"
+    m "Alex! Don't even think about it!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:460
+translate english ep22_photoshoot2_pose6_f0182510:
+
+    # m "Алекс, не вздумай подвинуть камеру ни на градус!"
+    m "Alex, don't move the camera by a degree!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:531
+translate english ep22_photoshoot2_pose7_fa9935c8:
+
+    # m "Даже не думай брать этот ракурс!"
+    m "Don't even think about taking that angle!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:534
+translate english ep22_photoshoot2_pose7_f0182510:
+
+    # m "Алекс, не вздумай подвинуть камеру ни на градус!"
+    m "Alex, don't move the camera by a degree!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:562
+translate english ep22_photoshoot2_pose7_e4951120:
+
+    # m "ТЫ ЧТО НЕ ПОНЯЛ МЕНЯ!!!"
+    # "ХВАТИТ!!!"
+    m "DID YOU UNDERSTAND ME, DIDN'T YOU!!!"
+    "ENOUGH!!!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:570
+translate english ep22_photoshoot2_pose7_419d0d62:
+
+    # m "Алекс! Зачем ты сделал фото?!"
+    # "Удали его немедленно!"
+    # alex_photograph "Мэм! Не переживайте!"
+    # "Оно получилось в затемнении и там ничего не видно!"
+    m "Alex! Why did you take the photo?!"
+    "Remove it immediately!"
+    alex_photograph "MA'am! Don't worry!"
+    "It turned out in the dark, and there is nothing to see!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:633
+translate english ep22_photoshoot2_casting_c77c8d3d:
+
+    # biff "Кто сегодня цыпочка?"
+    # m "Сегодня цыпочка - это Леди Нуар..."
+    biff "Who's the chick tonight?"
+    m "Today, the chick is Lady Noir..."
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:636
+translate english ep22_photoshoot2_casting_e32340a5:
+
+    # biff "Что Леди Нуар хочет показать папочке?"
+    biff "What does Lady Noir want to show daddy?"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:653
+translate english ep22_photoshoot2_casting_b65c11aa:
+
+    # m "Ты заставил меня придти..."
+    m "You made me come here..."
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:654
+translate english ep22_photoshoot2_casting_2b8d9f4a:
+
+    # mt "Ненавижу!!!"
+    # biff "И что цыпочка будет делать?"
+    mt "I hate this!!!"
+    biff "What's chick gonna do?"
+

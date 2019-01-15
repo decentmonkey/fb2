@@ -384,3 +384,207 @@ translate english strings:
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot3_casting_corruption_required]) (disabled)"
     new "Behave as chick at Biff' casting... (low corruption, required [photoshoot3_casting_corruption_required]) (disabled)"
 
+# TODO: Translation updated at 2019-01-15 21:45
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:23
+translate english ep22_photoshoot3_b18fd05d:
+
+    # m "Ладно... Только давай без своих грязных ракурсов..."
+    # alex_photograph "Так точно, Мэм!"
+    m "All right... I don't want any of their dirty angles..."
+    alex_photograph "Yes, MA'am!"
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:56
+translate english ep22_photoshoot3_pose1_d1205335:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    # m "Алекс! Ты снова начинаешь?!"
+    # "Мы не успели начать, а у тебя уже двусмысленные позы!"
+    # alex_photograph "Мэм! Эти фото на календарь строительной компании!"
+    # "Вы будете стимулировать рабочих трудиться лучше!"
+    # "Вы должны быть соблазнительны!"
+    # m "Не вижу в этом ничего соблазнительного, Алекс!"
+    # mt "О БОЖЕ! Я фотографируюсь на календарь для рабочих!"
+    # "Я - МОНИКА БАКФЕТТ!!"
+    # "О БОЖЕ!!!"
+    alex_photograph "Next pose, Mrs. Buckfett!"
+    m "Alex! Are you starting again?!"
+    "We haven't had time to start, and you already have ambiguous poses!"
+    alex_photograph "MA'am! These photos on the calendar of the construction company!"
+    "You will encourage workers to work better!"
+    "You have to be seductive!"
+    m "I can't see anything tempting, Alex!"
+    mt "Oh my God! I'm taking pictures for the worker's calendar!"
+    "I AM MONICA BUCKFETT!!"
+    "Oh my God!!!"
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:135
+translate english ep22_photoshoot3_pose2_495a0ac0:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    alex_photograph "Next pose, Mrs. Buckfett!"
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:215
+translate english ep22_photoshoot3_pose3_e2906d0c:
+
+    # m "Алекс! Я не буду вставать в такую развратную позу!"
+    # "И это не обсуждается!"
+    m "Alex! I'm not going to get in that slutty position!"
+    "That's out of the question!"
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:283
+translate english ep22_photoshoot3_pose4_495a0ac0:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    alex_photograph "Next pose, Mrs. Buckfett!"
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:453
+translate english ep22_photoshoot3_pose6_822a9783:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    # "Пожалуйста, сядьте на колени и выдвиньте одну ногу вперед!"
+    # m "Хорошо, звучит не так уж страшно..."
+    alex_photograph "Next pose, Mrs. Buckfett!"
+    "Please sit on your knees and put one leg forward!"
+    m "Okay, that doesn't sound so bad..."
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:459
+translate english ep22_photoshoot3_pose6_d685af5e:
+
+    # m "ЧТО?!?!"
+    # "ЧТО ТЫ СДЕЛАЛ, МЕРЗАВЕЦ???"
+    # "Куда ты поставил молоток!"
+    # "Ты хоть заметил куда в какое место он упирается мне?!?!"
+    # alex_photograph "Миссис Бакфетт!"
+    # "И сделайте, пожалуйста, такое лицо как когда Вы облизывали молоток..."
+    m "What?!?!"
+    "WHAT HAVE YOU DONE, YOU BASTARD???"
+    "Where did you put the hammer!"
+    "Did you notice where he was?!?!"
+    alex_photograph "Mrs. Buckfett!"
+    "And please make a face like you are licking the hammer..."
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:468
+translate english ep22_photoshoot3_pose6_e7222503:
+
+    # m "ЧТО?!?!"
+    # "Иди ты к черту!"
+    # "Это называется фотосессия для календаря?!?!"
+    # "Может быть мне еще снять шорты и дать ему свободу войти туда куда он упирается сейчас?!"
+    # alex_photograph "..."
+    # m "Ах! Что я спрашиваю!"
+    # "Для тебя это было бы прекрасной новостью!"
+    # "НО НЕ ДЛЯ МЕНЯ?!?!"
+    # "Фотосессия закончена!!!"
+    m "What?!?!"
+    "You can go to hell!"
+    "Is it called a calendar photo shoot?!?!"
+    "Maybe I should take off my shorts and give it freedom to go where he's going now.!"
+    alex_photograph "..."
+    m "Ah! What I am asking about!"
+    "That would be great news for you!"
+    "BUT NOT FOR ME?!?!"
+    "The photo shoot is over!!!"
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:481
+translate english ep22_photoshoot3_pose6_9d670e31:
+
+    # alex_photograph "Мэм, я понимаю, может быть Вам неудобно как он упирается..."
+    # "Но если Вам чуточку приятно это, то, пожалуйста, высуньте язычок..."
+    # "Без него композиция будет неполной..."
+    # "А ведь Вы знаете, что от меня ждут лучших результатов."
+    # "Иначе Мистер Биф уволит меня..."
+    # "Поверьте, этот кадр выглядит прилично..."
+    # m "..."
+    # "Алекс, это точно выглядит прилично?"
+    # alex_photograph "Да, Мэм!"
+    # "Поверьте мне!"
+    # m "Мне это не нравится, Алекс..."
+    # alex_photograph "Миссис Бакфетт... Не переживайте, я сделаю кадры быстрее чем будет заметно что Вы стали влажной..."
+    # m "ЧТО?!?!..."
+    # alex_photograph "Я снимаю, Миссис Бакфетт!"
+    # "Пожалуйста, покажите эмоции!"
+    # m "Я...."
+    # "Ладно..."
+    alex_photograph "MA'am, I understand you may be uncomfortable with the way he's pushing..."
+    "But if you like it a little bit, please stick out your tongue..."
+    "Without it, the composition will be incomplete..."
+    "But You know that they expect the best results from me."
+    "Otherwise, Mr. Biff will fire me..."
+    "Believe me, this frame looks decent..."
+    m "..."
+    "Alex, does this look decent?"
+    alex_photograph "Yes, Ma'am!"
+    "Trust me!"
+    m "I don't like this, Alex..."
+    alex_photograph "Mrs. Buckfett... Don't worry, I'll take the shots faster than you'll notice you're getting wet..."
+    m "What?!?!..."
+    alex_photograph "I am shooting, Mrs. Buckfett!"
+    "Please show emotion!"
+    m "I am..."
+    "All right..."
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:511
+translate english ep22_photoshoot3_pose6_9168881a:
+
+    # alex_photograph "Миссис Бакфетт!"
+    # "Возьмите, пожалуйста, молоток и сделайте вид, как-будто вы его лижите."
+    # "Сексуально."
+    # "Это будет самый популярный кадр!"
+    alex_photograph "Mrs. Buckfett!"
+    "Please take the hammer and make it look like you're licking it."
+    "Sexually."
+    "This will be the most popular frame!"
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:516
+translate english ep22_photoshoot3_pose6_80a5c158:
+
+    # m "ЧТО??!"
+    # "НИКОГДА!"
+    # alex_photograph "Миссис Бакфетт! Но молоток чистый! Это реквизит!"
+    # "Я специально подготовил его!"
+    # "НИКОГДА!"
+    m "What??!"
+    "NEVER!"
+    alex_photograph "Mrs. Buckfett! But the hammer is clean. It's props!"
+    "I prepared it specially!"
+    "NEVER!"
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:523
+translate english ep22_photoshoot3_pose6_f1ea7a91:
+
+    # m "Алекс!"
+    # "Это последнее что я сделаю!"
+    # "Ты меня достал своей назойливостью!"
+    m "Alex!"
+    "That's the last thing I'll do!"
+    "I'm sick of your importunity!"
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:796
+translate english ep22_photoshoot3_casting_09658515:
+
+    # biff "Кто сегодня цыпочка?"
+    # m "Сегодня цыпочка - это девушка-рабочий с календаря, который будет висеть у каждого менеджера строительной компании..."
+    biff "Who's the chick tonight?"
+    m "Today, the chick is a pipe cleaner girl from the calendar, which every engineer and manager from the construction company will hang..."
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:799
+translate english ep22_photoshoot3_casting_dae5a739:
+
+    # biff "Что девушка с календаря хочет показать папочке?"
+    biff "What does the calendar girl want to show daddy?"
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:816
+translate english ep22_photoshoot3_casting_b65c11aa:
+
+    # m "Ты заставил меня придти..."
+    m "You made me come here..."
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:817
+translate english ep22_photoshoot3_casting_2b8d9f4a:
+
+    # mt "Ненавижу!!!"
+    # biff "И что цыпочка будет делать?"
+    mt "I hate this!!!"
+    biff "What's chick gonna do?"
+
