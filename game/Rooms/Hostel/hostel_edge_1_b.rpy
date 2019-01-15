@@ -12,7 +12,9 @@ label hostel_edge_1_b:
     return
 
 label hostel_edge_1_b_init:
-    $ add_object_to_scene("Monica", {"type":2, "base":"hostel_edge_1_b_Monica_[cloth][localDaySuffix]", "click" : "hostel_edge_1_b_environment", "actions" : "l", "zorder" : 10})
+    $ add_object_to_scene("Monica", {"type":2, "base":"hostel_edge_1_b_Monica_[cloth][localDaySuffix]", "click" : "hostel_edge_1_b_environment", "actions" : "l", "zorder" : 15})
+
+    $ add_object_to_scene("Bottle", {"type":2, "base":"hostel_edge_1_b_bottle", "click" : "take_trash_bottle", "actions" : "lh", "zorder" : 12})
 
     $ add_object_to_scene("Door1", {"type":2, "base":"Hostel_Edge_1_b_Door1", "click" : "hostel_edge_1_b_environment", "actions" : "l", "zorder" : 11, "b":0.13, "group":"evnironment"})
     $ add_object_to_scene("Door2", {"type":2, "base":"Hostel_Edge_1_b_Door2", "click" : "hostel_edge_1_b_environment", "actions" : "l", "zorder" : 11, "b":0.13, "group":"evnironment"})

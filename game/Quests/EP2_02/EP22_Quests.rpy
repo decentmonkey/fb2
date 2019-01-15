@@ -55,6 +55,10 @@ label ep22_init:
     # Инициализируем Бифа
     call ep22_quests_office_init()
 
+    # Инициализируем сцену с бутылкой
+    if vodkaTaken == False:
+        call init_location("hostel_edge_1_b", "hostel_edge_1_b_init")
+
     $ ep22_started = True
     return
 

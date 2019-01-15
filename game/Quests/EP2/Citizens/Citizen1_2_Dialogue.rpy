@@ -1,67 +1,64 @@
 label citizen1_dialogue:
     imgl Dial_Monica_Sandwich_0
+#    "Можно к Вам обратиться?"
+    m "Эй, ребята... Можно к Вам обратиться?"
+    #img Моника спрашивает
+    imgr Dial_Citizen_1_1
+    if citizen1_offered_last_day == day:
+        imgr Dial_Citizen_1_4
+        citizen1 "Эй! Тетя!"
+        "Ты уже подходила к нам!"
+        "Хватит с нас твоих флаеров!"
+        return
+    citizen1 "Да, тетя? Что тебе надо?"
     menu:
-        "Можно к Вам обратиться?":
-            m "Эй, ребята... Можно к Вам обратиться?"
-            #img Моника спрашивает
-            imgr Dial_Citizen_1_1
-            if citizen1_offered_last_day == day:
-                imgr Dial_Citizen_1_4
-                citizen1 "Эй! Тетя!"
-                "Ты уже подходила к нам!"
-                "Хватит с нас твоих флаеров!"
-                return
-            citizen1 "Да, тетя? Что тебе надо?"
-            menu:
-                "Возьмите, пожалуйста, этот флаер...":
-                    $ citizen1_offered_last_day = day
-                    imgl Dial_Monica_Sandwich_1
-                    m "Возьмите, пожалуйста, этот флаер..."
-                    if rand(0, citizen1_refuse_probability) > 0:
-                        imgr Dial_Citizen_1_2
-                        citizen1 "Тетя, не видишь, мы заняты, нам сейчас не до тебя."
+        "Возьмите, пожалуйста, этот флаер...":
+            $ citizen1_offered_last_day = day
+            imgl Dial_Monica_Sandwich_1
+            m "Возьмите, пожалуйста, этот флаер..."
+            if rand(0, citizen1_refuse_probability) > 0:
+                imgr Dial_Citizen_1_2
+                citizen1 "Тетя, не видишь, мы заняты, нам сейчас не до тебя."
+                imgr Dial_Citizen_2_3
+                citizen2 "Погоди, Том, разве ты не видишь? Она работает."
+                imgr Dial_Citizen_1_3
+                citizen1 "С такой внешностью тебе бы не флаеры раздавать!"
+                imgl Dial_Monica_Sandwich_0
+                mt "(Вот козел...)"
+                imgr Dial_Citizen_2_2
+                imgl Dial_Monica_Sandwich_1
+                call reduce_flyers() from _call_reduce_flyers_9
+                citizen2 "А я возьму, давай свой флаер."
+                # на 3 раз будут они давать какие то задания ей
+                imgr Dial_Citizen_1_3
+                citizen1 "Тетя! А больше ты ничего мне не можешь дать?"
+                menu:
+                    "Больше ничего!":
+                        imgl Dial_Monica_Sandwich_2
+                        #img Моника злится
+                        m "Больше ничего!"
+                        $ kebabWorkHarassmentAmount +=1
+                    "А что бы вы хотели?":
+                        m "А что бы вы хотели?"
+                        imgr Dial_Citizen_1_3
+                        citizen1 "А то ты не знаешь, тетя! Конечно тебя!"
                         imgr Dial_Citizen_2_3
-                        citizen2 "Погоди, Том, разве ты не видишь? Она работает."
-                        imgr Dial_Citizen_1_3
-                        citizen1 "С такой внешностью тебе бы не флаеры раздавать!"
-                        imgl Dial_Monica_Sandwich_0
-                        mt "(Вот козел...)"
-                        imgr Dial_Citizen_2_2
-                        imgl Dial_Monica_Sandwich_1
-                        call reduce_flyers() from _call_reduce_flyers_9
-                        citizen2 "А я возьму, давай свой флаер."
-                        # на 3 раз будут они давать какие то задания ей
-                        imgr Dial_Citizen_1_3
-                        citizen1 "Тетя! А больше ты ничего мне не можешь дать?"
+                        citizen2 "Мой брат слишком груб, но в целом он прав."
+                        imgl Dial_Monica_Sandwich_2
                         menu:
-                            "Больше ничего!":
-                                imgl Dial_Monica_Sandwich_2
-                                #img Моника злится
-                                m "Больше ничего!"
-                                $ kebabWorkHarassmentAmount +=1
-                            "А что бы вы хотели?":
-                                m "А что бы вы хотели?"
-                                imgr Dial_Citizen_1_3
-                                citizen1 "А то ты не знаешь, тетя! Конечно тебя!"
-                                imgr Dial_Citizen_2_3
-                                citizen2 "Мой брат слишком груб, но в целом он прав."
-                                imgl Dial_Monica_Sandwich_2
-                                menu:
-                                    "Что?! Да как вы можете просить такое?":
-                                        m "Что?! Да как вы можете просить такое?"
-                                        return
-                                    "Я подумаю, но сейчас я занята..." if fallingPathStarted == True:
-                                        m "Я подумаю, но сейчас я занята..."
-                                        mt "В любом случае я не могу ничего поделать в этом жутком наряде..."
-                                        return
+                            "Что?! Да как вы можете просить такое?":
+                                m "Что?! Да как вы можете просить такое?"
+                                return
+                            "Я подумаю, но сейчас я занята..." if fallingPathStarted == True:
+                                m "Я подумаю, но сейчас я занята..."
+                                mt "В любом случае я не могу ничего поделать в этом жутком наряде..."
+                                return
 
-                    else:
-                        imgr Dial_Citizen_1_4
-                        citizen1 "Нам не нужны твои флаеры, тетя!"
-                        $ kebabWorkMonicaRefusedAmount += 1
+            else:
+                imgr Dial_Citizen_1_4
+                citizen1 "Нам не нужны твои флаеры, тетя!"
+                $ kebabWorkMonicaRefusedAmount += 1
 
-        "Уйти.":
-            pass
     return
 # диалог доступен только когда моника не работает на раздаче флаеров
 label citizen1_dialogue_pilon:

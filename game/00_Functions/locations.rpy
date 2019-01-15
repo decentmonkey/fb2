@@ -14,3 +14,10 @@ init python:
             api_scene_name = stored_api_scene_name
 #        print kwargs
         return
+
+label init_location(loc_name, init_label):
+    $ stored_api_scene_name = api_scene_name
+    $ api_scene_name = loc_name
+    call expression init_label
+    $ api_scene_name = stored_api_scene_name
+    return

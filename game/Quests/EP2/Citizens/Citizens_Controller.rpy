@@ -202,6 +202,11 @@ label citizens_dialogue_process:
                 return
             call citizen12_dialogue_pilon()
             return
+        else:
+            if questOffendMonicaFlyersCitizen12Completed == True: # уже нападал на Монику
+                call citizen12_dialogue_refuse_after_offend()
+                return
+
         music citizenMusic
         call citizen12_dialogue() from _call_citizen12_dialogue
     if citizenObjName == "Citizen_13":
