@@ -76,7 +76,7 @@ define citizen2 = Character(_("Тим"), who_color=c_pink) #Stranger
 define citizen3 = Character(_("Джек"), who_color=c_orange) #Stranger
 define citizen4 = Character(_("Незнакомец"), who_color=c_blue) #Stranger
 define citizen5 = Character(_("Акира Сан"), who_color=c_blue) #Stranger
-define citizen6 = Character(_("Фил"), who_color=c_orange) #Stranger
+define citizen6 = Character(_("Фил"), who_color=c_blue) #Stranger
 define citizen7 = Character(_("Сальвадор"), who_color=c_pink) #Stranger
 define citizen8 = Character(_("Хитрый Джонни"), who_color=c_blue) #Stranger
 define citizen9 = Character(_("Найджел"), who_color=c_green) #Stranger

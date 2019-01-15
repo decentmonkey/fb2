@@ -1,5 +1,8 @@
 default hostel_edge_1_a_visited = False
 
+default monicaHostelEdge1ASuffix = ""
+default monicaHostelEdge1ASuffixOneTime = False
+
 label hostel_edge_1_a:
     $ print "enter_hostel_edge_1_a"
     $ miniMapData = []
@@ -12,12 +15,17 @@ label hostel_edge_1_a:
         $ localDaySuffix = day_suffix + "2"
     $ scene_image = "scene_hostel_edge_1_a[localDaySuffix]"
 
+    $ monicaHostelEdge1ASuffix = ""
+    if monicaHostelEdge1ASuffixOneTime != False:
+        $ monicaHostelEdge1ASuffix = monicaHostelEdge1ASuffixOneTime
+        $ monicaHostelEdge1ASuffixOneTime = False
+
     $ hostel_edge_1_a_visited = True
     return
 
 label hostel_edge_1_a_init:
 
-    $ add_object_to_scene("Monica", {"type":2, "base":"hostel_edge_1_a_Monica_[cloth][localDaySuffix]", "click" : "hostel_edge_1_a_environment", "actions" : "l", "zorder" : 10})
+    $ add_object_to_scene("Monica", {"type":2, "base":"hostel_edge_1_a_Monica_[cloth][monicaHostelEdge1ASuffix][localDaySuffix]", "click" : "hostel_edge_1_a_environment", "actions" : "l", "zorder" : 10})
 
     $ add_object_to_scene("Bar24", {"type":2, "base":"Hostel_Edge_1_a_Bar24", "click" : "hostel_edge_1_a_environment", "actions" : "l", "zorder" : 12, "b":0.13, "group":"environment"})
     $ add_object_to_scene("Boxes", {"type":2, "base":"Hostel_Edge_1_a_Boxes", "click" : "hostel_edge_1_a_environment", "actions" : "l", "zorder" : 12, "b":0.13, "group":"environment"})

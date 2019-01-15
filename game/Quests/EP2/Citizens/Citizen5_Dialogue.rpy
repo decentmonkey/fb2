@@ -56,6 +56,8 @@ label citizen5_dialogue_pilon:
     citizen5 "Да, да, место для утех. Вы мне показы, я вам американские деньги."
     mt "И откуда он такой?"
     # уходят к пилону.
+    $ citizenId = 5
+    call falling_path_store_customer()
     citizen5 "Очень хорошо! Давай начнем."
     $ showedBoobs = False
     $ showedButt = False

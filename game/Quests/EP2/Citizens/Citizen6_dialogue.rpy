@@ -1,6 +1,10 @@
 default questOffendMonicaFlyersCitizen6ThanksGiven = False
+default questWhorePlaceSearchingStage = 0
 
 label citizen6_dialogue:
+    if questOffendMonicaFlyersCitizen12Completed == True and questOffendMonicaFlyersCitizen6ThanksGiven == False:
+        mt "Надо бы поблагодарить его, но я не хочу делать это одетой в рекламу кебеба..."
+        return
     imgl Dial_Monica_Sandwich_0
 #    menu:
 #    "Можно к Вам обратиться?":
@@ -14,9 +18,6 @@ label citizen6_dialogue:
     citizen6 "Да, Леди? Что Вы хотели?"
     menu:
         # этот пункт появляется единождыпосле выполнения события нападения(проверка на переменную диалога 12)
-        "Спасибо, что помог мне..." if questOffendMonicaFlyersCitizen12Completed == True and questOffendMonicaFlyersCitizen6ThanksGive == False:
-            mt "Надо бы поблагодарить его, но я не хочу делать это одетой в рекламу кебеба..."
-            return
 
         "Возьмите, пожалуйста, этот флаер...":
             imgl Dial_Monica_Sandwich_1
@@ -53,8 +54,31 @@ label citizen6_dialogue:
 #            pass
     return
 
-    # диалог доступен только когда моника не работает на раздаче флаеров
+label citizen6_dialogue_after_offend_hook:
+    if kebabWorkInProgress == True:
+        return
+    if act=="l":
+        mt "Этот парень не выглядит злым. Надеюсь, так оно и есть."
+        return False
+#    if day_time == "evening":
+#        mt "Надо бы поблагодарить его, но я боюсь подходить к людям вечером..."
+#        mt "Лучше сделаю это завтра днем..."
+#        return False
+
+    if questWhorePlaceSearchingStage == 0:
+        call citizen6_dialogue_after_offend()
+        return False
+    if questWhorePlaceSearchingStage == 1:
+        call citizen6_dialogue_after_offend2()
+        return False
+    if questWhorePlaceSearchingStage == 2:
+        call citizen6_dialogue_after_offend3()
+        return False
+    return
+
+# диалог доступен только когда моника не работает на раздаче флаеров
 label citizen6_dialogue_after_offend:
+    music Groove2_85
     imgr Dial_Citizen_6_3
     imgl Dial_Monica_Whore_1
     m "Спасибо за помощь."
@@ -65,17 +89,21 @@ label citizen6_dialogue_after_offend:
     citizen6 "Ага. Ты же догадываешься, какую?"
     m "Понимаешь, я сейчас не в самом лучшем финансовом положении..."
     citizen6 "Не, не... Не нужны мне твои 10 долларов!"
+    imgl Dial_Monica_Whore_2
     m "Да как ты?!..."
-    mt "Черт, у меня нет даже 10 долларов..."
+    if money < 10:
+        mt "Черт, у меня нет даже 10 долларов..."
     m "Что же ты хочешь?"
     citizen6 "Ты красивая, хочу на тебя посмотреть."
     m "Что?"
     citizen6 "Да! Не прикидывайся, что не понимаешь о чем я."
+    imgl Dial_Monica_Whore_1
     m "Я не стану раздеваться!"
     citizen6 "Ха-ха! А ты не простая штучка..."
     "Не бойся, я не буду раздевать тебя! Я просто хочу на тебя посмотреть!"
     "Притом я дам тебе доллар сверху! Несмотря на то что ты мне и так должна!"
     "Давай, показывай себя!"
+    imgl Dial_Monica_Whore_1
     mt "Целый доллар?"
     "Просто за то чтобы показать себя не раздеваясь..."
     "С одной стороны, я могу за 5 минут заработать на этот чертов кебаб..."
@@ -85,17 +113,22 @@ label citizen6_dialogue_after_offend:
     "И у этого ничтожества нет ни одного шанса притронуться к моей красоте..."
     "Так что же мне делать?"
     menu:
-        "Согласиться...":
+        "Согласиться..." if corruption >= monicaWhoringStartCorruptionRequired:
+            pass
+        "Согласиться... (low corruption, required: [monicaWhoringStartCorruptionRequired]) (disabled)" if corruption < monicaWhoringStartCorruptionRequired:
             pass
         "Отказаться.":
+            imgl Dial_Monica_Whore_2
             m "Я не собираюсь ничего показывать тебе!"
             "Ты не за ту принял меня!"
             citizen6 "Эй! Я спас тебя!"
             "Не забывай что ты мне должна!"
             m "Не забуду!"
             return
+    imgl Dial_Monica_Whore_2
     m "Но я не буду делать это здесь, на виду у всей улицы!"
     citizen6 "Ну так давай сделаем это где-то еще!"
+    imgl Dial_Monica_Whore_1
     m "Где?"
     citizen6 "Я не знаю где! Ты же шлюха, ты знаешь такие места!"
     m "Я не шлюха! Я уже говорила тебе это!!!"
@@ -105,16 +138,30 @@ label citizen6_dialogue_after_offend:
     m "Хорошо, поищу такое место..."
     m "Но ты помнишь что обещал мне доллар?"
     citizen6 "Милочка, не затягивай с этим!"
-    call needToFindWhorePlace()
+    $ questWhorePlaceSearchingStage = 1
+    $ autorun_to_object("needToFindWhorePlace", scene="hostel_street2")
+    $ autorun_to_object("citizen6_dialogue_after_offend_place_found", scene="hostel_edge_1_a")
+    $ add_objective("find_place", _("Найти тихое место для обслуживания 'Клиентов'"), c_orange, 50)
+    call refresh_scene_fade()
+    return
+
+label citizen6_dialogue_after_offend_place_found:
+    mt "Какжется, это место вполне подходит для того чтобы здесь показать то что меня попросили..."
+    mt "Оно жуткое, но здесь никого нет..."
+    mt "И этот пилон... Что он делает здесь?"
+    $ remove_objective("find_place")
+    $ questWhorePlaceSearchingStage = 2
     return
 
 label citizen6_dialogue_after_offend2: #Моника еще не нашла место
+    music Groove2_85
     imgr Dial_Citizen_6_3
     imgl Dial_Monica_Whore_1
     citizen6 "Ну что, ты нашла место?!"
     "Пойдем!"
     m "Еще нет..."
     citizen6 "Давай быстрее! Я теряю терпение!"
+    $ autorun_to_object("needToFindWhorePlace", scene="hostel_street2")
     return
 
 label citizen6_dialogue_after_offend3: #Моника нашла место
@@ -133,55 +180,75 @@ label citizen6_dialogue_after_offend3: #Моника нашла место
     m "Ну хорошо, только я сказала, что не буду раздеваться."
     citizen6 "Я это уже слышал... Пошли уже."
 
+    sound highheels_short_walk
     # переход на локацию с пилоном
-    call pylonController(2, 3, 1)
+    $ monicaHostelEdge1ASuffixOneTime = 2
+    call change_scene("hostel_edge_1_a")
+    $ citizenId = 6
+    call falling_path_store_customer()
+    $ pylonPreset = rand(1,2)
+    call pylonController(2, 1)
+    with fadelong
     citizen6 "Ну вот, я же говорил, что это не далеко."
-    mt "Я уже была в этой грязной подворотне..."
+#    mt "Я уже была в этой грязной подворотне..."
     citizen6 "А теперь покажи сиськи!"
     if corruption < monicaWhoringClothBoobsCorruptionRequired:
         mt "Я не могу себе этого позволить!"
         "Я еще не настолько опустилась!"
         "И, надеюсь, этого не произойдет НИКОГДА!"
+        call pylonController(1, 2)
         m "Да как ты можешь такое просить!?"
+        call pylonController(5, 1)
         citizen6 "Дорогуша, ты же обещала Все, что угодно. Дак вот, я хочу твои сиськи!"
         m "Я не могу!"
         help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
         return
+    call pylonController(1, 2)
     m "Что? А что если нас кто-то увидит?"
     m "И ты не забыл про доллар?"
+    call pylonController(3, 1)
     citizen6 "Расслабься, тут никого нет. Давай уже, показывай. Чем быстрее ты это сделаешь, тем быстрее будешь мне не должна!"
-    call pylonController(1, 1, 2)
     mt "Что за извращенец..."
     m "Ладно..."
     # моника кажет сиськи
+    call pylonController(3, 3)
+    with fade
+    w
     call showRandomImages(boobsImages, 4)
-    call pylonController(2, 3, 1)
+    call pylonController(3, 3)
     citizen6 "О да, какие сочные!"
-    call pylonController(1, 1, 2)
+    call pylonController(3, 3)
     citizen6 "Да, у тебя шикарные сиськи! А теперь повернись и нагнись немного."
+
     if corruption < monicaWhoringClothAssCorruptionRequired:
+        call pylonController(3, 1)
         mt "Я не могу себе этого позволить!"
         "Я еще не настолько опустилась!"
         "И, надеюсь, этого не произойдет НИКОГДА!"
         m "Ну уж нет, это слишком!"
+        call pylonController(3, 1)
         citizen6 "Ну ладно, я сегодня добрый. Можешь идти. Тем более твои сиськи это нечто!"
         citizen6 "Детка, ты можешь неплохо зарабатывать этим!"
         $ add_money(1.0)
+        help "Для активации этого события требовалось [monicaWhoringClothAssCorruptionRequired] corruption, но не переживайте, Моника еще покажет себя."
         $ questOffendMonicaFlyersCitizen6ThanksGiven = True
         $ fallingPathStarted = True
-        help "Для активации этого события требовалось [monicaWhoringClothAssCorruptionRequired] corruption, но не переживайте, Моника еще покажет себя."
+        call ep22_quests_falling_path5()
         return
     # моника кажет жопу
+    call pylonController(4, 5)
+    with fade
+    w
     call showRandomImages(assImages, 4)
-    call pylonController(2, 3, 1)
+    call pylonController(4, 5)
     citizen6 "Да, детка, ты великолепна! Ты можешь неплохо зарабатывать этим!"
     "Ох, у меня кажется встал... Нужно срочно отойти..."
-    call pylonController(1, 1, 2)
+    call pylonController(2, 1)
     citizen6 "Можешь идти, считай, ты мне ничего не должна."
     $ add_money(1.0)
     # переменная отвечающая за А что бы ты хотел в диалогах с кебабом = 1
     $ questOffendMonicaFlyersCitizen6ThanksGiven = True
-    $ fallingPathStarted = True
+    call ep22_quests_falling_path5()
     return
 
 label citizen6_dialogue_after_offend4: #Моника думает после встречи с citizen6
@@ -212,6 +279,9 @@ label citizen6_dialogue_pilon:
     m "..."
     citizen6 "В общем, я понимаю о чем ты. Давай не будем тратить время и пойдем уже в наше место"
     # уходят к пилону.
+    call change_scene("hostel_edge_1_a")
+    $ citizenId = 6
+    call falling_path_store_customer()
     citizen6 "Начнем."
     $ showedBoobs = False
     $ showedButt = False

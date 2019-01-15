@@ -72,7 +72,7 @@ label citizens_dialogue_process:
             mt "Панки... Выглядят не очень дружелюбно."
             return
         if kebabWorkInProgress == False:
-            if fallingPathStarted == False or day_time == "Evening":
+            if (fallingPathStarted == False or day_time == "Evening"):
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse
                 return
             call citizen1_dialogue_pilon()
@@ -123,9 +123,6 @@ label citizens_dialogue_process:
         if kebabWorkInProgress == False:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_4
-                return
-            if questOffendMonicaFlyersCitizen12Completed == True and questOffendMonicaFlyersCitizen6ThanksGiven == False:
-                call citizen6_dialogue_after_offend()
                 return
             call citizen6_dialogue_pilon()
             return
@@ -305,6 +302,15 @@ label citizens_init_evening:
     $ print citizensEveningList
     return
 
+label citizens_init_monica_offend: # Инит ситизенов перед нападением на Монику
+    python:
+        # убираем всех ситизенов
+        for citizenName in citizens_list_source:
+            set_active(citizenName, False, scene="all")
+        # оставляем участников сцены нападения
+        set_active("Citizen_12", True, scene="all")
+        set_active("Citizen_6", True, scene="all")
+    return
 
 label needToFindWhorePlace:
     mt "Мне надо найти какое-то тихое место."

@@ -72,6 +72,9 @@ label citizen1_dialogue_pilon:
     m "Ну, я могу Вам кое-что показать, только нам лучше уйти отсюда."
     citizen1 "Конечно, тетя, без проблем."
     # уходят к пилону.
+    call change_scene("hostel_edge_1_a")
+    $ citizenId = 1
+    call falling_path_store_customer()
     citizen1 "Ну что, тетя..."
     $ showedBoobs = False
     $ showedButt = False

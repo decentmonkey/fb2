@@ -73,6 +73,8 @@ label citizen7_dialogue_pilon:
     m "Только нам нужно не самое людное место..."
     citizen7 "Конечно, как скажешь. Я знаю одно подходящее, пойдем!"
     # уходят к пилону.
+    $ citizenId = 7
+    call falling_path_store_customer()
     citizen7 "Вдохновение вещь сложная: очень сложно его найти... С чего бы нам начать?"
     $ showedBoobs = False
     $ showedButt = False

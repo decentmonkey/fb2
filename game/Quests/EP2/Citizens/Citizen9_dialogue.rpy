@@ -113,6 +113,8 @@ label citizen9_dialogue_pilon:
     citizen9 "Да ладно, дамочка, не злись."
     citizen9 "Знаешь подворотню с пилоном? Там часто появляются желающие заработать. Пойдем туда."
     # уходят к пилону.
+    $ citizenId = 9
+    call falling_path_store_customer()
     citizen9 "Ладно, дамочка, что там у тебя?"
     $ showedBoobs = False
     $ showedButt = False

@@ -88,6 +88,10 @@ label ep22_quests_Dick6:
     $ questLog(21, False)
     $ questLog(12, True)
     $ monicaNeedToAskMelanieForHelp = True
+
+    # Инициализация проверки на старт квеста нападения на Монику в кебабе
+    $ add_hook("change_time_day", "ep22_quests_falling_path1", scene="global", label="monica_kebab_offend", priority=50)
+
     call refresh_scene_fade()
     return False
 

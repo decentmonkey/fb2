@@ -6,6 +6,8 @@ default kebabWorkFlyersTotal = 0
 default kebabWorkMonicaRefusedAmount = 0
 default kebabWorkHarassmentAmount = 0
 
+default kebabOffendQuestJustCompleted = False
+
 label kebab_work_init:
     $ add_hook("Shawarma_Trader", "kebab_work_trader_interact1", scene="whores_place_shawarma", label="kebab_dialogue")
     return
@@ -53,13 +55,13 @@ label kebab_work_start:
         $ add_hook("enter_scene", "monica_shawarma_dialogue7", scene="hostel_street2", label="kebab_work")
         $ add_hook("enter_scene", "monica_shawarma_dialogue9", scene="hostel_street3", label="kebab_work")
         $ add_hook("enter_scene", "monica_shawarma_dialogue8", scene="hostel_edge_1_c", label="kebab_work")
-        $ add_hook("Teleport_Hostel_1_a", "kebab_work_block_hostel_edge_1_a", scene="hostel_edge_1_c", label="kebab_work")
         $ rooms_list = get_rooms_recursive("Street_Corner")
         python:
             for room_name in rooms_list:
                 add_hook("Monica", "monica_shawarma_dialogue11", scene=room_name, label="kebab_work")
 
         #monica_shawarma_dialogue10 mt "В этом районе одни наркоманы и извращенцы!"
+    $ add_hook("Teleport_Hostel_1_a", "kebab_work_block_hostel_edge_1_a", scene="hostel_edge_1_c", label="kebab_work")
 
     $ last_map_enabled = map_enabled
     $ map_enabled = False
@@ -132,6 +134,10 @@ label kebab_work_end:
     $ cloth = cloth_last
     $ map_enabled = last_map_enabled
     $ monicaKebabWorkAmount +=1
+    if kebabOffendQuestJustCompleted == True:
+        $ kebabOffendQuestJustCompleted = False
+        call change_scene("hostel_street2")
+        return
     $ changeDayTime("evening")
     call refresh_scene_fade() from _call_refresh_scene_fade_19
     return

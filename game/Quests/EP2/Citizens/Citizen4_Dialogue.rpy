@@ -55,6 +55,8 @@ label citizen4_dialogue_pilon:
     m "Ну я не о близком знакомстве...Немного о другом."
     citizen4 "Да не вопрос, я понимаю о чем речь. Любой из нашего района тебя поймет с полуслова."
     # уходят к пилону.
+    $ citizenId = 4
+    call falling_path_store_customer()
     citizen4 "Ну что, давай начнем."
     $ showedBoobs = False
     $ showedButt = False

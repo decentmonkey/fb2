@@ -74,6 +74,8 @@ label citizen13_dialogue_pilon:
     citizen13 "Ха-ха-ха. Подруга, я похож на идиота?"
     citizen13 "А вообще знаешь, раз тебе так нужны деньги, у меня есть идея. Пошли."
      # уходят к пилону.
+    $ citizenId = 13
+    call falling_path_store_customer()
     citizen13 "Вот мы и пришли. Вечером тут полно народу. А теперь..."
     $ showedBoobs = False
     $ showedButt = False

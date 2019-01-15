@@ -123,6 +123,8 @@ label citizen3_dialogue_pilon:
     m "Возможно..."
     citizen3 "У меня много дел, но такое я пропустить не могу."
     # уходят к пилону.
+    $ citizenId = 3
+    call falling_path_store_customer()
     citizen3 "Ну что, тетя..."
     $ showedBoobs = False
     $ showedButt = False

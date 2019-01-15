@@ -130,3 +130,16 @@ screen photoshoot():
             idle "/Icons2/photo_next2.png"
             hover "/Icons2/photo_next2_hover.png"
             action Return("next")
+
+screen pylon_screen(sceneImage, objectsList):
+    layer "master"
+    add sceneImage:
+        xpos 0
+        ypos 0
+    for objData in objectsList:
+        $ canvas_offset = get_canvas_offset(objData[0])
+        if canvas_offset == False:
+            $ canvas_offset = [0, 0]
+        add objData[1]:
+            xpos canvas_offset[1]
+            ypos canvas_offset[0]

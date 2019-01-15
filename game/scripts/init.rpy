@@ -89,9 +89,10 @@ define PS3_BiffProgressCasting = 5 #Прогресс за то что пришл
 define PS3_BiffProgressCastingChick = 5 #Прогресс за то что притворилась цыпочкой на кастинге
 
 
-define monicaWhoringClothBoobsCorruptionRequired = 50 # Кол-во corruption, чтобы Моника показала грудь в одежде
-define monicaWhoringClothBoobsTongueCorruptionRequired = 60 #Кол-во corruption, чтобы Моника показала грудь в одежде и высунула язык
-define monicaWhoringClothAssCorruptionRequired = 70 # Кол-во corruption, чтобы Моника показала грудь в одежде
+define monicaWhoringStartCorruptionRequired = 60
+define monicaWhoringClothBoobsCorruptionRequired = 60 # Кол-во corruption, чтобы Моника показала грудь в одежде
+define monicaWhoringClothBoobsTongueCorruptionRequired = 70 #Кол-во corruption, чтобы Моника показала грудь в одежде и высунула язык
+define monicaWhoringClothAssCorruptionRequired = 80 # Кол-во corruption, чтобы Моника показала зад в одежде
 
 define monicaVictoriaShowBoobsToCameraCorruptionRequired = 59 #Кол-во corruption, чтобы Моника показала грудь Виктории на телефон
 define monicaDickSeduceAsVictoriaByAssCorruptionRequired = 62 #Кол-во corruption, чтобы Моника показала Дику зад
@@ -101,6 +102,8 @@ define monicaVictoriaKissHeelsProgress = 5 # Кол-во прогресса за
 define monicaVictoriaLickAssBeginProgress = 10 # Кол-во прогресса за лизание зада Виктории в самом начале
 define monicaVictoriaPunishmentAssLickProgress = 10 # Кол-во прогресса за наказание лизанием зада
 define monicaVictoriaEarnedWeeklyMoneyProgress = 5 # Кол-во прогресса за зарабатывание денег за неделю
+
+
 
 default houseMusic = "Mandeville"
 #default biffMusic = "Funk_loop8"

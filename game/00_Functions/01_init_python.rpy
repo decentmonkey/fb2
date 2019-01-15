@@ -20,6 +20,7 @@ python early:
             renpy.pause()
             renpy.hide_screen("dialogue_down_arrow")
             dialogue_active_flag = False
+        print "HERERERERERERERERERERE"
         renpy.scene()
         renpy.show_screen("show_image_screen", imagePath)
         image_screen_scene_flag = False

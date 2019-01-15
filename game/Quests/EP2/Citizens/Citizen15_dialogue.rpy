@@ -62,6 +62,8 @@ label citizen15_dialogue_pilon:
     m "Знаю"
     citizen15 "Ты же наверняка видела подворотню с пилоном? Вот туда и пойдем."
     # уходят к пилону.
+    $ citizenId = 15
+    call falling_path_store_customer()
     citizen15 "Ну что, начинай, только не разочаруй меня."
     $ showedBoobs = False
     $ showedButt = False

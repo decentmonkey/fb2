@@ -83,6 +83,8 @@ label citizen8_dialogue_pilon:
     m "Я хочу предложить сделку: ты мне дашь денег. Взамен я разрешу тебе на меня посмотреть."
     citizen8 "Звучит как честная сделка, но лучше совершить ее не здесь."
     # уходят к пилону.
+    $ citizenId = 8
+    call falling_path_store_customer()
     citizen8 "С чего бы нам начать..."
     $ showedBoobs = False
     $ showedButt = False
