@@ -561,5 +561,5 @@ label photoshoot_flash_count:
 
 label corruption_required(required1):
 #    $ notif(str(required1) + __(" corruption required!"))
-    empty "[required1] corruption required!"
+    empty_name "[required1] corruption required!"
     return
