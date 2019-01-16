@@ -121,6 +121,7 @@ label citizen6_dialogue_after_offend:
             imgl Dial_Monica_Whore_2
             m "Я не собираюсь ничего показывать тебе!"
             "Ты не за ту принял меня!"
+            imgr Dial_Citizen_6_4
             citizen6 "Эй! Я спас тебя!"
             "Не забывай что ты мне должна!"
             m "Не забуду!"
@@ -175,9 +176,11 @@ label citizen6_dialogue_after_offend3: #Моника нашла место
     imgl Dial_Monica_Whore_1
     citizen6 "Ну что, ты нашла место?!"
     m "Я нашла одно место, но я не уверена и..."
+    imgr Dial_Citizen_6_4
     citizen6 "Послушай, хочу тебе напомнить: я тебя спас, ты мне обещала 'Все, что угодно'. А теперь шевели своим красивым задом, пока я добрый."
 #    mt "А ведь он прав...Возможно, он не такой уж и плохой."
     m "Ну хорошо, только я сказала, что не буду раздеваться."
+    imgr Dial_Citizen_6_1
     citizen6 "Я это уже слышал... Пошли уже."
 
     sound highheels_short_walk
@@ -187,7 +190,7 @@ label citizen6_dialogue_after_offend3: #Моника нашла место
     $ citizenId = 6
     call pylonController(2, 1)
     with fadelong
-    citizen6 "Ну вот, я же говорил, что это не далеко."
+    m "..."
 #    mt "Я уже была в этой грязной подворотне..."
     citizen6 "А теперь покажи сиськи!"
     if corruption < monicaWhoringClothBoobsCorruptionRequired:

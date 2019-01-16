@@ -21,6 +21,7 @@ label citizen12_dialogue:
             if questOffendMonicaFlyersCitizen12Started == True:
                 citizen12 "Конечно, крошка, а ты не хочешь ничего у меня взять?"
                 m "Вы это о чем?"
+                imgr Dial_Citizen_12_4
                 citizen12 "Сейчас, я покажу..."
                 music Power_Bots_Loop
                 sound snd_bodyfall
