@@ -904,3 +904,53 @@ translate english strings:
     old "Найти тихое место для обслуживания 'Клиентов'"
     new "Find a quiet place to serve 'Customers'"
 
+# TODO: Translation updated at 2019-01-17 01:22
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:122
+translate english citizen6_dialogue_after_offend_76491a9c:
+
+    # m "Я не собираюсь ничего показывать тебе!"
+    # "Ты не за ту принял меня!"
+    m "I'm not going to show you anything!"
+    "You took me for the wrong person!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:125
+translate english citizen6_dialogue_after_offend_11a71ac2:
+
+    # citizen6 "Эй! Я спас тебя!"
+    # "Не забывай что ты мне должна!"
+    # m "Не забуду!"
+    citizen6 "Hey! I saved you!"
+    "Don't forget that you owe me!"
+    m "I won't forget."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:177
+translate english citizen6_dialogue_after_offend3_3a3721a7:
+
+    # citizen6 "Ну что, ты нашла место?!"
+    # m "Я нашла одно место, но я не уверена и..."
+    citizen6 "So, did you find a place?!"
+    m "I found one place, but I'm not sure..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:180
+translate english citizen6_dialogue_after_offend3_37ad22f9:
+
+    # citizen6 "Послушай, хочу тебе напомнить: я тебя спас, ты мне обещала 'Все, что угодно'. А теперь шевели своим красивым задом, пока я добрый."
+    # m "Ну хорошо, только я сказала, что не буду раздеваться."
+    citizen6 "Listen, I want to remind you, I saved you, you promised me anything. Now move your pretty ass while I'm being kind."
+    m "All right, but I said I wouldn't undress."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:184
+translate english citizen6_dialogue_after_offend3_fad39ab4:
+
+    # citizen6 "Я это уже слышал... Пошли уже."
+    citizen6 "I heard that... Let's go."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:193
+translate english citizen6_dialogue_after_offend3_78c1050e:
+
+    # m "..."
+    # citizen6 "А теперь покажи сиськи!"
+    m "..."
+    citizen6 "Now show me your tits!"
+

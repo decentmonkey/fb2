@@ -412,3 +412,25 @@ translate english citizen1_dialogue_pilon_loop1_fa6b1463:
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
     mt "Well, I'll be rich soon and get my life back..."
 
+# TODO: Translation updated at 2019-01-17 01:22
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:67
+translate english citizen1_dialogue_pilon_936eb796:
+
+    # m "Эй, парни! Скажите, у вас есть деньги?"
+    # citizen1 "Смотря для чего, тетя. А тебе зачем?"
+    # m "Вы помнится хотели на меня посмотреть..."
+    m "Hey, guys! Tell me, do you have any money?"
+    citizen1 "Depends on what you want, hag. Why do you ask?"
+    m "I remember you wanted to see me..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:71
+translate english citizen1_dialogue_pilon_907316aa:
+
+    # citizen1 "Да, тетя, и до сих пор хотим!"
+    # m "Ну, я могу Вам кое-что показать, только нам лучше уйти отсюда."
+    # citizen1 "Конечно, тетя, без проблем."
+    citizen1 "Yes, hag, and still want!"
+    m "Well, I can show you something, but we'd better get out of here."
+    citizen1 "Of course, hag, no problem."
+

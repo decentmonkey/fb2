@@ -114,4 +114,6 @@ label ep22_Act_Images_monica_put_up_panties:
             with fade
             mt "Это трусики Бетти..."
             call showRandomImages(images, 5)
+        $ add_corruption(monicaBettyPantiesCorruption, "monicaBettyPantiesCorruption_" + str(day))
+
     return

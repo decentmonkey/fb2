@@ -242,3 +242,19 @@ translate english strings:
     old "Сказать спасибо за спасение от нападения"
     new "Say thank you for saving from offending."
 
+# TODO: Translation updated at 2019-01-17 01:22
+
+# game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:22
+translate english citizen12_dialogue_d24f575e:
+
+    # citizen12 "Конечно, крошка, а ты не хочешь ничего у меня взять?"
+    # m "Вы это о чем?"
+    citizen12 "Sure, baby, don't you want to take something from me?"
+    m "What about it?"
+
+# game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:25
+translate english citizen12_dialogue_9844219d:
+
+    # citizen12 "Сейчас, я покажу..."
+    citizen12 "I'll show..."
+

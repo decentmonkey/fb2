@@ -110,6 +110,7 @@ define monicaVictoriaLickAssBeginProgress = 10 # Кол-во прогресса 
 define monicaVictoriaPunishmentAssLickProgress = 10 # Кол-во прогресса за наказание лизанием зада
 define monicaVictoriaEarnedWeeklyMoneyProgress = 5 # Кол-во прогресса за зарабатывание денег за неделю
 
+define monicaBettyPantiesCorruption = 1 #Кол-во corruption за надевание трусиков Бетти
 
 
 default houseMusic = "Mandeville"
