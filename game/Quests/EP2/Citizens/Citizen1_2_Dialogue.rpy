@@ -73,8 +73,8 @@ label citizen1_dialogue_pilon:
     citizen1 "Конечно, тетя, без проблем."
     # уходят к пилону.
     call change_scene("hostel_edge_1_a", "Fade_long")
-    $ citizenId = 1
     call pylonController(2, 1)
+    with fade
     citizen1 "Ну что, тетя..."
     $ showedBoobs = False
     $ showedButt = False
@@ -113,7 +113,7 @@ label citizen1_dialogue_pilon:
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
                 help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
-                jump .loop1
+                jump citizen1_dialogue_pilon_loop1
             call pylonController(4, 5)
             with fade
             m "Я не собираюсь раздеваться, только так."
