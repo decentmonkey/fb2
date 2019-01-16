@@ -680,3 +680,227 @@ translate english citizen6_dialogue_pilon_loop6_94e18d46_1:
     m "What?! So little? Could give more!"
     mt "Well, I'll be rich soon and get my life back..."
 
+# TODO: Translation updated at 2019-01-16 14:59
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:61
+translate english citizen6_dialogue_after_offend_hook_43c0da90:
+
+    # mt "Этот парень не выглядит злым. Надеюсь, так оно и есть."
+    mt "This guy doesn't look angry. I hope that's the way it is."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:84
+translate english citizen6_dialogue_after_offend_90e2fccf:
+
+    # m "Спасибо за помощь."
+    # citizen6 "Не за что, милочка. Ну что, приступим?"
+    # m "Приступим... К чему?"
+    # citizen6 "Ну как же, к моей награде."
+    # m "Награде?"
+    # citizen6 "Ага. Ты же догадываешься, какую?"
+    # m "Понимаешь, я сейчас не в самом лучшем финансовом положении..."
+    # citizen6 "Не, не... Не нужны мне твои 10 долларов!"
+    m "Thanks for your help."
+    citizen6 "You're welcome. Shall we proceed?"
+    m "Proceed... To what?"
+    citizen6 "Well, to my award, then."
+    m "The reward?"
+    citizen6 "Yep. You know which one, right?"
+    m "You know, I'm not in the best financial position right now..."
+    citizen6 "No, no... I don't want your $ 10!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:93
+translate english citizen6_dialogue_after_offend_0b70135b:
+
+    # m "Да как ты?!..."
+    m "How are you?!..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:95
+translate english citizen6_dialogue_after_offend_c8c6128a:
+
+    # mt "Черт, у меня нет даже 10 долларов..."
+    mt "Hell, I don't even have $ 10..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:96
+translate english citizen6_dialogue_after_offend_5f35f330:
+
+    # m "Что же ты хочешь?"
+    # citizen6 "Ты красивая, хочу на тебя посмотреть."
+    # m "Что?"
+    # citizen6 "Да! Не прикидывайся, что не понимаешь о чем я."
+    m "What do you want?"
+    citizen6 "You're beautiful, I want to see you."
+    m "What?"
+    citizen6 "Yes! Don't pretend you don't know what I mean."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:101
+translate english citizen6_dialogue_after_offend_603af2ee:
+
+    # m "Я не стану раздеваться!"
+    # citizen6 "Ха-ха! А ты не простая штучка..."
+    # "Не бойся, я не буду раздевать тебя! Я просто хочу на тебя посмотреть!"
+    # "Притом я дам тебе доллар сверху! Несмотря на то что ты мне и так должна!"
+    # "Давай, показывай себя!"
+    m "I'm not getting undressed!"
+    citizen6 "Haha! And you're not a simple thing..."
+    "Don't worry, I won't undress you! I just want to look at you!"
+    "And I'll give you a dollar on top! Even though you owe me"
+    "Come on, show yourself!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:107
+translate english citizen6_dialogue_after_offend_fafa79ec:
+
+    # mt "Целый доллар?"
+    # "Просто за то чтобы показать себя не раздеваясь..."
+    # "С одной стороны, я могу за 5 минут заработать на этот чертов кебаб..."
+    # "А не ходить в этой рекламе по району целый день..."
+    # "С другой стороны... Моника, ты готова к этому?"
+    # "Но, ведь меня все-равно никто не узнает в этой жуткой одежде..."
+    # "И у этого ничтожества нет ни одного шанса притронуться к моей красоте..."
+    # "Так что же мне делать?"
+    mt "A whole dollar?"
+    "Just for showing myself with the clothes on..."
+    "On the one hand, I can earn this fucking kebab in 5 minutes..."
+    "And not to go in this is area all day..."
+    "On the other hand... Monica, are you ready for this?"
+    "But, for me anyway, nobody recognizes me in this terrible clothes..."
+    "And this jerk has no chance to touch my beauty..."
+    "So what am I supposed to do?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:129
+translate english citizen6_dialogue_after_offend_21208097:
+
+    # m "Но я не буду делать это здесь, на виду у всей улицы!"
+    # citizen6 "Ну так давай сделаем это где-то еще!"
+    m "But I won't do it here in front of the whole street!"
+    citizen6 "Well, let's do it somewhere else!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:132
+translate english citizen6_dialogue_after_offend_782448a5:
+
+    # m "Где?"
+    # citizen6 "Я не знаю где! Ты же шлюха, ты знаешь такие места!"
+    # m "Я не шлюха! Я уже говорила тебе это!!!"
+    # mt "Мерзавец! Как он смеет говорить такое?!"
+    # "Ну и что что я так одета, но неужели не видно что я Леди?!"
+    # m "..."
+    # m "Хорошо, поищу такое место..."
+    # m "Но ты помнишь что обещал мне доллар?"
+    # citizen6 "Милочка, не затягивай с этим!"
+    m "Where?"
+    citizen6 "I don't know where! You're a whore, you know such places!"
+    m "Not a whore! I already told you that!!!"
+    mt "Bastard! How dare he say such a thing?!"
+    "So I'm dressed like this, but can't you see I'm a lady?!"
+    m "..."
+    m "Okay, I'll look for a place..."
+    m "But you remember you promised me a dollar?"
+    citizen6 "Darling, don't wait too long!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:149
+translate english citizen6_dialogue_after_offend_place_found_9b4e9c9f:
+
+    # mt "Какжется, это место вполне подходит для того чтобы здесь показать то что меня попросили..."
+    # mt "Оно жуткое, но здесь никого нет..."
+    # mt "И этот пилон... Что он делает здесь?"
+    mt "Какжется, это место вполне подходит для того чтобы здесь показать то что меня попросили..."
+    mt "Оно жуткое, но здесь никого нет..."
+    mt "И этот пилон... Что он делает здесь?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:190
+translate english citizen6_dialogue_after_offend3_13c99884:
+
+    # citizen6 "Ну вот, я же говорил, что это не далеко."
+    # citizen6 "А теперь покажи сиськи!"
+    citizen6 "Well, I told you it wasn't far."
+    citizen6 "Now show me your tits!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:194
+translate english citizen6_dialogue_after_offend3_80ec55d4:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:198
+translate english citizen6_dialogue_after_offend3_5b42e03a:
+
+    # m "Да как ты можешь такое просить!?"
+    m "How could you ask that!?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:200
+translate english citizen6_dialogue_after_offend3_eb4beb68:
+
+    # citizen6 "Дорогуша, ты же обещала Все, что угодно. Дак вот, я хочу твои сиськи!"
+    # m "Я не могу!"
+    # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    citizen6 "Honey, you promised me anything. So, I want your boobs!"
+    m "I can't!"
+    help "Required [monicaWhoringClothBoobsCorruptionrequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:205
+translate english citizen6_dialogue_after_offend3_8310e39d:
+
+    # m "Что? А что если нас кто-то увидит?"
+    # m "И ты не забыл про доллар?"
+    m "What? What if someone sees us?"
+    m "Did you forget the dollar, didn't you?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:208
+translate english citizen6_dialogue_after_offend3_e457d104:
+
+    # citizen6 "Расслабься, тут никого нет. Давай уже, показывай. Чем быстрее ты это сделаешь, тем быстрее будешь мне не должна!"
+    # mt "Что за извращенец..."
+    # m "Ладно..."
+    citizen6 "Relax, there's nobody here. Just show me. The sooner you do this, the sooner you won't owe me!"
+    mt "What a Perv..."
+    m "All right..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:224
+translate english citizen6_dialogue_after_offend3_8de938d0:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # m "Ну уж нет, это слишком!"
+    mt "I can't afford that!"
+    "I'm not that down yet!"
+    "And I hope it NEVER happens!"
+    m "Well, no, that's too much!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:229
+translate english citizen6_dialogue_after_offend3_476ea974:
+
+    # citizen6 "Ну ладно, я сегодня добрый. Можешь идти. Тем более твои сиськи это нечто!"
+    # citizen6 "Детка, ты можешь неплохо зарабатывать этим!"
+    citizen6 "Okay, I'm kind today. You can go. Especially your tits are amazing!"
+    citizen6 "Baby, you can make good money with this!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:278
+translate english citizen6_dialogue_pilon_c0e84c3e:
+
+    # citizen6 "Конечно помню, у тебя все для этого есть!"
+    # m "..."
+    # citizen6 "В общем, я понимаю о чем ты. Давай не будем тратить время и пойдем уже в наше место"
+    citizen6 "Of course, I remember, you have everything for this!"
+    m "..."
+    citizen6 "Anyway, I know what you mean. Let's not waste time and go to our place"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:285
+translate english citizen6_dialogue_pilon_714f1a71:
+
+    # citizen6 "Начнем."
+    citizen6 "Start."
+
+translate english strings:
+
+    # Quests/EP2/Citizens/Citizen6_dialogue.rpy:115
+    old "Согласиться... (low corruption, required: [monicaWhoringStartCorruptionRequired]) (disabled)"
+    new ""
+
+    # Quests/EP2/Citizens/Citizen6_dialogue.rpy:144
+    old "Найти тихое место для обслуживания 'Клиентов'"
+    new ""
+

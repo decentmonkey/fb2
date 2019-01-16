@@ -401,3 +401,49 @@ translate english citizen8_dialogue_74088cf7:
     citizen8 "Show me your tongue."
     m "All right."
 
+# TODO: Translation updated at 2019-01-16 14:59
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:82
+translate english citizen8_dialogue_pilon_aff82caa:
+
+    # citizen8 "Конечно! Твой язычек сложно забыть!"
+    # m "Я хочу предложить сделку: ты мне дашь денег. Взамен я разрешу тебе на меня посмотреть."
+    # citizen8 "Звучит как честная сделка, но лучше совершить ее не здесь."
+    citizen8 "Of course! Your tongue is hard to forget!"
+    m "I want to make a deal, you give me the money. In return, I'll let you look at me."
+    citizen8 "Sounds like a fair deal, but it's better not here."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:89
+translate english citizen8_dialogue_pilon_b954b0f5:
+
+    # citizen8 "С чего бы нам начать..."
+    citizen8 "Where do we start from?..."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:161
+translate english citizen8_dialogue_pilon_loop8_1_59bd3c92:
+
+    # citizen8 "Славно потрудилась. Вот, держи."
+    citizen8 "You did a good job. Here you go."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:163
+translate english citizen8_dialogue_pilon_loop8_1_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:169
+translate english citizen8_dialogue_pilon_loop8_1_59bd3c92_1:
+
+    # citizen8 "Славно потрудилась. Вот, держи."
+    citizen8 "You did a good job. Here you go."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:171
+translate english citizen8_dialogue_pilon_loop8_1_ea17d522_1:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+

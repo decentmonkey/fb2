@@ -368,3 +368,47 @@ translate english citizen1_dialogue_pilon_loop1_09e94663_1:
     m "What?! So little? Could give more!"
     mt "Well, I'll be rich soon and get my life back..."
 
+# TODO: Translation updated at 2019-01-16 14:59
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:72
+translate english citizen1_dialogue_pilon_768312b2:
+
+    # m "Ну, я могу Вам кое-что показать, только нам лучше уйти отсюда."
+    # citizen1 "Конечно, тетя, без проблем."
+    m "Well, I can show you something, but we'd better get out of here."
+    citizen1 "Of course, hag, no problem."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:78
+translate english citizen1_dialogue_pilon_fa7ebf82:
+
+    # citizen1 "Ну что, тетя..."
+    citizen1 "Well, hag..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:133
+translate english citizen1_dialogue_pilon_loop1_7f42aa72:
+
+    # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
+    citizen1 "Okay, Hag, that's enough. Until next time. Here you go."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:136
+translate english citizen1_dialogue_pilon_loop1_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:142
+translate english citizen1_dialogue_pilon_loop1_619b5b93:
+
+    # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    citizen1 "Okay, Hag, that's enough. Until next time. Here you go."
+    m "What?! So little? Could give more!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:146
+translate english citizen1_dialogue_pilon_loop1_fa6b1463:
+
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    mt "Well, I'll be rich soon and get my life back..."
+

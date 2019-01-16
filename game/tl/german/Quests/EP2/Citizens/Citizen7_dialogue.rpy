@@ -254,3 +254,49 @@ translate german strings:
     old "Куда именно?"
     new ""
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:72
+translate german citizen7_dialogue_pilon_5d666ab4:
+
+    # citizen7 "Как хорошо! Не зря ты мне снилась прошлой ночью!"
+    # m "Только нам нужно не самое людное место..."
+    # citizen7 "Конечно, как скажешь. Я знаю одно подходящее, пойдем!"
+    citizen7 "Как хорошо! Не зря ты мне снилась прошлой ночью!"
+    m "Только нам нужно не самое людное место..."
+    citizen7 "Конечно, как скажешь. Я знаю одно подходящее, пойдем!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:79
+translate german citizen7_dialogue_pilon_8127b121:
+
+    # citizen7 "Вдохновение вещь сложная: очень сложно его найти... С чего бы нам начать?"
+    citizen7 "Вдохновение вещь сложная: очень сложно его найти... С чего бы нам начать?"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:135
+translate german citizen7_dialogue_pilon_loop7_3a3f6778:
+
+    # citizen7 "Как и любой модели, тебе полагается награда."
+    citizen7 "Как и любой модели, тебе полагается награда."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:137
+translate german citizen7_dialogue_pilon_loop7_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:142
+translate german citizen7_dialogue_pilon_loop7_3a3f6778_1:
+
+    # citizen7 "Как и любой модели, тебе полагается награда."
+    citizen7 "Как и любой модели, тебе полагается награда."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:144
+translate german citizen7_dialogue_pilon_loop7_ea17d522_1:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+

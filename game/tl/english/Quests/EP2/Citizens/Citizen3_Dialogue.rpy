@@ -436,3 +436,47 @@ translate english citizen3_dialogue_pilon_loop3_859b5ea4_1:
     m "What?! So little? Could give more!"
     mt "Well, I'll be rich soon and get my life back..."
 
+# TODO: Translation updated at 2019-01-16 14:59
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:123
+translate english citizen3_dialogue_pilon_5b766ae6:
+
+    # m "Возможно..."
+    # citizen3 "У меня много дел, но такое я пропустить не могу."
+    m "That's possible..."
+    citizen3 "I have a lot to do, but I can't miss this."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:129
+translate english citizen3_dialogue_pilon_bd96ef35:
+
+    # citizen3 "Ну что, тетя..."
+    citizen3 "Well, hag..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:185
+translate english citizen3_dialogue_pilon_loop3_1a0f6ae5:
+
+    # citizen3 "Ты сделала мой день, отлично потрудилась."
+    citizen3 "You made my day, you did a great job."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:187
+translate english citizen3_dialogue_pilon_loop3_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:193
+translate english citizen3_dialogue_pilon_loop3_1a0f6ae5_1:
+
+    # citizen3 "Ты сделала мой день, отлично потрудилась."
+    citizen3 "You made my day, you did a great job."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:195
+translate english citizen3_dialogue_pilon_loop3_ea17d522_1:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+

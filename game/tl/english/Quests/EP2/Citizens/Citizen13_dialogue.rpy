@@ -372,3 +372,65 @@ translate english citizen13_dialogue_pilon_loop13_86b5e6dc_1:
     m "What?! So little? Could give more!"
     mt "Well, I'll be rich soon and get my life back..."
 
+# TODO: Translation updated at 2019-01-16 14:59
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:65
+translate english citizen13_dialogue_pilon_4cb66ed8:
+
+    # citizen13 "Кончно помню, подруга! Ты разносишь флаеры с рекламой этих ужасных кебабов."
+    # m "Ну да, иногда."
+    # mt "А он выглядит дружелюбно и, похоже, я ему не интересна."
+    # m "Не будет ли у тебя лишних денег?"
+    # citizen13 "А тебе зачем, подруга? Если нужна контрацептив, дак у меня есть!"
+    # mt "Да за кого он меня принимает?"
+    # m "Нет, мне нужна наличка."
+    # citizen13 "Ну для тебя у меня есть немного, но ты же знаешь, что ничего не делается просто так."
+    # m "Ты мог бы мне одолжить."
+    # citizen13 "Ха-ха-ха. Подруга, я похож на идиота?"
+    # citizen13 "А вообще знаешь, раз тебе так нужны деньги, у меня есть идея. Пошли."
+    citizen13 "Of course, I remember you, friend! You spread flyers advertising these terrible kebabs."
+    m "Yeah, sometimes."
+    mt "He looks friendly and doesn't seem to be interested in me."
+    m "Do you have extra money?"
+    citizen13 "What do you want, friend? If you need a contraceptive, I have one!"
+    mt "Who does he think I am?"
+    m "No, I need some cash."
+    citizen13 "Well, I have a little bit for you, but you know nothing's done for nothing."
+    m "Could you lend me some money?"
+    citizen13 "Ha ha ha. Dude, do I look like an idiot?"
+    citizen13 "In fact, you know, since you need money, I have an idea. Go."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:80
+translate english citizen13_dialogue_pilon_b8de53b0:
+
+    # citizen13 "Вот мы и пришли. Вечером тут полно народу. А теперь..."
+    citizen13 "Here we are. In the evening there are a lot of people. Now..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:136
+translate english citizen13_dialogue_pilon_loop13_7f325bc0:
+
+    # citizen13 "Славно потрудилась, подруга! Вот, держи."
+    citizen13 "Nice work, girlfriend! Here you go."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:138
+translate english citizen13_dialogue_pilon_loop13_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:144
+translate english citizen13_dialogue_pilon_loop13_7f325bc0_1:
+
+    # citizen13 "Славно потрудилась, подруга! Вот, держи."
+    citizen13 "Nice work, girlfriend! Here you go."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:146
+translate english citizen13_dialogue_pilon_loop13_ea17d522_1:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+

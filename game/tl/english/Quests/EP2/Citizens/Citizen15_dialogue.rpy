@@ -318,3 +318,59 @@ translate english citizen15_dialogue_pilon_loop15_69c062d2_1:
     m "What?! So little? Could give more!"
     mt "Well, I'll be rich soon and get my life back..."
 
+# TODO: Translation updated at 2019-01-16 14:59
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:56
+translate english citizen15_dialogue_pilon_2e3ec22d:
+
+    # citizen15 "Да, и сейчас говорю. Только учти: у меня от таких как ты отбоя нет. Ты должна мне показать что-то особенное."
+    # mt "Самодовольный козел...Да кем он себя возомнил? Черт, мне нужны деньги."
+    # m "Куда ты хотел пойти?"
+    # citizen15 "Обычно девочки сами придумывают куда меня вести."
+    # "Не забывай, у меня нет отбоя от таких как ты."
+    # mt "!!!"
+    # m "Знаю"
+    # citizen15 "Ты же наверняка видела подворотню с пилоном? Вот туда и пойдем."
+    citizen15 "Yeah, I speak about it. Just keep in mind: I have lots like you. You have to show me something special."
+    mt "Smug bastard...Who does he think he is? Shit, I need the money."
+    m "Where did you want to go?"
+    citizen15 "Girls usually figure out where to take me."
+    "Don't forget, I have no limit of people like you."
+    mt "!!!"
+    m "I know"
+    citizen15 "You must have seen the gate with the pylon, right? There we go."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:68
+translate english citizen15_dialogue_pilon_9f3f7df8:
+
+    # citizen15 "Ну что, начинай, только не разочаруй меня."
+    citizen15 "Well, start, just don't disappoint me."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:123
+translate english citizen15_dialogue_pilon_loop15_6c0d51ab:
+
+    # citizen15 "Красивая шлюшка. Уверен, ты можешь больше, а пока так..."
+    citizen15 "Beautiful slut. I'm sure you can do more, but for now..."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:125
+translate english citizen15_dialogue_pilon_loop15_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:131
+translate english citizen15_dialogue_pilon_loop15_6c0d51ab_1:
+
+    # citizen15 "Красивая шлюшка. Уверен, ты можешь больше, а пока так..."
+    citizen15 "Beautiful slut. I'm sure you can do more, but for now..."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:133
+translate english citizen15_dialogue_pilon_loop15_ea17d522_1:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+

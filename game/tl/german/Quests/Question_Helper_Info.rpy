@@ -212,3 +212,11 @@ translate german strings:
     old "Любой ценой избегать встречи с Маркусом!"
     new ""
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+translate german strings:
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Вместо разноски флаеров я нашла более быстрый способ заработать. Он немного... неудобный, но ведь это ненадолго..."
+    new ""
+

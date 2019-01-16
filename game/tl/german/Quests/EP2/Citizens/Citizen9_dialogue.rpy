@@ -355,3 +355,63 @@ translate german citizen9_dialogue_pilon_loop9_f20736b2:
     m "Что 'Жопа!'?"
     citizen9 "Повернись ко мне задом и показывай!"
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:112
+translate german citizen9_dialogue_pilon_eae6f7a8:
+
+    # mt "Ах ты деревеньщина! Ты даже не знаешь кто я такая!"
+    # citizen9 "Да ладно, дамочка, не злись."
+    # citizen9 "Знаешь подворотню с пилоном? Там часто появляются желающие заработать. Пойдем туда."
+    mt "Ах ты деревеньщина! Ты даже не знаешь кто я такая!"
+    citizen9 "Да ладно, дамочка, не злись."
+    citizen9 "Знаешь подворотню с пилоном? Там часто появляются желающие заработать. Пойдем туда."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:119
+translate german citizen9_dialogue_pilon_571176a9:
+
+    # citizen9 "Ладно, дамочка, что там у тебя?"
+    citizen9 "Ладно, дамочка, что там у тебя?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:151
+translate german citizen9_dialogue_pilon_loop9_471142af:
+
+    # citizen9 "Жопа!"
+    # m "Что 'Жопа!'?"
+    citizen9 "Жопа!"
+    m "Что 'Жопа!'?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:154
+translate german citizen9_dialogue_pilon_loop9_3c73bcc5:
+
+    # citizen9 "Повернись ко мне задом и показывай!"
+    citizen9 "Повернись ко мне задом и показывай!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:178
+translate german citizen9_dialogue_pilon_loop9_e108a574:
+
+    # citizen9 "Ну что-то ты заслужила..."
+    citizen9 "Ну что-то ты заслужила..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:180
+translate german citizen9_dialogue_pilon_loop9_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:186
+translate german citizen9_dialogue_pilon_loop9_e108a574_1:
+
+    # citizen9 "Ну что-то ты заслужила..."
+    citizen9 "Ну что-то ты заслужила..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:188
+translate german citizen9_dialogue_pilon_loop9_ea17d522_1:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+

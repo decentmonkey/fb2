@@ -296,3 +296,173 @@ translate german strings:
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot2_casting_corruption_required]) (disabled)"
     new ""
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:13
+translate german ep22_photoshoot2_eb5a4879:
+
+    # m "Знаю я твои правильные ракурсы..."
+    m "Знаю я твои правильные ракурсы..."
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:46
+translate german ep22_photoshoot2_pose1_495a0ac0:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    alex_photograph "Следующая поза, Миссис Бакфетт!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:251
+translate german ep22_photoshoot2_pose4_cc5969c0:
+
+    # m "Эй! Алекс!"
+    # "Я не собираюсь делать снимки в такой позе!"
+    m "Эй! Алекс!"
+    "Я не собираюсь делать снимки в такой позе!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:291
+translate german ep22_photoshoot2_pose4_27f707c7:
+
+    # m "Эй! Ты что делаешь?!"
+    # "Ты что не видишь что у меня там ничего нет?!"
+    # "Хотя только попробуй увидь!"
+    m "Эй! Ты что делаешь?!"
+    "Ты что не видишь что у меня там ничего нет?!"
+    "Хотя только попробуй увидь!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:296
+translate german ep22_photoshoot2_pose4_c63ee9ab:
+
+    # m "Алекс, не вздумай подвинуть камеру ни на градус!"
+    # alex_photograph "Хорошо, Мэм!"
+    m "Алекс, не вздумай подвинуть камеру ни на градус!"
+    alex_photograph "Хорошо, Мэм!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:366
+translate german ep22_photoshoot2_pose5_73085adc:
+
+    # m "Алекс! Даже не думай об этом!"
+    m "Алекс! Даже не думай об этом!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:369
+translate german ep22_photoshoot2_pose5_f0182510:
+
+    # m "Алекс, не вздумай подвинуть камеру ни на градус!"
+    m "Алекс, не вздумай подвинуть камеру ни на градус!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:400
+translate german ep22_photoshoot2_pose6_239fea7d:
+
+    # m "Алекс! Ты сошел с ума?!"
+    # "У меня платье натянулось, оно сейчас поднимется!"
+    # alex_photograph "Миссис Бакфетт! Это необходимо!"
+    # "Вы - Леди Нуар!"
+    # "Это, как бы, послание. Раскрытие сущности добра, которое находится вглубине Вас!"
+    # m "Какое раскрытие сущности добра?!"
+    # "Показывая жопу?!"
+    # alex_photograph "Миссис Бакфетт!"
+    # "Всего несколько кадров!"
+    m "Алекс! Ты сошел с ума?!"
+    "У меня платье натянулось, оно сейчас поднимется!"
+    alex_photograph "Миссис Бакфетт! Это необходимо!"
+    "Вы - Леди Нуар!"
+    "Это, как бы, послание. Раскрытие сущности добра, которое находится вглубине Вас!"
+    m "Какое раскрытие сущности добра?!"
+    "Показывая жопу?!"
+    alex_photograph "Миссис Бакфетт!"
+    "Всего несколько кадров!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:411
+translate german ep22_photoshoot2_pose6_24e152e2:
+
+    # m "Даже не думай!"
+    m "Даже не думай!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:413
+translate german ep22_photoshoot2_pose6_0691ad22:
+
+    # mt "О Боже! Зачем я связалась с этими фотосессиями!!!"
+    # "Если бы только у меня был выбор!"
+    mt "О Боже! Зачем я связалась с этими фотосессиями!!!"
+    "Если бы только у меня был выбор!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:416
+translate german ep22_photoshoot2_pose6_997943ae:
+
+    # m "Хорошо, только быстро!"
+    # "И не бери камеру слишком низко!"
+    # alex_photograph "Конечно, Мэм!"
+    m "Хорошо, только быстро!"
+    "И не бери камеру слишком низко!"
+    alex_photograph "Конечно, Мэм!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:457
+translate german ep22_photoshoot2_pose6_73085adc:
+
+    # m "Алекс! Даже не думай об этом!"
+    m "Алекс! Даже не думай об этом!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:460
+translate german ep22_photoshoot2_pose6_f0182510:
+
+    # m "Алекс, не вздумай подвинуть камеру ни на градус!"
+    m "Алекс, не вздумай подвинуть камеру ни на градус!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:531
+translate german ep22_photoshoot2_pose7_fa9935c8:
+
+    # m "Даже не думай брать этот ракурс!"
+    m "Даже не думай брать этот ракурс!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:534
+translate german ep22_photoshoot2_pose7_f0182510:
+
+    # m "Алекс, не вздумай подвинуть камеру ни на градус!"
+    m "Алекс, не вздумай подвинуть камеру ни на градус!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:562
+translate german ep22_photoshoot2_pose7_e4951120:
+
+    # m "ТЫ ЧТО НЕ ПОНЯЛ МЕНЯ!!!"
+    # "ХВАТИТ!!!"
+    m "ТЫ ЧТО НЕ ПОНЯЛ МЕНЯ!!!"
+    "ХВАТИТ!!!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:570
+translate german ep22_photoshoot2_pose7_419d0d62:
+
+    # m "Алекс! Зачем ты сделал фото?!"
+    # "Удали его немедленно!"
+    # alex_photograph "Мэм! Не переживайте!"
+    # "Оно получилось в затемнении и там ничего не видно!"
+    m "Алекс! Зачем ты сделал фото?!"
+    "Удали его немедленно!"
+    alex_photograph "Мэм! Не переживайте!"
+    "Оно получилось в затемнении и там ничего не видно!"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:633
+translate german ep22_photoshoot2_casting_c77c8d3d:
+
+    # biff "Кто сегодня цыпочка?"
+    # m "Сегодня цыпочка - это Леди Нуар..."
+    biff "Кто сегодня цыпочка?"
+    m "Сегодня цыпочка - это Леди Нуар..."
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:636
+translate german ep22_photoshoot2_casting_e32340a5:
+
+    # biff "Что Леди Нуар хочет показать папочке?"
+    biff "Что Леди Нуар хочет показать папочке?"
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:653
+translate german ep22_photoshoot2_casting_b65c11aa:
+
+    # m "Ты заставил меня придти..."
+    m "Ты заставил меня придти..."
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:654
+translate german ep22_photoshoot2_casting_2b8d9f4a:
+
+    # mt "Ненавижу!!!"
+    # biff "И что цыпочка будет делать?"
+    mt "Ненавижу!!!"
+    biff "И что цыпочка будет делать?"
+

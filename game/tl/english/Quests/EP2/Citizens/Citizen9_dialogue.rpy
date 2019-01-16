@@ -419,3 +419,63 @@ translate english citizen9_dialogue_pilon_loop9_f20736b2:
     m "That 'Ass!'?"
     citizen9 "Turn your back on me and show me!"
 
+# TODO: Translation updated at 2019-01-16 14:59
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:112
+translate english citizen9_dialogue_pilon_eae6f7a8:
+
+    # mt "Ах ты деревеньщина! Ты даже не знаешь кто я такая!"
+    # citizen9 "Да ладно, дамочка, не злись."
+    # citizen9 "Знаешь подворотню с пилоном? Там часто появляются желающие заработать. Пойдем туда."
+    mt "You redneck! You don't even know who I am!"
+    citizen9 "Come on, lady, don't be mad."
+    citizen9 "You know the gate with the pylon? There are willing people to make money. Go there."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:119
+translate english citizen9_dialogue_pilon_571176a9:
+
+    # citizen9 "Ладно, дамочка, что там у тебя?"
+    citizen9 "Okay, lady, what have you got?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:151
+translate english citizen9_dialogue_pilon_loop9_471142af:
+
+    # citizen9 "Жопа!"
+    # m "Что 'Жопа!'?"
+    citizen9 "Ass!"
+    m "That 'Ass!'?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:154
+translate english citizen9_dialogue_pilon_loop9_3c73bcc5:
+
+    # citizen9 "Повернись ко мне задом и показывай!"
+    citizen9 "Turn your back on me and show me!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:178
+translate english citizen9_dialogue_pilon_loop9_e108a574:
+
+    # citizen9 "Ну что-то ты заслужила..."
+    citizen9 "Well, you deserve something..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:180
+translate english citizen9_dialogue_pilon_loop9_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:186
+translate english citizen9_dialogue_pilon_loop9_e108a574_1:
+
+    # citizen9 "Ну что-то ты заслужила..."
+    citizen9 "Well, you deserve something..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:188
+translate english citizen9_dialogue_pilon_loop9_ea17d522_1:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+

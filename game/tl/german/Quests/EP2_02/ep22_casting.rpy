@@ -238,3 +238,11 @@ translate german strings:
     old "Засунуть член в ее анальное отверстие, затем вытащить и облизать его. (disabled)"
     new ""
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+translate german strings:
+
+    # Quests/EP2_02/ep22_casting.rpy:177
+    old "Достать член Бифа и засунуть его в секретаршу. (disabled)"
+    new ""
+

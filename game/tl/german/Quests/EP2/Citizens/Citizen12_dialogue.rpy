@@ -228,3 +228,17 @@ translate german strings:
     old "Чем тебя развлечь?"
     new ""
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+# game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:137
+translate german citizen12_dialogue_refuse_after_offend_1bd5bc5f:
+
+    # m "Он хотел меня изнасиловать... Ни за что к нему не подойду..."
+    m "Он хотел меня изнасиловать... Ни за что к нему не подойду..."
+
+translate german strings:
+
+    # Quests/EP2/Citizens/Citizen12_dialogue.rpy:103
+    old "Сказать спасибо за спасение от нападения"
+    new ""
+

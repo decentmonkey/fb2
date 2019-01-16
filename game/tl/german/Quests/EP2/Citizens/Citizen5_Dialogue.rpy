@@ -272,3 +272,51 @@ translate german strings:
     old "Место для чего?"
     new ""
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:54
+translate german citizen5_dialogue_pilon_61361da9:
+
+    # citizen5 "Вы предлагать место?"
+    # m "Ну да, мы можем сходить с вами в одно место."
+    # citizen5 "Да, да, место для утех. Вы мне показы, я вам американские деньги."
+    # mt "И откуда он такой?"
+    citizen5 "Вы предлагать место?"
+    m "Ну да, мы можем сходить с вами в одно место."
+    citizen5 "Да, да, место для утех. Вы мне показы, я вам американские деньги."
+    mt "И откуда он такой?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:62
+translate german citizen5_dialogue_pilon_ebb53920:
+
+    # citizen5 "Очень хорошо! Давай начнем."
+    citizen5 "Очень хорошо! Давай начнем."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:118
+translate german citizen5_dialogue_pilon_loop5_43d8eec4:
+
+    # citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
+    citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:121
+translate german citizen5_dialogue_pilon_loop5_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:127
+translate german citizen5_dialogue_pilon_loop5_43d8eec4_1:
+
+    # citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
+    citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:130
+translate german citizen5_dialogue_pilon_loop5_ea17d522_1:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+

@@ -296,3 +296,49 @@ translate english citizen4_dialogue_pilon_loop4_ff0104e6_1:
     m "What?! So little? Could give more!"
     mt "Well, I'll be rich soon and get my life back..."
 
+# TODO: Translation updated at 2019-01-16 14:59
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:54
+translate english citizen4_dialogue_pilon_d52af87d:
+
+    # citizen4 "Конечно, давай познакомимся."
+    # m "Ну я не о близком знакомстве...Немного о другом."
+    # citizen4 "Да не вопрос, я понимаю о чем речь. Любой из нашего района тебя поймет с полуслова."
+    citizen4 "Sure, let's get acquainted."
+    m "I'm not talking about getting to know you...Something else."
+    citizen4 "No questions, I understand what it was. Anybody from our district will understand you easily."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:61
+translate english citizen4_dialogue_pilon_0bf21327:
+
+    # citizen4 "Ну что, давай начнем."
+    citizen4 "Well, let's get started."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:116
+translate english citizen4_dialogue_pilon_loop4_b29e8d1c:
+
+    # citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
+    citizen4 "And you're nothing like that, we'll have to get back to our acquaintance. Here you go."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:119
+translate english citizen4_dialogue_pilon_loop4_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:125
+translate english citizen4_dialogue_pilon_loop4_b29e8d1c_1:
+
+    # citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
+    citizen4 "And you're nothing like that, we'll have to get back to our acquaintance. Here you go."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:128
+translate english citizen4_dialogue_pilon_loop4_ea17d522_1:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+

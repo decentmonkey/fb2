@@ -60,3 +60,11 @@ translate english strings:
     old "Поставить бутылку на место."
     new "Put the bottle back."
 
+# TODO: Translation updated at 2019-01-16 14:59
+
+translate english strings:
+
+    # Quests/EP2/Citizens/Citizen11_alco.rpy:29
+    old "Водка"
+    new ""
+

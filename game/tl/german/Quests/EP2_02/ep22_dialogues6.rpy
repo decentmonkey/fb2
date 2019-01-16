@@ -666,3 +666,127 @@ translate german strings:
     old "Ты что-то говорил по поводу работы в офисе?"
     new ""
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:98
+translate german ep22_dialogue6_2a_aa9c6e9e:
+
+    # mt "Бедняжка! Что они с тобой сделали?!?!"
+    mt "Бедняжка! Что они с тобой сделали?!?!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:290
+translate german ep22_dialogue6_5a_30c909fa:
+
+    # alex_photograph "Отлично, Миссис Бакфетт!"
+    # "Можете переодеваться здесь! Я не буду смотреть!"
+    alex_photograph "Отлично, Миссис Бакфетт!"
+    "Можете переодеваться здесь! Я не буду смотреть!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:293
+translate german ep22_dialogue6_5a_daac2c93:
+
+    # m "Я переоденусь в гримерке!"
+    # "Надеюсь Мелани не закрыла ее в этот раз?"
+    m "Я переоденусь в гримерке!"
+    "Надеюсь Мелани не закрыла ее в этот раз?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:296
+translate german ep22_dialogue6_5a_01b2865a:
+
+    # alex_photograph "Нет, Миссис Бакфетт, она открыта..." 
+    alex_photograph "Нет, Миссис Бакфетт, она открыта..." 
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:299
+translate german ep22_dialogue6_5a_b415592f:
+
+    # m "Я скоро вернусь!"
+    m "Я скоро вернусь!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:309
+translate german ep22_dialogue6_5a_e68fc1f8:
+
+    # "Выберите наряд для фотосессии сегодня!"
+    # m "Я выбираю это..."
+    "Выберите наряд для фотосессии сегодня!"
+    m "Я выбираю это..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:322
+translate german ep22_dialogue6_5a_b4361c05:
+
+    # alex_photograph "Начинайте, позировать!"
+    # "Мотор!"
+    alex_photograph "Начинайте, позировать!"
+    "Мотор!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:331
+translate german ep22_dialogue6_5a_ecb3ed97:
+
+    # alex_photograph "Миссис Бакфетт! Примите, пожалуйста, эту позу!"
+    # m "Алекс, снова ты за свое!"
+    # alex_photograph "Мэм! Это теперь моя работа!"
+    alex_photograph "Миссис Бакфетт! Примите, пожалуйста, эту позу!"
+    m "Алекс, снова ты за свое!"
+    alex_photograph "Мэм! Это теперь моя работа!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:345
+translate german ep22_dialogue6_5a_89b65137:
+
+    # alex_photograph "Мы закончили, Мэм!"
+    # "Хотите переодеться назад?"
+    alex_photograph "Мы закончили, Мэм!"
+    "Хотите переодеться назад?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:351
+translate german ep22_dialogue6_5a_83504b00:
+
+    # m "Я не буду так сниматься!"
+    # m "Мы сделали достаточно кадров!"
+    # alex_photograph "Хотите переодеться назад?"
+    m "Я не буду так сниматься!"
+    m "Мы сделали достаточно кадров!"
+    alex_photograph "Хотите переодеться назад?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:386
+translate german ep22_dialogue6_7a_f5ebacc5:
+
+    # mt "Я сделала фотосессию!"
+    # mt "Мне надо получить деньги от Бифа!"
+    mt "Я сделала фотосессию!"
+    mt "Мне надо получить деньги от Бифа!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:395
+translate german ep22_dialogue6_7_c165afa3:
+
+    # m "Биф! Я сделала фотосессию!"
+    # "Где мои деньги?"
+    m "Биф! Я сделала фотосессию!"
+    "Где мои деньги?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:401
+translate german ep22_dialogue6_7_d716a468:
+
+    # biff "Только хорошие цыпочки получают деньги от папочки!"
+    # "Моника хорошая цыпочка?"
+    biff "Только хорошие цыпочки получают деньги от папочки!"
+    "Моника хорошая цыпочка?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:470
+translate german ep22_dialogue6_7_b8aa5f0a:
+
+    # biff "Тебе это очень понравится!"
+    # "Ты будешь заниматься тем же самым чем занимаешься на улице сейчас..."
+    # "Только будешь значительно больше получать за это!"
+    biff "Тебе это очень понравится!"
+    "Ты будешь заниматься тем же самым чем занимаешься на улице сейчас..."
+    "Только будешь значительно больше получать за это!"
+
+translate german strings:
+
+    # Quests/EP2_02/ep22_dialogues6.rpy:400
+    old "Моника обещала быть хорошей цыпочкой."
+    new ""
+
+    # Quests/EP2_02/ep22_dialogues6.rpy:439
+    old "Подарочный сертификат на $ 5000 отправлен Виктории"
+    new ""
+

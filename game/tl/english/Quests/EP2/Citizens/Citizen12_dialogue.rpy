@@ -228,3 +228,17 @@ translate english strings:
     old "Чем тебя развлечь?"
     new "What can I entertain you with?"
 
+# TODO: Translation updated at 2019-01-16 14:59
+
+# game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:137
+translate english citizen12_dialogue_refuse_after_offend_1bd5bc5f:
+
+    # m "Он хотел меня изнасиловать... Ни за что к нему не подойду..."
+    m "He wanted to rape me... I'll never go near him again..."
+
+translate english strings:
+
+    # Quests/EP2/Citizens/Citizen12_dialogue.rpy:103
+    old "Сказать спасибо за спасение от нападения"
+    new ""
+

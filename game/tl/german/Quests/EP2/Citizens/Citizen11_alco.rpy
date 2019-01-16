@@ -60,3 +60,11 @@ translate german strings:
     old "Поставить бутылку на место."
     new ""
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+translate german strings:
+
+    # Quests/EP2/Citizens/Citizen11_alco.rpy:29
+    old "Водка"
+    new ""
+

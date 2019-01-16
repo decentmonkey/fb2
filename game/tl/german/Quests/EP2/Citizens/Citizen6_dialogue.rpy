@@ -490,3 +490,227 @@ translate german strings:
     old "В какое это место?"
     new ""
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:61
+translate german citizen6_dialogue_after_offend_hook_43c0da90:
+
+    # mt "Этот парень не выглядит злым. Надеюсь, так оно и есть."
+    mt "Этот парень не выглядит злым. Надеюсь, так оно и есть."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:84
+translate german citizen6_dialogue_after_offend_90e2fccf:
+
+    # m "Спасибо за помощь."
+    # citizen6 "Не за что, милочка. Ну что, приступим?"
+    # m "Приступим... К чему?"
+    # citizen6 "Ну как же, к моей награде."
+    # m "Награде?"
+    # citizen6 "Ага. Ты же догадываешься, какую?"
+    # m "Понимаешь, я сейчас не в самом лучшем финансовом положении..."
+    # citizen6 "Не, не... Не нужны мне твои 10 долларов!"
+    m "Спасибо за помощь."
+    citizen6 "Не за что, милочка. Ну что, приступим?"
+    m "Приступим... К чему?"
+    citizen6 "Ну как же, к моей награде."
+    m "Награде?"
+    citizen6 "Ага. Ты же догадываешься, какую?"
+    m "Понимаешь, я сейчас не в самом лучшем финансовом положении..."
+    citizen6 "Не, не... Не нужны мне твои 10 долларов!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:93
+translate german citizen6_dialogue_after_offend_0b70135b:
+
+    # m "Да как ты?!..."
+    m "Да как ты?!..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:95
+translate german citizen6_dialogue_after_offend_c8c6128a:
+
+    # mt "Черт, у меня нет даже 10 долларов..."
+    mt "Черт, у меня нет даже 10 долларов..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:96
+translate german citizen6_dialogue_after_offend_5f35f330:
+
+    # m "Что же ты хочешь?"
+    # citizen6 "Ты красивая, хочу на тебя посмотреть."
+    # m "Что?"
+    # citizen6 "Да! Не прикидывайся, что не понимаешь о чем я."
+    m "Что же ты хочешь?"
+    citizen6 "Ты красивая, хочу на тебя посмотреть."
+    m "Что?"
+    citizen6 "Да! Не прикидывайся, что не понимаешь о чем я."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:101
+translate german citizen6_dialogue_after_offend_603af2ee:
+
+    # m "Я не стану раздеваться!"
+    # citizen6 "Ха-ха! А ты не простая штучка..."
+    # "Не бойся, я не буду раздевать тебя! Я просто хочу на тебя посмотреть!"
+    # "Притом я дам тебе доллар сверху! Несмотря на то что ты мне и так должна!"
+    # "Давай, показывай себя!"
+    m "Я не стану раздеваться!"
+    citizen6 "Ха-ха! А ты не простая штучка..."
+    "Не бойся, я не буду раздевать тебя! Я просто хочу на тебя посмотреть!"
+    "Притом я дам тебе доллар сверху! Несмотря на то что ты мне и так должна!"
+    "Давай, показывай себя!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:107
+translate german citizen6_dialogue_after_offend_fafa79ec:
+
+    # mt "Целый доллар?"
+    # "Просто за то чтобы показать себя не раздеваясь..."
+    # "С одной стороны, я могу за 5 минут заработать на этот чертов кебаб..."
+    # "А не ходить в этой рекламе по району целый день..."
+    # "С другой стороны... Моника, ты готова к этому?"
+    # "Но, ведь меня все-равно никто не узнает в этой жуткой одежде..."
+    # "И у этого ничтожества нет ни одного шанса притронуться к моей красоте..."
+    # "Так что же мне делать?"
+    mt "Целый доллар?"
+    "Просто за то чтобы показать себя не раздеваясь..."
+    "С одной стороны, я могу за 5 минут заработать на этот чертов кебаб..."
+    "А не ходить в этой рекламе по району целый день..."
+    "С другой стороны... Моника, ты готова к этому?"
+    "Но, ведь меня все-равно никто не узнает в этой жуткой одежде..."
+    "И у этого ничтожества нет ни одного шанса притронуться к моей красоте..."
+    "Так что же мне делать?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:129
+translate german citizen6_dialogue_after_offend_21208097:
+
+    # m "Но я не буду делать это здесь, на виду у всей улицы!"
+    # citizen6 "Ну так давай сделаем это где-то еще!"
+    m "Но я не буду делать это здесь, на виду у всей улицы!"
+    citizen6 "Ну так давай сделаем это где-то еще!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:132
+translate german citizen6_dialogue_after_offend_782448a5:
+
+    # m "Где?"
+    # citizen6 "Я не знаю где! Ты же шлюха, ты знаешь такие места!"
+    # m "Я не шлюха! Я уже говорила тебе это!!!"
+    # mt "Мерзавец! Как он смеет говорить такое?!"
+    # "Ну и что что я так одета, но неужели не видно что я Леди?!"
+    # m "..."
+    # m "Хорошо, поищу такое место..."
+    # m "Но ты помнишь что обещал мне доллар?"
+    # citizen6 "Милочка, не затягивай с этим!"
+    m "Где?"
+    citizen6 "Я не знаю где! Ты же шлюха, ты знаешь такие места!"
+    m "Я не шлюха! Я уже говорила тебе это!!!"
+    mt "Мерзавец! Как он смеет говорить такое?!"
+    "Ну и что что я так одета, но неужели не видно что я Леди?!"
+    m "..."
+    m "Хорошо, поищу такое место..."
+    m "Но ты помнишь что обещал мне доллар?"
+    citizen6 "Милочка, не затягивай с этим!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:149
+translate german citizen6_dialogue_after_offend_place_found_9b4e9c9f:
+
+    # mt "Какжется, это место вполне подходит для того чтобы здесь показать то что меня попросили..."
+    # mt "Оно жуткое, но здесь никого нет..."
+    # mt "И этот пилон... Что он делает здесь?"
+    mt "Какжется, это место вполне подходит для того чтобы здесь показать то что меня попросили..."
+    mt "Оно жуткое, но здесь никого нет..."
+    mt "И этот пилон... Что он делает здесь?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:190
+translate german citizen6_dialogue_after_offend3_13c99884:
+
+    # citizen6 "Ну вот, я же говорил, что это не далеко."
+    # citizen6 "А теперь покажи сиськи!"
+    citizen6 "Ну вот, я же говорил, что это не далеко."
+    citizen6 "А теперь покажи сиськи!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:194
+translate german citizen6_dialogue_after_offend3_80ec55d4:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:198
+translate german citizen6_dialogue_after_offend3_5b42e03a:
+
+    # m "Да как ты можешь такое просить!?"
+    m "Да как ты можешь такое просить!?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:200
+translate german citizen6_dialogue_after_offend3_eb4beb68:
+
+    # citizen6 "Дорогуша, ты же обещала Все, что угодно. Дак вот, я хочу твои сиськи!"
+    # m "Я не могу!"
+    # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    citizen6 "Дорогуша, ты же обещала Все, что угодно. Дак вот, я хочу твои сиськи!"
+    m "Я не могу!"
+    help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:205
+translate german citizen6_dialogue_after_offend3_8310e39d:
+
+    # m "Что? А что если нас кто-то увидит?"
+    # m "И ты не забыл про доллар?"
+    m "Что? А что если нас кто-то увидит?"
+    m "И ты не забыл про доллар?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:208
+translate german citizen6_dialogue_after_offend3_e457d104:
+
+    # citizen6 "Расслабься, тут никого нет. Давай уже, показывай. Чем быстрее ты это сделаешь, тем быстрее будешь мне не должна!"
+    # mt "Что за извращенец..."
+    # m "Ладно..."
+    citizen6 "Расслабься, тут никого нет. Давай уже, показывай. Чем быстрее ты это сделаешь, тем быстрее будешь мне не должна!"
+    mt "Что за извращенец..."
+    m "Ладно..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:224
+translate german citizen6_dialogue_after_offend3_8de938d0:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # m "Ну уж нет, это слишком!"
+    mt "Я не могу себе этого позволить!"
+    "Я еще не настолько опустилась!"
+    "И, надеюсь, этого не произойдет НИКОГДА!"
+    m "Ну уж нет, это слишком!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:229
+translate german citizen6_dialogue_after_offend3_476ea974:
+
+    # citizen6 "Ну ладно, я сегодня добрый. Можешь идти. Тем более твои сиськи это нечто!"
+    # citizen6 "Детка, ты можешь неплохо зарабатывать этим!"
+    citizen6 "Ну ладно, я сегодня добрый. Можешь идти. Тем более твои сиськи это нечто!"
+    citizen6 "Детка, ты можешь неплохо зарабатывать этим!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:278
+translate german citizen6_dialogue_pilon_c0e84c3e:
+
+    # citizen6 "Конечно помню, у тебя все для этого есть!"
+    # m "..."
+    # citizen6 "В общем, я понимаю о чем ты. Давай не будем тратить время и пойдем уже в наше место"
+    citizen6 "Конечно помню, у тебя все для этого есть!"
+    m "..."
+    citizen6 "В общем, я понимаю о чем ты. Давай не будем тратить время и пойдем уже в наше место"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:285
+translate german citizen6_dialogue_pilon_714f1a71:
+
+    # citizen6 "Начнем."
+    citizen6 "Начнем."
+
+translate german strings:
+
+    # Quests/EP2/Citizens/Citizen6_dialogue.rpy:115
+    old "Согласиться... (low corruption, required: [monicaWhoringStartCorruptionRequired]) (disabled)"
+    new ""
+
+    # Quests/EP2/Citizens/Citizen6_dialogue.rpy:144
+    old "Найти тихое место для обслуживания 'Клиентов'"
+    new ""
+

@@ -130,3 +130,97 @@ translate german strings:
     old "Я не собираюсь никем притворяться!"
     new ""
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:6
+translate german ep22_photoshoot1_d5c14705:
+
+    # alex_photograph "Мистер Биф сказал одеть его!"
+    # "Вы всем очень понравились на благотворительном вечере!"
+    # "Публика хочет еще Ваших фотографий в этом платье!"
+    alex_photograph "Мистер Биф сказал одеть его!"
+    "Вы всем очень понравились на благотворительном вечере!"
+    "Публика хочет еще Ваших фотографий в этом платье!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:161
+translate german ep22_photoshoot1_pose3_a9a99046:
+
+    # m "Алекс! Я не буду делать такой кадр!"
+    m "Алекс! Я не буду делать такой кадр!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:230
+translate german ep22_photoshoot1_pose4_8f79d3a9:
+
+    # m "Алекс! Забудь про такие ракурсы!"
+    m "Алекс! Забудь про такие ракурсы!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:277
+translate german ep22_photoshoot1_pose5_8f79d3a9:
+
+    # m "Алекс! Забудь про такие ракурсы!"
+    m "Алекс! Забудь про такие ракурсы!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:335
+translate german ep22_photoshoot1_pose6_a9a99046:
+
+    # m "Алекс! Я не буду делать такой кадр!"
+    m "Алекс! Я не буду делать такой кадр!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:382
+translate german ep22_photoshoot1_pose7_a9a99046:
+
+    # m "Алекс! Я не буду делать такой кадр!"
+    m "Алекс! Я не буду делать такой кадр!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:456
+translate german ep22_photoshoot1_pose8_8f79d3a9:
+
+    # m "Алекс! Забудь про такие ракурсы!"
+    m "Алекс! Забудь про такие ракурсы!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:508
+translate german ep22_photoshoot1_casting_cb9f49f2:
+
+    # m "Привет, Биф. Я пришла..."
+    m "Привет, Биф. Я пришла..."
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:510
+translate german ep22_photoshoot1_casting_e97962ff:
+
+    # biff "О! Цыпочка пришла к папочке!"
+    biff "О! Цыпочка пришла к папочке!"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:519
+translate german ep22_photoshoot1_casting_b464a529:
+
+    # biff "Кто сегодня цыпочка?"
+    # m "Сегодня цыпочка - это Моника Бакфетт с благотворительного вечера..."
+    biff "Кто сегодня цыпочка?"
+    m "Сегодня цыпочка - это Моника Бакфетт с благотворительного вечера..."
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:522
+translate german ep22_photoshoot1_casting_74be009d:
+
+    # biff "Что Моника Бакфетт хочет показать папочке?"
+    biff "Что Моника Бакфетт хочет показать папочке?"
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:541
+translate german ep22_photoshoot1_casting_b65c11aa:
+
+    # m "Ты заставил меня придти..."
+    m "Ты заставил меня придти..."
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:542
+translate german ep22_photoshoot1_casting_2b8d9f4a:
+
+    # mt "Ненавижу!!!"
+    # biff "И что цыпочка будет делать?"
+    mt "Ненавижу!!!"
+    biff "И что цыпочка будет делать?"
+
+translate german strings:
+
+    # Quests/EP2_02/ep22_photoshoot1.rpy:563
+    old " corruption required!"
+    new ""
+

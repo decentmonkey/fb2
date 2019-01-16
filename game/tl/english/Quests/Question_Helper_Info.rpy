@@ -216,3 +216,11 @@ translate english strings:
     old "Любой ценой избегать встречи с Маркусом!"
     new "Avoid meeting with Marcus at all costs!"
 
+# TODO: Translation updated at 2019-01-16 14:59
+
+translate english strings:
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Вместо разноски флаеров я нашла более быстрый способ заработать. Он немного... неудобный, но ведь это ненадолго..."
+    new ""
+

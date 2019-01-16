@@ -296,3 +296,49 @@ translate english citizen7_dialogue_pilon_loop7_ad16f282_1:
     m "What?! So little? Could give more!"
     mt "Well, I'll be rich soon and get my life back..."
 
+# TODO: Translation updated at 2019-01-16 14:59
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:72
+translate english citizen7_dialogue_pilon_5d666ab4:
+
+    # citizen7 "Как хорошо! Не зря ты мне снилась прошлой ночью!"
+    # m "Только нам нужно не самое людное место..."
+    # citizen7 "Конечно, как скажешь. Я знаю одно подходящее, пойдем!"
+    citizen7 "How nice! No wonder I dreamt about you last night!"
+    m "But we don't need the most crowded place..."
+    citizen7 "Of course, as you say. I know a good one, let's go!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:79
+translate english citizen7_dialogue_pilon_8127b121:
+
+    # citizen7 "Вдохновение вещь сложная: очень сложно его найти... С чего бы нам начать?"
+    citizen7 "Inspiration is a difficult thing: it is very difficult to find it... Where do we start?"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:135
+translate english citizen7_dialogue_pilon_loop7_3a3f6778:
+
+    # citizen7 "Как и любой модели, тебе полагается награда."
+    citizen7 "Like any model, you're entitled to a reward."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:137
+translate english citizen7_dialogue_pilon_loop7_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:142
+translate english citizen7_dialogue_pilon_loop7_3a3f6778_1:
+
+    # citizen7 "Как и любой модели, тебе полагается награда."
+    citizen7 "Like any model, you're entitled to a reward."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:144
+translate english citizen7_dialogue_pilon_loop7_ea17d522_1:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+

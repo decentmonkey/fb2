@@ -394,3 +394,47 @@ translate german citizen3_dialogue_pilon_loop3_1621f382:
     # citizen3 "Похоже, я только зря потратил с тобой время..."
     citizen3 "Похоже, я только зря потратил с тобой время..."
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:123
+translate german citizen3_dialogue_pilon_5b766ae6:
+
+    # m "Возможно..."
+    # citizen3 "У меня много дел, но такое я пропустить не могу."
+    m "Возможно..."
+    citizen3 "У меня много дел, но такое я пропустить не могу."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:129
+translate german citizen3_dialogue_pilon_bd96ef35:
+
+    # citizen3 "Ну что, тетя..."
+    citizen3 "Ну что, тетя..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:185
+translate german citizen3_dialogue_pilon_loop3_1a0f6ae5:
+
+    # citizen3 "Ты сделала мой день, отлично потрудилась."
+    citizen3 "Ты сделала мой день, отлично потрудилась."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:187
+translate german citizen3_dialogue_pilon_loop3_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:193
+translate german citizen3_dialogue_pilon_loop3_1a0f6ae5_1:
+
+    # citizen3 "Ты сделала мой день, отлично потрудилась."
+    citizen3 "Ты сделала мой день, отлично потрудилась."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:195
+translate german citizen3_dialogue_pilon_loop3_ea17d522_1:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+

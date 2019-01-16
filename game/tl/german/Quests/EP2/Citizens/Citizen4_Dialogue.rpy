@@ -242,3 +242,49 @@ translate german strings:
     old "Что Вы подразумеваете под знакомством?"
     new ""
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:54
+translate german citizen4_dialogue_pilon_d52af87d:
+
+    # citizen4 "Конечно, давай познакомимся."
+    # m "Ну я не о близком знакомстве...Немного о другом."
+    # citizen4 "Да не вопрос, я понимаю о чем речь. Любой из нашего района тебя поймет с полуслова."
+    citizen4 "Конечно, давай познакомимся."
+    m "Ну я не о близком знакомстве...Немного о другом."
+    citizen4 "Да не вопрос, я понимаю о чем речь. Любой из нашего района тебя поймет с полуслова."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:61
+translate german citizen4_dialogue_pilon_0bf21327:
+
+    # citizen4 "Ну что, давай начнем."
+    citizen4 "Ну что, давай начнем."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:116
+translate german citizen4_dialogue_pilon_loop4_b29e8d1c:
+
+    # citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
+    citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:119
+translate german citizen4_dialogue_pilon_loop4_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:125
+translate german citizen4_dialogue_pilon_loop4_b29e8d1c_1:
+
+    # citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
+    citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:128
+translate german citizen4_dialogue_pilon_loop4_ea17d522_1:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+

@@ -335,3 +335,49 @@ translate german citizen8_dialogue_74088cf7:
     citizen8 "Покажи мне свой язык."
     m "Ну ладно."
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:82
+translate german citizen8_dialogue_pilon_aff82caa:
+
+    # citizen8 "Конечно! Твой язычек сложно забыть!"
+    # m "Я хочу предложить сделку: ты мне дашь денег. Взамен я разрешу тебе на меня посмотреть."
+    # citizen8 "Звучит как честная сделка, но лучше совершить ее не здесь."
+    citizen8 "Конечно! Твой язычек сложно забыть!"
+    m "Я хочу предложить сделку: ты мне дашь денег. Взамен я разрешу тебе на меня посмотреть."
+    citizen8 "Звучит как честная сделка, но лучше совершить ее не здесь."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:89
+translate german citizen8_dialogue_pilon_b954b0f5:
+
+    # citizen8 "С чего бы нам начать..."
+    citizen8 "С чего бы нам начать..."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:161
+translate german citizen8_dialogue_pilon_loop8_1_59bd3c92:
+
+    # citizen8 "Славно потрудилась. Вот, держи."
+    citizen8 "Славно потрудилась. Вот, держи."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:163
+translate german citizen8_dialogue_pilon_loop8_1_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:169
+translate german citizen8_dialogue_pilon_loop8_1_59bd3c92_1:
+
+    # citizen8 "Славно потрудилась. Вот, держи."
+    citizen8 "Славно потрудилась. Вот, держи."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:171
+translate german citizen8_dialogue_pilon_loop8_1_ea17d522_1:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+

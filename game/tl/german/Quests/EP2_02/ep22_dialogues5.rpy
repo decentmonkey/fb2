@@ -2331,3 +2331,25 @@ translate german ep22_dialogues5_14_81462817:
     dick "Виктория, детка моя!"
     "Можно я потрогаю твою попу?"
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1369
+translate german ep22_dialogues5_10_53d40514:
+
+    # dick_secretary "Я получила сертификат в прошлую пятницу и мне понравился шоппинг."
+    # dick_secretary "В следующую пятницу я бы хотела снова заняться шоппингом..."
+    dick_secretary "Я получила сертификат в прошлую пятницу и мне понравился шоппинг."
+    dick_secretary "В следующую пятницу я бы хотела снова заняться шоппингом..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1372
+translate german ep22_dialogues5_10_7e903126:
+
+    # dick_secretary "Я собираюсь в пятницу заняться шопингом..."
+    dick_secretary "Я собираюсь в пятницу заняться шопингом..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1373
+translate german ep22_dialogues5_10_34768b92:
+
+    # "Миссис Бакфетт! Вы не забыли про нашу дружбу?"
+    "Миссис Бакфетт! Вы не забыли про нашу дружбу?"
+

@@ -314,3 +314,51 @@ translate english citizen5_dialogue_pilon_loop5_177488bd_1:
     m "What?! So little? Could give more!"
     mt "Well, I'll be rich soon and get my life back..."
 
+# TODO: Translation updated at 2019-01-16 14:59
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:54
+translate english citizen5_dialogue_pilon_61361da9:
+
+    # citizen5 "Вы предлагать место?"
+    # m "Ну да, мы можем сходить с вами в одно место."
+    # citizen5 "Да, да, место для утех. Вы мне показы, я вам американские деньги."
+    # mt "И откуда он такой?"
+    citizen5 "You suggest a place?"
+    m "Yeah, we can go to the same place."
+    citizen5 "Yes, yes, a place for comfort. You show me, I give you American money."
+    mt "Where is he?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:62
+translate english citizen5_dialogue_pilon_ebb53920:
+
+    # citizen5 "Очень хорошо! Давай начнем."
+    citizen5 "Very good! Let's start."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:118
+translate english citizen5_dialogue_pilon_loop5_43d8eec4:
+
+    # citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
+    citizen5 "You give Mr the greatest pleasure. We will see each other again soon!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:121
+translate english citizen5_dialogue_pilon_loop5_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:127
+translate english citizen5_dialogue_pilon_loop5_43d8eec4_1:
+
+    # citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
+    citizen5 "You give Mr the greatest pleasure. We will see each other again soon!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:130
+translate english citizen5_dialogue_pilon_loop5_ea17d522_1:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! So little? Could give more!"
+    mt "Well, I'll be rich soon and get my life back..."
+

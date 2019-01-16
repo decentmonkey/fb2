@@ -316,3 +316,47 @@ translate german strings:
     old "Я подумаю, но сейчас я занята..."
     new ""
 
+# TODO: Translation updated at 2019-01-16 15:00
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:72
+translate german citizen1_dialogue_pilon_768312b2:
+
+    # m "Ну, я могу Вам кое-что показать, только нам лучше уйти отсюда."
+    # citizen1 "Конечно, тетя, без проблем."
+    m "Ну, я могу Вам кое-что показать, только нам лучше уйти отсюда."
+    citizen1 "Конечно, тетя, без проблем."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:78
+translate german citizen1_dialogue_pilon_fa7ebf82:
+
+    # citizen1 "Ну что, тетя..."
+    citizen1 "Ну что, тетя..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:133
+translate german citizen1_dialogue_pilon_loop1_7f42aa72:
+
+    # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
+    citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:136
+translate german citizen1_dialogue_pilon_loop1_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Что?! Так мало? Мог бы дать и больше!"
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:142
+translate german citizen1_dialogue_pilon_loop1_619b5b93:
+
+    # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
+    m "Что?! Так мало? Мог бы дать и больше!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:146
+translate german citizen1_dialogue_pilon_loop1_fa6b1463:
+
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+
