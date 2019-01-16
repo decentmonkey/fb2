@@ -129,8 +129,8 @@ translate english citizen10_dialogue_ff59d1c0:
     # citizen10 "Понимаете, я флорист. Я изучаю растения. Но также меня интересует красота женского тела. Это меня вдохновляет."
     # m "Нет, спасибо, как нибудь в другой раз."
     # mt "Он вообще нормальный?"
-    m "О чем бы вы хотели поговорить?"
-    citizen10 "Понимаете, я флорист. Я изучаю растения. Но также меня интересует красота женского тела. Это меня вдохновляет."
-    m "Нет, спасибо, как нибудь в другой раз."
-    mt "Он вообще нормальный?"
+    m "What would you like to talk about?"
+    citizen10 "I'm a florist, you know. I study plants. But I'm also interested in the beauty of the female body. It inspires me."
+    m "No, thank you, next time."
+    mt "Is he normal?"
 

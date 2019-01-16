@@ -49,4 +49,4 @@ label citizen10_dialogue_pilon:
     m "Эй, простите..."
     citizen10 "Не сейчас, я занят!"
     mt "Что это с ним?"
-    return
+    return False

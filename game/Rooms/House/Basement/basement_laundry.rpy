@@ -10,8 +10,8 @@ label basement_laundry:
     return
 
 label basement_laundry_init:
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Basement_Laundry1_Monica_[cloth]", "click" : "ep22_dialogues3_11", "actions" : "l", "zorder":10, "tint": monica_tint})
-    $ add_object_to_scene("Panties_Box", {"type":2, "base":"Basement_Laundry1_Panties_Box", "click" : "EP22_Quests_Bardie6_panties_box", "actions" : "lh", "zorder" : 0, "group":"environment", "active":True})
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Basement_Laundry1_Monica_[cloth]", "click" : "basement_laundry_environment", "actions" : "l", "zorder":10, "tint": monica_tint})
+#    $ add_object_to_scene("Panties_Box", {"type":2, "base":"Basement_Laundry1_Panties_Box", "click" : "EP22_Quests_Bardie6_panties_box", "actions" : "lh", "zorder" : 0, "group":"environment", "active":False})
 
     $ add_object_to_scene("Accessories1", {"type":2, "base":"Basement_Laundry_Accessories1", "click" : "basement_laundry_environment", "actions" : "l", "zorder" : 0, "group":"environment", "active":False})
     $ add_object_to_scene("Accessories2", {"type":2, "base":"Basement_Laundry_Accessories2", "click" : "basement_laundry_environment", "actions" : "l", "zorder" : 0, "group":"environment", "active":False})
@@ -74,6 +74,9 @@ label basement_laundry_teleport:
     return
 
 label basement_laundry_environment:
+    if obj_name == "Monica":
+        mt "Это прачечная."
+
     if obj_name == "Accessories1":
         m "Какие-то щетки и моющие средства."
     if obj_name == "Accessories2":
