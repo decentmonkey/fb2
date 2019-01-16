@@ -90,3 +90,11 @@ translate english strings:
     old "НАЗАД К БАССЕЙНУ"
     new "BACK TO THE POOL"
 
+# TODO: Translation updated at 2019-01-17 00:49
+
+# game/Rooms/House/Basement/basement_laundry.rpy:78
+translate english basement_laundry_environment_58583d46:
+
+    # mt "Это прачечная."
+    mt "Это прачечная."
+
