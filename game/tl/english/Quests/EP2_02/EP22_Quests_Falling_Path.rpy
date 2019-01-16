@@ -12,15 +12,15 @@ translate english ep22_quests_falling_path4_ada061db:
 translate english ep22_quests_falling_path4_55b332f2:
 
     # mt "За такие маленькие деньги я больше ничего не собираюсь показывать ему сегодня..."
-    mt "За такие маленькие деньги я больше ничего не собираюсь показывать ему сегодня..."
+    mt "For such little money, I'm not going to show anything more to him today..."
 
 translate english strings:
 
     # Quests/EP2_02/EP22_Quests_Falling_Path.rpy:51
     old "Моника обслужила 'Клиента'"
-    new ""
+    new "Monica served 'Customer'"
 
     # Quests/EP2_02/EP22_Quests_Falling_Path.rpy:73
     old "Falling Path started..."
-    new ""
+    new "Falling Path started..."
 

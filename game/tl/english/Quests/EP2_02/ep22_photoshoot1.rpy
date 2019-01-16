@@ -260,3 +260,11 @@ translate english strings:
     old " corruption required!"
     new ""
 
+# TODO: Translation updated at 2019-01-16 16:40
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:564
+translate english corruption_required_4ccbc369:
+
+    # empty "[required1] corruption required!"
+    empty "[required1] corruption required!"
+

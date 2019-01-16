@@ -2521,8 +2521,8 @@ translate english ep22_dialogues5_10_53d40514:
 
     # dick_secretary "Я получила сертификат в прошлую пятницу и мне понравился шоппинг."
     # dick_secretary "В следующую пятницу я бы хотела снова заняться шоппингом..."
-    dick_secretary "Я получила сертификат в прошлую пятницу и мне понравился шоппинг."
-    dick_secretary "В следующую пятницу я бы хотела снова заняться шоппингом..."
+    dick_secretary "I received a certificate last Friday, and I liked shopping."
+    dick_secretary "Next Friday I would like to go shopping again..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1372
 translate english ep22_dialogues5_10_7e903126:

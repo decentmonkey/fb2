@@ -1162,8 +1162,8 @@ translate english ep22_dialogue6_7a_f5ebacc5:
 
     # mt "Я сделала фотосессию!"
     # mt "Мне надо получить деньги от Бифа!"
-    mt "Я сделала фотосессию!"
-    mt "Мне надо получить деньги от Бифа!"
+    mt "I did a photo shoot!"
+    mt "I need to get money from Biff!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:395
 translate english ep22_dialogue6_7_c165afa3:
@@ -1195,9 +1195,9 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:400
     old "Моника обещала быть хорошей цыпочкой."
-    new ""
+    new "Monica promised to be a good chick."
 
     # Quests/EP2_02/ep22_dialogues6.rpy:439
     old "Подарочный сертификат на $ 5000 отправлен Виктории"
-    new ""
+    new "Gift certificate for $ 5000 sent to Victoria"
 

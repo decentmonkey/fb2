@@ -222,5 +222,5 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Вместо разноски флаеров я нашла более быстрый способ заработать. Он немного... неудобный, но ведь это ненадолго..."
-    new ""
+    new "I found a faster way to make money instead of delivering flyers. It's a little... uncomfortable, but it's not for long..."
 

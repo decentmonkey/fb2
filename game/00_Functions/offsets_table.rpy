@@ -2302,7 +2302,23 @@ define offsets_table = {
     "hostel_edge_pylon_monica_4_c1":(122,680,1015,942),
     "hostel_edge_pylon_monica_4_c2":(65,623,1079,1000),
     "hostel_edge_pylon_monica_5_c1":(123,713,1034,979),
-    "hostel_edge_pylon_monica_5_c2":(49,706,1079,1090)
+    "hostel_edge_pylon_monica_5_c2":(49,706,1079,1090),
+    "dial_citizen_pylon_15_2_c2_overlay":(1003,950,1079,1281),
+    "dial_citizen_pylon_15_3_c2_overlay":(995,829,1079,1295),
+    "dial_citizen_pylon_15_4_c2_overlay":(995,829,1079,1295),
+    "dial_citizen_pylon_15_5_c2_overlay":(993,892,1079,1272),
+    "dial_citizen_pylon_1_1_c2_overlay":(949,854,1079,1272),
+    "dial_citizen_pylon_1_2_c2_overlay":(949,854,1079,1272),
+    "dial_citizen_pylon_1_3_c2_overlay":(949,854,1079,1272),
+    "dial_citizen_pylon_1_4_c2_overlay":(949,854,1079,1272),
+    "dial_citizen_pylon_1_5_c2_overlay":(949,854,1079,1272),
+    "hostel_edge_1_a_monica_whore2_evening2_overlay":(563,847,1052,1253),
+    "hostel_edge_1_a_monica_whore2_overlay":(734,910,1015,1169),
+    "hostel_edge_1_b_bottle":(823,1489,871,1505),
+    "office_monica_secretary_secretary4":(0,447,721,1522),
+    "office_monica_secretary_secretary4_evening":(0,447,721,1522),
+    "hostel_edge_1_a_monica_whore2":(539,984,963,1114),
+    "hostel_edge_1_a_monica_whore2_evening2":(539,984,963,1114)
 }
 
 init python:

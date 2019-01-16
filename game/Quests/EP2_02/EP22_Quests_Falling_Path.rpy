@@ -22,6 +22,7 @@ label ep22_quests_falling_path1: # Инициализация ситизенов
 
 label ep22_quests_falling_path2:
     $ fallingPathServedCustomers = []
+    $ fallingPathServedCustomersToday = 0
     return
 
 label ep22_quests_falling_path3:
@@ -32,7 +33,10 @@ label ep22_quests_falling_path3:
             add_hook(citizenObj[1], "ep22_quests_falling_path4", scene=citizenObj[2], group="falling_path_dialogues_citizens")
     return
 label ep22_quests_falling_path4:
+    # Диалоги проституции
     if act=="l":
+        return
+    if kebabWorkInProgress == True or cloth == "Kebab":
         return
     if day_time == "evening":
         mt "Я боюсь подходить к людям в вечернее время."
@@ -42,11 +46,16 @@ label ep22_quests_falling_path4:
         mt "За такие маленькие деньги я больше ничего не собираюсь показывать ему сегодня..."
         return False
     call citizens_init()
+    if obj_name == "Citizen_2":
+        $ obj_name = "Citizen_1"
+    $ store_music()
+    music Hidden_Agenda
     $ monicaHostelEdge1ASuffixOneTime = 2
     $ citizenId = citizens_list_source[obj_name]["id"]
     $ pylonPreset = rand(1,2)
     $ funcName = "citizen" + str(citizenId) + "_dialogue_pilon"
     call expression funcName
+    $ restore_music()
     if _return != False:
         $ notif(_("Моника обслужила 'Клиента'"))
         call falling_path_store_customer()
@@ -76,6 +85,7 @@ label ep22_quests_falling_path5:
     call init_location("hostel_edge_1_a", "hostel_edge_1_a_init")
     call ep22_quests_falling_path3()
     call falling_path_store_customer()
+    call citizens_init_day()
     return
 
 #    call citizens_init()

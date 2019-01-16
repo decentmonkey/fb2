@@ -3,8 +3,8 @@ default whorePlaceFounded = False
 
 default citizensAmountDay = 8
 default citizensAmountEvening = 5
-#default citizensAmountDay = 15
-#default citizensAmountEvening = 15
+#define citizensAmountDay = 15
+#define citizensAmountEvening = 15
 
 # чем больше, тем меньше вероятность что откажет
 default citizen1_refuse_probability = 5
@@ -269,6 +269,7 @@ label citizens_init:
 label citizens_init_day:
     python:
         citizensDayList = random.sample(set(list(citizens_list_source.keys())), citizensAmountDay)
+        citizensDayList = citizens_list_source.keys() #debug!!!
         if "Citizen_1" in citizensDayList:
             citizensDayList.append("Citizen_2")
         if "Citizen_2" in citizensDayList:
@@ -281,7 +282,7 @@ label citizens_init_day:
         set_active(False, scene="all", group="citizens")
         for var1 in citizensDayList:
             set_active(var1, True, scene="all")
-    $ print citizensDayList
+#    $ print citizensDayList
 
     return
 label citizens_init_evening:
@@ -299,7 +300,7 @@ label citizens_init_evening:
         set_active(False, scene="all", group="citizens")
         for var1 in citizensEveningList:
             set_active(var1, True, scene="all")
-    $ print citizensEveningList
+#    $ print citizensEveningList
     return
 
 label citizens_init_monica_offend: # Инит ситизенов перед нападением на Монику

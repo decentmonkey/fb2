@@ -802,9 +802,9 @@ translate english citizen6_dialogue_after_offend_place_found_9b4e9c9f:
     # mt "Какжется, это место вполне подходит для того чтобы здесь показать то что меня попросили..."
     # mt "Оно жуткое, но здесь никого нет..."
     # mt "И этот пилон... Что он делает здесь?"
-    mt "Какжется, это место вполне подходит для того чтобы здесь показать то что меня попросили..."
-    mt "Оно жуткое, но здесь никого нет..."
-    mt "И этот пилон... Что он делает здесь?"
+    mt "It seems that this place is quite suitable for showing here what I was asked..."
+    mt "It's creepy, but there's nobody here..."
+    mt "And this pylon... What is it doing here?"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:190
 translate english citizen6_dialogue_after_offend3_13c99884:
@@ -898,9 +898,9 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen6_dialogue.rpy:115
     old "Согласиться... (low corruption, required: [monicaWhoringStartCorruptionRequired]) (disabled)"
-    new ""
+    new "Agree... (low corruption, required: [monicaWhoringStartCorruptionRequired]) (disabled)"
 
     # Quests/EP2/Citizens/Citizen6_dialogue.rpy:144
     old "Найти тихое место для обслуживания 'Клиентов'"
-    new ""
+    new "Find a quiet place to serve 'Customers'"
 

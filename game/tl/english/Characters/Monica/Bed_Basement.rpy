@@ -130,11 +130,11 @@ translate english basement_monica_hungry_cant_sleep_c026432e:
 translate english monica_skip_until_friday_interrupted_39011ce3:
 
     # empty_name "Пропускание дней прервано..."
-    empty_name "Пропускание дней прервано..."
+    empty_name "Skipping days interrupted..."
 
 translate english strings:
 
     # Characters/Monica/Bed_Basement.rpy:99
     old "Пропустить до Пятницы."
-    new ""
+    new "Skip until Friday."
 

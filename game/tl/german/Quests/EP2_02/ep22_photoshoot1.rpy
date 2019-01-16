@@ -224,3 +224,11 @@ translate german strings:
     old " corruption required!"
     new ""
 
+# TODO: Translation updated at 2019-01-16 16:35
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:564
+translate german corruption_required_4ccbc369:
+
+    # empty "[required1] corruption required!"
+    empty "[required1] corruption required!"
+

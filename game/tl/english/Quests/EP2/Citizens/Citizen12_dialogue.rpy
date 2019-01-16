@@ -240,5 +240,5 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen12_dialogue.rpy:103
     old "Сказать спасибо за спасение от нападения"
-    new ""
+    new "Say thank you for saving from offending."
 

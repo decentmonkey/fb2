@@ -342,3 +342,19 @@ translate english citizen4_dialogue_pilon_loop4_ea17d522_1:
     m "What?! So little? Could give more!"
     mt "Well, I'll be rich soon and get my life back..."
 
+# TODO: Translation updated at 2019-01-16 16:40
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:33
+translate english citizen4_dialogue_5d080525:
+
+    # m "Что вы имеете ввиду?"
+    # citizen4 "Я бы хотел узнать по ближе такую красотку. Думаю, мы бы договорились."
+    # m "Договорились о чем?"
+    # citizen4 "Что за вопросы? Обычно девушки вашей профессии это понимают."
+    # mt "Да что за люди здесь живут?! Всем надо одно и то же..."
+    m "Что вы имеете ввиду?"
+    citizen4 "Я бы хотел узнать по ближе такую красотку. Думаю, мы бы договорились."
+    m "Договорились о чем?"
+    citizen4 "Что за вопросы? Обычно девушки вашей профессии это понимают."
+    mt "Да что за люди здесь живут?! Всем надо одно и то же..."
+

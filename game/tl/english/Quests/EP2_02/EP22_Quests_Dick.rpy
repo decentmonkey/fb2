@@ -12,5 +12,5 @@ translate english strings:
 
     # Quests/EP2_02/EP22_Quests_Dick.rpy:102
     old "Виктория потратила деньги Моники на шоппинг. Она ждет деньги снова до следующей пятницы."
-    new ""
+    new "Victoria spent Monica's money on shopping. She is waiting for the money again until next Friday."
 

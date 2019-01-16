@@ -142,5 +142,5 @@ translate english strings:
 
     # Quests/EP2_02/ep22_casting.rpy:177
     old "Достать член Бифа и засунуть его в секретаршу. (disabled)"
-    new ""
+    new "Get Biff's dick and put it to the Secretary. (disabled)"
 

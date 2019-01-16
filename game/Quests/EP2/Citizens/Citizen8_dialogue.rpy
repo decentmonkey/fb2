@@ -120,6 +120,7 @@ label citizen8_dialogue_pilon:
                     m "Ладно."
                     call pylonController(3, 4)
                     with fade
+                    w
                     call showRandomImages(boobsImagesTonque, 1)
                     call pylonController(3, 4)
                     # img показывает сиськи и язык
