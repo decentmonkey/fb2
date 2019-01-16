@@ -62,66 +62,79 @@ label citizen15_dialogue_pilon:
     m "Знаю"
     citizen15 "Ты же наверняка видела подворотню с пилоном? Вот туда и пойдем."
     # уходят к пилону.
-    $ citizenId = 15
-    call falling_path_store_customer()
+    call change_scene("hostel_edge_1_a", "Fade_long")
+    call pylonController(2, 1)
+    with fadelong
     citizen15 "Ну что, начинай, только не разочаруй меня."
     $ showedBoobs = False
     $ showedButt = False
     label citizen15_dialogue_pilon_loop15:
+    call pylonController(1, 1)
     menu:
         "Покажи сиськи.":
-            call pylonController(2, 3, 1)
+            call pylonController(3, 1)
             citizen15 "Для начала сиськи, показывай!"
             if corruption < monicaWhoringClothBoobsCorruptionRequired:
+                call pylonController(3, 1)
                 mt "Я не могу себе этого позволить!"
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
                 help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
                 jump citizen15_dialogue_pilon_loop15
 
-            call pylonController(1, 1, 2)
+            call pylonController(3, 3)
+            with fade
             m "Я не собираюсь раздеваться, только так."
             call showRandomImages(boobsImages, 4)
-            call pylonController(2, 3, 1)
+            call pylonController(5, 3)
             citizen15 "И это все?"
-            call pylonController(1, 1, 2)
+            call pylonController(2, 3)
             # img показывает сиськи
             citizen15 "Мда, ну и так сойдет..."
             $ showedBoobs = True
+            $ add_corruption(monicaWhoringClothBoobsCorruptionProgress, "monicaWhoringClothBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen15_dialogue_pilon_loop15
         "Покажи попу.":
-            call pylonController(2, 3, 1)
+            call pylonController(4, 1)
             citizen15 "А теперь повернсь и покажи свой зад!"
             if corruption < monicaWhoringClothAssCorruptionRequired:
+                call pylonController(4, 1)
                 mt "Я не могу себе этого позволить!"
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
                 help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
                 jump citizen15_dialogue_pilon_loop15
-            call pylonController(1, 1, 2)
+            call pylonController(4, 5)
+            with fade
             m "Я не собираюсь раздеваться, только так."
             call showRandomImages(assImages, 4)
-            call pylonController(2, 3, 1)
+            call pylonController(4, 5)
             # img показывает зад
             citizen15 "Зад, 10 долларовой шлюхи, но еще рабочий."
-            call pylonController(1, 1, 2)
+            call pylonController(4, 1)
             mt "Что за козел. Врезать может ему?"
             $ showedButt = True
+            $ add_corruption(monicaWhoringClothAssCorruptionProgress, "monicaWhoringClothAssCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen15_dialogue_pilon_loop15
         "Достаточно на сегодня.":
             if showedBoobs == True and showedButt == True:
-                $ add_money(0.5)
+                $ add_money(monicaWhoringClothBoobsAndButtMoney)
+                call pylonController(2, 1)
                 citizen15 "Красивая шлюшка. Уверен, ты можешь больше, а пока так..."
+                call pylonController(1, 1)
                 m "Что?! Так мало? Мог бы дать и больше!"
                 mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
                 return
             if showedBoobs == True or showedButt == True:
+                $ add_money(monicaWhoringClothBoobsOrButtMoney)
+                call pylonController(2, 1)
                 citizen15 "Красивая шлюшка. Уверен, ты можешь больше, а пока так..."
+                call pylonController(1, 1)
                 m "Что?! Так мало? Мог бы дать и больше!"
                 mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-                $ add_money(0.25)
                 return
             #если не было
+            call pylonController(5, 1)
             citizen15 "Сходи поищи себе кого-нибудь еще."
             return
     return

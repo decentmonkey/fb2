@@ -248,21 +248,21 @@ label citizens_dialogue_process:
 
 label citizens_init:
     $ citizens_list_source = {
-        "Citizen_1":{},
-        "Citizen_2":{},
-        "Citizen_3":{},
-        "Citizen_4":{},
-        "Citizen_5":{},
-        "Citizen_6":{},
-        "Citizen_7":{},
-        "Citizen_8":{},
-        "Citizen_9":{},
-        "Citizen_10":{},
-        "Citizen_11":{},
-        "Citizen_12":{},
-        "Citizen_13":{},
-        "Citizen_14":{},
-        "Citizen_15":{},
+        "Citizen_1":{"id":1},
+        "Citizen_2":{"id":2},
+        "Citizen_3":{"id":3},
+        "Citizen_4":{"id":4},
+        "Citizen_5":{"id":5},
+        "Citizen_6":{"id":6},
+        "Citizen_7":{"id":7},
+        "Citizen_8":{"id":8},
+        "Citizen_9":{"id":9},
+        "Citizen_10":{"id":10},
+        "Citizen_11":{"id":11},
+        "Citizen_12":{"id":12},
+        "Citizen_13":{"id":13},
+        "Citizen_14":{"id":14},
+        "Citizen_15":{"id":15},
     }
     return
 

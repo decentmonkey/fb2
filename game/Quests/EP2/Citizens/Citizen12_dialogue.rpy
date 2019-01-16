@@ -97,6 +97,7 @@ label citizen12_dialogue:
                 m "Что?"
                 citizen6 "Ну ты же сама обещала, что у меня будет все, что я захочу..."
                 $ set_active("Citizen_12", False, scene="all")
+                $ add_hook("Citizen_12", "citizen12_dialogue_refuse_after_offend", scene="hostel_street2", priority = 200, label="monica_kebab_offend_refuse_talk")
                 $ questOffendMonicaFlyersCitizen12Started = False # и это событие больше не появляется
                 $ questOffendMonicaFlyersCitizen12Completed = True
                 $ add_objective("thanks_for_rescue", _("Сказать спасибо за спасение от нападения"), c_green, 40)
@@ -131,12 +132,7 @@ label citizen12_dialogue:
 #            pass
     return
 
-label citizen12_dialogue_pilon:
-    imgl Dial_begin35_22
-    m "Он хотел меня изнасиловать... Ни за что к нему не подойду..."
-    return
-
 label citizen12_dialogue_refuse_after_offend: #Когда подходит в кебабе после нападения
-    imgl Dial_begin35_22
+    imgc Dial_begin35_22
     m "Он хотел меня изнасиловать... Ни за что к нему не подойду..."
-    return
+    return False

@@ -2,6 +2,7 @@ default fallingPathServedCustomers = []
 default fallingPathServedCustomersTotal = 0
 default fallingPathServedCustomersToday = 0
 
+define fallingPathMaxCustomersPerDay = 3 # Количество обслуженных клиентов до того как наступит вечер
 
 label ep22_quests_falling_path1: # Инициализация ситизенов перед нападением на Монику
     if questOffendMonicaFlyersCitizen12Completed == True: #если событие уже произошло, то стираем хук
@@ -38,9 +39,18 @@ label ep22_quests_falling_path4:
         "Это опасно..."
         return False
     if obj_name in fallingPathServedCustomers:
-        mt "Я уже достаточно показала ему сегодня..."
+        mt "За такие маленькие деньги я больше ничего не собираюсь показывать ему сегодня..."
         return False
-    return
+    call citizens_init()
+    $ monicaHostelEdge1ASuffixOneTime = 2
+    $ citizenId = citizens_list_source[obj_name]["id"]
+    $ pylonPreset = rand(1,2)
+    $ funcName = "citizen" + str(citizenId) + "_dialogue_pilon"
+    call expression funcName
+    if _return != False:
+        $ notif(_("Моника обслужила 'Клиента'"))
+        call falling_path_store_customer()
+    return False
 
 label falling_path_store_customer():
 
@@ -50,6 +60,8 @@ label falling_path_store_customer():
     if fallingPathServedCustomersTotal == 2:
         $ questLog(17, False)
         $ questLog(22, True)
+    if fallingPathServedCustomersToday >= fallingPathMaxCustomersPerDay:
+        $ changeDayTime("evening")
     return
 #label="monica_kebab_offend"
 
@@ -63,4 +75,7 @@ label ep22_quests_falling_path5:
     $ questLog(17, True)
     call init_location("hostel_edge_1_a", "hostel_edge_1_a_init")
     call ep22_quests_falling_path3()
+    call falling_path_store_customer()
     return
+
+#    call citizens_init()

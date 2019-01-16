@@ -94,6 +94,13 @@ define monicaWhoringClothBoobsCorruptionRequired = 60 # Кол-во corruption, 
 define monicaWhoringClothBoobsTongueCorruptionRequired = 70 #Кол-во corruption, чтобы Моника показала грудь в одежде и высунула язык
 define monicaWhoringClothAssCorruptionRequired = 80 # Кол-во corruption, чтобы Моника показала зад в одежде
 
+define monicaWhoringClothBoobsCorruptionProgress = 1 # Кол-во corruption, которые даются за показ груди в одежде
+define monicaWhoringClothBoobsTongueCorruptionProgress = 1 #Кол-во corruption, которые даются за показ груди в одежде, высунув язык
+define monicaWhoringClothAssCorruptionProgress = 1 #Кол-во corruption, которые даются за пока зада в одежде
+
+define monicaWhoringClothBoobsOrButtMoney = 0.25 # Моника показала грудь в одежде, либо зад в одежде (что-то одно)
+define monicaWhoringClothBoobsAndButtMoney = 0.50 # Моника показала грудь в одежде и зад в одежде (и то и то)
+
 define monicaVictoriaShowBoobsToCameraCorruptionRequired = 59 #Кол-во corruption, чтобы Моника показала грудь Виктории на телефон
 define monicaDickSeduceAsVictoriaByAssCorruptionRequired = 62 #Кол-во corruption, чтобы Моника показала Дику зад
 define monicaVictoriaLickAssBeginCorruptionRequired = 62 #Кол-во corruption, чтобы Моника лизнула зад Виктории вначале
