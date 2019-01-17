@@ -16,3 +16,10 @@ translate german strings:
     old "Барди имеет полный доступ к трусикам Моники."
     new "Bardi hat vollen Zugriff auf Monicas Höschen, jederzeit."
 
+# TODO: Translation updated at 2019-01-18 00:17
+
+# game/Quests/EP2_02/EP22_Quests_Bardie.rpy:138
+translate german EP22_Quests_Bardie6_panties_box_bac667d4:
+
+    # mt "Я не могу одеть никакие трусики под эти кошмарные джинсовые шорты..."
+    mt "Ich kann einfach kein Höschen unter diesen verfluchten Denim Shorts tragen..."
