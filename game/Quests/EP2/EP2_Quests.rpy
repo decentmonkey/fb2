@@ -450,7 +450,7 @@ label monica_after_charity_event_go_dick:
     return False
 
 label monica_after_charity_event_return_home:
-    $ monicaCantSleepHungry = False
+#    $ monicaCantSleepHungry = False
     $ dickReceptionMonicaSuffix = 1
     music Continue_Life high
     $ remove_hook()
