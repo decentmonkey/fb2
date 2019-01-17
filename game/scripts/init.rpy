@@ -112,6 +112,7 @@ define monicaVictoriaEarnedWeeklyMoneyProgress = 5 # Кол-во прогрес�
 
 define monicaBettyPantiesCorruption = 1 #Кол-во corruption за надевание трусиков Бетти
 
+define monicaFitnessLookAtGirlsCorruption = 1 #Кол-во corruption за подглядывание во время фитнеса
 
 default houseMusic = "Mandeville"
 #default biffMusic = "Funk_loop8"

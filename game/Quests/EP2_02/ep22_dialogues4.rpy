@@ -417,6 +417,7 @@ label ep22_dialogues4_6:
             with fade
             stephanie "Продолжай быть настойчивым..."
             "Хи-хи..."
+        $ add_corruption(monicaFitnessLookAtGirlsCorruption, "monicaFitnessLookAtGirlsCorruption" + str(day))
 
     if obj_name == "Rebecca":
         menu:
@@ -471,6 +472,7 @@ label ep22_dialogues4_6:
         fitness_instructor "Ребекка, давай я помогу тебе..."
         img 7932
         rebecca "Спасибо, не надо..."
+        $ add_corruption(monicaFitnessLookAtGirlsCorruption, "monicaFitnessLookAtGirlsCorruption" + str(day))
 
     if obj_name == "Betty":
         menu:
@@ -633,6 +635,8 @@ label ep22_dialogues4_6:
             img v_Fitness_Betty_1_6_20
             with fade
             w
+
+        $ add_corruption(monicaFitnessLookAtGirlsCorruption, "monicaFitnessLookAtGirlsCorruption" + str(day))
         $ fitness_gym_betty_first_time_interact_with_trainer = False
 
     return
