@@ -1201,3 +1201,91 @@ translate english strings:
     old "Подарочный сертификат на $ 5000 отправлен Виктории"
     new "Gift certificate for $ 5000 sent to Victoria"
 
+# TODO: Translation updated at 2019-01-17 23:21
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:158
+translate english ep22_dialogue6_2b_5706e483:
+
+    # secretary "Миссис Бакфетт!"
+    # "Мистера Бифа сейчас нет на месте!"
+    secretary "Mrs. Buckfett!"
+    "Mr. Biff is not here right now!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:161
+translate english ep22_dialogue6_2b_bbef166c:
+
+    # m "Когда он будет?"
+    m "When will he be back?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:163
+translate english ep22_dialogue6_2b_9f6e5332:
+
+    # secretary "Он сказал что будет вечером!"
+    secretary "He said he would be back in the evening!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:165
+translate english ep22_dialogue6_2b_0f0242d3:
+
+    # m "Хорошо, дорогая, спасибо."
+    m "Okay, honey, thank you."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:167
+translate english ep22_dialogue6_2b_6415e49b:
+
+    # secretary "Миссис Бакфетт!"
+    # "Мистера Бифа сейчас нет на месте!"
+    # m "Когда он будет?"
+    # secretary "Он сказал что будет вечером!"
+    # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+    # m "Хорошо, дорогая, спасибо."
+    secretary "Mrs. Buckfett!"
+    "Mr. Biff is not here right now!"
+    m "When will he be back?"
+    secretary "He said he would be back in the evening!"
+    "But, you know, he says what he wants and has absolutely no discipline!"
+    m "Okay, honey, thank you."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:178
+translate english ep22_dialogue6_2b_5706e483_1:
+
+    # secretary "Миссис Бакфетт!"
+    # "Мистера Бифа сейчас нет на месте!"
+    secretary "Mrs. Buckfett!"
+    "Mr. Biff is not here right now!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:181
+translate english ep22_dialogue6_2b_bbef166c_1:
+
+    # m "Когда он будет?"
+    m "When will he be back?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:183
+translate english ep22_dialogue6_2b_bf57c0f2:
+
+    # secretary "Он сказал что будет завтра!"
+    # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+    secretary "He said he would be tomorrow!"
+    "But, you know, he says what he wants and has absolutely no discipline!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:186
+translate english ep22_dialogue6_2b_0f0242d3_1:
+
+    # m "Хорошо, дорогая, спасибо."
+    m "Okay, honey, thank you."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:188
+translate english ep22_dialogue6_2b_fbef2ec0:
+
+    # secretary "Миссис Бакфетт!"
+    # "Мистера Бифа сейчас нет на месте!"
+    # m "Когда он будет?"
+    # secretary "Он сказал что будет завтра!"
+    # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+    # m "Хорошо, дорогая, спасибо."
+    secretary "Mrs. Buckfett!"
+    "Mr. Biff is not here right now!"
+    m "When will he be back?"
+    secretary "He said he would be tomorrow!"
+    "But, you know, he says what he wants and has absolutely no discipline!"
+    m "Okay, honey, thank you."
+

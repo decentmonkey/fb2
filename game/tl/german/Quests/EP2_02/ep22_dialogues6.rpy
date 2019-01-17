@@ -790,3 +790,91 @@ translate german strings:
     old "Подарочный сертификат на $ 5000 отправлен Виктории"
     new "Geschenkgutschein im Wert von $ 5000 wurde zu Victoria gesandt"
 
+# TODO: Translation updated at 2019-01-17 23:22
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:158
+translate german ep22_dialogue6_2b_5706e483:
+
+    # secretary "Миссис Бакфетт!"
+    # "Мистера Бифа сейчас нет на месте!"
+    secretary "Frau Buckfett!"
+    "Herr Biff ist derzeit nicht hier!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:161
+translate german ep22_dialogue6_2b_bbef166c:
+
+    # m "Когда он будет?"
+    m "Wann wird er zurück erwartet?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:163
+translate german ep22_dialogue6_2b_9f6e5332:
+
+    # secretary "Он сказал что будет вечером!"
+    secretary "Er wird also am Abend wieder da sein!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:165
+translate german ep22_dialogue6_2b_0f0242d3:
+
+    # m "Хорошо, дорогая, спасибо."
+    m "Okay Herzchen, danke."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:167
+translate german ep22_dialogue6_2b_6415e49b:
+
+    # secretary "Миссис Бакфетт!"
+    # "Мистера Бифа сейчас нет на месте!"
+    # m "Когда он будет?"
+    # secretary "Он сказал что будет вечером!"
+    # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+    # m "Хорошо, дорогая, спасибо."
+    secretary "Frau Buckfett!"
+    "Herr Biff ist derzeit nicht hier!"
+    m "Wann wird er zurück erwartet?"
+    secretary "Er wird also am Abend wieder da sein!"
+    "Aber wissen Sie, er sagt was er will und hat keinerlei Disziplin!"
+    m "Okay Herzchen, danke."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:178
+translate german ep22_dialogue6_2b_5706e483_1:
+
+    # secretary "Миссис Бакфетт!"
+    # "Мистера Бифа сейчас нет на месте!"
+    secretary "Frau Buckfett!"
+    "Herr Biff ist derzeit nicht hier!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:181
+translate german ep22_dialogue6_2b_bbef166c_1:
+
+    # m "Когда он будет?"
+    m "Wann wird er zurück erwartet?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:183
+translate german ep22_dialogue6_2b_bf57c0f2:
+
+    # secretary "Он сказал что будет завтра!"
+    # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+    secretary "Er sagte er käme Morgen!"
+    "Aber wissen Sie, er sagt was er will und hat keinerlei Disziplin!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:186
+translate german ep22_dialogue6_2b_0f0242d3_1:
+
+    # m "Хорошо, дорогая, спасибо."
+    m "Okay Herzchen, danke."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:188
+translate german ep22_dialogue6_2b_fbef2ec0:
+
+    # secretary "Миссис Бакфетт!"
+    # "Мистера Бифа сейчас нет на месте!"
+    # m "Когда он будет?"
+    # secretary "Он сказал что будет завтра!"
+    # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+    # m "Хорошо, дорогая, спасибо."
+    secretary "Frau Buckfett!"
+    "Herr Biff ist derzeit nicht hier!"
+    m "Wann wird er zurück erwartet?"
+    secretary "Er sagte er käme Morgen!"
+    "Aber wissen Sie, er sagt was er will und hat keinerlei Disziplin!"
+    m "Okay Herzchen, danke."
+

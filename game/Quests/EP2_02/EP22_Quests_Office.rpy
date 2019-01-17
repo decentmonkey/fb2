@@ -132,8 +132,7 @@ label ep22_quests_office9:
     $ add_hook("Secretary", "ep22_quests_office12", scene="monica_office_secretary", label="secretary_regular_talk")
     $ add_hook("Secretary", "ep22_quests_office10", scene="monica_office_secretary", label="secretary_last_request")
     $ add_hook("Teleport_Monica_Office_Cabinet", "ep22_quests_office11", scene="monica_office_secretary", label="secretary_last_request")
-
-
+    $ replace_hook("ep22_dialogue6_2b", scene="monica_office_secretary", label="check_bill_at_place")
     return
 label ep22_quests_office10: # Последний запрос о помощи со стороны секретарши
     if act=="l":
