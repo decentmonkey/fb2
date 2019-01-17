@@ -4,5 +4,5 @@
 translate german Betty_Life_day1_lower_ddf72633:
 
     # m "lower onetime"
-    m "lower onetime"
+    m "zieh es einmal runter"
 

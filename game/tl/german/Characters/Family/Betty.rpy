@@ -32,7 +32,7 @@ translate german bettyInteract1_9abaa49a:
 translate german bettyInteract1_0bb94480:
 
     # mt "К тому же на мне одеты ее трусики... Ужас!!!"
-    mt "К тому же на мне одеты ее трусики... Ужас!!!"
+    mt "Anbei, ich trage ihre Höschen... das ist der Horror!!!"
 
 # game/Characters/Family/Betty.rpy:23
 translate german bettyInteract1_df417413:
@@ -44,5 +44,5 @@ translate german strings:
 
     # Characters/Family/Betty.rpy:61
     old "Бетти хочет чтобы я носила ее сумку с вещами на фитнесс..."
-    new "Betty will, dass ich ihre Tasche mit ihrem Fitnesskram darin trage..."
+    new "Betty will, dass ich ihr Tasche mit ihrem Fitnesskram trage..."
 

@@ -32,7 +32,7 @@ translate german street_bank_environment_c9995ee7:
 translate german street_bank_environment_bb668b81:
 
     # m "Bank Green..."
-    m "Bank Green..."
+    m "Green Bank..."
 
 # game/Rooms/Bank/street_bank.rpy:45
 translate german street_bank_environment_03dba5fa:

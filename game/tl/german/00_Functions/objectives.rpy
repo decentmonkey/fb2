@@ -4,5 +4,5 @@ translate german strings:
 
     # 00_Functions/objectives.rpy:28
     old "Журнал обновлен"
-    new "Questlog updated"
+    new "Questlog update"
 

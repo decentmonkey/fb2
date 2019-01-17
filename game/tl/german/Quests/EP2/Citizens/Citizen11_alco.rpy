@@ -66,5 +66,5 @@ translate german strings:
 
     # Quests/EP2/Citizens/Citizen11_alco.rpy:29
     old "Водка"
-    new ""
+    new "Wodka"
 

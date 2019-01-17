@@ -180,25 +180,25 @@ translate german citizen11_dialogue_3d378c3a:
     # citizen11 "Моя спасительница! Для тебя, все что угодно!"
     # m "Возьмите, пожалуйста, этот флаер..."
     # citizen11 "Флаер? Да хоть два! Давай свой флаер!"
-    citizen11 "Моя спасительница! Для тебя, все что угодно!"
+    citizen11 "Mein Retter! Ich mache alles für dich!"
     m "Bitte nehmen Sie diesen Flyer..."
-    citizen11 "Флаер? Да хоть два! Давай свой флаер!"
+    citizen11 "Flyer? Auch zwei! Gib her!"
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:20
 translate german citizen11_dialogue_365251d1:
 
     # citizen11 "Ты такая красивая! А дай я тебя поцелую!"
     # m "Отвали, алкаш..."
-    citizen11 "Ты такая красивая! А дай я тебя поцелую!"
-    m "Отвали, алкаш..."
+    citizen11 "Du bist so schön, lass mich dich küssen!"
+    m "Verpiss Dich, Trunkenbold..."
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:23
 translate german citizen11_dialogue_32bb7cb7:
 
     # citizen11 "Ах вот ты как... Ну ничего, я тебя это припомню!"
     # mt "Я лучше пойду..."
-    citizen11 "Ах вот ты как... Ну ничего, я тебя это припомню!"
-    mt "Я лучше пойду..."
+    citizen11 "Oh, du bist... hm, gut, ich denke daran!"
+    mt "Ich gehe besser..."
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:74
 translate german citizen11_dialogue_pilon_ea9512e8:

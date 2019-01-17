@@ -1009,7 +1009,7 @@ translate german cleaning2_bardie_comment1_5c7e394e:
 
     # bardie "Ты одела правильные трусики! Хорошая гувернантка!"
     # mt "!!!"
-    bardie "Du hast dich für die Richtigen entschieden! Gutes Dienstmädchen!"
+    bardie "Du hast die richtigen Höschen an, gute Dienstmagd!"
     mt "!!!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:652
@@ -1039,7 +1039,7 @@ translate german cleaning2_bardie_comment2_5c7e394e:
 
     # bardie "Ты одела правильные трусики! Хорошая гувернантка!"
     # mt "!!!"
-    bardie "Du hast dich für die Richtigen entschieden! Gutes Dienstmädchen!"
+    bardie "Du hast die richtigen Höschen an, gute Dienstmagd!"
     mt "!!!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:738
@@ -1061,7 +1061,7 @@ translate german cleaning2_bardie_comment3_5c7e394e:
 
     # bardie "Ты одела правильные трусики! Хорошая гувернантка!"
     # mt "!!!"
-    bardie "Du hast dich für die Richtigen entschieden! Gutes Dienstmädchen!"
+    bardie "Du hast die richtigen Höschen an, gute Dienstmagd!"
     mt "!!!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:814
@@ -1337,8 +1337,8 @@ translate german ep22_dialogues3_11a_6fec360b:
 
     # mt "Я придумала как мне узнать какие трусики носит Бетти сегодня..."
     # "По вечерам она валяется своей толстой задницей на моей кровати..."
-    mt "Ich habe herausgefunden, wie ich herausfinden kann, welche Höschen Betty immer trägt..."
-    "Sie wälzt doch ihren fetten Arsch in meinem Bett jeden Abend..."
+    mt "Ich habe herausgefunden, wie ich herausfinde, welche Höschen Betty täglich trägt..."
+    "Sie wälzt ihren Fettarsch jeden Abend in meinem Bett..."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:962
 translate german ep22_dialogues3_12_9c5fbe11:

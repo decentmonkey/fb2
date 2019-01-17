@@ -34,5 +34,5 @@ translate german strings:
 
     # Characters/Family/Bardie.rpy:91
     old "Ожидание дальнейшего прогресса сюжета игры..."
-    new "Hier gibt's mehr in kommenden Updates..."
+    new "Mehr Inhalt kommt in den nächsten Updates..."
 

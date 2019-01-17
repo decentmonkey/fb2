@@ -119,12 +119,12 @@ translate german wardrobeBasement_dialogue2_pants_betty_f66a75c7:
 
     # mt "Это трусики Бетти..."
     # "Какой ужас..."
-    mt "Это трусики Бетти..."
+    mt "Das sind Bettys Höschen..."
     "Was für ein Horror..."
 
 translate german strings:
 
     # Characters/Monica/Wardrobe_Basement.rpy:10
     old "Только трусики."
-    new "Nur Höschen."
+    new "Nur höschen."
 

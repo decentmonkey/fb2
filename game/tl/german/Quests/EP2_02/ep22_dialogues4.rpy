@@ -5,8 +5,8 @@ translate german ep22_dialogues4_1b_0c077cbd:
 
     # mt "Бетти говорила что сегодня день поездки в фитнесс-зал."
     # mt "Но мне надо сначала закончить уборку..."
-    mt "Betty sagte, dass wir heute ins Fitnessstudio gehen."
-    mt "Aber zuerst muss ich fertig putzen..."
+    mt "Betty sagte, dass heute der Tag ist, an dem es ins Fitnessstudio geht."
+    mt "Aber ich muss erst fertig putzen..."
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:37
 translate german ep22_dialogues4_1_ba11ae58:
@@ -99,7 +99,7 @@ translate german ep22_dialogues4_1_f08085f8:
     # betty "Он {c}по вторникам и четвергам{/c}"
     # betty "Напомни мне."
     betty "Ich gehe ein andermal in das Fitnessstudio. Wenn du willst, nehme ich dich mit."
-    betty "Es ist {c}Dienstags und Donnerstags{/c}"
+    betty "Es ist {c}jeden Dienstag und Donnerstag{/c}"
     betty "Erinnere mich daran."
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:94

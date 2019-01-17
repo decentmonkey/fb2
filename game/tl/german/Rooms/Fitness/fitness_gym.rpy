@@ -16,5 +16,5 @@ translate german strings:
 translate german fitness_gym_environment_54c7aa25:
 
     # mt "Мне не до этого сейчас..."
-    mt "Мне не до этого сейчас..."
+    mt "Dazu habe ich jetzt keine Lust..."
 

@@ -4,13 +4,13 @@
 translate german ep22_dialogues5_0a_5932acdd:
 
     # mt "Мне надо скорее {c}бежать к Дику!{/c}"
-    mt "Ich sollte besser {c}zu Dick laufen!{/c}"
+    mt "Ich sollte lieber {c}zu Dick laufen!{/c}"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:127
 translate german ep22_dialogues5_0b_5932acdd:
 
     # mt "Мне надо скорее {c}бежать к Дику!{/c}"
-    mt "Ich sollte besser {c}zu Dick laufen!{/c}"
+    mt "Ich sollte lieber {c}zu Dick laufen!{/c}"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:134
 translate german ep22_dialogues5_1_3bb005a3:
@@ -887,7 +887,7 @@ translate german ep22_dialogues5_7_0da4e837:
 
     # "Я готова Вас простить, если Вы будете {c}приносить мне $ 5000 каждую пятницу{/c}."
     # "Я люблю шоппинг, наверное Вы, как женщина, меня понимаете..."
-    "Ich bin bereit dir zu vergeben, wenn du mir {c}jeden Freitag $ 5000 bringst{/c}."
+    "Ich bin bereit dir zu vergeben, wenn du {c}mir jeden Freitag $ 5000 bringst{/c}."
     "Ich liebe shopping, sie als Frau müssen das doch verstehen..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:814
@@ -1941,7 +1941,7 @@ translate german ep22_dialogues5_13a_4ffd1e69:
 
     # mt "$ 5000 каждую неделю!"
     # "Сучка!!!"
-    mt "$ 5000 pro Woche!"
+    mt "00 jede Woche!"
     "Schlampe!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1562
@@ -2200,7 +2200,7 @@ translate german ep22_dialogues5_14_d3076610:
     # dick_secretary "Как Вы думаете, она нравится Миссис Бакфетт?"
     # dick "О! Виктория! Я думаю она без ума от нее!"
     dick_secretary "Denkst du, Frau Buckfett mag meinen Arsch?"
-    dick "Oh! Victoria! Ich denke, sie wäre verrückt danach!"
+    dick "Oh! Victoria! Ich denke, sie ist verrückt danach!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1745
 translate german ep22_dialogues5_14_f559f401:
@@ -2218,7 +2218,7 @@ translate german strings:
 
     # Quests/EP2_02/ep22_dialogues5.rpy:251
     old "У меня нет выбора... (low corruption, required [monicaVictoriaShowBoobsToCameraCorruptionRequired]) (disabled)"
-    new "Ich habe keine Wahl... (Korruption zu niedrig, benötigt: [monicaVictoriaShowBoobsToCameraCorruptionRequired]) (disabled)"
+    new "Ich habe keine Wahl... (low corruption, required [monicaVictoriaShowBoobsToCameraCorruptionRequired]) (disabled)"
 
     # Quests/EP2_02/ep22_dialogues5.rpy:251
     old "У меня нет выбора... (corruption)"
@@ -2242,7 +2242,7 @@ translate german strings:
 
     # Quests/EP2_02/ep22_dialogues5.rpy:529
     old "Попробовать соблазнить Дика как это делает Виктория (low corruption, required [monicaDickSeduceAsVictoriaByAssCorruptionRequired]) (disabled)"
-    new "Versuche, Dick wie Victoria zu verführen. (zu geringe Korruption, benötigt wird: [monicaDickSeduceAsVictoriaByAssCorruptionRequired]) (disabled)"
+    new "Versuche Dick zu verführen wie Victoria. (low corruption, required [monicaDickSeduceAsVictoriaByAssCorruptionRequired]) (disabled)"
 
     # Quests/EP2_02/ep22_dialogues5.rpy:529
     old "Попробовать соблазнить Дика как это делает Виктория (corruption)"
@@ -2270,7 +2270,7 @@ translate german strings:
 
     # Quests/EP2_02/ep22_dialogues5.rpy:937
     old "Лизнуть зад Виктории... (low corruption, required [monicaVictoriaLickAssBeginCorruptionRequired]) (disabled)"
-    new "Lecke Victorias Arsch... (zu geringe Korruption, benötigt wird [monicaVictoriaLickAssBeginCorruptionRequired]) (disabled)"
+    new "Lecke Victorias Arsch... (low corruption, required [monicaVictoriaLickAssBeginCorruptionRequired]) (disabled)"
 
     # Quests/EP2_02/ep22_dialogues5.rpy:1116
     old "5 минут спустя..."
@@ -2338,8 +2338,8 @@ translate german ep22_dialogues5_10_53d40514:
 
     # dick_secretary "Я получила сертификат в прошлую пятницу и мне понравился шоппинг."
     # dick_secretary "В следующую пятницу я бы хотела снова заняться шоппингом..."
-    dick_secretary "Я получила сертификат в прошлую пятницу и мне понравился шоппинг."
-    dick_secretary "В следующую пятницу я бы хотела снова заняться шоппингом..."
+    dick_secretary "Ich habe den Gutschein letzten Freiatg erhalten, und ich mag nun mal shoppen."
+    dick_secretary "Nächsten Freitag will ich wieder shoppen..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1372
 translate german ep22_dialogues5_10_7e903126:

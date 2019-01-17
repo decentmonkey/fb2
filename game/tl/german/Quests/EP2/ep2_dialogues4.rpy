@@ -1238,7 +1238,7 @@ translate german monica_office_cabinet_biff_dialogue3_dc927120:
 translate german monica_office_cabinet_biff_dialogue3_8bbf3f36:
 
     # m "$ 5.000!!!"
-    m "5.000€ !!!"
+    m "$ 5.000 !!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:696
 translate german monica_office_cabinet_biff_dialogue3_a2ce45ca:
@@ -2348,7 +2348,7 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues4.rpy:689
     old "$ 5.000!!!"
-    new "5.000€ !!!"
+    new "$ 5.000 !!!"
 
     # Quests/EP2/ep2_dialogues4.rpy:823
     old "Согласиться."

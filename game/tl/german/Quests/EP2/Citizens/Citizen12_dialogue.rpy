@@ -240,7 +240,7 @@ translate german strings:
 
     # Quests/EP2/Citizens/Citizen12_dialogue.rpy:103
     old "Сказать спасибо за спасение от нападения"
-    new ""
+    new "Bedanke dich für die Rettung."
 
 # TODO: Translation updated at 2019-01-17 14:53
 

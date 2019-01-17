@@ -230,4 +230,4 @@ translate german strings:
 translate german corruption_required_9bce411b:
 
     # empty_name "[required1] corruption required!"
-    empty_name "[required1] corruption required!"
+    empty_name "[required1] Korruption benötigt!"

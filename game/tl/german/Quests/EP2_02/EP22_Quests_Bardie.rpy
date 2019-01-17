@@ -14,5 +14,5 @@ translate german strings:
 
     # Quests/EP2_02/EP22_Quests_Bardie.rpy:104
     old "Барди имеет полный доступ к трусикам Моники."
-    new "Bardi darf jederzeit in Monicas Höschen."
+    new "Bardi hat vollen Zugriff auf Monicas Höschen, jederzeit."
 

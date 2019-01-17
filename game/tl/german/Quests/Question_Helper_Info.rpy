@@ -118,7 +118,7 @@ translate german strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Барди хочет чтобы я одевала трусики Бетти, которые она носила в прошлый раз. Бетти валяется в них своей толстой задницей на моей кровати по вечерам."
-    new "Bardi will, dass ich Betty's alte Höschen anziehe. Betty wälzt sich jeden Abend mit ihrem Fettarsch darin in meinem Bett!"
+    new "Bardi will, dass ich Betty's Höschen trage, welche sie gestern an hatte. Betty wälzt sich darin mit ihrem fetten Arsch in meinem Bett."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Бетти ждет от меня, что я буду регулярно убираться в доме."
@@ -138,7 +138,7 @@ translate german strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Кажется, Бетти не так строго следит за тем, чтобы я убиралась все время."
-    new "Sieht so aus, als ob Betty nicht so genau hinschaut, ob ich jedes Mal alles putze."
+    new "Sieht so aus, als ob Betty nicht sehr gut darauf achtet, ob ich die ganze Zeit putze."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Мне надо проверить что происходит в моем офисе."
@@ -174,7 +174,7 @@ translate german strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Теперь Дик имеет свой галстук! Мой кошмар закончился. Надо проведать его."
-    new "Jetzt hat Dick seine Krawatte! Dieser Alptraum ist vorüber. Ich sollte ihn besuchen."
+    new "Jetzt hat Dick seine Krawatte! Mein Alptraum ist vorüber. Ich sollte ihn treffen."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Теперь я должна приносить Виктории раз в неделю $ 5000 до пятницы. Я даже не представляла насколько она опасна."
@@ -190,7 +190,7 @@ translate german strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "В доме для меня еды нет. По крайней мере пока. Мне надо где-то питаться!"
-    new "Für mich ist kein Essen im Haus. Zumindest jetzt nicht. Ich muss irgendwo essen!"
+    new "Es gibt kein Essen für ich im Haus. Zumindest noch nicht. Ich muss irgendwo essen!"
 
     # Quests/Question_Helper_Info.rpy:115
     old "Жизнь"
@@ -210,7 +210,7 @@ translate german strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Любой ценой избегать встречи с Маркусом!"
-    new "Vermeide ein Treffen mit Marcus um jeden Preis!"
+    new "Vermeide um jeden Preis, Marcus zu treffen!"
 
 # TODO: Translation updated at 2019-01-16 15:00
 
@@ -218,5 +218,5 @@ translate german strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Вместо разноски флаеров я нашла более быстрый способ заработать. Он немного... неудобный, но ведь это ненадолго..."
-    new ""
+    new "Ich habe einen schnelleren Weg gefunden, Geld zu verdienen, anstatt Flyer zu verteilen. Er ist etwas... unbequem, aber ich mache das ja nicht lange."
 

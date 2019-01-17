@@ -558,19 +558,19 @@ translate german ep22_dialogues2_1_d684ab34:
 translate german ep22_dialogues2_1_d1fdddaf:
 
     # betty "Я не собираюсь делать этого!"
-    betty "Das werde ich nicht mehr tun!"
+    betty "Das werde ich nicht machen!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:360
 translate german ep22_dialogues2_1_d1fdddaf_1:
 
     # betty "Я не собираюсь делать этого!"
-    betty "Das werde ich nicht mehr tun!"
+    betty "Das werde ich nicht machen!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:368
 translate german ep22_dialogues2_3_5932acdd:
 
     # mt "Мне надо скорее {c}бежать к Дику!{/c}"
-    mt "Ich sollte besser {c}zu Dick laufen!{/c}"
+    mt "Ich sollte lieber {c}zu Dick laufen!{/c}"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:373
 translate german ep22_dialogues2_3a_acfbec77:
@@ -580,11 +580,11 @@ translate german ep22_dialogues2_3a_acfbec77:
     # "Я даже не буду думать об этом... Черт..."
     # "Неплохо было бы теперь {c}проведать Дика{/c}."
     # "Он должен уладить мою небольшую проблему и помочь вернуть все назад!"
-    mt "Jetzt hat Dick endlich seine verdammte Krawatte!"
-    "Ich musste viel durchmachen, um an das Geld zu kommen."
-    "Ich will nicht mal mehr dran denken... verdammt..."
-    "Es wäre schön {c}Dick zu sehen{/c}."
-    "Er sollte sich um mein kleines Problem kümmern und mir helfen, alles zurück zu bekommen!"
+    mt "Jetzt hat Dick seine verdammte Krawatte!"
+    "Ich musste viel duechmachen, um an das Geld zu kommen."
+    "Er wird da nicht mal dran denken... verdammt..."
+    "Es wäre schön, jetzt {c}Dick zu sehen{/c}."
+    "Er sollte mein Problem lösen und mir helfen, alles zurück zu bekommen!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:402
 translate german ep22_dialogues2_4_ec8a0ffd:
@@ -616,7 +616,7 @@ translate german ep22_dialogues2_4_0ef5f6f7:
     # m "Да, Миссис Робертс?"
     # betty "Быстро иди за мной!"
     m "Ja, Frau Roberts?"
-    betty "Schnell, folge mir!"
+    betty "Folge mir schnell!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:427
 translate german ep22_dialogues2_4_a1fe26bb:
@@ -1032,7 +1032,7 @@ translate german ep22_dialogue2_8_1_921a2a5e:
     # fred "Как скажете, Мэм..."
     "Ralph wartet auf mich!"
     betty "Ich gehe..."
-    fred "Gerne..."
+    fred "Wie sie sagen..."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:735
 translate german ep22_dialogue2_8_1_a1d5cbf2:
@@ -1306,7 +1306,7 @@ translate german strings:
 
     # Quests/EP2_02/ep22_dialogues2.rpy:298
     old "Дотронуться до члена Фреда."
-    new "Berühre Freds Schwanz."
+    new "Berühre Fred's Penis."
 
     # Quests/EP2_02/ep22_dialogues2.rpy:330
     old "Хорошо, я приду в прачечную в районе обеда."
@@ -1314,7 +1314,7 @@ translate german strings:
 
     # Quests/EP2_02/ep22_dialogues2.rpy:330
     old "Я не собираюсь делать этого!"
-    new "Das werde ich nicht mehr tun!"
+    new "Das werde ich nicht machen!"
 
     # Quests/EP2_02/ep22_dialogues2.rpy:509
     old "Мэм. Я считаю этот ковер необязательно нести в химчистку..."
@@ -1338,7 +1338,7 @@ translate german strings:
 
     # Quests/EP2_02/ep22_dialogues2.rpy:681
     old "Коснуться члена Фреда язычком..."
-    new "Berühre Freds Schwanz mit der Zunge..."
+    new "Berühre Fred's Schwanz mit der Zunge..."
 
     # Quests/EP2_02/ep22_dialogues2.rpy:681
     old "Нет времени на это..."
@@ -1346,7 +1346,7 @@ translate german strings:
 
     # Quests/EP2_02/ep22_dialogues2.rpy:724
     old "Сделай это быстро..."
-    new "Bringen wir's schnell hinter uns..."
+    new "Lass es uns schnell machen..."
 
     # Quests/EP2_02/ep22_dialogues2.rpy:724
     old "Я ухожу..."

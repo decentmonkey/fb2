@@ -244,5 +244,5 @@ translate german strings:
 
     # Quests/EP2_02/ep22_casting.rpy:177
     old "Достать член Бифа и засунуть его в секретаршу. (disabled)"
-    new ""
+    new "Nimm Biff's Schwanz und dirigiere ihn zu der Sekretärin (disabled)"
 

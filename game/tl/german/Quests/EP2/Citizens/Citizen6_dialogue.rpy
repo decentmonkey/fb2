@@ -612,9 +612,9 @@ translate german citizen6_dialogue_after_offend_place_found_9b4e9c9f:
     # mt "Какжется, это место вполне подходит для того чтобы здесь показать то что меня попросили..."
     # mt "Оно жуткое, но здесь никого нет..."
     # mt "И этот пилон... Что он делает здесь?"
-    mt "Какжется, это место вполне подходит для того чтобы здесь показать то что меня попросили..."
-    mt "Оно жуткое, но здесь никого нет..."
-    mt "И этот пилон... Что он делает здесь?"
+    mt "Sieht so aus als wäre dieser Platz gut, um das zu zeigen, nach was ich gefragt wurde..."
+    mt "Es ist unheimlich, aber es ist niemand hier..."
+    mt "Dieser Pfosten, was macht der hier?"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:190
 translate german citizen6_dialogue_after_offend3_13c99884:
@@ -708,11 +708,11 @@ translate german strings:
 
     # Quests/EP2/Citizens/Citizen6_dialogue.rpy:115
     old "Согласиться... (low corruption, required: [monicaWhoringStartCorruptionRequired]) (disabled)"
-    new ""
+    new "Stimme zu... (low corruption, required: [monicaWhoringStartCorruptionRequired]) (disabled)"
 
     # Quests/EP2/Citizens/Citizen6_dialogue.rpy:144
     old "Найти тихое место для обслуживания 'Клиентов'"
-    new ""
+    new "Finde einen ruhigen Ort, um die 'Kunden' zu bedienen."
 
 # TODO: Translation updated at 2019-01-17 14:53
 
