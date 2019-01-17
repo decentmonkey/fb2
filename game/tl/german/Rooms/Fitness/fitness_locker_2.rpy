@@ -4,5 +4,5 @@ translate german strings:
 
     # Rooms/Fitness/fitness_locker_2.rpy:19
     old "ЖДАТЬ В РАЗДЕВАЛКЕ"
-    new ""
+    new "WARTE IN DER UMKLEIDE"
 

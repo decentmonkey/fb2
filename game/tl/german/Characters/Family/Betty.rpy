@@ -44,5 +44,5 @@ translate german strings:
 
     # Characters/Family/Betty.rpy:61
     old "Бетти хочет чтобы я носила ее сумку с вещами на фитнесс..."
-    new ""
+    new "Betty will, dass ich ihre Tasche mit ihrem Fitnesskram darin trage..."
 

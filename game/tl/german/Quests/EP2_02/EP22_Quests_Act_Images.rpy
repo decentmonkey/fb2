@@ -5,8 +5,8 @@ translate german ep22_Act_Images_monica_put_up_panties_a33590fd:
 
     # mt "Это трусики Юлии..."
     # "Я уже к ним привыкла..."
-    mt "Это трусики Юлии..."
-    "Я уже к ним привыкла..."
+    mt "Das ist Julias Höschen..."
+    "Ich habe mich an sie bereits gewöhnt..."
 
 # game/Quests/EP2_02/EP22_Quests_Act_Images.rpy:91
 translate german ep22_Act_Images_monica_put_up_panties_1a779dee:

@@ -126,5 +126,5 @@ translate german strings:
 
     # Characters/Monica/Wardrobe_Basement.rpy:10
     old "Только трусики."
-    new ""
+    new "Nur Höschen."
 

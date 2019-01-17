@@ -80,13 +80,13 @@ translate german citizen10_dialogue_61862b2e:
     # mt "Что? Странный тип..."
     # citizen10 "Как насчет того, чтобы продолжить нашу беседу?"
     mt "Was? Seltsamer Typ..."
-    citizen10 "Как насчет того, чтобы продолжить нашу беседу?"
+    citizen10 "Wie wär's, wenn wir unser Gespräch fortführen?"
 
 # game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:31
 translate german citizen10_dialogue_e946ecb0:
 
     # m "Мы уже достаточно с вами поговорили!"
-    m "Мы уже достаточно с вами поговорили!"
+    m "Ich habe mit dir genug gesprochen!"
 
 # game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:33
 translate german citizen10_dialogue_a8d99408:
@@ -95,10 +95,10 @@ translate german citizen10_dialogue_a8d99408:
     # сitizen10 "Понимаете, я флорист. Я изучаю растения. Но также меня интересует красота женского тела. Это меня вдохновляет."
     # m "Нет, спасибо, как нибудь в другой раз."
     # mt "Он вообще нормальный?"
-    m "О чем бы вы хотели поговорить?"
-    сitizen10 "Понимаете, я флорист. Я изучаю растения. Но также меня интересует красота женского тела. Это меня вдохновляет."
-    m "Нет, спасибо, как нибудь в другой раз."
-    mt "Он вообще нормальный?"
+    m "Über was möchtest du reden?"
+    сitizen10 "Ich bin Florist, weiß du. Ich untersuche Pflanzen. Aber ich interessiere mich auch für die Schönheit des weiblichen Körpers."
+    m "Nein, danke. Nächstes Mal."
+    mt "Ist der normal?"
 
 # game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:49
 translate german citizen10_dialogue_pilon_517f152f:
@@ -106,19 +106,19 @@ translate german citizen10_dialogue_pilon_517f152f:
     # m "Эй, простите..."
     # citizen10 "Не сейчас, я занят!"
     # mt "Что это с ним?"
-    m "Эй, простите..."
-    citizen10 "Не сейчас, я занят!"
-    mt "Что это с ним?"
+    m "Hey, tut mir leid..."
+    citizen10 "Jetzt nicht, bin beschäftigt!"
+    mt "Was ist mit dem?"
 
 translate german strings:
 
     # Quests/EP2/Citizens/Citizen10_dialogue.rpy:27
     old "Хватит с меня разговоров!"
-    new ""
+    new "Ich will nicht mehr reden!"
 
     # Quests/EP2/Citizens/Citizen10_dialogue.rpy:27
     old "А о чем бы вы хотели поговорить?"
-    new ""
+    new "Über was möchtest du reden?"
 
 # TODO: Translation updated at 2019-01-16 16:35
 
@@ -129,8 +129,8 @@ translate german citizen10_dialogue_ff59d1c0:
     # citizen10 "Понимаете, я флорист. Я изучаю растения. Но также меня интересует красота женского тела. Это меня вдохновляет."
     # m "Нет, спасибо, как нибудь в другой раз."
     # mt "Он вообще нормальный?"
-    m "О чем бы вы хотели поговорить?"
-    citizen10 "Понимаете, я флорист. Я изучаю растения. Но также меня интересует красота женского тела. Это меня вдохновляет."
-    m "Нет, спасибо, как нибудь в другой раз."
-    mt "Он вообще нормальный?"
+    m "Über was möchtest du reden?"
+    citizen10 "Ich bin Florist, weiß du. Ich untersuche Pflanzen. Aber ich interessiere mich auch für die Schönheit des weiblichen Körpers."
+    m "Nein, danke. Nächstes Mal."
+    mt "Ist der normal?"
 

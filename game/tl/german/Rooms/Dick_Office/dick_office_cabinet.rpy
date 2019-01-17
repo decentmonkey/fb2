@@ -61,7 +61,7 @@ translate german dick_office_cabinet_environment_3be0e16d:
 
     # mt "ЧТО????"
     # "ОНА?? ЗДЕСЬ?!?!"
-    mt "WAS???"
+    mt "Was????"
     "SIE??? HIER???"
 
 translate german strings:

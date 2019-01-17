@@ -148,5 +148,5 @@ label citizen7_dialogue_pilon:
             #если не было
             call pylonController(5, 1)
             citizen7 "Ты не дала мне ни капли вдохновения!"
-            return
+            return False
     return

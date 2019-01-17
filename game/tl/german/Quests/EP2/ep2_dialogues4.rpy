@@ -3742,9 +3742,9 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues4.rpy:615
     old "Попросить помощь у Мелани. (will be available in the next version) (disabled)"
-    new ""
+    new "Bitte Melanie um Hilfe (in der nächsten Version) (disabled)"
 
     # Quests/EP2/ep2_dialogues4.rpy:615
     old "Говорить с Мелани."
-    new ""
+    new "Sprich mit Melanie."
 

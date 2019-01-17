@@ -110,17 +110,17 @@ translate german citizen14_dialogue_ac53427e:
     # citizen14 "Ну что, пойдем с тобой в подворотню!"
     # m "Да ни за что!"
     # mt "Черт, и кто тынул меня за язык..."
-    m "Возможно..."
-    citizen14 "Да, я знал, что ты заметишь, что я красавец! Хрюк..."
-    citizen14 "Ну что, пойдем с тобой в подворотню!"
-    m "Да ни за что!"
-    mt "Черт, и кто тынул меня за язык..."
+    m "Das kann passieren..."
+    citizen14 "Ja, ich dachte mir schon, dass du bemerken würdest, dass ich nett bin! Oink..."
+    citizen14 "Gehen wir zusammen zum Tor!"
+    m "Keinesfalls."
+    mt "Was, wer zur Hölle hat an meiner Zunge gezogen..."
 
 # game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:49
 translate german citizen14_dialogue_pilon_02b33f02:
 
     # m "Привет! Помнишь меня?"
-    m "Привет! Помнишь меня?"
+    m "Hallo. Erinnerst du dich an mich?"
 
 # game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:51
 translate german citizen14_dialogue_pilon_f227022c:
@@ -128,13 +128,13 @@ translate german citizen14_dialogue_pilon_f227022c:
     # citizen14 "Ик! Конечно! Ну признайся уже, что я тебе понравился."
     # mt "Животное... Думаю, не стоит иметь с этим типом ничего общего..."
     # m "Ладно, я пожалуй пойду."
-    citizen14 "Ик! Конечно! Ну признайся уже, что я тебе понравился."
-    mt "Животное... Думаю, не стоит иметь с этим типом ничего общего..."
-    m "Ладно, я пожалуй пойду."
+    citizen14 "QUIEK! Klar, gib doch zu dass es dir gefallen hat."
+    mt "Tier... Ich glaube, wir sollten mit diesem Typ nichts zu tun haben..."
+    m "Ok, ich gehe besser."
 
 translate german strings:
 
     # Quests/EP2/Citizens/Citizen14_dialogue.rpy:26
     old "Может и так..."
-    new ""
+    new "Vielleicht so..."
 

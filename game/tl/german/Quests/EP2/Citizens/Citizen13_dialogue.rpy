@@ -162,7 +162,7 @@ translate german strings:
 translate german citizen13_dialogue_pilon_c2c908e6:
 
     # m "Привет! Ты меня помнишь?"
-    m "Привет! Ты меня помнишь?"
+    m "Hi, erinnerst du dich an mich?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:65
 translate german citizen13_dialogue_pilon_f14f1081:
@@ -179,24 +179,24 @@ translate german citizen13_dialogue_pilon_f14f1081:
     # citizen13 "Ха-ха-ха. Подруга, я похож на идиота?"
     # citizen13 "А вообще знаешь, раз тебе так нужны деньги, у меня есть идея. Пошли."
     # citizen13 "Вот мы и пришли. Вечером тут полно народу. А теперь..."
-    citizen13 "Кончно помню, подруга! Ты разносишь флаеры с рекламой этих ужасных кебабов."
-    m "Ну да, иногда."
-    mt "А он выглядит дружелюбно и, похоже, я ему не интересна."
-    m "Не будет ли у тебя лишних денег?"
-    citizen13 "А тебе зачем, подруга? Если нужна контрацептив, дак у меня есть!"
-    mt "Да за кого он меня принимает?"
-    m "Нет, мне нужна наличка."
-    citizen13 "Ну для тебя у меня есть немного, но ты же знаешь, что ничего не делается просто так."
-    m "Ты мог бы мне одолжить."
-    citizen13 "Ха-ха-ха. Подруга, я похож на идиота?"
-    citizen13 "А вообще знаешь, раз тебе так нужны деньги, у меня есть идея. Пошли."
-    citizen13 "Вот мы и пришли. Вечером тут полно народу. А теперь..."
+    citizen13 "Klar, erinnere ich mich an dich. Du verteilst Flyer, die diese scheußlichen Kebabs bewerben."
+    m "Ja, manchmal."
+    mt "Er sieht freundlich aus und scheint kein Interesse an mir zu haben."
+    m "Hast du noch mehr Geld?"
+    citizen13 "Was gibt’s? Wenn du ein Verhütungsmittel brauchst, ich habe welches!"
+    mt "Wer denkt er, dass ich bin?"
+    m "Nein, ich brauche Bargeld."
+    citizen13 "Nun, ich habe ein wenig für dich, aber du weißt ja, von nichts kommt nichts."
+    m "Könntest du mir etwas Geld leihen?"
+    citizen13 "Hahaha. Sehe ich aus wie ein Idiot?"
+    citizen13 "Da du Geld brauchst, bringt mich das auf eine Idee. Geh!"
+    citizen13 "Da sind wir schon. Abends sind hier viele Leute. Jetzt..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:84
 translate german citizen13_dialogue_pilon_loop13_66cc90b4:
 
     # citizen13 "Подруга, а что у тебя под футболкой?"
-    citizen13 "Подруга, а что у тебя под футболкой?"
+    citizen13 "Was ist unter deinem Shirt, Mädchen?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:86
 translate german citizen13_dialogue_pilon_loop13_e7678610:
@@ -205,34 +205,34 @@ translate german citizen13_dialogue_pilon_loop13_e7678610:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    mt "Das kann ich mir nicht leisten!"
+    "So sehr am Boden bin ich nun auch noch nicht!"
+    "Und ich hoffe, dass das NIE passieren wird!"
+    help "Benötigt [monicaWhoringClothBoobsCorruptionrequired] Korruption"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:93
 translate german citizen13_dialogue_pilon_loop13_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "Я не собираюсь раздеваться, только так."
+    m "Ich ziehe mich nicht einfach so aus."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:97
 translate german citizen13_dialogue_pilon_loop13_06e5f23d:
 
     # citizen13 "Прекрасно, я вижу форму!"
-    citizen13 "Прекрасно, я вижу форму!"
+    citizen13 "Gut, ich kann deine Kontur auch so erkennen!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:99
 translate german citizen13_dialogue_pilon_loop13_ea8db678:
 
     # citizen13 "Не дурно!"
-    citizen13 "Не дурно!"
+    citizen13 "Nicht schlecht!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:105
 translate german citizen13_dialogue_pilon_loop13_3604dbaa:
 
     # citizen13 "А что у тебя сзади? Покажи!"
-    citizen13 "А что у тебя сзади? Покажи!"
+    citizen13 "Was ist mit deiner Rückseite? Zeigs mir!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:107
 translate german citizen13_dialogue_pilon_loop13_299ae0b0:
@@ -241,22 +241,22 @@ translate german citizen13_dialogue_pilon_loop13_299ae0b0:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
-    mt "Я не могу себе этого позволить!"
-    "Я еще не настолько опустилась!"
-    "И, надеюсь, этого не произойдет НИКОГДА!"
-    help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+    mt "Das kann ich mir nicht leisten!"
+    "So sehr am Boden bin ich nun auch noch nicht!"
+    "Und ich hoffe, dass das NIE passieren wird!"
+    help "Benötigt [monicaWhoringClothAssCorruptionrequired] Korruption"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:113
 translate german citizen13_dialogue_pilon_loop13_48b1ace1_1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "Я не собираюсь раздеваться, только так."
+    m "Ich ziehe mich nicht einfach so aus."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:117
 translate german citizen13_dialogue_pilon_loop13_e9a25479:
 
     # citizen13 "Оу, шикарная попка! Уж поверь, в этом я понимаю!"
-    citizen13 "Оу, шикарная попка! Уж поверь, в этом я понимаю!"
+    citizen13 "Oh, was für ein Arsch! Glaub mir, da kenn ich mich aus!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:124
 translate german citizen13_dialogue_pilon_loop13_86b5e6dc:
@@ -264,9 +264,9 @@ translate german citizen13_dialogue_pilon_loop13_86b5e6dc:
     # citizen13 "Славно потрудилась, подруга! Вот, держи."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen13 "Славно потрудилась, подруга! Вот, держи."
-    m "Что?! Так мало? Мог бы дать и больше!"
-    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen13 "Nett, Mädl! Hier bitte."
+    m "Was?! So wenig? Du könntest schon mehr geben!"
+    mt "Bald werde ich wieder reich sein und mein Leben zurück haben..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:129
 translate german citizen13_dialogue_pilon_loop13_86b5e6dc_1:
@@ -274,33 +274,33 @@ translate german citizen13_dialogue_pilon_loop13_86b5e6dc_1:
     # citizen13 "Славно потрудилась, подруга! Вот, держи."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen13 "Славно потрудилась, подруга! Вот, держи."
-    m "Что?! Так мало? Мог бы дать и больше!"
-    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    citizen13 "Nett, Mädl! Hier bitte."
+    m "Was?! So wenig? Du könntest schon mehr geben!"
+    mt "Bald werde ich wieder reich sein und mein Leben zurück haben..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:135
 translate german citizen13_dialogue_pilon_loop13_9e37347b:
 
     # citizen13 "Подруга, в следующий раз не халтурь."
-    citizen13 "Подруга, в следующий раз не халтурь."
+    citizen13 "Nächstes Mal machst du nicht solche Spirenzchen."
 
 translate german strings:
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:28
     old "На пенис... (requires 30 corruption)"
-    new ""
+    new "Auf den Penis... (benötigt 30 Korruption)"
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:81
     old "Покажи сиськи."
-    new ""
+    new "Zeig uns deine Brüste."
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:81
     old "Покажи попу."
-    new ""
+    new "Zeig deinen Arsch."
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:81
     old "Достаточно на сегодня."
-    new ""
+    new "Das ist genug für heute."
 
 # TODO: Translation updated at 2019-01-16 15:00
 
@@ -318,49 +318,49 @@ translate german citizen13_dialogue_pilon_4cb66ed8:
     # m "Ты мог бы мне одолжить."
     # citizen13 "Ха-ха-ха. Подруга, я похож на идиота?"
     # citizen13 "А вообще знаешь, раз тебе так нужны деньги, у меня есть идея. Пошли."
-    citizen13 "Кончно помню, подруга! Ты разносишь флаеры с рекламой этих ужасных кебабов."
-    m "Ну да, иногда."
-    mt "А он выглядит дружелюбно и, похоже, я ему не интересна."
-    m "Не будет ли у тебя лишних денег?"
-    citizen13 "А тебе зачем, подруга? Если нужна контрацептив, дак у меня есть!"
-    mt "Да за кого он меня принимает?"
-    m "Нет, мне нужна наличка."
-    citizen13 "Ну для тебя у меня есть немного, но ты же знаешь, что ничего не делается просто так."
-    m "Ты мог бы мне одолжить."
-    citizen13 "Ха-ха-ха. Подруга, я похож на идиота?"
-    citizen13 "А вообще знаешь, раз тебе так нужны деньги, у меня есть идея. Пошли."
+    citizen13 "Klar, erinnere ich mich an dich. Du verteilst Flyer, die diese scheußlichen Kebabs bewerben."
+    m "Ja, manchmal."
+    mt "Er sieht freundlich aus und scheint kein Interesse an mir zu haben."
+    m "Hast du noch mehr Geld?"
+    citizen13 "Was gibt’s? Wenn du ein Verhütungsmittel brauchst, ich habe welches!"
+    mt "Wer denkt er, dass ich bin?"
+    m "Nein, ich brauche Bargeld."
+    citizen13 "Nun, ich habe ein wenig für dich, aber du weißt ja, von nichts kommt nichts."
+    m "Könntest du mir etwas Geld leihen?"
+    citizen13 "Hahaha. Sehe ich aus wie ein Idiot?"
+    citizen13 "Da du Geld brauchst, bringt mich das auf eine Idee. Geh!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:80
 translate german citizen13_dialogue_pilon_b8de53b0:
 
     # citizen13 "Вот мы и пришли. Вечером тут полно народу. А теперь..."
-    citizen13 "Вот мы и пришли. Вечером тут полно народу. А теперь..."
+    citizen13 "Da sind wir schon. Abends sind hier viele Leute. Jetzt..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:136
 translate german citizen13_dialogue_pilon_loop13_7f325bc0:
 
     # citizen13 "Славно потрудилась, подруга! Вот, держи."
-    citizen13 "Славно потрудилась, подруга! Вот, держи."
+    citizen13 "Nett, Mädl! Hier bitte."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:138
 translate german citizen13_dialogue_pilon_loop13_ea17d522:
 
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    m "Что?! Так мало? Мог бы дать и больше!"
-    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Was?! So wenig? Du könntest schon mehr geben!"
+    mt "Bald werde ich wieder reich sein und mein Leben zurück haben..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:144
 translate german citizen13_dialogue_pilon_loop13_7f325bc0_1:
 
     # citizen13 "Славно потрудилась, подруга! Вот, держи."
-    citizen13 "Славно потрудилась, подруга! Вот, держи."
+    citizen13 "Nett, Mädl! Hier bitte."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:146
 translate german citizen13_dialogue_pilon_loop13_ea17d522_1:
 
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    m "Что?! Так мало? Мог бы дать и больше!"
-    mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Was?! So wenig? Du könntest schon mehr geben!"
+    mt "Bald werde ich wieder reich sein und mein Leben zurück haben..."
 

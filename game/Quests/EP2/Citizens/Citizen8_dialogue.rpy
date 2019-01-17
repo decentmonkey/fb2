@@ -175,5 +175,5 @@ label citizen8_dialogue_pilon:
             #если не было
             call pylonController(5, 1)
             citizen8 "Сделки нет, ты не выполнила свою часть."
-            return
+            return False
     return

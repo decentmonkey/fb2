@@ -136,5 +136,5 @@ label citizen15_dialogue_pilon:
             #если не было
             call pylonController(5, 1)
             citizen15 "Сходи поищи себе кого-нибудь еще."
-            return
+            return False
     return

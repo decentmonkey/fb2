@@ -72,7 +72,7 @@ label citizen11_dialogue:
 label citizen11_dialogue_pilon:
     if citizen11TookBottle == False:
         mt "Старый алкаш..."
-        return
+        return False
     imgl Dial_begin35_17
     imgr Dial_Citizen_11_1
     m "Привет! Помнишь меня?"
@@ -86,4 +86,4 @@ label citizen11_dialogue_pilon:
             citizen11 "Как хочешь, ты не знаешь от чего отказываешься..."
     mt "Похоже, его единственный интерес - алкоголь. Думаю, мне лучше уйти."
     m "Ладно, я пойду."
-    return
+    return False

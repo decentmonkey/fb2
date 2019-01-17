@@ -33,6 +33,6 @@ translate german street_fitness_environment2_36594603:
 
     # "Я не пойду туда в таком виде!"
     # "Меньше всего мне хотелось бы наткнуться на Стефани или Ребекку!"
-    "So gehe ich da nicht rein!"
+    "Ich werde da so nicht reingehen!"
     "Das Letzte was ich will ist Stephanie oder Rebecca zu treffen."
 

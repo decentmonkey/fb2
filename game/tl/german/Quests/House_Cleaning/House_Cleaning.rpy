@@ -180,9 +180,9 @@ translate german strings:
 
     # Quests/House_Cleaning/House_Cleaning.rpy:234
     old "Смотреть..."
-    new ""
+    new "Schau dich um..."
 
     # Quests/House_Cleaning/House_Cleaning.rpy:234
     old "Пропустить."
-    new ""
+    new "Überspringe."
 

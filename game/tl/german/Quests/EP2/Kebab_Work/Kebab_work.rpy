@@ -18,7 +18,7 @@ translate german strings:
 
     # Quests/EP2/Kebab_Work/Kebab_work.rpy:15
     old "Флаеры убавлено"
-    new "Flyer reduziert"
+    new "Flyer weniger"
 
     # Quests/EP2/Kebab_Work/Kebab_work.rpy:84
     old "Осталось флаеров"

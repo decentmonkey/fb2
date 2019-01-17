@@ -4,7 +4,7 @@ translate german strings:
 
     # Quests/EP2_02/EP22_Quests_Dick.rpy:69
     old "Заработать $ 5000 для Виктории до Пятницы!"
-    new ""
+    new "Verdiene 5.000 Dollar für Victoria bis Freitag!"
 
 # TODO: Translation updated at 2019-01-16 15:00
 

@@ -191,5 +191,5 @@ label citizen9_dialogue_pilon:
             #если не было
             call pylonController(5, 1)
             citizen9 "Дамочка, ни цента! Ничего не получишь!"
-            return
+            return False
     return
