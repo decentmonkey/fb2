@@ -1,6 +1,6 @@
 default monicaEatedLastDay = 0
 default monicaEatedLastDayTime = "day"
-default monicaCantSleepHungry = True
+define monicaCantSleepHungry = True
 
 default monicaCleaningRoomsAmount = 2
 default monicaCleaningInProgress = False
