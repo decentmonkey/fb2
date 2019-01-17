@@ -123,7 +123,7 @@ label ep22_quests_office8: # Последний раз секретарша пр
     call refresh_scene_fade()
     return False
 label ep22_quests_office9:
-    if biffWeeklyPhotoShootEnabled == False:
+    if biffWeeklyPhotoShootEnabled == False or day_time != "evening":
         return
     $ remove_hook()
     # инициализируем outfit1 на секретарше
