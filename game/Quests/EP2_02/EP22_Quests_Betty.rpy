@@ -13,7 +13,7 @@ label EP22_Quests_Betty0_Fred_scene:
 label EP22_Quests_Betty1: #init quest
     $ add_hook("Betty_Life_day", "EP22_Quests_Betty2", scene="global", label="betty_fitness_days")
     $ add_hook("Betty", "EP22_Quests_Betty3", scene="floor2")
-    $ questLog(21, True)
+    $ questLog(23, True)
     call ep22_Quests_Betty_Monica_Governess_outfit()
     return
 
