@@ -1357,10 +1357,11 @@ screen choice(items):
         for i in items:
             if i.action:
                 if " (disabled)" in i.caption:
-#                    $ str1 = _(i.caption)
+                    $ str1 = __(i.caption)
 #                    $ print str1
-                    textbutton i.caption text_style "choice_button_disabled_text"
-#                    textbutton str1.replace(" (disabled)", "") text_style "choice_button_disabled_text"
+
+#                    textbutton i.caption text_style "choice_button_disabled_text"
+                    textbutton str1.replace(" (disabled)", "") text_style "choice_button_disabled_text"
                 else:
                     textbutton i.caption:
                         action [
@@ -1480,6 +1481,7 @@ screen navigation():
             textbutton _("Main Menu") action MainMenu()
 
         textbutton _("New Episodes") action OpenURL("http://decent-monkey.com/news/")
+        textbutton _("Guide") action OpenURL("http://decent-monkey.com/walkthrough/")
         textbutton _("My Thanks") action ShowMenu("about")
 
         if renpy.variant("pc"):
