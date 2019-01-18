@@ -563,7 +563,7 @@ label ep22_photoshoot2:
             if corruption < PS2_monica_shot8_corruption_required:
                 m "ТЫ ЧТО НЕ ПОНЯЛ МЕНЯ!!!"
                 "ХВАТИТ!!!"
-                call corruption_required(PS2_monica_shot7_corruption_required)
+                call corruption_required(PS2_monica_shot8_corruption_required)
                 jump ep22_photoshoot2_pose7
             #иначе фото
             w
