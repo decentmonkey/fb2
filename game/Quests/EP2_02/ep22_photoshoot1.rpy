@@ -1,3 +1,5 @@
+default photoshoot1_count = 0
+
 label ep22_photoshoot1:
     img 8317
     with fade

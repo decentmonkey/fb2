@@ -1,3 +1,5 @@
+default photoshoot3_count = 0
+
 label ep22_photoshoot3:
     music Groove2_85
     img 8384

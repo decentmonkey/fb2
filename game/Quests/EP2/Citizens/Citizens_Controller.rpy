@@ -269,7 +269,7 @@ label citizens_init:
 label citizens_init_day:
     python:
         citizensDayList = random.sample(set(list(citizens_list_source.keys())), citizensAmountDay)
-        citizensDayList = citizens_list_source.keys() #debug!!!
+#        citizensDayList = citizens_list_source.keys() #debug!!!
         if "Citizen_1" in citizensDayList:
             citizensDayList.append("Citizen_2")
         if "Citizen_2" in citizensDayList:

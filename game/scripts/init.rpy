@@ -114,6 +114,8 @@ define monicaBettyPantiesCorruption = 1 #Кол-во corruption за надев�
 
 define monicaFitnessLookAtGirlsCorruption = 1 #Кол-во corruption за подглядывание во время фитнеса
 
+define monicaBardieNotebookLookCorruption = 1 #Кол-во corruption за подглядывание в ноутбук Барди
+
 default houseMusic = "Mandeville"
 #default biffMusic = "Funk_loop8"
 default biffMusic = "Groove2_85"

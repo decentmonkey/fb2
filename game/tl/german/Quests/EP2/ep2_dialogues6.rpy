@@ -110,7 +110,7 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues6.rpy:16
     old "Не делать этого."
-    new "Stehle nichts."
+    new "Mach das nicht."
 
 # TODO: Translation updated at 2018-12-08 17:35
 

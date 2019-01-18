@@ -70,13 +70,11 @@ label bedroom_bardie_environment:
             #ноутбук Барди крупным планом и Барди
             img 5802
             with fade
-            pass
         else:
             #render+
             #ноутбук Барди крупным планом без Барди
             img 5803
             with fade
-            pass
-        $ add_corruption(2, "look_at_bardies_notebook")
+        $ add_corruption(monicaBardieNotebookLookCorruption, "look_at_bardies_notebook_day_" + str(day))
         mt "Фу! Какая мерзость!"
     return

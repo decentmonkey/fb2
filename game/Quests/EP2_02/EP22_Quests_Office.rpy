@@ -60,15 +60,18 @@ label ep22_quests_office4_l1:
     if monicaPhotoShootOutfitIdx == 1:
         call ep22_photoshoot1()
         call ep22_photoshoot1_end()
+        $ photoshoot1_count += 1
     if monicaPhotoShootOutfitIdx == 2:
         call ep22_photoshoot2()
         call ep22_photoshoot2_end()
+        $ photoshoot2_count += 1
         if monicaSecretaryOutfit1EnforcementPlanned == False: # После фотосессии в костюме #2 планируем переодевание секретарши
             $ monicaSecretaryOutfit1EnforcementPlanned = True
             $ add_hook("before_open", "ep22_quests_office9", scene="monica_office_secretary") # Планируем инициализацию outfit1 для секретарши
     if monicaPhotoShootOutfitIdx == 3:
         call ep22_photoshoot3()
         call ep22_photoshoot3_end()
+        $ photoshoot3_count += 1
     #конец фотосессии
     sound snd_fabric1
     img black_screen
