@@ -4,7 +4,7 @@
 translate english ep22_photoshoot1_026d0d89:
 
     # m "Алекс, я уже снималась в этом платье..."
-    m "Alex, I've already been a photoshoot in this dress before..."
+    m "Alex, I've already done a photoshoot in this dress before..."
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:5
 translate english ep22_photoshoot1_pose1_d5c14705:
@@ -14,21 +14,21 @@ translate english ep22_photoshoot1_pose1_d5c14705:
     # "Публика хочет еще Ваших фотографий в этом платье!"
     alex_photograph "Mr. Biff said to put it on!"
     "Everyone loved you at the charity event!"
-    "The public wants more of your photos in this dress!"
+    "The public wants more photos of you in this dress!"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:91
 translate english ep22_photoshoot1_end_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "MA'am! We have finished the photo shoot!"
+    alex_photograph "Ma'am! We're finished with the photo shoot!"
     m "Finally!!!"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:94
 translate english ep22_photoshoot1_end_00d63a19:
 
     # mt "Что теперь?"
-    mt "What's after?"
+    mt "Now what?"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:100
 translate english ep22_photoshoot1_end_b0d7667d:
@@ -40,13 +40,13 @@ translate english ep22_photoshoot1_end_b0d7667d:
     # "Ведь у меня нет к нему чувств, я хладнокровная женщина, идущая к своей мести..."
     # "..."
     # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
-    mt "Biff's waiting for me at his stupid casting..."
+    mt "Biff is waiting for me to go through his stupid casting..."
     "He said he'd give me a job if I would be a good chick..."
-    "This will allow me to get closer to the goal, to bring my company back!"
-    "So maybe pretend?"
+    "I guess that would allow me to get closer my goal of getting my company back..."
+    "So maybe I should just pretend to be a good chick?"
     "After all, I have no feelings for him, I'm a cold-blooded woman going to her revenge..."
     "..."
-    "Damn... Especially since I promised him I'd be a good chick, and otherwise, he might stop giving me a job..."
+    "Damn... Especially since I promised him I'd be a good chick. Otherwise, he won't give me any work..."
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:112
 translate english ep22_photoshoot1_casting_3b145b91:
@@ -54,7 +54,7 @@ translate english ep22_photoshoot1_casting_3b145b91:
     # m "Привет, Биф. Я пришла..."
     # biff "О! Цыпочка пришла к папочке!"
     m "Hi, Biff. I came..."
-    biff "Oh! Chick came to daddy!"
+    biff "Oh, chick! Come to daddy!"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:116
 translate english ep22_photoshoot1_casting_eae3a9e3:
@@ -65,9 +65,9 @@ translate english ep22_photoshoot1_casting_eae3a9e3:
     # biff "Кто сегодня цыпочка?"
     # m "Сегодня цыпочка - это Моника Бакфетт с благотворительного вечера..."
     # biff "Что Моника Бакфетт хочет показать папочке?"
-    mt "I need to pretend and win his favor..."
-    m "Yeah, the chick came to daddy..."
-    "Nice chick..."
+    mt "I need to pretend and to gain his trust..."
+    m "Yeah, the chick is coming to daddy..."
+    "Good chick..."
     biff "Who's the chick tonight?"
     m "Today the chick is Monica Buckfett from the charity event..."
     biff "What does Monica Buckfett want to show daddy?"
@@ -85,10 +85,10 @@ translate english ep22_photoshoot1_casting_be98a9ea:
     # m "Ты заставил меня придти..."
     # mt "Ненавижу!!!"
     # biff "И что цыпочка будет делать?"
-    m "I came because I promised to behave..."
+    m "I came because I promised to behave like a good chick..."
     m "You made me come here..."
     mt "I hate this!!!"
-    biff "What's chick gonna do?"
+    biff "And what is chick going to do?"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:138
 translate english ep22_photoshoot1_casting_f4e1f245_1:
@@ -120,15 +120,15 @@ translate english strings:
 translate english ep22_photoshoot1_casting_c0132395:
 
     # mt "Мне надо притвориться и завоевать его расположение..."
-    mt "I need to pretend and win his favor..."
+    mt "I need to pretend and to gain his trust..."
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:122
 translate english ep22_photoshoot1_casting_26c7e3c1:
 
     # m "Да, цыпочка пришла к папочке..."
     # "Цыпочка хорошая..."
-    m "Yeah, the chick came to daddy..."
-    "Nice chick..."
+    m "Yeah, the chick is coming to daddy..."
+    "Good chick..."
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:125
 translate english ep22_photoshoot1_casting_871ff1f9:
@@ -144,7 +144,7 @@ translate english ep22_photoshoot1_casting_871ff1f9:
 translate english ep22_photoshoot1_casting_aaf46f34:
 
     # m "Я пришла, потому что обещала хорошо вести себя..."
-    m "I came because I promised to behave..."
+    m "I came because I promised to behave like a good chick..."
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:141
 translate english ep22_photoshoot1_casting_8d3fe5d0:
@@ -154,7 +154,7 @@ translate english ep22_photoshoot1_casting_8d3fe5d0:
     # biff "И что цыпочка будет делать?"
     m "You made me come here..."
     mt "I hate this!!!"
-    biff "What's chick gonna do?"
+    biff "And what is chick going to do?"
 
 translate english strings:
 
@@ -176,7 +176,7 @@ translate english ep22_photoshoot1_d5c14705:
     # "Публика хочет еще Ваших фотографий в этом платье!"
     alex_photograph "Mr. Biff said to put it on!"
     "Everyone loved you at the charity event!"
-    "The public wants more of your photos in this dress!"
+    "The public wants more photos of you in this dress!"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:161
 translate english ep22_photoshoot1_pose3_a9a99046:
@@ -224,7 +224,7 @@ translate english ep22_photoshoot1_casting_cb9f49f2:
 translate english ep22_photoshoot1_casting_e97962ff:
 
     # biff "О! Цыпочка пришла к папочке!"
-    biff "Oh! Chick came to daddy!"
+    biff "Oh, chick! Come to daddy!"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:519
 translate english ep22_photoshoot1_casting_b464a529:
@@ -252,7 +252,7 @@ translate english ep22_photoshoot1_casting_2b8d9f4a:
     # mt "Ненавижу!!!"
     # biff "И что цыпочка будет делать?"
     mt "I hate this!!!"
-    biff "What's chick gonna do?"
+    biff "And what is chick going to do?"
 
 translate english strings:
 

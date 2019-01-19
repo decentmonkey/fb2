@@ -134,7 +134,7 @@ translate english start_cleaning_dialogue2_00f42c72:
 translate english start_cleaning_dialogue2_f858909d:
 
     # mt "Теперь надо убрать мою бывшую спальню."
-    mt "Now I have to clean my old bedroom."
+    mt "Now I have to clean my former bedroom."
 
 translate english strings:
 
@@ -185,4 +185,3 @@ translate english strings:
     # Quests/House_Cleaning/House_Cleaning.rpy:234
     old "Пропустить."
     new "Skip."
-

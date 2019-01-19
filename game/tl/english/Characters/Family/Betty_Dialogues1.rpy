@@ -6,7 +6,7 @@ translate english bettyDialogue2_f5e3591c:
     # mt "Бетти отдыхает..."
     # "Мне лучше уйти отсюда пока она на меня не наорала."
     mt "Betty is resting..."
-    "I had better get out of here before she yelled at me."
+    "I better get out of here before she yells at me."
 
 # game/Characters/Family/Betty_Dialogues1.rpy:20
 translate english bettyDialogue2_58d95acf:

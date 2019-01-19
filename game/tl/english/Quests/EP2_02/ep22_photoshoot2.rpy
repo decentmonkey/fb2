@@ -6,7 +6,7 @@ translate english ep22_photoshoot2_38231464:
     # m "Алекс, это что?"
     # "Наряд женщины-вамп?"
     m "Alex, what is this?"
-    "Is it Lady Noir outfit?"
+    "Is it a Lady Noir outfit?"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:6
 translate english ep22_photoshoot2_e18906f0:
@@ -15,16 +15,16 @@ translate english ep22_photoshoot2_e18906f0:
     # m "И ты считаешь мне это идет?"
     # alex_photograph "О, Миссис Бакфетт!"
     # "Вам идет все, если взять правильный ракурс съемки!"
-    alex_photograph "Apparently Yes, Mrs. Buckfett!"
+    alex_photograph "Apparently so, Mrs. Buckfett!"
     m "Do you think it suits me?"
     alex_photograph "Oh, Mrs. Buckfett!"
-    "Everything suits you if you take the right angle!"
+    "Everything suits you if you look at it through the right angle."
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:11
 translate english ep22_photoshoot2_pose1_eb5a4879:
 
     # m "Знаю я твои правильные ракурсы..."
-    m "I know your right views..."
+    m "And I know perfectly well what your best angles are..."
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:16
 translate english ep22_photoshoot2_pose1_5cd72d0a:
@@ -71,8 +71,8 @@ translate english ep22_photoshoot2_pose4_fc946ddf:
     # m "Алекс, не вздумай подвинуть камеру ни на градус!"
     # alex_photograph "Хорошо, Мэм!"
     m "Hey! What are you doing?!"
-    "Can't you see I don't have anything in there?!"
-    "Although just try and see!"
+    "Can't you see I don't have anything on there?!"
+    "Although, just try to see!"
     m "Alex, don't move the camera by a degree!"
     alex_photograph "All right, Ma'am!"
 
@@ -140,13 +140,13 @@ translate english ep22_photoshoot2_pose7_2840fcfa:
     "My dress is stretched, it's going to rise!"
     alex_photograph "Mrs. Buckfett! You have to!"
     "You are Lady Noir."
-    "It's kind of a message. Discovery of your internal good, which is deep into You!"
-    m "What's the fuck is internal good?!"
-    "Ass showing?!"
+    "It's kind of a message. Discovery of your internal good, which is deep inside you!"
+    m "What's the fuck is this 'internal good'?!"
+    "Showing my ass?"
     alex_photograph "Mrs. Buckfett!"
     "Just a few frames!"
     m "Don't think!"
-    mt "Oh my God! Why I contacted with these photo shoots!!!"
+    mt "Oh my God! Why did I agree to do these shoots?"
     "If only I had a choice!"
     m "Okay, make it quick!"
     "And don't take the camera too low!"
@@ -173,10 +173,10 @@ translate english ep22_photoshoot2_pose7_8211a429:
     # m "НЕТ!!!"
     # "Алекс! Платье сразу поднимется!!!"
     # "У меня под ним ничего нет!!!"
-    alex_photograph "MA'am! Could you put your hands away?"
+    alex_photograph "Ma'am! Could you move your hands?"
     m "NO!!!"
-    "Alex! The dress will rise immediately!!!"
-    "I'm not wearing any underwear!!!"
+    "Alex! The dress will go up!"
+    "And I'm not wearing any underwear!!!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:136
 translate english ep22_photoshoot2_pose7_031a3d59:
@@ -187,26 +187,26 @@ translate english ep22_photoshoot2_pose7_031a3d59:
     # "Удали его немедленно!"
     # alex_photograph "Мэм! Не переживайте!"
     # "Оно получилось в затемнении и там ничего не видно!"
-    m "DID YOU UNDERSTAND ME, DIDN'T YOU!!!"
+    m "DO YOU UNDERSTAND ME?!"
     "ENOUGH!!!"
     m "Alex! Why did you take the photo?!"
-    "Remove it immediately!"
+    "Delete it immediately!"
     alex_photograph "MA'am! Don't worry!"
-    "It turned out in the dark, and there is nothing to see!"
+    "It turned out very dark, so you can't see anything!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:149
 translate english ep22_photoshoot2_end_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "MA'am! We have finished the photo shoot!"
+    alex_photograph "Ma'am! We're finished with the photo shoot!"
     m "Finally!!!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:152
 translate english ep22_photoshoot2_end_00d63a19:
 
     # mt "Что теперь?"
-    mt "What's after?"
+    mt "Now what?"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:158
 translate english ep22_photoshoot2_end_b0d7667d:
@@ -218,13 +218,13 @@ translate english ep22_photoshoot2_end_b0d7667d:
     # "Ведь у меня нет к нему чувств, я хладнокровная женщина, идущая к своей мести..."
     # "..."
     # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
-    mt "Biff's waiting for me at his stupid casting..."
+    mt "Biff is waiting for me to go through his stupid casting..."
     "He said he'd give me a job if I would be a good chick..."
-    "This will allow me to get closer to the goal, to bring my company back!"
-    "So maybe pretend?"
+    "I guess that would allow me to get closer my goal of getting my company back..."
+    "So maybe I should just pretend to be a good chick?"
     "After all, I have no feelings for him, I'm a cold-blooded woman going to her revenge..."
     "..."
-    "Damn... Especially since I promised him I'd be a good chick, and otherwise, he might stop giving me a job..."
+    "Damn... Especially since I promised him I'd be a good chick. Otherwise, he won't give me any work..."
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:171
 translate english ep22_photoshoot2_casting_3b145b91:
@@ -232,7 +232,7 @@ translate english ep22_photoshoot2_casting_3b145b91:
     # m "Привет, Биф. Я пришла..."
     # biff "О! Цыпочка пришла к папочке!"
     m "Hi, Biff. I came..."
-    biff "Oh! Chick came to daddy!"
+    biff "Oh, chick! Come to daddy!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:175
 translate english ep22_photoshoot2_casting_9d09327c:
@@ -243,9 +243,9 @@ translate english ep22_photoshoot2_casting_9d09327c:
     # biff "Кто сегодня цыпочка?"
     # m "Сегодня цыпочка - это женщина-вамп..."
     # biff "Что женщина-вамп хочет показать папочке?"
-    mt "I need to pretend and win his favor..."
-    m "Yeah, the chick came to daddy..."
-    "Nice chick..."
+    mt "I need to pretend and to gain his trust..."
+    m "Yeah, the chick is coming to daddy..."
+    "Good chick..."
     biff "Who's the chick tonight?"
     m "Today Lady Noir is a chick..."
     biff "What does the woman want to show daddy?"
@@ -263,10 +263,10 @@ translate english ep22_photoshoot2_casting_be98a9ea:
     # m "Ты заставил меня придти..."
     # mt "Ненавижу!!!"
     # biff "И что цыпочка будет делать?"
-    m "I came because I promised to behave..."
+    m "I came because I promised to behave like a good chick..."
     m "You made me come here..."
     mt "I hate this!!!"
-    biff "What's chick gonna do?"
+    biff "And what is chick going to do?"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:197
 translate english ep22_photoshoot2_casting_f4e1f245_1:
@@ -306,13 +306,13 @@ translate english ep22_photoshoot2_pose7_b78199ca:
     "My dress is stretched, it's going to rise!"
     alex_photograph "Mrs. Buckfett! You have to!"
     "You are Lady Noir!"
-    "It's kind of a message. Discovery of your internal good, which is deep into You!"
-    m "What's the fuck is internal good?!"
-    "Ass showing?!"
+    "It's kind of a message. Discovery of your internal good, which is deep inside you!"
+    m "What's the fuck is this 'internal good'?!"
+    "Showing my ass?"
     alex_photograph "Mrs. Buckfett!"
     "Just a few frames!"
     m "Don't think!"
-    mt "Oh my God! Why I contacted with these photo shoots!!!"
+    mt "Oh my God! Why did I agree to do these shoots?"
     "If only I had a choice!"
     m "Okay, make it quick!"
     "And don't take the camera too low!"
@@ -328,21 +328,21 @@ translate english ep22_photoshoot2_casting_cb9f49f2:
 translate english ep22_photoshoot2_casting_e97962ff:
 
     # biff "О! Цыпочка пришла к папочке!"
-    biff "Oh! Chick came to daddy!"
+    biff "Oh, chick! Come to daddy!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:180
 translate english ep22_photoshoot2_casting_c0132395:
 
     # mt "Мне надо притвориться и завоевать его расположение..."
-    mt "I need to pretend and win his favor..."
+    mt "I need to pretend and to gain his trust..."
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:182
 translate english ep22_photoshoot2_casting_26c7e3c1:
 
     # m "Да, цыпочка пришла к папочке..."
     # "Цыпочка хорошая..."
-    m "Yeah, the chick came to daddy..."
-    "Nice chick..."
+    m "Yeah, the chick is coming to daddy..."
+    "Good chick..."
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:185
 translate english ep22_photoshoot2_casting_765c4c17:
@@ -358,7 +358,7 @@ translate english ep22_photoshoot2_casting_765c4c17:
 translate english ep22_photoshoot2_casting_aaf46f34:
 
     # m "Я пришла, потому что обещала хорошо вести себя..."
-    m "I came because I promised to behave..."
+    m "I came because I promised to behave like a good chick..."
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:200
 translate english ep22_photoshoot2_casting_8d3fe5d0:
@@ -368,7 +368,7 @@ translate english ep22_photoshoot2_casting_8d3fe5d0:
     # biff "И что цыпочка будет делать?"
     m "You made me come here..."
     mt "I hate this!!!"
-    biff "What's chick gonna do?"
+    biff "And what is chick going to do?"
 
 translate english strings:
 
@@ -382,7 +382,7 @@ translate english strings:
 translate english ep22_photoshoot2_eb5a4879:
 
     # m "Знаю я твои правильные ракурсы..."
-    m "I know your right views..."
+    m "And I know perfectly well what your best angles are..."
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:46
 translate english ep22_photoshoot2_pose1_495a0ac0:
@@ -405,8 +405,8 @@ translate english ep22_photoshoot2_pose4_27f707c7:
     # "Ты что не видишь что у меня там ничего нет?!"
     # "Хотя только попробуй увидь!"
     m "Hey! What are you doing?!"
-    "Can't you see I don't have anything in there?!"
-    "Although just try and see!"
+    "Can't you see I don't have anything on there?!"
+    "Although, just try to see!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:296
 translate english ep22_photoshoot2_pose4_c63ee9ab:
@@ -444,9 +444,9 @@ translate english ep22_photoshoot2_pose6_239fea7d:
     "My dress is stretched, it's going to rise!"
     alex_photograph "Mrs. Buckfett! You have to!"
     "You are Lady Noir!"
-    "It's kind of a message. Discovery of your internal good, which is deep into You!"
-    m "What's the fuck is internal good?!"
-    "Ass showing?!"
+    "It's kind of a message. Discovery of your internal good, which is deep inside you!"
+    m "What's the fuck is this 'internal good'?!"
+    "Showing my ass?"
     alex_photograph "Mrs. Buckfett!"
     "Just a few frames!"
 
@@ -461,7 +461,7 @@ translate english ep22_photoshoot2_pose6_0691ad22:
 
     # mt "О Боже! Зачем я связалась с этими фотосессиями!!!"
     # "Если бы только у меня был выбор!"
-    mt "Oh my God! Why I contacted with these photo shoots!!!"
+    mt "Oh my God! Why did I agree to do these shoots?"
     "If only I had a choice!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:416
@@ -503,7 +503,7 @@ translate english ep22_photoshoot2_pose7_e4951120:
 
     # m "ТЫ ЧТО НЕ ПОНЯЛ МЕНЯ!!!"
     # "ХВАТИТ!!!"
-    m "DID YOU UNDERSTAND ME, DIDN'T YOU!!!"
+    m "DO YOU UNDERSTAND ME?!"
     "ENOUGH!!!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:570
@@ -514,9 +514,9 @@ translate english ep22_photoshoot2_pose7_419d0d62:
     # alex_photograph "Мэм! Не переживайте!"
     # "Оно получилось в затемнении и там ничего не видно!"
     m "Alex! Why did you take the photo?!"
-    "Remove it immediately!"
+    "Delete it immediately!"
     alex_photograph "MA'am! Don't worry!"
-    "It turned out in the dark, and there is nothing to see!"
+    "It turned out very dark, so you can't see anything!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:633
 translate english ep22_photoshoot2_casting_c77c8d3d:
@@ -544,5 +544,4 @@ translate english ep22_photoshoot2_casting_2b8d9f4a:
     # mt "Ненавижу!!!"
     # biff "И что цыпочка будет делать?"
     mt "I hate this!!!"
-    biff "What's chick gonna do?"
-
+    biff "And what is chick going to do?"

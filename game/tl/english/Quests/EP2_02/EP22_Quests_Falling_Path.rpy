@@ -5,7 +5,7 @@ translate english ep22_quests_falling_path4_ada061db:
 
     # mt "Я боюсь подходить к людям в вечернее время."
     # "Это опасно..."
-    mt "I'm afraid to approach people in the evening."
+    mt "It's scary to approach people in the evening."
     "It's dangerous..."
 
 # game/Quests/EP2_02/EP22_Quests_Falling_Path.rpy:42

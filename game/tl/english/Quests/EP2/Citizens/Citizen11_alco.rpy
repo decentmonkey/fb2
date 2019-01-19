@@ -50,7 +50,7 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen11_alco.rpy:8
     old "Не брать."
-    new "Do not take."
+    new "Don't take it"
 
     # Quests/EP2/Citizens/Citizen11_alco.rpy:17
     old "Оставить бутылку себе."

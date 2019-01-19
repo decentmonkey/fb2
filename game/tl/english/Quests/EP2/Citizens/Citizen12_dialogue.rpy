@@ -110,9 +110,9 @@ translate english citizen12_dialogue_598dfef0:
     # citizen12 "Конечно, крошка, а ты не хочешь ничего у меня взять?"
     # m "Вы это о чем?"
     # citizen12 "Сейчас, я покажу..."
-    citizen12 "Sure, baby, don't you want to take something from me?"
-    m "What about it?"
-    citizen12 "I'll show..."
+    citizen12 "Sure, baby, don't you want something from me?"
+    m "What?"
+    citizen12 "I'll show you..."
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:29
 translate english citizen12_dialogue_9d412ddb:
@@ -124,19 +124,19 @@ translate english citizen12_dialogue_9d412ddb:
 translate english citizen12_dialogue_57de1a2d:
 
     # m "Что ты себе позволяешь?! Что ты делаешь?"
-    m "What do you allow yourself?! What do you make?"
+    m "What are you doing? How can you do something like this?"
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:36
 translate english citizen12_dialogue_bb6b3c45:
 
     # citizen12 "Расслабься, уверен, тебе это не впервой."
-    citizen12 "Relax, I'm sure it's not the first time."
+    citizen12 "Relax, I'm sure it's not the first time you've experienced this."
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:39
 translate english citizen12_dialogue_facf5283:
 
     # mt "Черт, из за дурацкой рекламы мне сложно двигаться..."
-    mt "Hell, stupid commercials make it hard for me to move..."
+    mt "Damn, these stupid commercials make it hard for me to move..."
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:41
 translate english citizen12_dialogue_fd539d1b:
@@ -160,7 +160,7 @@ translate english citizen12_dialogue_3a1af735:
 translate english citizen12_dialogue_c7e8e32d:
 
     # m "Что ты сказал?! ПОМОГИТЕ, КТО НИБУДЬ!"
-    m "What you say?! HELP, SOMEBODY!"
+    m "NO! HELP! SOMEBODY!"
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:52
 translate english citizen12_dialogue_0136cd9b:
@@ -172,7 +172,7 @@ translate english citizen12_dialogue_0136cd9b:
 translate english citizen12_dialogue_05aea2da:
 
     # citizen12 "Эй, мужик, иди своей дорогой, или присоединяйся!"
-    citizen12 "Hey, man, go on your way, or join us!"
+    citizen12 "Hey, man, go away! Or join us..."
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:56
 translate english citizen12_dialogue_ecba74e6:
@@ -200,9 +200,9 @@ translate english citizen12_dialogue_accf96ea:
     # m "Что?"
     # citizen6 "Ну ты же сама обещала, что у меня будет все, что я захочу..."
     m "Thank you, thank you very much!"
-    citizen6 "Yeah, you come to me, we'll discuss my award."
+    citizen6 "Yeah, now come to me, we'll discuss my reward."
     m "What?"
-    citizen6 "Well, you promised me I'd have anything I wanted..."
+    citizen6 "Well, you promised me I'd have anything I want..."
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:101
 translate english citizen12_dialogue_edc73984:
@@ -211,8 +211,8 @@ translate english citizen12_dialogue_edc73984:
     # citizen12 "Да все просто, отойдем в сторонку, покажешь сиськи, может что еще."
     # m "Не сегодня, засранец!"
     # citizen12 "Да ладно тебе! Подумай об этом. Это быстрый способ заработать."
-    m "What about it?"
-    citizen12 "Yes, it's simple, let's go outside, show boobs, maybe more."
+    m "Yeah, what about it?"
+    citizen12 "Yes, it's simple, let's go outside, you show me your boobs, maybe more, and I will have got everything I wanted"
     m "Not today, asshole!"
     citizen12 "Come on! Think about it. It's a quick way to make money."
 
@@ -249,12 +249,11 @@ translate english citizen12_dialogue_d24f575e:
 
     # citizen12 "Конечно, крошка, а ты не хочешь ничего у меня взять?"
     # m "Вы это о чем?"
-    citizen12 "Sure, baby, don't you want to take something from me?"
-    m "What about it?"
+    citizen12 "Sure, baby, don't you want something from me?"
+    m "What?"
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:25
 translate english citizen12_dialogue_9844219d:
 
     # citizen12 "Сейчас, я покажу..."
-    citizen12 "I'll show..."
-
+    citizen12 "I'll show you..."

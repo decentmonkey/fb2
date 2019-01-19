@@ -112,7 +112,7 @@ translate english citizen14_dialogue_ac53427e:
     # mt "Черт, и кто тынул меня за язык..."
     m "That's possible..."
     citizen14 "Yes, I knew you'd notice I was handsome! Oink..."
-    citizen14 "Well, let's go with you to the gateway!"
+    citizen14 "Let's go to the gateway!"
     m "No way!"
     mt "Hell, who the hell was pulling my tongue..."
 
@@ -128,8 +128,8 @@ translate english citizen14_dialogue_pilon_f227022c:
     # citizen14 "Ик! Конечно! Ну признайся уже, что я тебе понравился."
     # mt "Животное... Думаю, не стоит иметь с этим типом ничего общего..."
     # m "Ладно, я пожалуй пойду."
-    citizen14 "EEK! Of course! Well, just admit that you liked me."
-    mt "Animal... I don't think we should have anything to do with this guy..."
+    citizen14 "EEK! Of course! Well, just admit that you like me."
+    mt "What an animal... I don't think we should have anything to do with this guy..."
     m "Okay, I better go."
 
 translate english strings:

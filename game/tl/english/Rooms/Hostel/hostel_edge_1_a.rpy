@@ -49,7 +49,7 @@ translate english hostel_edge_1_a_environment_1395e7b9:
     # "ПИЛОН???"
     # "ЗДЕСЬ???"
     mt "WHAT'S THAT???"
-    "The PYLON???"
+    "The POLE???"
     "HERE???"
 
 # game/Rooms/Hostel/hostel_edge_1_a.rpy:84
@@ -73,4 +73,3 @@ translate english strings:
     # Rooms/Hostel/hostel_edge_1_a.rpy:39
     old "ДРУГАЯ СТОРОНА"
     new "OTHER SIDE"
-

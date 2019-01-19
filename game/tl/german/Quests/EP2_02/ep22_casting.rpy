@@ -73,7 +73,7 @@ translate german ep22_dialogue6_6_loop1_2fe9ce97:
 
     # biff "Давай! Девушка с календаря!"
     # "Показывай свои сиськи!"
-    # "Иначе я скажу Алексу чтобы эти голые сиськи смотрели с прямо с календаря!"
+    # "Иначе я скажу Алексу чтобы эти голые сиськи смотрели прямо с календаря!"
     biff "Komm schon, Kalendermädchen!"
     "Zeig deine Hupen!"
     "Oder ich sage Alex, dass diese Titten jeden direkt vom Kalender anschauen sollen!"
@@ -245,4 +245,15 @@ translate german strings:
     # Quests/EP2_02/ep22_casting.rpy:177
     old "Достать член Бифа и засунуть его в секретаршу. (disabled)"
     new "Nimm Biff's Schwanz und dirigiere ihn zu der Sekretärin (disabled)"
+# TODO: Translation updated at 2019-01-19 16:54
+
+# game/Quests/EP2_02/ep22_casting.rpy:101
+translate german ep22_dialogue6_6_loop1_754bc00d:
+
+    # biff "Давай! Девушка с календаря!"
+    # "Показывай свои сиськи!"
+    # "Иначе я скажу Алексу чтобы эти голые сиськи смотрели прямо с календаря!"
+    biff "Давай! Девушка с календаря!"
+    "Показывай свои сиськи!"
+    "Иначе я скажу Алексу чтобы эти голые сиськи смотрели прямо с календаря!"
 

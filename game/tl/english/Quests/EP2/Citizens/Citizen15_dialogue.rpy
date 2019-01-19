@@ -119,16 +119,16 @@ translate english citizen15_dialogue_1733d0f6:
     # citizen15 "Давай сходим за угол, там нам никто не помешает.. Глядишь и заработаешь что нибудь."
     # m "Да кем ты себя возомнил?!"
     m "Well, I'm not exactly rolling..."
-    citizen15 "Yeah, you know a lot about guys, but first I'd like to get a closer look at you."
-    m "Ah?"
-    citizen15 "Let's go around the corner, no one will disturb us there... You look and earn something."
+    citizen15 "Yeah, you know a lot about guys, but I'd love to take a closer look at you!"
+    m "Eh?"
+    citizen15 "Let's go around the corner, no one will disturb us there... You show yourself a little, and earn something in return."
     m "Who do you think you are?!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:51
 translate english citizen15_dialogue_pilon_0d60c782:
 
     # m "Привет! Кажется, ты говорил, что я могу заработать денег..."
-    m "Hi! I thought you said I could make money..."
+    m "Hi! If I recall correctly, you had an offer for me. An offer that I could earn some money?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:53
 translate english citizen15_dialogue_pilon_8f5030c1:
@@ -138,17 +138,17 @@ translate english citizen15_dialogue_pilon_8f5030c1:
     # m "Куда ты хотел пойти?"
     # citizen15 "Ты же наверняка видала подворотню с пилоном? Вот туда и пойдем."
     # citizen15 "Ну что, начинай, только не разочаруй меня."
-    citizen15 "Yeah, I speak about it. Just keep in mind: I have lots like you. You have to show me something special."
-    mt "Smug bastard...Who does he think he is? Shit, I need the money."
+    citizen15 "Yeah, that's right. Just keep this in mind: I know a lot of people like you. You'd have to show me something special to earn your money."
+    mt "Bastard...Who does he think he is? I really need the money, though..."
     m "Where did you want to go?"
-    citizen15 "You must have seen the gate with the pylon, right? There we go."
+    citizen15 "You must have seen the gate with the pole, right? That's where we'll do this"
     citizen15 "Well, start, just don't disappoint me."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:65
 translate english citizen15_dialogue_pilon_loop15_a6502f14:
 
     # citizen15 "Для начала сиськи, показывай!"
-    citizen15 "For the start tits, show me!"
+    citizen15 "Begin with showing me your tits."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:67
 translate english citizen15_dialogue_pilon_loop15_a7283d00:
@@ -157,16 +157,16 @@ translate english citizen15_dialogue_pilon_loop15_a7283d00:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 50 corruption"
-    mt "I can't afford that!"
-    "I'm not that down yet!"
-    "And I hope it NEVER happens!"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
     help "50 corruption required"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:74
 translate english citizen15_dialogue_pilon_loop15_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes, just like that."
+    m "I'm not going to take off clothes..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:77
 translate english citizen15_dialogue_pilon_loop15_7d666d2a:
@@ -184,7 +184,7 @@ translate english citizen15_dialogue_pilon_loop15_7ca1c9c7:
 translate english citizen15_dialogue_pilon_loop15_7e4dbe9a:
 
     # citizen15 "А теперь повернсь и покажи свой зад!"
-    citizen15 "Now turn around and show your ass!"
+    citizen15 "Now turn around and show me your ass!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:87
 translate english citizen15_dialogue_pilon_loop15_f7e05701:
@@ -193,50 +193,50 @@ translate english citizen15_dialogue_pilon_loop15_f7e05701:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 70 corruption"
-    mt "I can't afford that!"
-    "I'm not that down yet!"
-    "And I hope it NEVER happens!"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
     help "Requires 70 corruption"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:93
 translate english citizen15_dialogue_pilon_loop15_48b1ace1_1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes, just like that."
+    m "I'm not going to take off clothes..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:97
 translate english citizen15_dialogue_pilon_loop15_de23045f:
 
     # citizen15 "Зад, 10 долларовой шлюхи, но еще рабочий."
-    citizen15 "Ass of the $ 10 whore, but still working."
+    citizen15 " whore ass... I guess it'll do, in the lack of something better."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:99
 translate english citizen15_dialogue_pilon_loop15_72a32bbb:
 
     # mt "Что за козел. Врезать может ему?"
-    mt "What an asshole. Punch him?"
+    mt "What an asshole. Should I beat the shit out of him?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:105
 translate english citizen15_dialogue_pilon_loop15_3be4a5e0:
 
     # citizen15 "Красивая шлюшка. Уверен, ты можешь больше, а пока так..."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen15 "Beautiful slut. I'm sure you can do more, but for now..."
-    m "What?! So little? Well, I'll be rich soon and get my life back..."
+    citizen15 "Beautiful, slut. I'm sure you can do more, but for now..."
+    m "What?! This little? Well, at least I'll be rich soon when I get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:109
 translate english citizen15_dialogue_pilon_loop15_3be4a5e0_1:
 
     # citizen15 "Красивая шлюшка. Уверен, ты можешь больше, а пока так..."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen15 "Beautiful slut. I'm sure you can do more, but for now..."
-    m "What?! So little? Well, I'll be rich soon and get my life back..."
+    citizen15 "Beautiful, slut. I'm sure you can do more, but for now..."
+    m "What?! This little? Well, at least I'll be rich soon when I get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:114
 translate english citizen15_dialogue_pilon_loop15_d0557603:
 
     # citizen15 "Сходи поищи себе кого-нибудь еще."
-    citizen15 "Go look for someone else."
+    citizen15 "Go find someone else to do this for!"
 
 translate english strings:
 
@@ -264,14 +264,14 @@ translate english citizen15_dialogue_pilon_7cba2e32:
     # m "Знаю"
     # citizen15 "Ты же наверняка видела подворотню с пилоном? Вот туда и пойдем."
     # citizen15 "Ну что, начинай, только не разочаруй меня."
-    citizen15 "Yeah, I speak about it. Just keep in mind: I have lots like you. You have to show me something special."
-    mt "Smug bastard...Who does he think he is? Shit, I need the money."
+    citizen15 "Yeah, that's right. Just keep this in mind: I know a lot of people like you. You'd have to show me something special to earn your money."
+    mt "Bastard...Who does he think he is? I really need the money, though..."
     m "Where did you want to go?"
     citizen15 "Girls usually figure out where to take me."
-    "Don't forget, I have no limit of people like you."
+    "And don't forget, I have plenty of girls just like you!"
     mt "!!!"
-    m "I know"
-    citizen15 "You must have seen the gate with the pylon, right? There we go."
+    m "I know..."
+    citizen15 "You must have seen the gate with the pole, right? That's where we'll go!"
     citizen15 "Well, start, just don't disappoint me."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:74
@@ -281,9 +281,9 @@ translate english citizen15_dialogue_pilon_loop15_e7678610:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
-    mt "I can't afford that!"
-    "I'm not that down yet!"
-    "And I hope it NEVER happens!"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
     help "Required [monicaWhoringClothBoobsCorruptionrequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:94
@@ -293,9 +293,9 @@ translate english citizen15_dialogue_pilon_loop15_299ae0b0:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
-    mt "I can't afford that!"
-    "I'm not that down yet!"
-    "And I hope it NEVER happens!"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
     help "Required [monicaWhoringClothAssCorruptionRequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:112
@@ -304,9 +304,9 @@ translate english citizen15_dialogue_pilon_loop15_69c062d2:
     # citizen15 "Красивая шлюшка. Уверен, ты можешь больше, а пока так..."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen15 "Beautiful slut. I'm sure you can do more, but for now..."
-    m "What?! So little? Could give more!"
-    mt "Well, I'll be rich soon and get my life back..."
+    citizen15 "Beautiful, slut. I'm sure you can do more, but for now..."
+    m "What?! This little?"
+    mt "Well, at least I'll be rich soon when I get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:117
 translate english citizen15_dialogue_pilon_loop15_69c062d2_1:
@@ -314,9 +314,9 @@ translate english citizen15_dialogue_pilon_loop15_69c062d2_1:
     # citizen15 "Красивая шлюшка. Уверен, ты можешь больше, а пока так..."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen15 "Beautiful slut. I'm sure you can do more, but for now..."
-    m "What?! So little? Could give more!"
-    mt "Well, I'll be rich soon and get my life back..."
+    citizen15 "Beautiful, slut. I'm sure you can do more, but for now..."
+    m "What?! This little?"
+    mt "Well, at least I'll be rich soon when I get my life back..."
 
 # TODO: Translation updated at 2019-01-16 14:59
 
@@ -331,14 +331,14 @@ translate english citizen15_dialogue_pilon_2e3ec22d:
     # mt "!!!"
     # m "Знаю"
     # citizen15 "Ты же наверняка видела подворотню с пилоном? Вот туда и пойдем."
-    citizen15 "Yeah, I speak about it. Just keep in mind: I have lots like you. You have to show me something special."
-    mt "Smug bastard...Who does he think he is? Shit, I need the money."
+    citizen15 "Yeah, that's right. Just keep this in mind: I know a lot of people like you. You'd have to show me something special to earn your money."
+    mt "Bastard...Who does he think he is? I really need the money, though..."
     m "Where did you want to go?"
     citizen15 "Girls usually figure out where to take me."
-    "Don't forget, I have no limit of people like you."
+    "And don't forget, I have plenty of girls just like you!"
     mt "!!!"
-    m "I know"
-    citizen15 "You must have seen the gate with the pylon, right? There we go."
+    m "I know..."
+    citizen15 "You must have seen the gate with the pole, right? That's where we'll go!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:68
 translate english citizen15_dialogue_pilon_9f3f7df8:
@@ -350,27 +350,26 @@ translate english citizen15_dialogue_pilon_9f3f7df8:
 translate english citizen15_dialogue_pilon_loop15_6c0d51ab:
 
     # citizen15 "Красивая шлюшка. Уверен, ты можешь больше, а пока так..."
-    citizen15 "Beautiful slut. I'm sure you can do more, but for now..."
+    citizen15 "Beautiful, slut. I'm sure you can do more, but for now..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:125
 translate english citizen15_dialogue_pilon_loop15_ea17d522:
 
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    m "What?! So little? Could give more!"
-    mt "Well, I'll be rich soon and get my life back..."
+    m "What?! This little?"
+    mt "Well, at least I'll be rich soon when I get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:131
 translate english citizen15_dialogue_pilon_loop15_6c0d51ab_1:
 
     # citizen15 "Красивая шлюшка. Уверен, ты можешь больше, а пока так..."
-    citizen15 "Beautiful slut. I'm sure you can do more, but for now..."
+    citizen15 "Beautiful, slut. I'm sure you can do more, but for now..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:133
 translate english citizen15_dialogue_pilon_loop15_ea17d522_1:
 
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    m "What?! So little? Could give more!"
-    mt "Well, I'll be rich soon and get my life back..."
-
+    m "What?! This little?"
+    mt "Well, at least I'll be rich soon when I get my life back..."

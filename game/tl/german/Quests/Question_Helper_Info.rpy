@@ -118,7 +118,7 @@ translate german strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Барди хочет чтобы я одевала трусики Бетти, которые она носила в прошлый раз. Бетти валяется в них своей толстой задницей на моей кровати по вечерам."
-    new "Bardi will, dass ich Betty's Höschen trage, welche sie gestern an hatte. Betty wälzt sich darin mit ihrem fetten Arsch in meinem Bett."
+    new "Bardie will, dass ich Betty's Höschen trage, welche sie gestern an hatte. Betty wälzt sich darin mit ihrem fetten Arsch in meinem Bett."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Бетти ждет от меня, что я буду регулярно убираться в доме."
@@ -219,4 +219,3 @@ translate german strings:
     # Quests/Question_Helper_Info.rpy:115
     old "Вместо разноски флаеров я нашла более быстрый способ заработать. Он немного... неудобный, но ведь это ненадолго..."
     new "Ich habe einen schnelleren Weg gefunden, Geld zu verdienen, anstatt Flyer zu verteilen. Er ist etwas... unbequem, aber ich mache das ja nicht lange."
-

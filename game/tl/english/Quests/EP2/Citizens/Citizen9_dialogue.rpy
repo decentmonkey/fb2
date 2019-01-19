@@ -194,7 +194,7 @@ translate english citizen9_dialogue_5db972c4:
     # "Хорошо..."
     # citizen9 "Ооо, дамочка, а пойдемте к пилону! я потрогаю твою сиську еще разок!"
     "Good..."
-    citizen9 "Ooh, lady, let's go to the pylon! I'll touch your boob again!"
+    citizen9 "Ooh, lady, let's go to the gateway! I want to touch your boob again!"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:80
 translate english citizen9_dialogue_069ad2f2:
@@ -216,7 +216,7 @@ translate english citizen9_dialogue_pilon_882f1251:
     # m "Привет! Ты ведь покупал кое что у Джека?"
     # citizen9 "Не совсем понимаю к чему ты клонишь..."
     m "Hi! You bought something from Jack, right?"
-    citizen9 "I'm not sure what you're getting at..."
+    citizen9 "Yeah, but I'm not sure what you're getting at..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:108
 translate english citizen9_dialogue_pilon_4937d838:
@@ -224,7 +224,7 @@ translate english citizen9_dialogue_pilon_4937d838:
     # citizen9 "Ууу, дамочке нужна наличка?"
     # m "Ну, не совсем..."
     # citizen9 "Ага, рассказывай... По твоей одежде мне все понятно..."
-    citizen9 "Ooh, does the lady need cash?"
+    citizen9 "Ooh, the lady needs cash?"
     m "Not really..."
     citizen9 "Yeah, tell... Your clothes make sense to me..."
 
@@ -235,9 +235,9 @@ translate english citizen9_dialogue_pilon_e79c8675:
     # citizen9 "Да ладно, дамочка, не злись."
     # citizen9 "Знаешь подворотню с пилоном? Там часто появлябтся желающие заработать. Пойдем туда."
     # citizen9 "Ладно, дамочка, что там у тебя?"
-    mt "You redneck! You don't even know who I am!"
+    mt "You damn redneck! You don't even know who I am!"
     citizen9 "Come on, lady, don't be mad."
-    citizen9 "You know the gate with the pylon? There are willing people to make money. Go there."
+    citizen9 "You know the gate with the pole? There are people willing to make money there. You should go there."
     citizen9 "Okay, lady, what have you got?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:123
@@ -248,7 +248,7 @@ translate english citizen9_dialogue_pilon_loop9_1b776fc7:
     # citizen9 "Дамочка, а что это может значить? Давай показывай!"
     citizen9 "Tits!"
     m "What does that mean?"
-    citizen9 "Lady, what does that mean? Show me!"
+    citizen9 "Lady, you know exactly what it means! Show them to me!"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:127
 translate english citizen9_dialogue_pilon_loop9_a7283d00:
@@ -257,22 +257,22 @@ translate english citizen9_dialogue_pilon_loop9_a7283d00:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 50 corruption"
-    mt "I can't afford that!"
-    "I'm not that down yet!"
-    "And I hope it NEVER happens!"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
     help "50 corruption required"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:133
 translate english citizen9_dialogue_pilon_loop9_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes, just like that."
+    m "I'm not going to take off clothes..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:137
 translate english citizen9_dialogue_pilon_loop9_5fedd840:
 
     # citizen9 "Ну хоть что-то."
-    citizen9 "At least something."
+    citizen9 "At least it's something."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:143
 translate english citizen9_dialogue_pilon_loop9_f1e13c5f:
@@ -291,22 +291,22 @@ translate english citizen9_dialogue_pilon_loop9_f7e05701:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 70 corruption"
-    mt "I can't afford that!"
-    "I'm not that down yet!"
-    "And I hope it NEVER happens!"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
     help "Requires 70 corruption"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:153
 translate english citizen9_dialogue_pilon_loop9_48b1ace1_1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes, just like that."
+    m "I'm not going to take off clothes..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:157
 translate english citizen9_dialogue_pilon_loop9_4e3a88b0:
 
     # citizen9 "Мда, скучно как-то. Приходи сюда вечером, увидишь как можно реально заработать."
-    citizen9 "Yeah, boring. Come here tonight, you'll see how you can really make money."
+    citizen9 "Yeah, boring. Come here tonight, and you'll see how you can really make money."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:164
 translate english citizen9_dialogue_pilon_loop9_6a27ce46:
@@ -314,7 +314,7 @@ translate english citizen9_dialogue_pilon_loop9_6a27ce46:
     # citizen9 "Ну что-то ты заслужила..."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
     citizen9 "Well, you deserve something..."
-    m "What?! So little? Well, I'll be rich soon and get my life back..."
+    m "What?! This little? Well, at least I'll be rich soon when I get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:168
 translate english citizen9_dialogue_pilon_loop9_6a27ce46_1:
@@ -322,7 +322,7 @@ translate english citizen9_dialogue_pilon_loop9_6a27ce46_1:
     # citizen9 "Ну что-то ты заслужила..."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
     citizen9 "Well, you deserve something..."
-    m "What?! So little? Well, I'll be rich soon and get my life back..."
+    m "What?! This little? Well, at least I'll be rich soon when I get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:173
 translate english citizen9_dialogue_pilon_loop9_c3741169:
@@ -349,9 +349,9 @@ translate english citizen9_dialogue_pilon_c18aa4ee:
     # citizen9 "Да ладно, дамочка, не злись."
     # citizen9 "Знаешь подворотню с пилоном? Там часто появляются желающие заработать. Пойдем туда."
     # citizen9 "Ладно, дамочка, что там у тебя?"
-    mt "You redneck! You don't even know who I am!"
+    mt "You damn redneck! You don't even know who I am!"
     citizen9 "Come on, lady, don't be mad."
-    citizen9 "You know the gate with the pylon? There are willing people to make money. Go there."
+    citizen9 "You know the gate with the pole? There are people willing to make money there. You should go there."
     citizen9 "Okay, lady, what have you got?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:127
@@ -361,9 +361,9 @@ translate english citizen9_dialogue_pilon_loop9_e7678610:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
-    mt "I can't afford that!"
-    "I'm not that down yet!"
-    "And I hope it NEVER happens!"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
     help "Required [monicaWhoringClothBoobsCorruptionrequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:143
@@ -383,9 +383,9 @@ translate english citizen9_dialogue_pilon_loop9_299ae0b0:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
-    mt "I can't afford that!"
-    "I'm not that down yet!"
-    "And I hope it NEVER happens!"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
     help "Required [monicaWhoringClothAssCorruptionRequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:164
@@ -395,8 +395,8 @@ translate english citizen9_dialogue_pilon_loop9_643513c1:
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
     citizen9 "Well, you deserve something..."
-    m "What?! So little? Could give more!"
-    mt "Well, I'll be rich soon and get my life back..."
+    m "What?! This little?"
+    mt "Well, at least I'll be rich soon when I get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:169
 translate english citizen9_dialogue_pilon_loop9_643513c1_1:
@@ -405,8 +405,8 @@ translate english citizen9_dialogue_pilon_loop9_643513c1_1:
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
     citizen9 "Well, you deserve something..."
-    m "What?! So little? Could give more!"
-    mt "Well, I'll be rich soon and get my life back..."
+    m "What?! This little?"
+    mt "Well, at least I'll be rich soon when I get my life back..."
 # TODO: Translation updated at 2019-01-15 21:45
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:143
@@ -427,9 +427,9 @@ translate english citizen9_dialogue_pilon_eae6f7a8:
     # mt "Ах ты деревеньщина! Ты даже не знаешь кто я такая!"
     # citizen9 "Да ладно, дамочка, не злись."
     # citizen9 "Знаешь подворотню с пилоном? Там часто появляются желающие заработать. Пойдем туда."
-    mt "You redneck! You don't even know who I am!"
+    mt "You damn redneck! You don't even know who I am!"
     citizen9 "Come on, lady, don't be mad."
-    citizen9 "You know the gate with the pylon? There are willing people to make money. Go there."
+    citizen9 "You know the gate with the pole? There are people willing to make money there. You should go there."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:119
 translate english citizen9_dialogue_pilon_571176a9:
@@ -462,8 +462,8 @@ translate english citizen9_dialogue_pilon_loop9_ea17d522:
 
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    m "What?! So little? Could give more!"
-    mt "Well, I'll be rich soon and get my life back..."
+    m "What?! This little?"
+    mt "Well, at least I'll be rich soon when I get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:186
 translate english citizen9_dialogue_pilon_loop9_e108a574_1:
@@ -476,6 +476,5 @@ translate english citizen9_dialogue_pilon_loop9_ea17d522_1:
 
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    m "What?! So little? Could give more!"
-    mt "Well, I'll be rich soon and get my life back..."
-
+    m "What?! This little?"
+    mt "Well, at least I'll be rich soon when I get my life back..."

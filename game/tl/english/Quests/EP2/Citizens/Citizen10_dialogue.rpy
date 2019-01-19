@@ -86,7 +86,7 @@ translate english citizen10_dialogue_61862b2e:
 translate english citizen10_dialogue_e946ecb0:
 
     # m "Мы уже достаточно с вами поговорили!"
-    m "We've talked to you enough!"
+    m "No, we've talked more than enough."
 
 # game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:33
 translate english citizen10_dialogue_a8d99408:
@@ -108,7 +108,7 @@ translate english citizen10_dialogue_pilon_517f152f:
     # mt "Что это с ним?"
     m "Hey, I'm sorry..."
     citizen10 "Not now, I'm busy!"
-    mt "What about him?"
+    mt "What is wrong with him?"
 
 translate english strings:
 
@@ -133,4 +133,3 @@ translate english citizen10_dialogue_ff59d1c0:
     citizen10 "I'm a florist, you know. I study plants. But I'm also interested in the beauty of the female body. It inspires me."
     m "No, thank you, next time."
     mt "Is he normal?"
-

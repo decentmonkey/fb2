@@ -450,7 +450,7 @@ translate english monica_charity_event_dialogue3_46e6999a:
     # mt "Все!"
     # "Я сказала что хотел этот мерзавец Биф!"
     # "Надо идти {c}узнать про деньги{/c}!"
-    mt "ThatТs all!"
+    mt "Thats' all!"
     "I said what that bastard Biff wanted!"
     "Now I need to go {c}and find out about the money {/c}!"
 
@@ -2972,7 +2972,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:1173
     old "Открыть рот..."
-    new "Open my mouth..."
+    new "Open your mouth..."
 
     # Quests/EP2/ep2_dialogues5.rpy:1197
     old "Делать все что говорит Филипп. У меня нет выхода. Мне нужны эти деньги!!!"
@@ -4648,7 +4648,7 @@ translate english monica_charity_event_dialogue3_23d795db:
     # mt "Все!"
     # "Я сказала что хотел этот мерзавец Биф!"
     # "Надо идти {c}узнать про деньги{/c}!"
-    mt "ThatТs all!"
+    mt "Thats' all!"
     "I said what that bastard Biff wanted!"
     "Now I need to go {c}and find out about the money {/c}!"
 
@@ -4810,7 +4810,7 @@ translate english monica_charity_event_dialogue3_fb06f1cc:
     # mt "Все!"
     # "Я сказала что хотел этот мерзавец Биф!"
     # "Надо идти {c}узнать про деньги{/c}!"
-    mt "ThatТs all!"
+    mt "Thats' all!"
     "I said what that bastard Biff wanted!"
     "Now I need to go {c}and find out about the money {/c}!"
 

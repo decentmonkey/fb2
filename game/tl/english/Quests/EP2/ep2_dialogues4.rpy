@@ -31,8 +31,8 @@ translate english monica_office_entrance_biff_dialogue1_49ad18d9:
 # game/Quests/EP2/ep2_dialogues4.rpy:17
 translate english monica_office_entrance_biff_dialogue1_c5add415:
 
-    # m "Спасибо, Мистер!" 
-    m "Thanks, Mister!" 
+    # m "Спасибо, Мистер!"
+    m "Thanks, Mister!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:20
 translate english monica_office_entrance_biff_dialogue1_b241d991:
@@ -109,9 +109,9 @@ translate english monica_office_secretary_dialogue1_c68d62b5:
 # game/Quests/EP2/ep2_dialogues4.rpy:62
 translate english monica_office_secretary_dialogue1_3b0ed062:
 
-    # m "Это неправда, дорогуша." 
+    # m "Это неправда, дорогуша."
     # "У меня были кое-какие проблемы, но я их решила."
-    m "It's not true, sweetheart." 
+    m "It's not true, sweetheart."
     "I had some problems, but I solved them."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:65
@@ -155,8 +155,8 @@ translate english monica_office_secretary_dialogue1_6e13407d:
 # game/Quests/EP2/ep2_dialogues4.rpy:80
 translate english monica_office_secretary_dialogue1_fc04f284:
 
-    # m "Биф говоришь?!?!" 
-    m "Did you say Biff?!?!" 
+    # m "Биф говоришь?!?!"
+    m "Did you say Biff?!?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:82
 translate english monica_office_secretary_dialogue1_87d59515:
@@ -174,12 +174,12 @@ translate english monica_office_secretary_dialogue1_87d59515:
 translate english monica_office_secretary_dialogue1_5ea032a2:
 
     # "Но я обещаю тебе что скоро я приду и выгоню всех!"
-    # "И этого негодяя что посмел занять мое место, пока меня не было!" 
+    # "И этого негодяя что посмел занять мое место, пока меня не было!"
     # "И любых сотрудников, кто хоть как-то сотрудничал с ним во время моего отсутствия!"
     # m "А сейчас, покажи мне где он сидит???"
     # "Этот негодяй!"
     "But I promise you that soon I will come and kick out every one of them!"
-    "And that scoundrel who dared to take my place while I was gone!" 
+    "And that scoundrel who dared to take my place while I was gone!"
     "And all employees who even showed the slightest cooperation with him during my absence!"
     m "Now, can you show me where he is???"
     "That bastard!"
@@ -435,24 +435,24 @@ translate english monica_office_cabinet_biff_dialogue1_a0ee25f5:
 # game/Quests/EP2/ep2_dialogues4.rpy:278
 translate english monica_office_cabinet_biff_dialogue1_f3dcd0a3:
 
-    # "ПОКА Я НЕ ОТОРВАЛА ТЕБЕ ТВОИ ЯЙЦА К ЧЕРТЯМ!!!" 
-    "OR I'LL RIP YOUR BALLS OFF AND SEND YOU TO HELL!!!" 
+    # "ПОКА Я НЕ ОТОРВАЛА ТЕБЕ ТВОИ ЯЙЦА К ЧЕРТЯМ!!!"
+    "OR I'LL RIP YOUR BALLS OFF AND SEND YOU TO HELL!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:281
 translate english monica_office_cabinet_biff_dialogue1_894d8baf:
 
     # biff "Ого!"
     # "Это какая-то шутка?"
-    # "Должно быть ты самозванка?" 
+    # "Должно быть ты самозванка?"
     biff "Wow!"
     "Is this some kind of joke?"
-    "You must be an imposter." 
+    "You must be an imposter."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:285
 translate english monica_office_cabinet_biff_dialogue1_a21a0e09:
 
-    # "..." 
-    "..." 
+    # "..."
+    "..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:287
 translate english monica_office_cabinet_biff_dialogue1_29a4f6ab:
@@ -529,8 +529,8 @@ translate english monica_office_cabinet_biff_dialogue1_1146047b:
 # game/Quests/EP2/ep2_dialogues4.rpy:318
 translate english monica_office_cabinet_biff_dialogue1_620e5d2c:
 
-    # biff "Алло! Полиция?!" 
-    biff "Hello! The police?!" 
+    # biff "Алло! Полиция?!"
+    biff "Hello! The police?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:321
 translate english monica_office_cabinet_biff_dialogue1_15609ee9:
@@ -597,10 +597,10 @@ translate english monica_office_cabinet_biff_dialogue1_c40a323b:
 # game/Quests/EP2/ep2_dialogues4.rpy:354
 translate english monica_office_cabinet_biff_dialogue1_922e1f42:
 
-    # m "Эй! Биф!" 
+    # m "Эй! Биф!"
     # "Не бойся!"
     # "Ты правда здорово напугался?!"
-    m "Hey! Biff!" 
+    m "Hey! Biff!"
     "Don't be afraid!"
     "Are you really that scared?!"
 
@@ -629,8 +629,8 @@ translate english monica_office_cabinet_biff_dialogue1_e8120f68:
 # game/Quests/EP2/ep2_dialogues4.rpy:369
 translate english monica_office_cabinet_biff_dialogue1_2442dffb:
 
-    # biff "Извините!" 
-    biff "Sorry!" 
+    # biff "Извините!"
+    biff "Sorry!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:371
 translate english monica_office_cabinet_biff_dialogue1_add680c5:
@@ -695,8 +695,8 @@ translate english monica_office_cabinet_biff_dialogue1_25fab957:
 # game/Quests/EP2/ep2_dialogues4.rpy:399
 translate english monica_office_cabinet_biff_dialogue1_be5e12bd:
 
-    # "Я ведь могу тебя сделать моделью, ты понимаешь?" 
-    "I can turn you into a model." 
+    # "Я ведь могу тебя сделать моделью, ты понимаешь?"
+    "I can turn you into a model."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:402
 translate english monica_office_cabinet_biff_dialogue1_18e11c83:
@@ -911,9 +911,9 @@ translate english monica_office_photostudio_melanie_dialogue1_e8268737:
 # game/Quests/EP2/ep2_dialogues4.rpy:517
 translate english monica_office_photostudio_melanie_dialogue1_a7e31ec1:
 
-    # melanie "Миссис Бакфетт... Вы выглядите потрясающе." 
+    # melanie "Миссис Бакфетт... Вы выглядите потрясающе."
     # "Ваш вкус настолько изыскан, что недоступен моему пониманию..."
-    melanie "Mrs. Buckfett... You look amazing." 
+    melanie "Mrs. Buckfett... You look amazing."
     "Your taste is so exquisite that it is beyond my understanding..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:520
@@ -1842,7 +1842,7 @@ translate english monica_office_photostudio_alex_dialogue2_29d71615:
     "And don't even dare to move if you value your life!"
     alex_photograph "Of course, Ma'am!"
     "Don't worry, I'm not moving an inch!"
-    "I am waiting for your permission, Ma'am!"
+    "I'm waiting for your permission, Ma'am!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1109
 translate english monica_office_photostudio_alex_dialogue2_cc20f675:
@@ -2471,10 +2471,10 @@ translate english monica_office_cabinet_biff_dialogue1_1f2ce2e7:
 
     # biff "Ого!"
     # "Это какая-то шутка?"
-    # "Должно быть ты самозванка?" 
+    # "Должно быть ты самозванка?"
     biff "Wow!"
     "Is this some kind of joke?"
-    "You must be an imposter." 
+    "You must be an imposter."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:369
 translate english monica_office_cabinet_biff_dialogue1_71039942:
@@ -2499,8 +2499,8 @@ translate english monica_office_cabinet_biff_dialogue1_52e51f92:
 # game/Quests/EP2/ep2_dialogues4.rpy:401
 translate english monica_office_cabinet_biff_dialogue1_eaf0131a:
 
-    # biff "Алло! Полиция?!" 
-    biff "Hello! The police?!" 
+    # biff "Алло! Полиция?!"
+    biff "Hello! The police?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:415
 translate english monica_office_cabinet_biff_dialogue1_d7425938:
@@ -2523,8 +2523,8 @@ translate english monica_office_cabinet_biff_dialogue1_2a660934:
 # game/Quests/EP2/ep2_dialogues4.rpy:454
 translate english monica_office_cabinet_biff_dialogue1_5e393eb3:
 
-    # biff "Извините!" 
-    biff "Sorry!" 
+    # biff "Извините!"
+    biff "Sorry!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:472
 translate english monica_office_cabinet_biff_dialogue1_0921d34d:
@@ -2643,9 +2643,9 @@ translate english monica_office_photostudio_melanie_dialogue1_local1_e8268737:
 # game/Quests/EP2/ep2_dialogues4.rpy:650
 translate english monica_office_photostudio_melanie_dialogue1_local1_a7e31ec1:
 
-    # melanie "Миссис Бакфетт... Вы выглядите потрясающе." 
+    # melanie "Миссис Бакфетт... Вы выглядите потрясающе."
     # "Ваш вкус настолько изыскан, что недоступен моему пониманию..."
-    melanie "Mrs. Buckfett... You look amazing." 
+    melanie "Mrs. Buckfett... You look amazing."
     "Your taste is so exquisite that it is beyond my understanding..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:653
@@ -3747,4 +3747,3 @@ translate english strings:
     # Quests/EP2/ep2_dialogues4.rpy:611
     old "Говорить с Мелани."
     new "Talking to Melanie."
-

@@ -107,12 +107,12 @@ translate english citizen11_dialogue_f0d40aa8:
     # citizen11 "И очень даже зря. Божественный напиток. Дак что ты хотела?"
     # m "Возьмите, пожалуйста, этот флаер..."
     # citizen11 "Флаер? Конечно, сколько угодно!"
-    citizen11 "(Drinks) Ltd, A Goddess! You saved me! Let's have a drink with me, I'm sad alone."
+    citizen11 "(Drinks) Ltd, A Goddess! You saved me! Have a drink with me, I get sad doing it alone"
     m "No, I don't feel like it."
     mt "No way."
     citizen11 "And very even for a good reason. Divine drink. What did you want?"
     m "Please, take this flyer..."
-    citizen11 "Flyer? Of course, as much as you want!"
+    citizen11 "Flyer? Of course, whatever you want"
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:41
 translate english citizen11_dialogue_abba711a:
@@ -144,14 +144,14 @@ translate english citizen11_dialogue_pilon_2f331efd:
     # citizen11 "Конечно! Как я могу забыть мою спасительницу?"
     # citizen11 "Знаешь, недавно выплатили пособие по безработице и я купил один божественный напиток. Угостишься?"
     citizen11 "Of course! How can I forget my savior?"
-    citizen11 "You know, they recently paid unemployment, and I bought one divine drink. Would you like to taste?"
+    citizen11 "You know, they recently paid out my unemployment support, and I bought one divine drink. Would you like to taste?"
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:66
 translate english citizen11_dialogue_pilon_a99a1b5d:
 
     # m "Думаю, в другой раз."
     # citizen11 "Как хочешь, ты не знаешь от чего отказываешься..."
-    m "I think another time."
+    m "Maybe another time."
     citizen11 "Whatever you want, you don't know what you're giving up..."
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:68
@@ -216,5 +216,5 @@ translate english citizen11_dialogue_pilon_dcf7ea0e:
 translate english citizen11_dialogue_pilon_a09e3cab:
 
     # citizen11 "Знаешь, недавно выплатили пособие по безработице и я купил один божественный напиток. Угостишься?"
-    citizen11 "You know, they recently paid unemployment, and I bought one divine drink. Would you like to taste?"
+    citizen11 "You know, they recently paid out my unemployment support, and I bought one divine drink. Would you like to taste?"
 

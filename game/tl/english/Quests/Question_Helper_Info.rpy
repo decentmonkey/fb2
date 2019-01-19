@@ -122,7 +122,7 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:113
     old "Бетти ждет от меня, что я буду регулярно убираться в доме и тереть это проклятое пятно."
-    new "Betty is waiting that I will regularly clean the house and scrub that damned spot."
+    new "Betty is waiting for me to clean the house regularly and scrub that damned spot."
 
     # Quests/Question_Helper_Info.rpy:113
     old "Бетти хочет чтобы я носила ее сумку с вещами, пока она занимается фитнесом. Фитнес у Бетти по вторникам и четвергам."
@@ -182,7 +182,7 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Барди хочет чтобы я одевала трусики Бетти, которые она носила в прошлый раз. Бетти валяется в них своей толстой задницей на моей кровати по вечерам."
-    new "Bardi wants me to wear Betty's panties that she wore last time. Betty wallows in them with her fat ass on my bed in the evenings."
+    new "Bardie wants me to wear Betty's panties that she wore last time. Betty wallows in them with her fat ass on my bed in the evenings."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Бетти"
@@ -223,4 +223,3 @@ translate english strings:
     # Quests/Question_Helper_Info.rpy:115
     old "Вместо разноски флаеров я нашла более быстрый способ заработать. Он немного... неудобный, но ведь это ненадолго..."
     new "I found a faster way to make money instead of delivering flyers. It's a little... uncomfortable, but it's not for long..."
-

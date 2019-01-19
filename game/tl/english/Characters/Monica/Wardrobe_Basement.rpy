@@ -119,7 +119,7 @@ translate english wardrobeBasement_dialogue2_pants_betty_f66a75c7:
 
     # mt "Это трусики Бетти..."
     # "Какой ужас..."
-    mt "This is Betty's panties..."
+    mt "These are Betty's panties..."
     "What a horror..."
 
 translate english strings:

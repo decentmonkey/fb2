@@ -714,7 +714,7 @@ translate english sleep_scene1_06f5aeee:
     "He's circling me like a pesky fly!"
     "Thinks that I owe him something because of the fact that I'm here!"
     "Naive fool!"
-    "We need to get rid of him somehow..."
+    "I need to get rid of him somehow..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:379
 translate english sleep_scene1_856f9e68:
@@ -1456,8 +1456,8 @@ translate english sleep_scene1_local1_373eef24:
 # game/Quests/EP2/ep2_dialogues1.rpy:302
 translate english sleep_scene1_local1_a21a0e09:
 
-    # "..." 
-    "..." 
+    # "..."
+    "..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:309
 translate english sleep_scene1_local1_48b2e946:
@@ -1727,7 +1727,7 @@ translate english sleep_scene1_local1_06f5aeee:
     "He's circling me like a pesky fly!"
     "Thinks that I owe him something because of the fact that I'm here!"
     "Naive fool!"
-    "We need to get rid of him somehow..."
+    "I need to get rid of him somehow..."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:489
 translate english sleep_scene1_local1_856f9e68:
@@ -2080,4 +2080,3 @@ translate english bardie_comment5a_6a718a4c:
 
     # mt "Я не собираюсь подходить к этой малявке!"
     mt "I'm not going close to that little thing!"
-

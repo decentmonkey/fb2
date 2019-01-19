@@ -26,3 +26,11 @@ translate english strings:
     old "Close Map"
     new ""
 
+# TODO: Translation updated at 2019-01-19 16:54
+
+translate english strings:
+
+    # 00_Functions/screens.rpy:1484
+    old "Guide"
+    new ""
+

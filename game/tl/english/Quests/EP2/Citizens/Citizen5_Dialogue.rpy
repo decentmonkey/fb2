@@ -120,9 +120,9 @@ translate english citizen5_dialogue_c7cd2a46:
     # m "Что вы такое говорите?"
     # mt "Лучше пойду отсюда..."
     m "What is this place for?"
-    citizen5 "The place for fun! I love to touch big butts!"
+    citizen5 "It's for fun, I love to touch big butts!"
     m "What are you talking about?"
-    mt "Better get out..."
+    mt "I better get out..."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:37
 translate english citizen5_dialogue_894fd97d:
@@ -140,7 +140,7 @@ translate english citizen5_dialogue_3d588a6b:
 translate english citizen5_dialogue_pilon_ebe6d6af:
 
     # m "Привет! Я могу тебе предложить одну вещь."
-    m "Hi! I can offer you one thing."
+    m "Hi! I have something to offer you..."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:52
 translate english citizen5_dialogue_pilon_f11c4e58:
@@ -150,9 +150,9 @@ translate english citizen5_dialogue_pilon_f11c4e58:
     # citizen5 "Да, да, место для утех. Вы мне показы, я вам американские деньги."
     # mt "И откуда он такой?"
     # citizen5 "Очень хорошо! Давай начнем."
-    citizen5 "You suggest a place?"
-    m "Yeah, we can go to the same place."
-    citizen5 "Yes, yes, a place for comfort. You show me, I give you American money."
+    citizen5 "Are you suggesting we go to the fun place?"
+    m "Yeah, we can go there!"
+    citizen5 "Yes, yes, a place for fun. And if you show me something, I'll give you money."
     mt "Where is he?"
     citizen5 "Very good! Let's start."
 
@@ -169,16 +169,16 @@ translate english citizen5_dialogue_pilon_loop5_a7283d00:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 50 corruption"
-    mt "I can't afford that!"
-    "I'm not that down yet!"
-    "And I hope it NEVER happens!"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
     help "50 corruption required"
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:72
 translate english citizen5_dialogue_pilon_loop5_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes, just like that."
+    m "I'm not going to take off clothes..."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:76
 translate english citizen5_dialogue_pilon_loop5_ae7bfa49:
@@ -202,7 +202,7 @@ translate english citizen5_dialogue_pilon_loop5_fa03643a:
 translate english citizen5_dialogue_pilon_loop5_65225473:
 
     # citizen5 "Оголи свою попку."
-    citizen5 "Bare your ass."
+    citizen5 "Show me your ass too!"
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:87
 translate english citizen5_dialogue_pilon_loop5_f7e05701:
@@ -211,16 +211,16 @@ translate english citizen5_dialogue_pilon_loop5_f7e05701:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется 70 corruption"
-    mt "I can't afford that!"
-    "I'm not that down yet!"
-    "And I hope it NEVER happens!"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
     help "Requires 70 corruption"
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:93
 translate english citizen5_dialogue_pilon_loop5_48b1ace1_1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes, just like that."
+    m "I'm not going to take off clothes..."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:97
 translate english citizen5_dialogue_pilon_loop5_ad585bc7:
@@ -232,29 +232,29 @@ translate english citizen5_dialogue_pilon_loop5_ad585bc7:
 translate english citizen5_dialogue_pilon_loop5_5a792da1:
 
     # citizen5 "Готов смотреть на нее все время."
-    citizen5 "Ready to look at her all the time."
+    citizen5 "I could look at it forever!"
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:105
 translate english citizen5_dialogue_pilon_loop5_0b296366:
 
     # citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen5 "You give Mr the greatest pleasure. We will see each other again soon!"
-    m "What?! So little? Well, I'll be rich soon and get my life back..."
+    citizen5 "You just gave Mr. the greatest pleasure ever. We will see each other again soon!"
+    m "What?! This little? Well, at least I'll be rich soon when I get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:110
 translate english citizen5_dialogue_pilon_loop5_0b296366_1:
 
     # citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen5 "You give Mr the greatest pleasure. We will see each other again soon!"
-    m "What?! So little? Well, I'll be rich soon and get my life back..."
+    citizen5 "You just gave Mr. the greatest pleasure ever. We will see each other again soon!"
+    m "What?! This little? Well, at least I'll be rich soon when I get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:116
 translate english citizen5_dialogue_pilon_loop5_094cf19c:
 
     # citizen5 "Мистер разочарован, он ничего не посмотрел."
-    citizen5 "Mr. is disappointed, he didn't see anything."
+    citizen5 "Mr. is disappointed, he didn't get to see anything."
 
 translate english strings:
 
@@ -277,9 +277,9 @@ translate english citizen5_dialogue_pilon_loop5_e7678610:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
-    mt "I can't afford that!"
-    "I'm not that down yet!"
-    "And I hope it NEVER happens!"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
     help "Required [monicaWhoringClothBoobsCorruptionrequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:89
@@ -289,9 +289,9 @@ translate english citizen5_dialogue_pilon_loop5_299ae0b0:
     # "Я еще не настолько опустилась!"
     # "И, надеюсь, этого не произойдет НИКОГДА!"
     # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
-    mt "I can't afford that!"
-    "I'm not that down yet!"
-    "And I hope it NEVER happens!"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
     help "Required [monicaWhoringClothAssCorruptionRequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:107
@@ -300,9 +300,9 @@ translate english citizen5_dialogue_pilon_loop5_177488bd:
     # citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen5 "You give Mr the greatest pleasure. We will see each other again soon!"
-    m "What?! So little? Could give more!"
-    mt "Well, I'll be rich soon and get my life back..."
+    citizen5 "You just gave Mr. the greatest pleasure ever. We will see each other again soon!"
+    m "What?! This little?"
+    mt "Well, at least I'll be rich soon when I get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:113
 translate english citizen5_dialogue_pilon_loop5_177488bd_1:
@@ -310,9 +310,9 @@ translate english citizen5_dialogue_pilon_loop5_177488bd_1:
     # citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen5 "You give Mr the greatest pleasure. We will see each other again soon!"
-    m "What?! So little? Could give more!"
-    mt "Well, I'll be rich soon and get my life back..."
+    citizen5 "You just gave Mr. the greatest pleasure ever. We will see each other again soon!"
+    m "What?! This little?"
+    mt "Well, at least I'll be rich soon when I get my life back..."
 
 # TODO: Translation updated at 2019-01-16 14:59
 
@@ -323,9 +323,9 @@ translate english citizen5_dialogue_pilon_61361da9:
     # m "Ну да, мы можем сходить с вами в одно место."
     # citizen5 "Да, да, место для утех. Вы мне показы, я вам американские деньги."
     # mt "И откуда он такой?"
-    citizen5 "You suggest a place?"
-    m "Yeah, we can go to the same place."
-    citizen5 "Yes, yes, a place for comfort. You show me, I give you American money."
+    citizen5 "Are you suggesting we go to the fun place?"
+    m "Yeah, we can go there!"
+    citizen5 "Yes, yes, a place for fun. And if you show me something, I'll give you money."
     mt "Where is he?"
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:62
@@ -338,27 +338,27 @@ translate english citizen5_dialogue_pilon_ebb53920:
 translate english citizen5_dialogue_pilon_loop5_43d8eec4:
 
     # citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
-    citizen5 "You give Mr the greatest pleasure. We will see each other again soon!"
+    citizen5 "You just gave Mr. the greatest pleasure ever. We will see each other again soon!"
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:121
 translate english citizen5_dialogue_pilon_loop5_ea17d522:
 
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    m "What?! So little? Could give more!"
-    mt "Well, I'll be rich soon and get my life back..."
+    m "What?! This little?"
+    mt "Well, at least I'll be rich soon when I get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:127
 translate english citizen5_dialogue_pilon_loop5_43d8eec4_1:
 
     # citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
-    citizen5 "You give Mr the greatest pleasure. We will see each other again soon!"
+    citizen5 "You just gave Mr. the greatest pleasure ever. We will see each other again soon!"
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:130
 translate english citizen5_dialogue_pilon_loop5_ea17d522_1:
 
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    m "What?! So little? Could give more!"
-    mt "Well, I'll be rich soon and get my life back..."
+    m "What?! This little?"
+    mt "Well, at least I'll be rich soon when I get my life back..."
 

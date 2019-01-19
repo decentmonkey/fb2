@@ -221,7 +221,7 @@ translate english citizens_dialogue_refuse_ada061db:
 
     # mt "Я боюсь подходить к людям в вечернее время."
     # "Это опасно..."
-    mt "I'm afraid to approach people in the evening."
+    mt "It's scary to approach people in the evening."
     "It's dangerous..."
 
 # TODO: Translation updated at 2019-01-09 21:51
@@ -231,6 +231,6 @@ translate english needToFindWhorePlace_d27097d8:
 
     # mt "Мне надо найти какое-то тихое место."
     # "Не собираюсь-же я делать это здесь..."
-    mt "I need to find some quiet place."
-    "I'm not gonna do it here..."
+    mt "I need to find somewhere quite place."
+    "I'm not gonna do that here..."
 

@@ -22,24 +22,24 @@ translate english ep22_dialogue6_1_97ecccd6:
     secretary "..."
     m "I know you're under a lot of pressure from your new Boss."
     "But trust me, I'll deal with it soon!"
-    secretary "Mr. Biff knows better what we need than we do."
+    secretary "Mr. Biff knows better than we do."
     secretary "Mr. Biff takes care of us..."
     m "What?"
     "What are you talking about, honey???"
-    secretary "We should thank Mr. Biff for working for him..."
+    secretary "We should thank Mr. Biff that we get to work for him..."
     m "What did they do to you???"
     biff "Hey! Boob!"
     "Come to my office quickly!"
     secretary "Yes, Mr. Biff! One second!"
     mt "Oh my God!!!"
-    "Poor thing! What did they do to you?!?!"
+    "Oh, you poor thing! What did they do to you?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:62
 translate english ep22_dialogue6_2_1adc3f0a:
 
     # secretary "Мистер Биф лучше нас знает что нам необходимо."
     # secretary "Мистер Биф заботится о нас..."
-    secretary "Mr. Biff knows better what we need than we do."
+    secretary "Mr. Biff knows better than we do."
     secretary "Mr. Biff takes care of us..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:68
@@ -63,8 +63,8 @@ translate english ep22_dialogue6_2_dc4b654f:
     # secretary "Мистер Биф лучше нас знает что нам необходимо."
     secretary "So I have no money now Mrs. Buckfett!"
     "Sorry!"
-    m "What about Biff? Does he give you money, doesn't he?"
-    secretary "Mr. Biff knows better what we need than we do."
+    m "What about Biff? He gives you money to do this, doesn't he?"
+    secretary "Mr. Biff knows better than we do."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:82
 translate english ep22_dialogue6_2_dc29b0c6:
@@ -115,17 +115,17 @@ translate english ep22_dialogue6_3_8885aaa6:
     # mt "Сволочь!!!"
     m "Biff..."
     "I wanted to ask you..."
-    "Is there any work?"
+    "Do you have any work for me?"
     biff "Yeah, chick!"
-    "There is work!"
+    "Sure thing!"
     "Go to the studio!"
-    biff "Just a chick! You have to go through the casting!"
+    biff "You're going to have to go through the casting process, though."
     mt "Oh my God!!!"
-    "Not again!!!"
-    biff "I know you're avoiding the casting, but you're gonna have to pass!"
-    "Otherwise, there will be no career growth!"
+    "No, not this shit again!"
+    biff "I know you're avoiding the casting, but you're gonna have to pass in order to get work!"
+    "And if you don't get any work, your career will never take off!"
     "Do you understand?"
-    m "Yeah, I understand, Biff..."
+    m "Yes, I understand, Biff..."
     mt "Swine!!!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:132
@@ -156,8 +156,8 @@ translate english ep22_dialogue6_4_276b9b82:
     # "Я всегда рад фотографировать Вас!"
     # mt "!!!"
     m "Not this time."
-    alex_photograph "Mrs. Buckfett! Come here at any time!"
-    "I'm always happy to photo you!"
+    alex_photograph "You're free to come here any time, Mrs. Buckfett!"
+    "I'm always happy to photograph you!"
     mt "!!!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:150
@@ -198,16 +198,16 @@ translate english ep22_dialogue6_5_9cab464c:
     # m "Я скоро вернусь!"
     m "Yes, Alex..."
     "One more..."
-    mt "Damn ye! I do not know where these dirty photo shoots will lead me!"
-    "We need to get this over with!"
+    mt "Damn ye! I have no idea where doing all these dirty shoots will lead me!"
+    "I just need to get this over with quickly..."
     alex_photograph "Mrs. Buckfett!"
-    "Choose an outfit for a photo shoot today!"
-    m "I choose this..."
+    "Go ahead and choose an outfit for today!"
+    m "Okay, I'll take this"
     alex_photograph "OK, Mrs. Buckfett!"
-    "You can change here! I'm not looking at you."
-    m "I'll change in the dressing room!"
-    "I hope Melanie hasn't closed it this time."
-    alex_photograph "No, Mrs. Buckfett, it's open..."
+    "You can change in here, I won't be looking!"
+    m "No, I'll change in the dressing room!"
+    "If Melanie hasn't closed it again..."
+    alex_photograph "No, Mrs. Buckfett, it's open."
     m "I'll be right back!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:187
@@ -224,9 +224,9 @@ translate english ep22_dialogue6_5_9c9e9123:
     # alex_photograph "Миссис Бакфетт! Примите, пожалуйста, эту позу!"
     # m "Алекс, снова ты за свое!"
     # alex_photograph "Мэм! Это теперь моя работа!"
-    alex_photograph "Mrs. Buckfett! Please accept this pose!"
+    alex_photograph "Mrs. Buckfett, do this pose!"
     m "Alex, you're back for yours!"
-    alex_photograph "MA'am! That's my job now"
+    alex_photograph "That's my job now, Ma'am"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:210
 translate english ep22_dialogue6_5_89b65137:
@@ -259,15 +259,15 @@ translate english ep22_dialogue6_6_loop2_12700f66:
     # m "Да, Биф! Я пришла, потому что ты заставил!"
     # biff "Итак, цыпочка пришла на кастинг..."
     # "Чем цыпочка готова удивить папочку в этот раз?"
-    biff "Oh! Chick! Are you here?"
-    "What to say?"
-    "Remember what you have promised?"
-    m "The chick came to the casting to daddy..."
+    biff "Oh, chick, you're here!"
+    "So, what do you want to say?"
+    "You remember what you promised, right?"
+    m "The chick came to daddy to do her casting..."
     mt "I hate this!!!"
     biff "Well done chick!"
-    biff "Oh! Chick! Are you here?"
+    biff "Oh, chick, you're here!"
     m "Yes, Biff! I came because you made me!"
-    biff "So, the chick came to the casting..."
+    biff "So, the chick came to do the casting..."
     "What is the chick ready to surprise daddy this time with?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:248
@@ -289,8 +289,8 @@ translate english ep22_dialogue6_7_c63ed67c:
     # "Где мои деньги?"
     # biff "Только хорошие цыпочки получают деньги от папочки!"
     # "Моника хорошая цыпочка?"
-    m "Biff! I took a photo shoot!"
-    "Where is my money?"
+    m "Biff! I did a photo shoot!"
+    "Where's my money?"
     biff "Only good Chicks get money from daddy!"
     "Is Monica a good chick?"
 
@@ -298,7 +298,7 @@ translate english ep22_dialogue6_7_c63ed67c:
 translate english ep22_dialogue6_7_74bb7e5e:
 
     # mt "Я лучше уйду без денег, чем скажу это снова!!!"
-    mt "I'd rather go without money than I will say it again!!!"
+    mt "I'd rather leave without money than to say that again!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:334
 translate english ep22_dialogue6_7_a85d0e00:
@@ -313,13 +313,13 @@ translate english ep22_dialogue6_7_a85d0e00:
     # m "Да..."
     # biff "Все готово!"
     m "Monica's a good chick."
-    "Monica deserved the money..."
+    "Monica deserves the money..."
     mt "!!!"
-    biff "Chick! I'm broke!"
+    biff "Chick! I have no cash!"
     m "You can buy a certificate and send it to this address..."
     biff "Okay, chick! No problem!"
     biff "Does the chick need the same certificate as usual?"
-    m "Yes."
+    m "I am."
     biff "Everything is ready!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:351
@@ -354,34 +354,34 @@ translate english ep22_dialogue6_7_8dc93ea9:
     # "И придумывай что-нибудь новое почаще!"
     # "Папочке может наскучить однообразная цыпочка!"
     # mt "!!!"
-    m "Did you say something about working in the office?"
+    m "Did you say something about getting to work in the office?"
     biff "Yeah, when you're a really good chick, I'll take you to the office!"
     "You're a useful doll, I can sell you here!"
-    m "What does it mean to sell me???"
-    biff "Selling your face!"
-    "You're like Monica Buckfett!"
-    "You probably have already forgotten!"
+    m "What do you mean 'sell'?"
+    biff "That I sell your face!"
+    "You look exactly like Monica Buckfett, remember?"
+    "No, you probably already forgot!"
     "Ha Ha Ha!"
     mt "!!!"
-    biff "But, can be and not the only little face!"
-    "I think many partners will be willing to pay well to run their fingers..."
-    "In pussy of Monica Buckfett!"
-    "Not just fingers!"
+    biff "But, of course, there are other things than your face that I could sell..."
+    "I think many partners will be willing to pay large amounts of money to..."
+    "To touch the pussy of Monica Buckfett!"
+    "And not just touch it..."
     "Ha Ha Ha!"
-    "And everyone will think you're real!"
+    "Everyone will think you're real, so they'll offer a lot to do thses things!"
     mt "!!!"
     "You're gonna love this!"
     "You're gonna be doing the same thing you're doing on the street right now..."
     "Only going to get much more for it!"
     m "No, Biff!"
-    "Let's just confine ourselves to the face for now!"
+    "Let's just stick to selling my face right now!"
     biff "No problem, baby!"
-    "You still have to earn that trust!"
-    "And that means being a good chick!"
-    biff "Besides, you're gonna have to entertain me a lot more."
-    "To hold castings."
-    "And come up with something new more often!"
-    "Daddy can be bored of monotonous chick!"
+    "You still have to earn my trust, though!"
+    "And that means you have to be a good chick!"
+    biff "Also, you're going to have to entertain me a lot more..."
+    "Hold castings..."
+    "And come up with new things regularly!"
+    "Daddy gets bored easily of monotonous chicks!"
     mt "!!!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:382
@@ -400,7 +400,7 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:156
     old "Да... (черт!)"
-    new "Yes... (shit!)"
+    new "Yes... (damn!)"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:178
     old "Идти на кастинг к Бифу."
@@ -408,7 +408,7 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:178
     old "Не идти к Бифу."
-    new "Not to go to Biff."
+    new "Don't go to to Biff"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:199
     old "Смириться с неизбежностью откровенных поз..."
@@ -416,7 +416,7 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:199
     old "Предложить Алексу другой вариант... (Alex, low progress) (disabled)"
-    new "To offer Alex another option... (Alex, low progress) (disabled)"
+    new "Offer Alex another option... (Alex, low progress) (disabled)"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:245
     old "Показать обнаженную грудь."
@@ -548,7 +548,7 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:349
     old "Ты что-то говорил по поводу работы в офисе?"
-    new "Did you say something about working in the office?"
+    new "Did you say something about getting to work in the office?"
 # TODO: Translation updated at 2019-01-07 20:06
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:32
@@ -560,8 +560,8 @@ translate english ep22_dialogue6_1_a83a1b9b:
 # game/Quests/EP2_02/ep22_dialogues6.rpy:34
 translate english ep22_dialogue6_1_c65a5c92:
 
-    # secretary "..." 
-    secretary "..." 
+    # secretary "..."
+    secretary "..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:36
 translate english ep22_dialogue6_1_e65af5f5:
@@ -576,7 +576,7 @@ translate english ep22_dialogue6_1_1adc3f0a:
 
     # secretary "Мистер Биф лучше нас знает что нам необходимо."
     # secretary "Мистер Биф заботится о нас..."
-    secretary "Mr. Biff knows better what we need than we do."
+    secretary "Mr. Biff knows better than we do."
     secretary "Mr. Biff takes care of us..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:42
@@ -591,7 +591,7 @@ translate english ep22_dialogue6_1_9b69fd9c:
 translate english ep22_dialogue6_1_972d55ce:
 
     # secretary "Мы должна благодарить Мистера Бифа что работаем у него..."
-    secretary "We should thank Mr. Biff for working for him..."
+    secretary "We should thank Mr. Biff that we get to work for him..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:47
 translate english ep22_dialogue6_1_9f235251:
@@ -616,16 +616,16 @@ translate english ep22_dialogue6_1_3cf55901:
 
     # "Где же?!"
     # "Где же виски???"
-    "Where?!"
-    "Where's whiskey???"
+    "Where is it?!"
+    "Where's the whiskey???"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:60
 translate english ep22_dialogue6_1_06c02b71:
 
     # "Здесь нет!"
     # "Он все выпил..."
-    "Not here!"
-    "He drank it..."
+    "It's not here!"
+    "He drank it all..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:65
 translate english ep22_dialogue6_1_c61dcbe1:
@@ -645,7 +645,7 @@ translate english ep22_dialogue6_1_b6453702:
     # mt "О БОЖЕ!!!"
     # "Бедняжка! Что они с тобой сделали?!?!"
     mt "Oh my God!!!"
-    "Poor thing! What did they do to you?!?!"
+    "Oh, you poor thing! What did they do to you?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:95
 translate english ep22_dialogue6_2_541451a8:
@@ -671,13 +671,13 @@ translate english ep22_dialogue6_2_91c6d945:
     # m "А как же Биф? Он что, не дает тебе деньги?"
     secretary "So I have no money now Mrs. Buckfett!"
     "Sorry!"
-    m "What about Biff? Does he give you money, doesn't he?"
+    m "What about Biff? He gives you money to do this, doesn't he?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:106
 translate english ep22_dialogue6_2_454e3c57:
 
     # secretary "Мистер Биф лучше нас знает что нам необходимо."
-    secretary "Mr. Biff knows better what we need than we do."
+    secretary "Mr. Biff knows better than we do."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:109
 translate english ep22_dialogue6_2_13f34d54:
@@ -697,7 +697,7 @@ translate english ep22_dialogue6_3_3c7281b0:
     # "Есть-ли еще работа?"
     m "Biff..."
     "I wanted to ask you..."
-    "Is there any work?"
+    "Do you have any work for me?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:139
 translate english ep22_dialogue6_3_8d06aa28:
@@ -713,7 +713,7 @@ translate english ep22_dialogue6_3_f5dcc011:
     # "Ты пока еще не настолько полюбилась папочке!"
     biff "No, chick!"
     "It's the other chicks' turn!"
-    "Daddy is not yet so fond of you!"
+    "Daddy isn't that fond of you yet!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:147
 translate english ep22_dialogue6_3_f27eb96d:
@@ -725,7 +725,7 @@ translate english ep22_dialogue6_3_f27eb96d:
 translate english ep22_dialogue6_3_eaa18a59:
 
     # m "А если я пройду дополнительный кастинг?..."
-    m "What if I get an extra audition?..."
+    m "What if I do an extra audition?..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:155
 translate english ep22_dialogue6_3_6bf66bbb:
@@ -734,7 +734,7 @@ translate english ep22_dialogue6_3_6bf66bbb:
     # "Я держу эту куклу только из-за того что она похожа на сучку Бакфетт!"
     # "Иди и не отвлекай папочку! Ему нужно заботить о других цыпочках!"
     biff "This chick is still too boring for additional casting!"
-    "I got this doll just because she looks like a bitch Buckfett!"
+    "I got this doll just because she looks like that bitch Monica Buckfett!"
     "Go and don't distract daddy! He needs to take care of the other chicks!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:159
@@ -752,14 +752,14 @@ translate english ep22_dialogue6_3_7099d95e:
     # "Работа есть!"
     # "Иди в студию!"
     biff "Yeah, chick!"
-    "There is work!"
+    "Sure thing!"
     "Go to the studio!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:170
 translate english ep22_dialogue6_3_4819b913:
 
     # biff "Только цыпочка! Тебе надо пройти кастинг!"
-    biff "Just a chick! You have to go through the casting!"
+    biff "You're going to have to go through the casting process, though."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:172
 translate english ep22_dialogue6_3_463d2ad5:
@@ -767,7 +767,7 @@ translate english ep22_dialogue6_3_463d2ad5:
     # mt "О БОЖЕ!!!"
     # "Только не это!!!"
     mt "Oh my God!!!"
-    "Not again!!!"
+    "No, not this shit again!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:177
 translate english ep22_dialogue6_3_ebd5bf2f:
@@ -775,15 +775,15 @@ translate english ep22_dialogue6_3_ebd5bf2f:
     # biff "Я знаю ты увиливаешь от кастинга, но тебе придется его пройти!"
     # "Иначе не будет карьерного роста!"
     # "Ты понимаешь?"
-    biff "I know you're avoiding the casting, but you're gonna have to pass!"
-    "Otherwise, there will be no career growth!"
+    biff "I know you're avoiding the casting, but you're gonna have to pass in order to get work!"
+    "And if you don't get any work, your career will never take off!"
     "Do you understand?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:181
 translate english ep22_dialogue6_3_92868277:
 
     # m "Да, я понимаю, Биф..."
-    m "Yeah, I understand, Biff..."
+    m "Yes, I understand, Biff..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:183
 translate english ep22_dialogue6_3_8cf89654:
@@ -797,13 +797,13 @@ translate english ep22_dialogue6_4_23db4e42:
     # m "Пока нет..."
     # alex_photograph "Миссис Бакфетт! Приходите в любой момент!"
     m "Not this time."
-    alex_photograph "Mrs. Buckfett! Come here at any time!"
+    alex_photograph "You're free to come here any time, Mrs. Buckfett!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:204
 translate english ep22_dialogue6_4_8d398185:
 
     # "Я всегда рад фотографировать Вас!"
-    "I'm always happy to photo you!"
+    "I'm always happy to photograph you!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:206
 translate english ep22_dialogue6_4_0a5616b8:
@@ -824,8 +824,8 @@ translate english ep22_dialogue6_5_cd496de6:
 
     # mt "Дьявол! Не знаю куда эти грязные фотосессии меня заведут!"
     # "Надо кончать с этим скорее!"
-    mt "Damn ye! I do not know where these dirty photo shoots will lead me!"
-    "We need to get this over with!"
+    mt "Damn ye! I have no idea where doing all these dirty shoots will lead me!"
+    "I just need to get this over with quickly..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:231
 translate english ep22_dialogue6_5_e8b1bba9:
@@ -849,21 +849,21 @@ translate english ep22_dialogue6_5_30c909fa:
     # alex_photograph "Отлично, Миссис Бакфетт!"
     # "Можете переодеваться здесь! Я не буду смотреть!"
     alex_photograph "OK, Mrs. Buckfett!"
-    "You can change here! I'm not looking at you."
+    "You can change in here, I won't be looking!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:243
 translate english ep22_dialogue6_5_daac2c93:
 
     # m "Я переоденусь в гримерке!"
     # "Надеюсь Мелани не закрыла ее в этот раз?"
-    m "I'll change in the dressing room!"
-    "I hope Melanie hasn't closed it this time."
+    m "No, I'll change in the dressing room!"
+    "If Melanie hasn't closed it again..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:246
 translate english ep22_dialogue6_5_01b2865a:
 
-    # alex_photograph "Нет, Миссис Бакфетт, она открыта..." 
-    alex_photograph "No, Mrs. Buckfett, it's open..." 
+    # alex_photograph "Нет, Миссис Бакфетт, она открыта..."
+    alex_photograph "No, Mrs. Buckfett, it's open."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:248
 translate english ep22_dialogue6_5_b415592f:
@@ -876,8 +876,8 @@ translate english ep22_dialogue6_5_e68fc1f8:
 
     # "Выберите наряд для фотосессии сегодня!"
     # m "Я выбираю это..."
-    "Choose an outfit for a photo shoot today!"
-    m "I choose this..."
+    "Go ahead and choose an outfit for today!"
+    m "Okay, I'll take this"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:274
 translate english ep22_dialogue6_5_ecb3ed97:
@@ -885,9 +885,9 @@ translate english ep22_dialogue6_5_ecb3ed97:
     # alex_photograph "Миссис Бакфетт! Примите, пожалуйста, эту позу!"
     # m "Алекс, снова ты за свое!"
     # alex_photograph "Мэм! Это теперь моя работа!"
-    alex_photograph "Mrs. Buckfett! Please accept this pose!"
+    alex_photograph "Mrs. Buckfett, do this pose!"
     m "Alex, you're back for yours!"
-    alex_photograph "MA'am! That's my job now"
+    alex_photograph "That's my job now, Ma'am"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:309
 translate english ep22_dialogue6_6_5a195ad5:
@@ -903,15 +903,15 @@ translate english ep22_dialogue6_6_5a195ad5:
     # biff "Итак, цыпочка пришла на кастинг..."
     # "Чем цыпочка готова удивить папочку в этот раз?"
     # mt "Мерзавец!"
-    biff "Oh! Chick! Are you here?"
-    "What to say?"
-    "Remember what you have promised?"
-    m "The chick came to the casting to daddy..."
+    biff "Oh, chick, you're here!"
+    "So, what do you want to say?"
+    "You remember what you promised, right?"
+    m "The chick came to daddy to do her casting..."
     mt "I hate this!!!"
     biff "Well done chick!"
-    biff "Oh! Chick! Are you here?"
+    biff "Oh, chick, you're here!"
     m "Yes, Biff! I came because you made me!"
-    biff "So, the chick came to the casting..."
+    biff "So, the chick came to do the casting..."
     "What is the chick ready to surprise daddy this time with?"
     mt "Bastard!"
 
@@ -922,8 +922,8 @@ translate english ep22_dialogue6_7_edf913d9:
     # "Где мои деньги?"
     # biff "Только хорошие цыпочки получают деньги от папочки!"
     # "Моника хорошая цыпочка?"
-    m "Biff! I took a photo shoot!"
-    "Where is my money?"
+    m "Biff! I did a photo shoot!"
+    "Where's my money?"
     biff "Only good Chicks get money from daddy!"
     "Is Monica a good chick?"
 
@@ -934,21 +934,21 @@ translate english ep22_dialogue6_7_612b6b56:
     # "Моника заслужила денежку..."
     # mt "!!!"
     m "Monica's a good chick."
-    "Monica deserved the money..."
+    "Monica deserves the money..."
     mt "!!!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:354
 translate english ep22_dialogue6_7_d0dd9727:
 
     # biff "Цыпочка! У меня нет наличных!"
-    biff "Chick! I'm broke!"
+    biff "Chick! I have no cash!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:356
 translate english ep22_dialogue6_7_dcfbf17e:
 
-    # m "Можно купить сертификат и послать его на этот адрес..." 
+    # m "Можно купить сертификат и послать его на этот адрес..."
     # biff "Окей, цыпочка! Нет проблем!"
-    m "You can buy a certificate and send it to this address..." 
+    m "You can buy a certificate and send it to this address..."
     biff "Okay, chick! No problem!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:360
@@ -957,7 +957,7 @@ translate english ep22_dialogue6_7_d4c1b91d:
     # biff "Цыпочке купить такой же сертификат как обычно?"
     # m "Да..."
     biff "Does the chick need the same certificate as usual?"
-    m "Yes."
+    m "I am."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:365
 translate english ep22_dialogue6_7_6132366a:
@@ -971,7 +971,7 @@ translate english ep22_dialogue6_7_0216b751:
     # m "Ты что-то говорил по поводу работы в офисе?"
     # biff "Да, когда ты станешь очень хорошей цыпочкой, я возьму тебя сюда в офис!"
     # "Ты полезная кукла, я смогу продавать тебя здесь!"
-    m "Did you say something about working in the office?"
+    m "Did you say something about getting to work in the office?"
     biff "Yeah, when you're a really good chick, I'll take you to the office!"
     "You're a useful doll, I can sell you here!"
 
@@ -979,7 +979,7 @@ translate english ep22_dialogue6_7_0216b751:
 translate english ep22_dialogue6_7_9145ffb8:
 
     # m "Что значит продавать меня???"
-    m "What does it mean to sell me???"
+    m "What do you mean 'sell'?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:376
 translate english ep22_dialogue6_7_fd275dc8:
@@ -988,9 +988,9 @@ translate english ep22_dialogue6_7_fd275dc8:
     # "Ты ведь похожа на Монику Бакфетт!"
     # "Ты наверное уже забыла!"
     # "Ха-Ха-Ха!"
-    biff "Selling your face!"
-    "You're like Monica Buckfett!"
-    "You probably have already forgotten!"
+    biff "That I sell your face!"
+    "You look exactly like Monica Buckfett, remember?"
+    "No, you probably already forgot!"
     "Ha Ha Ha!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:381
@@ -1008,12 +1008,12 @@ translate english ep22_dialogue6_7_aaa3154a:
     # "И не только пальчики!"
     # "Ха-Ха-Ха!"
     # "И все будут думать что ты настоящая!"
-    biff "But, can be and not the only little face!"
-    "I think many partners will be willing to pay well to run their fingers..."
-    "In pussy of Monica Buckfett!"
-    "Not just fingers!"
+    biff "But, of course, there are other things than your face that I could sell..."
+    "I think many partners will be willing to pay large amounts of money to..."
+    "To touch the pussy of Monica Buckfett!"
+    "And not just touch it..."
     "Ha Ha Ha!"
-    "And everyone will think you're real!"
+    "Everyone will think you're real, so they'll offer a lot to do thses things!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:390
 translate english ep22_dialogue6_7_0a5616b8_1:
@@ -1037,7 +1037,7 @@ translate english ep22_dialogue6_7_262e9e9b:
     # m "Нет, Биф!"
     # "Давай пока ограничимся личиком!"
     m "No, Biff!"
-    "Let's just confine ourselves to the face for now!"
+    "Let's just stick to selling my face right now!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:399
 translate english ep22_dialogue6_7_2f3cf51a:
@@ -1046,8 +1046,8 @@ translate english ep22_dialogue6_7_2f3cf51a:
     # "Все-равно тебе еще надо заработать это доверие!"
     # "А это значит быть хорошей цыпочкой!"
     biff "No problem, baby!"
-    "You still have to earn that trust!"
-    "And that means being a good chick!"
+    "You still have to earn my trust, though!"
+    "And that means you have to be a good chick!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:403
 translate english ep22_dialogue6_7_15c6257e:
@@ -1056,10 +1056,10 @@ translate english ep22_dialogue6_7_15c6257e:
     # "Проводить кастинги."
     # "И придумывай что-нибудь новое почаще!"
     # "Папочке может наскучить однообразная цыпочка!"
-    biff "Besides, you're gonna have to entertain me a lot more."
-    "To hold castings."
-    "And come up with something new more often!"
-    "Daddy can be bored of monotonous chick!"
+    biff "Also, you're going to have to entertain me a lot more..."
+    "Hold castings..."
+    "And come up with new things regularly!"
+    "Daddy gets bored easily of monotonous chicks!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:408
 translate english ep22_dialogue6_7_a87b3214:
@@ -1075,7 +1075,7 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:148
     old "А если я пройду дополнительный кастинг?..."
-    new "What if I get an extra audition?..."
+    new "What if I do an extra audition?..."
 
 # TODO: Translation updated at 2019-01-15 21:45
 
@@ -1083,7 +1083,7 @@ translate english strings:
 translate english ep22_dialogue6_2a_aa9c6e9e:
 
     # mt "Бедняжка! Что они с тобой сделали?!?!"
-    mt "Poor thing! What did they do to you?!?!"
+    mt "Oh, you poor thing! What did they do to you?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:290
 translate english ep22_dialogue6_5a_30c909fa:
@@ -1091,21 +1091,21 @@ translate english ep22_dialogue6_5a_30c909fa:
     # alex_photograph "Отлично, Миссис Бакфетт!"
     # "Можете переодеваться здесь! Я не буду смотреть!"
     alex_photograph "OK, Mrs. Buckfett!"
-    "You can change here! I'm not looking at you."
+    "You can change in here, I won't be looking!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:293
 translate english ep22_dialogue6_5a_daac2c93:
 
     # m "Я переоденусь в гримерке!"
     # "Надеюсь Мелани не закрыла ее в этот раз?"
-    m "I'll change in the dressing room!"
-    "I hope Melanie hasn't closed it this time."
+    m "No, I'll change in the dressing room!"
+    "If Melanie hasn't closed it again..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:296
 translate english ep22_dialogue6_5a_01b2865a:
 
-    # alex_photograph "Нет, Миссис Бакфетт, она открыта..." 
-    alex_photograph "No, Mrs. Buckfett, it's open..." 
+    # alex_photograph "Нет, Миссис Бакфетт, она открыта..."
+    alex_photograph "No, Mrs. Buckfett, it's open."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:299
 translate english ep22_dialogue6_5a_b415592f:
@@ -1118,8 +1118,8 @@ translate english ep22_dialogue6_5a_e68fc1f8:
 
     # "Выберите наряд для фотосессии сегодня!"
     # m "Я выбираю это..."
-    "Choose an outfit for a photo shoot today!"
-    m "I choose this..."
+    "Go ahead and choose an outfit for today!"
+    m "Okay, I'll take this"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:322
 translate english ep22_dialogue6_5a_b4361c05:
@@ -1135,9 +1135,9 @@ translate english ep22_dialogue6_5a_ecb3ed97:
     # alex_photograph "Миссис Бакфетт! Примите, пожалуйста, эту позу!"
     # m "Алекс, снова ты за свое!"
     # alex_photograph "Мэм! Это теперь моя работа!"
-    alex_photograph "Mrs. Buckfett! Please accept this pose!"
+    alex_photograph "Mrs. Buckfett, do this pose!"
     m "Alex, you're back for yours!"
-    alex_photograph "MA'am! That's my job now"
+    alex_photograph "That's my job now, Ma'am"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:345
 translate english ep22_dialogue6_5a_89b65137:
@@ -1170,8 +1170,8 @@ translate english ep22_dialogue6_7_c165afa3:
 
     # m "Биф! Я сделала фотосессию!"
     # "Где мои деньги?"
-    m "Biff! I took a photo shoot!"
-    "Where is my money?"
+    m "Biff! I did a photo shoot!"
+    "Where's my money?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:401
 translate english ep22_dialogue6_7_d716a468:
@@ -1288,4 +1288,3 @@ translate english ep22_dialogue6_2b_fbef2ec0:
     secretary "He said he would be tomorrow!"
     "But, you know, he says what he wants and has absolutely no discipline!"
     m "Okay, honey, thank you."
-
