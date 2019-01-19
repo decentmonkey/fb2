@@ -14,11 +14,11 @@ translate german strings:
 
     # 00_Functions/screens.rpy:547
     old "House Map"
-    new ""
+    new "House Map"
 
     # 00_Functions/screens.rpy:563
     old "Close Map"
-    new ""
+    new "Close Map"
 
 # TODO: Translation updated at 2019-01-19 16:54
 
@@ -26,5 +26,4 @@ translate german strings:
 
     # 00_Functions/screens.rpy:1484
     old "Guide"
-    new ""
-
+    new "Guide"
