@@ -57,6 +57,8 @@ label ep22_dialogue1_5_kitchen:
         "Уйти.":
             call change_scene("floor1")
             return
+    $ cloth = "Governess"
+    $ cloth_type = "Governess"
     $ store_music()
     music RnB3_65
     img 8533

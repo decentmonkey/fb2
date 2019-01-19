@@ -136,7 +136,7 @@ label EP22_Quests_Bardie6_panties_box:
         return
     if cloth != "Governess":
         mt "Я не могу одеть никакие трусики под эти кошмарные джинсовые шорты..."
-        return False
+        return
     $ store_music()
     music Hidden_Agenda
     call ep22_dialogues3_12() #какие трусики мне надеть?
