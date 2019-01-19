@@ -42,6 +42,9 @@ label EP22_Quests_Betty3:
     if monicaCleaningInProgressEngineWorkingFlag == True:
         call ep22_dialogues4_1b()
         return False
+    if cloth != "Governess":
+        call bettyDialogue3()
+        return False
     call ep22_dialogues4_1()
     if _return == False:
         if bettyFitnessToday == True:
