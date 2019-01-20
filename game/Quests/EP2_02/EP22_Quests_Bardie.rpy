@@ -1,5 +1,7 @@
 default EP22_Quests_Bardie_Monica_Blackmail_Stage2_init_day = 0
 
+default EP22_Quest_Monica_has_dream = False
+
 label EP22_Quests_Bardie_Monica_Rest_After_Cleaning:
     #Предложение отдыха после уборки
     if bardieBlackmailStage < 4:
@@ -76,12 +78,15 @@ label EP22_Quests_Bardie2: #сон
     #сон
     call ep22_dialogues3_3()
 #    $ unfocus_map()
+    $ EP22_Quest_Monica_has_dream = True
     $ focus_map("Teleport_Police", "ep22_dialogues3_3a")
     $ add_hook("basement_monica_before_nap", "ep22_dialogues3_3b", scene="global", label="hurry_to_police")
     $ EP22_Quests_Bardie_Monica_Blackmail_Stage2_init_day = day
     return
 
 label EP22_Quests_Bardie3: #разговор в полиции
+    if EP22_Quest_Monica_has_dream == False:
+        return
     $ remove_hook()
     $ remove_hook(label="hurry_to_police")
     call ep22_dialogues3_4()
