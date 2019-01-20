@@ -15,6 +15,7 @@ default storedMusicPriority = []
 default day_time = "day"
 default episode = 1
 default notifList = []
+default lastNotifTime = 0
 
 label start:
     #new game

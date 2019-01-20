@@ -31,11 +31,19 @@ init python:
         return
 
     def notif(str1):
-        global notifList
+        global notifList, lastNotifTime
         notifList.append(str1)
 #        renpy.notify(str1)
+        lastNotifTime = time.time()
         renpy.hide_screen("notify")
         renpy.show_screen("notify", "notifList")
+        return
+
+    def notifCheckTimeout(): #костыль на исчезание нотификаций при скиппинге текста
+        global lastNotifTime
+        if time.time() - lastNotifTime > 60.0:
+            notifList = []
+            renpy.hide_screen("notify")
         return
 
     def notif_monica():

@@ -131,6 +131,7 @@ label show_scene_loop:
 
 
 label change_scene(new_scene_name, in_transition_name="Fade", in_sound_name="highheels_short_walk"):
+    $ notifCheckTimeout()
     $ target_scene_name = new_scene_name
     $ target_scene_parent = scene_get_parent(target_scene_name)
     $ _return = None

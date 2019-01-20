@@ -607,7 +607,7 @@ label ep22_photoshoot2_end:
             "..."
             "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
             call ep22_photoshoot2_casting()
-        "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot2_casting_corruption_required]) (disabled)" if biffMonicaCastingsEnabled == False or corruption < photoshoot2_casting_corruption_required:
+        "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot2_casting_corruption_required]) (disabled)" if biffMonicaCastingsEnabled == True and corruption < photoshoot2_casting_corruption_required:
             pass
 
 return
