@@ -41,7 +41,8 @@ init python:
 
     def notifCheckTimeout(): #костыль на исчезание нотификаций при скиппинге текста
         global lastNotifTime
-        if time.time() - lastNotifTime > 60.0:
+        if time.time() - lastNotifTime > 2.0:
+            print "force remove notifications"
             notifList = []
             renpy.hide_screen("notify")
         return

@@ -20,7 +20,7 @@ init python:
                 objectives_list.pop(idx)
 #                renpy.pause()
 #                idx = 0
-        print objectives_list
+#        print objectives_list
 
     def questLog(questLogIdx, status):
         global questLogDataEnabled
