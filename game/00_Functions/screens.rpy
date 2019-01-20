@@ -2511,7 +2511,11 @@ screen notify(message):
                 yoffset notifOffset
                 text "[msg!tq]"
             $ notifOffset += notifyLineOffset
-        timer (3.25*len(notifList)) action [Hide('notify'), SetVariable("notifList", [])]
+#        timer (3.25*len(notifList)) action [Hide('notify'), SetVariable("notifList", [])]
+        if len(notifList) > 1:
+            timer (5.0) action [Hide('notify'), SetVariable("notifList", [])]
+        else:
+            timer (3.25) action [Hide('notify'), SetVariable("notifList", [])]
 
 
 
