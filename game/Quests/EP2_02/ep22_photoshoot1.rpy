@@ -484,7 +484,7 @@ label ep22_photoshoot1_end:
             $ biffMonicaLastCastingSkipped = True
 
             return
-        "Идти на кастинг к Бифу и притвориться цыпочкой... (corruption)" if biffMonicaCastingsEnabled == True and corruption > photoshoot1_casting_corruption_required: #если есть кастинги
+        "Идти на кастинг к Бифу и притвориться цыпочкой... (corruption)" if biffMonicaCastingsEnabled == True and corruption >= photoshoot1_casting_corruption_required: #если есть кастинги
             mt "Биф ждет меня на свой дурацкий кастинг..."
             "Он говорил даст мне работу если я буду хорошей цыпочкой..."
             "Это позволит мне приблизиться к цели, возвратить мою компанию назад!"
