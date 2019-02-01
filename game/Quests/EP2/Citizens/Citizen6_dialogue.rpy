@@ -336,22 +336,69 @@ label citizen6_dialogue_pilon:
             # img показывает зад
             $ add_corruption(monicaWhoringClothAssCorruptionProgress, "monicaWhoringClothAssCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen6_dialogue_pilon_loop6
+        "Станцуй." if pylonpart2startsCompleted == True:
+            call pylonController(4, 1)
+            citizen6 "Танцуй! Шест рядом."
+            if corruption < monicaWhoringClothPylonDanceCorruptionRequired:
+                call pylonController(4, 1)
+                mt "Я не могу себе этого позволить!"
+                "Я еще не настолько опустилась!"
+                "И, надеюсь, этого не произойдет НИКОГДА!"
+                help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+                jump citizen6_dialogue_pilon_loop6
+            call pylonController(4, 5)
+            with fade
+            m "Хорошо, только не долго."
+            mt "Только потому, что ты заплатишь."
+            call showRandomImages(pylonClothDanceImages, 4)
+            call pylonController(4, 5)
+            citizen6 "Блестяще, давно такого не видел!"
+            call pylonController(4, 1)
+            w
+            $ showedDance = True
+            $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+            jump citizen6_dialogue_pilon_loop6
+        "Голые сиськи." if pylonpart2startsCompleted == True:
+            call pylonController(4, 1)
+            citizen6 "Покажи мне грудь, только теперь без одежды."
+            mt "Он и вправду говорит как бизнесмен, заключающий сделку..."
+            if corruption < monicaWhoringClothNakedBoobsCorruptionRequired:
+                call pylonController(4, 1)
+                mt "Я не могу себе этого позволить!"
+                "Я еще не настолько опустилась!"
+                "И, надеюсь, этого не произойдет НИКОГДА!"
+                help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+                jump citizen6_dialogue_pilon_loop6
+            call pylonController(4, 5)
+            with fade
+            m "Так и быть, только руками не трогать."
+            call showRandomImages(nakedboobsImages, 4)
+            call pylonController(4, 5)
+            citizen6 "Очень хорошо. Отличный старт."
+            call pylonController(4, 1)
+            mt "Что значит старт?"
+            $ showedNakedBoobs = True
+            $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+            jump citizen6_dialogue_pilon_loop6
         "Достаточно на сегодня.":
-            if showedBoobs == True and showedButt == True:
-                $ add_money(monicaWhoringClothBoobsAndButtMoney)
-                call pylonController(3, 1)
+            $ earnedMoney = 0
+            if showedBoobs == True or showedButt == True or showedDance == True or showedNakedBoobs == True:
+                if showedBoobs == True:
+                    $ earnedMoney += monicaWhoringClothBoobsOrButtMoney
+                if showedButt == True:
+                    $ earnedMoney += monicaWhoringClothBoobsOrButtMoney
+                if showedDance == True:
+                    $ earnedMoney += monicaWhoringClothDanceMoney
+                if showedNakedBoobs == True:
+                    $ earnedMoney += monicaWhoringNakedBoobsMoney
+                call pylonController(2, 1)
                 citizen6 "Какая ты сочная! Вот держи, а я пойду займусь очень важным делом."
+                $ add_money(earnedMoney)
+                call pylonController(1, 1)
                 m "Что?! Так мало? Мог бы дать и больше!"
                 mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
                 return
-            if showedBoobs == True or showedButt == True:
-                call pylonController(3, 1)
-                citizen6 "Какая ты сочная! Вот держи, а я пойду займусь очень важным делом."
-                m "Что?! Так мало? Мог бы дать и больше!"
-                mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-                $ add_money(monicaWhoringClothBoobsOrButtMoney)
-                return
-            #если не было
+            #если не было ничего
             call pylonController(5, 1)
             citizen6 "Похоже, я зря потратил свое время, пойду найду другую шлюху."
             return False

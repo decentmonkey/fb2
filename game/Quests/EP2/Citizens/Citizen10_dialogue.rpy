@@ -43,6 +43,7 @@ label citizen10_dialogue:
     return
 
     # диалог доступен только когда моника не работает на раздаче флаеров
+    # ФЛОРИСТ - его ветка в 04
 label citizen10_dialogue_pilon:
     imgl Dial_begin35_17
     imgr Dial_Citizen_10_4
