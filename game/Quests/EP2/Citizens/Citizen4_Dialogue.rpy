@@ -61,6 +61,8 @@ label citizen4_dialogue_pilon:
     citizen4 "Ну что, давай начнем."
     $ showedBoobs = False
     $ showedButt = False
+    $ showedDance = False
+    $ showedNakedBoobs = False
     label citizen4_dialogue_pilon_loop4:
     call pylonController(1, 1)
     menu:

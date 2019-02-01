@@ -79,6 +79,8 @@ label citizen7_dialogue_pilon:
     citizen7 "Вдохновение вещь сложная: очень сложно его найти... С чего бы нам начать?"
     $ showedBoobs = False
     $ showedButt = False
+    $ showedDance = False
+    $ showedNakedBoobs = False
     label citizen7_dialogue_pilon_loop7:
     call pylonController(1, 1)
     menu:

@@ -80,6 +80,8 @@ label citizen13_dialogue_pilon:
     citizen13 "Вот мы и пришли. Вечером тут полно народу. А теперь..."
     $ showedBoobs = False
     $ showedButt = False
+    $ showedDance = False
+    $ showedNakedBoobs = False
     label citizen13_dialogue_pilon_loop13:
     call pylonController(1, 1)
     menu:

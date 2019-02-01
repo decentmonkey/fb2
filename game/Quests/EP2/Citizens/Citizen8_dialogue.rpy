@@ -89,6 +89,8 @@ label citizen8_dialogue_pilon:
     citizen8 "С чего бы нам начать..."
     $ showedBoobs = False
     $ showedButt = False
+    $ showedDance = False
+    $ showedNakedBoobs = False
     label citizen8_dialogue_pilon_loop8:
     call pylonController(1, 1)
     menu:
