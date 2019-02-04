@@ -338,6 +338,8 @@ label citizen6_dialogue_pilon:
             # img показывает зад
             $ add_corruption(monicaWhoringClothAssCorruptionProgress, "monicaWhoringClothAssCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen6_dialogue_pilon_loop6
+        "Станцуй. (disabled)" if pylonpart2startsCompleted == False:
+            pass
         "Станцуй." if pylonpart2startsCompleted == True:
             call pylonController(4, 1)
             citizen6 "Танцуй! Шест рядом."
@@ -360,6 +362,8 @@ label citizen6_dialogue_pilon:
             $ showedDance = True
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen6_dialogue_pilon_loop6
+        "Голые сиськи. (disabled)" if pylonpart2startsCompleted == False:
+            pass
         "Голые сиськи." if pylonpart2startsCompleted == True:
             call pylonController(4, 1)
             citizen6 "Покажи мне грудь, только теперь без одежды."

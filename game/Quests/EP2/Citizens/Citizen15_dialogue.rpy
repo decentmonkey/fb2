@@ -52,6 +52,7 @@ label citizen15_dialogue:
 
 label citizen15_dialogue_after_showing_naked_boobs: #Моника думает после показа голых сикек за 50 баксов
     mt "ыыы"
+    $ add_money(-50)
     return
 
 
@@ -107,33 +108,37 @@ label citizen15_dialogue_pilon:
             if fallingPathServedCustomersTotal >= 20:
                 citizen15 "Хотя... Ты красивая девочка. Хочу оценить их без одежды."
                 "Я недавно провернул одно дельце и у меня есть лишние 50$. Что скажешь?"
-                if corruption < monicaWhoringClothNakedBoobsCorruptionRequired:
-                    call pylonController(4, 1)
-                    m "Да за кого ты меня принимаешь?!"
-                    m "Этого не будет никогда!"
-                    citizen15 "Тогда мои 50$ достанутся более сговорчивой девочке."
-                    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
-                else:
-                    call pylonController(1, 1) #моника просто стоит у пилона
-                    mt "50$ были бы не лишними... Хорошо, что здесь никого нет."
-                    m "50$ ?"
-                    citizen15 "Все верно, девочка. Покажешь своих подружек и они твои."
-                    call pylonController(3, 1)
-                    m "Ладно, только не трогать!"
-                    citizen15 "Об этом не волнуйся, детка. Я не хочу проблем с твоим сутенером."
-                    mt "Да за кого он меня принимает?"
-                    call pylonController(3, 2)
-                    m "Хорошо, давай деньги."
-                    citizen15 "А ты не глупая девочка. Вот, держи."
-                    $ add_money(50)
-                    with fade
-                    call showRandomImages(nakedboobsImages, 4)
-                    call pylonController(3, 5) #моника показывет голые сиськи
-                    m "Доволен?"
-                    citizen15 "Более чем"
-                    $ pylonpart2startsCompleted = True
-                    # Добавить сколько то corruption
-                    $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+                menu:
+                    "Согласиться..." if corruption < monicaWhoringClothNakedBoobsCorruptionRequired:
+                        pass
+                    "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired]) (disabled)" if corruption < monicaWhoringClothNakedBoobsCorruptionRequired:
+                        pass
+                    "Отказаться.":
+                        call pylonController(4, 1)
+                        m "Да за кого ты меня принимаешь?!"
+                        m "Этого не будет никогда!"
+                        citizen15 "Тогда мои 50$ достанутся более сговорчивой девочке."
+                        jump citizen15_dialogue_pilon_loop15
+                call pylonController(1, 1) #моника просто стоит у пилона
+                mt "50$ были бы не лишними... Хорошо, что здесь никого нет."
+                m "50$ ?"
+                citizen15 "Все верно, девочка. Покажешь своих подружек и они твои."
+                call pylonController(3, 1)
+                m "Ладно, только не трогать!"
+                citizen15 "Об этом не волнуйся, детка. Я не хочу проблем с твоим сутенером."
+                mt "Да за кого он меня принимает?"
+                call pylonController(3, 2)
+                m "Хорошо, давай деньги."
+                citizen15 "А ты не глупая девочка. Вот, держи."
+                $ add_money(50)
+                with fade
+                call showRandomImages(nakedboobsImages, 4)
+                call pylonController(3, 5) #моника показывет голые сиськи
+                m "Доволен?"
+                citizen15 "Более чем"
+                $ pylonpart2startsCompleted = True
+                # Добавить сколько то corruption
+                $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen15_dialogue_pilon_loop15
         "Покажи попу.":
             call pylonController(4, 1)
@@ -181,6 +186,8 @@ label citizen15_dialogue_pilon:
             $ showedDance = True
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen15_dialogue_pilon_loop15
+        "Голые сиськи. (disabled)" if pylonpart2startsCompleted == False:
+            pass
         "Голые сиськи." if pylonpart2startsCompleted == True:
             call pylonController(4, 1)
             citizen15 "А теперь покажи своих малышек, похоже им там тесно."

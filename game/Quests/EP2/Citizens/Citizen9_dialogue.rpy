@@ -173,6 +173,8 @@ label citizen9_dialogue_pilon:
             $ showedButt = True
             $ add_corruption(monicaWhoringClothAssCorruptionProgress, "monicaWhoringClothAssCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen9_dialogue_pilon_loop9
+        "Станцуй. (disabled)" if pylonpart2startsCompleted == False:
+            pass
         "Станцуй." if pylonpart2startsCompleted == True:
             call pylonController(4, 1)
             citizen9 "Потанцуй! Для этого здесь пилон и поставили!"
@@ -195,6 +197,8 @@ label citizen9_dialogue_pilon:
             $ showedDance = True
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen9_dialogue_pilon_loop9
+        "Голые сиськи. (disabled)" if pylonpart2startsCompleted == False:
+            pass
         "Голые сиськи." if pylonpart2startsCompleted == True:
             call pylonController(4, 1)
             citizen9 "Голые сиськи! Я их люблю!"
