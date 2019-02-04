@@ -157,6 +157,8 @@ label citizen15_dialogue_pilon:
             $ showedButt = True
             $ add_corruption(monicaWhoringClothAssCorruptionProgress, "monicaWhoringClothAssCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen15_dialogue_pilon_loop15
+        "Станцуй. (disabled)" if pylonpart2startsCompleted == False:
+            pass
         "Станцуй." if pylonpart2startsCompleted == True:
             call pylonController(4, 1)
             citizen15 "Покрутись немного на шесте, который сзади тебя."
