@@ -87,5 +87,7 @@ define citizen13 = Character(_("Анджело"), who_color=c_pink) #Stranger
 define citizen14 = Character(_("Василий"), who_color=c_orange) #Stranger
 define citizen15 = Character(_("Френк"), who_color=c_blue) #Stranger
 
+define ashley = Character(_("Эшли"), who_color=c_pink) # Барменша
+define joe = Character(_("Джо"), who_color=c_blue) # Бармен
 
 define sound_from_side = Character(_("Звук"), who_color=c_blue)
