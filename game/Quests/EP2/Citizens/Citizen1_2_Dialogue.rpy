@@ -171,7 +171,29 @@ label citizen1_dialogue_pilon:
             call pylonController(4, 5)
             citizen1 "Черт, тетя! Они шикарны! И что же ты их раньше от нас прятала?"
             call pylonController(4, 1)
-            w
+
+            citizen1 "Эй, тетя! Как насчет того, чтобы получить немного больше?"
+            m "..."
+            citizen1 "Сожми ка свои аппетитные соски!"
+            label citizen1_dialogue_pilon_loop1_1:
+            menu:
+                "Хорошо.":
+                    if corruption < monicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired:
+                        mt "Уже достаточно, что он вот так глазеет на меня"
+                        "Хватит с него и того, что он видит."
+                        help "Требуется [monicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired] corruption"
+                        jump citizen1_dialogue_pilon_loop1_1
+                    m "Ладно."
+                    call pylonController(3, 4)
+                    with fade
+                    w
+                    call showRandomImages(nakedboobssquizenipplesImages, 1)
+                    call pylonController(3, 4)
+                    citizen1 "Уф...А ты горячая!"
+                "Ну уж нет!":
+                    call pylonController(3, 1)
+                    m "Не собираюсь, и так достаточно."
+                    citizen1 "Не ожидал я такого тетя. Думаю, ты скоро передумаешь."
             $ showedNakedBoobs = True
             $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen1_dialogue_pilon_loop1

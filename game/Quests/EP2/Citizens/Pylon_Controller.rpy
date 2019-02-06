@@ -3,6 +3,9 @@ define boobsImagesTonque = [8516, 8517]
 define assImages = [8518, 8519, 8520, 8521, 8522, 8523, 8524, 8525, 8526, 8527]
 define pylonClothDanceImages = [8518, 8519]
 define nakedboobsImages = [8528, 8529]
+define nakedboobssquizenipplesImages = [8528, 8529]
+define assSpankImages = [8528, 8529]
+define nakedboobsshakeImages = [8528, 8529]
 
 default pylonLastCamera = 1
 

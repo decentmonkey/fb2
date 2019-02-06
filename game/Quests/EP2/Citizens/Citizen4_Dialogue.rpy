@@ -156,6 +156,29 @@ label citizen4_dialogue_pilon:
             citizen4 "Должен признать, твои сиськи хороши. Но для полной картины, их нужно потрогать."
             call pylonController(4, 1)
             m "Даже не думай! С тебя хватит!"
+
+            citizen4 "Погоди минутку. Потряси ка своими сочными сиськами!"
+            label citizen4_dialogue_pilon_loop4_1:
+            menu:
+                "Хорошо.":
+                    if corruption < monicaWhoringClothNakedBoobsShakeCorruptionRequired:
+                        mt "Уже достаточно, что он вот так глазеет на меня"
+                        "Хватит с него и того, что он видит."
+                        help "Требуется [monicaWhoringClothNakedBoobsShakeCorruptionRequired] corruption"
+                        jump citizen4_dialogue_pilon_loop4_1
+                    m "Ладно."
+                    call pylonController(3, 4)
+                    with fade
+                    w
+                    call showRandomImages(nakedboobsshakeImages, 1)
+                    call pylonController(3, 4)
+                    citizen4 "О да! Теперь мне еще больше хочется их потрогать!"
+                    m "Даже не думай!"
+                "Ну уж нет!":
+                    call pylonController(3, 1)
+                    m "Не собираюсь, и так достаточно."
+                    citizen4 "Как хочешь. Похоже, мне придется найти другую шлюху."
+
             $ showedNakedBoobs = True
             $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen4_dialogue_pilon_loop4

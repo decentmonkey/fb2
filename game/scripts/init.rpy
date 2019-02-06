@@ -93,8 +93,11 @@ define monicaWhoringStartCorruptionRequired = 60
 define monicaWhoringClothBoobsCorruptionRequired = 60 # Кол-во corruption, чтобы Моника показала грудь в одежде
 define monicaWhoringClothBoobsTongueCorruptionRequired = 70 #Кол-во corruption, чтобы Моника показала грудь в одежде и высунула язык
 define monicaWhoringClothAssCorruptionRequired = 80 # Кол-во corruption, чтобы Моника показала зад в одежде
+define monicaWhoringClothAssSpankCorruptionRequired = 90  # Кол-во corruption, чтобы Моника показала зад в одежде и шлепнула по нему
 define monicaWhoringClothPylonDanceCorruptionRequired = 90 # Кол-во corruption, чтобы Моника танцевала на пилоне
 define monicaWhoringClothNakedBoobsCorruptionRequired = 100 # Кол-во corruption, чтобы Моника показала голые сиськи
+define monicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired = 110  # Кол-во corruption, чтобы Моника показала голые сиськи и сжала соски
+define monicaWhoringClothNakedBoobsShakeCorruptionRequired = 110  # Кол-во corruption, чтобы Моника показала голые сиськи и потрясла ими
 
 define monicaWhoringClothBoobsCorruptionProgress = 1 # Кол-во corruption, которые даются за показ груди в одежде
 define monicaWhoringClothBoobsTongueCorruptionProgress = 1 #Кол-во corruption, которые даются за показ груди в одежде, высунув язык

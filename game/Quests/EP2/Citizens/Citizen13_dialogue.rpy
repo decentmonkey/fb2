@@ -128,6 +128,30 @@ label citizen13_dialogue_pilon:
             # img показывает зад
             citizen13 "Оу, шикарная попка! Уж поверь, в этом я понимаю!"
             call pylonController(4, 5)
+
+            citizen13 "Подруга, а шлепни себя по попке! Меня это заводит!"
+            label citizen13_dialogue_pilon_loop13_1:
+            menu:
+                "Хорошо.":
+                    if corruption < monicaWhoringClothAssSpankCorruptionRequired:
+                        mt "Уже достаточно, что он вот так глазеет на меня"
+                        "Хватит с него и того, что он видит."
+                        help "Требуется [monicaWhoringClothAssSpankCorruptionRequired] corruption"
+                        jump citizen13_dialogue_pilon_loop13_1
+                    m "Ладно."
+                    call pylonController(3, 4)
+                    with fade
+                    w
+                    call showRandomImages(assSpankImages, 1)
+                    # добавить звук шлепка
+                    call pylonController(3, 4)
+                    citizen13 "Ух! Да, подруга, ты прямо огонь!"
+                "Ну уж нет!":
+                    call pylonController(3, 1)
+                    m "Не собираюсь, и так достаточно."
+                    citizen13 "Нууу...Ну пожалуйста?"
+                    m "Нет. Ты и так видел многое."
+
             $ showedButt = True
             $ add_corruption(monicaWhoringClothAssCorruptionProgress, "monicaWhoringClothAssCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen13_dialogue_pilon_loop13
