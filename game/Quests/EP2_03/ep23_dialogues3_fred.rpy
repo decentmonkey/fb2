@@ -80,27 +80,67 @@ label ep23_dialogues3_1:
     w
     img 8643
     w
+    if monicaBettyPanties == False:
+        img 8668
+    else:
+        if monicaBettyPantiesId == 1:
+            img 8669
+        if monicaBettyPantiesId == 2:
+            img 8670
+        if monicaBettyPantiesId == 3:
+            #before subd
+            img 8671
+        if monicaBettyPantiesId == 4:
+            img 8672
+        if monicaBettyPantiesId == 5:
+            img 8673
     img 8644
     w
     img 8645
     # Моника поворачивается и, в зависимости от bitchness дает пощечину, либо дает по яйцам ногой.
     menu:
         "Ударить Фреда между ног!" if monicaBitch == True:
+            img 8654
             m "ЧТО?!?!"
             "ТЫ МЕНЯ РЕШИЛ ЛАПАТЬ?!?"
             "НИЧТОЖЕСТВО!!!"
+            img 8655
             "ПОЛУЧАЙ!!!"
+            img 8656
             "НА!!!"
+            #bodyfall
+            #fade
+            img 8657
             fred "АААААххххх!!!"
             fred "Что Вы сделали, Миссис Бакфетт..."
             fred "Вы применили насилие!"
+            img 8658
             "Это же..."
             "Это же... Больно..."
             # Фред падает, если ударили.
             # В это время заходят Стефани и Ребекка
             # Видят Фреда. Моника делает комментарий в его сторону, чтобы он убирался отсюда, болван.
-            m "Сейчас я воткну каблук в твой глаз, мерзавец!"
+            img 8659
+            m "Сейчас я воткну каблук в твой рот, мерзавец!"
+            img 8660
+            w
+            img 8661
             "Если ты сейчас же не уберешься отсюда!!!"
+            if monicaBettyPanties == False:
+                img 8662
+            else:
+                if monicaBettyPantiesId == 1:
+                    img 8663
+                if monicaBettyPantiesId == 2:
+                    img 8664
+                if monicaBettyPantiesId == 3:
+                    #before subd
+                    img 8665
+                if monicaBettyPantiesId == 4:
+                    img 8666
+                if monicaBettyPantiesId == 5:
+                    img 8667
+
             "Ты забыл с кем связался! Ничтожество!"
         "Ударить Фреда между ног! (Моника слишком приличная) (disabled)" if monicaBitch == False:
             pass
@@ -139,19 +179,25 @@ label ep23_dialogues3_1:
     #Фред убегает
     img 8653
     w
+    #fade
+    img 8674
     stephanie "Вау! Моника!"
     rebecca "Моника! Вот это да!"
     stephanie "Наконец-то мы узнаем нашу Монику!"
     rebecca "Да, Моника, а то мы уже начали сомневаться в тебе!"
+    img 8675
     m "Я хочу предупредить Вас, девочки!"
     "Если кто-то будет сомневаться во мне, то последует за тем болваном!"
+    img 8676
     stephanie "Нет, Моника! Пожалуйста не надо!"
     rebecca "Мы твои верные подруги, Хи-хи!"
     stephanie "Скорее завершай свое приключение."
     "Нам не терпится все узнать!"
     rebecca "Да, Моника!"
     "Про тебя можно снимать кино!"
+    img 8677
     mt "Да уж, про меня уже можно снимать кино, это точно..."
+    img 8678
     stephanie "Пока, Моника!"
     "Чмок!"
     rebecca "Пока, Моника!"
@@ -161,8 +207,10 @@ label ep23_dialogues3_1:
 
 
 label ep23_dialogues3_2:
+    img 7743
     stephanie "Привет, Моника!"
     m "Привет, девочки!"
+    img 7751
     rebecca "Моника, мы скучаем по тебе!"
     stephanie "Скажи нам сразу как только соберешься на наш девичник!"
     "Мы тебя ждем!"
@@ -173,6 +221,17 @@ label ep23_dialogues3_3:
     # Фред, если к нему подойти у дома, смотрит на Монику.
     # Моника спрашивает хочет-ли он еще получить?
     # Фред делает вид что боится и что не хочет. Моника говорит чтобы тогда помалкивал.
+    if day_time == "day":
+        if cloth == "Governess":
+            img 8680
+        if cloth == "Whore":
+            img 8679
+    else:
+        if cloth == "Governess":
+            img 8681
+        if cloth == "Whore":
+            img 8682
+    with fade
     m "Фред, ты на меня все-время смотришь..."
     m "Тебе показалось мало в прошлый раз?"
     "Ты хочешь получить еще?"
@@ -185,11 +244,29 @@ label ep23_dialogues3_3:
     # Если Моника кликнет на Фреда, то оборачивается и говорит чтобы он проваливал, если не хочет получить еще.
     # Фред говорит что просто гуляет и ищет надо-ли где-то применить его профессионализм.
 label ep23_dialogues3_4:
+    if monicaBettyPanties == False:
+        img 8683
+    else:
+        if monicaBettyPantiesId == 1:
+            img 8684
+        if monicaBettyPantiesId == 2:
+            img 8685
+        if monicaBettyPantiesId == 3:
+            img 8686
+        if monicaBettyPantiesId == 4:
+            img 8687
+        if monicaBettyPantiesId == 5:
+            img 8688
+    with fade
+    w
+    img 8689
     m "Фред! Что ты шляешься здесь?!"
     "Проваливай отсюда, пока не получил по зубам!"
     fred "Мэм! Я просто прогуливаюсь!"
     "Вы знаете, Я профессионал."
+    img 8690
     "И ищу вдруг где-то надо применить мой профессионализм!"
+    img 8691
     m "Это точно не здесь, Фред!"
     return
 
