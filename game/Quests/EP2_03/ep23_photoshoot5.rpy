@@ -4,7 +4,7 @@ label ep22_photoshoot5:
     $ shotsAmount = PS5_shots_amount
     $ shotsTotalAmount = 21
 
-    $ shots = 3
+    $ shots = 2
     $ arrowUp = True
     $ arrowSide = True
     $ arrowDown = True
