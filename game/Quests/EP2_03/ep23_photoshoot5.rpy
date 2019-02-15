@@ -17,6 +17,7 @@ label ep22_photoshoot5:
     m "Алекс, я не собираюсь вставать в эту позу!!!"
     "Даже не мечтай!"
 
+    label tempaaa2:
         #кадр
         img 8748
         #up
@@ -126,7 +127,7 @@ label ep22_photoshoot5:
             "Мне надо любой ценой узнать замешан-ли во всем этом Дик!"
             "И Мелани единственная надежда на это!"
             pass
-        "Попросить Мелани не делать этого (хорошие отношения с Мелани)": if melanieOffended2 == False and melanieOffended1 == False:
+        "Попросить Мелани не делать этого (хорошие отношения с Мелани)" if melanieOffended2 == False and melanieOffended1 == False:
             m "Мелани, пожалуйста!"
             "Скажи Алексу что хватит!"
             melanie "Хорошо, Миссис Бакфетт..."
@@ -135,10 +136,10 @@ label ep22_photoshoot5:
             melanie "Алекс, я думаю этого достаточно!"
             "Я ведь знаю что этот кадр твоя инициатива!"
             # конец фотосессии
-        "Попросить Мелани не делать этого (плохие отношения с Мелани) (disabled)": if melanieOffended2 == True or melanieOffended1 == True:
+        "Попросить Мелани не делать этого (плохие отношения с Мелани) (disabled)" if melanieOffended2 == True or melanieOffended1 == True:
             pass
 
-
+    label testaaa3:
         #кадр
         img 8791
         #up

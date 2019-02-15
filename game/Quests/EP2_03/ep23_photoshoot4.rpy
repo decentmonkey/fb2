@@ -1,7 +1,7 @@
-default photoshoot5_count = 0
+default photoshoot4_count = 0
 
-label ep22_photoshoot5:
-    $ shotsAmount = PS5_shots_amount
+label ep22_photoshoot4:
+    $ shotsAmount = PS4_shots_amount
     $ shotsTotalAmount = 21
 
     $ shots = 2
@@ -15,7 +15,7 @@ label ep22_photoshoot5:
     img 8841
 
 
-
+    label tempaaa1:
         #кадр
         img 8842
         #up

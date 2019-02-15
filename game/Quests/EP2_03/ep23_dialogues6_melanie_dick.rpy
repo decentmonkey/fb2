@@ -66,7 +66,7 @@ label ep23_dialogues6_1:
     "Пожалуйста, следуйте за мной!"
     return
 
-label ep23_dialogues6_1:
+label ep23_dialogues6_2:
     # Идут к Виктории.
     # Виктория сидит работает, несколько кадров как Мелани крутая идет в ее сторону.
     # Виктория поднимает глаза, удивленно.
@@ -316,24 +316,4 @@ label ep23_dialogues6_1:
     dick_secretary "..."
 
 
-    return
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-label ep23_dialogues6:
     return
