@@ -290,3 +290,15 @@ translate english strings:
     old "Звук"
     new "Sound"
 
+# TODO: Translation updated at 2019-02-16 03:00
+
+translate english strings:
+
+    # 00_Functions/07_init_renpy.rpy:90
+    old "Эшли"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:91
+    old "Джо"
+    new ""
+
