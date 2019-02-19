@@ -113,3 +113,58 @@ label ep22_photoshoot4:
     #Если кастинг у Бифа
 
     return
+
+label ep23_photoshoot4_casting:
+    music Groove2_85
+    sound highheels_short_walk
+    img 9470
+    with fadelong
+    w
+    img 9471
+    with Dissolve(0.5)
+    m "Привет, Биф. Я пришла..."
+
+    img 9472
+    $ add_char_progress("Biff", PS4_BiffProgressCasting, "PS4_BiffProgressCasting_day" + str(day))
+    biff "О! Цыпочка пришла к папочке!"
+    menu:
+        "Притвориться цыпочкой...":
+            mt "Мне надо притвориться и завоевать его расположение..."
+            img 9473
+            with fade
+            m "Да, цыпочка пришла к папочке..."
+            "Цыпочка хорошая..."
+            img 9474
+            biff "Кто сегодня цыпочка?"
+            m "Сегодня цыпочка - это Роза Надежды..."
+            $ add_char_progress("Biff", PS4_BiffProgressCastingChick, "PS4_BiffProgressCastingChick_day" + str(day))
+            biff "Что Роза Надежды хочет показать папочке?"
+            $ chickMode = True
+            $ castingCloth = 4
+            call ep22_casting()
+            img 9476
+            with fade
+            mt "Мерзавец!"
+            #рост прогресса у Бифа
+
+        "Я не собираюсь никем притворяться!":
+            #если обещала хорошо себя вести
+            if monicaSaidBiffSheIsWillBeAGoodChick == True:
+                m "Я пришла, потому что обещала хорошо вести себя..."
+            else:
+                #иначе
+                img 9475
+                with fade
+                m "Ты заставил меня придти..."
+            mt "Ненавижу!!!"
+            biff "И что цыпочка будет делать?"
+            $ castingCloth = 4
+            $ chickMode = False
+            call ep22_casting()
+            img 9476
+            with fade
+            mt "Мерзавец!"
+            #рост прогресса у Бифа
+
+
+    return

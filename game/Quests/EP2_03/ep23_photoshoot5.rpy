@@ -191,3 +191,58 @@ label ep22_photoshoot5:
     melanie "..."
     melanie "Хорошо, Миссис Бакфетт. Я буду ждать Вас в гримерной комнате."
     return
+
+label ep23_photoshoot5_casting:
+    music Groove2_85
+    sound highheels_short_walk
+    img 9493
+    with fadelong
+    w
+    img 9494
+    with Dissolve(0.5)
+    m "Привет, Биф. Я пришла..."
+
+    img 9495
+    $ add_char_progress("Biff", PS5_BiffProgressCasting, "PS5_BiffProgressCasting_day" + str(day))
+    biff "О! Цыпочка пришла к папочке!"
+    menu:
+        "Притвориться цыпочкой...":
+            mt "Мне надо притвориться и завоевать его расположение..."
+            img 9496
+            with fade
+            m "Да, цыпочка пришла к папочке..."
+            "Цыпочка хорошая..."
+            img 9497
+            biff "Кто сегодня цыпочка?"
+            m "Сегодня цыпочка - это Стюардесса из Fashion Airlines..."
+            $ add_char_progress("Biff", PS5_BiffProgressCastingChick, "PS5_BiffProgressCastingChick_day" + str(day))
+            biff "Что Стюардесса хочет показать папочке?"
+            $ chickMode = True
+            $ castingCloth = 4
+            call ep22_casting()
+            img 9499
+            with fade
+            mt "Мерзавец!"
+            #рост прогресса у Бифа
+
+        "Я не собираюсь никем притворяться!":
+            #если обещала хорошо себя вести
+            if monicaSaidBiffSheIsWillBeAGoodChick == True:
+                m "Я пришла, потому что обещала хорошо вести себя..."
+            else:
+                #иначе
+                img 9498
+                with fade
+                m "Ты заставил меня придти..."
+            mt "Ненавижу!!!"
+            biff "И что цыпочка будет делать?"
+            $ castingCloth = 4
+            $ chickMode = False
+            call ep22_casting()
+            img 9499
+            with fade
+            mt "Мерзавец!"
+            #рост прогресса у Бифа
+
+
+    return
