@@ -1,4 +1,4 @@
-define debugMode = False
+define debugMode = True
 
 default gameStage = 0
 default gameSubStage = 0
@@ -222,6 +222,11 @@ label start_game:
     $ add_hook("Teleport_Hostel_Street3", "kebab_work_block_teleports", scene="street_corner", label="kebab_work_block_teleports")
 
     $ scene_transition = "Fade_long"
+
+    $ add_hook("before_open", "food_basement_room_init", scene="basement_bedroom2", label="food_basement_room_init", priority = 200)
+    $ add_hook("before_open", "food_basement_room_init2", scene="basement_bedroom_table", label="food_basement_room_init", priority = 200)
+    $ define_inventory_object("food_package", {"description" : _("Еда"), "label_suffix" : "_use_food", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/food_package" + res.suffix + ".png"})
+    $ ep23_quests_initialized = True
 
 #    $ changeDayTime("evening")
 #    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом

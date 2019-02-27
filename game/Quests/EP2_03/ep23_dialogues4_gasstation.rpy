@@ -9,50 +9,66 @@
 # Дают разное кол-во еды. (как инвентарь)
 # Каждый день еда убавляется (с утра) и обновляется флаг monicaEat()
 
+default gasStationFoodBought = False
+default gasStationBuyFoodFirstTime = True
+default gasStationComputerNotWorkingDay = 0
+default gasStationComputerNotWorkingDayTime = ""
+
 label ep23_dialogues4_1:
-    menu:
-        "Купить продукты.":
-            pass
-    if money <= 0:
-        mt "У меня нет денег на это..."
-        return
+    if gasStationFoodInited == False:
+        $ add_location("gas_station_buy_food", caption=_("Gas Station"), label="gas_station_buy_food", init_label="gas_station_buy_food_init", parent="street_gas_station")
+        $ gasStationFoodInited = True
     # Моника заходит
-    # первый раз
-    img 9515
-    with fade
-    saleswoman "Эй! Здесь приличная заправка!"
-    "Зачем Вы пришли?"
-    if cloth == "Whore":
-        img 9516
-    mt "Хорошо что она не узнает меня... Единственный плюс этой одежды..."
-    #
+    $ gasStationFoodBought = False
+    if gasStationBuyFoodFirstTime == True:
+        # первый раз
+        img 9515
+        with fade
+        saleswoman "Эй! Здесь приличная заправка!"
+        "Зачем Вы пришли?"
+        if cloth == "Whore":
+            img 9516
+        mt "Хорошо что она не узнает меня... Единственный плюс этой одежды..."
+        #
 
     if cloth == "Whore":
         img 9517
+        with fade
     m "Я хочу купить продукты!"
 
+
     #Если касса не работает
-    if cloth == "Whore":
-        img 9518
-    else:
-        img 9519
-    saleswoman "У нас не работает касса! Так что попрошу выйти отсюда!"
-    if monicaBitch == True:
+    if gasStationBuyFoodFirstTime == True or (gasStationComputerNotWorkingDay == day and gasStationComputerNotWorkingDayTime == day_time) or day%4 == 0:
+        $ gasStationComputerNotWorkingDay = day
+        $ gasStationComputerNotWorkingDayTime = day_time
+        $ gasStationBuyFoodFirstTime = False
         if cloth == "Whore":
-            img 9520
-        mt "Сучка!"
-        "Эх! Какую-бы я сейчас устроила ей трепку, с огромным удовольствием!"
-        mt "Я еще вернусь сюда, когда закончится этот кошмар!"
-        #Если разбивала бутылку
-        if gasStationSaleswomanMischiefed == True:
+            img 9518
+        else:
+            img 9519
+        saleswoman "У нас не работает касса! Так что попрошу выйти отсюда!"
+        if monicaBitch == True:
             if cloth == "Whore":
-                img 9521
-            mt "Может разбить здесь что-нибудь еще?"
-            "Проучить эту сучку!"
-            "Но нет... Сейчас это слишком опасно!"
+                img 9520
+                with fade
+            mt "Сучка!"
+            "Эх! Какую-бы я сейчас устроила ей трепку, с огромным удовольствием!"
+            mt "Я еще вернусь сюда, когда закончится этот кошмар!"
+            #Если разбивала бутылку
+            if gasStationSaleswomanMischiefed == True:
+                if cloth == "Whore":
+                    img 9521
+                    with fade
+                music Hidden_Agenda
+                mt "Может разбить здесь что-нибудь еще?"
+                "Проучить эту сучку!"
+                "Но нет... Сейчас это слишком опасно!"
+        call change_scene("street_gas_station")
+        return
     #
 
 
+    $ gasStationBuyFoodFirstTime = False
     if cloth == "Whore":
         img 9522
     else:
@@ -61,7 +77,8 @@ label ep23_dialogues4_1:
     if monicaBitch == True:
         mt "Сучка!"
 
-
+    music Hidden_Agenda
+    call change_scene("gas_station_buy_food")
 
     #
 

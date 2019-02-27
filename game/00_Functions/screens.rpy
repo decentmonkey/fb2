@@ -270,7 +270,11 @@ screen screen_sprites(data):
                                                 ypos int(float(data[i]["ysprite"]) / 1080.0 * config.screen_height)
                                             idle hoveredImage
                                             hover hoveredImage
-                                            hovered SetScreenVariable("idle_num", 0.4)
+                                            if data[i].has_key("hovered_caption"):
+                                                hovered [SetScreenVariable("idle_num", 0.4), Show("sprite_hovered_caption_screen", None, data[i]["hovered_caption"])]
+                                            else:
+                                                hovered [SetScreenVariable("idle_num", 0.4)]
+                                            unhovered Hide("sprite_hovered_caption_screen")
                                             at imagebutton_hover_type1(idle_num)
                                             focus_mask True
                                             if data[i]["actions"] == "l" and check_object_has_character(i) == False: #если объекту не заданы действия кроме просмотра, то не выводим доп. меню
@@ -631,6 +635,31 @@ screen sprites_hover_dummy_screen():
             xfill True
             yfill True
             action Return(False)
+
+screen sprite_hovered_caption_screen(caption_text):
+    layer "master"
+    zorder 51
+    fixed:
+        xpos getRes(1920/2)
+        ypos getRes(130)
+#        xpos 0
+#        ypos 0
+
+        frame:
+            anchor (0.5,0.5)
+            xpos 0
+            ypos 0
+            background Solid("#18181a")
+            margin (0,0)
+            padding text_button_layouts[text_button_default_layout]["text_button.padding"]
+            style "sprite_textbutton_frm"
+            hbox:
+                null:
+                    width text_button_layouts[text_button_default_layout]["text_button.spacing2"]
+                text caption_text style text_button_layouts[text_button_default_layout]["text_button.force_hovered.style"]
+                null:
+                    width text_button_layouts[text_button_default_layout]["text_button.spacing2"]
+
 
 screen dialogue_image_black_overlay():
     layer "master"
@@ -2513,7 +2542,10 @@ screen notify(message):
             $ notifOffset += notifyLineOffset
 #        timer (3.25*len(notifList)) action [Hide('notify'), SetVariable("notifList", [])]
         if len(notifList) > 2:
-            timer (2.0 * len(notifList)) action [SetVariable("notifList", []), Hide('notify')]
+            $ notifTimerLen = (2.0 * len(notifList))
+            if notifTimerLen > 6:
+                $ notifTimerLen = 6
+            timer notifTimerLen action [SetVariable("notifList", []), Hide('notify')]
         else:
             timer (3.25) action [SetVariable("notifList", []), Hide('notify')]
 

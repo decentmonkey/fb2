@@ -23,9 +23,9 @@ init python:
         print "Debug!"
         if debugMode != True:
             return
-        if os.path.isdir("/Users//Documents/work/browse") == True:
+        if os.path.isdir("/Users/Denis/Documents/work/browse") == True:
             str1 = json.dumps(scenes_data)
-            f = open("/Users//Documents/work/browse/renpy_debug.json","w")
+            f = open("/Users/Denis/Documents/work/browse/renpy_debug.json","w")
             f.write(str1)
             f.close()
         return
@@ -58,6 +58,9 @@ init python:
 
     def rand(from_int, to_int):
         return renpy.random.randint(from_int,to_int)
+
+    def convertMoneyStr(in_money):
+        return '{:3,.2f}'.format(in_money)
 
 label mycopytext_label(txt):
     $ mycopytext(txt)

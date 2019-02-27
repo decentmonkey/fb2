@@ -964,8 +964,12 @@ label ep22_dialogues3_12:
 
 label ep22_dialogues3_13:
     # Моника выходит из дома по карте, либо через ворота и одеты трусики Бетти
-    img 7616
-    with fade
+    if cloth == "Governess":
+        img 7616
+        with fade
+    else:
+        img scene_Laundry1
+        with fade
     mt "Мне лучше вернуть трусики Бетти на место, пока она не заметила что я их использую..."
     return
 label ep22_dialogues3_14:

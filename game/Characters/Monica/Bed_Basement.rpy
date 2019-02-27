@@ -97,21 +97,27 @@ label monica_gosleep1a:
     $ set_active("BasementBed", True, scene="basement_bedroom2")
     mt "Я сегодня ничего не ела! Лечь спать голодной?"
     menu:
-        "Лечь спать голодной.":
-            $ basementBedroomMonicaSleepGfx = False
-            call process_hooks("basement_monica_before_sleep", "global") from _call_process_hooks_31
-            if _return == False:
-                $ basement_bedroom2_MonicaSuffix = 2
-                call refresh_scene_fade() from _call_refresh_scene_fade_47
-                return False
-            call processHouseCleaningEvening() from _call_processHouseCleaningEvening
-            if cloth != "Nude":
-                $ cloth_type = "Nude"
-                $ cloth = "GovernessPants"
-            $ changeDayTime("day")
-            call process_hooks("basement_monica_after_sleep", "global") from _call_process_hooks_32
-            call refresh_scene_fade() from _call_refresh_scene_fade_48
+        "Поесть и лечь спать." if food_basement_check_food_func() == True:
+            $ sleepAfterEat = True
+            call change_scene("basement_bedroom_table")
             return False
+        "Лечь спать голодной.":
+            call monica_process_sleep()
+            return False
+#            $ basementBedroomMonicaSleepGfx = False
+#            call process_hooks("basement_monica_before_sleep", "global") from _call_process_hooks_31
+#            if _return == False:
+#                $ basement_bedroom2_MonicaSuffix = 2
+#                call refresh_scene_fade() from _call_refresh_scene_fade_47
+#                return False
+#            call processHouseCleaningEvening() from _call_processHouseCleaningEvening
+#            if cloth != "Nude":
+#                $ cloth_type = "Nude"
+#                $ cloth = "GovernessPants"
+#            $ changeDayTime("day")
+#            call process_hooks("basement_monica_after_sleep", "global") from _call_process_hooks_32
+#            call refresh_scene_fade() from _call_refresh_scene_fade_48
+#            return False
         "Пропустить до Пятницы." if basementBedSkipUntilFridayEnabled == True and week_day != 5:
             $ basementBedroomMonicaSleepGfx = False
             call monica_skip_until_friday()
@@ -126,20 +132,22 @@ label monica_gosleep1b:
     $ basement_bedroom2_MonicaSuffix = 2
     menu:
         "Лечь спать.":
-            $ basementBedroomMonicaSleepGfx = False
-            call process_hooks("basement_monica_before_sleep", "global") from _call_process_hooks_33
-            if _return == False:
-                $ basement_bedroom2_MonicaSuffix = 2
-                call refresh_scene_fade() from _call_refresh_scene_fade_50
-                return False
-            call processHouseCleaningEvening() from _call_processHouseCleaningEvening_1
-            if cloth != "Nude":
-                $ cloth_type = "Nude"
-                $ cloth = "GovernessPants"
-            $ changeDayTime("day")
-            call process_hooks("basement_monica_after_sleep", "global") from _call_process_hooks_34
-            call refresh_scene_fade() from _call_refresh_scene_fade_51
+            call monica_process_sleep()
             return False
+#            $ basementBedroomMonicaSleepGfx = False
+#            call process_hooks("basement_monica_before_sleep", "global") from _call_process_hooks_33
+#            if _return == False:
+#                $ basement_bedroom2_MonicaSuffix = 2
+#                call refresh_scene_fade() from _call_refresh_scene_fade_50
+#                return False
+#            call processHouseCleaningEvening() from _call_processHouseCleaningEvening_1
+#            if cloth != "Nude":
+#                $ cloth_type = "Nude"
+#                $ cloth = "GovernessPants"
+#            $ changeDayTime("day")
+#            call process_hooks("basement_monica_after_sleep", "global") from _call_process_hooks_34
+#            call refresh_scene_fade() from _call_refresh_scene_fade_51
+#            return False
         "Пропустить до Пятницы." if basementBedSkipUntilFridayEnabled == True and week_day != 5:
             $ basementBedroomMonicaSleepGfx = False
             if cloth != "Nude":
@@ -151,6 +159,23 @@ label monica_gosleep1b:
             $ basementBedroomMonicaSleepGfx = False
             call refresh_scene_fade() from _call_refresh_scene_fade_52
             return False
+    return False
+
+label monica_process_sleep:
+    $ basement_bedroom2_MonicaSuffix = 2
+    $ basementBedroomMonicaSleepGfx = False
+    call process_hooks("basement_monica_before_sleep", "global")
+    if _return == False:
+        $ basement_bedroom2_MonicaSuffix = 2
+        call refresh_scene_fade()
+        return False
+    call processHouseCleaningEvening()
+    if cloth != "Nude":
+        $ cloth_type = "Nude"
+        $ cloth = "GovernessPants"
+    $ changeDayTime("day")
+    call process_hooks("basement_monica_after_sleep", "global")
+    call refresh_scene_fade()
     return False
 
 label basement_monica_nap_transition1:
@@ -260,6 +285,12 @@ label basement_monica_hungry_cant_sleep:
     mt "{c}Я не ела{/c} уже третий день!"
     "Я не могу лечь спать в таком состоянии!"
     "Я ХОЧУ ЕСТЬ!!!"
+    call food_basement_check_food()
+    if _return == True:
+        $ sleepAfterEat = True
+        $ basement_bedroom2_MonicaSuffix = 2
+        call change_scene("basement_bedroom_table")
+        return
     "..."
     mt "Может быть я смогу что-то найти на заправке?"
     mt "Или у кого-нибудь занять деньги на еду?"

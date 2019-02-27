@@ -14,20 +14,37 @@ label monica_gas_station_thief_dialogue1:
         mt "Что я здесь делаю?"
         mt "Есть я пока не хочу, а говорить с этой кассиршей мне не о чем..."
     return
+label monica_gas_station_thief_dialogue2a:
+    menu:
+        "Купить продукты.":
+            if money <= 0:
+                mt "У меня нет денег на это..."
+                return
+            call ep23_dialogues4_1()
+            return
+        "Уйти.":
+            return
+    return
 
 label monica_gas_station_thief_dialogue2:
-    #Моника ворует еду
-    if monicaEatedLastDay == day:
-        mt "Я не так уж голодна."
-        "Не стоит лишний раз рисковать..."
-        return
     menu:
+        "Купить продукты.":
+            if money <= 0:
+                mt "У меня нет денег на это..."
+                return
+            call ep23_dialogues4_1()
+            return
         "Украсть еду.":
             pass
         "Не делать этого.":
             mt "Я не стану рисковать..."
             return
 
+    #Моника ворует еду
+    if monicaEatedLastDay == day:
+        mt "Я не так уж голодна."
+        "Не стоит лишний раз рисковать..."
+        return
     $ store_music()
     music Hidden_Agenda
     #render

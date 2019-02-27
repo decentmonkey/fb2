@@ -1,5 +1,8 @@
 default monicaEatedLastDay = 0
 default monicaEatedLastDayTime = "day"
+default monicaFoodInventory = {} #какая еда есть у Моники с собой
+default monicaFoodInventoryBasement = {} #какая еда лежит на столе в спальне в подвале
+
 #define monicaCantSleepHungry = True
 define monicaCantSleepHungry2 = True
 

@@ -40,10 +40,12 @@ label gas_station_view1_environment:
     if obj_name == "SalesWoman":
         if obj_data["action"] == "l":
             mt "Это кассирша, которую я так долго искала."
+
         if obj_data["action"] == "w":
-            mt "Я не собираюсь подходить к ней. Чем она может мне помочь?"
-            if monicaBitch == True:
-                "У нее же нет мозгов!"
+            call monica_gas_station_thief_dialogue2a()
+#            mt "Я не собираюсь подходить к ней. Чем она может мне помочь?"
+#            if monicaBitch == True:
+#                "У нее же нет мозгов!"
             return
     if obj_name == "Flower":
         mt "Полудохлое растение."

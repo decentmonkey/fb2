@@ -40,6 +40,17 @@ label basement_bedroom2_init:
     $ add_object_to_scene("Picture9", {"type":2, "base":"Basement_Bedroom2_Picture9", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="basement_bedroom2")
     $ add_object_to_scene("Table", {"type":2, "base":"Basement_Bedroom2_Table", "click" : "basement_bedroom2_environment", "actions" : "lw", "zorder" : 0, "group":"environment"}, scene="basement_bedroom2")
 
+    $ add_object_to_scene("FoodPaper", {"type":2, "base":"Basement_Bedroom2_FoodPaper", "img_overlay":"Basement_Bedroom2_FoodPaper_Overlay", "click" : "basement_bedroom2_teleport_to_table", "actions" : "l", "zorder" : 1, "group":"environment", "label":"food", "active":False}, scene="basement_bedroom2")
+    $ add_object_to_scene("donut", {"type":2, "base":"Basement_Bedroom2_Cake1", "click" : "basement_bedroom2_teleport_to_table", "actions" : "l", "zorder" : 6, "group":"environment", "label":"food", "active":False}, scene="basement_bedroom2")
+    $ add_object_to_scene("cookies cherry filled", {"type":2, "base":"Basement_Bedroom2_Cake2", "click" : "basement_bedroom2_teleport_to_table", "actions" : "l", "zorder" : 2, "group":"environment", "label":"food", "active":False}, scene="basement_bedroom2")
+    $ add_object_to_scene("chocolate cake", {"type":2, "base":"Basement_Bedroom2_Cake3", "click" : "basement_bedroom2_teleport_to_table", "actions" : "l", "zorder" : 3, "group":"environment", "label":"food", "active":False}, scene="basement_bedroom2")
+    $ add_object_to_scene("cannoli", {"type":2, "base":"Basement_Bedroom2_Cake4", "click" : "basement_bedroom2_teleport_to_table", "actions" : "l", "zorder" : 5, "group":"environment", "label":"food", "active":False}, scene="basement_bedroom2")
+    $ add_object_to_scene("napoleon", {"type":2, "base":"Basement_Bedroom2_Cake5", "click" : "basement_bedroom2_teleport_to_table", "actions" : "l", "zorder" : 7, "group":"environment", "label":"food", "active":False}, scene="basement_bedroom2")
+    $ add_object_to_scene("brownie", {"type":2, "base":"Basement_Bedroom2_Cake6", "click" : "basement_bedroom2_teleport_to_table", "actions" : "l", "zorder" : 6, "group":"environment", "label":"food", "active":False}, scene="basement_bedroom2")
+    $ add_object_to_scene("cupcake", {"type":2, "base":"Basement_Bedroom2_Cake7", "click" : "basement_bedroom2_teleport_to_table", "actions" : "l", "zorder" : 8, "group":"environment", "label":"food", "active":False}, scene="basement_bedroom2")
+    $ add_object_to_scene("cookie with nuts", {"type":2, "base":"Basement_Bedroom2_Cake8", "click" : "basement_bedroom2_teleport_to_table", "actions" : "l", "zorder" : 3, "group":"environment", "label":"food", "active":False}, scene="basement_bedroom2")
+    $ add_object_to_scene("waffles", {"type":2, "base":"Basement_Bedroom2_Cake9", "click" : "basement_bedroom2_teleport_to_table", "actions" : "l", "zorder" : 4, "group":"environment", "label":"food", "active":False}, scene="basement_bedroom2")
+
     $ add_object_to_scene("Teleport_Bedroom1", {"type":3, "text" : _("ШКАФ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "basement_bedroom2_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "high_sprite_hover":True}, scene="basement_bedroom2")
 
     return
@@ -49,7 +60,9 @@ label basement_bedroom2_teleport:
         call change_scene("basement_bedroom1") from _call_change_scene_65
         return
     return
-
+label basement_bedroom2_teleport_to_table:
+    call change_scene("basement_bedroom_table")
+    return
 label basement_bedroom2_environment:
     if obj_name == "Monica":
         mt "Здесь я теперь сплю..."

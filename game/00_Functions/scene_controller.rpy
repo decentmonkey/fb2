@@ -199,6 +199,8 @@ label after_load():
     if game_version1_screen_ready_to_render == False:
         $ game_version1_screen_ready_to_render = True
         call refresh_scene() from _call_refresh_scene_2
+    if ep23_quests_initialized == False:
+        call ep23_Quests_init()
     $ imagesSizesCache = {}
     $ scene_refresh_flag = True #???
     $ show_scene_loop_flag = True
