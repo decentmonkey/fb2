@@ -1,8 +1,25 @@
 default fallingPathServedCustomers = []
+default fallingPathServedCustomersGlobal = {}
 default fallingPathServedCustomersTotal = 0
 default fallingPathServedCustomersToday = 0
+default fallingPathCitizenVisitsData = {"visits":0}
 
 define fallingPathMaxCustomersPerDay = 3 # Количество обслуженных клиентов до того как наступит вечер
+
+init python:
+    def store_citizen_action(actionName, amount = 1):
+        global fallingPathCitizenVisitsData
+        if fallingPathCitizenVisitsData.has_key(actionName) == False:
+            fallingPathCitizenVisitsData[actionName] = 0
+        fallingPathCitizenVisitsData[actionName] += 1
+        return
+
+    def fallingPathGetCitizenData(propertyName):
+        global fallingPathCitizenVisitsData
+        if fallingPathCitizenVisitsData.has_key(propertyName) == False:
+            fallingPathCitizenVisitsData[propertyName] = 0
+        return fallingPathCitizenVisitsData[propertyName]
+
 
 label ep22_quests_falling_path1: # Инициализация ситизенов перед нападением на Монику
     if questOffendMonicaFlyersCitizen12Completed == True: #если событие уже произошло, то стираем хук
@@ -54,6 +71,7 @@ label ep22_quests_falling_path4:
     $ citizenId = citizens_list_source[obj_name]["id"]
     $ pylonPreset = rand(1,2)
     $ funcName = "citizen" + str(citizenId) + "_dialogue_pilon"
+    call falling_path_start_customer()
     call expression funcName
     $ restore_music()
     if _return != False:
@@ -61,9 +79,14 @@ label ep22_quests_falling_path4:
         call falling_path_store_customer()
     return False
 
+label falling_path_start_customer():
+    if fallingPathServedCustomersGlobal.has_key("Citizen_" + str(citizenId)) == False:
+        $ fallingPathServedCustomersGlobal["Citizen_" + str(citizenId)] = {"visits":0}
+    $ fallingPathCitizenVisitsData = fallingPathServedCustomersGlobal["Citizen_" + str(citizenId)]
+    return
 label falling_path_store_customer():
-
     $ fallingPathServedCustomers.append("Citizen_" + str(citizenId))
+    $ fallingPathServedCustomersGlobal["Citizen_" + str(citizenId)]["visits"] += 1
     $ fallingPathServedCustomersTotal += 1
     $ fallingPathServedCustomersToday += 1
     if fallingPathServedCustomersTotal == 2:

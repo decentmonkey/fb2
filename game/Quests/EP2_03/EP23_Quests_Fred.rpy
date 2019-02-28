@@ -27,7 +27,7 @@ label ep23_quests_fred_talking_street_yard:
 
 label ep23_quests_fred_betty_sex:
     $ remove_hook()
-    if bettyFredLaundryHasSex == False:
+    if bettyTouchedFredDick == False:
         return
     call ep23_dialogues3_5()
     return

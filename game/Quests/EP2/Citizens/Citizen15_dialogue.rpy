@@ -1,4 +1,5 @@
 default pylonpart2startsCompleted = False
+default pylonpart3startsCompleted = False
 
 label citizen15_dialogue:
     imgl Dial_Monica_Sandwich_0
@@ -103,9 +104,10 @@ label citizen15_dialogue_pilon:
             citizen15 "Мда, ну и так сойдет..."
             $ showedBoobs = True
             $ add_corruption(monicaWhoringClothBoobsCorruptionProgress, "monicaWhoringClothBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+            $ store_citizen_action("BoobsCloth", 1)
 
             # Разовое событие после которого появится еще 1 события у пилона -  голая грудь
-            if fallingPathServedCustomersTotal >= 20:
+            if fallingPathServedCustomersTotal >= 20 and 1==1:
                 citizen15 "Хотя... Ты красивая девочка. Хочу оценить их без одежды."
                 "Я недавно провернул одно дельце и у меня есть лишние 50$. Что скажешь?"
                 menu:
@@ -136,7 +138,7 @@ label citizen15_dialogue_pilon:
                 call pylonController(3, 5) #моника показывет голые сиськи
                 m "Доволен?"
                 citizen15 "Более чем"
-                $ pylonpart2startsCompleted = True
+                $ pylonpart3startsCompleted = True
                 # Добавить сколько то corruption
                 $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen15_dialogue_pilon_loop15
@@ -161,10 +163,11 @@ label citizen15_dialogue_pilon:
             mt "Что за козел. Врезать может ему?"
             $ showedButt = True
             $ add_corruption(monicaWhoringClothAssCorruptionProgress, "monicaWhoringClothAssCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+            $ store_citizen_action("AssCloth", 1)
             jump citizen15_dialogue_pilon_loop15
-        "Станцуй. (disabled)" if pylonpart2startsCompleted == False:
+        "Станцуй. (мало свиданий) (disabled)" if fallingPathGetCitizenData("visits") < monicaWhoringClothPylonDanceVisitsRequired:
             pass
-        "Станцуй." if pylonpart2startsCompleted == True:
+        "Станцуй." if fallingPathGetCitizenData("visits") >= monicaWhoringClothPylonDanceVisitsRequired:
             call pylonController(4, 1)
             citizen15 "Покрутись немного на шесте, который сзади тебя."
             if corruption < monicaWhoringClothPylonDanceCorruptionRequired:
@@ -174,21 +177,26 @@ label citizen15_dialogue_pilon:
                 "И, надеюсь, этого не произойдет НИКОГДА!"
                 help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
                 jump citizen15_dialogue_pilon_loop15
-            call pylonController(4, 5)
+            $ store_music()
+            music Molten_Alloy
+            call pylonController(4, 6)
             with fade
             m "Хорошо, только не долго."
             mt "Только потому, что ты заплатишь."
-            call showRandomImages(pylonClothDanceImages, 4)
-            call pylonController(4, 5)
+            call showRandomImages(pylonClothDanceImages2, 4)
+#            call pylonController(4, 5)
             citizen15 "Мда, тебе далеко до совершенства..."
+            $ restore_music()
             call pylonController(4, 1)
+            with fade
             mt "Ну и урод..."
             $ showedDance = True
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+            $ store_citizen_action("PylonDanceCloth", 1)
             jump citizen15_dialogue_pilon_loop15
-        "Голые сиськи. (disabled)" if pylonpart2startsCompleted == False:
+        "Голые сиськи. (disabled)" if pylonpart3startsCompleted == False and 1==2:
             pass
-        "Голые сиськи." if pylonpart2startsCompleted == True:
+        "Голые сиськи." if pylonpart3startsCompleted == True:
             call pylonController(4, 1)
             citizen15 "А теперь покажи своих малышек, похоже им там тесно."
             mt "Как он может так говорить о моей прекрасной груди?! Извращенец..."

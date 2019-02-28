@@ -474,7 +474,7 @@ label ep23_dialogues3_5:
     with Dissolve(0.5)
     w
 
-    $ bettyFredBedroomHasSex = True
+    $ bettyFredBedroomHasBlowjob = True
     # Бетти смотрит на Фреда, спускается и целует.
     music Loved_Up
     img 8566
@@ -517,8 +517,17 @@ label ep23_dialogues3_5:
     # Бетти говорит что куда это он собрался, давай быстрее и тд. Повторяется сцена секса (можно взять из прошлой версии)
     # Фред кончает. Бетти говорит что не вздумай снова кончить на лицо, раздается крик Ральфа: Бетти, ты где?
     # Фред снова кончает на лицо, Бетти зло смотрит и вытирает его.
+
     img 8577
     with fade
+    menu:
+        "Куда это ты собрался?!":
+            pass
+        "Пойдем...":
+            betty "Пойдем..."
+            jump ep23_dialogues3_5a
+
+    $ bettyFredBedroomHasSex = True
     betty "Куда это ты собрался?!"
     sound snd_fabric1
     img 9615
@@ -612,6 +621,7 @@ label ep23_dialogues3_5:
     betty "Ральф, я иду!"
     "Хватит орать на весь дом!"
 
+label ep23_dialogues3_5a:
     music stop
     img black_screen
     with Dissolve(2.0)

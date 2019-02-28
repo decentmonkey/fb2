@@ -1,7 +1,14 @@
 define boobsImages = [8506, 8507, 8508, 8509, 8510, 8511, 8512, 8513, 8514, 8515]
 define boobsImagesTonque = [8516, 8517]
 define assImages = [8518, 8519, 8520, 8521, 8522, 8523, 8524, 8525, 8526, 8527]
-define pylonClothDanceImages = [8518, 8519]
+define pylonClothDanceImages1 = [9524, 9525, 9526, 9527, 9549, 9550, 9551, 9552]
+define pylonClothDanceImages2 = [9528, 9529, 9530, 9531, 9532, 9553, 9554, 9555, 9556]
+define pylonClothDanceImages3 = [9533, 9534, 9535, 9557, 9558, 9559, 9560]
+define pylonClothDanceImages4 = [9536, 9537, 9538, 9539, 9561, 9562, 9563, 9564]
+define pylonClothDanceImages5 = [9540, 9541, 9542, 9543, 9544, 9565, 9566, 9567, 9568]
+define pylonClothDanceImages6 = [9545, 9546, 9547, 9548, 9569, 9570, 9571, 9572]
+define pylonClothDanceImages7 = [9524, 9525, 9526, 9527, 9573, 9574, 9575, 9576]
+define pylonClothDanceImages8 = [9528, 9529, 9530, 9531, 9532, 9577, 9578, 9579, 9580]
 #dance1 - 9524, 9525, 9526, 9527
 #2 - 9528, 9529, 9530, 9531, 9532
 #3 - 9533, 9534, 9535
