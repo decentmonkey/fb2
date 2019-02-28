@@ -362,3 +362,75 @@ translate english citizen5_dialogue_pilon_loop5_ea17d522_1:
     m "What?! This little?"
     mt "Well, at least I'll be rich soon when I get my life back..."
 
+# TODO: Translation updated at 2019-02-28 21:29
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:122
+translate english citizen5_dialogue_pilon_loop5_8755393e:
+
+    # citizen5 "Я желаю ведеть тебя танцующей."
+    citizen5 "Я желаю ведеть тебя танцующей."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:125
+translate english citizen5_dialogue_pilon_loop5_d15b9b6b:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
+    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:134
+translate english citizen5_dialogue_pilon_loop5_c6b5282d:
+
+    # m "Хорошо, только не долго."
+    # mt "Только потому, что ты заплатишь."
+    m "Хорошо, только не долго."
+    mt "Только потому, что ты заплатишь."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:138
+translate english citizen5_dialogue_pilon_loop5_b8c0853a:
+
+    # citizen5 "Ооо! Какие красивые изгибания!"
+    citizen5 "Ооо! Какие красивые изгибания!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:142
+translate english citizen5_dialogue_pilon_loop5_c1d78c46:
+
+    # mt "Как же он странно разговаривает..."
+    mt "Как же он странно разговаривает..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:151
+translate english citizen5_dialogue_pilon_loop5_1dea5ff3:
+
+    # citizen5 "Оголи свои манящие груди."
+    # mt "Ему бы книги писать..."
+    citizen5 "Оголи свои манящие груди."
+    mt "Ему бы книги писать..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:155
+translate english citizen5_dialogue_pilon_loop5_49aafc4d:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
+    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:162
+translate english citizen5_dialogue_pilon_loop5_7dec49ad:
+
+    # m "Так и быть, только руками не трогать."
+    m "Так и быть, только руками не трогать."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:165
+translate english citizen5_dialogue_pilon_loop5_ffa01e0c:
+
+    # citizen5 "Я только что лицезрел гору Фудзи, точнее две!"
+    citizen5 "Я только что лицезрел гору Фудзи, точнее две!"
+

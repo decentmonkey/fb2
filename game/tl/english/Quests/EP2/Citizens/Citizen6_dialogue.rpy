@@ -953,3 +953,89 @@ translate english citizen6_dialogue_after_offend3_78c1050e:
     # citizen6 "А теперь покажи сиськи!"
     m "..."
     citizen6 "Now show me your tits!"
+# TODO: Translation updated at 2019-02-28 21:29
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:347
+translate english citizen6_dialogue_pilon_loop6_af68e1da:
+
+    # citizen6 "Танцуй! Шест рядом."
+    citizen6 "Танцуй! Шест рядом."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:350
+translate english citizen6_dialogue_pilon_loop6_d15b9b6b:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
+    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:359
+translate english citizen6_dialogue_pilon_loop6_c6b5282d:
+
+    # m "Хорошо, только не долго."
+    # mt "Только потому, что ты заплатишь."
+    m "Хорошо, только не долго."
+    mt "Только потому, что ты заплатишь."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:363
+translate english citizen6_dialogue_pilon_loop6_df3226ac:
+
+    # citizen6 "Блестяще, давно такого не видел!"
+    citizen6 "Блестяще, давно такого не видел!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:376
+translate english citizen6_dialogue_pilon_loop6_75816c39:
+
+    # citizen6 "Покажи мне грудь, только теперь без одежды."
+    # mt "Он и вправду говорит как бизнесмен, заключающий сделку..."
+    citizen6 "Покажи мне грудь, только теперь без одежды."
+    mt "Он и вправду говорит как бизнесмен, заключающий сделку..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:380
+translate english citizen6_dialogue_pilon_loop6_49aafc4d:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
+    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:387
+translate english citizen6_dialogue_pilon_loop6_7dec49ad:
+
+    # m "Так и быть, только руками не трогать."
+    m "Так и быть, только руками не трогать."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:390
+translate english citizen6_dialogue_pilon_loop6_1ea654f5:
+
+    # citizen6 "Очень хорошо. Отличный старт."
+    citizen6 "Очень хорошо. Отличный старт."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:392
+translate english citizen6_dialogue_pilon_loop6_3b7a2ee8:
+
+    # mt "Что значит старт?"
+    mt "Что значит старт?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:408
+translate english citizen6_dialogue_pilon_loop6_a6352533:
+
+    # citizen6 "Какая ты сочная! Вот держи, а я пойду займусь очень важным делом."
+    citizen6 "You're so juicy! Here you go, I'm going to do something very important."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:411
+translate english citizen6_dialogue_pilon_loop6_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! This little?"
+    mt "Well, at least I'll be rich soon when I get my life back..."
+

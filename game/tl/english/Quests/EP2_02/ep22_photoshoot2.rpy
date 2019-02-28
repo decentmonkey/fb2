@@ -150,7 +150,7 @@ translate english ep22_photoshoot2_pose7_2840fcfa:
     "If only I had a choice!"
     m "Okay, make it quick!"
     "And don't take the camera too low!"
-    alex_photograph "Of course, Ma'am!"
+    alex_photograph "Конечно, Мэм!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:121
 translate english ep22_photoshoot2_pose7_180e0321:
@@ -199,14 +199,14 @@ translate english ep22_photoshoot2_end_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Ma'am! We're finished with the photo shoot!"
-    m "Finally!!!"
+    alex_photograph "Мэм! Мы закончили фотосессию!"
+    m "Наконец-то!!!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:152
 translate english ep22_photoshoot2_end_00d63a19:
 
     # mt "Что теперь?"
-    mt "Now what?"
+    mt "Что теперь?"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:158
 translate english ep22_photoshoot2_end_b0d7667d:
@@ -316,7 +316,7 @@ translate english ep22_photoshoot2_pose7_b78199ca:
     "If only I had a choice!"
     m "Okay, make it quick!"
     "And don't take the camera too low!"
-    alex_photograph "Of course, Ma'am!"
+    alex_photograph "Конечно, Мэм!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:175
 translate english ep22_photoshoot2_casting_cb9f49f2:
@@ -472,7 +472,7 @@ translate english ep22_photoshoot2_pose6_997943ae:
     # alex_photograph "Конечно, Мэм!"
     m "Okay, make it quick!"
     "And don't take the camera too low!"
-    alex_photograph "Of course, Ma'am!"
+    alex_photograph "Конечно, Мэм!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:457
 translate english ep22_photoshoot2_pose6_73085adc:

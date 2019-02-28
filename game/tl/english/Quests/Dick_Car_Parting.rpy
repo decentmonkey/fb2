@@ -130,7 +130,7 @@ translate english dick_meeting1_car_parting2_2ab87f62:
 translate english dick_meeting1_car_parting2_a95e18d2:
 
     # fred "Конечно, Мэм!"
-    fred "Of course, Ma'am!"
+    fred "Конечно, Мэм!"
 
 # game/Quests/Dick_Car_Parting.rpy:93
 translate english dick_meeting1_car_parting2_361bc315_1:

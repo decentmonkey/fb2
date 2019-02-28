@@ -46,3 +46,11 @@ translate english low_corruption_d8229b96:
     # help "Not enough corruption! Required [requiredCorruption]."
     help "Not enough corruption! Required [requiredCorruption]."
 
+# TODO: Translation updated at 2019-02-28 21:29
+
+translate english strings:
+
+    # 00_Functions/character_properties.rpy:53
+    old "прогресс заморожен, ждите следующих обновлений игры!"
+    new ""
+

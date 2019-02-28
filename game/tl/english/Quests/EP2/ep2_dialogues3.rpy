@@ -800,7 +800,7 @@ translate english monica_dick_secretary_dialogue2_f0506224:
     # m "До свидания, Миссис Виктория..."
     # mt "Сучка!"
     m "Good-bye, Mrs. Victoria..."
-    mt "Bitch!"
+    mt "Сучка!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:436
 translate english monica_dick_secretary_dialogue3_ce9a25fa:
@@ -1352,7 +1352,7 @@ translate english monica_dick_secretary_dialogue2_d8213a8d:
 translate english monica_dick_secretary_dialogue2_f0d79344:
 
     # mt "Сучка!"
-    mt "Bitch!"
+    mt "Сучка!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:582
 translate english monica_dick_secretary_dialogue3_5166c006:

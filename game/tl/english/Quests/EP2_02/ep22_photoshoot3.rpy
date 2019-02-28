@@ -13,7 +13,7 @@ translate english ep22_photoshoot3_ee35a2a3:
 
     # alex_photograph "Нет, Мэм!"
     # "Вы сегодня девушка-рабочий! Бригадир!"
-    alex_photograph "No, MA'am!"
+    alex_photograph "Нет, Мэм!"
     "Today you are a pipe cleaner girl! The Brigadier!"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:10
@@ -211,13 +211,13 @@ translate english ep22_photoshoot3_pose7_80acecf7:
     # "Пожалуйста, покажите эмоции!"
     # m "Я...."
     # "Ладно..."
-    m "What?!?!"
+    m "ЧТО?!?!"
     "WHAT HAVE YOU DONE, YOU BASTARD???"
     "Where did you put the hammer!"
     "Have you ever noticed where it's poking on me?!?!"
     alex_photograph "Mrs. Buckfett!"
     "And please make it seem like you're licking the hammer..."
-    m "What?!?!"
+    m "ЧТО?!?!"
     "You can go to hell!"
     "Is this a calendar photo shoot?"
     "Maybe I should take off my shorts and give it freedom to go where it's going now!?"
@@ -249,14 +249,14 @@ translate english ep22_photoshoot3_end_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Ma'am! We're finished with the photo shoot!"
-    m "Finally!!!"
+    alex_photograph "Мэм! Мы закончили фотосессию!"
+    m "Наконец-то!!!"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:229
 translate english ep22_photoshoot3_end_00d63a19:
 
     # mt "Что теперь?"
-    mt "Now what?"
+    mt "Что теперь?"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:235
 translate english ep22_photoshoot3_end_b0d7667d:
@@ -457,7 +457,7 @@ translate english ep22_photoshoot3_pose6_d685af5e:
     # "Ты хоть заметил куда в какое место он упирается мне?!?!"
     # alex_photograph "Миссис Бакфетт!"
     # "И сделайте, пожалуйста, такое лицо как когда Вы облизывали молоток..."
-    m "What?!?!"
+    m "ЧТО?!?!"
     "WHAT HAVE YOU DONE, YOU BASTARD???"
     "Where did you put the hammer!"
     "Have you ever noticed where it's poking on me?!?!"
@@ -476,7 +476,7 @@ translate english ep22_photoshoot3_pose6_e7222503:
     # "Для тебя это было бы прекрасной новостью!"
     # "НО НЕ ДЛЯ МЕНЯ?!?!"
     # "Фотосессия закончена!!!"
-    m "What?!?!"
+    m "ЧТО?!?!"
     "You can go to hell!"
     "Is this a calendar photo shoot?"
     "Maybe I should take off my shorts and give it freedom to go where it's going now!?"

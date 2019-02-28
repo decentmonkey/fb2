@@ -138,3 +138,31 @@ translate english strings:
     old "Пропустить до Пятницы."
     new "Skip until Friday."
 
+# TODO: Translation updated at 2019-02-28 21:29
+
+# game/Characters/Monica/Bed_Basement.rpy:285
+translate english basement_monica_hungry_cant_sleep_1290560d:
+
+    # mt "{c}Я не ела{/c} уже третий день!"
+    # "Я не могу лечь спать в таком состоянии!"
+    # "Я ХОЧУ ЕСТЬ!!!"
+    mt "{c}I haven't eaten{/c} for three days!"
+    "I can't sleep like this!"
+    "I WANT TO EAT!!!"
+
+# game/Characters/Monica/Bed_Basement.rpy:294
+translate english basement_monica_hungry_cant_sleep_d2d68871:
+
+    # "..."
+    # mt "Может быть я смогу что-то найти на заправке?"
+    # mt "Или у кого-нибудь занять деньги на еду?"
+    "..."
+    mt "Maybe I can find something at the gas station?"
+    mt "Or someone to borrow money for food?"
+
+translate english strings:
+
+    # Characters/Monica/Bed_Basement.rpy:99
+    old "Поесть и лечь спать."
+    new ""
+

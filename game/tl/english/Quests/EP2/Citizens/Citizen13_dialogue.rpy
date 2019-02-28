@@ -434,3 +434,159 @@ translate english citizen13_dialogue_pilon_loop13_ea17d522_1:
     m "What?! This little?"
     mt "Well, at least I'll be rich soon when I get my life back..."
 
+# TODO: Translation updated at 2019-02-28 21:29
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:133
+translate english citizen13_dialogue_pilon_loop13_1_78909a08:
+
+    # citizen13 "Подруга, а шлепни себя по попке! Меня это заводит!"
+    citizen13 "Подруга, а шлепни себя по попке! Меня это заводит!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:138
+translate english citizen13_dialogue_pilon_loop13_1_75720cba:
+
+    # mt "Уже достаточно, что он вот так глазеет на меня"
+    # "Хватит с него и того, что он видит."
+    # help "Требуется [monicaWhoringClothAssSpankCorruptionRequired] corruption"
+    mt "It's enough that he's staring at me like that."
+    "He's gotten to see plenty enough!"
+    help "Требуется [monicaWhoringClothAssSpankCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:142
+translate english citizen13_dialogue_pilon_loop13_1_745b11c5:
+
+    # m "Ладно."
+    m "Okay."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:150
+translate english citizen13_dialogue_pilon_loop13_1_689c875a:
+
+    # citizen13 "Ух! Да, подруга, ты прямо огонь!"
+    citizen13 "Ух! Да, подруга, ты прямо огонь!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:154
+translate english citizen13_dialogue_pilon_loop13_1_c10bc376:
+
+    # m "Не собираюсь, и так достаточно."
+    # citizen13 "Нууу...Ну пожалуйста?"
+    # m "Нет. Ты и так видел многое."
+    m "I'm not going to do that, it's enough!"
+    citizen13 "Нууу...Ну пожалуйста?"
+    m "Нет. Ты и так видел многое."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:166
+translate english citizen13_dialogue_pilon_loop13_1_33ac0b7b:
+
+    # citizen13 "Дорогая, сделай пару оборотов на пилоне, очень хочется на это посмотреть."
+    citizen13 "Дорогая, сделай пару оборотов на пилоне, очень хочется на это посмотреть."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:169
+translate english citizen13_dialogue_pilon_loop13_1_d15b9b6b:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
+    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:178
+translate english citizen13_dialogue_pilon_loop13_1_c6b5282d:
+
+    # m "Хорошо, только не долго."
+    # mt "Только потому, что ты заплатишь."
+    m "Хорошо, только не долго."
+    mt "Только потому, что ты заплатишь."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:182
+translate english citizen13_dialogue_pilon_loop13_1_0e4ecb06:
+
+    # citizen13 "Здорово, а ты молодец! Надо будет также попробовать."
+    citizen13 "Здорово, а ты молодец! Надо будет также попробовать."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:186
+translate english citizen13_dialogue_pilon_loop13_1_897ca9f1:
+
+    # mt "Да уж, представляю что получится..."
+    mt "Да уж, представляю что получится..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:194
+translate english citizen13_dialogue_pilon_loop13_1_1924d311:
+
+    # citizen13 "Прошлый раз ты меня обманула: не показала, что у тебя под футболкой. Давай теперь честно, мы же подруги."
+    # mt "Что он такое говорит? Он вообще нормальный?"
+    citizen13 "Прошлый раз ты меня обманула: не показала, что у тебя под футболкой. Давай теперь честно, мы же подруги."
+    mt "Что он такое говорит? Он вообще нормальный?"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:198
+translate english citizen13_dialogue_pilon_loop13_1_49aafc4d:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
+    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:205
+translate english citizen13_dialogue_pilon_loop13_1_9e8035e0:
+
+    # m "Так и быть, только руками не трогать."
+    # mt "Только попробуй к ним прикаснуться и я сломаю тебе пальцы."
+    m "Так и быть, только руками не трогать."
+    mt "Только попробуй к ним прикаснуться и я сломаю тебе пальцы."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:209
+translate english citizen13_dialogue_pilon_loop13_1_ae805aa1:
+
+    # citizen13 "А тебе есть что показать! Когда нибудь у меня будут такие же!"
+    citizen13 "А тебе есть что показать! Когда нибудь у меня будут такие же!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:211
+translate english citizen13_dialogue_pilon_loop13_1_2c2de825:
+
+    # mt "Да не дай бог..."
+    mt "Да не дай бог..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:228
+translate english citizen13_dialogue_pilon_loop13_1_7f325bc0:
+
+    # citizen13 "Славно потрудилась, подруга! Вот, держи."
+    citizen13 "Nice work, girlfriend! Here you go."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:231
+translate english citizen13_dialogue_pilon_loop13_1_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "What?! This little?"
+    mt "Well, at least I'll be rich soon when I get my life back..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:236
+translate english citizen13_dialogue_pilon_loop13_1_9e37347b:
+
+    # citizen13 "Подруга, в следующий раз не халтурь."
+    citizen13 "Next time don't mess around."
+
+translate english strings:
+
+    # Quests/EP2/Citizens/Citizen13_dialogue.rpy:87
+    old "Станцуй. (мало свиданий) (disabled)"
+    new ""
+
+    # Quests/EP2/Citizens/Citizen13_dialogue.rpy:87
+    old "Станцуй."
+    new ""
+
+    # Quests/EP2/Citizens/Citizen13_dialogue.rpy:87
+    old "Голые сиськи. (disabled)"
+    new ""
+
+    # Quests/EP2/Citizens/Citizen13_dialogue.rpy:87
+    old "Голые сиськи."
+    new ""
+

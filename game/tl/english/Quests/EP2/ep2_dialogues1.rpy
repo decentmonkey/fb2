@@ -104,7 +104,7 @@ translate english sleep_scene1_c5f0665a:
     # m "Фрэд?!?!"
     # "ТЫ?!?!"
     m "Fred?!?!"
-    "YOU?!?!"
+    "ТЫ?!?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:56
 translate english sleep_scene1_2df57290:
@@ -856,7 +856,7 @@ translate english cleaning_betty_comment1_b1d15285:
     # mt "..."
     # "Сучка!"
     mt "..."
-    "Bitch!"
+    "Сучка!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:463
 translate english cleaning_bardie_comment1_4c88471c:
@@ -1302,7 +1302,7 @@ translate english cleaning_betty_comment1_72c4389d:
 translate english cleaning_betty_comment1_faa5a50a:
 
     # "Сучка!"
-    "Bitch!"
+    "Сучка!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:694
 translate english monica_goout1_governess_restrict_30f16a20_1:

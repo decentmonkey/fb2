@@ -42,7 +42,7 @@ translate english ep22_dialogues3_2_6782a785:
     # bardie "Моника, покажи трусики..."
     # m "ЧТО?!?!"
     bardie "Monica, show me your panties..."
-    m "What?!?!"
+    m "ЧТО?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:31
 translate english ep22_dialogues3_2_8596c6d9:
@@ -108,7 +108,7 @@ translate english ep22_dialogues3_2_b1e48be6:
     # m "ЧТО?!?!"
     # "ТЫ ЕЩЕ СМЕЕШЬ ШАНТАЖИРОВАТЬ МЕНЯ, МАЛЯВКА?!?!"
     # "Тебя даже не впустят туда! Такого маленького болвана!"
-    m "What?!?!"
+    m "ЧТО?!?!"
     "DON'T YOU DARE BLACKMAIL ME!"
     "They probably won't even let you in, you little fool."
 
@@ -717,7 +717,7 @@ translate english ep22_dialogues3_6_8e83a89e:
     # bardie "ЧТО?!?!"
     # "ТЫ СНОВА ОБЗЫВАЕШЬ МЕНЯ МАЛЯВКОЙ?!?"
     m "Maybe, but I don't consider it necessary to keep my promises to a little boy like you..."
-    bardie "What?!?!"
+    bardie "ЧТО?!?!"
     "YOU'RE CALLING ME LITTLE AGAIN?"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:338
@@ -1029,7 +1029,7 @@ translate english ep22_dialogues3_9_523580c6:
     # m "Я НИ ЗА ЧТО!!!"
     # "СЛЫШИШЬ?!?!"
     # "НИ ЗА ЧТО НЕ БУДУ ХОДИТЬ БЕЗ ТРУСИКОВ!!!"
-    m "What?!?!"
+    m "ЧТО?!?!"
     m "NO, I WILL NEVER DO THAT!"
     "DO YOU UNDER STAND?!"
     "I'M NEVER GONNA WALK AROUND WITHOUT PANTIES!"
@@ -1086,7 +1086,7 @@ translate english ep22_dialogues3_9_34b4dfd3:
 translate english ep22_dialogues3_9_415a7fa9:
 
     # m "ЧТО?!?!"
-    m "What?!?!"
+    m "ЧТО?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:709
 translate english ep22_dialogues3_9_9ed84586:
@@ -1247,7 +1247,7 @@ translate english ep22_dialogues3_10_4cecaf79:
     # "Тереть пятно САМОЙ!!!"
     # "В трусиках, которые пахнут этой сучкой Бетти, которая захватила мой дом!"
     # "О БОЖЕ!!!"
-    mt "That bastard!"
+    mt "Вот мерзавец!!!"
     "He's blackmailing me!"
     "He just keeps asking for more and more..."
     "But what am I to do?"
@@ -1382,7 +1382,7 @@ translate english ep22_dialogues3_6_b11a71cf:
 
     # bardie "ЧТО?!?!"
     # "ТЫ СНОВА ОБЗЫВАЕШЬ МЕНЯ МАЛЯВКОЙ?!?"
-    bardie "What?!?!"
+    bardie "ЧТО?!?!"
     "YOU'RE CALLING ME LITTLE AGAIN?"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:622

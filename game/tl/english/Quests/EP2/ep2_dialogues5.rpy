@@ -693,7 +693,7 @@ translate english monica_charity_event_dialogue8_212059e7:
     mt "Fi! Another annoying creature!"
     "Let him down!"
     "..."
-    "Although..."
+    "Хотя..."
     "Buy some wine..."
     "Why not?..."
     "At least he looks rich..."
@@ -924,7 +924,7 @@ translate english monica_charity_event_dialogue8_a75aa7bb:
 translate english monica_charity_event_dialogue8_84c28420:
 
     # philip "Конечно, Мэм!"
-    philip "Of course, Ma'am!"
+    philip "Конечно, Мэм!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:544
 translate english monica_charity_event_dialogue8_cb46d0b8:
@@ -1564,7 +1564,7 @@ translate english monica_charity_event_dialogue16_7bf82a1d:
     # "Правда, Мелани?"
     "I have no secrets from tiny Melanie!"
     "And she hasn't got any either!"
-    "Right, Melanie?"
+    "Правда, Мелани?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:895
 translate english monica_charity_event_dialogue16_8108a8af:
@@ -2032,7 +2032,7 @@ translate english monica_charity_event_dialogue18_d7fc46bf:
     # "Но нет!"
     # "Теперь я уверен что $ 500 он стоит вполне!"
     philip "Mrs. Buckfett!"
-    "Excellent!"
+    "Отлично!"
     "I imagine that you have a lack of practice!"
     "But I'm actually enjoying this!"
     "To be honest, I doubted that your mouth was worth $ 500!"
@@ -2203,7 +2203,7 @@ translate english monica_charity_event_dialogue18_40240c22:
     # "Знаете что..."
     # "Вы сделаете миньет первому мужчине, который зайдет сюда!"
     # "Тогда Вы получите еще $ 500!"
-    philip "Although..."
+    philip "Хотя..."
     "You know what?..."
     "You'll blow the first man who comes in here!"
     "Then you get another $ 500!"
@@ -2505,7 +2505,7 @@ translate english monica_charity_event_dialogue18_loopa1_f90b5f70:
     hotel_staff "So, Sir?"
     philip "Fuck her mouth!"
     "Why are you pottering with her?!"
-    hotel_staff "I'm sorry, Ma'am!"
+    hotel_staff "Простите, Мэм!"
     "Please don't fire me!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1550
@@ -2597,7 +2597,7 @@ translate english monica_charity_event_dialogue18_loopa1_4dc77364:
 
     # hotel_staff "Конечно, Мэм!"
     # "Я никому не скажу!"
-    hotel_staff "Of course, Ma'am!"
+    hotel_staff "Конечно, Мэм!"
     "I won't!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1639
@@ -3556,7 +3556,7 @@ translate english monica_charity_event_dialogue8a_a75aa7bb:
 translate english monica_charity_event_dialogue8a_84c28420:
 
     # philip "Конечно, Мэм!"
-    philip "Of course, Ma'am!"
+    philip "Конечно, Мэм!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:726
 translate english monica_charity_event_dialogue8a_cb46d0b8:
@@ -3826,7 +3826,7 @@ translate english monica_charity_event_dialogue18_local3_d7fc46bf:
     # "Но нет!"
     # "Теперь я уверен что $ 500 он стоит вполне!"
     philip "Mrs. Buckfett!"
-    "Excellent!"
+    "Отлично!"
     "I imagine that you have a lack of practice!"
     "But I'm actually enjoying this!"
     "To be honest, I doubted that your mouth was worth $ 500!"
@@ -3995,7 +3995,7 @@ translate english monica_charity_event_dialogue18_local4_852d67ec:
 
     # philip "Хотя..."
     # "Знаете что..."
-    philip "Although..."
+    philip "Хотя..."
     "You know what?..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1723
@@ -4271,7 +4271,7 @@ translate english monica_charity_event_dialogue18_loopa1_7562759e:
 
     # hotel_staff "Простите, Мэм!"
     # "Пожалуйста, не увольняйте меня!"
-    hotel_staff "I'm sorry, Ma'am!"
+    hotel_staff "Простите, Мэм!"
     "Please don't fire me!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2027
@@ -4345,7 +4345,7 @@ translate english monica_charity_event_dialogue18_local6_4dc77364:
 
     # hotel_staff "Конечно, Мэм!"
     # "Я никому не скажу!"
-    hotel_staff "Of course, Ma'am!"
+    hotel_staff "Конечно, Мэм!"
     "I won't!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2118
@@ -4560,7 +4560,7 @@ translate english monica_charity_event_dialogue18_local3_1d7fc3ae:
     # "Чувствуется что у Вас недостаток практики!"
     # "Но мне это даже нравится!"
     philip "Mrs. Buckfett!"
-    "Excellent!"
+    "Отлично!"
     "I imagine that you have a lack of practice!"
     "But I'm actually enjoying this!"
 
