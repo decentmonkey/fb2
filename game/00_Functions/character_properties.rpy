@@ -50,7 +50,7 @@ init python:
         if char_progress_stored[char_name].has_key(progress_name) == False:
             char_progress_stored[char_name][progress_name] = 0
         if char_info[char_name]["enabled"] == False:
-            notif(__(char_info[char_name]["name_orig"]) + " " + __("прогресс заморожен"))
+            notif(__(char_info[char_name]["name_orig"]) + " " + __("прогресс заморожен, ждите следующих обновлений игры!"))
             return
         char_progress_stored[char_name][progress_name] = char_progress_stored[char_name][progress_name] + 1
         char_info[char_name]["current_progress"] = char_info[char_name]["current_progress"] + progress_value

@@ -216,6 +216,7 @@ label processHouseCleaningEvening:
     return
 
 label house_cleaning_spot:
+    call process_hooks("monica_cleaning_spot_start", "global")
     $ set_active(False, group="environment", scene="House", recursive=True)
     $ monicaCleaningInProgress = False
     $ set_active("Spot", True, scene="floor2")

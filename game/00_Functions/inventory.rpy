@@ -21,7 +21,7 @@ init python:
                 notif (str(amount) + "x " + __(inventory_objects[name]["description"]) + " received")
                 #renpy.show_screen("notify", str(amount) + "x " + __(inventory_objects[name]["description"]) + " received")
             else:
-                notif (inventory_objects[name]["description"] + " received")
+                notif (__(inventory_objects[name]["description"]) + " received")
 #                renpy.show_screen("notify", inventory_objects[name]["description"] + " received")
         return
 
@@ -38,7 +38,7 @@ init python:
                 notif(str(amount) + "x " + __(inventory_objects[name]["description"]) + " decreased")
 #                renpy.show_screen("notify", str(amount) + "x " + __(inventory_objects[name]["description"]) + " decreased")
             else:
-                notif(inventory_objects[name]["description"] + " decreased")
+                notif(__(inventory_objects[name]["description"]) + " decreased")
 #                renpy.show_screen("notify", inventory_objects[name]["description"] + " decreased")
         return
 

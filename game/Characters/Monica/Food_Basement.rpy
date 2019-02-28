@@ -55,30 +55,43 @@ label food_basement_eat_food:
     if act == "l":
         if obj_name == "donut":
             mt "Пончик..."
+            sound snd_eat1
         if obj_name == "cookies cherry filled":
             mt "Печенье с вишневой начинкой."
+            sound snd_eat1
         if obj_name == "chocolate cake":
             mt "Шоколадный торт."
             "От такой еды полнеешь, я такое не люблю!"
+            sound snd_gulp
         if obj_name == "cannoli":
             mt "Канноли."
+            sound snd_eat1
         if obj_name == "napoleon":
             mt "Наполеон."
             "От такой еды полнеешь, я такое не люблю!"
+            sound snd_gulp
         if obj_name == "brownie":
             mt "Пирожное."
             "От такой еды полнеешь, я такое не люблю!"
+            sound snd_gulp
         if obj_name == "cupcake":
             mt "Кекс!"
             mt "Мое любимое кондитерское изделие! Ням-ням!"
+            sound snd_eat1
         if obj_name == "cookie with nuts":
             mt "Печенье с орехами."
             mt "Жуткое печенье, очень жирное."
+            sound snd_gulp
         if obj_name == "waffles":
             mt "Вафли."
             mt "Я не люблю вафли!!!"
+            sound snd_gulp
         return
-    sound snd_eat_crunch
+#    if rand(0,1) == 0:
+#        sound snd_eat1
+#    else:
+#        sound hlup21
+#        sound snd_gulp
     $ monicaFoodInventoryBasement[obj_name] -= 1
     $ eatFoodName = obj_name
     call monicaEat()

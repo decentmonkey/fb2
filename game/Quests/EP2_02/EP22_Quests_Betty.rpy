@@ -2,6 +2,7 @@ default ep22_quest_flag1 = False
 default ep22_fitness_gym_inited = False
 default fitness_gym_visited_amount = 0
 default fitness_gym_betty_first_time_interact_with_trainer = True
+default fitness_gym_state = 0
 
 label EP22_Quests_Betty0_Fred_scene:
     if cloth != "Governess":
@@ -111,7 +112,11 @@ label EP22_Quests_Betty5b:
     if fitness_gym_visited_amount == 0:
         call ep22_dialogues4_5a()
     else:
-        call ep22_dialogues4_8()
+        if fitness_gym_state == 0:
+            call ep22_dialogues4_8()
+        if fitness_gym_state == 1:
+            call ep23_dialogues3_2()
+
     $ move_object("Betty", "fitness_locker_2")
     $ move_object("Stephanie", "fitness_locker_2")
     $ move_object("Rebecca", "fitness_locker_2")
@@ -122,7 +127,28 @@ label EP22_Quests_Betty5b:
 
 label EP22_Quests_Betty6:
     #ждать в раздевалке
-    call ep22_dialogues4_7()
+    #проверяем на сцену со Фредом
+    if fitness_gym_state >= 1:
+        call ep22_dialogues4_7()
+    if fitness_gym_state == 0:
+        if fitness_gym_visited_amount >= 3: #на третье посещение сцена со Фредом
+            call ep23_dialogues3_1()
+            $ fredState = 1
+            $ fitness_gym_state = 1
+            $ char_info["Rebecca"]["enabled"] = True
+            $ char_info["Stephanie"]["enabled"] = True
+
+            $ add_char_progress("Rebecca", 10, "fred_kicked")
+            $ add_char_progress("Stephanie", 10, "fred_kicked")
+
+            $ add_hook("monica_cleaning_spot_start", "ep23_quests_fred_cleaning_spot_init", scene="global")
+            $ replace_hook("Betty_Life_day1", "Betty_Life_day2", scene="global")
+            $ add_hook("Driver", "ep23_quests_fred_talking_street_yard", scene="street_house_main_yard")
+            $ add_hook("change_time_day", "ep23_quests_fred_betty_sex", scene="global", priority=50)
+
+        else:
+            call ep22_dialogues4_7()
+
     sound highheels_short_walk
     img black_screen
     with Dissolve(0.5)

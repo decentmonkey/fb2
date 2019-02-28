@@ -9,6 +9,10 @@ default bettyTouchedFredDick = False
 default bettyFredLandrySexPlanned = False
 default bettyTouchedFredDickByTongue = False
 default bettyFredLaundryHasSex = False
+default bettyFredBedroomHasSex = False # Бетти имела секса со Фредом в спальне
+default bettyKissedRalphSpermCheek = False # Бетти поцеловала Ральфа в щеку после секса со Фредом в спальне
+default bettyKissedRalphSpermLips = False # Бетти поцеловала Ральфа в губы после секса со Фредом в спальне
+default bettyNotKissedRalphSperm = False # Бетти не стала целовать Ральфа после секса со Фредом в спальне
 
 default bettyFitnessToday = False
 

@@ -1,6 +1,8 @@
 define wardrobeBasementWhoreTakeFlag = False
 define wardrobeLastUsedDay = 0
 
+define monicaCatchedByBettyGovernessFirstTime = True
+
 label wardrobeBasement:
     $ wardrobeLastUsedDay = day
 #    img 3368
@@ -88,7 +90,7 @@ label wardrobeBasement_dialogue2_nude:
 label hook_basement_bedroom_check_exit_cloth: #проверка при выходе из спальни по дому
     if target_scene_name != "map" and cloth_type == "Nude" and check_scene_parent(target_scene_name, "basement_hole", recursive=True) == False:
         if wardrobeLastUsedDay != day: #Если сегодня еще не использовали гардероб:
-            $ wardrobeLastUsedDay = day
+#            $ wardrobeLastUsedDay = day
             $ cloth = "Governess" #Принудительно переодеваем Монику в одежду гувернантки
             $ cloth_type = "Governess"
             return True
@@ -112,12 +114,22 @@ label hook_basement_bedroom_check_exit_cloth_map: #проверка при вы�
                 "Мне надо одеться."
                 return False
             else: #Гардероб не использовали
-                $ wardrobeLastUsedDay = day
+#                $ wardrobeLastUsedDay = day
                 $ cloth = "Whore" #Принудительно переодеваем Монику
                 $ cloth_type = "Whore"
                 return True
         if cloth_type == "Governess": #Бетти запрещает выходить из дома в одежде гувернантки!
             if get_active_objects("Betty", scene="House", recursive=True) != False:
+                if monicaCatchedByBettyGovernessFirstTime == False:
+                    menu:
+                        "Переодеться в одежду шлюхи (другой нет!).":
+                            $ cloth = "Whore" #Принудительно переодеваем Монику
+                            $ cloth_type = "Whore"
+                            return True
+                        "Не переодеваться.":
+                            pass
+
+                $ monicaCatchedByBettyGovernessFirstTime = False
                 call monica_goout1_governess_restrict() from _call_monica_goout1_governess_restrict
                 call change_scene("street_house_gate", "Fade", False) from _call_change_scene_118
                 $ map_source_scene = "street_house_gate"

@@ -28,6 +28,16 @@ label Betty_Life_day1:
         $ move_object("Betty", "bedroom1")
     return
 
+label Betty_Life_day2: #Бетти чаще бывает в спальне
+    call bettyGetTodayPanties()
+    $ bedroom1_betty_suffix = ""
+    $ rnd = rand(1,3)
+    if rnd == 3:
+        $ move_object("Betty", "floor2")
+    if rnd == 1 or rnd == 2:
+        $ move_object("Betty", "bedroom1")
+    return
+
 label Betty_Life_day1_lower:
     $ move_object("Betty", "floor2")
     return

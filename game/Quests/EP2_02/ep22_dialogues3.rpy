@@ -620,7 +620,7 @@ label cleaning2_bardie_comment1:
 
     img 7658
     mt "!!!"
-    if monicaMustWearBettyPanties == True and monicaBettyPantiesId != bettyPantiesLog[1]:
+    if monicaMustWearBettyPanties == True and (monicaBettyPantiesId != bettyPantiesLog[1] or monicaBettyPanties == False):
         # Если Моника одела не те трусики
         music Groove2_85 high
         call bardieMonicaCleaningInteract_wrong_panties()
@@ -703,7 +703,7 @@ label cleaning2_bardie_comment2:
             w
             img 7636
             w
-    if monicaMustWearBettyPanties == True and monicaBettyPantiesId != bettyPantiesLog[1]:
+    if monicaMustWearBettyPanties == True and (monicaBettyPantiesId != bettyPantiesLog[1] or monicaBettyPanties == False):
         music Groove2_85 high
         call bardieMonicaCleaningInteract_wrong_panties()
         bardie "Ты одела не те трусики! Бетти была вчера в других!"
@@ -787,7 +787,7 @@ label cleaning2_bardie_comment3:
             w
 
 
-    if monicaMustWearBettyPanties == True and monicaBettyPantiesId != bettyPantiesLog[1]:
+    if monicaMustWearBettyPanties == True and (monicaBettyPantiesId != bettyPantiesLog[1] or or monicaBettyPanties == False):
         music Groove2_85 high
         img 7657
         call bardieMonicaCleaningInteract_wrong_panties()
