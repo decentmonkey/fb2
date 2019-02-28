@@ -44,6 +44,7 @@ label ep22_quests_office4: # Алекс стартует фотосессию
     $ monicaPhotoShootInProgress = True
     # Выбор наряда
     label ep22_quests_office4_loop1:
+#        img scene_Office_Monica_MakeupRoom
         show screen choose_photoshoot_outfit()
         with Dissolve(0.2)
         $ result = ui.interact()
@@ -72,6 +73,16 @@ label ep22_quests_office4_l1:
         call ep22_photoshoot3()
         call ep22_photoshoot3_end()
         $ photoshoot3_count += 1
+    if monicaPhotoShootOutfitIdx == 4:
+        call ep22_photoshoot4()
+        call ep22_photoshoot4_end()
+        if melanieWaitingOpenedOutfits == True:
+            $ monicaOutfitsEnabled[4] = True # Открываем следующий костюм (Мелани)
+        $ photoshoot4_count += 1
+    if monicaPhotoShootOutfitIdx == 5:
+        call ep23_dialogues5_3()
+        call ep22_photoshoot5_end()
+        $ photoshoot4_count += 1
     #конец фотосессии
     sound snd_fabric1
     img black_screen

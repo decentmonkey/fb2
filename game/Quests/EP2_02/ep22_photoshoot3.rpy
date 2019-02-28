@@ -748,6 +748,7 @@ label ep22_photoshoot3_end:
     hide screen photoshoot_camera_icon
     hide screen photoshoot
 
+    $ monicaOutfitsEnabled[3] = True # Открываем следующий костюм
     music Stealth_Groover
     img 8434
     with fadelong
@@ -766,8 +767,9 @@ label ep22_photoshoot3_end:
             "Так может быть притвориться?"
             "Ведь у меня нет к нему чувств, я хладнокровная женщина, идущая к своей мести..."
             #если обещала
-            "..."
-            "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
+            if monicaSaidBiffSheIsWillBeAGoodChick == True:
+                "..."
+                "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
             call ep22_photoshoot3_casting()
             return
         "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot3_casting_corruption_required]) (disabled)" if biffMonicaCastingsEnabled == True and corruption < photoshoot3_casting_corruption_required:
@@ -786,6 +788,8 @@ label ep22_photoshoot3_casting:
     m "Привет, Биф. Я пришла..."
     img 8465
     $ add_char_progress("Biff", PS3_BiffProgressCasting, "PS3_BiffProgressCasting_day" + str(day))
+    $ shotsAmountCompleted = len(list(set(PS3_shoots_array)))
+#    $ shotsTotalAmount
     biff "О! Цыпочка пришла к папочке!"
     menu:
         "Притвориться цыпочкой...":

@@ -1,5 +1,5 @@
 default questLogDataEnabled = {}
-
+default questLogLinesUpdated = []
 label question_helper_hairdye:
     menu:
         "Посмотреть подсказку":
@@ -146,6 +146,7 @@ label questLog_init:
     return
 
 label show_questlog:
+    $ questLogJustUpdated = False
     $ inText = ""
     python:
         lastCategory = False
@@ -154,8 +155,12 @@ label show_questlog:
                 if __(questLogLine[3]) != lastCategory:
                     lastCategory = __(questLogLine[3])
                     inText = inText + "{=questlog_text_category_style}{u}" + lastCategory + "{/u}{/=questlog_text_category_style}\n{vspace=5}"
-                inText = inText + __(questLogLine[1]) + "\n\n"
+                if str(questLogLine[0]) in questLogLinesUpdated:
+                    inText = inText + "{b}{color=#002810}" + __(questLogLine[1]) + "{/color}{/b}\n\n"
+                else:
+                    inText = inText + __(questLogLine[1]) + "\n\n"
     sound open_map
     call screen questlog_screen(inText)
+    $ questLogLinesUpdated = []
     sound open_map
     return

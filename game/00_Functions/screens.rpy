@@ -1010,7 +1010,10 @@ screen hud_screen(hud_presets):
                     null:
                         height gui.resolution.hud_screen.height1
                     imagebutton:
-                        idle "icons/questlog_icon" + res.suffix + ".png"
+                        if questLogJustUpdated == True:
+                            idle "icons/questlog_icon" + res.suffix + ".png" at quest_log_transform
+                        else:
+                            idle "icons/questlog_icon" + res.suffix + ".png"
                         hover "icons/questlog_icon_hover" + res.suffix + ".png"
                         action [
                             Call("show_questlog")

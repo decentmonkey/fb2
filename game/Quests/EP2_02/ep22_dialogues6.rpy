@@ -485,6 +485,8 @@ label ep22_dialogue6_7:
     biff "Все готово!"
     img 8304
     with fade
+
+label ep22_dialogue6_7b:
     menu:
         "Ты что-то говорил по поводу работы в офисе?":
             img 8305
@@ -534,6 +536,11 @@ label ep22_dialogue6_7:
             m "Я могу идти?"
             biff "Да, цыпочка! Иди!"
             return True
+
+        "Биф... Мог бы ты дать еще немного денег?":
+            call ep23_dialogues1()
+            jump ep22_dialogue6_7b
+
         "Уйти.":
             pass
     m "Я могу идти?"

@@ -1,3 +1,5 @@
+default questLogJustUpdated = False
+
 init python:
     def add_objective(objective_id, objective_name, objective_color="#ffffff", objective_priority=0):
         global objectives_list
@@ -23,9 +25,12 @@ init python:
 #        print objectives_list
 
     def questLog(questLogIdx, status):
-        global questLogDataEnabled
+        global questLogDataEnabled, questLogLinesUpdated, questLogJustUpdated
         questLogDataEnabled[str(questLogIdx)] = status
-        notif(_("Журнал обновлен"))
+        if status == True:
+            notif(_("Журнал обновлен"))
+            questLogLinesUpdated.append(str(questLogIdx))
+            questLogJustUpdated = True
 #        for idx in range(0, len(questLogData)):
 #            if questLogData[idx][0] == questLogIdx:
 #                questLogData[idx][2] = status

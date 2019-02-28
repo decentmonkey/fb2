@@ -46,6 +46,8 @@ define monicaPhilipBlojwobTakeSpermCorruptionRequired = 80 # Кол-во corrupt
 define photoshoot1_casting_corruption_required = 120 #Кол-во corruption для кастинга после фотосессии
 define photoshoot2_casting_corruption_required = 120 #Кол-во corruption для кастинга после фотосессии
 define photoshoot3_casting_corruption_required = 120 #Кол-во corruption для кастинга после фотосессии
+define photoshoot4_casting_corruption_required = 120 #Кол-во corruption для кастинга после фотосессии
+define photoshoot5_casting_corruption_required = 120 #Кол-во corruption для кастинга после фотосессии
 
 define PS1_monica_shot1_corruption_required = 60
 define PS1_monica_shot2_corruption_required = 60
@@ -88,6 +90,28 @@ define PS3_BiffProgress = 5 #Прогресс просто за фотосесс
 define PS3_BiffProgressCasting = 5 #Прогресс за то что пришла на кастинг
 define PS3_BiffProgressCastingChick = 5 #Прогресс за то что притворилась цыпочкой на кастинге
 
+define PS4_monica_shot1_corruption_required = 60
+define PS4_monica_shot2_corruption_required = 80
+define PS4_monica_shot3_corruption_required = 100
+define PS4_monica_shot4_corruption_required = 100
+define PS4_monica_shot5_corruption_required = 100
+define PS4_monica_pose5_corruption_required = 90
+define PS4_monica_pose8_corruption_required = 160
+define PS4_monica_shot6_corruption_required = 180
+
+define PS4_AlexProgressEachCorruptionShot = 3
+define PS4_BiffProgress = 5 #Прогресс просто за фотосессию
+define PS4_BiffProgressCasting = 5 #Прогресс за то что пришла на кастинг
+define PS4_BiffProgressCastingChick = 5 #Прогресс за то что притворилась цыпочкой на кастинге
+
+define PS5_monica_pose4_corruption_required = 100
+define PS4_monica_pose5_corruption_required = 120
+define PS5_monica_pose7_corruption_required = 140
+
+define PS5_AlexProgressEachCorruptionShot = 3
+define PS5_BiffProgress = 5 #Прогресс просто за фотосессию
+define PS5_BiffProgressCasting = 5 #Прогресс за то что пришла на кастинг
+define PS5_BiffProgressCastingChick = 5 #Прогресс за то что притворилась цыпочкой на кастинге
 
 define monicaWhoringStartCorruptionRequired = 60
 define monicaWhoringClothBoobsCorruptionRequired = 60 # Кол-во corruption, чтобы Моника показала грудь в одежде

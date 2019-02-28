@@ -491,8 +491,9 @@ label ep22_photoshoot1_end:
             "Так может быть притвориться?"
             "Ведь у меня нет к нему чувств, я хладнокровная женщина, идущая к своей мести..."
             #если обещала
-            "..."
-            "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
+            if monicaSaidBiffSheIsWillBeAGoodChick == True:
+                "..."
+                "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
             call ep22_photoshoot1_casting()
         "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot1_casting_corruption_required]) (disabled)" if biffMonicaCastingsEnabled == True and corruption < photoshoot1_casting_corruption_required:
             pass
@@ -507,6 +508,11 @@ label ep22_photoshoot1_casting:
     w
     img 8437
     with Dissolve(0.5)
+
+    $ shotsAmountCompleted = len(list(set(PS1_shoots_array)))
+#    $ shotsTotalAmount
+
+
     m "Привет, Биф. Я пришла..."
     $ add_char_progress("Biff", PS1_BiffProgressCasting, "PS1_BiffProgressCasting_day" + str(day))
     biff "О! Цыпочка пришла к папочке!"

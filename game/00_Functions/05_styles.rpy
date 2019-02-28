@@ -158,6 +158,12 @@ transform credits_black_overlay:
     alpha 0.0
     linear 5.0 alpha 0.8
 
+transform quest_log_transform:
+    alpha 1.0
+    linear 0.5 alpha 0.3
+    linear 0.5 alpha 1.0
+    repeat
+
 
 
 #translate german python:

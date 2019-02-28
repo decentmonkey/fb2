@@ -1,10 +1,12 @@
 label ep22_casting:
     label ep22_dialogue6_6_loop1:
         #первый вызов
-        help "Пока доступна только одна возможность. Другие пункты будут доступны в следующих версиях игры."
+        help "Пока доступны только две возможностьи. Другие пункты будут доступны в следующих версиях игры."
         menu:
             "Показать обнаженную грудь.":
                 #Моника показывает грудь в зависимости от одежды
+                $ store_music()
+                music Loved_Up
                 if castingCloth == 1:
                     if chickMode == True:
                         img 8441
@@ -183,11 +185,14 @@ label ep22_casting:
                         img 9504
                         with Dissolve(0.5)
                         w
+                $ restore_music()
                 img 8445
                 biff "Хорошо, папочка доволен!"
                 #если уже несколько раз
                 biff "Но папочке начинает надоедать одно и то же..."
-            "Показать обнаженную попу.":
+            "Показать обнаженную попу." if shotsAmountCompleted >= shotsTotalAmount:
+                $ store_music()
+                music Loved_Up
                 if castingCloth == 1:
                     if chickMode == True:
                         img 9443
@@ -456,11 +461,12 @@ label ep22_casting:
                         img 9514
                         with Dissolve(0.5)
                         w
+                $ restore_music()
                 img 8445
                 biff "Хорошо, папочка доволен!"
                 #если уже несколько раз
 #                biff "Но папочке начинает надоедать одно и то же..."
-            "Показать обнаженную попу. (фотосессия не завершена) (disabled)":
+            "Показать обнаженную попу. (фотосессия не завершена) (disabled)" if shotsAmountCompleted < shotsTotalAmount:
                 pass
             "Раздеться и принимать различные модельные позы. (disabled)":
                 pass
@@ -500,10 +506,10 @@ label ep22_casting:
                         pass
                     "Достать член Бифа и сесть на него анальным отверстием (disabled)":
                         pass
+                    "Полизать папочке зад. (disabled)":
+                        pass
                     "Назад.":
                         jump ep22_dialogue6_6_loop1
-            "Полизать папочке зад. (disabled)":
-                pass
             "Позвать секретаршу.":
                 label ep22_dialogue6_6_loop2:
                     menu:
