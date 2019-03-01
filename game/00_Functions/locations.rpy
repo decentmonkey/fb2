@@ -8,10 +8,10 @@ init python:
             scenes_data["objects"][loc_name]["data"][key1] = value1
 
         if kwargs.has_key("init_label"):
-            stored_api_scene_name = api_scene_name
-            api_scene_name = loc_name
-            renpy.call(kwargs["init_label"])
-            api_scene_name = stored_api_scene_name
+#            add_location_stored_api_scene_name = api_scene_name
+#            api_scene_name = loc_name
+            renpy.call("init_location", loc_name, kwargs["init_label"])
+#            api_scene_name = add_location_stored_api_scene_name
 #        print kwargs
         return
 

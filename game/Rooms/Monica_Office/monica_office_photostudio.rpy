@@ -34,6 +34,9 @@ label monica_office_photostudio_teleport:
     if obj_name == "Teleport_Monica_Office_Secretary":
         call change_scene("monica_office_secretary") from _call_change_scene_117
         return
+    if obj_name == "Teleport_Monica_Office_MakeupRoom":
+        call change_scene("monica_office_makeup_room")
+        return
     return
 label monica_office_photostudio_environment:
     if obj_name == "Monica":

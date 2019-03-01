@@ -364,6 +364,7 @@ label intro_questions_long:
     menu:
         "Дик проговорился что хочет Мелани.":
             $ richHotelRestaurantDickOffended1 = True
+            $ dickWantFuckMelanie = True
         "Нет.":
             pass
 

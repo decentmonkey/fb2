@@ -78,11 +78,12 @@ label ep22_quests_office4_l1:
         call ep22_photoshoot4_end()
         if melanieWaitingOpenedOutfits == True:
             $ monicaOutfitsEnabled[4] = True # Открываем следующий костюм (Мелани)
+            $ melanieWaitingOpenedOutfits = False
         $ photoshoot4_count += 1
     if monicaPhotoShootOutfitIdx == 5:
         call ep23_dialogues5_3()
         call ep22_photoshoot5_end()
-        $ photoshoot4_count += 1
+        $ photoshoot5_count += 1
     #конец фотосессии
     sound snd_fabric1
     img black_screen
@@ -90,7 +91,7 @@ label ep22_quests_office4_l1:
     pause 1.0
     $ remove_hook(label="photoshoot_alex")
     $ add_hook("Biff", "ep22_quests_office6", scene="monica_office_cabinet_table", label="photoshoot") #Мне надо получить деньги от Бифа
-    $ add_hook("Teleport_Monica_Office_Entrance", "ep22_dialogue6_7a", scene="monica_office_secretary", label="photoshoot") #Блокируем выход пока не получили деньги от Бифа
+    $ add_hook("Teleport_Monica_Office_Entrance", "ep22_dialogue6_7a", scene="monica_office_secretary", label="photoshoot", priority = 105) #Блокируем выход пока не получили деньги от Бифа
     call change_scene("monica_office_cabinet", "Fade_long")
     return False
 label ep22_quests_office5: # Мне надо идти в фотостудию, блок на Биффа

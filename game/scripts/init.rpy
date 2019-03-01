@@ -105,7 +105,7 @@ define PS4_BiffProgressCasting = 5 #Прогресс за то что пришл
 define PS4_BiffProgressCastingChick = 5 #Прогресс за то что притворилась цыпочкой на кастинге
 
 define PS5_monica_pose4_corruption_required = 100
-define PS4_monica_pose5_corruption_required = 120
+define PS5_monica_pose5_corruption_required = 120
 define PS5_monica_pose7_corruption_required = 140
 
 define PS5_AlexProgressEachCorruptionShot = 3
@@ -201,7 +201,7 @@ label characters_init:
         "GasSalesWoman":{"name": _("Кристина"), "name_orig":"Кристина", "enabled":False, "face":"Face_GasSaleswoman", "style":"char_face_style1_pink",  "bar_suffix": "pink", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"gasSalesWomanProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
         "Jane":{"name": _("Джейн"), "name_orig":"Джейн", "enabled":False, "face":"Face_Jane", "style":"char_face_style1_pink",  "bar_suffix": "pink", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"janeProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
         "Marcus":{"name": _("Маркус"), "name_orig":"Маркус", "enabled":False, "face":"Face_Marcus", "style":"char_face_style1_red",  "bar_suffix": "red", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"marcusProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
-        "Melanie":{"name": _("Модель Мелани"), "name_orig":"Модель Мелани", "enabled":False, "face":"Face_Melanie", "style":"char_face_style1_green",  "bar_suffix": "green", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"melanieProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
+        "Melanie":{"name": _("Модель Мелани"), "name_orig":"Модель Мелани", "enabled":False, "face":"Face_Melanie", "style":"char_face_style1_green",  "bar_suffix": "green", "level":1, "current_progress":0, "caption": _("Мелани очень любит себя."), "max_progress":100, "uplevel_label":"melanieProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
         "Mommy":{"name": _("Мамочка"), "name_orig":"Мамочка", "enabled":False, "face":"Face_Mommy", "style":"char_face_style1_orange",  "bar_suffix": "orange", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"mommyProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
         "Neighbor":{"name": _("Сосед"), "name_orig":"Сосед", "enabled":False, "face":"Face_Neighbor", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"neighborProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},
         "Perry":{"name": _("Перри"), "name_orig":"Перри", "enabled":False, "face":"Face_Perry", "style":"char_face_style1_pink",  "bar_suffix": "pink", "level":1, "current_progress":0, "caption": _(""), "max_progress":100, "uplevel_label":"perryProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")},

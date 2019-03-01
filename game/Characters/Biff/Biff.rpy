@@ -18,7 +18,7 @@ define PS3_shots_amount = 14
 default PS3_shoots_array = []
 define PS4_shots_amount = 18
 default PS4_shoots_array = []
-define PS5_shots_amount = 24
+define PS5_shots_amount = 27
 default PS5_shoots_array = []
 
 

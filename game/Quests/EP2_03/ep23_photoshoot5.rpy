@@ -2,7 +2,7 @@ default photoshoot5_count = 0
 
 label ep22_photoshoot5:
     $ shotsAmount = PS5_shots_amount
-    $ shotsTotalAmount = 24
+    $ shotsTotalAmount = 27
 
     $ shots = 3
     $ arrowUp = True
@@ -17,6 +17,7 @@ label ep22_photoshoot5:
 #    m "Алекс, я не собираюсь вставать в эту позу!!!"
 #    "Даже не мечтай!"
 
+    music Molten_Alloy
     img 8748
     with fade
     alex_photograph "Итак, пассажиру авиакомпании нужна помощь с багажом..."
@@ -38,7 +39,7 @@ label ep22_photoshoot5:
             $ arrowUp = True
             $ arrowSide = True
             $ arrowDown = True
-            music Groove2_85
+            music Molten_Alloy
             img 8752
             with fadelong
             alex_photograph "Следующая поза, девочки!"
@@ -51,6 +52,7 @@ label ep22_photoshoot5:
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot5_pose1
+        music stop
         #up
         if result == "up":
             sound camera_lens1
@@ -59,7 +61,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose1
         if result == "side":
@@ -70,7 +72,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose1
         if result == "down":
@@ -81,7 +83,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose1
 
@@ -102,7 +104,7 @@ label ep22_photoshoot5:
             $ arrowUp = True
             $ arrowSide = True
             $ arrowDown = True
-            music Groove2_85
+            music Molten_Alloy
             img 8756
             with fadelong
             alex_photograph "Следующая поза, девочки!"
@@ -115,6 +117,7 @@ label ep22_photoshoot5:
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot5_pose2
+        music stop
         #up
         if result == "up":
             sound camera_lens1
@@ -123,7 +126,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose2
         if result == "side":
@@ -134,7 +137,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose2
         if result == "down":
@@ -145,7 +148,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose2
 
@@ -167,13 +170,14 @@ label ep22_photoshoot5:
             $ arrowUp = True
             $ arrowSide = True
             $ arrowDown = True
-            music Groove2_85
+            music Molten_Alloy
             img 8760
             with fadelong
             alex_photograph "Следующая поза, девочки!"
             img 8761
             with fade
             mt "Какая у Мелани бархатная кожа на ощупь..."
+            music Molten_Alloy
             img 8760
             with fade
             jump ep22_photoshoot5_pose4
@@ -184,6 +188,7 @@ label ep22_photoshoot5:
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot5_pose3
+        music stop
         #up
         if result == "up":
             sound camera_lens1
@@ -192,7 +197,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose3
         if result == "side":
@@ -203,7 +208,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose3
         if result == "down":
@@ -214,7 +219,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose3
 
@@ -238,16 +243,21 @@ label ep22_photoshoot5:
             $ arrowUp = True
             $ arrowSide = True
             $ arrowDown = True
-            music Groove2_85
+            music Molten_Alloy
             img 8765
             with fadelong
             alex_photograph "Следующая поза, девочки!"
             alex_photograph "Пассажир не удовлетворен качеством услуг..."
             if corruption < PS5_monica_pose4_corruption_required:
-                call corruption_required(PS4_monica_pose4_corruption_required)
+                music Groove2_85
                 m "Алекс! Я не собираюсь сидеть на коленях перед Мелани!"
                 "И это не обсуждается!"
+                call corruption_required(PS5_monica_pose4_corruption_required)
                 return False
+            m "Алекс! Я не собираюсь сидеть на коленях перед Мелани!"
+            m "..."
+            m "Ну, ладно..."
+            mt "Черт, мне надо узнать правду про Дика!"
             $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot1_progress")
 
             jump ep22_photoshoot5_pose5
@@ -258,6 +268,7 @@ label ep22_photoshoot5:
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot5_pose4
+        music stop
         #up
         if result == "up":
             sound camera_lens1
@@ -266,7 +277,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose4
         if result == "side":
@@ -277,7 +288,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose4
         if result == "down":
@@ -288,7 +299,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose4
 
@@ -310,15 +321,17 @@ label ep22_photoshoot5:
             $ arrowUp = True
             $ arrowSide = True
             $ arrowDown = True
-            music Groove2_85
+            music Molten_Alloy
             img 8769
             with fadelong
             alex_photograph "Следующая поза, девочки!"
             alex_photograph "Стюардесса просит прощения у пассажира..."
             if corruption < PS5_monica_pose5_corruption_required:
-                call corruption_required(PS4_monica_pose5_corruption_required)
+                music Groove2_85
                 m "Алекс! Я не собираюсь ползать в ногах у Мелани!"
                 "И это не обсуждается!"
+                call corruption_required(PS5_monica_pose5_corruption_required)
+                return False
             $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot2_progress")
             jump ep22_photoshoot5_pose6
         show screen photoshoot_camera_icon(PS5_shoots_array)
@@ -328,6 +341,7 @@ label ep22_photoshoot5:
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot5_pose5
+        music stop
         #up
         if result == "up":
             sound camera_lens1
@@ -336,7 +350,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose5
         if result == "side":
@@ -347,7 +361,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose5
         if result == "down":
@@ -358,7 +372,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose5
 
@@ -379,7 +393,7 @@ label ep22_photoshoot5:
             $ arrowUp = True
             $ arrowSide = True
             $ arrowDown = True
-            music Groove2_85
+            music Molten_Alloy
             img 8773
             with fadelong
             alex_photograph "Следующая поза, девочки!"
@@ -391,6 +405,7 @@ label ep22_photoshoot5:
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot5_pose6
+        music stop
         #up
         if result == "up":
             sound camera_lens1
@@ -399,7 +414,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose6
         if result == "side":
@@ -410,7 +425,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose6
         if result == "down":
@@ -421,7 +436,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose6
 
@@ -454,9 +469,11 @@ label ep22_photoshoot5:
             alex_photograph "Авиакомпания показывает насколько важен каждый пассажир!"
 
             if corruption < PS5_monica_pose7_corruption_required:
-                call corruption_required(PS4_monica_pose7_corruption_required)
+                call corruption_required(PS5_monica_pose7_corruption_required)
                 m "Алекс! Я не собираюсь ползать в ногах у Мелани!"
                 "И это не обсуждается!"
+                return False
+            music Loved_Up
             $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot2_progress")
             jump ep22_photoshoot5_pose8
         show screen photoshoot_camera_icon(PS5_shoots_array)
@@ -468,6 +485,17 @@ label ep22_photoshoot5:
             jump ep22_photoshoot5_pose7
         #up
         if result == "up":
+            sound camera_lens1
+            $ photoImage = 8774
+            img photoImage
+            with Dissolve(0.2)
+            w
+            call photoshoot_flash_count()
+            $ PS5_shoots_array.append(photoImage)
+            w
+            jump ep22_photoshoot5_pose7
+        if result == "side":
+            #side
             sound camera_lens1
             img 8775
             with Dissolve(0.2)
@@ -484,18 +512,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
-            w
-            jump ep22_photoshoot5_pose7
-        if result == "side":
-            #side
-            sound camera_lens1
-            $ photoImage = 8771
-            img photoImage
-            with Dissolve(0.2)
-            w
-            call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose7
         if result == "down":
@@ -506,7 +523,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose7
 
@@ -545,7 +562,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose8
         if result == "side":
@@ -556,7 +573,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose8
         if result == "down":
@@ -567,21 +584,24 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose8
 
     label ep22_photoshoot5_pose9_pre:
         #вступление
+        hide screen photoshoot_no_next
         img 8783
         with fade
         w
         img 8784
         with Dissolve(0.5)
+        music Power_Bots_Loop
         alex_photograph "Теперь сделайте вид что Вы касаетесь язычком ее киски!"
         m "ЧТО?!?! АЛЕКС, ТЫ В СВОЕМ УМЕ?!?!"
         m "Я НЕ СОБИРАЮСЬ ЛИЗАТЬ У МЕЛАНИ МЕЖДУ НОГ!!!"
         "ДА ЕЩЕ И НА КАМЕРУ!!!"
+        music Groove2_85
         img 8785
         with fade
         alex_photograph "Миссис Бакфетт! Это ведь просто симуляция!"
@@ -604,10 +624,13 @@ label ep22_photoshoot5:
             "Прервать фотосессию.":
                 return False
             "Сделать что просит Алекс.":
+                $ monicaLickedMelaniePussyPantiesPhotoshoot = True
                 mt "Похоже у меня нет выхода..."
                 "Мне надо любой ценой узнать замешан-ли во всем этом Дик!"
                 "И Мелани единственная надежда на это!"
-                pass
+                music Loved_Up2
+                img 8791
+                with fade
             "Попросить Мелани не делать этого (хорошие отношения с Мелани)" if melanieOffended2 == False and melanieOffended1 == False:
                 m "Мелани, пожалуйста!"
                 "Скажи Алексу что хватит!"
@@ -646,7 +669,7 @@ label ep22_photoshoot5:
             $ arrowUp = True
             $ arrowSide = True
             $ arrowDown = True
-            music Groove2_85
+            hide screen photoshoot_no_next
             $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot3_progress")
             return True
         show screen photoshoot_camera_icon(PS5_shoots_array)
@@ -674,7 +697,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose9
         if result == "side":
@@ -700,7 +723,7 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose9
         if result == "down":
@@ -726,13 +749,17 @@ label ep22_photoshoot5:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS4_shoots_array.append(photoImage)
+            $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose9
 
     return
 
 label ep22_photoshoot5_end:
+    hide screen photoshoot_camera_icon
+    hide screen photoshoot_no_next
+    hide screen photoshoot
+
     music Stealth_Groover
     img 8745
     with fadelong
@@ -786,7 +813,7 @@ label ep23_photoshoot5_casting:
             $ add_char_progress("Biff", PS5_BiffProgressCastingChick, "PS5_BiffProgressCastingChick_day" + str(day))
             biff "Что Стюардесса хочет показать папочке?"
             $ chickMode = True
-            $ castingCloth = 4
+            $ castingCloth = 5
             call ep22_casting()
             img 9499
             with fade
@@ -804,7 +831,7 @@ label ep23_photoshoot5_casting:
                 m "Ты заставил меня придти..."
             mt "Ненавижу!!!"
             biff "И что цыпочка будет делать?"
-            $ castingCloth = 4
+            $ castingCloth = 5
             $ chickMode = False
             call ep22_casting()
             img 9499

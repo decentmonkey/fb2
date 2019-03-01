@@ -270,6 +270,8 @@ label ep22_dialogue6_3:
 label ep22_dialogue6_4:
     #render
     #Моника пришла к Алексу, фотосессии еще нет
+    if act=="l":
+        return
     $ store_music()
     music Stealth_Groover
     img 6352
@@ -281,6 +283,9 @@ label ep22_dialogue6_4:
     img 6354
     alex_photograph "Вы хотите сделать еще одну фотосессию?"
     menu:
+        "Алекс... А где Мелани?" if monicaNeedToAskMelanieForHelp == True and day_time == "evening":
+            call ep23_dialogues5_1()
+            return False
         "Пока нет...":
             pass
     m "Пока нет..."
@@ -295,6 +300,8 @@ label ep22_dialogue6_4:
 label ep22_dialogue6_5:
     #render
     #Моника пришла к Алексу, фотосессия начинается
+    if act=="l":
+        return
     music Stealth_Groover
     img 6352
     with fade
@@ -304,9 +311,14 @@ label ep22_dialogue6_5:
     m "Здравствуй, Алекс..."
     img 6354
     alex_photograph "Вы хотите сделать еще одну фотосессию?"
+
     menu:
         "Да... (черт!)":
             pass
+        "Алекс... А где Мелани?" if monicaNeedToAskMelanieForHelp == True and day_time == "evening":
+            call ep23_dialogues5_1()
+            return False
+
         "Пока нет...":
             return False
     m "Да, Алекс..."
