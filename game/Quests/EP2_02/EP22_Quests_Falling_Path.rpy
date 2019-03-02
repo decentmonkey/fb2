@@ -86,6 +86,8 @@ label falling_path_start_customer():
     return
 label falling_path_store_customer():
     $ fallingPathServedCustomers.append("Citizen_" + str(citizenId))
+    if fallingPathServedCustomersGlobal.has_key("Citizen_" + str(citizenId)) == False:
+        $ fallingPathServedCustomersGlobal["Citizen_" + str(citizenId)] = {"visits":0}
     $ fallingPathServedCustomersGlobal["Citizen_" + str(citizenId)]["visits"] += 1
     $ fallingPathServedCustomersTotal += 1
     $ fallingPathServedCustomersToday += 1
@@ -105,6 +107,7 @@ label ep22_quests_falling_path5:
     $ notif(_("Falling Path started..."))
     $ questLog(16, False)
     $ questLog(17, True)
+    call ep23_quests_pub_init() #Инициализируем бар
     call init_location("hostel_edge_1_a", "hostel_edge_1_a_init")
     call ep22_quests_falling_path3()
     call falling_path_store_customer()

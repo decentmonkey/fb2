@@ -77,6 +77,6 @@ label pylonController(citizenBehaviorSuffix, monicaBehaviorSuffix, cameraIn = Fa
 
     $ renpy.scene()
     show screen pylon_screen(sceneImage, objectsList)
-    $ print "objectsList"
-    $ print objectsList
+#    $ print "objectsList"
+#    $ print objectsList
     return

@@ -1,3 +1,5 @@
+#default hostelStreetSceneName = "scene_Hostel_Street[day_suffix]"
+
 label hostel_street:
     $ print "enter_hostel_street"
     $ miniMapData = []
@@ -5,7 +7,7 @@ label hostel_street:
 
     $ sceneIsStreet = True
 
-    $ scene_image = "scene_Hostel_Street[day_suffix]"
+    $ scene_image = "scene_Hostel_Street_Pub[day_suffix]"
 
     $ hostelStreet2MonicaFromSideSuffix = "2"
 
@@ -54,6 +56,9 @@ label hostel_street_teleport:
         if act == "w":
             call change_scene("hostel_street_door") from _call_change_scene_50
             return
+    if obj_name == "Teleport_Hostel_Pub":
+        call change_scene("pub")
+        return
     return
 label hostel_street_environment:
     if obj_name == "Monica":

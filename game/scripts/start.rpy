@@ -10,6 +10,7 @@ default sceneIsStreet = False
 default objectives_list = []
 default currentMusic = False
 default currentMusicPriority = 0
+default currentMusic2 = False
 default storedMusic = []
 default storedMusicPriority = []
 default day_time = "day"

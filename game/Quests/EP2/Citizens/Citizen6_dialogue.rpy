@@ -250,6 +250,7 @@ label citizen6_dialogue_after_offend3: #Моника нашла место
     citizen6 "Можешь идти, считай, ты мне ничего не должна."
     $ add_money(1.0)
     # переменная отвечающая за А что бы ты хотел в диалогах с кебабом = 1
+    $ fallingPathStarted = True
     $ questOffendMonicaFlyersCitizen6ThanksGiven = True
     call ep22_quests_falling_path5()
     return

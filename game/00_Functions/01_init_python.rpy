@@ -217,6 +217,31 @@ python early:
             renpy.music.play(checkPath, channel="music", loop=True, fadeout=1.0, fadein=1.0)
         return
 
+    def music2_exec(ob1):
+        global currentMusic2
+        o, priority = ob1
+        if o == "stop":
+            currentMusic2 = False
+            renpy.music.stop(channel='music2', fadeout=1.0)
+            return
+        try:
+            musicName = renpy.eval(o)
+        except:
+            musicName = o
+        if musicName == currentMusic2:
+            return
+        print "HEREREER"
+
+        currentMusic2 = musicName
+        checkPath = "Music/" + str(musicName) + ".ogg"
+        if renpy.loadable(checkPath):
+            print "play music: " + checkPath
+            renpy.music.play(checkPath, channel="music2", loop=True, fadeout=1.0, fadein=1.0)
+        return
+
+    renpy.music.register_channel("music2", "music", True)
+    renpy.register_statement("music2", parse=music_parse, execute=music2_exec) #music - оператор воспроизведения музыки
+
     def video_parse(l):
         return l.simple_expression()
     def video_exec(o):

@@ -132,11 +132,11 @@ init python:
             obj_name = "scene"
             room_name = api_scene_name
             autorun_func = args[0]
-        if kwargs.has_key("scene"):
-            room_name = kwargs["scene"]
-            del kwargs["scene"]
-        else:
-            room_name = api_scene_name
+            if kwargs.has_key("scene"):
+                room_name = kwargs["scene"]
+                del kwargs["scene"]
+            else:
+                room_name = api_scene_name
         if scenes_data["autorun"].has_key(room_name) == False:
             scenes_data["autorun"][room_name] = {}
         if autorun_func != False:
@@ -406,7 +406,7 @@ label process_object_click(func_name, obj_name_source, obj_data_source):
 label process_object_click_alternate_action(idx, actions_list, click_label, name, data):
     $ config.has_autosave = False
     $ config.autosave_on_choice = False
-    
+
     if interface_blocked_flag == True:
         return
     if renpy.get_screen("say") != None or renpy.get_screen("choice") != None:

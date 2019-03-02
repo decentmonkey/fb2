@@ -16,6 +16,11 @@ label ep23_Quests_init:
     if monicaOutfitsEnabled[2] == True:
         $ monicaOutfitsEnabled[3] = True # Открываем следующий костюм
 
+    if questOffendMonicaFlyersCitizen6ThanksGiven == True:
+        $ fallingPathStarted = True
+    if fallingPathStarted == True and pubInited == False:
+        call ep23_quests_pub_init() # инициализируем бар
+
 
 
     return
