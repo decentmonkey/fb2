@@ -141,6 +141,8 @@ label ep22_dialogue6_2:
                 $ add_money(5)
                 #дает 5 баксов
 
+        "Дорогуша, ты не видела Мелани?" if melanieDisappeared == True:
+            call ep23_dialogue9_5b()
 
         "Уйти.":
             m "Не переживай, дорогуша!"
@@ -200,6 +202,9 @@ label ep22_dialogue6_3:
     menu:
         "Спросить о работе":
             pass
+        "Биф, ты не видел Мелани?" if melanieDisappeared == True:
+            call ep23_dialogue9_5c()
+            return False
         "Уйти.":
             return False
     music Groove2_85
@@ -286,6 +291,12 @@ label ep22_dialogue6_4:
         "Алекс... А где Мелани?" if monicaNeedToAskMelanieForHelp == True and day_time == "evening":
             call ep23_dialogues5_1()
             return False
+        "Алекс... А где Мелани?" if get_active_objects("Melanie", scene="monica_office_makeup_room") != False:
+            call ep23_dialogues8_1()
+            return False
+        "Алекс... А где Мелани?" if melanieDisappeared == True:
+            call ep23_dialogue9_5a()
+            return False
         "Пока нет...":
             pass
     m "Пока нет..."
@@ -317,6 +328,12 @@ label ep22_dialogue6_5:
             pass
         "Алекс... А где Мелани?" if monicaNeedToAskMelanieForHelp == True and day_time == "evening":
             call ep23_dialogues5_1()
+            return False
+        "Алекс... А где Мелани?" if get_active_objects("Melanie", scene="monica_office_makeup_room") != False:
+            call ep23_dialogues8_1()
+            return False
+        "Алекс... А где Мелани?" if melanieDisappeared == True:
+            call ep23_dialogue9_5a()
             return False
 
         "Пока нет...":

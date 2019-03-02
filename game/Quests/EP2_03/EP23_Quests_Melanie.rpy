@@ -1,4 +1,10 @@
-
+default monicaMelanieCastingPlanned = False
+default monicaMelanieWentToDick = False
+default melanieDisappeared = False
+default melanieDisappearedDay = 0
+default monicaMelanieCastingCummed = False
+default monicaMelanieCastingLickedDildo = False
+default monicaMelanieCastingLickedPussies = False
 
 label ep23_quests_melanie1: # Моника подходит первый раз попросить о помощи
     call ep23_dialogues5_2()
@@ -67,23 +73,133 @@ label ep23_quests_melanie5: #Моника говорит с Мелани пос�
 label ep23_quests_melanie6: #Мелани идет к Дику
     $ remove_hook()
     $ remove_hook(label="melanie_makeuproom_life")
-    m "Дик!"
+    call ep23_dialogues6_1()
+    sound snd_lift
+    scene black_screen
+    with Dissolve(1)
+    music m80s_Things
+    scene black_screen
+    with Dissolve(1)
+
+    call ep23_dialogues6_2()
+    call ep23_dialogues7()
+
+    # Мелани днем в гримерке
+    $ add_hook("Melanie", "ep23_quests_melanie7", scene="monica_office_makeup_room")
+    $ add_hook("Melanie_Life_day", "Melanie_Life_day2", scene="global", label="melanie_makeuproom_life")
+
     return
 
+label ep23_quests_melanie7: #Разговор с Мелани после Дика
+    if act=="l":
+        return
+    $ remove_hook()
+    call ep23_dialogues8_2()
+    call refresh_scene_fade()
+    $ add_hook("Melanie", "ep23_quests_melanie8", scene="monica_office_makeup_room", label="melanie_talk_repeat1")
+    $ add_hook("change_time_day", "ep23_quests_melanie9", scene="global")
+    $ questLog(25, False)
+    $ questLog(26, True)
+
+    return False
+
+label ep23_quests_melanie8 : #Разговор с Мелани после Дика повтор
+    if act=="l":
+        return
+    call ep23_dialogues8_2a
+    return False
+
+label ep23_quests_melanie9: # Комментарий Моники с утра
+    $ remove_hook()
+    call ep23_dialogues8_3()
+    $ remove_hook(label="melanie_talk_repeat1")
+    $ add_hook("Melanie_Life_evening", "Melanie_Life_evening2", scene="global", label="melanie_makeuproom_life") # Вечером Мелани тоже в гримерке
+    $ add_hook("Melanie", "ep23_quests_melanie10", scene="monica_office_makeup_room", label="melanie_talk_repeat1")
+    return
+
+label ep23_quests_melanie10:
+    if act=="l":
+        return
+    call ep23_dialogues8_4()
+    if _return == False:
+        call refresh_scene_fade()
+        return False
+    $ remove_hook()
+    if monicaMelanieCastingPlanned == False: #Мелани помогает без кастинга
+        $ remove_hook(label="melanie_makeuproom_life")
+        $ questLog(26, False)
+        $ questLog(28, True)
+        call ep23_quests_melanie_disappeared()
+        call refresh_scene_fade()
+        return False
+
+    $ questLog(26, False)
+    $ questLog(29, True)
+    $ move_object("Melanie", "empty")
+    $ add_hook("map_teleport", "ep23_quests_melanie11", scene="global")
+    $ remove_hook("Melanie_Life_evening", "Melanie_Life_evening2", scene="global") # Вечером Мелани больше нет
+    call refresh_scene_fade()
+    return False
 
 
+label ep23_quests_melanie_disappeared: # Мелани пропала
+    $ move_object("Melanie", "empty")
+    $ add_hook("Melanie_Life_day", "Melanie_Life_disappeared", scene="global", label="melanie_disappeared_life") # Мелани нет
+    $ add_hook("Melanie_Life_evening", "Melanie_Life_disappeared", scene="global", label="melanie_disappeared_life") # Мелани нет
+    $ day1 = day+2
+    $ add_hook("change_time_day", "ep23_quests_melanie_disappeared2", scene="global")
+    $ melanieDisappearedDay = day
+#    $ add_hook_day("ep23_quests_melanie_disappeared2", day = day1)
+    return
 
+label ep23_quests_melanie_disappeared2:
+    if day - melanieDisappearedDay >= 2:
+        $ remove_hook()
+        $ questLog(28, False)
+        $ questLog(29, False)
+        $ questLog(27, True)
+        $ melanieDisappeared = True
+        $ add_hook("basement_monica_after_sleep_dialogue", "ep23_quests_melanie_disappeared2_comment_morning", scene="global")
+    return
 
+label ep23_quests_melanie_disappeared2_comment_morning:
+    $ remove_hook()
+    call ep23_dialogue9_5d()
+    return
 
+label ep23_quests_melanie11: # Мелани говорит с мартышкой
+    if day_time == "day" and obj_name == "Teleport_Monica_Office":
+        $ remove_hook()
+        call ep23_dialogue9_1()
+        $ add_hook("Melanie", "ep23_quests_melanie12", scene="monica_office_makeup_room")
+        return
 
+    return
 
+label ep23_quests_melanie12: # Диалог с Мелани перед кастингом и сам кастинг
+    if act=="l":
+        return
+    call ep23_dialogue9_2()
+    if _return == False:
+        call change_scene("street_monica_office", "Fade_long", "highheels_run2")
+        return False
+    $ remove_hook()
+    $ add_hook("Teleport_Monica_Office_Entrance", "ep23_dialogue9_3", scene="monica_office_secretary", label="melanie_exit", priority = 101) #Блокируем выход
+    $ add_hook("Melanie", "ep23_quests_melanie13", scene="monica_office_makeup_room")
+    $ questLog(29, False)
+    call change_scene("monica_office_secretary")
+#    call refresh_scene_fade()
+    return
 
-
-
-
-
-
-
+label ep23_quests_melanie13: # Диалог с Мелани после кастинга
+    if act=="l":
+        return
+    call ep23_dialogue9_4()
+    $ questLog(28, True)
+    call ep23_quests_melanie_disappeared()
+    $ remove_hook(label="melanie_exit")
+    call refresh_scene_fade()
+    return
 
 
 

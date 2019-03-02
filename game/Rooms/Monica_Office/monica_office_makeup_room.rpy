@@ -54,7 +54,7 @@ label monica_office_makeup_room_environment:
     if obj_name == "Table2":
         img 9663
         with fade
-        mt "Гримерны столик Мелани..."
+        mt "Гримерный столик Мелани..."
         mt "Я смотрю Мелани здесь неплохо обосновалась, пока меня нет..."
     return
 

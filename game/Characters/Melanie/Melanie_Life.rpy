@@ -13,9 +13,22 @@ label Melanie_Life_evening:
     call process_hooks("Melanie_Life_evening", "global") from _call_process_hooks_5
     return True
 
-label Melanie_Life_day1:
+label Melanie_Life_day1: #Днем Мелани в студии
     $ move_object("Melanie", "monica_office_photostudio")
     return
+
+label Melanie_Life_day2: #Днем Мелани в гримерке
+    $ move_object("Melanie", "monica_office_makeup_room")
+    return False
+
 label Melanie_Life_evening1:
     $ move_object("Melanie", "empty")
     return
+
+label Melanie_Life_evening2: #Вечером Мелани в гримерке
+    $ move_object("Melanie", "monica_office_makeup_room")
+    return False
+
+label Melanie_Life_disappeared: # Мелани нигде нет
+    $ move_object("Melanie", "empty")
+    return False

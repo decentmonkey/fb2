@@ -10,43 +10,65 @@ label ep23_dialogues7:
     # Мелани говорит что да, конечно. И спрашивает не кажется-ли Мистеру Дику что здесь очень жарко.
     # Я пойду одену что-то более легкое, вы не возражаете если я отойду?
     # Дик говорит что конечно нет.
+    music stop
+    sound snd_car_engine
+    scene black_screen
+    with Dissolve(1)
+    stop music fadeout 1.0
+    call textonblack(_("У МЕЛАНИ ДОМА..."))
+    scene black_screen
+    with Dissolve(1)
+    music ZigZag
     img 8964
+    with fade
     dick "Мелани! У Вас такое уютное гнездышко!"
     img 8965
     dick "Вы имеете отличный вкус!"
     img 8966
     melanie "Спасибо, Мистер Дик..."
     img 8967
+    with fade
     w
     img 8968
     w
     img 8969
+    with Dissolve(0.5)
     w
 
     img 8970
+    with fadelong
     melanie "Присаживайтесь, Мистер Дик."
     img 8971
     melanie "Давайте я Вас чем-нибудь угощу?"
     img 8972
+    with fade
     melanie "Что Вы предпочитаете? Кофе, вино или виски?"
     img 8973
     dick "Мелани, я хотел бы сразу записать номер того негодяя."
     "Я боюсь что могу забыть потом."
     img 8974
+    with fade
     dick "Мелани, при виде Вас у меня путаются мысли."
     img 8975
+    with Dissolve(0.5)
     "Я даже сейчас уже не могу сосредоточиться...."
     img 8976
+    with fade
     melanie "Да, конечно, Мистер Дик."
     img 8977
+    with fadelong
     "Аххххх..."
     "Не кажется-ли Вам что здесь очень жарко?"
     img 8978
+    with fade
     "Я пойду одену что-то более легкое."
     img 8979
     "Вы не возражаете если я отойду на минутку?"
     dick "Что Вы, Мелани? Конечно я не возражаю."
-
+    music stop
+    scene black_screen
+    with Dissolve(1)
+    pause 1.0
 
     # Мелани возвращается одетая в трусики и шубку.
     # Подходит к Дику и спрашивает нравится-ли Дику ее образ? Не слишком-ли он будет смущать Мистера Дика?
@@ -59,10 +81,12 @@ label ep23_dialogues7:
     # У меня есть телефон! Я могу сделать кадры на него!
     # Мелани говорит что она любит фотографироваться, как Мистер Дик уже, наверное, знает.
     # Но она любит хорошее качество фото.
+    music Loved_Up
     img 8980
     with fadelong
     melanie "Мистер Дик, нравится-ли Вам мой образ?"
     img 8981
+    with Dissolve(0.5)
     "Не слишком-ли он будет смущать Вас?"
     img 8982
     dick "..."
@@ -71,18 +95,23 @@ label ep23_dialogues7:
     img 8984
     melanie "..."
     img 8985
+    with fade
     dick "Ммм... Мелани..."
     dick "Нет... Этот образ... Не будет смущать меня..."
     img 8986
     with fadelong
+    with hpunch
     melanie "А так?"
+    sound Jump2
     img 8987
     dick "!!!"
     img 8988
     w
     img 8989
+    with fade
     dick "..."
     img 8990
+    with Dissolve(0.5)
     w
     img 8991
     dick "!!!"
@@ -91,10 +120,13 @@ label ep23_dialogues7:
     "Можно я сделаю несколько кадров?"
     "Я всегда мечтал об этом!"
     img 8992
+    with fade
     melanie "Дик, но у Вас нет камеры."
     img 8993
+    with Dissolve(0.5)
     dick "У меня есть телефон! Я могу сделать кадры на него!"
     img 8994
+    with fade
     melanie "Мистер Дик, я люблю фотографироваться. Вы уже, наверное, это знаете."
     "Но я люблю хорошее качество фото."
 
@@ -119,55 +151,124 @@ label ep23_dialogues7:
     dick "Мелани! Я клянусь! Никто не увидит это!"
     "Только пожалуйста, дайте мне возможность!"
     img 8998
+    with fade
     melanie "Хорошо, Мистер Дик. Но трогать нельзя..."
     img 8997
     dick "Мелани! Все будет так как скажете ВЫ!"
 
+    music stop
+    scene black_screen
+    with Dissolve(1)
+    pause 1.0
     # Начинается фотосессия Мелани с Диком.
     # Дика почти не видно, фото чисто с Мелани.
     # Вертятся везде по дому.
     # photo
+    music Molten_Alloy
     img 8999
+    with fadelong
+    w
+    call photoshop_flash()
     w
     img 9000
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9001
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9002
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9003
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9004
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9005
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9006
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9007
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9008
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9009
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9010
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9011
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9012
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9013
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9014
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9015
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9016
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9017
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9018
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9019
+    with fade
+    w
+    call photoshop_flash()
     w
     img 9020
     with fade
@@ -175,25 +276,48 @@ label ep23_dialogues7:
     dick "Мелани, я просто без ума!"
     melanie "Идите сюда..."
     img 9021 #nophoto
+    with fade
     w
     melanie "Я разрешаю сделать Вам последний кадр..."
-    img 9022 #nophoto
-    w
-    img 9023
-    with Dissolve(0.8)
-    w
+
+    if richHotelRestaurantDickOffended1 == True or dickWantFuckMelanie == True:
+        $ notif(_("Дик признавался что хочет Мелани"))
+        img 9022 #nophoto
+        with fade
+        w
+        img 9023
+        with Dissolve(0.8)
+        w
+        call photoshop_flash()
+        w
+
+    else:
+        w
+        call photoshop_flash()
+        w
+
     #end_photo
 
 
     # Дик садится на колени перед Мелани и говорит что он восхищается ей!
+    music Continue_Life
     img 9024
+    with fadelong
     dick "О, Мелани!"
     img 9025
+    with Dissolve(0.5)
     w
     img 9026
+    with Dissolve(0.5)
     w
     img 9027
     "Я восхищаюсь ВАМИ!"
     img 9028
+    with fade
     melanie "..."
     # Сцена заканчивается.
+    scene black_screen
+    with Dissolve(1)
+    music stop
+    pause 2.0
+    return
