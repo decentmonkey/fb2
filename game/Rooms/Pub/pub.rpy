@@ -35,31 +35,36 @@ label pub:
 
     return
 label pub_init:
-    $ add_object_to_scene("Monica", {"type":2, "base":"pub_Monica_[cloth][pubMonicaSuffix]", "click" : "pub_environment", "actions" : "l", "zorder" : 200})
+    $ add_object_to_scene("Monica", {"type":2, "base":"pub_Monica_[cloth][pubMonicaSuffix]", "click" : "pub_environment", "actions" : "l", "zorder" : 200}, scene="pub")
 #    $ add_object_to_scene("Teleport_pub_Door", {"type":2, "base":"pub_Teleport_pub2", "click" : "pub_teleport", "actions" : "lw", "zorder" : 0, "b":0.13, "tint":[1.0, 1.0, 0.7], "teleport":True})
 
-    $ add_object_to_scene("Bartender", {"type" : 2, "base" : "Pub_Bartender[pubBartenderSuffix]", "click" : "pub_environment", "actions" : "lt", "zorder":30, "icon_t":"/Icons/talk" + res.suffix +".png"})
-    $ add_object_to_scene("Bartender_Waitress", {"type" : 2, "base" : "Pub_Bartender_Waitress[pubBartenderWaitressSuffix]", "click" : "pub_environment", "actions" : "lt", "zorder":30})
+    $ add_object_to_scene("Bartender", {"type" : 2, "base" : "Pub_Bartender[pubBartenderSuffix]", "click" : "pub_environment", "actions" : "lt", "zorder":30, "icon_t":"/Icons/talk" + res.suffix +".png"}, scene="pub")
+    $ add_object_to_scene("Bartender_Waitress", {"type" : 2, "base" : "Pub_Bartender_Waitress[pubBartenderWaitressSuffix]", "click" : "pub_environment", "actions" : "lt", "zorder":30}, scene="pub")
 
-    $ add_object_to_scene("Pub_StripteaseGirl1", {"type" : 2, "base" : "Pub_StripteaseGirl1_[pubStripteaseGirl1Suffix]", "click" : "pub_environment", "actions" : "lw", "zorder":0})
-    $ add_object_to_scene("Pub_StripteaseGirl2", {"type" : 2, "base" : "Pub_StripteaseGirl2_[pubStripteaseGirl2Suffix]", "click" : "pub_environment", "actions" : "lw", "zorder":0})
+    $ add_object_to_scene("Pub_StripteaseGirl1", {"type" : 2, "base" : "Pub_StripteaseGirl1_[pubStripteaseGirl1Suffix]", "click" : "pub_environment", "actions" : "lw", "zorder":1}, scene="pub")
+    $ add_object_to_scene("Pub_StripteaseGirl2", {"type" : 2, "base" : "Pub_StripteaseGirl2_[pubStripteaseGirl2Suffix]", "click" : "pub_environment", "actions" : "lw", "zorder":1}, scene="pub")
 
-    $ add_object_to_scene("Pub_Visitor1", {"type" : 2, "base" : "Pub_Visitor1[pubVisitor1Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":30, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors"})
-    $ add_object_to_scene("Pub_Visitor2", {"type" : 2, "base" : "Pub_Visitor2[pubVisitor2Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":60, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors"})
-    $ add_object_to_scene("Pub_Visitor3", {"type" : 2, "base" : "Pub_Visitor3[pubVisitor3Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":0, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors", "group2":"strip_lookers"})
-    $ add_object_to_scene("Pub_Visitor4", {"type" : 2, "base" : "Pub_Visitor4[pubVisitor4Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":110, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors"})
-    $ add_object_to_scene("Pub_Visitor5", {"type" : 2, "base" : "Pub_Visitor5[pubVisitor5Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":100, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors"})
-    $ add_object_to_scene("Pub_Visitor6", {"type" : 2, "base" : "Pub_Visitor6[pubVisitor6Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":40, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors"})
-    $ add_object_to_scene("Pub_Visitor7", {"type" : 2, "base" : "Pub_Visitor7[pubVisitor7Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":20, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors", "group2":"strip_lookers"})
-    $ add_object_to_scene("Pub_Visitor8", {"type" : 2, "base" : "Pub_Visitor8[pubVisitor8Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors", "group2":"strip_lookers"})
-    $ add_object_to_scene("Pub_Visitor9", {"type" : 2, "base" : "Pub_Visitor9[pubVisitor9Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":80, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors"})
-    $ add_object_to_scene("Pub_Visitor10", {"type" : 2, "base" : "Pub_Visitor10[pubVisitor10Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":70, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors"})
-    $ add_object_to_scene("Pub_Visitor11", {"type" : 2, "base" : "Pub_Visitor11[pubVisitor11Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":50, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors"})
-    $ add_object_to_scene("Pub_Visitor12", {"type" : 2, "base" : "Pub_Visitor12[pubVisitor12Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":90, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors"})
+    $ add_object_to_scene("Pub_Visitor1", {"type" : 2, "base" : "Pub_Visitor1[pubVisitor1Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":30, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors", "group2":"visitors_tables"}, scene="pub")
+    $ add_object_to_scene("Pub_Visitor2", {"type" : 2, "base" : "Pub_Visitor2[pubVisitor2Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":60, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors", "group2":"visitors_tables"}, scene="pub")
+    $ add_object_to_scene("Pub_Visitor3", {"type" : 2, "base" : "Pub_Visitor3[pubVisitor3Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":0, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors", "group2":"strip_lookers"}, scene="pub")
+    $ add_object_to_scene("Pub_Visitor4", {"type" : 2, "base" : "Pub_Visitor4[pubVisitor4Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":110, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors", "group2":"visitors_tables"}, scene="pub")
+    $ add_object_to_scene("Pub_Visitor5", {"type" : 2, "base" : "Pub_Visitor5[pubVisitor5Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":100, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors", "group2":"visitors_tables"}, scene="pub")
+    $ add_object_to_scene("Pub_Visitor6", {"type" : 2, "base" : "Pub_Visitor6[pubVisitor6Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":40, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors", "group2":"visitors_tables"}, scene="pub")
+    $ add_object_to_scene("Pub_Visitor7", {"type" : 2, "base" : "Pub_Visitor7[pubVisitor7Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":20, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors", "group2":"strip_lookers"}, scene="pub")
+    $ add_object_to_scene("Pub_Visitor8", {"type" : 2, "base" : "Pub_Visitor8[pubVisitor8Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors", "group2":"strip_lookers"}, scene="pub")
+    $ add_object_to_scene("Pub_Visitor9", {"type" : 2, "base" : "Pub_Visitor9[pubVisitor9Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":80, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors", "group2":"visitors_tables"}, scene="pub")
+    $ add_object_to_scene("Pub_Visitor10", {"type" : 2, "base" : "Pub_Visitor10[pubVisitor10Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":70, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors", "group2":"visitors_tables"}, scene="pub")
+    $ add_object_to_scene("Pub_Visitor11", {"type" : 2, "base" : "Pub_Visitor11[pubVisitor11Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":50, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors", "group2":"visitors_tables"}, scene="pub")
+    $ add_object_to_scene("Pub_Visitor12", {"type" : 2, "base" : "Pub_Visitor12[pubVisitor12Suffix]", "click" : "pub_visitors_default", "actions" : "lw", "zorder":90, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"visitors", "group2":"visitors_tables"}, scene="pub")
+
+    $ add_object_to_scene("Pub_Bar", {"type" : 2, "base" : "Pub_Bar", "click" : "pub_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub")
+    $ add_object_to_scene("Pub_Bar_Table", {"type" : 2, "base" : "Pub_Bar_Table", "click" : "pub_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub")
+#    $ add_object_to_scene("Pub_Pole", {"type" : 2, "base" : "Pub_Pole", "click" : "pub_environment", "actions" : "lw", "zorder":0, "group":"environment"}, scene="pub")
+    $ add_object_to_scene("Pub_Washbasin", {"type" : 2, "base" : "Pub_Washbasin", "click" : "pub_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub")
 
 #    $ add_object_to_scene("Car", {"type":2, "base":"pub_Car", "click" : "pub_environment", "actions" : "l", "zorder" : 0})
 
-    $ add_object_to_scene("Teleport_Hostel_Street", {"type":3, "text" : _("ВЫХОД ИЗ HOLE"), "rarrow" : "arrow_right_2", "base":"Pub_Teleport_Hostel_Street", "click" : "pub_teleport", "xpos" : 1379, "ypos" : 1023, "zorder":250, "teleport":True, "high_sprite_hover":True})
+    $ add_object_to_scene("Teleport_Hostel_Street", {"type":3, "text" : _("ВЫХОД ИЗ HOLE"), "rarrow" : "arrow_right_2", "base":"Pub_Teleport_Hostel_Street", "click" : "pub_teleport", "xpos" : 1379, "ypos" : 1023, "zorder":250, "teleport":True, "high_sprite_hover":True}, scene="pub")
 
     return
 #                            $ brightness_adjustment = 0.1
@@ -72,7 +77,52 @@ label pub_teleport:
         call change_scene("hostel_street")
     return
 label pub_environment:
+    if obj_name == "Bartender":
+        if act=="l":
+            if monicaWorkingAsDishwasher == False:
+                mt "Он похож на бармена в этой дыре..."
+            else:
+                mt "Это Джо. Он дал мне работу посудомойщицей."
+                mt "Это ужас, конечно, но, по крайней мере, у меня есть еда..."
+    if obj_name == "Bartender_Waitress":
+        if act=="l":
+            if monicaWorkingAsDishwasher == False:
+                mt "Похоже это официантка в этой дыре или что-то вроде того..."
+            else:
+                mt "Это Эшли. Жена Джо."
+                mt "Мне кажется что она немного странная."
+                mt "Хотя что может быть не странного в этой дыре?!"
+
     if obj_name == "Monica":
-        pass
+        mt "Какое жуткое место!"
+        "Я даже представить себе не могла что могу оказаться в подобном заведении!"
+    if obj_name == "Pub_Bar":
+        img 9662
+        with fade
+        mt "SHINY HOLE?!?"
+        mt "О БОЖЕ!"
+        "ЧТО ЭТО ЗА ДЫРА?!?"
+
+    if obj_name == "Pub_Bar_Table":
+        mt "Жуткое заведение, жуткая мебель!"
+        "Какой кошмар, Моника!"
+    if obj_name == "Pub_Pole" or obj_name == "Pub_StripteaseGirl1" or obj_name == "Pub_StripteaseGirl2":
+        $ fadeFlag = False
+        if get_active_objects("Pub_StripteaseGirl2", scene="pub") != False:
+            img 9583
+            with fade
+            $ fadeFlag = True
+
+        if act=="l":
+            mt "Эти девушки совсем не уважают себя!"
+            "Как можно делать подобное у всех на виду?!"
+        if act=="w":
+            mt "Я не собираюсь подходить туда!"
+            "Мне не на что там смотреть!!!"
+        if fadeFlag == True:
+            call refresh_scene_fade()
+    if obj_name == "Pub_Washbasin":
+        mt "Там готовят еду и моют посуду..."
+        mt "Какое жуткое место!"
 
     return

@@ -382,3 +382,135 @@ translate german citizen1_dialogue_pilon_907316aa:
     m "Naja, ich kann dir ein bisschen was zeigen, aber wir müssen wo anders hin."
     citizen1 "Klar, Hure, kein Ding."
 
+# TODO: Translation updated at 2019-03-02 22:56
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:136
+translate german citizen1_dialogue_pilon_loop1_26277174:
+
+    # citizen1 "Покрутись на пилоне, тетя."
+    citizen1 "Покрутись на пилоне, тетя."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:139
+translate german citizen1_dialogue_pilon_loop1_d15b9b6b:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    mt "Das kann ich mir nicht leisten!"
+    "So sehr am Boden bin ich nun auch noch nicht!"
+    "Und ich hoffe, dass das NIE passieren wird!"
+    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:148
+translate german citizen1_dialogue_pilon_loop1_c6b5282d:
+
+    # m "Хорошо, только не долго."
+    # mt "Только потому, что ты заплатишь."
+    m "Хорошо, только не долго."
+    mt "Только потому, что ты заплатишь."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:152
+translate german citizen1_dialogue_pilon_loop1_16be2bf2:
+
+    # citizen1 "А ты крутишься как профессионал. Мне нравится!"
+    citizen1 "А ты крутишься как профессионал. Мне нравится!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:156
+translate german citizen1_dialogue_pilon_loop1_5f0f80e2:
+
+    # mt "Не думаю, что буду это делать часто..."
+    mt "Не думаю, что буду это делать часто..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:165
+translate german citizen1_dialogue_pilon_loop1_ed2823b2:
+
+    # citizen1 "Мы хотим поглядеть на твои классные сиськи еще раз. Снимай все!"
+    # mt "Грязные панки..."
+    citizen1 "Мы хотим поглядеть на твои классные сиськи еще раз. Снимай все!"
+    mt "Грязные панки..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:169
+translate german citizen1_dialogue_pilon_loop1_49aafc4d:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    mt "Das kann ich mir nicht leisten!"
+    "So sehr am Boden bin ich nun auch noch nicht!"
+    "Und ich hoffe, dass das NIE passieren wird!"
+    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:176
+translate german citizen1_dialogue_pilon_loop1_7dec49ad:
+
+    # m "Так и быть, только руками не трогать."
+    m "Так и быть, только руками не трогать."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:179
+translate german citizen1_dialogue_pilon_loop1_4cd6e68d:
+
+    # citizen1 "Черт, тетя! Они шикарны! И что же ты их раньше от нас прятала?"
+    citizen1 "Черт, тетя! Они шикарны! И что же ты их раньше от нас прятала?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:182
+translate german citizen1_dialogue_pilon_loop1_1_cecff8b5:
+
+    # citizen1 "Эй, тетя! Как насчет того, чтобы получить немного больше?"
+    # m "..."
+    # citizen1 "Сожми ка свои аппетитные соски!"
+    citizen1 "Эй, тетя! Как насчет того, чтобы получить немного больше?"
+    m "..."
+    citizen1 "Сожми ка свои аппетитные соски!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:189
+translate german citizen1_dialogue_pilon_loop1_1_737d10d7:
+
+    # mt "Уже достаточно, что он вот так глазеет на меня"
+    # "Хватит с него и того, что он видит."
+    # help "Требуется [monicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired] corruption"
+    mt "Es reicht schon, dass er mich so anstarrt."
+    "Er hat genug mit dem was er sieht!"
+    help "Требуется [monicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:193
+translate german citizen1_dialogue_pilon_loop1_1_745b11c5:
+
+    # m "Ладно."
+    m "Ok."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:199
+translate german citizen1_dialogue_pilon_loop1_1_0e09a0c1:
+
+    # citizen1 "Уф...А ты горячая!"
+    citizen1 "Уф...А ты горячая!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:202
+translate german citizen1_dialogue_pilon_loop1_1_572b36a1:
+
+    # m "Не собираюсь, и так достаточно."
+    # citizen1 "Не ожидал я такого тетя. Думаю, ты скоро передумаешь."
+    m "Das werde ich nicht tun, es reicht."
+    citizen1 "Не ожидал я такого тетя. Думаю, ты скоро передумаешь."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:219
+translate german citizen1_dialogue_pilon_loop1_1_e8134be1:
+
+    # citizen1 "Ну все, тетя, хватит. До следующего раза. Вот, держи."
+    citizen1 "Ну все, тетя, хватит. До следующего раза. Вот, держи."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:222
+translate german citizen1_dialogue_pilon_loop1_1_ea17d522:
+
+    # m "Что?! Так мало? Мог бы дать и больше!"
+    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
+    m "Was?! So wenig? Du könntest schon mehr geben!"
+    mt "Bald werde ich wieder reich sein und mein Leben zurück haben..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:227
+translate german citizen1_dialogue_pilon_loop1_1_ef576f0b:
+
+    # citizen1 "Тетя, и за что тебе платить? Ничего не получишь."
+    citizen1 "Wafür wurdest du bezahlt? Für nichts."
+

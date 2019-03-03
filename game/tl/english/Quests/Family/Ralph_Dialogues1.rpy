@@ -117,7 +117,7 @@ translate english ralphDialogue2_748f403e:
     ralph "Okay."
     "Fred talked me into taking you."
     "I didn't really want to."
-    "Honestly, Betty was good with the house."
+    "To be honest, Betty can take care of the house just fine."
     "And we didn't need a maid."
 
 # game/Quests/Family/Ralph_Dialogues1.rpy:75
@@ -130,16 +130,16 @@ translate english ralphDialogue2_2886d472:
     # "Для того чтобы хоть какие-то деньги оставались при мне."
     "Especially since Betty spends almost all of our money on herself."
     "So the fact that she works and benefits - was fine for me."
-    "Fred offered me an idea..."
+    "Fred gave me an idea..."
     "Anyway, I told Betty I'd be paying you $ 90 per hour."
-    "To keep some money for myself."
+    "That way I could keep some money for myself."
 
 # game/Quests/Family/Ralph_Dialogues1.rpy:82
 translate english ralphDialogue2_0f8644d4:
 
     # ralph "Ну.. Ты понимаешь, Моника?"
     # "Бетти такая строгая..."
-    ralph "Well... Do you understand, Monica?"
+    ralph "Do you understand, Monica?"
     "Betty is so strict..."
 
 # game/Quests/Family/Ralph_Dialogues1.rpy:89
@@ -155,7 +155,7 @@ translate english ralphDialogue2_ef211ac0:
 
     # "Что ты будешь забирать мои деньги себе и тратить на шлюх!"
     # "Я прекрасно понимаю!"
-    "That you're gonna take my money and spend it on whores!"
+    "That you're going to take my money and spend it on whores!"
     "I understand perfectly!"
 
 # game/Quests/Family/Ralph_Dialogues1.rpy:97
@@ -171,8 +171,8 @@ translate english ralphDialogue2_95b1e6c1:
     # "Так что если ты не хочешь, то можешь не работать."
     # "Хочешь я прямо сейчас скажу Бетти что ты уходишь?"
     ralph "To be honest, I'm a little afraid of this adventure myself."
-    "So if you don't want to, you don't have to work."
-    "Do you want me to tell Betty right away that you're leaving?"
+    "So it's up to you. If you don't want to work, you don't have to."
+    "Do you want me to go tell Betty that you're leaving?"
 
 # game/Quests/Family/Ralph_Dialogues1.rpy:105
 translate english ralphDialogue2_8c2bad97:

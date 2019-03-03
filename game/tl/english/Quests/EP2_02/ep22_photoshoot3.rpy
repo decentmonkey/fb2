@@ -13,7 +13,7 @@ translate english ep22_photoshoot3_ee35a2a3:
 
     # alex_photograph "Нет, Мэм!"
     # "Вы сегодня девушка-рабочий! Бригадир!"
-    alex_photograph "Нет, Мэм!"
+    alex_photograph "No, MA'am!"
     "Today you are a pipe cleaner girl! The Brigadier!"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:10
@@ -36,7 +36,7 @@ translate english ep22_photoshoot3_210fdb22:
     # m "Эти штуки... Какие-то... Я не знаю как они называются..."
     # "Можно я сниму их? Я могу пораниться!"
     # alex_photograph "Нет, Мэм! Это часть образа!"
-    m "These things... I don't know what they're called..."
+    m "I don't even know what these things I'm wearing are called..."
     "Can I take them off? I could get hurt!"
     alex_photograph "No, Ma'am! This is all a part of it."
 
@@ -211,13 +211,13 @@ translate english ep22_photoshoot3_pose7_80acecf7:
     # "Пожалуйста, покажите эмоции!"
     # m "Я...."
     # "Ладно..."
-    m "ЧТО?!?!"
+    m "What?!?!"
     "WHAT HAVE YOU DONE, YOU BASTARD???"
-    "Where did you put the hammer!"
-    "Have you ever noticed where it's poking on me?!?!"
+    "Why did you put the hammer here?!"
+    "Can't you see where it's poking me?!"
     alex_photograph "Mrs. Buckfett!"
-    "And please make it seem like you're licking the hammer..."
-    m "ЧТО?!?!"
+    "Make it look like you're licking the hammer..."
+    m "What?!?!"
     "You can go to hell!"
     "Is this a calendar photo shoot?"
     "Maybe I should take off my shorts and give it freedom to go where it's going now!?"
@@ -226,10 +226,10 @@ translate english ep22_photoshoot3_pose7_80acecf7:
     "That would be only be great news for you!"
     "BUT NOT FOR ME!"
     "The photo shoot is over!!!"
-    alex_photograph "MA'am, I understand you may be uncomfortable with the way he's pushing..."
-    "But if you like it a little bit, please stick out your tongue..."
-    "Without you doing that, the shot won't be any goid.."
-    "And you know that they only expect the best out of me."
+    alex_photograph "MA'am, I understand you may be uncomfortable with the way it's pushing..."
+    "But if you could just stick out your tongue a little bit..."
+    "Otherwise the shot won't be any good..."
+    "And you know they only expect the best from me."
     "Mr. Biff would fire me..."
     "Just believe me, there's nothing dirty about this..."
     m "..."
@@ -249,14 +249,14 @@ translate english ep22_photoshoot3_end_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Мэм! Мы закончили фотосессию!"
-    m "Наконец-то!!!"
+    alex_photograph "Ma'am! We're finished with the photo shoot!"
+    m "Finally!!!"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:229
 translate english ep22_photoshoot3_end_00d63a19:
 
     # mt "Что теперь?"
-    mt "Что теперь?"
+    mt "Now what?"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:235
 translate english ep22_photoshoot3_end_b0d7667d:
@@ -269,12 +269,12 @@ translate english ep22_photoshoot3_end_b0d7667d:
     # "..."
     # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
     mt "Biff is waiting for me to go through his stupid casting..."
-    "He said he'd give me a job if I would be a good chick..."
+    "He said he'd give me a job if I would be a good girl..."
     "I guess that would allow me to get closer my goal of getting my company back..."
-    "So maybe I should just pretend to be a good chick?"
-    "After all, I have no feelings for him, I'm a cold-blooded woman going to her revenge..."
+    "So maybe I should just pretend to be a good girl?"
+    "After all, I have no feelings for him. I'm a cold-blooded woman getting her revenge..."
     "..."
-    "Damn... Especially since I promised him I'd be a good chick. Otherwise, he won't give me any work..."
+    "Damn... Especially since I promised him I'd be a good girl. Otherwise, he won't give me any work..."
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:249
 translate english ep22_photoshoot3_casting_3b145b91:
@@ -282,7 +282,7 @@ translate english ep22_photoshoot3_casting_3b145b91:
     # m "Привет, Биф. Я пришла..."
     # biff "О! Цыпочка пришла к папочке!"
     m "Hi, Biff. I came..."
-    biff "Oh, chick! Come to daddy!"
+    biff "That's right little girl, come to daddy!"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:253
 translate english ep22_photoshoot3_casting_3627424f:
@@ -294,10 +294,10 @@ translate english ep22_photoshoot3_casting_3627424f:
     # m "Сегодня цыпочка - это девушка-рабочий с календаря, который будет висеть у каждого менеджера строительной компании..."
     # biff "Что девушка с календаря хочет показать папочке?"
     mt "I need to pretend and to gain his trust..."
-    m "Yeah, the chick is coming to daddy..."
-    "Good chick..."
-    biff "Who's the chick tonight?"
-    m "Today, the chick is a pipe cleaner girl from the calendar, which every engineer and manager from the construction company will hang on the wall..."
+    m "Yeah, the girl is coming to daddy..."
+    "Good girl..."
+    biff "Who's the girl tonight?"
+    m "Today, the girl is a pipe cleaner girl from the calendar, which every engineer and manager from the construction company will hang on the wall..."
     biff "What does the calendar girl want to show daddy?"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:262
@@ -313,10 +313,10 @@ translate english ep22_photoshoot3_casting_be98a9ea:
     # m "Ты заставил меня придти..."
     # mt "Ненавижу!!!"
     # biff "И что цыпочка будет делать?"
-    m "I came because I promised to behave like a good chick..."
+    m "I came because I promised to behave like a good girl..."
     m "You made me come here..."
     mt "I hate this!!!"
-    biff "And what is chick going to do?"
+    biff "And what is this girl going to do?"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:275
 translate english ep22_photoshoot3_casting_f4e1f245_1:
@@ -336,7 +336,7 @@ translate english ep22_photoshoot3_casting_cb9f49f2:
 translate english ep22_photoshoot3_casting_e97962ff:
 
     # biff "О! Цыпочка пришла к папочке!"
-    biff "Oh, chick! Come to daddy!"
+    biff "That's right little girl, come to daddy!"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:258
 translate english ep22_photoshoot3_casting_c0132395:
@@ -349,8 +349,8 @@ translate english ep22_photoshoot3_casting_26c7e3c1:
 
     # m "Да, цыпочка пришла к папочке..."
     # "Цыпочка хорошая..."
-    m "Yeah, the chick is coming to daddy..."
-    "Good chick..."
+    m "Yeah, the girl is coming to daddy..."
+    "Good girl..."
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:263
 translate english ep22_photoshoot3_casting_b3e78dca:
@@ -358,15 +358,15 @@ translate english ep22_photoshoot3_casting_b3e78dca:
     # biff "Кто сегодня цыпочка?"
     # m "Сегодня цыпочка - это девушка-рабочий с календаря, который будет висеть у каждого менеджера строительной компании..."
     # biff "Что девушка с календаря хочет показать папочке?"
-    biff "Who's the chick tonight?"
-    m "Today, the chick is a pipe cleaner girl from the calendar, which every engineer and manager from the construction company will hang on the wall..."
+    biff "Who's the girl tonight?"
+    m "Today, the girl is a pipe cleaner girl from the calendar, which every engineer and manager from the construction company will hang on the wall..."
     biff "What does the calendar girl want to show daddy?"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:275
 translate english ep22_photoshoot3_casting_aaf46f34:
 
     # m "Я пришла, потому что обещала хорошо вести себя..."
-    m "I came because I promised to behave like a good chick..."
+    m "I came because I promised to behave like a good girl..."
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:278
 translate english ep22_photoshoot3_casting_8d3fe5d0:
@@ -376,13 +376,13 @@ translate english ep22_photoshoot3_casting_8d3fe5d0:
     # biff "И что цыпочка будет делать?"
     m "You made me come here..."
     mt "I hate this!!!"
-    biff "And what is chick going to do?"
+    biff "And what is this girl going to do?"
 
 translate english strings:
 
     # Quests/EP2_02/ep22_photoshoot3.rpy:231
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot3_casting_corruption_required]) (disabled)"
-    new "Behave as chick at Biff' casting... (low corruption, required [photoshoot3_casting_corruption_required]) (disabled)"
+    new "Be a good girl at Biff' casting... (low corruption, required [photoshoot3_casting_corruption_required]) (disabled)"
 
 # TODO: Translation updated at 2019-01-15 21:45
 
@@ -457,12 +457,12 @@ translate english ep22_photoshoot3_pose6_d685af5e:
     # "Ты хоть заметил куда в какое место он упирается мне?!?!"
     # alex_photograph "Миссис Бакфетт!"
     # "И сделайте, пожалуйста, такое лицо как когда Вы облизывали молоток..."
-    m "ЧТО?!?!"
+    m "What?!?!"
     "WHAT HAVE YOU DONE, YOU BASTARD???"
-    "Where did you put the hammer!"
-    "Have you ever noticed where it's poking on me?!?!"
+    "Why did you put the hammer here?!"
+    "Can't you see where it's poking me?!"
     alex_photograph "Mrs. Buckfett!"
-    "And please make it seem like you're licking the hammer..."
+    "Make it look like you're licking the hammer..."
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:468
 translate english ep22_photoshoot3_pose6_e7222503:
@@ -476,7 +476,7 @@ translate english ep22_photoshoot3_pose6_e7222503:
     # "Для тебя это было бы прекрасной новостью!"
     # "НО НЕ ДЛЯ МЕНЯ?!?!"
     # "Фотосессия закончена!!!"
-    m "ЧТО?!?!"
+    m "What?!?!"
     "You can go to hell!"
     "Is this a calendar photo shoot?"
     "Maybe I should take off my shorts and give it freedom to go where it's going now!?"
@@ -506,10 +506,10 @@ translate english ep22_photoshoot3_pose6_9d670e31:
     # "Пожалуйста, покажите эмоции!"
     # m "Я...."
     # "Ладно..."
-    alex_photograph "MA'am, I understand you may be uncomfortable with the way he's pushing..."
-    "But if you like it a little bit, please stick out your tongue..."
-    "Without you doing that, the shot won't be any goid.."
-    "And you know that they only expect the best out of me."
+    alex_photograph "MA'am, I understand you may be uncomfortable with the way it's pushing..."
+    "But if you could just stick out your tongue a little bit..."
+    "Otherwise the shot won't be any good..."
+    "And you know they only expect the best from me."
     "Mr. Biff would fire me..."
     "Just believe me, there's nothing dirty about this..."
     m "..."
@@ -565,8 +565,8 @@ translate english ep22_photoshoot3_casting_09658515:
 
     # biff "Кто сегодня цыпочка?"
     # m "Сегодня цыпочка - это девушка-рабочий с календаря, который будет висеть у каждого менеджера строительной компании..."
-    biff "Who's the chick tonight?"
-    m "Today, the chick is a pipe cleaner girl from the calendar, which every engineer and manager from the construction company will hang on the wall..."
+    biff "Who's the girl tonight?"
+    m "Today, the girl is a pipe cleaner girl from the calendar, which every engineer and manager from the construction company will hang on the wall..."
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:799
 translate english ep22_photoshoot3_casting_dae5a739:
@@ -586,4 +586,28 @@ translate english ep22_photoshoot3_casting_2b8d9f4a:
     # mt "Ненавижу!!!"
     # biff "И что цыпочка будет делать?"
     mt "I hate this!!!"
-    biff "And what is chick going to do?"
+    biff "And what is this girl going to do?"
+# TODO: Translation updated at 2019-03-02 22:55
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:764
+translate english ep22_photoshoot3_end_7d5cf100:
+
+    # mt "Биф ждет меня на свой дурацкий кастинг..."
+    # "Он говорил даст мне работу если я буду хорошей цыпочкой..."
+    # "Это позволит мне приблизиться к цели, возвратить мою компанию назад!"
+    # "Так может быть притвориться?"
+    # "Ведь у меня нет к нему чувств, я хладнокровная женщина, идущая к своей мести..."
+    mt "Biff is waiting for me to go through his stupid casting..."
+    "He said he'd give me a job if I would be a good girl..."
+    "I guess that would allow me to get closer my goal of getting my company back..."
+    "So maybe I should just pretend to be a good girl?"
+    "After all, I have no feelings for him. I'm a cold-blooded woman getting her revenge..."
+
+# game/Quests/EP2_02/ep22_photoshoot3.rpy:771
+translate english ep22_photoshoot3_end_65571a75:
+
+    # "..."
+    # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
+    "..."
+    "Damn... Especially since I promised him I'd be a good girl. Otherwise, he won't give me any work..."
+

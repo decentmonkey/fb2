@@ -14,11 +14,11 @@ translate english monica_gas_station_thief_dialogue2_f5b61198:
 translate english monica_gas_station_thief_dialogue2a_1d49c419:
 
     # mt "У меня нет денег на это..."
-    mt "I have no money for it ..."
+    mt "I don’t have money to buy it"
 
 # game/Characters/Monica/Monica_Thief.rpy:33
 translate english monica_gas_station_thief_dialogue2_1d49c419:
 
     # mt "У меня нет денег на это..."
-    mt "I have no money for it ..."
+    mt "I don’t have money to buy it"
 

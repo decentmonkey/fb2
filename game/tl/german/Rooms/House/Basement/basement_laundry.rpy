@@ -96,5 +96,5 @@ translate german strings:
 translate german basement_laundry_environment_58583d46:
 
     # mt "Это прачечная."
-    mt "Это прачечная."
+    mt "Das ist Wäsche."
 

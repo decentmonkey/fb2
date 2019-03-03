@@ -33,7 +33,7 @@ translate english citizen9_dialogue_bb6e048a:
     citizen9 "As you say, lady."
     m "You are an idiot! What are you doing?"
     citizen9 "That's what you told me to do! Heh-heh-heh. Great tits by the way!"
-    m "You are an idiot! I came on behalf of Jack!"
+    m "You idiot! Jack told me to give you this."
     citizen9 "Ooh, lady, that's where we should have started. What ya got?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:25
@@ -46,9 +46,9 @@ translate english citizen9_dialogue_dc8a0f13:
     # m "Нет!"
     # mt "Идиот."
     m "Well."
-    citizen9 "Perfect. I know my man Jack. Excellent thing. You want some?"
+    citizen9 "Perfect. I know my man Jack. It's some great stuff. You want some?"
     m "No, thanks. Here, take another flyer."
-    citizen9 "Flyer? All right. How about I touch your boob again?"
+    citizen9 "Flyer? All right. How about I touch your boobs again?"
     m "No!"
     mt "Idiot."
 
@@ -118,7 +118,7 @@ translate english citizen9_dialogue_a870583f:
     # citizen9 "То, что ты мне сказала! Хе-хе-хе. Отличная грудь кстати!"
     # m "Идиот! Я от Джека!"
     citizen9 "That's what you told me to do! Heh-heh-heh. Great tits by the way!"
-    m "You are an idiot! I came on behalf of Jack!"
+    m "You idiot! Jack told me to give you this."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:26
 translate english citizen9_dialogue_85e25246:
@@ -136,7 +136,7 @@ translate english citizen9_dialogue_0e5dcd34:
 translate english citizen9_dialogue_ff01ee61:
 
     # citizen9 "Отлично. Узнаю старину Джека. Отличная вещь. Хочешь?"
-    citizen9 "Perfect. I know my man Jack. Excellent thing. You want some?"
+    citizen9 "Perfect. I know my man Jack. It's some great stuff. You want some?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:37
 translate english citizen9_dialogue_b23d7b29:
@@ -148,7 +148,7 @@ translate english citizen9_dialogue_b23d7b29:
 translate english citizen9_dialogue_6d15b6ec:
 
     # citizen9 "Флаер? Ладно. Как насчет потрогать сиську еще раз?"
-    citizen9 "Flyer? All right. How about I touch your boob again?"
+    citizen9 "Flyer? All right. How about I touch your boobs again?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:41
 translate english citizen9_dialogue_ea3f27a9:
@@ -266,7 +266,7 @@ translate english citizen9_dialogue_pilon_loop9_a7283d00:
 translate english citizen9_dialogue_pilon_loop9_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes..."
+    m "I'm not taking off my clothes..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:137
 translate english citizen9_dialogue_pilon_loop9_5fedd840:
@@ -281,8 +281,8 @@ translate english citizen9_dialogue_pilon_loop9_f1e13c5f:
     # m "Что 'Жопа!'?"
     # citizen9 "Повернись ко мне задом и показывай!"
     citizen9 "Ass!"
-    m "That 'Ass!'?"
-    citizen9 "Turn your back on me and show me!"
+    m "Ass!'?"
+    citizen9 "Turn around and show me!"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:147
 translate english citizen9_dialogue_pilon_loop9_f7e05701:
@@ -300,7 +300,7 @@ translate english citizen9_dialogue_pilon_loop9_f7e05701:
 translate english citizen9_dialogue_pilon_loop9_48b1ace1_1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes..."
+    m "I'm not taking off my clothes..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:157
 translate english citizen9_dialogue_pilon_loop9_4e3a88b0:
@@ -373,8 +373,8 @@ translate english citizen9_dialogue_pilon_loop9_98294c42:
     # m "Что 'Жопа!'?"
     # citizen9 "Повернись ко мне задом и показывай!"
     citizen9 "Ass!"
-    m "That 'Ass!'?"
-    citizen9 "Turn your back on me and show me!"
+    m "Ass!'?"
+    citizen9 "Turn around and show me!"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:147
 translate english citizen9_dialogue_pilon_loop9_299ae0b0:
@@ -416,8 +416,8 @@ translate english citizen9_dialogue_pilon_loop9_f20736b2:
     # m "Что 'Жопа!'?"
     # citizen9 "Повернись ко мне задом и показывай!"
     citizen9 "Ass!"
-    m "That 'Ass!'?"
-    citizen9 "Turn your back on me and show me!"
+    m "Ass!'?"
+    citizen9 "Turn around and show me!"
 
 # TODO: Translation updated at 2019-01-16 14:59
 
@@ -443,13 +443,13 @@ translate english citizen9_dialogue_pilon_loop9_471142af:
     # citizen9 "Жопа!"
     # m "Что 'Жопа!'?"
     citizen9 "Ass!"
-    m "That 'Ass!'?"
+    m "Ass!'?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:154
 translate english citizen9_dialogue_pilon_loop9_3c73bcc5:
 
     # citizen9 "Повернись ко мне задом и показывай!"
-    citizen9 "Turn your back on me and show me!"
+    citizen9 "Turn around and show me!"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:178
 translate english citizen9_dialogue_pilon_loop9_e108a574:

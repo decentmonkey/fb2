@@ -296,7 +296,7 @@ translate english strings:
 
     # 00_Functions/07_init_renpy.rpy:90
     old "Эшли"
-    new "Ashlee"
+    new "Ashley"
 
     # 00_Functions/07_init_renpy.rpy:91
     old "Джо"

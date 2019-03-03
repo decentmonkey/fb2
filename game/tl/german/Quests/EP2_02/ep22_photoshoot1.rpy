@@ -21,14 +21,14 @@ translate german ep22_photoshoot1_end_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Wir sind fertig!"
-    m "Endlich!!!"
+    alex_photograph "Мэм! Мы закончили фотосессию!"
+    m "Наконец-то!!!"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:94
 translate german ep22_photoshoot1_end_00d63a19:
 
     # mt "Что теперь?"
-    mt "Was jetzt?"
+    mt "Что теперь?"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:100
 translate german ep22_photoshoot1_end_b0d7667d:
@@ -231,3 +231,27 @@ translate german corruption_required_9bce411b:
 
     # empty_name "[required1] corruption required!"
     empty_name "[required1] Korruption benötigt!"
+# TODO: Translation updated at 2019-03-02 22:56
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:488
+translate german ep22_photoshoot1_end_7d5cf100:
+
+    # mt "Биф ждет меня на свой дурацкий кастинг..."
+    # "Он говорил даст мне работу если я буду хорошей цыпочкой..."
+    # "Это позволит мне приблизиться к цели, возвратить мою компанию назад!"
+    # "Так может быть притвориться?"
+    # "Ведь у меня нет к нему чувств, я хладнокровная женщина, идущая к своей мести..."
+    mt "Biff wartet auf mich bei seinem dummen Casting..."
+    "Er sagte, er hat einen Job für mich, wenn ich ein gutes Chick bin..."
+    "Das würde mich erlauben, einen Schritt näher an mein Ziel zu kommen, die Firma zurück zu erhalten!"
+    "Soll ichs also tun?"
+    "Immerhin habe ich keine Gefühle für ihn. Ich bin eine kaltblütige Frau, die nach Rache dürstet..."
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:495
+translate german ep22_photoshoot1_end_65571a75:
+
+    # "..."
+    # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
+    "..."
+    "Verdammt... Besonders seit ich ihm versprochen habe, ein gutes Chick zu sein. Ich brauche den Job."
+

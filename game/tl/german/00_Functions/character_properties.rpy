@@ -46,3 +46,11 @@ translate german low_corruption_d8229b96:
     # help "Not enough corruption! Required [requiredCorruption]."
     help "Nicht genug Verdorbenheit! Benötigt [requiredCorruption]."
 
+# TODO: Translation updated at 2019-03-02 22:56
+
+translate german strings:
+
+    # 00_Functions/character_properties.rpy:53
+    old "прогресс максимален, ждите следующих обновлений игры!"
+    new ""
+

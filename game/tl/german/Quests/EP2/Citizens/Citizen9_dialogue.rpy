@@ -415,3 +415,83 @@ translate german citizen9_dialogue_pilon_loop9_ea17d522_1:
     m "Was?! So wenig? Du könntest schon mehr geben!"
     mt "Bald werde ich wieder reich sein und mein Leben zurück haben..."
 
+# TODO: Translation updated at 2019-03-02 22:56
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:182
+translate german citizen9_dialogue_pilon_loop9_1bbc028c:
+
+    # citizen9 "Потанцуй! Для этого здесь пилон и поставили!"
+    # mt "Наркоман...Надеюсь скоро тебя поймают..."
+    citizen9 "Потанцуй! Для этого здесь пилон и поставили!"
+    mt "Наркоман...Надеюсь скоро тебя поймают..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:186
+translate german citizen9_dialogue_pilon_loop9_d15b9b6b:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    mt "Das kann ich mir nicht leisten!"
+    "So sehr am Boden bin ich nun auch noch nicht!"
+    "Und ich hoffe, dass das NIE passieren wird!"
+    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:195
+translate german citizen9_dialogue_pilon_loop9_d3108dd3:
+
+    # m "Хорошо, только не долго."
+    m "Хорошо, только не долго."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:198
+translate german citizen9_dialogue_pilon_loop9_f5d619cc:
+
+    # citizen9 "А у тебя неплохо выходит."
+    citizen9 "А у тебя неплохо выходит."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:211
+translate german citizen9_dialogue_pilon_loop9_3b38ccb5:
+
+    # citizen9 "Голые сиськи! Я их люблю!"
+    # m "Что?"
+    # citizen9 "Да, дорогая, похоже, умом ты не отличаешься."
+    # "Покажи мне свои сисечки, только голыми!"
+    # mt "Когда нибудь я сдам тебя в полицию..."
+    citizen9 "Голые сиськи! Я их люблю!"
+    m "Was?"
+    citizen9 "Да, дорогая, похоже, умом ты не отличаешься."
+    "Покажи мне свои сисечки, только голыми!"
+    mt "Когда нибудь я сдам тебя в полицию..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:218
+translate german citizen9_dialogue_pilon_loop9_49aafc4d:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    mt "Das kann ich mir nicht leisten!"
+    "So sehr am Boden bin ich nun auch noch nicht!"
+    "Und ich hoffe, dass das NIE passieren wird!"
+    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:225
+translate german citizen9_dialogue_pilon_loop9_9e8035e0:
+
+    # m "Так и быть, только руками не трогать."
+    # mt "Только попробуй к ним прикаснуться и я сломаю тебе пальцы."
+    m "Так и быть, только руками не трогать."
+    mt "Только попробуй к ним прикаснуться и я сломаю тебе пальцы."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:229
+translate german citizen9_dialogue_pilon_loop9_b2a568d5:
+
+    # citizen9 "Ууу... Так намного лучше! Ходи так всегда!"
+    citizen9 "Ууу... Так намного лучше! Ходи так всегда!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:231
+translate german citizen9_dialogue_pilon_loop9_103714ea:
+
+    # mt "Размечтался..."
+    mt "Размечтался..."
+

@@ -68,7 +68,7 @@ translate english hook_basement_bedroom_check_exit_cloth_map_c28d4e8a:
     # "Мне надо одеться."
     mt "I can't go outside like this."
     "I'm not crazy yet!!!"
-    "Мне надо одеться."
+    "I need clothes."
 
 translate english strings:
 
@@ -134,9 +134,9 @@ translate english strings:
 
     # Characters/Monica/Wardrobe_Basement.rpy:124
     old "Переодеться в одежду шлюхи (другой нет!)."
-    new ""
+    new "Переодеться в одежду шлюхи (другой нет!)."
 
     # Characters/Monica/Wardrobe_Basement.rpy:124
     old "Не переодеваться."
-    new ""
+    new "Не переодеваться."
 

@@ -73,7 +73,7 @@ translate english ep22_photoshoot2_pose4_fc946ddf:
     m "Hey! What are you doing?!"
     "Can't you see I don't have anything on there?!"
     "Although, just try to see!"
-    m "Alex, don't move the camera by a degree!"
+    m "Alex, don't you dare move that camera another inch!"
     alex_photograph "All right, Ma'am!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:66
@@ -96,7 +96,7 @@ translate english ep22_photoshoot2_pose5_4f6aacf1:
     # m "Алекс! Даже не думай об этом!"
     # m "Алекс, не вздумай подвинуть камеру ни на градус!"
     m "Alex! Don't even think about it!"
-    m "Alex, don't move the camera by a degree!"
+    m "Alex, don't you dare move that camera another inch!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:83
 translate english ep22_photoshoot2_pose6_495a0ac0:
@@ -110,7 +110,7 @@ translate english ep22_photoshoot2_pose6_4f6aacf1:
     # m "Алекс! Даже не думай об этом!"
     # m "Алекс, не вздумай подвинуть камеру ни на градус!"
     m "Alex! Don't even think about it!"
-    m "Alex, don't move the camera by a degree!"
+    m "Alex, don't you dare move that camera another inch!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:97
 translate english ep22_photoshoot2_pose7_495a0ac0:
@@ -144,13 +144,13 @@ translate english ep22_photoshoot2_pose7_2840fcfa:
     m "What's the fuck is this 'internal good'?!"
     "Showing my ass?"
     alex_photograph "Mrs. Buckfett!"
-    "Just a few frames!"
+    "Just a couple of shots!"
     m "Don't think!"
     mt "Oh my God! Why did I agree to do these shoots?"
     "If only I had a choice!"
     m "Okay, make it quick!"
-    "And don't take the camera too low!"
-    alex_photograph "Конечно, Мэм!"
+    "And don't aim the camera too low!"
+    alex_photograph "Of course, Ma'am!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:121
 translate english ep22_photoshoot2_pose7_180e0321:
@@ -158,7 +158,7 @@ translate english ep22_photoshoot2_pose7_180e0321:
     # m "Даже не думай брать этот ракурс!"
     # m "Алекс, не вздумай подвинуть камеру ни на градус!"
     m "Don't even think about taking that angle!"
-    m "Alex, don't move the camera by a degree!"
+    m "Alex, don't you dare move that camera another inch!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:127
 translate english ep22_photoshoot2_pose7_1876da55:
@@ -199,14 +199,14 @@ translate english ep22_photoshoot2_end_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Мэм! Мы закончили фотосессию!"
-    m "Наконец-то!!!"
+    alex_photograph "Ma'am! We're finished with the photo shoot!"
+    m "Finally!!!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:152
 translate english ep22_photoshoot2_end_00d63a19:
 
     # mt "Что теперь?"
-    mt "Что теперь?"
+    mt "Now what?"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:158
 translate english ep22_photoshoot2_end_b0d7667d:
@@ -219,12 +219,12 @@ translate english ep22_photoshoot2_end_b0d7667d:
     # "..."
     # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
     mt "Biff is waiting for me to go through his stupid casting..."
-    "He said he'd give me a job if I would be a good chick..."
+    "He said he'd give me a job if I would be a good girl..."
     "I guess that would allow me to get closer my goal of getting my company back..."
-    "So maybe I should just pretend to be a good chick?"
-    "After all, I have no feelings for him, I'm a cold-blooded woman going to her revenge..."
+    "So maybe I should just pretend to be a good girl?"
+    "After all, I have no feelings for him. I'm a cold-blooded woman getting her revenge..."
     "..."
-    "Damn... Especially since I promised him I'd be a good chick. Otherwise, he won't give me any work..."
+    "Damn... Especially since I promised him I'd be a good girl. Otherwise, he won't give me any work..."
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:171
 translate english ep22_photoshoot2_casting_3b145b91:
@@ -232,7 +232,7 @@ translate english ep22_photoshoot2_casting_3b145b91:
     # m "Привет, Биф. Я пришла..."
     # biff "О! Цыпочка пришла к папочке!"
     m "Hi, Biff. I came..."
-    biff "Oh, chick! Come to daddy!"
+    biff "That's right little girl, come to daddy!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:175
 translate english ep22_photoshoot2_casting_9d09327c:
@@ -244,10 +244,10 @@ translate english ep22_photoshoot2_casting_9d09327c:
     # m "Сегодня цыпочка - это женщина-вамп..."
     # biff "Что женщина-вамп хочет показать папочке?"
     mt "I need to pretend and to gain his trust..."
-    m "Yeah, the chick is coming to daddy..."
-    "Good chick..."
-    biff "Who's the chick tonight?"
-    m "Today Lady Noir is a chick..."
+    m "Yeah, the girl is coming to daddy..."
+    "Good girl..."
+    biff "Who's the girl tonight?"
+    m "Today Lady Noir is a girl..."
     biff "What does the woman want to show daddy?"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:184
@@ -263,10 +263,10 @@ translate english ep22_photoshoot2_casting_be98a9ea:
     # m "Ты заставил меня придти..."
     # mt "Ненавижу!!!"
     # biff "И что цыпочка будет делать?"
-    m "I came because I promised to behave like a good chick..."
+    m "I came because I promised to behave like a good girl..."
     m "You made me come here..."
     mt "I hate this!!!"
-    biff "And what is chick going to do?"
+    biff "And what is this girl going to do?"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:197
 translate english ep22_photoshoot2_casting_f4e1f245_1:
@@ -310,13 +310,13 @@ translate english ep22_photoshoot2_pose7_b78199ca:
     m "What's the fuck is this 'internal good'?!"
     "Showing my ass?"
     alex_photograph "Mrs. Buckfett!"
-    "Just a few frames!"
+    "Just a couple of shots!"
     m "Don't think!"
     mt "Oh my God! Why did I agree to do these shoots?"
     "If only I had a choice!"
     m "Okay, make it quick!"
-    "And don't take the camera too low!"
-    alex_photograph "Конечно, Мэм!"
+    "And don't aim the camera too low!"
+    alex_photograph "Of course, Ma'am!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:175
 translate english ep22_photoshoot2_casting_cb9f49f2:
@@ -328,7 +328,7 @@ translate english ep22_photoshoot2_casting_cb9f49f2:
 translate english ep22_photoshoot2_casting_e97962ff:
 
     # biff "О! Цыпочка пришла к папочке!"
-    biff "Oh, chick! Come to daddy!"
+    biff "That's right little girl, come to daddy!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:180
 translate english ep22_photoshoot2_casting_c0132395:
@@ -341,8 +341,8 @@ translate english ep22_photoshoot2_casting_26c7e3c1:
 
     # m "Да, цыпочка пришла к папочке..."
     # "Цыпочка хорошая..."
-    m "Yeah, the chick is coming to daddy..."
-    "Good chick..."
+    m "Yeah, the girl is coming to daddy..."
+    "Good girl..."
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:185
 translate english ep22_photoshoot2_casting_765c4c17:
@@ -350,15 +350,15 @@ translate english ep22_photoshoot2_casting_765c4c17:
     # biff "Кто сегодня цыпочка?"
     # m "Сегодня цыпочка - это Леди Нуар..."
     # biff "Что Леди Нуар хочет показать папочке?"
-    biff "Who's the chick tonight?"
-    m "Today, the chick is Lady Noir..."
+    biff "Who's the girl tonight?"
+    m "Today, the girl is Lady Noir..."
     biff "What does Lady Noir want to show daddy?"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:197
 translate english ep22_photoshoot2_casting_aaf46f34:
 
     # m "Я пришла, потому что обещала хорошо вести себя..."
-    m "I came because I promised to behave like a good chick..."
+    m "I came because I promised to behave like a good girl..."
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:200
 translate english ep22_photoshoot2_casting_8d3fe5d0:
@@ -368,13 +368,13 @@ translate english ep22_photoshoot2_casting_8d3fe5d0:
     # biff "И что цыпочка будет делать?"
     m "You made me come here..."
     mt "I hate this!!!"
-    biff "And what is chick going to do?"
+    biff "And what is this girl going to do?"
 
 translate english strings:
 
     # Quests/EP2_02/ep22_photoshoot2.rpy:154
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot2_casting_corruption_required]) (disabled)"
-    new "Behave as chick at Biff' casting... (low corruption, required [photoshoot2_casting_corruption_required]) (disabled)"
+    new "Be a good girl at Biff' casting... (low corruption, required [photoshoot2_casting_corruption_required]) (disabled)"
 
 # TODO: Translation updated at 2019-01-15 21:45
 
@@ -413,7 +413,7 @@ translate english ep22_photoshoot2_pose4_c63ee9ab:
 
     # m "Алекс, не вздумай подвинуть камеру ни на градус!"
     # alex_photograph "Хорошо, Мэм!"
-    m "Alex, don't move the camera by a degree!"
+    m "Alex, don't you dare move that camera another inch!"
     alex_photograph "All right, Ma'am!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:366
@@ -426,7 +426,7 @@ translate english ep22_photoshoot2_pose5_73085adc:
 translate english ep22_photoshoot2_pose5_f0182510:
 
     # m "Алекс, не вздумай подвинуть камеру ни на градус!"
-    m "Alex, don't move the camera by a degree!"
+    m "Alex, don't you dare move that camera another inch!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:400
 translate english ep22_photoshoot2_pose6_239fea7d:
@@ -448,7 +448,7 @@ translate english ep22_photoshoot2_pose6_239fea7d:
     m "What's the fuck is this 'internal good'?!"
     "Showing my ass?"
     alex_photograph "Mrs. Buckfett!"
-    "Just a few frames!"
+    "Just a couple of shots!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:411
 translate english ep22_photoshoot2_pose6_24e152e2:
@@ -471,8 +471,8 @@ translate english ep22_photoshoot2_pose6_997943ae:
     # "И не бери камеру слишком низко!"
     # alex_photograph "Конечно, Мэм!"
     m "Okay, make it quick!"
-    "And don't take the camera too low!"
-    alex_photograph "Конечно, Мэм!"
+    "And don't aim the camera too low!"
+    alex_photograph "Of course, Ma'am!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:457
 translate english ep22_photoshoot2_pose6_73085adc:
@@ -484,7 +484,7 @@ translate english ep22_photoshoot2_pose6_73085adc:
 translate english ep22_photoshoot2_pose6_f0182510:
 
     # m "Алекс, не вздумай подвинуть камеру ни на градус!"
-    m "Alex, don't move the camera by a degree!"
+    m "Alex, don't you dare move that camera another inch!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:531
 translate english ep22_photoshoot2_pose7_fa9935c8:
@@ -496,7 +496,7 @@ translate english ep22_photoshoot2_pose7_fa9935c8:
 translate english ep22_photoshoot2_pose7_f0182510:
 
     # m "Алекс, не вздумай подвинуть камеру ни на градус!"
-    m "Alex, don't move the camera by a degree!"
+    m "Alex, don't you dare move that camera another inch!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:562
 translate english ep22_photoshoot2_pose7_e4951120:
@@ -523,8 +523,8 @@ translate english ep22_photoshoot2_casting_c77c8d3d:
 
     # biff "Кто сегодня цыпочка?"
     # m "Сегодня цыпочка - это Леди Нуар..."
-    biff "Who's the chick tonight?"
-    m "Today, the chick is Lady Noir..."
+    biff "Who's the girl tonight?"
+    m "Today, the girl is Lady Noir..."
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:636
 translate english ep22_photoshoot2_casting_e32340a5:
@@ -544,4 +544,28 @@ translate english ep22_photoshoot2_casting_2b8d9f4a:
     # mt "Ненавижу!!!"
     # biff "И что цыпочка будет делать?"
     mt "I hate this!!!"
-    biff "And what is chick going to do?"
+    biff "And what is this girl going to do?"
+# TODO: Translation updated at 2019-03-02 22:55
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:601
+translate english ep22_photoshoot2_end_7d5cf100:
+
+    # mt "Биф ждет меня на свой дурацкий кастинг..."
+    # "Он говорил даст мне работу если я буду хорошей цыпочкой..."
+    # "Это позволит мне приблизиться к цели, возвратить мою компанию назад!"
+    # "Так может быть притвориться?"
+    # "Ведь у меня нет к нему чувств, я хладнокровная женщина, идущая к своей мести..."
+    mt "Biff is waiting for me to go through his stupid casting..."
+    "He said he'd give me a job if I would be a good girl..."
+    "I guess that would allow me to get closer my goal of getting my company back..."
+    "So maybe I should just pretend to be a good girl?"
+    "After all, I have no feelings for him. I'm a cold-blooded woman getting her revenge..."
+
+# game/Quests/EP2_02/ep22_photoshoot2.rpy:608
+translate english ep22_photoshoot2_end_65571a75:
+
+    # "..."
+    # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
+    "..."
+    "Damn... Especially since I promised him I'd be a good girl. Otherwise, he won't give me any work..."
+

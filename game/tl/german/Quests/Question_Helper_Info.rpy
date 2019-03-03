@@ -219,3 +219,35 @@ translate german strings:
     # Quests/Question_Helper_Info.rpy:115
     old "Вместо разноски флаеров я нашла более быстрый способ заработать. Он немного... неудобный, но ведь это ненадолго..."
     new "Ich habe einen schnelleren Weg gefunden, Geld zu verdienen, anstatt Flyer zu verteilen. Er ist etwas... unbequem, aber ich mache das ja nicht lange."
+# TODO: Translation updated at 2019-03-02 22:56
+
+translate german strings:
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Мелани обещала узнать всю правду про Дика. За это я согласилась поучаствовать с ней в какой-то фотосессии. Надеюсь я не пожалею об этом..."
+    new ""
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Это был жуткий кошмар, но я надеюсь оно того стоило! Ну держись, Виктория! Я нашла кое-кого кто тебе не по зубам!"
+    new ""
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "У меня появился шанс вернуть прежнюю жизнь! ШАНС!!! Неужели Мелани сможет мне помочь? Но что она захочет попросить взамен?.."
+    new ""
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "От Мелани нет новостей... Я даже боюсь представить что с ней..."
+    new ""
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Я жду новостей от Мелани..."
+    new ""
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Мелани решила унизить меня в обмен на свою помощь... Пойду-ли я на то что она предложила мне?"
+    new ""
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Я нашла способ зарабатывать на еду, моя посуду в Баре. Я не в восторге, но ведь это временно?"
+    new ""
+

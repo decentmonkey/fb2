@@ -588,7 +588,7 @@ translate english ep22_dialogues2_4_4307dcb3:
     # betty "Моника, гувернантка."
     # "Ты ведь убираешься в доме?"
     # m "Да, Мэм..."
-    betty "Monica, the maid."
+    betty "Monica, get over here."
     "You have been cleaning the house and all..."
     m "Yes, Ma'am..."
 
@@ -656,7 +656,7 @@ translate english ep22_dialogues2_4_d98d853a:
     # mt "Черт... Я ведь не позову Юлию сюда убирать это пятно..."
     # "Дьявол!!!"
     mt "Damn... I'm not going to call Julia in here to clean this stain..."
-    "Damn ye!!!"
+    "Damn it!!!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:396
 translate english ep22_dialogues2_4_9df6bae7:
@@ -718,7 +718,7 @@ translate english ep22_dialogues2_4_10294cc9:
     # "Я..."
     m "MA'am... I am..."
     "I'm afraid I can't take this carpet to the dry cleaners right now..."
-    "Я..."
+    "I..."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:420
 translate english ep22_dialogues2_4_17d2665a:
@@ -904,7 +904,7 @@ translate english ep22_dialogue2_8_9bf469f2:
 translate english ep22_dialogue2_8_a95e18d2:
 
     # fred "Конечно, Мэм!"
-    fred "Конечно, Мэм!"
+    fred "Of course, Ma'am!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:554
 translate english ep22_dialogue2_8_f2060836_1:
@@ -988,7 +988,7 @@ translate english ep22_dialogue2_8_1429de9c:
 translate english ep22_dialogue2_8_1afd056c:
 
     # "Вы мой Босс!"
-    "Вы мой Босс!"
+    "You're my Boss!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:675
 translate english ep22_dialogue2_8_1024d6cf:
@@ -1085,7 +1085,7 @@ translate english ep22_dialogue2_8_084dea06:
     # fred "Конечно, Мэм!"
     # "Это моя работа!"
     betty "I'll tell you when I want to do this again."
-    fred "Конечно, Мэм!"
+    fred "Of course, Ma'am!"
     "Absolutely, your wish is my command!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:735
@@ -1376,7 +1376,7 @@ translate english ep22_dialogue2_8_1_1429de9c:
 translate english ep22_dialogue2_8_1_1afd056c:
 
     # "Вы мой Босс!"
-    "Вы мой Босс!"
+    "You're my Boss!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:881
 translate english ep22_dialogue2_8_1_1024d6cf:
@@ -1473,7 +1473,7 @@ translate english ep22_dialogue2_8_1_084dea06:
     # fred "Конечно, Мэм!"
     # "Это моя работа!"
     betty "I'll tell you when I want to do this again."
-    fred "Конечно, Мэм!"
+    fred "Of course, Ma'am!"
     "Absolutely, your wish is my command!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:956

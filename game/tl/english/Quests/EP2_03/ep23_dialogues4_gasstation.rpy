@@ -8,11 +8,11 @@ translate english ep23_dialogues4_1_f7b89d71:
     # mt "Хорошо что она не узнает меня... Единственный плюс этой одежды..."
     # m "Я хочу купить продукты!"
     # saleswoman "У нас не работает касса! Так что попрошу выйти отсюда!"
-    saleswoman "Hey! Here is a decent gas station!"
+    saleswoman "Hey! It’s a decent gas station here!"
     "Why did you come?"
-    mt "It is good that she does not recognize me ... The only plus of this clothes ..."
-    m "I want to buy groceries!"
-    saleswoman "Our cash desk does not work! So I am asking you to get out of here!"
+    mt "Good, she cant recognize me. Only positive of wearing these clothes."
+    m "I'd like to buy some groceries."
+    saleswoman "Our cash register doesn’t work, so I'm asking you to leave."
 
 # game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:26
 translate english ep23_dialogues4_1_dec1a6c9:
@@ -20,8 +20,8 @@ translate english ep23_dialogues4_1_dec1a6c9:
     # mt "Сучка!"
     # "Эх! Какую-бы я сейчас устроила ей трепку, с огромным удовольствием!"
     # mt "Я еще вернусь сюда, когда закончится этот кошмар!"
-    mt "Сучка!"
-    "Eh! I would have kicked your ass, with great pleasure!"
+    mt "Bitch!"
+    "I would have kicked her ass, with great pleasure!"
     mt "I'll be back here when this nightmare ends!"
 
 # game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:31
@@ -32,25 +32,25 @@ translate english ep23_dialogues4_1_310491f9:
     # "Но нет... Сейчас это слишком опасно!"
     mt "Should I break something else here?"
     "To teach this bitch!"
-    "But no ... Now it is too dangerous!"
+    "No... it is too dangerous to do it now!"
 
 # game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:35
 translate english ep23_dialogues4_1_c8b9583f:
 
     # saleswoman "Выбирайте, но учтите, что я слежу, чтобы Вы ни украли ничего!"
-    saleswoman "Choose, but keep in mind that I am watching you! Don't steal anything!"
+    saleswoman "Okay, you can shop, but I'm watching you! Don’t even think about stealing something!"
 
 # game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:37
 translate english ep23_dialogues4_1_f0d79344:
 
     # mt "Сучка!"
-    mt "Сучка!"
+    mt "Bitch!"
 
 # game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:39
 translate english ep23_dialogues4_1_1d49c419:
 
     # mt "У меня нет денег на это..."
-    mt "I have no money for it ..."
+    mt "I don’t have money to buy it"
 
 translate english strings:
 
@@ -65,24 +65,24 @@ translate english ep23_dialogues4_1_c1c45173:
 
     # saleswoman "Эй! Здесь приличная заправка!"
     # "Зачем Вы пришли?"
-    saleswoman "Hey! Here is a decent gas station!"
+    saleswoman "Hey! It’s a decent gas station here!"
     "Why did you come?"
 
 # game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:31
 translate english ep23_dialogues4_1_e63f352a:
 
     # mt "Хорошо что она не узнает меня... Единственный плюс этой одежды..."
-    mt "It is good that she does not recognize me ... The only plus of this clothes ..."
+    mt "Good, she cant recognize me. Only positive of wearing these clothes."
 
 # game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:37
 translate english ep23_dialogues4_1_6450e148:
 
     # m "Я хочу купить продукты!"
-    m "I want to buy groceries!"
+    m "I'd like to buy some groceries."
 
 # game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:49
 translate english ep23_dialogues4_1_8ad40f85:
 
     # saleswoman "У нас не работает касса! Так что попрошу выйти отсюда!"
-    saleswoman "Our cash desk does not work! So I am asking you to get out of here!"
+    saleswoman "Our cash register doesn’t work, so I'm asking you to leave."
 

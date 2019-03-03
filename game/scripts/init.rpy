@@ -1,3 +1,7 @@
+define monicaWashHoldJoeCorruption = 150 # Кол-во corruption, требуемого чтобы Моника терпела лапание от бармена
+define monicaWashMolestJoeProgress = 10 # Прогресс за лапания от Джо
+define monicaWashMolestAshleyProgress = 25 # Прогресс за лапание от Эшли
+define monicaWashHoldAshleyCorruption = 150 # Кол-во corruption, требуемого чтобы Моника терпела лапание от барменши
 
 define bettyCleaningProgessAmount = 20 #5 #Прогресс с Бетти за уборку
 define bettyCleaningProgessAmountLevel3 = 10 # Прогресс с Бетти за уборку после lvl 3
@@ -216,6 +220,11 @@ label characters_init:
     }
 
     $ char_progress_stored = {}
+    return
+
+label characters_pub_init:
+    $ char_info["Bartender"] = {"name": _("Джо"), "name_orig":"Джо", "enabled":False, "face":"Face_Joe", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": _("Бармен в Shiny Hole"), "max_progress":100, "uplevel_label":"bartenderProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
+    $ char_info["Bartender_Waitress"] = {"name": _("Эшли"), "name_orig":"Эшли", "enabled":True, "face":"Face_Ashley", "style":"char_face_style1_pink",  "bar_suffix": "pink", "level":1, "current_progress":0, "caption": _("Жена бармена"), "max_progress":100, "uplevel_label":"bartenderWaitressProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
     return
 
 label define_autorun:

@@ -214,13 +214,13 @@ translate english citizen13_dialogue_pilon_loop13_a7283d00:
 translate english citizen13_dialogue_pilon_loop13_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes..."
+    m "I'm not taking off my clothes..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:97
 translate english citizen13_dialogue_pilon_loop13_06e5f23d:
 
     # citizen13 "Прекрасно, я вижу форму!"
-    citizen13 "Fine, I can see your shapes anyways!"
+    citizen13 "Fine, I can see your curves anyways!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:99
 translate english citizen13_dialogue_pilon_loop13_ea8db678:
@@ -250,7 +250,7 @@ translate english citizen13_dialogue_pilon_loop13_f7e05701:
 translate english citizen13_dialogue_pilon_loop13_48b1ace1_1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes..."
+    m "I'm not taking off my clothes..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:117
 translate english citizen13_dialogue_pilon_loop13_e9a25479:
@@ -576,17 +576,17 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:87
     old "Станцуй. (мало свиданий) (disabled)"
-    new ""
+    new "Станцуй. (мало свиданий) (disabled)"
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:87
     old "Станцуй."
-    new ""
+    new "Станцуй."
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:87
     old "Голые сиськи. (disabled)"
-    new ""
+    new "Голые сиськи. (disabled)"
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:87
     old "Голые сиськи."
-    new ""
+    new "Голые сиськи."
 

@@ -44,6 +44,7 @@ label ep23_dialogues1_1a:
     "Но, все-же... Может заглянуть туда?"
     menu:
         "Зайти в бар.":
+            $ remove_hook()
             return True
         "Уйти.":
             return False
@@ -51,18 +52,23 @@ label ep23_dialogues1_1a:
 
 label ep23_dialogues1_2:
     # Моника первый раз зашла в бар
-
     mt "О БОЖЕ!"
     "ЧТО ЭТО ЗА ДЫРА?!?"
     img 9662
+    with fade
     "???"
     "SHINY HOLE?!?"
     "ЭТО МЕСТО ТАК И НАЗЫВАЕТСЯ!"
 
     "Пожалуй, мне лучше уйти отсюда!"
+    return
 
+label ep23_dialogues1_2a:
     #при клике на бармена или барменшу
+    music2 stop
+    music Groove2_85
     img 9585
+    with fade
     ashley "Эй! Джо!"
     "К тебе пришла очередная шлюха!"
     "Сколько раз я тебе говорила не звать сюда работать шлюх!"
@@ -74,44 +80,58 @@ label ep23_dialogues1_2:
     "Это Джо подговорил тебя, чтобы ты так сказала мне?!"
     "Он вечно таскает сюда шлюх, а потом оправдывается передо мной!"
     img 9587
+    with fadelong
     joe "Эшли! Что ты кричишь здесь?!"
+    sound Jump2
     img 9588
     joe "О! Какая детка!"
+    music Pyro_Flow
     img 9589
+    with fade
     m "Я тебе не детка!"
     img 9590
     ashley "Джо, посмотри! Это не детка!"
     "Это шлюха!!!"
     mt "!!!"
     img 9591
+    with fade
     m "Хватит называть меня шлюхой!"
     "Я не заслуживаю такого обращения!"
     "Я зашла сюда, потому что увидела вывеску!"
     "Я клиент!!!"
+    music Groove2_85
     img 9592
+    with fade
     ashley "Ты?? Клиент?!"
     img 9593
+    with Dissolve(0.5)
     "Джо! Мало того что ты устроил здесь стриптиз!"
     "Хорошо, я терплю это, потому что это приносит деньги."
     img 9594
+    with fade
     "Но ты решил маскировать шлюх под клиентов?!"
     "Ты хочешь чтобы эта шлюха сидела здесь под видом посетителя и строила глазки всем вокруг?!"
     "А потом уводила их с собой до того как они заплатили?!"
     "Я не потерплю этого, Джо!"
-label ep23_dialogues1_2a:
+
+label ep23_dialogues1_2b:
     joe "Эшли! Я первый раз ее вижу!"
     joe "Если она и шлюха, то я ее точно не знаю."
     "Она не из нашего района."
     img 9595
+    with fade
     ashley "О, Да! Джо! Ты-то знаешь всех шлюх в этом районе!"
     joe "Я не это имел ввиду, Эшли..."
     img 9596
+    with fade
     menu:
         "Слушать их болтовню.":
-            jump ep23_dialogues1_2a
+            jump ep23_dialogues1_2b
         "Уйти.":
             pass
+    music Pyro_Flow
     img 9597
+    with fade
     m "Знаете что!"
     "Вы позволяете себе обсуждать человека, при его присутствии, в третьем лице!"
     "Я не знаю кто Вас воспитывал Вашим манерам..."
@@ -119,19 +139,29 @@ label ep23_dialogues1_2a:
     "До свидания!"
 
     #fade
+    music Groove2_85
     img 9598
     with fadelong
     joe "Послушайте, я не знаю как к Вам обращаться?"
     "Как Вас зовут?"
     img 9599
     m "Меня зовут Мо..."
+    music Hidden_Agenda
     mt "Черт! Лучше не называть свое настоящее имя здесь..."
     m "Меня зовут..."
     img 9600
     with fade
-    m "Меня зовут... Мэрилин..."
+    $ monica_pub_name = _("Мэрилин")
+    if renpy.android == True:
+        call screen input_softkeyboard
+        $ monica_pub_name = _return
+    else:
+        $ renpy.input(_("Меня зовут..."), monica_pub_name)
+    with fadelong
+    m "Меня зовут... [monica_pub_name]..."
     img 9601
-    joe "Мэрилин, слушай..."
+    with fade
+    joe "[monica_pub_name], слушай..."
     "Не обращай внимания на Эшли."
     "Просто ты действительно так одета, что она подумала..."
     img 9602
@@ -141,44 +171,58 @@ label ep23_dialogues1_2a:
     img 9603
     joe "Конечно нет! Я не имел это ввиду!"
     "Ты просто любишь носить такую одежду..."
+    music Power_Bots_Loop
     img 9604
+    with fade
     m "!!!"
+    music Groove2_85
     img 9605
+    with Dissolve(0.5)
     m "Я... не очень люблю носить такую одежду..."
     "И хватит комментариев об этом!"
     img 9606
-    joe "Да, Мэрилин, конечно."
+    with fade
+    joe "Да, [monica_pub_name], конечно."
     "Слушай, ты неплохо выглядишь!"
     "Ты бы могла работать у нас."
     "Здесь у нас гибкий график, перспективы карьерного роста и..."
+    music Pyro_Flow
     img 9607
+    with fade
     m "Хватит меня дурить!"
     "Ты хочешь чтобы я виляла задницей у того пилона!?"
     img 9608
     joe "..."
     img 9609
+    with Dissolve(0.5)
     mt "Еще бы! Моника Бакфетт! С обложки Модного Журнала!"
     "Самая красивая девушка в городе!"
     "Конечно он хотел бы чтобы такая как я работала здесь, виляя задницей!"
     "Но этого не будет никогда!"
     "Я никогда не опущусь до того, чтобы делать это... У всех на виду..."
+    music Groove2_85
     img 9610
+    with fade
     joe "Ну почему-же сразу у пилона..."
     "У нас есть работа посудомойкой или официанткой."
     "Хорошие чаевые и бесплатная еда для персонала."
+    music Hidden_Agenda
     img 9611
+    with Dissolve(0.5)
     m "Бесплатная еда?"
     img 9612
     joe "Да! И очень вкусная!"
     "Для персонала у нас те же блюда, что и для гостей!"
+    music Pyro_Flow
     img 9613
+    with fade
     m "Я сомневаюсь в том что меня это заинтересует!"
     img 9614
     joe "Приходи, если надумаешь!"
 
     return
 
-label ep23_dialogues1_2b:
+label ep23_dialogues1_2c:
     # autorun на улице
     mt "Черт!"
     "Горячая и вкусная еда..."
@@ -195,7 +239,7 @@ label ep23_dialogues1_2b:
     "(хмык)"
     "Но что мне делать? Мне же надо где-то есть!"
     "Притом, меня в этом районе никто не узнает."
-    "Да и там я назвалась другим именем... Мэрилин..."
+    "Да и там я назвалась другим именем... [monica_pub_name]..."
 
 #Marilyn
 
@@ -209,10 +253,13 @@ label ep23_dialogues1_3:
         mt "Как зовут этого бармена?"
         "Кажется, Джо?"
         return False
+    music2 stop
+    music Groove2_85
     img 9616
     with fade
-    joe "О! Мэрилин! Привет!"
+    joe "О! [monica_pub_name]! Привет!"
     "Ты надумала работать у нас?"
+    music Hidden_Agenda
     menu:
         "Да, я хочу устроиться на работу.":
             pass
@@ -220,20 +267,27 @@ label ep23_dialogues1_3:
             return False
     m "Да, я хочу устроиться на работу."
     joe "Отлично!"
+    music Groove2_85
     img 9617
+    with fade
     "Эшли! Иди сюда! Она пришла!"
     # fade
     img 9618
+    with fadelong
     ashley "А! Это ты?!"
     "Джо уговорил меня взять тебя."
     "У тебя действительно хорошая задница и ты принесешь много денег, если будет танцевать у нас."
+    music Pyro_Flow
     img 9619
     m "ЧТО?! Я НЕ СОБИРАЮСЬ ТАНЦЕВАТЬ ЗДЕСЬ!!!"
+    music Groove2_85
     img 9620
+    with fade
     ashley "А зачем же ты пришла тогда?"
     m "Джо сказал что у Вас есть нормальная работа здесь."
     "Я могу работать официанткой."
     img 9621
+    with Dissolve(0.5)
     ashley "Джо! Мало того что ты набрал шлюх для танцев!"
     "Ты еще решил лишить меня работы?!"
     "Может быть ты меня тоже хочешь заменить на какую-нибудь шлюху, А?!"
@@ -243,14 +297,19 @@ label ep23_dialogues1_3:
     "И она может помочь тебе."
     "В конце концов, я думаю она будет не против если ты будешь мало платить ей."
     joe "Она обрадовалась даже тому что здесь есть бесплатная горячая еда для персонала!"
+    music Hidden_Agenda
     img 9622
+    with fade
     m "!!!"
     mt "Я?! Обрадовалась?!"
     "Неужели это было написано у меня на лице?!"
     "О БОЖЕ!!!"
+    music Groove2_85
     img 9623
+    with fade
     ashley "Это правда? Тебя устроит если тебе будут платить очень мало?"
     img 9624
+    with Dissolve(0.5)
     m "..."
     m "По правде говоря... Я бы хотела заработать здесь..."
     img 9625
@@ -260,7 +319,9 @@ label ep23_dialogues1_3:
     m "..."
     m "Я... Эммм..."
     "У меня нет документов сейчас."
+    music Power_Bots_Loop
     img 9626
+    with fade
     ashley "ЧТО?!?!"
     m "Но они будут позже! Я обещаю!"
     ashley "Вот позже и приходи!"
@@ -268,6 +329,7 @@ label ep23_dialogues1_3:
     "Любая проверка нас оштрафует!"
     "У нашего заведения и так плохая репутация! Я не хочу ее портить еще сильнее!"
     img 9627
+    with fade
     menu:
         "Пожалуйста! Дайте хоть какую-то работу!":
             pass
@@ -275,6 +337,7 @@ label ep23_dialogues1_3:
             return False
 
     img 9628
+    with fade
     m "Пожалуйста! Дайте хоть какую-то работу!"
     "Я слышала у Вас есть вакансия посудомойки!"
     ashley "Я не собираюсь платить нелегальному работнику!"
@@ -283,11 +346,15 @@ label ep23_dialogues1_3:
             pass
         "Уйти.":
             return False
+    music Hidden_Agenda
     img 9629
+    with fade
     m "Я буду работать за еду..."
     m "Я слышала что у Вас есть бесплатная еда для персонала..."
     "Если Вы не будете мне платить, то Вы ничем не рискуете..."
+    music Power_Bots_Loop
     img 9630
+    with Dissolve(0.5)
     ashley "Бесплатно? Почему ты на это согласна?!"
     "Может быть ты какая-то заразная! Или грязная!"
     "Если нет документов, значит нет медицинских справок!"
@@ -298,7 +365,9 @@ label ep23_dialogues1_3:
     mt "АААААААА!!!"
     "ДА Я ЧИЩЕ ЧЕМ ВЫ ВСЕ ВМЕСТЕ ВЗЯТЫЕ ЗДЕСЬ!!!"
     "ЖАЛКИЕ НИЧТОЖЕСТВА!!!"
+    music Hidden_Agenda
     img 9632
+    with fade
     mt "..."
     m "Эшли, я умею мыть посуду..."
     "Я долгое время работала гувернанткой в богатых домах..."
@@ -307,21 +376,25 @@ label ep23_dialogues1_3:
     "Но Вы можете посмотреть на меня и убедиться что я очень чистоплотная."
     "Вы можете рассчитывать на меня..."
     img 9633
+    with Dissolve(0.5)
     ashley "..."
     ashley "Хорошо. Можешь приходить и мыть посуду."
     "Я пока не буду брать тебя на постоянную работу."
     "Я хочу к тебе присмотреться."
     "За эту работу ты будешь получать бесплатную еду, которую ест персонал."
     "Это вкусная еда! Я сама готовлю ее!"
+    music Groove2_85
     img 9634
+    with Dissolve(0.5)
     mt "Не думаю что ты готовишь лучше, чем мне готовила Юлия!"
     "!!!"
+    music Hidden_Agenda
     img 9635
     with fade
     m "Да, Эшли. Спасибо Вам за доверие!"
     img 9636
-    with fade
-    joe "Добро пожаловать, Мэрилин!"
+    with fadelong
+    joe "Добро пожаловать, [monica_pub_name]!"
     return
 
 
@@ -339,85 +412,126 @@ label ep23_dialogues1_4:
     "Я не собираюсь лишний раз быть жалкой посудомойкой!"
     "Я - Королева, а не посудомойка!"
     #
+    return
 
+label ep23_dialogues1_4a:
+    # Моника работает
     menu:
         "Мыть посуду.":
-            pass
+            return True
         "Уйти.":
             return False
 
+label ep23_dialogues1_4a2:
     # Моника моет посуду
-    $ monicaWashingDishesImages = [9637, 9638, 9639]
-    $ monicaWashingDishesImages2 = [9640, 9641, 9642]
-    mt "Никогда бы не подумала что буду мыть посуду в подобной дыре..."
-    mt "Не могу поверить что я делаю это..."
-    mt "У меня ощущение что все это сон..."
-    mt "Мне надо определенно что-то менять в этой ситуации... И как можно быстрее!"
+    music2 stop
 
+    music stop
+    sound snd_washing_dishes
+    $ monicaWashingDishesImages = [9637, 9638, 9639]
+    call showRandomImagesFirstFade(monicaWashingDishesImages, 1)
+    $ monicaWashingDishesImages2 = [9640, 9641, 9642]
+    call showRandomImagesFirstFade(monicaWashingDishesImages2, 1)
+    $ rand1 = rand(1,4)
+    if rand1 == 1:
+        mt "Никогда бы не подумала что буду мыть посуду в подобной дыре..."
+    if rand1 == 2:
+        mt "Не могу поверить что я делаю это..."
+    if rand1 == 3:
+        mt "У меня ощущение что все это сон..."
+    if rand1 == 4:
+        mt "Мне надо определенно что-то менять в этой ситуации... И как можно быстрее!"
+
+    return
+
+label ep23_dialogues1_4b: # Бармен
 
     # Клик на бармена
     # Бармен лапает Монику
+    music Hidden_Agenda
     img 9643
     with fade
     w
     img 9644
+    with Dissolve(0.3)
     w
     sound Jump2
     img 9645
-    with Dissolve(0.5)
+    with Dissolve(0.3)
     w
     mt "Черт! Кажется, этот извращенец Джо пытается меня незаметно лапать!"
     menu:
         "Не обращать внимание... (corruption)" if corruption >= monicaWashHoldJoeCorruption:
+            sound snd_washing_dishes
+            music Loved_Up
             img 9646
+            with Dissolve(0.3)
             w
             img 9647
+            with Dissolve(0.3)
             w
             img 9648
+            with Dissolve(0.3)
             w
+            $ add_char_progress("Bartender", monicaWashMolestJoeProgress, "PS1_JoeProgressMolest_day" + str(day))
+            music Groove2_85
 
         "Не обращать внимание... (low corruption, required [monicaWashHoldJoeCorruption]) (disabled)" if corruption < monicaWashHoldJoeCorruption:
             pass
         "Прекратить это!":
+            music Power_Bots_Loop
             img 9649
+            with fade
             m "Джо! Ты что-то хотел взять здесь?"
-            joe "Да, Мэрилин!"
+            joe "Да, [monica_pub_name]!"
             "Я хочу взять чистую пивную кружку!"
 
     img 9650
     with fadelong
     mt "Это место - действительно Shiny Hole с извращенцами!"
+    return
 
-
+label ep23_dialogues1_4c: # Барменша
     # Клик на барменшу
     # Барменша лапает Монику
+    music Hidden_Agenda
     img 9651
     with fade
     w
     img 9652
+    with Dissolve(0.3)
     w
     img 9653
+    with Dissolve(0.3)
     w
     sound Jump2
     img 9654
-    with Dissolve(0.5)
+    with Dissolve(0.3)
     w
-
 
     mt "Черт! Эшли меня трогает за зад?!"
     menu:
         "Не обращать внимание... (corruption)" if corruption >= monicaWashHoldAshleyCorruption:
+            sound snd_washing_dishes
+            music Loved_Up
             img 9655
+            with Dissolve(0.3)
             w
             img 9656
+            with Dissolve(0.3)
             w
             img 9657
+            with Dissolve(0.3)
             w
+            $ add_char_progress("Bartender_Waitress", monicaWashMolestAshleyProgress, "PS1_AshleyProgressMolest_day" + str(day))
+            music Groove2_85
 
         "Не обращать внимание... (low corruption, required [monicaWashHoldAshleyCorruption]) (disabled)" if corruption < monicaWashHoldAshleyCorruption:
             pass
         "Прекратить это!":
+            music Power_Bots_Loop
             img 9658
+            with fade
             m "Эшли! Ты что-то хотела взять здесь?"
             ashley "Я слежу чтобы ты лучше мыла посуду!"
             "Везде грязь!"
@@ -431,23 +545,28 @@ label ep23_dialogues1_4:
 
 label ep23_dialogues1_5:
     # Моника помыла посуду
-
+    music Groove2_85
     mt "Все! Хватит! Я не собираюсь дальше портить руки моющими средствами!"
     img 9659
+    with fade
     m "Эшли, я помыла посуду... Где моя еда?"
     ashley "Я видела, ты помыла не все и не очень хорошо."
     "Но, так уж и быть, иди поешь..."
+    if char_info["Bartender_Waitress"]["level"] >= 2:
     # если lvl2, то уходящую Монику лапает за попу
-    sound Jump2
-    img 9660
-    w
+        sound Jump2
+        img 9660
+        with Dissolve(0.5)
+        w
 
     # fade
     img 9661
     with fade
     mt "По крайней мере это действительно вкусная еда... По сравнению с кебабом..."
     mt "И я честно заработала ее..."
-
+    sound snd_gulp
+    img black_screen
+    with fade
     return
 
 

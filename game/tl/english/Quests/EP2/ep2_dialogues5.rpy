@@ -6,7 +6,7 @@ translate english monica_rich_hotel_entrance_b6cdf6f7:
     # biff "Добрый вечер!"
     # "Я веду этих цыпочек на благотворительный вечер!"
     biff "Good evening!"
-    "I'm taking these chicks to the charity event!"
+    "I'm taking these ladiess to the charity event!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:12
 translate english monica_rich_hotel_entrance_134f69df:
@@ -343,7 +343,7 @@ translate english monica_charity_event_dialogue2a_ebbf765c:
 
     # biff "Молодец, цыпочка!"
     # "Продолжай играть!"
-    biff "Good, chick!"
+    biff "Good, girl!"
     "Keep acting!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:216
@@ -469,7 +469,7 @@ translate english monica_charity_event_dialogue4_07965b42:
     # "Ты хорошо поработала!"
     m "Biff!"
     "Are you satisfied with my performance?"
-    biff "Yeah, chick!"
+    biff "Yeah, girl!"
     "You did well!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:286
@@ -693,7 +693,7 @@ translate english monica_charity_event_dialogue8_212059e7:
     mt "Fi! Another annoying creature!"
     "Let him down!"
     "..."
-    "Хотя..."
+    "Although..."
     "Buy some wine..."
     "Why not?..."
     "At least he looks rich..."
@@ -924,7 +924,7 @@ translate english monica_charity_event_dialogue8_a75aa7bb:
 translate english monica_charity_event_dialogue8_84c28420:
 
     # philip "Конечно, Мэм!"
-    philip "Конечно, Мэм!"
+    philip "Of course, Ma'am!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:544
 translate english monica_charity_event_dialogue8_cb46d0b8:
@@ -1058,7 +1058,7 @@ translate english monica_charity_event_dialogue10_a4c4e9f1:
 translate english monica_charity_event_dialogue10_edfbdedc:
 
     # biff "Иди сюда, цыпочка!"
-    biff "Come here, chick!"
+    biff "Come here, girl!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:612
 translate english monica_charity_event_dialogue10_65cd6077:
@@ -1099,7 +1099,7 @@ translate english monica_charity_event_dialogue10_4bbd69f7:
     # "Не повышай на меня голос!"
     # "Это деньги за вычетом благотворительного вечера!"
     # "Я не стал вычитать сумму взносов, но вычел расходы на еду и напитки!"
-    biff "I remember everything, chick!"
+    biff "I remember everything, girl!"
     "Don't raise your voice at me!"
     "This is the money minus the benefit of charity!"
     "I did not deduct the number of contributions, but the cost of your food and drinks!"
@@ -1564,7 +1564,7 @@ translate english monica_charity_event_dialogue16_7bf82a1d:
     # "Правда, Мелани?"
     "I have no secrets from tiny Melanie!"
     "And she hasn't got any either!"
-    "Правда, Мелани?"
+    "Right, Melanie?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:895
 translate english monica_charity_event_dialogue16_8108a8af:
@@ -1576,19 +1576,19 @@ translate english monica_charity_event_dialogue16_8108a8af:
 translate english monica_charity_event_dialogue16_2c17a002:
 
     # biff "Вот видишь, цыпочка!"
-    biff "See, chick?"
+    biff "See, girl?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:906
 translate english monica_charity_event_dialogue16_ef28a711:
 
     # m "Биф, пожалуйста, дай деньги. Я буду хорошей цыпочкой..."
-    m "Biff, please give me the money. I'm gonna be a good chick..."
+    m "Biff, please give me the money. I'll be a good girl..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:911
 translate english monica_charity_event_dialogue16_f4bd0c25:
 
     # biff "Хорошей цыпочкой - это какой?"
-    biff "What's a good chick?"
+    biff "What's a good girl?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:914
 translate english monica_charity_event_dialogue16_d22766a9:
@@ -1667,7 +1667,7 @@ translate english monica_charity_event_dialogue16_d61b8796:
     # "Держи $ 1.000 и поехали в офис!"
     # "Ты забыла там свою одежду!"
     # "Ха-ха-ха!"
-    "Okay, chick!"
+    "Okay, girl!"
     "Take $ 1.000 and go to the office!"
     "You left your clothes there!"
     "Ha ha ha!"
@@ -2032,7 +2032,7 @@ translate english monica_charity_event_dialogue18_d7fc46bf:
     # "Но нет!"
     # "Теперь я уверен что $ 500 он стоит вполне!"
     philip "Mrs. Buckfett!"
-    "Отлично!"
+    "Excellent!"
     "I imagine that you have a lack of practice!"
     "But I'm actually enjoying this!"
     "To be honest, I doubted that your mouth was worth $ 500!"
@@ -2203,7 +2203,7 @@ translate english monica_charity_event_dialogue18_40240c22:
     # "Знаете что..."
     # "Вы сделаете миньет первому мужчине, который зайдет сюда!"
     # "Тогда Вы получите еще $ 500!"
-    philip "Хотя..."
+    philip "Although..."
     "You know what?..."
     "You'll blow the first man who comes in here!"
     "Then you get another $ 500!"
@@ -2505,7 +2505,7 @@ translate english monica_charity_event_dialogue18_loopa1_f90b5f70:
     hotel_staff "So, Sir?"
     philip "Fuck her mouth!"
     "Why are you pottering with her?!"
-    hotel_staff "Простите, Мэм!"
+    hotel_staff "I'm sorry, Ma'am!"
     "Please don't fire me!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1550
@@ -2597,7 +2597,7 @@ translate english monica_charity_event_dialogue18_loopa1_4dc77364:
 
     # hotel_staff "Конечно, Мэм!"
     # "Я никому не скажу!"
-    hotel_staff "Конечно, Мэм!"
+    hotel_staff "Of course, Ma'am!"
     "I won't!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1639
@@ -2760,7 +2760,7 @@ translate english monica_office_biff_dialogue_evening1_0a5616b8:
 translate english monica_office_biff_dialogue_evening1_0886f698:
 
     # biff "До следующей фотосессии, цыпочка!"
-    biff "See you at the next photo shoot, chick!"
+    biff "See you at the next photo shoot, girl!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1739
 translate english monica_office_biff_dialogue_evening1_75e593a3:
@@ -2940,7 +2940,7 @@ translate english strings:
 
     # Quests/EP2/ep2_dialogues5.rpy:899
     old "Биф, пожалуйста, дай деньги. Я буду хорошей цыпочкой..."
-    new "Biff, please give me the money. I'm gonna be a good chick..."
+    new "Biff, please give me the money. I'll be a good girl..."
 
     # Quests/EP2/ep2_dialogues5.rpy:899
     old "Я ни за что это не скажу! Уйти."
@@ -3022,7 +3022,7 @@ translate english monica_rich_hotel_entrance_31ad8d20:
     # biff "Добрый вечер!"
     # "Я веду этих цыпочек на благотворительный вечер!"
     biff "Good evening!"
-    "I'm taking these chicks to the charity event!"
+    "I'm taking these ladiess to the charity event!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:54
 translate english monica_charity_event_dialogue1_61d2530c:
@@ -3077,7 +3077,7 @@ translate english monica_charity_event_dialogue2a_195dfcea:
 
     # biff "Молодец, цыпочка!"
     # "Продолжай играть!"
-    biff "Good, chick!"
+    biff "Good, girl!"
     "Keep acting!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:280
@@ -3089,7 +3089,7 @@ translate english monica_charity_event_dialogue4_d3e53b66:
     # "Ты хорошо поработала!"
     m "Biff!"
     "Are you satisfied with my performance?"
-    biff "Yeah, chick!"
+    biff "Yeah, girl!"
     "You did well!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:286
@@ -3140,7 +3140,7 @@ translate english monica_charity_event_dialogue10_29306ad4:
 translate english monica_charity_event_dialogue10_b6a087bd:
 
     # biff "Иди сюда, цыпочка!"
-    biff "Come here, chick!"
+    biff "Come here, girl!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:612
 translate english monica_charity_event_dialogue10_041616f4:
@@ -3155,7 +3155,7 @@ translate english monica_charity_event_dialogue10_89a515cc:
     # "Не повышай на меня голос!"
     # "Это деньги за вычетом благотворительного вечера!"
     # "Я не стал вычитать сумму взносов, но вычел расходы на еду и напитки!"
-    biff "I remember everything, chick!"
+    biff "I remember everything, girl!"
     "Don't raise your voice at me!"
     "This is the money minus the benefit of charity!"
     "I did not deduct the number of contributions, but the cost of your food and drinks!"
@@ -3190,13 +3190,13 @@ translate english monica_charity_event_dialogue16_8c04d6f1:
 translate english monica_charity_event_dialogue16_8952d999:
 
     # biff "Вот видишь, цыпочка!"
-    biff "See, chick?"
+    biff "See, girl?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:911
 translate english monica_charity_event_dialogue16_7d6edbde:
 
     # biff "Хорошей цыпочкой - это какой?"
-    biff "What's a good chick?"
+    biff "What's a good girl?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:921
 translate english monica_charity_event_dialogue16_ec258e6e:
@@ -3256,7 +3256,7 @@ translate english monica_office_biff_dialogue_evening1_87428f5c:
 translate english monica_office_biff_dialogue_evening1_ababf4e4:
 
     # biff "До следующей фотосессии, цыпочка!"
-    biff "See you at the next photo shoot, chick!"
+    biff "See you at the next photo shoot, girl!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1742
 translate english monica_office_biff_dialogue_evening1_7a886726:
@@ -3556,7 +3556,7 @@ translate english monica_charity_event_dialogue8a_a75aa7bb:
 translate english monica_charity_event_dialogue8a_84c28420:
 
     # philip "Конечно, Мэм!"
-    philip "Конечно, Мэм!"
+    philip "Of course, Ma'am!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:726
 translate english monica_charity_event_dialogue8a_cb46d0b8:
@@ -3826,7 +3826,7 @@ translate english monica_charity_event_dialogue18_local3_d7fc46bf:
     # "Но нет!"
     # "Теперь я уверен что $ 500 он стоит вполне!"
     philip "Mrs. Buckfett!"
-    "Отлично!"
+    "Excellent!"
     "I imagine that you have a lack of practice!"
     "But I'm actually enjoying this!"
     "To be honest, I doubted that your mouth was worth $ 500!"
@@ -3995,7 +3995,7 @@ translate english monica_charity_event_dialogue18_local4_852d67ec:
 
     # philip "Хотя..."
     # "Знаете что..."
-    philip "Хотя..."
+    philip "Although..."
     "You know what?..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1723
@@ -4271,7 +4271,7 @@ translate english monica_charity_event_dialogue18_loopa1_7562759e:
 
     # hotel_staff "Простите, Мэм!"
     # "Пожалуйста, не увольняйте меня!"
-    hotel_staff "Простите, Мэм!"
+    hotel_staff "I'm sorry, Ma'am!"
     "Please don't fire me!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2027
@@ -4345,7 +4345,7 @@ translate english monica_charity_event_dialogue18_local6_4dc77364:
 
     # hotel_staff "Конечно, Мэм!"
     # "Я никому не скажу!"
-    hotel_staff "Конечно, Мэм!"
+    hotel_staff "Of course, Ma'am!"
     "I won't!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2118
@@ -4560,7 +4560,7 @@ translate english monica_charity_event_dialogue18_local3_1d7fc3ae:
     # "Чувствуется что у Вас недостаток практики!"
     # "Но мне это даже нравится!"
     philip "Mrs. Buckfett!"
-    "Отлично!"
+    "Excellent!"
     "I imagine that you have a lack of practice!"
     "But I'm actually enjoying this!"
 

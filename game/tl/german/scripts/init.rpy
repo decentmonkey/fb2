@@ -118,3 +118,15 @@ translate german strings:
     old "Фотограф извращенец"
     new "Perverser Photograph"
 
+# TODO: Translation updated at 2019-03-03 21:01
+
+translate german strings:
+
+    # scripts/init.rpy:226
+    old "Бармен в Shiny Hole"
+    new ""
+
+    # scripts/init.rpy:227
+    old "Жена бармена"
+    new ""
+

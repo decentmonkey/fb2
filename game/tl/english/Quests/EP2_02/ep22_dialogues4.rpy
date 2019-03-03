@@ -4,7 +4,7 @@
 translate english ep22_dialogues4_1_ba11ae58:
 
     # betty "Моника, гувернантка."
-    betty "Monica, the maid."
+    betty "Monica, get over here."
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:33
 translate english ep22_dialogues4_1_000edcab:
@@ -34,7 +34,7 @@ translate english ep22_dialogues4_1_1ff29d6f:
 translate english ep22_dialogues4_1_00e9e1c8:
 
     # betty "Да, получше чем ты!"
-    betty "Better than you!"
+    betty "Obviously. Much better than you!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:45
 translate english ep22_dialogues4_1_e7510b40:
@@ -310,7 +310,7 @@ translate english ep22_dialogues4_5a_561c598c:
     # stephanie "Да, Моника!"
     # "Я допускаю что Вы играете с Диком в какие-то странные игры."
     # "Но зачем позволять так общаться с собой, как делает эта провинциальная дура!"
-    stephanie "Да, Моника!"
+    stephanie "Yeah..."
     "I assume that it's a very strange game you're playing with Dick..."
     "But why do you let that provincial fool talk to you the way she does!"
 
@@ -406,9 +406,9 @@ translate english ep22_dialogues4_5a_220949df:
     # m "Пока, девочки!"
     m "Okay, girls."
     "You can go training now..."
-    stephanie "Пока, Моника!"
+    stephanie "Bye, Monica!"
     rebecca "Bye, my friend!"
-    m "Пока, девочки!"
+    m "Bye, girls!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:280
 translate english ep22_dialogues4_6_fa966bab:
@@ -630,7 +630,7 @@ translate english ep22_dialogues4_8_a9603673:
 translate english ep22_dialogues4_8_ba5d8068:
 
     # rebecca "Привет, Моника!"
-    rebecca "Привет, Моника!"
+    rebecca "Hello, Monica!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:411
 translate english ep22_dialogues4_8_2f6634b3:
@@ -673,7 +673,7 @@ translate english ep22_dialogues4_8_34c14dac:
 
     # m "Привет, девочки!"
     # "Я уже скоро закончу свое приключение."
-    m "Привет, девочки!"
+    m "Hey, girls!"
     "I'm soon about to finish my adventure."
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:438

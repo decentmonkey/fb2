@@ -177,7 +177,7 @@ translate english citizen1_dialogue_pilon_6ba7637a:
     # citizen1 "Да, тетя, и до сих пор хотим!"
     m "Hey, guys! Tell me, do you have any money?"
     citizen1 "It depends on you, tramp. Why do you ask?"
-    m "If recall correctly, you wanted me..."
+    m "If I recall correctly, you wanted me..."
     citizen1 "Yes, tramp, and I still do!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:73
@@ -186,7 +186,7 @@ translate english citizen1_dialogue_pilon_06c6eafd:
     # m "Ну, я могу Вам кое-что показать, только нам лучше уйти отсюда."
     # citizen1 "Конечно, тетя, без проблем."
     # citizen1 "Ну что, тетя..."
-    m "Well, I can show myself for you, but we'd better get out of here."
+    m "Well, I can show myself to you, but we'd better get out of here."
     citizen1 "Of course, tramp, no problem."
     citizen1 "Now, tramp!"
 
@@ -212,13 +212,13 @@ translate english citizen1_dialogue_pilon_loop1_a7283d00:
 translate english citizen1_dialogue_pilon_loop1_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes..."
+    m "I'm not taking off my clothes..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:96
 translate english citizen1_dialogue_pilon_loop1_92ed4ca8:
 
     # citizen1 "Отличные сиськи, но как насчет того, чтобы снять все лишнее?"
-    citizen1 "Nice tits, but how about we take the extra ones off?"
+    citizen1 "Nice tits, but how about we take some of those extra clothes off?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:98
 translate english citizen1_dialogue_pilon_loop1_095af695:
@@ -254,7 +254,7 @@ translate english citizen1_dialogue_pilon_loop1_f7e05701:
 translate english citizen1_dialogue_pilon_loop1_48b1ace1_1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes..."
+    m "I'm not taking off my clothes..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:117
 translate english citizen1_dialogue_pilon_loop1_4cf0df57:
@@ -273,7 +273,7 @@ translate english citizen1_dialogue_pilon_loop1_508767ff:
 
     # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen1 "Okay, tramp, that's will do. Until next time. Here's your reward!"
+    citizen1 "Okay, tramp, that will do. Until next time. Here's your reward!"
     m "What?! This little? Well, at least I'll be rich soon when I get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:130
@@ -281,7 +281,7 @@ translate english citizen1_dialogue_pilon_loop1_508767ff_1:
 
     # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
     # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen1 "Okay, tramp, that's will do. Until next time. Here's your reward!"
+    citizen1 "Okay, tramp, that will do. Until next time. Here's your reward!"
     m "What?! This little? Well, at least I'll be rich soon when I get my life back..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:136
@@ -354,7 +354,7 @@ translate english citizen1_dialogue_pilon_loop1_09e94663:
     # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen1 "Okay, tramp, that's will do. Until next time. Here's your reward!"
+    citizen1 "Okay, tramp, that will do. Until next time. Here's your reward!"
     m "What?! This little?"
     mt "Well, at least I'll be rich soon when I get my life back..."
 
@@ -364,7 +364,7 @@ translate english citizen1_dialogue_pilon_loop1_09e94663_1:
     # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
     # m "Что?! Так мало? Мог бы дать и больше!"
     # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen1 "Okay, tramp, that's will do. Until next time. Here's your reward!"
+    citizen1 "Okay, tramp, that will do. Until next time. Here's your reward!"
     m "What?! This little?"
     mt "Well, at least I'll be rich soon when I get my life back..."
 
@@ -375,7 +375,7 @@ translate english citizen1_dialogue_pilon_768312b2:
 
     # m "Ну, я могу Вам кое-что показать, только нам лучше уйти отсюда."
     # citizen1 "Конечно, тетя, без проблем."
-    m "Well, I can show myself for you, but we'd better get out of here."
+    m "Well, I can show myself to you, but we'd better get out of here."
     citizen1 "Of course, tramp, no problem."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:78
@@ -388,7 +388,7 @@ translate english citizen1_dialogue_pilon_fa7ebf82:
 translate english citizen1_dialogue_pilon_loop1_7f42aa72:
 
     # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
-    citizen1 "Okay, tramp, that's will do. Until next time. Here's your reward!"
+    citizen1 "Okay, tramp, that will do. Until next time. Here's your reward!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:136
 translate english citizen1_dialogue_pilon_loop1_ea17d522:
@@ -403,7 +403,7 @@ translate english citizen1_dialogue_pilon_loop1_619b5b93:
 
     # citizen1 "Ну все, тетя, хватит. До следующщео раза. Вот, держи."
     # m "Что?! Так мало? Мог бы дать и больше!"
-    citizen1 "Okay, tramp, that's will do. Until next time. Here's your reward!"
+    citizen1 "Okay, tramp, that will do. Until next time. Here's your reward!"
     m "What?! This little?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:146
@@ -422,7 +422,7 @@ translate english citizen1_dialogue_pilon_936eb796:
     # m "Вы помнится хотели на меня посмотреть..."
     m "Hey, guys! Tell me, do you have any money?"
     citizen1 "It depends on you, tramp. Why do you ask?"
-    m "If recall correctly, you wanted me..."
+    m "If I recall correctly, you wanted me..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:71
 translate english citizen1_dialogue_pilon_907316aa:
@@ -431,7 +431,7 @@ translate english citizen1_dialogue_pilon_907316aa:
     # m "Ну, я могу Вам кое-что показать, только нам лучше уйти отсюда."
     # citizen1 "Конечно, тетя, без проблем."
     citizen1 "Yes, tramp, and I still do!"
-    m "Well, I can show myself for you, but we'd better get out of here."
+    m "Well, I can show myself to you, but we'd better get out of here."
     citizen1 "Of course, tramp, no problem."
 # TODO: Translation updated at 2019-02-28 21:29
 

@@ -320,3 +320,75 @@ translate german citizen5_dialogue_pilon_loop5_ea17d522_1:
     m "Was?! So wenig? Du könntest schon mehr geben!"
     mt "Bald werde ich wieder reich sein und mein Leben zurück haben..."
 
+# TODO: Translation updated at 2019-03-02 22:56
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:122
+translate german citizen5_dialogue_pilon_loop5_8755393e:
+
+    # citizen5 "Я желаю ведеть тебя танцующей."
+    citizen5 "Я желаю ведеть тебя танцующей."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:125
+translate german citizen5_dialogue_pilon_loop5_d15b9b6b:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    mt "Das kann ich mir nicht leisten!"
+    "So sehr am Boden bin ich nun auch noch nicht!"
+    "Und ich hoffe, dass das NIE passieren wird!"
+    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:134
+translate german citizen5_dialogue_pilon_loop5_c6b5282d:
+
+    # m "Хорошо, только не долго."
+    # mt "Только потому, что ты заплатишь."
+    m "Хорошо, только не долго."
+    mt "Только потому, что ты заплатишь."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:138
+translate german citizen5_dialogue_pilon_loop5_b8c0853a:
+
+    # citizen5 "Ооо! Какие красивые изгибания!"
+    citizen5 "Ооо! Какие красивые изгибания!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:142
+translate german citizen5_dialogue_pilon_loop5_c1d78c46:
+
+    # mt "Как же он странно разговаривает..."
+    mt "Как же он странно разговаривает..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:151
+translate german citizen5_dialogue_pilon_loop5_1dea5ff3:
+
+    # citizen5 "Оголи свои манящие груди."
+    # mt "Ему бы книги писать..."
+    citizen5 "Оголи свои манящие груди."
+    mt "Ему бы книги писать..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:155
+translate german citizen5_dialogue_pilon_loop5_49aafc4d:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    mt "Das kann ich mir nicht leisten!"
+    "So sehr am Boden bin ich nun auch noch nicht!"
+    "Und ich hoffe, dass das NIE passieren wird!"
+    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:162
+translate german citizen5_dialogue_pilon_loop5_7dec49ad:
+
+    # m "Так и быть, только руками не трогать."
+    m "Так и быть, только руками не трогать."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:165
+translate german citizen5_dialogue_pilon_loop5_ffa01e0c:
+
+    # citizen5 "Я только что лицезрел гору Фудзи, точнее две!"
+    citizen5 "Я только что лицезрел гору Фудзи, точнее две!"
+

@@ -878,3 +878,137 @@ translate german ep22_dialogue6_2b_fbef2ec0:
     "Aber wissen Sie, er sagt was er will und hat keinerlei Disziplin!"
     m "Okay Herzchen, danke."
 
+# TODO: Translation updated at 2019-03-02 22:56
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:523
+translate german ep22_dialogue6_7b_0216b751:
+
+    # m "Ты что-то говорил по поводу работы в офисе?"
+    # biff "Да, когда ты станешь очень хорошей цыпочкой, я возьму тебя сюда в офис!"
+    # "Ты полезная кукла, я смогу продавать тебя здесь!"
+    m "Sagtest du nicht etwas über Arbeit im Büro?"
+    biff "Ja, wenn du ein wirklich gutes Chick bist, nehme ich dich mit ins Büro auf!"
+    "Du bist eine nützliche Puppe, ich kann dich hier verkaufen!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:527
+translate german ep22_dialogue6_7b_9145ffb8:
+
+    # m "Что значит продавать меня???"
+    m "Was meinst du mit verkaufen???"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:529
+translate german ep22_dialogue6_7b_fd275dc8:
+
+    # biff "Торговать твоим личиком!"
+    # "Ты ведь похожа на Монику Бакфетт!"
+    # "Ты наверное уже забыла!"
+    # "Ха-Ха-Ха!"
+    biff "Dein Gesicht verkaufen!"
+    "Du bist wie Monica Buckfett!"
+    "Das hast du vielleicht schon vergessen!"
+    "Hahaha!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:534
+translate german ep22_dialogue6_7b_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:537
+translate german ep22_dialogue6_7b_aaa3154a:
+
+    # biff "Но, может быть и не только личиком!"
+    # "Думаю многие партнеры готовы будут неплохо заплатить, чтобы запустить свои пальчики..."
+    # "В киску Моники Бакфетт!"
+    # "И не только пальчики!"
+    # "Ха-Ха-Ха!"
+    # "И все будут думать что ты настоящая!"
+    biff "Aber, du bist nicht das Einzige niedliche Gesicht hier!"
+    "Ich denke, vielen Geschäftspartner zahlen gut dafür, dass sie ihre Finger reinstecken dürfen in..."
+    "In die Pussy von Monica Buckfett!"
+    "Und nicht nur Finger!"
+    "Hahaha!"
+    "Und jeder wird glauben, dass du echt bist!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:544
+translate german ep22_dialogue6_7b_0a5616b8_1:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:546
+translate german ep22_dialogue6_7b_b8aa5f0a:
+
+    # biff "Тебе это очень понравится!"
+    # "Ты будешь заниматься тем же самым чем занимаешься на улице сейчас..."
+    # "Только будешь значительно больше получать за это!"
+    biff "Du wirst das lieben!"
+    "Du machst das Gleiche wie auf der Straße, nur dass du hier viel mehr Geld bekommst..."
+    "Nur viel mehr dafür bekommst...!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:551
+translate german ep22_dialogue6_7b_262e9e9b:
+
+    # m "Нет, Биф!"
+    # "Давай пока ограничимся личиком!"
+    m "Nein, Biff!"
+    "Einigen wir uns für jetzt einfach auf die Gesichtssache!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:554
+translate german ep22_dialogue6_7b_2f3cf51a:
+
+    # biff "Без проблем, крошка!"
+    # "Все-равно тебе еще надо заработать это доверие!"
+    # "А это значит быть хорошей цыпочкой!"
+    biff "Kein Problem, Baby!"
+    "Dennoch musst du mein Vertrauen erst erarbeiten!"
+    "Und das bedeutet, sei ein gutes Chick!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:558
+translate german ep22_dialogue6_7b_15c6257e:
+
+    # biff "К тому же, тебе придется значительно чаще развлекать меня."
+    # "Проводить кастинги."
+    # "И придумывай что-нибудь новое почаще!"
+    # "Папочке может наскучить однообразная цыпочка!"
+    biff "Nebenbei, du wirst mich viel unterhalten müssen."
+    "Castings machen."
+    "Und immer wieder was Neues bringen!"
+    "Daddy ist von eintönigen Chicks schnell gelangweilt!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:564
+translate german ep22_dialogue6_7b_a87b3214:
+
+    # mt "!!!"
+    # m "Я могу идти?"
+    # biff "Да, цыпочка! Иди!"
+    mt "!!!"
+    m "Kann ich gehen?"
+    biff "Ja, Chick, geh!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:575
+translate german ep22_dialogue6_7b_a3a2436f:
+
+    # m "Я могу идти?"
+    # biff "Да, цыпочка! Иди!"
+    m "Kann ich gehen?"
+    biff "Ja, Chick, geh!"
+
+translate german strings:
+
+    # Quests/EP2_02/ep22_dialogues6.rpy:116
+    old "Дорогуша, ты не видела Мелани?"
+    new "Süße, hast du zufällig Melanie gesehen?"
+
+    # Quests/EP2_02/ep22_dialogues6.rpy:202
+    old "Биф, ты не видел Мелани?"
+    new "Biff, hast du Melanie gesehen?"
+
+    # Quests/EP2_02/ep22_dialogues6.rpy:290
+    old "Алекс... А где Мелани?"
+    new "Alex... Wo ist Melanie?"
+
+    # Quests/EP2_02/ep22_dialogues6.rpy:519
+    old "Биф... Мог бы ты дать еще немного денег?"
+    new "Biff... Könntest Du mir ein bisschen mehr Geld geben?"
+

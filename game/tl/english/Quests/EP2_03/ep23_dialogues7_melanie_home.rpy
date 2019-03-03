@@ -22,19 +22,19 @@ translate english ep23_dialogues7_d8f0da4c:
 translate english ep23_dialogues7_6952af3e:
 
     # melanie "Присаживайтесь, Мистер Дик."
-    melanie "Sit down, Mr. Dick."
+    melanie "Please have a seat, Mr. Dick."
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:29
 translate english ep23_dialogues7_8ae63fe6:
 
     # melanie "Давайте я Вас чем-нибудь угощу?"
-    melanie "Let me treat you to something?"
+    melanie "Would you like anything?"
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:31
 translate english ep23_dialogues7_006a2860:
 
     # melanie "Что Вы предпочитаете? Кофе, вино или виски?"
-    melanie "What do you prefer? Coffee, wine or whiskey?"
+    melanie "Coffee, wine, whiskey?"
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:33
 translate english ep23_dialogues7_c0b32d38:
@@ -42,13 +42,13 @@ translate english ep23_dialogues7_c0b32d38:
     # dick "Мелани, я хотел бы сразу записать номер того негодяя."
     # "Я боюсь что могу забыть потом."
     dick "Melanie, I would like to immediately record the number of that villain."
-    "I'm afraid I can forget later."
+    "I'm afraid I will forget that later."
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:36
 translate english ep23_dialogues7_d9bb4250:
 
     # dick "Мелани, при виде Вас у меня путаются мысли."
-    dick "Melanie, looking at you my thoughts are confused."
+    dick "Looking at you makes my thoughts confused."
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:38
 translate english ep23_dialogues7_af7be7cf:
@@ -68,21 +68,21 @@ translate english ep23_dialogues7_c3a08348:
     # "Аххххх..."
     # "Не кажется-ли Вам что здесь очень жарко?"
     "Ahhhhh ..."
-    "Don't you think it's very hot here?"
+    "Don't you think it's very hot in here?"
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:45
 translate english ep23_dialogues7_2544a7df:
 
     # "Я пойду одену что-то более легкое."
-    "I'll go wear something lighter."
+    "I'd like to change into something lighter."
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:47
 translate english ep23_dialogues7_e24c9365:
 
     # "Вы не возражаете если я отойду на минутку?"
     # dick "Что Вы, Мелани? Конечно я не возражаю."
-    "Do you mind if I leave for a moment?"
-    dick "What are you, Melanie? Of course I do not mind."
+    "Would you mind If I leave for a moment?"
+    dick "Sure, Melanie. Of course I don’t mind."
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:64
 translate english ep23_dialogues7_28efc9b9:
@@ -94,7 +94,7 @@ translate english ep23_dialogues7_28efc9b9:
 translate english ep23_dialogues7_7d28c567:
 
     # "Не слишком-ли он будет смущать Вас?"
-    "Isn't it too embarrassing you?"
+    "I hope it's not too embarrassing for you?"
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:68
 translate english ep23_dialogues7_f210876b:
@@ -120,13 +120,13 @@ translate english ep23_dialogues7_4a1781de:
     # dick "Ммм... Мелани..."
     # dick "Нет... Этот образ... Не будет смущать меня..."
     dick "Mmm ... Melanie ..."
-    dick "No ... This image ... Will not confuse me ..."
+    dick "No, it's not embarssing, not at all."
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:78
 translate english ep23_dialogues7_81590169:
 
     # melanie "А так?"
-    melanie "And like this?"
+    melanie "What about like this?"
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:80
 translate english ep23_dialogues7_208e37ee_1:
@@ -151,8 +151,8 @@ translate english ep23_dialogues7_5f96899c:
     dick "!!!"
     dick "Oh, Melanie!"
     "I beg you!"
-    "Can I take a few shots?"
-    "I always dreamed about it!"
+    "Can I take a few pictures of you?"
+    "I've always dreamed about it!"
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:94
 translate english ep23_dialogues7_497998ce:
@@ -164,7 +164,7 @@ translate english ep23_dialogues7_497998ce:
 translate english ep23_dialogues7_b9c6eb26:
 
     # dick "У меня есть телефон! Я могу сделать кадры на него!"
-    dick "I have a phone! I can make shots on him!"
+    dick "I can take pictures with my smartphone!"
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:98
 translate english ep23_dialogues7_38d6b6d2:
@@ -172,7 +172,7 @@ translate english ep23_dialogues7_38d6b6d2:
     # melanie "Мистер Дик, я люблю фотографироваться. Вы уже, наверное, это знаете."
     # "Но я люблю хорошее качество фото."
     melanie "Mr. Dick, I love being photographed. You probably already know this."
-    "But I love good photo quality."
+    "But I love good photos of high quality."
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:110
 translate english ep23_dialogues7_e4467ae8:
@@ -182,39 +182,39 @@ translate english ep23_dialogues7_e4467ae8:
     # "Только я смогу оценивать их бесконечную красоту!"
     # "И неважно на какую камеру они сделаны!"
     # "Они лучшие, потому что на них будете Вы, Мелани!"
-    dick "For me it will be the best photos!"
+    dick "They will be the best photoes for me anyways!"
     "Nobody will ever see them!"
-    "Only I can appreciate their infinite beauty!"
-    "And no matter what camera they are made on!"
-    "They are the best, because of you, Melanie!"
+    "Only I will be able appreciate their infinite beauty!"
+    "It doesn’t matter what kind of camera they will be made with!"
+    "They are the best, because, of you Melanie!"
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:116
 translate english ep23_dialogues7_59d50920:
 
     # melanie "Хорошо, Мистер Дик. Вы знаете, мне незачем стесняться своей груди."
     # "Но я бы не хотела чтобы мир увидел ее раньше времени..."
-    melanie "All right, Mr. Dick. You know, I do not need to be ashamed of my chest."
-    "But I would not want the world to see it ahead of time ..."
+    melanie "Fine, Mr. Dick. As you know I'm very proud of my chest."
+    "But I woundn't want the world to see it prematurely."
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:119
 translate english ep23_dialogues7_3a427e59:
 
     # dick "Мелани! Я клянусь! Никто не увидит это!"
     # "Только пожалуйста, дайте мне возможность!"
-    dick "Melanie! I swear! No one will see this!"
-    "Just please give me the opportunity!"
+    dick "Melanie! I swear! No one will ever see these photos!"
+    "Just please give me the chance!"
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:122
 translate english ep23_dialogues7_a6c2fa7f:
 
     # melanie "Хорошо, Мистер Дик. Но трогать нельзя..."
-    melanie "All right, Mr. Dick. But you can not touch ..."
+    melanie "Fine, Mr. Dick. But you must not touch me..."
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:124
 translate english ep23_dialogues7_ff26309e:
 
     # dick "Мелани! Все будет так как скажете ВЫ!"
-    dick "Melanie! Everything will be as you say!"
+    dick "Everything will be as you say!"
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:174
 translate english ep23_dialogues7_4d2515cf:
@@ -222,15 +222,15 @@ translate english ep23_dialogues7_4d2515cf:
     # melanie "Мистер Дик, Вам нравится?"
     # dick "Мелани, я просто без ума!"
     # melanie "Идите сюда..."
-    melanie "Mr. Dick, do you like it?"
-    dick "Melanie, I'm just crazy!"
-    melanie "Come here..."
+    melanie "Do you like it, Mr. Dick?"
+    dick "Melanie, I'm completely smitten!"
+    melanie "Come closer..."
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:179
 translate english ep23_dialogues7_2596b57a:
 
     # melanie "Я разрешаю сделать Вам последний кадр..."
-    melanie "I allow you to make the last frame ..."
+    melanie "I will allow you to make the last photo..."
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:190
 translate english ep23_dialogues7_c0764ad5:
@@ -242,11 +242,19 @@ translate english ep23_dialogues7_c0764ad5:
 translate english ep23_dialogues7_736c1268:
 
     # "Я восхищаюсь ВАМИ!"
-    "I admire you!"
+    "I admire you so much!"
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:198
 translate english ep23_dialogues7_43017bac_1:
 
     # melanie "..."
     melanie "..."
+
+# TODO: Translation updated at 2019-03-02 22:55
+
+translate english strings:
+
+    # Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:18
+    old "У МЕЛАНИ ДОМА..."
+    new "У МЕЛАНИ ДОМА..."
 

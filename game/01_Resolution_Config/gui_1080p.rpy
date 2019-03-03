@@ -268,7 +268,7 @@ style char_face_style_caption:
     color "#ffffff"
 
 style questlog_text_style:
-    size 18
+    size 16
     color "#18181a"
     font "fonts/tahoma.ttf"
 

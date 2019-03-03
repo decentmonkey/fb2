@@ -339,9 +339,17 @@ translate english strings:
 
     # Quests/EP2_02/ep22_casting.rpy:5
     old "Показать обнаженную попу."
-    new ""
+    new "Показать обнаженную попу."
 
     # Quests/EP2_02/ep22_casting.rpy:5
     old "Показать обнаженную попу. (фотосессия не завершена) (disabled)"
-    new ""
+    new "Показать обнаженную попу. (фотосессия не завершена) (disabled)"
+
+# TODO: Translation updated at 2019-03-02 22:55
+
+# game/Quests/EP2_02/ep22_casting.rpy:4
+translate english ep22_dialogue6_6_loop2_47ee974b:
+
+    # help "Пока доступны только две возможностьи. Другие пункты будут доступны в следующих версиях игры."
+    help "Пока доступны только две возможностьи. Другие пункты будут доступны в следующих версиях игры."
 

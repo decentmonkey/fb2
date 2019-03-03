@@ -34,7 +34,7 @@ translate english citizen15_dialogue_b57d7b0b:
 translate english citizen15_dialogue_59b1e0ad:
 
     # "Давай!"
-    "Давай!"
+    "Come on!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:22
 translate english citizen15_dialogue_loop1_4dded6da:
@@ -166,7 +166,7 @@ translate english citizen15_dialogue_pilon_loop15_a7283d00:
 translate english citizen15_dialogue_pilon_loop15_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes..."
+    m "I'm not taking off my clothes..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:77
 translate english citizen15_dialogue_pilon_loop15_7d666d2a:
@@ -202,7 +202,7 @@ translate english citizen15_dialogue_pilon_loop15_f7e05701:
 translate english citizen15_dialogue_pilon_loop15_48b1ace1_1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes..."
+    m "I'm not taking off my clothes..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:97
 translate english citizen15_dialogue_pilon_loop15_de23045f:
@@ -517,5 +517,5 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen15_dialogue.rpy:113
     old "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired]) (disabled)"
-    new ""
+    new "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired]) (disabled)"
 

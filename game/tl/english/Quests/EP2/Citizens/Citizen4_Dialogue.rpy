@@ -148,7 +148,7 @@ translate english citizen4_dialogue_pilon_loop4_a7283d00:
 translate english citizen4_dialogue_pilon_loop4_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes..."
+    m "I'm not taking off my clothes..."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:75
 translate english citizen4_dialogue_pilon_loop4_810a1fb4:
@@ -190,7 +190,7 @@ translate english citizen4_dialogue_pilon_loop4_f7e05701:
 translate english citizen4_dialogue_pilon_loop4_48b1ace1_1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes..."
+    m "I'm not taking off my clothes..."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:96
 translate english citizen4_dialogue_pilon_loop4_74152a4d:

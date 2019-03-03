@@ -84,7 +84,7 @@ translate german monica_office_secretary_dialogue1_c64aa55c:
 translate german monica_office_secretary_dialogue1_f1bb5600:
 
     # "О БОЖЕ!"
-    "Oh mein Gott!"
+    "О БОЖЕ!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:54
 translate german monica_office_secretary_dialogue1_dfe44129:
@@ -376,7 +376,7 @@ translate german monica_office_cabinet_biff_dialogue1_3b7c6360:
 translate german monica_office_cabinet_biff_dialogue1_80584ae2:
 
     # melanie "Миссис Бакфетт..."
-    melanie "Frau Buckfett..."
+    melanie "Миссис Бакфетт..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:254
 translate german monica_office_cabinet_biff_dialogue1_eaab9b94:
@@ -920,7 +920,7 @@ translate german monica_office_photostudio_melanie_dialogue1_a7e31ec1:
 translate german monica_office_photostudio_melanie_dialogue1_f0d79344:
 
     # mt "Сучка!"
-    mt "Schlampe!"
+    mt "Сучка!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:522
 translate german monica_office_photostudio_melanie_dialogue1_564113ee:
@@ -1355,7 +1355,7 @@ translate german monica_office_cabinet_biff_dialogue3_2efbf005:
 
     # biff "Итак, ты согласна?"
     # m "Да, я согласна..."
-    biff "Also, stimmst du zu?"
+    biff "Итак, ты согласна?"
     m "Ja, ich stimme zu..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:752
@@ -1364,7 +1364,7 @@ translate german monica_office_cabinet_biff_dialogue3_e9ee6308:
     # biff "Отлично!"
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
-    biff "Ausgezeichnet!"
+    biff "Отлично!"
     "Da bin ich erleichtert. Um ehrlich zu sein, hat Melanie es abgelehnt diese Art Fotos zu machen."
     "Sie sagte sie will nichts machen, bei dem sie komplett nackt ist."
 
@@ -1532,7 +1532,7 @@ translate german monica_office_cabinet_biff_dialogue4_53226bcf:
 translate german monica_office_cabinet_biff_dialogue4_415a7fa9:
 
     # m "ЧТО?!?!"
-    m "WAS!?!"
+    m "ЧТО?!?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:847
 translate german monica_office_cabinet_biff_dialogue4_7f266796:
@@ -1550,7 +1550,7 @@ translate german monica_office_cabinet_biff_dialogue4_fd312060:
     # "Модель должна раздеться передо мной и продемонстрировать свои навыки!"
     # m "ЧТО?!?!"
     "Die Models müssen sich vor mir ausziehen und ihre Fähigkeiten dmeonstrieren!"
-    m "WAS!?!"
+    m "ЧТО?!?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:856
 translate german monica_office_cabinet_biff_dialogue4_0f8b97e5:
@@ -1840,7 +1840,7 @@ translate german monica_office_photostudio_alex_dialogue2_29d71615:
     m "Nein!"
     "Ich ziehe mich noch um!"
     "Und bewegen Sie sich bloß nicht, wenn Ihnen Ihr Leben lieb ist!"
-    alex_photograph "Natürlich."
+    alex_photograph "Конечно, Мэм!"
     "Keine Angst, ich bewege mich keienn Zentimenter!"
     "Ich warte auf die Erlaubnis!"
 
@@ -1902,7 +1902,7 @@ translate german monica_office_photostudio_alex_dialogue2_b64b0066:
     # m "Зачем?"
     # alex_photograph "Я фотограф! Я вижу композицию со стороны!"
     # m "Ладно..."
-    m "Wozu?"
+    m "Зачем?"
     alex_photograph "Ich bin hier der Photograph! Ich bin der mit der Vision!"
     m "Ok."
 
@@ -2149,7 +2149,7 @@ translate german monica_office_cabinet_biff_dialogue5_46c00914:
 
     # m "ЧТО???"
     # "МНЕ НУЖНЫ ДЕНЬГИ СЕЙЧАС, ПРЯМО СЕЙЧАС!"
-    m "WAS???"
+    m "ЧТО???"
     "ICH BRAUCHE DAS GELD SOFORT!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1343
@@ -2652,7 +2652,7 @@ translate german monica_office_photostudio_melanie_dialogue1_local1_a7e31ec1:
 translate german monica_office_photostudio_melanie_dialogue1_local1_f0d79344:
 
     # mt "Сучка!"
-    mt "Schlampe!"
+    mt "Сучка!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:655
 translate german monica_office_photostudio_melanie_dialogue1_local1_13555fcc:
@@ -2812,7 +2812,7 @@ translate german monica_office_cabinet_biff_dialogue3_local1_0a5616b8:
 translate german monica_office_cabinet_biff_dialogue3_local1_840938b6:
 
     # biff "Итак, ты согласна?"
-    biff "Also, stimmst du zu?"
+    biff "Итак, ты согласна?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:942
 translate german monica_office_cabinet_biff_dialogue3_local1_7e9dfa4d:
@@ -2826,7 +2826,7 @@ translate german monica_office_cabinet_biff_dialogue3_local1_b7eb643b:
     # biff "Отлично!"
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
-    biff "Ausgezeichnet!"
+    biff "Отлично!"
     "Da bin ich erleichtert. Um ehrlich zu sein, hat Melanie es abgelehnt diese Art Fotos zu machen."
     "Sie sagte sie will nichts machen, bei dem sie komplett nackt ist."
 
@@ -3392,7 +3392,7 @@ translate german monica_office_cabinet_biff_dialogue3_local2_0a5616b8:
 translate german monica_office_cabinet_biff_dialogue3_local2_840938b6:
 
     # biff "Итак, ты согласна?"
-    biff "Also, stimmst du zu?"
+    biff "Итак, ты согласна?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:969
 translate german monica_office_cabinet_biff_dialogue3_local2_7e9dfa4d:
@@ -3406,7 +3406,7 @@ translate german monica_office_cabinet_biff_dialogue3_local2_b7eb643b:
     # biff "Отлично!"
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
-    biff "Ausgezeichnet!"
+    biff "Отлично!"
     "Da bin ich erleichtert. Um ehrlich zu sein, hat Melanie es abgelehnt diese Art Fotos zu machen."
     "Sie sagte sie will nichts machen, bei dem sie komplett nackt ist."
 
@@ -3747,4 +3747,12 @@ translate german strings:
     # Quests/EP2/ep2_dialogues4.rpy:615
     old "Говорить с Мелани."
     new "Sprich mit Melanie."
+
+# TODO: Translation updated at 2019-03-02 22:56
+
+translate german strings:
+
+    # Quests/EP2/ep2_dialogues4.rpy:614
+    old "Попросить помощь у Мелани."
+    new ""
 

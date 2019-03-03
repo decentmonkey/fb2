@@ -296,9 +296,9 @@ translate german strings:
 
     # 00_Functions/07_init_renpy.rpy:90
     old "Эшли"
-    new ""
+    new "Ashlee"
 
     # 00_Functions/07_init_renpy.rpy:91
     old "Джо"
-    new ""
+    new "Joe"
 

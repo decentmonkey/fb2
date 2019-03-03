@@ -118,3 +118,15 @@ translate english strings:
     old "Фотограф извращенец"
     new "Pervert photographer"
 
+# TODO: Translation updated at 2019-03-03 21:01
+
+translate english strings:
+
+    # scripts/init.rpy:226
+    old "Бармен в Shiny Hole"
+    new ""
+
+    # scripts/init.rpy:227
+    old "Жена бармена"
+    new ""
+

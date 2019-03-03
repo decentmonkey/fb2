@@ -230,12 +230,11 @@ python early:
             musicName = o
         if musicName == currentMusic2:
             return
-        print "HEREREER"
 
         currentMusic2 = musicName
         checkPath = "Music/" + str(musicName) + ".ogg"
         if renpy.loadable(checkPath):
-            print "play music: " + checkPath
+#            print "play music: " + checkPath
             renpy.music.play(checkPath, channel="music2", loop=True, fadeout=1.0, fadein=1.0)
         return
 

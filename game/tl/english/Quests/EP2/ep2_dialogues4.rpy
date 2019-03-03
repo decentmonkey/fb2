@@ -60,7 +60,7 @@ translate english monica_office_entrance_biff_dialogue1_02e48dc5:
 translate english monica_office_entrance_biff_dialogue1_4c2bc47c:
 
     # "Алексу влетит за то, что решил скрыть от меня такую цыпочку!"
-    "Alex will get in trouble for being decided to hide from me such a chick!"
+    "Alex will be in major trouble for hiding such a beautiful girl from me!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:36
 translate english monica_office_entrance_biff_dialogue1_6a07b022:
@@ -68,7 +68,7 @@ translate english monica_office_entrance_biff_dialogue1_6a07b022:
     # m "Я не цыпочка!"
     # "Отвали от меня, урод!"
     # biff "Ха-ха-ха!"
-    m "I'm not a 'chick'!"
+    m "I'm not a 'girl'!"
     "Get off me, motherfucker!"
     biff "Ha ha ha!"
 
@@ -84,7 +84,7 @@ translate english monica_office_secretary_dialogue1_c64aa55c:
 translate english monica_office_secretary_dialogue1_f1bb5600:
 
     # "О БОЖЕ!"
-    "О БОЖЕ!"
+    "Oh my God!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:54
 translate english monica_office_secretary_dialogue1_dfe44129:
@@ -376,7 +376,7 @@ translate english monica_office_cabinet_biff_dialogue1_3b7c6360:
 translate english monica_office_cabinet_biff_dialogue1_80584ae2:
 
     # melanie "Миссис Бакфетт..."
-    melanie "Миссис Бакфетт..."
+    melanie "Mrs. Buckfett ..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:254
 translate english monica_office_cabinet_biff_dialogue1_eaab9b94:
@@ -385,7 +385,7 @@ translate english monica_office_cabinet_biff_dialogue1_eaab9b94:
     # "Алекс клялся что не прятал тебя!"
     # "Значит он, все-таки, врал и решил исправить свою вину прислав тебя ко мне?"
     # "Ха-ха!"
-    biff "Oh! Chick!"
+    biff "Oh! Girl!"
     "Alex swore he wasn't hiding you!"
     "So he was lying, after all, and he decided to rectify his guilt by sending you to me?"
     "Haha!"
@@ -408,7 +408,7 @@ translate english monica_office_cabinet_biff_dialogue1_e3f021f0:
     # "Это у тебя такой косплей?"
     # "Пытаешься произвести впечатление на меня?"
     # "Ха-ха-ха!"
-    biff "Hey! Chick! Easy!"
+    biff "Hey! Girl! Easy!"
     "Who are you?!"
     "Is this some sort of roleplay?"
     "Are you trying to impress me?"
@@ -468,7 +468,7 @@ translate english monica_office_cabinet_biff_dialogue1_c00812e1:
     # "Цыпочка! Я думаю у меня есть для тебя работа!"
     biff "That's great!"
     "You have a natural talent for acting!"
-    "Chick! I think I have a job for you!"
+    "Girl! I think I have a job for you!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:293
 translate english monica_office_cabinet_biff_dialogue1_4e6b82f6:
@@ -478,7 +478,7 @@ translate english monica_office_cabinet_biff_dialogue1_4e6b82f6:
     # "Мне нет резона играть саму себя!"
     # "Вставай с моего стула!"
     # "БЫСТРО!!!"
-    m "Chick?! Acting?!"
+    m "Girl?! Acting?!"
     "What are you talking about?!"
     "I have no reason to act!"
     "Get off my chair!"
@@ -638,7 +638,7 @@ translate english monica_office_cabinet_biff_dialogue1_add680c5:
     # "Черт, цыпочка!"
     # "Ты так похожа на нее!"
     # "Я действительно поверил!"
-    "Damn, chick!"
+    "Damn, girl!"
     "You look just like her!"
     "I really believed it!"
 
@@ -688,7 +688,7 @@ translate english monica_office_cabinet_biff_dialogue1_25fab957:
     # biff "Так значит ты цыпочка от Алекса?"
     # "А почему ты не хочешь ко мне на коленки?"
     # "Ты ведь знаешь, детка, что с таким как я нужно дружить..."
-    biff "So you're Alex's chick?"
+    biff "So you're Alex's girl?"
     "Why don't you come to me here?"
     "You know, baby, you should be friends with someone like me..."
 
@@ -773,7 +773,7 @@ translate english monica_office_cabinet_biff_dialogue1_214da0cf:
 
     # biff "Хорошо, цыпочка."
     # "Зачем же ты тогда пришла сюда?"
-    biff "Okay, chick."
+    biff "Okay, girl."
     "Then why did you come here?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:438
@@ -794,7 +794,7 @@ translate english monica_office_cabinet_biff_dialogue1_a699ed0e:
     "You have a temper, girl!"
     "I dare say!"
     "Trying to impress me, I get it..."
-    "I like Chicks like that!"
+    "I like Girls like that!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:448
 translate english monica_office_cabinet_biff_dialogue1_c763d258:
@@ -823,7 +823,7 @@ translate english monica_office_cabinet_biff_dialogue1_3c0f42a4:
 
     # biff "До свидания, цыпочка!"
     # "Я буду звать тебя Моника Бакфетт! Ха-ха-ха!"
-    biff "Goodbye, chick!"
+    biff "Goodbye, girl!"
     "I'll call you Monica Buckfett! Ha ha ha!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:467
@@ -920,7 +920,7 @@ translate english monica_office_photostudio_melanie_dialogue1_a7e31ec1:
 translate english monica_office_photostudio_melanie_dialogue1_f0d79344:
 
     # mt "Сучка!"
-    mt "Сучка!"
+    mt "Bitch!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:522
 translate english monica_office_photostudio_melanie_dialogue1_564113ee:
@@ -1120,7 +1120,7 @@ translate english monica_office_cabinet_biff_dialogue2a_5f01f975:
 translate english monica_office_cabinet_biff_dialogue3_814c4cfb:
 
     # biff "О! Цыпочка! Ты вернулась!"
-    biff "Oh! Chick! You're back!"
+    biff "Oh! Girl! You're back!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:639
 translate english monica_office_cabinet_biff_dialogue3_be61f882:
@@ -1264,7 +1264,7 @@ translate english monica_office_cabinet_biff_dialogue3_0649a99e:
 translate english monica_office_cabinet_biff_dialogue3_c9a71918:
 
     # biff "А ты весьма амбициозна для цыпочки с улицы!"
-    biff "You're very ambitious for a chick from the street!"
+    biff "You're very ambitious for a girl from the street!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:707
 translate english monica_office_cabinet_biff_dialogue3_84b73f7f:
@@ -1311,7 +1311,7 @@ translate english monica_office_cabinet_biff_dialogue3_60e32b88:
 
     # biff "Окей, цыпочка!"
     # "Когда-нибудь увидимся!"
-    biff "Okay, chick!"
+    biff "Okay, girl!"
     "See you someday!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:735
@@ -1339,7 +1339,7 @@ translate english monica_office_cabinet_biff_dialogue3_f4ae6e10:
     # "Я дам тебе {c}$ 5.000{/c}!"
     # "Но я не обещаю тебе их регулярно!"
     # "Я посмотрю еще стоишь-ли ты этих денег!"
-    biff "OK! Chick!"
+    biff "OK! Girl!"
     "I'll give you {c}$ 5,000{/c}!"
     "But I'm not promising you regular payments!"
     "I'll see if you're worth the money!"
@@ -1355,7 +1355,7 @@ translate english monica_office_cabinet_biff_dialogue3_2efbf005:
 
     # biff "Итак, ты согласна?"
     # m "Да, я согласна..."
-    biff "Итак, ты согласна?"
+    biff "So, do you agree?"
     m "I agree..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:752
@@ -1364,7 +1364,7 @@ translate english monica_office_cabinet_biff_dialogue3_e9ee6308:
     # biff "Отлично!"
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
-    biff "Отлично!"
+    biff "Excellent!"
     "To be honest with you, Melanie refused to do this series of photo shoots."
     "She said she didn't want to do anything with full nudity."
 
@@ -1372,7 +1372,7 @@ translate english monica_office_cabinet_biff_dialogue3_e9ee6308:
 translate english monica_office_cabinet_biff_dialogue3_98b66c4d:
 
     # "Хорошо что мне подвернулась такая цыпочка как ты, которая не имеет проблем с этим!"
-    "Good thing I got a chick like you who don't have any problems with that!"
+    "Good thing I got a girl like you who don't have any problems with that!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:758
 translate english monica_office_cabinet_biff_dialogue3_4aee1b50:
@@ -1474,7 +1474,7 @@ translate english monica_office_secretary_dialogue5_e3868f3a:
 translate english monica_office_cabinet_biff_dialogue4_ed765dc8:
 
     # biff "О! Цыпочка! Ну как, ты надумала?"
-    biff "Oh! Chick! What's on your mind?"
+    biff "Oh! Girl! What's on your mind?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:813
 translate english monica_office_cabinet_biff_dialogue4_60bc59b8:
@@ -1492,7 +1492,7 @@ translate english monica_office_cabinet_biff_dialogue4_08f35aea:
     # "Мы начнем с начала и закончим чем-то очень горячим."
     # "Тебе понравится!"
     # "Ха-ха-ха!"
-    biff "Gradually, of course, chick!"
+    biff "Gradually, of course, girl!"
     "The audience of the magazine would not accept changes that are too rash."
     "We'll start slowly in the beginning and finish with something very hot."
     "You will like it!"
@@ -1524,7 +1524,7 @@ translate english monica_office_cabinet_biff_dialogue4_53226bcf:
     # biff "Конечно, цыпочка!"
     # "Перед камерой тебе раздеваться не придется в этот раз!"
     # "Только передо мной!"
-    biff "Of course, chick!"
+    biff "Of course, girl!"
     "You won't have to undress in front of the camera this time..."
     "Just in front of me!"
 
@@ -1532,7 +1532,7 @@ translate english monica_office_cabinet_biff_dialogue4_53226bcf:
 translate english monica_office_cabinet_biff_dialogue4_415a7fa9:
 
     # m "ЧТО?!?!"
-    m "ЧТО?!?!"
+    m "What?!?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:847
 translate english monica_office_cabinet_biff_dialogue4_7f266796:
@@ -1550,7 +1550,7 @@ translate english monica_office_cabinet_biff_dialogue4_fd312060:
     # "Модель должна раздеться передо мной и продемонстрировать свои навыки!"
     # m "ЧТО?!?!"
     "The models have to undress in front of me to demonstrate their skills!"
-    m "ЧТО?!?!"
+    m "What?!?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:856
 translate english monica_office_cabinet_biff_dialogue4_0f8b97e5:
@@ -1612,7 +1612,7 @@ translate english monica_office_cabinet_biff_dialogue4_6e2c018e:
 translate english monica_office_cabinet_biff_dialogue4_808f00a2:
 
     # "Потому я и держу такую цыпочку как ты!"
-    "That's the only reason why I keep a chick like you around!"
+    "That's the only reason why I keep a girl like you around!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:890
 translate english monica_office_cabinet_biff_dialogue4_50a40eda:
@@ -1840,7 +1840,7 @@ translate english monica_office_photostudio_alex_dialogue2_29d71615:
     m "No!"
     "I'm still changing!"
     "And don't even dare to move if you value your life!"
-    alex_photograph "Конечно, Мэм!"
+    alex_photograph "Of course, Ma'am!"
     "Don't worry, I'm not moving an inch!"
     "I'm waiting for your permission, Ma'am!"
 
@@ -1902,7 +1902,7 @@ translate english monica_office_photostudio_alex_dialogue2_b64b0066:
     # m "Зачем?"
     # alex_photograph "Я фотограф! Я вижу композицию со стороны!"
     # m "Ладно..."
-    m "Зачем?"
+    m "What for?"
     alex_photograph "I'm the photographer! I have the vision about what looks good, trust me!"
     m "All right..."
 
@@ -2140,7 +2140,7 @@ translate english monica_office_cabinet_biff_dialogue5_d64c1ad9:
     # biff "О! Цыпочка!"
     # "Сообщи моей секретарше свои реквизиты и деньги будут переведены в течении..."
     # "Ну... Может быть месяца..."
-    biff "Oh! Chick!"
+    biff "Oh! Girl!"
     "Tell my secretary your bank details and the money will be transferred within..."
     "Well... Maybe a month..."
 
@@ -2149,7 +2149,7 @@ translate english monica_office_cabinet_biff_dialogue5_46c00914:
 
     # m "ЧТО???"
     # "МНЕ НУЖНЫ ДЕНЬГИ СЕЙЧАС, ПРЯМО СЕЙЧАС!"
-    m "ЧТО???"
+    m "WHAT???"
     "I NEED THE MONEY NOW!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1343
@@ -2239,7 +2239,7 @@ translate english monica_office_cabinet_biff_dialogue5_eea80414:
     # "Я понимаю, ты стесняешься."
     # "Но не переживай, это небольшой вип зал, там будет мало людей."
     # "В основном пресса."
-    biff "Of course, chick!"
+    biff "Of course, girl!"
     "I understand you're embarrassed."
     "But don't worry, it's a small VIP room, there will only be a few people there."
     "Mostly the press."
@@ -2249,7 +2249,7 @@ translate english monica_office_cabinet_biff_dialogue5_0d43d283:
 
     # "Я же не рассчитывал что найду такую цыпочку!"
     # "В следующий раз я позабочусь чтобы мою новую куклу увидели все!"
-    "I didn't expect to find a chick like you!"
+    "I didn't expect to find a girl like you!"
     "Next time I'll make sure everyone sees my new doll!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1392
@@ -2426,7 +2426,7 @@ translate english monica_office_entrance_biff_dialogue1_72476d55:
 translate english monica_office_entrance_biff_dialogue1_982cba09:
 
     # m "Я не цыпочка!"
-    m "I'm not a 'chick'!"
+    m "I'm not a 'girl'!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:64
 translate english monica_office_entrance_biff_dialogue1_93b1029b:
@@ -2447,7 +2447,7 @@ translate english monica_office_cabinet_biff_dialogue1_39ddc17e:
     # "Алекс клялся что не прятал тебя!"
     # "Значит он, все-таки, врал и решил исправить свою вину прислав тебя ко мне?"
     # "Ха-ха!"
-    biff "Oh! Chick!"
+    biff "Oh! Girl!"
     "Alex swore he wasn't hiding you!"
     "So he was lying, after all, and he decided to rectify his guilt by sending you to me?"
     "Haha!"
@@ -2460,7 +2460,7 @@ translate english monica_office_cabinet_biff_dialogue1_6bc63a49:
     # "Это у тебя такой косплей?"
     # "Пытаешься произвести впечатление на меня?"
     # "Ха-ха-ха!"
-    biff "Hey! Chick! Easy!"
+    biff "Hey! Girl! Easy!"
     "Who are you?!"
     "Is this some sort of roleplay?"
     "Are you trying to impress me?"
@@ -2484,7 +2484,7 @@ translate english monica_office_cabinet_biff_dialogue1_71039942:
     # "Цыпочка! Я думаю у меня есть для тебя работа!"
     biff "That's great!"
     "You have a natural talent for acting!"
-    "Chick! I think I have a job for you!"
+    "Girl! I think I have a job for you!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:382
 translate english monica_office_cabinet_biff_dialogue1_52e51f92:
@@ -2546,7 +2546,7 @@ translate english monica_office_cabinet_biff_dialogue1_840399d7:
     # biff "Так значит ты цыпочка от Алекса?"
     # "А почему ты не хочешь ко мне на коленки?"
     # "Ты ведь знаешь, детка, что с таким как я нужно дружить..."
-    biff "So you're Alex's chick?"
+    biff "So you're Alex's girl?"
     "Why don't you come to me here?"
     "You know, baby, you should be friends with someone like me..."
 
@@ -2567,7 +2567,7 @@ translate english monica_office_cabinet_biff_dialogue1_653731c5:
 
     # biff "Хорошо, цыпочка."
     # "Зачем же ты тогда пришла сюда?"
-    biff "Okay, chick."
+    biff "Okay, girl."
     "Then why did you come here?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:535
@@ -2582,14 +2582,14 @@ translate english monica_office_cabinet_biff_dialogue1_9b74bb23:
     "You have a temper, girl!"
     "I dare say!"
     "Trying to impress me, I get it..."
-    "I like Chicks like that!"
+    "I like Girls like that!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:558
 translate english monica_office_cabinet_biff_dialogue1_e19f26e7:
 
     # biff "До свидания, цыпочка!"
     # "Я буду звать тебя Моника Бакфетт! Ха-ха-ха!"
-    biff "Goodbye, chick!"
+    biff "Goodbye, girl!"
     "I'll call you Monica Buckfett! Ha ha ha!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:570
@@ -2652,7 +2652,7 @@ translate english monica_office_photostudio_melanie_dialogue1_local1_a7e31ec1:
 translate english monica_office_photostudio_melanie_dialogue1_local1_f0d79344:
 
     # mt "Сучка!"
-    mt "Сучка!"
+    mt "Bitch!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:655
 translate english monica_office_photostudio_melanie_dialogue1_local1_13555fcc:
@@ -2708,7 +2708,7 @@ translate english monica_office_secretary_dialogue4_34702624:
 translate english monica_office_cabinet_biff_dialogue3_c5803d62:
 
     # biff "О! Цыпочка! Ты вернулась!"
-    biff "Oh! Chick! You're back!"
+    biff "Oh! Girl! You're back!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:804
 translate english monica_office_cabinet_biff_dialogue3_ab90a2b2:
@@ -2766,7 +2766,7 @@ translate english monica_office_cabinet_biff_dialogue3_17bd862d:
 translate english monica_office_cabinet_biff_dialogue3_a4e50d51:
 
     # biff "А ты весьма амбициозна для цыпочки с улицы!"
-    biff "You're very ambitious for a chick from the street!"
+    biff "You're very ambitious for a girl from the street!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:887
 translate english monica_office_cabinet_biff_dialogue3_4f4e6a07:
@@ -2781,7 +2781,7 @@ translate english monica_office_cabinet_biff_dialogue3_375caeae:
 
     # biff "Окей, цыпочка!"
     # "Когда-нибудь увидимся!"
-    biff "Okay, chick!"
+    biff "Okay, girl!"
     "See you someday!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:917
@@ -2797,7 +2797,7 @@ translate english monica_office_cabinet_biff_dialogue3_8229a62d:
     # "Я дам тебе {c}$ 5.000{/c}!"
     # "Но я не обещаю тебе их регулярно!"
     # "Я посмотрю еще стоишь-ли ты этих денег!"
-    biff "OK! Chick!"
+    biff "OK! Girl!"
     "I'll give you {c}$ 5,000{/c}!"
     "But I'm not promising you regular payments!"
     "I'll see if you're worth the money!"
@@ -2812,7 +2812,7 @@ translate english monica_office_cabinet_biff_dialogue3_local1_0a5616b8:
 translate english monica_office_cabinet_biff_dialogue3_local1_840938b6:
 
     # biff "Итак, ты согласна?"
-    biff "Итак, ты согласна?"
+    biff "So, do you agree?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:942
 translate english monica_office_cabinet_biff_dialogue3_local1_7e9dfa4d:
@@ -2826,7 +2826,7 @@ translate english monica_office_cabinet_biff_dialogue3_local1_b7eb643b:
     # biff "Отлично!"
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
-    biff "Отлично!"
+    biff "Excellent!"
     "To be honest with you, Melanie refused to do this series of photo shoots."
     "She said she didn't want to do anything with full nudity."
 
@@ -2834,7 +2834,7 @@ translate english monica_office_cabinet_biff_dialogue3_local1_b7eb643b:
 translate english monica_office_cabinet_biff_dialogue3_local1_98b66c4d:
 
     # "Хорошо что мне подвернулась такая цыпочка как ты, которая не имеет проблем с этим!"
-    "Good thing I got a chick like you who don't have any problems with that!"
+    "Good thing I got a girl like you who don't have any problems with that!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:953
 translate english monica_office_cabinet_biff_dialogue3_local1_4aee1b50:
@@ -2940,7 +2940,7 @@ translate english monica_office_secretary_dialogue5b_631e76ef:
 translate english monica_office_cabinet_biff_dialogue4_eec3d64f:
 
     # biff "О! Цыпочка! Ну как, ты надумала?"
-    biff "Oh! Chick! What's on your mind?"
+    biff "Oh! Girl! What's on your mind?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1027
 translate english monica_office_cabinet_biff_dialogue4_8f0cdafb:
@@ -2950,7 +2950,7 @@ translate english monica_office_cabinet_biff_dialogue4_8f0cdafb:
     # "Мы начнем с начала и закончим чем-то очень горячим."
     # "Тебе понравится!"
     # "Ха-ха-ха!"
-    biff "Gradually, of course, chick!"
+    biff "Gradually, of course, girl!"
     "The audience of the magazine would not accept changes that are too rash."
     "We'll start slowly in the beginning and finish with something very hot."
     "You will like it!"
@@ -2967,7 +2967,7 @@ translate english monica_office_cabinet_biff_dialogue4_bcbb5250:
 
     # biff "Конечно, цыпочка!"
     # "Перед камерой тебе раздеваться не придется в этот раз!"
-    biff "Of course, chick!"
+    biff "Of course, girl!"
     "You won't have to undress in front of the camera this time..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1056
@@ -3128,7 +3128,7 @@ translate english monica_office_cabinet_biff_dialogue5_49238c3a:
     # biff "О! Цыпочка!"
     # "Сообщи моей секретарше свои реквизиты и деньги будут переведены в течении..."
     # "Ну... Может быть месяца..."
-    biff "Oh! Chick!"
+    biff "Oh! Girl!"
     "Tell my secretary your bank details and the money will be transferred within..."
     "Well... Maybe a month..."
 
@@ -3179,7 +3179,7 @@ translate english monica_office_cabinet_biff_dialogue5_0a147cd4:
     # "Я понимаю, ты стесняешься."
     # "Но не переживай, это небольшой вип зал, там будет мало людей."
     # "В основном пресса."
-    biff "Of course, chick!"
+    biff "Of course, girl!"
     "I understand you're embarrassed."
     "But don't worry, it's a small VIP room, there will only be a few people there."
     "Mostly the press."
@@ -3392,7 +3392,7 @@ translate english monica_office_cabinet_biff_dialogue3_local2_0a5616b8:
 translate english monica_office_cabinet_biff_dialogue3_local2_840938b6:
 
     # biff "Итак, ты согласна?"
-    biff "Итак, ты согласна?"
+    biff "So, do you agree?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:969
 translate english monica_office_cabinet_biff_dialogue3_local2_7e9dfa4d:
@@ -3406,7 +3406,7 @@ translate english monica_office_cabinet_biff_dialogue3_local2_b7eb643b:
     # biff "Отлично!"
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
-    biff "Отлично!"
+    biff "Excellent!"
     "To be honest with you, Melanie refused to do this series of photo shoots."
     "She said she didn't want to do anything with full nudity."
 
@@ -3414,7 +3414,7 @@ translate english monica_office_cabinet_biff_dialogue3_local2_b7eb643b:
 translate english monica_office_cabinet_biff_dialogue3_local2_98b66c4d:
 
     # "Хорошо что мне подвернулась такая цыпочка как ты, которая не имеет проблем с этим!"
-    "Good thing I got a chick like you who don't have any problems with that!"
+    "Good thing I got a girl like you who don't have any problems with that!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:980
 translate english monica_office_cabinet_biff_dialogue3_local2_4aee1b50:
@@ -3531,7 +3531,7 @@ translate english monica_office_cabinet_biff_dialogue3_7999158e:
     # "Я дам тебе {c}$ 5.000{/c}!"
     # "Но я не обещаю тебе их регулярно!"
     # "Я посмотрю еще стоишь-ли ты этих денег!"
-    biff "OK! Chick!"
+    biff "OK! Girl!"
     "I'll give you {c}$ 5,000{/c}!"
     "But I'm not promising you regular payments!"
     "I'll see if you're worth the money!"
@@ -3651,7 +3651,7 @@ translate english monica_office_cabinet_biff_dialogue3_f5ed9f5d:
     # "Я дам тебе {c}$ 5.000{/c}!"
     # "Но я не обещаю тебе их регулярно!"
     # "Я посмотрю еще стоишь-ли ты этих денег!"
-    biff "OK! Chick!"
+    biff "OK! Girl!"
     "I'll give you {c}$ 5,000{/c}!"
     "But I'm not promising you regular payments!"
     "I'll see if you're worth the money!"
@@ -3747,3 +3747,11 @@ translate english strings:
     # Quests/EP2/ep2_dialogues4.rpy:611
     old "Говорить с Мелани."
     new "Talking to Melanie."
+# TODO: Translation updated at 2019-03-02 22:55
+
+translate english strings:
+
+    # Quests/EP2/ep2_dialogues4.rpy:614
+    old "Попросить помощь у Мелани."
+    new "Попросить помощь у Мелани."
+

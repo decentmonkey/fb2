@@ -21,14 +21,14 @@ translate english ep22_photoshoot1_end_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Мэм! Мы закончили фотосессию!"
-    m "Наконец-то!!!"
+    alex_photograph "Ma'am! We're finished with the photo shoot!"
+    m "Finally!!!"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:94
 translate english ep22_photoshoot1_end_00d63a19:
 
     # mt "Что теперь?"
-    mt "Что теперь?"
+    mt "Now what?"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:100
 translate english ep22_photoshoot1_end_b0d7667d:
@@ -41,12 +41,12 @@ translate english ep22_photoshoot1_end_b0d7667d:
     # "..."
     # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
     mt "Biff is waiting for me to go through his stupid casting..."
-    "He said he'd give me a job if I would be a good chick..."
+    "He said he'd give me a job if I would be a good girl..."
     "I guess that would allow me to get closer my goal of getting my company back..."
-    "So maybe I should just pretend to be a good chick?"
-    "After all, I have no feelings for him, I'm a cold-blooded woman going to her revenge..."
+    "So maybe I should just pretend to be a good girl?"
+    "After all, I have no feelings for him. I'm a cold-blooded woman getting her revenge..."
     "..."
-    "Damn... Especially since I promised him I'd be a good chick. Otherwise, he won't give me any work..."
+    "Damn... Especially since I promised him I'd be a good girl. Otherwise, he won't give me any work..."
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:112
 translate english ep22_photoshoot1_casting_3b145b91:
@@ -54,7 +54,7 @@ translate english ep22_photoshoot1_casting_3b145b91:
     # m "Привет, Биф. Я пришла..."
     # biff "О! Цыпочка пришла к папочке!"
     m "Hi, Biff. I came..."
-    biff "Oh, chick! Come to daddy!"
+    biff "That's right little girl, come to daddy!"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:116
 translate english ep22_photoshoot1_casting_eae3a9e3:
@@ -66,10 +66,10 @@ translate english ep22_photoshoot1_casting_eae3a9e3:
     # m "Сегодня цыпочка - это Моника Бакфетт с благотворительного вечера..."
     # biff "Что Моника Бакфетт хочет показать папочке?"
     mt "I need to pretend and to gain his trust..."
-    m "Yeah, the chick is coming to daddy..."
-    "Good chick..."
-    biff "Who's the chick tonight?"
-    m "Today the chick is Monica Buckfett from the charity event..."
+    m "Yeah, the girl is coming to daddy..."
+    "Good girl..."
+    biff "Who's the girl tonight?"
+    m "Today the girl is Monica Buckfett from the charity event..."
     biff "What does Monica Buckfett want to show daddy?"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:125
@@ -85,10 +85,10 @@ translate english ep22_photoshoot1_casting_be98a9ea:
     # m "Ты заставил меня придти..."
     # mt "Ненавижу!!!"
     # biff "И что цыпочка будет делать?"
-    m "I came because I promised to behave like a good chick..."
+    m "I came because I promised to behave like a good girl..."
     m "You made me come here..."
     mt "I hate this!!!"
-    biff "And what is chick going to do?"
+    biff "And what is this girl going to do?"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:138
 translate english ep22_photoshoot1_casting_f4e1f245_1:
@@ -104,11 +104,11 @@ translate english strings:
 
     # Quests/EP2_02/ep22_photoshoot1.rpy:96
     old "Идти на кастинг к Бифу и притвориться цыпочкой..."
-    new "Behave as a chick at Biff' casting..."
+    new "Be a good girl at Biff' casting..."
 
     # Quests/EP2_02/ep22_photoshoot1.rpy:114
     old "Притвориться цыпочкой..."
-    new "Behave as a chick..."
+    new "Be a good girl..."
 
     # Quests/EP2_02/ep22_photoshoot1.rpy:114
     old "Я не собираюсь никем притворяться!"
@@ -127,8 +127,8 @@ translate english ep22_photoshoot1_casting_26c7e3c1:
 
     # m "Да, цыпочка пришла к папочке..."
     # "Цыпочка хорошая..."
-    m "Yeah, the chick is coming to daddy..."
-    "Good chick..."
+    m "Yeah, the girl is coming to daddy..."
+    "Good girl..."
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:125
 translate english ep22_photoshoot1_casting_871ff1f9:
@@ -136,15 +136,15 @@ translate english ep22_photoshoot1_casting_871ff1f9:
     # biff "Кто сегодня цыпочка?"
     # m "Сегодня цыпочка - это Моника Бакфетт с благотворительного вечера..."
     # biff "Что Моника Бакфетт хочет показать папочке?"
-    biff "Who's the chick tonight?"
-    m "Today the chick is Monica Buckfett from the charity event..."
+    biff "Who's the girl tonight?"
+    m "Today the girl is Monica Buckfett from the charity event..."
     biff "What does Monica Buckfett want to show daddy?"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:138
 translate english ep22_photoshoot1_casting_aaf46f34:
 
     # m "Я пришла, потому что обещала хорошо вести себя..."
-    m "I came because I promised to behave like a good chick..."
+    m "I came because I promised to behave like a good girl..."
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:141
 translate english ep22_photoshoot1_casting_8d3fe5d0:
@@ -154,17 +154,17 @@ translate english ep22_photoshoot1_casting_8d3fe5d0:
     # biff "И что цыпочка будет делать?"
     m "You made me come here..."
     mt "I hate this!!!"
-    biff "And what is chick going to do?"
+    biff "And what is this girl going to do?"
 
 translate english strings:
 
     # Quests/EP2_02/ep22_photoshoot1.rpy:96
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (corruption)"
-    new "Behave as a chick at Biff' casting... (corruption)"
+    new "Be a good girl at Biff' casting... (corruption)"
 
     # Quests/EP2_02/ep22_photoshoot1.rpy:96
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot1_casting_corruption_required]) (disabled)"
-    new "Behave as chick at Biff' casting... (low corruption, required [photoshoot1_casting_corruption_required]) (disabled)"
+    new "Be a good girl at Biff' casting... (low corruption, required [photoshoot1_casting_corruption_required]) (disabled)"
 
 # TODO: Translation updated at 2019-01-15 21:45
 
@@ -224,15 +224,15 @@ translate english ep22_photoshoot1_casting_cb9f49f2:
 translate english ep22_photoshoot1_casting_e97962ff:
 
     # biff "О! Цыпочка пришла к папочке!"
-    biff "Oh, chick! Come to daddy!"
+    biff "That's right little girl, come to daddy!"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:519
 translate english ep22_photoshoot1_casting_b464a529:
 
     # biff "Кто сегодня цыпочка?"
     # m "Сегодня цыпочка - это Моника Бакфетт с благотворительного вечера..."
-    biff "Who's the chick tonight?"
-    m "Today the chick is Monica Buckfett from the charity event..."
+    biff "Who's the girl tonight?"
+    m "Today the girl is Monica Buckfett from the charity event..."
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:522
 translate english ep22_photoshoot1_casting_74be009d:
@@ -252,7 +252,7 @@ translate english ep22_photoshoot1_casting_2b8d9f4a:
     # mt "Ненавижу!!!"
     # biff "И что цыпочка будет делать?"
     mt "I hate this!!!"
-    biff "And what is chick going to do?"
+    biff "And what is this girl going to do?"
 
 translate english strings:
 
@@ -267,3 +267,27 @@ translate english corruption_required_9bce411b:
 
     # empty_name "[required1] corruption required!"
     empty_name "[required1] corruption required!"
+# TODO: Translation updated at 2019-03-02 22:55
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:488
+translate english ep22_photoshoot1_end_7d5cf100:
+
+    # mt "Биф ждет меня на свой дурацкий кастинг..."
+    # "Он говорил даст мне работу если я буду хорошей цыпочкой..."
+    # "Это позволит мне приблизиться к цели, возвратить мою компанию назад!"
+    # "Так может быть притвориться?"
+    # "Ведь у меня нет к нему чувств, я хладнокровная женщина, идущая к своей мести..."
+    mt "Biff is waiting for me to go through his stupid casting..."
+    "He said he'd give me a job if I would be a good girl..."
+    "I guess that would allow me to get closer my goal of getting my company back..."
+    "So maybe I should just pretend to be a good girl?"
+    "After all, I have no feelings for him. I'm a cold-blooded woman getting her revenge..."
+
+# game/Quests/EP2_02/ep22_photoshoot1.rpy:495
+translate english ep22_photoshoot1_end_65571a75:
+
+    # "..."
+    # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
+    "..."
+    "Damn... Especially since I promised him I'd be a good girl. Otherwise, he won't give me any work..."
+

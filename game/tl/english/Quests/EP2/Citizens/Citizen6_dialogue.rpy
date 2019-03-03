@@ -222,7 +222,7 @@ translate english citizen6_dialogue_after_offend_bac601fb:
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
     m "No, that's too much!"
-    citizen6 "Okay, I'm kind today. You can go, but only because your tits are amazing!"
+    citizen6 "Okay, I'll be nice today. You can go, but only because your tits are amazing!"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:117
 translate english citizen6_dialogue_after_offend_620aa92c:
@@ -282,7 +282,7 @@ translate english citizen6_dialogue_pilon_loop6_a7283d00:
 translate english citizen6_dialogue_pilon_loop6_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes..."
+    m "I'm not taking off my clothes..."
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:159
 translate english citizen6_dialogue_pilon_loop6_1dc93892:
@@ -324,7 +324,7 @@ translate english citizen6_dialogue_pilon_loop6_f7e05701:
 translate english citizen6_dialogue_pilon_loop6_48b1ace1_1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes..."
+    m "I'm not taking off my clothes..."
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:179
 translate english citizen6_dialogue_pilon_loop6_45cc6fc6:
@@ -427,7 +427,7 @@ translate english citizen6_dialogue_after_offend_e2aceeae:
     "Come on, show yourself!"
     mt "A whole dollar?"
     "Just for showing myself with my clothes on..."
-    "On one hand, I could make enough money for that kebab in five minutes..."
+    "On the one hand, I could make enough money for that kebab in five minutes..."
     "Meaning I won't have to stay with kebab AD in this filthy place all day..."
     "But on the other hand, are you really ready to do this Monica?"
     "No one would recognize me in these clothes..."
@@ -571,8 +571,8 @@ translate english citizen6_dialogue_after_offend3_829aff1f:
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
     m "No, that's too much!"
-    citizen6 "Okay, I'm kind today. You can go, but only because your tits are amazing!"
-    citizen6 "Baby, you can make good money with this!"
+    citizen6 "Okay, I'll be nice today. You can go, but only because your tits are amazing!"
+    citizen6 "Baby, you could make good money doing this!"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:172
 translate english citizen6_dialogue_after_offend3_7e85782b:
@@ -585,7 +585,7 @@ translate english citizen6_dialogue_after_offend3_d34639f3:
 
     # citizen6 "Да, детка, ты великолепна! Ты можешь неплохо зарабатывать этим!"
     # "Ох, у меня кажется встал... Нужно срочно отойти..."
-    citizen6 "Yeah, baby, you're great! You can make good money doing this!"
+    citizen6 "Yeah, baby, you're great! You could make good money doing this!"
     "Oh, I think I'm getting hard... We gotta move..."
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:180
@@ -628,7 +628,7 @@ translate english citizen6_dialogue_after_offend4_9bf81141:
     "But no! Monica Buckfett will not do something like this!"
     "Even if no one would recognize me, it doesn't change anything!"
     "I have plenty of other opportunities to get food!"
-    "Or have I?..."
+    "Or do I?..."
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:224
 translate english citizen6_dialogue_pilon_loop6_e7678610:
@@ -759,7 +759,7 @@ translate english citizen6_dialogue_after_offend_fafa79ec:
     # "Так что же мне делать?"
     mt "A whole dollar?"
     "Just for showing myself with my clothes on..."
-    "On one hand, I could make enough money for that kebab in five minutes..."
+    "On the one hand, I could make enough money for that kebab in five minutes..."
     "Meaning I won't have to stay with kebab AD in this filthy place all day..."
     "But on the other hand, are you really ready to do this Monica?"
     "No one would recognize me in these clothes..."
@@ -802,7 +802,7 @@ translate english citizen6_dialogue_after_offend_place_found_9b4e9c9f:
     # mt "Какжется, это место вполне подходит для того чтобы здесь показать то что меня попросили..."
     # mt "Оно жуткое, но здесь никого нет..."
     # mt "И этот пилон... Что он делает здесь?"
-    mt "It seems that this place is quite suitable for showing here what I was asked..."
+    mt "I think this place is secluded enough for doing what he asked..."
     mt "It's creepy, but there's nobody here..."
     mt "And this pole... What is it doing here?"
 
@@ -875,8 +875,8 @@ translate english citizen6_dialogue_after_offend3_476ea974:
 
     # citizen6 "Ну ладно, я сегодня добрый. Можешь идти. Тем более твои сиськи это нечто!"
     # citizen6 "Детка, ты можешь неплохо зарабатывать этим!"
-    citizen6 "Okay, I'm kind today. You can go, but only because your tits are amazing!"
-    citizen6 "Baby, you can make good money with this!"
+    citizen6 "Okay, I'll be nice today. You can go, but only because your tits are amazing!"
+    citizen6 "Baby, you could make good money doing this!"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:278
 translate english citizen6_dialogue_pilon_c0e84c3e:

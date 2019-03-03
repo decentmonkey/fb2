@@ -42,7 +42,7 @@ translate english ep22_dialogues3_2_6782a785:
     # bardie "Моника, покажи трусики..."
     # m "ЧТО?!?!"
     bardie "Monica, show me your panties..."
-    m "ЧТО?!?!"
+    m "What?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:31
 translate english ep22_dialogues3_2_8596c6d9:
@@ -108,7 +108,7 @@ translate english ep22_dialogues3_2_b1e48be6:
     # m "ЧТО?!?!"
     # "ТЫ ЕЩЕ СМЕЕШЬ ШАНТАЖИРОВАТЬ МЕНЯ, МАЛЯВКА?!?!"
     # "Тебя даже не впустят туда! Такого маленького болвана!"
-    m "ЧТО?!?!"
+    m "What?!?!"
     "DON'T YOU DARE BLACKMAIL ME!"
     "They probably won't even let you in, you little fool."
 
@@ -334,7 +334,7 @@ translate english ep22_dialogues3_4_54c0a616:
     # bardie "Я тебя предупреждал! Теперь не жалуйся!"
     # bardie "Ты получишь штраф! И тебе теперь не отвертеться!"
     bardie "Ahhh! You're here!"
-    bardie "See, I told you I was capable of going here!"
+    bardie "See, I told you I'd come here!"
     bardie "I warned you about this, so don't complain!"
     bardie "You'll be fined, and you can't get away!"
 
@@ -516,14 +516,14 @@ translate english ep22_dialogues3_5_8d4a4117:
     "Ugh, that fucking Bardie!"
     "That little bastard!"
     "He found my weak spot!"
-    "I'm already in so much trouble, and I've neglecting this little bastard who's going to use me..."
+    "I'm already in so much trouble, and I've been neglecting this little bastard who's going to use me..."
     "But I don't have any other options than to allow him to."
     "I'll have to pretend to obey him."
     "But I swear, I will find a way to ruin him!"
     "..."
     "Why is everyone trying to use me?"
     "What is wrong with this world?"
-    "I have never treated people like that!"
+    "I never treated people like that!"
     "This isn't fair..."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:263
@@ -565,8 +565,8 @@ translate english ep22_dialogues3_6_e2224cec:
 
     # m "У меня небольшие сложности... Временные..."
     # "Это не твое дело..."
-    m "That's because I'm facing some issue right now... Temporary issues..."
-    "Which are none of your business..."
+    m "I'mjust dealing with some temporary problems right now."
+    "And it's none of your business..."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:282
 translate english ep22_dialogues3_6_2d746a07:
@@ -574,27 +574,27 @@ translate english ep22_dialogues3_6_2d746a07:
     # bardie "Насколько я знаю, этот дом тоже принадлежал тебе?"
     # m "Да, это мой дом!"
     # "Вы поселились в нем незаконно! И я восстановлю справедливость!"
-    bardie "As far as I know, this house belonged to you. Is that true?"
-    m "This is the house!"
-    "You have settled it illegally! And I will restore justice!"
+    bardie "Does that mean this house use to belong to you?"
+    m "Yes you brat! This is my house!"
+    "You have no right to live here! I'll take back what's mine sooner or later!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:286
 translate english ep22_dialogues3_6_6d527add:
 
     # m "Можешь не сомневаться, Барди..."
-    m "You can be sure, Bardie..."
+    m "You can be sure of it..."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:288
 translate english ep22_dialogues3_6_42686b4f:
 
     # bardie "Ой! Я боюсь тебя!"
-    bardie "Oh! I'm afraid of you!"
+    bardie "Oh my god, are you serious?"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:290
 translate english ep22_dialogues3_6_9d49241c:
 
     # m "Да, тебе стоило бы меня бояться, учитывая мои возможности!"
-    m "Yes, you should be very afraid of me, given my power and abilities!"
+    m "Of course I am, so be very careful about what you say around me."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:292
 translate english ep22_dialogues3_6_06d70923:
@@ -607,14 +607,14 @@ translate english ep22_dialogues3_6_ed19f318:
 
     # m "Вашей семье пока не стоит про это знать..."
     # "И я бы тебе советовала держать рот на замке!"
-    m "Because your family shouldn't know about this yet..."
-    "And I would advise you to shut up about it!"
+    m "Because I have a plan to take back what is mine, and no one can know about it yet."
+    "And if you say anything to anyone, I'll make sure you regret it!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:297
 translate english ep22_dialogues3_6_114fdb5b:
 
     # "Ты ведь послушный мальчик?"
-    "You're an obedient boy, aren't you?"
+    "You can be an obedient boy, right?"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:299
 translate english ep22_dialogues3_6_efa51258:
@@ -641,7 +641,7 @@ translate english ep22_dialogues3_6_b95eedab:
 
     # m "И не называй меня по фамилии, еще не время..."
     # bardie "Хорошо, Ми... Миссис Моника..."
-    m "Good, and don't call me by my last name yet!"
+    m "Good, and don't use my last name!"
     bardie "Well, M... Mrs. Monica..."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:309
@@ -664,7 +664,7 @@ translate english ep22_dialogues3_6_ecde8bbd:
     # "Этот дурацкий разговор в полиции и твои глупые просьбы..."
     m "Good."
     m "I hope our little misunderstanding is over."
-    "That our little conversation in the police office is all forgotten, and that your stupid requests will stop..."
+    "That our silly conversation in the police office is all forgotten. And that your stupid requests will stop..."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:317
 translate english ep22_dialogues3_6_b0588bb7:
@@ -700,7 +700,7 @@ translate english ep22_dialogues3_6_b0410944:
     m "What?! Again?!"
     m "I though you realized who I am!"
     "I am Monica Buckfett!"
-    "And how you have no right to ask me to do something like that!!!"
+    "And that you have no right to ask me to do something like that!!!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:331
 translate english ep22_dialogues3_6_80fc53c8:
@@ -717,7 +717,7 @@ translate english ep22_dialogues3_6_8e83a89e:
     # bardie "ЧТО?!?!"
     # "ТЫ СНОВА ОБЗЫВАЕШЬ МЕНЯ МАЛЯВКОЙ?!?"
     m "Maybe, but I don't consider it necessary to keep my promises to a little boy like you..."
-    bardie "ЧТО?!?!"
+    bardie "What?!?!"
     "YOU'RE CALLING ME LITTLE AGAIN?"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:338
@@ -742,13 +742,13 @@ translate english ep22_dialogues3_6_5ee7c3a9:
     # "У меня даже захватывает дух! Я даже представить не мог!"
     bardie "I don't care what you say! Actually, this makes it more interesting."
     "My new toy is a magazine cover girl!"
-    "That's amazing! I couldn't ever imagine such a pleasure!"
+    "That's amazing! I couldn't ever imagine such a pleasure! How cool is that? I can't believe how lucky I am."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:347
 translate english ep22_dialogues3_6_d0b81506:
 
     # "Я заберу этот журнал к себе и буду дрочить на него по вечерам!"
-    "I'm gonna take this magazine to my room and masturbate to it every evening."
+    "I'm gonna take this magazine to my room and jack off to it every day."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:349
 translate english ep22_dialogues3_6_0756a926:
@@ -795,7 +795,7 @@ translate english ep22_dialogues3_6_b9ed636c:
 
     # mt "Дьявол!!! Этот Барди!!!"
     # "Это очень рискованно! Если он сообщит Маркусу обо мне, то мне конец!"
-    mt "Damn ye!!! Fucking Bardie!!!"
+    mt "Damn it!!! Fucking Bardie!!!"
     "If he tells Marcus about me, I'm dead!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:366
@@ -806,8 +806,8 @@ translate english ep22_dialogues3_6_81b9ea6f:
     # "Все-равно он и так уже их видел!"
     # "Он использует каждую возможность, чтобы заглянуть мне под юбку!"
     "..."
-    "Maybe it's just easier to show him may panties, so that I can finally get rid of him."
-    "He's already seen them anyway!"
+    "Maybe it's just easier to show him my panties so that I can finally get rid of him."
+    "I guess he's already seen them anyways..."
     "He takes every opportunity to look up my skirt!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:374
@@ -820,7 +820,7 @@ translate english ep22_dialogues3_6_465913f6:
 translate english ep22_dialogues3_6_7a2cf1f4:
 
     # bardie "Ты будешь показывать мне трусики каждый раз, когда я захочу этого!"
-    bardie "No, you're gonna show me your panties every time I want!"
+    bardie "No. You're going to show me your panties whenever I want."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:378
 translate english ep22_dialogues3_6_16bd7868:
@@ -972,7 +972,7 @@ translate english cleaning2_bardie_comment1_82f44325:
 translate english cleaning2_bardie_comment2_07d4936c:
 
     # bardie "Моника! Убирайся в комнате хозяина как следует!"
-    bardie "Monica! Clean the master's room properly!"
+    bardie "Monica! Clean your master's room properly!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:542
 translate english cleaning2_bardie_comment2_bcb79828:
@@ -980,7 +980,7 @@ translate english cleaning2_bardie_comment2_bcb79828:
     # mt "!!!"
     # m "Да, Барди... Я стараюсь убираться хорошо..."
     mt "!!!"
-    m "Yes, Bardie... I'm trying to get well..."
+    m "Yes, Bardie... I'm trying to ..."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:587
 translate english cleaning2_bardie_comment2_199a531e:
@@ -1029,7 +1029,7 @@ translate english ep22_dialogues3_9_523580c6:
     # m "Я НИ ЗА ЧТО!!!"
     # "СЛЫШИШЬ?!?!"
     # "НИ ЗА ЧТО НЕ БУДУ ХОДИТЬ БЕЗ ТРУСИКОВ!!!"
-    m "ЧТО?!?!"
+    m "What?!?!"
     m "NO, I WILL NEVER DO THAT!"
     "DO YOU UNDER STAND?!"
     "I'M NEVER GONNA WALK AROUND WITHOUT PANTIES!"
@@ -1086,7 +1086,7 @@ translate english ep22_dialogues3_9_34b4dfd3:
 translate english ep22_dialogues3_9_415a7fa9:
 
     # m "ЧТО?!?!"
-    m "ЧТО?!?!"
+    m "What?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:709
 translate english ep22_dialogues3_9_9ed84586:
@@ -1247,7 +1247,7 @@ translate english ep22_dialogues3_10_4cecaf79:
     # "Тереть пятно САМОЙ!!!"
     # "В трусиках, которые пахнут этой сучкой Бетти, которая захватила мой дом!"
     # "О БОЖЕ!!!"
-    mt "Вот мерзавец!!!"
+    mt "That bastard!"
     "He's blackmailing me!"
     "He just keeps asking for more and more..."
     "But what am I to do?"
@@ -1259,7 +1259,7 @@ translate english ep22_dialogues3_10_4cecaf79:
     "No, Ralph spends my money so it will look as if I'm paid..."
     "Heck!"
     "Is the only way out really to wear Betty's panties?!? Her USED panties?"
-    "Damn ye!!!"
+    "Damn it!!!"
     "That is so humiliating! Especially for me, Monica Buckfett!"
     "Cleaning for free in my own house!"
     "Rubbing this impossible stain!!!"
@@ -1362,14 +1362,14 @@ translate english ep22_dialogues3_6_82619786:
 
     # bardie "Насколько я знаю, этот дом тоже принадлежал тебе?"
     # m "Да, это мой дом!"
-    bardie "As far as I know, this house belonged to you. Is that true?"
-    m "This is the house!"
+    bardie "Does that mean this house use to belong to you?"
+    m "Yes you brat! This is my house!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:343
 translate english ep22_dialogues3_6_ab83b4b8:
 
     # "Вы поселились в нем незаконно! И я восстановлю справедливость!"
-    "You have settled it illegally! And I will restore justice!"
+    "You have no right to live here! I'll take back what's mine sooner or later!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:401
 translate english ep22_dialogues3_6_ac48c01e:
@@ -1382,7 +1382,7 @@ translate english ep22_dialogues3_6_b11a71cf:
 
     # bardie "ЧТО?!?!"
     # "ТЫ СНОВА ОБЗЫВАЕШЬ МЕНЯ МАЛЯВКОЙ?!?"
-    bardie "ЧТО?!?!"
+    bardie "What?!?!"
     "YOU'RE CALLING ME LITTLE AGAIN?"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:622

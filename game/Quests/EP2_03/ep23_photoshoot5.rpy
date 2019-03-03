@@ -1,6 +1,7 @@
 default photoshoot5_count = 0
 
 label ep22_photoshoot5:
+    $ melanieWaitingOpenedOutfits = False
     $ shotsAmount = PS5_shots_amount
     $ shotsTotalAmount = 27
 

@@ -130,7 +130,7 @@ translate german dick_meeting1_car_parting2_2ab87f62:
 translate german dick_meeting1_car_parting2_a95e18d2:
 
     # fred "Конечно, Мэм!"
-    fred "Natürlich."
+    fred "Конечно, Мэм!"
 
 # game/Quests/Dick_Car_Parting.rpy:93
 translate german dick_meeting1_car_parting2_361bc315_1:

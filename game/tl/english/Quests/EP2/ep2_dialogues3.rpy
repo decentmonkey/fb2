@@ -599,7 +599,7 @@ translate english monica_dick_secretary_dialogue2_e34980a1:
 
     # mt "Дьявол! Не могу поверить что я говорю это!!!"
     # "Говорю этой сучке!"
-    mt "Damn ye! I can't believe I'm saying this!!!"
+    mt "Damn it! I can't believe I'm saying this!!!"
     "Tell that bitch!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:339
@@ -800,7 +800,7 @@ translate english monica_dick_secretary_dialogue2_f0506224:
     # m "До свидания, Миссис Виктория..."
     # mt "Сучка!"
     m "Good-bye, Mrs. Victoria..."
-    mt "Сучка!"
+    mt "Bitch!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:436
 translate english monica_dick_secretary_dialogue3_ce9a25fa:
@@ -1300,7 +1300,7 @@ translate english monica_dick_dialogue1_local1_9da8cb28:
 translate english monica_dick_secretary_dialogue2_81e39c51:
 
     # mt "Дьявол! Не могу поверить что я говорю это!!!"
-    mt "Damn ye! I can't believe I'm saying this!!!"
+    mt "Damn it! I can't believe I'm saying this!!!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:451
 translate english monica_dick_secretary_dialogue2_a8de7387:
@@ -1352,7 +1352,7 @@ translate english monica_dick_secretary_dialogue2_d8213a8d:
 translate english monica_dick_secretary_dialogue2_f0d79344:
 
     # mt "Сучка!"
-    mt "Сучка!"
+    mt "Bitch!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:582
 translate english monica_dick_secretary_dialogue3_5166c006:

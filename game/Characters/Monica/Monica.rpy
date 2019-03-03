@@ -6,6 +6,9 @@ default monicaFoodInventoryBasement = {} #какая еда лежит на ст
 #define monicaCantSleepHungry = True
 define monicaCantSleepHungry2 = True
 
+default monicaWorkingAsDishwasher = False
+default monica_pub_name = False
+
 default monicaCleaningRoomsAmount = 2
 default monicaCleaningInProgress = False
 default monicaCleaningObject = ""

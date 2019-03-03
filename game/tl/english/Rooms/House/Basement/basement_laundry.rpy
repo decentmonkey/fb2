@@ -96,5 +96,5 @@ translate english strings:
 translate english basement_laundry_environment_58583d46:
 
     # mt "Это прачечная."
-    mt "This is a laundry."
+    mt "Это прачечная."
 

@@ -68,7 +68,7 @@ translate german hook_basement_bedroom_check_exit_cloth_map_c28d4e8a:
     # "Мне надо одеться."
     mt "So kann ich nicht raus gehen."
     "Noch bin ich nicht verrückt!!!"
-    "Ich brauche Kleidung."
+    "Мне надо одеться."
 
 translate german strings:
 
@@ -127,4 +127,16 @@ translate german strings:
     # Characters/Monica/Wardrobe_Basement.rpy:10
     old "Только трусики."
     new "Nur höschen."
+
+# TODO: Translation updated at 2019-03-02 22:56
+
+translate german strings:
+
+    # Characters/Monica/Wardrobe_Basement.rpy:124
+    old "Переодеться в одежду шлюхи (другой нет!)."
+    new ""
+
+    # Characters/Monica/Wardrobe_Basement.rpy:124
+    old "Не переодеваться."
+    new ""
 

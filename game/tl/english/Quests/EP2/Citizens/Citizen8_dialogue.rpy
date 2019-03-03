@@ -107,7 +107,7 @@ translate english citizen8_dialogue_12c78507:
     citizen8 "A flyer? Okay... But what do I get in return?"
     m "You get a flyer, isn't that enough?"
     citizen8 "No, it's pretty useless to me. I'd much rather see you!"
-    citizen8 "Showed tongue"
+    citizen8 "Show your tongue."
     mt "He's speaking nonsense! He wants to see me just to take a flyer?! Ridiculous!"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:30
@@ -186,7 +186,7 @@ translate english citizen8_dialogue_pilon_loop8_a7283d00:
 translate english citizen8_dialogue_pilon_loop8_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes..."
+    m "I'm not taking off my clothes..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:94
 translate english citizen8_dialogue_pilon_loop8_1_be60da89:
@@ -214,7 +214,7 @@ translate english citizen8_dialogue_pilon_loop8_1_745b11c5:
 translate english citizen8_dialogue_pilon_loop8_1_80e1b804:
 
     # citizen8 "Чудно, а ты молодец!"
-    citizen8 "Wonderful, well done"
+    citizen8 "Wonderful, well done."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:109
 translate english citizen8_dialogue_pilon_loop8_1_cb648ac7:
@@ -246,7 +246,7 @@ translate english citizen8_dialogue_pilon_loop8_1_f7e05701:
 translate english citizen8_dialogue_pilon_loop8_1_48b1ace1:
 
     # m "Я не собираюсь раздеваться, только так."
-    m "I'm not going to take off clothes..."
+    m "I'm not taking off my clothes..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:127
 translate english citizen8_dialogue_pilon_loop8_1_427ea1b1:
@@ -322,7 +322,7 @@ translate english citizen8_dialogue_06c0843f:
 translate english citizen8_dialogue_e27d2938:
 
     # citizen8 "Показала язык."
-    citizen8 "Showed tongue"
+    citizen8 "Show your tongue."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:31
 translate english citizen8_dialogue_0c9c0671:
@@ -453,7 +453,7 @@ translate english citizen8_dialogue_pilon_loop8_1_ea17d522_1:
 translate english citizen8_dialogue_821577c9:
 
     # citizen8 "Шлепнула себя по попе. " 
-    citizen8 "Шлепнула себя по попе. " 
+    citizen8 "Шлепнула себя по попе." 
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:167
 translate english citizen8_dialogue_pilon_loop8_1_62de814a:

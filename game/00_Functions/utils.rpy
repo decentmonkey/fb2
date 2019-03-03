@@ -127,6 +127,24 @@ label showRandomImages(imagesList, imagesAmount, makeRandom=False):
     return
 
 
+label showRandomImagesFirstFade(imagesList, imagesAmount, makeRandom=False):
+    $ firstFlag = True
+    $ imagesList = random.sample(set(imagesList), imagesAmount)
+    if makeRandom == False:
+        $ imagesList.sort()
+    $ imagesListIdx = 0
+    label showRandomImages_loop2:
+        if imagesListIdx < imagesAmount:
+            $ imageName = str(imagesList[imagesListIdx])
+            img imageName
+            if firstFlag == True:
+                with fade
+                $ firstFlag = False
+            w
+            $ imagesListIdx += 1
+            jump showRandomImages_loop2
+    return
+
 
 
 

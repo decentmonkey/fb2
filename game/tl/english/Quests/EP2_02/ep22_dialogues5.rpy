@@ -179,7 +179,7 @@ translate english ep22_dialogues5_2_0cc3f2a4:
 
     # m "ЧТО?!?!"
     # m "ЗАЧЕМ?!?!"
-    m "ЧТО?!?!"
+    m "What?!?!"
     m "Why?"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:212
@@ -448,7 +448,7 @@ translate english ep22_dialogues5_4_03c9e216:
     # m "Я УБЬЮ ТЕБЯ!!!"
     # m "ТВАРЬ!!!"
     m "I AM GOING TO KILL YOU!!!"
-    m "ТВАРЬ!!!"
+    m "YOU STUPID THING!!!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:380
 translate english ep22_dialogues5_4_4c739cf7:
@@ -928,7 +928,7 @@ translate english ep22_dialogues5_7_79b5b8f4:
     # dick_secretary "Хорошо, Миссис Бакфетт..."
     m "I don't know, I can do anything!"
     "Just tell Mr. Dick that you've forgiven me, quick!!!"
-    dick_secretary "Хорошо, Миссис Бакфетт..."
+    dick_secretary "All right, Mrs. Buckfett ..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:696
 translate english ep22_dialogues5_7_61ff459c:
@@ -1012,7 +1012,7 @@ translate english ep22_dialogues5_7_b33b9961:
 translate english ep22_dialogues5_7_415a7fa9:
 
     # m "ЧТО?!?!"
-    m "ЧТО?!?!"
+    m "What?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:765
 translate english ep22_dialogues5_7_1791a762:
@@ -1156,7 +1156,7 @@ translate english ep22_dialogues5_7_209eefa3:
     # dick_secretary "Хорошо, Миссис Бакфетт..."
     # "В следующий раз Вы поцелуете мой зад..."
     # "И сделаете это очень страстно!"
-    dick_secretary "Хорошо, Миссис Бакфетт..."
+    dick_secretary "All right, Mrs. Buckfett ..."
     "Next time you will kiss my ass..."
     "And do so very passionately!"
 
@@ -1173,7 +1173,7 @@ translate english ep22_dialogues5_7_5af46d43:
 
     # dick_secretary "Хорошо, Миссис Бакфетт..."
     # "Для начала неплохо..."
-    dick_secretary "Хорошо, Миссис Бакфетт..."
+    dick_secretary "All right, Mrs. Buckfett ..."
     "This is a good start..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:849
@@ -1300,7 +1300,7 @@ translate english ep22_dialogues5_7_af4e039f:
     # "Может быть их не пропустят сюда?"
     mt "I wish Dick would call sooner."
     "What's taking them so long?!?!"
-    "Но..."
+    "But..."
     "Maybe they can't find this place."
     "Perhaps they will not be allowed here."
 
@@ -1436,7 +1436,7 @@ translate english ep22_dialogues5_8_8eb0e760:
     # mt "Эта сучка запретила мне приближаться к Дику..."
     # "Мне пока лучше не нарушать ее запреты."
     # "Я даже не подозревала насколько она опасна..."
-    mt "That bitch told me not togo near Dick..."
+    mt "That bitch told me not to go near Dick..."
     "I'd better not break my promises..."
     "I had no idea how dangerous she was..."
 
@@ -1498,7 +1498,7 @@ translate english ep22_dialogues5_9_9e10aaad:
 translate english ep22_dialogues5_9_ef28a711:
 
     # m "Биф, пожалуйста, дай деньги. Я буду хорошей цыпочкой..."
-    m "Biff, please give me the money. I'm gonna be a good chick..."
+    m "Biff, please give me the money. I'll be a good girl..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1031
 translate english ep22_dialogues5_9_78ba4f97:
@@ -1596,7 +1596,7 @@ translate english ep22_dialogues5_11_6e808278:
     dick_secretary "Mrs. Buckfett!"
     "I'm going shopping soon!"
     "I hope the certificate will be in place!"
-    "And now I don't have time for You! Sorry!"
+    "And now I don't have time for you! Sorry!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1087
 translate english ep22_dialogues5_12_65356311:
@@ -1745,7 +1745,7 @@ translate english ep22_dialogues5_12_090ade82:
 
     # dick_secretary "Да, вот так!"
     # "А теперь поелозьте им в разные стороны, Да!"
-    dick_secretary "Да, вот так!"
+    dick_secretary "That's right!"
     "Now move it in different directions, Yes!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1174
@@ -1864,7 +1864,7 @@ translate english ep22_dialogues5_14_b27a9826:
     # dick_secretary "Нет, Мистер Дик..."
     # "Она все поняла и теперь ведет себя как подруга."
     # "Но она по дружески обратилась ко мне с просьбой помочь ей деньгами."
-    dick2 "ЧТО?!?!"
+    dick2 "What?!?!"
     "WAS IT HER AGAIN?!"
     dick_secretary "No, Mr. Dick..."
     "She got the message and is starting to act like a true friend"
@@ -1937,7 +1937,7 @@ translate english ep22_dialogues5_14_6332b097:
     # dick_secretary "Миссис Бакфетт..."
     # dick "Ты что, серьезно?"
     dick "Really, who else, besides me, wants to kiss your ass?"
-    dick_secretary "Миссис Бакфетт..."
+    dick_secretary "Mrs. Buckfett ..."
     dick "Are you serious?"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1273
@@ -1956,7 +1956,7 @@ translate english ep22_dialogues5_14_de2028bc:
 translate english ep22_dialogues5_14_b6eb4a09:
 
     # dick_secretary "Да, Мистер Дик..."
-    dick_secretary "Да, Мистер Дик..."
+    dick_secretary "Yes, Mr. Dick..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1283
 translate english ep22_dialogues5_14_37a1d7da:
@@ -2344,7 +2344,7 @@ translate english ep22_dialogues5_14_51145218:
 
     # dick2 "ЧТО?!?!"
     # "ОПЯТЬ ОНА ЗА СВОЕ?!?!"
-    dick2 "ЧТО?!?!"
+    dick2 "What?!?!"
     "WAS IT HER AGAIN?!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1585

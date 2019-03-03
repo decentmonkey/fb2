@@ -67,7 +67,7 @@ label ep23_dialogues6_1:
     with fade
     melanie "..."
     img 8895
-    reception_secretary "Миссис Мелани, разрешите взять Вам автограф?"
+    reception_secretary "Миссис Мелани, разрешите взять Ваш автограф?"
     "Это для моей дочери, она большая Ваша поклонница!"
     img 8896
     melanie "Да, конечно можно."

@@ -39,7 +39,7 @@ label Pub_Visitors_RemoveAll: #Убрать всех посетителей
     return
 
 label Pub_Visitors_Full_Food: # Все посетители + у всех еда
-    $ set_active(True, group="visitors", scene="pub")
+#    $ set_active(True, group="visitors", scene="pub")
     python:
         pubVisitor1Suffix = "_Food"
         pubVisitor2Suffix = "_Food"
@@ -63,6 +63,16 @@ label Pub_Visitors_CheckStripLooking:
         $ set_active(False, group2="strip_lookers")
     return
 
+label Pub_Visitors_Add_Random(from_amount, to_amount):
+    $ visitorsAmount = rand(from_amount, to_amount)
+    $ visitorsArr = get_objects(scene="pub", group2="visitors_tables")
+    $ activeVisitorsList = random.sample(visitorsArr, visitorsAmount)
+    $ print "visitors"
+    python:
+        for visitorObj in activeVisitorsList:
+            set_active(visitorObj[1], True, scene="pub")
+            print visitorObj[1]
+    return
 
 
 

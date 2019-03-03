@@ -381,3 +381,87 @@ translate german citizen8_dialogue_pilon_loop8_1_ea17d522_1:
     m "Was?! So wenig? Du könntest schon mehr geben!"
     mt "Bald werde ich wieder reich sein und mein Leben zurück haben..."
 
+# TODO: Translation updated at 2019-03-02 22:56
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:31
+translate german citizen8_dialogue_821577c9:
+
+    # citizen8 "Шлепнула себя по попе. " 
+    citizen8 "Шлепнула себя по попе." 
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:167
+translate german citizen8_dialogue_pilon_loop8_1_62de814a:
+
+    # citizen8 "Потанцуй, пилон сзади."
+    citizen8 "Потанцуй, пилон сзади."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:170
+translate german citizen8_dialogue_pilon_loop8_1_d15b9b6b:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    mt "Das kann ich mir nicht leisten!"
+    "So sehr am Boden bin ich nun auch noch nicht!"
+    "Und ich hoffe, dass das NIE passieren wird!"
+    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:179
+translate german citizen8_dialogue_pilon_loop8_1_c6b5282d:
+
+    # m "Хорошо, только не долго."
+    # mt "Только потому, что ты заплатишь."
+    m "Хорошо, только не долго."
+    mt "Только потому, что ты заплатишь."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:183
+translate german citizen8_dialogue_pilon_loop8_1_0119272a:
+
+    # citizen8 "Нормально, но нужно еще тренироваться и тренироваться."
+    citizen8 "Нормально, но нужно еще тренироваться и тренироваться."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:187
+translate german citizen8_dialogue_pilon_loop8_1_5f0f80e2:
+
+    # mt "Не думаю, что буду это делать часто..."
+    mt "Не думаю, что буду это делать часто..."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:196
+translate german citizen8_dialogue_pilon_loop8_1_f58825d6:
+
+    # citizen8 "Покажи мне грудь, только теперь без одежды."
+    # mt "Он и вправду говорит как бизнесмен, заключающий сделку..."
+    citizen8 "Покажи мне грудь, только теперь без одежды."
+    mt "Он и вправду говорит как бизнесмен, заключающий сделку..."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:200
+translate german citizen8_dialogue_pilon_loop8_1_49aafc4d:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    mt "Das kann ich mir nicht leisten!"
+    "So sehr am Boden bin ich nun auch noch nicht!"
+    "Und ich hoffe, dass das NIE passieren wird!"
+    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:207
+translate german citizen8_dialogue_pilon_loop8_1_7dec49ad:
+
+    # m "Так и быть, только руками не трогать."
+    m "Так и быть, только руками не трогать."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:210
+translate german citizen8_dialogue_pilon_loop8_1_b09cad12:
+
+    # citizen8 "Очень хорошо. Отличный старт."
+    citizen8 "Очень хорошо. Отличный старт."
+
+# game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:212
+translate german citizen8_dialogue_pilon_loop8_1_3b7a2ee8:
+
+    # mt "Что значит старт?"
+    mt "Что значит старт?"
+

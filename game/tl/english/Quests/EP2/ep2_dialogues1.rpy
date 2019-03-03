@@ -104,7 +104,7 @@ translate english sleep_scene1_c5f0665a:
     # m "Фрэд?!?!"
     # "ТЫ?!?!"
     m "Fred?!?!"
-    "ТЫ?!?!"
+    "YOU?!?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:56
 translate english sleep_scene1_2df57290:
@@ -771,14 +771,14 @@ translate english cleaning_betty_comment1_a2ac888f:
 
     # betty "Моника, гувернантка."
     # "Продолжай убираться."
-    betty "Monica, the maid."
+    betty "Monica, get over here."
     "Keep cleaning."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:416
 translate english cleaning_betty_comment1_ba11ae58:
 
     # betty "Моника, гувернантка."
-    betty "Monica, the maid."
+    betty "Monica, get over here."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:418
 translate english cleaning_betty_comment1_000edcab:
@@ -808,7 +808,7 @@ translate english cleaning_betty_comment1_1ff29d6f:
 translate english cleaning_betty_comment1_00e9e1c8:
 
     # betty "Да, получше чем ты!"
-    betty "Better than you!"
+    betty "Obviously. Much better than you!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:428
 translate english cleaning_betty_comment1_d4f97589:
@@ -833,7 +833,7 @@ translate english cleaning_betty_comment1_842f0875:
 
     # betty "Моника, гувернантка."
     # "Ты плохо работаешь и нерегулярно убираешь, я вижу!"
-    betty "Monica, the maid."
+    betty "Monica, get over here."
     "You work poorly and clean irregularly, I see!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:442
@@ -856,7 +856,7 @@ translate english cleaning_betty_comment1_b1d15285:
     # mt "..."
     # "Сучка!"
     mt "..."
-    "Сучка!"
+    "Bitch!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:463
 translate english cleaning_bardie_comment1_4c88471c:
@@ -868,7 +868,7 @@ translate english cleaning_bardie_comment1_4c88471c:
 translate english cleaning_bardie_comment1_509c5b3e:
 
     # m "Как ты себе позволяешь общаться со старшими?!"
-    m "What?! How are you allowing yourself to talk like that to the elders?!"
+    m "Excuse me?! How dare you talk like that to your elders?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:469
 translate english cleaning_bardie_comment1_1e00507b:
@@ -902,7 +902,7 @@ translate english cleaning_bardie_comment1_27701d53:
 translate english cleaning_bardie_comment2_07d4936c:
 
     # bardie "Моника! Убирайся в комнате хозяина как следует!"
-    bardie "Monica! Clean the master's room properly!"
+    bardie "Monica! Clean your master's room properly!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:497
 translate english cleaning_bardie_comment2_23409edc:
@@ -942,7 +942,7 @@ translate english cleaning_bardie_comment3_4c88471c:
 translate english cleaning_bardie_comment3_509c5b3e:
 
     # m "Как ты себе позволяешь общаться со старшими?!"
-    m "What?! How are you allowing yourself to talk like that to the elders?!"
+    m "Excuse me?! How dare you talk like that to your elders?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:533
 translate english cleaning_bardie_comment3_1e00507b:
@@ -1258,7 +1258,7 @@ translate english strings:
 translate english cleaning_betty_comment1_ba11ae58_1:
 
     # betty "Моника, гувернантка."
-    betty "Monica, the maid."
+    betty "Monica, get over here."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:451
 translate english cleaning_betty_comment1_000edcab_1:
@@ -1289,7 +1289,7 @@ translate english cleaning_betty_comment1_72197c04:
 
     # betty "Да, получше чем ты!"
     # "Продолжай убираться."
-    betty "Better than you!"
+    betty "Obviously. Much better than you!"
     "Keep cleaning."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:476
@@ -1302,7 +1302,7 @@ translate english cleaning_betty_comment1_72c4389d:
 translate english cleaning_betty_comment1_faa5a50a:
 
     # "Сучка!"
-    "Сучка!"
+    "Bitch!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:694
 translate english monica_goout1_governess_restrict_30f16a20_1:

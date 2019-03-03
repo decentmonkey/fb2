@@ -138,3 +138,31 @@ translate german strings:
     old "Пропустить до Пятницы."
     new "Springe bis Freitag."
 
+# TODO: Translation updated at 2019-03-02 22:56
+
+# game/Characters/Monica/Bed_Basement.rpy:285
+translate german basement_monica_hungry_cant_sleep_1290560d:
+
+    # mt "{c}Я не ела{/c} уже третий день!"
+    # "Я не могу лечь спать в таком состоянии!"
+    # "Я ХОЧУ ЕСТЬ!!!"
+    mt "{c}Ich habe nichts gegessen{/c} seit drei Tagen!"
+    "So kann ich nicht schlafen!"
+    "ICH WILL ESSEN!!!"
+
+# game/Characters/Monica/Bed_Basement.rpy:294
+translate german basement_monica_hungry_cant_sleep_d2d68871:
+
+    # "..."
+    # mt "Может быть я смогу что-то найти на заправке?"
+    # mt "Или у кого-нибудь занять деньги на еду?"
+    "..."
+    mt "Vielleicht finde ich etwas bei der Tankstelle?"
+    mt "Vielleicht jemanden, von dem ich mir Geld oder Essen leihen kann?"
+
+translate german strings:
+
+    # Characters/Monica/Bed_Basement.rpy:99
+    old "Поесть и лечь спать."
+    new ""
+

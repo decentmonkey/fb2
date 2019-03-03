@@ -68,7 +68,7 @@ translate german whores_place_environment2_fcf31986:
     mt "Ich kenne diese Prostituierte."
     "Oh mein Gott! Monica!"
     "SIE!!!"
-    "KENNST!!!"
+    "KENNT!!!"
     "EINE PROSTITUIERTE!!!"
     "Ich kann es nicht fassen."
 
