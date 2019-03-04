@@ -951,6 +951,7 @@ label scene_test2:
 
     # Если трахать:
     # видео Моника трахает себя
+#audio_Monica_Cabinet_Dildo_3
     img 9340
     with Dissolve(0.3)
     w
@@ -1122,6 +1123,7 @@ label scene_test1:
 
     # sound todo !!!!!!!!!!!!!!!!!
     #лижет
+    music audio_Monica_Cabinet_Licking1
     img 9370
     with fade
     w
@@ -1257,9 +1259,11 @@ label scene_test1:
 
     # Мелани кончает.
     # sound todo !!!!!!
+    sound snd_melanie_cum
     img 9404
     with fadelong
     melanie "ААААААааааааххххх!!!!"
+    sound snd_melanie_cum2
     img 9405
     with Dissolve(0.5)
     melanie "ААААААааааааххххх!!!!"
@@ -1349,7 +1353,7 @@ label scene_test1:
 
     # Мартышка кончает.
     music Loved_Up2
-    # sound todo!!!!
+    sound snd_monkey_cum
     img 9425
     with fade
     model1 "ААаааааааххххх!!!"
