@@ -258,7 +258,7 @@ translate english strings:
 
     # Quests/EP2_02/ep22_photoshoot1.rpy:563
     old " corruption required!"
-    new ""
+    new " corruption required!"
 
 # TODO: Translation updated at 2019-01-17 00:49
 
@@ -290,4 +290,3 @@ translate english ep22_photoshoot1_end_65571a75:
     # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
     "..."
     "Damn... Especially since I promised him I'd be a good girl. Otherwise, he won't give me any work..."
-

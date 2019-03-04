@@ -164,5 +164,5 @@ translate english strings:
 
     # Characters/Monica/Bed_Basement.rpy:99
     old "Поесть и лечь спать."
-    new "Поесть и лечь спать."
+    new "Eat and go to bed."
 

@@ -485,8 +485,8 @@ translate english citizen9_dialogue_pilon_loop9_1bbc028c:
 
     # citizen9 "Потанцуй! Для этого здесь пилон и поставили!"
     # mt "Наркоман...Надеюсь скоро тебя поймают..."
-    citizen9 "Потанцуй! Для этого здесь пилон и поставили!"
-    mt "Наркоман...Надеюсь скоро тебя поймают..."
+    citizen9 "Dance!"
+    mt "Addict... I hope you get caught soon..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:186
 translate english citizen9_dialogue_pilon_loop9_d15b9b6b:
@@ -498,19 +498,19 @@ translate english citizen9_dialogue_pilon_loop9_d15b9b6b:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    help "[MonicaWhoringClothPylonDanceCorruptionRequired] corruption is required"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:195
 translate english citizen9_dialogue_pilon_loop9_d3108dd3:
 
     # m "Хорошо, только не долго."
-    m "Хорошо, только не долго."
+    m "Well, just not for long."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:198
 translate english citizen9_dialogue_pilon_loop9_f5d619cc:
 
     # citizen9 "А у тебя неплохо выходит."
-    citizen9 "А у тебя неплохо выходит."
+    citizen9 "You are doing it well."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:211
 translate english citizen9_dialogue_pilon_loop9_3b38ccb5:
@@ -520,11 +520,11 @@ translate english citizen9_dialogue_pilon_loop9_3b38ccb5:
     # citizen9 "Да, дорогая, похоже, умом ты не отличаешься."
     # "Покажи мне свои сисечки, только голыми!"
     # mt "Когда нибудь я сдам тебя в полицию..."
-    citizen9 "Голые сиськи! Я их люблю!"
+    citizen9 "Naked boobs! I love them!"
     m "What?"
-    citizen9 "Да, дорогая, похоже, умом ты не отличаешься."
-    "Покажи мне свои сисечки, только голыми!"
-    mt "Когда нибудь я сдам тебя в полицию..."
+    citizen9 "Yes, dear, it seems you are no different in intelligence."
+    "Show me your boobs, just naked!"
+    mt "Someday I'll hand you over to the police..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:218
 translate english citizen9_dialogue_pilon_loop9_49aafc4d:
@@ -536,25 +536,25 @@ translate english citizen9_dialogue_pilon_loop9_49aafc4d:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] corruption is required"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:225
 translate english citizen9_dialogue_pilon_loop9_9e8035e0:
 
     # m "Так и быть, только руками не трогать."
     # mt "Только попробуй к ним прикаснуться и я сломаю тебе пальцы."
-    m "Так и быть, только руками не трогать."
-    mt "Только попробуй к ним прикаснуться и я сломаю тебе пальцы."
+    m "So be it, just don't touch by your hands."
+    mt "Just try to touch them and I'll break your fingers."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:229
 translate english citizen9_dialogue_pilon_loop9_b2a568d5:
 
     # citizen9 "Ууу... Так намного лучше! Ходи так всегда!"
-    citizen9 "Ууу... Так намного лучше! Ходи так всегда!"
+    citizen9 "Ooh... So much better! Always go on like this!"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:231
 translate english citizen9_dialogue_pilon_loop9_103714ea:
 
     # mt "Размечтался..."
-    mt "Размечтался..."
+    mt "You can only dream about it."
 

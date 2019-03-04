@@ -94,9 +94,9 @@ translate english ep22_dialogue6_6_loop1_2fe9ce97:
     # biff "Давай! Девушка с календаря!"
     # "Показывай свои сиськи!"
     # "Иначе я скажу Алексу чтобы эти голые сиськи смотрели прямо с календаря!"
-    biff "Давай! Девушка с календаря!"
-    "Показывай свои сиськи!"
-    "Иначе я скажу Алексу чтобы эти голые сиськи смотрели прямо с календаря!"
+    biff "Come on! Girl from the calendar!"
+    "Show your tits!"
+    "Otherwise, I will tell Alex to make these naked boobs looks straight from the calendar!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:84
 translate english ep22_dialogue6_6_loop1_35bfbc4b:
@@ -151,9 +151,9 @@ translate english ep22_dialogue6_6_loop1_754bc00d:
     # biff "Давай! Девушка с календаря!"
     # "Показывай свои сиськи!"
     # "Иначе я скажу Алексу чтобы эти голые сиськи смотрели прямо с календаря!"
-    biff "Давай! Девушка с календаря!"
-    "Показывай свои сиськи!"
-    "Иначе я скажу Алексу чтобы эти голые сиськи смотрели прямо с календаря!"
+    biff "Come on! Girl from the calendar!"
+    "Show your tits!"
+    "Otherwise, I will tell Alex to make these naked boobs looks straight from the calendar!"
 
 # TODO: Translation updated at 2019-02-28 21:29
 
@@ -161,45 +161,45 @@ translate english ep22_dialogue6_6_loop1_754bc00d:
 translate english ep22_dialogue6_6_loop1_3e16788b:
 
     # m "Роза надежды хочет показать папочке грудь..."
-    m "Роза надежды хочет показать папочке грудь..."
+    m "Rose of Hope wants to show daddy her chest..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:157
 translate english ep22_dialogue6_6_loop1_949a2f51:
 
     # m "Стюардесса хочет показать папочке грудь..."
-    m "Стюардесса хочет показать папочке грудь..."
+    m "The flight attendant wants to show daddy her chest..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:173
 translate english ep22_dialogue6_6_loop1_2b720bb8:
 
     # m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
-    m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
+    m "I'll show you my chest because you make me do it!.."
 
 # game/Quests/EP2_02/ep22_casting.rpy:195
 translate english ep22_dialogue6_6_loop1_f917ffc4:
 
     # m "Моника Бакфетт хочет показать папочке свой зад..."
-    m "Моника Бакфетт хочет показать папочке свой зад..."
+    m "Monica Buckfett wants to show daddy her ass..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:208
 translate english ep22_dialogue6_6_loop1_c508d927:
 
     # m "Я покажу тебе зад, потому что ты заставил меня..."
-    m "Я покажу тебе зад, потому что ты заставил меня..."
+    m "I'll show you your ass because you made me..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:223
 translate english ep22_dialogue6_6_loop1_b7b10b40:
 
     # m "Леди Нуар хочет показать папочке свой зад..."
-    m "Леди Нуар хочет показать папочке свой зад..."
+    m "Lady Noir wants to show daddy her ass..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:225
 translate english ep22_dialogue6_6_loop1_041a111d:
 
     # biff "Давай, Леди Нуар! Показывай свои зад!"
     # "Не прячь его от папочки!"
-    biff "Давай, Леди Нуар! Показывай свои зад!"
-    "Не прячь его от папочки!"
+    biff "Come on, Lady Noir! Show your ass!"
+    "Don't hide it from daddy!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:255
 translate english ep22_dialogue6_6_loop1_618979c5_1:
@@ -213,9 +213,9 @@ translate english ep22_dialogue6_6_loop1_e69fc150:
     # biff "Давай, Леди Нуар! Показывай свои зад!"
     # "Не прячь его от папочки!"
     # "А то я заставлю Леди Нуар показать свой зад на камеру!"
-    biff "Давай, Леди Нуар! Показывай свои зад!"
-    "Не прячь его от папочки!"
-    "А то я заставлю Леди Нуар показать свой зад на камеру!"
+    biff "Come on, Lady Noir! Show your ass!"
+    "Don't hide it from daddy!"
+    "Or I will make Lady Noir show her ass on camera!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:263
 translate english ep22_dialogue6_6_loop1_64be27ad_1:
@@ -227,15 +227,15 @@ translate english ep22_dialogue6_6_loop1_64be27ad_1:
 translate english ep22_dialogue6_6_loop1_37a7ae47:
 
     # m "Девушка с календаря хочет показать папочке свою попу..."
-    m "Девушка с календаря хочет показать папочке свою попу..."
+    m "The girl from the calendar wants to show daddy her ass..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:294
 translate english ep22_dialogue6_6_loop1_611afbe7:
 
     # biff "Давай! Девушка с календаря!"
     # "Показывай свой зад!"
-    biff "Давай! Девушка с календаря!"
-    "Показывай свой зад!"
+    biff "Come on! Girl from the calendar!"
+    "Show me your ass!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:303
 translate english ep22_dialogue6_6_loop1_472f3f5c_1:
@@ -248,7 +248,7 @@ translate english ep22_dialogue6_6_loop1_a0090d54:
 
     # m "Я знаю, я должна показать тебе свой зад..."
     # "Но можно я не буду делать этого?"
-    m "Я знаю, я должна показать тебе свой зад..."
+    m "I know, I have to show you my ass..."
     "But could I please not have to do that?"
 
 # game/Quests/EP2_02/ep22_casting.rpy:322
@@ -257,15 +257,15 @@ translate english ep22_dialogue6_6_loop1_4443ebe3:
     # biff "Давай! Девушка с календаря!"
     # "Показывай свой зад!"
     # "Иначе я скажу Алексу чтобы этот голый зад смотрел на всех прямо с календаря!"
-    biff "Давай! Девушка с календаря!"
-    "Показывай свой зад!"
-    "Иначе я скажу Алексу чтобы этот голый зад смотрел на всех прямо с календаря!"
+    biff "Come on! Girl from the calendar!"
+    "Show me your ass!"
+    "Otherwise, I'll tell Alex to make this naked ass looks straight from the calendar!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:326
 translate english ep22_dialogue6_6_loop1_f04a56f0:
 
     # biff "Ну же! Зад!"
-    biff "Ну же! Зад!"
+    biff "Come on! Ass!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:334
 translate english ep22_dialogue6_6_loop1_472f3f5c_2:
@@ -283,67 +283,67 @@ translate english ep22_dialogue6_6_loop1_b54e8927_1:
 translate english ep22_dialogue6_6_loop1_f1e6764d:
 
     # m "Роза надежды хочет показать папочке свой зад..."
-    m "Роза надежды хочет показать папочке свой зад..."
+    m "Rose of Hope wants to show daddy her ass..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:354
 translate english ep22_dialogue6_6_loop1_8dbf7b08:
 
     # biff "Давай, Роза!"
     # "Показывай свой зад!"
-    biff "Давай, Роза!"
-    "Показывай свой зад!"
+    biff "Come on, Rose!"
+    "Show me your ass!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:378
 translate english ep22_dialogue6_6_loop1_caf45e77:
 
     # m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
-    m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
+    m "I'll show you my ass because you make me do it!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:380
 translate english ep22_dialogue6_6_loop1_8dbf7b08_1:
 
     # biff "Давай, Роза!"
     # "Показывай свой зад!"
-    biff "Давай, Роза!"
-    "Показывай свой зад!"
+    biff "Come on, Rose!"
+    "Show me your ass!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:406
 translate english ep22_dialogue6_6_loop1_8388cdd1:
 
     # m "Стюардесса Fashion Airlines хочет показать папочке свой зад..."
-    m "Стюардесса Fashion Airlines хочет показать папочке свой зад..."
+    m "Fashion Airlines flight attendant wants to show daddy her ass..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:408
 translate english ep22_dialogue6_6_loop1_b20aba78:
 
     # biff "Давай, Стюардесса!"
     # "Показывай свой зад!"
-    biff "Давай, Стюардесса!"
-    "Показывай свой зад!"
+    biff "Come on, flight attendant!"
+    "Show me your ass!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:434
 translate english ep22_dialogue6_6_loop1_caf45e77_1:
 
     # m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
-    m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
+    m "I'll show you my ass because you make me do it!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:436
 translate english ep22_dialogue6_6_loop1_b20aba78_1:
 
     # biff "Давай, Стюардесса!"
     # "Показывай свой зад!"
-    biff "Давай, Стюардесса!"
-    "Показывай свой зад!"
+    biff "Come on, flight attendant!"
+    "Show me your ass!"
 
 translate english strings:
 
     # Quests/EP2_02/ep22_casting.rpy:5
     old "Показать обнаженную попу."
-    new "Показать обнаженную попу."
+    new "Show naked ass."
 
     # Quests/EP2_02/ep22_casting.rpy:5
     old "Показать обнаженную попу. (фотосессия не завершена) (disabled)"
-    new "Показать обнаженную попу. (фотосессия не завершена) (disabled)"
+    new "Show naked ass. (photo session not completed) (disabled)"
 
 # TODO: Translation updated at 2019-03-02 22:55
 
@@ -351,5 +351,5 @@ translate english strings:
 translate english ep22_dialogue6_6_loop2_47ee974b:
 
     # help "Пока доступны только две возможностьи. Другие пункты будут доступны в следующих версиях игры."
-    help "Пока доступны только две возможностьи. Другие пункты будут доступны в следующих версиях игры."
+    help "Only two options are available so far. Other options will be available in the next versions of the game."
 

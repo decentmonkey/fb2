@@ -52,7 +52,7 @@ translate english strings:
 
     # 00_Functions/character_properties.rpy:53
     old "прогресс заморожен, ждите следующих обновлений игры!"
-    new "прогресс заморожен, ждите следующих обновлений игры!"
+    new "progress is frozen, wait for the next game updates!"
 
 # TODO: Translation updated at 2019-03-02 22:55
 
@@ -60,5 +60,5 @@ translate english strings:
 
     # 00_Functions/character_properties.rpy:53
     old "прогресс максимален, ждите следующих обновлений игры!"
-    new "прогресс максимален, ждите следующих обновлений игры!"
+    new "progress is maximum, wait for the next game updates!"
 

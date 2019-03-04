@@ -166,8 +166,8 @@ translate english ep23_dialogues1_2a_6c1eb3ab:
     "What's your name?"
     mt "My name is Mo ..."
     "Oh no! I better keep my real name a secret..."
-    m "My name is ... [monica_pub_name] ..."
-    joe "[monica_pub_name], listen ..."
+    m "My name is... [monica_pub_name]..."
+    joe "[monica_pub_name], listen..."
     "Do not pay attention to Ashley."
     "It just how you are dressed...."
     m "I know..."
@@ -232,7 +232,7 @@ translate english ep23_dialogues1_2b_8fae2409:
     "(sob)"
     "But... what should I do? I have to eat somewhere!"
     "Moreover, no one will recognize me from this area."
-    "I also used a fake name... [monica_pub_name]...."
+    "And here I have another name... [monica_pub_name]..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:171
 translate english ep23_dialogues1_3_e3c620b2:
@@ -247,7 +247,7 @@ translate english ep23_dialogues1_3_cff142ad:
 
     # joe "О! [monica_pub_name]! Привет!"
     # "Ты надумала работать у нас?"
-    joe "Oh! [monica_pub_name]! Hey!"
+    joe "Wow! [monica_pub_name]! Hello!"
     "Did you change your mind?"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:182
@@ -381,7 +381,7 @@ translate english ep23_dialogues1_3_4c22b644:
     "I will not allow you to wash dishes for our customers!"
     "Besides that, do you even know how to wash dishes?"
     "By the look of you it doesn’t seem so!"
-    mt "АААААААА!!!"
+    mt "AAAAAAAA!!!"
     "I AM CLEANER THAN ANY OF YOU!!!"
     "PATHETIC NOBODIES!!!"
     mt "..."
@@ -433,7 +433,7 @@ translate english ep23_dialogues1_4_877a7509:
     # joe "Да, [monica_pub_name]!"
     # "Я хочу взять чистую пивную кружку!"
     m "Joe, did you need anything from here?"
-    joe "Yes, [monica_pub_name]."
+    joe "Yes, [monica_pub_name]!"
     "I need a clean beer mug."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:307
@@ -678,13 +678,13 @@ translate english ep23_dialogues1_2a_f1318dd8:
     # m "Меня зовут..."
     m "My name is Mo ..."
     mt "Oh no! I better keep my real name a secret..."
-    m "Меня зовут..."
+    m "My name is..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:132
 translate english ep23_dialogues1_2a_a200c727:
 
     # m "Меня зовут... [monica_pub_name]..."
-    m "My name is ... [monica_pub_name] ..."
+    m "My name is... [monica_pub_name]..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:134
 translate english ep23_dialogues1_2a_6cf449aa:
@@ -692,7 +692,7 @@ translate english ep23_dialogues1_2a_6cf449aa:
     # joe "[monica_pub_name], слушай..."
     # "Не обращай внимания на Эшли."
     # "Просто ты действительно так одета, что она подумала..."
-    joe "[monica_pub_name], listen ..."
+    joe "[monica_pub_name], listen..."
     "Do not pay attention to Ashley."
     "It just how you are dressed...."
 
@@ -956,7 +956,7 @@ translate english ep23_dialogues1_3_e27228cb:
     # mt "АААААААА!!!"
     # "ДА Я ЧИЩЕ ЧЕМ ВЫ ВСЕ ВМЕСТЕ ВЗЯТЫЕ ЗДЕСЬ!!!"
     # "ЖАЛКИЕ НИЧТОЖЕСТВА!!!"
-    mt "АААААААА!!!"
+    mt "AAAAAAAA!!!"
     "I AM CLEANER THAN ANY OF YOU!!!"
     "PATHETIC NOBODIES!!!"
 
@@ -1072,15 +1072,15 @@ translate english strings:
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:370
     old "Не обращать внимание... (corruption)"
-    new "Не обращать внимание... (corruption)"
+    new "Don't pay attention... (corruption)"
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:370
     old "Не обращать внимание... (low corruption, required [monicaWashHoldJoeCorruption]) (disabled)"
-    new ""
+    new "Don't pay attention...  (low corruption, required [monicaWashHoldJoeCorruption]) (disabled)"
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:408
     old "Не обращать внимание... (low corruption, required [monicaWashHoldAshleyCorruption]) (disabled)"
-    new ""
+    new "Don't pay attention... (low corruption, required [monicaWashHoldJoeCorruption]) (disabled)"
 
 # TODO: Translation updated at 2019-03-03 21:01
 
@@ -1230,13 +1230,13 @@ translate english ep23_dialogues1_2b_cb764536:
     # mt "Черт! Лучше не называть свое настоящее имя здесь..."
     # m "Меня зовут..."
     mt "Oh no! I better keep my real name a secret..."
-    m "Меня зовут..."
+    m "My name is..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:161
 translate english ep23_dialogues1_2b_e034d52a:
 
     # m "Меня зовут... [monica_pub_name]..."
-    m "Меня зовут... [monica_pub_name]..."
+    m "My name is... [monica_pub_name]..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:164
 translate english ep23_dialogues1_2b_bdfd0f27:
@@ -1244,7 +1244,7 @@ translate english ep23_dialogues1_2b_bdfd0f27:
     # joe "[monica_pub_name], слушай..."
     # "Не обращай внимания на Эшли."
     # "Просто ты действительно так одета, что она подумала..."
-    joe "[monica_pub_name], слушай..."
+    joe "[monica_pub_name], listen..."
     "Do not pay attention to Ashley."
     "It just how you are dressed...."
 
@@ -1287,7 +1287,7 @@ translate english ep23_dialogues1_2b_04ab0897:
     # "Слушай, ты неплохо выглядишь!"
     # "Ты бы могла работать у нас."
     # "Здесь у нас гибкий график, перспективы карьерного роста и..."
-    joe "Да, [monica_pub_name], конечно."
+    joe "Yes, [monica_pub_name], of course."
     "Listen, you are very good looking!"
     "You can work here."
     "We have flexible schedule, career prospects and ...."
@@ -1390,21 +1390,21 @@ translate english ep23_dialogues1_2c_8383f141:
     "(sob)"
     "But... what should I do? I have to eat somewhere!"
     "Moreover, no one will recognize me from this area."
-    "Да и там я назвалась другим именем... [monica_pub_name]..."
+    "And here I have another name... [monica_pub_name]..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:260
 translate english ep23_dialogues1_3_f2e68960:
 
     # joe "О! [monica_pub_name]! Привет!"
     # "Ты надумала работать у нас?"
-    joe "О! [monica_pub_name]! Привет!"
+    joe "Wow! [monica_pub_name]! Hello!"
     "Did you change your mind?"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:397
 translate english ep23_dialogues1_3_ee2324ec:
 
     # joe "Добро пожаловать, [monica_pub_name]!"
-    joe "Добро пожаловать, [monica_pub_name]!"
+    joe "Welcome, [monica_pub_name]!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:437
 translate english ep23_dialogues1_4a2_f74d306a:
@@ -1443,7 +1443,7 @@ translate english ep23_dialogues1_4b_9f3552aa:
     # joe "Да, [monica_pub_name]!"
     # "Я хочу взять чистую пивную кружку!"
     m "Joe, did you need anything from here?"
-    joe "Да, [monica_pub_name]!"
+    joe "Yes, [monica_pub_name]!"
     "I need a clean beer mug."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:491
@@ -1482,9 +1482,8 @@ translate english strings:
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:154
     old "Мэрилин"
-    new ""
+    new "Marilyn"
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:159
     old "Меня зовут..."
-    new ""
-
+    new "My name is..."

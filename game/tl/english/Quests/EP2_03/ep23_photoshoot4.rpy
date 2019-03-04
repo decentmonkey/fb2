@@ -48,13 +48,13 @@ translate english ep23_photoshoot4_casting_d3fec468:
     # biff "Кто сегодня цыпочка?"
     # m "Сегодня цыпочка - это Роза Надежды..."
     biff "Who's the girl tonight?"
-    m "Сегодня цыпочка - это Роза Надежды..."
+    m "Today the chick is the Rose of Hope..."
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:141
 translate english ep23_photoshoot4_casting_8bb65f7e:
 
     # biff "Что Роза Надежды хочет показать папочке?"
-    biff "Что Роза Надежды хочет показать папочке?"
+    biff "What does Rose of Hope want to show daddy?"
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:147
 translate english ep23_photoshoot4_casting_f4e1f245:
@@ -96,15 +96,15 @@ translate english ep22_photoshoot4_39656896:
     # m "Алекс, это что?"
     # alex_photograph "Миссис Бакфетт, это наряд Розы Надежды!"
     m "Alex, what is this?"
-    alex_photograph "Миссис Бакфетт, это наряд Розы Надежды!"
+    alex_photograph "Mrs. Buckfett, this is Rose of Hope outfit!"
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:19
 translate english ep22_photoshoot4_5b941334:
 
     # m "Ладно, Алекс. Надеюсь эта роза не уколет меня своим шипом!"
     # "Иначе Бифу придется выплатить мне компенсацию за это!"
-    m "Ладно, Алекс. Надеюсь эта роза не уколет меня своим шипом!"
-    "Иначе Бифу придется выплатить мне компенсацию за это!"
+    m "All right, Alex. I hope this rose does not prick me with its thorn!"
+    "Otherwise, Biff will have to pay me compensation for this!"
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:25
 translate english ep22_photoshoot4_pose1_5cd72d0a:
@@ -147,7 +147,7 @@ translate english ep22_photoshoot4_pose4_0cf73934:
 
     # m "Алекс! Я не собираюсь трогать себя за грудь на камеру!"
     # "И это не обсуждается!"
-    m "Алекс! Я не собираюсь трогать себя за грудь на камеру!"
+    m "Alex! I'm not going to touch my chest on the camera!"
     "That's out of the question!"
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:310
@@ -252,5 +252,5 @@ translate english strings:
 
     # Quests/EP2_03/ep23_photoshoot4.rpy:653
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot4_casting_corruption_required]) (disabled)"
-    new "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot4_casting_corruption_required]) (disabled)"
+    new "Go to casting to Biff and pretend to be a chick ... (low corruption, required [photoshoot4_casting_corruption_required]) (disabled)"
 

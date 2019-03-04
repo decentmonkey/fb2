@@ -182,13 +182,13 @@ translate english ep23_photoshoot5_casting_ab0b9a87:
     # biff "Кто сегодня цыпочка?"
     # m "Сегодня цыпочка - это Стюардесса из Fashion Airlines..."
     biff "Who's the girl tonight?"
-    m "Сегодня цыпочка - это Стюардесса из Fashion Airlines..."
+    m "Today chick is a Fashion Airlines flight attendant..."
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:219
 translate english ep23_photoshoot5_casting_cc583c2b:
 
     # biff "Что Стюардесса хочет показать папочке?"
-    biff "Что Стюардесса хочет показать папочке?"
+    biff "What does the flight attendant want to show daddy?"
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:225
 translate english ep23_photoshoot5_casting_f4e1f245:
@@ -228,50 +228,50 @@ translate english ep23_photoshoot5_casting_f4e1f245_1:
 translate english ep22_photoshoot5_pose1_cdc1e2ec:
 
     # alex_photograph "Итак, пассажиру авиакомпании нужна помощь с багажом..."
-    alex_photograph "Итак, пассажиру авиакомпании нужна помощь с багажом..."
+    alex_photograph "So, an airline passenger needs help with luggage..."
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:45
 translate english ep22_photoshoot5_pose1_4dfbbc55:
 
     # alex_photograph "Следующая поза, девочки!"
     # alex_photograph "Пассажир авиакомпании замечает стюардессу..."
-    alex_photograph "Следующая поза, девочки!"
-    alex_photograph "Пассажир авиакомпании замечает стюардессу..."
+    alex_photograph "Next pose, girls!"
+    alex_photograph "An airline passenger notices a flight attendant..."
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:110
 translate english ep22_photoshoot5_pose2_82e62e20:
 
     # alex_photograph "Следующая поза, девочки!"
     # alex_photograph "Представитель авиакомпании спешит помочь..."
-    alex_photograph "Следующая поза, девочки!"
-    alex_photograph "Представитель авиакомпании спешит помочь..."
+    alex_photograph "Next pose, girls!"
+    alex_photograph "The flight attendant is in a hurry to help..."
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:176
 translate english ep22_photoshoot5_pose3_e93b4388:
 
     # alex_photograph "Следующая поза, девочки!"
-    alex_photograph "Следующая поза, девочки!"
+    alex_photograph "Next pose, girls!"
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:179
 translate english ep22_photoshoot5_pose3_4a423959:
 
     # mt "Какая у Мелани бархатная кожа на ощупь..."
-    mt "Какая у Мелани бархатная кожа на ощупь..."
+    mt "Melanie has so soft skin..."
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:249
 translate english ep22_photoshoot5_pose4_d1e07641:
 
     # alex_photograph "Следующая поза, девочки!"
     # alex_photograph "Пассажир не удовлетворен качеством услуг..."
-    alex_photograph "Следующая поза, девочки!"
-    alex_photograph "Пассажир не удовлетворен качеством услуг..."
+    alex_photograph "Next pose, girls!"
+    alex_photograph "The passenger is not satisfied with the quality of services..."
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:253
 translate english ep22_photoshoot5_pose4_d7161e4b:
 
     # m "Алекс! Я не собираюсь сидеть на коленях перед Мелани!"
     # "И это не обсуждается!"
-    m "Алекс! Я не собираюсь сидеть на коленях перед Мелани!"
+    m "Alex! I'm not going to sit on my lap in front of Melanie!"
     "That's out of the question!"
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:257
@@ -281,32 +281,32 @@ translate english ep22_photoshoot5_pose4_f5733ad8:
     # m "..."
     # m "Ну, ладно..."
     # mt "Черт, мне надо узнать правду про Дика!"
-    m "Алекс! Я не собираюсь сидеть на коленях перед Мелани!"
+    m "Alex! I'm not going to sit on my lap in front of Melanie!"
     m "..."
-    m "Ну, ладно..."
-    mt "Черт, мне надо узнать правду про Дика!"
+    m "Okay..."
+    mt "Damn, I need to know the truth about Dick!"
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:327
 translate english ep22_photoshoot5_pose5_b6a8d14c:
 
     # alex_photograph "Следующая поза, девочки!"
     # alex_photograph "Стюардесса просит прощения у пассажира..."
-    alex_photograph "Следующая поза, девочки!"
-    alex_photograph "Стюардесса просит прощения у пассажира..."
+    alex_photograph "Next pose, girls!"
+    alex_photograph "Flight attendant apologizes to the passenger..."
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:331
 translate english ep22_photoshoot5_pose5_8a954c97:
 
     # m "Алекс! Я не собираюсь ползать в ногах у Мелани!"
     # "И это не обсуждается!"
-    m "Алекс! Я не собираюсь ползать в ногах у Мелани!"
+    m "Alex! I'm not going to crawl at Melanie's feet!"
     "That's out of the question!"
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:399
 translate english ep22_photoshoot5_pose6_e93b4388:
 
     # alex_photograph "Следующая поза, девочки!"
-    alex_photograph "Следующая поза, девочки!"
+    alex_photograph "Next pose, girls!"
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:466
 translate english ep22_photoshoot5_pose7_5fee3878:
@@ -316,16 +316,16 @@ translate english ep22_photoshoot5_pose7_5fee3878:
     # "Может мне еще что-нибудь сделать?!"
     # alex_photograph "Авиакомпания показывает насколько важен каждый пассажир!"
     alex_photograph "Mrs. Buckfett, please place your head between Melanie's legs."
-    m "Какого черта, Алекс?!"
-    "Может мне еще что-нибудь сделать?!"
-    alex_photograph "Авиакомпания показывает насколько важен каждый пассажир!"
+    m "What the hell, Alex?!"
+    "Maybe also I need to do something else?!"
+    alex_photograph "Fashion Airlines shows how important each passenger is!"
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:473
 translate english ep22_photoshoot5_pose7_8a954c97:
 
     # m "Алекс! Я не собираюсь ползать в ногах у Мелани!"
     # "И это не обсуждается!"
-    m "Алекс! Я не собираюсь ползать в ногах у Мелани!"
+    m "Alex! I'm not going to crawl at Melanie's feet!"
     "That's out of the question!"
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:600
@@ -432,5 +432,5 @@ translate english strings:
 
     # Quests/EP2_03/ep23_photoshoot5.rpy:768
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot5_casting_corruption_required]) (disabled)"
-    new "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot5_casting_corruption_required]) (disabled)"
+    new "Go to casting to Biff and pretend to be a chick ... (low corruption, required [photoshoot5_casting_corruption_required]) (disabled)"
 

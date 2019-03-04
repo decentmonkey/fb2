@@ -222,7 +222,7 @@ translate german strings:
 
     # Quests/EP2_02/ep22_photoshoot1.rpy:563
     old " corruption required!"
-    new ""
+    new " korruption benötigt!"
 
 # TODO: Translation updated at 2019-01-17 00:49
 
@@ -254,4 +254,3 @@ translate german ep22_photoshoot1_end_65571a75:
     # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
     "..."
     "Verdammt... Besonders seit ich ihm versprochen habe, ein gutes Chick zu sein. Ich brauche den Job."
-

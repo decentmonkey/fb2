@@ -486,7 +486,7 @@ translate english citizen3_dialogue_pilon_loop3_ea17d522_1:
 translate english citizen3_dialogue_pilon_loop3_c1d5d7c7:
 
     # citizen3 "Потанцуй для меня, не зря же сюда пришли."
-    citizen3 "Потанцуй для меня, не зря же сюда пришли."
+    citizen3 "Dance for me, no wonder they came here."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:191
 translate english citizen3_dialogue_pilon_loop3_d15b9b6b:
@@ -498,33 +498,33 @@ translate english citizen3_dialogue_pilon_loop3_d15b9b6b:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    help "[MonicaWhoringClothPylonDanceCorruptionRequired] corruption is required"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:200
 translate english citizen3_dialogue_pilon_loop3_c6b5282d:
 
     # m "Хорошо, только не долго."
     # mt "Только потому, что ты заплатишь."
-    m "Хорошо, только не долго."
-    mt "Только потому, что ты заплатишь."
+    m "Well, just not for long."
+    mt "Just because you pay."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:204
 translate english citizen3_dialogue_pilon_loop3_a93eed6a:
 
     # citizen3 "Прекрасно. Ты никогда не задумывалась этим зарабатывать? Раздача флаеров не очень прибыльное дело."
-    citizen3 "Прекрасно. Ты никогда не задумывалась этим зарабатывать? Раздача флаеров не очень прибыльное дело."
+    citizen3 "Perfectly. Have you ever thought about earning by it? Distributing flyers is not a very profitable business."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:208
 translate english citizen3_dialogue_pilon_loop3_1c217615:
 
     # mt "Ни за что..."
-    mt "Ни за что..."
+    mt "Never..."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:217
 translate english citizen3_dialogue_pilon_loop3_3fbca55d:
 
     # citizen3 "Детка, хочу взглянуть еще раз на твои сиськи, только сними курточку."
-    citizen3 "Детка, хочу взглянуть еще раз на твои сиськи, только сними курточку."
+    citizen3 "Baby, I want to take another look at your boobs, just take off the jacket."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:220
 translate english citizen3_dialogue_pilon_loop3_49aafc4d:
@@ -536,25 +536,25 @@ translate english citizen3_dialogue_pilon_loop3_49aafc4d:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] corruption is required"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:227
 translate english citizen3_dialogue_pilon_loop3_7dec49ad:
 
     # m "Так и быть, только руками не трогать."
-    m "Так и быть, только руками не трогать."
+    m "So be it, just don't touch by your hands."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:230
 translate english citizen3_dialogue_pilon_loop3_acef5779:
 
     # citizen3 "Очень хорошо. Сиськи как у Сары! Ты знакома с Сарой?"
     # "Хотя почему я спрашиваю? Конечно вы знакомы."
-    citizen3 "Очень хорошо. Сиськи как у Сары! Ты знакома с Сарой?"
-    "Хотя почему я спрашиваю? Конечно вы знакомы."
+    citizen3 "Very good. Tits like Sarah! Do you know Sarah?"
+    "Although why do I ask? Of course you are familiar."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:233
 translate english citizen3_dialogue_pilon_loop3_5d61e41c:
 
     # mt "О какой еще Саре он говорит?"
-    mt "О какой еще Саре он говорит?"
+    mt "What other Sarah is he talking about?"
 

@@ -439,7 +439,7 @@ translate english citizen1_dialogue_pilon_907316aa:
 translate english citizen1_dialogue_pilon_loop1_26277174:
 
     # citizen1 "Покрутись на пилоне, тетя."
-    citizen1 "Покрутись на пилоне, тетя."
+    citizen1 "Roll on the pole!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:139
 translate english citizen1_dialogue_pilon_loop1_d15b9b6b:
@@ -451,35 +451,35 @@ translate english citizen1_dialogue_pilon_loop1_d15b9b6b:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    help "[MonicaWhoringClothPylonDanceCorruptionRequired] corruption is required"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:148
 translate english citizen1_dialogue_pilon_loop1_c6b5282d:
 
     # m "Хорошо, только не долго."
     # mt "Только потому, что ты заплатишь."
-    m "Хорошо, только не долго."
-    mt "Только потому, что ты заплатишь."
+    m "Well, just not for long."
+    mt "Just because you pay."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:152
 translate english citizen1_dialogue_pilon_loop1_16be2bf2:
 
     # citizen1 "А ты крутишься как профессионал. Мне нравится!"
-    citizen1 "А ты крутишься как профессионал. Мне нравится!"
+    citizen1 "And you are like a professional. I like it!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:156
 translate english citizen1_dialogue_pilon_loop1_5f0f80e2:
 
     # mt "Не думаю, что буду это делать часто..."
-    mt "Не думаю, что буду это делать часто..."
+    mt "I don't think that I will do this often..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:165
 translate english citizen1_dialogue_pilon_loop1_ed2823b2:
 
     # citizen1 "Мы хотим поглядеть на твои классные сиськи еще раз. Снимай все!"
     # mt "Грязные панки..."
-    citizen1 "Мы хотим поглядеть на твои классные сиськи еще раз. Снимай все!"
-    mt "Грязные панки..."
+    citizen1 "We want to look at your great tits again. Take it all off!"
+    mt "Dirty punks..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:169
 translate english citizen1_dialogue_pilon_loop1_49aafc4d:
@@ -491,19 +491,19 @@ translate english citizen1_dialogue_pilon_loop1_49aafc4d:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] corruption is required"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:176
 translate english citizen1_dialogue_pilon_loop1_7dec49ad:
 
     # m "Так и быть, только руками не трогать."
-    m "Так и быть, только руками не трогать."
+    m "So be it, just don't touch by your hands."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:179
 translate english citizen1_dialogue_pilon_loop1_4cd6e68d:
 
     # citizen1 "Черт, тетя! Они шикарны! И что же ты их раньше от нас прятала?"
-    citizen1 "Черт, тетя! Они шикарны! И что же ты их раньше от нас прятала?"
+    citizen1 "Damn! They are awesome! And what did you hide them from us before?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:182
 translate english citizen1_dialogue_pilon_loop1_1_cecff8b5:
@@ -511,9 +511,9 @@ translate english citizen1_dialogue_pilon_loop1_1_cecff8b5:
     # citizen1 "Эй, тетя! Как насчет того, чтобы получить немного больше?"
     # m "..."
     # citizen1 "Сожми ка свои аппетитные соски!"
-    citizen1 "Эй, тетя! Как насчет того, чтобы получить немного больше?"
+    citizen1 "Hey! How about getting a little more?"
     m "..."
-    citizen1 "Сожми ка свои аппетитные соски!"
+    citizen1 "Squeeze your delicious nipples!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:189
 translate english citizen1_dialogue_pilon_loop1_1_737d10d7:
@@ -523,7 +523,7 @@ translate english citizen1_dialogue_pilon_loop1_1_737d10d7:
     # help "Требуется [monicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired] corruption"
     mt "It's enough that he's staring at me like that."
     "He's gotten to see plenty enough!"
-    help "Требуется [monicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired] corruption"
+    help "[MonicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired] corruption is required"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:193
 translate english citizen1_dialogue_pilon_loop1_1_745b11c5:
@@ -535,7 +535,7 @@ translate english citizen1_dialogue_pilon_loop1_1_745b11c5:
 translate english citizen1_dialogue_pilon_loop1_1_0e09a0c1:
 
     # citizen1 "Уф...А ты горячая!"
-    citizen1 "Уф...А ты горячая!"
+    citizen1 "Uh ... And you're hot!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:202
 translate english citizen1_dialogue_pilon_loop1_1_572b36a1:
@@ -543,13 +543,13 @@ translate english citizen1_dialogue_pilon_loop1_1_572b36a1:
     # m "Не собираюсь, и так достаточно."
     # citizen1 "Не ожидал я такого тетя. Думаю, ты скоро передумаешь."
     m "I'm not going to do that, it's enough!"
-    citizen1 "Не ожидал я такого тетя. Думаю, ты скоро передумаешь."
+    citizen1 "I didn't expect this. I think you will change your mind soon."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:219
 translate english citizen1_dialogue_pilon_loop1_1_e8134be1:
 
     # citizen1 "Ну все, тетя, хватит. До следующего раза. Вот, держи."
-    citizen1 "Ну все, тетя, хватит. До следующего раза. Вот, держи."
+    citizen1 "All right, enough. Until next time. Here you are."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:222
 translate english citizen1_dialogue_pilon_loop1_1_ea17d522:

@@ -229,29 +229,29 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Мелани обещала узнать всю правду про Дика. За это я согласилась поучаствовать с ней в какой-то фотосессии. Надеюсь я не пожалею об этом..."
-    new "Мелани обещала узнать всю правду про Дика. За это я согласилась поучаствовать с ней в какой-то фотосессии. Надеюсь я не пожалею об этом..."
+    new "Melanie promised to know the whole truth about Dick. For this, I agreed to take part in a photo shoot with her. I hope I'll not regret it..."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Это был жуткий кошмар, но я надеюсь оно того стоило! Ну держись, Виктория! Я нашла кое-кого кто тебе не по зубам!"
-    new "Это был жуткий кошмар, но я надеюсь оно того стоило! Ну держись, Виктория! Я нашла кое-кого кто тебе не по зубам!"
+    new "It was a terrible nightmare, but I hope it was worth it! Well, hold on, Victoria! I found someone who is too tough for you!"
 
     # Quests/Question_Helper_Info.rpy:115
     old "У меня появился шанс вернуть прежнюю жизнь! ШАНС!!! Неужели Мелани сможет мне помочь? Но что она захочет попросить взамен?.."
-    new "У меня появился шанс вернуть прежнюю жизнь! ШАНС!!! Неужели Мелани сможет мне помочь? Но что она захочет попросить взамен?.."
+    new "I have a chance to return the old life! THE CHANCE!!! Is it really that Melanie can help me? But what would she want to ask in return?.."
 
     # Quests/Question_Helper_Info.rpy:115
     old "От Мелани нет новостей... Я даже боюсь представить что с ней..."
-    new "От Мелани нет новостей... Я даже боюсь представить что с ней..."
+    new "There is no news from Melanie... I'm even afraid to imagine what's happens to her..."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Я жду новостей от Мелани..."
-    new "Я жду новостей от Мелани..."
+    new "I'm waiting for news from Melanie..."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Мелани решила унизить меня в обмен на свою помощь... Пойду-ли я на то что она предложила мне?"
-    new "Мелани решила унизить меня в обмен на свою помощь... Пойду-ли я на то что она предложила мне?"
+    new "Melanie decided to humiliate me in exchange for her help... Will I go for what she offered me?"
 
     # Quests/Question_Helper_Info.rpy:115
     old "Я нашла способ зарабатывать на еду, моя посуду в Баре. Я не в восторге, но ведь это временно?"
-    new "Я нашла способ зарабатывать на еду, моя посуду в Баре. Я не в восторге, но ведь это временно?"
+    new "I found a way to make money by washing the dishes in Pub. I'm not happy, but is it temporary?"
 

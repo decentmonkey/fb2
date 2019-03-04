@@ -134,9 +134,9 @@ translate english strings:
 
     # Characters/Monica/Wardrobe_Basement.rpy:124
     old "Переодеться в одежду шлюхи (другой нет!)."
-    new "Переодеться в одежду шлюхи (другой нет!)."
+    new "Change clothes in whore clothes (no other!)."
 
     # Characters/Monica/Wardrobe_Basement.rpy:124
     old "Не переодеваться."
-    new "Не переодеваться."
+    new "Don't change clothes."
 

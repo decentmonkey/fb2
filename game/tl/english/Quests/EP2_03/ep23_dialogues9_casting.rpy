@@ -1388,33 +1388,33 @@ translate english ep23_dialogue9_2_8b8f4d92:
 translate english ep23_dialogue9_2_0954c8ad:
 
     # secretary "Ой! Кто это???"
-    secretary "Ой! Кто это???"
+    secretary "Oh! Who is it???"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1012
 translate english ep23_dialogue9_2_b08daf3d:
 
     # melanie "Это новая модель..."
     # melanie "Проходит кастинг..."
-    melanie "Это новая модель..."
-    melanie "Проходит кастинг..."
+    melanie "She is a new model..."
+    melanie "She is passing the casting..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1015
 translate english ep23_dialogue9_2_e6931bee:
 
     # melanie "Хочет сниматься в нашем журнале..."
-    melanie "Хочет сниматься в нашем журнале..."
+    melanie "He wants to work in our magazine..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1017
 translate english ep23_dialogue9_2_35b2f49c:
 
     # secretary "(бедная девушка!)"
-    secretary "(бедная девушка!)"
+    secretary "(a poor girl!)"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1021
 translate english ep23_dialogue9_2_8efdaae3:
 
     # melanie "Пойдем, не будем их отвлекать от работы!"
-    melanie "Пойдем, не будем их отвлекать от работы!"
+    melanie "Come on, let's not distract them from work!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1028
 translate english ep23_dialogue9_2_a0e8f874:
@@ -1505,7 +1505,7 @@ translate english ep23_dialogue9_2_27ecbef3:
     "..."
     "Hopefully no one will find out about what happened here."
     "Nobody will believe this piglet anyway."
-    "А Мелани... Не в ее интересах распространяться об этом."
+    "And Melanie... It's not in her purposes to talk about it."
     "Since she also took part in it..."
     "And what happened to me? Some kind of flash ..."
     "Damn! I better forget about all of this quickly!"
@@ -1884,33 +1884,33 @@ translate english scene_test1_8b8f4d92:
 translate english scene_test1_0954c8ad:
 
     # secretary "Ой! Кто это???"
-    secretary "Ой! Кто это???"
+    secretary "Oh! Who is it???"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1254
 translate english scene_test1_b08daf3d:
 
     # melanie "Это новая модель..."
     # melanie "Проходит кастинг..."
-    melanie "Это новая модель..."
-    melanie "Проходит кастинг..."
+    melanie "She is a new model..."
+    melanie "She is passing the casting..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1258
 translate english scene_test1_e6931bee:
 
     # melanie "Хочет сниматься в нашем журнале..."
-    melanie "Хочет сниматься в нашем журнале..."
+    melanie "He wants to work in our magazine..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1262
 translate english scene_test1_35b2f49c:
 
     # secretary "(бедная девушка!)"
-    secretary "(бедная девушка!)"
+    secretary "(a poor girl!)"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1266
 translate english scene_test1_8efdaae3:
 
     # melanie "Пойдем, не будем их отвлекать от работы!"
-    melanie "Пойдем, не будем их отвлекать от работы!"
+    melanie "Come on, let's not distract them from work!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1275
 translate english scene_test1_a0e8f874:
@@ -2001,7 +2001,7 @@ translate english scene_test1_27ecbef3:
     "..."
     "Hopefully no one will find out about what happened here."
     "Nobody will believe this piglet anyway."
-    "А Мелани... Не в ее интересах распространяться об этом."
+    "And Melanie... It's not in her purposes to talk about it."
     "Since she also took part in it..."
     "And what happened to me? Some kind of flash ..."
     "Damn! I better forget about all of this quickly!"
@@ -2045,8 +2045,8 @@ translate english ep23_dialogue9_5d_0fde7bf6:
 
     # mt "От Мелани нет новостей... Я даже боюсь представить что с ней..."
     # help "Узнайте что случилось с Мелани в следующих апдейтах игры!"
-    mt "От Мелани нет новостей... Я даже боюсь представить что с ней..."
-    help "Узнайте что случилось с Мелани в следующих апдейтах игры!"
+    mt "There is no news from Melanie... I'm even afraid to imagine what's happens to her..."
+    help "Find out what happened to Melanie in the next game updates!"
 
 # TODO: Translation updated at 2019-03-04 21:47
 

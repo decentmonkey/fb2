@@ -10,37 +10,37 @@ translate english strings:
 
     # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Пончик"
-    new "Пончик"
+    new "Donut"
 
     # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Печенье с вишневой начинкой"
-    new "Печенье с вишневой начинкой"
+    new "Cherry Filled Cookies"
 
     # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Шоколадный торт"
-    new "Шоколадный торт"
+    new "Chocolate cake"
 
     # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Канноли"
-    new "Канноли"
+    new "Cannoli"
 
     # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Наполеон"
-    new "Наполеон"
+    new "Napoleon"
 
     # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Пирожное"
-    new "Пирожное"
+    new "Cake"
 
     # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Кекс"
-    new "Кекс"
+    new "Cake"
 
     # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Печенье с орехами"
-    new "Печенье с орехами"
+    new "Cookies with nuts"
 
     # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Вафли"
-    new "Вафли"
+    new "Waffles"
 

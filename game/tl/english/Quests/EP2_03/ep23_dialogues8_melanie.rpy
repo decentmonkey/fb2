@@ -1358,11 +1358,11 @@ translate english strings:
 
     # Quests/EP2_03/ep23_dialogues8_melanie.rpy:872
     old "Попросить Мелани помочь без кастинга. (плохие отношения с Мелани) (disabled)"
-    new "Попросить Мелани помочь без кастинга. (плохие отношения с Мелани) (disabled)"
+    new "Ask Melanie for help without casting. (bad relationship with Melanie) (disabled)"
 
     # Quests/EP2_03/ep23_dialogues8_melanie.rpy:872
     old "Попросить Мелани помочь без кастинга. (Моника недостаточно скромная) (disabled)"
-    new "Попросить Мелани помочь без кастинга. (Моника недостаточно скромная) (disabled)"
+    new "Ask Melanie for help without casting... (Monica is not enough decent) (disabled)"
 # TODO: Translation updated at 2019-03-02 23:03
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:151
@@ -1373,5 +1373,5 @@ translate english ep23_dialogues8_2_51afa7e3:
     # "И, когда Вы лишилсиь его, то потерял интерес к Вам."
     melanie "Dick really loved you, Mrs. Buckfett."
     "Because of your social status."
-    "И, когда Вы лишилсиь его, то потерял интерес к Вам."
+    "And when you lost it, he is lost interest in you."
 

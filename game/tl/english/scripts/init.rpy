@@ -124,9 +124,9 @@ translate english strings:
 
     # scripts/init.rpy:226
     old "Бармен в Shiny Hole"
-    new ""
+    new "Bartender at Shiny Hole"
 
     # scripts/init.rpy:227
     old "Жена бармена"
-    new ""
+    new "Bartender's wife"
 

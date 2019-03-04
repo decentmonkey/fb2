@@ -348,7 +348,7 @@ translate english citizen7_dialogue_pilon_loop7_ea17d522_1:
 translate english citizen7_dialogue_pilon_loop7_e32a207c:
 
     # citizen7 "Милая, потанцуй немного."
-    citizen7 "Милая, потанцуй немного."
+    citizen7 "Honey, dance a little."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:142
 translate english citizen7_dialogue_pilon_loop7_d15b9b6b:
@@ -360,29 +360,29 @@ translate english citizen7_dialogue_pilon_loop7_d15b9b6b:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    help "[MonicaWhoringClothPylonDanceCorruptionRequired] corruption is required"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:151
 translate english citizen7_dialogue_pilon_loop7_c6b5282d:
 
     # m "Хорошо, только не долго."
     # mt "Только потому, что ты заплатишь."
-    m "Хорошо, только не долго."
-    mt "Только потому, что ты заплатишь."
+    m "Well, just not for long."
+    mt "Just because you pay."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:158
 translate english citizen7_dialogue_pilon_loop7_0b274202:
 
     # citizen7 "Прекрасно двигаешься!"
     # mt "Не поспоришь..."
-    citizen7 "Прекрасно двигаешься!"
-    mt "Не поспоришь..."
+    citizen7 "Great moving!"
+    mt "Can't argue with it..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:169
 translate english citizen7_dialogue_pilon_loop7_791dba14:
 
     # citizen7 "Покажи свою грудь, только не забудь снять одежду."
-    citizen7 "Покажи свою грудь, только не забудь снять одежду."
+    citizen7 "Show your chest, just don't forget to take off your clothes."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:172
 translate english citizen7_dialogue_pilon_loop7_49aafc4d:
@@ -394,23 +394,23 @@ translate english citizen7_dialogue_pilon_loop7_49aafc4d:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] corruption is required"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:179
 translate english citizen7_dialogue_pilon_loop7_7dec49ad:
 
     # m "Так и быть, только руками не трогать."
-    m "Так и быть, только руками не трогать."
+    m "So be it, just don't touch by your hands."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:182
 translate english citizen7_dialogue_pilon_loop7_d3924823:
 
     # citizen7 "Я так и знал, что они восхитительны!"
-    citizen7 "Я так и знал, что они восхитительны!"
+    citizen7 "I knew they were amazing!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:184
 translate english citizen7_dialogue_pilon_loop7_8aa5ca4c:
 
     # mt "Это правда."
-    mt "Это правда."
+    mt "It's true."
 

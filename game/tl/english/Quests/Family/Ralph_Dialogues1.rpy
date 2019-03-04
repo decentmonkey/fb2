@@ -16,7 +16,7 @@ translate english ralphDialogue1_875c581d:
     # "Простите."
     ralph "Monica, did you want something?"
     m "No, Sir."
-    "IТm sorry."
+    "I'm sorry."
 
 # game/Quests/Family/Ralph_Dialogues1.rpy:28
 translate english ralphDialogue2_3b6a8341:

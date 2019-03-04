@@ -42,7 +42,7 @@ translate english dick_meeting1_car_parting2_41006220:
     # dick "Ну дорогая."
     # "Я с тобой даже не успел побыть."
     dick "Well, dear."
-    "I havenТt had time to be with you."
+    "I didn't even have time to be with you."
 
 # game/Quests/Dick_Car_Parting.rpy:45
 translate english dick_meeting1_car_parting2_b99aba93:
