@@ -156,7 +156,7 @@ label ep23_dialogues1_2b:
         call screen input_softkeyboard
         $ monica_pub_name = _return
     else:
-        $ renpy.input(_("Меня зовут..."), monica_pub_name)
+        $ monica_pub_name = renpy.input(_("Меня зовут..."), monica_pub_name)
     with fadelong
     m "Меня зовут... [monica_pub_name]..."
     img 9601
