@@ -2048,3 +2048,71 @@ translate english ep23_dialogue9_5d_0fde7bf6:
     mt "От Мелани нет новостей... Я даже боюсь представить что с ней..."
     help "Узнайте что случилось с Мелани в следующих апдейтах игры!"
 
+# TODO: Translation updated at 2019-03-04 21:47
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:949
+translate english scene_test2_580c219b:
+
+    # m "Иди ты к черту, сучка!!!"
+    m "Go to hell, bitch !!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:967
+translate english scene_test2_683564ef:
+
+    # model1 "Хочешь стать моделью?"
+    model1 "Do you want to become a model?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:970
+translate english scene_test2_ea1a00d4:
+
+    # m "Да!"
+    m "Yes!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:972
+translate english scene_test2_1b539f80:
+
+    # m "Хочу поскорее закончить это..."
+    m "I want to end it as soon possible ..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:974
+translate english scene_test2_2c23dfbb:
+
+    # model1 "Громче! Хочешь стать моделью этого журнала?!"
+    model1 "Louder! Do you want to be a model for this magazine ?!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:981
+translate english scene_test2_f0665cd8:
+
+    # m "ДА!!!"
+    m "YES!!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:983
+translate english scene_test2_71c170d1:
+
+    # m "Когда же закончится этот кошмар?!"
+    m "When will this nightmare end ?!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:989
+translate english scene_test2_2f0f978f:
+
+    # model1 "Тебе нравится трахать себя?"
+    # m "У меня... У меня странное чувство, незнакомое..."
+    # "Меня что-то заполняет..."
+    # model1 "ТЕБЕ НРАВИТСЯ ТРАХАТЬ СЕБЯ???"
+    model1 "Do you like fucking yourself?"
+    m "I feel... I feel something strange..."
+    "Something unfamiliar..."
+    model1 "DO YOU ENJOY FUCKING YOURSELF ???"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1004
+translate english scene_test2_9851e187:
+
+    # m "Аааааааа!! АААААА!!!"
+    m "Aaaaaaaa !! AAAAAA !!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1012
+translate english scene_test2_b16cd208:
+
+    # "АААаАААААаа!!!"
+    "AAAAAAAAAaa !!!"
+

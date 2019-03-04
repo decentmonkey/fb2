@@ -1090,9 +1090,9 @@ translate english ep23_dialogues1_2a_a5117547:
     # ashley "Эй! Джо!"
     # "К тебе пришла очередная шлюха!"
     # "Сколько раз я тебе говорила не звать сюда работать шлюх!"
-    ashley "Эй! Джо!"
-    "К тебе пришла очередная шлюха!"
-    "Сколько раз я тебе говорила не звать сюда работать шлюх!"
+    ashley "Hey! Joe!"
+    "Another whore has come to see you!"
+    "How many times have I told you to stop bringing whores to work here!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:76
 translate english ep23_dialogues1_2a_6564bcdf:
@@ -1100,7 +1100,7 @@ translate english ep23_dialogues1_2a_6564bcdf:
     # mt "???"
     # "Я... Я не собираюсь работать здесь!"
     mt "???"
-    "Я... Я не собираюсь работать здесь!"
+    "I'm ... I'm not going to work here!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:79
 translate english ep23_dialogues1_2a_b111ca50:
@@ -1108,27 +1108,27 @@ translate english ep23_dialogues1_2a_b111ca50:
     # ashley "Да как же не собираешься!"
     # "Это Джо подговорил тебя, чтобы ты так сказала мне?!"
     # "Он вечно таскает сюда шлюх, а потом оправдывается передо мной!"
-    ashley "Да как же не собираешься!"
-    "Это Джо подговорил тебя, чтобы ты так сказала мне?!"
-    "Он вечно таскает сюда шлюх, а потом оправдывается передо мной!"
+    ashley "Sure, sure..."
+    "Did Joe tell you to say so?"
+    "He always brings whores in here and tries to excuse himself latter"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:84
 translate english ep23_dialogues1_2a_e375c19f:
 
     # joe "Эшли! Что ты кричишь здесь?!"
-    joe "Эшли! Что ты кричишь здесь?!"
+    joe "Ashley! Why are you screaming there?"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:87
 translate english ep23_dialogues1_2a_8ba39f2a:
 
     # joe "О! Какая детка!"
-    joe "О! Какая детка!"
+    joe "Woah! What a babe!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:91
 translate english ep23_dialogues1_2a_80996f06:
 
     # m "Я тебе не детка!"
-    m "Я тебе не детка!"
+    m "I'm not a babe!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:93
 translate english ep23_dialogues1_2a_94da6d92:
@@ -1136,8 +1136,8 @@ translate english ep23_dialogues1_2a_94da6d92:
     # ashley "Джо, посмотри! Это не детка!"
     # "Это шлюха!!!"
     # mt "!!!"
-    ashley "Джо, посмотри! Это не детка!"
-    "Это шлюха!!!"
+    ashley "Are you blind Joe? She is not a babe!"
+    "She is a whore!!!"
     mt "!!!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:98
@@ -1147,24 +1147,24 @@ translate english ep23_dialogues1_2a_a0d1dbdb:
     # "Я не заслуживаю такого обращения!"
     # "Я зашла сюда, потому что увидела вывеску!"
     # "Я клиент!!!"
-    m "Хватит называть меня шлюхой!"
-    "Я не заслуживаю такого обращения!"
-    "Я зашла сюда, потому что увидела вывеску!"
-    "Я клиент!!!"
+    m "Stop calling me that!"
+    "I do not deserve such treatment!"
+    "I came here because I saw a sign!"
+    "I am a customer !!!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:105
 translate english ep23_dialogues1_2a_b1bea2f1:
 
     # ashley "Ты?? Клиент?!"
-    ashley "Ты?? Клиент?!"
+    ashley "You?? A customer?!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:108
 translate english ep23_dialogues1_2a_4816b457:
 
     # "Джо! Мало того что ты устроил здесь стриптиз!"
     # "Хорошо, я терплю это, потому что это приносит деньги."
-    "Джо! Мало того что ты устроил здесь стриптиз!"
-    "Хорошо, я терплю это, потому что это приносит деньги."
+    "Joe! Not only you turned this place into stripbar!"
+    "And I only tolerate it because it makes money."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:112
 translate english ep23_dialogues1_2a_2d4d20ce:
@@ -1173,10 +1173,10 @@ translate english ep23_dialogues1_2a_2d4d20ce:
     # "Ты хочешь чтобы эта шлюха сидела здесь под видом посетителя и строила глазки всем вокруг?!"
     # "А потом уводила их с собой до того как они заплатили?!"
     # "Я не потерплю этого, Джо!"
-    "Но ты решил маскировать шлюх под клиентов?!"
-    "Ты хочешь чтобы эта шлюха сидела здесь под видом посетителя и строила глазки всем вокруг?!"
-    "А потом уводила их с собой до того как они заплатили?!"
-    "Я не потерплю этого, Джо!"
+    "But you decided to disguise whores as customers?!"
+    "Do you want this whore to sit here looking pretty attracting our customers?"
+    "And then taking them away before they pay us?"
+    "I will not allow this, Joe!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:118
 translate english ep23_dialogues1_2b_d06ef974:
@@ -1184,17 +1184,17 @@ translate english ep23_dialogues1_2b_d06ef974:
     # joe "Эшли! Я первый раз ее вижу!"
     # joe "Если она и шлюха, то я ее точно не знаю."
     # "Она не из нашего района."
-    joe "Эшли! Я первый раз ее вижу!"
-    joe "Если она и шлюха, то я ее точно не знаю."
-    "Она не из нашего района."
+    joe "Ashley! It's the first time I see her!"
+    joe "Even if she is a whore, she is definitely not one I know."
+    "She is not from here."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:123
 translate english ep23_dialogues1_2b_9c3028c9:
 
     # ashley "О, Да! Джо! Ты-то знаешь всех шлюх в этом районе!"
     # joe "Я не это имел ввиду, Эшли..."
-    ashley "О, Да! Джо! Ты-то знаешь всех шлюх в этом районе!"
-    joe "Я не это имел ввиду, Эшли..."
+    ashley "Of course, Joe! You know all whores around here!"
+    joe "It not what I meant, Ashley...."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:135
 translate english ep23_dialogues1_2b_85c11961:
@@ -1204,32 +1204,32 @@ translate english ep23_dialogues1_2b_85c11961:
     # "Я не знаю кто Вас воспитывал Вашим манерам..."
     # "Но я не собираюсь дальше это слушать!"
     # "До свидания!"
-    m "Знаете что!"
-    "Вы позволяете себе обсуждать человека, при его присутствии, в третьем лице!"
-    "Я не знаю кто Вас воспитывал Вашим манерам..."
-    "Но я не собираюсь дальше это слушать!"
-    "До свидания!"
+    m "You know what!"
+    "Stop talking about me, like I'm not here!"
+    "I bet you know nothing about manners!"
+    "So I'm not going to listen to your talk anymore!"
+    "Goodbye!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:145
 translate english ep23_dialogues1_2b_862838c8:
 
     # joe "Послушайте, я не знаю как к Вам обращаться?"
     # "Как Вас зовут?"
-    joe "Послушайте, я не знаю как к Вам обращаться?"
-    "Как Вас зовут?"
+    joe "Hey, wait! You didn’t introduce yourself."
+    "What's your name?"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:148
 translate english ep23_dialogues1_2b_d1c16e57:
 
     # m "Меня зовут Мо..."
-    m "Меня зовут Мо..."
+    m "My name is Mo ..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:150
 translate english ep23_dialogues1_2b_cb764536:
 
     # mt "Черт! Лучше не называть свое настоящее имя здесь..."
     # m "Меня зовут..."
-    mt "Черт! Лучше не называть свое настоящее имя здесь..."
+    mt "Oh no! I better keep my real name a secret..."
     m "Меня зовут..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:161
@@ -1245,8 +1245,8 @@ translate english ep23_dialogues1_2b_bdfd0f27:
     # "Не обращай внимания на Эшли."
     # "Просто ты действительно так одета, что она подумала..."
     joe "[monica_pub_name], слушай..."
-    "Не обращай внимания на Эшли."
-    "Просто ты действительно так одета, что она подумала..."
+    "Do not pay attention to Ashley."
+    "It just how you are dressed...."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:168
 translate english ep23_dialogues1_2b_ef1f1d4b:
@@ -1254,17 +1254,17 @@ translate english ep23_dialogues1_2b_ef1f1d4b:
     # m "Я все знаю..."
     # "Можно не комментировать."
     # "Но я не шлюха!"
-    m "Я все знаю..."
-    "Можно не комментировать."
-    "Но я не шлюха!"
+    m "I know..."
+    "You can stop here."
+    "I'm not a whore thou!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:172
 translate english ep23_dialogues1_2b_ff5d9028:
 
     # joe "Конечно нет! Я не имел это ввиду!"
     # "Ты просто любишь носить такую одежду..."
-    joe "Конечно нет! Я не имел это ввиду!"
-    "Ты просто любишь носить такую одежду..."
+    joe "Of course not! It's not what I meant!"
+    "You just love clothes like that..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:177
 translate english ep23_dialogues1_2b_29a4f6ab:
@@ -1277,8 +1277,8 @@ translate english ep23_dialogues1_2b_4572e675:
 
     # m "Я... не очень люблю носить такую одежду..."
     # "И хватит комментариев об этом!"
-    m "Я... не очень люблю носить такую одежду..."
-    "И хватит комментариев об этом!"
+    m "That... that’s not true.. I don’t love clothes like that!"
+    "And stop talking about it!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:185
 translate english ep23_dialogues1_2b_04ab0897:
@@ -1288,17 +1288,17 @@ translate english ep23_dialogues1_2b_04ab0897:
     # "Ты бы могла работать у нас."
     # "Здесь у нас гибкий график, перспективы карьерного роста и..."
     joe "Да, [monica_pub_name], конечно."
-    "Слушай, ты неплохо выглядишь!"
-    "Ты бы могла работать у нас."
-    "Здесь у нас гибкий график, перспективы карьерного роста и..."
+    "Listen, you are very good looking!"
+    "You can work here."
+    "We have flexible schedule, career prospects and ...."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:192
 translate english ep23_dialogues1_2b_4ef1d4e3:
 
     # m "Хватит меня дурить!"
     # "Ты хочешь чтобы я виляла задницей у того пилона!?"
-    m "Хватит меня дурить!"
-    "Ты хочешь чтобы я виляла задницей у того пилона!?"
+    m "Stop lying to me!"
+    "You just want me to shake my ass around this pole over there!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:195
 translate english ep23_dialogues1_2b_9891dc61:
@@ -1314,11 +1314,11 @@ translate english ep23_dialogues1_2b_153d8f85:
     # "Конечно он хотел бы чтобы такая как я работала здесь, виляя задницей!"
     # "Но этого не будет никогда!"
     # "Я никогда не опущусь до того, чтобы делать это... У всех на виду..."
-    mt "Еще бы! Моника Бакфетт! С обложки Модного Журнала!"
-    "Самая красивая девушка в городе!"
-    "Конечно он хотел бы чтобы такая как я работала здесь, виляя задницей!"
-    "Но этого не будет никогда!"
-    "Я никогда не опущусь до того, чтобы делать это... У всех на виду..."
+    mt "Huh! Monica Buckfett! Face of the Fashion Magazine!"
+    "The most gorgeous girl in the city!"
+    "No wonder he would like such beautiful person to work here!"
+    "Not happening!"
+    "I will never fall so low to do this... in front of everyone..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:206
 translate english ep23_dialogues1_2b_86241076:
@@ -1326,35 +1326,35 @@ translate english ep23_dialogues1_2b_86241076:
     # joe "Ну почему-же сразу у пилона..."
     # "У нас есть работа посудомойкой или официанткой."
     # "Хорошие чаевые и бесплатная еда для персонала."
-    joe "Ну почему-же сразу у пилона..."
-    "У нас есть работа посудомойкой или официанткой."
-    "Хорошие чаевые и бесплатная еда для персонала."
+    joe "You know what? You don’t have to dance around the pole...."
+    "We have an opening for dishwasher or waitress."
+    "Good tips and food on the house for staff."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:212
 translate english ep23_dialogues1_2b_66b40ccf:
 
     # m "Бесплатная еда?"
-    m "Бесплатная еда?"
+    m "Free food?"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:214
 translate english ep23_dialogues1_2b_3560e8b4:
 
     # joe "Да! И очень вкусная!"
     # "Для персонала у нас те же блюда, что и для гостей!"
-    joe "Да! И очень вкусная!"
-    "Для персонала у нас те же блюда, что и для гостей!"
+    joe "Yes! And it is very delicious!"
+    "The menu for the staff is same as for our customers!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:219
 translate english ep23_dialogues1_2b_927edbc6:
 
     # m "Я сомневаюсь в том что меня это заинтересует!"
-    m "Я сомневаюсь в том что меня это заинтересует!"
+    m "I doubt your meals taste good."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:221
 translate english ep23_dialogues1_2b_8f0030a1:
 
     # joe "Приходи, если надумаешь!"
-    joe "Приходи, если надумаешь!"
+    joe "If you change you mind, our doors are open."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:227
 translate english ep23_dialogues1_2c_8383f141:
@@ -1375,21 +1375,21 @@ translate english ep23_dialogues1_2c_8383f141:
     # "Но что мне делать? Мне же надо где-то есть!"
     # "Притом, меня в этом районе никто не узнает."
     # "Да и там я назвалась другим именем... [monica_pub_name]..."
-    mt "Черт!"
-    "Горячая и вкусная еда..."
+    mt "Heck!"
+    "Hot and delicious meals ..."
     "..."
-    "И для этого не надо разносить флаеры в рекламе кебаба или делать что еще похуже..."
-    "Может быть..."
-    "Пока я не решила то небольшое недоразумение, которое со мной произошло..."
-    "Мне попробовать поработать здесь?"
+    "I don’t even need to distribute stupid kebab flyers or even do something worse..."
+    "Maybe..."
+    "Untill I resolve slight misunderstandings, I got into..."
+    "Shoud I give it a try?"
     "..."
-    "РАБОТАТЬ В ТАКОЙ ДЫРЕ???"
-    "МНЕ???"
-    "МОНИКЕ БАКФЕТТ?!?"
+    "WORKING IN THIS HOLE???"
+    "ME???"
+    "MONICA BUCKFETT?!?"
     "..."
-    "(хмык)"
-    "Но что мне делать? Мне же надо где-то есть!"
-    "Притом, меня в этом районе никто не узнает."
+    "(sob)"
+    "But... what should I do? I have to eat somewhere!"
+    "Moreover, no one will recognize me from this area."
     "Да и там я назвалась другим именем... [monica_pub_name]..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:260
@@ -1398,7 +1398,7 @@ translate english ep23_dialogues1_3_f2e68960:
     # joe "О! [monica_pub_name]! Привет!"
     # "Ты надумала работать у нас?"
     joe "О! [monica_pub_name]! Привет!"
-    "Ты надумала работать у нас?"
+    "Did you change your mind?"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:397
 translate english ep23_dialogues1_3_ee2324ec:
@@ -1410,31 +1410,31 @@ translate english ep23_dialogues1_3_ee2324ec:
 translate english ep23_dialogues1_4a2_f74d306a:
 
     # mt "Никогда бы не подумала что буду мыть посуду в подобной дыре..."
-    mt "Никогда бы не подумала что буду мыть посуду в подобной дыре..."
+    mt "Never would have thought that I would be washing dishes in a hole like that."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:439
 translate english ep23_dialogues1_4a2_22d6c1f8:
 
     # mt "Не могу поверить что я делаю это..."
-    mt "Не могу поверить что я делаю это..."
+    mt "I can't believe I'm doing this ..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:441
 translate english ep23_dialogues1_4a2_2e68cdf1:
 
     # mt "У меня ощущение что все это сон..."
-    mt "У меня ощущение что все это сон..."
+    mt "I feel like I'm in a nightmare..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:443
 translate english ep23_dialogues1_4a2_c0da9282:
 
     # mt "Мне надо определенно что-то менять в этой ситуации... И как можно быстрее!"
-    mt "Мне надо определенно что-то менять в этой ситуации... И как можно быстрее!"
+    mt "I have to resolve my problems.. As soon as possible!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:462
 translate english ep23_dialogues1_4b_e270059d:
 
     # mt "Черт! Кажется, этот извращенец Джо пытается меня незаметно лапать!"
-    mt "Черт! Кажется, этот извращенец Джо пытается меня незаметно лапать!"
+    mt "Damn! I think this pervert Joe tries to grope me!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:485
 translate english ep23_dialogues1_4b_9f3552aa:
@@ -1442,21 +1442,21 @@ translate english ep23_dialogues1_4b_9f3552aa:
     # m "Джо! Ты что-то хотел взять здесь?"
     # joe "Да, [monica_pub_name]!"
     # "Я хочу взять чистую пивную кружку!"
-    m "Джо! Ты что-то хотел взять здесь?"
+    m "Joe, did you need anything from here?"
     joe "Да, [monica_pub_name]!"
-    "Я хочу взять чистую пивную кружку!"
+    "I need a clean beer mug."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:491
 translate english ep23_dialogues1_4b_0ca6cf6c:
 
     # mt "Это место - действительно Shiny Hole с извращенцами!"
-    mt "Это место - действительно Shiny Hole с извращенцами!"
+    mt "Shiny Hole... Definitely a hole... filled with perverts!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:512
 translate english ep23_dialogues1_4c_c74224c2:
 
     # mt "Черт! Эшли меня трогает за зад?!"
-    mt "Черт! Эшли меня трогает за зад?!"
+    mt "Is Ashley touching my ass?!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:535
 translate english ep23_dialogues1_4c_0b82904f:
@@ -1464,9 +1464,9 @@ translate english ep23_dialogues1_4c_0b82904f:
     # m "Эшли! Ты что-то хотела взять здесь?"
     # ashley "Я слежу чтобы ты лучше мыла посуду!"
     # "Везде грязь!"
-    m "Эшли! Ты что-то хотела взять здесь?"
-    ashley "Я слежу чтобы ты лучше мыла посуду!"
-    "Везде грязь!"
+    m "Ashley, did you need anything from here?"
+    ashley "I'm making sure that you are doing your job properly!"
+    "Look! Dirt is everywhere!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:541
 translate english ep23_dialogues1_4c_81824821:
@@ -1474,9 +1474,9 @@ translate english ep23_dialogues1_4c_81824821:
     # mt "О БОЖЕ!!!"
     # "ЗА ЧТО МНЕ ЭТО?!"
     # mt "Это место - действительно Shiny Hole с извращенцами!"
-    mt "О БОЖЕ!!!"
-    "ЗА ЧТО МНЕ ЭТО?!"
-    mt "Это место - действительно Shiny Hole с извращенцами!"
+    mt "Oh my God!!!"
+    "Why do I have to tolerate such treatment?!"
+    mt "Shiny Hole... Definitely a hole... filled with perverts!"
 
 translate english strings:
 

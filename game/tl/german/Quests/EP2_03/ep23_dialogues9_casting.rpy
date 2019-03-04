@@ -1832,3 +1832,71 @@ translate german ep23_dialogue9_5d_0fde7bf6:
     mt "От Мелани нет новостей... Я даже боюсь представить что с ней..."
     help "Узнайте что случилось с Мелани в следующих апдейтах игры!"
 
+# TODO: Translation updated at 2019-03-04 21:47
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:949
+translate german scene_test2_580c219b:
+
+    # m "Иди ты к черту, сучка!!!"
+    m "Fahr zur Hölle, Schlampe!!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:967
+translate german scene_test2_683564ef:
+
+    # model1 "Хочешь стать моделью?"
+    model1 "Willst du ein Model werden?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:970
+translate german scene_test2_ea1a00d4:
+
+    # m "Да!"
+    m "Да!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:972
+translate german scene_test2_1b539f80:
+
+    # m "Хочу поскорее закончить это..."
+    m "Ich will, dass es aufhört..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:974
+translate german scene_test2_2c23dfbb:
+
+    # model1 "Громче! Хочешь стать моделью этого журнала?!"
+    model1 "Lauter! Willst du ein Model für dieses Magazin werden?!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:981
+translate german scene_test2_f0665cd8:
+
+    # m "ДА!!!"
+    m "JA!!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:983
+translate german scene_test2_71c170d1:
+
+    # m "Когда же закончится этот кошмар?!"
+    m "Wann hört dieser Alptraum auf?!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:989
+translate german scene_test2_2f0f978f:
+
+    # model1 "Тебе нравится трахать себя?"
+    # m "У меня... У меня странное чувство, незнакомое..."
+    # "Меня что-то заполняет..."
+    # model1 "ТЕБЕ НРАВИТСЯ ТРАХАТЬ СЕБЯ???"
+    model1 "Magst du es, dich selbst zu ficken?"
+    m "Ich habe... Ich habe ein seltsames Gefühl... so ungewohnt..."
+    "Etwas füllt mich aus..."
+    model1 "MAGST DU ES, DICH ZU FICKEN???"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1004
+translate german scene_test2_9851e187:
+
+    # m "Аааааааа!! АААААА!!!"
+    m "Aaaaaaaa !! AAAAAA !!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1012
+translate german scene_test2_b16cd208:
+
+    # "АААаАААААаа!!!"
+    "AAAAAAAAAaa !!!"
+

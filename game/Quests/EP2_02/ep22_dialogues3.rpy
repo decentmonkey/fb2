@@ -787,7 +787,7 @@ label cleaning2_bardie_comment3:
             w
 
 
-    if monicaMustWearBettyPanties == True and (monicaBettyPantiesId != bettyPantiesLog[1] or or monicaBettyPanties == False):
+    if monicaMustWearBettyPanties == True and (monicaBettyPantiesId != bettyPantiesLog[1] or monicaBettyPanties == False):
         music Groove2_85 high
         img 7657
         call bardieMonicaCleaningInteract_wrong_panties()

@@ -53,8 +53,8 @@ translate english pub_environment_bcea8e17:
     # mt "О БОЖЕ!"
     # "ЧТО ЭТО ЗА ДЫРА?!?"
     mt "SHINY HOLE?!?"
-    mt "О БОЖЕ!"
-    "ЧТО ЭТО ЗА ДЫРА?!?"
+    mt "Oh my God!"
+    "WHAT IS THIS SHITHOLE?!?"
 
 # game/Rooms/Pub/pub.rpy:107
 translate english pub_environment_71c211f3:

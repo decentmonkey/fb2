@@ -54,7 +54,7 @@ translate german pub_environment_bcea8e17:
     # "ЧТО ЭТО ЗА ДЫРА?!?"
     mt "SHINY HOLE?!?"
     mt "О БОЖЕ!"
-    "ЧТО ЭТО ЗА ДЫРА?!?"
+    "WAS IST DAS FÜR EIN LOCH?!?"
 
 # game/Rooms/Pub/pub.rpy:107
 translate german pub_environment_71c211f3:
