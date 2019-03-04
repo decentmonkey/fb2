@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "EP2-v0.21"
+define config.version = "EP2-v0.3"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -32,7 +32,7 @@ define config.version = "EP2-v0.21"
 define gui.about = _p("""
 Thanks to:
 
-Meli_x3, Koskesh and ColdBlade for English correction
+Meli_x3, Koskesh, Ragnaroekr, GND53 and ColdBlade for English correction
 
 Ragnaroekr and BruceLee73
 for German translation

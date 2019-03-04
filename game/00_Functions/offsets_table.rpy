@@ -2438,7 +2438,14 @@ define offsets_table = {
     "pub_visitor9":(397,931,917,1240),
     "pub_visitor9_food":(397,931,917,1240),
     "hostel_edge_pylon_monica_6_c1":(0,623,882,1007),
-    "hostel_edge_pylon_monica_6_c2":(0,0,1079,668)
+    "hostel_edge_pylon_monica_6_c2":(0,0,1079,668),
+    "pub_bar1_washbasin_mask":(0,279,1078,1008),
+    "pub_bar_mask":(0,1560,447,1919),
+    "pub_bar_table_mask":(294,772,497,1919),
+    "pub_pole_mask":(0,0,594,478),
+    "pub_washbasin_mask":(0,1092,391,1614),
+    "pub_visitor6":(251,1126,557,1331),
+    "pub_visitor6_food":(251,1126,557,1331)
 }
 
 init python:

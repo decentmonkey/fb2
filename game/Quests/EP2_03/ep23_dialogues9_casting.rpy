@@ -87,7 +87,7 @@ label ep23_dialogue9_1:
     return
 
 label ep23_dialogue9_2:
-#    jump scene_test1
+#    jump scene_test2
     # Моника приходит к Мелани в гримерку.
     # Спрашивает к Мелани, когда она сходит к Маркусу?
     # Мелани говорит что после кастинга.
@@ -761,9 +761,36 @@ label ep23_dialogue9_2:
     "Хорошенько трахай!"
     $ monicaMelanieCastingLickedDildo = True
     # Моника начинает трахать свой рот.
-
     # видео
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_Dildo_1.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_Dildo_1_1 = Movie(play="video/v_Monica_Cabinet_Dildo_1_1.mp4", fps=30)
+    show videov_Monica_Cabinet_Dildo_1_1
+    with fade
+    wclean
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_Dildo_1.ogg"
+    $ renpy.music.set_volume(0.7)
+    scene black
+    image videov_Monica_Cabinet_Dildo_1_2 = Movie(play="video/v_Monica_Cabinet_Dildo_1_2.mp4", fps=30)
+    show videov_Monica_Cabinet_Dildo_1_2
+    with fade
+    wclean
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_Dildo_1.ogg"
+    $ renpy.music.set_volume(0.9)
+    scene black
+    image videov_Monica_Cabinet_Dildo_1_3 = Movie(play="video/v_Monica_Cabinet_Dildo_1_3.mp4", fps=30)
+    show videov_Monica_Cabinet_Dildo_1_3
+    with fade
+    wclean
+    music stop
+    music Groove2_85
+    $ renpy.music.set_volume(1.0)
     img 9322
+    with fade
     w
 
     # Мартышка говорит что ты совершенно не владеет мастерством.
@@ -798,11 +825,63 @@ label ep23_dialogue9_2:
 
     # видео
     # v_Monica_Cabinet_Dildo_2_1 - 2_7
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_Dildo_2.ogg"
+    $ renpy.music.set_volume(0.8)
+    scene black
+    image videov_Monica_Cabinet_Dildo_2_1 = Movie(play="video/v_Monica_Cabinet_Dildo_2_1.mp4", fps=30)
+    show videov_Monica_Cabinet_Dildo_2_1
+    with fade
+    wclean
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_Dildo_2.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_Dildo_2_2 = Movie(play="video/v_Monica_Cabinet_Dildo_2_2.mp4", fps=30)
+    show videov_Monica_Cabinet_Dildo_2_2
+    wclean
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_Dildo_2.ogg"
+    $ renpy.music.set_volume(0.7)
+    scene black
+    image videov_Monica_Cabinet_Dildo_2_3 = Movie(play="video/v_Monica_Cabinet_Dildo_2_3.mp4", fps=30)
+    show videov_Monica_Cabinet_Dildo_2_3
+    wclean
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_Dildo_2.ogg"
+    $ renpy.music.set_volume(0.8)
+    scene black
+    image videov_Monica_Cabinet_Dildo_2_4 = Movie(play="video/v_Monica_Cabinet_Dildo_2_4.mp4", fps=30)
+    show videov_Monica_Cabinet_Dildo_2_4
+    wclean
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_Dildo_2.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_Dildo_2_5 = Movie(play="video/v_Monica_Cabinet_Dildo_2_5.mp4", fps=30)
+    show videov_Monica_Cabinet_Dildo_2_5
+    wclean
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_Dildo_2.ogg"
+    $ renpy.music.set_volume(0.9)
+    scene black
+    image videov_Monica_Cabinet_Dildo_2_6 = Movie(play="video/v_Monica_Cabinet_Dildo_2_6.mp4", fps=30)
+    show videov_Monica_Cabinet_Dildo_2_6
+    wclean
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_Dildo_2.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_Dildo_2_7 = Movie(play="video/v_Monica_Cabinet_Dildo_2_7.mp4", fps=30)
+    show videov_Monica_Cabinet_Dildo_2_7
+    wclean
 
     # Мартышка спрашивает: Ты поняла как надо себя трахать?
     # Моника отвечает: "Да, поняла" или послать к черту
 
+    music stop
     music Groove2_85
+    $ renpy.music.set_volume(1.0)
     img 9329
     with fade
     model1 "Ты поняла как надо себя трахать?"
@@ -858,6 +937,7 @@ label ep23_dialogue9_2:
     model1 "Теперь трахай себя, сучка!"
     "Трахай себя как следует!"
 
+label scene_test2:
     # Выбор трахать себя или послать к черту
     img 9339
     menu:
