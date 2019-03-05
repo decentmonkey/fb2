@@ -913,9 +913,27 @@ screen hud_screen(hud_presets):
                 #время дня
                 if hud_presets["display_daytime"] == True:
                     if day_time == "day":
-                        add "icons/daytime_day" + res.suffix + ".png":
-                            yoffset -2
-                            xanchor 2
+                        if dialogue_active_flag == True or sceneIsStreet != True:
+                            imagebutton:
+                                yoffset -2
+                                xanchor 2
+                                idle "/icons/daytime_day" + res.suffix + ".png"
+                                hover "/icons/daytime_day_hover_disabled" + res.suffix + ".png"
+                                action [
+                                    Play("sound", "Sounds/click_denied.ogg")
+                                ]
+                        else:
+                            imagebutton:
+                                yoffset -2
+                                xanchor 2
+                                idle "/icons/daytime_day" + res.suffix + ".png"
+                                hover "/icons/daytime_day_hover" + res.suffix + ".png"
+                                action [
+                                    Call("time_management_street_wait_until_evening")
+                                ]
+#                        add "icons/daytime_day" + res.suffix + ".png":
+#                            yoffset -2
+#                            xanchor 2
                     if day_time == "evening":
                         add "icons/daytime_evening" + res.suffix + ".png":
                             yoffset -2
