@@ -35,14 +35,14 @@ screen choose_photoshoot_outfit():
                     xpos (offsetXIdx * getRes(200))
                     ypos (offsetYIdx * getRes(330))
                     if monicaOutfitsEnabled[idx] == True:
-                        idle monicaOutfitsIcons[idx] + ".png"
-                        hover monicaOutfitsIcons[idx] + "_hover.png"
+                        idle monicaOutfitsIcons2[idx] + ".png"
+                        hover monicaOutfitsIcons2[idx] + "_hover.png"
                         action Return(idx)
                     else:
-                        if monicaOutfitsIcons[idx] == "":
+                        if monicaOutfitsIcons2[idx] == "":
                             idle "/Icons2/Photoshoot_Empty_Icon_Disabled.png"
                         else:
-                            idle monicaOutfitsIcons[idx] + "_Disabled.png"
+                            idle monicaOutfitsIcons2[idx] + "_Disabled.png"
                         action Return(-1)
                 $ idx += 1
                 $ offsetXIdx += 1

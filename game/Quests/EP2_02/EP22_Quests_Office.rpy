@@ -45,6 +45,7 @@ label ep22_quests_office4: # Алекс стартует фотосессию
     # Выбор наряда
     label ep22_quests_office4_loop1:
 #        img scene_Office_Monica_MakeupRoom
+        call biffInitOutfitIcons()
         show screen choose_photoshoot_outfit()
         with Dissolve(0.2)
         $ result = ui.interact()
