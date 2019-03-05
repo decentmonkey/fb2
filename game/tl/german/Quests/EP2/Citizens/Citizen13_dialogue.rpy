@@ -370,7 +370,7 @@ translate german citizen13_dialogue_pilon_loop13_ea17d522_1:
 translate german citizen13_dialogue_pilon_loop13_1_78909a08:
 
     # citizen13 "Подруга, а шлепни себя по попке! Меня это заводит!"
-    citizen13 "Подруга, а шлепни себя по попке! Меня это заводит!"
+    citizen13 "Freundin, hau auf deinen Arsch, das turnt mich an!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:138
 translate german citizen13_dialogue_pilon_loop13_1_75720cba:
@@ -380,7 +380,7 @@ translate german citizen13_dialogue_pilon_loop13_1_75720cba:
     # help "Требуется [monicaWhoringClothAssSpankCorruptionRequired] corruption"
     mt "Es reicht schon, dass er mich so anstarrt."
     "Er hat genug mit dem was er sieht!"
-    help "Требуется [monicaWhoringClothAssSpankCorruptionRequired] corruption"
+    help "[MonicaWhoringClothAssSpankCorruptionRequired] Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:142
 translate german citizen13_dialogue_pilon_loop13_1_745b11c5:
@@ -392,7 +392,7 @@ translate german citizen13_dialogue_pilon_loop13_1_745b11c5:
 translate german citizen13_dialogue_pilon_loop13_1_689c875a:
 
     # citizen13 "Ух! Да, подруга, ты прямо огонь!"
-    citizen13 "Ух! Да, подруга, ты прямо огонь!"
+    citizen13 "Wow! Ja, Freundin, du bist heiß!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:154
 translate german citizen13_dialogue_pilon_loop13_1_c10bc376:
@@ -401,14 +401,14 @@ translate german citizen13_dialogue_pilon_loop13_1_c10bc376:
     # citizen13 "Нууу...Ну пожалуйста?"
     # m "Нет. Ты и так видел многое."
     m "Das werde ich nicht tun, es reicht."
-    citizen13 "Нууу...Ну пожалуйста?"
-    m "Нет. Ты и так видел многое."
+    citizen13 "Ehm... bitte?"
+    m "Nein. Du hast schon genug gesehen."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:166
 translate german citizen13_dialogue_pilon_loop13_1_33ac0b7b:
 
     # citizen13 "Дорогая, сделай пару оборотов на пилоне, очень хочется на это посмотреть."
-    citizen13 "Дорогая, сделай пару оборотов на пилоне, очень хочется на это посмотреть."
+    citizen13 "Süße, Dreh dich ein paar Mal an der Stange! Das will ich wirklich sehen."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:169
 translate german citizen13_dialogue_pilon_loop13_1_d15b9b6b:
@@ -420,35 +420,35 @@ translate german citizen13_dialogue_pilon_loop13_1_d15b9b6b:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    help "[MonicaWhoringClothPylonDanceCorruptionRequired]Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:178
 translate german citizen13_dialogue_pilon_loop13_1_c6b5282d:
 
     # m "Хорошо, только не долго."
     # mt "Только потому, что ты заплатишь."
-    m "Хорошо, только не долго."
-    mt "Только потому, что ты заплатишь."
+    m "Gut, aber nicht lange."
+    mt "Aber nur, weil du zahlst."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:182
 translate german citizen13_dialogue_pilon_loop13_1_0e4ecb06:
 
     # citizen13 "Здорово, а ты молодец! Надо будет также попробовать."
-    citizen13 "Здорово, а ты молодец! Надо будет также попробовать."
+    citizen13 "Toll, du bist cool! Das muss ich selbst auch mal ausprobieren."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:186
 translate german citizen13_dialogue_pilon_loop13_1_897ca9f1:
 
     # mt "Да уж, представляю что получится..."
-    mt "Да уж, представляю что получится..."
+    mt "Ja, ich kann mir vorstellen, wie das aussieht..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:194
 translate german citizen13_dialogue_pilon_loop13_1_1924d311:
 
     # citizen13 "Прошлый раз ты меня обманула: не показала, что у тебя под футболкой. Давай теперь честно, мы же подруги."
     # mt "Что он такое говорит? Он вообще нормальный?"
-    citizen13 "Прошлый раз ты меня обманула: не показала, что у тебя под футболкой. Давай теперь честно, мы же подруги."
-    mt "Что он такое говорит? Он вообще нормальный?"
+    citizen13 "Letztes Mal hast du mich abgewiesen: Ich habe nicht gesehen, was unter deinem T-Shirt ist. Aber jetzt sind wir ja Freunde."
+    mt "Was sagt er? Spinnt der?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:198
 translate german citizen13_dialogue_pilon_loop13_1_49aafc4d:
@@ -460,27 +460,27 @@ translate german citizen13_dialogue_pilon_loop13_1_49aafc4d:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:205
 translate german citizen13_dialogue_pilon_loop13_1_9e8035e0:
 
     # m "Так и быть, только руками не трогать."
     # mt "Только попробуй к ним прикаснуться и я сломаю тебе пальцы."
-    m "Так и быть, только руками не трогать."
-    mt "Только попробуй к ним прикаснуться и я сломаю тебе пальцы."
+    m "Gut, aber anfassen ist nicht."
+    mt "Versuche sie anzufassen, und ich breche deine Finger."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:209
 translate german citizen13_dialogue_pilon_loop13_1_ae805aa1:
 
     # citizen13 "А тебе есть что показать! Когда нибудь у меня будут такие же!"
-    citizen13 "А тебе есть что показать! Когда нибудь у меня будут такие же!"
+    citizen13 "Du hast einiges zum Vorzeigen. Eines Tages wird das meins sein!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:211
 translate german citizen13_dialogue_pilon_loop13_1_2c2de825:
 
     # mt "Да не дай бог..."
-    mt "Да не дай бог..."
+    mt "Um Himmels Willen..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:228
 translate german citizen13_dialogue_pilon_loop13_1_7f325bc0:
@@ -506,17 +506,17 @@ translate german strings:
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:87
     old "Станцуй. (мало свиданий) (disabled)"
-    new ""
+    new "Tanze. (nach einigen Treffen) (disabled)"
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:87
     old "Станцуй."
-    new ""
+    new "Tanze."
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:87
     old "Голые сиськи. (disabled)"
-    new ""
+    new "Nackte Brüste. (disabled)"
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:87
     old "Голые сиськи."
-    new ""
+    new "Nackte Brüste."
 

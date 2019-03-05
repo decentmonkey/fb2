@@ -1388,33 +1388,33 @@ translate english ep23_dialogue9_2_8b8f4d92:
 translate english ep23_dialogue9_2_0954c8ad:
 
     # secretary "Ой! Кто это???"
-    secretary "Oh! Who is it???"
+    secretary "Oh! Who is that???"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1012
 translate english ep23_dialogue9_2_b08daf3d:
 
     # melanie "Это новая модель..."
     # melanie "Проходит кастинг..."
-    melanie "She is a new model..."
-    melanie "She is passing the casting..."
+    melanie "This might be our new model..."
+    melanie "She is going to go through the audition."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1015
 translate english ep23_dialogue9_2_e6931bee:
 
     # melanie "Хочет сниматься в нашем журнале..."
-    melanie "He wants to work in our magazine..."
+    melanie "She wants to work in our magazine..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1017
 translate english ep23_dialogue9_2_35b2f49c:
 
     # secretary "(бедная девушка!)"
-    secretary "(a poor girl!)"
+    secretary "(poor thing!)"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1021
 translate english ep23_dialogue9_2_8efdaae3:
 
     # melanie "Пойдем, не будем их отвлекать от работы!"
-    melanie "Come on, let's not distract them from work!"
+    melanie "Come on, let's not disturb others from work."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1028
 translate english ep23_dialogue9_2_a0e8f874:
@@ -1505,7 +1505,7 @@ translate english ep23_dialogue9_2_27ecbef3:
     "..."
     "Hopefully no one will find out about what happened here."
     "Nobody will believe this piglet anyway."
-    "And Melanie... It's not in her purposes to talk about it."
+    "It's not in Melanie's interests to tell anyone about it."
     "Since she also took part in it..."
     "And what happened to me? Some kind of flash ..."
     "Damn! I better forget about all of this quickly!"
@@ -1884,33 +1884,33 @@ translate english scene_test1_8b8f4d92:
 translate english scene_test1_0954c8ad:
 
     # secretary "Ой! Кто это???"
-    secretary "Oh! Who is it???"
+    secretary "Oh! Who is that???"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1254
 translate english scene_test1_b08daf3d:
 
     # melanie "Это новая модель..."
     # melanie "Проходит кастинг..."
-    melanie "She is a new model..."
-    melanie "She is passing the casting..."
+    melanie "This might be our new model..."
+    melanie "She is going to go through the audition."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1258
 translate english scene_test1_e6931bee:
 
     # melanie "Хочет сниматься в нашем журнале..."
-    melanie "He wants to work in our magazine..."
+    melanie "She wants to work in our magazine..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1262
 translate english scene_test1_35b2f49c:
 
     # secretary "(бедная девушка!)"
-    secretary "(a poor girl!)"
+    secretary "(poor thing!)"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1266
 translate english scene_test1_8efdaae3:
 
     # melanie "Пойдем, не будем их отвлекать от работы!"
-    melanie "Come on, let's not distract them from work!"
+    melanie "Come on, let's not disturb others from work."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1275
 translate english scene_test1_a0e8f874:
@@ -2001,7 +2001,7 @@ translate english scene_test1_27ecbef3:
     "..."
     "Hopefully no one will find out about what happened here."
     "Nobody will believe this piglet anyway."
-    "And Melanie... It's not in her purposes to talk about it."
+    "It's not in Melanie's interests to tell anyone about it."
     "Since she also took part in it..."
     "And what happened to me? Some kind of flash ..."
     "Damn! I better forget about all of this quickly!"
@@ -2045,8 +2045,8 @@ translate english ep23_dialogue9_5d_0fde7bf6:
 
     # mt "От Мелани нет новостей... Я даже боюсь представить что с ней..."
     # help "Узнайте что случилось с Мелани в следующих апдейтах игры!"
-    mt "There is no news from Melanie... I'm even afraid to imagine what's happens to her..."
-    help "Find out what happened to Melanie in the next game updates!"
+    mt "No news from Melanie... I'm afraid to even image what could have happened to her..."
+    help "Find out Melanie's destiny in game's next updates!"
 
 # TODO: Translation updated at 2019-03-04 21:47
 
@@ -2115,4 +2115,256 @@ translate english scene_test2_b16cd208:
 
     # "АААаАААААаа!!!"
     "AAAAAAAAAaa !!!"
+
+# TODO: Translation updated at 2019-03-05 23:05
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1205
+translate english scene_test2_b6af9c44:
+
+    # model1 "Стоп, стоп!"
+    # "Что это за нежности Вы тут развели?!"
+    # "Где страсть?!"
+    # "Мелани! Что ты стоишь?!"
+    # "Быстро сядь ей на лицо и трахни его своей киской!"
+    model1 "Stop, stop!"
+    "Hey! What are you two doing?"
+    "Where is a passion?!"
+    "Melanie! What are you standing for?!"
+    "Go ahead and sit on her face and fuck it with your pussy!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1212
+translate english scene_test2_df8511da:
+
+    # melanie "???"
+    melanie "???"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1214
+translate english scene_test2_8cbeadb9:
+
+    # model1 "Ты что, не поняла, Мелани?! Быстро сядь на эту сучку!"
+    model1 "Don't you understand, Melanie?! Hurry up, sit on this bitch!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1222
+translate english scene_test2_df8511da_1:
+
+    # melanie "???"
+    melanie "???"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1226
+translate english scene_test2_43017bac:
+
+    # melanie "..."
+    melanie "..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1229
+translate english scene_test2_cb57f407:
+
+    # m "Эй, ты что собираешься делать?!"
+    # "Мелани?!..."
+    m "Hey, what are you doing?!"
+    "Melanie?! ..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1234
+translate english scene_test2_5fe4dd99:
+
+    # melanie "Простите, Миссис Бакфетт, это приказ Босса."
+    melanie "Sorry, Mrs. Buckfett, this is Boss’s order."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1304
+translate english scene_test2_bdb9722b:
+
+    # model1 "Вот значит как выглядит киска на миллиард долларов?"
+    model1 "That means what a billion dollar pussy looks like?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1306
+translate english scene_test2_8aef411a:
+
+    # model1 "Черт, я не могу удержаться... Эта сучка..."
+    # "Она правда красивая..."
+    # "Да пошло оно все!"
+    model1 "Damn, I can't restrain myself ... This bitch ..."
+    "She is really beautiful ..."
+    "Fuck it!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1382
+translate english scene_test2_917edff2:
+
+    # melanie "ААААААааааааххххх!!!!"
+    melanie "AAAAAAaaaaaahhhhh !!!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1386
+translate english scene_test2_917edff2_1:
+
+    # melanie "ААААААааааааххххх!!!!"
+    melanie "AAAAAAaaaaaahhhhh !!!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1396
+translate english scene_test2_07f6912f:
+
+    # model1 "Мелани, ты все?"
+    model1 "Melanie, are you done?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1399
+translate english scene_test2_d2f54de4:
+
+    # "Теперь моя очередь!"
+    "Now it's my turn!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1405
+translate english scene_test2_e0ec15ed:
+
+    # model1 "Мелани, ты пока можешь полизать ее киску, а потом мою!"
+    model1 "Melanie, you can lick her pussy, and then mine!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1412
+translate english scene_test2_8b8f4d92:
+
+    # melanie "Сегодня это твоя работа, девочка..."
+    melanie "Today this is your job, girl ..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1482
+translate english scene_test2_0954c8ad:
+
+    # secretary "Ой! Кто это???"
+    secretary "Oh! Who is that???"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1485
+translate english scene_test2_b08daf3d:
+
+    # melanie "Это новая модель..."
+    # melanie "Проходит кастинг..."
+    melanie "This might be our new model..."
+    melanie "She is going to go through the audition."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1489
+translate english scene_test2_e6931bee:
+
+    # melanie "Хочет сниматься в нашем журнале..."
+    melanie "She wants to work in our magazine..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1493
+translate english scene_test2_35b2f49c:
+
+    # secretary "(бедная девушка!)"
+    secretary "(poor thing!)"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1497
+translate english scene_test2_8efdaae3:
+
+    # melanie "Пойдем, не будем их отвлекать от работы!"
+    melanie "Come on, let's not disturb others from work."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1506
+translate english scene_test2_a0e8f874:
+
+    # model1 "ААаааааааххххх!!!"
+    model1 "AAAaaaaaahhhhh !!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1510
+translate english scene_test2_f01d586a:
+
+    # model1 "А теперь лижи мой зад!"
+    model1 "And now lick my ass!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1515
+translate english scene_test2_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1518
+translate english scene_test2_012f88ff:
+
+    # mt "..."
+    # m "А где Мелани?"
+    mt "..."
+    m "Where is Melanie?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1530
+translate english scene_test2_720f8a4a:
+
+    # model1 "Зачем тебе Мелани, сучка?"
+    # "Здесь есть моя попка!"
+    # "Ее надо лизать!"
+    model1 "Why do you need Melanie, bitch?"
+    "Here is my ass!"
+    "It needs to be licked!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1537
+translate english scene_test2_0a5616b8_1:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1540
+translate english scene_test2_736b67d2:
+
+    # m "Ах ты сучка! Я убъю тебя!"
+    # "Ты ответишь за все что здесь было!!!"
+    # "ТВАРЬ!!!"
+    m "You bitch! I'll kill you!"
+    "You will answer for everything!!!"
+    "YOU STUPID THING!!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1552
+translate english scene_test2_f382dd08:
+
+    # mt "Я достану эту тварь, клянусь!"
+    # "На что я только согласилась?!?!"
+    # "Меня, фактически, изнасиловала эта мартышка в своем-же собственном кабинете!"
+    mt "I'll get this bitch, I swear!"
+    "Why did I agree on this?!?!"
+    "I was pretty much raped by this monkey in my own office!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1556
+translate english scene_test2_93a68e84:
+
+    # "А Мелани смотрела на это!"
+    # "О БОЖЕ!!!"
+    "And Melanie has seen it all and just looked!"
+    "Oh my God!!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1560
+translate english scene_test2_27ecbef3:
+
+    # "Да, ставки очень высоки и мне приходится идти на подобные жертвы..."
+    # "Но, Моника, не забывай, тебе потом еще здесь жить и работать."
+    # "Не надо забывать о своей репутации!"
+    # "..."
+    # "Но я надеюсь что никто не узнает про то что здесь было."
+    # "Этой пигалице все-равно никто не поверит."
+    # "А Мелани... Не в ее интересах распространяться об этом."
+    # "Учитывая что она принимала участие..."
+    # "И что такое со мной произошло? Какая-то вспышка..."
+    # "Черт! Лучше я забуду обо всем этом побыстрее!"
+    "Stakes are very high and I have to make some sacrifices..."
+    "Yet do not forget that you still have to live and work here, Monica!"
+    "Do not forget about your reputation!"
+    "..."
+    "Hopefully no one will find out about what happened here."
+    "Nobody will believe this piglet anyway."
+    "It's not in Melanie's interests to tell anyone about it."
+    "Since she also took part in it..."
+    "And what happened to me? Some kind of flash ..."
+    "Damn! I better forget about all of this quickly!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1572
+translate english scene_test2_0dae1824:
+
+    # "..."
+    # "Мне надо одеться."
+    # "..."
+    "..."
+    "I need clothes."
+    "..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1581
+translate english scene_test2_c031d496:
+
+    # "Где там эта Мелани?!?!"
+    # "Пусть только попробует еще что-то захотеть!"
+    # "Я уже достаточно здесь натерпелась!!!"
+    "Where is Melanie?!?!"
+    "If she dares to request anything else!"
+    "I've had enough already!!!"
 

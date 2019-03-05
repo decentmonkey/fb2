@@ -134,9 +134,9 @@ translate german strings:
 
     # Characters/Monica/Wardrobe_Basement.rpy:124
     old "Переодеться в одежду шлюхи (другой нет!)."
-    new ""
+    new "Zieh die Hurenkleider an (keine Anderen!)."
 
     # Characters/Monica/Wardrobe_Basement.rpy:124
     old "Не переодеваться."
-    new ""
+    new "Zieh dich nicht um."
 

@@ -4,5 +4,5 @@
 translate english bartenderWaitressProgressLevelUp_3b749cb8:
 
     # help "Прогресс [progress_character_name] максимален, ждите следующих обновлений игры!"
-    help "Progress [progress_character_name] is maximum, wait for the next game updates!"
+    help "I have reached the end of the current [progress_character_name]'s path, more to come in the future updates!"
 

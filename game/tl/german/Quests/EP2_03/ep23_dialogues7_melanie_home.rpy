@@ -256,5 +256,5 @@ translate german strings:
 
     # Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:18
     old "У МЕЛАНИ ДОМА..."
-    new ""
+    new "MELANIES ZU HAUSE..."
 

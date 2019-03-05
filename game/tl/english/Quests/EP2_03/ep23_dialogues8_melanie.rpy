@@ -1373,5 +1373,5 @@ translate english ep23_dialogues8_2_51afa7e3:
     # "И, когда Вы лишилсиь его, то потерял интерес к Вам."
     melanie "Dick really loved you, Mrs. Buckfett."
     "Because of your social status."
-    "And when you lost it, he is lost interest in you."
+    "And when you lost it, he completely lost interest in you."
 

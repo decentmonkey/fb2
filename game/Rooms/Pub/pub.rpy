@@ -106,21 +106,37 @@ label pub_environment:
     if obj_name == "Pub_Bar_Table":
         mt "Жуткое заведение, жуткая мебель!"
         "Какой кошмар, Моника!"
-    if obj_name == "Pub_Pole" or obj_name == "Pub_StripteaseGirl1" or obj_name == "Pub_StripteaseGirl2":
-        $ fadeFlag = False
-        if get_active_objects("Pub_StripteaseGirl2", scene="pub") != False:
-            img 9583
-            with fade
-            $ fadeFlag = True
 
+    if obj_name == "Pub_StripteaseGirl1" or obj_name == "Pub_StripteaseGirl2":
         if act=="l":
+            if obj_name == "Pub_StripteaseGirl1":
+                if pubStripteaseGirl1Suffix == 1:
+                    img 9668
+                if pubStripteaseGirl1Suffix == 2:
+                    img 9669
+                if pubStripteaseGirl1Suffix == 3:
+                    img 9670
+                if pubStripteaseGirl1Suffix == 4:
+                    img 9671
+            if obj_name == "Pub_StripteaseGirl2":
+                if pubStripteaseGirl2Suffix == 1:
+                    img 9664
+                if pubStripteaseGirl2Suffix == 2:
+                    img 9665
+                if pubStripteaseGirl2Suffix == 3:
+                    img 9666
+                if pubStripteaseGirl2Suffix == 4:
+                    img 9667
+            with fade
+            w
             mt "Эти девушки совсем не уважают себя!"
             "Как можно делать подобное у всех на виду?!"
+            call refresh_scene_fade()
+
         if act=="w":
             mt "Я не собираюсь подходить туда!"
             "Мне не на что там смотреть!!!"
-        if fadeFlag == True:
-            call refresh_scene_fade()
+
     if obj_name == "Pub_Washbasin":
         mt "Там готовят еду и моют посуду..."
         mt "Какое жуткое место!"

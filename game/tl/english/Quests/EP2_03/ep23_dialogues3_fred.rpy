@@ -784,7 +784,7 @@ translate english ep23_dialogues3_2_a9603673:
 translate english ep23_dialogues3_5_428cd15d:
 
     # betty "В другой раз, Фред!"
-    betty "Another time, Fred!"
+    betty "Next time, Fred!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:451
 translate english ep23_dialogues3_5_9a3cb1f8:
@@ -904,7 +904,7 @@ translate english strings:
 
     # Quests/EP2_03/ep23_dialogues3_fred.rpy:421
     old "В другой раз, Фред!"
-    new "Another time, Fred!"
+    new "Next time, Fred!"
 
     # Quests/EP2_03/ep23_dialogues3_fred.rpy:523
     old "Куда это ты собрался?!"

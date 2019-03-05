@@ -22,15 +22,15 @@ translate german ep22_photoshoot4_39656896:
     # m "Алекс, это что?"
     # alex_photograph "Миссис Бакфетт, это наряд Розы Надежды!"
     m "Alex, was ist das?"
-    alex_photograph "Миссис Бакфетт, это наряд Розы Надежды!"
+    alex_photograph "Frau Buckfett, das ist das Rose der Hoffnung Outfit!"
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:19
 translate german ep22_photoshoot4_5b941334:
 
     # m "Ладно, Алекс. Надеюсь эта роза не уколет меня своим шипом!"
     # "Иначе Бифу придется выплатить мне компенсацию за это!"
-    m "Ладно, Алекс. Надеюсь эта роза не уколет меня своим шипом!"
-    "Иначе Бифу придется выплатить мне компенсацию за это!"
+    m "Ok, Alex. Ich hoffe, diese Rose sticht mich nicht mit ihren Dornen!"
+    "Sonst wird mir Biff eine Entschädigugn zahlen müssen!"
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:25
 translate german ep22_photoshoot4_pose1_5cd72d0a:
@@ -73,7 +73,7 @@ translate german ep22_photoshoot4_pose4_0cf73934:
 
     # m "Алекс! Я не собираюсь трогать себя за грудь на камеру!"
     # "И это не обсуждается!"
-    m "Алекс! Я не собираюсь трогать себя за грудь на камеру!"
+    m "Alex! Ich werde nicht meine Brüste vor der Kamera berühren!"
     "Das steht außer Frage!"
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:310
@@ -206,13 +206,13 @@ translate german ep23_photoshoot4_casting_d3fec468:
     # biff "Кто сегодня цыпочка?"
     # m "Сегодня цыпочка - это Роза Надежды..."
     biff "Wer ist das Chick heute Abend?"
-    m "Сегодня цыпочка - это Роза Надежды..."
+    m "Heute ist die Rose der Hoffnung dran..."
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:700
 translate german ep23_photoshoot4_casting_8bb65f7e:
 
     # biff "Что Роза Надежды хочет показать папочке?"
-    biff "Что Роза Надежды хочет показать папочке?"
+    biff "Was will die Rose der Hoffnung Daddy zeigen?"
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:706
 translate german ep23_photoshoot4_casting_f4e1f245:
@@ -250,5 +250,5 @@ translate german strings:
 
     # Quests/EP2_03/ep23_photoshoot4.rpy:653
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot4_casting_corruption_required]) (disabled)"
-    new ""
+    new "Geh zum Casting zu Biff und sage, du bist ein Chick... (low corruption, required [photoshoot4_casting_corruption_required]) (disabled)"
 

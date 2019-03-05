@@ -11,6 +11,6 @@ translate english pub_visitors_default_62d97fd1:
 
     # mt "Не собираюсь к нему подходить!"
     # "Мне противно это место!"
-    mt "I'm not going to approach him!"
-    "I hate this place!"
+    mt "I'm not going near him!"
+    "This place is disgusting!"
 

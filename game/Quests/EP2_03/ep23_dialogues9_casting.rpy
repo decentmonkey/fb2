@@ -937,7 +937,6 @@ label ep23_dialogue9_2:
     model1 "Теперь трахай себя, сучка!"
     "Трахай себя как следует!"
 
-label scene_test2:
     # Выбор трахать себя или послать к черту
     img 9339
     menu:
@@ -951,14 +950,20 @@ label scene_test2:
 
     # Если трахать:
     # видео Моника трахает себя
+
 #audio_Monica_Cabinet_Dildo_3
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_Dildo_3.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_Dildo_3_1 = Movie(play="video/v_Monica_Cabinet_Dildo_3_1.mp4", fps=30)
+    show videov_Monica_Cabinet_Dildo_3_1
+    with fade
+    wclean
+
+    music stop
+    music Loved_Up2
     img 9340
-    with Dissolve(0.3)
-    w
-    img 9341
-    with Dissolve(0.3)
-    w
-    img 9342
     with Dissolve(0.3)
     w
     # Мартышка спрашивает в это время: Хочешь стать моделью?
@@ -971,6 +976,21 @@ label scene_test2:
         "Хочу поскорее закончить это...":
             m "Хочу поскорее закончить это..."
 
+
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_Dildo_3.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_Dildo_3_2 = Movie(play="video/v_Monica_Cabinet_Dildo_3_2.mp4", fps=30)
+    show videov_Monica_Cabinet_Dildo_3_2
+    with fade
+    wclean
+
+    music stop
+    music Loved_Up2
+    img 9341
+    with Dissolve(0.3)
+    w
     model1 "Громче! Хочешь стать моделью этого журнала?!"
     # Мартышка говорит громче! Хочешь стать моделью этого журнала?!
     # Громко Да или когда закончится этот кошмар?
@@ -985,6 +1005,29 @@ label scene_test2:
     # Моника говорит: У меня странное чувство, незнакомое... Меня что-то заполняет...
     # Мартышка спрашивает громко: ТЕБЕ НРАВИТСЯ ТРАХАТЬ СЕБЯ???
     # Моника отвечает выбор: ДА!!!
+
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_Dildo_3.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_Dildo_3_3 = Movie(play="video/v_Monica_Cabinet_Dildo_3_3.mp4", fps=30)
+    show videov_Monica_Cabinet_Dildo_3_3
+    with fade
+    wclean
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_Dildo_3.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_Dildo_3_4 = Movie(play="video/v_Monica_Cabinet_Dildo_3_4.mp4", fps=30)
+    show videov_Monica_Cabinet_Dildo_3_4
+    with fade
+    wclean
+
+    music stop
+    music Loved_Up2
+    img 9342
+    with Dissolve(0.3)
+    w
 
     model1 "Тебе нравится трахать себя?"
     m "У меня... У меня странное чувство, незнакомое..."
@@ -1017,7 +1060,6 @@ label scene_test2:
     with Dissolve(0.5)
     pause 2.0
 
-label scene_test1:
     music Loved_Up
     img 9347
     with fadelong
@@ -1157,6 +1199,7 @@ label scene_test1:
     # Мелани! Что ты стоишь?! Быстро сядь ей на лицо и трахни его своей киской!
     # Мелани недоуменно смотрит на Мартышку.
     # Мартышка говорит: Ты что не поняла, Мелани?! Быстро сядь на эту сучку!
+label scene_test2:
     music Power_Bots_Loop
     img 9379
     model1 "Стоп, стоп!"
@@ -1204,6 +1247,45 @@ label scene_test1:
     img 9388
     with Dissolve(0.3)
     w
+    stop music
+    play music "<from 0.23 loop 0.23>Sounds/audio_Monica_Cabinet_FaceSitting_1.ogg"
+#    play music "Sounds/audio_Monica_Cabinet_FaceSitting_1.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_FaceSitting_1_1 = Movie(play="video/v_Monica_Cabinet_FaceSitting_1_1.mp4", fps=30)
+    show videov_Monica_Cabinet_FaceSitting_1_1
+    with fade
+    wclean
+    stop music
+    play music "<from 0.23 loop 0.23>Sounds/audio_Monica_Cabinet_FaceSitting_1.ogg"
+#    play music "Sounds/audio_Monica_Cabinet_FaceSitting_1.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_FaceSitting_1_2 = Movie(play="video/v_Monica_Cabinet_FaceSitting_1_2.mp4", fps=30)
+    show videov_Monica_Cabinet_FaceSitting_1_2
+    with fade
+    wclean
+    stop music
+    play music "<from 0.23 loop 0.23>Sounds/audio_Monica_Cabinet_FaceSitting_1.ogg"
+#    play music "Sounds/audio_Monica_Cabinet_FaceSitting_1.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_FaceSitting_1_3 = Movie(play="video/v_Monica_Cabinet_FaceSitting_1_3.mp4", fps=30)
+    show videov_Monica_Cabinet_FaceSitting_1_3
+    with fade
+    wclean
+    stop music
+    play music "<from 0.23 loop 0.23>Sounds/audio_Monica_Cabinet_FaceSitting_1.ogg"
+#    play music "Sounds/audio_Monica_Cabinet_FaceSitting_1.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_FaceSitting_1_4 = Movie(play="video/v_Monica_Cabinet_FaceSitting_1_4.mp4", fps=30)
+    show videov_Monica_Cabinet_FaceSitting_1_4
+    with fade
+    wclean
+
+    music stop
+    music Loved_Up
     img 9389
     with Dissolve(0.3)
     w
@@ -1226,6 +1308,7 @@ label scene_test1:
     "Да пошло оно все!"
 
     # Видео threesome (всеобщие охи-вздохи)
+    music Loved_Up2
     img 9394
     with fadelong
     w
@@ -1241,6 +1324,40 @@ label scene_test1:
     img 9398
     with Dissolve(0.3)
     w
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_FaceSitting_2.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_FaceSitting_2_1 = Movie(play="video/v_Monica_Cabinet_FaceSitting_2_1.mp4", fps=30)
+    show videov_Monica_Cabinet_FaceSitting_2_1
+    with fade
+    wclean
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_FaceSitting_2.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_FaceSitting_2_2 = Movie(play="video/v_Monica_Cabinet_FaceSitting_2_2.mp4", fps=30)
+    show videov_Monica_Cabinet_FaceSitting_2_2
+    with fade
+    wclean
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_FaceSitting_2.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_FaceSitting_2_3 = Movie(play="video/v_Monica_Cabinet_FaceSitting_2_3.mp4", fps=30)
+    show videov_Monica_Cabinet_FaceSitting_2_3
+    with fade
+    wclean
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_FaceSitting_2.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_FaceSitting_2_4 = Movie(play="video/v_Monica_Cabinet_FaceSitting_2_4.mp4", fps=30)
+    show videov_Monica_Cabinet_FaceSitting_2_4
+    with fade
+    wclean
+    music stop
+    music Loved_Up2
     img 9399
     with Dissolve(0.3)
     w
@@ -1272,6 +1389,8 @@ label scene_test1:
     # Теперь моя очередь!
     # И садится на лицо Моники.
     music Loved_Up
+    img black_screen
+    with Dissolve(1.0)
     img 9406
     with fadelong
     model1 "Мелани, ты все?"
@@ -1308,7 +1427,35 @@ label scene_test1:
     img 9413
     with fade
     w
+
     #видео
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_FaceSitting_3.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_FaceSitting_3_1 = Movie(play="video/v_Monica_Cabinet_FaceSitting_3_1.mp4", fps=30)
+    show videov_Monica_Cabinet_FaceSitting_3_1
+    with fade
+    wclean
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_FaceSitting_3.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_FaceSitting_3_2 = Movie(play="video/v_Monica_Cabinet_FaceSitting_3_2.mp4", fps=30)
+    show videov_Monica_Cabinet_FaceSitting_3_2
+    with fade
+    wclean
+    stop music
+    play music "Sounds/audio_Monica_Cabinet_FaceSitting_3.ogg"
+    $ renpy.music.set_volume(1.0)
+    scene black
+    image videov_Monica_Cabinet_FaceSitting_3_3 = Movie(play="video/v_Monica_Cabinet_FaceSitting_3_3.mp4", fps=30)
+    show videov_Monica_Cabinet_FaceSitting_3_3
+    with fade
+    wclean
+
+    music stop
+    music Loved_Up2
     img 9414
     with Dissolve(0.3)
     w

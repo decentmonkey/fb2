@@ -2787,7 +2787,7 @@ translate german monica_office_biff_dialogue_evening1_62c01ede:
 
     # biff "Да!"
     # biff "Можешь идти!"
-    biff "Ja!"
+    biff "Да!"
     biff "Du kannst gehen!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1763
@@ -3271,7 +3271,7 @@ translate german monica_office_biff_dialogue_evening1_51889768:
 
     # biff "Да!"
     # biff "Можешь идти!"
-    biff "Ja!"
+    biff "Да!"
     biff "Du kannst gehen!"
 
 # TODO: Translation updated at 2018-12-09 22:47

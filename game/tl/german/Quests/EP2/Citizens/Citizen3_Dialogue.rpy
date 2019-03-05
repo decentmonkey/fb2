@@ -444,7 +444,7 @@ translate german citizen3_dialogue_pilon_loop3_ea17d522_1:
 translate german citizen3_dialogue_pilon_loop3_c1d5d7c7:
 
     # citizen3 "Потанцуй для меня, не зря же сюда пришли."
-    citizen3 "Потанцуй для меня, не зря же сюда пришли."
+    citizen3 "Tanz' für mich, kein Wunder, dass sie gekommen sind."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:191
 translate german citizen3_dialogue_pilon_loop3_d15b9b6b:
@@ -456,33 +456,33 @@ translate german citizen3_dialogue_pilon_loop3_d15b9b6b:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    help "[MonicaWhoringClothPylonDanceCorruptionRequired]Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:200
 translate german citizen3_dialogue_pilon_loop3_c6b5282d:
 
     # m "Хорошо, только не долго."
     # mt "Только потому, что ты заплатишь."
-    m "Хорошо, только не долго."
-    mt "Только потому, что ты заплатишь."
+    m "Gut, aber nicht lange."
+    mt "Aber nur, weil du zahlst."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:204
 translate german citizen3_dialogue_pilon_loop3_a93eed6a:
 
     # citizen3 "Прекрасно. Ты никогда не задумывалась этим зарабатывать? Раздача флаеров не очень прибыльное дело."
-    citizen3 "Прекрасно. Ты никогда не задумывалась этим зарабатывать? Раздача флаеров не очень прибыльное дело."
+    citizen3 "Perfekt. Hast du schon mal daran gedacht, so dein Geld zu verdienen? Flyer verteilen ist nicht sehr lohnend."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:208
 translate german citizen3_dialogue_pilon_loop3_1c217615:
 
     # mt "Ни за что..."
-    mt "Ни за что..."
+    mt "Niemals..."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:217
 translate german citizen3_dialogue_pilon_loop3_3fbca55d:
 
     # citizen3 "Детка, хочу взглянуть еще раз на твои сиськи, только сними курточку."
-    citizen3 "Детка, хочу взглянуть еще раз на твои сиськи, только сними курточку."
+    citizen3 "Baby, Ich will nochmal deine Brüste anschauen, zieh doch bitte die Jacke aus."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:220
 translate german citizen3_dialogue_pilon_loop3_49aafc4d:
@@ -494,25 +494,25 @@ translate german citizen3_dialogue_pilon_loop3_49aafc4d:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:227
 translate german citizen3_dialogue_pilon_loop3_7dec49ad:
 
     # m "Так и быть, только руками не трогать."
-    m "Так и быть, только руками не трогать."
+    m "Gut, aber anfassen ist nicht."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:230
 translate german citizen3_dialogue_pilon_loop3_acef5779:
 
     # citizen3 "Очень хорошо. Сиськи как у Сары! Ты знакома с Сарой?"
     # "Хотя почему я спрашиваю? Конечно вы знакомы."
-    citizen3 "Очень хорошо. Сиськи как у Сары! Ты знакома с Сарой?"
-    "Хотя почему я спрашиваю? Конечно вы знакомы."
+    citizen3 "Sehr gut. Titten wie die von Sarah! Kennst du Sarah?"
+    "Aber warum frage ich eigentlich? Sicher kennt ihr euch."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:233
 translate german citizen3_dialogue_pilon_loop3_5d61e41c:
 
     # mt "О какой еще Саре он говорит?"
-    mt "О какой еще Саре он говорит?"
+    mt "Von welcher Sarah spricht er?"
 

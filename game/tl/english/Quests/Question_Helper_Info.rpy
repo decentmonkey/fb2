@@ -241,7 +241,7 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "От Мелани нет новостей... Я даже боюсь представить что с ней..."
-    new "There is no news from Melanie... I'm even afraid to imagine what's happens to her..."
+    new "No news from Melanie... I'm afraid to even image what could have happened to her..."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Я жду новостей от Мелани..."

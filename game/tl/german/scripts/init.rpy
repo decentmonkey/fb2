@@ -124,9 +124,9 @@ translate german strings:
 
     # scripts/init.rpy:226
     old "Бармен в Shiny Hole"
-    new ""
+    new "Bartender des Shiny Hole"
 
     # scripts/init.rpy:227
     old "Жена бармена"
-    new ""
+    new "Frau des Bartenders"
 

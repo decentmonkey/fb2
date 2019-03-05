@@ -306,7 +306,7 @@ translate german citizen7_dialogue_pilon_loop7_ea17d522_1:
 translate german citizen7_dialogue_pilon_loop7_e32a207c:
 
     # citizen7 "Милая, потанцуй немного."
-    citizen7 "Милая, потанцуй немного."
+    citizen7 "Süße, tanz' noch ein bisschen."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:142
 translate german citizen7_dialogue_pilon_loop7_d15b9b6b:
@@ -318,29 +318,29 @@ translate german citizen7_dialogue_pilon_loop7_d15b9b6b:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    help "[MonicaWhoringClothPylonDanceCorruptionRequired]Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:151
 translate german citizen7_dialogue_pilon_loop7_c6b5282d:
 
     # m "Хорошо, только не долго."
     # mt "Только потому, что ты заплатишь."
-    m "Хорошо, только не долго."
-    mt "Только потому, что ты заплатишь."
+    m "Gut, aber nicht lange."
+    mt "Aber nur, weil du zahlst."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:158
 translate german citizen7_dialogue_pilon_loop7_0b274202:
 
     # citizen7 "Прекрасно двигаешься!"
     # mt "Не поспоришь..."
-    citizen7 "Прекрасно двигаешься!"
-    mt "Не поспоришь..."
+    citizen7 "Tolle Bewegung!"
+    mt "Ich kann mich nicht beschweren..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:169
 translate german citizen7_dialogue_pilon_loop7_791dba14:
 
     # citizen7 "Покажи свою грудь, только не забудь снять одежду."
-    citizen7 "Покажи свою грудь, только не забудь снять одежду."
+    citizen7 "Zeig deine Brüste, und denk dran die Kleider auszuziehen."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:172
 translate german citizen7_dialogue_pilon_loop7_49aafc4d:
@@ -352,23 +352,23 @@ translate german citizen7_dialogue_pilon_loop7_49aafc4d:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:179
 translate german citizen7_dialogue_pilon_loop7_7dec49ad:
 
     # m "Так и быть, только руками не трогать."
-    m "Так и быть, только руками не трогать."
+    m "Gut, aber anfassen ist nicht."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:182
 translate german citizen7_dialogue_pilon_loop7_d3924823:
 
     # citizen7 "Я так и знал, что они восхитительны!"
-    citizen7 "Я так и знал, что они восхитительны!"
+    citizen7 "Ich wusste, sie sind großartig!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:184
 translate german citizen7_dialogue_pilon_loop7_8aa5ca4c:
 
     # mt "Это правда."
-    mt "Это правда."
+    mt "Das stimmt allerdings."
 

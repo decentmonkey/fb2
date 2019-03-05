@@ -368,7 +368,7 @@ translate english citizen5_dialogue_pilon_loop5_ea17d522_1:
 translate english citizen5_dialogue_pilon_loop5_8755393e:
 
     # citizen5 "Я желаю ведеть тебя танцующей."
-    citizen5 "I wish to lead you dancing."
+    citizen5 "I'd like to see you dancing."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:125
 translate english citizen5_dialogue_pilon_loop5_d15b9b6b:
@@ -380,35 +380,35 @@ translate english citizen5_dialogue_pilon_loop5_d15b9b6b:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "[MonicaWhoringClothPylonDanceCorruptionRequired] corruption is required"
+    help "[monicaWhoringClothPylonDanceCorruptionRequired] corruption required"
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:134
 translate english citizen5_dialogue_pilon_loop5_c6b5282d:
 
     # m "Хорошо, только не долго."
     # mt "Только потому, что ты заплатишь."
-    m "Well, just not for long."
-    mt "Just because you pay."
+    m "Fine, just for a little bit."
+    mt "Only because you are paying."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:138
 translate english citizen5_dialogue_pilon_loop5_b8c0853a:
 
     # citizen5 "Ооо! Какие красивые изгибания!"
-    citizen5 "Wow! What a beautiful twist!"
+    citizen5 "Woah... Such a beautiful flow of movement!"
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:142
 translate english citizen5_dialogue_pilon_loop5_c1d78c46:
 
     # mt "Как же он странно разговаривает..."
-    mt "How he talks strangely..."
+    mt "His speech is so weird..."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:151
 translate english citizen5_dialogue_pilon_loop5_1dea5ff3:
 
     # citizen5 "Оголи свои манящие груди."
     # mt "Ему бы книги писать..."
-    citizen5 "Nake your alluring breasts."
-    mt "He would write books..."
+    citizen5 "Uncover your alluring bosom."
+    mt "He should be writing books..."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:155
 translate english citizen5_dialogue_pilon_loop5_49aafc4d:
@@ -420,17 +420,17 @@ translate english citizen5_dialogue_pilon_loop5_49aafc4d:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] corruption is required"
+    help "[monicaWhoringClothNakedBoobsCorruptionRequired] corruption required"
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:162
 translate english citizen5_dialogue_pilon_loop5_7dec49ad:
 
     # m "Так и быть, только руками не трогать."
-    m "So be it, just don't touch by your hands."
+    m "Very well, but no touching."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:165
 translate english citizen5_dialogue_pilon_loop5_ffa01e0c:
 
     # citizen5 "Я только что лицезрел гору Фудзи, точнее две!"
-    citizen5 "I just saw Mount Fuji, more precisely two!"
+    citizen5 "It's like my gaze just fell upon Fuji mountain, two to be precise!"
 

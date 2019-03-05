@@ -164,5 +164,5 @@ translate german strings:
 
     # Characters/Monica/Bed_Basement.rpy:99
     old "Поесть и лечь спать."
-    new ""
+    new "Iss und geh in's Bett."
 

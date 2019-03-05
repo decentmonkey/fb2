@@ -45,7 +45,7 @@ translate english street_rich_hotel_environment_b65fa23a:
 
     # m "La Grand?"
     # "Как банально..."
-    m "Le Grand?"
+    m "La Grand?"
     "So trite..."
 
 # TODO: Translation updated at 2018-12-09 22:48

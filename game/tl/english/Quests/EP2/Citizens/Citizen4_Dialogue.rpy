@@ -364,7 +364,7 @@ translate english citizen4_dialogue_5d080525:
 translate english citizen4_dialogue_pilon_loop4_4df3fe38:
 
     # citizen4 "Покрутись на шесте немного. Надеюсь, ты хорошо двигаешься."
-    citizen4 "Twist on the pole a little. I hope you move well."
+    citizen4 "Do some pole dancing. I hope you are good."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:123
 translate english citizen4_dialogue_pilon_loop4_d15b9b6b:
@@ -376,35 +376,35 @@ translate english citizen4_dialogue_pilon_loop4_d15b9b6b:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "[MonicaWhoringClothPylonDanceCorruptionRequired] corruption is required"
+    help "[monicaWhoringClothPylonDanceCorruptionRequired] corruption required"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:132
 translate english citizen4_dialogue_pilon_loop4_d3108dd3:
 
     # m "Хорошо, только не долго."
-    m "Well, just not for long."
+    m "Fine, just for a little bit."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:135
 translate english citizen4_dialogue_pilon_loop4_d65a7faa:
 
     # citizen4 "Сойдет. У меня есть знакомая стриптизерша. Если хочешь, могу вас познакомить."
     # "Уж она то научит тебя всему."
-    citizen4 "Will do. I have a familiar stripper. If you want, I can introduce you."
-    "She'll teach you everything."
+    citizen4 "Good enough. I have an acquaintance stipdancer. I can introduce you if you want."
+    "She can teach you everything."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:140
 translate english citizen4_dialogue_pilon_loop4_2c5e1ce2:
 
     # mt "И что ты за козел?!"
-    mt "And what a goat?!"
+    mt "What an asshole?!"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:149
 translate english citizen4_dialogue_pilon_loop4_b60d294d:
 
     # citizen4 "Показывай сиськи, только не забудь все снять."
     # mt "Урод..."
-    citizen4 "Show tits, just don't forget to take off all."
-    mt "Freak..."
+    citizen4 "Show me your breasts, don’t forget to take everything off."
+    mt "Jerk..."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:153
 translate english citizen4_dialogue_pilon_loop4_49aafc4d:
@@ -416,26 +416,26 @@ translate english citizen4_dialogue_pilon_loop4_49aafc4d:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] corruption is required"
+    help "[monicaWhoringClothNakedBoobsCorruptionRequired] corruption required"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:160
 translate english citizen4_dialogue_pilon_loop4_7dec49ad:
 
     # m "Так и быть, только руками не трогать."
-    m "So be it, just don't touch by your hands."
+    m "Very well, but no touching."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:163
 translate english citizen4_dialogue_pilon_loop4_613f88cf:
 
     # citizen4 "Должен признать, твои сиськи хороши. Но для полной картины, их нужно потрогать."
-    citizen4 "Gotta admit your boobs are nice. But for the full picture, they need to be touched."
+    citizen4 "I admit your breasts are great. But it would be better if I could touch them."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:165
 translate english citizen4_dialogue_pilon_loop4_1_e8eb968b:
 
     # m "Даже не думай! С тебя хватит!"
     # citizen4 "Погоди минутку. Потряси ка своими сочными сиськами!"
-    m "Don't even think! Enough for you!"
+    m "Hell no! That’s more than enough for you!"
     citizen4 "Wait a minute. Shake your juicy tits!"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:172
@@ -446,7 +446,7 @@ translate english citizen4_dialogue_pilon_loop4_1_408e0125:
     # help "Требуется [monicaWhoringClothNakedBoobsShakeCorruptionRequired] corruption"
     mt "It's enough that he's staring at me like that."
     "He's gotten to see plenty enough!"
-    help "[MonicaWhoringClothNakedBoobsShakeCorruptionRequired] corruption required"
+    help "[monicaWhoringClothNakedBoobsShakeCorruptionRequired] corruption required"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:176
 translate english citizen4_dialogue_pilon_loop4_1_745b11c5:
@@ -459,7 +459,7 @@ translate english citizen4_dialogue_pilon_loop4_1_4258b7e6:
 
     # citizen4 "О да! Теперь мне еще больше хочется их потрогать!"
     # m "Даже не думай!"
-    citizen4 "Oh yeah! Now I want to touch them even more!"
+    citizen4 "Oh yea! I want to touch them even more now!"
     m "Don't think!"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:186
@@ -468,7 +468,7 @@ translate english citizen4_dialogue_pilon_loop4_1_e63fe1be:
     # m "Не собираюсь, и так достаточно."
     # citizen4 "Как хочешь. Похоже, мне придется найти другую шлюху."
     m "I'm not going to do that, it's enough!"
-    citizen4 "As you want. Looks like I'll have to find another whore."
+    citizen4 "As you wish. Looks like I'll have to find another whore."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:204
 translate english citizen4_dialogue_pilon_loop4_1_b29e8d1c:

@@ -326,7 +326,7 @@ translate german citizen5_dialogue_pilon_loop5_ea17d522_1:
 translate german citizen5_dialogue_pilon_loop5_8755393e:
 
     # citizen5 "Я желаю ведеть тебя танцующей."
-    citizen5 "Я желаю ведеть тебя танцующей."
+    citizen5 "Ich wünschte, ich könnte dich an der Stange führen."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:125
 translate german citizen5_dialogue_pilon_loop5_d15b9b6b:
@@ -338,35 +338,35 @@ translate german citizen5_dialogue_pilon_loop5_d15b9b6b:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    help "[MonicaWhoringClothPylonDanceCorruptionRequired]Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:134
 translate german citizen5_dialogue_pilon_loop5_c6b5282d:
 
     # m "Хорошо, только не долго."
     # mt "Только потому, что ты заплатишь."
-    m "Хорошо, только не долго."
-    mt "Только потому, что ты заплатишь."
+    m "Gut, aber nicht lange."
+    mt "Aber nur, weil du zahlst."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:138
 translate german citizen5_dialogue_pilon_loop5_b8c0853a:
 
     # citizen5 "Ооо! Какие красивые изгибания!"
-    citizen5 "Ооо! Какие красивые изгибания!"
+    citizen5 "Wow! Welch tolle Drehung!"
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:142
 translate german citizen5_dialogue_pilon_loop5_c1d78c46:
 
     # mt "Как же он странно разговаривает..."
-    mt "Как же он странно разговаривает..."
+    mt "Er redet so seltsam..."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:151
 translate german citizen5_dialogue_pilon_loop5_1dea5ff3:
 
     # citizen5 "Оголи свои манящие груди."
     # mt "Ему бы книги писать..."
-    citizen5 "Оголи свои манящие груди."
-    mt "Ему бы книги писать..."
+    citizen5 "Mach deine wunderbare Brust frei."
+    mt "Er könnte Autor sein..."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:155
 translate german citizen5_dialogue_pilon_loop5_49aafc4d:
@@ -378,17 +378,17 @@ translate german citizen5_dialogue_pilon_loop5_49aafc4d:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:162
 translate german citizen5_dialogue_pilon_loop5_7dec49ad:
 
     # m "Так и быть, только руками не трогать."
-    m "Так и быть, только руками не трогать."
+    m "Gut, aber anfassen ist nicht."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:165
 translate german citizen5_dialogue_pilon_loop5_ffa01e0c:
 
     # citizen5 "Я только что лицезрел гору Фудзи, точнее две!"
-    citizen5 "Я только что лицезрел гору Фудзи, точнее две!"
+    citizen5 "Gerade habe ich den Berg Fuji gesehen, oder besser, zweimal!"
 

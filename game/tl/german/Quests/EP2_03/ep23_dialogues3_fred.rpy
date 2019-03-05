@@ -784,7 +784,7 @@ translate german ep23_dialogues3_2_a9603673:
 translate german ep23_dialogues3_5_428cd15d:
 
     # betty "В другой раз, Фред!"
-    betty "В другой раз, Фред!"
+    betty "Ein ander Mal, Fred!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:451
 translate german ep23_dialogues3_5_9a3cb1f8:
@@ -796,7 +796,7 @@ translate german ep23_dialogues3_5_9a3cb1f8:
 translate german ep23_dialogues3_5_9ed23b39:
 
     # betty "Пойдем..."
-    betty "Пойдем..."
+    betty "Gehen wir..."
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:531
 translate german ep23_dialogues3_5_a712efd1:
@@ -900,11 +900,11 @@ translate german strings:
 
     # Quests/EP2_03/ep23_dialogues3_fred.rpy:421
     old "Посмотреть вниз..."
-    new ""
+    new "Schau runter..."
 
     # Quests/EP2_03/ep23_dialogues3_fred.rpy:421
     old "В другой раз, Фред!"
-    new ""
+    new "Ein ander Mal, Fred!"
 
     # Quests/EP2_03/ep23_dialogues3_fred.rpy:523
     old "Куда это ты собрался?!"
@@ -912,9 +912,9 @@ translate german strings:
 
     # Quests/EP2_03/ep23_dialogues3_fred.rpy:523
     old "Пойдем..."
-    new ""
+    new "Gehen wir..."
 
     # Quests/EP2_03/ep23_dialogues3_fred.rpy:628
     old "Минуту спустя..."
-    new ""
+    new "Eine Minute später..."
 

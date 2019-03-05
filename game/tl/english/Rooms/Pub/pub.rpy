@@ -12,21 +12,21 @@ translate english strings:
 translate english pub_environment_9a986e38:
 
     # mt "Он похож на бармена в этой дыре..."
-    mt "He looks like a bartender in this hole..."
+    mt "He looks like a bartender in this shithole..."
 
 # game/Rooms/Pub/pub.rpy:85
 translate english pub_environment_4d8ab59f:
 
     # mt "Это Джо. Он дал мне работу посудомойщицей."
     # mt "Это ужас, конечно, но, по крайней мере, у меня есть еда..."
-    mt "This is Joe. He gave me a job as a dishwasher."
-    mt "It's terrible, of course, but at least I have food..."
+    mt "This is Joe. He allowed me to work as a dishwasher."
+    mt "It's terrible. Well, at least I have a food..."
 
 # game/Rooms/Pub/pub.rpy:90
 translate english pub_environment_d769f341:
 
     # mt "Похоже это официантка в этой дыре или что-то вроде того..."
-    mt "Looks like a waitress in this hole or something..."
+    mt "Looks like this is a waitress of this shithole."
 
 # game/Rooms/Pub/pub.rpy:92
 translate english pub_environment_443f743b:
@@ -34,17 +34,17 @@ translate english pub_environment_443f743b:
     # mt "Это Эшли. Жена Джо."
     # mt "Мне кажется что она немного странная."
     # mt "Хотя что может быть не странного в этой дыре?!"
-    mt "This is Ashley. Joe's wife."
-    mt "It seems to me that she is a bit strange."
-    mt "Although it may not be strange in this hole?"
+    mt "This is Ahley. Joe's wife."
+    mt "She seems a bit weird to me."
+    mt "At the same time, what is NOT weird is this hole?!"
 
 # game/Rooms/Pub/pub.rpy:97
 translate english pub_environment_10d1f503:
 
     # mt "Какое жуткое место!"
     # "Я даже представить себе не могла что могу оказаться в подобном заведении!"
-    mt "What a terrible place!"
-    "I even couldn't imagine that I could be in a similar place!"
+    mt "What an awful place!"
+    "I never would have imagined myself in the place like that!"
 
 # game/Rooms/Pub/pub.rpy:102
 translate english pub_environment_bcea8e17:
@@ -69,22 +69,22 @@ translate english pub_environment_7bbd42f6:
 
     # mt "Эти девушки совсем не уважают себя!"
     # "Как можно делать подобное у всех на виду?!"
-    mt "These girls don't respect themselves at all!"
-    "How can they do this in public view?"
+    mt "This girls do not respect themselves at all!"
+    "How can they do it in front of eveyone?!"
 
 # game/Rooms/Pub/pub.rpy:120
 translate english pub_environment_d24f74ff:
 
     # mt "Я не собираюсь подходить туда!"
     # "Мне не на что там смотреть!!!"
-    mt "I'm not going to go there!"
-    "I have nothing to watch there!!!"
+    mt "I'm not going over there!"
+    "There is nothing for me there!!!"
 
 # game/Rooms/Pub/pub.rpy:125
 translate english pub_environment_df4c8065:
 
     # mt "Там готовят еду и моют посуду..."
     # mt "Какое жуткое место!"
-    mt "They cook and wash dishes there..."
-    mt "What a terrible place!"
+    mt "They are preparing food and wash dishes in there..."
+    mt "What an awful place!"
 

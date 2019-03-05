@@ -166,8 +166,8 @@ translate german ep23_dialogues1_2a_6c1eb3ab:
     "Wie ist dein Name?"
     mt "Mein Name ist Mo..."
     "Moment Mal! Besser, ich erwähne nicht meinen richtigen Namen..."
-    m "Меня зовут... [monica_pub_name]..."
-    joe "[monica_pub_name], слушай..."
+    m "Mein Name ist... [monica_pub_name]..."
+    joe "[monica_pub_name], hör zu.."
     "Hör nicht auf Ashley."
     "Du bist nur so angezogen wie eine Prostituierte, so dass sie dachte, du wärst eine."
     m "Ich weiß schon Bescheid..."
@@ -178,7 +178,7 @@ translate german ep23_dialogues1_2a_6c1eb3ab:
     m "!!!"
     m "Ich... Ich mag diese Kleider eigentlich nicht so gerne..."
     "Und jetzt genug darüber geredet!"
-    joe "Да, [monica_pub_name], конечно."
+    joe "Ja, [monica_pub_name], natürlich."
     "Hör zu, du siehst klasse aus!"
     "Du könntest hier arbeiten."
     "Wir haben hier flexible Arbeitszeiten, Aufstiegsmöglichkeiten und..."
@@ -232,7 +232,7 @@ translate german ep23_dialogues1_2b_8fae2409:
     "(schnief)"
     "Aber was soll ich machen, ich muss auch etwas essen!"
     "Weiter, niemand hier wird mich erkennen."
-    "Да и там я назвалась другим именем... [monica_pub_name]..."
+    "Hier habe ich wieder einen anderen Namen... [monica_pub_name]..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:171
 translate german ep23_dialogues1_3_e3c620b2:
@@ -247,7 +247,7 @@ translate german ep23_dialogues1_3_cff142ad:
 
     # joe "О! [monica_pub_name]! Привет!"
     # "Ты надумала работать у нас?"
-    joe "О! [monica_pub_name]! Привет!"
+    joe "Wow! [monica_pub_name]! Hallo!"
     "Hast du dich dazu entschieden, hier zu arbeiten?"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:182
@@ -400,7 +400,7 @@ translate german ep23_dialogues1_3_4c22b644:
     mt "Ich glaube nicht, dass du besser kochst als es Julia für mich getan hat!"
     "!!!"
     m "Ja, Ashley. Vielen dank für dein Vertrauen!"
-    joe "Добро пожаловать, [monica_pub_name]!"
+    joe "Willkommen, [monica_pub_name]!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:278
 translate german ep23_dialogues1_4_ffa4f0a6:
@@ -433,7 +433,7 @@ translate german ep23_dialogues1_4_877a7509:
     # joe "Да, [monica_pub_name]!"
     # "Я хочу взять чистую пивную кружку!"
     m "Joe! Wolltest du etwas hier nehmen?"
-    joe "Да, [monica_pub_name]!"
+    joe "Ja, [monica_pub_name]!"
     "Ich brauche einen sauberen Bierkrug!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:307
@@ -678,13 +678,13 @@ translate german ep23_dialogues1_2a_f1318dd8:
     # m "Меня зовут..."
     m "Mein Name ist Mo..."
     mt "Moment Mal! Besser, ich erwähne nicht meinen richtigen Namen..."
-    m "Меня зовут..."
+    m "Mein Name ist..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:132
 translate german ep23_dialogues1_2a_a200c727:
 
     # m "Меня зовут... [monica_pub_name]..."
-    m "Меня зовут... [monica_pub_name]..."
+    m "Mein Name ist... [monica_pub_name]..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:134
 translate german ep23_dialogues1_2a_6cf449aa:
@@ -692,7 +692,7 @@ translate german ep23_dialogues1_2a_6cf449aa:
     # joe "[monica_pub_name], слушай..."
     # "Не обращай внимания на Эшли."
     # "Просто ты действительно так одета, что она подумала..."
-    joe "[monica_pub_name], слушай..."
+    joe "[monica_pub_name], hör zu.."
     "Hör nicht auf Ashley."
     "Du bist nur so angezogen wie eine Prostituierte, so dass sie dachte, du wärst eine."
 
@@ -735,7 +735,7 @@ translate german ep23_dialogues1_2a_abcb9b3e:
     # "Слушай, ты неплохо выглядишь!"
     # "Ты бы могла работать у нас."
     # "Здесь у нас гибкий график, перспективы карьерного роста и..."
-    joe "Да, [monica_pub_name], конечно."
+    joe "Ja, [monica_pub_name], natürlich."
     "Hör zu, du siehst klasse aus!"
     "Du könntest hier arbeiten."
     "Wir haben hier flexible Arbeitszeiten, Aufstiegsmöglichkeiten und..."
@@ -1012,7 +1012,7 @@ translate german ep23_dialogues1_3_1d36652f:
 translate german ep23_dialogues1_3_b804abc4:
 
     # joe "Добро пожаловать, [monica_pub_name]!"
-    joe "Добро пожаловать, [monica_pub_name]!"
+    joe "Willkommen, [monica_pub_name]!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:352
 translate german ep23_dialogues1_4_e2ed75b3:
@@ -1072,7 +1072,7 @@ translate german strings:
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:370
     old "Не обращать внимание... (corruption)"
-    new "Beachte das nicht... (corruption)"
+    new "Pass nicht auf ... (Korruption)"
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:370
     old "Не обращать внимание... (low corruption, required [monicaWashHoldJoeCorruption]) (disabled)"
@@ -1230,13 +1230,13 @@ translate german ep23_dialogues1_2b_cb764536:
     # mt "Черт! Лучше не называть свое настоящее имя здесь..."
     # m "Меня зовут..."
     mt "Moment Mal! Besser, ich erwähne nicht meinen richtigen Namen..."
-    m "Меня зовут..."
+    m "Mein Name ist..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:161
 translate german ep23_dialogues1_2b_e034d52a:
 
     # m "Меня зовут... [monica_pub_name]..."
-    m "Меня зовут... [monica_pub_name]..."
+    m "Mein Name ist... [monica_pub_name]..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:164
 translate german ep23_dialogues1_2b_bdfd0f27:
@@ -1244,7 +1244,7 @@ translate german ep23_dialogues1_2b_bdfd0f27:
     # joe "[monica_pub_name], слушай..."
     # "Не обращай внимания на Эшли."
     # "Просто ты действительно так одета, что она подумала..."
-    joe "[monica_pub_name], слушай..."
+    joe "[monica_pub_name], hör zu.."
     "Hör nicht auf Ashley."
     "Du bist nur so angezogen wie eine Prostituierte, so dass sie dachte, du wärst eine."
 
@@ -1287,7 +1287,7 @@ translate german ep23_dialogues1_2b_04ab0897:
     # "Слушай, ты неплохо выглядишь!"
     # "Ты бы могла работать у нас."
     # "Здесь у нас гибкий график, перспективы карьерного роста и..."
-    joe "Да, [monica_pub_name], конечно."
+    joe "Ja, [monica_pub_name], natürlich."
     "Hör zu, du siehst klasse aus!"
     "Du könntest hier arbeiten."
     "Wir haben hier flexible Arbeitszeiten, Aufstiegsmöglichkeiten und..."
@@ -1390,21 +1390,21 @@ translate german ep23_dialogues1_2c_8383f141:
     "(schnief)"
     "Aber was soll ich machen, ich muss auch etwas essen!"
     "Weiter, niemand hier wird mich erkennen."
-    "Да и там я назвалась другим именем... [monica_pub_name]..."
+    "Hier habe ich wieder einen anderen Namen... [monica_pub_name]..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:260
 translate german ep23_dialogues1_3_f2e68960:
 
     # joe "О! [monica_pub_name]! Привет!"
     # "Ты надумала работать у нас?"
-    joe "О! [monica_pub_name]! Привет!"
+    joe "Wow! [monica_pub_name]! Hallo!"
     "Hast du dich dazu entschieden, hier zu arbeiten?"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:397
 translate german ep23_dialogues1_3_ee2324ec:
 
     # joe "Добро пожаловать, [monica_pub_name]!"
-    joe "Добро пожаловать, [monica_pub_name]!"
+    joe "Willkommen, [monica_pub_name]!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:437
 translate german ep23_dialogues1_4a2_f74d306a:
@@ -1443,7 +1443,7 @@ translate german ep23_dialogues1_4b_9f3552aa:
     # joe "Да, [monica_pub_name]!"
     # "Я хочу взять чистую пивную кружку!"
     m "Joe! Wolltest du etwas hier nehmen?"
-    joe "Да, [monica_pub_name]!"
+    joe "Ja, [monica_pub_name]!"
     "Ich brauche einen sauberen Bierkrug!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:491
@@ -1482,8 +1482,8 @@ translate german strings:
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:154
     old "Мэрилин"
-    new ""
+    new "Marilyn"
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:159
     old "Меня зовут..."
-    new ""
+    new "Mein Name ist..."

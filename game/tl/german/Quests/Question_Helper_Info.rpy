@@ -225,29 +225,29 @@ translate german strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Мелани обещала узнать всю правду про Дика. За это я согласилась поучаствовать с ней в какой-то фотосессии. Надеюсь я не пожалею об этом..."
-    new ""
+    new "Melanie hat versprochen, die ganze Wahrheit über Dick heraus zu finden. Dafür habe ich einem Fotoshoot zugestimmt. Ich hoffe, ich werde das nicht bereuen."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Это был жуткий кошмар, но я надеюсь оно того стоило! Ну держись, Виктория! Я нашла кое-кого кто тебе не по зубам!"
-    new ""
+    new "Das war ein furchtbarer Alptraum, aber ich hoffe, das war es wert! Warte nur Victoria, jetzt habe ich jemanden gefunden, der ist sogar für dich zu tough."
 
     # Quests/Question_Helper_Info.rpy:115
     old "У меня появился шанс вернуть прежнюю жизнь! ШАНС!!! Неужели Мелани сможет мне помочь? Но что она захочет попросить взамен?.."
-    new ""
+    new "Ich habe die Möglichkeit, mein altes Leben zurück zu erhalten! DIE MÖGLICHKEIT!!! Kann Melanie mir wirklich helfen? Aber was wird sie als Gegenleistung verlagen?"
 
     # Quests/Question_Helper_Info.rpy:115
     old "От Мелани нет новостей... Я даже боюсь представить что с ней..."
-    new ""
+    new "Es gibt keine Neuigkeiten von Melanie... Ich wage mir nicht vorzustellen, was mit ihr passiert sein könnte..."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Я жду новостей от Мелани..."
-    new ""
+    new "Ich warte auf Neuigkeiten von Melanie..."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Мелани решила унизить меня в обмен на свою помощь... Пойду-ли я на то что она предложила мне?"
-    new ""
+    new "Melanie hat beschlossen, mich als Gegenleistung zu erniedrigen... Werde ich es trotzdem tun?"
 
     # Quests/Question_Helper_Info.rpy:115
     old "Я нашла способ зарабатывать на еду, моя посуду в Баре. Я не в восторге, но ведь это временно?"
-    new ""
+    new "Ich habe einen weiteren Weg gefunden, um Geld zu verdienen. Nämlich als Tellerwäscherin in der Kneipe. Ich bin zwar nicht glücklich damit, aber es ist ja nur für eine kurze Zeit."
 

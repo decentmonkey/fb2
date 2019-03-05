@@ -459,7 +459,7 @@ translate english citizen8_dialogue_821577c9:
 translate english citizen8_dialogue_pilon_loop8_1_62de814a:
 
     # citizen8 "Потанцуй, пилон сзади."
-    citizen8 "Let's dance, the pole is behind you."
+    citizen8 "Dance, pole is behind."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:170
 translate english citizen8_dialogue_pilon_loop8_1_d15b9b6b:
@@ -471,35 +471,35 @@ translate english citizen8_dialogue_pilon_loop8_1_d15b9b6b:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "[MonicaWhoringClothPylonDanceCorruptionRequired] corruption is required"
+    help "[monicaWhoringClothPylonDanceCorruptionRequired] corruption required"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:179
 translate english citizen8_dialogue_pilon_loop8_1_c6b5282d:
 
     # m "Хорошо, только не долго."
     # mt "Только потому, что ты заплатишь."
-    m "Well, just not for long."
-    mt "Just because you pay."
+    m "Fine, just for a little bit."
+    mt "Only because you are paying."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:183
 translate english citizen8_dialogue_pilon_loop8_1_0119272a:
 
     # citizen8 "Нормально, но нужно еще тренироваться и тренироваться."
-    citizen8 "Not bad, but you still need to train much more."
+    citizen8 "Passable, you have a lot practice to do."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:187
 translate english citizen8_dialogue_pilon_loop8_1_5f0f80e2:
 
     # mt "Не думаю, что буду это делать часто..."
-    mt "I don't think that I will do this often..."
+    mt "I don’t think I'll be doing it often."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:196
 translate english citizen8_dialogue_pilon_loop8_1_f58825d6:
 
     # citizen8 "Покажи мне грудь, только теперь без одежды."
     # mt "Он и вправду говорит как бизнесмен, заключающий сделку..."
-    citizen8 "Show me your chest, only without clothes now."
-    mt "He really speaks like a businessman making a deal..."
+    citizen8 "Show me your tits, without your clothes now."
+    mt "He talks like a businessman, making a deal..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:200
 translate english citizen8_dialogue_pilon_loop8_1_49aafc4d:
@@ -511,23 +511,23 @@ translate english citizen8_dialogue_pilon_loop8_1_49aafc4d:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] corruption is required"
+    help "[monicaWhoringClothNakedBoobsCorruptionRequired] corruption required"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:207
 translate english citizen8_dialogue_pilon_loop8_1_7dec49ad:
 
     # m "Так и быть, только руками не трогать."
-    m "So be it, just don't touch by your hands."
+    m "Very well, but no touching."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:210
 translate english citizen8_dialogue_pilon_loop8_1_b09cad12:
 
     # citizen8 "Очень хорошо. Отличный старт."
-    citizen8 "Very good. Great start."
+    citizen8 "Very good. Excelent start."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:212
 translate english citizen8_dialogue_pilon_loop8_1_3b7a2ee8:
 
     # mt "Что значит старт?"
-    mt "What does start mean?"
+    mt "What do you mean start?"
 

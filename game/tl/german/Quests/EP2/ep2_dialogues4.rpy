@@ -3754,5 +3754,5 @@ translate german strings:
 
     # Quests/EP2/ep2_dialogues4.rpy:614
     old "Попросить помощь у Мелани."
-    new ""
+    new "Bitte Melanie um Hilfe."
 

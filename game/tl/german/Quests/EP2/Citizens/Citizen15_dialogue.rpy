@@ -324,15 +324,15 @@ translate german citizen15_dialogue_pilon_loop15_ea17d522_1:
 translate german citizen15_dialogue_after_showing_naked_boobs_b31a1cd2:
 
     # mt "ыыы"
-    mt "ыыы"
+    mt "..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:111
 translate german citizen15_dialogue_pilon_loop15_403d77fe:
 
     # citizen15 "Хотя... Ты красивая девочка. Хочу оценить их без одежды."
     # "Я недавно провернул одно дельце и у меня есть лишние 50$. Что скажешь?"
-    citizen15 "Хотя... Ты красивая девочка. Хочу оценить их без одежды."
-    "Я недавно провернул одно дельце и у меня есть лишние 50$. Что скажешь?"
+    citizen15 "Obwohl... Du bist eine Schönheit. Ich würde sie gerne ohne Kleider sehen."
+    "Ich habe kürzlich ein lukratives Geschäft abgewickelt und nun $ 50 übrig. Interesse?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:120
 translate german citizen15_dialogue_pilon_loop15_64dadb9e:
@@ -340,9 +340,9 @@ translate german citizen15_dialogue_pilon_loop15_64dadb9e:
     # m "Да за кого ты меня принимаешь?!"
     # m "Этого не будет никогда!"
     # citizen15 "Тогда мои 50$ достанутся более сговорчивой девочке."
-    m "Да за кого ты меня принимаешь?!"
-    m "Этого не будет никогда!"
-    citizen15 "Тогда мои 50$ достанутся более сговорчивой девочке."
+    m "Für wen oder was hältst du mich?"
+    m "Das wird niemals passieren!"
+    citizen15 "Dann wird meien $ 50 ein aufgeschlosseneres Mädchen verdienen."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:125
 translate german citizen15_dialogue_pilon_loop15_a3d35d25:
@@ -350,9 +350,9 @@ translate german citizen15_dialogue_pilon_loop15_a3d35d25:
     # mt "50$ были бы не лишними... Хорошо, что здесь никого нет."
     # m "50$ ?"
     # citizen15 "Все верно, девочка. Покажешь своих подружек и они твои."
-    mt "50$ были бы не лишними... Хорошо, что здесь никого нет."
+    mt "$ 50 sind jetzt nicht die Welt ... Gut, dass niemand sonst hier ist."
     m "50$ ?"
-    citizen15 "Все верно, девочка. Покажешь своих подружек и они твои."
+    citizen15 "Ganz genau, zeig mir deine zwei hübschen Freundinnen, und sie gehören dir."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:129
 translate german citizen15_dialogue_pilon_loop15_0a38e3ee:
@@ -360,8 +360,8 @@ translate german citizen15_dialogue_pilon_loop15_0a38e3ee:
     # m "Ладно, только не трогать!"
     # citizen15 "Об этом не волнуйся, детка. Я не хочу проблем с твоим сутенером."
     # mt "Да за кого он меня принимает?"
-    m "Ладно, только не трогать!"
-    citizen15 "Об этом не волнуйся, детка. Я не хочу проблем с твоим сутенером."
+    m "Okay, aber nicht anfassen!"
+    citizen15 "Keine Angst, Baby. Ich will keine Probleme mit deinem Zuhälter."
     mt "Wer denkt er, dass ich bin?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:133
@@ -369,22 +369,22 @@ translate german citizen15_dialogue_pilon_loop15_3d11b010:
 
     # m "Хорошо, давай деньги."
     # citizen15 "А ты не глупая девочка. Вот, держи."
-    m "Хорошо, давай деньги."
-    citizen15 "А ты не глупая девочка. Вот, держи."
+    m "Gut, gib mir das Geld."
+    citizen15 "Du bist kein dummes Mädchen. Hier, nimm."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:139
 translate german citizen15_dialogue_pilon_loop15_01a70d62:
 
     # m "Доволен?"
     # citizen15 "Более чем"
-    m "Доволен?"
-    citizen15 "Более чем"
+    m "Zufrieden?"
+    citizen15 "Mehr als das."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:172
 translate german citizen15_dialogue_pilon_loop15_2f6602af:
 
     # citizen15 "Покрутись немного на шесте, который сзади тебя."
-    citizen15 "Покрутись немного на шесте, который сзади тебя."
+    citizen15 "Dreh dich ein bisschen um die Stange hinter dir."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:175
 translate german citizen15_dialogue_pilon_loop15_d15b9b6b:
@@ -396,35 +396,35 @@ translate german citizen15_dialogue_pilon_loop15_d15b9b6b:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    help "[MonicaWhoringClothPylonDanceCorruptionRequired]Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:184
 translate german citizen15_dialogue_pilon_loop15_c6b5282d:
 
     # m "Хорошо, только не долго."
     # mt "Только потому, что ты заплатишь."
-    m "Хорошо, только не долго."
-    mt "Только потому, что ты заплатишь."
+    m "Gut, aber nicht lange."
+    mt "Aber nur, weil du zahlst."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:188
 translate german citizen15_dialogue_pilon_loop15_089027ff:
 
     # citizen15 "Мда, тебе далеко до совершенства..."
-    citizen15 "Мда, тебе далеко до совершенства..."
+    citizen15 "Hmm, Du bist bei Weitem nicht perfekt..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:192
 translate german citizen15_dialogue_pilon_loop15_41a237c5:
 
     # mt "Ну и урод..."
-    mt "Ну и урод..."
+    mt "Pah, Freak..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:201
 translate german citizen15_dialogue_pilon_loop15_540df363:
 
     # citizen15 "А теперь покажи своих малышек, похоже им там тесно."
     # mt "Как он может так говорить о моей прекрасной груди?! Извращенец..."
-    citizen15 "А теперь покажи своих малышек, похоже им там тесно."
-    mt "Как он может так говорить о моей прекрасной груди?! Извращенец..."
+    citizen15 "Jetzt zeig deine zwei Babies, die wollen doch raus."
+    mt "Wie kann er so über meine wunderschönen Brüste reden?! Perverser..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:205
 translate german citizen15_dialogue_pilon_loop15_49aafc4d:
@@ -436,31 +436,31 @@ translate german citizen15_dialogue_pilon_loop15_49aafc4d:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:212
 translate german citizen15_dialogue_pilon_loop15_9e8035e0:
 
     # m "Так и быть, только руками не трогать."
     # mt "Только попробуй к ним прикаснуться и я сломаю тебе пальцы."
-    m "Так и быть, только руками не трогать."
-    mt "Только попробуй к ним прикаснуться и я сломаю тебе пальцы."
+    m "Gut, aber anfassen ist nicht."
+    mt "Versuche sie anzufassen, und ich breche deine Finger."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:216
 translate german citizen15_dialogue_pilon_loop15_d25c3e2d:
 
     # citizen15 "А ничего такие сиськи, но я видел и лучше."
-    citizen15 "А ничего такие сиськи, но я видел и лучше."
+    citizen15 "Die Brüste sind nicht schlecht, aber ich kenne bessere."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:218
 translate german citizen15_dialogue_pilon_loop15_93f3cbe1:
 
     # mt "Очень сомневаюсь..."
-    mt "Очень сомневаюсь..."
+    mt "Das bezweifle ich sehr..."
 
 translate german strings:
 
     # Quests/EP2/Citizens/Citizen15_dialogue.rpy:113
     old "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired]) (disabled)"
-    new ""
+    new "Stimme zu ... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired]) (disabled)"
 

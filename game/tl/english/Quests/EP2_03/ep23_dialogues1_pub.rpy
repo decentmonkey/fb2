@@ -381,7 +381,7 @@ translate english ep23_dialogues1_3_4c22b644:
     "I will not allow you to wash dishes for our customers!"
     "Besides that, do you even know how to wash dishes?"
     "By the look of you it doesn’t seem so!"
-    mt "AAAAAAAA!!!"
+    mt "АААААААА!!!"
     "I AM CLEANER THAN ANY OF YOU!!!"
     "PATHETIC NOBODIES!!!"
     mt "..."
@@ -956,7 +956,7 @@ translate english ep23_dialogues1_3_e27228cb:
     # mt "АААААААА!!!"
     # "ДА Я ЧИЩЕ ЧЕМ ВЫ ВСЕ ВМЕСТЕ ВЗЯТЫЕ ЗДЕСЬ!!!"
     # "ЖАЛКИЕ НИЧТОЖЕСТВА!!!"
-    mt "AAAAAAAA!!!"
+    mt "АААААААА!!!"
     "I AM CLEANER THAN ANY OF YOU!!!"
     "PATHETIC NOBODIES!!!"
 

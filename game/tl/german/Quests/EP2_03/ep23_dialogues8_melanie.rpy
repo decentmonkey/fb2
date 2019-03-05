@@ -1358,11 +1358,11 @@ translate german strings:
 
     # Quests/EP2_03/ep23_dialogues8_melanie.rpy:872
     old "Попросить Мелани помочь без кастинга. (плохие отношения с Мелани) (disabled)"
-    new ""
+    new "Bitte Melanie um Hilfe ohne das Casting. (bad relationship with Melanie) (disabled)"
 
     # Quests/EP2_03/ep23_dialogues8_melanie.rpy:872
     old "Попросить Мелани помочь без кастинга. (Моника недостаточно скромная) (disabled)"
-    new ""
+    new "Bitte Melanie um Hilfe ohne das Casting. (Monica is not enough decent) (disabled)"
 # TODO: Translation updated at 2019-03-02 23:02
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:151
@@ -1373,5 +1373,5 @@ translate german ep23_dialogues8_2_51afa7e3:
     # "И, когда Вы лишилсиь его, то потерял интерес к Вам."
     melanie "Dick hat sie wirklich geliebt, Frau Buckfett."
     "Wegen ihrem sozialen Status."
-    "И, когда Вы лишилсиь его, то потерял интерес к Вам."
+    "Und als du es verloren hast, hat er sein Interesse an dir verloren."
 

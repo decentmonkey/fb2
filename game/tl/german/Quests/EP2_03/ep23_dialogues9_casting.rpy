@@ -1294,7 +1294,7 @@ translate german strings:
 
     # Quests/EP2_03/ep23_dialogues9_casting.rpy:719
     old "Да!"
-    new ""
+    new "Да!"
 
     # Quests/EP2_03/ep23_dialogues9_casting.rpy:719
     old "Хочу поскорее закончить это..."
@@ -1576,33 +1576,33 @@ translate german scene_test1_8b8f4d92:
 translate german scene_test1_0954c8ad:
 
     # secretary "Ой! Кто это???"
-    secretary "Ой! Кто это???"
+    secretary "Oh! Wer ist das???"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1254
 translate german scene_test1_b08daf3d:
 
     # melanie "Это новая модель..."
     # melanie "Проходит кастинг..."
-    melanie "Это новая модель..."
-    melanie "Проходит кастинг..."
+    melanie "Sie ist ein neues Model..."
+    melanie "Sie macht das Casting mit..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1258
 translate german scene_test1_e6931bee:
 
     # melanie "Хочет сниматься в нашем журнале..."
-    melanie "Хочет сниматься в нашем журнале..."
+    melanie "Sie will in unserem Magazin arbeiten..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1262
 translate german scene_test1_35b2f49c:
 
     # secretary "(бедная девушка!)"
-    secretary "(бедная девушка!)"
+    secretary "(Ein armes Ding!)"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1266
 translate german scene_test1_8efdaae3:
 
     # melanie "Пойдем, не будем их отвлекать от работы!"
-    melanie "Пойдем, не будем их отвлекать от работы!"
+    melanie "Komm schon, halten wir sie nicht von der Arbeit ab!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1275
 translate german scene_test1_a0e8f874:
@@ -1693,7 +1693,7 @@ translate german scene_test1_27ecbef3:
     "..."
     "Ich hoffe, niemand wird erfahren, was hier passiert ist."
     "Niemand wird dieser Straßendirne glauben."
-    "А Мелани... Не в ее интересах распространяться об этом."
+    "Und Melanie... Es ist nicht in ihrem Interesse, darüber zu reden."
     "In Anbetracht der Tatsache, dass sie daran teilgenommen hat..."
     "Was ist mit mir passiert? Es war wie ein Blitz..."
     "Verdammt! Ich vergesse das am Besten schnell wieder!"
@@ -1829,8 +1829,8 @@ translate german ep23_dialogue9_5d_0fde7bf6:
 
     # mt "От Мелани нет новостей... Я даже боюсь представить что с ней..."
     # help "Узнайте что случилось с Мелани в следующих апдейтах игры!"
-    mt "От Мелани нет новостей... Я даже боюсь представить что с ней..."
-    help "Узнайте что случилось с Мелани в следующих апдейтах игры!"
+    mt "Es gibt keine Neuigkeiten von Melanie... Ich wage mir nicht vorzustellen, was mit ihr passiert sein könnte..."
+    help "Finde heraus, was mit Melanie passiert ist in den nächsten Updates!"
 
 # TODO: Translation updated at 2019-03-04 21:47
 
@@ -1899,4 +1899,256 @@ translate german scene_test2_b16cd208:
 
     # "АААаАААААаа!!!"
     "AAAAAAAAAaa !!!"
+
+# TODO: Translation updated at 2019-03-05 23:04
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1205
+translate german scene_test2_b6af9c44:
+
+    # model1 "Стоп, стоп!"
+    # "Что это за нежности Вы тут развели?!"
+    # "Где страсть?!"
+    # "Мелани! Что ты стоишь?!"
+    # "Быстро сядь ей на лицо и трахни его своей киской!"
+    model1 "Stopp! Stopp!"
+    "Was soll das werden, dieses starre Getue?"
+    "Wo ist die Leidenschaft?"
+    "Melanie! Was stehst du da so rum?!"
+    "Setz dich schnell auf ihr Gesicht und fick es mit deiner Pussy!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1212
+translate german scene_test2_df8511da:
+
+    # melanie "???"
+    melanie "???"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1214
+translate german scene_test2_8cbeadb9:
+
+    # model1 "Ты что, не поняла, Мелани?! Быстро сядь на эту сучку!"
+    model1 "Hast du nicht gehört, Melanie? Setz dich sofort auf diese Bitch!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1222
+translate german scene_test2_df8511da_1:
+
+    # melanie "???"
+    melanie "???"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1226
+translate german scene_test2_43017bac:
+
+    # melanie "..."
+    melanie "..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1229
+translate german scene_test2_cb57f407:
+
+    # m "Эй, ты что собираешься делать?!"
+    # "Мелани?!..."
+    m "Hey, was soll das werden?!"
+    "Melanie?!?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1234
+translate german scene_test2_5fe4dd99:
+
+    # melanie "Простите, Миссис Бакфетт, это приказ Босса."
+    melanie "Sorry, Frau Buckfett, Anordnung des Chefs!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1304
+translate german scene_test2_bdb9722b:
+
+    # model1 "Вот значит как выглядит киска на миллиард долларов?"
+    model1 "So sieht also eine Million-Dollar-Pussy aus?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1306
+translate german scene_test2_8aef411a:
+
+    # model1 "Черт, я не могу удержаться... Эта сучка..."
+    # "Она правда красивая..."
+    # "Да пошло оно все!"
+    model1 "Verdammt, ich kann nicht anders... diese Bitch..."
+    "Sie ist wirklcih wunderschön..."
+    "Scheiß drauf!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1382
+translate german scene_test2_917edff2:
+
+    # melanie "ААААААааааааххххх!!!!"
+    melanie "AAAAAAaaaaaahhhhh !!!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1386
+translate german scene_test2_917edff2_1:
+
+    # melanie "ААААААааааааххххх!!!!"
+    melanie "AAAAAAaaaaaahhhhh !!!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1396
+translate german scene_test2_07f6912f:
+
+    # model1 "Мелани, ты все?"
+    model1 "Melanie, bist du fertig?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1399
+translate german scene_test2_d2f54de4:
+
+    # "Теперь моя очередь!"
+    "Jetzt bin ich dran!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1405
+translate german scene_test2_e0ec15ed:
+
+    # model1 "Мелани, ты пока можешь полизать ее киску, а потом мою!"
+    model1 "Melanie, du kannst ihre Pussy lecken, und danach meine!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1412
+translate german scene_test2_8b8f4d92:
+
+    # melanie "Сегодня это твоя работа, девочка..."
+    melanie "Das ist heute dein Job, Mädel..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1482
+translate german scene_test2_0954c8ad:
+
+    # secretary "Ой! Кто это???"
+    secretary "Oh! Wer ist das???"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1485
+translate german scene_test2_b08daf3d:
+
+    # melanie "Это новая модель..."
+    # melanie "Проходит кастинг..."
+    melanie "Sie ist ein neues Model..."
+    melanie "Sie macht das Casting mit..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1489
+translate german scene_test2_e6931bee:
+
+    # melanie "Хочет сниматься в нашем журнале..."
+    melanie "Sie will in unserem Magazin arbeiten..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1493
+translate german scene_test2_35b2f49c:
+
+    # secretary "(бедная девушка!)"
+    secretary "(Ein armes Ding!)"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1497
+translate german scene_test2_8efdaae3:
+
+    # melanie "Пойдем, не будем их отвлекать от работы!"
+    melanie "Komm schon, halten wir sie nicht von der Arbeit ab!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1506
+translate german scene_test2_a0e8f874:
+
+    # model1 "ААаааааааххххх!!!"
+    model1 "AAAaaaaaahhhhh !!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1510
+translate german scene_test2_f01d586a:
+
+    # model1 "А теперь лижи мой зад!"
+    model1 "Und jetz leck meinen Arsch!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1515
+translate german scene_test2_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1518
+translate german scene_test2_012f88ff:
+
+    # mt "..."
+    # m "А где Мелани?"
+    mt "..."
+    m "Wo ist Melanie?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1530
+translate german scene_test2_720f8a4a:
+
+    # model1 "Зачем тебе Мелани, сучка?"
+    # "Здесь есть моя попка!"
+    # "Ее надо лизать!"
+    model1 "Warum willst du Melanie, Bitch?"
+    "Hier ist mein Arsch!"
+    "Er will geleckt werden!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1537
+translate german scene_test2_0a5616b8_1:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1540
+translate german scene_test2_736b67d2:
+
+    # m "Ах ты сучка! Я убъю тебя!"
+    # "Ты ответишь за все что здесь было!!!"
+    # "ТВАРЬ!!!"
+    m "Oh! Du Schlampe! Ich töte dich!"
+    "Du wirst für alles büßen, was hier geschehen ist!!!"
+    "ТВАРЬ!!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1552
+translate german scene_test2_f382dd08:
+
+    # mt "Я достану эту тварь, клянусь!"
+    # "На что я только согласилась?!?!"
+    # "Меня, фактически, изнасиловала эта мартышка в своем-же собственном кабинете!"
+    mt "Ich kriege diese Schlampe, das schwöre ich!"
+    "Wo habe ich nur zugestimmt?!?!"
+    "Im Grunde wurde ich von diesem Affen in meinem eigenen Büro vergewaltigt!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1556
+translate german scene_test2_93a68e84:
+
+    # "А Мелани смотрела на это!"
+    # "О БОЖЕ!!!"
+    "Und Melanie hat zugeschaut!"
+    "Oh mein Gott!!!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1560
+translate german scene_test2_27ecbef3:
+
+    # "Да, ставки очень высоки и мне приходится идти на подобные жертвы..."
+    # "Но, Моника, не забывай, тебе потом еще здесь жить и работать."
+    # "Не надо забывать о своей репутации!"
+    # "..."
+    # "Но я надеюсь что никто не узнает про то что здесь было."
+    # "Этой пигалице все-равно никто не поверит."
+    # "А Мелани... Не в ее интересах распространяться об этом."
+    # "Учитывая что она принимала участие..."
+    # "И что такое со мной произошло? Какая-то вспышка..."
+    # "Черт! Лучше я забуду обо всем этом побыстрее!"
+    "Ja, der Einsatz ist verdammt hoch und ich muss große Opfer bringen..."
+    "Aber, Monica, vergiss nicht, du musst weiter hier leben und arbeiten."
+    "Denk an deinen Ruf!"
+    "..."
+    "Ich hoffe, niemand wird erfahren, was hier passiert ist."
+    "Niemand wird dieser Straßendirne glauben."
+    "Und Melanie... Es ist nicht in ihrem Interesse, darüber zu reden."
+    "In Anbetracht der Tatsache, dass sie daran teilgenommen hat..."
+    "Was ist mit mir passiert? Es war wie ein Blitz..."
+    "Verdammt! Ich vergesse das am Besten schnell wieder!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1572
+translate german scene_test2_0dae1824:
+
+    # "..."
+    # "Мне надо одеться."
+    # "..."
+    "..."
+    "Мне надо одеться."
+    "..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1581
+translate german scene_test2_c031d496:
+
+    # "Где там эта Мелани?!?!"
+    # "Пусть только попробует еще что-то захотеть!"
+    # "Я уже достаточно здесь натерпелась!!!"
+    "Wo ist Melanie?!?!"
+    "Ich werde nicht zulassen, dass sie macht was sie will!"
+    "Genug ist genug!"
 

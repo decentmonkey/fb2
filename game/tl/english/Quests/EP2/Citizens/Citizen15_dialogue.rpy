@@ -379,15 +379,15 @@ translate english citizen15_dialogue_pilon_loop15_ea17d522_1:
 translate english citizen15_dialogue_after_showing_naked_boobs_b31a1cd2:
 
     # mt "ыыы"
-    mt "..."
+    mt "...."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:111
 translate english citizen15_dialogue_pilon_loop15_403d77fe:
 
     # citizen15 "Хотя... Ты красивая девочка. Хочу оценить их без одежды."
     # "Я недавно провернул одно дельце и у меня есть лишние 50$. Что скажешь?"
-    citizen15 "Although... You're a beautiful girl. I want to evaluate them without clothes."
-    "I recently turned a little business and I have an extra $ 50. What do you say?"
+    citizen15 "Hmm... You are pretty thing. I'd like to inspect you without clothes."
+    "I pulled a great job a little while ago and have spare 50$. What do you say?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:120
 translate english citizen15_dialogue_pilon_loop15_64dadb9e:
@@ -395,9 +395,9 @@ translate english citizen15_dialogue_pilon_loop15_64dadb9e:
     # m "Да за кого ты меня принимаешь?!"
     # m "Этого не будет никогда!"
     # citizen15 "Тогда мои 50$ достанутся более сговорчивой девочке."
-    m "Who do you take me for?"
-    m "This will never happen!"
-    citizen15 "Then my $ 50 will go to a more accommodating girl."
+    m "That's never going to happen!"
+    m "What kind of person do you think I am?"
+    citizen15 "Well then, my spare 50$ will go to some more agreeable girl."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:125
 translate english citizen15_dialogue_pilon_loop15_a3d35d25:
@@ -405,9 +405,9 @@ translate english citizen15_dialogue_pilon_loop15_a3d35d25:
     # mt "50$ были бы не лишними... Хорошо, что здесь никого нет."
     # m "50$ ?"
     # citizen15 "Все верно, девочка. Покажешь своих подружек и они твои."
-    mt "$ 50 would not be superfluous... It's good that nobody is here."
-    m "$ 50?"
-    citizen15 "That's right, girl. Show your girlfriends and it's yours."
+    mt "50$ would be useful... There are noone around here as well."
+    m "50$?"
+    citizen15 "That's right. Shom me your pair and it's yours."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:129
 translate english citizen15_dialogue_pilon_loop15_0a38e3ee:
@@ -415,8 +415,8 @@ translate english citizen15_dialogue_pilon_loop15_0a38e3ee:
     # m "Ладно, только не трогать!"
     # citizen15 "Об этом не волнуйся, детка. Я не хочу проблем с твоим сутенером."
     # mt "Да за кого он меня принимает?"
-    m "Okay, just don't touch!"
-    citizen15 "Don't worry about it, baby. I don't want problems with your pimp."
+    m "Very well, but no touching."
+    citizen15 "Don’t worry about it, girl. I don’t want any trouble with your pimp."
     mt "Who does he think I am?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:133
@@ -424,8 +424,8 @@ translate english citizen15_dialogue_pilon_loop15_3d11b010:
 
     # m "Хорошо, давай деньги."
     # citizen15 "А ты не глупая девочка. Вот, держи."
-    m "Well, give me the money."
-    citizen15 "And you are not a stupid girl. Here you are."
+    m "Fine, give me the money."
+    citizen15 "Smart girl. Here take it."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:139
 translate english citizen15_dialogue_pilon_loop15_01a70d62:
@@ -433,13 +433,13 @@ translate english citizen15_dialogue_pilon_loop15_01a70d62:
     # m "Доволен?"
     # citizen15 "Более чем"
     m "Satisfied?"
-    citizen15 "More than."
+    citizen15 "More than that."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:172
 translate english citizen15_dialogue_pilon_loop15_2f6602af:
 
     # citizen15 "Покрутись немного на шесте, который сзади тебя."
-    citizen15 "Roll a little on the pole that is behind you."
+    citizen15 "Dance around the pole behind you."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:175
 translate english citizen15_dialogue_pilon_loop15_d15b9b6b:
@@ -451,35 +451,35 @@ translate english citizen15_dialogue_pilon_loop15_d15b9b6b:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "[MonicaWhoringClothPylonDanceCorruptionRequired] corruption is required"
+    help "[monicaWhoringClothPylonDanceCorruptionRequired] corruption required"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:184
 translate english citizen15_dialogue_pilon_loop15_c6b5282d:
 
     # m "Хорошо, только не долго."
     # mt "Только потому, что ты заплатишь."
-    m "Well, just not for long."
-    mt "Just because you pay."
+    m "Fine, just for a little bit."
+    mt "Only because you are paying."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:188
 translate english citizen15_dialogue_pilon_loop15_089027ff:
 
     # citizen15 "Мда, тебе далеко до совершенства..."
-    citizen15 "Hmm, you are far from perfect..."
+    citizen15 "Yeaa, you still have lots of room for improvement."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:192
 translate english citizen15_dialogue_pilon_loop15_41a237c5:
 
     # mt "Ну и урод..."
-    mt "Well, freak..."
+    mt "What a jerk..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:201
 translate english citizen15_dialogue_pilon_loop15_540df363:
 
     # citizen15 "А теперь покажи своих малышек, похоже им там тесно."
     # mt "Как он может так говорить о моей прекрасной груди?! Извращенец..."
-    citizen15 "And now show your babies, it seems to them there closely."
-    mt "How can he say that about my beautiful breasts?! Pervert..."
+    citizen15 "Show me your tities now, it looks like it’s too tight in there."
+    mt "How can he talk like that about my beautiful chest?! Pervert..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:205
 translate english citizen15_dialogue_pilon_loop15_49aafc4d:
@@ -491,27 +491,27 @@ translate english citizen15_dialogue_pilon_loop15_49aafc4d:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] corruption is required"
+    help "[monicaWhoringClothNakedBoobsCorruptionRequired] corruption required"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:212
 translate english citizen15_dialogue_pilon_loop15_9e8035e0:
 
     # m "Так и быть, только руками не трогать."
     # mt "Только попробуй к ним прикаснуться и я сломаю тебе пальцы."
-    m "So be it, just don't touch by your hands."
-    mt "Just try to touch them and I'll break your fingers."
+    m "Very well, but no touching."
+    mt "I'll break you fingers, if you dare to touch me."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:216
 translate english citizen15_dialogue_pilon_loop15_d25c3e2d:
 
     # citizen15 "А ничего такие сиськи, но я видел и лучше."
-    citizen15 "These boobs are not bad, but I have seen better."
+    citizen15 "Not bad, not bad. I've seen better though."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:218
 translate english citizen15_dialogue_pilon_loop15_93f3cbe1:
 
     # mt "Очень сомневаюсь..."
-    mt "I doubt very much..."
+    mt "I doubt it very much..."
 
 translate english strings:
 

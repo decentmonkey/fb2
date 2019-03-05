@@ -4,9 +4,9 @@ translate german strings:
 
     # Quests/EP2_03/EP23_Quests_Melanie.rpy:21
     old "ГРИМЕРНАЯ КОМНАТА"
-    new ""
+    new "MAKEUP RAUM"
 
     # Quests/EP2_03/EP23_Quests_Melanie.rpy:24
     old "Мелани очень любит себя."
-    new ""
+    new "Melanie ist selbstverliebt."
 

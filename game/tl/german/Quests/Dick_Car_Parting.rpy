@@ -42,7 +42,7 @@ translate german dick_meeting1_car_parting2_41006220:
     # dick "Ну дорогая."
     # "Я с тобой даже не успел побыть."
     dick "Na gut."
-    "Aber ich hatte kaum Zeit, deine Gesellschaft zu genießen."
+    "Ich hatte nicht mal Zeit mit dir."
 
 # game/Quests/Dick_Car_Parting.rpy:45
 translate german dick_meeting1_car_parting2_b99aba93:

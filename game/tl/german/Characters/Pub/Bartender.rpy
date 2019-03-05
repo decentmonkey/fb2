@@ -4,5 +4,5 @@
 translate german bartenderProgressLevelUp_3b749cb8:
 
     # help "Прогресс [progress_character_name] максимален, ждите следующих обновлений игры!"
-    help "Прогресс [progress_character_name] максимален, ждите следующих обновлений игры!"
+    help "Fortschritt [progress_character_name] ist am Maximum. Bitte warte auf weitere Updates!"
 

@@ -32,6 +32,8 @@ define config.version = "EP2-v0.3"
 define gui.about = _p("""
 Thanks to:
 
+The big Dog for great support!
+
 Meli_x3, Koskesh, Ragnaroekr, GND53 and ColdBlade for English correction
 
 Ragnaroekr and BruceLee73

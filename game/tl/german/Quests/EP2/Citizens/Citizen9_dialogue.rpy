@@ -422,8 +422,8 @@ translate german citizen9_dialogue_pilon_loop9_1bbc028c:
 
     # citizen9 "Потанцуй! Для этого здесь пилон и поставили!"
     # mt "Наркоман...Надеюсь скоро тебя поймают..."
-    citizen9 "Потанцуй! Для этого здесь пилон и поставили!"
-    mt "Наркоман...Надеюсь скоро тебя поймают..."
+    citizen9 "Tanze!"
+    mt "Süchtiger... Ich hoffe, du wirst bald verräumt..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:186
 translate german citizen9_dialogue_pilon_loop9_d15b9b6b:
@@ -435,19 +435,19 @@ translate german citizen9_dialogue_pilon_loop9_d15b9b6b:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Требуется [monicaWhoringClothPylonDanceCorruptionRequired] corruption"
+    help "[MonicaWhoringClothPylonDanceCorruptionRequired]Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:195
 translate german citizen9_dialogue_pilon_loop9_d3108dd3:
 
     # m "Хорошо, только не долго."
-    m "Хорошо, только не долго."
+    m "Gut, aber nicht lange."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:198
 translate german citizen9_dialogue_pilon_loop9_f5d619cc:
 
     # citizen9 "А у тебя неплохо выходит."
-    citizen9 "А у тебя неплохо выходит."
+    citizen9 "Das machst du gut."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:211
 translate german citizen9_dialogue_pilon_loop9_3b38ccb5:
@@ -457,11 +457,11 @@ translate german citizen9_dialogue_pilon_loop9_3b38ccb5:
     # citizen9 "Да, дорогая, похоже, умом ты не отличаешься."
     # "Покажи мне свои сисечки, только голыми!"
     # mt "Когда нибудь я сдам тебя в полицию..."
-    citizen9 "Голые сиськи! Я их люблю!"
+    citizen9 "Nackte Brüste! Ich liebe sie!"
     m "Was?"
-    citizen9 "Да, дорогая, похоже, умом ты не отличаешься."
-    "Покажи мне свои сисечки, только голыми!"
-    mt "Когда нибудь я сдам тебя в полицию..."
+    citizen9 "Ja, Hübsche, sieht so aus, als ob du auch nicht die Hellste wärst."
+    "Zeig mir deine Brüste, aber nackt!"
+    mt "Eines Tages verpetze ich dich an die Poliezi..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:218
 translate german citizen9_dialogue_pilon_loop9_49aafc4d:
@@ -473,25 +473,25 @@ translate german citizen9_dialogue_pilon_loop9_49aafc4d:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:225
 translate german citizen9_dialogue_pilon_loop9_9e8035e0:
 
     # m "Так и быть, только руками не трогать."
     # mt "Только попробуй к ним прикаснуться и я сломаю тебе пальцы."
-    m "Так и быть, только руками не трогать."
-    mt "Только попробуй к ним прикаснуться и я сломаю тебе пальцы."
+    m "Gut, aber anfassen ist nicht."
+    mt "Versuche sie anzufassen, und ich breche deine Finger."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:229
 translate german citizen9_dialogue_pilon_loop9_b2a568d5:
 
     # citizen9 "Ууу... Так намного лучше! Ходи так всегда!"
-    citizen9 "Ууу... Так намного лучше! Ходи так всегда!"
+    citizen9 "Ohh... So vieles besser! Mach genau so weiter!"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:231
 translate german citizen9_dialogue_pilon_loop9_103714ea:
 
     # mt "Размечтался..."
-    mt "Размечтался..."
+    mt "Davon kannst du nur träumen."
 
