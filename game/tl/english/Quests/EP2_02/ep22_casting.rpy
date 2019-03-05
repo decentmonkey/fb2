@@ -161,7 +161,7 @@ translate english ep22_dialogue6_6_loop1_754bc00d:
 translate english ep22_dialogue6_6_loop1_3e16788b:
 
     # m "Роза надежды хочет показать папочке грудь..."
-    m "Rose of a Hope would like to show her chest to you daddy..."
+    m "Ruby Mystery would like to show her chest to you daddy..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:157
 translate english ep22_dialogue6_6_loop1_949a2f51:
@@ -283,14 +283,14 @@ translate english ep22_dialogue6_6_loop1_b54e8927_1:
 translate english ep22_dialogue6_6_loop1_f1e6764d:
 
     # m "Роза надежды хочет показать папочке свой зад..."
-    m "Rose of a Hope would like to show her back to you daddy..."
+    m "Ruby Mystery would like to show her back to you daddy..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:354
 translate english ep22_dialogue6_6_loop1_8dbf7b08:
 
     # biff "Давай, Роза!"
     # "Показывай свой зад!"
-    biff "Hurry up! Rose!"
+    biff "Hurry up! Ruby Mystery!"
     "Show your ass!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:378
@@ -304,7 +304,7 @@ translate english ep22_dialogue6_6_loop1_8dbf7b08_1:
 
     # biff "Давай, Роза!"
     # "Показывай свой зад!"
-    biff "Hurry up! Rose!"
+    biff "Hurry up! Ruby Mystery!"
     "Show your ass!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:406

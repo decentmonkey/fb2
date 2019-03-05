@@ -48,7 +48,7 @@ translate english ep23_photoshoot4_casting_d3fec468:
     # biff "Кто сегодня цыпочка?"
     # m "Сегодня цыпочка - это Роза Надежды..."
     biff "Who's the girl tonight?"
-    m "Today your babe is Rose of a Hope..."
+    m "Today your babe is Ruby Mystery..."
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:141
 translate english ep23_photoshoot4_casting_8bb65f7e:
@@ -96,7 +96,7 @@ translate english ep22_photoshoot4_39656896:
     # m "Алекс, это что?"
     # alex_photograph "Миссис Бакфетт, это наряд Розы Надежды!"
     m "Alex, what is this?"
-    alex_photograph "This is a costume of Rose of a Hope, Mrs. Buckfett!"
+    alex_photograph "This is a costume of Ruby Mystery, Mrs. Buckfett!"
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:19
 translate english ep22_photoshoot4_5b941334:

@@ -79,6 +79,13 @@ label ep23_quests_pub5_dishes: # Моника моет посуду
     if monicaEatedLastDay == day:
         call ep23_dialogues1_4()
         return False
+#    $ rand1 = rand(1,10)
+#    if rand1 >= 7:
+#        $ set_active("Bartender", False, scene="pub_bar1")
+#        $ set_active("Bartender_Waitress", True, scene="pub_bar1")
+#    else:
+#        $ set_active("Bartender", True, scene="pub_bar1")
+#        $ set_active("Bartender_Waitress", False, scene="pub_bar1")
     call change_scene("pub_bar1")
     return False
 
