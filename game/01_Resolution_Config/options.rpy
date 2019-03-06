@@ -214,8 +214,8 @@ init python:
 
     config.keymap["game_menu"].remove("mouseup_3")
     config.keymap["hide_windows"] = []
-#    config.keymap["rollback"] = []
-#    config.keymap["rollforward"] = []
+    config.keymap["rollback"] = []
+    config.keymap["rollforward"] = []
 
     config.custom_text_tags["c"] = custom_tag1
 ## Set this to a string containing your Apple Developer ID Application to enable
