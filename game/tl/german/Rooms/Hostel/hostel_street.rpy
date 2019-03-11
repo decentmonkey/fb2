@@ -22,3 +22,13 @@ translate german strings:
     old "НАЗАД К ШАВЕРМЕ"
     new "ZURÜCK ZUM KEBAB"
 
+# TODO: Translation updated at 2019-03-11 20:16
+
+# game/Rooms/Hostel/hostel_street.rpy:61
+translate german hostel_street_teleport_e2dd79be:
+
+    # mt "Я не могу зайти туда одетой в рекламу кебеба..."
+    # mt "Я просто застряну в проходе!"
+    mt "Я не могу зайти туда одетой в рекламу кебеба..."
+    mt "Я просто застряну в проходе!"
+

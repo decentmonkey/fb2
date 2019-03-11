@@ -57,6 +57,10 @@ label hostel_street_teleport:
             call change_scene("hostel_street_door") from _call_change_scene_50
             return
     if obj_name == "Teleport_Hostel_Pub":
+        if cloth == "Kebab":
+            mt "Я не могу зайти туда одетой в рекламу кебеба..."
+            mt "Я просто застряну в проходе!"
+            return
         call change_scene("pub")
         return
     return

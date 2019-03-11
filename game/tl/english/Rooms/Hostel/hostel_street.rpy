@@ -22,3 +22,12 @@ translate english strings:
     old "НАЗАД К ШАВЕРМЕ"
     new "BACK TO THE KEBAB"
 
+# TODO: Translation updated at 2019-03-11 20:15
+
+# game/Rooms/Hostel/hostel_street.rpy:61
+translate english hostel_street_teleport_e2dd79be:
+
+    # mt "Я не могу зайти туда одетой в рекламу кебеба..."
+    # mt "Я просто застряну в проходе!"
+    mt "I can't enter the pub wearing such adv banner."
+    mt "I'll stuck at the enterance."

@@ -1487,3 +1487,12 @@ translate english strings:
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:159
     old "Меня зовут..."
     new "My name is..."
+# TODO: Translation updated at 2019-03-11 20:15
+
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:48
+translate english ep23_dialogues1_1a_e2dd79be:
+
+    # mt "Я не могу зайти туда одетой в рекламу кебеба..."
+    # mt "Я просто застряну в проходе!"
+    mt "I can't enter the pub wearing such adv banner."
+    mt "I'll stuck at the enterance."

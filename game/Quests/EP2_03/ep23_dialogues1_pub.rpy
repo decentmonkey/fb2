@@ -44,6 +44,10 @@ label ep23_dialogues1_1a:
     "Но, все-же... Может заглянуть туда?"
     menu:
         "Зайти в бар.":
+            if cloth == "Kebab":
+                mt "Я не могу зайти туда одетой в рекламу кебеба..."
+                mt "Я просто застряну в проходе!"
+                return False
             $ remove_hook()
             return True
         "Уйти.":

@@ -78,6 +78,8 @@ label citizen1_dialogue_pilon:
     citizen1 "Ну что, тетя..."
     $ showedBoobs = False
     $ showedButt = False
+    $ showedDance = False
+    $ showedNakedBoobs = False
 
     label citizen1_dialogue_pilon_loop1:
     call pylonController(1, 1)
