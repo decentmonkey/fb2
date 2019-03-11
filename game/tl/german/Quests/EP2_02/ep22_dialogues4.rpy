@@ -344,7 +344,7 @@ translate german ep22_dialogues4_5a_561c598c:
     # stephanie "Да, Моника!"
     # "Я допускаю что Вы играете с Диком в какие-то странные игры."
     # "Но зачем позволять так общаться с собой, как делает эта провинциальная дура!"
-    stephanie "Да, Моника!"
+    stephanie "Ja..."
     "Ich vermute, dass du in einem seltsamen Spiel mit Dick steckst."
     "Aber warum erlaubst du, dass sie mit dir redet wie ein Landei?"
 
@@ -440,9 +440,9 @@ translate german ep22_dialogues4_5a_220949df:
     # m "Пока, девочки!"
     m "Gut, Mädels."
     "Geht jetzt trainieren..."
-    stephanie "Пока, Моника!"
+    stephanie "Ciao, Monica!"
     rebecca "Tschüss, Freundin!"
-    m "Пока, девочки!"
+    m "Tschüss, Mädels!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:390
 translate german ep22_dialogues4_6_loop1_c57af425:
@@ -704,7 +704,7 @@ translate german ep22_dialogues4_8_a9603673:
 translate german ep22_dialogues4_8_ba5d8068:
 
     # rebecca "Привет, Моника!"
-    rebecca "Привет, Моника!"
+    rebecca "Hallo Monica!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:712
 translate german ep22_dialogues4_8_2f6634b3:
@@ -747,7 +747,7 @@ translate german ep22_dialogues4_8_34c14dac:
 
     # m "Привет, девочки!"
     # "Я уже скоро закончу свое приключение."
-    m "Привет, девочки!"
+    m "Hey Mädls!"
     "Ich werde mein Abenteuer bald beenden."
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:744

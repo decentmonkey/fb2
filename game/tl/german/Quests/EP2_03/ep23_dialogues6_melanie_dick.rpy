@@ -379,7 +379,7 @@ translate german ep23_dialogues6_2_e7280366:
     # "Я записала номер в блокнотик."
     # "Но, к сожалению..."
     # "Я забыла его дома..."
-    melanie "Да, Мистер Дик..."
+    melanie "Ja, Dick..."
     "Ich habe die Nummer in meinem Notebook aufgeschrieben."
     "Aber leider..."
     "Habe ich es zu Hause vergessen..."

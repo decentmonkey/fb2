@@ -21,14 +21,14 @@ translate german ep22_photoshoot1_end_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Мэм! Мы закончили фотосессию!"
-    m "Наконец-то!!!"
+    alex_photograph "Wir sind mit dem Shooting durch!"
+    m "Endlich!!!"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:94
 translate german ep22_photoshoot1_end_00d63a19:
 
     # mt "Что теперь?"
-    mt "Что теперь?"
+    mt "Was nun?"
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:100
 translate german ep22_photoshoot1_end_b0d7667d:

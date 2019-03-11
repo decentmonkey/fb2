@@ -104,7 +104,7 @@ translate german sleep_scene1_c5f0665a:
     # m "Фрэд?!?!"
     # "ТЫ?!?!"
     m "Fred?!?!"
-    "ТЫ?!?!"
+    "DU?!?!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:56
 translate german sleep_scene1_2df57290:
@@ -856,7 +856,7 @@ translate german cleaning_betty_comment1_b1d15285:
     # mt "..."
     # "Сучка!"
     mt "..."
-    "Сучка!"
+    "Schlampe!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:463
 translate german cleaning_bardie_comment1_4c88471c:
@@ -1302,7 +1302,7 @@ translate german cleaning_betty_comment1_72c4389d:
 translate german cleaning_betty_comment1_faa5a50a:
 
     # "Сучка!"
-    "Сучка!"
+    "Schlampe!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:694
 translate german monica_goout1_governess_restrict_30f16a20_1:

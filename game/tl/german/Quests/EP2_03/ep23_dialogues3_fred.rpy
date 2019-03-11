@@ -93,10 +93,10 @@ translate german ep23_dialogues3_1_83afe761:
     # "Как он смеет разговаривать со мной о таких вещах!"
     # mt "..."
     # mt "Хотя..."
-    mt "Вот мерзавец!!!"
+    mt "Dieser Bastard!"
     "Wie kann er es wagen mit mir über solche Sachen zu reden?"
     mt "..."
-    mt "Хотя..."
+    mt "Obwohl..."
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:55
 translate german ep23_dialogues3_1_b9b2fb6a:
@@ -170,7 +170,7 @@ translate german ep23_dialogues3_1_7914c2f2:
     # m "ЧТО?!?!"
     # "ТЫ МЕНЯ РЕШИЛ ЛАПАТЬ?!?"
     # "НИЧТОЖЕСТВО!!!"
-    m "ЧТО?!?!"
+    m "Was?!?!"
     "DU WILLST MICH ANFASSEN?!?"
     "DU STÜCK SCHEISSE!!!"
 
@@ -227,7 +227,7 @@ translate german ep23_dialogues3_1_01b7299a:
 
     # m "ЧТО?!?!"
     # "ТЫ МЕНЯ РЕШИЛ ЛАПАТЬ?!?"
-    m "ЧТО?!?!"
+    m "Was?!?!"
     "DU WILLST MICH ANFASSEN?!?"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:154
@@ -297,7 +297,7 @@ translate german ep23_dialogues3_1_ceb2495b:
     rebecca "Wie sind loyale Freundinnen, hehe!"
     stephanie "Ich hoffe, du hast dein Abenteuer alsbald hinter dir."
     "Wir können es nicht erwarten, alles zu erfahren!"
-    rebecca "Да, Моника!"
+    rebecca "Ja..."
     "Darüber kannst du wahrscheinlich einen Film drehen!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:199
@@ -314,19 +314,19 @@ translate german ep23_dialogues3_1_3026248a:
     # rebecca "Пока, Моника!"
     # "Чмок!"
     # m "Пока, девочки!"
-    stephanie "Пока, Моника!"
+    stephanie "Ciao, Monica!"
     "Klatsch!"
-    rebecca "Пока, Моника!"
+    rebecca "Ciao, Monica!"
     "Klatsch!"
-    m "Пока, девочки!"
+    m "Tschüss, Mädels!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:211
 translate german ep23_dialogues3_2_c80b57dc:
 
     # stephanie "Привет, Моника!"
     # m "Привет, девочки!"
-    stephanie "Привет, Моника!"
-    m "Привет, девочки!"
+    stephanie "Hallo Monica!"
+    m "Hey Mädls!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:214
 translate german ep23_dialogues3_2_afbad676:
@@ -352,7 +352,7 @@ translate german ep23_dialogues3_3_bd1ea48d:
     m "Fred, du schaust mich die ganze Zeit an..."
     m "Hattest du noch nicht genug?"
     "Willst du mehr?"
-    fred "Нет, Мэм!"
+    fred "Nein!"
     "Nein, nein!"
     m "Dann halt deine Klappe, Idiot!"
 
@@ -514,7 +514,7 @@ translate german ep23_dialogues3_5_c96a7248:
     # fred "Как скажете, Мэм!"
     # "Вы мой Босс!"
     fred "Wie sie wünschen!"
-    "Вы мой Босс!"
+    "Sie sind mein Chef!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:400
 translate german ep23_dialogues3_5_954d7c27:
@@ -538,7 +538,7 @@ translate german ep23_dialogues3_5_3470653e:
 translate german ep23_dialogues3_5_af638805:
 
     # fred "Простите, Мэм!"
-    fred "Простите, Мэм!"
+    fred "Das tut mir leid!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:410
 translate german ep23_dialogues3_5_0b12f11b:

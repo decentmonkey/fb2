@@ -479,7 +479,7 @@ translate german ep23_dialogues8_2_2443f2a7:
     # melanie "Миссис Бакфетт, можете быть уверены в моих силах..."
     "Frau Buckfett, schöne Frauen lieben gefährliche Männer!"
     "Das macht es sogar noch interessanter!"
-    m "Но..."
+    m "Aber..."
     melanie "Frau Buckfett, sie können sich in meiner Gegenwart sicher fühlen..."
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:311
@@ -994,7 +994,7 @@ translate german ep23_dialogues8_4_dee67dc5:
 translate german ep23_dialogues8_4_6e87be23:
 
     # m "ЧТО???"
-    m "ЧТО???"
+    m "WAS?!?!"
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:628
 translate german ep23_dialogues8_4_b8385700:

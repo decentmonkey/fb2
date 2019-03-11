@@ -68,7 +68,7 @@ translate german hook_basement_bedroom_check_exit_cloth_map_c28d4e8a:
     # "Мне надо одеться."
     mt "So kann ich nicht raus gehen."
     "Noch bin ich nicht verrückt!!!"
-    "Мне надо одеться."
+    "Ich brauche Kleider."
 
 translate german strings:
 

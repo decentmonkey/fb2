@@ -150,7 +150,7 @@ translate german ep22_photoshoot2_pose7_b78199ca:
     "Wenn ich nur eine Wahl hätte!"
     m "Ok, aber mach schnell!"
     "Und nimm die Kamera nicht zu weit runter!"
-    alex_photograph "Конечно, Мэм!"
+    alex_photograph "Natürlich!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:121
 translate german ep22_photoshoot2_pose7_180e0321:
@@ -199,14 +199,14 @@ translate german ep22_photoshoot2_end_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Мэм! Мы закончили фотосессию!"
-    m "Наконец-то!!!"
+    alex_photograph "Wir sind mit dem Shooting durch!"
+    m "Endlich!!!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:152
 translate german ep22_photoshoot2_end_00d63a19:
 
     # mt "Что теперь?"
-    mt "Что теперь?"
+    mt "Was nun?"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:158
 translate german ep22_photoshoot2_end_b0d7667d:
@@ -392,7 +392,7 @@ translate german ep22_photoshoot2_pose6_997943ae:
     # alex_photograph "Конечно, Мэм!"
     m "Ok, aber mach schnell!"
     "Und nimm die Kamera nicht zu weit runter!"
-    alex_photograph "Конечно, Мэм!"
+    alex_photograph "Natürlich!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:457
 translate german ep22_photoshoot2_pose6_73085adc:

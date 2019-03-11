@@ -187,7 +187,7 @@ translate german ep22_dialogues5_2_0cc3f2a4:
 
     # m "ЧТО?!?!"
     # m "ЗАЧЕМ?!?!"
-    m "ЧТО?!?!"
+    m "Was?!?!"
     m "WARUM???"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:237
@@ -456,7 +456,7 @@ translate german ep22_dialogues5_4_03c9e216:
     # m "Я УБЬЮ ТЕБЯ!!!"
     # m "ТВАРЬ!!!"
     m "ICH BRINGE DICH UM!!!"
-    m "ТВАРЬ!!!"
+    m "DU DUMMES DING!!!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:455
 translate german ep22_dialogues5_4_4c739cf7:
@@ -948,7 +948,7 @@ translate german ep22_dialogues5_7_79b5b8f4:
     # dick_secretary "Хорошо, Миссис Бакфетт..."
     m "Ich weiß nicht? Ich tue Alles!!!"
     "Nur sag endlich Dick, dass du mir vergeben hast. Schnell!!!"
-    dick_secretary "Хорошо, Миссис Бакфетт..."
+    dick_secretary "Na gut, Frau Buckfett..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:847
 translate german ep22_dialogues5_7_61ff459c:
@@ -1032,7 +1032,7 @@ translate german ep22_dialogues5_7_e57c66de:
 translate german ep22_dialogues5_7_415a7fa9:
 
     # m "ЧТО?!?!"
-    m "ЧТО?!?!"
+    m "Was?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:929
 translate german ep22_dialogues5_7_1791a762:
@@ -1184,7 +1184,7 @@ translate german ep22_dialogues5_7_209eefa3:
     # dick_secretary "Хорошо, Миссис Бакфетт..."
     # "В следующий раз Вы поцелуете мой зад..."
     # "И сделаете это очень страстно!"
-    dick_secretary "Хорошо, Миссис Бакфетт..."
+    dick_secretary "Na gut, Frau Buckfett..."
     "Nächstes Mal wirst du meinen Arsch küssen..."
     "Und zwar sehr leidenschaftlich!"
 
@@ -1201,7 +1201,7 @@ translate german ep22_dialogues5_7_5af46d43:
 
     # dick_secretary "Хорошо, Миссис Бакфетт..."
     # "Для начала неплохо..."
-    dick_secretary "Хорошо, Миссис Бакфетт..."
+    dick_secretary "Na gut, Frau Buckfett..."
     "Ein guter Anfang..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1038
@@ -1328,7 +1328,7 @@ translate german ep22_dialogues5_7_af4e039f:
     # "Может быть их не пропустят сюда?"
     mt "Ich wünschte, Dick würde sich beeilen."
     "Was dauert denn da so lange?!?!"
-    "Но..."
+    "Aber..."
     "Vielleicht finden sie diesen Ort gar nicht."
     "Vielleicht dürfen sie nicht her kommen."
 
@@ -1443,7 +1443,7 @@ translate german ep22_dialogues5_7_29c5981c:
     # "Мистер Дик..."
     # "Спасибо Вам..."
     # "Я... Я пошла..."
-    m "М... Ммммм.."
+    m "Mmm... Mmmm..."
     "Herr Dick..."
     "Danke..."
     "Ich bin... Ich war..."
@@ -1867,7 +1867,7 @@ translate german ep22_dialogues5_12_090ade82:
 
     # dick_secretary "Да, вот так!"
     # "А теперь поелозьте им в разные стороны, Да!"
-    dick_secretary "Да, вот так!"
+    dick_secretary "Das stimmt!"
     "Jetzt beweg sie hin und her, ja!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1503
@@ -1991,7 +1991,7 @@ translate german ep22_dialogues5_14_51145218:
 
     # dick2 "ЧТО?!?!"
     # "ОПЯТЬ ОНА ЗА СВОЕ?!?!"
-    dick2 "ЧТО?!?!"
+    dick2 "Was?!?!"
     "DIE JETZT SCHON WIEDER?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1585
@@ -2071,7 +2071,7 @@ translate german ep22_dialogues5_14_6332b097:
     # dick_secretary "Миссис Бакфетт..."
     # dick "Ты что, серьезно?"
     dick "Warte, wer noch ausser mir will das???"
-    dick_secretary "Миссис Бакфетт..."
+    dick_secretary "Frau Buckfett..."
     dick "Ist das dein Ernst?"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1633
@@ -2094,7 +2094,7 @@ translate german ep22_dialogues5_14_83544eec:
 translate german ep22_dialogues5_14_b6eb4a09:
 
     # dick_secretary "Да, Мистер Дик..."
-    dick_secretary "Да, Мистер Дик..."
+    dick_secretary "Ja, Dick..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1646
 translate german ep22_dialogues5_14_37a1d7da:

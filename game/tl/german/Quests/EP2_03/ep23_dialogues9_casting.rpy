@@ -4,7 +4,7 @@
 translate german ep23_dialogue9_1_a43c77ff:
 
     # melanie "Итак, ты согласна?"
-    melanie "Итак, ты согласна?"
+    melanie "Also, stimmst du zu?"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:29
 translate german ep23_dialogue9_1_80bfd7b9:
@@ -140,7 +140,7 @@ translate german ep23_dialogue9_2_90c185ef:
 translate german ep23_dialogue9_2_894ea8c6:
 
     # m "ТЫ?!?!"
-    m "ТЫ?!?!"
+    m "DU?!?!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:122
 translate german ep23_dialogue9_2_7ecaf93a:
@@ -616,7 +616,7 @@ translate german ep23_dialogue9_2_13896628:
 translate german ep23_dialogue9_2_749ba20e:
 
     # model1 "Да, вот так!"
-    model1 "Да, вот так!"
+    model1 "Das stimmt!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:504
 translate german ep23_dialogue9_2_4c170476:
@@ -724,7 +724,7 @@ translate german ep23_dialogue9_2_f24624db:
     # model1 "Теперь открой рот, очень широко!"
     # m "Зачем?"
     model1 "Jetzt öffne deinen Mund, ganz weit!"
-    m "Зачем?"
+    m "Warum?"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:571
 translate german ep23_dialogue9_2_5afc41fd:
@@ -826,7 +826,7 @@ translate german ep23_dialogue9_2_580c219b:
 translate german ep23_dialogue9_2_519fdddc:
 
     # m "Да, я поняла."
-    m "Да, я поняла."
+    m "Ich verstehe."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:670
 translate german ep23_dialogue9_2_207c4cb2:
@@ -848,7 +848,7 @@ translate german ep23_dialogue9_2_1c7c3533:
     # model1 "А теперь вставь эту штуку в себя!"
     # "Давай!"
     model1 "Jetzt führe ihn ein!"
-    "Давай!"
+    "Komm schon!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:695
 translate german ep23_dialogue9_2_e5b9f222:
@@ -874,7 +874,7 @@ translate german ep23_dialogue9_2_683564ef:
 translate german ep23_dialogue9_2_ea1a00d4:
 
     # m "Да!"
-    m "Да!"
+    m "Ja!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:723
 translate german ep23_dialogue9_2_1b539f80:
@@ -1008,7 +1008,7 @@ translate german ep23_dialogue9_2_df415553:
 translate german ep23_dialogue9_2_1ea04065:
 
     # model1 "Давай!"
-    model1 "Давай!"
+    model1 "Komm schon!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:829
 translate german ep23_dialogue9_2_919da3ce:
@@ -1152,7 +1152,7 @@ translate german ep23_dialogue9_2_fb69ca2f:
     "Er will geleckt werden!"
     m "Oh! Du Schlampe! Ich töte dich!"
     "Du wirst für alles büßen, was hier geschehen ist!!!"
-    "ТВАРЬ!!!"
+    "DU DUMMES DING!!!"
     mt "Ich kriege diese Schlampe, das schwöre ich!"
     "Wo habe ich nur zugestimmt?!?!"
     "Im Grunde wurde ich von diesem Affen in meinem eigenen Büro vergewaltigt!"
@@ -1168,7 +1168,7 @@ translate german ep23_dialogue9_2_fb69ca2f:
     "Was ist mit mir passiert? Es war wie ein Blitz..."
     "Verdammt! Ich vergesse das am Besten schnell wieder!"
     "..."
-    "Мне надо одеться."
+    "Ich brauche Kleider."
     "..."
     "Wo ist Melanie?!?!"
     "Ich werde nicht zulassen, dass sie macht was sie will!"
@@ -1278,7 +1278,7 @@ translate german strings:
 
     # Quests/EP2_03/ep23_dialogues9_casting.rpy:656
     old "Да, я поняла."
-    new ""
+    new "Ich verstehe."
 
     # Quests/EP2_03/ep23_dialogues9_casting.rpy:656
     old "Послать ее к черту!"
@@ -1294,7 +1294,7 @@ translate german strings:
 
     # Quests/EP2_03/ep23_dialogues9_casting.rpy:719
     old "Да!"
-    new "Да!"
+    new "Ja!"
 
     # Quests/EP2_03/ep23_dialogues9_casting.rpy:719
     old "Хочу поскорее закончить это..."
@@ -1434,7 +1434,7 @@ translate german scene_test1_df415553:
 translate german scene_test1_1ea04065:
 
     # model1 "Давай!"
-    model1 "Давай!"
+    model1 "Komm schon!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1017
 translate german scene_test1_919da3ce:
@@ -1654,7 +1654,7 @@ translate german scene_test1_736b67d2:
     # "ТВАРЬ!!!"
     m "Oh! Du Schlampe! Ich töte dich!"
     "Du wirst für alles büßen, was hier geschehen ist!!!"
-    "ТВАРЬ!!!"
+    "DU DUMMES DING!!!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1321
 translate german scene_test1_f382dd08:
@@ -1705,7 +1705,7 @@ translate german scene_test1_0dae1824:
     # "Мне надо одеться."
     # "..."
     "..."
-    "Мне надо одеться."
+    "Ich brauche Kleider."
     "..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1350
@@ -1850,7 +1850,7 @@ translate german scene_test2_683564ef:
 translate german scene_test2_ea1a00d4:
 
     # m "Да!"
-    m "Да!"
+    m "Ja!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:972
 translate german scene_test2_1b539f80:
@@ -2088,7 +2088,7 @@ translate german scene_test2_736b67d2:
     # "ТВАРЬ!!!"
     m "Oh! Du Schlampe! Ich töte dich!"
     "Du wirst für alles büßen, was hier geschehen ist!!!"
-    "ТВАРЬ!!!"
+    "DU DUMMES DING!!!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1552
 translate german scene_test2_f382dd08:
@@ -2139,7 +2139,7 @@ translate german scene_test2_0dae1824:
     # "Мне надо одеться."
     # "..."
     "..."
-    "Мне надо одеться."
+    "Ich brauche Kleider."
     "..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1581

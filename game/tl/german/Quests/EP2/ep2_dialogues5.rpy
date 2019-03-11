@@ -693,7 +693,7 @@ translate german monica_charity_event_dialogue8_212059e7:
     mt "Toll! Noch eine Nervensäge!"
     "Lass ihn runter!"
     "..."
-    "Хотя..."
+    "Obwohl..."
     "Kaufe etwas Wein..."
     "Wieso nicht..."
     "Zumindest sieht er reich aus..."
@@ -924,7 +924,7 @@ translate german monica_charity_event_dialogue8_a75aa7bb:
 translate german monica_charity_event_dialogue8_84c28420:
 
     # philip "Конечно, Мэм!"
-    philip "Конечно, Мэм!"
+    philip "Natürlich!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:544
 translate german monica_charity_event_dialogue8_cb46d0b8:
@@ -1564,7 +1564,7 @@ translate german monica_charity_event_dialogue16_7bf82a1d:
     # "Правда, Мелани?"
     "Ich habe keine Geheimnisse vor Melanie!"
     "Und sie hat auch keine vor mir!"
-    "Правда, Мелани?"
+    "Ja, Melanie?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:895
 translate german monica_charity_event_dialogue16_8108a8af:
@@ -2032,7 +2032,7 @@ translate german monica_charity_event_dialogue18_d7fc46bf:
     # "Но нет!"
     # "Теперь я уверен что $ 500 он стоит вполне!"
     philip "Frau Buckfett!"
-    "Отлично!"
+    "Ausgezeichnet!"
     "Ich nehme an, du hast nicht viel Übung!"
     "Aber ich genieße es tatsächlich!"
     "Um ehrlich zu sein, hatte ich meine Zweifel, ob dein Mund 500€ wert ist!"
@@ -2203,7 +2203,7 @@ translate german monica_charity_event_dialogue18_40240c22:
     # "Знаете что..."
     # "Вы сделаете миньет первому мужчине, который зайдет сюда!"
     # "Тогда Вы получите еще $ 500!"
-    philip "Хотя..."
+    philip "Obwohl..."
     "Weisst du was..."
     "Du lutschst dem nächsten Kerl der hier reinkommt den Schwanz!"
     "Dann kriegst du deine 500€!"
@@ -2505,7 +2505,7 @@ translate german monica_charity_event_dialogue18_loopa1_f90b5f70:
     hotel_staff "Richtig so?"
     philip "Fick ihren Mund!"
     "Was machst du denn da?!"
-    hotel_staff "Простите, Мэм!"
+    hotel_staff "Das tut mir leid!"
     "Bitte entlassen Sie mich nicht!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1550
@@ -2597,7 +2597,7 @@ translate german monica_charity_event_dialogue18_loopa1_4dc77364:
 
     # hotel_staff "Конечно, Мэм!"
     # "Я никому не скажу!"
-    hotel_staff "Конечно, Мэм!"
+    hotel_staff "Natürlich!"
     "Werde ich nicht!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1639
@@ -2787,7 +2787,7 @@ translate german monica_office_biff_dialogue_evening1_62c01ede:
 
     # biff "Да!"
     # biff "Можешь идти!"
-    biff "Да!"
+    biff "Ja!"
     biff "Du kannst gehen!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1763
@@ -3271,7 +3271,7 @@ translate german monica_office_biff_dialogue_evening1_51889768:
 
     # biff "Да!"
     # biff "Можешь идти!"
-    biff "Да!"
+    biff "Ja!"
     biff "Du kannst gehen!"
 
 # TODO: Translation updated at 2018-12-09 22:47
@@ -3556,7 +3556,7 @@ translate german monica_charity_event_dialogue8a_a75aa7bb:
 translate german monica_charity_event_dialogue8a_84c28420:
 
     # philip "Конечно, Мэм!"
-    philip "Конечно, Мэм!"
+    philip "Natürlich!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:726
 translate german monica_charity_event_dialogue8a_cb46d0b8:
@@ -3826,7 +3826,7 @@ translate german monica_charity_event_dialogue18_local3_d7fc46bf:
     # "Но нет!"
     # "Теперь я уверен что $ 500 он стоит вполне!"
     philip "Frau Buckfett!"
-    "Отлично!"
+    "Ausgezeichnet!"
     "Ich nehme an, du hast nicht viel Übung!"
     "Aber ich genieße es tatsächlich!"
     "Um ehrlich zu sein, hatte ich meine Zweifel, ob dein Mund 500€ wert ist!"
@@ -3995,7 +3995,7 @@ translate german monica_charity_event_dialogue18_local4_852d67ec:
 
     # philip "Хотя..."
     # "Знаете что..."
-    philip "Хотя..."
+    philip "Obwohl..."
     "Weisst du was..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1723
@@ -4271,7 +4271,7 @@ translate german monica_charity_event_dialogue18_loopa1_7562759e:
 
     # hotel_staff "Простите, Мэм!"
     # "Пожалуйста, не увольняйте меня!"
-    hotel_staff "Простите, Мэм!"
+    hotel_staff "Das tut mir leid!"
     "Bitte entlassen Sie mich nicht!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2027
@@ -4345,7 +4345,7 @@ translate german monica_charity_event_dialogue18_local6_4dc77364:
 
     # hotel_staff "Конечно, Мэм!"
     # "Я никому не скажу!"
-    hotel_staff "Конечно, Мэм!"
+    hotel_staff "Natürlich!"
     "Werde ich nicht!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2118
@@ -4560,7 +4560,7 @@ translate german monica_charity_event_dialogue18_local3_1d7fc3ae:
     # "Чувствуется что у Вас недостаток практики!"
     # "Но мне это даже нравится!"
     philip "Frau Buckfett!"
-    "Отлично!"
+    "Ausgezeichnet!"
     "Ich nehme an, du hast nicht viel Übung!"
     "Aber ich genieße es tatsächlich!"
 

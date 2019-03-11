@@ -281,7 +281,7 @@ translate german monica_shawarma_dialogue1_b5104c32:
 
     # m "О БОЖЕ!"
     # "Мне придется в этом ходить?!?!"
-    m "О БОЖЕ!"
+    m "Oh mein Gott!"
     "Muss ich das wirklich anziehen?!?!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:135
@@ -552,11 +552,11 @@ translate german monica_shawarma_dialogue11_9630037f:
     # "Моника! Как ты докатилась до того, чтобы ходить В ЭТОМ!!!"
     # "И разносить флаеры за еду!!!"
     # mt "О БОЖЕ!"
-    mt "О БОЖЕ!"
+    mt "Oh mein Gott!"
     mt "Was für ein Horror!"
-    "Моnica! Wie bist du in SOLCHEN Klamotten gelandet???"
+    "Monica! Wie konnte es soweit kommen, dass du DAS trägst!??"
     "Und verteilst Flyer für Essen!!"
-    mt "О БОЖЕ!"
+    mt "Oh mein Gott!"
 
 translate german strings:
 

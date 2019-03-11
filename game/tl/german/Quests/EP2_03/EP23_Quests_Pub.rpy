@@ -4,5 +4,5 @@ translate german strings:
 
     # Quests/EP2_03/EP23_Quests_Pub.rpy:7
     old "SHINY HOLE"
-    new ""
+    new "SHINY HOLE"
 

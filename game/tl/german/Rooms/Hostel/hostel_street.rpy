@@ -29,6 +29,6 @@ translate german hostel_street_teleport_e2dd79be:
 
     # mt "Я не могу зайти туда одетой в рекламу кебеба..."
     # mt "Я просто застряну в проходе!"
-    mt "Я не могу зайти туда одетой в рекламу кебеба..."
-    mt "Я просто застряну в проходе!"
+    mt "Ich kann nicht in die Kneipe, wenn ich diese Werbung trage."
+    mt "Ich stecke im Eingang fest."
 

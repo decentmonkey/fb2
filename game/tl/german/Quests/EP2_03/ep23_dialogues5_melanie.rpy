@@ -404,13 +404,13 @@ translate german ep23_dialogues5_2_47c629d7:
     # m "Значит Биф что-то требует от тебя?"
     # "И почему-же ты не управляешь им, а?"
     m "Verlangt Biff etwas von dir?"
-    "И почему-же ты не управляешь им, а?"
+    "Warum kannst du ihn nicht ebenfalls kontrollieren, hm?"
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:259
 translate german ep23_dialogues5_2_e3a7836a:
 
     # melanie "Миссис Бакфетт... Я именно это и делаю..."
-    melanie "Миссис Бакфетт... Я именно это и делаю..."
+    melanie "Frau Buckfett ... Genau das mache ich ja..."
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:261
 translate german ep23_dialogues5_2_c318681f:
@@ -543,7 +543,7 @@ translate german ep23_dialogues5_3_8d82109b:
     # "Вы же знаете, Мелани не согласится на неприличные ракурсы!"
     m "Alles klar, Alex..."
     "Einzige Bedingung, keine unangemessenen Blickwinkel!"
-    alex_photograph "Конечно, Мэм!"
+    alex_photograph "Natürlich!"
     "Wissen sie, Melanie macht diese Blickwinkel nicht mit!"
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:346
@@ -554,7 +554,7 @@ translate german ep23_dialogues5_3_69e6ce04:
     # alex_photograph "Итак, мотор!"
     # m "Алекс, я не собираюсь вставать в эту позу!!!"
     # "Даже не мечтай!"
-    "Правда, Мелани?"
+    "Ja, Melanie?"
     melanie "Das stimmt, Alex..."
     alex_photograph "Hier, der Motor!"
     m "Alex, ich posiere nicht in dieser Position!!!"
@@ -842,7 +842,7 @@ translate german ep23_dialogues5_3_aef6ade1:
     # "Правда, Мелани?"
     # melanie "Правда, Алекс..."
     # alex_photograph "Итак, мотор!"
-    "Правда, Мелани?"
+    "Ja, Melanie?"
     melanie "Das stimmt, Alex..."
     alex_photograph "Hier, der Motor!"
 
@@ -850,14 +850,14 @@ translate german ep23_dialogues5_3_aef6ade1:
 translate german ep23_dialogues5_3c_ee1ef0be:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
-    alex_photograph "Мэм! Мы закончили фотосессию!"
+    alex_photograph "Wir sind mit dem Shooting durch!"
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:505
 translate german ep23_dialogues5_3c_c577c087:
 
     # melanie "Миссис Бакфетт..."
     # "А мне понравилась последняя поза..."
-    melanie "Миссис Бакфетт..."
+    melanie "Frau Buckfett..."
     "Und ich mochte die letzte Pose..."
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:509

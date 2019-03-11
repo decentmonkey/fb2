@@ -80,7 +80,7 @@ translate german tempaaa2_b29f05e7:
     # melanie "Хорошо, Миссис Бакфетт..."
     m "Melanie, bitte!"
     "Sag Alex, dass es genug ist!"
-    melanie "Хорошо, Миссис Бакфетт..."
+    melanie "Na gut, Frau Buckfett..."
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:136
 translate german tempaaa2_35173e7a:
@@ -94,14 +94,14 @@ translate german tempaaa2_35173e7a:
 translate german testaaa3_ee1ef0be:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
-    alex_photograph "Мэм! Мы закончили фотосессию!"
+    alex_photograph "Wir sind mit dem Shooting durch!"
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:168
 translate german testaaa3_c577c087:
 
     # melanie "Миссис Бакфетт..."
     # "А мне понравилась последняя поза..."
-    melanie "Миссис Бакфетт..."
+    melanie "Frau Buckfett..."
     "Und ich mochte die letzte Pose..."
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:171
@@ -316,7 +316,7 @@ translate german ep22_photoshoot5_pose9_pre_b29f05e7:
     # melanie "Хорошо, Миссис Бакфетт..."
     m "Melanie, bitte!"
     "Sag Alex, dass es genug ist!"
-    melanie "Хорошо, Миссис Бакфетт..."
+    melanie "Na gut, Frau Buckfett..."
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:640
 translate german ep22_photoshoot5_pose9_pre_35173e7a:
@@ -330,7 +330,7 @@ translate german ep22_photoshoot5_pose9_pre_35173e7a:
 translate german ep22_photoshoot5_end_00d63a19:
 
     # mt "Что теперь?"
-    mt "Что теперь?"
+    mt "Was nun?"
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:772
 translate german ep22_photoshoot5_end_7d5cf100:

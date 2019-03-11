@@ -13,7 +13,7 @@ translate german ep22_photoshoot3_ee35a2a3:
 
     # alex_photograph "Нет, Мэм!"
     # "Вы сегодня девушка-рабочий! Бригадир!"
-    alex_photograph "Нет, Мэм!"
+    alex_photograph "Nein!"
     "Heute bist du das Rohrreiniger-Mädchen!"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:10
@@ -211,13 +211,13 @@ translate german ep22_photoshoot3_pose7_80acecf7:
     # "Пожалуйста, покажите эмоции!"
     # m "Я...."
     # "Ладно..."
-    m "ЧТО?!?!"
+    m "Was?!?!"
     "WAS HAST DU GETAN, DU BASTARD???"
     "Wo hast du den Hammer hin gesteckt?"
     "Hast du gemerkt, wo der war?!?!"
     alex_photograph "Frau Buckfett!"
     "Bitte mach das Gesicht, als würdest du den Hammer lecken..."
-    m "ЧТО?!?!"
+    m "Was?!?!"
     "Du kannst zur Hölle fahren!"
     "Das soll ein Shooting für einen Kalender sein?!?!"
     "Vielleicht sollte ich meine Shorts ausziehen und für mehr Freiheit sorgen!"
@@ -249,14 +249,14 @@ translate german ep22_photoshoot3_end_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Мэм! Мы закончили фотосессию!"
-    m "Наконец-то!!!"
+    alex_photograph "Wir sind mit dem Shooting durch!"
+    m "Endlich!!!"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:229
 translate german ep22_photoshoot3_end_00d63a19:
 
     # mt "Что теперь?"
-    mt "Что теперь?"
+    mt "Was nun?"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:235
 translate german ep22_photoshoot3_end_b0d7667d:
@@ -419,7 +419,7 @@ translate german ep22_photoshoot3_pose6_d685af5e:
     # "Ты хоть заметил куда в какое место он упирается мне?!?!"
     # alex_photograph "Миссис Бакфетт!"
     # "И сделайте, пожалуйста, такое лицо как когда Вы облизывали молоток..."
-    m "ЧТО?!?!"
+    m "Was?!?!"
     "WAS HAST DU GETAN, DU BASTARD???"
     "Wo hast du den Hammer hin gesteckt?"
     "Hast du gemerkt, wo der war?!?!"
@@ -438,7 +438,7 @@ translate german ep22_photoshoot3_pose6_e7222503:
     # "Для тебя это было бы прекрасной новостью!"
     # "НО НЕ ДЛЯ МЕНЯ?!?!"
     # "Фотосессия закончена!!!"
-    m "ЧТО?!?!"
+    m "Was?!?!"
     "Du kannst zur Hölle fahren!"
     "Das soll ein Shooting für einen Kalender sein?!?!"
     "Vielleicht sollte ich meine Shorts ausziehen und für mehr Freiheit sorgen!"

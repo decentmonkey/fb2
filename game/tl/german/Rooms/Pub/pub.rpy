@@ -53,7 +53,7 @@ translate german pub_environment_bcea8e17:
     # mt "О БОЖЕ!"
     # "ЧТО ЭТО ЗА ДЫРА?!?"
     mt "SHINY HOLE?!?"
-    mt "О БОЖЕ!"
+    mt "Oh mein Gott!"
     "WAS IST DAS FÜR EIN LOCH?!?"
 
 # game/Rooms/Pub/pub.rpy:107

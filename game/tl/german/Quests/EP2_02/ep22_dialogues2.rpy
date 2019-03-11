@@ -970,7 +970,7 @@ translate german ep22_dialogue2_8_9bf469f2:
 translate german ep22_dialogue2_8_a95e18d2:
 
     # fred "Конечно, Мэм!"
-    fred "Конечно, Мэм!"
+    fred "Natürlich!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:674
 translate german ep22_dialogue2_8_f2060836_1:
@@ -1064,7 +1064,7 @@ translate german ep22_dialogue2_8_1_1429de9c:
 translate german ep22_dialogue2_8_1_1afd056c:
 
     # "Вы мой Босс!"
-    "Вы мой Босс!"
+    "Sie sind mein Chef!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:881
 translate german ep22_dialogue2_8_1_1024d6cf:
@@ -1161,7 +1161,7 @@ translate german ep22_dialogue2_8_1_084dea06:
     # fred "Конечно, Мэм!"
     # "Это моя работа!"
     betty "Ich gebe dir Bescheid, wenn ich das wieder will."
-    fred "Конечно, Мэм!"
+    fred "Natürlich!"
     "Das ist mein Job!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:956

@@ -184,7 +184,7 @@ translate german citizen7_dialogue_pilon_loop7_e3fd528c:
 translate german citizen7_dialogue_pilon_loop7_b4b7dc55:
 
     # citizen7 "Отлично!"
-    citizen7 "Отлично!"
+    citizen7 "Ausgezeichnet!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:104
 translate german citizen7_dialogue_pilon_loop7_36c4ef64:

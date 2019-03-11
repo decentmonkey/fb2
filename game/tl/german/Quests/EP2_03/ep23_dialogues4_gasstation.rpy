@@ -20,7 +20,7 @@ translate german ep23_dialogues4_1_dec1a6c9:
     # mt "Сучка!"
     # "Эх! Какую-бы я сейчас устроила ей трепку, с огромным удовольствием!"
     # mt "Я еще вернусь сюда, когда закончится этот кошмар!"
-    mt "Сучка!"
+    mt "Schlampe!"
     "He! Ich hätte dir mir Freude in den Arsch getreten!"
     mt "Ich komme wieder, wenn dieser Alptraum vorüber ist."
 
@@ -44,7 +44,7 @@ translate german ep23_dialogues4_1_c8b9583f:
 translate german ep23_dialogues4_1_f0d79344:
 
     # mt "Сучка!"
-    mt "Сучка!"
+    mt "Schlampe!"
 
 # game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:39
 translate german ep23_dialogues4_1_1d49c419:

@@ -68,7 +68,7 @@ translate german ep23_dialogues1_2_4d9205f9:
     # "Ты хочешь чтобы эта шлюха сидела здесь под видом посетителя и строила глазки всем вокруг?!"
     # "А потом уводила их с собой до того как они заплатили?!"
     # "Я не потерплю этого, Джо!"
-    mt "О БОЖЕ!"
+    mt "Oh mein Gott!"
     "WAS IST DAS FÜR EIN LOCH?!?"
     "???"
     "SHINY HOLE?!?"
@@ -292,7 +292,7 @@ translate german ep23_dialogues1_3_8693a236:
     # "Любая проверка нас оштрафует!"
     # "У нашего заведения и так плохая репутация! Я не хочу ее портить еще сильнее!"
     m "Ja, ich will einen Job."
-    joe "Отлично!"
+    joe "Ausgezeichnet!"
     "Ashley! Komm her, sie ist gekommen!"
     ashley "ABER!? Das bist ja du!?"
     "Joe hat mich überredet, dich zu engagieren."
@@ -323,7 +323,7 @@ translate german ep23_dialogues1_3_8693a236:
     m "..."
     m "Ich... ehm..."
     "Ich habe gerade keine Dokumente."
-    ashley "ЧТО?!?!"
+    ashley "Was?!?!"
     m "Aber ich kann sie nachreichen, versprochen!"
     ashley "Dann komm später wieder!"
     "Ich erlaube keine illegale Arbeit hier!"
@@ -521,7 +521,7 @@ translate german ep23_dialogues1_2_a1cd3172:
 
     # mt "О БОЖЕ!"
     # "ЧТО ЭТО ЗА ДЫРА?!?"
-    mt "О БОЖЕ!"
+    mt "Oh mein Gott!"
     "WAS IST DAS FÜR EIN LOCH?!?"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:58
@@ -810,7 +810,7 @@ translate german ep23_dialogues1_3_202d531f:
     # m "Да, я хочу устроиться на работу."
     # joe "Отлично!"
     m "Ja, ich will einen Job."
-    joe "Отлично!"
+    joe "Ausgezeichnet!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:224
 translate german ep23_dialogues1_3_fe40efa5:
@@ -917,7 +917,7 @@ translate german ep23_dialogues1_3_24ad3933:
     # "Я не позволю работать с клиентами нелегалу!"
     # "Любая проверка нас оштрафует!"
     # "У нашего заведения и так плохая репутация! Я не хочу ее портить еще сильнее!"
-    ashley "ЧТО?!?!"
+    ashley "Was?!?!"
     m "Aber ich kann sie nachreichen, versprochen!"
     ashley "Dann komm später wieder!"
     "Ich erlaube keine illegale Arbeit hier!"
@@ -1494,6 +1494,6 @@ translate german ep23_dialogues1_1a_e2dd79be:
 
     # mt "Я не могу зайти туда одетой в рекламу кебеба..."
     # mt "Я просто застряну в проходе!"
-    mt "Я не могу зайти туда одетой в рекламу кебеба..."
-    mt "Я просто застряну в проходе!"
+    mt "Ich kann nicht in die Kneipe, wenn ich diese Werbung trage."
+    mt "Ich stecke im Eingang fest."
 

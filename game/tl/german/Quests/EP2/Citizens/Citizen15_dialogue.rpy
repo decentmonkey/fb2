@@ -34,7 +34,7 @@ translate german citizen15_dialogue_b57d7b0b:
 translate german citizen15_dialogue_59b1e0ad:
 
     # "Давай!"
-    "Давай!"
+    "Komm schon!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:22
 translate german citizen15_dialogue_loop1_4dded6da:

@@ -800,7 +800,7 @@ translate german monica_dick_secretary_dialogue2_f0506224:
     # m "До свидания, Миссис Виктория..."
     # mt "Сучка!"
     m "Auf Wiedersehen, Fräulein Victoria..."
-    mt "Сучка!"
+    mt "Schlampe!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:436
 translate german monica_dick_secretary_dialogue3_ce9a25fa:
@@ -1352,7 +1352,7 @@ translate german monica_dick_secretary_dialogue2_d8213a8d:
 translate german monica_dick_secretary_dialogue2_f0d79344:
 
     # mt "Сучка!"
-    mt "Сучка!"
+    mt "Schlampe!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:582
 translate german monica_dick_secretary_dialogue3_5166c006:

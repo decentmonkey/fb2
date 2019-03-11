@@ -42,7 +42,7 @@ translate german ep22_dialogues3_2_6782a785:
     # bardie "Моника, покажи трусики..."
     # m "ЧТО?!?!"
     bardie "Monica, zeig mir dein Höschen..."
-    m "ЧТО?!?!"
+    m "Was?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:34
 translate german ep22_dialogues3_2_8596c6d9:
@@ -108,7 +108,7 @@ translate german ep22_dialogues3_2_b1e48be6:
     # m "ЧТО?!?!"
     # "ТЫ ЕЩЕ СМЕЕШЬ ШАНТАЖИРОВАТЬ МЕНЯ, МАЛЯВКА?!?!"
     # "Тебя даже не впустят туда! Такого маленького болвана!"
-    m "ЧТО?!?!"
+    m "Was?!?!"
     "DU WAGST ES IMMER NOCH, MICH ZU ERPRESSEN, KIND?!?!"
     "Die werden dich nicht mal rein lassen! Du kleiner Trottel!"
 
@@ -749,7 +749,7 @@ translate german ep22_dialogues3_6_b11a71cf:
 
     # bardie "ЧТО?!?!"
     # "ТЫ СНОВА ОБЗЫВАЕШЬ МЕНЯ МАЛЯВКОЙ?!?"
-    bardie "ЧТО?!?!"
+    bardie "Was?!?!"
     "DU NENNST MICH SCHON WIEDER EIN KLEINES DING?!!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:406
@@ -1089,7 +1089,7 @@ translate german ep22_dialogues3_9_523580c6:
     # m "Я НИ ЗА ЧТО!!!"
     # "СЛЫШИШЬ?!?!"
     # "НИ ЗА ЧТО НЕ БУДУ ХОДИТЬ БЕЗ ТРУСИКОВ!!!"
-    m "ЧТО?!?!"
+    m "Was?!?!"
     m "DAS WERDE ICH NIEMALS!!!"
     "VERSTEHST DU?"
     "ICH WÜRDE NIE OHNE HÖSCHEN GEHEN!!!"
@@ -1146,7 +1146,7 @@ translate german ep22_dialogues3_9_34b4dfd3:
 translate german ep22_dialogues3_9_415a7fa9:
 
     # m "ЧТО?!?!"
-    m "ЧТО?!?!"
+    m "Was?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:868
 translate german ep22_dialogues3_9_9ed84586:
@@ -1307,7 +1307,7 @@ translate german ep22_dialogues3_10_4cecaf79:
     # "Тереть пятно САМОЙ!!!"
     # "В трусиках, которые пахнут этой сучкой Бетти, которая захватила мой дом!"
     # "О БОЖЕ!!!"
-    mt "Вот мерзавец!!!"
+    mt "Dieser Bastard!"
     "Er erpresst mich!"
     "Dieses Baby will mehr und mehr!"
     "Aber was sollte ich machen???"
