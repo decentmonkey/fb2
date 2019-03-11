@@ -112,9 +112,11 @@ python early:
         renpy.hide_screen("choice")
         renpy.hide("window")
         renpy.show_screen("dialogue_down_arrow")
+        dialogue_active_flag = True
         keyPressed = pygame.key.get_pressed()
         if not keyPressed[pygame.K_SLASH]:
             renpy.pause()
+        dialogue_active_flag = False
         renpy.hide_screen("dialogue_down_arrow")
         dialogue_active_flag = False
         screenActionHappened = True
@@ -124,6 +126,7 @@ python early:
         renpy.hide_screen("say")
         renpy.hide_screen("choice")
         renpy.hide("window")
+        dialogue_active_flag = True
         renpy.pause()
         dialogue_active_flag = False
         screenActionHappened = True
