@@ -143,16 +143,16 @@ screen screen_sprites(data):
                     Hide("action_menu_screen"),
                     Hide("action_menu_tooltip_screen")
                 ]
-                alternate [
-                    Hide("say"),
-                    Hide("dialogue_image_left"),
-                    Hide("dialogue_image_right"),
-                    Hide("dialogue_image_center"),
-                    Hide("dialogue_down_arrow"),
-                    Hide("action_menu_screen"),
-                    Hide("action_menu_tooltip_screen"),
-                    Call("call_save")
-                ]
+#                alternate [
+#                    Hide("say"),
+#                    Hide("dialogue_image_left"),
+#                    Hide("dialogue_image_right"),
+#                    Hide("dialogue_image_center"),
+#                    Hide("dialogue_down_arrow"),
+#                    Hide("action_menu_screen"),
+#                    Hide("action_menu_tooltip_screen")
+#                    Call("call_save")
+#                ]
 
 #            $ data = scenes_data["objects"][scene_name] if scene_name in scenes_data["objects"] else False
             if data != False and game_version1_screen_ready_to_render == True and episode == 2:
@@ -287,7 +287,7 @@ screen screen_sprites(data):
                                                 ]
 
             #                                alternate Show("action_menu_screen", None, data[i]["click"], i, data[i])
-                                            alternate Call("call_save")
+#                                            alternate Call("call_save")
 
                             if data[i]["type"] == 3: #text with image
                                 $ button_layout = data[i]["layout"] if data[i].has_key("layout") else text_button_default_layout
@@ -556,15 +556,15 @@ screen action_menu_screen(click_label, name, data):
                 Hide("action_menu_screen"),
                 Hide("action_menu_tooltip_screen")
             ]
-            alternate [
-                Hide("say"),
-                Hide("dialogue_image_left"),
-                Hide("dialogue_image_right"),
-                Hide("dialogue_image_center"),
-                Hide("dialogue_down_arrow"),
-                Hide("action_menu_screen"),
-                Hide("action_menu_tooltip_screen")
-            ]
+#            alternate [
+#                Hide("say"),
+#                Hide("dialogue_image_left"),
+#                Hide("dialogue_image_right"),
+#                Hide("dialogue_image_center"),
+#                Hide("dialogue_down_arrow"),
+#                Hide("action_menu_screen"),
+#                Hide("action_menu_tooltip_screen")
+#            ]
 
         frame:
 #            background Solid("#242426")
@@ -760,17 +760,17 @@ screen character_info_screen(obj_name, x, y):
                 Hide("sprites_hover_dummy_screen"),
                 Hide("character_info_screen")
             ]
-            alternate [
-                Hide("say"),
-                Hide("dialogue_image_left"),
-                Hide("dialogue_image_right"),
-                Hide("dialogue_image_center"),
-                Hide("dialogue_down_arrow"),
-                Hide("action_menu_screen"),
-                Hide("action_menu_tooltip_screen"),
-                Hide("sprites_hover_dummy_screen"),
-                Hide("character_info_screen")
-            ]
+#            alternate [
+#                Hide("say"),
+#                Hide("dialogue_image_left"),
+#                Hide("dialogue_image_right"),
+#                Hide("dialogue_image_center"),
+#                Hide("dialogue_down_arrow"),
+#                Hide("action_menu_screen"),
+#                Hide("action_menu_tooltip_screen"),
+#                Hide("sprites_hover_dummy_screen"),
+#                Hide("character_info_screen")
+#            ]
 
         frame:
 #            background Solid("#242426")
