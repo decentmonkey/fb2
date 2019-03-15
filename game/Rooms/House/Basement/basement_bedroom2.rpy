@@ -1,7 +1,14 @@
 default basement_bedroom2_MonicaSuffix = 2
 default basement_bedroom2_Monica_Nap_Betty_Suffix = ""
 
+default basement_bedroom2_ep22_init = False
+
 label basement_bedroom2:
+
+    if basement_bedroom2_ep22_init == False:
+        $ add_object_to_scene("Monica", {"type" : 2, "base" : "Basement_Bedroom2_Monica_[cloth]_[basement_bedroom2_MonicaSuffix]", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder":10, "tint": [1.0, 1.0, 0.9]}, {"basementBedroomMonicaNapGfxBettyPanties":{"v":True, "base":"Basement_Bedroom2_Monica_Governess_Betty_[monicaBettyPantiesId]_Nap_1", "img_overlay":"Basement_Bedroom2_Monica_GovernessPants_Nap_1_Overlay"}, "basementBedroomMonicaNapGfx":{"v":True, "base":"Basement_Bedroom2_Monica_[cloth]_Nap_[basementBedNapIndex][basement_bedroom2_Monica_Nap_Betty_Suffix]", "img_overlay":"Basement_Bedroom2_Monica_[cloth]_Nap_[basementBedNapIndex]_Overlay"}, "basementBedroomMonicaSleepGfx":{"v":True, "base":"Basement_Bedroom2_Monica_Sleep_[basementBedSleepIndex]"}, "basementBedroomBettyPantiesOnly":{"v":True, "base":"Basement_Bedroom2_Monica_Governess[basement_bedroom2_MonicaSuffix]_Betty_[monicaBettyPantiesId]", "img_overlay":"Basement_Bedroom2_Monica_GovernessPants_[basement_bedroom2_MonicaSuffix]_Overlay"}}, scene="basement_bedroom2")
+        $ basement_bedroom2_ep22_init = True
+
     $ print "enter_basement_bedroom2"
     $ miniMapData = []
     call miniMapHouseGenerate() from _call_miniMapHouseGenerate_5

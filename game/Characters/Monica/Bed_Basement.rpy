@@ -153,6 +153,7 @@ label monica_gosleep1b:
             if cloth != "Nude":
                 $ cloth_type = "Nude"
                 $ cloth = "GovernessPants"
+                $ monicaBettyPanties = False
             call monica_skip_until_friday()
             return False
         "Не ложиться.":
@@ -173,6 +174,7 @@ label monica_process_sleep:
     if cloth != "Nude":
         $ cloth_type = "Nude"
         $ cloth = "GovernessPants"
+        $ monicaBettyPanties = False
     $ changeDayTime("day")
     call process_hooks("basement_monica_after_sleep", "global")
     call refresh_scene_fade()

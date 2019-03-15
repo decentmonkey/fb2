@@ -11,6 +11,9 @@ label wardrobeBasement:
     mt "Что мне одеть?"
     menu:
         "Одежда шлюхи.":
+            if monicaBettyPanties == True:
+                call ep22_dialogues3_13()
+                $ monicaBettyPanties = False
             $ cloth = "Whore"
             $ cloth_type = "Whore"
             sound snd_fabric1
@@ -49,6 +52,9 @@ label wardrobeBasement:
 #            $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue2_pants")
 
         "Снять все.":
+            if monicaBettyPanties == True:
+                call ep22_dialogues3_13()
+                $ monicaBettyPanties = False
             $ cloth = "Nude"
             $ cloth_type = "Nude"
             sound snd_fabric1
@@ -115,6 +121,9 @@ label hook_basement_bedroom_check_exit_cloth_map: #проверка при вы�
                 return False
             else: #Гардероб не использовали
 #                $ wardrobeLastUsedDay = day
+                if monicaBettyPanties == True:
+                    call ep22_dialogues3_13()
+                    $ monicaBettyPanties = False
                 $ cloth = "Whore" #Принудительно переодеваем Монику
                 $ cloth_type = "Whore"
                 return True
@@ -123,6 +132,9 @@ label hook_basement_bedroom_check_exit_cloth_map: #проверка при вы�
                 if monicaCatchedByBettyGovernessFirstTime == False:
                     menu:
                         "Переодеться в одежду шлюхи (другой нет!).":
+                            if monicaBettyPanties == True:
+                                call ep22_dialogues3_13()
+                                $ monicaBettyPanties = False
                             $ cloth = "Whore" #Принудительно переодеваем Монику
                             $ cloth_type = "Whore"
                             return True
