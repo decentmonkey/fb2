@@ -144,7 +144,7 @@ label start_game:
     $ add_hook("exit_scene", "hook_basement_bedroom_check_exit_cloth", scene="basement_bedroom2")
     $ add_hook("exit_scene", "hook_basement_bedroom_check_exit_cloth", scene="basement_bedroom_cupboard")
     $ add_hook("exit_scene", "hook_basement_bedroom_check_exit_cloth", scene="basement_bedroom_table")
-    $ add_hook("map_teleport", "hook_basement_bedroom_check_exit_cloth_map", scene="global")
+    $ add_hook("map_teleport", "hook_basement_bedroom_check_exit_cloth_map", scene="global", priority=1000)
     $ add_hook("Gates", "hook_basement_bedroom_check_exit_cloth_gates", scene="street_house_gate")
 
     # Жизнь персонажей

@@ -4,6 +4,7 @@ default sceneStages = []
 default lastSceneName = False
 default refreshed_scene_name = False
 default game_version1_screen_ready_to_render = False
+default patch32applied = False
 default scene_caption = ""
 default exitHookCalled = False
 
@@ -196,6 +197,10 @@ label after_load():
     if episode < 2:
         call start_saved_game() from _call_start_saved_game
         return
+    if patch32applied == False:
+        $ remove_hook("map_teleport", "hook_basement_bedroom_check_exit_cloth_map", scene="global")
+        $ add_hook("map_teleport", "hook_basement_bedroom_check_exit_cloth_map", scene="global", priority=1000)
+        $ patch32applied = True
     if game_version1_screen_ready_to_render == False:
         $ game_version1_screen_ready_to_render = True
         call refresh_scene() from _call_refresh_scene_2
