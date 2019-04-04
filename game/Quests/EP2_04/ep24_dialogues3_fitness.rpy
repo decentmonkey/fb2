@@ -33,9 +33,11 @@ label ep24_dialogues3_fitness1:
             pass
         "Не говорить ему...":
             return False
+    img 10138
     m "Барди..."
     m "Мы собираемся с Бетти ехать на фитнесс..."
     m "Ты просил меня сообщить тебе..."
+    img 10139
     bardie "Отлично, Моника!"
     bardie "Увидимся там!"
     bardie "Сообщи мне, когда она останется наедине с ним!"
@@ -45,8 +47,10 @@ label ep24_dialogues3_fitness1:
 label ep24_dialogues3_fitness2:
 # После занятия фитнесом, Моника выходит, говоря Барди что Бетти осталась наедине с тренером.
 # Барди улыбается
+    img 10140
     m "Бетти осталась наедине с тренером."
     m "Делай что ты там задумал..."
+    img 10141
     bardie "..." #улыбается
     return
 
@@ -64,19 +68,35 @@ label ep24_dialogues3_fitness3:
 # Если согласилась, идет секс.
 
     # Занятие 1
+    img 10142
     fitness_instructor "Бетти, расслабься."
     "Здесь только мы одни..."
     betty "Хорошо, я постараюсь..."
+    img 10143
     fitness_instructor "Делай вот так, выгибай ногу сильнее."
     betty "Я стараюсь..."
+    img 10144
     fitness_instructor "Я помогу тебе, надо только немного поддержать..."
+    img 10145
     betty "Вот так?"
+    img 10146
     fitness_instructor "Да, тебе надо держать корпус ровнее..."
     "Я помогу тебе..."
     # кладет руку на попу
+    img 10147
+    sound Jump2
+    w
+    img 10148
     bardie "..." #улыбается
-
     betty "Хорошо..."
+
+    #Барди
+    img 10149
+    with fade
+    w
+    #
+
+    ######
     fitness_instructor "Хорошо, Бетти, молодец."
     fitness_instructor "У тебя уже лучше получается."
     fitness_instructor "В следующий раз мы выполним упражнения посложнее."
@@ -84,29 +104,78 @@ label ep24_dialogues3_fitness3:
 
     # Занятие 2
     # рука уже на попе
+    img 10150
     fitness_instructor "Хорошо, Бетти, молодец."
     fitness_instructor "У тебя уже лучше получается."
+    img 10151
     fitness_instructor "Тебе надо больше выгибать спинку, постарайся..."
+    img 10152
     betty "Я пытаюсь, у меня не получается выгнуться сильнее..."
+
+    img 10153
     fitness_instructor "У тебя очень обтягивающая форма."
+    img 10154
     fitness_instructor "Она сковывает твои движения."
+
+    img 10155
     fitness_instructor "Попробуй снять свой верх."
+    img 10156
     fitness_instructor "Увидишь, тебе сразу станет свободнее двигаться."
+    img 10157
     betty "Правда?"
     "Я немного смущаюсь?"
+
+    img 10158
     fitness_instructor "Бетти, я всего-лишь фитнесс тренер."
     fitness_instructor "Я желаю, чтобы ты добилась результатов."
+    img 10159
     fitness_instructor "Доверься мне!"
     betty "Хорошо..."
 
     #Снимает лифчик
+    img 10160
+    with fade
+    w
+    img 10161
+    with fade
+    w
+    img 10162
+    with fade
+    w
+    img 10163
     bardie "..."
+
+    img 10164
+    with fade
+    w
+
     # Занимается без лифчика
+    img 10165
     fitness_instructor "Вот так, Бетти!"
+    img 10166
     "Чувствуешь, как тебе стало свободнее двигаться?"
     "У тебя сразу получилось прогнуть спинку, как следует!"
+    img 10167
     "Ты чувствуешь?"
+
+    img 10168
     betty "Да, я действительно выгнулась гораздо сильнее..."
+
+    img 10169
+    w
+    img 10170
+    w
+    img 10171
+    w
+    img 10172
+    w
+
+    #Барди
+    img 10173
+    with fade
+    w
+
+    ############
     fitness_instructor "Хорошо, Бетти, молодец."
     fitness_instructor "У тебя уже лучше получается."
     fitness_instructor "В следующий раз мы выполним упражнения посложнее."
@@ -114,55 +183,120 @@ label ep24_dialogues3_fitness3:
 
 
     # Занятие 3
+    img 10174
     fitness_instructor "Хорошо, Бетти, молодец."
     fitness_instructor "У тебя уже лучше получается."
     fitness_instructor "Ты помнишь что без верха у тебя лучше результаты."
+    img 10175
     betty "Да, помню."
+    img 10174
     fitness_instructor "Пожалуйста, сними его."
+    img 10175
     betty "Хорошо."
 
     #Бетти снова снимает лифчик
+    img 10176
+    with fade
+    w
+    #Барди
+    img 10177
+    w
+    img 10178
+    with fade
+    w
+    img 10179
+    with fadelong
     fitness_instructor "Молодец."
     fitness_instructor "Теперь тяни ножку, тяни сильнее..."
+    img 10180
     betty "Я не могу, мне дальше никак..."
     fitness_instructor "Тебе больно, Бетти?"
     betty "Нет, мне уже не больно..."
     "Она... Она просто не гнется дальше и все..."
+    img 10181
     betty "У меня не получается!"
+    img 10182
     fitness_instructor "Бетти, я знаю что тебе мешает..."
     fitness_instructor "Я знаю что тебе мешает добиться лучших результатов..."
+    img 10181
     betty "Что же?"
+    img 10183
+    with fade
     fitness_instructor "Твой низ, Бетти!"
     fitness_instructor "Он слишком обтягивает тебя, сковывает твои движения!"
+    img 10184
     fitness_instructor "Твои связки могут позволить тебе сделать упражнение как надо."
     fitness_instructor "Но твоя одежда не позволяет тебе сделать это."
+    img 10185
     betty "Что же делать с этим?"
+    img 10186
     fitness_instructor "Ты можешь снять с себя это, Бетти."
     betty "Но я... Стесняюсь..."
+    img 10187
     fitness_instructor "Бетти, я твой инструктор!"
+    img 10188
     fitness_instructor "Я провожу персональные занятия с тобой."
     fitness_instructor "Я делаю это бесплатно, потому что вижу в тебе потенциал!"
+    img 10189
     betty "Правда? У меня есть потенциал?"
     fitness_instructor "Да, Бетти!"
     fitness_instructor "Ты прекрасна!"
+    img 10190
     fitness_instructor "Доверься мне! Я лишь хочу чтобы у тебя получалось!"
     fitness_instructor "Я хочу чтобы ты была успешной!"
+    img 10191
     betty "Хорошо, только..."
+    img 10192
     betty "Я ведь правда не толстая?"
+    img 10193
     fitness_instructor "Бетти, ты прекрасна! Тебе не стоит стесняться своего тела!"
+    img 10194
     betty "Хорошо..."
     # Бетти раздевается полностью
+    img 10195
+    with fade
+    w
+    img 10196
+    with Dissolve(0.5)
+    w
+    img 10197
+    with fade
     bardie "..." #Улыбается
-
+    img 10198
+    with Dissolve(0.5)
+    w
+    img 10199
+    w
+    img 10200
+    w
+    img 10201
+    with Dissolve(0.5)
+    w
+    img 10202
+    with Dissolve(0.5)
+    w
+    img 10203
+    betty "Так хорошо?"
+    fitness_instructor "Да, Бетти. Давай продолжим."
+    img 10204
+    with fadelong
     #Занимается обнаженной
     fitness_instructor "Вот так, Бетти!"
+    img 10205
     fitness_instructor "У тебя получается, ты чувствуешь?"
+    img 10206
     betty "Да, я правда смогла поднять ногу выше..."
+    img 10207
     fitness_instructor "Отлично!"
     fitness_instructor "Ты чувствуешь себя свободной?"
+    img 10208
     betty "Да..."
+    img 10209
     fitness_instructor "Тебе комортно, ты больше не стесняешь меня?"
+    img 10210
     betty "Да, мне очень комфортно..."
+
+    img 10211
     fitness_instructor "Хорошо, Бетти, молодец."
     fitness_instructor "У тебя уже лучше получается."
     fitness_instructor "В следующий раз мы выполним упражнения посложнее."
