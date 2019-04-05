@@ -97,6 +97,7 @@ label ep24_dialogues3_fitness3:
     #
 
     ######
+    img 10249
     fitness_instructor "Хорошо, Бетти, молодец."
     fitness_instructor "У тебя уже лучше получается."
     fitness_instructor "В следующий раз мы выполним упражнения посложнее."
@@ -176,6 +177,7 @@ label ep24_dialogues3_fitness3:
     w
 
     ############
+    img 10250
     fitness_instructor "Хорошо, Бетти, молодец."
     fitness_instructor "У тебя уже лучше получается."
     fitness_instructor "В следующий раз мы выполним упражнения посложнее."
@@ -303,56 +305,131 @@ label ep24_dialogues3_fitness3:
 
 
     # Занятие 4
+    img 10212
     fitness_instructor "Хорошо, Бетти, молодец."
     fitness_instructor "У тебя уже лучше получается."
     fitness_instructor "Ты помнишь что одежда сковывает тебя?"
+    img 10213
     betty "Да, помню..."
+    img 10214
     fitness_instructor "Если ты хочешь, ты можешь снять ее."
     fitness_instructor "Тогда мы сможем достичь большего прогресса."
+    img 10213
     betty "Хорошо..."
     #Снимает одежду
 
+    img 10215
+    with fade
+    w
+    img 10216
+    with fade
+    w
+    img 10217
+    with fade
+    w
+    img 10218
+    with fade
+    w
+    img 10219
+    with fade
+    w
+    img 10220
+    with fade
+    w
+    img 10221
+    with fade
+    w
+    img 10223
+    with fade
+    w
+    img 10222
+    with fade
+    w
+    img 10224
+    with fade
+    w
+    #Барди
+    img 10225
+    w
+
+
+    img 10226
+    with fadelong
     fitness_instructor "Теперь тянись, тянись как можешь..."
     betty "..."
+    img 10227
     fitness_instructor "Вот так, хорошо..."
     fitness_instructor "Давай, ты можешь еще, я знаю."
+    img 10228
     betty "Мне никак!"
     betty "Я стараюсь!"
+    img 10229
     fitness_instructor "Бетти, ты слишком напряжена, ты чувствуешь это?"
     betty "Да, я чувствую..."
     fitness_instructor "Тебе надо расслабиться, Бетти."
+    img 10230
     betty "Но как это сделать?"
     betty "Я волнуюсь, я хочу чтобы у меня получалось..."
+    img 10231
     fitness_instructor "Тебе нужно пройти сеанс медитации, Бетти."
     fitness_instructor "Тогда ты сможешь расслабиться и у тебя все получится."
+    img 10230
     betty "Но как? Я не умею медитировать."
+    img 10231
     fitness_instructor "Хочешь чтобы я показал тебе как это надо делать?"
+    img 10232
     betty "Да, очень хочу..."
 
     # тренер встает и раздевается
+    sound snd_fabric1
+    img 10234
+    with fadelong
+    w
     fitness_instructor "Я буду твоим проводником, Бетти."
+    img 10233
     fitness_instructor "Твоим проводником на пути к достижению душевного равновесия."
     # обнимает Бетти и лапает за попу
+    img 10235
+    with fade
     fitness_instructor "Я проведу тебя через весь путь."
+    img 10236
     fitness_instructor "Ты поймешь что такое настоящий Дзен..."
 
+    img 10237
+    w
+    img 10238
     bardie "!!!" #довольный фоткает
 
+    img 10239
     fitness_instructor "Ты хочешь этого?"
+    img 10240
     menu:
         "Да, я очень хочу...":
             pass
         "Я хочу, но не таким путем. Я замужем!":
+            img 10241
             betty "Я хочу, но не таким путем. Я замужем!"
             betty "А это выглядит как измена!"
+            img 10242
             fitness_instructor "..."
+            img 10243
             betty "Я оденусь и мы продолжим."
             betty "Я уверена что смогу добиться успеха не прибегая к медитациям..."
             fitness_instructor "Хорошо, Бетти..."
             return False
 
+    img 10244
+    with fade
+    w
+    img 10245
+    with fade
+    w
+    img 10246
     betty "Да, я очень хочу..."
+    img 10247
+    with fadelong
     fitness_instructor "Тогда начнем!"
+    img 10248
     fitness_instructor "Расслабься и чувствуй меня!"
 
     #идет секс
