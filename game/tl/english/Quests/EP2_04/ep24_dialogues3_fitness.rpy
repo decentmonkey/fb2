@@ -21,10 +21,10 @@ translate english ep24_dialogues3_fitness2_fdb27c6f:
 
     # m "Бетти осталась наедине с тренером."
     # m "Делай что ты там задумал..."
-    # bardie "..." 
+    # bardie "..."
     m "Бетти осталась наедине с тренером."
     m "Делай что ты там задумал..."
-    bardie "..." 
+    bardie "..."
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:67
 translate english ep24_dialogues3_fitness3_7a85e4dc:
@@ -38,7 +38,7 @@ translate english ep24_dialogues3_fitness3_7a85e4dc:
     # betty "Вот так?"
     # fitness_instructor "Да, тебе надо держать корпус ровнее..."
     # "Я помогу тебе..."
-    # bardie "..." 
+    # bardie "..."
     # betty "Хорошо..."
     # fitness_instructor "Хорошо, Бетти, молодец."
     # fitness_instructor "У тебя уже лучше получается."
@@ -103,7 +103,7 @@ translate english ep24_dialogues3_fitness3_7a85e4dc:
     # betty "Я ведь правда не толстая?"
     # fitness_instructor "Бетти, ты прекрасна! Тебе не стоит стесняться своего тела!"
     # betty "Хорошо..."
-    # bardie "..." 
+    # bardie "..."
     # fitness_instructor "Вот так, Бетти!"
     # fitness_instructor "У тебя получается, ты чувствуешь?"
     # betty "Да, я правда смогла поднять ногу выше..."
@@ -142,7 +142,7 @@ translate english ep24_dialogues3_fitness3_7a85e4dc:
     # fitness_instructor "Твоим проводником на пути к достижению душевного равновесия."
     # fitness_instructor "Я проведу тебя через весь путь."
     # fitness_instructor "Ты поймешь что такое настоящий Дзен..."
-    # bardie "!!!" 
+    # bardie "!!!"
     # fitness_instructor "Ты хочешь этого?"
     fitness_instructor "Бетти, расслабься."
     "Здесь только мы одни..."
@@ -153,7 +153,7 @@ translate english ep24_dialogues3_fitness3_7a85e4dc:
     betty "Вот так?"
     fitness_instructor "Да, тебе надо держать корпус ровнее..."
     "Я помогу тебе..."
-    bardie "..." 
+    bardie "..."
     betty "Хорошо..."
     fitness_instructor "Хорошо, Бетти, молодец."
     fitness_instructor "У тебя уже лучше получается."
@@ -218,7 +218,7 @@ translate english ep24_dialogues3_fitness3_7a85e4dc:
     betty "Я ведь правда не толстая?"
     fitness_instructor "Бетти, ты прекрасна! Тебе не стоит стесняться своего тела!"
     betty "Хорошо..."
-    bardie "..." 
+    bardie "..."
     fitness_instructor "Вот так, Бетти!"
     fitness_instructor "У тебя получается, ты чувствуешь?"
     betty "Да, я правда смогла поднять ногу выше..."
@@ -257,7 +257,7 @@ translate english ep24_dialogues3_fitness3_7a85e4dc:
     fitness_instructor "Твоим проводником на пути к достижению душевного равновесия."
     fitness_instructor "Я проведу тебя через весь путь."
     fitness_instructor "Ты поймешь что такое настоящий Дзен..."
-    bardie "!!!" 
+    bardie "!!!"
     fitness_instructor "Ты хочешь этого?"
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:212
@@ -273,7 +273,7 @@ translate english ep24_dialogues3_fitness3_e5dad65c:
     betty "А это выглядит как измена!"
     fitness_instructor "..."
     betty "Я оденусь и мы продолжим."
-    betty "Я уверена что смогу добиться успеха не прибегая к медитациям..."
+    betty "Я уверена, что смогу добиться успеха не прибегая к медитациям..."
     fitness_instructor "Хорошо, Бетти..."
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:220
@@ -341,7 +341,7 @@ translate english ep24_dialogues3_fitness6_07ce043e:
 translate english strings:
 
     # Quests/EP2_04/ep24_dialogues3_fitness.rpy:31
-    old "Сказать Барди что Моника идет на фитнесс с Бетти."
+    old "Сказать Барди, что Моника идет на фитнесс с Бетти."
     new ""
 
     # Quests/EP2_04/ep24_dialogues3_fitness.rpy:31
@@ -355,4 +355,3 @@ translate english strings:
     # Quests/EP2_04/ep24_dialogues3_fitness.rpy:208
     old "Я хочу, но не таким путем. Я замужем!"
     new ""
-
