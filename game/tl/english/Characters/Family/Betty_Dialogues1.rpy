@@ -28,3 +28,11 @@ translate english bettyDialogue3_58d95acf:
     # "Сучка..."
     "Bitch..."
 
+# TODO: Translation updated at 2019-04-08 16:14
+
+# game/Characters/Family/Betty_Dialogues1.rpy:9
+translate english bettyDialogue1_269ef339:
+
+    # betty "Я буду следить за тем как ты работаешь."
+    betty "I'll be watching your work."
+

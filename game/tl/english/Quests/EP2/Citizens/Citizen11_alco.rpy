@@ -1,42 +1,42 @@
-﻿# TODO: Translation updated at 2019-01-09 13:28
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
-# game/Quests/EP2/Citizens/Citizen11_alco.rpy:5
+# game/Quests/EP2/Citizens/Citizen11_alco.rpy:8
 translate english take_trash_bottle_68e0eb1b:
 
     # m "Похоже кто-то выкинул бутылку водки... Может ли она мне пригодиться?"
     m "Looks like someone threw away a bottle of vodka... Can it be useful to me?"
 
-# game/Quests/EP2/Citizens/Citizen11_alco.rpy:7
+# game/Quests/EP2/Citizens/Citizen11_alco.rpy:10
 translate english take_trash_bottle_68e0eb1b_1:
 
     # m "Похоже кто-то выкинул бутылку водки... Может ли она мне пригодиться?"
     m "Looks like someone threw away a bottle of vodka... Can it be useful to me?"
 
-# game/Quests/EP2/Citizens/Citizen11_alco.rpy:11
+# game/Quests/EP2/Citizens/Citizen11_alco.rpy:16
 translate english take_trash_bottle_bb99ad64:
 
     # mt "Не знаю зачем, но думаю она может пригодиться."
     mt "I don't know why, but I think it might be useful."
 
-# game/Quests/EP2/Citizens/Citizen11_alco.rpy:15
+# game/Quests/EP2/Citizens/Citizen11_alco.rpy:21
 translate english take_trash_bottle_6a633068:
 
     # m "Черт! Из нее уже кто-то пил!"
     m "Fuck! Out of it, someone's been drinking!"
 
-# game/Quests/EP2/Citizens/Citizen11_alco.rpy:19
+# game/Quests/EP2/Citizens/Citizen11_alco.rpy:25
 translate english take_trash_bottle_71207c20:
 
     # m "Ну и ладно, оставлю ее у себя, вдруг пригодится."
     m "All right, I'll keep it, in case it comes in handy."
 
-# game/Quests/EP2/Citizens/Citizen11_alco.rpy:23
+# game/Quests/EP2/Citizens/Citizen11_alco.rpy:35
 translate english take_trash_bottle_3fc4b018:
 
     # mt "Оставлю бутылку здесь. Мне ни к чему это пойло!"
     mt "I'll leave the bottle here. I don't need that drink!"
 
-# game/Quests/EP2/Citizens/Citizen11_alco.rpy:26
+# game/Quests/EP2/Citizens/Citizen11_alco.rpy:39
 translate english take_trash_bottle_3195d48e:
 
     # m "Ну уж нет, я не собираюсь лазать по помойкам!"
@@ -44,25 +44,21 @@ translate english take_trash_bottle_3195d48e:
 
 translate english strings:
 
-    # Quests/EP2/Citizens/Citizen11_alco.rpy:8
+    # Quests/EP2/Citizens/Citizen11_alco.rpy:11
     old "Взять бутылку."
     new "Get the bottle."
 
-    # Quests/EP2/Citizens/Citizen11_alco.rpy:8
+    # Quests/EP2/Citizens/Citizen11_alco.rpy:11
     old "Не брать."
     new "Don't take it"
 
-    # Quests/EP2/Citizens/Citizen11_alco.rpy:17
+    # Quests/EP2/Citizens/Citizen11_alco.rpy:23
     old "Оставить бутылку себе."
     new "Keep the bottle."
 
-    # Quests/EP2/Citizens/Citizen11_alco.rpy:17
+    # Quests/EP2/Citizens/Citizen11_alco.rpy:23
     old "Поставить бутылку на место."
     new "Put the bottle back."
-
-# TODO: Translation updated at 2019-01-16 14:59
-
-translate english strings:
 
     # Quests/EP2/Citizens/Citizen11_alco.rpy:29
     old "Водка"

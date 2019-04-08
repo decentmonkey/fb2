@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-05 18:00
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/Dick_Car_Parting.rpy:7
 translate english dick_meeting1_car_parting1_a44838a4:
@@ -45,7 +45,7 @@ translate english dick_meeting1_car_parting2_41006220:
     "I didn't even have time to be with you."
 
 # game/Quests/Dick_Car_Parting.rpy:45
-translate english dick_meeting1_car_parting2_b99aba93:
+translate english dick_meeting1_car_parting2_28c16d2b:
 
     # m "Нет, Дик!"
     # "Ты уже дважды разочаровал меня!"
@@ -67,7 +67,7 @@ translate english dick_meeting1_car_parting2_5f93b3cb:
 
     # dick "Хорошо, Моника."
     # "Отвезешь меня к дому?"
-    dick "All right, Monica."
+    dick "Хорошо, Моника."
     "Will you take me home?"
 
 # game/Quests/Dick_Car_Parting.rpy:61
@@ -325,18 +325,4 @@ translate english strings:
     # Quests/Dick_Car_Parting.rpy:152
     old "Дик облажался, но он старался..."
     new "Dick screwed up, but he tried..."
-
-# TODO: Translation updated at 2018-12-12 15:07
-
-# game/Quests/Dick_Car_Parting.rpy:45
-translate english dick_meeting1_car_parting2_28c16d2b:
-
-    # m "Нет, Дик!"
-    # "Ты уже дважды разочаровал меня!"
-    # "Боюсь, что третий раз уже слишком сильно скажется на наших отношениях!"
-    # "А ты для меня пока еще полезен."
-    m "No, Dick!"
-    "You've already disappointed me twice!"
-    "I'm afraid that the third time will have too much of an impact on our relationship!"
-    "And you're still useful for me."
 

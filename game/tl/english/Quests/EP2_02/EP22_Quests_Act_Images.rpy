@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-01-14 00:27
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2_02/EP22_Quests_Act_Images.rpy:82
 translate english ep22_Act_Images_monica_put_up_panties_a33590fd:

@@ -1,56 +1,30 @@
-﻿# TODO: Translation updated at 2019-01-07 20:06
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
-# game/Quests/EP2_02/ep22_casting.rpy:8
+# game/Quests/EP2_02/ep22_casting.rpy:4
+translate english ep22_dialogue6_6_loop2_47ee974b:
+
+    # help "Пока доступны только две возможностьи. Другие пункты будут доступны в следующих версиях игры."
+    help "So far only two options are available. More to come in the future versions of the game."
+
+# game/Quests/EP2_02/ep22_casting.rpy:14
 translate english ep22_dialogue6_6_loop1_c021bc08:
 
     # m "Моника Бакфетт хочет показать папочке грудь..."
     m "Monica Buckfett wants to show daddy her breast..."
 
-# game/Quests/EP2_02/ep22_casting.rpy:10
+# game/Quests/EP2_02/ep22_casting.rpy:24
 translate english ep22_dialogue6_6_loop1_f4eb142e:
 
     # m "Я покажу тебе грудь, потому что ты заставил меня..."
     m "I'll show you my breasts, but only because you made me do it..."
 
-# game/Quests/EP2_02/ep22_casting.rpy:13
-translate english ep22_dialogue6_6_loop1_5886aec8:
-
-    # m "Женщина-вамп хочет показать папочке грудь..."
-    m "Lady Noir wants to show daddy her breasts..."
-
-# game/Quests/EP2_02/ep22_casting.rpy:15
-translate english ep22_dialogue6_6_loop1_f4eb142e_1:
-
-    # m "Я покажу тебе грудь, потому что ты заставил меня..."
-    m "I'll show you my breasts, but only because you made me do it..."
-
-# game/Quests/EP2_02/ep22_casting.rpy:18
-translate english ep22_dialogue6_6_loop1_4aa666b0:
-
-    # m "Девушка с календаря хочет показать папочке грудь..."
-    m "The calendar girl wants to show daddy her breasts..."
-
-# game/Quests/EP2_02/ep22_casting.rpy:20
-translate english ep22_dialogue6_6_loop1_f4eb142e_2:
-
-    # m "Я покажу тебе грудь, потому что ты заставил меня..."
-    m "I'll show you my breasts, but only because you made me do it..."
-
-# TODO: Translation updated at 2019-01-07 23:14
-
-# game/Quests/EP2_02/ep22_casting.rpy:4
-translate english ep22_dialogue6_6_loop2_6b0684cd:
-
-    # help "Пока доступна только одна возможность. Другие пункты будут доступны в следующих версиях игры."
-    help "Only one option is available thus far. Other options will be available in future versions of the game."
-
-# game/Quests/EP2_02/ep22_casting.rpy:28
+# game/Quests/EP2_02/ep22_casting.rpy:36
 translate english ep22_dialogue6_6_loop1_4ecb4ee2:
 
     # m "Леди Нуар хочет показать папочке грудь..."
     m "Lady Noir wants to show daddy her breasts..."
 
-# game/Quests/EP2_02/ep22_casting.rpy:30
+# game/Quests/EP2_02/ep22_casting.rpy:38
 translate english ep22_dialogue6_6_loop1_e04d86e7:
 
     # biff "Давай, Леди Нуар! Показывай свои сиськи!"
@@ -58,13 +32,13 @@ translate english ep22_dialogue6_6_loop1_e04d86e7:
     biff "Come, Lady Noir! Show me your Tits!"
     "Don't hide them from daddy!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:44
+# game/Quests/EP2_02/ep22_casting.rpy:57
 translate english ep22_dialogue6_6_loop1_618979c5:
 
     # m "Биф, мне обязательно это делать?"
     m "Biff, do I really have to do this?"
 
-# game/Quests/EP2_02/ep22_casting.rpy:46
+# game/Quests/EP2_02/ep22_casting.rpy:59
 translate english ep22_dialogue6_6_loop1_8be61c7b:
 
     # biff "Давай, Леди Нуар! Показывай свои сиськи!"
@@ -74,13 +48,19 @@ translate english ep22_dialogue6_6_loop1_8be61c7b:
     "Don't hide them from daddy!"
     "Or I'll make Lady Noir show something more!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:52
+# game/Quests/EP2_02/ep22_casting.rpy:66
 translate english ep22_dialogue6_6_loop1_64be27ad:
 
     # biff "Я жду!"
     biff "I'm waiting!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:77
+# game/Quests/EP2_02/ep22_casting.rpy:86
+translate english ep22_dialogue6_6_loop1_4aa666b0:
+
+    # m "Девушка с календаря хочет показать папочке грудь..."
+    m "The calendar girl wants to show daddy her breasts..."
+
+# game/Quests/EP2_02/ep22_casting.rpy:100
 translate english ep22_dialogue6_6_loop1_e0a887bc:
 
     # m "Я знаю, я должна показать тебе грудь..."
@@ -88,8 +68,8 @@ translate english ep22_dialogue6_6_loop1_e0a887bc:
     m "I know I have to show you my breasts..."
     "But could I please not have to do that?"
 
-# game/Quests/EP2_02/ep22_casting.rpy:80
-translate english ep22_dialogue6_6_loop1_2fe9ce97:
+# game/Quests/EP2_02/ep22_casting.rpy:103
+translate english ep22_dialogue6_6_loop1_754bc00d:
 
     # biff "Давай! Девушка с календаря!"
     # "Показывай свои сиськи!"
@@ -98,7 +78,7 @@ translate english ep22_dialogue6_6_loop1_2fe9ce97:
     "Show me you tits!"
     "Otherwise, the next issue of a calendar will have your bare chest for anyone to observe!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:84
+# game/Quests/EP2_02/ep22_casting.rpy:108
 translate english ep22_dialogue6_6_loop1_35bfbc4b:
 
     # mt "Черт! У меня молоток... Может убить этого мерзавца?!"
@@ -110,25 +90,49 @@ translate english ep22_dialogue6_6_loop1_35bfbc4b:
     "..."
     "No... Too dangerous..."
 
-# game/Quests/EP2_02/ep22_casting.rpy:89
+# game/Quests/EP2_02/ep22_casting.rpy:113
 translate english ep22_dialogue6_6_loop1_319b0841:
 
     # biff "Ну же! Сиськи!"
     biff "Come on! Tits!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:96
+# game/Quests/EP2_02/ep22_casting.rpy:122
 translate english ep22_dialogue6_6_loop1_472f3f5c:
 
     # m "На, смотри..."
     m "Fine! Here, look..."
 
-# game/Quests/EP2_02/ep22_casting.rpy:98
+# game/Quests/EP2_02/ep22_casting.rpy:126
 translate english ep22_dialogue6_6_loop1_b54e8927:
 
     # "Мне не нужны проблемы..."
     "I don't want any trouble..."
 
-# game/Quests/EP2_02/ep22_casting.rpy:101
+# game/Quests/EP2_02/ep22_casting.rpy:133
+translate english ep22_dialogue6_6_loop1_3e16788b:
+
+    # m "Роза надежды хочет показать папочке грудь..."
+    m "Ruby Mystery would like to show her chest to you daddy..."
+
+# game/Quests/EP2_02/ep22_casting.rpy:146
+translate english ep22_dialogue6_6_loop1_f4eb142e_1:
+
+    # m "Я покажу тебе грудь, потому что ты заставил меня..."
+    m "I'll show you my breasts, but only because you made me do it..."
+
+# game/Quests/EP2_02/ep22_casting.rpy:159
+translate english ep22_dialogue6_6_loop1_949a2f51:
+
+    # m "Стюардесса хочет показать папочке грудь..."
+    m "Stewardess would like to show her chest to you daddy..."
+
+# game/Quests/EP2_02/ep22_casting.rpy:175
+translate english ep22_dialogue6_6_loop1_2b720bb8:
+
+    # m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
+    m "I'm only doing it because you are forcing me to!"
+
+# game/Quests/EP2_02/ep22_casting.rpy:190
 translate english ep22_dialogue6_6_loop1_e4b86f27:
 
     # biff "Хорошо, папочка доволен!"
@@ -136,64 +140,25 @@ translate english ep22_dialogue6_6_loop1_e4b86f27:
     biff "Okay, daddy's happy!"
     biff "But he's starting to get bored of the seeing the same thing all the time..."
 
-# TODO: Translation updated at 2019-01-15 21:45
-
-translate english strings:
-
-    # Quests/EP2_02/ep22_casting.rpy:177
-    old "Достать член Бифа и засунуть его в секретаршу. (disabled)"
-    new "Get Biff's dick and put it to the Secretary. (disabled)"
-# TODO: Translation updated at 2019-01-19 16:54
-
-# game/Quests/EP2_02/ep22_casting.rpy:101
-translate english ep22_dialogue6_6_loop1_754bc00d:
-
-    # biff "Давай! Девушка с календаря!"
-    # "Показывай свои сиськи!"
-    # "Иначе я скажу Алексу чтобы эти голые сиськи смотрели прямо с календаря!"
-    biff "Come on! Calendar girl!"
-    "Show me you tits!"
-    "Otherwise, the next issue of a calendar will have your bare chest for anyone to observe!"
-
-# TODO: Translation updated at 2019-02-28 21:29
-
-# game/Quests/EP2_02/ep22_casting.rpy:131
-translate english ep22_dialogue6_6_loop1_3e16788b:
-
-    # m "Роза надежды хочет показать папочке грудь..."
-    m "Ruby Mystery would like to show her chest to you daddy..."
-
-# game/Quests/EP2_02/ep22_casting.rpy:157
-translate english ep22_dialogue6_6_loop1_949a2f51:
-
-    # m "Стюардесса хочет показать папочке грудь..."
-    m "Stewardess would like to show her chest to you daddy..."
-
-# game/Quests/EP2_02/ep22_casting.rpy:173
-translate english ep22_dialogue6_6_loop1_2b720bb8:
-
-    # m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
-    m "I'm only doing it because you are forcing me to!"
-
-# game/Quests/EP2_02/ep22_casting.rpy:195
+# game/Quests/EP2_02/ep22_casting.rpy:200
 translate english ep22_dialogue6_6_loop1_f917ffc4:
 
     # m "Моника Бакфетт хочет показать папочке свой зад..."
     m "Monica Buckfett would like to show her back to you daddy..."
 
-# game/Quests/EP2_02/ep22_casting.rpy:208
+# game/Quests/EP2_02/ep22_casting.rpy:213
 translate english ep22_dialogue6_6_loop1_c508d927:
 
     # m "Я покажу тебе зад, потому что ты заставил меня..."
     m "I'm only doing it because you are forcing me to!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:223
+# game/Quests/EP2_02/ep22_casting.rpy:228
 translate english ep22_dialogue6_6_loop1_b7b10b40:
 
     # m "Леди Нуар хочет показать папочке свой зад..."
     m "Lady Noir would like to show her back to you daddy..."
 
-# game/Quests/EP2_02/ep22_casting.rpy:225
+# game/Quests/EP2_02/ep22_casting.rpy:230
 translate english ep22_dialogue6_6_loop1_041a111d:
 
     # biff "Давай, Леди Нуар! Показывай свои зад!"
@@ -201,13 +166,13 @@ translate english ep22_dialogue6_6_loop1_041a111d:
     biff "Come on, Lady Noir! Show me your ass!"
     "Don't hide it from daddy!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:255
+# game/Quests/EP2_02/ep22_casting.rpy:260
 translate english ep22_dialogue6_6_loop1_618979c5_1:
 
     # m "Биф, мне обязательно это делать?"
     m "Biff, do I really have to do this?"
 
-# game/Quests/EP2_02/ep22_casting.rpy:257
+# game/Quests/EP2_02/ep22_casting.rpy:262
 translate english ep22_dialogue6_6_loop1_e69fc150:
 
     # biff "Давай, Леди Нуар! Показывай свои зад!"
@@ -217,19 +182,19 @@ translate english ep22_dialogue6_6_loop1_e69fc150:
     "Don't hide it from daddy!"
     "Or else it will be shown on a camera!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:263
+# game/Quests/EP2_02/ep22_casting.rpy:268
 translate english ep22_dialogue6_6_loop1_64be27ad_1:
 
     # biff "Я жду!"
     biff "I'm waiting!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:292
+# game/Quests/EP2_02/ep22_casting.rpy:297
 translate english ep22_dialogue6_6_loop1_37a7ae47:
 
     # m "Девушка с календаря хочет показать папочке свою попу..."
     m "Calendar girl would like to show her back to you daddy..."
 
-# game/Quests/EP2_02/ep22_casting.rpy:294
+# game/Quests/EP2_02/ep22_casting.rpy:299
 translate english ep22_dialogue6_6_loop1_611afbe7:
 
     # biff "Давай! Девушка с календаря!"
@@ -237,13 +202,13 @@ translate english ep22_dialogue6_6_loop1_611afbe7:
     biff "Come on! Calendar girl!"
     "Show your ass!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:303
+# game/Quests/EP2_02/ep22_casting.rpy:308
 translate english ep22_dialogue6_6_loop1_472f3f5c_1:
 
     # m "На, смотри..."
     m "Fine! Here, look..."
 
-# game/Quests/EP2_02/ep22_casting.rpy:319
+# game/Quests/EP2_02/ep22_casting.rpy:324
 translate english ep22_dialogue6_6_loop1_a0090d54:
 
     # m "Я знаю, я должна показать тебе свой зад..."
@@ -251,7 +216,7 @@ translate english ep22_dialogue6_6_loop1_a0090d54:
     m "I know! I know..."
     "But could I please not have to do that?"
 
-# game/Quests/EP2_02/ep22_casting.rpy:322
+# game/Quests/EP2_02/ep22_casting.rpy:327
 translate english ep22_dialogue6_6_loop1_4443ebe3:
 
     # biff "Давай! Девушка с календаря!"
@@ -261,31 +226,31 @@ translate english ep22_dialogue6_6_loop1_4443ebe3:
     "Show your ass!"
     "Otherwise, the next issue of a calendar issue will have your bare ass for anyone to observe."
 
-# game/Quests/EP2_02/ep22_casting.rpy:326
+# game/Quests/EP2_02/ep22_casting.rpy:331
 translate english ep22_dialogue6_6_loop1_f04a56f0:
 
     # biff "Ну же! Зад!"
     biff "Come on! Hurry up!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:334
+# game/Quests/EP2_02/ep22_casting.rpy:339
 translate english ep22_dialogue6_6_loop1_472f3f5c_2:
 
     # m "На, смотри..."
     m "Fine! Here, look..."
 
-# game/Quests/EP2_02/ep22_casting.rpy:346
+# game/Quests/EP2_02/ep22_casting.rpy:351
 translate english ep22_dialogue6_6_loop1_b54e8927_1:
 
     # "Мне не нужны проблемы..."
     "I don't want any trouble..."
 
-# game/Quests/EP2_02/ep22_casting.rpy:352
+# game/Quests/EP2_02/ep22_casting.rpy:357
 translate english ep22_dialogue6_6_loop1_f1e6764d:
 
     # m "Роза надежды хочет показать папочке свой зад..."
     m "Ruby Mystery would like to show her back to you daddy..."
 
-# game/Quests/EP2_02/ep22_casting.rpy:354
+# game/Quests/EP2_02/ep22_casting.rpy:359
 translate english ep22_dialogue6_6_loop1_8dbf7b08:
 
     # biff "Давай, Роза!"
@@ -293,13 +258,13 @@ translate english ep22_dialogue6_6_loop1_8dbf7b08:
     biff "Hurry up! Ruby Mystery!"
     "Show your ass!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:378
+# game/Quests/EP2_02/ep22_casting.rpy:383
 translate english ep22_dialogue6_6_loop1_caf45e77:
 
     # m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
     m "I'm only doing it because you are forcing me to!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:380
+# game/Quests/EP2_02/ep22_casting.rpy:385
 translate english ep22_dialogue6_6_loop1_8dbf7b08_1:
 
     # biff "Давай, Роза!"
@@ -307,13 +272,13 @@ translate english ep22_dialogue6_6_loop1_8dbf7b08_1:
     biff "Hurry up! Ruby Mystery!"
     "Show your ass!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:406
+# game/Quests/EP2_02/ep22_casting.rpy:411
 translate english ep22_dialogue6_6_loop1_8388cdd1:
 
     # m "Стюардесса Fashion Airlines хочет показать папочке свой зад..."
     m "Fashion Airline's stewardess would like to show her back to you daddy..."
 
-# game/Quests/EP2_02/ep22_casting.rpy:408
+# game/Quests/EP2_02/ep22_casting.rpy:413
 translate english ep22_dialogue6_6_loop1_b20aba78:
 
     # biff "Давай, Стюардесса!"
@@ -321,13 +286,13 @@ translate english ep22_dialogue6_6_loop1_b20aba78:
     biff "Hurry up! Stewardess!"
     "Show your ass!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:434
+# game/Quests/EP2_02/ep22_casting.rpy:439
 translate english ep22_dialogue6_6_loop1_caf45e77_1:
 
     # m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
     m "I'm only doing it because you are forcing me to!"
 
-# game/Quests/EP2_02/ep22_casting.rpy:436
+# game/Quests/EP2_02/ep22_casting.rpy:441
 translate english ep22_dialogue6_6_loop1_b20aba78_1:
 
     # biff "Давай, Стюардесса!"
@@ -335,7 +300,17 @@ translate english ep22_dialogue6_6_loop1_b20aba78_1:
     biff "Hurry up! Stewardess!"
     "Show your ass!"
 
+# game/Quests/EP2_02/ep22_casting.rpy:466
+translate english ep22_dialogue6_6_loop1_c8cb2977:
+
+    # biff "Хорошо, папочка доволен!"
+    biff "Okay, daddy's happy!"
+
 translate english strings:
+
+    # Quests/EP2_02/ep22_casting.rpy:5
+    old "Показать обнаженную грудь."
+    new "Show naked breasts."
 
     # Quests/EP2_02/ep22_casting.rpy:5
     old "Показать обнаженную попу."
@@ -345,11 +320,115 @@ translate english strings:
     old "Показать обнаженную попу. (фотосессия не завершена) (disabled)"
     new "Show naked ass. (photo session not completed) (disabled)"
 
-# TODO: Translation updated at 2019-03-02 22:55
+    # Quests/EP2_02/ep22_casting.rpy:5
+    old "Раздеться и принимать различные модельные позы. (disabled)"
+    new "Take off clothes and make various model poses. (disabled)"
 
-# game/Quests/EP2_02/ep22_casting.rpy:4
-translate english ep22_dialogue6_6_loop2_47ee974b:
+    # Quests/EP2_02/ep22_casting.rpy:5
+    old "Раздеться и встать на колени задом к Бифу. (disabled)"
+    new "Take off clothes and get on the knees showing ass to Biff. (disabled)"
 
-    # help "Пока доступны только две возможностьи. Другие пункты будут доступны в следующих версиях игры."
-    help "So far only two options are available. More to come in the future versions of the game."
+    # Quests/EP2_02/ep22_casting.rpy:5
+    old "Раздеться и лечь на пол раздвинув ноги. (disabled)"
+    new "Take off clothes and lie on the floor with legs apart. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:5
+    old "Раздеться и сесть на стол."
+    new "Take off clothes and sit on the table."
+
+    # Quests/EP2_02/ep22_casting.rpy:5
+    old "Раздеться и сесть на Бифа."
+    new "Take off clothes and sit on Biff."
+
+    # Quests/EP2_02/ep22_casting.rpy:5
+    old "Позвать секретаршу."
+    new "Get the Secretary."
+
+    # Quests/EP2_02/ep22_casting.rpy:478
+    old "Поставить на стол одну ногу. (disabled)"
+    new "Put one foot on the table. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:478
+    old "Сесть на стол лицом к Бифу, широко раздвинув ноги. (disabled)"
+    new "Sit on the table face-to-Biff, spread legs wide apart. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:478
+    old "Сесть на стол спиной к Бифу. (disabled)"
+    new "Sit on the table with back to Biff. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:478
+    old "Сесть на стол, достать член Бифа и взять его в рот. (disabled)"
+    new "Sit on the table get Biff's dick and take it in the mouth. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:478
+    old "Сесть на стол. достать член Бифа и возить им по киске. (disabled)"
+    new "Sit on the table get Biff's dick and put it on the pussy. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:478
+    old "Сесть на стол, достать член Бифа и вставить его в свою киску. (disabled)"
+    new "Sit on the table get Biff's dick and put it into your pussy. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:478
+    old "Сесть на стол, достать член Бифа и вставить его в анальное отверстие. (disabled)"
+    new "Sit on the table get Biff's dick and put it into your asshole. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:478
+    old "Назад."
+    new "Backward."
+
+    # Quests/EP2_02/ep22_casting.rpy:496
+    old "Сесть к Бифу на коленки лицом к нему. (disabled)"
+    new "Sit on Biff's knees facing him. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:496
+    old "Сесть к Бифу на коленки спиной. (disabled)"
+    new "Sit on Biff's knees with your back to him. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:496
+    old "Сесть Бифу киской на лицо. (disabled)"
+    new "Sit on Biff's face with your pussy. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:496
+    old "Достать член Бифа и сесть на него лицом к Бифу (disabled)"
+    new "Get Biff's dick and sit on him face-to-Biff (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:496
+    old "Достать член Бифа и сесть на него спиной к Бифу (disabled)"
+    new "Get Biff's dick and sit on it back to the Biff (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:496
+    old "Достать член Бифа и сесть на него анальным отверстием (disabled)"
+    new "Get Biff's dick and sit on it with your asshole (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:496
+    old "Полизать папочке зад. (disabled)"
+    new "Lick daddy's ass. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:515
+    old "Поцеловать секретаршу. (disabled)"
+    new "Kiss the Secretary. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:515
+    old "Полизать секретарше грудь. (disabled)"
+    new "Lick the Secretary's chest. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:515
+    old "Полизать секретарше киску. (disabled)"
+    new "Lick the Secretary's pussy. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:515
+    old "Засунуть секретарше язык глубоко в анальное отверстие. (disabled)"
+    new "Stick the tongue deep into the Secretary's asshole. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:515
+    old "Достать член Бифа и засунуть его в секретаршу. (disabled)"
+    new "Get Biff's dick and put it to the Secretary. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:515
+    old "Засунуть член в ее киску, затем вытащить и облизать его. (disabled)"
+    new "Stick a dick in her pussy, then pull out and lick it. (disabled)"
+
+    # Quests/EP2_02/ep22_casting.rpy:515
+    old "Засунуть член в ее анальное отверстие, затем вытащить и облизать его. (disabled)"
+    new "Stick a dick in her asshole, then pull out and lick it. (disabled)"
 

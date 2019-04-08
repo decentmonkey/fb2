@@ -1,94 +1,4 @@
-﻿# TODO: Translation updated at 2019-02-16 02:59
-
-# game/Quests/EP2_03/ep23_photoshoot4.rpy:109
-translate english tempaaa1_b9cd880a:
-
-    # alex_photograph "Мэм! Мы закончили фотосессию!"
-    # m "Наконец-то!!!"
-    alex_photograph "Ma'am! We're finished with the photo shoot!"
-    m "Finally!!!"
-
-# game/Quests/EP2_03/ep23_photoshoot4.rpy:112
-translate english tempaaa1_00d63a19:
-
-    # mt "Что теперь?"
-    mt "Now what?"
-
-# TODO: Translation updated at 2019-02-28 21:29
-
-# game/Quests/EP2_03/ep23_photoshoot4.rpy:125
-translate english ep23_photoshoot4_casting_cb9f49f2:
-
-    # m "Привет, Биф. Я пришла..."
-    m "Hi, Biff. I came..."
-
-# game/Quests/EP2_03/ep23_photoshoot4.rpy:129
-translate english ep23_photoshoot4_casting_e97962ff:
-
-    # biff "О! Цыпочка пришла к папочке!"
-    biff "That's right little girl, come to daddy!"
-
-# game/Quests/EP2_03/ep23_photoshoot4.rpy:132
-translate english ep23_photoshoot4_casting_c0132395:
-
-    # mt "Мне надо притвориться и завоевать его расположение..."
-    mt "I need to pretend and to gain his trust..."
-
-# game/Quests/EP2_03/ep23_photoshoot4.rpy:135
-translate english ep23_photoshoot4_casting_26c7e3c1:
-
-    # m "Да, цыпочка пришла к папочке..."
-    # "Цыпочка хорошая..."
-    m "Yeah, the girl is coming to daddy..."
-    "Good girl..."
-
-# game/Quests/EP2_03/ep23_photoshoot4.rpy:138
-translate english ep23_photoshoot4_casting_d3fec468:
-
-    # biff "Кто сегодня цыпочка?"
-    # m "Сегодня цыпочка - это Роза Надежды..."
-    biff "Who's the girl tonight?"
-    m "Today your babe is Ruby Mystery..."
-
-# game/Quests/EP2_03/ep23_photoshoot4.rpy:141
-translate english ep23_photoshoot4_casting_8bb65f7e:
-
-    # biff "Что Роза Надежды хочет показать папочке?"
-    biff "What does she want to show to her daddy today?"
-
-# game/Quests/EP2_03/ep23_photoshoot4.rpy:147
-translate english ep23_photoshoot4_casting_f4e1f245:
-
-    # mt "Мерзавец!"
-    mt "Bastard!"
-
-# game/Quests/EP2_03/ep23_photoshoot4.rpy:153
-translate english ep23_photoshoot4_casting_aaf46f34:
-
-    # m "Я пришла, потому что обещала хорошо вести себя..."
-    m "I came because I promised to behave like a good girl..."
-
-# game/Quests/EP2_03/ep23_photoshoot4.rpy:158
-translate english ep23_photoshoot4_casting_b65c11aa:
-
-    # m "Ты заставил меня придти..."
-    m "You made me come here..."
-
-# game/Quests/EP2_03/ep23_photoshoot4.rpy:159
-translate english ep23_photoshoot4_casting_2b8d9f4a:
-
-    # mt "Ненавижу!!!"
-    # biff "И что цыпочка будет делать?"
-    mt "I hate this!!!"
-    biff "And what is this girl going to do?"
-
-# game/Quests/EP2_03/ep23_photoshoot4.rpy:166
-translate english ep23_photoshoot4_casting_f4e1f245_1:
-
-    # mt "Мерзавец!"
-    mt "Bastard!"
-
-# TODO: Translation updated at 2019-03-02 22:55
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:16
 translate english ep22_photoshoot4_39656896:
@@ -247,6 +157,78 @@ translate english ep22_photoshoot4_end_65571a75:
     # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
     "..."
     "Damn... Especially since I promised him I'd be a good girl. Otherwise, he won't give me any work..."
+
+# game/Quests/EP2_03/ep23_photoshoot4.rpy:681
+translate english ep23_photoshoot4_casting_cb9f49f2:
+
+    # m "Привет, Биф. Я пришла..."
+    m "Hi, Biff. I came..."
+
+# game/Quests/EP2_03/ep23_photoshoot4.rpy:688
+translate english ep23_photoshoot4_casting_e97962ff:
+
+    # biff "О! Цыпочка пришла к папочке!"
+    biff "That's right little girl, come to daddy!"
+
+# game/Quests/EP2_03/ep23_photoshoot4.rpy:691
+translate english ep23_photoshoot4_casting_c0132395:
+
+    # mt "Мне надо притвориться и завоевать его расположение..."
+    mt "I need to pretend and to gain his trust..."
+
+# game/Quests/EP2_03/ep23_photoshoot4.rpy:694
+translate english ep23_photoshoot4_casting_26c7e3c1:
+
+    # m "Да, цыпочка пришла к папочке..."
+    # "Цыпочка хорошая..."
+    m "Yeah, the girl is coming to daddy..."
+    "Good girl..."
+
+# game/Quests/EP2_03/ep23_photoshoot4.rpy:697
+translate english ep23_photoshoot4_casting_d3fec468:
+
+    # biff "Кто сегодня цыпочка?"
+    # m "Сегодня цыпочка - это Роза Надежды..."
+    biff "Who's the girl tonight?"
+    m "Today your babe is Ruby Mystery..."
+
+# game/Quests/EP2_03/ep23_photoshoot4.rpy:700
+translate english ep23_photoshoot4_casting_8bb65f7e:
+
+    # biff "Что Роза Надежды хочет показать папочке?"
+    biff "What does she want to show to her daddy today?"
+
+# game/Quests/EP2_03/ep23_photoshoot4.rpy:706
+translate english ep23_photoshoot4_casting_f4e1f245:
+
+    # mt "Мерзавец!"
+    mt "Bastard!"
+
+# game/Quests/EP2_03/ep23_photoshoot4.rpy:712
+translate english ep23_photoshoot4_casting_aaf46f34:
+
+    # m "Я пришла, потому что обещала хорошо вести себя..."
+    m "I came because I promised to behave like a good girl..."
+
+# game/Quests/EP2_03/ep23_photoshoot4.rpy:717
+translate english ep23_photoshoot4_casting_b65c11aa:
+
+    # m "Ты заставил меня придти..."
+    m "You made me come here..."
+
+# game/Quests/EP2_03/ep23_photoshoot4.rpy:718
+translate english ep23_photoshoot4_casting_2b8d9f4a:
+
+    # mt "Ненавижу!!!"
+    # biff "И что цыпочка будет делать?"
+    mt "I hate this!!!"
+    biff "And what is this girl going to do?"
+
+# game/Quests/EP2_03/ep23_photoshoot4.rpy:725
+translate english ep23_photoshoot4_casting_f4e1f245_1:
+
+    # mt "Мерзавец!"
+    mt "Bastard!"
 
 translate english strings:
 

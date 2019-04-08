@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-02-28 21:29
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:28
 translate english ep22_quests_Gas_Station_Food1_buy_food_1d49c419:

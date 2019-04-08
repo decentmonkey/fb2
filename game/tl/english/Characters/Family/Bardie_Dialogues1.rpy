@@ -48,3 +48,31 @@ translate english bardie_comment4_b96410b1:
     m "I'm not gonna prove anything to you, baby!"
     m "Get out of my way!"
 
+# TODO: Translation updated at 2019-04-08 16:14
+
+# game/Characters/Family/Bardie_Dialogues1.rpy:21
+translate english bardieDialogue1_27701d53:
+
+    # bardie "Ах ты так!"
+    # bardie_t "Ну она у меня попляшет!"
+    bardie "You!"
+    bardie_t "Well, she will have to be held responsible for this!"
+
+# game/Characters/Family/Bardie_Dialogues1.rpy:39
+translate english bardie_comment4_5e66c3f2:
+
+    # m "С какой стати я буду это делать?!"
+    m "Why on earth would I do that?!"
+
+# game/Characters/Family/Bardie_Dialogues1.rpy:41
+translate english bardie_comment4_2fbbe860:
+
+    # bardie "Ты там что-то прячешь! Ты что-то украла!"
+    bardie "You're hiding something in there! You stole something!"
+
+# game/Characters/Family/Bardie_Dialogues1.rpy:47
+translate english bardie_comment4_4cbe27a0:
+
+    # bardie "Тогда докажи! Подними юбку!"
+    bardie "Then prove it! Lift your skirt up!"
+

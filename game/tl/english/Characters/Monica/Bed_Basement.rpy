@@ -166,3 +166,37 @@ translate english strings:
     old "Поесть и лечь спать."
     new "Eat and go to bed."
 
+# TODO: Translation updated at 2019-04-08 16:14
+
+# game/Characters/Monica/Bed_Basement.rpy:27
+translate english monica_wakeup1_a2404ba7:
+
+    # mt "Еще одно утро в этой дыре! Мне надо что-то придумать, чтобы вернуть все назад как было!"
+    # mt "Я не высыпаюсь на этой кровати."
+    # "Мне нужна нормальная постель!"
+    # mt "Такая королева как я не может привыкнуть спать в таких условиях!"
+    # "Я заслуживаю лучшего!"
+    # mt "Это мой дом! Я не заслуживаю того чтобы спать в подвале!"
+    # mt "Мне надо что-то придумать, чтобы вернуть все назад как было!"
+    mt "Another morning in this hole! I have to think of something to get my house back!"
+    mt "I don't get enough sleep on this bed."
+    "I need a proper bed!"
+    mt "A Queen like me can't get used to sleeping in these conditions!"
+    "I deserve better!"
+    mt "This is my house! I don't deserve to sleep in the basement!"
+    mt "I have to think of something to get it back!"
+
+translate english strings:
+
+    # Characters/Monica/Bed_Basement.rpy:52
+    old "Не ложиться."
+    new "Stay up."
+
+    # Characters/Monica/Bed_Basement.rpy:99
+    old "Лечь спать голодной."
+    new "Go to bed hungry."
+
+    # Characters/Monica/Bed_Basement.rpy:133
+    old "Лечь спать."
+    new "Go to sleep."
+

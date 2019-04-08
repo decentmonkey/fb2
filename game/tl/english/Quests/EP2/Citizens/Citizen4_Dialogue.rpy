@@ -1,68 +1,16 @@
-﻿# TODO: Translation updated at 2018-12-05 18:00
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:4
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:5
 translate english citizen4_dialogue_b8f1bd99:
 
     # m "Мистер... Можно к Вам обратиться?"
     m "Mister... May I ask you?"
 
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:9
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:10
 translate english citizen4_dialogue_2df7ab1d:
 
     # citizen4 "Нельзя!"
     citizen4 "No way!"
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:11
-translate english citizen4_loop1_67ab3514:
-
-    # citizen4 "Да?"
-    citizen4 "Yes?"
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:15
-translate english citizen4_loop1_05979ea1:
-
-    # m "Возьмите, пожалуйста, этот флаер..."
-    m "Please, take this flyer..."
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:19
-translate english citizen4_dialogue_5e125193:
-
-    # citizen4 "Хорошо."
-    # citizen4 "А что на нем?"
-    # m "Это реклама вкусного кебаба... Там же написано!"
-    citizen4 "Alright."
-    citizen4 "What is it?"
-    m "It's an ad for some very delicious kebab... It says so!"
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:23
-translate english citizen4_loop1_f8745961:
-
-    # citizen4 "А я подумал Вы подошли познакомиться со мной!"
-    citizen4 "I thought you were coming to meet me!"
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:28
-translate english citizen4_loop1_da9bd1ba:
-
-    # m "У меня нет желания знакомиться с Вами!"
-    m "I have no desire to meet you!"
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:33
-translate english citizen4_loop1_a3e67ba0:
-
-    # citizen4 "Давайте в другой раз!"
-    citizen4 "Next time!"
-
-translate english strings:
-
-    # Quests/EP2/Citizens/Citizen4_Dialogue.rpy:25
-    old "У меня нет желания знакомиться с Вами!"
-    new "I have no desire to meet you!"
-
-    # Quests/EP2/Citizens/Citizen4_Dialogue.rpy:25
-    old "Что Вы подразумеваете под знакомством? (disabled)"
-    new "What do you mean by 'acquaintance'? (disabled)"
-
-# TODO: Translation updated at 2019-01-09 13:28
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:12
 translate english citizen4_dialogue_67ab3514:
@@ -75,6 +23,16 @@ translate english citizen4_dialogue_05979ea1:
 
     # m "Возьмите, пожалуйста, этот флаер..."
     m "Please, take this flyer..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:21
+translate english citizen4_dialogue_5e125193:
+
+    # citizen4 "Хорошо."
+    # citizen4 "А что на нем?"
+    # m "Это реклама вкусного кебаба... Там же написано!"
+    citizen4 "Хорошо."
+    citizen4 "What is it?"
+    m "It's an ad for some very delicious kebab... It says so!"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:25
 translate english citizen4_dialogue_94968960:
@@ -89,150 +47,18 @@ translate english citizen4_dialogue_da9bd1ba:
     m "I have no desire to meet you!"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:33
-translate english citizen4_dialogue_3223e679:
+translate english citizen4_dialogue_5d080525:
 
     # m "Что вы имеете ввиду?"
-    # сitizen4 "Я бы хотел узнать по ближе такую красотку. Думаю, мы бы договорились."
+    # citizen4 "Я бы хотел узнать по ближе такую красотку. Думаю, мы бы договорились."
     # m "Договорились о чем?"
     # citizen4 "Что за вопросы? Обычно девушки вашей профессии это понимают."
     # mt "Да что за люди здесь живут?! Всем надо одно и то же..."
     m "What do you mean?"
-    сitizen4 "Well, I'd like to aquint myself with a pretty girl like you. I think we would have found a great arrangement for the two of us."
+    citizen4 "Well, I'd like to aquint myself with a pretty girl like you. I think we would have found a great arrangement for the two of us."
     m "What do you mean?"
     citizen4 "You know what I mean. Girls in your profession don't have to ask about these things!"
     mt "Ugh, what kind of people live in this place?! They all want the same thing..."
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:40
-translate english citizen4_dialogue_a3e67ba0:
-
-    # citizen4 "Давайте в другой раз!"
-    citizen4 "Next time!"
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:50
-translate english citizen4_dialogue_pilon_34556769:
-
-    # m "Привет! Помню, ты хотел познакомиться поближе?"
-    m "Hi! I remember you wanted to get to know me."
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:52
-translate english citizen4_dialogue_pilon_846e5942:
-
-    # citizen4 "Конечно, давай познакомимся."
-    # m "Ну я не о близком знакомстве...Немного о другом."
-    # citizen4 "Да не вопрос, я понимаю о чем речь. Любой из нашего района тебя поймет с полу слова."
-    # citizen4 "Ну что, давай начнем."
-    citizen4 "Yes, that's right."
-    m "Good, but I'm not actually talking about getting to know each other."
-    citizen4 "Oh, don't worry, I understand perfectly what you mean. Everyone who lives here would understand what you're saying right now."
-    citizen4 "Well, let's get started."
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:63
-translate english citizen4_dialogue_pilon_loop4_a4d6d47c:
-
-    # citizen4 "Покажи мне свои сиськи!"
-    citizen4 "Show me your boobs!"
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:65
-translate english citizen4_dialogue_pilon_loop4_a7283d00:
-
-    # mt "Я не могу себе этого позволить!"
-    # "Я еще не настолько опустилась!"
-    # "И, надеюсь, этого не произойдет НИКОГДА!"
-    # help "Требуется 50 corruption"
-    mt "I can't do that!"
-    "I'm not sinking that low yet!"
-    "And I hope I NEVER DO!"
-    help "50 corruption required"
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:71
-translate english citizen4_dialogue_pilon_loop4_48b1ace1:
-
-    # m "Я не собираюсь раздеваться, только так."
-    m "I'm not taking off my clothes..."
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:75
-translate english citizen4_dialogue_pilon_loop4_810a1fb4:
-
-    # citizen4 "Да, очень хорошо, но я видел сиськи и получше!"
-    citizen4 "They're very good, but I've seen better!"
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:77
-translate english citizen4_dialogue_pilon_loop4_dd728403:
-
-    # mt "Козел!"
-    mt "Asshole!"
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:79
-translate english citizen4_dialogue_pilon_loop4_f52852df:
-
-    # citizen4 "Хотя весьма не плохо."
-    citizen4 "Although, it's not bad."
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:84
-translate english citizen4_dialogue_pilon_loop4_7c030a6c:
-
-    # citizen4 "Покажи свой задницу."
-    citizen4 "Now show me your ass."
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:86
-translate english citizen4_dialogue_pilon_loop4_f7e05701:
-
-    # mt "Я не могу себе этого позволить!"
-    # "Я еще не настолько опустилась!"
-    # "И, надеюсь, этого не произойдет НИКОГДА!"
-    # help "Требуется 70 corruption"
-    mt "I can't do that!"
-    "I'm not sinking that low yet!"
-    "And I hope I NEVER DO!"
-    help "Requires 70 corruption"
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:92
-translate english citizen4_dialogue_pilon_loop4_48b1ace1_1:
-
-    # m "Я не собираюсь раздеваться, только так."
-    m "I'm not taking off my clothes..."
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:96
-translate english citizen4_dialogue_pilon_loop4_74152a4d:
-
-    # citizen4 "Красивая задница, но я люблю побольше!"
-    citizen4 "Beautiful ass, but I'd want to see it bigger!"
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:98
-translate english citizen4_dialogue_pilon_loop4_a834c593:
-
-    # citizen4 "Но ее можно увеличить, подумай об этом."
-    citizen4 "If you could find a way to enhance it, you should think about it!"
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:104
-translate english citizen4_dialogue_pilon_loop4_c705b98c:
-
-    # citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
-    # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen4 "And you're nothing like that, we'll have to get back to our acquaintance. Here you go."
-    m "What?! This little? Well, at least I'll be rich soon when I get my life back..."
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:109
-translate english citizen4_dialogue_pilon_loop4_c705b98c_1:
-
-    # citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
-    # m "Что?! Так мало? Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen4 "And you're nothing like that, we'll have to get back to our acquaintance. Here you go."
-    m "What?! This little? Well, at least I'll be rich soon when I get my life back..."
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:115
-translate english citizen4_dialogue_pilon_loop4_48a0c8d9:
-
-    # citizen4 "Какое то не продуктивное вышло знакомство. Надеюсь, в другой раз будет лучше."
-    citizen4 "This wasn't a very productive meeting, I'm hoping for better next time!"
-
-translate english strings:
-
-    # Quests/EP2/Citizens/Citizen4_Dialogue.rpy:26
-    old "Что Вы подразумеваете под знакомством?"
-    new "What do you mean by an acquaintance?"
-
-# TODO: Translation updated at 2019-01-09 21:51
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:39
 translate english citizen4_dialogue_d443b848:
@@ -240,63 +66,17 @@ translate english citizen4_dialogue_d443b848:
     # mt "В любом случае об этом лучше говорить без этой дурацкой рекламы кебаба..."
     mt "In any case, it is better to speak without this stupid commercial kebab..."
 
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:54
-translate english citizen4_dialogue_pilon_5385b0de:
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:42
+translate english citizen4_dialogue_a3e67ba0:
 
-    # citizen4 "Конечно, давай познакомимся."
-    # m "Ну я не о близком знакомстве...Немного о другом."
-    # citizen4 "Да не вопрос, я понимаю о чем речь. Любой из нашего района тебя поймет с полуслова."
-    # citizen4 "Ну что, давай начнем."
-    citizen4 "Yes, that's right."
-    m "Good, but I'm not actually talking about getting to know each other."
-    citizen4 "No questions, I understand exactly what you mean. Anybody from here would!"
-    citizen4 "Well, let's get started."
+    # citizen4 "Давайте в другой раз!"
+    citizen4 "Next time!"
 
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:67
-translate english citizen4_dialogue_pilon_loop4_e7678610:
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:52
+translate english citizen4_dialogue_pilon_34556769:
 
-    # mt "Я не могу себе этого позволить!"
-    # "Я еще не настолько опустилась!"
-    # "И, надеюсь, этого не произойдет НИКОГДА!"
-    # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
-    mt "I can't do that!"
-    "I'm not sinking that low yet!"
-    "And I hope I NEVER DO!"
-    help "Required [monicaWhoringClothBoobsCorruptionrequired] corruption"
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:88
-translate english citizen4_dialogue_pilon_loop4_299ae0b0:
-
-    # mt "Я не могу себе этого позволить!"
-    # "Я еще не настолько опустилась!"
-    # "И, надеюсь, этого не произойдет НИКОГДА!"
-    # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
-    mt "I can't do that!"
-    "I'm not sinking that low yet!"
-    "And I hope I NEVER DO!"
-    help "Required [monicaWhoringClothAssCorruptionRequired] corruption"
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:106
-translate english citizen4_dialogue_pilon_loop4_ff0104e6:
-
-    # citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
-    # m "Что?! Так мало? Мог бы дать и больше!"
-    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen4 "And you're nothing like that, we'll have to get back to our acquaintance. Here you go."
-    m "What?! This little?"
-    mt "Well, at least I'll be rich soon when I get my life back..."
-
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:112
-translate english citizen4_dialogue_pilon_loop4_ff0104e6_1:
-
-    # citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
-    # m "Что?! Так мало? Мог бы дать и больше!"
-    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    citizen4 "And you're nothing like that, we'll have to get back to our acquaintance. Here you go."
-    m "What?! This little?"
-    mt "Well, at least I'll be rich soon when I get my life back..."
-
-# TODO: Translation updated at 2019-01-16 14:59
+    # m "Привет! Помню, ты хотел познакомиться поближе?"
+    m "Hi! I remember you wanted to get to know me."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:54
 translate english citizen4_dialogue_pilon_d52af87d:
@@ -314,51 +94,83 @@ translate english citizen4_dialogue_pilon_0bf21327:
     # citizen4 "Ну что, давай начнем."
     citizen4 "Well, let's get started."
 
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:116
-translate english citizen4_dialogue_pilon_loop4_b29e8d1c:
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:71
+translate english citizen4_dialogue_pilon_loop4_a4d6d47c:
 
-    # citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
-    citizen4 "And you're nothing like that, we'll have to get back to our acquaintance. Here you go."
+    # citizen4 "Покажи мне свои сиськи!"
+    citizen4 "Show me your boobs!"
 
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:119
-translate english citizen4_dialogue_pilon_loop4_ea17d522:
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:73
+translate english citizen4_dialogue_pilon_loop4_e7678610:
 
-    # m "Что?! Так мало? Мог бы дать и больше!"
-    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    m "What?! This little?"
-    mt "Well, at least I'll be rich soon when I get my life back..."
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
+    help "Required [monicaWhoringClothBoobsCorruptionrequired] corruption"
 
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:125
-translate english citizen4_dialogue_pilon_loop4_b29e8d1c_1:
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:80
+translate english citizen4_dialogue_pilon_loop4_48b1ace1:
 
-    # citizen4 "А ты ничего такая, надо будет вернуться к нашему знакомству. Держи, заслужила."
-    citizen4 "And you're nothing like that, we'll have to get back to our acquaintance. Here you go."
+    # m "Я не собираюсь раздеваться, только так."
+    m "I'm not taking off my clothes..."
 
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:128
-translate english citizen4_dialogue_pilon_loop4_ea17d522_1:
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:84
+translate english citizen4_dialogue_pilon_loop4_810a1fb4:
 
-    # m "Что?! Так мало? Мог бы дать и больше!"
-    # mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
-    m "What?! This little?"
-    mt "Well, at least I'll be rich soon when I get my life back..."
+    # citizen4 "Да, очень хорошо, но я видел сиськи и получше!"
+    citizen4 "They're very good, but I've seen better!"
 
-# TODO: Translation updated at 2019-01-16 16:40
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:86
+translate english citizen4_dialogue_pilon_loop4_dd728403:
 
-# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:33
-translate english citizen4_dialogue_5d080525:
+    # mt "Козел!"
+    mt "Asshole!"
 
-    # m "Что вы имеете ввиду?"
-    # citizen4 "Я бы хотел узнать по ближе такую красотку. Думаю, мы бы договорились."
-    # m "Договорились о чем?"
-    # citizen4 "Что за вопросы? Обычно девушки вашей профессии это понимают."
-    # mt "Да что за люди здесь живут?! Всем надо одно и то же..."
-    m "What do you mean?"
-    citizen4 "Well, I'd like to aquint myself with a pretty girl like you. I think we would have found a great arrangement for the two of us."
-    m "What do you mean?"
-    citizen4 "You know what I mean. Girls in your profession don't have to ask about these things!"
-    mt "Ugh, what kind of people live in this place?! They all want the same thing..."
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:88
+translate english citizen4_dialogue_pilon_loop4_f52852df:
 
-# TODO: Translation updated at 2019-02-28 21:29
+    # citizen4 "Хотя весьма не плохо."
+    citizen4 "Although, it's not bad."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:95
+translate english citizen4_dialogue_pilon_loop4_7c030a6c:
+
+    # citizen4 "Покажи свой задницу."
+    citizen4 "Now show me your ass."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:98
+translate english citizen4_dialogue_pilon_loop4_299ae0b0:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
+    mt "I can't do that!"
+    "I'm not sinking that low yet!"
+    "And I hope I NEVER DO!"
+    help "Required [monicaWhoringClothAssCorruptionRequired] corruption"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:105
+translate english citizen4_dialogue_pilon_loop4_48b1ace1_1:
+
+    # m "Я не собираюсь раздеваться, только так."
+    m "I'm not taking off my clothes..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:109
+translate english citizen4_dialogue_pilon_loop4_74152a4d:
+
+    # citizen4 "Красивая задница, но я люблю побольше!"
+    citizen4 "Beautiful ass, but I'd want to see it bigger!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:111
+translate english citizen4_dialogue_pilon_loop4_a834c593:
+
+    # citizen4 "Но ее можно увеличить, подумай об этом."
+    citizen4 "If you could find a way to enhance it, you should think about it!"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:120
 translate english citizen4_dialogue_pilon_loop4_4df3fe38:
@@ -489,4 +301,14 @@ translate english citizen4_dialogue_pilon_loop4_1_48a0c8d9:
 
     # citizen4 "Какое то не продуктивное вышло знакомство. Надеюсь, в другой раз будет лучше."
     citizen4 "This wasn't a very productive meeting, I'm hoping for better next time!"
+
+translate english strings:
+
+    # Quests/EP2/Citizens/Citizen4_Dialogue.rpy:26
+    old "У меня нет желания знакомиться с Вами!"
+    new "I have no desire to meet you!"
+
+    # Quests/EP2/Citizens/Citizen4_Dialogue.rpy:26
+    old "Что Вы подразумеваете под знакомством?"
+    new "What do you mean by an acquaintance?"
 
