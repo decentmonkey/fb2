@@ -138,7 +138,7 @@ define monicaWhoringClothNakedBoobsCorruptionProgress = 2 #Кол-во corruptio
 define monicaWhoringClothBoobsOrButtMoney = 0.25 # Моника показала грудь в одежде, либо зад в одежде (что-то одно)
 define monicaWhoringClothBoobsAndButtMoney = 0.50 # Моника показала грудь в одежде и зад в одежде (и то и то)
 define monicaWhoringClothDanceMoney = 0.25 # Моника станцеывала в одежде
-define monicaWhoringNakedBoobsMoney = 0.50 # Моника показала голую грудь
+define monicaWhoringNakedBoobsMoney = 1 # Моника показала голую грудь
 
 define monicaVictoriaShowBoobsToCameraCorruptionRequired = 59 #Кол-во corruption, чтобы Моника показала грудь Виктории на телефон
 define monicaDickSeduceAsVictoriaByAssCorruptionRequired = 62 #Кол-во corruption, чтобы Моника показала Дику зад
