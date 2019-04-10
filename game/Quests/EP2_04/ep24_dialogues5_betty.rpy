@@ -194,7 +194,7 @@ label ep24_dialogues5_betty2:
     betty "!!!"
 
     return
-label ep24_dialogues5_betty2:
+label ep24_dialogues5_betty2b:
     # Бетти у зеркала, Барди проверяет ее трусики
     img 10421
     with fadelong
@@ -219,6 +219,7 @@ label ep24_dialogues5_betty2:
     img 10432
     #nude
     img 10433
+    label random11111_subnude:
         #random
         img 10434
         img 10435 #rare
@@ -242,9 +243,53 @@ label ep24_dialogues5_betty3:
             pass
         "Уйти.":
             return False
+    img 10469
+    with fade
+    w
+    img 10470
+    with fade
+    w
     m "Миссис Робертс, я бы хотела проверить Ваши трусики..."
+    img 10471
     betty "!!!"
+    img 10472
     m "..."
+    img 10473
+    with fade
+    betty "Ладно..."
+    img 10474
+    w
+
+    #betty
+    img 10475
+    img 10476
+    img 10477 #общий
+    img 10478
+    #
+    img 10479
+    img 10480
+    img 10477 #общий
+    img 10481
+    #
+    img 10482
+    img 10483
+    img 10477 #общий
+    img 10484
+    #
+    img 10485
+    img 10486
+    img 10477 #общий
+    img 10487
+    #
+    img 10488
+    img 10489
+    img 10477 #общий
+    img 10490
+    #
+
+    betty "На, гувернантка, смотри."
+    betty "И не вздумай одеть другие!"
+
     betty "На, гувернантка, смотри. И не вздумай надеть другие!"
     return
 
