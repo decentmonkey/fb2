@@ -229,6 +229,13 @@ label citizen9_dialogue_pilon:
             citizen9 "Ууу... Так намного лучше! Ходи так всегда!"
             call pylonController(4, 1)
             mt "Размечтался..."
+            citizen9 "Ты знаешь, тут не далеко продают кебабы, хотя ты конечно знаешь!"
+            "Если ты сходишь мне вот так за кебабом, я дам тебе 100$. Что скажешь?"
+            call pylonController(4, 1)
+            m "Что значит Вот так?!"
+            citizen9 "А что тут не понятно? Ну в одежде, которая на тебе сейчас."
+            m "Да ни за что!"
+            mt "Хотя 100$ - не маленькие деньги..."
             $ showedNakedBoobs = True
             $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen9_dialogue_pilon_loop9

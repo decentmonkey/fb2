@@ -209,6 +209,10 @@ label citizen13_dialogue_pilon:
             citizen13 "А тебе есть что показать! Когда нибудь у меня будут такие же!"
             call pylonController(4, 1)
             mt "Да не дай бог..."
+            citizen13 "Подруга, а где ты такие сделала?"
+            m "Что?! Она настоящие!"
+            call pylonController(4, 5)
+            citizen13 "Да?! Хорошо сохранилась, подруга!"
             $ showedNakedBoobs = True
             $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             $ store_citizen_action("PylonDanceCloth", 1)

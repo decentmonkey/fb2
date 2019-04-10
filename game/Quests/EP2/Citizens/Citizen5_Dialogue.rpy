@@ -136,6 +136,11 @@ label citizen5_dialogue_pilon:
             call showRandomImages(pylonClothDanceImages4, 4)
 #            call pylonController(4, 5)
             citizen5 "Ооо! Какие красивые изгибания!"
+            citizen5 "Они похожи гору Фудзи, только две. Ты быда там?"
+            call pylonController(4, 1)
+            m "Нет, и не очень то и хочется."
+            citizen5 "Вот и зря! Побывать нужно незамедлительно!"
+            call pylonController(4, 5)
             $ restore_music()
             call pylonController(4, 1)
             with fade

@@ -180,8 +180,15 @@ label citizen7_dialogue_pilon:
             call showRandomImages(nakedboobsImages, 4)
             call pylonController(4, 5)
             citizen7 "Я так и знал, что они восхитительны!"
-            call pylonController(4, 1)
             mt "Это правда."
+            call pylonController(4, 1)
+            citizen7 "Думаю, я знаю, чему будет посвящена моя следующая картина!"
+            citizen7 "Да, кстати, как насчет того, чтобы стать моей моделью? Это новый уровень!"
+            m "Нет, спасибо."
+            call pylonController(4, 5)
+            citizen7 "Уверен, ты передумаешь! Сотни девушек мечтают о карьере модели!"
+            call pylonController(4, 1)
+            mt "Мне ли не знать, хе-хе..."
             $ showedNakedBoobs = True
             $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen7_dialogue_pilon_loop7

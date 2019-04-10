@@ -230,7 +230,12 @@ label citizen3_dialogue_pilon:
             citizen3 "Очень хорошо. Сиськи как у Сары! Ты знакома с Сарой?"
             "Хотя почему я спрашиваю? Конечно вы знакомы."
             call pylonController(4, 1)
-            mt "О какой еще Саре он говорит?"
+            citizen3 "Да ладно тебе, поговори со мной! Что думаешь?"
+            m "Я не знаю о ком ты говоришь."
+            call pylonController(4, 5)
+            citizen3 "Ну как же, Сара! У нее лучшие сиськи на районе!"
+            citizen3 "Надо будет как нибудь устроить соревнование. да, это отличная идея!"
+            mt "Интересно, о ком это он? Хотя какая разница, у меня нет соперниц."
             $ showedNakedBoobs = True
             $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen3_dialogue_pilon_loop3
