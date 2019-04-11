@@ -291,6 +291,8 @@ label ep24_dialogues5_betty3:
     betty "И не вздумай одеть другие!"
 
     betty "На, гувернантка, смотри. И не вздумай надеть другие!"
+    img 10491
+    w
     return
 
 label ep24_dialogues5_betty4:
@@ -417,13 +419,130 @@ label ep24_dialogues5_betty6:
     return False
     #
 
-
+    img 10492
+    w
+    img 10493
     m "Миссис Робертс, я бы хотела проверить Ваши трусики..."
+    img 10494
+    betty "!!!"
+
+    #обычный
     # Бетти показывает попу
+    img 10495
+    with fade
+    w
+
+    img 10496
+    w
+    img 10497
+    w
+
+    #random
+    img 10498
+    img 10499
+    img 10500
+    img 10501
+    img 10502
+    img 10503
+    img 10504
+    img 10505
+    #
+
+
+    img 10506
     betty "Я соблюдаю правила этого дома..."
+    img 10507
+    with fade
     betty "Покажи, что ты тоже!"
+    img 10508
+    w
+    img 10509
     m "Да, Миссис Робертс, конечно..."
     # Моника показывает попу
+    img 10510
+    with fade
+    w
+    img 10511
+    w
+    img 10512
+    w
+    img 10513
+    w
+
+    #random
+    img 10514
+    img 10515
+    img 10516
+    img 10517
+    img 10518
+    img 10519
+    img 10520
+    img 10521
+    #
+    img 10522
+    w
+    img 10523
+    w
+    img 10524
+    m "Я тоже соблюдаю правила этого дома..."
+    return
+
+    #бонус
+    img 10525
+    with fade
+    w
+    img 10526
+    w
+    img 10527
+    w
+    img 10528
+    w
+    img 10529
+    w
+    #random
+    img 10530
+    img 10531
+    img 10532
+    img 10533
+    img 10534
+    img 10535
+    #
+
+    img 10536
+    betty "Я соблюдаю правила этого дома..."
+    betty "Покажи, что ты тоже!"
+
+    img 10537
+    m "Да, Миссис Робертс, конечно..."
+    img 10538
+    with fade
+    w
+    img 10539
+    w
+    #random
+    img 10540
+    img 10541
+    img 10542
+    img 10543
+    img 10544
+    img 10545
+    #
+    img 10546
+    w
+    img 10547
+    w
+    img 10548
+    w
+    img 10549
+    w
+    img 10550
+    w
+    img 10551
+    w
+    img 10552
+    w
+    img 10553
+    with fade
     m "Я тоже соблюдаю правила этого дома..."
 
     return

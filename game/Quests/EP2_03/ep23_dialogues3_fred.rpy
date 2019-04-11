@@ -321,7 +321,10 @@ label ep23_dialogues3_4:
     $ store_music()
     music Groove2_85 high
     if monicaBettyPanties == False:
-        img 8683
+        if monicaUnder == "Nude":
+            img 10554
+        else:
+            img 8683
     else:
         if monicaBettyPantiesId == 1:
             img 8684

@@ -59,7 +59,11 @@ label basement_shower_use1:
     img 7095
     with fade
     w
-    $ shower_images = ["7096", "7097", "7098", "7099", "7100", "7101", "7102", "7103", "7104", "7105", "7106", "7107"]
+    if monicaPussyShaved == False:
+        $ shower_images = ["7096", "7097", "7098", "7099", "7100", "7101", "7102", "7103", "7104", "7105", "7106", "7107"]
+    else:
+        $ shower_images = ["7096", "7097", "7098", "10564", "10565", "10566", "7102", "7103", "10567", "7105", "7106", "7107"]
+
     $ images = random.sample(set(shower_images), 3)
 
     img images[0]
@@ -97,7 +101,10 @@ label basement_toilet_use1:
 
     #governess
     if cloth == "Governess":
-        $ toilet_images = ["7088", "7089", "7090", "7091", "7092", "7093", "7094"]
+        if monicaUnder != "Nude":
+            $ toilet_images = ["7088", "7089", "7090", "7091", "7092", "7093", "7094"]
+        else:
+            $ toilet_images = ["10568", "10569", "10570"]
 
     $ images = random.sample(set(toilet_images), 3)
 
@@ -113,7 +120,7 @@ label basement_toilet_use1:
         if monicaBettyPantiesId == 5:
             $ images = [7175, 7176, 7177]
 
-    
+
     img images[0]
     with fade
     w

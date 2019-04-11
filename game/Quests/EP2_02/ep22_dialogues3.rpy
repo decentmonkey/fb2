@@ -563,13 +563,21 @@ label cleaning2_bardie_comment1:
     #Governess Pants
 #    bardie "Моника! Покажи трусики!"
     if monicaBettyPanties == False:
-        img 7659
-        sound Jump2
-        bardie "Моника! Можешь не отвлекаться!"
-        img 7660
-        "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
-        img 7661
-        w
+        if monicaUnder == "Nude":
+            img 10561
+            w
+            img 10562
+            w
+            img 10563
+            w
+        else:
+            img 7659
+            sound Jump2
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7660
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7661
+            w
     else:
         if monicaBettyPantiesId == 1:
             #Betty1
@@ -655,13 +663,21 @@ label cleaning2_bardie_comment2:
     m "Да, Барди... Я стараюсь убираться хорошо..."
 #    bardie "И подними юбку! Я хочу проверить твои трусики!"
     if monicaBettyPanties == False:
-        #Governess Pants - 7619, 7620, 7621
-        img 7619
-        w
-        img 7620
-        w
-        img 7621
-        w
+        if monicaUnder == "Nude":
+            img 10555
+            w
+            img 10556
+            w
+            img 10557
+            w
+        else:
+            #Governess Pants - 7619, 7620, 7621
+            img 7619
+            w
+            img 7620
+            w
+            img 7621
+            w
     else:
         if monicaBettyPantiesId == 1:
             #Betty1
@@ -737,13 +753,22 @@ label cleaning2_bardie_comment3:
     img 7638
     bardie "Моника! Покажи трусики!"
     if monicaBettyPanties == False:
-        #Governess Pants
-        img 7639
-        w
-        img 7640
-        w
-        img 7641
-        w
+        if monicaUnder == "Nude":
+            #Nude
+            img 10558
+            w
+            img 10559
+            w
+            img 10560
+            w
+        else:
+            #Governess Pants
+            img 7639
+            w
+            img 7640
+            w
+            img 7641
+            w
     else:
         if monicaBettyPantiesId == 1:
             #Betty1
