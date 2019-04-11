@@ -109,6 +109,7 @@ label citizen15_dialogue_pilon:
             # Разовое событие после которого появится еще 1 события у пилона -  голая грудь
             #Первый раз!!!
             if fallingPathServedCustomersTotal >= 20 and 1==1:
+                img 10571
                 citizen15 "Хотя... Ты красивая девочка. Хочу оценить их без одежды."
                 "Я недавно провернул одно дельце и у меня есть лишние 50$. Что скажешь?"
                 menu:
@@ -117,69 +118,149 @@ label citizen15_dialogue_pilon:
                     "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired]) (disabled)" if corruption < monicaWhoringClothNakedBoobsCorruptionRequired:
                         pass
                     "Отказаться.":
-                        call pylonController(4, 1)
+#                        call pylonController(4, 1)
+                        img 10572
                         m "Да за кого ты меня принимаешь?!"
                         m "Этого не будет никогда!"
+                        img 10571
                         citizen15 "Тогда мои 50$ достанутся более сговорчивой девочке."
                         jump citizen15_dialogue_pilon_loop15
-                call pylonController(1, 1) #моника просто стоит у пилона
+#                call pylonController(1, 1) #моника просто стоит у пилона
+                img 10573
                 mt "50$ были бы не лишними... Хорошо, что здесь никого нет."
+                img 10574
                 m "50$ ?"
+                img 10575
                 citizen15 "Все верно, девочка. Покажешь своих подружек и они твои."
+                img 10576
                 mt "Черт! Моника, ты уверена что станешь делать это???"
                 mt "Станешь показывать свою грудь какому-то нищему за жалкие 50$?"
+                img 10577
                 mt "Но, с другой стороны, это же не я показываю грудь, а какая-то шлюха в трущобах."
                 mt "Ведь никто даже представить себе не может что это делает Моника Бакфетт."
                 mt "Это как какая-то виртуальная игра, в которой все не по настоящему..."
                 mt "Но вот 50$, которые я получу, вполне реальны!"
-                call pylonController(3, 1)
+#                call pylonController(3, 1)
+                img 10578
                 m "Ладно, только не трогать!"
+                img 10579
                 citizen15 "Об этом не волнуйся, детка. Я не хочу проблем с твоим сутенером."
+                img 10580
                 mt "Да за кого он меня принимает?"
-                call pylonController(3, 2)
+#                call pylonController(3, 2)
+                img 10581
                 m "Хорошо, давай деньги."
-                citizen15 "А ты не глупая девочка. Вот, держи."
-                $ add_money(50)
+                img 10582
+                citizen15 "Только после того, как покажешь."
+                citizen15 "Деньги вперед я могу дать только твоему сутенеру!"
+                citizen15 "Извини, но таким девочкам как ты я на слово не верю..."
+#                citizen15 "А ты не глупая девочка. Вот, держи."
+#                $ add_money(50)
+#                with fade
+#                call showRandomImages(nakedboobsImages, 4)
+#                call pylonController(3, 5) #моника показывет голые сиськи
+                img 10583
+                m "!!!"
+                m "Отвернись!"
+                img 10584
                 with fade
-                call showRandomImages(nakedboobsImages, 4)
-                call pylonController(3, 5) #моника показывет голые сиськи
+                w
+                img 10585
+                with fade
+                w
+                #показывает
+                img 10586
+                with fade
+                w
+                img 10587
+                with Dissolve(0.3)
+                $ renpy.pause(1.5)
+                img 10586
+                with Dissolve(0.3)
                 citizen15 "Эй! Куда ты их спрятала?!"
+                img 10588
                 m "Я показала тебе свою грудь! Давай деньги!"
                 citizen15 "Ты что, пошутила?! Я ничего не успел рассмотреть!"
                 m "Ты увидел достаточно! Давай деньги, скорее!"
+                img 10589
                 citizen15 "Я не дам тебе ничего, пока ты не покажешь мне грудь нормально!"
                 citizen15 "Я хочу рассмотреть ее как следует! Иначе никаких денег!"
+                img 10590
                 m "!!!"
                 menu:
                     "Согласиться...":
                         pass
                     "Отказаться.":
-                        call pylonController(4, 1)
+#                        call pylonController(4, 1)
+                        img 10591
                         m "Да за кого ты меня принимаешь?!"
                         citizen15 "Тогда мои 50$ достанутся более сговорчивой девочке."
                         jump citizen15_dialogue_pilon_loop15
                 #Моника снова показывает грудь быстро
+                img 10592
+                with Dissolve(0.3)
+                $ renpy.pause(0.5)
+                img 10590
+                with Dissolve(0.3)
                 citizen15 "Эй! Хватит кривляться! Покажи грудь нормально!"
+
+                img 10593
                 citizen15 "Покажи грудь, а я досчитаю до пяти!"
                 citizen15 "Если ты уберешь грудь раньше, то не получишь никаких денег!"
+                img 10594
+                with fade
+                m "..."
+                citizen15 "..."
+                m "..."
+                citizen15 "50$!"
                 menu:
                     "Согласиться...":
                         pass
                     "Отказаться.":
-                        call pylonController(4, 1)
+#                        call pylonController(4, 1)
+                        img 10572
                         m "Да за кого ты меня принимаешь?!"
                         citizen15 "Тогда мои 50$ достанутся более сговорчивой девочке."
                         jump citizen15_dialogue_pilon_loop15
 
                 #Моника показывает грудь, а citizen ее обсматривает
+                img 10595
+                with Dissolve(0.5)
+                w
+                img 10596
+                with fade
                 citizen15 "Один..."
+                img 10597
+                with fade
                 citizen15 "Два..."
+                img 10598
+                with fade
                 citizen15 "Три..."
+                img 10599
+                with fade
+                w
+                img 10600
+                with fade
+                w
+                img 10601
+                w
+                img 10602
+                with fade
                 citizen15 "Четыре..."
+                img 10603
+                with fade
+                w
+                img 10604
+                with fade
+                w
+                img 10605
+                with fade
                 citizen15 "Пять..."
                 #Моника убирает грудь
+                img 10606
                 m "Доволен?"
                 citizen15 "Более чем..."
+                $ add_money(50)
                 $ pylonpart3startsCompleted = True
                 # Добавить сколько то corruption
                 $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
