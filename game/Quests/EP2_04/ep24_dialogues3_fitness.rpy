@@ -433,6 +433,186 @@ label ep24_dialogues3_fitness3:
     fitness_instructor "Расслабься и чувствуй меня!"
 
     #идет секс
+    music stop
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_1.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_1_1 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_1_1.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_1_1
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_1.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_1_2 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_1_2.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_1_2
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_1.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_1_3 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_1_3.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_1_3
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_1.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_1_4 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_1_4.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_1_4
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_1.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_1_5 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_1_5.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_1_5
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_1.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_1_6 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_1_6.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_1_6
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_1.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_1_7 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_1_7.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_1_7
+    wclean
+
+
+    music stop
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_2.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_2_1 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_2_1.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_2_1
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_2.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_2_2 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_2_2.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_2_2
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_2.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_2_3 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_2_3.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_2_3
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_2.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_2_4 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_2_4.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_2_4
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_2.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_2_5 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_2_5.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_2_5
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_2.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_2_6 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_2_6.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_2_6
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_2.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_2_7 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_2_7.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_2_7
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_2.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_2_8 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_2_8.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_2_8
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_2.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_2_9 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_2_9.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_2_9
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_2.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_2_10 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_2_10.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_2_10
+    wclean
+
+
+#############
+
+    music stop
+    stop music
+    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_3_1 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_1.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_3_1
+    wclean
+    stop music
+    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_3_2 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_2.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_3_2
+    wclean
+    stop music
+    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_3_3 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_3.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_3_3
+    wclean
+    stop music
+    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_3_4 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_4.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_3_4
+    wclean
+    stop music
+    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_3_5 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_5.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_3_5
+    wclean
+    stop music
+    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_3_6 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_6.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_3_6
+    wclean
+    stop music
+    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_3_7 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_7.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_3_7
+    wclean
+    stop music
+    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_3_8 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_8.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_3_8
+    wclean
+    stop music
+    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_3_9 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_9.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_3_9
+    wclean
+    stop music
+    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_3_10 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_10.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_3_10
+    wclean
+    stop music
+    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    scene black
+    image videov_Fitness_Instructor_Betty_Sex_3_11 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_11.mkv", fps=30)
+    show videov_Fitness_Instructor_Betty_Sex_3_11
+    wclean
+
+######
+
 
     fitness_instructor "Чувствуй меня, следуй за мной!"
     betty "Да! Хорошо!"

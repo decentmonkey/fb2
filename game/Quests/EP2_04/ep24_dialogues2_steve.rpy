@@ -513,6 +513,55 @@ label ep24_dialogues2_steve7:
     with Dissolve(0.5)
     betty "Стив! Давай быстрее!"
 
+    music stop
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
+    scene black
+    image video_House_Kitchen_Steve_Betty_Sex_1_1 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_1.mkv", fps=30)
+    show video_House_Kitchen_Steve_Betty_Sex_1_1
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
+    scene black
+    image video_House_Kitchen_Steve_Betty_Sex_1_2 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_2.mkv", fps=30)
+    show video_House_Kitchen_Steve_Betty_Sex_1_2
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
+    scene black
+    image video_House_Kitchen_Steve_Betty_Sex_1_3 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_3.mkv", fps=30)
+    show video_House_Kitchen_Steve_Betty_Sex_1_3
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
+    scene black
+    image video_House_Kitchen_Steve_Betty_Sex_1_4 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_4.mkv", fps=30)
+    show video_House_Kitchen_Steve_Betty_Sex_1_4
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
+    scene black
+    image video_House_Kitchen_Steve_Betty_Sex_1_5 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_5.mkv", fps=30)
+    show video_House_Kitchen_Steve_Betty_Sex_1_5
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
+    scene black
+    image video_House_Kitchen_Steve_Betty_Sex_1_6 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_6.mkv", fps=30)
+    show video_House_Kitchen_Steve_Betty_Sex_1_6
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
+    scene black
+    image video_House_Kitchen_Steve_Betty_Sex_1_7 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_7.mkv", fps=30)
+    show video_House_Kitchen_Steve_Betty_Sex_1_7
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
+    scene black
+    image video_House_Kitchen_Steve_Betty_Sex_1_8 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_8.mkv", fps=30)
+    show video_House_Kitchen_Steve_Betty_Sex_1_8
+    wclean
 
     # Идет секс
     steve "О! Бетти! Твоя попка бесподобна!"
@@ -1567,6 +1616,63 @@ label ep24_dialogues3_steve10_loop1:
 # Идет секс
 
     #видео1 начало
+    music stop
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_1_1 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_1.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_1_1
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_1_2 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_2.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_1_2
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_1_3 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_3.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_1_3
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_1_4 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_4.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_1_4
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_1_5 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_5.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_1_5
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_1_6 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_6.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_1_6
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_1_7 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_7.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_1_7
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_1_8 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_8.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_1_8
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_1_9 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_9.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_1_9
+    wclean
+
+
 # Во время секса Моника говорит: я забыла спросить, Стив...
 # Деньги у тебя с собой?!
 # Стив отвечает: Моника, конечно с собой!
@@ -1658,6 +1764,87 @@ label ep24_dialogues3_steve10_loop1:
     w
 
     #видео2
+    music stop
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_2_1 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_1.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_2_1
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_2_2 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_2.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_2_2
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_2_3 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_3.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_2_3
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_2_4 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_4.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_2_4
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_2_5 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_5.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_2_5
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_2_6 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_6.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_2_6
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_2_7 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_7.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_2_7
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_2_8 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_8.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_2_8
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_2_9 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_9.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_2_9
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_2_10 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_10.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_2_10
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_2_11 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_11.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_2_11
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_2_12 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_12.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_2_12
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
+    scene black
+    image videov_Pool_Basement_Steve_Monica_Sex_2_13 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_13.mkv", fps=30)
+    show videov_Pool_Basement_Steve_Monica_Sex_2_13
+    wclean
+
+
     img 10119
     steve "Аааах!!!"
     img 10120

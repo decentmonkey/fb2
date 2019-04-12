@@ -272,6 +272,53 @@ label ep24_dialogues4_bardie4:
 
 label ep24_dialogues4_bardie4_loop1:
     # Барди шлепает Монику
+
+    music stop
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_1 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_1.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_1
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_2 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_2.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_2
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_3 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_3.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_3
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_4 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_4.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_4
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_5 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_5.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_5
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_6 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_6.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_6
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_7 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_7.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_7
+    wclean
+
+
+
     bardie "Получай!"
     bardie "Получай!"
     bardie "Нерадивая гувернантка!"
