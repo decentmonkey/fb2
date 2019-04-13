@@ -458,7 +458,7 @@ label ep24_dialogues5_betty6:
     w
     img 10509
     m "Да, Миссис Робертс, конечно..."
-    # Моника показывает попу
+
     img 10510
     with fade
     w
