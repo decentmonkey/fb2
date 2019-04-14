@@ -32,27 +32,27 @@ label start:
     $ inventory_objects = {}
     $ inventory = []
 
-    $ sprites_hover_dummy_screen_flag = False
-    $ add_hook("menu1", "menu_test2", scene="menu", caption = _("Доп. вариант2"), priority = 15, label=["testlab", "vorlab"])
-    $ add_hook("menu1", "menu_test1", scene="menu", caption = _("Доп. вариант1"), priority = 10)
+#    $ sprites_hover_dummy_screen_flag = False
+#    $ add_hook("menu1", "menu_test2", scene="menu", caption = _("Доп. вариант2"), priority = 15, label=["testlab", "vorlab"])
+#    $ add_hook("menu1", "menu_test1", scene="menu", caption = _("Доп. вариант1"), priority = 90, active=False)
 
-    $ remove_hook(label="vorlab")
+#    $ remove_hook(label="vorlab")
 
-    $ menuName = "menu1"
-    menu:
-        "var1":
-            m "var1"
-        "var2":
-            m "var2"
-            m "var2a"
-            m "var2b"
-            m "var2c"
-        "var3":
-            m "var3"
+#    $ menuName = "menu1"
+#    menu:
+#        "var1":
+#            m "var1"
+#        "var2":
+#            m "var2"
+#            m "var2a"
+#            m "var2b"
+#            m "var2c"
+#        "var3":
+#            m "var3"
 
-        "":
-            pass
-    m "[menuName]"
+#        "":
+#            pass
+#    m "[menuName]"
 
     call intro_questions() from _call_intro_questions
     $ ralphAskedAboutPayment = False
