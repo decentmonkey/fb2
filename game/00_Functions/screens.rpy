@@ -1870,7 +1870,7 @@ style about_label_text:
 screen save():
 
     tag menu
-    if (gui.save_game.enabled == False or dialogue_active_flag == True) and 1==1:
+    if (gui.save_game.enabled == False or dialogue_active_flag == True) and 1==2:
         use game_menu("Save"):
             fixed:
                 order_reverse True

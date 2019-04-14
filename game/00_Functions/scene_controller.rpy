@@ -123,7 +123,8 @@ label show_scene_now:
 
 label show_scene_loop:
     $ pause_enter += 1
-    pause
+    $ interact_data = ui.interact()
+#    pause
     $ pause_exit += 1
     if show_scene_loop_flag == False:
         jump show_scene_loop
@@ -208,9 +209,10 @@ label after_load():
     if ep23_quests_initialized == False:
         call ep23_Quests_init()
     $ imagesSizesCache = {}
+    call run_after_load()
+    return
     $ scene_refresh_flag = True #???
     $ show_scene_loop_flag = True
-    call run_after_load()
     jump show_scene
 #    return
 

@@ -191,6 +191,7 @@ default char_progress_stored = {}
 default char_data = False
 
 define imagesSizesCache = {}
+default menuName = False
 
 label characters_init:
     $ char_info = {
