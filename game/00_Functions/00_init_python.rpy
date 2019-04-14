@@ -18,6 +18,8 @@ python early:
     list_files_scene_drop_flag = False
     last_renpy_files_list_crc = 0
 
+    list_files_active = True
+
     def missing_filename_callback(image):
         global episode
         if episode == 1:
@@ -26,27 +28,30 @@ python early:
         return None
 
     def refresh_list_files():
-        global list_files
+        global list_files, list_files_active
         global list_files_dict, list_files_parsed, list_files_scene_drop_flag, last_renpy_files_list_crc
-        if list_files_parsed == True:
-            if list_files_scene_drop_flag == True:
-                return False
-            list_files = renpy.list_files()
-            crc = 0
-            for filename in list_files:
-                crc += binascii.crc32(filename)
-            if crc == last_renpy_files_list_crc and len(list_files_dict) > 0:
-                list_files_scene_drop_flag = True
-                return False
-            last_renpy_files_list_crc = crc
-        else:
-            list_files = renpy.list_files()
-
+        if list_files_active == False:
+            return False
+#        if list_files_parsed == True:
+#            if list_files_scene_drop_flag == True:
+#                return False
+#            list_files = renpy.list_files()
+#            crc = 0
+#            for filename in list_files:
+#                crc += binascii.crc32(filename)
+#            if crc == last_renpy_files_list_crc and len(list_files_dict) > 0:
+#                list_files_scene_drop_flag = True
+#                return False
+#            last_renpy_files_list_crc = crc
+#        else:
+#            list_files = renpy.list_files()
+        list_files = renpy.list_files()
         for filename in list_files:
             baseName = os.path.basename(os.path.splitext(filename)[0]).lower()
             list_files_dict[baseName] = filename
         list_files_parsed = True
         list_files_scene_drop_flag = True
+        list_files_active = False
         return
 
     def refresh_list_files_forced():

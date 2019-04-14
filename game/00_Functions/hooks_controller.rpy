@@ -235,6 +235,16 @@ init python:
 #        print priority_list
         return hooks_list_sorted
 
+    def get_hooks_for_object(hook_obj_name, room_name = False):
+        global scenes_data, api_scene_name
+        if room_name == False:
+            room_name = api_scene_name
+        if scenes_data["hooks"].has_key(room_name) == False or scenes_data["hooks"][room_name].has_key(hook_obj_name) == False:
+            return []
+        hooks_list = scenes_data["hooks"][room_name][hook_obj_name]
+        return hooks_list
+
+
 label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen_flag = False):
     $ _return = None
     if room_name == False:
@@ -287,4 +297,18 @@ label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen
             jump .hooks_call_loop
 
 
+    return _return
+
+label call_hook(label_name, menu_name):
+    $ last_hook_scene = "menu"
+    $ last_hook_obj_name = menu_name
+    $ last_hook_label = label_name
+    if sprites_hover_dummy_screen_flag == True:
+        show screen sprites_hover_dummy_screen()
+        $ sprites_hover_dummy_screen_flag = False
+    call expression label_name #вызов хука
+#    $ stack = renpy.get_return_stack()
+#    $ stack[0] = (stack[0][0], stack[0][1], stack[0][2]+2)
+#    $ renpy.set_return_stack(stack)
+    #$ renpy.pop_call()
     return _return

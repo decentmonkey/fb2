@@ -193,7 +193,8 @@ label remove_dialogue():
 
 
 label after_load():
-    $ refresh_list_files_forced()
+    $ list_files_active = True
+#    $ refresh_list_files_forced()
     if episode < 2:
         call start_saved_game() from _call_start_saved_game
         return

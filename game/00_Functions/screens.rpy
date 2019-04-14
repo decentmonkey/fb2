@@ -1404,7 +1404,64 @@ screen choice(items):
             ]
 
     vbox:
+        python:
+            buttons_list = []
+            priority = 100
+            # creating native buttons list
+            for i in items:
+                if i.action:
+                    str1 = i.caption
+                    button_obj = {"priority": priority, "native":True, "caption":str1, "action":i.action, "active":True}
+                    if " (disabled)" in i.caption:
+                        str1 = __(i.caption)
+                        str1 = str1.replace(" (disabled)", "")
+                        button_obj["caption"] = str1
+                        button_obj["active"] = False
+                    buttons_list.append(button_obj)
+                priority -= 10
+
+            if menuName != False:
+                menu_hooks_list = get_hooks_for_object(menuName, "menu")
+
+                # creating hooks buttons list
+                for i in menu_hooks_list:
+                    button_obj = {"priority":i["priority"], "native":False, "caption": i["caption"] if i.has_key("caption") else i["hook_label"], "active": i["active"] if i.has_key("active") else True, "action":i["hook_label"]}
+                    buttons_list.append(button_obj)
+
+            # sorting priority
+            buttons_list = sort_hooks(buttons_list)
+            buttons_list.reverse()
+
+        # display choices buttons
+        for button_data in buttons_list:
+            if button_data["native"] == True:
+                if button_data["active"] == True:
+                    textbutton button_data["caption"]:
+                        action [
+                            SetVariable("dialogue_active_flag", False),
+                            SetVariable("menuName", False),
+                            button_data["action"]
+                        ]
+                else:
+                    textbutton button_data["caption"] text_style "choice_button_disabled_text"
+            else:
+                if button_data["active"] == True:
+                    $ menuLastName = menuName
+                    textbutton button_data["caption"]:
+                        action [
+                            SetVariable("dialogue_active_flag", False),
+                            SetVariable("menuName", False),
+                            Call("call_hook", button_data["action"], menuLastName),
+                        ]
+                else:
+                    textbutton button_data["caption"] text_style "choice_button_disabled_text"
+
+
+
+
+screen temp_old_data():
         for i in items:
+            $ print get_hooks_for_object(menuName, "menu")
             if i.action:
                 if " (disabled)" in i.caption:
                     $ str1 = __(i.caption)
