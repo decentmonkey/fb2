@@ -9,6 +9,7 @@ python early:
     import json
     import copy
     import pygame
+    import types
     from random import shuffle
 
     dialogue_active_flag = False

@@ -66,3 +66,10 @@ label Bardie_Life_day3:
 label Bardie_Life_evening3:
     $ move_object("Bardie", "empty")
     return False
+
+label Bardie_Life_day4:
+    $ move_object("Bardie", "bedroom_bardie")
+    return False
+label Bardie_Life_evening4:
+    $ move_object("Bardie", "bedroom_bardie")
+    return False

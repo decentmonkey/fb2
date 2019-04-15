@@ -1426,6 +1426,13 @@ screen choice(items):
                 # creating hooks buttons list
                 for i in menu_hooks_list:
                     button_obj = {"priority":i["priority"], "native":False, "caption": i["caption"] if i.has_key("caption") else i["hook_label"], "active": i["active"] if i.has_key("active") else True, "action":i["hook_label"]}
+                    if isinstance(button_obj["active"], basestring):
+                        button_obj["active"] = globals()[button_obj["active"]]()
+                    len1 = len(buttons_list)
+                    if len1>0:
+                        for j in reversed(range(0,len1)):
+                            if buttons_list[j]["caption"] == button_obj["caption"]:
+                                del buttons_list[j]
                     buttons_list.append(button_obj)
 
             # sorting priority

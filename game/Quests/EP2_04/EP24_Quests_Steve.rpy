@@ -27,6 +27,7 @@ label ep24_quests_steve1:
 
 label ep24_quests_steve2:
     # Перехват субботы первого посещения Стива
+    $ remove_hook()
     $ basementBedSkipUntilFridayEnabled = False
     $ skipDaysInterrupted = True
     call ep24_dialogues2_steve3()

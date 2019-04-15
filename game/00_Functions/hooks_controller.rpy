@@ -213,6 +213,25 @@ init python:
                 return flag1
         return False
 
+    def clear_hooks(*args, **kwargs):
+        if kwargs.has_key("scene"):
+            if kwargs["scene"] == "all":
+                rooms_list = list(scenes_data["hooks"].keys())
+            else:
+                rooms_list = [kwargs["scene"]]
+            del kwargs["scene"]
+        else:
+            rooms_list = [api_scene_name]
+        obj_name = False
+        if len(args) >= 1:
+            obj_name = args[0]
+        for room_name in rooms_list:
+            if scenes_data["hooks"].has_key(room_name):
+                if obj_name == False:
+                    scenes_data["hooks"][room_name] = {}
+                else:
+                    if scenes_data["hooks"][room_name].has_key(obj_name):
+                        scenes_data["hooks"][room_name][obj_name] = []
 
     def find_hook_by_label(hooks_list, hook_label):
         for idx in range(len(hooks_list)):

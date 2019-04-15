@@ -255,6 +255,9 @@ label ep24_dialogues2_bardie:
             return False
     return
 
+label ep24_dialogues1_bardie3:
+    help "Прогресс Барди активирован!"
+    return
 
 
 

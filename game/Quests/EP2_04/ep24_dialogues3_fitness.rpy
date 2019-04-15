@@ -33,7 +33,7 @@ label ep24_dialogues3_fitness1:
             pass
         "Не говорить ему...":
             return False
-    music Hidden_Agenda
+    music Groove2_85
     img 10138
     with fade
     m "Барди..."
@@ -80,7 +80,14 @@ label ep24_dialogues3_fitness3:
 # Если согласилась, идет секс.
 
     # Занятие 1
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    pause 1.0
+#    music Loved_Up
+    music Ready_and_Waiting
     img 10142
+    with fadelong
     fitness_instructor "Бетти, расслабься."
     "Здесь только мы одни..."
     betty "Хорошо, я постараюсь..."
@@ -88,28 +95,42 @@ label ep24_dialogues3_fitness3:
     fitness_instructor "Делай вот так, выгибай ногу сильнее."
     betty "Я стараюсь..."
     img 10144
+    with fade
     fitness_instructor "Я помогу тебе, надо только немного поддержать..."
     img 10145
     betty "Вот так?"
     img 10146
+    with fade
     fitness_instructor "Да, тебе надо держать корпус ровнее..."
     "Я помогу тебе..."
     # кладет руку на попу
     img 10147
+    with diss
     sound Jump2
     w
+    img 10149
+    w
+    call photoshop_flash()
+    w
     img 10148
-    bardie "..." #улыбается
     betty "Хорошо..."
 
     #Барди
+    music Sneaky_Snitch
     img 10149
     with fade
-    w
+    bardie "Мне надо продолжать следить за Бетти."
+    bardie "Уверен, что я могу увидеть больше!"
     #
 
     ######
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    pause 1.0
     img 10249
+    with fadelong
+    music Loved_Up
     fitness_instructor "Хорошо, Бетти, молодец."
     fitness_instructor "У тебя уже лучше получается."
     fitness_instructor "В следующий раз мы выполним упражнения посложнее."
@@ -119,28 +140,41 @@ label ep24_dialogues3_fitness3:
 label ep24_dialogues3_fitness3b:
     # Занятие 2
     # рука уже на попе
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    pause 1.0
+    music Ready_and_Waiting
     img 10150
+    with fadelong
     fitness_instructor "Хорошо, Бетти, молодец."
     fitness_instructor "У тебя уже лучше получается."
     img 10151
     fitness_instructor "Тебе надо больше выгибать спинку, постарайся..."
     img 10152
+    with fade
     betty "Я пытаюсь, у меня не получается выгнуться сильнее..."
 
+    music Loved_Up
     img 10153
+    with fadelong
     fitness_instructor "У тебя очень обтягивающая форма."
     img 10154
     fitness_instructor "Она сковывает твои движения."
 
     img 10155
+    with fadelong
     fitness_instructor "Попробуй снять свой верх."
     img 10156
     fitness_instructor "Увидишь, тебе сразу станет свободнее двигаться."
     img 10157
+    with fade
     betty "Правда?"
     "Я немного смущаюсь?"
 
     img 10158
+    with fade
+    sound Jump1
     fitness_instructor "Бетти, я всего-лишь фитнесс тренер."
     fitness_instructor "Я желаю, чтобы ты добилась результатов."
     img 10159
@@ -148,6 +182,7 @@ label ep24_dialogues3_fitness3b:
     betty "Хорошо..."
 
     #Снимает лифчик
+    sound snd_fabric1
     img 10160
     with fade
     w
@@ -158,14 +193,18 @@ label ep24_dialogues3_fitness3b:
     with fade
     w
     img 10163
-    bardie "..."
+    sound Jump2
+    bardie "!!!"
 
     img 10164
     with fade
     w
+    call photoshop_flash()
+    W
 
     # Занимается без лифчика
     img 10165
+    with fadelong
     fitness_instructor "Вот так, Бетти!"
     img 10166
     "Чувствуешь, как тебе стало свободнее двигаться?"
@@ -176,49 +215,84 @@ label ep24_dialogues3_fitness3b:
     img 10168
     betty "Да, я действительно выгнулась гораздо сильнее..."
 
+    img 10173
+    w
     img 10169
+    with fade
+    w
+    call photoshop_flash()
     w
     img 10170
+    with diss
+    w
+    call photoshop_flash()
     w
     img 10171
+    with diss
+    w
+    call photoshop_flash()
     w
     img 10172
+    with diss
+    w
+    call photoshop_flash()
     w
 
     #Барди
+    music Sneaky_Snitch
     img 10173
     with fade
-    w
+    bardie "Мне надо продолжать следить за Бетти."
+    bardie "Уверен, что я могу увидеть больше!"
 
     ############
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    pause 1.0
+    music Loved_Up
     img 10250
+    with fadelong
     fitness_instructor "Хорошо, Бетти, молодец."
     fitness_instructor "У тебя уже лучше получается."
     fitness_instructor "В следующий раз мы выполним упражнения посложнее."
     betty "Хорошо..."
+    return
 
+label ep24_dialogues3_fitness3c:
 
     # Занятие 3
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    pause 1.0
+    music Ready_and_Waiting
     img 10174
+    with fade
     fitness_instructor "Хорошо, Бетти, молодец."
     fitness_instructor "У тебя уже лучше получается."
     fitness_instructor "Ты помнишь что без верха у тебя лучше результаты."
     img 10175
     betty "Да, помню."
     img 10174
+    with fade
     fitness_instructor "Пожалуйста, сними его."
     img 10175
     betty "Хорошо."
 
     #Бетти снова снимает лифчик
+    music Loved_Up
+    sound snd_fabric1
     img 10176
     with fade
     w
     #Барди
     img 10177
-    w
+    bardie "!!!"
     img 10178
     with fade
+    w
+    call photoshop_flash()
     w
     img 10179
     with fadelong
@@ -231,7 +305,9 @@ label ep24_dialogues3_fitness3b:
     "Она... Она просто не гнется дальше и все..."
     img 10181
     betty "У меня не получается!"
+    with diss
     img 10182
+    with fade
     fitness_instructor "Бетти, я знаю что тебе мешает..."
     fitness_instructor "Я знаю что тебе мешает добиться лучших результатов..."
     img 10181
@@ -244,11 +320,14 @@ label ep24_dialogues3_fitness3b:
     fitness_instructor "Твои связки могут позволить тебе сделать упражнение как надо."
     fitness_instructor "Но твоя одежда не позволяет тебе сделать это."
     img 10185
+    with fade
     betty "Что же делать с этим?"
     img 10186
     fitness_instructor "Ты можешь снять с себя это, Бетти."
     betty "Но я... Стесняюсь..."
     img 10187
+    with fadelong
+    sound Jump1
     fitness_instructor "Бетти, я твой инструктор!"
     img 10188
     fitness_instructor "Я провожу персональные занятия с тобой."
@@ -258,19 +337,26 @@ label ep24_dialogues3_fitness3b:
     fitness_instructor "Да, Бетти!"
     fitness_instructor "Ты прекрасна!"
     img 10190
+    with fade
     fitness_instructor "Доверься мне! Я лишь хочу чтобы у тебя получалось!"
     fitness_instructor "Я хочу чтобы ты была успешной!"
     img 10191
+    with fade
     betty "Хорошо, только..."
     img 10192
+    with diss
     betty "Я ведь правда не толстая?"
     img 10193
+    with diss
     fitness_instructor "Бетти, ты прекрасна! Тебе не стоит стесняться своего тела!"
     img 10194
+    with fade
     betty "Хорошо..."
     # Бетти раздевается полностью
+    music Loved_Up2
+    sound snd_fabric1
     img 10195
-    with fade
+    with fadelong
     w
     img 10196
     with Dissolve(0.5)
@@ -281,9 +367,12 @@ label ep24_dialogues3_fitness3b:
     img 10198
     with Dissolve(0.5)
     w
+    call photoshop_flash()
+    w
     img 10199
     w
     img 10200
+    with diss
     w
     img 10201
     with Dissolve(0.5)
@@ -291,8 +380,13 @@ label ep24_dialogues3_fitness3b:
     img 10202
     with Dissolve(0.5)
     w
+    call photoshop_flash()
+    w
     img 10203
+    with fade
     betty "Так хорошо?"
+    call photoshop_flash()
+    w
     fitness_instructor "Да, Бетти. Давай продолжим."
     img 10204
     with fadelong
@@ -301,25 +395,46 @@ label ep24_dialogues3_fitness3b:
     img 10205
     fitness_instructor "У тебя получается, ты чувствуешь?"
     img 10206
+    with fade
     betty "Да, я правда смогла поднять ногу выше..."
+    call photoshop_flash()
+    w
     img 10207
+    with diss
     fitness_instructor "Отлично!"
     fitness_instructor "Ты чувствуешь себя свободной?"
     img 10208
+    with diss
     betty "Да..."
+    call photoshop_flash()
+    w
+
     img 10209
     fitness_instructor "Тебе комортно, ты больше не стесняешь меня?"
     img 10210
     betty "Да, мне очень комфортно..."
 
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    pause 1.0
+    music Loved_Up
     img 10211
+    with fadelong
     fitness_instructor "Хорошо, Бетти, молодец."
     fitness_instructor "У тебя уже лучше получается."
     fitness_instructor "В следующий раз мы выполним упражнения посложнее."
+    return
 
-
+label ep24_dialogues3_fitness3d:
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    pause 1.0
+    music Ready_and_Waiting
     # Занятие 4
     img 10212
+    with fadelong
     fitness_instructor "Хорошо, Бетти, молодец."
     fitness_instructor "У тебя уже лучше получается."
     fitness_instructor "Ты помнишь что одежда сковывает тебя?"
@@ -332,6 +447,8 @@ label ep24_dialogues3_fitness3b:
     betty "Хорошо..."
     #Снимает одежду
 
+    sound snd_fabric1
+    music Loved_Up
     img 10215
     with fade
     w
@@ -339,20 +456,32 @@ label ep24_dialogues3_fitness3b:
     with fade
     w
     img 10217
-    with fade
+    with diss
+    w
+    call photoshop_flash()
     w
     img 10218
-    with fade
+    with diss
+#    sound kiss2
+    w
+    call photoshop_flash()
     w
     img 10219
-    with fade
+    with diss
+    w
+    call photoshop_flash()
     w
     img 10220
-    with fade
+    with diss
+    w
+    call photoshop_flash()
     w
     img 10221
     with fade
     w
+    call photoshop_flash()
+    w
+    sound snd_fabric1
     img 10223
     with fade
     w
@@ -365,6 +494,8 @@ label ep24_dialogues3_fitness3b:
     #Барди
     img 10225
     w
+    call photoshop_flash()
+    w
 
 
     img 10226
@@ -372,6 +503,7 @@ label ep24_dialogues3_fitness3b:
     fitness_instructor "Теперь тянись, тянись как можешь..."
     betty "..."
     img 10227
+    with fade
     fitness_instructor "Вот так, хорошо..."
     fitness_instructor "Давай, ты можешь еще, я знаю."
     img 10228
@@ -385,6 +517,7 @@ label ep24_dialogues3_fitness3b:
     betty "Но как это сделать?"
     betty "Я волнуюсь, я хочу чтобы у меня получалось..."
     img 10231
+    with fade
     fitness_instructor "Тебе нужно пройти сеанс медитации, Бетти."
     fitness_instructor "Тогда ты сможешь расслабиться и у тебя все получится."
     img 10230
@@ -395,6 +528,7 @@ label ep24_dialogues3_fitness3b:
     betty "Да, очень хочу..."
 
     # тренер встает и раздевается
+    music Loved_Up2
     sound snd_fabric1
     img 10234
     with fadelong
@@ -405,32 +539,47 @@ label ep24_dialogues3_fitness3b:
     # обнимает Бетти и лапает за попу
     img 10235
     with fade
+    sound Jump1
     fitness_instructor "Я проведу тебя через весь путь."
     img 10236
+    with diss
+    sound Jump2
     fitness_instructor "Ты поймешь что такое настоящий Дзен..."
-
-    img 10237
+    call photoshop_flash()
     w
+
     img 10238
     bardie "!!!" #довольный фоткает
+    img 10236
+    w
+    img 10237
+    w
+    call photoshop_flash()
+    w
 
     img 10239
+    with fade
     fitness_instructor "Ты хочешь этого?"
     img 10240
+    with fade
     menu:
         "Да, я очень хочу...":
             pass
         "Я хочу, но не таким путем. Я замужем!":
+            music Groove2_85
             img 10241
+            with fade
             betty "Я хочу, но не таким путем. Я замужем!"
             betty "А это выглядит как измена!"
             img 10242
             fitness_instructor "..."
             img 10243
+            with fade
             betty "Я оденусь и мы продолжим."
             betty "Я уверена, что смогу добиться успеха не прибегая к медитациям..."
             fitness_instructor "Хорошо, Бетти..."
             return False
+    $ bettyInstructorSex1 = True
 
     img 10244
     with fade
@@ -439,6 +588,7 @@ label ep24_dialogues3_fitness3b:
     with fade
     w
     img 10246
+    with diss
     betty "Да, я очень хочу..."
     img 10247
     with fadelong
@@ -453,6 +603,9 @@ label ep24_dialogues3_fitness3b:
     scene black
     image videov_Fitness_Instructor_Betty_Sex_1_1 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_1_1.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_1_1
+    show screen camera_record_screen()
+    fitness_instructor "Чувствуй меня, следуй за мной!"
+    betty "Да! Хорошо!"
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_1.mp3"
@@ -477,6 +630,8 @@ label ep24_dialogues3_fitness3b:
     scene black
     image videov_Fitness_Instructor_Betty_Sex_1_5 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_1_5.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_1_5
+    fitness_instructor "Ты чувствуешь меня?"
+    betty "Да!"
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_1.mp3"
@@ -491,13 +646,17 @@ label ep24_dialogues3_fitness3b:
     show videov_Fitness_Instructor_Betty_Sex_1_7
     wclean
 
-
     music stop
+    img black_screen
+    hide screen camera_record_screen
+    with Dissolve(1.0)
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_2.mp3"
     scene black
     image videov_Fitness_Instructor_Betty_Sex_2_1 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_2_1.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_2_1
+    show screen camera_record_screen()
+    with fadelong
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_2.mp3"
@@ -510,6 +669,8 @@ label ep24_dialogues3_fitness3b:
     scene black
     image videov_Fitness_Instructor_Betty_Sex_2_3 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_2_3.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_2_3
+    fitness_instructor "Ты чувствуешь как тебя заполняет энергия равновесия?"
+    betty "Да!"
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_2.mp3"
@@ -528,6 +689,8 @@ label ep24_dialogues3_fitness3b:
     scene black
     image videov_Fitness_Instructor_Betty_Sex_2_6 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_2_6.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_2_6
+    fitness_instructor "Ты чувствуешь прилив энергетических сил?"
+    betty "Да!"
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_2.mp3"
@@ -558,91 +721,94 @@ label ep24_dialogues3_fitness3b:
 #############
 
     music stop
+    img black_screen
+    hide screen camera_record_screen
+    with Dissolve(1.0)
+    pause 1.0
     stop music
     play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
     scene black
     image videov_Fitness_Instructor_Betty_Sex_3_1 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_1.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_3_1
+    show screen camera_record_screen()
+    with fadelong
     wclean
     stop music
-    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    play music "<from " + str((rand(1,6)*1.166)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
     scene black
     image videov_Fitness_Instructor_Betty_Sex_3_2 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_2.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_3_2
+    fitness_instructor "Ты следуешь за мной по дороге к Дзен?"
+    betty "Да!"
     wclean
     stop music
-    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    play music "<from " + str((rand(1,6)*1.166)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
     scene black
     image videov_Fitness_Instructor_Betty_Sex_3_3 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_3.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_3_3
     wclean
     stop music
-    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    play music "<from " + str((rand(1,6)*1.166)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
     scene black
     image videov_Fitness_Instructor_Betty_Sex_3_4 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_4.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_3_4
     wclean
     stop music
-    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    play music "<from " + str((rand(1,6)*1.166)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
     scene black
     image videov_Fitness_Instructor_Betty_Sex_3_5 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_5.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_3_5
+    fitness_instructor "Тебе нравится эта медитация?"
+    betty "Да!"
     wclean
     stop music
-    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    play music "<from " + str((rand(1,6)*1.166)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
     scene black
     image videov_Fitness_Instructor_Betty_Sex_3_6 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_6.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_3_6
+    fitness_instructor "Очень нравится?"
+    betty "Да, очень!"
     wclean
     stop music
-    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    play music "<from " + str((rand(1,6)*1.166)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
     scene black
     image videov_Fitness_Instructor_Betty_Sex_3_7 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_7.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_3_7
     wclean
     stop music
-    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    play music "<from " + str((rand(1,6)*1.166)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
     scene black
     image videov_Fitness_Instructor_Betty_Sex_3_8 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_8.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_3_8
     wclean
     stop music
-    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    play music "<from " + str((rand(1,6)*1.166)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
     scene black
     image videov_Fitness_Instructor_Betty_Sex_3_9 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_9.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_3_9
     wclean
     stop music
-    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    play music "<from " + str((rand(1,6)*1.166)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
     scene black
     image videov_Fitness_Instructor_Betty_Sex_3_10 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_10.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_3_10
     wclean
     stop music
-    play music "Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
+    play music "<from " + str((rand(1,6)*1.166)) + " loop 0.0>Sounds/audio_Fitness_Instructor_Betty_Sex_3.mp3"
     scene black
     image videov_Fitness_Instructor_Betty_Sex_3_11 = Movie(play="video/v_Fitness_Instructor_Betty_Sex_3_11.mkv", fps=30)
     show videov_Fitness_Instructor_Betty_Sex_3_11
     wclean
 
+    hide screen camera_record_screen
 ######
-
-
-    fitness_instructor "Чувствуй меня, следуй за мной!"
-    betty "Да! Хорошо!"
-    fitness_instructor "Ты чувствуешь меня?"
-    betty "Да!"
-    fitness_instructor "Ты чувствуешь как тебя заполняет энергия равновесия?"
-    betty "Да!"
-    fitness_instructor "Ты чувствуешь прилив энергетических сил?"
-    betty "Да!"
-    fitness_instructor "Ты следуешь за мной по дороге к Дзен?"
-    betty "Да!"
-    fitness_instructor "Тебе нравится эта медитация?"
-    betty "Да!"
-    fitness_instructor "Очень нравится?"
-    betty "Да, очень!"
-
+    music stop
+    music Power_Bots_Loop
+    call ep24_dialogues3_fitness4()
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    pause 2.0
 
     return
 
@@ -650,8 +816,11 @@ label ep24_dialogues3_fitness3b:
 label ep24_dialogues3_fitness4:
 # В конце Барди, в зависимости от того согласилась Бетти или нет, произносит.
 # Ну все, Бетти, ты попалась! Теперь ты узнаешь кто действительно хозяин в доме!
+    img 10177
+    with fadelong
     bardie "Ну все, Бетти, ты попалась!"
     bardie "Теперь ты узнаешь кто действительно хозяин в доме!"
+
     return
 
 

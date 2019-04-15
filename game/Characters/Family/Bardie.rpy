@@ -57,26 +57,33 @@ label bardieMonicaCleaningInteract:
                 call cleaning2_bardie_comment3()
         $ move_object("Bardie", "empty")
         $ monicaCleaningObject = "" # Ставим Монику в исходное положение стоя
-        if bardieBlackmailStage < 2 and char_info["Bardie"]["level"] == 2:
-            pass
-        else:
-            if bardieBlackmailStage == 3:
-                $ add_char_progress("Bardie", bardieCleaningUpskirtTry2, "cleaning_upskirt_day " + str(day))
-                call EP22_Quests_Bardie4_check_progress()
+        if bardieBlackmailStage < 5:
+            if bardieBlackmailStage < 2 and char_info["Bardie"]["level"] == 2:
+                pass
             else:
-                if bardieBlackmailStage == 4:
-#                    if monicaBettyPantiesId != bettyPantiesLog[1]:
-#                        $ add_char_progress("Bardie", bardieCleaningUpskirtTry3_wrong_panties, "cleaning_upskirt_day " + str(day)) #wrong panties
-#                    else:
-                    $ add_char_progress("Bardie", bardieCleaningUpskirtTry3, "cleaning_upskirt_day " + str(day))
-
+                if bardieBlackmailStage == 3:
+                    $ add_char_progress("Bardie", bardieCleaningUpskirtTry2, "cleaning_upskirt_day " + str(day))
+                    call EP22_Quests_Bardie4_check_progress()
                 else:
-                    $ add_char_progress("Bardie", bardieCleaningUpskirtTry, "cleaning_upskirt_day " + str(day))
+                    if bardieBlackmailStage == 4:
+    #                    if monicaBettyPantiesId != bettyPantiesLog[1]:
+    #                        $ add_char_progress("Bardie", bardieCleaningUpskirtTry3_wrong_panties, "cleaning_upskirt_day " + str(day)) #wrong panties
+    #                    else:
+                        $ add_char_progress("Bardie", bardieCleaningUpskirtTry3, "cleaning_upskirt_day " + str(day))
+
+                    else:
+                        $ add_char_progress("Bardie", bardieCleaningUpskirtTry, "cleaning_upskirt_day " + str(day))
+        else:
+            call process_hooks("bardie_cleaning_interact_after", "misc")
+
         call refresh_scene_fade() from _call_refresh_scene_fade_20
         return False
     return
 
 label bardieMonicaCleaningInteract_wrong_panties:
+    if bardieBlackmailStage >= 5:
+        call process_hooks("bardie_cleaning_interact_wrongpanties", "misc")
+        return
     $ add_char_progress("Bardie", bardieCleaningUpskirtTry3_wrong_panties, "cleaning_upskirt_wrong_panties_day " + str(day))
 
     return

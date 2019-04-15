@@ -185,6 +185,12 @@ screen photoshoot_no_next():
                 xanchor 0.5
                 yanchor 0.5
 
+screen camera_record_screen():
+    fixed:
+        xpos getRes(1600)
+        ypos getRes(43)
+        add "images/Icons2/Rec_Icon1.png" at camera_record_icon_transform
+
 screen pylon_screen(sceneImage, objectsList):
     layer "master"
     add sceneImage:

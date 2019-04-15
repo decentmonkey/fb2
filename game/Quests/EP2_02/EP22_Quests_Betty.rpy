@@ -157,6 +157,8 @@ label EP22_Quests_Betty6:
     if fitness_gym_visited_amount >= 2 and steveVisit1PlannedComplete == False:
         call ep24_quests_steve1() #Планируем в субботу приход Стива
     call process_hooks("fitness_end", "global")
+    if _return == False:
+        return
     sound highheels_short_walk
     img black_screen
     with Dissolve(0.5)
@@ -180,7 +182,8 @@ label EP22_Quests_Betty6b:
     $ autorun_to_object("ep22_dialogues4_7b", scene="street_fitness")
     $ add_object_to_scene("Betty", {"type":2, "base":"Fitness_Street_Betty2", "click" : "street_fitness_environment2", "actions" : "l", "zorder" : 10}, scene="street_fitness")
     $ autorun_to_object("ep22_dialogues4_7b")
-    $ add_char_progress("Betty", bettyFitnessProgressAmount, "fitness_day_" + str(day))
+    if char_info["Betty"]["level"] < 4: # Далее прогресс добавляется черех хук fitness_end
+        $ add_char_progress("Betty", bettyFitnessProgressAmount, "fitness_day_" + str(day))
 
     return
 

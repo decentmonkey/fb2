@@ -160,7 +160,8 @@ label house_cleaning_end2:
         if char_info["Betty"]["level"] < 3:
             $ add_char_progress("Betty", bettyCleaningProgessAmount, "cleaning_day_" + str(day))
         else:
-            $ add_char_progress("Betty", bettyCleaningProgessAmountLevel3, "cleaning_day_" + str(day))
+            if char_info["Betty"]["level"] < 4:
+                $ add_char_progress("Betty", bettyCleaningProgessAmountLevel3, "cleaning_day_" + str(day))
 
     $ miniMapEnabledOnly = []
 

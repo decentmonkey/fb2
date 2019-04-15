@@ -18,6 +18,8 @@ default bettyNotKissedRalphSperm = False # Бетти не стала целов
 default bettySteveKitchenTouchedDick = False # Бетти потрогала член Стива на кухне
 default bettySteveKitchenSex = False # Бетти имела секс со Стивом на кухне
 
+default bettyInstructorSex1 = False # Бетти имела секс с инструктором на виду у Барди
+
 default bettyFitnessToday = False
 
 label bettyInteract1:

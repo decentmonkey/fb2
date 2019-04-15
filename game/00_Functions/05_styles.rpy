@@ -164,7 +164,12 @@ transform quest_log_transform:
     linear 0.5 alpha 1.0
     repeat
 
-
+transform camera_record_icon_transform:
+    "images/Icons2/Rec_Icon1.png"
+    pause 0.4
+    "images/Icons2/Rec_Icon2.png"
+    pause 0.4
+    repeat
 
 #translate german python:
 #    objectivesFont = "fonts/OpenSans-Regular.ttf"
