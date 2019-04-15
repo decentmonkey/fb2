@@ -33,11 +33,14 @@ label ep24_dialogues3_fitness1:
             pass
         "Не говорить ему...":
             return False
+    music Hidden_Agenda
     img 10138
+    with fade
     m "Барди..."
     m "Мы собираемся с Бетти ехать на фитнесс..."
     m "Ты просил меня сообщить тебе..."
     img 10139
+    music Sneaky_Snitch
     bardie "Отлично, Моника!"
     bardie "Увидимся там!"
     bardie "Сообщи мне, когда она останется наедине с ним!"
@@ -47,10 +50,19 @@ label ep24_dialogues3_fitness1:
 label ep24_dialogues3_fitness2:
 # После занятия фитнесом, Моника выходит, говоря Барди что Бетти осталась наедине с тренером.
 # Барди улыбается
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(_("5 минут спустя..."))
+    img black_screen
+    with Dissolve(2.0)
+    music Hidden_Agenda
     img 10140
+    with fade
     m "Бетти осталась наедине с тренером."
     m "Делай что ты там задумал..."
     img 10141
+    music Sneaky_Snitch
     bardie "..." #улыбается
     return
 
@@ -102,7 +114,9 @@ label ep24_dialogues3_fitness3:
     fitness_instructor "У тебя уже лучше получается."
     fitness_instructor "В следующий раз мы выполним упражнения посложнее."
     betty "Хорошо..."
+    return
 
+label ep24_dialogues3_fitness3b:
     # Занятие 2
     # рука уже на попе
     img 10150

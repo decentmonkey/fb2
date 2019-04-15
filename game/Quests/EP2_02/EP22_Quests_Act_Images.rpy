@@ -16,13 +16,23 @@ label ep22_Act_Images_monica_cleaning_spot:
         $ bettyHere = True
     if cloth == "Governess":
         if monicaBettyPanties == False:
-            if bettyHere == True:
-                img 7419
+            if monicaUnder == "Nude":
+                if bettyHere == True:
+                    img 10609
+                    w
+                img 10610
+                call showRandomImages(images, 4, True)
+                img 10611
                 w
-            img 7421
-            call showRandomImages(images, 4, True)
-            img 7432
-            w
+
+            else:
+                if bettyHere == True:
+                    img 7419
+                    w
+                img 7421
+                call showRandomImages(images, 4, True)
+                img 7432
+                w
         else:
             if monicaBettyPantiesId == 1:
                 if bettyHere == True:

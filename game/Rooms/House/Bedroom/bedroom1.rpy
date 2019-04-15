@@ -1,4 +1,5 @@
 default bedroom1_betty_suffix = ""
+default bedroom1BardieSuffix = ""
 
 label bedroom1:
     $ print "enter_bedroom1"
@@ -33,6 +34,10 @@ label bedroom1_init:
     $ add_object_to_scene("Teleport_Bedroom2", {"type":3, "text" : _("ГАРДЕРОБ"), "rarrow" : "arrow_right_2", "base":"Screen_Right_Arrow_Tight", "click" : "bedroom1_teleport", "xpos" : 1630, "ypos" : 920, "zorder":11, "teleport":True})
     return
 #    jump show_scene
+
+label bedroom1_init_addition1:
+    $ add_object_to_scene("Bardie", {"type" : 2, "base" : "Bedroom1_Bardie[bedroom1BardieSuffix]", "click" : "bedroom1_environment", "actions" : "lt", "zorder":16, "active":False})
+    return
 
 label bedroom1_teleport:
     if obj_name == "Teleport_Bedroom2":

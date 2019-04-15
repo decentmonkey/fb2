@@ -167,6 +167,7 @@ default map_disabled_forced = False
 
 define fadehold = Fade(0.5, 1.0, 0.5)
 define fadelong = Fade(0.5, 0.5, 0.5)
+define diss = Dissolve(0.5)
 default streetFunMusic = "road_trip"
 default casualMusic = "Stealth_Groover"
 

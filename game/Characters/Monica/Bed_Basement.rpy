@@ -214,7 +214,7 @@ label basement_monica_after_nap_dialogue1:
     return
 
 label basement_monica_after_sleep:
-    $ autorun_to_object("basement_monica_after_sleep_dialogue")
+    $ autorun_to_object("basement_monica_after_sleep_dialogue", scene="basement_bedroom2")
     return
 label basement_monica_after_sleep_dialogue:
     call process_hooks("basement_monica_after_sleep_dialogue", "global") from _call_process_hooks_36

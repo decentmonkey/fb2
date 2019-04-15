@@ -1,6 +1,8 @@
 default houseCleaningStoredScene = False
 default cleaningLog = []
 
+default rooms_clean_list_exclude = []
+
 default spotCleaning = False
 default monicaCleaningInProgressEngineWorkingFlag = False
 
@@ -38,6 +40,7 @@ label house_cleaning_start:
     $ monicaCleaningInProgressEngineWorkingFlag = True
     $ monicaCleaningObject = ""
     $ rooms_clean_list = ["floor2", "floor1", "bedroom_bardie", "bedroom_second", "living_room", "bedroom2"]
+    $ rooms_clean_list = [x for x in rooms_clean_list if x not in rooms_clean_list_exclude]
 #    $ rooms_clean_list = ["floor1", "living_room"]
     $ rooms_dirty = random.sample(set(rooms_clean_list), monicaCleaningRoomsAmount)
     $ shuffle(rooms_dirty)

@@ -1,4 +1,5 @@
 default floor2BettyPositionSuffix = 0
+default floor2BardieSuffix = 1
 default floor2WashingSport = False
 label floor2:
     $ print "enter_floor2"
@@ -42,6 +43,10 @@ label floor2_init:
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
 
+    return
+
+label floor2_init_addition1:
+    $ add_object_to_scene("Bardie", {"type" : 2, "base" : "Floor2_Bardie[floor2BardieSuffix]", "click" : "floor2_environment", "actions" : "lt", "zorder":11, "active":False}, scene="floor2")
     return
 
 label floor2_teleport:

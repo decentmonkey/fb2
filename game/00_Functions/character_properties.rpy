@@ -50,6 +50,9 @@ init python:
         if char_progress_stored[char_name].has_key(progress_name) == False:
             char_progress_stored[char_name][progress_name] = 0
         if char_info[char_name]["enabled"] == False:
+            if char_info[char_name].has_key("show_caption_diabled") and char_info[char_name]["show_caption_diabled"] == True:
+                notif(__(char_info[char_name]["name_orig"]) + ". " + __(char_info[char_name]["caption_diabled"]))
+                return
             notif(__(char_info[char_name]["name_orig"]) + " " + __("прогресс максимален, ждите следующих обновлений игры!"))
             return
         char_progress_stored[char_name][progress_name] = char_progress_stored[char_name][progress_name] + 1

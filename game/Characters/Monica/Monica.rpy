@@ -1,4 +1,3 @@
-default monicaPussyShaved = False
 default monicaEatedLastDay = 0
 default monicaEatedLastDayTime = "day"
 default monicaFoodInventory = {} #какая еда есть у Моники с собой
@@ -43,6 +42,8 @@ default monicaSaidBiffSheIsWillBeAGoodChick = False
 default monicaVictoriaKissHeels = False
 default monicaVictoriaLickAssAtBegin = False
 
+default monicaUnder = "Governess"
+default monicaPussyShaved = False
 default monicaBettyPanties = False
 default monicaBettyPantiesId = 1
 default monicaMustWearBettyPanties = False

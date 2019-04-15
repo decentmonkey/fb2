@@ -89,14 +89,18 @@ label bardieProgressLevelUp1:
         if ep22_started == False:
             $ char_data["enabled"] = False
             $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+            $ char_data["show_caption_diabled"] = True
 #        $ char_data["enabled"] = False #закрываем прогресс до следующей версии
     if char_data["level"] == 3 and bardieBlackmailStage < 3:
         char_data["level"] = char_data["level"] - 1
         char_data["current_progress"] = 90
+        $ char_data["show_caption_diabled"] = False
         return
     if char_data["level"] == 3:
         $ char_data["enabled"] = False
-        $ char_data["caption_diabled"] = _("Work in progress...")
+        $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+        $ char_data["show_caption_diabled"] = True
+#        $ char_data["caption_diabled"] = _("Work in progress...")
         return
     if char_data["level"] == 4:
         $ char_data["enabled"] = False

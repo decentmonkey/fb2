@@ -4,6 +4,8 @@ default fitness_gym_visited_amount = 0
 default fitness_gym_betty_first_time_interact_with_trainer = True
 default fitness_gym_state = 0
 
+default EP22_Quests_Betty3Flag1 = False
+
 label EP22_Quests_Betty0_Fred_scene:
     if cloth != "Governess":
         $ remove_hook()
@@ -47,6 +49,9 @@ label EP22_Quests_Betty3:
         call bettyDialogue3()
         return False
     call ep22_dialogues4_1()
+    if EP22_Quests_Betty3Flag1 == True:
+        $ EP22_Quests_Betty3Flag1 = False #Флаг, чтобы ничего не делать (для меню сообщения Барди о фитнесе)
+        return False
     if _return == False:
         if bettyFitnessToday == True:
             $ add_object_to_scene("Car", {"type" : 2, "base" : "Street_House_Car", "click" : "street_house_main_yard_environment", "actions" : "l", "zorder":0, "b":0.15}, {"driverOnHouseYard":{"v":False, "active":False}}, scene="street_house_main_yard")
@@ -149,6 +154,9 @@ label EP22_Quests_Betty6:
         else:
             call ep22_dialogues4_7()
 
+    if fitness_gym_visited_amount >= 2 and steveVisit1PlannedComplete == False:
+        call ep24_quests_steve1() #Планируем в субботу приход Стива
+    call process_hooks("fitness_end", "global")
     sound highheels_short_walk
     img black_screen
     with Dissolve(0.5)

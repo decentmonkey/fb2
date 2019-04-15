@@ -1,27 +1,11 @@
 label ep24_dialogues2_steve1:
 # После старта фитнеса с Бетти и первого посещения его, в ближайшую субботу приходит Стив.
 # Бетти сообщает об этом Монике при входе в любую локацию дома (если приход не с улицы).
-    if cloth == "Governess":
-        img 9710
-        betty "Моника, гувернантка..."
-        img 9711
-        m "Да, Миссис Робертс?"
-        img 9712
-        betty "В эту субботу к нам придет важный гость."
-        "Так что прибирайся в доме как следует."
-        img 9713
-        "Если где-нибудь останется пылинка и мне придется краснеть перед гостем, то ты будешь наказана."
-        img 9714
-        "Гувернантка, тебе понятно?"
-        img 9715
-        mt "!!!"
-        img 9716
-        m "Да, Миссис Робертс."
-        "Я поняла."
-        "Я буду стараться изо всех сил."
-        return
+    $ store_music()
+    music Groove2_85 high
     if cloth == "Whore":
         img 9710
+        with fade
         betty "Моника, гувернантка..."
         img 9717
         w
@@ -36,8 +20,11 @@ label ep24_dialogues2_steve1:
         "Если где-нибудь останется пылинка и мне придется краснеть перед гостем, то ты будешь наказана."
         "Гувернантка, тебе понятно?"
         img 9721
+        music Power_Bots_Loop high
         mt "!!!"
         img 9722
+        with fade
+        music Groove2_85 high
         m "Да, Миссис Робертс."
         "Я поняла."
         "Я буду стараться изо всех сил."
@@ -48,7 +35,36 @@ label ep24_dialogues2_steve1:
         img 9724
         m "Да, Миссис Робертс..."
         mt "Черт, мне лучше поменьше показываться перед Бетти в этой жуткой одежде!"
+        $ restore_music()
         return
+
+    if cloth == "Governess" or 1==1:
+        img 9710
+        with fade
+        betty "Моника, гувернантка..."
+        img 9711
+        m "Да, Миссис Робертс?"
+        img 9712
+        betty "В эту субботу к нам придет важный гость."
+        "Так что прибирайся в доме как следует."
+        img 9713
+        "Если где-нибудь останется пылинка и мне придется краснеть перед гостем, то ты будешь наказана."
+        img 9714
+        with fade
+        "Гувернантка, тебе понятно?"
+
+        music Power_Bots_Loop high
+        img 9715
+        mt "!!!"
+        music Groove2_85 high
+        img 9716
+        with fade
+        m "Да, Миссис Робертс."
+        "Я поняла."
+        "Я буду стараться изо всех сил."
+        $ restore_music()
+        return
+
     img 9710
     betty "Моника, гувернантка..."
     m "Да, Миссис Робертс?"
@@ -60,32 +76,18 @@ label ep24_dialogues2_steve1:
     m "Да, Миссис Робертс."
     "Я поняла."
     "Я буду стараться изо всех сил."
+    $ restore_music()
 
     return
 
 label ep24_dialogues2_steve2:
 # В пятницу, при попытке выхода из дома, Бетти также напоминает Монике об этом.
-    if cloth == "Governess":
-        img 9710
-        betty "Моника, гувернантка..."
-        img 9711
-        m "Да, Миссис Робертс?"
-        img 9712
-        betty "В эту субботу к нам придет важный гость."
-        "Так что прибирайся в доме как следует."
-        img 9713
-        "Если где-нибудь останется пылинка и мне придется краснеть перед гостем, то ты будешь наказана."
-        img 9714
-        "Гувернантка, тебе понятно?"
-        img 9715
-        mt "!!!"
-        img 9716
-        m "Да, Миссис Робертс."
-        "Я поняла."
-        "Я буду стараться изо всех сил."
-        return
+    $ store_music()
+    music Groove2_85
+
     if cloth == "Whore":
         img 9710
+        with fade
         betty "Моника, гувернантка..."
         img 9717
         w
@@ -100,18 +102,46 @@ label ep24_dialogues2_steve2:
         "Если где-нибудь останется пылинка и мне придется краснеть перед гостем, то ты будешь наказана."
         "Гувернантка, тебе понятно?"
         img 9721
+        music Power_Bots_Loop
         mt "!!!"
+        music Groove2_85
         img 9722
+        with fade
         m "Да, Миссис Робертс."
         "Я поняла."
         "Я буду стараться изо всех сил."
         img 9723
+        with fade
         betty "И купи себе нормальную одежду!"
         betty "Меня раздражает твой внешний вид!"
         betty "Ты достаточно зарабатываешь для этого!"
         img 9724
         m "Да, Миссис Робертс..."
         mt "Черт, мне лучше поменьше показываться перед Бетти в этой жуткой одежде!"
+        $ restore_music()
+        return
+    if cloth == "Governess" or 1==1:
+        img 9710
+        with fade
+        betty "Моника, гувернантка..."
+        img 9711
+        m "Да, Миссис Робертс?"
+        img 9712
+        betty "В эту субботу к нам придет важный гость."
+        "Так что прибирайся в доме как следует."
+        img 9713
+        "Если где-нибудь останется пылинка и мне придется краснеть перед гостем, то ты будешь наказана."
+        img 9714
+        "Гувернантка, тебе понятно?"
+        img 9715
+        music Power_Bots_Loop
+        mt "!!!"
+        img 9716
+        music Groove2_85
+        m "Да, Миссис Робертс."
+        "Я поняла."
+        "Я буду стараться изо всех сил."
+        $ restore_music()
         return
     img 9710
     betty "Моника, гувернантка..."
@@ -128,30 +158,47 @@ label ep24_dialogues2_steve2:
 
 label ep24_dialogues2_steve3:
 # В субботу Стив приходит и здоровается с Бетти и Ральфом (Ральф в костюме)
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(_("Утро..."))
+    img black_screen
+    with Dissolve(2.0)
+
+    music BossaBossa
     img 9725
+    with fade
     steve "Здравствуй, Ральф!"
     img 9726
     "Здравствуй, дружище!"
     img 9727
+    with fade
     "Как ты обжился?"
     "Нравится тебе твой новый дом?"
     img 9728
     "А где твоя очаровательная супруга?"
+    music Power_Bots_Loop
     img 9729
+    with Dissolve(0.5)
     mt "!!!"
     mt "О Боже! Это Стив!"
+    music BossaBossa
     img 9730
+    with fade
     ralph "Да, Стив!"
     "Спасибо что пришел!"
     img 9731
+    with Dissolve(0.5)
     "Бетти... Она где-то здесь..."
     betty "Добрый день, Стив."
     img 9732
+    with fade
     "Давно тебя не видела."
     "Ты изменился."
     img 9733
     "Возраст идет тебе на пользу."
     img 9734
+    with fade
     steve "О! Бетти!"
     "Ты стала еще более неотразима!"
     img 9735
@@ -160,10 +207,12 @@ label ep24_dialogues2_steve3:
     betty "Спасибо, Стив!"
     "Ты меня смущаешь..."
     img 9737
+    with fade
     betty "Пожалуйста, проходи в гостиную."
     "У меня все готово!"
 
 # Бетти говорит Монике чтобы не показывала нос, что Бетти сама справится с обслуживанием гостей.
+    music Groove2_85
     img 9738
     with fadelong
     betty "Гувернантка, не вздумай показывать нос!"
@@ -172,6 +221,7 @@ label ep24_dialogues2_steve3:
     m "Да, Миссис Робертс."
     "Я уверена, что Вы справитесь лучше!"
     img 9740
+    with Dissolve(0.5)
     betty "..." #Надменно смотрит
     img 9741
     with fadelong
@@ -186,16 +236,26 @@ label ep24_dialogues2_steve4:
     mt "Бетти запретила мне заходить туда..."
     mt "К тому же там Стив!"
     mt "Я не хочу, чтобы он узнал меня!"
-    return
+    return False
 
 label ep24_dialogues2_steve5:
     # Показывается сцена того как компания сидит в гостиной и общается.
+    $ store_music()
+    stop music fadeout 1.0
+    scene black_screen
+    with Dissolve(1)
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    scene black_screen
+    with Dissolve(1)
+    music Backbay_Lounge high
     img 9742
+    with fadelong
     steve "О, Ральф!"
     steve "Я не видел этой фотографии!"
     img 9743
     steve "Это Ваша свадьба?"
     img 9744
+    with Dissolve(0.5)
     betty "Да, Стив."
     img 9745
     with fade
@@ -206,11 +266,14 @@ label ep24_dialogues2_steve5:
     img 9747
     steve "А ты, Ральф? Редкое фото, где ты улыбаешься, дружище!"
     ralph "Кхм... Да, Стив. Меня немного смущает, что Бетти развесила эти фото повсюду и..."
+    music Groove2_85
     img 9748
+    with fade
     betty "Ральф! Помолчи!"
     betty "Мы семья, а это значит, что наши фото должны быть повсюду."
     betty "Тем более в нашем доме!"
     img 9749
+    with fade
     betty "Ральф, ты слишком стеснительный! Ведь Стив твой старый друг!"
     img 9750
     steve "О! Бетти! Ты, как всегда, очень строгая!"
@@ -219,33 +282,52 @@ label ep24_dialogues2_steve5:
     betty "Иначе повсюду здесь будет беспорядок!"
     betty "Мне приходится следить за всем."
     img 9752
+    with fade
     ralph "Пойдемте скорее выпьем! Мне уже не терпится начать!"
+    $ restore_music()
+    return
 
-
+label ep24_dialogues2_steve5a:
     #fade
+    stop music fadeout 1.0
+    scene black_screen
+    with Dissolve(1)
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    scene black_screen
+    with Dissolve(1)
+    sound pour_wine
+#    music Lobby_Time
+    music BossaBossa
     img 9753
+    with fadelong
     w
     img 9754
+    with fade
     steve "Бетти, малышка!"
     img 9755
     betty "Да, Стив?"
     img 9756
+    with fade
     steve "Ты очень вкусно готовишь!"
     img 9757
     betty "Спасибо, Стив..."
     img 9758
+    with fade
     steve "Скажи, тебе хорошо живется здесь?"
     steve "Старина Ральф не обижает тебя?"
     img 9759
     betty "Нет, Стив..."
     "Ральф меня очень любит."
     img 9760
+    with Dissolve(0.5)
     "Правда, Ральф?"
     img 9761
+    with fade
     ralph "Да, любимая!"
     ralph "Ты самое лучшее, что есть в моей жизни!"
     img 9762
     with fade
+    sound kiss2
     betty "Чмок!"
     img 9763
     with fade
@@ -254,6 +336,7 @@ label ep24_dialogues2_steve5:
 
     #fade
     img 9764
+    with fadelong
     betty "Стив. Я хочу, чтобы ты повлиял на Ральфа."
     img 9765
     betty "Он кушает нерегулярно и совсем не следит за своим желудком."
@@ -262,16 +345,21 @@ label ep24_dialogues2_steve5:
     betty "А Ральф как ребенок. За ним все время приходится приглядывать!"
 
     img 9767
+    with fade
     steve "Бетти, Ральфу просто нравится твое внимание! Хе-хе."
     img 9768
     steve "Мы, мужчины, любим притворяться детьми перед такими заботливыми женами. Хе-хе."
+    music Groove2_85
     img 9769
+    with fade
     betty "А я думаю это из-за того, что Ральф рассеянный и неорганизованный."
     betty "Я люблю во всем порядок! А от Ральфа один бардак!"
     img 9770
+    with Dissolve(0.5)
     betty "Он раскидывает носки где попало и прячется от меня, когда я его ищу!"
     img 9771
     ralph "Бетти, но Я..."
+    music Pyro_Flow
     img 9772
     betty "Молчи, Ральф!"
     img 9773
@@ -280,63 +368,92 @@ label ep24_dialogues2_steve5:
     img 9774
     ralph "Бетти..."
     img 9775
+    with fade
     betty "Что? Не думай что я не заметила, что ты присасываешься к бутылке вина, которая стояла здесь!"
     img 9776
     betty "Сначала я подумала, что его пьет гувернантка, но я слежу за ней и это не она."
     img 9777
     steve "Бетти, не будь такой строгой! Хе-хе."
     img 9778
+    with fade
     betty "А какой мне быть, Стив? Мне приходится следить за всеми!"
+
     img 9779
+    with fade
     betty "И почему ты защищаешь Ральфа, Стив?"
     img 9780
     betty "Ты что, хочешь со мной спорить?"
     img 9781
+    with fade
     steve "Бетти, нет! Что ты?"
+    music Groove2_85
     img 9782
+    with fade
     betty "И вообще, сколько ты уже выпил?"
     img 9783
+    with fade
     steve "Я выпил совсем чуть-чуть, Бетти!"
     steve "Клянусь тебе!"
     img 9784
+    with fade
     betty "Не обманывай меня, Стив!"
     betty "Вы с Ральфом уже изрядно напились!"
     img 9785
+    with fade
     steve "Бетти! Я обещаю, что буду вести себя хорошо и буду слушаться тебя! Хе-хе."
     img 9786
+    with Dissolve(0.5)
     betty "Хорошо, Стив. Я запомню."
+    music BossaBossa
     img 9787
-    with fade
+    with diss
     betty "..."
     img 9788
     with fadelong
     betty "А как ты поживаешь в столице, Стив?"
     img 9789
+    with Dissolve(0.5)
     betty "Расскажи, как ты так быстро сделал карьеру?"
     img 9790
     steve "О! Эта история очень быстрая и очень долгая!"
     "Я расскажу тебе с удовольствием, если ты нальешь мне еще немного виски!"
     img 9791
+    with diss
     betty "Конечно, Стив!"
     betty "Но только чуть-чуть!"
+
+    img black_screen
+    with Dissolve(1.0)
     return
 
 label ep24_dialogues2_steve6:
 # После начала сна, показывается сцена того как Бетти говорит что Ральф уже пьян и Бетти пойдет уберет посуду.
+    stop music fadeout 1.0
+    scene black_screen
+    with Dissolve(1)
+    call textonblack(_("ПОЗДНИЙ ВЕЧЕР..."))
+    scene black_screen
+    with Dissolve(1)
+    music BossaBossa
     img 9792
     with fadelong
     w
     img 9793
+    with fade
     betty "Ральф!"
     betty "Ральф!!!"
     img 9794
+    music Groove2_85
     betty "Как всегда, он напился и уснул!"
     img 9795
+    with diss
     betty "..."
     img 9796
+    with fade
     betty "Я пойду убирать посуду, Стив!"
     betty "Спасибо за вечер..."
     img 9797
+    with fade
     steve "Бетти, спасибо за гостеприимство!"
     img 9798
     with fade
@@ -344,10 +461,12 @@ label ep24_dialogues2_steve6:
     "Я сама присмотрю за Ральфом."
     img 9799
     with fade
+    sound highheels_short_walk
     w
     img 9800
     w
     img 9801
+    with diss
     w
     return
 
@@ -361,20 +480,33 @@ label ep24_dialogues2_steve7:
 # Стив снимает штаны и говорит чтобы Бетти скорее показала ему как она следит за собой.
 # Секс Стива и Бетти
 # Конец сцены.
+    img black_screen
+    with Dissolve(1.0)
+    music Lobby_Time
+    sound snd_washing_dishes2
     img 9802
     with fadelong
+
     w
     img 9803
+    with fade
     w
     img 9804
+    with fade
     w
     img 9805
     w
+    music Groove2_85
     img 9806
+    with fade
     betty "Что ты здесь делаешь, Стив?"
+    sound highheels_short_walk
     img 9807
+    with fade
     betty "Не видишь? У меня много работы по дому."
+    music BossaBossa
     img 9808
+    with fade
     steve "О! Бетти!"
     "Малышка Бетти!"
     steve "Скажи, как ты устроилась здесь?"
@@ -383,6 +515,7 @@ label ep24_dialogues2_steve7:
     betty "Да, Стив. Мне нравится."
     "Если честно, я завидую тому, что ты давно уехал из нашей провинции и все это время жил здесь, а не там."
     img 9810
+    with fade
     steve "Бетти! Но ведь нам есть что вспомнить!"
     steve "Помнишь наши вечеринки у костра?"
     steve "Мы собирались всеми друзьями. Пили и танцевали до утра."
@@ -390,25 +523,34 @@ label ep24_dialogues2_steve7:
     betty "Помню, Стив. Я думала ты уже забыл."
     betty "Ты ведь теперь такой большой Босс..."
     img 9812
+    with fade
     steve "Бетти! У меня есть кое-кто, кто постоянно напоминает о тебе!"
     img 9813
     betty "И кто же это?"
     # Стив достает член
     # Бетти смотрит все время на член
 
+    sound snd_zip
+    music Pyro_Flow
     img 9814
+    with Dissolve(1.0)
     steve "Вот он, Бетти!"
     "Это мой член!"
     img 9815
+    with fade
     "Он все время напоминает о тебе!"
     img 9816
+    with diss
     "Он помнит, Бетти!"
     "Он помнит твою попку!"
     img 9817
+    with diss
     "Ведь он провел столько времени в ней!"
     img 9818
+    with fade
     betty "..."
     img 9819
+    with fade
     steve "Скажи, Бетти!"
     "Твоя попка помнит его, так ведь?"
     menu:
@@ -422,17 +564,21 @@ label ep24_dialogues2_steve7:
             "Но я еще вернусь к тебе."
             return False
 
+    music Loved_up
     img 9820
+    with fade
     betty "Да, помнит..."
     img 9822
     steve "Он скучает по твоей попке, Бетти!"
     "Мне даже пришлось повысить Ральфа, чтобы твоя попка была поближе к моему члену."
+    $ bettySteveKitchenTouchedDick = True
     img 9823
     with fade
     betty "Стив, ты ведь знаешь, я теперь замужем за Ральфом."
     img 9824
     "Я люблю его и он мой муж."
     img 9825
+    with fade
     steve "Бетти, малышка!"
     "Я не собираюсь жениться на тебе!"
     img 9826
@@ -441,58 +587,80 @@ label ep24_dialogues2_steve7:
     "Ты хорошо сохранила ее?"
     "Я ведь не буду разочарован?"
     img 9827
+    with fade
     betty "Я слежу за собой, Стив."
     "Я регулярно занимаюсь фитнесом и йогой."
     img 9828
+    with fade
     steve "Значит Бетти хорошо сохранила свою попку для Стива?"
     "Скорее повернись ко мне задом, покажи ее!"
     "Мой член уже не может, он хочет поскорее попробовать твою попку, вспомнить ее вкус!"
     img 9829
     betty "Стив, я замужем..."
     img 9830
+    with fade
+    sound Jump2
     steve "Бетти, скажи."
     "Твоей попке не нравилось когда он был внутри нее?"
     menu:
         "Это неважно, Стив! Я замужем!":
+            music Pyro_Flow
             img 9837
+            with fade
             betty "Это неважно, Стив! Я замужем!"
             return False
         "Нравилось...":
             pass
     img 9831
+    with fade
     betty "Нравилось..."
     img 9832
+    sound Jump1
     steve "И что, твоя попка не хочет, чтобы мой член снова оказался в ней?"
     menu:
         "Хочет...":
             pass
         "Это неважно, Стив! Я замужем!":
+            music Pyro_Flow
             img 9837
+            with fade
             betty "Это неважно, Стив! Я замужем!"
             return False
+
     img 9833
+    with fade
     betty "Хочет..."
     betty "..."
+    music Groove2_85
     img 9834
+    with diss
     betty "Ой!"
     betty "Стив! Что я сказала?!"
     betty "Я замужем, я не могу заниматься этим с тобой!"
     betty "Я не могу изменять Ральфу..."
+    music Loved_up
     img 9835
+    with fade
+    sound Jump1
     steve "Бетти! Это не измена!"
     steve "Он просто хочет вспомнить твой вкус!"
     img 9836
+    with diss
     steve "Это как поцелуй старых друзей!"
     steve "В этом нет ничего плохого!"
     menu:
         "Хорошо, Стив... Только быстро...":
             pass
         "Это неважно, Стив! Я замужем!":
+            music Pyro_Flow
             img 9837
+            with fade
             betty "Это неважно, Стив! Я замужем!"
             return False
     # Бетти снимает трусики
-
+    sound snd_fabric1
+    $ bettySteveKitchenSex = True
+    music Loved_up2
     img 9838
     with fade
     betty "Хорошо, Стив... Только быстро..."
@@ -500,108 +668,137 @@ label ep24_dialogues2_steve7:
     with fade
     w
     img 9840
+    with diss
     w
     img 9841
+    with diss
     w
     img 9842
+    with diss
     w
     img 9843
     with fade
     betty "Стив! Давай быстрее!"
     "Мало времени!"
+    img 9842
+    with diss
+    w
     img 9844
     with Dissolve(0.5)
     betty "Стив! Давай быстрее!"
-
     music stop
+    img black_screen
+    with Dissolve(1.0)
+
+
     stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
+    play music "Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
     scene black
     image video_House_Kitchen_Steve_Betty_Sex_1_1 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_1.mkv", fps=30)
     show video_House_Kitchen_Steve_Betty_Sex_1_1
+    with fade
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
     scene black
     image video_House_Kitchen_Steve_Betty_Sex_1_2 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_2.mkv", fps=30)
     show video_House_Kitchen_Steve_Betty_Sex_1_2
+    with fade
+    steve "О! Бетти! Твоя попка бесподобна!"
+    steve "Я так рад, что она теперь поблизости!"
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
     scene black
     image video_House_Kitchen_Steve_Betty_Sex_1_3 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_3.mkv", fps=30)
     show video_House_Kitchen_Steve_Betty_Sex_1_3
+    with fade
+    steve "Я теперь смогу навещать эту попку когда захочу..."
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
     scene black
     image video_House_Kitchen_Steve_Betty_Sex_1_4 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_4.mkv", fps=30)
     show video_House_Kitchen_Steve_Betty_Sex_1_4
+    with fade
+    betty "Не получится, Стив!"
+    betty "Я не собираюсь изменять Ральфу!"
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
     scene black
     image video_House_Kitchen_Steve_Betty_Sex_1_5 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_5.mkv", fps=30)
     show video_House_Kitchen_Steve_Betty_Sex_1_5
+    with fade
+    steve "О! Бетти!"
+    "Малышка Бетти!"
+    steve "Тебе не нравится?"
+    "Хочешь чтобы я остановился?"
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
     scene black
     image video_House_Kitchen_Steve_Betty_Sex_1_6 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_6.mkv", fps=30)
     show video_House_Kitchen_Steve_Betty_Sex_1_6
+    with fade
+    betty "Нет, Стив. Не останавливайся..."
+    betty "Ахххх..."
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
     scene black
     image video_House_Kitchen_Steve_Betty_Sex_1_7 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_7.mkv", fps=30)
     show video_House_Kitchen_Steve_Betty_Sex_1_7
+    with fade
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_House_Kitchen_Steve_Betty_Sex1.mp3"
     scene black
     image video_House_Kitchen_Steve_Betty_Sex_1_8 = Movie(play="video/House_Kitchen_Steve_Betty_Sex_1_8.mkv", fps=30)
     show video_House_Kitchen_Steve_Betty_Sex_1_8
+    with fade
     wclean
 
     # Идет секс
-    steve "О! Бетти! Твоя попка бесподобна!"
-    steve "Я так рад, что она теперь поблизости!"
-    steve "Я теперь смогу навещать эту попку когда захочу..."
-    betty "Не получится, Стив!"
-    betty "Я не собираюсь изменять Ральфу!"
-    steve "О! Бетти!"
-    "Малышка Бетти!"
-    steve "Тебе не нравится?"
-    "Хочешь чтобы я остановился?"
-    betty "Нет, Стив. Не останавливайся..."
-    betty "Ахххх..."
 
+    music Loved_up2
     img 9845
     with fade
+    sound bulk1
     steve "АААААрггхххххх!!!!"
+    music Pyro_Flow
     img 9846
     with fade
     betty "Черт, Стив!"
     betty "Ты что, кончил в меня?!"
 
     img 9847
+    with fadelong
     steve "Бетти, малышка! Прости, я увлекся..."
     steve "Хе-хе."
     img 9848
     betty "Мне надо скорее помыться и принять таблетку."
     betty "А ты свободен, Стив!"
-
+    music stop
 
 
     # Конец, Бетти выходит из кухни. Встречает Барди
+    img black_screen
+    with Dissolve(1.0)
+    pause 2.0
+    music Groove2_85
     img 9849
+    with fadelong
     betty "Что ты делаешь здесь? Тебе разве не пора спать?!"
     img 9850
+    with fade
     bardie "Я услышал какие-то звуки и пришел проверить все-ли в порядке."
     img 9851
+    with diss
     betty "Здесь все в порядке, Барди!"
     "У нас очень важный гость и он уже уходит."
     img 9852
+    with fade
     "Это взрослые дела и тебе не стоит лезть в них!"
     "Вон отсюда!"
 

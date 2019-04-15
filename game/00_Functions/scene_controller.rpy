@@ -208,6 +208,8 @@ label after_load():
         call refresh_scene() from _call_refresh_scene_2
     if ep23_quests_initialized == False:
         call ep23_Quests_init()
+    if ep24_quests_initialized == False:
+        call ep24_quests_init()
     $ imagesSizesCache = {}
     call run_after_load()
     return
