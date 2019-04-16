@@ -21,6 +21,42 @@ screen screen_betty_panties_select():
             hover "Icons2/Betty_Panties_Icon_6_hover.png"
             action Return(6)
 
+screen screen_betty_panties_select2():
+    modal True
+    fixed:
+        xpos getRes(312-153)
+        ypos getRes(280)
+        $ offsetIdx = 0
+        for pantiesIdx in range(1,6):
+            hbox:
+                if pantiesIdx != bettyPantiesCurrent or bettyMustNotWearPanties == True:
+                    imagebutton:
+                        xpos (offsetIdx * getRes(340))
+                        idle "Icons2/Betty_Panties_Icon_" + str(pantiesIdx) + ".png"
+                        hover "Icons2/Betty_Panties_Icon_" + str(pantiesIdx) + "_hover.png"
+                        action Return(pantiesIdx)
+                    $ offsetIdx += 1
+
+        imagebutton:
+            xpos getRes(500)
+            ypos getRes(340)
+            idle "Icons2/Betty_Panties_Icon_6.png"
+            hover "Icons2/Betty_Panties_Icon_6_hover.png"
+            action Return(6)
+        if monicaLaundryBettyPantiesSelectNudeDisabled == False:
+            imagebutton:
+                xpos getRes(500 + 340)
+                ypos getRes(340)
+                idle "Icons2/Betty_Panties_Icon_7.png"
+                hover "Icons2/Betty_Panties_Icon_7_hover.png"
+                action Return(7)
+        else:
+            imagebutton:
+                xpos getRes(500 + 340)
+                ypos getRes(340)
+                idle "Icons2/Betty_Panties_Icon_7_Disabled.png"
+                action Return(-1)
+
 screen choose_photoshoot_outfit():
     modal True
     fixed:

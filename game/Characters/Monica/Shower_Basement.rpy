@@ -103,10 +103,10 @@ label basement_toilet_use1:
     if cloth == "Governess":
         if monicaUnder != "Nude":
             $ toilet_images = ["7088", "7089", "7090", "7091", "7092", "7093", "7094"]
+            $ images = random.sample(set(toilet_images), 3)
         else:
-            $ toilet_images = ["10568", "10569", "10570"]
+            $ images = ["10568", "10569", "10570"]
 
-    $ images = random.sample(set(toilet_images), 3)
 
     if monicaBettyPanties == True:
         if monicaBettyPantiesId == 1:

@@ -47,6 +47,10 @@ default monicaPussyShaved = False
 default monicaBettyPanties = False
 default monicaBettyPantiesId = 1
 default monicaMustWearBettyPanties = False
+default monicaMustNotWearPanties = False
+
+default monicaLaundryBettyPantiesSelectMode = 0
+default monicaLaundryBettyPantiesSelectNudeDisabled = False
 
 label monicaEat: #кормим Монику
     $ monicaEatedLastDay = day #кормим Монику

@@ -339,7 +339,7 @@ label ep23_dialogues3_4:
     with fade
     w
     if monicaUnder == "Nude":
-        driver "Вау! Какой вид, Миссис Бакфетт!"
+        fred "Вау! Какой вид, Миссис Бакфетт!"
 
     img 8689
     m "Фред! Что ты шляешься здесь?!"

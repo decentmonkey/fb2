@@ -36,6 +36,8 @@ init python:
                 return scene_label + sceneStages[idx]
         return scene_label
 
+    def checkTimeDay():
+        return day_time == "day"
 
 label changeDayTime_day_hooks:
     $ remove_hook(label="evening_time_temp")

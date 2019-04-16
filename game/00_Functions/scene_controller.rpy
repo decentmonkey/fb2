@@ -7,6 +7,7 @@ default game_version1_screen_ready_to_render = False
 default patch32applied = False
 default scene_caption = ""
 default exitHookCalled = False
+#default sprites_hover_dummy_screen_flag = False
 
 label show_scene:
     $ exitHookCalled = False
@@ -106,7 +107,7 @@ label show_scene_now:
     if refreshed_scene_name != scene_name:
         $ refreshed_scene_name = scene_name
         call process_hooks("enter_scene", scene_name) from _call_process_hooks_13 #хук вызывается после входа на сцену и отрисовки (как autorun)
-        call remove_dialogue() from _call_remove_dialogue_2
+        call remove_dialogue()
     if scene_refresh_flag == True:
         jump show_scene
 

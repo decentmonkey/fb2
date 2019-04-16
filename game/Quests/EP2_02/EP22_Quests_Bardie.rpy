@@ -145,17 +145,34 @@ label EP22_Quests_Bardie6_panties_box:
     $ store_music()
     music Hidden_Agenda
     call ep22_dialogues3_12() #какие трусики мне надеть?
-    show screen screen_betty_panties_select()
+    if monicaLaundryBettyPantiesSelectMode == 0:
+        show screen screen_betty_panties_select()
+    if monicaLaundryBettyPantiesSelectMode == 1:
+        show screen screen_betty_panties_select2()
     with Dissolve(0.2)
+label EP22_Quests_Bardie6_panties_box_loop1:
     $ result = ui.interact()
+    if result == -1:
+        sound click_denied
+        jump EP22_Quests_Bardie6_panties_box_loop1
     if result == 6:
         $ monicaBettyPanties = False
         $ monicaBettyPantiesId = 1
+        $ monicaUnder = "Panties"
     else:
-        $ monicaBettyPanties = True
-        $ monicaBettyPantiesId = result
+        if result == 7:
+            $ monicaBettyPanties = False
+            $ monicaBettyPantiesId = 1
+            $ monicaUnder = "Nude"
+        else:
+            $ monicaBettyPanties = True
+            $ monicaBettyPantiesId = result
+            $ monicaUnder = "Panties"
 
-    hide screen screen_betty_panties_select
+    if monicaLaundryBettyPantiesSelectMode == 0:
+        hide screen screen_betty_panties_select
+    if monicaLaundryBettyPantiesSelectMode == 1:
+        hide screen screen_betty_panties_select2
     call ep22_Act_Images_monica_put_up_panties()
     $ restore_music()
     call refresh_scene_fade()

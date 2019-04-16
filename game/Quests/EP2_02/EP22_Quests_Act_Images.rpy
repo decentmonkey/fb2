@@ -86,13 +86,21 @@ label ep22_Act_Images_monica_cleaning_spot:
 label ep22_Act_Images_monica_put_up_panties:
     sound snd_fabric1
     if monicaBettyPanties == False:
-        $ images = [7121, 7122]
-        img 7120
-        with fade
-        mt "Это трусики Юлии..."
-        "Я уже к ним привыкла..."
-        w
-        call showRandomImages(images, 2)
+        if monicaUnder == "Nude":
+            img 10612
+            with fade
+            $ images = [10613, 10614, 10615, 10616]
+            mt "Я... Не привыкла..."
+            call showRandomImages(images, 2)
+            mt "Ходить без трусиков..."
+        else:
+            $ images = [7121, 7122]
+            img 7120
+            with fade
+            mt "Это трусики Юлии..."
+            "Я уже к ним привыкла..."
+            w
+            call showRandomImages(images, 2)
     else:
         if monicaBettyPantiesId == 1:
             $ images = [7124, 7125, 7126, 7127, 7128, 7129, 7130]

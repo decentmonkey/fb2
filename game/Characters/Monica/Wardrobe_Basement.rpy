@@ -3,12 +3,17 @@ define wardrobeLastUsedDay = 0
 
 define monicaCatchedByBettyGovernessFirstTime = True
 
+init python:
+    def checkGovernessWithoutPantiesActive():
+        return True
+
 label wardrobeBasement:
     $ wardrobeLastUsedDay = day
 #    img 3368
     img 7119
 #    with fadelong
     mt "Что мне одеть?"
+    $ menuName = "wardrobe_menu"
     menu:
         "Одежда шлюхи.":
             if monicaBettyPanties == True:
@@ -21,11 +26,13 @@ label wardrobeBasement:
             with Dissolve(0.5)
 #            $ renpy.pause(0.5)
 
+            $ monicaUnder = "Whore"
             $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue1_whore")
 
         "Униформа гувернантки.":
             $ cloth = "Governess"
             $ cloth_type = "Governess"
+            $ monicaUnder = "Panties"
             sound snd_fabric1
             img black_screen
             with Dissolve(0.5)
@@ -34,6 +41,7 @@ label wardrobeBasement:
         "Только трусики.":
             $ cloth = "GovernessPants"
             $ cloth_type = "Nude"
+            $ monicaUnder = "Panties"
             sound snd_fabric1
             img black_screen
             with Dissolve(0.5)
@@ -57,11 +65,15 @@ label wardrobeBasement:
                 $ monicaBettyPanties = False
             $ cloth = "Nude"
             $ cloth_type = "Nude"
+            $ monicaUnder = "Nude"
             sound snd_fabric1
             img black_screen
             with Dissolve(0.5)
 #            $ renpy.pause(0.5)
             $ autorun_to_object("wardrobeBasement_dialogue2_nude")
+
+        "":
+            pass
 
     call refresh_scene_fade() from _call_refresh_scene_fade_37
     return
@@ -166,4 +178,16 @@ label hook_basement_bedroom_check_exit_cloth_gates: #проверка на вы�
             call refresh_scene_fade() from _call_refresh_scene_fade_39
             return False
 
+    return
+
+
+label wardrobePutGovernessWithoutPanties:
+    $ monicaUnder = "Nude"
+    $ cloth = "Governess"
+    $ cloth_type = "Governess"
+    $ monicaUnder = "Nude"
+    sound snd_fabric1
+    img black_screen
+    with Dissolve(0.5)
+    $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue2_governess")
     return

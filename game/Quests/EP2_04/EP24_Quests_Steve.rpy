@@ -111,6 +111,7 @@ label ep24_quests_steve7:
     $ rooms_clean_list_exclude = []
     $ questLog(31, True)
 
+    $ basementBedSkipUntilFridayEnabled = True
     $ add_hook("monica_cleaning_end", "ep24_quests_bardie1", scene="global")
     return
 
@@ -120,11 +121,74 @@ label ep24_quests_steve8:
     $ set_var("Ralph", base = "House_LivingRoom_Ralph[day_suffix]", scene="living_room")
     return
 
+label ep24_quests_steve9:
+    # Инициализация второго посещения Стива (вешается у Бетти в квестах)
+    if week_day == 6: #Если суббота, то пропускаем до следующей субботы
+        return
+    $ remove_hook()
+    $ add_hook_day("ep24_quests_steve13", week_day = 6)
+    $ add_hook("monica_cleaning_end", "ep24_quests_steve10", scene="global", label="steve_visit2")
+    $ add_hook("map_teleport", "ep24_quests_steve11", scene="global", label="steve_visit2")
+
+    $ add_hook("basement_monica_before_nap", "ep24_quests_steve12", scene="global", label="steve_visit2") # В пятницу вечером также запускаем сцену с Бетти о приходе Стива
+
+    # Перехват телепортации по миникарте
+    $ add_hook("before_open", "ep24_quests_steve11", scene="floor1_stairs", label="steve_visit2") # Переход ногами на лестницу из подвала
+    $ add_hook("before_open", "ep24_quests_steve11", scene="bedroom1", label="steve_visit2")
+    $ add_hook("before_open", "ep24_quests_steve11", scene="bedroom2", label="steve_visit2")
+    $ add_hook("before_open", "ep24_quests_steve11", scene="bathroom_bath", label="steve_visit2")
+    $ add_hook("before_open", "ep24_quests_steve11", scene="floor1", label="steve_visit2")
+    $ add_hook("before_open", "ep24_quests_steve11", scene="floor2", label="steve_visit2")
+    $ add_hook("before_open", "ep24_quests_steve11", scene="kitchen2", label="steve_visit2")
+    $ add_hook("before_open", "ep24_quests_steve11", scene="street_house_main_yard", label="steve_visit2")
+    return
+
+label ep24_quests_steve10:
+    # Бетти говорит Монике после уборки что в субботу придет Стив
+    $ remove_hook()
+    call ep24_dialogues2_steve8()
+    return
+
+label ep24_quests_steve11:
+    # Бетти говорит Монике при попытке выйти по карте что завтра придет Стив (пятница)
+    if week_day != 5:
+        return
+    $ remove_hook(label="steve_visit2")
+    call ep24_dialogues2_steve9()
+    return
+
+label ep24_quests_steve12:
+    # Блокировка сна в пятницу, если Бетти не говорила Монике о Стиве
+    if week_day != 5:
+        return
+    help "Отдых отменен. В доме остались незавершенные события..."
+    $ skipDaysInterrupted = True
+    return False
 
 
+label ep24_quests_steve13:
+    # Перехват субботы второго посещения Стива
+    $ remove_hook()
+    return
+    $ basementBedSkipUntilFridayEnabled = False
+    $ skipDaysInterrupted = True
+    call ep24_dialogues3_steve10()
+    $ cloth = "Governess"
+    $ cloth_type = "Governess"
+    call change_scene("floor1", "Fade_long", False)
+    $ rooms_clean_list_exclude = ["living_room"]
+    $ move_object("Betty", scene="living_room")
+    $ move_object("Ralph", scene="living_room")
 
+    $ add_hook("Teleport_LivingRoom", "ep24_dialogues2_steve4", scene="floor1", label="steve_visit1")
 
+#    $ add_hook("map_teleport", "ep24_quests_steve6", scene="global", label="steve_visit1a")
+#    $ add_hook("enter_scene", "ep24_quests_steve6", scene="basement_bedroom1", label="steve_visit1a")
+#    $ add_hook("enter_scene", "ep24_quests_steve6", scene="basement_bedroom2", label="steve_visit1a")
+    $ add_hook("exit_scene", "ep24_quests_steve6", scene="floor1", label="steve_visit1a")
 
+    $ add_hook("change_time_evening", "ep24_quests_steve6b", scene="global", label="steve_visit1")
+    $ add_hook("basement_monica_before_sleep", "ep24_quests_steve7", scene="global", label="steve_visit1")
 
 
 

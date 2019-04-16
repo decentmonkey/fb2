@@ -46,7 +46,7 @@ label floor2_init:
     return
 
 label floor2_init_addition1:
-    $ add_object_to_scene("Bardie", {"type" : 2, "base" : "Floor2_Bardie[floor2BardieSuffix]", "click" : "floor2_environment", "actions" : "lt", "zorder":11, "active":False}, scene="floor2")
+    $ add_object_to_scene("Bardie", {"type" : 2, "base" : "Floor2_Bardie[floor2BardieSuffix]", "click" : "floor2_environment", "actions" : "lt", "zorder":11, "active":False, "icon_t":"/Icons/talk" + res.suffix +".png"}, scene="floor2")
     return
 
 label floor2_teleport:

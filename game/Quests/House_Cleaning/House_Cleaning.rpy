@@ -224,7 +224,10 @@ label house_cleaning_spot:
     $ set_active(False, group="environment", scene="House", recursive=True)
     $ monicaCleaningInProgress = False
     $ set_active("Spot", True, scene="floor2")
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Floor2_Monica_Cleaning_Spot_Evening", "img_overlay":"Floor2_Monica_Cleaning_Spot_Evening_Overlay", "click" : "house_cleaning_spot_click", "actions" : "l", "zorder":11, "tint": monica_tint}, {"monicaBettyPanties": {"v":True, "base" : "Floor2_Monica_Cleaning_Spot_Betty_[monicaBettyPantiesId]_Evening", "img_overlay":"Floor2_Monica_Cleaning_Spot_Evening_Overlay"}}, scene="floor2")
+    if monicaUnder == "Nude":
+        $ add_object_to_scene("Monica", {"type" : 2, "base" : "Floor2_Monica_Cleaning_Spot_Nude_Evening", "img_overlay":"Floor2_Monica_Cleaning_Spot_Nude_Evening_Overlay", "click" : "house_cleaning_spot_click", "actions" : "l", "zorder":11, "tint": monica_tint}, scene="floor2")
+    else:
+        $ add_object_to_scene("Monica", {"type" : 2, "base" : "Floor2_Monica_Cleaning_Spot_Evening", "img_overlay":"Floor2_Monica_Cleaning_Spot_Evening_Overlay", "click" : "house_cleaning_spot_click", "actions" : "l", "zorder":11, "tint": monica_tint}, {"monicaBettyPanties": {"v":True, "base" : "Floor2_Monica_Cleaning_Spot_Betty_[monicaBettyPantiesId]_Evening", "img_overlay":"Floor2_Monica_Cleaning_Spot_Evening_Overlay"}}, scene="floor2")
     $ add_object_to_scene("Spot", {"type" : 2, "base" : "Floor2_Spot", "click" : "house_cleaning_spot_click", "actions" : "l", "zorder":10, "group":"environment"}, scene="floor2")
     $ add_hook("Spot", "house_cleaning_spot_click", scene="floor2")
     $ add_hook("Monica", "house_cleaning_spot_click", scene="floor2")

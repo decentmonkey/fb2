@@ -34,6 +34,7 @@ label EP22_Quests_Betty2: #определение дня фитнеса
     if week_day == 2 or week_day == 4:
         $ bettyFitnessToday = True
         $ move_object("Betty", "floor2")
+        call bettyGetTodayPanties()
         return False
     else:
         $ bettyFitnessToday = False

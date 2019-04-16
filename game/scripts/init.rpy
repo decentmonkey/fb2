@@ -15,7 +15,15 @@ define bardieCleaningUpskirtTry3 = 10 # Прогресс с Барди за пр
 define bardieCleaningUpskirtTry3_wrong_panties = -7 # Прибавление прогресса за неверные трусики
 define bardieCleaning2Upskirt = 15 # Прогресс Барди за просмотр юбки Моники (трусики Юлии)
 
+define bardieCleaningUpskirtTry4 = 20 # Прогресс с Барди за просмотр трусиков во время уборки (трусики Бетти)
+define bardieCleaningUpskirtTry4_wrong_panties = -10 # Прибавление прогресса за неверные трусики
+
 define bardieCleaningUpskirtTryCorruption = 0 # Увеличение corruption, когда Барди подсматривает под юбку Моники
+
+define bardieCleaningNonNudeDuringPunishment = 2 # Кол-во раз, когда Барди увидел что Моника носит трусики до того, как следует наказание
+
+define bettyShowPantiesToMonicaProgress = 15 # Прогресс с Барди за просмотр трусиков во время уборки (трусики Бетти)
+
 define monicaCleaningAddCorruptionPerCleaning = 1 #Увеличение corruption за одну уборку
 
 define monicaBiffWork1CorruptionAdding = 5 # Увеличение corruption за согласие сниматься (пока просто, без обнажения)

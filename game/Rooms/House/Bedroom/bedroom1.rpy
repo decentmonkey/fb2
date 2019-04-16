@@ -1,10 +1,16 @@
 default bedroom1_betty_suffix = ""
 default bedroom1BardieSuffix = ""
+default bedroom1_betty_panties_suffix = ""
+default bedroom1_ep24_init = False
 
 label bedroom1:
     $ print "enter_bedroom1"
     $ miniMapData = []
     call miniMapHouseGenerate() from _call_miniMapHouseGenerate_19
+
+    $ bedroom1_betty_panties_suffix = ""
+    if day_time == "evening" and bettyMustNotWearPanties == True:
+        $ bedroom1_betty_panties_suffix = "_NoPanties"
 
     $ scene_image = "scene_Bedroom1[day_suffix]"
     return
@@ -14,7 +20,7 @@ label bedroom1_init:
 
 #    if bettyLocation == "Bedroom1":
 #        if day_time == "day":
-    $ add_object_to_scene("Betty", {"type" : 2, "base" : "Bedroom1_Betty_[bedroom1_betty_suffix][day_suffix]", "click" : "bettyInteract1", "actions" : "lt", "zorder":15, "active":False})
+    $ add_object_to_scene("Betty", {"type" : 2, "base" : "Bedroom1_Betty_[bedroom1_betty_suffix][bedroom1_betty_panties_suffix][day_suffix]", "click" : "bettyInteract1", "actions" : "lt", "zorder":15, "active":False})
 
     $ add_object_to_scene("Chair", {"type":2, "base":"Bedroom1_Chair", "click" : "bedroom1_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "base":"Bedroom1_Chair_Dust"}})
     $ add_object_to_scene("Chair2", {"type":2, "base":"Bedroom1_Chair2", "click" : "bedroom1_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "base":"Bedroom1_Chair2_Dust"}})
@@ -36,8 +42,13 @@ label bedroom1_init:
 #    jump show_scene
 
 label bedroom1_init_addition1:
-    $ add_object_to_scene("Bardie", {"type" : 2, "base" : "Bedroom1_Bardie[bedroom1BardieSuffix]", "click" : "bedroom1_environment", "actions" : "lt", "zorder":16, "active":False})
+    $ add_object_to_scene("Bardie", {"type" : 2, "base" : "Bedroom1_Bardie[bedroom1BardieSuffix]", "click" : "bedroom1_environment", "actions" : "lt", "zorder":16, "active":False, "icon_t":"/Icons/talk" + res.suffix +".png"}, scene="bedroom1")
     return
+
+label bedroom1_init_addition2:
+    $ add_object_to_scene("Betty", {"type" : 2, "base" : "Bedroom1_Betty_[bedroom1_betty_suffix][bedroom1_betty_panties_suffix][day_suffix]", "click" : "bettyInteract1", "actions" : "lt", "zorder":15, "active":False}, scene="bedroom1")
+    return
+
 
 label bedroom1_teleport:
     if obj_name == "Teleport_Bedroom2":

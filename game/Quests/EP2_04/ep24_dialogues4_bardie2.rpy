@@ -141,17 +141,22 @@ label ep24_dialogues4_bardie2:
     bardie "Почему на тебе надеты трусики?!"
     mt "!!!"
     bardie "Если ты будешь нарушать правила, то тебя будет ждать наказание!"
+    $ bardieMonicaNonNudeCount += 1
+
     return
 
 label ep24_dialogues4_bardie3:
-
+    $ restore_music()
+    music Groove2_85
 # Если Моника нарушает правила дома (убирается в трусиках при Барди) 3 раза, то происходит наказание
 # После уборки Барди зовет Монику вниз.
     img 10267
+    with fadelong
     bardie "Гувернантка, иди вниз в свою спальню!"
     img 10268
     bardie "Твой хозяин хочет поговорить с тобой!"
     img 10269
+    with fade
     mt "!!!"
     return
 
@@ -159,32 +164,52 @@ label ep24_dialogues4_bardie3:
 label ep24_dialogues4_bardie4:
     # Спальня в подвале
 # Барди говорит что Моника нерадивая гувернантка и заслужила наказание.
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    pause 1.0
+    music Groove2_85
     img 10270
+    with fadelong
     m "Что тебе снова надо, Барди?!"
+    music Power_Bots_Loop
     img 10271
     bardie "Моника, ты нерадивая гувернантка."
     #governess
-    img 10272
-    #betty
-    img 10273
-    img 10274
-    img 10275
-    img 10276
-    img 10277
+    if monicaBettyPanties == False:
+        if monicaUnder != "Nude":
+            img 10272
+    else:
+        if monicaBettyPantiesId == 1:
+            #betty
+            img 10273
+        if monicaBettyPantiesId == 2:
+            img 10274
+        if monicaBettyPantiesId == 3:
+            img 10275
+        if monicaBettyPantiesId == 4:
+            img 10276
+        if monicaBettyPantiesId == 5:
+            img 10277
     #
+    sound Jump1
+    with diss
     bardie "Ты не соблюдаешь правила дома."
     img 10278
     bardie "И ты заслужила наказание!"
 # Первый раз:
 # Моника кривится и говорит какое еще наказание?!
     img 10279
+    with fade
     m "Какое еще наказание?!"
 
 # Барди садится на кровать и говорит чтобы сняла запрещенные трусики,
 #подняла попу вверх и легла к нему на колени.
     img 10280
+    with fade
     bardie "Сними запрещенные в этом доме трусики!"
     img 10281
+    with diss
     bardie "Ложись ко мне на коленки и подними попу вверх!"
 # Выбор:
 # Моника говорит что не собирается этого делать! С нее хватит!
@@ -195,18 +220,25 @@ label ep24_dialogues4_bardie4:
 # Вот малявка! Он продолжает шантажировать меня!
 # Барди говорит чтобы не испытывала его терпения и быстро легла для получения наказания!
     img 10282
+    with fade
     menu:
         "Я не собираюсь этого делать! С меня хватит!":
+            music Pyro_Flow
             img 10283
+            with fade
             m "Я не собираюсь этого делать! С меня хватит!"
             img 10284
+            with fade
             m "Я уйду из этого дурацкого дома!"
             m "Я не буду терпеть такие унижения из-за какой-то крыши над головой!"
+            music Power_Bots_Loop
             img 10285
+            with diss
             bardie "Только попробуй уйти!"
             bardie "Я сразу пожалуюсь Мистеру Маркусу на тебя!"
             mt "!!!"
             img 10286
+            with fade
             mt "Вот малявка! Он продолжает шантажировать меня!"
             img 10287
             bardie "Не испытывай моего терпения и быстро ложись для получения наказания!"
@@ -215,11 +247,15 @@ label ep24_dialogues4_bardie4:
                 "Послушаться хозяина дома...":
                     pass
                 "Убежать...":
+                    $ move_object("Bardie", "bedroom_bardie")
+                    call change_scene("street_house_main_yard", "Fade_long", "highheels_run2")
                     return False
         "Послушаться хозяина дома...":
             pass
 
+    $ bardieMonicaPunishmentCount += 1
 # Моника снимает трусики и ложится к Барди на коленки
+    music Groove2_85
     img 10289
     with fade
     w
@@ -229,29 +265,72 @@ label ep24_dialogues4_bardie4:
     img 10291
     with fade
     w
-    #governess
-    img 10292
-    img 10293
-    #betty
-    img 10295
-    img 10294
-    img 10305
+    sound snd_fabric1
+    if monicaBettyPanties == False:
+        if monicaUnder != "Nude":
+            #governess
+            img 10292
+            with diss
+            w
+            img 10293
+            with diss
+            w
+    else:
+        if monicaBettyPantiesId == 1:
+            #betty
+            img 10295
+            with diss
+            w
+            img 10294
+            with diss
+            w
+            img 10305
+            with diss
+            w
     #
-    img 10296
-    img 10297
-    img 10306
+        if monicaBettyPantiesId == 2:
+            img 10296
+            with diss
+            w
+            img 10297
+            with diss
+            w
+            img 10306
+            with diss
+            w
     #
-    img 10299
-    img 10298
-    img 10307
+        if monicaBettyPantiesId == 3:
+            img 10299
+            with diss
+            w
+            img 10298
+            with diss
+            w
+            img 10307
+            with diss
+            w
     #
-    img 10300
-    img 10301
-    img 10308
+        if monicaBettyPantiesId == 4:
+            img 10300
+            with diss
+            w
+            img 10301
+            with diss
+            w
+            img 10308
+            with diss
+            w
     #
-    img 10303
-    img 10302
-    img 10304
+        if monicaBettyPantiesId == 5:
+            img 10303
+            with diss
+            w
+            img 10302
+            with diss
+            w
+            img 10304
+            with diss
+            w
 
     #
     img 10309
@@ -302,16 +381,21 @@ label ep24_dialogues4_bardie4_loop1:
     show videov_Basement_Bardie_Monica_Spanking_1_1
     wclean
     stop music
+
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
     scene black
     image videov_Basement_Bardie_Monica_Spanking_1_2 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_2.mkv", fps=30)
     show videov_Basement_Bardie_Monica_Spanking_1_2
+    bardie "Получай!"
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
     scene black
     image videov_Basement_Bardie_Monica_Spanking_1_3 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_3.mkv", fps=30)
     show videov_Basement_Bardie_Monica_Spanking_1_3
+    bardie "Получай!"
+    bardie "Нерадивая гувернантка!"
+    bardie "Я научу тебя соблюдать правила дома!"
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
@@ -336,57 +420,75 @@ label ep24_dialogues4_bardie4_loop1:
     scene black
     image videov_Basement_Bardie_Monica_Spanking_1_7 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_7.mkv", fps=30)
     show videov_Basement_Bardie_Monica_Spanking_1_7
-    wclean
-
-
-
-    bardie "Получай!"
-    bardie "Получай!"
-    bardie "Нерадивая гувернантка!"
-    bardie "Я научу тебя соблюдать правила дома!"
-
     bardie "Ну что, ты поняла? Ты будешь слушаться хозяина?"
+    wclean
+    stop music
 
+    music Power_Bots_Loop
     menu:
         "Отпусти меня немедленно, малявка!":
             img 10320
+            with fade
             m "Отпусти меня немедленно, малявка!"
             jump ep24_dialogues4_bardie4_loop1
         "Я поняла! Я буду слушаться хозяина!":
             pass
 
 
+    music Groove2_85
     img 10321
+    with fade
     m "Я поняла! Я буду слушаться хозяина!"
     img 10322
+    with fade
     m "Я обещаю! Я буду себя хорошо вести!"
     img 10323
+    with fade
     bardie "Так-то лучше!"
     img 10324
+    with diss
     bardie "Если будешь себя снова плохо вести, получишь еще!"
     img 10325
+    with fade
     bardie "Гувернантка, можешь продолжать работать..."
     bardie "Ты мне пока не нужна."
+
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    pause 1.0
+    music Pyro_Flow
     img 10326
+    with fadelong
     mt "Не могу поверить!"
     mt "Этот малявка отшлепал меня словно я маленький ребенок!"
 
     #Если повтор
-    img 10327
-    mt "И уже не первый раз!!!"
-    #
-    img 10327
-    mt "В моем же доме!"
-    mt "Отшлепали! Меня!!!"
-    mt "Монику Бакфетт!!!"
-    #
+    if bardieMonicaPunishmentCount > 1:
+        img 10327
+        with fade
+        mt "И уже не первый раз!!!"
+        #
+        img 10327
+        mt "В моем же доме!"
+        mt "Отшлепали! Меня!!!"
+        mt "Монику Бакфетт!!!"
+        #
 
     img 10328
+    with fade
     mt "У меня попа горит!"
     img 10329
+    with diss
     mt "Что этот Барди себе позволяет?!"
 
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Groove2_85
     img 10330
+    with fadelong
     mt "Как унизительно!"
     mt "Мне надо как-то избавиться от него!"
 

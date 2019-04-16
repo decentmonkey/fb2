@@ -102,6 +102,13 @@ label ep22_dialogues4_1:
         betty "Напомни мне."
         img 6028
         m "Да, Миссис Робертс. Хорошо..."
+        if bettyPantiesFloor2TalkFlag == True:
+            $ menuName="monica_betty_dialogue_floor2_end_menu"
+            menu:
+                "Уйти.":
+                    pass
+                "":
+                    pass
     return False
 
 label ep22_dialogues4_1a0:
@@ -698,6 +705,8 @@ label ep22_dialogues4_7a:
     #Сменяется на город
     mt "Черт! Уже прошел час!"
     "Что там делает эта сучка Бетти?!"
+    if bettyKnowsAboutPanties == True:
+        call ep24_dialogues3_fitness6()
     img black_screen
     with Dissolve(0.5)
     pause 2.0

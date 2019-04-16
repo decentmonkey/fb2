@@ -1,5 +1,7 @@
 default bardieStage = 0
 
+default Bardie_Life_day5_day = 0
+
 label Bardie_Life_init:
     $ add_hook("change_time_day", "Bardie_Life_day", scene="global")
     $ add_hook("change_time_evening", "Bardie_Life_evening", scene="global")
@@ -72,4 +74,14 @@ label Bardie_Life_day4:
     return False
 label Bardie_Life_evening4:
     $ move_object("Bardie", "bedroom_bardie")
+    return False
+
+label Bardie_Life_day5:
+    if day == Bardie_Life_day5_day or day%2 == 0:
+        return
+    if get_active_objects("Betty", scene="floor2") != False:
+        $ move_object("Bardie", "floor2")
+        return False
+    if get_active_objects("Betty", scene="bedroom1") != False:
+        $ move_object("Bardie", "bedroom1")
     return False

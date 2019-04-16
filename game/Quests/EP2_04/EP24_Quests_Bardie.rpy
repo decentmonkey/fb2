@@ -1,4 +1,6 @@
 default bettyBardieFitnessStage = 0
+default bardieMonicaNonNudeCount = 0
+default bardieMonicaPunishmentCount = 0
 
 label ep24_quests_bardie1:
     # Барди зовет Монику после уборки (после первого застолья со Стивом)
@@ -133,6 +135,8 @@ label ep24_quests_bardie9:
         $ remove_hook("floor2_betty_fitness_dialogue", "ep24_quests_bardie3", scene="menu")
         $ questLog(34, False)
         $ questLog(35, True)
+        $ add_hook("bardie_cleaning_interact_after", "ep24_quests_bardie11", scene="misc")
+        $ add_hook("bardie_cleaning_interact_wrongpanties", "ep24_quests_bardie12", scene="misc")
     call refresh_scene_fade()
     return False
 
@@ -147,15 +151,56 @@ label ep24_quests_bardie10:
     # Инициализация хуков разговора Моники и Бетти о том что Моника может проверять трусики Бетти
     $ remove_hook()
     $ remove_hook(label="bardie_fitness_global")
-    m "betty init!"
 
-    $ add_hook("map_teleport", "ep24_quests_betty1", scene="global", label="bardie_catch1", priority = 1001)
-    $ add_hook("before_open", "ep24_quests_betty1", scene="floor1_stairs", label="bardie_catch1") # Переход ногами на лестницу из подвала
-    $ add_hook("before_open", "ep24_quests_betty1", scene="bedroom1", label="bardie_catch1")
-    $ add_hook("before_open", "ep24_quests_betty1", scene="bedroom2", label="bardie_catch1")
-    $ add_hook("before_open", "ep24_quests_betty1", scene="bathroom_bath", label="bardie_catch1")
-    $ add_hook("before_open", "ep24_quests_betty1", scene="floor1", label="bardie_catch1")
-    $ add_hook("before_open", "ep24_quests_betty1", scene="floor2", label="bardie_catch1")
-    $ add_hook("before_open", "ep24_quests_betty1", scene="kitchen2", label="bardie_catch1")
-    $ add_hook("before_open", "ep24_quests_betty1", scene="street_house_main_yard", label="bardie_catch1")
+    $ add_hook("map_teleport", "ep24_quests_betty1", scene="global", label="betty_catch1", priority = 1001)
+    $ add_hook("before_open", "ep24_quests_betty1", scene="floor1_stairs", label="betty_catch1") # Переход ногами на лестницу из подвала
+    $ add_hook("before_open", "ep24_quests_betty1", scene="bedroom1", label="betty_catch1")
+    $ add_hook("before_open", "ep24_quests_betty1", scene="bedroom2", label="betty_catch1")
+    $ add_hook("before_open", "ep24_quests_betty1", scene="bathroom_bath", label="betty_catch1")
+    $ add_hook("before_open", "ep24_quests_betty1", scene="floor1", label="betty_catch1")
+    $ add_hook("before_open", "ep24_quests_betty1", scene="floor2", label="betty_catch1")
+    $ add_hook("before_open", "ep24_quests_betty1", scene="kitchen2", label="betty_catch1")
+    $ add_hook("before_open", "ep24_quests_betty1", scene="street_house_main_yard", label="betty_catch1")
     return
+
+label ep24_quests_bardie11:
+    # Добавление Барди прогресса за подглядывание во время уборки
+    $ add_char_progress("Bardie", bardieCleaningUpskirtTry4, "cleaning_upskirt_day " + str(day))
+    return False
+
+label ep24_quests_bardie12:
+    # Убавление прогресса Барди за неправильные трусики
+    $ add_char_progress("Bardie", bardieCleaningUpskirtTry4_wrong_panties, "cleaning_upskirt_wrong_panties_day " + str(day))
+    return False
+
+label ep24_quests_bardie13:
+    # Регулярный разговор с Барди на floor2
+    if act=="l":
+        return
+    $ menuName = "floor2_bardie_dialogue_regular_menu"
+    menu:
+        "Уйти.":
+            return False
+        "":
+            pass
+    return False
+label ep24_quests_bardie14:
+    # Регулярный разговор с Барди в спальне хозяев
+    $ menuName = "bedroom1_bardie_dialogue_regular_menu"
+    menu:
+        "Уйти.":
+            return False
+        "":
+            pass
+    return False
+
+label ep24_quests_bardie15:
+    # Проверка на наказание Моники за то что носит трусики (вызывается в конце уборки)
+    if bardieMonicaNonNudeCount < bardieCleaningNonNudeDuringPunishment:
+        return
+    $ bardieMonicaNonNudeCount = 0
+    call ep24_dialogues4_bardie3()
+    call ep24_dialogues4_bardie4()
+    $ basement_bedroom2_MonicaSuffix = 2
+    call change_scene("basement_bedroom2", "Fade_long", False)
+    return False

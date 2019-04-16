@@ -1,4 +1,5 @@
 default hooks_stack = []
+default sprites_hover_dummy_screen_flag = False
 
 init python:
 
@@ -318,7 +319,7 @@ label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen
 
     return _return
 
-label call_hook(label_name, menu_name):
+label call_hook(label_name, menu_name, sprites_hover_dummy_screen_flag = False):
     $ last_hook_scene = "menu"
     $ last_hook_obj_name = menu_name
     $ last_hook_label = label_name

@@ -565,6 +565,7 @@ label cleaning2_bardie_comment1:
     if monicaBettyPanties == False:
         if monicaUnder == "Nude":
             img 10561
+            sound Jump2
             w
             img 10562
             w
@@ -638,6 +639,11 @@ label cleaning2_bardie_comment1:
         if monicaMustWearBettyPanties == True:
             bardie "Ты одела правильные трусики! Хорошая гувернантка!"
             mt "!!!"
+        if monicaMustNotWearPanties == True:
+            if monicaUnder != "Nude":
+                call ep24_dialogues4_bardie2() # замечание
+            else:
+                bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
 #    music Pyro_Flow high
     # Моника
     $ restore_music()
@@ -728,6 +734,11 @@ label cleaning2_bardie_comment2:
         if monicaMustWearBettyPanties == True:
             bardie "Ты одела правильные трусики! Хорошая гувернантка!"
             mt "!!!"
+        if monicaMustNotWearPanties == True:
+            if monicaUnder != "Nude":
+                call ep24_dialogues4_bardie2() # замечание
+            else:
+                bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
 #    music Pyro_Flow
 #    music Marty_Gots_a_Plan high
     $ restore_music()
@@ -822,6 +833,11 @@ label cleaning2_bardie_comment3:
         if monicaMustWearBettyPanties == True:
             bardie "Ты одела правильные трусики! Хорошая гувернантка!"
             mt "!!!"
+        if monicaMustNotWearPanties == True:
+            if monicaUnder != "Nude":
+                call ep24_dialogues4_bardie2() # замечание
+            else:
+                bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
 #    music Pyro_Flow high
 #    $ add_corruption(bardieCleaning2UpskirtCorruption, "bardie_monica_upskirt_corruption_day_" + str(day))
     $ restore_music()
@@ -995,7 +1011,10 @@ label ep22_dialogues3_13:
     else:
         img scene_Laundry1
         with fade
-    mt "Мне лучше вернуть трусики Бетти на место, пока она не заметила что я их использую..."
+    if bettyKnowsAboutPanties == False:
+        mt "Мне лучше вернуть трусики Бетти на место, пока она не заметила что я их использую..."
+    else:
+        mt "Мне лучше вернуть трусики Бетти на место..."
     return
 label ep22_dialogues3_14:
     # Возвращение трусиков Бетти

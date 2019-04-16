@@ -45,6 +45,8 @@ label Betty_Life_day1_lower:
 label Betty_Life_evening1:
 #    $ move_object("biff", "monica_office_cabinet")
     $ bedroom1_betty_suffix = bettyPantiesCurrent
+    if bettyPantiesCurrent == 0:
+        $ bedroom1_betty_suffix = bettyPantiesLog[0]
     $ move_object("Betty", "bedroom1")
     #bedroom1_betty_suffix
     return

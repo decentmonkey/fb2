@@ -22,6 +22,8 @@ default bettyInstructorSex1 = False # Бетти имела секс с инст
 
 default bettyFitnessToday = False
 
+default bettyMustNotWearPanties = False
+
 label bettyInteract1:
     if act == "l":
         mt "Это Бетти..."
@@ -43,17 +45,23 @@ label bettyGetTodayPanties:
     if len(bettyPantiesCurrentList) > 0:
         $ bettyPantiesCurrent = bettyPantiesCurrentList.pop(0)
         $ bettyPantiesLog.insert(0, bettyPantiesCurrent)
+        if bettyMustNotWearPanties == True:
+            $ bettyPantiesCurrent = 0
+            return
         return
     python:
         bettyPantiesCurrentList = copy.deepcopy(bettyPantiesList)
-        print bettyPantiesCurrentList
-        idx = bettyPantiesCurrentList.index(bettyPantiesCurrent)
-        bettyPantiesCurrentList.pop(idx)
-        print bettyPantiesCurrentList
+#        print bettyPantiesCurrentList
+        if bettyPantiesCurrent != 0:
+            idx = bettyPantiesCurrentList.index(bettyPantiesCurrent)
+            bettyPantiesCurrentList.pop(idx)
+#        print bettyPantiesCurrentList
         shuffle(bettyPantiesCurrentList)
-        print bettyPantiesCurrentList
-        bettyPantiesCurrentList.append(bettyPantiesCurrent)
-        print bettyPantiesCurrentList
+#        print bettyPantiesCurrentList
+
+        if bettyPantiesCurrent != 0:
+            bettyPantiesCurrentList.append(bettyPantiesCurrent)
+#        print bettyPantiesCurrentList
 
     call bettyGetTodayPanties() from _call_bettyGetTodayPanties
     return
@@ -77,5 +85,18 @@ label bettyProgressLevelUp1:
         $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
         $ char_data["show_caption_diabled"] = True
 #        $ char_data["caption_diabled"] = _("Work in progress...")
+
+    if char_data["level"] == 5:
+        if char_info["Bardie"]["level"] < 5:
+            $ char_data["enabled"] = False
+            $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+            $ char_data["show_caption_diabled"] = True
+            return
+        call ep24_quests_betty5()
+    if char_data["level"] == 6:
+        $ char_data["enabled"] = False
+        $ char_data["show_caption_diabled"] = False
+        $ char_data["caption_diabled"] = _("Work in progress...")
+        help "Уровень Бетти максимален для этой версии игры. Ожидайте обновлений!"
 
     return
