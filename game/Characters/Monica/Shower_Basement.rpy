@@ -106,7 +106,7 @@ label basement_toilet_use1:
             $ images = random.sample(set(toilet_images), 3)
         else:
             $ images = ["10568", "10569", "10570"]
-
+            $ images = random.sample(set(images), 3)
 
     if monicaBettyPanties == True:
         if monicaBettyPantiesId == 1:

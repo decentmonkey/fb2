@@ -436,3 +436,29 @@ translate german citizen4_dialogue_pilon_loop4_1_48a0c8d9:
     # citizen4 "Какое то не продуктивное вышло знакомство. Надеюсь, в другой раз будет лучше."
     citizen4 "Das war nicht so gut, ich hoffe, das wird nächstes Mal besser."
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:163
+translate german citizen4_dialogue_pilon_loop4_7c87a2f3:
+
+    # citizen4 "Должен признать, твои сиськи хороши."
+    # mt "Ну еще бы!"
+    # citizen4 "Хотя страшно подумать, что с ними станет лет через 10..."
+    # mt "Что?"
+    # citizen4 "Знаешь, мой знакоый может тебе помочь кое в чем... За каких нибудь 500$ твои подруги наберут вес."
+    # citizen4 "Тебе дать его номер?"
+    citizen4 "Должен признать, твои сиськи хороши."
+    mt "Ну еще бы!"
+    citizen4 "Хотя страшно подумать, что с ними станет лет через 10..."
+    mt "Was?"
+    citizen4 "Знаешь, мой знакоый может тебе помочь кое в чем... За каких нибудь 500$ твои подруги наберут вес."
+    citizen4 "Тебе дать его номер?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:170
+translate german citizen4_dialogue_pilon_loop4_1_90a5df7d:
+
+    # m "Меня это не интересует! С тебя хватит!"
+    # citizen4 "Погоди минутку. Потряси ка своими сочными сиськами!"
+    m "Меня это не интересует! С тебя хватит!"
+    citizen4 "Einen Moment noch. Wackle mit deinen tollen Brüsten!"
+

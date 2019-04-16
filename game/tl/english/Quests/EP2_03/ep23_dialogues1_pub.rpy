@@ -392,7 +392,7 @@ translate english ep23_dialogues1_3_202d531f:
     # m "Да, я хочу устроиться на работу."
     # joe "Отлично!"
     m "Yes, I'd like to work here."
-    joe "Отлично!"
+    joe "Excelent!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:277
 translate english ep23_dialogues1_3_fe40efa5:
@@ -499,7 +499,7 @@ translate english ep23_dialogues1_3_24ad3933:
     # "Я не позволю работать с клиентами нелегалу!"
     # "Любая проверка нас оштрафует!"
     # "У нашего заведения и так плохая репутация! Я не хочу ее портить еще сильнее!"
-    ashley "ЧТО?!?!"
+    ashley "WHAT?!?!"
     m "But I'll bring them later! I promise!"
     ashley "Come later then!"
     "I will not allow to work you here illegaly!"

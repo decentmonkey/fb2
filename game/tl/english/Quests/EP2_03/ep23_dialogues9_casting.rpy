@@ -882,7 +882,7 @@ translate english ep23_dialogue9_2_683564ef:
 translate english ep23_dialogue9_2_ea1a00d4:
 
     # m "Да!"
-    m "Да!"
+    m "Yes!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:977
 translate english ep23_dialogue9_2_1b539f80:
@@ -1468,7 +1468,7 @@ translate english strings:
 
     # Quests/EP2_03/ep23_dialogues9_casting.rpy:973
     old "Да!"
-    new "Да!"
+    new "Yes!"
 
     # Quests/EP2_03/ep23_dialogues9_casting.rpy:973
     old "Хочу поскорее закончить это..."

@@ -1,4 +1,5 @@
 default livingRoomRalphIsHere = False
+default livingRoomRalphSuffix = ""
 
 label living_room:
     $ print "enter_living_room"
@@ -18,7 +19,7 @@ label living_room_init:
 
 #        $ scene_image = "scene_House_LivingRoom_Ralph_Monica_" + cloth + day_suffix
 #        $ add_object_to_scene("Monica", {"type" : 2, "base" : "House_LivingRoom_Ralph_Monica_" + cloth + day_suffix, "click" : "living_room_environment", "actions" : "l", "zorder":10, "tint": monica_tint})
-    $ add_object_to_scene("Ralph", {"type" : 2, "base" : "House_LivingRoom_Ralph[day_suffix]", "click" : "ralphInteract1", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png"})
+    $ add_object_to_scene("Ralph", {"type" : 2, "base" : "House_LivingRoom_Ralph[livingRoomRalphSuffix][day_suffix]", "click" : "ralphInteract1", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png"})
 
 
 #    $ add_object_to_scene("Chair1", {"type":2, "base":"House_LivingRoom_Chair1", "click" : "living_room_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
@@ -40,6 +41,10 @@ label living_room_init:
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
+
+label living_room_init_additional1:
+    $ add_object_to_scene("Ralph", {"type" : 2, "base" : "House_LivingRoom_Ralph[livingRoomRalphSuffix][day_suffix]", "click" : "ralphInteract1", "actions" : "lt", "zorder":10, "icon_t":"/Icons/talk" + res.suffix +".png"}, scene="living_room")
+    return
 
 label living_room_teleport:
     if obj_name == "Teleport_Floor1":

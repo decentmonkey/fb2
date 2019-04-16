@@ -46,3 +46,11 @@ translate english strings:
     old "Бетти хочет чтобы я носила ее сумку с вещами на фитнесс..."
     new "Betty wants me to carry her bag with her fitness clothes"
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Characters/Family/Betty.rpy:100
+translate english bettyProgressLevelUp1_b07ccb77:
+
+    # help "Уровень Бетти максимален для этой версии игры. Ожидайте обновлений!"
+    help "Уровень Бетти максимален для этой версии игры. Ожидайте обновлений!"
+

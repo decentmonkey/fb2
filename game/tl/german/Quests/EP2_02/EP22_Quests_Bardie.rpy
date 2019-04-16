@@ -6,7 +6,7 @@ translate german EP22_Quests_Bardie_Monica_Rest_After_Cleaning_comment1_e859687f
     # mt "Барди..."
     # mt "Он вертится вокруг как назойливая муха!"
     # mt "Надо как-то избавиться от него..."
-    mt "Bardi..."
+    mt "Bardie..."
     mt "Er schwirrt rum wie eine lästige Fliege!"
     mt "Wir müssen ihn irgendwie los werden..."
 

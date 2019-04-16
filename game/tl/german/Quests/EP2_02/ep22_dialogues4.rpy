@@ -794,3 +794,31 @@ translate german strings:
     old "Смотреть на Бетти."
     new "Schau Betty an."
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:121
+translate german ep22_dialogues4_1a0_013047f9:
+
+    # m "Я готова, Миссис Роберс..."
+    m "Я готова, Миссис Роберс..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:123
+translate german ep22_dialogues4_1a0_79fb76ea:
+
+    # betty "Я заждалась тебя, нерадивая гувернантка."
+    # betty "Быстро бери мою сумку и поехали скорее!"
+    betty "Я заждалась тебя, нерадивая гувернантка."
+    betty "Быстро бери мою сумку и поехали скорее!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:127
+translate german ep22_dialogues4_1a0_f8ae02a3:
+
+    # m "Да, Миссис Робертс..."
+    m "Ja, Frau Roberts..."
+
+translate german strings:
+
+    # Quests/EP2_02/ep22_dialogues4.rpy:116
+    old "Я готова, Миссис Робертс..."
+    new ""
+

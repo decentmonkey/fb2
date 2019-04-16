@@ -57,14 +57,17 @@ label ep22_dialogue1_5_kitchen:
         "Уйти.":
             call change_scene("floor1")
             return
-    $ cloth = "Governess"
-    $ cloth_type = "Governess"
+#    $ cloth = "Governess"
+#    $ cloth_type = "Governess"
+    $ images = [8533, 8534]
+    if cloth == "Whore":
+        $ images = [10617, 10618]
     $ store_music()
     music RnB3_65
-    img 8533
+    img images[0]
     with fadelong
     mt "Наконец-то я поем нормальную еду!"
-    img 8534
+    img images[1]
     with fadelong
     mt "Как же хорошо снова посидеть за этим столиком..."
     "Скоро я верну себе этот дом, обещаю..."

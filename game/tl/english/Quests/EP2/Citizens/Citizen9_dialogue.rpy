@@ -109,7 +109,7 @@ translate english citizen9_dialogue_5db972c4:
 
     # "Хорошо..."
     # citizen9 "Ооо, дамочка, а пойдемте к пилону! я потрогаю твою сиську еще разок!"
-    "Хорошо..."
+    "Fine..."
     citizen9 "Ooh, lady, let's go to the gateway! I want to touch your boob again!"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:80
@@ -359,4 +359,28 @@ translate english strings:
     # Quests/EP2/Citizens/Citizen9_dialogue.rpy:76
     old "Ну точно не сейчас."
     new "Definitely not now."
+
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:231
+translate english citizen9_dialogue_pilon_loop9_569b0b94:
+
+    # mt "Размечтался..."
+    # citizen9 "Ты знаешь, тут не далеко продают кебабы, хотя ты конечно знаешь!"
+    # "Если ты сходишь мне вот так за кебабом, я дам тебе 100$. Что скажешь?"
+    mt "In your dreams..."
+    citizen9 "Ты знаешь, тут не далеко продают кебабы, хотя ты конечно знаешь!"
+    "Если ты сходишь мне вот так за кебабом, я дам тебе 100$. Что скажешь?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:235
+translate english citizen9_dialogue_pilon_loop9_6d3309d4:
+
+    # m "Что значит Вот так?!"
+    # citizen9 "А что тут не понятно? Ну в одежде, которая на тебе сейчас."
+    # m "Да ни за что!"
+    # mt "Хотя 100$ - не маленькие деньги..."
+    m "Что значит Вот так?!"
+    citizen9 "А что тут не понятно? Ну в одежде, которая на тебе сейчас."
+    m "No way!"
+    mt "Хотя 100$ - не маленькие деньги..."
 

@@ -392,3 +392,21 @@ translate german citizen5_dialogue_pilon_loop5_ffa01e0c:
     # citizen5 "Я только что лицезрел гору Фудзи, точнее две!"
     citizen5 "Gerade habe ich den Berg Fuji gesehen, oder besser, zweimal!"
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:138
+translate german citizen5_dialogue_pilon_loop5_37d3a23f:
+
+    # citizen5 "Ооо! Какие красивые изгибания!"
+    # citizen5 "Они похожи гору Фудзи, только две. Ты быда там?"
+    citizen5 "Wow! Welch tolle Drehung!"
+    citizen5 "Они похожи гору Фудзи, только две. Ты быда там?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:141
+translate german citizen5_dialogue_pilon_loop5_40b7017f:
+
+    # m "Нет, и не очень то и хочется."
+    # citizen5 "Вот и зря! Побывать нужно незамедлительно!"
+    m "Нет, и не очень то и хочется."
+    citizen5 "Вот и зря! Побывать нужно незамедлительно!"
+

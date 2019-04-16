@@ -495,3 +495,27 @@ translate german citizen9_dialogue_pilon_loop9_103714ea:
     # mt "Размечтался..."
     mt "Davon kannst du nur träumen."
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:231
+translate german citizen9_dialogue_pilon_loop9_569b0b94:
+
+    # mt "Размечтался..."
+    # citizen9 "Ты знаешь, тут не далеко продают кебабы, хотя ты конечно знаешь!"
+    # "Если ты сходишь мне вот так за кебабом, я дам тебе 100$. Что скажешь?"
+    mt "Davon kannst du nur träumen."
+    citizen9 "Ты знаешь, тут не далеко продают кебабы, хотя ты конечно знаешь!"
+    "Если ты сходишь мне вот так за кебабом, я дам тебе 100$. Что скажешь?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:235
+translate german citizen9_dialogue_pilon_loop9_6d3309d4:
+
+    # m "Что значит Вот так?!"
+    # citizen9 "А что тут не понятно? Ну в одежде, которая на тебе сейчас."
+    # m "Да ни за что!"
+    # mt "Хотя 100$ - не маленькие деньги..."
+    m "Что значит Вот так?!"
+    citizen9 "А что тут не понятно? Ну в одежде, которая на тебе сейчас."
+    m "Keinesfalls."
+    mt "Хотя 100$ - не маленькие деньги..."
+

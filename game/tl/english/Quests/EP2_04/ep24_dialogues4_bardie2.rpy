@@ -160,7 +160,7 @@ translate english ep24_dialogues4_bardie2_be744fc8:
     # mt "!!!"
     # bardie "Если ты будешь нарушать правила, то тебя будет ждать наказание!"
     bardie "Monica, you know the rules."
-    bardie "Почему на тебе надеты трусики?!"
+    bardie "Why are you not wearing panties?!"
     mt "!!!"
     bardie "Breaking the rules can lead to a punishment."
 
@@ -290,7 +290,7 @@ translate english ep24_dialogues4_bardie4_loop1_1f35fd99:
 translate english ep24_dialogues4_bardie4_loop1_3c4bea7c:
 
     # m "Я обещаю! Я буду себя хорошо вести!"
-    m "Я обещаю! Я буду себя хорошо вести!"
+    m "I promise! I will behave!"
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:296
 translate english ep24_dialogues4_bardie4_loop1_bb3ecfee:
@@ -302,29 +302,29 @@ translate english ep24_dialogues4_bardie4_loop1_bb3ecfee:
 translate english ep24_dialogues4_bardie4_loop1_ec43c727:
 
     # bardie "Если будешь себя снова плохо вести, получишь еще!"
-    bardie "Если будешь себя снова плохо вести, получишь еще!"
+    bardie "If you don’t, I will be punished again!"
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:300
 translate english ep24_dialogues4_bardie4_loop1_1375dbad:
 
     # bardie "Гувернантка, можешь продолжать работать..."
     # bardie "Ты мне пока не нужна."
-    bardie "Гувернантка, можешь продолжать работать..."
-    bardie "Ты мне пока не нужна."
+    bardie "You can keep working, maid."
+    bardie "I don’t need you for now."
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:303
 translate english ep24_dialogues4_bardie4_loop1_be57a987:
 
     # mt "Не могу поверить!"
     # mt "Этот малявка отшлепал меня словно я маленький ребенок!"
-    mt "Не могу поверить!"
+    mt "I can't believe it!"
     mt "This punk spanked me like I'm a kid!"
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:308
 translate english ep24_dialogues4_bardie4_loop1_ddc6864d:
 
     # mt "И уже не первый раз!!!"
-    mt "И уже не первый раз!!!"
+    mt "It happened again!"
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:311
 translate english ep24_dialogues4_bardie4_loop1_250d36a4:
@@ -332,21 +332,21 @@ translate english ep24_dialogues4_bardie4_loop1_250d36a4:
     # mt "В моем же доме!"
     # mt "Отшлепали! Меня!!!"
     # mt "Монику Бакфетт!!!"
-    mt "В моем же доме!"
-    mt "Отшлепали! Меня!!!"
-    mt "Монику Бакфетт!!!"
+    mt "In my own house!"
+    mt "Spanked! ME!!"
+    mt "Monica Buckfett!"
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:317
 translate english ep24_dialogues4_bardie4_loop1_faebc52c:
 
     # mt "У меня попа горит!"
-    mt "У меня попа горит!"
+    mt "My butt if burning..."
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:319
 translate english ep24_dialogues4_bardie4_loop1_27d6b3f7:
 
     # mt "Что этот Барди себе позволяет?!"
-    mt "Что этот Барди себе позволяет?!"
+    mt "How dare Bardi to act like that!"
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:322
 translate english ep24_dialogues4_bardie4_loop1_fdc969dc:
@@ -377,4 +377,42 @@ translate english strings:
     # Quests/EP2_04/ep24_dialogues4_bardie2.rpy:282
     old "Я поняла! Я буду слушаться хозяина!"
     new "I understand! I'll obey!"
+
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:35
+translate english ep24_dialogues4_bardie1_5cdf954e:
+
+    # bardie "Да, она определенно трахается с ним!"
+    # bardie "Но мне пока не хватает доказательств."
+    # bardie "Мне нужно еще раз оказаться там!"
+    # bardie "Позови меня снова в следующий раз!"
+    # mt "Посмотрим..."
+    bardie "Yes, she is definetely cheating."
+    bardie "But I don’t have enough evidence yet."
+    bardie "I need to do it one more time."
+    bardie "Let me know when you are going next time as well."
+    mt "We will see..."
+
+# game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:389
+translate english ep24_dialogues4_bardie4_loop1_ded33d2f:
+
+    # bardie "Получай!"
+    bardie "Take this!"
+
+# game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:396
+translate english ep24_dialogues4_bardie4_loop1_9d336010:
+
+    # bardie "Получай!"
+    # bardie "Нерадивая гувернантка!"
+    # bardie "Я научу тебя соблюдать правила дома!"
+    bardie "Take this!"
+    bardie "Useless housemaid!"
+    bardie "I'll teach you how to follow house rules!"
+
+# game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:423
+translate english ep24_dialogues4_bardie4_loop1_23fe1ec8:
+
+    # bardie "Ну что, ты поняла? Ты будешь слушаться хозяина?"
+    bardie "Do you get it now? Will you obey your master?"
 

@@ -170,7 +170,7 @@ translate english ep23_dialogues3_1_7914c2f2:
     # m "ЧТО?!?!"
     # "ТЫ МЕНЯ РЕШИЛ ЛАПАТЬ?!?"
     # "НИЧТОЖЕСТВО!!!"
-    m "ЧТО?!?!"
+    m "WHAT?!?!"
     "YOU WANT TO FEEL ME UP?!?"
     "PIECE OF SHIT!!!"
 
@@ -227,7 +227,7 @@ translate english ep23_dialogues3_1_01b7299a:
 
     # m "ЧТО?!?!"
     # "ТЫ МЕНЯ РЕШИЛ ЛАПАТЬ?!?"
-    m "ЧТО?!?!"
+    m "WHAT?!?!"
     "YOU WANT TO FEEL ME UP?!?"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:190
@@ -315,9 +315,9 @@ translate english ep23_dialogues3_1_3026248a:
     # "Чмок!"
     # m "Пока, девочки!"
     stephanie "Bye, Monica!"
-    "Чмок!"
+    "Smotch!"
     rebecca "Bye, Monica!"
-    "Чмок!"
+    "Smotch!"
     m "Bye, girls!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:261
@@ -396,7 +396,7 @@ translate english ep23_dialogues3_3_bd1ea48d:
 translate english ep23_dialogues3_4_8bf8719a:
 
     # driver "Вау! Какой вид, Миссис Бакфетт!"
-    driver "Вау! Какой вид, Миссис Бакфетт!"
+    driver "Woah! Nice outfit, Ms Buckfett!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:342
 translate english ep23_dialogues3_4_527685ca:
@@ -426,7 +426,7 @@ translate english ep23_dialogues3_4_ee9fc065:
 translate english ep23_dialogues3_4_7dbda713:
 
     # m "И не вздумай приближаться ко мне, мерзавец!"
-    m "И не вздумай приближаться ко мне, мерзавец!"
+    m "Don’t dare to come closer, bastard!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:382
 translate english ep23_dialogues3_5_b7d7e6d8:
@@ -638,7 +638,7 @@ translate english ep23_dialogues3_5_f2060836_2:
 translate english ep23_dialogues3_5_48cc9eb8:
 
     # ralph "Бетти!"
-    ralph "Бетти!"
+    ralph "Betty!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:700
 translate english ep23_dialogues3_5_12079188:
@@ -750,7 +750,7 @@ translate english ep23_dialogues3_5a_c3cda9dc:
 translate english ep23_dialogues3_5a_bbc4e156:
 
     # betty "Чмок!"
-    betty "Чмок!"
+    betty "Smotch!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:781
 translate english ep23_dialogues3_5a_9f9ae072:
@@ -768,7 +768,7 @@ translate english ep23_dialogues3_5a_c3cda9dc_1:
 translate english ep23_dialogues3_5a_bbc4e156_1:
 
     # betty "Чмок!"
-    betty "Чмок!"
+    betty "Smotch!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:793
 translate english ep23_dialogues3_5a_9f9ae072_1:
@@ -825,4 +825,12 @@ translate english strings:
     # Quests/EP2_03/ep23_dialogues3_fred.rpy:759
     old "Поцеловать Ральфа в губы."
     new "Kiss Ralph on the lips."
+
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2_03/ep23_dialogues3_fred.rpy:342
+translate english ep23_dialogues3_4_42e29af5:
+
+    # fred "Вау! Какой вид, Миссис Бакфетт!"
+    fred "Woah! Nice outfit, Ms Buckfett!"
 

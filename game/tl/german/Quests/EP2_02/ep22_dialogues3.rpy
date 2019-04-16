@@ -1415,3 +1415,29 @@ translate german ep22_dialogues3_6_1e24ebd5:
     bardie "Wie kannst das du sein?"
     "Eine Dienstmagd?"
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2_02/ep22_dialogues3.rpy:646
+translate german cleaning2_bardie_comment1_40c0b8cb:
+
+    # bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+    bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+
+# game/Quests/EP2_02/ep22_dialogues3.rpy:741
+translate german cleaning2_bardie_comment2_40c0b8cb:
+
+    # bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+    bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+
+# game/Quests/EP2_02/ep22_dialogues3.rpy:840
+translate german cleaning2_bardie_comment3_40c0b8cb:
+
+    # bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+    bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+
+# game/Quests/EP2_02/ep22_dialogues3.rpy:1017
+translate german ep22_dialogues3_13_64e4bbbc:
+
+    # mt "Мне лучше вернуть трусики Бетти на место..."
+    mt "Мне лучше вернуть трусики Бетти на место..."
+

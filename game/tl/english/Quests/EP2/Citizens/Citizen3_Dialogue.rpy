@@ -380,3 +380,23 @@ translate english strings:
     old "Ну уж нет, это слишком."
     new "Well, no, that's too much."
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:233
+translate english citizen3_dialogue_pilon_loop3_e545aa56:
+
+    # citizen3 "Да ладно тебе, поговори со мной! Что думаешь?"
+    # m "Я не знаю о ком ты говоришь."
+    citizen3 "Да ладно тебе, поговори со мной! Что думаешь?"
+    m "Я не знаю о ком ты говоришь."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:236
+translate english citizen3_dialogue_pilon_loop3_9521fbb1:
+
+    # citizen3 "Ну как же, Сара! У нее лучшие сиськи на районе!"
+    # citizen3 "Надо будет как нибудь устроить соревнование. да, это отличная идея!"
+    # mt "Интересно, о ком это он? Хотя какая разница, у меня нет соперниц."
+    citizen3 "Ну как же, Сара! У нее лучшие сиськи на районе!"
+    citizen3 "Надо будет как нибудь устроить соревнование. да, это отличная идея!"
+    mt "Интересно, о ком это он? Хотя какая разница, у меня нет соперниц."
+

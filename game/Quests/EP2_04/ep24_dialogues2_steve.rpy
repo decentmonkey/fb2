@@ -812,26 +812,11 @@ label ep24_dialogues2_steve7:
 
 
 label ep24_dialogues2_steve8:
-    if cloth == "Governess":
-        img 9853
-        betty "Моника, гувернантка..."
-        img 9854
-        m "Да, Миссис Робертс?"
-        img 9855
-        betty "В эту субботу к нам придет важный гость."
-        betty "Меня дома не будет, поэтому ты должна будешь позаботиться о гостях!"
-        img 9856
-        "Гувернантка, тебе понятно?"
-        img 9857
-        mt "!!!"
-        mt "Дьявол! Надеюсь это не Стив!"
-        img 9858
-        m "Да, Миссис Робертс."
-        "Я поняла."
-        "Я буду стараться изо всех сил."
-        return
+    $ store_music()
+    music Groove2_85 high
     if cloth == "Whore":
         img 9853
+        with fadelong
         betty "Моника, гувернантка..."
         img 9859
         m "Да, Миссис Робертс?"
@@ -846,7 +831,33 @@ label ep24_dialogues2_steve8:
         m "Да, Миссис Робертс."
         "Я поняла."
         "Я буду стараться изо всех сил."
+        $ restore_music()
         return
+    if cloth == "Governess" or 1==1:
+        img 9853
+        betty "Моника, гувернантка..."
+        img 9854
+        m "Да, Миссис Робертс?"
+        img 9855
+        with fade
+        betty "В эту субботу к нам придет важный гость."
+        betty "Меня дома не будет, поэтому ты должна будешь позаботиться о гостях!"
+        music Power_Bots_Loop high
+        img 9856
+        with diss
+        "Гувернантка, тебе понятно?"
+        img 9857
+        mt "!!!"
+        mt "Дьявол! Надеюсь это не Стив!"
+        music Groove2_85 high
+        img 9858
+        with fade
+        m "Да, Миссис Робертс."
+        "Я поняла."
+        "Я буду стараться изо всех сил."
+        $ restore_music()
+        return
+
     img 9853
     betty "Моника, гувернантка..."
     m "Да, Миссис Робертс?"
@@ -858,40 +869,49 @@ label ep24_dialogues2_steve8:
     m "Да, Миссис Робертс."
     "Я поняла."
     "Я буду стараться изо всех сил."
+    $ restore_music()
     return
 
 label ep24_dialogues2_steve9:
+    music Groove2_85
     if cloth == "Governess":
         img 9853
+        with fadelong
         betty "Моника, гувернантка..."
         img 9854
         m "Да, Миссис Робертс?"
         img 9855
+        with fade
         betty "В эту субботу к нам придет важный гость."
         betty "Меня дома не будет, поэтому ты должна будешь позаботиться о гостях!"
         img 9856
+        with diss
         "Гувернантка, тебе понятно?"
         img 9857
         mt "!!!"
         mt "Дьявол! Надеюсь это не Стив!"
-        m "Да, Миссис Робертс."
         img 9858
+        with fade
+        m "Да, Миссис Робертс."
         "Я поняла."
         "Я буду стараться изо всех сил."
         return
     if cloth == "Whore":
         img 9853
+        with fadelong
         betty "Моника, гувернантка..."
         img 9859
         m "Да, Миссис Робертс?"
         betty "В эту субботу к нам придет важный гость."
         betty "Меня дома не будет, поэтому ты должна будешь позаботиться о гостях!"
         img 9860
+        with diss
         "Гувернантка, тебе понятно?"
         img 9861
         mt "!!!"
         mt "Дьявол! Надеюсь это не Стив!"
         img 9862
+        with fade
         m "Да, Миссис Робертс."
         "Я поняла."
         "Я буду стараться изо всех сил."
@@ -909,20 +929,51 @@ label ep24_dialogues2_steve9:
     "Я буду стараться изо всех сил."
     return
 
+label ep24_dialogues3_steve10_locked1:
+    mt "В доме гости. Мне нельзя отлучаться."
+    mt "Иначе мне влетит от Бетти."
+    if monicaBitch == True:
+        mt "От этой сучки!"
+    return
+
+label ep24_dialogues3_steve10_enter_room1:
+    if cloth != "Governess":
+        mt "Я не пойду туда в таком виде!"
+        mt "Я еще не сошла с ума!"
+        return False
+    return True
+
+label ep24_dialogues3_steve10_enter_room2:
+    mt "Я пойду туда только если меня позовут."
+    mt "Мне вообще не хочется идти туда!"
+    return False
 
 label ep24_dialogues3_steve10:
 # Сцена. Приходит Стив, здоровается с Ральфом и они идут за стол.
 # Стив спрашивает а где Бетти.
 # Ральф говорит что ее сегодня не будет.
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(_("Утро..."))
+    img black_screen
+    with Dissolve(2.0)
     img 9863
+    with fadelong
+    music BossaBossa
     steve "Ральф! Привет, дружище!"
     steve "Извини, что я снова зашел!"
     steve "Надеюсь что ты мне рад!"
     ralph "Стив, я всегда рад тебе!"
     ralph "Пожалуйста, проходи!"
+    return
 
+
+label ep24_dialogues3_steve10a:
     # Гостиная
+    music BossaBossa
     img 9864
+    with fade
     steve "Ральф, а где Бетти?"
     img 9865
     ralph "Бетти сегодня не будет."
@@ -931,19 +982,23 @@ label ep24_dialogues3_steve10:
 # Ральф отвечает что пусть Стив не беспокоится, сегодня их будет обслуживать гувернантка.
 # Стив спрашивает и что, она также хороша как Бетти?
     img 9866
+    with fade
     steve "Ральф, но как же нам быть?"
     steve "Бетти так прекрасно обслуживала нас!"
     img 9867
     ralph "Стив, можешь не беспокоиться, сегодня нас будет обслуживать гувернантка."
     img 9868
+    with diss
     steve "И что, эта гувернантка также хорошая как Бетти?"
 # Ральф говорит что Бетти она не нравится, она считает ее нерадивой гувернанткой.
 # Но Ральф считает что она хорошая девушка и старается угодить хозяевам.
 # Потому он думает что она имеет шанс исправиться и стать лучше убираться, более профессионально.
     img 9869
+    with fade
     ralph "Нет, Стив. Бетти она не нравится. Она считает ее нерадивой гувернанткой."
     ralph "Но я считаю что она хорошая девушка и старается угодить хозяевам."
     img 9870
+    with diss
     ralph "Потому я думаю, что она исправится и станет лучше убираться."
     ralph "Более профессионально..."
 
@@ -951,19 +1006,42 @@ label ep24_dialogues3_steve10:
 # Ральф зовет Монику.
 # Моника приходит, вся напряжена.
     img 9871
+    with fade
     steve "Хорошо, Ральф."
     steve "Зови свою гувернантку!"
     img 9872
+    with diss
     steve "Нам как раз нужны стаканы под виски и лед!"
     img 9873
+    with fadelong
     ralph "Моника, гувернантка!"
     img 9874
     ralph "Иди сюда!"
+    return
+
+label ep24_dialogues3_steve10a2:
+    music Groove2_85
+    ralph "Моника, гувернантка!"
+    ralph "Иди сюда!"
+    mt "..."
+    mt "Дьявол! Меня зовут!"
+    mt "Интересно, кто там пришел..."
+    return
+
+label ep24_dialogues3_steve10b:
+
 # Стив видит ее и удивляется. Смотрит на нее с улыбкой.
 # Моника смотрит на него презрительно.
 # Спрашивает у Ральфа что им нужно.
     #звук двери
-    with 9877
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    sound snd_door_open1
+    pause 1.0
+    sound snd_door_close1
+    music Groove2_85
+    img 9877
     with fadelong
     w
     img 9875
@@ -973,42 +1051,54 @@ label ep24_dialogues3_steve10:
     w
     img 9878
     w
+    music Villainous_Treachery
     img 9879
+    with fade
     w
     img 9880
-    w
+    with diss
+    mt "!!!"
     img 9881
     with fade
     w
     img 9882
-    w
+    with fade
+    m "!!!"
     img 9883
-    w
+    with diss
+    steve "???"
     img 9884
-    w
+    with fade
+    m "..."
     img 9885
-    w
+    with diss
+    steve "..."
     img 9886
+    with fade
     w
     img 9887
+    with diss
     w
     img 9888
+    with fade
     w
     img 9889
+    with diss
     w
     img 9890
+    with diss
     w
     img 9891
+    with fade
     w
+#    music Funk_Soul1
+    music Pyro_Flow
+    sound highheels_short_walk
     img 9892
-
-    m "..."
-    steve "???"
-    m "..."
-    steve "..."
-
-
+    with Dissolve(1.0)
+    w
     img 9893
+    with fade
     m "Да, Мистер Робертс."
     m "Чем могу быть Вам полезна?"
 # Ральф просит принести стаканы для виски
@@ -1016,72 +1106,150 @@ label ep24_dialogues3_steve10:
 # Стив говорит Ральфу что рад за него. Теперь тот достаточно богат, чтобы позволить себе
 # такую горячую гувернантку.
     img 9894
+    with diss
     ralph "Моника, принеси стаканы для виски!"
     img 9895
+    with fade
     m "Да, хорошо Мистер Робертс. Одну минуту."
+    sound highheels_short_walk
     img 9896
+    with diss
     w
     img 9897
+    with diss
     w
     img 9898
+    with diss
     w
     img 9899
+    with diss
     steve "..." # смотрит на попу
+    music stop
+    sound snd_door_open1
+    img black_screen
+    with Dissolve(0.5)
+    sound highheels_short_walk
+    pause 1.0
+    music BossaBossa
     img 9900
+    with fadelong
     steve "Ральф, дружище!"
     steve "Я очень рад за тебя!"
     img 9901
+    with diss
     steve "Ты теперь достаточно богат, чтобы позволить себе такую горячую гувернантку!"
 # Ралфь отвечает что не оценивает гувернантку с точки зрения привлекательности, потому что
 # Стив же знает, какая Бетти строгая.
     img 9902
+    with fade
     ralph "Стив, я не оцениваю эту гувернантку с точки зрения привлекательности."
     ralph "Ты ведь знаешь, какая Бетти строгая..."
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    pause 1.0
+    music Groove2_85
+    return
+
+label ep24_dialogues3_steve10b2:
+    mt "Гость оказался Стивом! Я так и знала!"
+    mt "Что же мне теперь делать?"
+    mt "..."
+    mt "Подумаю позже. Сейчас мне надо принести этим ничтожествам стаканы для виски."
+    mt "Я думаю что Бетти все приготовила на кухне."
+    return
+
+label ep24_dialogues3_steve10b4:
+    mt "Я еще не сделала то что мне сказал Ральф."
+    return
+
+
+label ep24_dialogues3_steve10b3:
+    menu:
+        "Взять стаканы под виски.":
+            return True
+        "Уйти.":
+            return False
+    return False
+
+label ep24_dialogues3_steve10c:
 # Приходит Моника.
 # И говорит: вот, прошу, Ваши стаканы.
 # Стив смотрит в свой стакан и говорит. Гувернантка, можно Вас попросить подойти сюда?
 # Моника подходит: Да, Сэр?
+    music stop
+    img black_screen
+    with Dissolve(0.5)
+    sound highheels_short_walk
+    pause 1.0
+    sound snd_door_open1
+    music Groove2_85
     img 9903
     with fadelong
     w
     #звук стакана
     img 9904
     with fade
+    sound bottle1
     w
     img 9905
-    with fade
+    with diss
     w
     img 9906
+    with fade
+    sound bottle1
     w
+    sound Jump1
     img 9907
     with fade
     w
-    #подглядывание с 9907
-    #governess
-    img 9971
-    #betty
-    img 9972
-    img 9973
-    img 9974
-    img 9975
-    img 9976
-    #nude
-    img 9977
+
+    if monicaBettyPanties == False:
+        if monicaUnder != "Nude":
+            #подглядывание с 9907
+            #governess
+            img 9971
+        else:
+            #nude
+            img 9977
+    else:
+        if monicaBettyPantiesId == 1:
+            #betty
+            img 9972
+        if monicaBettyPantiesId == 2:
+            img 9973
+        if monicaBettyPantiesId == 3:
+            img 9974
+        if monicaBettyPantiesId == 4:
+            img 9975
+        if monicaBettyPantiesId == 5:
+            img 9976
+
+    with diss
+    sound Jump2
+    w
 
     img 9908
+    with fade
     m "Вот Ваши стаканы, Мистер Робертс..."
+    sound highheels_short_walk
     img 9909
     with fade
     steve "..."
+    music stop
     img 9910
     with fade
     steve "Гувернантка, можно Вас попросить подойти сюда?"
+
+    music Pyro_Flow
     img 9911
     w
+    sound highheels_short_walk
     img 9912
     with fade
     w
     img 9913
+    with diss
     m "Да, Сэр?"
 # Стив говорит: посмотрите, этот стакан недостаточно чист!
 # Моника отвечает что за чистотой посуды следит Миссис Робертс.
@@ -1090,22 +1258,27 @@ label ep24_dialogues3_steve10:
     img 9914
     steve "Посмотрите, этот стакан недостаточно чист!"
     img 9915
+    with diss
     w
     img 9916
+    with fade
     m "Прошу прощения, но за чистотой посуды следит Миссис Робертс..."
     img 9917
     steve "Ах, если так, то прошу прощения!"
     img 9918
+    with diss
     steve "Похоже, это я только что поставил след от своих пальцев на этом стакане."
 # Моника презрительно смотрит.
 # Уходит
 # Стив смотрит на ее задницу.
 # Проходит время.
     img 9919
+    with fade
     m "..."
     img 9920
+    with diss
     steve "..."
-    with 9921
+    img 9921
     with Dissolve(0.5)
     w
     img 9922
@@ -1113,10 +1286,19 @@ label ep24_dialogues3_steve10:
     img 9923
     with fade
     steve "..."
+
     #звук двери
+    sound snd_door_open1
+    sound highheels_short_walk
     img 9924
-    with fade
+    with fadelong
     w
+    sound snd_door_close1
+    img black_screen
+    with Dissolve(0.5)
+    pause 1.5
+    sound pour_wine
+    music BossaBossa
     #звук наливания
     img 9925
     with fadelong
@@ -1124,9 +1306,14 @@ label ep24_dialogues3_steve10:
     img 9926
     steve "Ральф! Давай скорее выпьем!"
     steve "У меня отличное настроение сегодня!"
+    music Groove2_85
+    return
 
+label ep24_dialogues3_steve10c3:
     #Спустя время
+    music BossaBossa
     img 9927
+    with fadelong
     steve "Ральф! Может быть позовешь свою гувернантку снова?"
     steve "Мы скучаем без внимания!"
 
@@ -1135,67 +1322,143 @@ label ep24_dialogues3_steve10:
 # Кладет их на стол. Стив смотрит на грудь.
 # Моника отворачивается и Стив роняет прибор на пол.
     img 9928
-    ralph "Моника, гувернантка!"
-    img 9929
     with fade
-    w
-    img 9930
-    ralph "Моника! Принеси нам что-нибудь закусить!"
-    img 9931
-    m "Да, Мистер Робертс..."
-    img 9932
+    ralph "Моника, гувернантка!"
+    music Groove2_85
+    return
+
+label ep24_dialogues3_steve10c2:
+    ralph "Моника, гувернантка!"
+    mt "..."
+    mt "Меня снова зовут... Что им еще от меня надо?!"
+    return
+
+label ep24_dialogues3_steve10d:
+    music stop
+    img black_screen
+    with Dissolve(0.5)
+    sound highheels_short_walk
+    pause 1.0
+    sound snd_door_open1
+    music Groove2_85
+    img 9929
     with fadelong
     w
+    img 9930
+    with fade
+    ralph "Моника! Принеси нам что-нибудь закусить!"
+    img 9931
+    with fade
+    m "Да, Мистер Робертс..."
+    return
+
+label ep24_dialogues3_steve10d2:
+    mt "Принеси то! Принеси это!"
+    mt "Я им спрашивается кто?! Служанка?!"
+    mt "Хотя, вообще-то я притворяюсь ей..."
+    mt "..."
+    mt "Ладно, где там эта еда? Бетти должна была все приготовить..."
+    return
+
+label ep24_dialogues3_steve10d3:
+    menu:
+        "Взять еду и отнести гостям.":
+            return True
+        "Уйти.":
+            return False
+    return False
+
+label ep24_dialogues3_steve10e:
+
+    music stop
+    img black_screen
+    with Dissolve(0.5)
+    sound highheels_short_walk
+    pause 1.0
+    sound snd_door_open1
+    music Groove2_85
+
+    img 9932
+    with fadelong
+#    sound bottle1
+    w
     img 9933
+    with fade
+#    sound bottle1
     m "Вот, Мистер Робертс... Пожалуйста..."
     img 9934
+    with fade
     w
     img 9935
+    with diss
+    sound Jump1
     w
+    if monicaBettyPanties == False:
+        if monicaUnder != "Nude":
     #подглядывание с 9935
     #governess
-    img 9978
-    #betty
-    img 9979
-    img 9980
-    img 9981
-    img 9982
-    img 9983
-    #nude
-    img 9984
-
+            img 9978
+        else:
+            #nude
+            img 9984
+    else:
+        if monicaBettyPantiesId == 1:
+            #betty
+            img 9979
+        if monicaBettyPantiesId == 2:
+            img 9980
+        if monicaBettyPantiesId == 3:
+            img 9981
+        if monicaBettyPantiesId == 4:
+            img 9982
+        if monicaBettyPantiesId == 5:
+            img 9983
+    with diss
+    sound Jump2
+    w
     m "Миссис Робертс приготовила для Вас эту закуску..."
+    sound highheels_short_walk
     img 9936
     with fade
     w
     img 9937
+    with diss
     steve "..."
     img 9938
     w
+    sound Jump1
     img 9939
+    with fade
     w
     #звук падающей вилки
+    sound snd_forkfall
     img 9940
+    with diss
     w
 
 # Стив говорит: Ой, гувернантка, ты не могла бы поднять прибор, я нечаянно уронил его.
 # Моника наклоняется, чтобы подобрать.
 # Стив наклоняется и видит что у Моники нет трусиков.
 # Стив удивляется и пытается схватить ее рукой. Моника отскакивает и ненавидяще смотрит на Стива.
-    img 9941
-    steve "Ой, гувернантка!"
     img 9942
+    steve "Ой, гувернантка!"
     steve "Ты не могла бы поднять прибор? Я нечаянно уронил его..."
+    music Pyro_Flow
+    img 9941
+    with diss
+    w
     img 9943
     with fade
     w
     img 9944
+    with diss
     m "!!!"
     steve "..."
     img 9945
     with fade
     w
     img 9946
+    with fade
     w
     img 9947
     with fade
@@ -1205,93 +1468,170 @@ label ep24_dialogues3_steve10:
     w
     img 9949
     with Dissolve(0.5)
+    sound Jump1
     w
 
     #подглядывание
-    #governess
-    img 9985
-    #betty
-    img 9986
-    img 9987
-    img 9988
-    img 9989
-    img 9990
-    #nude
-    img 9992
-    img 9991
-    img 9993
-    img 9994
+    if monicaBettyPanties == False:
+        if monicaUnder != "Nude":
+            #governess
+            img 9985
+        else:
+            #nude
+            img 9992
+            with diss
+            w
+            img 9991
+            with diss
+            w
+            img 9993
+            with diss
+            w
+            img 9994
+    else:
+        if monicaBettyPantiesId == 1:
+            #betty
+            img 9986
+        if monicaBettyPantiesId == 2:
+            img 9987
+        if monicaBettyPantiesId == 3:
+            img 9988
+        if monicaBettyPantiesId == 4:
+            img 9989
+        if monicaBettyPantiesId == 5:
+            img 9990
 
-
-
+    with diss
+    w
     sound Jump2
     img 9950
+    with diss
     w
+    music stop
     img 9951
     m "!!!"
     #звук Моника разворачивается с вилкой
+    music Villainous_Treachery
     img 9952
+    with fadelong
     w
     img 9953
+    with diss
     w
     img 9954
+    with diss
     w
     img 9955
     ralph "А? Что за шум?"
     img 9956
+    with diss
     w
     img 9957
+    with diss
     w
     img 9958
+    with fade
     w
+    music Hidden_Agenda
     img 9959
+    with fadelong
     m "Мистер Робертс, все в порядке!"
     img 9960
+    with diss
     m "Просто упал столовый прибор."
     img 9961
+    with fade
     m "Пожалуйста, Мистер Стив."
     "Вот Ваша вилка..."
     img 9963
+    with diss
     w
     img 9962
     with Dissolve(0.5)
     w
-    img 9965
-    w
-    img 9966
+    music Pyro_Flow
+    img 9964
     with fade
+    w
+    sound highheels_short_walk
+    img 9965
+    with fade
+    w
+
+    music stop
+    sound snd_door_open1
+    img black_screen
+    with Dissolve(0.5)
+    pause 1.5
+    sound snd_door_close1
+
+    music BossaBossa
+    img 9966
+    with fadelong
     steve "Какая у тебя горячая гувернантка, Ральф!"
     steve "Давай скорее еще выпьем!"
     ralph "Давай, Стив!"
+    return
 
+label ep24_dialogues3_steve10e2:
+    # Моника была без трусиков
+    mt "Мне надо надеть трусики! Стив все время пялится мне под юбку!"
+    mt "Мерзавец!"
+    return
+
+label ep24_dialogues3_steve10e3:
+    mt "Я не собираюсь снимать трусики, пока в этом доме Стив!"
+    return
+
+
+label ep24_dialogues3_steve10f:
 # Проходит время.
 # Ральф спит пъяный.
 # Стив говорит: поспи здесь пока, дружище Ральф! Я скоро вернусь к тебе!
 
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(_("Вечер..."))
+    img black_screen
+    with Dissolve(2.0)
     # Спустя время
     #звук храпа
+    sound snd_hrap
     img 9968
     with fadelong
     w
+    music BossaBossa
     img 9969
+    with fade
     steve "Ральф?!"
     steve "Ты меня слышишь, Ральф?! Или ты спишь?"
+    sound snd_hrap
     img 9967
     w
-    with fade
     img 9970
+    with fade
     steve "Хе-хе..."
     steve "Поспи здесь пока, дружище Ральф! Я скоро вернусь к тебе!"
+    return
 
 
+
+label ep24_dialogues3_steve10g:
 
 # Затемнение
 # Стив находит Монику у бассейна в подвале.
 # Стив говорит Монике. Ах вот где ты, Моника!
 # Я тебя повсюду ищу!
 # Моника зло отвечает зачем он ее ищет?! Что ему от нее надо?!
-
+    sound highheels_short_walk
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    pause 1.5
+    music Groove2_85
     img 9995
+    with fadelong
     steve "Ах вот ты где, Моника!"
     steve "Я тебя повсюду ищу!"
     img 9996
@@ -1301,6 +1641,7 @@ label ep24_dialogues3_steve10:
 # Моника отвечает: обнаружил, и что дальше?! Всем расскажешь?!
 # Стив говорит что нет, это не в его интересах.
     img 9997
+    with fade
     steve "Вообще-то я тебя давно ищу!"
     steve "Ты куда-то пропала в последнее время..."
     steve "И я никак не думал обнаружить тебя здесь!"
@@ -1308,6 +1649,7 @@ label ep24_dialogues3_steve10:
     m "Вообще-то это мой дом! Почему бы мне здесь не быть?!"
     m "Хорошо, обнаружил, и что дальше?! Всем расскажешь?!"
     img 9999
+    with fade
     steve "Нет, Моника! Это не в моих интересах."
 # Моника спрашивает: а что тогда в твоих интересах, Стив?!
 # Стив отвечает: правда-ли то что Моника в кого-то влюбилась.
@@ -1316,15 +1658,19 @@ label ep24_dialogues3_steve10:
 # Моника отвечает что Стив что, сошел с ума?!
 # Откуда он взял такую чушь?!
     img 10000
+    with diss
     m "А что тогда в твоих интересах, Стив?!"
     img 10001
     steve "Моника, верны ли слухи о тебе?"
     m "Какие еще слухи?!"
     img 10002
+    with fade
     steve "Говорят, что ты в кого-то влюбилась!"
     "И ради этой любви отреклась от денег и от компании."
     "И, вместо этого, впала в пучину разврата и теперь спишь с мужчинами за деньги!"
+    music Power_Bots_Loop
     img 10003
+    with diss
     m "Ты что, Стив?! Сошел с ума?!"
     m "Откуда ты взял такую чушь?!"
 # Стив отвечает ну как же, ты начала сниматься в обновленном журнале.
@@ -1332,21 +1678,27 @@ label ep24_dialogues3_steve10:
 # Покажешь всему миру свою киску или, что лучше, займешься с кем-нибудь сексом на камеру!
 # Моника отвечает что и не думала услышать чего-то другого от такого мерзавца как Стив!
 # Стив спрашивает, а в чем тогда причина?
+    music Groove2_85
     img 10004
+    with fade
     steve "Ну как же. Ты начала сниматься в обновленном журнале."
     steve "Сама задала ему новый курс."
     img 10005
+    with diss
     steve "И, все мы делаем ставки на то, когда же ты покажешь всему миру свою киску!"
     steve "Или, что еще лучше, займешься с кем-нибудь сексом на камеру!"
     img 10006
     m "Я и не думала услышать что-нибудь другое от такого мерзавца как ты, Стив!"
     img 10007
+    with fade
     steve "Но, если это не так, то в чем же тогда причина, Моника?"
 # Моника мнется и отвечает что все это немного сложно.
 # Есть некоторые проблемы, но Моника их вскоре решит.
 # И, пока Ральфу необязательно знать о том кто она.
 # И вообще, Монике нужна от Стива кое-какая помощь.
+    music Hidden_Agenda
     img 10008
+    with fade
     m "..."
     m "Это..."
     m "Это все немного сложно, Стив..."
@@ -1354,35 +1706,47 @@ label ep24_dialogues3_steve10:
     m "Есть некоторые проблемы, но я их скоро решу!"
     m "Но, пока что Ральфу необязательно знать о том, кто я такая на самом деле."
     img 10010
+    with diss
     m "И, вообще, мне нужна от тебя кое-какая помощь..."
 # Стив отвечает что с удовольствием поможет Монике и не будет рассказывать Ральфу кто она такая!
 # Моника зло отвечает: О! Спасибо, Стив! Спасибо большое тебе!
 # Спасибо за твою помощь, которая заключается в том что ты не просто не расскажешь Ральфу обо мне!
 # На что я еще могла рассчитывать от такого мерзавца как ты!
 # Стив спрашивает а какая еще другая помощь Монике необходима?
+    music Groove2_85
     img 10011
+    with fade
     steve "Моника, я с удовольствием помогу тебе!"
     steve "Я не буду рассказывать Ральфу кто ты такая!"
     img 10012
+    with diss
     m "О! Спасибо, Стив! Спасибо большое тебе!"
     m "Спасибо за твою помощь, которая заключается в том что ты просто не расскажешь Ральфу обо мне!"
     img 10013
     m "На что я еще могла рассчитывать от такого мерзавца как ты!"
     img 10014
+    with fade
     steve "Моника, а какая еще другая помощь тебе необходима?"
 # Моника отвечает: Деньги... Мне нужны деньги, Стив...
 # Ты бедняк по сравнению со мной, но сейчас мне нужны даже те деньги что у тебя есть...
 # Стив отвечает что готов перечислить любую сумму по официальному запросу.
 # Моника говорит что сейчас временно не может отправить официальный запрос.
 # Стив отвечает, как же тогда он может помочь Монике?
+    music Pyro_Flow
     img 10015
+    with fade
     m "Деньги... Мне нужны деньги, Стив..."
     mt "Дьявол! Мне надо где-то достать деньги для этой сучки Виктории!"
     img 10016
+    with diss
     m "Ты бедняк по сравнению со мной, но сейчас мне нужны даже те деньги что у тебя есть..."
+    music Groove2_85
     img 10017
+    with fade
     steve "Моника, я готов перечислить любую сумму по официальному запросу."
+    music Hidden_Agenda
     img 10018
+    with fade
     m "Я... Временно не могу отправить официальный запрос..."
     steve "А как же тогда я могу помочь тебе?"
 # Моника говорит что просто дай мне эти деньги, просто так.
@@ -1390,14 +1754,19 @@ label ep24_dialogues3_steve10:
 # Моника говорит что это не совсем просто так. Стиву вернутся эти деньги. В 5 раз больше.
 # Это выгодная сделка...
 # Он бизнесмен и он должен это понимать.
+    music Pyro_Flow
     img 10019
+    with fade
     m "Дай мне деньги. Просто дай. Просто так!"
+    music Groove2_85
     img 10020
+    with fade
     steve "Моника, но я ведь бизнесмен!"
     "Я ничего не могу сделать просто так!"
     img 10021
     m "Это будет далеко не просто так! Тебе вернутся эти деньги!"
     img 10022
+    with diss
     m "Я верну тебе в 5 раз больше!"
     m "Это выгодная сделка... Ты бизнесмен и должен это понимать..."
 # Стив говорит что сделка выглядит выгодной, но очень рискованной.
@@ -1406,9 +1775,11 @@ label ep24_dialogues3_steve10:
 # У него нет ни одной бумаги, в соответствии с которой у Моники есть хоть что-то, чем она может
 # обеспечить залог суммы, указанной в сделке.
     img 10023
+    with fade
     steve "Да, сделка выглядит выгодной, но очень рискованной!"
     m "Почему это?!"
     img 10024
+    with diss
     steve "Потому что я не вижу обеспечительных мер."
     steve "Я не вижу ни одной бумаги, в соответствии с которой у тебя есть хоть что-то..."
     steve "Чем ты можешь обеспечить залог суммы, озвученной в сделке."
@@ -1419,19 +1790,24 @@ label ep24_dialogues3_steve10:
 # Моника отвечает что ты уже взял в аренду этиж в ее тауэре. Или нет?!
 # Когда Моника вернется, она это проверит!
 # Стив мнется... ну... вообще-то... я собирался взять... да...
+    music Power_Bots_Loop
     img 10025
     m "!!!"
     img 10026
+    with diss
     m "Ты пожалеешь о своих словах..."
+    music Groove2_85
     img 10027
     steve "..."
     img 10028
     m "..."
     img 10029
+    with fade
     steve "Моника, я знаю один взаимовыгодный вариант!"
     m "Какой же?"
     steve "Я могу взять что-нибудь в аренду!"
     img 10030
+    with fade
     m "Вообще-то ты уже взял в аренду этаж в моем тауэре."
     m "Или нет?!?!"
     m "Я проверю это, когда вернусь!"
@@ -1448,17 +1824,21 @@ label ep24_dialogues3_steve10:
 # Этот бесценный девственный бриллиант!
     img 10032
     m "!!!"
+    music BossaBossa
     img 10033
+    with fade
     steve "Моника, я хочу кое-что взять в аренду именно у тебя!"
     img 10034
     m "И что же? Этот дом я пока не могу дать..."
     m "Но это временно..."
     img 10035
+    with fade
     steve "Моника! У тебя есть кое-что получше!"
     steve "Кое-что, что стоит целое состояние!"
     img 10036
     m "И что же?!"
     img 10037
+    with diss
     steve "Твоя попа, Моника!"
     steve "Попа Миссис Бакфетт!"
     steve "Этот бесценный девственный бриллиант!"
@@ -1466,31 +1846,41 @@ label ep24_dialogues3_steve10:
 # Моника отвечает гневно: Что?!?!
 # Да как ты смеешь, Стив!
 # Ты не забыл кто Ты и кто Я?!?
+    music Power_Bots_Loop
     img 10038
+    with fade
     w
     img 10039
     steve "Ты сама не понимаешь какими богатствами ты обладаешь!"
     img 10040
+    with fade
     m "ЧТО?!?!"
     img 10041
     m "Да как ты смеешь, Стив!"
     m "Ты не забыл кто Ты и кто Я?!?"
 
+    music Villainous_Treachery
     img 10042
+    with fade
     m "Тебе надоело жить, Стив?"
     img 10043
+    with fade
     m "Может быть мне пойти сходить за вилкой?"
 # Стив отвечает: прости, Моника, я не хотел обидеть тебя!
 # Я лишь пытаюсь помочь, изо всех сил. Ты ведь знаешь, я бы помог тебе просто так.
 # Но я бизнесмен и ограничен в своих действиях.
 # И, в рамках того что возможно для меня, я стараюсь помочь тебе изо всех сил!
+    music Groove2_85
     img 10044
+    with fade
     steve "Прости, Моника! Я не хотел обидеть тебя!"
     steve "Я лишь пытаюсь помочь!"
     img 10045
+    with fade
     steve "Ты ведь знаешь, я бы помог тебе и просто так."
     steve "Но я бизнесмен и ограничен в своих действиях."
     img 10046
+    with diss
     steve "И, в рамках того, что возможно для меня, я стараюсь помочь тебе изо всех сил!"
 # Моника отвечет:...
 # Я не собираюсь продавать тебе свою попу...
@@ -1498,6 +1888,7 @@ label ep24_dialogues3_steve10:
 # На полчаса, не более! Подумай! Я ведь собираюсь щедро заплатить за этот бесценный объект!
 # Это очень выгодная сделка!
     img 10047
+    with fade
     m "Я не собираюсь продавать тебе свою попу!"
     img 10048
     steve "Я не покупаю ее, Моника! Я всего-лишь хочу взять в аренду!"
@@ -1516,7 +1907,9 @@ label ep24_dialogues3_steve10:
     img 10049
     menu:
         "Продажа, сдача в аренду... Неважно... Это не для меня...":
+            music Pyro_Flow
             img 10050
+            with fade
             m "Продажа, сдача в аренду... Неважно... Это не для меня..."
             m "А теперь разреши я пойду выполнять свои обязанности, Стив!"
             m "И учти, я припомню тебе твое поведение!"
@@ -1537,6 +1930,7 @@ label ep24_dialogues3_steve10:
 # Стив говорит: Моника, покажи ее, покажи свою попу!
 # Прежде чем озвучить сумму, я должен посмотреть на объект аренды!
     img 10053
+    with fade
     steve "Моника, покажи ее, покажи свою попу!"
     # Если есть трусики
 #    steve "Сними трусики и покажи ее!"
@@ -1545,7 +1939,9 @@ label ep24_dialogues3_steve10:
         "Повернуться и показать Стиву свою попу...":
             pass
         "Я не собираюсь показывать никому свою попу, Стив!":
+            music Pyro_Flow
             img 10050
+            with fade
             m "Я не собираюсь показывать никому свою попу, Стив!"
             m "А теперь разреши я пойду выполнять свои обязанности, Стив!"
             m "И учти, я припомню тебе твое поведение!"
@@ -1559,6 +1955,7 @@ label ep24_dialogues3_steve10:
 
 # Моника поворачивается и показывает свой зад, задирая юбку.
 # Стив обрадованно смотрит и снимает штаны. Виден член.
+    music Loved_up
     img 10055
     with fadelong
     w
@@ -1569,15 +1966,24 @@ label ep24_dialogues3_steve10:
     m "..."
     img 10056
     steve "Посмотрим, что у нас там!"
-    #governess
-    img 10058
-    #betty
-    img 10059
-    img 10060
-    img 10061
-    img 10062
-    img 10063
-
+    if monicaBettyPanties == False:
+        if monicaUnder != "Nude":
+            #governess
+            img 10058
+    else:
+        if monicaBettyPantiesId == 1:
+            #betty
+            img 10059
+        if monicaBettyPantiesId == 2:
+            img 10060
+        if monicaBettyPantiesId == 3:
+            img 10061
+        if monicaBettyPantiesId == 4:
+            img 10062
+        if monicaBettyPantiesId == 5:
+            img 10063
+    with dissolve
+    w
     steve "О! Значит вот какие трусики ты любишь носить!"
     steve "Когда я смотрел на тебя, то всегда думал о том что же на тебе надето внизу!"
 
@@ -2107,6 +2513,22 @@ label ep24_dialogues3_steve10_loop1:
             m "Если захочешь вспомнить, приходи ко мне в офис!"
 
 
+    return
+
+label ep24_dialogues3_steve10a1:
+    mt "Я не собираюсь подходить к этой пьяной скотине!"
+    return
+
+label ep24_dialogues3_steve10b1:
+    if monicaHasSexWithSteveBasement == True:
+        mt "БОЖЕ! Моника!"
+        mt "Что ты наделала?"
+        mt "Надеюсь ты не пожалеешь об этом!"
+        mt "И это... Что это было за чувство?"
+        mt "Я, как-будто, потеряла сознание..."
+        mt "Странное ощущение..."
+    else:
+        mt "Мерзавец!!!"
     return
 
 

@@ -2086,7 +2086,7 @@ translate english monica_charity_event_dialogue18_local3_1d7fc3ae:
     # "Чувствуется что у Вас недостаток практики!"
     # "Но мне это даже нравится!"
     philip "Mrs. Buckfett!"
-    "Отлично!"
+    "Excelent!"
     "I imagine that you have a lack of practice!"
     "But I'm actually enjoying this!"
 
@@ -2294,7 +2294,7 @@ translate english monica_charity_event_dialogue18_local4_9c5a9762:
 translate english monica_charity_event_dialogue18_local4_e68dbd78:
 
     # hotel_staff "Ой!"
-    hotel_staff "Ой!"
+    hotel_staff "Ouch!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1838
 translate english monica_charity_event_dialogue18_local4_aa55f0df:
@@ -2314,7 +2314,7 @@ translate english monica_charity_event_dialogue18_local4_f0426d9d:
     # hotel_staff "Да, Сэр?"
     # philip "Иди-ка сюда!"
     # hotel_staff "Да, Сэр? Чем могу быть полезен?"
-    hotel_staff "Да, Сэр?"
+    hotel_staff "Yes, sir?"
     philip "Come here!"
     hotel_staff "Yes, Sir? What can I do for you?"
 
@@ -2897,7 +2897,7 @@ translate english monica_office_biff_dialogue_evening1_51889768:
 
     # biff "Да!"
     # biff "Можешь идти!"
-    biff "Да!"
+    biff "Yes!"
     biff "You can go!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2474

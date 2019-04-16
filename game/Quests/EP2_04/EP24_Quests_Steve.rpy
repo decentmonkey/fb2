@@ -169,34 +169,253 @@ label ep24_quests_steve12:
 label ep24_quests_steve13:
     # Перехват субботы второго посещения Стива
     $ remove_hook()
-    return
+
+    $ add_hook("Betty_Life_day", "Betty_Life_none", scene="global", label="steve_visit2")
+    $ add_hook("Betty_Life_evening", "Betty_Life_none", scene="global", label="steve_visit2")
+    $ move_object("Betty", scene="empty")
+
+    $ add_hook("Gates", "ep24_quests_steve14", scene="street_house_gate", label=["steve_visit2", "house_exit_block"])
+    $ map_enabled = False
+
+#    call miniMapAddDisabled(name):
+#    call miniMapRemoveDisabled(name):
+
     $ basementBedSkipUntilFridayEnabled = False
     $ skipDaysInterrupted = True
     call ep24_dialogues3_steve10()
-    $ cloth = "Governess"
-    $ cloth_type = "Governess"
-    call change_scene("floor1", "Fade_long", False)
+#    $ cloth = "Governess"
+#    $ cloth_type = "Governess"
+#    call change_scene("floor1", "Fade_long", False)
     $ rooms_clean_list_exclude = ["living_room"]
-    $ move_object("Betty", scene="living_room")
     $ move_object("Ralph", scene="living_room")
+#    $ livingRoomRalphSuffix = "_Sleeping"
+    call living_room_init_additional1()
+    $ add_hook("Teleport_LivingRoom", "ep24_dialogues3_steve10_enter_room2", scene="floor1", label="steve_visit2")
+    $ add_hook("Teleport_LivingRoom", "ep24_dialogues3_steve10_enter_room1", scene="floor1", label="steve_visit2", priority=300)
 
-    $ add_hook("Teleport_LivingRoom", "ep24_dialogues2_steve4", scene="floor1", label="steve_visit1")
+    $ add_hook("open", "ep24_quests_steve15", scene="floor1", label="steve_visit2a")
+    $ add_hook("enter_scene", "ep24_quests_steve16", scene="floor1", label="steve_visit2a")
+    $ add_hook("basement_monica_before_nap", "ep24_quests_steve18", scene="global", label="steve_visit2_nap") # В пятницу вечером также запускаем сцену с Бетти о приходе Стива
+    $ monicaLastCleaningOfferedDay = day # Отменяем уборку сегодня
+    $ add_cleaning(True)
+    return
+
 
 #    $ add_hook("map_teleport", "ep24_quests_steve6", scene="global", label="steve_visit1a")
 #    $ add_hook("enter_scene", "ep24_quests_steve6", scene="basement_bedroom1", label="steve_visit1a")
 #    $ add_hook("enter_scene", "ep24_quests_steve6", scene="basement_bedroom2", label="steve_visit1a")
     $ add_hook("exit_scene", "ep24_quests_steve6", scene="floor1", label="steve_visit1a")
 
-    $ add_hook("change_time_evening", "ep24_quests_steve6b", scene="global", label="steve_visit1")
-    $ add_hook("basement_monica_before_sleep", "ep24_quests_steve7", scene="global", label="steve_visit1")
+    $ add_hook("change_time_evening", "ep24_quests_steve6b", scene="global", label="steve_visit2")
+    $ add_hook("basement_monica_before_sleep", "ep24_quests_steve7", scene="global", label="steve_visit2")
+
+    return
+
+label ep24_quests_steve14:
+    # Не выпускает Монику через ворота
+    if act=="l":
+        return
+    call ep24_dialogues3_steve10_locked1()
+    return False
+
+label ep24_quests_steve15:
+    # Срабатывание на floor1, вторая часть визита Стива (зовут Монику в первый раз)
+    $ remove_hook()
+    $ add_objective("steve_maid", _("Обслуживать гостей"), c_orange, 15)
+    call ep24_dialogues3_steve10a()
+    $ add_hook("Teleport_LivingRoom", "ep24_quests_steve17", scene="floor1")
+    return
+
+label ep24_quests_steve16:
+    # Зовут Монику
+    $ remove_hook()
+    call ep24_dialogues3_steve10a2()
+    return
+
+label ep24_quests_steve17:
+    # Моника входит в первый раз в гостиную
+    $ remove_hook()
+    call ep24_dialogues3_steve10b()
+    $ autorun_to_object("floor1", "ep24_quests_steve19")
+    $ add_hook_multi("ep24_quests_steve20", scene="kitchen", label = "steve_visit2b", filter={"group":"environment"})
+    $ add_hook_multi("ep24_quests_steve20", scene="kitchen2", label = "steve_visit2b", filter={"group":"environment"})
+    $ add_hook("Teleport_LivingRoom", "ep24_quests_steve19a", scene="floor1", label="steve_visit2b")
+    $ add_hook("enter_scene", "ep24_quests_steve17a", scene="kitchen", label="steve_visit2")
+    $ add_hook("enter_scene", "ep24_quests_steve17a", scene="kitchen2", label="steve_visit2")
 
 
+    call refresh_scene_fade()
+    return False
 
+label ep24_quests_steve17a:
+    mt "По крайней мере, сегодня я могу наесться, пока Бетти нет..."
+    return False
 
+label ep24_quests_steve18:
+    # Блокировка отдыха
+    help "Отдых отменен. В доме остались незавершенные события..."
+    return False
 
+label ep24_quests_steve19:
+    # Комментарий после захода в гостиную первый раз
+    call ep24_dialogues3_steve10b2()
 
+    return
 
+label ep24_quests_steve19a:
+    # Запрет на вход пока не выполнено распоряжение
+    call ep24_dialogues3_steve10b4()
+    return False
 
+label ep24_quests_steve20:
+    if cloth != "Governess":
+        return
+    # Взять стаканы под виски на кухне
+    call ep24_dialogues3_steve10b3()
+    if _return == False:
+        return False
+    $ remove_hook(label="steve_visit2b")
+
+    call ep24_dialogues3_steve10c()
+#    $ autorun_to_object("floor1", "ep24_quests_steve20c")
+    call change_scene("floor1", "Fade_long")
+    $ add_hook("open", "ep24_quests_steve20b", scene="floor1", label="steve_visit2a")
+    call refresh_scene_fade()
+    return False
+
+label ep24_quests_steve20a:
+    # Моника комментирует, ее зовут
+    call ep24_dialogues3_steve10c2()
+    return
+
+label ep24_quests_steve20c:
+    return
+
+label ep24_quests_steve20b:
+    # Срабатывание третьей части
+    $ remove_hook()
+    $ autorun_to_object("floor1", "ep24_quests_steve20a")
+    call ep24_dialogues3_steve10c3()
+    $ add_hook("Teleport_LivingRoom", "ep24_quests_steve21", scene="floor1", label="steve_visit2c")
+    return
+
+label ep24_quests_steve21:
+    # Моника снова заходит в гостиную
+    $ remove_hook()
+    call ep24_dialogues3_steve10d()
+    $ add_hook("Teleport_LivingRoom", "ep24_quests_steve19a", scene="floor1", label="steve_visit2c")
+    $ autorun_to_object("floor1", "ep24_quests_steve21a")
+
+    $ add_hook_multi("ep24_quests_steve22", scene="kitchen", label = "steve_visit2c", filter={"group":"environment"})
+    $ add_hook_multi("ep24_quests_steve22", scene="kitchen2", label = "steve_visit2c", filter={"group":"environment"})
+
+    call refresh_scene_fade_long()
+    return False
+
+label ep24_quests_steve21a:
+    # Моника комментирует приказ
+    call ep24_dialogues3_steve10d2()
+    return
+
+label ep24_quests_steve22:
+    # Принести еду
+    if cloth != "Governess":
+        return
+    call ep24_dialogues3_steve10d3()
+    if _return == False:
+        return False
+    $ remove_hook(label="steve_visit2c")
+    call ep24_dialogues3_steve10e()
+
+    $ remove_hook(label="steve_visit2_nap")
+    $ add_hook("change_time_evening", "ep24_quests_steve23", scene="global", priority = 200)
+    $ add_hook("Panties_Box", "ep24_dialogues3_steve10e3", scene="basement_laundry", label="steve_visit2")
+    $ monicaLaundryBettyPantiesSelectNudeDisabled = True
+
+    $ add_hook("BasementWardrobe", "ep24_quests_steve24b", scene="basement_bedroom1", label="steve_visit2")
+    if monicaBettyPanties == False and monicaUnder == "Nude":
+        $ autorun_to_object("basement_laundry", "ep24_quests_steve24a")
+        call change_scene("basement_laundry", "Fade_long")
+        return False
+
+    call change_scene("floor1", "Fade_long")
+    return False
+
+label ep24_quests_steve23:
+    # Сцена вечер, Ральф спит
+    $ remove_hook()
+    call ep24_dialogues3_steve10f()
+
+    $ add_hook("before_open", "ep24_quests_steve24", scene="floor1_stairs", label="steve_catch1") # Переход ногами на лестницу из подвала
+    $ add_hook("before_open", "ep24_quests_steve24", scene="bedroom1", label="steve_catch1")
+    $ add_hook("before_open", "ep24_quests_steve24", scene="bedroom2", label="steve_catch1")
+    $ add_hook("before_open", "ep24_quests_steve24", scene="bathroom_bath", label="steve_catch1")
+    $ add_hook("before_open", "ep24_quests_steve24", scene="floor1", label="steve_catch1")
+    $ add_hook("before_open", "ep24_quests_steve24", scene="floor2", label="steve_catch1")
+    $ add_hook("before_open", "ep24_quests_steve24", scene="kitchen2", label="steve_catch1")
+    $ add_hook("before_open", "ep24_quests_steve24", scene="street_house_main_yard", label="steve_catch1")
+    $ add_hook("before_open", "ep24_quests_steve24", scene="basement_pool", label="steve_catch1")
+
+    call refresh_scene_fade_long()
+    return
+# rooms_clean_list_exclude = []
+
+label ep24_quests_steve24:
+    # Стив ловит Монику
+    $ remove_hook(label="steve_catch1")
+
+    # Сцена Стива и Моники
+    call ep24_dialogues3_steve10g()
+    if _return == True:
+        $ questLog(31, False)
+        $ questLog(32, True)
+
+    $ remove_hook(label="steve_visit2")
+    $ remove_hook(label="steve_visit2a")
+    $ remove_hook(label="steve_visit2b")
+    $ remove_hook(label="steve_visit2c")
+    $ monicaLaundryBettyPantiesSelectNudeDisabled = False
+
+    $ map_enabled = True
+    $ livingRoomRalphSuffix = "_Sleeping"
+    $ add_hook("Ralph", "ep24_quests_steve26", scene="living_room", label="evening_time_temp") # Удалится с утра
+
+    $ add_hook("enter_scene", "ep24_quests_steve27", scene="basement_bedroom2")
+    call change_scene("basement_bedroom2", "Fade_long")
+    return
+
+label ep24_quests_steve24a:
+    $ monicaUnder = "Panties"
+    call ep24_dialogues3_steve10e2()
+    call ep22_Act_Images_monica_put_up_panties()
+    call refresh_scene_fade
+    return
+
+label ep24_quests_steve24b:
+    if act=="l":
+        return
+    call ep24_dialogues3_steve10e3()
+    return False
+
+label ep24_quests_steve25:
+    # Следующее утро
+    if monicaHasSexWithSteveBasement == True:
+        $ questLog(31, False)
+        $ questLog(32, True)
+    $ livingRoomRalphSuffix = ""
+    $ basementBedSkipUntilFridayEnabled = True
+    return
+
+label ep24_quests_steve26:
+    # Моника пытается говорить со Стивом в гостиной (спит)
+    call ep24_dialogues3_steve10a1()
+    return False
+
+label ep24_quests_steve27:
+    $ remove_hook()
+    # Комментарий Моники после секса со Стивом
+    call ep24_dialogues3_steve10b1()
+    return
 
 
 #

@@ -78,3 +78,8 @@ label Betty_Life_Dialogue_Bedroom1:
             call bettyDialogue2() from _call_bettyDialogue2
             return False
     return
+
+label Betty_Life_none:
+    # Бетти нигде нет
+    $ move_object("Betty", "empty")
+    return False

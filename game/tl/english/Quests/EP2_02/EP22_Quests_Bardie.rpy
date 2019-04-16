@@ -6,7 +6,7 @@ translate english EP22_Quests_Bardie_Monica_Rest_After_Cleaning_comment1_e859687
     # mt "Барди..."
     # mt "Он вертится вокруг как назойливая муха!"
     # mt "Надо как-то избавиться от него..."
-    mt "Барди..."
+    mt "Bardi..."
     mt "He's circling me like a pesky fly!"
     mt "I need to get rid of him somehow..."
 

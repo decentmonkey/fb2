@@ -1456,7 +1456,7 @@ translate english monica_office_cabinet_biff_dialogue3_local2_b7eb643b:
     # biff "Отлично!"
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
-    biff "Отлично!"
+    biff "Excelent!"
     "To be honest with you, Melanie refused to do this series of photo shoots."
     "She said she didn't want to do anything with full nudity."
 
@@ -1636,7 +1636,7 @@ translate english monica_office_cabinet_biff_dialogue4_4ba5d420:
 translate english monica_office_cabinet_biff_dialogue4_415a7fa9:
 
     # m "ЧТО?!?!"
-    m "ЧТО?!?!"
+    m "WHAT?!?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1109
 translate english monica_office_cabinet_biff_dialogue4_4f8c0ffe:
@@ -1654,7 +1654,7 @@ translate english monica_office_cabinet_biff_dialogue4_fd312060:
     # "Модель должна раздеться передо мной и продемонстрировать свои навыки!"
     # m "ЧТО?!?!"
     "The models have to undress in front of me to demonstrate their skills!"
-    m "ЧТО?!?!"
+    m "WHAT?!?!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1118
 translate english monica_office_cabinet_biff_dialogue4_0f8b97e5:

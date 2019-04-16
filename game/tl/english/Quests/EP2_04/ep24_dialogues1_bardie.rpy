@@ -55,7 +55,7 @@ translate english ep24_dialogues1_bardie_aa6c2862:
 
     # m "ЧТО?!?!"
     # m "ДА КТО ТЫ ТАКОЙ, ЧТОБЫ ЗАСТАВЛЯТЬ МЕНЯ ХОДИТЬ БЕЗ ТРУСИКОВ?!"
-    m "ЧТО?!?!"
+    m "WHAT?!?!"
     m "WHO DO YOU THINK YOU ARE, TRYING TO MAKE ME DO IT?!"
 
 # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:57
@@ -72,7 +72,7 @@ translate english ep24_dialogues1_bardie_80172a91:
     # m "Вообще-то здесь не только ты хозяин, но есть еще и хозяйка!"
     # m "Бетти!"
     m "You are not the only master of this house, there is also a mistress!"
-    m "Бетти!"
+    m "Betty!"
 
 # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:63
 translate english ep24_dialogues1_bardie_79cfcd29:
@@ -84,7 +84,7 @@ translate english ep24_dialogues1_bardie_79cfcd29:
 translate english ep24_dialogues1_bardie_7b510d12:
 
     # m "Но если она увидит меня без трусиков, то точно выгонит меня из этого дома!"
-    m "Но если она увидит меня без трусиков, то точно выгонит меня из этого дома!"
+    m "If she sees me without panties, she will throw me out of the house in an instant."
 
 # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:67
 translate english ep24_dialogues1_bardie_f057cfd7:
@@ -104,9 +104,9 @@ translate english ep24_dialogues1_bardie_4dc26dd6:
     # bardie "Тогда просто помоги мне кое в чем..."
     # m "Я тебе уже говорила, что ничем не могу помочь тебе."
     bardie "..."
-    bardie "Хорошо, Моника."
+    bardie "Alright, Monica."
     bardie "Help me then."
-    m "Я тебе уже говорила, что ничем не могу помочь тебе."
+    m "I've told you already that there is nothing I can help you with."
 
 # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:86
 translate english ep24_dialogues1_bardie_e65c5dd9:
@@ -174,9 +174,9 @@ translate english ep24_dialogues1_bardie_eaa247d1:
     # mt "Она обращается со мной как с прислугой!"
     # mt "Она заслужила, чтобы ее проучили!"
     # mt "Итак..."
-    mt "Она обращается со мной как с прислугой!"
-    mt "Она заслужила, чтобы ее проучили!"
-    mt "Итак..."
+    mt "She is treating me like a servant!"
+    mt "She deserves to be punished!"
+    mt "So..."
 
 # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:119
 translate english ep24_dialogues1_bardie_670e3a45:
@@ -185,8 +185,8 @@ translate english ep24_dialogues1_bardie_670e3a45:
     # bardie "Хорошо, Моника."
     # "Подумай, это ведь лучше, чем ходить без трусиков, правда?"
     # m "!!!"
-    mt "Я тебе уже говорила, что ничем не могу помочь тебе."
-    bardie "Хорошо, Моника."
+    mt "I've told you already that there is nothing I can help you with."
+    bardie "Alright, Monica."
     "Take it into consideration. It's better than walking around without panties, isnt it?"
     m "!!!"
 
@@ -276,7 +276,7 @@ translate english ep24_dialogues1_bardie_a1134c41:
     # m "!!!"
     bardie "Excellent!"
     bardie "You did great!"
-    bardie "Сообщи мне в следующий раз, когда пойдешь с ней туда!"
+    bardie "Tell me when you will be going there with Betty."
     bardie "You can keep working."
     m "!!!"
 
@@ -289,8 +289,8 @@ translate english ep24_dialogues1_bardie_ba5f58c6:
     # "Особенно ко мне!"
     # mt "..."
     mt "Hmm..."
-    "Стоит ли мне помогать этому сопляку?"
-    "Он не выказывает ни капли уважения к старшим!"
+    "Is it worth helping this punk?"
+    "He doesn't show any respect towards grown-ups!"
     "Especially to me!"
     mt "..."
 
@@ -303,7 +303,7 @@ translate english ep24_dialogues1_bardie_095adbcf:
     # mt "И я не могу поверить, чтобы какая-то деревенщина кричала на меня!"
     # mt "И заставляла тереть это дурацкое пятно, словно я какая-то прислуга!"
     mt "On the other hand, it's in my interests to teach Betty a lesson."
-    mt "За все то, как она издевается надо мной!"
+    mt "And he always harasses me!"
     mt "I'm a QUEEN afterall!!!"
     mt "I can't tolerate some village girl ordering me around!"
     mt "Making me clean up that stupid stain on the carpet, like I'm some sort of a servant."
@@ -316,9 +316,35 @@ translate english strings:
 
     # Quests/EP2_04/ep24_dialogues1_bardie.rpy:114
     old "Я тебе уже говорила, что ничем не могу помочь тебе."
-    new ""
+    new "I've told you already that there is nothing I can help you with."
 
     # Quests/EP2_04/ep24_dialogues1_bardie.rpy:188
     old "Барди, пойдем вниз, я хочу поговорить с тобой."
     new "Bardi, lets go downstairs, I'd like to talk with you."
+
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:163
+translate english ep24_dialogues1_bardie_93139e24:
+
+    # m "Я тебе уже говорила, что ничем не могу помочь тебе."
+    # bardie "Хорошо, Моника."
+    # "Подумай, это ведь лучше, чем ходить без трусиков, правда?"
+    # m "!!!"
+    m "I've told you already that there is nothing I can help you with."
+    bardie "Alright, Monica."
+    "Take it into consideration. It's better than walking around without panties, isnt it?"
+    m "!!!"
+
+# game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:252
+translate english ep24_dialogues2_bardie_03d30b3b:
+
+    # m "Барди, пойдем вниз, я хочу поговорить с тобой."
+    m "Bardi, lets go downstairs, I'd like to talk with you."
+
+# game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:259
+translate english ep24_dialogues1_bardie3_3c6405a7:
+
+    # help "Прогресс Барди активирован!"
+    help "Прогресс Барди активирован!"
 

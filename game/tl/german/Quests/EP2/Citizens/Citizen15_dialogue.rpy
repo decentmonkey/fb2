@@ -464,3 +464,353 @@ translate german strings:
     old "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired]) (disabled)"
     new "Stimme zu ... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired]) (disabled)"
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:123
+translate german citizen15_dialogue_pilon_loop15_4d8fb1d0:
+
+    # m "Да за кого ты меня принимаешь?!"
+    # m "Этого не будет никогда!"
+    m "Für wen oder was hältst du mich?"
+    m "Das wird niemals passieren!"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:126
+translate german citizen15_dialogue_pilon_loop15_458a4d51:
+
+    # citizen15 "Тогда мои 50$ достанутся более сговорчивой девочке."
+    citizen15 "Dann wird meien $ 50 ein aufgeschlosseneres Mädchen verdienen."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:130
+translate german citizen15_dialogue_pilon_loop15_9914d493:
+
+    # mt "50$ были бы не лишними... Хорошо, что здесь никого нет."
+    mt "$ 50 sind jetzt nicht die Welt ... Gut, dass niemand sonst hier ist."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:132
+translate german citizen15_dialogue_pilon_loop15_feded4a2:
+
+    # m "50$ ?"
+    m "50$ ?"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:134
+translate german citizen15_dialogue_pilon_loop15_89b042b3:
+
+    # citizen15 "Все верно, девочка. Покажешь своих подружек и они твои."
+    citizen15 "Ganz genau, zeig mir deine zwei hübschen Freundinnen, und sie gehören dir."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:136
+translate german citizen15_dialogue_pilon_loop15_742c6916:
+
+    # mt "Черт! Моника, ты уверена что станешь делать это???"
+    # mt "Станешь показывать свою грудь какому-то нищему за жалкие 50$?"
+    mt "Verdammt! Bist du sicher, dass du das tun willst, Monica?"
+    mt "Deine Brüste irgendeinem Penner für $ 50 zeigen?"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:139
+translate german citizen15_dialogue_pilon_loop15_43678127:
+
+    # mt "Но, с другой стороны, это же не я показываю грудь, а какая-то шлюха в трущобах."
+    # mt "Ведь никто даже представить себе не может что это делает Моника Бакфетт."
+    # mt "Это как какая-то виртуальная игра, в которой все не по настоящему..."
+    # mt "Но вот 50$, которые я получу, вполне реальны!"
+    mt "Andererseits bin ich das ja gar nicht, das ist ja nur irgendeine Nutte in den Slums..."
+    mt "Niemand würde je glauben, dass Monica Buckfett sowas machen würde..."
+    mt "Es ist wie ein virtuelles Spiel... nicht real..."
+    mt "Wie auch immer, die 50 $ sind dafür sehr real."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:145
+translate german citizen15_dialogue_pilon_loop15_1ee1646f:
+
+    # m "Ладно, только не трогать!"
+    m "Okay, aber nicht anfassen!"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:147
+translate german citizen15_dialogue_pilon_loop15_8db92707:
+
+    # citizen15 "Об этом не волнуйся, детка. Я не хочу проблем с твоим сутенером."
+    citizen15 "Keine Angst, Baby. Ich will keine Probleme mit deinem Zuhälter."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:149
+translate german citizen15_dialogue_pilon_loop15_afbf5733:
+
+    # mt "Да за кого он меня принимает?"
+    mt "Wer denkt er, dass ich bin?"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:152
+translate german citizen15_dialogue_pilon_loop15_cea02102:
+
+    # m "Хорошо, давай деньги."
+    m "Gut, gib mir das Geld."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:154
+translate german citizen15_dialogue_pilon_loop15_2bb78383:
+
+    # citizen15 "Только после того, как покажешь."
+    # citizen15 "Деньги вперед я могу дать только твоему сутенеру!"
+    # citizen15 "Извини, но таким девочкам как ты я на слово не верю..."
+    citizen15 "Только после того, как покажешь."
+    citizen15 "Деньги вперед я могу дать только твоему сутенеру!"
+    citizen15 "Извини, но таким девочкам как ты я на слово не верю..."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:163
+translate german citizen15_dialogue_pilon_loop15_d6109ac7:
+
+    # m "!!!"
+    # m "Отвернись!"
+    m "!!!"
+    m "Отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:180
+translate german citizen15_dialogue_pilon_loop15_6ee7beb7:
+
+    # citizen15 "Эй! Куда ты их спрятала?!"
+    citizen15 "Hey! Was machst du da?"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:182
+translate german citizen15_dialogue_pilon_loop15_568e78cb:
+
+    # m "Я показала тебе свою грудь! Давай деньги!"
+    # citizen15 "Ты что, пошутила?! Я ничего не успел рассмотреть!"
+    # m "Ты увидел достаточно! Давай деньги, скорее!"
+    m "Ich habe gemacht, was du wolltest!"
+    citizen15 "Willst du mich verarschen? Ich hatte nicht mal genug Zeit, irgendwas zu sehen!"
+    m "Du hast genug gesehen! Gib mir jetzt das Geld!"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:186
+translate german citizen15_dialogue_pilon_loop15_785fad92:
+
+    # citizen15 "Я не дам тебе ничего, пока ты не покажешь мне грудь нормально!"
+    # citizen15 "Я хочу рассмотреть ее как следует! Иначе никаких денег!"
+    citizen15 "Kein Geld, bis du mir das gezeigt hast, was ich sehen will."
+    citizen15 "Ich will einen guten Blick. Sonst gibt's keinen Deal."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:189
+translate german citizen15_dialogue_pilon_loop15_29a4f6ab:
+
+    # m "!!!"
+    m "!!!"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:196
+translate german citizen15_dialogue_pilon_loop15_bba6a6ff:
+
+    # m "Да за кого ты меня принимаешь?!"
+    # citizen15 "Тогда мои 50$ достанутся более сговорчивой девочке."
+    m "Für wen oder was hältst du mich?"
+    citizen15 "Dann wird meien $ 50 ein aufgeschlosseneres Mädchen verdienen."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:205
+translate german citizen15_dialogue_pilon_loop15_d51b5bd5:
+
+    # citizen15 "Эй! Хватит кривляться! Покажи грудь нормально!"
+    citizen15 "Hey! Komm schon!"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:208
+translate german citizen15_dialogue_pilon_loop15_0ba82dcb:
+
+    # citizen15 "Покажи грудь, а я досчитаю до пяти!"
+    # citizen15 "Если ты уберешь грудь раньше, то не получишь никаких денег!"
+    citizen15 "Du musst es mir wenigstens 5 Sekunden zeigen!"
+    citizen15 "Wenn nicht, gibt’s kein Geld!"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:212
+translate german citizen15_dialogue_pilon_loop15_84bba7d8:
+
+    # m "..."
+    # citizen15 "..."
+    # m "..."
+    # citizen15 "50$!"
+    m "..."
+    citizen15 "..."
+    m "..."
+    citizen15 "!"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:222
+translate german citizen15_dialogue_pilon_loop15_bba6a6ff_1:
+
+    # m "Да за кого ты меня принимаешь?!"
+    # citizen15 "Тогда мои 50$ достанутся более сговорчивой девочке."
+    m "Für wen oder was hältst du mich?"
+    citizen15 "Dann wird meien $ 50 ein aufgeschlosseneres Mädchen verdienen."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:232
+translate german citizen15_dialogue_pilon_loop15_63fd2d67:
+
+    # citizen15 "Один..."
+    citizen15 "Eins..."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:235
+translate german citizen15_dialogue_pilon_loop15_a4b6d408:
+
+    # citizen15 "Два..."
+    citizen15 "Zwei..."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:238
+translate german citizen15_dialogue_pilon_loop15_516c0bb8:
+
+    # citizen15 "Три..."
+    citizen15 "Drei..."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:249
+translate german citizen15_dialogue_pilon_loop15_2e0fe98d:
+
+    # citizen15 "Четыре..."
+    citizen15 "Vier..."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:258
+translate german citizen15_dialogue_pilon_loop15_2735abaf:
+
+    # citizen15 "Пять..."
+    citizen15 "Fünf..."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:261
+translate german citizen15_dialogue_pilon_loop15_7c68ad22:
+
+    # m "Доволен?"
+    # citizen15 "Более чем..."
+    m "Zufrieden?"
+    citizen15 "Weiter..."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:324
+translate german citizen15_dialogue_pilon_loop15_73c7d835:
+
+    # citizen15 "А теперь покажи своих малышек, похоже им там тесно."
+    # mt "Мне надо как-то получить больше денег с этого бродяги..."
+    # mt "Может быть показать ему снова мою грудь?"
+    # mt "Он ведь уже видел ее..."
+    # m "Если ты хочешь, я могу показать тебе свою грудь..."
+    # m "Снова..."
+    # citizen15 "Конечно! Я соскучился по твоим малышкам!"
+    # m "50$!"
+    # citizen15 "Что? Какие еще 50$?"
+    # citizen15 "Я уже видел твоих малышек!"
+    # citizen15 "Хочешь снова 50$ - покажи мне другие!"
+    # citizen15 "Ты можешь привести кого-нибудь и поделить с ней деньги."
+    # citizen15 "Но учти, я уже видел почти всех малышек в этом районе!"
+    # citizen15 "За малышек, которые я уже видел, я готов заплатить [monicaWhoringNakedBoobsMoney]$!"
+    # m "Мне некого приводить!"
+    # m "И моя грудь самая лучшая!"
+    # mt "Черт! Все мировые издания об этом писали!"
+    # citizen15 "Я готов заплатить тебе [monicaWhoringNakedBoobsMoney]$ и не более..."
+    citizen15 "Jetzt zeig deine zwei Babies, die wollen doch raus."
+    mt "Ich muss aus diesem Loser irgendwie mehr Geld raus saugen..."
+    mt "Soll ich ihm meine Brüste nochmal zeigen?"
+    mt "Er hat sie sowieso schon gesehen."
+    m "Ich kann dir meine Brüste zeigen, wenn du willst..."
+    m "Wieder..."
+    citizen15 "Natürlich! Ich vermisse deine Babies bereits!"
+    m "!"
+    citizen15 "Was? Niemals!"
+    citizen15 "Ich kenne deine doch schon!"
+    citizen15 "Willst du nochmal $ 50? Zeig mir mal was Neues."
+    citizen15 "Du kannst noch Eine mitbringen und das Geld mit ihr teilen."
+    citizen15 "Aber, ich habe fast schon Jede hier in der Gegend gesehen..."
+    citizen15 "Ich bin bereit zu zahlen, für das ich bereits gesehen habe [monicaWhoringNakedBoobsMoney]$!"
+    m "Ich habe niemanden zum mitbringen!"
+    m "Und meine Brüste sind die Besten!"
+    mt "Selbst internationale Magazine haben darüber berichtet!"
+    citizen15 "Ich kann dich bezahlen [monicaWhoringNakedBoobsMoney]$, nichts weiter..."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:347
+translate german citizen15_dialogue_pilon_loop15_ef3db6ad:
+
+    # m "Да за кого ты меня принимаешь?!"
+    m "Für wen oder was hältst du mich?"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:351
+translate german citizen15_dialogue_pilon_loop15_b71b7bd7:
+
+    # m "Так и быть, только руками не трогать."
+    # mt "Только попробуй к ним прикоснуться и я сломаю тебе пальцы."
+    m "Gut, aber anfassen ist nicht."
+    mt "Wenn du sie anfasst, breche ich dir die Finger!"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:363
+translate german citizen15_dialogue_pilon_loop15_6daa14d5:
+
+    # mt "Мне надо как-то получить больше денег с этого бродяги..."
+    # mt "Может быть показать ему снова мою грудь?"
+    # mt "Он ведь уже видел ее..."
+    # m "Если ты хочешь, я могу показать тебе свою грудь..."
+    # m "Снова..."
+    # citizen15 "Сегодня я не хочу смотреть твоих малышек!"
+    # citizen15 "Покажи их кому-нибудь другому!"
+    # citizen15 "Уверен, ты сможешь заработать [monicaWhoringNakedBoobsMoney]$."
+    mt "Ich muss aus diesem Loser irgendwie mehr Geld raus saugen..."
+    mt "Soll ich ihm meine Brüste nochmal zeigen?"
+    mt "Er hat sie sowieso schon gesehen."
+    m "Ich kann dir meine Brüste zeigen, wenn du willst..."
+    m "Wieder..."
+    citizen15 "Ich will deine Babies heute nicht sehen."
+    citizen15 "Zeig sie jemand Anderem."
+    citizen15 "Ich bin sicher, du kannst verdienen [monicaWhoringNakedBoobsMoney]$."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:386
+translate german citizen15_dialogue_pilon_loop15_b71b7bd7_1:
+
+    # m "Так и быть, только руками не трогать."
+    # mt "Только попробуй к ним прикоснуться и я сломаю тебе пальцы."
+    m "Gut, aber anfassen ist nicht."
+    mt "Wenn du sie anfasst, breche ich dir die Finger!"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:390
+translate german citizen15_dialogue_pilon_loop15_d25c3e2d_1:
+
+    # citizen15 "А ничего такие сиськи, но я видел и лучше."
+    citizen15 "Die Brüste sind nicht schlecht, aber ich kenne bessere."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:392
+translate german citizen15_dialogue_pilon_loop15_93f3cbe1_1:
+
+    # mt "Очень сомневаюсь..."
+    mt "Das bezweifle ich sehr..."
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:421
+translate german citizen15_dialogue_after_boobs_first_time_8574f688:
+
+    # mt "Дьявол!"
+    # mt "Я не уверена что мне стоило делать это!"
+    # mt "Я думала это будет проще!"
+    # mt "Этот урод заставил меня пол дня стоять на улице, сверкая своей обнаженной бесценной, очаровательной грудью!"
+    # mt "Но за эти же деньги мне пришлось бы два месяца носить рекламу кебаба..."
+    # mt "Главное - это то что меня никто не видел."
+    # mt "И никто не знает кто я на самом деле, так что я могу делать все что потребуется."
+    # mt "Мне пришлось показать грудь - пускай!"
+    # mt "Это поможет мне сэкономить время на поиск еды, чтобы потратить его на решение моих главных проблем."
+    # mt "Моя цель - это вернуть назад мою роскошную жизнь."
+    # mt "И я не остановлюсь ни перед чем!"
+    mt "Дьявол!"
+    mt "Ich bin nicht sicher, ob es das wert war..."
+    mt "Ich dachte, es wäre einfacher..."
+    mt "Dieser Bastard hat mich dazu gebracht, meine wunderbaren Brüste den halben Tag auf der Straße zu zeigen!"
+    mt "Dennoch viel besser als zwei Monate dieses dumme Kebab-Werbungsschild zu tragen."
+    mt "Ich muss nur sicher stellen, dass mich niemand erkennt..."
+    mt "Solange niemand meine wahre Identität kennt, kann ich machen was ich will."
+    mt "Ich musste meine Brüste zeigen, aber was solls..."
+    mt "Es hilft mir Zeit zu sparen und mich auf meine wahren Probleme zu konzentrieren."
+    mt "Mein Ziel ist mein luxuriöses Leben zurück zu bekommen!"
+    mt "Und nichts wird mich davon abhalten!"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:436
+translate german citizen15_dialogue_after_boobs_second_time_234f2bb7:
+
+    # mt "Вот мерзавец!"
+    # mt "Он отказался смотреть на мою грудь даже за [monicaWhoringNakedBoobsMoney]$ !"
+    # mt "Может быть показать мою грудь кому-нибудь еще?"
+    # mt "Это звучит дико, но мне нужны деньги..."
+    # mt "Похоже, в этом районе все относятся совершенно нормально к таким вещам..."
+    # mt "А я нахожусь здесь анонимно..."
+    # mt "То что здесь происходит никак не связано с жизнью Моники Бакфетт."
+    # mt "Так что мне нечего стесняться."
+    # mt "Мне это глубоко противно, но я отношусь к этому с хладнокровием."
+    # mt "В конце концов, это ненадолго."
+    mt "Bastard!"
+    mt "Er hat es abgelehnt, selbst [monicaWhoringNakedBoobsMoney]$ für meine Brüste zu zahlen!"
+    mt "Sollte ich meine Brüste jemand Anderem zeigen?"
+    mt "Klingt verrückt, aber ich brauche das Geld..."
+    mt "Sieht so aus, als wären solche Sachen ganz normal in dieser Gegend..."
+    mt "Und hier kennt mich niemand..."
+    mt "Was hier passiert, hat nichts mit Monica Buckfett zu tun, in keinster Weise..."
+    mt "Also gibt es für mich keinen Grund, beschämt zu sein..."
+    mt "Das ist absolut widerlich, aber ich muss gefühlskalt sein..."
+    mt "Es ist ja nicht für lange..."
+

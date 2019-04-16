@@ -458,5 +458,5 @@ translate english ep23_dialogues6_2_adf9e9d4:
     # dick_secretary "!!!!!!"
     dick_secretary "..."
     dick_secretary "!!!"
-    dick_secretary "!!!!!!"
+    dick_secretary "!!!!!"
 

@@ -30,7 +30,7 @@ translate english citizen4_dialogue_5e125193:
     # citizen4 "Хорошо."
     # citizen4 "А что на нем?"
     # m "Это реклама вкусного кебаба... Там же написано!"
-    citizen4 "Хорошо."
+    citizen4 "Fine."
     citizen4 "What is it?"
     m "It's an ad for some very delicious kebab... It says so!"
 
@@ -311,4 +311,30 @@ translate english strings:
     # Quests/EP2/Citizens/Citizen4_Dialogue.rpy:26
     old "Что Вы подразумеваете под знакомством?"
     new "What do you mean by an acquaintance?"
+
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:163
+translate english citizen4_dialogue_pilon_loop4_7c87a2f3:
+
+    # citizen4 "Должен признать, твои сиськи хороши."
+    # mt "Ну еще бы!"
+    # citizen4 "Хотя страшно подумать, что с ними станет лет через 10..."
+    # mt "Что?"
+    # citizen4 "Знаешь, мой знакоый может тебе помочь кое в чем... За каких нибудь 500$ твои подруги наберут вес."
+    # citizen4 "Тебе дать его номер?"
+    citizen4 "Должен признать, твои сиськи хороши."
+    mt "Ну еще бы!"
+    citizen4 "Хотя страшно подумать, что с ними станет лет через 10..."
+    mt "What?"
+    citizen4 "Знаешь, мой знакоый может тебе помочь кое в чем... За каких нибудь 500$ твои подруги наберут вес."
+    citizen4 "Тебе дать его номер?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:170
+translate english citizen4_dialogue_pilon_loop4_1_90a5df7d:
+
+    # m "Меня это не интересует! С тебя хватит!"
+    # citizen4 "Погоди минутку. Потряси ка своими сочными сиськами!"
+    m "Меня это не интересует! С тебя хватит!"
+    citizen4 "Wait a minute. Shake your juicy tits!"
 

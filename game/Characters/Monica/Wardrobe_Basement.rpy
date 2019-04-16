@@ -186,6 +186,7 @@ label wardrobePutGovernessWithoutPanties:
     $ cloth = "Governess"
     $ cloth_type = "Governess"
     $ monicaUnder = "Nude"
+    $ monicaBettyPanties = False
     sound snd_fabric1
     img black_screen
     with Dissolve(0.5)

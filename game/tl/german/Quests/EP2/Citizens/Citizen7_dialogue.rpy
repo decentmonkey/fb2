@@ -372,3 +372,35 @@ translate german citizen7_dialogue_pilon_loop7_8aa5ca4c:
     # mt "Это правда."
     mt "Das stimmt allerdings."
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:182
+translate german citizen7_dialogue_pilon_loop7_20cfe883:
+
+    # citizen7 "Я так и знал, что они восхитительны!"
+    # mt "Это правда."
+    citizen7 "Ich wusste, sie sind großartig!"
+    mt "Das stimmt allerdings."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:185
+translate german citizen7_dialogue_pilon_loop7_d6ab9fda:
+
+    # citizen7 "Думаю, я знаю, чему будет посвящена моя следующая картина!"
+    # citizen7 "Да, кстати, как насчет того, чтобы стать моей моделью? Это новый уровень!"
+    # m "Нет, спасибо."
+    citizen7 "Думаю, я знаю, чему будет посвящена моя следующая картина!"
+    citizen7 "Да, кстати, как насчет того, чтобы стать моей моделью? Это новый уровень!"
+    m "Nein, danke."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:189
+translate german citizen7_dialogue_pilon_loop7_84b9d58d:
+
+    # citizen7 "Уверен, ты передумаешь! Сотни девушек мечтают о карьере модели!"
+    citizen7 "Уверен, ты передумаешь! Сотни девушек мечтают о карьере модели!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:191
+translate german citizen7_dialogue_pilon_loop7_8e436805:
+
+    # mt "Мне ли не знать, хе-хе..."
+    mt "Мне ли не знать, хе-хе..."
+

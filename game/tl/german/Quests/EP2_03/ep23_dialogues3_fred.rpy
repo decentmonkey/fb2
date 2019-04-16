@@ -918,3 +918,17 @@ translate german strings:
     old "Минуту спустя..."
     new "Eine Minute später..."
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2_03/ep23_dialogues3_fred.rpy:342
+translate german ep23_dialogues3_4_42e29af5:
+
+    # fred "Вау! Какой вид, Миссис Бакфетт!"
+    fred "Wow! Nettes outfit, Frau Buckfett!"
+
+# game/Quests/EP2_03/ep23_dialogues3_fred.rpy:355
+translate german ep23_dialogues3_4_7dbda713:
+
+    # m "И не вздумай приближаться ко мне, мерзавец!"
+    m "Wage es nicht, näher zu kommen, du Bastard!"
+

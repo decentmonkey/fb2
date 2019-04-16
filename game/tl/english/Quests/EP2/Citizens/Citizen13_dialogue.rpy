@@ -366,9 +366,27 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:135
     old "Хорошо."
-    new "Хорошо."
+    new "Fine."
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:135
     old "Ну уж нет!"
     new "Oh, no!"
+
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:211
+translate english citizen13_dialogue_pilon_loop13_1_76a597a6:
+
+    # mt "Да не дай бог..."
+    # citizen13 "Подруга, а где ты такие сделала?"
+    # m "Что?! Она настоящие!"
+    mt "I hope not..."
+    citizen13 "Подруга, а где ты такие сделала?"
+    m "Что?! Она настоящие!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:215
+translate english citizen13_dialogue_pilon_loop13_1_caac09a2:
+
+    # citizen13 "Да?! Хорошо сохранилась, подруга!"
+    citizen13 "Да?! Хорошо сохранилась, подруга!"
 

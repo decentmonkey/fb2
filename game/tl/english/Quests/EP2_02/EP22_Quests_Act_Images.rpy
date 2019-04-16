@@ -38,3 +38,17 @@ translate english ep22_Act_Images_monica_put_up_panties_1a779dee_4:
     # mt "Это трусики Бетти..."
     mt "These are Betty's panties..."
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2_02/EP22_Quests_Act_Images.rpy:93
+translate english ep22_Act_Images_monica_put_up_panties_c6e319b0:
+
+    # mt "Я... Не привыкла..."
+    mt "Я... Не привыкла..."
+
+# game/Quests/EP2_02/EP22_Quests_Act_Images.rpy:95
+translate english ep22_Act_Images_monica_put_up_panties_cb268665:
+
+    # mt "Ходить без трусиков..."
+    mt "Ходить без трусиков..."
+

@@ -36,3 +36,11 @@ translate english strings:
     old "Ожидание дальнейшего прогресса сюжета игры..."
     new "Waiting for further progress of the plot of the game..."
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Characters/Family/Bardie.rpy:126
+translate english bardieProgressLevelUp1_c3cd11eb:
+
+    # help "Уровень Барди максимален для этой версии игры. Ожидайте обновлений!"
+    help "Уровень Барди максимален для этой версии игры. Ожидайте обновлений!"
+

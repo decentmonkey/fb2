@@ -42,7 +42,7 @@ translate english ep22_dialogues3_2_6782a785:
     # bardie "Моника, покажи трусики..."
     # m "ЧТО?!?!"
     bardie "Monica, show me your panties..."
-    m "ЧТО?!?!"
+    m "WHAT?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:34
 translate english ep22_dialogues3_2_8596c6d9:
@@ -108,7 +108,7 @@ translate english ep22_dialogues3_2_b1e48be6:
     # m "ЧТО?!?!"
     # "ТЫ ЕЩЕ СМЕЕШЬ ШАНТАЖИРОВАТЬ МЕНЯ, МАЛЯВКА?!?!"
     # "Тебя даже не впустят туда! Такого маленького болвана!"
-    m "ЧТО?!?!"
+    m "WHAT?!?!"
     "DON'T YOU DARE BLACKMAIL ME!"
     "They probably won't even let you in, you little fool."
 
@@ -749,7 +749,7 @@ translate english ep22_dialogues3_6_b11a71cf:
 
     # bardie "ЧТО?!?!"
     # "ТЫ СНОВА ОБЗЫВАЕШЬ МЕНЯ МАЛЯВКОЙ?!?"
-    bardie "ЧТО?!?!"
+    bardie "WHAT?!?!"
     "YOU'RE CALLING ME LITTLE AGAIN?"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:406
@@ -928,7 +928,7 @@ translate english cleaning2_bardie_comment1_ea75c1b1:
 translate english cleaning2_bardie_comment1_1296737a:
 
     # "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
-    "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+    "I'm just making sure that everything is alright with your panties!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:578
 translate english cleaning2_bardie_comment1_ea75c1b1_1:
@@ -940,7 +940,7 @@ translate english cleaning2_bardie_comment1_ea75c1b1_1:
 translate english cleaning2_bardie_comment1_1296737a_1:
 
     # "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
-    "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+    "I'm just making sure that everything is alright with your panties!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:586
 translate english cleaning2_bardie_comment1_ea75c1b1_2:
@@ -952,7 +952,7 @@ translate english cleaning2_bardie_comment1_ea75c1b1_2:
 translate english cleaning2_bardie_comment1_1296737a_2:
 
     # "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
-    "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+    "I'm just making sure that everything is alright with your panties!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:595
 translate english cleaning2_bardie_comment1_ea75c1b1_3:
@@ -964,7 +964,7 @@ translate english cleaning2_bardie_comment1_ea75c1b1_3:
 translate english cleaning2_bardie_comment1_1296737a_3:
 
     # "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
-    "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+    "I'm just making sure that everything is alright with your panties!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:604
 translate english cleaning2_bardie_comment1_ea75c1b1_4:
@@ -976,7 +976,7 @@ translate english cleaning2_bardie_comment1_ea75c1b1_4:
 translate english cleaning2_bardie_comment1_1296737a_4:
 
     # "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
-    "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+    "I'm just making sure that everything is alright with your panties!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:613
 translate english cleaning2_bardie_comment1_ea75c1b1_5:
@@ -988,7 +988,7 @@ translate english cleaning2_bardie_comment1_ea75c1b1_5:
 translate english cleaning2_bardie_comment1_1296737a_5:
 
     # "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
-    "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+    "I'm just making sure that everything is alright with your panties!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:622
 translate english cleaning2_bardie_comment1_0a5616b8:
@@ -1089,7 +1089,7 @@ translate english ep22_dialogues3_9_523580c6:
     # m "Я НИ ЗА ЧТО!!!"
     # "СЛЫШИШЬ?!?!"
     # "НИ ЗА ЧТО НЕ БУДУ ХОДИТЬ БЕЗ ТРУСИКОВ!!!"
-    m "ЧТО?!?!"
+    m "WHAT?!?!"
     m "NO, I WILL NEVER DO THAT!"
     "DO YOU UNDER STAND?!"
     "I'M NEVER GONNA WALK AROUND WITHOUT PANTIES!"
@@ -1146,7 +1146,7 @@ translate english ep22_dialogues3_9_34b4dfd3:
 translate english ep22_dialogues3_9_415a7fa9:
 
     # m "ЧТО?!?!"
-    m "ЧТО?!?!"
+    m "WHAT?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:868
 translate english ep22_dialogues3_9_9ed84586:
@@ -1381,4 +1381,30 @@ translate english strings:
     # Quests/EP2_02/ep22_dialogues3.rpy:977
     old "Вернуть трусики Бетти на место."
     new "Put Betty's panties back in place."
+
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2_02/ep22_dialogues3.rpy:646
+translate english cleaning2_bardie_comment1_40c0b8cb:
+
+    # bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+    bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+
+# game/Quests/EP2_02/ep22_dialogues3.rpy:741
+translate english cleaning2_bardie_comment2_40c0b8cb:
+
+    # bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+    bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+
+# game/Quests/EP2_02/ep22_dialogues3.rpy:840
+translate english cleaning2_bardie_comment3_40c0b8cb:
+
+    # bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+    bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+
+# game/Quests/EP2_02/ep22_dialogues3.rpy:1017
+translate english ep22_dialogues3_13_64e4bbbc:
+
+    # mt "Мне лучше вернуть трусики Бетти на место..."
+    mt "Мне лучше вернуть трусики Бетти на место..."
 

@@ -62,3 +62,17 @@ translate english start_saved_game_b06a0c44:
     # help "Пожалуйста, используйте сохранение из финальной локации в подвале дома."
     help "Please use the save from the final location in the basement of the house."
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/scripts/start.rpy:65
+translate english menu_test1_8a73b653:
+
+    # m "menu_test1!"
+    m "menu_test1!"
+
+# game/scripts/start.rpy:69
+translate english menu_test2_4d945ffb:
+
+    # m "menu_test2!"
+    m "menu_test2!"
+

@@ -514,3 +514,19 @@ translate german citizen1_dialogue_pilon_loop1_1_ef576f0b:
     # citizen1 "Тетя, и за что тебе платить? Ничего не получишь."
     citizen1 "Wafür wurdest du bezahlt? Für nichts."
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:184
+translate german citizen1_dialogue_pilon_loop1_1_3b497a8f:
+
+    # citizen1 "Эй, тетя! Как насчет того, чтобы получить немного больше?"
+    # m "..."
+    # citizen1 "У меня идея! Нас как раз двое, как и твоих подружек. Давай обнимемся!"
+    # m "Даже не надейся!"
+    # citizen1 "Ладно, не горячись, тетя! Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
+    citizen1 "Hey! Wie wärs mit ein bisschen mehr?"
+    m "..."
+    citizen1 "У меня идея! Нас как раз двое, как и твоих подружек. Давай обнимемся!"
+    m "Даже не надейся!"
+    citizen1 "Ладно, не горячись, тетя! Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
+

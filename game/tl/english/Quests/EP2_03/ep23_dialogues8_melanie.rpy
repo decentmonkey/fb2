@@ -487,7 +487,7 @@ translate english ep23_dialogues8_2_2443f2a7:
     # melanie "Миссис Бакфетт, можете быть уверены в моих силах..."
     "Mrs. Buckfett, beautiful women love dangerous men!"
     "It makes everything even more interesting!"
-    m "Но..."
+    m "But..."
     melanie "Mrs. Buckfet, you can be confident in my abilities..."
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:371

@@ -520,3 +520,21 @@ translate german strings:
     old "Голые сиськи."
     new "Nackte Brüste."
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:211
+translate german citizen13_dialogue_pilon_loop13_1_76a597a6:
+
+    # mt "Да не дай бог..."
+    # citizen13 "Подруга, а где ты такие сделала?"
+    # m "Что?! Она настоящие!"
+    mt "Um Himmels Willen..."
+    citizen13 "Подруга, а где ты такие сделала?"
+    m "Что?! Она настоящие!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:215
+translate german citizen13_dialogue_pilon_loop13_1_caac09a2:
+
+    # citizen13 "Да?! Хорошо сохранилась, подруга!"
+    citizen13 "Да?! Хорошо сохранилась, подруга!"
+

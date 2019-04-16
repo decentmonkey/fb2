@@ -1012,3 +1012,61 @@ translate german strings:
     old "Биф... Мог бы ты дать еще немного денег?"
     new "Biff... Könntest Du mir ein bisschen mehr Geld geben?"
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:522
+translate german ep22_dialogue6_7_61f5b2d4:
+
+    # biff "Да, цыпочка!"
+    # biff "На следующей неделе я не нуждаюсь в твоих услугах!"
+    # biff "Приходи позднее!"
+    biff "Das bin ich, Püppchen!"
+    biff "Ich werde deine Dienst kommende Woche nicht benötigen."
+    biff "Komm später wieder."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:527
+translate german ep22_dialogue6_7_00c8991e:
+
+    # m "КАК?!!"
+    # m "Биф, но ты говорил что это регулярная работа!"
+    m "WAS?!"
+    m "Biff, du hast mir gesagt, dass das ein ganz normaler Job ist!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:531
+translate german ep22_dialogue6_7_bad8b4fb:
+
+    # biff "Это регулярная работа, цыпочка. Но на следующей неделе ты мне не нужна."
+    biff "Ist es auch, aber ich brauche dich nächste Woche nicht, Babe."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:534
+translate german ep22_dialogue6_7_48e462c3:
+
+    # mt "Дьявол! Где же я достану деньги для Виктории!"
+    mt "Verdammt! Woher soll ich Geld für Victoria bekommen?!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:538
+translate german ep22_dialogue6_7_ff437626:
+
+    # m "Биф, хорошо, но мне все-равно нужны деньги..."
+    m "Okay Biff, aber ich brauche trotzdem Geld..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:540
+translate german ep22_dialogue6_7_3998c5f6:
+
+    # biff "Цыпочка! Ты начинаешь утомлять папочку!"
+    # biff "Тебя что-то не устраивает? Ты хочешь разорвать наше соглашение?"
+    biff "Hör auf deinen Daddy zu nerven!"
+    biff "Magst du etwas nicht? Willst du, dass wir unsere Vereinbarung aufgeben?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:544
+translate german ep22_dialogue6_7_098ba49a:
+
+    # m "Нет... Биф..."
+    m "Nein, Biff..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:546
+translate german ep22_dialogue6_7_ea3188a1:
+
+    # m "В этом нет... необходимости"
+    m "Das ist unnötig..."
+

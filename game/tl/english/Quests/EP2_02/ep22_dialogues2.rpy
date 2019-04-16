@@ -470,7 +470,7 @@ translate english ep22_dialogues2_1_5f273d86:
 translate english ep22_dialogues2_1_59e96a51:
 
     # betty "Да..."
-    betty "Да..."
+    betty "Yes..."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:313
 translate english ep22_dialogues2_1_b86304ec:
@@ -504,7 +504,7 @@ translate english ep22_dialogues2_1_f2455f33:
     # betty "..."
     # betty "Да..."
     betty "..."
-    betty "Да..."
+    betty "Yes..."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:326
 translate english ep22_dialogues2_1_7b6b507b:
@@ -599,7 +599,7 @@ translate english ep22_dialogues2_4_d789648b:
     # betty "Быстро переоденься в униформу и иди за мной!"
     # mt "..."
     # mt "!!!"
-    m "Да, Миссис Робертс?"
+    m "Yes, Mrs Roberts?"
     betty "Quickly change into your uniform and follow me!"
     mt "..."
     mt "!!!"
@@ -615,7 +615,7 @@ translate english ep22_dialogues2_4_0ef5f6f7:
 
     # m "Да, Миссис Робертс?"
     # betty "Быстро иди за мной!"
-    m "Да, Миссис Робертс?"
+    m "Yes, Mrs Roberts?"
     betty "Follow me, quickly!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:427
@@ -632,7 +632,7 @@ translate english ep22_dialogues2_4_4307dcb3:
     # betty "Моника, гувернантка."
     # "Ты ведь убираешься в доме?"
     # m "Да, Мэм..."
-    betty "Моника, гувернантка."
+    betty "Monica, maid."
     "You have been cleaning the house and all..."
     m "Yes, Ma'am..."
 
@@ -732,7 +732,7 @@ translate english ep22_dialogues2_4_55d77641:
 translate english ep22_dialogues2_4_e6f58782:
 
     # mt "!!!!!!"
-    mt "!!!!!!"
+    mt "!!!!!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:487
 translate english ep22_dialogues2_4_8c3ca3ac:
@@ -1077,7 +1077,7 @@ translate english ep22_dialogue2_8_1_119c260a:
 
     # betty "Не вздумай кончить в меня!"
     # fred "Да, Мэм! Как скажете!"
-    betty "Не вздумай кончить в меня!"
+    betty "Don’t even think coming inside!"
     fred "Yes, MA'am! As you say!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:887

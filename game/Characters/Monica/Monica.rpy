@@ -42,6 +42,9 @@ default monicaSaidBiffSheIsWillBeAGoodChick = False
 default monicaVictoriaKissHeels = False
 default monicaVictoriaLickAssAtBegin = False
 
+default monicaHasSexWithSteveBasement = False # У Моники был секс со Стивом в подвале
+default monicaSteveBasementOffended = False # Моника толкнула Стива в бассейн
+
 default monicaUnder = "Governess"
 default monicaPussyShaved = False
 default monicaBettyPanties = False

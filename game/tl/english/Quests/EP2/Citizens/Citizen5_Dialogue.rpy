@@ -276,3 +276,21 @@ translate english strings:
     old "Место для чего?"
     new "What is this place for?"
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:138
+translate english citizen5_dialogue_pilon_loop5_37d3a23f:
+
+    # citizen5 "Ооо! Какие красивые изгибания!"
+    # citizen5 "Они похожи гору Фудзи, только две. Ты быда там?"
+    citizen5 "Woah... Such a beautiful flow of movement!"
+    citizen5 "Они похожи гору Фудзи, только две. Ты быда там?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:141
+translate english citizen5_dialogue_pilon_loop5_40b7017f:
+
+    # m "Нет, и не очень то и хочется."
+    # citizen5 "Вот и зря! Побывать нужно незамедлительно!"
+    m "Нет, и не очень то и хочется."
+    citizen5 "Вот и зря! Побывать нужно незамедлительно!"
+

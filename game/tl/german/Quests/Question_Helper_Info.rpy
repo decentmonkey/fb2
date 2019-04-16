@@ -251,3 +251,43 @@ translate german strings:
     old "Я нашла способ зарабатывать на еду, моя посуду в Баре. Я не в восторге, но ведь это временно?"
     new "Ich habe einen weiteren Weg gefunden, um Geld zu verdienen. Nämlich als Tellerwäscherin in der Kneipe. Ich bin zwar nicht glücklich damit, aber es ist ja nur für eine kurze Zeit."
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+translate german strings:
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Барди снова требует от меня каких-то извращений! Похоже, удалось переключить его на Бетти. Давно стоит проучить ее за то как она обращается со мной! Итак, надо сообщать Барди когда мы собираемя идти на фитнесс..."
+    new "Bardie erwartet schon wieder etwas schmutziges von mir. Sieht so aus, als konnte ich seine Aufmerksamkeit nun auf Betty lenken. Geschieht ihr auch ganz Recht. Wie kann ich Bardie informieren, wann ich mit Betty wieder in's Fitnessstudio gehe?..."
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Барди удалось найти компромат на Бетти. Надеюсь теперь он оставит меня в покое!"
+    new "Bardie konnte Beweise sammeln, um Betty zu erpressen. Hoffentlich lässt er mich nun in Ruhe."
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Барди хочет чтобы я одевала трусики Бетти, которые она носила в прошлый раз. Бетти обязана показать мне их, если я спрошу."
+    new "Bardie will, dass ich Betty's getragene Höschen benutze. Sie zeigt sie mir, wenn ich danach frage."
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Я теперь должна ходить без трусиков в доме. Иначе Барди накажет меня. Мерзавец!"
+    new "Ich kann jetzt zu Hause keine Höschen mehr tragen, sonst wird mich Bardie bestrafen. Was für ein Arschloch!"
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Бетти знает что я ношу ее трусики. Более того, она должна показать трусики, которые носит сегодня, если я спрошу ее об этом."
+    new "Betty weiß, dass ich ihre Höschen trage und zeigt mir ihre, wenn ich danach frage."
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Бетти теперь должна ходить без трусиков в доме. Она сказала что я могу проверять это. Это все проделки Барди!"
+    new "Betty darf ebenfalls keine Höschen mehr zu Hause tragen. Sie sagte mir, dass ich nachschauen kann. Und alles nur wegen Bardie, dem Pisser!"
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Стив приходил в гости к Ральфу. Мне надо избегать встречи с ним!"
+    new "Steve besuchte Ralf. Ich muss ihm aus dem Weg gehen."
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Не могу поверить что я согласилась на секс со Стивом! Мне надо проверить перевел-ли он деньги Виктории."
+    new "Ich kann es nicht glauben, dass ich mit Steve Sex hatte. Ich muss überprüfen, ob er sein Versprechen eingehalten hat."
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Стив обманул меня! Он что, думает что можно иметь со мной секс за бесплатно?!"
+    new "Er hat mich schon wieder belogen! Denkt er, er kann mit mir Sex umsonst haben?"
+

@@ -360,3 +360,19 @@ translate english strings:
     old "Я подумаю, но сейчас я занята..."
     new "I'll think, but I'm busy now..."
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:184
+translate english citizen1_dialogue_pilon_loop1_1_3b497a8f:
+
+    # citizen1 "Эй, тетя! Как насчет того, чтобы получить немного больше?"
+    # m "..."
+    # citizen1 "У меня идея! Нас как раз двое, как и твоих подружек. Давай обнимемся!"
+    # m "Даже не надейся!"
+    # citizen1 "Ладно, не горячись, тетя! Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
+    citizen1 "Hey, lady! Would you like to earn some more?"
+    m "..."
+    citizen1 "У меня идея! Нас как раз двое, как и твоих подружек. Давай обнимемся!"
+    m "Даже не надейся!"
+    citizen1 "Ладно, не горячись, тетя! Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
+

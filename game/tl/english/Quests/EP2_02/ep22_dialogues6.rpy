@@ -606,7 +606,7 @@ translate english ep22_dialogue6_7_d4c1b91d:
     # biff "Цыпочке купить такой же сертификат как обычно?"
     # m "Да..."
     biff "I suppose you need the same certificate as last time?"
-    m "Да..."
+    m "Yes..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:514
 translate english ep22_dialogue6_7_6132366a:
@@ -630,17 +630,17 @@ translate english ep22_dialogue6_7_054204c9:
     # m "Нет... Биф..."
     # m "В этом нет... необходимости"
     biff "Yeah, girl!"
-    biff "На следующей неделе я не нуждаюсь в твоих услугах!"
-    biff "Приходи позднее!"
-    m "КАК?!!"
-    m "Биф, но ты говорил что это регулярная работа!"
-    biff "Это регулярная работа, цыпочка. Но на следующей неделе ты мне не нужна."
-    mt "Дьявол! Где же я достану деньги для Виктории!"
-    m "Биф, хорошо, но мне все-равно нужны деньги..."
-    biff "Цыпочка! Ты начинаешь утомлять папочку!"
-    biff "Тебя что-то не устраивает? Ты хочешь разорвать наше соглашение?"
-    m "Нет... Биф..."
-    m "В этом нет... необходимости"
+    biff "I won't be needing your services next week."
+    biff "Come at later date."
+    m "WHAT?!"
+    m "Biff, but you told me that it is regular job!"
+    biff "It is, but I don’t need you next week, babe."
+    mt "Damn it! Where will I find money for Victoria?!"
+    m "Okay, Biff, but I still need money..."
+    biff "Stop annoying your Daddy!"
+    biff "Something you don’t like? Do you want to end our agreement?"
+    m "No, Biff...."
+    m "It is unnecessary..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:538
 translate english ep22_dialogue6_7b_0216b751:
@@ -821,4 +821,62 @@ translate english strings:
     # Quests/EP2_02/ep22_dialogues6.rpy:534
     old "Биф... Мог бы ты дать еще немного денег?"
     new "Biff... Can we renegotiate how much you are paying me?"
+
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:522
+translate english ep22_dialogue6_7_61f5b2d4:
+
+    # biff "Да, цыпочка!"
+    # biff "На следующей неделе я не нуждаюсь в твоих услугах!"
+    # biff "Приходи позднее!"
+    biff "Yeah, girl!"
+    biff "I won't be needing your services next week."
+    biff "Come at later date."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:527
+translate english ep22_dialogue6_7_00c8991e:
+
+    # m "КАК?!!"
+    # m "Биф, но ты говорил что это регулярная работа!"
+    m "WHAT?!"
+    m "Biff, but you told me that it is regular job!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:531
+translate english ep22_dialogue6_7_bad8b4fb:
+
+    # biff "Это регулярная работа, цыпочка. Но на следующей неделе ты мне не нужна."
+    biff "It is, but I don’t need you next week, babe."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:534
+translate english ep22_dialogue6_7_48e462c3:
+
+    # mt "Дьявол! Где же я достану деньги для Виктории!"
+    mt "Damn it! Where will I find money for Victoria?!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:538
+translate english ep22_dialogue6_7_ff437626:
+
+    # m "Биф, хорошо, но мне все-равно нужны деньги..."
+    m "Okay, Biff, but I still need money..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:540
+translate english ep22_dialogue6_7_3998c5f6:
+
+    # biff "Цыпочка! Ты начинаешь утомлять папочку!"
+    # biff "Тебя что-то не устраивает? Ты хочешь разорвать наше соглашение?"
+    biff "Stop annoying your Daddy!"
+    biff "Something you don’t like? Do you want to end our agreement?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:544
+translate english ep22_dialogue6_7_098ba49a:
+
+    # m "Нет... Биф..."
+    m "No, Biff...."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:546
+translate english ep22_dialogue6_7_ea3188a1:
+
+    # m "В этом нет... необходимости"
+    m "It is unnecessary..."
 

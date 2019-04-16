@@ -67,7 +67,7 @@ translate english dick_meeting1_car_parting2_5f93b3cb:
 
     # dick "Хорошо, Моника."
     # "Отвезешь меня к дому?"
-    dick "Хорошо, Моника."
+    dick "Alright, Monica."
     "Will you take me home?"
 
 # game/Quests/Dick_Car_Parting.rpy:61

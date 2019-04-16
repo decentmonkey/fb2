@@ -721,7 +721,7 @@ translate english sleep_scene1_local1_06f5aeee:
     # "Считает что я ему обязана тем что нахожусь здесь!"
     # "Наивный дурачок!"
     # "Надо как-то избавиться от него..."
-    "Барди..."
+    "Bardi..."
     "That little loser doesn't even deserve attention."
     "He's circling me like a pesky fly!"
     "Thinks that I owe him something because of the fact that I'm here!"
@@ -750,7 +750,7 @@ translate english sleep_scene1_local1_dd6103c6:
     # "Итак..."
     # "Сейчас, думаю, надо {c}притвориться горничной{/c}."
     # "Затем {c}пойти поискать еду{/c}..."
-    "Итак..."
+    "So..."
     "Now I think I should {c}pretend to be a maid{/c}."
     "Then {c}go looking for food {/c}..."
 
@@ -786,7 +786,7 @@ translate english spot_monica_comment1_c3fef90e:
 translate english cleaning_betty_comment1_ba11ae58:
 
     # betty "Моника, гувернантка."
-    betty "Моника, гувернантка."
+    betty "Monica, maid."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:530
 translate english cleaning_betty_comment1_000edcab:
@@ -841,14 +841,14 @@ translate english cleaning_betty_comment1_a2ac888f:
 
     # betty "Моника, гувернантка."
     # "Продолжай убираться."
-    betty "Моника, гувернантка."
+    betty "Monica, maid."
     "Keep cleaning."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:562
 translate english cleaning_betty_comment1_ba11ae58_1:
 
     # betty "Моника, гувернантка."
-    betty "Моника, гувернантка."
+    betty "Monica, maid."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:564
 translate english cleaning_betty_comment1_000edcab_1:
@@ -887,7 +887,7 @@ translate english cleaning_betty_comment1_842f0875:
 
     # betty "Моника, гувернантка."
     # "Ты плохо работаешь и нерегулярно убираешь, я вижу!"
-    betty "Моника, гувернантка."
+    betty "Monica, maid."
     "You work poorly and clean irregularly, I see!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:583

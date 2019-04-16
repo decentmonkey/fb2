@@ -10,7 +10,7 @@ translate english ep24_dialogues2_steve1_42e92cf2:
 translate english ep24_dialogues2_steve1_02b587dc:
 
     # m "Да, Миссис Робертс?"
-    m "Да, Миссис Робертс?"
+    m "Yes, Mrs Roberts?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:10
 translate english ep24_dialogues2_steve1_749766be:
@@ -60,7 +60,7 @@ translate english ep24_dialogues2_steve1_9ff91eea:
     # m "Да, Миссис Робертс?"
     # betty "В эту субботу к нам придет важный гость."
     # "Так что прибирайся в доме как следует."
-    m "Да, Миссис Робертс?"
+    m "Yes, Mrs Roberts?"
     betty "This Saturday we will have an important guest."
     "Clean everything up properly."
 
@@ -94,9 +94,9 @@ translate english ep24_dialogues2_steve1_439f782e:
     # betty "И купи себе нормальную одежду!"
     # betty "Меня раздражает твой внешний вид!"
     # betty "Ты достаточно зарабатываешь для этого!"
-    betty "И купи себе нормальную одежду!"
-    betty "Меня раздражает твой внешний вид!"
-    betty "Ты достаточно зарабатываешь для этого!"
+    betty "And buy yourself decent outfit."
+    betty "Your look annoys me."
+    betty "You earn enough to dress properly."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:49
 translate english ep24_dialogues2_steve1_b0caac28:
@@ -104,7 +104,7 @@ translate english ep24_dialogues2_steve1_b0caac28:
     # m "Да, Миссис Робертс..."
     # mt "Черт, мне лучше поменьше показываться перед Бетти в этой жуткой одежде!"
     m "Yes, Mrs. Roberts..."
-    mt "Черт, мне лучше поменьше показываться перед Бетти в этой жуткой одежде!"
+    mt "I'd better not to show myself in front of Betty in this outfit."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:53
 translate english ep24_dialogues2_steve1_f2cdd6ec:
@@ -120,7 +120,7 @@ translate english ep24_dialogues2_steve1_f2cdd6ec:
     # "Я поняла."
     # "Я буду стараться изо всех сил."
     betty "Monica, housemaid."
-    m "Да, Миссис Робертс?"
+    m "Yes, Mrs Roberts?"
     betty "This Saturday we will have an important guest."
     "Clean everything up properly."
     "If I spot even a speck of dust somewhere and you will make embarrassed out of me before our guest, you will be punished."
@@ -140,7 +140,7 @@ translate english ep24_dialogues2_steve2_42e92cf2:
 translate english ep24_dialogues2_steve2_02b587dc:
 
     # m "Да, Миссис Робертс?"
-    m "Да, Миссис Робертс?"
+    m "Yes, Mrs Roberts?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:74
 translate english ep24_dialogues2_steve2_749766be:
@@ -190,7 +190,7 @@ translate english ep24_dialogues2_steve2_9ff91eea:
     # m "Да, Миссис Робертс?"
     # betty "В эту субботу к нам придет важный гость."
     # "Так что прибирайся в доме как следует."
-    m "Да, Миссис Робертс?"
+    m "Yes, Mrs Roberts?"
     betty "This Saturday we will have an important guest."
     "Clean everything up properly."
 
@@ -224,9 +224,9 @@ translate english ep24_dialogues2_steve2_439f782e:
     # betty "И купи себе нормальную одежду!"
     # betty "Меня раздражает твой внешний вид!"
     # betty "Ты достаточно зарабатываешь для этого!"
-    betty "И купи себе нормальную одежду!"
-    betty "Меня раздражает твой внешний вид!"
-    betty "Ты достаточно зарабатываешь для этого!"
+    betty "And buy yourself decent outfit."
+    betty "Your look annoys me."
+    betty "You earn enough to dress properly."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:113
 translate english ep24_dialogues2_steve2_b0caac28:
@@ -234,7 +234,7 @@ translate english ep24_dialogues2_steve2_b0caac28:
     # m "Да, Миссис Робертс..."
     # mt "Черт, мне лучше поменьше показываться перед Бетти в этой жуткой одежде!"
     m "Yes, Mrs. Roberts..."
-    mt "Черт, мне лучше поменьше показываться перед Бетти в этой жуткой одежде!"
+    mt "I'd better not to show myself in front of Betty in this outfit."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:117
 translate english ep24_dialogues2_steve2_f2cdd6ec:
@@ -250,7 +250,7 @@ translate english ep24_dialogues2_steve2_f2cdd6ec:
     # "Я поняла."
     # "Я буду стараться изо всех сил."
     betty "Monica, housemaid."
-    m "Да, Миссис Робертс?"
+    m "Yes, Mrs Roberts?"
     betty "This Saturday we will have an important guest."
     "Clean everything up properly."
     "If I spot even a speck of dust somewhere and you will make embarrassed out of me before our guest, you will be punished."
@@ -382,8 +382,8 @@ translate english ep24_dialogues2_steve3_d30c5b99:
     # mt "Как хорошо, что Бетти сама будет обслуживать Стива!"
     # mt "Я уверена, что он меня узнает!"
     # mt "Еще этого мне не хватало дополнительно ко всем моим проблемам!"
-    mt "Как хорошо, что Бетти сама будет обслуживать Стива!"
-    mt "Я уверена, что он меня узнает!"
+    mt "Thankfuly Betty will take be serving Steve on her own."
+    mt "He will definetely recognize me!"
     mt "That’s the last thing I need right now in addition to all my problems."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:186
@@ -394,49 +394,49 @@ translate english ep24_dialogues2_steve4_6845f658:
     # mt "Я не хочу, чтобы он узнал меня!"
     mt "Betty prohibited me going in there."
     mt "In addition, Steve is over there!"
-    mt "Я не хочу, чтобы он узнал меня!"
+    mt "I don't want him to recognize me!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:194
 translate english ep24_dialogues2_steve5_3c4cd95d:
 
     # steve "О, Ральф!"
     # steve "Я не видел этой фотографии!"
-    steve "О, Ральф!"
-    steve "Я не видел этой фотографии!"
+    steve "Hey, Ralf!"
+    steve "I haven’t seen this photo before."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:197
 translate english ep24_dialogues2_steve5_15163598:
 
     # steve "Это Ваша свадьба?"
-    steve "Это Ваша свадьба?"
+    steve "Is it your marriage ceremony?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:199
 translate english ep24_dialogues2_steve5_018473f0:
 
     # betty "Да, Стив."
-    betty "Да, Стив."
+    betty "Yes, Steve."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:202
 translate english ep24_dialogues2_steve5_c5f88608:
 
     # steve "А это фото?"
     # steve "Бетти! Тебе, судя по всему, очень понравился этот дом!"
-    steve "А это фото?"
-    steve "Бетти! Тебе, судя по всему, очень понравился этот дом!"
+    steve "And what about this photo?"
+    steve "Betty, it looks like you really like this house."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:205
 translate english ep24_dialogues2_steve5_179ab1b0:
 
     # betty "Да, Стив. Мне нравится это место..."
-    betty "Да, Стив. Мне нравится это место..."
+    betty "Yes, Steve. I quite like this place."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:207
 translate english ep24_dialogues2_steve5_ecc599a9:
 
     # steve "А ты, Ральф? Редкое фото, где ты улыбаешься, дружище!"
     # ralph "Кхм... Да, Стив. Меня немного смущает, что Бетти развесила эти фото повсюду и..."
-    steve "А ты, Ральф? Редкое фото, где ты улыбаешься, дружище!"
-    ralph "Кхм... Да, Стив. Меня немного смущает, что Бетти развесила эти фото повсюду и..."
+    steve "And you Ralf? It's very rare to see a photo with you smiling!"
+    ralph "Khmm... Yes.. Steve. I'm a bit embarrassed now. Betty hang around this photo everywhere."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:210
 translate english ep24_dialogues2_steve5_5b57e5fe:
@@ -444,21 +444,21 @@ translate english ep24_dialogues2_steve5_5b57e5fe:
     # betty "Ральф! Помолчи!"
     # betty "Мы семья, а это значит, что наши фото должны быть повсюду."
     # betty "Тем более в нашем доме!"
-    betty "Ральф! Помолчи!"
-    betty "Мы семья, а это значит, что наши фото должны быть повсюду."
-    betty "Тем более в нашем доме!"
+    betty "Shut up, Ralf!"
+    betty "We are a family, our photos should be everywhere."
+    betty "Especially in our own house."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:214
 translate english ep24_dialogues2_steve5_80cb0dc4:
 
     # betty "Ральф, ты слишком стеснительный! Ведь Стив твой старый друг!"
-    betty "Ральф, ты слишком стеснительный! Ведь Стив твой старый друг!"
+    betty "Ralf, you are too shy. Steve is your old friend, isn't he?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:216
 translate english ep24_dialogues2_steve5_2ffcd7bb:
 
     # steve "О! Бетти! Ты, как всегда, очень строгая!"
-    steve "О! Бетти! Ты, как всегда, очень строгая!"
+    steve "Betty, as usual, you are very strict."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:218
 translate english ep24_dialogues2_steve5_b3a52817:
@@ -466,15 +466,15 @@ translate english ep24_dialogues2_steve5_b3a52817:
     # betty "Мне приходится быть строгой, Стив!"
     # betty "Иначе повсюду здесь будет беспорядок!"
     # betty "Мне приходится следить за всем."
-    betty "Мне приходится быть строгой, Стив!"
-    betty "Иначе повсюду здесь будет беспорядок!"
-    betty "Мне приходится следить за всем."
+    betty "I have to be with you, Steve!"
+    betty "Or there will be a mess everywhere!"
+    betty "I'm forced to look after everything."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:222
 translate english ep24_dialogues2_steve5_5a12361c:
 
     # ralph "Пойдемте скорее выпьем! Мне уже не терпится начать!"
-    ralph "Пойдемте скорее выпьем! Мне уже не терпится начать!"
+    ralph "Let's go, can't wait to have a drink."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:229
 translate english ep24_dialogues2_steve5_f04a9769:
@@ -528,79 +528,79 @@ translate english ep24_dialogues2_steve5_073aec04:
     # ralph "Да, любимая!"
     # ralph "Ты самое лучшее, что есть в моей жизни!"
     ralph "Of course, my darling!"
-    ralph "Ты самое лучшее, что есть в моей жизни!"
+    ralph "You are the best thing happened to me."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:249
 translate english ep24_dialogues2_steve5_bbc4e156:
 
     # betty "Чмок!"
-    betty "Чмок!"
+    betty "Smotch!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:257
 translate english ep24_dialogues2_steve5_0164661e:
 
     # betty "Стив. Я хочу, чтобы ты повлиял на Ральфа."
-    betty "Стив. Я хочу, чтобы ты повлиял на Ральфа."
+    betty "Steve, I want you to influence Ralf somehow."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:259
 translate english ep24_dialogues2_steve5_18a3d759:
 
     # betty "Он кушает нерегулярно и совсем не следит за своим желудком."
     # betty "Я распланировала прием пищи и составила диету."
-    betty "Он кушает нерегулярно и совсем не следит за своим желудком."
-    betty "Я распланировала прием пищи и составила диету."
+    betty "He eats irregularly and doesn’t care about his stomache."
+    betty "I created diet with proper schedulle."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:262
 translate english ep24_dialogues2_steve5_7290db1c:
 
     # betty "А Ральф как ребенок. За ним все время приходится приглядывать!"
-    betty "А Ральф как ребенок. За ним все время приходится приглядывать!"
+    betty "But Ralf behaves like a kid. I always have to look after him!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:265
 translate english ep24_dialogues2_steve5_99cda7cc:
 
     # steve "Бетти, Ральфу просто нравится твое внимание! Хе-хе."
-    steve "Бетти, Ральфу просто нравится твое внимание! Хе-хе."
+    steve "Betty, Ralf just likes your attention. He-he."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:267
 translate english ep24_dialogues2_steve5_a9ee83fe:
 
     # steve "Мы, мужчины, любим притворяться детьми перед такими заботливыми женами. Хе-хе."
-    steve "Мы, мужчины, любим притворяться детьми перед такими заботливыми женами. Хе-хе."
+    steve "Men like to pretend like they are kids with caring wifes like you are."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:269
 translate english ep24_dialogues2_steve5_9a0594d1:
 
     # betty "А я думаю это из-за того, что Ральф рассеянный и неорганизованный."
     # betty "Я люблю во всем порядок! А от Ральфа один бардак!"
-    betty "А я думаю это из-за того, что Ральф рассеянный и неорганизованный."
-    betty "Я люблю во всем порядок! А от Ральфа один бардак!"
+    betty "I think it's because he is clumsy and disorganized."
+    betty "I love order in everything! Ralf only messes everything up."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:272
 translate english ep24_dialogues2_steve5_df37ebcb:
 
     # betty "Он раскидывает носки где попало и прячется от меня, когда я его ищу!"
-    betty "Он раскидывает носки где попало и прячется от меня, когда я его ищу!"
+    betty "He is throwing his socks everywhere around the house and hides whenever I'm looking for him."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:274
 translate english ep24_dialogues2_steve5_cad2f288:
 
     # ralph "Бетти, но Я..."
-    ralph "Бетти, но Я..."
+    ralph "Betty, but I..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:276
 translate english ep24_dialogues2_steve5_cd1acb22:
 
     # betty "Молчи, Ральф!"
-    betty "Молчи, Ральф!"
+    betty "Shut up, Ralf!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:278
 translate english ep24_dialogues2_steve5_4497daa8:
 
     # betty "И следи за тем, сколько грамм алкоголя ты выпил!"
     # betty "Я не хочу, чтобы ты снова уснул в гостиной, как обычно!"
-    betty "И следи за тем, сколько грамм алкоголя ты выпил!"
-    betty "Я не хочу, чтобы ты снова уснул в гостиной, как обычно!"
+    betty "And look after how much alcohol you drink!"
+    betty "I don’t want you to fall asleep in the guest room as usual."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:281
 translate english ep24_dialogues2_steve5_4a43c254:
@@ -612,77 +612,77 @@ translate english ep24_dialogues2_steve5_4a43c254:
 translate english ep24_dialogues2_steve5_7d70a1f4:
 
     # betty "Что? Не думай что я не заметила, что ты присасываешься к бутылке вина, которая стояла здесь!"
-    betty "Что? Не думай что я не заметила, что ты присасываешься к бутылке вина, которая стояла здесь!"
+    betty "Or did you think I wouldn't notice how you emptied bottle of wine, that was laying here?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:285
 translate english ep24_dialogues2_steve5_d18f84c2:
 
     # betty "Сначала я подумала, что его пьет гувернантка, но я слежу за ней и это не она."
-    betty "Сначала я подумала, что его пьет гувернантка, но я слежу за ней и это не она."
+    betty "At the beginning I thought it was our maid. But I'm keeping close eye on her, it's not her."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:287
 translate english ep24_dialogues2_steve5_a6c740ad:
 
     # steve "Бетти, не будь такой строгой! Хе-хе."
-    steve "Бетти, не будь такой строгой! Хе-хе."
+    steve "Betty, don’t be so strict. Heh-heh."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:289
 translate english ep24_dialogues2_steve5_ecc2f281:
 
     # betty "А какой мне быть, Стив? Мне приходится следить за всеми!"
-    betty "А какой мне быть, Стив? Мне приходится следить за всеми!"
+    betty "I have to be, Steve! I have to look after everything!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:291
 translate english ep24_dialogues2_steve5_d54bbd3f:
 
     # betty "И почему ты защищаешь Ральфа, Стив?"
-    betty "И почему ты защищаешь Ральфа, Стив?"
+    betty "And why are you protecting him, Steve?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:293
 translate english ep24_dialogues2_steve5_b5212df3:
 
     # betty "Ты что, хочешь со мной спорить?"
-    betty "Ты что, хочешь со мной спорить?"
+    betty "Do you want to argue with me?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:295
 translate english ep24_dialogues2_steve5_2030403f:
 
     # steve "Бетти, нет! Что ты?"
-    steve "Бетти, нет! Что ты?"
+    steve "No, of course not!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:297
 translate english ep24_dialogues2_steve5_339e97b7:
 
     # betty "И вообще, сколько ты уже выпил?"
-    betty "И вообще, сколько ты уже выпил?"
+    betty "Anyways, how much did you drink already?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:299
 translate english ep24_dialogues2_steve5_fcdd749f:
 
     # steve "Я выпил совсем чуть-чуть, Бетти!"
     # steve "Клянусь тебе!"
-    steve "Я выпил совсем чуть-чуть, Бетти!"
-    steve "Клянусь тебе!"
+    steve "Just a bit..."
+    steve "I swear!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:302
 translate english ep24_dialogues2_steve5_992d0ca2:
 
     # betty "Не обманывай меня, Стив!"
     # betty "Вы с Ральфом уже изрядно напились!"
-    betty "Не обманывай меня, Стив!"
-    betty "Вы с Ральфом уже изрядно напились!"
+    betty "Don’t lie to me, Steve!"
+    betty "Both of you are drunk already!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:305
 translate english ep24_dialogues2_steve5_ae8e5768:
 
     # steve "Бетти! Я обещаю, что буду вести себя хорошо и буду слушаться тебя! Хе-хе."
-    steve "Бетти! Я обещаю, что буду вести себя хорошо и буду слушаться тебя! Хе-хе."
+    steve "Betty, I promise to behave! Heh-heh"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:307
 translate english ep24_dialogues2_steve5_275bf769:
 
     # betty "Хорошо, Стив. Я запомню."
-    betty "Хорошо, Стив. Я запомню."
+    betty "Alright, Steve. I'll believe you."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:310
 translate english ep24_dialogues2_steve5_f2060836:
@@ -716,7 +716,7 @@ translate english ep24_dialogues2_steve5_e6f488ff:
     # betty "Конечно, Стив!"
     # betty "Но только чуть-чуть!"
     betty "By all means, Steve!"
-    betty "Но только чуть-чуть!"
+    betty "Just a little bit!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:330
 translate english ep24_dialogues2_steve6_e0fbd474:
@@ -790,7 +790,7 @@ translate english ep24_dialogues2_steve7_7db27dd3:
     # betty "Да, Стив. Мне нравится."
     # "Если честно, я завидую тому, что ты давно уехал из нашей провинции и все это время жил здесь, а не там."
     betty "Yes, I like it here."
-    "Если честно, я завидую тому, что ты давно уехал из нашей провинции и все это время жил здесь, а не там."
+    "To be honest, I'm jelous you left our province so early and was able to live somewhere else."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:386
 translate english ep24_dialogues2_steve7_86b620de:
@@ -993,7 +993,7 @@ translate english ep24_dialogues2_steve7_3f8be045:
     # betty "Стив! Что я сказала?!"
     # betty "Я замужем, я не могу заниматься этим с тобой!"
     # betty "Я не могу изменять Ральфу..."
-    betty "Ой!"
+    betty "Ouch!"
     betty "Didn’t you hear me, Steve?"
     betty "I'm married, I can't do it with you anymore!"
     betty "I can't cheat on Ralf!"
@@ -1031,8 +1031,8 @@ translate english ep24_dialogues2_steve7_d52aeb38:
 
     # betty "Стив! Давай быстрее!"
     # "Мало времени!"
-    betty "Стив! Давай быстрее!"
-    "Мало времени!"
+    betty "Steve, hurry up!"
+    "There is no time!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:514
 translate english ep24_dialogues2_steve7_0b9a42d9:
@@ -1049,9 +1049,9 @@ translate english ep24_dialogues2_steve7_0b9a42d9:
     # "Хочешь чтобы я остановился?"
     # betty "Нет, Стив. Не останавливайся..."
     # betty "Ахххх..."
-    betty "Стив! Давай быстрее!"
+    betty "Steve, hurry up!"
     steve "Oh, Betty! You butt is marvelous!"
-    steve "Я так рад, что она теперь поблизости!"
+    steve "I'm glad that she is so close now."
     steve "I can visit your butt whenever I want now."
     betty "No, you can't, Steve!"
     betty "I'm not cheating on Ralf!"
@@ -1073,24 +1073,24 @@ translate english ep24_dialogues2_steve7_e05b87fb:
 
     # betty "Черт, Стив!"
     # betty "Ты что, кончил в меня?!"
-    betty "Черт, Стив!"
-    betty "Ты что, кончил в меня?!"
+    betty "Damn it, Steve!"
+    betty "Did you come inside?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:539
 translate english ep24_dialogues2_steve7_6816ea05:
 
     # steve "Бетти, малышка! Прости, я увлекся..."
     # steve "Хе-хе."
-    steve "Бетти, малышка! Прости, я увлекся..."
-    steve "Хе-хе."
+    steve "Betty, babe, sorry. I got too exited."
+    steve "Ha-ha."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:542
 translate english ep24_dialogues2_steve7_4f8f77b3:
 
     # betty "Мне надо скорее помыться и принять таблетку."
     # betty "А ты свободен, Стив!"
-    betty "Мне надо скорее помыться и принять таблетку."
-    betty "А ты свободен, Стив!"
+    betty "I have to wash up and take a pill as soon as possible."
+    betty "You are dismissed, Steve!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:549
 translate english ep24_dialogues2_steve7_56a484a7:
@@ -1130,7 +1130,7 @@ translate english ep24_dialogues2_steve8_42e92cf2:
 translate english ep24_dialogues2_steve8_02b587dc:
 
     # m "Да, Миссис Робертс?"
-    m "Да, Миссис Робертс?"
+    m "Yes, Mrs Roberts?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:575
 translate english ep24_dialogues2_steve8_ad899cf5:
@@ -1176,7 +1176,7 @@ translate english ep24_dialogues2_steve8_35572764:
     # m "Да, Миссис Робертс?"
     # betty "В эту субботу к нам придет важный гость."
     # betty "Меня дома не будет, поэтому ты должна будешь позаботиться о гостях!"
-    m "Да, Миссис Робертс?"
+    m "Yes, Mrs Roberts?"
     betty "This Saturday we will have an important guest."
     betty "I'll be away, you will have to take care of our guests."
 
@@ -1218,7 +1218,7 @@ translate english ep24_dialogues2_steve8_fda16f8e:
     # "Я поняла."
     # "Я буду стараться изо всех сил."
     betty "Monica, housemaid."
-    m "Да, Миссис Робертс?"
+    m "Yes, Mrs Roberts?"
     betty "This Saturday we will have an important guest."
     betty "I'll be away, you will have to take care of our guests."
     "Do you undrestand, housemaid?"
@@ -1238,7 +1238,7 @@ translate english ep24_dialogues2_steve9_42e92cf2:
 translate english ep24_dialogues2_steve9_02b587dc:
 
     # m "Да, Миссис Робертс?"
-    m "Да, Миссис Робертс?"
+    m "Yes, Mrs Roberts?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:624
 translate english ep24_dialogues2_steve9_ad899cf5:
@@ -1284,7 +1284,7 @@ translate english ep24_dialogues2_steve9_35572764:
     # m "Да, Миссис Робертс?"
     # betty "В эту субботу к нам придет важный гость."
     # betty "Меня дома не будет, поэтому ты должна будешь позаботиться о гостях!"
-    m "Да, Миссис Робертс?"
+    m "Yes, Mrs Roberts?"
     betty "This Saturday we will have an important guest."
     betty "I'll be away, you will have to take care of our guests."
 
@@ -1326,7 +1326,7 @@ translate english ep24_dialogues2_steve9_fda16f8e:
     # "Я поняла."
     # "Я буду стараться изо всех сил."
     betty "Monica, housemaid."
-    m "Да, Миссис Робертс?"
+    m "Yes, Mrs Roberts?"
     betty "This Saturday we will have an important guest."
     betty "I'll be away, you will have to take care of our guests."
     "Do you undrestand, housemaid?"
@@ -1345,7 +1345,7 @@ translate english ep24_dialogues3_steve10_4604bb56:
     # ralph "Стив, я всегда рад тебе!"
     # ralph "Пожалуйста, проходи!"
     steve "Ralf! Hey, mate!"
-    steve "Извини, что я снова зашел!"
+    steve "Sorry, I came to visit again!"
     steve "I hope you don’t mind."
     ralph "Not at all, I'm always glad to see you!"
     ralph "Please, come in."
@@ -1395,7 +1395,7 @@ translate english ep24_dialogues3_steve10_942ddc30:
 
     # ralph "Потому я думаю, что она исправится и станет лучше убираться."
     # ralph "Более профессионально..."
-    ralph "Потому я думаю, что она исправится и станет лучше убираться."
+    ralph "Because I think she can improve and do better."
     ralph "So she can prove herself."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:708
@@ -1506,7 +1506,7 @@ translate english ep24_dialogues3_steve10_c2403c4e:
 translate english ep24_dialogues3_steve10_073314dc:
 
     # m "Да, Сэр?"
-    m "Да, Сэр?"
+    m "Yes, sir?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:845
 translate english ep24_dialogues3_steve10_4bc82b4d:
@@ -1518,7 +1518,7 @@ translate english ep24_dialogues3_steve10_4bc82b4d:
 translate english ep24_dialogues3_steve10_f16e7c04:
 
     # m "Прошу прощения, но за чистотой посуды следит Миссис Робертс..."
-    m "Прошу прощения, но за чистотой посуды следит Миссис Робертс..."
+    m "Excuse me, but it's Ms Roberts who making sure that dishes are clean."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:851
 translate english ep24_dialogues3_steve10_10de2f5a:
@@ -1561,16 +1561,16 @@ translate english ep24_dialogues3_steve10_6e4b04f1:
 
     # steve "Ральф! Давай скорее выпьем!"
     # steve "У меня отличное настроение сегодня!"
-    steve "Ральф! Давай скорее выпьем!"
-    steve "У меня отличное настроение сегодня!"
+    steve "Ralf, hurry up! Let's drink!"
+    steve "I'm in a good mood today!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:884
 translate english ep24_dialogues3_steve10_7cbadb7a:
 
     # steve "Ральф! Может быть позовешь свою гувернантку снова?"
     # steve "Мы скучаем без внимания!"
-    steve "Ральф! Может быть позовешь свою гувернантку снова?"
-    steve "Мы скучаем без внимания!"
+    steve "Ralf, I think you should call your maid again!"
+    steve "It's getting boring without someones attention!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:892
 translate english ep24_dialogues3_steve10_369fbdbc_1:
@@ -1638,27 +1638,27 @@ translate english ep24_dialogues3_steve10_29a4f6ab:
 translate english ep24_dialogues3_steve10_8db6dc38:
 
     # ralph "А? Что за шум?"
-    ralph "А? Что за шум?"
+    ralph "What? What is this noise?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1002
 translate english ep24_dialogues3_steve10_97eead40:
 
     # m "Мистер Робертс, все в порядке!"
-    m "Мистер Робертс, все в порядке!"
+    m "Everything is alright, Mr Robets!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1004
 translate english ep24_dialogues3_steve10_c4394d82:
 
     # m "Просто упал столовый прибор."
-    m "Просто упал столовый прибор."
+    m "Fork simply fell on the floor."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1006
 translate english ep24_dialogues3_steve10_044b974d:
 
     # m "Пожалуйста, Мистер Стив."
     # "Вот Ваша вилка..."
-    m "Пожалуйста, Мистер Стив."
-    "Вот Ваша вилка..."
+    m "Here it is, Mr Steve..."
+    "Your fork..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1017
 translate english ep24_dialogues3_steve10_4b27a89f:
@@ -1666,9 +1666,9 @@ translate english ep24_dialogues3_steve10_4b27a89f:
     # steve "Какая у тебя горячая гувернантка, Ральф!"
     # steve "Давай скорее еще выпьем!"
     # ralph "Давай, Стив!"
-    steve "Какая у тебя горячая гувернантка, Ральф!"
-    steve "Давай скорее еще выпьем!"
-    ralph "Давай, Стив!"
+    steve "Your maid is so hot, Ralf!"
+    steve "Come on, let's drink some more!"
+    ralph "Sure, Steve."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1031
 translate english ep24_dialogues3_steve10_f36bf247:
@@ -1708,7 +1708,7 @@ translate english ep24_dialogues3_steve10_86bcc825:
     # steve "И я никак не думал обнаружить тебя здесь!"
     steve "I've been looking for a while..."
     steve "You disappeared so suddenly."
-    steve "И я никак не думал обнаружить тебя здесь!"
+    steve "Never would have thought to find you here."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1062
 translate english ep24_dialogues3_steve10_736db6fc:
@@ -1735,7 +1735,7 @@ translate english ep24_dialogues3_steve10_d5c73a94:
 
     # steve "Моника, верны ли слухи о тебе?"
     # m "Какие еще слухи?!"
-    steve "Моника, верны ли слухи о тебе?"
+    steve "Are rumors about you true, Monica?"
     m "What rumors?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1078
@@ -1769,7 +1769,7 @@ translate english ep24_dialogues3_steve10_434a1c96:
 
     # steve "И, все мы делаем ставки на то, когда же ты покажешь всему миру свою киску!"
     # steve "Или, что еще лучше, займешься с кем-нибудь сексом на камеру!"
-    steve "И, все мы делаем ставки на то, когда же ты покажешь всему миру свою киску!"
+    steve "We are all making bets when you will show your pussy to the whole world!"
     steve "Or even better, have sex in front of camera."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1096
@@ -1791,7 +1791,7 @@ translate english ep24_dialogues3_steve10_c1160285:
     # m "Это..."
     # m "Это все немного сложно, Стив..."
     m "..."
-    m "Это..."
+    m "It's..."
     m "Everything is a bit complicated..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1108
@@ -1800,7 +1800,7 @@ translate english ep24_dialogues3_steve10_99fb64b4:
     # m "Есть некоторые проблемы, но я их скоро решу!"
     # m "Но, пока что Ральфу необязательно знать о том, кто я такая на самом деле."
     m "There are some issues, but I'm going to deal with them soon!"
-    m "Но, пока что Ральфу необязательно знать о том, кто я такая на самом деле."
+    m "But, for now, Ralf doesn’t need to know who I realy am."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1111
 translate english ep24_dialogues3_steve10_559cdc98:
@@ -1842,7 +1842,7 @@ translate english ep24_dialogues3_steve10_7df199f9:
     # m "Деньги... Мне нужны деньги, Стив..."
     # mt "Дьявол! Мне надо где-то достать деньги для этой сучки Виктории!"
     m "I need some cash, Steve..."
-    mt "Дьявол! Мне надо где-то достать деньги для этой сучки Виктории!"
+    mt "Damn! I somehow have to get money for this bitch Victoria!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1136
 translate english ep24_dialogues3_steve10_1efdbc3c:
@@ -1890,7 +1890,7 @@ translate english ep24_dialogues3_steve10_8ad9aea3:
     # m "Я верну тебе в 5 раз больше!"
     # m "Это выгодная сделка... Ты бизнесмен и должен это понимать..."
     m "You will get back five times the amount!"
-    m "Это выгодная сделка... Ты бизнесмен и должен это понимать..."
+    m "It's a good deal... You understand it, right?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1163
 translate english ep24_dialogues3_steve10_b7358555:
@@ -1898,7 +1898,7 @@ translate english ep24_dialogues3_steve10_b7358555:
     # steve "Да, сделка выглядит выгодной, но очень рискованной!"
     # m "Почему это?!"
     steve "Yes, it's rather attractive proposition, however it’s too risky."
-    m "Почему это?!"
+    m "Why is that?!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1166
 translate english ep24_dialogues3_steve10_46c88d08:
@@ -2018,7 +2018,7 @@ translate english ep24_dialogues3_steve10_ddfc293a:
 translate english ep24_dialogues3_steve10_415a7fa9:
 
     # m "ЧТО?!?!"
-    m "ЧТО?!?!"
+    m "WHAT?!?!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1230
 translate english ep24_dialogues3_steve10_3312a7a9:
@@ -2032,13 +2032,13 @@ translate english ep24_dialogues3_steve10_3312a7a9:
 translate english ep24_dialogues3_steve10_1eb5b323:
 
     # m "Тебе надоело жить, Стив?"
-    m "Тебе надоело жить, Стив?"
+    m "Are you tiried of living, Steve?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1236
 translate english ep24_dialogues3_steve10_a8ed991c:
 
     # m "Может быть мне пойти сходить за вилкой?"
-    m "Может быть мне пойти сходить за вилкой?"
+    m "Shoud I go and get a fork for you?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1242
 translate english ep24_dialogues3_steve10_202cd3f8:
@@ -2060,7 +2060,7 @@ translate english ep24_dialogues3_steve10_1795b90b:
 translate english ep24_dialogues3_steve10_7d9dcb19:
 
     # steve "И, в рамках того, что возможно для меня, я стараюсь помочь тебе изо всех сил!"
-    steve "И, в рамках того, что возможно для меня, я стараюсь помочь тебе изо всех сил!"
+    steve "I'm trying to help you as much as I can, considering my situation and capabilities!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1255
 translate english ep24_dialogues3_steve10_19204cf4:
@@ -2092,7 +2092,7 @@ translate english ep24_dialogues3_steve10_512640fe:
     m "Now excuse me, I have work to do."
     m "And keep in mind that I'll remember your behaviour."
     steve "Okay, Monica!"
-    steve "Но, если передумаешь, приходи ко мне в офис!"
+    steve "But if you change your mind, come to my office!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1283
 translate english ep24_dialogues3_steve10_36cb0f0c:
@@ -2100,9 +2100,9 @@ translate english ep24_dialogues3_steve10_36cb0f0c:
     # mt "Надеюсь я не пожалею об этом..."
     # mt "С другой стороны, у меня нет выхода..."
     # mt "Мне надо где-то достать деньги..."
-    mt "Надеюсь я не пожалею об этом..."
-    mt "С другой стороны, у меня нет выхода..."
-    mt "Мне надо где-то достать деньги..."
+    mt "I hope I won't regret it..."
+    mt "On the other hand, I have no choice..."
+    mt "I have to get money somehow..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1288
 translate english ep24_dialogues3_steve10_7e99d3ac:
@@ -2134,15 +2134,15 @@ translate english ep24_dialogues3_steve10_35ca3e7d:
     m "Now excuse me, I have work to do."
     m "And keep in mind that I'll remember your behaviour."
     steve "Okay, Monica!"
-    steve "Но, если передумаешь, приходи ко мне в офис!"
+    steve "But if you change your mind, come to my office!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1320
 translate english ep24_dialogues3_steve10_c7fa623e:
 
     # steve "Хороший вид, Моника!"
     # steve "Но можно я посмотрю поближе?"
-    steve "Хороший вид, Моника!"
-    steve "Но можно я посмотрю поближе?"
+    steve "Nice outfit, Monica!"
+    steve "Can I take a closer look?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1323
 translate english ep24_dialogues3_steve10_e612037c_3:
@@ -2154,15 +2154,15 @@ translate english ep24_dialogues3_steve10_e612037c_3:
 translate english ep24_dialogues3_steve10_38cf75f2:
 
     # steve "Посмотрим, что у нас там!"
-    steve "Посмотрим, что у нас там!"
+    steve "Let's see what we have here."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1335
 translate english ep24_dialogues3_steve10_c32afb07:
 
     # steve "О! Значит вот какие трусики ты любишь носить!"
     # steve "Когда я смотрел на тебя, то всегда думал о том что же на тебе надето внизу!"
-    steve "О! Значит вот какие трусики ты любишь носить!"
-    steve "Когда я смотрел на тебя, то всегда думал о том что же на тебе надето внизу!"
+    steve "Ohhh! So that’s what kind of panties you like to wear!"
+    steve "I was always wondering what you were wearing in there when I was looking at you."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1339
 translate english ep24_dialogues3_steve10_9b447816:
@@ -2171,16 +2171,16 @@ translate english ep24_dialogues3_steve10_9b447816:
     # m "Я не очень люблю носить их, Стив..."
     # m "И давай закроем эту тему!"
     m "I..."
-    m "Я не очень люблю носить их, Стив..."
-    m "И давай закроем эту тему!"
+    m "I don’t like to wear them much, Steve..."
+    m "Let's change the topic!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1352
 translate english ep24_dialogues3_steve10_6acc68d3:
 
     # steve "Моника, ты не против если я их сниму?"
     # steve "Мне надо осмотреть объект, который я собираюсь взять в аренду!"
-    steve "Моника, ты не против если я их сниму?"
-    steve "Мне надо осмотреть объект, который я собираюсь взять в аренду!"
+    steve "Do you mind if I take them of, Monica?"
+    steve "I have to evaluate the object I'm going to rent."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1355
 translate english ep24_dialogues3_steve10_0a5616b8:
@@ -2198,19 +2198,19 @@ translate english ep24_dialogues3_steve10_e612037c_4:
 translate english ep24_dialogues3_steve10_ef71b9de:
 
     # steve "(Я не верю своим глазам! Я собираюсь трахнуть саму Монику Бакфетт!)"
-    steve "(Я не верю своим глазам! Я собираюсь трахнуть саму Монику Бакфетт!)"
+    steve "(I can't believe it! I'm going to fuck THE Monica Buckfett!)"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1372
 translate english ep24_dialogues3_steve10_0668feab:
 
     # steve "(Черт! Сколько лет я мечтал об этом!)"
-    steve "(Черт! Сколько лет я мечтал об этом!)"
+    steve "(I was dreaming about it for so long!)"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1379
 translate english ep24_dialogues3_steve10_e0d87765:
 
     # steve "Я БЕРУ ЭТОТ ОБЪЕКТ!"
-    steve "Я БЕРУ ЭТОТ ОБЪЕКТ!"
+    steve "I'm renting this object!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1388
 translate english ep24_dialogues3_steve10_2831c3c2:
@@ -2242,7 +2242,7 @@ translate english ep24_dialogues3_steve10_d431ceca:
     # steve "Какой миллион, Моника?!"
     # steve "У меня сейчас нет таких средств."
     # m "Я прекрасно знаю об оборотах твоей компании, Стив!"
-    steve "Какой миллион, Моника?!"
+    steve "What? Million?"
     steve "I don’t have such money, Monica!"
     m "I know very well about your company's profits, Steve."
 
@@ -2304,7 +2304,7 @@ translate english ep24_dialogues3_steve10_5d5a64a8:
     m "Now excuse me, I have work to do."
     m "And keep in mind that I'll remember your behaviour."
     steve "Okay, Monica!"
-    steve "Но, если передумаешь, приходи ко мне в офис!"
+    steve "But if you change your mind, come to my office!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1452
 translate english ep24_dialogues3_steve10_6e2c5945:
@@ -2422,7 +2422,7 @@ translate english ep24_dialogues3_steve10_loop1_08b1a7d1:
     mt "At least I'll be able to pay that bitch Victoria..."
     mt "And I won't have to embarrass myself in front of the camera."
     mt "There are already some rumors about me..."
-    mt "Это нехорошо. Я скоро верну свое положение и мне не стоит терять репутацию..."
+    mt "That's bad. Soon I'll get everything back and can't afford to lose my reputation..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1534
 translate english ep24_dialogues3_steve10_loop1_dfc984c5:
@@ -2448,7 +2448,7 @@ translate english ep24_dialogues3_steve10_loop1_fc0b0486:
     m "STOP!"
     m "Steve, I hope you understand that you will pay for it."
     steve "Yes, Monica, but I'm willing to take a risk."
-    m "И ты понимаешь, что за это я сотру тебя в порошок?!"
+    m "I hope you understand that I will grind you into the dust!"
     m "I will close down your firm and make you live on the streets!"
     steve "But Monica, we have an honest arrangement!"
 
@@ -2483,7 +2483,7 @@ translate english ep24_dialogues3_steve10_loop1_ad5fe8ac:
     # m "Нет, Стив!"
     # m "Мне... Ах..."
     # m "Мне не нравится, конечно же! Ах!!!"
-    m "Ааааххххххх!!!"
+    m "Ahhhhh!!!!"
     m "I forgot to ask, Steve..."
     m "Do you have cash on yourself?"
     steve "Of course, I do!"
@@ -2523,7 +2523,7 @@ translate english ep24_dialogues3_steve10_loop1_40ded2fe:
 
     # steve "Моника, я понимаю что ты кончила, но срок аренды твоей попы действует до тех пор, пока не кончу Я!"
     # steve "Пожалуйста, встань как ты стояла до этого, задери юбку!"
-    steve "Моника, я понимаю что ты кончила, но срок аренды твоей попы действует до тех пор, пока не кончу Я!"
+    steve "Monica, I understand that you just came, but renting period of your butt is not over untill I come!"
     steve "Please stand like you did before."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1619
@@ -2538,7 +2538,7 @@ translate english ep24_dialogues3_steve10_loop1_75a186e3:
 translate english ep24_dialogues3_steve10_loop1_fed32924:
 
     # steve "Иначе сделка недействительна!"
-    steve "Иначе сделка недействительна!"
+    steve "Otherwise, our agreement is null and void!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1648
 translate english ep24_dialogues3_steve10_loop1_55d0baeb:
@@ -2550,7 +2550,7 @@ translate english ep24_dialogues3_steve10_loop1_55d0baeb:
 translate english ep24_dialogues3_steve10_loop1_c7e2b3b3:
 
     # m "Ааааххххххх!!!"
-    m "Ааааххххххх!!!"
+    m "Ahhhhh!!!!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1662
 translate english ep24_dialogues3_steve10_loop1_0d21f984:
@@ -2562,7 +2562,7 @@ translate english ep24_dialogues3_steve10_loop1_0d21f984:
 translate english ep24_dialogues3_steve10_loop1_12cb5df8:
 
     # m "Не вздумай кончить в меня!"
-    m "Не вздумай кончить в меня!"
+    m "Don’t even think coming inside!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1670
 translate english ep24_dialogues3_steve10_loop1_9a386010:
@@ -2608,7 +2608,7 @@ translate english ep24_dialogues3_steve10_loop1_45666775:
 translate english ep24_dialogues3_steve10_loop1_b18dc76f:
 
     # m "Вот адрес!"
-    m "Вот адрес!"
+    m "Here is an adress!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1712
 translate english ep24_dialogues3_steve10_loop1_4744f877:
@@ -2655,7 +2655,7 @@ translate english ep24_dialogues3_steve12_3dc94d6c:
 
     # m "Мисс Виктория..."
     # m "Скажите... Вам приходил на почту подарочный сертификат?"
-    m "Мисс Виктория..."
+    m "Miss Victoria..."
     m "Please tell me... Did you receive gift certificate by email?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1745
@@ -2783,4 +2783,1520 @@ translate english strings:
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1699
     old "Дать визитку..."
     new "Give a business card"
+
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:306
+translate english ep24_dialogues2_steve5a_f04a9769:
+
+    # steve "Бетти, малышка!"
+    steve "Betty, darling."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:308
+translate english ep24_dialogues2_steve5a_f5ea1e01:
+
+    # betty "Да, Стив?"
+    betty "Yes, Steve?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:311
+translate english ep24_dialogues2_steve5a_0e59fc54:
+
+    # steve "Ты очень вкусно готовишь!"
+    steve "Your cooking is delicious!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:313
+translate english ep24_dialogues2_steve5a_5eb6779c:
+
+    # betty "Спасибо, Стив..."
+    betty "Thank you, Steve."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:316
+translate english ep24_dialogues2_steve5a_7283fef4:
+
+    # steve "Скажи, тебе хорошо живется здесь?"
+    # steve "Старина Ральф не обижает тебя?"
+    steve "How is your new life over here?"
+    steve "I hope good old Ralf does not hurt you?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:319
+translate english ep24_dialogues2_steve5a_699977fb:
+
+    # betty "Нет, Стив..."
+    # "Ральф меня очень любит."
+    betty "No, he doesn’t..."
+    "Ralf loves me very much."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:323
+translate english ep24_dialogues2_steve5a_9a767eb0:
+
+    # "Правда, Ральф?"
+    "Don’t you, Ralf?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:326
+translate english ep24_dialogues2_steve5a_073aec04:
+
+    # ralph "Да, любимая!"
+    # ralph "Ты самое лучшее, что есть в моей жизни!"
+    ralph "Of course, my darling!"
+    ralph "You are the best thing happened to me."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:331
+translate english ep24_dialogues2_steve5a_bbc4e156:
+
+    # betty "Чмок!"
+    betty "Smotch!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:340
+translate english ep24_dialogues2_steve5a_0164661e:
+
+    # betty "Стив. Я хочу, чтобы ты повлиял на Ральфа."
+    betty "Steve, I want you to influence Ralf somehow."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:342
+translate english ep24_dialogues2_steve5a_18a3d759:
+
+    # betty "Он кушает нерегулярно и совсем не следит за своим желудком."
+    # betty "Я распланировала прием пищи и составила диету."
+    betty "He eats irregularly and doesn’t care about his stomache."
+    betty "I created diet with proper schedulle."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:345
+translate english ep24_dialogues2_steve5a_7290db1c:
+
+    # betty "А Ральф как ребенок. За ним все время приходится приглядывать!"
+    betty "But Ralf behaves like a kid. I always have to look after him!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:349
+translate english ep24_dialogues2_steve5a_99cda7cc:
+
+    # steve "Бетти, Ральфу просто нравится твое внимание! Хе-хе."
+    steve "Betty, Ralf just likes your attention. He-he."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:351
+translate english ep24_dialogues2_steve5a_a9ee83fe:
+
+    # steve "Мы, мужчины, любим притворяться детьми перед такими заботливыми женами. Хе-хе."
+    steve "Men like to pretend like they are kids with caring wifes like you are."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:355
+translate english ep24_dialogues2_steve5a_9a0594d1:
+
+    # betty "А я думаю это из-за того, что Ральф рассеянный и неорганизованный."
+    # betty "Я люблю во всем порядок! А от Ральфа один бардак!"
+    betty "I think it's because he is clumsy and disorganized."
+    betty "I love order in everything! Ralf only messes everything up."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:359
+translate english ep24_dialogues2_steve5a_df37ebcb:
+
+    # betty "Он раскидывает носки где попало и прячется от меня, когда я его ищу!"
+    betty "He is throwing his socks everywhere around the house and hides whenever I'm looking for him."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:361
+translate english ep24_dialogues2_steve5a_cad2f288:
+
+    # ralph "Бетти, но Я..."
+    ralph "Betty, but I..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:364
+translate english ep24_dialogues2_steve5a_cd1acb22:
+
+    # betty "Молчи, Ральф!"
+    betty "Shut up, Ralf!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:366
+translate english ep24_dialogues2_steve5a_4497daa8:
+
+    # betty "И следи за тем, сколько грамм алкоголя ты выпил!"
+    # betty "Я не хочу, чтобы ты снова уснул в гостиной, как обычно!"
+    betty "And look after how much alcohol you drink!"
+    betty "I don’t want you to fall asleep in the guest room as usual."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:369
+translate english ep24_dialogues2_steve5a_4a43c254:
+
+    # ralph "Бетти..."
+    ralph "Betty..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:372
+translate english ep24_dialogues2_steve5a_7d70a1f4:
+
+    # betty "Что? Не думай что я не заметила, что ты присасываешься к бутылке вина, которая стояла здесь!"
+    betty "Or did you think I wouldn't notice how you emptied bottle of wine, that was laying here?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:374
+translate english ep24_dialogues2_steve5a_d18f84c2:
+
+    # betty "Сначала я подумала, что его пьет гувернантка, но я слежу за ней и это не она."
+    betty "At the beginning I thought it was our maid. But I'm keeping close eye on her, it's not her."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:376
+translate english ep24_dialogues2_steve5a_a6c740ad:
+
+    # steve "Бетти, не будь такой строгой! Хе-хе."
+    steve "Betty, don’t be so strict. Heh-heh."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:379
+translate english ep24_dialogues2_steve5a_ecc2f281:
+
+    # betty "А какой мне быть, Стив? Мне приходится следить за всеми!"
+    betty "I have to be, Steve! I have to look after everything!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:383
+translate english ep24_dialogues2_steve5a_d54bbd3f:
+
+    # betty "И почему ты защищаешь Ральфа, Стив?"
+    betty "And why are you protecting him, Steve?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:385
+translate english ep24_dialogues2_steve5a_b5212df3:
+
+    # betty "Ты что, хочешь со мной спорить?"
+    betty "Do you want to argue with me?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:388
+translate english ep24_dialogues2_steve5a_2030403f:
+
+    # steve "Бетти, нет! Что ты?"
+    steve "No, of course not!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:392
+translate english ep24_dialogues2_steve5a_339e97b7:
+
+    # betty "И вообще, сколько ты уже выпил?"
+    betty "Anyways, how much did you drink already?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:395
+translate english ep24_dialogues2_steve5a_fcdd749f:
+
+    # steve "Я выпил совсем чуть-чуть, Бетти!"
+    # steve "Клянусь тебе!"
+    steve "Just a bit..."
+    steve "I swear!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:399
+translate english ep24_dialogues2_steve5a_992d0ca2:
+
+    # betty "Не обманывай меня, Стив!"
+    # betty "Вы с Ральфом уже изрядно напились!"
+    betty "Don’t lie to me, Steve!"
+    betty "Both of you are drunk already!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:403
+translate english ep24_dialogues2_steve5a_ae8e5768:
+
+    # steve "Бетти! Я обещаю, что буду вести себя хорошо и буду слушаться тебя! Хе-хе."
+    steve "Betty, I promise to behave! Heh-heh"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:406
+translate english ep24_dialogues2_steve5a_275bf769:
+
+    # betty "Хорошо, Стив. Я запомню."
+    betty "Alright, Steve. I'll believe you."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:410
+translate english ep24_dialogues2_steve5a_f2060836:
+
+    # betty "..."
+    betty "..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:413
+translate english ep24_dialogues2_steve5a_22174fde:
+
+    # betty "А как ты поживаешь в столице, Стив?"
+    betty "So, Steve. How is a life in the capital?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:416
+translate english ep24_dialogues2_steve5a_7f085246:
+
+    # betty "Расскажи, как ты так быстро сделал карьеру?"
+    betty "How did you achieved such a success so fast?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:418
+translate english ep24_dialogues2_steve5a_4e69339d:
+
+    # steve "О! Эта история очень быстрая и очень долгая!"
+    # "Я расскажу тебе с удовольствием, если ты нальешь мне еще немного виски!"
+    steve "Oh, that’s a very long story."
+    "I will gladly tell you the whole story if you pour me more whiskey."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:422
+translate english ep24_dialogues2_steve5a_e6f488ff:
+
+    # betty "Конечно, Стив!"
+    # betty "Но только чуть-чуть!"
+    betty "By all means, Steve!"
+    betty "Just a little bit!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:688
+translate english ep24_dialogues2_steve7_d5ca311e:
+
+    # betty "Стив! Давай быстрее!"
+    betty "Steve, hurry up!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:707
+translate english ep24_dialogues2_steve7_6b695731:
+
+    # steve "О! Бетти! Твоя попка бесподобна!"
+    # steve "Я так рад, что она теперь поблизости!"
+    steve "Oh, Betty! You butt is marvelous!"
+    steve "I'm glad that she is so close now."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:716
+translate english ep24_dialogues2_steve7_3784e21b:
+
+    # steve "Я теперь смогу навещать эту попку когда захочу..."
+    steve "I can visit your butt whenever I want now."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:724
+translate english ep24_dialogues2_steve7_c5e648b1:
+
+    # betty "Не получится, Стив!"
+    # betty "Я не собираюсь изменять Ральфу!"
+    betty "No, you can't, Steve!"
+    betty "I'm not cheating on Ralf!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:733
+translate english ep24_dialogues2_steve7_e49dcf17:
+
+    # steve "О! Бетти!"
+    # "Малышка Бетти!"
+    # steve "Тебе не нравится?"
+    # "Хочешь чтобы я остановился?"
+    steve "Oh, Betty!"
+    "Betty, darling."
+    steve "Aren't you enjoying it?"
+    "Do you want me to stop?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:744
+translate english ep24_dialogues2_steve7_cc3721e8:
+
+    # betty "Нет, Стив. Не останавливайся..."
+    # betty "Ахххх..."
+    betty "No, don’t stop..."
+    betty "Ahhh..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1877
+translate english ep24_dialogues3_steve10_loop1_b0a80973:
+
+    # m "Я забыла спросить, Стив..."
+    # m "Деньги у тебя с собой?!"
+    # steve "Моника, конечно с собой!"
+    # steve "Они у меня на банковской карте! Я могу перевести их тебе прямо сейчас..."
+    # steve "Вернее, после окончания аренды твоей..."
+    # m "Заткнись! Я так и знала!"
+    # m "Купишь подарочный сертификат и отправишь его на адрес, который я скажу."
+    # steve "Нет проблем, Моника! Не отвлекайся!"
+    # m "Черт, Стив! Какой ты огромный!"
+    # steve "Моника, тебе нравится? Я так и знал!"
+    # m "Нет, Стив!"
+    # m "Мне... Ах..."
+    # m "Мне не нравится, конечно же! Ах!!!"
+    m "I forgot to ask, Steve..."
+    m "Do you have cash on yourself?"
+    steve "Of course, I do!"
+    steve "I have it here on my bank card. I can transfer money to you at any moment."
+    steve "I mean after renting period of your..."
+    m "Shut up! I knew it!"
+    m "You will buy a gift certificate and send it to the adress I'll give you."
+    steve "No problem, Monica! Don't get distracted now."
+    m "Damn, Steve. It's so big!"
+    steve "Do you like it, Monica? I knew it."
+    m "No, Steve!"
+    m "I... Of course..."
+    m "Of course... I don’t... Ahh..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1957
+translate english ep24_dialogues3_steve10_loop1_c7e2b3b3_1:
+
+    # m "Ааааххххххх!!!"
+    m "Ahhhhh!!!!"
+
+translate english strings:
+
+    # Quests/EP2_04/ep24_dialogues2_steve.rpy:434
+    old "ПОЗДНИЙ ВЕЧЕР..."
+    new ""
+
+# TODO: Translation updated at 2019-04-16 19:35
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:911
+translate english ep24_dialogues2_steve9_053b4918_1:
+
+    # mt "!!!"
+    # mt "Дьявол! Надеюсь это не Стив!"
+    mt "!!!"
+    mt "Damn it! I hope its not Steve..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:915
+translate english ep24_dialogues2_steve9_e91a572d_1:
+
+    # m "Да, Миссис Робертс."
+    # "Я поняла."
+    # "Я буду стараться изо всех сил."
+    m "Yes, Mrs Roberts."
+    "I understand."
+    "I'll do my best."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:933
+translate english ep24_dialogues3_steve10_locked1_b1cfe043:
+
+    # mt "В доме гости. Мне нельзя отлучаться."
+    # mt "Иначе мне влетит от Бетти."
+    mt "В доме гости. Мне нельзя отлучаться."
+    mt "Иначе мне влетит от Бетти."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:936
+translate english ep24_dialogues3_steve10_locked1_593daf6e:
+
+    # mt "От этой сучки!"
+    mt "От этой сучки!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:941
+translate english ep24_dialogues3_steve10_enter_room1_50a1699e:
+
+    # mt "Я не пойду туда в таком виде!"
+    # mt "Я еще не сошла с ума!"
+    mt "I'm not going in there like this!"
+    mt "I have not lost my mind yet!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:947
+translate english ep24_dialogues3_steve10_enter_room2_727f2b7b:
+
+    # mt "Я пойду туда только если меня позовут."
+    # mt "Мне вообще не хочется идти туда!"
+    mt "Я пойду туда только если меня позовут."
+    mt "Мне вообще не хочется идти туда!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:977
+translate english ep24_dialogues3_steve10a_2c615982:
+
+    # steve "Ральф, а где Бетти?"
+    steve "Rafl, where is Betty?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:979
+translate english ep24_dialogues3_steve10a_0080f098:
+
+    # ralph "Бетти сегодня не будет."
+    ralph "Betty is not at home today."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:986
+translate english ep24_dialogues3_steve10a_b499b733:
+
+    # steve "Ральф, но как же нам быть?"
+    # steve "Бетти так прекрасно обслуживала нас!"
+    steve "What are we going to do then, Ralf?"
+    steve "Betty was such a great host the other day!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:989
+translate english ep24_dialogues3_steve10a_e2fd542e:
+
+    # ralph "Стив, можешь не беспокоиться, сегодня нас будет обслуживать гувернантка."
+    ralph "Don’t worry, Steve. Our housemaid will serve us today."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:992
+translate english ep24_dialogues3_steve10a_bf96a7c6:
+
+    # steve "И что, эта гувернантка также хорошая как Бетти?"
+    steve "Is she as good as Betty?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:998
+translate english ep24_dialogues3_steve10a_968b3eec:
+
+    # ralph "Нет, Стив. Бетти она не нравится. Она считает ее нерадивой гувернанткой."
+    # ralph "Но я считаю что она хорошая девушка и старается угодить хозяевам."
+    ralph "No, Steve. Betty doesn’t like her. She thinks she is incompetent."
+    ralph "I do think that she is working hard and trying to please her masters though."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1002
+translate english ep24_dialogues3_steve10a_942ddc30:
+
+    # ralph "Потому я думаю, что она исправится и станет лучше убираться."
+    # ralph "Более профессионально..."
+    ralph "Because I think she can improve and do better."
+    ralph "So she can prove herself."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1010
+translate english ep24_dialogues3_steve10a_29b6a8c7:
+
+    # steve "Хорошо, Ральф."
+    # steve "Зови свою гувернантку!"
+    steve "Okay, Ralf"
+    steve "Call your housemaid."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1014
+translate english ep24_dialogues3_steve10a_12387d9b:
+
+    # steve "Нам как раз нужны стаканы под виски и лед!"
+    steve "We need glasses for whiskey and ice."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1017
+translate english ep24_dialogues3_steve10a_369fbdbc:
+
+    # ralph "Моника, гувернантка!"
+    ralph "Monica, housemaid!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1019
+translate english ep24_dialogues3_steve10a_947a49f2:
+
+    # ralph "Иди сюда!"
+    ralph "Come here!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1024
+translate english ep24_dialogues3_steve10a2_73d78c8c:
+
+    # ralph "Моника, гувернантка!"
+    # ralph "Иди сюда!"
+    # mt "..."
+    # mt "Дьявол! Меня зовут!"
+    # mt "Интересно, кто там пришел..."
+    ralph "Monica, housemaid!"
+    ralph "Come here!"
+    mt "..."
+    mt "Дьявол! Меня зовут!"
+    mt "Интересно, кто там пришел..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1060
+translate english ep24_dialogues3_steve10b_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1066
+translate english ep24_dialogues3_steve10b_29a4f6ab:
+
+    # m "!!!"
+    m "!!!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1069
+translate english ep24_dialogues3_steve10b_7bc2e461:
+
+    # steve "???"
+    steve "???"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1072
+translate english ep24_dialogues3_steve10b_e612037c:
+
+    # m "..."
+    m "..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1075
+translate english ep24_dialogues3_steve10b_f97faf2b:
+
+    # steve "..."
+    steve "..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1102
+translate english ep24_dialogues3_steve10b_24f4b5d8:
+
+    # m "Да, Мистер Робертс."
+    # m "Чем могу быть Вам полезна?"
+    m "Yes, Mr Roberts."
+    m "How can I serve you?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1110
+translate english ep24_dialogues3_steve10b_7aa43c32:
+
+    # ralph "Моника, принеси стаканы для виски!"
+    ralph "Bring us glasses for whiskey."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1113
+translate english ep24_dialogues3_steve10b_87f12eae:
+
+    # m "Да, хорошо Мистер Робертс. Одну минуту."
+    m "Yes, Mr Roberts. One minute, please."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1126
+translate english ep24_dialogues3_steve10b_cd8b9846:
+
+    # steve "..." 
+    steve "..." 
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1136
+translate english ep24_dialogues3_steve10b_17708d48:
+
+    # steve "Ральф, дружище!"
+    # steve "Я очень рад за тебя!"
+    steve "Ralf, mate."
+    steve "I'm very glad for you."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1140
+translate english ep24_dialogues3_steve10b_b8188d82:
+
+    # steve "Ты теперь достаточно богат, чтобы позволить себе такую горячую гувернантку!"
+    steve "Now you are rich enough to afford such a hot housemaid."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1145
+translate english ep24_dialogues3_steve10b_a758114d:
+
+    # ralph "Стив, я не оцениваю эту гувернантку с точки зрения привлекательности."
+    # ralph "Ты ведь знаешь, какая Бетти строгая..."
+    ralph "Steve, I'm not looking at her that way."
+    ralph "You know how strict Betty is..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1155
+translate english ep24_dialogues3_steve10b2_ed6121fc:
+
+    # mt "Гость оказался Стивом! Я так и знала!"
+    # mt "Что же мне теперь делать?"
+    # mt "..."
+    # mt "Подумаю позже. Сейчас мне надо принести этим ничтожествам стаканы для виски."
+    # mt "Я думаю что Бетти все приготовила на кухне."
+    mt "Гость оказался Стивом! Я так и знала!"
+    mt "Что же мне теперь делать?"
+    mt "..."
+    mt "Подумаю позже. Сейчас мне надо принести этим ничтожествам стаканы для виски."
+    mt "Я думаю что Бетти все приготовила на кухне."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1163
+translate english ep24_dialogues3_steve10b4_daab20ef:
+
+    # mt "Я еще не сделала то что мне сказал Ральф."
+    mt "Я еще не сделала то что мне сказал Ральф."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1234
+translate english ep24_dialogues3_steve10c_57a4bc01:
+
+    # m "Вот Ваши стаканы, Мистер Робертс..."
+    m "Here are your glasses Mr Roberts/"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1238
+translate english ep24_dialogues3_steve10c_f97faf2b:
+
+    # steve "..."
+    steve "..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1242
+translate english ep24_dialogues3_steve10c_c2403c4e:
+
+    # steve "Гувернантка, можно Вас попросить подойти сюда?"
+    steve "Housemaid, come closer please."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1253
+translate english ep24_dialogues3_steve10c_073314dc:
+
+    # m "Да, Сэр?"
+    m "Yes, sir?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1259
+translate english ep24_dialogues3_steve10c_4bc82b4d:
+
+    # steve "Посмотрите, этот стакан недостаточно чист!"
+    steve "Take a look at this glass, there is a spot."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1265
+translate english ep24_dialogues3_steve10c_f16e7c04:
+
+    # m "Прошу прощения, но за чистотой посуды следит Миссис Робертс..."
+    m "Excuse me, but it's Ms Roberts who making sure that dishes are clean."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1267
+translate english ep24_dialogues3_steve10c_10de2f5a:
+
+    # steve "Ах, если так, то прошу прощения!"
+    steve "Ah, nevermind then."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1270
+translate english ep24_dialogues3_steve10c_f00b900f:
+
+    # steve "Похоже, это я только что поставил след от своих пальцев на этом стакане."
+    steve "Looks like it was me who smeared glass."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1277
+translate english ep24_dialogues3_steve10c_e612037c:
+
+    # m "..."
+    m "..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1280
+translate english ep24_dialogues3_steve10c_f97faf2b_1:
+
+    # steve "..."
+    steve "..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1285
+translate english ep24_dialogues3_steve10c_e612037c_1:
+
+    # m "..."
+    m "..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1288
+translate english ep24_dialogues3_steve10c_f97faf2b_2:
+
+    # steve "..."
+    steve "..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1307
+translate english ep24_dialogues3_steve10c_6e4b04f1:
+
+    # steve "Ральф! Давай скорее выпьем!"
+    # steve "У меня отличное настроение сегодня!"
+    steve "Ralf, hurry up! Let's drink!"
+    steve "I'm in a good mood today!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1317
+translate english ep24_dialogues3_steve10c3_7cbadb7a:
+
+    # steve "Ральф! Может быть позовешь свою гувернантку снова?"
+    # steve "Мы скучаем без внимания!"
+    steve "Ralf, I think you should call your maid again!"
+    steve "It's getting boring without someones attention!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1326
+translate english ep24_dialogues3_steve10c3_369fbdbc:
+
+    # ralph "Моника, гувернантка!"
+    ralph "Monica, housemaid!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1331
+translate english ep24_dialogues3_steve10c2_e6555122:
+
+    # ralph "Моника, гувернантка!"
+    # mt "..."
+    # mt "Меня снова зовут... Что им еще от меня надо?!"
+    ralph "Monica, housemaid!"
+    mt "..."
+    mt "Меня снова зовут... Что им еще от меня надо?!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1349
+translate english ep24_dialogues3_steve10d_1b8add67:
+
+    # ralph "Моника! Принеси нам что-нибудь закусить!"
+    ralph "Monica, bring us something to eat."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1352
+translate english ep24_dialogues3_steve10d_0326cd54:
+
+    # m "Да, Мистер Робертс..."
+    m "Yes, Mr Roberts."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1356
+translate english ep24_dialogues3_steve10d2_d7c42b2c:
+
+    # mt "Принеси то! Принеси это!"
+    # mt "Я им спрашивается кто?! Служанка?!"
+    # mt "Хотя, вообще-то я притворяюсь ей..."
+    # mt "..."
+    # mt "Ладно, где там эта еда? Бетти должна была все приготовить..."
+    mt "Принеси то! Принеси это!"
+    mt "Я им спрашивается кто?! Служанка?!"
+    mt "Хотя, вообще-то я притворяюсь ей..."
+    mt "..."
+    mt "Ладно, где там эта еда? Бетти должна была все приготовить..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1388
+translate english ep24_dialogues3_steve10e_581db8cf:
+
+    # m "Вот, Мистер Робертс... Пожалуйста..."
+    m "Here is your food, Mr Roberts."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1419
+translate english ep24_dialogues3_steve10e_bed28877:
+
+    # m "Миссис Робертс приготовила для Вас эту закуску..."
+    m "Mrs. Roberts prepared these snacks for you in advance."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1426
+translate english ep24_dialogues3_steve10e_f97faf2b:
+
+    # steve "..."
+    steve "..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1444
+translate english ep24_dialogues3_steve10e_7ebb6597:
+
+    # steve "Ой, гувернантка!"
+    # steve "Ты не могла бы поднять прибор? Я нечаянно уронил его..."
+    steve "Hey, housemaid!"
+    steve "I accidently droped it, can you please pick it up?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1455
+translate english ep24_dialogues3_steve10e_7e2c655d:
+
+    # m "!!!"
+    # steve "..."
+    m "!!!"
+    steve "..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1512
+translate english ep24_dialogues3_steve10e_29a4f6ab:
+
+    # m "!!!"
+    m "!!!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1525
+translate english ep24_dialogues3_steve10e_8db6dc38:
+
+    # ralph "А? Что за шум?"
+    ralph "What? What is this noise?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1538
+translate english ep24_dialogues3_steve10e_97eead40:
+
+    # m "Мистер Робертс, все в порядке!"
+    m "Everything is alright, Mr Robets!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1541
+translate english ep24_dialogues3_steve10e_c4394d82:
+
+    # m "Просто упал столовый прибор."
+    m "Fork simply fell on the floor."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1544
+translate english ep24_dialogues3_steve10e_044b974d:
+
+    # m "Пожалуйста, Мистер Стив."
+    # "Вот Ваша вилка..."
+    m "Here it is, Mr Steve..."
+    "Your fork..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1571
+translate english ep24_dialogues3_steve10e_4b27a89f:
+
+    # steve "Какая у тебя горячая гувернантка, Ральф!"
+    # steve "Давай скорее еще выпьем!"
+    # ralph "Давай, Стив!"
+    steve "Your maid is so hot, Ralf!"
+    steve "Come on, let's drink some more!"
+    ralph "Sure, Steve."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1578
+translate english ep24_dialogues3_steve10e2_fde68a07:
+
+    # mt "Мне надо надеть трусики! Стив все время пялится мне под юбку!"
+    # mt "Мерзавец!"
+    mt "Мне надо надеть трусики! Стив все время пялится мне под юбку!"
+    mt "Bastard!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1583
+translate english ep24_dialogues3_steve10e3_270d598a:
+
+    # mt "Я не собираюсь снимать трусики, пока в этом доме Стив!"
+    mt "Я не собираюсь снимать трусики, пока в этом доме Стив!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1605
+translate english ep24_dialogues3_steve10f_f36bf247:
+
+    # steve "Ральф?!"
+    # steve "Ты меня слышишь, Ральф?! Или ты спишь?"
+    steve "Ralf?!"
+    steve "Do you hear me? Are you asleeping?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1613
+translate english ep24_dialogues3_steve10f_4cc139a7:
+
+    # steve "Хе-хе..."
+    # steve "Поспи здесь пока, дружище Ральф! Я скоро вернусь к тебе!"
+    steve "He-he-he..."
+    steve "Take a break for now, I'll come back in a bit."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1633
+translate english ep24_dialogues3_steve10g_7d0a42f0:
+
+    # steve "Ах вот ты где, Моника!"
+    # steve "Я тебя повсюду ищу!"
+    steve "Here you are, Monica."
+    steve "I have been looking for you everywhere."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1636
+translate english ep24_dialogues3_steve10g_56117573:
+
+    # m "Зачем ты меня ищешь?! Что тебе от меня надо?!"
+    m "Why? What do you need from me?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1643
+translate english ep24_dialogues3_steve10g_86bcc825:
+
+    # steve "Вообще-то я тебя давно ищу!"
+    # steve "Ты куда-то пропала в последнее время..."
+    # steve "И я никак не думал обнаружить тебя здесь!"
+    steve "I've been looking for a while..."
+    steve "You disappeared so suddenly."
+    steve "Never would have thought to find you here."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1647
+translate english ep24_dialogues3_steve10g_736db6fc:
+
+    # m "Вообще-то это мой дом! Почему бы мне здесь не быть?!"
+    # m "Хорошо, обнаружил, и что дальше?! Всем расскажешь?!"
+    m "This house is mine! Why wouldn’t I be here?"
+    m "So now what? Are you going to tell everyone?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1651
+translate english ep24_dialogues3_steve10g_7d6bec7c:
+
+    # steve "Нет, Моника! Это не в моих интересах."
+    steve "No, that’s not what I really want."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1660
+translate english ep24_dialogues3_steve10g_f3c18d3f:
+
+    # m "А что тогда в твоих интересах, Стив?!"
+    m "What do you want then, Steve?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1662
+translate english ep24_dialogues3_steve10g_d5c73a94:
+
+    # steve "Моника, верны ли слухи о тебе?"
+    # m "Какие еще слухи?!"
+    steve "Are rumors about you true, Monica?"
+    m "What rumors?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1666
+translate english ep24_dialogues3_steve10g_5ebc6f8e:
+
+    # steve "Говорят, что ты в кого-то влюбилась!"
+    # "И ради этой любви отреклась от денег и от компании."
+    # "И, вместо этого, впала в пучину разврата и теперь спишь с мужчинами за деньги!"
+    steve "People gossip that you fell in love with someone."
+    "Renounced your company and money for this love."
+    "And then fell into spiral of debauchery sleeping with every man in sight."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1672
+translate english ep24_dialogues3_steve10g_9fd1dcad:
+
+    # m "Ты что, Стив?! Сошел с ума?!"
+    # m "Откуда ты взял такую чушь?!"
+    m "What? Are you out of your mind?"
+    m "Where did you hear such nonsense from?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1682
+translate english ep24_dialogues3_steve10g_17dd91c8:
+
+    # steve "Ну как же. Ты начала сниматься в обновленном журнале."
+    # steve "Сама задала ему новый курс."
+    steve "Well, you are the one modeling in the revised magazine."
+    steve "You pushed it into the new direction yourself."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1686
+translate english ep24_dialogues3_steve10g_434a1c96:
+
+    # steve "И, все мы делаем ставки на то, когда же ты покажешь всему миру свою киску!"
+    # steve "Или, что еще лучше, займешься с кем-нибудь сексом на камеру!"
+    steve "We are all making bets when you will show your pussy to the whole world!"
+    steve "Or even better, have sex in front of camera."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1689
+translate english ep24_dialogues3_steve10g_56c989b5:
+
+    # m "Я и не думала услышать что-нибудь другое от такого мерзавца как ты, Стив!"
+    m "Wasn’t even expecting to hear anything decent from an asshole like you, Steve."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1692
+translate english ep24_dialogues3_steve10g_3937e023:
+
+    # steve "Но, если это не так, то в чем же тогда причина, Моника?"
+    steve "If it's not true, what is going on then?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1700
+translate english ep24_dialogues3_steve10g_c1160285:
+
+    # m "..."
+    # m "Это..."
+    # m "Это все немного сложно, Стив..."
+    m "..."
+    m "It's..."
+    m "Everything is a bit complicated..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1704
+translate english ep24_dialogues3_steve10g_99fb64b4:
+
+    # m "Есть некоторые проблемы, но я их скоро решу!"
+    # m "Но, пока что Ральфу необязательно знать о том, кто я такая на самом деле."
+    m "There are some issues, but I'm going to deal with them soon!"
+    m "But, for now, Ralf doesn’t need to know who I realy am."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1708
+translate english ep24_dialogues3_steve10g_559cdc98:
+
+    # m "И, вообще, мне нужна от тебя кое-какая помощь..."
+    m "And I actually need some help from you..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1717
+translate english ep24_dialogues3_steve10g_90c05a8d:
+
+    # steve "Моника, я с удовольствием помогу тебе!"
+    # steve "Я не буду рассказывать Ральфу кто ты такая!"
+    steve "Certainly, I'll be glad to be of help."
+    steve "I will not tell Ralf about you."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1721
+translate english ep24_dialogues3_steve10g_33e7eda0:
+
+    # m "О! Спасибо, Стив! Спасибо большое тебе!"
+    # m "Спасибо за твою помощь, которая заключается в том что ты просто не расскажешь Ральфу обо мне!"
+    m "Thank you, Steve!"
+    m "Thank you very much! Just don’t tell Ralf about me."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1724
+translate english ep24_dialogues3_steve10g_470f4ab4:
+
+    # m "На что я еще могла рассчитывать от такого мерзавца как ты!"
+    m "That’s the least I can expect from asshole like you."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1727
+translate english ep24_dialogues3_steve10g_e91d17c9:
+
+    # steve "Моника, а какая еще другая помощь тебе необходима?"
+    steve "Monica, do you need my help with anything else?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1736
+translate english ep24_dialogues3_steve10g_7df199f9:
+
+    # m "Деньги... Мне нужны деньги, Стив..."
+    # mt "Дьявол! Мне надо где-то достать деньги для этой сучки Виктории!"
+    m "I need some cash, Steve..."
+    mt "Damn! I somehow have to get money for this bitch Victoria!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1740
+translate english ep24_dialogues3_steve10g_1efdbc3c:
+
+    # m "Ты бедняк по сравнению со мной, но сейчас мне нужны даже те деньги что у тебя есть..."
+    m "You are poor compared to me, however at the moment I that little amount you have."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1744
+translate english ep24_dialogues3_steve10g_4cb8ce9a:
+
+    # steve "Моника, я готов перечислить любую сумму по официальному запросу."
+    steve "I can transfer any sum you want via official channels."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1748
+translate english ep24_dialogues3_steve10g_aefa83f3:
+
+    # m "Я... Временно не могу отправить официальный запрос..."
+    # steve "А как же тогда я могу помочь тебе?"
+    m "I.... I temporary can't use any official channel..."
+    steve "How can I help you then?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1758
+translate english ep24_dialogues3_steve10g_57c61345:
+
+    # m "Дай мне деньги. Просто дай. Просто так!"
+    m "Just give me cash!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1762
+translate english ep24_dialogues3_steve10g_22916b24:
+
+    # steve "Моника, но я ведь бизнесмен!"
+    # "Я ничего не могу сделать просто так!"
+    steve "Monica, I think you understand as a fellow entrepreneur."
+    "I cant do something just for free."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1765
+translate english ep24_dialogues3_steve10g_b931c21e:
+
+    # m "Это будет далеко не просто так! Тебе вернутся эти деньги!"
+    m "It won’t be for free, I'll return everything!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1768
+translate english ep24_dialogues3_steve10g_8ad9aea3:
+
+    # m "Я верну тебе в 5 раз больше!"
+    # m "Это выгодная сделка... Ты бизнесмен и должен это понимать..."
+    m "You will get back five times the amount!"
+    m "It's a good deal... You understand it, right?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1777
+translate english ep24_dialogues3_steve10g_b7358555:
+
+    # steve "Да, сделка выглядит выгодной, но очень рискованной!"
+    # m "Почему это?!"
+    steve "Yes, it's rather attractive proposition, however it’s too risky."
+    m "Why is that?!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1781
+translate english ep24_dialogues3_steve10g_46c88d08:
+
+    # steve "Потому что я не вижу обеспечительных мер."
+    # steve "Я не вижу ни одной бумаги, в соответствии с которой у тебя есть хоть что-то..."
+    # steve "Чем ты можешь обеспечить залог суммы, озвученной в сделке."
+    steve "Because I don’t see any guarantees."
+    steve "I don’t see any official documentation proving your ownership over any property or asset."
+    steve "What can you provide as a collateral?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1793
+translate english ep24_dialogues3_steve10g_29a4f6ab:
+
+    # m "!!!"
+    m "!!!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1796
+translate english ep24_dialogues3_steve10g_3152b007:
+
+    # m "Ты пожалеешь о своих словах..."
+    m "You will regret it!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1799
+translate english ep24_dialogues3_steve10g_f97faf2b:
+
+    # steve "..."
+    steve "..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1801
+translate english ep24_dialogues3_steve10g_e612037c:
+
+    # m "..."
+    m "..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1804
+translate english ep24_dialogues3_steve10g_27e6bace:
+
+    # steve "Моника, я знаю один взаимовыгодный вариант!"
+    # m "Какой же?"
+    # steve "Я могу взять что-нибудь в аренду!"
+    steve "Come to think of it, there is one option that can satisfy us both."
+    m "What option?"
+    steve "You can rent something to me."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1809
+translate english ep24_dialogues3_steve10g_2327e59a:
+
+    # m "Вообще-то ты уже взял в аренду этаж в моем тауэре."
+    # m "Или нет?!?!"
+    # m "Я проверю это, когда вернусь!"
+    m "You already rent whole floor in my tower!"
+    m "Don’t you?!"
+    m "I will check it when I get everything back."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1813
+translate english ep24_dialogues3_steve10g_3985063a:
+
+    # steve "..."
+    # steve "Ну... Вообще-то..."
+    # steve "Вообще-то... Я собирался взять... Да..."
+    steve "..."
+    steve "Well..."
+    steve "Actually... I wanted..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1824
+translate english ep24_dialogues3_steve10g_29a4f6ab_1:
+
+    # m "!!!"
+    m "!!!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1827
+translate english ep24_dialogues3_steve10g_d8d8b6f5:
+
+    # steve "Моника, я хочу кое-что взять в аренду именно у тебя!"
+    steve "Monica, I wanted to rent something directly from you..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1829
+translate english ep24_dialogues3_steve10g_05777b4f:
+
+    # m "И что же? Этот дом я пока не могу дать..."
+    # m "Но это временно..."
+    m "What do you want to rent? I can't give you this house."
+    m "Of course, it is temporary..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1833
+translate english ep24_dialogues3_steve10g_dc9b0a65:
+
+    # steve "Моника! У тебя есть кое-что получше!"
+    # steve "Кое-что, что стоит целое состояние!"
+    steve "You have something better!"
+    steve "Something worth whole fortune!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1836
+translate english ep24_dialogues3_steve10g_ed0e04d7:
+
+    # m "И что же?!"
+    m "What do you mean?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1839
+translate english ep24_dialogues3_steve10g_c617a4a1:
+
+    # steve "Твоя попа, Моника!"
+    # steve "Попа Миссис Бакфетт!"
+    # steve "Этот бесценный девственный бриллиант!"
+    steve "Your butt, Monica!"
+    steve "Mrs Buckfett's butt!"
+    steve "This priceless feminine gem!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1851
+translate english ep24_dialogues3_steve10g_ddfc293a:
+
+    # steve "Ты сама не понимаешь какими богатствами ты обладаешь!"
+    steve "Don’t you get what you posses?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1854
+translate english ep24_dialogues3_steve10g_415a7fa9:
+
+    # m "ЧТО?!?!"
+    m "WHAT?!?!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1856
+translate english ep24_dialogues3_steve10g_3312a7a9:
+
+    # m "Да как ты смеешь, Стив!"
+    # m "Ты не забыл кто Ты и кто Я?!?"
+    m "How dare you, Steve!"
+    m "Did you forget who I am?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1861
+translate english ep24_dialogues3_steve10g_1eb5b323:
+
+    # m "Тебе надоело жить, Стив?"
+    m "Are you tiried of living, Steve?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1864
+translate english ep24_dialogues3_steve10g_a8ed991c:
+
+    # m "Может быть мне пойти сходить за вилкой?"
+    m "Shoud I go and get a fork for you?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1872
+translate english ep24_dialogues3_steve10g_202cd3f8:
+
+    # steve "Прости, Моника! Я не хотел обидеть тебя!"
+    # steve "Я лишь пытаюсь помочь!"
+    steve "Sorry, Monica. I didn’t mean to offend."
+    steve "I'm just trying to help."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1876
+translate english ep24_dialogues3_steve10g_1795b90b:
+
+    # steve "Ты ведь знаешь, я бы помог тебе и просто так."
+    # steve "Но я бизнесмен и ограничен в своих действиях."
+    steve "You know, I would have helped you if I could without any strings attached."
+    steve "However, I have to think about my interests."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1880
+translate english ep24_dialogues3_steve10g_7d9dcb19:
+
+    # steve "И, в рамках того, что возможно для меня, я стараюсь помочь тебе изо всех сил!"
+    steve "I'm trying to help you as much as I can, considering my situation and capabilities!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1888
+translate english ep24_dialogues3_steve10g_19204cf4:
+
+    # m "Я не собираюсь продавать тебе свою попу!"
+    m "I'm not selling my butt to you!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1890
+translate english ep24_dialogues3_steve10g_564b4d3b:
+
+    # steve "Я не покупаю ее, Моника! Я всего-лишь хочу взять в аренду!"
+    # steve "На полчаса, не более!"
+    # steve "Подумай! Я ведь собираюсь щедро заплатить за этот бесценный объект!"
+    # steve "Это очень выгодная сделка!"
+    steve "You are not! I just want to rent it!"
+    steve "Just half an hour! Not more!"
+    steve "Think about it. I'll pay very well for this priceless object."
+    steve "It's a great deal!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1909
+translate english ep24_dialogues3_steve10g_512640fe:
+
+    # m "Продажа, сдача в аренду... Неважно... Это не для меня..."
+    # m "А теперь разреши я пойду выполнять свои обязанности, Стив!"
+    # m "И учти, я припомню тебе твое поведение!"
+    # steve "Хорошо, Моника!"
+    # steve "Но, если передумаешь, приходи ко мне в офис!"
+    m "Selling, renting... It doesn’t matter! Such things are not for me!"
+    m "Now excuse me, I have work to do."
+    m "And keep in mind that I'll remember your behaviour."
+    steve "Okay, Monica!"
+    steve "But if you change your mind, come to my office!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1918
+translate english ep24_dialogues3_steve10g_36cb0f0c:
+
+    # mt "Надеюсь я не пожалею об этом..."
+    # mt "С другой стороны, у меня нет выхода..."
+    # mt "Мне надо где-то достать деньги..."
+    mt "I hope I won't regret it..."
+    mt "On the other hand, I have no choice..."
+    mt "I have to get money somehow..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1923
+translate english ep24_dialogues3_steve10g_7e99d3ac:
+
+    # m "В этом мире все сдается в аренду, Стив..."
+    m "Everything has its' own price in this world."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1925
+translate english ep24_dialogues3_steve10g_bc7def25:
+
+    # m "Вопрос только в сумме..."
+    m "It's just a question of what price?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1930
+translate english ep24_dialogues3_steve10g_732c34a1:
+
+    # steve "Моника, покажи ее, покажи свою попу!"
+    steve "Monica, show it to me!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1941
+translate english ep24_dialogues3_steve10g_35ca3e7d:
+
+    # m "Я не собираюсь показывать никому свою попу, Стив!"
+    # m "А теперь разреши я пойду выполнять свои обязанности, Стив!"
+    # m "И учти, я припомню тебе твое поведение!"
+    # steve "Хорошо, Моника!"
+    # steve "Но, если передумаешь, приходи ко мне в офис!"
+    m "I'm not showing my butt to anyone, Steve!"
+    m "Now excuse me, I have work to do."
+    m "And keep in mind that I'll remember your behaviour."
+    steve "Okay, Monica!"
+    steve "But if you change your mind, come to my office!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1959
+translate english ep24_dialogues3_steve10g_c7fa623e:
+
+    # steve "Хороший вид, Моника!"
+    # steve "Но можно я посмотрю поближе?"
+    steve "Nice outfit, Monica!"
+    steve "Can I take a closer look?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1962
+translate english ep24_dialogues3_steve10g_e612037c_1:
+
+    # m "..."
+    m "..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1964
+translate english ep24_dialogues3_steve10g_38cf75f2:
+
+    # steve "Посмотрим, что у нас там!"
+    steve "Let's see what we have here."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1983
+translate english ep24_dialogues3_steve10g_c32afb07:
+
+    # steve "О! Значит вот какие трусики ты любишь носить!"
+    # steve "Когда я смотрел на тебя, то всегда думал о том что же на тебе надето внизу!"
+    steve "Ohhh! So that’s what kind of panties you like to wear!"
+    steve "I was always wondering what you were wearing in there when I was looking at you."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1987
+translate english ep24_dialogues3_steve10g_9b447816:
+
+    # m "Я..."
+    # m "Я не очень люблю носить их, Стив..."
+    # m "И давай закроем эту тему!"
+    m "I..."
+    m "I don’t like to wear them much, Steve..."
+    m "Let's change the topic!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2000
+translate english ep24_dialogues3_steve10g_6acc68d3:
+
+    # steve "Моника, ты не против если я их сниму?"
+    # steve "Мне надо осмотреть объект, который я собираюсь взять в аренду!"
+    steve "Do you mind if I take them of, Monica?"
+    steve "I have to evaluate the object I'm going to rent."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2003
+translate english ep24_dialogues3_steve10g_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2015
+translate english ep24_dialogues3_steve10g_e612037c_2:
+
+    # m "..."
+    m "..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2018
+translate english ep24_dialogues3_steve10g_ef71b9de:
+
+    # steve "(Я не верю своим глазам! Я собираюсь трахнуть саму Монику Бакфетт!)"
+    steve "(I can't believe it! I'm going to fuck THE Monica Buckfett!)"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2020
+translate english ep24_dialogues3_steve10g_0668feab:
+
+    # steve "(Черт! Сколько лет я мечтал об этом!)"
+    steve "(I was dreaming about it for so long!)"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2027
+translate english ep24_dialogues3_steve10g_e0d87765:
+
+    # steve "Я БЕРУ ЭТОТ ОБЪЕКТ!"
+    steve "I'm renting this object!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2036
+translate english ep24_dialogues3_steve10g_2831c3c2:
+
+    # m "Стой! Не вздумай этого делать! Мы еще не заключили сделку!"
+    m "Stop! Don’t even think about it! We haven’t finilized our deal yet!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2038
+translate english ep24_dialogues3_steve10g_81cd7385:
+
+    # steve "Моника, ты настоящая бизнес-леди! Даже в такой момент ты не забываешь о своей выгоде!"
+    steve "Monica, you are ruthless! Even in the situation like this you are thinking about your benefits!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2040
+translate english ep24_dialogues3_steve10g_75d392dd:
+
+    # m "Здесь сплошная выгода только для тебя, Стив!"
+    m "There are benefits only for you in this deal, Steve!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2045
+translate english ep24_dialogues3_steve10g_e2cd978c:
+
+    # m "Всего за миллион долларов ты получишь то, о чем не могли мечтать и миллиардеры!"
+    m "Only for one million you will get what even billioniers could not."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2047
+translate english ep24_dialogues3_steve10g_d431ceca:
+
+    # steve "Какой миллион, Моника?!"
+    # steve "У меня сейчас нет таких средств."
+    # m "Я прекрасно знаю об оборотах твоей компании, Стив!"
+    steve "What? Million?"
+    steve "I don’t have such money, Monica!"
+    m "I know very well about your company's profits, Steve."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2056
+translate english ep24_dialogues3_steve10g_a50c1bd1:
+
+    # steve "Да, но с тех пор как твою компанию возглавили другие люди, у меня начались сплошные проверки!"
+    # steve "Я не могу потратить ни цента, если они пойдут не на благо компании!"
+    # steve "Ты ведь не предлагаешь мне официально провести нашу сделку, правда Моника?!"
+    steve "Yes, but since change in leadership of the company there are constanct audits!"
+    steve "I can't spend anything if it is not for company's sake."
+    steve "You are not proposing official transaction, aren't you, Monica?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2064
+translate english ep24_dialogues3_steve10g_eaf8a181:
+
+    # m "Твоя цена?"
+    # steve "$ 1000, Моника!"
+    m "Your offer?"
+    steve "00, Monica."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2067
+translate english ep24_dialogues3_steve10g_32f7fc14:
+
+    # m "СКОЛЬКО?!?!?"
+    # m "Ты за кого меня принимаешь, Стив?!"
+    m "ARE YOU KIDDING ME!?"
+    m "Who do you thin I am, Steve?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2074
+translate english ep24_dialogues3_steve10g_b3eda4c4:
+
+    # steve "Но Моника! Я могу тратить только деньги из моей официальной зарплаты!"
+    # steve "И я теперь помолвлен с Джейн. Она следит за тем куда я трачу свою зарплату!"
+    steve "But, Monica, I can only spend what I officialy earn."
+    steve "I'm also engaged to Jane now. And she is monitoring my expenses closely."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2077
+translate english ep24_dialogues3_steve10g_2bdd6e0d:
+
+    # steve "Моника, я собираюсь отдать тебе все свои деньги на ланч на месяц вперед!"
+    # steve "Я жертвую всем! Ради тебя! Ради выгодной сделки..."
+    # steve "По аренде твоей..."
+    # m "Хватит! Необязательно каждый раз произносить вслух название предмета нашей сделки..."
+    steve "I'm going to give all my pocket money for month in advance!"
+    steve "I'm sacrificing everything! For you!"
+    steve "For the rent deal of your..."
+    m "Stop it! Stop brining up subject of our deal every single time..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2090
+translate english ep24_dialogues3_steve10g_5d5a64a8:
+
+    # m "Это слишком маленькие деньги, Стив! Я даже не буду это обсуждать..."
+    # m "А теперь разреши я пойду выполнять свои обязанности, Стив!"
+    # m "И учти, я припомню тебе твое поведение!"
+    # steve "Хорошо, Моника!"
+    # steve "Но, если передумаешь, приходи ко мне в офис!"
+    m "It's not enough, Steve. I will not even consider it..."
+    m "Now excuse me, I have work to do."
+    m "And keep in mind that I'll remember your behaviour."
+    steve "Okay, Monica!"
+    steve "But if you change your mind, come to my office!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2100
+translate english ep24_dialogues3_steve10g_6e2c5945:
+
+    # m "Мне нужно хотя бы $ 10.000, Стив!"
+    m "I want at least  000, Steve."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2106
+translate english ep24_dialogues3_steve10g_ea8b5237:
+
+    # steve "Стив, если $ 1.000 - это все что у тебя есть, то, может быть, ты дашь их мне просто так?"
+    # steve "Прости, Моника! Но мне очень важно заключить эту сделку!"
+    # steve "Это очень важный объект аренды, он мне очень нужен! Это..."
+    steve "If $ 1000 is all you have on, maybe you can give it to me just like that?"
+    steve "I'm sorry, Monica. But I cant do it!"
+    steve "It is very important for me to rent your...."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2115
+translate english ep24_dialogues3_steve10g_b898c161:
+
+    # m "Молчи! Я говорила тебе не произносить вслух!"
+    m "Stop it! I've told you already to stop mentioning it!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2117
+translate english ep24_dialogues3_steve10g_0b3189d9:
+
+    # steve "Моника, у меня есть предложение! Давай я возьму в аренду половину твоей попы за $ 1.500!"
+    steve "Monica, I have an idea. Let me rent half of your butt for $ 1500."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2119
+translate english ep24_dialogues3_steve10g_ee9f71b0:
+
+    # m "Половину?! Это как?! Это же не гребаный этаж в тауэре, Стив!"
+    m "Half? How do you imagine that is going to work?!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2121
+translate english ep24_dialogues3_steve10g_59d0f57b:
+
+    # steve "Я буду двигаться аккуратно! Только в одну сторону! И не буду трогать руками другую половину!"
+    # steve "Я буду соблюдать условия сделки! Я честный бизнесмен."
+    steve "I'll be very careful and won't touch a second half."
+    steve "I always follow contract guidelines. I'm an honest entrepreneur!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2125
+translate english ep24_dialogues3_steve10g_4273abc6:
+
+    # m "Ты мешок с дерьмом, а не бизнесмен!"
+    m "You are bag of shit, not an entrepreneur!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2515
+translate english ep24_dialogues3_steve10a1_6db67b6d:
+
+    # mt "Я не собираюсь подходить к этой пьяной скотине!"
+    mt "Я не собираюсь подходить к этой пьяной скотине!"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2520
+translate english ep24_dialogues3_steve10b1_47128440:
+
+    # mt "БОЖЕ! Моника!"
+    # mt "Что ты наделала?"
+    # mt "Надеюсь ты не пожалеешь об этом!"
+    # mt "И это... Что это было за чувство?"
+    # mt "Я, как-будто, потеряла сознание..."
+    # mt "Странное ощущение..."
+    mt "БОЖЕ! Моника!"
+    mt "Что ты наделала?"
+    mt "Надеюсь ты не пожалеешь об этом!"
+    mt "И это... Что это было за чувство?"
+    mt "Я, как-будто, потеряла сознание..."
+    mt "Странное ощущение..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2527
+translate english ep24_dialogues3_steve10b1_9c96ea13:
+
+    # mt "Мерзавец!!!"
+    mt "Мерзавец!!!"
+
+translate english strings:
+
+    # Quests/EP2_04/ep24_dialogues2_steve.rpy:1168
+    old "Взять стаканы под виски."
+    new ""
+
+    # Quests/EP2_04/ep24_dialogues2_steve.rpy:1364
+    old "Взять еду и отнести гостям."
+    new ""
+
+    # Quests/EP2_04/ep24_dialogues2_steve.rpy:1595
+    old "Вечер..."
+    new ""
 

@@ -140,3 +140,11 @@ translate english strings:
     old "Не переодеваться."
     new "Don't change clothes."
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+translate english strings:
+
+    # Characters/Monica/Wardrobe_Basement.rpy:17
+    old ""
+    new ""
+

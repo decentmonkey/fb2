@@ -67,7 +67,7 @@ translate german dick_meeting1_car_parting2_5f93b3cb:
 
     # dick "Хорошо, Моника."
     # "Отвезешь меня к дому?"
-    dick "Naaa gut, Monica."
+    dick "Na gut, Monica."
     "Fährst du mich nach Hause?"
 
 # game/Quests/Dick_Car_Parting.rpy:61

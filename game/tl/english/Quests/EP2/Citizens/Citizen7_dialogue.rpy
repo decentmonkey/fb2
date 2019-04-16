@@ -152,7 +152,7 @@ translate english citizen7_dialogue_pilon_loop7_e3fd528c:
 translate english citizen7_dialogue_pilon_loop7_b4b7dc55:
 
     # citizen7 "Отлично!"
-    citizen7 "Отлично!"
+    citizen7 "Excelent!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:114
 translate english citizen7_dialogue_pilon_loop7_36c4ef64:
@@ -285,4 +285,36 @@ translate english strings:
     # Quests/EP2/Citizens/Citizen7_dialogue.rpy:43
     old "Куда именно?"
     new "Where exactly?"
+
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:182
+translate english citizen7_dialogue_pilon_loop7_20cfe883:
+
+    # citizen7 "Я так и знал, что они восхитительны!"
+    # mt "Это правда."
+    citizen7 "As I suspected, they are briliant!"
+    mt "True."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:185
+translate english citizen7_dialogue_pilon_loop7_d6ab9fda:
+
+    # citizen7 "Думаю, я знаю, чему будет посвящена моя следующая картина!"
+    # citizen7 "Да, кстати, как насчет того, чтобы стать моей моделью? Это новый уровень!"
+    # m "Нет, спасибо."
+    citizen7 "Думаю, я знаю, чему будет посвящена моя следующая картина!"
+    citizen7 "Да, кстати, как насчет того, чтобы стать моей моделью? Это новый уровень!"
+    m "No, thanks."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:189
+translate english citizen7_dialogue_pilon_loop7_84b9d58d:
+
+    # citizen7 "Уверен, ты передумаешь! Сотни девушек мечтают о карьере модели!"
+    citizen7 "Уверен, ты передумаешь! Сотни девушек мечтают о карьере модели!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:191
+translate english citizen7_dialogue_pilon_loop7_8e436805:
+
+    # mt "Мне ли не знать, хе-хе..."
+    mt "Мне ли не знать, хе-хе..."
 

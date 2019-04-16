@@ -651,7 +651,7 @@ translate english ep23_dialogues6_654feaff:
     # "Это..."
     # "Это Дик Адвокат..."
     m "This man..."
-    "Это..."
+    "It's..."
     "This is Dick the lawyer..."
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:560

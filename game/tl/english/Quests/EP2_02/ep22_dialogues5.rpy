@@ -187,7 +187,7 @@ translate english ep22_dialogues5_2_0cc3f2a4:
 
     # m "ЧТО?!?!"
     # m "ЗАЧЕМ?!?!"
-    m "ЧТО?!?!"
+    m "WHAT?!?!"
     m "Why?"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:237
@@ -1032,7 +1032,7 @@ translate english ep22_dialogues5_7_e57c66de:
 translate english ep22_dialogues5_7_415a7fa9:
 
     # m "ЧТО?!?!"
-    m "ЧТО?!?!"
+    m "WHAT?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:929
 translate english ep22_dialogues5_7_1791a762:
@@ -1228,7 +1228,7 @@ translate english ep22_dialogues5_7_e9d8a619:
 translate english ep22_dialogues5_7_420cf459:
 
     # m "?!?!?!?!?"
-    m "?!?!?!?!?"
+    m "?!?!?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1054
 translate english ep22_dialogues5_7_21d8ca36:
@@ -1328,7 +1328,7 @@ translate english ep22_dialogues5_7_af4e039f:
     # "Может быть их не пропустят сюда?"
     mt "I wish Dick would call sooner."
     "What's taking them so long?!?!"
-    "Но..."
+    "But..."
     "Maybe they can't find this place."
     "Perhaps they will not be allowed here."
 
@@ -2003,7 +2003,7 @@ translate english ep22_dialogues5_14_51145218:
 
     # dick2 "ЧТО?!?!"
     # "ОПЯТЬ ОНА ЗА СВОЕ?!?!"
-    dick2 "ЧТО?!?!"
+    dick2 "WHAT?!?!"
     "WAS IT HER AGAIN?!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1589

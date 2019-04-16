@@ -12,7 +12,7 @@ translate english ep22_dialogues4_1b_0c077cbd:
 translate english ep22_dialogues4_1_ba11ae58:
 
     # betty "Моника, гувернантка."
-    betty "Моника, гувернантка."
+    betty "Monica, maid."
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:39
 translate english ep22_dialogues4_1_000edcab:
@@ -518,7 +518,7 @@ translate english ep22_dialogues4_6_loop3_120168c2:
 translate english ep22_dialogues4_6_loop3_3e46ee9f:
 
     # betty "Хорошо..."
-    betty "Хорошо..."
+    betty "Fine..."
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:545
 translate english ep22_dialogues4_6_loop3_bc9847de:
@@ -526,7 +526,7 @@ translate english ep22_dialogues4_6_loop3_bc9847de:
     # fitness_instructor "Давай попробуем еще одно упражнение..."
     # betty "Хорошо..."
     fitness_instructor "Let's try another exercise..."
-    betty "Хорошо..."
+    betty "Fine..."
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:552
 translate english ep22_dialogues4_6_loop3_64188de3:
@@ -554,7 +554,7 @@ translate english ep22_dialogues4_6_loop3_ff5c6891:
 translate english ep22_dialogues4_6_loop3_75cec871:
 
     # betty "Правда?"
-    betty "Правда?"
+    betty "Really?"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:562
 translate english ep22_dialogues4_6_loop3_7bf9017b:
@@ -793,4 +793,32 @@ translate english strings:
     # Quests/EP2_02/ep22_dialogues4.rpy:478
     old "Смотреть на Бетти."
     new "Look at Betty."
+
+# TODO: Translation updated at 2019-04-16 13:23
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:121
+translate english ep22_dialogues4_1a0_013047f9:
+
+    # m "Я готова, Миссис Роберс..."
+    m "Я готова, Миссис Роберс..."
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:123
+translate english ep22_dialogues4_1a0_79fb76ea:
+
+    # betty "Я заждалась тебя, нерадивая гувернантка."
+    # betty "Быстро бери мою сумку и поехали скорее!"
+    betty "Я заждалась тебя, нерадивая гувернантка."
+    betty "Быстро бери мою сумку и поехали скорее!"
+
+# game/Quests/EP2_02/ep22_dialogues4.rpy:127
+translate english ep22_dialogues4_1a0_f8ae02a3:
+
+    # m "Да, Миссис Робертс..."
+    m "Yes, Mrs. Roberts..."
+
+translate english strings:
+
+    # Quests/EP2_02/ep22_dialogues4.rpy:116
+    old "Я готова, Миссис Робертс..."
+    new ""
 

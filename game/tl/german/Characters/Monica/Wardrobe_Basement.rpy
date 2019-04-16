@@ -140,3 +140,11 @@ translate german strings:
     old "Не переодеваться."
     new "Zieh dich nicht um."
 
+# TODO: Translation updated at 2019-04-16 13:23
+
+translate german strings:
+
+    # Characters/Monica/Wardrobe_Basement.rpy:17
+    old ""
+    new ""
+
