@@ -369,8 +369,8 @@ translate english citizen9_dialogue_pilon_loop9_569b0b94:
     # citizen9 "Ты знаешь, тут не далеко продают кебабы, хотя ты конечно знаешь!"
     # "Если ты сходишь мне вот так за кебабом, я дам тебе 100$. Что скажешь?"
     mt "In your dreams..."
-    citizen9 "Ты знаешь, тут не далеко продают кебабы, хотя ты конечно знаешь!"
-    "Если ты сходишь мне вот так за кебабом, я дам тебе 100$. Что скажешь?"
+    citizen9 "You know, not far from here one guy is selling kebabs, although of course you know it!"
+    "If you go like this and buy me a kebab, I will give you $ 100. What do you say?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:235
 translate english citizen9_dialogue_pilon_loop9_6d3309d4:
@@ -379,8 +379,8 @@ translate english citizen9_dialogue_pilon_loop9_6d3309d4:
     # citizen9 "А что тут не понятно? Ну в одежде, которая на тебе сейчас."
     # m "Да ни за что!"
     # mt "Хотя 100$ - не маленькие деньги..."
-    m "Что значит Вот так?!"
-    citizen9 "А что тут не понятно? Ну в одежде, которая на тебе сейчас."
+    m "What do you mean?"
+    citizen9 "And what's not clear here? Well, in the clothes you wearing now."
     m "No way!"
-    mt "Хотя 100$ - не маленькие деньги..."
+    mt "Although $ 100 is quite a lot ..."
 

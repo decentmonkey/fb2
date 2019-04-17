@@ -548,9 +548,9 @@ translate german citizen15_dialogue_pilon_loop15_2bb78383:
     # citizen15 "Только после того, как покажешь."
     # citizen15 "Деньги вперед я могу дать только твоему сутенеру!"
     # citizen15 "Извини, но таким девочкам как ты я на слово не верю..."
-    citizen15 "Только после того, как покажешь."
-    citizen15 "Деньги вперед я могу дать только твоему сутенеру!"
-    citizen15 "Извини, но таким девочкам как ты я на слово не верю..."
+    citizen15 "Erst nachdem du es mir gezeigt hast."
+    citizen15 "Das Geld kann ich nur deinem Zuhälter geben!"
+    citizen15 "Tut mir leid, aber ich glaube Mädchen wie dir kein Wort..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:163
 translate german citizen15_dialogue_pilon_loop15_d6109ac7:
@@ -558,7 +558,7 @@ translate german citizen15_dialogue_pilon_loop15_d6109ac7:
     # m "!!!"
     # m "Отвернись!"
     m "!!!"
-    m "Отвернись!"
+    m "Dreh dich um!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:180
 translate german citizen15_dialogue_pilon_loop15_6ee7beb7:
@@ -704,11 +704,11 @@ translate german citizen15_dialogue_pilon_loop15_73c7d835:
     citizen15 "Willst du nochmal $ 50? Zeig mir mal was Neues."
     citizen15 "Du kannst noch Eine mitbringen und das Geld mit ihr teilen."
     citizen15 "Aber, ich habe fast schon Jede hier in der Gegend gesehen..."
-    citizen15 "Ich bin bereit zu zahlen, für das ich bereits gesehen habe [monicaWhoringNakedBoobsMoney]$!"
+    citizen15 "Ich bin bereit zu zahlen, für das ich bereits gesehen habe [monicaWhoringNakedBoobsMoney]$ !"
     m "Ich habe niemanden zum mitbringen!"
     m "Und meine Brüste sind die Besten!"
     mt "Selbst internationale Magazine haben darüber berichtet!"
-    citizen15 "Ich kann dich bezahlen [monicaWhoringNakedBoobsMoney]$, nichts weiter..."
+    citizen15 "Ich kann dich bezahlen [monicaWhoringNakedBoobsMoney]$ , nichts weiter..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:347
 translate german citizen15_dialogue_pilon_loop15_ef3db6ad:
@@ -742,7 +742,7 @@ translate german citizen15_dialogue_pilon_loop15_6daa14d5:
     m "Wieder..."
     citizen15 "Ich will deine Babies heute nicht sehen."
     citizen15 "Zeig sie jemand Anderem."
-    citizen15 "Ich bin sicher, du kannst verdienen [monicaWhoringNakedBoobsMoney]$."
+    citizen15 "Ich bin sicher, du kannst verdienen [monicaWhoringNakedBoobsMoney]$ ."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:386
 translate german citizen15_dialogue_pilon_loop15_b71b7bd7_1:

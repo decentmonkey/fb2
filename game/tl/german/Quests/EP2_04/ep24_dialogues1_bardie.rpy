@@ -213,7 +213,7 @@ translate german ep24_dialogues1_bardie_9ca2b454:
 # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:188
 translate german ep24_dialogues1_bardie_36516b7d:
 
-    # bardie "Ты занимаешь фитнесом, правда?!"
+    # bardie "Ты занимаешься фитнесом, правда?!"
     bardie "Arbeitest du da?"
 
 # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:192
@@ -318,7 +318,7 @@ translate german ep24_dialogues2_bardie_03d30b3b:
 translate german ep24_dialogues1_bardie3_3c6405a7:
 
     # help "Прогресс Барди активирован!"
-    help "Прогресс Барди активирован!"
+    help "Bardies Fortschritt ist aktiviert!"
 
 translate german strings:
 
@@ -333,4 +333,12 @@ translate german strings:
     # Quests/EP2_04/ep24_dialogues1_bardie.rpy:248
     old "Барди, пойдем вниз, я хочу поговорить с тобой."
     new "Bardi, lass usn runter gehen, ich möchte mit dir sprechen."
+
+# TODO: Translation updated at 2019-04-17 05:15
+
+# game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:188
+translate german ep24_dialogues1_bardie_68d1866e:
+
+    # bardie "Ты занимаешься фитнесом, правда?!"
+    bardie "Ты занимаешься фитнесом, правда?!"
 

@@ -1497,3 +1497,11 @@ translate german ep23_dialogues1_1a_e2dd79be:
     mt "Ich kann nicht in die Kneipe, wenn ich diese Werbung trage."
     mt "Ich stecke im Eingang fest."
 
+# TODO: Translation updated at 2019-04-17 04:57
+
+translate german strings:
+
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:163
+    old "Меня зовут... (enter для ввода)"
+    new ""
+

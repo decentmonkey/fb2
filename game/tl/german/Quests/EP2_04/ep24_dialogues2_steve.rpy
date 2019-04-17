@@ -264,7 +264,7 @@ translate german ep24_dialogues2_steve2_f2cdd6ec:
 translate german ep24_dialogues2_steve3_5206cbca:
 
     # steve "Здравствуй, Ральф!"
-    steve "Hallo, Ralf!"
+    steve "Hallo, Ralph!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:173
 translate german ep24_dialogues2_steve3_f4667557:
@@ -401,7 +401,7 @@ translate german ep24_dialogues2_steve5_3c4cd95d:
 
     # steve "О, Ральф!"
     # steve "Я не видел этой фотографии!"
-    steve "Hey, Ralf!"
+    steve "Hey, Ralph!"
     steve "Dieses Foto kenne ich noch gar nicht."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:256
@@ -435,7 +435,7 @@ translate german ep24_dialogues2_steve5_ecc599a9:
 
     # steve "А ты, Ральф? Редкое фото, где ты улыбаешься, дружище!"
     # ralph "Кхм... Да, Стив. Меня немного смущает, что Бетти развесила эти фото повсюду и..."
-    steve "Und was ist mit dir, Ralf? Ich kenne kaum ein Bild, auf dem du lächelst!"
+    steve "Und was ist mit dir, Ralph? Ich kenne kaum ein Bild, auf dem du lächelst!"
     ralph "Hmmm... Ja... Steve. Ich schäme mich etwas. Bettys Fotos hängen hier überall."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:272
@@ -444,7 +444,7 @@ translate german ep24_dialogues2_steve5_5b57e5fe:
     # betty "Ральф! Помолчи!"
     # betty "Мы семья, а это значит, что наши фото должны быть повсюду."
     # betty "Тем более в нашем доме!"
-    betty "Halt die Klappe, Ralf!"
+    betty "Halt die Klappe, Ralph!"
     betty "Wir sind eine Familie, unsere Fotos sollten überall sein."
     betty "Besonders in unserem eigenen Haus."
 
@@ -452,7 +452,7 @@ translate german ep24_dialogues2_steve5_5b57e5fe:
 translate german ep24_dialogues2_steve5_80cb0dc4:
 
     # betty "Ральф, ты слишком стеснительный! Ведь Стив твой старый друг!"
-    betty "Ralf, du bist zu schüchtern. Steve ist dein alter Freund, oder etwa nicht?"
+    betty "Ralph, du bist zu schüchtern. Steve ist dein alter Freund, oder etwa nicht?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:279
 translate german ep24_dialogues2_steve5_2ffcd7bb:
@@ -506,7 +506,7 @@ translate german ep24_dialogues2_steve5a_7283fef4:
     # steve "Скажи, тебе хорошо живется здесь?"
     # steve "Старина Ральф не обижает тебя?"
     steve "Wie lebt es sich hier?"
-    steve "Ich hoffe, der gute Ralf behandelt dich gut?"
+    steve "Ich hoffe, der gute Ralph behandelt dich gut?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:319
 translate german ep24_dialogues2_steve5a_699977fb:
@@ -514,13 +514,13 @@ translate german ep24_dialogues2_steve5a_699977fb:
     # betty "Нет, Стив..."
     # "Ральф меня очень любит."
     betty "Ja, tut er ..."
-    "Ralf liebt mich über alles."
+    "Ralph liebt mich über alles."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:323
 translate german ep24_dialogues2_steve5a_9a767eb0:
 
     # "Правда, Ральф?"
-    "Nicht wahr, Ralf?"
+    "Nicht wahr, Ralph?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:326
 translate german ep24_dialogues2_steve5a_073aec04:
@@ -540,7 +540,7 @@ translate german ep24_dialogues2_steve5a_bbc4e156:
 translate german ep24_dialogues2_steve5a_0164661e:
 
     # betty "Стив. Я хочу, чтобы ты повлиял на Ральфа."
-    betty "Steve, ich will, dass du Ralf irgendwie beeinflusst."
+    betty "Steve, ich will, dass du Ralph irgendwie beeinflusst."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:342
 translate german ep24_dialogues2_steve5a_18a3d759:
@@ -554,13 +554,13 @@ translate german ep24_dialogues2_steve5a_18a3d759:
 translate german ep24_dialogues2_steve5a_7290db1c:
 
     # betty "А Ральф как ребенок. За ним все время приходится приглядывать!"
-    betty "Aber Ralf verhät sich wie ein Kind. Ständig muss ich ihm nachlaufen!"
+    betty "Aber Ralph verhät sich wie ein Kind. Ständig muss ich ihm nachlaufen!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:349
 translate german ep24_dialogues2_steve5a_99cda7cc:
 
     # steve "Бетти, Ральфу просто нравится твое внимание! Хе-хе."
-    steve "Betty, Ralf mag einfach nur deine Aufmerksamkeit! Hehe."
+    steve "Betty, Ralph mag einfach nur deine Aufmerksamkeit! Hehe."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:351
 translate german ep24_dialogues2_steve5a_a9ee83fe:
@@ -574,7 +574,7 @@ translate german ep24_dialogues2_steve5a_9a0594d1:
     # betty "А я думаю это из-за того, что Ральф рассеянный и неорганизованный."
     # betty "Я люблю во всем порядок! А от Ральфа один бардак!"
     betty "Ich glaube, es liegt daran, dass er chaotisch und unorganisiert ist."
-    betty "Ich liebe die Ordnung in Allem! Ralf macht nur Unordnung."
+    betty "Ich liebe die Ordnung in Allem! Ralph macht nur Unordnung."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:359
 translate german ep24_dialogues2_steve5a_df37ebcb:
@@ -592,7 +592,7 @@ translate german ep24_dialogues2_steve5a_cad2f288:
 translate german ep24_dialogues2_steve5a_cd1acb22:
 
     # betty "Молчи, Ральф!"
-    betty "Halt die Klappe, Ralf!"
+    betty "Halt die Klappe, Ralph!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:366
 translate german ep24_dialogues2_steve5a_4497daa8:
@@ -723,8 +723,8 @@ translate german ep24_dialogues2_steve6_e0fbd474:
 
     # betty "Ральф!"
     # betty "Ральф!!!"
-    betty "Ralf!"
-    betty "Ralf!!!"
+    betty "Ralph!"
+    betty "Ralph!!!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:447
 translate german ep24_dialogues2_steve6_2dd28349:
@@ -758,7 +758,7 @@ translate german ep24_dialogues2_steve6_5e5a14e6:
     # betty "Можешь ехать домой, Стив."
     # "Я сама присмотрю за Ральфом."
     betty "Du kannst nun gehen, Steve."
-    "Ich kümmere mich selbst um Ralf."
+    "Ich kümmere mich selbst um Ralph."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:502
 translate german ep24_dialogues2_steve7_4a2e4de0:
@@ -888,7 +888,7 @@ translate german ep24_dialogues2_steve7_9f3decea:
     # steve "Он скучает по твоей попке, Бетти!"
     # "Мне даже пришлось повысить Ральфа, чтобы твоя попка была поближе к моему члену."
     steve "Und vermisst deinen Arsch..."
-    "Ich musste Ralf befördern, um meinen Schwanz näher an dich zu bekommen."
+    "Ich musste Ralph befördern, um meinen Schwanz näher an dich zu bekommen."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:577
 translate german ep24_dialogues2_steve7_3501d293:
@@ -900,7 +900,7 @@ translate german ep24_dialogues2_steve7_3501d293:
 translate german ep24_dialogues2_steve7_b4bee1a8:
 
     # "Я люблю его и он мой муж."
-    "Und ich liebe Ralf sehr!"
+    "Und ich liebe Ralph sehr!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:582
 translate german ep24_dialogues2_steve7_817a96d0:
@@ -996,7 +996,7 @@ translate german ep24_dialogues2_steve7_3f8be045:
     betty "Oh!"
     betty "Hast du mich nicht verstanden, Steve?"
     betty "Ich bin verheiratet, ich kann es mit dir nicht mehr machen!"
-    betty "Ich kann Ralf nicht betrügen!"
+    betty "Ich kann Ralph nicht betrügen!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:645
 translate german ep24_dialogues2_steve7_390e0273:
@@ -1060,7 +1060,7 @@ translate german ep24_dialogues2_steve7_c5e648b1:
     # betty "Не получится, Стив!"
     # betty "Я не собираюсь изменять Ральфу!"
     betty "Nein, kannst du nicht, Steve!"
-    betty "Ich werde Ralf nicht betrügen!"
+    betty "Ich werde Ralph nicht betrügen!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:733
 translate german ep24_dialogues2_steve7_e49dcf17:
@@ -1364,7 +1364,7 @@ translate german ep24_dialogues3_steve10_4604bb56:
     # steve "Надеюсь что ты мне рад!"
     # ralph "Стив, я всегда рад тебе!"
     # ralph "Пожалуйста, проходи!"
-    steve "Ralf! Hey Kumpel!"
+    steve "Ralph! Hey Kumpel!"
     steve "Tut mir leid, ich bin wieder hier um dich zu besuchen!"
     steve "Ich hoffe, es macht dir nichts aus."
     ralph "Nein, ich freue mich immer, dich zu sehen!"
@@ -1374,7 +1374,7 @@ translate german ep24_dialogues3_steve10_4604bb56:
 translate german ep24_dialogues3_steve10_2c615982:
 
     # steve "Ральф, а где Бетти?"
-    steve "Ralf, wo ist Betty?"
+    steve "Ralph, wo ist Betty?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:928
 translate german ep24_dialogues3_steve10_0080f098:
@@ -1387,7 +1387,7 @@ translate german ep24_dialogues3_steve10_b499b733:
 
     # steve "Ральф, но как же нам быть?"
     # steve "Бетти так прекрасно обслуживала нас!"
-    steve "Was machen wir denn da, Ralf?"
+    steve "Was machen wir denn da, Ralph?"
     steve "Betty war so eine tolle Gastgeberin letztes Mal!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:937
@@ -1399,7 +1399,7 @@ translate german ep24_dialogues3_steve10_e2fd542e:
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:939
 translate german ep24_dialogues3_steve10_bf96a7c6:
 
-    # steve "И что, эта гувернантка также хорошая как Бетти?"
+    # steve "И что, эта гувернантка также хороша как Бетти?"
     steve "Ist sie so gut wie Betty?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:944
@@ -1423,7 +1423,7 @@ translate german ep24_dialogues3_steve10_29b6a8c7:
 
     # steve "Хорошо, Ральф."
     # steve "Зови свою гувернантку!"
-    steve "Ok, Ralf."
+    steve "Ok, Ralph."
     steve "Ruf sie."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:957
@@ -1487,7 +1487,7 @@ translate german ep24_dialogues3_steve10_17708d48:
 
     # steve "Ральф, дружище!"
     # steve "Я очень рад за тебя!"
-    steve "Ralf, Kumpel."
+    steve "Ralph, Kumpel."
     steve "Ich freue mich für dich."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1034
@@ -1581,7 +1581,7 @@ translate german ep24_dialogues3_steve10_6e4b04f1:
 
     # steve "Ральф! Давай скорее выпьем!"
     # steve "У меня отличное настроение сегодня!"
-    steve "Ralf, beeil dich! Trinken wir!"
+    steve "Ralph, beeil dich! Trinken wir!"
     steve "Ich habe heute beste Stimmung!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1130
@@ -1589,7 +1589,7 @@ translate german ep24_dialogues3_steve10_7cbadb7a:
 
     # steve "Ральф! Может быть позовешь свою гувернантку снова?"
     # steve "Мы скучаем без внимания!"
-    steve "Ralf, ich denke, du solltest dein Hausmädchen nochmal rufen!"
+    steve "Ralph, ich denke, du solltest dein Hausmädchen nochmal rufen!"
     steve "Es wird langweilig, ohne die Aufmerksamkeit von jemandem."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1138
@@ -1686,7 +1686,7 @@ translate german ep24_dialogues3_steve10_4b27a89f:
     # steve "Какая у тебя горячая гувернантка, Ральф!"
     # steve "Давай скорее еще выпьем!"
     # ralph "Давай, Стив!"
-    steve "Dein hausmädchen ist sehr sexy, Ralf!"
+    steve "Dein hausmädchen ist sehr sexy, Ralph!"
     steve "Komm schon, trinken wir mehr!"
     ralph "Gerne, Steve!"
 
@@ -1695,7 +1695,7 @@ translate german ep24_dialogues3_steve10_f36bf247:
 
     # steve "Ральф?!"
     # steve "Ты меня слышишь, Ральф?! Или ты спишь?"
-    steve "Ralf?!"
+    steve "Ralph?!"
     steve "Hörst du schlecht? Schläfst du?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1283
@@ -1820,7 +1820,7 @@ translate german ep24_dialogues3_steve10_99fb64b4:
     # m "Есть некоторые проблемы, но я их скоро решу!"
     # m "Но, пока что Ральфу необязательно знать о том, кто я такая на самом деле."
     m "Da gibt es einige Sachen, aber ich kümmere mich um alles!"
-    m "Aber, momentan muss Ralf nicht wissen, wer ich wirklich bin."
+    m "Aber, momentan muss Ralph nicht wissen, wer ich wirklich bin."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1357
 translate german ep24_dialogues3_steve10_559cdc98:
@@ -1834,7 +1834,7 @@ translate german ep24_dialogues3_steve10_90c05a8d:
     # steve "Моника, я с удовольствием помогу тебе!"
     # steve "Я не буду рассказывать Ральфу кто ты такая!"
     steve "Sicherlich, ich freue mich, wenn ich helfen kann."
-    steve "Ich werde Ralf kein Wort sagen."
+    steve "Ich werde Ralph kein Wort sagen."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1367
 translate german ep24_dialogues3_steve10_33e7eda0:
@@ -1842,7 +1842,7 @@ translate german ep24_dialogues3_steve10_33e7eda0:
     # m "О! Спасибо, Стив! Спасибо большое тебе!"
     # m "Спасибо за твою помощь, которая заключается в том что ты просто не расскажешь Ральфу обо мне!"
     m "Danke, Steve."
-    m "Vielen Dank, nur bitte sag Ralf nichts von mir."
+    m "Vielen Dank, nur bitte sag Ralph nichts von mir."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1370
 translate german ep24_dialogues3_steve10_470f4ab4:
@@ -2330,7 +2330,7 @@ translate german ep24_dialogues3_steve10_5d5a64a8:
 translate german ep24_dialogues3_steve10_6e2c5945:
 
     # m "Мне нужно хотя бы $ 10.000, Стив!"
-    m "Ich will wenigstens 10.000 $, Steve."
+    m "Ich will wenigstens 10.000 $ , Steve."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1704
 translate german ep24_dialogues3_steve10_ea8b5237:
@@ -2388,7 +2388,7 @@ translate german ep24_dialogues3_steve10_loop1_1e514647:
     # m "Тогда за целый объект $ 7.000!"
     # steve "За целый объект $ 4.000"
     m "7.000 $ für das Ganze!"
-    steve "Ich biete 4.000 $!"
+    steve "Ich biete 4.000 $ !"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1743
 translate german ep24_dialogues3_steve10_loop1_a80cb2c1:
@@ -2428,7 +2428,7 @@ translate german ep24_dialogues3_steve10_loop1_01da054a:
     # m "$ 5.500 за целый!"
     # steve "За целый $4.000!"
     m "5.500 $"
-    steve "4.000 $!"
+    steve "4.000 $ !"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1774
 translate german ep24_dialogues3_steve10_loop1_08b1a7d1:
@@ -2722,7 +2722,7 @@ translate german strings:
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:434
     old "ПОЗДНИЙ ВЕЧЕР..."
-    new ""
+    new "SPÄT AM ABEND..."
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:556
     old "Да, помнит..."
@@ -2770,7 +2770,7 @@ translate german strings:
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1686
     old "Мне нужно хотя бы $ 10.000, Стив!"
-    new "Ich will wenigstens 10.000 $, Steve."
+    new "Ich will wenigstens 10.000 $ , Steve."
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1729
     old "$ 8.000 за весь объект аренды!"
@@ -2837,14 +2837,14 @@ translate german ep24_dialogues3_steve10_locked1_b1cfe043:
 
     # mt "В доме гости. Мне нельзя отлучаться."
     # mt "Иначе мне влетит от Бетти."
-    mt "В доме гости. Мне нельзя отлучаться."
-    mt "Иначе мне влетит от Бетти."
+    mt "Wir haben Gäste. Ich kann nicht gehen."
+    mt "Sonst wird mich Betty bestrafen."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:936
 translate german ep24_dialogues3_steve10_locked1_593daf6e:
 
     # mt "От этой сучки!"
-    mt "От этой сучки!"
+    mt "Von dieser Schlampe!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:941
 translate german ep24_dialogues3_steve10_enter_room1_50a1699e:
@@ -2859,14 +2859,14 @@ translate german ep24_dialogues3_steve10_enter_room2_727f2b7b:
 
     # mt "Я пойду туда только если меня позовут."
     # mt "Мне вообще не хочется идти туда!"
-    mt "Я пойду туда только если меня позовут."
-    mt "Мне вообще не хочется идти туда!"
+    mt "Ich gehe rein, wenn sie mich rufen!"
+    mt "Da will ich nicht hin..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:977
 translate german ep24_dialogues3_steve10a_2c615982:
 
     # steve "Ральф, а где Бетти?"
-    steve "Ralf, wo ist Betty?"
+    steve "Ralph, wo ist Betty?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:979
 translate german ep24_dialogues3_steve10a_0080f098:
@@ -2879,7 +2879,7 @@ translate german ep24_dialogues3_steve10a_b499b733:
 
     # steve "Ральф, но как же нам быть?"
     # steve "Бетти так прекрасно обслуживала нас!"
-    steve "Was machen wir denn da, Ralf?"
+    steve "Was machen wir denn da, Ralph?"
     steve "Betty war so eine tolle Gastgeberin letztes Mal!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:989
@@ -2891,7 +2891,7 @@ translate german ep24_dialogues3_steve10a_e2fd542e:
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:992
 translate german ep24_dialogues3_steve10a_bf96a7c6:
 
-    # steve "И что, эта гувернантка также хорошая как Бетти?"
+    # steve "И что, эта гувернантка также хороша как Бетти?"
     steve "Ist sie so gut wie Betty?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:998
@@ -2915,7 +2915,7 @@ translate german ep24_dialogues3_steve10a_29b6a8c7:
 
     # steve "Хорошо, Ральф."
     # steve "Зови свою гувернантку!"
-    steve "Ok, Ralf."
+    steve "Ok, Ralph."
     steve "Ruf sie."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1014
@@ -2947,8 +2947,8 @@ translate german ep24_dialogues3_steve10a2_73d78c8c:
     ralph "Monica, Hausmädchen!"
     ralph "Komm her!"
     mt "..."
-    mt "Дьявол! Меня зовут!"
-    mt "Интересно, кто там пришел..."
+    mt "Zum Teufel, sie rufen nach mir!"
+    mt "Ich frage mich, wer da ist..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1060
 translate german ep24_dialogues3_steve10b_0a5616b8:
@@ -3011,7 +3011,7 @@ translate german ep24_dialogues3_steve10b_17708d48:
 
     # steve "Ральф, дружище!"
     # steve "Я очень рад за тебя!"
-    steve "Ralf, Kumpel."
+    steve "Ralph, Kumpel."
     steve "Ich freue mich für dich."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1140
@@ -3036,17 +3036,17 @@ translate german ep24_dialogues3_steve10b2_ed6121fc:
     # mt "..."
     # mt "Подумаю позже. Сейчас мне надо принести этим ничтожествам стаканы для виски."
     # mt "Я думаю что Бетти все приготовила на кухне."
-    mt "Гость оказался Стивом! Я так и знала!"
-    mt "Что же мне теперь делать?"
+    mt "Der Gast ist Steve! Ich wusste es!"
+    mt "Was soll ich jetzt tun?"
     mt "..."
-    mt "Подумаю позже. Сейчас мне надо принести этим ничтожествам стаканы для виски."
-    mt "Я думаю что Бетти все приготовила на кухне."
+    mt "Darüber denke ich später nach. Jetzt muss ich diese Whiskeygläser bringen."
+    mt "Ich denke, Betty hat alles in der Küche erledigt."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1163
 translate german ep24_dialogues3_steve10b4_daab20ef:
 
     # mt "Я еще не сделала то что мне сказал Ральф."
-    mt "Я еще не сделала то что мне сказал Ральф."
+    mt "Ich habe nicht getan, was Ralph mir gesagt hat."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1234
 translate german ep24_dialogues3_steve10c_57a4bc01:
@@ -3125,7 +3125,7 @@ translate german ep24_dialogues3_steve10c_6e4b04f1:
 
     # steve "Ральф! Давай скорее выпьем!"
     # steve "У меня отличное настроение сегодня!"
-    steve "Ralf, beeil dich! Trinken wir!"
+    steve "Ralph, beeil dich! Trinken wir!"
     steve "Ich habe heute beste Stimmung!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1317
@@ -3133,7 +3133,7 @@ translate german ep24_dialogues3_steve10c3_7cbadb7a:
 
     # steve "Ральф! Может быть позовешь свою гувернантку снова?"
     # steve "Мы скучаем без внимания!"
-    steve "Ralf, ich denke, du solltest dein Hausmädchen nochmal rufen!"
+    steve "Ralph, ich denke, du solltest dein Hausmädchen nochmal rufen!"
     steve "Es wird langweilig, ohne die Aufmerksamkeit von jemandem."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1326
@@ -3150,7 +3150,7 @@ translate german ep24_dialogues3_steve10c2_e6555122:
     # mt "Меня снова зовут... Что им еще от меня надо?!"
     ralph "Monica, Hausmädchen!"
     mt "..."
-    mt "Меня снова зовут... Что им еще от меня надо?!"
+    mt "Sie rufen wieder nach mir... Was könnten sie denn noch wollen?!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1349
 translate german ep24_dialogues3_steve10d_1b8add67:
@@ -3172,11 +3172,11 @@ translate german ep24_dialogues3_steve10d2_d7c42b2c:
     # mt "Хотя, вообще-то я притворяюсь ей..."
     # mt "..."
     # mt "Ладно, где там эта еда? Бетти должна была все приготовить..."
-    mt "Принеси то! Принеси это!"
-    mt "Я им спрашивается кто?! Служанка?!"
-    mt "Хотя, вообще-то я притворяюсь ей..."
+    mt "Bring das! Bring es jetzt!"
+    mt "Was bin ich für die? Die Magd?!"
+    mt "Obwohl, eigentlich gebe ich ja vor, das Hausmädchen zu sein..."
     mt "..."
-    mt "Ладно, где там эта еда? Бетти должна была все приготовить..."
+    mt "Ok, wo ist das Essen? Betty sollte doch alles kochen..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1388
 translate german ep24_dialogues3_steve10e_581db8cf:
@@ -3250,7 +3250,7 @@ translate german ep24_dialogues3_steve10e_4b27a89f:
     # steve "Какая у тебя горячая гувернантка, Ральф!"
     # steve "Давай скорее еще выпьем!"
     # ralph "Давай, Стив!"
-    steve "Dein hausmädchen ist sehr sexy, Ralf!"
+    steve "Dein hausmädchen ist sehr sexy, Ralph!"
     steve "Komm schon, trinken wir mehr!"
     ralph "Gerne, Steve!"
 
@@ -3259,21 +3259,21 @@ translate german ep24_dialogues3_steve10e2_fde68a07:
 
     # mt "Мне надо надеть трусики! Стив все время пялится мне под юбку!"
     # mt "Мерзавец!"
-    mt "Мне надо надеть трусики! Стив все время пялится мне под юбку!"
+    mt "Ich muss Höschen tragen! Steve schaut mich dauernd an!"
     mt "Bastard!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1583
 translate german ep24_dialogues3_steve10e3_270d598a:
 
     # mt "Я не собираюсь снимать трусики, пока в этом доме Стив!"
-    mt "Я не собираюсь снимать трусики, пока в этом доме Стив!"
+    mt "Ich werde nicht mein Höschen ausziehen, solange Steve im Haus ist!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1605
 translate german ep24_dialogues3_steve10f_f36bf247:
 
     # steve "Ральф?!"
     # steve "Ты меня слышишь, Ральф?! Или ты спишь?"
-    steve "Ralf?!"
+    steve "Ralph?!"
     steve "Hörst du schlecht? Schläfst du?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1613
@@ -3398,7 +3398,7 @@ translate german ep24_dialogues3_steve10g_99fb64b4:
     # m "Есть некоторые проблемы, но я их скоро решу!"
     # m "Но, пока что Ральфу необязательно знать о том, кто я такая на самом деле."
     m "Da gibt es einige Sachen, aber ich kümmere mich um alles!"
-    m "Aber, momentan muss Ralf nicht wissen, wer ich wirklich bin."
+    m "Aber, momentan muss Ralph nicht wissen, wer ich wirklich bin."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1708
 translate german ep24_dialogues3_steve10g_559cdc98:
@@ -3412,7 +3412,7 @@ translate german ep24_dialogues3_steve10g_90c05a8d:
     # steve "Моника, я с удовольствием помогу тебе!"
     # steve "Я не буду рассказывать Ральфу кто ты такая!"
     steve "Sicherlich, ich freue mich, wenn ich helfen kann."
-    steve "Ich werde Ralf kein Wort sagen."
+    steve "Ich werde Ralph kein Wort sagen."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1721
 translate german ep24_dialogues3_steve10g_33e7eda0:
@@ -3420,7 +3420,7 @@ translate german ep24_dialogues3_steve10g_33e7eda0:
     # m "О! Спасибо, Стив! Спасибо большое тебе!"
     # m "Спасибо за твою помощь, которая заключается в том что ты просто не расскажешь Ральфу обо мне!"
     m "Danke, Steve."
-    m "Vielen Dank, nur bitte sag Ralf nichts von mir."
+    m "Vielen Dank, nur bitte sag Ralph nichts von mir."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1724
 translate german ep24_dialogues3_steve10g_470f4ab4:
@@ -3908,7 +3908,7 @@ translate german ep24_dialogues3_steve10g_5d5a64a8:
 translate german ep24_dialogues3_steve10g_6e2c5945:
 
     # m "Мне нужно хотя бы $ 10.000, Стив!"
-    m "Ich will wenigstens 10.000 $, Steve."
+    m "Ich will wenigstens 10.000 $ , Steve."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2106
 translate german ep24_dialogues3_steve10g_ea8b5237:
@@ -3956,7 +3956,7 @@ translate german ep24_dialogues3_steve10g_4273abc6:
 translate german ep24_dialogues3_steve10a1_6db67b6d:
 
     # mt "Я не собираюсь подходить к этой пьяной скотине!"
-    mt "Я не собираюсь подходить к этой пьяной скотине!"
+    mt "Ich werde mich diesem betrunkenen Tier nicht nähern!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2520
 translate german ep24_dialogues3_steve10b1_47128440:
@@ -3967,30 +3967,158 @@ translate german ep24_dialogues3_steve10b1_47128440:
     # mt "И это... Что это было за чувство?"
     # mt "Я, как-будто, потеряла сознание..."
     # mt "Странное ощущение..."
-    mt "БОЖЕ! Моника!"
-    mt "Что ты наделала?"
-    mt "Надеюсь ты не пожалеешь об этом!"
-    mt "И это... Что это было за чувство?"
-    mt "Я, как-будто, потеряла сознание..."
-    mt "Странное ощущение..."
+    mt "Gott! Monica!"
+    mt "Was hast du getan?!"
+    mt "Ich hoffe, das wirst du nicht bereuen!"
+    mt "Und das... was ist das für ein Gefühl?"
+    mt "Ich, als wäre ich fast ohnmächtig geworden..."
+    mt "Ein seltsames Gefühl..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2527
 translate german ep24_dialogues3_steve10b1_9c96ea13:
 
     # mt "Мерзавец!!!"
-    mt "Мерзавец!!!"
+    mt "Dieser Bastard!!!"
 
 translate german strings:
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1168
     old "Взять стаканы под виски."
-    new ""
+    new "Nimm die Whiskey Gläser."
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1364
     old "Взять еду и отнести гостям."
-    new ""
+    new "Nimm das Essen und bring es den Gästen."
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1595
     old "Вечер..."
+    new "Abends..."
+
+# TODO: Translation updated at 2019-04-17 04:51
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1518
+translate german ep24_dialogues3_steve10e_7f440450:
+
+    # m "Пожалуйста, Мистер Стив."
+    m "Hier ist sie, Steve."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1521
+translate german ep24_dialogues3_steve10e_f5a50bfc:
+
+    # "Вот Ваша вилка..."
+    "Ihre Gabel..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1901
+translate german ep24_dialogues3_steve10g_47f7d55b:
+
+    # steve "Прости, Моника! Я не хотел обидеть тебя!"
+    # steve "Я лишь пытаюсь помочь!"
+    # steve "Ты ведь знаешь, я бы помог тебе и просто так."
+    # steve "Но я бизнесмен и ограничен в своих действиях."
+    steve "Tut mir Leid, Monica. Ich wollte nicht aufdringlich sein."
+    steve "Ich versuche nur zu helfen."
+    steve "Weißt du, ich hätte dir geholfen, wenn ich könnte, ohne solche Hintertürchen."
+    steve "Jedenfalls, ich muss mich auch um meine Interessen kümmern."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2183
+translate german ep24_dialogues3_steve10g_171d381a:
+
+    # m "Стив, если $ 1.000 - это все что у тебя есть, то, может быть, ты дашь их мне просто так?"
+    # steve "Прости, Моника! Но мне очень важно заключить эту сделку!"
+    # steve "Это очень важный объект аренды, он мне очень нужен! Это..."
+    m "Wenn 1.000 $ alles sind, was du hast, kannst du mir nichts dafür geben?"
+    steve "Tut mir Leid, Monica, aber das kann ich nicht machen!"
+    steve "Es ist für mich sehr wichtig, das Mietverhältnis abzuschließen für deinen..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2335
+translate german ep24_dialogues3_steve10_loop1_32d4c647:
+
+    # m "Я забыла спросить, Стив..."
+    # m "Деньги у тебя с собой?!"
+    # steve "Моника, конечно с собой!"
+    # steve "Они у меня на банковской карте! Я могу перевести их тебе прямо сейчас..."
+    # steve "Вернее, после окончания аренды твоей..."
+    # m "Заткнись! Я так и знала!"
+    # m "Купишь подарочный сертификат и отправишь его на адрес, который я скажу."
+    # steve "Нет проблем, Моника! Не отвлекайся!"
+    m "Ich habe vergessen zu fragen, Steve..."
+    m "Hast du Geld dabei?"
+    steve "Natürlich!"
+    steve "Ich habe es hier auf meiner Bankkarte. Ich kann das Geld jederzeit überweisen."
+    steve "Ich meine, nachdem ich eine gewisse Zeit deinen... gemietet habe."
+    m "Halt die Klappe! Ich wusste es!"
+    m "Du wirst einen Schuldschein kaufen und ihn an eine gewisse Adresse bringen."
+    steve "Kein Problem, Monica! Lass dich jetzt nich ablenken."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2408
+translate german ep24_dialogues3_steve10_loop1_d57c1180:
+
+    # m "Черт, Стив! Какой ты огромный!"
+    # steve "Моника, тебе нравится? Я так и знал!"
+    # m "Нет, Стив!"
+    m "Verdammt, Steve. Der ist so groß!"
+    steve "Magst du das, Monica? Ich wusste es."
+    m "Nein, Steve."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2413
+translate german ep24_dialogues3_steve10_loop1_83036aed:
+
+    # m "Мне... Ах..."
+    m "Ich... natürlich..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2415
+translate german ep24_dialogues3_steve10_loop1_8c59c371:
+
+    # m "Мне не нравится, конечно же! Ах!!!"
+    m "Natürlich... Ich... Ahhh..."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2701
+translate german ep24_dialogues3_steve11_f4652fa3:
+
+    # mt "Мне стоит проверить, переслал-ли Стив деньги..."
+    mt "Ich muss überprüfen, ob Steve Wort gehalten hat."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2705
+translate german ep24_dialogues3_steve11_6491aff0:
+
+    # mt "От этого мешка с дерьмом можно ожидать чего угодно!"
+    mt "Diesem Drecksack würde ich alles zutrauen."
+
+translate german strings:
+
+    # Quests/EP2_04/ep24_dialogues2_steve.rpy:1513
+    old "Отдать вилку Стиву..."
     new ""
+
+    # Quests/EP2_04/ep24_dialogues2_steve.rpy:1513
+    old "Взять вилку в руку! (Bitchiness!)"
+    new ""
+
+    # Quests/EP2_04/ep24_dialogues2_steve.rpy:1513
+    old "Взять вилку в руку! (Моника слишком приличная) (disabled)"
+    new ""
+
+    # Quests/EP2_04/ep24_dialogues2_steve.rpy:1876
+    old "Моника угрожала Стиву вилкой"
+    new ""
+
+    # Quests/EP2_04/ep24_dialogues2_steve.rpy:2207
+    old "Моника сказала Стиву по телефону что он мешок с дерьмом.."
+    new ""
+
+    # Quests/EP2_04/ep24_dialogues2_steve.rpy:2626
+    old "Толкнуть Стива в бассейн... (Моника недостаточно стерва) (disabled)"
+    new ""
+
+    # Quests/EP2_04/ep24_dialogues2_steve.rpy:2626
+    old "Дать визитку... (Моника слишком стерва) (disabled)"
+    new ""
+
+# TODO: Translation updated at 2019-04-17 05:15
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:992
+translate german ep24_dialogues3_steve10a_093b93a1:
+
+    # steve "И что, эта гувернантка также хороша как Бетти?"
+    steve "И что, эта гувернантка также хороша как Бетти?"
 

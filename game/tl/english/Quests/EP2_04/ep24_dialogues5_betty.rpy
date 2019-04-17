@@ -157,7 +157,7 @@ translate english ep24_dialogues5_betty5_d0568c5b:
     # betty "С этого дня ты должна ходить по дому и убираться без трусиков..."
     # m "!!!"
     # m "Но почему, Миссис Робертс?!?!"
-    # m "Ведь я просто наемные работник!"
+    # m "Ведь я просто наемный работник!"
     # m "И Вы не имеете права требовать этого!"
     # betty "Нерадивая гувернантка!"
     # betty "Если я еще раз увижу тебя в трусиках, то ты вылетишь из дома в тот же миг!"
@@ -258,25 +258,25 @@ translate english strings:
 translate english ep24_dialogues5_betty0a_8944db1b:
 
     # help "Прогресс Бетти активирован!"
-    help "Прогресс Бетти активирован!"
+    help "Betty's Progress activated!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:11
 translate english ep24_dialogues5_betty0_bbe44df1:
 
     # m "Миссис Робертс, Вы дадите мне минуту, чтобы собраться?"
-    m "Миссис Робертс, Вы дадите мне минуту, чтобы собраться?"
+    m "Mrs. Roberts, will you give me a minute to pack up?"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:13
 translate english ep24_dialogues5_betty0_55daa0f5:
 
     # betty "Не более минуты, гувернантка. Я не собираюсь ждать тебя."
-    betty "Не более минуты, гувернантка. Я не собираюсь ждать тебя."
+    betty "Not more than a minute, governess. I'm not going to wait for you."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:16
 translate english ep24_dialogues5_betty0_bcf04fb0:
 
     # m "Да, Миссис Робертс, я быстро вернусь..."
-    m "Да, Миссис Робертс, я быстро вернусь..."
+    m "Yes, Mrs. Roberts, I will return quickly ..."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:30
 translate english ep24_dialogues5_betty1_3c04b17a:
@@ -521,7 +521,7 @@ translate english ep24_dialogues5_betty1_91fde7f7:
 
     # betty "И брей свою киску! Мне не нужны твои волосы на моих трусиках!"
     # betty "!!!"
-    betty "И брей свою киску! Мне не нужны твои волосы на моих трусиках!"
+    betty "And shave your pussy! I do not need your hair on my panties!"
     betty "!!!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:193
@@ -564,7 +564,7 @@ translate english ep24_dialogues5_betty2_375ea530:
 translate english ep24_dialogues5_betty2_47df2098:
 
     # bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
-    bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
+    bardie "I will check that you are following the house rules!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:302
 translate english ep24_dialogues5_betty2_99bb31af:
@@ -612,7 +612,7 @@ translate english ep24_dialogues5_betty2b_375ea530_4:
 translate english ep24_dialogues5_betty2b_47df2098:
 
     # bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
-    bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
+    bardie "I will check that you are following the house rules!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:385
 translate english ep24_dialogues5_betty2b_99bb31af:
@@ -636,7 +636,7 @@ translate english ep24_dialogues5_betty3_99bb31af:
 translate english ep24_dialogues5_betty3_db8f9b40:
 
     # betty "Гувернантка, Я уже показывала тебе сегодня!"
-    betty "Гувернантка, Я уже показывала тебе сегодня!"
+    betty "Governess, I already showed you today!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:416
 translate english ep24_dialogues5_betty3_e612037c:
@@ -654,31 +654,31 @@ translate english ep24_dialogues5_betty3_71b0b52f:
 translate english ep24_dialogues5_betty3_c795cddb:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Here, governess, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:447
 translate english ep24_dialogues5_betty3_c795cddb_1:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Here, governess, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:462
 translate english ep24_dialogues5_betty3_c795cddb_2:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Here, governess, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:477
 translate english ep24_dialogues5_betty3_c795cddb_3:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Here, governess, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:501
 translate english ep24_dialogues5_betty3_d209f8fd:
 
     # betty "И не вздумай одеть другие!"
-    betty "И не вздумай одеть другие!"
+    betty "And do not try to wear others!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:506
 translate english ep24_dialogues5_betty3_72c4389d:
@@ -702,7 +702,7 @@ translate english ep24_dialogues5_betty4_99bb31af:
 translate english ep24_dialogues5_betty4_db8f9b40:
 
     # betty "Гувернантка, Я уже показывала тебе сегодня!"
-    betty "Гувернантка, Я уже показывала тебе сегодня!"
+    betty "Governess, I already showed you today!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:527
 translate english ep24_dialogues5_betty4_e612037c:
@@ -714,61 +714,61 @@ translate english ep24_dialogues5_betty4_e612037c:
 translate english ep24_dialogues5_betty4_c795cddb:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Here, governess, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:537
 translate english ep24_dialogues5_betty4_d209f8fd:
 
     # betty "И не вздумай одеть другие!"
-    betty "И не вздумай одеть другие!"
+    betty "And do not try to wear others!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:542
 translate english ep24_dialogues5_betty4_c795cddb_1:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Here, governess, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:546
 translate english ep24_dialogues5_betty4_d209f8fd_1:
 
     # betty "И не вздумай одеть другие!"
-    betty "И не вздумай одеть другие!"
+    betty "And do not try to wear others!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:551
 translate english ep24_dialogues5_betty4_c795cddb_2:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Here, governess, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:555
 translate english ep24_dialogues5_betty4_d209f8fd_2:
 
     # betty "И не вздумай одеть другие!"
-    betty "И не вздумай одеть другие!"
+    betty "And do not try to wear others!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:560
 translate english ep24_dialogues5_betty4_c795cddb_3:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Here, governess, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:564
 translate english ep24_dialogues5_betty4_d209f8fd_3:
 
     # betty "И не вздумай одеть другие!"
-    betty "И не вздумай одеть другие!"
+    betty "And do not try to wear others!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:569
 translate english ep24_dialogues5_betty4_c795cddb_4:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Here, governess, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:573
 translate english ep24_dialogues5_betty4_d209f8fd_4:
 
     # betty "И не вздумай одеть другие!"
-    betty "И не вздумай одеть другие!"
+    betty "And do not try to wear others!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:598
 translate english ep24_dialogues5_betty5_ba11ae58:
@@ -865,7 +865,7 @@ translate english ep24_dialogues5_betty5_2bbea0e5:
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:643
 translate english ep24_dialogues5_betty5_cad8cc63:
 
-    # m "Ведь я просто наемные работник!"
+    # m "Ведь я просто наемный работник!"
     m "I'm just an employee!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:645
@@ -936,7 +936,7 @@ translate english ep24_dialogues5_betty6_99bb31af:
 translate english ep24_dialogues5_betty6_db8f9b40:
 
     # betty "Гувернантка, Я уже показывала тебе сегодня!"
-    betty "Гувернантка, Я уже показывала тебе сегодня!"
+    betty "Governess, I already showed you today!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:729
 translate english ep24_dialogues5_betty6_67dc66da:
@@ -998,7 +998,7 @@ translate english ep24_dialogues5_betty7_f2060836:
 translate english ep24_dialogues5_betty7_db8f9b40:
 
     # betty "Гувернантка, Я уже показывала тебе сегодня!"
-    betty "Гувернантка, Я уже показывала тебе сегодня!"
+    betty "Governess, I already showed you today!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:900
 translate english ep24_dialogues5_betty7_67dc66da:
@@ -1019,4 +1019,12 @@ translate english ep24_dialogues5_betty7_896757c5:
 
     # m "Я тоже соблюдаю правила этого дома..."
     m "I'm also following rules..."
+
+# TODO: Translation updated at 2019-04-17 05:17
+
+# game/Quests/EP2_04/ep24_dialogues5_betty.rpy:643
+translate english ep24_dialogues5_betty5_2c9182a3:
+
+    # m "Ведь я просто наемный работник!"
+    m "Ведь я просто наемный работник!"
 

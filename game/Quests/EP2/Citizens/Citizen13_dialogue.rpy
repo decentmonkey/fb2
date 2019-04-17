@@ -210,7 +210,7 @@ label citizen13_dialogue_pilon:
             call pylonController(4, 1)
             mt "Да не дай бог..."
             citizen13 "Подруга, а где ты такие сделала?"
-            m "Что?! Она настоящие!"
+            m "Что?! Они настоящие!"
             call pylonController(4, 5)
             citizen13 "Да?! Хорошо сохранилась, подруга!"
             $ showedNakedBoobs = True

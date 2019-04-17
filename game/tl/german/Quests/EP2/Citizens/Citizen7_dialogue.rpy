@@ -388,19 +388,19 @@ translate german citizen7_dialogue_pilon_loop7_d6ab9fda:
     # citizen7 "Думаю, я знаю, чему будет посвящена моя следующая картина!"
     # citizen7 "Да, кстати, как насчет того, чтобы стать моей моделью? Это новый уровень!"
     # m "Нет, спасибо."
-    citizen7 "Думаю, я знаю, чему будет посвящена моя следующая картина!"
-    citizen7 "Да, кстати, как насчет того, чтобы стать моей моделью? Это новый уровень!"
+    citizen7 "Ich denke, ich weiß, was mein nächstes Gemälde sein wird!"
+    citizen7 "Oh, anbei, Wie wäre es, wenn du mein Model wirst? Das wäre großartig!"
     m "Nein, danke."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:189
 translate german citizen7_dialogue_pilon_loop7_84b9d58d:
 
     # citizen7 "Уверен, ты передумаешь! Сотни девушек мечтают о карьере модели!"
-    citizen7 "Уверен, ты передумаешь! Сотни девушек мечтают о карьере модели!"
+    citizen7 "Ich wette, du wirst deine Meinung ändern! Hunderte Mädchen träumen davon!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:191
 translate german citizen7_dialogue_pilon_loop7_8e436805:
 
     # mt "Мне ли не знать, хе-хе..."
-    mt "Мне ли не знать, хе-хе..."
+    mt "Ich kenne mich da aus... hehe."
 

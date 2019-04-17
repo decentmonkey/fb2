@@ -372,7 +372,7 @@ translate english citizen1_dialogue_pilon_loop1_1_3b497a8f:
     # citizen1 "Ладно, не горячись, тетя! Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
     citizen1 "Hey, lady! Would you like to earn some more?"
     m "..."
-    citizen1 "У меня идея! Нас как раз двое, как и твоих подружек. Давай обнимемся!"
-    m "Даже не надейся!"
-    citizen1 "Ладно, не горячись, тетя! Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
+    citizen1 "I have an idea! We are just two, like your girlfriends. Let's hug!"
+    m "Do not even hope!"
+    citizen1 "All right, don't get mad! You don't mind earning a little more ... Squeeze your delicious nipples!"
 

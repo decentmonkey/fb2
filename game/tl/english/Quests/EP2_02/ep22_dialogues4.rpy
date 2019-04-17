@@ -800,15 +800,15 @@ translate english strings:
 translate english ep22_dialogues4_1a0_013047f9:
 
     # m "Я готова, Миссис Роберс..."
-    m "Я готова, Миссис Роберс..."
+    m "I'm ready, Mrs. Roberts ..."
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:123
 translate english ep22_dialogues4_1a0_79fb76ea:
 
     # betty "Я заждалась тебя, нерадивая гувернантка."
     # betty "Быстро бери мою сумку и поехали скорее!"
-    betty "Я заждалась тебя, нерадивая гувернантка."
-    betty "Быстро бери мою сумку и поехали скорее!"
+    betty "I waited for you, careless governess."
+    betty "Quickly take my bag and let's go!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:127
 translate english ep22_dialogues4_1a0_f8ae02a3:
@@ -820,5 +820,5 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues4.rpy:116
     old "Я готова, Миссис Робертс..."
-    new ""
+    new "I am ready, Mrs Roberts"
 

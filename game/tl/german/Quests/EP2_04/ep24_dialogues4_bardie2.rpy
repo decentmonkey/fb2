@@ -16,7 +16,7 @@ translate german ep24_dialogues4_bardie1_5cdf954e:
     # bardie "Мне нужно еще раз оказаться там!"
     # bardie "Позови меня снова в следующий раз!"
     # mt "Посмотрим..."
-    bardie "Ja, sie betrügt Ralf definitiv."
+    bardie "Ja, sie betrügt Ralph definitiv."
     bardie "Aber ich habe noch nicht genügend Beweise."
     bardie "Ich muss nochmal hin."
     bardie "Lass mich wissen, wann du wieder hin gehst."
@@ -44,7 +44,7 @@ translate german ep24_dialogues4_bardie1_a4144443:
     # bardie "И, если Бетти не хочет остаться без всего того что она имеет..."
     # bardie "И если не хочет уехать назад в свою дыру, то ей теперь придется хорошо себя вести!"
     bardie "Ja, sie vögelt rum."
-    bardie "Anbei, Sie und Ralf haben einen Ehevertrag."
+    bardie "Anbei, Sie und Ralph haben einen Ehevertrag."
     bardie "Und sollte Betty nicht alles verlieren wollen."
     bardie "Und wenn sie nicht in das Loch zurück will, aus dem sie gekommen ist, wird sie sich nun benehmen müssen!"
 
@@ -60,7 +60,7 @@ translate german ep24_dialogues4_bardie1_1a722070:
     # bardie "Но теперь это моя забота! И только попробуй рассказать об этом кому-то еще!"
     # bardie "Особенно Ральфу!"
     bardie "Aber das ist nun meine Sache. Und wage es nicht, jemandem davon zu erzählen!"
-    bardie "Besonders nicht Ralf!"
+    bardie "Besonders nicht Ralph!"
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:81
 translate german ep24_dialogues4_bardie1_4823e88a:
@@ -72,7 +72,7 @@ translate german ep24_dialogues4_bardie1_4823e88a:
 translate german ep24_dialogues4_bardie1_a1145a2a:
 
     # m "И ЧТО СО МНОЙ БУДЕТ ЕСЛИ Я РАССКАЖУ ПРО ЭТУ СУЧКУ РАЛЬФУ?!"
-    m "WAS KÖNNTE MIR PASSIEREN, WENN ICH RALF VON DIESER SCHLAMPE ERZÄHLE?"
+    m "WAS KÖNNTE MIR PASSIEREN, WENN ICH Ralph VON DIESER SCHLAMPE ERZÄHLE?"
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:87
 translate german ep24_dialogues4_bardie1_7c84411e:
@@ -105,7 +105,7 @@ translate german ep24_dialogues4_bardie1_539a3f42:
 
     # bardie "Между прочим, у Бетти с Ральфом подписан брачный договор!"
     # bardie "И, если Бетти не хочет остаться без всего того что она имеет..."
-    bardie "Anbei, Sie und Ralf haben einen Ehevertrag."
+    bardie "Anbei, Sie und Ralph haben einen Ehevertrag."
     bardie "Und sollte Betty nicht alles verlieren wollen."
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:114
@@ -126,7 +126,7 @@ translate german ep24_dialogues4_bardie1_1a722070_1:
     # bardie "Но теперь это моя забота! И только попробуй рассказать об этом кому-то еще!"
     # bardie "Особенно Ральфу!"
     bardie "Aber das ist nun meine Sache. Und wage es nicht, jemandem davon zu erzählen!"
-    bardie "Besonders nicht Ralf!"
+    bardie "Besonders nicht Ralph!"
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:122
 translate german ep24_dialogues4_bardie1_4823e88a_1:
@@ -138,7 +138,7 @@ translate german ep24_dialogues4_bardie1_4823e88a_1:
 translate german ep24_dialogues4_bardie1_a1145a2a_1:
 
     # m "И ЧТО СО МНОЙ БУДЕТ ЕСЛИ Я РАССКАЖУ ПРО ЭТУ СУЧКУ РАЛЬФУ?!"
-    m "WAS KÖNNTE MIR PASSIEREN, WENN ICH RALF VON DIESER SCHLAMPE ERZÄHLE?"
+    m "WAS KÖNNTE MIR PASSIEREN, WENN ICH Ralph VON DIESER SCHLAMPE ERZÄHLE?"
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:128
 translate german ep24_dialogues4_bardie1_7c84411e_1:

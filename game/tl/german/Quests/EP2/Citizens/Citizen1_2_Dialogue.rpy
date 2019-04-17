@@ -526,7 +526,7 @@ translate german citizen1_dialogue_pilon_loop1_1_3b497a8f:
     # citizen1 "Ладно, не горячись, тетя! Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
     citizen1 "Hey! Wie wärs mit ein bisschen mehr?"
     m "..."
-    citizen1 "У меня идея! Нас как раз двое, как и твоих подружек. Давай обнимемся!"
-    m "Даже не надейся!"
-    citizen1 "Ладно, не горячись, тетя! Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
+    citizen1 "Ich habe eine Idee! Wir sind zu zweit, wie mit einer Freundin, lass uns einfach umarmen!"
+    m "Denk nicht mal dran!"
+    citizen1 "Schon gut, werd nicht gleich sauer. Du hast doch nichts dagegen, etwas mehr zu verdienen... Wenn ich deine scharfen Nippel etwas drücke?"
 

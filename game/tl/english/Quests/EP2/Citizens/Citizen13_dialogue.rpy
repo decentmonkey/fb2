@@ -379,14 +379,25 @@ translate english citizen13_dialogue_pilon_loop13_1_76a597a6:
 
     # mt "Да не дай бог..."
     # citizen13 "Подруга, а где ты такие сделала?"
-    # m "Что?! Она настоящие!"
+    # m "Что?! Они настоящие!"
     mt "I hope not..."
-    citizen13 "Подруга, а где ты такие сделала?"
-    m "Что?! Она настоящие!"
+    citizen13 "Honey, where did you get such boobs?"
+    m "What?! They are real!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:215
 translate english citizen13_dialogue_pilon_loop13_1_caac09a2:
 
     # citizen13 "Да?! Хорошо сохранилась, подруга!"
-    citizen13 "Да?! Хорошо сохранилась, подруга!"
+    citizen13 "Really?! Well preserved, honey!"
+# TODO: Translation updated at 2019-04-17 04:57
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:211
+translate english citizen13_dialogue_pilon_loop13_1_ae70b3b3:
+
+    # mt "Да не дай бог..."
+    # citizen13 "Подруга, а где ты такие сделала?"
+    # m "Что?! Они настоящие!"
+    mt "Да не дай бог..."
+    citizen13 "Подруга, а где ты такие сделала?"
+    m "What?! They are real!"
 

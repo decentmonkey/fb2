@@ -4,25 +4,25 @@
 translate german ep24_dialogues5_betty0a_8944db1b:
 
     # help "Прогресс Бетти активирован!"
-    help "Прогресс Бетти активирован!"
+    help "Bettys Fortschritt ist aktiviert!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:11
 translate german ep24_dialogues5_betty0_bbe44df1:
 
     # m "Миссис Робертс, Вы дадите мне минуту, чтобы собраться?"
-    m "Миссис Робертс, Вы дадите мне минуту, чтобы собраться?"
+    m "Frau Roberts, geben sie mir eine Minute um alles zusammen zu packen?"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:13
 translate german ep24_dialogues5_betty0_55daa0f5:
 
     # betty "Не более минуты, гувернантка. Я не собираюсь ждать тебя."
-    betty "Не более минуты, гувернантка. Я не собираюсь ждать тебя."
+    betty "Aber nicht mehr als eine Minute, Dienstmädchen. Ich werde nicht auf dich warten."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:16
 translate german ep24_dialogues5_betty0_bcf04fb0:
 
     # m "Да, Миссис Робертс, я быстро вернусь..."
-    m "Да, Миссис Робертс, я быстро вернусь..."
+    m "Ja, Frau Roberts... Ich komme schnell zurück."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:30
 translate german ep24_dialogues5_betty1_3c04b17a:
@@ -267,7 +267,7 @@ translate german ep24_dialogues5_betty1_91fde7f7:
 
     # betty "И брей свою киску! Мне не нужны твои волосы на моих трусиках!"
     # betty "!!!"
-    betty "И брей свою киску! Мне не нужны твои волосы на моих трусиках!"
+    betty "Und rasiere deine Pussy! Ich will keine Haare auf meinem Höschen!"
     betty "!!!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:193
@@ -310,7 +310,7 @@ translate german ep24_dialogues5_betty2_375ea530:
 translate german ep24_dialogues5_betty2_47df2098:
 
     # bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
-    bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
+    bardie "Ich werde das überprüfen."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:302
 translate german ep24_dialogues5_betty2_99bb31af:
@@ -358,7 +358,7 @@ translate german ep24_dialogues5_betty2b_375ea530_4:
 translate german ep24_dialogues5_betty2b_47df2098:
 
     # bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
-    bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
+    bardie "Ich werde das überprüfen."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:385
 translate german ep24_dialogues5_betty2b_99bb31af:
@@ -382,7 +382,7 @@ translate german ep24_dialogues5_betty3_99bb31af:
 translate german ep24_dialogues5_betty3_db8f9b40:
 
     # betty "Гувернантка, Я уже показывала тебе сегодня!"
-    betty "Гувернантка, Я уже показывала тебе сегодня!"
+    betty "Dienstmädchen, ich habe es dir heute schon gezeigt!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:416
 translate german ep24_dialogues5_betty3_e612037c:
@@ -400,31 +400,31 @@ translate german ep24_dialogues5_betty3_71b0b52f:
 translate german ep24_dialogues5_betty3_c795cddb:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Hier, Dienstmädchen, schau."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:447
 translate german ep24_dialogues5_betty3_c795cddb_1:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Hier, Dienstmädchen, schau."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:462
 translate german ep24_dialogues5_betty3_c795cddb_2:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Hier, Dienstmädchen, schau."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:477
 translate german ep24_dialogues5_betty3_c795cddb_3:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Hier, Dienstmädchen, schau."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:501
 translate german ep24_dialogues5_betty3_d209f8fd:
 
     # betty "И не вздумай одеть другие!"
-    betty "И не вздумай одеть другие!"
+    betty "Und wage es nicht, Andere zu tragen!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:506
 translate german ep24_dialogues5_betty3_72c4389d:
@@ -448,7 +448,7 @@ translate german ep24_dialogues5_betty4_99bb31af:
 translate german ep24_dialogues5_betty4_db8f9b40:
 
     # betty "Гувернантка, Я уже показывала тебе сегодня!"
-    betty "Гувернантка, Я уже показывала тебе сегодня!"
+    betty "Dienstmädchen, ich habe es dir heute schon gezeigt!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:527
 translate german ep24_dialogues5_betty4_e612037c:
@@ -460,61 +460,61 @@ translate german ep24_dialogues5_betty4_e612037c:
 translate german ep24_dialogues5_betty4_c795cddb:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Hier, Dienstmädchen, schau."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:537
 translate german ep24_dialogues5_betty4_d209f8fd:
 
     # betty "И не вздумай одеть другие!"
-    betty "И не вздумай одеть другие!"
+    betty "Und wage es nicht, Andere zu tragen!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:542
 translate german ep24_dialogues5_betty4_c795cddb_1:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Hier, Dienstmädchen, schau."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:546
 translate german ep24_dialogues5_betty4_d209f8fd_1:
 
     # betty "И не вздумай одеть другие!"
-    betty "И не вздумай одеть другие!"
+    betty "Und wage es nicht, Andere zu tragen!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:551
 translate german ep24_dialogues5_betty4_c795cddb_2:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Hier, Dienstmädchen, schau."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:555
 translate german ep24_dialogues5_betty4_d209f8fd_2:
 
     # betty "И не вздумай одеть другие!"
-    betty "И не вздумай одеть другие!"
+    betty "Und wage es nicht, Andere zu tragen!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:560
 translate german ep24_dialogues5_betty4_c795cddb_3:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Hier, Dienstmädchen, schau."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:564
 translate german ep24_dialogues5_betty4_d209f8fd_3:
 
     # betty "И не вздумай одеть другие!"
-    betty "И не вздумай одеть другие!"
+    betty "Und wage es nicht, Andere zu tragen!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:569
 translate german ep24_dialogues5_betty4_c795cddb_4:
 
     # betty "На, гувернантка, смотри."
-    betty "На, гувернантка, смотри."
+    betty "Hier, Dienstmädchen, schau."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:573
 translate german ep24_dialogues5_betty4_d209f8fd_4:
 
     # betty "И не вздумай одеть другие!"
-    betty "И не вздумай одеть другие!"
+    betty "Und wage es nicht, Andere zu tragen!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:598
 translate german ep24_dialogues5_betty5_ba11ae58:
@@ -611,7 +611,7 @@ translate german ep24_dialogues5_betty5_2bbea0e5:
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:643
 translate german ep24_dialogues5_betty5_cad8cc63:
 
-    # m "Ведь я просто наемные работник!"
+    # m "Ведь я просто наемный работник!"
     m "Ich bin nur eine Angestelle!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:645
@@ -690,7 +690,7 @@ translate german ep24_dialogues5_betty6_99bb31af:
 translate german ep24_dialogues5_betty6_db8f9b40:
 
     # betty "Гувернантка, Я уже показывала тебе сегодня!"
-    betty "Гувернантка, Я уже показывала тебе сегодня!"
+    betty "Dienstmädchen, ich habe es dir heute schon gezeigt!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:729
 translate german ep24_dialogues5_betty6_67dc66da:
@@ -760,7 +760,7 @@ translate german ep24_dialogues5_betty7_f2060836:
 translate german ep24_dialogues5_betty7_db8f9b40:
 
     # betty "Гувернантка, Я уже показывала тебе сегодня!"
-    betty "Гувернантка, Я уже показывала тебе сегодня!"
+    betty "Dienstmädchen, ich habe es dir heute schon gezeigt!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:900
 translate german ep24_dialogues5_betty7_67dc66da:
@@ -791,4 +791,12 @@ translate german strings:
     # Quests/EP2_04/ep24_dialogues5_betty.rpy:198
     old "Промолчать..."
     new "Sage nichts."
+
+# TODO: Translation updated at 2019-04-17 05:15
+
+# game/Quests/EP2_04/ep24_dialogues5_betty.rpy:643
+translate german ep24_dialogues5_betty5_2c9182a3:
+
+    # m "Ведь я просто наемный работник!"
+    m "Ведь я просто наемный работник!"
 

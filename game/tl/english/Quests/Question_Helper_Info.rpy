@@ -242,7 +242,7 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:149
     old "Стив приходил в гости к Ральфу. Мне надо избегать встречи с ним!"
-    new "Steve visited Ralf. I have to avoid him."
+    new "Steve visited Ralph. I have to avoid him."
 
     # Quests/Question_Helper_Info.rpy:149
     old "Не могу поверить что я согласилась на секс со Стивом! Мне надо проверить перевел-ли он деньги Виктории."
@@ -253,7 +253,7 @@ translate english strings:
     new "He lied to me again! Does he think that he can have sex with me for free?"
 
     # Quests/Question_Helper_Info.rpy:149
-    old "Барди снова требует от меня каких-то извращений! Похоже, удалось переключить его на Бетти. Давно стоит проучить ее за то как она обращается со мной! Итак, надо сообщать Барди когда мы собираемя идти на фитнесс..."
+    old "Барди снова требует от меня каких-то извращений! Похоже, удалось переключить его на Бетти. Давно стоит проучить ее за то как она обращается со мной! Итак, надо сообщать Барди когда мы собираемся идти на фитнесс..."
     new "Bardi is demanding something perverted from me again! Looks like I was able to point him towards Betty for now. Serves her right for treating me like that. Have to infrom Bardi when we are going to the gym..."
 
     # Quests/Question_Helper_Info.rpy:149

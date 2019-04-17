@@ -52,5 +52,5 @@ translate english strings:
 translate english bettyProgressLevelUp1_b07ccb77:
 
     # help "Уровень Бетти максимален для этой версии игры. Ожидайте обновлений!"
-    help "Уровень Бетти максимален для этой версии игры. Ожидайте обновлений!"
+    help "Betty's level is maximum for this version of the game. Wait for updates!"
 

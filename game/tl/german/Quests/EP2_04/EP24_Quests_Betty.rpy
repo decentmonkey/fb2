@@ -8,21 +8,21 @@ translate german strings:
 
     # Quests/EP2_04/EP24_Quests_Betty.rpy:21
     old "Говорить."
-    new ""
+    new "Spreche"
 
     # Quests/EP2_04/EP24_Quests_Betty.rpy:23
     old "Смотреть."
-    new ""
+    new "Schau zu"
 
     # Quests/EP2_04/EP24_Quests_Betty.rpy:30
     old "Бетти должна показать, если я спрошу ее об этом...."
-    new ""
+    new "Betty sollte es mir zeigen, wenn ich sie danach frage..."
 
     # Quests/EP2_04/EP24_Quests_Betty.rpy:191
     old "Бетти запрещено носить трусики...."
-    new ""
+    new "Betty ist es verboten, ein Höschen zu tragen..."
 
     # Quests/EP2_04/EP24_Quests_Betty.rpy:192
     old "Униформа гувернантки (без трусиков)"
-    new ""
+    new "Dienstmädchenuniform (ohne Höschen)"
 

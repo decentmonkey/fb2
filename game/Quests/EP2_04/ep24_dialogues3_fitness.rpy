@@ -410,7 +410,7 @@ label ep24_dialogues3_fitness3c:
     w
 
     img 10209
-    fitness_instructor "Тебе комортно, ты больше не стесняешь меня?"
+    fitness_instructor "Тебе комортно, ты больше не стесняешься меня?"
     img 10210
     betty "Да, мне очень комфортно..."
 

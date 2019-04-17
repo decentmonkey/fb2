@@ -40,6 +40,7 @@ label kebab_work_trader_interact1: # первый разговор о кебаб
     return
 
 label kebab_work_start:
+    $ hudDaySkipToEveningEnabled = False
     $ kebabWorkFlyersLeft = monicaKebabWorkFlyersAmount
     $ rnd1 = rand(0, monicaKebabWorkFlyersAmountRandomDiff)
     if rand(0,1) == 1:
@@ -138,6 +139,7 @@ label kebab_work_end:
         $ kebabOffendQuestJustCompleted = False
         call change_scene("hostel_street2")
         return
+    $ hudDaySkipToEveningEnabled = True
     $ changeDayTime("evening")
     call refresh_scene_fade() from _call_refresh_scene_fade_19
     return

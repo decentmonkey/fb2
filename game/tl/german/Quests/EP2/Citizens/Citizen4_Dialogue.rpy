@@ -447,18 +447,450 @@ translate german citizen4_dialogue_pilon_loop4_7c87a2f3:
     # mt "Что?"
     # citizen4 "Знаешь, мой знакоый может тебе помочь кое в чем... За каких нибудь 500$ твои подруги наберут вес."
     # citizen4 "Тебе дать его номер?"
-    citizen4 "Должен признать, твои сиськи хороши."
-    mt "Ну еще бы!"
-    citizen4 "Хотя страшно подумать, что с ними станет лет через 10..."
+    citizen4 "Ich muss zugeben, deine Brüste sind sehr nett."
+    mt "Natürlich!"
+    citizen4 "Furchtbar, wenn ich mir vorstelle, wie die in zehn Jahren aussehen..."
     mt "Was?"
-    citizen4 "Знаешь, мой знакоый может тебе помочь кое в чем... За каких нибудь 500$ твои подруги наберут вес."
-    citizen4 "Тебе дать его номер?"
+    citizen4 "Weißt du, ich habe einen Freund, der kann dir helfen... Für 500 $ bekommen sie etwas mehr... Gewicht."
+    citizen4 "Willst du seine Nummer?"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:170
 translate german citizen4_dialogue_pilon_loop4_1_90a5df7d:
 
     # m "Меня это не интересует! С тебя хватит!"
     # citizen4 "Погоди минутку. Потряси ка своими сочными сиськами!"
-    m "Меня это не интересует! С тебя хватит!"
+    m "Interessiert mich nicht! Genug jetzt!"
     citizen4 "Einen Moment noch. Wackle mit deinen tollen Brüsten!"
+
+# TODO: Translation updated at 2019-04-17 04:51
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:173
+translate german citizen4_dialogue_pilon_loop4_4009d169:
+
+    # citizen4 "А теперь покажи своих малышек, похоже им там тесно."
+    # mt "Как он может так говорить о моей прекрасной груди?! Извращенец..."
+    citizen4 "Jetzt zeig deine zwei Babies, die wollen doch raus."
+    mt "Wie kann er so über meine wunderschönen Brüste reden?! Perverser..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:184
+translate german citizen4_dialogue_pilon_loop4_b71b7bd7:
+
+    # m "Так и быть, только руками не трогать."
+    # mt "Только попробуй к ним прикоснуться и я сломаю тебе пальцы."
+    m "Gut, aber anfassen ist nicht."
+    mt "Wenn du sie anfasst, breche ich dir die Finger!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:188
+translate german citizen4_dialogue_pilon_loop4_f42f201c:
+
+    # citizen4 "А ничего такие сиськи, но я видел и лучше."
+    citizen4 "Die Brüste sind nicht schlecht, aber ich kenne bessere."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:190
+translate german citizen4_dialogue_pilon_loop4_93f3cbe1:
+
+    # mt "Очень сомневаюсь..."
+    mt "Das bezweifle ich sehr..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:201
+translate german citizen4_dialogue_pilon_loop4_49aafc4d_1:
+
+    # mt "Я не могу себе этого позволить!"
+    # "Я еще не настолько опустилась!"
+    # "И, надеюсь, этого не произойдет НИКОГДА!"
+    # help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+    mt "Das kann ich mir nicht leisten!"
+    "So sehr am Boden bin ich nun auch noch nicht!"
+    "Und ich hoffe, dass das NIE passieren wird!"
+    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] Mehr Korruption benötigt."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:278
+translate german citizen4_show_boobs_first_time_e55cd06e:
+
+    # citizen4 "Хотя... Ты красивая девочка. Хочу оценить их без одежды."
+    # "Я недавно провернул одно дельце и у меня есть лишние 50$. Что скажешь?"
+    citizen4 "Obwohl... Du bist eine Schönheit. Ich würde sie gerne ohne Kleider sehen."
+    "Ich habe kürzlich ein lukratives Geschäft abgewickelt und nun $ 50 übrig. Interesse?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:290
+translate german citizen4_show_boobs_first_time_4d8fb1d0:
+
+    # m "Да за кого ты меня принимаешь?!"
+    # m "Этого не будет никогда!"
+    m "Für wen oder was hältst du mich?"
+    m "Das wird niemals passieren!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:293
+translate german citizen4_show_boobs_first_time_e07e6d72:
+
+    # citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
+    citizen4 "Dann wird meien $ 50 ein aufgeschlosseneres Mädchen verdienen."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:298
+translate german citizen4_show_boobs_first_time_9914d493:
+
+    # mt "50$ были бы не лишними... Хорошо, что здесь никого нет."
+    mt "$ 50 sind jetzt nicht die Welt ... Gut, dass niemand sonst hier ist."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:301
+translate german citizen4_show_boobs_first_time_feded4a2:
+
+    # m "50$ ?"
+    m "50$ ?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:303
+translate german citizen4_show_boobs_first_time_c253e880:
+
+    # citizen4 "Все верно, девочка. Покажешь своих подружек и они твои."
+    citizen4 "Ganz genau, zeig mir deine zwei hübschen Freundinnen, und sie gehören dir."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:306
+translate german citizen4_show_boobs_first_time_742c6916:
+
+    # mt "Черт! Моника, ты уверена что станешь делать это???"
+    # mt "Станешь показывать свою грудь какому-то нищему за жалкие 50$?"
+    mt "Verdammt! Bist du sicher, dass du das tun willst, Monica?"
+    mt "Deine Brüste irgendeinem Penner für $ 50 zeigen?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:310
+translate german citizen4_show_boobs_first_time_43678127:
+
+    # mt "Но, с другой стороны, это же не я показываю грудь, а какая-то шлюха в трущобах."
+    # mt "Ведь никто даже представить себе не может что это делает Моника Бакфетт."
+    # mt "Это как какая-то виртуальная игра, в которой все не по настоящему..."
+    # mt "Но вот 50$, которые я получу, вполне реальны!"
+    mt "Andererseits bin ich das ja gar nicht, das ist ja nur irgendeine Nutte in den Slums..."
+    mt "Niemand würde je glauben, dass Monica Buckfett sowas machen würde..."
+    mt "Es ist wie ein virtuelles Spiel... nicht real..."
+    mt "Wie auch immer, die 50 $ sind dafür sehr real."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:317
+translate german citizen4_show_boobs_first_time_1ee1646f:
+
+    # m "Ладно, только не трогать!"
+    m "Okay, aber nicht anfassen!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:319
+translate german citizen4_show_boobs_first_time_64cc2ce5:
+
+    # citizen4 "Об этом не волнуйся, детка. Я не хочу проблем с твоим сутенером."
+    citizen4 "Keine Angst, Baby. Ich will keine Probleme mit deinem Zuhälter."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:322
+translate german citizen4_show_boobs_first_time_afbf5733:
+
+    # mt "Да за кого он меня принимает?"
+    mt "Wer denkt er, dass ich bin?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:325
+translate german citizen4_show_boobs_first_time_cea02102:
+
+    # m "Хорошо, давай деньги."
+    m "Gut, gib mir das Geld."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:329
+translate german citizen4_show_boobs_first_time_83dd791e:
+
+    # citizen4 "Только после того, как покажешь."
+    # citizen4 "Деньги вперед я могу дать только твоему сутенеру!"
+    # citizen4 "Извини, но таким девочкам как ты я на слово не верю..."
+    citizen4 "Erst nachdem du es mir gezeigt hast."
+    citizen4 "Das Geld kann ich nur deinem Zuhälter geben!"
+    citizen4 "Tut mir leid, aber ich glaube Mädchen wie dir kein Wort..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:338
+translate german citizen4_show_boobs_first_time_d6109ac7:
+
+    # m "!!!"
+    # m "Отвернись!"
+    m "!!!"
+    m "Dreh dich um!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:359
+translate german citizen4_show_boobs_first_time_e6a24dbc:
+
+    # citizen4 "Эй! Куда ты их спрятала?!"
+    citizen4 "Hey! Was machst du da?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:362
+translate german citizen4_show_boobs_first_time_c906aaf6:
+
+    # m "Я показала тебе свою грудь! Давай деньги!"
+    # citizen4 "Ты что, пошутила?! Я ничего не успел рассмотреть!"
+    # m "Ты увидел достаточно! Давай деньги, скорее!"
+    m "Ich habe gemacht, was du wolltest!"
+    citizen4 "Willst du mich verarschen? Ich hatte nicht mal genug Zeit, irgendwas zu sehen!"
+    m "Du hast genug gesehen! Gib mir jetzt das Geld!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:367
+translate german citizen4_show_boobs_first_time_defc2759:
+
+    # citizen4 "Я не дам тебе ничего, пока ты не покажешь мне грудь нормально!"
+    # citizen4 "Я хочу рассмотреть ее как следует! Иначе никаких денег!"
+    citizen4 "Kein Geld, bis du mir das gezeigt hast, was ich sehen will."
+    citizen4 "Ich will einen guten Blick. Sonst gibt's keinen Deal."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:371
+translate german citizen4_show_boobs_first_time_29a4f6ab:
+
+    # m "!!!"
+    m "!!!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:380
+translate german citizen4_show_boobs_first_time_50ea7d20:
+
+    # m "Да за кого ты меня принимаешь?!"
+    # citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
+    m "Für wen oder was hältst du mich?"
+    citizen4 "Dann wird meien $ 50 ein aufgeschlosseneres Mädchen verdienen."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:393
+translate german citizen4_show_boobs_first_time_5eaa9c3c:
+
+    # citizen4 "Эй! Хватит кривляться! Покажи грудь нормально!"
+    citizen4 "Hey! Komm schon!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:396
+translate german citizen4_show_boobs_first_time_6e80a8a3:
+
+    # citizen4 "Покажи грудь, а я досчитаю до пяти!"
+    # citizen4 "Если ты уберешь грудь раньше, то не получишь никаких денег!"
+    citizen4 "Du musst es mir wenigstens 5 Sekunden zeigen!"
+    citizen4 "Wenn nicht, gibt’s kein Geld!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:400
+translate german citizen4_show_boobs_first_time_097e8b2d:
+
+    # m "..."
+    # citizen4 "..."
+    # m "..."
+    # citizen4 "50$!"
+    m "..."
+    citizen4 "..."
+    m "..."
+    citizen4 "!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:412
+translate german citizen4_show_boobs_first_time_50ea7d20_1:
+
+    # m "Да за кого ты меня принимаешь?!"
+    # citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
+    m "Für wen oder was hältst du mich?"
+    citizen4 "Dann wird meien $ 50 ein aufgeschlosseneres Mädchen verdienen."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:423
+translate german citizen4_show_boobs_first_time_bb4d3628:
+
+    # citizen4 "Один..."
+    citizen4 "Eins..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:426
+translate german citizen4_show_boobs_first_time_f3d2aa59:
+
+    # citizen4 "Два..."
+    citizen4 "Zwei..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:429
+translate german citizen4_show_boobs_first_time_58c84d59:
+
+    # citizen4 "Три..."
+    citizen4 "Drei..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:441
+translate german citizen4_show_boobs_first_time_168aba37:
+
+    # citizen4 "Четыре..."
+    citizen4 "Vier..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:448
+translate german citizen4_show_boobs_first_time_460141bf:
+
+    # citizen4 "Пять..."
+    citizen4 "Fünf..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:453
+translate german citizen4_show_boobs_first_time_3b75f582:
+
+    # m "Доволен?"
+    # citizen4 "Более чем..."
+    m "Zufrieden?"
+    citizen4 "Weiter..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:470
+translate german citizen4_show_boobs_regular_time_5521c66a:
+
+    # citizen4 "А теперь покажи своих малышек, похоже им там тесно."
+    citizen4 "Jetzt zeig deine zwei Babies, die wollen doch raus."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:473
+translate german citizen4_show_boobs_regular_time_9825bf93:
+
+    # mt "Мне надо как-то получить больше денег с этого бродяги..."
+    # mt "Может быть показать ему снова мою грудь?"
+    # mt "Он ведь уже видел ее..."
+    mt "Ich muss aus diesem Loser irgendwie mehr Geld raus saugen..."
+    mt "Soll ich ihm meine Brüste nochmal zeigen?"
+    mt "Er hat sie sowieso schon gesehen."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:478
+translate german citizen4_show_boobs_regular_time_1ddb90ac:
+
+    # m "Если ты хочешь, я могу показать тебе свою грудь..."
+    # m "Снова..."
+    m "Ich kann dir meine Brüste zeigen, wenn du willst..."
+    m "Wieder..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:481
+translate german citizen4_show_boobs_regular_time_c9325300:
+
+    # citizen4 "Конечно! Я соскучился по твоим малышкам!"
+    citizen4 "Natürlich! Ich vermisse deine Babies bereits!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:483
+translate german citizen4_show_boobs_regular_time_fdfa89c4:
+
+    # m "50$!"
+    m "!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:485
+translate german citizen4_show_boobs_regular_time_45ccfdf5:
+
+    # citizen4 "Что? Какие еще 50$?"
+    # citizen4 "Я уже видел твоих малышек!"
+    # citizen4 "Хочешь снова 50$ - покажи мне другие!"
+    # citizen4 "Ты можешь привести кого-нибудь и поделить с ней деньги."
+    # citizen4 "Но учти, я уже видел почти всех малышек в этом районе!"
+    # citizen4 "За малышек, которые я уже видел, я готов заплатить [monicaWhoringNakedBoobsMoney]$!"
+    citizen4 "Was? Niemals!"
+    citizen4 "Ich kenne deine doch schon!"
+    citizen4 "Willst du nochmal $ 50? Zeig mir mal was Neues."
+    citizen4 "Du kannst noch Eine mitbringen und das Geld mit ihr teilen."
+    citizen4 "Aber, ich habe fast schon Jede hier in der Gegend gesehen..."
+    citizen4 "Ich bin bereit zu zahlen, für das ich bereits gesehen habe [monicaWhoringNakedBoobsMoney]$ !"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:495
+translate german citizen4_show_boobs_regular_time_1cb5edc2:
+
+    # m "Мне некого приводить!"
+    # m "И моя грудь самая лучшая!"
+    # mt "Черт! Все мировые издания об этом писали!"
+    m "Ich habe niemanden zum mitbringen!"
+    m "Und meine Brüste sind die Besten!"
+    mt "Selbst internationale Magazine haben darüber berichtet!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:500
+translate german citizen4_show_boobs_regular_time_4147e877:
+
+    # citizen4 "Я готов заплатить тебе [monicaWhoringNakedBoobsMoney]$ и не более..."
+    citizen4 "Ich kann dich bezahlen [monicaWhoringNakedBoobsMoney]$ , nichts weiter..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:506
+translate german citizen4_show_boobs_regular_time_ef3db6ad:
+
+    # m "Да за кого ты меня принимаешь?!"
+    m "Für wen oder was hältst du mich?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:518
+translate german citizen4_show_boobs_regular_time_7dec49ad:
+
+    # m "Так и быть, только руками не трогать."
+    m "Gut, aber anfassen ist nicht."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:521
+translate german citizen4_show_boobs_regular_time_9dde3e16:
+
+    # mt "Только попробуй к ним прикоснуться и я сломаю тебе пальцы."
+    mt "Wenn du sie anfasst, breche ich dir die Finger!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:524
+translate german citizen4_show_boobs_regular_time_f42f201c:
+
+    # citizen4 "А ничего такие сиськи, но я видел и лучше."
+    citizen4 "Die Brüste sind nicht schlecht, aber ich kenne bessere."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:527
+translate german citizen4_show_boobs_regular_time_93f3cbe1:
+
+    # mt "Очень сомневаюсь..."
+    mt "Das bezweifle ich sehr..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:537
+translate german citizen4_show_boobs_regular_time_9825bf93_1:
+
+    # mt "Мне надо как-то получить больше денег с этого бродяги..."
+    # mt "Может быть показать ему снова мою грудь?"
+    # mt "Он ведь уже видел ее..."
+    mt "Ich muss aus diesem Loser irgendwie mehr Geld raus saugen..."
+    mt "Soll ich ihm meine Brüste nochmal zeigen?"
+    mt "Er hat sie sowieso schon gesehen."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:542
+translate german citizen4_show_boobs_regular_time_1ddb90ac_1:
+
+    # m "Если ты хочешь, я могу показать тебе свою грудь..."
+    # m "Снова..."
+    m "Ich kann dir meine Brüste zeigen, wenn du willst..."
+    m "Wieder..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:545
+translate german citizen4_show_boobs_regular_time_70a19bf3:
+
+    # citizen4 "Сегодня я не хочу смотреть твоих малышек!"
+    # citizen4 "Покажи их кому-нибудь другому!"
+    # citizen4 "Уверен, ты сможешь заработать [monicaWhoringNakedBoobsMoney]$."
+    citizen4 "Ich will deine Babies heute nicht sehen."
+    citizen4 "Zeig sie jemand Anderem."
+    citizen4 "Ich bin sicher, du kannst verdienen [monicaWhoringNakedBoobsMoney]$ ."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:554
+translate german citizen4_dialogue_after_boobs_first_time_8574f688:
+
+    # mt "Дьявол!"
+    # mt "Я не уверена что мне стоило делать это!"
+    # mt "Я думала это будет проще!"
+    # mt "Этот урод заставил меня пол дня стоять на улице, сверкая своей обнаженной бесценной, очаровательной грудью!"
+    # mt "Но за эти же деньги мне пришлось бы два месяца носить рекламу кебаба..."
+    # mt "Главное - это то что меня никто не видел."
+    # mt "И никто не знает кто я на самом деле, так что я могу делать все что потребуется."
+    # mt "Мне пришлось показать грудь - пускай!"
+    # mt "Это поможет мне сэкономить время на поиск еды, чтобы потратить его на решение моих главных проблем."
+    # mt "Моя цель - это вернуть назад мою роскошную жизнь."
+    # mt "И я не остановлюсь ни перед чем!"
+    mt "Дьявол!"
+    mt "Ich bin nicht sicher, ob es das wert war..."
+    mt "Ich dachte, es wäre einfacher..."
+    mt "Dieser Bastard hat mich dazu gebracht, meine wunderbaren Brüste den halben Tag auf der Straße zu zeigen!"
+    mt "Dennoch viel besser als zwei Monate dieses dumme Kebab-Werbungsschild zu tragen."
+    mt "Ich muss nur sicher stellen, dass mich niemand erkennt..."
+    mt "Solange niemand meine wahre Identität kennt, kann ich machen was ich will."
+    mt "Ich musste meine Brüste zeigen, aber was solls..."
+    mt "Es hilft mir Zeit zu sparen und mich auf meine wahren Probleme zu konzentrieren."
+    mt "Mein Ziel ist mein luxuriöses Leben zurück zu bekommen!"
+    mt "Und nichts wird mich davon abhalten!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:570
+translate german citizen4_dialogue_after_boobs_second_time_87ed28e8:
+
+    # mt "Вот мерзавец!"
+    # mt "Он отказался смотреть на мою грудь даже за [monicaWhoringNakedBoobsMoney]$ !"
+    # mt "Может быть показать мою грудь кому-нибудь еще?"
+    # mt "Это звучит дико, но мне нужны деньги..."
+    # mt "Похоже, в этом районе все относятся совершенно нормально к таким вещам..."
+    # mt "А я нахожусь здесь анонимно..."
+    # mt "То что здесь происходит никак не связано с жизнью Моники Бакфетт."
+    # mt "Так что мне нечего стесняться."
+    # mt "Мне это глубоко противно, но я отношусь к этому с хладнокровием."
+    # mt "В конце концов, это ненадолго."
+    # help "Будет доступно в следующем обновлении игры. Следите за новостями!"
+    mt "Bastard!"
+    mt "Er hat es abgelehnt, selbst [monicaWhoringNakedBoobsMoney]$ für meine Brüste zu zahlen!"
+    mt "Sollte ich meine Brüste jemand Anderem zeigen?"
+    mt "Klingt verrückt, aber ich brauche das Geld..."
+    mt "Sieht so aus, als wären solche Sachen ganz normal in dieser Gegend..."
+    mt "Und hier kennt mich niemand..."
+    mt "Was hier passiert, hat nichts mit Monica Buckfett zu tun, in keinster Weise..."
+    mt "Also gibt es für mich keinen Grund, beschämt zu sein..."
+    mt "Das ist absolut widerlich, aber ich muss gefühlskalt sein..."
+    mt "Es ist ja nicht für lange..."
+    help "Mehr im nächsten Update! Bitte verfolge die News dazu!"
 

@@ -185,7 +185,7 @@ label ep24_dialogues1_bardie:
     with fade
     m "Я периодически езжу с Бетти на занятия фитнесом."
     img 9699
-    bardie "Ты занимаешь фитнесом, правда?!"
+    bardie "Ты занимаешься фитнесом, правда?!"
     music Hidden_Agenda
     img 9700
     with fade

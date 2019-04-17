@@ -800,15 +800,15 @@ translate german strings:
 translate german ep22_dialogues4_1a0_013047f9:
 
     # m "Я готова, Миссис Роберс..."
-    m "Я готова, Миссис Роберс..."
+    m "Ich bin soweit, Frau Roberts..."
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:123
 translate german ep22_dialogues4_1a0_79fb76ea:
 
     # betty "Я заждалась тебя, нерадивая гувернантка."
     # betty "Быстро бери мою сумку и поехали скорее!"
-    betty "Я заждалась тебя, нерадивая гувернантка."
-    betty "Быстро бери мою сумку и поехали скорее!"
+    betty "Ich habe schon auf dich gewartet, achtloses Dienstmädchen."
+    betty "Nimm schnell meine Tasche und dann gehen wir!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:127
 translate german ep22_dialogues4_1a0_f8ae02a3:
@@ -820,5 +820,5 @@ translate german strings:
 
     # Quests/EP2_02/ep22_dialogues4.rpy:116
     old "Я готова, Миссис Робертс..."
-    new ""
+    new "I bin bereit, Frau Roberts."
 

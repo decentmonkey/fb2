@@ -1,3 +1,8 @@
+default citizen4BoobsShowedFirstTime = False
+default citizen4BoobsShowedSecondTimeCount = 0
+default citizen4BoobsNakesShowingActive = False
+default citizen4BoobsNakesShowedLastDay = 0
+
 label citizen4_dialogue:
     imgl Dial_Monica_Sandwich_0
 #    menu:
@@ -89,6 +94,17 @@ label citizen4_dialogue_pilon:
             $ showedBoobs = True
             $ add_corruption(monicaWhoringClothBoobsCorruptionProgress, "monicaWhoringClothBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             $ store_citizen_action("BoobsCloth", 1)
+
+
+            # Разовое событие после которого появится еще 1 события у пилона -  голая грудь
+            #Первый раз!!!
+            if fallingPathServedCustomersTotal >= 20 and citizen4BoobsShowedFirstTime == False:
+                # Ситизен предлагает Монике показать грудь за $ 50
+                $ store_music()
+                call citizen4_show_boobs_first_time()
+                $ restore_music()
+                if _return == True:
+                    $ citizen4BoobsShowedFirstTime = True
             jump citizen4_dialogue_pilon_loop4
         "Покажи попу.":
             call pylonController(4, 1)
@@ -142,9 +158,41 @@ label citizen4_dialogue_pilon:
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             $ store_citizen_action("PylonDanceCloth", 1)
             jump citizen4_dialogue_pilon_loop4
-        "Голые сиськи. (disabled)" if pylonpart3startsCompleted == False and 1==2:
+#        "Голые сиськи. (disabled)" if pylonpart3startsCompleted == False and 1==2:
+        "Голые сиськи. (disabled)" if citizen4BoobsNakesShowingActive == False or citizen4BoobsNakesShowedLastDay == day:
             pass
-        "Голые сиськи." if pylonpart3startsCompleted == True:
+        "Голые сиськи." if citizen4BoobsNakesShowingActive == True and citizen4BoobsNakesShowedLastDay != day:
+            $ citizen4BoobsNakesShowedLastDay = day
+            $ store_music()
+            call citizen4_show_boobs_regular_time()
+            $ restore_music()
+            jump citizen4_dialogue_pilon_loop4
+
+            #регулярный показ (активировать позже!)
+            call pylonController(4, 1)
+            citizen4 "А теперь покажи своих малышек, похоже им там тесно."
+            mt "Как он может так говорить о моей прекрасной груди?! Извращенец..."
+            if corruption < monicaWhoringClothNakedBoobsCorruptionRequired:
+                call pylonController(4, 1)
+                mt "Я не могу себе этого позволить!"
+                "Я еще не настолько опустилась!"
+                "И, надеюсь, этого не произойдет НИКОГДА!"
+                help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
+                jump citizen4_dialogue_pilon_loop15
+            call pylonController(4, 5)
+            with fade
+            m "Так и быть, только руками не трогать."
+            mt "Только попробуй к ним прикоснуться и я сломаю тебе пальцы."
+            call showRandomImages(nakedboobsImages, 4)
+            call pylonController(4, 5)
+            citizen4 "А ничего такие сиськи, но я видел и лучше."
+            call pylonController(4, 1)
+            mt "Очень сомневаюсь..."
+            $ showedNakedBoobs = True
+            $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+            jump citizen4_dialogue_pilon_loop4
+
+            # DEPRECATED (старый диалог, замененный из citizen4!)
             call pylonController(4, 1)
             citizen4 "Показывай сиськи, только не забудь все снять."
             mt "Урод..."
@@ -216,4 +264,318 @@ label citizen4_dialogue_pilon:
             call pylonController(5, 1)
             citizen4 "Какое то не продуктивное вышло знакомство. Надеюсь, в другой раз будет лучше."
             return False
+    return
+
+
+
+
+
+label citizen4_show_boobs_first_time:
+    # Ситизен предлагает Монике показать грудь за $ 50
+    music Groove2_85
+    img 10571
+    with fade
+    citizen4 "Хотя... Ты красивая девочка. Хочу оценить их без одежды."
+    "Я недавно провернул одно дельце и у меня есть лишние 50$. Что скажешь?"
+    menu:
+        "Согласиться..." if corruption >= monicaWhoringClothNakedBoobsCorruptionRequired:
+            pass
+        "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired]) (disabled)" if corruption < monicaWhoringClothNakedBoobsCorruptionRequired:
+            pass
+        "Отказаться.":
+#                        call pylonController(4, 1)
+            music Pyro_Flow
+            img 10572
+            with fade
+            m "Да за кого ты меня принимаешь?!"
+            m "Этого не будет никогда!"
+            img 10571
+            citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
+            return False
+#                call pylonController(1, 1) #моника просто стоит у пилона
+    img 10573
+    with fade
+    mt "50$ были бы не лишними... Хорошо, что здесь никого нет."
+    img 10574
+    with diss
+    m "50$ ?"
+    img 10575
+    citizen4 "Все верно, девочка. Покажешь своих подружек и они твои."
+    img 10576
+    with fade
+    mt "Черт! Моника, ты уверена что станешь делать это???"
+    mt "Станешь показывать свою грудь какому-то нищему за жалкие 50$?"
+    img 10577
+    with diss
+    mt "Но, с другой стороны, это же не я показываю грудь, а какая-то шлюха в трущобах."
+    mt "Ведь никто даже представить себе не может что это делает Моника Бакфетт."
+    mt "Это как какая-то виртуальная игра, в которой все не по настоящему..."
+    mt "Но вот 50$, которые я получу, вполне реальны!"
+#                call pylonController(3, 1)
+    img 10578
+    with fade
+    m "Ладно, только не трогать!"
+    img 10579
+    citizen4 "Об этом не волнуйся, детка. Я не хочу проблем с твоим сутенером."
+    music Power_Bots_Looop
+    img 10580
+    mt "Да за кого он меня принимает?"
+#                call pylonController(3, 2)
+    img 10581
+    m "Хорошо, давай деньги."
+    music Groove2_85
+    img 10582
+    with diss
+    citizen4 "Только после того, как покажешь."
+    citizen4 "Деньги вперед я могу дать только твоему сутенеру!"
+    citizen4 "Извини, но таким девочкам как ты я на слово не верю..."
+#                citizen4 "А ты не глупая девочка. Вот, держи."
+#                $ add_money(50)
+#                with fade
+#                call showRandomImages(nakedboobsImages, 4)
+#                call pylonController(3, 5) #моника показывет голые сиськи
+    img 10583
+    m "!!!"
+    m "Отвернись!"
+    img 10584
+    with fade
+    w
+    music Loved_Up
+    img 10585
+    with fade
+    w
+    #показывает
+    img 10586
+    with fade
+    w
+    img 10587
+    with Dissolve(0.3)
+    $ renpy.pause(1.5)
+    music stop
+    sound plastinka2
+    img 10586
+    with Dissolve(0.3)
+    music Groove2_85
+    citizen4 "Эй! Куда ты их спрятала?!"
+    img 10588
+    with diss
+    m "Я показала тебе свою грудь! Давай деньги!"
+    citizen4 "Ты что, пошутила?! Я ничего не успел рассмотреть!"
+    m "Ты увидел достаточно! Давай деньги, скорее!"
+    img 10589
+    with fade
+    citizen4 "Я не дам тебе ничего, пока ты не покажешь мне грудь нормально!"
+    citizen4 "Я хочу рассмотреть ее как следует! Иначе никаких денег!"
+    img 10590
+    with fadelong
+    m "!!!"
+    menu:
+        "Согласиться...":
+            pass
+        "Отказаться.":
+#                        call pylonController(4, 1)
+            music Pyro_Flow
+            img 10591
+            with fade
+            m "Да за кого ты меня принимаешь?!"
+            citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
+            return False
+    #Моника снова показывает грудь быстро
+    music Loved_Up
+    img 10592
+    with Dissolve(0.3)
+    $ renpy.pause(0.5)
+    music stop
+    sound plastinka2
+    img 10590
+    with Dissolve(0.3)
+    music Groove2_85
+    citizen4 "Эй! Хватит кривляться! Покажи грудь нормально!"
+
+    img 10593
+    citizen4 "Покажи грудь, а я досчитаю до пяти!"
+    citizen4 "Если ты уберешь грудь раньше, то не получишь никаких денег!"
+    img 10594
+    with fade
+    m "..."
+    citizen4 "..."
+    m "..."
+    citizen4 "50$!"
+    menu:
+        "Согласиться...":
+            pass
+        "Отказаться.":
+#                        call pylonController(4, 1)
+            music Pyro_Flow
+            img 10572
+            with fade
+            m "Да за кого ты меня принимаешь?!"
+            citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
+            return False
+
+    #Моника показывает грудь, а citizen ее обсматривает
+    music Loved_Up
+    img 10595
+    with Dissolve(1.0)
+    w
+    img 10596
+    with fade
+    citizen4 "Один..."
+    img 10597
+    with fade
+    citizen4 "Два..."
+    img 10598
+    with fade
+    citizen4 "Три..."
+    img 10599
+    with fade
+    w
+    img 10600
+    with fade
+    w
+    img 10601
+    with diss
+    w
+    img 10602
+    with fade
+    citizen4 "Четыре..."
+    img 10603
+    with fade
+    w
+    img 10604
+    with fade
+    w
+    citizen4 "Пять..."
+    #Моника убирает грудь
+    music Groove2_85
+    img 10606
+    with diss
+    m "Доволен?"
+    citizen4 "Более чем..."
+    $ add_money(50)
+    $ pylonpart3startsCompleted = True
+    # Добавить сколько то corruption
+    $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+    $ citizen4BoobsShowedFirstTime = True
+    $ citizen4BoobsNakesShowingActive = True
+    $ add_hook("enter_scene", "citizen4_dialogue_after_boobs_first_time", scene="hostel_edge_1_a")
+    return True
+
+
+label citizen4_show_boobs_regular_time:
+    if (citizen4BoobsShowedSecondTimeCount < 2 or rand(1,2) == 1) and citizen4BoobsShowedSecondTimeCount != 1: #Показываем первые 1 раз точно, затем по рандому, кроме 2-го раза!
+        #если активно ограничение показа груди
+        img 10571
+        with fade
+        citizen4 "А теперь покажи своих малышек, похоже им там тесно."
+        img 10573
+        with fade
+        mt "Мне надо как-то получить больше денег с этого бродяги..."
+        mt "Может быть показать ему снова мою грудь?"
+        mt "Он ведь уже видел ее..."
+        img 10583
+        with fade
+        m "Если ты хочешь, я могу показать тебе свою грудь..."
+        m "Снова..."
+        img 10589
+        citizen4 "Конечно! Я соскучился по твоим малышкам!"
+        img 10581
+        m "50$!"
+        img 10593
+        citizen4 "Что? Какие еще 50$?"
+        citizen4 "Я уже видел твоих малышек!"
+        citizen4 "Хочешь снова 50$ - покажи мне другие!"
+        citizen4 "Ты можешь привести кого-нибудь и поделить с ней деньги."
+        citizen4 "Но учти, я уже видел почти всех малышек в этом районе!"
+        citizen4 "За малышек, которые я уже видел, я готов заплатить [monicaWhoringNakedBoobsMoney]$!"
+
+        music Pyro_Flow
+        img 10572
+        with fade
+        m "Мне некого приводить!"
+        m "И моя грудь самая лучшая!"
+        mt "Черт! Все мировые издания об этом писали!"
+        music Groove2_85
+        img 10571
+        citizen4 "Я готов заплатить тебе [monicaWhoringNakedBoobsMoney]$ и не более..."
+        menu:
+            "Согласиться...":
+                pass
+            "Отказаться.":
+    #            call pylonController(4, 1)
+                m "Да за кого ты меня принимаешь?!"
+                return False
+        music Hidden_Agenda
+        sound snd_fabric1
+        img 10585
+        with fadelong
+        w
+        img 10586
+        with fade
+        w
+        img 10592
+        with diss
+        m "Так и быть, только руками не трогать."
+        img 10596
+        with diss
+        mt "Только попробуй к ним прикоснуться и я сломаю тебе пальцы."
+        img 10603
+        with diss
+        citizen4 "А ничего такие сиськи, но я видел и лучше."
+        img 10606
+        with fade
+        mt "Очень сомневаюсь..."
+        $ showedNakedBoobs = True
+        $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+
+        $ citizen4BoobsShowedSecondTimeCount += 1
+        return True
+
+    #Если не хочет смотреть на них
+    img 10573
+    with fade
+    mt "Мне надо как-то получить больше денег с этого бродяги..."
+    mt "Может быть показать ему снова мою грудь?"
+    mt "Он ведь уже видел ее..."
+    img 10583
+    with fade
+    m "Если ты хочешь, я могу показать тебе свою грудь..."
+    m "Снова..."
+    img 10593
+    citizen4 "Сегодня я не хочу смотреть твоих малышек!"
+    citizen4 "Покажи их кому-нибудь другому!"
+    citizen4 "Уверен, ты сможешь заработать [monicaWhoringNakedBoobsMoney]$."
+    $ add_hook("enter_scene", "citizen4_dialogue_after_boobs_second_time", scene="hostel_edge_1_a")
+
+    return
+
+label citizen4_dialogue_after_boobs_first_time:
+    $ remove_hook()
+    mt "Дьявол!"
+    mt "Я не уверена что мне стоило делать это!"
+    mt "Я думала это будет проще!"
+    mt "Этот урод заставил меня пол дня стоять на улице, сверкая своей обнаженной бесценной, очаровательной грудью!"
+    mt "Но за эти же деньги мне пришлось бы два месяца носить рекламу кебаба..."
+    mt "Главное - это то что меня никто не видел."
+    mt "И никто не знает кто я на самом деле, так что я могу делать все что потребуется."
+    mt "Мне пришлось показать грудь - пускай!"
+    mt "Это поможет мне сэкономить время на поиск еды, чтобы потратить его на решение моих главных проблем."
+    mt "Моя цель - это вернуть назад мою роскошную жизнь."
+    mt "И я не остановлюсь ни перед чем!"
+    return
+
+
+label citizen4_dialogue_after_boobs_second_time:
+    $ remove_hook()
+    mt "Вот мерзавец!"
+    mt "Он отказался смотреть на мою грудь даже за [monicaWhoringNakedBoobsMoney]$ !"
+    mt "Может быть показать мою грудь кому-нибудь еще?"
+    mt "Это звучит дико, но мне нужны деньги..."
+    mt "Похоже, в этом районе все относятся совершенно нормально к таким вещам..."
+    mt "А я нахожусь здесь анонимно..."
+    mt "То что здесь происходит никак не связано с жизнью Моники Бакфетт."
+    mt "Так что мне нечего стесняться."
+    mt "Мне это глубоко противно, но я отношусь к этому с хладнокровием."
+    mt "В конце концов, это ненадолго."
+    help "Будет доступно в следующем обновлении игры. Следите за новостями!"
     return

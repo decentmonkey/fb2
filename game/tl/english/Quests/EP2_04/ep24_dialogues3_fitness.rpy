@@ -407,7 +407,7 @@ translate english ep24_dialogues3_fitness3_59e96a51:
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:297
 translate english ep24_dialogues3_fitness3_1ed11e74:
 
-    # fitness_instructor "Тебе комортно, ты больше не стесняешь меня?"
+    # fitness_instructor "Тебе комортно, ты больше не стесняешься меня?"
     fitness_instructor "Are you comfortable? Are you still embarrassed?"
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:299
@@ -679,8 +679,8 @@ translate english ep24_dialogues3_fitness3_ffbfdade:
 
     # bardie "Мне надо продолжать следить за Бетти."
     # bardie "Уверен, что я могу увидеть больше!"
-    bardie "Мне надо продолжать следить за Бетти."
-    bardie "Уверен, что я могу увидеть больше!"
+    bardie "I need to continue to spy for Betty."
+    bardie "I am sure, I can see more!"
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:150
 translate english ep24_dialogues3_fitness3b_bf4354a8:
@@ -793,8 +793,8 @@ translate english ep24_dialogues3_fitness3b_ffbfdade:
 
     # bardie "Мне надо продолжать следить за Бетти."
     # bardie "Уверен, что я могу увидеть больше!"
-    bardie "Мне надо продолжать следить за Бетти."
-    bardie "Уверен, что я могу увидеть больше!"
+    bardie "I need to continue to spy for Betty."
+    bardie "I am sure, I can see more!"
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:256
 translate english ep24_dialogues3_fitness3b_ae95a849:
@@ -1021,7 +1021,7 @@ translate english ep24_dialogues3_fitness3c_59e96a51:
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:413
 translate english ep24_dialogues3_fitness3c_1ed11e74:
 
-    # fitness_instructor "Тебе комортно, ты больше не стесняешь меня?"
+    # fitness_instructor "Тебе комортно, ты больше не стесняешься меня?"
     fitness_instructor "Are you comfortable? Are you still embarrassed?"
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:415
@@ -1271,4 +1271,12 @@ translate english ep24_dialogues3_fitness3d_0c6f56b2:
     # betty "Да, очень!"
     fitness_instructor "Is it enjoyable?"
     betty "Yes! Very much!"
+
+# TODO: Translation updated at 2019-04-17 05:17
+
+# game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:413
+translate english ep24_dialogues3_fitness3c_a8b01a9e:
+
+    # fitness_instructor "Тебе комортно, ты больше не стесняешься меня?"
+    fitness_instructor "Тебе комортно, ты больше не стесняешься меня?"
 

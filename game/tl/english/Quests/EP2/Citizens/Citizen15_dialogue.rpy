@@ -160,7 +160,7 @@ translate english citizen15_dialogue_pilon_loop15_403d77fe:
     # citizen15 "Хотя... Ты красивая девочка. Хочу оценить их без одежды."
     # "Я недавно провернул одно дельце и у меня есть лишние 50$. Что скажешь?"
     citizen15 "Hmm... You are pretty thing. I'd like to inspect you without clothes."
-    "I pulled a great job a little while ago and have spare 50$. What do you say?"
+    "I pulled a great job a little while ago and have spare 50$ . What do you say?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:121
 translate english citizen15_dialogue_pilon_loop15_64dadb9e:
@@ -185,14 +185,14 @@ translate english citizen15_dialogue_pilon_loop15_a70bbb2a:
     # mt "Это как какая-то виртуальная игра, в которой все не по настоящему..."
     # mt "Но вот 50$, которые я получу, вполне реальны!"
     mt "50$ would be useful... There are noone around here as well."
-    m "50$?"
+    m "$ 50?"
     citizen15 "That's right. Shom me your pair and it's yours."
     mt "Damn it! Are you sure you want to do it, Monica?"
     mt "Showing you chest to some hobo for mere ?"
     mt "On the other hand, it's not me, it’s some kind of a whore in the slums..."
     mt "Noone will ever believe that Monica Buckfett can do something like that..."
     mt "It's like a virtual game... not real..."
-    mt "Hovewer,  I going to get are quite real."
+    mt "Hovewer, I going to get are quite real."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:136
 translate english citizen15_dialogue_pilon_loop15_0a38e3ee:
@@ -382,11 +382,11 @@ translate english citizen15_dialogue_pilon_loop15_73c7d835:
     citizen15 "Want another ? Give me something new."
     citizen15 "You can bring someone and then share money with her."
     citizen15 "But, I've already seen almost everyone around here..."
-    citizen15 "For what I've already seen I'm ready to pay [monicaWhoringNakedBoobsMoney]$!"
+    citizen15 "For what I've already seen I'm ready to pay [monicaWhoringNakedBoobsMoney]$ !"
     m "I don’t have anyone to bring!"
     m "And my chest is the best!"
     mt "Even international publishers wrote about it!"
-    citizen15 "I can pay you [monicaWhoringNakedBoobsMoney]$, nothing more..."
+    citizen15 "I can pay you [monicaWhoringNakedBoobsMoney]$ , nothing more..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:266
 translate english citizen15_dialogue_pilon_loop15_ef3db6ad:
@@ -432,7 +432,7 @@ translate english citizen15_dialogue_pilon_loop15_6daa14d5:
     m "Again..."
     citizen15 "I don’t want to see your babies today."
     citizen15 "Show them to someone else."
-    citizen15 "I'm sure you will be able to earn [monicaWhoringNakedBoobsMoney]$."
+    citizen15 "I'm sure you will be able to earn [monicaWhoringNakedBoobsMoney]$ ."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:294
 translate english citizen15_dialogue_pilon_loop15_540df363:
@@ -592,7 +592,7 @@ translate english citizen15_dialogue_pilon_loop15_9914d493:
 translate english citizen15_dialogue_pilon_loop15_feded4a2:
 
     # m "50$ ?"
-    m "50$?"
+    m "$ 50?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:134
 translate english citizen15_dialogue_pilon_loop15_89b042b3:
@@ -618,7 +618,7 @@ translate english citizen15_dialogue_pilon_loop15_43678127:
     mt "On the other hand, it's not me, it’s some kind of a whore in the slums..."
     mt "Noone will ever believe that Monica Buckfett can do something like that..."
     mt "It's like a virtual game... not real..."
-    mt "Hovewer,  I going to get are quite real."
+    mt "Hovewer, I going to get are quite real."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:145
 translate english citizen15_dialogue_pilon_loop15_1ee1646f:
@@ -650,9 +650,9 @@ translate english citizen15_dialogue_pilon_loop15_2bb78383:
     # citizen15 "Только после того, как покажешь."
     # citizen15 "Деньги вперед я могу дать только твоему сутенеру!"
     # citizen15 "Извини, но таким девочкам как ты я на слово не верю..."
-    citizen15 "Только после того, как покажешь."
-    citizen15 "Деньги вперед я могу дать только твоему сутенеру!"
-    citizen15 "Извини, но таким девочкам как ты я на слово не верю..."
+    citizen15 "Only after you show."
+    citizen15 "Money ahead, I can only give it to your pimp!"
+    citizen15 "Sorry, but I do not believe a word of girls like you..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:163
 translate english citizen15_dialogue_pilon_loop15_d6109ac7:
@@ -660,7 +660,7 @@ translate english citizen15_dialogue_pilon_loop15_d6109ac7:
     # m "!!!"
     # m "Отвернись!"
     m "!!!"
-    m "Отвернись!"
+    m "Turn around!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:180
 translate english citizen15_dialogue_pilon_loop15_6ee7beb7:

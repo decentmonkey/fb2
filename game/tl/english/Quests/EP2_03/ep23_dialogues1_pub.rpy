@@ -752,7 +752,7 @@ translate english strings:
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:467
     old "Не обращать внимание... (low corruption, required [monicaWashHoldJoeCorruption]) (disabled)"
-    new ""
+    new "Don't pay attention... (low corruption, required [monicaWashHoldJoeCorruption]) (disabled)"
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:467
     old "Прекратить это!"
@@ -760,5 +760,12 @@ translate english strings:
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:517
     old "Не обращать внимание... (low corruption, required [monicaWashHoldAshleyCorruption]) (disabled)"
-    new ""
+    new "Don't pay attention... (low corruption, required [monicaWashHoldAshleyCorruption]) (disabled)"
 
+# TODO: Translation updated at 2019-04-17 04:57
+
+translate english strings:
+
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:163
+    old "Меня зовут... (enter для ввода)"
+    new "My name is... (press enter to submit)"

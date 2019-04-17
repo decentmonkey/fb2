@@ -44,7 +44,7 @@ translate english ep24_dialogues4_bardie1_a4144443:
     # bardie "И, если Бетти не хочет остаться без всего того что она имеет..."
     # bardie "И если не хочет уехать назад в свою дыру, то ей теперь придется хорошо себя вести!"
     bardie "Yes, she is sleeping around."
-    bardie "By the way, She and Ralf signed marriage contract."
+    bardie "By the way, She and Ralph signed marriage contract."
     bardie "And if Betty doesn't want to lose everything."
     bardie "And doesn’t want to return back the the hole she came from, she will have to behave now!"
 
@@ -60,7 +60,7 @@ translate english ep24_dialogues4_bardie1_1a722070:
     # bardie "Но теперь это моя забота! И только попробуй рассказать об этом кому-то еще!"
     # bardie "Особенно Ральфу!"
     bardie "But that's my concern now. And don’t you dare to tell anyone about it!"
-    bardie "Ralf especially."
+    bardie "Ralph especially."
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:70
 translate english ep24_dialogues4_bardie1_4823e88a:
@@ -72,7 +72,7 @@ translate english ep24_dialogues4_bardie1_4823e88a:
 translate english ep24_dialogues4_bardie1_a1145a2a:
 
     # m "И ЧТО СО МНОЙ БУДЕТ ЕСЛИ Я РАССКАЖУ ПРО ЭТУ СУЧКУ РАЛЬФУ?!"
-    m "WHAT CAN HAPPEN TO ME IF I TELL RALF ABOUT THIS BITCH?"
+    m "WHAT CAN HAPPEN TO ME IF I TELL Ralph ABOUT THIS BITCH?"
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:74
 translate english ep24_dialogues4_bardie1_7c84411e:
@@ -105,7 +105,7 @@ translate english ep24_dialogues4_bardie1_539a3f42:
 
     # bardie "Между прочим, у Бетти с Ральфом подписан брачный договор!"
     # bardie "И, если Бетти не хочет остаться без всего того что она имеет..."
-    bardie "By the way, She and Ralf signed marriage contract."
+    bardie "By the way, She and Ralph signed marriage contract."
     bardie "And if Betty doesn't want to lose everything."
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:97
@@ -126,7 +126,7 @@ translate english ep24_dialogues4_bardie1_1a722070_1:
     # bardie "Но теперь это моя забота! И только попробуй рассказать об этом кому-то еще!"
     # bardie "Особенно Ральфу!"
     bardie "But that's my concern now. And don’t you dare to tell anyone about it!"
-    bardie "Ralf especially."
+    bardie "Ralph especially."
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:104
 translate english ep24_dialogues4_bardie1_4823e88a_1:
@@ -138,7 +138,7 @@ translate english ep24_dialogues4_bardie1_4823e88a_1:
 translate english ep24_dialogues4_bardie1_a1145a2a_1:
 
     # m "И ЧТО СО МНОЙ БУДЕТ ЕСЛИ Я РАССКАЖУ ПРО ЭТУ СУЧКУ РАЛЬФУ?!"
-    m "WHAT CAN HAPPEN TO ME IF I TELL RALF ABOUT THIS BITCH?"
+    m "WHAT CAN HAPPEN TO ME IF I TELL Ralph ABOUT THIS BITCH?"
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:108
 translate english ep24_dialogues4_bardie1_7c84411e_1:

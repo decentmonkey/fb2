@@ -1388,23 +1388,23 @@ translate english strings:
 translate english cleaning2_bardie_comment1_40c0b8cb:
 
     # bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
-    bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+    bardie "Well done, governess. You are following the house rules."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:741
 translate english cleaning2_bardie_comment2_40c0b8cb:
 
     # bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
-    bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+    bardie "Well done, governess. You are following the house rules."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:840
 translate english cleaning2_bardie_comment3_40c0b8cb:
 
     # bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
-    bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+    bardie "Well done, governess. You are following the house rules."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:1017
 translate english ep22_dialogues3_13_64e4bbbc:
 
     # mt "Мне лучше вернуть трусики Бетти на место..."
-    mt "Мне лучше вернуть трусики Бетти на место..."
+    mt "I better get Betty's panties back ..."
 

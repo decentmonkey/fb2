@@ -913,7 +913,7 @@ screen hud_screen(hud_presets):
                 #время дня
                 if hud_presets["display_daytime"] == True:
                     if day_time == "day":
-                        if dialogue_active_flag == True or sceneIsStreet != True:
+                        if dialogue_active_flag == True or sceneIsStreet != True or hudDaySkipToEveningEnabled == False:
                             imagebutton:
                                 yoffset -2
                                 xanchor 2

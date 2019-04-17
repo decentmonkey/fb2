@@ -1,4 +1,4 @@
-define debugMode = True
+define debugMode = False
 
 default gameStage = 0
 default gameSubStage = 0
@@ -7,6 +7,7 @@ default rain = False
 default rainIntencity = 0
 default lightning = False
 default sceneIsStreet = False
+default hudDaySkipToEveningEnabled = True
 default objectives_list = []
 default currentMusic = False
 default currentMusicPriority = 0

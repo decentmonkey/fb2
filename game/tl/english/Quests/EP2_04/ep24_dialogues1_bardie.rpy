@@ -213,7 +213,7 @@ translate english ep24_dialogues1_bardie_9ca2b454:
 # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:142
 translate english ep24_dialogues1_bardie_36516b7d:
 
-    # bardie "Ты занимаешь фитнесом, правда?!"
+    # bardie "Ты занимаешься фитнесом, правда?!"
     bardie "You are working out at the gym?!"
 
 # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:144
@@ -346,5 +346,13 @@ translate english ep24_dialogues2_bardie_03d30b3b:
 translate english ep24_dialogues1_bardie3_3c6405a7:
 
     # help "Прогресс Барди активирован!"
-    help "Прогресс Барди активирован!"
+    help "Bardi's Progress activated!"
+
+# TODO: Translation updated at 2019-04-17 05:17
+
+# game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:188
+translate english ep24_dialogues1_bardie_68d1866e:
+
+    # bardie "Ты занимаешься фитнесом, правда?!"
+    bardie "Ты занимаешься фитнесом, правда?!"
 

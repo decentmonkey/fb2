@@ -4,5 +4,5 @@ translate english strings:
 
     # Quests/EP2_04/EP24_Quests_Bardie.rpy:14
     old "Согласиться и предупредить Барди..."
-    new ""
+    new "Agree and warn Bardie..."
 

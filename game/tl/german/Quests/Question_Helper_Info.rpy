@@ -256,7 +256,7 @@ translate german strings:
 translate german strings:
 
     # Quests/Question_Helper_Info.rpy:115
-    old "Барди снова требует от меня каких-то извращений! Похоже, удалось переключить его на Бетти. Давно стоит проучить ее за то как она обращается со мной! Итак, надо сообщать Барди когда мы собираемя идти на фитнесс..."
+    old "Барди снова требует от меня каких-то извращений! Похоже, удалось переключить его на Бетти. Давно стоит проучить ее за то как она обращается со мной! Итак, надо сообщать Барди когда мы собираемся идти на фитнесс..."
     new "Bardie erwartet schon wieder etwas schmutziges von mir. Sieht so aus, als konnte ich seine Aufmerksamkeit nun auf Betty lenken. Geschieht ihr auch ganz Recht. Wie kann ich Bardie informieren, wann ich mit Betty wieder in's Fitnessstudio gehe?..."
 
     # Quests/Question_Helper_Info.rpy:115
@@ -281,7 +281,7 @@ translate german strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Стив приходил в гости к Ральфу. Мне надо избегать встречи с ним!"
-    new "Steve besuchte Ralf. Ich muss ihm aus dem Weg gehen."
+    new "Steve besuchte Ralph. Ich muss ihm aus dem Weg gehen."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Не могу поверить что я согласилась на секс со Стивом! Мне надо проверить перевел-ли он деньги Виктории."

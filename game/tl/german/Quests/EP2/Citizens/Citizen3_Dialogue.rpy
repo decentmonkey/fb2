@@ -523,8 +523,8 @@ translate german citizen3_dialogue_pilon_loop3_e545aa56:
 
     # citizen3 "Да ладно тебе, поговори со мной! Что думаешь?"
     # m "Я не знаю о ком ты говоришь."
-    citizen3 "Да ладно тебе, поговори со мной! Что думаешь?"
-    m "Я не знаю о ком ты говоришь."
+    citizen3 "Komm schon, rede mit mir! Was denkst du?"
+    m "Ich weiß nicht, über wen du sprichst."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:236
 translate german citizen3_dialogue_pilon_loop3_9521fbb1:
@@ -532,7 +532,7 @@ translate german citizen3_dialogue_pilon_loop3_9521fbb1:
     # citizen3 "Ну как же, Сара! У нее лучшие сиськи на районе!"
     # citizen3 "Надо будет как нибудь устроить соревнование. да, это отличная идея!"
     # mt "Интересно, о ком это он? Хотя какая разница, у меня нет соперниц."
-    citizen3 "Ну как же, Сара! У нее лучшие сиськи на районе!"
-    citizen3 "Надо будет как нибудь устроить соревнование. да, это отличная идея!"
-    mt "Интересно, о ком это он? Хотя какая разница, у меня нет соперниц."
+    citizen3 "Sarah! Sie hat die geilsten Brüste in der Gegend!"
+    citizen3 "Ich schlage einen direkten Wettbewerb vor! Ja, das ist eine tolle Idee!"
+    mt "Ich frage mich, über wen er redet? Andererseits spielt das auch keine Rolle, ich habe keine Rivalen!"
 
