@@ -798,5 +798,5 @@ translate german strings:
 translate german ep24_dialogues5_betty5_2c9182a3:
 
     # m "Ведь я просто наемный работник!"
-    m "Ведь я просто наемный работник!"
+    m "Ich bin nur eine Angestelle!"
 

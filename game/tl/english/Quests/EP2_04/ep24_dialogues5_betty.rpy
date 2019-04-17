@@ -1026,5 +1026,5 @@ translate english ep24_dialogues5_betty7_896757c5:
 translate english ep24_dialogues5_betty5_2c9182a3:
 
     # m "Ведь я просто наемный работник!"
-    m "Ведь я просто наемный работник!"
+    m "I'm just an employee!"
 

@@ -529,7 +529,7 @@ translate german citizen13_dialogue_pilon_loop13_1_76a597a6:
     # citizen13 "Подруга, а где ты такие сделала?"
     # m "Что?! Они настоящие!"
     mt "Um Himmels Willen..."
-    citizen13 "Schätzchen, woher hast du solche Brüste?"
+    citizen13 "Honey, where did you get such boobs?"
     m "Was?! Die sind echt!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:215
@@ -545,7 +545,7 @@ translate german citizen13_dialogue_pilon_loop13_1_ae70b3b3:
     # mt "Да не дай бог..."
     # citizen13 "Подруга, а где ты такие сделала?"
     # m "Что?! Они настоящие!"
-    mt "Да не дай бог..."
-    citizen13 "Подруга, а где ты такие сделала?"
+    mt "Um Himmels Willen..."
+    citizen13 "Honey, where did you get such boobs?"
     m "Was?! Die sind echt!"
 

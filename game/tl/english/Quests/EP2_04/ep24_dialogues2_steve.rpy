@@ -4426,4 +4426,4 @@ translate english strings:
 translate english ep24_dialogues3_steve10a_093b93a1:
 
     # steve "И что, эта гувернантка также хороша как Бетти?"
-    steve "И что, эта гувернантка также хороша как Бетти?"
+    steve "Is she as good as Betty?"

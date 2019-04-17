@@ -64,7 +64,7 @@ translate german street_rich_hotel_teleport_c9a1d674:
 translate german street_rich_hotel_environment_528e98ba:
 
     # m "Это и есть Hotel Le Grand?"
-    m "Это и есть Hotel Le Grand?"
+    m "Ist das nicht das Le Grand Hotel?"
 
 # game/Rooms/Rich_Hotel/street_rich_hotel.rpy:54
 translate german street_rich_hotel_environment_1faa8549:
@@ -72,5 +72,5 @@ translate german street_rich_hotel_environment_1faa8549:
     # m "Le Grand?"
     # "Как банально..."
     m "Le Grand?"
-    "Как банально..."
+    "So abgedroschen..."
 

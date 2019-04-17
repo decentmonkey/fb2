@@ -340,5 +340,5 @@ translate german strings:
 translate german ep24_dialogues1_bardie_68d1866e:
 
     # bardie "Ты занимаешься фитнесом, правда?!"
-    bardie "Ты занимаешься фитнесом, правда?!"
+    bardie "Arbeitest du da?"
 

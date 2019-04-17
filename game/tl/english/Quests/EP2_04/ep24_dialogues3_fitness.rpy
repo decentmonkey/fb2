@@ -1278,5 +1278,5 @@ translate english ep24_dialogues3_fitness3d_0c6f56b2:
 translate english ep24_dialogues3_fitness3c_a8b01a9e:
 
     # fitness_instructor "Тебе комортно, ты больше не стесняешься меня?"
-    fitness_instructor "Тебе комортно, ты больше не стесняешься меня?"
+    fitness_instructor "Are you comfortable? Are you still embarrassed?"
 

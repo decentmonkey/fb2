@@ -736,5 +736,5 @@ translate german strings:
 translate german ep24_dialogues3_fitness3c_a8b01a9e:
 
     # fitness_instructor "Тебе комортно, ты больше не стесняешься меня?"
-    fitness_instructor "Тебе комортно, ты больше не стесняешься меня?"
+    fitness_instructor "Fühlst du dich wohl? Oder bist du immer noch beschämt?"
 

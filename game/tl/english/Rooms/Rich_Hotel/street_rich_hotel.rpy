@@ -64,13 +64,13 @@ translate english street_rich_hotel_teleport_c9a1d674:
 translate english street_rich_hotel_environment_528e98ba:
 
     # m "Это и есть Hotel Le Grand?"
-    m "Это и есть Hotel Le Grand?"
+    m "Is this the Le Grand hotel?"
 
 # game/Rooms/Rich_Hotel/street_rich_hotel.rpy:54
 translate english street_rich_hotel_environment_1faa8549:
 
     # m "Le Grand?"
     # "Как банально..."
-    m "Le Grand?"
-    "Как банально..."
+    m "LA GRAND?"
+    "So trite..."
 

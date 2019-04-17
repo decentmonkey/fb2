@@ -4120,5 +4120,5 @@ translate german strings:
 translate german ep24_dialogues3_steve10a_093b93a1:
 
     # steve "И что, эта гувернантка также хороша как Бетти?"
-    steve "И что, эта гувернантка также хороша как Бетти?"
+    steve "Ist sie so gut wie Betty?"
 

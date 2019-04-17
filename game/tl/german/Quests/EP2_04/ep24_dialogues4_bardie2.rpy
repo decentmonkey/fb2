@@ -392,5 +392,5 @@ translate german strings:
 translate german ep24_dialogues4_bardie1_8e8ced13:
 
     # mt "Мне надо переодеться!"
-    mt "Мне надо переодеться!"
+    mt "Ich muss mich umziehen!"
 

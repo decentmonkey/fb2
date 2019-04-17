@@ -778,7 +778,7 @@ translate german citizen15_dialogue_after_boobs_first_time_8574f688:
     # mt "Это поможет мне сэкономить время на поиск еды, чтобы потратить его на решение моих главных проблем."
     # mt "Моя цель - это вернуть назад мою роскошную жизнь."
     # mt "И я не остановлюсь ни перед чем!"
-    mt "Дьявол!"
+    mt "Damn ye!"
     mt "Ich bin nicht sicher, ob es das wert war..."
     mt "Ich dachte, es wäre einfacher..."
     mt "Dieser Bastard hat mich dazu gebracht, meine wunderbaren Brüste den halben Tag auf der Straße zu zeigen!"

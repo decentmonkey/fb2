@@ -422,5 +422,5 @@ translate english ep24_dialogues4_bardie4_loop1_23fe1ec8:
 translate english ep24_dialogues4_bardie1_8e8ced13:
 
     # mt "Мне надо переодеться!"
-    mt "Мне надо переодеться!"
+    mt "I have to change!"
 

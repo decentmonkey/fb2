@@ -1258,5 +1258,5 @@ translate english strings:
 translate english sleep_scene1_10641ca1:
 
     # dick "В самый лучший! В отеле Le Grand!"
-    dick "В самый лучший! В отеле Le Grand!"
+    dick "To the best! To Le Grand!"
 

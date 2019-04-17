@@ -42,5 +42,5 @@ translate german strings:
 translate german bardieProgressLevelUp1_c3cd11eb:
 
     # help "Уровень Барди максимален для этой версии игры. Ожидайте обновлений!"
-    help "Уровень Барди максимален для этой версии игры. Ожидайте обновлений!"
+    help "Bardi level is maximal for this version of the game. Wait for updates!"
 

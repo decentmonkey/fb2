@@ -354,5 +354,5 @@ translate english ep24_dialogues1_bardie3_3c6405a7:
 translate english ep24_dialogues1_bardie_68d1866e:
 
     # bardie "Ты занимаешься фитнесом, правда?!"
-    bardie "Ты занимаешься фитнесом, правда?!"
+    bardie "You are working out at the gym?!"
 

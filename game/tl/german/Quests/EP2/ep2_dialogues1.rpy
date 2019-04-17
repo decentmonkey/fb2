@@ -2088,5 +2088,5 @@ translate german bardie_comment5a_6a718a4c:
 translate german sleep_scene1_10641ca1:
 
     # dick "В самый лучший! В отеле Le Grand!"
-    dick "В самый лучший! В отеле Le Grand!"
+    dick "In's Beste! Zum Le Grand!"
 
