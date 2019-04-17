@@ -43,8 +43,8 @@ translate german sleep_scene1_3d95f619:
 # game/Quests/EP2/ep2_dialogues1.rpy:26
 translate german sleep_scene1_059f3a5a:
 
-    # dick "В самый лучший! В отеле La Grand!"
-    dick "In's Beste! Zum La Grand!"
+    # dick "В самый лучший! В отеле Le Grand!"
+    dick "In's Beste! Zum Le Grand!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:28
 translate german sleep_scene1_93974b21:
@@ -2081,4 +2081,12 @@ translate german bardie_comment5a_6a718a4c:
 
     # mt "Я не собираюсь подходить к этой малявке!"
     mt "Ich werde mich nicht diesem kleinen Ding nähern!"
+
+# TODO: Translation updated at 2019-04-18 00:16
+
+# game/Quests/EP2/ep2_dialogues1.rpy:32
+translate german sleep_scene1_10641ca1:
+
+    # dick "В самый лучший! В отеле Le Grand!"
+    dick "В самый лучший! В отеле Le Grand!"
 

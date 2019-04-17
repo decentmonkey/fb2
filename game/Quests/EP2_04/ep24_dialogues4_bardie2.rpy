@@ -21,6 +21,10 @@
 # Моника морщится.
 
 label ep24_dialogues4_bardie1:
+    if cloth != "Governess":
+        mt "Мне надо переодеться!"
+        return
+
     music Groove2_85
     img 10251
     with fade

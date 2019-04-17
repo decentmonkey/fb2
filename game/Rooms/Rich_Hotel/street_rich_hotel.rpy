@@ -40,7 +40,7 @@ label street_rich_hotel_teleport:
     return
 label street_rich_hotel_environment:
     if obj_name == "Building":
-        m "Это и есть Hotel La Grand?"
+        m "Это и есть Hotel Le Grand?"
         if day_time == "evening":
             m "Вечером он выглядит довольно эффектно."
         else:
@@ -51,6 +51,6 @@ label street_rich_hotel_environment:
         На вид..."
 
     if obj_name == "Logo":
-        m "La Grand?"
+        m "Le Grand?"
         "Как банально..."
     return

@@ -15,8 +15,8 @@ translate english street_rich_hotel_teleport_b649d48b:
 # game/Rooms/Rich_Hotel/street_rich_hotel.rpy:36
 translate english street_rich_hotel_environment_dd629fa0:
 
-    # m "Это и есть Hotel La Grand?"
-    m "Is this the La Grand hotel?"
+    # m "Это и есть Hotel Le Grand?"
+    m "Is this the Le Grand hotel?"
 
 # game/Rooms/Rich_Hotel/street_rich_hotel.rpy:38
 translate english street_rich_hotel_environment_493c4781:
@@ -43,9 +43,9 @@ translate english street_rich_hotel_environment_e43f305f:
 # game/Rooms/Rich_Hotel/street_rich_hotel.rpy:47
 translate english street_rich_hotel_environment_b65fa23a:
 
-    # m "La Grand?"
+    # m "Le Grand?"
     # "Как банально..."
-    m "La grand?"
+    m "LA GRAND?"
     "So trite..."
 
 # TODO: Translation updated at 2018-12-09 22:48
@@ -57,4 +57,20 @@ translate english street_rich_hotel_teleport_c9a1d674:
     # "И не хочу портить впечатление."
     mt "I proved to this bitch at the reception desk that I am the LADY!"
     "And I don't want to spoil the impression."
+
+# TODO: Translation updated at 2019-04-18 00:15
+
+# game/Rooms/Rich_Hotel/street_rich_hotel.rpy:43
+translate english street_rich_hotel_environment_528e98ba:
+
+    # m "Это и есть Hotel Le Grand?"
+    m "Это и есть Hotel Le Grand?"
+
+# game/Rooms/Rich_Hotel/street_rich_hotel.rpy:54
+translate english street_rich_hotel_environment_1faa8549:
+
+    # m "Le Grand?"
+    # "Как банально..."
+    m "Le Grand?"
+    "Как банально..."
 

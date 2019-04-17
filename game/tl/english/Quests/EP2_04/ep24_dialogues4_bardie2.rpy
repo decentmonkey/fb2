@@ -416,3 +416,11 @@ translate english ep24_dialogues4_bardie4_loop1_23fe1ec8:
     # bardie "Ну что, ты поняла? Ты будешь слушаться хозяина?"
     bardie "Do you get it now? Will you obey your master?"
 
+# TODO: Translation updated at 2019-04-18 00:15
+
+# game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:25
+translate english ep24_dialogues4_bardie1_8e8ced13:
+
+    # mt "Мне надо переодеться!"
+    mt "Мне надо переодеться!"
+

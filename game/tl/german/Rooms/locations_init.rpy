@@ -147,8 +147,8 @@ translate german strings:
     new "Polizeirevier"
 
     # Rooms/locations_init.rpy:103
-    old "Hotel La Grand"
-    new "Hotel La Grand"
+    old "Hotel Le Grand"
+    new "Hotel Le Grand"
 
     # Rooms/locations_init.rpy:111
     old "STEVE'S OFFICE"

@@ -373,8 +373,8 @@ translate english ep24_dialogues2_steve3_30e76a0c:
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:175
 translate english ep24_dialogues2_steve3_8a5e31ea:
 
-    # betty "..." 
-    betty "..." 
+    # betty "..."
+    betty "..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:178
 translate english ep24_dialogues2_steve3_d30c5b99:
@@ -842,7 +842,7 @@ translate english ep24_dialogues2_steve7_44011b69:
     # "Он помнит, Бетти!"
     # "Он помнит твою попку!"
     "Remembers you..."
-    "Remembers your butt..."
+    "Remembers your pussy..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:408
 translate english ep24_dialogues2_steve7_c0130c0f:
@@ -862,7 +862,7 @@ translate english ep24_dialogues2_steve7_c3042db1:
     # steve "Скажи, Бетти!"
     # "Твоя попка помнит его, так ведь?"
     steve "Tell me, Betty."
-    "Your butt remembers it as well, doenst it?"
+    "Your pussy remembers it as well, doenst it?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:419
 translate english ep24_dialogues2_steve7_ee8b402f:
@@ -880,14 +880,14 @@ translate english ep24_dialogues2_steve7_ee8b402f:
 translate english ep24_dialogues2_steve7_cebce280:
 
     # betty "Да, помнит..."
-    betty "Yes... My dick remembers..."
+    betty "Yes... She remembers..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:428
 translate english ep24_dialogues2_steve7_9f3decea:
 
     # steve "Он скучает по твоей попке, Бетти!"
     # "Мне даже пришлось повысить Ральфа, чтобы твоя попка была поближе к моему члену."
-    steve "And misses your butt..."
+    steve "It misses your pussy..."
     "I even had to promote Ralph to get my dick closer to you."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:432
@@ -952,7 +952,7 @@ translate english ep24_dialogues2_steve7_8c353a86:
     # steve "Бетти, скажи."
     # "Твоей попке не нравилось когда он был внутри нее?"
     steve "Tell me..."
-    "Didn’t your butt like it when my dick was inside?"
+    "Didn’t your pussy like it when my dick was inside?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:458
 translate english ep24_dialogues2_steve7_1df0076e:
@@ -964,13 +964,13 @@ translate english ep24_dialogues2_steve7_1df0076e:
 translate english ep24_dialogues2_steve7_0eada6bc:
 
     # betty "Нравилось..."
-    betty "My butt did like it."
+    betty "My pussy did like it."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:465
 translate english ep24_dialogues2_steve7_642f28a1:
 
     # steve "И что, твоя попка не хочет, чтобы мой член снова оказался в ней?"
-    steve "And? You butt doesn’t want my dick inside?"
+    steve "And? You pussy doesn’t want my dick inside?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:471
 translate english ep24_dialogues2_steve7_1df0076e_1:
@@ -1459,8 +1459,8 @@ translate english ep24_dialogues3_steve10_87f12eae:
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:783
 translate english ep24_dialogues3_steve10_cd8b9846:
 
-    # steve "..." 
-    steve "..." 
+    # steve "..."
+    steve "..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:785
 translate english ep24_dialogues3_steve10_17708d48:
@@ -2698,7 +2698,7 @@ translate english strings:
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:414
     old "Да, помнит..."
-    new "Yes... My dick remembers..."
+    new "Yes... She remembers..."
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:414
     old "Я замужем, Стив!"
@@ -2710,7 +2710,7 @@ translate english strings:
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:455
     old "Нравилось..."
-    new "My butt did like it."
+    new "My pussy did like it."
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:466
     old "Хочет..."
@@ -3309,8 +3309,8 @@ translate english ep24_dialogues3_steve10b_87f12eae:
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1126
 translate english ep24_dialogues3_steve10b_cd8b9846:
 
-    # steve "..." 
-    steve "..." 
+    # steve "..."
+    steve "..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1136
 translate english ep24_dialogues3_steve10b_17708d48:
@@ -4427,4 +4427,3 @@ translate english ep24_dialogues3_steve10a_093b93a1:
 
     # steve "И что, эта гувернантка также хороша как Бетти?"
     steve "И что, эта гувернантка также хороша как Бетти?"
-

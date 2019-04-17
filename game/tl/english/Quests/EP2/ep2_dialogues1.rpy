@@ -43,8 +43,8 @@ translate english sleep_scene1_3d95f619:
 # game/Quests/EP2/ep2_dialogues1.rpy:32
 translate english sleep_scene1_059f3a5a:
 
-    # dick "В самый лучший! В отеле La Grand!"
-    dick "To the best! To La Grand!"
+    # dick "В самый лучший! В отеле Le Grand!"
+    dick "To the best! To Le Grand!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:34
 translate english sleep_scene1_93974b21:
@@ -1251,4 +1251,12 @@ translate english strings:
     # Quests/EP2/ep2_dialogues1.rpy:758
     old "Моника нерегулярно убирается в доме"
     new "Monica irregularly cleaned the house"
+
+# TODO: Translation updated at 2019-04-18 00:15
+
+# game/Quests/EP2/ep2_dialogues1.rpy:32
+translate english sleep_scene1_10641ca1:
+
+    # dick "В самый лучший! В отеле Le Grand!"
+    dick "В самый лучший! В отеле Le Grand!"
 

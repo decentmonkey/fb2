@@ -386,3 +386,11 @@ translate german strings:
     old "Я поняла! Я буду слушаться хозяина!"
     new "Ich verstehe! Ich werde gehorchen!"
 
+# TODO: Translation updated at 2019-04-18 00:16
+
+# game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:25
+translate german ep24_dialogues4_bardie1_8e8ced13:
+
+    # mt "Мне надо переодеться!"
+    mt "Мне надо переодеться!"
+

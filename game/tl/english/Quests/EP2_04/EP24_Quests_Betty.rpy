@@ -20,5 +20,4 @@ translate english strings:
 
     # Quests/EP2_04/EP24_Quests_Betty.rpy:192
     old "Униформа гувернантки (без трусиков)"
-    new "Governess uniform (without panties)"
-
+    new "Maid uniform (without panties)"

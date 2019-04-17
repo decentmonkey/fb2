@@ -209,14 +209,14 @@ translate english ep22_dialogues4_5a_b84bcc3c:
 # game/Quests/EP2_02/ep22_dialogues4.rpy:204
 translate english ep22_dialogues4_5a_8069b532:
 
-    # betty "Гувернантка, ты можешь подождать меня здесь, пока я занимаюсь." 
-    betty "Thank you, governess, you can wait here while I'm working out." 
+    # betty "Гувернантка, ты можешь подождать меня здесь, пока я занимаюсь."
+    betty "Thank you, governess, you can wait here while I'm working out."
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:213
 translate english ep22_dialogues4_5a_1665fb42:
 
-    # m "Да, Миссис Робертс" 
-    m "Yes, Mrs. Roberts" 
+    # m "Да, Миссис Робертс"
+    m "Yes, Mrs. Roberts"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:218
 translate english ep22_dialogues4_5a_27f46f0c:
@@ -238,7 +238,7 @@ translate english ep22_dialogues4_5a_ba2ed58d:
     # rebecca "И почему ты одета в это?!"
     # "Это что, униформа гувернантки?!"
     rebecca "And why are you wearing that disgusting uniform?!"
-    "You're dressed like a governess!"
+    "You're dressed like a maid!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:237
 translate english ep22_dialogues4_5a_d5c5f581:
@@ -821,4 +821,3 @@ translate english strings:
     # Quests/EP2_02/ep22_dialogues4.rpy:116
     old "Я готова, Миссис Робертс..."
     new "I am ready, Mrs Roberts"
-

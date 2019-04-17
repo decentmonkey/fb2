@@ -100,12 +100,12 @@ label locations_init:
     $ add_location("police_entrance", caption=_("Police Station"), label="police_entrance", init_label="police_entrance_init", parent="street_police")
 
     # Rich Hotel
-    $ add_location("street_rich_hotel", caption=_("Hotel La Grand"), label="street_rich_hotel", init_label="street_rich_hotel_init", parent="Rich_Hotel")
-    $ add_location("rich_hotel_event_hall", caption=_("Hotel La Grand"), label="rich_hotel_event_hall", init_label="rich_hotel_event_hall_init", parent="rich_hotel_reception")
-    $ add_location("rich_hotel_event_scene", caption=_("Hotel La Grand"), label="rich_hotel_event_scene", init_label="rich_hotel_event_scene_init", parent="rich_hotel_reception")
-    $ add_location("rich_hotel_event_sittable", caption=_("Hotel La Grand"), label="rich_hotel_event_sittable", init_label="rich_hotel_event_sittable_init", parent="rich_hotel_reception")
-    $ add_location("rich_hotel_event_sofa", caption=_("Hotel La Grand"), label="rich_hotel_event_sofa", init_label="rich_hotel_event_sofa_init", parent="rich_hotel_reception")
-    $ add_location("rich_hotel_event_tables", caption=_("Hotel La Grand"), label="rich_hotel_event_tables", init_label="rich_hotel_event_tables_init", parent="rich_hotel_reception")
+    $ add_location("street_rich_hotel", caption=_("Hotel Le Grand"), label="street_rich_hotel", init_label="street_rich_hotel_init", parent="Rich_Hotel")
+    $ add_location("rich_hotel_event_hall", caption=_("Hotel Le Grand"), label="rich_hotel_event_hall", init_label="rich_hotel_event_hall_init", parent="rich_hotel_reception")
+    $ add_location("rich_hotel_event_scene", caption=_("Hotel Le Grand"), label="rich_hotel_event_scene", init_label="rich_hotel_event_scene_init", parent="rich_hotel_reception")
+    $ add_location("rich_hotel_event_sittable", caption=_("Hotel Le Grand"), label="rich_hotel_event_sittable", init_label="rich_hotel_event_sittable_init", parent="rich_hotel_reception")
+    $ add_location("rich_hotel_event_sofa", caption=_("Hotel Le Grand"), label="rich_hotel_event_sofa", init_label="rich_hotel_event_sofa_init", parent="rich_hotel_reception")
+    $ add_location("rich_hotel_event_tables", caption=_("Hotel Le Grand"), label="rich_hotel_event_tables", init_label="rich_hotel_event_tables_init", parent="rich_hotel_reception")
 
     # Steve's Office
     $ add_location("street_steve_office", caption=_("STEVE'S OFFICE"), label="street_steve_office", init_label="street_steve_office_init", parent="Steve_Office")

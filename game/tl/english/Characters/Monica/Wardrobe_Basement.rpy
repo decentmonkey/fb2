@@ -78,7 +78,7 @@ translate english strings:
 
     # Characters/Monica/Wardrobe_Basement.rpy:9
     old "Униформа гувернантки."
-    new "Governess uniform."
+    new "Maid uniform."
 
     # Characters/Monica/Wardrobe_Basement.rpy:9
     old "Оставить трусики Юлии."
@@ -147,4 +147,3 @@ translate english strings:
     # Characters/Monica/Wardrobe_Basement.rpy:17
     old ""
     new ""
-
