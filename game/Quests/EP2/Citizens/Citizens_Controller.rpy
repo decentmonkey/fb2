@@ -161,7 +161,9 @@ label citizens_dialogue_process:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_7
                 return
-            call citizen9_dialogue_pilon()
+            $ act = "t"
+            call ep22_quests_falling_path4()
+#            call citizen9_dialogue_pilon()
             return
         music citizenMusic
         call citizen9_dialogue() from _call_citizen9_dialogue
