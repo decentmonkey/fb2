@@ -1503,5 +1503,5 @@ translate german strings:
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:163
     old "Меня зовут... (enter для ввода)"
-    new ""
+    new "Mein Name ist... (Drücke enter um zu bestätigen)"
 

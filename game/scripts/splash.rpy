@@ -1,6 +1,7 @@
 label splashscreen:
-    return
-    
+    if debugMode == True:
+        return
+
     scene black
     image videoIntro_Video = Movie(play="video/Intro_Video.mkv", fps=30)
     show videoIntro_Video

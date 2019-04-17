@@ -38,5 +38,5 @@ translate german strings:
 
     # Quests/EP2_04/EP24_Quests_Steve.rpy:410
     old "Стив прислал деньги."
-    new ""
+    new "Überweist Steve das Geld?"
 

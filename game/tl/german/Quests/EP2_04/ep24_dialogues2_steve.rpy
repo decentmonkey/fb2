@@ -4088,31 +4088,31 @@ translate german strings:
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1513
     old "Отдать вилку Стиву..."
-    new ""
+    new "Gib Steve eine Gabel..."
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1513
     old "Взять вилку в руку! (Bitchiness!)"
-    new ""
+    new "Nimm die Gabel in die Hand!"
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1513
     old "Взять вилку в руку! (Моника слишком приличная) (disabled)"
-    new ""
+    new "Nimm die Gabel in die Hand (Monica ist zu brav) (disabled)"
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1876
     old "Моника угрожала Стиву вилкой"
-    new ""
+    new "Monica bedrohte Steve mit einer Gabel"
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:2207
     old "Моника сказала Стиву по телефону что он мешок с дерьмом.."
-    new ""
+    new "Monica hat Steve am Telefon gesagt, dass er ein Drecksack ist..."
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:2626
     old "Толкнуть Стива в бассейн... (Моника недостаточно стерва) (disabled)"
-    new ""
+    new "Werfe Steve in den Pool... (Monica ist zu brav) (disabled)"
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:2626
     old "Дать визитку... (Моника слишком стерва) (disabled)"
-    new ""
+    new "Gib einer Karte... (Monica ist nicht brav genug) (disabled)"
 
 # TODO: Translation updated at 2019-04-17 05:15
 
