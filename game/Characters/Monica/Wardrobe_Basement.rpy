@@ -26,7 +26,7 @@ label wardrobeBasement:
             with Dissolve(0.5)
 #            $ renpy.pause(0.5)
 
-            $ monicaUnder = "Whore"
+#            $ monicaUnder = "Whore"
             $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue1_whore")
 
         "Униформа гувернантки.":
@@ -185,7 +185,6 @@ label wardrobePutGovernessWithoutPanties:
     $ monicaUnder = "Nude"
     $ cloth = "Governess"
     $ cloth_type = "Governess"
-    $ monicaUnder = "Nude"
     $ monicaBettyPanties = False
     sound snd_fabric1
     img black_screen

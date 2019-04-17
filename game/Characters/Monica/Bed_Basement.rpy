@@ -223,6 +223,7 @@ label basement_monica_after_sleep_dialogue:
 label monica_skip_until_friday: # Пропуск дней до пятницы
     img black_screen
     with Dissolve(0.5)
+    $ skipDaysInterrupted = False
     $ skipDaysActiveFlag = True
     label monica_skip_until_friday_loop1:
         if day_time == "day":

@@ -1,6 +1,7 @@
 default steveVisit1PlannedComplete = False
 default steveVisit1DayShowed0 = False
 default steveVisit1DayShowed = False
+default monicaAskedVictoriaAboutSteveMoney = False
 
 label ep24_quests_steve1:
     # После второго посещения фитнеса, планируем приход Стива на субботу
@@ -356,6 +357,7 @@ label ep24_quests_steve23:
     $ add_hook("before_open", "ep24_quests_steve24", scene="street_house_main_yard", label="steve_catch1")
     $ add_hook("before_open", "ep24_quests_steve24", scene="basement_pool", label="steve_catch1")
 
+    $ add_hook("basement_monica_before_sleep", "ep24_quests_steve18", scene="global", label="steve_visit2")
     call refresh_scene_fade_long()
     return
 # rooms_clean_list_exclude = []
@@ -366,9 +368,7 @@ label ep24_quests_steve24:
 
     # Сцена Стива и Моники
     call ep24_dialogues3_steve10g()
-    if _return == True:
-        $ questLog(31, False)
-        $ questLog(32, True)
+    $ questLog(31, False)
 
     $ remove_hook(label="steve_visit2")
     $ remove_hook(label="steve_visit2a")
@@ -376,9 +376,13 @@ label ep24_quests_steve24:
     $ remove_hook(label="steve_visit2c")
     $ monicaLaundryBettyPantiesSelectNudeDisabled = False
 
+    $ move_object("Ralph", "living_room")
+
+    $ remove_objective("steve_maid")
     $ map_enabled = True
     $ livingRoomRalphSuffix = "_Sleeping"
-    $ add_hook("Ralph", "ep24_quests_steve26", scene="living_room", label="evening_time_temp") # Удалится с утра
+    $ add_hook("Ralph", "ep24_quests_steve26", scene="living_room", label="evening_time_temp", priority = 500) # Удалится с утра
+    $ add_hook("change_time_day", "ep24_quests_steve25", scene="global")
 
     $ add_hook("enter_scene", "ep24_quests_steve27", scene="basement_bedroom2")
     call change_scene("basement_bedroom2", "Fade_long")
@@ -399,11 +403,18 @@ label ep24_quests_steve24b:
 
 label ep24_quests_steve25:
     # Следующее утро
+    $ remove_hook()
     if monicaHasSexWithSteveBasement == True:
         $ questLog(31, False)
         $ questLog(32, True)
+        $ add_hook("DickSecretary_Dialogue1_Menu", "ep24_quests_steve28", scene="menu", label="dicksecretary_steve_money1", caption=_("Стив прислал деньги."), priority=95)
+        $ add_hook("DickSecretary", "ep22_quests_Dick8a", scene="dick_office_secretary", label="dicksecretary_alternative_dialogue1")
+        $ add_hook("basement_monica_after_sleep_dialogue", "ep24_quests_steve29", scene="global")
+    $ add_hook("Teleport_Building", "ep24_quests_steve30", scene="street_steve_office", label="steve_office_blocked_update")
+    $ add_hook("DickSecretary", "ep22_quests_Dick8a", scene="dick_office_secretary", label="dicksecretary_alternative_dialogue1")
     $ livingRoomRalphSuffix = ""
     $ basementBedSkipUntilFridayEnabled = True
+
     return
 
 label ep24_quests_steve26:
@@ -417,5 +428,46 @@ label ep24_quests_steve27:
     call ep24_dialogues3_steve10b1()
     return
 
+label ep24_quests_steve28:
+    # Разговор с Викторией о том послал-ли Стив деньги
+    call ep24_dialogues3_steve12()
+    if monicaAskedVictoriaAboutSteveMoney == False:
+        $ questLog(32, False)
+        $ questLog(33, True)
+
+    $ monicaAskedVictoriaAboutSteveMoney = True
+    call refresh_scene_fade()
+    return False
+
+label ep24_quests_steve29:
+    # Моника говорит с утра после секса со Стивом
+    $ remove_hook()
+    call ep24_dialogues3_steve11()
+    return False
+
+label ep24_quests_steve30:
+    # Вход в здание Стива
+    if act=="l":
+        return
+    call ep24_dialogues3_steve13()
+    return False
+
+label ep24_quests_steve31:
+    # Включение блокировки фотосессий
+    $ remove_hook()
+    $ photoShootDisabledNextWeek = False
+    $ add_hook("photoshoots_work_available_check", "ep24_quests_steve32", scene="global", label="steve_photosessions_block")
+    $ add_hook_day("ep24_quests_steve33", week_day=6) # включаем в субботу
+    return
+
+label ep24_quests_steve32:
+    # Блокировка фотосессий
+    return False
+
+label ep24_quests_steve33:
+    # Выключение блокировки фотосессий
+    $ remove_hook()
+    $ remove_hook(label="steve_photosessions_block")
+    return
 
 #

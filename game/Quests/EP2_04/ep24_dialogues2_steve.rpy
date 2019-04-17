@@ -1510,49 +1510,63 @@ label ep24_dialogues3_steve10e:
     music stop
     img 9951
     m "!!!"
-    #звук Моника разворачивается с вилкой
-    music Villainous_Treachery
-    img 9952
-    with fadelong
-    w
-    img 9953
-    with diss
-    w
-    img 9954
-    with diss
-    w
-    img 9955
-    ralph "А? Что за шум?"
-    img 9956
-    with diss
-    w
-    img 9957
-    with diss
-    w
-    img 9958
-    with fade
-    w
-    music Hidden_Agenda
-    img 9959
-    with fadelong
-    m "Мистер Робертс, все в порядке!"
-    img 9960
-    with diss
-    m "Просто упал столовый прибор."
-    img 9961
-    with fade
-    m "Пожалуйста, Мистер Стив."
-    "Вот Ваша вилка..."
-    img 9963
-    with diss
-    w
-    img 9962
-    with Dissolve(0.5)
-    w
-    music Pyro_Flow
-    img 9964
-    with fade
-    w
+    menu:
+        "Отдать вилку Стиву...":
+            music Pyro_Flow
+            img 9964
+            with fade
+            m "Пожалуйста, Мистер Стив."
+            img 9962
+            with diss
+            "Вот Ваша вилка..."
+        "Взять вилку в руку! (Bitchiness!)" if monicaBitch == True:
+            #звук Моника разворачивается с вилкой
+            $ monicaSteveLivingRoomOffended = True
+            music Villainous_Treachery
+            img 9952
+            with fadelong
+            w
+            img 9953
+            with diss
+            w
+            img 9954
+            with diss
+            w
+            img 9955
+            ralph "А? Что за шум?"
+            img 9956
+            with diss
+            w
+            img 9957
+            with diss
+            w
+            img 9958
+            with fade
+            w
+            music Hidden_Agenda
+            img 9959
+            with fadelong
+            call bitch(10, "livingroom_steve_offended1")
+            m "Мистер Робертс, все в порядке!"
+            img 9960
+            with diss
+            m "Просто упал столовый прибор."
+            img 9961
+            with fade
+            m "Пожалуйста, Мистер Стив."
+            "Вот Ваша вилка..."
+            img 9963
+            with diss
+            w
+            img 9962
+            with Dissolve(0.5)
+            w
+            music Pyro_Flow
+            img 9964
+            with fade
+            w
+        "Взять вилку в руку! (Моника слишком приличная) (disabled)" if monicaBitch == False:
+            pass
     sound highheels_short_walk
     img 9965
     with fade
@@ -1858,27 +1872,37 @@ label ep24_dialogues3_steve10g:
     img 10041
     m "Да как ты смеешь, Стив!"
     m "Ты не забыл кто Ты и кто Я?!?"
+    if monicaSteveLivingRoomOffended == True:
+        $ notif(_("Моника угрожала Стиву вилкой"))
+        music Villainous_Treachery
+        img 10042
+        with fade
+        m "Тебе надоело жить, Стив?"
+        img 10043
+        with fade
+        m "Может быть мне пойти сходить за вилкой?"
+    # Стив отвечает: прости, Моника, я не хотел обидеть тебя!
+    # Я лишь пытаюсь помочь, изо всех сил. Ты ведь знаешь, я бы помог тебе просто так.
+    # Но я бизнесмен и ограничен в своих действиях.
+    # И, в рамках того что возможно для меня, я стараюсь помочь тебе изо всех сил!
+        music Groove2_85
+        img 10044
+        with fade
+        steve "Прости, Моника! Я не хотел обидеть тебя!"
+        steve "Я лишь пытаюсь помочь!"
+        img 10045
+        with fade
+        steve "Ты ведь знаешь, я бы помог тебе и просто так."
+        steve "Но я бизнесмен и ограничен в своих действиях."
+    else:
+        music Groove2_85
+        img 10045
+        with fade
+        steve "Прости, Моника! Я не хотел обидеть тебя!"
+        steve "Я лишь пытаюсь помочь!"
+        steve "Ты ведь знаешь, я бы помог тебе и просто так."
+        steve "Но я бизнесмен и ограничен в своих действиях."
 
-    music Villainous_Treachery
-    img 10042
-    with fade
-    m "Тебе надоело жить, Стив?"
-    img 10043
-    with fade
-    m "Может быть мне пойти сходить за вилкой?"
-# Стив отвечает: прости, Моника, я не хотел обидеть тебя!
-# Я лишь пытаюсь помочь, изо всех сил. Ты ведь знаешь, я бы помог тебе просто так.
-# Но я бизнесмен и ограничен в своих действиях.
-# И, в рамках того что возможно для меня, я стараюсь помочь тебе изо всех сил!
-    music Groove2_85
-    img 10044
-    with fade
-    steve "Прости, Моника! Я не хотел обидеть тебя!"
-    steve "Я лишь пытаюсь помочь!"
-    img 10045
-    with fade
-    steve "Ты ведь знаешь, я бы помог тебе и просто так."
-    steve "Но я бизнесмен и ограничен в своих действиях."
     img 10046
     with diss
     steve "И, в рамках того, что возможно для меня, я стараюсь помочь тебе изо всех сил!"
@@ -1905,6 +1929,7 @@ label ep24_dialogues3_steve10g:
 # В этом мире все сдается в аренду, Стив...
 # Вопрос только в сумме...
     img 10049
+    with fade
     menu:
         "Продажа, сдача в аренду... Неважно... Это не для меня...":
             music Pyro_Flow
@@ -1935,6 +1960,7 @@ label ep24_dialogues3_steve10g:
     # Если есть трусики
 #    steve "Сними трусики и покажи ее!"
     img 10054
+    with fade
     menu:
         "Повернуться и показать Стиву свою попу...":
             pass
@@ -1960,12 +1986,17 @@ label ep24_dialogues3_steve10g:
     with fadelong
     w
     img 10056
+    with fade
     steve "Хороший вид, Моника!"
     steve "Но можно я посмотрю поближе?"
+    music Power_Bots_Loop
     img 10057
     m "..."
+    music Loved_up
     img 10056
+    with diss
     steve "Посмотрим, что у нас там!"
+    sound snd_fabric1
     if monicaBettyPanties == False:
         if monicaUnder != "Nude":
             #governess
@@ -1982,7 +2013,7 @@ label ep24_dialogues3_steve10g:
             img 10062
         if monicaBettyPantiesId == 5:
             img 10063
-    with dissolve
+    with diss
     w
     steve "О! Значит вот какие трусики ты любишь носить!"
     steve "Когда я смотрел на тебя, то всегда думал о том что же на тебе надето внизу!"
@@ -1992,40 +2023,66 @@ label ep24_dialogues3_steve10g:
     m "Я не очень люблю носить их, Стив..."
     m "И давай закроем эту тему!"
 
-    #governess
-    img 10058
-    #betty
-    img 10059
-    img 10060
-    img 10061
-    img 10062
-    img 10063
+    music Loved_up
+    if monicaBettyPanties == False:
+        if monicaUnder != "Nude":
+            #governess
+            img 10058
+    else:
+        if monicaBettyPantiesId == 1:
+            #betty
+            img 10059
+        if monicaBettyPantiesId == 2:
+            img 10060
+        if monicaBettyPantiesId == 3:
+            img 10061
+        if monicaBettyPantiesId == 4:
+            img 10062
+        if monicaBettyPantiesId == 5:
+            img 10063
+
+    with diss
 
     steve "Моника, ты не против если я их сниму?"
     steve "Мне надо осмотреть объект, который я собираюсь взять в аренду!"
+    music Power_Bots_Loop
     img 10065
     mt "!!!"
 
-    #Governess
-    img 10066
+    music Loved_up
+    if monicaBettyPanties == False:
+        if monicaUnder != "Nude":
+            #Governess
+            img 10066
+    else:
+        if monicaBettyPantiesId == 1:
     #betty
-    img 10067
-    img 10068
-    img 10069
-    img 10070
-    img 10071
-
+            img 10067
+        if monicaBettyPantiesId == 2:
+            img 10068
+        if monicaBettyPantiesId == 3:
+            img 10069
+        if monicaBettyPantiesId == 4:
+            img 10070
+        if monicaBettyPantiesId == 5:
+            img 10071
+    with diss
+    w
     img 10064
     m "..."
 
+    sound snd_fabric1
     img 10072
+    with diss
     steve "(Я не верю своим глазам! Я собираюсь трахнуть саму Монику Бакфетт!)"
     img 10073
     steve "(Черт! Сколько лет я мечтал об этом!)"
     img 10074
+    with diss
     w
 
-    sound snd_fabric1
+    sound snd_zip
+    music Turbo_Tornado
     img 10075
     with fadelong
     steve "Я БЕРУ ЭТОТ ОБЪЕКТ!"
@@ -2036,9 +2093,12 @@ label ep24_dialogues3_steve10g:
 # Моника говорит: Стой! Не вздумай этого делать! Мы еще не заключили сделку!
 # Стив говорит: Моника, ты настоящая бизнес-леди! Даже в такой момент ты не забываешь о выгоде!
 # Моника отвечает: здесь сплошная выгода для тебя, Стив!
+    sound plastinka2
+    music Power_Bots_Loop
     img 10076
     m "Стой! Не вздумай этого делать! Мы еще не заключили сделку!"
     img 10077
+    with diss
     steve "Моника, ты настоящая бизнес-леди! Даже в такой момент ты не забываешь о своей выгоде!"
     img 10078
     m "Здесь сплошная выгода только для тебя, Стив!"
@@ -2046,8 +2106,11 @@ label ep24_dialogues3_steve10g:
 # Стив отвечает: какой миллион, Моника?!
 # У меня сейчас нет таких средств.
     img 10079
+    with diss
     m "Всего за миллион долларов ты получишь то, о чем не могли мечтать и миллиардеры!"
+    music Groove2_85
     img 10080
+    with fade
     steve "Какой миллион, Моника?!"
     steve "У меня сейчас нет таких средств."
 
@@ -2067,17 +2130,22 @@ label ep24_dialogues3_steve10g:
     img 10082
     m "Твоя цена?"
     steve "$ 1000, Моника!"
+    music Power_Bots_Loop
     img 10083
+    with diss
     m "СКОЛЬКО?!?!?"
     m "Ты за кого меня принимаешь, Стив?!"
 # Стив говорит: Но Моника! Я могу тратить только деньги из моей официальной зарплаты!
 # И я теперь помолвлен с Джейн. Она следит за тем куда я трачу свою зарплату!
 # Моника, я собираюсь отдать тебе все свои деньги на ланч на месяц вперед!
 # Я жертвую всем! Ради тебя! Ради выгодной сделки...
+    music Groove2_85
     img 10084
+    with fade
     steve "Но Моника! Я могу тратить только деньги из моей официальной зарплаты!"
     steve "И я теперь помолвлен с Джейн. Она следит за тем куда я трачу свою зарплату!"
     img 10085
+    with diss
     steve "Моника, я собираюсь отдать тебе все свои деньги на ланч на месяц вперед!"
     steve "Я жертвую всем! Ради тебя! Ради выгодной сделки..."
 # По аренде твоей...
@@ -2091,6 +2159,9 @@ label ep24_dialogues3_steve10g:
 
     menu:
         "Это слишком маленькие деньги, Стив! Я даже не буду это обсуждать...":
+            music Pyro_Flow
+            img 10050
+            with fade
             m "Это слишком маленькие деньги, Стив! Я даже не буду это обсуждать..."
             m "А теперь разреши я пойду выполнять свои обязанности, Стив!"
             m "И учти, я припомню тебе твое поведение!"
@@ -2101,13 +2172,15 @@ label ep24_dialogues3_steve10g:
         "Мне нужно хотя бы $ 10.000, Стив!":
             pass
     img 10086
+    with fade
     m "Мне нужно хотя бы $ 10.000, Стив!"
 
 # Стив, если $ 1.000 - это все что у тебя есть, то, может быть, ты дашь их мне просто так?
 # Прости, Моника! Но мне очень важно заключить эту сделку!
 # Это очень важный объект аренды, он мне очень нужен! Это...
     img 10087
-    steve "Стив, если $ 1.000 - это все что у тебя есть, то, может быть, ты дашь их мне просто так?"
+    with diss
+    m "Стив, если $ 1.000 - это все что у тебя есть, то, может быть, ты дашь их мне просто так?"
     steve "Прости, Моника! Но мне очень важно заключить эту сделку!"
     steve "Это очень важный объект аренды, он мне очень нужен! Это..."
 # Моника: Молчи! Я говорила тебе не произносить вслух!
@@ -2118,57 +2191,74 @@ label ep24_dialogues3_steve10g:
     img 10088
     m "Молчи! Я говорила тебе не произносить вслух!"
     img 10089
+    with fade
     steve "Моника, у меня есть предложение! Давай я возьму в аренду половину твоей попы за $ 1.500!"
+    music Power_Bots_Loop
     img 10090
     m "Половину?! Это как?! Это же не гребаный этаж в тауэре, Стив!"
+    music BossaBossa
     img 10091
+    with fade
     steve "Я буду двигаться аккуратно! Только в одну сторону! И не буду трогать руками другую половину!"
     steve "Я буду соблюдать условия сделки! Я честный бизнесмен."
+
 # Если Моника ругалась на Стива, то говорит что он мешок с дерьмом, а не бизнесмен.
-    img 10090
-    m "Ты мешок с дерьмом, а не бизнесмен!"
+    if steveOffended1 == True:
+        $ notif(_("Моника сказала Стиву по телефону что он мешок с дерьмом.."))
+        img 10090
+        m "Ты мешок с дерьмом, а не бизнесмен!"
 
 label ep24_dialogues3_steve10_loop1:
 # Выбор: отказаться, либо череда выборов с торговлей
 # В итоге сходятся на $ 5.000
     img 10092
+    with diss
     menu:
         "$ 8.000 за весь объект аренды!":
             img 10093
+            with diss
             m "$ 8.000 за весь объект аренды!"
             steve "$ 2.000 за половину!"
             img 10094
+            with diss
             menu:
                 "Тогда за целый объект $ 7.000!":
                     img 10093
+                    with diss
                     m "Тогда за целый объект $ 7.000!"
                     steve "За целый объект $ 4.000"
                     jump ep24_dialogues3_steve10_loop1
                 "$ 6.000 за половину! За целый $ 10.000!":
                     img 10093
+                    with diss
                     m "$ 6.000 за половину! За целый $ 10.000!"
                     steve "$ 3.500 за целый! $ 1.500 за половину!"
                     jump ep24_dialogues3_steve10_loop1
         "$ 7.000 за половину, за целый $ 10.000!":
             img 10094
+            with diss
             m "$ 7.000 за половину, за целый $ 10.000!"
             steve "$ 2.000 за половину!"
             menu:
                 "За половину $ 4.000, за целый $ 7.000...":
                     img 10093
+                    with diss
                     m "За половину $ 4.000, за целый $ 7.000..."
                     steve "$ 2.200 за половину!"
                     jump ep24_dialogues3_steve10_loop1
                 "$ 3.000 за половину, за целый $ 6.000!":
                     img 10093
+                    with diss
                     m "$ 3.000 за половину, за целый $ 6.000!"
                     steve "$ 5.000 за целый!"
                     img 10095
+                    with diss
                     menu:
                         "Я согласна...":
                             pass
                         "$ 5.500 за целый!":
                             img 10093
+                            with diss
                             m "$ 5.500 за целый!"
                             steve "За целый $4.000!"
                             jump ep24_dialogues3_steve10_loop1
@@ -2176,21 +2266,28 @@ label ep24_dialogues3_steve10_loop1:
 # (по крайней мере у меня будут деньги для этой сучки Виктории!)
 # (и мне не придется позориться перед камерой на весь мир!)
 # Я согласна...
+    music Groove2_85
     img 10096
+    with fade
     m "Черт с тобой, Стив!"
     mt "По крайней мере у меня будут деньги для этой сучки Виктории!"
     mt "И мне не придется позориться перед камерой на весь мир!"
     mt "Обо мне уже начинают ходить слухи..."
     mt "Это нехорошо. Я скоро верну свое положение и мне не стоит терять репутацию..."
     img 10097
+    with fade
     m "Я согласна..."
 # Стив начинает движение
 # Моника говорит: Стой!
 # Стив, ты же понимаешь, что тебе это не сойдет с рук?!
 # Стив: да, Моника, я понимаю, но я готов рискнуть!
 # Стив, ты понимаешь что я убъю тебя за это?!
+    music Turbo_Tornado
     img 10098
+    with fade
     steve "..."
+    sound plastinka2
+    music Power_Bots_Loop
     img 10099
     m "СТОЙ!"
     m "Стив, ты же понимаешь, что тебе это не сойдет с рук?!"
@@ -2203,28 +2300,46 @@ label ep24_dialogues3_steve10_loop1:
 # Это очень редкая и выгодная сделка!
     steve "Моника, но у нас честная сделка!"
     img 10100
+    with diss
     m "Стив, ты понимаешь что эта задница стоит миллиарды?!"
+    music Turbo_Tornado
     img 10098
     steve "Стив отвечает: Да, Моника! Я знаю!"
     steve "Это очень редкая и выгодная сделка!"
+#    music stop
+    w
 
     #звук входа
+    sound hlup10
     img 10101
+    with diss
     w
+    sound snd_monica_ahh
     img 10102
-    w
     m "Ааааххххххх!!!"
 
 # И входит в Монику
 # Идет секс
-
-    #видео1 начало
     music stop
+    img black_screen
+    with Dissolve(0.5)
+#    pause 0.3
+    #видео1 начало
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
     scene black
     image videov_Pool_Basement_Steve_Monica_Sex_1_1 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_1.mkv", fps=30)
     show videov_Pool_Basement_Steve_Monica_Sex_1_1
+    with fadelong
+    wclean
+    m "Я забыла спросить, Стив..."
+    m "Деньги у тебя с собой?!"
+    steve "Моника, конечно с собой!"
+    steve "Они у меня на банковской карте! Я могу перевести их тебе прямо сейчас..."
+    steve "Вернее, после окончания аренды твоей..."
+    m "Заткнись! Я так и знала!"
+    m "Купишь подарочный сертификат и отправишь его на адрес, который я скажу."
+    steve "Нет проблем, Моника! Не отвлекайся!"
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
@@ -2280,18 +2395,10 @@ label ep24_dialogues3_steve10_loop1:
 # Деньги у тебя с собой?!
 # Стив отвечает: Моника, конечно с собой!
 # Они у меня на банковской карте! Я могу тебе перевести их тебе прямо сейчас...
-    m "Я забыла спросить, Стив..."
-    m "Деньги у тебя с собой?!"
-    steve "Моника, конечно с собой!"
-    steve "Они у меня на банковской карте! Я могу перевести их тебе прямо сейчас..."
 # Вернее, после окончания аренды твоей ...
 # Моника говорит: Заткнись! Я так и знала!
 # Купишь подарочный сертификат и отправишь его на адрес, который я скажу.
 # Стив: Нет проблем, Моника! Не отвлекайся!
-    steve "Вернее, после окончания аренды твоей..."
-    m "Заткнись! Я так и знала!"
-    m "Купишь подарочный сертификат и отправишь его на адрес, который я скажу."
-    steve "Нет проблем, Моника! Не отвлекайся!"
 
 # Моника: черт, Стив! Какой ты огромный!
 # Стив: Моника, тебе нравится? Я так и знал!
@@ -2301,7 +2408,10 @@ label ep24_dialogues3_steve10_loop1:
     m "Черт, Стив! Какой ты огромный!"
     steve "Моника, тебе нравится? Я так и знал!"
     m "Нет, Стив!"
+    stop music
+    sound snd_orgasm1
     m "Мне... Ах..."
+    sound snd_orgasm2
     m "Мне не нравится, конечно же! Ах!!!"
 
     #видео1 конец
@@ -2310,39 +2420,53 @@ label ep24_dialogues3_steve10_loop1:
 # Моника падает... Она кончила
 # (снова это ощущение...)
 # (что это было снова?!?!)
+    music Loved_up2
     img 10103
+    sound snd_orgasm3
     m "Ах!! Ах!! Ааааааххх!!"
     sound snd_bodyfall
     img 10104
+    with fade
     m "..."
     img 10105
+    with diss
     mt "Снова это ощущение..."
     mt "Что это было снова?!?!"
 # Стив: Моника, я понимаю что ты кончила, но срок аренды твоей попы действует до тех пор пока не кончу Я!
 # Пожалуйста, встань как ты стояла до этого, задери юбку!
 # И обеспечь мне доступ к объету аренды!
+    music Groove2_85
     img 10106
+    with fade
     steve "Моника, я понимаю что ты кончила, но срок аренды твоей попы действует до тех пор, пока не кончу Я!"
     steve "Пожалуйста, встань как ты стояла до этого, задери юбку!"
     img 10104
+    with fade
     steve "И обеспечь мне доступ к объекту аренды!"
     steve "В соответствии с договором!"
 # Моника: Мерзавец...
 # Моника встает. Стив снова входит.
 # Стив: аааах!!!
 # Моника кричит: не вздумай кончить в меня!
+    img black_screen
+    with diss
+    pause 1.0
+    sound highheels_short_walk
     img 10107
     with fade
     w
     img 10108
+    with diss
     steve "Иначе сделка недействительна!"
 
+    sound highheels_short_walk
     img 10109
     with fade
     w
     img 10110
     with Dissolve(0.5)
     w
+    music Loved_up2
     img 10111
     with fade
     w
@@ -2355,17 +2479,20 @@ label ep24_dialogues3_steve10_loop1:
     img 10114
     with fade
     m "Мерзавец..."
-
-    #звук входа
-    img 10115
+    music stop
     w
+    #звук входа
+    sound hlup10
+    img 10115
+    with diss
+    w
+    sound snd_monica_ahh
     img 10118
     m "Ааааххххххх!!!"
-    img 10116
-    w
-    img 10117
-    w
 
+    img black_screen
+    with diss
+    pause 1.0
     #видео2
     music stop
     stop music
@@ -2373,6 +2500,7 @@ label ep24_dialogues3_steve10_loop1:
     scene black
     image videov_Pool_Basement_Steve_Monica_Sex_2_1 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_1.mkv", fps=30)
     show videov_Pool_Basement_Steve_Monica_Sex_2_1
+    with fadelong
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
@@ -2403,12 +2531,6 @@ label ep24_dialogues3_steve10_loop1:
     scene black
     image videov_Pool_Basement_Steve_Monica_Sex_2_6 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_6.mkv", fps=30)
     show videov_Pool_Basement_Steve_Monica_Sex_2_6
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_2_7 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_7.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_2_7
     wclean
     stop music
     play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
@@ -2447,8 +2569,17 @@ label ep24_dialogues3_steve10_loop1:
     show videov_Pool_Basement_Steve_Monica_Sex_2_13
     wclean
 
+    stop music
+    music Indo_Rock
+    img 10117
+    with diss
+    w
+    img 10116
+    with diss
+    w
 
     img 10119
+    with fade
     steve "Аааах!!!"
     img 10120
     m "Не вздумай кончить в меня!"
@@ -2457,16 +2588,19 @@ label ep24_dialogues3_steve10_loop1:
 # Стив хочет кончить на коврик.
 # Не вздумай кончать на коврик! Я не собираюсь убирать за тобой!
     img 10121
+    with fade
     steve "Аааах!!!"
     m "Не вздумай кончить на мою униформу! У меня нет другой!"
 
     img 10122
+    with fade
     steve "Аааах!!!"
     m "Не вздумай кончать на коврик! Я не собираюсь убирать за тобой!"
 
 # Стив: О боже! Моника! Куда же мне можно кончить?! Скорее!
 # Кончай в бассейн!
     img 10123
+    with diss
     steve "О Боже! Моника! Куда же мне можно кончить?! Скорее!"
     img 10124
     m "Кончай в бассейн!"
@@ -2484,40 +2618,68 @@ label ep24_dialogues3_steve10_loop1:
 # О, Моника! Конечно!
 # Если захочешь вспомнить, приходи ко мне в офис!
     img 10125
+    with diss
     steve "Аааах!!!"
     img 10126
+    with diss
+    $ monicaHasSexWithSteveBasement = True
     menu:
-        "Толкнуть Стива в бассейн...":
+        "Толкнуть Стива в бассейн..." if monicaBitch == True:
+            $ monicaSteveBasementOffended = True
             img 10127
             with fade
             #звук бульк
             w
+            music stop
+            img black_screen
+            with diss
+            sound snd_water_splash
+            pause 1.5
+            music Pyro_Flow
             img 10128
+            with fadelong
             m "Остынь, Стив! Ты слишком возбудился, малыш!"
 
 # После этого бросает визитку у бассейна и говорит.
+            sound snd_take_paper
             img 10129
+            with fade
             m "Вот адрес!"
             img 10130
+            with diss
             m "И только попробуй не прислать сертификат!"
             m "Тогда я наведаюсь к тебе!"
-        "Дать визитку...":
+        "Толкнуть Стива в бассейн... (Моника недостаточно стерва) (disabled)" if monicaBitch == False:
+            pass
+
+        "Дать визитку..." if monicaBitch == False:
+            music Groove2_85
             img 10131
+            with fade
             m "Стив, вот визитка. Пришли сертификат по этому адресу."
+            music Hidden_Agenda
             img 10132
+            with diss
             m "И, Стив..."
             m "Давай забудем об этом... Об этой сделке..."
             m "Необязательно об этом кому-то говорить. Ты понимаешь меня?"
             img 10133
+            with fade
             m "О, Моника! Конечно!"
             m "Если захочешь вспомнить, приходи ко мне в офис!"
 
+        "Дать визитку... (Моника слишком стерва) (disabled)" if monicaBitch == True:
+            pass
 
+    img black_screen
+    with Dissolve(1.0)
+    pause 2.0
     return
 
 label ep24_dialogues3_steve10a1:
+    sound snd_hrap
     mt "Я не собираюсь подходить к этой пьяной скотине!"
-    return
+    return False
 
 label ep24_dialogues3_steve10b1:
     if monicaHasSexWithSteveBasement == True:
@@ -2539,23 +2701,30 @@ label ep24_dialogues3_steve11:
     mt "Мне стоит проверить, переслал-ли Стив деньги..."
 
     #Если ругалась на Стива
-    mt "От этого мешка с дерьмом можно ожидать чего угодно!"
+    if steveOffended1 == True:
+        mt "От этого мешка с дерьмом можно ожидать чего угодно!"
     return
 
 
 label ep24_dialogues3_steve12:
+    music Hidden_Agenda
     img 10134
+    with fadelong
     m "Мисс Виктория..."
     m "Скажите... Вам приходил на почту подарочный сертификат?"
+    music Groove2_85
     img 10135
     dick_secretary "Нет, не приходил..."
     dick_secretary "Но я его жду, как обычно..."
     img 10136
+    with fade
     m "Да, Мисс Виктория... Он будет, не волнуйтесь..."
     img 7965
     dick_secretary "Я не волнуюсь, подружка!"
 
+    music Power_Bots_Loop
     img 10137
+    with fadelong
     mt "ЭТОТ СТИВ МЕНЯ ОБМАНУЛ!!!"
     mt "ОН ЧТО, ДУМАЕТ ЧТО БЕСПЛАТНО ТРАХНУЛ МЕНЯ?!?!"
     mt "ОН ПОПЛАТИТСЯ ЗА ЭТО!!!"

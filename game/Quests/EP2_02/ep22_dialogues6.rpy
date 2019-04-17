@@ -216,7 +216,8 @@ label ep22_dialogue6_3:
     img 8288
     "Мне нужны деньги..."
 
-    if biffWeeklyPhotoShootEnabled == False:
+    call process_hooks("photoshoots_work_available_check", "global")
+    if biffWeeklyPhotoShootEnabled == False or _return == False:
         #Если не прошла неделя
         img 8289
         with fade
@@ -516,7 +517,7 @@ label ep22_dialogue6_7:
     with fade
 
     #
-    if photoShootDisabledNextWeek = True:
+    if photoShootDisabledNextWeek == True:
         img 8293
         with fade
         biff "Да, цыпочка!"
@@ -602,6 +603,7 @@ label ep22_dialogue6_7b:
 
         "Уйти.":
             pass
+    img 8288
     m "Я могу идти?"
     biff "Да, цыпочка! Иди!"
     return True

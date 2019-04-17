@@ -200,6 +200,11 @@ label ep24_quests_betty11:
     $ questLog(37, False)
     $ questLog(39, True)
 
+    # Создаем нотификацию Бифа о том что на след. неделе не будет работы и вешаем хук о блокировке фотосессий
+    $ photoShootDisabledNextWeek = True
+    $ add_hook_day("ep24_quests_steve31", week_day=6) # включаем в субботу
+
+
     $ autorun_to_object("basement_bedroom2", "ep24_dialogues5_betty5a")
     $ basement_bedroom2_MonicaSuffix = 2
     call change_scene("basement_bedroom2", "Fade_long", False)

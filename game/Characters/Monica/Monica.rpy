@@ -43,6 +43,7 @@ default monicaVictoriaKissHeels = False
 default monicaVictoriaLickAssAtBegin = False
 
 default monicaHasSexWithSteveBasement = False # У Моники был секс со Стивом в подвале
+default monicaSteveLivingRoomOffended = False # Моника угрожала Стиву вилкой
 default monicaSteveBasementOffended = False # Моника толкнула Стива в бассейн
 
 default monicaUnder = "Governess"

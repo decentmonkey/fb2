@@ -121,6 +121,7 @@ label ep22_quests_Dick8: #регулярный разговор с Виктор�
         call ep22_dialogues5_12()
         call refresh_scene_fade()
         return False
+
     if week_day != 5:
         call ep22_dialogues5_10()
         call refresh_scene_fade()
@@ -130,6 +131,26 @@ label ep22_quests_Dick8: #регулярный разговор с Виктор�
         call refresh_scene_fade()
         return False
     return
+
+label ep22_quests_Dick8a:
+    # Альтернативный разговор с Викторией (включая меню)
+    if act=="l":
+        return
+    if monicaVictoriaPunishmentPlanned == True: #наказание
+        $ monicaVictoriaPunishmentPlanned = False
+        call ep22_dialogues5_12()
+        call refresh_scene_fade()
+        return False
+    $ menuName = "DickSecretary_Dialogue1_Menu"
+    menu:
+        "Разговор.":
+            call ep22_quests_Dick8()
+            return False
+        "Уйти.":
+            return False
+        "end" if 1==2:
+            pass
+    return False
 
 label ep22_quests_Dick9: #поза Моники перед Викторией
     if monicaVictoriaPunishmentPlanned == True: #наказание
