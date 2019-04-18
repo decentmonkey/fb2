@@ -461,8 +461,8 @@ translate german citizen15_dialogue_pilon_loop15_93f3cbe1:
 translate german strings:
 
     # Quests/EP2/Citizens/Citizen15_dialogue.rpy:113
-    old "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired]) (disabled)"
-    new "Stimme zu ... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired]) (disabled)"
+    old "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], required: 20 customers) (disabled)"
+    new "Stimme zu ... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], required: 20 customers) (disabled)"
 
 # TODO: Translation updated at 2019-04-16 13:23
 
@@ -813,4 +813,3 @@ translate german citizen15_dialogue_after_boobs_second_time_234f2bb7:
     mt "Also gibt es für mich keinen Grund, beschämt zu sein..."
     mt "Das ist absolut widerlich, aber ich muss gefühlskalt sein..."
     mt "Es ist ja nicht für lange..."
-

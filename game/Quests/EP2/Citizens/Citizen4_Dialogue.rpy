@@ -98,13 +98,12 @@ label citizen4_dialogue_pilon:
 
             # Разовое событие после которого появится еще 1 события у пилона -  голая грудь
             #Первый раз!!!
-            if fallingPathServedCustomersTotal >= 20 and citizen4BoobsShowedFirstTime == False:
-                # Ситизен предлагает Монике показать грудь за $ 50
-                $ store_music()
-                call citizen4_show_boobs_first_time()
-                $ restore_music()
-                if _return == True:
-                    $ citizen4BoobsShowedFirstTime = True
+            # Ситизен предлагает Монике показать грудь за $ 50
+            $ store_music()
+            call citizen4_show_boobs_first_time()
+            $ restore_music()
+            if _return == True:
+                $ citizen4BoobsShowedFirstTime = True
             jump citizen4_dialogue_pilon_loop4
         "Покажи попу.":
             call pylonController(4, 1)
@@ -159,7 +158,7 @@ label citizen4_dialogue_pilon:
             $ store_citizen_action("PylonDanceCloth", 1)
             jump citizen4_dialogue_pilon_loop4
 #        "Голые сиськи. (disabled)" if pylonpart3startsCompleted == False and 1==2:
-        "Голые сиськи. (disabled)" if citizen4BoobsNakesShowingActive == False or citizen4BoobsNakesShowedLastDay == day:
+        "Голые сиськи. (disabled)" if citizen4BoobsNakesShowingActive == True and citizen4BoobsNakesShowedLastDay == day:
             pass
         "Голые сиськи." if citizen4BoobsNakesShowingActive == True and citizen4BoobsNakesShowedLastDay != day:
             $ citizen4BoobsNakesShowedLastDay = day
@@ -278,10 +277,11 @@ label citizen4_show_boobs_first_time:
     citizen4 "Хотя... Ты красивая девочка. Хочу оценить их без одежды."
     "Я недавно провернул одно дельце и у меня есть лишние 50$. Что скажешь?"
     menu:
-        "Согласиться..." if corruption >= monicaWhoringClothNakedBoobsCorruptionRequired:
+        "Согласиться..." if corruption >= monicaWhoringClothNakedBoobsCorruptionRequired and fallingPathServedCustomersTotal >= 20:
             pass
-        "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired]) (disabled)" if corruption < monicaWhoringClothNakedBoobsCorruptionRequired:
+        "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], required: 20 customers) (disabled)" if corruption < monicaWhoringClothNakedBoobsCorruptionRequired or fallingPathServedCustomersTotal < 20:
             pass
+#        if fallingPathServedCustomersTotal >= 20 and citizen4BoobsShowedFirstTime == False:
         "Отказаться.":
 #                        call pylonController(4, 1)
             music Pyro_Flow

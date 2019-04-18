@@ -186,7 +186,7 @@ translate english citizen15_dialogue_pilon_loop15_a70bbb2a:
     # mt "Но вот 50$, которые я получу, вполне реальны!"
     mt "50$ would be useful... There are noone around here as well."
     m "$ 50?"
-    citizen15 "That's right. Shom me your pair and it's yours."
+    citizen15 "That's right. Show me your pair and it's yours."
     mt "Damn it! Are you sure you want to do it, Monica?"
     mt "Showing you chest to some hobo for mere ?"
     mt "On the other hand, it's not me, it’s some kind of a whore in the slums..."
@@ -559,8 +559,8 @@ translate english strings:
     new "Accept..."
 
     # Quests/EP2/Citizens/Citizen15_dialogue.rpy:114
-    old "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired]) (disabled)"
-    new "Agree ... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired]) (disabled)"
+    old "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], required: 20 customers) (disabled)"
+    new "Agree ... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], required: 20 customers) (disabled)"
 
     # Quests/EP2/Citizens/Citizen15_dialogue.rpy:114
     old "Отказаться."
@@ -598,7 +598,7 @@ translate english citizen15_dialogue_pilon_loop15_feded4a2:
 translate english citizen15_dialogue_pilon_loop15_89b042b3:
 
     # citizen15 "Все верно, девочка. Покажешь своих подружек и они твои."
-    citizen15 "That's right. Shom me your pair and it's yours."
+    citizen15 "That's right. Show me your pair and it's yours."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:136
 translate english citizen15_dialogue_pilon_loop15_742c6916:
@@ -755,4 +755,3 @@ translate english citizen15_dialogue_pilon_loop15_7c68ad22:
     # citizen15 "Более чем..."
     m "Satisfied?"
     citizen15 "More than..."
-
