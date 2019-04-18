@@ -66,6 +66,8 @@ label Pub_Visitors_CheckStripLooking:
 label Pub_Visitors_Add_Random(from_amount, to_amount):
     $ visitorsAmount = rand(from_amount, to_amount)
     $ visitorsArr = get_objects(scene="pub", group2="visitors_tables")
+    if visitorsArr == False:
+        return
     $ activeVisitorsList = random.sample(visitorsArr, visitorsAmount)
     $ print "visitors"
     python:

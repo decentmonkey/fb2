@@ -238,11 +238,13 @@ label ep24_quests_steve17:
     $ remove_hook()
     call ep24_dialogues3_steve10b()
     $ autorun_to_object("floor1", "ep24_quests_steve19")
-    $ add_hook_multi("ep24_quests_steve20", scene="kitchen", label = "steve_visit2b", filter={"group":"environment"})
-    $ add_hook_multi("ep24_quests_steve20", scene="kitchen2", label = "steve_visit2b", filter={"group":"environment"})
     $ add_hook("Teleport_LivingRoom", "ep24_quests_steve19a", scene="floor1", label="steve_visit2b")
     $ add_hook("enter_scene", "ep24_quests_steve17a", scene="kitchen", label="steve_visit2")
     $ add_hook("enter_scene", "ep24_quests_steve17a", scene="kitchen2", label="steve_visit2")
+#    $ add_hook_multi("ep24_quests_steve20", scene="kitchen", label = "steve_visit2b", filter={"group":"environment"})
+#    $ add_hook_multi("ep24_quests_steve20", scene="kitchen2", label = "steve_visit2b", filter={"group":"environment"})
+    $ add_hook("enter_scene", "ep24_quests_steve20", scene="kitchen", label="steve_visit2b")
+    $ add_hook("enter_scene", "ep24_quests_steve20", scene="kitchen2", label="steve_visit2b")
 
 
     call refresh_scene_fade()
@@ -274,6 +276,7 @@ label ep24_quests_steve20:
     # Взять стаканы под виски на кухне
     call ep24_dialogues3_steve10b3()
     if _return == False:
+        call change_scene("floor1")
         return False
     $ remove_hook(label="steve_visit2b")
 
@@ -307,8 +310,10 @@ label ep24_quests_steve21:
     $ add_hook("Teleport_LivingRoom", "ep24_quests_steve19a", scene="floor1", label="steve_visit2c")
     $ autorun_to_object("floor1", "ep24_quests_steve21a")
 
-    $ add_hook_multi("ep24_quests_steve22", scene="kitchen", label = "steve_visit2c", filter={"group":"environment"})
-    $ add_hook_multi("ep24_quests_steve22", scene="kitchen2", label = "steve_visit2c", filter={"group":"environment"})
+#    $ add_hook_multi("ep24_quests_steve22", scene="kitchen", label = "steve_visit2c", filter={"group":"environment"})
+#    $ add_hook_multi("ep24_quests_steve22", scene="kitchen2", label = "steve_visit2c", filter={"group":"environment"})
+    $ add_hook("enter_scene", "ep24_quests_steve22", scene="kitchen", label="steve_visit2c")
+    $ add_hook("enter_scene", "ep24_quests_steve22", scene="kitchen2", label="steve_visit2c")
 
     call refresh_scene_fade_long()
     return False
@@ -324,6 +329,7 @@ label ep24_quests_steve22:
         return
     call ep24_dialogues3_steve10d3()
     if _return == False:
+        call change_scene("floor1")
         return False
     $ remove_hook(label="steve_visit2c")
     call ep24_dialogues3_steve10e()

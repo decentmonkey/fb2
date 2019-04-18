@@ -1354,7 +1354,7 @@ translate english ep24_dialogues3_steve10_4604bb56:
 translate english ep24_dialogues3_steve10_2c615982:
 
     # steve "Ральф, а где Бетти?"
-    steve "Rafl, where is Betty?"
+    steve "Ralph, where is Betty?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:682
 translate english ep24_dialogues3_steve10_0080f098:
@@ -2310,7 +2310,7 @@ translate english ep24_dialogues3_steve10_5d5a64a8:
 translate english ep24_dialogues3_steve10_6e2c5945:
 
     # m "Мне нужно хотя бы $ 10.000, Стив!"
-    m "I want at least 000, Steve."
+    m "I want at least $ 10.000, Steve."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1458
 translate english ep24_dialogues3_steve10_ea8b5237:
@@ -2742,7 +2742,7 @@ translate english strings:
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1440
     old "Мне нужно хотя бы $ 10.000, Стив!"
-    new "I want at least 000, Steve."
+    new "I want at least $ 10.000, Steve."
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1483
     old "$ 8.000 за весь объект аренды!"
@@ -3172,7 +3172,7 @@ translate english ep24_dialogues3_steve10_enter_room2_727f2b7b:
 translate english ep24_dialogues3_steve10a_2c615982:
 
     # steve "Ральф, а где Бетти?"
-    steve "Rafl, where is Betty?"
+    steve "Ralph, where is Betty?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:979
 translate english ep24_dialogues3_steve10a_0080f098:
@@ -4214,7 +4214,7 @@ translate english ep24_dialogues3_steve10g_5d5a64a8:
 translate english ep24_dialogues3_steve10g_6e2c5945:
 
     # m "Мне нужно хотя бы $ 10.000, Стив!"
-    m "I want at least 000, Steve."
+    m "I want at least $ 10.000, Steve."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2106
 translate english ep24_dialogues3_steve10g_ea8b5237:
