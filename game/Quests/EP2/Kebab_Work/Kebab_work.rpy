@@ -137,7 +137,7 @@ label kebab_work_end:
     $ monicaKebabWorkAmount +=1
     if kebabOffendQuestJustCompleted == True:
         $ kebabOffendQuestJustCompleted = False
-        call change_scene("hostel_street2")
+        call change_scene("hostel_street2") from _call_change_scene_184
         return
     $ hudDaySkipToEveningEnabled = True
     $ changeDayTime("evening")

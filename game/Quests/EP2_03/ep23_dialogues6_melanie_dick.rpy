@@ -18,7 +18,7 @@ label ep23_dialogues6_1:
     with Dissolve(1)
     stop music fadeout 1.0
     music m80s_Things
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_16
     scene black_screen
     with Dissolve(1)
     img 8881

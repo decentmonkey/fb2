@@ -33,7 +33,7 @@ label ep22_quests_falling_path1: # Инициализация ситизенов
         return
     if monicaKnowAboutKebabWork == False: # Если Моника не знает о кебабах, то ждем
         return
-    call citizens_init_monica_offend()
+    call citizens_init_monica_offend() from _call_citizens_init_monica_offend
     $ questOffendMonicaFlyersCitizen12Started = True
     return
 
@@ -62,7 +62,7 @@ label ep22_quests_falling_path4:
     if obj_name in fallingPathServedCustomers:
         mt "За такие маленькие деньги я больше ничего не собираюсь показывать ему сегодня..."
         return False
-    call citizens_init()
+    call citizens_init() from _call_citizens_init_1
     if obj_name == "Citizen_2":
         $ obj_name = "Citizen_1"
     $ store_music()
@@ -71,12 +71,12 @@ label ep22_quests_falling_path4:
     $ citizenId = citizens_list_source[obj_name]["id"]
     $ pylonPreset = rand(1,2)
     $ funcName = "citizen" + str(citizenId) + "_dialogue_pilon"
-    call falling_path_start_customer()
-    call expression funcName
+    call falling_path_start_customer() from _call_falling_path_start_customer
+    call expression funcName from _call_expression_13
     $ restore_music()
     if _return != False:
         $ notif(_("Моника обслужила 'Клиента'"))
-        call falling_path_store_customer()
+        call falling_path_store_customer() from _call_falling_path_store_customer
     return False
 
 label falling_path_start_customer():
@@ -107,11 +107,11 @@ label ep22_quests_falling_path5:
     $ notif(_("Falling Path started..."))
     $ questLog(16, False)
     $ questLog(17, True)
-    call ep23_quests_pub_init() #Инициализируем бар
-    call init_location("hostel_edge_1_a", "hostel_edge_1_a_init")
-    call ep22_quests_falling_path3()
-    call falling_path_store_customer()
-    call citizens_init_day()
+    call ep23_quests_pub_init() from _call_ep23_quests_pub_init #Инициализируем бар
+    call init_location("hostel_edge_1_a", "hostel_edge_1_a_init") from _call_init_location
+    call ep22_quests_falling_path3() from _call_ep22_quests_falling_path3
+    call falling_path_store_customer() from _call_falling_path_store_customer_1
+    call citizens_init_day() from _call_citizens_init_day
     return
 
 #    call citizens_init()

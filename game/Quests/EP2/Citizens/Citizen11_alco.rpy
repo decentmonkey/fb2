@@ -37,5 +37,5 @@ label take_trash_bottle:
                     return
         "Не брать.":
             m "Ну уж нет, я не собираюсь лазать по помойкам!"
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_58
     return

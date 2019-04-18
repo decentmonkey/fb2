@@ -632,7 +632,7 @@ label cleaning2_bardie_comment1:
     if monicaMustWearBettyPanties == True and (monicaBettyPantiesId != bettyPantiesLog[1] or monicaBettyPanties == False):
         # Если Моника одела не те трусики
         music Groove2_85 high
-        call bardieMonicaCleaningInteract_wrong_panties()
+        call bardieMonicaCleaningInteract_wrong_panties() from _call_bardieMonicaCleaningInteract_wrong_panties
         bardie "Ты одела не те трусики! Бетти была вчера в других!"
         mt "!!!"
     else:
@@ -641,7 +641,7 @@ label cleaning2_bardie_comment1:
             mt "!!!"
         if monicaMustNotWearPanties == True:
             if monicaUnder != "Nude":
-                call ep24_dialogues4_bardie2() # замечание
+                call ep24_dialogues4_bardie2() from _call_ep24_dialogues4_bardie2 # замечание
             else:
                 bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
 #    music Pyro_Flow high
@@ -727,7 +727,7 @@ label cleaning2_bardie_comment2:
             w
     if monicaMustWearBettyPanties == True and (monicaBettyPantiesId != bettyPantiesLog[1] or monicaBettyPanties == False):
         music Groove2_85 high
-        call bardieMonicaCleaningInteract_wrong_panties()
+        call bardieMonicaCleaningInteract_wrong_panties() from _call_bardieMonicaCleaningInteract_wrong_panties_1
         bardie "Ты одела не те трусики! Бетти была вчера в других!"
         mt "!!!"
     else:
@@ -736,7 +736,7 @@ label cleaning2_bardie_comment2:
             mt "!!!"
         if monicaMustNotWearPanties == True:
             if monicaUnder != "Nude":
-                call ep24_dialogues4_bardie2() # замечание
+                call ep24_dialogues4_bardie2() from _call_ep24_dialogues4_bardie2_1 # замечание
             else:
                 bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
 #    music Pyro_Flow
@@ -826,7 +826,7 @@ label cleaning2_bardie_comment3:
     if monicaMustWearBettyPanties == True and (monicaBettyPantiesId != bettyPantiesLog[1] or monicaBettyPanties == False):
         music Groove2_85 high
         img 7657
-        call bardieMonicaCleaningInteract_wrong_panties()
+        call bardieMonicaCleaningInteract_wrong_panties() from _call_bardieMonicaCleaningInteract_wrong_panties_2
         bardie "Ты одела не те трусики! Бетти была вчера в других!"
         mt "!!!"
     else:
@@ -835,7 +835,7 @@ label cleaning2_bardie_comment3:
             mt "!!!"
         if monicaMustNotWearPanties == True:
             if monicaUnder != "Nude":
-                call ep24_dialogues4_bardie2() # замечание
+                call ep24_dialogues4_bardie2() from _call_ep24_dialogues4_bardie2_2 # замечание
             else:
                 bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
 #    music Pyro_Flow high

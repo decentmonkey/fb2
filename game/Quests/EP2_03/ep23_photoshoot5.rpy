@@ -61,7 +61,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_21
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose1
@@ -72,7 +72,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_22
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose1
@@ -83,7 +83,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_23
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose1
@@ -126,7 +126,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_24
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose2
@@ -137,7 +137,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_25
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose2
@@ -148,7 +148,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_26
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose2
@@ -197,7 +197,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_27
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose3
@@ -208,7 +208,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_28
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose3
@@ -219,7 +219,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_29
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose3
@@ -253,7 +253,7 @@ label ep22_photoshoot5:
                 music Groove2_85
                 m "Алекс! Я не собираюсь сидеть на коленях перед Мелани!"
                 "И это не обсуждается!"
-                call corruption_required(PS5_monica_pose4_corruption_required)
+                call corruption_required(PS5_monica_pose4_corruption_required) from _call_corruption_required_10
                 return False
             m "Алекс! Я не собираюсь сидеть на коленях перед Мелани!"
             m "..."
@@ -277,7 +277,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_30
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose4
@@ -288,7 +288,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_31
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose4
@@ -299,7 +299,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_32
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose4
@@ -331,7 +331,7 @@ label ep22_photoshoot5:
                 music Groove2_85
                 m "Алекс! Я не собираюсь ползать в ногах у Мелани!"
                 "И это не обсуждается!"
-                call corruption_required(PS5_monica_pose5_corruption_required)
+                call corruption_required(PS5_monica_pose5_corruption_required) from _call_corruption_required_11
                 return False
             $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot2_progress")
             jump ep22_photoshoot5_pose6
@@ -350,7 +350,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_33
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose5
@@ -361,7 +361,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_34
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose5
@@ -372,7 +372,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_35
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose5
@@ -414,7 +414,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_36
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose6
@@ -425,7 +425,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_37
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose6
@@ -436,7 +436,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_38
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose6
@@ -470,7 +470,7 @@ label ep22_photoshoot5:
             alex_photograph "Авиакомпания показывает насколько важен каждый пассажир!"
 
             if corruption < PS5_monica_pose7_corruption_required:
-                call corruption_required(PS5_monica_pose7_corruption_required)
+                call corruption_required(PS5_monica_pose7_corruption_required) from _call_corruption_required_12
                 m "Алекс! Я не собираюсь ползать в ногах у Мелани!"
                 "И это не обсуждается!"
                 return False
@@ -491,7 +491,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_39
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose7
@@ -501,18 +501,18 @@ label ep22_photoshoot5:
             img 8775
             with Dissolve(0.2)
             w
-            call photoshop_flash()
+            call photoshop_flash() from _call_photoshop_flash_26
             w
             img 8776
             with Dissolve(0.2)
             w
-            call photoshop_flash()
+            call photoshop_flash() from _call_photoshop_flash_27
             w
             $ photoImage = 8778
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_40
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose7
@@ -523,7 +523,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_41
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose7
@@ -562,7 +562,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_42
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose8
@@ -573,7 +573,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_43
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose8
@@ -584,7 +584,7 @@ label ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_44
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose8
@@ -686,18 +686,18 @@ label ep22_photoshoot5:
             img 8800
             with Dissolve(0.2)
             w
-            call photoshop_flash()
+            call photoshop_flash() from _call_photoshop_flash_28
             w
             img 8792
             with Dissolve(0.2)
             w
-            call photoshop_flash()
+            call photoshop_flash() from _call_photoshop_flash_29
             w
             $ photoImage = 8793
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_45
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose9
@@ -707,23 +707,23 @@ label ep22_photoshoot5:
             img 8801
             with Dissolve(0.2)
             w
-            call photoshop_flash()
+            call photoshop_flash() from _call_photoshop_flash_30
             w
             img 8790
             with Dissolve(0.2)
             w
-            call photoshop_flash()
+            call photoshop_flash() from _call_photoshop_flash_31
             w
             img 8794
             with Dissolve(0.2)
             w
-            call photoshop_flash()
+            call photoshop_flash() from _call_photoshop_flash_32
             w
             $ photoImage = 8795
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_46
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose9
@@ -733,23 +733,23 @@ label ep22_photoshoot5:
             img 8799
             with Dissolve(0.2)
             w
-            call photoshop_flash()
+            call photoshop_flash() from _call_photoshop_flash_33
             w
             img 8796
             with Dissolve(0.2)
             w
-            call photoshop_flash()
+            call photoshop_flash() from _call_photoshop_flash_34
             w
             img 8797
             with Dissolve(0.2)
             w
-            call photoshop_flash()
+            call photoshop_flash() from _call_photoshop_flash_35
             w
             $ photoImage = 8798
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count()
+            call photoshoot_flash_count() from _call_photoshoot_flash_count_47
             $ PS5_shoots_array.append(photoImage)
             w
             jump ep22_photoshoot5_pose9
@@ -779,7 +779,7 @@ label ep22_photoshoot5_end:
             if monicaSaidBiffSheIsWillBeAGoodChick == True:
                 "..."
                 "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
-            call ep23_photoshoot5_casting()
+            call ep23_photoshoot5_casting() from _call_ep23_photoshoot5_casting
             return
         "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot5_casting_corruption_required]) (disabled)" if biffMonicaCastingsEnabled == True and corruption < photoshoot5_casting_corruption_required:
             pass
@@ -815,7 +815,7 @@ label ep23_photoshoot5_casting:
             biff "Что Стюардесса хочет показать папочке?"
             $ chickMode = True
             $ castingCloth = 5
-            call ep22_casting()
+            call ep22_casting() from _call_ep22_casting_2
             img 9499
             with fade
             mt "Мерзавец!"
@@ -834,7 +834,7 @@ label ep23_photoshoot5_casting:
             biff "И что цыпочка будет делать?"
             $ castingCloth = 5
             $ chickMode = False
-            call ep22_casting()
+            call ep22_casting() from _call_ep22_casting_3
             img 9499
             with fade
             mt "Мерзавец!"

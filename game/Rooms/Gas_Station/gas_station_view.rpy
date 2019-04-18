@@ -42,7 +42,7 @@ label gas_station_view1_environment:
             mt "Это кассирша, которую я так долго искала."
 
         if obj_data["action"] == "w":
-            call monica_gas_station_thief_dialogue2a()
+            call monica_gas_station_thief_dialogue2a() from _call_monica_gas_station_thief_dialogue2a
 #            mt "Я не собираюсь подходить к ней. Чем она может мне помочь?"
 #            if monicaBitch == True:
 #                "У нее же нет мозгов!"

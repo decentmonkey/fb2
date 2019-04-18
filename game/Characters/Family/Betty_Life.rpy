@@ -29,7 +29,7 @@ label Betty_Life_day1:
     return
 
 label Betty_Life_day2: #Бетти чаще бывает в спальне
-    call bettyGetTodayPanties()
+    call bettyGetTodayPanties() from _call_bettyGetTodayPanties_3
     $ bedroom1_betty_suffix = ""
     $ rnd = rand(1,3)
     if rnd == 3:

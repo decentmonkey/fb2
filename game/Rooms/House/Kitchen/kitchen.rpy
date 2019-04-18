@@ -54,6 +54,6 @@ label kitchen_environment:
         if get_active_objects("Betty", scene="House", recursive=True) != False:
             call afterJailHouse_dialogue15a() from _call_afterJailHouse_dialogue15a_1
             return
-        call ep22_dialogue1_5_kitchen()
+        call ep22_dialogue1_5_kitchen() from _call_ep22_dialogue1_5_kitchen_1
         return
     return

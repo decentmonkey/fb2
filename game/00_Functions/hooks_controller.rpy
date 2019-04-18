@@ -326,7 +326,7 @@ label call_hook(label_name, menu_name, sprites_hover_dummy_screen_flag = False):
     if sprites_hover_dummy_screen_flag == True:
         show screen sprites_hover_dummy_screen()
         $ sprites_hover_dummy_screen_flag = False
-    call expression label_name #вызов хука
+    call expression label_name from _call_expression_12 #вызов хука
 #    $ stack = renpy.get_return_stack()
 #    $ stack[0] = (stack[0][0], stack[0][1], stack[0][2]+2)
 #    $ renpy.set_return_stack(stack)

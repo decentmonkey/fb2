@@ -13,7 +13,7 @@ label hostel_edge_1_a:
     $ sceneIsStreet = True
 
     if hostel_edge_1_a_ep24_inited == False:
-        call hostel_edge_1_a_init_additional1()
+        call hostel_edge_1_a_init_additional1() from _call_hostel_edge_1_a_init_additional1
         $ hostel_edge_1_a_ep24_inited = True
 
     $ localDaySuffix = ""

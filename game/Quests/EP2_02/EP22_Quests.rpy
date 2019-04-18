@@ -30,10 +30,10 @@ label ep22_init:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Утро..."))
+    call textonblack(_("Утро...")) from _call_textonblack_13
     img black_screen
     with Dissolve(2.0)
-    call ep22_dialogues2_1()
+    call ep22_dialogues2_1() from _call_ep22_dialogues2_1
     $ rain = False
     $ focus_map("Teleport_Dick_Office", "ep22_dialogues5_0b")
     $ add_hook("basement_monica_before_nap", "ep22_dialogues5_0a", scene="global", lable="hurry_to_dick")
@@ -47,35 +47,35 @@ label ep22_init:
     $ move_object("DickTheLawyer", "dick_office_cabinet")
     $ remove_hook("DickTheLawyer", "dick_the_lawyer_talk1", scene="dick_office_cabinet")
     $ add_hook("DickTheLawyer", "ep22_quests_Dick2", scene="dick_office_cabinet", label="dicksecretary_stage2")
-    call Dick_Life_init()
+    call Dick_Life_init() from _call_Dick_Life_init
 
-    call basement_bedroom1_init()
-    call basement_bedroom2_init()
+    call basement_bedroom1_init() from _call_basement_bedroom1_init
+    call basement_bedroom2_init() from _call_basement_bedroom2_init_1
 
     # Инициализируем Бифа
-    call ep22_quests_office_init()
+    call ep22_quests_office_init() from _call_ep22_quests_office_init
 
     # Инициализируем сцену с бутылкой
     if vodkaTaken == False:
-        call init_location("hostel_edge_1_b", "hostel_edge_1_b_init")
+        call init_location("hostel_edge_1_b", "hostel_edge_1_b_init") from _call_init_location_1
 
     $ ep22_started = True
     return
 
 label ep22_betty_catch_exit_map:
     if obj_name != "Teleport_House" and map_scene == "House" and (map_source_scene == "basement_bedroom1" or map_source_scene == "basement_bedroom2"):
-        call ep22_betty_catch_process()
+        call ep22_betty_catch_process() from _call_ep22_betty_catch_process
         $ map_source_scene = "floor2"
         return False
     if obj_name != "Teleport_House" and map_scene == "House":
-        call ep22_betty_catch_process()
+        call ep22_betty_catch_process() from _call_ep22_betty_catch_process_1
         $ map_source_scene = "floor2"
         return False
     return
 label ep22_betty_catch_exit_gates:
     if act != "w":
         return True
-    call ep22_betty_catch_process()
+    call ep22_betty_catch_process() from _call_ep22_betty_catch_process_2
     return False
 
 label ep22_betty_catch_process:
@@ -85,7 +85,7 @@ label ep22_betty_catch_process:
     $ add_hook("map_teleport", "EP22_Quests_Betty0_Fred_scene", scene="global") #Вешаем сцену с Бетти
     $ monicaLastCleaningOfferedDay = day
 
-    call ep22_dialogues2_4()
+    call ep22_dialogues2_4() from _call_ep22_dialogues2_4
     $ cloth = "Governess"
     $ cloth_type = "Governess"
     $ add_hook("Spot", "ep22_dialogue2_6a", scene="floor2")
@@ -98,7 +98,7 @@ label ep22_betty_catch_process:
         $ add_char_progress("Betty", -100, "refuse_to_clean_spot1")
         $ char_info["Betty"]["level"] = 1
         $ notif(__(char_info["Betty"]["name_orig"]) + " " + __("прогресс понижен!"))
-        call change_scene("floor2")
+        call change_scene("floor2") from _call_change_scene_220
         return False
     else:
 #        $ monicaBettyPanties = True
@@ -106,7 +106,7 @@ label ep22_betty_catch_process:
         $ move_object("Betty", "floor2")
         $ monicaLateToDick = True
         $ add_cleaning(True)
-        call house_cleaning_spot_external_call()
+        call house_cleaning_spot_external_call() from _call_house_cleaning_spot_external_call
         return False
     return
 

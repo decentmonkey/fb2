@@ -6,7 +6,7 @@ label ep24_quests_betty1:
     # Бетти ловит Монику, чтобы сказать что теперь Моника может проверять ее трусики
     if cloth != "Governess" or day_time != "day":
         return
-    call ep24_dialogues5_betty1()
+    call ep24_dialogues5_betty1() from _call_ep24_dialogues5_betty1
     $ remove_hook(label="betty_catch1")
     $ add_hook("Betty", "ep24_quests_betty2", scene="floor2", group="dialouge_regular")
     $ add_hook("Betty", "ep24_quests_betty6", scene="bedroom1", group="dialouge_regular")
@@ -38,16 +38,16 @@ label ep24_quests_betty1:
 
     $ add_hook("enter_scene", "ep24_quests_betty1a")
 
-    call floor2_init_addition1()
-    call bedroom1_init_addition1()
+    call floor2_init_addition1() from _call_floor2_init_addition1_2
+    call bedroom1_init_addition1() from _call_bedroom1_init_addition1_2
 
-    call process_hooks("Bardie_Life_day", "global")
+    call process_hooks("Bardie_Life_day", "global") from _call_process_hooks_39
     return
 
 label ep24_quests_betty1a:
     # Показывание что прогресс с Бетти активирован
     $ remove_hook()
-    call ep24_dialogues5_betty0a()
+    call ep24_dialogues5_betty0a() from _call_ep24_dialogues5_betty0a
     return
 
 label ep24_quests_betty2:
@@ -55,20 +55,20 @@ label ep24_quests_betty2:
     if act=="l":
         return
     if cloth != "Governess":
-        call bettyDialogue3()
+        call bettyDialogue3() from _call_bettyDialogue3_3
         return False
     $ EP22_Quests_Betty3Flag1 = False
     if monicaCleaningInProgressEngineWorkingFlag == True:
         $ menuName = "ep24_quests_betty2_menu1"
         menu:
             "Говорить." if bettyFitnessToday == True:
-                call ep22_dialogues4_1b()
+                call ep22_dialogues4_1b() from _call_ep22_dialogues4_1b_1
             "Уйти.":
                 pass
             "":
                 pass
         return False
-    call ep22_dialogues4_1()
+    call ep22_dialogues4_1() from _call_ep22_dialogues4_1_1
     $ lastReturn = _return
 
     $ _return = lastReturn
@@ -80,26 +80,26 @@ label ep24_quests_betty2:
             $ add_object_to_scene("Car", {"type" : 2, "base" : "Street_House_Car", "click" : "street_house_main_yard_environment", "actions" : "l", "zorder":0, "b":0.15}, {"driverOnHouseYard":{"v":False, "active":False}}, scene="street_house_main_yard")
             $ move_object("Betty", "empty")
             $ move_object("Driver", "empty")
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _call_refresh_scene_fade_83
         return False
     $ add_cleaning(True)
     $ add_hook("open", "EP22_Quests_Betty4", scene="street_fitness")
-    call change_scene("street_fitness", "Fade_long", "snd_car_engine")
+    call change_scene("street_fitness", "Fade_long", "snd_car_engine") from _call_change_scene_232
     return False
 
 label ep24_quests_betty3:
     # Моника просит Бетти показать трусики у зеркала
     $ EP22_Quests_Betty3Flag1 = True
     $ Bardie_Life_day5_day = day
-    call process_hooks("Bardie_Life_day", "global")
+    call process_hooks("Bardie_Life_day", "global") from _call_process_hooks_40
     if bettyMustNotWearPanties == False:
-        call ep24_dialogues5_betty4()
+        call ep24_dialogues5_betty4() from _call_ep24_dialogues5_betty4
     else:
-        call ep24_dialogues5_betty7()
+        call ep24_dialogues5_betty7() from _call_ep24_dialogues5_betty7
     if _return != False:
-        call process_hooks("betty_showed_panties_to_monica", "misc")
+        call process_hooks("betty_showed_panties_to_monica", "misc") from _call_process_hooks_41
         $ bettyShowedPantiesLastDay = day
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_84
     return False
 
 label ep24_quests_betty4:
@@ -113,7 +113,7 @@ label ep24_quests_betty6:
         return
     $ menuName = "betty_bedroom_dialogue_regular_menu"
     $ Bardie_Life_day5_day = day
-    call process_hooks("Bardie_Life_day", "global")
+    call process_hooks("Bardie_Life_day", "global") from _call_process_hooks_42
     menu:
         "Уйти.":
             return False
@@ -123,33 +123,33 @@ label ep24_quests_betty6:
 label ep24_quests_betty7:
     # Моника просит Бетти показать трусики в спальне (регулярный разговор)
     if bettyMustNotWearPanties == False:
-        call ep24_dialogues5_betty3()
+        call ep24_dialogues5_betty3() from _call_ep24_dialogues5_betty3
     else:
-        call ep24_dialogues5_betty6()
+        call ep24_dialogues5_betty6() from _call_ep24_dialogues5_betty6
     if _return != False:
-        call process_hooks("betty_showed_panties_to_monica", "misc")
+        call process_hooks("betty_showed_panties_to_monica", "misc") from _call_process_hooks_43
         $ bettyShowedPantiesLastDay = day
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_85
     return False
 
 
 label ep24_quests_betty8:
     # Барди проверяет трусики Бетти на floor2
     $ Bardie_Life_day5_day = day
-    call ep24_dialogues5_betty2b()
-    call process_hooks("betty_showed_panties_to_bardie", "misc")
-    call process_hooks("Bardie_Life_day", "global")
+    call ep24_dialogues5_betty2b() from _call_ep24_dialogues5_betty2b
+    call process_hooks("betty_showed_panties_to_bardie", "misc") from _call_process_hooks_44
+    call process_hooks("Bardie_Life_day", "global") from _call_process_hooks_45
     sound snd_runaway
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_86
     return False
 label ep24_quests_betty9:
     # Барди проверяет трусики Бетти в bedroom1
     $ Bardie_Life_day5_day = day
-    call ep24_dialogues5_betty2()
-    call process_hooks("betty_showed_panties_to_bardie", "misc")
-    call process_hooks("Bardie_Life_day", "global")
+    call ep24_dialogues5_betty2() from _call_ep24_dialogues5_betty2
+    call process_hooks("betty_showed_panties_to_bardie", "misc") from _call_process_hooks_46
+    call process_hooks("Bardie_Life_day", "global") from _call_process_hooks_47
     sound snd_runaway
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_87
     return False
 
 label ep24_quests_betty5:
@@ -175,7 +175,7 @@ label ep24_quests_betty10:
 label ep24_quests_betty11:
     if cloth != "Governess" or day_time != "day":
         return
-    call ep24_dialogues5_betty5()
+    call ep24_dialogues5_betty5() from _call_ep24_dialogues5_betty5
     $ remove_hook(label="betty_catch2")
     $ monicaMustNotWearPanties = True
     $ bettyMustNotWearPanties = True
@@ -183,8 +183,8 @@ label ep24_quests_betty11:
     $ monicaLaundryBettyPantiesSelectMode = 1 #Выбор в прачечной
     $ monicaLaundryBettyPantiesSelectNudeDisabled = False
 
-    call bettyGetTodayPanties()
-    call bedroom1_init_addition2()
+    call bettyGetTodayPanties() from _call_bettyGetTodayPanties_4
+    call bedroom1_init_addition2() from _call_bedroom1_init_addition2
 
     $ char_info["Betty"]["enabled"] = True
     $ char_info["Bardie"]["enabled"] = True
@@ -207,6 +207,6 @@ label ep24_quests_betty11:
 
     $ autorun_to_object("basement_bedroom2", "ep24_dialogues5_betty5a")
     $ basement_bedroom2_MonicaSuffix = 2
-    call change_scene("basement_bedroom2", "Fade_long", False)
+    call change_scene("basement_bedroom2", "Fade_long", False) from _call_change_scene_233
 
     return False

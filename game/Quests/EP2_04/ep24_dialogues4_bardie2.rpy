@@ -252,7 +252,7 @@ label ep24_dialogues4_bardie4:
                     pass
                 "Убежать...":
                     $ move_object("Bardie", "bedroom_bardie")
-                    call change_scene("street_house_main_yard", "Fade_long", "highheels_run2")
+                    call change_scene("street_house_main_yard", "Fade_long", "highheels_run2") from _call_change_scene_206
                     return False
         "Послушаться хозяина дома...":
             pass

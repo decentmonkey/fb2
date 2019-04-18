@@ -53,7 +53,7 @@ label ep24_dialogues3_fitness2:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("5 минут спустя..."))
+    call textonblack(_("5 минут спустя...")) from _call_textonblack_17
     img black_screen
     with Dissolve(2.0)
     music Hidden_Agenda
@@ -110,7 +110,7 @@ label ep24_dialogues3_fitness3:
     w
     img 10149
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_82
     w
     img 10148
     betty "Хорошо..."
@@ -199,7 +199,7 @@ label ep24_dialogues3_fitness3b:
     img 10164
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_83
     W
 
     # Занимается без лифчика
@@ -220,22 +220,22 @@ label ep24_dialogues3_fitness3b:
     img 10169
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_84
     w
     img 10170
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_85
     w
     img 10171
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_86
     w
     img 10172
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_87
     w
 
     #Барди
@@ -292,7 +292,7 @@ label ep24_dialogues3_fitness3c:
     img 10178
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_88
     w
     img 10179
     with fadelong
@@ -367,7 +367,7 @@ label ep24_dialogues3_fitness3c:
     img 10198
     with Dissolve(0.5)
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_89
     w
     img 10199
     w
@@ -380,12 +380,12 @@ label ep24_dialogues3_fitness3c:
     img 10202
     with Dissolve(0.5)
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_90
     w
     img 10203
     with fade
     betty "Так хорошо?"
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_91
     w
     fitness_instructor "Да, Бетти. Давай продолжим."
     img 10204
@@ -397,7 +397,7 @@ label ep24_dialogues3_fitness3c:
     img 10206
     with fade
     betty "Да, я правда смогла поднять ногу выше..."
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_92
     w
     img 10207
     with diss
@@ -406,7 +406,7 @@ label ep24_dialogues3_fitness3c:
     img 10208
     with diss
     betty "Да..."
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_93
     w
 
     img 10209
@@ -458,28 +458,28 @@ label ep24_dialogues3_fitness3d:
     img 10217
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_94
     w
     img 10218
     with diss
 #    sound kiss2
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_95
     w
     img 10219
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_96
     w
     img 10220
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_97
     w
     img 10221
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_98
     w
     sound snd_fabric1
     img 10223
@@ -494,7 +494,7 @@ label ep24_dialogues3_fitness3d:
     #Барди
     img 10225
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_99
     w
 
 
@@ -545,7 +545,7 @@ label ep24_dialogues3_fitness3d:
     with diss
     sound Jump2
     fitness_instructor "Ты поймешь что такое настоящий Дзен..."
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_100
     w
 
     img 10238
@@ -554,7 +554,7 @@ label ep24_dialogues3_fitness3d:
     w
     img 10237
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_101
     w
 
     img 10239
@@ -804,7 +804,7 @@ label ep24_dialogues3_fitness3d:
 ######
     music stop
     music Power_Bots_Loop
-    call ep24_dialogues3_fitness4()
+    call ep24_dialogues3_fitness4() from _call_ep24_dialogues3_fitness4
     music stop
     img black_screen
     with Dissolve(1.0)

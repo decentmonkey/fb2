@@ -107,7 +107,7 @@ label show_scene_now:
     if refreshed_scene_name != scene_name:
         $ refreshed_scene_name = scene_name
         call process_hooks("enter_scene", scene_name) from _call_process_hooks_13 #хук вызывается после входа на сцену и отрисовки (как autorun)
-        call remove_dialogue()
+        call remove_dialogue() from _call_remove_dialogue_2
     if scene_refresh_flag == True:
         jump show_scene
 
@@ -208,11 +208,11 @@ label after_load():
         $ game_version1_screen_ready_to_render = True
         call refresh_scene() from _call_refresh_scene_2
     if ep23_quests_initialized == False:
-        call ep23_Quests_init()
+        call ep23_Quests_init() from _call_ep23_Quests_init
     if ep24_quests_initialized == False:
-        call ep24_quests_init()
+        call ep24_quests_init() from _call_ep24_quests_init
     $ imagesSizesCache = {}
-    call run_after_load()
+    call run_after_load() from _call_run_after_load
     return
     $ scene_refresh_flag = True #???
     $ show_scene_loop_flag = True

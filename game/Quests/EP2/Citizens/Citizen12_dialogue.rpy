@@ -104,7 +104,7 @@ label citizen12_dialogue:
                 $ add_objective("thanks_for_rescue", _("Сказать спасибо за спасение от нападения"), c_green, 40)
                 $ kebabOffendQuestJustCompleted = True
                 $ add_hook("Citizen_6", "citizen6_dialogue_after_offend_hook", scene="hostel_street2", label="monica_kebab_offend")
-                call refresh_scene_fade()
+                call refresh_scene_fade() from _call_refresh_scene_fade_48
                 return
             if rand(0, citizen12_refuse_probability) > 0:
                 imgr Dial_Citizen_12_2

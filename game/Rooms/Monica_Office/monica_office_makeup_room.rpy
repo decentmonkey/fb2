@@ -29,7 +29,7 @@ label monica_office_makeup_room_init:
 
 label monica_office_makeup_room_teleport:
     if obj_name == "Teleport_Monica_Office_Photostudio":
-        call change_scene("monica_office_photostudio")
+        call change_scene("monica_office_photostudio") from _call_change_scene_191
         return
 
     return

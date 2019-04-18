@@ -32,11 +32,11 @@ label fitness_locker_2_init:
 
 label fitness_locker_2_teleport:
     if obj_name == "Teleport_Locker":
-        call EP22_Quests_Betty6()
+        call EP22_Quests_Betty6() from _call_EP22_Quests_Betty6
         return
     return
 
 label fitness_locker_2_environment:
     if obj_name == "Stephanie" or obj_name == "Rebecca" or obj_name == "Betty":
-        call EP22_Quests_Betty7()
+        call EP22_Quests_Betty7() from _call_EP22_Quests_Betty7
     return

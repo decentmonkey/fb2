@@ -317,7 +317,7 @@ label ep22_dialogues5_2:
                 dick_secretary "Правильный ответ..."
                 # Щелчок фотоаппарата
                 img 8011
-                call photoshop_flash()
+                call photoshop_flash() from _call_photoshop_flash_37
                 w
                 sound snd_woman_laugh
                 img 8012
@@ -528,7 +528,7 @@ label ep22_dialogues5_4:
     img 8053
     menu:
         "Послать Дика к черту.":
-            call bitch(10, "put_dick_to_hell")
+            call bitch(10, "put_dick_to_hell") from _call_bitch_185
             #bitch increase
             pass
         "Попробовать соблазнить Дика как это делает Виктория (low corruption, required [monicaDickSeduceAsVictoriaByAssCorruptionRequired]) (disabled)" if corruption < monicaDickSeduceAsVictoriaByAssCorruptionRequired:
@@ -1113,7 +1113,7 @@ label ep22_dialogues5_7:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("5 минут спустя..."))
+    call textonblack(_("5 минут спустя...")) from _call_textonblack_10
     img black_screen
     with Dissolve(2.0)
     music Gearhead
@@ -1441,7 +1441,7 @@ label ep22_dialogues5_12:
             pass
         "Убежать!":
             $ autorun_to_object("ep22_dialogues5_13", scene="street_dick_office")
-            call change_scene("street_dick_office", "Fade_long", "highheels_run2")
+            call change_scene("street_dick_office", "Fade_long", "highheels_run2") from _call_change_scene_190
             #Телепорт на hall
             return
 
@@ -1557,7 +1557,7 @@ label ep22_dialogues5_14:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_11
     scene black_screen
     with Dissolve(1)
     music Loved_Up

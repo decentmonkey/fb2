@@ -50,11 +50,11 @@ label bardieMonicaCleaningInteract:
                 call cleaning_bardie_comment3() from _call_cleaning_bardie_comment3
         if bardieBlackmailStage >= 3:
             if scene_name == "floor1":
-                call cleaning2_bardie_comment1()
+                call cleaning2_bardie_comment1() from _call_cleaning2_bardie_comment1
             if scene_name == "bedroom_bardie":
-                call cleaning2_bardie_comment2()
+                call cleaning2_bardie_comment2() from _call_cleaning2_bardie_comment2
             if scene_name == "bedroom_second":
-                call cleaning2_bardie_comment3()
+                call cleaning2_bardie_comment3() from _call_cleaning2_bardie_comment3
         $ move_object("Bardie", "empty")
         $ monicaCleaningObject = "" # Ставим Монику в исходное положение стоя
         if bardieBlackmailStage < 5:
@@ -63,7 +63,7 @@ label bardieMonicaCleaningInteract:
             else:
                 if bardieBlackmailStage == 3:
                     $ add_char_progress("Bardie", bardieCleaningUpskirtTry2, "cleaning_upskirt_day " + str(day))
-                    call EP22_Quests_Bardie4_check_progress()
+                    call EP22_Quests_Bardie4_check_progress() from _call_EP22_Quests_Bardie4_check_progress
                 else:
                     if bardieBlackmailStage == 4:
     #                    if monicaBettyPantiesId != bettyPantiesLog[1]:
@@ -74,7 +74,7 @@ label bardieMonicaCleaningInteract:
                     else:
                         $ add_char_progress("Bardie", bardieCleaningUpskirtTry, "cleaning_upskirt_day " + str(day))
         else:
-            call process_hooks("bardie_cleaning_interact_after", "misc")
+            call process_hooks("bardie_cleaning_interact_after", "misc") from _call_process_hooks_48
 
         call refresh_scene_fade() from _call_refresh_scene_fade_20
         return False
@@ -82,7 +82,7 @@ label bardieMonicaCleaningInteract:
 
 label bardieMonicaCleaningInteract_wrong_panties:
     if bardieBlackmailStage >= 5:
-        call process_hooks("bardie_cleaning_interact_wrongpanties", "misc")
+        call process_hooks("bardie_cleaning_interact_wrongpanties", "misc") from _call_process_hooks_49
         return
     $ add_char_progress("Bardie", bardieCleaningUpskirtTry3_wrong_panties, "cleaning_upskirt_wrong_panties_day " + str(day))
 
@@ -118,7 +118,7 @@ label bardieProgressLevelUp1:
             $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
             $ char_data["show_caption_diabled"] = True
             return
-        call ep24_quests_betty5()
+        call ep24_quests_betty5() from _call_ep24_quests_betty5_1
     if char_data["level"] == 6:
         $ char_data["enabled"] = False
         $ char_data["show_caption_diabled"] = False

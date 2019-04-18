@@ -191,7 +191,7 @@ label ep22_dialogues4_4: #клик по Бетти ил иниструктору
     if act == "l":
         mt "Эта сучка что, флиртует с ним?!"
         return
-    call ep22_dialogues4_2a()
+    call ep22_dialogues4_2a() from _call_ep22_dialogues4_2a
     return False
 
 label ep22_dialogues4_5:
@@ -706,19 +706,19 @@ label ep22_dialogues4_7a:
     mt "Черт! Уже прошел час!"
     "Что там делает эта сучка Бетти?!"
     if bettyKnowsAboutPanties == True:
-        call ep24_dialogues3_fitness6()
+        call ep24_dialogues3_fitness6() from _call_ep24_dialogues3_fitness6
     img black_screen
     with Dissolve(0.5)
     pause 2.0
     $ add_hook("open", "EP22_Quests_Betty6b", scene="street_fitness")
-    call change_scene("street_fitness")
+    call change_scene("street_fitness") from _call_change_scene_219
     return
 
 label ep22_dialogues4_7b:
     #fade
     betty "Я закончила. Поехали, Фред!"
     fred "Поехали, Мэм!"
-    call EP22_Quests_Betty8()
+    call EP22_Quests_Betty8() from _call_EP22_Quests_Betty8_4
     return
 
 # При повторе, Стефани и Ребекка спрашивают у Моники что когда она закончит свое приключение? Та отвечает что скоро.

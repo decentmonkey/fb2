@@ -424,7 +424,7 @@ label monica_after_charity_event:
     $ move_object("DickTheLawyer", "empty")
     $ focus_map("Teleport_Dick_Office", "monica_after_charity_event_go_dick")
     $ charityEventCompleted = True
-    call monicaEat()
+    call monicaEat() from _call_monicaEat_6
 #    $ map_enabled = True
     call change_scene("street_monica_office", "Fade_long") from _call_change_scene_30
     return

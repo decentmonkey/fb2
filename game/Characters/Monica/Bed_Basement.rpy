@@ -75,7 +75,7 @@ label monica_take_nap1:
 label monica_gosleep1:
     #если Моника голодная
     if monicaBettyPanties == True:
-        call ep22_dialogues3_13()
+        call ep22_dialogues3_13() from _call_ep22_dialogues3_13_4
         $ monicaBettyPanties = False
     if monicaEatedLastDay < day:
         if day - monicaEatedLastDay >= 3 and (monicaCantSleepHungry2 == True or debugMode == False):
@@ -99,10 +99,10 @@ label monica_gosleep1a:
     menu:
         "Поесть и лечь спать." if food_basement_check_food_func() == True:
             $ sleepAfterEat = True
-            call change_scene("basement_bedroom_table")
+            call change_scene("basement_bedroom_table") from _call_change_scene_237
             return False
         "Лечь спать голодной.":
-            call monica_process_sleep()
+            call monica_process_sleep() from _call_monica_process_sleep
             return False
 #            $ basementBedroomMonicaSleepGfx = False
 #            call process_hooks("basement_monica_before_sleep", "global") from _call_process_hooks_31
@@ -120,7 +120,7 @@ label monica_gosleep1a:
 #            return False
         "Пропустить до Пятницы." if basementBedSkipUntilFridayEnabled == True and week_day != 5:
             $ basementBedroomMonicaSleepGfx = False
-            call monica_skip_until_friday()
+            call monica_skip_until_friday() from _call_monica_skip_until_friday
             return False
         "Не ложиться.":
             $ basementBedroomMonicaSleepGfx = False
@@ -132,7 +132,7 @@ label monica_gosleep1b:
     $ basement_bedroom2_MonicaSuffix = 2
     menu:
         "Лечь спать.":
-            call monica_process_sleep()
+            call monica_process_sleep() from _call_monica_process_sleep_1
             return False
 #            $ basementBedroomMonicaSleepGfx = False
 #            call process_hooks("basement_monica_before_sleep", "global") from _call_process_hooks_33
@@ -157,7 +157,7 @@ label monica_gosleep1b:
                 else:
                     $ cloth = "GovernessPants"
                 $ monicaBettyPanties = False
-            call monica_skip_until_friday()
+            call monica_skip_until_friday() from _call_monica_skip_until_friday_1
             return False
         "Не ложиться.":
             $ basementBedroomMonicaSleepGfx = False
@@ -168,12 +168,12 @@ label monica_gosleep1b:
 label monica_process_sleep:
     $ basement_bedroom2_MonicaSuffix = 2
     $ basementBedroomMonicaSleepGfx = False
-    call process_hooks("basement_monica_before_sleep", "global")
+    call process_hooks("basement_monica_before_sleep", "global") from _call_process_hooks_51
     if _return == False:
         $ basement_bedroom2_MonicaSuffix = 2
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_91
         return False
-    call processHouseCleaningEvening()
+    call processHouseCleaningEvening() from _call_processHouseCleaningEvening
     if cloth != "Nude":
         $ cloth_type = "Nude"
         if monicaUnder == "Nude":
@@ -182,8 +182,8 @@ label monica_process_sleep:
             $ cloth = "GovernessPants"
         $ monicaBettyPanties = False
     $ changeDayTime("day")
-    call process_hooks("basement_monica_after_sleep", "global")
-    call refresh_scene_fade()
+    call process_hooks("basement_monica_after_sleep", "global") from _call_process_hooks_52
+    call refresh_scene_fade() from _call_refresh_scene_fade_92
     return False
 
 label basement_monica_nap_transition1:
@@ -233,22 +233,22 @@ label monica_skip_until_friday: # Пропуск дней до пятницы
     $ skipDaysActiveFlag = True
     label monica_skip_until_friday_loop1:
         if day_time == "day":
-            call process_hooks("basement_monica_before_nap", "global")
+            call process_hooks("basement_monica_before_nap", "global") from _call_process_hooks_53
             if _return == False:
                 $ basement_bedroom2_MonicaSuffix = 2
                 $ skipDaysInterrupted = True
             else:
                 $ changeDayTime("evening")
-                call process_hooks("basement_monica_after_nap", "global")
+                call process_hooks("basement_monica_after_nap", "global") from _call_process_hooks_54
         if day_time == "evening":
-            call process_hooks("basement_monica_before_sleep", "global")
+            call process_hooks("basement_monica_before_sleep", "global") from _call_process_hooks_55
             if _return == False:
                 $ basement_bedroom2_MonicaSuffix = 2
                 $ skipDaysInterrupted = True
             else:
                 #call processHouseCleaningEvening()
                 $ changeDayTime("day")
-                call process_hooks("basement_monica_after_sleep", "global")
+                call process_hooks("basement_monica_after_sleep", "global") from _call_process_hooks_56
         if week_day != 5 and skipDaysInterrupted == False:
             jump monica_skip_until_friday_loop1
 
@@ -257,7 +257,7 @@ label monica_skip_until_friday: # Пропуск дней до пятницы
         $ add_hook("basement_monica_after_nap_dialogue", "monica_skip_until_friday_interrupted", scene="global", label="monica_skip_until_friday_interrupted", priority = 10000)
     $ skipDaysActiveFlag = False
     $ skipDaysInterrupted = False
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_93
     return False
 
 label monica_skip_until_friday_interrupted:
@@ -294,11 +294,11 @@ label basement_monica_hungry_cant_sleep:
     mt "{c}Я не ела{/c} уже третий день!"
     "Я не могу лечь спать в таком состоянии!"
     "Я ХОЧУ ЕСТЬ!!!"
-    call food_basement_check_food()
+    call food_basement_check_food() from _call_food_basement_check_food
     if _return == True:
         $ sleepAfterEat = True
         $ basement_bedroom2_MonicaSuffix = 2
-        call change_scene("basement_bedroom_table")
+        call change_scene("basement_bedroom_table") from _call_change_scene_238
         return
     "..."
     mt "Может быть я смогу что-то найти на заправке?"

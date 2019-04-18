@@ -74,7 +74,7 @@ label pub_init:
 label pub_teleport:
     if obj_name == "Teleport_Hostel_Street":
         music2 stop
-        call change_scene("hostel_street")
+        call change_scene("hostel_street") from _call_change_scene_169
     return
 label pub_environment:
     if obj_name == "Bartender":
@@ -131,7 +131,7 @@ label pub_environment:
             w
             mt "Эти девушки совсем не уважают себя!"
             "Как можно делать подобное у всех на виду?!"
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _call_refresh_scene_fade_47
 
         if act=="w":
             mt "Я не собираюсь подходить туда!"

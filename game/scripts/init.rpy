@@ -366,8 +366,8 @@ label define_hudpresets:
 
 label run_after_load:
     $ print "after load!"
-    call define_hudpresets()
-    call questLog_init()
+    call define_hudpresets() from _call_define_hudpresets_2
+    call questLog_init() from _call_questLog_init_1
     return
 
 label game_init:

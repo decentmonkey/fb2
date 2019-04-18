@@ -46,26 +46,26 @@ label fitness_locker_1_environment:
         Не знаю, может быть на них что-то и удобно делать, но точно не переодеваться!"
     if obj_name == "Stephanie":
         if obj_data["action"] == "l":
-            call ep22_dialogues4_5()
+            call ep22_dialogues4_5() from _call_ep22_dialogues4_5
             return
         if obj_data["action"] == "w":
-            call EP22_Quests_Betty5b()
+            call EP22_Quests_Betty5b() from _call_EP22_Quests_Betty5b
             return
     if obj_name == "Rebecca":
         if obj_data["action"] == "l":
-            call ep22_dialogues4_5()
+            call ep22_dialogues4_5() from _call_ep22_dialogues4_5_1
             return
         if obj_data["action"] == "w":
-            call EP22_Quests_Betty5b()
+            call EP22_Quests_Betty5b() from _call_EP22_Quests_Betty5b_1
             return
     if obj_name == "Betty":
         if act == "l":
-            call bettyInteract1()
+            call bettyInteract1() from _call_bettyInteract1
             return
         if act == "t":
-            call ep22_dialogues4_2()
+            call ep22_dialogues4_2() from _call_ep22_dialogues4_2
         if act == "w":
-            call EP22_Quests_Betty5b()
+            call EP22_Quests_Betty5b() from _call_EP22_Quests_Betty5b_2
             return
 
 

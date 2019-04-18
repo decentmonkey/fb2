@@ -142,7 +142,7 @@ label ep22_dialogue6_2:
                 #дает 5 баксов
 
         "Дорогуша, ты не видела Мелани?" if melanieDisappeared == True:
-            call ep23_dialogue9_5b()
+            call ep23_dialogue9_5b() from _call_ep23_dialogue9_5b
 
         "Уйти.":
             m "Не переживай, дорогуша!"
@@ -203,7 +203,7 @@ label ep22_dialogue6_3:
         "Спросить о работе":
             pass
         "Биф, ты не видел Мелани?" if melanieDisappeared == True:
-            call ep23_dialogue9_5c()
+            call ep23_dialogue9_5c() from _call_ep23_dialogue9_5c
             return False
         "Уйти.":
             return False
@@ -216,7 +216,7 @@ label ep22_dialogue6_3:
     img 8288
     "Мне нужны деньги..."
 
-    call process_hooks("photoshoots_work_available_check", "global")
+    call process_hooks("photoshoots_work_available_check", "global") from _call_process_hooks_31
     if biffWeeklyPhotoShootEnabled == False or _return == False:
         #Если не прошла неделя
         img 8289
@@ -290,13 +290,13 @@ label ep22_dialogue6_4:
     alex_photograph "Вы хотите сделать еще одну фотосессию?"
     menu:
         "Алекс... А где Мелани?" if monicaNeedToAskMelanieForHelp == True and day_time == "evening":
-            call ep23_dialogues5_1()
+            call ep23_dialogues5_1() from _call_ep23_dialogues5_1
             return False
         "Алекс... А где Мелани?" if get_active_objects("Melanie", scene="monica_office_makeup_room") != False:
-            call ep23_dialogues8_1()
+            call ep23_dialogues8_1() from _call_ep23_dialogues8_1
             return False
         "Алекс... А где Мелани?" if melanieDisappeared == True:
-            call ep23_dialogue9_5a()
+            call ep23_dialogue9_5a() from _call_ep23_dialogue9_5a
             return False
         "Пока нет...":
             pass
@@ -328,13 +328,13 @@ label ep22_dialogue6_5:
         "Да... (черт!)":
             pass
         "Алекс... А где Мелани?" if monicaNeedToAskMelanieForHelp == True and day_time == "evening":
-            call ep23_dialogues5_1()
+            call ep23_dialogues5_1() from _call_ep23_dialogues5_1_1
             return False
         "Алекс... А где Мелани?" if get_active_objects("Melanie", scene="monica_office_makeup_room") != False:
-            call ep23_dialogues8_1()
+            call ep23_dialogues8_1() from _call_ep23_dialogues8_1_1
             return False
         "Алекс... А где Мелани?" if melanieDisappeared == True:
-            call ep23_dialogue9_5a()
+            call ep23_dialogue9_5a() from _call_ep23_dialogue9_5a_1
             return False
 
         "Пока нет...":
@@ -380,14 +380,14 @@ label ep22_dialogue6_5a:
     return
 
     # СТАРЫЙ КОНТЕНТ
-    call ep22_photoshoot1()
+    call ep22_photoshoot1() from _call_ep22_photoshoot1
     "Выберите наряд для фотосессии сегодня!"
 
     m "Я выбираю это..."
     #Если кастинг у Бифа
     menu:
         "Идти на кастинг к Бифу.":
-            call ep22_dialogue6_6()
+            call ep22_dialogue6_6() from _call_ep22_dialogue6_6
         "Не идти к Бифу.":
             pass
     #fade
@@ -598,7 +598,7 @@ label ep22_dialogue6_7b:
             return True
 
         "Биф... Мог бы ты дать еще немного денег?":
-            call ep23_dialogues1()
+            call ep23_dialogues1() from _call_ep23_dialogues1
             jump ep22_dialogue6_7b
 
         "Уйти.":

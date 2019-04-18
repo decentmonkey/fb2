@@ -18,6 +18,6 @@ init python:
 label init_location(loc_name, init_label):
     $ stored_api_scene_name = api_scene_name
     $ api_scene_name = loc_name
-    call expression init_label
+    call expression init_label from _call_expression_14
     $ api_scene_name = stored_api_scene_name
     return

@@ -75,7 +75,7 @@ label citizens_dialogue_process:
             if (fallingPathStarted == False or day_time == "Evening"):
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse
                 return
-            call citizen1_dialogue_pilon()
+            call citizen1_dialogue_pilon() from _call_citizen1_dialogue_pilon
             return
         music citizenMusic
         call citizen1_dialogue() from _call_citizen1_dialogue
@@ -88,7 +88,7 @@ label citizens_dialogue_process:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_1
                 return
-            call citizen3_dialogue_pilon()
+            call citizen3_dialogue_pilon() from _call_citizen3_dialogue_pilon
             return
         music citizenMusic
         call citizen3_dialogue() from _call_citizen3_dialogue
@@ -100,7 +100,7 @@ label citizens_dialogue_process:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_2
                 return
-            call citizen4_dialogue_pilon()
+            call citizen4_dialogue_pilon() from _call_citizen4_dialogue_pilon
             return
         music citizenMusic
         call citizen4_dialogue() from _call_citizen4_dialogue
@@ -112,7 +112,7 @@ label citizens_dialogue_process:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_3
                 return
-            call citizen5_dialogue_pilon()
+            call citizen5_dialogue_pilon() from _call_citizen5_dialogue_pilon
             return
         music citizenMusic
         call citizen5_dialogue() from _call_citizen5_dialogue
@@ -124,7 +124,7 @@ label citizens_dialogue_process:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_4
                 return
-            call citizen6_dialogue_pilon()
+            call citizen6_dialogue_pilon() from _call_citizen6_dialogue_pilon
             return
         music citizenMusic
         call citizen6_dialogue() from _call_citizen6_dialogue
@@ -136,7 +136,7 @@ label citizens_dialogue_process:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_5
                 return
-            call citizen7_dialogue_pilon()
+            call citizen7_dialogue_pilon() from _call_citizen7_dialogue_pilon
             return
         music citizenMusic
         call citizen7_dialogue() from _call_citizen7_dialogue
@@ -148,7 +148,7 @@ label citizens_dialogue_process:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_6
                 return
-            call citizen8_dialogue_pilon()
+            call citizen8_dialogue_pilon() from _call_citizen8_dialogue_pilon
             return
         music citizenMusic
         call citizen8_dialogue() from _call_citizen8_dialogue
@@ -162,7 +162,7 @@ label citizens_dialogue_process:
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_7
                 return
             $ act = "t"
-            call ep22_quests_falling_path4()
+            call ep22_quests_falling_path4() from _call_ep22_quests_falling_path4
 #            call citizen9_dialogue_pilon()
             return
         music citizenMusic
@@ -175,7 +175,7 @@ label citizens_dialogue_process:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_8
                 return
-            call citizen10_dialogue_pilon()
+            call citizen10_dialogue_pilon() from _call_citizen10_dialogue_pilon
             return
         music citizenMusic
         call citizen10_dialogue() from _call_citizen10_dialogue
@@ -187,7 +187,7 @@ label citizens_dialogue_process:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_9
                 return
-            call citizen11_dialogue_pilon()
+            call citizen11_dialogue_pilon() from _call_citizen11_dialogue_pilon
             return
         music citizenMusic
         call citizen11_dialogue() from _call_citizen11_dialogue
@@ -199,11 +199,11 @@ label citizens_dialogue_process:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_10
                 return
-            call citizen12_dialogue_pilon()
+            call citizen12_dialogue_pilon() from _call_citizen12_dialogue_pilon
             return
         else:
             if questOffendMonicaFlyersCitizen12Completed == True: # уже нападал на Монику
-                call citizen12_dialogue_refuse_after_offend()
+                call citizen12_dialogue_refuse_after_offend() from _call_citizen12_dialogue_refuse_after_offend
                 return
 
         music citizenMusic
@@ -216,7 +216,7 @@ label citizens_dialogue_process:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_11
                 return
-            call citizen13_dialogue_pilon()
+            call citizen13_dialogue_pilon() from _call_citizen13_dialogue_pilon
             return
         music citizenMusic
         call citizen13_dialogue() from _call_citizen13_dialogue
@@ -228,7 +228,7 @@ label citizens_dialogue_process:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_12
                 return
-            call citizen14_dialogue_pilon()
+            call citizen14_dialogue_pilon() from _call_citizen14_dialogue_pilon
             return
         music citizenMusic
         call citizen14_dialogue() from _call_citizen14_dialogue
@@ -240,7 +240,7 @@ label citizens_dialogue_process:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_13
                 return
-            call citizen15_dialogue_pilon()
+            call citizen15_dialogue_pilon() from _call_citizen15_dialogue_pilon
             return
         music citizenMusic
         call citizen15_dialogue() from _call_citizen15_dialogue

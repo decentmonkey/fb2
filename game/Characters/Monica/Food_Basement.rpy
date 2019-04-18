@@ -94,9 +94,9 @@ label food_basement_eat_food:
 #        sound snd_gulp
     $ monicaFoodInventoryBasement[obj_name] -= 1
     $ eatFoodName = obj_name
-    call monicaEat()
-    call food_basement_room_init()
-    call refresh_scene_fade()
+    call monicaEat() from _call_monicaEat_11
+    call food_basement_room_init() from _call_food_basement_room_init
+    call refresh_scene_fade() from _call_refresh_scene_fade_94
     $ autorun_to_object("food_basement_eat_food_comment", scene="basement_bedroom_table")
     return
 
@@ -112,8 +112,8 @@ label food_basement_eat_food_comment:
 
     if sleepAfterEat == True:
         $ sleepAfterEat = False
-        call change_scene("basement_bedroom2", "Fade_long", False)
-        call monica_process_sleep()
+        call change_scene("basement_bedroom2", "Fade_long", False) from _call_change_scene_240
+        call monica_process_sleep() from _call_monica_process_sleep_2
         return False
     return
 

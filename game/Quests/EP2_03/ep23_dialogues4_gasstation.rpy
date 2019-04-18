@@ -63,7 +63,7 @@ label ep23_dialogues4_1:
                 mt "Может разбить здесь что-нибудь еще?"
                 "Проучить эту сучку!"
                 "Но нет... Сейчас это слишком опасно!"
-        call change_scene("street_gas_station")
+        call change_scene("street_gas_station") from _call_change_scene_217
         return
     #
 
@@ -78,7 +78,7 @@ label ep23_dialogues4_1:
         mt "Сучка!"
 
     music Hidden_Agenda
-    call change_scene("gas_station_buy_food")
+    call change_scene("gas_station_buy_food") from _call_change_scene_218
 
     #
 

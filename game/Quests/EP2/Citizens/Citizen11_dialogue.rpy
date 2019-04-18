@@ -16,7 +16,7 @@ label citizen11_dialogue:
         citizen11 "Моя спасительница! Для тебя, все что угодно!"
         m "Возьмите, пожалуйста, этот флаер..."
         citizen11 "Флаер? Да хоть два! Давай свой флаер!"
-        call reduce_flyers()
+        call reduce_flyers() from _call_reduce_flyers_14
         citizen11 "Ты такая красивая! А дай я тебя поцелую!"
         m "Отвали, алкаш..."
         imgr Dial_Citizen_11_4
@@ -52,7 +52,7 @@ label citizen11_dialogue:
                     citizen11 "И очень даже зря. Божественный напиток. Дак что ты хотела?"
                     m "Возьмите, пожалуйста, этот флаер..."
                     citizen11 "Флаер? Конечно, сколько угодно!"
-                    call reduce_flyers()
+                    call reduce_flyers() from _call_reduce_flyers_15
                 "У меня нет алкоголя.":
                     imgl Dial_Monica_Sandwich_1
                     m "Мистер, у меня нет алкоголя, только флаеры с рекламой вкуснейших кебабов..."

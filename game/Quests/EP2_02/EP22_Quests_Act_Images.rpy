@@ -21,7 +21,7 @@ label ep22_Act_Images_monica_cleaning_spot:
                     img 10609
                     w
                 img 10610
-                call showRandomImages(images, 4, True)
+                call showRandomImages(images, 4, True) from _call_showRandomImages_22
                 img 10611
                 w
 
@@ -30,7 +30,7 @@ label ep22_Act_Images_monica_cleaning_spot:
                     img 7419
                     w
                 img 7421
-                call showRandomImages(images, 4, True)
+                call showRandomImages(images, 4, True) from _call_showRandomImages_23
                 img 7432
                 w
         else:
@@ -39,7 +39,7 @@ label ep22_Act_Images_monica_cleaning_spot:
                     img 7436
                     w
                 img 7437
-                call showRandomImages(images, 4)
+                call showRandomImages(images, 4) from _call_showRandomImages_24
                 img 7437
                 w
             if monicaBettyPantiesId == 2:
@@ -47,7 +47,7 @@ label ep22_Act_Images_monica_cleaning_spot:
                     img 7440
                     w
                 img 7441
-                call showRandomImages(images, 4)
+                call showRandomImages(images, 4) from _call_showRandomImages_25
                 img 7441
                 w
             if monicaBettyPantiesId == 3:
@@ -58,7 +58,7 @@ label ep22_Act_Images_monica_cleaning_spot:
                 w
                 img 7446
                 w
-                call showRandomImages(images, 4)
+                call showRandomImages(images, 4) from _call_showRandomImages_26
                 img 7447
                 w
             if monicaBettyPantiesId == 4:
@@ -66,7 +66,7 @@ label ep22_Act_Images_monica_cleaning_spot:
                     img 7448
                     w
                 img 7449
-                call showRandomImages(images, 4)
+                call showRandomImages(images, 4) from _call_showRandomImages_27
                 img 7449
                 w
             if monicaBettyPantiesId == 5:
@@ -77,10 +77,10 @@ label ep22_Act_Images_monica_cleaning_spot:
                 w
                 img 7454
                 w
-                call showRandomImages(images, 4)
+                call showRandomImages(images, 4) from _call_showRandomImages_28
                 img 7455
                 w
-    call ep22_dialogue2_7()
+    call ep22_dialogue2_7() from _call_ep22_dialogue2_7
     return
 
 label ep22_Act_Images_monica_put_up_panties:
@@ -91,7 +91,7 @@ label ep22_Act_Images_monica_put_up_panties:
             with fade
             $ images = [10613, 10614, 10615, 10616]
             mt "Я... Не привыкла..."
-            call showRandomImages(images, 2)
+            call showRandomImages(images, 2) from _call_showRandomImages_29
             mt "Ходить без трусиков..."
         else:
             $ images = [7121, 7122]
@@ -100,38 +100,38 @@ label ep22_Act_Images_monica_put_up_panties:
             mt "Это трусики Юлии..."
             "Я уже к ним привыкла..."
             w
-            call showRandomImages(images, 2)
+            call showRandomImages(images, 2) from _call_showRandomImages_30
     else:
         if monicaBettyPantiesId == 1:
             $ images = [7124, 7125, 7126, 7127, 7128, 7129, 7130]
             img 7123
             with fade
             mt "Это трусики Бетти..."
-            call showRandomImages(images, 4)
+            call showRandomImages(images, 4) from _call_showRandomImages_31
         if monicaBettyPantiesId == 2:
             $ images = [7132, 7133, 7134, 7135, 7136]
             img 7131
             with fade
             mt "Это трусики Бетти..."
-            call showRandomImages(images, 3)
+            call showRandomImages(images, 3) from _call_showRandomImages_32
         if monicaBettyPantiesId == 3:
             $ images = [7138, 7139, 7140, 7141, 7142, 7143, 7144]
             img 7137
             with fade
             mt "Это трусики Бетти..."
-            call showRandomImages(images, 4)
+            call showRandomImages(images, 4) from _call_showRandomImages_33
         if monicaBettyPantiesId == 4:
             $ images = [7146, 7147, 7148, 7149, 7150, 7151, 7152]
             img 7145
             with fade
             mt "Это трусики Бетти..."
-            call showRandomImages(images, 4)
+            call showRandomImages(images, 4) from _call_showRandomImages_34
         if monicaBettyPantiesId == 5:
             $ images = [7154, 7155, 7156, 7157, 7158, 7159, 7160, 7161, 7162]
             img 7153
             with fade
             mt "Это трусики Бетти..."
-            call showRandomImages(images, 5)
+            call showRandomImages(images, 5) from _call_showRandomImages_35
         $ add_corruption(monicaBettyPantiesCorruption, "monicaBettyPantiesCorruption_" + str(day))
 
     return

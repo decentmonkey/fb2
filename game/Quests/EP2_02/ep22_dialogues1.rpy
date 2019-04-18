@@ -34,7 +34,7 @@ label ep22_dialogue1_2_governess_refuse_to_go:
 
 label ep22_dialogue1_3_slums_map:
     if obj_name == "Teleport_Street_Corner" or obj_name == "Teleport_Hostel2":
-        call ep22_dialogue1_3_slums()
+        call ep22_dialogue1_3_slums() from _call_ep22_dialogue1_3_slums
         return _return
     return
 label ep22_dialogue1_3_slums:
@@ -55,7 +55,7 @@ label ep22_dialogue1_5_kitchen:
         "Поесть пока Бетти нет дома...":
             pass
         "Уйти.":
-            call change_scene("floor1")
+            call change_scene("floor1") from _call_change_scene_182
             return
 #    $ cloth = "Governess"
 #    $ cloth_type = "Governess"
@@ -71,7 +71,7 @@ label ep22_dialogue1_5_kitchen:
     with fadelong
     mt "Как же хорошо снова посидеть за этим столиком..."
     "Скоро я верну себе этот дом, обещаю..."
-    call monicaEat()
+    call monicaEat() from _call_monicaEat_7
     $ restore_music()
-    call change_scene("floor1", "Fade_long")
+    call change_scene("floor1", "Fade_long") from _call_change_scene_183
     return

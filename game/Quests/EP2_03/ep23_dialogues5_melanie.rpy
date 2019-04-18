@@ -429,14 +429,14 @@ label ep23_dialogues5_3:
     "Правда, Мелани?"
     melanie "Правда, Алекс..."
     alex_photograph "Итак, мотор!"
-    call ep22_photoshoot5()
+    call ep22_photoshoot5() from _call_ep22_photoshoot5
     hide screen photoshoot_no_next
     hide screen photoshoot_camera_icon
     if _return == False:
-        call ep23_dialogues5_3a()
+        call ep23_dialogues5_3a() from _call_ep23_dialogues5_3a
         return False
-    call ep23_dialogues5_3c()
-    call ep23_quests_melanie3() #Запускаем скрипты по успешному завершению фотосессии
+    call ep23_dialogues5_3c() from _call_ep23_dialogues5_3c
+    call ep23_quests_melanie3() from _call_ep23_quests_melanie3 #Запускаем скрипты по успешному завершению фотосессии
     return True
 
     # Алекс говорит встаньте в эту позу или в эту

@@ -2526,7 +2526,7 @@ label monica_basement_bedroom_before_sleep1:
     "Я лучше забуду про тот кошмар, который мне пришлось пройти, чтобы достать эти деньги..."
     "Я почти у цели..."
     "Я сплю..."
-    call ep22_init()
+    call ep22_init() from _call_ep22_init
     return
 #    $ _dismiss_pause = False
     scene black_screen

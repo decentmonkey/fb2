@@ -86,7 +86,7 @@ label basement_bedroom2_teleport:
         return
     return
 label basement_bedroom2_teleport_to_table:
-    call change_scene("basement_bedroom_table")
+    call change_scene("basement_bedroom_table") from _call_change_scene_189
     return
 label basement_bedroom2_environment:
     if obj_name == "Monica":

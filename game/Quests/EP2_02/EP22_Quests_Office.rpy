@@ -11,16 +11,16 @@ label ep22_quests_office_init:
 label ep22_quests_office1: #регулярный разговор с Бифом на работе
     if act=="l":
         return
-    call ep22_dialogue6_3()
+    call ep22_dialogue6_3() from _call_ep22_dialogue6_3
     if _return == False:
-        call change_scene("monica_office_cabinet")
+        call change_scene("monica_office_cabinet") from _call_change_scene_207
 #        call refresh_scene_fade()
         return
     # Инициализируем фотосессию
     $ add_hook("Teleport_Monica_Office_Entrance", "monica_office_secretary_dialogue6", scene="monica_office_secretary", label="photoshoot") #Блокируем выход пока идет фотосессия
     $ add_hook("AlexPhotograph", "ep22_quests_office4", scene="monica_office_photostudio", label="photoshoot_alex") # Алекс стартует фотосессию
     $ add_hook("Biff", "ep22_quests_office5", scene="monica_office_cabinet_table", label="photoshoot") # Мне надо идти в фотостудию, блок на Биффа
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_66
     return
 
 label ep22_quests_office2: # Обновляем возможность фотосессии раз в неделю
@@ -29,23 +29,23 @@ label ep22_quests_office2: # Обновляем возможность фото�
 label ep22_quests_office3: # Регулярный разговор с Алексом
     if act=="l":
         return
-    call ep22_dialogue6_4()
-    call refresh_scene_fade()
+    call ep22_dialogue6_4() from _call_ep22_dialogue6_4
+    call refresh_scene_fade() from _call_refresh_scene_fade_67
     return False
 label ep22_quests_office4: # Алекс стартует фотосессию
     if act == "l":
         return
 #    $ monicaPhotoShootOutfitIdx = 1
 #    jump ep22_quests_office4_l1
-    call ep22_dialogue6_5()
+    call ep22_dialogue6_5() from _call_ep22_dialogue6_5
     if _return == False:
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_68
         return False
     $ monicaPhotoShootInProgress = True
     # Выбор наряда
     label ep22_quests_office4_loop1:
 #        img scene_Office_Monica_MakeupRoom
-        call biffInitOutfitIcons()
+        call biffInitOutfitIcons() from _call_biffInitOutfitIcons
         show screen choose_photoshoot_outfit()
         with Dissolve(0.2)
         $ result = ui.interact()
@@ -56,34 +56,34 @@ label ep22_quests_office4: # Алекс стартует фотосессию
         sound click1
         hide screen choose_photoshoot_outfit
 
-    call ep22_dialogue6_5a()
+    call ep22_dialogue6_5a() from _call_ep22_dialogue6_5a
 
 label ep22_quests_office4_l1:
     if monicaPhotoShootOutfitIdx == 1:
-        call ep22_photoshoot1()
-        call ep22_photoshoot1_end()
+        call ep22_photoshoot1() from _call_ep22_photoshoot1_1
+        call ep22_photoshoot1_end() from _call_ep22_photoshoot1_end
         $ photoshoot1_count += 1
     if monicaPhotoShootOutfitIdx == 2:
-        call ep22_photoshoot2()
-        call ep22_photoshoot2_end()
+        call ep22_photoshoot2() from _call_ep22_photoshoot2
+        call ep22_photoshoot2_end() from _call_ep22_photoshoot2_end
         $ photoshoot2_count += 1
         if monicaSecretaryOutfit1EnforcementPlanned == False: # После фотосессии в костюме #2 планируем переодевание секретарши
             $ monicaSecretaryOutfit1EnforcementPlanned = True
             $ add_hook("before_open", "ep22_quests_office9", scene="monica_office_secretary") # Планируем инициализацию outfit1 для секретарши
     if monicaPhotoShootOutfitIdx == 3:
-        call ep22_photoshoot3()
-        call ep22_photoshoot3_end()
+        call ep22_photoshoot3() from _call_ep22_photoshoot3
+        call ep22_photoshoot3_end() from _call_ep22_photoshoot3_end
         $ photoshoot3_count += 1
     if monicaPhotoShootOutfitIdx == 4:
-        call ep22_photoshoot4()
-        call ep22_photoshoot4_end()
+        call ep22_photoshoot4() from _call_ep22_photoshoot4
+        call ep22_photoshoot4_end() from _call_ep22_photoshoot4_end
         if melanieWaitingOpenedOutfits == True:
             $ monicaOutfitsEnabled[4] = True # Открываем следующий костюм (Мелани)
             $ melanieWaitingOpenedOutfits = False
         $ photoshoot4_count += 1
     if monicaPhotoShootOutfitIdx == 5:
-        call ep23_dialogues5_3()
-        call ep22_photoshoot5_end()
+        call ep23_dialogues5_3() from _call_ep23_dialogues5_3
+        call ep22_photoshoot5_end() from _call_ep22_photoshoot5_end
         $ photoshoot5_count += 1
     #конец фотосессии
     sound snd_fabric1
@@ -93,18 +93,18 @@ label ep22_quests_office4_l1:
     $ remove_hook(label="photoshoot_alex")
     $ add_hook("Biff", "ep22_quests_office6", scene="monica_office_cabinet_table", label="photoshoot") #Мне надо получить деньги от Бифа
     $ add_hook("Teleport_Monica_Office_Entrance", "ep22_dialogue6_7a", scene="monica_office_secretary", label="photoshoot", priority = 105) #Блокируем выход пока не получили деньги от Бифа
-    call change_scene("monica_office_cabinet", "Fade_long")
+    call change_scene("monica_office_cabinet", "Fade_long") from _call_change_scene_208
     return False
 label ep22_quests_office5: # Мне надо идти в фотостудию, блок на Биффа
     if act=="l":
         return
-    call monica_office_secretary_dialogue6()
+    call monica_office_secretary_dialogue6() from _call_monica_office_secretary_dialogue6
     return False
 
 label ep22_quests_office6: #Биф, где мои деньги?
     if act=="l":
         return
-    call ep22_dialogue6_7()
+    call ep22_dialogue6_7() from _call_ep22_dialogue6_7
     if _return == True:
         if monicaPhotoShootOutfitIdx == 1:
             $ add_char_progress("Biff", PS1_BiffProgress, "PS1_BiffProgress_day" + str(day))
@@ -120,7 +120,7 @@ label ep22_quests_office6: #Биф, где мои деньги?
     $ monicaPhotoShootInProgress = False
     $ remove_objective("money_for_victoria")
     $ remove_hook(label="photoshoot")
-    call change_scene("monica_office_secretary", "Fade_long")
+    call change_scene("monica_office_secretary", "Fade_long") from _call_change_scene_209
     return False
 
 label ep22_quests_office7: #enable Biff
@@ -134,9 +134,9 @@ label ep22_quests_office8a:
         return
     jump ep22_quests_office8
 label ep22_quests_office8: # Последний раз секретарша просит о помощи
-    call monica_office_secretary_dialogue3()
+    call monica_office_secretary_dialogue3() from _call_monica_office_secretary_dialogue3_1
     $ remove_hook(label="secretary_last_request")
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_69
     return False
 label ep22_quests_office9:
     if biffWeeklyPhotoShootEnabled == False or day_time != "evening":
@@ -153,21 +153,21 @@ label ep22_quests_office9:
 label ep22_quests_office10: # Последний запрос о помощи со стороны секретарши
     if act=="l":
         return
-    call ep22_dialogue6_1()
+    call ep22_dialogue6_1() from _call_ep22_dialogue6_1
     $ remove_hook(label="secretary_last_request")
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_70
     return False
 label ep22_quests_office11:
-    call ep22_dialogue6_1()
+    call ep22_dialogue6_1() from _call_ep22_dialogue6_1_1
     $ remove_hook(label="secretary_last_request")
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_71
     return False
 label ep22_quests_office12: # Регулярный разговор с секретаршей
     if act=="l":
-        call ep22_dialogue6_2a()
+        call ep22_dialogue6_2a() from _call_ep22_dialogue6_2a
         return False
-    call ep22_dialogue6_2()
-    call refresh_scene_fade()
+    call ep22_dialogue6_2() from _call_ep22_dialogue6_2
+    call refresh_scene_fade() from _call_refresh_scene_fade_72
     return
 
 

@@ -10,14 +10,14 @@ label EP22_Quests_Betty0_Fred_scene:
     if cloth != "Governess":
         $ remove_hook()
         $ map_enabled = False
-        call ep22_dialogue2_8()
+        call ep22_dialogue2_8() from _call_ep22_dialogue2_8
     return
 
 label EP22_Quests_Betty1: #init quest
     $ add_hook("Betty_Life_day", "EP22_Quests_Betty2", scene="global", label="betty_fitness_days")
     $ add_hook("Betty", "EP22_Quests_Betty3", scene="floor2")
     $ questLog(23, True)
-    call ep22_Quests_Betty_Monica_Governess_outfit()
+    call ep22_Quests_Betty_Monica_Governess_outfit() from _call_ep22_Quests_Betty_Monica_Governess_outfit
     return
 
 label ep22_Quests_Betty_Monica_Governess_outfit:
@@ -34,7 +34,7 @@ label EP22_Quests_Betty2: #определение дня фитнеса
     if week_day == 2 or week_day == 4:
         $ bettyFitnessToday = True
         $ move_object("Betty", "floor2")
-        call bettyGetTodayPanties()
+        call bettyGetTodayPanties() from _call_bettyGetTodayPanties_2
         return False
     else:
         $ bettyFitnessToday = False
@@ -44,12 +44,12 @@ label EP22_Quests_Betty3:
     if act=="l":
         return
     if monicaCleaningInProgressEngineWorkingFlag == True:
-        call ep22_dialogues4_1b()
+        call ep22_dialogues4_1b() from _call_ep22_dialogues4_1b
         return False
     if cloth != "Governess":
-        call bettyDialogue3()
+        call bettyDialogue3() from _call_bettyDialogue3_2
         return False
-    call ep22_dialogues4_1()
+    call ep22_dialogues4_1() from _call_ep22_dialogues4_1
     if EP22_Quests_Betty3Flag1 == True:
         $ EP22_Quests_Betty3Flag1 = False #Флаг, чтобы ничего не делать (для меню сообщения Барди о фитнесе)
         return False
@@ -58,11 +58,11 @@ label EP22_Quests_Betty3:
             $ add_object_to_scene("Car", {"type" : 2, "base" : "Street_House_Car", "click" : "street_house_main_yard_environment", "actions" : "l", "zorder":0, "b":0.15}, {"driverOnHouseYard":{"v":False, "active":False}}, scene="street_house_main_yard")
             $ move_object("Betty", "empty")
             $ move_object("Driver", "empty")
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _call_refresh_scene_fade_63
         return False
     $ add_cleaning(True)
     $ add_hook("open", "EP22_Quests_Betty4", scene="street_fitness")
-    call change_scene("street_fitness", "Fade_long", "snd_car_engine")
+    call change_scene("street_fitness", "Fade_long", "snd_car_engine") from _call_change_scene_201
     return False
 
 label EP22_Quests_Betty4: #инитим улицу у фитнеса
@@ -103,7 +103,7 @@ label EP22_Quests_Betty5:
     music Loved_Up
     $ autorun_to_object("ep22_dialogues4_3", scene="fitness_gym")
     $ move_object("Betty", "fitness_gym")
-    call change_scene("fitness_gym")
+    call change_scene("fitness_gym") from _call_change_scene_202
     return False
 
 label EP22_Quests_Betty5a:
@@ -116,18 +116,18 @@ label EP22_Quests_Betty5a:
 
 label EP22_Quests_Betty5b:
     if fitness_gym_visited_amount == 0:
-        call ep22_dialogues4_5a()
+        call ep22_dialogues4_5a() from _call_ep22_dialogues4_5a
     else:
         if fitness_gym_state == 0:
-            call ep22_dialogues4_8()
+            call ep22_dialogues4_8() from _call_ep22_dialogues4_8
         if fitness_gym_state == 1:
-            call ep23_dialogues3_2()
+            call ep23_dialogues3_2() from _call_ep23_dialogues3_2
 
     $ move_object("Betty", "fitness_locker_2")
     $ move_object("Stephanie", "fitness_locker_2")
     $ move_object("Rebecca", "fitness_locker_2")
     music Loved_Up
-    call change_scene("fitness_locker_2", "Fade_long")
+    call change_scene("fitness_locker_2", "Fade_long") from _call_change_scene_203
     return
 
 
@@ -135,10 +135,10 @@ label EP22_Quests_Betty6:
     #ждать в раздевалке
     #проверяем на сцену со Фредом
     if fitness_gym_state >= 1:
-        call ep22_dialogues4_7()
+        call ep22_dialogues4_7() from _call_ep22_dialogues4_7
     if fitness_gym_state == 0:
         if fitness_gym_visited_amount >= 3: #на третье посещение сцена со Фредом
-            call ep23_dialogues3_1()
+            call ep23_dialogues3_1() from _call_ep23_dialogues3_1
             $ fredState = 1
             $ fitness_gym_state = 1
             $ char_info["Rebecca"]["enabled"] = True
@@ -153,11 +153,11 @@ label EP22_Quests_Betty6:
             $ add_hook("change_time_day", "ep23_quests_fred_betty_sex", scene="global", priority=50)
 
         else:
-            call ep22_dialogues4_7()
+            call ep22_dialogues4_7() from _call_ep22_dialogues4_7_1
 
     if fitness_gym_visited_amount >= 2 and steveVisit1PlannedComplete == False:
-        call ep24_quests_steve1() #Планируем в субботу приход Стива
-    call process_hooks("fitness_end", "global")
+        call ep24_quests_steve1() from _call_ep24_quests_steve1 #Планируем в субботу приход Стива
+    call process_hooks("fitness_end", "global") from _call_process_hooks_38
     if _return == False:
         return
     sound highheels_short_walk
@@ -168,7 +168,7 @@ label EP22_Quests_Betty6:
     $ add_object_to_scene("Monica", {"type":2, "base":"Fitness_Street_Monica_2_[cloth][day_suffix]", "click" : "street_fitness_environment2", "actions" : "l", "zorder" : 10}, scene="street_fitness")
     $ add_hook("open", "EP22_Quests_Betty6a", scene="street_fitness")
     $ autorun_to_object("ep22_dialogues4_7a", scene="street_fitness")
-    call change_scene("street_fitness", "Fade_long", False)
+    call change_scene("street_fitness", "Fade_long", False) from _call_change_scene_204
 
     return
 
@@ -189,10 +189,10 @@ label EP22_Quests_Betty6b:
     return
 
 label EP22_Quests_Betty7: #показ пикч занятия фитнесом
-    call ep22_dialogues4_6()
+    call ep22_dialogues4_6() from _call_ep22_dialogues4_6
     if _return == False:
         return False
-    call EP22_Quests_Betty6()
+    call EP22_Quests_Betty6() from _call_EP22_Quests_Betty6_1
     return
 
 label EP22_Quests_Betty8: #уезжают
@@ -209,5 +209,5 @@ label EP22_Quests_Betty8: #уезжают
     $ move_object("Driver", "street_house_main_yard")
     $ move_object("Betty", "bedroom1")
     $ changeDayTime("evening")
-    call change_scene("street_house_main_yard", "Fade_long", "snd_car_engine")
+    call change_scene("street_house_main_yard", "Fade_long", "snd_car_engine") from _call_change_scene_205
     return

@@ -83,8 +83,8 @@ label citizen8_dialogue_pilon:
     m "Я хочу предложить сделку: ты мне дашь денег. Взамен я разрешу тебе на меня посмотреть."
     citizen8 "Звучит как честная сделка, но лучше совершить ее не здесь."
     # уходят к пилону.
-    call change_scene("hostel_edge_1_a", "Fade_long")
-    call pylonController(2, 1)
+    call change_scene("hostel_edge_1_a", "Fade_long") from _call_change_scene_188
+    call pylonController(2, 1) from _call_pylonController_68
     with fadelong
     citizen8 "С чего бы нам начать..."
     $ showedBoobs = False
@@ -92,23 +92,23 @@ label citizen8_dialogue_pilon:
     $ showedDance = False
     $ showedNakedBoobs = False
     label citizen8_dialogue_pilon_loop8:
-    call pylonController(1, 1)
+    call pylonController(1, 1) from _call_pylonController_69
     menu:
         "Покажи сиськи.":
-            call pylonController(3, 1)
+            call pylonController(3, 1) from _call_pylonController_70
             citizen8 "Покажи мне свои сиськи."
             if corruption < monicaWhoringClothBoobsCorruptionRequired:
-                call pylonController(3, 1)
+                call pylonController(3, 1) from _call_pylonController_71
                 mt "Я не могу себе этого позволить!"
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
                 help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
                 jump citizen8_dialogue_pilon_loop8
-            call pylonController(3, 3)
+            call pylonController(3, 3) from _call_pylonController_72
             with fade
             m "Я не собираюсь раздеваться, только так."
-            call showRandomImages(boobsImages, 4)
-            call pylonController(3, 3)
+            call showRandomImages(boobsImages, 4) from _call_showRandomImages_12
+            call pylonController(3, 3) from _call_pylonController_73
             # img показывает сиськи
             citizen8 "Хорошо, а теперь высунь язык!"
             label citizen8_dialogue_pilon_loop8_1:
@@ -120,16 +120,16 @@ label citizen8_dialogue_pilon:
                         help "Требуется [monicaWhoringClothBoobsTongueCorruptionRequired] corruption"
                         jump citizen8_dialogue_pilon_loop8_1
                     m "Ладно."
-                    call pylonController(3, 4)
+                    call pylonController(3, 4) from _call_pylonController_74
                     with fade
                     w
-                    call showRandomImages(boobsImagesTonque, 1)
-                    call pylonController(3, 4)
+                    call showRandomImages(boobsImagesTonque, 1) from _call_showRandomImages_13
+                    call pylonController(3, 4) from _call_pylonController_75
                     # img показывает сиськи и язык
                     citizen8 "Чудно, а ты молодец!"
                     $ store_citizen_action("BoobsClothTongue", 1)
                 "Ну уж нет!":
-                    call pylonController(3, 1)
+                    call pylonController(3, 1) from _call_pylonController_76
                     m "Не собираюсь, и так достаточно."
                     citizen8 "Ладно, но с этим цена сделки могла стать выше."
             $ showedBoobs = True
@@ -137,24 +137,24 @@ label citizen8_dialogue_pilon:
             $ store_citizen_action("BoobsCloth", 1)
             jump citizen8_dialogue_pilon_loop8
         "Покажи попу.":
-            call pylonController(4, 1)
+            call pylonController(4, 1) from _call_pylonController_77
             citizen8 "Развернись и поверти задом."
             if corruption < monicaWhoringClothAssCorruptionRequired:
-                call pylonController(4, 1)
+                call pylonController(4, 1) from _call_pylonController_78
                 mt "Я не могу себе этого позволить!"
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
                 help "Требуется [monicaWhoringClothAssCorruptionRequired] corruption"
                 jump citizen8_dialogue_pilon_loop8
-            call pylonController(4, 5)
+            call pylonController(4, 5) from _call_pylonController_79
             with fade
             m "Я не собираюсь раздеваться, только так."
-            call showRandomImages(assImages, 4)
-            call pylonController(4, 5)
+            call showRandomImages(assImages, 4) from _call_showRandomImages_14
+            call pylonController(4, 5) from _call_pylonController_80
             # img показывает зад
             citizen8 "Молодец, цена нашей сделки растет."
             mt "И почему он говорит все об этой сделке. Я же вроде не продаю себя..."
-            call pylonController(4, 5)
+            call pylonController(4, 5) from _call_pylonController_81
             citizen8 "О да!"
             $ showedButt = True
             $ add_corruption(monicaWhoringClothAssCorruptionProgress, "monicaWhoringClothAssCorruption_day_" + str(day) + "_citizen" + str(citizenId))
@@ -163,10 +163,10 @@ label citizen8_dialogue_pilon:
         "Станцуй. (мало свиданий) (disabled)" if fallingPathGetCitizenData("visits") < monicaWhoringClothPylonDanceVisitsRequired:
             pass
         "Станцуй." if fallingPathGetCitizenData("visits") >= monicaWhoringClothPylonDanceVisitsRequired:
-            call pylonController(4, 1)
+            call pylonController(4, 1) from _call_pylonController_82
             citizen8 "Потанцуй, пилон сзади."
             if corruption < monicaWhoringClothPylonDanceCorruptionRequired:
-                call pylonController(4, 1)
+                call pylonController(4, 1) from _call_pylonController_83
                 mt "Я не могу себе этого позволить!"
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
@@ -174,15 +174,15 @@ label citizen8_dialogue_pilon:
                 jump citizen8_dialogue_pilon_loop8
             $ store_music()
             music Molten_Alloy
-            call pylonController(4, 6)
+            call pylonController(4, 6) from _call_pylonController_84
             with fade
             m "Хорошо, только не долго."
             mt "Только потому, что ты заплатишь."
-            call showRandomImages(pylonClothDanceImages7, 4)
+            call showRandomImages(pylonClothDanceImages7, 4) from _call_showRandomImages_15
 #            call pylonController(4, 5)
             citizen8 "Нормально, но нужно еще тренироваться и тренироваться."
             $ restore_music()
-            call pylonController(4, 1)
+            call pylonController(4, 1) from _call_pylonController_85
             with fade
             mt "Не думаю, что буду это делать часто..."
             $ showedDance = True
@@ -192,23 +192,23 @@ label citizen8_dialogue_pilon:
         "Голые сиськи. (disabled)" if pylonpart3startsCompleted == False and 1==2:
             pass
         "Голые сиськи." if pylonpart3startsCompleted == True:
-            call pylonController(4, 1)
+            call pylonController(4, 1) from _call_pylonController_86
             citizen8 "Покажи мне грудь, только теперь без одежды."
             mt "Он и вправду говорит как бизнесмен, заключающий сделку..."
             if corruption < monicaWhoringClothNakedBoobsCorruptionRequired:
-                call pylonController(4, 1)
+                call pylonController(4, 1) from _call_pylonController_87
                 mt "Я не могу себе этого позволить!"
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
                 help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
                 jump citizen8_dialogue_pilon_loop8
-            call pylonController(4, 5)
+            call pylonController(4, 5) from _call_pylonController_88
             with fade
             m "Так и быть, только руками не трогать."
-            call showRandomImages(nakedboobsImages, 4)
-            call pylonController(4, 5)
+            call showRandomImages(nakedboobsImages, 4) from _call_showRandomImages_16
+            call pylonController(4, 5) from _call_pylonController_89
             citizen8 "Очень хорошо. Отличный старт."
-            call pylonController(4, 1)
+            call pylonController(4, 1) from _call_pylonController_90
             mt "Что значит старт?"
             $ showedNakedBoobs = True
             $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
@@ -224,15 +224,15 @@ label citizen8_dialogue_pilon:
                     $ earnedMoney += monicaWhoringClothDanceMoney
                 if showedNakedBoobs == True:
                     $ earnedMoney += monicaWhoringNakedBoobsMoney
-                call pylonController(2, 1)
+                call pylonController(2, 1) from _call_pylonController_91
                 citizen8 "Славно потрудилась. Вот, держи."
                 $ add_money(earnedMoney)
-                call pylonController(1, 1)
+                call pylonController(1, 1) from _call_pylonController_92
                 m "Что?! Так мало? Мог бы дать и больше!"
                 mt "Ну ничего, скоро я стану богатой и верну свою жизнь..."
                 return
             #если не было ничего
-            call pylonController(5, 1)
+            call pylonController(5, 1) from _call_pylonController_93
             citizen8 "Сделки нет, ты не выполнила свою часть."
             return False
     return

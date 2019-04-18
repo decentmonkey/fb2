@@ -115,7 +115,7 @@ label start_game:
 
     $ hud_preset_current = "default"
 
-    call questLog_init()
+    call questLog_init() from _call_questLog_init
     $ questLog(19, True)
     $ questLog(18, True)
     $ questLog(15, True)
@@ -259,8 +259,8 @@ label start_game:
     $ define_inventory_object("food_package", {"description" : _("Еда"), "label_suffix" : "_use_food", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/food_package" + res.suffix + ".png"})
     $ ep23_quests_initialized = True
 
-    call floor2_init_addition1() #Барди floor2
-    call bedroom1_init_addition1() # Барди bedroom1
+    call floor2_init_addition1() from _call_floor2_init_addition1_1 #Барди floor2
+    call bedroom1_init_addition1() from _call_bedroom1_init_addition1_1 # Барди bedroom1
     $ ep24_quests_initialized = True
 
 #    $ changeDayTime("evening")

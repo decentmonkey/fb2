@@ -198,7 +198,7 @@ label ep24_dialogues5_betty1:
     menu:
         "Спасибо, Миссис Робертс. Это будет намного удобнее.":
             #bitchiness
-            call bitch(10, "ep24_dialogues5_betty1")
+            call bitch(10, "ep24_dialogues5_betty1") from _call_bitch_186
             img 10376
             with fade
             m "Спасибо, Миссис Робертс. Это будет намного удобнее."
@@ -293,7 +293,7 @@ label ep24_dialogues5_betty2:
         with fade
         bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
             #random
-        call showRandomImagesDiss([10416, 10417, 10418, 10419], 2)
+        call showRandomImagesDiss([10416, 10417, 10418, 10419], 2) from _call_showRandomImagesDiss
 #        w
 #    bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
     #
@@ -376,7 +376,7 @@ label ep24_dialogues5_betty2b:
         img 10434
         with diss
         w
-        call showRandomImagesDiss([10435, 10436, 10437, 10438], 2)
+        call showRandomImagesDiss([10435, 10436, 10437, 10438], 2) from _call_showRandomImagesDiss_1
 
 #    bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
     #
@@ -721,7 +721,7 @@ label ep24_dialogues5_betty6:
         w
 
         #random
-        call showRandomImagesDiss([10498, 10499, 10500, 10501, 10502, 10503, 10504, 10505], rand(3,4))
+        call showRandomImagesDiss([10498, 10499, 10500, 10501, 10502, 10503, 10504, 10505], rand(3,4)) from _call_showRandomImagesDiss_2
         #
 
         img 10506
@@ -751,7 +751,7 @@ label ep24_dialogues5_betty6:
         w
 
         #random
-        call showRandomImagesDiss([10514, 10515, 10516, 10517, 10518, 10519, 10520, 10521], rand(3,4))
+        call showRandomImagesDiss([10514, 10515, 10516, 10517, 10518, 10519, 10520, 10521], rand(3,4)) from _call_showRandomImagesDiss_3
 #        img 10514
 #        img 10515
 #        img 10516
@@ -793,7 +793,7 @@ label ep24_dialogues5_betty6:
         with diss
         w
         #random
-        call showRandomImagesDiss([10530, 10531, 10532, 10533, 10534, 10535], 3)
+        call showRandomImagesDiss([10530, 10531, 10532, 10533, 10534, 10535], 3) from _call_showRandomImagesDiss_4
 #        img 10530
 #        img 10531
 #        img 10532
@@ -818,7 +818,7 @@ label ep24_dialogues5_betty6:
         with diss
         w
         #random
-        call showRandomImagesDiss([10540, 10541, 10542, 10543, 10544, 10545], 3)
+        call showRandomImagesDiss([10540, 10541, 10542, 10543, 10544, 10545], 3) from _call_showRandomImagesDiss_5
 #        img 10540
 #        img 10541
 #        img 10542
@@ -888,7 +888,7 @@ label ep24_dialogues5_betty7:
     with fade
     w
     #random
-    call showRandomImagesDiss([10456, 10457, 10458], 1)
+    call showRandomImagesDiss([10456, 10457, 10458], 1) from _call_showRandomImagesDiss_6
 #    img 10456
 #    img 10457
 #    img 10458
@@ -912,7 +912,7 @@ label ep24_dialogues5_betty7:
     with diss
     w
     #random
-    call showRandomImagesDiss([10463, 10464, 10465, 10466, 10467, 10468], 3)
+    call showRandomImagesDiss([10463, 10464, 10465, 10466, 10467, 10468], 3) from _call_showRandomImagesDiss_7
 #    img 10463
 #    img 10464
 #    img 10465

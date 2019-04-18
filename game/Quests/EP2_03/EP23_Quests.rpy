@@ -7,8 +7,8 @@ label ep23_Quests_init:
     $ remove_hook(label="food_basement_room_init") #страховка
     $ add_hook("before_open", "food_basement_room_init", scene="basement_bedroom2", label="food_basement_room_init", priority = 200)
     $ add_hook("before_open", "food_basement_room_init", scene="basement_bedroom_table", label="food_basement_room_init", priority = 200)
-    call basement_bedroom_table_init()
-    call basement_bedroom2_init()
+    call basement_bedroom_table_init() from _call_basement_bedroom_table_init
+    call basement_bedroom2_init() from _call_basement_bedroom2_init
     $ define_inventory_object("food_package", {"description" : _("Еда"), "label_suffix" : "_use_food", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/food_package" + res.suffix + ".png"})
     if str(13) in questLogDataEnabled:
         $ questLog(13, False)
@@ -19,7 +19,7 @@ label ep23_Quests_init:
     if questOffendMonicaFlyersCitizen6ThanksGiven == True:
         $ fallingPathStarted = True
     if fallingPathStarted == True and pubInited == False:
-        call ep23_quests_pub_init() # инициализируем бар
+        call ep23_quests_pub_init() from _call_ep23_quests_pub_init_1 # инициализируем бар
 
 
 

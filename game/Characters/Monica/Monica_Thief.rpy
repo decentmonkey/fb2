@@ -20,7 +20,7 @@ label monica_gas_station_thief_dialogue2a:
             if money <= 0:
                 mt "У меня нет денег на это..."
                 return
-            call ep23_dialogues4_1()
+            call ep23_dialogues4_1() from _call_ep23_dialogues4_1
             return
         "Уйти.":
             return
@@ -32,7 +32,7 @@ label monica_gas_station_thief_dialogue2:
             if money <= 0:
                 mt "У меня нет денег на это..."
                 return
-            call ep23_dialogues4_1()
+            call ep23_dialogues4_1() from _call_ep23_dialogues4_1_1
             return
         "Украсть еду.":
             pass

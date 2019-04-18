@@ -161,7 +161,7 @@ label ep24_dialogues2_steve3:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Утро..."))
+    call textonblack(_("Утро...")) from _call_textonblack_4
     img black_screen
     with Dissolve(2.0)
 
@@ -244,7 +244,7 @@ label ep24_dialogues2_steve5:
     stop music fadeout 1.0
     scene black_screen
     with Dissolve(1)
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_5
     scene black_screen
     with Dissolve(1)
     music Backbay_Lounge high
@@ -292,7 +292,7 @@ label ep24_dialogues2_steve5a:
     stop music fadeout 1.0
     scene black_screen
     with Dissolve(1)
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_6
     scene black_screen
     with Dissolve(1)
     sound pour_wine
@@ -431,7 +431,7 @@ label ep24_dialogues2_steve6:
     stop music fadeout 1.0
     scene black_screen
     with Dissolve(1)
-    call textonblack(_("ПОЗДНИЙ ВЕЧЕР..."))
+    call textonblack(_("ПОЗДНИЙ ВЕЧЕР...")) from _call_textonblack_7
     scene black_screen
     with Dissolve(1)
     music BossaBossa
@@ -955,7 +955,7 @@ label ep24_dialogues3_steve10:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Утро..."))
+    call textonblack(_("Утро...")) from _call_textonblack_8
     img black_screen
     with Dissolve(2.0)
     img 9863
@@ -1546,7 +1546,7 @@ label ep24_dialogues3_steve10e:
             music Hidden_Agenda
             img 9959
             with fadelong
-            call bitch(10, "livingroom_steve_offended1")
+            call bitch(10, "livingroom_steve_offended1") from _call_bitch_184
             m "Мистер Робертс, все в порядке!"
             img 9960
             with diss
@@ -1606,7 +1606,7 @@ label ep24_dialogues3_steve10f:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Вечер..."))
+    call textonblack(_("Вечер...")) from _call_textonblack_9
     img black_screen
     with Dissolve(2.0)
     # Спустя время

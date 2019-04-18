@@ -1,5 +1,5 @@
 label biffProgressLevelUp:
-    call biffProgressLevelUp1()
+    call biffProgressLevelUp1() from _call_biffProgressLevelUp1
     return
 label bettyProgressLevelUp:
     call bettyProgressLevelUp1() from _call_bettyProgressLevelUp1
@@ -13,7 +13,7 @@ label bardieProgressLevelUp:
     return
 
 label alexPhotographProgressLevelUp:
-    call alexPhotographProgressLevelUp1()
+    call alexPhotographProgressLevelUp1() from _call_alexPhotographProgressLevelUp1
     return
 
 label cashierProgressLevelUp:

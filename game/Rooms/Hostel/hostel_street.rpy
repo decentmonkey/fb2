@@ -61,7 +61,7 @@ label hostel_street_teleport:
             mt "Я не могу зайти туда одетой в рекламу кебеба..."
             mt "Я просто застряну в проходе!"
             return
-        call change_scene("pub")
+        call change_scene("pub") from _call_change_scene_192
         return
     return
 label hostel_street_environment:

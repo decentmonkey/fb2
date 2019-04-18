@@ -433,9 +433,9 @@ label ep23_dialogues1_4a2:
     music stop
     sound snd_washing_dishes
     $ monicaWashingDishesImages = [9637, 9638, 9639]
-    call showRandomImagesFirstFade(monicaWashingDishesImages, 1)
+    call showRandomImagesFirstFade(monicaWashingDishesImages, 1) from _call_showRandomImagesFirstFade
     $ monicaWashingDishesImages2 = [9640, 9641, 9642]
-    call showRandomImagesFirstFade(monicaWashingDishesImages2, 1)
+    call showRandomImagesFirstFade(monicaWashingDishesImages2, 1) from _call_showRandomImagesFirstFade_1
     $ rand1 = rand(1,4)
     if rand1 == 1:
         mt "Никогда бы не подумала что буду мыть посуду в подобной дыре..."

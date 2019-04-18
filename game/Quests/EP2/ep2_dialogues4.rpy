@@ -613,7 +613,7 @@ label monica_office_photostudio_melanie_dialogue1:
     if monicaNeedToAskMelanieForHelp == True:
         menu:
             "Попросить помощь у Мелани.":
-                call ep23_quests_melanie1()
+                call ep23_quests_melanie1() from _call_ep23_quests_melanie1
                 return False
             "Говорить с Мелани.":
                 pass

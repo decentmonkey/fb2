@@ -5,5 +5,5 @@ label time_management_street_wait_until_evening:
     with Dissolve(1.0)
     pause 0.5
     $ changeDayTime("evening")
-    call refresh_scene("Fade_long")
+    call refresh_scene("Fade_long") from _call_refresh_scene_11
     return

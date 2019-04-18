@@ -15,7 +15,7 @@ label ep23_dialogues7:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("У МЕЛАНИ ДОМА..."))
+    call textonblack(_("У МЕЛАНИ ДОМА...")) from _call_textonblack_12
     scene black_screen
     with Dissolve(1)
     music ZigZag
@@ -168,107 +168,107 @@ label ep23_dialogues7:
     img 8999
     with fadelong
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_58
     w
     img 9000
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_59
     w
     img 9001
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_60
     w
     img 9002
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_61
     w
     img 9003
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_62
     w
     img 9004
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_63
     w
     img 9005
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_64
     w
     img 9006
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_65
     w
     img 9007
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_66
     w
     img 9008
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_67
     w
     img 9009
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_68
     w
     img 9010
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_69
     w
     img 9011
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_70
     w
     img 9012
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_71
     w
     img 9013
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_72
     w
     img 9014
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_73
     w
     img 9015
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_74
     w
     img 9016
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_75
     w
     img 9017
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_76
     w
     img 9018
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_77
     w
     img 9019
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_78
     w
     img 9020
     with fade
@@ -288,12 +288,12 @@ label ep23_dialogues7:
         img 9023
         with Dissolve(0.8)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _call_photoshop_flash_79
         w
 
     else:
         w
-        call photoshop_flash()
+        call photoshop_flash() from _call_photoshop_flash_80
         w
 
     #end_photo

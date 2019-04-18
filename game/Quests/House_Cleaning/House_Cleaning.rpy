@@ -199,7 +199,7 @@ label house_cleaning_room_finished:
             return False
 
     if spotCleaning == True:
-        call house_cleaning_spot()
+        call house_cleaning_spot() from _call_house_cleaning_spot
         return False
     call house_cleaning_end() from _call_house_cleaning_end
     return False
@@ -220,7 +220,7 @@ label processHouseCleaningEvening:
     return
 
 label house_cleaning_spot:
-    call process_hooks("monica_cleaning_spot_start", "global")
+    call process_hooks("monica_cleaning_spot_start", "global") from _call_process_hooks_50
     $ set_active(False, group="environment", scene="House", recursive=True)
     $ monicaCleaningInProgress = False
     $ set_active("Spot", True, scene="floor2")
@@ -232,8 +232,8 @@ label house_cleaning_spot:
     $ add_hook("Spot", "house_cleaning_spot_click", scene="floor2")
     $ add_hook("Monica", "house_cleaning_spot_click", scene="floor2")
     $ autorun_to_object("ep22_dialogue2_7a", scene="floor2")
-    call refresh_scene_fade()
-    call change_scene("floor2")
+    call refresh_scene_fade() from _call_refresh_scene_fade_88
+    call change_scene("floor2") from _call_change_scene_235
     return
 label house_cleaning_spot_click:
 #    $ monicaCleaningInProgress = True
@@ -242,11 +242,11 @@ label house_cleaning_spot_click:
     menu:
         "Смотреть...":
             music snd_scrub_music
-            call ep22_Act_Images_monica_cleaning_spot()
+            call ep22_Act_Images_monica_cleaning_spot() from _call_ep22_Act_Images_monica_cleaning_spot
         "Пропустить.":
             pass
     $ restore_music()
-    call house_cleaning_end()
+    call house_cleaning_end() from _call_house_cleaning_end_1
     #Floor2_Monica_Cleaning_Spot_Evening_Overlay
     #Floor2_Monica_Cleaning_Spot_Evening
     #Floor2_Monica_Cleaning_Spot_Betty_1_Evening
@@ -267,8 +267,8 @@ label house_cleaning_spot_external_call:
     $ add_object_to_scene("Spot", {"type" : 2, "base" : "Floor2_Spot", "click" : "house_cleaning_spot_click_external_call", "actions" : "l", "zorder":10, "group":"environment"}, scene="floor2")
     $ add_hook("Spot", "house_cleaning_spot_click_external_call", scene="floor2")
     $ add_hook("Monica", "house_cleaning_spot_click_external_call", scene="floor2")
-    call refresh_scene_fade()
-    call change_scene("floor2")
+    call refresh_scene_fade() from _call_refresh_scene_fade_89
+    call change_scene("floor2") from _call_change_scene_236
     return
 
 label house_cleaning_spot_click_external_call:
@@ -277,12 +277,12 @@ label house_cleaning_spot_click_external_call:
     menu:
         "Смотреть...":
             music snd_scrub_music
-            call ep22_Act_Images_monica_cleaning_spot()
+            call ep22_Act_Images_monica_cleaning_spot() from _call_ep22_Act_Images_monica_cleaning_spot_1
         "Пропустить.":
             pass
     $ restore_music()
     $ restore_scene(houseCleaningStoredScene)
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_90
     return False
 
 label start_cleaning_dialogue1a:

@@ -2,8 +2,8 @@ default ep24_quests_initialized = False
 
 label ep24_quests_init:
     # Инициализация v0.4
-    call floor2_init_addition1() #Барди floor2
-    call bedroom1_init_addition1() # Барди bedroom1
+    call floor2_init_addition1() from _call_floor2_init_addition1 #Барди floor2
+    call bedroom1_init_addition1() from _call_bedroom1_init_addition1 # Барди bedroom1
     if char_info["Bardie"]["level"] == 3:
         $ char_info["Bardie"]["enabled"] = False
         $ char_info["Bardie"]["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")

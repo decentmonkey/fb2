@@ -2,7 +2,7 @@ default gasStationFoodInited = False
 
 label gas_station_buy_food:
     $ print "enter_gas_station_buy_food"
-    call gas_station_buy_food_init()
+    call gas_station_buy_food_init() from _call_gas_station_buy_food_init
     $ miniMapData = []
 
     $ scene_image = "scene_Gas_Station_View3"
@@ -27,9 +27,9 @@ label gas_station_buy_food_init:
 
 label gas_station_buy_food_teleport:
     if obj_name == "Teleport_Street_Gas_Station":
-        call change_scene("street_gas_station")
+        call change_scene("street_gas_station") from _call_change_scene_241
         return
     return
 label gas_station_buy_food_environment:
-    call ep22_quests_Gas_Station_Food1_buy_food()
+    call ep22_quests_Gas_Station_Food1_buy_food() from _call_ep22_quests_Gas_Station_Food1_buy_food
     return
