@@ -453,7 +453,7 @@ label citizen4_show_boobs_first_time:
     m "Доволен?"
     citizen4 "Более чем..."
     $ add_money(50)
-    $ pylonpart3startsCompleted = True
+#    $ pylonpart3startsCompleted = True
     # Добавить сколько то corruption
     $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
     $ citizen4BoobsShowedFirstTime = True
