@@ -177,6 +177,7 @@ label ep24_quests_steve13:
 
     $ add_hook("Gates", "ep24_quests_steve14", scene="street_house_gate", label=["steve_visit2", "house_exit_block"])
     $ map_enabled = False
+    $ hudDaySkipToEveningEnabled = False
 
 #    call miniMapAddDisabled(name):
 #    call miniMapRemoveDisabled(name):
@@ -386,6 +387,7 @@ label ep24_quests_steve24:
 
     $ remove_objective("steve_maid")
     $ map_enabled = True
+    $ hudDaySkipToEveningEnabled = True
     $ livingRoomRalphSuffix = "_Sleeping"
     $ add_hook("Ralph", "ep24_quests_steve26", scene="living_room", label="evening_time_temp", priority = 500) # Удалится с утра
     $ add_hook("change_time_day", "ep24_quests_steve25", scene="global")
