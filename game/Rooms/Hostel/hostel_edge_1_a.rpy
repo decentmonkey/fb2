@@ -3,7 +3,7 @@ default hostel_edge_1_a_visited = False
 default monicaHostelEdge1ASuffix = ""
 default monicaHostelEdge1ASuffixOneTime = False
 
-default hostel_edge_1_a_ep24_inited = false
+default hostel_edge_1_a_ep24_inited = False
 
 label hostel_edge_1_a:
     $ print "enter_hostel_edge_1_a"
