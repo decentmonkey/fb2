@@ -279,7 +279,7 @@ label citizen4_show_boobs_first_time:
     menu:
         "Согласиться..." if corruption >= monicaWhoringClothNakedBoobsCorruptionRequired and fallingPathServedCustomersTotal >= 20:
             pass
-        "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], required: 20 customers) (disabled)" if corruption < monicaWhoringClothNakedBoobsCorruptionRequired or fallingPathServedCustomersTotal < 20:
+        "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], 20 customers served) (disabled)" if corruption < monicaWhoringClothNakedBoobsCorruptionRequired or fallingPathServedCustomersTotal < 20:
             pass
 #        if fallingPathServedCustomersTotal >= 20 and citizen4BoobsShowedFirstTime == False:
         "Отказаться.":

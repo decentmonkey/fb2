@@ -461,8 +461,8 @@ translate german citizen15_dialogue_pilon_loop15_93f3cbe1:
 translate german strings:
 
     # Quests/EP2/Citizens/Citizen15_dialogue.rpy:113
-    old "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], required: 20 customers) (disabled)"
-    new "Stimme zu ... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], required: 20 customers) (disabled)"
+    old "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], 20 customers served) (disabled)"
+    new "Stimme zu ... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], 20 customers served) (disabled)"
 
 # TODO: Translation updated at 2019-04-16 13:23
 

@@ -559,8 +559,8 @@ translate english strings:
     new "Accept..."
 
     # Quests/EP2/Citizens/Citizen15_dialogue.rpy:114
-    old "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], required: 20 customers) (disabled)"
-    new "Agree ... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], required: 20 customers) (disabled)"
+    old "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], 20 customers served) (disabled)"
+    new "Agree ... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], 20 customers served) (disabled)"
 
     # Quests/EP2/Citizens/Citizen15_dialogue.rpy:114
     old "Отказаться."
