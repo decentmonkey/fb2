@@ -105,6 +105,7 @@ label citizen15_dialogue_pilon:
             $ showedBoobs = True
             $ add_corruption(monicaWhoringClothBoobsCorruptionProgress, "monicaWhoringClothBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             $ store_citizen_action("BoobsCloth", 1)
+            jump citizen15_dialogue_pilon_loop15
 
 
         "Покажи попу.":
