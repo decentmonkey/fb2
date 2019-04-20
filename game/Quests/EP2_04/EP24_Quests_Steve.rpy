@@ -5,6 +5,8 @@ default monicaAskedVictoriaAboutSteveMoney = False
 
 label ep24_quests_steve1:
     # После второго посещения фитнеса, планируем приход Стива на субботу
+    if char_info["Bardie"]["level"] < 3 or char_info["Betty"]["level"] < 4:
+        return
     $ steveVisit1PlannedComplete = True # Флаг блокировки повторения
 
     $ add_hook_day("ep24_quests_steve2", week_day = 6)

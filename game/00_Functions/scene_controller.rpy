@@ -195,6 +195,7 @@ label remove_dialogue():
 
 
 label after_load():
+
     $ list_files_active = True
 #    $ refresh_list_files_forced()
     if episode < 2:
@@ -213,6 +214,10 @@ label after_load():
         call ep24_quests_init() from _call_ep24_quests_init
     $ imagesSizesCache = {}
     call run_after_load() from _call_run_after_load
+    if renpy.get_screen("screen_sprites"):
+#        if dialogue_active_flag == True:
+        hide screen screen_sprites
+        show screen screen_sprites(scene_data)
     return
     $ scene_refresh_flag = True #???
     $ show_scene_loop_flag = True

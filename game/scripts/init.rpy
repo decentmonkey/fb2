@@ -5,12 +5,13 @@ define monicaWashHoldAshleyCorruption = 150 # Кол-во corruption, требу
 
 define bettyCleaningProgessAmount = 20 #5 #Прогресс с Бетти за уборку
 define bettyCleaningProgessAmountLevel3 = 10 # Прогресс с Бетти за уборку после lvl 3
-define bettyFitnessProgressAmount = 10 #Прогресс с Бетти за посещение фитнесса
+define bettyFitnessProgressAmount = 50 #Прогресс с Бетти за посещение фитнесса
+#define bettyFitnessProgressAmount = 10 #Прогресс с Бетти за посещение фитнесса
 define bettyCleaningProgessRegressAmount = -10 # Насколько убавляется прогресс с Бетти если Моника пропустила уборку
 define bettyTryOutInGovernessClothRegressAmount = -10 # Насколько убавляется прогресс с Бетти если Моника пытается выйти за пределы дома в одежде гувернантки
 
 define bardieCleaningUpskirtTry = 20 #15 #Прогресс с Барди за попытку подсмотреть во время уборки (начальная стадия)
-define bardieCleaningUpskirtTry2 = 15 #15 #Прогресс с Барди за просмотр трусиков во время уборки (трусики Юлии)
+define bardieCleaningUpskirtTry2 = 25 #15 #Прогресс с Барди за просмотр трусиков во время уборки (трусики Юлии)
 define bardieCleaningUpskirtTry3 = 10 # Прогресс с Барди за просмотр трусиков во время уборки (трусики Бетти)
 define bardieCleaningUpskirtTry3_wrong_panties = -7 # Прибавление прогресса за неверные трусики
 define bardieCleaning2Upskirt = 15 # Прогресс Барди за просмотр юбки Моники (трусики Юлии)
@@ -198,6 +199,7 @@ default corruptionMax = 1000
 default corruption_places = {}
 default char_progress_stored = {}
 default char_data = False
+default dialogue_active_flag = False
 
 define imagesSizesCache = {}
 default menuName = False
@@ -375,8 +377,7 @@ label game_init:
     $ show_scene_loop_flag = False
     $ interface_blocked_flag = False
     define dissolve1 = Dissolve(0.5)
-    define dialogue_active_flag = False
-    define last_dialogue_character = "m"
+    default last_dialogue_character = "m"
 
     $ width_half = config.screen_width / 2
 

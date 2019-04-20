@@ -99,11 +99,12 @@ label citizen4_dialogue_pilon:
             # Разовое событие после которого появится еще 1 события у пилона -  голая грудь
             #Первый раз!!!
             # Ситизен предлагает Монике показать грудь за $ 50
-            $ store_music()
-            call citizen4_show_boobs_first_time() from _call_citizen4_show_boobs_first_time
-            $ restore_music()
-            if _return == True:
-                $ citizen4BoobsShowedFirstTime = True
+            if citizen4BoobsShowedFirstTime == False:
+                $ store_music()
+                call citizen4_show_boobs_first_time() from _call_citizen4_show_boobs_first_time
+                $ restore_music()
+                if _return == True:
+                    $ citizen4BoobsShowedFirstTime = True
             jump citizen4_dialogue_pilon_loop4
         "Покажи попу.":
             call pylonController(4, 1) from _call_pylonController_43
