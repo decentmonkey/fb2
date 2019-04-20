@@ -312,6 +312,7 @@ label ep22_dialogues3_6:
     #Возвращение в спальню на следующий день
     #Если Моника одета в гувернантку, иначе Барди нет
     sound highheels_short_walk
+    $ store_music()
     music Power_Bots_Loop high
     img 7516
     with fadelong
@@ -537,6 +538,7 @@ label ep22_dialogues3_6:
     img 7589
     mt "!!!"
     # Барди исчезает
+    $ restore_music()
     return
 
 label ep22_dialogues3_7:
