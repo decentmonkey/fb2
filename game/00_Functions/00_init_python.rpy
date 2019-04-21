@@ -139,6 +139,11 @@ python early:
         imagesSizesCache[imageName] = imageSize
         return imageSize
 
+    def imageSizeClearCache():
+        global imagesSizesCache
+        imagesSizesCache = {}
+        return
+
 init -3 python:
     if persistent.lang is None:
         persistent.lang = "english"

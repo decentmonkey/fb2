@@ -35,7 +35,8 @@ label house_cleaning:
 label house_cleaning_start:
     # старт уборки
     $ miniMapEnabledOnly = ["none"]
-    $ houseCleaningStoredScene = store_scene("House", recursive=True)
+    if monicaCleaningInProgressEngineWorkingFlag == False:
+        $ houseCleaningStoredScene = store_scene("House", recursive=True)
     $ monicaCleaningInProgress = True
     $ monicaCleaningInProgressEngineWorkingFlag = True
     $ monicaCleaningObject = ""

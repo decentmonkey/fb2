@@ -195,6 +195,15 @@ label remove_dialogue():
 
 
 label after_load():
+#    $ renpy.free_memory()
+    if renpy.get_screen("show_image_screen") or renpy.get_screen("screen_sprites"):
+        $ imageSizeClearCache()
+        $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
+        $ scene_data = process_character_info_buttons(scene_data) #добавляем кнопки info для персонажей со свойствами
+        hide screen show_image_screen
+        hide screen screen_sprites
+        show screen show_image_screen(scene_image_file)
+        show screen screen_sprites(scene_data)
 
     $ list_files_active = True
 #    $ refresh_list_files_forced()
@@ -214,10 +223,6 @@ label after_load():
         call ep24_quests_init() from _call_ep24_quests_init
     $ imagesSizesCache = {}
     call run_after_load() from _call_run_after_load
-    if renpy.get_screen("screen_sprites"):
-#        if dialogue_active_flag == True:
-        hide screen screen_sprites
-        show screen screen_sprites(scene_data)
     return
     $ scene_refresh_flag = True #???
     $ show_scene_loop_flag = True
