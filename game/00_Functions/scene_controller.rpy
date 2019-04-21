@@ -23,7 +23,7 @@ label show_scene:
 label show_scene_now:
     if define_version_current != define_version:
         call define_autorun() from _call_define_autorun
-    $ config.has_autosave = True
+#    $ config.has_autosave = True
 #    $ print "pause_enter"
 #    $ print pause_enter
 #    $ print "pause_exit"

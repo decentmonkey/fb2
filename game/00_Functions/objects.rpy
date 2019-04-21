@@ -352,8 +352,8 @@ init python:
         return str1
 
 label process_object_click(func_name, obj_name_source, obj_data_source):
-    $ config.has_autosave = False
-    $ config.autosave_on_choice = False
+#    $ config.has_autosave = False
+#    $ config.autosave_on_choice = False
 
     $ obj_name = obj_name_source
     $ obj_data = obj_data_source
@@ -404,8 +404,8 @@ label process_object_click(func_name, obj_name_source, obj_data_source):
 #    return
 
 label process_object_click_alternate_action(idx, actions_list, click_label, name, data):
-    $ config.has_autosave = False
-    $ config.autosave_on_choice = False
+#    $ config.has_autosave = False
+#    $ config.autosave_on_choice = False
 
     if interface_blocked_flag == True:
         return
@@ -459,8 +459,8 @@ label process_object_click_alternate_action(idx, actions_list, click_label, name
 #    return
 
 label process_object_click_alternate_inventory(idx, inventory_data, click_label, name, data):
-    $ config.has_autosave = False
-    $ config.autosave_on_choice = False
+#    $ config.has_autosave = False
+#    $ config.autosave_on_choice = False
 
     if interface_blocked_flag == True:
         return

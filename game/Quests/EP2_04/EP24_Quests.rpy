@@ -2,6 +2,7 @@ default ep24_quests_initialized = False
 
 label ep24_quests_init:
     # Инициализация v0.4
+    $ set_var("Monica", zorder=15, scene="hostel_edge_1_a")
     call floor2_init_addition1() from _call_floor2_init_addition1 #Барди floor2
     call bedroom1_init_addition1() from _call_bedroom1_init_addition1 # Барди bedroom1
     if char_info["Bardie"]["level"] == 3:
