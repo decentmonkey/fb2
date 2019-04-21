@@ -144,6 +144,16 @@ python early:
         imagesSizesCache = {}
         return
 
+    def parseFileNameResSuffix(fileName):
+        global gui, res
+        if gui.flag720 == False:
+            return fileName.replace("_720p", "")
+        if fileName.find(res.suffix) != -1:
+            return fileName
+        splittedFileName = fileName.split(".")
+        splittedFileName[-2] = splittedFileName[-2] + res.suffix
+        return ".".join(splittedFileName)
+
 init -3 python:
     if persistent.lang is None:
         persistent.lang = "english"

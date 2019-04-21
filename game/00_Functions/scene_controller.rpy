@@ -196,7 +196,10 @@ label remove_dialogue():
 
 label after_load():
 #    $ renpy.free_memory()
+    $ list_files_active = True
+    $ refresh_list_files ()
     if renpy.get_screen("show_image_screen") or renpy.get_screen("screen_sprites"):
+        $ after_load_ready_to_render = False
         $ imageSizeClearCache()
         $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
         $ scene_data = process_character_info_buttons(scene_data) #добавляем кнопки info для персонажей со свойствами
@@ -204,8 +207,8 @@ label after_load():
         hide screen screen_sprites
         show screen show_image_screen(scene_image_file)
         show screen screen_sprites(scene_data)
+        $ after_load_ready_to_render = True
 
-    $ list_files_active = True
 #    $ refresh_list_files_forced()
     if episode < 2:
         call start_saved_game() from _call_start_saved_game

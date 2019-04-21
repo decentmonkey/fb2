@@ -19,8 +19,11 @@ default episode = 1
 default notifList = []
 default lastNotifTime = 0
 
+default after_load_ready_to_render = False
+
 label start:
     #new game
+    $ after_load_ready_to_render = True
     $ refresh_list_files_forced()
     $ episode = 2
     $ debugMode = True

@@ -155,7 +155,7 @@ screen screen_sprites(data):
 #                ]
 
 #            $ data = scenes_data["objects"][scene_name] if scene_name in scenes_data["objects"] else False
-            if data != False and game_version1_screen_ready_to_render == True and episode == 2:
+            if data != False and game_version1_screen_ready_to_render == True and episode == 2 and after_load_ready_to_render == True:
                 $ zorder_list = []
                 $ for i in data: zorder_list.append([i, data[i]["zorder"]])
                 $ zorder_list.sort(key=lambda x:x[1])
@@ -584,8 +584,8 @@ screen action_menu_screen(click_label, name, data):
                     $ iconImg = action_data["icon"]
                     if data.has_key("icon_" + action_data["action"]):
                         $ iconImg = data["icon_" + action_data["action"]]
-                    $ icon_image_idle = LiveComposite((gui.resolution.action_menu.cell_size,gui.resolution.action_menu.cell_size), (0,0), "Icons/action_icon_background_idle" + res.suffix + ".jpg", (0,0), iconImg)
-                    $ icon_image_hover = LiveComposite((gui.resolution.action_menu.cell_size,gui.resolution.action_menu.cell_size), (0,0), "Icons/action_icon_background_hover" + res.suffix + ".jpg", (0,0), iconImg)
+                    $ icon_image_idle = LiveComposite((gui.resolution.action_menu.cell_size,gui.resolution.action_menu.cell_size), (0,0), "Icons/action_icon_background_idle" + res.suffix + ".jpg", (0,0), parseFileNameResSuffix(iconImg))
+                    $ icon_image_hover = LiveComposite((gui.resolution.action_menu.cell_size,gui.resolution.action_menu.cell_size), (0,0), "Icons/action_icon_background_hover" + res.suffix + ".jpg", (0,0), parseFileNameResSuffix(iconImg))
                     imagebutton:
                         background Solid("#000000")
                         xysize(gui.resolution.action_menu.cell_size,gui.resolution.action_menu.cell_size)
@@ -608,8 +608,8 @@ screen action_menu_screen(click_label, name, data):
                 for idx in range(0, len(inventory)):
 #                    $ print(inventory[idx])
                     $ inventory_data = inventory_objects[inventory[idx][0]]
-                    $ icon_image_idle = LiveComposite((gui.resolution.action_menu.cell_size,gui.resolution.action_menu.cell_size), (0,0), "Icons/inventory_icon_background_idle" + res.suffix + ".jpg", (0,0), inventory_data["icon"])
-                    $ icon_image_hover = LiveComposite((gui.resolution.action_menu.cell_size,gui.resolution.action_menu.cell_size), (0,0), "Icons/inventory_icon_background_hover" + res.suffix + ".jpg", (0,0), inventory_data["icon"])
+                    $ icon_image_idle = LiveComposite((gui.resolution.action_menu.cell_size,gui.resolution.action_menu.cell_size), (0,0), "Icons/inventory_icon_background_idle" + res.suffix + ".jpg", (0,0), parseFileNameResSuffix(inventory_data["icon"]))
+                    $ icon_image_hover = LiveComposite((gui.resolution.action_menu.cell_size,gui.resolution.action_menu.cell_size), (0,0), "Icons/inventory_icon_background_hover" + res.suffix + ".jpg", (0,0), parseFileNameResSuffix(inventory_data["icon"]))
                     imagebutton:
                         id inventory[idx][0] + "_displayable"
                         xysize(gui.resolution.action_menu.cell_size,gui.resolution.action_menu.cell_size)
