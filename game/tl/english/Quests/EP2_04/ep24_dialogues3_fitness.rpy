@@ -658,7 +658,7 @@ translate english strings:
 
     # Quests/EP2_04/ep24_dialogues3_fitness.rpy:31
     old "Сказать Барди, что Моника идет на фитнесс с Бетти."
-    new "Tell Bardi about Monica going to the gym with Betty."
+    new "Tell Bardie about Monica going to the gym with Betty."
 
     # Quests/EP2_04/ep24_dialogues3_fitness.rpy:31
     old "Не говорить ему..."

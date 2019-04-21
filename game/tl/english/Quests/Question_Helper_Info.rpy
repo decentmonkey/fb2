@@ -254,15 +254,15 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:149
     old "Барди снова требует от меня каких-то извращений! Похоже, удалось переключить его на Бетти. Давно стоит проучить ее за то как она обращается со мной! Итак, надо сообщать Барди когда мы собираемся идти на фитнесс..."
-    new "Bardi is demanding something perverted from me again! Looks like I was able to point him towards Betty for now. Serves her right for treating me like that. Have to infrom Bardi when we are going to the gym..."
+    new "Bardie is demanding something perverted from me again! Looks like I was able to point him towards Betty for now. Serves her right for treating me like that. Have to infrom Bardie when we are going to the gym..."
 
     # Quests/Question_Helper_Info.rpy:149
     old "Барди удалось найти компромат на Бетти. Надеюсь теперь он оставит меня в покое!"
-    new "Bardi was able to find blackmail material on Betty. Hopefully he will leave me alone now."
+    new "Bardie was able to find blackmail material on Betty. Hopefully he will leave me alone now."
 
     # Quests/Question_Helper_Info.rpy:149
     old "Барди хочет чтобы я одевала трусики Бетти, которые она носила в прошлый раз. Бетти обязана показать мне их, если я спрошу."
-    new "Bardi wants me to wear panties, Betty was wearing previous day. She has to show them to me if I ask."
+    new "Bardie wants me to wear panties, Betty was wearing previous day. She has to show them to me if I ask."
 
     # Quests/Question_Helper_Info.rpy:149
     old "Бетти знает что я ношу ее трусики. Более того, она должна показать трусики, которые носит сегодня, если я спрошу ее об этом."
@@ -270,7 +270,7 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:149
     old "Я теперь должна ходить без трусиков в доме. Иначе Барди накажет меня. Мерзавец!"
-    new "I can't wear panties now at home, otherwise Bardi will punish me. What an asshole!"
+    new "I can't wear panties now at home, otherwise Bardie will punish me. What an asshole!"
 
     # Quests/Question_Helper_Info.rpy:149
     old "Бетти теперь должна ходить без трусиков в доме. Она сказала что я могу проверять это. Это все проделки Барди!"
