@@ -40,3 +40,11 @@ translate german strings:
     old "Стив прислал деньги."
     new "Überweist Steve das Geld?"
 
+# TODO: Translation updated at 2019-04-26 03:35
+
+# game/Quests/EP2_04/EP24_Quests_Steve.rpy:498
+translate german ep24_quests_steve34_9beb19ec:
+
+    # m "here"
+    m "hier"
+

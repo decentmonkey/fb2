@@ -2,10 +2,18 @@ default bettyBardieFitnessStage = 0
 default bardieMonicaNonNudeCount = 0
 default bardieMonicaPunishmentCount = 0
 
+default bardieBettyBlackmailingStarted = False
+default bardieBettyBlackmailingSteveStartFailed = False
+
 label ep24_quests_bardie1:
     # Барди зовет Монику после уборки (после первого застолья со Стивом)
+    # Либо после (если уровень не прокачан)
     $ restore_music()
     $ remove_hook()
+#    if char_info["Bardie"]["level"] < 3 or char_info["Betty"]["level"] < 4:
+#        $ bardieBettyBlackmailingSteveStartFailed = True
+#        return
+#    $ bardieBettyBlackmailingStarted == True
     call ep24_dialogues1_bardie() from _call_ep24_dialogues1_bardie
     if _return == False:
         $ add_hook("Bardie", "ep24_quests_bardie2", scene="bedroom_bardie")
@@ -16,6 +24,16 @@ label ep24_quests_bardie1:
         $ add_hook("Bardie_Life_day", "Bardie_Life_day4", scene="global", priority = 101, label="bardie_fitness_global")
         $ add_hook("Bardie_Life_evening", "Bardie_Life_evening4", scene="global", priority = 101, label="bardie_fitness_global")
     call change_scene("basement_bedroom2", "Fade_long", False) from _call_change_scene_210
+    return
+
+label ep24_quests_bardie1b:
+    # Барди зовет Монику после уборки (проверка регулярная, если сразу после прихода Стива у Барди не был уровень 3)
+    if bardieBettyBlackmailingStarted == True:
+        return
+    if char_info["Bardie"]["level"] < 4 or char_info["Betty"]["level"] < 4:
+        return
+    $ bardieBettyBlackmailingStarted = True
+    $ add_hook("monica_cleaning_end", "ep24_quests_bardie1", scene="global")
     return
 
 label ep24_quests_bardie1a:

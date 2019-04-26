@@ -346,7 +346,7 @@ translate english ep24_dialogues4_bardie4_loop1_faebc52c:
 translate english ep24_dialogues4_bardie4_loop1_27d6b3f7:
 
     # mt "Что этот Барди себе позволяет?!"
-    mt "How dare Bardie to act like that!"
+    mt "How dare Bardi to act like that!"
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:322
 translate english ep24_dialogues4_bardie4_loop1_fdc969dc:

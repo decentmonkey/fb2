@@ -2152,3 +2152,11 @@ translate german scene_test2_c031d496:
     "Ich werde nicht zulassen, dass sie macht was sie will!"
     "Genug ist genug!"
 
+# TODO: Translation updated at 2019-04-26 03:58
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1680
+translate german ep23_dialogue9_5d_b17b8dd3:
+
+    # mt "От Мелани нет новостей... Я даже боюсь представить что с ней..."
+    mt "Es gibt keine Neuigkeiten von Melanie... Ich wage mir nicht vorzustellen, was mit ihr passiert sein könnte..."
+

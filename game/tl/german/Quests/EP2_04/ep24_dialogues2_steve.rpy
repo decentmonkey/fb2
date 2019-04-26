@@ -4122,3 +4122,45 @@ translate german ep24_dialogues3_steve10a_093b93a1:
     # steve "И что, эта гувернантка также хороша как Бетти?"
     steve "Ist sie so gut wie Betty?"
 
+# TODO: Translation updated at 2019-04-26 03:35
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2752
+translate german ep24_dialogues3_steve14_1653a2f6:
+
+    # m "Мистер Робертс. Я хочу спросить по поводу гостя..."
+    # ralph "Да, Моника?"
+    m "Мистер Робертс. Я хочу спросить по поводу гостя..."
+    ralph "Да, Моника?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2755
+translate german ep24_dialogues3_steve14_c369b0de:
+
+    # m "Скажите, откуда Вы знаете Стива?"
+    m "Скажите, откуда Вы знаете Стива?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2757
+translate german ep24_dialogues3_steve14_e3c16145:
+
+    # ralph "Мы со Стивом старые друзья. К тому же, он сейчас мой Босс."
+    # ralph "Ты его знаешь, Моника? Ты когда-то убиралась у него?"
+    ralph "Мы со Стивом старые друзья. К тому же, он сейчас мой Босс."
+    ralph "Ты его знаешь, Моника? Ты когда-то убиралась у него?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2760
+translate german ep24_dialogues3_steve14_c5478251:
+
+    # m "Нет, Мистер Робертс... Я... Никогда не убиралась у него."
+    m "Нет, Мистер Робертс... Я... Никогда не убиралась у него."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2762
+translate german ep24_dialogues3_steve14_a1a475cc:
+
+    # ralph "Кстати, он собирается снова придти на днях."
+    ralph "Кстати, он собирается снова придти на днях."
+
+translate german strings:
+
+    # Quests/EP2_04/ep24_dialogues2_steve.rpy:2743
+    old "Мистер Робертс. Я хочу спросить по поводу гостя..."
+    new ""
+

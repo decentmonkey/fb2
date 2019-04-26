@@ -1498,3 +1498,11 @@ translate english strings:
     old "Мелани, пожалуйста, я не могу сделать это. (плохие отношения с Мелани) (disabled)"
     new "Melanie, please, I can't do that. (bad relationship with Melanie) (disabled)"
 
+# TODO: Translation updated at 2019-04-26 03:58
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1680
+translate english ep23_dialogue9_5d_b17b8dd3:
+
+    # mt "От Мелани нет новостей... Я даже боюсь представить что с ней..."
+    mt "No news from Melanie... I'm afraid to even image what could have happened to her..."
+

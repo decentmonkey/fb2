@@ -104,12 +104,13 @@ label bardieProgressLevelUp1:
         $ char_data["show_caption_diabled"] = False
         return
     if char_data["level"] == 3:
-        $ char_data["enabled"] = False
-        $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
-        $ char_data["show_caption_diabled"] = True
+#        $ char_data["enabled"] = False
+#        $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+#        $ char_data["show_caption_diabled"] = True
 #        $ char_data["caption_diabled"] = _("Work in progress...")
         return
-#    if char_data["level"] == 4:
+    if char_data["level"] == 4:
+        call ep24_quests_bardie1b()
 #        $ char_data["enabled"] = False
 #        $ char_data["caption_diabled"] = _("Work in progress...")
     if char_data["level"] == 5:

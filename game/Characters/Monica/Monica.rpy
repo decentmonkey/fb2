@@ -4,7 +4,7 @@ default monicaFoodInventory = {} #какая еда есть у Моники с 
 default monicaFoodInventoryBasement = {} #какая еда лежит на столе в спальне в подвале
 
 #define monicaCantSleepHungry = True
-define monicaCantSleepHungry2 = True
+define monicaCantSleepHungry2 = False
 
 default monicaWorkingAsDishwasher = False
 default monica_pub_name = False

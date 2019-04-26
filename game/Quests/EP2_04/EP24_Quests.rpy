@@ -1,4 +1,5 @@
 default ep24_quests_initialized = False
+default ep24_quests_fix_initialized = False
 
 label ep24_quests_init:
     # Инициализация v0.4
@@ -17,5 +18,42 @@ label ep24_quests_init:
         help "Открыто продолжение истории с Бетти"
 
     $ ep24_quests_initialized = True
+
+    return
+
+label ep24_quests_fix:
+    if ep24_quests_fix_initialized == True:
+        return
+    $ ep24_quests_fix_initialized = True
+    if steveVisit1PlannedComplete == False and melanieDisappeared == True: # Если Стива еще не было и Мелани пропала
+        if monicaCleaningInProgressEngineWorkingFlag == True:
+            $ houseCleaningStoredScene2 = store_scene("House", recursive=True)
+            $ restore_scene(houseCleaningStoredScene)
+            call ep24_quests_steve1()
+            $ houseCleaningStoredScene = store_scene("House", recursive=True)
+            $ restore_scene(houseCleaningStoredScene2)
+            $ houseCleaningStoredScene2 = False
+        else:
+            call ep24_quests_steve1()
+        return
+    if steveVisit1PlannedComplete == True and bettyMustNotWearPanties == True:
+        # Второй приход Стива уже запланирован
+        return
+    if steveVisit1PlannedComplete == True:
+        # Иначе вешаем хук на Ральфа для второго прихода Стива
+        if monicaCleaningInProgressEngineWorkingFlag == True:
+            $ houseCleaningStoredScene2 = store_scene("House", recursive=True)
+            $ restore_scene(houseCleaningStoredScene)
+            $ add_hook("Ralph", "ep24_quests_steve34", scene="living_room", label="steve_ralph_visit2")
+            $ houseCleaningStoredScene = store_scene("House", recursive=True)
+            $ restore_scene(houseCleaningStoredScene2)
+            $ houseCleaningStoredScene2 = False
+
+        else:
+            $ add_hook("Ralph", "ep24_quests_steve34", scene="living_room", label="steve_ralph_visit2")
+
+
+#    if fitness_gym_visited_amount >= 1 and steveVisit1PlannedComplete == False:
+#        call ep24_quests_steve1() from _call_ep24_quests_steve1_1 #Планируем в субботу приход Стива
 
     return

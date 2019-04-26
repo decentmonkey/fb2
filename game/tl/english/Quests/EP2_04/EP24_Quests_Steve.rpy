@@ -40,3 +40,11 @@ translate english strings:
     old "Стив прислал деньги."
     new "Does Steve send the money?"
 
+# TODO: Translation updated at 2019-04-26 03:34
+
+# game/Quests/EP2_04/EP24_Quests_Steve.rpy:498
+translate english ep24_quests_steve34_9beb19ec:
+
+    # m "here"
+    m "here"
+

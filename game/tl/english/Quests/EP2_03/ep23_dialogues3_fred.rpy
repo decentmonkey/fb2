@@ -472,7 +472,7 @@ translate english ep23_dialogues3_5_2fc7ceed:
     # betty "Фред?! Ты сошел с ума?!"
     # "Здесь ходит Барди! Не хватало чтобы он это увидел!"
     betty "Fred?! You are crazy?!"
-    "Bardie might enter! He can't see it!"
+    "Bardi might enter! He can't see it!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:417
 translate english ep23_dialogues3_5_ac4ccc0f:

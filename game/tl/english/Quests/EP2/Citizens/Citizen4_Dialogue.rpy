@@ -418,7 +418,7 @@ translate english citizen4_show_boobs_first_time_feded4a2:
 translate english citizen4_show_boobs_first_time_c253e880:
 
     # citizen4 "Все верно, девочка. Покажешь своих подружек и они твои."
-    citizen4 "That's right. Show me your pair and it's yours."
+    citizen4 "That's right. Shom me your pair and it's yours."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:306
 translate english citizen4_show_boobs_first_time_742c6916:

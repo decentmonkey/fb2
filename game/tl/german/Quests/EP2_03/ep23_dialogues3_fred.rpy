@@ -424,7 +424,7 @@ translate german ep23_dialogues3_5_2fc7ceed:
     # betty "Фред?! Ты сошел с ума?!"
     # "Здесь ходит Барди! Не хватало чтобы он это увидел!"
     betty "Fred? Bist du bescheuert?!"
-    "Bardie könnte rein kommen! Er darf das keinesfalls sehen!"
+    "Bardi könnte rein kommen! Er darf das keinesfalls sehen!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:319
 translate german ep23_dialogues3_5_ac4ccc0f:

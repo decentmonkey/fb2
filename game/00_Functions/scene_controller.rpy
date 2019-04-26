@@ -203,11 +203,15 @@ label after_load():
         $ imageSizeClearCache()
         $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
         $ scene_data = process_character_info_buttons(scene_data) #добавляем кнопки info для персонажей со свойствами
-        hide screen show_image_screen
+#        hide screen show_image_screen
         hide screen screen_sprites
-        show screen show_image_screen(scene_image_file)
+#        if dialogue_active_flag == True or renpy.get_screen("dialogue_image_black_overlay") or renpy.get_screen("show_image_screen"):
+#        if dialogue_active_flag == True or renpy.get_screen("dialogue_image_black_overlay") or renpy.get_screen("show_image_screen"):
+#            pass
+#        else:
+#            show screen show_image_screen(scene_image_file)
         show screen screen_sprites(scene_data)
-        $ after_load_ready_to_render = True
+    $ after_load_ready_to_render = True
 
 #    $ refresh_list_files_forced()
     if episode < 2:
@@ -224,6 +228,8 @@ label after_load():
         call ep23_Quests_init() from _call_ep23_Quests_init
     if ep24_quests_initialized == False:
         call ep24_quests_init() from _call_ep24_quests_init
+    call ep24_quests_fix() from _call_ep24_quests_fix
+
     $ imagesSizesCache = {}
     call run_after_load() from _call_run_after_load
     return

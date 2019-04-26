@@ -1354,7 +1354,7 @@ translate english ep24_dialogues3_steve10_4604bb56:
 translate english ep24_dialogues3_steve10_2c615982:
 
     # steve "Ральф, а где Бетти?"
-    steve "Ralph, where is Betty?"
+    steve "Rafl, where is Betty?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:682
 translate english ep24_dialogues3_steve10_0080f098:
@@ -2310,7 +2310,7 @@ translate english ep24_dialogues3_steve10_5d5a64a8:
 translate english ep24_dialogues3_steve10_6e2c5945:
 
     # m "Мне нужно хотя бы $ 10.000, Стив!"
-    m "I want at least $ 10.000, Steve."
+    m "I want at least 000, Steve."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1458
 translate english ep24_dialogues3_steve10_ea8b5237:
@@ -2742,7 +2742,7 @@ translate english strings:
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1440
     old "Мне нужно хотя бы $ 10.000, Стив!"
-    new "I want at least $ 10.000, Steve."
+    new "I want at least 000, Steve."
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1483
     old "$ 8.000 за весь объект аренды!"
@@ -3172,7 +3172,7 @@ translate english ep24_dialogues3_steve10_enter_room2_727f2b7b:
 translate english ep24_dialogues3_steve10a_2c615982:
 
     # steve "Ральф, а где Бетти?"
-    steve "Ralph, where is Betty?"
+    steve "Rafl, where is Betty?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:979
 translate english ep24_dialogues3_steve10a_0080f098:
@@ -4214,7 +4214,7 @@ translate english ep24_dialogues3_steve10g_5d5a64a8:
 translate english ep24_dialogues3_steve10g_6e2c5945:
 
     # m "Мне нужно хотя бы $ 10.000, Стив!"
-    m "I want at least $ 10.000, Steve."
+    m "I want at least 000, Steve."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2106
 translate english ep24_dialogues3_steve10g_ea8b5237:
@@ -4427,3 +4427,45 @@ translate english ep24_dialogues3_steve10a_093b93a1:
 
     # steve "И что, эта гувернантка также хороша как Бетти?"
     steve "Is she as good as Betty?"
+# TODO: Translation updated at 2019-04-26 03:34
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2752
+translate english ep24_dialogues3_steve14_1653a2f6:
+
+    # m "Мистер Робертс. Я хочу спросить по поводу гостя..."
+    # ralph "Да, Моника?"
+    m "Mr. Roberts. I want to ask about the guest..."
+    ralph "Yes, Monica?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2755
+translate english ep24_dialogues3_steve14_c369b0de:
+
+    # m "Скажите, откуда Вы знаете Стива?"
+    m "Could you tell me, how do you know Steve?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2757
+translate english ep24_dialogues3_steve14_e3c16145:
+
+    # ralph "Мы со Стивом старые друзья. К тому же, он сейчас мой Босс."
+    # ralph "Ты его знаешь, Моника? Ты когда-то убиралась у него?"
+    ralph "Steve and I are old friends. Also, he's my boss now."
+    ralph "Do you know him, Monica? Have you ever cleaned at his house?"
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2760
+translate english ep24_dialogues3_steve14_c5478251:
+
+    # m "Нет, Мистер Робертс... Я... Никогда не убиралась у него."
+    m "No, Mr. Roberts ... I ... I never cleaned at his house."
+
+# game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2762
+translate english ep24_dialogues3_steve14_a1a475cc:
+
+    # ralph "Кстати, он собирается снова придти на днях."
+    ralph "By the way, he is going to come again the other day."
+
+translate english strings:
+
+    # Quests/EP2_04/ep24_dialogues2_steve.rpy:2743
+    old "Мистер Робертс. Я хочу спросить по поводу гостя..."
+    new "Mr. Roberts. I want to ask about the guest..."
+

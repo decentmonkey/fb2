@@ -191,7 +191,7 @@ label ep24_quests_betty11:
     $ char_info["Betty"]["caption"] = _("Бетти запрещено носить трусики....")
     $ add_hook("wardrobe_menu", "wardrobePutGovernessWithoutPanties", scene="menu", label="menu_governess_without_panties", caption = _("Униформа гувернантки (без трусиков)"), active="checkGovernessWithoutPantiesActive", priority = 80)
 
-    $ add_hook("change_time_day", "ep24_quests_steve9", scene="global")
+#    $ add_hook("change_time_day", "ep24_quests_steve9", scene="global")
 
     $ add_hook("monica_cleaning_end", "ep24_quests_bardie15", scene="global", label="bardie_punishment_check")
 
@@ -200,9 +200,6 @@ label ep24_quests_betty11:
     $ questLog(37, False)
     $ questLog(39, True)
 
-    # Создаем нотификацию Бифа о том что на след. неделе не будет работы и вешаем хук о блокировке фотосессий
-    $ photoShootDisabledNextWeek = True
-    $ add_hook_day("ep24_quests_steve31", week_day=6) # включаем в субботу
 
 
     $ autorun_to_object("basement_bedroom2", "ep24_dialogues5_betty5a")

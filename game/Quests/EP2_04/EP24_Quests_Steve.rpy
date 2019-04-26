@@ -1,14 +1,16 @@
 default steveVisit1PlannedComplete = False
+default steveVisit1Skip = False
 default steveVisit1DayShowed0 = False
 default steveVisit1DayShowed = False
 default monicaAskedVictoriaAboutSteveMoney = False
 
 label ep24_quests_steve1:
-    # После второго посещения фитнеса, планируем приход Стива на субботу
-    if char_info["Bardie"]["level"] < 3 or char_info["Betty"]["level"] < 4:
-        return
+    # xxxxПосле второго посещения фитнеса, планируем приход Стива на субботу
+    # После исчезновения Мелани, планируем приход Стива в субботу
     $ steveVisit1PlannedComplete = True # Флаг блокировки повторения
 
+    if week_day == 6:
+        $ steveVisit1Skip = True
     $ add_hook_day("ep24_quests_steve2", week_day = 6)
     $ add_hook("monica_cleaning_end", "ep24_quests_steve3", scene="global", label="steve_visit1")
     $ add_hook("map_teleport", "ep24_quests_steve4", scene="global", label="steve_visit1")
@@ -30,6 +32,9 @@ label ep24_quests_steve1:
 
 label ep24_quests_steve2:
     # Перехват субботы первого посещения Стива
+    if steveVisit1Skip == True:
+        $ steveVisit1Skip = False
+        return
     $ remove_hook()
     $ basementBedSkipUntilFridayEnabled = False
     $ skipDaysInterrupted = True
@@ -115,7 +120,9 @@ label ep24_quests_steve7:
     $ questLog(31, True)
 
     $ basementBedSkipUntilFridayEnabled = True
-    $ add_hook("monica_cleaning_end", "ep24_quests_bardie1", scene="global")
+    $ add_hook("Ralph", "ep24_quests_steve34", scene="living_room", label="steve_ralph_visit2")
+#    $ add_hook_day("ep24_quests_steve35", day=day+30)
+#    $ add_hook("monica_cleaning_end", "ep24_quests_bardie1", scene="global")
     return
 
 label ep24_quests_steve8:
@@ -176,6 +183,7 @@ label ep24_quests_steve13:
     $ add_hook("Betty_Life_day", "Betty_Life_none", scene="global", label="steve_visit2")
     $ add_hook("Betty_Life_evening", "Betty_Life_none", scene="global", label="steve_visit2")
     $ move_object("Betty", scene="empty")
+    $ move_object("Bardie", "street_house_main_yard")
 
     $ add_hook("Gates", "ep24_quests_steve14", scene="street_house_gate", label=["steve_visit2", "house_exit_block"])
     $ map_enabled = False
@@ -478,6 +486,30 @@ label ep24_quests_steve33:
     # Выключение блокировки фотосессий
     $ remove_hook()
     $ remove_hook(label="steve_photosessions_block")
+    return
+
+
+label ep24_quests_steve34:
+    # Разговор с Ральфом по поводу второго прихода Стива
+    if act=="l":
+        return
+    if cloth != "Governess":
+        return
+    call ep24_dialogues3_steve14()
+    if _return == False:
+        return False
+    $ remove_hook(label="steve_ralph_visit2")
+    # Создаем нотификацию Бифа о том что на след. неделе не будет работы и вешаем хук о блокировке фотосессий
+    $ photoShootDisabledNextWeek = True
+    $ add_hook_day("ep24_quests_steve31", week_day=6) # включаем в субботу
+    $ add_hook("change_time_day", "ep24_quests_steve9", scene="global") # Запускаем приход Стива во второй раз
+
+    return False
+
+label ep24_quests_steve35: # Предварительная инициализация прихода Стива во второй раз по таймауту дней
+    $ photoShootDisabledNextWeek = True
+    $ add_hook_day("ep24_quests_steve31", week_day=6) # включаем в субботу
+    $ add_hook("change_time_day", "ep24_quests_steve9", scene="global") # Запускаем приход Стива во второй раз
     return
 
 #
