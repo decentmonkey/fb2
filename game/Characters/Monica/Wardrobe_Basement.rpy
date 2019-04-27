@@ -111,6 +111,9 @@ label hook_basement_bedroom_check_exit_cloth: #проверка при выхо�
 #            $ wardrobeLastUsedDay = day
             $ cloth = "Governess" #Принудительно переодеваем Монику в одежду гувернантки
             $ cloth_type = "Governess"
+            if bettyMustNotWearPanties == False:
+                $ monicaUnder = "Panties"
+
             return True
         else:
             mt "Я не могу идти в дом в таком виде!"
@@ -136,6 +139,8 @@ label hook_basement_bedroom_check_exit_cloth_map: #проверка при вы�
                 if monicaBettyPanties == True:
                     call ep22_dialogues3_13() from _call_ep22_dialogues3_13_2
                     $ monicaBettyPanties = False
+                if bettyMustNotWearPanties == False: # Всегда одеваем трусики на выходе
+                    $ monicaUnder = "Panties"
                 $ cloth = "Whore" #Принудительно переодеваем Монику
                 $ cloth_type = "Whore"
                 return True
@@ -156,6 +161,8 @@ label hook_basement_bedroom_check_exit_cloth_map: #проверка при вы�
                 $ monicaCatchedByBettyGovernessFirstTime = False
                 call monica_goout1_governess_restrict() from _call_monica_goout1_governess_restrict
                 call change_scene("street_house_gate", "Fade", False) from _call_change_scene_118
+                if bettyMustNotWearPanties == False: # Всегда одеваем трусики на выходе
+                    $ monicaUnder = "Panties"
                 $ map_source_scene = "street_house_gate"
 #               call refresh_scene_fade()
                 return False
