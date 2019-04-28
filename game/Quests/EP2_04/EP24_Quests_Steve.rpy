@@ -499,6 +499,13 @@ label ep24_quests_steve34:
     if _return == False:
         return False
     $ remove_hook(label="steve_ralph_visit2")
+    if monicaCleaningInProgressEngineWorkingFlag == True:
+        $ houseCleaningStoredScene2 = store_scene("House", recursive=True)
+        $ restore_scene(houseCleaningStoredScene)
+        $ remove_hook(label="steve_ralph_visit2")
+        $ houseCleaningStoredScene = store_scene("House", recursive=True)
+        $ restore_scene(houseCleaningStoredScene2)
+        $ houseCleaningStoredScene2 = False
     # Создаем нотификацию Бифа о том что на след. неделе не будет работы и вешаем хук о блокировке фотосессий
     $ photoShootDisabledNextWeek = True
     $ add_hook_day("ep24_quests_steve31", week_day=6) # включаем в субботу

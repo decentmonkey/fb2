@@ -28,7 +28,8 @@ label ep24_quests_bardie1:
 
 label ep24_quests_bardie1b:
     # Барди зовет Монику после уборки (проверка регулярная, если сразу после прихода Стива у Барди не был уровень 3)
-    if bardieBettyBlackmailingStarted == True:
+    if bardieBettyBlackmailingStarted == True or bardieBlackmailStage >= 5:
+        $ bardieBettyBlackmailingStarted = True
         return
     if char_info["Bardie"]["level"] < 4 or char_info["Betty"]["level"] < 4:
         return
