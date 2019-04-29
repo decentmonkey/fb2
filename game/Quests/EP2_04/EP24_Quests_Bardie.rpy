@@ -10,6 +10,7 @@ label ep24_quests_bardie1:
     # Либо после (если уровень не прокачан)
     $ restore_music()
     $ remove_hook()
+    $ remove_hook(label="bardie_blackmail_planned")
 #    if char_info["Bardie"]["level"] < 3 or char_info["Betty"]["level"] < 4:
 #        $ bardieBettyBlackmailingSteveStartFailed = True
 #        return
@@ -34,7 +35,7 @@ label ep24_quests_bardie1b:
     if char_info["Bardie"]["level"] < 4 or char_info["Betty"]["level"] < 4:
         return
     $ bardieBettyBlackmailingStarted = True
-    $ add_hook("monica_cleaning_end", "ep24_quests_bardie1", scene="global")
+    $ add_hook("monica_cleaning_end", "ep24_quests_bardie1", scene="global", label="bardie_blackmail_planned")
     return
 
 label ep24_quests_bardie1a:
