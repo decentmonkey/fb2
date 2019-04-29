@@ -4129,38 +4129,38 @@ translate german ep24_dialogues3_steve14_1653a2f6:
 
     # m "Мистер Робертс. Я хочу спросить по поводу гостя..."
     # ralph "Да, Моника?"
-    m "Мистер Робертс. Я хочу спросить по поводу гостя..."
-    ralph "Да, Моника?"
+    m "Herr Roberts, ich wollte wegen dem Gast nachfragen..."
+    ralph "Ja, Monica?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2755
 translate german ep24_dialogues3_steve14_c369b0de:
 
     # m "Скажите, откуда Вы знаете Стива?"
-    m "Скажите, откуда Вы знаете Стива?"
+    m "Könnten sie mir erklären, woher sie Steve kennen?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2757
 translate german ep24_dialogues3_steve14_e3c16145:
 
     # ralph "Мы со Стивом старые друзья. К тому же, он сейчас мой Босс."
     # ralph "Ты его знаешь, Моника? Ты когда-то убиралась у него?"
-    ralph "Мы со Стивом старые друзья. К тому же, он сейчас мой Босс."
-    ralph "Ты его знаешь, Моника? Ты когда-то убиралась у него?"
+    ralph "Steve und ich sind alte Freunde. Ebenso ist er mein Chef."
+    ralph "Kennst du ihn, Monica? Hast du bei ihm schon das Haus geputzt?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2760
 translate german ep24_dialogues3_steve14_c5478251:
 
     # m "Нет, Мистер Робертс... Я... Никогда не убиралась у него."
-    m "Нет, Мистер Робертс... Я... Никогда не убиралась у него."
+    m "Nein, Herr Roberts... Ich... Ich habe noch nie sein Haus geputzt."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2762
 translate german ep24_dialogues3_steve14_a1a475cc:
 
     # ralph "Кстати, он собирается снова придти на днях."
-    ralph "Кстати, он собирается снова придти на днях."
+    ralph "Im Übrigen wird er demnächst wieder kommen."
 
 translate german strings:
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:2743
     old "Мистер Робертс. Я хочу спросить по поводу гостя..."
-    new ""
+    new "Herr Roberts, ich wollte wegen dem Gast nachfragen..."
 

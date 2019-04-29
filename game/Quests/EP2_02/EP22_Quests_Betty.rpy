@@ -155,10 +155,11 @@ label EP22_Quests_Betty6:
         else:
             call ep22_dialogues4_7() from _call_ep22_dialogues4_7_1
 
-    if fitness_gym_visited_amount >= 1 and steveVisit1PlannedComplete == False:
+#    if fitness_gym_visited_amount >= 1 and steveVisit1PlannedComplete == False:
+    if fitness_gym_visited_amount >= 1:
 #        call ep24_quests_steve1() from _call_ep24_quests_steve1 #Планируем в субботу приход Стива
         call ep24_quests_bardie1b() # Планируем шантаж Барди
-        
+
     call process_hooks("fitness_end", "global") from _call_process_hooks_38
     if _return == False:
         return
