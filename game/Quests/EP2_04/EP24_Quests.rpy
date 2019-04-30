@@ -1,5 +1,6 @@
 default ep24_quests_initialized = False
 default ep24_quests_fix_initialized = False
+default ep24_quests_fix2_initialized = False
 
 label ep24_quests_init:
     # Инициализация v0.4
@@ -22,6 +23,9 @@ label ep24_quests_init:
     return
 
 label ep24_quests_fix:
+    if ep24_quests_fix2_initialized == False and char_info["Bardie"]["level"] == 3 and char_info["Bardie"]["enabled"] == False:
+        $ ep24_quests_fix2_initialized = True
+        $ char_info["Bardie"]["enabled"] = True
     if ep24_quests_fix_initialized == True:
         return
     $ ep24_quests_fix_initialized = True
