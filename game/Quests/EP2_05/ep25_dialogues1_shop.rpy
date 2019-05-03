@@ -406,6 +406,8 @@ label ep25_dialogues1_shop12:
     mt "Теперь мне не стыдно показаться перед ним!"
     mt "И перед его проститутками, которых он нанял на работу!"
     mt "Я устрою им! Я покажу им кто такая Моника Бакфетт!"
+    return
+
 
 #    if clothShopCashierOffended2 == False and clothShopCashierOffended3ReturnDress == False and clothShopCashierFirstNightOffended == False:
 
