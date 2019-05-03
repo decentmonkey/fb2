@@ -331,14 +331,47 @@ label ep25_dialogues1_shop9:
                 cashier "Приходи днем! Вечером мало посетителей!"
                 return False
             cashier "Хорошо. Переодевайся и выходи работать!"
+            label ep25_dialogues1_shop9a:
+                menu:
+                    "Попросить белье.":
+                        m "Мне еще нужен лифчик и трусики под платье."
+                        cashier "Я не разрешаю тебе носить лифчик и трусики."
+                        cashier "Платье лучше смотрится без этого."
+                        m "Но как?! Ведь трусики не видно из-под платья!"
+                        m "А если кто-то попросить примерить?"
+                        m "МНЕ ЧТО, ОСТАВАТЬСЯ ГОЛОЙ?!"
+                        cashier "Ты все верно поняла."
+                        m "Но зачем?! Какой в этом резон?!"
+                        cashier "Мне так хочется."
+                        cashier "Мне нравится раздевать твою белоснежную попку."
+                        m "!!!"
+                        cashier "К тому же, я сама делала нечно подобное неколько раз."
+                        m "!!!"
+                        jump ep25_dialogues1_shop9a
+                    "Идти работать.":
+                        return True
             return True
         "Уйти.":
             return False
 
 label ep25_dialogues1_shop10:
+    # Моника заканчивает работу
+    m "Я весь день пыталась продать это платье."
+    m "Никто не хочет его покупать!"
+
+    # Если Моника отказывалась
+    cashier "Если ты хочешь продать это платье, то тебе надо более внимательно относиться к пожеланиям клиентов."
+    cashier "Иди переодевайся и приходи завтра."
     return
 
-    if clothShopCashierOffended2 == False and clothShopCashierOffended3ReturnDress == False and clothShopCashierFirstNightOffended == False:
+label ep25_dialogues1_shop11:
+    # Моника пытается зайти в магазин после работы
+    mt "Мне нечего там делать сегодня."
+    mt "Я не хочу общаться с этой лесбиянкой"
+    mt "Лучше не пытаться ничего украсть, иначе не представляю что она еще заставит меня делать..."
+    return
+
+#    if clothShopCashierOffended2 == False and clothShopCashierOffended3ReturnDress == False and clothShopCashierFirstNightOffended == False:
 
 # Если отказаться, то затем можно вернуться и сказать снова.
 
