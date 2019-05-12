@@ -482,7 +482,7 @@ label ep25_dialogues1_shop9:
         "Работать манекеном...":
             img 10737
             m "Я... Я пришла работать манекеном..."
-            if day_time != "day"
+            if day_time != "day":
                 cashier "Приходи днем! Вечером мало посетителей!"
                 return False
             img 10738
