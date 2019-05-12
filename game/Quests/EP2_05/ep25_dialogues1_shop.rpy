@@ -72,7 +72,7 @@ label ep25_dialogues1_shop2_loop1:
                         return True
                     "Купить платье за $ 250. (не хватает денег) (disabled)" if money < 250:
                         pass
-                    "Уйти."
+                    "Уйти.":
                         m "Хорошо, я подумаю."
                         m "Возможно вернусь позже."
                         cashier "Да, Мэм. Возвращайтесь! Мы всегда рады Вам."
@@ -327,7 +327,7 @@ label ep25_dialogues1_shop9:
     menu:
         "Работать манекеном...":
             m "Я... Я пришла работать манекеном..."
-            if day_time != "day"
+            if day_time != "day":
                 cashier "Приходи днем! Вечером мало посетителей!"
                 return False
             cashier "Хорошо. Переодевайся и выходи работать!"
@@ -338,7 +338,7 @@ label ep25_dialogues1_shop9:
 label ep25_dialogues1_shop10:
     return
 
-    if clothShopCashierOffended2 == False and clothShopCashierOffended3ReturnDress == False and clothShopCashierFirstNightOffended == False:
+#    if clothShopCashierOffended2 == False and clothShopCashierOffended3ReturnDress == False and clothShopCashierFirstNightOffended == False:
 
 # Если отказаться, то затем можно вернуться и сказать снова.
 

@@ -1,5 +1,5 @@
 # blowjob Man
-label cit2_dialog_1:
+label cit3_dialog_1:
     m "Добрый день, Мистер."
     m "Можно к Вам обратиться?"
     cit3 "О! Какая деточка! Пойдем в примерочную?"
@@ -34,7 +34,7 @@ label cit2_dialog_1:
     mt "Урод!!!"
     return True
 
-label cit2_dialog_2:
+label cit3_dialog_2:
     m "Добрый день, Мистер."
     m "Можно к Вам обратиться?"
     cit3 "Да?"
@@ -82,7 +82,7 @@ label cit2_dialog_2:
     return True
 
 
-label cit2_dialog_3:
+label cit3_dialog_3:
     m "Добрый день, Мистер."
     m "Можно к Вам обратиться?"
     cit3 "Да?"
