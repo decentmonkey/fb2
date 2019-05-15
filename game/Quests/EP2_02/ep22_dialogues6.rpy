@@ -280,14 +280,24 @@ label ep22_dialogue6_4:
         return
     $ store_music()
     music Stealth_Groover
-    img 6352
-    with fade
-    alex_photograph "Миссис Бакфетт!"
-    "Здравствуйте!"
-    img 6353
-    m "Здравствуй, Алекс..."
-    img 6354
-    alex_photograph "Вы хотите сделать еще одну фотосессию?"
+    if cloth == "Whore":
+        img 6352
+        with fade
+        alex_photograph "Миссис Бакфетт!"
+        "Здравствуйте!"
+        img 6353
+        m "Здравствуй, Алекс..."
+        img 6354
+        alex_photograph "Вы хотите сделать еще одну фотосессию?"
+    if cloth == "CasualDress1":
+        img 11232
+        with fade
+        alex_photograph "Миссис Бакфетт!"
+        "Здравствуйте!"
+        img 11233
+        m "Здравствуй, Алекс..."
+        img 11234
+        alex_photograph "Вы хотите сделать еще одну фотосессию?"
     menu:
         "Алекс... А где Мелани?" if monicaNeedToAskMelanieForHelp == True and day_time == "evening":
             call ep23_dialogues5_1() from _call_ep23_dialogues5_1
@@ -304,7 +314,7 @@ label ep22_dialogue6_4:
     alex_photograph "Миссис Бакфетт! Приходите в любой момент!"
     img 6358
     "Я всегда рад фотографировать Вас!"
-    img 6353
+    img 11233
     mt "!!!"
     $ restore_music()
     return
@@ -315,14 +325,24 @@ label ep22_dialogue6_5:
     if act=="l":
         return
     music Stealth_Groover
-    img 6352
-    with fade
-    alex_photograph "Миссис Бакфетт!"
-    "Здравствуйте!"
-    img 6353
-    m "Здравствуй, Алекс..."
-    img 6354
-    alex_photograph "Вы хотите сделать еще одну фотосессию?"
+    if cloth == "Whore":
+        img 6352
+        with fade
+        alex_photograph "Миссис Бакфетт!"
+        "Здравствуйте!"
+        img 6353
+        m "Здравствуй, Алекс..."
+        img 6354
+        alex_photograph "Вы хотите сделать еще одну фотосессию?"
+    if cloth == "CasualDress1":
+        img 11232
+        with fade
+        alex_photograph "Миссис Бакфетт!"
+        "Здравствуйте!"
+        img 11233
+        m "Здравствуй, Алекс..."
+        img 11234
+        alex_photograph "Вы хотите сделать еще одну фотосессию?"
 
     menu:
         "Да... (черт!)":
@@ -341,21 +361,39 @@ label ep22_dialogue6_5:
             return False
     m "Да, Алекс..."
     "Еще одну..."
-    img 8314
-    mt "Дьявол! Не знаю куда эти грязные фотосессии меня заведут!"
-    "Надо кончать с этим скорее!"
+    if cloth == "Whore":
+        img 8314
+        mt "Дьявол! Не знаю куда эти грязные фотосессии меня заведут!"
+        "Надо кончать с этим скорее!"
 
-    img 6354
-    with fade
-    alex_photograph "Миссис Бакфетт!"
-    "Вы уже знаете кем в каком наряде Вы будете сниматься в этот раз?"
+        img 6354
+        with fade
+        alex_photograph "Миссис Бакфетт!"
+        "Вы уже знаете кем в каком наряде Вы будете сниматься в этот раз?"
 
-    img 6353
-    m "Еще не знаю..."
-    "Что там Биф придумал на этот раз?"
+        img 6353
+        m "Еще не знаю..."
+        "Что там Биф придумал на этот раз?"
 
-    img 6527
-    w
+        img 6527
+        w
+    if cloth == "CasualDress1":
+        img 11235
+        mt "Дьявол! Не знаю куда эти грязные фотосессии меня заведут!"
+        "Надо кончать с этим скорее!"
+
+        img 11234
+        with fade
+        alex_photograph "Миссис Бакфетт!"
+        "Вы уже знаете кем в каком наряде Вы будете сниматься в этот раз?"
+
+        img 11233
+        m "Еще не знаю..."
+        "Что там Биф придумал на этот раз?"
+
+        img 11236
+        w
+
     return True
 
 label ep22_dialogue6_5a:
