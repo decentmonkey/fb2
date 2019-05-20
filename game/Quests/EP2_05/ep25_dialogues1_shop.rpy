@@ -98,7 +98,7 @@ label ep25_dialogues1_shop2_loop1:
                         return True
                     "Купить платье за $ 250. (не хватает денег) (disabled)" if money < 250:
                         pass
-                    "Уйти."
+                    "Уйти.":
                         img 10645
                         with diss
                         m "Хорошо, я подумаю."
