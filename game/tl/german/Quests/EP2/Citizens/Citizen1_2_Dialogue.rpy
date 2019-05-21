@@ -530,3 +530,149 @@ translate german citizen1_dialogue_pilon_loop1_1_3b497a8f:
     m "Denk nicht mal dran!"
     citizen1 "Schon gut, werd nicht gleich sauer. Du hast doch nichts dagegen, etwas mehr zu verdienen... Wenn ich deine scharfen Nippel etwas drücke?"
 
+# TODO: Translation updated at 2019-05-21 02:22
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:237
+translate german cit1_2_naked_boobs_1st_de45ddf4:
+
+    # citizen1 "Тетя, у нас с братом возникла шикарная идея!"
+    # citizen1 "Мы ведь с тобой не первый раз видимся и уже не чужие люди.."
+    # m "Ты это к чему?"
+    # citizen1 "Мда, не умею я говорить намеками..."
+    # citizen1 "Короче мы хотим посмотреть на твои сиськи, но уже так сказать без всего!"
+    citizen1 "Тетя, у нас с братом возникла шикарная идея!"
+    citizen1 "Мы ведь с тобой не первый раз видимся и уже не чужие люди.."
+    m "Ты это к чему?"
+    citizen1 "Мда, не умею я говорить намеками..."
+    citizen1 "Короче мы хотим посмотреть на твои сиськи, но уже так сказать без всего!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:246
+translate german cit1_2_naked_boobs_1st_64204555:
+
+    # m "Хватит с вас и того, что вы уже видели!"
+    m "Хватит с вас и того, что вы уже видели!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:248
+translate german cit1_2_naked_boobs_1st_e479fc56:
+
+    # m "Ну а мне это зачем?"
+    # citizen1 "Ну как зачем? А зачем ты нам их в одежде показываешь?"
+    # citizen1 "Мы заплатим!"
+    # m "Хорошо, смотрите, только руками не трогать!"
+    # citizen1 "О чем речь, тетя! Разве мы когда нибудь тебя обманывали?"
+    # citizen1 "Ого! Прямо как у моей бывшей!"
+    # citizen1 "Вот это класс, тетя! Так они смотрятся гораздо лучше."
+    # citizen1 "Да, сегодня день прошел не зря!"
+    m "Ну а мне это зачем?"
+    citizen1 "Ну как зачем? А зачем ты нам их в одежде показываешь?"
+    citizen1 "Мы заплатим!"
+    m "Хорошо, смотрите, только руками не трогать!"
+    citizen1 "О чем речь, тетя! Разве мы когда нибудь тебя обманывали?"
+    citizen1 "Ого! Прямо как у моей бывшей!"
+    citizen1 "Вот это класс, тетя! Так они смотрятся гораздо лучше."
+    citizen1 "Да, сегодня день прошел не зря!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:264
+translate german cit1_2_naked_boobs_variant1_b8eefc2d:
+
+    # citizen1 "Тетя, покажи нам свои сиськи!"
+    # m "Как именно?"
+    # citizen1 "А ты шутница. Конечно голыми, так интереснее!"
+    citizen1 "Тетя, покажи нам свои сиськи!"
+    m "Как именно?"
+    citizen1 "А ты шутница. Конечно голыми, так интереснее!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:271
+translate german cit1_2_naked_boobs_variant1_64204555:
+
+    # m "Хватит с вас и того, что вы уже видели!"
+    m "Хватит с вас и того, что вы уже видели!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:273
+translate german cit1_2_naked_boobs_variant1_964f25a7:
+
+    # m "Только руками не трогать!"
+    # citizen1 "Какие вопросы, тетя!"
+    # citizen1 "Не могу наглядеться, красота!"
+    # citizen1 "Тетя, а че ты молчишь?"
+    # m "Мне нечего вам сказать..."
+    # citizen1 "Ого! Ну ладно, глядя на такие сиськи можно и ничего не говорить!"
+    # citizen1 "Эй, тетя! Как насчет того, чтобы получить немного больше?"
+    # m "..."
+    # citizen1 "У меня идея! Нас как раз двое, как и твоих подружек. Давай обнимемся!"
+    # m "Даже не надейся!!!"
+    # citizen1 "Кто-то сегодня не в духе? Ладно, и так все очень хорошо!"
+    m "Только руками не трогать!"
+    citizen1 "Какие вопросы, тетя!"
+    citizen1 "Не могу наглядеться, красота!"
+    citizen1 "Тетя, а че ты молчишь?"
+    m "Мне нечего вам сказать..."
+    citizen1 "Ого! Ну ладно, глядя на такие сиськи можно и ничего не говорить!"
+    citizen1 "Эй, тетя! Как насчет того, чтобы получить немного больше?"
+    m "..."
+    citizen1 "У меня идея! Нас как раз двое, как и твоих подружек. Давай обнимемся!"
+    m "Даже не надейся!!!"
+    citizen1 "Кто-то сегодня не в духе? Ладно, и так все очень хорошо!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:291
+translate german cit1_2_naked_boobs_variant2_8cb4de93:
+
+    # citizen1 "Тетя, покажи нам свои сиськи!"
+    # m "Как именно?"
+    # citizen1 "Серьезно?! Давай снимай уже все!"
+    citizen1 "Тетя, покажи нам свои сиськи!"
+    m "Как именно?"
+    citizen1 "Серьезно?! Давай снимай уже все!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:298
+translate german cit1_2_naked_boobs_variant2_64204555:
+
+    # m "Хватит с вас и того, что вы уже видели!"
+    m "Хватит с вас и того, что вы уже видели!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:300
+translate german cit1_2_naked_boobs_variant2_11b4a478:
+
+    # m "Только руками не трогать!"
+    # citizen1 "Конечно, тетя!"
+    # citizen1 "Вау! Как в первый раз!"
+    # citizen1 "Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
+    # m "Ну...Я не знаю..."
+    # citizen1 "Давай! И прямо сейчас получишь часть денег!"
+    m "Только руками не трогать!"
+    citizen1 "Конечно, тетя!"
+    citizen1 "Вау! Как в первый раз!"
+    citizen1 "Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
+    m "Ну...Я не знаю..."
+    citizen1 "Давай! И прямо сейчас получишь часть денег!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:313
+translate german cit1_2_naked_boobs_variant2_64204555_1:
+
+    # m "Хватит с вас и того, что вы уже видели!"
+    m "Хватит с вас и того, что вы уже видели!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:316
+translate german cit1_2_naked_boobs_variant2_35c0e713:
+
+    # citizen1 "Уф...А ты горячая!"
+    # citizen1 "И так заводит!"
+    # m "Ай!"
+    # mt "Это немного больно и даже немного приятно... Странно..."
+    # citizen1 "Ух, тетя, снова нас порадовала!"
+    citizen1 "Уф...А ты горячая!"
+    citizen1 "И так заводит!"
+    m "Ай!"
+    mt "Это немного больно и даже немного приятно... Странно..."
+    citizen1 "Ух, тетя, снова нас порадовала!"
+
+translate german strings:
+
+    # Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:242
+    old "Почему бы и нет."
+    new ""
+
+    # Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:242
+    old "Хватит с вас и того, что вы уже видели!"
+    new ""
+
