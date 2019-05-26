@@ -6,6 +6,7 @@ label cit7_dialog_1:
     img 10936
     cit7 "Что тебе надо, девочка?"
     cit7 "Ты не похожа на продащицу."
+    # corruption +1 req 80
     menu:
         "Я... Я работаю здесь манекеном.":
             pass
@@ -24,6 +25,7 @@ label cit7_dialog_2:
     m "Можно к Вам обратиться?"
     img 10940
     cit7 "Это кто? Снова девочка-манекен?"
+    # corruption +1 req 80
     menu:
         "Да, Мэм.":
             pass
@@ -59,10 +61,13 @@ label cit7_dialog_3:
     #уходят в примерочную
     img 10948
     m "..."
+
     img 10949
     cit7 "Ну? Что стоишь?"
     img 10950
     cit7 "Снимай его!"
+    # corruption +2 req 90
+
     menu:
         "Снять платье...":
             pass
