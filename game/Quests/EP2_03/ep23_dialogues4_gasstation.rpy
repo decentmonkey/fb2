@@ -20,8 +20,26 @@ label ep23_dialogues4_1:
         $ gasStationFoodInited = True
     # Моника заходит
     $ gasStationFoodBought = False
-    if gasStationBuyFoodFirstTime == True:
+    if cloth == "CasualDress1":
+        music Groove2_85
+        img 11743
+        with fade
+        m "Я хочу купить продукты!"
+        m "И только попробуй сказать мне что у тебя не работает касса, детка!"
+        img 11744
+        saleswoman "Мэм, касса работает."
+        saleswoman "Пожалуйста, скажите, если я смогу чем-то помочь Вам!"
+
+        music Hidden_Agenda
+        call change_scene("gas_station_buy_food")
+
+        return
+
+
+
+    if gasStationBuyFoodFirstTime == True and cloth == "Whore":
         # первый раз
+        $ gasStationBuyFoodFirstTime = False
         img 9515
         with fade
         saleswoman "Эй! Здесь приличная заправка!"
@@ -37,11 +55,15 @@ label ep23_dialogues4_1:
     m "Я хочу купить продукты!"
 
 
+
     #Если касса не работает
     if gasStationBuyFoodFirstTime == True or (gasStationComputerNotWorkingDay == day and gasStationComputerNotWorkingDayTime == day_time) or day%4 == 0:
         $ gasStationComputerNotWorkingDay = day
         $ gasStationComputerNotWorkingDayTime = day_time
-        $ gasStationBuyFoodFirstTime = False
+#        $ gasStationBuyFoodFirstTime = False
+
+
+
         if cloth == "Whore":
             img 9518
         else:
@@ -68,7 +90,7 @@ label ep23_dialogues4_1:
     #
 
 
-    $ gasStationBuyFoodFirstTime = False
+#    $ gasStationBuyFoodFirstTime = False
     if cloth == "Whore":
         img 9522
     else:

@@ -7,8 +7,12 @@ label ep23_dialogues5_1:
     # Моника спрашивает у Алекса где Мелани?
     $ store_music()
     music Groove2_85
-    img 6519
-    with fade
+    if cloth == "Whore":
+        img 6519
+        with fade
+    if cloth == "CasualDress1":
+        img 11237
+        with fade
     m "Алекс... А где Мелани?"
     alex_photograph "Мелани обычно бывает днем, Миссис Бакфетт..."
     "А зачем она Вам?"

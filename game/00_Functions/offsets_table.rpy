@@ -940,8 +940,6 @@ define offsets_table = {
     "cloth_shop_dressing_room_monica_dick_dress2_dick":(270,1298,1079,1919),
     "cloth_shop_dressing_room_monica_dick_dress2_monica":(311,0,1079,557),
     "cloth_shop_dressing_room_monica_dick_dress3":(242,0,1079,537),
-    "cloth_shop_view1_teleport_view2":(440,73,907,347),
-    "cloth_shop_view2_teleport_cashier":(694,1684,1079,1919),
     "street_cloth_shop_driver_monica_businesscloth1":(478,857,728,962),
     "street_cloth_shop_driver_monica_businesscloth1_evening":(477,846,739,949),
     "street_cloth_shop_driver_monica_businesscloth2":(480,878,732,954),

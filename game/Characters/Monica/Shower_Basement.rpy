@@ -100,6 +100,10 @@ label basement_toilet_use1:
         $ toilet_images = ["7079", "7080", "7081", "7082", "7083", "7084", "7085", "7086", "7087"]
         $ images = random.sample(set(toilet_images), 4)
 
+    if cloth == "CasualDress1":
+        $ images = ["11724", "11725", "11726"]
+        $ images = random.sample(set(images), 3)
+
     #governess
     if cloth == "Governess":
         if monicaUnder != "Nude":
