@@ -64,8 +64,8 @@ label cit4_dialog_3:
     img 10785
     cit4 "Ну же? Я жду!"
     m "!!!"
-    img 10787
-    w
+#    img 10787
+#    w
     img 10788
     w
     img 10789

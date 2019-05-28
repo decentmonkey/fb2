@@ -342,6 +342,13 @@ label ep25_dialogues3_steve1a:
     img 11576
     steve "АААААХХХХ!!!"
 
+    img 11741
+    with fade
+    w
+    img 11742
+    with diss
+    w
+
     img 11577
     with fadelong
     m "Мерзавец!"
