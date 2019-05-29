@@ -17,7 +17,7 @@ label cloth_shop_view2_init:
     $ add_object_to_scene("Shop_Visitor10", {"active": False, "type":2, "base":"Cloth_Shop_View2_v10", "click" : "cloth_shop_view2_environment", "actions" : "lt", "zorder" : 5, "group":"cloth_shop_visitors"}, scene="cloth_shop_view2")
 
     $ add_object_to_scene("Teleport_Cashier", {"type":3, "text" : _("К КАССЕ"), "rarrow" : "arrow_right_2", "base":"Cloth_Shop_View2_Teleport_Cashier", "click" : "cloth_shop_view2_teleport", "xpos" : 1602, "ypos" : 917, "zorder":11, "teleport":True}, scene="cloth_shop_view2")
-    $ add_object_to_scene("Teleport_Cloth_Shop_View1", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "cloth_shop_view2_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True}, scene="cloth_shop_view2")
+    $ add_object_to_scene("Teleport_Cloth_Shop_View1", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "cloth_shop_view2_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="cloth_shop_view2")
 
     return
 

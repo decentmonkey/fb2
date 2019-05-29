@@ -9,7 +9,7 @@ label ep25_quests_shop1:
 
 
     $ shopVisitorsList = ["Shop_Visitor1", "Shop_Visitor2", "Shop_Visitor3", "Shop_Visitor4", "Shop_Visitor5", "Shop_Visitor6", "Shop_Visitor7", "Shop_Visitor8", "Shop_Visitor9", "Shop_Visitor10"]
-    $ activeVisitors = random.sample(set(shopVisitorsList), 1)
+    $ activeVisitors = random.sample(set(shopVisitorsList), 10)
     python:
         for visitorName in activeVisitors:
             set_active(visitorName, True, scene="cloth_shop_view1", recursive=True)

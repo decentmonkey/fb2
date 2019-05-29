@@ -18,8 +18,8 @@ label cloth_shop_view1_init:
 
     $ add_object_to_scene("Teleport_Cashier", {"type":2, "base":"Cloth_Shop_View1_Cashier", "click" : "cloth_shop_view1_teleport", "actions" : "lw", "zorder" : 0, "teleport":True}, scene="cloth_shop_view1")
     $ add_object_to_scene("Teleport_Dressing_Room", {"type":2, "base":"Cloth_Shop_View1_DressingRoom", "click" : "cloth_shop_view1_teleport", "actions" : "lw", "zorder" : 0, "teleport":True}, scene="cloth_shop_view1")
-    $ add_object_to_scene("Teleport_View2", {"type":3, "text" : _("ИДТИ ДАЛЬШЕ"), "rarrow" : "arrow_up_2", "base":"Cloth_Shop_View1_Teleport_View2", "click" : "cloth_shop_view1_teleport", "xpos" : 183, "ypos" : 929, "zorder":11, "teleport":True}, scene="cloth_shop_view1")
-    $ add_object_to_scene("Teleport_Street_Cloth_Shop", {"type":3, "text" : _("НАЗАД НА УЛИЦУ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "cloth_shop_view1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True}, scene="cloth_shop_view1")
+    $ add_object_to_scene("Teleport_View2", {"type":3, "text" : _("ИДТИ ДАЛЬШЕ"), "rarrow" : "arrow_up_2", "base":"Cloth_Shop_View1_Teleport_View2", "click" : "cloth_shop_view1_teleport", "xpos" : 183, "ypos" : 929, "zorder":11, "high_sprite_hover":True, "teleport":True}, scene="cloth_shop_view1")
+    $ add_object_to_scene("Teleport_Street_Cloth_Shop", {"type":3, "text" : _("НАЗАД НА УЛИЦУ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "cloth_shop_view1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "high_sprite_hover":True, "teleport":True}, scene="cloth_shop_view1")
 
     return
 label cloth_shop_view1_teleport:
