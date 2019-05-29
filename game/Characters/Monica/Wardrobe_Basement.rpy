@@ -2,6 +2,7 @@ define wardrobeBasementWhoreTakeFlag = False
 define wardrobeLastUsedDay = 0
 
 define monicaCatchedByBettyGovernessFirstTime = True
+default monicaCasualDressWearFirstTimeWardrobe = True
 
 init python:
     def checkGovernessWithoutPantiesActive():
@@ -14,7 +15,11 @@ label wardrobeBasement:
 #    with fadelong
     mt "Что мне одеть?"
     $ menuName = "wardrobe_menu"
+    call wardrobeBasementCasualDressMiniMap2()
     menu:
+        "Красивое платье." if monicaHasCasualDress1 == True:
+            call wardrobeBasementPutUpCasualDress1()
+
         "Одежда шлюхи.":
             if monicaBettyPanties == True:
                 call ep22_dialogues3_13() from _call_ep22_dialogues3_13
@@ -141,14 +146,48 @@ label hook_basement_bedroom_check_exit_cloth_map: #проверка при вы�
                     $ monicaBettyPanties = False
                 if bettyMustNotWearPanties == False: # Всегда одеваем трусики на выходе
                     $ monicaUnder = "Panties"
-                $ cloth = "Whore" #Принудительно переодеваем Монику
-                $ cloth_type = "Whore"
+                menu:
+                    "Одеть красное платье." if monicaHasCasualDress1 == True and obj_name != "Teleport_Street_Corner" and obj_name != "Teleport_Hostel2":
+                        if monicaBettyPanties == True:
+                            call ep22_dialogues3_13()
+                            $ monicaBettyPanties = False
+                        call wardrobeBasementPutUpCasualDress1()
+                        return True
+                    "Переодеться в одежду шлюхи." if monicaHasCasualDress1 == True:
+                        if monicaBettyPanties == True:
+                            call ep22_dialogues3_13()
+                            $ monicaBettyPanties = False
+                        $ cloth = "Whore" #Принудительно переодеваем Монику
+                        $ cloth_type = "Whore"
+                        return True
+                    "Переодеться в одежду шлюхи (другой нет!)." if monicaHasCasualDress1 == False:
+                        if monicaBettyPanties == True:
+                            call ep22_dialogues3_13()
+                            $ monicaBettyPanties = False
+                        $ cloth = "Whore" #Принудительно переодеваем Монику
+                        $ cloth_type = "Whore"
+                        return True
+#                $ cloth = "Whore" #Принудительно переодеваем Монику
+#                $ cloth_type = "Whore"
                 return True
-        if cloth_type == "Governess": #Бетти запрещает выходить из дома в одежде гувернантки!
+        if cloth_type == "Governess" or cloth_type == "Nude": #Бетти запрещает выходить из дома в одежде гувернантки!
             if get_active_objects("Betty", scene="House", recursive=True) != False:
                 if monicaCatchedByBettyGovernessFirstTime == False:
                     menu:
-                        "Переодеться в одежду шлюхи (другой нет!).":
+                        "Одеть красное платье." if monicaHasCasualDress1 == True and obj_name != "Teleport_Street_Corner" and obj_name != "Teleport_Hostel2":
+                            if monicaBettyPanties == True:
+                                call ep22_dialogues3_13()
+                                $ monicaBettyPanties = False
+                            call wardrobeBasementPutUpCasualDress1()
+                            return True
+                        "Переодеться в одежду шлюхи." if monicaHasCasualDress1 == True:
+                            if monicaBettyPanties == True:
+                                call ep22_dialogues3_13()
+                                $ monicaBettyPanties = False
+                            $ cloth = "Whore" #Принудительно переодеваем Монику
+                            $ cloth_type = "Whore"
+                            return True
+                        "Переодеться в одежду шлюхи (другой нет!)." if monicaHasCasualDress1 == False:
                             if monicaBettyPanties == True:
                                 call ep22_dialogues3_13() from _call_ep22_dialogues3_13_3
                                 $ monicaBettyPanties = False
@@ -197,4 +236,24 @@ label wardrobePutGovernessWithoutPanties:
     img black_screen
     with Dissolve(0.5)
     $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue2_governess")
+    return
+
+label wardrobeBasementPutUpCasualDress1:
+    # Одеваем CasualDress1
+    if monicaCasualDressWearFirstTimeWardrobe == True:
+        $ monicaCasualDressWearFirstTimeWardrobe = False
+        call ep25_dialgues5_basement1()
+        $ cloth = "CasualDress1"
+        $ cloth_type = "CasualDress"
+        call wardrobeBasementCasualDressMiniMap1()
+    return
+
+label wardrobeBasementCasualDressMiniMap1:
+    # Включаем ограничение на миникарте
+    $ miniMapDisabled2 = {"House":["Bedroom", "Bathroom", "Floor1", "Floor2", "Kitchen"]}
+    return
+
+label wardrobeBasementCasualDressMiniMap2:
+    # Отключаем ограничение на миникарте
+    $ miniMapDisabled2 = {"House":[]}
     return

@@ -1,6 +1,7 @@
 default map_source_scene = ""
 default map_source_scene_hud_preset = ""
 default map_scene = "House"
+default previous_map_scene = ""
 default target_map_scene = ""
 default movingByCar = True
 default visitedPlaces = {}
@@ -105,6 +106,7 @@ label map_environment:
             call afterJailFredDialogue3() from _call_afterJailFredDialogue3
             call process_drive_teleport("House", "street_house_main_yard") from _call_process_drive_teleport
             return
+        $ street_house_outside_monica_suffix = 2
         if gameStage == 2 or gameStage == 3:
             call process_drive_teleport("House", "street_house_outside") from _call_process_drive_teleport_4
             return
@@ -169,6 +171,7 @@ label map_environment:
 
 
 label process_drive_teleport(in_target_map_scene, in_target_scene):
+    $ previous_map_scene = map_scene
     $ target_map_scene = in_target_map_scene
     $ target_scene = in_target_scene
     python:
@@ -190,6 +193,7 @@ label process_drive_teleport(in_target_map_scene, in_target_scene):
     return
 
 label process_drive_teleport_direct(in_target_map_scene, in_target_scene):
+    $ previous_map_scene = map_scene
     $ target_map_scene = in_target_map_scene
     $ target_scene = in_target_scene
     python:

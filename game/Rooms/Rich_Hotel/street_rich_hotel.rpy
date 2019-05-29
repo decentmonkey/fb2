@@ -30,6 +30,9 @@ label street_rich_hotel_teleport:
 #            $ cloth = "PhotoDress"
 #            call change_scene("rich_hotel_event_sittable")
 #            return
+            if cloth == "CasualDress1":
+                help "Будет доступно в следующем обновлении игры. Следите за новостями!"
+                return
             mt "Я еще не сошла с ума, чтобы идти в такой дорогой отель одетой в ЭТО!!!"
             if charityEventCompleted == True:
                 mt "Я доказала этой сучке на рецепшине что Я - ЛЕДИ!"

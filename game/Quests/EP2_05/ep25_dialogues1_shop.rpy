@@ -25,6 +25,12 @@ label ep25_dialogues1_shop1b:
     "Интересно почему..."
     return False
 
+label ep25_dialogues1_shop1c:
+    mt "Чтобы что-то найти среди этого хлама, надо спросить у продавца..."
+    mt "Но смогу-ли я себе позволить что-то купить даже здесь?"
+    mt "Дьявол..."
+    return
+
 label ep25_dialogues1_shop2:
     # Если не whore outfit, то магазин закрыт!
 
@@ -35,77 +41,112 @@ label ep25_dialogues1_shop2:
 # Моника говорит что это дешевая подделка и есть-ли что-то получше.
 # Продавец отвечает что получше ничего нет.
 # Костюм стоит $1000.
+    music Groove2_85
     img 10619
+    with fadelong
     cashier "Здравствуйте, Мэм!"
     img 10620
     cashier "Чем могу быть Вам полезна?"
     img 10621
+    with diss
     m "Мне нужно подобрать что-то приличное."
     m "Что-то, что смотрится по деловому, но, в тот же момент, очень стильное."
     m "Что-нибудь что подойдет для такой бизнес-леди..."
+#    music Hidden_Agenda
     img 10622
+    with diss
     # смущенно смотрит на себя. продавщица тоже
     m "Как Я..."
     img 10623
+    with diss
     cashier "..."
     img 10624
+    with diss
     m "..."
+    music Groove2_85
     img 10625
+    with fade
     cashier "Мэм, пройдемте, я покажу Вам самое лучшее платье, которое имеется в продаже."
     # Показывает платье Моники
+    img black_screen
+    with diss
+    sound highheels_short_walk
     img 10626
+    with fadelong
     cashier "Пожалуйста! Лучшее платье в этом магазине!"
+    music Power_Bots_Loop
     img 10627
+    with diss
     mt "О БОЖЕ! Это же мое платье!"
     mt "То платье, которое я вернула."
     img 10628
     mt "Оно мне сейчас кажется таким красивым!"
+    music Hidden_Agenda
     img 10629
+    with fade
     m "Простите, Мэм..."
     m "Я бы предпочла сейчас что-нибудь подешевле..."
+    sound highheels_short_walk
     img 10630
+    with fadelong
     cashier "Хорошо, вот еще неплохое платье, оно подойдет Вам."
     # Моника смотрит на еще одно платье
     img 10631
+    with diss
     w
     img 10632
+    with fade
     m "Сколько стоит это платье?"
     cashier "Это платье стоит $ 500, Мэм."
+    music Groove2_85
     img 10633
+    with fade
     m "Я разбираюсь в моде и вижу что это подделка под более дорогой бренд."
     img 10634
     cashier "Мэм, это прекрасное платье. По очень доступной цене."
 label ep25_dialogues1_shop2_loop1:
+    music Groove2_85
     menu:
         "Попросить скидку.":
             if clothShopCashierOffended2 == False and clothShopCashierOffended3ReturnDress == False and clothShopCashierFirstNightOffended == False:
-                $ notif(_("Моника была добра к продавцу."))
+                music Hidden_Agenda
                 img 10635
+                with fade
                 m "Скажите, можно-ли сделать какую-то скидку?"
                 img 10636
                 cashier "Мэм, вообще-то это платье не продается по скидке..."
                 img 10637
+                with fade
                 m "Я очень прошу Вас. Вы ведь узнаете меня? Я очень лояльный клиент."
+                music RnB3_65
                 img 10638
+                with fade
                 cashier "..."
+                $ notif(_("Моника была добра к продавцу."))
                 cashier "Да, я узнала Вас. Хотя Вы и одеты сегодня немного странно."
                 img 10639
+                with fade
                 cashier "Хорошо, я сделаю скидку в 50 процентов, только ради Вас!"
                 menu:
                     "Купить платье за $ 250." if money>=250:
+                        music Ready_and_Waiting
                         m "Давайте я померю его."
                         cashier "Проходите в примерочную..."
                         # примерочная
                         img 10646
+                        with fade
                         w
                         img 10647
+                        with fadelong
                         m "Мне нравится."
                         m "Я беру его."
                         cashier "Мэм, пройдемте на кассу."
+                        $ add_money(-250.0)
                         return True
                     "Купить платье за $ 250. (не хватает денег) (disabled)" if money < 250:
                         pass
                     "Уйти.":
+                        music Groove2_85
                         img 10645
                         with diss
                         m "Хорошо, я подумаю."
@@ -113,17 +154,23 @@ label ep25_dialogues1_shop2_loop1:
                         cashier "Да, Мэм. Возвращайтесь! Мы всегда рады Вам."
                         return False
             else:
-                $ notif(_("Моника была недостаточно добра к продавцу."))
+                music Hidden_Agenda
                 img 10640
+                with fade
                 m "Скажите, можно-ли сделать какую-то скидку?"
                 img 10641
                 cashier "Мэм, вообще-то это платье не продается по скидке..."
                 img 10642
+                with fade
                 m "Я очень прошу Вас. Вы ведь узнаете меня? Я очень лояльный клиент."
+                music Groove2_85
                 img 10643
+                with diss
                 cashier "..."
+                $ notif(_("Моника была недостаточно добра к продавцу."))
                 cashier "Я узнала Вас! И я не могу сказать что Вы лояльный клиент нашего магазина."
                 cashier "Для Вас цена составляет $ 500!"
+                music Power_Bots_Loop
                 img 10644
                 if monicaBitch == True:
                     mt "Сучка!"
@@ -131,24 +178,41 @@ label ep25_dialogues1_shop2_loop1:
                     mt "!!!"
                 jump ep25_dialogues1_shop2_loop1
 
-        "Купить платье за $ 500.":
+        "Купить платье за $ 500. (не хватает денег) (disabled)" if money < 500:
+            pass
+        "Купить платье за $ 500." if money >= 500:
+            music Ready_and_Waiting
             m "Давайте я померю его."
             cashier "Проходите в примерочную..."
             # примерочная
             img 10646
+            with fadelong
             w
             img 10647
+            with fadelong
             m "Мне нравится."
             m "Я беру его."
             cashier "Мэм, пройдемте на кассу."
+            $ add_money(-500.0)
             return True
 
         "Уйти.":
             img 10645
+            with fade
             m "Хорошо, я подумаю."
             m "Возможно вернусь позже."
             cashier "Да, Мэм. Возвращайтесь! Мы всегда рады Вам."
             return False
+
+label ep25_dialogues1_shop2a:
+    mt "Ура! Наконец-то я выгляжу как леди!"
+    mt "Ну... почти как леди..."
+    mt "Все-таки эту каблуки могут выдать меня..."
+    mt "И это платье... Оно не такое уж дорогое..."
+    mt "Однако никто не сможет вывернуть его наизнанку и посмотреть на бирку!"
+    mt "Так что это неважно."
+    mt "На вид его цену может определить только такой профессионал моды как Я..."
+    return
 
 label ep25_dialogues1_shop3:
     # Моника пытается зайти в магазин после покупки платья за деньги
@@ -158,14 +222,22 @@ label ep25_dialogues1_shop3:
 label ep25_dialogues1_shop4:
 # Моника замечает что в этот раз в магазине мало народа и она может украсть его.
     img 10648
+    with fadelong
     mt "А в этом магазине сегодня на удивление никого нет..."
     img 10649
     mt "Может быть мне попробовать... украсть это платье?"
     return
 
+label ep25_dialogues1_shop4a:
+    mt "Я уже была там сегодня."
+    mt "Может быть зайти в другой день, когда будет поменьше посетителей?"
+    return
+
+
 label ep25_dialogues1_shop5:
     # Моника заходит в магазин снова
     img 10650
+    with fadelong
     menu:
         "Обратиться к продавцу.":
             return False

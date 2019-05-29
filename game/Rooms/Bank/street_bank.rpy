@@ -30,6 +30,9 @@ label street_bank_teleport:
             if day_time == "evening":
                 mt "Сейчас вечер. Банк уже закрыт."
                 return
+            if cloth == "CasualDress1":
+                call ep25_dialogues1_shop17()
+                return
             mt "Что мне там делать?"
             "У меня нет никаких документов!"
             "(хмык)"

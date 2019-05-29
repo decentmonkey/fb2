@@ -16,6 +16,9 @@ label street_house_main_yard:
         music Mandeville
     else:
         music night_ambience
+
+
+    $ teleportHomeJustMade = False
     return
 
 label street_house_main_yard_init:

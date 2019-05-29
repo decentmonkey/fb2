@@ -2,6 +2,7 @@ default miniMapData = []
 default miniMapSubst = {}
 default miniMapEnabledOnly = []
 default miniMapDisabled = []
+default miniMapDisabled2 = []
 default miniMapTurnedOff = False
 default miniMapOpened = False
 default miniMapOpenButtonImg = "Open_Button_Map1"

@@ -26,6 +26,7 @@
 # Та отвечает да, мистер Биф, уже беги и идет
 # У нее рендер в штанах с голой задницей с трусами
 default monicaCasualDress1BiffFirstTime = True
+default monicaCasualDress1AlexFirstTime = True
 
 label ep22_dialogue6_1:
     #Диалог секретарши с Моникой, когда Моника пытается зайти к Бифу

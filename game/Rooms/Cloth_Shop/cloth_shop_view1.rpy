@@ -1,3 +1,5 @@
+default clothShopMusicType = 1
+
 label cloth_shop_view1:
     $ print "enter_cloth_shop_view1"
     $ miniMapData = []
@@ -5,6 +7,8 @@ label cloth_shop_view1:
     $ scene_caption = _("Clothing Shop")
 
     $ scene_image = "scene_Cloth_Shop_View1"
+    if clothShopMusicType == 1:
+        music Sneaky_Snitch
     return
 
 label cloth_shop_view1_init:
@@ -45,6 +49,9 @@ label cloth_shop_view1_teleport:
     return
 
 label cloth_shop_view1_environment:
+    if obj_name == "Monica":
+        mt "Дешевый магазин, Фи!"
+
     if obj_name == "Shop_Visitor1" or obj_name == "Shop_Visitor2":
         if act== "l":
             mt "Покупатель в этом жутком магазине."

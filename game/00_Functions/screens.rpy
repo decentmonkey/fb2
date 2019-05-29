@@ -874,6 +874,8 @@ screen hud_minimap(minimapData):
                             $ minimapCheckMapScene = "Street_Corner"
                         if miniMapDisabled.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled[minimapCheckMapScene]:
                             $ locationDisabledFlag = True
+                        if cloth == "CasualDress1" and miniMapDisabled2.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled2[minimapCheckMapScene]:
+                            $ locationDisabledFlag = True
                         button:
                             yanchor 0.0
                             xanchor 0.5
