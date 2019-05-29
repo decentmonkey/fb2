@@ -467,7 +467,8 @@ label ep24_quests_steve30:
     # Вход в здание Стива
     if act=="l":
         return
-    call ep24_dialogues3_steve13() from _call_ep24_dialogues3_steve13
+    call ep25_quests1()
+#    call ep24_dialogues3_steve13() from _call_ep24_dialogues3_steve13
     return False
 
 label ep24_quests_steve31:

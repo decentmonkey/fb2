@@ -123,3 +123,19 @@ label locations_init:
 
 
     return
+
+label locations_init_clothing_shop:
+    $ add_location("cloth_shop_view1", caption=_("Clothing Shop"), label="cloth_shop_view1", init_label="cloth_shop_view1_init", parent="Cloth_Shop")
+    $ add_location("cloth_shop_view2", caption=_("Clothing Shop"), label="cloth_shop_view2", init_label="cloth_shop_view2_init", parent="Cloth_Shop")
+    $ add_location("cloth_shop_cashier", caption=_("Clothing Shop"), label="cloth_shop_cashier", init_label="cloth_shop_cashier_init", parent="Cloth_Shop")
+    $ add_location("cloth_shop_dressing_room", caption=_("Clothing Shop"), label="cloth_shop_dressing_room", init_label="cloth_shop_dressing_room_init", parent="Cloth_Shop")
+    $ add_location("cloth_shop_dressing_room2", caption=_("Clothing Shop"), label="cloth_shop_dressing_room2", init_label="cloth_shop_dressing_room2_init", parent="Cloth_Shop")
+
+
+    return
+
+label locations_init_steve_office:
+    $ add_location("steve_office_secretary", caption=_("Офис Стива"), label="steve_office_secretary", init_label="steve_office_secretary_init", parent="Steve_Office")
+    $ add_location("steve_office_office", caption=_("Офис Стива"), label="steve_office_office", init_label="steve_office_office_init", parent="Steve_Office")
+    $ add_location("steve_office_office_table", caption=_("Офис Стива"), label="steve_office_office_table", init_label="steve_office_office_table_init", parent="Steve_Office")
+    return
