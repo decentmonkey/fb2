@@ -107,21 +107,29 @@ label cit1_dialog_2:
     return True
 
 label cit1_dialog_3:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 11119
+    with fadelong
     m "Пожалуйста, рассмотрите покупку этого красивого платья..."
     img 11120
+    with diss
     cit1 "О, манекен! Да, давай рассмотрю..."
     cit1 "Замри!"
     m "Зачем? По моему и так платье можно рассмотреть без проблем."
     img 11121
     cit1 "А ну помолчи! Манекены не двигаются и не говорят."
     # Смена картинок как он поднимает монике рукм, ходит вокруг, трогает
+    music Groove2_85
     img 11122
+    with fade
     m "Эй! Что ты делаешь?"
     img 11123
+    with fade
     cit1 "А что, не понятно? Оцениваю товар."
     cit1 "Ты же хочешь, чтобы я купил платье?"
     # corruption +2 req 90
+    $ menu_corruption = [90]
     menu:
         "Да, конечно...":
             pass
@@ -133,6 +141,7 @@ label cit1_dialog_3:
             cit1 "Ааа!!! Бракованный манекен!!!"
             $ monicaSellingDressRefuseLastDay = day
             return False
+    $ add_corruption(2, "cit1_dialog_3")
 
     m "Ну...да..."
     cit1 "Прекрасно, тогда помолчи и не шевелись."

@@ -44,6 +44,18 @@ label ep25_quests_shop_visitors1:
         call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
         return False
 
+    if shopVisitorStage1 == 3:
+        $ store_music()
+        call cit1_dialog_3()
+        if _return != False:
+            $ shopVisitorsList.remove("Shop_Visitor1")
+        $ restore_music()
+        $ set_active("Shop_Visitor1", False)
+        $ autorun_to_object("ep25_dialogues1_shop23", scene="cloth_shop_view1")
+        call refresh_scene_fade()
+        call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
+        return False
+
     return
 
 label ep25_quests_shop_visitors2:
