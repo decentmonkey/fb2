@@ -19,6 +19,8 @@ default episode = 1
 default notifList = []
 default lastNotifTime = 0
 
+default menu_corruption = []
+
 default after_load_ready_to_render = False
 
 label start:

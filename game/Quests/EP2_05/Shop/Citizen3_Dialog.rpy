@@ -1,68 +1,98 @@
 # blowjob Man
 label cit3_dialog_1:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 11140
+    with fadelong
     m "Добрый день, Мистер."
     m "Можно к Вам обратиться?"
+    music Loved_Up
     img 11141
+    with fade
     cit3 "О! Какая деточка! Пойдем в примерочную?"
     m "Мистер... Я бы хотела предложить Вам купить это платье..."
+    music Groove2_85
     img 11142
     cit3 "Так ты продавец?"
     # corruption +1 req 80
+    $ menu_corruption = [80]
     menu:
         "Я... Я работаю здесь манекеном.":
             pass
         "Уйти.":
+            $ monicaSellingDressRefuseLastDay = day
             return False
+    $ add_corruption(1, "cit3_dialog_1")
+    music Hidden_Agenda
     img 11143
+    with fade
     m "Я... Я работаю здесь манекеном."
     cit3 "Ха-ха! Значит ты продаешь это платье?"
     m "Да..."
+    music Loved_Up
     img 11144
+    with fade
     cit3 "Красивое платье! Но под него мне нужна соответствующая детка!"
     cit3 "Я как раз планирую познакомиться с какой-нибудь."
     cit3 "Встань поближе, я хочу посмотреть размер. Мне надо найти такую детку, чтобы платье ей подошло!"
     # corruption +1 req 80
+    $ menu_corruption = [90]
     menu:
         "Встать ближе.":
             pass
         "Уйти.":
+            $ monicaSellingDressRefuseLastDay = day
             return False
 
+    $ add_corruption(1, "cit3_dialog_1b")
     # Замеряет руками
     img 11145
+    with fade
     w
     sound Jump2
     img 11146
     with diss
     cit3 "Значит у нее должны быть вот такие сиськи..."
     img 11147
+    with diss
     W
-    img 11148
     sound Jump1
+    img 11148
+    with diss
     cit3 "И вот такая задница."
     img 11149
+    with diss
     w
     img 11150
+    with diss
     w
     img 11151
+    with diss
     w
+    music Groove2_85
     img 11152
+    with fade
     cit3 "Хорошо! Я запомнил!"
     cit3 "Как только я найду подходящую детку, я куплю это платье!"
-
     mt "Урод!!!"
     return True
 
 label cit3_dialog_2:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 11153
+    with fadelong
     m "Добрый день, Мистер."
     m "Можно к Вам обратиться?"
     img 11154
+    with diss
     cit3 "Да?"
     img 11155
+    with fade
     m "Я по поводу покупки платья..."
+    music Loved_Up
     img 11156
+    with fade
     cit3 "Да, я помню!"
     cit3 "Я нашел несколько деток, но мне надо убедиться, что это платье подойдет им!"
     img 11157
@@ -72,16 +102,25 @@ label cit3_dialog_2:
     m "Нет, Мистер. Чашечки прилегают очень свободно. Там нет никакого давления..."
     cit3 "Мне надо проверить!"
     # corruption +3 req 100
+
+    $ menu_corruption = [100]
     menu:
         "Да, Мистер. Посетители могут прикасаться к манекену...":
             pass
         "Нет, Мистер. Это исключено!":
+            music Power_Bots_Loop
             img 11159
+            with fade
             m "Нет, Мистер. Это исключено!"
+            $ monicaSellingDressRefuseLastDay = day
             return False
 
+    $ add_corruption(3, "cit3_dialog_2")
+    music Groove2_85
     img 11160
+    with fade
     m "Да, Мистер. Посетители могут прикасаться к манекену..."
+    music Loved_Up
     #Лапает за грудь
     img 11161
     with diss
@@ -98,44 +137,61 @@ label cit3_dialog_2:
     with diss
     cit3 "Да, форма вполне упругая..."
     img 11165
+    with diss
     w
     img 11166
+    with diss
     w
     img 11167
+    with diss
     cit3 "Да, вполне подойдет..."
 
+    music Groove2_85
     img 11168
+    with fade
     m "Мистер, Я думаю этого достаточно..."
 
     img 11169
+    with fade
     cit3 "Ах да! Меня также смущает форма платья."
     cit3 "Мне нужно убедиться в том, какая форма задницы должна быть у моей цыпочки, чтобы платье подошло."
     img 11170
+    with diss
     m "Каким образом Вы хотите убедиться в этом?"
     cit3 "Мне надо пощупать!"
     # corruption +5 req 110
+    $ menu_corruption = [110]
     menu:
         "Да, Мистер. Посетители могут прикасаться к манекену...":
             pass
         "Нет, Мистер. Это исключено!":
             m "Нет, Мистер. Это исключено!"
+            $ monicaSellingDressRefuseLastDay = day
             return False
+    $ add_corruption(5, "cit3_dialog_2b")
     # Щупает задницу
     img 11171
     with fade
     w
     img 11172
+    with diss
     w
+    music Hidden_Agenda
     img 11173
     with fade
     m "Да, Мистер."
     img 11174
     m "Посетители могут прикасаться к манекену..."
+    music Loved_Up
+    sound snd_fabric1
     img 11175
+    with fade
     cit3 "Ммммм... Да."
     img 11176
+    with diss
     cit3 "Да, примерно такая задница мне и нужна."
     img 11177
+    with diss
     cit3 "А здесь у нее такая упругость..."
     img 11178
     with fade
@@ -161,23 +217,27 @@ label cit3_dialog_2:
     with fade
     w
     # звук входа пальца
+    music Loved_Up2
+    sound hlup19
     img 11187
     with diss
     w
+
     img 11188
     m "Ахххххх!"
     img 11189
     m "!!!"
+    music Power_Bots_Loop
     img 11190
     with fade
     m "Мистер, Я думаю этого достаточно..."
-
     cit3 "А? Да!"
     img 11191
     with fade
     cit3 "Я скоро навещу Вас снова!"
     #исчезает
     img 11192
+    with diss
     mt "Этот придурок собирается покупать платье или нет?!"
     return True
 
@@ -239,6 +299,7 @@ label cit3_dialog_3:
             img 11214
             m "Нет, знаете, я на такое не способна!"
             cit3 "Хорошо, я приду, когда найду другую детку, которая подходит под это платье!"
+            $ monicaSellingDressRefuseLastDay = day
             return False
 
     img 11212

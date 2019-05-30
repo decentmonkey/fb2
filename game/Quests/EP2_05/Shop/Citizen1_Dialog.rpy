@@ -1,38 +1,57 @@
 # Man 1 - curly hair
 label cit1_dialog_1:
+    $ store_music()
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 11101
+    with fadelong
     m "Пожалуйста, рассмотрите покупку этого красивого платья..."
+    music Groove2_85
     img 11102
+    with diss
     cit1 "Ой уйди, не до тебя сейчас... Я забыл как убить Супермена... Какой то камень криптошит или магманит..."
     img 11103
     m "Но Вы даже не знаете, что я предлагаю, послушайте меня."
     cit1 "Я же сказал, мне не интересно, пока!"
+    $ restore_music()
     return True
 
 label cit1_dialog_2:
+    music Hidden_Agenda
     img 11104
+    with fadelong
     m "Пожалуйста, рассмотрите покупку этого красивого платья..."
     img 11105
+    with fade
     cit1 "Что?"
     m "Я предлагаю Вам купить это платье!"
     cit1 "Какое платье?"
+    music Groove2_85
     img 11106
+    with diss
     mt "Что за идиот..."
     img 11107
     m "Вот это, оно надето на мне."
     cit1 "Вот это? Интересно... Кстати, дамочка, а Вы здесь вообще работаете?"
     m "Ну конечно, я же продаю Вам платье..."
     img 11108
+    with fade
     cit1 "Как то это все очень подозрительно... А где Ваш бейдж?"
     m "Понимаете, я только временно здесь работаю. У меня нет бейджа."
     cit1 "Дай подумать... Если у тебя нет бейджа, значит ты не сотрудник... Кто же ты?"
     # corruption +1 req 80
+
+    $ menu_corruption = [80]
     menu:
         "Я... Я работаю здесь манекеном.":
             pass
         "Уйти.":
+            $ monicaSellingDressRefuseLastDay = day
             return False
+    $ add_corruption(1, "cit1_dialog_2")
+    music Hidden_Agenda
     img 11109
+    with fade
     m "Я... Я работаю здесь манекеном."
     cit1 "Отлично, рассмотрю тебя поближе."
     # подходит к монике сзади, рассматривает зад, она поворачивается
@@ -54,6 +73,7 @@ label cit1_dialog_2:
         "Нет, Мистер!":
             img 11139
             m "Нет, Мистер!"
+            $ monicaSellingDressRefuseLastDay = day
             return False
     # моника поднимает руки вверх, клиент ходит вокруг. если платье короткой, возможно будет видно зад
     img 11114
@@ -94,6 +114,7 @@ label cit1_dialog_3:
             m "А ну вали отсюда!!!"
             #злая моника
             cit1 "Ааа!!! Бракованный манекен!!!"
+            $ monicaSellingDressRefuseLastDay = day
             return False
 
     m "Ну...да..."
@@ -124,6 +145,7 @@ label cit1_dialog_3:
             m "Это уже слишком! Что ты себе позволяешь?"
             #злая моника
             cit1 "Ааа!!! Бракованный манекен!!!"
+            $ monicaSellingDressRefuseLastDay = day
             return False
     # еще пара картинок
     img 11130

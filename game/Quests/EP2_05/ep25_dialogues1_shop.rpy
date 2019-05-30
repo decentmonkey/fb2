@@ -215,7 +215,7 @@ label ep25_dialogues1_shop2a:
     return
 
 label ep25_dialogues1_shop3:
-    # Моника пытается зайти в магазин после покупки платья за деньги
+    # Моника пытается зайти в магазин после покупки платья за деньги или после того как отобрала его
     mt "Мне нечего делать там сейчас..."
     return
 
@@ -262,31 +262,48 @@ label ep25_dialogues1_shop6:
 # Моника спрашивает: но зачем?
 # Продавщица говорит делать что сказано, иначе через 5 минут она будет в полцейском участке.
 
+    $ monicaTriedToStealDress = True
     img 10651
+    with fadelong
     w
     img 10652
+    with diss
     w
     m "Манекену одежда ни к чему!"
+    sound snd_fabric1
     img 10653
     with diss
     w
+    sound Jump1
     img 10654
+    with diss
     w
+    sound highheels_run2
     img 10655
+    with fadelong
     w
+    img black_screen
+    with diss
+    pause 1.0
+    music Power_Bots_Loop
     img 10657
+    with fade
     cashier "Ну что, сучка, далеко собралась?!"
     img 10656
     cashier "Думаешь из этого магазина можно что-то украсть?"
     img 10658
+    with fade
     m "Что Вы от меня хотите?!"
     m "Не трогайте меня!"
     m "Дайте мне пройти!"
     img 10659
+    with diss
     cashier "Тебе некуда идти, я закрыла магазин, чтобы ты не убежала."
     cashier "Я вызываю полицию!"
+    music Pyro_Flow
     img 10660
     m "Что?! Да как ты смеешь! Я респектабельный клиент!"
+    music Power_Bots_Loop
     img 10661
     if clothShopCashierFirstNightOffended == True:
         cashier "Я узнала тебя! В прошлый раз тебе удалось отвертеться, но в этот раз полиция схватит тебя!"
@@ -294,25 +311,36 @@ label ep25_dialogues1_shop6:
     cashier "Я видела, ты пыталась украсть это платье!"
     cashier "Ты отсюда не уйдешь!"
     img 10662
+    with fade
     m "Что?! Полиция?!"
     m "Мне не нельзя в полицию!!!"
     img 10663
     cashier "Это уже твои проблемы!"
+    sound snd_phone1
     img 10664
+    with fade
     cashier "Алло! Полиция?"
     cashier "У меня в магазине вор, я прошу Вас приехать скорее."
     img 10665
     mt "О БОЖЕ!!! ЧТО МНЕ ДЕЛАТЬ?!"
     menu:
         "Ударить продавца и убежать!" if monicaBitch == True:
+            $ monicaKickedVivianForDress = True
+            music Pyro_Flow
             img 10666
+            with fade
             m "Ты не могла успеть закрыть дверь!"
             m "Ты все врешь!"
+            sound snd_punch_face1
             img 10667
+            with diss
             m "Получай, На!"
+            sound snd_bodyfall
             cashier "Аххх!"
             # Моника убегая
+            sound highheels_run2
             img 10668
+            with fade
             m "Это мое платье! Я заслужила его!"
             return False
         "Ударить продавца и убежать! (Моника слишком приличная) (disabled)" if monicaBitch == False:
@@ -322,121 +350,184 @@ label ep25_dialogues1_shop6:
 
 label ep25_dialogues1_shop7:
     # Умоляет не вызывать полицию
+    music Power_Bots_Loop
     img 10669
+    with fade
     m "Пожалуйста, не надо!"
     m "Я готова на ВСЕ!!!"
     m "ВЫ СЛЫШИТЕ?! Я ГОТОВА НА ВСЕ!!!"
     m "Только не вызывайте полицию! Пожалуйста!"
+    music Hidden_Agenda
     img 10670
+    with fade
     cashier "На все говоришь?"
     policeman "Пожалуйста, назовите адрес..."
+    music Power_Bots_Loop
     img 10671
     m "Да, НА ВСЕ!!!"
     m "ПОЖАЛУЙСТА, ПОЛОЖИТЕ ТРУБКУ!"
+    music Hidden_Agenda
     img 10672
+    with fade
     cashier "У меня есть идея."
+    sound snd_phone_short_beeps
     img 10673
+    with diss
     cashier "Вас плохо слышно, я перезвоню."
     # кладет трубку
 
     img 10674
+    with fade
     cashier "..."
     img 10675
+    with fade
     cashier "..."
+    music Indo_Rock
     img 10676
+    with fadelong
     cashier "Идем за мной."
 
+    img black_screen
+    with diss
+    sound highheels_run2
+    pause 1.0
     # Приводит в примерочную
     img 10677
+    with fadelong
     cashier "Жди здесь."
     # Берет манекен с красивым платьем
+    sound highheels_run2
     img 10678
+    with fadelong
     w
+    sound snd_bodyfall
     img 10679
+    with fade
     cashier "Вот, одевай!"
 
     m "Мое платье?! Но зачем?"
+
+
     img 10680
     cashier "Оно не твое! Ты вернула его, забыла?"
     cashier "Быстро одевай!"
     # Моника одевает платье
     sound snd_fabric1
+    img black_screen
+    with diss
+    pause 1.0
     img 10681
+    with fadelong
     w
     img 10682
+    with fade
     w
     cashier "А теперь ложись!"
     img 10683
     m "Зачем?"
     cashier "Еще одно зачем и я вызываю полицию!"
     img 10684
+    with fade
     m "Хорошо, я ложусь..."
     img 10685
+    with diss
     w
     img 10686
+    with diss
     w
     img 10687
+    with diss
     w
+    sound snd_fabric1
     img 10688
+    with diss
     w
     img 10689
+    with diss
     w
     img 10690
+    with diss
     w
     img 10691
+    with diss
     w
     img 10692
+    with diss
     w
     img 10693
+    with diss
     w
     img 10694
+    with fade
     m "Эй, что Вы делаете?!"
 
 
     # Продавец садится на Монику
     img 10695
+    with fade
     cashier "Я Вас обслуживала ранее."
     img 10696
+    with diss
     cashier "И теперь хотела бы получить фидбек."
+    sound Jump2
     img 10697
+    with diss
     m "Да как Вы смеете?!"
     m "Мммпфххх...."
     img 10698
+    with diss
     cashier "Вам понравилось обслуживание?"
     m "Мммпфххх...."
     img 10699
+    with diss
     cashier "Только попробуй сказать нет..."
     img 10700
+    with diss
     cashier "Вам понравилось обслуживание?"
     img 10701
     m "Мммм... Да..."
     img 10702
+    with diss
     cashier "Оцените обслуживание по десятибальной шкале!"
     cashier "Вы ведь оцениваете обслуживание на десять баллов, правда?"
     m "Мммпфхх..."
     img 10703
     cashier "Отвечай, сучка. Иначе отправишься в полицию прямо сейчас."
     img 10704
+    with diss
     m "Мммпфхх... Да..."
     img 10705
+    with diss
     cashier "Посоветуете-ли Вы этот магазин своим друзьям и знакомым?"
     img 10706
     m "Мммпфхх... Да..."
+    music Loved_Up2
     img 10707
+    with fadelong
     cashier "А теперь я хочу попробовать твою розовую киску. Мммм..."
     img 10708
+    with diss
     m "Мммпфхх..."
     img 10709
+    with fade
     cashier "Ммммм... Какая прелесть..."
     img 10710
+    with diss
     m "Мммпфхх..."
     img 10711
+    with diss
     cashier "Ммммм... Такая вкусная киска мне еще не попадалась..."
     img 10712
+    with diss
     cashier "Ммммм..."
 
     # встает
+    img black_screen
+    with diss
+    pause 1.0
+    music Groove2_85
     img 10713
+    with fadelong
     cashier "А теперь быстро переодевайся назад!"
 
     # Моника переодевается
@@ -464,26 +555,38 @@ label ep25_dialogues1_shop7:
 # Так что, это платье надо продать, чтобы не потерять премиальные за квартал.
 # На манекене оно смотрится хуже, чем на тебе, сучка.
 # Потому у тебя есть шансы продать его.
+    img black_screen
+    with diss
+    sound highheels_run2
+    pause 2.0
     img 10714
+    with fadelong
     cashier "Ты можешь идти, но не вздумай даже смотреть на то платье, которое собиралась украсть."
     img 10715
     cashier "Хотя..."
     cashier "У меня есть предложение для тебя..."
     m "Кккккакое предложение?"
     img 10716
+    with diss
     cashier "Я могу тебе подарить то платье, что ты хотела украсть."
     cashier "Но только в случае, если ты сможешь продать другое."
     m "Какое другое?"
     img 10717
     cashier "То платье, которое ты вернула некоторое время назад."
     cashier "То, в котором ты сейчас была на полу."
+    music Hidden_Agenda
     img 10718
+    with fade
     m "А можно... Просто подарить мне его."
+    music Groove2_85
     img 10719
+    with fade
     cashier "Нет! Это самое дорогое платье в этом магазине."
     cashier "В этом районе ни у кого нет денег, чтобы купить такую дорогую тряпку."
     cashier "И поставщик отказывается принимать это платье назад."
+    music Power_Bots_Loop
     img 10720
+    with fade
     cashier "Мне надо продать это платье, иначе я рискую потерять премиальные за квартал."
     cashier "На манекене оно смотрится хуже, чем на тебе, сучка."
     img 10721
@@ -498,52 +601,76 @@ label ep25_dialogues1_shop7:
 # Выбор:
 # Согласиться продавать платье.
 # Отказаться.
+    music Groove2_85
     img 10722
+    with fade
     m "Что он меня требуется?"
     m "Как я буду его продавать? Я буду работать продавцом?"
     img 10723
+    with diss
     mt "О БОЖЕ! Кажется я нашла нормальную работу!"
     img 10724
+    with fade
     cashier "Здесь уже есть продавец!"
     img 10725
+    with diss
     cashier "Тебе надо будет работать манекеном!"
+    sound snd_fabric1
     img 10726
+    with fade
     cashier "Ты оденешь это платье и будешь показывать его покупателям."
     img 10727
     cashier "И мне не важно как будешь уговаривать покупателей его купить."
     cashier "Но, если ты продашь его, то получишь в награду взамен ту одежду, что хотела украсть."
+    music Power_Bots_Loop
     img 10728
+    with fade
     m "Но, разве можно продавать одежду, которая надета на продавце?"
+    music Groove2_85
     img 10729
+    with fade
     cashier "Не на продавце, а на манекене!"
     cashier "И если этот манекен умеет убеждать купить одежду, то так даже лучше!"
     img 10730
+    with diss
     cashier "В любом случае, я уже испробовала все другие варианты продать его!"
+    music Power_Bots_Loop
     img 10731
+    with fade
     mt "РАБОТАТЬ... МАНЕКЕНОМ!!!"
     cashier "Да, кстати."
     # щелкает ее на телефон
     img 10732
+    call photoshop_flash()
     w
     cashier "И только попробуй что-нибудь украсть."
     cashier "Этот снимок сразу отправится в полицию!"
     m "!!!"
+    music Groove2_85
     img 10733
+    with fade
     cashier "Ну так что, ты согласна?"
     img 10734
+    with diss
+    $ monicaNeedToSellDress = True
     menu:
         "Согласиться работать манекеном.":
+            $ monicaAgreedToSellDress = True
+            music Hidden_Agenda
             img 10735
+            with fade
             m "Я... Я согласна..."
             cashier "Приходи завтра днем!"
             cashier "Сегодня посетителей уже не будет!"
             return True
         "Отказаться.":
+            music Hidden_Agenda
             img 10736
+            with fade
             m "Я... пока не готова..."
             cashier "Если надумаешь, приходи!"
             return False
-
+    return
 
 label ep25_dialogues1_shop8:
     # Моника рассуждает на улице
@@ -558,74 +685,145 @@ label ep25_dialogues1_shop8:
 label ep25_dialogues1_shop9:
     # Моника приходит в магазин работать манекеном
     menu:
+        "Купить платье за $ 500. (не хватает денег) (disabled)" if money < 500:
+            pass
+        "Купить платье за $ 500." if money >= 500:
+            music Ready_and_Waiting
+            img 10621
+            with fade
+            m "Я хочу купить то платье, которое случайно забыла убрать с руки, когда выходила из магазина."
+            img 10641
+            with fade
+            cashier "Ты хотела украсть его!"
+            cashier "И получила по заслугам!"
+            img 10640
+            with fade
+            m "Достаточно!"
+            m "Давай я померяю это платье."
+            cashier "Проходите в примерочную..."
+            # примерочная
+            img 10646
+            with fadelong
+            w
+            img 10647
+            with fadelong
+            m "Мне нравится."
+            m "Я беру его."
+            cashier "Мэм, пройдемте на кассу."
+            $ add_money(-500.0)
+            return 1
+
+
+
         "Работать манекеном...":
+            music Groove2_85
             img 10737
+            with fade
             m "Я... Я пришла работать манекеном..."
             if day_time != "day":
                 cashier "Приходи днем! Вечером мало посетителей!"
-                return False
+                return 0
             img 10738
+            with diss
             cashier "Хорошо. Переодевайся и выходи работать!"
             label ep25_dialogues1_shop9a:
                 menu:
                     "Попросить белье.":
+                        img black_screen
+                        with diss
+                        sound snd_fabric1
+                        pause 2.0
                         img 10739
+                        with fadelong
                         m "Мне еще нужен лифчик и трусики под платье."
+                        sound Jump2
                         img 10740
+                        with diss
                         cashier "Я не разрешаю тебе носить лифчик и трусики."
                         img 10741
                         cashier "Платье лучше смотрится без этого."
                         img 10742
+                        with fade
                         m "Но как?! Ведь трусики не видно из-под платья!"
                         m "А если кто-то попросить примерить?"
                         img 10743
                         m "МНЕ ЧТО, ОСТАВАТЬСЯ ГОЛОЙ?!"
+                        music Loved_Up
                         img 10744
+                        with fade
                         cashier "Ты все верно поняла."
                         img 10745
                         m "Но зачем?! Какой в этом резон?!"
                         img 10746
+                        with diss
                         cashier "Мне так хочется."
                         cashier "Мне нравится раздевать твою белоснежную попку."
+                        music Groove2_85
                         img 10747
+                        with fade
                         m "!!!"
                         img 10748
+                        with diss
                         cashier "К тому же, я сама делала нечно подобное неколько раз."
+                        music Power_Bots_Loop
                         img 10749
+                        with fade
                         m "!!!"
                         mt "Чертова лесбиянка!"
+                        music Groove2_85
                         jump ep25_dialogues1_shop9a
                     "Идти работать.":
-                        return True
-            return True
+                        return 2
+            return 0
         "Уйти.":
-            return False
+            return 0
 
 label ep25_dialogues1_shop10:
     # Моника заканчивает работу
+    music Groove2_85
     img 10750
+    with fadelong
     m "Я весь день пыталась продать это платье."
     m "Никто не хочет его покупать!"
 
     # Если Моника отказывалась
-
-    img 10751
-    cashier "Если ты хочешь продать это платье..."
-    img 10752
-    w
-    img 10753
-    cashier "То тебе надо более внимательно относиться к пожеланиям клиентов."
-    img 10754
-    m "Ненавижу эту лесбиянку!"
-    m "Она заплатит за то что лапает меня!"
-    img 10755
-    m "Моника, терпи!"
-    m "Тебе нужно то платье!"
-    m "Это важный шаг, чтобы вернуть все назад!"
-    #
+    if monicaSellingDressRefuseLastDay == day:
+        music Loved_Up
+        img 10751
+        with fade
+        cashier "Если ты хочешь продать это платье..."
+        img 10752
+        with diss
+        w
+        img 10753
+        with diss
+        cashier "То тебе надо более внимательно относиться к пожеланиям клиентов."
+        img 10754
+        with fade
+        m "Ненавижу эту лесбиянку!"
+        m "Она заплатит за то что лапает меня!"
+        img 10755
+        with fade
+        m "Моника, терпи!"
+        m "Тебе нужно то платье!"
+        m "Это важный шаг, чтобы вернуть все назад!"
+        #
+        img 10756
+        with fade
+        cashier "Иди переодевайся и приходи завтра."
+        return
 
     img 10756
+    with fade
     cashier "Иди переодевайся и приходи завтра."
+    return
+
+label ep25_dialogues1_shop10a:
+    menu:
+        "Снять платье.":
+            return True
+        "Уйти.":
+            return False
     return
 
 label ep25_dialogues1_shop11:
@@ -712,10 +910,13 @@ label ep25_dialogues1_shop15:
     # Моника работает манекеном и срывается после очередного жесткого покупателя
     mt "Все! С меня хватит!"
     mt "Я больше не в состоянии терпеть это!"
+    call ep25_quests_shop11a()
     return
 
 label ep25_dialogues1_shop16:
     # Моника рассуждает с утра, если в предыдущий день работала манекеном
+    if rand(1,2) == 1:
+        return
     mt "Я вспоминаю вчерашний день, когда я работала манекеном."
     mt "Я! Моника Бакфетт!"
     mt "..."
@@ -737,6 +938,57 @@ label ep25_dialogues1_shop18:
     mt "Сумму, которую требует, чтобы Дик занимался моим делом."
     mt "Ненавижу ее!"
     return
+
+label ep25_dialogues1_shop19:
+    # Моника не работает сейчас
+    mt "Если я хочу продавать платье, то мне придется его сначала одеть..."
+    mt "Ненавижу все это!"
+    return
+
+label ep25_dialogues1_shop20:
+    # Моника пытается выйти из магазина во время продажи платья
+    mt "Лучше не пытаться ничего украсть, иначе не представляю что она еще заставит меня делать..."
+    return
+
+label ep25_dialogues1_shop20a:
+    # Моника пытается выйти из магазина во время продажи платья обнаженной
+    mt "Я не выйду на улицу в таком виде! Я еще не сошла с ума!"
+    return
+
+label ep25_dialogues1_shop21:
+    # Моника пытается подойти к клиенту, пока идет обслуживание другого
+    mt "Меня ждет покупатель в примерочной."
+    return
+
+label ep25_dialogues1_shop22:
+    # Моника продает платье, клик на Монику
+    mt "Не могу поверить что я продаю свое же платье!"
+    mt "В каком-то дешевом магазине в трущобах!"
+    return False
+
+label ep25_dialogues1_shop23:
+    # Моника комментирует покупателя
+    if monicaSellingDressInProgress == True:
+        mt "Какой-то придурок..."
+    return
+
+label ep25_dialogues1_shop24a:
+    if monicaSellingDressInProgress == True:
+        mt "Какая-то дура..."
+    return
+label ep25_dialogues1_shop24b:
+    if monicaSellingDressInProgress == True:
+        mt "Ненормальная покупательница..."
+    return
+label ep25_dialogues1_shop24c:
+    if monicaSellingDressInProgress == True:
+        mt "Тут бывает хоть кто-то нормальный?"
+    return
+label ep25_dialogues1_shop24d:
+    if monicaSellingDressInProgress == True:
+        mt "В этот магазин приходят только ненормальные стервы!"
+    return
+
 
 #    if clothShopCashierOffended2 == False and clothShopCashierOffended3ReturnDress == False and clothShopCashierFirstNightOffended == False:
 

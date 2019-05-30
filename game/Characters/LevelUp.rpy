@@ -17,6 +17,8 @@ label alexPhotographProgressLevelUp:
     return
 
 label cashierProgressLevelUp:
+    $ char_data["level"] = char_data["level"] + 1
+    
     return
 
 label driverProgressLevelUp:

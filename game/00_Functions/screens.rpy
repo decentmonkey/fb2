@@ -1409,7 +1409,11 @@ screen choice(items):
         python:
             buttons_list = []
             priority = 100
+            if menu_corruption == False:
+                menu_corruption = []
+            corruptionListLen = len(menu_corruption)
             # creating native buttons list
+            idx = 0
             for i in items:
                 if i.action:
                     str1 = i.caption
@@ -1419,8 +1423,23 @@ screen choice(items):
                         str1 = str1.replace(" (disabled)", "")
                         button_obj["caption"] = str1
                         button_obj["active"] = False
+                    if corruptionListLen>idx:
+                        # corruption
+                        if menu_corruption[idx] >0:
+                            if corruption >= menu_corruption[idx]:
+                                str1 = __(i.caption)
+                                str1 = str1 + __(" (corruption)")
+                                button_obj["caption"] = str1
+                            else:
+                                str1 = __(i.caption)
+                                str1 = str1 + __(" (low corruption, required ") + str(menu_corruption[idx]) + ")"
+                                button_obj["caption"] = str1
+                                button_obj["active"] = False
+
+
                     buttons_list.append(button_obj)
                 priority -= 10
+                idx +=1
 
             if menuName != False:
                 menu_hooks_list = get_hooks_for_object(menuName, "menu")
@@ -1447,6 +1466,7 @@ screen choice(items):
                 if button_data["active"] == True:
                     textbutton button_data["caption"]:
                         action [
+                            SetVariable("menu_corruption", False),
                             SetVariable("dialogue_active_flag", False),
                             SetVariable("menuName", False),
                             button_data["action"]
@@ -1458,6 +1478,7 @@ screen choice(items):
                     $ menuLastName = menuName
                     textbutton button_data["caption"]:
                         action [
+                            SetVariable("menu_corruption", False),
                             SetVariable("dialogue_active_flag", False),
                             SetVariable("menuName", False),
                             Call("call_hook", button_data["action"], menuLastName),

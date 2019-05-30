@@ -1,21 +1,32 @@
 # Girl4
 label cit7_dialog_1:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 10935
+    with fadelong
     m "Добрый день, Мэм."
     m "Можно к Вам обратиться?"
+    music Groove2_85
     img 10936
+    with diss
     cit7 "Что тебе надо, девочка?"
     cit7 "Ты не похожа на продащицу."
     # corruption +1 req 80
+
+    $ menu_corruption = [80]
     menu:
         "Я... Я работаю здесь манекеном.":
             pass
         "Уйти.":
+            $ monicaSellingDressRefuseLastDay = day
             return False
+    $ add_corruption(1, "cit7_dialog_1")
 
     img 10937
+    with fade
     m "Я... Я работаю здесь манекеном."
     img 10938
+    with diss
     cit7 "Манекеном?! Фи!"
     #Исчезает
     return False
@@ -30,6 +41,7 @@ label cit7_dialog_2:
         "Да, Мэм.":
             pass
         "Уйти.":
+            $ monicaSellingDressRefuseLastDay = day
             return False
     img 10941
     m "Да, Мэм."
@@ -72,6 +84,7 @@ label cit7_dialog_3:
         "Снять платье...":
             pass
         "Уйти.":
+            $ monicaSellingDressRefuseLastDay = day
             return False
     # Моника снимает платье, покупатель одевает
     # Моника стоит обнаженная, закрывается

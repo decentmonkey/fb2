@@ -1,35 +1,56 @@
 #Girl5
 label cit8_dialog_1:
+    $ store_music()
+    music Hidden_Agenda
     img 10955
+    with fade
     m "Добрый день, Мэм."
     m "Можно к Вам обратиться?"
+    music Groove2_85
     img 10956
+    with diss
     cit8 "Я занята, в другой раз!"
+    $ restore_music()
     return True
 
 label cit8_dialog_2:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 10957
+    with fadelong
     m "Добрый день, Мэм."
     m "Можно к Вам обратиться?"
+    music Groove2_85
     img 10958
+    with fade
     cit8 "Что тебе надо от меня?"
     # corruption +1 req 80
+
+    $ menu_corruption = [80]
     menu:
         "Я... Я работаю здесь манекеном.":
             pass
         "Уйти.":
+            $ monicaSellingDressRefuseLastDay = day
             return False
+    $ add_corruption(1, "cit8_dialog_2")
 
     img 10959
+    with fade
     m "Я... Я работаю здесь манекеном."
     m "И я хотела бы предложить Вам это платье..."
+    music Loved_Up
     img 10960
+    with fade
     cit8 "О! Какой очаровательный манекен!"
     cit8 "Могу я приобрести это платье вместе с манекеном?"
     img 10961
+    with diss
     m "Нет... Мэм..."
     m "Манекен... Собственность магазина и он не продается..."
+    music Groove2_85
     img 10962
+    with fade
     cit8 "Очень жаль!"
     m "А платье? Купите платье, Мэм!"
     # исчезает
@@ -52,6 +73,7 @@ label cit8_dialog_3:
         "Это невозможно, Мэм.":
             img 10966
             m "Это невозможно, Мэм."
+            $ monicaSellingDressRefuseLastDay = day
             return False
     img 10967
     m "Мэм, простите."
@@ -94,6 +116,7 @@ label cit8_dialog_3:
         "Встать на колени.":
             pass
         "Уйти.":
+            $ monicaSellingDressRefuseLastDay = day
             return False
     #Моника встает на колени
     img 10978

@@ -1,33 +1,52 @@
 # Girl1
 label cit4_dialog_1:
+    $ store_music()
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 10771
+    with fadelong
     m "Добрый день! Хотите примерить это платье?"
+    music Groove2_85
     img 10772
+    with fade
     cit4 "Какое?"
     m "Вот это, которое на мне."
     cit4 "А разве у Вас нет такого же, но нового?"
     img 10773
+    with diss
     m "Это последнее, но поверьте, оно новое."
     cit4 "Ну, не знаю... Нет, пожалуй сегодня обойдусь без примерок."
+    $ restore_music()
     return True
 
 label cit4_dialog_2:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 10774
+    with fadelong
     m "Здравствуйте, девушка. Не желаете ли купить это чудесное платье?"
     img 10775
+    with diss
     cit4 "Да, я желаю купить чудесное платье, но это не совсем то, что я ищу."
     m "А Вы попробуйте его примерить! Уверена, оно Вам подойдет."
     img 10776
+    with fade
     cit4 "А вот я не очень. Кстати, а Вы вообще кто?"
     # corruption +1 req 80
+    $ menu_corruption = [80]
     menu:
         "Я... Я работаю здесь манекеном.":
             pass
         "Уйти.":
+            $ monicaSellingDressRefuseLastDay = day
             return False
+    $ add_corruption(1, "cit3_dialog_1")
     img 10777
+    with fade
     m "Я... Я работаю здесь манекеном."
+    music Groove2_85
     img 10778
+    with fade
     cit4 "Манекеном? Как интересно..."
     cit4 "Знаешь, манекен, я уже примерила сегодня несколько платьев и ни одно ни подошло."
     cit4 "В другой раз."
@@ -52,6 +71,7 @@ label cit4_dialog_3:
         "Ну я не совсем сотрудник...":
             pass
         "Она права, а если так, то мне не передать ей платье.":
+            $ monicaSellingDressRefuseLastDay = day
             return False
     m "Ну я не совсем обычный сотрудник."
     m "Я... Я работаю здесь манекеном."

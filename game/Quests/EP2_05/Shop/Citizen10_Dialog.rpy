@@ -1,28 +1,40 @@
 label cit10_dialog_1:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 11028
+    with fadelong
     m "Добрый день, Мэм."
     m "Можно к Вам обратиться?"
+    music Groove2_85
     img 11029
+    with diss
     cit10 "Да, Мэм."
     cit10 "Что Вы хотели?"
     m "Я бы хотела предложить Вам купить это платье."
     cit10 "Какое платье?"
     img 11030
+    with fade
     m "Вот это, которое на мне..."
     img 11031
+    with fade
     cit10 "Это что, подержанное платье?"
     m "Нет, Мэм. Это новое платье..."
     cit10 "А почему оно надето на тебе?"
     # corruption +1 req 80
+    $ menu_corruption = [80]
     menu:
         "Я... Я работаю здесь манекеном.":
             pass
         "Уйти.":
+            $ monicaSellingDressRefuseLastDay = day
             return False
 
+    $ add_corruption(1, "cit10_dialog_1")
     img 11032
+    with fade
     m "Я... Я работаю здесь манекеном."
     img 11033
+    with diss
     cit10 "Я уже тороплюсь, может быть в следующий раз..."
     return True
 
@@ -72,6 +84,7 @@ label cit10_dialog_3:
         "Раздеться и отдать платье.":
             pass
         "Уйти.":
+            $ monicaSellingDressRefuseLastDay = day
             return False
     #Моника раздевается, покупатель одевает платье
 #    cit10 "А туфли?"
@@ -99,6 +112,7 @@ label cit10_dialog_3:
         "Одеть туфли покупательнице.":
             pass
         "Уйти.":
+            $ monicaSellingDressRefuseLastDay = day
             return False
     # Моника одевает туфли
     img 11057

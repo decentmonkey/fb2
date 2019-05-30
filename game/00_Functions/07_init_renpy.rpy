@@ -91,3 +91,20 @@ define ashley = Character(_("Эшли"), who_color=c_pink) # Барменша
 define joe = Character(_("Джо"), who_color=c_blue) # Бармен
 
 define sound_from_side = Character(_("Звук"), who_color=c_blue)
+
+define cit1 = Character(_("Покупатель"), who_color=c_blue)
+define cit2 = Character(_("Покупатель"), who_color=c_blue)
+define cit3 = Character(_("Покупатель"), who_color=c_blue)
+define cit4 = Character(_("Покупательница"), who_color=c_pink)
+define cit5 = Character(_("Покупательница"), who_color=c_pink)
+define cit6 = Character(_("Покупательница"), who_color=c_pink)
+define cit7 = Character(_("Покупательница"), who_color=c_pink)
+define cit8 = Character(_("Покупательница"), who_color=c_pink)
+define cit9 = Character(_("Покупательница"), who_color=c_pink)
+define cit10 = Character(_("Покупательница"), who_color=c_pink)
+
+
+
+
+
+#
