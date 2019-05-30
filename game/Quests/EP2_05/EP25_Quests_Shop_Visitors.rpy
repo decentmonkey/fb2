@@ -32,10 +32,11 @@ label ep25_quests_shop_visitors1:
         call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
         return False
 
-    if shopVisitorStage1 == 2: #?????
+    if shopVisitorStage1 == 2:
         $ store_music()
         call cit1_dialog_2()
-        $ shopVisitorStage1 = 3
+        if _return != False:
+            $ shopVisitorStage1 = 3
         $ restore_music()
         $ set_active("Shop_Visitor1", False)
         $ autorun_to_object("ep25_dialogues1_shop23", scene="cloth_shop_view1")
@@ -296,7 +297,41 @@ label ep25_quests_shop_visitors8:
         call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
         return False
 
+    if shopVisitorStage8 == 3:
+        $ store_music()
+        call cit8_dialog_3()
+        if _return != False:
+            $ move_object("Shop_Visitor8", "cloth_shop_dressing_room2")
+            $ add_hook("Shop_Visitor8", "ep25_quests_shop_visitors8a", scene="cloth_shop_dressing_room2")
+            call change_scene("cloth_shop_dressing_room", "Fade_long")
+#        $ autorun_to_object("ep25_dialogues1_shop24d", scene="cloth_shop_view2")
+        else:
+            $ set_active("Shop_Visitor8", False)
+            $ autorun_to_object("ep25_dialogues1_shop24d", scene="cloth_shop_view2")
+            call refresh_scene_fade()
+
+        $ restore_music()
+#        $ set_active("Shop_Visitor8", False)
+#        $ autorun_to_object("ep25_dialogues1_shop24d", scene="cloth_shop_view2")
+        call refresh_scene_fade()
+#        call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
+        return False
+
     return
+label ep25_quests_shop_visitors8a:
+    # Примерочная
+    $ store_music()
+    call cit8_dialog_3a()
+    if _return != False:
+        $ shopVisitorsList.remove("Shop_Visitor8")
+        $ autorun_to_object("ep25_dialogues1_shop15", scene="cloth_shop_dressing_room2")
+    else:
+        $ autorun_to_object("ep25_dialogues1_shop24d", scene="cloth_shop_dressing_room2")
+    $ set_active("Shop_Visitor8", False)
+    $ restore_music()
+    call refresh_scene_fade_long()
+    return
+
 label ep25_quests_shop_visitors9:
     if act=="l":
         return
@@ -336,14 +371,33 @@ label ep25_quests_shop_visitors9:
         call cit9_dialog_3()
         $ restore_music()
         if _return != False:
-            $ shopVisitorsList.remove("Shop_Visitor9")
-        $ set_active("Shop_Visitor9", False)
-        $ autorun_to_object("ep25_dialogues1_shop24d", scene="cloth_shop_view2")
-        call refresh_scene_fade()
-        call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
+#        $ set_active("Shop_Visitor9", False)
+            $ move_object("Shop_Visitor9", "cloth_shop_dressing_room2")
+            $ add_hook("Shop_Visitor9", "ep25_quests_shop_visitors9a", scene="cloth_shop_dressing_room2")
+            call change_scene("cloth_shop_dressing_room", "Fade_long")
+#        $ autorun_to_object("ep25_dialogues1_shop24d", scene="cloth_shop_view2")
+        else:
+            $ set_active("Shop_Visitor9", False)
+            call refresh_scene_fade()
+#        call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
         return False
 
     return
+
+label ep25_quests_shop_visitors9a:
+    # В примерочной
+    $ store_music()
+    call cit9_dialog_3a()
+    if _return != False:
+        $ shopVisitorsList.remove("Shop_Visitor9")
+        $ autorun_to_object("ep25_dialogues1_shop15", scene="cloth_shop_dressing_room2")
+    else:
+        $ autorun_to_object("ep25_dialogues1_shop24d", scene="cloth_shop_dressing_room2")
+    $ set_active("Shop_Visitor9", False)
+    $ restore_music()
+    call refresh_scene_fade_long()
+    return
+
 label ep25_quests_shop_visitors10:
     if act=="l":
         return

@@ -18,6 +18,7 @@ label cit1_dialog_1:
 
 label cit1_dialog_2:
     music Hidden_Agenda
+    sound highheels_short_walk
     img 11104
     with fadelong
     m "Пожалуйста, рассмотрите покупку этого красивого платья..."
@@ -55,6 +56,7 @@ label cit1_dialog_2:
     m "Я... Я работаю здесь манекеном."
     cit1 "Отлично, рассмотрю тебя поближе."
     # подходит к монике сзади, рассматривает зад, она поворачивается
+    music Loved_Up
     img 11110
     with diss
     w
@@ -62,29 +64,44 @@ label cit1_dialog_2:
     with diss
     w
     img 11112
+    with diss
     w
+    music Groove2_85
     img 11113
+    with fade
     cit1 "Эй, похоже ты бракованый манекен! Манекены не двигаются!"
     cit1 "Подними руки!"
     # corruption +1 req 90
+    $ menu_corruption = [90]
     menu:
         "Да, конечно...":
             pass
         "Нет, Мистер!":
+            music Power_Bots_Loop
             img 11139
+            with fade
             m "Нет, Мистер!"
             $ monicaSellingDressRefuseLastDay = day
             return False
+    $ add_corruption(1, "cit1_dialog_2b")
     # моника поднимает руки вверх, клиент ходит вокруг. если платье короткой, возможно будет видно зад
+    music Loved_Up
     img 11114
+    with fade
     cit1 "Какой хороший манекен!"
     img 11115
+    with diss
+    w
     # трогает за руку, ходит вокруг
     img 11116
+    with diss
     w
     img 11117
+    with diss
     w
+    music Groove2_85
     img 11118
+    with fade
     cit1 "Черт, совсем забыл, надо успеть в мой любимый магазин комиксов! Еще увидимся, манекен!"
     mt "Да как ты смеешь такое говорить? Что за гик..."
     return True

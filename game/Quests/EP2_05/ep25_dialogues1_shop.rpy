@@ -826,6 +826,15 @@ label ep25_dialogues1_shop10a:
             return False
     return
 
+label ep25_dialogues1_shop10b:
+    $ store_music()
+    music Groove2_85
+    img 10739
+    with fade
+    cashier "У тебя покупатель в примерочной! Иди и обслуживай его!"
+    $ restore_music()
+    return
+
 label ep25_dialogues1_shop11:
     # Моника пытается зайти в магазин после получения платья, отработав его
     mt "Мне нечего там делать."

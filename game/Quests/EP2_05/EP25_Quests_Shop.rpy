@@ -267,14 +267,18 @@ label ep25_quests_shop9:
 label ep25_quests_shop10:
     # Блокировка выхода из магазина пока продается платье
     if cloth == "Nude":
-        call ep25_dialogues1_shop20()
-    else:
         call ep25_dialogues1_shop20a()
+    else:
+        call ep25_dialogues1_shop20()
     return False
 
 label ep25_quests_shop11:
     if act=="l":
         return
+    if get_active_objects(scene="cloth_shop_dressing_room2", group="cloth_shop_visitors") != False:
+        call ep25_dialogues1_shop10b()
+        return False
+
     call ep25_dialogues1_shop10a()
     if _return == False:
         call change_scene("cloth_shop_view1", "Fade_long")
