@@ -128,7 +128,7 @@ label cit9_dialog_3:
             m "Я не собираюсь Вам ничего доказывать."
             $ monicaSellingDressRefuseLastDay = day
             return False
-    $ add_corruption(2, "cit9_dialog_3b")
+    $ add_corruption(1, "cit9_dialog_3b")
     img 11013
     with fade
     m "Мэм, я знаю, что я права."
@@ -157,6 +157,7 @@ label cit9_dialog_3a:
     img 11019
     with fadelong
     cit9 "Разденься и повесь платье на вешалку."
+    $ menu_corruption = [100]
     menu:
         "Раздеться и повесить платье на вешалку.":
             pass
@@ -206,4 +207,5 @@ label cit9_dialog_3a:
     img 11027
     with fade
     mt "Стерва!"
+    $ add_corruption(3, "cit9_dialog_3a1")
     return True

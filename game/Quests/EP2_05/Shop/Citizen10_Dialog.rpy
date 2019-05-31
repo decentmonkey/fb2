@@ -117,12 +117,14 @@ label cit10_dialog_3a:
     img 11049
     with fadelong
     cit10 "Ну?"
+    $ menu_corruption = [90]
     menu:
         "Раздеться и отдать платье.":
             pass
         "Уйти.":
             $ monicaSellingDressRefuseLastDay = day
             return False
+    $ add_corruption(1, "cit10_dialog_3a1")
     #Моника раздевается, покупатель одевает платье
 #    cit10 "А туфли?"
 #    m "Мэм, туфли продаются отдельно."
@@ -164,7 +166,7 @@ label cit10_dialog_3a:
         "Уйти.":
             $ monicaSellingDressRefuseLastDay = day
             return False
-    $ add_corruption(2, "cit10_dialog_3a")
+    $ add_corruption(1, "cit10_dialog_3a2")
     # Моника одевает туфли
     music Groove2_85
     img 11057

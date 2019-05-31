@@ -29,7 +29,7 @@ label cit2_dialog_1:
             $ restore_music()
             return False
 
-    $ add_corruption(1, "cit3_dialog_1")
+    $ add_corruption(1, "cit2_dialog_1")
     img 11071
     with fade
     m "Я... Я работаю здесь манекеном."

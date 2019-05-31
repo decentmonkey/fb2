@@ -40,7 +40,7 @@ label cit4_dialog_2:
         "Уйти.":
             $ monicaSellingDressRefuseLastDay = day
             return False
-    $ add_corruption(1, "cit3_dialog_1")
+    $ add_corruption(1, "cit4_dialog_2")
     img 10777
     with fade
     m "Я... Я работаю здесь манекеном."
@@ -299,10 +299,12 @@ label cit4_dialog_3a:
             cashier "Ну же, девочка... Поспеши..."
             img 10830
             with fade
+            $ add_corruption(3, "cit4_dialog_3a1")
             $ menu_corruption = [120]
             menu:
                 "Пососать сосок...":
                     # лижет второй сосок
+                    $ add_corruption(3, "cit4_dialog_3a2")
                     music Loved_Up
                     music2 audio_LickingNipple
                     img 10831
@@ -504,7 +506,7 @@ label cit4_dialog_3g:
     with fade
     m "!!!"
     cashier "Ну же?"
-
+    $ menu_corruption = [120]
     menu:
         "Убрать руки и встать прямо.":
             # моника встает прямо
@@ -572,6 +574,7 @@ label cit4_dialog_3g:
 #    mt "Да где ее носит?"
 #    mt "Черт, а если она ушла? Что же мне делать?"
     # Душевные терзания моники , возможно кто нибудь ее сфоткает...
+    $ add_corruption(5, "cit4_dialog_3g1")
     return True
 
 label cit4_dialog_3h:
