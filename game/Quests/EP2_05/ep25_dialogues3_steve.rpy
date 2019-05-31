@@ -1,8 +1,15 @@
+default ep25_dialogues3_steve2Flag1 = False
+
 # Любой другой день (регулярное посещение)
-label ep25_dialogues3_steve1:
+label ep25_dialogues3_steve1(steve_status):
     img 11488
+    with fade
+#    img 11490
     jane "Миссис Бакфетт?"
+
+    music Pyro_Flow
     img 11489
+    with diss
     m "Джейн! Мелкая подлиза!"
     m "Встать, когда с тобой говорит Босс!"
     # Джейн встает
@@ -10,13 +17,41 @@ label ep25_dialogues3_steve1:
     with fade
     w
     img 11491
+    with diss
     m "Стив у себя?!"
     img 11492
-    jane "Да, Миссис Бакфетт. Мистер Стив у себя в кабинете."
-    jane "Нет, Миссис Бакфетт, Мистер Стив будет только завтра."
-    jane "Нет, Миссис Бакфетт, Мистер Стив будет только на следующей неделе."
+    with fade
+    if monicaEarnedWeeklyMoney == True:
+        $ notif(_("Моника уже заработала деньги для Виктории."))
+    if steve_status == 2:
+        jane "Нет, Миссис Бакфетт, Мистер Стив будет только на следующей неделе."
+    if steve_status == 1:
+        jane "Нет, Миссис Бакфетт, Мистер Стив будет только завтра."
+    if steve_status == 0:
+        jane "Да, Миссис Бакфетт. Мистер Стив у себя в кабинете."
+    return True
 
+label ep25_dialogues3_steve1aa:
+    # Моника все-равно заходит к Стиву
+    menu:
+        "Зайти в кабинет.":
+            pass
+        "Уйти.":
+            return False
+    img 11373
+    with diss
+    m "Мне не важно! Я Босс и захожу когда захочу."
+    return True
+
+label ep25_dialogues3_steve1a:
+    # Регулярный разговор со Стивом
     # заходит
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 2.0
+    music Groove2_85
     img 11493
     with fadelong
     steve "Моника, привет!"
@@ -29,21 +64,28 @@ label ep25_dialogues3_steve1:
 # Контракт с Джейн
 # Контракт с Тиффани
     img 11494
+    with diss
     menu:
-        "Закрыть сделку со Стивом.":
+        "Закрыть сделку со Стивом." if monicaSteveCumDealActive == True:
             return 1
-        "Контракт со Стивом.":
+        "Контракт со Стивом." if monicaSteveCumDealActive == False or monicaSteveCumDealRejected == True:
             return 2
-        "Контракт со Стивом. (сначала надо закрыть сделку) (disabled)":
+        "Контракт со Стивом. (сначала надо закрыть сделку) (disabled)" if monicaSteveCumDealActive == True and monicaSteveCumDealRejected == False:
             pass
         "Контракт с Джейн. (в следующем обновлении) (disabled)":
             pass
         "Контракт с Тиффани (в следующем обновлении) (disabled)":
             pass
+        "Уйти.":
+            music Power_Bots_Loop
+            img 11487
+            with fadelong
+            m "Я просто ошиблась дверью, Стив!"
+            return 0
     return
 
 
-label ep25_dialogues3_steve1a:
+label ep25_dialogues3_steve1b:
     # Закрыть сделку со Стивом
 
 # Моника говорит Стиву чтобы встал с ее места и садится туда.
@@ -58,61 +100,96 @@ label ep25_dialogues3_steve1a:
 # Стив отвечает что он не мерзавец, он честный бизнесмен, который заключает хорошие сделки!
 # Моника зло смотрит
 # Стив спрашивает, будет-ли Моника пить таблетку?
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.0
+    music Groove2_85
     img 11495
+    with fadelong
     m "Встань с моего стула, Стив!"
     # Моника садится на стул
     img 11496
+    with fade
     steve "..."
     img 11497
-    m "Я хочу закрыть нашу сделку, Стив!"
-    img 11498
     with diss
+    m "Я хочу закрыть нашу сделку, Стив!"
+    img black_screen
+    with diss
+    pause 1.0
+    img 11498
+    with fadelong
     w
     img 11499
+    with fade
     m "Которую мы заключили у бассейна в моем доме..."
     img 11500
+    with diss
     steve "Моника, это можно сделать прямо сейчас."
     img 11501
+    with fade
     m "Стив, меня беспокоит возможность нежелательной беременности."
     img 11502
+    with diss
     steve "О, Моника! С этим нет проблем!"
     steve "У меня есть специальная таблетка."
     # Стив кладет таблетку
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Groove2_85
     img 11503
     with fadelong
     w
     img 11504
+    with fade
     steve "Я всегда держу ее на всякий случай."
     # Стив улыбается
     img 11505
+    with diss
     steve "..."
     img 11506
     w
     img 11507
+    with diss
     m "!!!"
     img 11508
+    with fade
     steve "..."
+    music Power_Bots_Loop
     img 11509
+    with diss
     m "Я знаю, что ты трахаешь всех налево и направо, Стив!"
     m "Ты мерзавец!"
+    music Groove2_85
     img 11510
+    with fade
     steve "Моника, я не мерзавец. Я честный бизнесмен."
     steve "Который заключает хорошие сделки!"
+    music Power_Bots_Loop
     img 11511
+    with diss
     m "!!!"
     img 11512
+    with fade
     steve "Моника, будешь-ли ты пить таблетку?"
     img 11513
+    with diss
     menu:
         "Я не собираюсь рисковать!":
 # Выбор:
 # Я не собираюсь рисковать!
 # Уходит
             img 11514
+            with fadelong
             m "Я не собираюсь рисковать!"
             steve "Моника, если вдруг ты захочешь заключить еще сделку, то приходи!"
             steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
             m "!!!"
+            $ monicaSteveCumDealRejected = True
             return False
         "Я выпью эту гребаную таблетку...":
             pass
@@ -125,83 +202,137 @@ label ep25_dialogues3_steve1a:
 # Стив просит Джейн принести стакан воды, у Миссис Бакфетт болит голова и ей надо запить таблетку.
 # Джейн приносит воду и ставит на стол перед Моникой. Говорит: пожалуйста, Миссис Бакфетт.
 # Моника зло смотрит на Джейн
+    music Groove2_85
     mt "Не могу поверить что я соглашаюсь на это..."
     img 11515
+    with diss
     m "Я выпью эту гребаную таблетку..."
     img 11516
+    with fade
     steve "Хорошо, Моника."
     steve "Сейчас я попрошу Джейн принести стакан воды."
     steve "Ты ведь будешь запивать таблетку?"
+    music Power_Bots_Loop
     img 11517
+    with diss
     m "!!!"
+    music Groove2_85
     img 11518
+    with fade
     steve "..."
     img 11519
+    with diss
     m "Буду..."
     # Бип телефон
+    music stop
+    img black_screen
+    with diss
+    sound snd_phone_short_beeps
+    img 11519
+    with fade
     steve "Джейн! Зайди, пожалуйста, сюда!"
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 2.0
+    music Groove2_85
     img 11520
+    with fadelong
     jane "..."
     img 11521
+    with diss
     jane "Да, Мистер Стив."
     jane "Что Вам угодно?"
     img 11522
+    with fade
     steve "Джейн, принести, пожалуйста, стакан воды."
     steve "У Миссис Бакфетт болит голова и ей надо запить таблетку."
     img 11523
+    with diss
     jane "Хорошо, Мистер Стив, одну минуту."
+
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(_("Минуту спустя..."))
+    img black_screen
+    with Dissolve(2.0)
+    music Groove2_85
+    sound highheels_short_walk
+    img 11524
+    with fadelong
 
     # уходит, приходит
 # Джейн приносит воду и ставит на стол перед Моникой. Говорит: пожалуйста, Миссис Бакфетт.
 # Моника зло смотрит на Джейн
-    img 11524
-    with fadelong
     w
     img 11525
     with fade
     jane "Вот, пожалуйста, Миссис Бакфетт."
+    music Power_Bots_Loop
     img 11526
+    with diss
     m "!!!"
 # Джейн уходя подходит к Стиву и спрашивает: все хорошо, милый?
 # Стив отвечает что да, малышка, все хорошо.
 # Закрой, пожалуйста, дверь. Нам с Миссис Бакфетт надо закрыть сложный контракт и он бы не хотел чтобы кто-то мешал.
 # Джейн отвечает: Да, Мистер Стив.
+    music Groove2_85
     img 11527
+    with fade
     jane "Все хорошо, Милый?"
     img 11528
+    with diss
     steve "Да, малышка, все хорошо."
     steve "Закрой, пожалуйста, дверь."
     img 11529
+    with diss
     steve "Нам с Миссис Бакфетт надо закрыть сложный контракт."
     steve "И я бы не хотел чтобы кто-то мешал."
     img 11530
+    with fade
     jane "Да, Мистер Стив."
+
 
 # Джейн уходит
 # Моника смотрит на стакан с водой
 # Стив говорит Монике что она может выпить таблетку
 # Выбор:
 # Выпить таблетку или уйти
+    sound highheels_short_walk
     img 11531
     with fade
     w
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 2.0
+    music Groove2_85
     img 11532
+    with fadelong
     m "..."
     steve "..."
     img 11533
+    with diss
     m "..."
     img 11534
+    with fade
     steve "Моника, ты можешь выпить таблетку."
     img 11535
+    with diss
     menu:
         "Выпить таблетку.":
             pass
         "Уйти.":
+            music Power_Bots_Loop
             img 11536
+            with fadelong
             m "Я не собираюсь рисковать!"
             steve "Моника, если вдруг ты захочешь заключить еще сделку, то приходи!"
             steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
             m "!!!"
+            $ monicaSteveCumDealRejected = True
             return False
 
 # Если выпить:
@@ -210,36 +341,47 @@ label ep25_dialogues3_steve1a:
 # объекту аренды в соответствии с контрактом
 # Моника зло смотрит:
 # Уйти или задрать юбку
+    music stop
     img 11537
     with fade
     w
     #глоток
+    sound snd_gulp
     img 11538
     with diss
     w
     img 11539
     with diss
     w
+    sound snd_drinking_water
     img 11540
     with diss
     w
+    sound snd_glass_table
     img 11541
     with diss
     w
+    music Groove2_85
     img 11542
+    with fadelong
     steve "Моника, теперь ты можешь встать и задрать платье."
     img 11543
+    with diss
     steve "Мне требуется доступ к объекту аренды в соответствии с контрактом."
     img 11544
+    with fade
     menu:
         "Поднять платье.":
             pass
         "Уйти.":
+            music Power_Bots_Loop
             img 11536
+            with fadelong
             m "Я не собираюсь этого делать!"
             steve "Моника, если вдруг ты захочешь заключить еще сделку, то приходи!"
             steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
             m "!!!"
+            $ monicaSteveCumDealRejected = True
             return False
 
 # Если задрать юбку:
@@ -256,10 +398,12 @@ label ep25_dialogues3_steve1a:
     with diss
     w
     img 11547
+    with fade
     m "!!!"
     img 11548
     with diss
     w
+    sound snd_fabric1
     img 11549
     with diss
     w
@@ -273,54 +417,76 @@ label ep25_dialogues3_steve1a:
     with diss
     w
     img 11553
+    with fade
     steve "О! Моника!"
     steve "Ты не одеваешь трусики?"
     img 11554
+    with diss
     steve "Это похвально!"
 
 #    steve "Какие интересные у тебя трусики..."
     # если была в них
 #    steve "Не помню, в прошлый раз ты была в них же или была в других..."
-    img 11155
+
+    img 11555
+    with fade
     steve "У тебя нет трусиков под это платье или тебе просто нравится ходить без них?"
+    music Power_Bots_Loop
     img 11556
     with diss
     m "Это не твое дело, Стив!"
     img 11557
     with diss
     m "Быстро закрывай контракт и отсылай деньги!"
+    music Groove2_85
     img 11558
+    with fade
     steve "Моника, у тебя слишком длинные ноги!"
     img 11559
+    with diss
     steve "Можешь, пожалуйста, присесть пониже?"
     steve "Мне нудобно вставать на цыпочки, как в прошлый раз, когда я брал в аренду твою..."
+    music Power_Bots_Loop
     img 11560
     m "Заткнись, Стив!"
     img 11561
     with diss
     m "ТАК?!"
+    music Groove2_85
     img 11562
+    with fade
     steve "Да! Хе-хе!"
 
+    music stop
+    # video sex
     img 11563
+    with diss
     w
     img 11564
+    with diss
     w
     img 11565
+    with diss
     w
     img 11566
+    with diss
     w
     img 11567
+    with diss
     w
     img 11568
+    with diss
     w
     img 11569
+    with diss
     w
 
 
 # Затем кончает.
+    music Loved_Up2
     img 11570
     with fade
+    sound bulk1
     steve "АААААХХХХ!!!"
 # Моника говорит чтобы он скорее высунул его мерзкий отросток из ее тела!
 # Стив говорит погоди, я еще не до конца кончил
@@ -328,18 +494,29 @@ label ep25_dialogues3_steve1a:
 # Моника зло говорит что теперь все?!
 # Стив кончает еще и еще и еще
 # Моника вскакивает и держится за киску, зло ругается на Стива что тот пожалеет о том что сделал!
+
     img 11571
+    with diss
     m "Вытаскивай скорее свой мерзкий отросток из моего тела!"
     img 11572
+    with fade
     steve "Погоди, я еще не до конца кончил."
+    sound bulk1
     steve "АААААХХХХ!!!"
     img 11573
+    with diss
     m "Ну что, теперь все?!"
     img 11574
+    with fade
+    sound bulk1
     steve "АААААХХХХ!!!"
     img 11575
+    with diss
+    sound bulk1
     steve "АААААХХХХ!!!"
     img 11576
+    with diss
+    sound bulk1
     steve "АААААХХХХ!!!"
 
     img 11741
@@ -349,18 +526,23 @@ label ep25_dialogues3_steve1a:
     with diss
     w
 
+    music Power_Bots_Loop
     img 11577
     with fadelong
     m "Мерзавец!"
     m "Ты пожалеешь о том что ты сделал!!!"
     img 11578
+    with diss
     m "Быстро переводи деньги!"
+    music Groove2_85
     img 11579
+    with fade
     steve "Да, Моника, конечно!"
     steve "Наш контракт закрыт!"
 
 # Стив перечисляет деньги
     img 11580
+    with fadelong
     steve "Моника, если вдруг ты захочешь заключить еще сделку, то приходи!"
     steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
     m "!!!"
@@ -379,39 +561,52 @@ label ep25_dialogues3_steve2:
 # Стив отвечает Монике что руководящих должностей свободных нет.
 # Моника спрашивает: хорошо, тогда назначь меня на какую-нибудь обычную должность, но с высокой зарплатой!
 # Стив говорит что обычных должностей тоже свободных нет.
-
     # Моника не выгоняет Стива со стула
     img 11581
+    with fadelong
     m "Стив, мне нужна какая-нибудь работа."
     m "Временно."
-    img 11582
-    m "Назначь меня на какую-нибудь руководящую должность."
-    m "Только не слишком низко, ты ведь знаешь мой уровень!"
-    img 11583
-    steve "Моника, прости, но руководящих должностей свободных нет."
-    m "!!!"
-    img 11584
-    m "Хорошо, тогда назначь меня на какую-нибудь обычную должность, но с высокой зарплатой!"
-    img 11585
-    steve "Моника, прости, но обычных должностей вакантных тоже нет."
+    if ep25_dialogues3_steve2Flag1 == False:
+        $ ep25_dialogues3_steve2Flag1 = True
+        img 11582
+        with diss
+        m "Назначь меня на какую-нибудь руководящую должность."
+        m "Только не слишком низко, ты ведь знаешь мой уровень!"
+        img 11583
+        with fade
+        steve "Моника, прости, но руководящих должностей свободных нет."
+        m "!!!"
+        img 11584
+        with diss
+        m "Хорошо, тогда назначь меня на какую-нибудь обычную должность, но с высокой зарплатой!"
+        img 11585
+        with fade
+        steve "Моника, прости, но обычных должностей вакантных тоже нет."
 
-# Сейчас кризис и он и так собирается сокращать персонал.
-# Моника говорит чтобы он уволил одну из тех дур, которые его окружают.
-# Стив говорит что это невозможно, так как без них он как без рук.
-# Моника злится и говорит Стиву что он пожалеет об этом!
-# Стив говорит что у него есть контракт для Моники.
-# Моника спрашивает какой контракт?
-    steve "Сейчас кризис и я и так собираюсь сокращать персонал."
-    img 11586
-    m "Тогда уволь одну из тех дур, которые тебя окружают."
-    img 11587
-    steve "Моника, это невозможно, я без них как без рук!"
-    img 11588
-    m "Стив! Мерзавец!"
-    m "Ты пожалеешь об этом!"
+    # Сейчас кризис и он и так собирается сокращать персонал.
+    # Моника говорит чтобы он уволил одну из тех дур, которые его окружают.
+    # Стив говорит что это невозможно, так как без них он как без рук.
+    # Моника злится и говорит Стиву что он пожалеет об этом!
+    # Стив говорит что у него есть контракт для Моники.
+    # Моника спрашивает какой контракт?
+        steve "Сейчас кризис и я и так собираюсь сокращать персонал."
+        img 11586
+        with diss
+        m "Тогда уволь одну из тех дур, которые тебя окружают."
+        img 11587
+        with diss
+        steve "Моника, это невозможно, я без них как без рук!"
+        music Power_Bots_Loop
+        img 11588
+        with fade
+        m "Стив! Мерзавец!"
+        m "Ты пожалеешь об этом!"
+    music Groove2_85
     img 11589
+    with fade
     steve "Моника, у меня есть контракт для тебя!"
     img 11590
+    with diss
     m "Какой еще контракт?"
 # Стив говорит что сегодня был сложный рабочий день и что заплатит ей $5000 если она расслабит его и сделает ему массаж.
 # Моника спрашивает что этот извращенец имеет ввиду под расслабить и какого рода массаж ему нужен?
@@ -419,19 +614,30 @@ label ep25_dialogues3_steve2:
 # Его член целый день провел в неподвижности и очень затек. Ему требуется массаж.
 # Моника зло смотрит на Стива.
     img 11591
+    with fade
     steve "Моника, сегодня был сложный рабочий день."
     steve "Я заплачу тебе $ 5000, если ты расслабишь меня и сделаешь мне массаж."
     img 11592
+    with diss
     m "Стив, извращенец, что ты имеешь ввиду под расслабить тебя?"
     m "И какого рода массаж тебе нужен?"
+    music stop
+    img black_screen
+    with diss
     #zip sound
+    sound snd_zip
+    pause 1.0
+    music Loved_Up
     img 11593
     with fadelong
     steve "Моника, ты можешь забраться под стол и сделать массаж моему члену."
     img 11594
+    with diss
     steve "Мой член целый день провел в неподвижности и очень затек."
     steve "Ему требуется массаж."
+    music Power_Bots_Loop
     img 11595
+    with fade
     m "!!!"
 # Я тебе что, дешевая проститутка, чтобы ты предлагал мне сосать твой член у тебя под столом?!
 # А что будет если войдет твоя невеста Джейн, А?!
@@ -442,34 +648,46 @@ label ep25_dialogues3_steve2:
 # А Моника - бизнес-леди и привыкла иметь дело с контрактами.
 # В этом нет ничего особенного. Зато $5000 сразу отправятся на любимый адрес Моники.
     img 11596
+    with diss
     m "Я ТЕБЕ ЧТО, ДЕШЕВАЯ ПРОСТИТУТКА?!"
     m "ЧТОБЫ ТЫ ПРЕДЛАГАЛ МНЕ СОСАТЬ ТВОЙ ЧЛЕН У ТЕБЯ ПОД СТОЛОМ?!"
     img 11597
+    with diss
     m "А что будет, если войдет твоя невеста Джейн, А?!"
+    music Groove2_85
     img 11598
+    with fade
     steve "Моника, по условиям контракта ты будешь делать это инкогнито и не привлекать внимание."
     steve "Не волнуйся, Моника. Никто про это не узнает."
     steve "У меня нет цели портить твою деловую репутацию."
     img 11599
+    with diss
     steve "Это никак не связано с сексом за деньги."
     steve "Это просто контракт."
     img 11600
+    with fade
     steve "Да, в нем фигурирует мой член и твой ротик."
     steve "Но, если абстрагироваться от всего, то это просто бизнес."
     img 11601
+    with diss
     steve "А ты, Моника, бизнес-леди и привыкла иметь дело с контрактами."
     steve "В этом нет ничего особенного."
     steve "Зато $ 5000 сразу отправятся на твой любимый адрес!"
 # Так что, Моника?
     img 11602
+    with fade
     m "!!!"
     img 11603
+    with diss
     steve "Так что, Моника?"
     img 11604
+    with diss
     menu:
         "Уйти.":
 # Уйти
+            music Power_Bots_Loop
             img 11606
+            with fadelong
             m "Я не собираюсь делать этого!"
             steve "Моника, если вдруг ты захочешь заключить еще сделку, то приходи!"
             steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
@@ -483,54 +701,75 @@ label ep25_dialogues3_steve2:
 # Моника, это невозможно! Даже $5000 для меня слишком большие деньги!
 # Могу предложить тебе 5010$!
     img 11607
+    with fade
     mt "До сих пор не могу поверить в то что происходит..."
     mt "Но, по крайней мере, про это никто не узнает."
     mt "В отличии от фотосессий у Бифа, где на меня смотрит весь мир..."
     img 11608
+    with diss
     m "Мне надо больше денег, Стив!"
     m "Хотя бы $ 5500!"
     img 11609
+    with fade
     steve "Моника, это невозможно!"
     steve "Даже $ 5000 для меня слишком большие деньги!"
     img 11610
+    with diss
     steve "Могу предложить тебе $ 5050!"
     img 11611
+    with diss
     m "!!!"
+    $ chooseVar = 0
     menu:
         "Согласиться на $ 5050":
 # Согласиться на 5050
 # Хорошо, Стив! 10$ Ты мне дашь наличными, понял?!
 # Конечно, Моника, можешь приступать
             img 11612
+            with fade
             m "Хорошо, Стив!"
             m "$ 50 ты мне дашь наличными, понял?!"
             img 11613
+            with diss
             steve "Конечно, Моника. Можешь приступать."
+            $ chooseVar = 1
         "Согласиться на $ 5000":
 
 # Согласиться на 5000
 # Мне не нужны твои жалкие подачки, Стив! Пусть будет $5000
 # Конечно, Моника, можешь приступать
             img 11614
+            with fade
             m "Мне не нужны твои жалкие подачки, Стив!"
             m "Пусть будет $ 5000."
             img 11613
+            with diss
             steve "Конечно, Моника. Можешь приступать."
+            $ chooseVar = 2
 
 # Моника залезает под стол.
-    img 11615
+    music stop
+    img black_screen
     with diss
+    pause 2.0
+    music Loved_Up
+    img 11615
+    with fadelong
     w
     img 11616
     with diss
     w
     img 11617
+    with diss
     w
     img 11618
+    with diss
     w
     img 11619
+    with diss
     w
     #blowjob
+    music audio_Monica_Steve_Blowjob_IMG_1
     img 11620
     with diss
     w
@@ -547,7 +786,7 @@ label ep25_dialogues3_steve2:
     with diss
     w
 
-    return True
+    return chooseVar
 # Затем срабатывает одна из сцен:
 
 
@@ -557,45 +796,69 @@ label ep25_dialogues3_steve3a:
 # Джейн входит и говорит Стиву что ему пришел факс.
 # Стив отвечает что положи, пожалуйста, его на стол.
 # Джейн спрашивает все-ли хорошо? Миссис Бакфетт уже ушла?
+    img black_screen
+    with diss
+    sound snd_door_open1
+    pause 2.0
+    music Groove2_85
     img 11625
     with fadelong
     jane "Стив, тебе пришел факс."
     img 11626
+    with diss
     steve "Хорошо, Джейн."
     steve "Положи, пожалуйста, его на полку."
     #blowjob
+    music audio_Monica_Steve_Blowjob_IMG_1
     img 11627
     with diss
     w
     #
+    music Groove2_85
     img 11628
     with fade
     w
     img 11629
+    with diss
     w
     jane "Все-ли хорошо, Милый?"
+    music audio_Monica_Steve_Blowjob_IMG_1
     img 11630
+    with diss
     jane "Миссис Бакфетт уже ушла?"
 # Стив отвечает что она ушла Джейн просто не заметила ее.
 # Стив знает что Джейн все время отлучается от рабочего места.
 # И, если бы не ее хорошая попка, то он бы давно уволил ее за это.
 # Джейн отвечает, что дело не только в этом и чтобы Стив не забывал.
 # Джейн уходит
+    music Groove2_85
     img 11631
+    with fade
     steve "Да, Джейн."
     steve "Она уже ушла. Просто ты не заметила этого."
 
+    music audio_Monica_Steve_Blowjob_IMG_1
     #blowjob
     img 11632
     with fade
     w
     #
+    music Groove2_85
     img 11633
+    with diss
     steve "Я знаю, что ты все время отлучаешься от рабочего места."
     steve "И, если бы не твоя хорошая попка, то я давно бы уволил тебя за это."
     img 11634
+    with diss
     jane "Дело не только в моей попке, Стив."
     jane "Не забывай этого!"
+    music stop
+    img black_screen
+    with diss
+    sound snd_door_close1
+    pause 2.0
+    call ep25_dialogues3_steve5a() # Стив кончает
+    call ep25_dialogues3_steve5() # Моника уходит
     return
 
 label ep25_dialogues3_steve3b:
@@ -909,41 +1172,64 @@ label ep25_dialogues3_steve4c:
 
 label ep25_dialogues3_steve5a:
     # Стив кончает
+    music Loved_Up2
     img 11712
+    with fadelong
+    sound bulk1
     steve "АААААААААААРГХХХХХ!!!"
     img 11713
+    with diss
     w
     img 11714
+    sound bulk1
+    with diss
     w
     return
 
 
 label ep25_dialogues3_steve5:
     # Моника стоит перед Стивом после сцены blowjob
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    music Groove2_85
     img 11715
+    with fadelong
     m "Тьфу!"
     mt "Мерзость!"
 
+    music Power_Bots_Loop
     img 11716
+    with fadelong
     m "Доволен, Стив?!"
     img 11717
+    with diss
     m "Мы закрыли контракт!"
     img 11718
+    with diss
     steve "Да, Моника, деньги ушли."
 
     img 11719
+    with fade
     m "Стив, ты мерзавец и изменник!"
+    music Groove2_85
     img 11720
+    with diss
     steve "Моника, не будь так категорична!"
     steve "Давай это будет нашим маленьким секретом!"
     img 11721
+    with diss
     steve "Ты сохранишь его со своей стороны."
     steve "А я со своей..."
+    music Power_Bots_Loop
     img 11722
+    with fade
     m "!!!"
     m "Подонок! Только попробуй кому-нибудь рассказать про это!"
 
     img 11723
+    with diss
     steve "Моника, если вдруг ты захочешь заключить еще сделку, то приходи!"
     steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
     m "!!!"

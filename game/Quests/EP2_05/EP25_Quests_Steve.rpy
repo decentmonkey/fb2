@@ -1,6 +1,9 @@
 default monicaMadeBlowjobForSteveChair = False
 default monicaSteveCumDealActive = False
-default monicaSteveCumDealCompleted = False
+default monicaSteveCumDealRejected = False # Моника решила осуществить сделку, но позже отказалась от нее
+default monicaSteveCumDealCompleted = False # Моника закрыла сделку
+
+default monicaSteveBlowjobDealCount = 0 # Кол-во сделок со Стивом blowjob
 
 label ep25_quests_steve1:
     # инициализация сцен и входа
@@ -24,6 +27,9 @@ label ep25_quests_steve2:
     # Вход в здание Стива, проверка на вечер
     if act == "l":
         return
+    if week_day == 7:
+        mt "Сегодня выходной. Офис Стива закрыт."
+        return False
     if day_time == "evening":
         mt "Уже вечер. Офис Стива закрыт."
         return False
@@ -209,7 +215,125 @@ label ep25_quests_steve15:
 label ep25_quests_steve16:
     $ remove_hook()
     $ remove_hook(label="steve_office_blocked_today") # Убираем блок с офиса Стива
+    $ steve_office_secretary_suffix = 1 # Джейн сидит
+    $ remove_hook(label="jane_dialogue_regular1")
+    $ add_hook("Jane", "ep25_quests_steve17", scene="steve_office_secretary", label="jane_dialogue_regular2") # Регулярный диалог с Джейн
+    $ add_hook("Teleport_Steve_Office_Office", "ep25_quests_steve18", scene="steve_office_secretary", label="jane_dialogue_regular2") # Регулярный телепорт в офис Стива мимо Джейн
+    call Steve_init() # Инициализируем Стива
+    $ add_hook("steve_office_dialogue", "ep25_quests_steve16a", scene="global", label="steve_first_regular_dialogue_remove_victoria_menu") # При первом регулярном разговоре со Стивом убираем упоминание про деньги у Виктории
     return
+
+label ep25_quests_steve16a:
+    # При первом регулярном разговоре со Стивом убираем упоминание про деньги у Виктории
+    $ remove_hook()
+    $ remove_hook("DickSecretary_Dialogue1_Menu", "ep24_quests_steve28", scene="menu") # Убираем из меню Виктории вопрос про деньги Стива
+    return
+
+label ep25_quests_steve17:
+    # Регулярный диалог с Джейн 2
+    if act == "l" and obj_name == "Jane":
+        return
+    call getSteveStatus()
+    call ep25_dialogues3_steve1(_return)
+    if _return == 0:
+        call change_scene("street_steve_office", "Fade_long", "snd_lift")
+        return False
+    call refresh_scene_fade()
+    return False
+
+label ep25_quests_steve18:
+    # Регулярный вход в офис Стива по телепорту
+    call getSteveStatus()
+    if _return != 0:
+        call ep25_dialogues3_steve1(_return)
+        call ep25_dialogues3_steve1aa()
+        if _return == True:
+            music Groove2_85
+            call change_scene("steve_office_office", "Fade_long")
+        else:
+            call change_scene("street_steve_office", "Fade_long", "snd_lift")
+        return False
+
+    # Регулярный разговор со Стивом
+    call process_hooks("steve_office_dialogue", "global")
+    if _return == False:
+        return False
+    call ep25_dialogues3_steve1a()
+    if _return == 0:
+        call change_scene("street_steve_office", "Fade_long", "snd_lift")
+        return False
+    if _return == 1: # Моника закрывает cum сделку
+        call ep25_dialogues3_steve1b()
+        if _return == False:
+            call ep25_quests_steve19() # Блокируем офис на сегодня (день)
+            call change_scene("street_steve_office", "Fade_long", "snd_lift")
+            return False
+
+        $ monicaSteveCumDealActive = False
+        $ monicaSteveCumDealCompleted = True
+        $ notif("Стив перевел деньги Виктории.")
+        $ monicaEarnedWeeklyMoney = True
+        $ questLog(40, False)
+        $ questLog(41, False)
+        $ questLog(42, True)
+        call ep25_quests_steve19() # Блокируем офис на сегодня (день)
+        call change_scene("street_steve_office", "Fade_long", "snd_lift")
+        return False
+
+    if _return == 2: # Сделка со Стивом (blowjob)
+        call ep25_dialogues3_steve2()
+        if _return == False:
+            call ep25_quests_steve19() # Блокируем офис на сегодня (день)
+            call change_scene("street_steve_office", "Fade_long", "snd_lift")
+            return False
+        $ choosedMoney = _return
+        if monicaSteveBlowjobDealCount == 0:
+            # Первый приход Джейн
+            call ep25_dialogues3_steve3a()
+        if monicaSteveBlowjobDealCount == 1:
+            call ep25_dialogues3_steve4a()
+        if monicaSteveBlowjobDealCount == 2:
+            call ep25_dialogues3_steve3b()
+        if monicaSteveBlowjobDealCount == 3:
+            call ep25_dialogues3_steve4b()
+        if monicaSteveBlowjobDealCount == 4:
+            call ep25_dialogues3_steve3c()
+        if monicaSteveBlowjobDealCount == 5:
+            call ep25_dialogues3_steve4c()
+        if monicaSteveBlowjobDealCount > 5:
+            # random
+            $ rnd1 = rand(1,6)
+            if rnd1 == 1:
+                call ep25_dialogues3_steve3a()
+            if rnd1 == 2:
+                call ep25_dialogues3_steve4a()
+            if rnd1 == 3:
+                call ep25_dialogues3_steve3b()
+            if rnd1 == 4:
+                call ep25_dialogues3_steve4b()
+            if rnd1 == 5:
+                call ep25_dialogues3_steve3c()
+            if rnd1 == 6:
+                call ep25_dialogues3_steve4c()
+
+        $ monicaSteveBlowjobDealCount +=1
+        if choosedMoney == 1:
+            $ add_money(50.0)
+        $ notif("Стив перевел деньги Виктории.")
+        $ monicaEarnedWeeklyMoney = True
+
+        call ep25_quests_steve19() # Блокируем офис на сегодня (день)
+        call change_scene("street_steve_office", "Fade_long", False)
+        return False
+
+
+    return
+
+label ep25_quests_steve19:
+    # Закрываем офис Стива до вечера
+    $ add_hook("Teleport_Building", "ep25_quests_steve15", scene="street_steve_office", label="day_time_temp") # Блокировка офиса до вечера
+    return
+
 
 
 
