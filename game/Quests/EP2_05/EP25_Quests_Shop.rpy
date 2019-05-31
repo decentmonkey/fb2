@@ -6,6 +6,7 @@ default monicaTriedToStealDress = False
 default monicaKickedVivianForDress = False
 default monicaNeedToSellDress = False
 default monicaAgreedToSellDress = False
+default monicaLickedVivianNipple = False
 
 default clothShopUsualDayVisitorsAmount = 4
 default clothShopUsualEveningVisitorsAmount = 0
@@ -65,6 +66,7 @@ label ep25_quests_shop2a:
     if day_time == "evening":
         $ currentVisitorsAmount = clothShopUsualEveningVisitorsAmount
     if clothShopSellingDressVisitorsStage == 0: # Обычное заполнение магазина
+        $ shopVisitorsList = list(set(shopVisitorsList))
         if len(shopVisitorsList) >= currentVisitorsAmount:
             $ activeVisitors = random.sample(set(shopVisitorsList), currentVisitorsAmount)
         else:
@@ -74,7 +76,7 @@ label ep25_quests_shop2a:
                 $ activeVisitors.append("Shop_Visitor3")
                 $ activeVisitors = list(set(activeVisitors)) #unique
             python:
-                while len(shopVisitorsList) < currentVisitorsAmount: # добавляем покупателей до нужного кол-ва
+                while len(activeVisitors) < currentVisitorsAmount: # добавляем покупателей до нужного кол-ва
                     activeVisitors.append(random.choice(shopVisitorsListOriginal))
                     activeVisitors = list(set(activeVisitors))
 
@@ -211,7 +213,7 @@ label ep25_quests_shop7:
     $ add_hook("change_time_day", "ep25_quests_shop9", scene="global", label=["cloth_shop_quests"]) # Обнуление блокировки входа в магазин
 
     $ remove_objective("find_casual_dress")
-    $ add_objective("find_casual_dress", _("Продать платье в магазине одежды"), c_pink, 15)
+    $ add_objective("find_casual_dress", _("Продать платье в магазине одежды"), c_blue, 15)
 
     call change_scene("street_cloth_shop", "Fade_long", False)
     $ char_info["Cashier"]["enabled"] = True
@@ -322,6 +324,28 @@ label ep25_quests_shop13:
 label ep25_quests_shop14: # пустое лейбл для очистки autorun
     return
 
+
+label ep25_quests_shop15:
+    # Моника продала платье, требует награду
+    $ remove_hook(label="cloth_shop_quests")
+    call ep25_dialogues1_shop12()
+    $ autorun_to_object("ep25_dialogues1_shop12a", scene="street_cloth_shop")
+
+    $ monicaHasCasualDress1 = True
+    $ remove_objective("find_casual_dress")
+    call ep25_quests2()
+    $ cloth = "CasualDress1"
+    $ cloth_type = "CasualDress"
+    $ add_hook("Teleport_Cloth_Shop_Entrance", "ep25_quests_shop16", scene="street_cloth_shop", label=["cloth_shop_enter3"])
+    $ add_char_progress("Cashier", 100, "cloth_shop_cashier_dress_sell", duplicate=True)
+
+    call change_scene("street_cloth_shop", "Fade_long")
+    return False
+
+label ep25_quests_shop16:
+    # Моника пытается зайти в магазин после того как отработала платье
+    call ep25_dialogues1_shop11()
+    return False
 
 
 

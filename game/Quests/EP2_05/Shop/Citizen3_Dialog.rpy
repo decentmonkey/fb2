@@ -243,91 +243,143 @@ label cit3_dialog_2:
 
 
 label cit3_dialog_3:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 11193
+    with fadelong
     m "Добрый день, Мистер."
     m "Можно к Вам обратиться?"
     img 11194
+    with diss
     cit3 "Да?"
     m "Я по поводу покупки платья..."
+    music Loved_Up
     img 11195
+    with fade
     cit3 "Да, я помню!"
     cit3 "Я нашел детку, которая подходит под это платье!"
     img 11196
+    with diss
     mt "Ну наконец-то!"
     img 11197
+    with fade
     cit3 "И у меня свидание с ней через пару часов."
     img 11198
+    with fade
     m "Мистер, это прекрасный шанс порадовать ее новым платьем..."
     m "Вы можете доставить это платье ей и она будет на свидании в нем..."
+    music Groove2_85
     img 11199
+    with diss
     cit3 "Хм... Дело в том, что я собираюсь отменить это свидание..."
     img 11200
     m "Но почему?"
     img 11201
+    with fade
     cit3 "На свидание нельзя ходить заряженным, потому что в голове вертится только одно."
     cit3 "Я начинаю говорить глупости и в итоге никакого секса."
     img 11202
+    with diss
     cit3 "Предыдущую детку я бросил пару часов назад, потому мне негде разрядиться."
+    sound Jump1
     img 11203
+    with diss
     w
     img 11204
+    with fade
     m "И что, отмена свидания как-то поможет в этом?"
     cit3 "Да, вместо свидания я просто подрочу дома!"
     img 11205
+    with diss
     cit3 "Но тогда я не куплю платье!"
     img 11206
+    with fade
     m "И что, есть какие-то предложения ко мне?"
     img 11207
+    with diss
     cit3 "Да, сделай мне минет в примерочной и я куплю это платье!"
+    music Power_Bots_Loop
     img 11208
+    with fade
     m "ЧТО??!?!"
     m "Да как Вы смеете!!!"
+    music Loved_Up
     img 11209
+    with fade
     cit3 "Про это никто не узнает!"
     img 11210
+    with diss
     cit3 "Твоя цель - продать платье и Ты сделаешь это!"
+    music Groove2_85
     img 11211
+    with fade
     m "Может быть Вы просто купите его?"
     cit3 "Исключено! Условие я озвучил!"
 
     # corruption +15 req 140
 
+    $ menu_corruption = [140]
     menu:
         "Сделать Покупателю минет за покупку...":
             pass
         "Отказаться.":
+            music Power_Bots_Loop
             img 11214
+            with fade
             m "Нет, знаете, я на такое не способна!"
             cit3 "Хорошо, я приду, когда найду другую детку, которая подходит под это платье!"
             $ monicaSellingDressRefuseLastDay = day
             return False
+    $ add_corruption(15, "cit3_dialog_3")
 
     img 11212
+    with fade
     mt "Черт! Что же мне делать?"
     mt "Я никогда не продам это гребаное платье!"
     mt "Не сменю ту дурацкую одежду и не выберусь из этого кошмара!"
     img 11213
+    with diss
     mt "Может стоит сделать то что просит этот негодяй?"
     mt "Тем более этот мерзавец уже побывал у меня в таких местах, что..."
     mt "Это примерочная."
     mt "Для сотрудника магазина естественно находиться в примерочной вместе с клиентом..."
     mt "Никто ничего никогда не узнает..."
 
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Groove2_85
     img 11215
+    with fadelong
     m "Хорошо, я сделаю это."
     m "Мне надо продать это платье!"
 
     # идут
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 2.0
+    music Groove2_85
     img 11216
-    with fade
+    with fadelong
     w
     # примерочная
+
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 2.0
+    music Loved_Up
     img 11217
+    with fadelong
     cit3 "Заходи, не стесняйся!"
     cit3 "Это ведь твое рабочее место!"
     m "А ты точно купишь платье?"
 
     img 11218
+    with fade
     cit3 "Конечно!"
     cit3 "Я же не оставлю свою детку без подарка!"
     cit3 "Давай! Сделай так, чтобы это свидание состоялось!"
@@ -337,15 +389,24 @@ label cit3_dialog_3:
     cit3 "Ха-ха!"
 
     #zip sound
+    music stop
+    img black_screen
+    with diss
+    sound snd_zip
+    pause 2.0
+    music Loved_Up
     img 11220
     with fadelong
     cit3 "Отлично!"
     cit3 "Я важный клиент этого магазина."
     img 11221
+    with diss
     cit3 "Я требую особого обслуживания..."
     m "Я... Не очень умею это делать..."
 
+    music Groove2_85
     img 11222
+    with diss
     w
     img 11223
     with fade
@@ -356,26 +417,33 @@ label cit3_dialog_3:
     with fade
     m "То я откушу тебе кое-что..."
 
+    music Loved_Up
     img 11225
+    with fade
     cit3 "Я не обману тебя и куплю это платье."
     cit3 "Приступай к обслуживанию..."
 
-
+    # video
     img 11226
     with fade
     w
     img 11227
+    with diss
     cit3 "Это свидание будет волшебным..."
     img 11228
+    with diss
     cit3 "Я буду смотреть на Саманту в этом платье..."
     cit3 "И представлять как ты сосала мне..."
 
     img 11229
+    with diss
     cit3 "Да, вот так..."
     cit3 "Соси..."
     img 11230
+    with diss
     cit3 "Соси..."
     img 11231
+    with diss
     cit3 "Соси..."
     cit3 "Хороший продавец..."
 

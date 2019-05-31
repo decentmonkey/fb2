@@ -19,6 +19,7 @@ label wardrobeBasement:
     menu:
         "Красивое платье." if monicaHasCasualDress1 == True:
             call wardrobeBasementPutUpCasualDress1()
+            $ autorun_to_object("basement_bedroom1", "ep25_dialogues1_shop1d")
 
         "Одежда шлюхи.":
             if monicaBettyPanties == True:
@@ -243,9 +244,12 @@ label wardrobeBasementPutUpCasualDress1:
     if monicaCasualDressWearFirstTimeWardrobe == True:
         $ monicaCasualDressWearFirstTimeWardrobe = False
         call ep25_dialgues5_basement1()
-        $ cloth = "CasualDress1"
-        $ cloth_type = "CasualDress"
-        call wardrobeBasementCasualDressMiniMap1()
+    $ cloth = "CasualDress1"
+    $ cloth_type = "CasualDress"
+    call wardrobeBasementCasualDressMiniMap1()
+    sound snd_fabric1
+    img black_screen
+    with Dissolve(0.5)
     return
 
 label wardrobeBasementCasualDressMiniMap1:

@@ -129,12 +129,14 @@ label cit1_dialog_3:
     cit1 "А что, не понятно? Оцениваю товар."
     cit1 "Ты же хочешь, чтобы я купил платье?"
     # corruption +2 req 90
-    $ menu_corruption = [90]
+    $ menu_corruption = [100]
     menu:
         "Да, конечно...":
             pass
         "Нет, это уже слишком...":
+            music Power_Bots_Loop
             img 11139
+            with fade
             m "Нет, это уже слишком...Хватит с меня!"
             m "А ну вали отсюда!!!"
             #злая моника
@@ -143,57 +145,84 @@ label cit1_dialog_3:
             return False
     $ add_corruption(2, "cit1_dialog_3")
 
+    music Loved_Up
     m "Ну...да..."
     cit1 "Прекрасно, тогда помолчи и не шевелись."
     img 11124
+    with diss
     #еще несколько экшенов
     w
     img 11125
+    with diss
     w
     img 11126
+    with diss
     w
     img 11127
+    with diss
     w
 
     # кастомер поднимает руку моники и нюхает подмышку. Не уверен насчет этого, но монгим такое нравится
+    sound Jump1
     img 11128
+    with fade
     cit1 "Оу... Какой приятный запах! Странно, откуда он у манекена..."
 
+    music Power_Bots_Loop
     img 11129
+    with diss
 
     # corruption +3 req 100
 
+    $ menu_corruption = [110]
     menu:
         "Позволить клиенту продолжить.":
             pass
         "Это уже слишком!":
             img 11139
+            with fade
             m "Это уже слишком! Что ты себе позволяешь?"
             #злая моника
             cit1 "Ааа!!! Бракованный манекен!!!"
             $ monicaSellingDressRefuseLastDay = day
             return False
+    $ add_corruption(3, "cit1_dialog_3b")
+    music Loved_Up
     # еще пара картинок
     img 11130
+    with fadelong
     w
     img 11131
+    with diss
     w
     img 11132
+    with fade
     w
     img 11133
+    with diss
     cit1 "Очень хорошо, хотел бы я такого манекена себе домой!"
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Groove2_85
     img 11134
     with fade
     m "Вам все понравилось? Вы готовы купить это замечательное платье?"
     cit1 "Да, мне все понравилось!"
     img 11135
+    with diss
     m "Пройдем на кассу?"
     img 11136
+    with fade
     cit1 "Зачем? У меня все равно нет денег, а ты отличный манекен!"
+    music Power_Bots_Loop
     img 11137
+    with diss
     m "Ах ты... Да ты меня всю облапал!"
     cit1 "Ну вообще то, ты сама предложила рассмотреть товар, вот я и рассмотрел. Платье к слову так себе..."
     img 11138
+    with fadelong
     m "Урод!"
 #    cit1 "Ладно, не злись, еще увидимся!"
     return True

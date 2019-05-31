@@ -31,6 +31,11 @@ label ep25_dialogues1_shop1c:
     mt "Дьявол..."
     return
 
+label ep25_dialogues1_shop1d:
+    # Моника одевает платье в подвале
+    mt "Наконец-то у меня есть приличная одежда. Мне не стоит привыкать к плохому. Я - Леди!"
+    return
+
 label ep25_dialogues1_shop2:
     # Если не whore outfit, то магазин закрыт!
 
@@ -844,45 +849,81 @@ label ep25_dialogues1_shop11:
 
 label ep25_dialogues1_shop12:
     # Моника продала платье
+    img black_screen
+    with diss
+    pause 3.0
+    music Groove2_85
     img 10757
+    with fadelong
     m "Я продала платье!"
     m "Теперь выполняй свою часть сделки!"
     img 10758
+    with diss
     cashier "Да, я помню. Ты продашь дорогое платье, полижешь мне киску и я подарю тебе то платье за $ 500."
+    music Power_Bots_Loop
     img 10759
+    with fade
     m "Я продам дорогое платье и ты подаришь мне платье за $ 500."
     m "Я ничего не собираюсь лизать тебе, извращенка!"
 
+    music Loved_Up
     img 10760
+    with fade
     cashier "Жаль."
     img 10761
+    with diss
     cashier "Я уже представила твой белоснежный ротик у себя между ног..."
     img 10762
+    with diss
     cashier "Ммммммм..."
 
+    music Power_Bots_Loop
     img 10763
+    with fade
     m "Хватит мечтать! Давай мне платье скорее!"
     cashier "А мне показалось в прошлый раз что тебе понравилось..."
     m "Отдай мое платье, сейчас же!"
+    music Loved_Up
     img 10764
+    with fade
     cashier "Обожаю когда ты ругаешься."
     cashier "Я попрошу тебя ругаться, когда ты будешь лизать мою киску снова..."
+    music Power_Bots_Loop
     img 10765
+    with fade
     m "ПЛАТЬЕ!!!"
     cashier "Хорошо, можешь забирать его..."
 
+    music stop
+    img black_screen
+    with diss
     sound snd_fabric1
+    pause 2.0
+    music Ready_and_Waiting
     img 10766
+    with fadelong
     w
     img 10767
+    with diss
     w
     img 10768
+    with diss
     cashier "Если снова захочешь поработать манекеном, дай мне знать..."
     img 10769
+    with fadelong
     m "НИКОГДА!!!"
-    img 10770
-    cashier "..."
 
+    music stop
+    img black_screen
+    with diss
+    pause 3.0
+    music Loved_Up
+    img 10770
+    with fadelong
+    cashier "..."
+    return
+
+label ep25_dialogues1_shop12a:
     # Моника на улице
     mt "БОЖЕ!"
     mt "Какие унижения мне пришлось пережить, чтобы получить это новое платье!"

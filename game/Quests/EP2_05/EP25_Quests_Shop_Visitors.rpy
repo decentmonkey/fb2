@@ -12,7 +12,11 @@ default shopVisitorStage8 = 1
 default shopVisitorStage9 = 1
 default shopVisitorStage10 = 1
 
+default ep25_quests_shop_visitors4bFlag = False
+
 label ep25_quests_shop_visitors1:
+    if shopVisitorStage1 > 3:
+        return
     if act=="l":
         mt "Какой-то фрик... Может он купит это платье?"
         return False
@@ -49,6 +53,7 @@ label ep25_quests_shop_visitors1:
         call cit1_dialog_3()
         if _return != False:
             $ shopVisitorsList.remove("Shop_Visitor1")
+            $ shopVisitorStage1 = 4
         $ restore_music()
         $ set_active("Shop_Visitor1", False)
         $ autorun_to_object("ep25_dialogues1_shop23", scene="cloth_shop_view1")
@@ -59,6 +64,8 @@ label ep25_quests_shop_visitors1:
     return
 
 label ep25_quests_shop_visitors2:
+    if shopVisitorStage2 > 3:
+        return
     if act=="l":
         return
     if monicaSellingDressInProgress == False:
@@ -97,6 +104,7 @@ label ep25_quests_shop_visitors2:
         call cit2_dialog_3()
         if _return != False:
             $ shopVisitorsList.remove("Shop_Visitor2")
+            $ shopVisitorStage2 = 4
         $ restore_music()
         $ set_active("Shop_Visitor2", False)
         $ autorun_to_object("ep25_dialogues1_shop23", scene="cloth_shop_view1")
@@ -107,6 +115,8 @@ label ep25_quests_shop_visitors2:
 
     return
 label ep25_quests_shop_visitors3:
+    if shopVisitorStage3 > 3:
+        return
     if act=="l":
         mt "Очередной ненормальный..."
         return False
@@ -146,8 +156,27 @@ label ep25_quests_shop_visitors3:
         call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
         return False
 
+    if shopVisitorStage3 == 3:
+        $ store_music()
+        call cit3_dialog_3()
+        $ restore_music()
+        if _return != False:
+            $ shopVisitorStage3 = 4
+#            $ autorun_to_object("ep25_dialogues1_shop15", scene="cloth_shop_view2")
+            $ shopVisitorsList.remove("Shop_Visitor3")
+            call ep25_quests_shop15() # Квест магазина закончен
+            return False
+        else:
+            $ autorun_to_object("ep25_dialogues1_shop23", scene="cloth_shop_view1")
+            $ set_active("Shop_Visitor3", False)
+            sound highheels_short_walk
+            call refresh_scene_fade()
+#        call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
+        return False
     return
 label ep25_quests_shop_visitors4:
+    if shopVisitorStage4 > 3:
+        return
     if act=="l":
         mt "Какая-то рыжеволосая стерва. Отвратительный цвет волос, Фи!"
         return False
@@ -179,9 +208,116 @@ label ep25_quests_shop_visitors4:
         call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
         return False
 
+    if shopVisitorStage4 == 3:
+        $ store_music()
+        call cit4_dialog_3()
+#        if _return != False:
+        $ move_object("Shop_Visitor4", "cloth_shop_dressing_room2")
+        $ add_hook("Shop_Visitor4", "ep25_quests_shop_visitors4a", scene="cloth_shop_dressing_room2")
+        call change_scene("cloth_shop_dressing_room", "Fade_long")
+#        else:
+#            $ set_active("Shop_Visitor4", False)
+#            $ autorun_to_object("ep25_dialogues1_shop24a", scene="cloth_shop_view1")
+#            call refresh_scene_fade()
 
+        $ restore_music()
+#        call refresh_scene_fade()
+        return False
+
+label ep25_quests_shop_visitors4a:
+    # Примерочная
+    $ store_music()
+    call cit4_dialog_3a()
+    $ restore_music()
+    if _return == 0:
+        $ shopVisitorStage4 = 4
+        $ autorun_to_object("ep25_dialogues1_shop24a", scene="cloth_shop_view1")
+        $ set_active("Shop_Visitor4", False)
+        call change_scene("cloth_shop_view1", "Fade_long")
+        return False
+
+    if _return == 1:
+        $ shopVisitorStage4 = 4
+        $ shopVisitorsList.remove("Shop_Visitor4")
+        $ move_object("Shop_Visitor4", "cloth_shop_view1")
+        $ set_active("Shop_Visitor4", False, scene="cloth_shop_view1")
+        $ autorun_to_object("ep25_dialogues1_shop15", scene="cloth_shop_dressing_room2")
+        call refresh_scene_fade_long()
+        return False
+
+    if _return == 2:
+        $ move_object("Shop_Visitor4", "cloth_shop_view1")
+        $ set_var("Shop_Visitor4", base="Cloth_Shop_View1_Visitor4_EveningDress", zorder=11, scene="cloth_shop_view1")
+        $ add_hook_multi("ep25_quests_shop_visitors4c", scene="cloth_shop_view1", label=["cloth_shop_quests", "shop_visitor4"], filter={"group":"cloth_shop_visitors"})
+        $ add_hook_multi("ep25_quests_shop_visitors4c", scene="cloth_shop_view2", label=["cloth_shop_quests", "shop_visitor4"], filter={"group":"cloth_shop_visitors"})
+        $ add_hook("Shop_Visitor4", "ep25_quests_shop_visitors4b", scene="cloth_shop_view1", label=["cloth_shop_quests", "shop_visitor4"])
+        $ add_hook("Monica", "cit4_dialog_3h", scene="cloth_shop_view1", label=["cloth_shop_quests", "shop_visitor4"])
+        $ add_hook("Monica", "cit4_dialog_3h", scene="cloth_shop_view2", label=["cloth_shop_quests", "shop_visitor4"])
+        $ add_hook("Cashier", "ep25_quests_shop_visitors4d", scene="cloth_shop_cashier", label=["cloth_shop_quests", "shop_visitor4"])
+        $ cloth = "Nude"
+        $ cloth_type = "Nude"
+        call change_scene("cloth_shop_dressing_room", "Fade_long")
+        return False
+
+#    if _return != False:
+#        $ shopVisitorStage4 = 4
+#        $ shopVisitorsList.remove("Shop_Visitor4")
+#        $ autorun_to_object("ep25_dialogues1_shop15", scene="cloth_shop_dressing_room2")
+#    else:
+#        $ autorun_to_object("ep25_dialogues1_shop24a", scene="cloth_shop_dressing_room2")
+#    $ set_active("Shop_Visitor4", False)
+#    call refresh_scene_fade_long()
     return
+
+label ep25_quests_shop_visitors4b:
+    # Моника говорит с посетительницей в зале (голая)
+    if act=="l":
+        mt "Эта стерва ходит по залу в моем платье! НЕНАВИЖУ!"
+        return False
+    $ store_music()
+    if ep25_quests_shop_visitors4bFlag == True:
+        call cit4_dialog_3c()
+    if ep25_quests_shop_visitors4bFlag == False:
+        call cit4_dialog_3b()
+        $ ep25_quests_shop_visitors4bFlag = True
+    $ restore_music()
+    call refresh_scene_fade_long()
+    return False
+
+label ep25_quests_shop_visitors4c:
+    # Моника отказывается говорить с другими посетителями голой
+    if act=="l":
+        return
+    call cit4_dialog_3d()
+    return False
+
+label ep25_quests_shop_visitors4d:
+    # Моника голая подходит к продавщице
+    if act=="l":
+        return
+    $ store_music()
+    call cit4_dialog_3g()
+    $ restore_music()
+    if _return == False:
+        call change_scene("cloth_shop_view1", "Fade_long")
+        return False
+
+    # Завершение квеста с shop visitor 4
+    $ cloth = "EveningDress"
+    $ cloth_type = "SellingDress"
+    $ shopVisitorStage3 = 3
+    call change_scene("cloth_shop_view1", "Fade_long")
+    $ autorun_to_object("ep25_dialogues1_shop15", scene="cloth_shop_view1")
+    $ shopVisitorsList.remove("Shop_Visitor4")
+    $ set_active("Shop_Visitor4", False)
+    $ set_var("Shop_Visitor4", base="Cloth_Shop_View1_v4", zorder = 5, scene="cloth_shop_view1")
+    $ remove_hook(label="shop_visitor4")
+    return False
+
+
 label ep25_quests_shop_visitors5:
+    if shopVisitorStage5 > 3:
+        return
     if act=="l":
         mt "Какая-то малявка. Что она делает в магазине? У нее есть вообще деньги?"
         return False
@@ -215,6 +351,7 @@ label ep25_quests_shop_visitors5:
         call cit5_dialog_3()
         if _return != False:
             $ shopVisitorsList.remove("Shop_Visitor5")
+            $ shopVisitorStage5 = 4
         $ restore_music()
         $ set_active("Shop_Visitor5", False)
         $ autorun_to_object("ep25_dialogues1_shop24c", scene="cloth_shop_view1")
@@ -223,6 +360,8 @@ label ep25_quests_shop_visitors5:
         return False
     return
 label ep25_quests_shop_visitors6:
+    if shopVisitorStage6 > 3:
+        return
     if act=="l":
         return
     if monicaSellingDressInProgress == False:
@@ -255,8 +394,23 @@ label ep25_quests_shop_visitors6:
         call refresh_scene_fade()
         call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
         return False
+
+    if shopVisitorStage6 == 3:
+        $ store_music()
+        call cit6_dialog_3()
+        $ restore_music()
+        if _return != False:
+            $ shopVisitorsList.remove("Shop_Visitor6")
+            $ shopVisitorStage6 = 4
+        $ set_active("Shop_Visitor6", False)
+        $ autorun_to_object("ep25_dialogues1_shop24d", scene="cloth_shop_view1")
+        call refresh_scene_fade()
+        call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
+        return False
     return
 label ep25_quests_shop_visitors7:
+    if shopVisitorStage7 > 3:
+        return
     if act=="l":
         return
     if monicaSellingDressInProgress == False:
@@ -278,8 +432,53 @@ label ep25_quests_shop_visitors7:
         call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
         return False
 
-    return
+    if shopVisitorStage7 == 2:
+        $ store_music()
+        call cit7_dialog_2()
+        $ restore_music()
+        if _return != False:
+            $ shopVisitorStage7 = 3
+        $ set_active("Shop_Visitor7", False)
+        $ autorun_to_object("ep25_dialogues1_shop24b", scene="cloth_shop_view2")
+        call refresh_scene_fade()
+        call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
+        return False
+
+    if shopVisitorStage7 == 3:
+        $ store_music()
+        call cit7_dialog_3()
+        $ move_object("Shop_Visitor7", "cloth_shop_dressing_room2")
+        $ add_hook("Shop_Visitor7", "ep25_quests_shop_visitors7a", scene="cloth_shop_dressing_room2")
+        call change_scene("cloth_shop_dressing_room", "Fade_long")
+#        else:
+#            $ set_active("Shop_Visitor4", False)
+#            $ autorun_to_object("ep25_dialogues1_shop24a", scene="cloth_shop_view1")
+#            call refresh_scene_fade()
+
+        $ restore_music()
+
+    return False
+label ep25_quests_shop_visitors7a:
+    # В примерочной
+    $ store_music()
+    call cit7_dialog_3a()
+    $ restore_music()
+    if _return == False:
+        $ autorun_to_object("ep25_dialogues1_shop24b", scene="cloth_shop_view2")
+        $ move_object("Shop_Visitor7", "cloth_shop_view2")
+        $ set_active("Shop_Visitor7", False, scene="cloth_shop_view2")
+        call change_scene("cloth_shop_view2", "Fade_long")
+        return False
+    $ shopVisitorStage7 = 4
+    $ shopVisitorsList.remove("Shop_Visitor7")
+    $ autorun_to_object("ep25_dialogues1_shop24b", scene="cloth_shop_dressing_room2")
+    $ move_object("Shop_Visitor7", "cloth_shop_view2")
+    $ set_active("Shop_Visitor7", False, scene="cloth_shop_view2")
+    call refresh_scene_fade_long()
+    return False
 label ep25_quests_shop_visitors8:
+    if shopVisitorStage8 > 3:
+        return
     if act=="l":
         return
     if monicaSellingDressInProgress == False:
@@ -335,16 +534,20 @@ label ep25_quests_shop_visitors8a:
     $ store_music()
     call cit8_dialog_3a()
     if _return != False:
+        $ shopVisitorStage8 = 4
         $ shopVisitorsList.remove("Shop_Visitor8")
         $ autorun_to_object("ep25_dialogues1_shop15", scene="cloth_shop_dressing_room2")
     else:
         $ autorun_to_object("ep25_dialogues1_shop24d", scene="cloth_shop_dressing_room2")
-    $ set_active("Shop_Visitor8", False)
+    $ move_object("Shop_Visitor8", "cloth_shop_view2")
+    $ set_active("Shop_Visitor8", False, scene="cloth_shop_view2")
     $ restore_music()
     call refresh_scene_fade_long()
     return
 
 label ep25_quests_shop_visitors9:
+    if shopVisitorStage9 > 3:
+        return
     if act=="l":
         return
     if monicaSellingDressInProgress == False:
@@ -400,17 +603,21 @@ label ep25_quests_shop_visitors9a:
     # В примерочной
     $ store_music()
     call cit9_dialog_3a()
+    $ restore_music()
     if _return != False:
+        $ shopVisitorStage9 = 4
         $ shopVisitorsList.remove("Shop_Visitor9")
         $ autorun_to_object("ep25_dialogues1_shop15", scene="cloth_shop_dressing_room2")
     else:
         $ autorun_to_object("ep25_dialogues1_shop24d", scene="cloth_shop_dressing_room2")
-    $ set_active("Shop_Visitor9", False)
-    $ restore_music()
+    $ move_object("Shop_Visitor9", "cloth_shop_view2")
+    $ set_active("Shop_Visitor9", False, scene="cloth_shop_view2")
     call refresh_scene_fade_long()
     return
 
 label ep25_quests_shop_visitors10:
+    if shopVisitorStage10 > 3:
+        return
     if act=="l":
         return
     if monicaSellingDressInProgress == False:
@@ -428,10 +635,50 @@ label ep25_quests_shop_visitors10:
             $ shopVisitorStage10 = 2
         $ set_active("Shop_Visitor10", False)
         $ autorun_to_object("ep25_dialogues1_shop24a", scene="cloth_shop_view2")
-        call refresh_scene_fade()
+        call refresh_scene_fade_long()
         call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
         return False
-    return
+
+    if shopVisitorStage10 == 2:
+        $ store_music()
+        call cit10_dialog_2()
+        $ restore_music()
+        if _return != False:
+            $ shopVisitorStage10 = 3
+        $ set_active("Shop_Visitor10", False)
+        $ autorun_to_object("ep25_dialogues1_shop24a", scene="cloth_shop_view2")
+        call refresh_scene_fade_long()
+        call ep25_quests_shop13() # Проверка на конец работы (нет посетителей)
+        return False
+
+    if shopVisitorStage10 == 3:
+        $ store_music()
+        call cit10_dialog_3()
+        $ restore_music()
+        $ move_object("Shop_Visitor10", "cloth_shop_dressing_room2")
+        $ add_hook("Shop_Visitor10", "ep25_quests_shop_visitors10a", scene="cloth_shop_dressing_room2")
+        call change_scene("cloth_shop_dressing_room", "Fade_long")
+        return False
+    return False
+
+label ep25_quests_shop_visitors10a:
+    # В примерочной
+    $ store_music()
+    call cit10_dialog_3a()
+    $ restore_music()
+    if _return == False:
+        $ autorun_to_object("ep25_dialogues1_shop24a", scene="cloth_shop_view2")
+        $ move_object("Shop_Visitor10", "cloth_shop_view2")
+        $ set_active("Shop_Visitor10", False, scene="cloth_shop_view2")
+        call change_scene("cloth_shop_view2", "Fade_long")
+        return False
+    $ shopVisitorStage10 = 4
+    $ shopVisitorsList.remove("Shop_Visitor10")
+    $ move_object("Shop_Visitor10", "cloth_shop_view2")
+    $ set_active("Shop_Visitor10", False, scene="cloth_shop_view2")
+    $ autorun_to_object("ep25_dialogues1_shop15", scene="cloth_shop_dressing_room2")
+    call refresh_scene_fade_long()
+    return False
 
 label ep25_quests_shop_visitors_not_working:
     call ep25_dialogues1_shop19()

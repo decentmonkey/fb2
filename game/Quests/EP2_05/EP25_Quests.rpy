@@ -20,6 +20,8 @@ label ep25_quests1:
 
 label ep25_quests2:
     # Инициализируем новое платья в окружающем мире
+    $ add_hook("photoshoots_work_available_check", "ep25_quest9", scene="global", label="weekly_money_check")
+
     call ep25_quests_steve1() # Офис Стива
     $ add_hook("Teleport_Inside", "ep25_quests3", scene="street_dick_office", label="dick_office_enter_dress_check", priority = 200) # Вход в офис Дика
     $ add_hook("Teleport_Shawarma", "ep25_quests4", scene="street_cloth_shop", label="casual_dress_slums_forbidden", priority = 900) # Переодевание в трущобах
@@ -104,3 +106,9 @@ label ep25_quests8:
     $ street_house_outside_monica_suffix = 1
     call change_scene("street_house_outside", "Fade_long")
     return False
+
+label ep25_quest9:
+    # фотосессию у Бифе нельзя сделать, если уже заработаны деньги для Виктории
+    if monicaEarnedWeeklyMoney == True: # если уже заработаны деньги
+        return False # то фотосессия заблокирована
+    return

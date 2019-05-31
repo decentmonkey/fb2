@@ -71,7 +71,7 @@ label cit6_dialog_2:
     with diss
     cit6 "Вот и чудно. А теперь, манекен, раздвинь ноги."
     # corruption +1 req 90
-    $ menu_corruption = [90]
+    $ menu_corruption = [85]
     menu:
         "Хорошо.":
             pass
@@ -109,46 +109,66 @@ label cit6_dialog_2:
     return True
 
 label cit6_dialog_3:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 10921
+    with fadelong
     m "Здравствуйте! К Вам можно обратиться?"
+    music Groove2_85
     img 10922
+    with fade
     cit6 "Ну попробуйте, а Вы кто?"
     # corruption +1 req 80
+    $ menu_corruption = [90]
     menu:
         "Я... Я работаю здесь манекеном.":
             pass
         "Уйти.":
+            music Power_Bots_Loop
             img 10913
+            with fade
             m "Прошу прощения, нужно идти к другому покупателю."
             $ monicaSellingDressRefuseLastDay = day
             return False
+    $ add_corruption(1, "cit6_dialog_3")
+
     img 10923
+    with fade
     m "Я... Я работаю здесь манекеном."
     cit6 "Точно! Как я могла забыть?! Манекен, давай продолжим тестировать платье."
     m "Давайте. Что Вас интересует?"
     cit6 "Похоже, не только у меня провалы в памяти. Раздвигай свои красивые ноги!"
     # моника разводит ноги
+    music Loved_Up
     img 10924
+    with fade
     cit6 "Вот! Отлично, так и стой! А теперь положи руки за голову!"
 
     cit6 "Я хочу осмотреть товар."
     # corruption +3 req 100
 
+    $ menu_corruption = [100]
     menu:
         "Хорошо.":
             pass
         "Ну уж нет.":
+            music Power_Bots_Loop
             img 10913
+            with fade
             m "Прошу прощения, нужно идти к другому покупателю."
             $ monicaSellingDressRefuseLastDay = day
             return False
+    $ add_corruption(3, "cit6_dialog_3b")
 
     img 10925
+    with diss
     m "Так?"
     # Моника кладет руки за голову
     img 10926
+    with diss
     cit6 "Да! А теперь немного нагнись, совсем чуть-чуть."
     img 10927
+    with fade
     mt "Что она от меня хочет? Надеюсь, после этого она его купит..."
     # Нагибается
     img 10928
@@ -159,19 +179,25 @@ label cit6_dialog_3:
     img 10929
     with diss
     w
+    music stop
     img 10930
     with diss
     w
+    sound Spank12
     img 10931
     with diss
     w
+    music Groove2_85
     img 10932
+    with fade
     m "Ай! Что Вы себе позволяете?"
     cit6 "Как что? Проверяю товар."
     img 10933
+    with fade
     m "Но почему так?!"
     cit6 "Вы похоже забыли, что клиент всегда прав, хотя манекену простительно. Знаете что, не буду я у Вас ничего покупать."
+    music Power_Bots_Loop
     img 10934
-    with fade
+    with fadelong
     mt "Сучка!"
     return True
