@@ -738,10 +738,12 @@ label ep25_dialogues3_steve2:
 # Согласиться на 5000
 # Мне не нужны твои жалкие подачки, Стив! Пусть будет $5000
 # Конечно, Моника, можешь приступать
+            music Power_Bots_Loop
             img 11614
             with fade
             m "Мне не нужны твои жалкие подачки, Стив!"
             m "Пусть будет $ 5000."
+            music Groove2_85
             img 11613
             with diss
             steve "Конечно, Моника. Можешь приступать."
@@ -868,41 +870,72 @@ label ep25_dialogues3_steve3b:
 # Джейн спрашивает когда будет дата свадьбы?
 # Стив отвечает что это будет очень скоро, Стив работает над этим!
 # Джейн отвечает: хорошо, милый и целует его в щечку
+    img black_screen
+    with diss
+    sound snd_door_open1
+    pause 2.0
+    music Groove2_85
     img 11635
     with fadelong
     w
     img 11637
+    with diss
     jane "Милый, ты не забыл про нашу свадьбу?"
+    #blowjob
+    music audio_Monica_Steve_Blowjob_IMG_1
+    img 11627
+    with diss
+    w
+    #
+    music Groove2_85
     img 11636
+    with fade
     steve "Нет, милая, я не забыл."
     img 11638
+    with diss
     steve "Я все помню!"
     img 11640
     with fade
     jane "Ты уже решил насчет даты, Милый?"
+
     #blowjob
+    music audio_Monica_Steve_Blowjob_IMG_1
     img 11641
     with fade
     w
     #
 
+    music Groove2_85
     img 11642
+    with fade
     steve "Еще нет, Милая, но это будет очень скоро."
     img 11639
+    with diss
     steve "Я работаю над этим!"
     img 11643
     with fade
     jane "Хорошо, милый."
+    music stop
     img 11644
     with diss
     w
+    sound kiss2
     img 11645
     with diss
     jane "Чмок!"
     #уходит
+    music Groove2_85
+    sound highheels_short_walk
     img 11646
     with fadelong
     w
+    music stop
+    img black_screen
+    with diss
+    sound snd_door_close1
+    pause 2.0
+    call ep25_dialogues3_steve5a() # Стив кончает
+    call ep25_dialogues3_steve5() # Моника уходит
     return
 
 label ep25_dialogues3_steve3c:
@@ -914,14 +947,21 @@ label ep25_dialogues3_steve3c:
 # Джейн спрашивает: правда? Ты больше никого не любишь?
 # У тебя больше никого нет кроме меня?
 # Стив отвечает что любит только Джейн и она у него единственная.
+    img black_screen
+    with diss
+    sound snd_door_open1
+    pause 2.0
+    music Groove2_85
     img 11635
     with fadelong
     w
+    sound highheels_short_walk
     img 11647
     with fade
     jane "Милый, Я соскучилась по тебе."
 
     #blowjob
+    music audio_Monica_Steve_Blowjob_IMG_1
     img 11648
     with diss
     w
@@ -929,19 +969,25 @@ label ep25_dialogues3_steve3c:
     with diss
     w
     #
-
+    music Groove2_85
     img 11650
     with diss
     steve "..."
     jane "А ты?"
+    music Loved_Up
     img 11651
+    with diss
     steve "..."
+    music Groove2_85
     img 11652
+    with diss
     jane "А, Стив?! Ты меня слышишь?"
     img 11653
+    with fade
     steve "А?! Да, Джейн, я тоже соскучился по тебе."
 
     # Джейн подходит ближе
+    sound highheels_short_walk
     img 11654
     with fade
     w
@@ -949,26 +995,50 @@ label ep25_dialogues3_steve3c:
     with fade
     w
     img 11656
+    with diss
     jane "Ты меня любишь, Стив?"
 
     img 11657
+    with diss
     steve "Я очень люблю малышку Джейн!"
     img 11658
+    with fade
     jane "Правда?"
     jane "Ты больше никого не любишь?"
     jane "У тебя больше никого нет кроме меня?"
     img 11659
+    with diss
     jane "Я соблюдаю твой дурацкий дресс-код."
     jane "И я жду свадьбы, Стив!"
     img 11660
+    with fade
     steve "Джейн, я люблю только тебя!"
+#    #blowjob
+#    music audio_Monica_Steve_Blowjob_IMG_1
+#    img 11632
+#    with fade
+#    w
+#    music Groove2_85
+#    img 11660
+#    with fade
     steve "И ты у меня единственная!"
+    music stop
+    sound kiss2
     img 11661
+    with diss
     jane "Чмок!"
     #уходит
+    music Groove2_85
     img 11646
     with fadelong
     w
+    music stop
+    img black_screen
+    with diss
+    sound snd_door_close1
+    pause 2.0
+    call ep25_dialogues3_steve5a() # Стив кончает
+    call ep25_dialogues3_steve5() # Моника уходит
     return
 
 label ep25_dialogues3_steve4a:
@@ -977,17 +1047,45 @@ label ep25_dialogues3_steve4a:
 # Тиффани заходит и говорит Стиву что принесла отчеты
 # Стив говорит чтобы она положила их на стол
 # Джейн кладет сексуально и уходит
+    img black_screen
+    with diss
+    sound snd_door_open1
+    pause 2.0
+    music Groove2_85
     img 11662
+    with fadelong
     tiffany "Мистер Стив, можно войти?"
     img 11663
+    with diss
     steve "Да, Тиффани, заходи!"
+    #blowjob
+    music audio_Monica_Steve_Blowjob_IMG_1
+    img 11627
+    with diss
+    w
+    #
+    sound highheels_short_walk
+    music Groove2_85
     img 11664
+    with fadelong
     tiffany "Мистер Стив! Я принесла Вам отчеты."
     img 11665
+    with diss
     steve "Да, Тиффани, можешь положить их на стол."
+    sound snd_folder_drop
     img 11666
+    with diss
     tiffany "..."
+
+    music stop
+    img black_screen
+    with diss
+    sound snd_door_close1
+    pause 2.0
+    call ep25_dialogues3_steve5a() # Стив кончает
+    call ep25_dialogues3_steve5() # Моника уходит
     return
+
 
 label ep25_dialogues3_steve4b:
 # Сцена 2
@@ -997,20 +1095,46 @@ label ep25_dialogues3_steve4b:
 # Стив говорит Тиффани что она такая красивая.
 # Что Стив очень хочет оценить ее красоту.
 # Стив кладет руку на ее ногу пониже попы
+    img black_screen
+    with diss
+    sound snd_door_open1
+    pause 2.0
+    music Groove2_85
     img 11662
+    with fadelong
     tiffany "Мистер Стив, можно войти?"
     img 11663
+    with diss
     steve "Да, Тиффани, заходи!"
+
+    music audio_Monica_Steve_Blowjob_IMG_1
+    #blowjob
+    img 11632
+    with fade
+    w
+
+    sound highheels_short_walk
+    music Groove2_85
     img 11664
+    with fadelong
     tiffany "Мистер Стив! Я принесла Вам отчеты."
+    sound snd_folder_drop
     img 11667
+    with diss
     steve "Тиффани, можешь подойти поближе?"
+    sound highheels_short_walk
     img 11668
+    with fadelong
     tiffany "Да, Босс, что Вам будет угодно?"
+    music Loved_Up
+    music2 audio_Monica_Steve_Blowjob_IMG_1
     img 11669
+    with fade
     steve "Тиффани, малышка."
     steve "Ты такая красивая..."
+    music2 stop
     img 11670
+    with diss
     steve "Я так хочу оценить твою красоту!"
 # Стив кладет руку на ее ногу пониже попы
     sound Jump2
@@ -1018,71 +1142,105 @@ label ep25_dialogues3_steve4b:
     with diss
     w
 
-
 # Тиффани спрашивает помнит-ли Мистер Стив ее условие?
 # Стив отвечает что ее условие трудно выполнимо, но ведь это не помешает ему насладиться ее красотой?
 # Тиффани жестко отвечает чтобы Стив убрал руку, иначе она заявит о харрасменте.
 # Стив убирает руку.
+    music Groove2_85
     img 11672
+    with fade
     tiffany "Помнит-ли Мистер Стив мое условие?"
     img 11673
+    with diss
     steve "Тиффани, твое условие трудно выполнимо."
     img 11674
+    with diss
     steve "Но ведь это не помешает мне насладиться твоей красотой?"
     img 11675
+    with fade
     tiffany "Уберите руку, Мистер Стив!"
     img 11676
+    with diss
     tiffany "Иначе я заявлю о харрасменте!"
     img 11677
     with diss
     w
+    music stop
     img 11678
     with diss
     w
 
 # У Стива падает член.
     #звук вниз
+    sound snd_down1
     img 11679
     with diss
     w
 # Тиффани уходит
+    music Groove2_85
     img 11680
+    with fade
     w
+    sound highheels_short_walk
     img 11681
+    with fadelong
     tiffany "..."
+    sound highheels_short_walk
     img 11682
     with diss
     w
+    music stop
+    img black_screen
+    with diss
+    sound snd_door_close1
+    pause 2.0
 # Моника зло говорит из-под стола что у Стива упал член.
 # И что теперь? Из-за этой дешевой шлюхи ей придется снова его поднимать?
 # Стив отвечает что сложности бывают, но, Моника, что поделать, это твоя работа!
 # Моника зло продолжает сосать член.
+    music Groove2_85
     img 11683
-    with fade
+    with fadelong
     w
+    music Power_Bots_Loop
     img 11684
+    with diss
     m "У тебя упал член, Стив!"
     img 11685
+    with diss
     steve "..."
     img 11686
+    with fade
     m "И что теперь?"
     m "Из-за этой дешевой шлюхи мне придется снова его поднимать?"
+    music Groove2_85
     img 11687
+    with diss
     steve "Моника, во время выполнения любого контракта бывают сложности."
     steve "Но что поделать? Это твоя работа."
+    music Power_Bots_Loop
     img 11688
+    with fade
     m "!!!"
+    music Groove2_85
     img 11689
+    with diss
     steve "Моника, ты можешь продолжать. Контракт еще не закрыт."
     img 11690
     with fade
     m "!!!"
     #blowjob
+    music audio_Monica_Steve_Blowjob_IMG_1
     img 11691
     with fade
     w
-
+    stop music fadeout 1.0
+    call textonblack(_("СПУСТЯ 15 МИНУТ..."))
+    img black_screen
+    with Dissolve(1)
 # Моника зло продолжает сосать член.
+    call ep25_dialogues3_steve5a() # Стив кончает
+    call ep25_dialogues3_steve5() # Моника уходит
     return
 
 
@@ -1093,62 +1251,96 @@ label ep25_dialogues3_steve4c:
 # Тиффани подходит и говорит что все уже сказала.
 # Ее ответ нет и она догадывается что Стив хочет сейчас сделать.
 # Стив подносит руку к Тиффани
+    img black_screen
+    with diss
+    sound snd_door_open1
+    pause 2.0
+    music Groove2_85
     img 11662
+    with fadelong
     tiffany "Мистер Стив, можно войти?"
     img 11663
+    with diss
     steve "Да, Тиффани, заходи!"
+    sound highheels_short_walk
+    music Groove2_85
     img 11664
+    with fadelong
     tiffany "Мистер Стив! Я принесла Вам отчеты."
+    sound snd_folder_drop
     img 11667
+    with diss
     steve "Тиффани, можешь подойти поближе?"
 # Тиффани подходит и говорит что все уже сказала.
+
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.0
     img 11692
+    with fadelong
     tiffany "Мистер Стив, я Вам все уже сказала."
     tiffany "Я догадываюсь что Вы сейчас хотите сделать."
     img 11693
+    with diss
     tiffany "Мой ответ НЕТ!"
 
 # Стив подносит руку к Тиффани
+    sound Jump1
     img 11694
     with diss
     w
     img 11695
+    with fade
 # Тиффани говорит: только попробуйте, Мистер Стив...
 # Стив говорит, что Тиффани так красива, так прекрасна
 # Что Стив настолько сильно хочет ее, если бы она только знала...
 # Что он.. он... Аааххх! Стив хватает Тиффани за попу под трусиками и кончает Монике в рот
     tiffany "Только попробуйте, Мистер Стив..."
+    music Loved_Up
     img 11697
+    with diss
     steve "О, Тиффани!"
     img 11696
+    with diss
     steve "Ты так красива!"
     steve "Так прекрасна!"
     img 11698
+    with diss
     steve "Если бы только знала как я хочу тебя!"
+    music Loved_Up2
+    sound Jump2
     img 11699
     with diss
     steve "Если бы ты только, Аааах!!"
 # Что он.. он... Аааххх! Стив хватает Тиффани за попу под трусиками и кончает Монике в рот
     img 11700
+    with diss
     tiffany "!!!"
     img 11701
+    with diss
     steve "Аааах!"
     img 11702
+    with diss
     steve "Аааах!"
     #звук кончания
     img 11703
     with diss
+    sound bulk1
     steve "АААААААААААРГХХХХХ!!!"
     img 11704
     with diss
     w
     img 11705
     with diss
+    sound bulk1
     steve "АААААААААААРГХХХХХ!!!"
     m "!!!"
 
 # Тиффани смеется.
+    music Groove2_85
     img 11706
+    with fadelong
     tiffany "Ха!"
 # Вы там что, кончили, Мистер Стив?
 # Хи-хи-хи. Вы пополнили мою смешную коллекцию мужчин, которые кончают себе в штаны при моем виде.
@@ -1157,17 +1349,31 @@ label ep25_dialogues3_steve4c:
 # Уходит
     tiffany "Вы там что, кончили, Мистер Стив?"
     img 11707
+    with diss
     steve "..."
+    sound highheels_short_walk
     img 11708
+    with fadelong
     tiffany "Хи-хи-хи."
     tiffany "Вы дополнили мою смешную коллекцию мужчин, которые при виде меня кончают в штаны."
     img 11709
     with diss
     w
     img 11710
+    with diss
     m "!!!"
+    sound highheels_short_walk
     img 11711
+    with fadelong
     tiffany "Хорошего рабочего дня, Мистер Стив!"
+
+    music stop
+    img black_screen
+    with diss
+    sound snd_door_close1
+    pause 2.0
+#    call ep25_dialogues3_steve5a() # Стив кончает
+    call ep25_dialogues3_steve5() # Моника уходит
     return
 
 label ep25_dialogues3_steve5a:

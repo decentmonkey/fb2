@@ -4,6 +4,7 @@ default monicaSteveCumDealRejected = False # Моника решила осущ�
 default monicaSteveCumDealCompleted = False # Моника закрыла сделку
 
 default monicaSteveBlowjobDealCount = 0 # Кол-во сделок со Стивом blowjob
+default monicaSteveBlowjob50DollarsCount = 0 # Кол-во раз Моника получала 50 долларов сверху
 
 label ep25_quests_steve1:
     # инициализация сцен и входа
@@ -287,38 +288,41 @@ label ep25_quests_steve18:
             call change_scene("street_steve_office", "Fade_long", "snd_lift")
             return False
         $ choosedMoney = _return
-        if monicaSteveBlowjobDealCount == 0:
+        $ monicaSteveBlowjobDealCountOffs = monicaSteveBlowjobDealCount % 6
+        if monicaSteveBlowjobDealCountOffs == 0:
             # Первый приход Джейн
             call ep25_dialogues3_steve3a()
-        if monicaSteveBlowjobDealCount == 1:
+        if monicaSteveBlowjobDealCountOffs == 1:
             call ep25_dialogues3_steve4a()
-        if monicaSteveBlowjobDealCount == 2:
+        if monicaSteveBlowjobDealCountOffs == 2:
             call ep25_dialogues3_steve3b()
-        if monicaSteveBlowjobDealCount == 3:
+        if monicaSteveBlowjobDealCountOffs == 3:
             call ep25_dialogues3_steve4b()
-        if monicaSteveBlowjobDealCount == 4:
+        if monicaSteveBlowjobDealCountOffs == 4:
             call ep25_dialogues3_steve3c()
-        if monicaSteveBlowjobDealCount == 5:
+        if monicaSteveBlowjobDealCountOffs == 5:
             call ep25_dialogues3_steve4c()
-        if monicaSteveBlowjobDealCount > 5:
-            # random
-            $ rnd1 = rand(1,6)
-            if rnd1 == 1:
-                call ep25_dialogues3_steve3a()
-            if rnd1 == 2:
-                call ep25_dialogues3_steve4a()
-            if rnd1 == 3:
-                call ep25_dialogues3_steve3b()
-            if rnd1 == 4:
-                call ep25_dialogues3_steve4b()
-            if rnd1 == 5:
-                call ep25_dialogues3_steve3c()
-            if rnd1 == 6:
-                call ep25_dialogues3_steve4c()
+
+#        if monicaSteveBlowjobDealCount > 5:
+#            # random
+#            $ rnd1 = rand(1,6)
+#            if rnd1 == 1:
+#                call ep25_dialogues3_steve3a()
+#            if rnd1 == 2:
+#                call ep25_dialogues3_steve4a()
+#            if rnd1 == 3:
+#                call ep25_dialogues3_steve3b()
+#            if rnd1 == 4:
+#                call ep25_dialogues3_steve4b()
+#            if rnd1 == 5:
+#                call ep25_dialogues3_steve3c()
+#            if rnd1 == 6:
+#                call ep25_dialogues3_steve4c()
 
         $ monicaSteveBlowjobDealCount +=1
         if choosedMoney == 1:
             $ add_money(50.0)
+            $ monicaSteveBlowjob50DollarsCount +=1
         $ notif("Стив перевел деньги Виктории.")
         $ monicaEarnedWeeklyMoney = True
 
