@@ -230,9 +230,11 @@ label ep25_quests_shop_visitors4a:
     call cit4_dialog_3a() from _call_cit4_dialog_3a
     $ restore_music()
     if _return == 0:
-        $ shopVisitorStage4 = 4
+#        $ shopVisitorStage4 = 4
         $ autorun_to_object("ep25_dialogues1_shop24a", scene="cloth_shop_view1")
-        $ set_active("Shop_Visitor4", False)
+        $ move_object("Shop_Visitor4", "cloth_shop_view1")
+        $ set_active("Shop_Visitor4", False, scene="cloth_shop_view1")
+#        $ set_active("Shop_Visitor4", False)
         call change_scene("cloth_shop_view1", "Fade_long") from _call_change_scene_295
         return False
 
