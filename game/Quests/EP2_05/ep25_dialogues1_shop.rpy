@@ -467,6 +467,8 @@ label ep25_dialogues1_shop7:
     m "Эй, что Вы делаете?!"
 
 
+
+
     # Продавец садится на Монику
     img 10695
     with fade
@@ -483,6 +485,18 @@ label ep25_dialogues1_shop7:
     with diss
     cashier "Вам понравилось обслуживание?"
     m "Мммпфххх...."
+
+#    music stop
+    img black_screen
+    with Dissolve(0.5)
+#    stop music
+#    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_1_1 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_1_1.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_1_1
+    with fadelong
+    wclean
+
     img 10699
     with diss
     cashier "Только попробуй сказать нет..."
