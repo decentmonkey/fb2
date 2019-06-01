@@ -7,7 +7,7 @@ label ep25_quests1:
     if ep25_quests1Flag1 == False:
         $ ep25_quests1Flag1 = True
         $ add_hook("Teleport_Cloth_Shop_Entrance", "ep25_dialogues1_shop1b", scene="street_cloth_shop", label="cloth_shop_closed")
-    if monicaAskedVictoriaAboutSteveMoney == False:
+    if monicaAskedVictoriaAboutSteveMoney == False and monicaHasSexWithSteveBasement == True:
         call ep25_dialogues1_shop1() from _call_ep25_dialogues1_shop1
         return False
     if ep25_quests1Flag2 == False:
