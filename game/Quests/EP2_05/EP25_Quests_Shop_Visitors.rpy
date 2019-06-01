@@ -148,7 +148,7 @@ label ep25_quests_shop_visitors3:
             $ autorun_to_object("ep25_dialogues1_shop15", scene="cloth_shop_view2")
             $ shopVisitorsList.remove("Shop_Visitor3")
         else:
-            $ autorun_to_object("ep25_dialogues1_shop23", scene="cloth_shop_view1")
+            $ autorun_to_object("ep25_dialogues1_shop23", scene="cloth_shop_view2")
         $ restore_music()
         $ set_active("Shop_Visitor3", False)
         sound highheels_short_walk
@@ -167,7 +167,7 @@ label ep25_quests_shop_visitors3:
             call ep25_quests_shop15() from _call_ep25_quests_shop15 # Квест магазина закончен
             return False
         else:
-            $ autorun_to_object("ep25_dialogues1_shop23", scene="cloth_shop_view1")
+            $ autorun_to_object("ep25_dialogues1_shop23", scene="cloth_shop_view2")
             $ set_active("Shop_Visitor3", False)
             sound highheels_short_walk
             call refresh_scene_fade() from _call_refresh_scene_fade_113
