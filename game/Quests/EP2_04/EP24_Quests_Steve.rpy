@@ -467,7 +467,7 @@ label ep24_quests_steve30:
     # Вход в здание Стива
     if act=="l":
         return
-    call ep25_quests1()
+    call ep25_quests1() from _call_ep25_quests1
 #    call ep24_dialogues3_steve13() from _call_ep24_dialogues3_steve13
     return False
 
@@ -496,7 +496,7 @@ label ep24_quests_steve34:
         return
     if cloth != "Governess":
         return
-    call ep24_dialogues3_steve14()
+    call ep24_dialogues3_steve14() from _call_ep24_dialogues3_steve14
     if _return == False:
         return False
     $ remove_hook(label="steve_ralph_visit2")

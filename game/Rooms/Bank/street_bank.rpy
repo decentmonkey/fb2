@@ -31,7 +31,7 @@ label street_bank_teleport:
                 mt "Сейчас вечер. Банк уже закрыт."
                 return
             if cloth == "CasualDress1":
-                call ep25_dialogues1_shop17()
+                call ep25_dialogues1_shop17() from _call_ep25_dialogues1_shop17
                 return
             mt "Что мне там делать?"
             "У меня нет никаких документов!"

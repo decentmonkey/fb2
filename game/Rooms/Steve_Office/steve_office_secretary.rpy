@@ -26,9 +26,9 @@ label steve_office_secretary_init:
 
 label steve_office_secretary_teleport:
     if obj_name == "Teleport_Street":
-        call change_scene("street_steve_office", "Fade_long", "snd_lift")
+        call change_scene("street_steve_office", "Fade_long", "snd_lift") from _call_change_scene_276
     if obj_name == "Teleport_Steve_Office_Office":
-        call change_scene("steve_office_office")
+        call change_scene("steve_office_office") from _call_change_scene_277
         return
     return
 

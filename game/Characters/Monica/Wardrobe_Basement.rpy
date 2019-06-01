@@ -15,10 +15,10 @@ label wardrobeBasement:
 #    with fadelong
     mt "Что мне одеть?"
     $ menuName = "wardrobe_menu"
-    call wardrobeBasementCasualDressMiniMap2()
+    call wardrobeBasementCasualDressMiniMap2() from _call_wardrobeBasementCasualDressMiniMap2
     menu:
         "Красивое платье." if monicaHasCasualDress1 == True:
-            call wardrobeBasementPutUpCasualDress1()
+            call wardrobeBasementPutUpCasualDress1() from _call_wardrobeBasementPutUpCasualDress1
             $ autorun_to_object("basement_bedroom1", "ep25_dialogues1_shop1d")
 
         "Одежда шлюхи.":
@@ -150,20 +150,20 @@ label hook_basement_bedroom_check_exit_cloth_map: #проверка при вы�
                 menu:
                     "Одеть красное платье." if monicaHasCasualDress1 == True and obj_name != "Teleport_Street_Corner" and obj_name != "Teleport_Hostel2":
                         if monicaBettyPanties == True:
-                            call ep22_dialogues3_13()
+                            call ep22_dialogues3_13() from _call_ep22_dialogues3_13_5
                             $ monicaBettyPanties = False
-                        call wardrobeBasementPutUpCasualDress1()
+                        call wardrobeBasementPutUpCasualDress1() from _call_wardrobeBasementPutUpCasualDress1_1
                         return True
                     "Переодеться в одежду шлюхи." if monicaHasCasualDress1 == True:
                         if monicaBettyPanties == True:
-                            call ep22_dialogues3_13()
+                            call ep22_dialogues3_13() from _call_ep22_dialogues3_13_6
                             $ monicaBettyPanties = False
                         $ cloth = "Whore" #Принудительно переодеваем Монику
                         $ cloth_type = "Whore"
                         return True
                     "Переодеться в одежду шлюхи (другой нет!)." if monicaHasCasualDress1 == False:
                         if monicaBettyPanties == True:
-                            call ep22_dialogues3_13()
+                            call ep22_dialogues3_13() from _call_ep22_dialogues3_13_7
                             $ monicaBettyPanties = False
                         $ cloth = "Whore" #Принудительно переодеваем Монику
                         $ cloth_type = "Whore"
@@ -177,13 +177,13 @@ label hook_basement_bedroom_check_exit_cloth_map: #проверка при вы�
                     menu:
                         "Одеть красное платье." if monicaHasCasualDress1 == True and obj_name != "Teleport_Street_Corner" and obj_name != "Teleport_Hostel2":
                             if monicaBettyPanties == True:
-                                call ep22_dialogues3_13()
+                                call ep22_dialogues3_13() from _call_ep22_dialogues3_13_8
                                 $ monicaBettyPanties = False
-                            call wardrobeBasementPutUpCasualDress1()
+                            call wardrobeBasementPutUpCasualDress1() from _call_wardrobeBasementPutUpCasualDress1_2
                             return True
                         "Переодеться в одежду шлюхи." if monicaHasCasualDress1 == True:
                             if monicaBettyPanties == True:
-                                call ep22_dialogues3_13()
+                                call ep22_dialogues3_13() from _call_ep22_dialogues3_13_9
                                 $ monicaBettyPanties = False
                             $ cloth = "Whore" #Принудительно переодеваем Монику
                             $ cloth_type = "Whore"
@@ -243,10 +243,10 @@ label wardrobeBasementPutUpCasualDress1:
     # Одеваем CasualDress1
     if monicaCasualDressWearFirstTimeWardrobe == True:
         $ monicaCasualDressWearFirstTimeWardrobe = False
-        call ep25_dialgues5_basement1()
+        call ep25_dialgues5_basement1() from _call_ep25_dialgues5_basement1
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
-    call wardrobeBasementCasualDressMiniMap1()
+    call wardrobeBasementCasualDressMiniMap1() from _call_wardrobeBasementCasualDressMiniMap1_1
     sound snd_fabric1
     img black_screen
     with Dissolve(0.5)

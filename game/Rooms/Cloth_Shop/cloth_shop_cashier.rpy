@@ -16,10 +16,10 @@ label cloth_shop_cashier_init:
 
 label cloth_shop_cashier_teleport:
     if obj_name == "Teleport_Cloth_Shop_View1":
-        call change_scene("cloth_shop_view1")
+        call change_scene("cloth_shop_view1") from _call_change_scene_271
         return
     if obj_name == "Teleport_Dressing_Room":
-        call change_scene("cloth_shop_dressing_room")
+        call change_scene("cloth_shop_dressing_room") from _call_change_scene_272
         return
     return
 

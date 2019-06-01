@@ -28,23 +28,23 @@ label cloth_shop_view1_init:
     return
 label cloth_shop_view1_teleport:
     if obj_name == "Teleport_View2":
-        call change_scene("cloth_shop_view2")
+        call change_scene("cloth_shop_view2") from _call_change_scene_267
         return
     if obj_name == "Teleport_Dressing_Room":
         if obj_data["action"] == "l":
             mt "Там примерочная."
             return
         if obj_data["action"] == "w":
-            call change_scene("cloth_shop_dressing_room")
+            call change_scene("cloth_shop_dressing_room") from _call_change_scene_268
             return
     if obj_name == "Teleport_Cashier":
         if obj_data["action"] == "l":
             mt "Там касса..."
             return
         if obj_data["action"] == "w":
-            call change_scene("cloth_shop_cashier")
+            call change_scene("cloth_shop_cashier") from _call_change_scene_269
     if obj_name == "Teleport_Street_Cloth_Shop":
-        call change_scene("street_cloth_shop", "Fade_long")
+        call change_scene("street_cloth_shop", "Fade_long") from _call_change_scene_270
         return
     return
 

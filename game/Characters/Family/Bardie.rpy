@@ -110,7 +110,7 @@ label bardieProgressLevelUp1:
 #        $ char_data["caption_diabled"] = _("Work in progress...")
         return
     if char_data["level"] == 4:
-        call ep24_quests_bardie1b()
+        call ep24_quests_bardie1b() from _call_ep24_quests_bardie1b_2
 #        $ char_data["enabled"] = False
 #        $ char_data["caption_diabled"] = _("Work in progress...")
     if char_data["level"] == 5:

@@ -26,7 +26,7 @@ label cloth_shop_dressing_room2_init:
 label cloth_shop_dressing_room2_teleport:
 
     if obj_name == "Teleport_Dressing_Room":
-        call change_scene("cloth_shop_dressing_room")
+        call change_scene("cloth_shop_dressing_room") from _call_change_scene_248
         return
     return
 

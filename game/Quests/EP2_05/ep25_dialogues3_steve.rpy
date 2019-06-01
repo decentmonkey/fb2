@@ -254,7 +254,7 @@ label ep25_dialogues3_steve1b:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Минуту спустя..."))
+    call textonblack(_("Минуту спустя...")) from _call_textonblack_20
     img black_screen
     with Dissolve(2.0)
     music Groove2_85
@@ -859,8 +859,8 @@ label ep25_dialogues3_steve3a:
     with diss
     sound snd_door_close1
     pause 2.0
-    call ep25_dialogues3_steve5a() # Стив кончает
-    call ep25_dialogues3_steve5() # Моника уходит
+    call ep25_dialogues3_steve5a() from _call_ep25_dialogues3_steve5a # Стив кончает
+    call ep25_dialogues3_steve5() from _call_ep25_dialogues3_steve5 # Моника уходит
     return
 
 label ep25_dialogues3_steve3b:
@@ -934,8 +934,8 @@ label ep25_dialogues3_steve3b:
     with diss
     sound snd_door_close1
     pause 2.0
-    call ep25_dialogues3_steve5a() # Стив кончает
-    call ep25_dialogues3_steve5() # Моника уходит
+    call ep25_dialogues3_steve5a() from _call_ep25_dialogues3_steve5a_1 # Стив кончает
+    call ep25_dialogues3_steve5() from _call_ep25_dialogues3_steve5_1 # Моника уходит
     return
 
 label ep25_dialogues3_steve3c:
@@ -1037,8 +1037,8 @@ label ep25_dialogues3_steve3c:
     with diss
     sound snd_door_close1
     pause 2.0
-    call ep25_dialogues3_steve5a() # Стив кончает
-    call ep25_dialogues3_steve5() # Моника уходит
+    call ep25_dialogues3_steve5a() from _call_ep25_dialogues3_steve5a_2 # Стив кончает
+    call ep25_dialogues3_steve5() from _call_ep25_dialogues3_steve5_2 # Моника уходит
     return
 
 label ep25_dialogues3_steve4a:
@@ -1082,8 +1082,8 @@ label ep25_dialogues3_steve4a:
     with diss
     sound snd_door_close1
     pause 2.0
-    call ep25_dialogues3_steve5a() # Стив кончает
-    call ep25_dialogues3_steve5() # Моника уходит
+    call ep25_dialogues3_steve5a() from _call_ep25_dialogues3_steve5a_3 # Стив кончает
+    call ep25_dialogues3_steve5() from _call_ep25_dialogues3_steve5_3 # Моника уходит
     return
 
 
@@ -1235,12 +1235,12 @@ label ep25_dialogues3_steve4b:
     with fade
     w
     stop music fadeout 1.0
-    call textonblack(_("СПУСТЯ 15 МИНУТ..."))
+    call textonblack(_("СПУСТЯ 15 МИНУТ...")) from _call_textonblack_21
     img black_screen
     with Dissolve(1)
 # Моника зло продолжает сосать член.
-    call ep25_dialogues3_steve5a() # Стив кончает
-    call ep25_dialogues3_steve5() # Моника уходит
+    call ep25_dialogues3_steve5a() from _call_ep25_dialogues3_steve5a_4 # Стив кончает
+    call ep25_dialogues3_steve5() from _call_ep25_dialogues3_steve5_4 # Моника уходит
     return
 
 
@@ -1373,7 +1373,7 @@ label ep25_dialogues3_steve4c:
     sound snd_door_close1
     pause 2.0
 #    call ep25_dialogues3_steve5a() # Стив кончает
-    call ep25_dialogues3_steve5() # Моника уходит
+    call ep25_dialogues3_steve5() from _call_ep25_dialogues3_steve5_5 # Моника уходит
     return
 
 label ep25_dialogues3_steve5a:

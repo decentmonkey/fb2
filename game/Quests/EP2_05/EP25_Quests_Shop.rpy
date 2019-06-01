@@ -17,7 +17,7 @@ default clothShopSellingDressVisitorsStage = 0
 label ep25_quests_shop1:
     # Вход в магазин одежды (первый раз)
     $ remove_hook()
-    call locations_init_clothing_shop()
+    call locations_init_clothing_shop() from _call_locations_init_clothing_shop
 
     $ add_hook("Teleport_Cloth_Shop_Entrance", "ep25_quests_shop2", scene="street_cloth_shop", label=["cloth_shop_enter1", "cloth_shop_quests"])
     $ autorun_to_object("ep25_dialogues1_shop1c", scene="cloth_shop_view1")
@@ -25,7 +25,7 @@ label ep25_quests_shop1:
     $ add_hook("Cashier", "ep25_quests_shop3", scene="cloth_shop_cashier", label="cloth_shop_quests")
 
 #    call ep25_quests_steve1()
-    call ep25_quests_shop2()
+    call ep25_quests_shop2() from _call_ep25_quests_shop2
 
     return False
 
@@ -48,7 +48,7 @@ label ep25_quests_shop2:
                 set_active(visitorName, True, scene="cloth_shop_view1", recursive=True)
                 set_active(visitorName, True, scene="cloth_shop_view2", recursive=True)
 
-    call change_scene("cloth_shop_view1")
+    call change_scene("cloth_shop_view1") from _call_change_scene_252
 
     return False
 
@@ -85,7 +85,7 @@ label ep25_quests_shop2a:
                 set_active(visitorName, True, scene="cloth_shop_view1", recursive=True)
                 set_active(visitorName, True, scene="cloth_shop_view2", recursive=True)
 
-    call change_scene("cloth_shop_view1")
+    call change_scene("cloth_shop_view1") from _call_change_scene_253
     return False
 
 
@@ -95,7 +95,7 @@ label ep25_quests_shop3:
         return
     $ remove_hook()
 
-    call ep25_dialogues1_shop2()
+    call ep25_dialogues1_shop2() from _call_ep25_dialogues1_shop2
     if _return == False:
         $ clothShopUsualDayVisitorsAmount = 0 # В магазине никого нет
         $ add_hook("Cashier", "ep25_quests_shop6", scene="cloth_shop_cashier", label=["cloth_shop_quests", "steal_dress"]) # Теперь платье можно и украсть
@@ -103,7 +103,7 @@ label ep25_quests_shop3:
         $ add_hook("Teleport_Cloth_Shop_Entrance", "ep25_quests_shop4a", scene="street_cloth_shop", label=["cloth_shop_enter2", "cloth_shop_quests"]) # блокируем вход в магазин
         $ add_hook("change_time_day", "ep25_quests_shop4b", scene="global") # Разблокируем вход в магазин на следующий день
 
-        call change_scene("street_cloth_shop")
+        call change_scene("street_cloth_shop") from _call_change_scene_254
         return False
 
     $ monicaHasCasualDress1 = True
@@ -111,9 +111,9 @@ label ep25_quests_shop3:
     $ remove_objective("find_casual_dress")
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
-    call ep25_quests2()
+    call ep25_quests2() from _call_ep25_quests2
     $ autorun_to_object("ep25_dialogues1_shop2a", scene="street_cloth_shop") # Комментарий на улице о покупке платья
-    call change_scene("street_cloth_shop", "Fade_long", False)
+    call change_scene("street_cloth_shop", "Fade_long", False) from _call_change_scene_255
 
     $ remove_hook(label="cloth_shop_quests")
     $ add_hook("Teleport_Cloth_Shop_Entrance", "ep25_quests_shop4", scene="street_cloth_shop", label="cloth_shop_enter_refuse")
@@ -121,12 +121,12 @@ label ep25_quests_shop3:
 
 label ep25_quests_shop4:
     # Моника не хочет заходить в магазин после покупки платья или после того как отобрала его
-    call ep25_dialogues1_shop3()
+    call ep25_dialogues1_shop3() from _call_ep25_dialogues1_shop3
     return False
 
 label ep25_quests_shop4a:
     # Моника не хочет заходить в магазин сегодня
-    call ep25_dialogues1_shop4a()
+    call ep25_dialogues1_shop4a() from _call_ep25_dialogues1_shop4a
     return False
 label ep25_quests_shop4b:
     # Вход в магазин разблокируется на следующий день
@@ -136,7 +136,7 @@ label ep25_quests_shop4b:
 
 label ep25_quests_shop4c:
     # Моника не хочет заходить в магазин после отработки платья и после лесби сцены
-    call ep25_dialogues1_shop11()
+    call ep25_dialogues1_shop11() from _call_ep25_dialogues1_shop11
     return False
 
 
@@ -144,12 +144,12 @@ label ep25_quests_shop5:
     # В магазине мало народа. Может быть украсть платье?
     if lastSceneName != "street_cloth_shop":
         return
-    call ep25_dialogues1_shop4()
-    call ep25_dialogues1_shop5()
+    call ep25_dialogues1_shop4() from _call_ep25_dialogues1_shop4
+    call ep25_dialogues1_shop5() from _call_ep25_dialogues1_shop5
     if _return == True:
-        call ep25_quests_shop7()
+        call ep25_quests_shop7() from _call_ep25_quests_shop7
         return False
-    call change_scene("cloth_shop_cashier")
+    call change_scene("cloth_shop_cashier") from _call_change_scene_256
     return
 label ep25_quests_shop6:
     # Моника может купить или украсть платье
@@ -157,9 +157,9 @@ label ep25_quests_shop6:
         return
 
     # Говорим о том чтобы купить платье
-    call ep25_dialogues1_shop2()
+    call ep25_dialogues1_shop2() from _call_ep25_dialogues1_shop2_1
     if _return == False:
-        call change_scene("street_cloth_shop")
+        call change_scene("street_cloth_shop") from _call_change_scene_257
         return False
 
     $ monicaHasCasualDress1 = True
@@ -167,9 +167,9 @@ label ep25_quests_shop6:
     $ remove_objective("find_casual_dress")
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
-    call ep25_quests2()
+    call ep25_quests2() from _call_ep25_quests2_1
     $ autorun_to_object("ep25_dialogues1_shop2a", scene="street_cloth_shop") # Комментарий на улице о покупке платья
-    call change_scene("street_cloth_shop", "Fade_long", False)
+    call change_scene("street_cloth_shop", "Fade_long", False) from _call_change_scene_258
 
     $ remove_hook(label="cloth_shop_quests")
     $ add_hook("Teleport_Cloth_Shop_Entrance", "ep25_quests_shop4", scene="street_cloth_shop", label="cloth_shop_enter_refuse")
@@ -177,7 +177,7 @@ label ep25_quests_shop6:
 
 label ep25_quests_shop7:
     # Воруем платье
-    call ep25_dialogues1_shop6()
+    call ep25_dialogues1_shop6() from _call_ep25_dialogues1_shop6
 
     if _return == False:
         # Бьем продавца и убегаем
@@ -186,14 +186,14 @@ label ep25_quests_shop7:
         $ remove_objective("find_casual_dress")
         $ cloth = "CasualDress1"
         $ cloth_type = "CasualDress"
-        call ep25_quests2()
+        call ep25_quests2() from _call_ep25_quests2_2
         $ autorun_to_object("ep25_dialogues1_shop2a", scene="street_cloth_shop") # Комментарий на улице о покупке платья
-        call change_scene("street_cloth_shop")
+        call change_scene("street_cloth_shop") from _call_change_scene_259
 
         $ remove_hook(label="cloth_shop_quests")
         $ add_hook("Teleport_Cloth_Shop_Entrance", "ep25_quests_shop4", scene="street_cloth_shop", label="cloth_shop_enter_refuse")
         return False
-    call ep25_dialogues1_shop7()
+    call ep25_dialogues1_shop7() from _call_ep25_dialogues1_shop7
     $ autorun_to_object("ep25_dialogues1_shop8", scene="street_cloth_shop") # Размышление о том что неплохо бы продать платье
     $ changeDayTime("evening")
     $ remove_hook(label="steal_dress")
@@ -215,7 +215,7 @@ label ep25_quests_shop7:
     $ remove_objective("find_casual_dress")
     $ add_objective("find_casual_dress", _("Продать платье в магазине одежды"), c_blue, 15)
 
-    call change_scene("street_cloth_shop", "Fade_long", False)
+    call change_scene("street_cloth_shop", "Fade_long", False) from _call_change_scene_260
     $ char_info["Cashier"]["enabled"] = True
     $ char_info["Cashier"]["caption"] = _("Вивиан ждет что Моника продаст платье.")
     $ add_char_progress("Cashier", 100, "cloth_shop_cashier_steal_lesbian1" + str(day), duplicate=True)
@@ -226,9 +226,9 @@ label ep25_quests_shop8:
     # Моника приходит к продавцу продавать платье
     if act=="l":
         return
-    call ep25_dialogues1_shop9()
+    call ep25_dialogues1_shop9() from _call_ep25_dialogues1_shop9
     if _return == 0:
-        call change_scene("street_cloth_shop", "Fade_long")
+        call change_scene("street_cloth_shop", "Fade_long") from _call_change_scene_261
     if _return == 1:
         # Покупаем платье
         $ monicaHasCasualDress1 = True
@@ -236,9 +236,9 @@ label ep25_quests_shop8:
         $ remove_objective("find_casual_dress")
         $ cloth = "CasualDress1"
         $ cloth_type = "CasualDress"
-        call ep25_quests2()
+        call ep25_quests2() from _call_ep25_quests2_3
         $ autorun_to_object("ep25_dialogues1_shop2a", scene="street_cloth_shop") # Комментарий на улице о покупке платья
-        call change_scene("street_cloth_shop")
+        call change_scene("street_cloth_shop") from _call_change_scene_262
 
         $ remove_hook(label="cloth_shop_quests")
         $ add_hook("Teleport_Cloth_Shop_Entrance", "ep25_quests_shop4c", scene="street_cloth_shop", label="cloth_shop_enter_refuse")
@@ -256,7 +256,7 @@ label ep25_quests_shop8:
         img black_screen
         with diss
         pause 1.0
-        call change_scene("cloth_shop_view1", "Fade_long", False)
+        call change_scene("cloth_shop_view1", "Fade_long", False) from _call_change_scene_263
 
     return False
 
@@ -269,28 +269,28 @@ label ep25_quests_shop9:
 label ep25_quests_shop10:
     # Блокировка выхода из магазина пока продается платье
     if cloth == "Nude":
-        call ep25_dialogues1_shop20a()
+        call ep25_dialogues1_shop20a() from _call_ep25_dialogues1_shop20a
     else:
-        call ep25_dialogues1_shop20()
+        call ep25_dialogues1_shop20() from _call_ep25_dialogues1_shop20
     return False
 
 label ep25_quests_shop11:
     if act=="l":
         return
     if get_active_objects(scene="cloth_shop_dressing_room2", group="cloth_shop_visitors") != False:
-        call ep25_dialogues1_shop10b()
+        call ep25_dialogues1_shop10b() from _call_ep25_dialogues1_shop10b
         return False
 
-    call ep25_dialogues1_shop10a()
+    call ep25_dialogues1_shop10a() from _call_ep25_dialogues1_shop10a
     if _return == False:
-        call change_scene("cloth_shop_view1", "Fade_long")
+        call change_scene("cloth_shop_view1", "Fade_long") from _call_change_scene_264
         return False
-    call ep25_quests_shop11a()
+    call ep25_quests_shop11a() from _call_ep25_quests_shop11a
     return False
 
 label ep25_quests_shop11a:
     # Заканчивание работы
-    call ep25_dialogues1_shop10() # Заканчиваем работу на сегодня
+    call ep25_dialogues1_shop10() from _call_ep25_dialogues1_shop10 # Заканчиваем работу на сегодня
 
     $ monicaSellingDressInProgress = False
     $ changeDayTime("evening")
@@ -305,20 +305,20 @@ label ep25_quests_shop11a:
     img black_screen
     with diss
     pause 2.0
-    call change_scene("street_cloth_shop", "Fade_long")
+    call change_scene("street_cloth_shop", "Fade_long") from _call_change_scene_265
     return
 
 
 label ep25_quests_shop12:
     # Сегодня Моника не хочет заходить в магазин, потому что уже работала там
-    call ep25_dialogues1_shop14()
+    call ep25_dialogues1_shop14() from _call_ep25_dialogues1_shop14
     return False
 
 label ep25_quests_shop13:
     # Проверка на то, что посетителей больше нет (конец работы)
     if get_active_objects(scene="Cloth_Shop", recursive=True, group="cloth_shop_visitors") == False:
         $ autorun_to_object("ep25_quests_shop14", scene="cloth_shop_view1")
-        call ep25_quests_shop11a() # Заканчиваем работу на сегодня
+        call ep25_quests_shop11a() from _call_ep25_quests_shop11a_1 # Заканчиваем работу на сегодня
     return False
 
 label ep25_quests_shop14: # пустое лейбл для очистки autorun
@@ -328,23 +328,23 @@ label ep25_quests_shop14: # пустое лейбл для очистки autoru
 label ep25_quests_shop15:
     # Моника продала платье, требует награду
     $ remove_hook(label="cloth_shop_quests")
-    call ep25_dialogues1_shop12()
+    call ep25_dialogues1_shop12() from _call_ep25_dialogues1_shop12
     $ autorun_to_object("ep25_dialogues1_shop12a", scene="street_cloth_shop")
 
     $ monicaHasCasualDress1 = True
     $ remove_objective("find_casual_dress")
-    call ep25_quests2()
+    call ep25_quests2() from _call_ep25_quests2_4
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
     $ add_hook("Teleport_Cloth_Shop_Entrance", "ep25_quests_shop16", scene="street_cloth_shop", label=["cloth_shop_enter3"])
     $ add_char_progress("Cashier", 100, "cloth_shop_cashier_dress_sell", duplicate=True)
 
-    call change_scene("street_cloth_shop", "Fade_long")
+    call change_scene("street_cloth_shop", "Fade_long") from _call_change_scene_266
     return False
 
 label ep25_quests_shop16:
     # Моника пытается зайти в магазин после того как отработала платье
-    call ep25_dialogues1_shop11()
+    call ep25_dialogues1_shop11() from _call_ep25_dialogues1_shop11_1
     return False
 
 

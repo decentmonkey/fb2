@@ -39,7 +39,7 @@ label monica_wakeup1:
 
 label monica_take_nap:
     if cloth == "CasualDress1":
-        call ep25_dialgues5_basement2()
+        call ep25_dialgues5_basement2() from _call_ep25_dialgues5_basement2
         $ cloth_type = "Nude"
         if monicaUnder == "Nude":
             $ cloth = "Nude"

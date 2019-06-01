@@ -85,7 +85,7 @@ label bettyProgressLevelUp1:
         $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
         $ char_data["show_caption_diabled"] = True
 #        $ char_data["caption_diabled"] = _("Work in progress...")
-        call ep24_quests_bardie1b()
+        call ep24_quests_bardie1b() from _call_ep24_quests_bardie1b
 
 
     if char_data["level"] == 5:

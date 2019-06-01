@@ -1,5 +1,5 @@
 label Steve_init:
-    call Steve_Life_init()
+    call Steve_Life_init() from _call_Steve_Life_init
     return
 
 label getSteveStatus:

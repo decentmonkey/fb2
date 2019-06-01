@@ -34,7 +34,7 @@ label steve_office_office_table_teleport:
             mt "Дверь в кабинет Стива."
             "Мне все-время кажется что за ней кто-то подслушивает..."
         if obj_data["action"] == "w":
-            call change_scene("steve_office_secretary")
+            call change_scene("steve_office_secretary") from _call_change_scene_249
             return
     return
 

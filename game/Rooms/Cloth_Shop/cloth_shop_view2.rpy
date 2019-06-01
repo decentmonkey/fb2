@@ -23,10 +23,10 @@ label cloth_shop_view2_init:
 
 label cloth_shop_view2_teleport:
     if obj_name == "Teleport_Cloth_Shop_View1":
-        call change_scene("cloth_shop_view1")
+        call change_scene("cloth_shop_view1") from _call_change_scene_305
         return
     if obj_name == "Teleport_Cashier":
-        call change_scene("cloth_shop_cashier")
+        call change_scene("cloth_shop_cashier") from _call_change_scene_306
         return
     return
 

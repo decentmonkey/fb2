@@ -158,7 +158,7 @@ label cit4_dialog_3a:
     mt "Где же она?"
 
     music stop
-    call textonblack(_("Спустя некоторое время..."))
+    call textonblack(_("Спустя некоторое время...")) from _call_textonblack_18
     img black_screen
     with Dissolve(1)
     music Groove2_85
@@ -326,7 +326,7 @@ label cit4_dialog_3a:
                     cashier "Хорошая девочка..."
                     # приводит покупателя
                     music stop
-                    call textonblack(_("Спустя некоторое время..."))
+                    call textonblack(_("Спустя некоторое время...")) from _call_textonblack_19
                     img black_screen
                     with Dissolve(1)
                     music Groove2_85

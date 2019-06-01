@@ -25,7 +25,7 @@ label steve_office_office_init:
 
 label steve_office_office_teleport:
     if obj_name == "Teleport_Steve_Office_Secretary":
-        call change_scene("steve_office_secretary")
+        call change_scene("steve_office_secretary") from _call_change_scene_245
     if obj_name == "Table":
         if act == "l":
             mt "Большой стол..."
@@ -33,7 +33,7 @@ label steve_office_office_teleport:
             if monicaBitch == True:
                 "Тщеславный ублюдок..."
         if act == "w":
-            call change_scene("steve_office_office_table")
+            call change_scene("steve_office_office_table") from _call_change_scene_246
             return
     return
 

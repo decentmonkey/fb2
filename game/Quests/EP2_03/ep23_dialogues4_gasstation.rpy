@@ -31,7 +31,7 @@ label ep23_dialogues4_1:
         saleswoman "Пожалуйста, скажите, если я смогу чем-то помочь Вам!"
 
         music Hidden_Agenda
-        call change_scene("gas_station_buy_food")
+        call change_scene("gas_station_buy_food") from _call_change_scene_247
 
         return
 

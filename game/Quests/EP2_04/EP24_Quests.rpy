@@ -33,12 +33,12 @@ label ep24_quests_fix:
         if monicaCleaningInProgressEngineWorkingFlag == True:
             $ houseCleaningStoredScene2 = store_scene("House", recursive=True)
             $ restore_scene(houseCleaningStoredScene)
-            call ep24_quests_steve1()
+            call ep24_quests_steve1() from _call_ep24_quests_steve1
             $ houseCleaningStoredScene = store_scene("House", recursive=True)
             $ restore_scene(houseCleaningStoredScene2)
             $ houseCleaningStoredScene2 = False
         else:
-            call ep24_quests_steve1()
+            call ep24_quests_steve1() from _call_ep24_quests_steve1_1
         return
     if steveVisit1PlannedComplete == True and bettyMustNotWearPanties == True:
         # Второй приход Стива уже запланирован

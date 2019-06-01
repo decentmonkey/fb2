@@ -20,10 +20,10 @@ label cloth_shop_dressing_room_teleport:
             mt "Эта примерочная... Я помню как спала здесь!"
             return
         if obj_data["action"] == "w":
-            call change_scene("cloth_shop_dressing_room2")
+            call change_scene("cloth_shop_dressing_room2") from _call_change_scene_250
             return
     if obj_name == "Teleport_Cloth_Shop_View1":
-        call change_scene("cloth_shop_view1")
+        call change_scene("cloth_shop_view1") from _call_change_scene_251
         return
 
 

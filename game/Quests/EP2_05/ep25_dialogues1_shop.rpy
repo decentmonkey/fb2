@@ -660,7 +660,7 @@ label ep25_dialogues1_shop7:
     cashier "Да, кстати."
     # щелкает ее на телефон
     img 10732
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_102
     w
     cashier "И только попробуй что-нибудь украсть."
     cashier "Этот снимок сразу отправится в полицию!"
@@ -974,7 +974,7 @@ label ep25_dialogues1_shop15:
     # Моника работает манекеном и срывается после очередного жесткого покупателя
     mt "Все! С меня хватит!"
     mt "Я больше не в состоянии терпеть это!"
-    call ep25_quests_shop11a()
+    call ep25_quests_shop11a() from _call_ep25_quests_shop11a_2
     return
 
 label ep25_dialogues1_shop16:
