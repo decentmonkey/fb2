@@ -1,5 +1,6 @@
 default pylonpart2startsCompleted = False
 default pylonpart3startsCompleted = False
+default pylonpart4startsCompleted = False
 
 label citizen15_dialogue:
     imgl Dial_Monica_Sandwich_0
@@ -160,9 +161,9 @@ label citizen15_dialogue_pilon:
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             $ store_citizen_action("PylonDanceCloth", 1)
             jump citizen15_dialogue_pilon_loop15
-        "Голые сиськи. (disabled)" if pylonpart3startsCompleted == False and 1==2:
+        "Голые сиськи. (disabled)" if pylonpart4startsCompleted == False and 1==2:
             pass
-        "Голые сиськи." if pylonpart3startsCompleted == True:
+        "Голые сиськи." if pylonpart4startsCompleted == True:
             # ПЕРЕНЕСЕНО В citizen4!!!
             jump citizen15_dialogue_pilon_loop15
         "Достаточно на сегодня.":

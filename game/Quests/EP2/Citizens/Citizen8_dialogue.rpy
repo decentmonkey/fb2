@@ -189,9 +189,9 @@ label citizen8_dialogue_pilon:
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             $ store_citizen_action("PylonDanceCloth", 1)
             jump citizen8_dialogue_pilon_loop8
-        "Голые сиськи. (disabled)" if pylonpart3startsCompleted == False and 1==2:
+        "Голые сиськи. (disabled)" if pylonpart4startsCompleted == False and 1==2:
             pass
-        "Голые сиськи." if pylonpart3startsCompleted == True:
+        "Голые сиськи." if pylonpart4startsCompleted == True:
             call pylonController(4, 1) from _call_pylonController_86
             citizen8 "Покажи мне грудь, только теперь без одежды."
             mt "Он и вправду говорит как бизнесмен, заключающий сделку..."
