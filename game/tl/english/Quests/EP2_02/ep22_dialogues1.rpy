@@ -6,8 +6,8 @@ translate english ep22_dialogue1_2_governess_refuse_to_go_176c0e82:
     # mt "Я не пойду туда в таком виде!"
     # "Все сразу поймут что я работаю гувернанткой и без труда вычислят где я живу."
     # "Уверена, Маркус будет рад узнать это..."
-    mt "I'm not going in there like this!"
-    "All of them will understand at once that I work as a governess and easily figure out where I live."
+    mt "I'm not going there like that!"
+    "All of them will understand at once that I work as a maid and easily figure out where I live."
     "I'm sure Marcus will be glad to know that..."
 
 # game/Quests/EP2_02/ep22_dialogues1.rpy:42

@@ -620,7 +620,7 @@ translate english sleep_scene1_local1_d710f8b7:
     # "Я - Моника Бакфетт!"
     # "Я - лицо модного журнала!"
     # "Невозможно представить журнал без меня!"
-    "I am Monica Buckfett!"
+    "I am - Monica Buckfett!"
     "I'm the face of the fashion magazine!"
     "It is impossible to imagine the magazine without me!"
 
@@ -760,7 +760,7 @@ translate english sleep_scene1_local1_e8d4e1fc:
     # "Думаю мне необязательно все время убираться здесь..."
     # "Эта семейка не привыкла к тем стандартам чистоты, которые требовала я от гувернанток."
     "I guess I don't have to clean this place all the time..."
-    "This family is not used to the standards of cleanliness that I demanded from my governesses."
+    "This family is not used to the standards of cleanliness that I demanded from my maid."
 
 # game/Quests/EP2/ep2_dialogues1.rpy:508
 translate english sleep_scene1_local1_31aad242:
@@ -914,7 +914,7 @@ translate english cleaning_betty_comment1_72c4389d:
 translate english cleaning_betty_comment1_faa5a50a:
 
     # "Сучка!"
-    "Bitch!"
+    "Bitch!!!"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:610
 translate english cleaning_bardie_comment1_4c88471c:

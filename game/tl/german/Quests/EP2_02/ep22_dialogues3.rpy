@@ -727,7 +727,7 @@ translate german ep22_dialogues3_6_b0410944:
     # "И ты не имеешь права говорить мне подобное!!!"
     m "Was?!?! SCHON WIEDER DAS?!?"
     m "Du weißt doch wer ich bin?!"
-    "Ich bin Monica Buckfett!"
+    "Ich bin - Monica Buckfett!"
     "Du hast kein Recht so mit mir zu reden!!!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:398

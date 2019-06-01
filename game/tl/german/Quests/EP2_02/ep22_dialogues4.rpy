@@ -505,7 +505,7 @@ translate german ep22_dialogues4_6_loop3_af78cd21:
     # betty "Конечно!"
     # "С удовольствием!"
     fitness_instructor "Betty, lass mich dir helfen..."
-    betty "Sicherlich!"
+    betty "Definitiv!"
     "Mit Freude!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:539

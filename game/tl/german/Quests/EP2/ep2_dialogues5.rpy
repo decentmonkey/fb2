@@ -243,7 +243,7 @@ translate german monica_charity_event_dialogue2a_2b4d0fdb:
 
     # m "Я - Моника Бакфетт!"
     # "И я хочу объявить о преступлении, которое совершено в отношении меня!"
-    m "Ich bin Monica Buckfett!"
+    m "Ich bin - Monica Buckfett!"
     "Und ich will von einem Verbrechen berichten, das an mir begangen wurde!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:161
@@ -302,7 +302,7 @@ translate german monica_charity_event_dialogue2a_0c58ee8c:
     # "И я подтверждаю слова Мистера Бифа!"
     # "Наш журнал изменит свой курс!"
     m "..."
-    m "Ich bin Monica Buckfett!"
+    m "Ich bin - Monica Buckfett!"
     "Ich werde alles bestätigen was Biff gesagt hat!"
     "Unser Magazin wird sich neu ausrichten!"
 
@@ -376,7 +376,7 @@ translate german monica_charity_event_dialogue2a_9e5167a0:
     # reporter2 "Скажите! Вы готовы поддержать новый курс собственным примером?"
     # reporter3 "Мы слышали что Вы только что провели фотосессию!"
     # "Вы решили сняться обнаженной?"
-    reporter1 "Frau Buckfett!"
+    reporter1 "Frau Buckfett..."
     "Erzählen Sie! Wieso haben Sie sich zu einem derartigen Richtungswechsel entschlossen?"
     reporter2 "Sind sie bereit diese Neuasurichtung auch durch das eigene Vorbild zu unterstützen?"
     reporter3 "Man hört, Sie hatten gerade erst einen entsprechenden Photo-Shoot!"
@@ -613,7 +613,7 @@ translate german monica_charity_event_dialogue6_a418c3a1:
     # "Пожалуйста, не надо!"
     # "Я постараюсь все исправить!"
     hotel_staff "Entschuldigen Sie!"
-    "Bitte, tun Sie das nicht!"
+    "Bitte, nicht!"
     "Ich werde das wieder gut machen!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:369
@@ -693,7 +693,7 @@ translate german monica_charity_event_dialogue8_212059e7:
     mt "Toll! Noch eine Nervensäge!"
     "Lass ihn runter!"
     "..."
-    "Obwohl..."
+    "Warte..."
     "Kaufe etwas Wein..."
     "Wieso nicht..."
     "Zumindest sieht er reich aus..."
@@ -1686,7 +1686,7 @@ translate german monica_charity_event_dialogue17_aa1a70ec:
     # m "Нет!"
     # philip "Мэм! Спасибо за танец!"
     # "Если захотите потанцевать еще, то пригласите меня!"
-    m "Nein!"
+    m "Nein! Das ist das teuerste Kleid im ganzen Laden."
     philip "Ich danke für unseren Tanz!"
     "Wenn sie noch einen weiteren Tanz wollen, sagen sie es mir!"
 
@@ -1776,7 +1776,7 @@ translate german monica_charity_event_dialogue17_7f797f09:
     # philip "Миссис Бакфетт!"
     # "Эта гостиница предоставляет разнообразные услуги!"
     # "Я начинаю торопиться и скоро уже ухожу!"
-    philip "Frau Buckfett!"
+    philip "Frau Buckfett..."
     "Dieses Hotel bietet verschiedene Dienste!"
     "Ich habe es eilig und werde bald gehen!"
 
@@ -1899,7 +1899,7 @@ translate german monica_charity_event_dialogue18_59b27202:
 
     # philip "Миссис Бакфетт!"
     # "Мне будет неудобно находиться в женском туалете!"
-    philip "Frau Buckfett!"
+    philip "Frau Buckfett..."
     "Auf der Damentoilette fühle ich mich nicht so wohl!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1116
@@ -1958,7 +1958,7 @@ translate german monica_charity_event_dialogue18_1609c27d:
 translate german monica_charity_event_dialogue18_b53e0a75:
 
     # philip "Хорошая девочка..."
-    philip "Braves Mädchen..."
+    philip "Gutes Mädchen..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1164
 translate german monica_charity_event_dialogue18_eb6e53ba:
@@ -1993,7 +1993,7 @@ translate german monica_charity_event_dialogue18_6cc320f0:
 
     # philip "Миссис Бакфетт!"
     # "Не могли-бы Вы пошире открыть его?"
-    philip "Frau Buckfett!"
+    philip "Frau Buckfett..."
     "Mach ihn weiter auf, ja?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1193
@@ -2031,7 +2031,7 @@ translate german monica_charity_event_dialogue18_d7fc46bf:
     # "Я думал что ему больше подходит цена в $ 300!"
     # "Но нет!"
     # "Теперь я уверен что $ 500 он стоит вполне!"
-    philip "Frau Buckfett!"
+    philip "Frau Buckfett..."
     "Ausgezeichnet!"
     "Ich nehme an, du hast nicht viel Übung!"
     "Aber ich genieße es tatsächlich!"
@@ -2113,7 +2113,7 @@ translate german monica_charity_event_dialogue18_c86f0170:
 
     # philip "Миссис Бакфетт!"
     # "Почему я должен давать Вам еще $ 500?"
-    philip "Frau Buckfett!"
+    philip "Frau Buckfett..."
     "Warum sollte ich dir nochmal 500€ geben ?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1296
@@ -2203,7 +2203,7 @@ translate german monica_charity_event_dialogue18_40240c22:
     # "Знаете что..."
     # "Вы сделаете миньет первому мужчине, который зайдет сюда!"
     # "Тогда Вы получите еще $ 500!"
-    philip "Obwohl..."
+    philip "Warte..."
     "Weisst du was..."
     "Du lutschst dem nächsten Kerl der hier reinkommt den Schwanz!"
     "Dann kriegst du deine 500€!"
@@ -3752,7 +3752,7 @@ translate german monica_charity_event_dialogue18_local1_1609c27d:
 translate german monica_charity_event_dialogue18_local1_b53e0a75:
 
     # philip "Хорошая девочка..."
-    philip "Braves Mädchen..."
+    philip "Gutes Mädchen..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1517
 translate german monica_charity_event_dialogue18_local1_eb6e53ba:
@@ -3787,7 +3787,7 @@ translate german monica_charity_event_dialogue18_local2_6cc320f0:
 
     # philip "Миссис Бакфетт!"
     # "Не могли-бы Вы пошире открыть его?"
-    philip "Frau Buckfett!"
+    philip "Frau Buckfett..."
     "Mach ihn weiter auf, ja?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1552
@@ -3825,7 +3825,7 @@ translate german monica_charity_event_dialogue18_local3_d7fc46bf:
     # "Я думал что ему больше подходит цена в $ 300!"
     # "Но нет!"
     # "Теперь я уверен что $ 500 он стоит вполне!"
-    philip "Frau Buckfett!"
+    philip "Frau Buckfett..."
     "Ausgezeichnet!"
     "Ich nehme an, du hast nicht viel Übung!"
     "Aber ich genieße es tatsächlich!"
@@ -3907,7 +3907,7 @@ translate german monica_charity_event_dialogue18_local3_c86f0170:
 
     # philip "Миссис Бакфетт!"
     # "Почему я должен давать Вам еще $ 500?"
-    philip "Frau Buckfett!"
+    philip "Frau Buckfett..."
     "Warum sollte ich dir nochmal 500€ geben ?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1676
@@ -3995,7 +3995,7 @@ translate german monica_charity_event_dialogue18_local4_852d67ec:
 
     # philip "Хотя..."
     # "Знаете что..."
-    philip "Obwohl..."
+    philip "Warte..."
     "Weisst du was..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1723
@@ -4559,7 +4559,7 @@ translate german monica_charity_event_dialogue18_local3_1d7fc3ae:
     # "Отлично!"
     # "Чувствуется что у Вас недостаток практики!"
     # "Но мне это даже нравится!"
-    philip "Frau Buckfett!"
+    philip "Frau Buckfett..."
     "Ausgezeichnet!"
     "Ich nehme an, du hast nicht viel Übung!"
     "Aber ich genieße es tatsächlich!"

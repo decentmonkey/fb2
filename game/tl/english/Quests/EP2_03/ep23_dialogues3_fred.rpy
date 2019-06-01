@@ -96,7 +96,7 @@ translate english ep23_dialogues3_1_83afe761:
     mt "That bastard!"
     "How dare he to talk to me like that!"
     mt "..."
-    mt "Although..."
+    mt "Wait..."
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:68
 translate english ep23_dialogues3_1_b9b2fb6a:
@@ -315,16 +315,16 @@ translate english ep23_dialogues3_1_3026248a:
     # "Чмок!"
     # m "Пока, девочки!"
     stephanie "Bye, Monica!"
-    "Smotch!"
+    "Muah!"
     rebecca "Bye, Monica!"
-    "Smotch!"
+    "Muah!"
     m "Bye, girls!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:261
 translate english ep23_dialogues3_2_fdee4e3e:
 
     # betty "Гуверантка! Где моя сумка с униформой?"
-    betty "Governess! Where's my uniform bag?"
+    betty "Maid! Where's my uniform bag?"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:263
 translate english ep23_dialogues3_2_7dc6e6eb:
@@ -750,7 +750,7 @@ translate english ep23_dialogues3_5a_c3cda9dc:
 translate english ep23_dialogues3_5a_bbc4e156:
 
     # betty "Чмок!"
-    betty "Smotch!"
+    betty "Muah!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:781
 translate english ep23_dialogues3_5a_9f9ae072:
@@ -768,7 +768,7 @@ translate english ep23_dialogues3_5a_c3cda9dc_1:
 translate english ep23_dialogues3_5a_bbc4e156_1:
 
     # betty "Чмок!"
-    betty "Smotch!"
+    betty "Muah!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:793
 translate english ep23_dialogues3_5a_9f9ae072_1:

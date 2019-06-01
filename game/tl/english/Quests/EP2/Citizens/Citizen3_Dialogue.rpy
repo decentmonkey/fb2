@@ -82,7 +82,7 @@ translate english citizen3_dialogue_eea83318:
     # citizen3 "Да, и самое главное: Ты должна будешь сказать Найджелу наш пароль, чтобы он понял, что все чисто."
     # m "Какой еще пароль?"
     citizen3 "Don't forget to say you're from Jack."
-    m "Okay, good"
+    m "Whatever"
     citizen3 "Yes. And, most importantly, you'll have to give Nigel our password, so he knows that everything is clean."
     m "What is the password?"
 
@@ -410,17 +410,17 @@ translate english cit3_naked_boobs_1st_6872a29d:
     # citizen3 "Уж очень мне интересно, как выглядят твои сиськи без этого чудесного топа!"
     # mt "Они выглядят отлично!"
     # citizen3 "Покажи их мне!"
-    citizen3 "Ты знаешь, есть одна вещь, которая меня сильно интригует!"
+    citizen3 "You know, there is one more thing that intrigues me very much."
     m "?"
-    citizen3 "Уж очень мне интересно, как выглядят твои сиськи без этого чудесного топа!"
-    mt "Они выглядят отлично!"
-    citizen3 "Покажи их мне!"
+    citizen3 "I wonder how nice your tits going to look without your top."
+    mt "They are looking great!"
+    citizen3 "Show them to me!"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:277
 translate english cit3_naked_boobs_1st_16fe1cc6:
 
     # m "Хватит и того, что ты уже видел!"
-    m "Хватит и того, что ты уже видел!"
+    m "You've seen enough already!"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:279
 translate english cit3_naked_boobs_1st_daad1616:
@@ -431,26 +431,26 @@ translate english cit3_naked_boobs_1st_daad1616:
     # m "Нигде."
     # citizen3 "Странно, очень странно..."
     # citizen3 "Ладно, в другой раз вспомню..."
-    m "Ладно, но руками не трогать!"
-    citizen3 "Ха! Я уверен, что где-то уже видел твои сиськи... Или не твои.."
-    citizen3 "Не подскажешь, где я мог их видеть?"
-    m "Нигде."
-    citizen3 "Странно, очень странно..."
-    citizen3 "Ладно, в другой раз вспомню..."
+    m "Fine, but no touching!"
+    citizen3 "Pretty sure I've seen your tits somewhere already! Or not yours..."
+    citizen3 "Do you know where I could have seen them?"
+    m "Nowhere."
+    citizen3 "Strange... very strange..."
+    citizen3 "Oh well, I'll remember next time..."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:293
 translate english cit3_naked_boobs_variant1_60f7d342:
 
     # citizen3 "Дорогуша, покажи мне свои красивые сиськи!"
     # citizen3 "Не за бесплатно конечно же."
-    citizen3 "Дорогуша, покажи мне свои красивые сиськи!"
-    citizen3 "Не за бесплатно конечно же."
+    citizen3 "Darling, show me your pretty tits!"
+    citizen3 "Not for free of course!"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:299
 translate english cit3_naked_boobs_variant1_16fe1cc6:
 
     # m "Хватит и того, что ты уже видел!"
-    m "Хватит и того, что ты уже видел!"
+    m "You've seen enough already!"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:301
 translate english cit3_naked_boobs_variant1_285b89a7:
@@ -464,27 +464,27 @@ translate english cit3_naked_boobs_variant1_285b89a7:
     # citizen3 "Ну как же, Сара! У нее лучшие сиськи на районе!"
     # citizen3 "Надо будет как нибудь устроить соревнование. да, это отличная идея!"
     # mt "Интересно, о ком это он? Хотя какая разница, у меня нет соперниц."
-    m "Так и быть, только руками не трогать."
-    citizen3 "Да! Я вспомнил!"
+    m "Very well, but no touching."
+    citizen3 "Yes! I remembered!"
     m "?"
-    citizen3 "Сиськи как у Сары! Ты знакома с Сарой?"
-    citizen3 "Хотя почему я спрашиваю? Конечно вы знакомы."
-    m "Я не знаю о ком ты говоришь."
-    citizen3 "Ну как же, Сара! У нее лучшие сиськи на районе!"
-    citizen3 "Надо будет как нибудь устроить соревнование. да, это отличная идея!"
-    mt "Интересно, о ком это он? Хотя какая разница, у меня нет соперниц."
+    citizen3 "Tits just like Sara's. Do you know her?"
+    citizen3 "Why do I even ask? Of course you know her."
+    m "I don't know who you are talking about."
+    citizen3 "Sarah! She has the best boobs in the area!"
+    citizen3 "It will be necessary to arrange a competition. Yes, this is a great idea!"
+    mt "I wonder whom it is he talking about? Although doesn't matter, I have no rivals."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:317
 translate english cit3_naked_boobs_variant2_3fbca55d:
 
     # citizen3 "Детка, хочу взглянуть еще раз на твои сиськи, только сними курточку."
-    citizen3 "Детка, хочу взглянуть еще раз на твои сиськи, только сними курточку."
+    citizen3 "Babe, let me have a look at your tites again, take of your jacket."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:322
 translate english cit3_naked_boobs_variant2_16fe1cc6:
 
     # m "Хватит и того, что ты уже видел!"
-    m "Хватит и того, что ты уже видел!"
+    m "You've seen enough already!"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:324
 translate english cit3_naked_boobs_variant2_c9392e02:
@@ -504,21 +504,21 @@ translate english cit3_naked_boobs_variant2_c9392e02:
     # citizen3 "И даже больше: она просто прекрасна, уж можешь поверить."
     # citizen3  "И хоть я и не самый хороший парень, но я виноват, признаю."
     # citizen3 "Как насчет компенсации? Знаю, что ты не против..."
-    m "Так и быть, только руками не трогать."
-    citizen3 "Ага... Да..."
-    citizen3 "Хорошо... Вроде бы..."
-    mt "Интересно, что это с ним сегодня? Обычно он более разоворчив..."
-    citizen3 "А что если?"
-    m "Ах ты говнюк! Какого черта?!"
-    citizen3 "Что то не так?"
-    m "Что то не так! Ты трогал мою грудь!"
-    citizen3 "А, ты про это..."
-    citizen3 "Это твоя вина! Я никак не мог вспомнить видел ли я где-то твою грудь и был вынужден ее поторгать, чтобы убедиться."
-    m "Да я тебя сейчас..."
-    citizen3 "Все, все, не злись! Я прошу прощения и заверяю тебя, что раньше твою грудь я не видел."
-    citizen3 "И даже больше: она просто прекрасна, уж можешь поверить."
-    citizen3  "И хоть я и не самый хороший парень, но я виноват, признаю."
-    citizen3 "Как насчет компенсации? Знаю, что ты не против..."
+    m "Very well, but no touching."
+    citizen3 "Ahh... yes..."
+    citizen3 "Good... I think...."
+    mt "What's up with him today? Usually he is more talkative."
+    citizen3 "What if?"
+    m "You, jerk! What the hell!"
+    citizen3 "Is something wrong?"
+    m "Wrong? You touched my breast!"
+    citizen3 "Oh, about this..."
+    citizen3 "It's all your fault! I couldn’t remember where I've seen your tits before and had to touch them to make sure!"
+    m "I'll..."
+    citizen3 "Come on, come on! Don’t be mad! I'm sorry and assure you that I haven’t seen your breast before."
+    citizen3 "More over, it's beautiful, you can believe me."
+    citizen3  "I'm not a very good guy, but I'm very sorry."
+    citizen3 "What about compensation, I know that you don't mind."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:345
 translate english cit3_naked_boobs_variant2_09f5ba7b:
@@ -526,13 +526,99 @@ translate english cit3_naked_boobs_variant2_09f5ba7b:
     # citizen3 "Наш конфликт улажен?"
     # mt "Были бы мы не в этих трущебах, я бы тебя прибила..."
     # m "...Да."
-    citizen3 "Наш конфликт улажен?"
-    mt "Были бы мы не в этих трущебах, я бы тебя прибила..."
-    m "...Да."
+    citizen3 "Are we good?"
+    mt "If only we weren't in this slums, I would beat you up..."
+    m "Yes..."
 
 translate english strings:
 
     # Quests/EP2/Citizens/Citizen3_Dialogue.rpy:273
     old "Хватит и того, что ты уже видел!"
-    new ""
+    new "You've seen enough already!"
+
+# TODO: Translation updated at 2019-06-01 03:20
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:279
+translate english cit3_naked_boobs_1st_c6806607:
+
+    # m "Отвернись!"
+    # m "Можешь повернуться."
+    # m "Но руками не трогать!"
+    # citizen3 "Ха! Я уверен, что где-то уже видел твои сиськи... Или не твои.."
+    # citizen3 "Не подскажешь, где я мог их видеть?"
+    # m "Нигде."
+    # citizen3 "Странно, очень странно..."
+    # citizen3 "Ладно, в другой раз вспомню..."
+    m "Turn around!"
+    m "Можешь повернуться."
+    m "Но руками не трогать!"
+    citizen3 "Pretty sure I've seen your tits somewhere already! Or not yours..."
+    citizen3 "Do you know where I could have seen them?"
+    m "Nowhere."
+    citizen3 "Strange... very strange..."
+    citizen3 "Oh well, I'll remember next time..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:304
+translate english cit3_naked_boobs_variant1_72661f06:
+
+    # m "Отвернись!"
+    # m "Можешь повернуться."
+    # m "Только руками не трогать!"
+    # citizen3 "Да! Я вспомнил!"
+    # m "?"
+    # citizen3 "Сиськи как у Сары! Ты знакома с Сарой?"
+    # citizen3 "Хотя почему я спрашиваю? Конечно вы знакомы."
+    # m "Я не знаю о ком ты говоришь."
+    # citizen3 "Ну как же, Сара! У нее лучшие сиськи на районе!"
+    # citizen3 "Надо будет как нибудь устроить соревнование. Да, это отличная идея!"
+    # mt "Интересно, о ком это он? Хотя какая разница, у меня нет соперниц."
+    m "Turn around!"
+    m "Можешь повернуться."
+    m "No touching!"
+    citizen3 "Yes! I remembered!"
+    m "?"
+    citizen3 "Tits just like Sara's. Do you know her?"
+    citizen3 "Why do I even ask? Of course you know her."
+    m "I don't know who you are talking about."
+    citizen3 "Sarah! She has the best boobs in the area!"
+    citizen3 "Надо будет как нибудь устроить соревнование. Да, это отличная идея!"
+    mt "I wonder whom it is he talking about? Although doesn't matter, I have no rivals."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:330
+translate english cit3_naked_boobs_variant2_900099fc:
+
+    # m "Отвернись!"
+    # m "Можешь повернуться."
+    # m "Только руками не трогать!"
+    # citizen3 "Ага... Да..."
+    # citizen3 "Хорошо... Вроде бы..."
+    # mt "Интересно, что это с ним сегодня? Обычно он более разоворчив..."
+    # citizen3 "А что если?"
+    # m "Ах ты говнюк! Какого черта?!"
+    # citizen3 "Что то не так?"
+    # m "Что то не так! Ты трогал мою грудь!"
+    # citizen3 "А, ты про это..."
+    # citizen3 "Это твоя вина! Я никак не мог вспомнить видел ли я где-то твою грудь и был вынужден ее поторгать, чтобы убедиться."
+    # m "Да я тебя сейчас..."
+    # citizen3 "Все, все, не злись! Я прошу прощения и заверяю тебя, что раньше твою грудь я не видел."
+    # citizen3 "И даже больше: она просто прекрасна, уж можешь поверить."
+    # citizen3  "И хоть я и не самый хороший парень, но я виноват, признаю."
+    # citizen3 "Как насчет компенсации? Знаю, что ты не против..."
+    m "Turn around!"
+    m "Можешь повернуться."
+    m "No touching!"
+    citizen3 "Ahh... yes..."
+    citizen3 "Good... I think...."
+    mt "What's up with him today? Usually he is more talkative."
+    citizen3 "What if?"
+    m "You, jerk! What the hell!"
+    citizen3 "Is something wrong?"
+    m "Wrong? You touched my breast!"
+    citizen3 "Oh, about this..."
+    citizen3 "It's all your fault! I couldn’t remember where I've seen your tits before and had to touch them to make sure!"
+    m "I'll..."
+    citizen3 "Come on, come on! Don’t be mad! I'm sorry and assure you that I haven’t seen your breast before."
+    citizen3 "More over, it's beautiful, you can believe me."
+    citizen3  "I'm not a very good guy, but I'm very sorry."
+    citizen3 "What about compensation, I know that you don't mind."
 

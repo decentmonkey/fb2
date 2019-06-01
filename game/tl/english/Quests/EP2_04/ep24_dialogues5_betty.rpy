@@ -270,7 +270,7 @@ translate english ep24_dialogues5_betty0_bbe44df1:
 translate english ep24_dialogues5_betty0_55daa0f5:
 
     # betty "Не более минуты, гувернантка. Я не собираюсь ждать тебя."
-    betty "Not more than a minute, governess. I'm not going to wait for you."
+    betty "Not more than a minute, maid. I'm not going to wait for you."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:16
 translate english ep24_dialogues5_betty0_bcf04fb0:
@@ -636,7 +636,7 @@ translate english ep24_dialogues5_betty3_99bb31af:
 translate english ep24_dialogues5_betty3_db8f9b40:
 
     # betty "Гувернантка, Я уже показывала тебе сегодня!"
-    betty "Governess, I already showed you today!"
+    betty "Maid, I already showed you today!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:416
 translate english ep24_dialogues5_betty3_e612037c:
@@ -654,25 +654,25 @@ translate english ep24_dialogues5_betty3_71b0b52f:
 translate english ep24_dialogues5_betty3_c795cddb:
 
     # betty "На, гувернантка, смотри."
-    betty "Here, governess, look."
+    betty "Here, maid, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:447
 translate english ep24_dialogues5_betty3_c795cddb_1:
 
     # betty "На, гувернантка, смотри."
-    betty "Here, governess, look."
+    betty "Here, maid, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:462
 translate english ep24_dialogues5_betty3_c795cddb_2:
 
     # betty "На, гувернантка, смотри."
-    betty "Here, governess, look."
+    betty "Here, maid, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:477
 translate english ep24_dialogues5_betty3_c795cddb_3:
 
     # betty "На, гувернантка, смотри."
-    betty "Here, governess, look."
+    betty "Here, maid, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:501
 translate english ep24_dialogues5_betty3_d209f8fd:
@@ -702,7 +702,7 @@ translate english ep24_dialogues5_betty4_99bb31af:
 translate english ep24_dialogues5_betty4_db8f9b40:
 
     # betty "Гувернантка, Я уже показывала тебе сегодня!"
-    betty "Governess, I already showed you today!"
+    betty "Maid, I already showed you today!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:527
 translate english ep24_dialogues5_betty4_e612037c:
@@ -714,7 +714,7 @@ translate english ep24_dialogues5_betty4_e612037c:
 translate english ep24_dialogues5_betty4_c795cddb:
 
     # betty "На, гувернантка, смотри."
-    betty "Here, governess, look."
+    betty "Here, maid, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:537
 translate english ep24_dialogues5_betty4_d209f8fd:
@@ -726,7 +726,7 @@ translate english ep24_dialogues5_betty4_d209f8fd:
 translate english ep24_dialogues5_betty4_c795cddb_1:
 
     # betty "На, гувернантка, смотри."
-    betty "Here, governess, look."
+    betty "Here, maid, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:546
 translate english ep24_dialogues5_betty4_d209f8fd_1:
@@ -738,7 +738,7 @@ translate english ep24_dialogues5_betty4_d209f8fd_1:
 translate english ep24_dialogues5_betty4_c795cddb_2:
 
     # betty "На, гувернантка, смотри."
-    betty "Here, governess, look."
+    betty "Here, maid, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:555
 translate english ep24_dialogues5_betty4_d209f8fd_2:
@@ -750,7 +750,7 @@ translate english ep24_dialogues5_betty4_d209f8fd_2:
 translate english ep24_dialogues5_betty4_c795cddb_3:
 
     # betty "На, гувернантка, смотри."
-    betty "Here, governess, look."
+    betty "Here, maid, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:564
 translate english ep24_dialogues5_betty4_d209f8fd_3:
@@ -762,7 +762,7 @@ translate english ep24_dialogues5_betty4_d209f8fd_3:
 translate english ep24_dialogues5_betty4_c795cddb_4:
 
     # betty "На, гувернантка, смотри."
-    betty "Here, governess, look."
+    betty "Here, maid, look."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:573
 translate english ep24_dialogues5_betty4_d209f8fd_4:
@@ -936,7 +936,7 @@ translate english ep24_dialogues5_betty6_99bb31af:
 translate english ep24_dialogues5_betty6_db8f9b40:
 
     # betty "Гувернантка, Я уже показывала тебе сегодня!"
-    betty "Governess, I already showed you today!"
+    betty "Maid, I already showed you today!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:729
 translate english ep24_dialogues5_betty6_67dc66da:
@@ -998,7 +998,7 @@ translate english ep24_dialogues5_betty7_f2060836:
 translate english ep24_dialogues5_betty7_db8f9b40:
 
     # betty "Гувернантка, Я уже показывала тебе сегодня!"
-    betty "Governess, I already showed you today!"
+    betty "Maid, I already showed you today!"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:900
 translate english ep24_dialogues5_betty7_67dc66da:

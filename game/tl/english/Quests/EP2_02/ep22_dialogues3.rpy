@@ -143,7 +143,7 @@ translate english ep22_dialogues3_2_7a6e0295:
 
     # bardie "Ты пожалеешь об этом!"
     # "О том что сказала мне!"
-    bardie "You'll regret it!"
+    bardie "You will regret it!"
     "Especially what you said to me!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:83
@@ -410,7 +410,7 @@ translate english ep22_dialogues3_4_310722a7:
     # "Тогда я не буду звать Мистера Маркуса!"
     bardie "Really? Okay then, let's see!"
     "I'm your master now, not Ralph!"
-    "You're my governess, and you're gonna be my toy!"
+    "You're my maid, and you're gonna be my toy!"
     "You'll do whatever I say!"
     "And if not, I will talk to Mr. Marcus!"
 
@@ -582,7 +582,7 @@ translate english ep22_dialogues3_6_1e24ebd5:
     # "Гувернантка???"
     bardie "But Monica Buckfett is the head of the company where my dad works!"
     bardie "How could that possibly be you?"
-    "The head of a company, working as a governess?"
+    "The head of a company, working as a maid?"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:337
 translate english ep22_dialogues3_6_e2224cec:
@@ -727,7 +727,7 @@ translate english ep22_dialogues3_6_b0410944:
     # "И ты не имеешь права говорить мне подобное!!!"
     m "What?! Again?!"
     m "I though you realized who I am!"
-    "I am Monica Buckfett!"
+    "I am - Monica Buckfett!"
     "And that you have no right to ask me to do something like that!!!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:398
@@ -876,7 +876,7 @@ translate english ep22_dialogues3_6_9b852c0e:
 translate english ep22_dialogues3_6_21991eab:
 
     # "Пожалуй, я оставлю эту гувернантку себе!"
-    "I think I'll keep this governess!"
+    "I think I'll keep this maid!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:525
 translate english ep22_dialogues3_6_696e7492:
@@ -1009,7 +1009,7 @@ translate english cleaning2_bardie_comment1_5c7e394e:
 
     # bardie "Ты одела правильные трусики! Хорошая гувернантка!"
     # mt "!!!"
-    bardie "You wore the right panties! Good governess!"
+    bardie "You wore the right panties! Good maid!"
     mt "!!!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:652
@@ -1039,7 +1039,7 @@ translate english cleaning2_bardie_comment2_5c7e394e:
 
     # bardie "Ты одела правильные трусики! Хорошая гувернантка!"
     # mt "!!!"
-    bardie "You wore the right panties! Good governess!"
+    bardie "You wore the right panties! Good maid!"
     mt "!!!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:738
@@ -1061,7 +1061,7 @@ translate english cleaning2_bardie_comment3_5c7e394e:
 
     # bardie "Ты одела правильные трусики! Хорошая гувернантка!"
     # mt "!!!"
-    bardie "You wore the right panties! Good governess!"
+    bardie "You wore the right panties! Good maid!"
     mt "!!!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:814
@@ -1069,7 +1069,7 @@ translate english ep22_dialogues3_8_53dc2f2c:
 
     # bardie "Гувернантка, {c}зайди после уборки к себе в спальню{/c}."
     # "Я хочу поговорить с тобой."
-    bardie "Governess, {c}go to your bedroom after you've finished cleaning {/c}."
+    bardie "Maid, {c}go to your bedroom after you've finished cleaning {/c}."
     "I want to talk to you."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:834
@@ -1388,19 +1388,19 @@ translate english strings:
 translate english cleaning2_bardie_comment1_40c0b8cb:
 
     # bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
-    bardie "Well done, governess. You are following the house rules."
+    bardie "Well done, maid. You are following the house rules."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:741
 translate english cleaning2_bardie_comment2_40c0b8cb:
 
     # bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
-    bardie "Well done, governess. You are following the house rules."
+    bardie "Well done, maid. You are following the house rules."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:840
 translate english cleaning2_bardie_comment3_40c0b8cb:
 
     # bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
-    bardie "Well done, governess. You are following the house rules."
+    bardie "Well done, maid. You are following the house rules."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:1017
 translate english ep22_dialogues3_13_64e4bbbc:

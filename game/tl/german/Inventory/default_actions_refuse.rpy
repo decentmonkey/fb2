@@ -14,4 +14,4 @@ translate german cant_use_fba19ab3:
     # mt "Я не собираюсь раздавать наркотики кому попало."
     # "Я еще не сошла с ума!"
     mt "Ich werde niemandem Drogen geben."
-    "Meinen Verstand habe ich noch nicht verloren!"
+    "Ich bin noch nicht total verrückt!"

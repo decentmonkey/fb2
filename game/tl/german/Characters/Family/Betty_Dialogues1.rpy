@@ -12,7 +12,7 @@ translate german bettyDialogue2_f5e3591c:
 translate german bettyDialogue2_58d95acf:
 
     # "Сучка..."
-    "Miststück..."
+    "Schlampe!"
 
 # game/Characters/Family/Betty_Dialogues1.rpy:24
 translate german bettyDialogue3_7562f25e:
@@ -26,5 +26,5 @@ translate german bettyDialogue3_7562f25e:
 translate german bettyDialogue3_58d95acf:
 
     # "Сучка..."
-    "Miststück..."
+    "Schlampe!"
 

@@ -351,7 +351,7 @@ translate german ep24_dialogues2_steve3_276b50d9:
 
     # betty "Пожалуйста, проходи в гостиную."
     # "У меня все готово!"
-    betty "Bitte, gehen wir ins Gäsezimmer."
+    betty "Bitte, gehen wir ins Gästezimmer."
     "Ich habe alles vorbereitet!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:218
@@ -534,7 +534,7 @@ translate german ep24_dialogues2_steve5a_073aec04:
 translate german ep24_dialogues2_steve5a_bbc4e156:
 
     # betty "Чмок!"
-    betty "Klatsch!"
+    betty "Muah!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:340
 translate german ep24_dialogues2_steve5a_0164661e:
@@ -842,7 +842,7 @@ translate german ep24_dialogues2_steve7_44011b69:
     # "Он помнит, Бетти!"
     # "Он помнит твою попку!"
     "Er erinnert sich an dich..."
-    "An Deinen kleinen Arsch..."
+    "An deine kleine Pussy..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:548
 translate german ep24_dialogues2_steve7_c0130c0f:
@@ -862,7 +862,7 @@ translate german ep24_dialogues2_steve7_c3042db1:
     # steve "Скажи, Бетти!"
     # "Твоя попка помнит его, так ведь?"
     steve "Sag mal, Betty."
-    "Dein Arsch erinnert sich doch auch noch, oder?"
+    "Deine Pussy erinnert sich doch auch noch, oder?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:561
 translate german ep24_dialogues2_steve7_ee8b402f:
@@ -887,7 +887,7 @@ translate german ep24_dialogues2_steve7_9f3decea:
 
     # steve "Он скучает по твоей попке, Бетти!"
     # "Мне даже пришлось повысить Ральфа, чтобы твоя попка была поближе к моему члену."
-    steve "Und vermisst deinen Arsch..."
+    steve "Und vermisst deine Pussy..."
     "Ich musste Ralph befördern, um meinen Schwanz näher an dich zu bekommen."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:577
@@ -952,7 +952,7 @@ translate german ep24_dialogues2_steve7_8c353a86:
     # steve "Бетти, скажи."
     # "Твоей попке не нравилось когда он был внутри нее?"
     steve "Sag mir..."
-    "Hat es deinem Arsch nicht gefallen, als mein Schwanz drin war?"
+    "Hat es deiner Pussy nicht gefallen, als mein Schwanz drin war?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:610
 translate german ep24_dialogues2_steve7_1df0076e:
@@ -964,13 +964,13 @@ translate german ep24_dialogues2_steve7_1df0076e:
 translate german ep24_dialogues2_steve7_0eada6bc:
 
     # betty "Нравилось..."
-    betty "Mein Arsch hat es genossen."
+    betty "Meine Pussy hat es genossen."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:619
 translate german ep24_dialogues2_steve7_642f28a1:
 
     # steve "И что, твоя попка не хочет, чтобы мой член снова оказался в ней?"
-    steve "Und? Dein Arsch will nicht wieder meinen Schwanz?"
+    steve "Und? Deine Pussy will nicht wieder meinen Schwanz?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:627
 translate german ep24_dialogues2_steve7_1df0076e_1:
@@ -1138,7 +1138,7 @@ translate german ep24_dialogues2_steve7_396fecf4:
     # "Это взрослые дела и тебе не стоит лезть в них!"
     # "Вон отсюда!"
     "Wie auch immer, das ist etwas für Erwachsene."
-    "Verschwinde!"
+    "Raus hier!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:817
 translate german ep24_dialogues2_steve8_42e92cf2:
@@ -1462,7 +1462,7 @@ translate german ep24_dialogues3_steve10_24f4b5d8:
     # m "Да, Мистер Робертс."
     # m "Чем могу быть Вам полезна?"
     m "Ja, Herr Roberts?"
-    m "Wie kann ich zu Diensten sein?"
+    m "Wie kann ich behilflich sein?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1019
 translate german ep24_dialogues3_steve10_7aa43c32:
@@ -2428,7 +2428,7 @@ translate german ep24_dialogues3_steve10_loop1_01da054a:
     # m "$ 5.500 за целый!"
     # steve "За целый $4.000!"
     m "5.500 $"
-    steve "4.000 $ !"
+    steve "4.000 $ für den ganzen Arsch!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1774
 translate german ep24_dialogues3_steve10_loop1_08b1a7d1:
@@ -2679,28 +2679,28 @@ translate german ep24_dialogues3_steve12_3dc94d6c:
 
     # m "Мисс Виктория..."
     # m "Скажите... Вам приходил на почту подарочный сертификат?"
-    m "Fräulein Victoria..."
-    m "Bitte sag mir hast du den Schuldschein per Email erhalten?"
+    m "Victoria..."
+    m "Sag mal... Hast du per Email einen Gutschein erhalten?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2129
 translate german ep24_dialogues3_steve12_70405f66:
 
     # dick_secretary "Нет, не приходил..."
     # dick_secretary "Но я его жду, как обычно..."
-    dick_secretary "Nein, habe ich nicht."
-    dick_secretary "Ich warte, wie üblich..."
+    dick_secretary "Nein, habe ich nicht..."
+    dick_secretary "Ich warte noch darauf..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2132
 translate german ep24_dialogues3_steve12_96948949:
 
     # m "Да, Мисс Виктория... Он будет, не волнуйтесь..."
-    m "Keine Sorge Victoria, du wirst es bald erhalten."
+    m "Ok, Victoria. Keine Sorge, er wird kommen."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2134
 translate german ep24_dialogues3_steve12_bbafaf1b:
 
     # dick_secretary "Я не волнуюсь, подружка!"
-    dick_secretary "Ich sorge mich nicht!"
+    dick_secretary "Ich sorge mich nicht, Freundin."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2137
 translate german ep24_dialogues3_steve12_3bbd7524:
@@ -2738,7 +2738,7 @@ translate german strings:
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:605
     old "Нравилось..."
-    new "Mein Arsch hat es genossen."
+    new "Meine Pussy hat es genossen."
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:620
     old "Хочет..."
@@ -2851,8 +2851,8 @@ translate german ep24_dialogues3_steve10_enter_room1_50a1699e:
 
     # mt "Я не пойду туда в таком виде!"
     # mt "Я еще не сошла с ума!"
-    mt "Ich werde da so nicht reingehen!"
-    mt "Meinen Verstand habe ich noch nicht verloren!"
+    mt "So gehe ich da nicht hin!"
+    mt "Ich bin noch nicht total verrückt!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:947
 translate german ep24_dialogues3_steve10_enter_room2_727f2b7b:
@@ -2986,7 +2986,7 @@ translate german ep24_dialogues3_steve10b_24f4b5d8:
     # m "Да, Мистер Робертс."
     # m "Чем могу быть Вам полезна?"
     m "Ja, Herr Roberts?"
-    m "Wie kann ich zu Diensten sein?"
+    m "Wie kann ich behilflich sein?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1110
 translate german ep24_dialogues3_steve10b_7aa43c32:

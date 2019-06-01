@@ -386,17 +386,17 @@ translate english cit1_2_naked_boobs_1st_de45ddf4:
     # m "Ты это к чему?"
     # citizen1 "Мда, не умею я говорить намеками..."
     # citizen1 "Короче мы хотим посмотреть на твои сиськи, но уже так сказать без всего!"
-    citizen1 "Тетя, у нас с братом возникла шикарная идея!"
-    citizen1 "Мы ведь с тобой не первый раз видимся и уже не чужие люди.."
-    m "Ты это к чему?"
-    citizen1 "Мда, не умею я говорить намеками..."
-    citizen1 "Короче мы хотим посмотреть на твои сиськи, но уже так сказать без всего!"
+    citizen1 "Hey lady! Me and my brother have a great idea!"
+    citizen1 "It's not the first time we see each other and we are no strangers anymore."
+    m "What do you mean?"
+    citizen1 "Yeah... I'm not very good at being subtle..."
+    citizen1 "Whatever, me and my brother want to see your tits, but without anything if you know what I mean!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:246
 translate english cit1_2_naked_boobs_1st_64204555:
 
     # m "Хватит с вас и того, что вы уже видели!"
-    m "Хватит с вас и того, что вы уже видели!"
+    m "You've seen enough already!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:248
 translate english cit1_2_naked_boobs_1st_e479fc56:
@@ -409,14 +409,14 @@ translate english cit1_2_naked_boobs_1st_e479fc56:
     # citizen1 "Ого! Прямо как у моей бывшей!"
     # citizen1 "Вот это класс, тетя! Так они смотрятся гораздо лучше."
     # citizen1 "Да, сегодня день прошел не зря!"
-    m "Ну а мне это зачем?"
-    citizen1 "Ну как зачем? А зачем ты нам их в одежде показываешь?"
-    citizen1 "Мы заплатим!"
-    m "Хорошо, смотрите, только руками не трогать!"
-    citizen1 "О чем речь, тетя! Разве мы когда нибудь тебя обманывали?"
-    citizen1 "Ого! Прямо как у моей бывшей!"
-    citizen1 "Вот это класс, тетя! Так они смотрятся гораздо лучше."
-    citizen1 "Да, сегодня день прошел не зря!"
+    m "Why would I do it?"
+    citizen1 "Why? Why are you showing them like that?"
+    citizen1 "We will pay!"
+    m "Fine, but no touching!"
+    citizen1 "Of course, lady! Did we lie before?"
+    citizen1 "Woah! Just like my ex's!"
+    citizen1 "Great! They look much better this way!"
+    citizen1 "Yes, definitely!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:264
 translate english cit1_2_naked_boobs_variant1_b8eefc2d:
@@ -424,15 +424,15 @@ translate english cit1_2_naked_boobs_variant1_b8eefc2d:
     # citizen1 "Тетя, покажи нам свои сиськи!"
     # m "Как именно?"
     # citizen1 "А ты шутница. Конечно голыми, так интереснее!"
-    citizen1 "Тетя, покажи нам свои сиськи!"
-    m "Как именно?"
-    citizen1 "А ты шутница. Конечно голыми, так интереснее!"
+    citizen1 "Show us your tits!"
+    m "How exactly?"
+    citizen1 "Haha, what a joker! Naked of course!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:271
 translate english cit1_2_naked_boobs_variant1_64204555:
 
     # m "Хватит с вас и того, что вы уже видели!"
-    m "Хватит с вас и того, что вы уже видели!"
+    m "You've seen enough already!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:273
 translate english cit1_2_naked_boobs_variant1_964f25a7:
@@ -448,17 +448,17 @@ translate english cit1_2_naked_boobs_variant1_964f25a7:
     # citizen1 "У меня идея! Нас как раз двое, как и твоих подружек. Давай обнимемся!"
     # m "Даже не надейся!!!"
     # citizen1 "Кто-то сегодня не в духе? Ладно, и так все очень хорошо!"
-    m "Только руками не трогать!"
-    citizen1 "Какие вопросы, тетя!"
-    citizen1 "Не могу наглядеться, красота!"
-    citizen1 "Тетя, а че ты молчишь?"
-    m "Мне нечего вам сказать..."
-    citizen1 "Ого! Ну ладно, глядя на такие сиськи можно и ничего не говорить!"
-    citizen1 "Эй, тетя! Как насчет того, чтобы получить немного больше?"
+    m "No touching!"
+    citizen1 "No problems, lady!"
+    citizen1 "Can't peel my eyes off, what a beauty!"
+    citizen1 "Why are you so silent, lady?"
+    m "I have nothing to add..."
+    citizen1 "Well, with tits like that you can stay silent or do whatever you want."
+    citizen1 "Hey, lady! Would you like to earn some more?"
     m "..."
-    citizen1 "У меня идея! Нас как раз двое, как и твоих подружек. Давай обнимемся!"
-    m "Даже не надейся!!!"
-    citizen1 "Кто-то сегодня не в духе? Ладно, и так все очень хорошо!"
+    citizen1 "I have an idea! We are just two, like your girlfriends. Let's hug!"
+    m "In your dreams!!!"
+    citizen1 "Someone's mad today? Oh well, today is a good day anyways."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:291
 translate english cit1_2_naked_boobs_variant2_8cb4de93:
@@ -466,15 +466,15 @@ translate english cit1_2_naked_boobs_variant2_8cb4de93:
     # citizen1 "Тетя, покажи нам свои сиськи!"
     # m "Как именно?"
     # citizen1 "Серьезно?! Давай снимай уже все!"
-    citizen1 "Тетя, покажи нам свои сиськи!"
-    m "Как именно?"
-    citizen1 "Серьезно?! Давай снимай уже все!"
+    citizen1 "Show us your tits!"
+    m "How exactly?"
+    citizen1 "Seriously?! Take everything off already!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:298
 translate english cit1_2_naked_boobs_variant2_64204555:
 
     # m "Хватит с вас и того, что вы уже видели!"
-    m "Хватит с вас и того, что вы уже видели!"
+    m "You've seen enough already!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:300
 translate english cit1_2_naked_boobs_variant2_11b4a478:
@@ -485,18 +485,18 @@ translate english cit1_2_naked_boobs_variant2_11b4a478:
     # citizen1 "Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
     # m "Ну...Я не знаю..."
     # citizen1 "Давай! И прямо сейчас получишь часть денег!"
-    m "Только руками не трогать!"
-    citizen1 "Конечно, тетя!"
-    citizen1 "Вау! Как в первый раз!"
-    citizen1 "Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
-    m "Ну...Я не знаю..."
-    citizen1 "Давай! И прямо сейчас получишь часть денег!"
+    m "No touching!"
+    citizen1 "Of course, lady!"
+    citizen1 "Woah! Like a first time!"
+    citizen1 "Do you want to earn a bit more? Squeeze them a bit!"
+    m "I... I don't know..."
+    citizen1 "Come on! We are paying!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:313
 translate english cit1_2_naked_boobs_variant2_64204555_1:
 
     # m "Хватит с вас и того, что вы уже видели!"
-    m "Хватит с вас и того, что вы уже видели!"
+    m "You've seen enough already!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:316
 translate english cit1_2_naked_boobs_variant2_35c0e713:
@@ -506,19 +506,95 @@ translate english cit1_2_naked_boobs_variant2_35c0e713:
     # m "Ай!"
     # mt "Это немного больно и даже немного приятно... Странно..."
     # citizen1 "Ух, тетя, снова нас порадовала!"
-    citizen1 "Уф...А ты горячая!"
-    citizen1 "И так заводит!"
-    m "Ай!"
-    mt "Это немного больно и даже немного приятно... Странно..."
-    citizen1 "Ух, тетя, снова нас порадовала!"
+    citizen1 "Woah... You are hot stuff!"
+    citizen1 "So exiting!"
+    m "Ouch!"
+    mt "A bit painful, but pleasurable at the same time... So strange..."
+    citizen1 "Damn, lady. You made our day again!"
 
 translate english strings:
 
     # Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:242
     old "Почему бы и нет."
-    new ""
+    new "Why not."
 
     # Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:242
     old "Хватит с вас и того, что вы уже видели!"
-    new ""
+    new "You've seen enough already!"
+
+# TODO: Translation updated at 2019-06-01 03:20
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:248
+translate english cit1_2_naked_boobs_1st_14ab7042:
+
+    # m "Ну а мне это зачем?"
+    # citizen1 "Ну как зачем? А зачем ты нам их в одежде показываешь?"
+    # citizen1 "Мы заплатим!"
+    # m "Хорошо, смотрите, только руками не трогать!"
+    # m "И отвернитесь!"
+    # citizen1 "О чем речь, тетя! Разве мы когда нибудь тебя обманывали?"
+    # m "Можете поворачиваться.."
+    # citizen1 "Ого! Прямо как у моей бывшей!"
+    # citizen1 "Вот это класс, тетя! Так они смотрятся гораздо лучше."
+    # citizen1 "Да, сегодня день прошел не зря!"
+    m "Why would I do it?"
+    citizen1 "Why? Why are you showing them like that?"
+    citizen1 "We will pay!"
+    m "Fine, but no touching!"
+    m "И отвернитесь!"
+    citizen1 "Of course, lady! Did we lie before?"
+    m "Можете поворачиваться.."
+    citizen1 "Woah! Just like my ex's!"
+    citizen1 "Great! They look much better this way!"
+    citizen1 "Yes, definitely!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:276
+translate english cit1_2_naked_boobs_variant1_7fd42f27:
+
+    # m "Отвернитесь!"
+    # m "Можете повернуться."
+    # m "Только руками не трогать!"
+    # citizen1 "Какие вопросы, тетя!"
+    # citizen1 "Не могу наглядеться, красота!"
+    # citizen1 "Тетя, а че ты молчишь?"
+    # m "Мне нечего вам сказать..."
+    # citizen1 "Ого! Ну ладно, глядя на такие сиськи можно и ничего не говорить!"
+    # citizen1 "Эй, тетя! Как насчет того, чтобы получить немного больше?"
+    # m "..."
+    # citizen1 "У меня идея! Нас как раз двое, как и твоих подружек. Давай обнимемся!"
+    # m "Даже не надейся!!!"
+    # citizen1 "Кто-то сегодня не в духе? Ладно, и так все очень хорошо!"
+    m "Отвернитесь!"
+    m "Можете повернуться."
+    m "No touching!"
+    citizen1 "No problems, lady!"
+    citizen1 "Can't peel my eyes off, what a beauty!"
+    citizen1 "Why are you so silent, lady?"
+    m "I have nothing to add..."
+    citizen1 "Well, with tits like that you can stay silent or do whatever you want."
+    citizen1 "Hey, lady! Would you like to earn some more?"
+    m "..."
+    citizen1 "I have an idea! We are just two, like your girlfriends. Let's hug!"
+    m "In your dreams!!!"
+    citizen1 "Someone's mad today? Oh well, today is a good day anyways."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:306
+translate english cit1_2_naked_boobs_variant2_a0f2bd66:
+
+    # m "Отвернитесь!"
+    # m "Можете повернуться."
+    # m "Только руками не трогать!"
+    # citizen1 "Конечно, тетя!"
+    # citizen1 "Вау! Как в первый раз!"
+    # citizen1 "Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
+    # m "Ну...Я не знаю..."
+    # citizen1 "Давай! И прямо сейчас получишь часть денег!"
+    m "Отвернитесь!"
+    m "Можете повернуться."
+    m "No touching!"
+    citizen1 "Of course, lady!"
+    citizen1 "Woah! Like a first time!"
+    citizen1 "Do you want to earn a bit more? Squeeze them a bit!"
+    m "I... I don't know..."
+    citizen1 "Come on! We are paying!"
 

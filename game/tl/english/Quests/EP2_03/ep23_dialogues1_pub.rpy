@@ -392,7 +392,7 @@ translate english ep23_dialogues1_3_202d531f:
     # m "Да, я хочу устроиться на работу."
     # joe "Отлично!"
     m "Yes, I'd like to work here."
-    joe "Excelent!"
+    joe "Excellent!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:277
 translate english ep23_dialogues1_3_fe40efa5:

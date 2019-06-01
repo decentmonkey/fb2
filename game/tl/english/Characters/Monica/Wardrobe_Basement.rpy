@@ -147,3 +147,15 @@ translate english strings:
     # Characters/Monica/Wardrobe_Basement.rpy:17
     old ""
     new ""
+# TODO: Translation updated at 2019-06-01 03:20
+
+translate english strings:
+
+    # Characters/Monica/Wardrobe_Basement.rpy:19
+    old "Красивое платье."
+    new ""
+
+    # Characters/Monica/Wardrobe_Basement.rpy:150
+    old "Одеть красное платье."
+    new ""
+

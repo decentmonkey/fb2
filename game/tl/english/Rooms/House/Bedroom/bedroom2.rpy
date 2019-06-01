@@ -11,7 +11,7 @@ translate english bedroom2_environment_aaac3d09:
     mt "My bedroom..."
     "I miss it!"
     "IT'S MINE!!!"
-    "HATE!!!"
+    "I HATE HER!!!"
     "How could this happen???"
 
 # game/Rooms/House/Bedroom/bedroom2.rpy:53
@@ -36,7 +36,7 @@ translate english bedroom2_environment_66308f7d:
     # "НЕНАВИЖУ!!!"
     mt "My favorite closet..."
     "Now there's just Betty's fucking rags!"
-    "HATE!!!"
+    "I HATE HER!!!"
 
 translate english strings:
 

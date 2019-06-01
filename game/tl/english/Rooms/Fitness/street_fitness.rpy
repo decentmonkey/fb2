@@ -33,6 +33,6 @@ translate english street_fitness_environment2_36594603:
 
     # "Я не пойду туда в таком виде!"
     # "Меньше всего мне хотелось бы наткнуться на Стефани или Ребекку!"
-    "I'm not going in there like this!"
+    "I'm not going there like that!"
     "The last thing I want to do is to run into Stephanie or Rebecca!"
 

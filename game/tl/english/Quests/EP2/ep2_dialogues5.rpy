@@ -243,7 +243,7 @@ translate english monica_charity_event_dialogue2a_2b4d0fdb:
 
     # m "Я - Моника Бакфетт!"
     # "И я хочу объявить о преступлении, которое совершено в отношении меня!"
-    m "I am Monica Buckfett!"
+    m "I am - Monica Buckfett!"
     "And I want to announce a crime that has been committed against me!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:238
@@ -330,7 +330,7 @@ translate english monica_charity_event_dialogue2a_0c58ee8c:
     # "И я подтверждаю слова Мистера Бифа!"
     # "Наш журнал изменит свой курс!"
     m "..."
-    m "I am Monica Buckfett!"
+    m "I am - Monica Buckfett!"
     "And I confirm everything that Mr. Biff has said!"
     "Our magazine will change its policy!"
 
@@ -645,7 +645,7 @@ translate english monica_charity_event_dialogue6_a418c3a1:
     # "Пожалуйста, не надо!"
     # "Я постараюсь все исправить!"
     hotel_staff "Ma'am! Sorry!"
-    "Please, don't!"
+    "Please, don't do it!"
     "I'll try to make it right!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:508
@@ -725,7 +725,7 @@ translate english monica_charity_event_dialogue8_212059e7:
     mt "Fi! Another annoying creature!"
     "Let him down!"
     "..."
-    "Although..."
+    "Wait..."
     "Buy some wine..."
     "Why not?..."
     "At least he looks rich..."
@@ -2086,7 +2086,7 @@ translate english monica_charity_event_dialogue18_local3_1d7fc3ae:
     # "Чувствуется что у Вас недостаток практики!"
     # "Но мне это даже нравится!"
     philip "Mrs. Buckfett!"
-    "Excelent!"
+    "Excellent!"
     "I imagine that you have a lack of practice!"
     "But I'm actually enjoying this!"
 
@@ -2271,7 +2271,7 @@ translate english monica_charity_event_dialogue18_local4_852d67ec:
 
     # philip "Хотя..."
     # "Знаете что..."
-    philip "Although..."
+    philip "Wait..."
     "You know what?..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1824
@@ -2294,7 +2294,7 @@ translate english monica_charity_event_dialogue18_local4_9c5a9762:
 translate english monica_charity_event_dialogue18_local4_e68dbd78:
 
     # hotel_staff "Ой!"
-    hotel_staff "Ouch!"
+    hotel_staff "Oh!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1838
 translate english monica_charity_event_dialogue18_local4_aa55f0df:
@@ -2505,7 +2505,7 @@ translate english monica_charity_event_dialogue18_local5_17fd81ee:
 
     # philip "Ха-ха!"
     # "Ладно, парень, как хочешь!"
-    philip "Haha!"
+    philip "Ahaha!"
     "Okay, kid, whatever you want!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1985
@@ -2521,7 +2521,7 @@ translate english monica_charity_event_dialogue18_local5_e745bbc6:
     # philip "Ха-ха!"
     # "Тем более!"
     hotel_staff "But she wanted to fire me!"
-    philip "Haha!"
+    philip "Ahaha!"
     "Well, then the more reason you have to do it!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2002

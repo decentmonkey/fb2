@@ -170,3 +170,11 @@ translate german strings:
     old "Dirty street"
     new "Schmutzige Straße"
 
+# TODO: Translation updated at 2019-06-01 03:18
+
+translate german strings:
+
+    # Rooms/locations_init.rpy:138
+    old "Офис Стива"
+    new ""
+

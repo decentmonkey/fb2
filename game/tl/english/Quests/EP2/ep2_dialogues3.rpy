@@ -560,7 +560,7 @@ translate english monica_dick_secretary_dialogue2_ce9a25fa:
 translate english monica_dick_secretary_dialogue2_4dbffab1:
 
     # dick_secretary "Мисс Виктория..."
-    dick_secretary "Miss Victoria..."
+    dick_secretary "Mrs. Victoria..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:420
 translate english monica_dick_secretary_dialogue2_f21aacea:
@@ -750,7 +750,7 @@ translate english monica_dick_secretary_dialogue2_2d348793:
 translate english monica_dick_secretary_dialogue2_c9e11ba7:
 
     # m "Мисс Виктория..."
-    m "Miss Victoria..."
+    m "Mrs. Victoria..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:518
 translate english monica_dick_secretary_dialogue2_1e48df60:
@@ -774,7 +774,7 @@ translate english monica_dick_secretary_dialogue2_1e48df60_1:
 translate english monica_dick_secretary_dialogue2_c9e11ba7_1:
 
     # m "Мисс Виктория..."
-    m "Miss Victoria..."
+    m "Mrs. Victoria..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:527
 translate english monica_dick_secretary_dialogue2_67c52bb8:
@@ -864,7 +864,7 @@ translate english monica_dick_secretary_dialogue2_d8213a8d:
 translate english monica_dick_secretary_dialogue2_f0d79344:
 
     # mt "Сучка!"
-    mt "Bitch!"
+    mt "Bitch!!!"
 
 # game/Quests/EP2/ep2_dialogues3.rpy:572
 translate english monica_dick_secretary_dialogue3_ce9a25fa:
@@ -882,7 +882,7 @@ translate english monica_dick_secretary_dialogue3_1c1046f5:
 translate english monica_dick_secretary_dialogue3_c9e11ba7:
 
     # m "Мисс Виктория..."
-    m "Miss Victoria..."
+    m "Mrs. Victoria..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:579
 translate english monica_dick_secretary_dialogue3_c80077e2:
@@ -1002,7 +1002,7 @@ translate english monica_dick_office_dialogue2_4b80df1c:
     # "Из нашего разговора мне показалось что у него есть какое-то предложение ко мне!"
     # "Стоит попробовать!"
     # "Я чувствую что могу об этом пожалеть, но у меня нет выбора..."
-    "I am Monica Buckfett!"
+    "I am - Monica Buckfett!"
     "Before all of this happened, all I had to do to make such a sum was to move my finger..."
     "It was always like that!"
     "..."

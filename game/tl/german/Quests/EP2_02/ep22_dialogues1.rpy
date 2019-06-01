@@ -6,7 +6,7 @@ translate german ep22_dialogue1_2_governess_refuse_to_go_176c0e82:
     # mt "Я не пойду туда в таком виде!"
     # "Все сразу поймут что я работаю гувернанткой и без труда вычислят где я живу."
     # "Уверена, Маркус будет рад узнать это..."
-    mt "Ich werde da so nicht reingehen!"
+    mt "So gehe ich da nicht hin!"
     "Alle werden gleichzeitig erfahren, dass ich als Dienstmädchen arbeite und können dann leicht rausfinden, wo ich lebe."
     "Ich bin sicher, auch Marcus würde das nur zu gerne wissen..."
 

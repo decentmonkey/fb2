@@ -48,7 +48,7 @@ translate german strings:
 
     # Quests/EP2/Citizens/Citizen10_dialogue.rpy:2
     old "Можно к Вам обратиться?"
-    new "Darf ich etwas fragen?"
+    new "Kann ich mit ihnen für einen Moment sprechen?"
 
     # Quests/EP2/Citizens/Citizen10_dialogue.rpy:2
     old "Уйти."

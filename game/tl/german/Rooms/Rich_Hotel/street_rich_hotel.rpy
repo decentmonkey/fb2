@@ -74,3 +74,11 @@ translate german street_rich_hotel_environment_1faa8549:
     m "Le Grand?"
     "So abgedroschen..."
 
+# TODO: Translation updated at 2019-06-01 03:18
+
+# game/Rooms/Rich_Hotel/street_rich_hotel.rpy:34
+translate german street_rich_hotel_teleport_198e0cb9:
+
+    # help "Будет доступно в следующем обновлении игры. Следите за новостями!"
+    help "Mehr im nächsten Update! Bitte verfolge die News dazu!"
+

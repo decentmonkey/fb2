@@ -668,7 +668,7 @@ translate german citizen4_show_boobs_first_time_097e8b2d:
     m "..."
     citizen4 "..."
     m "..."
-    citizen4 "!"
+    citizen4 "50 $!"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:412
 translate german citizen4_show_boobs_first_time_50ea7d20_1:
@@ -750,7 +750,7 @@ translate german citizen4_show_boobs_regular_time_c9325300:
 translate german citizen4_show_boobs_regular_time_fdfa89c4:
 
     # m "50$!"
-    m "!"
+    m "50 $!"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:485
 translate german citizen4_show_boobs_regular_time_45ccfdf5:
@@ -856,7 +856,7 @@ translate german citizen4_dialogue_after_boobs_first_time_8574f688:
     # mt "Это поможет мне сэкономить время на поиск еды, чтобы потратить его на решение моих главных проблем."
     # mt "Моя цель - это вернуть назад мою роскошную жизнь."
     # mt "И я не остановлюсь ни перед чем!"
-    mt "Damn ye!"
+    mt "Diese Teufelin!"
     mt "Ich bin nicht sicher, ob es das wert war..."
     mt "Ich dachte, es wäre einfacher..."
     mt "Dieser Bastard hat mich dazu gebracht, meine wunderbaren Brüste den halben Tag auf der Straße zu zeigen!"

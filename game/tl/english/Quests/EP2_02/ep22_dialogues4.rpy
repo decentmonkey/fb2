@@ -119,7 +119,7 @@ translate english ep22_dialogues4_1a_b6d755be:
     mt "Oh my God!!!"
     "This is the gym I used to go to!"
     "I can't go in there with clothes like this!!!"
-    betty "Monica, governess, why are you trailing behind me?"
+    betty "Monica, maid, why are you trailing behind me?"
     "Hurry up! Follow me!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:111
@@ -127,7 +127,7 @@ translate english ep22_dialogues4_2_22d87923:
 
     # betty "Моника, гувернантка, почему ты отстаешь от меня?"
     # "Поторопись! За мной!"
-    betty "Monica, governess, why are you trailing behind me?"
+    betty "Monica, maid, why are you trailing behind me?"
     "Hurry up! Follow me!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:116
@@ -135,7 +135,7 @@ translate english ep22_dialogues4_2a_22d87923:
 
     # betty "Моника, гувернантка, почему ты отстаешь от меня?"
     # "Поторопись! За мной!"
-    betty "Monica, governess, why are you trailing behind me?"
+    betty "Monica, maid, why are you trailing behind me?"
     "Hurry up! Follow me!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:121
@@ -192,7 +192,7 @@ translate english ep22_dialogues4_5_4c013db3:
 translate english ep22_dialogues4_5a_fdee4e3e:
 
     # betty "Гуверантка! Где моя сумка с униформой?"
-    betty "Governess! Where's my uniform bag?"
+    betty "Maid! Where's my uniform bag?"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:193
 translate english ep22_dialogues4_5a_7dc6e6eb:
@@ -210,7 +210,7 @@ translate english ep22_dialogues4_5a_b84bcc3c:
 translate english ep22_dialogues4_5a_8069b532:
 
     # betty "Гувернантка, ты можешь подождать меня здесь, пока я занимаюсь."
-    betty "Thank you, governess, you can wait here while I'm working out."
+    betty "Thank you, maid, you can wait here while I'm working out."
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:213
 translate english ep22_dialogues4_5a_1665fb42:
@@ -322,7 +322,7 @@ translate english ep22_dialogues4_5a_bb32007c:
 translate english ep22_dialogues4_5a_c83bf902:
 
     # "Но сейчас я претворяюсь гувернанткой этой дуры."
-    "But for now, I'm pretending to be that fool's governess."
+    "But for now, I'm pretending to be that fool's maid."
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:271
 translate english ep22_dialogues4_5a_e8dc3e9a:
@@ -397,7 +397,7 @@ translate english ep22_dialogues4_5a_e9c727c8:
 
     # rebecca "Хорошо, Моника!"
     # "Нам не терпится узнать!"
-    rebecca "Okay, Monica!"
+    rebecca "Okay, okay!"
     "We can't wait to find out!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:300
@@ -505,7 +505,7 @@ translate english ep22_dialogues4_6_loop3_af78cd21:
     # betty "Конечно!"
     # "С удовольствием!"
     fitness_instructor "Betty, let me help you..."
-    betty "Certainly!"
+    betty "Definitely!"
     "With pleasure!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:541
@@ -645,7 +645,7 @@ translate english ep22_dialogues4_7_05122343:
 
     # betty "Моника, гувернантка, подожди меня на улице, я скоро выйду."
     # m "Да, Миссис Робертс..."
-    betty "Monica, governess, wait for me outside, I'll be out soon."
+    betty "Monica, maid, wait for me outside, I'll be out soon."
     m "Yes, Mrs. Roberts..."
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:656
@@ -668,7 +668,7 @@ translate english ep22_dialogues4_7b_41ab0b08:
 translate english ep22_dialogues4_8_fdee4e3e:
 
     # betty "Гуверантка! Где моя сумка с униформой?"
-    betty "Governess! Where's my uniform bag?"
+    betty "Maid! Where's my uniform bag?"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:693
 translate english ep22_dialogues4_8_7dc6e6eb:
@@ -807,7 +807,7 @@ translate english ep22_dialogues4_1a0_79fb76ea:
 
     # betty "Я заждалась тебя, нерадивая гувернантка."
     # betty "Быстро бери мою сумку и поехали скорее!"
-    betty "I waited for you, careless governess."
+    betty "I waited for you, careless maid."
     betty "Quickly take my bag and let's go!"
 
 # game/Quests/EP2_02/ep22_dialogues4.rpy:127

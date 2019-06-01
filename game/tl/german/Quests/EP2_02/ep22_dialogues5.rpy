@@ -894,7 +894,7 @@ translate german ep22_dialogues5_7_0da4e837:
 translate german ep22_dialogues5_7_c18253f7:
 
     # m "Я... Я согласна..."
-    m "Ich... Ich bin einverstanden..."
+    m "J...Ja..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:816
 translate german ep22_dialogues5_7_93e9f2d3:
@@ -1454,7 +1454,7 @@ translate german ep22_dialogues5_7_68dd9612:
     # dick_secretary "Миссис Бакфетт!"
     # "Подружка!"
     # "Подожди, пожалуйста, меня!"
-    dick_secretary "Frau Buckfett!"
+    dick_secretary "Frau Buckfett..."
     "Freundin!"
     "Bitte, warte auf mich!"
 
@@ -1472,7 +1472,7 @@ translate german ep22_dialogues5_8_8eb0e760:
 translate german ep22_dialogues5_8a_5a35e64f:
 
     # dick_secretary "Миссис Бакфетт!"
-    dick_secretary "Frau Buckfett!"
+    dick_secretary "Frau Buckfett..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1227
 translate german ep22_dialogues5_8b_7019b42d:
@@ -1497,7 +1497,7 @@ translate german ep22_dialogues5_9_121310c3:
 
     # dick_secretary "Миссис Бакфетт!"
     # "Как Вам эта сумочка?"
-    dick_secretary "Frau Buckfett!"
+    dick_secretary "Frau Buckfett..."
     "Wie gefällt dir diese Handtasche?"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1243
@@ -1715,7 +1715,7 @@ translate german ep22_dialogues5_11_6e808278:
     # "Я собираюсь скоро на шопинг!"
     # "Надеюсь сертификат будет на месте!"
     # "А сейчас мне не до Вас! Извините!"
-    dick_secretary "Frau Buckfett!"
+    dick_secretary "Frau Buckfett..."
     "Bald gehe ich shoppen!"
     "Ich hoffe, der Gutschein ist rechtzeitig da!"
     "Und jetzt habe ich keine Zeit mehr für dich! Sorry!"
@@ -1726,7 +1726,7 @@ translate german ep22_dialogues5_12_65356311:
     # dick_secretary "Миссис Бакфетт!"
     # "Вы просрочили деньги!"
     # m "Мисс Виктория... Я... Честно..."
-    dick_secretary "Frau Buckfett!"
+    dick_secretary "Frau Buckfett..."
     "Du bist überfällig!"
     m "Frau Victoria... Ich bin... Ehrlich gesagt..."
 
@@ -1968,7 +1968,7 @@ translate german ep22_dialogues5_14_26fa0ede:
     # dick_secretary "Нет!"
     dick "Bitte, Victoria!"
     "Meine Hübsche!"
-    dick_secretary "Nein!"
+    dick_secretary "Nein! Das ist das teuerste Kleid im ganzen Laden."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1574
 translate german ep22_dialogues5_14_c5bd89c3:
@@ -1984,7 +1984,7 @@ translate german ep22_dialogues5_14_5481fac8:
     # dick_secretary "Миссис Бакфетт!"
     dick_secretary "Ich bin heute nicht in Stimmung"
     dick "Wer wagt es, deine Laune zu drücken, Baby?"
-    dick_secretary "Frau Buckfett!"
+    dick_secretary "Frau Buckfett..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1582
 translate german ep22_dialogues5_14_51145218:

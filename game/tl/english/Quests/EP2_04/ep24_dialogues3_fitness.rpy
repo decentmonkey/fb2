@@ -395,7 +395,7 @@ translate english ep24_dialogues3_fitness3_bfbd1844:
 
     # fitness_instructor "Отлично!"
     # fitness_instructor "Ты чувствуешь себя свободной?"
-    fitness_instructor "Excelent!"
+    fitness_instructor "Excellent!"
     fitness_instructor "Do you feel yourself free?"
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:295
@@ -1009,7 +1009,7 @@ translate english ep24_dialogues3_fitness3c_bfbd1844:
 
     # fitness_instructor "Отлично!"
     # fitness_instructor "Ты чувствуешь себя свободной?"
-    fitness_instructor "Excelent!"
+    fitness_instructor "Excellent!"
     fitness_instructor "Do you feel yourself free?"
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:408

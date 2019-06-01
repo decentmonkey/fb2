@@ -612,7 +612,7 @@ translate german sleep_scene1_d710f8b7:
     # "Я - Моника Бакфетт!"
     # "Я - лицо модного журнала!"
     # "Невозможно представить журнал без меня!"
-    "Ich bin Monica Buckfett!"
+    "Ich bin - Monica Buckfett!"
     "Ich bin das Gesicht des Modemagazines!"
     "Es ist unmöglich, sich das Magazin ohne mich vorzustellen!"
 
@@ -1622,7 +1622,7 @@ translate german sleep_scene1_local1_d710f8b7:
     # "Я - Моника Бакфетт!"
     # "Я - лицо модного журнала!"
     # "Невозможно представить журнал без меня!"
-    "Ich bin Monica Buckfett!"
+    "Ich bin - Monica Buckfett!"
     "Ich bin das Gesicht des Modemagazines!"
     "Es ist unmöglich, sich das Magazin ohne mich vorzustellen!"
 

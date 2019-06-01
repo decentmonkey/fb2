@@ -302,3 +302,15 @@ translate german strings:
     old "Джо"
     new "Joe"
 
+# TODO: Translation updated at 2019-06-01 03:18
+
+translate german strings:
+
+    # 00_Functions/07_init_renpy.rpy:95
+    old "Покупатель"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:98
+    old "Покупательница"
+    new ""
+

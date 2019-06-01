@@ -8,7 +8,7 @@ translate english ep22_dialogues2_1_49727905:
     # ralph "Той которая работает гувернанткой, которую ты порекомандовал мне."
     ralph "Fred, I still have my doubts about this girl..."
     fred "What girl, Sir?"
-    ralph "The one who works for us as our governess. The one you recommended."
+    ralph "The one who works for us as our maid. The one you recommended."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:85
 translate english ep22_dialogues2_1_ff680850:
@@ -81,7 +81,7 @@ translate english ep22_dialogues2_1_08a62736:
 
     # "Нет, Фрэд! Ты что? Ты ведь знаешь какая Бетти строгая, я не решаюсь даже смотреть на нашу гувернантку."
     # "Вдруг она скажет Бетти про это?"
-    "No, Fred, are you out of your mind? You know how strict Betty is, I don't even dare to look at our governess."
+    "No, Fred, are you out of your mind? You know how strict Betty is, I don't even dare to look at our maid."
     "What if she would tell Betty about it?"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:113
@@ -95,7 +95,7 @@ translate english ep22_dialogues2_1_560fd1d0:
     # fred "Она профессионал!"
     # ralph "Профессионал, который работает за бесплатно?"
     fred "Don't worry, Sir!"
-    "Trust me, your governess is very obedient. You can use her for any purpose you'd like."
+    "Trust me, your maid is very obedient. You can use her for any purpose you'd like."
     "You can have sex with her every day!"
     "She will be happy, believe me!"
     ralph "What?"
@@ -133,10 +133,10 @@ translate english ep22_dialogues2_1_aae9dbf7:
     # "Поэтому она пытается отсидеться какое-то время где-то, пока не разберется с бумагами."
     # "Это может занять длительное время и это выгодно Вам!"
     fred "Mr. Roberts! This girl doesn't have her immigration documents."
-    "She used to be a very well-paid governess!"
+    "She used to be a very well-paid maid!"
     "But she did not take care of the extension of the documents in time."
     "So now, she could end up in trouble."
-    "She can be deported from the country at any time, and she will not be able to work as a governess for a high salary."
+    "She can be deported from the country at any time, and she will not be able to work as a maid for a high salary."
     "So she's trying to lay low for a while, until all of her paperwork is done."
     "And you know, that can take a very long time! And this is only beneficial to you!"
 
@@ -171,7 +171,7 @@ translate english ep22_dialogues2_1_03db9ff5:
 
     # "И ваша гувернантка снова станет послушной."
     # "Для вас сплошная выгода, Мистер Робертс!"
-    "Your governess will be perfectly obedient again."
+    "Your maid will be perfectly obedient again."
     "This is a great situation for you, Mr. Roberts!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:152
@@ -194,7 +194,7 @@ translate english ep22_dialogues2_1_2dc59ffb:
 translate english ep22_dialogues2_1_4d8e2679:
 
     # "Такими как гувернантка Моника..."
-    "Like your governess, for example. Monica."
+    "Like your maid, for example. Monica."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:184
 translate english ep22_dialogues2_1_ce71fe0e:
@@ -232,7 +232,7 @@ translate english ep22_dialogues2_1_65d1db93:
 translate english ep22_dialogues2_1_4af02325:
 
     # "Может-ли гувернантка оттереть его."
-    "And I was just saying how your governess could potentially clean it."
+    "And I was just saying how your maid could potentially clean it."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:203
 translate english ep22_dialogues2_1_edb69f76:
@@ -298,7 +298,7 @@ translate english ep22_dialogues2_1_48271a1e:
     # betty "Я хозяйка богатого дома."
     # "Такими вопросами должна заниматься гувернантка!"
     betty "I'm the owner of a rich house."
-    "These questions should be dealt with by a governess."
+    "These questions should be dealt with by a maid."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:235
 translate english ep22_dialogues2_1_f9c1b037:
@@ -324,7 +324,7 @@ translate english ep22_dialogues2_1_aed5cd97:
 translate english ep22_dialogues2_1_b8ca8c74:
 
     # betty "Я считаю что с такой мелочью справится сама гувернантка..."
-    betty "I believe that such a small business will be fine for governess..."
+    betty "I believe that such a small business will be fine for maid..."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:246
 translate english ep22_dialogues2_1_7c02f55c:
@@ -558,13 +558,13 @@ translate english ep22_dialogues2_1_d684ab34:
 translate english ep22_dialogues2_1_d1fdddaf:
 
     # betty "Я не собираюсь делать этого!"
-    betty "I'm not going to do that!"
+    betty "I'm not doing it!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:360
 translate english ep22_dialogues2_1_d1fdddaf_1:
 
     # betty "Я не собираюсь делать этого!"
-    betty "I'm not going to do that!"
+    betty "I'm not doing it!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:368
 translate english ep22_dialogues2_3_5932acdd:
@@ -658,7 +658,7 @@ translate english ep22_dialogues2_4_0db6695d:
 translate english ep22_dialogues2_4_e612c015:
 
     # m "Мэм, это пятно поставила одна нерадивая гувернантка, она работала здесь до меня."
-    m "It was made by a careless governess who worked here before me."
+    m "It was made by a careless maid who worked here before me."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:451
 translate english ep22_dialogues2_4_674ede15:
@@ -684,7 +684,7 @@ translate english ep22_dialogues2_4_25de51de:
     # "Круг гувернанток такого высокого уровня не слишком велик и мы знаем друг друга..."
     m "MA'am! I've been cleaning professionally for a long time..."
     "Mostly wealthy houses."
-    "The circle of governesses of such high level is not that large, so we all know each other..."
+    "The circle of maids of such high level is not that large, so we all know each other..."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:461
 translate english ep22_dialogues2_4_1ac0a8da:
@@ -817,7 +817,7 @@ translate english ep22_dialogues2_4_8259daf9:
 
     # betty "Хорошо, гувернантка..."
     # "Я буду считать что ты пытаешься отработать свою зарплату."
-    betty "Okay, governess..."
+    betty "Okay, maid..."
     "I'll take it that you're trying to earn your salary."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:531
@@ -1178,7 +1178,7 @@ translate english ep22_dialogue2_8_1_c125ae51:
 translate english ep22_dialogue2_8_1_9ff175ae:
 
     # bardie "Бетти, а где живет гувернантка?"
-    bardie "Betty, where does the governess live?"
+    bardie "Betty, where does the maid live?"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:962
 translate english ep22_dialogue2_8_1_0b5b343c:
@@ -1249,7 +1249,7 @@ translate english ep22_dialogue2_8_1_608886a8:
     # betty "Еще чего!"
     # "Я и так с трудом терплю эту шлюху в моем доме!"
     # "..."
-    bardie "Well, then make the governess do it."
+    bardie "Well, then make the maid do it."
     betty "Don't even think!"
     "Ugh, I can barely stand that whore in my house!"
     "..."
@@ -1314,7 +1314,7 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues2.rpy:330
     old "Я не собираюсь делать этого!"
-    new "I'm not going to do that!"
+    new "I'm not doing it!"
 
     # Quests/EP2_02/ep22_dialogues2.rpy:509
     old "Мэм. Я считаю этот ковер необязательно нести в химчистку..."

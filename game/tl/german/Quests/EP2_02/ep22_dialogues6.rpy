@@ -169,14 +169,14 @@ translate german ep22_dialogue6_3_3c7281b0:
     # "Я хотела узнать у тебя..."
     # "Есть-ли еще работа?"
     m "Biff..."
-    "Ich wollte dich fragen..."
-    "Ob du arbeit hier für mich hast?"
+    "Ich wollte von dir wissen, ob..."
+    "Gibt es noch mehr Arbeit?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:139
 translate german ep22_dialogue6_3_8d06aa28:
 
     # "Мне нужны деньги..."
-    "Ich brauche Geld..."
+    "Ich brauche Geld!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:143
 translate german ep22_dialogue6_3_f5dcc011:
@@ -269,7 +269,7 @@ translate german ep22_dialogue6_4_5387a607:
 
     # alex_photograph "Миссис Бакфетт!"
     # "Здравствуйте!"
-    alex_photograph "Frau Buckfett!"
+    alex_photograph "Frau Buckfett..."
     "Hallo!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:195
@@ -309,7 +309,7 @@ translate german ep22_dialogue6_5_5387a607:
 
     # alex_photograph "Миссис Бакфетт!"
     # "Здравствуйте!"
-    alex_photograph "Frau Buckfett!"
+    alex_photograph "Frau Buckfett..."
     "Hallo!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:216
@@ -345,7 +345,7 @@ translate german ep22_dialogue6_5_e8b1bba9:
 
     # alex_photograph "Миссис Бакфетт!"
     # "Вы уже знаете кем в каком наряде Вы будете сниматься в этот раз?"
-    alex_photograph "Frau Buckfett!"
+    alex_photograph "Frau Buckfett..."
     "Weißt du schon, welches Outfit du dieses Mal anziehst?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:235
@@ -797,7 +797,7 @@ translate german ep22_dialogue6_2b_5706e483:
 
     # secretary "Миссис Бакфетт!"
     # "Мистера Бифа сейчас нет на месте!"
-    secretary "Frau Buckfett!"
+    secretary "Frau Buckfett..."
     "Herr Biff ist derzeit nicht hier!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:161
@@ -827,7 +827,7 @@ translate german ep22_dialogue6_2b_6415e49b:
     # secretary "Он сказал что будет вечером!"
     # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
     # m "Хорошо, дорогая, спасибо."
-    secretary "Frau Buckfett!"
+    secretary "Frau Buckfett..."
     "Herr Biff ist derzeit nicht hier!"
     m "Wann wird er zurück erwartet?"
     secretary "Er wird also am Abend wieder da sein!"
@@ -839,7 +839,7 @@ translate german ep22_dialogue6_2b_5706e483_1:
 
     # secretary "Миссис Бакфетт!"
     # "Мистера Бифа сейчас нет на месте!"
-    secretary "Frau Buckfett!"
+    secretary "Frau Buckfett..."
     "Herr Biff ist derzeit nicht hier!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:181
@@ -871,7 +871,7 @@ translate german ep22_dialogue6_2b_fbef2ec0:
     # secretary "Он сказал что будет завтра!"
     # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
     # m "Хорошо, дорогая, спасибо."
-    secretary "Frau Buckfett!"
+    secretary "Frau Buckfett..."
     "Herr Biff ist derzeit nicht hier!"
     m "Wann wird er zurück erwartet?"
     secretary "Er sagte er käme Morgen!"
@@ -998,7 +998,7 @@ translate german strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:116
     old "Дорогуша, ты не видела Мелани?"
-    new "Süße, hast du zufällig Melanie gesehen?"
+    new "Schätzchen, hast du Melanie gesehen?"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:202
     old "Биф, ты не видел Мелани?"
@@ -1010,7 +1010,7 @@ translate german strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:519
     old "Биф... Мог бы ты дать еще немного денег?"
-    new "Biff... Könntest Du mir ein bisschen mehr Geld geben?"
+    new "Kannst du mir nicht noch etwas Geld geben, Biff?"
 
 # TODO: Translation updated at 2019-04-16 13:23
 
@@ -1077,78 +1077,78 @@ translate german ep22_dialogue6_2_1adc3f0a_1:
 
     # secretary "Мистер Биф лучше нас знает что нам необходимо."
     # secretary "Мистер Биф заботится о нас..."
-    secretary "Мистер Биф лучше нас знает что нам необходимо."
-    secretary "Мистер Биф заботится о нас..."
+    secretary "Herr Biff weiß besser, was wir brauchen als wir selbst."
+    secretary "Herr Biff kümmert sich um uns..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:195
 translate german ep22_dialogue6_2b_9f6e5332_1:
 
     # secretary "Он сказал что будет вечером!"
-    secretary "Он сказал что будет вечером!"
+    secretary "Er wird also am Abend wieder da sein!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:210
 translate german ep22_dialogue6_2b_5706e483_2:
 
     # secretary "Миссис Бакфетт!"
     # "Мистера Бифа сейчас нет на месте!"
-    secretary "Миссис Бакфетт!"
-    "Мистера Бифа сейчас нет на месте!"
+    secretary "Frau Buckfett..."
+    "Herr Biff ist derzeit nicht hier!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:213
 translate german ep22_dialogue6_2b_bbef166c_2:
 
     # m "Когда он будет?"
-    m "Когда он будет?"
+    m "Wann wird er zurück erwartet?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:218
 translate german ep22_dialogue6_2b_0f0242d3_2:
 
     # m "Хорошо, дорогая, спасибо."
-    m "Хорошо, дорогая, спасибо."
+    m "Okay Herzchen, danke."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:223
 translate german ep22_dialogue6_2b_5706e483_3:
 
     # secretary "Миссис Бакфетт!"
     # "Мистера Бифа сейчас нет на месте!"
-    secretary "Миссис Бакфетт!"
-    "Мистера Бифа сейчас нет на месте!"
+    secretary "Frau Buckfett..."
+    "Herr Biff ist derzeit nicht hier!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:226
 translate german ep22_dialogue6_2b_bbef166c_3:
 
     # m "Когда он будет?"
-    m "Когда он будет?"
+    m "Wann wird er zurück erwartet?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:228
 translate german ep22_dialogue6_2b_bf57c0f2_1:
 
     # secretary "Он сказал что будет завтра!"
     # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
-    secretary "Он сказал что будет завтра!"
-    "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+    secretary "Er sagte er käme Morgen!"
+    "Aber wissen Sie, er sagt was er will und hat keinerlei Disziplin!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:231
 translate german ep22_dialogue6_2b_0f0242d3_3:
 
     # m "Хорошо, дорогая, спасибо."
-    m "Хорошо, дорогая, спасибо."
+    m "Okay Herzchen, danke."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:248
 translate german ep22_dialogue6_3_25d4e77c:
 
     # biff "О! Цыпочка!"
     # biff "Ты наконец-то начала тратить деньги, которые я плачу тебе!"
-    biff "О! Цыпочка!"
-    biff "Ты наконец-то начала тратить деньги, которые я плачу тебе!"
+    biff "Oh! Baby!"
+    biff "Endlich hast Du Geld ausgegeben, welches ich dir bezahlt habe!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:251
 translate german ep22_dialogue6_3_c68be91b:
 
     # biff "Ты редкая находка!"
     # biff "Нечасто десятидолларовую шлюху можно одеть и получить такой раскошный результат!"
-    biff "Ты редкая находка!"
-    biff "Нечасто десятидолларовую шлюху можно одеть и получить такой раскошный результат!"
+    biff "Du bist ein seltener Deal, in der Tat!"
+    biff "Du kannst nicht immer eine $ 10 Nutte gut anziehen und solche Resultate wie bei dir erhalten."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:254
 translate german ep22_dialogue6_3_1bbb70b4:
@@ -1156,17 +1156,17 @@ translate german ep22_dialogue6_3_1bbb70b4:
     # mt "Я не шлюха, мерзавец!"
     # mt "И я рождена, чтобы раскошно одеваться!"
     # mt "Скоро я верну все назад!"
-    mt "Я не шлюха, мерзавец!"
-    mt "И я рождена, чтобы раскошно одеваться!"
-    mt "Скоро я верну все назад!"
+    mt "Ich bin keine Nutte, du Bastard!"
+    mt "Ich bin hochwohlgeboren!"
+    mt "Bald werde ich alles zurück haben!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:258
 translate german ep22_dialogue6_3_aff58ec0:
 
     # m "Да, Биф..."
     # m "Спасибо за комплимент."
-    m "Да, Биф..."
-    m "Спасибо за комплимент."
+    m "Ja, Biff..."
+    m "Danke für das Kompliment."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:281
 translate german ep22_dialogue6_3_3c7281b0_1:
@@ -1174,15 +1174,15 @@ translate german ep22_dialogue6_3_3c7281b0_1:
     # m "Биф..."
     # "Я хотела узнать у тебя..."
     # "Есть-ли еще работа?"
-    m "Биф..."
-    "Я хотела узнать у тебя..."
-    "Есть-ли еще работа?"
+    m "Biff..."
+    "Ich wollte von dir wissen, ob..."
+    "Gibt es noch mehr Arbeit?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:285
 translate german ep22_dialogue6_3_8d06aa28_1:
 
     # "Мне нужны деньги..."
-    "Мне нужны деньги..."
+    "Ich brauche Geld!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:301
 translate german ep22_dialogue6_3_f5dcc011_1:
@@ -1190,21 +1190,21 @@ translate german ep22_dialogue6_3_f5dcc011_1:
     # biff "Нет, цыпочка!"
     # "Сейчас очередь других цыпочек!"
     # "Ты пока еще не настолько полюбилась папочке!"
-    biff "Нет, цыпочка!"
-    "Сейчас очередь других цыпочек!"
-    "Ты пока еще не настолько полюбилась папочке!"
+    biff "Nein, Chick!"
+    "Jetz ist das andere Chick dran!"
+    "Daddy ist noch nicht ganz überzeugt von Dir!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:305
 translate german ep22_dialogue6_3_f27eb96d_1:
 
     # mt "УРОД!!!"
-    mt "УРОД!!!"
+    mt "FREAK!!!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:325
 translate german ep22_dialogue6_3_eaa18a59_1:
 
     # m "А если я пройду дополнительный кастинг?..."
-    m "А если я пройду дополнительный кастинг?..."
+    m "Was, wenn ich eine extra Anhörung mache?..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:327
 translate german ep22_dialogue6_3_6bf66bbb_1:
@@ -1212,17 +1212,17 @@ translate german ep22_dialogue6_3_6bf66bbb_1:
     # biff "Эта цыпочка пока слишком скучная для дополнительного кастинга!"
     # "Я держу эту куклу только из-за того что она похожа на сучку Бакфетт!"
     # "Иди и не отвлекай папочку! Ему нужно заботить о других цыпочках!"
-    biff "Эта цыпочка пока слишком скучная для дополнительного кастинга!"
-    "Я держу эту куклу только из-за того что она похожа на сучку Бакфетт!"
-    "Иди и не отвлекай папочку! Ему нужно заботить о других цыпочках!"
+    biff "Dieses Chick ist immer noch zu langweilig für ein weiteres Casting!"
+    "Ich habe diese Puppe nur hier, weil sie wie die Schlampe Buckfett aussieht!"
+    "Geh und störe Daddy nicht weiter! Er muss sich um die anderen Chicks kümmern!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:332
 translate german ep22_dialogue6_3_383c8c67_1:
 
     # mt "Я НЕНАВИЖУ ЭТОГО УРОДА!!!"
     # "КОГДА Я ВЕРНУ СВОЕ МЕСТО НАЗАД?!?!"
-    mt "Я НЕНАВИЖУ ЭТОГО УРОДА!!!"
-    "КОГДА Я ВЕРНУ СВОЕ МЕСТО НАЗАД?!?!"
+    mt "ICH HASSE DIESES MONSTER!!!"
+    "WANN WIRD ER ES NUR ZUÜCK BEKOMMEN?!?!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:372
 translate german ep22_dialogue6_3_ebd5bf2f_1:
@@ -1230,141 +1230,141 @@ translate german ep22_dialogue6_3_ebd5bf2f_1:
     # biff "Я знаю ты увиливаешь от кастинга, но тебе придется его пройти!"
     # "Иначе не будет карьерного роста!"
     # "Ты понимаешь?"
-    biff "Я знаю ты увиливаешь от кастинга, но тебе придется его пройти!"
-    "Иначе не будет карьерного роста!"
-    "Ты понимаешь?"
+    biff "Ich weiß, du willst das Casting vermeiden, aber du musst es hinter dich bringen!"
+    "Sonst wird deine Karriere nicht weiter gehen!"
+    "Verstanden?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:376
 translate german ep22_dialogue6_3_92868277_1:
 
     # m "Да, я понимаю, Биф..."
-    m "Да, я понимаю, Биф..."
+    m "Ja, Biff, verstanden..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:378
 translate german ep22_dialogue6_3_8cf89654_1:
 
     # mt "Сволочь!!!"
-    mt "Сволочь!!!"
+    mt "Schwein!!!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:403
 translate german ep22_dialogue6_4_5387a607_1:
 
     # alex_photograph "Миссис Бакфетт!"
     # "Здравствуйте!"
-    alex_photograph "Миссис Бакфетт!"
-    "Здравствуйте!"
+    alex_photograph "Frau Buckfett..."
+    "Hallo!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:406
 translate german ep22_dialogue6_4_4e57def4_1:
 
     # m "Здравствуй, Алекс..."
-    m "Здравствуй, Алекс..."
+    m "Hallo Alex..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:410
 translate german ep22_dialogue6_4_0f43b7d6:
 
     # alex_photograph "Миссис Бакфетт, я не припомню этого платья в фотореквизите."
     # alex_photograph "Вы одели новое поступление?"
-    alex_photograph "Миссис Бакфетт, я не припомню этого платья в фотореквизите."
-    alex_photograph "Вы одели новое поступление?"
+    alex_photograph "Frau Buckfett, ich wüsste nicht, dass dieses Kleid Teil unserer Kollektion ist."
+    alex_photograph "Ist es neu gekommen?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:413
 translate german ep22_dialogue6_4_743a8784:
 
     # m "Нет, Алекс! Это мое платье!"
-    m "Нет, Алекс! Это мое платье!"
+    m "Nein, Alex. Das ist mein Kleid!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:415
 translate german ep22_dialogue6_4_9cfe2ff0:
 
     # alex_photograph "Вы купили его?"
-    alex_photograph "Вы купили его?"
+    alex_photograph "Hast du es gekauft?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:417
 translate german ep22_dialogue6_4_d28e74d8:
 
     # m "Да... Я... Я купила его."
     # m "И хватит задавать глупые вопросы!"
-    m "Да... Я... Я купила его."
-    m "И хватит задавать глупые вопросы!"
+    m "Ja... Habe ich..."
+    m "Und jetzt hör mit diesen dummen Fragen auf!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:422
 translate german ep22_dialogue6_4_24fcd9b8_1:
 
     # alex_photograph "Вы хотите сделать еще одну фотосессию?"
-    alex_photograph "Вы хотите сделать еще одну фотосессию?"
+    alex_photograph "Willst du ein weiteres Shooting?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:462
 translate german ep22_dialogue6_5_5387a607_1:
 
     # alex_photograph "Миссис Бакфетт!"
     # "Здравствуйте!"
-    alex_photograph "Миссис Бакфетт!"
-    "Здравствуйте!"
+    alex_photograph "Frau Buckfett..."
+    "Hallo!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:465
 translate german ep22_dialogue6_5_4e57def4_1:
 
     # m "Здравствуй, Алекс..."
-    m "Здравствуй, Алекс..."
+    m "Hallo Alex..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:467
 translate german ep22_dialogue6_5_24fcd9b8_1:
 
     # alex_photograph "Вы хотите сделать еще одну фотосессию?"
-    alex_photograph "Вы хотите сделать еще одну фотосессию?"
+    alex_photograph "Willst du ein weiteres Shooting?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:504
 translate german ep22_dialogue6_5_cd496de6_1:
 
     # mt "Дьявол! Не знаю куда эти грязные фотосессии меня заведут!"
     # "Надо кончать с этим скорее!"
-    mt "Дьявол! Не знаю куда эти грязные фотосессии меня заведут!"
-    "Надо кончать с этим скорее!"
+    mt "Verdammt! Ich weiß nicht, wohin mich diese schmuddeligen Shootings bringen werden!"
+    "Wir müssen da jetzt durch!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:509
 translate german ep22_dialogue6_5_e8b1bba9_1:
 
     # alex_photograph "Миссис Бакфетт!"
     # "Вы уже знаете кем в каком наряде Вы будете сниматься в этот раз?"
-    alex_photograph "Миссис Бакфетт!"
-    "Вы уже знаете кем в каком наряде Вы будете сниматься в этот раз?"
+    alex_photograph "Frau Buckfett..."
+    "Weißt du schon, welches Outfit du dieses Mal anziehst?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:513
 translate german ep22_dialogue6_5_d36a5df4_1:
 
     # m "Еще не знаю..."
     # "Что там Биф придумал на этот раз?"
-    m "Еще не знаю..."
-    "Что там Биф придумал на этот раз?"
+    m "Nein, noch nicht..."
+    "Was wollte Biff dieses Mal?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:539
 translate german ep22_dialogue6_5a_30c909fa_1:
 
     # alex_photograph "Отлично, Миссис Бакфетт!"
     # "Можете переодеваться здесь! Я не буду смотреть!"
-    alex_photograph "Отлично, Миссис Бакфетт!"
-    "Можете переодеваться здесь! Я не буду смотреть!"
+    alex_photograph "Ok, Frau Buckfett!"
+    "Du kannst dich hier umziehen, ich schaue auch nicht."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:542
 translate german ep22_dialogue6_5a_daac2c93_1:
 
     # m "Я переоденусь в гримерке!"
     # "Надеюсь Мелани не закрыла ее в этот раз?"
-    m "Я переоденусь в гримерке!"
-    "Надеюсь Мелани не закрыла ее в этот раз?"
+    m "Ich ziehe mich in der Umkleide um!"
+    "Ich hoffe, Melanie hat sie diesmal nicht verschlossen."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:545
 translate german ep22_dialogue6_5a_01b2865a_1:
 
     # alex_photograph "Нет, Миссис Бакфетт, она открыта..." 
-    alex_photograph "Нет, Миссис Бакфетт, она открыта..." 
+    alex_photograph "Nein, Frau Buckfett, sie ist offen..." 
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:548
 translate german ep22_dialogue6_5a_b415592f_1:
 
     # m "Я скоро вернусь!"
-    m "Я скоро вернусь!"
+    m "Bin gleich zurück!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:743
 translate german ep22_dialogue6_7_61f5b2d4_1:
@@ -1372,55 +1372,55 @@ translate german ep22_dialogue6_7_61f5b2d4_1:
     # biff "Да, цыпочка!"
     # biff "На следующей неделе я не нуждаюсь в твоих услугах!"
     # biff "Приходи позднее!"
-    biff "Да, цыпочка!"
-    biff "На следующей неделе я не нуждаюсь в твоих услугах!"
-    biff "Приходи позднее!"
+    biff "Das bin ich, Püppchen!"
+    biff "Ich werde deine Dienst kommende Woche nicht benötigen."
+    biff "Komm später wieder."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:748
 translate german ep22_dialogue6_7_00c8991e_1:
 
     # m "КАК?!!"
     # m "Биф, но ты говорил что это регулярная работа!"
-    m "КАК?!!"
-    m "Биф, но ты говорил что это регулярная работа!"
+    m "WAS?!"
+    m "Biff, du hast mir gesagt, dass das ein ganz normaler Job ist!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:752
 translate german ep22_dialogue6_7_bad8b4fb_1:
 
     # biff "Это регулярная работа, цыпочка. Но на следующей неделе ты мне не нужна."
-    biff "Это регулярная работа, цыпочка. Но на следующей неделе ты мне не нужна."
+    biff "Ist es auch, aber ich brauche dich nächste Woche nicht, Babe."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:755
 translate german ep22_dialogue6_7_48e462c3_1:
 
     # mt "Дьявол! Где же я достану деньги для Виктории!"
-    mt "Дьявол! Где же я достану деньги для Виктории!"
+    mt "Verdammt! Woher soll ich Geld für Victoria bekommen?!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:759
 translate german ep22_dialogue6_7_ff437626_1:
 
     # m "Биф, хорошо, но мне все-равно нужны деньги..."
-    m "Биф, хорошо, но мне все-равно нужны деньги..."
+    m "Okay Biff, aber ich brauche trotzdem Geld..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:761
 translate german ep22_dialogue6_7_3998c5f6_1:
 
     # biff "Цыпочка! Ты начинаешь утомлять папочку!"
     # biff "Тебя что-то не устраивает? Ты хочешь разорвать наше соглашение?"
-    biff "Цыпочка! Ты начинаешь утомлять папочку!"
-    biff "Тебя что-то не устраивает? Ты хочешь разорвать наше соглашение?"
+    biff "Hör auf deinen Daddy zu nerven!"
+    biff "Magst du etwas nicht? Willst du, dass wir unsere Vereinbarung aufgeben?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:765
 translate german ep22_dialogue6_7_098ba49a_1:
 
     # m "Нет... Биф..."
-    m "Нет... Биф..."
+    m "Nein, Biff..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:767
 translate german ep22_dialogue6_7_ea3188a1_1:
 
     # m "В этом нет... необходимости"
-    m "В этом нет... необходимости"
+    m "Das ist unnötig..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:822
 translate german ep22_dialogue6_7b_0216b751_1:
@@ -1428,15 +1428,15 @@ translate german ep22_dialogue6_7b_0216b751_1:
     # m "Ты что-то говорил по поводу работы в офисе?"
     # biff "Да, когда ты станешь очень хорошей цыпочкой, я возьму тебя сюда в офис!"
     # "Ты полезная кукла, я смогу продавать тебя здесь!"
-    m "Ты что-то говорил по поводу работы в офисе?"
-    biff "Да, когда ты станешь очень хорошей цыпочкой, я возьму тебя сюда в офис!"
-    "Ты полезная кукла, я смогу продавать тебя здесь!"
+    m "Sagtest du nicht etwas über Arbeit im Büro?"
+    biff "Ja, wenn du ein wirklich gutes Chick bist, nehme ich dich mit ins Büro auf!"
+    "Du bist eine nützliche Puppe, ich kann dich hier verkaufen!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:826
 translate german ep22_dialogue6_7b_9145ffb8_1:
 
     # m "Что значит продавать меня???"
-    m "Что значит продавать меня???"
+    m "Was meinst du mit verkaufen???"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:828
 translate german ep22_dialogue6_7b_fd275dc8_1:
@@ -1445,10 +1445,10 @@ translate german ep22_dialogue6_7b_fd275dc8_1:
     # "Ты ведь похожа на Монику Бакфетт!"
     # "Ты наверное уже забыла!"
     # "Ха-Ха-Ха!"
-    biff "Торговать твоим личиком!"
-    "Ты ведь похожа на Монику Бакфетт!"
-    "Ты наверное уже забыла!"
-    "Ха-Ха-Ха!"
+    biff "Dein Gesicht verkaufen!"
+    "Du bist wie Monica Buckfett!"
+    "Das hast du vielleicht schon vergessen!"
+    "Hahaha!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:833
 translate german ep22_dialogue6_7b_0a5616b8_2:
@@ -1465,12 +1465,12 @@ translate german ep22_dialogue6_7b_aaa3154a_1:
     # "И не только пальчики!"
     # "Ха-Ха-Ха!"
     # "И все будут думать что ты настоящая!"
-    biff "Но, может быть и не только личиком!"
-    "Думаю многие партнеры готовы будут неплохо заплатить, чтобы запустить свои пальчики..."
-    "В киску Моники Бакфетт!"
-    "И не только пальчики!"
-    "Ха-Ха-Ха!"
-    "И все будут думать что ты настоящая!"
+    biff "Aber, du bist nicht das Einzige niedliche Gesicht hier!"
+    "Ich denke, vielen Geschäftspartner zahlen gut dafür, dass sie ihre Finger reinstecken dürfen in..."
+    "In die Pussy von Monica Buckfett!"
+    "Und nicht nur Finger!"
+    "Hahaha!"
+    "Und jeder wird glauben, dass du echt bist!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:843
 translate german ep22_dialogue6_7b_0a5616b8_3:
@@ -1484,17 +1484,17 @@ translate german ep22_dialogue6_7b_b8aa5f0a_1:
     # biff "Тебе это очень понравится!"
     # "Ты будешь заниматься тем же самым чем занимаешься на улице сейчас..."
     # "Только будешь значительно больше получать за это!"
-    biff "Тебе это очень понравится!"
-    "Ты будешь заниматься тем же самым чем занимаешься на улице сейчас..."
-    "Только будешь значительно больше получать за это!"
+    biff "Du wirst das lieben!"
+    "Du machst das Gleiche wie auf der Straße, nur dass du hier viel mehr Geld bekommst..."
+    "Nur viel mehr dafür bekommst...!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:850
 translate german ep22_dialogue6_7b_262e9e9b_1:
 
     # m "Нет, Биф!"
     # "Давай пока ограничимся личиком!"
-    m "Нет, Биф!"
-    "Давай пока ограничимся личиком!"
+    m "Nein, Biff!"
+    "Einigen wir uns für jetzt einfach auf die Gesichtssache!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:853
 translate german ep22_dialogue6_7b_2f3cf51a_1:
@@ -1502,9 +1502,9 @@ translate german ep22_dialogue6_7b_2f3cf51a_1:
     # biff "Без проблем, крошка!"
     # "Все-равно тебе еще надо заработать это доверие!"
     # "А это значит быть хорошей цыпочкой!"
-    biff "Без проблем, крошка!"
-    "Все-равно тебе еще надо заработать это доверие!"
-    "А это значит быть хорошей цыпочкой!"
+    biff "Kein Problem, Baby!"
+    "Dennoch musst du mein Vertrauen erst erarbeiten!"
+    "Und das bedeutet, sei ein gutes Chick!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:857
 translate german ep22_dialogue6_7b_15c6257e_1:
@@ -1513,10 +1513,10 @@ translate german ep22_dialogue6_7b_15c6257e_1:
     # "Проводить кастинги."
     # "И придумывай что-нибудь новое почаще!"
     # "Папочке может наскучить однообразная цыпочка!"
-    biff "К тому же, тебе придется значительно чаще развлекать меня."
-    "Проводить кастинги."
-    "И придумывай что-нибудь новое почаще!"
-    "Папочке может наскучить однообразная цыпочка!"
+    biff "Nebenbei, du wirst mich viel unterhalten müssen."
+    "Castings machen."
+    "Und immer wieder was Neues bringen!"
+    "Daddy ist von eintönigen Chicks schnell gelangweilt!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:863
 translate german ep22_dialogue6_7b_a87b3214_1:
@@ -1525,6 +1525,6 @@ translate german ep22_dialogue6_7b_a87b3214_1:
     # m "Я могу идти?"
     # biff "Да, цыпочка! Иди!"
     mt "!!!"
-    m "Я могу идти?"
-    biff "Да, цыпочка! Иди!"
+    m "Kann ich gehen?"
+    biff "Ja, Chick, geh!"
 

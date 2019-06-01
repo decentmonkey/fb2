@@ -86,3 +86,21 @@ translate german ep23_dialogues4_1_8ad40f85:
     # saleswoman "У нас не работает касса! Так что попрошу выйти отсюда!"
     saleswoman "Unsere Kasse funktioniert leider nicht, ich muss sie daher bitten, zu gehen!"
 
+# TODO: Translation updated at 2019-06-01 03:18
+
+# game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:27
+translate german ep23_dialogues4_1_124e7687:
+
+    # m "Я хочу купить продукты!"
+    # m "И только попробуй сказать мне что у тебя не работает касса, детка!"
+    m "Ich will Gemüse kaufen!"
+    m "И только попробуй сказать мне что у тебя не работает касса, детка!"
+
+# game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:30
+translate german ep23_dialogues4_1_b18685f3:
+
+    # saleswoman "Мэм, касса работает."
+    # saleswoman "Пожалуйста, скажите, если я смогу чем-то помочь Вам!"
+    saleswoman "Мэм, касса работает."
+    saleswoman "Пожалуйста, скажите, если я смогу чем-то помочь Вам!"
+

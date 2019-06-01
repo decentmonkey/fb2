@@ -534,7 +534,7 @@ translate english ep24_dialogues2_steve5_073aec04:
 translate english ep24_dialogues2_steve5_bbc4e156:
 
     # betty "Чмок!"
-    betty "Smotch!"
+    betty "Muah!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:257
 translate english ep24_dialogues2_steve5_0164661e:
@@ -993,7 +993,7 @@ translate english ep24_dialogues2_steve7_3f8be045:
     # betty "Стив! Что я сказала?!"
     # betty "Я замужем, я не могу заниматься этим с тобой!"
     # betty "Я не могу изменять Ральфу..."
-    betty "Ouch!"
+    betty "Oh!"
     betty "Didn’t you hear me, Steve?"
     betty "I'm married, I can't do it with you anymore!"
     betty "I can't cheat on Ralph!"
@@ -1442,7 +1442,7 @@ translate english ep24_dialogues3_steve10_24f4b5d8:
     # m "Да, Мистер Робертс."
     # m "Чем могу быть Вам полезна?"
     m "Yes, Mr Roberts."
-    m "How can I serve you?"
+    m "How can I help you?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:773
 translate english ep24_dialogues3_steve10_7aa43c32:
@@ -2091,7 +2091,7 @@ translate english ep24_dialogues3_steve10_512640fe:
     m "Selling, renting... It doesn’t matter! Such things are not for me!"
     m "Now excuse me, I have work to do."
     m "And keep in mind that I'll remember your behaviour."
-    steve "Okay, Monica!"
+    steve "Okay, okay!"
     steve "But if you change your mind, come to my office!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1283
@@ -2133,7 +2133,7 @@ translate english ep24_dialogues3_steve10_35ca3e7d:
     m "I'm not showing my butt to anyone, Steve!"
     m "Now excuse me, I have work to do."
     m "And keep in mind that I'll remember your behaviour."
-    steve "Okay, Monica!"
+    steve "Okay, okay!"
     steve "But if you change your mind, come to my office!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1320
@@ -2243,8 +2243,8 @@ translate english ep24_dialogues3_steve10_d431ceca:
     # steve "У меня сейчас нет таких средств."
     # m "Я прекрасно знаю об оборотах твоей компании, Стив!"
     steve "What? Million?"
-    steve "I don’t have such money, Monica!"
-    m "I know very well about your company's profits, Steve."
+    steve "I don’t have such money!"
+    m "I know all about revenues of your company!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1408
 translate english ep24_dialogues3_steve10_a50c1bd1:
@@ -2252,33 +2252,33 @@ translate english ep24_dialogues3_steve10_a50c1bd1:
     # steve "Да, но с тех пор как твою компанию возглавили другие люди, у меня начались сплошные проверки!"
     # steve "Я не могу потратить ни цента, если они пойдут не на благо компании!"
     # steve "Ты ведь не предлагаешь мне официально провести нашу сделку, правда Моника?!"
-    steve "Yes, but since change in leadership of the company there are constanct audits!"
-    steve "I can't spend anything if it is not for company's sake."
-    steve "You are not proposing official transaction, aren't you, Monica?"
+    steve "Yes, but since management change, there are constant auidts."
+    steve "I can't even spend a cent, if it's not for a company!"
+    steve "You are not proposing official transaction, right?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1416
 translate english ep24_dialogues3_steve10_eaf8a181:
 
     # m "Твоя цена?"
     # steve "$ 1000, Моника!"
-    m "Your offer?"
-    steve "00, Monica."
+    m "Your price?"
+    steve "#"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1419
 translate english ep24_dialogues3_steve10_32f7fc14:
 
     # m "СКОЛЬКО?!?!?"
     # m "Ты за кого меня принимаешь, Стив?!"
-    m "ARE YOU KIDDING ME!?"
-    m "Who do you thin I am, Steve?"
+    m "HOW MUCH?!?!"
+    m "Who do you think I am?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1426
 translate english ep24_dialogues3_steve10_b3eda4c4:
 
     # steve "Но Моника! Я могу тратить только деньги из моей официальной зарплаты!"
     # steve "И я теперь помолвлен с Джейн. Она следит за тем куда я трачу свою зарплату!"
-    steve "But, Monica, I can only spend what I officialy earn."
-    steve "I'm also engaged to Jane now. And she is monitoring my expenses closely."
+    steve "Monica, I can only afford as much as my official pay allows."
+    steve "I'm also engaged to Jane now and she is strict with our expenses."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1429
 translate english ep24_dialogues3_steve10_2bdd6e0d:
@@ -2287,8 +2287,8 @@ translate english ep24_dialogues3_steve10_2bdd6e0d:
     # steve "Я жертвую всем! Ради тебя! Ради выгодной сделки..."
     # steve "По аренде твоей..."
     # m "Хватит! Необязательно каждый раз произносить вслух название предмета нашей сделки..."
-    steve "I'm going to give all my pocket money for month in advance!"
-    steve "I'm sacrificing everything! For you!"
+    steve "Monica, I'm going to give all my lunch money for the month forward!"
+    steve "I'm sacrificing everything! For you! For this great deal!"
     steve "For the rent deal of your..."
     m "Stop it! Stop brining up subject of our deal every single time..."
 
@@ -2303,14 +2303,14 @@ translate english ep24_dialogues3_steve10_5d5a64a8:
     m "It's not enough, Steve. I will not even consider it..."
     m "Now excuse me, I have work to do."
     m "And keep in mind that I'll remember your behaviour."
-    steve "Okay, Monica!"
+    steve "Okay, okay!"
     steve "But if you change your mind, come to my office!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1452
 translate english ep24_dialogues3_steve10_6e2c5945:
 
     # m "Мне нужно хотя бы $ 10.000, Стив!"
-    m "I want at least 000, Steve."
+    m "I need $ 10.000 at least!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1458
 translate english ep24_dialogues3_steve10_ea8b5237:
@@ -2338,7 +2338,7 @@ translate english ep24_dialogues3_steve10_0b3189d9:
 translate english ep24_dialogues3_steve10_ee9f71b0:
 
     # m "Половину?! Это как?! Это же не гребаный этаж в тауэре, Стив!"
-    m "Half? How do you imagine that is going to work?!"
+    m "Half?! How so?! It's not a floor in the tower, Steve!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1473
 translate english ep24_dialogues3_steve10_59d0f57b:
@@ -2346,69 +2346,69 @@ translate english ep24_dialogues3_steve10_59d0f57b:
     # steve "Я буду двигаться аккуратно! Только в одну сторону! И не буду трогать руками другую половину!"
     # steve "Я буду соблюдать условия сделки! Я честный бизнесмен."
     steve "I'll be very careful and won't touch a second half."
-    steve "I always follow contract guidelines. I'm an honest entrepreneur!"
+    steve "I'll honor our agreement. I'm an honest business man."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1477
 translate english ep24_dialogues3_steve10_4273abc6:
 
     # m "Ты мешок с дерьмом, а не бизнесмен!"
-    m "You are bag of shit, not an entrepreneur!"
+    m "You are bag full of shit, not a business man!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1486
 translate english ep24_dialogues3_steve10_loop1_b25666a5:
 
     # m "$ 8.000 за весь объект аренды!"
     # steve "$ 2.000 за половину!"
-    m "$ 8000 for the whole thing!"
-    steve "$ 2000 for a half."
+    m "$ 8.000 for the whole!"
+    steve "$ 2.000 for the half!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1492
 translate english ep24_dialogues3_steve10_loop1_1e514647:
 
     # m "Тогда за целый объект $ 7.000!"
     # steve "За целый объект $ 4.000"
-    m "$ 7000 for the whole!"
-    steve "I can offer $ 4000!"
+    m "$ 7.000 for whole then!"
+    steve "$ 4.000!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1497
 translate english ep24_dialogues3_steve10_loop1_a80cb2c1:
 
     # m "$ 6.000 за половину! За целый $ 10.000!"
     # steve "$ 3.500 за целый! $ 1.500 за половину!"
-    m "$ 6000 for half! $ 10000 for whole!"
-    steve "$ 3500 for whole! $ 1.500 for half!"
+    m "$ 6.000 for half! $ 10.000 for whole!"
+    steve "$ 3.500 for whole! $ 1.500 for half!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1502
 translate english ep24_dialogues3_steve10_loop1_964fb81f:
 
     # m "$ 7.000 за половину, за целый $ 10.000!"
     # steve "$ 2.000 за половину!"
-    m "$ 7000 for half! $ 10000 for whole!"
-    steve "$ 2000 for a half."
+    m "$ 7.000 for half, $ 10.000 for whole!"
+    steve "$ 2.000 for the half!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1507
 translate english ep24_dialogues3_steve10_loop1_105bc190:
 
     # m "За половину $ 4.000, за целый $ 7.000..."
     # steve "$ 2.200 за половину!"
-    m "Half for $ 4000 and whole for $ 7000..."
-    steve "00 for half!"
+    m "For half $ 4.000, for whole $ 7.000..."
+    steve "$ 2.200 for half!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1512
 translate english ep24_dialogues3_steve10_loop1_c54c7c69:
 
     # m "$ 3.000 за половину, за целый $ 6.000!"
     # steve "$ 5.000 за целый!"
-    m "$ 3000 for half and $ 6000 for whole!"
-    steve "$ 5000 for the whole thing!"
+    m "$ 3.000 for half, for whole $ 6.000!"
+    steve "$ 5.000 for whole!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1520
 translate english ep24_dialogues3_steve10_loop1_01da054a:
 
     # m "$ 5.500 за целый!"
     # steve "За целый $4.000!"
-    m "$ 5500!"
-    steve "$ 4000!"
+    m "$ 5.500 for whole!"
+    steve "For whole $ 4.000!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1528
 translate english ep24_dialogues3_steve10_loop1_08b1a7d1:
@@ -2419,10 +2419,10 @@ translate english ep24_dialogues3_steve10_loop1_08b1a7d1:
     # mt "Обо мне уже начинают ходить слухи..."
     # mt "Это нехорошо. Я скоро верну свое положение и мне не стоит терять репутацию..."
     m "Fuck you, Steve!"
-    mt "At least I'll be able to pay that bitch Victoria..."
-    mt "And I won't have to embarrass myself in front of the camera."
+    mt "I'll at least have money to pay off this bitch Victoria."
+    mt "And won't need to embarrass myself infront of camera."
     mt "There are already some rumors about me..."
-    mt "That's bad. Soon I'll get everything back and can't afford to lose my reputation..."
+    mt "This is bad. I have to be more careful about my reputation."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1534
 translate english ep24_dialogues3_steve10_loop1_dfc984c5:
@@ -2655,28 +2655,28 @@ translate english ep24_dialogues3_steve12_3dc94d6c:
 
     # m "Мисс Виктория..."
     # m "Скажите... Вам приходил на почту подарочный сертификат?"
-    m "Miss Victoria..."
-    m "Please tell me... Did you receive gift certificate by email?"
+    m "Mrs. Victoria..."
+    m "Please tell me... Did you get a gift certificate on your email?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1745
 translate english ep24_dialogues3_steve12_70405f66:
 
     # dick_secretary "Нет, не приходил..."
     # dick_secretary "Но я его жду, как обычно..."
-    dick_secretary "No, I did not."
-    dick_secretary "I'm waiting, as usual..."
+    dick_secretary "No, I did not..."
+    dick_secretary "I'm waiting for it..."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1748
 translate english ep24_dialogues3_steve12_96948949:
 
     # m "Да, Мисс Виктория... Он будет, не волнуйтесь..."
-    m "Don’t worry, Ms Victoria. You will get it soon."
+    m "Yes, Mrs. Victoria. Don’t worry, it will be there."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1750
 translate english ep24_dialogues3_steve12_bbafaf1b:
 
     # dick_secretary "Я не волнуюсь, подружка!"
-    dick_secretary "I don’t, dear."
+    dick_secretary "I'm not worrying, buddy."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1753
 translate english ep24_dialogues3_steve12_3bbd7524:
@@ -2742,31 +2742,31 @@ translate english strings:
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1440
     old "Мне нужно хотя бы $ 10.000, Стив!"
-    new "I want at least 000, Steve."
+    new "I need $ 10.000 at least!"
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1483
     old "$ 8.000 за весь объект аренды!"
-    new "$ 8000 for the whole thing!"
+    new "$ 8.000 for the whole!"
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1483
     old "$ 7.000 за половину, за целый $ 10.000!"
-    new "$ 7000 for half! $ 10000 for whole!"
+    new "$ 7.000 for half, $ 10.000 for whole!"
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1489
     old "Тогда за целый объект $ 7.000!"
-    new "$ 7000 for the whole!"
+    new "$ 7.000 for whole then!"
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1489
     old "$ 6.000 за половину! За целый $ 10.000!"
-    new "$ 6000 for half! $ 10000 for whole!"
+    new "$ 6.000 for half! $ 10.000 for whole!"
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1504
     old "За половину $ 4.000, за целый $ 7.000..."
-    new "Half for $ 4000 and whole for $ 7000..."
+    new "For half $ 4.000, for whole $ 7.000..."
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1504
     old "$ 3.000 за половину, за целый $ 6.000!"
-    new "$ 3000 for half and $ 6000 for whole!"
+    new "$ 3.000 for half, for whole $ 6.000!"
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1515
     old "Я согласна..."
@@ -2774,7 +2774,7 @@ translate english strings:
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1515
     old "$ 5.500 за целый!"
-    new "$ 5500!"
+    new "$ 5.500 for whole!"
 
     # Quests/EP2_04/ep24_dialogues2_steve.rpy:1699
     old "Толкнуть Стива в бассейн..."
@@ -2844,7 +2844,7 @@ translate english ep24_dialogues2_steve5a_073aec04:
 translate english ep24_dialogues2_steve5a_bbc4e156:
 
     # betty "Чмок!"
-    betty "Smotch!"
+    betty "Muah!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:340
 translate english ep24_dialogues2_steve5a_0164661e:
@@ -3157,8 +3157,8 @@ translate english ep24_dialogues3_steve10_enter_room1_50a1699e:
 
     # mt "Я не пойду туда в таком виде!"
     # mt "Я еще не сошла с ума!"
-    mt "I'm not going in there like this!"
-    mt "I have not lost my mind yet!"
+    mt "I'm not going there like that!"
+    mt "I'm not out of my mind yet!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:947
 translate english ep24_dialogues3_steve10_enter_room2_727f2b7b:
@@ -3292,7 +3292,7 @@ translate english ep24_dialogues3_steve10b_24f4b5d8:
     # m "Да, Мистер Робертс."
     # m "Чем могу быть Вам полезна?"
     m "Yes, Mr Roberts."
-    m "How can I serve you?"
+    m "How can I help you?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1110
 translate english ep24_dialogues3_steve10b_7aa43c32:
@@ -3995,7 +3995,7 @@ translate english ep24_dialogues3_steve10g_512640fe:
     m "Selling, renting... It doesn’t matter! Such things are not for me!"
     m "Now excuse me, I have work to do."
     m "And keep in mind that I'll remember your behaviour."
-    steve "Okay, Monica!"
+    steve "Okay, okay!"
     steve "But if you change your mind, come to my office!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1918
@@ -4037,7 +4037,7 @@ translate english ep24_dialogues3_steve10g_35ca3e7d:
     m "I'm not showing my butt to anyone, Steve!"
     m "Now excuse me, I have work to do."
     m "And keep in mind that I'll remember your behaviour."
-    steve "Okay, Monica!"
+    steve "Okay, okay!"
     steve "But if you change your mind, come to my office!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:1959
@@ -4147,8 +4147,8 @@ translate english ep24_dialogues3_steve10g_d431ceca:
     # steve "У меня сейчас нет таких средств."
     # m "Я прекрасно знаю об оборотах твоей компании, Стив!"
     steve "What? Million?"
-    steve "I don’t have such money, Monica!"
-    m "I know very well about your company's profits, Steve."
+    steve "I don’t have such money!"
+    m "I know all about revenues of your company!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2056
 translate english ep24_dialogues3_steve10g_a50c1bd1:
@@ -4156,33 +4156,33 @@ translate english ep24_dialogues3_steve10g_a50c1bd1:
     # steve "Да, но с тех пор как твою компанию возглавили другие люди, у меня начались сплошные проверки!"
     # steve "Я не могу потратить ни цента, если они пойдут не на благо компании!"
     # steve "Ты ведь не предлагаешь мне официально провести нашу сделку, правда Моника?!"
-    steve "Yes, but since change in leadership of the company there are constanct audits!"
-    steve "I can't spend anything if it is not for company's sake."
-    steve "You are not proposing official transaction, aren't you, Monica?"
+    steve "Yes, but since management change, there are constant auidts."
+    steve "I can't even spend a cent, if it's not for a company!"
+    steve "You are not proposing official transaction, right?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2064
 translate english ep24_dialogues3_steve10g_eaf8a181:
 
     # m "Твоя цена?"
     # steve "$ 1000, Моника!"
-    m "Your offer?"
-    steve "00, Monica."
+    m "Your price?"
+    steve "#"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2067
 translate english ep24_dialogues3_steve10g_32f7fc14:
 
     # m "СКОЛЬКО?!?!?"
     # m "Ты за кого меня принимаешь, Стив?!"
-    m "ARE YOU KIDDING ME!?"
-    m "Who do you thin I am, Steve?"
+    m "HOW MUCH?!?!"
+    m "Who do you think I am?"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2074
 translate english ep24_dialogues3_steve10g_b3eda4c4:
 
     # steve "Но Моника! Я могу тратить только деньги из моей официальной зарплаты!"
     # steve "И я теперь помолвлен с Джейн. Она следит за тем куда я трачу свою зарплату!"
-    steve "But, Monica, I can only spend what I officialy earn."
-    steve "I'm also engaged to Jane now. And she is monitoring my expenses closely."
+    steve "Monica, I can only afford as much as my official pay allows."
+    steve "I'm also engaged to Jane now and she is strict with our expenses."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2077
 translate english ep24_dialogues3_steve10g_2bdd6e0d:
@@ -4191,8 +4191,8 @@ translate english ep24_dialogues3_steve10g_2bdd6e0d:
     # steve "Я жертвую всем! Ради тебя! Ради выгодной сделки..."
     # steve "По аренде твоей..."
     # m "Хватит! Необязательно каждый раз произносить вслух название предмета нашей сделки..."
-    steve "I'm going to give all my pocket money for month in advance!"
-    steve "I'm sacrificing everything! For you!"
+    steve "Monica, I'm going to give all my lunch money for the month forward!"
+    steve "I'm sacrificing everything! For you! For this great deal!"
     steve "For the rent deal of your..."
     m "Stop it! Stop brining up subject of our deal every single time..."
 
@@ -4207,14 +4207,14 @@ translate english ep24_dialogues3_steve10g_5d5a64a8:
     m "It's not enough, Steve. I will not even consider it..."
     m "Now excuse me, I have work to do."
     m "And keep in mind that I'll remember your behaviour."
-    steve "Okay, Monica!"
+    steve "Okay, okay!"
     steve "But if you change your mind, come to my office!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2100
 translate english ep24_dialogues3_steve10g_6e2c5945:
 
     # m "Мне нужно хотя бы $ 10.000, Стив!"
-    m "I want at least 000, Steve."
+    m "I need $ 10.000 at least!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2106
 translate english ep24_dialogues3_steve10g_ea8b5237:
@@ -4242,7 +4242,7 @@ translate english ep24_dialogues3_steve10g_0b3189d9:
 translate english ep24_dialogues3_steve10g_ee9f71b0:
 
     # m "Половину?! Это как?! Это же не гребаный этаж в тауэре, Стив!"
-    m "Half? How do you imagine that is going to work?!"
+    m "Half?! How so?! It's not a floor in the tower, Steve!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2121
 translate english ep24_dialogues3_steve10g_59d0f57b:
@@ -4250,13 +4250,13 @@ translate english ep24_dialogues3_steve10g_59d0f57b:
     # steve "Я буду двигаться аккуратно! Только в одну сторону! И не буду трогать руками другую половину!"
     # steve "Я буду соблюдать условия сделки! Я честный бизнесмен."
     steve "I'll be very careful and won't touch a second half."
-    steve "I always follow contract guidelines. I'm an honest entrepreneur!"
+    steve "I'll honor our agreement. I'm an honest business man."
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2125
 translate english ep24_dialogues3_steve10g_4273abc6:
 
     # m "Ты мешок с дерьмом, а не бизнесмен!"
-    m "You are bag of shit, not an entrepreneur!"
+    m "You are bag full of shit, not a business man!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2515
 translate english ep24_dialogues3_steve10a1_6db67b6d:

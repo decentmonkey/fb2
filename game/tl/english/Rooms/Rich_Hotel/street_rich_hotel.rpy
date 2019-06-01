@@ -74,3 +74,11 @@ translate english street_rich_hotel_environment_1faa8549:
     m "LA GRAND?"
     "So trite..."
 
+# TODO: Translation updated at 2019-06-01 03:20
+
+# game/Rooms/Rich_Hotel/street_rich_hotel.rpy:34
+translate english street_rich_hotel_teleport_198e0cb9:
+
+    # help "Будет доступно в следующем обновлении игры. Следите за новостями!"
+    help "More in the next game update. Please follow the news!"
+

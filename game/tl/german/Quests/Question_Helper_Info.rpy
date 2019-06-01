@@ -291,3 +291,19 @@ translate german strings:
     old "Стив обманул меня! Он что, думает что можно иметь со мной секс за бесплатно?!"
     new "Er hat mich schon wieder belogen! Denkt er, er kann mit mir Sex umsonst haben?"
 
+# TODO: Translation updated at 2019-06-01 03:18
+
+translate german strings:
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Мне надо поймать Стива, этого слизняка! Он не уйдет от меня!"
+    new ""
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Стив хочет трахнуть меня снова, чтобы закрыть эту чертову сделку! Мне нужны деньги, но цена..."
+    new ""
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Стив слизняк и негодяй! Но, может быть, через него можно найти какую-то работу или просто деньги?"
+    new ""
+

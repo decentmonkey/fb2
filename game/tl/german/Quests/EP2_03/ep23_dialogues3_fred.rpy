@@ -96,7 +96,7 @@ translate german ep23_dialogues3_1_83afe761:
     mt "Dieser Bastard!"
     "Wie kann er es wagen mit mir über solche Sachen zu reden?"
     mt "..."
-    mt "Obwohl..."
+    mt "Warte..."
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:55
 translate german ep23_dialogues3_1_b9b2fb6a:
@@ -315,9 +315,9 @@ translate german ep23_dialogues3_1_3026248a:
     # "Чмок!"
     # m "Пока, девочки!"
     stephanie "Ciao, Monica!"
-    "Klatsch!"
+    "Muah!"
     rebecca "Ciao, Monica!"
-    "Klatsch!"
+    "Muah!"
     m "Tschüss, Mädels!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:211
@@ -686,7 +686,7 @@ translate german ep23_dialogues3_5_c3cda9dc:
 translate german ep23_dialogues3_5_bbc4e156:
 
     # betty "Чмок!"
-    betty "Klatsch!"
+    betty "Muah!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:485
 translate german ep23_dialogues3_5_9f9ae072:
@@ -704,7 +704,7 @@ translate german ep23_dialogues3_5_c3cda9dc_1:
 translate german ep23_dialogues3_5_bbc4e156_1:
 
     # betty "Чмок!"
-    betty "Klatsch!"
+    betty "Muah!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:492
 translate german ep23_dialogues3_5_9f9ae072_1:
@@ -870,7 +870,7 @@ translate german ep23_dialogues3_5a_c3cda9dc:
 translate german ep23_dialogues3_5a_bbc4e156:
 
     # betty "Чмок!"
-    betty "Klatsch!"
+    betty "Muah!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:668
 translate german ep23_dialogues3_5a_9f9ae072:
@@ -888,7 +888,7 @@ translate german ep23_dialogues3_5a_c3cda9dc_1:
 translate german ep23_dialogues3_5a_bbc4e156_1:
 
     # betty "Чмок!"
-    betty "Klatsch!"
+    betty "Muah!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:680
 translate german ep23_dialogues3_5a_9f9ae072_1:

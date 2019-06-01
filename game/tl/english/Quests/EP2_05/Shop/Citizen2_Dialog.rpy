@@ -5,8 +5,8 @@ translate english cit2_dialog_1_3346b6c2:
 
     # m "Добрый день, Мистер."
     # m "Можно к Вам обратиться?"
-    m "Добрый день, Мистер."
-    m "Можно к Вам обратиться?"
+    m "Good day, Mister."
+    m "Can I talk with you for a moment?"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:7
 translate english cit2_dialog_1_447ebb5a:
@@ -16,31 +16,31 @@ translate english cit2_dialog_1_447ebb5a:
     # cit2 "В каждом магазине, куда-бы я ни пошел, одни чертовы консультаны!"
     # cit2 "Которые навязывают свой дурацкий товар!"
     # m "Мистер... Я... Не совсем консультант..."
-    cit2 "Я сам решу что мне купить!"
-    cit2 "Снова очередной консультант!"
-    cit2 "В каждом магазине, куда-бы я ни пошел, одни чертовы консультаны!"
-    cit2 "Которые навязывают свой дурацкий товар!"
-    m "Мистер... Я... Не совсем консультант..."
+    cit2 "I'll decide what to buy on my own."
+    cit2 "Another clothing consultant..."
+    cit2 "Everywhere I go, damn consultants!"
+    cit2 "Trying to sell me something stupid!"
+    m "Mister... I'm... I'm not really a consultant..."
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:13
 translate english cit2_dialog_1_0c5a2836:
 
     # cit2 "А кто же ты?"
-    cit2 "А кто же ты?"
+    cit2 "Who are you then?"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:20
 translate english cit2_dialog_1_21364402:
 
     # m "Я... Я работаю здесь манекеном."
     # m "И я бы хотела предложить Вам купить это замечательное платье."
-    m "Я... Я работаю здесь манекеном."
-    m "И я бы хотела предложить Вам купить это замечательное платье."
+    m "I'm... I'm working here as a mannequin..."
+    m "I'd like to offer you to purchase this beautiful dress."
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:23
 translate english cit2_dialog_1_d63b28b6:
 
     # cit2 "Какое? Это?"
-    cit2 "Какое? Это?"
+    cit2 "What dress? This one?"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:26
 translate english cit2_dialog_1_2c0e7ecb:
@@ -48,13 +48,13 @@ translate english cit2_dialog_1_2c0e7ecb:
     # m "!!!"
     # m "Да, Мистер... Это..."
     m "!!!"
-    m "Да, Мистер... Это..."
+    m "Yes..."
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:29
 translate english cit2_dialog_1_8cf2b649:
 
     # cit2 "Не сейчас, может в другой раз!"
-    cit2 "Не сейчас, может в другой раз!"
+    cit2 "Not now, maybe another time."
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:35
 translate english cit2_dialog_2_42c570ca:
@@ -63,18 +63,18 @@ translate english cit2_dialog_2_42c570ca:
     # m "Можно к Вам обратиться?"
     # cit2 "А, это снова Ты?"
     # cit2 "Напомни мне, кто ты?"
-    m "Добрый день, Мистер."
-    m "Можно к Вам обратиться?"
-    cit2 "А, это снова Ты?"
-    cit2 "Напомни мне, кто ты?"
+    m "Good day, Mister."
+    m "Can I talk with you for a moment?"
+    cit2 "Ah, you again."
+    cit2 "Remind me, who are you?"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:45
 translate english cit2_dialog_2_adfdc0f6:
 
     # m "Я... Я работаю здесь манекеном."
     # cit2 "Снова хочешь втюхать мне свое дурацкое платье?"
-    m "Я... Я работаю здесь манекеном."
-    cit2 "Снова хочешь втюхать мне свое дурацкое платье?"
+    m "I'm... I'm working here as a mannequin..."
+    cit2 "Want to push me into buying this stupid dress again?"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:48
 translate english cit2_dialog_2_8fdf8f09:
@@ -83,8 +83,8 @@ translate english cit2_dialog_2_8fdf8f09:
     # m "Мистер, это очень хорошее платье."
     # m "Оно очень дорогое!"
     m "!!!"
-    m "Мистер, это очень хорошее платье."
-    m "Оно очень дорогое!"
+    m "Mister, this dress is from high quality material."
+    m "It is very expensive!"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:52
 translate english cit2_dialog_2_0d468a39:
@@ -92,9 +92,9 @@ translate english cit2_dialog_2_0d468a39:
     # cit2 "Тем более дорогое!"
     # cit2 "Ты пытаешься втюхать мне дорогую вещь!"
     # cit2 "Ты точно глупая, как менекен!"
-    cit2 "Тем более дорогое!"
-    cit2 "Ты пытаешься втюхать мне дорогую вещь!"
-    cit2 "Ты точно глупая, как менекен!"
+    cit2 "More so!"
+    cit2 "You are trying to push me into buying EXPENSIVE dress!"
+    cit2 "You are as dumb as a mannequin!"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:56
 translate english cit2_dialog_2_29a4f6ab:
@@ -107,20 +107,20 @@ translate english cit2_dialog_2_99010afe:
 
     # cit2 "Хотя... Это ведь дорогое платье?"
     # cit2 "Можно я его потрогаю?"
-    cit2 "Хотя... Это ведь дорогое платье?"
-    cit2 "Можно я его потрогаю?"
+    cit2 "Hmm... wait... It's expensive, right?"
+    cit2 "Can I touch it?"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:65
 translate english cit2_dialog_2_020b3dff:
 
     # m "Нет, Мистер!"
-    m "Нет, Мистер!"
+    m "No, Mister!"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:70
 translate english cit2_dialog_2_567a8768:
 
     # m "Да, посетители могут трогать товар..."
-    m "Да, посетители могут трогать товар..."
+    m "Yes, customers are allowed to do it..."
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:75
 translate english cit2_dialog_2_0a5616b8:
@@ -132,103 +132,103 @@ translate english cit2_dialog_2_0a5616b8:
 translate english cit2_dialog_2_51972d8d:
 
     # cit2 "Приятное на ощупь..."
-    cit2 "Приятное на ощупь..."
+    cit2 "Very nice to the touch..."
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:80
 translate english cit2_dialog_2_3f3d9c9c:
 
     # m "Мистер, Вы покупаете это платье?"
-    m "Мистер, Вы покупаете это платье?"
+    m "Are you going to buy it, Mister?"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:82
 translate english cit2_dialog_2_59abc6dd:
 
     # cit2 "Я еще подумаю!"
-    cit2 "Я еще подумаю!"
+    cit2 "I'll think about it."
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:88
 translate english cit2_dialog_3_3346b6c2:
 
     # m "Добрый день, Мистер."
     # m "Можно к Вам обратиться?"
-    m "Добрый день, Мистер."
-    m "Можно к Вам обратиться?"
+    m "Good day, Mister."
+    m "Can I talk with you for a moment?"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:91
 translate english cit2_dialog_3_adb241ce:
 
     # cit2 "А, это снова Ты?"
     # cit2 "Напомни мне, кто ты?"
-    cit2 "А, это снова Ты?"
-    cit2 "Напомни мне, кто ты?"
+    cit2 "Ah, you again."
+    cit2 "Remind me, who are you?"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:99
 translate english cit2_dialog_3_4fc2a49b:
 
     # m "Я... Я работаю здесь манекеном."
     # m "Вы обещали подумать насчет покупки этого замечательного платья..."
-    m "Я... Я работаю здесь манекеном."
-    m "Вы обещали подумать насчет покупки этого замечательного платья..."
+    m "I'm... I'm working here as a mannequin..."
+    m "You promised to think about buying this beautiful dress."
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:102
 translate english cit2_dialog_3_c9564c8a:
 
     # cit2 "А! Этого?"
     # cit2 "Я не ношу таких платьев, я мужчина!"
-    cit2 "А! Этого?"
-    cit2 "Я не ношу таких платьев, я мужчина!"
+    cit2 "Oh, ths one?"
+    cit2 "I don’t wear dresses, I'm man!"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:105
 translate english cit2_dialog_3_02f434a0:
 
     # m "Вы могли бы купить его для своей девушки..."
     # m "Ведь она заслуживает такого подарка..."
-    m "Вы могли бы купить его для своей девушки..."
-    m "Ведь она заслуживает такого подарка..."
+    m "You can buy it for your girlfriend."
+    m "Don't you think that she deserves such a gift?"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:108
 translate english cit2_dialog_3_ace16074:
 
     # cit2 "Повернись спиной. Я хочу посмотреть."
-    cit2 "Повернись спиной. Я хочу посмотреть."
+    cit2 "Turn around. I'd like to take a look."
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:110
 translate english cit2_dialog_3_8cbc5e71:
 
     # m "Так, Мистер?" 
     # cit2 "Нагнись вперед."
-    m "Так, Мистер?" 
-    cit2 "Нагнись вперед."
+    m "Like that?" 
+    cit2 "Bend forward."
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:117
 translate english cit2_dialog_3_020b3dff:
 
     # m "Нет, Мистер!"
-    m "Нет, Мистер!"
+    m "No, Mister!"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:123
 translate english cit2_dialog_3_d647950a:
 
     # m "Так?"
-    m "Так?"
+    m "Like that?"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:125
 translate english cit2_dialog_3_b58f1814:
 
     # cit2 "Нет! У моей девушки задница вдвое больше чем у тебя!"
-    cit2 "Нет! У моей девушки задница вдвое больше чем у тебя!"
+    cit2 "No, my girlfriend's ass is twice as big as yours!"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:127
 translate english cit2_dialog_3_8b3dcf57:
 
     # cit2 "Это платье порвется на ней!"
-    cit2 "Это платье порвется на ней!"
+    cit2 "This dress will tear up on her."
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:129
 translate english cit2_dialog_3_033f5353:
 
     # cit2 "Я отказываюсь от покупки!"
-    cit2 "Я отказываюсь от покупки!"
+    cit2 "I refuse to buy it!"
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:131
 translate english cit2_dialog_3_29a4f6ab:
@@ -240,9 +240,29 @@ translate english strings:
 
     # Quests/EP2_05/Shop/Citizen2_Dialog.rpy:60
     old "Да, посетители могут трогать товар..."
-    new ""
+    new "Yes, customers are allowed to do it..."
 
     # Quests/EP2_05/Shop/Citizen2_Dialog.rpy:112
     old "Нагнуться вперед."
-    new ""
+    new "Bend forward."
+
+# TODO: Translation updated at 2019-06-01 03:20
+
+# game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:13
+translate english cit2_dialog_1_5aad93a1:
+
+    # cit2 "Я сам решу что мне купить!"
+    # cit2 "Снова очередной консультант!"
+    # cit2 "В каждом магазине, куда-бы я ни пошел, одни чертовы консультаны!"
+    # cit2 "Которые навязывают свой дурацкий товар!"
+    cit2 "I'll decide what to buy on my own."
+    cit2 "Another clothing consultant..."
+    cit2 "Everywhere I go, damn consultants!"
+    cit2 "Trying to sell me something stupid!"
+
+# game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:18
+translate english cit2_dialog_1_aed571e8:
+
+    # m "Мистер... Я... Не совсем консультант..."
+    m "Mister... I'm... I'm not really a consultant..."
 

@@ -27,3 +27,15 @@ translate german strings:
     # 00_Functions/screens.rpy:1484
     old "Guide"
     new "Guide"
+# TODO: Translation updated at 2019-06-01 03:18
+
+translate german strings:
+
+    # 00_Functions/screens.rpy:1431
+    old " (corruption)"
+    new ""
+
+    # 00_Functions/screens.rpy:1435
+    old " (low corruption, required "
+    new ""
+

@@ -76,7 +76,7 @@ translate german ep23_dialogue9_1_ec8cbd19:
 translate german ep23_dialogue9_1_594b5788:
 
     # melanie "Не беспокойся, девочка. Сделаешь все как мы договорились и получишь свои $ 100..."
-    melanie "Keine Sorge, Mädchen. Mach alles wie besprochen und die bekommst deine 0..."
+    melanie "Keine Sorge, Mädchen. Mach alles wie besprochen und die bekommst deine $ 100..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:68
 translate german ep23_dialogue9_1_280ee112:
@@ -272,7 +272,7 @@ translate german ep23_dialogue9_2_236b81ce:
     # mt "СУЧКА!!!"
     # "НЕНАВИЖУ!!!"
     mt "SCHLAMPE!"
-    "HASS!!!"
+    "ICH HASSE SIE!!!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:245
 translate german ep23_dialogue9_2_0d18f5b3:
@@ -1223,8 +1223,8 @@ translate german ep23_dialogue9_5b_d37e1351:
     # "Может быть Вы в курсе где она?"
     # m "Нет, дорогуша..."
     # "Я... Я не имею представления где она может быть..."
-    m "Süße, hast du zufällig Melanie gesehen?"
-    secretary "Nein, Frau Buckfett."
+    m "Schätzchen, hast du Melanie gesehen?"
+    secretary "Nein, Frau Buckfett..."
     "Jeder sucht sie schon!"
     "Wissen sie nicht, wo sie ist?"
     m "Nein, Schätzchen..."
@@ -1784,7 +1784,7 @@ translate german ep23_dialogue9_5a_803dd0c2:
 translate german ep23_dialogue9_5b_9116c9ea:
 
     # m "Дорогуша, ты не видела Мелани?"
-    m "Süße, hast du zufällig Melanie gesehen?"
+    m "Schätzchen, hast du Melanie gesehen?"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1423
 translate german ep23_dialogue9_5b_23509a09:
@@ -1792,7 +1792,7 @@ translate german ep23_dialogue9_5b_23509a09:
     # secretary "Нет, Миссис Бакфетт."
     # "Ее все ищут!"
     # "Может быть Вы в курсе где она?"
-    secretary "Nein, Frau Buckfett."
+    secretary "Nein, Frau Buckfett..."
     "Jeder sucht sie schon!"
     "Wissen sie nicht, wo sie ist?"
 
@@ -2166,27 +2166,27 @@ translate german ep23_dialogue9_5d_b17b8dd3:
 translate german ep23_dialogue9_5a_5635762e_1:
 
     # m "Алекс, ты не видел Мелани?"
-    m "Алекс, ты не видел Мелани?"
+    m "Alex, hast du Melanie gesehen?"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1649
 translate german ep23_dialogue9_5a_07b28474_1:
 
     # alex_photograph "Нет, Миссис Бакфетт, ее сегодня не было."
     # "Может быть Вы знаете где она?"
-    alex_photograph "Нет, Миссис Бакфетт, ее сегодня не было."
-    "Может быть Вы знаете где она?"
+    alex_photograph "Nein, Frau Buckfett, sie ist seit gestern weg."
+    "Wissen sie nicht, wo sie ist?"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1653
 translate german ep23_dialogue9_5a_803dd0c2_1:
 
     # m "Я... Нет, Алекс... Я не знаю где Мелани..."
-    m "Я... Нет, Алекс... Я не знаю где Мелани..."
+    m "Ich... Nein Alex... Ich weiß nicht, wo Melanie ist..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1677
 translate german ep23_dialogue9_5b_9116c9ea_1:
 
     # m "Дорогуша, ты не видела Мелани?"
-    m "Дорогуша, ты не видела Мелани?"
+    m "Schätzchen, hast du Melanie gesehen?"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1679
 translate german ep23_dialogue9_5b_23509a09_1:
@@ -2194,17 +2194,17 @@ translate german ep23_dialogue9_5b_23509a09_1:
     # secretary "Нет, Миссис Бакфетт."
     # "Ее все ищут!"
     # "Может быть Вы в курсе где она?"
-    secretary "Нет, Миссис Бакфетт."
-    "Ее все ищут!"
-    "Может быть Вы в курсе где она?"
+    secretary "Nein, Frau Buckfett..."
+    "Jeder sucht sie schon!"
+    "Wissen sie nicht, wo sie ist?"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1684
 translate german ep23_dialogue9_5b_279855ef_1:
 
     # m "Нет, дорогуша..."
     # "Я... Я не имею представления где она может быть..."
-    m "Нет, дорогуша..."
-    "Я... Я не имею представления где она может быть..."
+    m "Nein, Schätzchen..."
+    "Ich... Ich... habe keine Ahnung, wo sie sein könnte..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1706
 translate german ep23_dialogue9_5c_7770ec35_1:
@@ -2213,16 +2213,16 @@ translate german ep23_dialogue9_5c_7770ec35_1:
     # biff "Нет, цыпочка, я не видел ее."
     # "Малышка Мелани куда-то пропала."
     # "Папочка обязательно накажет ее, когда она появится!"
-    m "Биф, ты не видел Мелани?"
-    biff "Нет, цыпочка, я не видел ее."
-    "Малышка Мелани куда-то пропала."
-    "Папочка обязательно накажет ее, когда она появится!"
+    m "Biff, hast du Melanie gesehen?"
+    biff "Nein Chick, habe ich nicht."
+    "Melanie Baby ist verschwunden."
+    "Daddy wird sie bestrafen, wenn sie wieder auftaucht!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1712
 translate german ep23_dialogue9_5c_ab53e264_1:
 
     # mt "Черт! Бедная Мелани..."
     # "Я даже боюсь представить что сейчас с ней..."
-    mt "Черт! Бедная Мелани..."
-    "Я даже боюсь представить что сейчас с ней..."
+    mt "Verdammt! Arme Melanie..."
+    "Ich habe Angst mir vorzustellen, was passiert sein könnte..."
 

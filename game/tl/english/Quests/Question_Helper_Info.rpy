@@ -276,3 +276,19 @@ translate english strings:
     old "Бетти теперь должна ходить без трусиков в доме. Она сказала что я могу проверять это. Это все проделки Барди!"
     new "Betty can't wear panties at home now. She told me that I can check it. It's all this punk, Bardi!"
 
+# TODO: Translation updated at 2019-06-01 03:20
+
+translate english strings:
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Мне надо поймать Стива, этого слизняка! Он не уйдет от меня!"
+    new ""
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Стив хочет трахнуть меня снова, чтобы закрыть эту чертову сделку! Мне нужны деньги, но цена..."
+    new ""
+
+    # Quests/Question_Helper_Info.rpy:115
+    old "Стив слизняк и негодяй! Но, может быть, через него можно найти какую-то работу или просто деньги?"
+    new ""
+

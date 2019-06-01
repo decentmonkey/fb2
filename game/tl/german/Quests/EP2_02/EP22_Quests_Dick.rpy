@@ -20,9 +20,9 @@ translate german strings:
 
     # Quests/EP2_02/EP22_Quests_Dick.rpy:145
     old "Разговор."
-    new "Spreche."
+    new "Sprich."
 
     # Quests/EP2_02/EP22_Quests_Dick.rpy:145
     old "end"
-    new ""
+    new "Ende"
 

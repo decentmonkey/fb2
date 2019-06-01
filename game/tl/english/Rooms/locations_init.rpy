@@ -170,3 +170,11 @@ translate english strings:
     old "Dirty street"
     new "Dirty street"
 
+# TODO: Translation updated at 2019-06-01 03:20
+
+translate english strings:
+
+    # Rooms/locations_init.rpy:138
+    old "Офис Стива"
+    new ""
+

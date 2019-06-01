@@ -11,7 +11,7 @@ translate german bedroom2_environment_aaac3d09:
     mt "Mein Schlafzimmer..."
     "Ich vermise es so!"
     "DAS IST MEINS!!!"
-    "HASS!!!"
+    "ICH HASSE SIE!!!"
     "Wie konnte das nur passieren?"
 
 # game/Rooms/House/Bedroom/bedroom2.rpy:53
@@ -36,7 +36,7 @@ translate german bedroom2_environment_66308f7d:
     # "НЕНАВИЖУ!!!"
     mt "Mein Lieblingsschrank..."
     "Jetzt sind da fucking Bettys Lumpen drin!"
-    "HASS!!!"
+    "ICH HASSE SIE!!!"
 
 translate german strings:
 

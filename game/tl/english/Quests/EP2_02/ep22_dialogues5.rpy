@@ -226,7 +226,7 @@ translate english ep22_dialogues5_2_aad58f44:
 translate english ep22_dialogues5_2_80b235db:
 
     # dick_secretary "Ну?"
-    dick_secretary "Well?"
+    dick_secretary "So?"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:274
 translate english ep22_dialogues5_2_ec26c059:
@@ -406,7 +406,7 @@ translate english ep22_dialogues5_4_25a1172d:
     # dick2 "О! Моника!"
     # "Странно видеть тебя здесь."
     # "Я думал что ты уже со своими новыми друзьями..."
-    dick2 "Oh! Monica!"
+    dick2 "Woah, Monica!"
     "It's strange to see you here."
     "I thought you were with your new friends..."
 
@@ -894,7 +894,7 @@ translate english ep22_dialogues5_7_0da4e837:
 translate english ep22_dialogues5_7_c18253f7:
 
     # m "Я... Я согласна..."
-    m "Okay... I agree... I'll bring you money every Friday..."
+    m "Y... Yes, I do..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:816
 translate english ep22_dialogues5_7_93e9f2d3:
@@ -2083,7 +2083,7 @@ translate english ep22_dialogues5_14_6332b097:
     # dick_secretary "Миссис Бакфетт..."
     # dick "Ты что, серьезно?"
     dick "Really, who else, besides me, wants to kiss your ass?"
-    dick_secretary "Mrs. Buckfett ..."
+    dick_secretary "Mrs. Buckfett..."
     dick "Are you serious?"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1637

@@ -603,7 +603,7 @@ translate english ep23_dialogues5_3c_c577c087:
 
     # melanie "Миссис Бакфетт..."
     # "А мне понравилась последняя поза..."
-    melanie "Mrs. Buckfett ..."
+    melanie "Mrs. Buckfett..."
     "But I liked the last pose..."
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:509

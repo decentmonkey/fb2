@@ -110,7 +110,7 @@ translate german monica_dick_secretary_dialogue1_74c27378:
     # dick_secretary "Миссис Бакфетт!"
     # "Вы также прекрасны как и в прошлый раз!"
     # "Время на Вас совсем не влияет!"
-    dick_secretary "Frau Buckfett!"
+    dick_secretary "Frau Buckfett..."
     "Sie sind so schön wie beim letzten Mal!"
     "Zeit scheint Ihnen nichts anhaben zu können!"
 
@@ -518,7 +518,7 @@ translate german monica_dick_secretary_dialogue2_ce9a25fa:
 translate german monica_dick_secretary_dialogue2_4dbffab1:
 
     # dick_secretary "Мисс Виктория..."
-    dick_secretary "Fräulein Victoria..."
+    dick_secretary "Victoria..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:309
 translate german monica_dick_secretary_dialogue2_f21aacea:
@@ -704,7 +704,7 @@ translate german monica_dick_secretary_dialogue2_2d348793:
 translate german monica_dick_secretary_dialogue2_c9e11ba7:
 
     # m "Мисс Виктория..."
-    m "Fräulein Victoria..."
+    m "Victoria..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:393
 translate german monica_dick_secretary_dialogue2_1e48df60:
@@ -728,7 +728,7 @@ translate german monica_dick_secretary_dialogue2_1e48df60_1:
 translate german monica_dick_secretary_dialogue2_c9e11ba7_1:
 
     # m "Мисс Виктория..."
-    m "Fräulein Victoria..."
+    m "Victoria..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:401
 translate german monica_dick_secretary_dialogue2_67c52bb8:
@@ -818,7 +818,7 @@ translate german monica_dick_secretary_dialogue3_1c1046f5:
 translate german monica_dick_secretary_dialogue3_c9e11ba7:
 
     # m "Мисс Виктория..."
-    m "Fräulein Victoria..."
+    m "Victoria..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:442
 translate german monica_dick_secretary_dialogue3_c80077e2:
@@ -855,7 +855,7 @@ translate german monica_dick_secretary_dialogue4_7296451c:
     # "Мистера Дика сейчас нет."
     # "И Вам не следует отвлекать его."
     # "Для этого есть секретарь."
-    dick_secretary "Frau Buckfett!"
+    dick_secretary "Frau Buckfett..."
     "Herr Dick ist gerade nicht da."
     "Und Sie sollten ihn auch nicht ablenken."
     "Es gibt schon eine Sekretärin dafür."
@@ -904,7 +904,7 @@ translate german monica_dick_office_dialogue2_eae1459d:
     "Wie kriege ich nur eine solche Summer zusammen?!"
     "Ich müsste jahrelang Flyer verteilen bis ich das habe!"
     "Das funktioniert also nicht!"
-    "Ich bin Monica Buckfett!"
+    "Ich bin - Monica Buckfett!"
     "Früher hätte ich schon durch eine Handbewegung mehr Geld gemacht!"
     "So war das schon immer!"
     "..."
@@ -1448,7 +1448,7 @@ translate german monica_dick_office_dialogue2_fd095fe1:
     # "Из нашего разговора мне показалось что у него есть какое-то предложение ко мне!"
     # "Стоит попробовать!"
     # "Я чувствую что могу об этом пожалеть, но у меня нет выбора..."
-    "Ich bin Monica Buckfett!"
+    "Ich bin - Monica Buckfett!"
     "Früher hätte ich schon durch eine Handbewegung mehr Geld gemacht!"
     "So war das schon immer!"
     "..."
@@ -1598,7 +1598,7 @@ translate german monica_dick_office_dialogue2_99f2d903:
     # "Из нашего разговора мне показалось что у него есть какое-то предложение ко мне!"
     # "Стоит попробовать!"
     # "Я чувствую что могу об этом пожалеть, но у меня нет выбора..."
-    "Ich bin Monica Buckfett!"
+    "Ich bin - Monica Buckfett!"
     "Früher hätte ich schon durch eine Handbewegung mehr Geld gemacht!"
     "So war das schon immer!"
     "..."
@@ -1720,7 +1720,7 @@ translate german monica_dick_office_dialogue2_4b80df1c:
     # "Из нашего разговора мне показалось что у него есть какое-то предложение ко мне!"
     # "Стоит попробовать!"
     # "Я чувствую что могу об этом пожалеть, но у меня нет выбора..."
-    "Ich bin Monica Buckfett!"
+    "Ich bin - Monica Buckfett!"
     "Früher hätte ich schon durch eine Handbewegung mehr Geld gemacht!"
     "So war das schon immer!"
     "..."

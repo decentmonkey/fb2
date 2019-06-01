@@ -143,7 +143,7 @@ translate german ep22_photoshoot2_pose7_b78199ca:
     "Das ist wie ein Botschaft. Entdecke das innere Gut, das tief Innen wohnt!"
     m "Was zur Hölle ist das innere Gut?!"
     "Den Arsch zeigen?!"
-    alex_photograph "Frau Buckfett!"
+    alex_photograph "Frau Buckfett..."
     "Nur zwei Aufnahmen!"
     m "Denk nicht mal dran!"
     mt "Oh mein Gott! Warum muss ich mich mit diesen Shootings abgeben?!"
@@ -367,7 +367,7 @@ translate german ep22_photoshoot2_pose6_239fea7d:
     "Das ist wie ein Botschaft. Entdecke das innere Gut, das tief Innen wohnt!"
     m "Was zur Hölle ist das innere Gut?!"
     "Den Arsch zeigen?!"
-    alex_photograph "Frau Buckfett!"
+    alex_photograph "Frau Buckfett..."
     "Nur zwei Aufnahmen!"
 
 # game/Quests/EP2_02/ep22_photoshoot2.rpy:411

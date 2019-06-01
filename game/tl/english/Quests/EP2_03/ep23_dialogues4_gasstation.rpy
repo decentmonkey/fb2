@@ -32,7 +32,7 @@ translate english ep23_dialogues4_1_dec1a6c9:
     # mt "Сучка!"
     # "Эх! Какую-бы я сейчас устроила ей трепку, с огромным удовольствием!"
     # mt "Я еще вернусь сюда, когда закончится этот кошмар!"
-    mt "Bitch!"
+    mt "Bitch!!!"
     "I would have kicked her ass, with great pleasure!"
     mt "I'll be back here when this nightmare ends!"
 
@@ -56,5 +56,23 @@ translate english ep23_dialogues4_1_c8b9583f:
 translate english ep23_dialogues4_1_f0d79344:
 
     # mt "Сучка!"
-    mt "Bitch!"
+    mt "Bitch!!!"
+
+# TODO: Translation updated at 2019-06-01 03:20
+
+# game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:27
+translate english ep23_dialogues4_1_124e7687:
+
+    # m "Я хочу купить продукты!"
+    # m "И только попробуй сказать мне что у тебя не работает касса, детка!"
+    m "I'd like to buy some groceries."
+    m "И только попробуй сказать мне что у тебя не работает касса, детка!"
+
+# game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:30
+translate english ep23_dialogues4_1_b18685f3:
+
+    # saleswoman "Мэм, касса работает."
+    # saleswoman "Пожалуйста, скажите, если я смогу чем-то помочь Вам!"
+    saleswoman "Мэм, касса работает."
+    saleswoman "Пожалуйста, скажите, если я смогу чем-то помочь Вам!"
 

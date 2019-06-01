@@ -14,5 +14,5 @@ translate english cant_use_fba19ab3:
     # mt "Я не собираюсь раздавать наркотики кому попало."
     # "Я еще не сошла с ума!"
     mt "I'm not going to give out drugs to anyone."
-    "I have not lost my mind yet!"
+    "I'm not out of my mind yet!"
 

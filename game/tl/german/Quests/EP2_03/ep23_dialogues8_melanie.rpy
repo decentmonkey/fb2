@@ -58,7 +58,7 @@ translate german ep23_dialogues8_2_3cd56a3c:
     # melanie "Нет, Миссис Бакфетт."
     # "Мистер Дик в этой ситуации никак не замешан. Он реагировал по мере развития событий."
     # "Он действительно начал дело, чтобы помочь Вам и вытащил Вас из тюрьмы."
-    melanie "Nein, Frau Buckfett."
+    melanie "Nein, Frau Buckfett..."
     "Dick ist in die Situation nicht involviert. Er hat erst reagiert, als die Ereignisse ihren Lauf genommen haben."
     "Er hat tatsächlich einen offiziellen Fall angelegt um sie aus dem Gefängnis zu holen."
 

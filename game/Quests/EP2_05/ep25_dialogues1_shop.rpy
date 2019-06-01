@@ -102,7 +102,7 @@ label ep25_dialogues1_shop2:
     img 10632
     with fade
     m "Сколько стоит это платье?"
-    cashier "Это платье стоит $ 500, Мэм."
+    cashier "Это платье стоит $ 250, Мэм."
     music Groove2_85
     img 10633
     with fade
@@ -133,7 +133,7 @@ label ep25_dialogues1_shop2_loop1:
                 with fade
                 cashier "Хорошо, я сделаю скидку в 50 процентов, только ради Вас!"
                 menu:
-                    "Купить платье за $ 250." if money>=250:
+                    "Купить платье за $ 125." if money>=125:
                         music Ready_and_Waiting
                         m "Давайте я померю его."
                         cashier "Проходите в примерочную..."
@@ -146,9 +146,9 @@ label ep25_dialogues1_shop2_loop1:
                         m "Мне нравится."
                         m "Я беру его."
                         cashier "Мэм, пройдемте на кассу."
-                        $ add_money(-250.0)
+                        $ add_money(-125.0)
                         return True
-                    "Купить платье за $ 250. (не хватает денег) (disabled)" if money < 250:
+                    "Купить платье за $ 125. (не хватает денег) (disabled)" if money < 125:
                         pass
                     "Уйти.":
                         music Groove2_85
@@ -174,7 +174,7 @@ label ep25_dialogues1_shop2_loop1:
                 cashier "..."
                 $ notif(_("Моника была недостаточно добра к продавцу."))
                 cashier "Я узнала Вас! И я не могу сказать что Вы лояльный клиент нашего магазина."
-                cashier "Для Вас цена составляет $ 500!"
+                cashier "Для Вас цена составляет $ 250!"
                 music Power_Bots_Loop
                 img 10644
                 if monicaBitch == True:
@@ -183,9 +183,9 @@ label ep25_dialogues1_shop2_loop1:
                     mt "!!!"
                 jump ep25_dialogues1_shop2_loop1
 
-        "Купить платье за $ 500. (не хватает денег) (disabled)" if money < 500:
+        "Купить платье за $ 250. (не хватает денег) (disabled)" if money < 250:
             pass
-        "Купить платье за $ 500." if money >= 500:
+        "Купить платье за $ 250." if money >= 250:
             music Ready_and_Waiting
             m "Давайте я померю его."
             cashier "Проходите в примерочную..."
@@ -198,7 +198,7 @@ label ep25_dialogues1_shop2_loop1:
             m "Мне нравится."
             m "Я беру его."
             cashier "Мэм, пройдемте на кассу."
-            $ add_money(-500.0)
+            $ add_money(-250.0)
             return True
 
         "Уйти.":
@@ -690,9 +690,9 @@ label ep25_dialogues1_shop8:
 label ep25_dialogues1_shop9:
     # Моника приходит в магазин работать манекеном
     menu:
-        "Купить платье за $ 500. (не хватает денег) (disabled)" if money < 500:
+        "Купить платье за $ 250. (не хватает денег) (disabled)" if money < 250:
             pass
-        "Купить платье за $ 500." if money >= 500:
+        "Купить платье за $ 250." if money >= 250:
             music Ready_and_Waiting
             img 10621
             with fade
@@ -715,7 +715,7 @@ label ep25_dialogues1_shop9:
             m "Мне нравится."
             m "Я беру его."
             cashier "Мэм, пройдемте на кассу."
-            $ add_money(-500.0)
+            $ add_money(-250.0)
             return 1
 
 
@@ -859,11 +859,11 @@ label ep25_dialogues1_shop12:
     m "Теперь выполняй свою часть сделки!"
     img 10758
     with diss
-    cashier "Да, я помню. Ты продашь дорогое платье, полижешь мне киску и я подарю тебе то платье за $ 500."
+    cashier "Да, я помню. Ты продашь дорогое платье, полижешь мне киску и я подарю тебе то платье за $ 250."
     music Power_Bots_Loop
     img 10759
     with fade
-    m "Я продам дорогое платье и ты подаришь мне платье за $ 500."
+    m "Я продам дорогое платье и ты подаришь мне платье за $ 250."
     m "Я ничего не собираюсь лизать тебе, извращенка!"
 
     music Loved_Up

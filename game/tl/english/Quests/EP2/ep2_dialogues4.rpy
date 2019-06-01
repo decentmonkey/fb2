@@ -402,7 +402,7 @@ translate english monica_office_cabinet_biff_dialogue1_3b7c6360:
 translate english monica_office_cabinet_biff_dialogue1_80584ae2:
 
     # melanie "Миссис Бакфетт..."
-    melanie "Mrs. Buckfett ..."
+    melanie "Mrs. Buckfett..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:331
 translate english monica_office_cabinet_biff_dialogue1_39ddc17e:
@@ -411,10 +411,10 @@ translate english monica_office_cabinet_biff_dialogue1_39ddc17e:
     # "Алекс клялся что не прятал тебя!"
     # "Значит он, все-таки, врал и решил исправить свою вину прислав тебя ко мне?"
     # "Ха-ха!"
-    biff "Oh! Girl!"
+    biff "Oh! Babe!"
     "Alex swore he wasn't hiding you!"
     "So he was lying, after all, and he decided to rectify his guilt by sending you to me?"
-    "Haha!"
+    "Ahaha!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:338
 translate english monica_office_cabinet_biff_dialogue1_79c31f11:
@@ -954,7 +954,7 @@ translate english monica_office_photostudio_melanie_dialogue1_local1_a7e31ec1:
 translate english monica_office_photostudio_melanie_dialogue1_local1_f0d79344:
 
     # mt "Сучка!"
-    mt "Bitch!"
+    mt "Bitch!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:668
 translate english monica_office_photostudio_melanie_dialogue1_local1_13555fcc:
@@ -1304,7 +1304,7 @@ translate english monica_office_cabinet_biff_dialogue3_a36e4dff:
     # mt "!!!"
     # "НЕНАВИЖУ!!!"
     mt "!!!"
-    "HATE!!!"
+    "I HATE HER!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:888
 translate english monica_office_cabinet_biff_dialogue3_e916b657:
@@ -1456,7 +1456,7 @@ translate english monica_office_cabinet_biff_dialogue3_local2_b7eb643b:
     # biff "Отлично!"
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
-    biff "Excelent!"
+    biff "Excellent!"
     "To be honest with you, Melanie refused to do this series of photo shoots."
     "She said she didn't want to do anything with full nudity."
 
@@ -2026,7 +2026,7 @@ translate english monica_office_photostudio_alex_dialogue2_b64b0066:
     # m "Зачем?"
     # alex_photograph "Я фотограф! Я вижу композицию со стороны!"
     # m "Ладно..."
-    m "What for?"
+    m "Why?"
     alex_photograph "I'm the photographer! I have the vision about what looks good, trust me!"
     m "All right..."
 
@@ -2274,7 +2274,7 @@ translate english monica_office_cabinet_biff_dialogue5_49238c3a:
     # biff "О! Цыпочка!"
     # "Сообщи моей секретарше свои реквизиты и деньги будут переведены в течении..."
     # "Ну... Может быть месяца..."
-    biff "Oh! Girl!"
+    biff "Oh! Babe!"
     "Tell my secretary your bank details and the money will be transferred within..."
     "Well... Maybe a month..."
 

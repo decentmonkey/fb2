@@ -101,7 +101,7 @@ translate german monica_office_secretary_dialogue1_c68d62b5:
     # "Приходил страшный человек, он говорил страшные вещи про Вас!"
     # "Что Вы сидели в тюрьме!"
     # "Миссис Бакфетт! Скажите что это неправда!"
-    secretary "Frau Buckfett!"
+    secretary "Frau Buckfett..."
     "Ein eigenartiger Mann kam her und hat schauerliche Geschichten über Sie erzählt!"
     "Dass Sie im Gefängnis wären!"
     "Frau Buckfett! Sagen sie mir, dass das nicht stimmt!"
@@ -128,7 +128,7 @@ translate german monica_office_secretary_dialogue1_c7f431ef:
     # "Миссис Бакфетт!"
     # "Пожалуйста!"
     # "Выгоните того жуткого человека, который занял Ваш кабинет!"
-    "Frau Buckfett!"
+    "Frau Buckfett..."
     "Bitte!"
     "Schmeiß diese gruselige gestalt raus, die dein Büro besetzt hält!"
 
@@ -191,7 +191,7 @@ translate german monica_office_secretary_dialogue1_adefdb3c:
     # "{c}Он сидит в Вашем кабинете!{/c}"
     # "Прямо в Вашем кабинете, Миссис Бакфетт!"
     # "(хмык)"
-    secretary "Frau Buckfett!"
+    secretary "Frau Buckfett..."
     "{c}Er sitzt in Ihrem Büro!{/c}"
     "Gleich in Ihrem Büro, Frau Buckfett!"
     "(schnief)"
@@ -207,7 +207,7 @@ translate german monica_office_secretary_dialogue2_dd6e25e4:
 
     # secretary "Миссис Бакфетт!"
     # "Пожалуйста! Возвращайтесь скорее!"
-    secretary "Frau Buckfett!"
+    secretary "Frau Buckfett..."
     "Bitte! Kommen Sie wieder!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:111
@@ -307,7 +307,7 @@ translate german monica_office_photostudio_alex_dialogue1_5387a607:
 
     # alex_photograph "Миссис Бакфетт!"
     # "Здравствуйте!"
-    alex_photograph "Frau Buckfett!"
+    alex_photograph "Frau Buckfett..."
     "Hallo!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:167
@@ -867,7 +867,7 @@ translate german monica_office_photostudio_melanie_dialogue1_b4c88c2f:
 
     # melanie "Миссис Бакфетт!"
     # "Еще раз, рада Вас видеть!"
-    melanie "Frau Buckfett!"
+    melanie "Frau Buckfett..."
     "Wiedermal schön Sie zu sehen!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:502
@@ -1027,7 +1027,7 @@ translate german monica_office_secretary_dialogue4_5706e483:
 
     # secretary "Миссис Бакфетт!"
     # "Мистера Бифа сейчас нет на месте!"
-    secretary "Frau Buckfett!"
+    secretary "Frau Buckfett..."
     "Herr Biff ist derzeit nicht hier!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:579
@@ -1055,7 +1055,7 @@ translate german monica_office_secretary_dialogue4a_5706e483:
 
     # secretary "Миссис Бакфетт!"
     # "Мистера Бифа сейчас нет на месте!"
-    secretary "Frau Buckfett!"
+    secretary "Frau Buckfett..."
     "Herr Biff ist derzeit nicht hier!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:599
@@ -1087,7 +1087,7 @@ translate german monica_office_secretary_dialogue4a_6415e49b:
     # secretary "Он сказал что будет вечером!"
     # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
     # m "Хорошо, дорогая, спасибо."
-    secretary "Frau Buckfett!"
+    secretary "Frau Buckfett..."
     "Herr Biff ist derzeit nicht hier!"
     m "Wann wird er zurück erwartet?"
     secretary "Er wird also am Abend wieder da sein!"
@@ -1216,7 +1216,7 @@ translate german monica_office_cabinet_biff_dialogue3_a36e4dff:
     # mt "!!!"
     # "НЕНАВИЖУ!!!"
     mt "!!!"
-    "HASS!!!"
+    "ICH HASSE SIE!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:682
 translate german monica_office_cabinet_biff_dialogue3_dc927120:
@@ -1692,7 +1692,7 @@ translate german monica_office_photostudio_alex_dialogue2_67a011f7:
     # alex_photograph "Миссис Бакфетт!"
     # "Мистер Биф сказал что мне надо провести фотосессию с Вами!"
     # "Вы будете участвовать?"
-    alex_photograph "Frau Buckfett!"
+    alex_photograph "Frau Buckfett..."
     "Biff sagte ich soll ein Photo-Shotting machen!"
     "Sie haben sich entschlossen das zu machen?"
 
@@ -1837,7 +1837,7 @@ translate german monica_office_photostudio_alex_dialogue2_29d71615:
     # "И жду Вашего разрешения, Мэм!"
     alex_photograph "Ja?"
     "Was? Kann ich mich wieder umdrehen?"
-    m "Nein!"
+    m "Nein! Das ist das teuerste Kleid im ganzen Laden."
     "Ich ziehe mich noch um!"
     "Und bewegen Sie sich bloß nicht, wenn Ihnen Ihr Leben lieb ist!"
     alex_photograph "Natürlich!"
@@ -1962,7 +1962,7 @@ translate german monica_office_photostudio_alex_dialogue2_dda4fc83:
     # alex_photograph "Миссис Бакфетт!"
     # "Тогда я вынужден сообщить Мистеру Бифу о срыве фотосессии..."
     # m "Мы сделали достаточно кадров!"
-    alex_photograph "Frau Buckfett!"
+    alex_photograph "Frau Buckfett..."
     "Dann muss ich wohl Herrn Biff davon unterrichten, dass unser Shooting abgebrochen wurde..."
     m "Wir haben schon genug Fotos gemacht!"
 
@@ -1996,7 +1996,7 @@ translate german monica_office_photostudio_alex_dialogue2_45f6fc39:
     # "И я понимаю что Вы не хотите делать эти кадры..."
     # "Но это приказ Мистера Бифа."
     # "Если я ослушаюсь, то меня уволят!..."
-    alex_photograph "Frau Buckfett!"
+    alex_photograph "Frau Buckfett..."
     "Sie wissen, dass ich das alles sher professionell angehe."
     "Und ich verstehe, dass sie diese Fotos nicht machen wollen..."
     "Aber das sind die Anweisungen."
@@ -3251,7 +3251,7 @@ translate german monica_office_secretary_dialogue4a_5706e483_1:
 
     # secretary "Миссис Бакфетт!"
     # "Мистера Бифа сейчас нет на месте!"
-    secretary "Frau Buckfett!"
+    secretary "Frau Buckfett..."
     "Herr Biff ist derzeit nicht hier!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:775
@@ -3283,7 +3283,7 @@ translate german monica_office_secretary_dialogue4a_fbef2ec0:
     # secretary "Он сказал что будет завтра!"
     # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
     # m "Хорошо, дорогая, спасибо."
-    secretary "Frau Buckfett!"
+    secretary "Frau Buckfett..."
     "Herr Biff ist derzeit nicht hier!"
     m "Wann wird er zurück erwartet?"
     secretary "Er sagte er käme Morgen!"
@@ -3491,7 +3491,7 @@ translate german monica_office_secretary_dialogue1_9d2218c8:
     # "{c}Он сидит в Вашем кабинете!{/c}"
     # "Прямо в Вашем кабинете, Миссис Бакфетт!"
     # "(хмык)"
-    secretary "Frau Buckfett!"
+    secretary "Frau Buckfett..."
     "{c}Er sitzt in Ihrem Büro!{/c}"
     "Gleich in Ihrem Büro, Frau Buckfett!"
     "(schnief)"
@@ -3611,7 +3611,7 @@ translate german monica_office_secretary_dialogue1_589ef466:
     # "{c}Он сидит в Вашем кабинете!{/c}"
     # "Прямо в Вашем кабинете, Миссис Бакфетт!"
     # "(хмык)"
-    secretary "Frau Buckfett!"
+    secretary "Frau Buckfett..."
     "{c}Er sitzt in Ihrem Büro!{/c}"
     "Gleich in Ihrem Büro, Frau Buckfett!"
     "(schnief)"
