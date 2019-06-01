@@ -189,6 +189,7 @@ label ep24_quests_steve13:
     $ map_enabled = False
     $ hudDaySkipToEveningEnabled = False
 
+    $ monicaPussyShaved = True # Бреем Монику
 #    call miniMapAddDisabled(name):
 #    call miniMapRemoveDisabled(name):
 

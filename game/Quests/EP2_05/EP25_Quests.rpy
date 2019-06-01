@@ -5,6 +5,7 @@ default ep25_quests8Flag1 = False
 label ep25_quests1:
     # Моника пытается зайти в здание Стива
     if ep25_quests1Flag1 == False:
+        $ monicaPussyShaved = True # Бреем Монику
         $ ep25_quests1Flag1 = True
         $ add_hook("Teleport_Cloth_Shop_Entrance", "ep25_dialogues1_shop1b", scene="street_cloth_shop", label="cloth_shop_closed")
     if monicaAskedVictoriaAboutSteveMoney == False and monicaHasSexWithSteveBasement == True:
