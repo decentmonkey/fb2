@@ -153,9 +153,9 @@ translate english strings:
 
     # Characters/Monica/Wardrobe_Basement.rpy:19
     old "Красивое платье."
-    new ""
+    new "Beautiful dress."
 
     # Characters/Monica/Wardrobe_Basement.rpy:150
     old "Одеть красное платье."
-    new ""
+    new "Put on red dress."
 

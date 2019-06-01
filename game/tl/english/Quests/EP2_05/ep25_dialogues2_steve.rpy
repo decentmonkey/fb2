@@ -2324,11 +2324,11 @@ translate english ep25_dialogues2_steve10_loop1_8167de13:
 translate english ep25_dialogues2_steve11_e1e0a4fc:
 
     # mt "Мне нечего там делать сегодня!"
-    mt "Мне нечего там делать сегодня!"
+    mt "I have no business there today!"
 
 translate english strings:
 
     # Quests/EP2_05/ep25_dialogues2_steve.rpy:180
     old "Моника планировала уволить Тиффани"
-    new ""
+    new "Monica planned to fire Tiffany."
 

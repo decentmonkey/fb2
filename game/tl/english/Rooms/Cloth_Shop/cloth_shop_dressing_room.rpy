@@ -4,5 +4,5 @@
 translate english cloth_shop_dressing_room_teleport_0f91c7a1:
 
     # mt "Эта примерочная... Я помню как спала здесь!"
-    mt "Эта примерочная... Я помню как спала здесь!"
+    mt "Changing room... I remember how I spent a night there!"
 

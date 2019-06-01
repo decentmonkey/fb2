@@ -66,13 +66,13 @@ translate english ep23_dialogues4_1_124e7687:
     # m "Я хочу купить продукты!"
     # m "И только попробуй сказать мне что у тебя не работает касса, детка!"
     m "I'd like to buy some groceries."
-    m "И только попробуй сказать мне что у тебя не работает касса, детка!"
+    m "Just dare to tell me that check out doesn't work."
 
 # game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:30
 translate english ep23_dialogues4_1_b18685f3:
 
     # saleswoman "Мэм, касса работает."
     # saleswoman "Пожалуйста, скажите, если я смогу чем-то помочь Вам!"
-    saleswoman "Мэм, касса работает."
-    saleswoman "Пожалуйста, скажите, если я смогу чем-то помочь Вам!"
+    saleswoman "Ma'am, everything works fine."
+    saleswoman "Please tell me how can I be of service?"
 

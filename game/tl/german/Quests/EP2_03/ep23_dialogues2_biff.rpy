@@ -37,7 +37,7 @@ translate german ep23_dialogues1_ed136fd2:
     biff "Was hast du denn gemeint, Chick?"
     m "Nein Biff... Nichts..."
     mt "Verflucht, es ist gefährlich mit diesem Schleimbeutel über Geld zu sprechen!"
-    "Wenn er mir die .000 nicht gibt, wäre das das Ende!"
+    "Wenn er mir die $ 5.000 nicht gibt, wäre das das Ende!"
     "Woher sonst soll ich soviel Geld herbekommen?!"
     "..."
     "Eine hohe Summe? Von was redest du da Monica?"
@@ -92,7 +92,7 @@ translate german ep23_dialogues1_52a774d9:
     # "Где я еще достану такую огромную сумму?!"
     # "..."
     mt "Verflucht, es ist gefährlich mit diesem Schleimbeutel über Geld zu sprechen!"
-    "Wenn er mir die .000 nicht gibt, wäre das das Ende!"
+    "Wenn er mir die $ 5.000 nicht gibt, wäre das das Ende!"
     "Woher sonst soll ich soviel Geld herbekommen?!"
     "..."
 
@@ -162,7 +162,7 @@ translate german ep23_dialogues1_52a774d9_1:
     # "Где я еще достану такую огромную сумму?!"
     # "..."
     mt "Verflucht, es ist gefährlich mit diesem Schleimbeutel über Geld zu sprechen!"
-    "Wenn er mir die .000 nicht gibt, wäre das das Ende!"
+    "Wenn er mir die $ 5.000 nicht gibt, wäre das das Ende!"
     "Woher sonst soll ich soviel Geld herbekommen?!"
     "..."
 

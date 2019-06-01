@@ -1130,7 +1130,7 @@ translate english strings:
 
     # Quests/EP2_05/ep25_dialogues1_shop.rpy:87
     old "Купить платье за $ 250. (не хватает денег) (disabled)"
-    new "By a dress for $ 250 (not enough money) (disabled)"
+    new "Buy the dress for $ 250. (not enough money) (disabled)"
 
     # Quests/EP2_05/ep25_dialogues1_shop.rpy:109
     old "Моника была недостаточно добра к продавцу."
@@ -1210,15 +1210,15 @@ translate english ep25_dialogues1_shop1c_0a8d0fc2:
     # mt "Чтобы что-то найти среди этого хлама, надо спросить у продавца..."
     # mt "Но смогу-ли я себе позволить что-то купить даже здесь?"
     # mt "Дьявол..."
-    mt "Чтобы что-то найти среди этого хлама, надо спросить у продавца..."
-    mt "Но смогу-ли я себе позволить что-то купить даже здесь?"
-    mt "Дьявол..."
+    mt "I'll have to ask a store clerk if I'm want to find anything among this garbage..."
+    mt "But can I even afford to buy something from here?"
+    mt "Damn..."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:36
 translate english ep25_dialogues1_shop1d_fb1c1192:
 
     # mt "Наконец-то у меня есть приличная одежда. Мне не стоит привыкать к плохому. Я - Леди!"
-    mt "Наконец-то у меня есть приличная одежда. Мне не стоит привыкать к плохому. Я - Леди!"
+    mt "Finally something normal to wear. I should be getting used to bad things. I'm a proper lady afterall!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:129
 translate english ep25_dialogues1_shop2_loop1_1a0d0476:
@@ -1256,21 +1256,21 @@ translate english ep25_dialogues1_shop2a_3c032cf4:
     # mt "Однако никто не сможет вывернуть его наизнанку и посмотреть на бирку!"
     # mt "Так что это неважно."
     # mt "На вид его цену может определить только такой профессионал моды как Я..."
-    mt "Ура! Наконец-то я выгляжу как леди!"
-    mt "Ну... почти как леди..."
-    mt "Все-таки эту каблуки могут выдать меня..."
-    mt "И это платье... Оно не такое уж дорогое..."
-    mt "Однако никто не сможет вывернуть его наизнанку и посмотреть на бирку!"
-    mt "Так что это неважно."
-    mt "На вид его цену может определить только такой профессионал моды как Я..."
+    mt "Hooray! Finally I'm looking like a proper lady!"
+    mt "Well... almost..."
+    mt "This high heels can expose me..."
+    mt "And the dress... Is not that expensive..."
+    mt "On the other hand noone can take a look at the sticker..."
+    mt "So it's not important."
+    mt "At first glance only fashion guru like myself can place its' price properly..."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:237
 translate english ep25_dialogues1_shop4a_8bb70903:
 
     # mt "Я уже была там сегодня."
     # mt "Может быть зайти в другой день, когда будет поменьше посетителей?"
-    mt "Я уже была там сегодня."
-    mt "Может быть зайти в другой день, когда будет поменьше посетителей?"
+    mt "I've been there already today."
+    mt "Should I come another day with less customers around?"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:342
 translate english ep25_dialogues1_shop6_ed8fd5cb:
@@ -1288,15 +1288,15 @@ translate english ep25_dialogues1_shop6_b9e0060c:
 translate english ep25_dialogues1_shop9_3ddf7e73:
 
     # m "Я хочу купить то платье, которое случайно забыла убрать с руки, когда выходила из магазина."
-    m "Я хочу купить то платье, которое случайно забыла убрать с руки, когда выходила из магазина."
+    m "I wanted to buy the dress I forgot to take off my hands when I was exiting the store."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:702
 translate english ep25_dialogues1_shop9_1a114e8c:
 
     # cashier "Ты хотела украсть его!"
     # cashier "И получила по заслугам!"
-    cashier "Ты хотела украсть его!"
-    cashier "И получила по заслугам!"
+    cashier "You wanted to steal it!"
+    cashier "And got what you deserved!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:706
 translate english ep25_dialogues1_shop9_43f766bf:
@@ -1304,8 +1304,8 @@ translate english ep25_dialogues1_shop9_43f766bf:
     # m "Достаточно!"
     # m "Давай я померяю это платье."
     # cashier "Проходите в примерочную..."
-    m "Достаточно!"
-    m "Давай я померяю это платье."
+    m "Enough!"
+    m "Let me try it on."
     cashier "Please this way, to the changing rooms."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:715
@@ -1328,7 +1328,7 @@ translate english ep25_dialogues1_shop10_7662b49e_1:
 translate english ep25_dialogues1_shop10b_21e56f81:
 
     # cashier "У тебя покупатель в примерочной! Иди и обслуживай его!"
-    cashier "У тебя покупатель в примерочной! Иди и обслуживай его!"
+    cashier "You have a customer in the changing room! Go and serve them!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:923
 translate english ep25_dialogues1_shop12_1a0d0476:
@@ -1375,8 +1375,8 @@ translate english ep25_dialogues1_shop19_15c67472:
 
     # mt "Если я хочу продавать платье, то мне придется его сначала одеть..."
     # mt "Ненавижу все это!"
-    mt "Если я хочу продавать платье, то мне придется его сначала одеть..."
-    mt "Ненавижу все это!"
+    mt "If I want to sell the dress, I'll have to put it on first..."
+    mt "I have all of it!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1000
 translate english ep25_dialogues1_shop20_775fc917:
@@ -1394,53 +1394,94 @@ translate english ep25_dialogues1_shop20a_4ef25ae0:
 translate english ep25_dialogues1_shop21_f06f9302:
 
     # mt "Меня ждет покупатель в примерочной."
-    mt "Меня ждет покупатель в примерочной."
+    mt "Customer is waiting for me in the changing room."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1015
 translate english ep25_dialogues1_shop22_d1fa863f:
 
     # mt "Не могу поверить что я продаю свое же платье!"
     # mt "В каком-то дешевом магазине в трущобах!"
-    mt "Не могу поверить что я продаю свое же платье!"
-    mt "В каком-то дешевом магазине в трущобах!"
+    mt "I can't believe I'm selling my own dress!"
+    mt "In some cheap store in the slums!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1022
 translate english ep25_dialogues1_shop23_d4f01354:
 
     # mt "Какой-то придурок..."
-    mt "Какой-то придурок..."
+    mt "An idiot..."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1027
 translate english ep25_dialogues1_shop24a_0ae352fa:
 
     # mt "Какая-то дура..."
-    mt "Какая-то дура..."
+    mt "An idiot..."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1031
 translate english ep25_dialogues1_shop24b_6fd7c250:
 
     # mt "Ненормальная покупательница..."
-    mt "Ненормальная покупательница..."
+    mt "Crazy cutomer..."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1035
 translate english ep25_dialogues1_shop24c_ea1096ad:
 
     # mt "Тут бывает хоть кто-то нормальный?"
-    mt "Тут бывает хоть кто-то нормальный?"
+    mt "Does someone normal even come here?"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1039
 translate english ep25_dialogues1_shop24d_eb0cdfd5:
 
     # mt "В этот магазин приходят только ненормальные стервы!"
-    mt "В этот магазин приходят только ненормальные стервы!"
+    mt "There are only stupid bitches in this store!"
 
 translate english strings:
 
     # Quests/EP2_05/ep25_dialogues1_shop.rpy:114
     old "Купить платье за $ 500. (не хватает денег) (disabled)"
-    new ""
+    new "Buy the dress for $ 500. (not enough money) (disabled)"
 
     # Quests/EP2_05/ep25_dialogues1_shop.rpy:827
     old "Снять платье."
-    new ""
+    new "Take off the dress."
 
+# TODO: Translation updated at 2019-06-01 20:45
+
+# game/Quests/EP2_05/ep25_dialogues1_shop.rpy:104
+translate english ep25_dialogues1_shop2_e76474f9:
+
+    # m "Сколько стоит это платье?"
+    # cashier "Это платье стоит $ 250, Мэм."
+    m "How much does it cost?"
+    cashier "This one is $ 250, Ma'am."
+
+# game/Quests/EP2_05/ep25_dialogues1_shop.rpy:176
+translate english ep25_dialogues1_shop2_loop1_015bad7a:
+
+    # cashier "Я узнала Вас! И я не могу сказать что Вы лояльный клиент нашего магазина."
+    # cashier "Для Вас цена составляет $ 250!"
+    cashier "Yes, I recognized you. And you are far from being our loyal customer."
+    cashier "It is $ 250 for you!"
+
+# game/Quests/EP2_05/ep25_dialogues1_shop.rpy:876
+translate english ep25_dialogues1_shop12_0b5be800:
+
+    # cashier "Да, я помню. Ты продашь дорогое платье, полижешь мне киску и я подарю тебе то платье за $ 250."
+    cashier "Yes, I remember. You sell the expensive dress, lick my pussy and I gift you it for $ 250."
+
+# game/Quests/EP2_05/ep25_dialogues1_shop.rpy:880
+translate english ep25_dialogues1_shop12_4ac1f925:
+
+    # m "Я продам дорогое платье и ты подаришь мне платье за $ 250."
+    # m "Я ничего не собираюсь лизать тебе, извращенка!"
+    m "I sell the dress and you give it to me for $ 250."
+    m "I'm not licking anything, damn pervert!"
+
+translate english strings:
+
+    # Quests/EP2_05/ep25_dialogues1_shop.rpy:135
+    old "Купить платье за $ 125."
+    new "By a dress for $ 125."
+
+    # Quests/EP2_05/ep25_dialogues1_shop.rpy:135
+    old "Купить платье за $ 125. (не хватает денег) (disabled)"
+    new "By a dress for $ 125 (not enough money) (disabled)"

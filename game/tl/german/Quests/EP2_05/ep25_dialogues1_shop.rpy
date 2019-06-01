@@ -1444,3 +1444,45 @@ translate german strings:
     old "Снять платье."
     new ""
 
+# TODO: Translation updated at 2019-06-01 20:46
+
+# game/Quests/EP2_05/ep25_dialogues1_shop.rpy:104
+translate german ep25_dialogues1_shop2_e76474f9:
+
+    # m "Сколько стоит это платье?"
+    # cashier "Это платье стоит $ 250, Мэм."
+    m "Wieviel kostet es?"
+    cashier "Dieses kostet $ 250."
+
+# game/Quests/EP2_05/ep25_dialogues1_shop.rpy:176
+translate german ep25_dialogues1_shop2_loop1_015bad7a:
+
+    # cashier "Я узнала Вас! И я не могу сказать что Вы лояльный клиент нашего магазина."
+    # cashier "Для Вас цена составляет $ 250!"
+    cashier "Ja, ich erinnere mich an dich. Und du bist weit davon entfernt, ein treuer Kunde zu sein."
+    cashier "Es kostet $ 250!"
+
+# game/Quests/EP2_05/ep25_dialogues1_shop.rpy:876
+translate german ep25_dialogues1_shop12_0b5be800:
+
+    # cashier "Да, я помню. Ты продашь дорогое платье, полижешь мне киску и я подарю тебе то платье за $ 250."
+    cashier "Ja, ich weiß. Du verkaufst das teure Kleid, leckst meine Muschi und ich gebe dir $ 250."
+
+# game/Quests/EP2_05/ep25_dialogues1_shop.rpy:880
+translate german ep25_dialogues1_shop12_4ac1f925:
+
+    # m "Я продам дорогое платье и ты подаришь мне платье за $ 250."
+    # m "Я ничего не собираюсь лизать тебе, извращенка!"
+    m "Ich verkaufe das Kleid und du gibst es mir für $ 250?"
+    m "Ich lecke gar nichts, verdammte Perverse!"
+
+translate german strings:
+
+    # Quests/EP2_05/ep25_dialogues1_shop.rpy:135
+    old "Купить платье за $ 125."
+    new "Kaufe ein Kleid für $ 125."
+
+    # Quests/EP2_05/ep25_dialogues1_shop.rpy:135
+    old "Купить платье за $ 125. (не хватает денег) (disabled)"
+    new "Kaufe ein Kleid für $ 125 ( nicht genug Geld) (disabled)"
+

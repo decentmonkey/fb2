@@ -44,7 +44,7 @@ translate english ep23_dialogues1_52a774d9:
     # "Где я еще достану такую огромную сумму?!"
     # "..."
     mt "To hell with you Biff! It’s dangerous talking about money with this slime!"
-    "If I cant get ,000 from Biff, it will be the end of me!"
+    "If I cant get $ 5.000 from Biff, it will be the end of me!"
     "Where else can I get so much money?!"
     "..."
 
@@ -114,7 +114,7 @@ translate english ep23_dialogues1_52a774d9_1:
     # "Где я еще достану такую огромную сумму?!"
     # "..."
     mt "To hell with you Biff! It’s dangerous talking about money with this slime!"
-    "If I cant get ,000 from Biff, it will be the end of me!"
+    "If I cant get $ 5.000 from Biff, it will be the end of me!"
     "Where else can I get so much money?!"
     "..."
 

@@ -1188,7 +1188,7 @@ translate english ep25_dialogues3_steve1_7b64423e:
 translate english ep25_dialogues3_steve1aa_9183481c:
 
     # m "Мне не важно! Я Босс и захожу когда захочу."
-    m "Мне не важно! Я Босс и захожу когда захочу."
+    m "I don’t care about it! I'm the Boss and go whenever and wherever I please!"
 
 # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:57
 translate english ep25_dialogues3_steve1a_e4e9893f:
@@ -1204,7 +1204,7 @@ translate english ep25_dialogues3_steve1a_e4e9893f:
 translate english ep25_dialogues3_steve1a_67ab88b5:
 
     # m "Я просто ошиблась дверью, Стив!"
-    m "Я просто ошиблась дверью, Стив!"
+    m "Wrong door! Sorry, Steve!"
 
 # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:111
 translate english ep25_dialogues3_steve1b_6966a2b0:
@@ -1714,13 +1714,13 @@ translate english ep25_dialogues3_steve4c_4481cc20:
 translate english ep25_dialogues3_steve4c_15398a90:
 
     # steve "Аааах!"
-    steve "Аааах!"
+    steve "Aghh!"
 
 # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:1325
 translate english ep25_dialogues3_steve4c_15398a90_1:
 
     # steve "Аааах!"
-    steve "Аааах!"
+    steve "Aghh!"
 
 # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:1330
 translate english ep25_dialogues3_steve4c_6c5277c2:
@@ -1846,11 +1846,11 @@ translate english strings:
 
     # Quests/EP2_05/ep25_dialogues3_steve.rpy:25
     old "Моника уже заработала деньги для Виктории."
-    new ""
+    new "Monica already has enough money for Victoria."
 
     # Quests/EP2_05/ep25_dialogues3_steve.rpy:36
     old "Зайти в кабинет."
-    new ""
+    new "Enter the office."
 
     # Quests/EP2_05/ep25_dialogues3_steve.rpy:1238
     old "СПУСТЯ 15 МИНУТ..."

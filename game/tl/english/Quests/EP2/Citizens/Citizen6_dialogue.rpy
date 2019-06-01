@@ -618,13 +618,13 @@ translate english cit6_naked_boobs_1st_ca106ee4:
     # citizen6 "Если ты не помнишь, я тебя спас! А вообще район тут опасный, если ты понимаешь о чем я..."
     # mt "К чему это он?"
     # citizen6 "Ну дак что, как насчет сисек?"
-    citizen6 "Я никак не могу забыть нашу первую встречу..."
-    mt "А вот я бы ее с радостью забыла..."
-    citizen6 "Как насчет того, чтобы показать мне свои сиськи? Ну уже без этой ненужной курточки?"
-    m "И почему я должны согласиться?"
-    citizen6 "Если ты не помнишь, я тебя спас! А вообще район тут опасный, если ты понимаешь о чем я..."
-    mt "К чему это он?"
-    citizen6 "Ну дак что, как насчет сисек?"
+    citizen6 "I still can't forget our first meeting..."
+    mt "And I would prefer to forget about it."
+    citizen6 "How about showing your tits? But without this useless jacket?"
+    m "And why would I agree?"
+    citizen6 "Didn’t I save you last time?! And this area is quite dangerous, if you know what I mean..."
+    mt "What is he talking about? Is he sane?"
+    citizen6 "So, what about tits?"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:434
 translate english cit6_naked_boobs_1st_16fe1cc6:
@@ -647,18 +647,18 @@ translate english cit6_naked_boobs_1st_6ddbdd0c:
     # m "Ну ладно, хватит с тебя."
     # citizen6 "Слабовато, но ничего, хватит для первого раза."
     # mt "Может даже и последнего..."
-    mt "Думаю, лучше это сделать, а то мало ли что..."
+    mt "I think it's better to do it, who knows what can happen..."
     m "Turn around!"
-    citizen6 "Вот это другой разговор."
-    m "Можешь повернуться."
-    m "Но руками не трогать!"
-    citizen6 "Ха! Вот это класс!"
-    citizen6 "Я был бы готов каждый день давать тебе по 100 баксов, если бы ты так ходила!"
-    mt "Не в этой жизни..."
-    citizen6 "Шикарные сиськи!"
-    m "Ну ладно, хватит с тебя."
-    citizen6 "Слабовато, но ничего, хватит для первого раза."
-    mt "Может даже и последнего..."
+    citizen6 "That’s how we talk!"
+    m "You can turn back."
+    m "But no touching!"
+    citizen6 "Ha! Great!"
+    citizen6 "If you kept walking like that, I would give you 100 bucks every day!"
+    mt "No in this life..."
+    citizen6 "Nice tits!"
+    m "That's it, enough for you."
+    citizen6 "A bit on a weaker side, but good enough for the first time."
+    mt "First and last..."
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:457
 translate english cit6_naked_boobs_variant1_a08c5086:
@@ -666,9 +666,9 @@ translate english cit6_naked_boobs_variant1_a08c5086:
     # citizen6 "Я уже успел соскучиться по твоим сиськам!"
     # mt "Да неужели..."
     # citizen6 "Покажи мне их еще раз!"
-    citizen6 "Я уже успел соскучиться по твоим сиськам!"
-    mt "Да неужели..."
-    citizen6 "Покажи мне их еще раз!"
+    citizen6 "I'm already missing your tits!"
+    mt "Oh really..."
+    citizen6 "Show them to me again!"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:464
 translate english cit6_naked_boobs_variant1_16fe1cc6:
@@ -688,13 +688,13 @@ translate english cit6_naked_boobs_variant1_3f908b55:
     # citizen6 "Ну все, теперь мне надо к шлюхам. Хотя..."
     # citizen6 "Детка, ты готов отсосать за 20 баксов?"
     m "Turn around!"
-    m "Можешь повернуться."
+    m "You can turn back."
     m "No touching!"
-    citizen6 "Ладно, ладно! Можно и не говорить об этом каждый раз!"
-    citizen6 "О да! Как же ты меня заводишь!"
-    citizen6 "Черт, это просто супер!"
-    citizen6 "Ну все, теперь мне надо к шлюхам. Хотя..."
-    citizen6 "Детка, ты готов отсосать за 20 баксов?"
+    citizen6 "Fine, fine! You can stop talking about it every time!"
+    citizen6 "Oh yes! You are so arousing!"
+    citizen6 "Damn, simple superb!"
+    citizen6 "Well, that's it, I have to visit whores now. Hmm..."
+    citizen6 "Babe, give me a blowjob for 20 bucks?"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:481
 translate english cit6_naked_boobs_variant1_8e89149f:
@@ -702,9 +702,9 @@ translate english cit6_naked_boobs_variant1_8e89149f:
     # m "Только за 20 тысяч баксов."
     # citizen6 "А ты шутница! Да за такие деньги я трахну кого захочу!"
     # mt "Господи, что я говорю? Неужели я гототова сделать такое..."
-    m "Только за 20 тысяч баксов."
-    citizen6 "А ты шутница! Да за такие деньги я трахну кого захочу!"
-    mt "Господи, что я говорю? Неужели я гототова сделать такое..."
+    m "More like 20 thousand."
+    citizen6 "Such a joker! I can fuck anyone for this money!"
+    mt "My god, what am I saying? Am I really ready to do it..."
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:486
 translate english cit6_naked_boobs_variant1_c44b9380:
@@ -714,25 +714,25 @@ translate english cit6_naked_boobs_variant1_c44b9380:
     # citizen6 "Хорошо, 23 бакса! Хорошая цена!"
     # m "Еще слово и тебе конец!"
     # citizen6 "Ладно, не кипятись! Так бы и сказала, что не хочешь..."
-    m "Я тебе сейчас нос сломаю!"
-    citizen6 "Да ладно тебе, хочешь больше?"
-    citizen6 "Хорошо, 23 бакса! Хорошая цена!"
-    m "Еще слово и тебе конец!"
-    citizen6 "Ладно, не кипятись! Так бы и сказала, что не хочешь..."
+    m "I'm going to break your nose!"
+    citizen6 "Really? Do you want more?"
+    citizen6 "Fine, 23! Good price!"
+    m "One more word, and you are deadman!"
+    citizen6 "Alright, don’t be mad! You just had to say that you don’t want to..."
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:492
 translate english cit6_naked_boobs_variant1_835daf8a:
 
     # m "Хватит с тебя."
     # citizen6 "Да и пожалуйста, я и получше сиськи видел!"
-    m "Хватит с тебя."
-    citizen6 "Да и пожалуйста, я и получше сиськи видел!"
+    m "That's enough."
+    citizen6 "Whatever, I've seen better!"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:498
 translate english cit6_naked_boobs_variant2_2ce78b7a:
 
     # citizen6 "Давай глянем на твои сиськи!"
-    citizen6 "Давай глянем на твои сиськи!"
+    citizen6 "Let's have a look at your tits!"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:503
 translate english cit6_naked_boobs_variant2_16fe1cc6:
@@ -757,18 +757,18 @@ translate english cit6_naked_boobs_variant2_2fdad22a:
     # citizen6 "Что за вопросы? Я плачу, ты делаешь."
     # mt "Какого черта? Возможно стоит согласиться, ведь ничего в этом такого нет..."
     m "Turn around!"
-    m "Можешь повернуться."
+    m "You can turn back."
     m "No touching!"
-    citizen6 "Да сколько уже можно об этом?"
-    citizen6 "Класс! Сногсшибательные сиськи!"
-    citizen6 "Да, еще немного!"
-    citizen6 "Шикарно!"
-    citizen6 "Знаешь, я хочу, чтобы ты прошлась немного."
-    m "Не поняла..."
-    citizen6 "А что не понятно то? Пилон стоит у стены, пройдись до другой стены и обратно."
-    m "Зачем это вообще?"
-    citizen6 "Что за вопросы? Я плачу, ты делаешь."
-    mt "Какого черта? Возможно стоит согласиться, ведь ничего в этом такого нет..."
+    citizen6 "Can we change subject already?"
+    citizen6 "Amazing! Breathtaking tits!"
+    citizen6 "Yes, a little bit more!"
+    citizen6 "Great!"
+    citizen6 "I want you to walk for a bit."
+    m "I don’t understand..."
+    citizen6 "What exactly you don’t understand? Pole is near the wall, walk to another wall and then back."
+    m "Why?"
+    citizen6 "Questions, question. I'm paying and you are doing."
+    mt "What the hell? Should I agree, doesn’t look like it's anything strange..."
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:525
 translate english cit6_naked_boobs_variant2_94420ba9:
@@ -781,28 +781,28 @@ translate english cit6_naked_boobs_variant2_409be817:
 
     # m "Не хочу! Я не собираюсь этого делать!"
     # citizen6 "Ну и черт с тобой!"
-    m "Не хочу! Я не собираюсь этого делать!"
-    citizen6 "Ну и черт с тобой!"
+    m "I don’t want to! I'm not going to!"
+    citizen6 "Hell with you!"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:532
 translate english cit6_naked_boobs_variant2_c769192a:
 
     # m "Ладно, хватит с тебя того, что ты уже видел."
     # citizen6 "Да и пожалуйста, я и получше сиськи видел!"
-    m "Ладно, хватит с тебя того, что ты уже видел."
-    citizen6 "Да и пожалуйста, я и получше сиськи видел!"
+    m "That's enough for you."
+    citizen6 "Whatever, I've seen better!"
 
 translate english strings:
 
     # Quests/EP2/Citizens/Citizen6_dialogue.rpy:479
     old "Только за 20 тысяч баксов."
-    new ""
+    new "More like 20 thousand."
 
     # Quests/EP2/Citizens/Citizen6_dialogue.rpy:479
     old "Я тебе сейчас нос сломаю!"
-    new ""
+    new "I'm going to break your nose!"
 
     # Quests/EP2/Citizens/Citizen6_dialogue.rpy:523
     old "Не хочу."
-    new ""
+    new "I don’t want it."
 

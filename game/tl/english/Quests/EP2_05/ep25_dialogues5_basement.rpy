@@ -74,5 +74,5 @@ translate english ep25_dialgues5_basement1_37e04dba:
 translate english ep25_dialgues5_basement2_5a5e03a5:
 
     # mt "Мне стоит снять это платье. Я не хочу его мять. Другого у меня нет!"
-    mt "Мне стоит снять это платье. Я не хочу его мять. Другого у меня нет!"
+    mt "I'd better take off this dress. Don't want it to become wrinkled. It is the only one I have!"
 

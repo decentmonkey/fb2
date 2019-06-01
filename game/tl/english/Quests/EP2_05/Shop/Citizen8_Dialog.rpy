@@ -228,7 +228,7 @@ translate english strings:
 translate english cit8_dialog_3_249d8140:
 
     # cit8 "Я бы хотел снять это платье с манекена."
-    cit8 "Я бы хотел снять это платье с манекена."
+    cit8 "I'd like to take off this dress from the mannequin."
 
 # game/Quests/EP2_05/Shop/Citizen8_Dialog.rpy:110
 translate english cit8_dialog_3a_534c8698:

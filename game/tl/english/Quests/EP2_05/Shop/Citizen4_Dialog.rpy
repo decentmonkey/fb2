@@ -1041,8 +1041,8 @@ translate english cit4_dialog_3h_db9052a3:
 
     # mt "О УЖАС!"
     # mt "Мне надо как-то забрать свое платье у этой стервы!"
-    mt "О УЖАС!"
-    mt "Мне надо как-то забрать свое платье у этой стервы!"
+    mt "HOW AWFUL!"
+    mt "I have to somehow get my dress back from this bitch!"
 
 translate english strings:
 

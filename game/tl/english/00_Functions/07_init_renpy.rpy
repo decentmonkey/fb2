@@ -308,9 +308,9 @@ translate english strings:
 
     # 00_Functions/07_init_renpy.rpy:95
     old "Покупатель"
-    new ""
+    new "Customer."
 
     # 00_Functions/07_init_renpy.rpy:98
     old "Покупательница"
-    new ""
+    new "Female customer."
 

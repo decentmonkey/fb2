@@ -351,9 +351,9 @@ translate english cit8_naked_boobs_1st_bfaefb6f:
     # m "Что ты имеешь ввиду?"
     # citizen8 "Все просто: показываешь голые сиськи, получаешь больше денег."
     # citizen8 "Ты согласна?"
-    citizen8 "Предлагаю вывести нашу сделку на новый уровень!"
+    citizen8 "I propose to elevate our deal to the next level!"
     m "What do you mean?"
-    citizen8 "Все просто: показываешь голые сиськи, получаешь больше денег."
+    citizen8 "Simple, you show bare tits - get more money."
     citizen8 "Do you agree?"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:250
@@ -376,13 +376,13 @@ translate english cit8_naked_boobs_1st_9d2d56d0:
     # citizen8 "На сколько ты оцениваешь свою грудь?!"
     m "Fine."
     m "Turn around!"
-    citizen8 "Хм...На первый раз отвернусь..."
-    m "Можешь повернуться."
-    m "Но руками не трогать!"
-    citizen8 "Да, новая сделка того стоит."
-    citizen8 "Хороший размер и форма."
+    citizen8 "Hmm... I'll turn... for a first time..."
+    m "You can turn back."
+    m "But no touching!"
+    citizen8 "Yes, new deal is worth it."
+    citizen8 "Good size and shape."
     citizen8 "What a beauty!"
-    citizen8 "На сколько ты оцениваешь свою грудь?!"
+    citizen8 "How much do you evaluate your chest for?!"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:267
 translate english cit8_naked_boobs_1st_92dc628e:
@@ -391,8 +391,8 @@ translate english cit8_naked_boobs_1st_92dc628e:
     # citizen8 "Да, она бы могла столько стоить, но не здесь!"
     # citizen8 "Учитывая обстоятельства, свой дополнительный доллар ты заработала."
     m "1000$"
-    citizen8 "Да, она бы могла столько стоить, но не здесь!"
-    citizen8 "Учитывая обстоятельства, свой дополнительный доллар ты заработала."
+    citizen8 "Yes, it can cost as much, but not around here!"
+    citizen8 "Considering circumstances, you earned your additional dollar."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:272
 translate english cit8_naked_boobs_1st_3d0a6883:
@@ -400,25 +400,25 @@ translate english cit8_naked_boobs_1st_3d0a6883:
     # m "Ни на сколько!"
     # citizen8 "Гордость? Мне нравится."
     # citizen8 "Возможно скоро ты узнаешь, что у всего есть цена."
-    m "Ни на сколько!"
-    citizen8 "Гордость? Мне нравится."
-    citizen8 "Возможно скоро ты узнаешь, что у всего есть цена."
+    m "It's priceless!"
+    citizen8 "Dignity? I like that."
+    citizen8 "You might realise soon that everything has a price."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:276
 translate english cit8_naked_boobs_1st_8e78468b:
 
     # citizen8 "Ладно, сделка состоялась. Можешь одеваться, если, конечно, хочешь."
     # mt "Конечно хочу!"
-    citizen8 "Ладно, сделка состоялась. Можешь одеваться, если, конечно, хочешь."
-    mt "Конечно хочу!"
+    citizen8 "Fine, deal is done. You can dress up, if you want of course."
+    mt "Of course I want!"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:283
 translate english cit8_naked_boobs_variant1_e847aef1:
 
     # citizen8 "Ну что, продолжим! Я уже даже подзабыл какая у тебя грудь."
     # citizen8 "Покажи мне ее!"
-    citizen8 "Ну что, продолжим! Я уже даже подзабыл какая у тебя грудь."
-    citizen8 "Покажи мне ее!"
+    citizen8 "Should we continue? I almost forgot how your chest looks."
+    citizen8 "Show it to me!"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:289
 translate english cit8_naked_boobs_variant1_16fe1cc6:
@@ -441,14 +441,14 @@ translate english cit8_naked_boobs_variant1_6b65da19:
     # citizen8 "Вернемся к сделка. Покажи мне язычек."
     m "Fine."
     m "Turn around!"
-    citizen8 "Ну...Ладно."
-    m "Можешь повернуться."
-    m "Но руками не трогать!"
-    citizen8 "Красота!"
-    citizen8 "Знаешь, цена нашей сделки пропорционально твоему размеру груди."
-    citizen8 "Думаю, ты догадалась, что нужно, чтобы получать больше."
-    mt "Конечно догадалась...Извращенец."
-    citizen8 "Вернемся к сделка. Покажи мне язычек."
+    citizen8 "Well... Fine."
+    m "You can turn back."
+    m "But no touching!"
+    citizen8 "Beauty!"
+    citizen8 "You know, price of our deal is proportional to the size of your chest."
+    citizen8 "I think you can guess what you need to do to earn more."
+    mt "Yea, I do... Pervert."
+    citizen8 "Let's talk business. Show me your tongue."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:308
 translate english cit8_naked_boobs_variant1_16dd5e7c:
@@ -456,23 +456,23 @@ translate english cit8_naked_boobs_variant1_16dd5e7c:
     # citizen8 "Нет, это не похоже на честную сделку."
     # citizen8 "Я же вижу, что ты халтуришь."
     # citizen8 "Открой рот шире и высунь язык как следует!"
-    citizen8 "Нет, это не похоже на честную сделку."
-    citizen8 "Я же вижу, что ты халтуришь."
-    citizen8 "Открой рот шире и высунь язык как следует!"
+    citizen8 "No, it doesn’t look like a fair deal/"
+    citizen8 "I see that you are slacking."
+    citizen8 "Open your mouth wider and show your tongue properly!"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:314
 translate english cit8_naked_boobs_variant1_a4ba8284:
 
     # citizen8 "Вот, теперь я вижу, что ты стараешься."
-    citizen8 "Вот, теперь я вижу, что ты стараешься."
+    citizen8 "Here, now I see that you are trying."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:317
 translate english cit8_naked_boobs_variant1_bfc266c8:
 
     # m "Я больше не могу!"
     # citizen8 "Обманщица. Ну да ладно. Но я это запомню..."
-    m "Я больше не могу!"
-    citizen8 "Обманщица. Ну да ладно. Но я это запомню..."
+    m "I can't anymore!"
+    citizen8 "Liar. Fine. I'll remember..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:322
 translate english cit8_naked_boobs_variant1_7a262479:
@@ -481,22 +481,22 @@ translate english cit8_naked_boobs_variant1_7a262479:
     # citizen8 "Странно, раньше ты была чуть сговорчивее."
     # citizen8 "Ну как хочешь..."
     m "Oh, no!"
-    citizen8 "Странно, раньше ты была чуть сговорчивее."
-    citizen8 "Ну как хочешь..."
+    citizen8 "Srange. You have been more agreable before."
+    citizen8 "As you wish..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:326
 translate english cit8_naked_boobs_variant1_8e78468b:
 
     # citizen8 "Ладно, сделка состоялась. Можешь одеваться, если, конечно, хочешь."
     # mt "Конечно хочу!"
-    citizen8 "Ладно, сделка состоялась. Можешь одеваться, если, конечно, хочешь."
-    mt "Конечно хочу!"
+    citizen8 "Fine, deal is done. You can dress up, if you want of course."
+    mt "Of course I want!"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:332
 translate english cit8_naked_boobs_variant2_dacb88de:
 
     # citizen8 "Давай еще разок взглянем на твою грудь."
-    citizen8 "Давай еще разок взглянем на твою грудь."
+    citizen8 "Let's have another look at your chest."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:337
 translate english cit8_naked_boobs_variant2_16fe1cc6:
@@ -516,11 +516,11 @@ translate english cit8_naked_boobs_variant2_6d44c60f:
     # mt "Хотя какой он мужчина... Но все равно... Стоит ли мне это делать?"
     m "Fine."
     m "Turn around!"
-    citizen8 "Знаешь, не сегодня."
-    m "Не поняла."
-    citizen8 "Переодевайся, а я посмотрю."
-    mt "Снимать одежду, когда на меня смотрит незнакомый мужчина..."
-    mt "Хотя какой он мужчина... Но все равно... Стоит ли мне это делать?"
+    citizen8 "You know, not today."
+    m "I don’t understand."
+    citizen8 "Take clothes off, and I'll be looking."
+    mt "Taking clothes off while stranger is looking at me..."
+    mt "Anyways... Should I realy do it?"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:348
 translate english cit8_naked_boobs_variant2_2244ff4b:
@@ -529,18 +529,18 @@ translate english cit8_naked_boobs_variant2_2244ff4b:
     # citizen8 "А знаешь, это в каком то смысле лучше, чем просто смотреть!"
     # citizen8 "Скажи, тебя это заводит? Хотя что за вопросы, я знаю, что да."
     # mt "Ничего ты не знаешь..."
-    m "Ну... Ладно."
-    citizen8 "А знаешь, это в каком то смысле лучше, чем просто смотреть!"
-    citizen8 "Скажи, тебя это заводит? Хотя что за вопросы, я знаю, что да."
-    mt "Ничего ты не знаешь..."
+    m "Alright... Fine."
+    citizen8 "In some sense, it's even better that just looking!"
+    citizen8 "Are you getting horny? Why am I even asking, of course you are."
+    mt "You don’t know anything..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:356
 translate english cit8_naked_boobs_variant2_f5b76070:
 
     # m "Нет, я так не могу!"
     # citizen8 "Хорошо, тогда эта часть сделки анулируется."
-    m "Нет, я так не могу!"
-    citizen8 "Хорошо, тогда эта часть сделки анулируется."
+    m "No, I can't do it like that!"
+    citizen8 "This part of a deal is null then."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:360
 translate english cit8_naked_boobs_variant2_85c8b5a9:
@@ -553,30 +553,30 @@ translate english cit8_naked_boobs_variant2_85c8b5a9:
     # citizen8 "Я уже посмотрел как ты переодеваешься и пока этого хватит."
     # citizen8 "Но ты выполнила свою часть сделки отлично!"
     # mt "Странный тип..."
-    citizen8 "Постой."
+    citizen8 "Wait."
     m "What?"
-    citizen8 "Если не знать меры, можно превратиться в животное."
-    citizen8 "Не подумай ничего плохого, твои сиськи прекрасны."
-    mt "Он что, меня отшивает?!"
-    citizen8 "Я уже посмотрел как ты переодеваешься и пока этого хватит."
-    citizen8 "Но ты выполнила свою часть сделки отлично!"
-    mt "Странный тип..."
+    citizen8 "You can turn into animal without knowing when to stop."
+    citizen8 "Don’t think anything bad, your tits are great."
+    mt "Is he ditching me?!"
+    citizen8 "I've already seen you undressing and that's enough for now."
+    citizen8 "But you did great your part of a deal!"
+    mt "Strange guy..."
 
 translate english strings:
 
     # Quests/EP2/Citizens/Citizen8_dialogue.rpy:265
     old "1000$"
-    new ""
+    new "1000$"
 
     # Quests/EP2/Citizens/Citizen8_dialogue.rpy:265
     old "Ни на сколько!"
-    new ""
+    new "It's priceless!"
 
     # Quests/EP2/Citizens/Citizen8_dialogue.rpy:311
     old "Это максимум!"
-    new ""
+    new "It's maximum!"
 
     # Quests/EP2/Citizens/Citizen8_dialogue.rpy:346
     old "Нет, я так не могу!"
-    new ""
+    new "No, I can't do it like that!"
 

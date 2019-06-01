@@ -282,13 +282,13 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Мне надо поймать Стива, этого слизняка! Он не уйдет от меня!"
-    new ""
+    new "I have to catch this slime Steve! He will not get away from me!"
 
     # Quests/Question_Helper_Info.rpy:115
     old "Стив хочет трахнуть меня снова, чтобы закрыть эту чертову сделку! Мне нужны деньги, но цена..."
-    new ""
+    new "Steve wants to fuck me again to close this damn deal! I need money, but is price worth it..."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Стив слизняк и негодяй! Но, может быть, через него можно найти какую-то работу или просто деньги?"
-    new ""
+    new "Steve is slime and bastard! But, maybe, he can help me find some kind of work, or at least give me more money?"
 
