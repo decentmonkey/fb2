@@ -2585,7 +2585,9 @@ define offsets_table = {
     "steve_office_office_table_monica_casualdress1_1":(420,1048,1079,1568),
     "steve_office_secretary_1":(484,1214,862,1320),
     "steve_office_secretary_2":(378,1192,856,1305),
-    "steve_office_secretary_monica_casualdress1":(386,826,1032,1050)
+    "steve_office_secretary_monica_casualdress1":(386,826,1032,1050),
+    "police_entrance_monica_reception_casualdress1_overlay":(691,0,1079,1262),
+    "police_entrance_monica_reception_casualdress1":(234,388,1079,679)
 }
 
 init python:
