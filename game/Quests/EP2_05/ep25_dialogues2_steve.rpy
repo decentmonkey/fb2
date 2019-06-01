@@ -837,6 +837,7 @@ label ep25_dialogues2_steve4a:
     mt "Мерзость!"
 
 # Моника уходит вытирая рот: только попробуй не перевести деньги, мерзавец!
+    $ add_corruption(monicaSteveFirstBlowjobDeal, "monicaSteveFirstBlowjobDeal")
     music Power_Bots_Loop
     img 11464
     with fadelong
@@ -1337,6 +1338,7 @@ label ep25_dialogues2_steve10_loop1:
     img black_screen
     with diss
     pause 2.0
+    $ add_corruption(monicaSteveFirstBlowjobDeal, "monicaSteveFirstBlowjobDeal")
     music Power_Bots_Loop
     img 11464
     with fadelong

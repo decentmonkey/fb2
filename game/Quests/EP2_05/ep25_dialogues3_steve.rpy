@@ -534,6 +534,7 @@ label ep25_dialogues3_steve1b:
     img 11578
     with diss
     m "Быстро переводи деньги!"
+    $ add_corruption(monicaSteveCumSexDeal, "monicaSteveCumSexDeal")
     music Groove2_85
     img 11579
     with fade
@@ -860,6 +861,7 @@ label ep25_dialogues3_steve3a:
     sound snd_door_close1
     pause 2.0
     call ep25_dialogues3_steve5a() from _call_ep25_dialogues3_steve5a # Стив кончает
+    $ add_corruption(monicaSteveRegularBlowjobDeal, "monicaSteveRegularBlowjobDeal" + str(day))
     call ep25_dialogues3_steve5() from _call_ep25_dialogues3_steve5 # Моника уходит
     return
 
@@ -935,6 +937,7 @@ label ep25_dialogues3_steve3b:
     sound snd_door_close1
     pause 2.0
     call ep25_dialogues3_steve5a() from _call_ep25_dialogues3_steve5a_1 # Стив кончает
+    $ add_corruption(monicaSteveRegularBlowjobDeal, "monicaSteveRegularBlowjobDeal" + str(day))
     call ep25_dialogues3_steve5() from _call_ep25_dialogues3_steve5_1 # Моника уходит
     return
 
@@ -1038,6 +1041,7 @@ label ep25_dialogues3_steve3c:
     sound snd_door_close1
     pause 2.0
     call ep25_dialogues3_steve5a() from _call_ep25_dialogues3_steve5a_2 # Стив кончает
+    $ add_corruption(monicaSteveRegularBlowjobDeal, "monicaSteveRegularBlowjobDeal" + str(day))
     call ep25_dialogues3_steve5() from _call_ep25_dialogues3_steve5_2 # Моника уходит
     return
 
@@ -1083,6 +1087,7 @@ label ep25_dialogues3_steve4a:
     sound snd_door_close1
     pause 2.0
     call ep25_dialogues3_steve5a() from _call_ep25_dialogues3_steve5a_3 # Стив кончает
+    $ add_corruption(monicaSteveRegularBlowjobDeal, "monicaSteveRegularBlowjobDeal" + str(day))
     call ep25_dialogues3_steve5() from _call_ep25_dialogues3_steve5_3 # Моника уходит
     return
 
@@ -1240,6 +1245,7 @@ label ep25_dialogues3_steve4b:
     with Dissolve(1)
 # Моника зло продолжает сосать член.
     call ep25_dialogues3_steve5a() from _call_ep25_dialogues3_steve5a_4 # Стив кончает
+    $ add_corruption(monicaSteveRegularBlowjobDeal, "monicaSteveRegularBlowjobDeal" + str(day))
     call ep25_dialogues3_steve5() from _call_ep25_dialogues3_steve5_4 # Моника уходит
     return
 
@@ -1373,6 +1379,7 @@ label ep25_dialogues3_steve4c:
     sound snd_door_close1
     pause 2.0
 #    call ep25_dialogues3_steve5a() # Стив кончает
+    $ add_corruption(monicaSteveRegularBlowjobDeal, "monicaSteveRegularBlowjobDeal" + str(day))
     call ep25_dialogues3_steve5() from _call_ep25_dialogues3_steve5_5 # Моника уходит
     return
 

@@ -1174,11 +1174,18 @@ screen questlog_screen(inText):
 #        for idx in questLogData:
 #            if questLogData[idx][3] != lastCategory:
 #                $ lastCategory =
+#        frame:
+#            background None
+#            side ("c r"):
+#                area (getRes(700), getRes(95), getRes(750), getRes(1001))
+#                viewport id "questlog_journal":
+#                    draggable True mousewheel True
         text inText:
             xpos getRes(700)
             ypos getRes(95)
             xsize getRes(580)
             style "questlog_text_style"
+#                vbar value YScrollValue("questlog_journal")
         button:
             xfill True
             yfill True
