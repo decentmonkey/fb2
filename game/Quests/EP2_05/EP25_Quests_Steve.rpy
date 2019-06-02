@@ -108,7 +108,7 @@ label ep25_quests_steve9:
         return
     $ remove_hook(label="jane_dialogue3")
     call ep25_dialogues2_steve3() from _call_ep25_dialogues2_steve3
-    $ monicaHasSexWithSteveBasement = False # debug!!
+#    $ monicaHasSexWithSteveBasement = False # debug!!
     if monicaHasSexWithSteveBasement == True: # У Моники был секс со Стивом
         call ep25_dialogues2_steve4() from _call_ep25_dialogues2_steve4
         $ move_object("Steve", "steve_office_office_table")

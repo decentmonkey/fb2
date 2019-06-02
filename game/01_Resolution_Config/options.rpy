@@ -31,10 +31,15 @@ define config.version = "EP2-v0.5"
 
 define gui.about = _p("""
 Thanks to:
+
 The big Dog
+
 Ronny schönherr
+
 Stefan Kemske
+
 Jetvoice
+
 for great support!
 
 Meli_x3, Koskesh, Ragnaroekr, GND53 and ColdBlade for English correction

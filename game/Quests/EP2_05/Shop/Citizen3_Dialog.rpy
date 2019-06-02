@@ -417,36 +417,164 @@ label cit3_dialog_3:
     with fade
     m "То я откушу тебе кое-что..."
 
-    music Loved_Up
     img 11225
-    with fade
+    with fadelong
     cit3 "Я не обману тебя и куплю это платье."
     cit3 "Приступай к обслуживанию..."
 
     # video
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    music2 Loved_Up
     img 11226
-    with fade
+    with fadelong
     w
+    $ renpy.music.set_volume(0.3, 0.0, 'music2')
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ShopVisitor2_Monica_Blowjob_1.mp3"
+    scene black
+    image videov_ShopVisitor2_Monica_Blowjob_1_1 = Movie(play="video/v_ShopVisitor2_Monica_Blowjob_1_1.mkv", fps=30)
+    show videov_ShopVisitor2_Monica_Blowjob_1_1
+    with fadelong
+    wclean
+
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ShopVisitor2_Monica_Blowjob_1.mp3"
+    scene black
+    image videov_ShopVisitor2_Monica_Blowjob_1_2 = Movie(play="video/v_ShopVisitor2_Monica_Blowjob_1_2.mkv", fps=30)
+    show videov_ShopVisitor2_Monica_Blowjob_1_2
+    with fadelong
+    wclean
+    stop music
+
+    $ renpy.music.set_volume(1.0, 0.0, 'music2')
     img 11227
     with diss
     cit3 "Это свидание будет волшебным..."
+    $ renpy.music.set_volume(0.3, 0.0, 'music2')
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ShopVisitor2_Monica_Blowjob_1.mp3"
+    scene black
+    image videov_ShopVisitor2_Monica_Blowjob_1_3 = Movie(play="video/v_ShopVisitor2_Monica_Blowjob_1_3.mkv", fps=30)
+    show videov_ShopVisitor2_Monica_Blowjob_1_3
+    with fadelong
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.0, 'music2')
     img 11228
     with diss
     cit3 "Я буду смотреть на Саманту в этом платье..."
     cit3 "И представлять как ты сосала мне..."
+    $ renpy.music.set_volume(0.3, 0.0, 'music2')
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ShopVisitor2_Monica_Blowjob_1.mp3"
+    scene black
+    image videov_ShopVisitor2_Monica_Blowjob_1_4 = Movie(play="video/v_ShopVisitor2_Monica_Blowjob_1_4.mkv", fps=30)
+    show videov_ShopVisitor2_Monica_Blowjob_1_4
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ShopVisitor2_Monica_Blowjob_1.mp3"
+    scene black
+    image videov_ShopVisitor2_Monica_Blowjob_1_5 = Movie(play="video/v_ShopVisitor2_Monica_Blowjob_1_5.mkv", fps=30)
+    show videov_ShopVisitor2_Monica_Blowjob_1_5
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ShopVisitor2_Monica_Blowjob_1.mp3"
+    scene black
+    image videov_ShopVisitor2_Monica_Blowjob_1_6 = Movie(play="video/v_ShopVisitor2_Monica_Blowjob_1_6.mkv", fps=30)
+    show videov_ShopVisitor2_Monica_Blowjob_1_6
+    with fadelong
+    wclean
+    stop music
 
+    $ renpy.music.set_volume(1.0, 0.0, 'music2')
     img 11229
     with diss
     cit3 "Да, вот так..."
     cit3 "Соси..."
+    $ renpy.music.set_volume(0.3, 0.0, 'music2')
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ShopVisitor2_Monica_Blowjob_1.mp3"
+    scene black
+    image videov_ShopVisitor2_Monica_Blowjob_1_7 = Movie(play="video/v_ShopVisitor2_Monica_Blowjob_1_7.mkv", fps=30)
+    show videov_ShopVisitor2_Monica_Blowjob_1_7
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ShopVisitor2_Monica_Blowjob_1.mp3"
+    scene black
+    image videov_ShopVisitor2_Monica_Blowjob_1_8 = Movie(play="video/v_ShopVisitor2_Monica_Blowjob_1_8.mkv", fps=30)
+    show videov_ShopVisitor2_Monica_Blowjob_1_8
+    with fadelong
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.0, 'music2')
     img 11230
     with diss
     cit3 "Соси..."
+    $ renpy.music.set_volume(0.3, 0.0, 'music2')
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ShopVisitor2_Monica_Blowjob_1.mp3"
+    scene black
+    image videov_ShopVisitor2_Monica_Blowjob_1_9 = Movie(play="video/v_ShopVisitor2_Monica_Blowjob_1_9.mkv", fps=30)
+    show videov_ShopVisitor2_Monica_Blowjob_1_9
+    with fadelong
+    wclean
+    $ renpy.music.set_volume(1.0, 0.0, 'music2')
     img 11231
     with diss
     cit3 "Соси..."
     cit3 "Хороший продавец..."
+    $ renpy.music.set_volume(0.3, 0.0, 'music2')
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ShopVisitor2_Monica_Blowjob_1.mp3"
+    scene black
+    image videov_ShopVisitor2_Monica_Blowjob_1_10 = Movie(play="video/v_ShopVisitor2_Monica_Blowjob_1_10.mkv", fps=30)
+    show videov_ShopVisitor2_Monica_Blowjob_1_10
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ShopVisitor2_Monica_Blowjob_1.mp3"
+    scene black
+    image videov_ShopVisitor2_Monica_Blowjob_1_11 = Movie(play="video/v_ShopVisitor2_Monica_Blowjob_1_11.mkv", fps=30)
+    show videov_ShopVisitor2_Monica_Blowjob_1_11
+    with fadelong
+    wclean
 
+    music stop
+    music2 stop
+    $ renpy.music.set_volume(1.0, 0.0, 'music2')
+
+    music stop
+    call textonblack(_("Спустя некоторое время..."))
+    img black_screen
+    with Dissolve(1)
 
     # Моника сидит, сняв штаны
 #    cit3 "Да! Я не сомневался!"

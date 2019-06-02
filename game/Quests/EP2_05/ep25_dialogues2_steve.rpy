@@ -808,6 +808,7 @@ label ep25_dialogues2_steve4a:
     img 11457
     w
     m "..."
+
     music stop
     img 11458
     with diss
@@ -825,9 +826,122 @@ label ep25_dialogues2_steve4a:
     img 11461
     with diss
     m "!!!"
+
+
     # video
-    img 11462
+    music stop
+    music2 Loved_Up2
+    $ renpy.music.set_volume(0.3, 0.0, 'music2')
+    img black_screen
     with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_1 = Movie(play="video/v_Steve_Monica_Blowjob_1_1.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_1
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_2 = Movie(play="video/v_Steve_Monica_Blowjob_1_2.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_2
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_3 = Movie(play="video/v_Steve_Monica_Blowjob_1_3.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_3
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_4 = Movie(play="video/v_Steve_Monica_Blowjob_1_4.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_4
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_5 = Movie(play="video/v_Steve_Monica_Blowjob_1_5.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_5
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_6 = Movie(play="video/v_Steve_Monica_Blowjob_1_6.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_6
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_7 = Movie(play="video/v_Steve_Monica_Blowjob_1_7.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_7
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_8 = Movie(play="video/v_Steve_Monica_Blowjob_1_8.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_8
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_9 = Movie(play="video/v_Steve_Monica_Blowjob_1_9.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_9
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_10 = Movie(play="video/v_Steve_Monica_Blowjob_1_10.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_10
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_11 = Movie(play="video/v_Steve_Monica_Blowjob_1_11.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_11
+    with fadelong
+    wclean
+    $ renpy.music.set_volume(1.0, 0.0, 'music2')
+
+    stop music
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.0
+    img 11462
+    with fadelong
+    sound bulk1
     steve "АААААХХХХХХХ!!!"
     m "!!!"
     music Groove2_85
@@ -1317,15 +1431,131 @@ label ep25_dialogues2_steve10_loop1:
     music Loved_Up2
     steve "Как же я мечтал об этом дне!"
     steve "О дне, когда я вгоню свой член в твой ротик!"
+    # video
+    music stop
+    music2 Loved_Up2
+    $ renpy.music.set_volume(0.3, 0.0, 'music2')
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_1 = Movie(play="video/v_Steve_Monica_Blowjob_1_1.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_1
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_2 = Movie(play="video/v_Steve_Monica_Blowjob_1_2.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_2
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_3 = Movie(play="video/v_Steve_Monica_Blowjob_1_3.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_3
+    with fadelong
+    wclean
+
+    stop music
     img 11460
     with diss
     steve "Каждый раз, когда ты приходила и кричала на меня, я мечтал об этом дне!"
     img 11461
     with diss
     m "!!!"
-    # video
-    img 11462
+    img black_screen
     with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_4 = Movie(play="video/v_Steve_Monica_Blowjob_1_4.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_4
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_5 = Movie(play="video/v_Steve_Monica_Blowjob_1_5.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_5
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_6 = Movie(play="video/v_Steve_Monica_Blowjob_1_6.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_6
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_7 = Movie(play="video/v_Steve_Monica_Blowjob_1_7.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_7
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_8 = Movie(play="video/v_Steve_Monica_Blowjob_1_8.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_8
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_9 = Movie(play="video/v_Steve_Monica_Blowjob_1_9.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_9
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_10 = Movie(play="video/v_Steve_Monica_Blowjob_1_10.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_10
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
+    scene black
+    image videov_Steve_Monica_Blowjob_1_11 = Movie(play="video/v_Steve_Monica_Blowjob_1_11.mkv", fps=30)
+    show videov_Steve_Monica_Blowjob_1_11
+    with fadelong
+    wclean
+
+    music2 stop
+    $ renpy.music.set_volume(1.0, 0.0, 'music2')
+
+    stop music
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 2.0
+    music Loved_Up2
+    img 11462
+    with fadelong
+    sound bulk1
     steve "АААААХХХХХХХ!!!"
     m "!!!"
     music Groove2_85

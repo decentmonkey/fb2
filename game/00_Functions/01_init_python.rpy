@@ -21,7 +21,7 @@ python early:
             renpy.hide_screen("dialogue_down_arrow")
             dialogue_active_flag = False
         renpy.scene()
-        renpy.show_screen("show_image_screen", imagePath)
+        renpy.show_screen("show_image_screen_image", imagePath)
         image_screen_scene_flag = False
         screenActionHappened = True
     def img_pred(s):

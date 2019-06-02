@@ -75,6 +75,12 @@ style frame:
     padding gui.frame_borders.padding
     background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
 
+screen show_image_screen_image(image_name):
+    layer "master"
+    zorder 15
+    fixed:
+        add image_name at convert_resolution_transform
+
 screen show_image_screen(image_name):
     layer "master"
     fixed:

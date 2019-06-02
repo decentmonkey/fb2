@@ -468,6 +468,8 @@ label ep25_dialogues1_shop7:
 
 
 
+    music stop
+    music2 Indo_Rock
 
     # Продавец садится на Монику
     img 10695
@@ -486,16 +488,25 @@ label ep25_dialogues1_shop7:
     cashier "Вам понравилось обслуживание?"
     m "Мммпфххх...."
 
-#    music stop
     img black_screen
     with Dissolve(0.5)
-#    stop music
-#    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_1.mp3"
     scene black
     image videov_ClothShopTrader_Monica_Lesbian_1_1 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_1_1.mkv", fps=30)
     show videov_ClothShopTrader_Monica_Lesbian_1_1
     with fadelong
     wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_1.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_1_2 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_1_2.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_1_2
+    with fadelong
+    wclean
+    stop music
 
     img 10699
     with diss
@@ -503,43 +514,244 @@ label ep25_dialogues1_shop7:
     img 10700
     with diss
     cashier "Вам понравилось обслуживание?"
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_1.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_1_3 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_1_3.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_1_3
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_1.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_1_4 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_1_4.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_1_4
+    with fadelong
+    wclean
+    stop music
     img 10701
+    with diss
     m "Мммм... Да..."
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_1.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_1_5 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_1_5.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_1_5
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_1.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_1_6 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_1_6.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_1_6
+    with fadelong
+    wclean
+    stop music
     img 10702
     with diss
     cashier "Оцените обслуживание по десятибальной шкале!"
     cashier "Вы ведь оцениваете обслуживание на десять баллов, правда?"
     m "Мммпфхх..."
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_1.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_1_7 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_1_7.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_1_7
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_1.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_1_8 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_1_8.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_1_8
+    with fadelong
+    wclean
+    stop music
     img 10703
+    with diss
     cashier "Отвечай, сучка. Иначе отправишься в полицию прямо сейчас."
     img 10704
     with diss
     m "Мммпфхх... Да..."
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_1.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_1_9 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_1_9.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_1_9
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_1.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_1_10 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_1_10.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_1_10
+    with fadelong
+    wclean
+    stop music
     img 10705
     with diss
     cashier "Посоветуете-ли Вы этот магазин своим друзьям и знакомым?"
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_1.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_1_11 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_1_11.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_1_11
+    with fadelong
+    wclean
+    stop music
     img 10706
+    with diss
     m "Мммпфхх... Да..."
-    music Loved_Up2
+    music stop
+    music2 Loved_Up2
+    $ renpy.music.set_volume(0.3, 0.0, 'music2')
     img 10707
     with fadelong
     cashier "А теперь я хочу попробовать твою розовую киску. Мммм..."
+
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_2.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_2_1 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_2_1.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_2_1
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_2.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_2_2 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_2_2.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_2_2
+    with fadelong
+    wclean
+    stop music
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_2.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_2_9 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_2_9.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_2_9
+    with fadelong
+    wclean
+    stop music
+
     img 10708
     with diss
     m "Мммпфхх..."
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_2.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_2_3 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_2_3.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_2_3
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_2.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_2_4 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_2_4.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_2_4
+    with fadelong
+    wclean
+    stop music
     img 10709
     with fade
     cashier "Ммммм... Какая прелесть..."
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_2.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_2_5 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_2_5.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_2_5
+    with fadelong
+    wclean
+    stop music
     img 10710
     with diss
     m "Мммпфхх..."
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_2.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_2_6 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_2_6.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_2_6
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_2.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_2_7 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_2_7.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_2_7
+    with fadelong
+    wclean
+    stop music
     img 10711
     with diss
     cashier "Ммммм... Такая вкусная киска мне еще не попадалась..."
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_2.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_2_8 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_2_8.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_2_8
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_2.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_2_9 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_2_9.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_2_9
+    with fadelong
+    wclean
+    stop music
     img 10712
     with diss
     cashier "Ммммм..."
-
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_ClothShopTrader_Monica_Lesbian_2.mp3"
+    scene black
+    image videov_ClothShopTrader_Monica_Lesbian_2_10 = Movie(play="video/v_ClothShopTrader_Monica_Lesbian_2_10.mkv", fps=30)
+    show videov_ClothShopTrader_Monica_Lesbian_2_10
+    with fadelong
+    wclean
+    stop music
+    music stop
+    music2 stop
+    $ renpy.music.set_volume(1.0, 0.0, 'music2')
     # встает
     img black_screen
     with diss
