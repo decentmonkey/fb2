@@ -38,3 +38,11 @@ translate english strings:
     old "Thanks to: The big Dog Ronny schönherr Stefan Kemske Jetvoice for great support!\n\nMeli_x3, Koskesh, Ragnaroekr, GND53 and ColdBlade for English correction\n\nRagnaroekr and BruceLee73 for German translation\n\nrenpytom (Tom Rothamel) for the Ren'Py Game Engine\n\nThis game made under the inspiration of Terebonkoff Studio creations.\n\n"
     new ""
 
+# TODO: Translation updated at 2019-06-03 00:16
+
+translate english strings:
+
+    # 01_Resolution_Config/options.rpy:32
+    old "Thanks to:\n\nThe big Dog\n\nRonny schönherr\n\nStefan Kemske\n\nJetvoice\n\nfor great support!\n\nMeli_x3, Koskesh, Ragnaroekr, GND53 and ColdBlade for English correction\n\nRagnaroekr and BruceLee73 for German translation\n\nrenpytom (Tom Rothamel) for the Ren'Py Game Engine\n\nThis game made under the inspiration of Terebonkoff Studio creations.\n\n"
+    new ""
+

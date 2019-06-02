@@ -572,7 +572,7 @@ label cit3_dialog_3:
     $ renpy.music.set_volume(1.0, 0.0, 'music2')
 
     music stop
-    call textonblack(_("Спустя некоторое время..."))
+    call textonblack(_("Спустя некоторое время...")) from _call_textonblack_22
     img black_screen
     with Dissolve(1)
 
