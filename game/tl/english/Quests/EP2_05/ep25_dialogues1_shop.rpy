@@ -1210,7 +1210,7 @@ translate english ep25_dialogues1_shop1c_0a8d0fc2:
     # mt "Чтобы что-то найти среди этого хлама, надо спросить у продавца..."
     # mt "Но смогу-ли я себе позволить что-то купить даже здесь?"
     # mt "Дьявол..."
-    mt "I'll have to ask a store clerk if I'm want to find anything among this garbage..."
+    mt "I'll have to ask a store clerk if I want to find anything among this garbage..."
     mt "But can I even afford to buy something from here?"
     mt "Damn..."
 
@@ -1288,7 +1288,7 @@ translate english ep25_dialogues1_shop6_b9e0060c:
 translate english ep25_dialogues1_shop9_3ddf7e73:
 
     # m "Я хочу купить то платье, которое случайно забыла убрать с руки, когда выходила из магазина."
-    m "I wanted to buy the dress I forgot to take off my hands when I was exiting the store."
+    m "I wanted to buy the dress but I forgot to take off my hands when I was exiting the store."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:702
 translate english ep25_dialogues1_shop9_1a114e8c:
@@ -1376,7 +1376,7 @@ translate english ep25_dialogues1_shop19_15c67472:
     # mt "Если я хочу продавать платье, то мне придется его сначала одеть..."
     # mt "Ненавижу все это!"
     mt "If I want to sell the dress, I'll have to put it on first..."
-    mt "I have all of it!"
+    mt "I hate all of it!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1000
 translate english ep25_dialogues1_shop20_775fc917:

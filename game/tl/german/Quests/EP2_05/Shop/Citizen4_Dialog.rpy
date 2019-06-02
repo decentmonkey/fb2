@@ -1041,8 +1041,8 @@ translate german cit4_dialog_3h_db9052a3:
 
     # mt "О УЖАС!"
     # mt "Мне надо как-то забрать свое платье у этой стервы!"
-    mt "О УЖАС!"
-    mt "Мне надо как-то забрать свое платье у этой стервы!"
+    mt "WIE WIDERLICH!"
+    mt "Ich muss irgendwie mein Kleid von dieser Bitch zurück bekommen!"
 
 translate german strings:
 

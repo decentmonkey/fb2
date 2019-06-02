@@ -581,7 +581,7 @@ translate english cit3_naked_boobs_variant1_72661f06:
     citizen3 "Why do I even ask? Of course you know her."
     m "I don't know who you are talking about."
     citizen3 "Sarah! She has the best boobs in the area!"
-    citizen3 "We have to make a competition some time. Yes, excelent idea!"
+    citizen3 "We have to make a competition some time. Yes, excellent idea!"
     mt "I wonder whom it is he talking about? Although doesn't matter, I have no rivals."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:330

@@ -1130,7 +1130,7 @@ translate german strings:
 
     # Quests/EP2_05/ep25_dialogues1_shop.rpy:87
     old "Купить платье за $ 250. (не хватает денег) (disabled)"
-    new "Kaufe ein Kleid für $ 250 ( nicht genug Geld) (disabled)"
+    new "Kaufe das Kleid für $ 250 (nicht genug Geld) (disabled)"
 
     # Quests/EP2_05/ep25_dialogues1_shop.rpy:109
     old "Моника была недостаточно добра к продавцу."
@@ -1210,15 +1210,15 @@ translate german ep25_dialogues1_shop1c_0a8d0fc2:
     # mt "Чтобы что-то найти среди этого хлама, надо спросить у продавца..."
     # mt "Но смогу-ли я себе позволить что-то купить даже здесь?"
     # mt "Дьявол..."
-    mt "Чтобы что-то найти среди этого хлама, надо спросить у продавца..."
-    mt "Но смогу-ли я себе позволить что-то купить даже здесь?"
-    mt "Дьявол..."
+    mt "Ich muss eine Verkäuferin fragen, wenn ich zwischen dem Müll hier was finden will."
+    mt "Aber kann ich es mir überhaupt leisten, was von hier zu kaufen?"
+    mt "Verdammt..."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:36
 translate german ep25_dialogues1_shop1d_fb1c1192:
 
     # mt "Наконец-то у меня есть приличная одежда. Мне не стоит привыкать к плохому. Я - Леди!"
-    mt "Наконец-то у меня есть приличная одежда. Мне не стоит привыкать к плохому. Я - Леди!"
+    mt "Endlich was normales zum Anziehen. Ich sollte mich an diese Dinge langsam gewöhnen, ich bin schließlich eine Lady."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:129
 translate german ep25_dialogues1_shop2_loop1_1a0d0476:
@@ -1256,21 +1256,21 @@ translate german ep25_dialogues1_shop2a_3c032cf4:
     # mt "Однако никто не сможет вывернуть его наизнанку и посмотреть на бирку!"
     # mt "Так что это неважно."
     # mt "На вид его цену может определить только такой профессионал моды как Я..."
-    mt "Ура! Наконец-то я выгляжу как леди!"
-    mt "Ну... почти как леди..."
-    mt "Все-таки эту каблуки могут выдать меня..."
-    mt "И это платье... Оно не такое уж дорогое..."
-    mt "Однако никто не сможет вывернуть его наизнанку и посмотреть на бирку!"
-    mt "Так что это неважно."
-    mt "На вид его цену может определить только такой профессионал моды как Я..."
+    mt "Hurra! Endlich sehe ich wie eine ehrbare Dame aus!"
+    mt "Naja... fast..."
+    mt "Diese Heels sind nicht sehr vorteilhaft..."
+    mt "Und das Kleid... ist etwas billig..."
+    mt "Andererseits sieht niemand das Label..."
+    mt "Also ist das unwichtig."
+    mt "Auf den ersten Blick sehen nur Modegurus wie ich es einer bin, dass das Kleid nicht so hochwertig ist..."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:237
 translate german ep25_dialogues1_shop4a_8bb70903:
 
     # mt "Я уже была там сегодня."
     # mt "Может быть зайти в другой день, когда будет поменьше посетителей?"
-    mt "Я уже была там сегодня."
-    mt "Может быть зайти в другой день, когда будет поменьше посетителей?"
+    mt "Da war ich heute schon."
+    mt "Sollte ich an einem anderen Tag kommen, wenn weniger los ist?"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:342
 translate german ep25_dialogues1_shop6_ed8fd5cb:
@@ -1288,15 +1288,15 @@ translate german ep25_dialogues1_shop6_b9e0060c:
 translate german ep25_dialogues1_shop9_3ddf7e73:
 
     # m "Я хочу купить то платье, которое случайно забыла убрать с руки, когда выходила из магазина."
-    m "Я хочу купить то платье, которое случайно забыла убрать с руки, когда выходила из магазина."
+    m "Ich wollte das Kleid kaufen aber habe vergessen, meine Hände davon zu nehmen, als ich raus wollte."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:702
 translate german ep25_dialogues1_shop9_1a114e8c:
 
     # cashier "Ты хотела украсть его!"
     # cashier "И получила по заслугам!"
-    cashier "Ты хотела украсть его!"
-    cashier "И получила по заслугам!"
+    cashier "Du wolltest es stehlen!"
+    cashier "Und hast bekommen, was du verdient hast!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:706
 translate german ep25_dialogues1_shop9_43f766bf:
@@ -1304,8 +1304,8 @@ translate german ep25_dialogues1_shop9_43f766bf:
     # m "Достаточно!"
     # m "Давай я померяю это платье."
     # cashier "Проходите в примерочную..."
-    m "Достаточно!"
-    m "Давай я померяю это платье."
+    m "Genug!"
+    m "Lass es mich anprobieren."
     cashier "Bitte hier lang, die Umkleiden sind da hinten."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:715
@@ -1328,7 +1328,7 @@ translate german ep25_dialogues1_shop10_7662b49e_1:
 translate german ep25_dialogues1_shop10b_21e56f81:
 
     # cashier "У тебя покупатель в примерочной! Иди и обслуживай его!"
-    cashier "У тебя покупатель в примерочной! Иди и обслуживай его!"
+    cashier "Du hast einen Kunden in der Umkleide. Geh hin und sei nützlich!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:923
 translate german ep25_dialogues1_shop12_1a0d0476:
@@ -1375,8 +1375,8 @@ translate german ep25_dialogues1_shop19_15c67472:
 
     # mt "Если я хочу продавать платье, то мне придется его сначала одеть..."
     # mt "Ненавижу все это!"
-    mt "Если я хочу продавать платье, то мне придется его сначала одеть..."
-    mt "Ненавижу все это!"
+    mt "Wenn ich das Kleid verkaufen will, muss ich es erst anziehen..."
+    mt "Ich hasse alles daran!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1000
 translate german ep25_dialogues1_shop20_775fc917:
@@ -1394,45 +1394,45 @@ translate german ep25_dialogues1_shop20a_4ef25ae0:
 translate german ep25_dialogues1_shop21_f06f9302:
 
     # mt "Меня ждет покупатель в примерочной."
-    mt "Меня ждет покупатель в примерочной."
+    mt "Der Kunde wartet in der Umkleide."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1015
 translate german ep25_dialogues1_shop22_d1fa863f:
 
     # mt "Не могу поверить что я продаю свое же платье!"
     # mt "В каком-то дешевом магазине в трущобах!"
-    mt "Не могу поверить что я продаю свое же платье!"
-    mt "В каком-то дешевом магазине в трущобах!"
+    mt "Ich kann nicht glauben, dass ich mein eigenes Kleid verkaufe."
+    mt "In einem billigen Laden in den Slums!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1022
 translate german ep25_dialogues1_shop23_d4f01354:
 
     # mt "Какой-то придурок..."
-    mt "Какой-то придурок..."
+    mt "Idiot!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1027
 translate german ep25_dialogues1_shop24a_0ae352fa:
 
     # mt "Какая-то дура..."
-    mt "Какая-то дура..."
+    mt "Idiot..."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1031
 translate german ep25_dialogues1_shop24b_6fd7c250:
 
     # mt "Ненормальная покупательница..."
-    mt "Ненормальная покупательница..."
+    mt "Verrückter Kunde..."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1035
 translate german ep25_dialogues1_shop24c_ea1096ad:
 
     # mt "Тут бывает хоть кто-то нормальный?"
-    mt "Тут бывает хоть кто-то нормальный?"
+    mt "Kommt hier auch jemand Normales rein?"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1039
 translate german ep25_dialogues1_shop24d_eb0cdfd5:
 
     # mt "В этот магазин приходят только ненормальные стервы!"
-    mt "В этот магазин приходят только ненормальные стервы!"
+    mt "Hier gibt’s nur dumme Schlampen in dem Laden!"
 
 translate german strings:
 
@@ -1442,7 +1442,7 @@ translate german strings:
 
     # Quests/EP2_05/ep25_dialogues1_shop.rpy:827
     old "Снять платье."
-    new ""
+    new "Zieh das Kleid aus."
 
 # TODO: Translation updated at 2019-06-01 20:46
 

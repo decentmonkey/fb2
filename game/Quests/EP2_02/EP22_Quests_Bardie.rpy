@@ -139,9 +139,13 @@ label EP22_Quests_Bardie6_panties_box:
     if act == "l":
         call ep22_dialogues3_11() from _call_ep22_dialogues3_11
         return
-    if cloth != "Governess":
+    if cloth == "Whore":
         mt "Я не могу одеть никакие трусики под эти кошмарные джинсовые шорты..."
         return
+    if cloth == "CasualDress1":
+        mt "Я не могу одеть никакие трусики под это платье..."
+        return
+
     $ store_music()
     music Hidden_Agenda
     call ep22_dialogues3_12() from _call_ep22_dialogues3_12 #какие трусики мне надеть?

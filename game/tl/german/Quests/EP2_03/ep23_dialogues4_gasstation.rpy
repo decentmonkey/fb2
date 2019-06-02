@@ -94,13 +94,13 @@ translate german ep23_dialogues4_1_124e7687:
     # m "Я хочу купить продукты!"
     # m "И только попробуй сказать мне что у тебя не работает касса, детка!"
     m "Ich will Gemüse kaufen!"
-    m "И только попробуй сказать мне что у тебя не работает касса, детка!"
+    m "Wagen sie es nicht mir zu sagen, der Bezahlvorgang klappt nicht."
 
 # game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:30
 translate german ep23_dialogues4_1_b18685f3:
 
     # saleswoman "Мэм, касса работает."
     # saleswoman "Пожалуйста, скажите, если я смогу чем-то помочь Вам!"
-    saleswoman "Мэм, касса работает."
-    saleswoman "Пожалуйста, скажите, если я смогу чем-то помочь Вам!"
+    saleswoman "Alles funktioniert bestens."
+    saleswoman "Wie kann ich zu Diensten sein?"
 

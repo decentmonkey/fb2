@@ -4,5 +4,5 @@
 translate german cloth_shop_dressing_room_teleport_0f91c7a1:
 
     # mt "Эта примерочная... Я помню как спала здесь!"
-    mt "Эта примерочная... Я помню как спала здесь!"
+    mt "Unkleide... Ich erinnere mich, wie ich eine Nacht hier verbracht habe!"
 

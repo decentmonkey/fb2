@@ -74,5 +74,5 @@ translate german ep25_dialgues5_basement1_37e04dba:
 translate german ep25_dialgues5_basement2_5a5e03a5:
 
     # mt "Мне стоит снять это платье. Я не хочу его мять. Другого у меня нет!"
-    mt "Мне стоит снять это платье. Я не хочу его мять. Другого у меня нет!"
+    mt "Ich ziehe besser das Kleid aus. Ich möchte es nicht verknittern, es ist das Einzige, das ich habe!"
 

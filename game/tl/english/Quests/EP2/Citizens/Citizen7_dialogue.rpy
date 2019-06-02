@@ -335,10 +335,10 @@ translate english cit7_naked_boobs_1st_f0b80ba0:
     m "I don't get it. You told me that I give you an inspiration..."
     citizen7 "Yes, but it's not enough! Everything is wrong!"
     m "How so?"
-    citizen7 "You will not understan..."
+    citizen7 "You will not understand..."
     citizen7 "I have to take a look at your chest, but bare this time!"
     m "And it will help?"
-    citizen7 "I don’t knowm but it has to give me inspiration. So?"
+    citizen7 "I don’t know but it could give me inspiration. So?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:233
 translate english cit7_naked_boobs_1st_16fe1cc6:
@@ -488,7 +488,7 @@ translate english cit7_naked_boobs_variant2_4fa6619e:
     citizen7 "Perfect! I wish I could fuck them!"
     m "What?!"
     citizen7 "What?"
-    m "What did said?"
+    m "What did he say?"
     citizen7 "Me? Nothing, I'm admiring your chest and thinking about how to connect it to the art..."
     mt "Pervert..."
     citizen7 "I need more!"

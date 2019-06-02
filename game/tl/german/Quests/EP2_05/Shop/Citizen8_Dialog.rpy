@@ -228,7 +228,7 @@ translate german strings:
 translate german cit8_dialog_3_249d8140:
 
     # cit8 "Я бы хотел снять это платье с манекена."
-    cit8 "Я бы хотел снять это платье с манекена."
+    cit8 "Ich würde gerne dieses Kleid der Puppe ausziehen."
 
 # game/Quests/EP2_05/Shop/Citizen8_Dialog.rpy:110
 translate german cit8_dialog_3a_534c8698:

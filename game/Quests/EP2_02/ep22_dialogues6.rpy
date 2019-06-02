@@ -437,7 +437,10 @@ label ep22_dialogue6_4:
     alex_photograph "Миссис Бакфетт! Приходите в любой момент!"
     img 6358
     "Я всегда рад фотографировать Вас!"
-    img 11233
+    if cloth == "Whore":
+        img 6353
+    if cloth == "CasualDress1":
+        img 11233
     mt "!!!"
     $ restore_music()
     return

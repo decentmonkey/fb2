@@ -435,7 +435,7 @@ translate english cit9_naked_boobs_1st_4a901e2f:
     citizen9 "Eh, you are so boring..."
     m "You can turn back."
     m "But no touching!"
-    citizen9 "Woah! Simply the bomb!"
+    citizen9 "Woah! Simply a bomb!"
     citizen9 "So fancy."
     citizen9 "Hey, do you have anything to smoke?"
     citizen9 "It would make everything so much better."
@@ -548,7 +548,7 @@ translate english cit9_naked_boobs_variant2_efc16d60:
     # citizen9 "О! Они просто восхитительные! Ты знаешь, однажды я также схватил дамочку, которая раздавала флаеры..."
     citizen9 "Surprise!"
     m "What?! Bastard! I'm going to..."
-    citizen9 "Woah, they are amazing! You know, I did the same thing to the lady distributing fliers once..."
+    citizen9 "Woah, they are amazing! You know, I did the same thing to the lady distributing flyers once..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:368
 translate english cit9_naked_boobs_variant2_a829dcea:
@@ -567,9 +567,9 @@ translate english cit9_naked_boobs_variant2_331c5942:
     # citizen9 "Йо! Да неужели? И вероятно еще и представила! Ха-ха-ха!"
     # mt "Извращенец, когда я верну свое положение, я найду тебя..."
     m "That's all, enough."
-    citizen9 "Oh come on! I just started to imagine how I'm putting my big between your..."
+    citizen9 "Oh come on! I just started to imagine how I'm putting my dick between your..."
     m "I understood!"
-    citizen9 "Realy? You probably imagined it! Ahaha!"
+    citizen9 "Really? You probably imagined it! Ahaha!"
     mt "Pervert! When I get everyting back, I'll find you..."
 
 translate english strings:

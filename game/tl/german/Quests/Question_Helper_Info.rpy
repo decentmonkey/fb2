@@ -297,13 +297,13 @@ translate german strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Мне надо поймать Стива, этого слизняка! Он не уйдет от меня!"
-    new ""
+    new "Ich muss diesen Dreckssack Steve erwischen! Er wird mir nicht entkommen!"
 
     # Quests/Question_Helper_Info.rpy:115
     old "Стив хочет трахнуть меня снова, чтобы закрыть эту чертову сделку! Мне нужны деньги, но цена..."
-    new ""
+    new "Steve will wieder mit mir schlafen um den Deal abzuschließen! Ich brauche das Geld, aber ist es mir das wert?..."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Стив слизняк и негодяй! Но, может быть, через него можно найти какую-то работу или просто деньги?"
-    new ""
+    new "Steve ist ein Bastard, aber vielleicht kann er mir helfen einen Job zu finden oder mir wenigstens mehr Geld geben."
 

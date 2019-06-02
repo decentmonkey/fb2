@@ -22,11 +22,11 @@ translate english ep25_quests_shop_visitors4_fcbf1c16:
 translate english ep25_quests_shop_visitors4b_22bcc233:
 
     # mt "Эта стерва ходит по залу в моем платье! НЕНАВИЖУ!"
-    mt "This bitch is wearing my dress! I HAVE HER SO MUCH!"
+    mt "This bitch is wearing my dress! I HATE HER SO MUCH!"
 
 # game/Quests/EP2_05/EP25_Quests_Shop_Visitors.rpy:322
 translate english ep25_quests_shop_visitors5_ace69eec:
 
     # mt "Какая-то малявка. Что она делает в магазине? У нее есть вообще деньги?"
-    mt "What this brat is doing here? Does she even have money?"
+    mt "What is this brat doing here? Does she even have money?"
 

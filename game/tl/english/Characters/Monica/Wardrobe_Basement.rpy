@@ -157,5 +157,5 @@ translate english strings:
 
     # Characters/Monica/Wardrobe_Basement.rpy:150
     old "Одеть красное платье."
-    new "Put on red dress."
+    new "Put on the red dress."
 

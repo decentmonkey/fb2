@@ -402,7 +402,7 @@ translate english cit8_naked_boobs_1st_3d0a6883:
     # citizen8 "Возможно скоро ты узнаешь, что у всего есть цена."
     m "It's priceless!"
     citizen8 "Dignity? I like that."
-    citizen8 "You might realise soon that everything has a price."
+    citizen8 "You might realize soon that everything has a price."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:276
 translate english cit8_naked_boobs_1st_8e78468b:
@@ -445,7 +445,7 @@ translate english cit8_naked_boobs_variant1_6b65da19:
     m "You can turn back."
     m "But no touching!"
     citizen8 "Beauty!"
-    citizen8 "You know, price of our deal is proportional to the size of your chest."
+    citizen8 "You know, the price of our deal is proportional to the size of your chest."
     citizen8 "I think you can guess what you need to do to earn more."
     mt "Yea, I do... Pervert."
     citizen8 "Let's talk business. Show me your tongue."
@@ -456,7 +456,7 @@ translate english cit8_naked_boobs_variant1_16dd5e7c:
     # citizen8 "Нет, это не похоже на честную сделку."
     # citizen8 "Я же вижу, что ты халтуришь."
     # citizen8 "Открой рот шире и высунь язык как следует!"
-    citizen8 "No, it doesn’t look like a fair deal/"
+    citizen8 "No, it doesn’t look like a fair deal"
     citizen8 "I see that you are slacking."
     citizen8 "Open your mouth wider and show your tongue properly!"
 
@@ -520,7 +520,7 @@ translate english cit8_naked_boobs_variant2_6d44c60f:
     m "I don’t understand."
     citizen8 "Take clothes off, and I'll be looking."
     mt "Taking clothes off while stranger is looking at me..."
-    mt "Anyways... Should I realy do it?"
+    mt "Anyways... Should I really do it?"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:348
 translate english cit8_naked_boobs_variant2_2244ff4b:
@@ -530,7 +530,7 @@ translate english cit8_naked_boobs_variant2_2244ff4b:
     # citizen8 "Скажи, тебя это заводит? Хотя что за вопросы, я знаю, что да."
     # mt "Ничего ты не знаешь..."
     m "Alright... Fine."
-    citizen8 "In some sense, it's even better that just looking!"
+    citizen8 "In some sense, it's even better than just looking!"
     citizen8 "Are you getting horny? Why am I even asking, of course you are."
     mt "You don’t know anything..."
 
@@ -559,7 +559,7 @@ translate english cit8_naked_boobs_variant2_85c8b5a9:
     citizen8 "Don’t think anything bad, your tits are great."
     mt "Is he ditching me?!"
     citizen8 "I've already seen you undressing and that's enough for now."
-    citizen8 "But you did great your part of a deal!"
+    citizen8 "But you did great concerning your part of the deal!"
     mt "Strange guy..."
 
 translate english strings:

@@ -654,7 +654,7 @@ translate english cit6_naked_boobs_1st_6ddbdd0c:
     m "But no touching!"
     citizen6 "Ha! Great!"
     citizen6 "If you kept walking like that, I would give you 100 bucks every day!"
-    mt "No in this life..."
+    mt "Not in this life..."
     citizen6 "Nice tits!"
     m "That's it, enough for you."
     citizen6 "A bit on a weaker side, but good enough for the first time."
@@ -717,7 +717,7 @@ translate english cit6_naked_boobs_variant1_c44b9380:
     m "I'm going to break your nose!"
     citizen6 "Really? Do you want more?"
     citizen6 "Fine, 23! Good price!"
-    m "One more word, and you are deadman!"
+    m "One more word, and you are a dead man!"
     citizen6 "Alright, don’t be mad! You just had to say that you don’t want to..."
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:492
@@ -782,7 +782,7 @@ translate english cit6_naked_boobs_variant2_409be817:
     # m "Не хочу! Я не собираюсь этого делать!"
     # citizen6 "Ну и черт с тобой!"
     m "I don’t want to! I'm not going to!"
-    citizen6 "Hell with you!"
+    citizen6 "To hell with you!"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:532
 translate english cit6_naked_boobs_variant2_c769192a:

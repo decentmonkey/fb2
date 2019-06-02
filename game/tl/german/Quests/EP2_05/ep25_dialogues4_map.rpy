@@ -42,7 +42,7 @@ translate german ep25_dialogues4_map3_ed0a7d78:
     # mt "Бетти точно выгонит меня из дома..."
     mt "Ich zeige mich besser nicht so, wie ich gekleidet bin."
     mt "Ich sehe aus wie Monica Buckfett, die Leute könnten mich erkennen."
-    mt "Бетти точно выгонит меня из дома..."
+    mt "Betty ist sich sicher, dass sie mich aus dem Haus bekommt..."
 
 # game/Quests/EP2_05/ep25_dialogues4_map.rpy:32
 translate german ep25_dialogues4_map4_f9cb0c3f:
@@ -51,24 +51,24 @@ translate german ep25_dialogues4_map4_f9cb0c3f:
     # mt "Плохо видно."
     # mt "Но мне казалось что Фред где-то шастает здесь."
     # mt "Может быть здесь есть выход на улицу?"
-    mt "В том коридоре нет света."
-    mt "Плохо видно."
-    mt "Но мне казалось что Фред где-то шастает здесь."
-    mt "Может быть здесь есть выход на улицу?"
+    mt "Der Korridor hat kein Licht."
+    mt "Die Sicht ist schlecht."
+    mt "Aber es sieht so aus, als wäre Fred hier rumgeschlichen."
+    mt "Könnte es sein, dass es hier einen Weg raus gibt?"
 
 # game/Quests/EP2_05/ep25_dialogues4_map.rpy:40
 translate german ep25_dialogues4_map5_829bd8c6:
 
     # mt "Кажется я нашла новый способ покидать дом."
-    mt "Кажется я нашла новый способ покидать дом."
+    mt "Sieht so aus, als hätte ich einen weiteren Weg gefunden, aus dem Haus zu kommen."
 
 # game/Quests/EP2_05/ep25_dialogues4_map.rpy:45
 translate german ep25_dialogues4_map6_413bb150:
 
     # mt "Я побаиваюсь уходить из дома в одежде гувернантки, пока Бетти дома."
     # mt "Она может снова заметить меня около ворот дома и устроить очередную трепку."
-    mt "Я побаиваюсь уходить из дома в одежде гувернантки, пока Бетти дома."
-    mt "Она может снова заметить меня около ворот дома и устроить очередную трепку."
+    mt "Ich will das Haus nicht in meinen Dienstmädchenkleidern verlassen, solange Betty zu Hause ist."
+    mt "Sie könnte mich wieder am Tor erwischen und zusammen stauchen."
 
 # game/Quests/EP2_05/ep25_dialogues4_map.rpy:48
 translate german ep25_dialogues4_map6_f0d79344:

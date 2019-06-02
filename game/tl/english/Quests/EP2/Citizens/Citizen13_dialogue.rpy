@@ -453,10 +453,10 @@ translate english cit13_naked_boobs_1st_68526ba3:
     citizen13 "No? Very well..."
     citizen13 "Woah! You are very lucky!"
     citizen13 "So big and juicy!"
-    citizen13 "I can talk about them whole day!"
+    citizen13 "I could talk about them the whole day!"
     citizen13 "Friend, I envy you so much!"
     m "That's enough!"
-    citizen13 "Fine, but you have to promise that I'll see them again!"
+    citizen13 "Fine, but you have to promise me that I'll see them again!"
     m "Don’t get too used to good things."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:283
@@ -506,7 +506,7 @@ translate english cit13_naked_boobs_variant1_a82faa11:
     citizen13 "Come on, friend. Don’t be angry!"
     citizen13 "They are so great after all!"
     m "That's enough!"
-    citizen13 "Fine, but you have to promise that I'll see them again!"
+    citizen13 "Fine, but you have to promise me that I'll see them again!"
     mt "That's possible..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:314
@@ -563,7 +563,7 @@ translate english cit13_naked_boobs_variant2_a484aa2a:
     citizen13 "You ever considered actress career?"
     m "No."
     citizen13 "Shame. I'm sure you would have done great!"
-    citizen13 "I'd like to see you in the movie so much."
+    citizen13 "I'd like to see you in that movie so much."
     citizen13 "Wait a second..."
     m "Hey! What are you doing!"
     citizen13 "Don’t be mad! It's just a photo!"
@@ -574,6 +574,6 @@ translate english cit13_naked_boobs_variant2_a484aa2a:
     citizen13 "That's a shame, could've become famous..."
     mt "I'm already famous, just having a bad luck lately..."
     m "That's enough!"
-    citizen13 "Fine, but you have to promise that I'll see them again!"
+    citizen13 "Fine, but you have to promise me that I'll see them again!"
     mt "That's possible..."
 

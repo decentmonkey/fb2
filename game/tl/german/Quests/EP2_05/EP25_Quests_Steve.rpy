@@ -4,7 +4,7 @@
 translate german ep25_quests_steve2_bd9df7dc:
 
     # mt "Сегодня выходной. Офис Стива закрыт."
-    mt "Сегодня выходной. Офис Стива закрыт."
+    mt "Es ist Wochenende. Steve's Büro ist da zu."
 
 # game/Quests/EP2_05/EP25_Quests_Steve.rpy:35
 translate german ep25_quests_steve2_e92e04f0:

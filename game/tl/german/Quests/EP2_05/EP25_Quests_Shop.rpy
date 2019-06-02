@@ -4,9 +4,9 @@ translate german strings:
 
     # Quests/EP2_05/EP25_Quests_Shop.rpy:216
     old "Продать платье в магазине одежды"
-    new ""
+    new "Verkaufe das Kleid im Laden."
 
     # Quests/EP2_05/EP25_Quests_Shop.rpy:220
     old "Вивиан ждет что Моника продаст платье."
-    new ""
+    new "Vivian wartet darauf, dass Monica das Kleid verkauft."
 

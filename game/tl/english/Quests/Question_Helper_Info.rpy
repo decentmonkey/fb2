@@ -286,9 +286,9 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Стив хочет трахнуть меня снова, чтобы закрыть эту чертову сделку! Мне нужны деньги, но цена..."
-    new "Steve wants to fuck me again to close this damn deal! I need money, but is price worth it..."
+    new "Steve wants to fuck me again to close this damn deal! I need money, but is the price worth it..."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Стив слизняк и негодяй! Но, может быть, через него можно найти какую-то работу или просто деньги?"
-    new "Steve is slime and bastard! But, maybe, he can help me find some kind of work, or at least give me more money?"
+    new "Steve is a bastard! But, maybe, he can help me find some kind of work, or at least give me more money?"
 

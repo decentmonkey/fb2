@@ -176,5 +176,5 @@ translate german strings:
 
     # Rooms/locations_init.rpy:138
     old "Офис Стива"
-    new ""
+    new "Steve's Büro"
 

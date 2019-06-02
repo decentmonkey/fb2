@@ -154,9 +154,9 @@ translate german strings:
 
     # Characters/Monica/Wardrobe_Basement.rpy:19
     old "Красивое платье."
-    new ""
+    new "Schönes Kleid."
 
     # Characters/Monica/Wardrobe_Basement.rpy:150
     old "Одеть красное платье."
-    new ""
+    new "Zieh das rote Kleid an."
 

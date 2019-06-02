@@ -769,7 +769,7 @@ translate english cit15_naked_boobs_1st_5a46b515:
     citizen15 "You know, chicks usualy take of their clothes on their own after seeing me!"
     citizen15 "Do you need a special invitation?"
     m "I'm not going to take it off."
-    citizen15 "Good girls get money for it. Please don’t tell me you don’t need them?"
+    citizen15 "Good girls get money for it. Please don’t tell me you don’t need it?"
     mt "Selfish asshole. But he is right, I need money."
     citizen15 "So what? Bare tits in exchange for money?"
 
@@ -819,7 +819,7 @@ translate english cit15_naked_boobs_1st_c2be8d7a:
     citizen15 "What's wrong? You shouldn't be offended by the truth..."
     m "That's enough!"
     citizen15 "You are strange... Usually girls ask me to stare for as long as possible!"
-    mt "I promis, some day, I'll punch you!"
+    mt "I promise, some day, I'll punch you!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:235
 translate english cit15_naked_boobs_variant1_9d7410c7:
@@ -859,12 +859,12 @@ translate english cit15_naked_boobs_variant1_cad9228c:
     citizen15 "Again about it.. Fine."
     m "You can turn around!"
     citizen15 "As you say, babe."
-    citizen15 "Woah, what are stare!"
+    citizen15 "Woah, what are view!"
     mt "I'm ready to kill you! If it wasn't for money..."
     citizen15 "I know this stare... You want me!"
-    m "No, I'm not."
+    m "No, surely not."
     citizen15 "Ha! Everyone says that, but I know the truth."
-    citizen15 "If you want, just say. No need to be shy."
+    citizen15 "If you want, just say it. No need to be shy."
     m "I don’t want you."
     citizen15 "I know you are lying! But even if you have said yes, I would need to think twice about having sex with you."
     mt "What? How dare you!? I'm Monica Buckfett!! And you are noone living in this dump!!"
@@ -878,7 +878,7 @@ translate english cit15_naked_boobs_variant2_122f1799:
 
     # citizen15 "Время голых сисек! Давай, расчехляй!"
     # mt "Я вырву твой вонючий язык..."
-    citizen15 "Time for a bare tits! Show them!"
+    citizen15 "Time for bare tits! Show them!"
     mt "I'll cut your stinking tongue..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:275
