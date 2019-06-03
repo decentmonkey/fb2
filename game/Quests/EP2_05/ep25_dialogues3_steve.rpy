@@ -457,11 +457,42 @@ label ep25_dialogues3_steve1b:
     with fade
     steve "Да! Хе-хе!"
 
+
     music stop
     # video sex
     img 11563
     with diss
     w
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
+    scene black
+    image videov_Steve_Monica_Sex_4_1 = Movie(play="video/v_Steve_Monica_Sex_4_1.mkv", fps=30)
+    show videov_Steve_Monica_Sex_4_1
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
+    scene black
+    image videov_Steve_Monica_Sex_4_2 = Movie(play="video/v_Steve_Monica_Sex_4_2.mkv", fps=30)
+    show videov_Steve_Monica_Sex_4_2
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
+    scene black
+    image videov_Steve_Monica_Sex_4_11 = Movie(play="video/v_Steve_Monica_Sex_4_11.mkv", fps=30)
+    show videov_Steve_Monica_Sex_4_11
+    with fadelong
+    wclean
+
+    stop music
+    music Loved_Up2
     img 11564
     with diss
     w
@@ -751,7 +782,6 @@ label ep25_dialogues3_steve2:
             $ chooseVar = 2
 
 # Моника залезает под стол.
-label testl1:
     music stop
     img black_screen
     with diss
