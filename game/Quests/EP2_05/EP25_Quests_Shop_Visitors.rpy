@@ -307,7 +307,7 @@ label ep25_quests_shop_visitors4d:
     # Завершение квеста с shop visitor 4
     $ cloth = "EveningDress"
     $ cloth_type = "SellingDress"
-    $ shopVisitorStage3 = 3
+    $ shopVisitorStage4 = 4
     call change_scene("cloth_shop_view1", "Fade_long") from _call_change_scene_298
     $ autorun_to_object("ep25_dialogues1_shop15", scene="cloth_shop_view1")
     $ shopVisitorsList.remove("Shop_Visitor4")

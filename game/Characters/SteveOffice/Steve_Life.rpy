@@ -3,7 +3,7 @@ label Steve_Life_init:
     $ add_hook("change_time_evening", "Steve_Life_evening", scene="global")
     $ add_hook("Steve_Life_day", "Steve_Life_Day1", scene="global")
     $ add_hook("Steve_Life_evening", "Steve_Life_Evening1", scene="global")
-
+    call Steve_Life_Day1()
     return
 
 label Steve_Life_day:

@@ -141,7 +141,7 @@ translate english cit7_dialog_3_51fb8cf1:
 
     # cit7 "Хорошо, я куплю это платье со скидкой 50 процентов!"
     # m "Мэм, простите. На это платье не действует скидка..."
-    cit7 "Fine, I'll consider buying it with 50% discount."
+    cit7 "Fine, I'll consider buying it with 50 percents discount."
     m "Ma'am, I'm sorry, but there is no discount for this dress."
 
 # game/Quests/EP2_05/Shop/Citizen7_Dialog.rpy:82
@@ -199,7 +199,7 @@ translate english cit7_dialog_3a_51fb8cf1:
 
     # cit7 "Хорошо, я куплю это платье со скидкой 50 процентов!"
     # m "Мэм, простите. На это платье не действует скидка..."
-    cit7 "Fine, I'll consider buying it with 50% discount."
+    cit7 "Fine, I'll consider buying it with 50 percents discount."
     m "Ma'am, I'm sorry, but there is no discount for this dress."
 
 # game/Quests/EP2_05/Shop/Citizen7_Dialog.rpy:147
@@ -207,4 +207,3 @@ translate english cit7_dialog_3a_a7af6319:
 
     # cit7 "Тогда УВЫ!"
     cit7 "Well, shame then, I guess."
-
