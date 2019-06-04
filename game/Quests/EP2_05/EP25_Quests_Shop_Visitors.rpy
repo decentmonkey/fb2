@@ -137,7 +137,7 @@ label ep25_quests_shop_visitors3:
         $ autorun_to_object("ep25_dialogues1_shop15", scene="cloth_shop_view2")
         sound highheels_short_walk
         call refresh_scene_fade() from _call_refresh_scene_fade_111
-        call ep25_quests_shop13() from _call_ep25_quests_shop13_6 # Проверка на конец работы (нет посетителей)
+#        call ep25_quests_shop13() from _call_ep25_quests_shop13_6 # Проверка на конец работы (нет посетителей)
         return False
 
     if shopVisitorStage3 == 2:
@@ -153,7 +153,8 @@ label ep25_quests_shop_visitors3:
         $ set_active("Shop_Visitor3", False)
         sound highheels_short_walk
         call refresh_scene_fade() from _call_refresh_scene_fade_112
-        call ep25_quests_shop13() from _call_ep25_quests_shop13_7 # Проверка на конец работы (нет посетителей)
+        if shopVisitorStage3 == 2:
+            call ep25_quests_shop13() from _call_ep25_quests_shop13_7 # Проверка на конец работы (нет посетителей)
         return False
 
     if shopVisitorStage3 == 3:
