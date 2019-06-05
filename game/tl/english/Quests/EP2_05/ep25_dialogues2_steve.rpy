@@ -2332,3 +2332,23 @@ translate english strings:
     old "Моника планировала уволить Тиффани"
     new "Monica planned to fire Tiffany."
 
+# TODO: Translation updated at 2019-06-06 02:40
+
+translate english strings:
+
+    # Quests/EP2_05/ep25_dialogues2_steve.rpy:437
+    old "Итак, Стив! Ответь мне! (была сделка со Стивом)"
+    new ""
+
+    # Quests/EP2_05/ep25_dialogues2_steve.rpy:437
+    old "Итак, Стив! Ответь мне! (не было сделки со Стивом) (disabled)"
+    new ""
+
+    # Quests/EP2_05/ep25_dialogues2_steve.rpy:437
+    old "Ты собираешься переводить мне деньги, Стив? (не было сделки со Стивом)"
+    new ""
+
+    # Quests/EP2_05/ep25_dialogues2_steve.rpy:437
+    old "Ты собираешься переводить мне деньги, Стив? (была сделка со Стивом)"
+    new ""
+

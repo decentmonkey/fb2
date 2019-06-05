@@ -1485,3 +1485,10 @@ translate english strings:
     # Quests/EP2_05/ep25_dialogues1_shop.rpy:135
     old "Купить платье за $ 125. (не хватает денег) (disabled)"
     new "By a dress for $ 125 (not enough money) (disabled)"
+# TODO: Translation updated at 2019-06-06 02:40
+
+translate english strings:
+
+    # Quests/EP2_05/ep25_dialogues1_shop.rpy:114
+    old "Поискать другой способ получить платье..."
+    new "Find another way to get the dress..."

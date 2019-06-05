@@ -21,7 +21,6 @@ label ep25_quests_steve1:
     $ add_hook("Teleport_Steve_Office_Office", "ep25_quests_steve4", scene="steve_office_secretary", label="jane_dialogue1")
     $ add_hook("open", "ep25_quests_steve4a", scene="steve_office_secretary")
 
-    $ add_hook("change_time_day", "ep25_quests_steve6", scene="global")
     return
 
 label ep25_quests_steve2:
@@ -55,6 +54,7 @@ label ep25_quests_steve4:
     $ remove_hook(label="jane_dialogue1")
     call ep25_dialogues2_steve1() from _call_ep25_dialogues2_steve1
     call change_scene("street_steve_office", "Fade_long", "snd_lift") from _call_change_scene_279
+    $ add_hook("change_time_day", "ep25_quests_steve6", scene="global") # Инициализация второго прихода Моники с утра
     $ questLog(33, False)
     $ questLog(40, True)
 

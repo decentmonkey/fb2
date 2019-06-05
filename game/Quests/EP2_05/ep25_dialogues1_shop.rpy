@@ -150,7 +150,7 @@ label ep25_dialogues1_shop2_loop1:
                         return True
                     "Купить платье за $ 125. (не хватает денег) (disabled)" if money < 125:
                         pass
-                    "Уйти.":
+                    "Поискать другой способ получить платье...":
                         music Groove2_85
                         img 10645
                         with diss
@@ -201,7 +201,7 @@ label ep25_dialogues1_shop2_loop1:
             $ add_money(-250.0)
             return True
 
-        "Уйти.":
+        "Поискать другой способ получить платье...":
             img 10645
             with fade
             m "Хорошо, я подумаю."

@@ -1486,3 +1486,11 @@ translate german strings:
     old "Купить платье за $ 125. (не хватает денег) (disabled)"
     new "Kaufe ein Kleid für $ 125 ( nicht genug Geld) (disabled)"
 
+# TODO: Translation updated at 2019-06-06 02:39
+
+translate german strings:
+
+    # Quests/EP2_05/ep25_dialogues1_shop.rpy:114
+    old "Поискать другой способ получить платье..."
+    new ""
+
