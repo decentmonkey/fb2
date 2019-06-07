@@ -112,7 +112,7 @@ translate german cit9_dialog_3_7de3a38e:
 translate german cit9_dialog_3_08b23435:
 
     # m "Я... Я работаю здесь манекеном."
-    # cit9 "Насколько я знаю, на манекены вешают не самые ходовый товары..."
+    # cit9 "Насколько я знаю, на манекены вешают не самый ходовой товар..."
     # cit9 "А если говорить о Вас, то думаю, что на вешалке это платье смотрелось бы лучше!"
     m "Ich... Ich arbeite hier als Mannequin..."
     cit9 "Soweit ich weiß, sind die Kleider, die Mannequins tragen nicht das Beste im Sortiment."
@@ -319,4 +319,15 @@ translate german cit9_dialog_3a_f51c7788:
 
     # mt "Стерва!"
     mt "Hure!"
+# TODO: Translation updated at 2019-06-07 11:04
+
+# game/Quests/EP2_05/Shop/Citizen9_Dialog.rpy:101
+translate german cit9_dialog_3_4ed432a3:
+
+    # m "Я... Я работаю здесь манекеном."
+    # cit9 "Насколько я знаю, на манекены вешают не самый ходовой товар..."
+    # cit9 "А если говорить о Вас, то думаю, что на вешалке это платье смотрелось бы лучше!"
+    m "Я... Я работаю здесь манекеном."
+    cit9 "Насколько я знаю, на манекены вешают не самый ходовой товар..."
+    cit9 "А если говорить о Вас, то думаю, что на вешалке это платье смотрелось бы лучше!"
 

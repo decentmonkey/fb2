@@ -116,9 +116,9 @@ translate english cit8_dialog_3_fe26a34a:
 translate english cit8_dialog_3_34719ba8:
 
     # m "Да, Мэм. Вам что-то мешает?"
-    # cit8 "Да, мне мешает, вот здесь снизу." 
+    # cit8 "Да, мне мешает, вот здесь снизу."
     m "Yes, Ma'am? What do you need?"
-    cit8 "It's here, down here." 
+    cit8 "It's here, down here."
 
 # game/Quests/EP2_05/Shop/Citizen8_Dialog.rpy:82
 translate english cit8_dialog_3_07096578:
@@ -227,7 +227,7 @@ translate english strings:
 # game/Quests/EP2_05/Shop/Citizen8_Dialog.rpy:74
 translate english cit8_dialog_3_249d8140:
 
-    # cit8 "Я бы хотел снять это платье с манекена."
+    # cit8 "Я бы хотела снять это платье с манекена."
     cit8 "I'd like to take off this dress from the mannequin."
 
 # game/Quests/EP2_05/Shop/Citizen8_Dialog.rpy:110
@@ -246,9 +246,9 @@ translate english cit8_dialog_3a_fe26a34a:
 translate english cit8_dialog_3a_34719ba8:
 
     # m "Да, Мэм. Вам что-то мешает?"
-    # cit8 "Да, мне мешает, вот здесь снизу." 
+    # cit8 "Да, мне мешает, вот здесь снизу."
     m "Yes, Ma'am? What do you need?"
-    cit8 "It's here, down here." 
+    cit8 "It's here, down here."
 
 # game/Quests/EP2_05/Shop/Citizen8_Dialog.rpy:130
 translate english cit8_dialog_3a_07096578:
@@ -337,4 +337,3 @@ translate english cit8_dialog_3a_3203fc63:
 
     # mt "Эта сучка и не собиралась покупать платье!"
     mt "This bitch had no plans to buy the dress in the first place!"
-

@@ -13,7 +13,7 @@ translate german cit2_dialog_1_447ebb5a:
 
     # cit2 "Я сам решу что мне купить!"
     # cit2 "Снова очередной консультант!"
-    # cit2 "В каждом магазине, куда-бы я ни пошел, одни чертовы консультаны!"
+    # cit2 "В каждом магазине, куда-бы я ни пошел, одни чертовы консультанты!"
     # cit2 "Которые навязывают свой дурацкий товар!"
     # m "Мистер... Я... Не совсем консультант..."
     cit2 "Ich entscheide selbst, was ich kaufe."
@@ -195,9 +195,9 @@ translate german cit2_dialog_3_ace16074:
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:110
 translate german cit2_dialog_3_8cbc5e71:
 
-    # m "Так, Мистер?" 
+    # m "Так, Мистер?"
     # cit2 "Нагнись вперед."
-    m "So?" 
+    m "So?"
     cit2 "Beuge dich nach vorne."
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:117
@@ -253,7 +253,7 @@ translate german cit2_dialog_1_5aad93a1:
 
     # cit2 "Я сам решу что мне купить!"
     # cit2 "Снова очередной консультант!"
-    # cit2 "В каждом магазине, куда-бы я ни пошел, одни чертовы консультаны!"
+    # cit2 "В каждом магазине, куда-бы я ни пошел, одни чертовы консультанты!"
     # cit2 "Которые навязывают свой дурацкий товар!"
     cit2 "Ich entscheide selbst, was ich kaufe."
     cit2 "Noch so eine Verkäuferin..."
@@ -265,4 +265,16 @@ translate german cit2_dialog_1_aed571e8:
 
     # m "Мистер... Я... Не совсем консультант..."
     m "Ich... ich bin nicht wirklich eine Verkäuferin..."
+# TODO: Translation updated at 2019-06-07 11:04
 
+# game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:13
+translate german cit2_dialog_1_6bb9e21f:
+
+    # cit2 "Я сам решу что мне купить!"
+    # cit2 "Снова очередной консультант!"
+    # cit2 "В каждом магазине, куда-бы я ни пошел, одни чертовы консультанты!"
+    # cit2 "Которые навязывают свой дурацкий товар!"
+    cit2 "Ich entscheide selbst, was ich kaufe."
+    cit2 "Noch so eine Verkäuferin..."
+    cit2 "wohin ich auch gehe, überall will mir wer was andrehen!"
+    cit2 "Und dazu noch so dämliche Sachen!"

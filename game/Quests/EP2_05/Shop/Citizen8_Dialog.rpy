@@ -71,7 +71,7 @@ label cit8_dialog_3:
     m "Мэм, я по поводу платья."
     img 10965
     with diss
-    cit8 "Я бы хотел снять это платье с манекена."
+    cit8 "Я бы хотела снять это платье с манекена."
     # corruption +2 req 90
     $ menu_corruption = [90]
     menu:

@@ -82,7 +82,7 @@ translate german cit6_dialog_2_ae6cc38c:
 translate german cit6_dialog_2_40c2b367:
 
     # m "Вот так достаточно?"
-    # cit6 "Не плохо, но нужно шире!"
+    # cit6 "Неплохо, но нужно шире!"
     m "Gut so?"
     cit6 "Nein, noch etwas mehr."
 
@@ -209,4 +209,12 @@ translate german cit6_dialog_2_f4246480_1:
 
     # m "Прошу прощения, нужно идти к другому покупателю."
     m "Entschuldigung, ich muss zu einem anderen Kunden."
+# TODO: Translation updated at 2019-06-07 11:04
 
+# game/Quests/EP2_05/Shop/Citizen6_Dialog.rpy:97
+translate german cit6_dialog_2_3b57aead:
+
+    # m "Вот так достаточно?"
+    # cit6 "Неплохо, но нужно шире!"
+    m "Gut so?"
+    cit6 "Nein, noch etwas mehr."

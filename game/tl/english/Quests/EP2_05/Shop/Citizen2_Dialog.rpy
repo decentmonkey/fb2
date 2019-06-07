@@ -13,7 +13,7 @@ translate english cit2_dialog_1_447ebb5a:
 
     # cit2 "Я сам решу что мне купить!"
     # cit2 "Снова очередной консультант!"
-    # cit2 "В каждом магазине, куда-бы я ни пошел, одни чертовы консультаны!"
+    # cit2 "В каждом магазине, куда-бы я ни пошел, одни чертовы консультанты!"
     # cit2 "Которые навязывают свой дурацкий товар!"
     # m "Мистер... Я... Не совсем консультант..."
     cit2 "I'll decide what to buy on my own."
@@ -195,9 +195,9 @@ translate english cit2_dialog_3_ace16074:
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:110
 translate english cit2_dialog_3_8cbc5e71:
 
-    # m "Так, Мистер?" 
+    # m "Так, Мистер?"
     # cit2 "Нагнись вперед."
-    m "Like that?" 
+    m "Like that?"
     cit2 "Bend forward."
 
 # game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:117
@@ -253,7 +253,7 @@ translate english cit2_dialog_1_5aad93a1:
 
     # cit2 "Я сам решу что мне купить!"
     # cit2 "Снова очередной консультант!"
-    # cit2 "В каждом магазине, куда-бы я ни пошел, одни чертовы консультаны!"
+    # cit2 "В каждом магазине, куда-бы я ни пошел, одни чертовы консультанты!"
     # cit2 "Которые навязывают свой дурацкий товар!"
     cit2 "I'll decide what to buy on my own."
     cit2 "Another clothing consultant..."
@@ -265,4 +265,16 @@ translate english cit2_dialog_1_aed571e8:
 
     # m "Мистер... Я... Не совсем консультант..."
     m "Mister... I'm... I'm not really a consultant..."
+# TODO: Translation updated at 2019-06-07 11:05
 
+# game/Quests/EP2_05/Shop/Citizen2_Dialog.rpy:13
+translate english cit2_dialog_1_6bb9e21f:
+
+    # cit2 "Я сам решу что мне купить!"
+    # cit2 "Снова очередной консультант!"
+    # cit2 "В каждом магазине, куда-бы я ни пошел, одни чертовы консультанты!"
+    # cit2 "Которые навязывают свой дурацкий товар!"
+    cit2 "I'll decide what to buy on my own."
+    cit2 "Another clothing consultant..."
+    cit2 "Everywhere I go, damn consultants!"
+    cit2 "Trying to sell me something stupid!"

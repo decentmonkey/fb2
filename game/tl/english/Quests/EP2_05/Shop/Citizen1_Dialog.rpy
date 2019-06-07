@@ -129,7 +129,7 @@ translate english cit1_dialog_3_52b48c26:
 # game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:83
 translate english cit1_dialog_3_cc0e12f6:
 
-    # cit1 "А что, не понятно? Оцениваю товар."
+    # cit1 "А что, непонятно? Оцениваю товар."
     # cit1 "Ты же хочешь, чтобы я купил платье?"
     cit1 "What? I'm evaluating the goods."
     cit1 "Do you want me to buy it?"
@@ -223,4 +223,12 @@ translate english strings:
     # Quests/EP2_05/Shop/Citizen1_Dialog.rpy:112
     old "Позволить клиенту продолжить."
     new "Let customer to continue..."
+# TODO: Translation updated at 2019-06-07 11:05
 
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:129
+translate english cit1_dialog_3_98cbf962:
+
+    # cit1 "А что, непонятно? Оцениваю товар."
+    # cit1 "Ты же хочешь, чтобы я купил платье?"
+    cit1 "What? I'm evaluating the goods."
+    cit1 "Do you want me to buy it?"

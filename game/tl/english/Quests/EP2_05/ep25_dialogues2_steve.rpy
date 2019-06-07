@@ -806,7 +806,7 @@ translate english ep25_dialogues2_steve4_99f48ca1:
 translate english ep25_dialogues2_steve4_270dbf8b:
 
     # steve "У объекта аренды есть еще один вход, вполне безопасный для того, чтобы туда кончить."
-    # m "Что ты иеешь ввиду?"
+    # m "Что ты имеешь ввиду?"
     steve "Well, there is another perfectly safe way to fulfill your obligations."
     m "What do you mean?"
 
@@ -1790,7 +1790,7 @@ translate english ep25_dialogues2_steve4a_99f48ca1:
 translate english ep25_dialogues2_steve4a_270dbf8b:
 
     # steve "У объекта аренды есть еще один вход, вполне безопасный для того, чтобы туда кончить."
-    # m "Что ты иеешь ввиду?"
+    # m "Что ты имеешь ввиду?"
     steve "Well, there is another perfectly safe way to fulfill your obligations."
     m "What do you mean?"
 
@@ -2358,3 +2358,12 @@ translate english strings:
     # Quests/EP2_05/ep25_dialogues2_steve.rpy:437
     old "Ты собираешься переводить мне деньги, Стив? (была сделка со Стивом) (disabled)"
     new "Steve, are you planning to transfer me money? (Monica had a deal with Steve) (disabled)"
+# TODO: Translation updated at 2019-06-07 11:05
+
+# game/Quests/EP2_05/ep25_dialogues2_steve.rpy:619
+translate english ep25_dialogues2_steve4a_662bdcdd:
+
+    # steve "У объекта аренды есть еще один вход, вполне безопасный для того, чтобы туда кончить."
+    # m "Что ты имеешь ввиду?"
+    steve "Well, there is another perfectly safe way to fulfill your obligations."
+    m "What do you mean?"

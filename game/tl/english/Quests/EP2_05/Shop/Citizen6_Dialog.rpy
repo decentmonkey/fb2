@@ -82,7 +82,7 @@ translate english cit6_dialog_2_ae6cc38c:
 translate english cit6_dialog_2_40c2b367:
 
     # m "Вот так достаточно?"
-    # cit6 "Не плохо, но нужно шире!"
+    # cit6 "Неплохо, но нужно шире!"
     m "Is it enough?"
     cit6 "Not quite, a little bit more."
 
@@ -209,4 +209,12 @@ translate english cit6_dialog_2_f4246480_1:
 
     # m "Прошу прощения, нужно идти к другому покупателю."
     m "Exuse me, I have to attend another customer."
+# TODO: Translation updated at 2019-06-07 11:05
 
+# game/Quests/EP2_05/Shop/Citizen6_Dialog.rpy:97
+translate english cit6_dialog_2_3b57aead:
+
+    # m "Вот так достаточно?"
+    # cit6 "Неплохо, но нужно шире!"
+    m "Is it enough?"
+    cit6 "Not quite, a little bit more."

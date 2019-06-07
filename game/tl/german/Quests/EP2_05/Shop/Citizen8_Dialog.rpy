@@ -116,9 +116,9 @@ translate german cit8_dialog_3_fe26a34a:
 translate german cit8_dialog_3_34719ba8:
 
     # m "Да, Мэм. Вам что-то мешает?"
-    # cit8 "Да, мне мешает, вот здесь снизу." 
+    # cit8 "Да, мне мешает, вот здесь снизу."
     m "Ja, was brauchen sie?"
-    cit8 "Da, dort unten." 
+    cit8 "Da, dort unten."
 
 # game/Quests/EP2_05/Shop/Citizen8_Dialog.rpy:82
 translate german cit8_dialog_3_07096578:
@@ -227,7 +227,7 @@ translate german strings:
 # game/Quests/EP2_05/Shop/Citizen8_Dialog.rpy:74
 translate german cit8_dialog_3_249d8140:
 
-    # cit8 "Я бы хотел снять это платье с манекена."
+    # cit8 "Я бы хотела снять это платье с манекена."
     cit8 "Ich würde gerne dieses Kleid der Puppe ausziehen."
 
 # game/Quests/EP2_05/Shop/Citizen8_Dialog.rpy:110
@@ -246,9 +246,9 @@ translate german cit8_dialog_3a_fe26a34a:
 translate german cit8_dialog_3a_34719ba8:
 
     # m "Да, Мэм. Вам что-то мешает?"
-    # cit8 "Да, мне мешает, вот здесь снизу." 
+    # cit8 "Да, мне мешает, вот здесь снизу."
     m "Ja, was brauchen sie?"
-    cit8 "Da, dort unten." 
+    cit8 "Da, dort unten."
 
 # game/Quests/EP2_05/Shop/Citizen8_Dialog.rpy:130
 translate german cit8_dialog_3a_07096578:
@@ -337,4 +337,3 @@ translate german cit8_dialog_3a_3203fc63:
 
     # mt "Эта сучка и не собиралась покупать платье!"
     mt "Diese Schlampe wollte das Kleid nie kaufen!"
-

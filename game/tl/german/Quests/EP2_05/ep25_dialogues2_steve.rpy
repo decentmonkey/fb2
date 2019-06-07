@@ -806,7 +806,7 @@ translate german ep25_dialogues2_steve4_99f48ca1:
 translate german ep25_dialogues2_steve4_270dbf8b:
 
     # steve "У объекта аренды есть еще один вход, вполне безопасный для того, чтобы туда кончить."
-    # m "Что ты иеешь ввиду?"
+    # m "Что ты имеешь ввиду?"
     steve "Nun, da gibt es einen weiteren, absolut sicheren Weg, unseren Vertrag zu erfüllen."
     m "Was meinst du?"
 
@@ -1790,7 +1790,7 @@ translate german ep25_dialogues2_steve4a_99f48ca1:
 translate german ep25_dialogues2_steve4a_270dbf8b:
 
     # steve "У объекта аренды есть еще один вход, вполне безопасный для того, чтобы туда кончить."
-    # m "Что ты иеешь ввиду?"
+    # m "Что ты имеешь ввиду?"
     steve "Nun, da gibt es einen weiteren, absolut sicheren Weg, unseren Vertrag zu erfüllen."
     m "Was meinst du?"
 
@@ -2359,4 +2359,12 @@ translate german strings:
     # Quests/EP2_05/ep25_dialogues2_steve.rpy:437
     old "Ты собираешься переводить мне деньги, Стив? (была сделка со Стивом) (disabled)"
     new ""
+# TODO: Translation updated at 2019-06-07 11:04
 
+# game/Quests/EP2_05/ep25_dialogues2_steve.rpy:619
+translate german ep25_dialogues2_steve4a_662bdcdd:
+
+    # steve "У объекта аренды есть еще один вход, вполне безопасный для того, чтобы туда кончить."
+    # m "Что ты имеешь ввиду?"
+    steve "Nun, da gibt es einen weiteren, absolut sicheren Weg, unseren Vertrag zu erfüllen."
+    m "Was meinst du?"

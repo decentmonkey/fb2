@@ -835,7 +835,7 @@ label ep25_dialogues1_shop7:
     music Groove2_85
     img 10722
     with fade
-    m "Что он меня требуется?"
+    m "Что от меня требуется?"
     m "Как я буду его продавать? Я буду работать продавцом?"
     img 10723
     with diss

@@ -675,7 +675,7 @@ translate english ep25_dialogues1_shop7_1f341f96:
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:423
 translate english ep25_dialogues1_shop7_6e3f610b:
 
-    # m "Что он меня требуется?"
+    # m "Что от меня требуется?"
     # m "Как я буду его продавать? Я буду работать продавцом?"
     m "What do you want me to do?"
     m "How am I going to sell it? Working as a saleswoman?"
@@ -1492,3 +1492,12 @@ translate english strings:
     # Quests/EP2_05/ep25_dialogues1_shop.rpy:114
     old "Поискать другой способ получить платье..."
     new "Find another way to get the dress..."
+# TODO: Translation updated at 2019-06-07 11:05
+
+# game/Quests/EP2_05/ep25_dialogues1_shop.rpy:838
+translate english ep25_dialogues1_shop7_7dfae267:
+
+    # m "Что от меня требуется?"
+    # m "Как я буду его продавать? Я буду работать продавцом?"
+    m "What do you want me to do?"
+    m "How am I going to sell it? Working as a saleswoman?"

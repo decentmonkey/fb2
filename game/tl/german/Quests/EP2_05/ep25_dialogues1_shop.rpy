@@ -675,7 +675,7 @@ translate german ep25_dialogues1_shop7_1f341f96:
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:423
 translate german ep25_dialogues1_shop7_6e3f610b:
 
-    # m "Что он меня требуется?"
+    # m "Что от меня требуется?"
     # m "Как я буду его продавать? Я буду работать продавцом?"
     m "Was wollen sie jetzt von mir?"
     m "Wie soll ich es verkaufen? Als Verkäuferin arbeiten?"
@@ -1493,4 +1493,12 @@ translate german strings:
     # Quests/EP2_05/ep25_dialogues1_shop.rpy:114
     old "Поискать другой способ получить платье..."
     new ""
+# TODO: Translation updated at 2019-06-07 11:04
 
+# game/Quests/EP2_05/ep25_dialogues1_shop.rpy:838
+translate german ep25_dialogues1_shop7_7dfae267:
+
+    # m "Что от меня требуется?"
+    # m "Как я буду его продавать? Я буду работать продавцом?"
+    m "Was wollen sie jetzt von mir?"
+    m "Wie soll ich es verkaufen? Als Verkäuferin arbeiten?"
