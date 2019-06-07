@@ -158,7 +158,7 @@ translate german ep25_dialogues1_shop2_loop1_8c18fd94:
 translate german ep25_dialogues1_shop2_loop1_73045b20:
 
     # cashier "Хорошо, я сделаю скидку в 50 процентов, только ради Вас!"
-    cashier "Gut, ich gebe ihnen 50 % Rabatt, weil sie es sind."
+    cashier "Gut, ich gebe ihnen 50 Rabatt, weil sie es sind."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:89
 translate german ep25_dialogues1_shop2_loop1_a491e9c3:

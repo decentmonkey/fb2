@@ -141,7 +141,7 @@ translate german cit7_dialog_3_51fb8cf1:
 
     # cit7 "Хорошо, я куплю это платье со скидкой 50 процентов!"
     # m "Мэм, простите. На это платье не действует скидка..."
-    cit7 "Gut, ich kaufe es, wenn ich 50 % Rabatt erhalte."
+    cit7 "Gut, ich kaufe es, wenn ich 50 Rabatt erhalte."
     m "Tut mir leid, es gibt keinen Rabatt auf dieses Kleid."
 
 # game/Quests/EP2_05/Shop/Citizen7_Dialog.rpy:82
@@ -199,7 +199,7 @@ translate german cit7_dialog_3a_51fb8cf1:
 
     # cit7 "Хорошо, я куплю это платье со скидкой 50 процентов!"
     # m "Мэм, простите. На это платье не действует скидка..."
-    cit7 "Gut, ich kaufe es, wenn ich 50 % Rabatt erhalte."
+    cit7 "Gut, ich kaufe es, wenn ich 50 Rabatt erhalte."
     m "Tut mir leid, es gibt keinen Rabatt auf dieses Kleid."
 
 # game/Quests/EP2_05/Shop/Citizen7_Dialog.rpy:147

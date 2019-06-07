@@ -81,8 +81,8 @@ translate german cit9_dialog_2_4ed432a3:
     # cit9 "Насколько я знаю, на манекены вешают не самый ходовой товар..."
     # cit9 "А если говорить о Вас, то думаю, что на вешалке это платье смотрелось бы лучше!"
     m "Ich... Ich arbeite hier als Mannequin..."
-    cit9 "Soweit ich weiß, sind die Kleider, die Mannequins tragen nicht das Beste im Sortiment."
-    cit9 "Und was sie betrifft, ich denke, das Kleid würde dem Kleiderhaken mehr stehen als ihnen."
+    cit9 "As far as I know, clothes on maneequins are not the best selling ones."
+    cit9 "And talking about you, I think this dress would look better on the rack rather on you."
 
 # game/Quests/EP2_05/Shop/Citizen9_Dialog.rpy:52
 translate german cit9_dialog_3_7df4c80e:
@@ -115,8 +115,8 @@ translate german cit9_dialog_3_08b23435:
     # cit9 "Насколько я знаю, на манекены вешают не самый ходовой товар..."
     # cit9 "А если говорить о Вас, то думаю, что на вешалке это платье смотрелось бы лучше!"
     m "Ich... Ich arbeite hier als Mannequin..."
-    cit9 "Soweit ich weiß, sind die Kleider, die Mannequins tragen nicht das Beste im Sortiment."
-    cit9 "Und was sie betrifft, ich denke, das Kleid würde dem Kleiderhaken mehr stehen als ihnen."
+    cit9 "As far as I know, clothes on maneequins are not the best selling ones."
+    cit9 "And talking about you, I think this dress would look better on the rack rather on you."
 
 # game/Quests/EP2_05/Shop/Citizen9_Dialog.rpy:70
 translate german cit9_dialog_3_c915d88a:
@@ -327,7 +327,7 @@ translate german cit9_dialog_3_4ed432a3:
     # m "Я... Я работаю здесь манекеном."
     # cit9 "Насколько я знаю, на манекены вешают не самый ходовой товар..."
     # cit9 "А если говорить о Вас, то думаю, что на вешалке это платье смотрелось бы лучше!"
-    m "Я... Я работаю здесь манекеном."
-    cit9 "Насколько я знаю, на манекены вешают не самый ходовой товар..."
-    cit9 "А если говорить о Вас, то думаю, что на вешалке это платье смотрелось бы лучше!"
+    m "Ich... Ich arbeite hier als Mannequin..."
+    cit9 "As far as I know, clothes on maneequins are not the best selling ones."
+    cit9 "And talking about you, I think this dress would look better on the rack rather on you."
 

@@ -327,7 +327,6 @@ translate english cit9_dialog_3_4ed432a3:
     # m "Я... Я работаю здесь манекеном."
     # cit9 "Насколько я знаю, на манекены вешают не самый ходовой товар..."
     # cit9 "А если говорить о Вас, то думаю, что на вешалке это платье смотрелось бы лучше!"
-    m "Я... Я работаю здесь манекеном."
-    cit9 "Насколько я знаю, на манекены вешают не самый ходовой товар..."
-    cit9 "А если говорить о Вас, то думаю, что на вешалке это платье смотрелось бы лучше!"
-
+    m "I'm... I'm working here as a mannequin..."
+    cit9 "As far as I know, clothes on maneequins are not the best selling ones."
+    cit9 "And talking about you, I think this dress would look better on the rack rather on you."
