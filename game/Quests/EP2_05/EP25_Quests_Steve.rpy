@@ -122,6 +122,7 @@ label ep25_quests_steve9:
         if _return == True: # Моника сделала минет Стиву
             $ notif(_("Стив перевел деньги Виктории."))
             $ monicaEarnedWeeklyMoney = True
+            $ remove_objective("money_for_victoria")
             $ remove_hook("DickSecretary_Dialogue1_Menu", "ep24_quests_steve28", scene="menu") # Убираем из меню Виктории вопрос про деньги Стива
 
 
@@ -148,6 +149,7 @@ label ep25_quests_steve10:
         $ questLog(42, True)
         $ notif(_("Стив перевел деньги Виктории."))
         $ monicaEarnedWeeklyMoney = True
+        $ remove_objective("money_for_victoria")
         $ remove_hook("DickSecretary_Dialogue1_Menu", "ep24_quests_steve28", scene="menu") # Убираем из меню Виктории вопрос про деньги Стива
 
         # Регулярный приход к Стиву
@@ -274,6 +276,7 @@ label ep25_quests_steve18:
         $ monicaSteveCumDealCompleted = True
         $ notif(_("Стив перевел деньги Виктории."))
         $ monicaEarnedWeeklyMoney = True
+        $ remove_objective("money_for_victoria")
         $ questLog(40, False)
         $ questLog(41, False)
         $ questLog(42, True)
@@ -325,6 +328,7 @@ label ep25_quests_steve18:
             $ monicaSteveBlowjob50DollarsCount +=1
         $ notif(_("Стив перевел деньги Виктории."))
         $ monicaEarnedWeeklyMoney = True
+        $ remove_objective("money_for_victoria")
 
         call ep25_quests_steve19() from _call_ep25_quests_steve19_3 # Блокируем офис на сегодня (день)
         call change_scene("street_steve_office", "Fade_long", False) from _call_change_scene_293
