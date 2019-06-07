@@ -441,7 +441,7 @@ label ep25_dialogues2_steve3:
             pass
         "Ты собираешься переводить мне деньги, Стив? (не было сделки со Стивом)" if monicaHasSexWithSteveBasement == False:
             pass
-        "Ты собираешься переводить мне деньги, Стив? (была сделка со Стивом)" if monicaHasSexWithSteveBasement == True:
+        "Ты собираешься переводить мне деньги, Стив? (была сделка со Стивом) (disabled)" if monicaHasSexWithSteveBasement == True:
             pass
     # переход на ep25_dialogues2_steve4, либо на ep25_dialogues2_steve10
     return

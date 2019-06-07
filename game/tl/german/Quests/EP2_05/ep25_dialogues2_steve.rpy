@@ -2352,3 +2352,11 @@ translate german strings:
     old "Ты собираешься переводить мне деньги, Стив? (была сделка со Стивом)"
     new ""
 
+# TODO: Translation updated at 2019-06-07 03:32
+
+translate german strings:
+
+    # Quests/EP2_05/ep25_dialogues2_steve.rpy:437
+    old "Ты собираешься переводить мне деньги, Стив? (была сделка со Стивом) (disabled)"
+    new ""
+
