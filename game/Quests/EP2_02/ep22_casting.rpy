@@ -185,6 +185,67 @@ label ep22_casting:
                         img 9504
                         with Dissolve(0.5)
                         w
+                if castingCloth == 6:
+                    if chickMode == True:
+                        img 12184
+                        with fade
+                        sound snd_fabric1
+                        m "Красная Жемчужина хочет показать папочке грудь..."
+                        img 12185
+                        with Dissolve(0.5)
+                        w
+                        img 12186
+                        with Dissolve(0.5)
+                        w
+                        img 12187
+                        with Dissolve(0.5)
+                        w
+                    else:
+                        img 12184
+                        with fade
+                        m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
+                        img 12185
+                        with Dissolve(0.5)
+                        w
+                        img 12186
+                        with Dissolve(0.5)
+                        w
+                        img 12187
+                        with Dissolve(0.5)
+                        w
+                if castingCloth == 7:
+                    if chickMode == True:
+                        img 20202
+                        with fade
+                        m "Красная Жемчужина хочет показать папочке грудь..."
+                        img 20203
+                        with Dissolve(0.5)
+                        w
+                        img 20204
+                        with Dissolve(0.5)
+                        w
+                        img 20205
+                        with Dissolve(0.5)
+                        w
+                        img 20206
+                        with Diss
+                        w
+                    else:
+                        img 20202
+                        with fade
+                        m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
+                        img 20203
+                        with Dissolve(0.5)
+                        w
+                        img 20204
+                        with Dissolve(0.5)
+                        w
+                        img 20205
+                        with Dissolve(0.5)
+                        w
+                        img 20206
+                        with Diss
+                        w
                 $ restore_music()
                 img 8445
                 biff "Хорошо, папочка доволен!"
@@ -459,6 +520,108 @@ label ep22_casting:
                         with Dissolve(0.5)
                         w
                         img 9514
+                        with Dissolve(0.5)
+                        w
+                if castingCloth == 6:
+                    if chickMode == True:
+                        img 20188 #9506
+                        with fade
+                        sound snd_fabric1
+                        m "Красная Жемчужина хочет показать папочке свой зад..."
+#                        img 9507
+                        biff "Давай, Жемчужина!"
+                        "Показывай свой зад!"
+                        img 20189 #9508
+                        with fade
+                        m "Биф, можно Я не буду снимать костюм?"
+                        m "Это долго..."
+
+                        img 20190
+                        biff "Хорошо, цыпочка."
+                        biff "У папочки нет времени на переодевания."
+
+                        img 20191
+                        biff "Пусть цыпочка сядет на стол."
+                        biff "Папочка хочет посмотреть на сидящую цыпочку."
+
+                        img 20192
+                        m "Так, Биф?"
+                        img 20193
+                        biff "Да, цыпочка. Привыкай сидеть на жердочке."
+                        biff "Скоро ты займешь место рядом с малышкой Мелани!"
+
+                        img 20194
+                        mt "!!!"
+
+                    else:
+                        img 20188 #9506
+                        with fade
+                        sound snd_fabric1
+                        m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
+#                        img 9507
+                        biff "Давай, Жемчужина!"
+                        "Показывай свой зад!"
+                        img 20189 #9508
+                        with fade
+                        m "Биф, можно Я не буду снимать костюм?"
+                        m "Это долго..."
+
+                        img 20190
+                        biff "Хорошо, цыпочка."
+                        biff "У папочки нет времени на переодевания."
+
+                        img 20191
+                        biff "Пусть цыпочка сядет на стол."
+                        biff "Папочка хочет посмотреть на сидящую цыпочку."
+
+                        img 20192
+                        m "Так, Биф?"
+                        img 20193
+                        biff "Да, цыпочка. Привыкай сидеть на жердочке."
+                        biff "Скоро ты займешь место рядом с малышкой Мелани!"
+
+                        img 20194
+                        mt "!!!"
+                if castingCloth == 7:
+                    if chickMode == True:
+                        img 20207
+                        with fade
+                        sound snd_fabric1
+                        m "Стюардесса Fashion Airlines хочет показать папочке свой зад..."
+                        img 20208
+                        biff "Давай, Стюардесса!"
+                        "Показывай свой зад!"
+                        img 20209
+                        with fade
+                        w
+
+                        img 20210
+                        with Dissolve(0.5)
+                        w
+                        img 20211
+                        with Dissolve(0.5)
+                        w
+                        img 20212
+                        with Dissolve(0.5)
+                        w
+                    else:
+                        img 20207
+                        with fade
+                        m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
+                        img 20208
+                        biff "Давай, Стюардесса!"
+                        "Показывай свой зад!"
+                        img 20209
+                        with fade
+                        w
+
+                        img 20210
+                        with Dissolve(0.5)
+                        w
+                        img 20211
+                        with Dissolve(0.5)
+                        w
+                        img 20212
                         with Dissolve(0.5)
                         w
                 $ restore_music()

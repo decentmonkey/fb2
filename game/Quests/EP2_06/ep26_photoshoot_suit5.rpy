@@ -150,3 +150,63 @@ label ep26_photoshoot_suit5:
 
 
     return
+
+
+label ep26_photoshoot5_casting:
+    music Groove2_85
+    sound highheels_short_walk
+    img 20176
+    with fadelong
+    w
+    img 20177
+    with Dissolve(0.5)
+    m "Привет, Биф. Я пришла..."
+
+    img 20178
+    $ add_char_progress("Biff", PS4_BiffProgressCasting, "PS4_BiffProgressCasting_day" + str(day))
+    $ shotsAmountCompleted = len(list(set(PS4_shoots_array)))
+#    $ shotsTotalAmount
+
+    biff "О! Цыпочка пришла к папочке!"
+    menu:
+        "Притвориться цыпочкой...":
+            mt "Мне надо притвориться и завоевать его расположение..."
+            img 20179
+            with fade
+            m "Да, цыпочка пришла к папочке..."
+            "Цыпочка хорошая..."
+            img 20180
+            biff "Кто сегодня цыпочка?"
+            m "Сегодня цыпочка - это Красная Жемчужина..."
+            $ add_char_progress("Biff", PS4_BiffProgressCastingChick, "PS4_BiffProgressCastingChick_day" + str(day))
+            biff "Что Красная Жемчужина хочет показать папочке?"
+            $ chickMode = True
+            $ castingCloth = 4
+            call ep22_casting()
+
+            img 20183 #9476
+            with fade
+            mt "Мерзавец!"
+            #рост прогресса у Бифа
+
+        "Я не собираюсь никем притворяться!":
+            #если обещала хорошо себя вести
+            if monicaSaidBiffSheIsWillBeAGoodChick == True:
+                m "Я пришла, потому что обещала хорошо вести себя..."
+            else:
+                #иначе
+                img 20182 #9475
+                with fade
+                m "Ты заставил меня придти..."
+            mt "Ненавижу!!!"
+            biff "И что цыпочка будет делать?"
+            $ castingCloth = 4
+            $ chickMode = False
+            call ep22_casting()
+            img 20183 #9476
+            with fade
+            mt "Мерзавец!"
+            #рост прогресса у Бифа
+
+
+    return
