@@ -1,4 +1,13 @@
 # китаянка
+label worker7_look:
+    if shopVisitorStage10 >= 3:
+        mt "Лучше держаться от нее подальше."
+    else:
+        mt "Похоже, это какой-то стажер."
+        if monicaBitch == True:
+            mt "Бесполезный и никчемный..."
+    return
+
 label worker7_dialogue_workplace:
     mt "Кажется, я ее где-то видела..."
     mt "Может быть она когда-то приходила ко мне на кастинг..."

@@ -1,4 +1,10 @@
 # серая мышка
+label worker1_look:
+    mt "Какая-то серая мышь."
+    mt "В каждом офисе есть такая."
+    return
+
+
 label worker1_dialogue_workplace:
     m "Послушай..."
     w1 "Ой... Я..."
