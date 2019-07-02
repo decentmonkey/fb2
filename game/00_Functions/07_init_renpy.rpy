@@ -104,6 +104,14 @@ define cit9 = Character(_("Покупательница"), who_color=c_pink)
 define cit10 = Character(_("Покупательница"), who_color=c_pink)
 
 
+define w1 = Character(_("Марта"), who_color=c_pink)
+define w2 = Character(_("Системный Администратор"), who_color=c_blue)
+define w3 = Character(_("Эмма"), who_color=c_pink)
+define w4 = Character(_("Элла"), who_color=c_pink)
+define w5 = Character(_("Джон"), who_color=c_blue)
+define w6 = Character(_("Грета"), who_color=c_pink)
+define w7 = Character(_("Лин"), who_color=c_pink)
+
 
 
 
