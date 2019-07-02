@@ -307,3 +307,19 @@ translate german strings:
     old "Стив слизняк и негодяй! Но, может быть, через него можно найти какую-то работу или просто деньги?"
     new "Steve ist ein Bastard, aber vielleicht kann er mir helfen einen Job zu finden oder mir wenigstens mehr Geld geben."
 
+# TODO: Translation updated at 2019-07-02 18:58
+
+translate german strings:
+
+    # Quests/Question_Helper_Info.rpy:161
+    old "Барди шантажирует Бетти. Может быть я могу использовать это?"
+    new ""
+
+    # Quests/Question_Helper_Info.rpy:161
+    old "Я могу питаться в доме. Если буду соблюдать условие..."
+    new ""
+
+    # Quests/Question_Helper_Info.rpy:161
+    old "Теперь я могу работать в офисе. Денег это не добавило, но я могу чувствовать себя Боссом снова..."
+    new ""
+

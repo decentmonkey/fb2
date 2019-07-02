@@ -314,3 +314,35 @@ translate english strings:
     old "Покупательница"
     new "Female customer."
 
+# TODO: Translation updated at 2019-07-02 18:59
+
+translate english strings:
+
+    # 00_Functions/07_init_renpy.rpy:107
+    old "Марта"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:108
+    old "Системный Администратор"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:109
+    old "Эмма"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:110
+    old "Элла"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:111
+    old "Джон"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:112
+    old "Грета"
+    new ""
+
+    # 00_Functions/07_init_renpy.rpy:113
+    old "Лин"
+    new ""
+

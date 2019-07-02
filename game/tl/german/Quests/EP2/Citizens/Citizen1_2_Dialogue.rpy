@@ -752,3 +752,253 @@ translate german cit1_2_naked_boobs_variant2_a0f2bd66:
     m "Ich... Ich weiß nicht..."
     citizen1 "Komm schon. Wir bezahlen dafür!"
 
+# TODO: Translation updated at 2019-07-02 18:58
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:238
+translate german cit1_2_naked_boobs_1st_6d5af347:
+
+    # citizen1 "Тетя, у нас с братом возникла шикарная идея!"
+    citizen1 "Тетя, у нас с братом возникла шикарная идея!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:240
+translate german cit1_2_naked_boobs_1st_efe7cfab:
+
+    # citizen1 "Мы ведь с тобой не первый раз видимся и уже не чужие люди.."
+    citizen1 "Мы ведь с тобой не первый раз видимся и уже не чужие люди.."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:242
+translate german cit1_2_naked_boobs_1st_1dcb5b76:
+
+    # m "Ты это к чему?"
+    m "Ты это к чему?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:244
+translate german cit1_2_naked_boobs_1st_cc78f54f:
+
+    # citizen1 "Мда, не умею я говорить намеками..."
+    # citizen1 "Короче мы хотим посмотреть на твои сиськи, но уже так сказать без всего!"
+    citizen1 "Мда, не умею я говорить намеками..."
+    citizen1 "Короче мы хотим посмотреть на твои сиськи, но уже так сказать без всего!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:256
+translate german cit1_2_naked_boobs_1st_0a07f12d:
+
+    # m "Ну а мне это зачем?"
+    m "Ну а мне это зачем?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:258
+translate german cit1_2_naked_boobs_1st_9c0c065d:
+
+    # citizen1 "Ну как зачем? А зачем ты нам их в одежде показываешь?"
+    # citizen1 "Мы заплатим!"
+    citizen1 "Ну как зачем? А зачем ты нам их в одежде показываешь?"
+    citizen1 "Мы заплатим!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:261
+translate german cit1_2_naked_boobs_1st_66cdc655:
+
+    # m "Хорошо, смотрите, только руками не трогать!"
+    # m "И отвернитесь!"
+    m "Хорошо, смотрите, только руками не трогать!"
+    m "И отвернитесь!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:267
+translate german cit1_2_naked_boobs_1st_7d2fe2a5:
+
+    # citizen1 "О чем речь, тетя! Разве мы когда нибудь тебя обманывали?"
+    # m "Можете поворачиваться.."
+    citizen1 "О чем речь, тетя! Разве мы когда нибудь тебя обманывали?"
+    m "Можете поворачиваться.."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:275
+translate german cit1_2_naked_boobs_1st_05e008cc:
+
+    # citizen1 "Ого! Прямо как у моей бывшей!"
+    citizen1 "Ого! Прямо как у моей бывшей!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:280
+translate german cit1_2_naked_boobs_1st_79f88434:
+
+    # citizen1 "Вот это класс, тетя! Так они смотрятся гораздо лучше."
+    citizen1 "Вот это класс, тетя! Так они смотрятся гораздо лучше."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:291
+translate german cit1_2_naked_boobs_1st_4b1be5b1:
+
+    # citizen1 "Да, сегодня день прошел не зря!"
+    citizen1 "Да, сегодня день прошел не зря!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:298
+translate german cit1_2_naked_boobs_variant1_1556411b:
+
+    # citizen1 "Тетя, покажи нам свои сиськи!"
+    citizen1 "Тетя, покажи нам свои сиськи!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:300
+translate german cit1_2_naked_boobs_variant1_8e93d022:
+
+    # m "Как именно?"
+    m "Как именно?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:302
+translate german cit1_2_naked_boobs_variant1_9c1a54cb:
+
+    # citizen1 "А ты шутница. Конечно голыми, так интереснее!"
+    citizen1 "А ты шутница. Конечно голыми, так интереснее!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:318
+translate german cit1_2_naked_boobs_variant1_e05cb1c1:
+
+    # m "Хорошо. Если заплатите..."
+    m "Хорошо. Если заплатите..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:322
+translate german cit1_2_naked_boobs_variant1_179b4073:
+
+    # m "Только руками не трогать!"
+    m "Только руками не трогать!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:324
+translate german cit1_2_naked_boobs_variant1_8277f51f:
+
+    # citizen1 "Какие вопросы, тетя!"
+    citizen1 "Какие вопросы, тетя!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:327
+translate german cit1_2_naked_boobs_variant1_129a5ab6:
+
+    # citizen1 "Не могу наглядеться, красота!"
+    citizen1 "Не могу наглядеться, красота!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:336
+translate german cit1_2_naked_boobs_variant1_14129945:
+
+    # citizen1 "Тетя, а че ты молчишь?"
+    citizen1 "Тетя, а че ты молчишь?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:338
+translate german cit1_2_naked_boobs_variant1_65d37c5a:
+
+    # m "Мне нечего вам сказать..."
+    m "Мне нечего вам сказать..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:340
+translate german cit1_2_naked_boobs_variant1_6d3f7f75:
+
+    # citizen1 "Ого! Ну ладно, глядя на такие сиськи можно и ничего не говорить!"
+    citizen1 "Ого! Ну ладно, глядя на такие сиськи можно и ничего не говорить!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:349
+translate german cit1_2_naked_boobs_variant1_0c0dc191:
+
+    # citizen1 "Эй, тетя! Как насчет того, чтобы получить немного больше?"
+    citizen1 "Эй, тетя! Как насчет того, чтобы получить немного больше?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:351
+translate german cit1_2_naked_boobs_variant1_e612037c:
+
+    # m "..."
+    m "..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:353
+translate german cit1_2_naked_boobs_variant1_408e6739:
+
+    # citizen1 "У меня идея! Нас как раз двое, как и твоих подружек. Давай обнимемся!"
+    citizen1 "У меня идея! Нас как раз двое, как и твоих подружек. Давай обнимемся!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:355
+translate german cit1_2_naked_boobs_variant1_c3281863:
+
+    # m "Даже не надейся!!!"
+    m "Даже не надейся!!!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:357
+translate german cit1_2_naked_boobs_variant1_d6a73610:
+
+    # citizen1 "Кто-то сегодня не в духе? Ладно, и так все очень хорошо!"
+    citizen1 "Кто-то сегодня не в духе? Ладно, и так все очень хорошо!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:363
+translate german cit1_2_naked_boobs_variant2_1556411b:
+
+    # citizen1 "Тетя, покажи нам свои сиськи!"
+    citizen1 "Тетя, покажи нам свои сиськи!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:365
+translate german cit1_2_naked_boobs_variant2_8e93d022:
+
+    # m "Как именно?"
+    m "Как именно?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:367
+translate german cit1_2_naked_boobs_variant2_b5fd8ca3:
+
+    # citizen1 "Серьезно?! Давай снимай уже все!"
+    citizen1 "Серьезно?! Давай снимай уже все!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:377
+translate german cit1_2_naked_boobs_variant2_bea50197:
+
+    # m "Отвернитесь!"
+    m "Отвернитесь!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:382
+translate german cit1_2_naked_boobs_variant2_63efa0e1:
+
+    # m "Можете повернуться."
+    # m "Только руками не трогать!"
+    m "Можете повернуться."
+    m "Только руками не трогать!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:385
+translate german cit1_2_naked_boobs_variant2_611b6e31:
+
+    # citizen1 "Конечно, тетя!"
+    citizen1 "Конечно, тетя!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:392
+translate german cit1_2_naked_boobs_variant2_6a393a77:
+
+    # citizen1 "Вау! Как в первый раз!"
+    citizen1 "Вау! Как в первый раз!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:400
+translate german cit1_2_naked_boobs_variant2_79e3ff55:
+
+    # citizen1 "Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
+    citizen1 "Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:402
+translate german cit1_2_naked_boobs_variant2_3e7994ae:
+
+    # m "Ну...Я не знаю..."
+    m "Ну...Я не знаю..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:404
+translate german cit1_2_naked_boobs_variant2_7d1a2fe8:
+
+    # citizen1 "Давай! И прямо сейчас получишь часть денег!"
+    citizen1 "Давай! И прямо сейчас получишь часть денег!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:421
+translate german cit1_2_naked_boobs_variant2_fc15cd27:
+
+    # citizen1 "Уф...А ты горячая!"
+    # citizen1 "И так заводит!"
+    citizen1 "Уф...А ты горячая!"
+    citizen1 "И так заводит!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:424
+translate german cit1_2_naked_boobs_variant2_854cee6c:
+
+    # m "Ай!"
+    # mt "Это немного больно и даже немного приятно... Странно..."
+    m "Ай!"
+    mt "Это немного больно и даже немного приятно... Странно..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:432
+translate german cit1_2_naked_boobs_variant2_3dca3b0e:
+
+    # citizen1 "Ух, тетя, снова нас порадовала!"
+    citizen1 "Ух, тетя, снова нас порадовала!"
+

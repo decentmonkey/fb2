@@ -622,3 +622,241 @@ translate english cit3_naked_boobs_variant2_900099fc:
     citizen3  "I'm not a very good guy, but I'm very sorry."
     citizen3 "What about compensation, I know that you don't mind."
 
+# TODO: Translation updated at 2019-07-02 18:59
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:269
+translate english cit3_naked_boobs_1st_3481d396:
+
+    # citizen3 "Ты знаешь, есть одна вещь, которая меня сильно интригует!"
+    citizen3 "Ты знаешь, есть одна вещь, которая меня сильно интригует!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:271
+translate english cit3_naked_boobs_1st_36474134:
+
+    # m "?"
+    m "?"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:273
+translate english cit3_naked_boobs_1st_6446bf64:
+
+    # citizen3 "Уж очень мне интересно, как выглядят твои сиськи без этого чудесного топа!"
+    citizen3 "Уж очень мне интересно, как выглядят твои сиськи без этого чудесного топа!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:275
+translate english cit3_naked_boobs_1st_51d720c9:
+
+    # m "Они выглядят отлично! Но тебя это не касается!"
+    m "Они выглядят отлично! Но тебя это не касается!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:277
+translate english cit3_naked_boobs_1st_14e6d0ff:
+
+    # citizen3 "Покажи их мне!"
+    citizen3 "Покажи их мне!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:287
+translate english cit3_naked_boobs_1st_7ce38ba3:
+
+    # m "Отвернись!"
+    m "Отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:294
+translate english cit3_naked_boobs_1st_49adc490:
+
+    # m "Можешь повернуться."
+    # m "Но руками не трогать!"
+    m "Можешь повернуться."
+    m "Но руками не трогать!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:304
+translate english cit3_naked_boobs_1st_36a27ae7:
+
+    # citizen3 "Ха! Я уверен, что где-то уже видел твои сиськи... Или не твои.."
+    # citizen3 "Не подскажешь, где я мог их видеть?"
+    citizen3 "Ха! Я уверен, что где-то уже видел твои сиськи... Или не твои.."
+    citizen3 "Не подскажешь, где я мог их видеть?"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:307
+translate english cit3_naked_boobs_1st_fbdfa0b7:
+
+    # m "Нигде."
+    m "Нигде."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:316
+translate english cit3_naked_boobs_1st_0eabe4d3:
+
+    # citizen3 "Странно, очень странно..."
+    citizen3 "Странно, очень странно..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:319
+translate english cit3_naked_boobs_1st_c04a4aad:
+
+    # citizen3 "Ладно, в другой раз вспомню..."
+    citizen3 "Ладно, в другой раз вспомню..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:339
+translate english cit3_naked_boobs_variant1_94420ba9:
+
+    # m "Хорошо."
+    m "Хорошо."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:341
+translate english cit3_naked_boobs_variant1_179b4073:
+
+    # m "Только руками не трогать!"
+    m "Только руками не трогать!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:350
+translate english cit3_naked_boobs_variant1_5b45ca93:
+
+    # citizen3 "Да! Я вспомнил!"
+    citizen3 "Да! Я вспомнил!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:352
+translate english cit3_naked_boobs_variant1_36474134:
+
+    # m "?"
+    m "?"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:361
+translate english cit3_naked_boobs_variant1_7b2ef9b4:
+
+    # citizen3 "Сиськи как у Сары! Ты знакома с Сарой?"
+    citizen3 "Сиськи как у Сары! Ты знакома с Сарой?"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:363
+translate english cit3_naked_boobs_variant1_c3516d8b:
+
+    # citizen3 "Хотя почему я спрашиваю? Конечно вы знакомы."
+    citizen3 "Хотя почему я спрашиваю? Конечно вы знакомы."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:365
+translate english cit3_naked_boobs_variant1_b38eca7f:
+
+    # m "Я не знаю о ком ты говоришь."
+    m "Я не знаю о ком ты говоришь."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:374
+translate english cit3_naked_boobs_variant1_13edef0d:
+
+    # citizen3 "Ну как же, Сара! У нее лучшие сиськи на районе!"
+    # citizen3 "Надо будет как нибудь устроить соревнование. Да, это отличная идея!"
+    citizen3 "Ну как же, Сара! У нее лучшие сиськи на районе!"
+    citizen3 "Надо будет как нибудь устроить соревнование. Да, это отличная идея!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:377
+translate english cit3_naked_boobs_variant1_1461054f:
+
+    # mt "Интересно, о ком это он? Хотя какая разница, у меня нет соперниц."
+    mt "Интересно, о ком это он? Хотя какая разница, у меня нет соперниц."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:393
+translate english cit3_naked_boobs_variant2_7ce38ba3:
+
+    # m "Отвернись!"
+    m "Отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:400
+translate english cit3_naked_boobs_variant2_5719f95c:
+
+    # m "Можешь повернуться."
+    m "Можешь повернуться."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:402
+translate english cit3_naked_boobs_variant2_179b4073:
+
+    # m "Только руками не трогать!"
+    m "Только руками не трогать!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:409
+translate english cit3_naked_boobs_variant2_bd005660:
+
+    # citizen3 "Ага... Да..."
+    citizen3 "Ага... Да..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:414
+translate english cit3_naked_boobs_variant2_a9d19e5b:
+
+    # citizen3 "Хорошо... Вроде бы..."
+    citizen3 "Хорошо... Вроде бы..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:420
+translate english cit3_naked_boobs_variant2_5bc8e333:
+
+    # mt "Интересно, что это с ним сегодня? Обычно он более разоворчив..."
+    mt "Интересно, что это с ним сегодня? Обычно он более разоворчив..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:422
+translate english cit3_naked_boobs_variant2_987403c7:
+
+    # citizen3 "А что если?"
+    citizen3 "А что если?"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:427
+translate english cit3_naked_boobs_variant2_8294c331:
+
+    # m "Ах ты говнюк! Какого черта?!"
+    m "Ах ты говнюк! Какого черта?!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:429
+translate english cit3_naked_boobs_variant2_45d3ef78:
+
+    # citizen3 "Что то не так?"
+    citizen3 "Что то не так?"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:431
+translate english cit3_naked_boobs_variant2_b63d0455:
+
+    # m "Что то не так! Ты трогал мою грудь!"
+    m "Что то не так! Ты трогал мою грудь!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:433
+translate english cit3_naked_boobs_variant2_0126c328:
+
+    # citizen3 "А, ты про это..."
+    # citizen3 "Это твоя вина! Я никак не мог вспомнить видел ли я где-то твою грудь и был вынужден ее поторгать, чтобы убедиться."
+    citizen3 "А, ты про это..."
+    citizen3 "Это твоя вина! Я никак не мог вспомнить видел ли я где-то твою грудь и был вынужден ее поторгать, чтобы убедиться."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:436
+translate english cit3_naked_boobs_variant2_aa3e0b61:
+
+    # m "Да я тебя сейчас..."
+    m "Да я тебя сейчас..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:438
+translate english cit3_naked_boobs_variant2_05813853:
+
+    # citizen3 "Все, все, не злись! Я прошу прощения и заверяю тебя, что раньше твою грудь я не видел."
+    # citizen3 "И даже больше: она просто прекрасна, уж можешь поверить."
+    citizen3 "Все, все, не злись! Я прошу прощения и заверяю тебя, что раньше твою грудь я не видел."
+    citizen3 "И даже больше: она просто прекрасна, уж можешь поверить."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:441
+translate english cit3_naked_boobs_variant2_00613a2a:
+
+    # citizen3  "И хоть я и не самый хороший парень, но я виноват, признаю."
+    # citizen3 "Как насчет компенсации? Знаю, что ты не против..."
+    citizen3  "И хоть я и не самый хороший парень, но я виноват, признаю."
+    citizen3 "Как насчет компенсации? Знаю, что ты не против..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:445
+translate english cit3_naked_boobs_variant2_00d599aa:
+
+    # citizen3 "Наш конфликт улажен?"
+    citizen3 "Наш конфликт улажен?"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:447
+translate english cit3_naked_boobs_variant2_022e19fd:
+
+    # mt "Были бы мы не в этих трущебах, я бы тебя прибила..."
+    # m "...Да."
+    mt "Были бы мы не в этих трущебах, я бы тебя прибила..."
+    m "...Да."
+
+translate english strings:
+
+    # Quests/EP2/Citizens/Citizen3_Dialogue.rpy:279
+    old "Почему бы и нет. Это возможность заработать деньги..."
+    new ""
+

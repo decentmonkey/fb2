@@ -432,3 +432,165 @@ translate english strings:
     old "Засунуть член в ее анальное отверстие, затем вытащить и облизать его. (disabled)"
     new "Stick a dick in her asshole, then pull out and lick it. (disabled)"
 
+# TODO: Translation updated at 2019-07-02 18:59
+
+# game/Quests/EP2_02/ep22_casting.rpy:193
+translate english ep22_dialogue6_6_loop1_8cbce9e9:
+
+    # m "Алая Жемчужина хочет показать папочке грудь..."
+    m "Алая Жемчужина хочет показать папочке грудь..."
+
+# game/Quests/EP2_02/ep22_casting.rpy:206
+translate english ep22_dialogue6_6_loop1_2b720bb8_1:
+
+    # m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
+    m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
+
+# game/Quests/EP2_02/ep22_casting.rpy:220
+translate english ep22_dialogue6_6_loop1_32d8982f:
+
+    # m "Запретное Желание хочет показать папочке грудь..."
+    m "Запретное Желание хочет показать папочке грудь..."
+
+# game/Quests/EP2_02/ep22_casting.rpy:236
+translate english ep22_dialogue6_6_loop1_2b720bb8_2:
+
+    # m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
+    m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
+
+# game/Quests/EP2_02/ep22_casting.rpy:530
+translate english ep22_dialogue6_6_loop1_a6ccef88:
+
+    # m "Алая Жемчужина хочет показать папочке свой зад..."
+    # biff "Давай, Жемчужина!"
+    # "Показывай свой зад!"
+    m "Алая Жемчужина хочет показать папочке свой зад..."
+    biff "Давай, Жемчужина!"
+    "Показывай свой зад!"
+
+# game/Quests/EP2_02/ep22_casting.rpy:536
+translate english ep22_dialogue6_6_loop1_c51999c6:
+
+    # m "Биф, можно Я не буду снимать костюм?"
+    # m "Это долго..."
+    m "Биф, можно Я не буду снимать костюм?"
+    m "Это долго..."
+
+# game/Quests/EP2_02/ep22_casting.rpy:540
+translate english ep22_dialogue6_6_loop1_27a585e3:
+
+    # biff "Хорошо, цыпочка."
+    # biff "У папочки нет времени на переодевания."
+    biff "Хорошо, цыпочка."
+    biff "У папочки нет времени на переодевания."
+
+# game/Quests/EP2_02/ep22_casting.rpy:544
+translate english ep22_dialogue6_6_loop1_ca9a332d:
+
+    # biff "Пусть цыпочка сядет на стол."
+    # biff "Папочка хочет посмотреть на сидящую цыпочку."
+    biff "Пусть цыпочка сядет на стол."
+    biff "Папочка хочет посмотреть на сидящую цыпочку."
+
+# game/Quests/EP2_02/ep22_casting.rpy:548
+translate english ep22_dialogue6_6_loop1_2b2afe3e:
+
+    # m "Так, Биф?"
+    m "Так, Биф?"
+
+# game/Quests/EP2_02/ep22_casting.rpy:550
+translate english ep22_dialogue6_6_loop1_8f935abc:
+
+    # biff "Да, цыпочка. Привыкай сидеть на жердочке."
+    # biff "Скоро ты займешь место рядом с малышкой Мелани!"
+    biff "Да, цыпочка. Привыкай сидеть на жердочке."
+    biff "Скоро ты займешь место рядом с малышкой Мелани!"
+
+# game/Quests/EP2_02/ep22_casting.rpy:554
+translate english ep22_dialogue6_6_loop1_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_02/ep22_casting.rpy:560
+translate english ep22_dialogue6_6_loop1_ee4d54c8:
+
+    # m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
+    # biff "Давай, Жемчужина!"
+    # "Показывай свой зад!"
+    m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
+    biff "Давай, Жемчужина!"
+    "Показывай свой зад!"
+
+# game/Quests/EP2_02/ep22_casting.rpy:566
+translate english ep22_dialogue6_6_loop1_c51999c6_1:
+
+    # m "Биф, можно Я не буду снимать костюм?"
+    # m "Это долго..."
+    m "Биф, можно Я не буду снимать костюм?"
+    m "Это долго..."
+
+# game/Quests/EP2_02/ep22_casting.rpy:570
+translate english ep22_dialogue6_6_loop1_27a585e3_1:
+
+    # biff "Хорошо, цыпочка."
+    # biff "У папочки нет времени на переодевания."
+    biff "Хорошо, цыпочка."
+    biff "У папочки нет времени на переодевания."
+
+# game/Quests/EP2_02/ep22_casting.rpy:574
+translate english ep22_dialogue6_6_loop1_ca9a332d_1:
+
+    # biff "Пусть цыпочка сядет на стол."
+    # biff "Папочка хочет посмотреть на сидящую цыпочку."
+    biff "Пусть цыпочка сядет на стол."
+    biff "Папочка хочет посмотреть на сидящую цыпочку."
+
+# game/Quests/EP2_02/ep22_casting.rpy:578
+translate english ep22_dialogue6_6_loop1_2b2afe3e_1:
+
+    # m "Так, Биф?"
+    m "Так, Биф?"
+
+# game/Quests/EP2_02/ep22_casting.rpy:580
+translate english ep22_dialogue6_6_loop1_8f935abc_1:
+
+    # biff "Да, цыпочка. Привыкай сидеть на жердочке."
+    # biff "Скоро ты займешь место рядом с малышкой Мелани!"
+    biff "Да, цыпочка. Привыкай сидеть на жердочке."
+    biff "Скоро ты займешь место рядом с малышкой Мелани!"
+
+# game/Quests/EP2_02/ep22_casting.rpy:584
+translate english ep22_dialogue6_6_loop1_0a5616b8_1:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_02/ep22_casting.rpy:590
+translate english ep22_dialogue6_6_loop1_5b3e12af:
+
+    # m "Запретное Желание хочет показать папочке свой зад..."
+    m "Запретное Желание хочет показать папочке свой зад..."
+
+# game/Quests/EP2_02/ep22_casting.rpy:592
+translate english ep22_dialogue6_6_loop1_0f66437b:
+
+    # biff "Давай, Запретное Желание!"
+    # "Показывай свой зад!"
+    biff "Давай, Запретное Желание!"
+    "Показывай свой зад!"
+
+# game/Quests/EP2_02/ep22_casting.rpy:610
+translate english ep22_dialogue6_6_loop1_caf45e77_2:
+
+    # m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
+    m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
+
+# game/Quests/EP2_02/ep22_casting.rpy:612
+translate english ep22_dialogue6_6_loop1_0f66437b_1:
+
+    # biff "Давай, Запретное Желание!"
+    # "Показывай свой зад!"
+    biff "Давай, Запретное Желание!"
+    "Показывай свой зад!"
+
