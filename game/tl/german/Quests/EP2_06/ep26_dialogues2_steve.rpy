@@ -207,7 +207,7 @@ translate german ep26_dialogues2_steve1_75299802:
 
     # steve "Джейн!"
     # steve "У меня для тебя большой сюрприз!"
-    steve "Джейн!"
+    steve "Jane!"
     steve "У меня для тебя большой сюрприз!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:137
@@ -331,7 +331,7 @@ translate german ep26_dialogues2_steve1_1566adf6:
 
     # m "Стив..."
     # m "Ты самый большой мерзавец, которого я знаю..."
-    m "Стив..."
+    m "Steve..."
     m "Ты самый большой мерзавец, которого я знаю..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:214
@@ -372,8 +372,8 @@ translate german ep26_dialogues2_steve1_f4859c15:
     # m "Хорошо, Стив..."
     # m "Мерзавец..."
     # m "Я сделаю это..."
-    m "Хорошо, Стив..."
-    m "Мерзавец..."
+    m "Gut, Steve... Gut."
+    m "Dreckiger Bastard!..."
     m "Я сделаю это..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:246
@@ -428,7 +428,7 @@ translate german ep26_dialogues2_steve1_569be6b6:
     # steve "Отлично!"
     # steve "Ты можешь следовать к Джейн."
     # steve "Она уже заждалась тебя!"
-    steve "Отлично!"
+    steve "Ausgezeichnet!"
     steve "Ты можешь следовать к Джейн."
     steve "Она уже заждалась тебя!"
 
@@ -444,7 +444,7 @@ translate german ep26_dialogues2_steve2_be2ea8e7:
     # steve "Моника."
     # steve "У нас сейчас нет деловых отношений."
     # steve "Но ты знаешь что надо сделать, чтобы возобновить их!" 
-    steve "Моника."
+    steve "Monica."
     steve "У нас сейчас нет деловых отношений."
     steve "Но ты знаешь что надо сделать, чтобы возобновить их!" 
 
@@ -452,7 +452,7 @@ translate german ep26_dialogues2_steve2_be2ea8e7:
 translate german ep26_dialogues2_steve3_c3fc32ea:
 
     # jane "Миссис Бакфетт?"
-    jane "Миссис Бакфетт?"
+    jane "Frau Buckfett?"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:304
 translate german ep26_dialogues2_steve3_29a4f6ab:
@@ -471,7 +471,7 @@ translate german ep26_dialogues2_steve3_747bac0a:
 
     # m "Джейн!"
     # m "Встань, когда перед тобой стоит твой Босс!"
-    m "Джейн!"
+    m "Jane!"
     m "Встань, когда перед тобой стоит твой Босс!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:318
@@ -479,7 +479,7 @@ translate german ep26_dialogues2_steve3_a26fd386:
 
     # m "Итак..."
     # m "Что ты хочешь узнать относительно моей великолепной фигуры?"
-    m "Итак..."
+    m "Also..."
     m "Что ты хочешь узнать относительно моей великолепной фигуры?"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:321
@@ -583,7 +583,7 @@ translate german ep26_dialogues2_steve3_e94c0269:
 
     # jane "Миссис Бакфетт."
     # jane "Вы говорили по поводу фитнеса..."
-    jane "Миссис Бакфетт."
+    jane "Frau Buckfett."
     jane "Вы говорили по поводу фитнеса..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:379
@@ -591,7 +591,7 @@ translate german ep26_dialogues2_steve3_fae30812:
 
     # m "Да, Джейн."
     # m "Фитнес и йога - неотъемлемая часть построения изящной фигуры..."
-    m "Да, Джейн."
+    m "Ja, ist sie."
     m "Фитнес и йога - неотъемлемая часть построения изящной фигуры..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:386
@@ -599,7 +599,7 @@ translate german ep26_dialogues2_steve3_d4429acc:
 
     # jane "Миссис Бакфетт."
     # jane "А в какой фитнес-центр Вы сейчас ходите заниматься?"
-    jane "Миссис Бакфетт."
+    jane "Frau Buckfett."
     jane "А в какой фитнес-центр Вы сейчас ходите заниматься?"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:389
@@ -674,7 +674,7 @@ translate german ep26_dialogues2_steve3_82a43cf8:
     # jane "..."
     # jane "Миссис Бакфетт..."
     jane "..."
-    jane "Миссис Бакфетт..."
+    jane "Frau Buckfett..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:435
 translate german ep26_dialogues2_steve3_98d8749a:
@@ -705,7 +705,7 @@ translate german ep26_dialogues2_steve3_79fbc5c2:
 
     # jane "Миссис Бакфетт..."
     # jane "Мистер Стив сказал, что Вы покажете мне свою грудь..."
-    jane "Миссис Бакфетт..."
+    jane "Frau Buckfett..."
     jane "Мистер Стив сказал, что Вы покажете мне свою грудь..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:452
@@ -741,7 +741,7 @@ translate german ep26_dialogues2_steve3_f3c71abc:
 
     # m "Стив!"
     # m "Я достаточно рассказала твоей невесте, как мы договорились."
-    m "Стив!"
+    m "Steve!"
     m "Я достаточно рассказала твоей невесте, как мы договорились."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:479
@@ -787,7 +787,7 @@ translate german ep26_dialogues2_steve3_03003b89:
 
     # m "Ладно..."
     # m "Стив умолял меня сделать это..."
-    m "Ладно..."
+    m "Ok."
     m "Стив умолял меня сделать это..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:504
@@ -840,7 +840,7 @@ translate german ep26_dialogues2_steve3_03767973:
 translate german ep26_dialogues2_steve3_d314e289:
 
     # m "Только попробуй!"
-    m "Только попробуй!"
+    m "Das wagst du nicht!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:549
 translate german ep26_dialogues2_steve3_1f8ef82f:
@@ -875,7 +875,7 @@ translate german ep26_dialogues2_steve3_f3c71abc_1:
 
     # m "Стив!"
     # m "Я достаточно рассказала твоей невесте, как мы договорились."
-    m "Стив!"
+    m "Steve!"
     m "Я достаточно рассказала твоей невесте, как мы договорились."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:566
@@ -889,7 +889,7 @@ translate german ep26_dialogues2_steve3_0457f8bf:
 
     # steve "Моника!"
     # steve "Ты жестокая женщина!"
-    steve "Моника!"
+    steve "Monica!"
     steve "Ты жестокая женщина!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:573
@@ -944,13 +944,13 @@ translate german ep26_dialogues2_steve4_cdc78589:
 translate german ep26_dialogues2_steve4_4c2057f0:
 
     # m "Стив..."
-    m "Стив..."
+    m "Steve..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:618
 translate german ep26_dialogues2_steve4_f8d78a14:
 
     # steve "Да, Моника?"
-    steve "Да, Моника?"
+    steve "Ja, Monica?"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:620
 translate german ep26_dialogues2_steve4_dbe81e58:
@@ -1040,7 +1040,7 @@ translate german ep26_dialogues2_steve5_63ac7fa9:
     # steve "Бетти!"
     # steve "Разве у Стива нет подчиненных, чтобы доставить отчеты?"
     # steve "К чему заставлять себя ехать через весь город?"
-    steve "Бетти!"
+    steve "Betty!"
     steve "Разве у Стива нет подчиненных, чтобы доставить отчеты?"
     steve "К чему заставлять себя ехать через весь город?"
 
@@ -1442,14 +1442,14 @@ translate german ep26_dialogues2_steve5_5fdf335d:
 translate german ep26_dialogues2_steve5_64b11ec6:
 
     # m "Ты мерзавец, Стив!"
-    m "Ты мерзавец, Стив!"
+    m "Du Bastard, Steve!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:902
 translate german ep26_dialogues2_steve5_092696c5:
 
     # m "Стив..."
     # m "Повтори еще раз..."
-    m "Стив..."
+    m "Steve..."
     m "Повтори еще раз..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:905

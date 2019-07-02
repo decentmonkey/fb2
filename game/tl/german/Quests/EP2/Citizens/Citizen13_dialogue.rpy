@@ -731,19 +731,19 @@ translate german cit13_naked_boobs_variant2_a484aa2a:
 translate german cit13_naked_boobs_1st_d846f177:
 
     # citizen13 "Подруга, скажу тебе по секрету, я очень тебе завидую!"
-    citizen13 "Подруга, скажу тебе по секрету, я очень тебе завидую!"
+    citizen13 "Mein Freund, ich beneide dich!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:249
 translate german cit13_naked_boobs_1st_3661514d:
 
     # m "Это почему?"
-    m "Это почему?"
+    m "Warum?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:251
 translate german cit13_naked_boobs_1st_0d9f8f6f:
 
     # citizen13 "Ну как же, у тебя есть две классных подружки!"
-    citizen13 "Ну как же, у тебя есть две классных подружки!"
+    citizen13 "Naja, du hast diese zwei tollen Freundinnen!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:253
 translate german cit13_naked_boobs_1st_055ed5c6:
@@ -751,218 +751,218 @@ translate german cit13_naked_boobs_1st_055ed5c6:
     # mt "Неужели он про этих куриц, с которые ходят на фитнес?!"
     # m "Ты это о ком?"
     mt "Неужели он про этих куриц, с которые ходят на фитнес?!"
-    m "Ты это о ком?"
+    m "Von wem sprichst du?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:256
 translate german cit13_naked_boobs_1st_8f842a65:
 
     # citizen13 "Ну как же, о твоих красивых сисечках!"
-    citizen13 "Ну как же, о твоих красивых сисечках!"
+    citizen13 "Na von deinen heißen Titten natürlich!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:258
 translate german cit13_naked_boobs_1st_7fb0aa05:
 
     # mt "И он туда же..."
-    mt "И он туда же..."
+    mt "Da sind wir wieder..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:260
 translate german cit13_naked_boobs_1st_ad610ed8:
 
     # citizen13 "Покажи их мне, не стесняйся, а я дам тебе деньжат!"
-    citizen13 "Покажи их мне, не стесняйся, а я дам тебе деньжат!"
+    citizen13 "Zeig sie mir, sei nicht scheu! Ich bezahle auch!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:270
 translate german cit13_naked_boobs_1st_98693e75:
 
     # m "Хорошо."
     # m "Отвернись!"
-    m "Хорошо."
-    m "Отвернись!"
+    m "Na gut."
+    m "Dreh dich um!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:273
 translate german cit13_naked_boobs_1st_9b4277c7:
 
     # citizen13 "Конечно, мы же подруги."
-    citizen13 "Конечно, мы же подруги."
+    citizen13 "Natürlich. Wir sind ja schließlich Freunde."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:278
 translate german cit13_naked_boobs_1st_49adc490:
 
     # m "Можешь повернуться."
     # m "Но руками не трогать!"
-    m "Можешь повернуться."
-    m "Но руками не трогать!"
+    m "Du kannst wieder herschauen."
+    m "Aber nicht anfassen!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:281
 translate german cit13_naked_boobs_1st_a73ba1cc:
 
     # citizen13 "Не разрешаешь? Ну хорошо..."
-    citizen13 "Не разрешаешь? Ну хорошо..."
+    citizen13 "Nein? N gut..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:288
 translate german cit13_naked_boobs_1st_19acebe8:
 
     # citizen13 "Вау! Тебе очень повезло с подружками!"
-    citizen13 "Вау! Тебе очень повезло с подружками!"
+    citizen13 "Wow! Du bist schon scharf!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:295
 translate german cit13_naked_boobs_1st_0e0633b5:
 
     # citizen13 "Такие большие и сочные!"
-    citizen13 "Такие большие и сочные!"
+    citizen13 "So groß und geil!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:300
 translate german cit13_naked_boobs_1st_dd14f980:
 
     # citizen13 "Ух, могу говорить о них хоть до утра!"
-    citizen13 "Ух, могу говорить о них хоть до утра!"
+    citizen13 "Ich könnte von denen den ganzen Tag sprechen!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:305
 translate german cit13_naked_boobs_1st_9d71351f:
 
     # citizen13 "Ох, подруга, как же я тебе завидую!"
-    citizen13 "Ох, подруга, как же я тебе завидую!"
+    citizen13 "Freundin, ich beneide dich so sehr!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:307
 translate german cit13_naked_boobs_1st_1bcfdef1:
 
     # m "Ну ладно, хватит!"
-    m "Ну ладно, хватит!"
+    m "Das reicht jetzt!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:309
 translate german cit13_naked_boobs_1st_e62d641b:
 
     # citizen13 "Ну хорошо, но ты должна обещать, что я увижу их снова!"
-    citizen13 "Ну хорошо, но ты должна обещать, что я увижу их снова!"
+    citizen13 "Gut, aber du musst mir versprechen, dass ich sie wieder sehen werde!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:311
 translate german cit13_naked_boobs_1st_07b74a89:
 
     # m "Хорошего понемногу."
-    m "Хорошего понемногу."
+    m "Gewöhn dich nicht an zu Gutes!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:328
 translate german cit13_naked_boobs_variant1_35e9333f:
 
     # m "Хорошо."
     # m "Только руками не трогай"
-    m "Хорошо."
+    m "Na gut."
     m "Только руками не трогай"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:331
 translate german cit13_naked_boobs_variant1_9b4277c7:
 
     # citizen13 "Конечно, мы же подруги."
-    citizen13 "Конечно, мы же подруги."
+    citizen13 "Natürlich. Wir sind ja schließlich Freunde."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:333
 translate german cit13_naked_boobs_variant1_ae805aa1:
 
     # citizen13 "А тебе есть что показать! Когда нибудь у меня будут такие же!"
-    citizen13 "А тебе есть что показать! Когда нибудь у меня будут такие же!"
+    citizen13 "Du hast einiges zum Vorzeigen. Eines Tages wird das meins sein!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:335
 translate german cit13_naked_boobs_variant1_29a26742:
 
     # mt "Да неужели..."
-    mt "Да неужели..."
+    mt "Ach wirklich..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:344
 translate german cit13_naked_boobs_variant1_30f73773:
 
     # citizen13 "Подруга, а где ты такие сделала?"
-    citizen13 "Подруга, а где ты такие сделала?"
+    citizen13 "Honey, where did you get such boobs?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:346
 translate german cit13_naked_boobs_variant1_4c92f951:
 
     # m "Что?! Они настоящие!"
-    m "Что?! Они настоящие!"
+    m "Was?! Die sind echt!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:348
 translate german cit13_naked_boobs_variant1_c3e728f7:
 
     # citizen13 "Ой, да не обманывай! Ну честно, ты делала их у Джузеппе?"
-    citizen13 "Ой, да не обманывай! Ну честно, ты делала их у Джузеппе?"
+    citizen13 "Lüg mich nicht an! Sei ehrlich, hat die Juseppe gemacht?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:350
 translate german cit13_naked_boobs_variant1_d30a65d7:
 
     # m "Я не знаю о ком ты говоришь..."
-    m "Я не знаю о ком ты говоришь..."
+    m "Ich verstehe nicht..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:352
 translate german cit13_naked_boobs_variant1_284601b3:
 
     # citizen13 "А, ну да, конфеденциальность, понимаю..."
     # citizen13 "Значит у него! Да, отличная работа!"
-    citizen13 "А, ну да, конфеденциальность, понимаю..."
-    citizen13 "Значит у него! Да, отличная работа!"
+    citizen13 "Ah ja, Vertraulichkeit... ich verstehe..."
+    citizen13 "Dann habe ich also Recht! Tolle Arbeit!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:355
 translate german cit13_naked_boobs_variant1_df4d06f3:
 
     # m "Они настоящие!"
-    m "Они настоящие!"
+    m "Sie sind natürlich!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:357
 translate german cit13_naked_boobs_variant1_4d305ea5:
 
     # citizen13 "Ууу! Ладно, подруга, не злись!"
     # citizen13 "Все таки они у тебя классные!"
-    citizen13 "Ууу! Ладно, подруга, не злись!"
-    citizen13 "Все таки они у тебя классные!"
+    citizen13 "Komm schon, sei nicht beleidigt!"
+    citizen13 "Sie sind auch so toll!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:365
 translate german cit13_naked_boobs_variant1_1bcfdef1:
 
     # m "Ну ладно, хватит!"
-    m "Ну ладно, хватит!"
+    m "Das reicht jetzt!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:367
 translate german cit13_naked_boobs_variant1_e62d641b:
 
     # citizen13 "Ну хорошо, но ты должна обещать, что я увижу их снова!"
-    citizen13 "Ну хорошо, но ты должна обещать, что я увижу их снова!"
+    citizen13 "Gut, aber du musst mir versprechen, dass ich sie wieder sehen werde!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:369
 translate german cit13_naked_boobs_variant1_55ecb729:
 
     # mt "Посмотрим..."
-    mt "Посмотрим..."
+    mt "Wir werden sehen..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:385
 translate german cit13_naked_boobs_variant2_98693e75:
 
     # m "Хорошо."
     # m "Отвернись!"
-    m "Хорошо."
-    m "Отвернись!"
+    m "Na gut."
+    m "Dreh dich um!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:388
 translate german cit13_naked_boobs_variant2_9b4277c7:
 
     # citizen13 "Конечно, мы же подруги."
-    citizen13 "Конечно, мы же подруги."
+    citizen13 "Natürlich. Wir sind ja schließlich Freunde."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:395
 translate german cit13_naked_boobs_variant2_cfce97b0:
 
     # citizen13 "Ох, какие же они у тебя...Просто чудо."
-    citizen13 "Ох, какие же они у тебя...Просто чудо."
+    citizen13 "Wow! Sie sind so... einfach unbeschreiblich."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:397
 translate german cit13_naked_boobs_variant2_abd6311b:
 
     # mt "Тут не поспоришь."
-    mt "Тут не поспоришь."
+    mt "Dem stimme ich zu."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:406
 translate german cit13_naked_boobs_variant2_63395d39:
 
     # citizen13 "Ты знаешь, где то я уже такие видел..."
     # citizen13 "..."
-    citizen13 "Ты знаешь, где то я уже такие видел..."
+    citizen13 "Weißt du, ich habe sie schon mal wo anders gesehen..."
     citizen13 "..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:409
@@ -970,92 +970,92 @@ translate german cit13_naked_boobs_variant2_b3823cd9:
 
     # citizen13 "Точно, вспомнил! Вчера вечером я смотрел один фильм..."
     # citizen13 "Дак там 10 мужчин... Хотя что я рассказываю, уверен, ты такое каждый день видешь."
-    citizen13 "Точно, вспомнил! Вчера вечером я смотрел один фильм..."
-    citizen13 "Дак там 10 мужчин... Хотя что я рассказываю, уверен, ты такое каждый день видешь."
+    citizen13 "Ja! In dem Film gestern..."
+    citizen13 "Da waren 10 Männer... Warte, warum erzähle ich dir das, das siehst du sicher täglich."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:412
 translate german cit13_naked_boobs_variant2_01dd78c1:
 
     # mt "10 мужчин?! О боже..."
-    mt "10 мужчин?! О боже..."
+    mt "10 Männer? Oh mein Gott!..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:419
 translate german cit13_naked_boobs_variant2_9660f28a:
 
     # citizen13 "Кстати, ты никогда не хотела стать актрисой?"
-    citizen13 "Кстати, ты никогда не хотела стать актрисой?"
+    citizen13 "Hast du nie eine Schauspielkarriere angestrebt?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:421
 translate german cit13_naked_boobs_variant2_fe5afd99:
 
     # m "Нет."
-    m "Нет."
+    m "Nein."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:423
 translate german cit13_naked_boobs_variant2_090c8cf7:
 
     # citizen13 "Ну и зря. Уверен, у тебя бы получилось!"
     # citizen13 "Мне бы очень хотелось увидеть тебя в кино."
-    citizen13 "Ну и зря. Уверен, у тебя бы получилось!"
-    citizen13 "Мне бы очень хотелось увидеть тебя в кино."
+    citizen13 "Schade. Ich bin sicher, du wärst großartig gewesen!"
+    citizen13 "Ich würde dich so gerne in diesem Film sehen!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:431
 translate german cit13_naked_boobs_variant2_c68fea73:
 
     # citizen13 "Подожди ка..."
-    citizen13 "Подожди ка..."
+    citizen13 "Warte eine Sekunde..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:438
 translate german cit13_naked_boobs_variant2_3b00c619:
 
     # m "Эй! Что ты сделал?"
-    m "Эй! Что ты сделал?"
+    m "Hey! Was machst du da?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:440
 translate german cit13_naked_boobs_variant2_855e5322:
 
     # citizen13 "Подруга, ты злишься? Я тебя сфотографировал!"
     # citizen13 "Хочу показать твое фото одному моему знакомому, он снимает фильмы!"
-    citizen13 "Подруга, ты злишься? Я тебя сфотографировал!"
-    citizen13 "Хочу показать твое фото одному моему знакомому, он снимает фильмы!"
+    citizen13 "Sei nicht sauer, ist ja nur ein Foto!"
+    citizen13 "Ich zeige sie meinem Freund, er dreht Filme!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:443
 translate german cit13_naked_boobs_variant2_c09e3842:
 
     # m "Удали это фото немедленно!!!"
-    m "Удали это фото немедленно!!!"
+    m "Lösche das Foto sofort!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:450
 translate german cit13_naked_boobs_variant2_fd4da677:
 
     # citizen13 "Ууу! Ладно, подруга, не злись!"
     # citizen13 "Хорошо, хорошо, удаляю..."
-    citizen13 "Ууу! Ладно, подруга, не злись!"
-    citizen13 "Хорошо, хорошо, удаляю..."
+    citizen13 "Komm schon, sei nicht beleidigt!"
+    citizen13 "Ok, ok, ist gelöscht..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:458
 translate german cit13_naked_boobs_variant2_1cfbe74b:
 
     # citizen13 "Эх, подруга, зря ты так, могла бы стать знаменитой..."
-    citizen13 "Эх, подруга, зря ты так, могла бы стать знаменитой..."
+    citizen13 "Was für eine Schande, du hättest berühmt werden können..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:460
 translate german cit13_naked_boobs_variant2_cb4f176a:
 
     # mt "Я и так знаменита, только пока у меня не самая удачная полоса в жизни..."
     # m "Ну ладно, хватит!"
-    mt "Я и так знаменита, только пока у меня не самая удачная полоса в жизни..."
-    m "Ну ладно, хватит!"
+    mt "Ich bin schon berühmt, ich hatte nur etwas Pech in letzter Zeit..."
+    m "Das reicht jetzt!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:463
 translate german cit13_naked_boobs_variant2_e62d641b:
 
     # citizen13 "Ну хорошо, но ты должна обещать, что я увижу их снова!"
-    citizen13 "Ну хорошо, но ты должна обещать, что я увижу их снова!"
+    citizen13 "Gut, aber du musst mir versprechen, dass ich sie wieder sehen werde!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:465
 translate german cit13_naked_boobs_variant2_55ecb729:
 
     # mt "Посмотрим..."
-    mt "Посмотрим..."
+    mt "Wir werden sehen..."
 

@@ -477,7 +477,7 @@ translate german ep22_dialogue6_6_loop1_8cbce9e9:
 translate german ep22_dialogue6_6_loop1_2b720bb8_1:
 
     # m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
-    m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
+    m "Ich zeige dir meine Brüste, weil du mich dazu zwingst!..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:220
 translate german ep22_dialogue6_6_loop1_32d8982f:
@@ -489,7 +489,7 @@ translate german ep22_dialogue6_6_loop1_32d8982f:
 translate german ep22_dialogue6_6_loop1_2b720bb8_2:
 
     # m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
-    m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
+    m "Ich zeige dir meine Brüste, weil du mich dazu zwingst!..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:530
 translate german ep22_dialogue6_6_loop1_a6ccef88:
@@ -499,7 +499,7 @@ translate german ep22_dialogue6_6_loop1_a6ccef88:
     # "Показывай свой зад!"
     m "Алая Жемчужина хочет показать папочке свой зад..."
     biff "Давай, Жемчужина!"
-    "Показывай свой зад!"
+    "Zeig mir deinen Arsch!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:536
 translate german ep22_dialogue6_6_loop1_c51999c6:
@@ -514,7 +514,7 @@ translate german ep22_dialogue6_6_loop1_27a585e3:
 
     # biff "Хорошо, цыпочка."
     # biff "У папочки нет времени на переодевания."
-    biff "Хорошо, цыпочка."
+    biff "Okay, Mädchen."
     biff "У папочки нет времени на переодевания."
 
 # game/Quests/EP2_02/ep22_casting.rpy:544
@@ -551,9 +551,9 @@ translate german ep22_dialogue6_6_loop1_ee4d54c8:
     # m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
     # biff "Давай, Жемчужина!"
     # "Показывай свой зад!"
-    m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
+    m "Ich zeige meinen Hintern, weil du mich dazu zwingst..."
     biff "Давай, Жемчужина!"
-    "Показывай свой зад!"
+    "Zeig mir deinen Arsch!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:566
 translate german ep22_dialogue6_6_loop1_c51999c6_1:
@@ -568,7 +568,7 @@ translate german ep22_dialogue6_6_loop1_27a585e3_1:
 
     # biff "Хорошо, цыпочка."
     # biff "У папочки нет времени на переодевания."
-    biff "Хорошо, цыпочка."
+    biff "Okay, Mädchen."
     biff "У папочки нет времени на переодевания."
 
 # game/Quests/EP2_02/ep22_casting.rpy:574
@@ -611,13 +611,13 @@ translate german ep22_dialogue6_6_loop1_0f66437b:
     # biff "Давай, Запретное Желание!"
     # "Показывай свой зад!"
     biff "Давай, Запретное Желание!"
-    "Показывай свой зад!"
+    "Zeig mir deinen Arsch!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:610
 translate german ep22_dialogue6_6_loop1_caf45e77_2:
 
     # m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
-    m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
+    m "Ich zeige meinen Hintern, weil du mich dazu zwingst..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:612
 translate german ep22_dialogue6_6_loop1_0f66437b_1:
@@ -625,5 +625,5 @@ translate german ep22_dialogue6_6_loop1_0f66437b_1:
     # biff "Давай, Запретное Желание!"
     # "Показывай свой зад!"
     biff "Давай, Запретное Желание!"
-    "Показывай свой зад!"
+    "Zeig mir deinen Arsch!"
 

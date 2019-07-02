@@ -13,7 +13,7 @@ translate german worker1_dialogue_workplace_305f59f1:
     m "Послушай..."
     w1 "Ой... Я..."
     m "Ты что, язык проглотила?"
-    w1 "Нет... Я..."
+    w1 "Nein... ich..."
     m "А похоже, что проглотила."
     m "Когда закончишь работать с бумагами, не забудь принести их мне в офис."
     w1 "Да, мэм!"
@@ -57,7 +57,7 @@ translate german worker1_dialogue_office_5e7f7c4a:
     m "Ты что, не видишь, я занята!"
     w1 "Простите..."
     m "Положи отчет на стол и выметайся!"
-    w1 "Хорошо..."
+    w1 "Gut..."
     mt "Кучка никчемных идиотов..."
 
 translate german strings:
@@ -69,4 +69,14 @@ translate german strings:
     # Quests/EP2_06/Office/Worker1_Dialogs.rpy:15
     old "Я занята!"
     new ""
+
+# TODO: Translation updated at 2019-07-02 20:57
+
+# game/Quests/EP2_06/Office/Worker1_Dialogs.rpy:3
+translate german worker1_look_f059b0ef:
+
+    # mt "Какая-то серая мышь."
+    # mt "В каждом офисе есть такая."
+    mt "Какая-то серая мышь."
+    mt "В каждом офисе есть такая."
 

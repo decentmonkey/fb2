@@ -52,3 +52,13 @@ translate english worker6_dialogue_office_69363cbb:
     w6 "Но как же..."
     m "Я сказала завтра, я сейчас занята!"
 
+# TODO: Translation updated at 2019-07-02 20:56
+
+# game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:3
+translate english worker6_look_ef4c461b:
+
+    # mt "Как можно быть такой толстой коровой?"
+    # mt "Фи!"
+    mt "Как можно быть такой толстой коровой?"
+    mt "Phi!"
+

@@ -566,111 +566,111 @@ translate english cit7_naked_boobs_1st_814524ad:
 translate english cit7_naked_boobs_1st_c8f17eaa:
 
     # m "Не понимаю. Ты же сам сказал, что я даю тебе вдохновение..."
-    m "Не понимаю. Ты же сам сказал, что я даю тебе вдохновение..."
+    m "I don't get it. You told me that I give you an inspiration..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:226
 translate english cit7_naked_boobs_1st_25feac3b:
 
     # citizen7 "Да, но этого не достаточно! Это все не то!"
-    citizen7 "Да, но этого не достаточно! Это все не то!"
+    citizen7 "Yes, but it's not enough! Everything is wrong!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:228
 translate english cit7_naked_boobs_1st_661228bf:
 
     # m "Как это?"
-    m "Как это?"
+    m "How so?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:230
 translate english cit7_naked_boobs_1st_fa4c6452:
 
     # citizen7 "Ты не поймешь..."
     # citizen7 "Мне нужно увидеть твою грудь, только на этот раз голую!"
-    citizen7 "Ты не поймешь..."
-    citizen7 "Мне нужно увидеть твою грудь, только на этот раз голую!"
+    citizen7 "You will not understand..."
+    citizen7 "I have to take a look at your chest, but bare this time!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:233
 translate english cit7_naked_boobs_1st_09c5f5cd:
 
     # m "И это поможет?"
-    m "И это поможет?"
+    m "And it will help?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:235
 translate english cit7_naked_boobs_1st_5dd3c6e7:
 
     # citizen7 "Я не знаю, но это должно придать вдохновнения. Ну дак что?"
-    citizen7 "Я не знаю, но это должно придать вдохновнения. Ну дак что?"
+    citizen7 "I don’t know but it could give me inspiration. So?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:245
 translate english cit7_naked_boobs_1st_d10902f6:
 
     # m "Хорошо!"
-    m "Хорошо!"
+    m "Great!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:247
 translate english cit7_naked_boobs_1st_75aa8ed1:
 
     # citizen7 "Я в предвкушении..."
-    citizen7 "Я в предвкушении..."
+    citizen7 "I'm in anticipation..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:250
 translate english cit7_naked_boobs_1st_fd3ddbc4:
 
     # m "Но руками не трогать!"
-    m "Но руками не трогать!"
+    m "But no touching!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:252
 translate english cit7_naked_boobs_1st_dd9c9858:
 
     # citizen7 "Конечно, я же человек искусства."
-    citizen7 "Конечно, я же человек искусства."
+    citizen7 "I'm artist after all."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:261
 translate english cit7_naked_boobs_1st_cb5621f1:
 
     # citizen7 "Великолепно!"
     # citizen7 "Это непревзойденно!"
-    citizen7 "Великолепно!"
-    citizen7 "Это непревзойденно!"
+    citizen7 "Amazing!"
+    citizen7 "Unparallel!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:269
 translate english cit7_naked_boobs_1st_1033d908:
 
     # citizen7 "Думаю, я должен слепить скульптуру!"
     # citizen7 "Скажи, кто нибудь уже это делал?"
-    citizen7 "Думаю, я должен слепить скульптуру!"
-    citizen7 "Скажи, кто нибудь уже это делал?"
+    citizen7 "I think I have to make a sculpture!"
+    citizen7 "Say, has anyone done it before?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:272
 translate english cit7_naked_boobs_1st_0ec6e83a:
 
     # m "Насколько я знаю, нет..."
     # m "Хотя все может быть..."
-    m "Насколько я знаю, нет..."
+    m "No, as far as I know..."
     m "Хотя все может быть..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:280
 translate english cit7_naked_boobs_1st_7d5b0fc1:
 
     # citizen7 "Это просто замечательно!"
-    citizen7 "Это просто замечательно!"
+    citizen7 "Excellent!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:287
 translate english cit7_naked_boobs_1st_23d9e525:
 
     # m "Ну ладно, хватит с тебя."
-    m "Ну ладно, хватит с тебя."
+    m "That's it, enough for you."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:289
 translate english cit7_naked_boobs_1st_d7cbf404:
 
     # citizen7 "Нет, подожди, я еще не..."
-    citizen7 "Нет, подожди, я еще не..."
+    citizen7 "No, wait, that's not..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:291
 translate english cit7_naked_boobs_1st_bb02be86:
 
     # m "Нет, все."
-    m "Нет, все."
+    m "No, that's it."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:293
 translate english cit7_naked_boobs_1st_033c918b:
@@ -684,301 +684,301 @@ translate english cit7_naked_boobs_1st_033c918b:
 translate english cit7_naked_boobs_1st_345d493b:
 
     # mt "Интересно, для чего?"
-    mt "Интересно, для чего?"
+    mt "Enough for what?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:303
 translate english cit7_naked_boobs_variant1_dcc3f766:
 
     # citizen7 "Детка, после одной из наших встреч, есть кое что, чего мне не хватает."
-    citizen7 "Детка, после одной из наших встреч, есть кое что, чего мне не хватает."
+    citizen7 "Babe, there is one thing that's lacking after all our meetings."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:305
 translate english cit7_naked_boobs_variant1_460e5550:
 
     # m "И что же это?"
-    m "И что же это?"
+    m "What is it?! What do I have to do?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:307
 translate english cit7_naked_boobs_variant1_58a6ddd7:
 
     # citizen7 "Я хочу лицезреть твою голую грудь, и ты должна понимать, зачем я это прошу!"
-    citizen7 "Я хочу лицезреть твою голую грудь, и ты должна понимать, зачем я это прошу!"
+    citizen7 "I have to behold your bare chest, and you have to understand why I'm asking!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:309
 translate english cit7_naked_boobs_variant1_dd1ce0b7:
 
     # mt "Для вдохновения, ну конечно..."
-    mt "Для вдохновения, ну конечно..."
+    mt "For inspiration..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:319
 translate english cit7_naked_boobs_variant1_7ce38ba3:
 
     # m "Отвернись!"
-    m "Отвернись!"
+    m "Turn around!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:324
 translate english cit7_naked_boobs_variant1_ebbe3470:
 
     # m "Можешь повернуться."
     # m "Только руками не трогать!"
-    m "Можешь повернуться."
-    m "Только руками не трогать!"
+    m "You can turn back."
+    m "No touching!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:327
 translate english cit7_naked_boobs_variant1_373a023b:
 
     # citizen7 "Конечно!"
-    citizen7 "Конечно!"
+    citizen7 "Definitely!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:334
 translate english cit7_naked_boobs_variant1_999e611d:
 
     # citizen7 "Ох, замечательно!"
-    citizen7 "Ох, замечательно!"
+    citizen7 "Oh, excellent!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:341
 translate english cit7_naked_boobs_variant1_417b560f:
 
     # citizen7 "Да, я это чувствую! Но это немного не то!"
-    citizen7 "Да, я это чувствую! Но это немного не то!"
+    citizen7 "Yes, I can feel it! But it's not quite it!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:343
 translate english cit7_naked_boobs_variant1_45ec5497:
 
     # m "В смысле?"
-    m "В смысле?"
+    m "What do you mean?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:345
 translate english cit7_naked_boobs_variant1_fc932e41:
 
     # citizen7 "Представь себе, что ты модель! Попозируй для меня!"
-    citizen7 "Представь себе, что ты модель! Попозируй для меня!"
+    citizen7 "Imagine that you are a model! Pose for me!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:350
 translate english cit7_naked_boobs_variant1_94420ba9:
 
     # m "Хорошо."
-    m "Хорошо."
+    m "Fine."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:357
 translate english cit7_naked_boobs_variant1_58bdb6c9:
 
     # citizen7 "Ох, какая красота!"
-    citizen7 "Ох, какая красота!"
+    citizen7 "What a beauty!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:364
 translate english cit7_naked_boobs_variant1_408d5fb5:
 
     # citizen7 "Картина! Да, я знаю, что я напишу! Или нет..."
-    citizen7 "Картина! Да, я знаю, что я напишу! Или нет..."
+    citizen7 "Picture! Yes, I know what to draw! Or not..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:368
 translate english cit7_naked_boobs_variant1_3d172faa:
 
     # m "Я не собираюсь этого делать!"
-    m "Я не собираюсь этого делать!"
+    m "I'm not going to do it!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:370
 translate english cit7_naked_boobs_variant1_e901e994:
 
     # citizen7 "Ооо... Почему ты так жестока со мной?"
-    citizen7 "Ооо... Почему ты так жестока со мной?"
+    citizen7 "Aww... Why is she so cruel to me?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:372
 translate english cit7_naked_boobs_variant1_2a31c819:
 
     # m "Не правда"
-    m "Не правда"
+    m "That's not true"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:374
 translate english cit7_naked_boobs_variant1_6d4557ed:
 
     # citizen7 "Конечно правда, ты лишаешь меня вдохновения..."
-    citizen7 "Конечно правда, ты лишаешь меня вдохновения..."
+    citizen7 "Of course it's true, you are taking away my inspiration..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:377
 translate english cit7_naked_boobs_variant1_4f5b3921:
 
     # m "Ну ладно, хватит."
-    m "Ну ладно, хватит."
+    m "Alright, that's enough,"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:379
 translate english cit7_naked_boobs_variant1_b665c521:
 
     # citizen7 "Ох, надеюсь этого хватит для моего очередного творения!"
-    citizen7 "Ох, надеюсь этого хватит для моего очередного творения!"
+    citizen7 "Hopefully it will be enough for another of mine creation!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:385
 translate english cit7_naked_boobs_variant2_7ce99bc5:
 
     # citizen7 "Мне необходимо вдохновение! Обнажи свои очаровательные груди!"
-    citizen7 "Мне необходимо вдохновение! Обнажи свои очаровательные груди!"
+    citizen7 "I need an inspiration! Bare you charming chest to me!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:387
 translate english cit7_naked_boobs_variant2_854f9f86:
 
     # mt "А по твоим фразам этого не скажешь..."
-    mt "А по твоим фразам этого не скажешь..."
+    mt "Can't tell by your words..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:397
 translate english cit7_naked_boobs_variant2_7ce38ba3:
 
     # m "Отвернись!"
-    m "Отвернись!"
+    m "Turn around!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:404
 translate english cit7_naked_boobs_variant2_ebbe3470:
 
     # m "Можешь повернуться."
     # m "Только руками не трогать!"
-    m "Можешь повернуться."
-    m "Только руками не трогать!"
+    m "You can turn back."
+    m "No touching!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:407
 translate english cit7_naked_boobs_variant2_373a023b:
 
     # citizen7 "Конечно!"
-    citizen7 "Конечно!"
+    citizen7 "Definitely!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:414
 translate english cit7_naked_boobs_variant2_0e917203:
 
     # citizen7 "Ох, замечательно! Как бы я хотел их трахнуть!"
-    citizen7 "Ох, замечательно! Как бы я хотел их трахнуть!"
+    citizen7 "Perfect! I wish I could fuck them!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:416
 translate english cit7_naked_boobs_variant2_132167a0:
 
     # m "Что?!"
-    m "Что?!"
+    m "What?!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:418
 translate english cit7_naked_boobs_variant2_41a91c60:
 
     # citizen7 "Что?"
-    citizen7 "Что?"
+    citizen7 "What?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:420
 translate english cit7_naked_boobs_variant2_2b427d3d:
 
     # m "Что ты сейчас сказал?"
-    m "Что ты сейчас сказал?"
+    m "What did he say?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:422
 translate english cit7_naked_boobs_variant2_94db1159:
 
     # citizen7 "Я? Ничего, я восхищаюсь твоей грудью и думаю как соединить ее с искусством..."
-    citizen7 "Я? Ничего, я восхищаюсь твоей грудью и думаю как соединить ее с искусством..."
+    citizen7 "Me? Nothing, I'm admiring your chest and thinking about how to connect it to the art..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:424
 translate english cit7_naked_boobs_variant2_f13101bf:
 
     # mt "Извращенец..."
-    mt "Извращенец..."
+    mt "Pervert..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:431
 translate english cit7_naked_boobs_variant2_6c94d00b:
 
     # citizen7 "Мне нужно больше!"
     # citizen7 "Представь себе, что ты модель! Попозируй для меня!"
-    citizen7 "Мне нужно больше!"
-    citizen7 "Представь себе, что ты модель! Попозируй для меня!"
+    citizen7 "I need more!"
+    citizen7 "Imagine that you are a model! Pose for me!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:437
 translate english cit7_naked_boobs_variant2_94420ba9:
 
     # m "Хорошо."
-    m "Хорошо."
+    m "Fine."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:446
 translate english cit7_naked_boobs_variant2_58bdb6c9:
 
     # citizen7 "Ох, какая красота!"
-    citizen7 "Ох, какая красота!"
+    citizen7 "What a beauty!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:455
 translate english cit7_naked_boobs_variant2_5f6dd0ce:
 
     # citizen7 "Да, это прекрасно, но это не совсем то. Давай я тебе помогу!"
-    citizen7 "Да, это прекрасно, но это не совсем то. Давай я тебе помогу!"
+    citizen7 "Yes, that's great, but not exactly it. Let me help you!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:460
 translate english cit7_naked_boobs_variant2_cce3facd:
 
     # citizen7 "Положи обе руки за голову."
-    citizen7 "Положи обе руки за голову."
+    citizen7 "Place your hand behind your head."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:465
 translate english cit7_naked_boobs_variant2_13de813a:
 
     # citizen7 "А теперь присядь так, чтобы я думал, что ты на лошади!"
-    citizen7 "А теперь присядь так, чтобы я думал, что ты на лошади!"
+    citizen7 "Now, sit like you are riding a horse!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:469
 translate english cit7_naked_boobs_variant2_8371c975:
 
     # mt "Что же это будет..."
     # mt "Боже!"
-    mt "Что же это будет..."
-    mt "Боже!"
+    mt "What is it?"
+    mt "My god!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:472
 translate english cit7_naked_boobs_variant2_a89a837f:
 
     # m "Да ни за что! Извращенец!"
-    m "Да ни за что! Извращенец!"
+    m "Never! Pervert!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:474
 translate english cit7_naked_boobs_variant2_90f8718a:
 
     # citizen7 "Ты ничего не понимаешь в искусстве..."
-    citizen7 "Ты ничего не понимаешь в искусстве..."
+    citizen7 "You don’t understand art..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:478
 translate english cit7_naked_boobs_variant2_c0523677:
 
     # m "И так достаточно."
-    m "И так достаточно."
+    m "That's enough."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:480
 translate english cit7_naked_boobs_variant2_c8f10be4:
 
     # citizen7 "Сразу видно, ты ничего не понимаешь в искусстве..."
-    citizen7 "Сразу видно, ты ничего не понимаешь в искусстве..."
+    citizen7 "Obviously you don’t understand art..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:485
 translate english cit7_naked_boobs_variant2_3d172faa:
 
     # m "Я не собираюсь этого делать!"
-    m "Я не собираюсь этого делать!"
+    m "I'm not going to do it!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:487
 translate english cit7_naked_boobs_variant2_e901e994:
 
     # citizen7 "Ооо... Почему ты так жестока со мной?"
-    citizen7 "Ооо... Почему ты так жестока со мной?"
+    citizen7 "Aww... Why is she so cruel to me?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:489
 translate english cit7_naked_boobs_variant2_2a31c819:
 
     # m "Не правда"
-    m "Не правда"
+    m "That's not true"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:491
 translate english cit7_naked_boobs_variant2_6d4557ed:
 
     # citizen7 "Конечно правда, ты лишаешь меня вдохновения..."
-    citizen7 "Конечно правда, ты лишаешь меня вдохновения..."
+    citizen7 "Of course it's true, you are taking away my inspiration..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:494
 translate english cit7_naked_boobs_variant2_4f5b3921:
 
     # m "Ну ладно, хватит."
-    m "Ну ладно, хватит."
+    m "Alright, that's enough,"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:496
 translate english cit7_naked_boobs_variant2_b665c521:
 
     # citizen7 "Ох, надеюсь этого хватит для моего очередного творения!"
-    citizen7 "Ох, надеюсь этого хватит для моего очередного творения!"
+    citizen7 "Hopefully it will be enough for another of mine creation!"
 

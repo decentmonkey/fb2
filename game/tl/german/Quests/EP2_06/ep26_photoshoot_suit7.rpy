@@ -10,7 +10,7 @@ translate german ep26_photoshoot_suit7_0a2e4aa4:
     m "Алекс! Ты что, сошел с ума?!"
     m "У этого костюма прозрачная грудь!"
     m "Я уже не говорю про трусики, которых почти нет!"
-    alex_photograph "Но Мэм..."
+    alex_photograph "Aber..."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:9
 translate german ep26_photoshoot_suit7_ba49fef7:
@@ -44,7 +44,7 @@ translate german ep26_photoshoot_suit7_ff391dbb:
     # alex_photograph "Мэм, отлично, мы договорились!"
     # alex_photograph "Итак, мотор!"
     alex_photograph "Мэм, отлично, мы договорились!"
-    alex_photograph "Итак, мотор!"
+    alex_photograph "Hier, der Motor!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:30
 translate german ep26_photoshoot_suit7_393d6556:
@@ -62,7 +62,7 @@ translate german ep26_photoshoot_suit7_393d6556:
     alex_photograph "Мэм, но Вы и так закрываете грудь."
     alex_photograph "Я ведь должен что-то снимать..."
     m "Снимай мое лицо, болван!"
-    alex_photograph "Миссис Бакфетт?"
+    alex_photograph "Frau Buckfett?"
     m "Ладно, только так чтобы было ничего не видно!"
     alex_photograph "Конечно, Миссис Бакфетт! Как скажете!"
 
@@ -139,8 +139,8 @@ translate german ep26_photoshoot_suit7_7f4a0034:
     m "А меня грудь почти открыта, прикрыты только соски!"
     alex_photograph "Миссис Бакфетт, Ваша грудь обнажена не более, чем в приличном нижнем белье."
     alex_photograph "Не переживайте, ничего не видно."
-    m "Точно?"
-    alex_photograph "Да, Миссис Бакфетт!"
+    m "Wirklich?"
+    alex_photograph "Ja, Frau Buckfett!"
     m "Ладно, только без дурацких ракурсов!"
     m "Снимай меня прямо и... красиво..."
 
@@ -148,7 +148,7 @@ translate german ep26_photoshoot_suit7_7f4a0034:
 translate german ep26_photoshoot_suit7_c18d5638:
 
     # m "Алекс!"
-    m "Алекс!"
+    m "Alex!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:138
 translate german ep26_photoshoot_suit7_1cad5bfe:
@@ -174,7 +174,7 @@ translate german ep26_photoshoot_suit7_8bc3a679:
     alex_photograph "Миссис Бакфетт, это последний такой кадр, я обещаю!"
     alex_photograph "Осталась еще пара приличных кадров и мы успешно закончим!"
     m "Точно?!"
-    alex_photograph "Клянусь!"
+    alex_photograph "Das schwöre ich!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:161
 translate german ep26_photoshoot_suit7_5bb2e81d:
@@ -204,7 +204,7 @@ translate german ep26_photoshoot_suit7_4a326d87:
     m "Достаточно с меня всего этого!"
     m "Алекс, ты не врешь?"
     alex_photograph "Миссис Бакфетт, я клянусь!"
-    m "Ладно..."
+    m "Ok."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:193
 translate german ep26_photoshoot_suit7_a451f5d5:
@@ -227,8 +227,8 @@ translate german ep26_photoshoot_suit7_2a5972d0:
     # m "НЕТ!!!"
     # m "Даже не надейся!"
     m "ЧТО?!"
-    m "НЕТ!!!"
-    m "Даже не надейся!"
+    m "NEIN!!"
+    m "Denk nicht mal dran!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:202
 translate german ep26_photoshoot_suit7_1d7dc72a:
@@ -350,7 +350,7 @@ translate german ep26_photoshoot_suit7_1fc25dbe:
 translate german ep26_photoshoot_suit7_5cd72d0a:
 
     # alex_photograph "Мотор!"
-    alex_photograph "Мотор!"
+    alex_photograph "Action!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:274
 translate german ep26_photoshoot_suit7_01c0ea7b:
@@ -358,7 +358,7 @@ translate german ep26_photoshoot_suit7_01c0ea7b:
     # alex_photograph "Миссис Бакфетт."
     # alex_photograph "Могли бы Вы убрать руки?"
     # alex_photograph "Они мешают мне фотографировать нижнюю часть Вашего тела..."
-    alex_photograph "Миссис Бакфетт."
+    alex_photograph "Frau Buckfett."
     alex_photograph "Могли бы Вы убрать руки?"
     alex_photograph "Они мешают мне фотографировать нижнюю часть Вашего тела..."
 
@@ -367,7 +367,7 @@ translate german ep26_photoshoot_suit7_8daf8f60:
 
     # m "Нет, Алекс."
     # m "Я думаю фотосессия завершена и так."
-    m "Нет, Алекс."
+    m "Nein, Alex."
     m "Я думаю фотосессия завершена и так."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:284
@@ -375,7 +375,7 @@ translate german ep26_photoshoot_suit7_14866bdf:
 
     # m "Да, Алекс..."
     # m "Я понимаю..."
-    m "Да, Алекс..."
+    m "Ja, Alex..."
     m "Я понимаю..."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:289
@@ -386,7 +386,7 @@ translate german ep26_photoshoot_suit7_e64c8076:
     # alex_photograph "Если Вам не трудно."
     # m "Я понимаю, Алекс..."
     m "Надо раздвинуть ноги?"
-    alex_photograph "Да, Миссис Бакфетт."
+    alex_photograph "Ja, Frau Buckfett."
     alex_photograph "Если Вам не трудно."
     m "Я понимаю, Алекс..."
 
@@ -408,7 +408,7 @@ translate german ep26_photoshoot_suit7_cdabce6a:
     # alex_photograph "Миссис Бакфетт."
     # alex_photograph "Можно, пожалуйста, я сниму эти трусики и сделаю пару кадров?"
     # alex_photograph "Мистер Биф даст мне солидную премию за это."
-    alex_photograph "Миссис Бакфетт."
+    alex_photograph "Frau Buckfett."
     alex_photograph "Можно, пожалуйста, я сниму эти трусики и сделаю пару кадров?"
     alex_photograph "Мистер Биф даст мне солидную премию за это."
 
@@ -417,7 +417,7 @@ translate german ep26_photoshoot_suit7_f782ba7b:
 
     # m "Нет, Алекс."
     # m "Я закончу с проблемами до того как дойдет до этого..."
-    m "Нет, Алекс."
+    m "Nein, Alex."
     m "Я закончу с проблемами до того как дойдет до этого..."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:309
@@ -433,14 +433,14 @@ translate german ep26_photoshoot_suit7_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Мэм! Мы закончили фотосессию!"
-    m "Наконец-то!!!"
+    alex_photograph "Wir sind mit dem Shooting durch!"
+    m "Endlich!!!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:321
 translate german ep26_photoshoot_suit7_00d63a19:
 
     # mt "Что теперь?"
-    mt "Что теперь?"
+    mt "Was nun?"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:327
 translate german ep26_photoshoot_suit7_7d5cf100:
@@ -450,11 +450,11 @@ translate german ep26_photoshoot_suit7_7d5cf100:
     # "Это позволит мне приблизиться к цели, возвратить мою компанию назад!"
     # "Так может быть притвориться?"
     # "Ведь у меня нет к нему чувств, я хладнокровная женщина, идущая к своей мести..."
-    mt "Биф ждет меня на свой дурацкий кастинг..."
-    "Он говорил даст мне работу если я буду хорошей цыпочкой..."
-    "Это позволит мне приблизиться к цели, возвратить мою компанию назад!"
-    "Так может быть притвориться?"
-    "Ведь у меня нет к нему чувств, я хладнокровная женщина, идущая к своей мести..."
+    mt "Biff wartet auf mich bei seinem dummen Casting..."
+    "Er sagte, er hat einen Job für mich, wenn ich ein gutes Chick bin..."
+    "Das würde mich erlauben, einen Schritt näher an mein Ziel zu kommen, die Firma zurück zu erhalten!"
+    "Soll ichs also tun?"
+    "Immerhin habe ich keine Gefühle für ihn. Ich bin eine kaltblütige Frau, die nach Rache dürstet..."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:334
 translate german ep26_photoshoot_suit7_65571a75:
@@ -462,79 +462,79 @@ translate german ep26_photoshoot_suit7_65571a75:
     # "..."
     # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
     "..."
-    "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
+    "Verdammt... Besonders seit ich ihm versprochen habe, ein gutes Chick zu sein. Ich brauche den Job."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:356
 translate german ep26_photoshoot7_casting_cb9f49f2:
 
     # m "Привет, Биф. Я пришла..."
-    m "Привет, Биф. Я пришла..."
+    m "Biff, Hi, ich bin da..."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:363
 translate german ep26_photoshoot7_casting_e97962ff:
 
     # biff "О! Цыпочка пришла к папочке!"
-    biff "О! Цыпочка пришла к папочке!"
+    biff "Oh! Das Chick kommt zu Daddy!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:366
 translate german ep26_photoshoot7_casting_c0132395:
 
     # mt "Мне надо притвориться и завоевать его расположение..."
-    mt "Мне надо притвориться и завоевать его расположение..."
+    mt "Ich muss so tun als ob und seine Gunst gewinnen..."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:369
 translate german ep26_photoshoot7_casting_26c7e3c1:
 
     # m "Да, цыпочка пришла к папочке..."
     # "Цыпочка хорошая..."
-    m "Да, цыпочка пришла к папочке..."
-    "Цыпочка хорошая..."
+    m "Yeah, das Chick kam zu Daddy..."
+    "Ein liebes Chick..."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:372
 translate german ep26_photoshoot7_casting_d3fec468:
 
     # biff "Кто сегодня цыпочка?"
     # m "Сегодня цыпочка - это Роза Надежды..."
-    biff "Кто сегодня цыпочка?"
-    m "Сегодня цыпочка - это Роза Надежды..."
+    biff "Wer ist das Chick heute Abend?"
+    m "Heute ist die Rose der Hoffnung dran..."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:375
 translate german ep26_photoshoot7_casting_8bb65f7e:
 
     # biff "Что Роза Надежды хочет показать папочке?"
-    biff "Что Роза Надежды хочет показать папочке?"
+    biff "Was will die Rose der Hoffnung Daddy zeigen?"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:381
 translate german ep26_photoshoot7_casting_f4e1f245:
 
     # mt "Мерзавец!"
-    mt "Мерзавец!"
+    mt "Bastard!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:387
 translate german ep26_photoshoot7_casting_aaf46f34:
 
     # m "Я пришла, потому что обещала хорошо вести себя..."
-    m "Я пришла, потому что обещала хорошо вести себя..."
+    m "Ich bin da weil ich es versprochen habe..."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:392
 translate german ep26_photoshoot7_casting_b65c11aa:
 
     # m "Ты заставил меня придти..."
-    m "Ты заставил меня придти..."
+    m "Du hast mich gezwungen zu kommen..."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:393
 translate german ep26_photoshoot7_casting_2b8d9f4a:
 
     # mt "Ненавижу!!!"
     # biff "И что цыпочка будет делать?"
-    mt "Ненавижу!!!"
-    biff "И что цыпочка будет делать?"
+    mt "Ich hasse das!!!"
+    biff "Was wird das Chick tun?"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:400
 translate german ep26_photoshoot7_casting_f4e1f245_1:
 
     # mt "Мерзавец!"
-    mt "Мерзавец!"
+    mt "Bastard!"
 
 translate german strings:
 

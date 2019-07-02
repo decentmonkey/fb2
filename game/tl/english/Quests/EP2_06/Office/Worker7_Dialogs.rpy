@@ -67,6 +67,26 @@ translate english worker7_dialogue_office_8f43d3f2:
 
     # w7 "Хорошо, Мэм."
     # w7t "(Меня не покидает мысль, что где то Я видела эту миссис Бакфет...)"
-    w7 "Хорошо, Мэм."
+    w7 "All right, Ma'am."
     w7t "(Меня не покидает мысль, что где то Я видела эту миссис Бакфет...)"
+
+# TODO: Translation updated at 2019-07-02 20:56
+
+# game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:4
+translate english worker7_look_520402d7:
+
+    # mt "Лучше держаться от нее подальше."
+    mt "Лучше держаться от нее подальше."
+
+# game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:6
+translate english worker7_look_32cd42d6:
+
+    # mt "Похоже, это какой-то стажер."
+    mt "Похоже, это какой-то стажер."
+
+# game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:8
+translate english worker7_look_cc001836:
+
+    # mt "Бесполезный и никчемный..."
+    mt "Бесполезный и никчемный..."
 

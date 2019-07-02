@@ -56,3 +56,15 @@ translate german strings:
     old "Я занята."
     new ""
 
+# TODO: Translation updated at 2019-07-02 20:57
+
+# game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:3
+translate german worker3_look_0c71281a:
+
+    # mt "Две близняшки."
+    # mt "Они думают что они красивые?"
+    # mt "Они ошибаются! Фи!"
+    mt "Две близняшки."
+    mt "Они думают что они красивые?"
+    mt "Они ошибаются! Фи!"
+

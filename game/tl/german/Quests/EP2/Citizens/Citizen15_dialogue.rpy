@@ -982,66 +982,66 @@ translate german cit15_naked_boobs_1st_f1fb7281:
 
     # citizen15 "Знаешь, обычно при виде меня девочки сами снимают кофточки!"
     # citizen15 "Тебе нужно особое приглашение?"
-    citizen15 "Знаешь, обычно при виде меня девочки сами снимают кофточки!"
-    citizen15 "Тебе нужно особое приглашение?"
+    citizen15 "Weißt du, die Mädels ziehen sich normalerweise freiwillig aus, wenn sie mich sehen!"
+    citizen15 "Brauchst du eine extra Einladung?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:199
 translate german cit15_naked_boobs_1st_b4d6a35d:
 
     # m "Я не собираюсь ее снимать."
-    m "Я не собираюсь ее снимать."
+    m "Ich werde das nicht ausziehen."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:201
 translate german cit15_naked_boobs_1st_f1e5401e:
 
     # citizen15 "Хорошие девочки обычно получают за это деньги. Только не говори, что деньги тебе не нужны."
-    citizen15 "Хорошие девочки обычно получают за это деньги. Только не говори, что деньги тебе не нужны."
+    citizen15 "Gute Mädchen bekommen dafür Geld. Erzähl mir nicht, dass du es nicht brauchst."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:203
 translate german cit15_naked_boobs_1st_240a9f56:
 
     # mt "Самодовольный козел. Но он прав, деньги мне нужны."
-    mt "Самодовольный козел. Но он прав, деньги мне нужны."
+    mt "Selbstverliebtes Arschloch, aber er hat Recht, ich brauche Geld."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:205
 translate german cit15_naked_boobs_1st_0978810e:
 
     # citizen15 "Ну дак что, голые сиськи в обмен на деньги?"
-    citizen15 "Ну дак что, голые сиськи в обмен на деньги?"
+    citizen15 "Also? Nackte Titten für Geld?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:215
 translate german cit15_naked_boobs_1st_98693e75:
 
     # m "Хорошо."
     # m "Отвернись!"
-    m "Хорошо."
-    m "Отвернись!"
+    m "Na gut."
+    m "Dreh dich um!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:218
 translate german cit15_naked_boobs_1st_e063ce39:
 
     # citizen15 "А ты че, стесняешься? Не переживай, можешь начинать..."
-    citizen15 "А ты че, стесняешься? Не переживай, можешь начинать..."
+    citizen15 "Oder wirst du plötzlich schüchtern? Keine Sorge, du kannst anfangen..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:220
 translate german cit15_naked_boobs_1st_80a36eeb:
 
     # m "Отвернись! Иначе ничего не покажу!"
-    m "Отвернись! Иначе ничего не покажу!"
+    m "Dreh dich um! Sonst zeige ich gar nichts!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:222
 translate german cit15_naked_boobs_1st_28d1c8b7:
 
     # citizen15 "А ты серьезная, ладно, отвернусь."
-    citizen15 "А ты серьезная, ладно, отвернусь."
+    citizen15 "Wow, so ernst! Gut, ich dreh' mich um."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:227
 translate german cit15_naked_boobs_1st_49adc490:
 
     # m "Можешь повернуться."
     # m "Но руками не трогать!"
-    m "Можешь повернуться."
-    m "Но руками не трогать!"
+    m "Du kannst wieder herschauen."
+    m "Aber nicht anfassen!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:230
 translate german cit15_naked_boobs_1st_be1f6264:
@@ -1059,33 +1059,33 @@ translate german cit15_naked_boobs_1st_8a286270:
 translate german cit15_naked_boobs_1st_598f1be0:
 
     # citizen15 "Ну скажу честно, так себе!"
-    citizen15 "Ну скажу честно, так себе!"
+    citizen15 "Um ehrlich zu sein, hm... hm..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:241
 translate german cit15_naked_boobs_1st_f4af3d5c:
 
     # mt "Что?!?!"
-    mt "Что?!?!"
+    mt "Was?!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:248
 translate german cit15_naked_boobs_1st_d0262793:
 
     # citizen15 "Видал я сиськи и получше..."
-    citizen15 "Видал я сиськи и получше..."
+    citizen15 "Ich habe schon Besseres gesehen..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:255
 translate german cit15_naked_boobs_1st_b6947305:
 
     # citizen15 "Но вообще сойдет, нормально!"
     # citizen15 "На 3 балла из 10!"
-    citizen15 "Но вообще сойдет, нормально!"
-    citizen15 "На 3 балла из 10!"
+    citizen15 "Gut, ok. Sie sind akzeptabel."
+    citizen15 "Eine 3 von 10!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:258
 translate german cit15_naked_boobs_1st_b1eba81f:
 
     # m "Почему ты мне такое говоришь?"
-    m "Почему ты мне такое говоришь?"
+    m "Was zur Hölle redest du da?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:260
 translate german cit15_naked_boobs_1st_25f74e61:
@@ -1097,33 +1097,33 @@ translate german cit15_naked_boobs_1st_25f74e61:
 translate german cit15_naked_boobs_1st_1bcfdef1:
 
     # m "Ну ладно, хватит!"
-    m "Ну ладно, хватит!"
+    m "Das reicht jetzt!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:264
 translate german cit15_naked_boobs_1st_9b63e120:
 
     # citizen15 "Странная ты... Обычно девочки просят, чтобы я смотрел на них как можно дольше!"
-    citizen15 "Странная ты... Обычно девочки просят, чтобы я смотрел на них как можно дольше!"
+    citizen15 "Du bist komisch... Normalerweise bitten mich die Mädels darum, so lange wie möglich hin zu schauen!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:266
 translate german cit15_naked_boobs_1st_0be8e89a:
 
     # mt "Обещаю, когда нибудь я тебя ударю."
-    mt "Обещаю, когда нибудь я тебя ударю."
+    mt "Ich verspreche dir, eines Tages werde ich dich schlagen!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:283
 translate german cit15_naked_boobs_variant1_98693e75:
 
     # m "Хорошо."
     # m "Отвернись!"
-    m "Хорошо."
-    m "Отвернись!"
+    m "Na gut."
+    m "Dreh dich um!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:286
 translate german cit15_naked_boobs_variant1_00a7274f:
 
     # citizen15 "Ты снова об этом...Ладно."
-    citizen15 "Ты снова об этом...Ладно."
+    citizen15 "Nochmal deswegen... Gut."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:295
 translate german cit15_naked_boobs_variant1_60060d41:
@@ -1131,53 +1131,53 @@ translate german cit15_naked_boobs_variant1_60060d41:
     # m "Можешь поворачиваться!"
     # mg 12448
     # citizen15 "Как скажешь, детка."
-    m "Можешь поворачиваться!"
+    m "Du kannst wieder herschauen."
     mg 12448
-    citizen15 "Как скажешь, детка."
+    citizen15 "Wie du meinst, Babe!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:304
 translate german cit15_naked_boobs_variant1_deaa65e7:
 
     # citizen15 "Оу, что за взгляд!"
-    citizen15 "Оу, что за взгляд!"
+    citizen15 "Wow, was für ein Anblick!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:306
 translate german cit15_naked_boobs_variant1_e4a48666:
 
     # mt "Да я убить тебя готова! Если бы не эти чертовы деньги..."
-    mt "Да я убить тебя готова! Если бы не эти чертовы деньги..."
+    mt "Ich bin bereit dich zu töten, wenn ich das Geld nicht bräuchte..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:308
 translate german cit15_naked_boobs_variant1_7cdc0a54:
 
     # citizen15 "Я знаю этот взгляд... Ты меня хочешь!"
-    citizen15 "Я знаю этот взгляд... Ты меня хочешь!"
+    citizen15 "Ich kenne diesen Blick... du willst mich!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:310
 translate german cit15_naked_boobs_variant1_e09719db:
 
     # m "Размечтался..."
-    m "Размечтался..."
+    m "Davon kannst du nur träumen."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:317
 translate german cit15_naked_boobs_variant1_2c872265:
 
     # citizen15 "Ха! Так говорят все девочки, но я то знаю правду."
     # citizen15 "Если ты меня хочешь, скажи. Не нужно скрывать."
-    citizen15 "Ха! Так говорят все девочки, но я то знаю правду."
-    citizen15 "Если ты меня хочешь, скажи. Не нужно скрывать."
+    citizen15 "Ha! Das sagt Jede, aber ich kenne die Wahrheit."
+    citizen15 "Wenn du willst, sag es ruhig. Kein Grund scheu zu sein."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:320
 translate german cit15_naked_boobs_variant1_236415ec:
 
     # m "Я тебя не хочу."
-    m "Я тебя не хочу."
+    m "Ich will dich nicht!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:327
 translate german cit15_naked_boobs_variant1_2bdd42bc:
 
     # citizen15 "Я знаю, что ты врешь! Но даже если бы ты это сказала, я бы подумал, стоит ли тебя трахать."
-    citizen15 "Я знаю, что ты врешь! Но даже если бы ты это сказала, я бы подумал, стоит ли тебя трахать."
+    citizen15 "Ich weiß, dass du lügst. Aber selbst wenn du ja gesagt hättest, müsste ich es mir zweimal überlegen, mit dir Sex zu haben."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:329
 translate german cit15_naked_boobs_variant1_f648074c:
@@ -1189,83 +1189,83 @@ translate german cit15_naked_boobs_variant1_f648074c:
 translate german cit15_naked_boobs_variant1_6e9ddac5:
 
     # citizen15 "Ну вот, снова этот взгляд!"
-    citizen15 "Ну вот, снова этот взгляд!"
+    citizen15 "Du starrst schon wieder!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:338
 translate german cit15_naked_boobs_variant1_1bcfdef1:
 
     # m "Ну ладно, хватит!"
-    m "Ну ладно, хватит!"
+    m "Das reicht jetzt!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:340
 translate german cit15_naked_boobs_variant1_f87423ea:
 
     # citizen15 "Что, не можешь с собой справиться? Ха-ха... Ну не знаю, может когда нибудь я тебя и трахну, если хорошо попросишь."
-    citizen15 "Что, не можешь с собой справиться? Ха-ха... Ну не знаю, может когда нибудь я тебя и трахну, если хорошо попросишь."
+    citizen15 "Was, kannst du dich nicht beherrschen? Hahaha... Keine Ahnung, vielleicht kann ich dich mal ficken, wenn du lieb fragst."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:342
 translate german cit15_naked_boobs_variant1_12e16f2d:
 
     # mt "Да ни за что на свете!"
-    mt "Да ни за что на свете!"
+    mt "Auf gar keinen Fall!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:348
 translate german cit15_naked_boobs_variant2_0d6d20a5:
 
     # citizen15 "Время голых сисек! Давай, расчехляй!"
-    citizen15 "Время голых сисек! Давай, расчехляй!"
+    citizen15 "Zeit für Brüste! Zeig sie!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:350
 translate german cit15_naked_boobs_variant2_b0841daa:
 
     # mt "Я вырву твой вонючий язык..."
-    mt "Я вырву твой вонючий язык..."
+    mt "Ich schneide dir deine stinkende Zunge raus..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:360
 translate german cit15_naked_boobs_variant2_98693e75:
 
     # m "Хорошо."
     # m "Отвернись!"
-    m "Хорошо."
-    m "Отвернись!"
+    m "Na gut."
+    m "Dreh dich um!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:363
 translate german cit15_naked_boobs_variant2_96d6e00e:
 
     # citizen15 "Конечно, детка!"
-    citizen15 "Конечно, детка!"
+    citizen15 "Sicher, Baby!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:372
 translate german cit15_naked_boobs_variant2_78ef46bf:
 
     # citizen15 "Бу!!!"
-    citizen15 "Бу!!!"
+    citizen15 "Buuuuh!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:374
 translate german cit15_naked_boobs_variant2_48241a0f:
 
     # m "Ой! Какого?"
-    m "Ой! Какого?"
+    m "Aua! Was zum...?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:376
 translate german cit15_naked_boobs_variant2_7a3ec9cc:
 
     # citizen15 "Ха-ха-ха. Девочки всегда так смешно пугаются."
     # citizen15 "И после такого они уже в моей власти!"
-    citizen15 "Ха-ха-ха. Девочки всегда так смешно пугаются."
-    citizen15 "И после такого они уже в моей власти!"
+    citizen15 "Hahaha. Mädels erschrecken immer so leicht."
+    citizen15 "Und danach gehören sie mir!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:379
 translate german cit15_naked_boobs_variant2_dd003b49:
 
     # m "Что? О чем вообще ты?"
-    m "Что? О чем вообще ты?"
+    m "Was? Von was redest du überhaupt?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:381
 translate german cit15_naked_boobs_variant2_e15102fb:
 
     # citizen15 "Ну как же, разве ты не чувствуешь мое превосходство?"
-    citizen15 "Ну как же, разве ты не чувствуешь мое превосходство?"
+    citizen15 "Fühlst du nicht meine Überlegenheit?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:383
 translate german cit15_naked_boobs_variant2_e612037c:
@@ -1277,23 +1277,23 @@ translate german cit15_naked_boobs_variant2_e612037c:
 translate german cit15_naked_boobs_variant2_0659a31d:
 
     # citizen15 "Разве не готова мне отдаться прямо здесь?"
-    citizen15 "Разве не готова мне отдаться прямо здесь?"
+    citizen15 "Willst du nicht, dass ich dich gleich jetzt nehme?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:387
 translate german cit15_naked_boobs_variant2_aee8cd78:
 
     # m "Знаешь что... Я не покажу тебе свою грудь..."
-    m "Знаешь что... Я не покажу тебе свою грудь..."
+    m "Weißt du was... Ich zeige dir nicht meine Brüste..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:389
 translate german cit15_naked_boobs_variant2_f64767f8:
 
     # citizen15 "Корчишь недотрогу? Такие девочки мне нравятся..."
-    citizen15 "Корчишь недотрогу? Такие девочки мне нравятся..."
+    citizen15 "Machst dich rar? Ich stehe auf solche Mädchen..."
 
 translate german strings:
 
     # Quests/EP2/Citizens/Citizen15_dialogue.rpy:207
     old "Мне нужны деньги..."
-    new ""
+    new "Ich brauche Geld!"
 
