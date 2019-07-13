@@ -13,6 +13,9 @@ label ep23_dialogues5_1:
     if cloth == "CasualDress1":
         img 11237
         with fade
+    if cloth == "WorkingOutfit1":
+        img 12766
+        with fade
     m "Алекс... А где Мелани?"
     alex_photograph "Мелани обычно бывает днем, Миссис Бакфетт..."
     "А зачем она Вам?"

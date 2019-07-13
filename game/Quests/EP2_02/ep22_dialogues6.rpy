@@ -120,6 +120,12 @@ label ep22_dialogue6_2:
         secretary "Мистер Биф лучше нас знает что нам необходимо."
         secretary "Мистер Биф заботится о нас..."
         img 11243
+    if cloth == "WorkingOutfit1":
+        img 12771
+        with fade
+        secretary "Мистер Биф лучше нас знает что нам необходимо."
+        secretary "Мистер Биф заботится о нас..."
+        img 12772
 
     #если Моника сегодня не просила деньги, то появляется меню выбора
     menu:
@@ -131,6 +137,8 @@ label ep22_dialogue6_2:
                 img 8284
             if cloth == "CasualDress1":
                 img 11244
+            if cloth == "WorkingOutfit1":
+                img 12773
 
             with fade
             secretary "Миссис Бакфетт! Я пока не видела зарплаты здесь, после Вашего ухода..."
@@ -143,6 +151,8 @@ label ep22_dialogue6_2:
                     img 8285
                 if cloth == "CasualDress1":
                     img 11240
+                if cloth == "WorkingOutfit1":
+                    img 12769
                 with fade
                 secretary "Мистер Биф лучше нас знает что нам необходимо."
             else:
@@ -154,6 +164,8 @@ label ep22_dialogue6_2:
                     img 8286
                 if cloth == "CasualDress1":
                     img 11245
+                if cloth == "WorkingOutfit1":
+                    img 12774
                 with fade
                 secretary "Да, Миссис Бакфетт!"
                 "Держите..."
@@ -197,12 +209,24 @@ label ep22_dialogue6_2b:
                     img 11244
                     m "Хорошо, дорогая, спасибо."
                 else:
-                    secretary "Миссис Бакфетт!"
-                    "Мистера Бифа сейчас нет на месте!"
-                    m "Когда он будет?"
-                    secretary "Он сказал что будет вечером!"
-                    "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
-                    m "Хорошо, дорогая, спасибо."
+                    if cloth == "WorkingOutfit1":
+                        #render
+                        img 12773
+                        secretary "Миссис Бакфетт!"
+                        "Мистера Бифа сейчас нет на месте!"
+                        img 12772
+                        m "Когда он будет?"
+                        img 12769
+                        secretary "Он сказал что будет вечером!"
+                        img 12773
+                        m "Хорошо, дорогая, спасибо."
+                    else:
+                        secretary "Миссис Бакфетт!"
+                        "Мистера Бифа сейчас нет на месте!"
+                        m "Когда он будет?"
+                        secretary "Он сказал что будет вечером!"
+                        "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+                        m "Хорошо, дорогая, спасибо."
             return False
         if day_time == "evening":
             if cloth == "Whore":
@@ -231,12 +255,25 @@ label ep22_dialogue6_2b:
                     img 11244
                     m "Хорошо, дорогая, спасибо."
                 else:
-                    secretary "Миссис Бакфетт!"
-                    "Мистера Бифа сейчас нет на месте!"
-                    m "Когда он будет?"
-                    secretary "Он сказал что будет завтра!"
-                    "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
-                    m "Хорошо, дорогая, спасибо."
+                    if cloth == "WorkingOutfit1":
+                        #render
+                        img 12773
+                        secretary "Миссис Бакфетт!"
+                        "Мистера Бифа сейчас нет на месте!"
+                        img 12772
+                        m "Когда он будет?"
+                        img 12769
+                        secretary "Он сказал что будет завтра!"
+                        "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+                        img 12773
+                        m "Хорошо, дорогая, спасибо."
+                    else:
+                        secretary "Миссис Бакфетт!"
+                        "Мистера Бифа сейчас нет на месте!"
+                        m "Когда он будет?"
+                        secretary "Он сказал что будет завтра!"
+                        "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+                        m "Хорошо, дорогая, спасибо."
             return False
     return
 
@@ -284,6 +321,14 @@ label ep22_dialogue6_3:
         "Есть-ли еще работа?"
         img 11251
         "Мне нужны деньги..."
+    if cloth == "WorkingOutfit1":
+        img 12779
+        with fade
+        m "Биф..."
+        "Я хотела узнать у тебя..."
+        "Есть-ли еще работа?"
+        img 12780
+        "Мне нужны деньги..."
 
     call process_hooks("photoshoots_work_available_check", "global") from _call_process_hooks_31
     if biffWeeklyPhotoShootEnabled == False or _return == False:
@@ -304,16 +349,24 @@ label ep22_dialogue6_3:
             "Ты пока еще не настолько полюбилась папочке!"
             img 11253
             mt "УРОД!!!"
+        if cloth == "WorkingOutfit1":
+            img 12781
+            with fade
+            biff "Нет, цыпочка!"
+            "Сейчас очередь других цыпочек!"
+            "Ты пока еще не настолько полюбилась папочке!"
+            img 12782
+            mt "УРОД!!!"
 
         # Проверка на то что Моника мало работала эти дни
         if 1 == 2:
-            img 11252
+            img 12781
             with fade
             biff "Нет, цыпочка!"
             biff "Ты слишком часто прогуливаешь работу!"
             "Сейчас очередь других цыпочек зарабатывать деньги!"
             "Цыпочек, которые не увиливают от посещения работы!"
-            img 11253
+            img 12782
             mt "УРОД!!!"
         menu:
             "Уйти...":
@@ -343,12 +396,26 @@ label ep22_dialogue6_3:
                     with fade
                     mt "Я НЕНАВИЖУ ЭТОГО УРОДА!!!"
                     "КОГДА Я ВЕРНУ СВОЕ МЕСТО НАЗАД?!?!"
+                if cloth == "WorkingOutfit1":
+                    img 12783
+                    with fade
+                    m "А если я пройду дополнительный кастинг?..."
+                    img 12784
+                    biff "Эта цыпочка пока слишком скучная для дополнительного кастинга!"
+                    "Я держу эту куклу только из-за того что она похожа на сучку Бакфетт!"
+                    "Иди и не отвлекай папочку! Ему нужно заботить о других цыпочках!"
+                    img 12782
+                    with fade
+                    mt "Я НЕНАВИЖУ ЭТОГО УРОДА!!!"
+                    "КОГДА Я ВЕРНУ СВОЕ МЕСТО НАЗАД?!?!"
                 return False
 
     if cloth == "Whore":
         img 8293
     if cloth == "CasualDress1":
         img 11256
+    if cloth == "WorkingOutfit1":
+        img 12785
     with fade
     biff "Да, цыпочка!"
     "Работа есть!"
@@ -363,6 +430,8 @@ label ep22_dialogue6_3:
             img 8295
         if cloth == "CasualDress1":
             img 11257
+        if cloth == "WorkingOutfit1":
+            img 12786
         mt "О БОЖЕ!!!"
         "Только не это!!!"
 
@@ -387,6 +456,16 @@ label ep22_dialogue6_3:
                 img 11259
                 m "Да, я понимаю, Биф..."
                 img 11253
+                mt "Сволочь!!!"
+            if cloth == "WorkingOutfit1":
+                img 12787
+                with fade
+                biff "Я знаю ты увиливаешь от кастинга, но тебе придется его пройти!"
+                "Иначе не будет карьерного роста!"
+                "Ты понимаешь?"
+                img 12788
+                m "Да, я понимаю, Биф..."
+                img 12782
                 mt "Сволочь!!!"
 
 
@@ -428,10 +507,20 @@ label ep22_dialogue6_4:
             img 11293
             m "Да... Я... Я купила его."
             m "И хватит задавать глупые вопросы!"
-
-
         img 11234
         alex_photograph "Вы хотите сделать еще одну фотосессию?"
+
+    if cloth == "WorkingOutfit1":
+        img 12761
+        with fade
+        alex_photograph "Миссис Бакфетт!"
+        "Здравствуйте!"
+        img 12762
+        m "Здравствуй, Алекс..."
+        img 12763
+        alex_photograph "Вы хотите сделать еще одну фотосессию?"
+
+
     menu:
         "Алекс... А где Мелани?" if monicaNeedToAskMelanieForHelp == True and day_time == "evening":
             call ep23_dialogues5_1() from _call_ep23_dialogues5_1
@@ -452,6 +541,8 @@ label ep22_dialogue6_4:
         img 6353
     if cloth == "CasualDress1":
         img 11233
+    if cloth == "WorkingOutfit1":
+        img 12762
     mt "!!!"
     $ restore_music()
     return
@@ -479,6 +570,15 @@ label ep22_dialogue6_5:
         img 11233
         m "Здравствуй, Алекс..."
         img 11234
+        alex_photograph "Вы хотите сделать еще одну фотосессию?"
+    if cloth == "WorkingOutfit1":
+        img 12761
+        with fade
+        alex_photograph "Миссис Бакфетт!"
+        "Здравствуйте!"
+        img 12762
+        m "Здравствуй, Алекс..."
+        img 12763
         alex_photograph "Вы хотите сделать еще одну фотосессию?"
 
     menu:
@@ -531,6 +631,23 @@ label ep22_dialogue6_5:
         img 11236
         w
 
+    if cloth == "WorkingOutfit1":
+        img 12764
+        mt "Дьявол! Не знаю куда эти грязные фотосессии меня заведут!"
+        "Надо кончать с этим скорее!"
+
+        img 12763
+        with fade
+        alex_photograph "Миссис Бакфетт!"
+        "Вы уже знаете кем в каком наряде Вы будете сниматься в этот раз?"
+
+        img 12762
+        m "Еще не знаю..."
+        "Что там Биф придумал на этот раз?"
+
+        img 12765
+        w
+
     return True
 
 label ep22_dialogue6_5a:
@@ -559,6 +676,20 @@ label ep22_dialogue6_5a:
         img 11248
         alex_photograph "Нет, Миссис Бакфетт, она открыта..." #грустно
         img 11249
+        with fade
+        m "Я скоро вернусь!"
+
+    if cloth == "WorkingOutfit1":
+        img 12776
+        with fade
+        alex_photograph "Отлично, Миссис Бакфетт!"
+        "Можете переодеваться здесь! Я не буду смотреть!"
+        img 12775
+        m "Я переоденусь в гримерке!"
+        "Надеюсь Мелани не закрыла ее в этот раз?"
+        img 12777
+        alex_photograph "Нет, Миссис Бакфетт, она открыта..." #грустно
+        img 12778
         with fade
         m "Я скоро вернусь!"
 
@@ -659,6 +790,8 @@ label ep22_dialogue6_7:
         img 8298
     if cloth == "CasualDress1":
         img 11262
+    if cloth == "WorkingOutfit1":
+        img 12791
     with fade
     m "Биф! Я сделала фотосессию!"
     "Где мои деньги?"
@@ -677,6 +810,8 @@ label ep22_dialogue6_7:
                     img 8290
                 if cloth == "CasualDress1":
                     img 11263
+                if cloth == "WorkingOutfit1":
+                    img 12792
 
                 with fade
                 mt "Я лучше уйду без денег, чем скажу это снова!!!"
@@ -686,6 +821,8 @@ label ep22_dialogue6_7:
             img 8299
         if cloth == "CasualDress1":
             img 11264
+        if cloth == "WorkingOutfit1":
+            img 12793
         with fade
         m "Моника хорошая цыпочка."
         "Моника заслужила денежку..."
@@ -707,6 +844,8 @@ label ep22_dialogue6_7:
             img 8302
         if cloth == "CasualDress1":
             img 11265
+        if cloth == "WorkingOutfit1":
+            img 12794
         biff "Цыпочке купить такой же сертификат как обычно?"
         m "Да..."
 
@@ -720,6 +859,8 @@ label ep22_dialogue6_7:
         img 8304
     if cloth == "CasualDress1":
         img 11266
+    if cloth == "WorkingOutfit1":
+        img 12795
     with fade
 
     #
@@ -781,6 +922,34 @@ label ep22_dialogue6_7:
             img 11272
             m "В этом нет... необходимости"
 
+        if cloth == "WorkingOutfit1":
+            img 12796
+            with fade
+            biff "Да, цыпочка!"
+            biff "На следующей неделе я не нуждаюсь в твоих услугах!"
+            biff "Приходи позднее!"
+            img 12797
+            music Power_Bots_Loop
+            m "КАК?!!"
+            m "Биф, но ты говорил что это регулярная работа!"
+            img 12796
+            with fade
+            biff "Это регулярная работа, цыпочка. Но на следующей неделе ты мне не нужна."
+            img 12798
+            with fade
+            mt "Дьявол! Где же я достану деньги для Виктории!"
+            music Groove2_85
+            img 12799
+            with fade
+            m "Биф, хорошо, но мне все-равно нужны деньги..."
+            img 8294
+            biff "Цыпочка! Ты начинаешь утомлять папочку!"
+            biff "Тебя что-то не устраивает? Ты хочешь разорвать наше соглашение?"
+            img 12800
+            with fade
+            m "Нет... Биф..."
+            img 12801
+            m "В этом нет... необходимости"
 label ep22_dialogue6_7b:
     menu:
         "Ты что-то говорил по поводу работы в офисе?":
