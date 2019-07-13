@@ -1338,3 +1338,23 @@ translate english ep22_dialogue6_7b_a87b3214_1:
     m "Can I go?"
     biff "Yeah, girl! Go!"
 
+# TODO: Translation updated at 2019-07-02 20:56
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:312
+translate english ep22_dialogue6_3_164b6c35:
+
+    # biff "Нет, цыпочка!"
+    # biff "Ты слишком часто прогуливаешь работу!"
+    # "Сейчас очередь других цыпочек зарабатывать деньги!"
+    # "Цыпочек, которые не увиливают от посещения работы!"
+    biff "No, girl!"
+    biff "Ты слишком часто прогуливаешь работу!"
+    "Сейчас очередь других цыпочек зарабатывать деньги!"
+    "Цыпочек, которые не увиливают от посещения работы!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:317
+translate english ep22_dialogue6_3_f27eb96d_2:
+
+    # mt "УРОД!!!"
+    mt "FREAK!!!"
+

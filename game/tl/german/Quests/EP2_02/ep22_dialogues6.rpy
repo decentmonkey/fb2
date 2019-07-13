@@ -1528,3 +1528,23 @@ translate german ep22_dialogue6_7b_a87b3214_1:
     m "Kann ich gehen?"
     biff "Ja, Chick, geh!"
 
+# TODO: Translation updated at 2019-07-02 20:57
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:312
+translate german ep22_dialogue6_3_164b6c35:
+
+    # biff "Нет, цыпочка!"
+    # biff "Ты слишком часто прогуливаешь работу!"
+    # "Сейчас очередь других цыпочек зарабатывать деньги!"
+    # "Цыпочек, которые не увиливают от посещения работы!"
+    biff "Nein, Chick!"
+    biff "Ты слишком часто прогуливаешь работу!"
+    "Сейчас очередь других цыпочек зарабатывать деньги!"
+    "Цыпочек, которые не увиливают от посещения работы!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:317
+translate german ep22_dialogue6_3_f27eb96d_2:
+
+    # mt "УРОД!!!"
+    mt "FREAK!!!"
+

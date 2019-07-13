@@ -1050,3 +1050,325 @@ translate german strings:
     old "Не хочу."
     new "Ich will das nicht."
 
+# TODO: Translation updated at 2019-07-02 18:58
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:424
+translate german cit6_naked_boobs_1st_0b3ab79a:
+
+    # citizen6 "Я никак не могу забыть нашу первую встречу..."
+    citizen6 "Ich kann unser erstes Treffen nicht vergessen..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:426
+translate german cit6_naked_boobs_1st_850cc06d:
+
+    # mt "А вот я бы ее с радостью забыла..."
+    mt "Und ich würde es lieber vergessen."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:428
+translate german cit6_naked_boobs_1st_b645277f:
+
+    # citizen6 "Как насчет того, чтобы показать мне свои сиськи? Ну уже без этой ненужной курточки?"
+    citizen6 "Wie wärs wenn du deine Titten zeigst? Aber ohne diese unnütze Jacke."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:430
+translate german cit6_naked_boobs_1st_c3fd8f21:
+
+    # m "И почему я должны согласиться?"
+    m "Und warum sollte ich das tun?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:432
+translate german cit6_naked_boobs_1st_f9489127:
+
+    # citizen6 "Если ты не помнишь, я тебя спас! А вообще район тут опасный, если ты понимаешь о чем я..."
+    citizen6 "Ich habe dich letztes Mal gerettet. Und diese Gegend ist recht unsicher, wenn du weißt, was ich meine..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:434
+translate german cit6_naked_boobs_1st_8fa2d3f9:
+
+    # mt "К чему это он?"
+    mt "Von was redet er? Ist der irre?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:436
+translate german cit6_naked_boobs_1st_954f6417:
+
+    # citizen6 "Ну дак что, как насчет сисек?"
+    citizen6 "Gut, was denkst du?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:446
+translate german cit6_naked_boobs_1st_f9d1d2fe:
+
+    # mt "Думаю, лучше это сделать, а то мало ли что..."
+    mt "Ich denke, es ist besser es zu tun, wer weiß, was sonst passiert..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:448
+translate german cit6_naked_boobs_1st_7ce38ba3:
+
+    # m "Отвернись!"
+    m "Dreh dich um!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:450
+translate german cit6_naked_boobs_1st_63ee3656:
+
+    # citizen6 "Вот это другой разговор."
+    citizen6 "Das gefällt mir!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:455
+translate german cit6_naked_boobs_1st_49adc490:
+
+    # m "Можешь повернуться."
+    # m "Но руками не трогать!"
+    m "Du kannst wieder herschauen."
+    m "Aber nicht anfassen!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:465
+translate german cit6_naked_boobs_1st_1954bee2:
+
+    # citizen6 "Ха! Вот это класс!"
+    # citizen6 "Я был бы готов каждый день давать тебе по 100 баксов, если бы ты так ходила!"
+    citizen6 "Ha! Toll!"
+    citizen6 "Wenn du weiter so gehst, gebe ich dir $ 100 täglich."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:468
+translate german cit6_naked_boobs_1st_a8671703:
+
+    # mt "Не в этой жизни..."
+    mt "Nicht in diesem Leben..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:475
+translate german cit6_naked_boobs_1st_f0da106b:
+
+    # citizen6 "Шикарные сиськи!"
+    citizen6 "Nette Titten!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:484
+translate german cit6_naked_boobs_1st_23d9e525:
+
+    # m "Ну ладно, хватит с тебя."
+    m "Das reicht für jetzt."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:486
+translate german cit6_naked_boobs_1st_c048bbb9:
+
+    # citizen6 "Слабовато, но ничего, хватит для первого раза."
+    citizen6 "Etwas schwach, aber ok fürs erste Mal."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:488
+translate german cit6_naked_boobs_1st_b76ee427:
+
+    # mt "Может даже и последнего..."
+    mt "Das Erste und Letzte..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:495
+translate german cit6_naked_boobs_variant1_dcc8ae4b:
+
+    # citizen6 "Я уже успел соскучиться по твоим сиськам!"
+    citizen6 "Ich vermisse deine Titten bereits!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:497
+translate german cit6_naked_boobs_variant1_29a26742:
+
+    # mt "Да неужели..."
+    mt "Ach wirklich..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:499
+translate german cit6_naked_boobs_variant1_2dab4b17:
+
+    # citizen6 "Покажи мне их еще раз!"
+    citizen6 "Zeig sie mir nochmal!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:511
+translate german cit6_naked_boobs_variant1_02713995:
+
+    # m "Хорошо"
+    m "Was auch immer."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:513
+translate german cit6_naked_boobs_variant1_179b4073:
+
+    # m "Только руками не трогать!"
+    m "Nicht anfassen!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:515
+translate german cit6_naked_boobs_variant1_bc650a51:
+
+    # citizen6 "Ладно, ладно! Можно и не говорить об этом каждый раз!"
+    citizen6 "Gut, gut! Du kannst aufhören, davon jedes Mal zu reden!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:524
+translate german cit6_naked_boobs_variant1_57b46aee:
+
+    # citizen6 "О да! Как же ты меня заводишь!"
+    citizen6 "Oh ja! Du bist so reizend!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:531
+translate german cit6_naked_boobs_variant1_73358c8c:
+
+    # citizen6 "Черт, это просто супер!"
+    citizen6 "Verdammt, einfach großartig!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:538
+translate german cit6_naked_boobs_variant1_9cd45c90:
+
+    # citizen6 "Ну все, теперь мне надо к шлюхам. Хотя..."
+    citizen6 "Gut, das wars jetzt. Jetzt muss ich zu einer Nutte gehen. Hmm..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:545
+translate german cit6_naked_boobs_variant1_2c6ee995:
+
+    # citizen6 "Детка, ты готов отсосать за 20 баксов?"
+    citizen6 "Babe, bläst du mir einen für $ 20?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:549
+translate german cit6_naked_boobs_variant1_d4fdf7f5:
+
+    # m "Только за 20 тысяч баксов."
+    m "Wohl eher für $ 20 000"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:551
+translate german cit6_naked_boobs_variant1_41347d44:
+
+    # citizen6 "А ты шутница! Да за такие деньги я трахну кого захочу!"
+    citizen6 "Was für ein Scherzkeks! Ich könnte für das Geld jede ficken!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:553
+translate german cit6_naked_boobs_variant1_661535ab:
+
+    # mt "Господи, что я говорю? Неужели я гототова сделать такое..."
+    mt "Meine Güte, was sage ich da überhaupt? Bin ich wirklich bereit, das zu tun?..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:557
+translate german cit6_naked_boobs_variant1_9be3fbf8:
+
+    # m "Я тебе сейчас нос сломаю!"
+    m "Ich werde dir die Nase brechen!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:559
+translate german cit6_naked_boobs_variant1_075a8fb5:
+
+    # citizen6 "Да ладно тебе, хочешь больше?"
+    # citizen6 "Хорошо, 23 бакса! Хорошая цена!"
+    citizen6 "Wirklich? Willst du mehr?"
+    citizen6 "Gut, dann $ 23!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:562
+translate german cit6_naked_boobs_variant1_e5784c98:
+
+    # m "Еще слово и тебе конец!"
+    m "Noch ein Wort, und du bist ein toter Mann!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:564
+translate german cit6_naked_boobs_variant1_18b8c082:
+
+    # citizen6 "Ладно, не кипятись! Так бы и сказала, что не хочешь..."
+    citizen6 "Gut, sei nicht sauer! Du hättest auch einfach sagen können, dass du nicht willst..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:567
+translate german cit6_naked_boobs_variant1_30b75344:
+
+    # m "Хватит с тебя."
+    m "Das reicht."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:569
+translate german cit6_naked_boobs_variant1_7c64e520:
+
+    # citizen6 "Да и пожалуйста, я и получше сиськи видел!"
+    citizen6 "Was auch immer, ich habe schon Besseres gesehen!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:585
+translate german cit6_naked_boobs_variant2_7ce38ba3:
+
+    # m "Отвернись!"
+    m "Dreh dich um!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:592
+translate german cit6_naked_boobs_variant2_ebbe3470:
+
+    # m "Можешь повернуться."
+    # m "Только руками не трогать!"
+    m "Du kannst wieder herschauen."
+    m "Nicht anfassen!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:595
+translate german cit6_naked_boobs_variant2_35de4719:
+
+    # citizen6 "Да сколько уже можно об этом?"
+    citizen6 "Können wir was anderes machen?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:602
+translate german cit6_naked_boobs_variant2_4ef7930c:
+
+    # citizen6 "Класс! Сногсшибательные сиськи!"
+    citizen6 "Unglaublich! Atemberaubende Titten!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:609
+translate german cit6_naked_boobs_variant2_e5b3a443:
+
+    # citizen6 "Да, еще немного!"
+    citizen6 "Ja, noch ein bisschen mehr!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:616
+translate german cit6_naked_boobs_variant2_b4ff33e8:
+
+    # citizen6 "Шикарно!"
+    citizen6 "Toll!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:623
+translate german cit6_naked_boobs_variant2_1490c26d:
+
+    # citizen6 "Знаешь, я хочу, чтобы ты прошлась немного."
+    citizen6 "Ich hätte gerne, dass du etwas spazierst."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:625
+translate german cit6_naked_boobs_variant2_cc5b6ce5:
+
+    # m "Не поняла..."
+    m "Ich verstehe nicht ganz..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:627
+translate german cit6_naked_boobs_variant2_8d5d07ba:
+
+    # citizen6 "А что не понятно то? Пилон стоит у стены, пройдись до другой стены и обратно."
+    citizen6 "Was verstehst du daran nicht? Die Stange ist hier, geh zur anderen Wand und wieder zurück."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:629
+translate german cit6_naked_boobs_variant2_4cd7e74d:
+
+    # m "Зачем это вообще?"
+    m "Warum?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:631
+translate german cit6_naked_boobs_variant2_f61c1c77:
+
+    # citizen6 "Что за вопросы? Я плачу, ты делаешь."
+    citizen6 "Fragen über Fragen. Ich schaffe an und du machst das!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:633
+translate german cit6_naked_boobs_variant2_2350e6ca:
+
+    # mt "Какого черта? Возможно стоит согласиться, ведь ничего в этом такого нет..."
+    mt "Was zum Teufel? Soll ich das machen? Sieht nicht nach etwas komischem aus..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:652
+translate german cit6_naked_boobs_variant2_c65b21d2:
+
+    # m "Не хочу! Я не собираюсь этого делать!"
+    m "Ich will das nicht, das mache ich nicht!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:654
+translate german cit6_naked_boobs_variant2_b2a6e580:
+
+    # citizen6 "Ну и черт с тобой!"
+    citizen6 "Zur Hölle mit dir!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:657
+translate german cit6_naked_boobs_variant2_e904362e:
+
+    # m "Ладно, хватит с тебя того, что ты уже видел."
+    m "Das ist genug für dich."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:659
+translate german cit6_naked_boobs_variant2_7c64e520:
+
+    # citizen6 "Да и пожалуйста, я и получше сиськи видел!"
+    citizen6 "Was auch immer, ich habe schon Besseres gesehen!"
+

@@ -598,3 +598,367 @@ translate german cit5_naked_boobs_variant2_a8e5f954:
     citizen5 "Keine Ahnung, aber du bist nun Millionärin!!"
     mt "Verdammt, er ist nur ein Idiot, es macht keinen Sinn, mit ihm zu reden..."
 
+# TODO: Translation updated at 2019-07-02 18:58
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:203
+translate german cit5_naked_boobs_1st_73300a7f:
+
+    # citizen5 "Может быть ты согласна показать мне свои груди?"
+    citizen5 "Vielleicht willst du mir deine Titten zeigen?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:205
+translate german cit5_naked_boobs_1st_b9c34504:
+
+    # m "Думаю, ты уже их видел."
+    m "Ich denke, die hast du schon gesehen."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:207
+translate german cit5_naked_boobs_1st_667e34b1:
+
+    # citizen5 "Да, конечно, но было бы прекрасно их оголить. У мистера есть деньги! Много денег!"
+    citizen5 "Ja, natürlich, aber ich will sie nackt sehen. Ich habe einen Haufen Geld! Einen Haufen!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:209
+translate german cit5_naked_boobs_1st_e0aedf68:
+
+    # mt "Он выглядит не очень умным... Возможно это мой шанс получить несколько сотен, а может быть и тысяч долларов..."
+    mt "Er wirkt nicht sehr helle, vielleicht kann ich hunderte, oder sogar tausende Dollar aus ihm raus pressen..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:211
+translate german cit5_naked_boobs_1st_4b8a4f92:
+
+    # m "И сколько же у мистера денег?!"
+    m "Und wieviel Geld hast du?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:213
+translate german cit5_naked_boobs_1st_fab9f5e3:
+
+    # citizen5 "У мистера очень много денег! Тебе нужно верить мистеру!"
+    # citizen5 "Дак ты оголишь свои груди?"
+    citizen5 "Sehr viel, du musst mir nur glauben!"
+    citizen5 "Also, machst du es?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:224
+translate german cit5_naked_boobs_1st_7ce38ba3:
+
+    # m "Отвернись!"
+    m "Dreh dich um!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:226
+translate german cit5_naked_boobs_1st_237841fd:
+
+    # citizen5 "Да, конечно, мистер отвернется."
+    citizen5 "Ja, aber du musst dich umdrehen."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:231
+translate german cit5_naked_boobs_1st_49adc490:
+
+    # m "Можешь повернуться."
+    # m "Но руками не трогать!"
+    m "Du kannst wieder herschauen."
+    m "Aber nicht anfassen!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:239
+translate german cit5_naked_boobs_1st_2bbf067f:
+
+    # citizen5 "Невероятно! Именно такими я себе их и представлял!"
+    # citizen5 "Они изумительны!"
+    citizen5 "Großartig! Wie ich es mir vorgestellt habe!"
+    citizen5 "Sie sind atemberaubend!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:242
+translate german cit5_naked_boobs_1st_49b6e024:
+
+    # mt "Ну прямо мастер комплиментов..."
+    mt "So ein Meister der Komplimente..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:249
+translate german cit5_naked_boobs_1st_45d41d7b:
+
+    # citizen5 "Какая красота!"
+    citizen5 "Welch Schönheit!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:258
+translate german cit5_naked_boobs_1st_23d9e525:
+
+    # m "Ну ладно, хватит с тебя."
+    m "Das reicht für jetzt."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:260
+translate german cit5_naked_boobs_1st_a2856b6c:
+
+    # citizen5 "Как? Мистер еще не до конца насладился!"
+    citizen5 "Was? Aber ich bin noch nicht zufrieden!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:262
+translate german cit5_naked_boobs_1st_4da0c10c:
+
+    # m "А где деньги мистера?"
+    m "Und wo ist das Geld?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:264
+translate german cit5_naked_boobs_1st_a8262e3f:
+
+    # citizen5 "У меня нет сегодня моих миллионов! Только несколько зеленых бумажек. Но ты их получишь."
+    citizen5 "Ich habe meine Millionen heute nicht dabei, nur ein paar grüne Scheine, aber du wirst sie bekommen."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:266
+translate german cit5_naked_boobs_1st_e7279581:
+
+    # mt "Миллионов? Интересно, это правда? Хотя вряд ли у него столько денег..."
+    mt "Millionen? Ich frage mich, ob das stimmt. Ich habe da gewisse Zweifel..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:268
+translate german cit5_naked_boobs_1st_d8ff3634:
+
+    # m "Ну раз миллионов нет, тогда на сегодня все."
+    m "Wenn du keine Millionen hast, dann ist das für heute vorbei."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:270
+translate german cit5_naked_boobs_1st_de505d84:
+
+    # citizen5 "Ооо...Ну ничего, скоро ты их увидишь!"
+    citizen5 "He, keine Panik, du wirst sie bald sehen!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:277
+translate german cit5_naked_boobs_variant1_8fbd4e55:
+
+    # citizen5 "Оголи свои манящие груди."
+    citizen5 "Mach deine wunderbare Brust frei."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:279
+translate german cit5_naked_boobs_variant1_5cd60a6f:
+
+    # mt "Ему бы книги писать..."
+    mt "Er könnte Autor sein..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:291
+translate german cit5_naked_boobs_variant1_94420ba9:
+
+    # m "Хорошо."
+    m "Na gut."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:295
+translate german cit5_naked_boobs_variant1_179b4073:
+
+    # m "Только руками не трогать!"
+    m "Nicht anfassen!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:304
+translate german cit5_naked_boobs_variant1_1803aed7:
+
+    # citizen5 "Лучезарно! Кажется, в такие моменты я попадаю в рай!"
+    citizen5 "Momente wie dieser lassen mich auf der siebten Wolke schweben!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:306
+translate german cit5_naked_boobs_variant1_30cb4acf:
+
+    # mt "Ого... Да он прямо поплыл! Кажется, он говорил о миллионах..."
+    mt "Wow! Als würde er schmelzen! Ich dachte, er redet von Millionen..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:313
+translate german cit5_naked_boobs_variant1_db2b84c9:
+
+    # m "Тебе нравится?"
+    m "Gefällt es dir?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:315
+translate german cit5_naked_boobs_variant1_bf7ce6d0:
+
+    # citizen5 "О да! Это великолепно!"
+    citizen5 "Oh ja, wahnsinn!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:322
+translate german cit5_naked_boobs_variant1_f5b21970:
+
+    # citizen5 "Мне кажется, я видел их во сне! Или я гулял между холмов..."
+    citizen5 "Ich glaube, ich habe sie in meinen Träumen gesehen. Oder bin ich da zwischen Hügeln spazieren gegangen?..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:324
+translate german cit5_naked_boobs_variant1_1f2af0c6:
+
+    # m "Кстати, кажется, ты в прошлый раз говорил о миллионах?"
+    m "Du hast letztens von Millionen gesprochen?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:326
+translate german cit5_naked_boobs_variant1_ea354736:
+
+    # citizen5 "Да, да! У мистера есть миллионы!"
+    citizen5 "Ja, Ja! Ich habe Millionen!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:333
+translate german cit5_naked_boobs_variant1_b009a113:
+
+    # m "Может быть ты дашь мне несколько?"
+    m "Kannst du mir ein paar abgeben?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:340
+translate german cit5_naked_boobs_variant1_92979b23:
+
+    # citizen5 "Да, конечно! Мистер даст тебе много миллионов! Но они у мистера дома."
+    citizen5 "Ja natürlich! Ich werde dir viele Millionen abgeben. Aber ich muss sie von zu Hause holen."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:342
+translate german cit5_naked_boobs_variant1_f2f32a13:
+
+    # mt "Что он несет? Неужели у него и правда есть столько денег..."
+    mt "Kann das sein? Hat er wirklich so viel Geld?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:344
+translate german cit5_naked_boobs_variant1_d3de205f:
+
+    # m "Чтож, тогда на сегодня все."
+    m "Gut, dann wars das für heute."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:346
+translate german cit5_naked_boobs_variant1_63a9af01:
+
+    # citizen5 "Ох, какая жалость! Мне очень стыдно, но я принесу мои миллионы в следующий раз!"
+    citizen5 "Was für eine Schande! Keine Sorge, nächstes Mal bringe ich die Millionen!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:348
+translate german cit5_naked_boobs_variant1_82538c92:
+
+    # m "Хорошо, буду ждать."
+    m "Gut, ich warte hier!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:354
+translate german cit5_naked_boobs_variant2_8fbd4e55:
+
+    # citizen5 "Оголи свои манящие груди."
+    citizen5 "Mach deine wunderbare Brust frei."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:356
+translate german cit5_naked_boobs_variant2_5cd60a6f:
+
+    # mt "Ему бы книги писать..."
+    mt "Er könnte Autor sein..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:366
+translate german cit5_naked_boobs_variant2_7ce38ba3:
+
+    # m "Отвернись!"
+    m "Dreh dich um!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:373
+translate german cit5_naked_boobs_variant2_ebbe3470:
+
+    # m "Можешь повернуться."
+    # m "Только руками не трогать!"
+    m "Du kannst wieder herschauen."
+    m "Nicht anfassen!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:381
+translate german cit5_naked_boobs_variant2_545c80b1:
+
+    # citizen5 "Мистер вспомнил! Он принес деньги! Очень много денег!"
+    citizen5 "Ich erinnere mich! Ich habe Geld, viel Geld, dabei!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:383
+translate german cit5_naked_boobs_variant2_9831ec73:
+
+    # mt "Серьезно?! Думаю, стоит ему подиграть..."
+    mt "Ernsthaft? Ich spiele mal mit..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:385
+translate german cit5_naked_boobs_variant2_238a5252:
+
+    # m "Мистер обещал дать мне много миллионов!"
+    m "Du hast mir versprochen mir viele Millionen zu geben!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:392
+translate german cit5_naked_boobs_variant2_cfcfe161:
+
+    # m "Мистеру нравится?"
+    m "Genießt du den Anblick?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:394
+translate german cit5_naked_boobs_variant2_6c744542:
+
+    # citizen5 "Конечно да!"
+    citizen5 "Natürlich!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:401
+translate german cit5_naked_boobs_variant2_bf333cf9:
+
+    # m "Мистер готов дать мне 400 миллионов?"
+    m "Willst du mir 400 Millionen geben?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:408
+translate german cit5_naked_boobs_variant2_42222b29:
+
+    # citizen5 "Да, да, готов! Но у мистера небольшое условие."
+    # citizen5 "Мистер хочет увидеть на тебе это."
+    citizen5 "Ja, ja, will ich! Aber ich habe eine kleine Bedingung."
+    citizen5 "Ich will dich darin sehen!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:414
+translate german cit5_naked_boobs_variant2_211523c8:
+
+    # citizen5 "Мистер будет очень благодарен когда увидит на тебе это."
+    citizen5 "Dann bin ich sehr dankbar."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:416
+translate german cit5_naked_boobs_variant2_34e95c84:
+
+    # mt "Что это еще такое?! Что делать?"
+    mt "Was ist das? Was muss ich machen?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:426
+translate german cit5_naked_boobs_variant2_d672b47b:
+
+    # mt "Черт, а что если у него и правда есть много денег..."
+    # m "Хорошо, но только быстро."
+    mt "Verdammt, aber was, wenn er wirklich so reich ist?..."
+    m "Gut, aber schnell."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:434
+translate german cit5_naked_boobs_variant2_67ab9c9a:
+
+    # citizen5 "Это самое лучшее представление, которое я видел!"
+    # citizen5 "Подожди, постой так немного!"
+    citizen5 "Das ist die beste Darbietung, die ich je gesehen habe!"
+    citizen5 "Warte, bleib kurz so."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:442
+translate german cit5_naked_boobs_variant2_bf12b082:
+
+    # citizen5 "Ох, это нечто!"
+    citizen5 "Wow, das ist mal was Anderes!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:449
+translate german cit5_naked_boobs_variant2_a3813f30:
+
+    # citizen5 "Мистер очень доволен, вот твои миллионы!"
+    citizen5 "Ich bin sehr zufrieden, hier sind deine Millionen!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:454
+translate german cit5_naked_boobs_variant2_b47c3e90:
+
+    # m "Что это такое?"
+    m "Was ist das?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:456
+translate german cit5_naked_boobs_variant2_0d27384e:
+
+    # citizen5 "Я даю тебе миллионы долларов!"
+    citizen5 "Ich gebe dir deine Millionen Dollar!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:458
+translate german cit5_naked_boobs_variant2_e4592b8c:
+
+    # m "Зимбабве?! Да не них здесь ничего не купить!"
+    m "Zimbabwe? Damit kannst du dir hier rein gar nichts kaufen!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:460
+translate german cit5_naked_boobs_variant2_e792003f:
+
+    # citizen5 "Мистер не знает, но ты теперь миллионер!!!"
+    citizen5 "Keine Ahnung, aber du bist nun Millionärin!!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:462
+translate german cit5_naked_boobs_variant2_c7cdd0e4:
+
+    # mt "Черт, похоже он очень глуп, даже говорить с ним нет смысла..."
+    mt "Verdammt, er ist nur ein Idiot, es macht keinen Sinn, mit ihm zu reden..."
+

@@ -578,3 +578,331 @@ translate english strings:
     old "Закрыть глаза."
     new "Close the eyes."
 
+# TODO: Translation updated at 2019-07-02 18:59
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:269
+translate english cit9_naked_boobs_1st_42e7e985:
+
+    # citizen9 "Эй дамочка, ты же хочешь еще доллар?"
+    citizen9 "Hey lady, want another dollar?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:271
+translate english cit9_naked_boobs_1st_e612037c:
+
+    # m "..."
+    m "..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:273
+translate english cit9_naked_boobs_1st_dbf0357f:
+
+    # citizen9 "Дамочка, когда тебя спрашивают, нужно отвечать!"
+    citizen9 "You have to give answer when asked, lady!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:275
+translate english cit9_naked_boobs_1st_4f257880:
+
+    # mt "Проклятье, мне нужны деньги..."
+    # m "Да."
+    mt "Damn it, I need money..."
+    m "Yes."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:278
+translate english cit9_naked_boobs_1st_1c2b5b7a:
+
+    # citizen9 "А вот и славно! Давай посмотрим что ты прячешь под кофточкой!"
+    citizen9 "Great! Now let's see what are you hiding under your sweater!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:280
+translate english cit9_naked_boobs_1st_dbfbf79c:
+
+    # m "Под ней ничего нет..."
+    m "There is nothing there..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:282
+translate english cit9_naked_boobs_1st_a7f0a7ed:
+
+    # citizen9 "Да, кроме твоих сисечек! Покажи их мне!"
+    citizen9 "Yes, apart from your tits! Show them to me!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:292
+translate english cit9_naked_boobs_1st_98693e75:
+
+    # m "Хорошо."
+    # m "Отвернись!"
+    m "Fine."
+    m "Turn around!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:295
+translate english cit9_naked_boobs_1st_17b7d603:
+
+    # citizen9 "Ох, какая ты скучная..."
+    citizen9 "Eh, you are so boring..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:300
+translate english cit9_naked_boobs_1st_49adc490:
+
+    # m "Можешь повернуться."
+    # m "Но руками не трогать!"
+    m "You can turn back."
+    m "But no touching!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:308
+translate english cit9_naked_boobs_1st_7c2668e3:
+
+    # citizen9 "Ууу! Просто бомба!"
+    # citizen9 "Шикарно."
+    citizen9 "Woah! Simply a bomb!"
+    citizen9 "So fancy."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:316
+translate english cit9_naked_boobs_1st_412d042b:
+
+    # citizen9 "Слушай, а не найдется лу у тебя косячка?"
+    # citizen9 "Зрелище стало бы куда интереснее."
+    citizen9 "Hey, do you have anything to smoke?"
+    citizen9 "It would make everything so much better."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:324
+translate english cit9_naked_boobs_1st_9d28ea2e:
+
+    # citizen9 "Ну ладно, можешь не отвечать..."
+    citizen9 "Oh well, you can keep silent..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:331
+translate english cit9_naked_boobs_1st_937fcd00:
+
+    # citizen9 "А ты ниче такая! Горячая штучка!"
+    # citizen9 "Я бы тебя каждый день..."
+    citizen9 "You are not so bad! Hot stuff!"
+    citizen9 "Every single day I would..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:334
+translate english cit9_naked_boobs_1st_1bcfdef1:
+
+    # m "Ну ладно, хватит!"
+    m "That's enough!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:336
+translate english cit9_naked_boobs_1st_0d4b0272:
+
+    # citizen9 "Ну что ты за обломщица?"
+    citizen9 "Why are you such a party pooper?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:338
+translate english cit9_naked_boobs_1st_07b74a89:
+
+    # m "Хорошего понемногу."
+    m "Don’t get too used to good things."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:345
+translate english cit9_naked_boobs_variant1_c7684c26:
+
+    # citizen9 "Йо! Дамочка, давай заценим твои сисечки еще разок!"
+    citizen9 "Yo! Lady, show us your tits again!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:347
+translate english cit9_naked_boobs_variant1_1600b177:
+
+    # m "..."
+    # mt "Грязный наркоман... Но мне нужны деньги."
+    m "..."
+    mt "Dirty drug junkie... But I need money."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:350
+translate english cit9_naked_boobs_variant1_de8e7211:
+
+    # citizen9 "Какая же ты некультурная. Нужно отвечать 'Давай!', а ты молчишь..."
+    # citizen9 "Ну дак что, глянем на твоих подружек еще разок?"
+    citizen9 "Какая же ты некультурная. Нужно отвечать 'Давай!', а ты молчишь..."
+    citizen9 "So, are you going to show your pair again or not?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:361
+translate english cit9_naked_boobs_variant1_98693e75:
+
+    # m "Хорошо."
+    # m "Отвернись!"
+    m "Fine."
+    m "Turn around!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:364
+translate english cit9_naked_boobs_variant1_fb62e017:
+
+    # citizen9 "..."
+    citizen9 "..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:373
+translate english cit9_naked_boobs_variant1_c29a4061:
+
+    # m "Какого черта?!"
+    m "What the hell?!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:375
+translate english cit9_naked_boobs_variant1_289144c0:
+
+    # citizen9 "Эй, детка, все путем!"
+    citizen9 "Hey, babe, everything is cool!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:377
+translate english cit9_naked_boobs_variant1_fb324aa6:
+
+    # m "Ничего не путем! Я просила тебя отвернуться."
+    m "Nothing is cool! I told you to turn around."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:379
+translate english cit9_naked_boobs_variant1_a21da3f6:
+
+    # citizen9 "Эй, дамочка, все честно! Да, просила, но я же не ответил."
+    citizen9 "Lady, yes you told me, but I didn’t agree to this."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:381
+translate english cit9_naked_boobs_variant1_18ea3342:
+
+    # m "Все, я ухожу..."
+    m "Enough, I'm getting out of here..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:383
+translate english cit9_naked_boobs_variant1_3140954b:
+
+    # citizen9 "Йо, дамочка, так дела не делаются."
+    # citizen9 "Ладно, вот твой доллар, все путем да?"
+    citizen9 "That's not how business is done."
+    citizen9 "Fine, here is your dollar, we cool?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:386
+translate english cit9_naked_boobs_variant1_ff788d57:
+
+    # m "..."
+    # m "Да."
+    # mt "Проклятье, Моника, до чего ты дошла..."
+    m "..."
+    m "Yes."
+    mt "Damn it, Monica. How far have you fallen..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:390
+translate english cit9_naked_boobs_variant1_b1bf6f12:
+
+    # citizen9 "Я знал, что это решит наш маленький конфликт!"
+    # citizen9 "Продолжим?"
+    citizen9 "I knew that it will resolve our little conflict!"
+    citizen9 "Should we continue?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:407
+translate english cit9_naked_boobs_variant2_98693e75:
+
+    # m "Хорошо."
+    # m "Отвернись!"
+    m "Fine."
+    m "Turn around!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:410
+translate english cit9_naked_boobs_variant2_fb62e017:
+
+    # citizen9 "..."
+    citizen9 "..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:417
+translate english cit9_naked_boobs_variant2_49adc490:
+
+    # m "Можешь повернуться."
+    # m "Но руками не трогать!"
+    m "You can turn back."
+    m "But no touching!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:427
+translate english cit9_naked_boobs_variant2_24d1e8b6:
+
+    # citizen9 "Йо! Шик!"
+    citizen9 "Woah! Nice!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:434
+translate english cit9_naked_boobs_variant2_921826c4:
+
+    # citizen9 "Классные дойки, дамочка! Я бы за них подергал!"
+    citizen9 "Excellent tits! I would cup them in the instant!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:436
+translate english cit9_naked_boobs_variant2_46924080:
+
+    # citizen9 "Кстати, у меня идея!"
+    # citizen9 "Закрой глаза!"
+    citizen9 "By the way, I have an idea!"
+    citizen9 "Close your eyes!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:439
+translate english cit9_naked_boobs_variant2_00d916e3:
+
+    # m "Это еще зачем?"
+    m "Why?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:441
+translate english cit9_naked_boobs_variant2_2871c50f:
+
+    # citizen9 "Да так, у меня для тебя сюрприз!"
+    citizen9 "I have a surprise for you!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:443
+translate english cit9_naked_boobs_variant2_e07699b4:
+
+    # mt "Этот изврашенец что-то задумал?"
+    mt "What is on this pervert's mind?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:452
+translate english cit9_naked_boobs_variant2_27aecc2a:
+
+    # citizen9 "Сюрприз!"
+    citizen9 "Surprise!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:456
+translate english cit9_naked_boobs_variant2_f7521a09:
+
+    # m "Что?! Ах ты гад! Да я тебя!"
+    m "What?! Bastard! I'm going to..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:458
+translate english cit9_naked_boobs_variant2_73129172:
+
+    # citizen9 "О! Они просто восхитительные! Ты знаешь, однажды я также схватил дамочку, которая раздавала флаеры..."
+    citizen9 "Woah, they are amazing! You know, I did the same thing to the lady distributing flyers once..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:467
+translate english cit9_naked_boobs_variant2_96a5a52b:
+
+    # m "Ну уж нет!"
+    m "Oh, no!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:469
+translate english cit9_naked_boobs_variant2_56162468:
+
+    # citizen9 "Дамочка, ты меня разочаровываешь..."
+    citizen9 "Lady, you disapoint me..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:477
+translate english cit9_naked_boobs_variant2_4028b30b:
+
+    # m "Ну все, хватит."
+    m "That's all, enough."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:479
+translate english cit9_naked_boobs_variant2_35c899ea:
+
+    # citizen9 "Ну ты даешь! Я только представил как засовываю между них мой большой..."
+    citizen9 "Oh come on! I just started to imagine how I'm putting my dick between your..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:481
+translate english cit9_naked_boobs_variant2_0e481844:
+
+    # m "Я поняла!"
+    m "I understood!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:483
+translate english cit9_naked_boobs_variant2_9edb5d77:
+
+    # citizen9 "Йо! Да неужели? И вероятно еще и представила! Ха-ха-ха!"
+    citizen9 "Really? You probably imagined it! Ahaha!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:485
+translate english cit9_naked_boobs_variant2_5d2517cc:
+
+    # mt "Извращенец, когда я верну свое положение, я найду тебя..."
+    mt "Pervert! When I get everyting back, I'll find you..."
+
