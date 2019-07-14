@@ -1,3 +1,8 @@
+define monicaSteveJaneCorruption1 = 100 # Согласие на контракт Знакомство
+define monicaSteveJaneCorruption2 = 100 # Предложение показать Стиву свою грудь
+define monicaSteveJaneCorruption3 = 100 # Моника показывает грудь Джейн (контракт)
+define monicaSteveJaneCorruption4 = 100 # Моника дает потрогать грудь Джейн (контракт)
+
 define monicaSteveFirstBlowjobDeal = 20
 define monicaSteveCumSexDeal = 40
 define monicaSteveRegularBlowjobDeal = 10

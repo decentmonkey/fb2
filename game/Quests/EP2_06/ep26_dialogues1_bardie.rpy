@@ -500,8 +500,8 @@ label ep26_dialogues1_bardie5:
     # Моника показывает
     img 13001
 
-        if monicaUnder != "Nude":
-        # Моника показывает
+    if monicaUnder != "Nude":
+    # Моника показывает
         img 13002
         w
         img 13003

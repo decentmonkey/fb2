@@ -6,6 +6,9 @@ default monicaSteveCumDealCompleted = False # Моника закрыла сде
 default monicaSteveBlowjobDealCount = 0 # Кол-во сделок со Стивом blowjob
 default monicaSteveBlowjob50DollarsCount = 0 # Кол-во раз Моника получала 50 долларов сверху
 
+default bettySteveOfficeTouchedSteveDick = False
+default bettySteveOfficeSteveSex = False
+
 label ep25_quests_steve1:
     # инициализация сцен и входа
     call locations_init_steve_office() from _call_locations_init_steve_office
@@ -20,6 +23,8 @@ label ep25_quests_steve1:
     $ add_hook("Jane", "ep25_quests_steve4", scene="steve_office_secretary", label="jane_dialogue1")
     $ add_hook("Teleport_Steve_Office_Office", "ep25_quests_steve4", scene="steve_office_secretary", label="jane_dialogue1")
     $ add_hook("open", "ep25_quests_steve4a", scene="steve_office_secretary")
+
+    $ add_hook_day("ep26_quests_steve1", week_day = 6)
 
     return
 
@@ -291,20 +296,27 @@ label ep25_quests_steve18:
             call change_scene("street_steve_office", "Fade_long", "snd_lift") from _call_change_scene_292
             return False
         $ choosedMoney = _return
+        $ noMoney = False
         $ monicaSteveBlowjobDealCountOffs = monicaSteveBlowjobDealCount % 6
-        if monicaSteveBlowjobDealCountOffs == 0:
-            # Первый приход Джейн
-            call ep25_dialogues3_steve3a() from _call_ep25_dialogues3_steve3a
-        if monicaSteveBlowjobDealCountOffs == 1:
-            call ep25_dialogues3_steve4a() from _call_ep25_dialogues3_steve4a
-        if monicaSteveBlowjobDealCountOffs == 2:
-            call ep25_dialogues3_steve3b() from _call_ep25_dialogues3_steve3b
-        if monicaSteveBlowjobDealCountOffs == 3:
-            call ep25_dialogues3_steve4b() from _call_ep25_dialogues3_steve4b
-        if monicaSteveBlowjobDealCountOffs == 4:
-            call ep25_dialogues3_steve3c() from _call_ep25_dialogues3_steve3c
-        if monicaSteveBlowjobDealCountOffs == 5:
-            call ep25_dialogues3_steve4c() from _call_ep25_dialogues3_steve4c
+        if monicaSteveBlowjobDealCount > 5 and bettyVisitedSteve == False:
+            $ bettyVisitedSteve = True
+            call ep26_dialogues2_steve5()
+            if _return == False:
+                $ noMoney = True
+        else:
+            if monicaSteveBlowjobDealCountOffs == 0:
+                # Первый приход Джейн
+                call ep25_dialogues3_steve3a() from _call_ep25_dialogues3_steve3a
+            if monicaSteveBlowjobDealCountOffs == 1:
+                call ep25_dialogues3_steve4a() from _call_ep25_dialogues3_steve4a
+            if monicaSteveBlowjobDealCountOffs == 2:
+                call ep25_dialogues3_steve3b() from _call_ep25_dialogues3_steve3b
+            if monicaSteveBlowjobDealCountOffs == 3:
+                call ep25_dialogues3_steve4b() from _call_ep25_dialogues3_steve4b
+            if monicaSteveBlowjobDealCountOffs == 4:
+                call ep25_dialogues3_steve3c() from _call_ep25_dialogues3_steve3c
+            if monicaSteveBlowjobDealCountOffs == 5:
+                call ep25_dialogues3_steve4c() from _call_ep25_dialogues3_steve4c
 
 #        if monicaSteveBlowjobDealCount > 5:
 #            # random
@@ -323,15 +335,20 @@ label ep25_quests_steve18:
 #                call ep25_dialogues3_steve4c()
 
         $ monicaSteveBlowjobDealCount +=1
-        if choosedMoney == 1:
-            $ add_money(50.0)
-            $ monicaSteveBlowjob50DollarsCount +=1
-        $ notif(_("Стив перевел деньги Виктории."))
-        $ monicaEarnedWeeklyMoney = True
-        $ remove_objective("money_for_victoria")
+        if noMoney == False:
+            if choosedMoney == 1:
+                $ add_money(50.0)
+                $ monicaSteveBlowjob50DollarsCount +=1
+            $ notif(_("Стив перевел деньги Виктории."))
+            $ monicaEarnedWeeklyMoney = True
+            $ remove_objective("money_for_victoria")
 
         call ep25_quests_steve19() from _call_ep25_quests_steve19_3 # Блокируем офис на сегодня (день)
         call change_scene("street_steve_office", "Fade_long", False) from _call_change_scene_293
+        return False
+
+    if _return == 3: # Сделка с Джейн (blowjob)
+        call ep26_quests_steve2()
         return False
 
 

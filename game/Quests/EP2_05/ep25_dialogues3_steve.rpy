@@ -72,8 +72,12 @@ label ep25_dialogues3_steve1a:
             return 2
         "Контракт со Стивом. (сначала надо закрыть сделку) (disabled)" if monicaSteveCumDealActive == True and monicaSteveCumDealRejected == False:
             pass
-        "Контракт с Джейн. (в следующем обновлении) (disabled)":
+        "Контракт с Джейн. (сначала надо закрыть сделку) (disabled)" if monicaSteveCumDealActive == True and monicaSteveCumDealRejected == False:
             pass
+        "Контракт с Джейн. (disabled)" if (monicaSteveCumDealActive == True and monicaSteveCumDealRejected == False) or janeContractCompletedThisWeek == True:
+            pass
+        "Контракт с Джейн." if (monicaSteveCumDealActive == False or monicaSteveCumDealRejected == True) and janeContractCompletedThisWeek == False:
+            return 3
         "Контракт с Тиффани (в следующем обновлении) (disabled)":
             pass
         "Уйти.":

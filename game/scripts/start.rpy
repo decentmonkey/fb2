@@ -1,4 +1,4 @@
-define debugMode = False
+define debugMode = True
 
 default gameStage = 0
 default gameSubStage = 0
@@ -267,6 +267,7 @@ label start_game:
     call floor2_init_addition1() from _call_floor2_init_addition1_1 #Барди floor2
     call bedroom1_init_addition1() from _call_bedroom1_init_addition1_1 # Барди bedroom1
     $ ep24_quests_initialized = True
+    $ ep26_quests_initialized = True
 
 #    $ changeDayTime("evening")
 #    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
