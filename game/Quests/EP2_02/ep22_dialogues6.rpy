@@ -1055,7 +1055,12 @@ label ep22_dialogue6_7b:
 
         "Уйти.":
             pass
-    img 8288
+    if cloth == "Whore":
+        img 8288
+    if cloth == "CasualDress1":
+        img 11251
+    if cloth == "WorkingOutfit1":
+        img 12780
     m "Я могу идти?"
     biff "Да, цыпочка! Иди!"
     return True

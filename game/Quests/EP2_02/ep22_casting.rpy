@@ -187,30 +187,30 @@ label ep22_casting:
                         w
                 if castingCloth == 6:
                     if chickMode == True:
-                        img 12184
+                        img 20184
                         with fade
                         sound snd_fabric1
                         m "Алая Жемчужина хочет показать папочке грудь..."
-                        img 12185
+                        img 20185
                         with Dissolve(0.5)
                         w
-                        img 12186
+                        img 20186
                         with Dissolve(0.5)
                         w
-                        img 12187
+                        img 20187
                         with Dissolve(0.5)
                         w
                     else:
-                        img 12184
+                        img 20184
                         with fade
                         m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
-                        img 12185
+                        img 20185
                         with Dissolve(0.5)
                         w
-                        img 12186
+                        img 20186
                         with Dissolve(0.5)
                         w
-                        img 12187
+                        img 20187
                         with Dissolve(0.5)
                         w
                 if castingCloth == 7:
@@ -228,7 +228,7 @@ label ep22_casting:
                         with Dissolve(0.5)
                         w
                         img 20206
-                        with Diss
+                        with diss
                         w
                     else:
                         img 20202
@@ -244,7 +244,7 @@ label ep22_casting:
                         with Dissolve(0.5)
                         w
                         img 20206
-                        with Diss
+                        with diss
                         w
                 $ restore_music()
                 img 8445
@@ -537,6 +537,7 @@ label ep22_casting:
                         m "Это долго..."
 
                         img 20190
+                        with fade
                         biff "Хорошо, цыпочка."
                         biff "У папочки нет времени на переодевания."
 
@@ -545,6 +546,7 @@ label ep22_casting:
                         biff "Папочка хочет посмотреть на сидящую цыпочку."
 
                         img 20192
+                        with diss
                         m "Так, Биф?"
                         img 20193
                         biff "Да, цыпочка. Привыкай сидеть на жердочке."
@@ -567,6 +569,7 @@ label ep22_casting:
                         m "Это долго..."
 
                         img 20190
+                        with fade
                         biff "Хорошо, цыпочка."
                         biff "У папочки нет времени на переодевания."
 
@@ -575,6 +578,7 @@ label ep22_casting:
                         biff "Папочка хочет посмотреть на сидящую цыпочку."
 
                         img 20192
+                        with diss
                         m "Так, Биф?"
                         img 20193
                         biff "Да, цыпочка. Привыкай сидеть на жердочке."
@@ -589,6 +593,7 @@ label ep22_casting:
                         sound snd_fabric1
                         m "Запретное Желание хочет показать папочке свой зад..."
                         img 20208
+                        with diss
                         biff "Давай, Запретное Желание!"
                         "Показывай свой зад!"
                         img 20209

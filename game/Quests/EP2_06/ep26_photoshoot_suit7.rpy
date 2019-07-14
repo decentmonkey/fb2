@@ -1,5 +1,23 @@
+default photoshoot7_count = 0
+
 label ep26_photoshoot_suit7:
+    music Groove2_85
+    $ shotsAmount = PS7_shots_amount
+    $ shotsTotalAmount = 33
+    $ shotsAmount = 33 #debug
+
+    $ shots = 2
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Groove2_85
     img 20074
+    with fadelong
     m "Алекс! Ты что, сошел с ума?!"
     m "У этого костюма прозрачная грудь!"
     m "Я уже не говорю про трусики, которых почти нет!"
@@ -9,200 +27,863 @@ label ep26_photoshoot_suit7:
     m "Никаких Мэм!"
     m "Я не собираюсь обнажаться на эту чертову камеру!"
     img 20076
+    with fade
     alex_photograph "Мэм, этот наряд называется Запретное Желание."
     alex_photograph "И, если Вы хотите, Вы можете закрывать грудь руками..."
     img 20077
+    with diss
     m "Да, я буду закрывать грудь руками!"
     m "И только на этом условии я соглашаюсь на съемку!"
     mt "Черт! Куда эти фотосессии меня доведут..."
+
+    music Molten_Alloy
     img 20078
+    with fade
     alex_photograph "Мэм, отлично, мы договорились!"
     alex_photograph "Итак, мотор!"
 
+    music stop
+    img 20079
+    with fadelong
+
+
+$ photoPoseLabel = "ep26_photoshoot_suit7_pose1"
+$ photoPoseNextLabel = "ep26_photoshoot_suit7_pose2"
+label ep26_photoshoot_suit7_pose1:
     # кадр
     img 20079
     # up
-    img 20080
+#    img 20080
     # side
-    img 20081
+#    img 20081
     # down +
-    img 20082
-    m "Алекс, эти стринги совсем тонкие."
-    m "Постарайся не брать ракурсы сзади."
-    alex_photograph "Мэм, но Вы и так закрываете грудь."
-    alex_photograph "Я ведь должен что-то снимать..."
-    m "Снимай мое лицо, болван!"
-    # если можно
-    alex_photograph "Миссис Бакфетт?"
-    m "Ладно, только так чтобы было ничего не видно!"
-    alex_photograph "Конечно, Миссис Бакфетт! Как скажете!"
+#    img 20082
+
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 2
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        img 20083
+        with fadelong
+        alex_photograph "Следующая поза, Миссис Бакфетт!"
+        jump expression photoPoseNextLabel
+    show screen photoshoot_camera_icon(PS7_shoots_array)
+    show screen photoshoot()
+    $ result = ui.interact()
+    hide screen photoshoot
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+    if result == "up":
+        sound camera_lens1
+        $ photoImage = 20080
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        $ photoImage = 20081
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        $ photoImage = 20082
+        img photoImage
+        with Dissolve(0.2)
+        m "Алекс, эти стринги совсем тонкие."
+        m "Постарайся не брать ракурсы сзади."
+        alex_photograph "Мэм, но Вы и так закрываете грудь."
+        alex_photograph "Я ведь должен что-то снимать..."
+        m "Снимай мое лицо, болван!"
+        if corruption < PS7_monica_shot1_corruption_required:
+            call corruption_required(PS7_monica_shot1_corruption_required)
+            jump expression photoPoseLabel
+        # если можно
+        alex_photograph "Миссис Бакфетт?"
+        m "Ладно, только так чтобы было ничего не видно!"
+        alex_photograph "Конечно, Миссис Бакфетт! Как скажете!"
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
 
 
+
+label ep26_photoshoot_suit7_pose2:
+    $ photoPoseLabel = "ep26_photoshoot_suit7_pose2"
+    $ photoPoseNextLabel = "ep26_photoshoot_suit7_pose3"
     # кадр
     img 20083
     # up
-    img 20084
+#    img 20084
     # side
-    img 20085
+#    img 20085
     # down
-    m "Алекс, ты снова за свое?!"
-    img 20086
+#    m "Алекс, ты снова за свое?!"
+#    img 20086
 
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 2
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        img 20087
+        with fadelong
+        alex_photograph "Следующая поза, Миссис Бакфетт!"
+        music Groove2_85
+        m "Алекс, я не хочу вставать в эту позу!"
+        m "Трусики слишком тонкие!"
+        alex_photograph "Миссис Бакфетт, я буду брать ракурсы так, чтобы ничего не было видно, обещаю!"
+        m "Ну, ладно... Но смотри у меня!"
+        music stop
+        jump expression photoPoseNextLabel
+    show screen photoshoot_camera_icon(PS7_shoots_array)
+    show screen photoshoot()
+    $ result = ui.interact()
+    hide screen photoshoot
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+    if result == "up":
+        sound camera_lens1
+        $ photoImage = 20084
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        $ photoImage = 20085
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        $ photoImage = 20086
+        img photoImage
+        with Dissolve(0.2)
+        m "Алекс, ты снова за свое?!"
+        if corruption < PS7_monica_shot2_corruption_required:
+            call corruption_required(PS7_monica_shot2_corruption_required)
+            jump expression photoPoseLabel
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
 
-    m "Алекс, я не хочу вставать в эту позу!"
-    m "Трусики слишком тонкие!"
-    alex_photograph "Миссис Бакфетт, я буду брать ракурсы так, чтобы ничего не было видно, обещаю!"
-    m "Ну, ладно... Но смотри у меня!"
+label ep26_photoshoot_suit7_pose3:
+    $ photoPoseLabel = "ep26_photoshoot_suit7_pose3"
+    $ photoPoseNextLabel = "ep26_photoshoot_suit7_pose4"
 
     # кадр
     img 20087
     # up
-    img 20088
+#    img 20088
     # side
-    img 20089
-    img 20090
+#    img 20089
+#    img 20090
     # down +
-    img 20091
-    img 20092
-    m "Алекс! Я же попросила!"
-    alex_photograph "Миссис Бакфетт, я только замеряю фокус!"
+#    img 20091
+#    img 20092
+#    m "Алекс! Я же попросила!"
+#    alex_photograph "Миссис Бакфетт, я только замеряю фокус!"
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 2
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        img 20093
+        with fadelong
+        alex_photograph "Следующая поза, Миссис Бакфетт!"
+        jump expression photoPoseNextLabel
+    show screen photoshoot_camera_icon(PS7_shoots_array)
+    show screen photoshoot()
+    $ result = ui.interact()
+    hide screen photoshoot
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+    if result == "up":
+        sound camera_lens1
+        $ photoImage = 20088
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        img 20089
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        $ photoImage = 20090
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        img 20091
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        $ photoImage = 20092
+        img photoImage
+        with Dissolve(0.2)
+        m "Алекс! Я же попросила!"
+        if corruption < PS7_monica_shot3_corruption_required:
+            call corruption_required(PS7_monica_shot3_corruption_required)
+            jump expression photoPoseLabel
+        w
+        alex_photograph "Миссис Бакфетт, я только замеряю фокус!"
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+
+label ep26_photoshoot_suit7_pose4:
+    $ photoPoseLabel = "ep26_photoshoot_suit7_pose4"
+    $ photoPoseNextLabel = "ep26_photoshoot_suit7_pose5"
 
     # кадр
     img 20093
     # up
-    img 20094
+#    img 20094
     # side
-    img 20095
+#    img 20095
     # down
-    img 20096
-    m "Алекс, что за дурацкие ракурсы ты берешь?!"
+#    img 20096
+#    m "Алекс, что за дурацкие ракурсы ты берешь?!"
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 2
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        img 20097
+        with fadelong
+        alex_photograph "Следующая поза, Миссис Бакфетт!"
+        jump expression photoPoseNextLabel
+    show screen photoshoot_camera_icon(PS7_shoots_array)
+    show screen photoshoot()
+    $ result = ui.interact()
+    hide screen photoshoot
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+    if result == "up":
+        sound camera_lens1
+        $ photoImage = 20094
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        $ photoImage = 20095
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        $ photoImage = 20096
+        img photoImage
+        with Dissolve(0.2)
+        m "Алекс, что за дурацкие ракурсы ты берешь?!"
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
 
+
+label ep26_photoshoot_suit7_pose5:
+    $ photoPoseLabel = "ep26_photoshoot_suit7_pose5"
+    $ photoPoseNextLabel = "ep26_photoshoot_suit7_pose6"
 
     # кадр
     img 20097
     # up +
-    img 20098
-    m "Алекс, убери камеру!"
-    m "У меня видно грудь!"
-    alex_photograph "Миссис Бакфетт, ее не видно, клянусь!"
+#    img 20098
+#    m "Алекс, убери камеру!"
+#    m "У меня видно грудь!"
+#    alex_photograph "Миссис Бакфетт, ее не видно, клянусь!"
     # side
-    img 20099
+#    img 20099
     # down+
-    img 20100
-    m "Алекс, я устала тебя предупреждать!"
+#    img 20100
+#    m "Алекс, я устала тебя предупреждать!"
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 2
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        img 20101
+        with fadelong
+        alex_photograph "Следующая поза, Миссис Бакфетт!"
+        jump expression photoPoseNextLabel
+    show screen photoshoot_camera_icon(PS7_shoots_array)
+    show screen photoshoot()
+    $ result = ui.interact()
+    hide screen photoshoot
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+    if result == "up":
+        sound camera_lens1
+        $ photoImage = 20098
+        img photoImage
+        with Dissolve(0.2)
+        m "Алекс, убери камеру!"
+        m "У меня видно грудь!"
+        if corruption < PS7_monica_shot4_corruption_required:
+            call corruption_required(PS7_monica_shot4_corruption_required)
+            jump expression photoPoseLabel
+        alex_photograph "Миссис Бакфетт, ее не видно, клянусь!"
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        $ photoImage = 20099
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        $ photoImage = 20100
+        img photoImage
+        with Dissolve(0.2)
+        m "Алекс, я устала тебя предупреждать!"
+        if corruption < PS7_monica_shot5_corruption_required:
+            call corruption_required(PS7_monica_shot5_corruption_required)
+            jump expression photoPoseLabel
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+
+label ep26_photoshoot_suit7_pose6:
+    $ photoPoseLabel = "ep26_photoshoot_suit7_pose6"
+    $ photoPoseNextLabel = "ep26_photoshoot_suit7_pose7"
 
     # кадр
     img 20101
     # up
-    img 20102
+#    img 20102
     # side
-    img 20103
+#    img 20103
     # down+
-    img 20104
-    m "Алекс, ты глухой?!"
-    m "Не бери такие ракурсы!"
-    alex_photograph "Миссис Бакфетт, я просто обхожу Вас, чтобы зайти с другой стороны..."
+#    img 20104
+#    m "Алекс, ты глухой?!"
+#    m "Не бери такие ракурсы!"
+#    alex_photograph "Миссис Бакфетт, я просто обхожу Вас, чтобы зайти с другой стороны..."
+
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 2
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        img 20105
+        with fadelong
+        alex_photograph "Следующая поза, Миссис Бакфетт!"
+        m "Алекс, я не буду вставать в эту позу, даже не надейся!"
+        m "А меня грудь почти открыта, прикрыты только соски!"
+        if corruption < PS7_monica_pose6_corruption_required:
+            call corruption_required(PS7_monica_pose6_corruption_required)
+            return
+        # если да
+        alex_photograph "Миссис Бакфетт, Ваша грудь обнажена не более, чем в приличном нижнем белье."
+        alex_photograph "Не переживайте, ничего не видно."
+        m "Точно?"
+        alex_photograph "Да, Миссис Бакфетт!"
+        m "Ладно, только без дурацких ракурсов!"
+        m "Снимай меня прямо и... красиво..."
+        jump expression photoPoseNextLabel
+    show screen photoshoot_camera_icon(PS7_shoots_array)
+    show screen photoshoot()
+    $ result = ui.interact()
+    hide screen photoshoot
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+    if result == "up":
+        sound camera_lens1
+        $ photoImage = 20102
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        $ photoImage = 20103
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        $ photoImage = 20104
+        img photoImage
+        with Dissolve(0.2)
+        m "Алекс, ты глухой?!"
+        m "Не бери такие ракурсы!"
+        if corruption < PS7_monica_shot6_corruption_required:
+            call corruption_required(PS7_monica_shot6_corruption_required)
+            jump expression photoPoseLabel
+        alex_photograph "Миссис Бакфетт, я просто обхожу Вас, чтобы зайти с другой стороны..."
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
 
 
+label ep26_photoshoot_suit7_pose7:
+    $ photoPoseLabel = "ep26_photoshoot_suit7_pose7"
+    $ photoPoseNextLabel = "ep26_photoshoot_suit7_pose8"
     # кадр +
     img 20105
-    m "Алекс, я не буду вставать в эту позу, даже не надейся!"
-    m "А меня грудь почти открыта, прикрыты только соски!"
-    # если да
-    alex_photograph "Миссис Бакфетт, Ваша грудь обнажена не более, чем в приличном нижнем белье."
-    alex_photograph "Не переживайте, ничего не видно."
-    m "Точно?"
-    alex_photograph "Да, Миссис Бакфетт!"
-    m "Ладно, только без дурацких ракурсов!"
-    m "Снимай меня прямо и... красиво..."
     # up
-    img 20106
+#    img 20106
     # side
-    img 20107
-    img 20108
-    img 20109
+#    img 20107
+#    img 20108
+#    img 20109
     # down
-    img 20110
+#    img 20110
 
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 2
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        img 20111
+        with fadelong
+        alex_photograph "Следующая поза, Миссис Бакфетт!"
+        jump expression photoPoseNextLabel
+    show screen photoshoot_camera_icon(PS7_shoots_array)
+    show screen photoshoot()
+    $ result = ui.interact()
+    hide screen photoshoot
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+    if result == "up":
+        sound camera_lens1
+        $ photoImage = 20106
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        img 20107
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        img 20108
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        $ photoImage = 20109
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        $ photoImage = 20110
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
 
+label ep26_photoshoot_suit7_pose8:
+    $ photoPoseLabel = "ep26_photoshoot_suit7_pose8"
+    $ photoPoseNextLabel = "ep26_photoshoot_suit7_pose9"
     # кадр
     img 20111
     # up
-    img 20112
-    m "Алекс!"
-    img 20113
+#    img 20112
+#    m "Алекс!"
+#    img 20113
     # side
-    img 20114
+#    img 20114
     # down +
-    img 20115
-    m "Алекс, перестань фотографировать меня сзади!"
-    # да
-    alex_photograph "Миссис Бакфетт, последний кадр..."
-    img 20116
+#    img 20115
+#    m "Алекс, перестань фотографировать меня сзади!"
+#    # да
+#    alex_photograph "Миссис Бакфетт, последний кадр..."
+#    img 20116
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 2
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        img 20117
+        with fadelong
+        alex_photograph "Следующая поза, Миссис Бакфетт!"
+        jump expression photoPoseNextLabel
+    show screen photoshoot_camera_icon(PS7_shoots_array)
+    show screen photoshoot()
+    $ result = ui.interact()
+    hide screen photoshoot
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+    if result == "up":
+        sound camera_lens1
+        img 20112
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        $ photoImage = 20113
+        img photoImage
+        with Dissolve(0.2)
+        m "Алекс!"
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        $ photoImage = 20114
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        img 20115
+        with Dissolve(0.2)
+        m "Алекс, перестань фотографировать меня сзади!"
+        if corruption < PS7_monica_shot7_corruption_required:
+            call corruption_required(PS7_monica_shot7_corruption_required)
+            jump expression photoPoseLabel
+        w
+        call photoshop_flash()
+        w
+        $ photoImage = 20116
+        img photoImage
+        with Dissolve(0.2)
+        alex_photograph "Миссис Бакфетт, последний кадр..."
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+
+label ep26_photoshoot_suit7_pose9:
+    $ photoPoseLabel = "ep26_photoshoot_suit7_pose9"
+    $ photoPoseNextLabel = "ep26_photoshoot_suit7_pose10"
+
 
     # кадр
     img 20117
     # up
-    img 20118
+#    img 20118
     # side
-    img 20119
+#    img 20119
     # down +
-    img 20120
-    img 20121
-    m "Все, Алекс!"
-    m "Хватит с меня твоих грязных кадров!"
-    m "Мы закончили!"
-    # да
-    alex_photograph "Миссис Бакфетт, это последний такой кадр, я обещаю!"
-    alex_photograph "Осталась еще пара приличных кадров и мы успешно закончим!"
-    m "Точно?!"
-    alex_photograph "Клянусь!"
-    img 20122
-    m "А это что был за кадр?!"
-    m "Ты сказал что тот был последним!"
-    alex_photograph "Миссис Бакфетт, это чистка затвора."
-    alex_photograph "Я не делал съемку!"
+#    img 20120
+#    img 20121
 
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 2
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        img 20123
+        with fadelong
+        alex_photograph "Следующая поза, Миссис Бакфетт!"
+        jump expression photoPoseNextLabel
+    show screen photoshoot_camera_icon(PS7_shoots_array)
+    show screen photoshoot()
+    $ result = ui.interact()
+    hide screen photoshoot
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+    if result == "up":
+        sound camera_lens1
+        $ photoImage = 20118
+        img photoImage
+        with Dissolve(0.2)
+        m "Алекс!"
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        $ photoImage = 20119
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        img 20120
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        img 20121
+        with Dissolve(0.2)
+        m "Все, Алекс!"
+        m "Хватит с меня твоих грязных кадров!"
+        m "Мы закончили!"
+        if corruption < PS7_monica_shot8_corruption_required:
+            call corruption_required(PS7_monica_shot8_corruption_required)
+            jump expression photoPoseLabel
+        # да
+        alex_photograph "Миссис Бакфетт, это последний такой кадр, я обещаю!"
+        alex_photograph "Осталась еще пара приличных кадров и мы успешно закончим!"
+        m "Точно?!"
+        alex_photograph "Клянусь!"
+        w
+        call photoshop_flash()
+        w
+        $ photoImage = 20122
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        m "А это что был за кадр?!"
+        m "Ты сказал что тот был последним!"
+        alex_photograph "Миссис Бакфетт, это чистка затвора."
+        alex_photograph "Я не делал съемку!"
+        jump expression photoPoseLabel
+
+
+label ep26_photoshoot_suit7_pose10:
+    $ photoPoseLabel = "ep26_photoshoot_suit7_pose10"
+    $ photoPoseNextLabel = "ep26_photoshoot_suit7_pose11"
 
     # кадр
     img 20123
     # up
-    img 20124
-    img 20125
+#    img 20124
+#    img 20125
     # side
-    img 20126
-    img 20127
+#    img 20126
+#    img 20127
     # down +
-    img 20128
-    alex_photograph "Миссис Бакфетт, я не снимаю."
-    alex_photograph "Я просто настраиваю фокус."
+#    img 20128
+#    alex_photograph "Миссис Бакфетт, я не снимаю."
+#    alex_photograph "Я просто настраиваю фокус."
     # если нет
-    m "Я прекрасно знаю что ты меня обманываешь, Алекс!"
-    m "Достаточно с меня всего этого!"
+#    m "Я прекрасно знаю что ты меня обманываешь, Алекс!"
+#    m "Достаточно с меня всего этого!"
     # если да
-    m "Алекс, ты не врешь?"
-    alex_photograph "Миссис Бакфетт, я клянусь!"
-    m "Ладно..."
-    img 20129
-    img 20130
-    img 20131
+#    m "Алекс, ты не врешь?"
+#    alex_photograph "Миссис Бакфетт, я клянусь!"
+#    m "Ладно..."
+#    img 20129
+#    img 20130
+#    img 20131
+
+
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 2
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        if shotsAmount == 0:
+            return
+        jump ep26_photoshoot_suit7_pose11_pre
+#        img 20123
+#        with fadelong
+#        alex_photograph "Следующая поза, Миссис Бакфетт!"
+#        jump expression photoPoseNextLabel
+    show screen photoshoot_camera_icon(PS7_shoots_array)
+    show screen photoshoot()
+    $ result = ui.interact()
+    hide screen photoshoot
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+    if result == "up":
+        sound camera_lens1
+        img 20124
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        $ photoImage = 20125
+        img photoImage
+        with Dissolve(0.2)
+        m "Алекс!"
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        img 20126
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        $ photoImage = 20127
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        img 20128
+        with Dissolve(0.2)
+        alex_photograph "Миссис Бакфетт, я не снимаю."
+        alex_photograph "Я просто настраиваю фокус."
+        if corruption < PS7_monica_shot9_corruption_required:
+            m "Я прекрасно знаю что ты меня обманываешь, Алекс!"
+            m "Достаточно с меня всего этого!"
+            call corruption_required(PS7_monica_shot9_corruption_required)
+            jump expression photoPoseLabel
+        m "Алекс, ты не врешь?"
+        alex_photograph "Миссис Бакфетт, я клянусь!"
+        m "Ладно..."
+        w
+        call photoshop_flash()
+        w
+        img 20129
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        img 20130
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        $ photoImage = 20131
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+
+
+label ep26_photoshoot_suit7_pose11_pre:
 
     # поза
+    music Groove2_85
     img 20132
+    with fadelong
     w
     m "Алекс, что ты так на меня смотришь?"
     m "Зачем ты попросил меня встать в эту позу?"
     img 20133
     alex_photograph "Миссис Бакфетт, я хочу попросить Вас убрать руки..."
+    music Power_Bots_Loop
     img 20134
+    with diss
     m "ЧТО?!"
     m "НЕТ!!!"
     m "Даже не надейся!"
     img 20135
     alex_photograph "Миссис Бакфетт, но это не моя прихоть, а распоряжение Мистера Бифа!"
     img 20136
+    with diss
     m "Мне плевать!"
+    music Groove2_85
     img 20137
+    with fade
     alex_photograph "Но Миссис Бакфетт, Ваша грудь закрыта."
     alex_photograph "При таком свете, материал белья не такой уж прозрачный."
     alex_photograph "Он сильно бликует на камере и ничего не видно!"
@@ -213,12 +894,16 @@ label ep26_photoshoot_suit7:
     alex_photograph "Все что можно было увидеть, уже есть на пленке."
     alex_photograph "Зато подумайте, фотосессия будет завершена и Мистер Биф будет доволен."
     img 20140
+    with diss
     alex_photograph "Я не думаю что он потребует еще больше от Вас, Миссис Бакфетт."
     img 20141
+    with fade
     m "Ты так думаешь, Алекс?"
     img 20142
     alex_photograph "Миссис Бакфетт, я в этом уверен!"
+    music Hidden_Agenda
     img 20143
+    with fade
     mt "Черт возьми!"
     mt "Мне не хочется показывать свою грудь на весь мир, хоть и прикрытую какой-то тряпочкой..."
     img 20144
@@ -228,92 +913,246 @@ label ep26_photoshoot_suit7:
     mt "Иначе он может перестать давать мне мне деньги..."
     mt "И я даже боюсь представить что тогда будет..."
     img 20145
+    with diss
     mt "К тому же, мне нечего стыдиться. У меня самая красивая грудь в этой стране..."
     mt "А может и во всем мире!"
     img 20146
+    with fade
     mt "..."
     mt "Итак, что же мне делать?"
+    $ menu_corruption = [PS7_monica_shot10_corruption_required_high]
     menu:
         "Опустить руки.": #corruption
             pass
         "Прекратить фотосессию":
+            music Groove2_85
             img 20147
+            with fadelong
             m "Нет, Алекс!"
             m "Я не поддамся на твои уловки!"
             m "С меня хватит!"
             return False
 
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Groove2_85
     img 20148
+    with fadelong
     m "..."
     img 20149
     alex_photograph "..."
 
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Molten_Alloy
     img 20150
-    with Diss
+    with fadelong
     w
     alex_photograph "Мотор!"
+
+    music stop
+    img 20151
+    with fadelong
+
+label ep26_photoshoot_suit7_pose11:
+    $ photoPoseLabel = "ep26_photoshoot_suit7_pose11"
+#    $ photoPoseNextLabel = "ep26_photoshoot_suit7_pose11"
+
     # кадр
     img 20151
     # up
-    img 20152
-    img 20153
-    img 20154
-    img 20155
-    img 20156
-    img 20157
+#    img 20152
+#    img 20153
+#    img 20154
+#    img 20155
+#    img 20156
+#    img 20157
     # side
-    img 20158
-    img 20159
-    img 20160
+#    img 20158
+#    img 20159
+#    img 20160
     # down
-    img 20161
-    img 20162
-    img 20163
-    img 20164
-    w
-    alex_photograph "Миссис Бакфетт."
-    alex_photograph "Могли бы Вы убрать руки?"
-    alex_photograph "Они мешают мне фотографировать нижнюю часть Вашего тела..."
-    menu:
-        "Делать что просит Алекс.": #corruption (very high)
-            pass
-        "Завершить фотосессию.":
-            m "Нет, Алекс."
-            m "Я думаю фотосессия завершена и так."
-            return False
-    m "Да, Алекс..."
-    m "Я понимаю..."
-    img 20165
-    with Diss
-    w
-    m "Надо раздвинуть ноги?"
-    alex_photograph "Да, Миссис Бакфетт."
-    alex_photograph "Если Вам не трудно."
-    m "Я понимаю, Алекс..."
-    img 20166
-    with Diss
-    m "Так тебя устроит?"
-    img 20167
-    w
-    alex_photograph "Да, Миссис Бакфетт. Вполне."
-    img 20168
-    img 20169
-    img 20170
-    alex_photograph "Миссис Бакфетт."
-    alex_photograph "Можно, пожалуйста, я сниму эти трусики и сделаю пару кадров?"
-    alex_photograph "Мистер Биф даст мне солидную премию за это."
-    img 20171
-    m "Нет, Алекс."
-    m "Я закончу с проблемами до того как дойдет до этого..."
-    img 20172
-    m "А сейчас..."
-    m "Если ты не уберешь руку, то умрешь..."
-    img 20173
-    w
+#    img 20161
+#    img 20162
+#    img 20163
+#    img 20164
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 2
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        return
+#        img 20123
+#        with fadelong
+#        alex_photograph "Следующая поза, Миссис Бакфетт!"
+#        jump expression photoPoseNextLabel
+    show screen photoshoot_camera_icon(PS7_shoots_array)
+    show screen photoshoot()
+    $ result = ui.interact()
+    hide screen photoshoot
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+    if result == "up":
+        sound camera_lens1
+        img 20152
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        img 20153
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        img 20154
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        img 20155
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        img 20156
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        $ photoImage = 20157
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        img 20158
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        img 20159
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        $ photoImage = 20160
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+        w
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        img 20161
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        img 20162
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        img 20163
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        $ photoImage = 20164
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        $ PS7_shoots_array.append(photoImage)
+
+        w
+        music Groove2_85
+        alex_photograph "Миссис Бакфетт."
+        alex_photograph "Могли бы Вы убрать руки?"
+        alex_photograph "Они мешают мне фотографировать нижнюю часть Вашего тела..."
+        $ menu_corruption = [PS7_monica_shot11_corruption_required_high]
+        menu:
+            "Делать что просит Алекс. (опционально)": #corruption (very high)
+                pass
+            "Завершить фотосессию.":
+                m "Нет, Алекс."
+                m "Я думаю фотосессия завершена и так."
+                return
+        music I_Feel_You
+        $ add_corruption(30, "ep26_photoshoot_suit7_optional")
+        m "Да, Алекс..."
+        m "Я понимаю..."
+        img 20165
+        with diss
+        w
+        m "Надо раздвинуть ноги?"
+        alex_photograph "Да, Миссис Бакфетт."
+        alex_photograph "Если Вам не трудно."
+        m "Я понимаю, Алекс..."
+        img 20166
+        with diss
+        m "Так тебя устроит?"
+        img 20167
+        with fade
+        w
+        alex_photograph "Да, Миссис Бакфетт. Вполне."
+        call photoshop_flash()
+        w
+        img 20168
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        img 20169
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        sound Jump1
+        img 20170
+        with fade
+        alex_photograph "Миссис Бакфетт."
+        alex_photograph "Можно, пожалуйста, я сниму эти трусики и сделаю пару кадров?"
+        alex_photograph "Мистер Биф даст мне солидную премию за это."
+        music stop
+        img black_screen
+        with diss
+        pause 1.0
+        music Master_Disorder
+        img 20171
+        with fadelong
+        m "Нет, Алекс."
+        m "Я закончу с проблемами до того как дойдет до этого..."
+        img 20172
+        with diss
+        m "А сейчас..."
+        m "Если ты не уберешь руку, то умрешь..."
+        img 20173
+        w
+        jump expression photoPoseLabel
 
 
 
+
+label ep26_photoshoot_suit7_end:
+    hide screen photoshoot_camera_icon
+    hide screen photoshoot
+    music Groove2_85
     img 20174
+    with fadelong
     alex_photograph "Мэм! Мы закончили фотосессию!"
     m "Наконец-то!!!"
     img 20175
@@ -323,7 +1162,7 @@ label ep26_photoshoot_suit7:
     menu:
         "Переодеться назад...":
             $ biffMonicaLastCastingSkipped = True
-        "Идти на кастинг к Бифу и притвориться цыпочкой... (corruption)" if biffMonicaCastingsEnabled == True and corruption >= photoshoot4_casting_corruption_required: #если есть кастинги
+        "Идти на кастинг к Бифу и притвориться цыпочкой... (corruption)" if biffMonicaCastingsEnabled == True and corruption >= photoshoot7_casting_corruption_required: #если есть кастинги
             mt "Биф ждет меня на свой дурацкий кастинг..."
             "Он говорил даст мне работу если я буду хорошей цыпочкой..."
             "Это позволит мне приблизиться к цели, возвратить мою компанию назад!"
@@ -333,14 +1172,10 @@ label ep26_photoshoot_suit7:
             if monicaSaidBiffSheIsWillBeAGoodChick == True:
                 "..."
                 "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
-            call ep26_photoshoot6_casting()
+            call ep26_photoshoot7_casting()
             return
-        "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot6_casting_corruption_required]) (disabled)" if biffMonicaCastingsEnabled == True and corruption < photoshoot6_casting_corruption_required:
+        "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot7_casting_corruption_required]) (disabled)" if biffMonicaCastingsEnabled == True and corruption < photoshoot7_casting_corruption_required:
             pass
-
-
-
-
 
     return
 
@@ -370,9 +1205,9 @@ label ep26_photoshoot7_casting:
             "Цыпочка хорошая..."
             img 20199 #9474
             biff "Кто сегодня цыпочка?"
-            m "Сегодня цыпочка - это Роза Надежды..."
+            m "Сегодня цыпочка - это Запретное Желание..."
             $ add_char_progress("Biff", PS7_BiffProgressCastingChick, "PS7_BiffProgressCastingChick_day" + str(day))
-            biff "Что Роза Надежды хочет показать папочке?"
+            biff "Что Запретное Желание хочет показать папочке?"
             $ chickMode = True
             $ castingCloth = 7
             call ep22_casting()

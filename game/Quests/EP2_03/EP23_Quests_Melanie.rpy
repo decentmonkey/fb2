@@ -159,6 +159,7 @@ label ep23_quests_melanie_disappeared2:
         $ questLog(29, False)
         $ questLog(27, True)
         $ melanieDisappeared = True
+        $ monicaOutfitsEnabled[5] = True # Открываем следующий костюм
         call ep24_quests_steve1() from _call_ep24_quests_steve1_2 # Планируем приход Стива
         $ add_hook("basement_monica_after_sleep_dialogue", "ep23_quests_melanie_disappeared2_comment_morning", scene="global")
     return
