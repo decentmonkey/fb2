@@ -925,7 +925,7 @@ label ep26_photoshoot_suit6_end:
     menu:
         "Переодеться назад...":
             $ biffMonicaLastCastingSkipped = True
-        "Идти на кастинг к Бифу и притвориться цыпочкой... (corruption)" if biffMonicaCastingsEnabled == True and corruption >= photoshoot4_casting_corruption_required: #если есть кастинги
+        "Идти на кастинг к Бифу и притвориться цыпочкой... (corruption)" if (biffMonicaCastingsEnabled == True or monicaWorkingAtBiffOffice == True) and corruption >= photoshoot4_casting_corruption_required: #если есть кастинги
             mt "Биф ждет меня на свой дурацкий кастинг..."
             "Он говорил даст мне работу если я буду хорошей цыпочкой..."
             "Это позволит мне приблизиться к цели, возвратить мою компанию назад!"
@@ -937,7 +937,7 @@ label ep26_photoshoot_suit6_end:
                 "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
             call ep26_photoshoot6_casting()
             return
-        "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot6_casting_corruption_required]) (disabled)" if biffMonicaCastingsEnabled == True and corruption < photoshoot6_casting_corruption_required:
+        "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot6_casting_corruption_required]) (disabled)" if (biffMonicaCastingsEnabled == True or monicaWorkingAtBiffOffice == True) and corruption < photoshoot6_casting_corruption_required:
             pass
     return
 

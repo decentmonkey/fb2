@@ -6,6 +6,16 @@
 # Грета
 # Лин
 
+label ep26_dialogues6_office2_1_lift:
+    menu:
+        "Этаж Модного Журнала.":
+            return 1
+        "Этаж офисного отдела Моники.":
+            return 2
+        "Вестибюль.":
+            return 3
+    return
+
 label ep26_dialogues6_office2_1:
 # Моника спускается вниз
 # Итак, это здесь. Посмотрим.

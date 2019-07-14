@@ -421,19 +421,36 @@ label ep22_dialogue6_3:
     "Работа есть!"
     "Иди в студию!"
 
-    if biffMonicaCastingsEnabled == True:
-        $ notif(_("Моника заставляла моделей проходить обнаженный кастинг"))
-        #если надо пройти кастинг
-        img 8294
-        biff "Только цыпочка! Тебе надо пройти кастинг!"
-        if cloth == "Whore":
-            img 8295
-        if cloth == "CasualDress1":
-            img 11257
-        if cloth == "WorkingOutfit1":
-            img 12786
-        mt "О БОЖЕ!!!"
-        "Только не это!!!"
+    if biffMonicaCastingsEnabled == True or monicaWorkingAtBiffOffice == True:
+        if monicaWorkingAtBiffOffice == True:
+            img 8294
+            biff "Только цыпочка! Тебе надо пройти кастинг после фотосессии!"
+            biff "Цыпочка теперь работает у папочки в офисе!"
+            biff "Значит цыпочка должна развлекать папочку!"
+            if cloth == "Whore":
+                img 8295
+            if cloth == "CasualDress1":
+                img 11257
+            if cloth == "WorkingOutfit1":
+                img 12786
+            mt "О БОЖЕ!!!"
+            "Только не это!!!"
+        else:
+#        if biffMonicaCastingsEnabled == True:
+            $ notif(_("Моника заставляла моделей проходить обнаженный кастинг"))
+            #если надо пройти кастинг
+            img 8294
+            biff "Только цыпочка! Тебе надо пройти кастинг!"
+            if cloth == "Whore":
+                img 8295
+            if cloth == "CasualDress1":
+                img 11257
+            if cloth == "WorkingOutfit1":
+                img 12786
+            mt "О БОЖЕ!!!"
+            "Только не это!!!"
+
+
 
         if biffMonicaLastCastingSkipped == True:
             #если Моника увиливала от кастинга в прошлый раз

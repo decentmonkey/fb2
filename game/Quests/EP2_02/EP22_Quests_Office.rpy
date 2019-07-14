@@ -89,6 +89,7 @@ label ep22_quests_office4_l1:
         call ep26_photoshoot_suit6()
         call ep26_photoshoot_suit6_end()
         $ monicaOutfitsEnabled[6] = True # Открываем следующий костюм
+        call ep26_quests_biff1() # Инициализируем разговор о работе в офисе + возвращение Мелани
         $ photoshoot6_count += 1
     if monicaPhotoShootOutfitIdx == 7:
         call ep26_photoshoot_suit7()

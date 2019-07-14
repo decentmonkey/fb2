@@ -2,6 +2,7 @@ default monicaMelanieCastingPlanned = False
 default monicaMelanieWentToDick = False
 default melanieDisappeared = False
 default melanieDisappearedDay = 0
+default melanieDisappearedAndReturned = False
 default monicaMelanieCastingCummed = False
 default monicaMelanieCastingLickedDildo = False
 default monicaMelanieCastingLickedPussies = False
@@ -161,6 +162,7 @@ label ep23_quests_melanie_disappeared2:
         $ melanieDisappeared = True
         $ monicaOutfitsEnabled[5] = True # Открываем следующий костюм
         call ep24_quests_steve1() from _call_ep24_quests_steve1_2 # Планируем приход Стива
+        $ autorun_to_object("ep26_dialogues5_office1_1", scene="monica_office_cabinet_table")
         $ add_hook("basement_monica_after_sleep_dialogue", "ep23_quests_melanie_disappeared2_comment_morning", scene="global")
     return
 
