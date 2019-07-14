@@ -808,45 +808,52 @@ label ep25_dialogues3_steve2:
     with diss
     m "Мне надо больше денег, Стив!"
     m "Хотя бы $ 5500!"
-    img 11609
-    with fade
-    steve "Моника, это невозможно!"
-    steve "Даже $ 5000 для меня слишком большие деньги!"
-    img 11610
-    with diss
-    steve "Могу предложить тебе $ 5050!"
-    img 11611
-    with diss
-    m "!!!"
     $ chooseVar = 0
-    menu:
-        "Согласиться на $ 5050":
-# Согласиться на 5050
-# Хорошо, Стив! 10$ Ты мне дашь наличными, понял?!
-# Конечно, Моника, можешь приступать
-            img 11612
-            with fade
-            m "Хорошо, Стив!"
-            m "$ 50 ты мне дашь наличными, понял?!"
-            img 11613
-            with diss
-            steve "Конечно, Моника. Можешь приступать."
-            $ chooseVar = 1
-        "Согласиться на $ 5000":
+    if monicaSteveContractPenaltyActive == True:
+        call ep26_dialogues2_steve4()
+        if _return == False:
+            # Моника ушла
+            return 0
+        $ chooseVar = -1
+    else:
+        img 11609
+        with fade
+        steve "Моника, это невозможно!"
+        steve "Даже $ 5000 для меня слишком большие деньги!"
+        img 11610
+        with diss
+        steve "Могу предложить тебе $ 5050!"
+        img 11611
+        with diss
+        m "!!!"
+        menu:
+            "Согласиться на $ 5050":
+    # Согласиться на 5050
+    # Хорошо, Стив! 10$ Ты мне дашь наличными, понял?!
+    # Конечно, Моника, можешь приступать
+                img 11612
+                with fade
+                m "Хорошо, Стив!"
+                m "$ 50 ты мне дашь наличными, понял?!"
+                img 11613
+                with diss
+                steve "Конечно, Моника. Можешь приступать."
+                $ chooseVar = 1
+            "Согласиться на $ 5000":
 
-# Согласиться на 5000
-# Мне не нужны твои жалкие подачки, Стив! Пусть будет $5000
-# Конечно, Моника, можешь приступать
-            music Power_Bots_Loop
-            img 11614
-            with fade
-            m "Мне не нужны твои жалкие подачки, Стив!"
-            m "Пусть будет $ 5000."
-            music Groove2_85
-            img 11613
-            with diss
-            steve "Конечно, Моника. Можешь приступать."
-            $ chooseVar = 2
+    # Согласиться на 5000
+    # Мне не нужны твои жалкие подачки, Стив! Пусть будет $5000
+    # Конечно, Моника, можешь приступать
+                music Power_Bots_Loop
+                img 11614
+                with fade
+                m "Мне не нужны твои жалкие подачки, Стив!"
+                m "Пусть будет $ 5000."
+                music Groove2_85
+                img 11613
+                with diss
+                steve "Конечно, Моника. Можешь приступать."
+                $ chooseVar = 2
 
 # Моника залезает под стол.
     music stop
@@ -1618,9 +1625,13 @@ label ep25_dialogues3_steve5:
     img 11717
     with diss
     m "Мы закрыли контракт!"
-    img 11718
-    with diss
-    steve "Да, Моника, деньги ушли."
+    if monicaSteveContractPenaltyActive == True:
+        $ monicaSteveContractPenaltyActive = False
+        call ep26_dialogues2_steve4b()
+    else:
+        img 11718
+        with diss
+        steve "Да, Моника, деньги ушли."
 
     img 11719
     with fade

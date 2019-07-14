@@ -5,6 +5,7 @@ default monicaOfferedBoobsToSteve1 = False # Моника предложила �
 default monicaSteveContractPenaltyActive = False # Действует пенальти на контракты со Стивом
 default monicaSteveContractJaneAwaits = False
 default monicaJaneTouchedMonicaBoobs = False
+default monicaThreatenSteveJane = False # Моника угоржала Стиву рассказать все Джейн
 
 # Еженедельный хук (обнуление посещения джейн и тд)
 label ep26_quests_steve1:
@@ -26,6 +27,7 @@ label ep26_quests_steve2:
             call ep25_quests_steve19()# Блокируем офис на сегодня (день)
             call change_scene("street_steve_office", "Fade_long", False)
             return False
+        $ monicaSteveContractJaneAwaits = False
         call ep26_dialogues2_steve3()
         if _return == False:
             $ monicaSteveContractPenaltyActive = True
