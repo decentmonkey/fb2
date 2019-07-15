@@ -6,6 +6,7 @@ default monicaOfficeSecretaryMonicaSuffix_forced = False
 label monica_office_secretary:
     $ print "enter_monica_office_secretary"
     $ miniMapData = []
+    call miniMapOfficeGenerate()
 
     $ scene_image = "scene_Office_Monica_Secretary[day_suffix]"
 

@@ -79,7 +79,16 @@ label ep26_quests_biff5:
 
     # инициализируем работу в офисе
     call office_work_init()
+
+    $ add_hook("before_open", "ep26_quests_biff6", scene="monica_office_cabinet_table", label=["check_bill_at_place", "check_bill_at_place_cabinet_table"], priority=150)
     return False
+
+label ep26_quests_biff6:
+    # Проверяем наличие Бифа в офисе днем при переходе по миникарте
+    call ep22_dialogue6_2b()
+    if _return == False:
+        call change_scene("monica_office_secretary")
+    return
 
 
 

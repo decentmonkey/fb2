@@ -184,10 +184,12 @@ label ep22_dialogue6_2:
 
 label ep22_dialogue6_2b:
     if get_active_objects("Biff", scene="monica_office_cabinet") == False:
+        music Groove2_85
         if day_time == "day":
             if cloth == "Whore":
                 #render
                 img 8284
+                with fade
                 secretary "Миссис Бакфетт!"
                 "Мистера Бифа сейчас нет на месте!"
                 img 8283
@@ -200,6 +202,7 @@ label ep22_dialogue6_2b:
                 if cloth == "CasualDress1":
                     #render
                     img 11244
+                    with fade
                     secretary "Миссис Бакфетт!"
                     "Мистера Бифа сейчас нет на месте!"
                     img 11243
@@ -212,6 +215,7 @@ label ep22_dialogue6_2b:
                     if cloth == "WorkingOutfit1":
                         #render
                         img 12773
+                        with fade
                         secretary "Миссис Бакфетт!"
                         "Мистера Бифа сейчас нет на месте!"
                         img 12772
@@ -232,6 +236,7 @@ label ep22_dialogue6_2b:
             if cloth == "Whore":
                 #render
                 img 8284
+                with fade
                 secretary "Миссис Бакфетт!"
                 "Мистера Бифа сейчас нет на месте!"
                 img 8283
@@ -245,6 +250,7 @@ label ep22_dialogue6_2b:
                 if cloth == "CasualDress1":
                     #render
                     img 11244
+                    with fade
                     secretary "Миссис Бакфетт!"
                     "Мистера Бифа сейчас нет на месте!"
                     img 11243
@@ -258,6 +264,7 @@ label ep22_dialogue6_2b:
                     if cloth == "WorkingOutfit1":
                         #render
                         img 12773
+                        with fade
                         secretary "Миссис Бакфетт!"
                         "Мистера Бифа сейчас нет на месте!"
                         img 12772

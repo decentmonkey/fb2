@@ -5,6 +5,7 @@ default workingOfficeCabinetItem10Viewed = False
 label working_office_cabinet:
     $ print "enter_working_office_cabinet"
     $ miniMapData = []
+    call miniMapOfficeGenerate()
 
     $ scene_image = "scene_WorkingOfficeCabinet[day_suffix]"
     music Stealth_Groover

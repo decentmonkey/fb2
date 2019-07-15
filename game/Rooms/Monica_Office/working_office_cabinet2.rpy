@@ -3,6 +3,7 @@ default workingOfficeCabinet2MonicaSuffix = 1
 label working_office_cabinet2:
     $ print "enter_working_office_cabinet2"
     $ miniMapData = []
+    call miniMapOfficeGenerate()
 
     $ scene_image = "scene_WorkingOfficeCabinet2[day_suffix]"
     music Stealth_Groover

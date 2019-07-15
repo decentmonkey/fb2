@@ -3,6 +3,7 @@ default monicaOfficeWhiskeyOnTable = False
 label monica_office_cabinet_table:
     $ print "enter_monica_office_cabinet_table"
     $ miniMapData = []
+    call miniMapOfficeGenerate()
 
     if monicaOfficeWhiskeyOnTable == False:
         $ scene_image = "scene_Office_Monica_Cabinet_Table[day_suffix]"

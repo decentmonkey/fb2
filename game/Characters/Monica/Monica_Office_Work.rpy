@@ -53,9 +53,13 @@ label office_work_init:
 
     # Инициализация локаций
     call locations_init_working_office()
+
+    # Инициализация мини-карты
+    $ miniMapOfficeActivated = True
     return
 
 label office_work_init_next_morning:
+    $ remove_hook()
     $ questLog(43, True)
     return
 
@@ -114,4 +118,34 @@ label office_work_lift:
             call putoff_work_clothes()
         call change_scene("monica_office_entrance", "Fade_long", "snd_lift")
         return False
+    return
+
+label office_work_minimap_teleport:
+    #minimapCell["teleport_scene_name"]
+    $ target_scene = minimapCell["teleport_scene_name"]
+    $ print target_scene
+    if target_scene == scene_name:
+        call refresh_scene_fade()
+        return
+    if target_scene == "monica_office_entrance":
+        if cloth_type == "WorkingOutfit":
+            img black_screen
+            with diss
+            sound snd_fabric1
+            pause 1.0
+            call putoff_work_clothes()
+    if scene_name == "monica_office_entrance":
+        if cloth_type != "WorkingOutfit":
+            img black_screen
+            with diss
+            sound snd_fabric1
+            pause 1.0
+            call put_work_clothes()
+    if (target_scene == "monica_office_photostudio" or target_scene == "monica_office_cabinet_table" or target_scene == "monica_office_secretary" or target_scene=="monica_office_secretary_teatable" or target_scene == "monica_office_makeup_room") and (scene_name == "monica_office_photostudio" or scene_name == "monica_office_cabinet_table" or scene_name == "monica_office_secretary" or scene_name=="monica_office_secretary_teatable" or scene_name == "monica_office_makeup_room"):
+        call change_scene(target_scene, "Fade_long")
+        return
+    if (target_scene == "working_office" or target_scene == "working_office2" or target_scene == "working_office_cabinet" or target_scene =="working_office_cabinet2") and (scene_name == "working_office" or scene_name == "working_office2" or scene_name == "working_office_cabinet" or scene_name =="working_office_cabinet2"):
+        call change_scene(target_scene, "Fade_long")
+        return
+    call change_scene(target_scene, "Fade_long", "snd_lift")
     return

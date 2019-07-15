@@ -4,6 +4,7 @@ default photostudioMelanieSuffix = 3
 label monica_office_photostudio:
     $ print "enter_monica_office_photostudio"
     $ miniMapData = []
+    call miniMapOfficeGenerate()
 
     $ scene_image = "scene_Office_Monica_PhotoStudio"
     music Mandeville

@@ -1,6 +1,7 @@
 label working_office2:
     $ print "enter_working_office2"
     $ miniMapData = []
+    call miniMapOfficeGenerate()
 
     $ scene_image = "scene_WorkingOffice2[day_suffix]"
     music Stealth_Groover
