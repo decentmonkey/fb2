@@ -1,3 +1,6 @@
+default worker5Option1Cnt = 0
+default worker5Option2Cnt = 0
+
 # мужик
 label worker5_look:
     img 20312
@@ -47,28 +50,43 @@ label worker5_dialogue_workplace:
     return
 
 label worker5_dialogue_office:
+    music Sneaky_Snitch
     img 20358
+    with fadelong
     w5 "Миссис Бакфет, я бы хотел поговорить о моем повышении!"
     menu:
         "Давай поговорим.":
+            $ worker5Option1Cnt += 1
             img 20359
+            with diss
             m "Давай поговорим."
             img 20360
+            with diss
             w5 "Миссис Бакфет, Вы же знаете, я очень ответственный и без меня этот отдел просто развалится."
             w5 "Еще эта толстуха Грета так и наровит занять мое законное место."
             w5 "И я буду Вам бесконечно благодарен если Вы..."
+            music Groove2_85
             img 20361
+            with fade
             m "Достаточно..."
             m "Чем чаще ты задаешь мне такие вопросы тем дальше от тебя эта должность."
             img 20362
+            with diss
             mt "И что это вообще за должность? Почему он думает, что этому отделу нужен какой-то мифический начальник кроме меня?"
+            music Sneaky_Snitch
             img 20363
+            with fade
             w5 "Да, понял. Ухожу. Но знайте, миссис Бакфет, Вы всегда можете на меня расчитывать."
             return
         "Не в этой жизни.":
+            $ worker5Option2Cnt +=1
+            music Pyro_Flow
             img 20361
             m "Повышении?!"
             m "Не сегодня. Выйди и закрой за собой дверь."
+            call bitch(1, "worker5_dialogue_office")
+            music Sneaky_Snitch
             img 20363
+            with fade
             w5 "Хорошо. Понимаю, Вы очень заняты. Ну ничего, в другой раз."
             return

@@ -5,6 +5,8 @@ default workingOfficeCabinetItem10Viewed = False
 
 default workingOfficeCabinetMonicaChairEnabled = False
 
+default workingOfficeSkipMusicOneTime = False
+
 label working_office_cabinet:
     $ print "enter_working_office_cabinet"
     $ miniMapData = []
@@ -17,7 +19,10 @@ label working_office_cabinet:
         $ workingOfficeCabinetMonicaChairEnabled = False
 
     $ scene_image = "scene_WorkingOfficeCabinet[day_suffix]"
-    music Stealth_Groover
+
+    if workingOfficeSkipMusicOneTime == False:
+        music Stealth_Groover
+    $ workingOfficeSkipMusicOneTime = False
     return
 
 label working_office_cabinet_init:

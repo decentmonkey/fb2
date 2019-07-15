@@ -365,16 +365,6 @@ label ep22_dialogue6_3:
             img 12782
             mt "УРОД!!!"
 
-        # Проверка на то что Моника мало работала эти дни
-        if 1 == 2:
-            img 12781
-            with fade
-            biff "Нет, цыпочка!"
-            biff "Ты слишком часто прогуливаешь работу!"
-            "Сейчас очередь других цыпочек зарабатывать деньги!"
-            "Цыпочек, которые не увиливают от посещения работы!"
-            img 12782
-            mt "УРОД!!!"
         menu:
             "Уйти...":
                 return False
@@ -416,6 +406,20 @@ label ep22_dialogue6_3:
                     mt "Я НЕНАВИЖУ ЭТОГО УРОДА!!!"
                     "КОГДА Я ВЕРНУ СВОЕ МЕСТО НАЗАД?!?!"
                 return False
+    # Проверка на то что Моника мало работала эти дни
+    if monicaWorkingAtBiffOffice == True and get_office_working_status(6) < 1:
+        img 12781
+        with fade
+        biff "Нет, цыпочка!"
+        biff "Ты слишком часто прогуливаешь работу!"
+        "Сейчас очередь других цыпочек зарабатывать деньги!"
+        "Цыпочек, которые не увиливают от посещения работы!"
+        music Power_Bots_Loop
+        img 12782
+        with diss
+        mt "УРОД!!!"
+        $ notif(_("Монике надо ходить на работу в офис хотя бы раз в неделю."))
+        return False
 
     if cloth == "Whore":
         img 8293
@@ -976,7 +980,7 @@ label ep22_dialogue6_7:
             m "В этом нет... необходимости"
 label ep22_dialogue6_7b:
     menu:
-        "Ты что-то говорил по поводу работы в офисе?":
+        "Ты что-то говорил по поводу работы в офисе?" if monicaWorkingAtBiffOffice == False:
             if cloth == "Whore":
                 img 8305
                 with fade
@@ -1085,6 +1089,7 @@ label ep22_dialogue6_7b:
         img 11251
     if cloth == "WorkingOutfit1":
         img 12780
+    with diss
     m "Я могу идти?"
     biff "Да, цыпочка! Иди!"
     return True

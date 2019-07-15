@@ -377,6 +377,7 @@ label ep26_dialogues6_office2_3:
 
 label ep26_dialogues6_office2_4:
     # Проходит время
+    music Stealth_Groover
     $ imagesList = random.sample(set([20275,20276,20277]), 1)
     img imagesList[0]
     with fade
@@ -390,15 +391,20 @@ label ep26_dialogues6_office2_4a:
 
 label ep26_dialogues6_office2_5:
     # Разговор я Юлией вечером
+    sound highheels_short_walk
+    music Groove2_85
     img 20294
+    with fadelong
     m "Юлия, ты еще не закончила?"
     img 20295
     julia "Нет, Миссис Бакфетт. Я буду работать допоздна."
     #julia "Я на новом месте и хочу проявить себя."
     #m "Это похвально, Юлия."
     img 20296
+    with diss
     m "Ты не покинешь рабочего места, пока не закончишь с работой, Юлия."
     img 20297
+    with diss
     julia "Да, Миссис Бакфетт..."
     julia "Я сделаю всю работу сегодня..."
     return
@@ -419,52 +425,72 @@ label ep26_dialogues6_office2_6:
 
 label ep26_dialogues6_office2_7:
     # Если обратиться к Юлии
+    music Groove2_85
     img 20278
+    with fadelong
     m "Юлия, подойди ко мне!"
+    sound highheels_run2
     img 20279
+    with fade
     julia "Да, Миссис Бакфетт?"
     img 20280
+    with diss
     m "Юлия, что там с отчетами, которые надо обработать сегодня?"
     img 20281
     julia "Их очень много, Миссис Бакфетт."
     julia "У меня впечатление, что это объем для обработки двумя сотрудниками."
     img 20282
+    with diss
     julia "Я не представляю как справлюсь с этим!"
     julia "Мне придется работать с этим до ночи!"
     menu:
         "Заставить Юлию работать допоздна.":
             pass
         "Пожалеть Юлию.":
+            music Stealth_Groover
             img 20287
+            with fade
             m "Юлия, да, отчетов дейтвительно много."
             m "Однако, это не повод задерживаться допоздна."
             m "Сделай сколько успеешь до конца рабочего дня и можешь быть свободна."
+            call bitch(-20, "ep26_dialogues6_office2_7")
             img 20288
+            with diss
             julia "Миссис Бакфетт, большое спасибо Вам!"
+            $ monicaOfficeWorkKindCount1 += 1
             return False
     img 20284
+    with fade
     m "Юлия, ты здесь новый сотрудник."
     m "И ты должна проявить себя."
     m "Я здесь для того, чтобы приглядывать за тобой."
     img 20285
+    with diss
     m "Ты ведь не намекаешь на то что должна помогать тебе в этой работе?"
 
+    call bitch(20, "ep26_dialogues6_office2_7")
     img 20286
     julia "Нет, Миссис Бакфетт. Что Вы?"
     img 20283
+    with diss
     julia "Я сделаю все сама."
     julia "Пожалуйста. Извините меня!"
 
+    $ monicaOfficeWorkOffendedCount1 += 1
     # скип до вечера с событиями
     return True
 
 label ep26_dialogues6_office2_8:
+    music Stealth_Groover
     img 20291
+    with fadelong
     mt "Все, я свободна на сегодня!"
     img 20292
+    with diss
     mt "Пусть Юлия делает всю работу."
     mt "Работать от зари до зари - это ее предназначение, таких как она."
     img 20293
+    with diss
     mt "Я - это совершенно другое!"
     return
 
@@ -484,6 +510,12 @@ label ep26_dialogues6_office2_9:
     mt "Эти бездельники не пришли на работу. Видите-ли сегодня выходной."
     mt "Когда я верну себе компанию, я отменю выходные..."
     mt "Нечего бездельничать!"
+    return
+
+label ep26_dialogues6_office2_10:
+    mt "Сегодня выходной."
+    mt "Из-за того что эти бездельники не работают по выходным, мне нечего здесь делать сейчас."
+    mt "Отвратительно!"
     return
 
 

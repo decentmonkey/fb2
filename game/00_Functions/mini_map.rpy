@@ -72,12 +72,12 @@ label miniMapOfficeGenerate:
     $ miniMapOpenButtonImg = "Open_Button_Office_Map1"
     $ miniMapOpenButtonImg2 = "Open_Button_Office_Map2"
     $ miniMapData = []
-    $ miniMapData.append({"name":"Office_Entrance", "caption":_("Entrance"), "img":"Office_Entrance_Monica", "teleport_scene":"office_work_minimap_teleport", "teleport_scene_name":"monica_office_entrance", "teleport_type":"function"})
     $ miniMapData.append({"name":"Office_Biff_Cabinet", "caption":_("Biff's Office"), "img":"Office_Monica_Cabinet", "teleport_scene":"office_work_minimap_teleport", "teleport_scene_name":"monica_office_cabinet_table", "teleport_type":"function"})
+    $ miniMapData.append({"name":"Working_Office_Cabinet", "caption":_("Monica's Office"), "img":"WorkingOfficeCabinet", "teleport_scene":"office_work_minimap_teleport", "teleport_scene_name":"working_office_cabinet", "teleport_type":"function"})
+    $ miniMapData.append({"name":"Working_Office", "caption":_("Subordinates"), "img":"WorkingOffice", "teleport_scene":"office_work_minimap_teleport", "teleport_scene_name":"working_office", "teleport_type":"function"})
     $ miniMapData.append({"name":"Office_PhotoStudio", "caption":_("Photo Studiio"), "img":"Office_Monica_PhotoStudio", "teleport_scene":"office_work_minimap_teleport", "teleport_scene_name":"monica_office_photostudio", "teleport_type":"function"})
     $ miniMapData.append({"name":"Office_Monica_Secretary", "caption":_("Secretary"), "img":"Office_Monica_Secretary", "teleport_scene":"office_work_minimap_teleport", "teleport_scene_name":"monica_office_secretary", "teleport_type":"function"})
-    $ miniMapData.append({"name":"Working_Office", "caption":_("Subordinates."), "img":"WorkingOffice", "teleport_scene":"office_work_minimap_teleport", "teleport_scene_name":"working_office", "teleport_type":"function"})
-    $ miniMapData.append({"name":"Working_Office_Cabinet", "caption":_("Monica's Office"), "img":"WorkingOfficeCabinet", "teleport_scene":"office_work_minimap_teleport", "teleport_scene_name":"working_office_cabinet", "teleport_type":"function"})
+    $ miniMapData.append({"name":"Office_Entrance", "caption":_("Entrance"), "img":"Office_Entrance_Monica", "teleport_scene":"office_work_minimap_teleport", "teleport_scene_name":"monica_office_entrance", "teleport_type":"function"})
     return
 
 

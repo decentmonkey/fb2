@@ -1,3 +1,6 @@
+default worker4Option1Cnt = 0
+default worker4Option2Cnt = 0
+
 # близняшка 2
 label worker4_look:
     img 20305
@@ -27,25 +30,36 @@ label worker4_dialogue_workplace:
     return
 
 label worker4_dialogue_office:
+    music ZigZag
     img 20350
+    with fadelong
     w4 "Миссис Бакфет, можно?"
     menu:
         "Да, заходи.":
+            $ worker4Option1Cnt += 1
             m "Да, заходи."
             img 20351
+            with fade
             w4 "Миссис Бакфет, у меня пропал интернет."
             img 20352
             m "Окей. И чем я тебе могу помочь?"
             img 20353
+            with diss
             m "Ты же знаешь, что этими проблемами занимается наш системный админимтратор."
             img 20354
+            with fade
             m "Пухлый коротышка в очках."
             m "Так что иди к нему со своей проблемой."
             img 20355
+            with diss
             w4 "Но он не хочет мне помогать."
+            music Groove2_85
             img 20356
+            with fade
             m "Скажи ему, что он будет уволен, если сейчас же не решит вопрос."
+            call bitch(-1, "worker4_dialogue_office")
             img 20357
+            with diss
             w4 "Хорошо, Миссис Бакфетт."
             w4 "Я передам" # улыбается
 
@@ -61,8 +75,12 @@ label worker4_dialogue_office:
 #            w4 "Спасибо, миссис Бакфет!"
             return
         "Я занята.":
+            $ worker4Option2Cnt += 1
             m "Я занята, приходи завтра."
             w4 "Ладно, но у меня проблема..."
+            call bitch(1, "worker4_dialogue_office")
+            music Pyro_Flow
             img 20356
+            with fade
             m "Ты что, не понимаешь? Я сейчас занята!"
             return

@@ -1,3 +1,6 @@
+default worker2Option1Cnt = 0
+default worker2Option2Cnt = 0
+
 # админ
 label worker2_look:
     img 20302
@@ -40,31 +43,53 @@ label worker2_dialogue_workplace:
             return
 
 label worker2_dialogue_office:
+    music DarxieLand
     img 20336
+    with fadelong
     w2 "Босс, я все проверил. Все работает стабильно."
     menu:
         "Разве тебя не учили стучаться?":
+            $ worker2Option1Cnt += 1
+            music Groove2_85
             img 20337
+            with fade
             m "Разве тебя не учили стучаться?"
             w2 "Ну... Я постучал..."
             m "Не правда! А теперь выйди из кабинета и если ты хочешь войти, постучись."
             w2 "Хорошо..."
+            music stop
+            sound snd_door_close1
+            img black_screen
+            with diss
+            pause 1.0
+            sound snd_door_knock
+            pause 1.0
+            sound snd_door_open1
+            pause 0.5
+            music DarxieLand
             # выыходит - стучится
             img 20338
+            with fadelong
             w2 "Миссис Бакфет, можно?"
             m "Да, заходи."
+            music Groove2_85
             img 20339
+            with diss
             m "Вот видишь, все просто. Ты говоришь, что у тебя все работает..."
             m "Хорошо. А теперь можешь идти."
             w2 "?!"
             m "Да, да, иди работай."
             return
         "Больше ничего.":
+            $ worker2Option2Cnt += 1
             img 20340
+            with fade
             w2 "Могу я чем нибудь помочь?"
             m "Больше ничего. Можешь идти."
             w2 "Хорошо. Если Вам что-то понадобится, зовите."
+            music Groove2_85
             img 20341
+            with fade
             mt "Хм... Он ведет себя как болван."
             mt "Возможно я смогу его как-то использовать..."
             mt "Но как? Пока не знаю..."

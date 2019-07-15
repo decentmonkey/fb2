@@ -3,6 +3,8 @@ default cloth_type_before_work = False
 default officeWorkingLog = []
 default monicaOfficeWorkedToday = False
 
+default office_work_comment1_1_lastDay = 0
+
 init python:
     def add_office_working_day(status): #True - был рабочий день, #False - не было рабочего дня
         global cleaningLog
@@ -11,10 +13,12 @@ init python:
 
     def get_office_working_status(days): # Подсчитывает кол-во пропусков работы за последние days дней
         # На входе необходимое кол-во дней
-        if len(officeWorkingLog) < days:
-            return False
+#        if len(officeWorkingLog) < days:
+#            return False
 #        need_amount = days
         working_days_amount = 0
+        if days > len(officeWorkingLog):
+            days = len(officeWorkingLog)
         for idx1 in range(0,days):
             if officeWorkingLog[idx1] == True:
                 working_days_amount = working_days_amount + 1
@@ -65,6 +69,9 @@ label office_work_init2:
 
     $ add_hook("begin_office_work_dialogue", "office_work_begin1", scene="global", label="office_work_begin1_menu")
     $ add_hook("office_work_process", "office_work_process1", scene="global", label="office_work_process1")
+
+    # Комментарий при входе на работу (если никого нет)
+    $ add_hook("enter_scene", "office_work_comment1", scene="working_office", label="working_office_comment1")
     return
 
 label office_life_day:
@@ -78,6 +85,11 @@ label office_life_evening:
 
 label office_life_day1:
     $ monicaOfficeWorkedToday = False
+    if week_day != 7: # Если не воскресенье
+        $ move_object("Julia", "working_office_cabinet") # Юлия идет на работу
+        $ set_active(True, group="workers", scene="working_office") # Сотрудники на работе
+        $ set_active(True, group="workers", scene="working_office2")
+
 #    $ move_object("Biff", "empty")
     return
 
@@ -87,6 +99,10 @@ label office_life_evening1:
     else:
         $ add_office_working_day(False)
     $ monicaOfficeWorkedToday = False
+
+    $ set_active(False, group="workers", scene="working_office") # Сотрудники уходят с работы
+    $ set_active(False, group="workers", scene="working_office2")
+
     return
 
 
@@ -151,6 +167,8 @@ label office_work_minimap_teleport:
             sound snd_fabric1
             pause 1.0
             call put_work_clothes()
+    if target_scene == "working_office_cabinet":
+        $ workingOfficeCabinetMonicaSuffix = 1
     if (target_scene == "monica_office_photostudio" or target_scene == "monica_office_cabinet_table" or target_scene == "monica_office_secretary" or target_scene=="monica_office_secretary_teatable" or target_scene == "monica_office_makeup_room") and (scene_name == "monica_office_photostudio" or scene_name == "monica_office_cabinet_table" or scene_name == "monica_office_secretary" or scene_name=="monica_office_secretary_teatable" or scene_name == "monica_office_makeup_room"):
         call change_scene(target_scene, "Fade_long")
         return
@@ -165,6 +183,9 @@ label office_work_begin_event:
     return
 
 label office_work_begin1:
+    if week_day == 7: # Выходной
+        call ep26_dialogues6_office2_10()
+        return False
     if day_time == "evening":
         call ep26_dialogues6_office2_4a()
         return False
@@ -173,10 +194,14 @@ label office_work_begin1:
     if _return == False:
         return False
     call process_hooks("office_work_process", "global")
+    img black_screen
+    with diss
+    pause 1.5
     $ monicaOfficeWorkedToday = True
     $ move_object("Julia", "empty") # Юлия уходит с работы (обычный день)
     $ changeDayTime("evening")
     $ rand1 = random.choice([2,3,4,5])
+    $ workingOfficeCabinetMonicaSuffix = rand1
     call ep26_dialogues6_office2_4()
     call refresh_scene_fade()
     return
@@ -184,13 +209,26 @@ label office_work_begin1:
 label office_work_begin2:
     # Рабочий день с приказами Юлии
     call process_hooks("office_work_process", "global")
+    img black_screen
+    with diss
+    pause 1.5
     $ monicaOfficeWorkedToday = True
     $ changeDayTime("evening")
     $ rand1 = random.choice([2,3,4,5])
+    $ workingOfficeCabinetMonicaSuffix = rand1
     call refresh_scene_fade()
     return
 
 label office_work_process1:
     # Процессим работу
-    m "work!"
+    # Заходит 1 человек в день
+    call ep26_quests_office_workers2(1)
+    return
+
+label office_work_comment1:
+    if get_active_objects(scene="working_office", group="workers") == False: # На работе никого нет
+        if day_time == "day": # Если день (вечером их и так нет)
+            if day != office_work_comment1_1_lastDay: # И если сегодня еще не делали комментария
+                $ office_work_comment1_1_lastDay = day
+                call ep26_dialogues6_office2_9() # Комментарий по поводу выходного
     return

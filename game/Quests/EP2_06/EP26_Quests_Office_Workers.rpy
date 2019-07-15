@@ -1,3 +1,11 @@
+default officeMonicaVisitedByWorker1_cnt = 0
+default officeMonicaVisitedByWorker2_cnt = 0
+default officeMonicaVisitedByWorker3_cnt = 0
+default officeMonicaVisitedByWorker4_cnt = 0
+default officeMonicaVisitedByWorker5_cnt = 0
+default officeMonicaVisitedByWorker6_cnt = 0
+default officeMonicaVisitedByWorker7_cnt = 0
+
 label ep26_quests_office_workers1:
     # Клик на работников
     if obj_name == "Worker1":
@@ -50,4 +58,48 @@ label ep26_quests_office_workers1:
             call worker7_dialogue_workplace()
             call refresh_scene_fade()
 
+    return
+
+label ep26_quests_office_workers2(amount):
+    # Работники заходят к Монике (сколько вызовов, столько и приходов)
+    $ workersToVisit = [1,2,3,4,5,6,7]
+    $ workersList = random.sample(set(workersToVisit), amount)
+    $ idx = 0
+    label ep26_quests_office_workers2_loop1:
+        music stop
+        img black_screen
+        with diss
+        pause 1.0
+        sound snd_door_open1
+        pause 0.5
+        if idx >= len(workersList):
+            return
+        $ workerIdx = workersList[idx]
+        if workerIdx == 1:
+            call worker1_dialogue_office()
+            $ officeMonicaVisitedByWorker1_cnt += 1
+        if workerIdx == 2:
+            call worker2_dialogue_office()
+            $ officeMonicaVisitedByWorker2_cnt += 1
+        if workerIdx == 3:
+            call worker3_dialogue_office()
+            $ officeMonicaVisitedByWorker3_cnt += 1
+        if workerIdx == 4:
+            call worker4_dialogue_office()
+            $ officeMonicaVisitedByWorker4_cnt += 1
+        if workerIdx == 5:
+            call worker5_dialogue_office()
+            $ officeMonicaVisitedByWorker5_cnt += 1
+        if workerIdx == 6:
+            call worker6_dialogue_office()
+            $ officeMonicaVisitedByWorker6_cnt += 1
+        if workerIdx == 7:
+            call worker7_dialogue_office()
+            $ officeMonicaVisitedByWorker7_cnt += 1
+        music stop
+        img black_screen
+        with diss
+        sound snd_door_close1
+        pause 1.0
+    # Выбираем случайного работника
     return

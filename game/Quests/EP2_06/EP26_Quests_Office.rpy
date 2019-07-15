@@ -36,6 +36,8 @@ label ep26_quests_office3:
     $ set_active(True, group="environment", scene="working_office")
     $ set_active(True, teleport=True, scene="working_office")
 
+    $ remove_hook(label="office_workers_meeting_dialogue1")
+
     $ add_hook("Julia", "ep26_quests_office4", scene="working_office_cabinet")
     call change_scene("working_office_cabinet", "Fade_long", False)
     return False
@@ -81,11 +83,19 @@ label ep26_quests_office6:
     $ set_active("MonicaTable", True, scene="working_office_cabinet")
 
     $ workingOfficeCabinetJuliaSuffix = 3 # Юлия работает
-    $ workingOfficeCabinetMonicaSuffix = 3 # Моника сидит (позы 2 и 3, 4- стоит у окна)
+    $ workingOfficeCabinetMonicaSuffix = 6 # Моника сидит (позы 2 и 3, 4- стоит у окна)
     call office_work_init2() # Вторичная инициализация работы в офисе
     $ add_hook("Julia", "ep26_quests_office7", scene="working_office_cabinet")
 
+    img black_screen
+    with diss
     pause 2.0
+
+    # Инициализация мини-карты
+    $ miniMapOfficeActivated = True
+    $ autorun_to_object("ep26_dialogues6_office2_minimap_active", scene="working_office_cabinet")
+    $ workingOfficeSkipMusicOneTime = True
+    call refresh_scene_fade()
     return False
 
 label ep26_quests_office7:
@@ -96,19 +106,13 @@ label ep26_quests_office7:
         # Юлия работает допоздна
         call ep26_dialogues6_office2_5()
         $ workingOfficeCabinetMonicaSuffix = 1
+        call refresh_scene_fade()
         return False
     call ep26_dialogues6_office2_7()
     if _return == False:
+        $ workingOfficeCabinetMonicaSuffix = 2
         call refresh_scene_fade()
         return False
     call office_work_begin2() # Рабочий день скипается с Юлией
     call ep26_dialogues6_office2_8()
     return
-
-
-
-
-
-#    # Инициализация мини-карты
-#    $ miniMapOfficeActivated = True
-#    $ autorun_to_object("ep26_dialogues6_office2_minimap_active", scene="monica_office_entrance")

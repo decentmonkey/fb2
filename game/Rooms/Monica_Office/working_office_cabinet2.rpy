@@ -45,7 +45,10 @@ label working_office_cabinet2_init:
 
 label working_office_cabinet2_teleport:
     if obj_name == "Teleport_Working_Office_Cabinet":
-        $ workingOfficeCabinetMonicaSuffix = 1
+        if day_time == "day":
+            $ workingOfficeCabinetMonicaSuffix = 7
+        else:
+            $ workingOfficeCabinetMonicaSuffix = 1
         call change_scene("working_office_cabinet")
         return
     return

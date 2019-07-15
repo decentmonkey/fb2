@@ -111,6 +111,8 @@ define w4 = Character(_("Элла"), who_color=c_pink)
 define w5 = Character(_("Джон"), who_color=c_blue)
 define w6 = Character(_("Грета"), who_color=c_pink)
 define w7 = Character(_("Лин"), who_color=c_pink)
+define w7t = Character(_("Лин"), who_color=c_pink, what_color=c_blue, what_italic=True)
+
 
 
 

@@ -2661,7 +2661,6 @@ define offsets_table = {
     "workingofficecabinet_monica3_workingoutfit1_overlay":(344,1113,1079,1651),
     "workingofficecabinet_monica4_workingoutfit1_evening_overlay":(356,1163,1079,1645),
     "workingofficecabinet_monica5_workingoutfit1_evening_overlay":(346,1138,1079,1639),
-    "workingoffice_monica_workingoutfit1_evening_overlay":(771,1398,1079,1731),
     "workingoffice_monica_workingoutfit1_overlay":(809,1404,1079,1788),
     "workingoffice_w1_overlay":(408,350,831,657),
     "workingoffice_w2_overlay":(518,1141,832,1468),
@@ -2708,7 +2707,6 @@ define offsets_table = {
     "workingofficecabinet_julia2":(235,338,694,516),
     "workingofficecabinet_julia3":(272,327,723,505),
     "workingofficecabinet_monica1_workingoutfit1":(258,1089,1079,1427),
-    "workingofficecabinet_monica1_workingoutfit1_evening":(359,1217,801,1587),
     "workingofficecabinet_monica2_workingoutfit1":(359,1217,801,1587),
     "workingofficecabinet_monica2_workingoutfit1_evening":(344,1175,789,1577),
     "workingofficecabinet_monica3_workingoutfit1":(349,1168,775,1611),
@@ -2719,7 +2717,16 @@ define offsets_table = {
     "rich_hotel_restaurant_entrance_monica_casualdress1_overlay":(660,513,1079,839),
     "rich_hotel_restaurant_entrance_monica_casualdress1_waitress_visitor3":(0,290,1079,1775),
     "rich_hotel_restaurant_entrance_v3":(0,820,585,1081),
-    "rich_hotel_restaurant_entrance_v3_overlay":(32,678,694,1110)
+    "rich_hotel_restaurant_entrance_v3_overlay":(32,678,694,1110),
+    "workingoffice_monica_workingoutfit1_evening_overlay":(784,1368,1079,1887),
+    "workingofficecabinet_julia3_evening":(272,327,723,505),
+    "workingofficecabinet_julia3_evening_overlay":(400,292,783,558),
+    "workingofficecabinet_monica1_workingoutfit1_evening":(209,630,1079,927),
+    "workingofficecabinet_monica1_workingoutfit1_evening_overlay":(890,617,1079,1220),
+    "workingofficecabinet_monica6_workingoutfit1":(100,928,610,1065),
+    "workingofficecabinet_monica6_workingoutfit1_overlay":(135,811,1079,1142),
+    "workingofficecabinet_monica7_workingoutfit1":(180,552,1032,802),
+    "workingofficecabinet_monica7_workingoutfit1_overlay":(907,503,1079,847)
 }
 
 init python:
