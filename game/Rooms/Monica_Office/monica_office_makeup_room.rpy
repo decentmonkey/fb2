@@ -1,12 +1,17 @@
 default makeupRoomMelanieSuffix = 1
 
+default monicaOfficeMakeupRoomSkipMusicOneTime = False
+
 label monica_office_makeup_room:
     $ print "enter_monica_office_makeup_room"
     $ miniMapData = []
     call miniMapOfficeGenerate()
 
     $ scene_image = "scene_office_monica_makeuproom"
-    music Mandeville
+
+    if monicaOfficeMakeupRoomSkipMusicOneTime == False:
+        music Mandeville
+    $ monicaOfficeMakeupRoomSkipMusicOneTime = False
     return
 
 label monica_office_makeup_room_init:

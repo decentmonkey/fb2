@@ -26,5 +26,6 @@ label ep26_quests_melanie2:
     # Разговор с Мелани
     if act=="l":
         return
-    m "here"
-    return
+    call ep26_dialogues7_melanie1()
+    call refresh_scene_fade_long()
+    return False
