@@ -2,10 +2,19 @@ default workingOfficeCabinetMonicaSuffix = 1
 default workingOfficeCabinetJuliaSuffix = 1
 
 default workingOfficeCabinetItem10Viewed = False
+
+default workingOfficeCabinetMonicaChairEnabled = False
+
 label working_office_cabinet:
     $ print "enter_working_office_cabinet"
     $ miniMapData = []
     call miniMapOfficeGenerate()
+
+    # Стул неактивен, когда Моника на нем сидит
+    if workingOfficeCabinetMonicaSuffix == 1 or workingOfficeCabinetMonicaSuffix == 4:
+        $ workingOfficeCabinetMonicaChairEnabled = True
+    else:
+        $ workingOfficeCabinetMonicaChairEnabled = False
 
     $ scene_image = "scene_WorkingOfficeCabinet[day_suffix]"
     music Stealth_Groover
@@ -15,9 +24,9 @@ label working_office_cabinet_init:
 
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "WorkingOfficeCabinet_Monica[workingOfficeCabinetMonicaSuffix]_[cloth][day_suffix]", "click" : "working_office_cabinet_environment", "actions" : "l", "zorder":10}, scene="working_office_cabinet")
 
-    $ add_object_to_scene("Julia", {"type" : 2, "base" : "WorkingOfficeCabinet_Julia[workingOfficeCabinetJuliaSuffix]", "click" : "working_office_cabinet_environment", "actions" : "lt", "zorder":5}, scene="working_office_cabinet")
+    $ add_object_to_scene("Julia", {"type" : 2, "base" : "WorkingOfficeCabinet_Julia[workingOfficeCabinetJuliaSuffix][day_suffix]", "click" : "working_office_cabinet_environment", "actions" : "lt", "zorder":5}, scene="working_office_cabinet")
 
-    $ add_object_to_scene("MonicaChair", {"type" : 2, "base" : "WorkingOfficeCabinet_MonicaChair", "click" : "working_office_cabinet_environment", "actions" : "lw", "zorder":5, "group":"environment"}, scene="working_office_cabinet")
+    $ add_object_to_scene("MonicaChair", {"type" : 2, "base" : "WorkingOfficeCabinet_MonicaChair", "click" : "working_office_cabinet_environment", "actions" : "lw", "zorder":5, "group":"environment"}, {"workingOfficeCabinetMonicaChairEnabled":{"v":False, "active":False}}, scene="working_office_cabinet")
     $ add_object_to_scene("MonicaTable", {"type" : 2, "base" : "WorkingOfficeCabinet_MonicaTable", "click" : "working_office_cabinet_environment", "actions" : "lh", "zorder":5, "group":"environment"}, scene="working_office_cabinet")
 
 
@@ -137,13 +146,19 @@ label working_office_cabinet_environment:
         if act=="l":
             mt "Кресло Босса."
             mt "Мое кресло..."
-        if act=="h":
-            pass
+        if act=="w":
+            $ rand1 = random.choice([2,3])
+            $ workingOfficeCabinetMonicaSuffix = rand1
+            $ autorun_to_object("office_work_begin_event", scene="working_office_cabinet")
+            call refresh_scene("Dissolve_05")
+            return
     if obj_name == "MonicaTable":
         if act=="l":
             mt "За этим столом я провожу свой рабочий день..."
         if act=="h":
-            pass
+            call office_work_begin_event()
+            call refresh_scene_fade()
+            return
 
     if obj_name == "Requisite":
         mt "А это что?"

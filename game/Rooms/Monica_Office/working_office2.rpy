@@ -39,6 +39,7 @@ label working_office2_teleport:
         call change_scene("working_office")
         return
     if obj_name == "Teleport_Cabinet":
+        $ workingOfficeCabinetMonicaSuffix = 1        
         call change_scene("working_office_cabinet")
         return
     return

@@ -50,6 +50,7 @@ label working_office_teleport:
             mt "Это дверь в мой временный кабинет."
             mt "Пока я не верну себе мой кабинет наверху!"
         if act == "w":
+            $ workingOfficeCabinetMonicaSuffix = 1
             call change_scene("working_office_cabinet")
             return
     return

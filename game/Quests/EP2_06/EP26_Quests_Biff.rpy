@@ -79,6 +79,7 @@ label ep26_quests_biff5:
 
     # инициализируем работу в офисе
     call office_work_init()
+    call ep26_quests_office1()
 
     $ add_hook("before_open", "ep26_quests_biff6", scene="monica_office_cabinet_table", label=["check_bill_at_place", "check_bill_at_place_cabinet_table"], priority=150)
     return False

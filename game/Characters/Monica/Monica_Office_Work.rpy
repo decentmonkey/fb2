@@ -1,6 +1,7 @@
 default cloth_before_work = False # одежда перед входом на работу
 default cloth_type_before_work = False
 default officeWorkingLog = []
+default monicaOfficeWorkedToday = False
 
 init python:
     def add_office_working_day(status): #True - был рабочий день, #False - не было рабочего дня
@@ -37,13 +38,6 @@ label putoff_work_clothes:
 label office_work_init:
     # Первичная инициализация
 
-    # жизнь офиса
-    $ add_hook("change_time_day", "office_life_day", scene="global")
-    $ add_hook("change_time_evening", "office_life_evening", scene="global")
-    $ add_hook("office_life_day", "office_life_day1", scene="global")
-    $ add_hook("office_life_evening", "office_life_evening1", scene="global")
-    call process_hooks("office_life_evening", "global")
-
     # вход/выход из офиса
     $ add_hook("Teleport_Monica_Office_Entrance", "office_work_lift", scene="monica_office_secretary", label="office_lift")
     $ add_hook("Teleport_Monica_Office_Secretary", "office_work_lift", scene="monica_office_entrance", label="office_lift")
@@ -54,13 +48,23 @@ label office_work_init:
     # Инициализация локаций
     call locations_init_working_office()
 
-    # Инициализация мини-карты
-    $ miniMapOfficeActivated = True
     return
 
 label office_work_init_next_morning:
     $ remove_hook()
     $ questLog(43, True)
+    return
+
+label office_work_init2:
+    # Вторичная инициализация
+    # жизнь офиса
+    $ add_hook("change_time_day", "office_life_day", scene="global")
+    $ add_hook("change_time_evening", "office_life_evening", scene="global")
+    $ add_hook("office_life_day", "office_life_day1", scene="global")
+    $ add_hook("office_life_evening", "office_life_evening1", scene="global")
+
+    $ add_hook("begin_office_work_dialogue", "office_work_begin1", scene="global", label="office_work_begin1_menu")
+    $ add_hook("office_work_process", "office_work_process1", scene="global", label="office_work_process1")
     return
 
 label office_life_day:
@@ -73,10 +77,16 @@ label office_life_evening:
     return True
 
 label office_life_day1:
+    $ monicaOfficeWorkedToday = False
 #    $ move_object("Biff", "empty")
     return
 
 label office_life_evening1:
+    if monicaOfficeWorkedToday == True:
+        $ add_office_working_day(True)
+    else:
+        $ add_office_working_day(False)
+    $ monicaOfficeWorkedToday = False
     return
 
 
@@ -148,4 +158,39 @@ label office_work_minimap_teleport:
         call change_scene(target_scene, "Fade_long")
         return
     call change_scene(target_scene, "Fade_long", "snd_lift")
+    return
+
+label office_work_begin_event:
+    call process_hooks("begin_office_work_dialogue", "global")
+    return
+
+label office_work_begin1:
+    if day_time == "evening":
+        call ep26_dialogues6_office2_4a()
+        return False
+    # Типичный рабочий день
+    call ep26_dialogues6_office2_6()
+    if _return == False:
+        return False
+    call process_hooks("office_work_process", "global")
+    $ monicaOfficeWorkedToday = True
+    $ move_object("Julia", "empty") # Юлия уходит с работы (обычный день)
+    $ changeDayTime("evening")
+    $ rand1 = random.choice([2,3,4,5])
+    call ep26_dialogues6_office2_4()
+    call refresh_scene_fade()
+    return
+
+label office_work_begin2:
+    # Рабочий день с приказами Юлии
+    call process_hooks("office_work_process", "global")
+    $ monicaOfficeWorkedToday = True
+    $ changeDayTime("evening")
+    $ rand1 = random.choice([2,3,4,5])
+    call refresh_scene_fade()
+    return
+
+label office_work_process1:
+    # Процессим работу
+    m "work!"
     return
