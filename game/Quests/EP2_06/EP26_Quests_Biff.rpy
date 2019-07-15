@@ -72,8 +72,9 @@ label ep26_quests_biff5:
     call ep26_dialogues5_office1_4()
     $ remove_hook(label="biff_work_block3")
 
-    $ melanieDisappeared = False
-    $ melanieDisappearedAndReturned = True
+    # возвращаем Мелани
+    call ep26_quests_melanie1()
+
     $ monicaWorkingAtBiffOffice = True
 
     # инициализируем работу в офисе

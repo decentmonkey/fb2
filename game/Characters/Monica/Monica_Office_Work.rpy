@@ -49,6 +49,14 @@ label office_work_init:
     $ add_hook("Teleport_Monica_Office_Secretary", "office_work_lift", scene="monica_office_entrance", label="office_lift")
     $ add_hook("Teleport_Monica_Office_Lift", "office_work_lift", scene="working_office", label="office_lift")
 
+    $ add_hook("change_time_day", "office_work_init_next_morning", scene="global")
+
+    # Инициализация локаций
+    call locations_init_working_office()
+    return
+
+label office_work_init_next_morning:
+    $ questLog(43, True)
     return
 
 label office_life_day:
@@ -80,8 +88,8 @@ label office_work_lift:
             sound snd_fabric1
             pause 1.0
             call put_work_clothes()
-            call change_scene("monica_office_secretary", "Fade_long", "snd_lift")
-            return False
+        call change_scene("monica_office_secretary", "Fade_long", "snd_lift")
+        return False
     if _return == 2:
         # Отдел Моники
         if scene_name == "working_office":
@@ -92,8 +100,8 @@ label office_work_lift:
             sound snd_fabric1
             pause 1.0
             call put_work_clothes()
-            call change_scene("working_office", "Fade_long", "snd_lift")
-            return False
+        call change_scene("working_office", "Fade_long", "snd_lift")
+        return False
     if _return == 3:
         # Вестибюль
         if scene_name == "monica_office_entrance":
@@ -104,6 +112,6 @@ label office_work_lift:
             sound snd_fabric1
             pause 1.0
             call putoff_work_clothes()
-            call change_scene("monica_office_entrance", "Fade_long", "snd_lift")
-            return False
+        call change_scene("monica_office_entrance", "Fade_long", "snd_lift")
+        return False
     return

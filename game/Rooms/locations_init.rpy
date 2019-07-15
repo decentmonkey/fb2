@@ -139,3 +139,12 @@ label locations_init_steve_office:
     $ add_location("steve_office_office", caption=_("Офис Стива"), label="steve_office_office", init_label="steve_office_office_init", parent="Steve_Office")
     $ add_location("steve_office_office_table", caption=_("Офис Стива"), label="steve_office_office_table", init_label="steve_office_office_table_init", parent="Steve_Office")
     return
+
+label locations_init_working_office:
+    # Офис Моники (работа)
+    $ add_location("working_office", caption=_("ОФИС"), label="working_office", init_label="working_office_init", parent="monica_office_entrance")
+    $ add_location("working_office2", caption=_("ОФИС"), label="working_office2", init_label="working_office2_init", parent="monica_office_entrance")
+    $ add_location("working_office_cabinet", caption=_("КАБИНЕТ МОНИКИ"), label="working_office_cabinet", init_label="working_office_cabinet_init", parent="monica_office_entrance")
+    $ add_location("working_office_cabinet2", caption=_("КАБИНЕТ МОНИКИ"), label="working_office_cabinet2", init_label="working_office_cabinet2_init", parent="monica_office_entrance")
+
+    return

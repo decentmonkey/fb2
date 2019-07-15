@@ -1,15 +1,19 @@
 # близняшка 1
 label worker3_look:
     img 20305
+    with fade
     w
     img 20306
+    with diss
     mt "Две близняшки."
     mt "Они думают что они красивые?"
     mt "Они ошибаются! Фи!"
     return
 
 label worker3_dialogue_workplace:
+    music Groove2_85
     img 20307
+    with fade
     mt "У нее есть сестра... И обе они занимаются составлением каких-то бестолковых отчетов."
     mt "Мне не о чем с ней говорить."
     return

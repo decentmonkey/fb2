@@ -1,21 +1,28 @@
 # близняшка 2
 label worker4_look:
     img 20305
+    with fade
     w
     img 20306
+    with diss
     mt "Две близняшки."
     mt "Они думают что они красивые?"
     mt "Они ошибаются! Фи!"
     return
 
 label worker4_dialogue_workplace:
+    music Groove2_85
     img 20308
+    with fade
     mt "Вторая сестра... Никак не могу запомнить как их зовут.."
     img 20309 #
+    with diss
     m "Здравствуй. Напомни, как тебя зовут?"
     img 20310
+    with fade
     w4 "Я Элла. Мою сестру зовут Эмма. Нас всегда путают!"
     img 20311
+    with diss
     m "Поняла. Продолжай работать."
     return
 

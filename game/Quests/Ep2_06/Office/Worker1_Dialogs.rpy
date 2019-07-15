@@ -1,21 +1,26 @@
 # серая мышка
 label worker1_look:
     img 20298
+    with fade
     w
     img 20299
+    with diss
     mt "Какая-то серая мышь."
     mt "В каждом офисе есть такая."
     return
 
 
 label worker1_dialogue_workplace:
+    music Groove2_85
     img 20300
+    with fade
     m "Послушай..."
     w1 "Ой... Я..."
     img 20301
     m "Ты что, язык проглотила?"
     w1 "Нет... Я..."
     img 20300
+    with diss
     m "А похоже, что проглотила."
     m "Когда закончишь работать с бумагами, не забудь принести их мне в офис."
     w1 "Да, мэм!"
