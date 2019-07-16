@@ -126,6 +126,12 @@ label ep26_dialogues7_melanie1:
     #        pass
         "Мелани, пожалуйста, для меня это очень важно! (next update) (disabled)":
             pass
+        "Уйти.":
+            img black_screen
+            with diss
+            return
+
+    return
 
 
 
