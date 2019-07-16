@@ -63,6 +63,6 @@ label worker3_dialogue_office:
             music Groove2_85
             img 20348
             with fade
-            call bitch(1, "worker3_dialogue_office")
+            call bitch(1, "worker3_dialogue_office") from _call_bitch_187
             m "Ты что, плохо слышишь!? Я сейчас занята!"
             return

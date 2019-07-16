@@ -10,7 +10,7 @@ default workingOfficeSkipMusicOneTime = False
 label working_office_cabinet:
     $ print "enter_working_office_cabinet"
     $ miniMapData = []
-    call miniMapOfficeGenerate()
+    call miniMapOfficeGenerate() from _call_miniMapOfficeGenerate_9
 
     # Стул неактивен, когда Моника на нем сидит
     if workingOfficeCabinetMonicaSuffix == 1 or workingOfficeCabinetMonicaSuffix == 4:
@@ -71,11 +71,11 @@ label working_office_cabinet_init:
 
 label working_office_cabinet_teleport:
     if obj_name == "Teleport_Monica_WorkingOffice":
-        call change_scene("working_office")
+        call change_scene("working_office") from _call_change_scene_325
         return
     if obj_name == "Teleport_WorkingOffice_Cabinet2":
         $ workingOfficeCabinet2MonicaSuffix = 1
-        call change_scene("working_office_cabinet2")
+        call change_scene("working_office_cabinet2") from _call_change_scene_326
         return
     return
 label working_office_cabinet_environment:
@@ -83,7 +83,7 @@ label working_office_cabinet_environment:
         mt "Приятно снова почувствовать себя Боссом..."
     if obj_name == "Julia":
         if act=="l":
-            call ep26_dialogues6_office2_monica_julia()
+            call ep26_dialogues6_office2_monica_julia() from _call_ep26_dialogues6_office2_monica_julia
         return
 
     if obj_name == "Item1" or obj_name == "Item2" or obj_name == "Item3" or obj_name == "Item4" or obj_name == "Item5" or obj_name == "Item6" or obj_name == "Item7" or obj_name == "Item8" or obj_name == "Item9" or obj_name == "Item11" or obj_name == "Item12":
@@ -138,7 +138,7 @@ label working_office_cabinet_environment:
             mt "Компьютер сломан! Биф следит за тем, чтобы я никак не помешала его власти..."
             if monicaBitch == True:
                 mt "Наивный дурачок... Он не знает с кем связался..."
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_148
         return
 
 
@@ -155,14 +155,14 @@ label working_office_cabinet_environment:
             $ rand1 = random.choice([2,3])
             $ workingOfficeCabinetMonicaSuffix = rand1
             $ autorun_to_object("office_work_begin_event", scene="working_office_cabinet")
-            call refresh_scene("Dissolve_05")
+            call refresh_scene("Dissolve_05") from _call_refresh_scene_13
             return
     if obj_name == "MonicaTable":
         if act=="l":
             mt "За этим столом я провожу свой рабочий день..."
         if act=="h":
-            call office_work_begin_event()
-            call refresh_scene_fade()
+            call office_work_begin_event() from _call_office_work_begin_event
+            call refresh_scene_fade() from _call_refresh_scene_fade_149
             return
 
     if obj_name == "Requisite":

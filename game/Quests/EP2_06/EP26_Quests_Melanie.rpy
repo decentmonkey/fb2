@@ -8,7 +8,7 @@ label ep26_quests_melanie1:
     $ remove_hook(label="melanie_disappeared_life")
     $ add_hook("Melanie", "ep26_quests_melanie2", scene="monica_office_makeup_room", label="melanie_returned_dialogue1")
     $ makeupRoomMelanieSuffix = 2
-    call Melanie_Life_evening2()
+    call Melanie_Life_evening2() from _call_Melanie_Life_evening2
     return
 
 #label ep26_quests_melanie1a:
@@ -26,6 +26,6 @@ label ep26_quests_melanie2:
     # Разговор с Мелани
     if act=="l":
         return
-    call ep26_dialogues7_melanie1()
-    call refresh_scene_fade_long()
+    call ep26_dialogues7_melanie1() from _call_ep26_dialogues7_melanie1
+    call refresh_scene_fade_long() from _call_refresh_scene_fade_long_12
     return False

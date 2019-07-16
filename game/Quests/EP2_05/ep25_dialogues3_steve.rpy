@@ -810,7 +810,7 @@ label ep25_dialogues3_steve2:
     m "Хотя бы $ 5500!"
     $ chooseVar = 0
     if monicaSteveContractPenaltyActive == True:
-        call ep26_dialogues2_steve4()
+        call ep26_dialogues2_steve4() from _call_ep26_dialogues2_steve4
         if _return == False:
             # Моника ушла
             return 0
@@ -1627,7 +1627,7 @@ label ep25_dialogues3_steve5:
     m "Мы закрыли контракт!"
     if monicaSteveContractPenaltyActive == True:
         $ monicaSteveContractPenaltyActive = False
-        call ep26_dialogues2_steve4b()
+        call ep26_dialogues2_steve4b() from _call_ep26_dialogues2_steve4b
     else:
         img 11718
         with diss

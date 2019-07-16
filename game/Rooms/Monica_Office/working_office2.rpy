@@ -1,7 +1,7 @@
 label working_office2:
     $ print "enter_working_office2"
     $ miniMapData = []
-    call miniMapOfficeGenerate()
+    call miniMapOfficeGenerate() from _call_miniMapOfficeGenerate_3
 
     $ scene_image = "scene_WorkingOffice2[day_suffix]"
     music Stealth_Groover
@@ -36,11 +36,11 @@ label working_office2_init:
 
 label working_office2_teleport:
     if obj_name == "Teleport_WorkingOffice":
-        call change_scene("working_office")
+        call change_scene("working_office") from _call_change_scene_314
         return
     if obj_name == "Teleport_Cabinet":
         $ workingOfficeCabinetMonicaSuffix = 1        
-        call change_scene("working_office_cabinet")
+        call change_scene("working_office_cabinet") from _call_change_scene_315
         return
     return
 label working_office2_environment:

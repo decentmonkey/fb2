@@ -1,7 +1,7 @@
 label monica_office_secretary_teatable:
     $ print "enter_monica_office_secretary_teatable"
     $ miniMapData = []
-    call miniMapOfficeGenerate()
+    call miniMapOfficeGenerate() from _call_miniMapOfficeGenerate_7
 
     $ scene_image = "scene_Office_Monica_Secretary_Teatable[day_suffix]"
 

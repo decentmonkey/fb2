@@ -901,7 +901,7 @@ label ep26_dialogues2_steve5:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_23
     scene black_screen
     with Dissolve(1)
     music Loved_Up
@@ -1056,9 +1056,9 @@ label ep26_dialogues2_steve5:
             with diss
             sound snd_door_close1
             pause 2.0
-            call ep25_dialogues3_steve5a() # Стив кончает
+            call ep25_dialogues3_steve5a() from _call_ep25_dialogues3_steve5a_5 # Стив кончает
             $ add_corruption(monicaSteveRegularBlowjobDeal, "monicaSteveRegularBlowjobDeal" + str(day))
-            call ep25_dialogues3_steve5() # Моника уходит
+            call ep25_dialogues3_steve5() from _call_ep25_dialogues3_steve5_6 # Моника уходит
             return True
 
     # Бетти подходит и берет Стива за член
@@ -1146,9 +1146,9 @@ label ep26_dialogues2_steve5:
             with diss
             sound snd_door_close1
             pause 2.0
-            call ep25_dialogues3_steve5a() # Стив кончает
+            call ep25_dialogues3_steve5a() from _call_ep25_dialogues3_steve5a_6 # Стив кончает
             $ add_corruption(monicaSteveRegularBlowjobDeal, "monicaSteveRegularBlowjobDeal" + str(day))
-            call ep25_dialogues3_steve5() # Моника уходит
+            call ep25_dialogues3_steve5() from _call_ep25_dialogues3_steve5_7 # Моника уходит
             return True
     # Бетти снимает трусы
     $ bettySteveOfficeSteveSex = True
@@ -1257,8 +1257,14 @@ label ep26_dialogues2_steve5:
         mt "И заставит Бетти потребовать от меня ходить по дому голой!"
         mt "Я уверена!"
 
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     music Groove2_85
     # Бетти одевает трусы
+    img 12187
+    with fadelong
     betty "Все, Стив!"
     betty "Я пошла!"
 

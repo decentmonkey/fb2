@@ -84,7 +84,7 @@ label worker5_dialogue_office:
             img 20361
             m "Повышении?!"
             m "Не сегодня. Выйди и закрой за собой дверь."
-            call bitch(1, "worker5_dialogue_office")
+            call bitch(1, "worker5_dialogue_office") from _call_bitch_190
             music Sneaky_Snitch
             img 20363
             with fade

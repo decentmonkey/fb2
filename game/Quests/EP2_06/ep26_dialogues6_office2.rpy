@@ -453,7 +453,7 @@ label ep26_dialogues6_office2_7:
             m "Юлия, да, отчетов дейтвительно много."
             m "Однако, это не повод задерживаться допоздна."
             m "Сделай сколько успеешь до конца рабочего дня и можешь быть свободна."
-            call bitch(-20, "ep26_dialogues6_office2_7")
+            call bitch(-20, "ep26_dialogues6_office2_7") from _call_bitch_193
             img 20288
             with diss
             julia "Миссис Бакфетт, большое спасибо Вам!"
@@ -468,7 +468,7 @@ label ep26_dialogues6_office2_7:
     with diss
     m "Ты ведь не намекаешь на то что должна помогать тебе в этой работе?"
 
-    call bitch(20, "ep26_dialogues6_office2_7")
+    call bitch(20, "ep26_dialogues6_office2_7") from _call_bitch_194
     img 20286
     julia "Нет, Миссис Бакфетт. Что Вы?"
     img 20283

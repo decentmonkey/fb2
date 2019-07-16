@@ -45,7 +45,7 @@ label worker6_dialogue_office:
             img 20368
             with fade
             m "Уж будь в этом уверена."
-            call bitch(-1, "worker6_dialogue_office")
+            call bitch(-1, "worker6_dialogue_office") from _call_bitch_195
             m "Придет время и ты все узнаешь."
             img 20369
             with diss
@@ -57,7 +57,7 @@ label worker6_dialogue_office:
 #            m "Спасибо, можешь положить на стол."
             return
         "Я занята.":
-            call bitch(2, "worker6_dialogue_office")
+            call bitch(2, "worker6_dialogue_office") from _call_bitch_196
             $ worker6Option2Cnt += 1
             m "Я занята, приходи завтра."
             music Pyro_Flow

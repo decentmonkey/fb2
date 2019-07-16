@@ -3,7 +3,7 @@ default workingOfficeMonicaSuffix = ""
 label working_office:
     $ print "enter_working_office"
     $ miniMapData = []
-    call miniMapOfficeGenerate()
+    call miniMapOfficeGenerate() from _call_miniMapOfficeGenerate_10
 
     $ scene_image = "scene_WorkingOffice[day_suffix]"
     music Stealth_Groover
@@ -43,7 +43,7 @@ label working_office_init:
 
 label working_office_teleport:
     if obj_name == "Teleport_Monica_WorkingOffice2":
-        call change_scene("working_office2")
+        call change_scene("working_office2") from _call_change_scene_327
         return
     if obj_name == "Teleport_Cabinet":
         if act=="l":
@@ -51,7 +51,7 @@ label working_office_teleport:
             mt "Пока я не верну себе мой кабинет наверху!"
         if act == "w":
             $ workingOfficeCabinetMonicaSuffix = 1
-            call change_scene("working_office_cabinet")
+            call change_scene("working_office_cabinet") from _call_change_scene_328
             return
     return
 label working_office_environment:
@@ -76,11 +76,11 @@ label working_office_environment:
         mt "Папки с бесполезными отчетами!"
 
     if act=="w" and (obj_name == "Worker3" or obj_name == "Worker4" or obj_name == "Worker6" or obj_name == "Worker7"):
-        call change_scene("working_office2")
+        call change_scene("working_office2") from _call_change_scene_329
         return
 
     if obj_name == "Worker1" or obj_name == "Worker2" or obj_name == "Worker3" or obj_name == "Worker4" or obj_name == "Worker5" or obj_name == "Worker6" or obj_name == "Worker7":
-        call ep26_quests_office_workers1()
+        call ep26_quests_office_workers1() from _call_ep26_quests_office_workers1
 
 
     return

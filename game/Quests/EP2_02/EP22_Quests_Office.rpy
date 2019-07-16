@@ -86,14 +86,14 @@ label ep22_quests_office4_l1:
         call ep22_photoshoot5_end() from _call_ep22_photoshoot5_end
         $ photoshoot5_count += 1
     if monicaPhotoShootOutfitIdx == 6:
-        call ep26_photoshoot_suit6()
-        call ep26_photoshoot_suit6_end()
+        call ep26_photoshoot_suit6() from _call_ep26_photoshoot_suit6
+        call ep26_photoshoot_suit6_end() from _call_ep26_photoshoot_suit6_end
         $ monicaOutfitsEnabled[6] = True # Открываем следующий костюм
-        call ep26_quests_biff1() # Инициализируем разговор о работе в офисе + возвращение Мелани
+        call ep26_quests_biff1() from _call_ep26_quests_biff1 # Инициализируем разговор о работе в офисе + возвращение Мелани
         $ photoshoot6_count += 1
     if monicaPhotoShootOutfitIdx == 7:
-        call ep26_photoshoot_suit7()
-        call ep26_photoshoot_suit7_end()
+        call ep26_photoshoot_suit7() from _call_ep26_photoshoot_suit7
+        call ep26_photoshoot_suit7_end() from _call_ep26_photoshoot_suit7_end
         $ photoshoot7_count += 1
     #конец фотосессии
     sound snd_fabric1

@@ -738,7 +738,7 @@ label ep26_dialogues1_bardie7:
     m "Вы уверены, Миссис Робертс!"
     m "Вы уверены что я должна выйти отсюда?"
     # На каждое 5-ое посещение дома, Бетти начинает козлить и идет переход на ep26_dialogues1_bardie8
-    call ep26_dialogues1_bardie8()
+    call ep26_dialogues1_bardie8() from _call_ep26_dialogues1_bardie8
     return 1
     img 13148
     betty "!!!"
@@ -859,7 +859,7 @@ label ep26_dialogues1_bardie10:
         "Оголить грудь.":
             pass
         "Не оголять грудь":
-            call ep26_dialogues1_bardie9()
+            call ep26_dialogues1_bardie9() from _call_ep26_dialogues1_bardie9
             return 0
     img 13092
     m "Барди!"

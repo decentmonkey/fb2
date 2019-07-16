@@ -57,7 +57,7 @@ label worker4_dialogue_office:
             img 20356
             with fade
             m "Скажи ему, что он будет уволен, если сейчас же не решит вопрос."
-            call bitch(-1, "worker4_dialogue_office")
+            call bitch(-1, "worker4_dialogue_office") from _call_bitch_188
             img 20357
             with diss
             w4 "Хорошо, Миссис Бакфетт."
@@ -78,7 +78,7 @@ label worker4_dialogue_office:
             $ worker4Option2Cnt += 1
             m "Я занята, приходи завтра."
             w4 "Ладно, но у меня проблема..."
-            call bitch(1, "worker4_dialogue_office")
+            call bitch(1, "worker4_dialogue_office") from _call_bitch_189
             music Pyro_Flow
             img 20356
             with fade

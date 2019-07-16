@@ -50,7 +50,7 @@ label office_work_init:
     $ add_hook("change_time_day", "office_work_init_next_morning", scene="global")
 
     # Инициализация локаций
-    call locations_init_working_office()
+    call locations_init_working_office() from _call_locations_init_working_office
 
     return
 
@@ -75,12 +75,12 @@ label office_work_init2:
     return
 
 label office_life_day:
-    call process_hooks("office_life_day", "global")
+    call process_hooks("office_life_day", "global") from _call_process_hooks_60
     return True
 
 
 label office_life_evening:
-    call process_hooks("office_life_evening", "global")
+    call process_hooks("office_life_evening", "global") from _call_process_hooks_61
     return True
 
 label office_life_day1:
@@ -107,7 +107,7 @@ label office_life_evening1:
 
 
 label office_work_lift:
-    call ep26_dialogues6_office2_1_lift()
+    call ep26_dialogues6_office2_1_lift() from _call_ep26_dialogues6_office2_1_lift
     if _return == 1:
         if scene_name == "monica_office_secretary":
             return False
@@ -117,8 +117,8 @@ label office_work_lift:
             with diss
             sound snd_fabric1
             pause 1.0
-            call put_work_clothes()
-        call change_scene("monica_office_secretary", "Fade_long", "snd_lift")
+            call put_work_clothes() from _call_put_work_clothes
+        call change_scene("monica_office_secretary", "Fade_long", "snd_lift") from _call_change_scene_308
         return False
     if _return == 2:
         # Отдел Моники
@@ -129,8 +129,8 @@ label office_work_lift:
             with diss
             sound snd_fabric1
             pause 1.0
-            call put_work_clothes()
-        call change_scene("working_office", "Fade_long", "snd_lift")
+            call put_work_clothes() from _call_put_work_clothes_1
+        call change_scene("working_office", "Fade_long", "snd_lift") from _call_change_scene_309
         return False
     if _return == 3:
         # Вестибюль
@@ -141,8 +141,8 @@ label office_work_lift:
             with diss
             sound snd_fabric1
             pause 1.0
-            call putoff_work_clothes()
-        call change_scene("monica_office_entrance", "Fade_long", "snd_lift")
+            call putoff_work_clothes() from _call_putoff_work_clothes
+        call change_scene("monica_office_entrance", "Fade_long", "snd_lift") from _call_change_scene_310
         return False
     return
 
@@ -151,7 +151,7 @@ label office_work_minimap_teleport:
     $ target_scene = minimapCell["teleport_scene_name"]
     $ print target_scene
     if target_scene == scene_name:
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_145
         return
     if target_scene == "monica_office_entrance":
         if cloth_type == "WorkingOutfit":
@@ -159,41 +159,41 @@ label office_work_minimap_teleport:
             with diss
             sound snd_fabric1
             pause 1.0
-            call putoff_work_clothes()
+            call putoff_work_clothes() from _call_putoff_work_clothes_1
     if scene_name == "monica_office_entrance":
         if cloth_type != "WorkingOutfit":
             img black_screen
             with diss
             sound snd_fabric1
             pause 1.0
-            call put_work_clothes()
+            call put_work_clothes() from _call_put_work_clothes_2
     if target_scene == "working_office_cabinet":
         $ workingOfficeCabinetMonicaSuffix = 1
     if (target_scene == "monica_office_photostudio" or target_scene == "monica_office_cabinet_table" or target_scene == "monica_office_secretary" or target_scene=="monica_office_secretary_teatable" or target_scene == "monica_office_makeup_room") and (scene_name == "monica_office_photostudio" or scene_name == "monica_office_cabinet_table" or scene_name == "monica_office_secretary" or scene_name=="monica_office_secretary_teatable" or scene_name == "monica_office_makeup_room"):
-        call change_scene(target_scene, "Fade_long")
+        call change_scene(target_scene, "Fade_long") from _call_change_scene_311
         return
     if (target_scene == "working_office" or target_scene == "working_office2" or target_scene == "working_office_cabinet" or target_scene =="working_office_cabinet2") and (scene_name == "working_office" or scene_name == "working_office2" or scene_name == "working_office_cabinet" or scene_name =="working_office_cabinet2"):
-        call change_scene(target_scene, "Fade_long")
+        call change_scene(target_scene, "Fade_long") from _call_change_scene_312
         return
-    call change_scene(target_scene, "Fade_long", "snd_lift")
+    call change_scene(target_scene, "Fade_long", "snd_lift") from _call_change_scene_313
     return
 
 label office_work_begin_event:
-    call process_hooks("begin_office_work_dialogue", "global")
+    call process_hooks("begin_office_work_dialogue", "global") from _call_process_hooks_62
     return
 
 label office_work_begin1:
     if week_day == 7: # Выходной
-        call ep26_dialogues6_office2_10()
+        call ep26_dialogues6_office2_10() from _call_ep26_dialogues6_office2_10
         return False
     if day_time == "evening":
-        call ep26_dialogues6_office2_4a()
+        call ep26_dialogues6_office2_4a() from _call_ep26_dialogues6_office2_4a
         return False
     # Типичный рабочий день
-    call ep26_dialogues6_office2_6()
+    call ep26_dialogues6_office2_6() from _call_ep26_dialogues6_office2_6
     if _return == False:
         return False
-    call process_hooks("office_work_process", "global")
+    call process_hooks("office_work_process", "global") from _call_process_hooks_63
     img black_screen
     with diss
     pause 1.5
@@ -202,13 +202,13 @@ label office_work_begin1:
     $ changeDayTime("evening")
     $ rand1 = random.choice([2,3,4,5])
     $ workingOfficeCabinetMonicaSuffix = rand1
-    call ep26_dialogues6_office2_4()
-    call refresh_scene_fade()
+    call ep26_dialogues6_office2_4() from _call_ep26_dialogues6_office2_4
+    call refresh_scene_fade() from _call_refresh_scene_fade_146
     return
 
 label office_work_begin2:
     # Рабочий день с приказами Юлии
-    call process_hooks("office_work_process", "global")
+    call process_hooks("office_work_process", "global") from _call_process_hooks_64
     img black_screen
     with diss
     pause 1.5
@@ -216,13 +216,13 @@ label office_work_begin2:
     $ changeDayTime("evening")
     $ rand1 = random.choice([2,3,4,5])
     $ workingOfficeCabinetMonicaSuffix = rand1
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_147
     return
 
 label office_work_process1:
     # Процессим работу
     # Заходит 1 человек в день
-    call ep26_quests_office_workers2(1)
+    call ep26_quests_office_workers2(1) from _call_ep26_quests_office_workers2
     return
 
 label office_work_comment1:
@@ -230,5 +230,5 @@ label office_work_comment1:
         if day_time == "day": # Если день (вечером их и так нет)
             if day != office_work_comment1_1_lastDay: # И если сегодня еще не делали комментария
                 $ office_work_comment1_1_lastDay = day
-                call ep26_dialogues6_office2_9() # Комментарий по поводу выходного
+                call ep26_dialogues6_office2_9() from _call_ep26_dialogues6_office2_9 # Комментарий по поводу выходного
     return

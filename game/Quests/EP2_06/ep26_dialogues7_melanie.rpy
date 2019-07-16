@@ -117,7 +117,7 @@ label ep26_dialogues7_melanie1:
             m "!!!"
             img black_screen
             with Dissolve(2.0)
-            call textonblack_long(_("Узнайте что случилось с Мелани в продолжении игры..."))
+            call textonblack_long(_("Узнайте что случилось с Мелани в продолжении игры...")) from _call_textonblack_long_2
             img black_screen
             with Dissolve(2.0)
             $ melanieMonicaSawFarmTattoo = True

@@ -291,8 +291,8 @@ label ep25_quests_steve18:
 
     if _return == 2: # Сделка со Стивом (blowjob)
         if monicaSteveContractJaneAwaits == True:
-            call ep26_dialogues2_steve2() # Контракт с Джейн не произведен, контракты со Стивом блокируются
-            call change_scene("steve_office_secretary", "Fade_long")
+            call ep26_dialogues2_steve2() from _call_ep26_dialogues2_steve2 # Контракт с Джейн не произведен, контракты со Стивом блокируются
+            call change_scene("steve_office_secretary", "Fade_long") from _call_change_scene_323
             return False
 
         call ep25_dialogues3_steve2() from _call_ep25_dialogues3_steve2
@@ -303,8 +303,8 @@ label ep25_quests_steve18:
         $ choosedMoney = _return
         if choosedMoney == 0:
             # Моника ушла после того как узнала, что нужно отрабатывать неустойку
-            call ep25_quests_steve19()# Блокируем офис на сегодня (день)
-            call change_scene("street_steve_office", "Fade_long", False)
+            call ep25_quests_steve19() from _call_ep25_quests_steve19_8# Блокируем офис на сегодня (день)
+            call change_scene("street_steve_office", "Fade_long", False) from _call_change_scene_324
             return False
 
         $ noMoney = False
@@ -313,7 +313,7 @@ label ep25_quests_steve18:
         $ monicaSteveBlowjobDealCountOffs = monicaSteveBlowjobDealCount % 6
         if monicaSteveBlowjobDealCount > 5 and bettyVisitedSteve == False:
             $ bettyVisitedSteve = True
-            call ep26_dialogues2_steve5()
+            call ep26_dialogues2_steve5() from _call_ep26_dialogues2_steve5
             if _return == False:
                 $ noMoney = True
         else:
@@ -361,7 +361,7 @@ label ep25_quests_steve18:
         return False
 
     if _return == 3: # Сделка с Джейн (blowjob)
-        call ep26_quests_steve2()
+        call ep26_quests_steve2() from _call_ep26_quests_steve2
         return False
 
 

@@ -3,7 +3,7 @@ default monicaOfficeBiffMelanie = True
 label monica_office_cabinet:
     $ print "enter_monica_office_cabinet"
     $ miniMapData = []
-    call miniMapOfficeGenerate()
+    call miniMapOfficeGenerate() from _call_miniMapOfficeGenerate_5
 
     if monicaOfficeWhiskeyOnTable == False:
         $ scene_image = "scene_Office_Monica_Cabinet[day_suffix]"

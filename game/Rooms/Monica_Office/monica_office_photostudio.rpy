@@ -6,7 +6,7 @@ default monicaOfficePhotoStudioSkipMusicOneTime = False
 label monica_office_photostudio:
     $ print "enter_monica_office_photostudio"
     $ miniMapData = []
-    call miniMapOfficeGenerate()
+    call miniMapOfficeGenerate() from _call_miniMapOfficeGenerate_8
 
     $ scene_image = "scene_Office_Monica_PhotoStudio"
 

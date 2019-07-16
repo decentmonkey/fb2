@@ -5,7 +5,7 @@ default monicaOfficeMakeupRoomSkipMusicOneTime = False
 label monica_office_makeup_room:
     $ print "enter_monica_office_makeup_room"
     $ miniMapData = []
-    call miniMapOfficeGenerate()
+    call miniMapOfficeGenerate() from _call_miniMapOfficeGenerate
 
     $ scene_image = "scene_office_monica_makeuproom"
 

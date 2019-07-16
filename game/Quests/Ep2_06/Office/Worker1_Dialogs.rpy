@@ -38,7 +38,7 @@ label worker1_dialogue_office:
     menu:
         "Да, проходи.":
             $ worker1Option1Cnt += 1
-            call bitch(-1, "worker1_dialogue_office")
+            call bitch(-1, "worker1_dialogue_office") from _call_bitch_191
             m "Да, проходи."
             img 20332
             with diss
@@ -60,7 +60,7 @@ label worker1_dialogue_office:
             return
         "Я занята!":
             $ worker1Option2Cnt = 0
-            call bitch(1, "worker1_dialogue_office")
+            call bitch(1, "worker1_dialogue_office") from _call_bitch_192
             music Pyro_Flow
             img 20331
             with fade

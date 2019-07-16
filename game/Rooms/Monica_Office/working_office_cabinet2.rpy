@@ -3,7 +3,7 @@ default workingOfficeCabinet2MonicaSuffix = 1
 label working_office_cabinet2:
     $ print "enter_working_office_cabinet2"
     $ miniMapData = []
-    call miniMapOfficeGenerate()
+    call miniMapOfficeGenerate() from _call_miniMapOfficeGenerate_1
 
     $ scene_image = "scene_WorkingOfficeCabinet2[day_suffix]"
     music Stealth_Groover
@@ -49,7 +49,7 @@ label working_office_cabinet2_teleport:
             $ workingOfficeCabinetMonicaSuffix = 7
         else:
             $ workingOfficeCabinetMonicaSuffix = 1
-        call change_scene("working_office_cabinet")
+        call change_scene("working_office_cabinet") from _call_change_scene_307
         return
     return
 label working_office_cabinet2_environment:
@@ -88,7 +88,7 @@ label working_office_cabinet2_environment:
             return
         if act=="w":
             $ workingOfficeCabinet2MonicaSuffix = 2
-            call refresh_scene("Dissolve_05")
+            call refresh_scene("Dissolve_05") from _call_refresh_scene_12
             $ autorun_to_object("ep26_dialogues6_office2_monica_sofa", scene="working_office_cabinet2")
             return
 
