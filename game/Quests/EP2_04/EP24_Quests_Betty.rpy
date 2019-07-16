@@ -63,6 +63,8 @@ label ep24_quests_betty2:
         menu:
             "Говорить." if bettyFitnessToday == True:
                 call ep22_dialogues4_1b() from _call_ep22_dialogues4_1b_1
+            "Миссис Робертс. Барди зовет Вас в свою комнату..." if bardieCalledBettyForPunishment == True:
+                call ep26_quests_bardie7()
             "Уйти.":
                 pass
             "":
@@ -115,6 +117,9 @@ label ep24_quests_betty6:
     $ Bardie_Life_day5_day = day
     call process_hooks("Bardie_Life_day", "global") from _call_process_hooks_42
     menu:
+        "Миссис Робертс. Барди зовет Вас в свою комнату..." if bardieCalledBettyForPunishment == True:
+            call ep26_quests_bardie7()
+            return False
         "Уйти.":
             return False
         "":

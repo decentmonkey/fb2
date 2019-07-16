@@ -2,6 +2,8 @@ default ep26_quests_bardie_day1 = 0
 default monicaShowedBoobsToBardie = False
 default monicaMadeTitjobBardie = False
 
+default ep26_quests_bardie6_stage = 0
+
 label ep26_quests_bardie1:
     # Инициализация квестов 0.6
     if monicaCleaningInProgressEngineWorkingFlag == True: # Если идет уборка, вешаем эту функцию на событие после окончания уборки
@@ -108,7 +110,8 @@ label ep26_quests_bardie5:
     if _return == 2: # Все ок, инициализируем Бетти
         $ questLog(44, False)
         $ remove_hook(label="ep26_bardie_dialogue4")
-        $ add_hook("Bardie", "ep26_quests_bardie6", scene="bedroom_bardie", label="ep26_bardie_dialogue5_betty_kitchen")
+#        $ add_hook("Bardie", "ep26_quests_bardie6", scene="bedroom_bardie", label="ep26_bardie_dialogue5_betty_kitchen")
+        $ add_hook("open", "ep26_quests_bardie6", scene="bedroom_bardie", label="ep26_bardie_dialogue5_betty_kitchen")
         $ autorun_to_object("ep26_dialogues1_bardie5a", scene="floor2")
         call ep26_quests_betty1() # Инициализация питания на кухне
         call change_scene("floor2", "Fade_long")
@@ -118,10 +121,51 @@ label ep26_quests_bardie5:
 label ep26_quests_bardie6:
     # Приход к Барди из-за Бетти на кухне
     if bettyNotFeedingMonicaKitchen == True:
-        m "here"
+        if day_time == "day":
+            return
+        if ep26_quests_bardie6_stage == 0:
+            call ep26_dialogues1_bardie9()
+            $ autorun_to_object("ep26_dialogues1_bardie9a", scene="floor2")
+            call change_scene("floor2", "Fade_long")
+            $ ep26_quests_bardie6_stage = 1
+            return False
+        if ep26_quests_bardie6_stage == 1:
+            call ep26_dialogues1_bardie10()
+            if _return == 0 or _return == 1: # Моника просто выходит
+                $ autorun_to_object("ep26_dialogues1_bardie9a", scene="floor2")
+                call change_scene("floor2", "Fade_long")
+                return False
+            if _return == 2 or _return == 3: # Барди разрешил дальше питаться в доме
+                $ bardieForcedBettyToFeedMonica = True
+                $ bettyNotFeedingMonicaKitchen = False
+                if _return == 3:
+                    $ add_hook("change_time_day", "ep26_quests_bardie8", scene="global", label="day_time_temp") # Планируем наказание Бетти вечером
+                call change_scene("floor2", "Fade_long")
+                return False
     return
 
+label ep26_quests_bardie7:
+    # Бетти уходит к Барди
+    call ep26_dialogues1_bardie11()
+    $ move_object("Betty", "empty")
+    $ add_hook("open", "ep26_quests_bardie9", scene="bedroom_bardie", label="evening_time_temp") # Наказание Бетти
+    $ remove_objective("call_betty")
+    call refresh_scene_fade()
+    return
 
+label ep26_quests_bardie8:
+    # Наказание Бетти протухает с утра
+    $ bardieCalledBettyForPunishment = False
+    $ remove_objective("call_betty")
+    return
+
+label ep26_quests_bardie9:
+    # Сцена наказания Бетти
+    $ remove_hook()
+    call ep26_dialogues1_bardie12()
+    call refresh_scene_fade()
+#    call change_scene("floor2", "Fade_long")
+    return False
 
 
 

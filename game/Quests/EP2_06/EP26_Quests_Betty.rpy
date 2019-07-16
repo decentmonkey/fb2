@@ -4,6 +4,7 @@ default bettyOffendedBardieKitchen = False # Бетти отозвалась о 
 default bettyNotFeedingMonicaKitchen = False # Бетти отказывается кормить Монику на кухне
 default monicaEatedKitchenLastDay = 0
 default bardieForcedBettyToFeedMonica = False # Барди снова заставил Бетти кормить Монику
+default bardieCalledBettyForPunishment = False # Барди позвал Бетти за наказанием
 
 # Бетти, Моника и еда на кухне
 label ep26_quests_betty1:
