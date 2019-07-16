@@ -148,3 +148,10 @@ label locations_init_working_office:
     $ add_location("working_office_cabinet2", caption=_("КАБИНЕТ МОНИКИ"), label="working_office_cabinet2", init_label="working_office_cabinet2_init", parent="monica_office_entrance")
 
     return
+
+label locations_init_rich_hotel_restaurant:
+    # Рецепшин и вход в ресторан Le Grand
+    $ add_location("rich_hotel_reception", caption=_("Hotel Reception"), label="rich_hotel_reception", init_label="rich_hotel_reception_init", parent="street_rich_hotel")
+    $ add_location("rich_hotel_restaurant_entrance", caption=_("Restaurant"), label="rich_hotel_restaurant_entrance", init_label="rich_hotel_restaurant_entrance_init", parent="rich_hotel_reception")
+
+    return

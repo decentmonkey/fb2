@@ -280,6 +280,7 @@ label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen
         return _return
     $ idx = len1 - 1
     label .hooks_call_loop:
+        $ renpy.not_infinite_loop(3.0)
         $ hooks_list = scenes_data["hooks"][room_name][hook_obj_name] #повтор для цикла, восстановление из-за глобальных переменных
         $ hook_data = hooks_list[idx]
         $ label_name = hook_data["hook_label"]

@@ -422,7 +422,7 @@ label ep23_dialogues1_4a:
     # Моника работает
     menu:
         "Мыть посуду.":
-            return True
+            return 1
         "Заказать еду.":
             return 2
         "Уйти.":
@@ -448,6 +448,7 @@ label ep23_dialogues1_4a2:
     if rand1 == 4:
         mt "Мне надо определенно что-то менять в этой ситуации... И как можно быстрее!"
 
+    $ monicaPubWashingDishesCount += 1
     return
 
 label ep23_dialogues1_4b: # Бармен
@@ -582,95 +583,150 @@ label ep23_dialogues1_6:
         mt "Я уже ела сегодня."
         mt "Ни к чему тратить деньги..."
         return False
+    music2 stop
+    music Groove2_85
     img 20462
+    with fadelong
     ashley "Привет, [monica_pub_name]!"
     img 20461
+    with diss
     ashley "Ты пришла, чтобы мыть посуду?"
     img 20463
+    with diss
     m "Нет, я хочу заказать еду!"
     img 20464
+    with fade
     ashley "Правда?"
     ashley "И что же ты хочешь заказать?"
     img 20465
+    with diss
     m "Я хочу заказать..."
+    $ menu_price = [pubShinyBurger, pubSphagettiPrice, pubSoupPrice]
+    $ menu_price2 = [pubShinyBurger, pubSphagettiPrice, pubSoupPrice]
+    $ choose_var = 0
     menu:
         "Shiny Бургер.":
+            $ choose_var = 1
             img 20466
+            with fade
             m "Я хочу заказать..."
             m "Shiny Бургер."
+            $ images_list = [20473, 20478, 20483]
         "Спагетти.":
+            $ choose_var = 2
             img 20466
+            with fade
             m "Я хочу заказать..."
             m "Спагетти."
+            $ images_list = [20474, 20479, 20482]
         "Суп харчо.":
+            $ choose_var = 3
             img 20466
+            with fade
             m "Я хочу заказать..."
             m "Суп харчо."
+            $ images_list = [20475, 20477, 20484]
         "Уйти.":
             img 20470
+            with fade
             m "Я передумала."
             img 20471
+            with diss
             ashley "Ах, [monica_pub_name], у тебя нет денег!"
             ashley "Но ведь ты посудомойка. Ты всегда можешь помыть посуду!"
             img 20472
+            with diss
             mt "!!!"
 
             # на улице
-            mt "Ненавижу!"
-            mt "Я не посудомойка! Я - Моника Бакфетт, королева!"
+            $ autorun_to_object("ep23_dialogues1_6a", scene="hostel_street")
             return False
     img 20467
+    with diss
     joe "А выпивку?"
     img 20468
     m "Спасибо, не надо!"
     img 20469
+    with fade
     ashley "Хорошо, присаживайся за стол."
     ashley "Я сейчас принесу."
+    $ add_money(-menu_price2[choose_var-1])
 
-
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 2.0
+    sound snd_plates2
+    $ pubFoodHistory.append(choose_var)
+    music Groove2_85
+    img images_list[0]
+    with fadelong
     #Shiny Бургер.
-    img 20473
+#    img 20473
     #Спагетти.
-    img 20474
+#    img 20474
     #Суп харчо.
-    img 20475
+#    img 20475
     ashley "Но ты могла бы не тратить деньги."
     ashley "Эту еду легко заработать посудомойкой."
 
     img 20476
+    with diss
     mt "!!!"
 
-    # если часто мыла
+    if monicaPubWashingDishesCount > 5:
+        $ notif(_("Моника часто мыла посуду"))
+        # если часто мыла
+        img images_list[1]
+        #Shiny Бургер.
+#        img 20478
+        #Спагетти.
+#        img 20479
+        #Суп харчо.
+#        img 20477
+        with fade
+        ashley "К тому же, я уже привыкла что ты моешь посуду."
+        ashley "Мне стало как-то лень заниматься этим."
+        img 20480
+        with diss
+        m "Спасибо, Эшли."
+        m "Сегодня я не хочу... мыть посуду..."
+
+        img 20481
+        with diss
+        ashley "Хорошо, [monica_pub_name], если надумаешь, приходи..."
+        #
+
+
+    img images_list[2]
+    with fade
     #Shiny Бургер.
-    img 20478
+#    img 20483
     #Спагетти.
-    img 20479
+#    img 20482
     #Суп харчо.
-    img 20477
-    ashley "К тому же, я уже привыкла что ты моешь посуду."
-    ashley "Мне стало как-то лень заниматься этим."
-    img 20480
-    m "Спасибо, Эшли."
-    m "Сегодня я не хочу... мыть посуду..."
-
-    img 20481
-    ashley "Хорошо, [monica_pub_name], если надумаешь, приходи..."
-    #
-
-
-    #Shiny Бургер.
-    img 20483
-    #Спагетти.
-    img 20482
-    #Суп харчо.
-    img 20484
+#    img 20484
     #
     mt "Эшли готовит отвратительно."
     mt "Это место - действительно дыра."
+    music stop
+    sound snd_gulp
+    img black_screen
+    with diss
     mt "Но это нормальная еда, а не пирожные с заправки..."
-    mt "Хотя пирожные, пожалуй, повкуснее, чем помои в этой блестящей дыре!"
+    $ autorun_to_object("ep23_dialogues1_6b", scene="hostel_street")
+    return True
+
+label ep23_dialogues1_6a:
+    # Говорит на улице
+    mt "Ненавижу!"
+    mt "Я не посудомойка! Я - Моника Бакфетт, королева!"
     return
 
+label ep23_dialogues1_6b:
+    mt "Хотя пирожные, пожалуй, повкуснее, чем помои в этой блестящей дыре!"
+    return
 
 
 

@@ -30,6 +30,15 @@ init python:
             f.close()
         return
 
+    profileTime = time.time()
+    def profile(log_message=False):
+        global profileTime
+        timeDiff = time.time()-profileTime
+        if log_message != False:
+            print log_message
+        print timeDiff
+        profileTime = time.time()
+
     def notif(str1):
         global notifList, lastNotifTime
         notifList.append(str1)

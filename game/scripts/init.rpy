@@ -1,3 +1,13 @@
+define restaurantForelPrice = 70
+define restaurantSaladePrice = 49
+define restaurantSeaFoodPrice = 84
+define restaurantLasaniaPrice = 44
+define restaurantSushiPrice = 36
+
+define pubSoupPrice = 3
+define pubSphagettiPrice = 5
+define pubShinyBurger = 10
+
 define monicaSteveJaneCorruption1 = 100 # Согласие на контракт Знакомство
 define monicaSteveJaneCorruption2 = 100 # Предложение показать Стиву свою грудь
 define monicaSteveJaneCorruption3 = 100 # Моника показывает грудь Джейн (контракт)

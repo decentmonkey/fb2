@@ -815,8 +815,6 @@ define offsets_table = {
     "floor1_ralph_evening_overlay":(543,1429,1020,1919),
     "floor1_ralph_overlay":(543,1407,1079,1919),
     "rich_hotel_reception_reception_overlay":(468,6,1071,615),
-    "rich_hotel_restaurant_entrance_waitress_angry_overlay":(703,1093,1079,1756),
-    "rich_hotel_restaurant_entrance_waitress_smile_overlay":(632,1228,1079,1624),
     "bank_clerks_1_a":(98,464,690,757),
     "bank_clerks_1_b":(35,1218,447,1448),
     "bank_clerks_2_a":(80,461,689,690),
@@ -1468,8 +1466,6 @@ define offsets_table = {
     "rich_hotel_restaurant_entrance_monica_businesscloth2":(112,306,1079,720),
     "rich_hotel_restaurant_entrance_monica_businesscloth3":(119,404,1079,768),
     "rich_hotel_restaurant_entrance_monica_eveningdress":(95,365,1079,765),
-    "rich_hotel_restaurant_entrance_waitress_angry":(51,1411,1079,1775),
-    "rich_hotel_restaurant_entrance_waitress_smile":(45,1378,1079,1745),
     "rich_hotel_restaurant_monica_dick":(108,309,1079,1546),
     "rich_hotel_restaurant_monica_dick_dick":(108,948,945,1546),
     "rich_hotel_restaurant_monica_dick_monica":(528,309,1079,1007),
@@ -2713,9 +2709,8 @@ define offsets_table = {
     "workingofficecabinet_monica3_workingoutfit1_evening":(329,1191,805,1578),
     "workingofficecabinet_monica4_workingoutfit1_evening":(361,1217,801,1587),
     "workingofficecabinet_monica5_workingoutfit1_evening":(356,1169,669,1580),
-    "rich_hotel_restaurant_entrance_monica_casualdress1":(84,290,1079,739),
-    "rich_hotel_restaurant_entrance_monica_casualdress1_overlay":(660,513,1079,839),
-    "rich_hotel_restaurant_entrance_monica_casualdress1_waitress_visitor3":(0,290,1079,1775),
+    "rich_hotel_restaurant_entrance_monica1_casualdress1":(84,290,1079,739),
+    "rich_hotel_restaurant_entrance_monica1_casualdress1_overlay":(660,513,1079,839),
     "rich_hotel_restaurant_entrance_v3":(0,820,585,1081),
     "rich_hotel_restaurant_entrance_v3_overlay":(32,678,694,1110),
     "workingoffice_monica_workingoutfit1_evening_overlay":(784,1368,1079,1887),
@@ -2726,7 +2721,15 @@ define offsets_table = {
     "workingofficecabinet_monica6_workingoutfit1":(100,928,610,1065),
     "workingofficecabinet_monica6_workingoutfit1_overlay":(135,811,1079,1142),
     "workingofficecabinet_monica7_workingoutfit1":(180,552,1032,802),
-    "workingofficecabinet_monica7_workingoutfit1_overlay":(907,503,1079,847)
+    "workingofficecabinet_monica7_workingoutfit1_overlay":(907,503,1079,847),
+    "rich_hotel_reception_monica1_casualdress1":(135,78,1079,599),
+    "rich_hotel_reception_monica1_casualdress1_overlay":(803,269,1079,893),
+    "rich_hotel_reception_monica2_casualdress1":(220,460,862,1132),
+    "rich_hotel_reception_monica2_casualdress1_overlay":(759,885,1079,1136),
+    "rich_hotel_reception_reception_1":(229,505,829,623),
+    "rich_hotel_reception_reception_1_overlay":(528,425,862,666),
+    "rich_hotel_reception_reception_2":(216,438,862,633),
+    "rich_hotel_reception_reception_2_overlay":(511,383,925,643)
 }
 
 init python:

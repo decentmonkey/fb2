@@ -1,4 +1,6 @@
 default pubInited = False
+default monicaPubWashingDishesCount = 0 # Кол-во раз Моника мыла посуду
+default pubFoodHistory = []
 
 label ep23_quests_pub_init: #инициализация локации бара
     $ pubInited = True
@@ -76,9 +78,6 @@ label ep23_quests_pub5_dishes: # Моника моет посуду
     if _return == False:
         call refresh_scene_fade() from _call_refresh_scene_fade_79
         return False
-    if monicaEatedLastDay == day:
-        call ep23_dialogues1_4() from _call_ep23_dialogues1_4
-        return False
 #    $ rand1 = rand(1,10)
 #    if rand1 >= 7:
 #        $ set_active("Bartender", False, scene="pub_bar1")
@@ -86,8 +85,20 @@ label ep23_quests_pub5_dishes: # Моника моет посуду
 #    else:
 #        $ set_active("Bartender", True, scene="pub_bar1")
 #        $ set_active("Bartender_Waitress", False, scene="pub_bar1")
-    call change_scene("pub_bar1") from _call_change_scene_223
+    if _return == 1: # Мыть посуду
+        if monicaEatedLastDay == day:
+            call ep23_dialogues1_4() from _call_ep23_dialogues1_4
+            return False
+        call change_scene("pub_bar1") from _call_change_scene_223
+        return False
+    if _return == 2: # Заказать еду
+        call ep23_dialogues1_6()
+        if _return != False:
+            call monicaEat()
+        call change_scene("hostel_street", "Fade_long")
+        return False
     return False
+
 
 label ep23_quests_pub6_dishes: # Клик на Монику
     # Мытье посуды без приставаний
