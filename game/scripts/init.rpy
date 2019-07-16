@@ -1,3 +1,5 @@
+define monicaBardieTitJobCorruption = 100 # Сделать Барди titjob
+
 define restaurantForelPrice = 70
 define restaurantSaladePrice = 49
 define restaurantSeaFoodPrice = 84

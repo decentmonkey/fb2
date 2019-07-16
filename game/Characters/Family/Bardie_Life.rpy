@@ -85,3 +85,9 @@ label Bardie_Life_day5:
     if get_active_objects("Betty", scene="bedroom1") != False:
         $ move_object("Bardie", "bedroom1")
     return False
+
+label Bardie_Life_Day6: # Днем Барди все время во дворе
+    if day == Bardie_Life_day5_day or day%2 == 0:
+        $ move_object("Bardie", "street_house_main_yard")
+        return False
+    return

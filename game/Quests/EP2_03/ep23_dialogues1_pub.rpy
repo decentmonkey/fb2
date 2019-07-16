@@ -676,7 +676,7 @@ label ep23_dialogues1_6:
     mt "!!!"
 
     if monicaPubWashingDishesCount > 5:
-        $ notif(_("Моника часто мыла посуду"))
+        $ notif(_("Моника часто мыла посуду."))
         # если часто мыла
         img images_list[1]
         #Shiny Бургер.

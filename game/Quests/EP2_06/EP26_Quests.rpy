@@ -7,4 +7,8 @@ label ep26_quests1:
         $ monicaOutfitsEnabled[5] = True # Открываем следующий костюм
     $ autorun_to_object("ep26_dialogues5_office1_1", scene="monica_office_cabinet_table")
 
+
+    if monicaMustNotWearPanties == True and bettyMustNotWearPanties == True:
+        call ep26_quests_bardie1()
+
     return

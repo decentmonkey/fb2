@@ -9,7 +9,7 @@ label ep26_quests_biff2:
     # Разговор с Бифом о работе
     if act=="l":
         return
-    if cloth != "CasualDress1":
+    if cloth != "CasualDress1" and cloth_type != "WorkingOutfit1":
         call ep26_dialogues5_office1_1a2() from _call_ep26_dialogues5_office1_1a2 # Говорим о том что надо одеть платье
         return
 

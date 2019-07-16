@@ -200,7 +200,8 @@ label ep24_quests_betty11:
     $ questLog(37, False)
     $ questLog(39, True)
 
-
+    # Инициализация квестов в v0.6!
+    call ep26_quests_bardie1()
 
     $ autorun_to_object("basement_bedroom2", "ep24_dialogues5_betty5a")
     $ basement_bedroom2_MonicaSuffix = 2

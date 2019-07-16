@@ -6,84 +6,127 @@
 label ep26_dialogues1_bardie1:
     # Моника случайно заходит к Барди (первый раз)
 
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    music Indo_Rock2
     # Сцена Барди с журналом
     # Старт, пара кадров
     #video
     img 12959
+    with fadelong
     bardie "Аххх! Ахххх!!!"
     bardie "Моника Бафетт..."
     img 12960
+    with fade
     bardie "Аххх! Ахххх!!!"
     img 12961
+    with fade
     bardie "Моя гувернантка..."
     bardie "Аххх!"
     img 12962
+    with fade
     bardie "Я молодец!"
     bardie "Я хороший хозяин, Аххх!"
     # video end
     # Барди кончает
+    sound hlup10
     img 12963
+    with diss
     bardie "АХХХХХХ!!!"
     bardie "..."
+    sound hlup10
     img 12965
+    with diss
     bardie "Ее сиськи..."
+    sound hlup10
     img 12964
+    with diss
     w
+    sound hlup19
     img 13183
+    with diss
     w
+    music Sneaky_Snitch
     img 12966
+    with fadelong
     bardie "Интересно, они настоящие или нет..."
     bardie "Как это я упустил их из виду..."
     img 12967
     bardie "У меня все еще недостаточный контроль над ней..."
     bardie "Мне нужно увидеть ее сиськи... И даже больше..."
     img 12968
+    with diss
     bardie "И мне нужна еще фотография, чтобы дрочить на нее."
     bardie "Этот журнал уже надоел мне..."
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 2.0
     # хитро прищуриваясь
+    music Sneaky_Snitch
     img 12969
+    with fadelong
     bardie "Может быть есть еще выпуски?"
     bardie "Надо будет спросить у гувернантки..."
     img 12970
     bardie "И, было бы неплохо не только дрочить на нее, но и делать нечто более..."
     bardie "Хотя я ее, пока, немного побаиваюсь..."
     img 12971
+    with diss
     bardie "Все-таки она Моника Бакфетт, но, почему-то боится штрафа..."
     bardie "Может быть она не настоящая Моника Бакфетт, потому и боится?"
     bardie "И Бетти..."
     img 12972
+    with fade
     bardie "Эта мачеха, хоть и соблюдает правила дома, но, все-же, действует мне на нервы."
     bardie "Я мечтаю не только смотреть ей под юбку, но и, когда-нибудь, трахнуть ее!"
     img 12973
+    with diss
     bardie "Вокруг ходит столько целей, а я все еще девственник!"
     bardie "Это ненормально! Я что, какой-то нудачник?!"
 
 
     # Моника заходит. Журнал весь в сперме
+    music Power_Bots_Loop
+    sound highheels_run2
     img 12974
+    with fadelong
     m "Что... Что ты делаешь??"
     img 13184
+    with diss
     m "Это... Это Я?!"
     img 12975
+    with diss
     m "Это мой журнал! Мой!"
     m "Что делаешь с ним?!"
+    music Groove2_85
     img 12976
     bardie "Я дрочу на него, я же говорил тебе."
     img 12977
+    with fade
     m "Я... Не смей делать этого!"
     m "Верни его мне!"
     img 12978
     bardie "Я верну тебе его только если ты принесешь мне другой!"
     bardie "Новый выпуск!"
     img 12979
+    with diss
     m "Нет новых выпусков, я не работаю там!"
     m "Я торчу здесь! И меня это бесит!"
     img 12980
+    with fade
     bardie "Ты здесь работаешь! И я твой хозяин!"
+    music Power_Bots_Loop
     img 12981
     m "!!!"
     # Моника уходит
+    sound highheels_short_walk
     img 12982
+    with fadelong
+    w
     return
 
 label ep26_dialogues1_bardie1a:
@@ -106,147 +149,229 @@ label ep26_dialogues1_bardie2:
 # Барди спрашивает хорошая-ли Моника гувернантка, что просит о таком?
 # Моника отвечает что хорошая (либо не отвечает)
 # Барди просит продемострировать что Моника соблюдает правила дома.
+    music Hidden_Agenda
     img 12983
+    with fadelong
     m "Барди..."
     img 12984
     bardie "Да, гувернантка?"
     img 12985
+    with diss
     m "У меня разговор к тебе..."
+    sound snd_cardboard2
     img 12986
+    with fade
     bardie "Я тебя слушаю."
     img 12987
+    with diss
     m "Барди, я ведь хорошо себя веду, так ведь?"
     img 12988
     bardie "Да, гувернантка... Обычно ты соблюдаешь правила дома..."
     img 12989
+    with diss
     m "Барди, если ты доволен мной, то..."
     m "То, может быть, Я заслуживаю того, чтобы меня кормили в этом доме."
     m "Может быть ты скажешь Бетти об этом?"
     # Щурится
     img 12990
+    with diss
     m "Ты ведь тут самый главный? Правда?"
+    music Groove2_85
     img 12991
+    with fade
     bardie "О таком может просить только хорошая гувернантка."
     bardie "Ты хорошая гувернантка, Моника?"
     img 12992
+    with diss
     menu:
         "Да, я хорошая гувернантка...":
             pass
         "Уйти.":
+            sound highheels_run2
             img 12982
-            return False
+            with fade
+            w
+            return 0
     img 12993
+    with fade
     m "Да, я хорошая гувернантка..."
     img 12994
+    with diss
     bardie "Хорошо, покажи, что ты соблюдаешь правила дома!"
 
 # Моника соглашается либо нет.
 # Если соглашается и у нее надеты трусики, то Барди злится и устраивает порку.
     if monicaUnder != "Nude":
+        music Hidden_Agenda
         img 12995
+        with fade
         mt "Черт! У меня надеты трусики!"
         mt "Мне лучше не показывать их этому сопляку!"
+    music Groove2_85
     img 13078
+    with fade
     menu:
         "Задрать юбку.":
             pass
         "Попросить выйти.":
+            music Hidden_Agenda
             img 12996
+            with fade
             m "Барди, конечно я соблюдаю правила."
             m "Я вспомнила об одном важном деле!"
             img 12997
+            with diss
             m "Мне надо отлучиться и я вернусь сюда!"
-            return False
+            sound highheels_run2
+            img 12982
+            with fade
+            w
+            return 0
 
     # Моника показывает
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    music Loved_Up
+    img 13185
+    with fadelong
+    w
     if monicaUnder != "Nude":
         # Моника показывает
-        img 13001
+        #governess
+        if monicaBettyPanties == False:
+            img 20508
+        else:
+            #betty
+            if monicaBettyPantiesId == 1:
+                img 13002
+            if monicaBettyPantiesId == 2:
+                img 13003
+            if monicaBettyPantiesId == 3:
+                img 13004
+            if monicaBettyPantiesId == 4:
+                img 13005
+            if monicaBettyPantiesId == 5:
+                img 13006
+        with diss
         w
-        img 13185
-        w
-        img 13002
-        w
-        img 13003
-        w
-        img 13004
-        w
-        img 13005
-        w
-        img 13006
-        w
+        music Groove2_85
         img 12998
+        with fade
         bardie "Нерадивая гувернантка!"
         bardie "Ты не соблюдаешь правила дома!"
-        img 12999
+#        img 12999
         bardie "Следуй к себе в подвал для прохождения наказания!"
         img 13000
         m "!!!"
         # идет наказание
         return 1
+    img 13001
+    with diss
+    w
+
 
 
 # Тогда Барди говорит чтобы та показала свою грудь.
 # Моника может это делать, либо нет. Если нет, то Барди злится и устраивает порку, но грудь Моника не показывает.
-    img 13007
+#    img 13007
+    img 12999
+    with fade
     bardie "Хорошо."
     bardie "Теперь покажи свои сиськи!"
+    music Power_Bots_Loop
     img 13008
+    with diss
     m "Мы так не договаривались!"
     m "Я не собираюсь этого делать!"
     img 13009
     bardie "Ты моя игрушка и принадлежишь мне!"
     img 13010
+    with diss
     m "Ах ты мелюзга!"
     m "Я не буду показывать тебе свою грудь!"
+    music Groove2_85
     img 13011
+    with fade
     bardie "Ты решила не подчиняться приказам хозяина дома? Я правильно понял?"
     img 13012
+    with diss
     menu:
         "Подчиниться и показать грудь.":
             pass
         "Не показывать грудь!":
+            music Power_Bots_Loop
             img 13013
+            with fade
             m "Я и так хожу с голой задницей по дому целыми днями!"
             m "Разве тебе этого мало?!"
+            music Groove2_85
             img 12998
+            with diss
             bardie "Нерадивая гувернантка!"
             bardie "Ты не слушаешься хозяина дома!"
             bardie "Следуй к себе в подвал для прохождения наказания!"
             return 2
 
     # Моника показывает грудь
+    $ monicaShowedBoobsToBardie = True
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.5
+    music Loved_Up
     img 13014
+    with fadelong
     w
     img 13049
+    with diss
     w
     img 13050
+    with diss
+    w
     # Барди берет журнал и держит его рядом, сравнивая грудь
+    sound snd_take_paper
     img 13051
+    with diss
     w
     img 13052
+    with diss
     bardie "Да, у тебя такая же грудь."
     bardie "Ты действительно похожа не нее."
+    music Power_Bots_Loop
     img 13053
+    with fade
     m "ЭТО И ЕСТЬ Я!"
+    music Loved_Up
     img 13054
+    with diss
     mt "Черт! Зачем я это сказала?!"
 
 # Барди задумывается, улыбается и говорит что хозяин дома подумает, пусть Моника приходит завтра.
+
     img 13055
+    with fade
     w
     img 13056
+    with diss
     w
+    music Groove2_85
     img 13057
+    with fade
     bardie "Хорошо, хозяин дома подумает." # разглядывая грудь
     bardie "Гувернантка, приходи завтра."
     bardie "Хозяин скажет тебе о своем решении."
     # Моника закрывает грудь
+    sound snd_fabric1
     img 13058
+    with fadelong
     m "!!!"
 
 #    bardie "Да, и еще!"
-    return
+    return 3
 
 label ep26_dialogues1_bardie3a:
     # не рендерить
@@ -268,15 +393,20 @@ label ep26_dialogues1_bardie4:
 # Барди отвечает что готов сделать величественный жест ради хорошей гувернантки, которая хорошо себя ведет.
 # И сказать Бетти, чтобы она кормила Монику
 # Переспрашивает хорошая-ли гувернантка Моника?
+    music Hidden_Agenda
     img 13015
+    with fadelong
     m "Барди, ты подумал насчет того, чтобы я получала заслуженную еду в этом доме?!"
+#    music Groove2_85
     img 13016
+    with diss
     bardie "Да, гувернантка."
     bardie "Я подумал и решил что готов сделать величественный жест ради хорошей гувернантки."
     bardie "Которая хорошо себя ведет..."
     img 13017
     mt "!!!"
     img 13018
+    with diss
     bardie "И я скажу Бетти, чтобы она кормила гувернантку."
     bardie "Но только хорошую гувернантку!"
     bardie "Ты ведь хорошая гувернантка, Моника?"
@@ -285,28 +415,36 @@ label ep26_dialogues1_bardie4:
         "Да...":
             pass
         "Я... Подумаю о том какая Я...":
+            music Groove2_85
             img 13020
+            with fade
             m "Я еще не решила..."
             img 13021
+            with diss
             bardie "Когда будешь уверена, приходи!"
-            return False
+            return 0
 
 # Моника отвечает что да.
     m "Да..."
-    img 13021
+#    img 13021
 # Барди говорит чтобы та сделала titjob. Моника в шоке и спрашивает не рановато-ли Барди думать о таких вещах.
 # Барди отвечает что он уже достаточно большой. (мне уже 18, либо можно поменять число)
     img 13023
+    with fade
     bardie "Хорошо, я много раз кончал на твои сиськи на журнале."
     bardie "Теперь я хочу сделать это прямо на них."
+    music Groove2_85
     img 13024
+    with diss
     m "ЧТО?!"
     m "Барди, я понимаю, что ты уже интересуешься девушками."
     m "Придумываешь разные глупые игры. У тебя играют гормоны."
     img 13025
+    with diss
     m "Но тебе не кажется, что тебе рановато думать о чем-то большем?!"
     m "Тем более в отношении меня!"
     img 13026
+    with fadelong
     bardie "Я не маленький! Я большой!"
     bardie "Мне уже 21!"
 #    help "Внося изменения в игру, Вы берете на себя ответственность."
@@ -314,16 +452,26 @@ label ep26_dialogues1_bardie4:
 
 
 # Барди ложится на кровать и достает член.
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 2.0
+    music Loved_Up
     img 13027
+    with fadelong
     bardie "..."
 # Моника в шоке смотрит на это.
+    sound Jump2
     img 13186
     w
     img 13028
+    with diss
     m "!!!"
 # Барди спрашивает чего гувернантка ждет? Она должна выполнять обязанности по дому, в число которых входит
 # то, чтобы хозяин дома оставался доволен.
     img 13029
+    with fade
     bardie "Ну?!"
     bardie "И чего же гувернантка ждет?"
     bardie "Хорошая гувернантка должна выполнять обязанности по дому."
@@ -331,59 +479,91 @@ label ep26_dialogues1_bardie4:
     img 13030
     bardie "Это место надо протереть от пыли."
     bardie "И оно слишком чувствительное, поэтому это надо сделать твоими сиськами!"
+    music Groove2_85
     img 13031
     m "!!!"
 
 # Моника злая, смотрит и думает.
     img 13032
+    with diss
     m "Я уверена в том, что это место протирается регулярно и без меня!"
 # Барди говорит что если гувернантка будет хорошей, то ее в этом доме будут кормить.
     img 13033
+    with fade
     bardie "Хорошая гувернантка должна выполнять это работу."
     bardie "И, если гувернантка будет хорошей, то ее в этом доме будут кормить."
 
 # Моника принимает решение
+    music Hidden_Agenda
     img 13034
+    with fade
     mt "Что же мне делать?!"
     mt "Ведь я не буду трогать своей изысканной грудью член этого Барди?"
     img 13035
+    with diss
     mt "С другой стороны, я в шаге от того, чтобы нормально питаться."
     mt "В своем же доме!"
+    music Groove2_85
     img 13036
+    with fade
     bardie "А плохую гувернантку может ждать наказание..."
     img 13037
+    with diss
     mt "Что же мне делать?!"
     img 13038
+    with diss
+    $ menu_corruption = [monicaBardieTitJobCorruption]
     menu:
         "Сделать это...":
             pass
         "Я... Пока не готова для этого...":
             # Говорит что она пока не готова для этого (corruption)
+            music Hidden_Agenda
             img 13039
+            with fade
             m "Я... Пока не готова для этого..."
+            music Groove2_85
             img 13040
+            with diss
             bardie "Тогда иди и готовься!"
             bardie "Иначе ты станешь плохой гувернанткой!"
-            return False
+            return 1
 # Либо соглашается и делает titjob
+    music Hidden_Agenda
     img 13041
+    with fadelong
     m "Я не умею делать это..."
+    music Groove2_85
     img 13042
     bardie "Я тоже не умею делать это. Но не думаю что это сложно!"
     bardie "Вынь свои сиськи и положи их на мой член!"
+
+    $ monicaMadeTitjobBardie = True
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 2.0
+    music Loved_Up
     img 13043
+    with fadelong
     m "..."
     img 13044
+    with diss
     bardie "Вот так. А теперь начинай двигать ими вверх и вниз!"
 # Барди говорит хорошая гувернантка и тд
     # video
     img 13045
+    with fade
     w
     img 13046
+    with fade
     bardie "Хорошая гувернантка..."
     img 13047
+    with fade
     w
     img 13048
+    with fade
     bardie "Хорошая..."
     bardie "Протирай как следует, это твоя работа..."
 # Когда заканчивают, Барди говорит Монике придти завтра, когда он уладит обязанности хозяина дома и
@@ -391,45 +571,66 @@ label ep26_dialogues1_bardie4:
     # end video
 
     # Барди кончает на грудь Монике
+    music stop
+    bardie "Оооооох!!!"
+    sound bulk1
     img 13123
+    with fade
     w
     img 13125
+    with diss
     w
+    sound bulk1
     img 13124
+    with fade
     bardie "Оооооох!!!"
+    sound hlup19
     img 13126
+    with diss
     w
+    music Groove2_85
     img 13127
-    w
+    with fade
+    mt "!!!"
     img 13128
+    with diss
     w
     img 13129
     bardie "Хорошая гувернантка!"
     bardie "Приходи завтра."
     bardie "Я улажу обязанности хозяина дома и выдам необходимые распоряжения Бетти!"
+    sound snd_fabric1
     img 13130
+    with fadelong
     m "!!!"
+    img black_screen
+    with diss
 
 # Моника уходит
-    return
+    return 2
 
 label ep26_dialogues1_bardie5:
 # Приходит на след. день и спрашивает зло: ну что?! достаточно я сделала для того чтобы меня кормили в этом
 #гребаном доме?!
 #(мой дом!!!)
+    music Groove2_85
     img 13059
+    with fadelong
     m "Ну что, Барди!"
     m "Я достаточно сделала для того, чтобы меня кормили в этом гребаном доме?!"
     img 13060
+    with diss
     mt "В моем доме! В моем!"
 
 # Барди отвечает что договорился с Бетии, но она поставила одно условие.
 # Моника зло спрашивает какое еще условие? Разве недостаточно того что Моника убирается каждый день?!
     img 13061
+    with fade
     bardie "Да, гувернантка. Я договорился с Бетти."
     img 13062
     m "..." # Моника довольна
     img 13063
+    with diss
     bardie "Но она поставила одно условие."
     img 13064
     m "Какое еще условие?!"
@@ -439,21 +640,30 @@ label ep26_dialogues1_bardie5:
 # Я УВЕРЕНА ЧТО ЭТО СНОВА ТВОИ ПРОИСКИ, МАЛЯВКА!!!
 # ТЫ НЕ МОЖЕШЬ ТРЕБОВАТЬ ОТ МЕНЯ ТАКОГО!!!
 # ТЫ ВЕДЬ ЗНАЕШЬ КТО Я ТАКАЯ! МНЕ И ТАК ПРИХОДИТСЯ ХОДИТЬ ЗДЕСЬ В ЭТОЙ ДУРАЦКОЙ УНИФОРМЕ!
+    sound snd_cardboard2
     img 13065
-    bardie "Гувернантка может питаться когда захочет."
+    with fadelong
+#    bardie "Гувернантка может питаться когда захочет."
+#    bardie "Но только днем, завтраки."
+    bardie "Гувернантка может питаться только завтраками."
     bardie "Но должна делать это на кухне."
     bardie "И делать это... с голыми сиськами!"
+    music Power_Bots_Loop
     img 13066
+    with hpunch
     m "ЧТО?!?!"
     m "И ТЫ ХОЧЕШЬ СКАЗАТЬ ЧТО ЭТО УСЛОВИЕ ПОСТАВИЛА БЕТТИ?!"
     m "Я УВЕРЕНА ЧТО ЭТО СНОВА ТВОИ ПРОИСКИ, МАЛЯВКА!!!"
     m "ТЫ НЕ МОЖЕШЬ ТРЕБОВАТЬ ОТ МЕНЯ ТАКОГО!!!"
     img 13067
+    with diss
     m "ТЫ ВЕДЬ ЗНАЕШЬ КТО Я ТАКАЯ!"
     m "МНЕ И ТАК ПРИХОДИТСЯ ХОДИТЬ ЗДЕСЬ В ЭТОЙ ДУРАЦКОЙ УНИФОРМЕ!"
 
 # Барди спрашивает что в униформе без трусиков?
+    music Sneaky_Snitch
     img 13068
+    with fade
     bardie "В униформе без трусиков."
 # Моника переспрашивает: ЧТО?!
 
@@ -463,19 +673,25 @@ label ep26_dialogues1_bardie5:
 # ПРИЧЕМ ЗДЕСЬ ЭТО?! Я ГОВОРЮ ТЕБЕ ПРО ТО ЧТО ТЫ ЗНАЕШЬ КТО Я ТАКАЯ!
 # КАК ТЫ СМЕЕШЬ, МАЛЯВКА, ТРЕБОВАТЬ ОТ МЕНЯ ЭТО?!
     img 13070
+    with diss
+    bardie "В униформе без трусиков."
     bardie "Ты ведь соблюдаешь правила дома?"
     bardie "Ты ходишь в униформе без трусиков."
+    music Power_Bots_Loop
     img 13071
+    with fade
     m "ПРИЧЕМ ЗДЕСЬ ЭТО?!"
     m "Я ГОВОРЮ ТЕБЕ ПРО ТО ЧТО ТЫ ЗНАЕШЬ КТО Я ТАКАЯ!"
     m "КАК ТЫ СМЕЕШЬ, МАЛЯВКА, ТРЕБОВАТЬ ОТ МЕНЯ ЭТО?!"
 # Барди говорит: что-то мне не нравится тон гувернантки.
 # Покажи что ты соблюдаешь правила дома.
 # Моника злится, и бесится!
+    music Groove2_85
     img 13072
     bardie "Что-то мне не нравится тон, на который перешла гувернантка."
     bardie "Гувернантка соблюдает правила дома?"
     img 13073
+    with diss
     m "!!!"
 # ТЫ МЕНЯ СЛЫШИШЬ?!
 # Барди отвечает чтобы она показала что соблюдает правила дома, иначе ее ждет наказание как плохую гувернантку.
@@ -484,48 +700,75 @@ label ep26_dialogues1_bardie5:
     img 13074
     m "ТЫ МЕНЯ СЛЫШИШЬ?!"
     img 13075
+    with fade
     bardie "Немедленно покажи что соблюдаешь правила дома, иначе тебя ждет наказание как плохую гувернантку."
     img 13076
     m "!!!"
     img 13077
+    with diss
     bardie "Ну?!"
 # Моника может показать, либо Барди наказывает ее
 # Если Моника в трусиках, то Барди наказывает ее также
 # Если Моника показывает:
     img 13078
+    with fade
     menu:
         "Задрать юбку.":
             pass
 
     # Моника показывает
-    img 13001
-
+    music Loved_Up
+    sound snd_fabric1
+    img 13185
+    with fadelong
+    w
     if monicaUnder != "Nude":
-    # Моника показывает
-        img 13002
+        # Моника показывает
+        #governess
+        if monicaBettyPanties == False:
+            img 20508
+        else:
+            #betty
+            if monicaBettyPantiesId == 1:
+                img 13002
+            if monicaBettyPantiesId == 2:
+                img 13003
+            if monicaBettyPantiesId == 3:
+                img 13004
+            if monicaBettyPantiesId == 4:
+                img 13005
+            if monicaBettyPantiesId == 5:
+                img 13006
+        with diss
         w
-        img 13003
-        w
-        img 13004
-        w
-        img 13005
-        w
-        img 13006
-        w
-
+        music Groove2_85
         img 12998
+        with fade
         bardie "Нерадивая гувернантка!"
         bardie "Ты не соблюдаешь правила дома!"
+#        img 12999
         bardie "Следуй к себе в подвал для прохождения наказания!"
+        img 13000
         m "!!!"
         # идет наказание
         return 1
+    img 13001
+    with diss
+    w
+
+
+
 
 # Я соблюдаю правила этого дома (злится!!)
 # Барди отвечает: Хорошая гувернантка
-    img 13079
+#    img 13079
+    img 13185
+    with diss
     m "Я соблюдаю правила этого дома..."
+    music Groove2_85
+    sound snd_fabric1
     img 13080
+    with fadelong
     bardie "Хорошая гувернантка."
 # Ты поняла правила питания в доме?
 # Моника отвечает что да, я поняла. Но я не собираюсь питаться в доме на таких условиях.
@@ -535,22 +778,30 @@ label ep26_dialogues1_bardie5:
 # Барди говорит что да, она может идти, если только не хочет снова удовлетворить хозяина.
 # Моника говорит что нет, спасибо!
     img 13081
+    with diss
     bardie "Ты поняла правила питания в доме?"
     img 13082
     m "Да, я поняла."
     m "Но я не собираюсь питаться в доме на таких условиях..."
     img 13083
+    with fade
     bardie "Как гувернантка пожелает..."
     bardie "Но я бы советовал ей пользоваться благосклонностью хозяина дома..."
     bardie "Пока он добрый..."
     img 13084
+    with diss
     m "Я могу идти?!"
     img 13085
     bardie  "Да, ты можешь идти."
     bardie "Если, конечно, не хочешь снова удовлетворить хозяина."
     img 13086
     m "Нет, спасибо!"
-    return
+    sound highheels_run2
+    img 12982
+    with fade
+    w
+
+    return 2
 
 label ep26_dialogues1_bardie5a:
     # не рендерить
@@ -569,7 +820,13 @@ label ep26_dialogues1_bardie6:
 # Если Моника заходит так, то прибегает Бетти и говорит Монике чтобы та убиралась с кухни!
 # Что ей вообще не нужны проститутки в доме и что ей уже надоело присматривать за дурной гувернанткой
 # Которая так и норовит нарушить дисциплину!
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    music highheels_run1
     img 13131
+    with fadelong
     betty "Моника, гувернантка!"
     betty "Что ты делаешь здесь!"
     img 13132
@@ -1020,6 +1277,10 @@ label ep26_dialogues1_bardie12:
 
 
 
+label ep26_dialogues1_bardie12a:
+    mt "Барди сказал что я могу питаться только днем."
+    mt "Мне лучше уйти, пока Бетти на меня не наорала..."
+    return
 
 
 
