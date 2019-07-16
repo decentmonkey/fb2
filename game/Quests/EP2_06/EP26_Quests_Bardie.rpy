@@ -117,6 +117,8 @@ label ep26_quests_bardie5:
 
 label ep26_quests_bardie6:
     # Приход к Барди из-за Бетти на кухне
+    if bettyNotFeedingMonicaKitchen == True:
+        m "here"
     return
 
 

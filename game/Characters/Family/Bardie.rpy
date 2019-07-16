@@ -11,6 +11,9 @@ label bardieInteract1:
         return
     if act == "t":
         if scene_name == "street_house_main_yard":
+            if bettyNotFeedingMonicaKitchen == True:
+                mt "Надо подождать вечера и придти к нему в комнату."
+                return
             call bardie_comment5() from _call_bardie_comment5
             return
         if scene_name == "bedroom_bardie":

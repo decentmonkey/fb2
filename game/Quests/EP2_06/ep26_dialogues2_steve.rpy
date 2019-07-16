@@ -1263,7 +1263,7 @@ label ep26_dialogues2_steve5:
     pause 1.5
     music Groove2_85
     # Бетти одевает трусы
-    img 12187
+    img 13187
     with fadelong
     betty "Все, Стив!"
     betty "Я пошла!"

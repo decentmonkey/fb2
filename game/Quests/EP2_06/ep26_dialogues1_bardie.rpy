@@ -981,9 +981,8 @@ label ep26_dialogues1_bardie6:
     with diss
     pause 1.0
     sound snd_plates
+    music RnB3_65
 
-    $ images_set2 = [[13157, 13158, 13159, 13160, 13161]]
-    $ images_set3 = [[13162, 13163, 13164, 13165, 13166]]
 #    $ images = random.sample(set(images_set1, images_set2, images_set3), 1)
 
     $ rnd = rand(1,3)
@@ -991,8 +990,73 @@ label ep26_dialogues1_bardie6:
         img 13152
         with fadelong
         w
-        $ images_set1 = [[13153, 13154, 13155, 13156]]
+        $ images_set1 = [13153, 13154, 13155, 13156]
         $ images = random.sample(set(images_set1), 2)
+        img 13173
+        with diss
+        betty "Приятного аппетита, гувернантка..."
+        img images[0]
+        with diss
+        w
+        img images[1]
+        with diss
+        w
+        # еда1
+        music Groove2_85
+        img 13174
+        with fade
+        m "Миссис Робертс. Пожалуйста, подайте мне другие приборы."
+        m "Эти недостаточно хорошо вымыты."
+        img 13177
+        betty "!!!"
+
+    if rnd == 2:
+        img 13157
+        with fadelong
+        w
+        $ images_set2 = [13158, 13159, 13160, 13161]
+        $ images = random.sample(set(images_set2), 2)
+        img 13173
+        with diss
+        betty "Приятного аппетита, гувернантка..."
+        img images[0]
+        with diss
+        w
+        img images[1]
+        with diss
+        w
+        # еда2
+        music Groove2_85
+        img 13176
+        with fade
+        m "Миссис Робертс. Пожалуйста, подогрейте еду."
+        m "Она недостаточно горячая."
+        img 13177
+        betty "!!!"
+
+    if rnd == 3:
+        img 13162
+        with fadelong
+        w
+        $ images_set3 = [13163, 13164, 13165, 13166]
+        $ images = random.sample(set(images_set3), 2)
+        img 13173
+        with diss
+        betty "Приятного аппетита, гувернантка..."
+        img images[0]
+        with diss
+        w
+        img images[1]
+        with diss
+        w
+        # еда3
+        music Groove2_85
+        img 13175
+        with fade
+        m "Миссис Робертс. Вы вкусно готовите."
+        m "Это похвально."
+        img 13177
+        betty "!!!"
 
 
     # Моника ест
@@ -1039,14 +1103,29 @@ label ep26_dialogues1_bardie6:
 
 
     # Моника поела
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.0
+    music Groove2_85
     img 13171
+    with fadelong
     m "Благодарю Вас, Миссис Робертс."
     m "Я поела."
     img 13172
     betty "!!!"
-    return
+    return 1
 
 label ep26_dialogues1_bardie7:
+    music stop
+    img black_screen
+    with diss
+    sound highheels_run1
+    pause 2.0
+    music Groove2_85
+    img 13135
+    with fadelong
     # Моника заходит на кухню регулярно
     # Моника делает выбор:
     # Уйти или Оголить грудь (corruption)
@@ -1055,32 +1134,42 @@ label ep26_dialogues1_bardie7:
             pass
         "Не оголять грудь...":
             img 13131
+            with fade
             betty "Моника, гувернантка!"
             betty "Что ты делаешь здесь!"
-            img 13132
+            img 13134
+            with diss
             betty "Я запретила тебе заходить на кухню!"
             betty "Быстро убирайся отсюда!"
             img 13133
+            with diss
             betty "И вообще... Мне не нужны проститутки в доме!"
             betty "И мне надоело присматривать за дурной гувернанткой, которая так и норовит нарушить дисциплину!"
             return 0
 
-    img 13144
-    betty "!!!"
+#    img 13144
+#    betty "!!!"
+    sound snd_fabric1
+    music Loved_Up
     img 13145
+    with fadelong
     m "..." # Моника стервозно улыбается
+    music Groove2_85
     img 13146
     betty "Гувернантка, у тебя нет никакого стыда!"
     betty "Немедленно убирайся отсюда!"
     img 13147
+    with diss
     m "Вы уверены, Миссис Робертс!"
     m "Вы уверены что я должна выйти отсюда?"
     # На каждое 5-ое посещение дома, Бетти начинает козлить и идет переход на ep26_dialogues1_bardie8
-    call ep26_dialogues1_bardie8() from _call_ep26_dialogues1_bardie8
-    return 1
+    if monicaBettyKitchenEatedCount % 4 == 0 and bardieForcedBettyToFeedMonica != True:
+        call ep26_dialogues1_bardie8() from _call_ep26_dialogues1_bardie8
+        return 1
     img 13148
     betty "!!!"
     img 13149
+    with diss
     betty "Садись за стол, сейчас подам тебе..."
 
 # Если Бетти ведет себя хорошо, то:
@@ -1089,69 +1178,189 @@ label ep26_dialogues1_bardie7:
 # Моника язвительно смотрит и просит что-то из еды еще или типа того
 # Моника думает про то, что наконец-то ест в собственном доме, что это уже прогресс и что она вернет его назад.
     # еда1-3
-    img 13173
-    betty "Приятного аппетита, гувернантка..."
 
-    # еда1
-    img 13174
-    m "Миссис Робертс. Пожалуйста, подайте мне другие приборы."
-    m "Эти недостаточно хорошо вымыты."
-    img 13177
-    betty "!!!"
 
-    # еда2
-    img 13175
-    m "Миссис Робертс. Пожалуйста, подогрейте еду."
-    m "Она недостаточно горячая."
-    img 13177
-    betty "!!!"
 
-    # еда3
-    img 13176
-    m "Миссис Робертс. Вы вкусно готовите."
-    m "Это похвально."
-    img 13177
-    betty "!!!"
     #
 
 # Если Бетти ведет себя плохо.
-    img 13150
-    betty "И не вздумай в таком виде шляться по дому!"
-    betty "Если Ральф увидит тебя в таком виде, то я вышвырну тебя!"
-    img 13151
-    betty "И тебе никто не поможет!"
-    betty "Даже мелкий засранец Барди, с которым ты спелась!"
-    img 13178
-    m "Вы уверены что так следует отзываться о хозяине дома?"
-    img 13179
-    betty "Это не твое дело, проститутка!"
+    if monicaBettyKitchenEatedCount % 4 == 3: # Раз перед тем как откажет в еде
+        $ bettyOffendedBardieKitchen = True
+        img 13150
+        with fade
+        betty "И не вздумай в таком виде шляться по дому!"
+        betty "Если Ральф увидит тебя в таком виде, то я вышвырну тебя!"
+        img 13151
+        betty "И тебе никто не поможет!"
+        betty "Даже мелкий засранец Барди, с которым ты спелась!"
+        img 13178
+        with diss
+        m "Вы уверены что так следует отзываться о хозяине дома?"
+        img 13179
+        betty "Это не твое дело, проститутка!"
 
 #
 
     # Моника ест
-    mt "Мммм... Наконец-то я ем вкусную еду..."
-    mt "В своем доме..."
+#    mt "Мммм... Наконец-то я ем вкусную еду..."
+#    mt "В своем доме..."
 
     #
-    mt "Мой дом... Моя любимая кухня..."
-    mt "Все не так уж плохо..."
-    mt "Это только первые шаги..."
-    mt "Скоро дом будет снова мой..."
+#    mt "Мой дом... Моя любимая кухня..."
+#    mt "Все не так уж плохо..."
+#    mt "Это только первые шаги..."
+#    mt "Скоро дом будет снова мой..."
 
     #
-    mt "Ммм... Я кушаю на своей любимой кухне."
-    mt "А Бетти прислуживает мне..."
-    mt "Так мне нравится намного больше..."
+#    mt "Ммм... Я кушаю на своей любимой кухне."
+#    mt "А Бетти прислуживает мне..."
+#    mt "Так мне нравится намного больше..."
 
     # Моника поела
+#    m "Благодарю Вас, Миссис Робертс."
+#    m "Я поела."
+#    betty "!!!"
+
+    music stop
+    img black_screen
+    with diss
+    sound highheels_run2
+    pause 1.5
+
+    $ rnd = rand(1,3)
+
+    #
+    music RnB3_65
+    if rnd == 1:
+        img 13167
+        with fadelong
+        mt "Мммм... Наконец-то я ем вкусную еду..."
+        img 13168
+        with diss
+        mt "В своем доме..."
+
+    if rnd == 2:
+        img 13167
+        with fadelong
+        mt "Мой дом... Моя любимая кухня..."
+        mt "Все не так уж плохо..."
+        img 13168
+        with diss
+        mt "Это только первые шаги..."
+        mt "Скоро дом будет снова мой..."
+
+    if rnd == 3:
+        #
+        img 13169
+        with fadelong
+        mt "Ммм... Я кушаю на своей любимой кухне."
+        img 13170
+        with diss
+        mt "А Бетти прислуживает мне..."
+        mt "Так мне нравится намного больше..."
+
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    sound snd_plates
+    music RnB3_65
+
+#    $ images = random.sample(set(images_set1, images_set2, images_set3), 1)
+
+    $ rnd = rand(1,3)
+    if rnd == 1:
+        img 13152
+        with fadelong
+        w
+        $ images_set1 = [13153, 13154, 13155, 13156]
+        $ images = random.sample(set(images_set1), 2)
+        img 13173
+        with diss
+        betty "Приятного аппетита, гувернантка..."
+        img images[0]
+        with diss
+        w
+        img images[1]
+        with diss
+        w
+        # еда1
+        music Groove2_85
+        img 13174
+        with fade
+        m "Миссис Робертс. Пожалуйста, подайте мне другие приборы."
+        m "Эти недостаточно хорошо вымыты."
+        img 13177
+        betty "!!!"
+
+    if rnd == 2:
+        img 13157
+        with fadelong
+        w
+        $ images_set2 = [13158, 13159, 13160, 13161]
+        $ images = random.sample(set(images_set2), 2)
+        img 13173
+        with diss
+        betty "Приятного аппетита, гувернантка..."
+        img images[0]
+        with diss
+        w
+        img images[1]
+        with diss
+        w
+        # еда2
+        music Groove2_85
+        img 13176
+        with fade
+        m "Миссис Робертс. Пожалуйста, подогрейте еду."
+        m "Она недостаточно горячая."
+        img 13177
+        betty "!!!"
+
+    if rnd == 3:
+        img 13162
+        with fadelong
+        w
+        $ images_set3 = [13163, 13164, 13165, 13166]
+        $ images = random.sample(set(images_set3), 2)
+        img 13173
+        with diss
+        betty "Приятного аппетита, гувернантка..."
+        img images[0]
+        with diss
+        w
+        img images[1]
+        with diss
+        w
+        # еда3
+        music Groove2_85
+        img 13175
+        with fade
+        m "Миссис Робертс. Вы вкусно готовите."
+        m "Это похвально."
+        img 13177
+        betty "!!!"
+
+    # Моника поела
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.0
+    music Groove2_85
+    img 13171
+    with fadelong
     m "Благодарю Вас, Миссис Робертс."
     m "Я поела."
+#    img 13172
     betty "!!!"
     return 2
 
 label ep26_dialogues1_bardie8:
 # Через 5 посещений кухни, Бетти заявляет что правило не работает и чтобы нерадивая гувернантка убиралась отсюда.
+    music Power_Bots_Loop
     img 13180
+    with fade
     betty "Это дурацкое правило больше не работает!"
     betty "Я не собираюсь больше такое терпеть!"
     img 13181
@@ -1159,7 +1368,9 @@ label ep26_dialogues1_bardie8:
     betty "Пока я не вышвырнула тебя из дома на улицу!"
 
 # Монике приходится уходить с голой грудью
+    sound highheels_run2
     img 13182
+    with fade
     m "!!!"
     return
 
@@ -1361,6 +1572,12 @@ label ep26_dialogues1_bardie12:
 label ep26_dialogues1_bardie12a:
     mt "Барди сказал что я могу питаться только днем."
     mt "Мне лучше уйти, пока Бетти на меня не наорала..."
+    return
+
+label ep26_dialogues1_bardie12b:
+    mt "Я уже кушала здесь сегодня."
+    mt "У меня нет желания трясти своей грудью целый день!"
+    mt "Это унизительно!"
     return
 
 
