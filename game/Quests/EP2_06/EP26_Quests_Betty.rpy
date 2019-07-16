@@ -16,9 +16,10 @@ label ep26_quests_betty3:
         call ep26_dialogues1_bardie12a()
         return False
     call ep26_dialogues1_bardie6()
-    
-    m "here"
-    return
+    if _return == 0: # Моника просто ушла
+        call change_scene("floor1", "Fade_long")
+        return False
+    return False
 
 #Я могу питаться в доме. Если буду соблюдать условие...
 #$ questLog(45, True)

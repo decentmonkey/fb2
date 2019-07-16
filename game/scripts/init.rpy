@@ -1,4 +1,5 @@
 define monicaBardieTitJobCorruption = 100 # Сделать Барди titjob
+define monicaBettyKitchenBoobsCorruption = 100 # Показ груди на кухне при Бетти.
 
 define restaurantForelPrice = 70
 define restaurantSaladePrice = 49

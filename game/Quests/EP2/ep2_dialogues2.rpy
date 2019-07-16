@@ -90,9 +90,9 @@ label monica_shawarma_dialogue1:
     with fade
     w
     music DarxieLand
-    if money > 0:
-        call monica_shawarma_dialogue2a() from _call_monica_shawarma_dialogue2a_1
-        return
+#    if money > 0:
+#        call monica_shawarma_dialogue2a() from _call_monica_shawarma_dialogue2a_1
+#        return
     #если есть доллар, то уходим на покупку
 #    music Stealth_Groover
     img 6106
