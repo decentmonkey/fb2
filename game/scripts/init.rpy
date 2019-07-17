@@ -1,5 +1,5 @@
-define monicaBardieTitJobCorruption = 100 # Сделать Барди titjob
-define monicaBettyKitchenBoobsCorruption = 100 # Показ груди на кухне при Бетти.
+define monicaBardieTitJobCorruption = 170 # Сделать Барди titjob
+define monicaBettyKitchenBoobsCorruption = 250 # Показ груди на кухне при Бетти.
 
 define restaurantForelPrice = 70
 define restaurantSaladePrice = 49
@@ -11,10 +11,10 @@ define pubSoupPrice = 3
 define pubSphagettiPrice = 5
 define pubShinyBurger = 10
 
-define monicaSteveJaneCorruption1 = 100 # Согласие на контракт Знакомство
-define monicaSteveJaneCorruption2 = 100 # Предложение показать Стиву свою грудь
-define monicaSteveJaneCorruption3 = 100 # Моника показывает грудь Джейн (контракт)
-define monicaSteveJaneCorruption4 = 100 # Моника дает потрогать грудь Джейн (контракт)
+define monicaSteveJaneCorruption1 = 150 # Согласие на контракт Знакомство
+define monicaSteveJaneCorruption2 = 200 # Предложение показать Стиву свою грудь
+define monicaSteveJaneCorruption3 = 170 # Моника показывает грудь Джейн (контракт)
+define monicaSteveJaneCorruption4 = 200 # Моника дает потрогать грудь Джейн (контракт)
 
 define monicaSteveFirstBlowjobDeal = 20
 define monicaSteveCumSexDeal = 40
@@ -150,33 +150,33 @@ define PS5_BiffProgress = 5 #Прогресс просто за фотосесс
 define PS5_BiffProgressCasting = 5 #Прогресс за то что пришла на кастинг
 define PS5_BiffProgressCastingChick = 5 #Прогресс за то что притворилась цыпочкой на кастинге
 
-define PS6_monica_pose3_corruption_required = 60
-define PS6_monica_shot1_corruption_required = 65
-define PS6_monica_shot2_corruption_required = 70
-define PS6_monica_shot3_corruption_required = 75
-define PS6_monica_shot4_corruption_required = 80
-define PS6_monica_shot5_corruption_required = 85
-define PS6_monica_shot6_corruption_required = 90
-define PS6_monica_pose10_corruption_required = 95
-define PS6_monica_shot7_corruption_required = 100
-define PS6_monica_shot8_corruption_required = 105
+define PS6_monica_pose3_corruption_required = 140
+define PS6_monica_shot1_corruption_required = 142
+define PS6_monica_shot2_corruption_required = 144
+define PS6_monica_shot3_corruption_required = 146
+define PS6_monica_shot4_corruption_required = 148
+define PS6_monica_shot5_corruption_required = 150
+define PS6_monica_shot6_corruption_required = 155
+define PS6_monica_pose10_corruption_required = 160
+define PS6_monica_shot7_corruption_required = 165
+define PS6_monica_shot8_corruption_required = 175
 
 define PS6_BiffProgressCasting = 5 #Прогресс за то что пришла на кастинг
 define PS6_BiffProgressCastingChick = 5 #Прогресс за то что притворилась цыпочкой на кастинге
 define PS6_AlexProgressEachCorruptionShot = 3
 
-define PS7_monica_shot1_corruption_required = 60
-define PS7_monica_shot2_corruption_required = 65
-define PS7_monica_shot3_corruption_required = 70
-define PS7_monica_shot4_corruption_required = 75
-define PS7_monica_shot5_corruption_required = 80
-define PS7_monica_shot6_corruption_required = 85
-define PS7_monica_pose6_corruption_required = 90
-define PS7_monica_shot7_corruption_required = 95
-define PS7_monica_shot8_corruption_required = 100
-define PS7_monica_shot9_corruption_required = 105
-define PS7_monica_shot10_corruption_required_high = 110
-define PS7_monica_shot11_corruption_required_high = 120
+define PS7_monica_shot1_corruption_required = 150
+define PS7_monica_shot2_corruption_required = 160
+define PS7_monica_shot3_corruption_required = 170
+define PS7_monica_shot4_corruption_required = 180
+define PS7_monica_shot5_corruption_required = 190
+define PS7_monica_shot6_corruption_required = 200
+define PS7_monica_pose6_corruption_required = 210
+define PS7_monica_shot7_corruption_required = 220
+define PS7_monica_shot8_corruption_required = 230
+define PS7_monica_shot9_corruption_required = 240
+define PS7_monica_shot10_corruption_required_high = 270
+define PS7_monica_shot11_corruption_required_high = 300
 
 define PS7_BiffProgressCasting = 5 #Прогресс за то что пришла на кастинг
 define PS7_BiffProgressCastingChick = 5 #Прогресс за то что притворилась цыпочкой на кастинге
