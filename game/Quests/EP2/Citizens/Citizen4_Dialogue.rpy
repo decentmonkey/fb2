@@ -159,7 +159,7 @@ label citizen4_dialogue_pilon:
             $ store_citizen_action("PylonDanceCloth", 1)
             jump citizen4_dialogue_pilon_loop4
 #        "Голые сиськи. (disabled)" if pylonpart3startsCompleted == False and 1==2:
-        "Голые сиськи. (disabled)" if (pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen4BoobsNakesShowedLastDay == day:
+        "Голые сиськи. (disabled)" if ((pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen4BoobsNakesShowedLastDay == day):
             pass
         "Голые сиськи." if citizen4BoobsNakesShowingActive == True and citizen4BoobsNakesShowedLastDay != day:
             $ citizen4BoobsNakesShowedLastDay = day

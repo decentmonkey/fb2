@@ -189,7 +189,7 @@ label citizen13_dialogue_pilon:
             $ showedDance = True
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen13_dialogue_pilon_loop13
-        "Голые сиськи. (disabled)" if (pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen13BoobsNakesShowedLastDay == day:
+        "Голые сиськи. (disabled)" if pylonpart4startsCompleted == False or citizen13BoobsNakesShowedLastDay == day:
             pass
         "Голые сиськи. (мало свиданий) (disabled)" if (pylonpart4startsCompleted == True and citizen13BoobsNakesShowedLastDay != day) and fallingPathGetCitizenData("visits") < monicaWhoringNakedBoobsVisitsRequired:
             pass
