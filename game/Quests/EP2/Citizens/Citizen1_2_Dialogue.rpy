@@ -1,3 +1,6 @@
+default citizen1BoobsNakesShowedLastDay = 0
+default citizen1BoobsNakesShowedCount = -1
+
 label citizen1_dialogue:
     imgl Dial_Monica_Sandwich_0
 #    "Можно к Вам обратиться?"
@@ -160,9 +163,28 @@ label citizen1_dialogue_pilon:
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             $ store_citizen_action("PylonDanceCloth", 1)
             jump citizen1_dialogue_pilon_loop1
-        "Голые сиськи. (disabled)" if pylonpart4startsCompleted == False and 1==2:
+        "Голые сиськи. (disabled)" if (pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen1BoobsNakesShowedLastDay == day:
             pass
-        "Голые сиськи." if pylonpart4startsCompleted == True:
+        "Голые сиськи." if pylonpart4startsCompleted == True and citizen1BoobsNakesShowedLastDay != day:
+            $ store_music()
+            if citizen1BoobsNakesShowedCount == -1:
+                call cit1_2_naked_boobs_1st()
+                if _return != False:
+                    $ citizen1BoobsNakesShowedCount += 1
+            else:
+                if citizen1BoobsNakesShowedCount%2 == 0:
+                    call cit1_2_naked_boobs_variant1()
+                if citizen1BoobsNakesShowedCount%2 == 1:
+                    call cit1_2_naked_boobs_variant2()
+                $ citizen1BoobsNakesShowedCount += 1
+            if _return != False:
+                $ citizen1BoobsNakesShowedLastDay = day
+                $ showedNakedBoobs = True
+                $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+            $ restore_music()
+            jump citizen1_dialogue_pilon_loop1
+
+
             call pylonController(4, 1) from _call_pylonController_164
             citizen1 "Мы хотим поглядеть на твои классные сиськи еще раз. Снимай все!"
             mt "Грязные панки..."
@@ -235,6 +257,7 @@ label citizen1_dialogue_pilon:
 # первый раз
 label cit1_2_naked_boobs_1st:
     img 11745
+    with fade
     citizen1 "Тетя, у нас с братом возникла шикарная идея!"
     img 11746
     citizen1 "Мы ведь с тобой не первый раз видимся и уже не чужие люди.."
@@ -245,23 +268,29 @@ label cit1_2_naked_boobs_1st:
     citizen1 "Короче мы хотим посмотреть на твои сиськи, но уже так сказать без всего!"
     img 11749
     menu:
-        "Почему бы и нет.":
+        "Мне нужны деньги...":
             pass
         "Хватит с вас и того, что вы уже видели!":
             img 11750
 
             m "Хватит с вас и того, что вы уже видели!"
             return False
+    music Groove2_85
     img 11751
+    with fade
     m "Ну а мне это зачем?"
     img 11752
     citizen1 "Ну как зачем? А зачем ты нам их в одежде показываешь?"
     citizen1 "Мы заплатим!"
+    music Hidden_Agenda
     img 11753
+    with diss
     m "Хорошо, смотрите, только руками не трогать!"
     m "И отвернитесь!"
     # отворачиваются
+    sound snd_fabric1
     img 11755
+    with fade
     w
     img 11754
     citizen1 "О чем речь, тетя! Разве мы когда нибудь тебя обманывали?"
@@ -271,30 +300,42 @@ label cit1_2_naked_boobs_1st:
     img 11757
     w
     # поворачиваются, моника показывает сиськи
+    music Loved_Up
     img 11758
+    with diss
     citizen1 "Ого! Прямо как у моей бывшей!"
     # показывает сиськи еще
     img 11759
+    with diss
     w
     img 11760
+    with diss
     citizen1 "Вот это класс, тетя! Так они смотрятся гораздо лучше."
     img 11761
+    with diss
     w
     img 11762
+    with diss
     w
     img 11763
+    with diss
     w
     img 11764
+    with diss
     # показывает сиськи еще
     w
+    music Groove2_85
     img 11765
+    with diss
     citizen1 "Да, сегодня день прошел не зря!"
     $ nakedBoobsFirstly_Cit1_2 = True
     return True
 
 # вариант 1
 label cit1_2_naked_boobs_variant1:
+    music Groove2_85
     img 11766
+    with fade
     citizen1 "Тетя, покажи нам свои сиськи!"
     img 11767
     m "Как именно?"
@@ -307,7 +348,6 @@ label cit1_2_naked_boobs_variant1:
             pass
         "Хватит с вас и того, что вы уже видели!":
             img 11770
-
             m "Хватит с вас и того, что вы уже видели!"
             return False
 
@@ -316,9 +356,12 @@ label cit1_2_naked_boobs_variant1:
     #m "Можете повернуться."
     img 11771
     m "Хорошо. Если заплатите..."
+    music Loved_Up
     img 11772
+    with fadelong
     w
     img 11773
+    with diss
     m "Только руками не трогать!"
     img 11774
     citizen1 "Какие вопросы, тетя!"
@@ -348,10 +391,13 @@ label cit1_2_naked_boobs_variant1:
     img 11785
     citizen1 "Эй, тетя! Как насчет того, чтобы получить немного больше?"
     img 11786
+    with diss
     m "..."
     img 11787
     citizen1 "У меня идея! Нас как раз двое, как и твоих подружек. Давай обнимемся!"
+    music Groove2_85
     img 11788
+    with diss
     m "Даже не надейся!!!"
     img 11789
     citizen1 "Кто-то сегодня не в духе? Ладно, и так все очень хорошо!"
@@ -359,7 +405,9 @@ label cit1_2_naked_boobs_variant1:
 
 # вариант 2
 label cit1_2_naked_boobs_variant2:
+    music Groove2_85
     img 11790
+    with fade
     citizen1 "Тетя, покажи нам свои сиськи!"
     img 11791
     m "Как именно?"
@@ -374,11 +422,16 @@ label cit1_2_naked_boobs_variant2:
             m "Хватит с вас и того, что вы уже видели!"
             return False
     img 11795
+    with fade
     m "Отвернитесь!"
     # отворачиваютяс, моника переодевается...
+    music Loved_Up
+    sound snd_fabric1
     img 11796
+    with fade
     w
     img 11797
+    with diss
     m "Можете повернуться."
     m "Только руками не трогать!"
     img 11798
@@ -396,6 +449,7 @@ label cit1_2_naked_boobs_variant2:
     w
     img 11804
     # смена картинки
+    music Groove2_85
     img 11805
     citizen1 "Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
     img 11806
@@ -405,15 +459,17 @@ label cit1_2_naked_boobs_variant2:
     img 11808
     menu:
         "Хорошо.":
-            $ add_money(0,5)
+            $ add_money(0.5)
             pass
         "Хватит с вас и того, что вы уже видели!":
             img 11809
             m "Хватит с вас и того, что вы уже видели!"
-            pass
+            return True
 
     # смена картинки - моника сжимает соски
+    music Loved_Up
     img 12487
+    with fade
     w
     img 12488
     w
@@ -428,7 +484,9 @@ label cit1_2_naked_boobs_variant2:
     w
     img 12492
     w
+    music Groove2_85
     img 12493
+    with fade
     citizen1 "Ух, тетя, снова нас порадовала!"
     # ?? может есть смысл сделать картинку: если было сжатие сосков - моника наклоняется и поднимает монетку
     return True

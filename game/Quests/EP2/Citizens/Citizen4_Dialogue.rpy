@@ -159,7 +159,7 @@ label citizen4_dialogue_pilon:
             $ store_citizen_action("PylonDanceCloth", 1)
             jump citizen4_dialogue_pilon_loop4
 #        "Голые сиськи. (disabled)" if pylonpart3startsCompleted == False and 1==2:
-        "Голые сиськи. (disabled)" if citizen4BoobsNakesShowingActive == True and citizen4BoobsNakesShowedLastDay == day:
+        "Голые сиськи. (disabled)" if (pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen4BoobsNakesShowedLastDay == day:
             pass
         "Голые сиськи." if citizen4BoobsNakesShowingActive == True and citizen4BoobsNakesShowedLastDay != day:
             $ citizen4BoobsNakesShowedLastDay = day
@@ -459,6 +459,7 @@ label citizen4_show_boobs_first_time:
     $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
     $ citizen4BoobsShowedFirstTime = True
     $ citizen4BoobsNakesShowingActive = True
+    $ citizen4BoobsNakesShowedLastDay = day
     $ add_hook("enter_scene", "citizen4_dialogue_after_boobs_first_time", scene="hostel_edge_1_a")
     return True
 
@@ -578,5 +579,6 @@ label citizen4_dialogue_after_boobs_second_time:
     mt "Так что мне нечего стесняться."
     mt "Мне это глубоко противно, но я отношусь к этому с хладнокровием."
     mt "В конце концов, это ненадолго."
-    help "Будет доступно в следующем обновлении игры. Следите за новостями!"
+    $ pylonpart4startsCompleted = True
+#    help "Будет доступно в следующем обновлении игры. Следите за новостями!"
     return

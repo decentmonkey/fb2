@@ -1,3 +1,5 @@
+default citizen5BoobsNakesShowedLastDay = 0
+default citizen5BoobsNakesShowedCount = -1
 label citizen5_dialogue:
     imgl Dial_Monica_Sandwich_0
 #    menu:
@@ -149,9 +151,29 @@ label citizen5_dialogue_pilon:
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             $ store_citizen_action("PylonDanceCloth", 1)
             jump citizen5_dialogue_pilon_loop5
-        "Голые сиськи. (disabled)" if pylonpart4startsCompleted == False and 1==2:
+        "Голые сиськи. (disabled)" if (pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen5BoobsNakesShowedLastDay == day:
             pass
-        "Голые сиськи." if pylonpart4startsCompleted == True:
+        "Голые сиськи." if pylonpart4startsCompleted == True and citizen5BoobsNakesShowedLastDay != day:
+            $ store_music()
+            if citizen5BoobsNakesShowedCount == -1:
+                call cit5_naked_boobs_1st()
+                if _return != False:
+                    $ citizen5BoobsNakesShowedCount += 1
+            else:
+                if citizen5BoobsNakesShowedCount%2 == 0:
+                    call cit5_naked_boobs_variant1()
+                if citizen5BoobsNakesShowedCount%2 == 1:
+                    call cit5_naked_boobs_variant2()
+                $ citizen5BoobsNakesShowedCount += 1
+            if _return != False:
+                $ citizen5BoobsNakesShowedLastDay = day
+                $ showedNakedBoobs = True
+                $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+            $ restore_music()
+            jump citizen5_dialogue_pilon_loop5
+
+
+
             call pylonController(4, 1) from _call_pylonController_213
             citizen5 "Оголи свои манящие груди."
             mt "Ему бы книги писать..."
@@ -199,39 +221,50 @@ label citizen5_dialogue_pilon:
 
 # первый раз
 label cit5_naked_boobs_1st:
+    music Groove2_85
     img 11879
+    with fade
     citizen5 "Может быть ты согласна показать мне свои груди?"
     img 11880
     m "Думаю, ты уже их видел."
-    img 11881
+#    img 11881
     citizen5 "Да, конечно, но было бы прекрасно их оголить. У мистера есть деньги! Много денег!"
+    music Hidden_Agenda
     img 11882
+    with diss
     mt "Он выглядит не очень умным... Возможно это мой шанс получить несколько сотен, а может быть и тысяч долларов..."
+    music Groove2_85
     img 11883
+    with diss
     m "И сколько же у мистера денег?!"
     img 11884
     citizen5 "У мистера очень много денег! Тебе нужно верить мистеру!"
     citizen5 "Дак ты оголишь свои груди?"
     img 11885
     menu:
-        "Почему бы и нет.":
+        "Мне нужны деньги...":
             pass
         "Хватит и того, что ты уже видел!":
             img 11886
             m "Хватит и того, что ты уже видел!"
             return False
     img 11887
+    with fade
     m "Отвернись!"
     img 11888
     citizen5 "Да, конечно, мистер отвернется."
     # отворачивается, моника переодевается...
+    sound snd_fabric1
     img 11889
+    with fadelong
     w
     img 11890
     m "Можешь повернуться."
     m "Но руками не трогать!"
     # сиськи
+    music Loved_Up
     img 11891
+    with diss
     w
     img 11892
     w
@@ -241,20 +274,23 @@ label cit5_naked_boobs_1st:
     img 11894
     mt "Ну прямо мастер комплиментов..."
     # сиськи еще
-    img 11895
-    w
+#    img 11895
+#    w
     img 11896
     w
     img 11897
     citizen5 "Какая красота!"
     # моника продолжает показывать
-    img 11898
+#    img 11898
+#    w
+    img 11900
     w
     img 11899
     w
-    img 11900
-    w
+    sound snd_fabric1
+    music Groove2_85
     img 11901
+    with fade
     m "Ну ладно, хватит с тебя."
     img 11902
     citizen5 "Как? Мистер еще не до конца насладился!"
@@ -267,13 +303,16 @@ label cit5_naked_boobs_1st:
     img 11906
     m "Ну раз миллионов нет, тогда на сегодня все."
     img 11907
+    with fade
     citizen5 "Ооо...Ну ничего, скоро ты их увидишь!"
     $ nakedBoobsFirstly_Cit5 = True
     return True
 
 # вариант 1
 label cit5_naked_boobs_variant1:
+    music Groove2_85
     img 11908
+    with fade
     citizen5 "Оголи свои манящие груди."
     img 11909
     mt "Ему бы книги писать..."
@@ -288,14 +327,16 @@ label cit5_naked_boobs_variant1:
 
     # отворачивается, моника переодевается...
     img 11912
+    with fade
     m "Хорошо."
+    sound snd_fabric1
     img 11913
     w
+    music Loved_Up
     img 11914
+    with diss
     m "Только руками не трогать!"
     # сиськи
-    img 11914
-    w
     img 11915
     w
     img 11916
@@ -303,6 +344,7 @@ label cit5_naked_boobs_variant1:
     img 11917
     citizen5 "Лучезарно! Кажется, в такие моменты я попадаю в рай!"
     img 11918
+    with diss
     mt "Ого... Да он прямо поплыл! Кажется, он говорил о миллионах..."
     # сиськи еще
     img 11919
@@ -310,6 +352,7 @@ label cit5_naked_boobs_variant1:
     img 11920
     w
     img 11921
+    with diss
     m "Тебе нравится?"
     img 11922
     citizen5 "О да! Это великолепно!"
@@ -330,6 +373,7 @@ label cit5_naked_boobs_variant1:
     img 11929
     w
     img 11930
+    with diss
     m "Может быть ты дашь мне несколько?"
     # сиськи еще
     img 11931
@@ -345,12 +389,15 @@ label cit5_naked_boobs_variant1:
     img 11936
     citizen5 "Ох, какая жалость! Мне очень стыдно, но я принесу мои миллионы в следующий раз!"
     img 11937
+    with fade
     m "Хорошо, буду ждать."
     return True
 
 # вариант 2
 label cit5_naked_boobs_variant2:
+    music Groove2_85
     img 11938
+    with fade
     citizen5 "Оголи свои манящие груди."
     img 11939
     mt "Ему бы книги писать..."
@@ -363,17 +410,24 @@ label cit5_naked_boobs_variant2:
             m "Хватит и того, что ты уже видел!"
             return False
     img 11942
+    with fade
     m "Отвернись!"
     # отворачивается, моника переодевается...
+    sound snd_fabric1
     img 11943
+    with fade
     w
     img 11944
+    with diss
     w
+    music Loved_Up
     img 11945
+    with diss
     m "Можешь повернуться."
     m "Только руками не трогать!"
     # сиськи
     img 11946
+    with diss
     w
     img 11947
     w
@@ -398,6 +452,7 @@ label cit5_naked_boobs_variant2:
     img 11956
     w
     img 11957
+    with diss
     m "Мистер готов дать мне 400 миллионов?"
     # сиськи еще
     img 11958
@@ -405,12 +460,14 @@ label cit5_naked_boobs_variant2:
     img 11959
     w
     img 11960
+    with fade
     citizen5 "Да, да, готов! Но у мистера небольшое условие."
+    music Groove2_85
+    img 12494
     citizen5 "Мистер хочет увидеть на тебе это."
     # показывает зажим для сосков
-    img 12494
-    w
     img 12495
+    with diss
     citizen5 "Мистер будет очень благодарен когда увидит на тебе это."
     img 12496
     mt "Что это еще такое?! Что делать?"
@@ -423,12 +480,20 @@ label cit5_naked_boobs_variant2:
             m "Ну уж нет! Мне не нужны твои извращенные штучки!"
             return False
     img 12499
+    with fade
     mt "Черт, а что если у него и правда есть много денег..."
     m "Хорошо, но только быстро."
     # моника зажимает соски
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    music Loved_Up2
     img 12500
+    with fadelong
     w
     img 12502
+    with diss
     w
     img 12501
     citizen5 "Это самое лучшее представление, которое я видел!"
@@ -446,18 +511,24 @@ label cit5_naked_boobs_variant2:
     img 12507
     w
     img 12508
+    with fade
     citizen5 "Мистер очень доволен, вот твои миллионы!"
     # Дает ей миллионы долларов Зимбабве )
     img 12509
+    with diss
     w
+    music Groove2_85
     img 12510
+    with hpunch
     m "Что это такое?"
     img 12511
     citizen5 "Я даю тебе миллионы долларов!"
+    music Power_Bots_Loop
     img 12512
     m "Зимбабве?! Да не них здесь ничего не купить!"
     img 12513
     citizen5 "Мистер не знает, но ты теперь миллионер!!!"
     img 12514
+    with fade
     mt "Черт, похоже он очень глуп, даже говорить с ним нет смысла..."
     return True

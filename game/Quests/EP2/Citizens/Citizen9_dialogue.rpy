@@ -1,3 +1,8 @@
+default citizen9BoobsNakesShowedLastDay = 0
+default citizen9BoobsNakesShowedCount = -1
+
+default citizen9BoobsNakesEvent1 = False
+
 label citizen9_dialogue:
     imgl Dial_Monica_Sandwich_0
 #    menu:
@@ -204,9 +209,36 @@ label citizen9_dialogue_pilon:
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             $ store_citizen_action("PylonDanceCloth", 1)
             jump citizen9_dialogue_pilon_loop9
-        "Голые сиськи. (disabled)" if pylonpart4startsCompleted == False and 1==2:
+        "Голые сиськи. (disabled)" if (pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen9BoobsNakesShowedLastDay == day:
             pass
-        "Голые сиськи." if pylonpart4startsCompleted == True:
+        "Голые сиськи." if pylonpart4startsCompleted == True and citizen9BoobsNakesShowedLastDay != day:
+            $ store_music()
+            if citizen9BoobsNakesShowedCount == -1:
+                call cit9_naked_boobs_1st()
+                if _return != False:
+                    $ citizen9BoobsNakesShowedCount += 1
+            else:
+                if citizen9BoobsNakesShowedCount%2 == 0:
+                    call cit9_naked_boobs_variant1()
+                if citizen9BoobsNakesShowedCount%2 == 1:
+                    call cit9_naked_boobs_variant2()
+                $ citizen9BoobsNakesShowedCount += 1
+            if _return == 2:
+                $ scene_sound = "snd_runaway"
+                $ autorun_to_object("citizen9_comment1", scene="hostel_edge_1_a")
+                call refresh_scene_fade()
+                sound snd_runaway
+                return False
+            if _return != False:
+                $ citizen9BoobsNakesShowedLastDay = day
+                $ showedNakedBoobs = True
+                $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+            $ restore_music()
+            jump citizen9_dialogue_pilon_loop9
+
+
+
+
             call pylonController(4, 1) from _call_pylonController_140
             citizen9 "Голые сиськи! Я их люблю!"
             m "Что?"
@@ -265,13 +297,16 @@ label citizen9_dialogue_pilon:
 
 # первый раз
 label cit9_naked_boobs_1st:
+    music Groove2_85
     img 12240
+    with fade
     citizen9 "Эй дамочка, ты же хочешь еще доллар?"
     img 12241
     m "..."
     img 12242
     citizen9 "Дамочка, когда тебя спрашивают, нужно отвечать!"
     img 12243
+    with diss
     mt "Проклятье, мне нужны деньги..."
     m "Да."
     img 12244
@@ -281,28 +316,33 @@ label cit9_naked_boobs_1st:
     img 12246
     citizen9 "Да, кроме твоих сисечек! Покажи их мне!"
     img 12247
+    with diss
     menu:
-        "Почему бы и нет.":
+        "Мне нужны деньги...":
             pass
         "Хватит и того, что ты уже видел!":
             img 12248
             m "Хватит и того, что ты уже видел!"
             return False
     img 12249
+    with fade
     m "Хорошо."
     m "Отвернись!"
     img 12250
     citizen9 "Ох, какая ты скучная..."
     # отворачивается, моника переодевается...
+    sound snd_fabric1
     img 12251
+    with fadelong
     w
     img 12252
+    with diss
     m "Можешь повернуться."
     m "Но руками не трогать!"
     # сиськи
+    music Loved_Up
     img 12253
-    w
-    img 12254
+    with diss
     w
     img 12255
     citizen9 "Ууу! Просто бомба!"
@@ -317,6 +357,7 @@ label cit9_naked_boobs_1st:
     citizen9 "Зрелище стало бы куда интереснее."
     # моника продолжает показывать
     img 12259
+    with diss
     w
     img 12260
     w
@@ -324,24 +365,32 @@ label cit9_naked_boobs_1st:
     citizen9 "Ну ладно, можешь не отвечать..."
     # сиськи еще
     img 12262
+    with diss
     w
     img 12263
+    with diss
     w
+    music Groove2_85
     img 12264
+    with fade
     citizen9 "А ты ниче такая! Горячая штучка!"
     citizen9 "Я бы тебя каждый день..."
     img 12265
+    with fade
     m "Ну ладно, хватит!"
     img 12266
     citizen9 "Ну что ты за обломщица?"
     img 12267
+    with fade
     m "Хорошего понемногу."
     $ nakedBoobsFirstly_Cit9 = True
     return True
 
 # вариант 1
 label cit9_naked_boobs_variant1:
+    music Groove2_85
     img 12268
+    with fade
     citizen9 "Йо! Дамочка, давай заценим твои сисечки еще разок!"
     img 12269
     m "..."
@@ -350,6 +399,7 @@ label cit9_naked_boobs_variant1:
     citizen9 "Какая же ты некультурная. Нужно отвечать 'Давай!', а ты молчишь..."
     citizen9 "Ну дак что, глянем на твоих подружек еще разок?"
     img 12271
+    with diss
     menu:
         "Хорошо.":
             pass
@@ -358,31 +408,45 @@ label cit9_naked_boobs_variant1:
             m "Хватит и того, что ты уже видел!"
             return False
     img 12273
+    with fade
     m "Хорошо."
     m "Отвернись!"
     img 12274
     citizen9 "..."
     # отворачивается, моника переодевается... сиизен пытается схватить, но моника замечает
+    sound snd_fabric1
     img 12275
+    with fadelong
     w
+    sound Jump1
     img 12276
+    with diss
     w
+    music Power_Bots_Loop
+    sound Jump2
     img 12277
+    with hpunch
     w
     img 12278
     m "Какого черта?!"
     img 12279
+    with diss
     citizen9 "Эй, детка, все путем!"
     img 12280
     m "Ничего не путем! Я просила тебя отвернуться."
     img 12281
+    with diss
     citizen9 "Эй, дамочка, все честно! Да, просила, но я же не ответил."
     img 12282
+    with fade
     m "Все, я ухожу..."
+    music Groove2_85
     img 12283
     citizen9 "Йо, дамочка, так дела не делаются."
+    $ add_money(1.0)
     citizen9 "Ладно, вот твой доллар, все путем да?"
     img 12284
+    with diss
     m "..."
     m "Да."
     mt "Проклятье, Моника, до чего ты дошла..."
@@ -393,7 +457,9 @@ label cit9_naked_boobs_variant1:
 
 # вариант 2
 label cit9_naked_boobs_variant2:
+    music Groove2_85
     img 12286
+    with fade
     citizen9 "Дамочка, покажи сиськи!"
     img 12287
     menu:
@@ -404,22 +470,30 @@ label cit9_naked_boobs_variant2:
             m "Хватит и того, что ты уже видел!"
             return False
     img 12289
+    with fade
     m "Хорошо."
     m "Отвернись!"
     img 12290
     citizen9 "..."
     # отворачивается, моника переодевается...
+    music Loved_Up
+    sound snd_fabric1
     img 12291
+    with fadelong
     w
     img 12292
+    with diss
     w
     img 12293
+    with diss
     m "Можешь повернуться."
     m "Но руками не трогать!"
     # сиськи
     img 12294
+    with diss
     w
     img 12295
+    with diss
     w
     img 12296
     w
@@ -427,15 +501,19 @@ label cit9_naked_boobs_variant2:
     citizen9 "Йо! Шик!"
     # сиськи
     img 12298
+    with diss
     w
     img 12299
     w
+    music Groove2_85
     img 12300
+    with fade
     citizen9 "Классные дойки, дамочка! Я бы за них подергал!"
     img 12301
     citizen9 "Кстати, у меня идея!"
     citizen9 "Закрой глаза!"
     img 12302
+    with diss
     m "Это еще зачем?"
     img 12303
     citizen9 "Да так, у меня для тебя сюрприз!"
@@ -445,35 +523,63 @@ label cit9_naked_boobs_variant2:
         "Закрыть глаза.":
             # закывает глаза ситизен подходит сзади и хватает
             img 12305
+            with fade
             w
             img 12306
+            with diss
             w
+            sound Jump1
             img 12307
+            with diss
             citizen9 "Сюрприз!"
+            music Power_Bots_Loop
+            sound Jump2
             img 12308
+            with hpunch
             w
             img 12309
+            with fade
             m "Что?! Ах ты гад! Да я тебя!"
             img 12310
+            with diss
             citizen9 "О! Они просто восхитительные! Ты знаешь, однажды я также схватил дамочку, которая раздавала флаеры..."
             # Сделать какую то привязку к тому событию или по простому: моника ему наваляет и он убегает?
+            music stop
+            sound snd_punch_face1
             img 12311
+            with diss
             w
+            sound snd_punch_face2
             img 12312
+            with diss
             w
+            sound snd_punch_face
             img 12313
+            with diss
+            w
+            img black_screen
+            with diss
+            sound snd_down1
+            pause 3.0
+            return 2
+            $ citizen9BoobsNakesEvent1 = True
         "Ну уж нет!":
             img 12314
+            with fade
             m "Ну уж нет!"
             img 12315
             citizen9 "Дамочка, ты меня разочаровываешь..."
             pass
     # сиськи
     img 12316
+    with diss
     w
     img 12317
+    with diss
     w
+    music Groove2_85
     img 12318
+    with fade
     m "Ну все, хватит."
     img 12319
     citizen9 "Ну ты даешь! Я только представил как засовываю между них мой большой..."
@@ -482,5 +588,10 @@ label cit9_naked_boobs_variant2:
     img 12321
     citizen9 "Йо! Да неужели? И вероятно еще и представила! Ха-ха-ха!"
     img 12322
+    with fade
     mt "Извращенец, когда я верну свое положение, я найду тебя..."
     return True
+
+label citizen9_comment1:
+    mt "Мерзавец!"
+    return

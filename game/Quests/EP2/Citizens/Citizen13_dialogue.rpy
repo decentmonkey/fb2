@@ -1,3 +1,5 @@
+default citizen13BoobsNakesShowedLastDay = 0
+default citizen13BoobsNakesShowedCount = -1
 label citizen13_dialogue:
     imgl Dial_Monica_Sandwich_0
 #    menu:
@@ -187,9 +189,29 @@ label citizen13_dialogue_pilon:
             $ showedDance = True
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen13_dialogue_pilon_loop13
-        "Голые сиськи. (disabled)" if pylonpart4startsCompleted == False and 1==2:
+        "Голые сиськи. (disabled)" if (pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen13BoobsNakesShowedLastDay == day:
             pass
-        "Голые сиськи." if pylonpart4startsCompleted == True:
+        "Голые сиськи." if pylonpart4startsCompleted == True and citizen13BoobsNakesShowedLastDay != day:
+            $ store_music()
+            if citizen13BoobsNakesShowedCount == -1:
+                call cit13_naked_boobs_1st()
+                if _return != False:
+                    $ citizen13BoobsNakesShowedCount += 1
+            else:
+                if citizen13BoobsNakesShowedCount%2 == 0:
+                    call cit13_naked_boobs_variant1()
+                if citizen13BoobsNakesShowedCount%2 == 1:
+                    call cit13_naked_boobs_variant2()
+                $ citizen13BoobsNakesShowedCount += 1
+            if _return != False:
+                $ citizen13BoobsNakesShowedLastDay = day
+                $ showedNakedBoobs = True
+                $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+            $ restore_music()
+            jump citizen13_dialogue_pilon_loop13
+
+
+
             call pylonController(4, 1) from _call_pylonController_114
             citizen13 "Прошлый раз ты меня обманула: не показала, что у тебя под футболкой. Давай теперь честно, мы же подруги."
             mt "Что он такое говорит? Он вообще нормальный?"
@@ -243,7 +265,9 @@ label citizen13_dialogue_pilon:
 
 # первый раз
 label cit13_naked_boobs_1st:
+    music Groove2_85
     img 12323
+    with fade
     citizen13 "Подруга, скажу тебе по секрету, я очень тебе завидую!"
     img 12324
     m "Это почему?"
@@ -259,30 +283,38 @@ label cit13_naked_boobs_1st:
     img 12329
     citizen13 "Покажи их мне, не стесняйся, а я дам тебе деньжат!"
     img 12330
+    with diss
     menu:
-        "Почему бы и нет.":
+        "Мне нужны деньги...":
             pass
         "Хватит и того, что ты уже видел!":
             img 12331
             m "Хватит и того, что ты уже видел!"
             return False
     img 12333
+    with fade
     m "Хорошо."
     m "Отвернись!"
     img 12332
     citizen13 "Конечно, мы же подруги."
     # отворачивается, моника переодевается...
+    sound snd_fabric1
     img 12334
+    with fadelong
     w
+    music Loved_Up
     img 12335
+    with diss
     m "Можешь повернуться."
     m "Но руками не трогать!"
     img 12336
     citizen13 "Не разрешаешь? Ну хорошо..."
     # сиськи
     img 12337
+    with diss
     w
     img 12338
+    with diss
     w
     img 12339
     citizen13 "Вау! Тебе очень повезло с подружками!"
@@ -300,10 +332,15 @@ label cit13_naked_boobs_1st:
     citizen13 "Ух, могу говорить о них хоть до утра!"
     # сиськи еще
     img 12345
+    with diss
     w
     img 12346
+    with diss
     citizen13 "Ох, подруга, как же я тебе завидую!"
+
+    music Groove2_85
     img 12347
+    with fade
     m "Ну ладно, хватит!"
     img 12348
     citizen13 "Ну хорошо, но ты должна обещать, что я увижу их снова!"
@@ -314,9 +351,12 @@ label cit13_naked_boobs_1st:
 
 # вариант 1
 label cit13_naked_boobs_variant1:
+    music Groove2_85
     img 12350
+    with fade
     citizen13 "Дорогая, покажи мне своих подружек, никак не могу забыть нашу первую встречу!"
     img 12351
+    with diss
     menu:
         "Хорошо.":
             pass
@@ -325,24 +365,34 @@ label cit13_naked_boobs_variant1:
             m "Хватит и того, что ты уже видел!"
             return False
     img 12353
+    with fade
     m "Хорошо."
     m "Только руками не трогай"
     img 12354
     citizen13 "Конечно, мы же подруги."
+    sound snd_fabric1
+    music Loved_Up
     img 12355
+    with fadelong
     citizen13 "А тебе есть что показать! Когда нибудь у меня будут такие же!"
     img 12356
+    with diss
     mt "Да неужели..."
     # сиськи
     img 12357
+    with diss
     w
     img 12358
+    with diss
     w
     img 12359
+    with diss
     w
     img 12360
     citizen13 "Подруга, а где ты такие сделала?"
+    music Groove2_85
     img 12361
+    with fade
     m "Что?! Они настоящие!"
     img 12362
     citizen13 "Ой, да не обманывай! Ну честно, ты делала их у Джузеппе?"
@@ -352,28 +402,38 @@ label cit13_naked_boobs_variant1:
     citizen13 "А, ну да, конфеденциальность, понимаю..."
     citizen13 "Значит у него! Да, отличная работа!"
     img 12365
+    with diss
     m "Они настоящие!"
     img 12366
     citizen13 "Ууу! Ладно, подруга, не злись!"
     citizen13 "Все таки они у тебя классные!"
     # сиськи
+    music Loved_Up
     img 12367
+    with diss
     w
     img 12368
+    with diss
     w
+    music Groove2_85
     img 12369
+    with fade
     m "Ну ладно, хватит!"
     img 12370
     citizen13 "Ну хорошо, но ты должна обещать, что я увижу их снова!"
     img 12371
+    with fade
     mt "Посмотрим..."
     return True
 
 # вариант 2
 label cit13_naked_boobs_variant2:
+    music Groove2_85
     img 12373
+    with fade
     citizen13 "Дорогая, сегодня особенный день и ты просто обязана показать мне свои сисечки!"
     img 12372
+    with diss
     menu:
         "Хорошо.":
             pass
@@ -382,38 +442,53 @@ label cit13_naked_boobs_variant2:
             m "Хватит и того, что ты уже видел!"
             return False
     img 12375
+    with fade
     m "Хорошо."
     m "Отвернись!"
     img 12376
     citizen13 "Конечно, мы же подруги."
     # отворачивается, моника переодевается
+    sound snd_fabric1
     img 12377
+    with fadelong
     w
+    music Loved_Up
     img 12378
+    with diss
     w
     img 12379
     citizen13 "Ох, какие же они у тебя...Просто чудо."
     img 12380
+    with diss
     mt "Тут не поспоришь."
     # сиськи
     img 12381
+    with diss
     w
     img 12382
+    with diss
     w
     img 12383
+    with diss
     w
+    music Groove2_85
     img 12384
+    with fade
     citizen13 "Ты знаешь, где то я уже такие видел..."
     citizen13 "..."
     img 12385
     citizen13 "Точно, вспомнил! Вчера вечером я смотрел один фильм..."
     citizen13 "Дак там 10 мужчин... Хотя что я рассказываю, уверен, ты такое каждый день видешь."
     img 12386
+    with diss
     mt "10 мужчин?! О боже..."
     # сиськи
+    music Loved_Up
     img 12387
+    with diss
     w
     img 12388
+    with diss
     w
     img 12389
     citizen13 "Кстати, ты никогда не хотела стать актрисой?"
@@ -424,43 +499,63 @@ label cit13_naked_boobs_variant2:
     citizen13 "Мне бы очень хотелось увидеть тебя в кино."
     # сиськи
     img 12392
+    with diss
     w
     img 12393
+    with diss
     w
     img 12394
+    with fade
     citizen13 "Подожди ка..."
     # Достает телефон и фоткает
     img 12395
+    with diss
     w
+    music stop
     img 12396
+    with Dissolve(0.2)
     w
+    call photoshop_flash()
+    w
+    music Power_Bots_Loop
     img 12397
+    with fade
     m "Эй! Что ты сделал?"
     img 12398
     citizen13 "Подруга, ты злишься? Я тебя сфотографировал!"
     citizen13 "Хочу показать твое фото одному моему знакомому, он снимает фильмы!"
     img 12399
+    with diss
     m "Удали это фото немедленно!!!"
     # какая то поза моники или просто берет за шквар нигера...
     img 12401
+    with diss
     w
     img 12402
+    with diss
     w
+    music Groove2_85
     img 12400
+    with fade
     citizen13 "Ууу! Ладно, подруга, не злись!"
     citizen13 "Хорошо, хорошо, удаляю..."
     # удаляет
     img 12403
     w
+    sound click1
     img 12404
+    with diss
     w
     img 12405
+    with fade
     citizen13 "Эх, подруга, зря ты так, могла бы стать знаменитой..."
     img 12406
+    with diss
     mt "Я и так знаменита, только пока у меня не самая удачная полоса в жизни..."
     m "Ну ладно, хватит!"
     img 12407
     citizen13 "Ну хорошо, но ты должна обещать, что я увижу их снова!"
     img 12408
+    with fade
     mt "Посмотрим..."
     return True

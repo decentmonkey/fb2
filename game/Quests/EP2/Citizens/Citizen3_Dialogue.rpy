@@ -1,3 +1,5 @@
+default citizen3BoobsNakesShowedLastDay = 0
+default citizen3BoobsNakesShowedCount = -1
 default monicaGotJoint = False
 label citizen3_dialogue:
     imgl Dial_Monica_Sandwich_0
@@ -210,9 +212,29 @@ label citizen3_dialogue_pilon:
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             $ store_citizen_action("PylonDanceCloth", 1)
             jump citizen3_dialogue_pilon_loop3
-        "Голые сиськи. (disabled)" if pylonpart4startsCompleted == False and 1==2:
+        "Голые сиськи. (disabled)" if (pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen3BoobsNakesShowedLastDay == day:
             pass
-        "Голые сиськи." if pylonpart4startsCompleted == True:
+        "Голые сиськи." if pylonpart4startsCompleted == True and citizen3BoobsNakesShowedLastDay != day:
+            $ store_music()
+            if citizen3BoobsNakesShowedCount == -1:
+                call cit3_naked_boobs_1st()
+                if _return != False:
+                    $ citizen3BoobsNakesShowedCount += 1
+            else:
+                if citizen3BoobsNakesShowedCount%2 == 0:
+                    call cit3_naked_boobs_variant1()
+                if citizen3BoobsNakesShowedCount%2 == 1:
+                    call cit3_naked_boobs_variant2()
+                $ citizen3BoobsNakesShowedCount += 1
+            if _return != False:
+                $ citizen3BoobsNakesShowedLastDay = day
+                $ showedNakedBoobs = True
+                $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+            $ restore_music()
+            jump citizen3_dialogue_pilon_loop3
+
+
+
             call pylonController(4, 1) from _call_pylonController_263
             citizen3 "Детка, хочу взглянуть еще раз на твои сиськи, только сними курточку."
             if corruption < monicaWhoringClothNakedBoobsCorruptionRequired:
@@ -265,7 +287,9 @@ label citizen3_dialogue_pilon:
 
 # первый раз
 label cit3_naked_boobs_1st:
+    music Groove2_85
     img 11810
+    with fade
     citizen3 "Ты знаешь, есть одна вещь, которая меня сильно интригует!"
     img 11811
     m "?"
@@ -287,20 +311,29 @@ label cit3_naked_boobs_1st:
     m "Отвернись!"
     # отворачивается, моника переодевается...
     img 11818
+    with diss
     w
+    sound snd_fabric1
     img 11819
+    with diss
     w
+    music Loved_Up
     img 11820
+    with fade
     m "Можешь повернуться."
     m "Но руками не трогать!"
     # сиськи
     img 11821
+    with diss
     w
     img 11822
+    with diss
     w
     img 11823
     w
+    music Groove2_85
     img 11824
+    with fade
     citizen3 "Ха! Я уверен, что где-то уже видел твои сиськи... Или не твои.."
     citizen3 "Не подскажешь, где я мог их видеть?"
     img 11825
@@ -313,6 +346,7 @@ label cit3_naked_boobs_1st:
     img 11828
     w
     img 11829
+    with fade
     citizen3 "Странно, очень странно..."
     # citizen смотрит в сторону задумавшись, моника продолжает показывать
     img 11830
@@ -322,7 +356,9 @@ label cit3_naked_boobs_1st:
 
 # вариант 1
 label cit3_naked_boobs_variant1:
+    music Groove2_85
     img 11831
+    with fade
     citizen3 "Дорогуша, покажи мне свои красивые сиськи!"
     citizen3 "Не за бесплатно конечно же."
     img 11832
@@ -336,8 +372,12 @@ label cit3_naked_boobs_variant1:
 
     # отворачивается, моника переодевается...
     img 11834
+    with fade
     m "Хорошо."
+    music Loved_Up
+    sound snd_fabric1
     img 11835
+    with fade
     m "Только руками не трогать!"
     # сиськи
     img 11836
@@ -357,20 +397,26 @@ label cit3_naked_boobs_variant1:
     w
     img 11843
     w
+    music Groove2_85
     img 11844
+    with fade
     citizen3 "Сиськи как у Сары! Ты знакома с Сарой?"
     img 11845
     citizen3 "Хотя почему я спрашиваю? Конечно вы знакомы."
     img 11846
     m "Я не знаю о ком ты говоришь."
     # сиськи еще
+    music Loved_Up
     img 11847
+    with diss
     w
     img 11848
     w
-    img 1184
+    img 11849
     w
+    music Groove2_85
     img 11850
+    with fade
     citizen3 "Ну как же, Сара! У нее лучшие сиськи на районе!"
     citizen3 "Надо будет как нибудь устроить соревнование. Да, это отличная идея!"
     img 11851
@@ -379,7 +425,9 @@ label cit3_naked_boobs_variant1:
 
 # вариант 2
 label cit3_naked_boobs_variant2:
+    music Groove2_85
     img 11852
+    with fade
     citizen3 "Детка, хочу взглянуть еще раз на твои сиськи, только сними курточку."
     img 11853
     menu:
@@ -390,20 +438,24 @@ label cit3_naked_boobs_variant2:
             m "Хватит и того, что ты уже видел!"
             return False
     img 11855
+    with fade
     m "Отвернись!"
     # отворачивается, моника переодевается...
     img 11856
     w
+    sound snd_fabric1
     img 11857
+    with fadelong
     w
     img 11858
+    with diss
     m "Можешь повернуться."
     img 11859
     m "Только руками не трогать!"
     # сиськи
-    img 11860
-    w
+    music Loved_Up
     img 11861
+    with diss
     w
     img 11862
     citizen3 "Ага... Да..."
@@ -416,24 +468,37 @@ label cit3_naked_boobs_variant2:
     img 11865
     w
     img 11866
+    with diss
+    w
     img 11867
     mt "Интересно, что это с ним сегодня? Обычно он более разоворчив..."
     img 11868
     citizen3 "А что если?"
     # ситизен внезапно хватает монику за грудь
+    sound Jump2
     img 11869
+    with diss
+    w
     # смена картинки, моника злая
+    music Power_Bots_Loop
     img 11870
+    with hpunch
     m "Ах ты говнюк! Какого черта?!"
+    sound snd_fabric1
     img 11871
+    with fadelong
     citizen3 "Что то не так?"
     img 11872
     m "Что то не так! Ты трогал мою грудь!"
+    music Groove2_85
     img 11873
     citizen3 "А, ты про это..."
     citizen3 "Это твоя вина! Я никак не мог вспомнить видел ли я где-то твою грудь и был вынужден ее поторгать, чтобы убедиться."
+    music Power_Bots_Loop
     img 11874
+    with hpunch
     m "Да я тебя сейчас..."
+    music Groove2_85
     img 11875
     citizen3 "Все, все, не злись! Я прошу прощения и заверяю тебя, что раньше твою грудь я не видел."
     citizen3 "И даже больше: она просто прекрасна, уж можешь поверить."
@@ -444,6 +509,7 @@ label cit3_naked_boobs_variant2:
     img 11877
     citizen3 "Наш конфликт улажен?"
     img 11878
+    with fade
     mt "Были бы мы не в этих трущебах, я бы тебя прибила..."
     m "...Да."
     return True

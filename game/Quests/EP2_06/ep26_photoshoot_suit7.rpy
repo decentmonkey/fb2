@@ -932,7 +932,7 @@ label ep26_photoshoot_suit7_pose11_pre:
 
     if char_info["AlexPhotograph"]["level"] < 2:
         menu:
-            "Опустить руки. (недостаточные отношения с Алексом) (disabled)": #corruption
+            "Опустить руки. (недостаточные отношения с Алексом, required lvl. 2) (disabled)": #corruption
                 pass
             "Прекратить фотосессию":
                 music Groove2_85

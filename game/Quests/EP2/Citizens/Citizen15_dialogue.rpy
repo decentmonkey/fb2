@@ -1,3 +1,5 @@
+default citizen15BoobsNakesShowedLastDay = 0
+default citizen15BoobsNakesShowedCount = -1
 default pylonpart2startsCompleted = False
 default pylonpart3startsCompleted = False
 default pylonpart4startsCompleted = False
@@ -161,10 +163,25 @@ label citizen15_dialogue_pilon:
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             $ store_citizen_action("PylonDanceCloth", 1)
             jump citizen15_dialogue_pilon_loop15
-        "Голые сиськи. (disabled)" if pylonpart4startsCompleted == False and 1==2:
+        "Голые сиськи. (disabled)" if (pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen15BoobsNakesShowedLastDay == day:
             pass
-        "Голые сиськи." if pylonpart4startsCompleted == True:
-            # ПЕРЕНЕСЕНО В citizen4!!!
+        "Голые сиськи." if pylonpart4startsCompleted == True and citizen15BoobsNakesShowedLastDay != day:
+            $ store_music()
+            if citizen15BoobsNakesShowedCount == -1:
+                call cit15_naked_boobs_1st()
+                if _return != False:
+                    $ citizen15BoobsNakesShowedCount += 1
+            else:
+                if citizen15BoobsNakesShowedCount%2 == 0:
+                    call cit15_naked_boobs_variant1()
+                if citizen15BoobsNakesShowedCount%2 == 1:
+                    call cit15_naked_boobs_variant2()
+                $ citizen15BoobsNakesShowedCount += 1
+            if _return != False:
+                $ citizen15BoobsNakesShowedLastDay = day
+                $ showedNakedBoobs = True
+                $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+            $ restore_music()
             jump citizen15_dialogue_pilon_loop15
         "Достаточно на сегодня.":
             $ earnedMoney = 0
@@ -192,7 +209,9 @@ label citizen15_dialogue_pilon:
 
 # первый раз
 label cit15_naked_boobs_1st:
+    music Groove2_85
     img 12409
+    with fade
     citizen15 "Знаешь, обычно при виде меня девочки сами снимают кофточки!"
     citizen15 "Тебе нужно особое приглашение?"
     img 12410
@@ -204,6 +223,7 @@ label cit15_naked_boobs_1st:
     img 12413
     citizen15 "Ну дак что, голые сиськи в обмен на деньги?"
     img 12414
+    with diss
     menu:
         "Мне нужны деньги...":
             pass
@@ -212,6 +232,7 @@ label cit15_naked_boobs_1st:
             m "Хватит и того, что ты уже видел!"
             return False
     img 12416
+    with fade
     m "Хорошо."
     m "Отвернись!"
     img 12417
@@ -221,9 +242,13 @@ label cit15_naked_boobs_1st:
     img 12419
     citizen15 "А ты серьезная, ладно, отвернусь."
     # отворачивается, моника переодевается...
+    sound snd_fabric1
     img 12420
+    with fadelong
     w
+    music Loved_Up
     img 12421
+    with diss
     m "Можешь повернуться."
     m "Но руками не трогать!"
     img 12422
@@ -235,9 +260,12 @@ label cit15_naked_boobs_1st:
     w
     img 12425
     w
+    music Groove2_85
     img 12426
+    with fade
     citizen15 "Ну скажу честно, так себе!"
     img 12427
+    with diss
     mt "Что?!?!"
     # сиськи еще
     img 12428
@@ -248,13 +276,17 @@ label cit15_naked_boobs_1st:
     citizen15 "Видал я сиськи и получше..."
     # моника продолжает показывать
     img 12431
+    with diss
     w
     img 12432
+    with diss
     w
     img 12433
+    with fade
     citizen15 "Но вообще сойдет, нормально!"
     citizen15 "На 3 балла из 10!"
     img 12434
+    with diss
     m "Почему ты мне такое говоришь?"
     img 12435
     citizen15 "А что не так? На правду не обижаются..."
@@ -263,15 +295,19 @@ label cit15_naked_boobs_1st:
     img 12437
     citizen15 "Странная ты... Обычно девочки просят, чтобы я смотрел на них как можно дольше!"
     img 12438
+    with fade
     mt "Обещаю, когда нибудь я тебя ударю."
     $ nakedBoobsFirstly_Cit15 = True
     return True
 
 # вариант 1
 label cit15_naked_boobs_variant1:
+    music Groove2_85
     img 12439
+    with fade
     citizen15 "Ну что, показывай свои сиськи, погляжу как они там!"
     img 12440
+    with diss
     menu:
         "Хорошо.":
             pass
@@ -280,61 +316,87 @@ label cit15_naked_boobs_variant1:
             m "Хватит и того, что ты уже видел!"
             return False
     img 12442
+    with fade
     m "Хорошо."
     m "Отвернись!"
     img 12443
     citizen15 "Ты снова об этом...Ладно."
     # отворачивается, моника переодевается
+    sound snd_fabric1
     img 12444
+    with diss
     w
     img 12445
+    with fadelong
     w
+    music Loved_Up
     img 12446
+    with diss
     w
     img 12447
+    with diss
     m "Можешь поворачиваться!"
-    mg 12448
+    img 12448
+    with diss
     citizen15 "Как скажешь, детка."
     # сиськи
     img 12449
+    with diss
     w
     img 12450
+    with diss
     w
     img 12451
+    with fade
     citizen15 "Оу, что за взгляд!"
     img 12452
+    with diss
     mt "Да я убить тебя готова! Если бы не эти чертовы деньги..."
     img 12453
+    with diss
     citizen15 "Я знаю этот взгляд... Ты меня хочешь!"
     img 12454
     m "Размечтался..."
     # сиськи
     img 12455
+    with diss
     w
     img 12456
+    with diss
     w
     img 12457
     citizen15 "Ха! Так говорят все девочки, но я то знаю правду."
     citizen15 "Если ты меня хочешь, скажи. Не нужно скрывать."
+    music Groove2_85
     img 12458
+    with fade
     m "Я тебя не хочу."
     # сиськи
     img 12459
+    with diss
     w
     img 12460
+    with diss
     w
     img 12461
     citizen15 "Я знаю, что ты врешь! Но даже если бы ты это сказала, я бы подумал, стоит ли тебя трахать."
+    music Power_Bots_Loop
     img 12462
+    with diss
     mt "Что? Да как ты смеешь такое говорить!? Я Моника Бакфет!! А ты ничтожество, проживающее в помойке!!"
+    music Groove2_85
     img 12463
+    with fade
     citizen15 "Ну вот, снова этот взгляд!"
     # сиськи
     img 12464
+    with diss
     w
     img 12465
+    with diss
     w
     img 12466
+    with fade
     m "Ну ладно, хватит!"
     img 12467
     citizen15 "Что, не можешь с собой справиться? Ха-ха... Ну не знаю, может когда нибудь я тебя и трахну, если хорошо попросишь."
@@ -344,38 +406,55 @@ label cit15_naked_boobs_variant1:
 
 # вариант 2
 label cit15_naked_boobs_variant2:
+    music Groove2_85
     img 12469
+    with fade
     citizen15 "Время голых сисек! Давай, расчехляй!"
+    music Power_Bots_Loop
     img 12470
     mt "Я вырву твой вонючий язык..."
     img 12471
+    with diss
     menu:
-        "Хорошо.":
+        "Мне нужны деньги...":
             pass
         "Хватит и того, что ты уже видел!":
             img 12472
+            with fade
             m "Хватит и того, что ты уже видел!"
             return False
+    music Groove2_85
     img 12473
+    with fade
     m "Хорошо."
     m "Отвернись!"
     img 12474
     citizen15 "Конечно, детка!"
     # отворачивается, моника переодевается ситизен резко поворачивается и ее пугает
+    sound snd_fabric1
     img 12475
+    with fadelong
     w
+    sound Jump1
     img 12476
+    with hpunch
     w
     img 12477
+    with diss
     w
+    sound Jump2
     img 12478
+    with diss
     citizen15 "Бу!!!"
     img 12479
+    with diss
     m "Ой! Какого?"
     img 12480
+    with diss
     citizen15 "Ха-ха-ха. Девочки всегда так смешно пугаются."
     citizen15 "И после такого они уже в моей власти!"
     img 12481
+    with fade
     m "Что? О чем вообще ты?"
     img 12482
     citizen15 "Ну как же, разве ты не чувствуешь мое превосходство?"
@@ -384,8 +463,10 @@ label cit15_naked_boobs_variant2:
     img 12484
     citizen15 "Разве не готова мне отдаться прямо здесь?"
     img 12485
+    with fade
     m "Знаешь что... Я не покажу тебе свою грудь..."
     img 12486
+    with diss
     citizen15 "Корчишь недотрогу? Такие девочки мне нравятся..."
     return False
 #

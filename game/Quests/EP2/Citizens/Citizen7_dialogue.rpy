@@ -1,3 +1,5 @@
+default citizen7BoobsNakesShowedLastDay = 0
+default citizen7BoobsNakesShowedCount = -1
 label citizen7_dialogue:
     imgl Dial_Monica_Sandwich_0
 #    menu:
@@ -162,9 +164,29 @@ label citizen7_dialogue_pilon:
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             $ store_citizen_action("PylonDanceCloth", 1)
             jump citizen7_dialogue_pilon_loop7
-        "Голые сиськи. (disabled)" if pylonpart4startsCompleted == False and 1==2:
+        "Голые сиськи. (disabled)" if (pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen7BoobsNakesShowedLastDay == day:
             pass
-        "Голые сиськи." if pylonpart4startsCompleted == True:
+        "Голые сиськи." if pylonpart4startsCompleted == True and citizen7BoobsNakesShowedLastDay != day:
+            $ store_music()
+            if citizen7BoobsNakesShowedCount == -1:
+                call cit7_naked_boobs_1st()
+                if _return != False:
+                    $ citizen7BoobsNakesShowedCount += 1
+            else:
+                if citizen7BoobsNakesShowedCount%2 == 0:
+                    call cit7_naked_boobs_variant1()
+                if citizen7BoobsNakesShowedCount%2 == 1:
+                    call cit7_naked_boobs_variant2()
+                $ citizen7BoobsNakesShowedCount += 1
+            if _return != False:
+                $ citizen7BoobsNakesShowedLastDay = day
+                $ showedNakedBoobs = True
+                $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+            $ restore_music()
+            jump citizen7_dialogue_pilon_loop7
+
+
+
             call pylonController(4, 1) from _call_pylonController_238
             citizen7 "Покажи свою грудь, только не забудь снять одежду."
             if corruption < monicaWhoringClothNakedBoobsCorruptionRequired:
@@ -218,7 +240,9 @@ label citizen7_dialogue_pilon:
 
 # первый раз
 label cit7_naked_boobs_1st:
+    music Groove2_85
     img 12055
+    with fade
     citizen7 "Мне не хватает вдохновения! Ты должна мне помочь!"
     img 12056
     m "Не понимаю. Ты же сам сказал, что я даю тебе вдохновение..."
@@ -235,18 +259,22 @@ label cit7_naked_boobs_1st:
     citizen7 "Я не знаю, но это должно придать вдохновнения. Ну дак что?"
     img 12062
     menu:
-        "Почему бы и нет.":
+        "Мне нужны деньги...":
             pass
         "Хватит и того, что ты уже видел!":
             img 12063
             m "Хватит и того, что ты уже видел!"
             return False
     img 12064
+    with fade
     m "Хорошо!"
     img 12065
     citizen7 "Я в предвкушении..."
     # отворачивается, моника переодевается...
+    sound snd_fabric1
+    music Loved_Up
     img 12066
+    with fadelong
     m "Но руками не трогать!"
     img 12067
     citizen7 "Конечно, я же человек искусства."
@@ -293,13 +321,16 @@ label cit7_naked_boobs_1st:
     citizen7 "..."
     citizen7 "Ну что же, надеюсь, этого хватит..."
     img 12085
+    with fade
     mt "Интересно, для чего?"
     $ nakedBoobsFirstly_Cit7 = True
     return True
 
 # вариант 1
 label cit7_naked_boobs_variant1:
+    music Groove2_85
     img 12086
+    with fade
     citizen7 "Детка, после одной из наших встреч, есть кое что, чего мне не хватает."
     img 12087
     m "И что же это?"
@@ -316,11 +347,16 @@ label cit7_naked_boobs_variant1:
             m "Хватит и того, что ты уже видел!"
             return False
     img 12092
+    with fade
     m "Отвернись!"
     # отворачивается, моника переодевается...
+    sound snd_fabric1
     img 12093
+    with diss
     w
+    music Loved_Up
     img 12094
+    with diss
     m "Можешь повернуться."
     m "Только руками не трогать!"
     img 12095
@@ -337,7 +373,9 @@ label cit7_naked_boobs_variant1:
     w
     img 12100
     w
+    music Groove2_85
     img 12101
+    with fade
     citizen7 "Да, я это чувствую! Но это немного не то!"
     img 12102
     m "В смысле?"
@@ -346,42 +384,57 @@ label cit7_naked_boobs_variant1:
     img 12104
     menu:
         "Хорошо.":
+            music Loved_Up
             img 12105
+            with fade
             m "Хорошо."
             # моника позирует как на камеру
             img 12106
+            with diss
             w
             img 12107
+            with diss
             w
             img 12108
+            with diss
             citizen7 "Ох, какая красота!"
             # моника позирует как на камеру еще
             img 12109
+            with diss
             w
             img 12110
+            with diss
             w
             img 12111
+            with diss
             citizen7 "Картина! Да, я знаю, что я напишу! Или нет..."
             pass
         "Не собираюсь!":
             img 12112
+            with fade
             m "Я не собираюсь этого делать!"
             img 12113
             citizen7 "Ооо... Почему ты так жестока со мной?"
             img 12114
+            with diss
             m "Не правда"
             img 12115
             citizen7 "Конечно правда, ты лишаешь меня вдохновения..."
             pass
+    music Groove2_85
     img 12116
+    with fade
     m "Ну ладно, хватит."
     img 12117
+    with diss
     citizen7 "Ох, надеюсь этого хватит для моего очередного творения!"
     return True
 
 # вариант 2
 label cit7_naked_boobs_variant2:
+    music Groove2_85
     img 12118
+    with fade
     citizen7 "Мне необходимо вдохновение! Обнажи свои очаровательные груди!"
     img 12119
     mt "А по твоим фразам этого не скажешь..."
@@ -394,19 +447,26 @@ label cit7_naked_boobs_variant2:
             m "Хватит и того, что ты уже видел!"
             return False
     img 12122
+    with fade
     m "Отвернись!"
     # отворачивается, моника переодевается...
     img 12123
     w
+    sound snd_fabric1
     img 12124
+    with fadelong
     w
+    music Loved_Up
     img 12125
+    with diss
     m "Можешь повернуться."
     m "Только руками не трогать!"
     img 12126
+    with diss
     citizen7 "Конечно!"
     # сиськи
     img 12127
+    with diss
     w
     img 12128
     w
@@ -427,54 +487,75 @@ label cit7_naked_boobs_variant2:
     w
     img 12136
     w
+    music Groove2_85
     img 12137
+    with fade
     citizen7 "Мне нужно больше!"
     citizen7 "Представь себе, что ты модель! Попозируй для меня!"
     img 12138
+    with diss
     menu:
         "Хорошо.":
+            music Loved_Up
             img 12139
+            with fade
             m "Хорошо."
             # моника позирует как на камеру
             img 12140
+            with diss
             w
             img 12141
+            with diss
             w
             img 12142
+            with diss
             w
             img 12143
+            with diss
             citizen7 "Ох, какая красота!"
             # моника позирует как на камеру еще
             img 12144
+            with diss
             w
             img 12145
+            with diss
             w
             img 12146
+            with diss
             w
+            music Groove2_85
             img 12147
+            with fade
             citizen7 "Да, это прекрасно, но это не совсем то. Давай я тебе помогу!"
             img 12148
             menu:
                 "Хорошо.":
                     img 12149
+                    with fade
                     citizen7 "Положи обе руки за голову."
                     # кладет
                     img 12150
+                    with diss
                     w
                     img 12151
+                    with diss
                     citizen7 "А теперь присядь так, чтобы я думал, что ты на лошади!"
                     # здесь можно добавить аля мысль художника как он представляет монику
                     # расскажу, если не очень понятно
                     img 12152
+                    with diss
                     mt "Что же это будет..."
                     mt "Боже!"
+                    music Power_Bots_Loop
                     img 12153
+                    with fade
                     m "Да ни за что! Извращенец!"
                     img 12154
                     citizen7 "Ты ничего не понимаешь в искусстве..."
                     pass
                 "Нет, спасибо.":
                     img 12155
+                    with fade
                     m "И так достаточно."
                     img 12156
                     citizen7 "Сразу видно, ты ничего не понимаешь в искусстве..."
@@ -482,15 +563,19 @@ label cit7_naked_boobs_variant2:
             pass
         "Не собираюсь!":
             img 12157
+            with fade
             m "Я не собираюсь этого делать!"
             img 12158
             citizen7 "Ооо... Почему ты так жестока со мной?"
             img 12159
+            with diss
             m "Не правда"
             img 12160
             citizen7 "Конечно правда, ты лишаешь меня вдохновения..."
             pass
+    music Groove2_85
     img 12161
+    with fade
     m "Ну ладно, хватит."
     img 12162
     citizen7 "Ох, надеюсь этого хватит для моего очередного творения!"

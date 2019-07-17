@@ -1,3 +1,5 @@
+default citizen8BoobsNakesShowedLastDay = 0
+default citizen8BoobsNakesShowedCount = -1
 default citizen8_varA = 1
 
 label citizen8_dialogue:
@@ -189,9 +191,29 @@ label citizen8_dialogue_pilon:
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             $ store_citizen_action("PylonDanceCloth", 1)
             jump citizen8_dialogue_pilon_loop8
-        "Голые сиськи. (disabled)" if pylonpart4startsCompleted == False and 1==2:
+        "Голые сиськи. (disabled)" if (pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen8BoobsNakesShowedLastDay == day:
             pass
-        "Голые сиськи." if pylonpart4startsCompleted == True:
+        "Голые сиськи." if pylonpart4startsCompleted == True and citizen8BoobsNakesShowedLastDay != day:
+            $ store_music()
+            if citizen8BoobsNakesShowedCount == -1:
+                call cit8_naked_boobs_1st()
+                if _return != False:
+                    $ citizen8BoobsNakesShowedCount += 1
+            else:
+                if citizen8BoobsNakesShowedCount%2 == 0:
+                    call cit8_naked_boobs_variant1()
+                if citizen8BoobsNakesShowedCount%2 == 1:
+                    call cit8_naked_boobs_variant2()
+                $ citizen8BoobsNakesShowedCount += 1
+            if _return != False:
+                $ citizen8BoobsNakesShowedLastDay = day
+                $ showedNakedBoobs = True
+                $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+            $ restore_music()
+            jump citizen8_dialogue_pilon_loop8
+
+
+
             call pylonController(4, 1) from _call_pylonController_86
             citizen8 "Покажи мне грудь, только теперь без одежды."
             mt "Он и вправду говорит как бизнесмен, заключающий сделку..."
@@ -239,7 +261,9 @@ label citizen8_dialogue_pilon:
 
 # первый раз
 label cit8_naked_boobs_1st:
+    music Groove2_85
     img 12163
+    with fade
     citizen8 "Предлагаю вывести нашу сделку на новый уровень!"
     img 12164
     m "Что ты имеешь ввиду?"
@@ -255,12 +279,17 @@ label cit8_naked_boobs_1st:
             m "Хватит и того, что ты уже видел!"
             return False
     img 12168
+    with fade
     m "Хорошо."
     m "Отвернись!"
+    sound snd_fabric1
     img 12169
+    with fadelong
     citizen8 "Хм...На первый раз отвернусь..."
     # отворачивается, моника переодевается...
+    music Loved_Up
     img 12170
+    with diss
     m "Можешь повернуться."
     m "Но руками не трогать!"
     # сиськи
@@ -283,25 +312,32 @@ label cit8_naked_boobs_1st:
     w
     img 12178
     w
+    music Groove2_85
     img 12179
+    with fade
     citizen8 "На сколько ты оцениваешь свою грудь?!"
     img 12180
+    with diss
     menu:
         "1000 $!":
             img 12181
+            with fade
             m "1000 $!"
             img 12182
             citizen8 "Да, она бы могла столько стоить, но не здесь!"
             citizen8 "Учитывая обстоятельства, свой дополнительный доллар ты заработала."
+            $ add_money(1.0)
             pass
         "Ни на сколько!":
             img 12183
+            with fade
             m "Ни на сколько!"
             img 12184
             citizen8 "Гордость? Мне нравится."
             citizen8 "Возможно скоро ты узнаешь, что у всего есть цена."
             pass
     img 12185
+    with fade
     citizen8 "Ладно, сделка состоялась. Можешь одеваться, если, конечно, хочешь."
     img 12186
     mt "!!!"
@@ -310,7 +346,9 @@ label cit8_naked_boobs_1st:
 
 # вариант 1
 label cit8_naked_boobs_variant1:
+    music Groove2_85
     img 12187
+    with fade
     citizen8 "Ну что, продолжим! Я уже даже подзабыл какая у тебя грудь."
     citizen8 "Покажи мне ее!"
     img 12188
@@ -322,12 +360,16 @@ label cit8_naked_boobs_variant1:
             m "Хватит и того, что ты уже видел!"
             return False
     img 12190
+    with fade
     m "Хорошо."
     m "Но руками не трогать!"
     # сиськи
+    music Loved_Up
     img 12191
+    with fadelong
     w
     img 12192
+    with diss
     w
     img 12193
     citizen8 "Красота!"
@@ -346,15 +388,22 @@ label cit8_naked_boobs_variant1:
     w
     img 12199
     w
+    music Groove2_85
     img 12200
+    with fade
     citizen8 "Вернемся к сделке. Покажи мне язычок."
     img 12201
+    with diss
     menu:
         "Хорошо.":
             # моника высовывает язык
+            music Loved_Up
             img 12202
+            with diss
             w
+            music Groove2_85
             img 12203
+            with fade
             citizen8 "Нет, это не похоже на честную сделку."
             citizen8 "Я же вижу, что ты халтуришь."
             citizen8 "Открой рот шире и высунь язык как следует!"
@@ -362,13 +411,17 @@ label cit8_naked_boobs_variant1:
             menu:
                 "Хорошо.":
                     # моника высовывает язык большие
+                    music Loved_Up
                     img 12205
+                    with diss
                     w
                     img 12206
                     citizen8 "Вот, теперь я вижу, что ты стараешься."
+                    $ add_money(1.0)
                     pass
                 "Это максимум!":
                     img 12207
+                    with fade
                     m "Я больше не могу!"
                     img 12208
                     citizen8 "Обманщица. Ну да ладно. Но я это запомню..."
@@ -376,12 +429,14 @@ label cit8_naked_boobs_variant1:
             pass
         "Ну уж нет!":
             img 12209
+            with fade
             m "Ну уж нет!"
             img 12210
             citizen8 "Странно, раньше ты была чуть сговорчивее."
             citizen8 "Ну как хочешь..."
             pass
     img 12211
+    with fade
     citizen8 "Ладно, сделка состоялась. Можешь одеваться, если, конечно, хочешь."
     img 12212
     mt "!!!"
@@ -389,7 +444,9 @@ label cit8_naked_boobs_variant1:
 
 # вариант 2
 label cit8_naked_boobs_variant2:
+    music Groove2_85
     img 12213
+    with fade
     citizen8 "Давай еще разок взглянем на твою грудь."
     img 12214
     menu:
@@ -400,6 +457,7 @@ label cit8_naked_boobs_variant2:
             m "Хватит и того, что ты уже видел!"
             return False
     img 12216
+    with fade
     m "Хорошо."
     m "Отвернись!"
     img 12217
@@ -409,28 +467,40 @@ label cit8_naked_boobs_variant2:
     img 12219
     citizen8 "Переодевайся, а я посмотрю."
     img 12220
+    with diss
     mt "Снимать одежду, когда на меня смотрит незнакомый мужчина..."
     mt "Хотя какой он мужчина... Но все равно... Стоит ли мне это делать?"
     img 12221
+    with diss
     menu:
         "Хорошо.":
             img 12222
+            with fade
             m "Ну... Ладно."
             # моника переодевается...
+            sound snd_fabric1
+            music Loved_Up
             img 12223
+            with diss
             w
             img 12224
+            with diss
             citizen8 "А знаешь, это в каком то смысле лучше, чем просто смотреть!"
             # моника переодевается...
             img 12225
+            with diss
             w
             img 12226
+            with diss
             citizen8 "Скажи, тебя это заводит? Хотя что за вопросы, я знаю, что да."
+            sound snd_fabric1
             img 12227
+            with fadelong
             mt "Ничего ты не знаешь..."
             pass
         "Нет, я так не могу!":
             img 12228
+            with fade
             m "Нет, я так не могу!"
             img 12229
             citizen8 "Хорошо, тогда эта часть сделки анулируется."
@@ -442,21 +512,27 @@ label cit8_naked_boobs_variant2:
     w
     img 12232
     w
+    music Groove2_85
     img 12233
+    with fade
     citizen8 "Постой."
     img 12234
     m "Что?"
     # моника просто стоит с голыми сиськами
     img 12235
+    with diss
     w
     img 12236
     citizen8 "Если не знать меры, можно превратиться в животное."
     citizen8 "Не подумай ничего плохого, твои сиськи прекрасны."
     img 12237
+    with diss
     mt "Он что, меня отшивает?!"
     img 12238
+    with fade
     citizen8 "Я уже посмотрел как ты переодеваешься и пока этого хватит."
     citizen8 "Но ты выполнила свою часть сделки отлично!"
     img 12239
+    with diss
     mt "Ненормальный тип..."
     return True

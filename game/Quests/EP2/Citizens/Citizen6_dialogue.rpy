@@ -1,3 +1,5 @@
+default citizen6BoobsNakesShowedLastDay = 0
+default citizen6BoobsNakesShowedCount = -1
 default questOffendMonicaFlyersCitizen6ThanksGiven = False
 default questWhorePlaceSearchingStage = 0
 
@@ -370,9 +372,29 @@ label citizen6_dialogue_pilon:
             $ add_corruption(monicaWhoringClothPylonDanceCorruptionProgress, "monicaWhoringClothPylonDanceCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             $ store_citizen_action("PylonDanceCloth", 1)
             jump citizen6_dialogue_pilon_loop6
-        "Голые сиськи. (disabled)" if pylonpart4startsCompleted == False and 1==2:
+        "Голые сиськи. (disabled)" if (pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen6BoobsNakesShowedLastDay == day:
             pass
-        "Голые сиськи." if pylonpart4startsCompleted == True:
+        "Голые сиськи." if pylonpart4startsCompleted == True and citizen6BoobsNakesShowedLastDay != day:
+            $ store_music()
+            if citizen6BoobsNakesShowedCount == -1:
+                call cit6_naked_boobs_1st()
+                if _return != False:
+                    $ citizen6BoobsNakesShowedCount += 1
+            else:
+                if citizen6BoobsNakesShowedCount%2 == 0:
+                    call cit6_naked_boobs_variant1()
+                if citizen6BoobsNakesShowedCount%2 == 1:
+                    call cit6_naked_boobs_variant2()
+                $ citizen6BoobsNakesShowedCount += 1
+            if _return != False:
+                $ citizen6BoobsNakesShowedLastDay = day
+                $ showedNakedBoobs = True
+                $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
+            $ restore_music()
+            jump citizen6_dialogue_pilon_loop6
+
+
+
             call pylonController(4, 1) from _call_pylonController_28
             citizen6 "Покажи мне грудь, только теперь без одежды."
             mt "Он и вправду говорит как бизнесмен, заключающий сделку..."
@@ -420,7 +442,9 @@ label citizen6_dialogue_pilon:
 
 # первый раз
 label cit6_naked_boobs_1st:
+    music Groove2_85
     img 11961
+    with fade
     citizen6 "Я никак не могу забыть нашу первую встречу..."
     img 11962
     mt "А вот я бы ее с радостью забыла..."
@@ -436,26 +460,32 @@ label cit6_naked_boobs_1st:
     citizen6 "Ну дак что, как насчет сисек?"
     img 11968
     menu:
-        "Почему бы и нет.":
+        "Мне нужны деньги...":
             pass
         "Хватит и того, что ты уже видел!":
             img 11969
             m "Хватит и того, что ты уже видел!"
             return False
     img 11970
+    with fade
     mt "Думаю, лучше это сделать, а то мало ли что..."
     img 11971
     m "Отвернись!"
     img 11972
     citizen6 "Вот это другой разговор."
     # отворачивается, моника переодевается...
+    sound snd_fabric1
     img 11973
+    with fade
     w
+    music Loved_Up
     img 11974
+    with diss
     m "Можешь повернуться."
     m "Но руками не трогать!"
     # сиськи
     img 11975
+    with diss
     w
     img 11976
     w
@@ -465,6 +495,7 @@ label cit6_naked_boobs_1st:
     citizen6 "Ха! Вот это класс!"
     citizen6 "Я был бы готов каждый день давать тебе по 100 баксов, если бы ты так ходила!"
     img 11979
+    with diss
     mt "Не в этой жизни..."
     # сиськи еще
     img 11980
@@ -480,7 +511,10 @@ label cit6_naked_boobs_1st:
     w
     img 11985
     w
-    img 11986
+    music Groove2_85
+#    img 11986
+    img 11988
+    with fade
     m "Ну ладно, хватит с тебя."
     img 11987
     citizen6 "Слабовато, но ничего, хватит для первого раза."
@@ -491,7 +525,9 @@ label cit6_naked_boobs_1st:
 
 # вариант 1
 label cit6_naked_boobs_variant1:
+    music Groove2_85
     img 11989
+    with fade
     citizen6 "Я уже успел соскучиться по твоим сиськам!"
     img 11990
     mt "Да неужели..."
@@ -508,8 +544,12 @@ label cit6_naked_boobs_variant1:
 
     # отворачивается, моника переодевается...
     img 11994
+    with fade
     m "Хорошо"
+    sound snd_fabric1
+    music Loved_Up
     img 11995
+    with fade
     m "Только руками не трогать!"
     img 11996
     citizen6 "Ладно, ладно! Можно и не говорить об этом каждый раз!"
@@ -539,9 +579,11 @@ label cit6_naked_boobs_variant1:
     # сиськи еще
     img 12007
     w
-    img 1200
+    img 12008
     w
+    music Groove2_85
     img 12009
+    with fade
     citizen6 "Детка, ты готов отсосать за 20 баксов?"
     img 12010
     menu:
@@ -553,17 +595,21 @@ label cit6_naked_boobs_variant1:
             mt "Господи, что я говорю? Неужели я гототова сделать такое..."
             pass
         "Я тебе сейчас нос сломаю!":
+            music Power_Bots_Loop
             img 12013
+            with fade
             m "Я тебе сейчас нос сломаю!"
             img 12014
             citizen6 "Да ладно тебе, хочешь больше?"
             citizen6 "Хорошо, 23 бакса! Хорошая цена!"
             img 12015
+            with diss
             m "Еще слово и тебе конец!"
             img 12016
             citizen6 "Ладно, не кипятись! Так бы и сказала, что не хочешь..."
             pass
     img 12017
+    with fade
     m "Хватит с тебя."
     img 12018
     citizen6 "Да и пожалуйста, я и получше сиськи видел!"
@@ -571,7 +617,9 @@ label cit6_naked_boobs_variant1:
 
 # вариант 2
 label cit6_naked_boobs_variant2:
+    music Groove2_85
     img 12019
+    with fade
     citizen6 "Давай глянем на твои сиськи!"
     img 12020
     menu:
@@ -582,13 +630,18 @@ label cit6_naked_boobs_variant2:
             m "Хватит и того, что ты уже видел!"
             return False
     img 12022
+    with fade
     m "Отвернись!"
     # отворачивается, моника переодевается...
+    sound snd_fabric1
     img 12023
     w
     img 12024
+    with diss
     w
+    music Loved_Up
     img 12025
+    with diss
     m "Можешь повернуться."
     m "Только руками не трогать!"
     img 12026
@@ -619,6 +672,7 @@ label cit6_naked_boobs_variant2:
     w
     img 12037
     w
+    music Groove2_85
     img 12038
     citizen6 "Знаешь, я хочу, чтобы ты прошлась немного."
     img 12039
@@ -626,6 +680,7 @@ label cit6_naked_boobs_variant2:
     img 12040
     citizen6 "А что не понятно то? Пилон стоит у стены, пройдись до другой стены и обратно."
     img 12041
+    with diss
     m "Зачем это вообще?"
     img 12042
     citizen6 "Что за вопросы? Я плачу, ты делаешь."
@@ -634,26 +689,39 @@ label cit6_naked_boobs_variant2:
     img 12044
     menu:
         "Хорошо.":
+            music Loved_Up
             img 12045
+            with fade
             m "Хорошо."
             # моника идет от стенки до стенки с голой грудью
+            sound man_steps
             img 12046
+            with diss
             w
+            sound man_steps
             img 12047
+            with diss
             w
+            sound man_steps
             img 12048
+            with diss
             w
+            sound man_steps
             img 12049
+            with diss
             w
             img 12050
-            pass
+            with fade
+            w
         "Не хочу.":
             img 12051
+            with fade
             m "Не хочу! Я не собираюсь этого делать!"
             img 12052
             citizen6 "Ну и черт с тобой!"
             pass
     img 12053
+    with fade
     m "Ладно, хватит с тебя того, что ты уже видел."
     img 12054
     citizen6 "Да и пожалуйста, я и получше сиськи видел!"
