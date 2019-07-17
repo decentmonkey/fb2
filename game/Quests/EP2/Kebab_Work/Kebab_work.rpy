@@ -135,11 +135,11 @@ label kebab_work_end:
     $ cloth = cloth_last
     $ map_enabled = last_map_enabled
     $ monicaKebabWorkAmount +=1
+    $ hudDaySkipToEveningEnabled = True
     if kebabOffendQuestJustCompleted == True:
         $ kebabOffendQuestJustCompleted = False
         call change_scene("hostel_street2") from _call_change_scene_184
         return
-    $ hudDaySkipToEveningEnabled = True
     $ changeDayTime("evening")
     call refresh_scene_fade() from _call_refresh_scene_fade_19
     return
