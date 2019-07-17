@@ -853,18 +853,18 @@ translate english cit5_naked_boobs_1st_39574ef7:
 
     # m "Думаю, ты уже их видел."
     # citizen5 "Да, конечно, но было бы прекрасно их оголить. У мистера есть деньги! Много денег!"
-    m "Думаю, ты уже их видел."
-    citizen5 "Да, конечно, но было бы прекрасно их оголить. У мистера есть деньги! Много денег!"
+    m "I think you've already seen it."
+    citizen5 "Yes, of course. But I'd prefer to see it bare.I have a lot of money! A lot of money!"
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:466
 translate english cit5_naked_boobs_variant2_eeb57eb3:
 
     # citizen5 "Да, да, готов! Но у мистера небольшое условие."
-    citizen5 "Да, да, готов! Но у мистера небольшое условие."
+    citizen5 "Yes, yes, ready! But mister has one little condition."
 
 # game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:469
 translate english cit5_naked_boobs_variant2_9416d522:
 
     # citizen5 "Мистер хочет увидеть на тебе это."
-    citizen5 "Мистер хочет увидеть на тебе это."
+    citizen5 "Mister wants to see you in this."
 

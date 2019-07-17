@@ -50,5 +50,5 @@ translate german bardieProgressLevelUp1_c3cd11eb:
 translate german bardieInteract1_ddc3f16d:
 
     # mt "Надо подождать вечера и придти к нему в комнату."
-    mt "Надо подождать вечера и придти к нему в комнату."
+    mt "Wir müssen auf den Abend warten und dann in sein Zimmer kommen."
 

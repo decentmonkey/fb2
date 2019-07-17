@@ -4,5 +4,5 @@ translate german strings:
 
     # Rooms/Monica_Office/working_office2.rpy:29
     old "В КАБИНЕТ"
-    new ""
+    new "Im Büro"
 

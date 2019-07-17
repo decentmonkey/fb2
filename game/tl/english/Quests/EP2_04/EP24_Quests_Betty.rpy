@@ -27,5 +27,5 @@ translate english strings:
 
     # Quests/EP2_04/EP24_Quests_Betty.rpy:63
     old "Миссис Робертс. Барди зовет Вас в свою комнату..."
-    new ""
+    new "Mrs. Roberts. Bardi is calling you to his room..."
 

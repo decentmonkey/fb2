@@ -4,5 +4,5 @@ translate english strings:
 
     # Rooms/Monica_Office/working_office2.rpy:29
     old "В КАБИНЕТ"
-    new ""
+    new "Into the office"
 

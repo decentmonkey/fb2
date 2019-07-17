@@ -258,6 +258,8 @@ label citizen6_dialogue_after_offend3: #Моника нашла место
     return
 
 label citizen6_dialogue_after_offend4: #Моника думает после встречи с citizen6
+    $ hudDaySkipToEveningEnabled = True
+
     mt "Боже! Какой ужас!"
     "Как я могла опуститься до такого..."
     "..."

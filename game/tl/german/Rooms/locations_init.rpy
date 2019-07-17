@@ -184,13 +184,13 @@ translate german strings:
 
     # Rooms/locations_init.rpy:145
     old "ОФИС"
-    new ""
+    new "Büros"
 
     # Rooms/locations_init.rpy:154
     old "Hotel Reception"
-    new ""
+    new "Hotelrezeption"
 
     # Rooms/locations_init.rpy:155
     old "Restaurant"
-    new ""
+    new "Restaurant"
 

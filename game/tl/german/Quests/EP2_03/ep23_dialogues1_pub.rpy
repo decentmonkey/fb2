@@ -1512,78 +1512,78 @@ translate german ep23_dialogues1_6_dbc9525b:
 
     # mt "Я уже ела сегодня."
     # mt "Ни к чему тратить деньги..."
-    mt "Я уже ела сегодня."
-    mt "Ни к чему тратить деньги..."
+    mt "Ich habe heute schon gegessen."
+    mt "Kein Grund, Geld zu verschwenden..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:590
 translate german ep23_dialogues1_6_da4ae046:
 
     # ashley "Привет, [monica_pub_name]!"
-    ashley "Привет, [monica_pub_name]!"
+    ashley "Hallo, [monica_pub_name]!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:593
 translate german ep23_dialogues1_6_5976537f:
 
     # ashley "Ты пришла, чтобы мыть посуду?"
-    ashley "Ты пришла, чтобы мыть посуду?"
+    ashley "Kommst du, um abzuspülen?"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:596
 translate german ep23_dialogues1_6_72a47e28:
 
     # m "Нет, я хочу заказать еду!"
-    m "Нет, я хочу заказать еду!"
+    m "Nein, ich will etwas essen!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:599
 translate german ep23_dialogues1_6_7da9e47d:
 
     # ashley "Правда?"
     # ashley "И что же ты хочешь заказать?"
-    ashley "Правда?"
-    ashley "И что же ты хочешь заказать?"
+    ashley "Wirklich?"
+    ashley "Und was?"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:603
 translate german ep23_dialogues1_6_25936553:
 
     # m "Я хочу заказать..."
-    m "Я хочу заказать..."
+    m "Ich will..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:612
 translate german ep23_dialogues1_6_bd1d9be3:
 
     # m "Я хочу заказать..."
     # m "Shiny Бургер."
-    m "Я хочу заказать..."
-    m "Shiny Бургер."
+    m "Ich will..."
+    m "Shiny Burger"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:619
 translate german ep23_dialogues1_6_4cdbf8f3:
 
     # m "Я хочу заказать..."
     # m "Спагетти."
-    m "Я хочу заказать..."
-    m "Спагетти."
+    m "Ich will..."
+    m "Spagetti."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:626
 translate german ep23_dialogues1_6_fd6f5d1e:
 
     # m "Я хочу заказать..."
     # m "Суп харчо."
-    m "Я хочу заказать..."
-    m "Суп харчо."
+    m "Ich will..."
+    m "Suppe"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:632
 translate german ep23_dialogues1_6_f9bc5e47:
 
     # m "Я передумала."
-    m "Я передумала."
+    m "Ich überdenke."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:635
 translate german ep23_dialogues1_6_8bda2919:
 
     # ashley "Ах, [monica_pub_name], у тебя нет денег!"
     # ashley "Но ведь ты посудомойка. Ты всегда можешь помыть посуду!"
-    ashley "Ах, [monica_pub_name], у тебя нет денег!"
-    ashley "Но ведь ты посудомойка. Ты всегда можешь помыть посуду!"
+    ashley "Аh, [monica_pub_name], du hast nicht genug Geld!"
+    ashley "Aber als Tellerwäscherin, kannst du das immer machen!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:639
 translate german ep23_dialogues1_6_0a5616b8:
@@ -1595,29 +1595,29 @@ translate german ep23_dialogues1_6_0a5616b8:
 translate german ep23_dialogues1_6_7838405b:
 
     # joe "А выпивку?"
-    joe "А выпивку?"
+    joe "Getränke?"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:648
 translate german ep23_dialogues1_6_f7df0163:
 
     # m "Спасибо, не надо!"
-    m "Спасибо, не надо!"
+    m "Danke, nein!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:651
 translate german ep23_dialogues1_6_0f5e0ae9:
 
     # ashley "Хорошо, присаживайся за стол."
     # ashley "Я сейчас принесу."
-    ashley "Хорошо, присаживайся за стол."
-    ashley "Я сейчас принесу."
+    ashley "Gut, nimm Platz."
+    ashley "Ich bringe es in ein paar Minuten."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:671
 translate german ep23_dialogues1_6_9b3c6a59:
 
     # ashley "Но ты могла бы не тратить деньги."
     # ashley "Эту еду легко заработать посудомойкой."
-    ashley "Но ты могла бы не тратить деньги."
-    ashley "Эту еду легко заработать посудомойкой."
+    ashley "Aber du kannst Geld sparen."
+    ashley "Und das Essen durch Arbeit verdienen."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:676
 translate german ep23_dialogues1_6_0a5616b8_1:
@@ -1630,70 +1630,70 @@ translate german ep23_dialogues1_6_9072cfe4:
 
     # ashley "К тому же, я уже привыкла что ты моешь посуду."
     # ashley "Мне стало как-то лень заниматься этим."
-    ashley "К тому же, я уже привыкла что ты моешь посуду."
-    ashley "Мне стало как-то лень заниматься этим."
+    ashley "Ich habe mich an dich schon gewohnt."
+    ashley "Ich bin schon zu faul, es selbst zu tun."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:693
 translate german ep23_dialogues1_6_27943f34:
 
     # m "Спасибо, Эшли."
     # m "Сегодня я не хочу... мыть посуду..."
-    m "Спасибо, Эшли."
-    m "Сегодня я не хочу... мыть посуду..."
+    m "Danke, Ashley."
+    m "Ich will das... heute nicht machen..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:698
 translate german ep23_dialogues1_6_7fec2a13:
 
     # ashley "Хорошо, [monica_pub_name], если надумаешь, приходи..."
-    ashley "Хорошо, [monica_pub_name], если надумаешь, приходи..."
+    ashley "Gut, [monica_pub_name], du kannst kommen, wenn du es dir anders überlegt hast..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:711
 translate german ep23_dialogues1_6_5f13042f:
 
     # mt "Эшли готовит отвратительно."
     # mt "Это место - действительно дыра."
-    mt "Эшли готовит отвратительно."
-    mt "Это место - действительно дыра."
+    mt "Ashleys Kochkünste sind... jedenfalls keine Künste."
+    mt "Dieser Ort... wirklich ein Loch."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:717
 translate german ep23_dialogues1_6_9d6a5e11:
 
     # mt "Но это нормальная еда, а не пирожные с заправки..."
-    mt "Но это нормальная еда, а не пирожные с заправки..."
+    mt "Aber es ist bodenständiges Essen, keine Törtchen aus der Tanke..."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:723
 translate german ep23_dialogues1_6a_0ef77600:
 
     # mt "Ненавижу!"
     # mt "Я не посудомойка! Я - Моника Бакфетт, королева!"
-    mt "Ненавижу!"
-    mt "Я не посудомойка! Я - Моника Бакфетт, королева!"
+    mt "ICH HASSE IHN!"
+    mt "Ich bin kein Tellerwäscher! Ich bin die Königin, Monica Buckfett!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:728
 translate german ep23_dialogues1_6b_50cd8115:
 
     # mt "Хотя пирожные, пожалуй, повкуснее, чем помои в этой блестящей дыре!"
-    mt "Хотя пирожные, пожалуй, повкуснее, чем помои в этой блестящей дыре!"
+    mt "Obwohl, Küchlein schmecken besser als dieser Fraß hier!"
 
 translate german strings:
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:423
     old "Заказать еду."
-    new ""
+    new "Bestelle Essen"
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:607
     old "Shiny Бургер."
-    new ""
+    new "Shiny Burger"
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:607
     old "Спагетти."
-    new ""
+    new "Spagetti."
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:607
     old "Суп харчо."
-    new ""
+    new "Suppe"
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:679
     old "Моника часто мыла посуду."
-    new ""
+    new "Monica hat das Geschirr oft gespült."
 

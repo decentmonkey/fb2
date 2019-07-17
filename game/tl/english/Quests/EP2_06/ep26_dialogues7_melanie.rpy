@@ -22,18 +22,18 @@ translate english ep26_dialogues7_melanie1_87f7800f:
     # melanie "Миссис Бакфетт, я очень занята. Пожалуйста, не отвлекайте меня..."
     # mt "Она не хочет говорить про Маркуса..."
     # mt "Она что, обманула меня и не ходила к нему?!"
-    m "Melany, you are back!"
+    m "Melanie, you are back!"
     m "Where have you been for so long? What happened?"
     melanie "Oh, it's you, Mrs Buckfett.."
     m "Yes, Melanie. It's ME!"
-    m "I was waiting for you this whole time!"
+    m "I was waiting for you the whole time!"
     m "Why were you absent for so long?!"
-    m "I was afraid that Marcus got to you!"
+    m "I was afraid that Marcus got you!"
     melanie "I don't understand what are you talking about, Mrs Buckfett."
     m "What is a meaning of this, Melanie?"
     m "I'm talking about your visit to Marcus!"
-    m "I was supposed to visit him and solve my problem!"
-    m "But instead, you went missing!"
+    m "You were supposed to visit him and solve my problem!"
+    m "But instead, you were gone!"
     melanie "Mam, I don’t understand who or what you are talking about..."
     m "Are you playing with me?"
     m "You know very well that I'm talking about Marcus!"
@@ -66,7 +66,7 @@ translate english strings:
 
     # Quests/EP2_06/ep26_dialogues7_melanie.rpy:32
     old "Мелани, ты вернулась?"
-    new "Melany, you are back!"
+    new "Melanie, you are back!"
 
     # Quests/EP2_06/ep26_dialogues7_melanie.rpy:32
     old "Посмотреть на Мелани."
@@ -82,7 +82,7 @@ translate english strings:
 translate english ep26_dialogues7_melanie1_18a99bab:
 
     # m "Мелани, ты вернулась?"
-    m "Melany, you are back!"
+    m "Melanie, you are back!"
 
 # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:16
 translate english ep26_dialogues7_melanie1_b2d496b5:
@@ -102,7 +102,7 @@ translate english ep26_dialogues7_melanie1_f6dde04b:
     # m "Да, Мелани, это Я!"
     # m "И я ждала тебя все это время!"
     m "Yes, Melanie. It's ME!"
-    m "I was waiting for you this whole time!"
+    m "I was waiting for you the whole time!"
 
 # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:28
 translate english ep26_dialogues7_melanie1_6b9098b8:
@@ -110,7 +110,7 @@ translate english ep26_dialogues7_melanie1_6b9098b8:
     # m "Почему тебя так долго не было?!"
     # m "Я уже думала что Маркус забрал тебя!"
     m "Why were you absent for so long?!"
-    m "I was afraid that Marcus got to you!"
+    m "I was afraid that Marcus got you!"
 
 # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:33
 translate english ep26_dialogues7_melanie1_374bcf7c:
@@ -131,8 +131,8 @@ translate english ep26_dialogues7_melanie1_d4b6780c:
 
     # m "Ты должна была решить с ним вопрос по поводу меня!"
     # m "Но, вместо этого, ты куда-то пропала!"
-    m "I was supposed to visit him and solve my problem!"
-    m "But instead, you went missing!"
+    m "You were supposed to visit him and solve my problem!"
+    m "But instead, you were gone!"
 
 # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:46
 translate english ep26_dialogues7_melanie1_fc033d47:
@@ -172,7 +172,7 @@ translate english ep26_dialogues7_melanie1_52b181d2:
 translate english ep26_dialogues7_melanie1_1e691b24:
 
     # m "У меня странное чувство..."
-    m "У меня странное чувство..."
+    m "I have a strange feeling..."
 
 # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:88
 translate english ep26_dialogues7_melanie1_f925cc74:
@@ -220,5 +220,5 @@ translate english strings:
 
     # Quests/EP2_06/ep26_dialogues7_melanie.rpy:120
     old "Узнайте что случилось с Мелани в продолжении игры..."
-    new ""
+    new "Find out what happened with Melanie in the next updates..."
 

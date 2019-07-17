@@ -32,5 +32,5 @@ translate german strings:
 
     # Quests/EP2_04/EP24_Quests_Betty.rpy:63
     old "Миссис Робертс. Барди зовет Вас в свою комнату..."
-    new ""
+    new "Frau Roberts, Bardie möchte sie in seinem Zimmer sprechen..."
 

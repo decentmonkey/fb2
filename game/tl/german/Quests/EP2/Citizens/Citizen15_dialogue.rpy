@@ -1047,13 +1047,13 @@ translate german cit15_naked_boobs_1st_49adc490:
 translate german cit15_naked_boobs_1st_be1f6264:
 
     # citizen15 "Вот так новость! Ну ничего, скоро сама попросишь меня их поторгать!"
-    citizen15 "Вот так новость! Ну ничего, скоро сама попросишь меня их поторгать!"
+    citizen15 "Das sind gute Neuigkeiten! Egal, bald wirst du mich darum bitten, das zu tun!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:232
 translate german cit15_naked_boobs_1st_8a286270:
 
     # mt "Никогда!"
-    mt "Никогда!"
+    mt "Niemals!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:239
 translate german cit15_naked_boobs_1st_598f1be0:
@@ -1091,7 +1091,7 @@ translate german cit15_naked_boobs_1st_b1eba81f:
 translate german cit15_naked_boobs_1st_25f74e61:
 
     # citizen15 "А что не так? На правду не обижаются..."
-    citizen15 "А что не так? На правду не обижаются..."
+    citizen15 "Was? Fühle dich von der Wahrheit doch nicht angegriffen..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:262
 translate german cit15_naked_boobs_1st_1bcfdef1:
@@ -1183,7 +1183,7 @@ translate german cit15_naked_boobs_variant1_2bdd42bc:
 translate german cit15_naked_boobs_variant1_f648074c:
 
     # mt "Что? Да как ты смеешь такое говорить!? Я Моника Бакфет!! А ты ничтожество, проживающее в помойке!!"
-    mt "Что? Да как ты смеешь такое говорить!? Я Моника Бакфет!! А ты ничтожество, проживающее в помойке!!"
+    mt "Was? Wie kannst du es wagen? Ich bin Monica Buckfett!!! Du bist ein Niemand, der im Müll lebt."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:331
 translate german cit15_naked_boobs_variant1_6e9ddac5:
@@ -1303,11 +1303,11 @@ translate german strings:
 translate german cit15_naked_boobs_variant1_d1a206a7:
 
     # m "Можешь поворачиваться!"
-    m "Можешь поворачиваться!"
+    m "Du kannst wieder herschauen."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:343
 translate german cit15_naked_boobs_variant1_7a6551c3:
 
     # citizen15 "Как скажешь, детка."
-    citizen15 "Как скажешь, детка."
+    citizen15 "Wie du meinst, Babe!"
 

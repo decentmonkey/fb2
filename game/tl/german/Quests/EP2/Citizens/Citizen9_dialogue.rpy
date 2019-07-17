@@ -848,7 +848,7 @@ translate german cit9_naked_boobs_variant1_de8e7211:
 
     # citizen9 "Какая же ты некультурная. Нужно отвечать 'Давай!', а ты молчишь..."
     # citizen9 "Ну дак что, глянем на твоих подружек еще разок?"
-    citizen9 "Какая же ты некультурная. Нужно отвечать 'Давай!', а ты молчишь..."
+    citizen9 "Du bist so unhöflich! Du musst 'ja' sagen, nicht schweigen..."
     citizen9 "Also, zeigst du die Beiden nochmal oder nicht?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:361
@@ -1047,17 +1047,17 @@ translate german cit9_naked_boobs_variant2_5d2517cc:
 translate german cit9_naked_boobs_variant1_74967fb9:
 
     # citizen9 "Йо, дамочка, так дела не делаются."
-    citizen9 "Йо, дамочка, так дела не делаются."
+    citizen9 "So läuft das nicht."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:449
 translate german cit9_naked_boobs_variant1_e6f2527f:
 
     # citizen9 "Ладно, вот твой доллар, все путем да?"
-    citizen9 "Ладно, вот твой доллар, все путем да?"
+    citizen9 "Gut, hier ist ein Doller, alles gut?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:598
 translate german citizen9_comment1_f4e1f245:
 
     # mt "Мерзавец!"
-    mt "Мерзавец!"
+    mt "Bastard!"
 

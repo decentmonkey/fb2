@@ -33,7 +33,7 @@ translate english worker3_dialogue_office_4e7cd48f:
     m "You can solve this problem easily!"
     m "Open the windows!"
     w3 "Yes, but it's not exactly..."
-    m "Excelent, now get back to work!"
+    m "Excellent, now get back to work!"
     mt "Useless slackers. Always making demands..."
 
 # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:24
@@ -112,7 +112,7 @@ translate english worker3_dialogue_office_8e3c5dc4:
 translate english worker3_dialogue_office_bfb6be2f:
 
     # m "Отлично, а теперь иди и продолжай работать."
-    m "Excelent, now get back to work!"
+    m "Excellent, now get back to work!"
 
 # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:54
 translate english worker3_dialogue_office_0bcf8d50:

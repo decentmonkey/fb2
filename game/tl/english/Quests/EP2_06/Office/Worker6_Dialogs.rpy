@@ -7,8 +7,8 @@ translate english worker6_dialogue_workplace_b3471ff0:
     # w6 "Ничего не делают, только сидят в своем интернете."
     # w6 "А как надо сделать какой-то сложный отчет дак Грета, сделай пожалуйста..."
     w6 "I'm so tired of these ambitios upstart newbies!"
-    w6 "They do nothin and just browse the internet!"
-    w6 "And if they need to do something complicated they just ask Gretha to do it!"
+    w6 "They do nothing and just browse the internet!"
+    w6 "And if they need to do something complicated they just ask Greta to do it!"
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:11
 translate english worker6_dialogue_office_f0a01fe2:
@@ -31,7 +31,7 @@ translate english worker6_dialogue_office_10bc4042:
     # w6 "Да, спасибо миссис Бакфет. Вот кстати отчет, который я сегодня сделала."
     # m "Спасибо, можешь положить на стол."
     m "Yes, come in."
-    w6 "Mrs. Buckfett, I'd like to talk about situation in our department."
+    w6 "Mrs. Buckfett, I'd like to talk about the situation in our department."
     w6 "You probably know already who does all the work here."
     w6 "And this John... I'm so tired of him!"
     w6 "With your managerial talents I think you understand who have to become new department head."
@@ -70,15 +70,15 @@ translate english worker6_dialogue_workplace_a1a9e3c6:
     # w6 "Как же достали эти амбициозные новички и карьеристы!"
     # w6 "Ничего не делают, только сидят в своем интернете."
     w6 "I'm so tired of these ambitios upstart newbies!"
-    w6 "They do nothin and just browse the internet!"
+    w6 "They do nothing and just browse the internet!"
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:21
 translate english worker6_dialogue_workplace_c1af418c:
 
     # w6 "А как надо сделать какой-то сложный отчет дак Грета, сделай пожалуйста..."
     # mt "Боже! Какое занудство!"
-    w6 "And if they need to do something complicated they just ask Gretha to do it!"
-    mt "Боже! Какое занудство!"
+    w6 "And if they need to do something complicated they just ask Greta to do it!"
+    mt "My god! What a tediousness!"
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:34
 translate english worker6_dialogue_office_97fb610b:
@@ -90,7 +90,7 @@ translate english worker6_dialogue_office_97fb610b:
 translate english worker6_dialogue_office_d605ed43:
 
     # w6 "Миссис Бакфетт, Я бы хотела поговорить о ситуации в нашем отделе."
-    w6 "Mrs. Buckfett, I'd like to talk about situation in our department."
+    w6 "Mrs. Buckfett, I'd like to talk about the situation in our department."
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:39
 translate english worker6_dialogue_office_f96c98a4:

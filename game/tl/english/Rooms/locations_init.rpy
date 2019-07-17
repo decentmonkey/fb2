@@ -184,13 +184,13 @@ translate english strings:
 
     # Rooms/locations_init.rpy:145
     old "ОФИС"
-    new ""
+    new "Office"
 
     # Rooms/locations_init.rpy:154
     old "Hotel Reception"
-    new ""
+    new "Hotel Reception"
 
     # Rooms/locations_init.rpy:155
     old "Restaurant"
-    new ""
+    new "Restaurant"
 

@@ -313,13 +313,13 @@ translate german strings:
 
     # Quests/Question_Helper_Info.rpy:161
     old "Барди шантажирует Бетти. Может быть я могу использовать это?"
-    new ""
+    new "Bardie erpresst Betty. Vielleicht kann ich das irgendwie nutzen?"
 
     # Quests/Question_Helper_Info.rpy:161
     old "Я могу питаться в доме. Если буду соблюдать условие..."
-    new ""
+    new "Ich kann hier essen, wenn ich mich an die Regeln halte..."
 
     # Quests/Question_Helper_Info.rpy:161
     old "Теперь я могу работать в офисе. Денег это не добавило, но я могу чувствовать себя Боссом снова..."
-    new ""
+    new "Ich kann wieder im Büro arbeiten. Es bringt mir zwar kein Geld, aber ich kann mich wieder als Chef fühlen..."
 

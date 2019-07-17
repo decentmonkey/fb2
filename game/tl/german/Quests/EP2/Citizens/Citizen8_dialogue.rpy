@@ -839,7 +839,7 @@ translate german cit8_naked_boobs_variant1_3d05d7ee:
 translate german cit8_naked_boobs_variant1_25b5a0ec:
 
     # citizen8 "Вернемся к сделке. Покажи мне язычок."
-    citizen8 "Вернемся к сделке. Покажи мне язычок."
+    citizen8 "Zurück zum Deal. Zeig mir deine Zunge."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:372
 translate german cit8_naked_boobs_variant1_59c8aeaf:
@@ -987,11 +987,11 @@ translate german cit8_naked_boobs_variant2_fd1c5e23:
 translate german cit8_naked_boobs_variant2_1569a236:
 
     # mt "Ненормальный тип..."
-    mt "Ненормальный тип..."
+    mt "Seltsamer Typ..."
 
 translate german strings:
 
     # Quests/EP2/Citizens/Citizen8_dialogue.rpy:289
     old "1000 $!"
-    new ""
+    new "1000 $!"
 

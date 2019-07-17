@@ -1862,13 +1862,13 @@ translate german strings:
 
     # Quests/EP2_05/ep25_dialogues3_steve.rpy:68
     old "Контракт с Джейн. (сначала надо закрыть сделку) (disabled)"
-    new ""
+    new "Kümmere dich um Jane (du musst erst den Deal abschließen) (disabled)"
 
     # Quests/EP2_05/ep25_dialogues3_steve.rpy:68
     old "Контракт с Джейн. (disabled)"
-    new ""
+    new "Kümmere dich um Jane (disabled)"
 
     # Quests/EP2_05/ep25_dialogues3_steve.rpy:68
     old "Контракт с Джейн."
-    new ""
+    new "Kümmere dich um Jane"
 

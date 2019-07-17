@@ -320,29 +320,29 @@ translate german strings:
 
     # 00_Functions/07_init_renpy.rpy:107
     old "Марта"
-    new ""
+    new "Martha"
 
     # 00_Functions/07_init_renpy.rpy:108
     old "Системный Администратор"
-    new ""
+    new "Systemadministrator"
 
     # 00_Functions/07_init_renpy.rpy:109
     old "Эмма"
-    new ""
+    new "Emma"
 
     # 00_Functions/07_init_renpy.rpy:110
     old "Элла"
-    new ""
+    new "Ella"
 
     # 00_Functions/07_init_renpy.rpy:111
     old "Джон"
-    new ""
+    new "John"
 
     # 00_Functions/07_init_renpy.rpy:112
     old "Грета"
-    new ""
+    new "Greta"
 
     # 00_Functions/07_init_renpy.rpy:113
     old "Лин"
-    new ""
+    new "Lin"
 

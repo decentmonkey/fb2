@@ -471,7 +471,7 @@ translate german strings:
 translate german ep22_dialogue6_6_loop1_8cbce9e9:
 
     # m "Алая Жемчужина хочет показать папочке грудь..."
-    m "Алая Жемчужина хочет показать папочке грудь..."
+    m "Red Pearl würde Daddy gerne ihre Brüste zeigen..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:206
 translate german ep22_dialogue6_6_loop1_2b720bb8_1:
@@ -483,7 +483,7 @@ translate german ep22_dialogue6_6_loop1_2b720bb8_1:
 translate german ep22_dialogue6_6_loop1_32d8982f:
 
     # m "Запретное Желание хочет показать папочке грудь..."
-    m "Запретное Желание хочет показать папочке грудь..."
+    m "Forbidden Desire würde Daddy gerne ihre Brüste zeigen..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:236
 translate german ep22_dialogue6_6_loop1_2b720bb8_2:
@@ -497,8 +497,8 @@ translate german ep22_dialogue6_6_loop1_a6ccef88:
     # m "Алая Жемчужина хочет показать папочке свой зад..."
     # biff "Давай, Жемчужина!"
     # "Показывай свой зад!"
-    m "Алая Жемчужина хочет показать папочке свой зад..."
-    biff "Давай, Жемчужина!"
+    m "Red Pearl würde gerne ihren Hintern Daddy zeigen..."
+    biff "Mach es, Pearl!"
     "Zeig mir deinen Arsch!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:536
@@ -506,8 +506,8 @@ translate german ep22_dialogue6_6_loop1_c51999c6:
 
     # m "Биф, можно Я не буду снимать костюм?"
     # m "Это долго..."
-    m "Биф, можно Я не буду снимать костюм?"
-    m "Это долго..."
+    m "Biff, dieses Kleid..."
+    m "Es dauert lange, es auszuziehen..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:540
 translate german ep22_dialogue6_6_loop1_27a585e3:
@@ -515,29 +515,29 @@ translate german ep22_dialogue6_6_loop1_27a585e3:
     # biff "Хорошо, цыпочка."
     # biff "У папочки нет времени на переодевания."
     biff "Okay, Mädchen."
-    biff "У папочки нет времени на переодевания."
+    biff "Dafür habe ich keine Zeit."
 
 # game/Quests/EP2_02/ep22_casting.rpy:544
 translate german ep22_dialogue6_6_loop1_ca9a332d:
 
     # biff "Пусть цыпочка сядет на стол."
     # biff "Папочка хочет посмотреть на сидящую цыпочку."
-    biff "Пусть цыпочка сядет на стол."
-    biff "Папочка хочет посмотреть на сидящую цыпочку."
+    biff "Setz dich auf den Tisch, Babe."
+    biff "Daddy würde dich gerne auf dem Tisch sitzen sehen."
 
 # game/Quests/EP2_02/ep22_casting.rpy:548
 translate german ep22_dialogue6_6_loop1_2b2afe3e:
 
     # m "Так, Биф?"
-    m "Так, Биф?"
+    m "Etwa so, Biff?"
 
 # game/Quests/EP2_02/ep22_casting.rpy:550
 translate german ep22_dialogue6_6_loop1_8f935abc:
 
     # biff "Да, цыпочка. Привыкай сидеть на жердочке."
     # biff "Скоро ты займешь место рядом с малышкой Мелани!"
-    biff "Да, цыпочка. Привыкай сидеть на жердочке."
-    biff "Скоро ты займешь место рядом с малышкой Мелани!"
+    biff "Ja, Babe. Du gewöhnst dich besser schon mal daran."
+    biff "Bald wirst du nahe Melanie stehen."
 
 # game/Quests/EP2_02/ep22_casting.rpy:554
 translate german ep22_dialogue6_6_loop1_0a5616b8:
@@ -552,7 +552,7 @@ translate german ep22_dialogue6_6_loop1_ee4d54c8:
     # biff "Давай, Жемчужина!"
     # "Показывай свой зад!"
     m "Ich zeige meinen Hintern, weil du mich dazu zwingst..."
-    biff "Давай, Жемчужина!"
+    biff "Mach es, Pearl!"
     "Zeig mir deinen Arsch!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:566
@@ -560,8 +560,8 @@ translate german ep22_dialogue6_6_loop1_c51999c6_1:
 
     # m "Биф, можно Я не буду снимать костюм?"
     # m "Это долго..."
-    m "Биф, можно Я не буду снимать костюм?"
-    m "Это долго..."
+    m "Biff, dieses Kleid..."
+    m "Es dauert lange, es auszuziehen..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:570
 translate german ep22_dialogue6_6_loop1_27a585e3_1:
@@ -569,29 +569,29 @@ translate german ep22_dialogue6_6_loop1_27a585e3_1:
     # biff "Хорошо, цыпочка."
     # biff "У папочки нет времени на переодевания."
     biff "Okay, Mädchen."
-    biff "У папочки нет времени на переодевания."
+    biff "Dafür habe ich keine Zeit."
 
 # game/Quests/EP2_02/ep22_casting.rpy:574
 translate german ep22_dialogue6_6_loop1_ca9a332d_1:
 
     # biff "Пусть цыпочка сядет на стол."
     # biff "Папочка хочет посмотреть на сидящую цыпочку."
-    biff "Пусть цыпочка сядет на стол."
-    biff "Папочка хочет посмотреть на сидящую цыпочку."
+    biff "Setz dich auf den Tisch, Babe."
+    biff "Daddy würde dich gerne auf dem Tisch sitzen sehen."
 
 # game/Quests/EP2_02/ep22_casting.rpy:578
 translate german ep22_dialogue6_6_loop1_2b2afe3e_1:
 
     # m "Так, Биф?"
-    m "Так, Биф?"
+    m "Etwa so, Biff?"
 
 # game/Quests/EP2_02/ep22_casting.rpy:580
 translate german ep22_dialogue6_6_loop1_8f935abc_1:
 
     # biff "Да, цыпочка. Привыкай сидеть на жердочке."
     # biff "Скоро ты займешь место рядом с малышкой Мелани!"
-    biff "Да, цыпочка. Привыкай сидеть на жердочке."
-    biff "Скоро ты займешь место рядом с малышкой Мелани!"
+    biff "Ja, Babe. Du gewöhnst dich besser schon mal daran."
+    biff "Bald wirst du nahe Melanie stehen."
 
 # game/Quests/EP2_02/ep22_casting.rpy:584
 translate german ep22_dialogue6_6_loop1_0a5616b8_1:
@@ -603,14 +603,14 @@ translate german ep22_dialogue6_6_loop1_0a5616b8_1:
 translate german ep22_dialogue6_6_loop1_5b3e12af:
 
     # m "Запретное Желание хочет показать папочке свой зад..."
-    m "Запретное Желание хочет показать папочке свой зад..."
+    m "Forbidden Desire würde Daddy gerne ihren Hintern zeigen..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:592
 translate german ep22_dialogue6_6_loop1_0f66437b:
 
     # biff "Давай, Запретное Желание!"
     # "Показывай свой зад!"
-    biff "Давай, Запретное Желание!"
+    biff "Mach es, Forbidden Desire!"
     "Zeig mir deinen Arsch!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:610
@@ -624,6 +624,6 @@ translate german ep22_dialogue6_6_loop1_0f66437b_1:
 
     # biff "Давай, Запретное Желание!"
     # "Показывай свой зад!"
-    biff "Давай, Запретное Желание!"
+    biff "Mach es, Forbidden Desire!"
     "Zeig mir deinen Arsch!"
 

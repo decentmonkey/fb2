@@ -36,21 +36,21 @@ translate english strings:
 
     # 00_Functions/mini_map.rpy:75
     old "Biff's Office"
-    new ""
+    new "Biff's Office"
 
     # 00_Functions/mini_map.rpy:77
     old "Employees"
-    new ""
+    new "Employees"
 
     # 00_Functions/mini_map.rpy:78
     old "Photo Studiio"
-    new ""
+    new "Photo Studio"
 
     # 00_Functions/mini_map.rpy:79
     old "Secretary"
-    new ""
+    new "Secretary"
 
     # 00_Functions/mini_map.rpy:80
     old "Entrance"
-    new ""
+    new "Entrance"
 

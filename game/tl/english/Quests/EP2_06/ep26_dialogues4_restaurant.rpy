@@ -45,7 +45,7 @@ translate english ep26_dialogues4_restaurant1_a99f0ac9:
     # m "Но вот, пожалуйста!"
     # m "Если уж Вам так надо!"
     # reception "..."
-    m "I don’t understand purpose of this useless actions."
+    m "I don’t understand the reason of this useless actions."
     m "Here, take it!"
     m "If you want it so much!"
     reception "..."
@@ -66,7 +66,7 @@ translate english ep26_dialogues4_restaurant1_8f40ab44:
     reception "..."
     m "Believe me I've proven everything in this life to anyone already!"
     m "You can follow and observe me if you want."
-    m "But if you are trying to get tips from the lady like me, you made a mistake!"
+    m "But if you are trying to get tips from a lady like me, you made a mistake!"
     m "And now, get out of my way, before I really got mad!"
     reception "..."
 
@@ -108,7 +108,7 @@ translate english ep26_dialogues4_restaurant3_7af2cf35:
     waitress "Good day, Ma'am!"
     waitress "It's... It's YOU!"
     m "Yes, it's ME!"
-    m "Surprising that you still work here."
+    m "Surprisingly you still work here."
     waitress "What would you like, Ma'am?"
     m "This restaurant is not up to my standards..."
     m "But I'm in a good mood today to eat even in a place like this one."
@@ -319,7 +319,7 @@ translate english ep26_dialogues4_restaurant1_59f3314e:
 
     # m "Абсолютно не понимаю необходимость этого ненужного действия."
     # m "Но вот, пожалуйста!"
-    m "I don’t understand purpose of this useless actions."
+    m "I don’t understand the reason of this useless actions."
     m "Here, take it!"
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:82
@@ -348,7 +348,7 @@ translate english ep26_dialogues4_restaurant1_cccc3607:
     # m "Однако, если твоя цель преследования меня получить чаевые от такой леди как Я, то ты выбрала неверный путь!"
     m "Believe me I've proven everything in this life to anyone already!"
     m "You can follow and observe me if you want."
-    m "But if you are trying to get tips from the lady like me, you made a mistake!"
+    m "But if you are trying to get tips from a lady like me, you made a mistake!"
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:107
 translate english ep26_dialogues4_restaurant1_3259a8aa:
@@ -438,7 +438,7 @@ translate english ep26_dialogues4_restaurant3_eb50708d:
     # m "Да, это Я!"
     # m "Удивительно, что ты все еще работаешь здесь!"
     m "Yes, it's ME!"
-    m "Surprising that you still work here."
+    m "Surprisingly you still work here."
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:185
 translate english ep26_dialogues4_restaurant3_f841870b:
@@ -472,25 +472,25 @@ translate english ep26_dialogues4_restaurant3_2832f33d:
 translate english ep26_dialogues4_restaurant3_4e40b86b:
 
     # m "Стейк из форели, греческий салат и шампанское."
-    m "Стейк из форели, греческий салат и шампанское."
+    m "Trout steak, greek salad and champagne."
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:227
 translate english ep26_dialogues4_restaurant3_d1d3a5f6:
 
     # m "Морепродукты и коктейль."
-    m "Морепродукты и коктейль."
+    m "Seafood and cocktail."
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:233
 translate english ep26_dialogues4_restaurant3_843b54b9:
 
     # m "Лазанья с кофе."
-    m "Лазанья с кофе."
+    m "Lasagne with a coffee."
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:239
 translate english ep26_dialogues4_restaurant3_9329aedf:
 
     # m "Суши и сок."
-    m "Суши и сок."
+    m "Sushi and a juice."
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:246
 translate english ep26_dialogues4_restaurant3_dcdf942e:
@@ -562,7 +562,7 @@ translate english ep26_dialogues4_restaurant3_b1201950:
 translate english ep26_dialogues4_restaurant3_d0a96359:
 
     # mt "Интересно, почему та девушка так смотрит на меня?"
-    mt "Интересно, почему та девушка так смотрит на меня?"
+    mt "Why is that girl looking at me like that?"
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:341
 translate english ep26_dialogues4_restaurant3_7e2264f7:
@@ -626,25 +626,25 @@ translate english ep26_dialogues4_restaurant4_00cc55d2:
 translate english ep26_dialogues4_restaurant4_4e40b86b:
 
     # m "Стейк из форели, греческий салат и шампанское."
-    m "Стейк из форели, греческий салат и шампанское."
+    m "Trout steak, greek salad and champagne."
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:409
 translate english ep26_dialogues4_restaurant4_d1d3a5f6:
 
     # m "Морепродукты и коктейль."
-    m "Морепродукты и коктейль."
+    m "Seafood and cocktail."
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:415
 translate english ep26_dialogues4_restaurant4_843b54b9:
 
     # m "Лазанья с кофе."
-    m "Лазанья с кофе."
+    m "Lasagne with a coffee."
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:421
 translate english ep26_dialogues4_restaurant4_9329aedf:
 
     # m "Суши и сок."
-    m "Суши и сок."
+    m "Sushi and a juice."
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:437
 translate english ep26_dialogues4_restaurant4_6b0296a8:
@@ -690,7 +690,7 @@ translate english ep26_dialogues4_restaurant4_b1201950:
 translate english ep26_dialogues4_restaurant4_d0a96359:
 
     # mt "Интересно, почему та девушка так смотрит на меня?"
-    mt "Интересно, почему та девушка так смотрит на меня?"
+    mt "Why is that girl looking at me like that?"
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:510
 translate english ep26_dialogues4_restaurant4_5452fc04:
@@ -706,25 +706,25 @@ translate english strings:
 
     # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:176
     old "У Моники плохие отношения с официанткой."
-    new ""
+    new "Monica has a bad relationships with the waitress"
 
     # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:216
     old "Стейк из форели, греческий салат и шампанское."
-    new ""
+    new "Trout steak, greek salad and champagne."
 
     # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:216
     old "Морепродукты и коктейль."
-    new ""
+    new "Seafood and cocktail."
 
     # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:216
     old "Лазанья с кофе."
-    new ""
+    new "Lasagne with a coffee."
 
     # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:216
     old "Суши и сок."
-    new ""
+    new "Sushi and a juice."
 
     # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:363
     old "У Моники хорошие отношения с официанткой."
-    new ""
+    new "Monica has a good relationships with the waitress"
 

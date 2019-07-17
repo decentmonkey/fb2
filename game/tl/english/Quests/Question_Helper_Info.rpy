@@ -302,9 +302,9 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:161
     old "Я могу питаться в доме. Если буду соблюдать условие..."
-    new "I can eat at how if I'll follow the rules..."
+    new "I can eat at here if I'll follow the rules..."
 
     # Quests/Question_Helper_Info.rpy:161
     old "Теперь я могу работать в офисе. Денег это не добавило, но я могу чувствовать себя Боссом снова..."
-    new "I can work at office again. It didn’t bring me any money, but I feel myself a Boss again..."
+    new "I can work at the office again. It didn’t bring me any money, but I feel myself a Boss again..."
 

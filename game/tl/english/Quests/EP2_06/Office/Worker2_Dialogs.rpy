@@ -61,7 +61,7 @@ translate english worker2_dialogue_office_b6dee951:
     # m "Хорошо. А теперь можешь идти."
     # w2 "?!"
     # m "Да, да, иди работай."
-    m "Noone taught you to knock before you come in?"
+    m "No one taught you to knock before you come in?"
     w2 "But... I did..."
     m "No you did not! Step out of my office and if you would like to enter, knock."
     w2 "Fine..."
@@ -98,7 +98,7 @@ translate english strings:
 
     # Quests/EP2_06/Office/Worker2_Dialogs.rpy:29
     old "Разве тебя не учили стучаться?"
-    new "Noone taught you to knock before you come in?"
+    new "No one taught you to knock before you come in?"
 
     # Quests/EP2_06/Office/Worker2_Dialogs.rpy:29
     old "Больше ничего."
@@ -114,7 +114,7 @@ translate english worker2_look_318735e9:
     # mt "Эти неудачники везде одинаковые."
     mt "System administrator"
     mt "Dirty hair and calluses on his ass."
-    mt "These loses are the same everywhere."
+    mt "These losers are the same everywhere."
 
 # TODO: Translation updated at 2019-07-17 02:25
 
@@ -159,7 +159,7 @@ translate english worker2_dialogue_office_ac74ef8e:
     # w2 "Ну... Я постучал..."
     # m "Не правда! А теперь выйди из кабинета и если ты хочешь войти, постучись."
     # w2 "Хорошо..."
-    m "Noone taught you to knock before you come in?"
+    m "No one taught you to knock before you come in?"
     w2 "But... I did..."
     m "No you did not! Step out of my office and if you would like to enter, knock."
     w2 "Fine..."

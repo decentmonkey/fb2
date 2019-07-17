@@ -912,17 +912,17 @@ translate english cit9_naked_boobs_variant2_5d2517cc:
 translate english cit9_naked_boobs_variant1_74967fb9:
 
     # citizen9 "Йо, дамочка, так дела не делаются."
-    citizen9 "Йо, дамочка, так дела не делаются."
+    citizen9 "That's not how business is done."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:449
 translate english cit9_naked_boobs_variant1_e6f2527f:
 
     # citizen9 "Ладно, вот твой доллар, все путем да?"
-    citizen9 "Ладно, вот твой доллар, все путем да?"
+    citizen9 "Fine, here is your dollar, we cool?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:598
 translate english citizen9_comment1_f4e1f245:
 
     # mt "Мерзавец!"
-    mt "Мерзавец!"
+    mt "Bastard!"
 

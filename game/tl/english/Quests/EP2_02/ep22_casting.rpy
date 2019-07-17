@@ -438,7 +438,7 @@ translate english strings:
 translate english ep22_dialogue6_6_loop1_8cbce9e9:
 
     # m "Алая Жемчужина хочет показать папочке грудь..."
-    m "Scarlet Pearl would like to show her chest to Daddy..."
+    m "Red Pearl would like to show her chest to Daddy..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:206
 translate english ep22_dialogue6_6_loop1_2b720bb8_1:

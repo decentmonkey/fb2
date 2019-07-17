@@ -49,7 +49,7 @@ translate english worker7_dialogue_office_14d947d7:
 
     # mt "Она может меня узнать... Лучше не говорить с ней долго."
     # mt "Думаю, лучше будет ее вежливо выпроводить."
-    mt "She can recogineze me. Shouldn't talk with her for too long."
+    mt "She will recognize me. Shouldn't talk with her for too long."
     mt "I think I'll just politely get rid of her..."
 
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:23
@@ -60,7 +60,7 @@ translate english worker7_dialogue_office_905e0dba:
     # m "Лин, я сейчас очень занята. Если ты принесла отчет, положи пожалуйста его мне на стол. Я его обязательно посмотрю."
     m "Your name was Lyn, wans't it?"
     w7 "Yes, ma'am."
-    m "I'm very busy right now, Lyn. Just place report on the table and I'll make sure to check it out latter."
+    m "I'm very busy right now, Lyn. Just place report on the table and I'll make sure to check it out later."
 
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:27
 translate english worker7_dialogue_office_8f43d3f2:
@@ -124,7 +124,7 @@ translate english worker7_dialogue_office_744c09cd:
 translate english worker7_dialogue_office_d675c844:
 
     # m "Лин, я сейчас очень занята. Если ты принесла отчет, положи пожалуйста его мне на стол. Я его обязательно посмотрю."
-    m "I'm very busy right now, Lyn. Just place report on the table and I'll make sure to check it out latter."
+    m "I'm very busy right now, Lyn. Just place report on the table and I'll make sure to check it out later."
 
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:64
 translate english worker7_dialogue_office_13467234:

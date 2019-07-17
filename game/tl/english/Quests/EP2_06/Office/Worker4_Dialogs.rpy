@@ -9,7 +9,7 @@ translate english worker4_dialogue_workplace_51699f74:
     # m "Поняла. Продолжай работать."
     mt "Second twin... Cant remember their names..."
     m "Hello. What was your name again?"
-    w4 "I'm Ella! My sister's name is Emma. Everyone always confuses us!"
+    w4 "I'm Ella! My sister's name is Emma. Everyone is always confused about that!"
     m "Got it. Keep working."
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:10
@@ -35,10 +35,10 @@ translate english worker4_dialogue_office_7b953c57:
     w4 "Mrs. Buckfett, my internet stopped working!"
     m "And why are you telling me about it?"
     m "Our system administrator is supposed to fix problems like that."
-    m "Shorty fatty guy with glasses."
+    m "Short fatty guy with glasses."
     m "Go to him with your problem."
     w4 "But he doesn't want to help."
-    m "Tell him that he will be fired if problem is not fixed any time soon."
+    m "Tell him that he will be fired if the problem is not fixed soon."
     w4 "All right, Mrs. Buckfett."
     w4 "I'll tell him..." 
 
@@ -82,7 +82,7 @@ translate english worker4_dialogue_workplace_3e0a33bf:
 translate english worker4_dialogue_workplace_32f82463:
 
     # w4 "Я Элла. Мою сестру зовут Эмма. Нас всегда путают!"
-    w4 "I'm Ella! My sister's name is Emma. Everyone always confuses us!"
+    w4 "I'm Ella! My sister's name is Emma. Everyone is always confused about that!"
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:29
 translate english worker4_dialogue_workplace_2bc2f0b8:
@@ -119,7 +119,7 @@ translate english worker4_dialogue_office_09512dd9:
 
     # m "Пухлый коротышка в очках."
     # m "Так что иди к нему со своей проблемой."
-    m "Shorty fatty guy with glasses."
+    m "Short fatty guy with glasses."
     m "Go to him with your problem."
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:55
@@ -132,7 +132,7 @@ translate english worker4_dialogue_office_32f10da8:
 translate english worker4_dialogue_office_cce20b4e:
 
     # m "Скажи ему, что он будет уволен, если сейчас же не решит вопрос."
-    m "Tell him that he will be fired if problem is not fixed any time soon."
+    m "Tell him that he will be fired if the problem is not fixed soon."
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:63
 translate english worker4_dialogue_office_77cdfe7d:

@@ -850,7 +850,7 @@ translate german cit1_2_naked_boobs_variant1_9c1a54cb:
 translate german cit1_2_naked_boobs_variant1_e05cb1c1:
 
     # m "Хорошо. Если заплатите..."
-    m "Хорошо. Если заплатите..."
+    m "Gut, wenn du bezahlst..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:322
 translate german cit1_2_naked_boobs_variant1_179b4073:

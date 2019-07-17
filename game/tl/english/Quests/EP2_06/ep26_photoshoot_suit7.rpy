@@ -8,8 +8,8 @@ translate english ep26_photoshoot_suit7_0a2e4aa4:
     # m "Я уже не говорю про трусики, которых почти нет!"
     # alex_photograph "Но Мэм..."
     m "Alex! Are you out of your mind?!"
-    m "This costume's chest if transparent!"
-    m "I'm not even talking about panties it almost lacks!"
+    m "This costumes chest is transparent!"
+    m "I'm not even talking about these panties!"
     alex_photograph "But, Ma'am..."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:9
@@ -17,7 +17,7 @@ translate english ep26_photoshoot_suit7_ba49fef7:
 
     # m "Никаких Мэм!"
     # m "Я не собираюсь обнажаться на эту чертову камеру!"
-    m "?????????????????????????//"
+    m "No! I won't wear that!"
     m "I'm not posing naked in front of the camera!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:12
@@ -25,7 +25,7 @@ translate english ep26_photoshoot_suit7_79cd49f8:
 
     # alex_photograph "Мэм, этот наряд называется Запретное Желание."
     # alex_photograph "И, если Вы хотите, Вы можете закрывать грудь руками..."
-    alex_photograph "Ma'am, this costume is called Forbiden Desire."
+    alex_photograph "Ma'am, this costume is called Forbidden Desire."
     alex_photograph "And you can cover yourself with your hands."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:15
@@ -137,7 +137,7 @@ translate english ep26_photoshoot_suit7_7f4a0034:
     # m "Снимай меня прямо и... красиво..."
     m "I'm not posing like that!"
     m "My chest is almost completely exposed!"
-    alex_photograph "Mrs. Buckfett, your chest is exposed as much as it would be with decent bra!"
+    alex_photograph "Mrs. Buckfett, your chest is not more exposed than in a bra!"
     alex_photograph "Don’t worry, nothing can be seen."
     m "Really?"
     alex_photograph "Yes, Mrs. Buckfett!"
@@ -173,7 +173,7 @@ translate english ep26_photoshoot_suit7_8bc3a679:
     m "We are done!"
     alex_photograph "Mrs. Buckfett, it was the last one like that, I promise!"
     alex_photograph "We still have to make couple more photos and we are finished."
-    m "Realy?!"
+    m "Really?!"
     alex_photograph "I swear!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:161
@@ -234,7 +234,7 @@ translate english ep26_photoshoot_suit7_2a5972d0:
 translate english ep26_photoshoot_suit7_1d7dc72a:
 
     # alex_photograph "Миссис Бакфетт, но это не моя прихоть, а распоряжение Мистера Бифа!"
-    alex_photograph "But it's not my just my whim, it's our Boss's order!"
+    alex_photograph "But it's not my idea, it's our Boss's order!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:204
 translate english ep26_photoshoot_suit7_506f1c42:
@@ -266,13 +266,13 @@ translate english ep26_photoshoot_suit7_d2f89f45:
     # alex_photograph "Зато подумайте, фотосессия будет завершена и Мистер Биф будет доволен."
     alex_photograph "Also, there won't be anything new to see."
     alex_photograph "Everything else was already filmed."
-    alex_photograph "Think about how photoshoot will finally be finished and how satisfied Mr. Biff will be."
+    alex_photograph "Think about how the photoshoot will finally be finished and how satisfied Mr. Biff will be."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:216
 translate english ep26_photoshoot_suit7_551a1014:
 
     # alex_photograph "Я не думаю что он потребует еще больше от Вас, Миссис Бакфетт."
-    alex_photograph "Don't think he will demand anything else from you, Mrs. Buckfett."
+    alex_photograph "I don't think he will demand anything else from you, Mrs. Buckfett."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:218
 translate english ep26_photoshoot_suit7_73d2c78f:
@@ -360,7 +360,7 @@ translate english ep26_photoshoot_suit7_01c0ea7b:
     # alex_photograph "Они мешают мне фотографировать нижнюю часть Вашего тела..."
     alex_photograph "Mrs. Buckfett."
     alex_photograph "Remove your hands, please."
-    alex_photograph "They don't allow me to shoot lower part of your body."
+    alex_photograph "They don't allow me to shoot the lower part of your body."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:281
 translate english ep26_photoshoot_suit7_8daf8f60:
@@ -409,7 +409,7 @@ translate english ep26_photoshoot_suit7_cdabce6a:
     # alex_photograph "Можно, пожалуйста, я сниму эти трусики и сделаю пару кадров?"
     # alex_photograph "Мистер Биф даст мне солидную премию за это."
     alex_photograph "Mrs. Buckfett."
-    alex_photograph "Can I please take off your panties and take couple of pictures?"
+    alex_photograph "Can you please take off your panties and take couple of pictures?"
     alex_photograph "Mr. Biff is sure to give me a solid bonus for this."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:306
@@ -685,7 +685,7 @@ translate english ep26_photoshoot_suit7_pose6_dfa55610:
     # alex_photograph "Да, Миссис Бакфетт!"
     # m "Ладно, только без дурацких ракурсов!"
     # m "Снимай меня прямо и... красиво..."
-    alex_photograph "Mrs. Buckfett, your chest is exposed as much as it would be with decent bra!"
+    alex_photograph "Mrs. Buckfett, your chest is not more exposed than in a bra!"
     alex_photograph "Don’t worry, nothing can be seen."
     m "Really?"
     alex_photograph "Yes, Mrs. Buckfett!"
@@ -767,7 +767,7 @@ translate english ep26_photoshoot_suit7_pose9_0b329aec:
     # alex_photograph "Клянусь!"
     alex_photograph "Mrs. Buckfett, it was the last one like that, I promise!"
     alex_photograph "We still have to make couple more photos and we are finished."
-    m "Realy?!"
+    m "Really?!"
     alex_photograph "I swear!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:739
@@ -842,7 +842,7 @@ translate english ep26_photoshoot_suit7_pose11_pre_2a5972d0:
 translate english ep26_photoshoot_suit7_pose11_pre_1d7dc72a:
 
     # alex_photograph "Миссис Бакфетт, но это не моя прихоть, а распоряжение Мистера Бифа!"
-    alex_photograph "But it's not my just my whim, it's our Boss's order!"
+    alex_photograph "But it's not my idea, it's our Boss's order!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:883
 translate english ep26_photoshoot_suit7_pose11_pre_506f1c42:
@@ -874,13 +874,13 @@ translate english ep26_photoshoot_suit7_pose11_pre_d2f89f45:
     # alex_photograph "Зато подумайте, фотосессия будет завершена и Мистер Биф будет доволен."
     alex_photograph "Also, there won't be anything new to see."
     alex_photograph "Everything else was already filmed."
-    alex_photograph "Think about how photoshoot will finally be finished and how satisfied Mr. Biff will be."
+    alex_photograph "Think about how the photoshoot will finally be finished and how satisfied Mr. Biff will be."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:898
 translate english ep26_photoshoot_suit7_pose11_pre_551a1014:
 
     # alex_photograph "Я не думаю что он потребует еще больше от Вас, Миссис Бакфетт."
-    alex_photograph "Don't think he will demand anything else from you, Mrs. Buckfett."
+    alex_photograph "I don't think he will demand anything else from you, Mrs. Buckfett."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:901
 translate english ep26_photoshoot_suit7_pose11_pre_73d2c78f:
@@ -968,7 +968,7 @@ translate english ep26_photoshoot_suit7_pose11_01c0ea7b:
     # alex_photograph "Они мешают мне фотографировать нижнюю часть Вашего тела..."
     alex_photograph "Mrs. Buckfett."
     alex_photograph "Remove your hands, please."
-    alex_photograph "They don't allow me to shoot lower part of your body."
+    alex_photograph "They don't allow me to shoot the lower part of your body."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:1091
 translate english ep26_photoshoot_suit7_pose11_8daf8f60:
@@ -1017,7 +1017,7 @@ translate english ep26_photoshoot_suit7_pose11_cdabce6a:
     # alex_photograph "Можно, пожалуйста, я сниму эти трусики и сделаю пару кадров?"
     # alex_photograph "Мистер Биф даст мне солидную премию за это."
     alex_photograph "Mrs. Buckfett."
-    alex_photograph "Can I please take off your panties and take couple of pictures?"
+    alex_photograph "Can you please take off your panties and take couple of pictures?"
     alex_photograph "Mr. Biff is sure to give me a solid bonus for this."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:1137
@@ -1078,23 +1078,23 @@ translate english ep26_photoshoot7_casting_9a3407be:
     # biff "Кто сегодня цыпочка?"
     # m "Сегодня цыпочка - это Запретное Желание..."
     biff "Who's the girl tonight?"
-    m "Сегодня цыпочка - это Запретное Желание..."
+    m "Today babe is a Forbidden Desire..."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:1210
 translate english ep26_photoshoot7_casting_04b92f6c:
 
     # biff "Что Запретное Желание хочет показать папочке?"
-    biff "Что Запретное Желание хочет показать папочке?"
+    biff "What does Forbidden Desire want to show daddy?"
 
 translate english strings:
 
     # Quests/EP2_06/ep26_photoshoot_suit7.rpy:1087
     old "Делать что просит Алекс. (опционально)"
-    new ""
+    new "Do what Alex asks (optional)"
 
     # Quests/EP2_06/ep26_photoshoot_suit7.rpy:1162
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot7_casting_corruption_required]) (disabled)"
-    new ""
+    new "Go to Biff's audition and pretend to be a good girl... (low corruption, required [photoshoot7_casting_corruption_required]) (disabled)"
 
 # TODO: Translation updated at 2019-07-17 22:57
 
@@ -1104,9 +1104,9 @@ translate english ep26_photoshoot_suit7_pose11_pre_d27dec45_1:
     # m "Нет, Алекс!"
     # m "Я не поддамся на твои уловки!"
     # m "С меня хватит!"
-    m "Нет, Алекс!"
-    m "Я не поддамся на твои уловки!"
-    m "С меня хватит!"
+    m "No, Alex!"
+    m "I'll not fall for your tricks!"
+    m "That's enough!"
 
 translate english strings:
 

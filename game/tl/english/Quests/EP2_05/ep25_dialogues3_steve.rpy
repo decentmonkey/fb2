@@ -1862,13 +1862,13 @@ translate english strings:
 
     # Quests/EP2_05/ep25_dialogues3_steve.rpy:68
     old "Контракт с Джейн. (сначала надо закрыть сделку) (disabled)"
-    new ""
+    new "Deal with Jane (have to close the deal first) (disabled)"
 
     # Quests/EP2_05/ep25_dialogues3_steve.rpy:68
     old "Контракт с Джейн. (disabled)"
-    new ""
+    new "Deal with Jane (disabled)"
 
     # Quests/EP2_05/ep25_dialogues3_steve.rpy:68
     old "Контракт с Джейн."
-    new ""
+    new "Deal with Jane"
 

@@ -24,7 +24,7 @@ translate english ep26_photoshoot_suit6_b1c07175:
     # alex_photograph "Миссис Бакфетт, этот костюм называется Алая Жемчужина"
     # alex_photograph "А этот реквизит олицетворяет раковину, в которой находится изысканная жемчужина!"
     # alex_photograph "Это будет замечательная сцена, Миссис Бакфетт!"
-    alex_photograph "This costume is called a Scarlet Pearl."
+    alex_photograph "This costume is called a Red Pearl."
     alex_photograph "It represents a shell, inside which you can find exquisite pearl."
     alex_photograph "It will be an amazing scene, Mrs. Buckfett!"
 
@@ -132,7 +132,7 @@ translate english ep26_photoshoot6_casting_45eaba2f:
 translate english ep26_photoshoot6_casting_1c891ece:
 
     # biff "Что Алая Жемчужина хочет показать папочке?"
-    biff "What Red Pearl would like to show to the daddy?"
+    biff "What Red Pearl would like to show herself to daddy?"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:215
 translate english ep26_photoshoot6_casting_f4e1f245:
@@ -191,7 +191,7 @@ translate english ep26_photoshoot_suit6_pose2_d4db0cc4:
 
     # m "Алекс! Я не буду вставать в позу, будто показываю задницу!"
     # "И это не обсуждается!"
-    m "Алекс! Я не буду вставать в позу, будто показываю задницу!"
+    m "Alex! I'm not posing like I'm showing off my butt!"
     "That's out of the question!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:148
@@ -200,9 +200,9 @@ translate english ep26_photoshoot_suit6_pose2_a7be0f34:
     # m "Алекс, мне не нравится это поза!"
     # m "Постарайся поменьше фокусировать камеру на месте ниже спины!"
     # alex_photograph "Конечно, Миссис Бакфетт!"
-    m "Алекс, мне не нравится это поза!"
-    m "Постарайся поменьше фокусировать камеру на месте ниже спины!"
-    alex_photograph "Конечно, Миссис Бакфетт!"
+    m "Alex, I don’t like this pose!"
+    m "Stop focusing your camera below my back!"
+    alex_photograph "Of course, Mrs. Buckfett!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:211
 translate english ep26_photoshoot_suit6_pose3_495a0ac0:
@@ -245,14 +245,14 @@ translate english ep26_photoshoot_suit6_pose7_96afe0e3:
 
     # m "Алекс! Зачем ты оттуда фотографируешь?"
     # m "Что ты хочешь там увидеть?!"
-    m "Алекс! Зачем ты оттуда фотографируешь?"
-    m "Что ты хочешь там увидеть?!"
+    m "Why are you shooting from there?"
+    m "What are you trying to see?!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:500
 translate english ep26_photoshoot_suit6_pose7_7040684b:
 
     # alex_photograph "Миссис Бакфетт, я фотографирую Ваши ножки!"
-    alex_photograph "Миссис Бакфетт, я фотографирую Ваши ножки!"
+    alex_photograph "Mrs. Buckfett, I'm shooting your legs!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:526
 translate english ep26_photoshoot_suit6_pose8_495a0ac0:
@@ -295,10 +295,10 @@ translate english ep26_photoshoot_suit6_pose10_333fa731:
     # alex_photograph "Раковина, как-бы раскрывается, обнажая жемчужину!"
     # m "Я не собираюсь обнажать никакую... жемчужину!"
     # alex_photograph "Миссис Бакфетт, не волнутесь, я буду фотографировать только сбоку!"
-    alex_photograph "Миссис Бакфетт, это сюжетная поза."
-    alex_photograph "Раковина, как-бы раскрывается, обнажая жемчужину!"
-    m "Я не собираюсь обнажать никакую... жемчужину!"
-    alex_photograph "Миссис Бакфетт, не волнутесь, я буду фотографировать только сбоку!"
+    alex_photograph "It's a storyline pose."
+    alex_photograph "Shell is opening, showing off the pearl inside!"
+    m "I'm not showing off any... pearl!"
+    alex_photograph "Don’t worry, Mrs. Buckfett. I'll be only taking photos from the side!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:748
 translate english ep26_photoshoot_suit6_pose10_3bfb839a:
@@ -306,13 +306,13 @@ translate english ep26_photoshoot_suit6_pose10_3bfb839a:
     # m "Алекс! Я не буду делать такой кадр!"
     # m "Что это за поза?"
     m "Alex! I'm not taking that shot!"
-    m "Что это за поза?"
+    m "What pose?"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:753
 translate english ep26_photoshoot_suit6_pose10_3b7827ad:
 
     # alex_photograph "Это прекрасная поза, Миссис Бакфетт!"
-    alex_photograph "Это прекрасная поза, Миссис Бакфетт!"
+    alex_photograph "This is great pose, Mrs. Buckfett!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:764
 translate english ep26_photoshoot_suit6_pose10_8ecf3774:
@@ -320,39 +320,39 @@ translate english ep26_photoshoot_suit6_pose10_8ecf3774:
     # m "Алекс! Хватит!"
     # m "Что ты там хочешь сфотографировать?!"
     m "Alex! Enough!"
-    m "Что ты там хочешь сфотографировать?!"
+    m "What do you want to shoot over there?!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:769
 translate english ep26_photoshoot_suit6_pose10_1f976730:
 
     # alex_photograph "Миссис Бакфетт, я хочу сфотографировать Ваш чудесный педикюр!"
-    alex_photograph "Миссис Бакфетт, я хочу сфотографировать Ваш чудесный педикюр!"
+    alex_photograph "Mrs. Buckfett, I want to shoot your amazing pedicure!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:836
 translate english ep26_photoshoot_suit6_pose11_01548466:
 
     # m "Я слежу за тобой, Алекс!"
-    m "Я слежу за тобой, Алекс!"
+    m "I'm watching you, Alex!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:873
 translate english ep26_photoshoot_suit6_pose11_b43e9c1c:
 
     # m "Алекс, твою мать! Это называется вид сбоку?"
-    m "Алекс, твою мать! Это называется вид сбоку?"
+    m "What the hell! You call it taking picture from the side?"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:877
 translate english ep26_photoshoot_suit6_pose11_5aa3be88:
 
     # alex_photograph "Миссис Бакфетт, это вид снизу!"
     # alex_photograph "На нем видны только Ваши пальчики на ногах и больше ничего!"
-    alex_photograph "Миссис Бакфетт, это вид снизу!"
-    alex_photograph "На нем видны только Ваши пальчики на ногах и больше ничего!"
+    alex_photograph "Mrs. Buckfett, it's view from below!"
+    alex_photograph "You can only see feet and toenails, nothing more!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:889
 translate english ep26_photoshoot_suit6_pose11_0c35e9f3:
 
     # m "Алекс! Это тоже вид снизу?!"
-    m "Алекс! Это тоже вид снизу?!"
+    m "Again?! Alex?"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:893
 translate english ep26_photoshoot_suit6_pose11_78be36ec:
@@ -364,10 +364,10 @@ translate english ep26_photoshoot_suit6_pose11_78be36ec:
     # m "Только один! И не ближе!"
     # alex_photograph "Конечно!"
     alex_photograph "Yes, Mrs. Buckfett!"
-    alex_photograph "Но не волнуйтесь, костюм плотно все закрывает!"
-    m "Realy?!"
-    alex_photograph "Да, Миссис Бакфетт! Всего один кадр!"
-    m "Только один! И не ближе!"
+    alex_photograph "Don't worry, costume is hidding everything!"
+    m "Really?!"
+    alex_photograph "Yes, Mrs. Buckfett! One more photo!"
+    m "Only one! And not closer!"
     alex_photograph "Definitely!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:919

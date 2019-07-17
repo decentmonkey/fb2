@@ -36,21 +36,21 @@ translate german strings:
 
     # 00_Functions/mini_map.rpy:75
     old "Biff's Office"
-    new ""
+    new "Biffs Büro"
 
     # 00_Functions/mini_map.rpy:77
     old "Employees"
-    new ""
+    new "Angestellte"
 
     # 00_Functions/mini_map.rpy:78
     old "Photo Studiio"
-    new ""
+    new "Fotostudio"
 
     # 00_Functions/mini_map.rpy:79
     old "Secretary"
-    new ""
+    new "Sekretärin"
 
     # 00_Functions/mini_map.rpy:80
     old "Entrance"
-    new ""
+    new "Eingang"
 

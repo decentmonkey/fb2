@@ -18,13 +18,13 @@ translate english worker5_dialogue_workplace_ef62a34b:
     # w5 "Меня зовут Джон."
     # mt "Ну и мерзкий же ты тип, Джон."
     # m "Я поняла, возвращайся к работе!"
-    m "I don’t care about it, I'm here not for long."
+    m "I don’t care about it, I won't stay here for long."
     m "But, fine, tell me about people working here."
     w5 "Mrs. Buckfett! You look great today and you came to the right person with questions!"
     m "I always look good. Stop sucking up to me, it's not gonna help you."
     m "So?"
     w5 "This is Martha over there. She is reposible for reporting."
-    w5 "Twins Emma and Ella. They also do reporting."
+    w5 "Emma and Ella over there are twins. They also do reporting."
     w5 "Well...we all do reporting over here..."
     w5 "This plump lady is Greta. She is the oldest out of us all."
     w5 "Over there is Lin. She is new."
@@ -32,7 +32,7 @@ translate english worker5_dialogue_workplace_ef62a34b:
     w5 "And finally me! I'm the most competent employee and I think I'll be head of the department soon!"
     w5 "My name is John."
     mt "You disgust me, John."
-    m "I understan, get back to work now."
+    m "I understand, get back to work now."
 
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:23
 translate english worker5_dialogue_office_d6a627f1:
@@ -52,12 +52,12 @@ translate english worker5_dialogue_office_d6ba5ee7:
     # mt "И что это вообще за должность? Почему он думает, что этому отделу нужен какой-то мифический начальник кроме меня?"
     # w5 "Да, понял. Ухожу. Но знайте, миссис Бакфет, Вы всегда можете на меня расчитывать."
     m "Alright, let's talk."
-    w5 "As you know, I'm the most responsible person in this department, and without me it will all go to ruin."
+    w5 "As you know, I'm the most responsible person in this department, and without me nothing works here."
     w5 "Moreover, fat Gretha is aiming to take my position!"
     w5 "And I'll be infinitely gratefull to you if..."
     m "That was nice..."
-    m "The more you talk like this, further promotion is from you."
-    mt "What promotion he even talks about? Why does he think that this departmnet need someone exept me as a Boss?"
+    m "The more you talk like this, the further a promotion is away from you."
+    mt "What promotion he even talks about? Why does he think that this departement needs someone exept me as a Boss?"
     w5 "I understand, I'm going. But you can always count on me, Mrs. Buckfett!"
 
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:36
@@ -87,7 +87,7 @@ translate english worker5_look_5ede57a7:
 
     # mt "Этот карьерист метит на место Босса в этом отделе?"
     # mt "Наивный дурачок!"
-    mt "Is this upstart is aiming for the position of the Head of this department?"
+    mt "Is this upstarting creep aiming for the position of the head of this department?"
     mt "Naive fool!"
 
 # TODO: Translation updated at 2019-07-17 02:25
@@ -97,7 +97,7 @@ translate english worker5_dialogue_workplace_c9ce837f:
 
     # m "Мне это не очень интересно. Я здесь не надолго."
     # m "Но, все-же, расскажи мне про работников этого отдела."
-    m "I don’t care about it, I'm here not for long."
+    m "I don’t care about it, I won't stay here for long."
     m "But, fine, tell me about people working here."
 
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:21
@@ -125,7 +125,7 @@ translate english worker5_dialogue_workplace_a477d74d:
 
     # w5 "Близняшки Элла и Эмма.. Они тоже делают отчеты."
     # w5 "Хотя что говорить... Мы все тут делаем отчеты."
-    w5 "Twins Emma and Ella. They also do reporting."
+    w5 "Emma and Ella over there are twins. They also do reporting."
     w5 "Well...we all do reporting over here..."
 
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:35
@@ -160,7 +160,7 @@ translate english worker5_dialogue_workplace_52f57fda:
 translate english worker5_dialogue_workplace_7cae5373:
 
     # m "Я поняла, возвращайся к работе!"
-    m "I understan, get back to work now."
+    m "I understand, get back to work now."
 
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:62
 translate english worker5_dialogue_office_9626eafb:
@@ -174,7 +174,7 @@ translate english worker5_dialogue_office_9adfaa0d:
     # w5 "Миссис Бакфет, Вы же знаете, я очень ответственный и без меня этот отдел просто развалится."
     # w5 "Еще эта толстуха Грета так и наровит занять мое законное место."
     # w5 "И я буду Вам бесконечно благодарен если Вы..."
-    w5 "As you know, I'm the most responsible person in this department, and without me it will all go to ruin."
+    w5 "As you know, I'm the most responsible person in this department, and without me nothing works here."
     w5 "Moreover, fat Gretha is aiming to take my position!"
     w5 "And I'll be infinitely gratefull to you if..."
 
@@ -184,13 +184,13 @@ translate english worker5_dialogue_office_53dd1223:
     # m "Достаточно..."
     # m "Чем чаще ты задаешь мне такие вопросы тем дальше от тебя эта должность."
     m "That was nice..."
-    m "The more you talk like this, further promotion is from you."
+    m "The more you talk like this, the further a promotion is away from you."
 
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:75
 translate english worker5_dialogue_office_df162906:
 
     # mt "И что это вообще за должность? Почему он думает, что этому отделу нужен какой-то мифический начальник кроме меня?"
-    mt "What promotion he even talks about? Why does he think that this departmnet need someone exept me as a Boss?"
+    mt "What promotion he even talks about? Why does he think that this departement needs someone exept me as a Boss?"
 
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:79
 translate english worker5_dialogue_office_97c89eec:

@@ -6,7 +6,7 @@ translate english ep26_dialogues2_steve1_434009b7:
     # m "Стив. Мне надо еще немного денег..."
     # m "Ты ведь понимаешь, что я скоро разберусь со своими проблемами и верну тебе в 100 раз большую сумму!"
     m "Steve, I need some more cash..."
-    m "I'll take care of my problems soon and will return you 100 more than you are giving me now!"
+    m "I'll take care of my problems soon and will get back the double amount."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:16
 translate english ep26_dialogues2_steve1_c8ba5202:
@@ -20,7 +20,7 @@ translate english ep26_dialogues2_steve1_c8ba5202:
 translate english ep26_dialogues2_steve1_d64ba88f:
 
     # m "И, чтобы ускорить этот процесс, мне нужна совсем небольшая денежная сумма."
-    m "And in order to quicken the process, I need a little cash contribuion..."
+    m "And in order to accelerate the process, I need a little cash contribuion..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:21
 translate english ep26_dialogues2_steve1_17b86e33:
@@ -100,9 +100,9 @@ translate english ep26_dialogues2_steve1_547e7899:
     # mt "Нормальном!"
     mt "!!!"
     mt "Strange coincidence..."
-    mt "On the other hand, restaurant is pretty decent..."
-    mt "And it would be nice to again eat at the nice place for once and feel like a lady..."
-    mt "At the nice place!"
+    mt "On the other hand, the restaurant is pretty decent..."
+    mt "And it would be nice to again eat at a nice place for once and feel like a lady..."
+    mt "At this nice place!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:76
 translate english ep26_dialogues2_steve1_314a8bec:
@@ -136,7 +136,7 @@ translate english ep26_dialogues2_steve1_ce927d63:
     # steve  "Моника, я бы хотел, чтобы ты пообщалась с Джейн."
     # steve  "Она интересуется тобой и восхищается тобой и твоей фигурой."
     steve  "I'd like you to talk with Jane."
-    steve  "She is very interested in you and admire your looks."
+    steve  "She is very interested in you and admires your look."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:94
 translate english ep26_dialogues2_steve1_6249a892:
@@ -144,7 +144,7 @@ translate english ep26_dialogues2_steve1_6249a892:
     # steve  "Я бы мог удовлетворить ее любопытство по поводу твоего тела, но не думаю что это будет тактично."
     # steve "В конце концов, она моя невеста, хе-хе!"
     steve  "I can tell her about your body, having the first hand experience, but I don't think it will be proper..."
-    steve "She is my fiance, afterall! He-he."
+    steve "She is my fiance, after all! He-he."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:97
 translate english ep26_dialogues2_steve1_29a4f6ab:
@@ -167,7 +167,7 @@ translate english ep26_dialogues2_steve1_bb4489fc:
     # steve "Может быть, если она сосредоточится на своей фигуре, это ее временно отвлечет."
     # steve "И она оставит меня в покое! Хе-хе!"
     steve "Jane is becoming very demanding lately."
-    steve "Talk with you my take her mind of me!"
+    steve "Talk with her so I don't have to do it!"
     steve "And she will finally leave me alone! He-he."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:114
@@ -218,7 +218,7 @@ translate english ep26_dialogues2_steve1_e252dce2:
     # steve "Помнишь, ты очень интересовалась ей?"
     steve "Mrs. Buckfett is willing to answer any of your questions!"
     steve "She will even show you her chest!"
-    steve "You was very interested, remember?"
+    steve "You were very interested, remember?"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:144
 translate english ep26_dialogues2_steve1_e7aface1:
@@ -254,7 +254,7 @@ translate english ep26_dialogues2_steve1_fc059b8e:
     # m "ПОКАЗАТЬ ГРУДЬ?!"
     # m "А задницу мне ей не надо показать, Стив?!"
     m "SHOW MY CHEST?!"
-    m "Maybe you want me to show her my butt aswell?!"
+    m "Maybe you want me to show her my butt as well?!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:165
 translate english ep26_dialogues2_steve1_c1a3c96b:
@@ -278,7 +278,7 @@ translate english ep26_dialogues2_steve1_9011d33b:
     # steve "Потому я и решил так сказать."
     # steve "Обычный разговор вряд-ли отвлечет ее от того, что на принялась наседать на меня."
     steve "That's why I said it."
-    steve "Simple talk is unlikely to distract her."
+    steve "Simple talk is a easy distraction for her."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:191
 translate english ep26_dialogues2_steve1_3a50f0b8:
@@ -292,7 +292,7 @@ translate english ep26_dialogues2_steve1_2025a1c7:
     # m "Зато я могу рассказать ей, чем ты занимаешься здесь!"
     # m "Пока она ждет вашей свадьбы..."
     m "On the other hand, I can tell here about everything you do here."
-    m "While she is waiting for your marriage..."
+    m "While she is waiting for the marriage..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:196
 translate english ep26_dialogues2_steve1_86249fa4:
@@ -349,7 +349,7 @@ translate english ep26_dialogues2_steve1_eed040b2:
 
     # m "Ты имеешь ввиду эти унизительные контракты?"
     # m "Во время которых мне приходится сосать твой гребаный член у тебя под столом?!"
-    m "Are you talking about these humuliating deals?"
+    m "Are you talking about these humiliating deals?"
     m "When I have to suck your fucking dick under the table?"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:225
@@ -392,8 +392,8 @@ translate english ep26_dialogues2_steve1_17dfaa49:
     # steve "Я уже видел твою киску и даже кончал в нее..."
     # steve "А в женщине должна оставаться какая-то загадка."
     steve "Monica, I don’t want it."
-    steve "I've already seen you pussy..."
-    steve "I've already seen you pussy and came inside it..."
+    steve "I've already seen your pussy..."
+    steve "I've already seen your pussy and came inside it..."
     steve "Women should have something mysterious about them."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:256
@@ -403,7 +403,7 @@ translate english ep26_dialogues2_steve1_5a361d4d:
     # steve "А, кроме груди, у тебя, Моника, есть только твоя маленькая девственная дырочка в попе."
     # steve "Если ты захочешь, это останется для меня единственной загадкой в тебе как в женщине."
     steve "Otherwise I can lose interest in her."
-    steve "And apart from you chest, Monica. Only mysterious thing you have left is your small virgin butthole."
+    steve "And apart from your chest, Monica. The only mysterious thing you have left is your small virgin butthole."
     steve "Is it really what you want?"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:265
@@ -524,7 +524,7 @@ translate english ep26_dialogues2_steve3_5f21f493:
     # jane "Миссис Бакфетт, скажите, чем Вы питаетесь в данный момент?"
     # jane "Какая сейчас лучшая диета?"
     jane "Mrs. Buckfett, what do you eat nowadays?"
-    jane "What is the best diet today?"
+    jane "What is the best diet at the moment?"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:345
 translate english ep26_dialogues2_steve3_76bfd7e0:
@@ -543,8 +543,8 @@ translate english ep26_dialogues2_steve3_19c6d55b:
 
     # m "За моим рационом следит известный доктор!"
     # m "Который скурпулезно составляет список блюд, содержащих необходимые вещества и витамины."
-    m "Famous doctor is taking care of my diet."
-    m "He meticulously prepares a list of dishes which contain all necessary vitamins and materials needed for my body."
+    m "A famous doctor is taking care of my diet."
+    m "He meticulously prepares a list of dishes which contain all necessary vitamins and materials my body needs."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:356
 translate english ep26_dialogues2_steve3_be44082e:
@@ -635,7 +635,7 @@ translate english ep26_dialogues2_steve3_e4979ac0:
 
     # m "Фитнес-центр, куда я хожу - только для элитных девушек, имеющих положение в обществе!"
     # m "И туда можно попасть только по приглашению."
-    m "This gym is only for elite girls like myself with high position in the society."
+    m "This gym is only for elite girls like me with a high position in the society."
     m "You can only get in by invitation."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:409
@@ -697,7 +697,7 @@ translate english ep26_dialogues2_steve3_8326aef0:
 
     # mt "Мне надоела эта Джейн!"
     # mt "Я хочу побыстрее пообедать в дорогом ресторане!"
-    mt "She is starting to get on my nerve."
+    mt "She is starting to bug me."
     mt "I want to get out of here to eat at the expensive restaurant."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:449
@@ -801,7 +801,7 @@ translate english ep26_dialogues2_steve3_b920950b:
 
     # m "К тому же, мне есть чем гордиться."
     # m "И я, так уж и быть, сделаю это..."
-    m "And I have a lot to be proud about..."
+    m "And I have a lot to be proud of..."
     m "Fine... fine... I'll do it..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:518
@@ -1041,8 +1041,8 @@ translate english ep26_dialogues2_steve5_63ac7fa9:
     # steve "Разве у Стива нет подчиненных, чтобы доставить отчеты?"
     # steve "К чему заставлять себя ехать через весь город?"
     steve "Betty!"
-    steve "Doesn’t he have any subordinates to diliver the reports?"
-    steve "Why make himself drive such a distanse for these reports?"
+    steve "Doesn’t he have any subordinates to deliver the reports?"
+    steve "Why make his wife drive such a distanse for these reports?"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:677
 translate english ep26_dialogues2_steve5_dfb56708:
@@ -1188,14 +1188,14 @@ translate english ep26_dialogues2_steve5_621ef1c6:
     # steve "Бетти, подойди ко мне!"
     # steve "Подойди ко мне поближе, скорее, Бетти!"
     steve "Betty, come closer!"
-    steve "Please, Betty!"
+    steve "Bitte, Betty!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:746
 translate english ep26_dialogues2_steve5_7b08b40c:
 
     # betty "Стив, я не понимаю, чего ты от меня хочешь?"
     # betty "Я же ясно сказала тебе, что тороплюсь!"
-    betty "I don't understan what you want from me."
+    betty "I don't understand what you want from me."
     betty "I've already told you that I'm in a hurry."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:751
@@ -1222,7 +1222,7 @@ translate english ep26_dialogues2_steve5_f21f1bf6:
 translate english ep26_dialogues2_steve5_dccbb5ee:
 
     # steve "Мысль о том, что ты только что тренировала ее на фитнесе, возбуждает меня!"
-    steve "Just thinking about how you were working on it during work out exites me!"
+    steve "Just thinking about how you were working on it during your work outs exites me!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:765
 translate english ep26_dialogues2_steve5_0c988e33:
@@ -1392,7 +1392,7 @@ translate english ep26_dialogues2_steve5_7825ab49:
     # steve "Моника, но за что?!"
     # steve "Я честный бизнесмен! Я облегчил тебе выполнение контракта!"
     steve "But why, Monica?"
-    steve "I'm an honest enterprenuer! I eased terms of our deal!"
+    steve "I'm an honest enterprenuer! I made some terms of our deal more easy for you!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:871
 translate english ep26_dialogues2_steve5_57eb44eb:
@@ -1503,7 +1503,7 @@ translate english ep26_dialogues2_steve5_dfdd1207:
     # m "И останешься без своих яиц..."
     # m "Тебе понятно?!"
     m "You do it again, Steve..."
-    m "And you will be missing your dear balls..."
+    m "And you will be singing one octave higher..."
     m "Do you understand me?!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:928
@@ -1604,7 +1604,7 @@ translate english ep26_dialogues2_steve1_ce1f18e2:
     # steve "И даже показать свою грудь!"
     # steve "Помнишь, ты очень интересовалась ей?"
     steve "She will even show you her chest!"
-    steve "You was very interested, remember?"
+    steve "You were very interested, remember?"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:328
 translate english ep26_dialogues2_steve1_menu_loop1_f4859c15:
@@ -1630,13 +1630,13 @@ translate english ep26_dialogues2_steve1_menu_loop1_653f12aa:
     # steve "Моника, я не хочу этого делать."
     # steve "Я уже видел твою киску."
     steve "Monica, I don’t want it."
-    steve "I've already seen you pussy..."
+    steve "I've already seen your pussy..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:351
 translate english ep26_dialogues2_steve1_menu_loop1_817873de:
 
     # steve "Я уже видел твою киску и даже кончал в нее..."
-    steve "I've already seen you pussy and came inside it..."
+    steve "I've already seen your pussy and came inside it..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:353
 translate english ep26_dialogues2_steve1_menu_loop1_af041af7:
@@ -1651,7 +1651,7 @@ translate english ep26_dialogues2_steve1_menu_loop1_5a361d4d:
     # steve "А, кроме груди, у тебя, Моника, есть только твоя маленькая девственная дырочка в попе."
     # steve "Если ты захочешь, это останется для меня единственной загадкой в тебе как в женщине."
     steve "Otherwise I can lose interest in her."
-    steve "And apart from you chest, Monica. Only mysterious thing you have left is your small virgin butthole."
+    steve "And apart from your chest, Monica. The only mysterious thing you have left is your small virgin butthole."
     steve "Is it really what you want?"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:367
@@ -1699,27 +1699,27 @@ translate english ep26_dialogues2_steve5_7b08b40c_1:
 
     # betty "Стив, я не понимаю, чего ты от меня хочешь?"
     # betty "Я же ясно сказала тебе, что тороплюсь!"
-    betty "I don't understan what you want from me."
+    betty "I don't understand what you want from me."
     betty "I've already told you that I'm in a hurry."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1128
 translate english ep26_dialogues2_steve5_dc060fe1:
 
     # steve "Это не измена, Бетти!"
-    steve "Это не измена, Бетти!"
+    steve "It's not cheating, Betty!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1131
 translate english ep26_dialogues2_steve5_bfc2e6e0:
 
     # steve "Это, всего-лишь, акт старой дружбы!"
-    steve "Это, всего-лишь, акт старой дружбы!"
+    steve "It's just for the sake of our old friendship!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1142
 translate english ep26_dialogues2_steve5_7b08b40c_2:
 
     # betty "Стив, я не понимаю, чего ты от меня хочешь?"
     # betty "Я же ясно сказала тебе, что тороплюсь!"
-    betty "I don't understan what you want from me."
+    betty "I don't understand what you want from me."
     betty "I've already told you that I'm in a hurry."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1159
@@ -1745,16 +1745,16 @@ translate english ep26_dialogues2_steve5_9aac6fb9:
 
     # betty "Ты куда залез, Стив?!"
     # betty "Ай!!!"
-    betty "Ты куда залез, Стив?!"
-    betty "Ай!!!"
+    betty "Where are you putting it, Steve?!"
+    betty "Ouch!!!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1210
 translate english ep26_dialogues2_steve5_9784c7d6:
 
     # steve "В твою попку, Бетти!"
     # steve " Я так давно хотел тебя трахнуть в попку!"
-    steve "В твою попку, Бетти!"
-    steve " Я так давно хотел тебя трахнуть в попку!"
+    steve "In your butt, Betty!"
+    steve "I dreamed about it for so long!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1213
 translate english ep26_dialogues2_steve5_aa5b8b8e:
@@ -1764,11 +1764,11 @@ translate english ep26_dialogues2_steve5_aa5b8b8e:
     # steve " Мне нравиться трахать тебя в твою дырочку!"
     # steve "Она бесподобна!"
     # steve "Я хочу кончить в нее"
-    betty "Мне больно!"
+    betty "It hurts!"
     steve "Your butt!"
-    steve " Мне нравиться трахать тебя в твою дырочку!"
+    steve "I love fucking your hole!"
     steve "Is marvelous!"
-    steve "Я хочу кончить в нее"
+    steve "I want to cum into it"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1221
 translate english ep26_dialogues2_steve5_cef4c5dd:
@@ -1792,7 +1792,7 @@ translate english ep26_dialogues2_steve5_d616566f:
 translate english ep26_dialogues2_steve5_1debaf9f:
 
     # betty "Черт, Стив! Ты кончил в меня?!"
-    betty "Черт, Стив! Ты кончил в меня?!"
+    betty "Damn it, Steve! Did you came inside?!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1236
 translate english ep26_dialogues2_steve5_43354b23:
@@ -1854,37 +1854,37 @@ translate english strings:
 
     # Quests/EP2_06/ep26_dialogues2_steve.rpy:7
     old "Знакомство с Джейн."
-    new ""
+    new "Getting aquainted with Jane."
 
     # Quests/EP2_06/ep26_dialogues2_steve.rpy:7
     old "Ревность Джейн. (в следующих обновлениях) (disabled)"
-    new ""
+    new "Jane's jealousy (in the next updates) (disabled)"
 
     # Quests/EP2_06/ep26_dialogues2_steve.rpy:7
     old "Удобное кресло. (в следующих обновлениях) (disabled)"
-    new ""
+    new "Comfortable chair (in the next updates) (disabled)"
 
     # Quests/EP2_06/ep26_dialogues2_steve.rpy:7
     old "Фитнес тренер. (в следующих обновлениях) (disabled)"
-    new ""
+    new "Gym trainer (in the next updates) (disabled)"
 
     # Quests/EP2_06/ep26_dialogues2_steve.rpy:403
     old "Стив ждет что Моника заключит контракт на общение с Джейн"
-    new ""
+    new "Steve is waiting for Monica to make a deal with Jane."
 
     # Quests/EP2_06/ep26_dialogues2_steve.rpy:799
     old "Le Grand Certificate"
-    new ""
+    new "La Grand meal ticket"
 
     # Quests/EP2_06/ep26_dialogues2_steve.rpy:819
     old "Моника должна Стиву неустойку на сорванный контракт"
-    new ""
+    new "Monica has to pay a fine for breaking a deal with Steve"
 
     # Quests/EP2_06/ep26_dialogues2_steve.rpy:1045
     old "Взять член Стива."
-    new ""
+    new "Take Steve's cock."
 
     # Quests/EP2_06/ep26_dialogues2_steve.rpy:1137
     old "Ладно, Стив. Только быстро!"
-    new ""
+    new "Alright, Steve. But be quick!"
 

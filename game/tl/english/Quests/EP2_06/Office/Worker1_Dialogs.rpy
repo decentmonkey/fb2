@@ -12,7 +12,7 @@ translate english worker1_dialogue_workplace_305f59f1:
     # w1 "Да, мэм!"
     m "Listen..."
     w1 "Oh... I..."
-    m "Сat got your tongue?"
+    m "Cat got your tongue?"
     w1 "No.. I'm..."
     m "Looks like it."
     m "When you are finished, bring reports to my office."
@@ -95,7 +95,7 @@ translate english worker1_dialogue_workplace_c526f5b8:
 
     # m "Ты что, язык проглотила?"
     # w1 "Нет... Я..."
-    m "Сat got your tongue?"
+    m "Cat got your tongue?"
     w1 "No.. I'm..."
 
 # game/Quests/EP2_06/Office/Worker1_Dialogs.rpy:27

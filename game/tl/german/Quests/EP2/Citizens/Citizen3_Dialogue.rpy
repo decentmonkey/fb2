@@ -782,7 +782,7 @@ translate german cit3_naked_boobs_1st_6446bf64:
 translate german cit3_naked_boobs_1st_51d720c9:
 
     # m "Они выглядят отлично! Но тебя это не касается!"
-    m "Они выглядят отлично! Но тебя это не касается!"
+    m "Sie sehen toll aus, aber das geht dich nichts an!"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:277
 translate german cit3_naked_boobs_1st_14e6d0ff:
@@ -994,5 +994,5 @@ translate german strings:
 
     # Quests/EP2/Citizens/Citizen3_Dialogue.rpy:279
     old "Почему бы и нет. Это возможность заработать деньги..."
-    new ""
+    new "Warum nicht? Es ist eine Gelegenheit, etwas Geld zu verdienen..."
 

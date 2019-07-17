@@ -1349,8 +1349,8 @@ translate english ep22_dialogue6_3_164b6c35:
     # "Цыпочек, которые не увиливают от посещения работы!"
     biff "No, girl!"
     biff "You are skipping your work to often!"
-    "It's turn for other babes to ear money!"
-    "Babe, who do not skip their job!"
+    "It's time for other babes to ear money!"
+    "Babes who do not skip their job too often!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:317
 translate english ep22_dialogue6_3_f27eb96d_2:
@@ -1484,9 +1484,9 @@ translate english ep22_dialogue6_3_20243481:
     # biff "Только цыпочка! Тебе надо пройти кастинг после фотосессии!"
     # biff "Цыпочка теперь работает у папочки в офисе!"
     # biff "Значит цыпочка должна развлекать папочку!"
-    biff "Только цыпочка! Тебе надо пройти кастинг после фотосессии!"
-    biff "Цыпочка теперь работает у папочки в офисе!"
-    biff "Значит цыпочка должна развлекать папочку!"
+    biff "But girl! You will have to go through the audition after the photoshoot!"
+    biff "Girl is working in daddy's office now!"
+    biff "Meaning she has to entartain her daddy now!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:461
 translate english ep22_dialogue6_3_463d2ad5_1:
@@ -1670,5 +1670,5 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:421
     old "Монике надо ходить на работу в офис хотя бы раз в неделю."
-    new ""
+    new "Monica have to go to work in the office at least once a week."
 
