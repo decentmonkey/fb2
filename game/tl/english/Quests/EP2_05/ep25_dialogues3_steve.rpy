@@ -1856,3 +1856,19 @@ translate english strings:
     old "СПУСТЯ 15 МИНУТ..."
     new "15 MINUTES LATER..."
 
+# TODO: Translation updated at 2019-07-17 02:25
+
+translate english strings:
+
+    # Quests/EP2_05/ep25_dialogues3_steve.rpy:68
+    old "Контракт с Джейн. (сначала надо закрыть сделку) (disabled)"
+    new ""
+
+    # Quests/EP2_05/ep25_dialogues3_steve.rpy:68
+    old "Контракт с Джейн. (disabled)"
+    new ""
+
+    # Quests/EP2_05/ep25_dialogues3_steve.rpy:68
+    old "Контракт с Джейн."
+    new ""
+

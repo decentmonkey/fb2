@@ -68,3 +68,73 @@ translate german worker3_look_0c71281a:
     mt "Они думают что они красивые?"
     mt "Они ошибаются! Фи!"
 
+# TODO: Translation updated at 2019-07-17 02:23
+
+# game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:32
+translate german worker3_dialogue_office_97fb610b:
+
+    # m "Да, заходи."
+    m "Да, заходи."
+
+# game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:35
+translate german worker3_dialogue_office_464f858a:
+
+    # w3 "Миссис Бакфет, в офисе очень жарко, нам нужен кондиционер."
+    w3 "Миссис Бакфет, в офисе очень жарко, нам нужен кондиционер."
+
+# game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:37
+translate german worker3_dialogue_office_ae2a9bba:
+
+    # m "А что, его нет?"
+    m "А что, его нет?"
+
+# game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:40
+translate german worker3_dialogue_office_032380a9:
+
+    # w3 "В этом помещении нет и никогда не было."
+    w3 "В этом помещении нет и никогда не было."
+
+# game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:44
+translate german worker3_dialogue_office_c0952c96:
+
+    # m "Эту проблему очень просто решить!"
+    # m "Откройте окна!"
+    m "Эту проблему очень просто решить!"
+    m "Откройте окна!"
+
+# game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:48
+translate german worker3_dialogue_office_8e3c5dc4:
+
+    # w3 "Да, но это не совсем..."
+    w3 "Да, но это не совсем..."
+
+# game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:51
+translate german worker3_dialogue_office_bfb6be2f:
+
+    # m "Отлично, а теперь иди и продолжай работать."
+    m "Отлично, а теперь иди и продолжай работать."
+
+# game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:54
+translate german worker3_dialogue_office_0bcf8d50:
+
+    # mt "Никчемные люди... Все время что-то требуют..."
+    mt "Никчемные люди... Все время что-то требуют..."
+
+# game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:59
+translate german worker3_dialogue_office_e2dc5fbb:
+
+    # m "Я занята, приходи завтра."
+    m "Я занята, приходи завтра."
+
+# game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:62
+translate german worker3_dialogue_office_e895d3c3:
+
+    # w3 "Ладно, но у меня проблема..."
+    w3 "Ладно, но у меня проблема..."
+
+# game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:67
+translate german worker3_dialogue_office_fc91423b:
+
+    # m "Ты что, плохо слышишь!? Я сейчас занята!"
+    m "Ты что, плохо слышишь!? Я сейчас занята!"
+

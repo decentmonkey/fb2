@@ -1348,13 +1348,327 @@ translate english ep22_dialogue6_3_164b6c35:
     # "Сейчас очередь других цыпочек зарабатывать деньги!"
     # "Цыпочек, которые не увиливают от посещения работы!"
     biff "No, girl!"
-    biff "Ты слишком часто прогуливаешь работу!"
-    "Сейчас очередь других цыпочек зарабатывать деньги!"
-    "Цыпочек, которые не увиливают от посещения работы!"
+    biff "You are skipping your work to often!"
+    "It's turn for other babes to ear money!"
+    "Babe, who do not skip their job!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:317
 translate english ep22_dialogue6_3_f27eb96d_2:
 
     # mt "УРОД!!!"
     mt "FREAK!!!"
+
+# TODO: Translation updated at 2019-07-17 02:25
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:126
+translate english ep22_dialogue6_2_1adc3f0a_2:
+
+    # secretary "Мистер Биф лучше нас знает что нам необходимо."
+    # secretary "Мистер Биф заботится о нас..."
+    secretary "Mr. Biff knows better than we do."
+    secretary "Mr. Biff takes care of us..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:224
+translate english ep22_dialogue6_2b_9f6e5332_2:
+
+    # secretary "Он сказал что будет вечером!"
+    secretary "He said he would be back in the evening!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:254
+translate english ep22_dialogue6_2b_5706e483_4:
+
+    # secretary "Миссис Бакфетт!"
+    # "Мистера Бифа сейчас нет на месте!"
+    secretary "Mrs. Buckfett!"
+    "Mr. Biff is not here right now!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:257
+translate english ep22_dialogue6_2b_bbef166c_4:
+
+    # m "Когда он будет?"
+    m "When will he be back?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:262
+translate english ep22_dialogue6_2b_0f0242d3_4:
+
+    # m "Хорошо, дорогая, спасибо."
+    m "Okay, honey, thank you."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:268
+translate english ep22_dialogue6_2b_5706e483_5:
+
+    # secretary "Миссис Бакфетт!"
+    # "Мистера Бифа сейчас нет на месте!"
+    secretary "Mrs. Buckfett!"
+    "Mr. Biff is not here right now!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:271
+translate english ep22_dialogue6_2b_bbef166c_5:
+
+    # m "Когда он будет?"
+    m "When will he be back?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:273
+translate english ep22_dialogue6_2b_bf57c0f2_2:
+
+    # secretary "Он сказал что будет завтра!"
+    # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+    secretary "He said he would be tomorrow!"
+    "But, you know, he says what he wants and has absolutely no discipline!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:276
+translate english ep22_dialogue6_2b_0f0242d3_5:
+
+    # m "Хорошо, дорогая, спасибо."
+    m "Okay, honey, thank you."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:334
+translate english ep22_dialogue6_3_3c7281b0_2:
+
+    # m "Биф..."
+    # "Я хотела узнать у тебя..."
+    # "Есть-ли еще работа?"
+    m "Biff..."
+    "I wanted to know..."
+    "Is there any more work?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:338
+translate english ep22_dialogue6_3_8d06aa28_2:
+
+    # "Мне нужны деньги..."
+    "I need money!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:362
+translate english ep22_dialogue6_3_f5dcc011_2:
+
+    # biff "Нет, цыпочка!"
+    # "Сейчас очередь других цыпочек!"
+    # "Ты пока еще не настолько полюбилась папочке!"
+    biff "No, girl!"
+    "It's the other girls' turn!"
+    "Daddy isn't that fond of you yet!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:399
+translate english ep22_dialogue6_3_eaa18a59_2:
+
+    # m "А если я пройду дополнительный кастинг?..."
+    m "What if I do an extra audition?..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:401
+translate english ep22_dialogue6_3_6bf66bbb_2:
+
+    # biff "Эта цыпочка пока слишком скучная для дополнительного кастинга!"
+    # "Я держу эту куклу только из-за того что она похожа на сучку Бакфетт!"
+    # "Иди и не отвлекай папочку! Ему нужно заботить о других цыпочках!"
+    biff "You're still far too boring for additional casting!"
+    "The only reason you're here is because you look like that bitch Monica Buckfett!"
+    "Go and don't distract daddy! He needs to take care of the other girls!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:406
+translate english ep22_dialogue6_3_383c8c67_2:
+
+    # mt "Я НЕНАВИЖУ ЭТОГО УРОДА!!!"
+    # "КОГДА Я ВЕРНУ СВОЕ МЕСТО НАЗАД?!?!"
+    mt "I HATE THIS MONSTER!!!"
+    "WHEN I RETURN IT BACK?!?!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:420
+translate english ep22_dialogue6_3_f27eb96d_3:
+
+    # mt "УРОД!!!"
+    mt "FREAK!!!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:438
+translate english ep22_dialogue6_3_20243481:
+
+    # biff "Только цыпочка! Тебе надо пройти кастинг после фотосессии!"
+    # biff "Цыпочка теперь работает у папочки в офисе!"
+    # biff "Значит цыпочка должна развлекать папочку!"
+    biff "Только цыпочка! Тебе надо пройти кастинг после фотосессии!"
+    biff "Цыпочка теперь работает у папочки в офисе!"
+    biff "Значит цыпочка должна развлекать папочку!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:461
+translate english ep22_dialogue6_3_463d2ad5_1:
+
+    # mt "О БОЖЕ!!!"
+    # "Только не это!!!"
+    mt "Oh my God!!!"
+    "No, not this shit again!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:491
+translate english ep22_dialogue6_3_ebd5bf2f_2:
+
+    # biff "Я знаю ты увиливаешь от кастинга, но тебе придется его пройти!"
+    # "Иначе не будет карьерного роста!"
+    # "Ты понимаешь?"
+    biff "I know you're avoiding the casting, but you're gonna have to pass in order to get work!"
+    "And if you don't get any work, your career will never take off!"
+    "Do you understand?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:495
+translate english ep22_dialogue6_3_92868277_2:
+
+    # m "Да, я понимаю, Биф..."
+    m "Yes, I understand, Biff..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:497
+translate english ep22_dialogue6_3_8cf89654_2:
+
+    # mt "Сволочь!!!"
+    mt "Swine!!!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:544
+translate english ep22_dialogue6_4_5387a607_2:
+
+    # alex_photograph "Миссис Бакфетт!"
+    # "Здравствуйте!"
+    alex_photograph "Mrs. Buckfett!"
+    "Hello!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:547
+translate english ep22_dialogue6_4_4e57def4_2:
+
+    # m "Здравствуй, Алекс..."
+    m "Hello, Alex..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:549
+translate english ep22_dialogue6_4_24fcd9b8_2:
+
+    # alex_photograph "Вы хотите сделать еще одну фотосессию?"
+    alex_photograph "Do you want to do another photo shoot?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:605
+translate english ep22_dialogue6_5_5387a607_2:
+
+    # alex_photograph "Миссис Бакфетт!"
+    # "Здравствуйте!"
+    alex_photograph "Mrs. Buckfett!"
+    "Hello!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:608
+translate english ep22_dialogue6_5_4e57def4_2:
+
+    # m "Здравствуй, Алекс..."
+    m "Hello, Alex..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:610
+translate english ep22_dialogue6_5_24fcd9b8_2:
+
+    # alex_photograph "Вы хотите сделать еще одну фотосессию?"
+    alex_photograph "Do you want to do another photo shoot?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:664
+translate english ep22_dialogue6_5_cd496de6_2:
+
+    # mt "Дьявол! Не знаю куда эти грязные фотосессии меня заведут!"
+    # "Надо кончать с этим скорее!"
+    mt "Damn it! I have no idea where doing all these dirty shoots will lead me!"
+    "I just need to get this over with quickly..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:669
+translate english ep22_dialogue6_5_e8b1bba9_2:
+
+    # alex_photograph "Миссис Бакфетт!"
+    # "Вы уже знаете кем в каком наряде Вы будете сниматься в этот раз?"
+    alex_photograph "Mrs. Buckfett!"
+    "Do you know what outfit you are going to put on this time?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:673
+translate english ep22_dialogue6_5_d36a5df4_2:
+
+    # m "Еще не знаю..."
+    # "Что там Биф придумал на этот раз?"
+    m "Not sure yet..."
+    "What did Biff come up with this time?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:713
+translate english ep22_dialogue6_5a_30c909fa_2:
+
+    # alex_photograph "Отлично, Миссис Бакфетт!"
+    # "Можете переодеваться здесь! Я не буду смотреть!"
+    alex_photograph "OK, Mrs. Buckfett!"
+    "You can change in here, I won't be looking!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:716
+translate english ep22_dialogue6_5a_daac2c93_2:
+
+    # m "Я переоденусь в гримерке!"
+    # "Надеюсь Мелани не закрыла ее в этот раз?"
+    m "No, I'll change in the dressing room!"
+    "If Melanie hasn't closed it again..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:719
+translate english ep22_dialogue6_5a_01b2865a_2:
+
+    # alex_photograph "Нет, Миссис Бакфетт, она открыта..." 
+    alex_photograph "No, Mrs. Buckfett, it's open." 
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:722
+translate english ep22_dialogue6_5a_b415592f_2:
+
+    # m "Я скоро вернусь!"
+    m "I'll be right back!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:956
+translate english ep22_dialogue6_7_61f5b2d4_2:
+
+    # biff "Да, цыпочка!"
+    # biff "На следующей неделе я не нуждаюсь в твоих услугах!"
+    # biff "Приходи позднее!"
+    biff "Yeah, girl!"
+    biff "I won't be needing your services next week."
+    biff "Come at later date."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:961
+translate english ep22_dialogue6_7_00c8991e_2:
+
+    # m "КАК?!!"
+    # m "Биф, но ты говорил что это регулярная работа!"
+    m "WHAT?!"
+    m "Biff, but you told me that it is regular job!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:965
+translate english ep22_dialogue6_7_bad8b4fb_2:
+
+    # biff "Это регулярная работа, цыпочка. Но на следующей неделе ты мне не нужна."
+    biff "It is, but I don’t need you next week, babe."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:968
+translate english ep22_dialogue6_7_48e462c3_2:
+
+    # mt "Дьявол! Где же я достану деньги для Виктории!"
+    mt "Damn it! Where will I find money for Victoria?!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:972
+translate english ep22_dialogue6_7_ff437626_2:
+
+    # m "Биф, хорошо, но мне все-равно нужны деньги..."
+    m "Okay, Biff, but I still need money..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:974
+translate english ep22_dialogue6_7_3998c5f6_2:
+
+    # biff "Цыпочка! Ты начинаешь утомлять папочку!"
+    # biff "Тебя что-то не устраивает? Ты хочешь разорвать наше соглашение?"
+    biff "Stop annoying your Daddy!"
+    biff "Something you don’t like? Do you want to end our agreement?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:978
+translate english ep22_dialogue6_7_098ba49a_2:
+
+    # m "Нет... Биф..."
+    m "No, Biff...."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:980
+translate english ep22_dialogue6_7_ea3188a1_2:
+
+    # m "В этом нет... необходимости"
+    m "It is unnecessary..."
+
+translate english strings:
+
+    # Quests/EP2_02/ep22_dialogues6.rpy:421
+    old "Монике надо ходить на работу в офис хотя бы раз в неделю."
+    new ""
 

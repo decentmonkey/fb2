@@ -44,3 +44,11 @@ translate english bardieProgressLevelUp1_c3cd11eb:
     # help "Уровень Барди максимален для этой версии игры. Ожидайте обновлений!"
     help "Bardi level is maximal for this version of the game. Wait for updates!"
 
+# TODO: Translation updated at 2019-07-17 02:25
+
+# game/Characters/Family/Bardie.rpy:15
+translate english bardieInteract1_ddc3f16d:
+
+    # mt "Надо подождать вечера и придти к нему в комнату."
+    mt "Надо подождать вечера и придти к нему в комнату."
+

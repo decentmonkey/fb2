@@ -2226,3 +2226,69 @@ translate german ep23_dialogue9_5c_ab53e264_1:
     mt "Verdammt! Arme Melanie..."
     "Ich habe Angst mir vorzustellen, was passiert sein könnte..."
 
+# TODO: Translation updated at 2019-07-17 02:23
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1657
+translate german ep23_dialogue9_5a_5635762e_2:
+
+    # m "Алекс, ты не видел Мелани?"
+    m "Алекс, ты не видел Мелани?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1659
+translate german ep23_dialogue9_5a_07b28474_2:
+
+    # alex_photograph "Нет, Миссис Бакфетт, ее сегодня не было."
+    # "Может быть Вы знаете где она?"
+    alex_photograph "Нет, Миссис Бакфетт, ее сегодня не было."
+    "Может быть Вы знаете где она?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1663
+translate german ep23_dialogue9_5a_803dd0c2_2:
+
+    # m "Я... Нет, Алекс... Я не знаю где Мелани..."
+    m "Я... Нет, Алекс... Я не знаю где Мелани..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1699
+translate german ep23_dialogue9_5b_9116c9ea_2:
+
+    # m "Дорогуша, ты не видела Мелани?"
+    m "Дорогуша, ты не видела Мелани?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1701
+translate german ep23_dialogue9_5b_23509a09_2:
+
+    # secretary "Нет, Миссис Бакфетт."
+    # "Ее все ищут!"
+    # "Может быть Вы в курсе где она?"
+    secretary "Нет, Миссис Бакфетт."
+    "Ее все ищут!"
+    "Может быть Вы в курсе где она?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1706
+translate german ep23_dialogue9_5b_279855ef_2:
+
+    # m "Нет, дорогуша..."
+    # "Я... Я не имею представления где она может быть..."
+    m "Нет, дорогуша..."
+    "Я... Я не имею представления где она может быть..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1739
+translate german ep23_dialogue9_5c_7770ec35_2:
+
+    # m "Биф, ты не видел Мелани?"
+    # biff "Нет, цыпочка, я не видел ее."
+    # "Малышка Мелани куда-то пропала."
+    # "Папочка обязательно накажет ее, когда она появится!"
+    m "Биф, ты не видел Мелани?"
+    biff "Нет, цыпочка, я не видел ее."
+    "Малышка Мелани куда-то пропала."
+    "Папочка обязательно накажет ее, когда она появится!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1745
+translate german ep23_dialogue9_5c_ab53e264_2:
+
+    # mt "Черт! Бедная Мелани..."
+    # "Я даже боюсь представить что сейчас с ней..."
+    mt "Черт! Бедная Мелани..."
+    "Я даже боюсь представить что сейчас с ней..."
+

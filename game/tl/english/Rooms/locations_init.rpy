@@ -178,3 +178,19 @@ translate english strings:
     old "Офис Стива"
     new "Steve's office"
 
+# TODO: Translation updated at 2019-07-17 02:25
+
+translate english strings:
+
+    # Rooms/locations_init.rpy:145
+    old "ОФИС"
+    new ""
+
+    # Rooms/locations_init.rpy:154
+    old "Hotel Reception"
+    new ""
+
+    # Rooms/locations_init.rpy:155
+    old "Restaurant"
+    new ""
+

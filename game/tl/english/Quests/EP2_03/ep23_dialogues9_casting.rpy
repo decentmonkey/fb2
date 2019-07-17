@@ -1572,3 +1572,69 @@ translate english ep23_dialogue9_5c_ab53e264_1:
     mt "Damn! Poor Melanie ..."
     "I'm even afraid to imagine what could have happened to her ..."
 
+# TODO: Translation updated at 2019-07-17 02:25
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1657
+translate english ep23_dialogue9_5a_5635762e_2:
+
+    # m "Алекс, ты не видел Мелани?"
+    m "Alex, have you seen Melanie?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1659
+translate english ep23_dialogue9_5a_07b28474_2:
+
+    # alex_photograph "Нет, Миссис Бакфетт, ее сегодня не было."
+    # "Может быть Вы знаете где она?"
+    alex_photograph "No, Mrs. Buckfett, she hasn’t come today."
+    "Do you have any idea where she might be?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1663
+translate english ep23_dialogue9_5a_803dd0c2_2:
+
+    # m "Я... Нет, Алекс... Я не знаю где Мелани..."
+    m "I ... No, Alex ... I don't know where Melanie is ..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1699
+translate english ep23_dialogue9_5b_9116c9ea_2:
+
+    # m "Дорогуша, ты не видела Мелани?"
+    m "Honey, did you see Melanie?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1701
+translate english ep23_dialogue9_5b_23509a09_2:
+
+    # secretary "Нет, Миссис Бакфетт."
+    # "Ее все ищут!"
+    # "Может быть Вы в курсе где она?"
+    secretary "No, Mrs. Buckfett..."
+    "Everyone is looking for her!"
+    "Maybe you know where she is?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1706
+translate english ep23_dialogue9_5b_279855ef_2:
+
+    # m "Нет, дорогуша..."
+    # "Я... Я не имею представления где она может быть..."
+    m "No, darling ..."
+    "I ... I have no idea where she might be ..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1739
+translate english ep23_dialogue9_5c_7770ec35_2:
+
+    # m "Биф, ты не видел Мелани?"
+    # biff "Нет, цыпочка, я не видел ее."
+    # "Малышка Мелани куда-то пропала."
+    # "Папочка обязательно накажет ее, когда она появится!"
+    m "Biff, did you see Melanie?"
+    biff "No, babe, haven't seen her."
+    "She has gone somewhere."
+    "Daddy will punish her when she appears!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1745
+translate english ep23_dialogue9_5c_ab53e264_2:
+
+    # mt "Черт! Бедная Мелани..."
+    # "Я даже боюсь представить что сейчас с ней..."
+    mt "Damn! Poor Melanie ..."
+    "I'm even afraid to imagine what could have happened to her ..."
+

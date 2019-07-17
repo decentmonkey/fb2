@@ -30,3 +30,27 @@ translate english strings:
     old "Basement"
     new "Basement"
 
+# TODO: Translation updated at 2019-07-17 02:25
+
+translate english strings:
+
+    # 00_Functions/mini_map.rpy:75
+    old "Biff's Office"
+    new ""
+
+    # 00_Functions/mini_map.rpy:77
+    old "Employees"
+    new ""
+
+    # 00_Functions/mini_map.rpy:78
+    old "Photo Studiio"
+    new ""
+
+    # 00_Functions/mini_map.rpy:79
+    old "Secretary"
+    new ""
+
+    # 00_Functions/mini_map.rpy:80
+    old "Entrance"
+    new ""
+

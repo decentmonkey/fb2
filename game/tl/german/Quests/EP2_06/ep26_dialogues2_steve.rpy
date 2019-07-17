@@ -1590,3 +1590,301 @@ translate german strings:
     old "Разозлиться на Стива."
     new ""
 
+# TODO: Translation updated at 2019-07-17 02:23
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:192
+translate german ep26_dialogues2_steve1_ec1bc7c7:
+
+    # steve "Миссис Бакфетт готова ответить на все твои вопросы!"
+    steve "Миссис Бакфетт готова ответить на все твои вопросы!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:195
+translate german ep26_dialogues2_steve1_ce1f18e2:
+
+    # steve "И даже показать свою грудь!"
+    # steve "Помнишь, ты очень интересовалась ей?"
+    steve "И даже показать свою грудь!"
+    steve "Помнишь, ты очень интересовалась ей?"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:328
+translate german ep26_dialogues2_steve1_menu_loop1_f4859c15:
+
+    # m "Хорошо, Стив..."
+    # m "Мерзавец..."
+    # m "Я сделаю это..."
+    m "Хорошо, Стив..."
+    m "Мерзавец..."
+    m "Я сделаю это..."
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:342
+translate german ep26_dialogues2_steve1_menu_loop1_f2370210:
+
+    # m "Стив, если уж ты так хочешь, то давай я покажу свою грудь тебе!"
+    # m "Вместо этой дуры Джейн!"
+    m "Стив, если уж ты так хочешь, то давай я покажу свою грудь тебе!"
+    m "Вместо этой дуры Джейн!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:347
+translate german ep26_dialogues2_steve1_menu_loop1_653f12aa:
+
+    # steve "Моника, я не хочу этого делать."
+    # steve "Я уже видел твою киску."
+    steve "Моника, я не хочу этого делать."
+    steve "Я уже видел твою киску."
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:351
+translate german ep26_dialogues2_steve1_menu_loop1_817873de:
+
+    # steve "Я уже видел твою киску и даже кончал в нее..."
+    steve "Я уже видел твою киску и даже кончал в нее..."
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:353
+translate german ep26_dialogues2_steve1_menu_loop1_af041af7:
+
+    # steve "А в женщине должна оставаться какая-то загадка."
+    steve "А в женщине должна оставаться какая-то загадка."
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:355
+translate german ep26_dialogues2_steve1_menu_loop1_5a361d4d:
+
+    # steve "Иначе я могу потерять интерес к ней."
+    # steve "А, кроме груди, у тебя, Моника, есть только твоя маленькая девственная дырочка в попе."
+    # steve "Если ты захочешь, это останется для меня единственной загадкой в тебе как в женщине."
+    steve "Иначе я могу потерять интерес к ней."
+    steve "А, кроме груди, у тебя, Моника, есть только твоя маленькая девственная дырочка в попе."
+    steve "Если ты захочешь, это останется для меня единственной загадкой в тебе как в женщине."
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:367
+translate german ep26_dialogues2_steve1_menu_loop1_8c84f4f6:
+
+    # m "Я... Я лучше покажу грудь Джейн..."
+    m "Я... Я лучше покажу грудь Джейн..."
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:377
+translate german ep26_dialogues2_steve1_menu_loop1_413383e4:
+
+    # m "Иди к черту со своими контрактами, Стив!"
+    # steve "Моника, я порядочный бизнесмен!"
+    # steve "И жду тебя снова!"
+    m "Иди к черту со своими контрактами, Стив!"
+    steve "Моника, я порядочный бизнесмен!"
+    steve "И жду тебя снова!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:387
+translate german ep26_dialogues2_steve1_menu_loop1_569be6b6:
+
+    # steve "Отлично!"
+    # steve "Ты можешь следовать к Джейн."
+    # steve "Она уже заждалась тебя!"
+    steve "Отлично!"
+    steve "Ты можешь следовать к Джейн."
+    steve "Она уже заждалась тебя!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:391
+translate german ep26_dialogues2_steve1_menu_loop1_29a4f6ab:
+
+    # m "!!!"
+    m "!!!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:880
+translate german ep26_dialogues2_steve4b_26092e2c:
+
+    # steve "Неустойка компенсирована сполна."
+    # steve "Я жду тебя для новых контрактов, Моника!"
+    steve "Неустойка компенсирована сполна."
+    steve "Я жду тебя для новых контрактов, Моника!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1073
+translate german ep26_dialogues2_steve5_7b08b40c_1:
+
+    # betty "Стив, я не понимаю, чего ты от меня хочешь?"
+    # betty "Я же ясно сказала тебе, что тороплюсь!"
+    betty "Стив, я не понимаю, чего ты от меня хочешь?"
+    betty "Я же ясно сказала тебе, что тороплюсь!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1128
+translate german ep26_dialogues2_steve5_dc060fe1:
+
+    # steve "Это не измена, Бетти!"
+    steve "Это не измена, Бетти!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1131
+translate german ep26_dialogues2_steve5_bfc2e6e0:
+
+    # steve "Это, всего-лишь, акт старой дружбы!"
+    steve "Это, всего-лишь, акт старой дружбы!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1142
+translate german ep26_dialogues2_steve5_7b08b40c_2:
+
+    # betty "Стив, я не понимаю, чего ты от меня хочешь?"
+    # betty "Я же ясно сказала тебе, что тороплюсь!"
+    betty "Стив, я не понимаю, чего ты от меня хочешь?"
+    betty "Я же ясно сказала тебе, что тороплюсь!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1159
+translate german ep26_dialogues2_steve5_ebaf76d2:
+
+    # betty "Ладно, Стив."
+    betty "Ладно, Стив."
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1165
+translate german ep26_dialogues2_steve5_b9d5fba4:
+
+    # betty "Только быстро!"
+    betty "Только быстро!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1203
+translate german ep26_dialogues2_steve5_9c47471b:
+
+    # steve "Да, Бетти! Да!"
+    steve "Да, Бетти! Да!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1207
+translate german ep26_dialogues2_steve5_9aac6fb9:
+
+    # betty "Ты куда залез, Стив?!"
+    # betty "Ай!!!"
+    betty "Ты куда залез, Стив?!"
+    betty "Ай!!!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1210
+translate german ep26_dialogues2_steve5_9784c7d6:
+
+    # steve "В твою попку, Бетти!"
+    # steve " Я так давно хотел тебя трахнуть в попку!"
+    steve "В твою попку, Бетти!"
+    steve " Я так давно хотел тебя трахнуть в попку!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1213
+translate german ep26_dialogues2_steve5_aa5b8b8e:
+
+    # betty "Мне больно!"
+    # steve "Твоя попка, Бетти!"
+    # steve " Мне нравиться трахать тебя в твою дырочку!"
+    # steve "Она бесподобна!"
+    # steve "Я хочу кончить в нее"
+    betty "Мне больно!"
+    steve "Твоя попка, Бетти!"
+    steve " Мне нравиться трахать тебя в твою дырочку!"
+    steve "Она бесподобна!"
+    steve "Я хочу кончить в нее"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1221
+translate german ep26_dialogues2_steve5_cef4c5dd:
+
+    # steve "ААААААААХХХ!"
+    steve "ААААААААХХХ!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1227
+translate german ep26_dialogues2_steve5_8120eaf2:
+
+    # betty "Черт, Стив! Ты снова кончил в меня?!"
+    betty "Черт, Стив! Ты снова кончил в меня?!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1230
+translate german ep26_dialogues2_steve5_d616566f:
+
+    # mt "Снова?!"
+    mt "Снова?!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1232
+translate german ep26_dialogues2_steve5_1debaf9f:
+
+    # betty "Черт, Стив! Ты кончил в меня?!"
+    betty "Черт, Стив! Ты кончил в меня?!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1236
+translate german ep26_dialogues2_steve5_43354b23:
+
+    # steve "Бетти, это всего-лишь твоя попка!"
+    steve "Бетти, это всего-лишь твоя попка!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1238
+translate german ep26_dialogues2_steve5_e5b31e30:
+
+    # steve "Не волнуйся!"
+    steve "Не волнуйся!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1242
+translate german ep26_dialogues2_steve5_d76fe6a4:
+
+    # mt "Дьявол! Эта Бетти совсем обнаглела!"
+    # mt "Она смеет трахаться прямо в кабинете у Стива!"
+    # mt "Да еще и при мне!"
+    mt "Дьявол! Эта Бетти совсем обнаглела!"
+    mt "Она смеет трахаться прямо в кабинете у Стива!"
+    mt "Да еще и при мне!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1248
+translate german ep26_dialogues2_steve5_53cc9ffe:
+
+    # mt "!!!"
+    # mt "Если я скажу об это Ральфу, Барди донесет на меня Маркусу, черт!"
+    # mt "Он предупреждал меня и, как я уже убедилась, он не врет..."
+    # mt "Может быть рассказать Барди про эту сучку?"
+    mt "!!!"
+    mt "Если я скажу об это Ральфу, Барди донесет на меня Маркусу, черт!"
+    mt "Он предупреждал меня и, как я уже убедилась, он не врет..."
+    mt "Может быть рассказать Барди про эту сучку?"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1254
+translate german ep26_dialogues2_steve5_f4042e39:
+
+    # mt "..."
+    # mt "Нет, не стоит..."
+    # mt "Этот маленький сопляк использует это для своих целей."
+    # mt "И заставит Бетти потребовать от меня ходить по дому голой!"
+    # mt "Я уверена!"
+    mt "..."
+    mt "Нет, не стоит..."
+    mt "Этот маленький сопляк использует это для своих целей."
+    mt "И заставит Бетти потребовать от меня ходить по дому голой!"
+    mt "Я уверена!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1268
+translate german ep26_dialogues2_steve5_f4d491aa:
+
+    # betty "Все, Стив!"
+    # betty "Я пошла!"
+    betty "Все, Стив!"
+    betty "Я пошла!"
+
+translate german strings:
+
+    # Quests/EP2_06/ep26_dialogues2_steve.rpy:7
+    old "Знакомство с Джейн."
+    new ""
+
+    # Quests/EP2_06/ep26_dialogues2_steve.rpy:7
+    old "Ревность Джейн. (в следующих обновлениях) (disabled)"
+    new ""
+
+    # Quests/EP2_06/ep26_dialogues2_steve.rpy:7
+    old "Удобное кресло. (в следующих обновлениях) (disabled)"
+    new ""
+
+    # Quests/EP2_06/ep26_dialogues2_steve.rpy:7
+    old "Фитнес тренер. (в следующих обновлениях) (disabled)"
+    new ""
+
+    # Quests/EP2_06/ep26_dialogues2_steve.rpy:403
+    old "Стив ждет что Моника заключит контракт на общение с Джейн"
+    new ""
+
+    # Quests/EP2_06/ep26_dialogues2_steve.rpy:799
+    old "Le Grand Certificate"
+    new ""
+
+    # Quests/EP2_06/ep26_dialogues2_steve.rpy:819
+    old "Моника должна Стиву неустойку на сорванный контракт"
+    new ""
+
+    # Quests/EP2_06/ep26_dialogues2_steve.rpy:1045
+    old "Взять член Стива."
+    new ""
+
+    # Quests/EP2_06/ep26_dialogues2_steve.rpy:1137
+    old "Ладно, Стив. Только быстро!"
+    new ""
+

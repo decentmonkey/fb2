@@ -989,13 +989,13 @@ translate english cit15_naked_boobs_1st_49adc490:
 translate english cit15_naked_boobs_1st_be1f6264:
 
     # citizen15 "Вот так новость! Ну ничего, скоро сама попросишь меня их поторгать!"
-    citizen15 "Вот так новость! Ну ничего, скоро сама попросишь меня их поторгать!"
+    citizen15 "That’s a news! What ever, soon you will be asking me to do it!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:232
 translate english cit15_naked_boobs_1st_8a286270:
 
     # mt "Никогда!"
-    mt "Никогда!"
+    mt "Never!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:239
 translate english cit15_naked_boobs_1st_598f1be0:
@@ -1033,7 +1033,7 @@ translate english cit15_naked_boobs_1st_b1eba81f:
 translate english cit15_naked_boobs_1st_25f74e61:
 
     # citizen15 "А что не так? На правду не обижаются..."
-    citizen15 "А что не так? На правду не обижаются..."
+    citizen15 "What? You don’t get offended by truth..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:262
 translate english cit15_naked_boobs_1st_1bcfdef1:
@@ -1125,7 +1125,7 @@ translate english cit15_naked_boobs_variant1_2bdd42bc:
 translate english cit15_naked_boobs_variant1_f648074c:
 
     # mt "Что? Да как ты смеешь такое говорить!? Я Моника Бакфет!! А ты ничтожество, проживающее в помойке!!"
-    mt "Что? Да как ты смеешь такое говорить!? Я Моника Бакфет!! А ты ничтожество, проживающее в помойке!!"
+    mt "What? How dare you! I'm Monica Buckfett!! And you are noone leaving in this dump!!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:331
 translate english cit15_naked_boobs_variant1_6e9ddac5:

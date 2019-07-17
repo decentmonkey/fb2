@@ -1548,3 +1548,317 @@ translate german ep22_dialogue6_3_f27eb96d_2:
     # mt "УРОД!!!"
     mt "FREAK!!!"
 
+# TODO: Translation updated at 2019-07-17 02:23
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:126
+translate german ep22_dialogue6_2_1adc3f0a_2:
+
+    # secretary "Мистер Биф лучше нас знает что нам необходимо."
+    # secretary "Мистер Биф заботится о нас..."
+    secretary "Мистер Биф лучше нас знает что нам необходимо."
+    secretary "Мистер Биф заботится о нас..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:224
+translate german ep22_dialogue6_2b_9f6e5332_2:
+
+    # secretary "Он сказал что будет вечером!"
+    secretary "Он сказал что будет вечером!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:254
+translate german ep22_dialogue6_2b_5706e483_4:
+
+    # secretary "Миссис Бакфетт!"
+    # "Мистера Бифа сейчас нет на месте!"
+    secretary "Миссис Бакфетт!"
+    "Мистера Бифа сейчас нет на месте!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:257
+translate german ep22_dialogue6_2b_bbef166c_4:
+
+    # m "Когда он будет?"
+    m "Когда он будет?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:262
+translate german ep22_dialogue6_2b_0f0242d3_4:
+
+    # m "Хорошо, дорогая, спасибо."
+    m "Хорошо, дорогая, спасибо."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:268
+translate german ep22_dialogue6_2b_5706e483_5:
+
+    # secretary "Миссис Бакфетт!"
+    # "Мистера Бифа сейчас нет на месте!"
+    secretary "Миссис Бакфетт!"
+    "Мистера Бифа сейчас нет на месте!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:271
+translate german ep22_dialogue6_2b_bbef166c_5:
+
+    # m "Когда он будет?"
+    m "Когда он будет?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:273
+translate german ep22_dialogue6_2b_bf57c0f2_2:
+
+    # secretary "Он сказал что будет завтра!"
+    # "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+    secretary "Он сказал что будет завтра!"
+    "Но Вы знаете, он говорит что хочет и совершенно не обладает дисциплиной!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:276
+translate german ep22_dialogue6_2b_0f0242d3_5:
+
+    # m "Хорошо, дорогая, спасибо."
+    m "Хорошо, дорогая, спасибо."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:334
+translate german ep22_dialogue6_3_3c7281b0_2:
+
+    # m "Биф..."
+    # "Я хотела узнать у тебя..."
+    # "Есть-ли еще работа?"
+    m "Биф..."
+    "Я хотела узнать у тебя..."
+    "Есть-ли еще работа?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:338
+translate german ep22_dialogue6_3_8d06aa28_2:
+
+    # "Мне нужны деньги..."
+    "Мне нужны деньги..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:362
+translate german ep22_dialogue6_3_f5dcc011_2:
+
+    # biff "Нет, цыпочка!"
+    # "Сейчас очередь других цыпочек!"
+    # "Ты пока еще не настолько полюбилась папочке!"
+    biff "Нет, цыпочка!"
+    "Сейчас очередь других цыпочек!"
+    "Ты пока еще не настолько полюбилась папочке!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:399
+translate german ep22_dialogue6_3_eaa18a59_2:
+
+    # m "А если я пройду дополнительный кастинг?..."
+    m "А если я пройду дополнительный кастинг?..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:401
+translate german ep22_dialogue6_3_6bf66bbb_2:
+
+    # biff "Эта цыпочка пока слишком скучная для дополнительного кастинга!"
+    # "Я держу эту куклу только из-за того что она похожа на сучку Бакфетт!"
+    # "Иди и не отвлекай папочку! Ему нужно заботить о других цыпочках!"
+    biff "Эта цыпочка пока слишком скучная для дополнительного кастинга!"
+    "Я держу эту куклу только из-за того что она похожа на сучку Бакфетт!"
+    "Иди и не отвлекай папочку! Ему нужно заботить о других цыпочках!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:406
+translate german ep22_dialogue6_3_383c8c67_2:
+
+    # mt "Я НЕНАВИЖУ ЭТОГО УРОДА!!!"
+    # "КОГДА Я ВЕРНУ СВОЕ МЕСТО НАЗАД?!?!"
+    mt "Я НЕНАВИЖУ ЭТОГО УРОДА!!!"
+    "КОГДА Я ВЕРНУ СВОЕ МЕСТО НАЗАД?!?!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:420
+translate german ep22_dialogue6_3_f27eb96d_3:
+
+    # mt "УРОД!!!"
+    mt "УРОД!!!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:438
+translate german ep22_dialogue6_3_20243481:
+
+    # biff "Только цыпочка! Тебе надо пройти кастинг после фотосессии!"
+    # biff "Цыпочка теперь работает у папочки в офисе!"
+    # biff "Значит цыпочка должна развлекать папочку!"
+    biff "Только цыпочка! Тебе надо пройти кастинг после фотосессии!"
+    biff "Цыпочка теперь работает у папочки в офисе!"
+    biff "Значит цыпочка должна развлекать папочку!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:461
+translate german ep22_dialogue6_3_463d2ad5_1:
+
+    # mt "О БОЖЕ!!!"
+    # "Только не это!!!"
+    mt "О БОЖЕ!!!"
+    "Только не это!!!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:491
+translate german ep22_dialogue6_3_ebd5bf2f_2:
+
+    # biff "Я знаю ты увиливаешь от кастинга, но тебе придется его пройти!"
+    # "Иначе не будет карьерного роста!"
+    # "Ты понимаешь?"
+    biff "Я знаю ты увиливаешь от кастинга, но тебе придется его пройти!"
+    "Иначе не будет карьерного роста!"
+    "Ты понимаешь?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:495
+translate german ep22_dialogue6_3_92868277_2:
+
+    # m "Да, я понимаю, Биф..."
+    m "Да, я понимаю, Биф..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:497
+translate german ep22_dialogue6_3_8cf89654_2:
+
+    # mt "Сволочь!!!"
+    mt "Сволочь!!!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:544
+translate german ep22_dialogue6_4_5387a607_2:
+
+    # alex_photograph "Миссис Бакфетт!"
+    # "Здравствуйте!"
+    alex_photograph "Миссис Бакфетт!"
+    "Здравствуйте!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:547
+translate german ep22_dialogue6_4_4e57def4_2:
+
+    # m "Здравствуй, Алекс..."
+    m "Здравствуй, Алекс..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:549
+translate german ep22_dialogue6_4_24fcd9b8_2:
+
+    # alex_photograph "Вы хотите сделать еще одну фотосессию?"
+    alex_photograph "Вы хотите сделать еще одну фотосессию?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:605
+translate german ep22_dialogue6_5_5387a607_2:
+
+    # alex_photograph "Миссис Бакфетт!"
+    # "Здравствуйте!"
+    alex_photograph "Миссис Бакфетт!"
+    "Здравствуйте!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:608
+translate german ep22_dialogue6_5_4e57def4_2:
+
+    # m "Здравствуй, Алекс..."
+    m "Здравствуй, Алекс..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:610
+translate german ep22_dialogue6_5_24fcd9b8_2:
+
+    # alex_photograph "Вы хотите сделать еще одну фотосессию?"
+    alex_photograph "Вы хотите сделать еще одну фотосессию?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:664
+translate german ep22_dialogue6_5_cd496de6_2:
+
+    # mt "Дьявол! Не знаю куда эти грязные фотосессии меня заведут!"
+    # "Надо кончать с этим скорее!"
+    mt "Дьявол! Не знаю куда эти грязные фотосессии меня заведут!"
+    "Надо кончать с этим скорее!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:669
+translate german ep22_dialogue6_5_e8b1bba9_2:
+
+    # alex_photograph "Миссис Бакфетт!"
+    # "Вы уже знаете кем в каком наряде Вы будете сниматься в этот раз?"
+    alex_photograph "Миссис Бакфетт!"
+    "Вы уже знаете кем в каком наряде Вы будете сниматься в этот раз?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:673
+translate german ep22_dialogue6_5_d36a5df4_2:
+
+    # m "Еще не знаю..."
+    # "Что там Биф придумал на этот раз?"
+    m "Еще не знаю..."
+    "Что там Биф придумал на этот раз?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:713
+translate german ep22_dialogue6_5a_30c909fa_2:
+
+    # alex_photograph "Отлично, Миссис Бакфетт!"
+    # "Можете переодеваться здесь! Я не буду смотреть!"
+    alex_photograph "Отлично, Миссис Бакфетт!"
+    "Можете переодеваться здесь! Я не буду смотреть!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:716
+translate german ep22_dialogue6_5a_daac2c93_2:
+
+    # m "Я переоденусь в гримерке!"
+    # "Надеюсь Мелани не закрыла ее в этот раз?"
+    m "Я переоденусь в гримерке!"
+    "Надеюсь Мелани не закрыла ее в этот раз?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:719
+translate german ep22_dialogue6_5a_01b2865a_2:
+
+    # alex_photograph "Нет, Миссис Бакфетт, она открыта..." 
+    alex_photograph "Нет, Миссис Бакфетт, она открыта..." 
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:722
+translate german ep22_dialogue6_5a_b415592f_2:
+
+    # m "Я скоро вернусь!"
+    m "Я скоро вернусь!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:956
+translate german ep22_dialogue6_7_61f5b2d4_2:
+
+    # biff "Да, цыпочка!"
+    # biff "На следующей неделе я не нуждаюсь в твоих услугах!"
+    # biff "Приходи позднее!"
+    biff "Да, цыпочка!"
+    biff "На следующей неделе я не нуждаюсь в твоих услугах!"
+    biff "Приходи позднее!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:961
+translate german ep22_dialogue6_7_00c8991e_2:
+
+    # m "КАК?!!"
+    # m "Биф, но ты говорил что это регулярная работа!"
+    m "КАК?!!"
+    m "Биф, но ты говорил что это регулярная работа!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:965
+translate german ep22_dialogue6_7_bad8b4fb_2:
+
+    # biff "Это регулярная работа, цыпочка. Но на следующей неделе ты мне не нужна."
+    biff "Это регулярная работа, цыпочка. Но на следующей неделе ты мне не нужна."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:968
+translate german ep22_dialogue6_7_48e462c3_2:
+
+    # mt "Дьявол! Где же я достану деньги для Виктории!"
+    mt "Дьявол! Где же я достану деньги для Виктории!"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:972
+translate german ep22_dialogue6_7_ff437626_2:
+
+    # m "Биф, хорошо, но мне все-равно нужны деньги..."
+    m "Биф, хорошо, но мне все-равно нужны деньги..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:974
+translate german ep22_dialogue6_7_3998c5f6_2:
+
+    # biff "Цыпочка! Ты начинаешь утомлять папочку!"
+    # biff "Тебя что-то не устраивает? Ты хочешь разорвать наше соглашение?"
+    biff "Цыпочка! Ты начинаешь утомлять папочку!"
+    biff "Тебя что-то не устраивает? Ты хочешь разорвать наше соглашение?"
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:978
+translate german ep22_dialogue6_7_098ba49a_2:
+
+    # m "Нет... Биф..."
+    m "Нет... Биф..."
+
+# game/Quests/EP2_02/ep22_dialogues6.rpy:980
+translate german ep22_dialogue6_7_ea3188a1_2:
+
+    # m "В этом нет... необходимости"
+    m "В этом нет... необходимости"
+
+translate german strings:
+
+    # Quests/EP2_02/ep22_dialogues6.rpy:421
+    old "Монике надо ходить на работу в офис хотя бы раз в неделю."
+    new ""
+

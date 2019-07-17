@@ -90,3 +90,51 @@ translate german worker7_look_cc001836:
     # mt "Бесполезный и никчемный..."
     mt "Бесполезный и никчемный..."
 
+# TODO: Translation updated at 2019-07-17 02:23
+
+# game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:29
+translate german worker7_dialogue_workplace_c53f9ee6:
+
+    # mt "Черт! Она же была покупательницей в этом ужасном магазине, где я работала манекеном!"
+    mt "Черт! Она же была покупательницей в этом ужасном магазине, где я работала манекеном!"
+
+# game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:31
+translate german worker7_dialogue_workplace_12a4536e:
+
+    # mt "Кошмар, надеюсь она меня не узнает..."
+    # mt "Хотя... Не думаю что можно связать Монику Бакфетт с какой-то продавщицей в трущобах..."
+    # mt "В любом случае, надо поменьше общаться с ней. Вдруг она, все-же, узнает меня..."
+    mt "Кошмар, надеюсь она меня не узнает..."
+    mt "Хотя... Не думаю что можно связать Монику Бакфетт с какой-то продавщицей в трущобах..."
+    mt "В любом случае, надо поменьше общаться с ней. Вдруг она, все-же, узнает меня..."
+
+# game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:53
+translate german worker7_dialogue_office_07d124ae:
+
+    # m "Кажется, тебя зовут Лин?"
+    m "Кажется, тебя зовут Лин?"
+
+# game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:58
+translate german worker7_dialogue_office_744c09cd:
+
+    # w7 "Да, мэм."
+    w7 "Да, мэм."
+
+# game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:61
+translate german worker7_dialogue_office_d675c844:
+
+    # m "Лин, я сейчас очень занята. Если ты принесла отчет, положи пожалуйста его мне на стол. Я его обязательно посмотрю."
+    m "Лин, я сейчас очень занята. Если ты принесла отчет, положи пожалуйста его мне на стол. Я его обязательно посмотрю."
+
+# game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:64
+translate german worker7_dialogue_office_13467234:
+
+    # w7 "Хорошо, Мэм."
+    w7 "Хорошо, Мэм."
+
+# game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:69
+translate german worker7_dialogue_office_45a89aa3:
+
+    # w7t "(Меня не покидает мысль, что где то Я видела эту миссис Бакфет...)"
+    w7t "(Меня не покидает мысль, что где то Я видела эту миссис Бакфет...)"
+

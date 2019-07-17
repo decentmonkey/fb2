@@ -602,7 +602,7 @@ translate english cit13_naked_boobs_1st_055ed5c6:
 
     # mt "Неужели он про этих куриц, с которые ходят на фитнес?!"
     # m "Ты это о ком?"
-    mt "Неужели он про этих куриц, с которые ходят на фитнес?!"
+    mt "Is he talking about the sluts going to the gym?!"
     m "Who are you talking about?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:256
@@ -699,7 +699,7 @@ translate english cit13_naked_boobs_variant1_35e9333f:
     # m "Хорошо."
     # m "Только руками не трогай"
     m "Fine."
-    m "Только руками не трогай"
+    m "No touching!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:331
 translate english cit13_naked_boobs_variant1_9b4277c7:

@@ -172,3 +172,237 @@ translate german strings:
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot6_casting_corruption_required]) (disabled)"
     new ""
 
+# TODO: Translation updated at 2019-07-17 02:23
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:80
+translate german ep26_photoshoot_suit6_pose1_495a0ac0:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    alex_photograph "Следующая поза, Миссис Бакфетт!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:142
+translate german ep26_photoshoot_suit6_pose2_495a0ac0:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    alex_photograph "Следующая поза, Миссис Бакфетт!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:144
+translate german ep26_photoshoot_suit6_pose2_d4db0cc4:
+
+    # m "Алекс! Я не буду вставать в позу, будто показываю задницу!"
+    # "И это не обсуждается!"
+    m "Алекс! Я не буду вставать в позу, будто показываю задницу!"
+    "И это не обсуждается!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:148
+translate german ep26_photoshoot_suit6_pose2_a7be0f34:
+
+    # m "Алекс, мне не нравится это поза!"
+    # m "Постарайся поменьше фокусировать камеру на месте ниже спины!"
+    # alex_photograph "Конечно, Миссис Бакфетт!"
+    m "Алекс, мне не нравится это поза!"
+    m "Постарайся поменьше фокусировать камеру на месте ниже спины!"
+    alex_photograph "Конечно, Миссис Бакфетт!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:211
+translate german ep26_photoshoot_suit6_pose3_495a0ac0:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    alex_photograph "Следующая поза, Миссис Бакфетт!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:272
+translate german ep26_photoshoot_suit6_pose4_495a0ac0:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    alex_photograph "Следующая поза, Миссис Бакфетт!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:298
+translate german ep26_photoshoot_suit6_pose4_8f79d3a9:
+
+    # m "Алекс! Забудь про такие ракурсы!"
+    m "Алекс! Забудь про такие ракурсы!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:337
+translate german ep26_photoshoot_suit6_pose5_495a0ac0:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    alex_photograph "Следующая поза, Миссис Бакфетт!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:398
+translate german ep26_photoshoot_suit6_pose6_495a0ac0:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    alex_photograph "Следующая поза, Миссис Бакфетт!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:459
+translate german ep26_photoshoot_suit6_pose7_495a0ac0:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    alex_photograph "Следующая поза, Миссис Бакфетт!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:495
+translate german ep26_photoshoot_suit6_pose7_96afe0e3:
+
+    # m "Алекс! Зачем ты оттуда фотографируешь?"
+    # m "Что ты хочешь там увидеть?!"
+    m "Алекс! Зачем ты оттуда фотографируешь?"
+    m "Что ты хочешь там увидеть?!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:500
+translate german ep26_photoshoot_suit6_pose7_7040684b:
+
+    # alex_photograph "Миссис Бакфетт, я фотографирую Ваши ножки!"
+    alex_photograph "Миссис Бакфетт, я фотографирую Ваши ножки!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:526
+translate german ep26_photoshoot_suit6_pose8_495a0ac0:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    alex_photograph "Следующая поза, Миссис Бакфетт!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:563
+translate german ep26_photoshoot_suit6_pose8_a9a99046:
+
+    # m "Алекс! Я не буду делать такой кадр!"
+    m "Алекс! Я не буду делать такой кадр!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:594
+translate german ep26_photoshoot_suit6_pose9_495a0ac0:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    alex_photograph "Следующая поза, Миссис Бакфетт!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:640
+translate german ep26_photoshoot_suit6_pose9_8f79d3a9:
+
+    # m "Алекс! Забудь про такие ракурсы!"
+    m "Алекс! Забудь про такие ракурсы!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:684
+translate german ep26_photoshoot_suit6_pose10_223e2dbf:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    # m "Алекс! Я не буду вставать в такую развратную позу!"
+    # "И это не обсуждается!"
+    alex_photograph "Следующая поза, Миссис Бакфетт!"
+    m "Алекс! Я не буду вставать в такую развратную позу!"
+    "И это не обсуждается!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:690
+translate german ep26_photoshoot_suit6_pose10_333fa731:
+
+    # alex_photograph "Миссис Бакфетт, это сюжетная поза."
+    # alex_photograph "Раковина, как-бы раскрывается, обнажая жемчужину!"
+    # m "Я не собираюсь обнажать никакую... жемчужину!"
+    # alex_photograph "Миссис Бакфетт, не волнутесь, я буду фотографировать только сбоку!"
+    alex_photograph "Миссис Бакфетт, это сюжетная поза."
+    alex_photograph "Раковина, как-бы раскрывается, обнажая жемчужину!"
+    m "Я не собираюсь обнажать никакую... жемчужину!"
+    alex_photograph "Миссис Бакфетт, не волнутесь, я буду фотографировать только сбоку!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:748
+translate german ep26_photoshoot_suit6_pose10_3bfb839a:
+
+    # m "Алекс! Я не буду делать такой кадр!"
+    # m "Что это за поза?"
+    m "Алекс! Я не буду делать такой кадр!"
+    m "Что это за поза?"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:753
+translate german ep26_photoshoot_suit6_pose10_3b7827ad:
+
+    # alex_photograph "Это прекрасная поза, Миссис Бакфетт!"
+    alex_photograph "Это прекрасная поза, Миссис Бакфетт!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:764
+translate german ep26_photoshoot_suit6_pose10_8ecf3774:
+
+    # m "Алекс! Хватит!"
+    # m "Что ты там хочешь сфотографировать?!"
+    m "Алекс! Хватит!"
+    m "Что ты там хочешь сфотографировать?!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:769
+translate german ep26_photoshoot_suit6_pose10_1f976730:
+
+    # alex_photograph "Миссис Бакфетт, я хочу сфотографировать Ваш чудесный педикюр!"
+    alex_photograph "Миссис Бакфетт, я хочу сфотографировать Ваш чудесный педикюр!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:836
+translate german ep26_photoshoot_suit6_pose11_01548466:
+
+    # m "Я слежу за тобой, Алекс!"
+    m "Я слежу за тобой, Алекс!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:873
+translate german ep26_photoshoot_suit6_pose11_b43e9c1c:
+
+    # m "Алекс, твою мать! Это называется вид сбоку?"
+    m "Алекс, твою мать! Это называется вид сбоку?"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:877
+translate german ep26_photoshoot_suit6_pose11_5aa3be88:
+
+    # alex_photograph "Миссис Бакфетт, это вид снизу!"
+    # alex_photograph "На нем видны только Ваши пальчики на ногах и больше ничего!"
+    alex_photograph "Миссис Бакфетт, это вид снизу!"
+    alex_photograph "На нем видны только Ваши пальчики на ногах и больше ничего!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:889
+translate german ep26_photoshoot_suit6_pose11_0c35e9f3:
+
+    # m "Алекс! Это тоже вид снизу?!"
+    m "Алекс! Это тоже вид снизу?!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:893
+translate german ep26_photoshoot_suit6_pose11_78be36ec:
+
+    # alex_photograph "Да, Миссис Бакфетт!"
+    # alex_photograph "Но не волнуйтесь, костюм плотно все закрывает!"
+    # m "Точно?!"
+    # alex_photograph "Да, Миссис Бакфетт! Всего один кадр!"
+    # m "Только один! И не ближе!"
+    # alex_photograph "Конечно!"
+    alex_photograph "Да, Миссис Бакфетт!"
+    alex_photograph "Но не волнуйтесь, костюм плотно все закрывает!"
+    m "Точно?!"
+    alex_photograph "Да, Миссис Бакфетт! Всего один кадр!"
+    m "Только один! И не ближе!"
+    alex_photograph "Конечно!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:919
+translate german ep26_photoshoot_suit6_end_b9cd880a:
+
+    # alex_photograph "Мэм! Мы закончили фотосессию!"
+    # m "Наконец-то!!!"
+    alex_photograph "Мэм! Мы закончили фотосессию!"
+    m "Наконец-то!!!"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:923
+translate german ep26_photoshoot_suit6_end_00d63a19:
+
+    # mt "Что теперь?"
+    mt "Что теперь?"
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:929
+translate german ep26_photoshoot_suit6_end_7d5cf100:
+
+    # mt "Биф ждет меня на свой дурацкий кастинг..."
+    # "Он говорил даст мне работу если я буду хорошей цыпочкой..."
+    # "Это позволит мне приблизиться к цели, возвратить мою компанию назад!"
+    # "Так может быть притвориться?"
+    # "Ведь у меня нет к нему чувств, я хладнокровная женщина, идущая к своей мести..."
+    mt "Биф ждет меня на свой дурацкий кастинг..."
+    "Он говорил даст мне работу если я буду хорошей цыпочкой..."
+    "Это позволит мне приблизиться к цели, возвратить мою компанию назад!"
+    "Так может быть притвориться?"
+    "Ведь у меня нет к нему чувств, я хладнокровная женщина, идущая к своей мести..."
+
+# game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:936
+translate german ep26_photoshoot_suit6_end_65571a75:
+
+    # "..."
+    # "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
+    "..."
+    "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
+

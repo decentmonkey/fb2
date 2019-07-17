@@ -298,13 +298,13 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:161
     old "Барди шантажирует Бетти. Может быть я могу использовать это?"
-    new ""
+    new "Bardi is blackmailing Betty. Maybe I can use it somehow?"
 
     # Quests/Question_Helper_Info.rpy:161
     old "Я могу питаться в доме. Если буду соблюдать условие..."
-    new ""
+    new "I can eat at how if I'll follow the rules..."
 
     # Quests/Question_Helper_Info.rpy:161
     old "Теперь я могу работать в офисе. Денег это не добавило, но я могу чувствовать себя Боссом снова..."
-    new ""
+    new "I can work at office again. It didn’t bring me any money, but I feel myself a Boss again..."
 

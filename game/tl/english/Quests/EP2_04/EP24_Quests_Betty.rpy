@@ -21,3 +21,11 @@ translate english strings:
     # Quests/EP2_04/EP24_Quests_Betty.rpy:192
     old "Униформа гувернантки (без трусиков)"
     new "Maid uniform (without panties)"
+# TODO: Translation updated at 2019-07-17 02:25
+
+translate english strings:
+
+    # Quests/EP2_04/EP24_Quests_Betty.rpy:63
+    old "Миссис Робертс. Барди зовет Вас в свою комнату..."
+    new ""
+

@@ -696,7 +696,7 @@ translate english cit1_2_naked_boobs_variant1_9c1a54cb:
 translate english cit1_2_naked_boobs_variant1_e05cb1c1:
 
     # m "Хорошо. Если заплатите..."
-    m "Хорошо. Если заплатите..."
+    m "Fine, if you pay..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:322
 translate english cit1_2_naked_boobs_variant1_179b4073:

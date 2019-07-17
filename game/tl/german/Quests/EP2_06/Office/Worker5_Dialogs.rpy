@@ -90,3 +90,125 @@ translate german worker5_look_5ede57a7:
     mt "Этот карьерист метит на место Босса в этом отделе?"
     mt "Naiver Trottel!"
 
+# TODO: Translation updated at 2019-07-17 02:23
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:18
+translate german worker5_dialogue_workplace_c9ce837f:
+
+    # m "Мне это не очень интересно. Я здесь не надолго."
+    # m "Но, все-же, расскажи мне про работников этого отдела."
+    m "Мне это не очень интересно. Я здесь не надолго."
+    m "Но, все-же, расскажи мне про работников этого отдела."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:21
+translate german worker5_dialogue_workplace_9787a4f6:
+
+    # w5 "Миссис Бакфет! Вы сегодня прекрасно выглядите и обратились как раз по адресу."
+    w5 "Миссис Бакфет! Вы сегодня прекрасно выглядите и обратились как раз по адресу."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:24
+translate german worker5_dialogue_workplace_475693b4:
+
+    # m "Я всегда хорошо выгляжу. Не подлизывайся к Боссу, тебе это не поможет."
+    # m "Итак?"
+    m "Я всегда хорошо выгляжу. Не подлизывайся к Боссу, тебе это не поможет."
+    m "Итак?"
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:28
+translate german worker5_dialogue_workplace_70fc52c4:
+
+    # w5 "Вон там сидит Марта. Она занимается отчетами."
+    w5 "Вон там сидит Марта. Она занимается отчетами."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:31
+translate german worker5_dialogue_workplace_a477d74d:
+
+    # w5 "Близняшки Элла и Эмма.. Они тоже делают отчеты."
+    # w5 "Хотя что говорить... Мы все тут делаем отчеты."
+    w5 "Близняшки Элла и Эмма.. Они тоже делают отчеты."
+    w5 "Хотя что говорить... Мы все тут делаем отчеты."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:35
+translate german worker5_dialogue_workplace_bc3ac041:
+
+    # w5 "Эту толстуху зовут Грета. Она работает тут дольше всех."
+    w5 "Эту толстуху зовут Грета. Она работает тут дольше всех."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:38
+translate german worker5_dialogue_workplace_dc6cbbdc:
+
+    # w5 "Вон там сидит Лин. Она у нас недавно."
+    w5 "Вон там сидит Лин. Она у нас недавно."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:41
+translate german worker5_dialogue_workplace_cad9b686:
+
+    # w5 "Нашего системного администратора ты, возможно, видела. Я даже не знаю как его зовут."
+    w5 "Нашего системного администратора ты, возможно, видела. Я даже не знаю как его зовут."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:44
+translate german worker5_dialogue_workplace_52f57fda:
+
+    # w5 "Ну и наконец Я! Самый компетентный сотрудник в этом отделе и, думаю, скоро его глава."
+    # w5 "Меня зовут Джон."
+    # mt "Ну и мерзкий же ты тип, Джон."
+    w5 "Ну и наконец Я! Самый компетентный сотрудник в этом отделе и, думаю, скоро его глава."
+    w5 "Меня зовут Джон."
+    mt "Ну и мерзкий же ты тип, Джон."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:49
+translate german worker5_dialogue_workplace_7cae5373:
+
+    # m "Я поняла, возвращайся к работе!"
+    m "Я поняла, возвращайся к работе!"
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:62
+translate german worker5_dialogue_office_9626eafb:
+
+    # m "Давай поговорим."
+    m "Давай поговорим."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:65
+translate german worker5_dialogue_office_9adfaa0d:
+
+    # w5 "Миссис Бакфет, Вы же знаете, я очень ответственный и без меня этот отдел просто развалится."
+    # w5 "Еще эта толстуха Грета так и наровит занять мое законное место."
+    # w5 "И я буду Вам бесконечно благодарен если Вы..."
+    w5 "Миссис Бакфет, Вы же знаете, я очень ответственный и без меня этот отдел просто развалится."
+    w5 "Еще эта толстуха Грета так и наровит занять мое законное место."
+    w5 "И я буду Вам бесконечно благодарен если Вы..."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:71
+translate german worker5_dialogue_office_53dd1223:
+
+    # m "Достаточно..."
+    # m "Чем чаще ты задаешь мне такие вопросы тем дальше от тебя эта должность."
+    m "Достаточно..."
+    m "Чем чаще ты задаешь мне такие вопросы тем дальше от тебя эта должность."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:75
+translate german worker5_dialogue_office_df162906:
+
+    # mt "И что это вообще за должность? Почему он думает, что этому отделу нужен какой-то мифический начальник кроме меня?"
+    mt "И что это вообще за должность? Почему он думает, что этому отделу нужен какой-то мифический начальник кроме меня?"
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:79
+translate german worker5_dialogue_office_97c89eec:
+
+    # w5 "Да, понял. Ухожу. Но знайте, миссис Бакфет, Вы всегда можете на меня расчитывать."
+    w5 "Да, понял. Ухожу. Но знайте, миссис Бакфет, Вы всегда можете на меня расчитывать."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:85
+translate german worker5_dialogue_office_349b18b2:
+
+    # m "Повышении?!"
+    # m "Не сегодня. Выйди и закрой за собой дверь."
+    m "Повышении?!"
+    m "Не сегодня. Выйди и закрой за собой дверь."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:91
+translate german worker5_dialogue_office_4669f28f:
+
+    # w5 "Хорошо. Понимаю, Вы очень заняты. Ну ничего, в другой раз."
+    w5 "Хорошо. Понимаю, Вы очень заняты. Ну ничего, в другой раз."
+

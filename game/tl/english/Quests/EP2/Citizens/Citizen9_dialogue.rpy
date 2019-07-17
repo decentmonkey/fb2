@@ -713,7 +713,7 @@ translate english cit9_naked_boobs_variant1_de8e7211:
 
     # citizen9 "Какая же ты некультурная. Нужно отвечать 'Давай!', а ты молчишь..."
     # citizen9 "Ну дак что, глянем на твоих подружек еще разок?"
-    citizen9 "Какая же ты некультурная. Нужно отвечать 'Давай!', а ты молчишь..."
+    citizen9 "You are so impolite! You gotta say 'yes', not stay silent..."
     citizen9 "So, are you going to show your pair again or not?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:361

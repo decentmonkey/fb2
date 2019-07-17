@@ -560,7 +560,7 @@ translate english strings:
 translate english cit7_naked_boobs_1st_814524ad:
 
     # citizen7 "Мне не хватает вдохновения! Ты должна мне помочь!"
-    citizen7 "Мне не хватает вдохновения! Ты должна мне помочь!"
+    citizen7 "I lack inspiration! You have to help me!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:224
 translate english cit7_naked_boobs_1st_c8f17eaa:
@@ -646,7 +646,7 @@ translate english cit7_naked_boobs_1st_0ec6e83a:
     # m "Насколько я знаю, нет..."
     # m "Хотя все может быть..."
     m "No, as far as I know..."
-    m "Хотя все может быть..."
+    m "Well... everything is possible..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:280
 translate english cit7_naked_boobs_1st_7d5b0fc1:
@@ -678,7 +678,7 @@ translate english cit7_naked_boobs_1st_033c918b:
     # citizen7 "..."
     # citizen7 "Ну что же, надеюсь, этого хватит..."
     citizen7 "..."
-    citizen7 "Ну что же, надеюсь, этого хватит..."
+    citizen7 "Hopefully, it will be enough..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:296
 translate english cit7_naked_boobs_1st_345d493b:

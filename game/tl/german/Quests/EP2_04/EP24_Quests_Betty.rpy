@@ -26,3 +26,11 @@ translate german strings:
     old "Униформа гувернантки (без трусиков)"
     new "Dienstmädchenuniform (ohne Höschen)"
 
+# TODO: Translation updated at 2019-07-17 02:23
+
+translate german strings:
+
+    # Quests/EP2_04/EP24_Quests_Betty.rpy:63
+    old "Миссис Робертс. Барди зовет Вас в свою комнату..."
+    new ""
+

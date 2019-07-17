@@ -646,7 +646,7 @@ translate english cit3_naked_boobs_1st_6446bf64:
 translate english cit3_naked_boobs_1st_51d720c9:
 
     # m "Они выглядят отлично! Но тебя это не касается!"
-    m "Они выглядят отлично! Но тебя это не касается!"
+    m "They are looking great! But it none of your business!"
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:277
 translate english cit3_naked_boobs_1st_14e6d0ff:
@@ -858,5 +858,5 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen3_Dialogue.rpy:279
     old "Почему бы и нет. Это возможность заработать деньги..."
-    new ""
+    new "Why not. It's an opportunity to earn some cash..."
 
