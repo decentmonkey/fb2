@@ -178,7 +178,7 @@ label citizen4_dialogue_pilon:
                 "Я еще не настолько опустилась!"
                 "И, надеюсь, этого не произойдет НИКОГДА!"
                 help "Требуется [monicaWhoringClothNakedBoobsCorruptionRequired] corruption"
-                jump citizen4_dialogue_pilon_loop15
+            jump citizen4_dialogue_pilon_loop4
             call pylonController(4, 5) from _call_pylonController_54
             with fade
             m "Так и быть, только руками не трогать."

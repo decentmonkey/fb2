@@ -28,14 +28,12 @@ translate german citizen7_dialogue_e779c588:
     # citizen7 "Прекрасно, очень хорошо! А теперь повернитесь!"
     # mt "Что вообще происходит?"
     # m "Эй, мистер, Вы возьмете флаер?"
-    # // художник делает еще несколько кругов\замеров
     # citizen7 "Я закончил. Флаер? Да давайте уже..."
     m "Bitte nehmen Sie diesen Flyer..."
     citizen7 "Was? Oh, du bist hübsch! Ich habe dich noch nie vorher gesehen. Eine Minute..."
     citizen7 "Schön, sehr schön. Bitte umdrehen!"
     mt "Was passiert hier gerade?"
     m "Hey, wollen Sie nun einen Flyer?"
-    // художник делает еще несколько кругов\замеров
     citizen7 "Fertig. Flyer? Komm schon..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:33
@@ -1067,4 +1065,3 @@ translate german cit7_naked_boobs_variant2_b665c521:
 
     # citizen7 "Ох, надеюсь этого хватит для моего очередного творения!"
     citizen7 "Hoffentlich wird es für eine weitere Schaffung ausreichen!"
-

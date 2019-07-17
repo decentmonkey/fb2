@@ -34,7 +34,7 @@ label afterJailHouse_dialogue8: #bed
     if bathTaken == False:
         mt "Хоть меня дождь хорошенько помыл, я хотела бы освежиться перед сном!"
         return
-    call afterJailHouse_dialogue17() from _call_afterJailHouse_dialogue17
+#    call afterJailHouse_dialogue17() from _call_afterJailHouse_dialogue17
     return
 
 

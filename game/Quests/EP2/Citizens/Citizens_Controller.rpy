@@ -199,7 +199,7 @@ label citizens_dialogue_process:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_10
                 return
-            call citizen12_dialogue_pilon() from _call_citizen12_dialogue_pilon
+#            call citizen12_dialogue_pilon() from _call_citizen12_dialogue_pilon
             return
         else:
             if questOffendMonicaFlyersCitizen12Completed == True: # уже нападал на Монику
