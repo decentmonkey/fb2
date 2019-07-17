@@ -2,6 +2,7 @@ default citizen4BoobsShowedFirstTime = False
 default citizen4BoobsShowedSecondTimeCount = 0
 default citizen4BoobsNakesShowingActive = False
 default citizen4BoobsNakesShowedLastDay = 0
+default citizen4NakedBoobsRefuseFlag = False
 
 label citizen4_dialogue:
     imgl Dial_Monica_Sandwich_0
@@ -547,7 +548,10 @@ label citizen4_show_boobs_regular_time:
     citizen4 "Сегодня я не хочу смотреть твоих малышек!"
     citizen4 "Покажи их кому-нибудь другому!"
     citizen4 "Уверен, ты сможешь заработать [monicaWhoringNakedBoobsMoney]$."
-    $ add_hook("enter_scene", "citizen4_dialogue_after_boobs_second_time", scene="hostel_edge_1_a")
+
+    if citizen4NakedBoobsRefuseFlag == False:
+        $ citizen4NakedBoobsRefuseFlag = True
+        $ add_hook("enter_scene", "citizen4_dialogue_after_boobs_second_time", scene="hostel_edge_1_a")
 
     return
 
