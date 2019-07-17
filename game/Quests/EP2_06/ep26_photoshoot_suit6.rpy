@@ -145,6 +145,7 @@ label ep26_photoshoot_suit6_pose2:
             "И это не обсуждается!"
             call corruption_required(PS6_monica_pose3_corruption_required) from _call_corruption_required_36
             return
+        $ add_char_progress("AlexPhotograph", PS6_AlexProgressEachCorruptionShot, "PS6_monica_shot1_progress")
         m "Алекс, мне не нравится это поза!"
         m "Постарайся поменьше фокусировать камеру на месте ниже спины!"
         alex_photograph "Конечно, Миссис Бакфетт!"
@@ -300,6 +301,7 @@ label ep26_photoshoot_suit6_pose4:
             jump expression photoPoseLabel
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_130
+        $ add_char_progress("AlexPhotograph", PS6_AlexProgressEachCorruptionShot, "PS6_monica_shot3_progress")
         $ PS6_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -500,6 +502,7 @@ label ep26_photoshoot_suit6_pose7:
         alex_photograph "Миссис Бакфетт, я фотографирую Ваши ножки!"
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_140
+        $ add_char_progress("AlexPhotograph", PS6_AlexProgressEachCorruptionShot, "PS6_monica_shot4_progress")
         $ PS6_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -565,6 +568,7 @@ label ep26_photoshoot_suit6_pose8:
             jump expression photoPoseLabel
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_143
+        $ add_char_progress("AlexPhotograph", PS6_AlexProgressEachCorruptionShot, "PS6_monica_shot5_progress")
         $ PS6_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -642,6 +646,7 @@ label ep26_photoshoot_suit6_pose9:
             jump expression photoPoseLabel
         w
         call photoshop_flash() from _call_photoshop_flash_105
+        $ add_char_progress("AlexPhotograph", PS6_AlexProgressEachCorruptionShot, "PS6_monica_shot6_progress")
         w
         $ photoImage = 20047
         img photoImage
@@ -691,6 +696,7 @@ label ep26_photoshoot_suit6_pose10:
         alex_photograph "Раковина, как-бы раскрывается, обнажая жемчужину!"
         m "Я не собираюсь обнажать никакую... жемчужину!"
         alex_photograph "Миссис Бакфетт, не волнутесь, я буду фотографировать только сбоку!"
+        $ add_char_progress("AlexPhotograph", PS6_AlexProgressEachCorruptionShot, "PS6_monica_shot7_progress")
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS6_shoots_array)
     show screen photoshoot()
@@ -774,6 +780,7 @@ label ep26_photoshoot_suit6_pose10:
         with Dissolve(0.2)
         w
         call photoshop_flash() from _call_photoshop_flash_113
+        $ add_char_progress("AlexPhotograph", PS6_AlexProgressEachCorruptionShot, "PS6_monica_shot8_progress")
         w
         $ photoImage = 20059
         img photoImage
@@ -904,6 +911,7 @@ label ep26_photoshoot_suit6_pose11:
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_152
+        $ add_char_progress("AlexPhotograph", PS6_AlexProgressEachCorruptionShot, "PS6_monica_shot9_progress")
         $ PS6_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel

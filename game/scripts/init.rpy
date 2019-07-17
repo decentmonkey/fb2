@@ -163,6 +163,7 @@ define PS6_monica_shot8_corruption_required = 105
 
 define PS6_BiffProgressCasting = 5 #Прогресс за то что пришла на кастинг
 define PS6_BiffProgressCastingChick = 5 #Прогресс за то что притворилась цыпочкой на кастинге
+define PS6_AlexProgressEachCorruptionShot = 3
 
 define PS7_monica_shot1_corruption_required = 60
 define PS7_monica_shot2_corruption_required = 65
@@ -179,6 +180,7 @@ define PS7_monica_shot11_corruption_required_high = 120
 
 define PS7_BiffProgressCasting = 5 #Прогресс за то что пришла на кастинг
 define PS7_BiffProgressCastingChick = 5 #Прогресс за то что притворилась цыпочкой на кастинге
+define PS7_AlexProgressEachCorruptionShot = 3
 
 define monicaWhoringStartCorruptionRequired = 60
 define monicaWhoringClothBoobsCorruptionRequired = 60 # Кол-во corruption, чтобы Моника показала грудь в одежде

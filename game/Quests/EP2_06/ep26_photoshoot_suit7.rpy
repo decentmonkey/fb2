@@ -116,6 +116,7 @@ label ep26_photoshoot_suit7_pose1:
         alex_photograph "Конечно, Миссис Бакфетт! Как скажете!"
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_155
+        $ add_char_progress("AlexPhotograph", PS7_AlexProgressEachCorruptionShot, "PS7_monica_shot1_progress")
         $ PS7_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -190,6 +191,7 @@ label ep26_photoshoot_suit7_pose2:
             jump expression photoPoseLabel
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_158
+        $ add_char_progress("AlexPhotograph", PS7_AlexProgressEachCorruptionShot, "PS7_monica_shot2_progress")
         $ PS7_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -270,6 +272,7 @@ label ep26_photoshoot_suit7_pose3:
         w
         alex_photograph "Миссис Бакфетт, я только замеряю фокус!"
         call photoshoot_flash_count() from _call_photoshoot_flash_count_161
+        $ add_char_progress("AlexPhotograph", PS7_AlexProgressEachCorruptionShot, "PS7_monica_shot3_progress")
         $ PS7_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -383,6 +386,7 @@ label ep26_photoshoot_suit7_pose5:
         alex_photograph "Миссис Бакфетт, ее не видно, клянусь!"
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_165
+        $ add_char_progress("AlexPhotograph", PS7_AlexProgressEachCorruptionShot, "PS7_monica_shot4_progress")
         $ PS7_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -409,6 +413,7 @@ label ep26_photoshoot_suit7_pose5:
             jump expression photoPoseLabel
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_167
+        $ add_char_progress("AlexPhotograph", PS7_AlexProgressEachCorruptionShot, "PS7_monica_shot5_progress")
         $ PS7_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -492,6 +497,7 @@ label ep26_photoshoot_suit7_pose6:
         alex_photograph "Миссис Бакфетт, я просто обхожу Вас, чтобы зайти с другой стороны..."
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_170
+        $ add_char_progress("AlexPhotograph", PS7_AlexProgressEachCorruptionShot, "PS7_monica_shot6_progress")
         $ PS7_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -648,6 +654,7 @@ label ep26_photoshoot_suit7_pose8:
         alex_photograph "Миссис Бакфетт, последний кадр..."
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_176
+        $ add_char_progress("AlexPhotograph", PS7_AlexProgressEachCorruptionShot, "PS7_monica_shot7_progress")
         $ PS7_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -734,6 +741,7 @@ label ep26_photoshoot_suit7_pose9:
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_179
+        $ add_char_progress("AlexPhotograph", PS7_AlexProgressEachCorruptionShot, "PS7_monica_shot8_progress")
         $ PS7_shoots_array.append(photoImage)
         w
         m "А это что был за кадр?!"
@@ -855,6 +863,7 @@ label ep26_photoshoot_suit7_pose10:
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_182
+        $ add_char_progress("AlexPhotograph", PS7_AlexProgressEachCorruptionShot, "PS7_monica_shot9_progress")
         $ PS7_shoots_array.append(photoImage)
         jump expression photoPoseLabel
 
@@ -920,18 +929,32 @@ label ep26_photoshoot_suit7_pose11_pre:
     with fade
     mt "..."
     mt "Итак, что же мне делать?"
-    $ menu_corruption = [PS7_monica_shot10_corruption_required_high]
-    menu:
-        "Опустить руки.": #corruption
-            pass
-        "Прекратить фотосессию":
-            music Groove2_85
-            img 20147
-            with fadelong
-            m "Нет, Алекс!"
-            m "Я не поддамся на твои уловки!"
-            m "С меня хватит!"
-            return False
+
+    if char_info["AlexPhotograph"]["level"] < 2:
+        menu:
+            "Опустить руки. (недостаточные отношения с Алексом) (disabled)": #corruption
+                pass
+            "Прекратить фотосессию":
+                music Groove2_85
+                img 20147
+                with fadelong
+                m "Нет, Алекс!"
+                m "Я не поддамся на твои уловки!"
+                m "С меня хватит!"
+                return False
+    else:
+        $ menu_corruption = [PS7_monica_shot10_corruption_required_high]
+        menu:
+            "Опустить руки.": #corruption
+                pass
+            "Прекратить фотосессию":
+                music Groove2_85
+                img 20147
+                with fadelong
+                m "Нет, Алекс!"
+                m "Я не поддамся на твои уловки!"
+                m "С меня хватит!"
+                return False
 
     music stop
     img black_screen
