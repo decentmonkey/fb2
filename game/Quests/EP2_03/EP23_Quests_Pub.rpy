@@ -92,10 +92,10 @@ label ep23_quests_pub5_dishes: # Моника моет посуду
         call change_scene("pub_bar1") from _call_change_scene_223
         return False
     if _return == 2: # Заказать еду
-        call ep23_dialogues1_6()
+        call ep23_dialogues1_6() from _call_ep23_dialogues1_6
         if _return != False:
-            call monicaEat()
-        call change_scene("hostel_street", "Fade_long")
+            call monicaEat() from _call_monicaEat_12
+        call change_scene("hostel_street", "Fade_long") from _call_change_scene_333
         return False
     return False
 

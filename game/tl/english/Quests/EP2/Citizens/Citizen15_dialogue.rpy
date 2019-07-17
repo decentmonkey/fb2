@@ -1239,3 +1239,17 @@ translate english strings:
     old "Мне нужны деньги..."
     new "I need money!"
 
+# TODO: Translation updated at 2019-07-17 22:57
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:340
+translate english cit15_naked_boobs_variant1_d1a206a7:
+
+    # m "Можешь поворачиваться!"
+    m "Можешь поворачиваться!"
+
+# game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:343
+translate english cit15_naked_boobs_variant1_7a6551c3:
+
+    # citizen15 "Как скажешь, детка."
+    citizen15 "Как скажешь, детка."
+

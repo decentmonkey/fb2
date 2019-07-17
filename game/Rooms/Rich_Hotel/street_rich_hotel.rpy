@@ -32,7 +32,7 @@ label street_rich_hotel_teleport:
 #            return
             if cloth == "CasualDress1":
 #                help "Будет доступно в следующем обновлении игры. Следите за новостями!"
-                call ep26_quests_restaurant1()
+                call ep26_quests_restaurant1() from _call_ep26_quests_restaurant1
                 return
             mt "Я еще не сошла с ума, чтобы идти в такой дорогой отель одетой в ЭТО!!!"
             if charityEventCompleted == True:

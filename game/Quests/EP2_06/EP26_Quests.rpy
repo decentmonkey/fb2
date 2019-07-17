@@ -9,6 +9,6 @@ label ep26_quests1:
 
 
     if monicaMustNotWearPanties == True and bettyMustNotWearPanties == True:
-        call ep26_quests_bardie1()
+        call ep26_quests_bardie1() from _call_ep26_quests_bardie1_1
 
     return

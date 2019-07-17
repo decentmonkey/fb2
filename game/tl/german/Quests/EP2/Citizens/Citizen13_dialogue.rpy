@@ -1059,3 +1059,11 @@ translate german cit13_naked_boobs_variant2_55ecb729:
     # mt "Посмотрим..."
     mt "Wir werden sehen..."
 
+# TODO: Translation updated at 2019-07-17 22:58
+
+translate german strings:
+
+    # Quests/EP2/Citizens/Citizen13_dialogue.rpy:89
+    old "Голые сиськи. (мало свиданий) (disabled)"
+    new ""
+

@@ -906,3 +906,23 @@ translate english cit9_naked_boobs_variant2_5d2517cc:
     # mt "Извращенец, когда я верну свое положение, я найду тебя..."
     mt "Pervert! When I get everyting back, I'll find you..."
 
+# TODO: Translation updated at 2019-07-17 22:57
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:447
+translate english cit9_naked_boobs_variant1_74967fb9:
+
+    # citizen9 "Йо, дамочка, так дела не делаются."
+    citizen9 "Йо, дамочка, так дела не делаются."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:449
+translate english cit9_naked_boobs_variant1_e6f2527f:
+
+    # citizen9 "Ладно, вот твой доллар, все путем да?"
+    citizen9 "Ладно, вот твой доллар, все путем да?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:598
+translate english citizen9_comment1_f4e1f245:
+
+    # mt "Мерзавец!"
+    mt "Мерзавец!"
+

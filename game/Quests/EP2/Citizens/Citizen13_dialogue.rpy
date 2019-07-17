@@ -191,17 +191,19 @@ label citizen13_dialogue_pilon:
             jump citizen13_dialogue_pilon_loop13
         "Голые сиськи. (disabled)" if (pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen13BoobsNakesShowedLastDay == day:
             pass
-        "Голые сиськи." if pylonpart4startsCompleted == True and citizen13BoobsNakesShowedLastDay != day:
+        "Голые сиськи. (мало свиданий) (disabled)" if (pylonpart4startsCompleted == True and citizen13BoobsNakesShowedLastDay != day) and fallingPathGetCitizenData("visits") < monicaWhoringNakedBoobsVisitsRequired:
+            pass
+        "Голые сиськи." if (pylonpart4startsCompleted == True and citizen13BoobsNakesShowedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsVisitsRequired:
             $ store_music()
             if citizen13BoobsNakesShowedCount == -1:
-                call cit13_naked_boobs_1st()
+                call cit13_naked_boobs_1st() from _call_cit13_naked_boobs_1st
                 if _return != False:
                     $ citizen13BoobsNakesShowedCount += 1
             else:
                 if citizen13BoobsNakesShowedCount%2 == 0:
-                    call cit13_naked_boobs_variant1()
+                    call cit13_naked_boobs_variant1() from _call_cit13_naked_boobs_variant1
                 if citizen13BoobsNakesShowedCount%2 == 1:
-                    call cit13_naked_boobs_variant2()
+                    call cit13_naked_boobs_variant2() from _call_cit13_naked_boobs_variant2
                 $ citizen13BoobsNakesShowedCount += 1
             if _return != False:
                 $ citizen13BoobsNakesShowedLastDay = day
@@ -515,7 +517,7 @@ label cit13_naked_boobs_variant2:
     img 12396
     with Dissolve(0.2)
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_148
     w
     music Power_Bots_Loop
     img 12397

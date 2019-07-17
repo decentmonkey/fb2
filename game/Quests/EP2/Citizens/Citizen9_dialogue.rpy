@@ -211,22 +211,24 @@ label citizen9_dialogue_pilon:
             jump citizen9_dialogue_pilon_loop9
         "Голые сиськи. (disabled)" if (pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen9BoobsNakesShowedLastDay == day:
             pass
-        "Голые сиськи." if pylonpart4startsCompleted == True and citizen9BoobsNakesShowedLastDay != day:
+        "Голые сиськи. (мало свиданий) (disabled)" if (pylonpart4startsCompleted == True and citizen9BoobsNakesShowedLastDay != day) and fallingPathGetCitizenData("visits") < monicaWhoringNakedBoobsVisitsRequired:
+            pass
+        "Голые сиськи." if (pylonpart4startsCompleted == True and citizen9BoobsNakesShowedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsVisitsRequired:
             $ store_music()
             if citizen9BoobsNakesShowedCount == -1:
-                call cit9_naked_boobs_1st()
+                call cit9_naked_boobs_1st() from _call_cit9_naked_boobs_1st
                 if _return != False:
                     $ citizen9BoobsNakesShowedCount += 1
             else:
                 if citizen9BoobsNakesShowedCount%2 == 0:
-                    call cit9_naked_boobs_variant1()
+                    call cit9_naked_boobs_variant1() from _call_cit9_naked_boobs_variant1
                 if citizen9BoobsNakesShowedCount%2 == 1:
-                    call cit9_naked_boobs_variant2()
+                    call cit9_naked_boobs_variant2() from _call_cit9_naked_boobs_variant2
                 $ citizen9BoobsNakesShowedCount += 1
             if _return == 2:
                 $ scene_sound = "snd_runaway"
                 $ autorun_to_object("citizen9_comment1", scene="hostel_edge_1_a")
-                call refresh_scene_fade()
+                call refresh_scene_fade() from _call_refresh_scene_fade_154
                 sound snd_runaway
                 return False
             if _return != False:

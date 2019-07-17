@@ -1096,3 +1096,21 @@ translate german strings:
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot7_casting_corruption_required]) (disabled)"
     new ""
 
+# TODO: Translation updated at 2019-07-17 22:58
+
+# game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:954
+translate german ep26_photoshoot_suit7_pose11_pre_d27dec45_1:
+
+    # m "Нет, Алекс!"
+    # m "Я не поддамся на твои уловки!"
+    # m "С меня хватит!"
+    m "Нет, Алекс!"
+    m "Я не поддамся на твои уловки!"
+    m "С меня хватит!"
+
+translate german strings:
+
+    # Quests/EP2_06/ep26_photoshoot_suit7.rpy:934
+    old "Опустить руки. (недостаточные отношения с Алексом, required lvl. 2) (disabled)"
+    new ""
+

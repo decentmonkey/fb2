@@ -64,7 +64,7 @@ label ep24_quests_betty2:
             "Говорить." if bettyFitnessToday == True:
                 call ep22_dialogues4_1b() from _call_ep22_dialogues4_1b_1
             "Миссис Робертс. Барди зовет Вас в свою комнату..." if bardieCalledBettyForPunishment == True:
-                call ep26_quests_bardie7()
+                call ep26_quests_bardie7() from _call_ep26_quests_bardie7
             "Уйти.":
                 pass
             "":
@@ -118,7 +118,7 @@ label ep24_quests_betty6:
     call process_hooks("Bardie_Life_day", "global") from _call_process_hooks_42
     menu:
         "Миссис Робертс. Барди зовет Вас в свою комнату..." if bardieCalledBettyForPunishment == True:
-            call ep26_quests_bardie7()
+            call ep26_quests_bardie7() from _call_ep26_quests_bardie7_1
             return False
         "Уйти.":
             return False
@@ -206,7 +206,7 @@ label ep24_quests_betty11:
     $ questLog(39, True)
 
     # Инициализация квестов в v0.6!
-    call ep26_quests_bardie1()
+    call ep26_quests_bardie1() from _call_ep26_quests_bardie1
 
     $ autorun_to_object("basement_bedroom2", "ep24_dialogues5_betty5a")
     $ basement_bedroom2_MonicaSuffix = 2

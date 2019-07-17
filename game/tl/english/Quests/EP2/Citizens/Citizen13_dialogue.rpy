@@ -911,3 +911,11 @@ translate english cit13_naked_boobs_variant2_55ecb729:
     # mt "Посмотрим..."
     mt "We will see..."
 
+# TODO: Translation updated at 2019-07-17 22:57
+
+translate english strings:
+
+    # Quests/EP2/Citizens/Citizen13_dialogue.rpy:89
+    old "Голые сиськи. (мало свиданий) (disabled)"
+    new ""
+

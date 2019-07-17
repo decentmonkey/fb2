@@ -1555,7 +1555,7 @@ label ep26_dialogues1_bardie10:
     m "И, я думаю, не соблюдает правила дома."
     m "Я видела в прачечной, что кто-то трогает трусики."
     m "Уверена, это Бетти одевает их в доме."
-    call bitch(5, "bardie_betty_punishment1")
+    call bitch(5, "bardie_betty_punishment1") from _call_bitch_197
     music Groove2_85
     img 13106
     with fade

@@ -32,7 +32,7 @@ label rich_hotel_restaurant_entrance_teleport:
     if obj_name == "Teleport_Reception":
         $ richHotelReceptionMonicaSuffix = 2
         $ richHotelReceptionReceptionSuffix = 2
-        call change_scene("rich_hotel_reception", "Fade_long")
+        call change_scene("rich_hotel_reception", "Fade_long") from _call_change_scene_339
         return
     return
 label rich_hotel_restaurant_entrance_environment:

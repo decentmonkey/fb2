@@ -24,11 +24,11 @@ label ep26_quests_betty3:
         return
 
     if day_time == "evening":
-        call ep26_dialogues1_bardie12a()
+        call ep26_dialogues1_bardie12a() from _call_ep26_dialogues1_bardie12a
         return False
-    call ep26_dialogues1_bardie6()
+    call ep26_dialogues1_bardie6() from _call_ep26_dialogues1_bardie6
     if _return == 0: # Моника просто ушла
-        call change_scene("floor1", "Fade_long")
+        call change_scene("floor1", "Fade_long") from _call_change_scene_334
         return False
     if _return == 1: # Моника поела с голой грудью
         $ MonicaShowedBoobsToBettyKitchen = True
@@ -36,8 +36,8 @@ label ep26_quests_betty3:
         $ questLog(45, True)
         $ monicaBettyKitchenEatedCount += 1
         $ monicaEatedKitchenLastDay = day
-        call monicaEat()
-        call change_scene("floor1", "Fade_long")
+        call monicaEat() from _call_monicaEat_13
+        call change_scene("floor1", "Fade_long") from _call_change_scene_335
         $ remove_hook(label="kitchen_betty_bardie_food1_enter")
         $ add_hook("enter_scene", "ep26_quests_betty4", scene="kitchen", label="kitchen_betty_bardie_food2_enter")
         return False
@@ -49,26 +49,26 @@ label ep26_quests_betty4:
     if get_active_objects("Betty", scene="House", recursive=True) == False:
         return
     if day_time == "evening":
-        call ep26_dialogues1_bardie12a()
+        call ep26_dialogues1_bardie12a() from _call_ep26_dialogues1_bardie12a_1
         return False
     if monicaEatedKitchenLastDay == day: # Моника уже кушала здесь сегодня
-        call ep26_dialogues1_bardie12b()
+        call ep26_dialogues1_bardie12b() from _call_ep26_dialogues1_bardie12b
         return False
-    call ep26_dialogues1_bardie7()
+    call ep26_dialogues1_bardie7() from _call_ep26_dialogues1_bardie7
     if _return == 0: # Моника просто ушла
-        call change_scene("floor1", "Fade_long")
+        call change_scene("floor1", "Fade_long") from _call_change_scene_336
         return False
     if _return == 1: # Бетти козлит и не кормит
         $ autorun_to_object("ep26_dialogues1_bardie8a", scene="floor1")
         $ bettyNotFeedingMonicaKitchen = True
-        call change_scene("floor1", "Fade_long")
+        call change_scene("floor1", "Fade_long") from _call_change_scene_337
         return False
     if _return == 2: # Моника поела
         $ monicaEatedKitchenLastDay = day
         $ monicaBettyKitchenEatedCount += 1
         $ bardieForcedBettyToFeedMonica = False
-        call monicaEat()
-        call change_scene("floor1", "Fade_long")
+        call monicaEat() from _call_monicaEat_14
+        call change_scene("floor1", "Fade_long") from _call_change_scene_338
         return False
 
     return

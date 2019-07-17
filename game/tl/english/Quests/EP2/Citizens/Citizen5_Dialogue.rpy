@@ -846,3 +846,25 @@ translate english cit5_naked_boobs_variant2_c7cdd0e4:
     # mt "Черт, похоже он очень глуп, даже говорить с ним нет смысла..."
     mt "Damn it, looks like he is just an idiot, there is no point in talking to him..."
 
+# TODO: Translation updated at 2019-07-17 22:57
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:231
+translate english cit5_naked_boobs_1st_39574ef7:
+
+    # m "Думаю, ты уже их видел."
+    # citizen5 "Да, конечно, но было бы прекрасно их оголить. У мистера есть деньги! Много денег!"
+    m "Думаю, ты уже их видел."
+    citizen5 "Да, конечно, но было бы прекрасно их оголить. У мистера есть деньги! Много денег!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:466
+translate english cit5_naked_boobs_variant2_eeb57eb3:
+
+    # citizen5 "Да, да, готов! Но у мистера небольшое условие."
+    citizen5 "Да, да, готов! Но у мистера небольшое условие."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:469
+translate english cit5_naked_boobs_variant2_9416d522:
+
+    # citizen5 "Мистер хочет увидеть на тебе это."
+    citizen5 "Мистер хочет увидеть на тебе это."
+

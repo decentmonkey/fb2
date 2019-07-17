@@ -38,10 +38,10 @@ label rich_hotel_reception_init:
 
 label rich_hotel_reception_teleport:
     if obj_name == "Teleport_Street_Rich_Hotel":
-        call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1")
+        call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1") from _call_change_scene_331
         return
     if obj_name == "Teleport_Restaurant":
-        call change_scene("rich_hotel_restaurant_entrance", "Fade_long")
+        call change_scene("rich_hotel_restaurant_entrance", "Fade_long") from _call_change_scene_332
         return
     return
 label rich_hotel_reception_environment:

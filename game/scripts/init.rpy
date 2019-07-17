@@ -189,6 +189,7 @@ define monicaWhoringClothAssCorruptionRequired = 80 # Кол-во corruption, ч
 define monicaWhoringClothAssSpankCorruptionRequired = 90  # Кол-во corruption, чтобы Моника показала зад в одежде и шлепнула по нему
 define monicaWhoringClothPylonDanceCorruptionRequired = 90 # Кол-во corruption, чтобы Моника танцевала на пилоне
 define monicaWhoringClothPylonDanceVisitsRequired = 1 # Кол-во визитов у этого клиента, чтобы появилась возможность танцевать на пилоне
+define monicaWhoringNakedBoobsVisitsRequired = 3 # Кол-во визитов у этого клиента, чтобы появилась возможность показывать обнаженную грудь
 define monicaWhoringClothNakedBoobsCorruptionRequired = 100 # Кол-во corruption, чтобы Моника показала голые сиськи
 define monicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired = 110  # Кол-во corruption, чтобы Моника показала голые сиськи и сжала соски
 define monicaWhoringClothNakedBoobsShakeCorruptionRequired = 110  # Кол-во corruption, чтобы Моника показала голые сиськи и потрясла ими

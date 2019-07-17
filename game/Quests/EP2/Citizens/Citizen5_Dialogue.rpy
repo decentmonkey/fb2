@@ -153,17 +153,19 @@ label citizen5_dialogue_pilon:
             jump citizen5_dialogue_pilon_loop5
         "Голые сиськи. (disabled)" if (pylonpart4startsCompleted == False and citizen4BoobsShowedFirstTime == True) or citizen5BoobsNakesShowedLastDay == day:
             pass
-        "Голые сиськи." if pylonpart4startsCompleted == True and citizen5BoobsNakesShowedLastDay != day:
+        "Голые сиськи. (мало свиданий) (disabled)" if (pylonpart4startsCompleted == True and citizen5BoobsNakesShowedLastDay != day) and fallingPathGetCitizenData("visits") < monicaWhoringNakedBoobsVisitsRequired:
+            pass
+        "Голые сиськи." if (pylonpart4startsCompleted == True and citizen5BoobsNakesShowedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsVisitsRequired:
             $ store_music()
             if citizen5BoobsNakesShowedCount == -1:
-                call cit5_naked_boobs_1st()
+                call cit5_naked_boobs_1st() from _call_cit5_naked_boobs_1st
                 if _return != False:
                     $ citizen5BoobsNakesShowedCount += 1
             else:
                 if citizen5BoobsNakesShowedCount%2 == 0:
-                    call cit5_naked_boobs_variant1()
+                    call cit5_naked_boobs_variant1() from _call_cit5_naked_boobs_variant1
                 if citizen5BoobsNakesShowedCount%2 == 1:
-                    call cit5_naked_boobs_variant2()
+                    call cit5_naked_boobs_variant2() from _call_cit5_naked_boobs_variant2
                 $ citizen5BoobsNakesShowedCount += 1
             if _return != False:
                 $ citizen5BoobsNakesShowedLastDay = day
