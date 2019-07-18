@@ -1188,7 +1188,7 @@ translate german ep26_dialogues2_steve5_621ef1c6:
     # steve "Бетти, подойди ко мне!"
     # steve "Подойди ко мне поближе, скорее, Бетти!"
     steve "Betty, komm näher!"
-    steve "Подойди ко мне поближе, скорее, Бетти!"
+    steve "Bitte, Betty!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:746
 translate german ep26_dialogues2_steve5_7b08b40c:
@@ -1887,4 +1887,68 @@ translate german strings:
     # Quests/EP2_06/ep26_dialogues2_steve.rpy:1137
     old "Ладно, Стив. Только быстро!"
     new "Gut, Steve. Aber sei schnell!"
+
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:99
+translate german ep26_dialogues2_steve1_9363953d:
+
+    # mt "!!!"
+    # mt "Странной совпадение..."
+    # mt "Но, с другой стороны, там вполне приличный ресторан."
+    # mt "И было бы очень неплохо ощутить себя снова Леди и поесть в нормальном месте."
+    # mt "Нормальном!"
+    mt "!!!"
+    mt "Seltsamer Zufall..."
+    mt "Das Restaurant ist eigentlich ganz nett..."
+    mt "Und es wäre schön, mal wieder an so einem Ort zu essen, wie eine Lady..."
+    mt "An diesem tollen Ort!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:247
+translate german ep26_dialogues2_steve1_c94ce435:
+
+    # steve "Потому я и решил так сказать."
+    # steve "Обычный разговор вряд-ли отвлечет ее от того, что она принялась наседать на меня."
+    steve "Darum habe ich das gesagt."
+    steve "Smalltalk lenkt sie leicht ab."
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:313
+translate german ep26_dialogues2_steve1_7a2de8bf:
+
+    # steve "Нет, Моника"
+    # steve "Я имею ввиду контракты, где за очень легкую и быструю работу я плачу большие деньги..."
+    steve "Nein, Monica."
+    steve "Ich meine diese Deals, in denen ich dir viel Geld für schnelle und einfache Jobs zahle."
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:445
+translate german ep26_dialogues2_steve3_032957d4:
+
+    # jane "Миссис Бакфетт, скажите, как Вам удалось достичь такой превосходной формы?"
+    jane "Frau Buckfett, bitte, erzählen sie mir, wie konnten sie so eine perfekte Figur erlangen?"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:448
+translate german ep26_dialogues2_steve3_ba4d0283:
+
+    # m "Все дело в правильном питании и регулярном занятии фитнесом."
+    m "Das Geheimnis ist eine angemessene Diät und regelmässiges Training im Fitnessstudio."
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:485
+translate german ep26_dialogues2_steve3_d7e5312a:
+
+    # mt "Чем я питаюсь?"
+    # mt "Моя диета?"
+    # mt "Да уж!"
+    # mt "Я боюсь что эта толстая корова не сможет выжить на моей сегодняшней диете..."
+    mt "Was ich esse?"
+    mt "Meine Diät?"
+    mt "Jaa, klar..."
+    mt "Ich wette, diese fette Kuh könnte nie von meiner Diät leben!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:547
+translate german ep26_dialogues2_steve3_4b191628:
+
+    # m "Со мной занимается личный тренер, который даже внешне соответствует здоровому образу жизни."
+    # m "А также знает толк в упражнениях для достижения нужной цели!"
+    m "Ich habe einen Privattrainer."
+    m "Der seinen Job gut macht und weiß, wie man Ziele erreicht."
 

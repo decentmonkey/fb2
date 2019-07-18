@@ -1176,3 +1176,21 @@ translate german strings:
     old "Моника не выгоняла Юлию с работы."
     new "Monica hat Julia nicht gefeuert"
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:75
+translate german ep26_dialogues6_office2_1_2395b9c1:
+
+    # m "Я Ваш новый Босс!"
+    # m "Вернее, я и так была Вашим Боссом, но я решила временно поработать здесь."
+    # m "Недолго."
+    m "Ich bin euer neuer Chef!"
+    m "Um genau zu sein, war ich natürlich schon immer euer Chef, aber ich habe mich entschlossen, eine Zeit lang nun hie rzu arbeiten."
+    m "Nicht für lange."
+
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:469
+translate german ep26_dialogues6_office2_7_45c4b1c3:
+
+    # m "Ты ведь не намекаешь на то, что я должна помогать тебе в этой работе?"
+    m "Oder willst du sagen, dass ICH etwa DIR helfen soll, DEINEN Job zu machen??"
+

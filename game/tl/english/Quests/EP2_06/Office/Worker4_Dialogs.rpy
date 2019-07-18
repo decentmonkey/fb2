@@ -156,3 +156,23 @@ translate english worker4_dialogue_office_4b9a9ce5:
     # m "Ты что, не понимаешь? Я сейчас занята!"
     m "Don’t you see that I'm busy?"
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:36
+translate english worker4_dialogue_office_125fd8f0:
+
+    # w4 "Миссис Бакфетт, можно?"
+    w4 "Mrs. Buckfett, can I come in?"
+
+# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:43
+translate english worker4_dialogue_office_5d51fdae:
+
+    # w4 "Миссис Бакфетт, у меня пропал интернет."
+    w4 "Mrs. Buckfett, my internet stopped working!"
+
+# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:48
+translate english worker4_dialogue_office_b56fa05c:
+
+    # m "Ты же знаешь, что этими проблемами занимается наш системный администратор."
+    m "Our system administrator is supposed to fix problems like that."
+

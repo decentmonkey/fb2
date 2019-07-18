@@ -144,3 +144,11 @@ translate german worker6_dialogue_office_eb4d2bcc:
     w6 "Aaaa...ber..."
     m "Ich sagte morgen, und jetzt raus!"
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:30
+translate german worker6_dialogue_office_3e6eef3d:
+
+    # w6 "Миссис Бакфетт, можно?"
+    w6 "Frau Buckfett, kann ich rein kommen?"
+

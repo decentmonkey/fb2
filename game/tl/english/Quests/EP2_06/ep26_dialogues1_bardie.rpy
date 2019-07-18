@@ -807,7 +807,7 @@ translate english ep26_dialogues1_bardie10_628ce50f:
     # bardie "Хорошо. Позови Бетти сюда."
     # help "Позвать Бетти к Барди." 
     m "Bardie."
-    m "Betty is closing doors behind her often."
+    m "By the way, Betty is often losing her temper."
     m "She calls you bastard."
     m "And I think she breaks the rules."
     m "I've seen in the laundry room that someone moved panties."
@@ -2531,4 +2531,40 @@ translate english strings:
     # Quests/EP2_06/ep26_dialogues1_bardie.rpy:1573
     old "Позвать Бетти к Барди."
     new "Call Betty to Bardie."
+
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:19
+translate english ep26_dialogues1_bardie1_d6a98637:
+
+    # bardie "Аххх! Ахххх!!!"
+    # bardie "Моника Бакфетт..."
+    bardie "Ahhh! Ahhhh!!!"
+    bardie "Monica Buckfett..."
+
+# game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:103
+translate english ep26_dialogues1_bardie1_0baa209d:
+
+    # m "Это мой журнал! Мой!"
+    # m "Что ты делаешь с ним?!"
+    m "It's my magazine! Mine!"
+    m "What are you doing?!"
+
+# game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:493
+translate english ep26_dialogues1_bardie4_4985bc8f:
+
+    # bardie "Хорошая гувернантка должна выполнять эту работу."
+    # bardie "И, если гувернантка будет хорошей, то ее в этом доме будут кормить."
+    bardie "Good maid has to do her job."
+    bardie "And if she is doing well, she'll get to eat."
+
+# game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1550
+translate english ep26_dialogues1_bardie10_6d52d0c5:
+
+    # m "Барди."
+    # m "Между прочим, Бетти часто зарывается."
+    # m "Она называет тебя засранцем."
+    m "Bardie."
+    m "By the way, Betty is often losing her temper."
+    m "She calls you bastard."
 

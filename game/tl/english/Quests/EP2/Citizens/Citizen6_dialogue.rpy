@@ -1128,3 +1128,23 @@ translate english cit6_naked_boobs_variant2_7c64e520:
     # citizen6 "Да и пожалуйста, я и получше сиськи видел!"
     citizen6 "Whatever, I've seen better!"
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:456
+translate english cit6_naked_boobs_1st_fa8def28:
+
+    # citizen6 "Как насчет того, чтобы показать мне свои сиськи? Но уже без этой ненужной курточки?"
+    citizen6 "How about showing your tits? But without this useless jacket?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:591
+translate english cit6_naked_boobs_variant1_8ba17458:
+
+    # citizen6 "Детка, ты готова отсосать за 20 баксов?"
+    citizen6 "Babe, give me a blowjob for 20 bucks?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:599
+translate english cit6_naked_boobs_variant1_c66b7d0d:
+
+    # mt "Господи, что я говорю? Неужели я готова сделать такое..."
+    mt "My god, what am I saying? Am I really ready to do it..."
+

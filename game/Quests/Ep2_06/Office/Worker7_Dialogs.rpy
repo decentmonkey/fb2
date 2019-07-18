@@ -66,5 +66,5 @@ label worker7_dialogue_office:
     if shopVisitorStage10 >= 3:
         img 20378
         with fade
-        w7t "(Меня не покидает мысль, что где то Я видела эту миссис Бакфет...)"
+        w7t "(Меня не покидает мысль, что где то Я видела эту миссис Бакфетт...)"
     return

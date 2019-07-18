@@ -1067,3 +1067,13 @@ translate german strings:
     old "Голые сиськи. (мало свиданий) (disabled)"
     new "Nackte Brüste. (nach einigen Treffen) (disabled)"
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:482
+translate german cit13_naked_boobs_variant2_b4f15484:
+
+    # citizen13 "Точно, вспомнил! Вчера вечером я смотрел один фильм..."
+    # citizen13 "Дак там 10 мужчин... Хотя что я рассказываю, уверен, ты такое каждый день видишь."
+    citizen13 "Ja! In dem Film gestern..."
+    citizen13 "Da waren 10 Männer... Warte, warum erzähle ich dir das, das siehst du sicher täglich."
+

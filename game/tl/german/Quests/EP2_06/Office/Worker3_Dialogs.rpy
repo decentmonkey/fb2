@@ -138,3 +138,17 @@ translate german worker3_dialogue_office_fc91423b:
     # m "Ты что, плохо слышишь!? Я сейчас занята!"
     m "Bist du taub? Ich sagte, komm morgen!"
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:28
+translate german worker3_dialogue_office_179a5196:
+
+    # w3 "Миссис Бакфетт, можно?"
+    w3 "Frau Buckfett, kann ich rein kommen?"
+
+# game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:35
+translate german worker3_dialogue_office_32460a44:
+
+    # w3 "Миссис Бакфетт, в офисе очень жарко, нам нужен кондиционер."
+    w3 "Frau Buckfett, es ist sehr heiß im Büro, können wir eine Klimaanlage bekommen?"
+

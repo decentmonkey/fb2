@@ -204,3 +204,13 @@ translate english worker2_dialogue_office_6df74c39:
     mt "Maybe I can use it somehow..."
     mt "How? Not sure yet..."
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/Office/Worker2_Dialogs.rpy:73
+translate english worker2_dialogue_office_4630ed8f:
+
+    # w2 "Миссис Бакфетт, можно?"
+    # m "Да, заходи."
+    w2 "Mrs. Buckfett, can I come in?"
+    m "Yes, come in."
+

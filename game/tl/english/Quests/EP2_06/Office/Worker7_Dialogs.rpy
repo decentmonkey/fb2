@@ -66,7 +66,7 @@ translate english worker7_dialogue_office_905e0dba:
 translate english worker7_dialogue_office_8f43d3f2:
 
     # w7 "Хорошо, Мэм."
-    # w7t "(Меня не покидает мысль, что где то Я видела эту миссис Бакфет...)"
+    # w7t "(Меня не покидает мысль, что где то Я видела эту миссис Бакфетт...)"
     w7 "All right, Ma'am."
     w7t "(Can't get rid of the feeling that I've seen this Monica Buckfett somewhere already...)"
 
@@ -135,6 +135,22 @@ translate english worker7_dialogue_office_13467234:
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:69
 translate english worker7_dialogue_office_45a89aa3:
 
-    # w7t "(Меня не покидает мысль, что где то Я видела эту миссис Бакфет...)"
+    # w7t "(Меня не покидает мысль, что где то Я видела эту миссис Бакфетт...)"
+    w7t "(Can't get rid of the feeling that I've seen this Monica Buckfett somewhere already...)"
+
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:44
+translate english worker7_dialogue_office_0c786609:
+
+    # w7 "Миссис Бакфетт, можно?"
+    w7 "Mrs. Buckfett, can I come in?"
+
+# TODO: Translation updated at 2019-07-18 12:38
+
+# game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:69
+translate english worker7_dialogue_office_2b3f9588:
+
+    # w7t "(Меня не покидает мысль, что где то Я видела эту миссис Бакфетт...)"
     w7t "(Can't get rid of the feeling that I've seen this Monica Buckfett somewhere already...)"
 

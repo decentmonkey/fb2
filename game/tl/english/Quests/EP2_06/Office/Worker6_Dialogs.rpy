@@ -144,3 +144,11 @@ translate english worker6_dialogue_office_eb4d2bcc:
     w6 "Bu-ut..."
     m "I said tomorrow! I'm busy now!"
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:30
+translate english worker6_dialogue_office_3e6eef3d:
+
+    # w6 "Миссис Бакфетт, можно?"
+    w6 "Mrs. Buckfett, can I come in?"
+

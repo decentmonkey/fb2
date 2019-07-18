@@ -1372,3 +1372,23 @@ translate german cit6_naked_boobs_variant2_7c64e520:
     # citizen6 "Да и пожалуйста, я и получше сиськи видел!"
     citizen6 "Was auch immer, ich habe schon Besseres gesehen!"
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:456
+translate german cit6_naked_boobs_1st_fa8def28:
+
+    # citizen6 "Как насчет того, чтобы показать мне свои сиськи? Но уже без этой ненужной курточки?"
+    citizen6 "Wie wärs wenn du deine Titten zeigst? Aber ohne diese unnütze Jacke."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:591
+translate german cit6_naked_boobs_variant1_8ba17458:
+
+    # citizen6 "Детка, ты готова отсосать за 20 баксов?"
+    citizen6 "Babe, bläst du mir einen für $ 20?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:599
+translate german cit6_naked_boobs_variant1_c66b7d0d:
+
+    # mt "Господи, что я говорю? Неужели я готова сделать такое..."
+    mt "Meine Güte, was sage ich da überhaupt? Bin ich wirklich bereit, das zu tun?..."
+

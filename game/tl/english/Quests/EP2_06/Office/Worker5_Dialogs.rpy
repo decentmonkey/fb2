@@ -212,3 +212,35 @@ translate english worker5_dialogue_office_4669f28f:
     # w5 "Хорошо. Понимаю, Вы очень заняты. Ну ничего, в другой раз."
     w5 "Alright, I can see that you are busy. Next time maybe..."
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:56
+translate english worker5_dialogue_office_5a5ad2fc:
+
+    # w5 "Миссис Бакфетт, я бы хотел поговорить о моем повышении!"
+    w5 "Mrs. Buckfett, I'd like to talk about my promotion with you."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:65
+translate english worker5_dialogue_office_9444ccea:
+
+    # w5 "Миссис Бакфетт, Вы же знаете, я очень ответственный и без меня этот отдел просто развалится."
+    # w5 "Еще эта толстуха Грета так и норовит занять мое законное место."
+    # w5 "И я буду Вам бесконечно благодарен если Вы..."
+    w5 "As you know, I'm the most responsible person in this department, and without me, nothing works here."
+    w5 "Moreover, fat Gretha is aiming to take my position!"
+    w5 "And I'll be infinitely grateful to you if..."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:71
+translate english worker5_dialogue_office_3b1c5bbb:
+
+    # m "Достаточно..."
+    # m "Чем чаще ты задаешь мне такие вопросы, тем дальше от тебя эта должность."
+    m "That was nice..."
+    m "The more you talk like this, the further a promotion is away from you."
+
+# game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:79
+translate english worker5_dialogue_office_af44f010:
+
+    # w5 "Да, понял. Ухожу. Но знайте, миссис Бакфетт, Вы всегда можете на меня расчитывать."
+    w5 "I understand, I'm going. But you can always count on me, Mrs. Buckfett!"
+

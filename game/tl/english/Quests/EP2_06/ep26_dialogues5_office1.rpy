@@ -1704,3 +1704,43 @@ translate english ep26_dialogues5_office1_4_cb5efd3f:
     mt "I have no choice but to wear it... just for now!"
     m "Come on, dear. What are you waiting for?"
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/ep26_dialogues5_office1.rpy:130
+translate english ep26_dialogues5_office1_2_2387ed97:
+
+    # biff "Поэтому, учитывая что ты здесь появляешься очень редко, я вынужден отвечать на неудобные вопросы."
+    # biff "И терять деньги!"
+    biff "Taking into consideration that you come here rarely, I'm forced to answer uncomfortable questions."
+    biff "And lose money!"
+
+# game/Quests/EP2_06/ep26_dialogues5_office1.rpy:174
+translate english ep26_dialogues5_office1_2_1b62d8d1:
+
+    # biff "Я даю тебе эту возможность!"
+    # biff "Однако, ты должна помнить, что ты всего-лишь цыпочка, хоть и похожа на Монику Бакфетт."
+    biff "And here I'm, giving you a chance!"
+    biff "But don't forget your place, you are just a babe who just looks like Monica Buckfett."
+
+# game/Quests/EP2_06/ep26_dialogues5_office1.rpy:189
+translate english ep26_dialogues5_office1_2_fbd0b733:
+
+    # biff "Я найду другую куклу, которая будет представлять журнал!"
+    # biff "И буду продавать уже ее!"
+    biff "I'll just find another doll to be a face of a magazine!"
+    biff "And will be promoting her instead!"
+
+# game/Quests/EP2_06/ep26_dialogues5_office1.rpy:304
+translate english ep26_dialogues5_office1_2_dfc4e1a1:
+
+    # biff "Если честно, я бы ее уже выгнал, но она начинает плакать."
+    biff "I've already fired her once, but she started to cry."
+
+# game/Quests/EP2_06/ep26_dialogues5_office1.rpy:599
+translate english ep26_dialogues5_office1_2b_f6668863:
+
+    # secretary "Этажом ниже есть отдел, где готовят промежуточные отчеты."
+    # secretary "Там уже работает несколько человек."
+    secretary "There is a department on the floor below, preparing preliminary reports."
+    secretary "Several people already work over there."
+

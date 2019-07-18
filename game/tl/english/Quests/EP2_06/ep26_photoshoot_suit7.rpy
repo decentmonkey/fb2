@@ -1114,3 +1114,15 @@ translate english strings:
     old "Опустить руки. (недостаточные отношения с Алексом, required lvl. 2) (disabled)"
     new "Hang down your hands. (low relationship with Alex, required lvl.2) (disabled)"
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:444
+translate english ep26_photoshoot_suit7_pose6_758b8622:
+
+    # alex_photograph "Следующая поза, Миссис Бакфетт!"
+    # m "Алекс, я не буду вставать в эту позу, даже не надейся!"
+    # m "У меня грудь почти открыта, прикрыты только соски!"
+    alex_photograph "Next pose, Mrs. Buckfett!"
+    m "I'm not posing like that!"
+    m "My chest is almost completely exposed!"
+

@@ -1704,3 +1704,43 @@ translate german ep26_dialogues5_office1_4_cb5efd3f:
     mt "Ich habe aber keine Wahl außer es zu tragen... derweil."
     m "Komm schon Schätzchen, worauf wartest du?"
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/ep26_dialogues5_office1.rpy:130
+translate german ep26_dialogues5_office1_2_2387ed97:
+
+    # biff "Поэтому, учитывая что ты здесь появляешься очень редко, я вынужден отвечать на неудобные вопросы."
+    # biff "И терять деньги!"
+    biff "In Anbetracht der Tatsache, dass du sehr unregelmäßig her kommst, muss ich unanagenehme Fragen beantworten."
+    biff "Und verliere Geld!"
+
+# game/Quests/EP2_06/ep26_dialogues5_office1.rpy:174
+translate german ep26_dialogues5_office1_2_1b62d8d1:
+
+    # biff "Я даю тебе эту возможность!"
+    # biff "Однако, ты должна помнить, что ты всего-лишь цыпочка, хоть и похожа на Монику Бакфетт."
+    biff "Und hier bin ich, und gebe dir die Chance!"
+    biff "Aber vergiss nicht deinen Platz, du bist nur ein Babe, das wie Monica Buckfett aussieht."
+
+# game/Quests/EP2_06/ep26_dialogues5_office1.rpy:189
+translate german ep26_dialogues5_office1_2_fbd0b733:
+
+    # biff "Я найду другую куклу, которая будет представлять журнал!"
+    # biff "И буду продавать уже ее!"
+    biff "Ich finde einfach eine andere Puppe, die das Gesicht des Magazines wird!"
+    biff "Und werde sie promoten!"
+
+# game/Quests/EP2_06/ep26_dialogues5_office1.rpy:304
+translate german ep26_dialogues5_office1_2_dfc4e1a1:
+
+    # biff "Если честно, я бы ее уже выгнал, но она начинает плакать."
+    biff "Ich habe sie schon mal gefeuert, aber sie hat dann zu weinen angefangen."
+
+# game/Quests/EP2_06/ep26_dialogues5_office1.rpy:599
+translate german ep26_dialogues5_office1_2b_f6668863:
+
+    # secretary "Этажом ниже есть отдел, где готовят промежуточные отчеты."
+    # secretary "Там уже работает несколько человек."
+    secretary "Die Abteilung unter uns bereitet die Vorabberichte vor."
+    secretary "Da arbeiten bereits einige Leute."
+

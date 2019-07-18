@@ -1176,3 +1176,21 @@ translate english strings:
     old "Моника не выгоняла Юлию с работы."
     new "Monica didn't fire Julia"
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:75
+translate english ep26_dialogues6_office2_1_2395b9c1:
+
+    # m "Я Ваш новый Босс!"
+    # m "Вернее, я и так была Вашим Боссом, но я решила временно поработать здесь."
+    # m "Недолго."
+    m "I'm your new Boss!"
+    m "To be more precisely, I've always been your Boss, but now I decided to work here for a while."
+    m "Not for long."
+
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:469
+translate english ep26_dialogues6_office2_7_45c4b1c3:
+
+    # m "Ты ведь не намекаешь на то, что я должна помогать тебе в этой работе?"
+    m "Or are you trying to say that I should help you do YOUR job?"
+

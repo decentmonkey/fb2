@@ -204,3 +204,13 @@ translate german worker2_dialogue_office_6df74c39:
     mt "Vielleicht kann mir das irgendwie nützlich sein..."
     mt "Aber wie? Ich bin mir noch nicht sicher..."
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/Office/Worker2_Dialogs.rpy:73
+translate german worker2_dialogue_office_4630ed8f:
+
+    # w2 "Миссис Бакфетт, можно?"
+    # m "Да, заходи."
+    w2 "Frau Buckfett, kann ich rein kommen?"
+    m "Ja."
+

@@ -1188,7 +1188,7 @@ translate english ep26_dialogues2_steve5_621ef1c6:
     # steve "Бетти, подойди ко мне!"
     # steve "Подойди ко мне поближе, скорее, Бетти!"
     steve "Betty, come closer!"
-    steve "Bitte, Betty!"
+    steve "Please, Betty!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:746
 translate english ep26_dialogues2_steve5_7b08b40c:
@@ -1887,4 +1887,68 @@ translate english strings:
     # Quests/EP2_06/ep26_dialogues2_steve.rpy:1137
     old "Ладно, Стив. Только быстро!"
     new "Alright, Steve. But be quick!"
+
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:99
+translate english ep26_dialogues2_steve1_9363953d:
+
+    # mt "!!!"
+    # mt "Странной совпадение..."
+    # mt "Но, с другой стороны, там вполне приличный ресторан."
+    # mt "И было бы очень неплохо ощутить себя снова Леди и поесть в нормальном месте."
+    # mt "Нормальном!"
+    mt "!!!"
+    mt "Strange coincidence..."
+    mt "On the other hand, the restaurant is pretty decent..."
+    mt "And it would be nice to again eat at a nice place for once and feel like a lady..."
+    mt "At this nice place!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:247
+translate english ep26_dialogues2_steve1_c94ce435:
+
+    # steve "Потому я и решил так сказать."
+    # steve "Обычный разговор вряд-ли отвлечет ее от того, что она принялась наседать на меня."
+    steve "That's why I said it."
+    steve "Simple talk is an easy distraction for her."
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:313
+translate english ep26_dialogues2_steve1_7a2de8bf:
+
+    # steve "Нет, Моника"
+    # steve "Я имею ввиду контракты, где за очень легкую и быструю работу я плачу большие деньги..."
+    steve "No, Monica."
+    steve "I mean deals, where I pay you huge money for very easy and fast jobs..."
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:445
+translate english ep26_dialogues2_steve3_032957d4:
+
+    # jane "Миссис Бакфетт, скажите, как Вам удалось достичь такой превосходной формы?"
+    jane "Mrs. Buckfett, please, tell me, how were you able to achieve such a perfect figure?"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:448
+translate english ep26_dialogues2_steve3_ba4d0283:
+
+    # m "Все дело в правильном питании и регулярном занятии фитнесом."
+    m "Secret is in proper diet and regular work out sessions in the gym."
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:485
+translate english ep26_dialogues2_steve3_d7e5312a:
+
+    # mt "Чем я питаюсь?"
+    # mt "Моя диета?"
+    # mt "Да уж!"
+    # mt "Я боюсь что эта толстая корова не сможет выжить на моей сегодняшней диете..."
+    mt "What do I eat?"
+    mt "My diet?"
+    mt "Yea, sure..."
+    mt "I bet this fat cow won't be able to live off my current diet!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:547
+translate english ep26_dialogues2_steve3_4b191628:
+
+    # m "Со мной занимается личный тренер, который даже внешне соответствует здоровому образу жизни."
+    # m "А также знает толк в упражнениях для достижения нужной цели!"
+    m "I have a private trainer."
+    m "Who knows his job very well and knows how to achieve goals."
 

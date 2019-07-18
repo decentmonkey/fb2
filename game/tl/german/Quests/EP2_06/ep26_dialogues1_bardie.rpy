@@ -807,7 +807,7 @@ translate german ep26_dialogues1_bardie10_628ce50f:
     # bardie "Хорошо. Позови Бетти сюда."
     # help "Позвать Бетти к Барди." 
     m "Bardie."
-    m "Betty macht oft hinter sich die Türen zu."
+    m "Anbei, Betty verliert oft die Fassung."
     m "Sie nennt dich kleiner Bastard."
     m "Und ich glaube, sie bricht die Regeln."
     m "In der Wäsche habe ich gesehen, dass die Höschen durcheinander waren."
@@ -2531,4 +2531,40 @@ translate german strings:
     # Quests/EP2_06/ep26_dialogues1_bardie.rpy:1573
     old "Позвать Бетти к Барди."
     new "Hole Betty zu Bardie."
+
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:19
+translate german ep26_dialogues1_bardie1_d6a98637:
+
+    # bardie "Аххх! Ахххх!!!"
+    # bardie "Моника Бакфетт..."
+    bardie "Ahhh! Ahhhh!!!"
+    bardie "Monica Buckfett..."
+
+# game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:103
+translate german ep26_dialogues1_bardie1_0baa209d:
+
+    # m "Это мой журнал! Мой!"
+    # m "Что ты делаешь с ним?!"
+    m "Das ist mein Magazin! MEINS!!"
+    m "Was machst du?!"
+
+# game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:493
+translate german ep26_dialogues1_bardie4_4985bc8f:
+
+    # bardie "Хорошая гувернантка должна выполнять эту работу."
+    # bardie "И, если гувернантка будет хорошей, то ее в этом доме будут кормить."
+    bardie "Eine gute Magd macht ihren Job!"
+    bardie "Und wenn sie ihn gut macht, bekommt sie hier zu Essen."
+
+# game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1550
+translate german ep26_dialogues1_bardie10_6d52d0c5:
+
+    # m "Барди."
+    # m "Между прочим, Бетти часто зарывается."
+    # m "Она называет тебя засранцем."
+    m "Bardie."
+    m "Anbei, Betty verliert oft die Fassung."
+    m "Sie nennt dich kleiner Bastard."
 

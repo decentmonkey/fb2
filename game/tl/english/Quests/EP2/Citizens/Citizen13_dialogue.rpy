@@ -919,3 +919,13 @@ translate english strings:
     old "Голые сиськи. (мало свиданий) (disabled)"
     new "Naked boobs. (few meetings) (disabled)"
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:482
+translate english cit13_naked_boobs_variant2_b4f15484:
+
+    # citizen13 "Точно, вспомнил! Вчера вечером я смотрел один фильм..."
+    # citizen13 "Дак там 10 мужчин... Хотя что я рассказываю, уверен, ты такое каждый день видишь."
+    citizen13 "Yes! In the movie I've seen yesterday..."
+    citizen13 "There were 10 men... Wait, why I'm telling you, surely you see that everyday."
+
