@@ -42,7 +42,7 @@ translate english worker1_dialogue_office_67c1f744:
     w1 "I... I'm Martha."
     m "I hope you understand that your job is very important and I'm counting on you."
     w1 "Yes... Ma'am..."
-    m "Good. Put reports on the table and you can go."
+    m "Good. Put reports on the table, and you can go."
     w1 "Yes, alright..."
     mt "Plain mice."
 
@@ -130,7 +130,7 @@ translate english worker1_dialogue_office_cd4adaf0:
     # m "Отлично. А теперь положи бумаги на стол и можешь идти."
     m "I hope you understand that your job is very important and I'm counting on you."
     w1 "Yes... Ma'am..."
-    m "Good. Put reports on the table and you can go."
+    m "Good. Put reports on the table, and you can go."
 
 # game/Quests/EP2_06/Office/Worker1_Dialogs.rpy:55
 translate english worker1_dialogue_office_fea1ddfe:

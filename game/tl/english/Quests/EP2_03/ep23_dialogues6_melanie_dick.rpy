@@ -24,7 +24,7 @@ translate english ep23_dialogues6_1_b01c7e2a:
 translate english ep23_dialogues6_1_82a10bca:
 
     # reception_secretary "Мистер Дик?"
-    reception_secretary "Mr Dick?"
+    reception_secretary "Mr. Dick?"
 
 # game/Quests/EP2_03/ep23_dialogues6_melanie_dick.rpy:62
 translate english ep23_dialogues6_1_98753bb5:
@@ -77,7 +77,7 @@ translate english ep23_dialogues6_2_8ad3f8ea:
 
     # reception_secretary "Этот этаж занимает Мистер Дик."
     # "Пожалуйста, пройдемте."
-    reception_secretary "This floor is occupied by Mr Dick."
+    reception_secretary "This floor is occupied by Mr. Dick."
     "Please come this way."
 
 # game/Quests/EP2_03/ep23_dialogues6_melanie_dick.rpy:116
@@ -205,7 +205,7 @@ translate english ep23_dialogues6_2_36c63654:
 
     # melanie "Меня привело к Вам важное дело, касающееся юридической практики."
     # melanie "Я пришла к Вам, Мистер Дик, так как слышала что Вы лучший адвокат в городе."
-    melanie "I have an important issue to discuss and I need someone proficient in legal matters."
+    melanie "I have an important issue to discuss, and I need someone proficient in legal matters."
     melanie "I came to you, Mr. Dick, because I heard that you are the best lawyer in the city."
 
 # game/Quests/EP2_03/ep23_dialogues6_melanie_dick.rpy:227
@@ -220,7 +220,7 @@ translate english ep23_dialogues6_2_39b66623:
 translate english ep23_dialogues6_2_b34d06d0:
 
     # dick_secretary "Мистер Дик?"
-    dick_secretary "Mr Dick?"
+    dick_secretary "Mr. Dick?"
 
 # game/Quests/EP2_03/ep23_dialogues6_melanie_dick.rpy:237
 translate english ep23_dialogues6_2_ec3a6e91:
@@ -228,7 +228,7 @@ translate english ep23_dialogues6_2_ec3a6e91:
     # dick "Виктория, у меня очень важный клиент."
     # "Подожди, пожалуйста, когда я освобожусь."
     dick "Victoria, I have a very important client."
-    "Please don’t disturbe us untill we are finished."
+    "Please don’t disturb us until we are finished."
 
 # game/Quests/EP2_03/ep23_dialogues6_melanie_dick.rpy:250
 translate english ep23_dialogues6_2_cca59ecc:
@@ -300,7 +300,7 @@ translate english ep23_dialogues6_2_c96abf96:
 translate english ep23_dialogues6_2_0c6ff865:
 
     # dick "Мелани, могу я поинтересоваться, имел-ли смелость этот негодяй сказать что-либо и в Ваш адрес?"
-    dick "Melanie, did this bastard dared to say anything in your adress?"
+    dick "Melanie, did this bastard dared to say anything in your address?"
 
 # game/Quests/EP2_03/ep23_dialogues6_melanie_dick.rpy:296
 translate english ep23_dialogues6_2_39572134:
@@ -321,7 +321,7 @@ translate english ep23_dialogues6_2_af98d60e:
 
     # "И теперь мне пришлось отвезти ее к ветеринарному психологу."
     # "Где она в данный момент получает помощь."
-    "Afterwards I had to take her to a veterinary psychologist."
+    "Afterwards, I had to take her to a veterinary psychologist."
     "Where she is getting help currently."
 
 # game/Quests/EP2_03/ep23_dialogues6_melanie_dick.rpy:306
@@ -436,7 +436,7 @@ translate english ep23_dialogues6_2_38ab67fd:
     # dick "Виктория, я вынужден уехать по срочному делу."
     # "Отвечай всем что меня нельзя беспокоить!"
     dick "Victoria, I have to leave for a urgent business."
-    "Tell anyone not to disturbe me!"
+    "Tell anyone not to disturb me!"
 
 # game/Quests/EP2_03/ep23_dialogues6_melanie_dick.rpy:382
 translate english ep23_dialogues6_2_dfa70e0d:

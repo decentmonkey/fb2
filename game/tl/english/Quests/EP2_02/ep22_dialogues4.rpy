@@ -820,4 +820,4 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues4.rpy:116
     old "Я готова, Миссис Робертс..."
-    new "I am ready, Mrs Roberts"
+    new "I am ready, Mrs. Roberts"

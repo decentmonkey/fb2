@@ -7,7 +7,7 @@ translate english worker4_dialogue_workplace_51699f74:
     # m "Здравствуй. Напомни, как тебя зовут?"
     # w4 "Я Элла. Мою сестру зовут Эмма. Нас всегда путают!"
     # m "Поняла. Продолжай работать."
-    mt "Second twin... Cant remember their names..."
+    mt "Second twin... Can't remember their names..."
     m "Hello. What was your name again?"
     w4 "I'm Ella! My sister's name is Emma. Everyone is always confused about that!"
     m "Got it. Keep working."
@@ -15,16 +15,16 @@ translate english worker4_dialogue_workplace_51699f74:
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:10
 translate english worker4_dialogue_office_ff53ecb6:
 
-    # w4 "Миссис Бакфет, можно?"
+    # w4 "Миссис Бакфетт, можно?"
     w4 "Mrs. Buckfett, can I come in?"
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:13
 translate english worker4_dialogue_office_7b953c57:
 
     # m "Да, заходи."
-    # w4 "Миссис Бакфет, у меня пропал интернет."
+    # w4 "Миссис Бакфетт, у меня пропал интернет."
     # m "Окей. И чем я тебе могу помочь?"
-    # m "Ты же знаешь, что этими проблемами занимается наш системный админимтратор."
+    # m "Ты же знаешь, что этими проблемами занимается наш системный администратор."
     # m "Пухлый коротышка в очках."
     # m "Так что иди к нему со своей проблемой."
     # w4 "Но он не хочет мне помогать."
@@ -70,7 +70,7 @@ translate english worker4_look_0c71281a:
 translate english worker4_dialogue_workplace_37d7985c:
 
     # mt "Вторая сестра... Никак не могу запомнить как их зовут.."
-    mt "Second twin... Cant remember their names..."
+    mt "Second twin... Can't remember their names..."
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:23
 translate english worker4_dialogue_workplace_3e0a33bf:
@@ -99,7 +99,7 @@ translate english worker4_dialogue_office_97fb610b:
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:43
 translate english worker4_dialogue_office_c7436ff9:
 
-    # w4 "Миссис Бакфет, у меня пропал интернет."
+    # w4 "Миссис Бакфетт, у меня пропал интернет."
     w4 "Mrs. Buckfett, my internet stopped working!"
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:45
@@ -111,7 +111,7 @@ translate english worker4_dialogue_office_f36dafd4:
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:48
 translate english worker4_dialogue_office_3ce419d7:
 
-    # m "Ты же знаешь, что этими проблемами занимается наш системный админимтратор."
+    # m "Ты же знаешь, что этими проблемами занимается наш системный администратор."
     m "Our system administrator is supposed to fix problems like that."
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:51

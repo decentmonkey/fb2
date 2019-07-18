@@ -50,5 +50,5 @@ translate english bardieProgressLevelUp1_c3cd11eb:
 translate english bardieInteract1_ddc3f16d:
 
     # mt "Надо подождать вечера и придти к нему в комнату."
-    mt "We have to wait for the evening and then come to his room."
+    mt "I have to wait for the evening and then come to his room."
 

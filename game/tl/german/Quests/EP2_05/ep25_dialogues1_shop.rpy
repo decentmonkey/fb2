@@ -1438,7 +1438,7 @@ translate german strings:
 
     # Quests/EP2_05/ep25_dialogues1_shop.rpy:114
     old "Купить платье за $ 500. (не хватает денег) (disabled)"
-    new ""
+    new "Buy the dress for $ 500. (not enough money) (disabled)"
 
     # Quests/EP2_05/ep25_dialogues1_shop.rpy:827
     old "Снять платье."
@@ -1492,7 +1492,7 @@ translate german strings:
 
     # Quests/EP2_05/ep25_dialogues1_shop.rpy:114
     old "Поискать другой способ получить платье..."
-    new ""
+    new "Find another way to get the dress..."
 # TODO: Translation updated at 2019-06-07 11:04
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:838

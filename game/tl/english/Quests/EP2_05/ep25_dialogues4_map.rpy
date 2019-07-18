@@ -17,7 +17,7 @@ translate english ep25_dialogues4_map2_8100b9ff:
     # mt "Я выгляжу как Моника Бакфетт и меня могут узнать."
     # mt "Мне надо незаметно прокрасться к себе в комнату..."
     mt "I'd better not show myself dressed like that."
-    mt "I'm looking like Monica Buckfett and people can recognoze me."
+    mt "I'm looking like Monica Buckfett and people can recognize me."
     mt "I have to sneak to my room without attracting any attention."
 
 # game/Quests/EP2_05/ep25_dialogues4_map.rpy:23
@@ -41,7 +41,7 @@ translate english ep25_dialogues4_map3_ed0a7d78:
     # mt "Я выгляжу как Моника Бакфетт и меня могут узнать."
     # mt "Бетти точно выгонит меня из дома..."
     mt "I'd better not show myself dressed like that."
-    mt "I'm looking like Monica Buckfett and people can recognoze me."
+    mt "I'm looking like Monica Buckfett and people can recognize me."
     mt "Betty is sure to get me out of the house..."
 
 # game/Quests/EP2_05/ep25_dialogues4_map.rpy:32

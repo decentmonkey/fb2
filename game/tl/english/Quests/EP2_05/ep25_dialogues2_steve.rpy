@@ -100,7 +100,7 @@ translate english ep25_dialogues2_steve1a_28e01b82:
 translate english ep25_dialogues2_steve1a_38027ff4:
 
     # m "Я знаю это. Без таких шлюх как ты, Джейн!"
-    m "I know it. Evenn without whores like you, Jane!"
+    m "I know it. Even without whores like you, Jane!"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:55
 translate english ep25_dialogues2_steve1a_02019a64:
@@ -364,7 +364,7 @@ translate english ep25_dialogues2_steve2_4c1ce121:
 translate english ep25_dialogues2_steve2_de624e5b:
 
     # m "Может быть это ты ему сообщила, Тиффани?!"
-    m "Was it you Tiffany?!"
+    m "Was it you, Tiffany?!"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:160
 translate english ep25_dialogues2_steve2_8c06a5fb:
@@ -578,7 +578,7 @@ translate english ep25_dialogues2_steve3_f97faf2b:
 translate english ep25_dialogues2_steve3_16f1b8d3:
 
     # m "Я сказала БЫСТРО!"
-    m "I said HURRY UP!"
+    m "I said, HURRY UP!"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:315
 translate english ep25_dialogues2_steve4_09ae9b02:
@@ -746,7 +746,7 @@ translate english ep25_dialogues2_steve4_77d08684:
 translate english ep25_dialogues2_steve4_603d7463:
 
     # steve "Моника, но я не могу сделать это, потому что сделка не была закрыта."
-    steve "I can't do it, our deal wans't completed yet."
+    steve "I can't do it, our deal wasn't completed yet."
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:392
 translate english ep25_dialogues2_steve4_a85fa8a2:
@@ -857,7 +857,7 @@ translate english ep25_dialogues2_steve4_bd7cff1b:
     # steve "Я сейчас переведу деньги!"
     # steve "Не надо меня прибивать!"
     steve "Okay, okay!"
-    steve "I'm transfering the money!"
+    steve "I'm transferring the money!"
     steve "You don't need to hit me!"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:467
@@ -978,7 +978,7 @@ translate english ep25_dialogues2_steve4_4ca1c1f2:
     # m "Я не собираюсь заключать никаких новых сделок."
     # m "Если ты не заплатишь сейчас-же, то я убью тебя прямо здесь!"
     m "I'm not making any new deals with you."
-    m "If you don’t pay up, I'll kill you rigt now!"
+    m "If you don’t pay up, I'll kill you right now!"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:547
 translate english ep25_dialogues2_steve4_ee84f53f:
@@ -987,7 +987,7 @@ translate english ep25_dialogues2_steve4_ee84f53f:
     # steve "Я сейчас переведу деньги!"
     # steve "Не надо меня убивать!"
     steve "Okay, okay!"
-    steve "I'm transfering the money!"
+    steve "I'm transferring the money!"
     steve "No, don’t do it!"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:567
@@ -1006,7 +1006,7 @@ translate english ep25_dialogues2_steve4_3782f1f0:
 translate english ep25_dialogues2_steve4_3904bd9f:
 
     # steve "Сделай это и через пять минут деньги будут переведены!"
-    steve "Do it and five minutes later you will get your money."
+    steve "Do it, and five minutes later you will get your money."
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:573
 translate english ep25_dialogues2_steve4_e612037c_2:
@@ -1058,7 +1058,7 @@ translate english ep25_dialogues2_steve4_ae1d2e3f:
 translate english ep25_dialogues2_steve4_3719476b:
 
     # steve "Каждый раз, когда ты приходила и кричала на меня, я мечтал об этом дне!"
-    steve "Everytime you came in and shouted at me, I was imagining this moment!"
+    steve "Every time you came in and shouted at me, I was imagining this moment!"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:593
 translate english ep25_dialogues2_steve4_29a4f6ab_1:
@@ -1097,7 +1097,7 @@ translate english ep25_dialogues2_steve5_0fc1ca2e:
     # mt "Надо бы проверить, перевел-ли Стив деньги?"
     # mt "Это самоубийство для него, если он этого не сделал."
     mt "Disgusting Steve!"
-    mt "I had to humilliate myself again to get my money!"
+    mt "I had to humiliate myself again to get my money!"
     mt "..."
     mt "I have to check if Steve kept his word..."
     mt "It would be suicidal for him not to do it."
@@ -1200,7 +1200,7 @@ translate english ep25_dialogues2_steve8_e2ff2e6d:
     # m "Ты решил свести счеты с жизнью?!"
     # m "Ты решил обмануть меня второй раз?"
     m "Did you decide to end your life?"
-    m "By decieving me twice!"
+    m "By deceiving me twice!"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:686
 translate english ep25_dialogues2_steve8_0c761b36:
@@ -1216,7 +1216,7 @@ translate english ep25_dialogues2_steve8_87af1e17:
     # m "Как это сделка не была закрыта?!"
     # m "Ты воспользовался моей наивностью и глупостью целых два раза!"
     m "How so?!"
-    m "You used my naivite and studipity twice!"
+    m "You used my naivete and stupidity twice!"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:698
 translate english ep25_dialogues2_steve8_ea7e3d94:
@@ -1352,7 +1352,7 @@ translate english ep25_dialogues2_steve10_0ed44ca9:
 translate english ep25_dialogues2_steve10_5e2e30ec:
 
     # m "Стив, когда ты перешлешь деньги?"
-    m "When will you transferr the money, Steve?"
+    m "When will you transfer the money, Steve?"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:800
 translate english ep25_dialogues2_steve10_fa8aafd4:
@@ -1406,7 +1406,7 @@ translate english ep25_dialogues2_steve10_581272df:
     steve "What are you talking about, Monica?"
     steve "I don’t have such money!"
     m "I know all about revenues of your company!"
-    steve "Yes, but since management change, there are constant auidts."
+    steve "Yes, but since management change, there are constant audits."
     steve "I can't even spend a cent, if it's not for a company!"
     steve "You are not proposing official transaction, right?"
     m "Your price?"
@@ -1437,14 +1437,14 @@ translate english ep25_dialogues2_steve10_7346d81b:
     m "I need $ 10.000 at least!"
     steve "I have an idea. Let me rent just half for $ 1.500!"
     m "Half?! How so?! It's not a floor in the tower, Steve!"
-    steve "I'll be carefull, moving only to one side!"
-    steve "I'll honor our agreement. I'm an honest business man."
+    steve "I'll be careful, moving only to one side!"
+    steve "I'll honor our agreement. I'm an honest businessman."
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:870
 translate english ep25_dialogues2_steve10_4273abc6:
 
     # m "Ты мешок с дерьмом, а не бизнесмен!"
-    m "You are bag full of shit, not a business man!"
+    m "You are bag full of shit, not a businessman!"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:877
 translate english ep25_dialogues2_steve10_loop1_b25666a5:
@@ -1516,7 +1516,7 @@ translate english ep25_dialogues2_steve10_loop1_80f151d3:
     # steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
     m "Fuck you, Steve!"
     mt "I'll at least have money to pay off this bitch Victoria."
-    mt "And won't need to embarrass myself infront of camera."
+    mt "And won't need to embarrass myself in front of camera."
     mt "There are already some rumors about me..."
     mt "This is bad. I have to be more careful about my reputation."
     m "I agree..."
@@ -1730,7 +1730,7 @@ translate english ep25_dialogues2_steve4a_77d08684:
 translate english ep25_dialogues2_steve4a_603d7463:
 
     # steve "Моника, но я не могу сделать это, потому что сделка не была закрыта."
-    steve "I can't do it, our deal wans't completed yet."
+    steve "I can't do it, our deal wasn't completed yet."
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:574
 translate english ep25_dialogues2_steve4a_a85fa8a2:
@@ -1841,7 +1841,7 @@ translate english ep25_dialogues2_steve4a_bd7cff1b:
     # steve "Я сейчас переведу деньги!"
     # steve "Не надо меня прибивать!"
     steve "Okay, okay!"
-    steve "I'm transfering the money!"
+    steve "I'm transferring the money!"
     steve "You don't need to hit me!"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:670
@@ -1962,7 +1962,7 @@ translate english ep25_dialogues2_steve4a_4ca1c1f2:
     # m "Я не собираюсь заключать никаких новых сделок."
     # m "Если ты не заплатишь сейчас-же, то я убью тебя прямо здесь!"
     m "I'm not making any new deals with you."
-    m "If you don’t pay up, I'll kill you rigt now!"
+    m "If you don’t pay up, I'll kill you right now!"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:768
 translate english ep25_dialogues2_steve4a_ee84f53f:
@@ -1971,7 +1971,7 @@ translate english ep25_dialogues2_steve4a_ee84f53f:
     # steve "Я сейчас переведу деньги!"
     # steve "Не надо меня убивать!"
     steve "Okay, okay!"
-    steve "I'm transfering the money!"
+    steve "I'm transferring the money!"
     steve "No, don’t do it!"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:788
@@ -1990,7 +1990,7 @@ translate english ep25_dialogues2_steve4a_3782f1f0:
 translate english ep25_dialogues2_steve4a_3904bd9f:
 
     # steve "Сделай это и через пять минут деньги будут переведены!"
-    steve "Do it and five minutes later you will get your money."
+    steve "Do it, and five minutes later you will get your money."
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:797
 translate english ep25_dialogues2_steve4a_e612037c_2:
@@ -2046,7 +2046,7 @@ translate english ep25_dialogues2_steve4a_9d59b1a5:
 translate english ep25_dialogues2_steve4a_3719476b:
 
     # steve "Каждый раз, когда ты приходила и кричала на меня, я мечтал об этом дне!"
-    steve "Everytime you came in and shouted at me, I was imagining this moment!"
+    steve "Every time you came in and shouted at me, I was imagining this moment!"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:827
 translate english ep25_dialogues2_steve4a_29a4f6ab_1:
@@ -2120,7 +2120,7 @@ translate english ep25_dialogues2_steve10_a50c1bd1:
     # steve "Да, но с тех пор как твою компанию возглавили другие люди, у меня начались сплошные проверки!"
     # steve "Я не могу потратить ни цента, если они пойдут не на благо компании!"
     # steve "Ты ведь не предлагаешь мне официально провести нашу сделку, правда Моника?!"
-    steve "Yes, but since management change, there are constant auidts."
+    steve "Yes, but since management change, there are constant audits."
     steve "I can't even spend a cent, if it's not for a company!"
     steve "You are not proposing official transaction, right?"
 
@@ -2193,8 +2193,8 @@ translate english ep25_dialogues2_steve10_60b376fa:
 
     # steve "Я буду двигаться аккуратно! Только в одну сторону! И не буду трогать другую щеку!"
     # steve "Я буду соблюдать условия сделки! Я честный бизнесмен."
-    steve "I'll be carefull, moving only to one side!"
-    steve "I'll honor our agreement. I'm an honest business man."
+    steve "I'll be careful, moving only to one side!"
+    steve "I'll honor our agreement. I'm an honest businessman."
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:1272
 translate english ep25_dialogues2_steve10_loop1_47247f55:
@@ -2210,7 +2210,7 @@ translate english ep25_dialogues2_steve10_loop1_ff3bfc87:
     # mt "Обо мне уже начинают ходить слухи..."
     # mt "Это нехорошо. Я скоро верну свое положение и мне не стоит терять репутацию..."
     mt "I'll at least have money to pay off this bitch Victoria."
-    mt "And won't need to embarrass myself infront of camera."
+    mt "And won't need to embarrass myself in front of camera."
     mt "There are already some rumors about me..."
     mt "This is bad. I have to be more careful about my reputation."
 
@@ -2286,7 +2286,7 @@ translate english ep25_dialogues2_steve10_loop1_9d59b1a5:
 translate english ep25_dialogues2_steve10_loop1_3719476b:
 
     # steve "Каждый раз, когда ты приходила и кричала на меня, я мечтал об этом дне!"
-    steve "Everytime you came in and shouted at me, I was imagining this moment!"
+    steve "Every time you came in and shouted at me, I was imagining this moment!"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:1324
 translate english ep25_dialogues2_steve10_loop1_29a4f6ab:

@@ -21,7 +21,7 @@ translate english cit4_dialog_1_03875f02:
 
     # m "Это последнее, но поверьте, оно новое."
     # cit4 "Ну, не знаю... Нет, пожалуй сегодня обойдусь без примерок."
-    m "This is the last one, but believe me, its new."
+    m "This is the last one, but believe me, it's new."
     cit4 "I don't know... Thanks, I'll pass."
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:16
@@ -57,7 +57,7 @@ translate english cit4_dialog_2_d7077b73:
     # cit4 "Знаешь, манекен, я уже примерила сегодня несколько платьев и ни одно ни подошло."
     # cit4 "В другой раз."
     cit4 "As a mannequin? How interesting..."
-    cit4 "I've already tried several dress on and not a single one fit me."
+    cit4 "I've already tried several dresses on, and not a single one fit me."
     cit4 "Another time."
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:37
@@ -76,7 +76,7 @@ translate english cit4_dialog_3_6be4fcb3:
 translate english cit4_dialog_3_945f77a9:
 
     # mt "Неужели мне наконец повезло!"
-    mt "Finaly I'm getting some luck!"
+    mt "Finally I'm getting some luck!"
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:43
 translate english cit4_dialog_3_17bd5ccc:
@@ -88,7 +88,7 @@ translate english cit4_dialog_3_17bd5ccc:
 translate english cit4_dialog_3_77edd681:
 
     # cit4 "Насколько я знаю, в примерочные не разрешается заходить сотрудникам!"
-    cit4 "Are employees alowed to go into changing rooms here?"
+    cit4 "Are employees allowed to go into changing rooms here?"
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:54
 translate english cit4_dialog_3_77e68c04:
@@ -134,7 +134,7 @@ translate english cit4_dialog_3_26b0e53a:
 translate english cit4_dialog_3_6dcb6dd9:
 
     # m "Да нет же, все прекрасно!"
-    m "Belive me, you look amazing!"
+    m "Believe me, you look amazing!"
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:82
 translate english cit4_dialog_3_5ab804ad:
@@ -153,7 +153,7 @@ translate english cit4_dialog_3_e5b9b288:
 
     # cit4 "Хорошо, я куплю его, пойду на кассу!"
     # m "Подождите!"
-    cit4 "Fine, I'm buying it. I'll go to the check out."
+    cit4 "Fine, I'm buying it. I'll go to the checkout."
     m "Wait!"
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:89
@@ -300,7 +300,7 @@ translate english cit4_dialog_3_f9e053e0:
     mt "Monica, how horrible!"
     mt "..."
     mt "Looks like I'll have to do it!"
-    mt "Just imagine that its not me who have to do it..."
+    mt "Just imagine that it's not me who have to do it..."
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:180
 translate english cit4_dialog_3_e278cd8c:
@@ -372,7 +372,7 @@ translate english cit4_dialog_3_b268f25c:
     # cashier "До конца рабочей смены."
     cashier "As you wish..."
     cashier "But I'm prohibiting you to wear anything but this dress."
-    cashier "Untill the end of your shift."
+    cashier "Until the end of your shift."
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:222
 translate english cit4_dialog_3_9f579d10:
@@ -388,7 +388,7 @@ translate english cit4_dialog_3_a6595787:
     # m "Ты ничего не докажешь!"
     # m "Это было несколько дней назад!"
     m "You can't prove anything!"
-    m "It happened few days ago!"
+    m "It happened a few days ago!"
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:228
 translate english cit4_dialog_3_9196f7b6:
@@ -426,7 +426,7 @@ translate english cit4_dialog_3_b268f25c_1:
     # cashier "До конца рабочей смены."
     cashier "As you wish..."
     cashier "But I'm prohibiting you to wear anything but this dress."
-    cashier "Untill the end of your shift."
+    cashier "Until the end of your shift."
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:248
 translate english cit4_dialog_3_9f579d10_1:
@@ -442,7 +442,7 @@ translate english cit4_dialog_3_a6595787_1:
     # m "Ты ничего не докажешь!"
     # m "Это было несколько дней назад!"
     m "You can't prove anything!"
-    m "It happened few days ago!"
+    m "It happened a few days ago!"
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:254
 translate english cit4_dialog_3_9196f7b6_1:
@@ -504,7 +504,7 @@ translate english cit4_dialog_3c_61989f3e:
 translate english cit4_dialog_3d_13c0dcea:
 
     # mt "Я не буду подходить к людям в таком виде!!!"
-    mt "I'm not aproaching people looking like that!"
+    mt "I'm not approaching people looking like that!"
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:292
 translate english cit4_dialog_3e_50a1699e:
@@ -570,7 +570,7 @@ translate english cit4_dialog_3g_8e026f6e:
     # m "Довольна?!"
     # m "Теперь пойдем к этой чертовой покупательнице!"
     m "Satisfied?"
-    m "Lets go to this damn customer!"
+    m "Let's go to this damn customer!"
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:334
 translate english cit4_dialog_3g_b09d199e:
@@ -650,7 +650,7 @@ translate english strings:
 translate english cit4_dialog_3a_77edd681:
 
     # cit4 "Насколько я знаю, в примерочные не разрешается заходить сотрудникам!"
-    cit4 "Are employees alowed to go into changing rooms here?"
+    cit4 "Are employees allowed to go into changing rooms here?"
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:88
 translate english cit4_dialog_3a_77e68c04:
@@ -696,7 +696,7 @@ translate english cit4_dialog_3a_26b0e53a:
 translate english cit4_dialog_3a_6dcb6dd9:
 
     # m "Да нет же, все прекрасно!"
-    m "Belive me, you look amazing!"
+    m "Believe me, you look amazing!"
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:132
 translate english cit4_dialog_3a_5ab804ad:
@@ -715,7 +715,7 @@ translate english cit4_dialog_3a_e5b9b288:
 
     # cit4 "Хорошо, я куплю его, пойду на кассу!"
     # m "Подождите!"
-    cit4 "Fine, I'm buying it. I'll go to the check out."
+    cit4 "Fine, I'm buying it. I'll go to the checkout."
     m "Wait!"
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:148
@@ -862,7 +862,7 @@ translate english cit4_dialog_3a_f9e053e0:
     mt "Monica, how horrible!"
     mt "..."
     mt "Looks like I'll have to do it!"
-    mt "Just imagine that its not me who have to do it..."
+    mt "Just imagine that it's not me who have to do it..."
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:284
 translate english cit4_dialog_3a_e278cd8c:
@@ -934,7 +934,7 @@ translate english cit4_dialog_3a_b268f25c:
     # cashier "До конца рабочей смены."
     cashier "As you wish..."
     cashier "But I'm prohibiting you to wear anything but this dress."
-    cashier "Untill the end of your shift."
+    cashier "Until the end of your shift."
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:357
 translate english cit4_dialog_3a_9f579d10:
@@ -950,7 +950,7 @@ translate english cit4_dialog_3a_a6595787:
     # m "Ты ничего не докажешь!"
     # m "Это было несколько дней назад!"
     m "You can't prove anything!"
-    m "It happened few days ago!"
+    m "It happened a few days ago!"
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:367
 translate english cit4_dialog_3a_9196f7b6:
@@ -988,7 +988,7 @@ translate english cit4_dialog_3a_b268f25c_1:
     # cashier "До конца рабочей смены."
     cashier "As you wish..."
     cashier "But I'm prohibiting you to wear anything but this dress."
-    cashier "Untill the end of your shift."
+    cashier "Until the end of your shift."
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:398
 translate english cit4_dialog_3a_9f579d10_1:
@@ -1004,7 +1004,7 @@ translate english cit4_dialog_3a_a6595787_1:
     # m "Ты ничего не докажешь!"
     # m "Это было несколько дней назад!"
     m "You can't prove anything!"
-    m "It happened few days ago!"
+    m "It happened a few days ago!"
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:408
 translate english cit4_dialog_3a_9196f7b6_1:

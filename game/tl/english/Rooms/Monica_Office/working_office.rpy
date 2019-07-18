@@ -14,20 +14,20 @@ translate english working_office_environment_873ae103:
     # mt "Это какая-то дыра, наполненная бездельниками."
     # mt "Но ничего, скоро я все верну назад и этот офис обязательно закрою."
     mt "Hole, filled with useless slackers."
-    mt "But that’s okay, I'll get everything back soon and close this deparment!"
+    mt "But that’s okay, I'll get everything back soon and close this department!"
 
 # game/Rooms/Monica_Office/working_office.rpy:63
 translate english working_office_environment_4d8eb37a:
 
     # mt "Наконец-то у меня есть хоть какой-то офис!"
-    mt "Finally I have an office again!"
+    mt "Finally, I have an office again!"
 
 # game/Rooms/Monica_Office/working_office.rpy:65
 translate english working_office_environment_0a2a66c0:
 
     # mt "На этих компьютерах нет ничего хоть сколько-то стоящего."
     # mt "Только бесполезные отчеты"
-    mt "This computers dont have anything valuable."
+    mt "These computers don't have anything valuable."
     mt "Just useless reports."
 
 # game/Rooms/Monica_Office/working_office.rpy:68
@@ -46,7 +46,7 @@ translate english working_office_environment_be3c971d:
     # mt "Надо же какой роскошный цветок."
     # mt "Ему явно не место здесь."
     # mt "Его надо будет переселить ко мне в кабинет!"
-    mt "What a beautifull flower."
+    mt "What a beautiful flower."
     mt "It doesn’t fit here."
     mt "I'll have to move it to my office!"
 

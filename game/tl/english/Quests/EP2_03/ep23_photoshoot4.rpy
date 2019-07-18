@@ -127,7 +127,7 @@ translate english ep22_photoshoot4_end_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Ma'am! We're finished with the photo shoot!"
+    alex_photograph "Ma'am! We're finished with the photoshoot!"
     m "Finally!!!"
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:651

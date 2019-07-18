@@ -212,7 +212,7 @@ translate english ep24_dialogues3_fitness3_cde5a89a:
     # fitness_instructor "Ты помнишь что без верха у тебя лучше результаты."
     fitness_instructor "Good job, Betty."
     fitness_instructor "You are doing better."
-    fitness_instructor "Do you remember that without top you have better results?"
+    fitness_instructor "Do you remember that without the top you have better results?"
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:193
 translate english ep24_dialogues3_fitness3_c8529a02:
@@ -313,7 +313,7 @@ translate english ep24_dialogues3_fitness3_2761ce3d:
 
     # fitness_instructor "Я провожу персональные занятия с тобой."
     # fitness_instructor "Я делаю это бесплатно, потому что вижу в тебе потенциал!"
-    fitness_instructor "I'm giving you a privite train sessions."
+    fitness_instructor "I'm giving you private train sessions."
     fitness_instructor "And I'm doing it for free, because I see a potential!"
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:243
@@ -447,8 +447,8 @@ translate english ep24_dialogues3_fitness3_1b80d2ae:
 
     # fitness_instructor "Если ты хочешь, ты можешь снять ее."
     # fitness_instructor "Тогда мы сможем достичь большего прогресса."
-    fitness_instructor "If you want you can take your clothes off."
-    fitness_instructor "Then you will be achieve even further progress."
+    fitness_instructor "If you want, you can take your clothes off."
+    fitness_instructor "Then you will be achieved even further progress."
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:318
 translate english ep24_dialogues3_fitness3_3e46ee9f_1:
@@ -534,7 +534,7 @@ translate english ep24_dialogues3_fitness3_161b4830:
 translate english ep24_dialogues3_fitness3_e209467c:
 
     # fitness_instructor "Твоим проводником на пути к достижению душевного равновесия."
-    fitness_instructor "Guide on your path to the spiritial balance."
+    fitness_instructor "Guide on your path to the spiritual balance."
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:394
 translate english ep24_dialogues3_fitness3_0b87e9d4:
@@ -816,7 +816,7 @@ translate english ep24_dialogues3_fitness3c_cde5a89a:
     # fitness_instructor "Ты помнишь что без верха у тебя лучше результаты."
     fitness_instructor "Good job, Betty."
     fitness_instructor "You are doing better."
-    fitness_instructor "Do you remember that without top you have better results?"
+    fitness_instructor "Do you remember that without the top you have better results?"
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:276
 translate english ep24_dialogues3_fitness3c_c8529a02:
@@ -923,7 +923,7 @@ translate english ep24_dialogues3_fitness3c_2761ce3d:
 
     # fitness_instructor "Я провожу персональные занятия с тобой."
     # fitness_instructor "Я делаю это бесплатно, потому что вижу в тебе потенциал!"
-    fitness_instructor "I'm giving you a privite train sessions."
+    fitness_instructor "I'm giving you private train sessions."
     fitness_instructor "And I'm doing it for free, because I see a potential!"
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:336
@@ -1061,8 +1061,8 @@ translate english ep24_dialogues3_fitness3d_1b80d2ae:
 
     # fitness_instructor "Если ты хочешь, ты можешь снять ее."
     # fitness_instructor "Тогда мы сможем достичь большего прогресса."
-    fitness_instructor "If you want you can take your clothes off."
-    fitness_instructor "Then you will be achieve even further progress."
+    fitness_instructor "If you want, you can take your clothes off."
+    fitness_instructor "Then you will be achieved even further progress."
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:447
 translate english ep24_dialogues3_fitness3d_3e46ee9f:
@@ -1148,7 +1148,7 @@ translate english ep24_dialogues3_fitness3d_161b4830:
 translate english ep24_dialogues3_fitness3d_e209467c:
 
     # fitness_instructor "Твоим проводником на пути к достижению душевного равновесия."
-    fitness_instructor "Guide on your path to the spiritial balance."
+    fitness_instructor "Guide on your path to the spiritual balance."
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:543
 translate english ep24_dialogues3_fitness3d_0b87e9d4:

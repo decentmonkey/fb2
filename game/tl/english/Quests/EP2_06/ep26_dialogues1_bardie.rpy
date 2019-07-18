@@ -4,7 +4,7 @@
 translate english ep26_dialogues1_bardie1_ffcb39c2:
 
     # bardie "Аххх! Ахххх!!!"
-    # bardie "Моника Бафетт..."
+    # bardie "Моника Бакфетт..."
     # bardie "Аххх! Ахххх!!!"
     # bardie "Моя гувернантка..."
     # bardie "Аххх!"
@@ -33,7 +33,7 @@ translate english ep26_dialogues1_bardie1_ffcb39c2:
     # m "Что... Что ты делаешь??"
     # m "Это... Это Я?!"
     # m "Это мой журнал! Мой!"
-    # m "Что делаешь с ним?!"
+    # m "Что ты делаешь с ним?!"
     # bardie "Я дрочу на него, я же говорил тебе."
     # m "Я... Не смей делать этого!"
     # m "Верни его мне!"
@@ -53,7 +53,7 @@ translate english ep26_dialogues1_bardie1_ffcb39c2:
     bardie "AHHH!!!"
     bardie "..."
     bardie "Her tits..."
-    bardie "I wounder if they are natural..."
+    bardie "I wonder if they are natural..."
     bardie "I completely forgot to check..."
     bardie "I still lack control over her..."
     bardie "I have to see her tits... and more..."
@@ -68,11 +68,11 @@ translate english ep26_dialogues1_bardie1_ffcb39c2:
     bardie "And Betty..."
     bardie "This stepmother is following my rules, but she is still getting on my nerves."
     bardie "I want not only be peeking under her skirt, I want to fuck her!"
-    bardie "There are so many targets walking around and I'm still a vigin!"
+    bardie "There are so many targets walking around, and I'm still a virgin!"
     bardie "That’s so strange! Am I some sort of a loser?!"
     m "What... What the hell are you doing??"
     m "Is it... is it ME?!"
-    m "It's my magazing! Mine!"
+    m "It's my magazine! Mine!"
     m "What are you doing?!"
     bardie "Jerking off, didn’t I tell you already?"
     m "I... Stop it!"
@@ -81,7 +81,7 @@ translate english ep26_dialogues1_bardie1_ffcb39c2:
     bardie "A new issue!"
     m "There are no new issues, I'm not working there!"
     m "I'm stuck here and I hate it!"
-    bardie "You work here and I'm your master!"
+    bardie "You work here, and I'm your master!"
     m "!!!"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:63
@@ -131,7 +131,7 @@ translate english ep26_dialogues1_bardie2_bec1182b:
     m "Then... Then maybe I deserve to eat in this house..."
     m "Maybe you can tell Betty about it?"
     m "You are in charge over here, aren't you?"
-    bardie "Only good and obidient maid can ask this."
+    bardie "Only good and obedient maid can ask this."
     bardie "Are you a good maid, Monica?"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:101
@@ -140,14 +140,14 @@ translate english ep26_dialogues1_bardie2_65be55fd:
     # m "Да, я хорошая гувернантка..."
     # bardie "Хорошо, покажи, что ты соблюдаешь правила дома!"
     m "Yes, I'm a good maid..."
-    bardie "Fine, show me how you follow rules of this house!"
+    bardie "Fine, show me how you follow the rules of this house!"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:107
 translate english ep26_dialogues1_bardie2_4235839a:
 
     # mt "Черт! У меня надеты трусики!"
     # mt "Мне лучше не показывать их этому сопляку!"
-    mt "Damn it! I have panites on!"
+    mt "Damn it! I have panties on!"
     mt "I can't show them to this brat!"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:113
@@ -299,7 +299,7 @@ translate english ep26_dialogues1_bardie4_abad8792:
     # bardie "И оно слишком чувствительное, поэтому это надо сделать твоими сиськами!"
     # m "!!!"
     # m "Я уверена в том, что это место протирается регулярно и без меня!"
-    # bardie "Хорошая гувернантка должна выполнять это работу."
+    # bardie "Хорошая гувернантка должна выполнять эту работу."
     # bardie "И, если гувернантка будет хорошей, то ее в этом доме будут кормить."
     # mt "Что же мне делать?!"
     # mt "Ведь я не буду трогать своей изысканной грудью член этого Барди?"
@@ -317,23 +317,23 @@ translate english ep26_dialogues1_bardie4_abad8792:
     m "Especially with me!"
     bardie "I'm not a kid! I'm a grown-up already!"
     bardie "I'm already (input the age)"
-    help "By making changes you take your own resposibility."
+    help "By making changes, you take your own responsibility."
     help "Are you sure?"
     bardie "..."
     m "!!!"
     bardie "Well?!"
     bardie "And what does this maid want?"
-    bardie "Good maid has to fullfill her resposibilities around the house."
+    bardie "Good maid has to fulfill her responsibilities around the house."
     bardie "Keeping everything clean."
     bardie "This place is dusty."
-    bardie "And it's very sensetive, so you have to do it with your tits!"
+    bardie "And it's very sensitive, so you have to do it with your tits!"
     m "!!!"
     m "I'm sure this place is cleaned regularly even without me!"
     bardie "Good maid has to do her job."
     bardie "And if she is doing well, she'll get to eat."
     mt "What should I do?!"
     mt "I'm not going to touch Bardie's dick with my magnificent chest, am I?"
-    mt "On the other hand, I'm one step from eating normaly..."
+    mt "On the other hand, I'm one step from eating normally..."
     mt "In my own house!"
     bardie "And punishment is waiting for a bad maid..."
     mt "What should I do?!"
@@ -365,7 +365,7 @@ translate english ep26_dialogues1_bardie4_ecae12b0:
     # bardie "Я улажу обязанности хозяина дома и выдам необходимые распоряжения Бетти!"
     # m "!!!"
     m "I don’t know how to do it..."
-    bardie "I don’t know etheir. But it can't be that difficult!"
+    bardie "I don’t know either. But it can't be that difficult!"
     bardie "Take out your tits and place them on my dick!"
     m "..."
     bardie "Yeah, like that. Now move them up and down!"
@@ -424,7 +424,7 @@ translate english ep26_dialogues1_bardie5_bdb88f90:
     bardie "But she has to do it in the kitchen."
     bardie "With her tities naked!"
     m "WHAT?!?!"
-    m "ARE YOU TRYING TO SAY THAT IT WAS BETTY'S CODITION?!"
+    m "ARE YOU TRYING TO SAY THAT IT WAS BETTY'S CONDITION?!"
     m "I'M SURE IT'S YOUR TRICKS AGAIN, BRAT!"
     m "YOU CANT DEMAND ANYTHING LIKE THAT FROM ME!"
     m "DO YOU KNOW WHO I AM?"
@@ -473,7 +473,7 @@ translate english ep26_dialogues1_bardie5_ab71ed74:
     # m "Нет, спасибо!"
     m "I'm following house rules..."
     bardie "Good maid."
-    bardie "Do you understand rules about eating in this house?"
+    bardie "Do you understand the rules about eating in this house?"
     m "I understand."
     m "I'm not eating following rules like that..."
     bardie "As you wish..."
@@ -495,7 +495,7 @@ translate english ep26_dialogues1_bardie5a_3cc6fbff:
     mt "I can't believe it!"
     mt "This punk is trying to make a perverted game out of everything!"
     mt "Tiny blackmailer!"
-    mt "Does he really think that I'll be eating in the kitches with my chest bare?"
+    mt "Does he really think that I'll be eating in the kitchen with my chest bare?"
     mt "Naive fool!"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:393
@@ -569,7 +569,7 @@ translate english ep26_dialogues1_bardie6_0fe1f462:
     m "..." 
     betty "Don't you have any shame, maid?"
     betty "Get out immediately!"
-    m "Are you sure Mrs. Roberts?"
+    m "Are you sure, Mrs. Roberts?"
     m "Are you sure that I should go?"
     betty "!!!"
     betty "Take a seat, I'll bring food..."
@@ -581,7 +581,7 @@ translate english ep26_dialogues1_bardie6_0fe1f462:
     mt "In my own house..."
     mt "My lovely house... my lovely kitchen..."
     mt "Things are not so bad..."
-    mt "These is just a first steps..."
+    mt "These are just the first steps..."
     mt "Soon my house will be mine again..."
     mt "Mmmm... I'm eating in my own kitchen..."
     mt "While Betty serves me..."
@@ -619,7 +619,7 @@ translate english ep26_dialogues1_bardie7_eaf1869e:
     m "..." 
     betty "Don't you have any shame, maid?"
     betty "Get out immediately!"
-    m "Are you sure Mrs. Roberts?"
+    m "Are you sure, Mrs. Roberts?"
     m "Are you sure that I should go?"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:495
@@ -659,7 +659,7 @@ translate english ep26_dialogues1_bardie7_e74dea2d:
     betty "Take a seat, I'll bring food..."
     betty "Enjoy your meal, maid..."
     m "Mrs. Robers, can you please give me different silverware?"
-    m "The ones is a bit dirty."
+    m "The ones are a bit dirty."
     betty "!!!"
     m "Mrs. Robers, please warm up the food."
     m "It's a bit cold."
@@ -677,7 +677,7 @@ translate english ep26_dialogues1_bardie7_e74dea2d:
     mt "In my own house..."
     mt "My lovely house... my lovely kitchen..."
     mt "Things are not so bad..."
-    mt "These is just a first steps..."
+    mt "These are just the first steps..."
     mt "Soon my house will be mine again..."
     mt "Mmmm... I'm eating in my own kitchen..."
     mt "While Betty serves me..."
@@ -697,7 +697,7 @@ translate english ep26_dialogues1_bardie8_0178805f:
     betty "This stupid rule is no longer valid!"
     betty "I'm not going to endure such attitude towards me!"
     betty "Get out of here, useless maid!"
-    betty "Or I'll kick you ass on the street!"
+    betty "Or I'll kick your ass on the street!"
     m "!!!"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:564
@@ -759,7 +759,7 @@ translate english ep26_dialogues1_bardie10_353945c5:
     bardie "Calm down, stop shouting."
     bardie "Are you telling me that someone is breaking house rules?"
     m "Yes! Betty!"
-    m "She doesn't follow rules!"
+    m "She doesn't follow the rules!"
     m "I'm doing as you told me, but she doesn't want to give me food!"
     bardie "Betty is following rules..."
     m "???"
@@ -839,7 +839,7 @@ translate english ep26_dialogues1_bardie12_91876f66:
     # betty "Нет! Не буду!"
     bardie "Do you get it now?"
     betty "Yes!"
-    bardie "Will you break rules again?!"
+    bardie "Will you break the rules again?!"
     betty "No! I won't!"
 
 translate english strings:
@@ -870,7 +870,7 @@ translate english strings:
 
     # Quests/EP2_06/ep26_dialogues1_bardie.rpy:195
     old "Я... Подумаю о том какая Я..."
-    new "I-I... I'll think about what kind of person I'am..."
+    new "I-I... I'll think about what kind of person I'm..."
 
     # Quests/EP2_06/ep26_dialogues1_bardie.rpy:249
     old "Сделать это..."
@@ -886,7 +886,7 @@ translate english strings:
 
     # Quests/EP2_06/ep26_dialogues1_bardie.rpy:472
     old "Не оголять грудь..."
-    new "Don not bare your chest..."
+    new "Do not bare your chest..."
 
     # Quests/EP2_06/ep26_dialogues1_bardie.rpy:585
     old "Оголить грудь."
@@ -910,7 +910,7 @@ translate english strings:
 translate english ep26_dialogues1_bardie1_104649b1:
 
     # bardie "Аххх! Ахххх!!!"
-    # bardie "Моника Бафетт..."
+    # bardie "Моника Бакфетт..."
     bardie "Ahhh! Ahhhh!!!"
     bardie "Monica Buckfett..."
 
@@ -955,7 +955,7 @@ translate english ep26_dialogues1_bardie1_aae1a127:
 
     # bardie "Интересно, они настоящие или нет..."
     # bardie "Как это я упустил их из виду..."
-    bardie "I wounder if they are natural..."
+    bardie "I wonder if they are natural..."
     bardie "I completely forgot to check..."
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:57
@@ -1013,7 +1013,7 @@ translate english ep26_dialogues1_bardie1_9c14bd0d:
 
     # bardie "Вокруг ходит столько целей, а я все еще девственник!"
     # bardie "Это ненормально! Я что, какой-то нудачник?!"
-    bardie "There are so many targets walking around and I'm still a vigin!"
+    bardie "There are so many targets walking around, and I'm still a virgin!"
     bardie "That’s so strange! Am I some sort of a loser?!"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:97
@@ -1032,8 +1032,8 @@ translate english ep26_dialogues1_bardie1_0bbde239:
 translate english ep26_dialogues1_bardie1_c0adaedd:
 
     # m "Это мой журнал! Мой!"
-    # m "Что делаешь с ним?!"
-    m "It's my magazing! Mine!"
+    # m "Что ты делаешь с ним?!"
+    m "It's my magazine! Mine!"
     m "What are you doing?!"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:107
@@ -1070,7 +1070,7 @@ translate english ep26_dialogues1_bardie1_ad8aa176:
 translate english ep26_dialogues1_bardie1_85002fa8:
 
     # bardie "Ты здесь работаешь! И я твой хозяин!"
-    bardie "You work here and I'm your master!"
+    bardie "You work here, and I'm your master!"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:124
 translate english ep26_dialogues1_bardie1_29a4f6ab:
@@ -1135,7 +1135,7 @@ translate english ep26_dialogues1_bardie2_a59bf1c9:
 
     # bardie "О таком может просить только хорошая гувернантка."
     # bardie "Ты хорошая гувернантка, Моника?"
-    bardie "Only good and obidient maid can ask this."
+    bardie "Only good and obedient maid can ask this."
     bardie "Are you a good maid, Monica?"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:197
@@ -1148,7 +1148,7 @@ translate english ep26_dialogues1_bardie2_5ff846bf:
 translate english ep26_dialogues1_bardie2_58f57e24:
 
     # bardie "Хорошо, покажи, что ты соблюдаешь правила дома!"
-    bardie "Fine, show me how you follow rules of this house!"
+    bardie "Fine, show me how you follow the rules of this house!"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:220
 translate english ep26_dialogues1_bardie2_76ecce48:
@@ -1375,7 +1375,7 @@ translate english ep26_dialogues1_bardie4_44bab8bd:
     # bardie "Соблюдать везде чистоту."
     bardie "Well?!"
     bardie "And what does this maid want?"
-    bardie "Good maid has to fullfill her resposibilities around the house."
+    bardie "Good maid has to fulfill her responsibilities around the house."
     bardie "Keeping everything clean."
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:480
@@ -1384,7 +1384,7 @@ translate english ep26_dialogues1_bardie4_04b9d26f:
     # bardie "Это место надо протереть от пыли."
     # bardie "И оно слишком чувствительное, поэтому это надо сделать твоими сиськами!"
     bardie "This place is dusty."
-    bardie "And it's very sensetive, so you have to do it with your tits!"
+    bardie "And it's very sensitive, so you have to do it with your tits!"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:484
 translate english ep26_dialogues1_bardie4_29a4f6ab_1:
@@ -1401,7 +1401,7 @@ translate english ep26_dialogues1_bardie4_b82a65c8:
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:493
 translate english ep26_dialogues1_bardie4_b97a69dc:
 
-    # bardie "Хорошая гувернантка должна выполнять это работу."
+    # bardie "Хорошая гувернантка должна выполнять эту работу."
     # bardie "И, если гувернантка будет хорошей, то ее в этом доме будут кормить."
     bardie "Good maid has to do her job."
     bardie "And if she is doing well, she'll get to eat."
@@ -1419,7 +1419,7 @@ translate english ep26_dialogues1_bardie4_ebe3294b:
 
     # mt "С другой стороны, я в шаге от того, чтобы нормально питаться."
     # mt "В своем же доме!"
-    mt "On the other hand, I'm one step from eating normaly..."
+    mt "On the other hand, I'm one step from eating normally..."
     mt "In my own house!"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:509
@@ -1459,7 +1459,7 @@ translate english ep26_dialogues1_bardie4_cecb4c4e:
 
     # bardie "Я тоже не умею делать это. Но не думаю что это сложно!"
     # bardie "Вынь свои сиськи и положи их на мой член!"
-    bardie "I don’t know etheir. But it can't be that difficult!"
+    bardie "I don’t know either. But it can't be that difficult!"
     bardie "Take out your tits and place them on my dick!"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:550
@@ -1580,7 +1580,7 @@ translate english ep26_dialogues1_bardie5_146112df:
     # m "Я УВЕРЕНА ЧТО ЭТО СНОВА ТВОИ ПРОИСКИ, МАЛЯВКА!!!"
     # m "ТЫ НЕ МОЖЕШЬ ТРЕБОВАТЬ ОТ МЕНЯ ТАКОГО!!!"
     m "WHAT?!?!"
-    m "ARE YOU TRYING TO SAY THAT IT WAS BETTY'S CODITION?!"
+    m "ARE YOU TRYING TO SAY THAT IT WAS BETTY'S CONDITION?!"
     m "I'M SURE IT'S YOUR TRICKS AGAIN, BRAT!"
     m "YOU CANT DEMAND ANYTHING LIKE THAT FROM ME!"
 
@@ -1694,7 +1694,7 @@ translate english ep26_dialogues1_bardie5_5c2413fc:
 translate english ep26_dialogues1_bardie5_bbe155c7:
 
     # bardie "Ты поняла правила питания в доме?"
-    bardie "Do you understand rules about eating in this house?"
+    bardie "Do you understand the rules about eating in this house?"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:784
 translate english ep26_dialogues1_bardie5_3944034b:
@@ -1839,7 +1839,7 @@ translate english ep26_dialogues1_bardie6_573a8497:
 
     # m "Вы уверены, Миссис Робертс!"
     # m "Вы уверены что я должна выйти отсюда?"
-    m "Are you sure Mrs. Roberts?"
+    m "Are you sure, Mrs. Roberts?"
     m "Are you sure that I should go?"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:919
@@ -1895,7 +1895,7 @@ translate english ep26_dialogues1_bardie6_7332092f:
 
     # mt "Это только первые шаги..."
     # mt "Скоро дом будет снова мой..."
-    mt "These is just a first steps..."
+    mt "These are just the first steps..."
     mt "Soon my house will be mine again..."
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:973
@@ -1924,7 +1924,7 @@ translate english ep26_dialogues1_bardie6_ff90ee23:
     # m "Миссис Робертс. Пожалуйста, подайте мне другие приборы."
     # m "Эти недостаточно хорошо вымыты."
     m "Mrs. Robers, can you please give me different silverware?"
-    m "The ones is a bit dirty."
+    m "The ones are a bit dirty."
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1011
 translate english ep26_dialogues1_bardie6_99bb31af_3:
@@ -2029,7 +2029,7 @@ translate english ep26_dialogues1_bardie7_573a8497:
 
     # m "Вы уверены, Миссис Робертс!"
     # m "Вы уверены что я должна выйти отсюда?"
-    m "Are you sure Mrs. Roberts?"
+    m "Are you sure, Mrs. Roberts?"
     m "Are you sure that I should go?"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1170
@@ -2097,7 +2097,7 @@ translate english ep26_dialogues1_bardie7_7332092f:
 
     # mt "Это только первые шаги..."
     # mt "Скоро дом будет снова мой..."
-    mt "These is just a first steps..."
+    mt "These are just the first steps..."
     mt "Soon my house will be mine again..."
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1256
@@ -2126,7 +2126,7 @@ translate english ep26_dialogues1_bardie7_ff90ee23:
     # m "Миссис Робертс. Пожалуйста, подайте мне другие приборы."
     # m "Эти недостаточно хорошо вымыты."
     m "Mrs. Robers, can you please give me different silverware?"
-    m "The ones is a bit dirty."
+    m "The ones are a bit dirty."
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1294
 translate english ep26_dialogues1_bardie7_99bb31af_1:
@@ -2198,7 +2198,7 @@ translate english ep26_dialogues1_bardie8_57f7fd71:
     # betty "Убирайся отсюда, нерадивая гувернантка!"
     # betty "Пока я не вышвырнула тебя из дома на улицу!"
     betty "Get out of here, useless maid!"
-    betty "Or I'll kick you ass on the street!"
+    betty "Or I'll kick your ass on the street!"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1374
 translate english ep26_dialogues1_bardie8_29a4f6ab:
@@ -2269,7 +2269,7 @@ translate english ep26_dialogues1_bardie10_3336a902:
     # m "Она не соблюдает правила!"
     # m "Я прихожу к ней как ты велел мне, но она не хочет кормить меня!"
     m "Yes! Betty!"
-    m "She doesn't follow rules!"
+    m "She doesn't follow the rules!"
     m "I'm doing as you told me, but she doesn't want to give me food!"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1453
@@ -2362,7 +2362,7 @@ translate english ep26_dialogues1_bardie10_29a4f6ab_1:
 translate english ep26_dialogues1_bardie10_d9269515:
 
     # m "Барди."
-    # m "Между прочим, Бетти часто зрывается."
+    # m "Между прочим, Бетти часто зарывается."
     # m "Она называет тебя засранцем."
     m "Bardie."
     m "By the way, Betty is often losing her temper."
@@ -2478,7 +2478,7 @@ translate english ep26_dialogues1_bardie12_9216eb39:
 translate english ep26_dialogues1_bardie12_8613a876:
 
     # bardie "Будешь еще нарушать правила дома?!"
-    bardie "Will you break rules again?!"
+    bardie "Will you break the rules again?!"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1659
 translate english ep26_dialogues1_bardie12_25c8ec3c:
@@ -2524,7 +2524,7 @@ translate english ep26_dialogues1_bardie12b_dc22f340:
     # mt "Это унизительно!"
     mt "I've already eaten today."
     mt "I'm not willing to shake my chest for a whole day!"
-    mt "It's hummiliating!"
+    mt "It's humiliating!"
 
 translate english strings:
 

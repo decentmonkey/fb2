@@ -19,7 +19,7 @@ translate english worker7_dialogue_workplace_caa11d5e:
     # mt "Кошмар, надеюсь она меня не узнает..."
     # mt "Хотя... Не думаю что можно связать Монику Бакфетт с какой-то продавщицей в трущобах..."
     # mt "В любом случае, надо поменьше общаться с ней. Вдруг она, все-же, узнает меня..."
-    mt "Oh no! Wasn’t she one of the customers in that awfull clothing store?"
+    mt "Oh no! Wasn’t she one of the customers in that awful clothing store?"
     mt "Damn it, I hope she won't recognize me..."
     mt "Well... I doubt anyone can connect Monica Buckfett with poor store clerk in the slums."
     mt "Anyways, I'd better avoid talking with her too much, just in case..."
@@ -41,7 +41,7 @@ translate english worker7_dialogue_workplace_520402d7:
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:19
 translate english worker7_dialogue_office_06856575:
 
-    # w7 "Миссис Бакфет, можно?"
+    # w7 "Миссис Бакфетт, можно?"
     w7 "Mrs. Buckfett, can I come in?"
 
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:21
@@ -58,7 +58,7 @@ translate english worker7_dialogue_office_905e0dba:
     # m "Кажется, тебя зовут Лин?"
     # w7 "Да, мэм."
     # m "Лин, я сейчас очень занята. Если ты принесла отчет, положи пожалуйста его мне на стол. Я его обязательно посмотрю."
-    m "Your name was Lyn, wans't it?"
+    m "Your name was Lyn, wasn't it?"
     w7 "Yes, ma'am."
     m "I'm very busy right now, Lyn. Just place report on the table and I'll make sure to check it out later."
 
@@ -96,7 +96,7 @@ translate english worker7_look_cc001836:
 translate english worker7_dialogue_workplace_c53f9ee6:
 
     # mt "Черт! Она же была покупательницей в этом ужасном магазине, где я работала манекеном!"
-    mt "Oh no! Wasn’t she one of the customers in that awfull clothing store?"
+    mt "Oh no! Wasn’t she one of the customers in that awful clothing store?"
 
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:31
 translate english worker7_dialogue_workplace_12a4536e:
@@ -112,7 +112,7 @@ translate english worker7_dialogue_workplace_12a4536e:
 translate english worker7_dialogue_office_07d124ae:
 
     # m "Кажется, тебя зовут Лин?"
-    m "Your name was Lyn, wans't it?"
+    m "Your name was Lyn, wasn't it?"
 
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:58
 translate english worker7_dialogue_office_744c09cd:

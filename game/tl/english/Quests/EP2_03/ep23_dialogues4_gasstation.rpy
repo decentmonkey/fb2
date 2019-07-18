@@ -12,7 +12,7 @@ translate english ep23_dialogues4_1_c1c45173:
 translate english ep23_dialogues4_1_e63f352a:
 
     # mt "Хорошо что она не узнает меня... Единственный плюс этой одежды..."
-    mt "Good, she cant recognize me. Only positive of wearing these clothes."
+    mt "Good, she can't recognize me. Only positive of wearing these clothes."
 
 # game/Quests/EP2_03/ep23_dialogues4_gasstation.rpy:37
 translate english ep23_dialogues4_1_6450e148:

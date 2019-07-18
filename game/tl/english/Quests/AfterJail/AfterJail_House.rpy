@@ -105,7 +105,7 @@ translate english afterJailHouse_dialogue20_072606ff:
 
     # mt "Узкая темная каморка, без окон."
     # mt "В то время пока я нежилась в постели из шелка..."
-    mt "A narrow, dark room, without windows."
+    mt "A narrow, darkroom, without windows."
     mt "While I was basking in a silk bed..."
 
 # game/Quests/AfterJail/AfterJail_House.rpy:80

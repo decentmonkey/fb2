@@ -556,7 +556,7 @@ translate english cit9_naked_boobs_variant2_a829dcea:
     # m "Ну уж нет!"
     # citizen9 "Дамочка, ты меня разочаровываешь..."
     m "Oh, no!"
-    citizen9 "Lady, you disapoint me..."
+    citizen9 "Lady, you disappoint me..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:372
 translate english cit9_naked_boobs_variant2_331c5942:
@@ -570,7 +570,7 @@ translate english cit9_naked_boobs_variant2_331c5942:
     citizen9 "Oh come on! I just started to imagine how I'm putting my dick between your..."
     m "I understood!"
     citizen9 "Really? You probably imagined it! Ahaha!"
-    mt "Pervert! When I get everyting back, I'll find you..."
+    mt "Pervert! When I get everything back, I'll find you..."
 
 translate english strings:
 
@@ -874,7 +874,7 @@ translate english cit9_naked_boobs_variant2_96a5a52b:
 translate english cit9_naked_boobs_variant2_56162468:
 
     # citizen9 "Дамочка, ты меня разочаровываешь..."
-    citizen9 "Lady, you disapoint me..."
+    citizen9 "Lady, you disappoint me..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:477
 translate english cit9_naked_boobs_variant2_4028b30b:
@@ -904,7 +904,7 @@ translate english cit9_naked_boobs_variant2_9edb5d77:
 translate english cit9_naked_boobs_variant2_5d2517cc:
 
     # mt "Извращенец, когда я верну свое положение, я найду тебя..."
-    mt "Pervert! When I get everyting back, I'll find you..."
+    mt "Pervert! When I get everything back, I'll find you..."
 
 # TODO: Translation updated at 2019-07-17 22:57
 

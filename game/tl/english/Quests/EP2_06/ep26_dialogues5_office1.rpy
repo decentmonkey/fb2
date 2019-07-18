@@ -19,7 +19,7 @@ translate english ep26_dialogues5_office1_1_684d8ceb:
     biff "I'm getting tired of the old ones."
     biff "Don’t forget about new direction of our magazine."
     biff "You was the one who announced it, aha-ha-ha!"
-    biff "And don't even think about dissapointing your daddy!"
+    biff "And don't even think about disappointing your daddy!"
     mt "!!!"
     mt "It's time to do something about it."
     mt "These photoshoots can't last forever..."
@@ -54,7 +54,7 @@ translate english ep26_dialogues5_office1_2_3f698705:
     # m "..."
     # biff "Это важные люди, цыпочка."
     # biff "И я мог бы продавать им твою мордашку, как я и говорил."
-    # biff "Пэтому, учитывая что ты здесь появляешься очень редко, я вынужден отвечать на неудобные вопросы."
+    # biff "Поэтому, учитывая что ты здесь появляешься очень редко, я вынужден отвечать на неудобные вопросы."
     # biff "И терять деньги!"
     # biff "А ты знаешь, я люблю, чтобы цыпочки приносили деньги, а не заставляли терять их!"
     # m "..."
@@ -63,7 +63,7 @@ translate english ep26_dialogues5_office1_2_3f698705:
     biff "Our missing Melanie came back!"
     mt "!!!"
     biff "She is guilty for missing her job for so long!"
-    biff "But she made her ammends already! Aha-ha-ha!"
+    biff "But she made her amends already! Aha-ha-ha!"
     mt "Melanie..."
     mt "Melanie.. She is back?"
     mt "I was sure that Marcus got her."
@@ -71,20 +71,20 @@ translate english ep26_dialogues5_office1_2_3f698705:
     m "Melanie..."
     m "How did she return?"
     m "Can I talk to her?"
-    biff "She is not her right now."
+    biff "She is not here right now."
     biff "She looked very tired and I let her go home."
     biff "She will be back tomorrow."
     biff "Oh, almost forgot."
     biff "You are always asking me about a job."
     m "???"
     biff "You are modeling for quite a while already in our magazine."
-    biff "Even if you are just a 20$ street whore, you play Monica Buckfett very well."
+    biff "Even if you are just a $ 20 street whore, you play Monica Buckfett very well."
     biff "However, some people are starting to come asking questions."
     biff "Why they can't find you."
     m "..."
     biff "They are very important people, girl."
     biff "I could try selling them your face, as I've said before."
-    biff "Taking into consideration that you come here rarely, I'm forced to answer uncomfotable questions."
+    biff "Taking into consideration that you come here rarely, I'm forced to answer uncomfortable questions."
     biff "And lose money!"
     biff "And you know very well that I like it when my girls bring money, not the other way around!"
     m "..."
@@ -102,12 +102,12 @@ translate english ep26_dialogues5_office1_2_6e64a24e:
     # biff "Поэтому я решил что ты должна работать здесь."
     # biff "Я хочу чтобы это личико было доступно в любой момент."
     # biff "Не сомневаюсь, ты мечтала о том, чтобы работать на папочку!"
-    # biff "Я даю тебе это возможность!"
+    # biff "Я даю тебе эту возможность!"
     # biff "Однако, ты должна помнить, что ты всего-лишь цыпочка, хоть и похожа на Монику Бакфетт."
     # biff "Ты должна развлекать папочку. Если папочке станет скучно, папочка уволит тебя!"
     # biff "У меня очередь из цыпочек, которые будут готовы занять твое место!"
     # m "И что, ты найдешь такую, кто будет похожа на Монику Бакфетт больше чем Я?!"
-    # biff "Я найду другую кулу, которая будет представлять журнал!"
+    # biff "Я найду другую куклу, которая будет представлять журнал!"
     # biff "И буду продавать уже ее!"
     # biff "И эта кула будет более дрессированная, чем Ты!"
     # biff "Этот журнал не зациклен на сучке Бакфетт!"
@@ -144,7 +144,7 @@ translate english ep26_dialogues5_office1_2_6e64a24e:
     # biff "И не должна давать папочке скучать!"
     # biff "Я буду иногда менять ту скучную сиську, которая сидит в коридоре, на тебя!"
     # m "!!!"
-    # biff "Если честно, я бы ее уже выгнял, но она начинает плакать."
+    # biff "Если честно, я бы ее уже выгнал, но она начинает плакать."
     # biff "А у папочки мягкое сердце... Ведь папочка так любит своих цыпочек..."
     # biff "Папочка жалеет ее..."
     # mt "Мерзавец! Бедная секретарь!"
@@ -172,8 +172,8 @@ translate english ep26_dialogues5_office1_2_6e64a24e:
     # biff "Ты цыпочка, которая работает на папочку?"
     # biff "Или уличная шлюха, которая ошиблась дверью!"
     m "I'm... I'm a good girl, Biff..."
-    biff "You used to be a cheap  whore."
-    biff "You didn't have any manners and everyone could see the whore you really were."
+    biff "You used to be a cheap whore."
+    biff "You didn't have any manners, and everyone could see the whore you really were."
     biff "Now you are getting used to this place and learning."
     mt "!!!"
     biff "You are becoming a good girl."
@@ -187,14 +187,14 @@ translate english ep26_dialogues5_office1_2_6e64a24e:
     m "I doubt you can find anyone looking closer to Monica Buckfett than me!"
     biff "I'll just find another doll to be a face of a magazine!"
     biff "And will be promoting her instead!"
-    biff "And I bet she will be more obidient to me, than you are!"
+    biff "And I bet she will be more obedient to me, than you are!"
     biff "This magazine can live on without Monica Buckfett!"
     m "!!!"
     m "Okay, Biff."
     m "What will I have to do and how much will you pay?"
-    biff "What can a cheap street whore do in complany like this one?"
+    biff "What can a cheap street whore do in company like this one?"
     biff "Do you think I can trust you with anything serious? Ha-ha!"
-    biff "Also what money are you talking about?"
+    biff "Also, what money are you talking about?"
     biff "Aren't you earning enough already?"
     biff "Girls that want to replace you asking me three times less about a job than you do!"
     biff "One more time you start talking about earning more, I'm replacing you!"
@@ -218,9 +218,9 @@ translate english ep26_dialogues5_office1_2_6e64a24e:
     biff "But it will mean that she is here to replace you."
     mt "!!!"
     biff "You have to come to work more often!"
-    biff "And have to fulfill your responsibilities more dillegently!"
+    biff "And have to fulfill your responsibilities more diligently!"
     biff "And don't let your daddy become bored!"
-    biff "I think I'll be swaping you with the boring one in the corridor from time to time!"
+    biff "I think I'll be swapping you with the boring one in the corridor from time to time!"
     m "!!!"
     biff "I've already fired her once, but she started to cry."
     biff "Daddy has a kind heart. He loves his girls."
@@ -233,7 +233,7 @@ translate english ep26_dialogues5_office1_2_6e64a24e:
     biff "Yes, exactly!"
     biff "I want my babe to be near me when I need her."
     biff "Moreover, you will be a Boss, little one though. Ha-ha!"
-    biff "Being a whole like yourself it will be unusual for you first, but you will get used to it."
+    biff "Being a whole like yourself, it will be unusual for you first, but you will get used to it."
     mt "Shithead! I'm used to being a Boss!"
     mt "I'm a Boss! I was born to give orders to others!"
     mt "And you are nobody!"
@@ -241,10 +241,10 @@ translate english ep26_dialogues5_office1_2_6e64a24e:
     mt "So... work in the office..."
     mt "I am sure that this slime will never pay me more than for photoshoots."
     mt "On the other hand, if I'll be working here, in my office..."
-    mt "It's possible that I'll be able to achieve my goals faster returning everything that belongs to ME!"
+    mt "It's possible that I'll be able to achieve my goals faster, returning everything that belongs to ME!"
     m "Biff, I have to talk to Melanie."
-    biff "Babe, if you work here with us you can talk with whomever you want."
-    biff "If not, the twenty dollar whore isn't allowed to talk to my Melanie."
+    biff "Babe, if you work here with us, you can talk with whomever you want."
+    biff "If not, the twenty-dollar whore isn't allowed to talk to my Melanie."
     m "Stop calling me that!"
     biff "Choose how should I call you then!"
     biff "Are you a good girl, working on your daddy?"
@@ -268,7 +268,7 @@ translate english ep26_dialogues5_office1_2_1f6fb834:
     # biff "Тогда подойди к папочке! Поцелуй его!"
     # biff "Папочка разрешает..."
     mt "Damn it! For how long do I have to keep this charade!?"
-    mt "Pretending to be an obidient girl in front of this bastard!"
+    mt "Pretending to be an obedient girl in front of this bastard!"
     mt "Me! Monica Buckfett!"
     mt "АААААААААААААААА!!!"
     m "..."
@@ -300,7 +300,7 @@ translate english ep26_dialogues5_office1_2_d8b4316f:
     mt "!!!"
     biff "..."
     m "A girl does not deserve that."
-    m "First she has to distinguish herself."
+    m "First, she has to distinguish herself."
     biff "Okay, girl!"
     biff "I'll wait until you do!"
 
@@ -332,7 +332,7 @@ translate english ep26_dialogues5_office1_2_e3259cc1:
     # secretary "Мистер Биф заботится о нас..."
     # m "Боже, дорогуша, что они с тобой сделали?"
     # secretary "Миссис Бакфетт, пожалуйста, делайте что они говорят..."
-    # secretary "Этажом ниже есть отдел, где готовя промежуточные отчеты."
+    # secretary "Этажом ниже есть отдел, где готовят промежуточные отчеты."
     # secretary "Там уже работает несколько человек."
     # secretary "Также вашим помощником будет новенькая девушка."
     # secretary "Она только что пришла. Она очень добрая и понравится Вам."
@@ -398,7 +398,7 @@ translate english ep26_dialogues5_office1_2_e3259cc1:
     biff "Now, girl, you can go."
     biff "Alex will give you your new working uniform, ha-ha."
     mt "???"
-    biff "And you, Tit, make sure that she wears it everyday!"
+    biff "And you, Tit, make sure that she wears it every day!"
     secretary "..."
     secretary "..."
     m "!!!"
@@ -417,7 +417,7 @@ translate english ep26_dialogues5_office1_2_e3259cc1:
     m "What?! It's my company! Why would you need my documents!"
     secretary "Mrs. Buckfett, there are rules... all employees have to be registered..."
     m "This company is MINE! MINE! WHOLE OF IT!"
-    m "And as an owner I don’t have to be registered anywhere!"
+    m "And as an owner, I don’t have to be registered anywhere!"
     secretary "..."
     m "..."
     secretary "..."
@@ -430,7 +430,7 @@ translate english ep26_dialogues5_office1_2_e3259cc1:
     secretary "There is one girl. She will work under you."
     mt "I'll become a Boss once again!"
     mt "Finally, Monica! A first step on the road towards a bright future!"
-    m "Alright dear, lead me to my new office..."
+    m "Alright, dear, lead me to my new office..."
     secretary "Mrs. Buckfett, Mr. Biff ordered you to follow the dress code."
     m "What dress code? Do you think I'm not dressed appropriately?"
     secretary "Mrs. Buckfett, you look great, as always!"
@@ -443,14 +443,14 @@ translate english ep26_dialogues5_office1_2_e3259cc1:
     alex_photograph "Please, here it is."
     m "..."
     alex_photograph "It suits you very well, Mrs. Buckfett!"
-    m "I know Alex. I don’t need your comments concerning my appereance."
+    m "I know Alex. I don’t need your comments concerning my appearance."
     m "Show me the way..."
     secretary "Yes, Mrs. Buckfett. One minute..."
     m "..."
     secretary "..."
     m "???"
-    secretary "Mrs. Buckfett, it's very embarassing for me to go down there looking like that..."
-    secretary "People form other floors rarely come here and I already got used to this floor..."
+    secretary "Mrs. Buckfett, it's very embarrassing for me to go down there looking like that..."
+    secretary "People from other floors rarely come here and I already got used to this floor..."
     secretary "But if I go downstairs like this, can you imagine what the people will talk?"
     secretary "(sniff)"
     m "..."
@@ -550,7 +550,7 @@ translate english ep26_dialogues5_office1_2_cb5efd3f:
     biff "I don’t like your tone you use to talk to your daddy!"
     biff "One more word and I'll take off the pants of the secretary!"
     biff "And make you wear them showing everyone your butt!"
-    biff "She doesn't need her pants anymore! Maybe I should undress here completely!"
+    biff "She doesn't need her pants anymore! Maybe I should undress her completely!"
     m "Biff! YOU!!!"
     biff "Tit, come here quickly!"
     secretary "Yes, Mr. Biff?"
@@ -664,7 +664,7 @@ translate english ep26_dialogues5_office1_2_15aef8a5:
     # biff "Она провинилась перед папочкой за то что так долго где-то гуляла."
     # biff "Но она уже загладила свою вину, Ха-Ха!"
     biff "She is guilty for missing her job for so long!"
-    biff "But she made her ammends already! Aha-ha-ha!"
+    biff "But she made her amends already! Aha-ha-ha!"
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:78
 translate english ep26_dialogues5_office1_2_805420b0:
@@ -697,7 +697,7 @@ translate english ep26_dialogues5_office1_2_93b03659:
 
     # biff "Сейчас ее нет."
     # biff "Она выглядела очень уставшей и я отпустил ее."
-    biff "She is not her right now."
+    biff "She is not here right now."
     biff "She looked very tired and I let her go home."
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:102
@@ -722,7 +722,7 @@ translate english ep26_dialogues5_office1_2_742ab3c0:
     # biff "Ты уже достаточно долго снимаешься в журнале."
     # biff "Хоть ты и уличная шлюха за $ 20, но у тебя неплохо получается играть Монику Бакфетт."
     biff "You are modeling for quite a while already in our magazine."
-    biff "Even if you are just a 20$ street whore, you play Monica Buckfett very well."
+    biff "Even if you are just a $ 20 street whore, you play Monica Buckfett very well."
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:120
 translate english ep26_dialogues5_office1_2_37f79402:
@@ -749,9 +749,9 @@ translate english ep26_dialogues5_office1_2_b0716820:
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:130
 translate english ep26_dialogues5_office1_2_514b9dfb:
 
-    # biff "Пэтому, учитывая что ты здесь появляешься очень редко, я вынужден отвечать на неудобные вопросы."
+    # biff "Поэтому, учитывая что ты здесь появляешься очень редко, я вынужден отвечать на неудобные вопросы."
     # biff "И терять деньги!"
-    biff "Taking into consideration that you come here rarely, I'm forced to answer uncomfotable questions."
+    biff "Taking into consideration that you come here rarely, I'm forced to answer uncomfortable questions."
     biff "And lose money!"
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:135
@@ -783,8 +783,8 @@ translate english ep26_dialogues5_office1_2_49615bd4:
 
     # biff "Раньше цыпочка была шлюхой за $ 20 и не могла находиться здесь."
     # biff "Ты не могла вести себя подобающе, поэтому любой бы сразу понял кто ты."
-    biff "You used to be a cheap  whore."
-    biff "You didn't have any manners and everyone could see the whore you really were."
+    biff "You used to be a cheap whore."
+    biff "You didn't have any manners, and everyone could see the whore you really were."
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:156
 translate english ep26_dialogues5_office1_2_b39bdd63:
@@ -817,7 +817,7 @@ translate english ep26_dialogues5_office1_2_60a166f5:
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:174
 translate english ep26_dialogues5_office1_2_358731d9:
 
-    # biff "Я даю тебе это возможность!"
+    # biff "Я даю тебе эту возможность!"
     # biff "Однако, ты должна помнить, что ты всего-лишь цыпочка, хоть и похожа на Монику Бакфетт."
     biff "And here I'm, giving you a chance!"
     biff "But don't forget your place, you are just a babe who just looks like Monica Buckfett."
@@ -839,7 +839,7 @@ translate english ep26_dialogues5_office1_2_262ab5fe:
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:189
 translate english ep26_dialogues5_office1_2_6453cfbf:
 
-    # biff "Я найду другую кулу, которая будет представлять журнал!"
+    # biff "Я найду другую куклу, которая будет представлять журнал!"
     # biff "И буду продавать уже ее!"
     biff "I'll just find another doll to be a face of a magazine!"
     biff "And will be promoting her instead!"
@@ -849,7 +849,7 @@ translate english ep26_dialogues5_office1_2_d7ba9cb8:
 
     # biff "И эта кула будет более дрессированная, чем Ты!"
     # biff "Этот журнал не зациклен на сучке Бакфетт!"
-    biff "And I bet she will be more obidient to me, than you are!"
+    biff "And I bet she will be more obedient to me, than you are!"
     biff "This magazine can live on without Monica Buckfett!"
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:206
@@ -871,7 +871,7 @@ translate english ep26_dialogues5_office1_2_b771cd35:
 
     # biff "Что может делать двадцатидолларовая шлюха в такой серьезной фирме как эта?!"
     # biff "Ты думаешь я доверю тебе что-то серьезное? Ха-ха!"
-    biff "What can a cheap street whore do in complany like this one?"
+    biff "What can a cheap street whore do in company like this one?"
     biff "Do you think I can trust you with anything serious? Ha-ha!"
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:216
@@ -879,7 +879,7 @@ translate english ep26_dialogues5_office1_2_704329d3:
 
     # biff "И про какие деньги ты говоришь?!"
     # biff "Ты что, мало зарабатываешь?!"
-    biff "Also what money are you talking about?"
+    biff "Also, what money are you talking about?"
     biff "Aren't you earning enough already?"
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:225
@@ -978,7 +978,7 @@ translate english ep26_dialogues5_office1_2_6dc90caf:
     # biff "Ты должна приходить на работу почаще!"
     # biff "И ты должна выполнять свои обязанности как следует!"
     biff "You have to come to work more often!"
-    biff "And have to fulfill your responsibilities more dillegently!"
+    biff "And have to fulfill your responsibilities more diligently!"
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:295
 translate english ep26_dialogues5_office1_2_e5c5cf71:
@@ -986,7 +986,7 @@ translate english ep26_dialogues5_office1_2_e5c5cf71:
     # biff "И не должна давать папочке скучать!"
     # biff "Я буду иногда менять ту скучную сиську, которая сидит в коридоре, на тебя!"
     biff "And don't let your daddy become bored!"
-    biff "I think I'll be swaping you with the boring one in the corridor from time to time!"
+    biff "I think I'll be swapping you with the boring one in the corridor from time to time!"
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:298
 translate english ep26_dialogues5_office1_2_29a4f6ab_1:
@@ -997,7 +997,7 @@ translate english ep26_dialogues5_office1_2_29a4f6ab_1:
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:304
 translate english ep26_dialogues5_office1_2_874ddbf6:
 
-    # biff "Если честно, я бы ее уже выгнял, но она начинает плакать."
+    # biff "Если честно, я бы ее уже выгнал, но она начинает плакать."
     biff "I've already fired her once, but she started to cry."
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:307
@@ -1040,7 +1040,7 @@ translate english ep26_dialogues5_office1_2_f9985158:
     # biff "К тому же, ты будешь Боссом, хоть и маленьким, ха-ха!"
     # biff "Для шлюхи вроде тебя это будет непривычно поначалу, но потом ты освоишься."
     biff "Moreover, you will be a Boss, little one though. Ha-ha!"
-    biff "Being a whole like yourself it will be unusual for you first, but you will get used to it."
+    biff "Being a whole like yourself, it will be unusual for you first, but you will get used to it."
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:337
 translate english ep26_dialogues5_office1_2_9b439c31:
@@ -1068,7 +1068,7 @@ translate english ep26_dialogues5_office1_2_45976a11:
     # mt "С другой стороны... Если я буду находиться здесь, в своем офисе..."
     # mt "То, вероятно, я быстрее смогу добиться своей цели вернуть то что принадлежит МНЕ!"
     mt "On the other hand, if I'll be working here, in my office..."
-    mt "It's possible that I'll be able to achieve my goals faster returning everything that belongs to ME!"
+    mt "It's possible that I'll be able to achieve my goals faster, returning everything that belongs to ME!"
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:365
 translate english ep26_dialogues5_office1_2_5bf72d4f:
@@ -1081,8 +1081,8 @@ translate english ep26_dialogues5_office1_2_7150e40d:
 
     # biff "Цыпочка! Если ты работаешь с нами вместе, ты можешь общаться с нами сколько угодно!"
     # biff "Если ты не работаешь с нами, то двадцатидолларовая шлюха не смеет приближаться к моей малышке Мелани!"
-    biff "Babe, if you work here with us you can talk with whomever you want."
-    biff "If not, the twenty dollar whore isn't allowed to talk to my Melanie."
+    biff "Babe, if you work here with us, you can talk with whomever you want."
+    biff "If not, the twenty-dollar whore isn't allowed to talk to my Melanie."
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:372
 translate english ep26_dialogues5_office1_2_8cacdce7:
@@ -1116,7 +1116,7 @@ translate english ep26_dialogues5_office1_2_d59dd269:
     # mt "Дьявол! Сколько мне придется еще играть в этот спектакль?!"
     # mt "Строить из себя какую-то цыпочку! Перед этим ничтожеством!"
     mt "Damn it! For how long do I have to keep this charade!?"
-    mt "Pretending to be an obidient girl in front of this bastard!"
+    mt "Pretending to be an obedient girl in front of this bastard!"
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:410
 translate english ep26_dialogues5_office1_2_3011c396:
@@ -1188,7 +1188,7 @@ translate english ep26_dialogues5_office1_2_e90805c1:
     # m "Цыпочка не заслужила этого."
     # m "Цыпочка сначала должна показать себя."
     m "A girl does not deserve that."
-    m "First she has to distinguish herself."
+    m "First, she has to distinguish herself."
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:486
 translate english ep26_dialogues5_office1_2_697b4068:
@@ -1272,7 +1272,7 @@ translate english ep26_dialogues5_office1_2_a4bb7152:
 translate english ep26_dialogues5_office1_2_f6d8c13a:
 
     # biff "А ты, Сиська, проследи, чтобы она ее носила всегда, когда работает здесь!"
-    biff "And you, Tit, make sure that she wears it everyday!"
+    biff "And you, Tit, make sure that she wears it every day!"
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:549
 translate english ep26_dialogues5_office1_2_d4bf123b_1:
@@ -1329,7 +1329,7 @@ translate english ep26_dialogues5_office1_2b_1c40698e:
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:599
 translate english ep26_dialogues5_office1_2b_a83fc6ee:
 
-    # secretary "Этажом ниже есть отдел, где готовя промежуточные отчеты."
+    # secretary "Этажом ниже есть отдел, где готовят промежуточные отчеты."
     # secretary "Там уже работает несколько человек."
     secretary "There is a department on the floor below, preparing preliminary reports."
     secretary "Several people already work over there."
@@ -1376,7 +1376,7 @@ translate english ep26_dialogues5_office1_2b_84123634:
 translate english ep26_dialogues5_office1_2b_2e3a4a2f:
 
     # m "И мне не надо числиться в каком-то гребаном штате для этого!!!"
-    m "And as an owner I don’t have to be registered anywhere!"
+    m "And as an owner, I don’t have to be registered anywhere!"
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:630
 translate english ep26_dialogues5_office1_2b_d4bf123b:
@@ -1442,7 +1442,7 @@ translate english ep26_dialogues5_office1_2b_507a70d5:
 translate english ep26_dialogues5_office1_2b_9f9a6f60:
 
     # m "Итак, дорогуша, проводи меня в мой новый офис..."
-    m "Alright dear, lead me to my new office..."
+    m "Alright, dear, lead me to my new office..."
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:672
 translate english ep26_dialogues5_office1_2b_8be0aaad:
@@ -1514,7 +1514,7 @@ translate english ep26_dialogues5_office1_3_bc4a4eb6:
 translate english ep26_dialogues5_office1_3_3590724f:
 
     # m "Я знаю, Алекс. Мне не нужны твои комментарии относительно моего внешнего вида!"
-    m "I know Alex. I don’t need your comments concerning my appereance."
+    m "I know Alex. I don’t need your comments concerning my appearance."
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:749
 translate english ep26_dialogues5_office1_4_b0bbfd46:
@@ -1552,8 +1552,8 @@ translate english ep26_dialogues5_office1_4_a8669a93:
     # secretary "Миссис Бакфетт. Мне очень стыдно идти туда в таком виде..."
     # secretary "На этот этаж мало кто заходит оттуда и я уже немного привыкла здесь..."
     # secretary "Однако, если я спущусь с Вами вниз, представляете что обо мне станут говорить."
-    secretary "Mrs. Buckfett, it's very embarassing for me to go down there looking like that..."
-    secretary "People form other floors rarely come here and I already got used to this floor..."
+    secretary "Mrs. Buckfett, it's very embarrassing for me to go down there looking like that..."
+    secretary "People from other floors rarely come here and I already got used to this floor..."
     secretary "But if I go downstairs like this, can you imagine what the people will talk?"
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:768
@@ -1676,7 +1676,7 @@ translate english ep26_dialogues5_office1_4_cb5efd3f:
     biff "I don’t like your tone you use to talk to your daddy!"
     biff "One more word and I'll take off the pants of the secretary!"
     biff "And make you wear them showing everyone your butt!"
-    biff "She doesn't need her pants anymore! Maybe I should undress here completely!"
+    biff "She doesn't need her pants anymore! Maybe I should undress her completely!"
     m "Biff! YOU!!!"
     biff "Tit, come here quickly!"
     secretary "Yes, Mr. Biff?"

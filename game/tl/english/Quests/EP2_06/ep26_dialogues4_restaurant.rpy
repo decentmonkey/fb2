@@ -26,7 +26,7 @@ translate english ep26_dialogues4_restaurant1_c0b8d7d0:
     m "None of your business."
     m "I can visit any place I want."
     m "And no one is telling me what to do!"
-    reception "Ma'am it's my job as this hotel's receptionist."
+    reception "Ma'am, it's my job as this hotel's receptionist."
     reception "I suspect that you are an illegal prostitute."
     reception "It is prohibited in our hotel!"
     m "WHAT?!"
@@ -64,7 +64,7 @@ translate english ep26_dialogues4_restaurant1_8f40ab44:
     m "Proof?"
     m "I have enough money to buy your whole stupid hotel!"
     reception "..."
-    m "Believe me I've proven everything in this life to anyone already!"
+    m "Believe me, I've proven everything in this life to anyone already!"
     m "You can follow and observe me if you want."
     m "But if you are trying to get tips from a lady like me, you made a mistake!"
     m "And now, get out of my way, before I really got mad!"
@@ -153,7 +153,7 @@ translate english ep26_dialogues4_restaurant3_cd835712:
     m "I have to get back my old life soon!"
     m "I'm done."
     m "Food was awful!"
-    waitress "We are very sorry Ma'am."
+    waitress "We are very sorry, Ma'am."
     waitress "We will try better next time..." 
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:160
@@ -273,7 +273,7 @@ translate english ep26_dialogues4_restaurant1_9b7dc292:
 
     # reception "Мэм, это мое дело, как сотрудника отеля."
     # reception "У нас есть подозрение на незаконное занятие проституцией."
-    reception "Ma'am it's my job as this hotel's receptionist."
+    reception "Ma'am, it's my job as this hotel's receptionist."
     reception "I suspect that you are an illegal prostitute."
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:47
@@ -346,7 +346,7 @@ translate english ep26_dialogues4_restaurant1_cccc3607:
     # m "Поверь, я уже все всем доказала в этой жизни!"
     # m "И, если тебе кажется, что в этом есть необходимость, то можешь ходить за мной и следить."
     # m "Однако, если твоя цель преследования меня получить чаевые от такой леди как Я, то ты выбрала неверный путь!"
-    m "Believe me I've proven everything in this life to anyone already!"
+    m "Believe me, I've proven everything in this life to anyone already!"
     m "You can follow and observe me if you want."
     m "But if you are trying to get tips from a lady like me, you made a mistake!"
 
@@ -484,7 +484,7 @@ translate english ep26_dialogues4_restaurant3_d1d3a5f6:
 translate english ep26_dialogues4_restaurant3_843b54b9:
 
     # m "Лазанья с кофе."
-    m "Lasagne with a coffee."
+    m "Lasagne with a coffee"
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:239
 translate english ep26_dialogues4_restaurant3_9329aedf:
@@ -577,7 +577,7 @@ translate english ep26_dialogues4_restaurant3_51b7d4e2:
 
     # waitress "Мэм, прошу прощения."
     # waitress "В следующий раз мы постараемся угодить Вам..." 
-    waitress "We are very sorry Ma'am."
+    waitress "We are very sorry, Ma'am."
     waitress "We will try better next time..." 
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:360
@@ -638,7 +638,7 @@ translate english ep26_dialogues4_restaurant4_d1d3a5f6:
 translate english ep26_dialogues4_restaurant4_843b54b9:
 
     # m "Лазанья с кофе."
-    m "Lasagne with a coffee."
+    m "Lasagne with a coffee"
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:421
 translate english ep26_dialogues4_restaurant4_9329aedf:
@@ -706,7 +706,7 @@ translate english strings:
 
     # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:176
     old "У Моники плохие отношения с официанткой."
-    new "Monica has a bad relationships with the waitress"
+    new "Monica has a bad relationship with the waitress"
 
     # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:216
     old "Стейк из форели, греческий салат и шампанское."
@@ -718,7 +718,7 @@ translate english strings:
 
     # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:216
     old "Лазанья с кофе."
-    new "Lasagne with a coffee."
+    new "Lasagne with a coffee"
 
     # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:216
     old "Суши и сок."
@@ -726,5 +726,5 @@ translate english strings:
 
     # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:363
     old "У Моники хорошие отношения с официанткой."
-    new "Monica has a good relationships with the waitress"
+    new "Monica has a good relationship with the waitress"
 

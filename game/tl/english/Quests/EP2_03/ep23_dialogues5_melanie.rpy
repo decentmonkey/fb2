@@ -36,7 +36,7 @@ translate english ep23_dialogues5_2_70a8bf50:
     # "Это может повредить моей карьере..."
     melanie "Mrs. Buckfett, you and me have formal businesslike relationship."
     "I would prefer for it to stay the same way without secrets from others."
-    "You understand that some missunderstandings could hurt my career ..."
+    "You understand that some misunderstandings could hurt my career ..."
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:49
 translate english ep23_dialogues5_2_fd42eb08:
@@ -114,7 +114,7 @@ translate english ep23_dialogues5_2_7ea983ff:
     # "Мне не совсем понятно, зачем вы ходите в этом..."
     # "Вы развелись с мужем и он забрал все Ваши деньги?"
     melanie "Mrs. Buckfett."
-    "Considering your appeareance it's obvious that you are in some minor problems."
+    "Considering your appearance it's obvious that you are in some minor problems."
     "I do not quite understand why are you wearing this ..."
     "Did your husband divorced you and took all your money?"
 
@@ -375,8 +375,8 @@ translate english ep23_dialogues5_2_1c66a9bb:
 
     # melanie "Если Вы поучаствуете со мной в фотосессии."
     # melanie "Биф хочет от меня какую-то пошлятину и Вы можете помочь мне с этим."
-    melanie "If you take part in a photo shoot with me."
-    melanie "Biff wants some vulgarity from me and you can help me with this."
+    melanie "If you take part in a photoshoot with me."
+    melanie "Biff wants some vulgarity from me, and you can help me with this."
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:301
 translate english ep23_dialogues5_2_d785dcc3:
@@ -396,7 +396,7 @@ translate english ep23_dialogues5_2_32890979:
 translate english ep23_dialogues5_2_84df9513:
 
     # melanie "Тем что поучаствуете вместе со мной..."
-    melanie "By taking part in photo shoot with me ..."
+    melanie "By taking part in the photoshoot with me ..."
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:309
 translate english ep23_dialogues5_2_47c629d7:
@@ -446,9 +446,9 @@ translate english ep23_dialogues5_2_7dbb1f9e:
     # melanie "Насколько я знаю, до этого Биф запланировал некоторые фотосессии с Вами."
     # "Сделайте их и мы начнем."
     # help "Надо открыть остальные фотосессии перед съемками с Мелани."
-    melanie "As far as I know, you already have some photo shoots planned by Biff."
-    "Finish them and we can start."
-    help "You must open the rest of the photo shoot before shooting with Melanie."
+    melanie "As far as I know, you already have some photoshoots planned by Biff."
+    "Finish them, and we can start."
+    help "You must open the rest of the photoshoot before shooting with Melanie."
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:357
 translate english ep23_dialogues5_2_7c0faa2d:
@@ -478,7 +478,7 @@ translate english ep23_dialogues5_2_69c18a8f:
 translate english ep23_dialogues5_2a_32b92694:
 
     # m "Мелани, когда будет эта твоя фотосессия?"
-    m "Melanie, when can we finaly start your photo shoot?"
+    m "Melanie, when can we finally start your photoshoot?"
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:386
 translate english ep23_dialogues5_2a_7dbb1f9e:
@@ -486,9 +486,9 @@ translate english ep23_dialogues5_2a_7dbb1f9e:
     # melanie "Насколько я знаю, до этого Биф запланировал некоторые фотосессии с Вами."
     # "Сделайте их и мы начнем."
     # help "Надо открыть остальные фотосессии перед съемками с Мелани."
-    melanie "As far as I know, you already have some photo shoots planned by Biff."
-    "Finish them and we can start."
-    help "You must open the rest of the photo shoot before shooting with Melanie."
+    melanie "As far as I know, you already have some photoshoots planned by Biff."
+    "Finish them, and we can start."
+    help "You must open the rest of the photoshoot before shooting with Melanie."
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:393
 translate english ep23_dialogues5_2a_7c0faa2d:
@@ -513,7 +513,7 @@ translate english ep23_dialogues5_3_7b36577f:
     m "What is this uniform, Alex?"
     alex_photograph "This is a flight attendant uniform, Ma'am!"
     m "Why do I need this?"
-    alex_photograph "Today we make a photo shoot for Fashion Airlines!"
+    alex_photograph "Today we make a photoshoot for Fashion Airlines!"
     "This is a major airline!"
     "And we need to show how the airline and its staff treat passengers!"
     m "And how do they treat them?"
@@ -532,7 +532,7 @@ translate english ep23_dialogues5_3_b6c100ab:
     # mt "Как же могло быть иначе!"
     # "Я с самого начала знала что эта фотосессия будет идиотской!!!"
     mt "Of course! How could it be otherwise!"
-    "From the very beginning I knew that this photo session would be idiotic !!!"
+    "From the very beginning, I knew that this photo session would be idiotic !!!"
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:423
 translate english ep23_dialogues5_3_8d82109b:
@@ -544,7 +544,7 @@ translate english ep23_dialogues5_3_8d82109b:
     m "All right, Alex ..."
     "Only condition, no indecent angles!"
     alex_photograph "Of course, Ma'am!"
-    "Definitely, as you know Melanie will never agree to indecent angles!"
+    "Definitely, as you know, Melanie will never agree to indecent angles!"
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:429
 translate english ep23_dialogues5_3_aef6ade1:
@@ -561,7 +561,7 @@ translate english ep23_dialogues5_3a_7cd197f5:
 
     # melanie "Миссис Бакфетт. Вы прервали сессию."
     # "Меня это вполне устраивает."
-    melanie "Mrs. Buckfett. You have interupted the session."
+    melanie "Mrs. Buckfett. You have interrupted the session."
     "It's fine for me."
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:475
@@ -584,7 +584,7 @@ translate english ep23_dialogues5_3a_393d661a:
 translate english ep23_dialogues5_3a_07d898e4:
 
     # alex_photograph "Мистер Биф не будет доволен тем, что фотосессия сорвалась."
-    alex_photograph "Mr. Biff will not be pleased that the photo shoot fell through."
+    alex_photograph "Mr. Biff will not be pleased that the photoshoot fell through."
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:492
 translate english ep23_dialogues5_3b_41ee94bf:
@@ -596,7 +596,7 @@ translate english ep23_dialogues5_3b_41ee94bf:
 translate english ep23_dialogues5_3c_ee1ef0be:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
-    alex_photograph "Ma'am! We're finished with the photo shoot!"
+    alex_photograph "Ma'am! We're finished with the photoshoot!"
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:505
 translate english ep23_dialogues5_3c_c577c087:
@@ -753,7 +753,7 @@ translate english ep23_dialogues6_68f45bbd:
 
     # m "Я уже приняла участие в той жуткой фотосессии!"
     # "Что же тебе еще надо?!"
-    m "I have already taken part in that terrible photo shoot!"
+    m "I have already taken part in that terrible photoshoot!"
     "What more do you want ?!"
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:628
@@ -799,10 +799,10 @@ translate english ep23_dialogues6_5556a1f0:
     # "Это кричать и командовать людьми."
     # "Но я знаю лучше Вас как найти подход к мужчине."
     # "И мне доставит удовольствие сделать то, что не получилось сделать у самой Моники Бакфетт!"
-    melanie "Mrs. Buckfett you should do your own thing, which you can do very well."
+    melanie "Mrs. Buckfett, you should do your own thing, which you can do very well."
     "Screaming and commanding people."
     "But I know better than you how to find right approach to a man."
-    "It will bring me a huge satisfatction to do something even Monica Buckfett can't."
+    "It will bring me a huge satisfaction to do something even Monica Buckfett can't."
 
 # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:656
 translate english ep23_dialogues6_38c8c391:

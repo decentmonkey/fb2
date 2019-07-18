@@ -96,7 +96,7 @@ translate german ep26_dialogues2_steve1_547e7899:
     # mt "!!!"
     # mt "Странной совпадение..."
     # mt "Но, с другой стороны, там вполне приличный ресторан."
-    # mt "И было бы очень неплохо ощутить себя снова Леди и поесть в нормально месте."
+    # mt "И было бы очень неплохо ощутить себя снова Леди и поесть в нормальном месте."
     # mt "Нормальном!"
     mt "!!!"
     mt "Seltsamer Zufall..."
@@ -276,7 +276,7 @@ translate german ep26_dialogues2_steve1_fba62e91:
 translate german ep26_dialogues2_steve1_9011d33b:
 
     # steve "Потому я и решил так сказать."
-    # steve "Обычный разговор вряд-ли отвлечет ее от того, что на принялась наседать на меня."
+    # steve "Обычный разговор вряд-ли отвлечет ее от того, что она принялась наседать на меня."
     steve "Darum habe ich das gesagt."
     steve "Smalltalk lenkt sie leicht ab."
 
@@ -356,7 +356,7 @@ translate german ep26_dialogues2_steve1_eed040b2:
 translate german ep26_dialogues2_steve1_35e8bcb0:
 
     # steve "Нет, Моника"
-    # steve "Я имею ввиду контракты, где за очень легкую и быструю работу я плачу больше деньги..."
+    # steve "Я имею ввиду контракты, где за очень легкую и быструю работу я плачу большие деньги..."
     steve "Nein, Monica."
     steve "Ich meine diese Deals, in denen ich dir viel Geld für schnelle und einfache Jobs zahle."
 
@@ -485,13 +485,13 @@ translate german ep26_dialogues2_steve3_a26fd386:
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:321
 translate german ep26_dialogues2_steve3_841577ab:
 
-    # jane "Миссис Бакфетт, скажите, как Вам удалось достичь такое превосходной формы?"
+    # jane "Миссис Бакфетт, скажите, как Вам удалось достичь такой превосходной формы?"
     jane "Frau Buckfett, bitte, erzählen sie mir, wie konnten sie so eine perfekte Figur erlangen?"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:323
 translate german ep26_dialogues2_steve3_cfd92ab5:
 
-    # m "Все дело в правильном питании регулярном занятии фитнесом."
+    # m "Все дело в правильном питании и регулярном занятии фитнесом."
     m "Das Geheimnis ist eine angemessene Diät und regelmässiges Training im Fitnessstudio."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:325
@@ -532,7 +532,7 @@ translate german ep26_dialogues2_steve3_76bfd7e0:
     # mt "Чем я питаюсь?"
     # mt "Моя диета?"
     # mt "Да уж!"
-    # mt "Я бобсь что эта толстая корова не сможет выжить на моей сегодняшней диете..."
+    # mt "Я боюсь что эта толстая корова не сможет выжить на моей сегодняшней диете..."
     mt "Was ich esse?"
     mt "Meine Diät?"
     mt "Jaa, klar..."
@@ -611,7 +611,7 @@ translate german ep26_dialogues2_steve3_67e50644:
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:391
 translate german ep26_dialogues2_steve3_5c0be29c:
 
-    # m "Со мной занимается личный тренер, которые внешне соответствует здоровому образу жизни."
+    # m "Со мной занимается личный тренер, который даже внешне соответствует здоровому образу жизни."
     # m "А также знает толк в упражнениях для достижения нужной цели!"
     m "Ich habe einen Privattrainer."
     m "Der seinen Job gut macht und weiß, wie man Ziele erreicht."

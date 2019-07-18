@@ -40,7 +40,7 @@ translate english ep23_dialogues1_1a_e2dd79be:
     # mt "Я не могу зайти туда одетой в рекламу кебеба..."
     # mt "Я просто застряну в проходе!"
     mt "I can't enter the pub wearing such adv banner."
-    mt "I'll stuck at the enterance."
+    mt "I'll stuck at the entrance."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:59
 translate english ep23_dialogues1_2_a1cd3172:
@@ -114,7 +114,7 @@ translate english ep23_dialogues1_2a_94da6d92:
     # ashley "Джо, посмотри! Это не детка!"
     # "Это шлюха!!!"
     # mt "!!!"
-    ashley "Are you blind Joe? She is not a babe!"
+    ashley "Are you blind, Joe? She is not a babe!"
     "She is a whore!!!"
     mt "!!!"
 
@@ -141,7 +141,7 @@ translate english ep23_dialogues1_2a_4816b457:
 
     # "Джо! Мало того что ты устроил здесь стриптиз!"
     # "Хорошо, я терплю это, потому что это приносит деньги."
-    "Joe! Not only you turned this place into stripbar!"
+    "Joe! Not only you turned this place into strip bar!"
     "And I only tolerate it because it makes money."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:116
@@ -305,7 +305,7 @@ translate english ep23_dialogues1_2b_86241076:
     # "У нас есть работа посудомойкой или официанткой."
     # "Хорошие чаевые и бесплатная еда для персонала."
     joe "You know what? You don’t have to dance around the pole...."
-    "We have an opening for dishwasher or waitress."
+    "We have an opening for a dishwasher or waitress."
     "Good tips and food on the house for staff."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:216
@@ -332,7 +332,7 @@ translate english ep23_dialogues1_2b_927edbc6:
 translate english ep23_dialogues1_2b_8f0030a1:
 
     # joe "Приходи, если надумаешь!"
-    joe "If you change you mind, our doors are open."
+    joe "If you change your mind, our doors are open."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:231
 translate english ep23_dialogues1_2c_8383f141:
@@ -358,8 +358,8 @@ translate english ep23_dialogues1_2c_8383f141:
     "..."
     "I don’t even need to distribute stupid kebab flyers or even do something worse..."
     "Maybe..."
-    "Untill I resolve slight misunderstandings, I got into..."
-    "Shoud I give it a try?"
+    "Until I resolve slight misunderstandings, I got into..."
+    "Should I give it a try?"
     "..."
     "WORKING IN THIS HOLE???"
     "ME???"
@@ -483,7 +483,7 @@ translate english ep23_dialogues1_3_4d0aaf2b:
     # m "..."
     # m "Я... Эммм..."
     # "У меня нет документов сейчас."
-    ashley "Alrtight, we will see how you perform."
+    ashley "Alright, we will see how you perform."
     "If you do well and there are no problems, then we can talk about your promotion."
     "Give me your documents, we will start with a trial period..."
     m "..."
@@ -502,7 +502,7 @@ translate english ep23_dialogues1_3_24ad3933:
     ashley "WHAT?!?!"
     m "But I'll bring them later! I promise!"
     ashley "Come later then!"
-    "I will not allow to work you here illegaly!"
+    "I will not allow to work you here illegally!"
     "Any inspection will fine us!"
     "Our bar already has a bad reputation! I do not want to make things worse!"
 
@@ -540,7 +540,7 @@ translate english ep23_dialogues1_3_324bcc82:
     "If there are no documents, then there is no medical certificate!"
     "I will not allow you to wash dishes for our customers!"
     "Besides that, do you even know how to wash dishes?"
-    "By the look of you it doesn’t seem so!"
+    "By the look of you, it doesn’t seem so!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:369
 translate english ep23_dialogues1_3_e27228cb:
@@ -580,11 +580,11 @@ translate english ep23_dialogues1_3_38ad884d:
     # "За эту работу ты будешь получать бесплатную еду, которую ест персонал."
     # "Это вкусная еда! Я сама готовлю ее!"
     ashley "..."
-    ashley "Alritght. You can work as a dishwasher."
-    "However, I'm not making your position permament."
+    ashley "Alright. You can work as a dishwasher."
+    "However, I'm not making your position permanent."
     "I'll watch you."
     "While you work here, you will receive free meals."
-    "Be gratefull for such delicios meals! I cook it myself!"
+    "Be grateful for such delicious meals! I cook it myself!"
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:393
 translate english ep23_dialogues1_3_6ddcab67:
@@ -817,7 +817,7 @@ translate english ep23_dialogues1_6_bd1d9be3:
     # m "Я хочу заказать..."
     # m "Shiny Бургер."
     m "I want..."
-    m "Shiny Бургер."
+    m "Shiny Burger."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:619
 translate english ep23_dialogues1_6_4cdbf8f3:
@@ -825,7 +825,7 @@ translate english ep23_dialogues1_6_4cdbf8f3:
     # m "Я хочу заказать..."
     # m "Спагетти."
     m "I want..."
-    m "Spagetti."
+    m "Spaghetti."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:626
 translate english ep23_dialogues1_6_fd6f5d1e:
@@ -833,7 +833,7 @@ translate english ep23_dialogues1_6_fd6f5d1e:
     # m "Я хочу заказать..."
     # m "Суп харчо."
     m "I want..."
-    m "Soup."
+    m "Soup kharcho."
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:632
 translate english ep23_dialogues1_6_f9bc5e47:
@@ -947,15 +947,15 @@ translate english strings:
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:607
     old "Shiny Бургер."
-    new "Shiny Бургер."
+    new "Shiny Burger."
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:607
     old "Спагетти."
-    new "Spagetti."
+    new "Spaghetti."
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:607
     old "Суп харчо."
-    new "Soup."
+    new "Soup kharcho."
 
     # Quests/EP2_03/ep23_dialogues1_pub.rpy:679
     old "Моника часто мыла посуду."

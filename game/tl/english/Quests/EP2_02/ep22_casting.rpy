@@ -4,7 +4,7 @@
 translate english ep22_dialogue6_6_loop2_47ee974b:
 
     # help "Пока доступны только две возможностьи. Другие пункты будут доступны в следующих версиях игры."
-    help "So far only two options are available. More to come in the future versions of the game."
+    help "So far, only two options are available. More to come in the future versions of the game."
 
 # game/Quests/EP2_02/ep22_casting.rpy:14
 translate english ep22_dialogue6_6_loop1_c021bc08:
@@ -75,7 +75,7 @@ translate english ep22_dialogue6_6_loop1_754bc00d:
     # "Показывай свои сиськи!"
     # "Иначе я скажу Алексу чтобы эти голые сиськи смотрели прямо с календаря!"
     biff "Come on! Calendar girl!"
-    "Show me you tits!"
+    "Show me your tits!"
     "Otherwise, the next issue of a calendar will have your bare chest for anyone to observe!"
 
 # game/Quests/EP2_02/ep22_casting.rpy:108
@@ -112,7 +112,7 @@ translate english ep22_dialogue6_6_loop1_b54e8927:
 translate english ep22_dialogue6_6_loop1_3e16788b:
 
     # m "Роза надежды хочет показать папочке грудь..."
-    m "Ruby Mystery would like to show her chest to you daddy..."
+    m "Ruby Mystery would like to show her chest to you, daddy..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:146
 translate english ep22_dialogue6_6_loop1_f4eb142e_1:
@@ -124,7 +124,7 @@ translate english ep22_dialogue6_6_loop1_f4eb142e_1:
 translate english ep22_dialogue6_6_loop1_949a2f51:
 
     # m "Стюардесса хочет показать папочке грудь..."
-    m "Stewardess would like to show her chest to you daddy..."
+    m "Stewardess would like to show her chest to you, daddy..."
 
 # game/Quests/EP2_02/ep22_casting.rpy:175
 translate english ep22_dialogue6_6_loop1_2b720bb8:
@@ -358,19 +358,19 @@ translate english strings:
 
     # Quests/EP2_02/ep22_casting.rpy:478
     old "Сесть на стол, достать член Бифа и взять его в рот. (disabled)"
-    new "Sit on the table get Biff's dick and take it in the mouth. (disabled)"
+    new "Sit on the table, get Biff's dick, and take it in the mouth. (disabled)"
 
     # Quests/EP2_02/ep22_casting.rpy:478
     old "Сесть на стол. достать член Бифа и возить им по киске. (disabled)"
-    new "Sit on the table get Biff's dick and put it on the pussy. (disabled)"
+    new "Sit on the table, get Biff's dick, and put it in the pussy. (disabled)"
 
     # Quests/EP2_02/ep22_casting.rpy:478
     old "Сесть на стол, достать член Бифа и вставить его в свою киску. (disabled)"
-    new "Sit on the table get Biff's dick and put it into your pussy. (disabled)"
+    new "Sit on the table, get Biff's dick, and put it into your pussy. (disabled)"
 
     # Quests/EP2_02/ep22_casting.rpy:478
     old "Сесть на стол, достать член Бифа и вставить его в анальное отверстие. (disabled)"
-    new "Sit on the table get Biff's dick and put it into your asshole. (disabled)"
+    new "Sit on the table, get Biff's dick, and put it into your asshole. (disabled)"
 
     # Quests/EP2_02/ep22_casting.rpy:478
     old "Назад."

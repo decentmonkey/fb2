@@ -30,4 +30,4 @@ translate english hostel_street_teleport_e2dd79be:
     # mt "Я не могу зайти туда одетой в рекламу кебеба..."
     # mt "Я просто застряну в проходе!"
     mt "I can't enter the pub wearing such adv banner."
-    mt "I'll stuck at the enterance."
+    mt "I'll stuck at the entrance."

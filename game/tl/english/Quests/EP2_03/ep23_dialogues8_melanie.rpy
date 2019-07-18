@@ -46,7 +46,7 @@ translate english ep23_dialogues8_2_b7e4f3ce:
 translate english ep23_dialogues8_2_86467cf3:
 
     # "И про Вас саму... Я не думала что у Вас все так далеко зашло..."
-    "And about youself... I didn't realise that everything went so far ..."
+    "And about yourself... I didn't realize that everything went so far ..."
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:45
 translate english ep23_dialogues8_2_30b2b0b4:
@@ -162,7 +162,7 @@ translate english ep23_dialogues8_2_2f0969a3:
     # m "Мелани, я не понимаю о чем вообще идет речь!"
     # "Я просто поговорила с Викторией и та пошла мне навстречу!"
     m "Melanie, I have no idea what you are talking about!"
-    "I just had a chat with Victoria and that's all!"
+    "I just had a chat with Victoria, and that's all!"
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:124
 translate english ep23_dialogues8_2_f9356621:
@@ -314,7 +314,7 @@ translate english ep23_dialogues8_2_c5daf840:
     # melanie "Миссис Бакфетт, Вы просто не понимаете..."
     # "То что с Вами случилось - это не из-за денег."
     # "Здесь явно замешаны отношения мужчины и женщины."
-    melanie "Mrs. Buckfett you just don't understand ..."
+    melanie "Mrs. Buckfett, you just don't understand ..."
     "What happened to you is not about money."
     "It's clearly about power dynamics between men and women."
 
@@ -476,7 +476,7 @@ translate english ep23_dialogues8_2_3b05d72c:
 translate english ep23_dialogues8_2_1222bca8:
 
     # melanie "Также опасно, как идти мимо Виктории? Хи-хи"
-    melanie "As dangerouse as Victoria I guess? Hee hee"
+    melanie "As dangerous as Victoria, I guess? Hee hee"
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:352
 translate english ep23_dialogues8_2_2443f2a7:
@@ -558,7 +558,7 @@ translate english ep23_dialogues8_2a_329348b8:
 translate english ep23_dialogues8_3_d761956d:
 
     # mt "Итак, у меня появился шанс решить все трудности."
-    mt "Finally I have a chance to resolve all my problems."
+    mt "Finally, I have a chance to resolve all my problems."
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:436
 translate english ep23_dialogues8_3_33531be0:
@@ -567,7 +567,7 @@ translate english ep23_dialogues8_3_33531be0:
     # "Но Мелани доказала что она может решить с мужчинами любой вопрос."
     # "И еще неизвестно что Мелани хочет попросить взамен..."
     "It is too early to celebrate, of course."
-    "But Melanie proved that she can can handle any men."
+    "But Melanie proved that she can handle any men."
     "Still, it's unknown what Melanie will ask in return ..."
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:440
@@ -610,7 +610,7 @@ translate english ep23_dialogues8_3_8b7b7b35:
     "And fire bastard Fred!!! With as much prejudice as possible!!!"
     "He will never be able to find work anywhere, I swear!"
     "Or is it better to put him in jail?!"
-    "Afterwards I'll clean-up the office!"
+    "Afterwards, I'll clean-up the office!"
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:467
 translate english ep23_dialogues8_3_4db31d5d:
@@ -649,7 +649,7 @@ translate english ep23_dialogues8_4_e018ab23:
     # m "И это, действительно, будет стоить кое-какой благодарности с моей стороны."
     m "I've thought about your offer to resolve situation with Markus."
     "You have my consent."
-    "After all, it was you who offered help, because you wanted me to be indebdted to you."
+    "After all, it was you who offered help, because you wanted me to be indebted to you."
     m "And I promise I will be very grateful to you."
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:514
@@ -803,14 +803,14 @@ translate english ep23_dialogues8_4_e83eea72:
 
     # m "Я не понимаю, Мелани. Ты хочешь быть главой журнала?"
     # "Это можно обсудить."
-    m "I don’t get it Melanie. Do you want to be the head of the magazine?"
+    m "I don’t get it, Melanie. Do you want to be the head of the magazine?"
     "We can discuss it."
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:614
 translate english ep23_dialogues8_4_6a4777ce:
 
     # "Но ты не можешь быть главнее меня!"
-    "However, you will not have higher position then me!"
+    "However, you will not have higher position than me!"
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:630
 translate english ep23_dialogues8_4_0759f33e:
@@ -904,7 +904,7 @@ translate english ep23_dialogues8_4_c10efaf1:
 translate english ep23_dialogues8_4_5390bbac:
 
     # m "Ты правильно понимаешь, Мелани..."
-    m "I'm glad that you understan, Melanie"
+    m "I'm glad that you understand, Melanie"
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:690
 translate english ep23_dialogues8_4_e612037c:
@@ -956,7 +956,7 @@ translate english ep23_dialogues8_4_a890e6a8:
 translate english ep23_dialogues8_4_276df2e9:
 
     # melanie "Скажите, Миссис Бакфетт, где Вы ночуете?"
-    melanie "Please tell me, Mrs. Buckfett. Where do you spend you nights? Do you have a place to sleep?"
+    melanie "Please tell me, Mrs. Buckfett. Where do you spend your nights? Do you have a place to sleep?"
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:731
 translate english ep23_dialogues8_4_674e2d78:
@@ -986,7 +986,7 @@ translate english ep23_dialogues8_4_e91c60ac:
     "About audition..."
     "What do you want me to do?"
     melanie "I don’t want anything, Mrs. Buckfett! There will be another person."
-    "Who will be the one resposible for ordering you."
+    "Who will be the one responsible for ordering you?"
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:748
 translate english ep23_dialogues8_4_1e063e0c:
@@ -1012,7 +1012,7 @@ translate english ep23_dialogues8_4_0c662e5e:
 translate english ep23_dialogues8_4_a3423b1e:
 
     # melanie "Скорее всего да..."
-    melanie "Yes you are right..."
+    melanie "Yes, you are right..."
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:761
 translate english ep23_dialogues8_4_cef837a4:
@@ -1060,7 +1060,7 @@ translate english ep23_dialogues8_4_317c90c6:
 translate english ep23_dialogues8_4_fbe648e9:
 
     # m "Я понимаю, Мелани. Ты хочешь унизить меня. Таким образом пощекотать свое ЭГО..."
-    m "I get it Melanie. You want to humiliate me. Please your ego..."
+    m "I get it, Melanie. You want to humiliate me. Please your ego..."
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:794
 translate english ep23_dialogues8_4_b675e538:
@@ -1258,7 +1258,7 @@ translate english ep23_dialogues8_4_1297e513:
     # "Помоги мне! Помоги, как девушке, попавшей в беду!"
     # "И не используй мою слабость для собственных утех!"
     "I apologize, Melanie!"
-    "I'm asking for you help, please!"
+    "I'm asking for your help, please!"
     "Please help me! Help a girl in the distress!"
     "Please do not use my vulnerability for your own satisfaction!"
 
@@ -1276,7 +1276,7 @@ translate english ep23_dialogues8_4_ea50a044:
     # "Хорошо, мы забудем про кастинги..."
     # "Я завтра же пойду к Маркусу. Ждите от меня новостей!"
     # m "Хорошо, Мелани! Спасибо тебе!"
-    melanie "Never expected this words coming from you, Mrs. Buckfett."
+    melanie "Never expected these words coming from you, Mrs. Buckfett."
     "..."
     "Fine, forget about audition."
     "I will visit Marcus tomorrow. Wait for the news from me!"
@@ -1286,7 +1286,7 @@ translate english strings:
 
     # Quests/EP2_03/ep23_dialogues8_melanie.rpy:872
     old "Согласиться на кастинг."
-    new "Agree for audition."
+    new "Agree for an audition."
 
     # Quests/EP2_03/ep23_dialogues8_melanie.rpy:872
     old "Попросить Мелани помочь без кастинга. (хорошие отношения с Мелани)"
@@ -1298,5 +1298,5 @@ translate english strings:
 
     # Quests/EP2_03/ep23_dialogues8_melanie.rpy:872
     old "Попросить Мелани помочь без кастинга. (Моника недостаточно скромная) (disabled)"
-    new "Ask Melanie for help without casting... (Monica is not enough decent) (disabled)"
+    new "Ask Melanie for help without casting... (Monica is not decent enough) (disabled)"
 

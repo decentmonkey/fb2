@@ -182,7 +182,7 @@ translate english strings:
 
     # Quests/EP2/Intro_Questions.rpy:184
     old "Моника показала моделям фотосессию Мелани."
-    new "Monica showed the models a photo shoot with Melanie."
+    new "Monica showed the models a photoshoot with Melanie."
 
     # Quests/EP2/Intro_Questions.rpy:184
     old "Моника сказала моделям уйти."
@@ -190,7 +190,7 @@ translate english strings:
 
     # Quests/EP2/Intro_Questions.rpy:187
     old "Моника накричала на моделей после фотосессии."
-    new "Monica yelled at the models after the photo shoot."
+    new "Monica yelled at the models after the photoshoot."
 
     # Quests/EP2/Intro_Questions.rpy:187
     old "Моника вежливо отказала."

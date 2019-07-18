@@ -180,13 +180,13 @@ translate english ep22_photoshoot3_pose6_e7222503:
     # "Фотосессия закончена!!!"
     m "WHAT?!?!"
     "You can go to hell!"
-    "Is this a calendar photo shoot?"
+    "Is this a calendar photoshoot?"
     "Maybe I should take off my shorts and give it freedom to go where it's going now!?"
     alex_photograph "..."
     m "Ah! What am I even saying?!"
-    "That would be only be great news for you!"
+    "That would only be great news for you!"
     "BUT NOT FOR ME!"
-    "The photo shoot is over!!!"
+    "The photoshoot is over!!!"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:483
 translate english ep22_photoshoot3_pose6_9d670e31:
@@ -210,7 +210,7 @@ translate english ep22_photoshoot3_pose6_9d670e31:
     # "Ладно..."
     alex_photograph "MA'am, I understand you may be uncomfortable with the way it's pushing..."
     "But if you could just stick out your tongue a little bit..."
-    "Otherwise the shot won't be any good..."
+    "Otherwise, the shot won't be any good..."
     "And you know they only expect the best from me."
     "Mr. Biff would fire me..."
     "Just believe me, there's nothing dirty about this..."
@@ -273,7 +273,7 @@ translate english ep22_photoshoot3_end_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Ma'am! We're finished with the photo shoot!"
+    alex_photograph "Ma'am! We're finished with the photoshoot!"
     m "Finally!!!"
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:758

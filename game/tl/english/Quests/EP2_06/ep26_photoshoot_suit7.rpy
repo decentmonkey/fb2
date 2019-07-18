@@ -58,7 +58,7 @@ translate english ep26_photoshoot_suit7_393d6556:
     # m "Ладно, только так чтобы было ничего не видно!"
     # alex_photograph "Конечно, Миссис Бакфетт! Как скажете!"
     m "Alex, this g-strings are too small..."
-    m "Try not to take photoes from behind."
+    m "Try not to take photos from behind."
     alex_photograph "Ma'am, but you are already covering your chest."
     alex_photograph "I have to shoot something..."
     m "Shoot my face, idiot!"
@@ -128,7 +128,7 @@ translate english ep26_photoshoot_suit7_d3f304a6:
 translate english ep26_photoshoot_suit7_7f4a0034:
 
     # m "Алекс, я не буду вставать в эту позу, даже не надейся!"
-    # m "А меня грудь почти открыта, прикрыты только соски!"
+    # m "У меня грудь почти открыта, прикрыты только соски!"
     # alex_photograph "Миссис Бакфетт, Ваша грудь обнажена не более, чем в приличном нижнем белье."
     # alex_photograph "Не переживайте, ничего не видно."
     # m "Точно?"
@@ -172,7 +172,7 @@ translate english ep26_photoshoot_suit7_8bc3a679:
     m "I've had enough of your dirty shots!"
     m "We are done!"
     alex_photograph "Mrs. Buckfett, it was the last one like that, I promise!"
-    alex_photograph "We still have to make couple more photos and we are finished."
+    alex_photograph "We still have to make a couple more photos, and we are finished."
     m "Really?!"
     alex_photograph "I swear!"
 
@@ -249,7 +249,7 @@ translate english ep26_photoshoot_suit7_d1d51fff:
     # alex_photograph "При таком свете, материал белья не такой уж прозрачный."
     # alex_photograph "Он сильно бликует на камере и ничего не видно!"
     alex_photograph "But Mrs. Buckfett, your chest is covered."
-    alex_photograph "With current lightning nothing can be seen!"
+    alex_photograph "With current lightning, nothing can be seen!"
     alex_photograph "Light is reflected on camera's lenses!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:210
@@ -313,7 +313,7 @@ translate english ep26_photoshoot_suit7_9a8902e4:
 
     # mt "К тому же, мне нечего стыдиться. У меня самая красивая грудь в этой стране..."
     # mt "А может и во всем мире!"
-    mt "Also I have nothing to be ashamed of. I have the best chest in the country..."
+    mt "Also, I have nothing to be ashamed of. I have the best chest in the country..."
     mt "Or even the whole world!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:234
@@ -409,7 +409,7 @@ translate english ep26_photoshoot_suit7_cdabce6a:
     # alex_photograph "Можно, пожалуйста, я сниму эти трусики и сделаю пару кадров?"
     # alex_photograph "Мистер Биф даст мне солидную премию за это."
     alex_photograph "Mrs. Buckfett."
-    alex_photograph "Can you please take off your panties and take couple of pictures?"
+    alex_photograph "Can you please take off your panties and take a couple of pictures?"
     alex_photograph "Mr. Biff is sure to give me a solid bonus for this."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:306
@@ -433,7 +433,7 @@ translate english ep26_photoshoot_suit7_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Ma'am! We're finished with the photo shoot!"
+    alex_photograph "Ma'am! We're finished with the photoshoot!"
     m "Finally!!!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:321
@@ -571,7 +571,7 @@ translate english ep26_photoshoot_suit7_pose1_0c35fbd8:
     # alex_photograph "Я ведь должен что-то снимать..."
     # m "Снимай мое лицо, болван!"
     m "Alex, this g-strings are too small..."
-    m "Try not to take photoes from behind."
+    m "Try not to take photos from behind."
     alex_photograph "Ma'am, but you are already covering your chest."
     alex_photograph "I have to shoot something..."
     m "Shoot my face, idiot!"
@@ -671,7 +671,7 @@ translate english ep26_photoshoot_suit7_pose6_b93eb7a1:
 
     # alex_photograph "Следующая поза, Миссис Бакфетт!"
     # m "Алекс, я не буду вставать в эту позу, даже не надейся!"
-    # m "А меня грудь почти открыта, прикрыты только соски!"
+    # m "У меня грудь почти открыта, прикрыты только соски!"
     alex_photograph "Next pose, Mrs. Buckfett!"
     m "I'm not posing like that!"
     m "My chest is almost completely exposed!"
@@ -766,7 +766,7 @@ translate english ep26_photoshoot_suit7_pose9_0b329aec:
     # m "Точно?!"
     # alex_photograph "Клянусь!"
     alex_photograph "Mrs. Buckfett, it was the last one like that, I promise!"
-    alex_photograph "We still have to make couple more photos and we are finished."
+    alex_photograph "We still have to make a couple more photos, and we are finished."
     m "Really?!"
     alex_photograph "I swear!"
 
@@ -857,7 +857,7 @@ translate english ep26_photoshoot_suit7_pose11_pre_d1d51fff:
     # alex_photograph "При таком свете, материал белья не такой уж прозрачный."
     # alex_photograph "Он сильно бликует на камере и ничего не видно!"
     alex_photograph "But Mrs. Buckfett, your chest is covered."
-    alex_photograph "With current lightning nothing can be seen!"
+    alex_photograph "With current lightning, nothing can be seen!"
     alex_photograph "Light is reflected on camera's lenses!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:891
@@ -921,7 +921,7 @@ translate english ep26_photoshoot_suit7_pose11_pre_9a8902e4:
 
     # mt "К тому же, мне нечего стыдиться. У меня самая красивая грудь в этой стране..."
     # mt "А может и во всем мире!"
-    mt "Also I have nothing to be ashamed of. I have the best chest in the country..."
+    mt "Also, I have nothing to be ashamed of. I have the best chest in the country..."
     mt "Or even the whole world!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:921
@@ -1017,7 +1017,7 @@ translate english ep26_photoshoot_suit7_pose11_cdabce6a:
     # alex_photograph "Можно, пожалуйста, я сниму эти трусики и сделаю пару кадров?"
     # alex_photograph "Мистер Биф даст мне солидную премию за это."
     alex_photograph "Mrs. Buckfett."
-    alex_photograph "Can you please take off your panties and take couple of pictures?"
+    alex_photograph "Can you please take off your panties and take a couple of pictures?"
     alex_photograph "Mr. Biff is sure to give me a solid bonus for this."
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:1137
@@ -1041,7 +1041,7 @@ translate english ep26_photoshoot_suit7_end_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Ma'am! We're finished with the photo shoot!"
+    alex_photograph "Ma'am! We're finished with the photoshoot!"
     m "Finally!!!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit7.rpy:1160
@@ -1112,5 +1112,5 @@ translate english strings:
 
     # Quests/EP2_06/ep26_photoshoot_suit7.rpy:934
     old "Опустить руки. (недостаточные отношения с Алексом, required lvl. 2) (disabled)"
-    new ""
+    new "Hang down your hands. (low relationship with Alex, required lvl.2) (disabled)"
 

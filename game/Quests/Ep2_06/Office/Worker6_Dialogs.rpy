@@ -27,7 +27,7 @@ label worker6_dialogue_office:
     music Sneaky_Snitch
     img 20364
     with fadelong
-    w6 "Миссис Бакфет, можно?"
+    w6 "Миссис Бакфетт, можно?"
     menu:
         "Да, заходи.":
             $ worker6Option1Cnt +=1

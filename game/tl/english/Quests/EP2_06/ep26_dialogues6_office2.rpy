@@ -16,7 +16,7 @@ translate english ep26_dialogues6_office2_1_4a8faa8f:
     # w5 "Чем мы обязаны Вашим вниманием?"
     # w5 "Могу-ли Я чем-то помочь Вам?"
     # m "Я Ваш новый Босс!"
-    # m "Вернее, я так была Вашим Боссом, но я решила временно поработать здесь."
+    # m "Вернее, я и так была Вашим Боссом, но я решила временно поработать здесь."
     # m "Недолго."
     # m "Этот никчемный отдел привлек мое внимание и я собираюсь навести здесь порядок."
     # m "Где здесь расположен кабинет Босса?"
@@ -52,7 +52,7 @@ translate english ep26_dialogues6_office2_1_4a8faa8f:
     w5 "Mam, that's very unexpected and..."
     m "Shut up and tell me where is the office?"
     w5 "Mam, straight down the corridor."
-    m "I'am waiting for you all in my office in 10 minutes!"
+    m "I'm waiting for you all in my office in 10 minutes!"
     w5 "Yes, mam. Of course."
     mt "So here is my working place."
     mt "Ugh, tasteless!"
@@ -60,7 +60,7 @@ translate english ep26_dialogues6_office2_1_4a8faa8f:
     m "WHAT?! Julia?"
     julia "Mrs. Buckfett?" 
     m "What are you doing here?"
-    julia "I... I work here, Mrs Buckfett..."
+    julia "I... I work here, Mrs. Buckfett..."
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:55
 translate english ep26_dialogues6_office2_1_5cf22fa4:
@@ -137,24 +137,24 @@ translate english ep26_dialogues6_office2_1_5cf22fa4:
     # m "..."
     m "Didn’t I fire you, useless maid?!"
     m "Are you tone deaf to anything I say?!"
-    m "I fired you from my home, and after that you decide to get employed at my office?!"
+    m "I fired you from my home, and after that, you decide to get employed at my office?!"
     m "Who do you think I am?"
-    julia "Mrs Buckfett, I... I didn’t know..."
-    julia "Mr Fred helped me to get a job here..."
+    julia "Mrs. Buckfett, I... I didn’t know..."
+    julia "Mr. Fred helped me to get a job here..."
     m "Fred? Bastard! He is always scheming behind my back!"
     m "First, he got you into my house!"
     m "And then into my office!"
     m "Why is he making favors to you, Julia?"
     m "Are you sleeping with him?"
     julia "..." 
-    julia "No, Mrs Buckfett! I do not!"
+    julia "No, Mrs. Buckfett! I do not!"
     m "How did you end up here?"
-    julia "Mr Fred told me that you are leaving for a while and there won't be any work at house."
-    julia "I wasn't able to find new job for a while, and at the end Mr Fred helped me a bit..."
+    julia "Mr. Fred told me that you are leaving for a while and there won't be any work at the house."
+    julia "I wasn't able to find new job for a while, and at the end, Mr. Fred helped me a bit..."
     m "Fine, I don’t need any more details."
     m "So, you work here and under my charge again."
     m "I'll work at this office."
-    julia "Mrs Buckfett, I thought I'm going to have the lowest position here."
+    julia "Mrs. Buckfett, I thought I'm going to have the lowest position here."
     julia "It's surprising to be working under you again."
     m "There is no such thing as insignificant work in my company, Julia."
     m "These reports are very important for us."
@@ -163,21 +163,21 @@ translate english ep26_dialogues6_office2_1_5cf22fa4:
     mt "Biff just wanted to show off his ego and show that he has power over me."
     mt "Well, I'll play along..."
     mt "He doesn't even suspect that I'm the real Monica Buckfett!"
-    mt "Smart, calculating and cold-blooded!"
+    mt "Smart, calculating, and cold-blooded!"
     mt "I'll get my company back and everything else!"
-    mt "Even if I have to overcome myself and be burried in pappers..."
+    mt "Even if I have to overcome myself and be buried in papers..."
     mt "Temporarily..."
-    julia "Yes, Mrs Buckfett. As you say..." 
+    julia "Yes, Mrs. Buckfett. As you say..." 
     m "Everybody here?"
-    w5 "Yes, Mrs Buckfett. Whole department is here..."
-    m "Good. If someone is missing you can tell them that they are fired."
+    w5 "Yes, Mrs. Buckfett. Whole department is here..."
+    m "Good. If someone is missing, you can tell them that they are fired."
     w5 "!!!"
     w5 "Mam... Everyone is here."
     m "I'll be straight with you. Managing ones like you - is not my level."
     m "I'm here to make sure that my company works productively at every level."
-    m "Productivity is of paramount importance! Even in such a useless department as this."
-    m "Hence I'm expecting full obidience from all of you."
-    m "Any disobidience will be punished by terminating your employment with us."
+    m "Productivity is of paramount importance! Even in such a useless department like this."
+    m "Hence I'm expecting full obedience from all of you."
+    m "Any disobedience will be punished by terminating your employment with us."
     m "Is that clear?"
     w5 "Yes, Ma'am..."
     w6 "Yes, Ma'am..."
@@ -190,7 +190,7 @@ translate english ep26_dialogues6_office2_1_5cf22fa4:
     mt "I'm a Boss! Again!"
     mt "I can't believe it's happening for real!"
     mt "After everything that happened..."
-    mt "Even thought it's far cry from what I'm used to..."
+    mt "Even though it's far cry from what I'm used to..."
     mt "But even now I'm a bit happy..."
     mt "I'll take everything back, I swear!"
     mt "I'm the smartest and prettiest!"
@@ -201,7 +201,7 @@ translate english ep26_dialogues6_office2_1_5cf22fa4:
     mt "That’s it! I've had enough of being around these failures."
     mt "My working shift is over!"
     m "Have you finished already, Julia?"
-    julia "No, Mrs Buckfett. I'll work till late today."
+    julia "No, Mrs. Buckfett. I'll work till late today."
     julia "I'm new here and would like to show my good sides."
     m "It is commendable, Julia."
     m "..."
@@ -219,7 +219,7 @@ translate english ep26_dialogues6_office2_1_d7124d75:
     # m "Юлия, ты здесь новый сотрудник."
     # m "И ты должна проявить себя."
     # m "Я здесь для того, чтобы приглядывать за тобой."
-    # m "Ты ведь не намекаешь на то что должна помогать тебе в этой работе?"
+    # m "Ты ведь не намекаешь на то, что я должна помогать тебе в этой работе?"
     # julia "Нет, Миссис Бакфетт. Что Вы?"
     # julia "Я сделаю все сама."
     # julia "Пожалуйста. Извините меня!"
@@ -230,7 +230,7 @@ translate english ep26_dialogues6_office2_1_d7124d75:
     m "Juia, come here!"
     julia "Yes, Mrs. Buckfett?"
     m "What's up with the reports you had to check today?"
-    julia "There are too many of them, Mrs Buckfett."
+    julia "There are too many of them, Mrs. Buckfett."
     julia "I have a feeling that such a workload is suited for two employees."
     julia "I can't imagine how I can do it all on my own!"
     julia "I will have to work till midnight!"
@@ -238,7 +238,7 @@ translate english ep26_dialogues6_office2_1_d7124d75:
     m "You have to distinguish yourself."
     m "And I'm here to control and observe you."
     m "Or are you trying to say that I should help you do YOUR job?"
-    julia "No, Mrs Buckfett. Of course not!"
+    julia "No, Mrs. Buckfett. Of course not!"
     julia "I'll do it all by myself."
     julia "Please, forgive me!"
     mt "That's all! I'm done for today!"
@@ -250,7 +250,7 @@ translate english strings:
 
     # Quests/EP2_06/ep26_dialogues6_office2.rpy:166
     old "Работать до вечера."
-    new "Work until everning."
+    new "Work until evening."
 
     # Quests/EP2_06/ep26_dialogues6_office2.rpy:166
     old "Завершить другие дела."
@@ -330,24 +330,24 @@ translate english ep26_dialogues6_office2_1_fab47f35:
     # mt "Моя бывшая гувернантка."
     m "Didn’t I fire you, useless maid?!"
     m "Are you tone deaf to anything I say?!"
-    m "I fired you from my home, and after that you decide to get employed at my office?!"
+    m "I fired you from my home, and after that, you decide to get employed at my office?!"
     m "Who do you think I am?"
-    julia "Mrs Buckfett, I... I didn’t know..."
-    julia "Mr Fred helped me to get a job here..."
+    julia "Mrs. Buckfett, I... I didn’t know..."
+    julia "Mr. Fred helped me to get a job here..."
     m "Fred? Bastard! He is always scheming behind my back!"
     m "First, he got you into my house!"
     m "And then into my office!"
     m "Why is he making favors to you, Julia?"
     m "Are you sleeping with him?"
     julia "..." 
-    julia "No, Mrs Buckfett! I do not!"
+    julia "No, Mrs. Buckfett! I do not!"
     m "How did you end up here?"
-    julia "Mr Fred told me that you are leaving for a while and there won't be any work at house."
-    julia "I wasn't able to find new job for a while, and at the end Mr Fred helped me a bit..."
+    julia "Mr. Fred told me that you are leaving for a while and there won't be any work at the house."
+    julia "I wasn't able to find new job for a while, and at the end, Mr. Fred helped me a bit..."
     m "Fine, I don’t need any more details."
     m "So, you work here and under my charge again."
     m "I'll work at this office."
-    julia "Mrs Buckfett, I thought I'm going to have the lowest position here."
+    julia "Mrs. Buckfett, I thought I'm going to have the lowest position here."
     julia "It's surprising to be working under you again."
     m "There is no such thing as insignificant work in my company, Julia."
     m "These reports are very important for us."
@@ -356,21 +356,21 @@ translate english ep26_dialogues6_office2_1_fab47f35:
     mt "Biff just wanted to show off his ego and show that he has power over me."
     mt "Well, I'll play along..."
     mt "He doesn't even suspect that I'm the real Monica Buckfett!"
-    mt "Smart, calculating and cold-blooded!"
+    mt "Smart, calculating, and cold-blooded!"
     mt "I'll get my company back and everything else!"
-    mt "Even if I have to overcome myself and be burried in pappers..."
+    mt "Even if I have to overcome myself and be buried in papers..."
     mt "Temporarily..."
-    julia "Yes, Mrs Buckfett. As you say..." 
+    julia "Yes, Mrs. Buckfett. As you say..." 
     m "Everybody here?"
-    w5 "Yes, Mrs Buckfett. Whole department is here..."
-    m "Good. If someone is missing you can tell them that they are fired."
+    w5 "Yes, Mrs. Buckfett. Whole department is here..."
+    m "Good. If someone is missing, you can tell them that they are fired."
     w5 "!!!"
     w5 "Mam... Everyone is here."
     m "I'll be straight with you. Managing ones like you - is not my level."
     m "I'm here to make sure that my company works productively at every level."
-    m "Productivity is of paramount importance! Even in such a useless department as this."
-    m "Hence I'm expecting full obidience from all of you."
-    m "Any disobidience will be punished by terminating your employment with us."
+    m "Productivity is of paramount importance! Even in such a useless department like this."
+    m "Hence I'm expecting full obedience from all of you."
+    m "Any disobedience will be punished by terminating your employment with us."
     m "Is that clear?"
     w5 "Yes, Ma'am..."
     w6 "Yes, Ma'am..."
@@ -383,7 +383,7 @@ translate english ep26_dialogues6_office2_1_fab47f35:
     mt "I'm a Boss! Again!"
     mt "I can't believe it's happening for real!"
     mt "After everything that happened..."
-    mt "Even if this position is a far-cry from what I'm used to..."
+    mt "Even if this position is a far cry from what I'm used to..."
     mt "But even now I'm a bit happy..."
     mt "I'll take everything back, I swear!"
     mt "I'm the smartest and prettiest!"
@@ -419,7 +419,7 @@ translate english ep26_dialogues6_office2_1_7993ac39:
     # julia "Да, Миссис Бакфетт..."
     # julia "Я сделаю всю работу сегодня..."
     m "Have you finished already, Julia?"
-    julia "No, Mrs Buckfett. I'll work till late today."
+    julia "No, Mrs. Buckfett. I'll work till late today."
     m "You will not leave until you are finished, Julia."
     julia "Yes, Mrs. Buckfett ..."
     julia "I will finish everything today..."
@@ -437,7 +437,7 @@ translate english ep26_dialogues6_office2_1_1e9749a7:
     m "Juia, come here!"
     julia "Yes, Mrs. Buckfett?"
     m "What's up with the reports you had to check today?"
-    julia "There are too many of them, Mrs Buckfett."
+    julia "There are too many of them, Mrs. Buckfett."
     julia "I have a feeling that such a workload is suited for two employees."
     julia "I can't imagine how I can do it all on my own!"
     julia "I will have to work till midnight!"
@@ -460,7 +460,7 @@ translate english ep26_dialogues6_office2_1_5dd4e2ed:
     # m "Юлия, ты здесь новый сотрудник."
     # m "И ты должна проявить себя."
     # m "Я здесь для того, чтобы приглядывать за тобой."
-    # m "Ты ведь не намекаешь на то что должна помогать тебе в этой работе?"
+    # m "Ты ведь не намекаешь на то, что я должна помогать тебе в этой работе?"
     # julia "Нет, Миссис Бакфетт. Что Вы?"
     # julia "Я сделаю все сама."
     # julia "Пожалуйста. Извините меня!"
@@ -475,15 +475,15 @@ translate english ep26_dialogues6_office2_1_5dd4e2ed:
     m "You have to distinguish yourself."
     m "And I'm here to control and observe you."
     m "Or are you trying to say that I should help you do YOUR job?"
-    julia "No, Mrs Buckfett. Of course not!"
+    julia "No, Mrs. Buckfett. Of course not!"
     julia "I'll do it all by myself."
     julia "Please, forgive me!"
     mt "That's all! I'm done for today!"
     mt "I'll let Julia do the work."
     mt "Working all day and night is exactly what Julia needs!"
     mt "I'm completely different!"
-    mt "These slackers didn’t come to work. It's weekend they say..."
-    mt "When I get my company back, I'm cancelling all weekends..."
+    mt "These slackers didn’t come to work. It's weekend, they say..."
+    mt "When I get my company back, I'm canceling all weekends..."
     mt "I'll teach them not to slack while I'm in charge."
 
 translate english strings:
@@ -558,7 +558,7 @@ translate english ep26_dialogues6_office2_1_3dd3f331:
 translate english ep26_dialogues6_office2_1_e2c098c3:
 
     # m "Я Ваш новый Босс!"
-    # m "Вернее, я так была Вашим Боссом, но я решила временно поработать здесь."
+    # m "Вернее, я и так была Вашим Боссом, но я решила временно поработать здесь."
     # m "Недолго."
     m "I'm your new Boss!"
     m "To be more precisely, I've always been your Boss, but now I decided to work here for a while."
@@ -595,7 +595,7 @@ translate english ep26_dialogues6_office2_1_0e547e8c:
 
     # m "Через 10 минут всем явиться к Боссу, то есть ко мне!"
     # w5 "Да, мэм, конечно, мэм."
-    m "I'am waiting for you all in my office in 10 minutes!"
+    m "I'm waiting for you all in my office in 10 minutes!"
     w5 "Yes, mam. Of course."
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:109
@@ -630,7 +630,7 @@ translate english ep26_dialogues6_office2_2_504578b9:
 translate english ep26_dialogues6_office2_2_68619d36:
 
     # julia "Я... Я здесь работаю, Миссис Бакфетт..."
-    julia "I... I work here, Mrs Buckfett..."
+    julia "I... I work here, Mrs. Buckfett..."
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:141
 translate english ep26_dialogues6_office2_2_8876c825:
@@ -650,7 +650,7 @@ translate english ep26_dialogues6_office2_2_11451d36:
 translate english ep26_dialogues6_office2_2_8e1b7eb1:
 
     # m "После увольнения из моего дома, ты решила устроиться ко мне в офис?!"
-    m "I fired you from my home, and after that you decide to get employed at my office?!"
+    m "I fired you from my home, and after that, you decide to get employed at my office?!"
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:168
 translate english ep26_dialogues6_office2_2_8a50621c:
@@ -663,8 +663,8 @@ translate english ep26_dialogues6_office2_2_5d6122e8:
 
     # julia "Миссис Бакфетт... Я... Я не знала что это Ваш офис..."
     # julia "Меня сюда устроил Мистер Фред..."
-    julia "Mrs Buckfett, I... I didn’t know..."
-    julia "Mr Fred helped me to get a job here..."
+    julia "Mrs. Buckfett, I... I didn’t know..."
+    julia "Mr. Fred helped me to get a job here..."
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:175
 translate english ep26_dialogues6_office2_2_3a4a1ba7:
@@ -694,7 +694,7 @@ translate english ep26_dialogues6_office2_2_77a2759b:
 translate english ep26_dialogues6_office2_2_7126f32c:
 
     # julia "Я не сплю с ним, Миссис Бакфетт!"
-    julia "No, Mrs Buckfett! I do not!"
+    julia "No, Mrs. Buckfett! I do not!"
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:211
 translate english ep26_dialogues6_office2_2_fcdd7a9b:
@@ -707,8 +707,8 @@ translate english ep26_dialogues6_office2_2_f20b144b:
 
     # julia "Миссис Бакфетт, Мистер Фред сказал мне что Вы надолго уехали и у меня теперь нет работы в доме."
     # julia "Мне было долго не найти другую работу, но, в конце концов, Мистер Фред помог мне устроиться сюда."
-    julia "Mr Fred told me that you are leaving for a while and there won't be any work at house."
-    julia "I wasn't able to find new job for a while, and at the end Mr Fred helped me a bit..."
+    julia "Mr. Fred told me that you are leaving for a while and there won't be any work at the house."
+    julia "I wasn't able to find new job for a while, and at the end, Mr. Fred helped me a bit..."
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:221
 translate english ep26_dialogues6_office2_2_95a72993:
@@ -725,7 +725,7 @@ translate english ep26_dialogues6_office2_2_5cb36bf0:
 
     # julia "Миссис Бакфетт, я думала что у меня самая низкая должность здесь."
     # julia "Для меня удивительно что я буду работать рядом с Вами..."
-    julia "Mrs Buckfett, I thought I'm going to have the lowest position here."
+    julia "Mrs. Buckfett, I thought I'm going to have the lowest position here."
     julia "It's surprising to be working under you again."
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:230
@@ -742,7 +742,7 @@ translate english ep26_dialogues6_office2_2_3e8761d8:
 translate english ep26_dialogues6_office2_2_cac8ca2b:
 
     # julia "Да, Миссис Бакфетт. Как скажете..." 
-    julia "Yes, Mrs Buckfett. As you say..." 
+    julia "Yes, Mrs. Buckfett. As you say..." 
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:238
 translate english ep26_dialogues6_office2_2_c5943df6:
@@ -761,7 +761,7 @@ translate english ep26_dialogues6_office2_2_ddcdf114:
     # mt "Умная, расчетливая и хладнокровная!"
     # mt "И я верну назад мою компанию и все остальное!"
     mt "He doesn't even suspect that I'm the real Monica Buckfett!"
-    mt "Smart, calculating and cold-blooded!"
+    mt "Smart, calculating, and cold-blooded!"
     mt "I'll get my company back and everything else!"
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:248
@@ -769,7 +769,7 @@ translate english ep26_dialogues6_office2_2_4fd843d1:
 
     # mt "Даже если мне придется переступить через себя и рыться в этом бумажном хламе..."
     # mt "Временно..."
-    mt "Even if I have to overcome myself and be burried in pappers..."
+    mt "Even if I have to overcome myself and be buried in papers..."
     mt "Temporarily..."
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:254
@@ -779,7 +779,7 @@ translate english ep26_dialogues6_office2_2a_ee3cb9ca:
     # julia "Миссис Бакфетт, кого Вы имеете ввиду?"
     # m "Этих никчемных работников, когда они уже придут?"
     # julia "Я слышу шаги, Миссис Бакфетт. Кажется, они идут."
-    m "Julia, where are this slakers?"
+    m "Julia, where are this slackers?"
     julia "Who do you mean, Mrs. Buckfett?"
     m "This useless workers, when are they coming?"
     julia "I hear footsteps. Looks like they are coming."
@@ -794,13 +794,13 @@ translate english ep26_dialogues6_office2_3_502482a1:
 translate english ep26_dialogues6_office2_3_65436646:
 
     # w5 "Да, Миссис Бакфетт, здесь весь отдел."
-    w5 "Yes, Mrs Buckfett. Whole department is here..."
+    w5 "Yes, Mrs. Buckfett. Whole department is here..."
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:284
 translate english ep26_dialogues6_office2_3_a7023873:
 
     # m "Хорошо. Если кто-то отсутствует здесь, то передайте что он уволен."
-    m "Good. If someone is missing you can tell them that they are fired."
+    m "Good. If someone is missing, you can tell them that they are fired."
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:289
 translate english ep26_dialogues6_office2_3_1361a643:
@@ -830,7 +830,7 @@ translate english ep26_dialogues6_office2_3_1ebadb57:
 translate english ep26_dialogues6_office2_3_80180412:
 
     # m "Эффективность должна быть везде, даже в таком никчемном отделе, как этот."
-    m "Productivity is of paramount importance! Even in such a useless department as this."
+    m "Productivity is of paramount importance! Even in such a useless department like this."
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:308
 translate english ep26_dialogues6_office2_3_500683a8:
@@ -838,8 +838,8 @@ translate english ep26_dialogues6_office2_3_500683a8:
     # m "Потому я требую строгого подчинения."
     # m "Нарушение моих распоряжений наказывается немедленным увольнением."
     # m "Вам ясно?"
-    m "Hence I'm expecting full obidience from all of you."
-    m "Any disobidience will be punished by terminating your employment with us."
+    m "Hence I'm expecting full obedience from all of you."
+    m "Any disobedience will be punished by terminating your employment with us."
     m "Is that clear?"
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:313
@@ -893,7 +893,7 @@ translate english ep26_dialogues6_office2_3_b2467021:
 
     # mt "Хоть это и далеко до того положения, к которому я привыкла..."
     # mt "Но я даже немного счастлива сейчас..."
-    mt "Even if this position is a far-cry from what I'm used to..."
+    mt "Even if this position is a far cry from what I'm used to..."
     mt "But even now I'm a bit happy..."
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:347
@@ -944,7 +944,7 @@ translate english ep26_dialogues6_office2_5_4968d621:
 translate english ep26_dialogues6_office2_5_29fc11f4:
 
     # julia "Нет, Миссис Бакфетт. Я буду работать допоздна."
-    julia "No, Mrs Buckfett. I'll work till late today."
+    julia "No, Mrs. Buckfett. I'll work till late today."
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:405
 translate english ep26_dialogues6_office2_5_bb7dcb40:
@@ -983,7 +983,7 @@ translate english ep26_dialogues6_office2_7_59e2ea07:
 
     # julia "Их очень много, Миссис Бакфетт."
     # julia "У меня впечатление, что это объем для обработки двумя сотрудниками."
-    julia "There are too many of them, Mrs Buckfett."
+    julia "There are too many of them, Mrs. Buckfett."
     julia "I have a feeling that such a workload is suited for two employees."
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:444
@@ -1023,14 +1023,14 @@ translate english ep26_dialogues6_office2_7_474d3a13:
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:469
 translate english ep26_dialogues6_office2_7_1769458e:
 
-    # m "Ты ведь не намекаешь на то что должна помогать тебе в этой работе?"
+    # m "Ты ведь не намекаешь на то, что я должна помогать тебе в этой работе?"
     m "Or are you trying to say that I should help you do YOUR job?"
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:473
 translate english ep26_dialogues6_office2_7_b918ea0a:
 
     # julia "Нет, Миссис Бакфетт. Что Вы?"
-    julia "No, Mrs Buckfett. Of course not!"
+    julia "No, Mrs. Buckfett. Of course not!"
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:476
 translate english ep26_dialogues6_office2_7_4ff3f864:
@@ -1066,8 +1066,8 @@ translate english ep26_dialogues6_office2_9_5929e93b:
     # mt "Эти бездельники не пришли на работу. Видите-ли сегодня выходной."
     # mt "Когда я верну себе компанию, я отменю выходные..."
     # mt "Нечего бездельничать!"
-    mt "These slackers didn’t come to work. It's weekend they say..."
-    mt "When I get my company back, I'm cancelling all weekends..."
+    mt "These slackers didn’t come to work. It's weekend, they say..."
+    mt "When I get my company back, I'm canceling all weekends..."
     mt "I'll teach them not to slack while I'm in charge."
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:516
@@ -1077,7 +1077,7 @@ translate english ep26_dialogues6_office2_10_a5b80609:
     # mt "Из-за того что эти бездельники не работают по выходным, мне нечего здесь делать сейчас."
     # mt "Отвратительно!"
     mt "Today is weekend."
-    mt "Because these useless slackers don’t work on weekends I have nothing to do."
+    mt "Because these useless slackers don’t work on weekends, I have nothing to do."
     mt "Disgusting!"
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:524
@@ -1170,7 +1170,7 @@ translate english strings:
 
     # Quests/EP2_06/ep26_dialogues6_office2.rpy:200
     old "Моника решила уволить Юлию, но затем пожалела ее."
-    new "Monica decided to fire Julia, but took pity on her"
+    new "Monica decided to fire Julia but took pity on her"
 
     # Quests/EP2_06/ep26_dialogues6_office2.rpy:202
     old "Моника не выгоняла Юлию с работы."

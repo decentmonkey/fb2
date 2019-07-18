@@ -67,7 +67,7 @@ translate english cit3_dialog_1_3597db28:
     # cit3 "Как только я найду подходящую детку, я куплю это платье!"
     # mt "Урод!!!"
     cit3 "Alright! I memorized!"
-    cit3 "After I find babe with exactly right sizes I'll buy this dress."
+    cit3 "After I find babe with exactly right sizes, I'll buy this dress."
     mt "Bastard!"
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:57
@@ -104,7 +104,7 @@ translate english cit3_dialog_2_268c74cc:
     # cit3 "Мне кажется, что чашечки груди здесь имеют жесткую форму и давят на грудь."
     # cit3 "Я бы не хотел, чтобы моей детке что-то давило здесь."
     cit3 "I feel like breast cups here a bit too thick and will be uncomfortable."
-    cit3 "I woudn't want that to be a problem."
+    cit3 "I wouldn't want that to be a problem."
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:70
 translate english cit3_dialog_2_dc815631:
@@ -288,7 +288,7 @@ translate english cit3_dialog_3_969ab255:
 translate english cit3_dialog_3_30f03dce:
 
     # cit3 "Хм... Дело в том, что я собираюсь отменить это свидание..."
-    cit3 "Well... Actually I'm going to cancel the date..."
+    cit3 "Well... Actually, I'm going to cancel the date..."
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:201
 translate english cit3_dialog_3_60ff88c9:
@@ -302,13 +302,13 @@ translate english cit3_dialog_3_31f61861:
     # cit3 "На свидание нельзя ходить заряженным, потому что в голове вертится только одно."
     # cit3 "Я начинаю говорить глупости и в итоге никакого секса."
     cit3 "You can't go on the date exited, because you keep thinking about one thing only."
-    cit3 "I'm starting to say something stupid and there is no sex as a result."
+    cit3 "I'm starting to say something stupid, and there is no sex as a result."
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:206
 translate english cit3_dialog_3_e4c6e8fc:
 
     # cit3 "Предыдущую детку я бросил пару часов назад, потому мне негде разрядиться."
-    cit3 "I ditched previous babe few hours ago and I'm still too pumped up."
+    cit3 "I ditched previous babe few hours ago, and I'm still too pumped up."
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:210
 translate english cit3_dialog_3_20c94749:
@@ -316,13 +316,13 @@ translate english cit3_dialog_3_20c94749:
     # m "И что, отмена свидания как-то поможет в этом?"
     # cit3 "Да, вместо свидания я просто подрочу дома!"
     m "And how date cancelation going to help you with that?"
-    cit3 "Well, instead of a date I'll just go home and mastrubate."
+    cit3 "Well, instead of a date I'll just go home and masturbate."
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:213
 translate english cit3_dialog_3_e23848c1:
 
     # cit3 "Но тогда я не куплю платье!"
-    cit3 "Of course I won't be buying the dress in this case."
+    cit3 "Of course, I won't be buying the dress in this case."
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:215
 translate english cit3_dialog_3_0110ade8:
@@ -334,7 +334,7 @@ translate english cit3_dialog_3_0110ade8:
 translate english cit3_dialog_3_c5b9b733:
 
     # cit3 "Да, сделай мне минет в примерочной и я куплю это платье!"
-    cit3 "Give me a blowjob and I'll buy the dress!"
+    cit3 "Give me a blowjob, and I'll buy the dress!"
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:219
 translate english cit3_dialog_3_dbc04ffd:
@@ -348,7 +348,7 @@ translate english cit3_dialog_3_dbc04ffd:
 translate english cit3_dialog_3_3c429adb:
 
     # cit3 "Про это никто не узнает!"
-    cit3 "Noone will find out!"
+    cit3 "No one will find out!"
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:224
 translate english cit3_dialog_3_83775e81:
@@ -394,7 +394,7 @@ translate english cit3_dialog_3_9d0c0f8e:
     mt "Considering I already allowed him too much..."
     mt "Changing room."
     mt "It's natural to be with customers inside of changing room for an employee."
-    mt "Noone will ever find out..."
+    mt "No one will ever find out..."
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:250
 translate english cit3_dialog_3_e08770bd:
@@ -443,7 +443,7 @@ translate english cit3_dialog_3_cb3d6bab:
 
     # cit3 "Я требую особого обслуживания..."
     # m "Я... Не очень умею это делать..."
-    cit3 "I demand special teatment..."
+    cit3 "I demand special treatment..."
     m "I... I'm not very skilled at this..."
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:286

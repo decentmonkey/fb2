@@ -50,7 +50,7 @@ translate english rich_hotel_reception_environment_ca96c66b:
     # mt "Это далеко, далеко не самый лучше ресторан где Я была..."
     # mt "Но сейчас он кажется мне раем..."
     mt "It's far, far from the best restaurant I've ever been to..."
-    mt "But for now it seems like a paradise..."
+    mt "But for now, it seems like a paradise..."
 
 # game/Rooms/Rich_Hotel/rich_hotel_reception.rpy:69
 translate english rich_hotel_reception_environment_cb517fbd:

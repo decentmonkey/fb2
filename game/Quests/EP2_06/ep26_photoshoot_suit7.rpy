@@ -443,7 +443,7 @@ label ep26_photoshoot_suit7_pose6:
         with fadelong
         alex_photograph "Следующая поза, Миссис Бакфетт!"
         m "Алекс, я не буду вставать в эту позу, даже не надейся!"
-        m "А меня грудь почти открыта, прикрыты только соски!"
+        m "У меня грудь почти открыта, прикрыты только соски!"
         if corruption < PS7_monica_pose6_corruption_required:
             call corruption_required(PS7_monica_pose6_corruption_required) from _call_corruption_required_51
             return

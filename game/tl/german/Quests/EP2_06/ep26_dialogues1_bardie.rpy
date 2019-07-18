@@ -4,7 +4,7 @@
 translate german ep26_dialogues1_bardie1_ffcb39c2:
 
     # bardie "Аххх! Ахххх!!!"
-    # bardie "Моника Бафетт..."
+    # bardie "Моника Бакфетт..."
     # bardie "Аххх! Ахххх!!!"
     # bardie "Моя гувернантка..."
     # bardie "Аххх!"
@@ -33,7 +33,7 @@ translate german ep26_dialogues1_bardie1_ffcb39c2:
     # m "Что... Что ты делаешь??"
     # m "Это... Это Я?!"
     # m "Это мой журнал! Мой!"
-    # m "Что делаешь с ним?!"
+    # m "Что ты делаешь с ним?!"
     # bardie "Я дрочу на него, я же говорил тебе."
     # m "Я... Не смей делать этого!"
     # m "Верни его мне!"
@@ -299,7 +299,7 @@ translate german ep26_dialogues1_bardie4_abad8792:
     # bardie "И оно слишком чувствительное, поэтому это надо сделать твоими сиськами!"
     # m "!!!"
     # m "Я уверена в том, что это место протирается регулярно и без меня!"
-    # bardie "Хорошая гувернантка должна выполнять это работу."
+    # bardie "Хорошая гувернантка должна выполнять эту работу."
     # bardie "И, если гувернантка будет хорошей, то ее в этом доме будут кормить."
     # mt "Что же мне делать?!"
     # mt "Ведь я не буду трогать своей изысканной грудью член этого Барди?"
@@ -910,7 +910,7 @@ translate german strings:
 translate german ep26_dialogues1_bardie1_104649b1:
 
     # bardie "Аххх! Ахххх!!!"
-    # bardie "Моника Бафетт..."
+    # bardie "Моника Бакфетт..."
     bardie "Ahhh! Ahhhh!!!"
     bardie "Monica Buckfett..."
 
@@ -1032,7 +1032,7 @@ translate german ep26_dialogues1_bardie1_0bbde239:
 translate german ep26_dialogues1_bardie1_c0adaedd:
 
     # m "Это мой журнал! Мой!"
-    # m "Что делаешь с ним?!"
+    # m "Что ты делаешь с ним?!"
     m "Das ist mein Magazin! MEINS!!"
     m "Was machst du?!"
 
@@ -1401,7 +1401,7 @@ translate german ep26_dialogues1_bardie4_b82a65c8:
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:493
 translate german ep26_dialogues1_bardie4_b97a69dc:
 
-    # bardie "Хорошая гувернантка должна выполнять это работу."
+    # bardie "Хорошая гувернантка должна выполнять эту работу."
     # bardie "И, если гувернантка будет хорошей, то ее в этом доме будут кормить."
     bardie "Eine gute Magd macht ihren Job!"
     bardie "Und wenn sie ihn gut macht, bekommt sie hier zu Essen."
@@ -2362,7 +2362,7 @@ translate german ep26_dialogues1_bardie10_29a4f6ab_1:
 translate german ep26_dialogues1_bardie10_d9269515:
 
     # m "Барди."
-    # m "Между прочим, Бетти часто зрывается."
+    # m "Между прочим, Бетти часто зарывается."
     # m "Она называет тебя засранцем."
     m "Bardie."
     m "Anbei, Betty verliert oft die Fassung."

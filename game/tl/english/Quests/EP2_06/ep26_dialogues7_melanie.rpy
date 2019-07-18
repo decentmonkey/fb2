@@ -24,13 +24,13 @@ translate english ep26_dialogues7_melanie1_87f7800f:
     # mt "Она что, обманула меня и не ходила к нему?!"
     m "Melanie, you are back!"
     m "Where have you been for so long? What happened?"
-    melanie "Oh, it's you, Mrs Buckfett.."
+    melanie "Oh, it's you, Mrs. Buckfett..."
     m "Yes, Melanie. It's ME!"
     m "I was waiting for you the whole time!"
     m "Why were you absent for so long?!"
     m "I was afraid that Marcus got you!"
-    melanie "I don't understand what are you talking about, Mrs Buckfett."
-    m "What is a meaning of this, Melanie?"
+    melanie "I don't understand what are you talking about, Mrs. Buckfett."
+    m "What is the meaning of this, Melanie?"
     m "I'm talking about your visit to Marcus!"
     m "You were supposed to visit him and solve my problem!"
     m "But instead, you were gone!"
@@ -59,7 +59,7 @@ translate english ep26_dialogues7_melanie1_a96e3162:
     m "What? What is it?"
     m "Oh my God!"
     m "NO!"
-    melanie "Mrs Buckfett, I've asked you not to disturb me."
+    melanie "Mrs. Buckfett, I've asked you not to disturb me."
     m "!!!"
 
 translate english strings:
@@ -94,7 +94,7 @@ translate english ep26_dialogues7_melanie1_b2d496b5:
 translate english ep26_dialogues7_melanie1_3c82b9bf:
 
     # melanie "Миссис Бакфетт, это Вы?"
-    melanie "Oh, it's you, Mrs Buckfett.."
+    melanie "Oh, it's you, Mrs. Buckfett..."
 
 # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:24
 translate english ep26_dialogues7_melanie1_f6dde04b:
@@ -116,14 +116,14 @@ translate english ep26_dialogues7_melanie1_6b9098b8:
 translate english ep26_dialogues7_melanie1_374bcf7c:
 
     # melanie "Миссис Бакфетт, я не понимаю о чем Вы говорите..."
-    melanie "I don't understand what are you talking about, Mrs Buckfett."
+    melanie "I don't understand what are you talking about, Mrs. Buckfett."
 
 # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:37
 translate english ep26_dialogues7_melanie1_4aca78e2:
 
     # m "Что значит ты не понимаешь, Мелани?"
     # m "Я говорю про твой визит к Маркусу!"
-    m "What is a meaning of this, Melanie?"
+    m "What is the meaning of this, Melanie?"
     m "I'm talking about your visit to Marcus!"
 
 # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:41
@@ -208,7 +208,7 @@ translate english ep26_dialogues7_melanie1_d86bead5:
 translate english ep26_dialogues7_melanie1_d9a59b91:
 
     # melanie "Миссис Бакфетт, я просила Вас не беспокоить меня."
-    melanie "Mrs Buckfett, I've asked you not to disturb me."
+    melanie "Mrs. Buckfett, I've asked you not to disturb me."
 
 # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:117
 translate english ep26_dialogues7_melanie1_29a4f6ab:

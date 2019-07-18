@@ -54,7 +54,7 @@ translate german ep26_dialogues5_office1_2_3f698705:
     # m "..."
     # biff "Это важные люди, цыпочка."
     # biff "И я мог бы продавать им твою мордашку, как я и говорил."
-    # biff "Пэтому, учитывая что ты здесь появляешься очень редко, я вынужден отвечать на неудобные вопросы."
+    # biff "Поэтому, учитывая что ты здесь появляешься очень редко, я вынужден отвечать на неудобные вопросы."
     # biff "И терять деньги!"
     # biff "А ты знаешь, я люблю, чтобы цыпочки приносили деньги, а не заставляли терять их!"
     # m "..."
@@ -102,12 +102,12 @@ translate german ep26_dialogues5_office1_2_6e64a24e:
     # biff "Поэтому я решил что ты должна работать здесь."
     # biff "Я хочу чтобы это личико было доступно в любой момент."
     # biff "Не сомневаюсь, ты мечтала о том, чтобы работать на папочку!"
-    # biff "Я даю тебе это возможность!"
+    # biff "Я даю тебе эту возможность!"
     # biff "Однако, ты должна помнить, что ты всего-лишь цыпочка, хоть и похожа на Монику Бакфетт."
     # biff "Ты должна развлекать папочку. Если папочке станет скучно, папочка уволит тебя!"
     # biff "У меня очередь из цыпочек, которые будут готовы занять твое место!"
     # m "И что, ты найдешь такую, кто будет похожа на Монику Бакфетт больше чем Я?!"
-    # biff "Я найду другую кулу, которая будет представлять журнал!"
+    # biff "Я найду другую куклу, которая будет представлять журнал!"
     # biff "И буду продавать уже ее!"
     # biff "И эта кула будет более дрессированная, чем Ты!"
     # biff "Этот журнал не зациклен на сучке Бакфетт!"
@@ -144,7 +144,7 @@ translate german ep26_dialogues5_office1_2_6e64a24e:
     # biff "И не должна давать папочке скучать!"
     # biff "Я буду иногда менять ту скучную сиську, которая сидит в коридоре, на тебя!"
     # m "!!!"
-    # biff "Если честно, я бы ее уже выгнял, но она начинает плакать."
+    # biff "Если честно, я бы ее уже выгнал, но она начинает плакать."
     # biff "А у папочки мягкое сердце... Ведь папочка так любит своих цыпочек..."
     # biff "Папочка жалеет ее..."
     # mt "Мерзавец! Бедная секретарь!"
@@ -332,7 +332,7 @@ translate german ep26_dialogues5_office1_2_e3259cc1:
     # secretary "Мистер Биф заботится о нас..."
     # m "Боже, дорогуша, что они с тобой сделали?"
     # secretary "Миссис Бакфетт, пожалуйста, делайте что они говорят..."
-    # secretary "Этажом ниже есть отдел, где готовя промежуточные отчеты."
+    # secretary "Этажом ниже есть отдел, где готовят промежуточные отчеты."
     # secretary "Там уже работает несколько человек."
     # secretary "Также вашим помощником будет новенькая девушка."
     # secretary "Она только что пришла. Она очень добрая и понравится Вам."
@@ -749,7 +749,7 @@ translate german ep26_dialogues5_office1_2_b0716820:
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:130
 translate german ep26_dialogues5_office1_2_514b9dfb:
 
-    # biff "Пэтому, учитывая что ты здесь появляешься очень редко, я вынужден отвечать на неудобные вопросы."
+    # biff "Поэтому, учитывая что ты здесь появляешься очень редко, я вынужден отвечать на неудобные вопросы."
     # biff "И терять деньги!"
     biff "In Anbetracht der Tatsache, dass du sehr unregelmäßig her kommst, muss ich unanagenehme Fragen beantworten."
     biff "Und verliere Geld!"
@@ -817,7 +817,7 @@ translate german ep26_dialogues5_office1_2_60a166f5:
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:174
 translate german ep26_dialogues5_office1_2_358731d9:
 
-    # biff "Я даю тебе это возможность!"
+    # biff "Я даю тебе эту возможность!"
     # biff "Однако, ты должна помнить, что ты всего-лишь цыпочка, хоть и похожа на Монику Бакфетт."
     biff "Und hier bin ich, und gebe dir die Chance!"
     biff "Aber vergiss nicht deinen Platz, du bist nur ein Babe, das wie Monica Buckfett aussieht."
@@ -839,7 +839,7 @@ translate german ep26_dialogues5_office1_2_262ab5fe:
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:189
 translate german ep26_dialogues5_office1_2_6453cfbf:
 
-    # biff "Я найду другую кулу, которая будет представлять журнал!"
+    # biff "Я найду другую куклу, которая будет представлять журнал!"
     # biff "И буду продавать уже ее!"
     biff "Ich finde einfach eine andere Puppe, die das Gesicht des Magazines wird!"
     biff "Und werde sie promoten!"
@@ -997,7 +997,7 @@ translate german ep26_dialogues5_office1_2_29a4f6ab_1:
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:304
 translate german ep26_dialogues5_office1_2_874ddbf6:
 
-    # biff "Если честно, я бы ее уже выгнял, но она начинает плакать."
+    # biff "Если честно, я бы ее уже выгнал, но она начинает плакать."
     biff "Ich habe sie schon mal gefeuert, aber sie hat dann zu weinen angefangen."
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:307
@@ -1329,7 +1329,7 @@ translate german ep26_dialogues5_office1_2b_1c40698e:
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:599
 translate german ep26_dialogues5_office1_2b_a83fc6ee:
 
-    # secretary "Этажом ниже есть отдел, где готовя промежуточные отчеты."
+    # secretary "Этажом ниже есть отдел, где готовят промежуточные отчеты."
     # secretary "Там уже работает несколько человек."
     secretary "Die Abteilung unter uns bereitet die Vorabberichte vor."
     secretary "Da arbeiten bereits einige Leute."

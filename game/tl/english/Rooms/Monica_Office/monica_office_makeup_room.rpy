@@ -14,15 +14,15 @@ translate english monica_office_makeup_room_environment_b9170500:
     # mt "Но я не жалею об этом!"
     # "Когда я верну это место себе, я введу еще более строгий учет здесь!"
     mt "However, I have no regrets about it!"
-    "Accounting will be even more strict when I my place back!"
+    "Accounting will be even more strict when I return my place back!"
 
 # game/Rooms/Monica_Office/monica_office_makeup_room.rpy:46
 translate english monica_office_makeup_room_environment_66efa9a2:
 
     # mt "Мелани все завесила своими фото."
     # mt "Она очень любит себя."
-    mt "Melanie put her photoes everywhere."
-    mt "She loves herselfs very much."
+    mt "Melanie put her photos everywhere."
+    mt "She loves herself very much."
 
 # game/Rooms/Monica_Office/monica_office_makeup_room.rpy:49
 translate english monica_office_makeup_room_environment_9fc57688:

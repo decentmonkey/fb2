@@ -55,7 +55,7 @@ translate german worker2_dialogue_office_b6dee951:
     # w2 "Ну... Я постучал..."
     # m "Не правда! А теперь выйди из кабинета и если ты хочешь войти, постучись."
     # w2 "Хорошо..."
-    # w2 "Миссис Бакфет, можно?"
+    # w2 "Миссис Бакфетт, можно?"
     # m "Да, заходи."
     # m "Вот видишь, все просто. Ты говоришь, что у тебя все работает..."
     # m "Хорошо. А теперь можешь идти."
@@ -167,7 +167,7 @@ translate german worker2_dialogue_office_ac74ef8e:
 # game/Quests/EP2_06/Office/Worker2_Dialogs.rpy:73
 translate german worker2_dialogue_office_1a9d399d:
 
-    # w2 "Миссис Бакфет, можно?"
+    # w2 "Миссис Бакфетт, можно?"
     # m "Да, заходи."
     w2 "Frau Buckfett, kann ich rein kommen?"
     m "Ja."

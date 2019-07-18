@@ -16,7 +16,7 @@ translate english ep24_dialogues4_bardie1_44d724f2:
     # bardie "Мне нужно еще раз оказаться там!"
     # baride "Позови меня снова в следующий раз!"
     # mt "Посмотрим..."
-    bardie "Yes, she is definetely cheating."
+    bardie "Yes, she is definitely cheating."
     bardie "But I don’t have enough evidence yet."
     bardie "I need to do it one more time."
     baride "Let me know when you are going next time as well."
@@ -216,7 +216,7 @@ translate english ep24_dialogues4_bardie4_8a1510a6:
 translate english ep24_dialogues4_bardie4_90286242:
 
     # bardie "Сними запрещенные в этом доме трусики!"
-    bardie "Take off panties I prohivited for you to wear."
+    bardie "Take off panties I prohibited for you to wear."
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:167
 translate english ep24_dialogues4_bardie4_d50b00bc:
@@ -236,7 +236,7 @@ translate english ep24_dialogues4_bardie4_1470e983:
     # m "Я уйду из этого дурацкого дома!"
     # m "Я не буду терпеть такие унижения из-за какой-то крыши над головой!"
     m "I'm leaving this stupid house!"
-    m "I'm not bearing this hummiluation just for the roof above my head."
+    m "I'm not bearing this humiliation just for the roof above my head."
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:185
 translate english ep24_dialogues4_bardie4_ae7a87cb:
@@ -364,11 +364,11 @@ translate english strings:
 
     # Quests/EP2_04/ep24_dialogues4_bardie2.rpy:177
     old "Послушаться хозяина дома..."
-    new "Obey the house master"
+    new "Obey the housemaster"
 
     # Quests/EP2_04/ep24_dialogues4_bardie2.rpy:193
     old "Убежать..."
-    new "Run away"
+    new "Runaway"
 
     # Quests/EP2_04/ep24_dialogues4_bardie2.rpy:282
     old "Отпусти меня немедленно, малявка!"
@@ -388,7 +388,7 @@ translate english ep24_dialogues4_bardie1_5cdf954e:
     # bardie "Мне нужно еще раз оказаться там!"
     # bardie "Позови меня снова в следующий раз!"
     # mt "Посмотрим..."
-    bardie "Yes, she is definetely cheating."
+    bardie "Yes, she is definitely cheating."
     bardie "But I don’t have enough evidence yet."
     bardie "I need to do it one more time."
     bardie "Let me know when you are going next time as well."

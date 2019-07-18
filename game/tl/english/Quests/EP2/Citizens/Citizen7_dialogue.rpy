@@ -182,7 +182,7 @@ translate english citizen7_dialogue_pilon_loop7_48b1ace1_1:
 translate english citizen7_dialogue_pilon_loop7_c75b48c6:
 
     # citizen7 "Не дурно! Очень похожа на персик, на картине моего коллеги. Милая, ты ему не позировала?"
-    citizen7 "Not bad! Very similar to a peach, in the picture of my colleague. Honey, you've posed for him, haven't you you?"
+    citizen7 "Not bad! Very similar to a peach, in the picture of my colleague. Honey, you've posed for him, haven't you?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:130
 translate english citizen7_dialogue_pilon_loop7_6eead2b2:
@@ -252,7 +252,7 @@ translate english citizen7_dialogue_pilon_loop7_7dec49ad:
 translate english citizen7_dialogue_pilon_loop7_d3924823:
 
     # citizen7 "Я так и знал, что они восхитительны!"
-    citizen7 "As I suspected, they are briliant!"
+    citizen7 "As I suspected, they are brilliant!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:184
 translate english citizen7_dialogue_pilon_loop7_8aa5ca4c:
@@ -293,7 +293,7 @@ translate english citizen7_dialogue_pilon_loop7_20cfe883:
 
     # citizen7 "Я так и знал, что они восхитительны!"
     # mt "Это правда."
-    citizen7 "As I suspected, they are briliant!"
+    citizen7 "As I suspected, they are brilliant!"
     mt "True."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:185
@@ -338,7 +338,7 @@ translate english cit7_naked_boobs_1st_f0b80ba0:
     citizen7 "You will not understand..."
     citizen7 "I have to take a look at your chest, but bare this time!"
     m "And it will help?"
-    citizen7 "I don’t know but it could give me inspiration. So?"
+    citizen7 "I don’t know, but it could give me inspiration. So?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:233
 translate english cit7_naked_boobs_1st_16fe1cc6:
@@ -442,7 +442,7 @@ translate english cit7_naked_boobs_variant1_1470165f:
     m "I'm not going to do it!"
     citizen7 "Aww... Why is she so cruel to me?"
     m "That's not true"
-    citizen7 "Of course it's true, you are taking away my inspiration..."
+    citizen7 "Of course, it's true, you are taking away my inspiration..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:297
 translate english cit7_naked_boobs_variant1_37126152:
@@ -450,7 +450,7 @@ translate english cit7_naked_boobs_variant1_37126152:
     # m "Ну ладно, хватит."
     # citizen7 "Ох, надеюсь этого хватит для моего очередного творения!"
     m "Alright, that's enough,"
-    citizen7 "Hopefully it will be enough for another of mine creation!"
+    citizen7 "Hopefully, it will be enough for another of mine creation!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:303
 translate english cit7_naked_boobs_variant2_0ff20670:
@@ -526,7 +526,7 @@ translate english cit7_naked_boobs_variant2_4cc092f5:
     # m "И так достаточно."
     # citizen7 "Сразу видно, ты ничего не понимаешь в искусстве..."
     m "That's enough."
-    citizen7 "Obviously you don’t understand art..."
+    citizen7 "Obviously, you don’t understand art..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:351
 translate english cit7_naked_boobs_variant2_1470165f:
@@ -538,7 +538,7 @@ translate english cit7_naked_boobs_variant2_1470165f:
     m "I'm not going to do it!"
     citizen7 "Aww... Why is she so cruel to me?"
     m "That's not true"
-    citizen7 "Of course it's true, you are taking away my inspiration..."
+    citizen7 "Of course, it's true, you are taking away my inspiration..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:356
 translate english cit7_naked_boobs_variant2_37126152:
@@ -546,7 +546,7 @@ translate english cit7_naked_boobs_variant2_37126152:
     # m "Ну ладно, хватит."
     # citizen7 "Ох, надеюсь этого хватит для моего очередного творения!"
     m "Alright, that's enough,"
-    citizen7 "Hopefully it will be enough for another of mine creation!"
+    citizen7 "Hopefully, it will be enough for another of mine creation!"
 
 translate english strings:
 
@@ -598,7 +598,7 @@ translate english cit7_naked_boobs_1st_09c5f5cd:
 translate english cit7_naked_boobs_1st_5dd3c6e7:
 
     # citizen7 "Я не знаю, но это должно придать вдохновнения. Ну дак что?"
-    citizen7 "I don’t know but it could give me inspiration. So?"
+    citizen7 "I don’t know, but it could give me inspiration. So?"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:245
 translate english cit7_naked_boobs_1st_d10902f6:
@@ -794,7 +794,7 @@ translate english cit7_naked_boobs_variant1_2a31c819:
 translate english cit7_naked_boobs_variant1_6d4557ed:
 
     # citizen7 "Конечно правда, ты лишаешь меня вдохновения..."
-    citizen7 "Of course it's true, you are taking away my inspiration..."
+    citizen7 "Of course, it's true, you are taking away my inspiration..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:377
 translate english cit7_naked_boobs_variant1_4f5b3921:
@@ -806,7 +806,7 @@ translate english cit7_naked_boobs_variant1_4f5b3921:
 translate english cit7_naked_boobs_variant1_b665c521:
 
     # citizen7 "Ох, надеюсь этого хватит для моего очередного творения!"
-    citizen7 "Hopefully it will be enough for another of mine creation!"
+    citizen7 "Hopefully, it will be enough for another of mine creation!"
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:385
 translate english cit7_naked_boobs_variant2_7ce99bc5:
@@ -944,7 +944,7 @@ translate english cit7_naked_boobs_variant2_c0523677:
 translate english cit7_naked_boobs_variant2_c8f10be4:
 
     # citizen7 "Сразу видно, ты ничего не понимаешь в искусстве..."
-    citizen7 "Obviously you don’t understand art..."
+    citizen7 "Obviously, you don’t understand art..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:485
 translate english cit7_naked_boobs_variant2_3d172faa:
@@ -968,7 +968,7 @@ translate english cit7_naked_boobs_variant2_2a31c819:
 translate english cit7_naked_boobs_variant2_6d4557ed:
 
     # citizen7 "Конечно правда, ты лишаешь меня вдохновения..."
-    citizen7 "Of course it's true, you are taking away my inspiration..."
+    citizen7 "Of course, it's true, you are taking away my inspiration..."
 
 # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:494
 translate english cit7_naked_boobs_variant2_4f5b3921:
@@ -980,5 +980,5 @@ translate english cit7_naked_boobs_variant2_4f5b3921:
 translate english cit7_naked_boobs_variant2_b665c521:
 
     # citizen7 "Ох, надеюсь этого хватит для моего очередного творения!"
-    citizen7 "Hopefully it will be enough for another of mine creation!"
+    citizen7 "Hopefully, it will be enough for another of mine creation!"
 

@@ -8,7 +8,7 @@ translate english worker2_dialogue_workplace_61896dd7:
     # mt "У меня может быть какое-то дело нему?"
     mt "Looks like this loser is good with computers... While I don’t get them at all..."
     mt "And I'm not even interested..."
-    mt "Is it possibel for me to require his help in the future?"
+    mt "Is it possible for me to require his help in the future?"
 
 # game/Quests/EP2_06/Office/Worker2_Dialogs.rpy:8
 translate english worker2_dialogue_workplace_1981e016:
@@ -55,7 +55,7 @@ translate english worker2_dialogue_office_b6dee951:
     # w2 "Ну... Я постучал..."
     # m "Не правда! А теперь выйди из кабинета и если ты хочешь войти, постучись."
     # w2 "Хорошо..."
-    # w2 "Миссис Бакфет, можно?"
+    # w2 "Миссис Бакфетт, можно?"
     # m "Да, заходи."
     # m "Вот видишь, все просто. Ты говоришь, что у тебя все работает..."
     # m "Хорошо. А теперь можешь идти."
@@ -63,7 +63,7 @@ translate english worker2_dialogue_office_b6dee951:
     # m "Да, да, иди работай."
     m "No one taught you to knock before you come in?"
     w2 "But... I did..."
-    m "No you did not! Step out of my office and if you would like to enter, knock."
+    m "No, you did not! Step out of my office, and if you would like to enter, knock."
     w2 "Fine..."
     w2 "Mrs. Buckfett, can I come in?"
     m "Yes, come in."
@@ -161,13 +161,13 @@ translate english worker2_dialogue_office_ac74ef8e:
     # w2 "Хорошо..."
     m "No one taught you to knock before you come in?"
     w2 "But... I did..."
-    m "No you did not! Step out of my office and if you would like to enter, knock."
+    m "No, you did not! Step out of my office, and if you would like to enter, knock."
     w2 "Fine..."
 
 # game/Quests/EP2_06/Office/Worker2_Dialogs.rpy:73
 translate english worker2_dialogue_office_1a9d399d:
 
-    # w2 "Миссис Бакфет, можно?"
+    # w2 "Миссис Бакфетт, можно?"
     # m "Да, заходи."
     w2 "Mrs. Buckfett, can I come in?"
     m "Yes, come in."

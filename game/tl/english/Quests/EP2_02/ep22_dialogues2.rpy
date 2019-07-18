@@ -16,7 +16,7 @@ translate english ep22_dialogues2_1_ff680850:
     # fred "В чем Ваши сомнения, Сэр? Она плохо справляется с профессиональными обязанностями?"
     # ralph "Вовсе нет... Хотя... Я не знаю, я не слежу."
     fred "What are your doubts, Sir? Is she bad at her job?"
-    ralph "Not at all... Although... I don't really know. I haven't payed much attention to it."
+    ralph "Not at all... Although... I don't really know. I haven't paid much attention to it."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:88
 translate english ep22_dialogues2_1_0c78d3d7:
@@ -599,7 +599,7 @@ translate english ep22_dialogues2_4_d789648b:
     # betty "Быстро переоденься в униформу и иди за мной!"
     # mt "..."
     # mt "!!!"
-    m "Yes, Mrs Roberts?"
+    m "Yes, Mrs. Roberts?"
     betty "Quickly change into your uniform and follow me!"
     mt "..."
     mt "!!!"
@@ -615,7 +615,7 @@ translate english ep22_dialogues2_4_0ef5f6f7:
 
     # m "Да, Миссис Робертс?"
     # betty "Быстро иди за мной!"
-    m "Yes, Mrs Roberts?"
+    m "Yes, Mrs. Roberts?"
     betty "Follow me, quickly!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:427
@@ -1152,7 +1152,7 @@ translate english ep22_dialogue2_8_1_4dbdb6e1:
     betty "Someone's coming!"
     "It's probably Bardie! That doofus!"
     fred "MA'am! I know another way out of here."
-    "Don't worry, no one will se me!"
+    "Don't worry, no one will see me!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:944
 translate english ep22_dialogue2_8_1_084dea06:
@@ -1194,7 +1194,7 @@ translate english ep22_dialogue2_8_1_c624bf50:
     # bardie "Бетти, а что это у тебя на лице?"
     # "Это похоже на... Я видел подобное в одном фильме..."
     bardie "Betty, what's that on your face?"
-    "It looks like... I've seen it in one of those movie..."
+    "It looks like... I've seen it in one of those movies..."
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:968
 translate english ep22_dialogue2_8_1_a0d7216a:
@@ -1284,7 +1284,7 @@ translate english ep22_dialogue2_8_2_cb2bfc7d:
     # "Почему я должна искать тебя?!"
     # ralph "Бетти... Я..."
     betty "What are you doing here?!"
-    "Your have the living room to be in."
+    "You have the living room to be in."
     "I shouldn't have to look for you!"
     ralph "Betty... I'm..."
 

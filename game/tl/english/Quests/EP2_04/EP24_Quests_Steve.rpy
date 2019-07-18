@@ -18,7 +18,7 @@ translate english ep24_quests_steve12_3c476e12:
 translate english ep24_quests_steve17a_46e5a0de:
 
     # mt "По крайней мере, сегодня я могу наесться, пока Бетти нет..."
-    mt "At least today I can eat until Betty is not here..."
+    mt "At least today, I can eat until Betty is not here..."
 
 # game/Quests/EP2_04/EP24_Quests_Steve.rpy:256
 translate english ep24_quests_steve18_3c476e12:

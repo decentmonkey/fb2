@@ -589,7 +589,7 @@ translate english ep22_dialogues3_6_e2224cec:
 
     # m "У меня небольшие сложности... Временные..."
     # "Это не твое дело..."
-    m "I'mjust dealing with some temporary problems right now."
+    m "I'm just dealing with some temporary problems right now."
     "And it's none of your business..."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:340
@@ -597,8 +597,8 @@ translate english ep22_dialogues3_6_82619786:
 
     # bardie "Насколько я знаю, этот дом тоже принадлежал тебе?"
     # m "Да, это мой дом!"
-    bardie "Does that mean this house use to belong to you?"
-    m "Yes you brat! This is my house!"
+    bardie "Does that mean this house used to belong to you?"
+    m "Yes, you brat! This is my house!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:343
 translate english ep22_dialogues3_6_ab83b4b8:
@@ -622,7 +622,7 @@ translate english ep22_dialogues3_6_42686b4f:
 translate english ep22_dialogues3_6_9d49241c:
 
     # m "Да, тебе стоило бы меня бояться, учитывая мои возможности!"
-    m "Of course I am, so be very careful about what you say around me."
+    m "Of course, I am, so be very careful about what you say around me."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:351
 translate english ep22_dialogues3_6_06d70923:
@@ -726,7 +726,7 @@ translate english ep22_dialogues3_6_b0410944:
     # "Я - Моника Бакфетт!"
     # "И ты не имеешь права говорить мне подобное!!!"
     m "What?! Again?!"
-    m "I though you realized who I am!"
+    m "I thought you realized who I am!"
     "I am - Monica Buckfett!"
     "And that you have no right to ask me to do something like that!!!"
 
@@ -774,7 +774,7 @@ translate english ep22_dialogues3_6_5ee7c3a9:
     # "У меня даже захватывает дух! Я даже представить не мог!"
     bardie "I don't care what you say! Actually, this makes it more interesting."
     "My new toy is a magazine cover girl!"
-    "That's amazing! I couldn't ever imagine such a pleasure! How cool is that? I can't believe how lucky I am."
+    "That's amazing! I couldn't even imagine such a pleasure! How cool is that? I can't believe how lucky I am."
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:416
 translate english ep22_dialogues3_6_d0b81506:
@@ -788,7 +788,7 @@ translate english ep22_dialogues3_6_0756a926:
     # m "ЧТО?!?! Дрочить на него?!"
     # "Это мой журнал! Мой!"
     m "What?! You jerk!"
-    "It's my magazing! Mine!"
+    "It's my magazine! Mine!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:422
 translate english ep22_dialogues3_6_4a607bc2:
@@ -1091,7 +1091,7 @@ translate english ep22_dialogues3_9_523580c6:
     # "НИ ЗА ЧТО НЕ БУДУ ХОДИТЬ БЕЗ ТРУСИКОВ!!!"
     m "WHAT?!?!"
     m "NO, I WILL NEVER DO THAT!"
-    "DO YOU UNDER STAND?!"
+    "DO YOU UNDERSTAND?!"
     "I'M NEVER GONNA WALK AROUND WITHOUT PANTIES!"
 
 # game/Quests/EP2_02/ep22_dialogues3.rpy:845
@@ -1314,7 +1314,7 @@ translate english ep22_dialogues3_10_4cecaf79:
     "He can tell Marcus about me at any time!"
     "Or Betty!"
     "I can only imagine the mess that this would stir up!"
-    "I'm working without without documents! I'm breaking the law!"
+    "I'm working without documents! I'm breaking the law!"
     "Hm, maybe that fact that I'm not paid means this doesn't count as work?"
     "No, Ralph spends my money so it will look as if I'm paid..."
     "Heck!"

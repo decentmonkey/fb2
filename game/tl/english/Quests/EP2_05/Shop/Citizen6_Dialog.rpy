@@ -18,7 +18,7 @@ translate english cit6_dialog_1_a5349c61:
 translate english cit6_dialog_1_f4246480:
 
     # m "Прошу прощения, нужно идти к другому покупателю."
-    m "Exuse me, I have to attend another customer."
+    m "Excuse me, I have to attend another customer."
 
 # game/Quests/EP2_05/Shop/Citizen6_Dialog.rpy:16
 translate english cit6_dialog_1_ba7b04fd:
@@ -58,13 +58,13 @@ translate english cit6_dialog_2_aead7b54:
 translate english cit6_dialog_2_b90fd1a0:
 
     # cit6 "Замечательно! Давай это и проверим! Ты же тут манекен?"
-    cit6 "Excelent, let's check it out! You are mannequin here, right?"
+    cit6 "Excellent, let's check it out! You are mannequin here, right?"
 
 # game/Quests/EP2_05/Shop/Citizen6_Dialog.rpy:37
 translate english cit6_dialog_2_f4246480:
 
     # m "Прошу прощения, нужно идти к другому покупателю."
-    m "Exuse me, I have to attend another customer."
+    m "Excuse me, I have to attend another customer."
 
 # game/Quests/EP2_05/Shop/Citizen6_Dialog.rpy:40
 translate english cit6_dialog_2_ba7b04fd:
@@ -92,7 +92,7 @@ translate english cit6_dialog_2_4740f2a6:
     # m "Все, больше не могу!"
     # cit6 "Конечно можешь! Ах, черт! Совсем забыла... У меня срочные дела. Пока, манекен! Отлично стоишь!"
     m "It's is as far as I can!"
-    cit6 "Of course you can! Damn it, completely forgot. I gotta go! Bye, mannequin!"
+    cit6 "Of course, you can! Damn it, completely forgot. I gotta go! Bye, mannequin!"
 
 # game/Quests/EP2_05/Shop/Citizen6_Dialog.rpy:65
 translate english cit6_dialog_2_281ca486:
@@ -106,7 +106,7 @@ translate english cit6_dialog_2_281ca486:
 translate english cit6_dialog_3_8105d97c:
 
     # m "Здравствуйте! К Вам можно обратиться?"
-    m "Good day! Excuse me please."
+    m "Good day! Excuse me, please."
 
 # game/Quests/EP2_05/Shop/Citizen6_Dialog.rpy:73
 translate english cit6_dialog_3_7d45ff6f:
@@ -118,7 +118,7 @@ translate english cit6_dialog_3_7d45ff6f:
 translate english cit6_dialog_3_f4246480:
 
     # m "Прошу прощения, нужно идти к другому покупателю."
-    m "Exuse me, I have to attend another customer."
+    m "Excuse me, I have to attend another customer."
 
 # game/Quests/EP2_05/Shop/Citizen6_Dialog.rpy:82
 translate english cit6_dialog_3_cdd51081:
@@ -128,9 +128,9 @@ translate english cit6_dialog_3_cdd51081:
     # m "Давайте. Что Вас интересует?"
     # cit6 "Похоже, не только у меня провалы в памяти. Раздвигай свои красивые ноги!"
     m "I'm... I'm working here as a mannequin..."
-    cit6 "That's right! How could I forget! Mannequin, let's countinue where we let off."
+    cit6 "That's right! How could I forget! Mannequin, let's continue where we let off."
     m "Okay, what are you interested in?"
-    cit6 "Looks like I'm not the only one forgeting things. Spread your pretty legs!"
+    cit6 "Looks like I'm not the only one forgetting things. Spread your pretty legs!"
 
 # game/Quests/EP2_05/Shop/Citizen6_Dialog.rpy:88
 translate english cit6_dialog_3_b1f0b36c:
@@ -144,7 +144,7 @@ translate english cit6_dialog_3_b1f0b36c:
 translate english cit6_dialog_3_f4246480_1:
 
     # m "Прошу прощения, нужно идти к другому покупателю."
-    m "Exuse me, I have to attend another customer."
+    m "Excuse me, I have to attend another customer."
 
 # game/Quests/EP2_05/Shop/Citizen6_Dialog.rpy:99
 translate english cit6_dialog_3_d647950a:
@@ -196,7 +196,7 @@ translate english strings:
 
     # Quests/EP2_05/Shop/Citizen6_Dialog.rpy:32
     old "Что-то мне это не нравится (уйти)."
-    new "I don’t like it (get away)"
+    new "I don’t like it (getaway)"
 
     # Quests/EP2_05/Shop/Citizen6_Dialog.rpy:43
     old "Нет, это недопустимо."
@@ -208,7 +208,7 @@ translate english strings:
 translate english cit6_dialog_2_f4246480_1:
 
     # m "Прошу прощения, нужно идти к другому покупателю."
-    m "Exuse me, I have to attend another customer."
+    m "Excuse me, I have to attend another customer."
 # TODO: Translation updated at 2019-06-07 11:05
 
 # game/Quests/EP2_05/Shop/Citizen6_Dialog.rpy:97

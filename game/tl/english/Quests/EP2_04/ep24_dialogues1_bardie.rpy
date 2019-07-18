@@ -187,7 +187,7 @@ translate english ep24_dialogues1_bardie_670e3a45:
     # m "!!!"
     mt "I've told you already that there is nothing I can help you with."
     bardie "Alright, Monica."
-    "Take it into consideration. It's better than walking around without panties, isnt it?"
+    "Take it into consideration. It's better than walking around without panties, isn't it?"
     m "!!!"
 
 # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:126
@@ -320,7 +320,7 @@ translate english strings:
 
     # Quests/EP2_04/ep24_dialogues1_bardie.rpy:188
     old "Барди, пойдем вниз, я хочу поговорить с тобой."
-    new "Bardi, lets go downstairs, I'd like to talk with you."
+    new "Bardie, let's go downstairs, I'd like to talk with you."
 
 # TODO: Translation updated at 2019-04-16 13:23
 
@@ -333,14 +333,14 @@ translate english ep24_dialogues1_bardie_93139e24:
     # m "!!!"
     m "I've told you already that there is nothing I can help you with."
     bardie "Alright, Monica."
-    "Take it into consideration. It's better than walking around without panties, isnt it?"
+    "Take it into consideration. It's better than walking around without panties, isn't it?"
     m "!!!"
 
 # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:252
 translate english ep24_dialogues2_bardie_03d30b3b:
 
     # m "Барди, пойдем вниз, я хочу поговорить с тобой."
-    m "Bardi, lets go downstairs, I'd like to talk with you."
+    m "Bardie, let's go downstairs, I'd like to talk with you."
 
 # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:259
 translate english ep24_dialogues1_bardie3_3c6405a7:

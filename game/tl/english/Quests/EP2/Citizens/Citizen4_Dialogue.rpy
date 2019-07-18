@@ -55,7 +55,7 @@ translate english citizen4_dialogue_5d080525:
     # citizen4 "Что за вопросы? Обычно девушки вашей профессии это понимают."
     # mt "Да что за люди здесь живут?! Всем надо одно и то же..."
     m "What do you mean?"
-    citizen4 "Well, I'd like to aquint myself with a pretty girl like you. I think we would have found a great arrangement for the two of us."
+    citizen4 "Well, I'd like to acquaint myself with a pretty girl like you. I think we would have found a great arrangement for the two of us."
     m "What do you mean?"
     citizen4 "You know what I mean. Girls in your profession don't have to ask about these things!"
     mt "Ugh, what kind of people live in this place?! They all want the same thing..."
@@ -201,7 +201,7 @@ translate english citizen4_dialogue_pilon_loop4_d65a7faa:
 
     # citizen4 "Сойдет. У меня есть знакомая стриптизерша. Если хочешь, могу вас познакомить."
     # "Уж она то научит тебя всему."
-    citizen4 "Good enough. I have an acquaintance stipdancer. I can introduce you if you want."
+    citizen4 "Good enough. I have an acquaintance strip dancer. I can introduce you if you want."
     "She can teach you everything."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:140
@@ -386,7 +386,7 @@ translate english citizen4_show_boobs_first_time_e55cd06e:
     # citizen4 "Хотя... Ты красивая девочка. Хочу оценить их без одежды."
     # "Я недавно провернул одно дельце и у меня есть лишние 50$. Что скажешь?"
     citizen4 "Hmm... You are pretty thing. I'd like to inspect you without clothes."
-    "I pulled a great job a little while ago and have spare 50$ . What do you say?"
+    "I pulled a great job a little while ago and have spare $ 50 . What do you say?"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:290
 translate english citizen4_show_boobs_first_time_4d8fb1d0:
@@ -400,13 +400,13 @@ translate english citizen4_show_boobs_first_time_4d8fb1d0:
 translate english citizen4_show_boobs_first_time_e07e6d72:
 
     # citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
-    citizen4 "Well then, my spare 50$ will go to some more agreeable girl."
+    citizen4 "Well then, my spare $ 50 will go to some more agreeable girl."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:298
 translate english citizen4_show_boobs_first_time_9914d493:
 
     # mt "50$ были бы не лишними... Хорошо, что здесь никого нет."
-    mt "50$ would be useful... There are noone around here as well."
+    mt "$ 50 would be useful... There are noone around here as well."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:301
 translate english citizen4_show_boobs_first_time_feded4a2:
@@ -503,7 +503,7 @@ translate english citizen4_show_boobs_first_time_defc2759:
 
     # citizen4 "Я не дам тебе ничего, пока ты не покажешь мне грудь нормально!"
     # citizen4 "Я хочу рассмотреть ее как следует! Иначе никаких денег!"
-    citizen4 "No money for you, untill you show it to me properly."
+    citizen4 "No money for you, until you show it to me properly."
     citizen4 "I want to have a good look. No deal otherwise."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:371
@@ -518,7 +518,7 @@ translate english citizen4_show_boobs_first_time_50ea7d20:
     # m "Да за кого ты меня принимаешь?!"
     # citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
     m "That's never going to happen!"
-    citizen4 "Well then, my spare 50$ will go to some more agreeable girl."
+    citizen4 "Well then, my spare $ 50 will go to some more agreeable girl."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:393
 translate english citizen4_show_boobs_first_time_5eaa9c3c:
@@ -544,7 +544,7 @@ translate english citizen4_show_boobs_first_time_097e8b2d:
     m "..."
     citizen4 "..."
     m "..."
-    citizen4 "50 $!"
+    citizen4 "$ 50!"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:412
 translate english citizen4_show_boobs_first_time_50ea7d20_1:
@@ -552,7 +552,7 @@ translate english citizen4_show_boobs_first_time_50ea7d20_1:
     # m "Да за кого ты меня принимаешь?!"
     # citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
     m "That's never going to happen!"
-    citizen4 "Well then, my spare 50$ will go to some more agreeable girl."
+    citizen4 "Well then, my spare $ 50 will go to some more agreeable girl."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:423
 translate english citizen4_show_boobs_first_time_bb4d3628:
@@ -626,7 +626,7 @@ translate english citizen4_show_boobs_regular_time_c9325300:
 translate english citizen4_show_boobs_regular_time_fdfa89c4:
 
     # m "50$!"
-    m "50 $!"
+    m "$ 50!"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:485
 translate english citizen4_show_boobs_regular_time_45ccfdf5:
@@ -642,7 +642,7 @@ translate english citizen4_show_boobs_regular_time_45ccfdf5:
     citizen4 "Want another ? Give me something new."
     citizen4 "You can bring someone and then share money with her."
     citizen4 "But, I've already seen almost everyone around here..."
-    citizen4 "For what I've already seen I'm ready to pay [monicaWhoringNakedBoobsMoney]$ !"
+    citizen4 "For what I've already seen I'm ready to pay $ [monicaWhoringNakedBoobsMoney] !"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:495
 translate english citizen4_show_boobs_regular_time_1cb5edc2:
@@ -658,7 +658,7 @@ translate english citizen4_show_boobs_regular_time_1cb5edc2:
 translate english citizen4_show_boobs_regular_time_4147e877:
 
     # citizen4 "Я готов заплатить тебе [monicaWhoringNakedBoobsMoney]$ и не более..."
-    citizen4 "I can pay you [monicaWhoringNakedBoobsMoney]$ , nothing more..."
+    citizen4 "I can pay you $ [monicaWhoringNakedBoobsMoney] , nothing more..."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:506
 translate english citizen4_show_boobs_regular_time_ef3db6ad:
@@ -716,7 +716,7 @@ translate english citizen4_show_boobs_regular_time_70a19bf3:
     # citizen4 "Уверен, ты сможешь заработать [monicaWhoringNakedBoobsMoney]$."
     citizen4 "I don’t want to see your babies today."
     citizen4 "Show them to someone else."
-    citizen4 "I'm sure you will be able to earn [monicaWhoringNakedBoobsMoney]$ ."
+    citizen4 "I'm sure you will be able to earn $ [monicaWhoringNakedBoobsMoney]."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:554
 translate english citizen4_dialogue_after_boobs_first_time_8574f688:
@@ -735,8 +735,8 @@ translate english citizen4_dialogue_after_boobs_first_time_8574f688:
     mt "Devil!"
     mt "I'm not sure it was worth it..."
     mt "Thought it would be easier..."
-    mt "This bastard made me to spend half a day showing my magnificent chest on the steet!"
-    mt "At least it's much better than wearing this stupid kebab advertising for two month."
+    mt "This bastard made me to spend half a day showing my magnificent chest on the street!"
+    mt "At least it's much better than wearing this stupid kebab advertising for two months."
     mt "Just have to make sure noone recognizes me..."
     mt "As long as noone finds out my real identity, I can do whatever I want."
     mt "Had to show my chest, whatever..."
@@ -759,11 +759,11 @@ translate english citizen4_dialogue_after_boobs_second_time_87ed28e8:
     # mt "В конце концов, это ненадолго."
     # help "Будет доступно в следующем обновлении игры. Следите за новостями!"
     mt "That bastard!"
-    mt "He decline to pay even [monicaWhoringNakedBoobsMoney]$ for my chest!"
+    mt "He decline to pay even $ [monicaWhoringNakedBoobsMoney] for my chest!"
     mt "Should I show my chest to someone else?"
     mt "Sounds crazy, but I need money..."
     mt "Looks like things like that are common place around this area..."
-    mt "And I'm here anonymosly..."
+    mt "And I'm here anonymously..."
     mt "What happens here is not connected to Monica Buckfett in any way..."
     mt "So there is nothing for me to be embarrassed..."
     mt "It's completely disgusting, but I have to be cold hearted..."
@@ -785,11 +785,11 @@ translate english citizen4_dialogue_after_boobs_second_time_234f2bb7:
     # mt "Мне это глубоко противно, но я отношусь к этому с хладнокровием."
     # mt "В конце концов, это ненадолго."
     mt "That bastard!"
-    mt "He decline to pay even [monicaWhoringNakedBoobsMoney]$ for my chest!"
+    mt "He decline to pay even $ [monicaWhoringNakedBoobsMoney] for my chest!"
     mt "Should I show my chest to someone else?"
     mt "Sounds crazy, but I need money..."
     mt "Looks like things like that are common place around this area..."
-    mt "And I'm here anonymosly..."
+    mt "And I'm here anonymously..."
     mt "What happens here is not connected to Monica Buckfett in any way..."
     mt "So there is nothing for me to be embarrassed..."
     mt "It's completely disgusting, but I have to be cold hearted..."

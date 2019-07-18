@@ -41,7 +41,7 @@ translate german worker7_dialogue_workplace_520402d7:
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:19
 translate german worker7_dialogue_office_06856575:
 
-    # w7 "Миссис Бакфет, можно?"
+    # w7 "Миссис Бакфетт, можно?"
     w7 "Frau Buckfett, kann ich rein kommen?"
 
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:21

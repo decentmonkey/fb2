@@ -296,7 +296,7 @@ translate english citizen8_dialogue_pilon_loop8_1_7dec49ad:
 translate english citizen8_dialogue_pilon_loop8_1_b09cad12:
 
     # citizen8 "Очень хорошо. Отличный старт."
-    citizen8 "Very good. Excelent start."
+    citizen8 "Very good. Excellent start."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:212
 translate english citizen8_dialogue_pilon_loop8_1_3b7a2ee8:
@@ -390,7 +390,7 @@ translate english cit8_naked_boobs_1st_92dc628e:
     # m "1000$"
     # citizen8 "Да, она бы могла столько стоить, но не здесь!"
     # citizen8 "Учитывая обстоятельства, свой дополнительный доллар ты заработала."
-    m "1000$"
+    m "$ 1000"
     citizen8 "Yes, it can cost as much, but not around here!"
     citizen8 "Considering circumstances, you earned your additional dollar."
 
@@ -481,7 +481,7 @@ translate english cit8_naked_boobs_variant1_7a262479:
     # citizen8 "Странно, раньше ты была чуть сговорчивее."
     # citizen8 "Ну как хочешь..."
     m "Oh, no!"
-    citizen8 "Srange. You have been more agreable before."
+    citizen8 "Srange. You have been more agreeable before."
     citizen8 "As you wish..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:326
@@ -566,7 +566,7 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen8_dialogue.rpy:265
     old "1000$"
-    new "1000$"
+    new "$ 1000"
 
     # Quests/EP2/Citizens/Citizen8_dialogue.rpy:265
     old "Ни на сколько!"
@@ -648,7 +648,7 @@ translate english cit8_naked_boobs_1st_e2d3665a:
 translate english cit8_naked_boobs_1st_fabbf05a:
 
     # m "1000 $!"
-    m "1000 $!"
+    m "$ 1000!"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:294
 translate english cit8_naked_boobs_1st_5a56b64e:
@@ -741,7 +741,7 @@ translate english cit8_naked_boobs_variant1_f078a57f:
 
     # citizen8 "Странно, раньше ты была чуть сговорчивее."
     # citizen8 "Ну как хочешь..."
-    citizen8 "Srange. You have been more agreable before."
+    citizen8 "Srange. You have been more agreeable before."
     citizen8 "As you wish..."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:385
@@ -870,5 +870,5 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen8_dialogue.rpy:289
     old "1000 $!"
-    new "1000 $!"
+    new "$ 1000!"
 

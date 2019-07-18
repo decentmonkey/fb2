@@ -95,7 +95,7 @@ translate english cit1_dialog_2_273b940e:
 
     # cit1 "Черт, совсем забыл, надо успеть в мой любимый магазин комиксов! Еще увидимся, манекен!"
     # mt "Да как ты смеешь такое говорить? Что за гик..."
-    cit1 "Damn, almost forgot. I have to go to my favourity comicbook store. See you, mannequin!"
+    cit1 "Damn, almost forgot. I have to go to my favorite comic-book store. See you, mannequin!"
     mt "How dare he talk like that! Damn geek..."
 
 # game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:72

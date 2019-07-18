@@ -41,7 +41,7 @@ label worker7_dialogue_office:
     music Sneaky_Snitch
     img 20371
     with fadelong
-    w7 "Миссис Бакфет, можно?"
+    w7 "Миссис Бакфетт, можно?"
     if shopVisitorStage10 >= 3:
         music Groove2_85
         img 20372

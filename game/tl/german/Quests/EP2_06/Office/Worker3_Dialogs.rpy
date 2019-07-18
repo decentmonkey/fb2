@@ -11,14 +11,14 @@ translate german worker3_dialogue_workplace_06e4709c:
 # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:9
 translate german worker3_dialogue_office_25d389e0:
 
-    # w3 "Миссис Бакфет, можно?"
+    # w3 "Миссис Бакфетт, можно?"
     w3 "Frau Buckfett, kann ich rein kommen?"
 
 # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:12
 translate german worker3_dialogue_office_4e7cd48f:
 
     # m "Да, заходи."
-    # w3 "Миссис Бакфет, в офисе очень жарко, нам нужен кондиционер."
+    # w3 "Миссис Бакфетт, в офисе очень жарко, нам нужен кондиционер."
     # m "А что, его нет?"
     # w3 "В этом помещении нет и никогда не было."
     # m "Эту проблему очень просто решить!"
@@ -79,7 +79,7 @@ translate german worker3_dialogue_office_97fb610b:
 # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:35
 translate german worker3_dialogue_office_464f858a:
 
-    # w3 "Миссис Бакфет, в офисе очень жарко, нам нужен кондиционер."
+    # w3 "Миссис Бакфетт, в офисе очень жарко, нам нужен кондиционер."
     w3 "Frau Buckfett, es ist sehr heiß im Büro, können wir eine Klimaanlage bekommen?"
 
 # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:37

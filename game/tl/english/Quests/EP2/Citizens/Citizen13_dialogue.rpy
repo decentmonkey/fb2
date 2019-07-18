@@ -102,7 +102,7 @@ translate english citizen13_dialogue_pilon_4cb66ed8:
     # m "Ты мог бы мне одолжить."
     # citizen13 "Ха-ха-ха. Подруга, я похож на идиота?"
     # citizen13 "А вообще знаешь, раз тебе так нужны деньги, у меня есть идея. Пошли."
-    citizen13 "Of course I remember you, my friend! You're the one who handed out flyers advertising some terrible kebab"
+    citizen13 "Of course, I remember you, my friend! You're the one who handed out flyers advertising some terrible kebab"
     m "Yeah..."
     mt "He looks friendly and doesn't seem to be interested in me."
     m "Do you have extra money?"
@@ -190,7 +190,7 @@ translate english citizen13_dialogue_pilon_loop13_e9a25479:
 translate english citizen13_dialogue_pilon_loop13_1_78909a08:
 
     # citizen13 "Подруга, а шлепни себя по попке! Меня это заводит!"
-    citizen13 "Sweetie, slap yourself on your ass! It exites me!"
+    citizen13 "Sweetie, slap yourself on your ass! It excites me!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:138
 translate english citizen13_dialogue_pilon_loop13_1_75720cba:
@@ -417,7 +417,7 @@ translate english cit13_naked_boobs_1st_19c49c20:
     citizen13 "Friend, I'll tell you, I actually envy you!"
     m "Why is that?"
     citizen13 "Well, you have these two great friends!"
-    mt "Is he about these stupid cows I got aquinted at the gym?!"
+    mt "Is he about these stupid cows I got acquainted at the gym?!"
     m "Who are you talking about?"
     citizen13 "About your fancy tits of course!"
     mt "Here we go again..."
@@ -447,7 +447,7 @@ translate english cit13_naked_boobs_1st_68526ba3:
     # m "Хорошего понемногу."
     m "Fine."
     m "Turn around!"
-    citizen13 "Of course. We are friends afterall."
+    citizen13 "Of course. We are friends, afterall."
     m "You can turn back."
     m "But no touching!"
     citizen13 "No? Very well..."
@@ -493,7 +493,7 @@ translate english cit13_naked_boobs_variant1_a82faa11:
     # mt "Возможно..."
     m "Fine."
     m "Turn around!"
-    citizen13 "Of course. We are friends afterall."
+    citizen13 "Of course. We are friends, afterall."
     citizen13 "You can be proud! Mine will be similar to yours sometime in the future!"
     mt "I hope not..."
     citizen13 "Honey, where did you get such boobs?"
@@ -532,7 +532,7 @@ translate english cit13_naked_boobs_variant2_a484aa2a:
     # citizen13 "Ты знаешь, где то я уже такие видел..."
     # citizen13 "..."
     # citizen13 "Точно, вспомнил! Вчера вечером я смотрел один фильм..."
-    # citizen13 "Дак там 10 мужчин... Хотя что я рассказываю, уверен, ты такое каждый день видешь."
+    # citizen13 "Дак там 10 мужчин... Хотя что я рассказываю, уверен, ты такое каждый день видишь."
     # mt "10 мужчин?! О боже..."
     # citizen13 "Кстати, ты никогда не хотела стать актрисой?"
     # m "Нет."
@@ -552,7 +552,7 @@ translate english cit13_naked_boobs_variant2_a484aa2a:
     # mt "Возможно..."
     m "Fine."
     m "Turn around!"
-    citizen13 "Of course. We are friends afterall."
+    citizen13 "Of course. We are friends, afterall."
     citizen13 "Woah, they are so... Simply miraculous."
     mt "I won't argue with that."
     citizen13 "You know, I've seen them somewhere already..."
@@ -635,7 +635,7 @@ translate english cit13_naked_boobs_1st_98693e75:
 translate english cit13_naked_boobs_1st_9b4277c7:
 
     # citizen13 "Конечно, мы же подруги."
-    citizen13 "Of course. We are friends afterall."
+    citizen13 "Of course. We are friends, afterall."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:278
 translate english cit13_naked_boobs_1st_49adc490:
@@ -705,7 +705,7 @@ translate english cit13_naked_boobs_variant1_35e9333f:
 translate english cit13_naked_boobs_variant1_9b4277c7:
 
     # citizen13 "Конечно, мы же подруги."
-    citizen13 "Of course. We are friends afterall."
+    citizen13 "Of course. We are friends, afterall."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:333
 translate english cit13_naked_boobs_variant1_ae805aa1:
@@ -795,7 +795,7 @@ translate english cit13_naked_boobs_variant2_98693e75:
 translate english cit13_naked_boobs_variant2_9b4277c7:
 
     # citizen13 "Конечно, мы же подруги."
-    citizen13 "Of course. We are friends afterall."
+    citizen13 "Of course. We are friends, afterall."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:395
 translate english cit13_naked_boobs_variant2_cfce97b0:
@@ -821,7 +821,7 @@ translate english cit13_naked_boobs_variant2_63395d39:
 translate english cit13_naked_boobs_variant2_b3823cd9:
 
     # citizen13 "Точно, вспомнил! Вчера вечером я смотрел один фильм..."
-    # citizen13 "Дак там 10 мужчин... Хотя что я рассказываю, уверен, ты такое каждый день видешь."
+    # citizen13 "Дак там 10 мужчин... Хотя что я рассказываю, уверен, ты такое каждый день видишь."
     citizen13 "Yes! In the movie I've seen yesterday..."
     citizen13 "There were 10 men... Wait, why I'm telling you, surely you see that everyday."
 
@@ -917,5 +917,5 @@ translate english strings:
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:89
     old "Голые сиськи. (мало свиданий) (disabled)"
-    new ""
+    new "Naked boobs. (few meetings) (disabled)"
 

@@ -14,7 +14,7 @@ translate english pub_bar1_environment_443f743b:
     # mt "Это Эшли. Жена Джо."
     # mt "Мне кажется что она немного странная."
     # mt "Хотя что может быть не странного в этой дыре?!"
-    mt "This is Ahley. Joe's wife."
+    mt "This is Ashley. Joe's wife."
     mt "She seems a bit weird to me."
     mt "At the same time, what is NOT weird is this hole?!"
 

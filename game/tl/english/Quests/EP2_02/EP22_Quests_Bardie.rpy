@@ -28,5 +28,5 @@ translate english strings:
 translate english EP22_Quests_Bardie6_panties_box_06f93812:
 
     # mt "Я не могу одеть никакие трусики под это платье..."
-    mt "I can't wear any panties under these this dress..."
+    mt "I can't wear any panties under this dress..."
 

@@ -857,7 +857,7 @@ translate german cit6_naked_boobs_1st_ca106ee4:
 
     # citizen6 "Я никак не могу забыть нашу первую встречу..."
     # mt "А вот я бы ее с радостью забыла..."
-    # citizen6 "Как насчет того, чтобы показать мне свои сиськи? Ну уже без этой ненужной курточки?"
+    # citizen6 "Как насчет того, чтобы показать мне свои сиськи? Но уже без этой ненужной курточки?"
     # m "И почему я должны согласиться?"
     # citizen6 "Если ты не помнишь, я тебя спас! А вообще район тут опасный, если ты понимаешь о чем я..."
     # mt "К чему это он?"
@@ -930,7 +930,7 @@ translate german cit6_naked_boobs_variant1_3f908b55:
     # citizen6 "О да! Как же ты меня заводишь!"
     # citizen6 "Черт, это просто супер!"
     # citizen6 "Ну все, теперь мне надо к шлюхам. Хотя..."
-    # citizen6 "Детка, ты готов отсосать за 20 баксов?"
+    # citizen6 "Детка, ты готова отсосать за 20 баксов?"
     m "Dreh dich um!"
     m "Du kannst wieder herschauen."
     m "Nicht anfassen!"
@@ -945,7 +945,7 @@ translate german cit6_naked_boobs_variant1_8e89149f:
 
     # m "Только за 20 тысяч баксов."
     # citizen6 "А ты шутница! Да за такие деньги я трахну кого захочу!"
-    # mt "Господи, что я говорю? Неужели я гототова сделать такое..."
+    # mt "Господи, что я говорю? Неужели я готова сделать такое..."
     m "Wohl eher für $ 20 000"
     citizen6 "Was für ein Scherzkeks! Ich könnte für das Geld jede ficken!"
     mt "Meine Güte, was sage ich da überhaupt? Bin ich wirklich bereit, das zu tun?..."
@@ -1067,7 +1067,7 @@ translate german cit6_naked_boobs_1st_850cc06d:
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:428
 translate german cit6_naked_boobs_1st_b645277f:
 
-    # citizen6 "Как насчет того, чтобы показать мне свои сиськи? Ну уже без этой ненужной курточки?"
+    # citizen6 "Как насчет того, чтобы показать мне свои сиськи? Но уже без этой ненужной курточки?"
     citizen6 "Wie wärs wenn du deine Titten zeigst? Aber ohne diese unnütze Jacke."
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:430
@@ -1215,7 +1215,7 @@ translate german cit6_naked_boobs_variant1_9cd45c90:
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:545
 translate german cit6_naked_boobs_variant1_2c6ee995:
 
-    # citizen6 "Детка, ты готов отсосать за 20 баксов?"
+    # citizen6 "Детка, ты готова отсосать за 20 баксов?"
     citizen6 "Babe, bläst du mir einen für $ 20?"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:549
@@ -1233,7 +1233,7 @@ translate german cit6_naked_boobs_variant1_41347d44:
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:553
 translate german cit6_naked_boobs_variant1_661535ab:
 
-    # mt "Господи, что я говорю? Неужели я гототова сделать такое..."
+    # mt "Господи, что я говорю? Неужели я готова сделать такое..."
     mt "Meine Güte, was sage ich da überhaupt? Bin ich wirklich bereit, das zu tun?..."
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:557

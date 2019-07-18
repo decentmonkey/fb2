@@ -14,5 +14,5 @@ translate english street_monica_office_teleport2_15a907b2:
     "(sob)"
     "I'll get everything back!"
     "I swear!"
-    "I just need a little time that's all!"
+    "I just need a little time, that's all!"
 

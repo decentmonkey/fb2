@@ -53,7 +53,7 @@ translate english ep23_dialogue9_1_c54b23b3:
     # "И на мне будет ее одежда! Я хочу примерить шмотки этой сучки на себя!"
     model1 "Are you sure that I can order this bitch around?"
     melanie "Yes, but don’t be too strict with her. She has to pass in the end."
-    model1 "She will be able to pass only if she does everything I tell he to do!!!"
+    model1 "She will be able to pass only if she does everything I tell her to do!!!"
     "I also want to wear clothes of this bitch."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:74
@@ -356,7 +356,7 @@ translate english ep23_dialogue9_2_0fa4d190:
     # "Меня греет то что я сотру в порошок эту тварь..."
     mt "I have to keep my composure..."
     "And bear through this humiliation..."
-    "Got to think about my revenge and how I will turn her in to the dust!"
+    "Got to think about my revenge and how I will turn her into the dust!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:395
 translate english ep23_dialogue9_2_fceccd45:
@@ -483,14 +483,14 @@ translate english ep23_dialogue9_2_1726cd31:
     # "И мне придется пойти на все, чтобы использовать этот шанс..."
     mt "I have to somehow endure this humiliation ..."
     "Melanie without doubt is enjoying this..."
-    "Unfortunately she is my only chance for freedom..."
+    "Unfortunately, she is my only chance for freedom..."
     "I have to do anything for this opportunity..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:509
 translate english ep23_dialogue9_2_9caeedc3:
 
     # m "Да, хочу."
-    m "Yes I want to."
+    m "Yes, I want to."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:512
 translate english ep23_dialogue9_2_81dcde7f:
@@ -508,7 +508,7 @@ translate english ep23_dialogue9_2_cb2c0e74_1:
 translate english ep23_dialogue9_2_84b10b41:
 
     # m "Очень хочу!"
-    m "Yes , I do!"
+    m "Yes, I do!"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:534
 translate english ep23_dialogue9_2_e4763493:
@@ -606,7 +606,7 @@ translate english ep23_dialogue9_2_13896628:
     # mt "!!!"
     # model1 "А теперь подыми свою киску повыше!"
     # model1 "Я хочу рассмотреть ее!"
-    model1 "You have the a last chance, bitch!"
+    model1 "You have the last chance, bitch!"
     model1 "One more mistake and audition is over!"
     mt "!!!"
     model1 "Now get your pussy higher!"
@@ -622,7 +622,7 @@ translate english ep23_dialogue9_2_749ba20e:
 translate english ep23_dialogue9_2_4c170476:
 
     # model1 "(так вот значит как выглядит киска на миллиард долларов...)"
-    model1 "(So ​​this is what a billion dollar pussy looks like ...)"
+    model1 "(So ​​this is what a billion-dollar pussy looks like ...)"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:622
 translate english ep23_dialogue9_2_4a720b9c:
@@ -888,7 +888,7 @@ translate english ep23_dialogue9_2_ea1a00d4:
 translate english ep23_dialogue9_2_1b539f80:
 
     # m "Хочу поскорее закончить это..."
-    m "I want to end it as soon possible ..."
+    m "I want to end it as soon as possible ..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:994
 translate english ep23_dialogue9_2_2c23dfbb:
@@ -1106,7 +1106,7 @@ translate english scene_test2_5fe4dd99:
 translate english scene_test2_bdb9722b:
 
     # model1 "Вот значит как выглядит киска на миллиард долларов?"
-    model1 "That means what a billion dollar pussy looks like?"
+    model1 "That means what a billion-dollar pussy looks like?"
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1306
 translate english scene_test2_8aef411a:
@@ -1273,7 +1273,7 @@ translate english scene_test2_27ecbef3:
     "Yet do not forget that you still have to live and work here, Monica!"
     "Do not forget about your reputation!"
     "..."
-    "Hopefully no one will find out about what happened here."
+    "Hopefully, no one will find out about what happened here."
     "Nobody will believe this piglet anyway."
     "It's not in Melanie's interests to tell anyone about it."
     "Since she also took part in it..."
@@ -1440,15 +1440,15 @@ translate english strings:
 
     # Quests/EP2_03/ep23_dialogues9_casting.rpy:451
     old "Убежать."
-    new "Run away"
+    new "Runaway"
 
     # Quests/EP2_03/ep23_dialogues9_casting.rpy:493
     old "Да, хочу."
-    new "Yes I want to."
+    new "Yes, I want to."
 
     # Quests/EP2_03/ep23_dialogues9_casting.rpy:517
     old "Очень хочу!"
-    new "Yes , I do!"
+    new "Yes, I do!"
 
     # Quests/EP2_03/ep23_dialogues9_casting.rpy:888
     old "Да, я поняла."
@@ -1472,7 +1472,7 @@ translate english strings:
 
     # Quests/EP2_03/ep23_dialogues9_casting.rpy:973
     old "Хочу поскорее закончить это..."
-    new "I want to end it as soon possible ..."
+    new "I want to end it as soon as possible ..."
 
     # Quests/EP2_03/ep23_dialogues9_casting.rpy:999
     old "ДА!!!"

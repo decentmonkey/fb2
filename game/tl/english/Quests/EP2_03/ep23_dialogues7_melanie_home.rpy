@@ -81,8 +81,8 @@ translate english ep23_dialogues7_e24c9365:
 
     # "Вы не возражаете если я отойду на минутку?"
     # dick "Что Вы, Мелани? Конечно я не возражаю."
-    "Would you mind If I leave for a moment?"
-    dick "Sure, Melanie. Of course I don’t mind."
+    "Would you mind if I leave for a moment?"
+    dick "Sure, Melanie. Of course, I don’t mind."
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:87
 translate english ep23_dialogues7_28efc9b9:
@@ -120,7 +120,7 @@ translate english ep23_dialogues7_4a1781de:
     # dick "Ммм... Мелани..."
     # dick "Нет... Этот образ... Не будет смущать меня..."
     dick "Mmm ... Melanie ..."
-    dick "No, it's not embarssing, not at all."
+    dick "No, it's not embarrassing, not at all."
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:104
 translate english ep23_dialogues7_81590169:
@@ -182,19 +182,19 @@ translate english ep23_dialogues7_e4467ae8:
     # "Только я смогу оценивать их бесконечную красоту!"
     # "И неважно на какую камеру они сделаны!"
     # "Они лучшие, потому что на них будете Вы, Мелани!"
-    dick "They will be the best photoes for me anyways!"
+    dick "They will be the best photos for me, anyways!"
     "Nobody will ever see them!"
     "Only I will be able appreciate their infinite beauty!"
     "It doesn’t matter what kind of camera they will be made with!"
-    "They are the best, because, of you Melanie!"
+    "They are the best, because, of you, Melanie!"
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:148
 translate english ep23_dialogues7_59d50920:
 
     # melanie "Хорошо, Мистер Дик. Вы знаете, мне незачем стесняться своей груди."
     # "Но я бы не хотела чтобы мир увидел ее раньше времени..."
-    melanie "Fine, Mr. Dick. As you know I'm very proud of my chest."
-    "But I woundn't want the world to see it prematurely."
+    melanie "Fine, Mr. Dick. As you know, I'm very proud of my chest."
+    "But I wouldn't want the world to see it prematurely."
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:151
 translate english ep23_dialogues7_3a427e59:

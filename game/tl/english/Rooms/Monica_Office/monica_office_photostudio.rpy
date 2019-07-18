@@ -30,13 +30,13 @@ translate english monica_office_photostudio_environment_bd7900bd:
 translate english monica_office_photostudio_environment_e31cc57e:
 
     # m "Софтбокс для бокового света, насколько я помню..."
-    m "Softbox for side light, as far as I remember..."
+    m "Softbox for sidelight, as far as I remember..."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:65
 translate english monica_office_photostudio_environment_fd391ab8:
 
     # m "Это просветный зонт, для заливающего света."
-    m "It's a skylight umbrella for flood light."
+    m "It's a skylight umbrella for floodlight."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:68
 translate english monica_office_photostudio_environment_d55bd583:
@@ -90,13 +90,13 @@ translate english monica_office_photostudio_environment_5128fefb:
 translate english monica_office_photostudio_environment_40a9ebdb:
 
     # mt "Софтбокс для бокового света, насколько я помню..."
-    mt "Softbox for side light, as far as I remember..."
+    mt "Softbox for sidelight, as far as I remember..."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:70
 translate english monica_office_photostudio_environment_587cae7e:
 
     # mt "Это просветный зонт, для заливающего света."
-    mt "It's a skylight umbrella for flood light."
+    mt "It's a skylight umbrella for floodlight."
 
 # game/Rooms/Monica_Office/monica_office_photostudio.rpy:73
 translate english monica_office_photostudio_environment_163e48fd:

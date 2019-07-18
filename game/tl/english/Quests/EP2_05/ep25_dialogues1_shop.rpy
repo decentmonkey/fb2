@@ -4,7 +4,7 @@
 translate english ep25_dialogues1_shop1_e5e23f84:
 
     # mt "Мне надо сначала узнать, перевел-ли Стив деньги Виктории..."
-    mt "First I have to make sure that Steve kept his word and transferred money to Victoria."
+    mt "First, I have to make sure that Steve kept his word and transferred money to Victoria."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:10
 translate english ep25_dialogues1_shop1_7d8f0c63:
@@ -22,7 +22,7 @@ translate english ep25_dialogues1_shop1_7d8f0c63:
     mt "I'm a lady, am I not?!"
     mt "I'm a boss as well!"
     mt "And should look appropriately."
-    mt "should I visit a closing store I went to with Dick?"
+    mt "Should I visit a closing store I went to with Dick?"
     mt "It's a complete hole, of course. But maybe I'll be able to find something suitable?"
     mt "Suitable and something that I can afford..."
     mt "!!!"
@@ -138,7 +138,7 @@ translate english ep25_dialogues1_shop2_loop1_d75fe14c:
 translate english ep25_dialogues1_shop2_loop1_a4177d00:
 
     # cashier "Мэм, вообще-то это платье не продается по скидке..."
-    cashier "Ma'am this dress does not have a discount..."
+    cashier "Ma'am, this dress does not have a discount..."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:81
 translate english ep25_dialogues1_shop2_loop1_c4d898c3:
@@ -158,7 +158,7 @@ translate english ep25_dialogues1_shop2_loop1_8c18fd94:
 translate english ep25_dialogues1_shop2_loop1_73045b20:
 
     # cashier "Хорошо, я сделаю скидку в 50 процентов, только ради Вас!"
-    cashier "Alright, I can make a 50 per cent discount, just for you!"
+    cashier "Alright, I can make a 50 percent discount, just for you!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:89
 translate english ep25_dialogues1_shop2_loop1_a491e9c3:
@@ -176,7 +176,7 @@ translate english ep25_dialogues1_shop2_loop1_5888e8c4:
     # cashier "Мэм, пройдемте на кассу."
     m "I like it."
     m "I'm taking it."
-    cashier "Let's go to the check out, Ma'am"
+    cashier "Let's go to the checkout, Ma'am"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:104
 translate english ep25_dialogues1_shop2_loop1_f9f975e5:
@@ -185,7 +185,7 @@ translate english ep25_dialogues1_shop2_loop1_f9f975e5:
     # m "Возможно вернусь позже."
     # cashier "Да, Мэм. Возвращайтесь! Мы всегда рады Вам."
     m "Fine, I'll think about it."
-    m "I might come back latter."
+    m "I might come back later."
     cashier "Of course, Ma'am. Please do, we are always glad to see you."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:111
@@ -198,7 +198,7 @@ translate english ep25_dialogues1_shop2_loop1_d75fe14c_1:
 translate english ep25_dialogues1_shop2_loop1_a4177d00_1:
 
     # cashier "Мэм, вообще-то это платье не продается по скидке..."
-    cashier "Ma'am this dress does not have a discount..."
+    cashier "Ma'am, this dress does not have a discount..."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:115
 translate english ep25_dialogues1_shop2_loop1_c4d898c3_1:
@@ -244,7 +244,7 @@ translate english ep25_dialogues1_shop2_loop1_5888e8c4_1:
     # cashier "Мэм, пройдемте на кассу."
     m "I like it."
     m "I'm taking it."
-    cashier "Let's go to the check out, Ma'am"
+    cashier "Let's go to the checkout, Ma'am"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:141
 translate english ep25_dialogues1_shop2_loop1_f9f975e5_1:
@@ -253,7 +253,7 @@ translate english ep25_dialogues1_shop2_loop1_f9f975e5_1:
     # m "Возможно вернусь позже."
     # cashier "Да, Мэм. Возвращайтесь! Мы всегда рады Вам."
     m "Fine, I'll think about it."
-    m "I might come back latter."
+    m "I might come back later."
     cashier "Of course, Ma'am. Please do, we are always glad to see you."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:148
@@ -307,7 +307,7 @@ translate english ep25_dialogues1_shop6_b648cfae:
 
     # cashier "Тебе некуда идти, я закрыла магазин, чтобы ты не убежала."
     # cashier "Я вызываю полицию!"
-    cashier "You have no where to go, I closed the doors, so you can't run away."
+    cashier "You have nowhere to go. I closed the doors, so you can't run away."
     cashier "I'm calling cops!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:210
@@ -398,7 +398,7 @@ translate english ep25_dialogues1_shop7_64e4aea2:
     # cashier "На все говоришь?"
     # policeman "Пожалуйста, назовите адрес..."
     cashier "Anything you say?"
-    policeman "Please, name the adress."
+    policeman "Please, name the address."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:255
 translate english ep25_dialogues1_shop7_c6fc77d5:
@@ -663,7 +663,7 @@ translate english ep25_dialogues1_shop7_6489e654:
 
     # cashier "Мне надо продать это платье, иначе я рискую потерять премиальные за квартал."
     # cashier "На манекене оно смотрится хуже, чем на тебе, сучка."
-    cashier "I have to sell it or risk losing my quaterly bonus."
+    cashier "I have to sell it or risk losing my quarterly bonus."
     cashier "It looks much worse on the mannequin than on you, bitch."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:411
@@ -716,7 +716,7 @@ translate english ep25_dialogues1_shop7_68094563:
 translate english ep25_dialogues1_shop7_dc5714af:
 
     # m "Но, разве можно продавать одежду, которая надета на продавце?"
-    m "But is it allowed to sell dresses that salespoeple are wearing?"
+    m "But is it allowed to sell dresses that salespeople are wearing?"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:439
 translate english ep25_dialogues1_shop7_de3ca5b2:
@@ -870,7 +870,7 @@ translate english ep25_dialogues1_shop9a_29a4f6ab:
 translate english ep25_dialogues1_shop9a_c1bc68d6:
 
     # cashier "К тому же, я сама делала нечно подобное неколько раз."
-    cashier "More over, I did it several times myself."
+    cashier "Moreover, I did it several times myself."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:516
 translate english ep25_dialogues1_shop9a_f9c81cb2:
@@ -946,14 +946,14 @@ translate english ep25_dialogues1_shop12_3333cf9e:
 translate english ep25_dialogues1_shop12_23a20c9e:
 
     # cashier "Да, я помню. Ты продашь дорогое платье, полижешь мне киску и я подарю тебе то платье за $ 500."
-    cashier "Yes, I remember. You sell the expensive dress, lick my pussy and I gift you it for $ 500."
+    cashier "Yes, I remember. You sell the expensive dress, lick my pussy, and I gift you it for $ 500."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:567
 translate english ep25_dialogues1_shop12_8e047b46:
 
     # m "Я продам дорогое платье и ты подаришь мне платье за $ 500."
     # m "Я ничего не собираюсь лизать тебе, извращенка!"
-    m "I sell the dress and you give it to me for $ 500."
+    m "I sell the dress, and you give it to me for $ 500."
     m "I'm not licking anything, damn pervert!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:571
@@ -981,7 +981,7 @@ translate english ep25_dialogues1_shop12_f5e2af8e:
     # cashier "А мне показалось в прошлый раз что тебе понравилось..."
     # m "Отдай мое платье, сейчас же!"
     m "Stop dreaming! Give me the dress already!"
-    cashier "I thought you were enjoing it last time..."
+    cashier "I thought you were enjoying it last time..."
     m "Give me back my fucking dress! Right now!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:582
@@ -1033,18 +1033,18 @@ translate english ep25_dialogues1_shop12_cb204b72:
     # mt "Я устрою им! Я покажу им кто такая Моника Бакфетт!"
     cashier "..."
     mt "GOSH!!!"
-    mt "What humilliation I had to endure to get this dress!"
+    mt "What humiliation I had to endure to get this dress!"
     mt "!!!"
     mt "How far have I fallen!"
     mt "At least I have this nice dress now."
-    mt "It's on the cheap side, but in all honesty it's not very noticeable."
+    mt "It's on the cheap side, but in all honesty, it's not very noticeable."
     mt "You have to be a fashion guru to notice any difference."
     mt "..."
     mt "I finally look like a lady!"
     mt "I'm so glad!"
     mt "..."
     mt "Steve!!!"
-    mt "I can finally show my self before him without embarrassement."
+    mt "I can finally show my self before him without embarrassment."
     mt "And infront of the prostitutes he hired."
     mt "I'll show them! I'll show them who Monica Buckfett really is!"
 
@@ -1063,7 +1063,7 @@ translate english ep25_dialogues1_shop14_6b807c38:
     # mt "По крайней мере, не сегодня..."
     mt "I had enough of it for today already."
     mt "This stupid dress is impossible to sell!"
-    mt "I've had enough of being humilliated by these pathetic customers!"
+    mt "I've had enough of being humiliated by these pathetic customers!"
     mt "For today, at least..."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:634
@@ -1154,7 +1154,7 @@ translate english strings:
 
     # Quests/EP2_05/ep25_dialogues1_shop.rpy:227
     old "Умолять не вызывать полицию..."
-    new "Beg her not to call a police."
+    new "Beg her not to call the police."
 
     # Quests/EP2_05/ep25_dialogues1_shop.rpy:455
     old "Согласиться работать манекеном."
@@ -1190,7 +1190,7 @@ translate english ep25_dialogues1_shop1a_7d8f0c63:
     mt "I'm a lady, am I not?!"
     mt "I'm a boss as well!"
     mt "And should look appropriately."
-    mt "should I visit a closing store I went to with Dick?"
+    mt "Should I visit a closing store I went to with Dick?"
     mt "It's a complete hole, of course. But maybe I'll be able to find something suitable?"
     mt "Suitable and something that I can afford..."
     mt "!!!"
@@ -1218,7 +1218,7 @@ translate english ep25_dialogues1_shop1c_0a8d0fc2:
 translate english ep25_dialogues1_shop1d_fb1c1192:
 
     # mt "Наконец-то у меня есть приличная одежда. Мне не стоит привыкать к плохому. Я - Леди!"
-    mt "Finally something normal to wear. I should be getting used to bad things. I'm a proper lady afterall!"
+    mt "Finally, something normal to wear. I should be getting used to bad things. I'm a proper lady afterall!"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:129
 translate english ep25_dialogues1_shop2_loop1_1a0d0476:
@@ -1256,11 +1256,11 @@ translate english ep25_dialogues1_shop2a_3c032cf4:
     # mt "Однако никто не сможет вывернуть его наизнанку и посмотреть на бирку!"
     # mt "Так что это неважно."
     # mt "На вид его цену может определить только такой профессионал моды как Я..."
-    mt "Hooray! Finally I'm looking like a proper lady!"
+    mt "Hooray! Finally, I'm looking like a proper lady!"
     mt "Well... almost..."
     mt "This high heels can expose me..."
     mt "And the dress... Is not that expensive..."
-    mt "On the other hand noone can take a look at the sticker..."
+    mt "On the other hand, noone can take a look at the sticker..."
     mt "So it's not important."
     mt "At first glance only fashion guru like myself can place its' price properly..."
 
@@ -1288,7 +1288,7 @@ translate english ep25_dialogues1_shop6_b9e0060c:
 translate english ep25_dialogues1_shop9_3ddf7e73:
 
     # m "Я хочу купить то платье, которое случайно забыла убрать с руки, когда выходила из магазина."
-    m "I wanted to buy the dress but I forgot to take off my hands when I was exiting the store."
+    m "I wanted to buy the dress, but I forgot to take off my hands when I was exiting the store."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:702
 translate english ep25_dialogues1_shop9_1a114e8c:
@@ -1316,7 +1316,7 @@ translate english ep25_dialogues1_shop9_5888e8c4:
     # cashier "Мэм, пройдемте на кассу."
     m "I like it."
     m "I'm taking it."
-    cashier "Let's go to the check out, Ma'am"
+    cashier "Let's go to the checkout, Ma'am"
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:823
 translate english ep25_dialogues1_shop10_7662b49e_1:
@@ -1355,18 +1355,18 @@ translate english ep25_dialogues1_shop12a_d1a639d0:
     # mt "И перед его проститутками, которых он нанял на работу!"
     # mt "Я устрою им! Я покажу им кто такая Моника Бакфетт!"
     mt "GOSH!!!"
-    mt "What humilliation I had to endure to get this dress!"
+    mt "What humiliation I had to endure to get this dress!"
     mt "!!!"
     mt "How far have I fallen!"
     mt "At least I have this nice dress now."
-    mt "It's on the cheap side, but in all honesty it's not very noticeable."
+    mt "It's on the cheap side, but in all honesty, it's not very noticeable."
     mt "You have to be a fashion guru to notice any difference."
     mt "..."
     mt "I finally look like a lady!"
     mt "I'm so glad!"
     mt "..."
     mt "Steve!!!"
-    mt "I can finally show my self before him without embarrassement."
+    mt "I can finally show my self before him without embarrassment."
     mt "And infront of the prostitutes he hired."
     mt "I'll show them! I'll show them who Monica Buckfett really is!"
 
@@ -1420,7 +1420,7 @@ translate english ep25_dialogues1_shop24a_0ae352fa:
 translate english ep25_dialogues1_shop24b_6fd7c250:
 
     # mt "Ненормальная покупательница..."
-    mt "Crazy cutomer..."
+    mt "Crazy customer..."
 
 # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:1035
 translate english ep25_dialogues1_shop24c_ea1096ad:

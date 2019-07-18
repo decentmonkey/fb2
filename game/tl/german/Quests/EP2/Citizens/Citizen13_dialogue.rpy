@@ -680,7 +680,7 @@ translate german cit13_naked_boobs_variant2_a484aa2a:
     # citizen13 "Ты знаешь, где то я уже такие видел..."
     # citizen13 "..."
     # citizen13 "Точно, вспомнил! Вчера вечером я смотрел один фильм..."
-    # citizen13 "Дак там 10 мужчин... Хотя что я рассказываю, уверен, ты такое каждый день видешь."
+    # citizen13 "Дак там 10 мужчин... Хотя что я рассказываю, уверен, ты такое каждый день видишь."
     # mt "10 мужчин?! О боже..."
     # citizen13 "Кстати, ты никогда не хотела стать актрисой?"
     # m "Нет."
@@ -969,7 +969,7 @@ translate german cit13_naked_boobs_variant2_63395d39:
 translate german cit13_naked_boobs_variant2_b3823cd9:
 
     # citizen13 "Точно, вспомнил! Вчера вечером я смотрел один фильм..."
-    # citizen13 "Дак там 10 мужчин... Хотя что я рассказываю, уверен, ты такое каждый день видешь."
+    # citizen13 "Дак там 10 мужчин... Хотя что я рассказываю, уверен, ты такое каждый день видишь."
     citizen13 "Ja! In dem Film gestern..."
     citizen13 "Da waren 10 Männer... Warte, warum erzähle ich dir das, das siehst du sicher täglich."
 
@@ -1065,5 +1065,5 @@ translate german strings:
 
     # Quests/EP2/Citizens/Citizen13_dialogue.rpy:89
     old "Голые сиськи. (мало свиданий) (disabled)"
-    new ""
+    new "Nackte Brüste. (nach einigen Treffen) (disabled)"
 

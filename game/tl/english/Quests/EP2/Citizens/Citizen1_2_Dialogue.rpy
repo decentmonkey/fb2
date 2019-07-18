@@ -280,7 +280,7 @@ translate english citizen1_dialogue_pilon_loop1_7dec49ad:
 translate english citizen1_dialogue_pilon_loop1_4cd6e68d:
 
     # citizen1 "Черт, тетя! Они шикарны! И что же ты их раньше от нас прятала?"
-    citizen1 "Damn, lady. They are gourgeous! Why were you hiding them from us?"
+    citizen1 "Damn, lady. They are gorgeous! Why were you hiding them from us?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:184
 translate english citizen1_dialogue_pilon_loop1_1_cecff8b5:
@@ -390,7 +390,7 @@ translate english cit1_2_naked_boobs_1st_de45ddf4:
     citizen1 "It's not the first time we see each other and we are no strangers anymore."
     m "What do you mean?"
     citizen1 "Yeah... I'm not very good at being subtle..."
-    citizen1 "Whatever, me and my brother want to see your tits, but without anything if you know what I mean!"
+    citizen1 "Whatever, me and my brother want to see your tits, but without anything, if you know what I mean!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:246
 translate english cit1_2_naked_boobs_1st_64204555:
@@ -426,7 +426,7 @@ translate english cit1_2_naked_boobs_variant1_b8eefc2d:
     # citizen1 "А ты шутница. Конечно голыми, так интереснее!"
     citizen1 "Show us your tits!"
     m "How exactly?"
-    citizen1 "Haha, what a joker! Naked of course!"
+    citizen1 "Haha, what a joker! Naked, of course!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:271
 translate english cit1_2_naked_boobs_variant1_64204555:
@@ -507,7 +507,7 @@ translate english cit1_2_naked_boobs_variant2_35c0e713:
     # mt "Это немного больно и даже немного приятно... Странно..."
     # citizen1 "Ух, тетя, снова нас порадовала!"
     citizen1 "Woah... You are hot stuff!"
-    citizen1 "So exiting!"
+    citizen1 "So exciting!"
     m "Ouch!"
     mt "A bit painful, but pleasurable at the same time... So strange..."
     citizen1 "Damn, lady. You made our day again!"
@@ -624,7 +624,7 @@ translate english cit1_2_naked_boobs_1st_cc78f54f:
     # citizen1 "Мда, не умею я говорить намеками..."
     # citizen1 "Короче мы хотим посмотреть на твои сиськи, но уже так сказать без всего!"
     citizen1 "Yeah... I'm not very good at being subtle..."
-    citizen1 "Whatever, me and my brother want to see your tits, but without anything if you know what I mean!"
+    citizen1 "Whatever, me and my brother want to see your tits, but without anything, if you know what I mean!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:256
 translate english cit1_2_naked_boobs_1st_0a07f12d:
@@ -690,7 +690,7 @@ translate english cit1_2_naked_boobs_variant1_8e93d022:
 translate english cit1_2_naked_boobs_variant1_9c1a54cb:
 
     # citizen1 "А ты шутница. Конечно голыми, так интереснее!"
-    citizen1 "Haha, what a joker! Naked of course!"
+    citizen1 "Haha, what a joker! Naked, of course!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:318
 translate english cit1_2_naked_boobs_variant1_e05cb1c1:
@@ -832,7 +832,7 @@ translate english cit1_2_naked_boobs_variant2_fc15cd27:
     # citizen1 "Уф...А ты горячая!"
     # citizen1 "И так заводит!"
     citizen1 "Woah... You are hot stuff!"
-    citizen1 "So exiting!"
+    citizen1 "So exciting!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:424
 translate english cit1_2_naked_boobs_variant2_854cee6c:

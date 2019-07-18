@@ -22,7 +22,7 @@ translate english ep23_dialogues3_1_04bfe2a4:
     # fred "О! Миссис Бакфетт!"
     # "Все забываю сказать что Вам очень идет эта униформа..."
     fred "Oh! Mrs. Buckfett!"
-    "I have to say that this unifrom suits you very well"
+    "I have to say that this uniform suits you very well"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:26
 translate english ep23_dialogues3_1_29a4f6ab:
@@ -44,7 +44,7 @@ translate english ep23_dialogues3_1_1e48e7aa:
     # m "Какой еще совет?!"
     # fred "Совет в выборе попы..."
     fred "Oh! Mrs. Buckfett!"
-    "I'd like your advice Mrs. Buckfett."
+    "I'd like your advice, Mrs. Buckfett."
     m "Advice?!"
     fred "I need advice on butt selection..."
 
@@ -54,7 +54,7 @@ translate english ep23_dialogues3_1_2fc528de:
     # m "Какой еще попы?! Что ты несешь?!"
     # "Иди на свое рабочее место, немедленно!"
     m "Butt? What are you talking about ?!"
-    "Go to your workplace, immediately!"
+    "Go to your workplace immediately!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:41
 translate english ep23_dialogues3_1_c054c098:
@@ -271,9 +271,9 @@ translate english ep23_dialogues3_1_aca42966:
     # rebecca "Моника! Вот это да!"
     # stephanie "Наконец-то мы узнаем нашу Монику!"
     # rebecca "Да, Моника, а то мы уже начали сомневаться в тебе!"
-    stephanie "Wow Monica!"
+    stephanie "Wow, Monica!"
     rebecca "Monica! Wow!"
-    stephanie "Finally we get to see Monica we know so well!"
+    stephanie "Finally, we get to see Monica, we know so well!"
     rebecca "Yes, Monica, we have already started to has doubts about you!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:235
@@ -386,7 +386,7 @@ translate english ep23_dialogues3_3_bd1ea48d:
     # "Никак нет!"
     # m "Вот и помалкивай! Болван!"
     m "Fred, you are always starring at me."
-    m "Wans't last time enough for you?"
+    m "Wasn't last time enough for you?"
     "Do you want more?"
     fred "No, MA'am!"
     "Definitely not!"
@@ -396,7 +396,7 @@ translate english ep23_dialogues3_3_bd1ea48d:
 translate english ep23_dialogues3_4_8bf8719a:
 
     # driver "Вау! Какой вид, Миссис Бакфетт!"
-    driver "Woah! Nice outfit, Ms Buckfett!"
+    driver "Woah! Nice outfit, Ms. Buckfett!"
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:342
 translate english ep23_dialogues3_4_527685ca:
@@ -420,7 +420,7 @@ translate english ep23_dialogues3_4_0f8aa83e:
 translate english ep23_dialogues3_4_ee9fc065:
 
     # m "Это точно не здесь, Фред!"
-    m "It's definetely not here, Fred."
+    m "It's definitely not here, Fred."
 
 # game/Quests/EP2_03/ep23_dialogues3_fred.rpy:352
 translate english ep23_dialogues3_4_7dbda713:
@@ -832,5 +832,5 @@ translate english strings:
 translate english ep23_dialogues3_4_42e29af5:
 
     # fred "Вау! Какой вид, Миссис Бакфетт!"
-    fred "Woah! Nice outfit, Ms Buckfett!"
+    fred "Woah! Nice outfit, Ms. Buckfett!"
 

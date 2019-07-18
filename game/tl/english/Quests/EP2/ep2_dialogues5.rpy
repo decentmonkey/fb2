@@ -6,7 +6,7 @@ translate english monica_rich_hotel_entrance_31ad8d20:
     # biff "Добрый вечер!"
     # "Я веду этих цыпочек на благотворительный вечер!"
     biff "Good evening!"
-    "I'm taking these ladiess to the charity event!"
+    "I'm taking these ladies to the charity event!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:53
 translate english monica_rich_hotel_entrance_134f69df:
@@ -411,7 +411,7 @@ translate english monica_charity_event_dialogue2a_9e5167a0:
     reporter1 "Mrs. Buckfett!"
     "Tell me! Why did you decide to change policy?"
     reporter2 "Are you ready to support the new policy by own example?"
-    reporter3 "We heard you just had a photo shoot!"
+    reporter3 "We heard you just had a photoshoot!"
     "Did you decide to shoot naked?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:352
@@ -434,16 +434,16 @@ translate english monica_charity_event_dialogue2a_03b03c9b:
     # reporter1 "Но мы слышали что это необычная фотосессия!"
     # "Мы слышали что эта фотосессия достаточно смелая!"
     # reporter3 "Расскажите про фотосессию, Миссис Бакфетт!"
-    reporter1 "But we heard that this is an unusual photo shoot!"
+    reporter1 "But we heard that this is an unusual photoshoot!"
     "Yeah, we've heard that this photoshoot is daring enough!"
-    reporter3 "Tell us about the photo shoot, Mrs. Buckfett!"
+    reporter3 "Tell us about the photoshoot, Mrs. Buckfett!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:365
 translate english monica_charity_event_dialogue2a_2ed92c8c:
 
     # m "Ой! Что Вы? Это обычная фотосессия!"
     # reporter2 "Мы слышали что вы принимали необычные позы!"
-    m "Ow! What are you talking about? This is a regular photo shoot!"
+    m "Ow! What are you talking about? This is a regular photoshoot!"
     reporter2 "We heard you were doing some unusual poses!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:368
@@ -482,7 +482,7 @@ translate english monica_charity_event_dialogue3_fb06f1cc:
     # mt "Все!"
     # "Я сказала что хотел этот мерзавец Биф!"
     # "Надо идти {c}узнать про деньги{/c}!"
-    mt "Thats' all!"
+    mt "That's' all!"
     "I said what that bastard Biff wanted!"
     "Now I need to go {c}and find out about the money {/c}!"
 
@@ -2858,7 +2858,7 @@ translate english monica_office_biff_dialogue_evening1_daab6f76:
 translate english monica_office_biff_dialogue_evening1_87428f5c:
 
     # biff "Ах да! Ты сделаешь это перед следующей фотосессией!"
-    biff "Oh yeah! You'll do it before the next photo shoot!"
+    biff "Oh yeah! You'll do it before the next photoshoot!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2435
 translate english monica_office_biff_dialogue_evening1_0a5616b8:
@@ -2870,13 +2870,13 @@ translate english monica_office_biff_dialogue_evening1_0a5616b8:
 translate english monica_office_biff_dialogue_evening1_ababf4e4:
 
     # biff "До следующей фотосессии, цыпочка!"
-    biff "See you at the next photo shoot, girl!"
+    biff "See you at the next photoshoot, girl!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2444
 translate english monica_office_biff_dialogue_evening1_75e593a3:
 
     # mt "Не будет больше никакой фотосессии, УРОД!!!"
-    mt "There will be no more photo shoots, ASSHOLE!!!"
+    mt "There will be no more photoshoots, ASSHOLE!!!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2447
 translate english monica_office_biff_dialogue_evening1_7a886726:

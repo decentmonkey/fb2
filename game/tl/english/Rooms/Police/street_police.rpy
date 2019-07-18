@@ -33,7 +33,7 @@ translate english street_police_environment2_99b31b09:
     # "Маркус сказал что любая проверка документов - и я попадаю назад к нему!"
     # "Я боюсь этих машин!"
     mt "The police car!"
-    "Marcus said in case of any background checks I will go back to him!"
+    "Marcus said in case of any background checks, I will go back to him!"
     "I'm afraid of these machines!"
 
 # game/Rooms/Police/street_police.rpy:54

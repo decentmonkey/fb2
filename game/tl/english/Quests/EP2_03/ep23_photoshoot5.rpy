@@ -32,7 +32,7 @@ translate english ep22_photoshoot5_pose3_e93b4388:
 translate english ep22_photoshoot5_pose3_4a423959:
 
     # mt "Какая у Мелани бархатная кожа на ощупь..."
-    mt "Melanies skin is so smooth..."
+    mt "Melanie's skin is so smooth..."
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:250
 translate english ep22_photoshoot5_pose4_d1e07641:
@@ -139,7 +139,7 @@ translate english ep22_photoshoot5_pose9_pre_4ce034c0:
     # alex_photograph "Миссис Бакфетт, это эротическая фотосессия."
     # "В ней авиакомпания хочет показать что готова на все, лишь бы ее клиенты остались довольны!"
     m "ALEX, BUT !!! ..."
-    alex_photograph "Mrs. Buckfett, this is an erotic photo shoot."
+    alex_photograph "Mrs. Buckfett, this is an erotic photoshoot."
     "The airline wants to show that they are ready to do anything, as long as their customers are satisfied!"
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:623
@@ -173,7 +173,7 @@ translate english ep22_photoshoot5_pose9_pre_35173e7a:
 
     # melanie "Алекс, я думаю этого достаточно!"
     # "Я ведь знаю что этот кадр твоя инициатива!"
-    melanie "Yes Alex, I think that's enough."
+    melanie "Yes, Alex, I think that's enough."
     "I know that this shot was your idea!"
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:767

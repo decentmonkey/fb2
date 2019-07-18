@@ -52,7 +52,7 @@ translate english ep24_dialogues5_betty1_c723ac27:
     m "???"
     betty "Come over here..."
     m "..."
-    m "Yes, Mrs Robers? How can I be of service?"
+    m "Yes, Mrs. Robers? How can I be of service?"
     betty "..."
     betty "I've found out something about you..."
     mt "?!?!?!"
@@ -100,7 +100,7 @@ translate english ep24_dialogues5_betty1_0125bcef:
     # m "Спасибо, Миссис Робертс. Это будет намного удобнее."
     # betty "!!!"
     # m "..." 
-    m "Thank you, Mrs. Roberts. It will be much more convinient."
+    m "Thank you, Mrs. Roberts. It will be much more convenient."
     betty "!!!"
     m "..." 
 
@@ -121,10 +121,10 @@ translate english ep24_dialogues5_betty3_ceceb94b:
     # betty "!!!"
     # m "..."
     # betty "На, гувернантка, смотри. И не вздумай надеть другие!"
-    m "Mrs Roberts, I'd like to check your panties."
+    m "Mrs. Roberts, I'd like to check your panties."
     betty "!!!"
     m "..."
-    betty "Here, maid. Take and wear this ones."
+    betty "Here, maid. Take and wear these ones."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:128
 translate english ep24_dialogues5_betty4_ce0028a6:
@@ -133,7 +133,7 @@ translate english ep24_dialogues5_betty4_ce0028a6:
     # betty "!!!"
     # m "..."
     # betty "На, гувернантка, смотри. И не вздумай одеть другие!"
-    m "Mrs Roberts, I'd like to check your panties."
+    m "Mrs. Roberts, I'd like to check your panties."
     betty "!!!"
     m "..."
     betty "Here, take a look. And don’t even think about wearing others."
@@ -169,10 +169,10 @@ translate english ep24_dialogues5_betty5_d0568c5b:
     # bardie "..."
     betty "Monica, maid."
     betty "Come here!"
-    m "Yes, Mrs Robers? How can I be of service?"
+    m "Yes, Mrs. Robers? How can I be of service?"
     betty "Housemaid, I have news for you."
     betty "There are new rules in our house..."
-    m "What rules, Mrs Roberts?" 
+    m "What rules, Mrs. Roberts?" 
     betty "..."
     bardie "..."
     betty "..."
@@ -182,7 +182,7 @@ translate english ep24_dialogues5_betty5_d0568c5b:
     betty "From today on..."
     betty "From today on you are will be cleaning house without panties..."
     m "!!!"
-    m "What? Why, Mrs Roberts?"
+    m "What? Why, Mrs. Roberts?"
     m "I'm just an employee!"
     m "You don’t have any right to demand it from me!"
     betty "Useless housemaid!"
@@ -210,10 +210,10 @@ translate english ep24_dialogues5_betty6_40f9885a:
     # betty "Покажи, что ты тоже!"
     # m "Да, Миссис Робертс, конечно..."
     # m "Я тоже соблюдаю правила этого дома..."
-    m "Mrs Roberts, I'd like to check your panties."
+    m "Mrs. Roberts, I'd like to check your panties."
     betty "I'm following house rules..."
     betty "Show me that you do as well."
-    m "Yes, Mrs Roberts. Of course."
+    m "Yes, Mrs. Roberts. Of course."
     m "I'm also following rules..."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:218
@@ -232,17 +232,17 @@ translate english ep24_dialogues5_betty7_40f9885a:
     # betty "Покажи, что ты тоже!"
     # m "Да, Миссис Робертс, конечно..."
     # m "Я тоже соблюдаю правила этого дома..."
-    m "Mrs Roberts, I'd like to check your panties."
+    m "Mrs. Roberts, I'd like to check your panties."
     betty "I'm following house rules..."
     betty "Show me that you do as well."
-    m "Yes, Mrs Roberts. Of course."
+    m "Yes, Mrs. Roberts. Of course."
     m "I'm also following rules..."
 
 translate english strings:
 
     # Quests/EP2_04/ep24_dialogues5_betty.rpy:80
     old "Спасибо, Миссис Робертс. Это будет намного удобнее."
-    new "Thank you, Mrs. Roberts. It will be much more convinient."
+    new "Thank you, Mrs. Roberts. It will be much more convenient."
 
     # Quests/EP2_04/ep24_dialogues5_betty.rpy:80
     old "Промолчать..."
@@ -250,7 +250,7 @@ translate english strings:
 
     # Quests/EP2_04/ep24_dialogues5_betty.rpy:110
     old "Миссис Робертс, я бы хотела проверить Ваши трусики..."
-    new "Mrs Roberts, I'd like to check your panties."
+    new "Mrs. Roberts, I'd like to check your panties."
 
 # TODO: Translation updated at 2019-04-16 13:23
 
@@ -303,7 +303,7 @@ translate english ep24_dialogues5_betty1_f5b1b497:
     # m "Да, Миссис Робертс. Чем могу быть полезна?"
     # betty "..."
     m "..."
-    m "Yes, Mrs Robers? How can I be of service?"
+    m "Yes, Mrs. Robers? How can I be of service?"
     betty "..."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:43
@@ -534,7 +534,7 @@ translate english ep24_dialogues5_betty1_72c4389d:
 translate english ep24_dialogues5_betty1_42db5fc7:
 
     # m "Спасибо, Миссис Робертс. Это будет намного удобнее."
-    m "Thank you, Mrs. Roberts. It will be much more convinient."
+    m "Thank you, Mrs. Roberts. It will be much more convenient."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:206
 translate english ep24_dialogues5_betty1_99bb31af:
@@ -624,7 +624,7 @@ translate english ep24_dialogues5_betty2b_99bb31af:
 translate english ep24_dialogues5_betty3_3d865ef6:
 
     # m "Миссис Робертс, я бы хотела проверить Ваши трусики..."
-    m "Mrs Roberts, I'd like to check your panties."
+    m "Mrs. Roberts, I'd like to check your panties."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:409
 translate english ep24_dialogues5_betty3_99bb31af:
@@ -690,7 +690,7 @@ translate english ep24_dialogues5_betty3_72c4389d:
 translate english ep24_dialogues5_betty4_3d865ef6:
 
     # m "Миссис Робертс, я бы хотела проверить Ваши трусики..."
-    m "Mrs Roberts, I'd like to check your panties."
+    m "Mrs. Roberts, I'd like to check your panties."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:520
 translate english ep24_dialogues5_betty4_99bb31af:
@@ -786,7 +786,7 @@ translate english ep24_dialogues5_betty5_61ca8cc3:
 translate english ep24_dialogues5_betty5_bcbf0ac4:
 
     # m "Да, Миссис Робертс. Чем могу быть полезна?"
-    m "Yes, Mrs Robers? How can I be of service?"
+    m "Yes, Mrs. Robers? How can I be of service?"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:607
 translate english ep24_dialogues5_betty5_04eef297:
@@ -800,7 +800,7 @@ translate english ep24_dialogues5_betty5_04eef297:
 translate english ep24_dialogues5_betty5_ed335521:
 
     # m "Какие новые правила, Миссис Робертс?" 
-    m "What rules, Mrs Roberts?" 
+    m "What rules, Mrs. Roberts?" 
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:614
 translate english ep24_dialogues5_betty5_f2060836:
@@ -860,7 +860,7 @@ translate english ep24_dialogues5_betty5_29a4f6ab:
 translate english ep24_dialogues5_betty5_2bbea0e5:
 
     # m "Но почему, Миссис Робертс?!?!"
-    m "What? Why, Mrs Roberts?"
+    m "What? Why, Mrs. Roberts?"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:643
 translate english ep24_dialogues5_betty5_cad8cc63:
@@ -924,7 +924,7 @@ translate english ep24_dialogues5_betty5a_e96185e2:
 translate english ep24_dialogues5_betty6_3d865ef6:
 
     # m "Миссис Робертс, я бы хотела проверить Ваши трусики..."
-    m "Mrs Roberts, I'd like to check your panties."
+    m "Mrs. Roberts, I'd like to check your panties."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:702
 translate english ep24_dialogues5_betty6_99bb31af:
@@ -954,7 +954,7 @@ translate english ep24_dialogues5_betty6_acdd25a5:
 translate english ep24_dialogues5_betty6_b9ff4c67:
 
     # m "Да, Миссис Робертс, конечно..."
-    m "Yes, Mrs Roberts. Of course."
+    m "Yes, Mrs. Roberts. Of course."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:772
 translate english ep24_dialogues5_betty6_896757c5:
@@ -974,7 +974,7 @@ translate english ep24_dialogues5_betty6_a27b1ef8:
 translate english ep24_dialogues5_betty6_b9ff4c67_1:
 
     # m "Да, Миссис Робертс, конечно..."
-    m "Yes, Mrs Roberts. Of course."
+    m "Yes, Mrs. Roberts. Of course."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:852
 translate english ep24_dialogues5_betty6_896757c5_1:
@@ -986,7 +986,7 @@ translate english ep24_dialogues5_betty6_896757c5_1:
 translate english ep24_dialogues5_betty7_3d865ef6:
 
     # m "Миссис Робертс, я бы хотела проверить Ваши трусики..."
-    m "Mrs Roberts, I'd like to check your panties."
+    m "Mrs. Roberts, I'd like to check your panties."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:879
 translate english ep24_dialogues5_betty7_f2060836:
@@ -1012,7 +1012,7 @@ translate english ep24_dialogues5_betty7_d74d7af3:
     # betty "Покажи, что ты тоже!"
     # m "Да, Миссис Робертс, конечно..."
     betty "Show me that you do as well."
-    m "Yes, Mrs Roberts. Of course."
+    m "Yes, Mrs. Roberts. Of course."
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:926
 translate english ep24_dialogues5_betty7_896757c5:

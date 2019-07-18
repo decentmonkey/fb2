@@ -194,7 +194,7 @@ translate english ep22_dialogues5_2_0cc3f2a4:
 translate english ep22_dialogues5_2_a7265dbd:
 
     # dick_secretary "Это может принести мне пользу, Миссис Бакфетт."
-    dick_secretary "It could be of greate benefit to me, Mrs. Buckfett."
+    dick_secretary "It could be of great benefit to me, Mrs. Buckfett."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:239
 translate english ep22_dialogues5_2_29a4f6ab:
@@ -610,7 +610,7 @@ translate english ep22_dialogues5_4_485e9d03:
 translate english ep22_dialogues5_4_ed1bbd5f:
 
     # "Ты уже довел меня до этого!"
-    "Look what you've brough me to!"
+    "Look what you've brought me to!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:560
 translate english ep22_dialogues5_4_85da27ba:
@@ -846,7 +846,7 @@ translate english ep22_dialogues5_7_95fca7da:
 translate english ep22_dialogues5_7_069523ec:
 
     # dick2 "Если Виктория простит тебя, то я сделаю звонок, но ничего не обещаю..."
-    dick2 "If Victoria forgives you, I'll forgive youl, but I'm not promising anything--"
+    dick2 "If Victoria forgives you, I'll forgive you, but I'm not promising anything--"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:770
 translate english ep22_dialogues5_7_c33c1327:
@@ -937,7 +937,7 @@ translate english ep22_dialogues5_7_e21cf24c:
     # "Я не верю просто словам! Мне надо что-то повесомее!"
     # "Чем Вы можете подтвердить то что Вы очень хотите чтобы Я простила Вас?"
     dick_secretary "Mrs. Buckfett!"
-    "I don't believe in words! I need something more meaningful, a manifestation of your truthfullness!"
+    "I don't believe in words! I need something more meaningful, a manifestation of your truthfulness!"
     "How can you prove to me that you'll do what you've said?"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:835
@@ -1140,7 +1140,7 @@ translate english ep22_dialogues5_7_cc6242d7:
     # "Вы вылизали свое прощение..."
     dick_secretary "Enough, Mrs. Buckfett!"
     "Don't get carried away..."
-    "You have managed to lick your way to forgivness!"
+    "You have managed to lick your way to forgiveness!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:995
 translate english ep22_dialogues5_7_3463467b:
@@ -2294,7 +2294,7 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues5.rpy:1439
     old "Убежать!"
-    new "Run away!"
+    new "Runaway!"
 
     # Quests/EP2_02/ep22_dialogues5.rpy:1491
     old "Засунуть язык глубоко в анальное отверстие Виктории..."

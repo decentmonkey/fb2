@@ -160,7 +160,7 @@ translate english citizen15_dialogue_pilon_loop15_403d77fe:
     # citizen15 "Хотя... Ты красивая девочка. Хочу оценить их без одежды."
     # "Я недавно провернул одно дельце и у меня есть лишние 50$. Что скажешь?"
     citizen15 "Hmm... You are pretty thing. I'd like to inspect you without clothes."
-    "I pulled a great job a little while ago and have spare 50$ . What do you say?"
+    "I pulled a great job a little while ago and have spare $ 50 . What do you say?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:121
 translate english citizen15_dialogue_pilon_loop15_64dadb9e:
@@ -170,7 +170,7 @@ translate english citizen15_dialogue_pilon_loop15_64dadb9e:
     # citizen15 "Тогда мои 50$ достанутся более сговорчивой девочке."
     m "That's never going to happen!"
     m "What kind of person do you think I am?"
-    citizen15 "Well then, my spare 50$ will go to some more agreeable girl."
+    citizen15 "Well then, my spare $ 50 will go to some more agreeable girl."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:126
 translate english citizen15_dialogue_pilon_loop15_a70bbb2a:
@@ -184,7 +184,7 @@ translate english citizen15_dialogue_pilon_loop15_a70bbb2a:
     # mt "Ведь никто даже представить себе не может что это делает Моника Бакфетт."
     # mt "Это как какая-то виртуальная игра, в которой все не по настоящему..."
     # mt "Но вот 50$, которые я получу, вполне реальны!"
-    mt "50$ would be useful... There are noone around here as well."
+    mt "$ 50 would be useful... There are noone around here as well."
     m "$ 50?"
     citizen15 "That's right. Shom me your pair and it's yours."
     mt "Damn it! Are you sure you want to do it, Monica?"
@@ -226,7 +226,7 @@ translate english citizen15_dialogue_pilon_loop15_11f5ae48:
     m "I did what you wanted!"
     citizen15 "Are you kidding me? There wasn’t enough time for me to even notice anything!"
     m "You've seen enough! Give me money now!"
-    citizen15 "No money for you, untill you show it to me properly."
+    citizen15 "No money for you, until you show it to me properly."
     citizen15 "I want to have a good look. No deal otherwise."
     m "!!!"
 
@@ -236,7 +236,7 @@ translate english citizen15_dialogue_pilon_loop15_bba6a6ff:
     # m "Да за кого ты меня принимаешь?!"
     # citizen15 "Тогда мои 50$ достанутся более сговорчивой девочке."
     m "That's never going to happen!"
-    citizen15 "Well then, my spare 50$ will go to some more agreeable girl."
+    citizen15 "Well then, my spare $ 50 will go to some more agreeable girl."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:162
 translate english citizen15_dialogue_pilon_loop15_e4c6f07a:
@@ -254,7 +254,7 @@ translate english citizen15_dialogue_pilon_loop15_bba6a6ff_1:
     # m "Да за кого ты меня принимаешь?!"
     # citizen15 "Тогда мои 50$ достанутся более сговорчивой девочке."
     m "That's never going to happen!"
-    citizen15 "Well then, my spare 50$ will go to some more agreeable girl."
+    citizen15 "Well then, my spare $ 50 will go to some more agreeable girl."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:175
 translate english citizen15_dialogue_pilon_loop15_e90c4a1c:
@@ -376,17 +376,17 @@ translate english citizen15_dialogue_pilon_loop15_73c7d835:
     m "I can show you my chest if you want..."
     m "Again..."
     citizen15 "Of course! I'm missing your babies already!"
-    m "50 $!"
+    m "$ 50!"
     citizen15 "What? No way!"
     citizen15 "I've seen yours already!"
     citizen15 "Want another ? Give me something new."
     citizen15 "You can bring someone and then share money with her."
     citizen15 "But, I've already seen almost everyone around here..."
-    citizen15 "For what I've already seen I'm ready to pay [monicaWhoringNakedBoobsMoney]$ !"
+    citizen15 "For what I've already seen I'm ready to pay $ [monicaWhoringNakedBoobsMoney] !"
     m "I don’t have anyone to bring!"
     m "And my chest is the best!"
     mt "Even international publishers wrote about it!"
-    citizen15 "I can pay you [monicaWhoringNakedBoobsMoney]$ , nothing more..."
+    citizen15 "I can pay you $ [monicaWhoringNakedBoobsMoney] , nothing more..."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:266
 translate english citizen15_dialogue_pilon_loop15_ef3db6ad:
@@ -432,7 +432,7 @@ translate english citizen15_dialogue_pilon_loop15_6daa14d5:
     m "Again..."
     citizen15 "I don’t want to see your babies today."
     citizen15 "Show them to someone else."
-    citizen15 "I'm sure you will be able to earn [monicaWhoringNakedBoobsMoney]$ ."
+    citizen15 "I'm sure you will be able to earn $ [monicaWhoringNakedBoobsMoney]."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:294
 translate english citizen15_dialogue_pilon_loop15_540df363:
@@ -511,8 +511,8 @@ translate english citizen15_dialogue_after_boobs_first_time_8574f688:
     mt "Devil!"
     mt "I'm not sure it was worth it..."
     mt "Thought it would be easier..."
-    mt "This bastard made me to spend half a day showing my magnificent chest on the steet!"
-    mt "At least it's much better than wearing this stupid kebab advertising for two month."
+    mt "This bastard made me to spend half a day showing my magnificent chest on the street!"
+    mt "At least it's much better than wearing this stupid kebab advertising for two months."
     mt "Just have to make sure noone recognizes me..."
     mt "As long as noone finds out my real identity, I can do whatever I want."
     mt "Had to show my chest, whatever..."
@@ -534,11 +534,11 @@ translate english citizen15_dialogue_after_boobs_second_time_234f2bb7:
     # mt "Мне это глубоко противно, но я отношусь к этому с хладнокровием."
     # mt "В конце концов, это ненадолго."
     mt "That bastard!"
-    mt "He decline to pay even [monicaWhoringNakedBoobsMoney]$ for my chest!"
+    mt "He decline to pay even $ [monicaWhoringNakedBoobsMoney] for my chest!"
     mt "Should I show my chest to someone else?"
     mt "Sounds crazy, but I need money..."
     mt "Looks like things like that are common place around this area..."
-    mt "And I'm here anonymosly..."
+    mt "And I'm here anonymously..."
     mt "What happens here is not connected to Monica Buckfett in any way..."
     mt "So there is nothing for me to be embarrassed..."
     mt "It's completely disgusting, but I have to be cold hearted..."
@@ -580,13 +580,13 @@ translate english citizen15_dialogue_pilon_loop15_4d8fb1d0:
 translate english citizen15_dialogue_pilon_loop15_458a4d51:
 
     # citizen15 "Тогда мои 50$ достанутся более сговорчивой девочке."
-    citizen15 "Well then, my spare 50$ will go to some more agreeable girl."
+    citizen15 "Well then, my spare $ 50 will go to some more agreeable girl."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:130
 translate english citizen15_dialogue_pilon_loop15_9914d493:
 
     # mt "50$ были бы не лишними... Хорошо, что здесь никого нет."
-    mt "50$ would be useful... There are noone around here as well."
+    mt "$ 50 would be useful... There are noone around here as well."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:132
 translate english citizen15_dialogue_pilon_loop15_feded4a2:
@@ -683,7 +683,7 @@ translate english citizen15_dialogue_pilon_loop15_785fad92:
 
     # citizen15 "Я не дам тебе ничего, пока ты не покажешь мне грудь нормально!"
     # citizen15 "Я хочу рассмотреть ее как следует! Иначе никаких денег!"
-    citizen15 "No money for you, untill you show it to me properly."
+    citizen15 "No money for you, until you show it to me properly."
     citizen15 "I want to have a good look. No deal otherwise."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:189
@@ -716,7 +716,7 @@ translate english citizen15_dialogue_pilon_loop15_84bba7d8:
     m "..."
     citizen15 "..."
     m "..."
-    citizen15 "50 $!"
+    citizen15 "$ 50!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:232
 translate english citizen15_dialogue_pilon_loop15_63fd2d67:
@@ -766,7 +766,7 @@ translate english cit15_naked_boobs_1st_5a46b515:
     # citizen15 "Хорошие девочки обычно получают за это деньги. Только не говори, что деньги тебе не нужны."
     # mt "Самодовольный козел. Но он прав, деньги мне нужны."
     # citizen15 "Ну дак что, голые сиськи в обмен на деньги?"
-    citizen15 "You know, chicks usualy take of their clothes on their own after seeing me!"
+    citizen15 "You know, chicks usually take off their clothes on their own after seeing me!"
     citizen15 "Do you need a special invitation?"
     m "I'm not going to take it off."
     citizen15 "Good girls get money for it. Please don’t tell me you don’t need it?"
@@ -818,7 +818,7 @@ translate english cit15_naked_boobs_1st_c2be8d7a:
     m "What the hell are you telling me?"
     citizen15 "What's wrong? You shouldn't be offended by the truth..."
     m "That's enough!"
-    citizen15 "You are strange... Usually girls ask me to stare for as long as possible!"
+    citizen15 "You are strange... Usually, girls ask me to stare for as long as possible!"
     mt "I promise, some day, I'll punch you!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:235
@@ -924,7 +924,7 @@ translate english cit15_naked_boobs_1st_f1fb7281:
 
     # citizen15 "Знаешь, обычно при виде меня девочки сами снимают кофточки!"
     # citizen15 "Тебе нужно особое приглашение?"
-    citizen15 "You know, chicks usualy take of their clothes on their own after seeing me!"
+    citizen15 "You know, chicks usually take off their clothes on their own after seeing me!"
     citizen15 "Do you need a special invitation?"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:199
@@ -1045,7 +1045,7 @@ translate english cit15_naked_boobs_1st_1bcfdef1:
 translate english cit15_naked_boobs_1st_9b63e120:
 
     # citizen15 "Странная ты... Обычно девочки просят, чтобы я смотрел на них как можно дольше!"
-    citizen15 "You are strange... Usually girls ask me to stare for as long as possible!"
+    citizen15 "You are strange... Usually, girls ask me to stare for as long as possible!"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:266
 translate english cit15_naked_boobs_1st_0be8e89a:

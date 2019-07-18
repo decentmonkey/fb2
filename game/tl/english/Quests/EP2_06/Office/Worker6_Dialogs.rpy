@@ -6,14 +6,14 @@ translate english worker6_dialogue_workplace_b3471ff0:
     # w6 "Как же достали эти амбициозные новички и карьеристы!"
     # w6 "Ничего не делают, только сидят в своем интернете."
     # w6 "А как надо сделать какой-то сложный отчет дак Грета, сделай пожалуйста..."
-    w6 "I'm so tired of these ambitios upstart newbies!"
+    w6 "I'm so tired of these ambitious upstart newbies!"
     w6 "They do nothing and just browse the internet!"
     w6 "And if they need to do something complicated they just ask Greta to do it!"
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:11
 translate english worker6_dialogue_office_f0a01fe2:
 
-    # w6 "Миссис Бакфет, можно?"
+    # w6 "Миссис Бакфетт, можно?"
     w6 "Mrs. Buckfett, can I come in?"
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:14
@@ -34,7 +34,7 @@ translate english worker6_dialogue_office_10bc4042:
     w6 "Mrs. Buckfett, I'd like to talk about the situation in our department."
     w6 "You probably know already who does all the work here."
     w6 "And this John... I'm so tired of him!"
-    w6 "With your managerial talents I think you understand who have to become new department head."
+    w6 "With your managerial talents, I think you understand who have to become new department head."
     m "Yes, of course."
     m "You will be the first one to know."
     mt "Head of the department? Can you all just stop already?"
@@ -69,7 +69,7 @@ translate english worker6_dialogue_workplace_a1a9e3c6:
 
     # w6 "Как же достали эти амбициозные новички и карьеристы!"
     # w6 "Ничего не делают, только сидят в своем интернете."
-    w6 "I'm so tired of these ambitios upstart newbies!"
+    w6 "I'm so tired of these ambitious upstart newbies!"
     w6 "They do nothing and just browse the internet!"
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:21
@@ -78,7 +78,7 @@ translate english worker6_dialogue_workplace_c1af418c:
     # w6 "А как надо сделать какой-то сложный отчет дак Грета, сделай пожалуйста..."
     # mt "Боже! Какое занудство!"
     w6 "And if they need to do something complicated they just ask Greta to do it!"
-    mt "My god! What a tediousness!"
+    mt "My God! What a tediousness!"
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:34
 translate english worker6_dialogue_office_97fb610b:
@@ -104,7 +104,7 @@ translate english worker6_dialogue_office_9ece652f:
     # w6 "А этот карьерист Джон... Как он меня достал!"
     # w6 "Думаю, с Вашими менеджерскими талантами Вы понимаете, кто достоин стать главой отдела."
     w6 "And this John... I'm so tired of him!"
-    w6 "With your managerial talents I think you understand who have to become new department head."
+    w6 "With your managerial talents, I think you understand who have to become new department head."
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:47
 translate english worker6_dialogue_office_da1587ff:

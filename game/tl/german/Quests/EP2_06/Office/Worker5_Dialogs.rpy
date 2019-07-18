@@ -37,20 +37,20 @@ translate german worker5_dialogue_workplace_ef62a34b:
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:23
 translate german worker5_dialogue_office_d6a627f1:
 
-    # w5 "Миссис Бакфет, я бы хотел поговорить о моем повышении!"
+    # w5 "Миссис Бакфетт, я бы хотел поговорить о моем повышении!"
     w5 "Frau Buckfett, ich würde gerne über meine Beförderung mit ihnen sprechen."
 
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:26
 translate german worker5_dialogue_office_d6ba5ee7:
 
     # m "Давай поговорим."
-    # w5 "Миссис Бакфет, Вы же знаете, я очень ответственный и без меня этот отдел просто развалится."
-    # w5 "Еще эта толстуха Грета так и наровит занять мое законное место."
+    # w5 "Миссис Бакфетт, Вы же знаете, я очень ответственный и без меня этот отдел просто развалится."
+    # w5 "Еще эта толстуха Грета так и норовит занять мое законное место."
     # w5 "И я буду Вам бесконечно благодарен если Вы..."
     # m "Достаточно..."
-    # m "Чем чаще ты задаешь мне такие вопросы тем дальше от тебя эта должность."
+    # m "Чем чаще ты задаешь мне такие вопросы, тем дальше от тебя эта должность."
     # mt "И что это вообще за должность? Почему он думает, что этому отделу нужен какой-то мифический начальник кроме меня?"
-    # w5 "Да, понял. Ухожу. Но знайте, миссис Бакфет, Вы всегда можете на меня расчитывать."
+    # w5 "Да, понял. Ухожу. Но знайте, миссис Бакфетт, Вы всегда можете на меня расчитывать."
     m "Gut, reden wir."
     w5 "Wie sie sicher wissen bin ich hier der Fähigste, ohne mich läuft nichts."
     w5 "Weiter zielt die dicke Greta darauf ab, meine Position zu erhalten!"
@@ -171,8 +171,8 @@ translate german worker5_dialogue_office_9626eafb:
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:65
 translate german worker5_dialogue_office_9adfaa0d:
 
-    # w5 "Миссис Бакфет, Вы же знаете, я очень ответственный и без меня этот отдел просто развалится."
-    # w5 "Еще эта толстуха Грета так и наровит занять мое законное место."
+    # w5 "Миссис Бакфетт, Вы же знаете, я очень ответственный и без меня этот отдел просто развалится."
+    # w5 "Еще эта толстуха Грета так и норовит занять мое законное место."
     # w5 "И я буду Вам бесконечно благодарен если Вы..."
     w5 "Wie sie sicher wissen bin ich hier der Fähigste, ohne mich läuft nichts."
     w5 "Weiter zielt die dicke Greta darauf ab, meine Position zu erhalten!"
@@ -182,7 +182,7 @@ translate german worker5_dialogue_office_9adfaa0d:
 translate german worker5_dialogue_office_53dd1223:
 
     # m "Достаточно..."
-    # m "Чем чаще ты задаешь мне такие вопросы тем дальше от тебя эта должность."
+    # m "Чем чаще ты задаешь мне такие вопросы, тем дальше от тебя эта должность."
     m "Leidenschaftlich..."
     m "Je mehr du so redest, desto weiter ist die Beförderung weg von dir."
 
@@ -195,7 +195,7 @@ translate german worker5_dialogue_office_df162906:
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:79
 translate german worker5_dialogue_office_97c89eec:
 
-    # w5 "Да, понял. Ухожу. Но знайте, миссис Бакфет, Вы всегда можете на меня расчитывать."
+    # w5 "Да, понял. Ухожу. Но знайте, миссис Бакфетт, Вы всегда можете на меня расчитывать."
     w5 "Ich verstehe und gehe, sie können aber immer auf mich zählen, Frau Buckfett!"
 
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:85

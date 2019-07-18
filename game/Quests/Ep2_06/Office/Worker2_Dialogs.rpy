@@ -70,7 +70,7 @@ label worker2_dialogue_office:
             # выыходит - стучится
             img 20338
             with fadelong
-            w2 "Миссис Бакфет, можно?"
+            w2 "Миссис Бакфетт, можно?"
             m "Да, заходи."
             music Groove2_85
             img 20339

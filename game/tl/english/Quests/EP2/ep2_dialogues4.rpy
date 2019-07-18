@@ -1315,8 +1315,8 @@ translate english monica_office_cabinet_biff_dialogue3_e916b657:
     # "А также с партнерами журнала."
     # "Я смогу продавать твое личико."
     # "Какое-то время."
-    biff "So I suggest you do a series of photo shoots dedicated to the new policy of the magazine."
-    "For every photo shoot, I'll offer you {c}$ 1.000{/c}."
+    biff "So I suggest you do a series of photoshoots dedicated to the new policy of the magazine."
+    "For every photoshoot, I'll offer you {c}$ 1.000{/c}."
     "Also, I think we can set up an office for you, where you can talk to the press."
     "And with partners of the magazine."
     "I will be able to sell your face."
@@ -1346,7 +1346,7 @@ translate english monica_office_cabinet_biff_dialogue3_17bd862d:
 translate english monica_office_cabinet_biff_dialogue3_0649a99e:
 
     # m "$ 5.000 за каждую фотосессию!"
-    m "$ 5.000 for every photo shoot!"
+    m "$ 5.000 for every photoshoot!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:911
 translate english monica_office_cabinet_biff_dialogue3_a4e50d51:
@@ -1457,7 +1457,7 @@ translate english monica_office_cabinet_biff_dialogue3_local2_b7eb643b:
     # "Если честно, Мелани отказалась от этой серии фотосессий."
     # "Она сказала что не хочет иметь ничего общего с полным обнажением."
     biff "Excellent!"
-    "To be honest with you, Melanie refused to do this series of photo shoots."
+    "To be honest with you, Melanie refused to do this series of photoshoots."
     "She said she didn't want to do anything with full nudity."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:990
@@ -1541,9 +1541,9 @@ translate english monica_office_secretary_dialogue5b_local1_d09bd339:
     "Dick... It's Friday..."
     "If I don't have the money tonight, I'm finished..."
     "What should I do???"
-    "He said a series of photo shoots..."
+    "He said a series of photoshoots..."
     "Smooth change in course for the magazine..."
-    "I just need to do one photo shoot."
+    "I just need to do one photoshoot."
     "And I need that fucking $ 5.000!"
     "I'll take it to Dick, we'll buy him a tie, and he'll stop blackmailing me..."
     "He just wants proof of my loyalty."
@@ -1562,8 +1562,8 @@ translate english monica_office_secretary_dialogue5b_local1_f75bc0e5:
     # "Я надеюсь за это Маркус не заберет меня?"
     # "Нет, не должен..."
     # "Мне надо успеть!!!"
-    "So one photo shoot..."
-    "I need to convince that {c}scoundrel to do a neutral{/c} photo shoot..."
+    "So one photoshoot..."
+    "I need to convince that {c}scoundrel to do a neutral{/c} photoshoot..."
     "Harmless."
     "It will also be useful to remind the world about me."
     "I hope Marcus won't catch me doing this."
@@ -1581,7 +1581,7 @@ translate english monica_office_cabinet_biff_dialogue4_60bc59b8:
 
     # m "Биф! Ты сказал это будет серия фотосессий..."
     # "Ты предлагаешь мне обнажаться сразу или постепенно?"
-    m "Biff! You said it would be a series of photo shoots..."
+    m "Biff! You said it would be a series of photoshoots..."
     "Are you asking me to take off everything at once, or gradually?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1072
@@ -1616,7 +1616,7 @@ translate english monica_office_cabinet_biff_dialogue4_6bd3b394:
     # m "Хорошо, Биф!"
     # "Но только при условии того что мне не надо раздеваться на первой же фотосессии!"
     m "Okay, Biff!"
-    "But only on one condition: that I don't need to undress for the first photo shoot!"
+    "But only on one condition: that I don't need to undress for the first photoshoot!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1095
 translate english monica_office_cabinet_biff_dialogue4_bcbb5250:
@@ -1697,7 +1697,7 @@ translate english monica_office_cabinet_biff_dialogue4_ff3b54cc:
     # "Я хочу чтобы ты сделала фотосессию и поехала со мной."
     # "Там тебе надо будет сказать небольшую речь о смене курса нашего журнала."
     "Today, there will be a small charity event dedicated to my magazine."
-    "I want you to do a photo shoot and come with me to the event."
+    "I want you to do a photoshoot and come with me to the event."
     "Where you will give a little speech about the policy change of our magazine."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1148
@@ -1732,7 +1732,7 @@ translate english monica_office_cabinet_biff_dialogue4_50a40eda:
 translate english monica_office_cabinet_biff_dialogue4_e2606d80:
 
     # m "Это... После фотосессии?"
-    m "It... After the photo shoot?"
+    m "It... After the photoshoot?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1166
 translate english monica_office_cabinet_biff_dialogue4_3f98851f:
@@ -1805,7 +1805,7 @@ translate english monica_office_photostudio_alex_dialogue2_67a011f7:
     # "Мистер Биф сказал что мне надо провести фотосессию с Вами!"
     # "Вы будете участвовать?"
     alex_photograph "Mrs. Buckfett!"
-    "Mr. Biff said I should do a photo shoot with you!"
+    "Mr. Biff said I should do a photoshoot with you!"
     "Have you decided to participate in it?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1224
@@ -2004,7 +2004,7 @@ translate english monica_office_photostudio_alex_dialogue2_7357d27b:
 translate english monica_office_photostudio_alex_dialogue2_914296ac:
 
     # alex_photograph "Это РАЗНЫЕ фотосессии, Миссис Бакфетт!"
-    alex_photograph "This is a DIFFERENT photo shoot, Mrs. Buckfett!"
+    alex_photograph "This is a DIFFERENT photoshoot, Mrs. Buckfett!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1468
 translate english monica_office_photostudio_alex_dialogue2_b4361c05:
@@ -2078,7 +2078,7 @@ translate english monica_office_photostudio_alex_dialogue2_4693e14d:
     # m "Я не буду так сниматься!"
     # m "Мы закончили фотосессию! Хватит и того что снято!"
     m "I'm not going to do that!"
-    m "We have finished this photo shoot! This is enough!"
+    m "We have finished this photoshoot! This is enough!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1559
 translate english monica_office_photostudio_alex_dialogue2_dda4fc83:
@@ -2087,7 +2087,7 @@ translate english monica_office_photostudio_alex_dialogue2_dda4fc83:
     # "Тогда я вынужден сообщить Мистеру Бифу о срыве фотосессии..."
     # m "Мы сделали достаточно кадров!"
     alex_photograph "Mrs. Buckfett!"
-    "Then I'm afraid I must inform Mr. Biff about the disruption of the photo shoot..."
+    "Then I'm afraid I must inform Mr. Biff about the disruption of the photoshoot..."
     m "We've taken enough shots!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1568
@@ -2107,7 +2107,7 @@ translate english monica_office_photostudio_alex_dialogue2_8802c129:
     # "Это значит что Биф не даст мне деньги..."
     # "И я не поеду на благотворительный вечер..."
     # "А я так хочу туда!"
-    mt "Fuck! I CAN'T LET THIS PHOTO SHOOT FALL THROUGH!!!"
+    mt "Fuck! I CAN'T LET THIS PHOTOSHOOT FALL THROUGH!!!"
     "That would mean that Biff won't give me the money..."
     "And that I'm not going to the charity event..."
     "I want to go there so much!"
@@ -2265,7 +2265,7 @@ translate english monica_office_cabinet_biff_dialogue5_56f89571:
     # "Я закончила фотосессию!"
     # "И я жду свои деньги..."
     m "Biff!"
-    "I finished the photo shoot!"
+    "I finished the photoshoot!"
     "I'm waiting for my money..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1738

@@ -24,7 +24,7 @@ translate english cit9_dialog_1_63e7ef74:
 translate english cit9_dialog_1_706b5d4f:
 
     # cit9 "А с каких пор продавцы носят платья, которые продают?!"
-    cit9 "And since when have salepeople started wearing clothes they are selling?"
+    cit9 "And since when have salespeople started wearing clothes they are selling?"
 
 # game/Quests/EP2_05/Shop/Citizen9_Dialog.rpy:19
 translate english cit9_dialog_1_ab81d5a0:
@@ -81,7 +81,7 @@ translate english cit9_dialog_2_4ed432a3:
     # cit9 "Насколько я знаю, на манекены вешают не самый ходовой товар..."
     # cit9 "А если говорить о Вас, то думаю, что на вешалке это платье смотрелось бы лучше!"
     m "I'm... I'm working here as a mannequin..."
-    cit9 "As far as I know, clothes on maneequins are not the best selling ones."
+    cit9 "As far as I know, clothes on mannequins are not the best selling ones."
     cit9 "And talking about you, I think this dress would look better on the rack rather on you."
 
 # game/Quests/EP2_05/Shop/Citizen9_Dialog.rpy:52
@@ -115,7 +115,7 @@ translate english cit9_dialog_3_08b23435:
     # cit9 "Насколько я знаю, на манекены вешают не самый ходовой товар..."
     # cit9 "А если говорить о Вас, то думаю, что на вешалке это платье смотрелось бы лучше!"
     m "I'm... I'm working here as a mannequin..."
-    cit9 "As far as I know, clothes on maneequins are not the best selling ones."
+    cit9 "As far as I know, clothes on mannequins are not the best selling ones."
     cit9 "And talking about you, I think this dress would look better on the rack rather on you."
 
 # game/Quests/EP2_05/Shop/Citizen9_Dialog.rpy:70
@@ -156,7 +156,7 @@ translate english cit9_dialog_3_45df8632:
 translate english cit9_dialog_3_6a5889e8:
 
     # cit9 "Отлично, снимай платье!"
-    cit9 "Excelent, take off the dress!"
+    cit9 "Excellent, take off the dress!"
 
 # game/Quests/EP2_05/Shop/Citizen9_Dialog.rpy:95
 translate english cit9_dialog_3_3f4d8a27:
@@ -169,7 +169,7 @@ translate english cit9_dialog_3_fc60d519:
 
     # cit9 "Как странно, ты же манекен. Чего тебе стесняться?"
     # cit9 "Хорошо, пойдем в примерочную. И не забудь захватить свою конкурентку. Ха-ха-ха."
-    cit9 "How strange, arent you a mannequin? Why are you getting embarassed?"
+    cit9 "How strange, arent you a mannequin? Why are you getting embarrassed?"
     cit9 "Fine, let's move to the changing room. And don’t forget to take your competitor with you! He-he-he"
 
 # game/Quests/EP2_05/Shop/Citizen9_Dialog.rpy:100
@@ -252,7 +252,7 @@ translate english strings:
 
     # Quests/EP2_05/Shop/Citizen9_Dialog.rpy:106
     old "Раздеться и повесить платье на вешалку."
-    new "Undress and put dress on the rack."
+    new "Undress and put the dress on the rack."
 
     # Quests/EP2_05/Shop/Citizen9_Dialog.rpy:106
     old "Не раздеваться."
@@ -328,5 +328,5 @@ translate english cit9_dialog_3_4ed432a3:
     # cit9 "Насколько я знаю, на манекены вешают не самый ходовой товар..."
     # cit9 "А если говорить о Вас, то думаю, что на вешалке это платье смотрелось бы лучше!"
     m "I'm... I'm working here as a mannequin..."
-    cit9 "As far as I know, clothes on maneequins are not the best selling ones."
+    cit9 "As far as I know, clothes on mannequins are not the best selling ones."
     cit9 "And talking about you, I think this dress would look better on the rack rather on you."

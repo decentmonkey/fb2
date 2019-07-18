@@ -109,6 +109,6 @@ translate english needToFindWhorePlace_d27097d8:
 
     # mt "Мне надо найти какое-то тихое место."
     # "Не собираюсь-же я делать это здесь..."
-    mt "I need to find some place quiet."
+    mt "I need to find someplace quiet."
     "I'm not gonna do that here..."
 

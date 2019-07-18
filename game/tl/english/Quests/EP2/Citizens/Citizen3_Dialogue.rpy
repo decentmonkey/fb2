@@ -288,7 +288,7 @@ translate english citizen3_dialogue_pilon_loop3_c6b5282d:
 translate english citizen3_dialogue_pilon_loop3_a93eed6a:
 
     # citizen3 "Прекрасно. Ты никогда не задумывалась этим зарабатывать? Раздача флаеров не очень прибыльное дело."
-    citizen3 "Great. Never thought about making your living like that? Flyier distribution is not very profitable."
+    citizen3 "Great. Never thought about making your living like that? Flyer distribution is not very profitable."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:208
 translate english citizen3_dialogue_pilon_loop3_1c217615:
@@ -326,7 +326,7 @@ translate english citizen3_dialogue_pilon_loop3_acef5779:
     # citizen3 "Очень хорошо. Сиськи как у Сары! Ты знакома с Сарой?"
     # "Хотя почему я спрашиваю? Конечно вы знакомы."
     citizen3 "Very good. Your tits are just like Sara's! Do you know her?"
-    "Why do I even ask? Of course you know her."
+    "Why do I even ask? Of course, you know her."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:233
 translate english citizen3_dialogue_pilon_loop3_5d61e41c:
@@ -468,7 +468,7 @@ translate english cit3_naked_boobs_variant1_285b89a7:
     citizen3 "Yes! I remembered!"
     m "?"
     citizen3 "Tits just like Sara's. Do you know her?"
-    citizen3 "Why do I even ask? Of course you know her."
+    citizen3 "Why do I even ask? Of course, you know her."
     m "I don't know who you are talking about."
     citizen3 "Sarah! She has the best boobs in the area!"
     citizen3 "It will be necessary to arrange a competition. Yes, this is a great idea!"
@@ -516,7 +516,7 @@ translate english cit3_naked_boobs_variant2_c9392e02:
     citizen3 "It's all your fault! I couldn’t remember where I've seen your tits before and had to touch them to make sure!"
     m "I'll..."
     citizen3 "Come on, come on! Don’t be mad! I'm sorry and assure you that I haven’t seen your breast before."
-    citizen3 "More over, it's beautiful, you can believe me."
+    citizen3 "Moreover, it's beautiful, you can believe me."
     citizen3  "I'm not a very good guy, but I'm very sorry."
     citizen3 "What about compensation, I know that you don't mind."
 
@@ -578,7 +578,7 @@ translate english cit3_naked_boobs_variant1_72661f06:
     citizen3 "Yes! I remembered!"
     m "?"
     citizen3 "Tits just like Sara's. Do you know her?"
-    citizen3 "Why do I even ask? Of course you know her."
+    citizen3 "Why do I even ask? Of course, you know her."
     m "I don't know who you are talking about."
     citizen3 "Sarah! She has the best boobs in the area!"
     citizen3 "We have to make a competition some time. Yes, excellent idea!"
@@ -618,7 +618,7 @@ translate english cit3_naked_boobs_variant2_900099fc:
     citizen3 "It's all your fault! I couldn’t remember where I've seen your tits before and had to touch them to make sure!"
     m "I'll..."
     citizen3 "Come on, come on! Don’t be mad! I'm sorry and assure you that I haven’t seen your breast before."
-    citizen3 "More over, it's beautiful, you can believe me."
+    citizen3 "Moreover, it's beautiful, you can believe me."
     citizen3  "I'm not a very good guy, but I'm very sorry."
     citizen3 "What about compensation, I know that you don't mind."
 
@@ -728,7 +728,7 @@ translate english cit3_naked_boobs_variant1_7b2ef9b4:
 translate english cit3_naked_boobs_variant1_c3516d8b:
 
     # citizen3 "Хотя почему я спрашиваю? Конечно вы знакомы."
-    citizen3 "Why do I even ask? Of course you know her."
+    citizen3 "Why do I even ask? Of course, you know her."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:365
 translate english cit3_naked_boobs_variant1_b38eca7f:
@@ -830,7 +830,7 @@ translate english cit3_naked_boobs_variant2_05813853:
     # citizen3 "Все, все, не злись! Я прошу прощения и заверяю тебя, что раньше твою грудь я не видел."
     # citizen3 "И даже больше: она просто прекрасна, уж можешь поверить."
     citizen3 "Come on, come on! Don’t be mad! I'm sorry and assure you that I haven’t seen your breast before."
-    citizen3 "More over, it's beautiful, you can believe me."
+    citizen3 "Moreover, it's beautiful, you can believe me."
 
 # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:441
 translate english cit3_naked_boobs_variant2_00613a2a:

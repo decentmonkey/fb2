@@ -20,7 +20,7 @@ translate english ep26_dialogues2_steve1_c8ba5202:
 translate english ep26_dialogues2_steve1_d64ba88f:
 
     # m "И, чтобы ускорить этот процесс, мне нужна совсем небольшая денежная сумма."
-    m "And in order to accelerate the process, I need a little cash contribuion..."
+    m "And in order to accelerate the process, I need a little cash contribution..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:21
 translate english ep26_dialogues2_steve1_17b86e33:
@@ -96,7 +96,7 @@ translate english ep26_dialogues2_steve1_547e7899:
     # mt "!!!"
     # mt "Странной совпадение..."
     # mt "Но, с другой стороны, там вполне приличный ресторан."
-    # mt "И было бы очень неплохо ощутить себя снова Леди и поесть в нормально месте."
+    # mt "И было бы очень неплохо ощутить себя снова Леди и поесть в нормальном месте."
     # mt "Нормальном!"
     mt "!!!"
     mt "Strange coincidence..."
@@ -276,9 +276,9 @@ translate english ep26_dialogues2_steve1_fba62e91:
 translate english ep26_dialogues2_steve1_9011d33b:
 
     # steve "Потому я и решил так сказать."
-    # steve "Обычный разговор вряд-ли отвлечет ее от того, что на принялась наседать на меня."
+    # steve "Обычный разговор вряд-ли отвлечет ее от того, что она принялась наседать на меня."
     steve "That's why I said it."
-    steve "Simple talk is a easy distraction for her."
+    steve "Simple talk is an easy distraction for her."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:191
 translate english ep26_dialogues2_steve1_3a50f0b8:
@@ -341,7 +341,7 @@ translate english ep26_dialogues2_steve1_88d03c7d:
     # steve "Но, в таком случае, наша деловая цепочка будет разорвана."
     # steve "И других контрактов тоже не будет..."
     steve "Monica, you can break this deal."
-    steve "But in this case all our business relations will be over."
+    steve "But in this case, all our business relations will be over."
     steve "We will not have any new deals..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:220
@@ -356,7 +356,7 @@ translate english ep26_dialogues2_steve1_eed040b2:
 translate english ep26_dialogues2_steve1_35e8bcb0:
 
     # steve "Нет, Моника"
-    # steve "Я имею ввиду контракты, где за очень легкую и быструю работу я плачу больше деньги..."
+    # steve "Я имею ввиду контракты, где за очень легкую и быструю работу я плачу большие деньги..."
     steve "No, Monica."
     steve "I mean deals, where I pay you huge money for very easy and fast jobs..."
 
@@ -402,7 +402,7 @@ translate english ep26_dialogues2_steve1_5a361d4d:
     # steve "Иначе я могу потерять интерес к ней."
     # steve "А, кроме груди, у тебя, Моника, есть только твоя маленькая девственная дырочка в попе."
     # steve "Если ты захочешь, это останется для меня единственной загадкой в тебе как в женщине."
-    steve "Otherwise I can lose interest in her."
+    steve "Otherwise, I can lose interest in her."
     steve "And apart from your chest, Monica. The only mysterious thing you have left is your small virgin butthole."
     steve "Is it really what you want?"
 
@@ -485,13 +485,13 @@ translate english ep26_dialogues2_steve3_a26fd386:
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:321
 translate english ep26_dialogues2_steve3_841577ab:
 
-    # jane "Миссис Бакфетт, скажите, как Вам удалось достичь такое превосходной формы?"
-    jane "Mrs. Buckfett, please, tell me how were you able to achieve such a perfect figure?"
+    # jane "Миссис Бакфетт, скажите, как Вам удалось достичь такой превосходной формы?"
+    jane "Mrs. Buckfett, please, tell me, how were you able to achieve such a perfect figure?"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:323
 translate english ep26_dialogues2_steve3_cfd92ab5:
 
-    # m "Все дело в правильном питании регулярном занятии фитнесом."
+    # m "Все дело в правильном питании и регулярном занятии фитнесом."
     m "Secret is in proper diet and regular work out sessions in the gym."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:325
@@ -532,7 +532,7 @@ translate english ep26_dialogues2_steve3_76bfd7e0:
     # mt "Чем я питаюсь?"
     # mt "Моя диета?"
     # mt "Да уж!"
-    # mt "Я бобсь что эта толстая корова не сможет выжить на моей сегодняшней диете..."
+    # mt "Я боюсь что эта толстая корова не сможет выжить на моей сегодняшней диете..."
     mt "What do I eat?"
     mt "My diet?"
     mt "Yea, sure..."
@@ -564,7 +564,7 @@ translate english ep26_dialogues2_steve3_950337d8:
     # m "Ты себе такого позволить не сможешь."
     # m "Если есть другие вопросы, то задавай скорее и закончим с этим."
     m "Is that you cannot afford it."
-    m "Any other questions, lets end it as fast as we can."
+    m "Any other questions, let's end it as fast as we can."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:369
 translate english ep26_dialogues2_steve3_2a4b548e_3:
@@ -611,7 +611,7 @@ translate english ep26_dialogues2_steve3_67e50644:
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:391
 translate english ep26_dialogues2_steve3_5c0be29c:
 
-    # m "Со мной занимается личный тренер, которые внешне соответствует здоровому образу жизни."
+    # m "Со мной занимается личный тренер, который даже внешне соответствует здоровому образу жизни."
     # m "А также знает толк в упражнениях для достижения нужной цели!"
     m "I have a private trainer."
     m "Who knows his job very well and knows how to achieve goals."
@@ -725,7 +725,7 @@ translate english ep26_dialogues2_steve3_82cc5a84:
 
     # jane "Миссис Бакфетт, простите! Просто так сказал Мистер Стив!..."
     # jane "Я не хотела как-то оскорбить Вас!"
-    jane "I'm sorry Mrs. Buckfett! But Steve said..."
+    jane "I'm sorry, Mrs. Buckfett! But Steve said..."
     jane "I didn't mean to offend you!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:470
@@ -762,7 +762,7 @@ translate english ep26_dialogues2_steve3_e63038f5:
 translate english ep26_dialogues2_steve3_98bd06ba:
 
     # steve "За это полагается неустойка в виде бесплатного контракта на массаж моего члена, хе-хе!"
-    steve "You will have to pay a penalty by massaging my dick! He-he."
+    steve "You will have to pay the penalty by massaging my dick! He-he."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:490
 translate english ep26_dialogues2_steve3_a36bace3:
@@ -847,7 +847,7 @@ translate english ep26_dialogues2_steve3_1f8ef82f:
 
     # jane "Простите, Миссис Бакфетт."
     # jane "Я только хотела проверить, настоящие они или нет..."
-    jane "I'm sorry Mrs. Buckfett."
+    jane "I'm sorry, Mrs. Buckfett."
     jane "I just wanted to make sure they are natural..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:552
@@ -896,7 +896,7 @@ translate english ep26_dialogues2_steve3_0457f8bf:
 translate english ep26_dialogues2_steve3_cf442588:
 
     # steve "Сначала ты оставила меня без денег, а теперь оставляешь и без еды!"
-    steve "First you left me without money, now you want to take away my lunch!"
+    steve "First, you left me without money, now you want to take away my lunch!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:576
 translate english ep26_dialogues2_steve3_2406ad85:
@@ -918,7 +918,7 @@ translate english ep26_dialogues2_steve4_bec5bad3:
 translate english ep26_dialogues2_steve4_976ef27f:
 
     # m "Я не собираюсь делать эти мерзости за бесплатно!"
-    m "I'm not doing this disgusting things for free!"
+    m "I'm not doing these disgusting things for free!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:592
 translate english ep26_dialogues2_steve4_0328af1f:
@@ -932,7 +932,7 @@ translate english ep26_dialogues2_steve4_0328af1f:
 translate english ep26_dialogues2_steve4_fa2fb1dc:
 
     # steve "Либо не делать этого..."
-    steve "or not to do it..."
+    steve "Or not to do it..."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:608
 translate english ep26_dialogues2_steve4_cdc78589:
@@ -1042,7 +1042,7 @@ translate english ep26_dialogues2_steve5_63ac7fa9:
     # steve "К чему заставлять себя ехать через весь город?"
     steve "Betty!"
     steve "Doesn’t he have any subordinates to deliver the reports?"
-    steve "Why make his wife drive such a distanse for these reports?"
+    steve "Why make his wife drive such a distance for these reports?"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:677
 translate english ep26_dialogues2_steve5_dfb56708:
@@ -1055,7 +1055,7 @@ translate english ep26_dialogues2_steve5_7fc56242:
 
     # steve "Бетти, у Вас есть отличная гувернантка!"
     # steve "Ты бы могла поручить это ей!"
-    steve "Betty, don’t you have a wonderfull maid?"
+    steve "Betty, don’t you have a wonderful maid?"
     steve "You could delegate this task to her!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:682
@@ -1107,7 +1107,7 @@ translate english ep26_dialogues2_steve5_bac614c7:
 
     # jane "Хорошо, Мистер Стив."
     # jane "Позовете меня, если что-то потребуется."
-    jane "Okay, Mr Steve."
+    jane "Okay, Mr. Steve."
     jane "Call me if you need anything."
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:709
@@ -1138,7 +1138,7 @@ translate english ep26_dialogues2_steve5_ec4dafe7:
 translate english ep26_dialogues2_steve5_57aac7c4:
 
     # steve "Я ждал тебя, Бетти! Я так ждал тебя!"
-    steve "I was missing you Betty! Missing so much!"
+    steve "I was missing you, Betty! Missing so much!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:722
 translate english ep26_dialogues2_steve5_efd45f1b:
@@ -1222,7 +1222,7 @@ translate english ep26_dialogues2_steve5_f21f1bf6:
 translate english ep26_dialogues2_steve5_dccbb5ee:
 
     # steve "Мысль о том, что ты только что тренировала ее на фитнесе, возбуждает меня!"
-    steve "Just thinking about how you were working on it during your work outs exites me!"
+    steve "Just thinking about how you were working on it during your workouts excites me!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:765
 translate english ep26_dialogues2_steve5_0c988e33:
@@ -1300,7 +1300,7 @@ translate english ep26_dialogues2_steve5_cec333eb:
     # mt "Знакомые трусики..."
     # mt "Черт! Это точно сучка Бетти!"
     mt "Seems familiar..."
-    mt "Damn it. It's definetely this bitch, Betty!"
+    mt "Damn it. It's definitely this bitch, Betty!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:821
 translate english ep26_dialogues2_steve5_0cb02cd3:
@@ -1340,7 +1340,7 @@ translate english ep26_dialogues2_steve5_0cb02cd3:
     mt "And with me being here!"
     mt "!!!"
     mt "If I inform Ralf, Bardi will tell everything to Marcus, damn it!"
-    mt "He already warned me and from what I've seen he is not bluffing..."
+    mt "He already warned me and from what I've seen, he is not bluffing..."
     mt "Should I tell Bardi about this bitch?"
     mt "..."
     mt "No, better not to..."
@@ -1392,7 +1392,7 @@ translate english ep26_dialogues2_steve5_7825ab49:
     # steve "Моника, но за что?!"
     # steve "Я честный бизнесмен! Я облегчил тебе выполнение контракта!"
     steve "But why, Monica?"
-    steve "I'm an honest enterprenuer! I made some terms of our deal more easy for you!"
+    steve "I'm an honest entrepreneur! I made some terms of our deal more easy for you!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:871
 translate english ep26_dialogues2_steve5_57eb44eb:
@@ -1518,7 +1518,7 @@ translate english ep26_dialogues2_steve5_0b68e45b:
 translate english ep26_dialogues2_steve5_9b529a64:
 
     # steve "Отпусти мои... Отпусти меня и я переведу деньги немедленно!"
-    steve "Let my... Let me go and I'll transfer money immediately!"
+    steve "Let my... Let me go, and I'll transfer money immediately!"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:936
 translate english ep26_dialogues2_steve5_6f696eea:
@@ -1576,7 +1576,7 @@ translate english strings:
 
     # Quests/EP2_06/ep26_dialogues2_steve.rpy:521
     old "Не дать потрогать свою грудь."
-    new "Don not let him touch your chest."
+    new "Do not let him touch your chest."
 
     # Quests/EP2_06/ep26_dialogues2_steve.rpy:602
     old "Согласиться компенсировать неустойку"
@@ -1650,7 +1650,7 @@ translate english ep26_dialogues2_steve1_menu_loop1_5a361d4d:
     # steve "Иначе я могу потерять интерес к ней."
     # steve "А, кроме груди, у тебя, Моника, есть только твоя маленькая девственная дырочка в попе."
     # steve "Если ты захочешь, это останется для меня единственной загадкой в тебе как в женщине."
-    steve "Otherwise I can lose interest in her."
+    steve "Otherwise, I can lose interest in her."
     steve "And apart from your chest, Monica. The only mysterious thing you have left is your small virgin butthole."
     steve "Is it really what you want?"
 
@@ -1825,7 +1825,7 @@ translate english ep26_dialogues2_steve5_53cc9ffe:
     # mt "Может быть рассказать Барди про эту сучку?"
     mt "!!!"
     mt "If I inform Ralf, Bardi will tell everything to Marcus, damn it!"
-    mt "He already warned me and from what I've seen he is not bluffing..."
+    mt "He already warned me and from what I've seen, he is not bluffing..."
     mt "Should I tell Bardi about this bitch?"
 
 # game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1254
@@ -1854,7 +1854,7 @@ translate english strings:
 
     # Quests/EP2_06/ep26_dialogues2_steve.rpy:7
     old "Знакомство с Джейн."
-    new "Getting aquainted with Jane."
+    new "Getting acquainted with Jane."
 
     # Quests/EP2_06/ep26_dialogues2_steve.rpy:7
     old "Ревность Джейн. (в следующих обновлениях) (disabled)"

@@ -374,7 +374,7 @@ translate english ep22_dialogue6_4_4e57def4:
 translate english ep22_dialogue6_4_24fcd9b8:
 
     # alex_photograph "Вы хотите сделать еще одну фотосессию?"
-    alex_photograph "Do you want to do another photo shoot?"
+    alex_photograph "Do you want to do another photoshoot?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:302
 translate english ep22_dialogue6_4_23db4e42:
@@ -414,7 +414,7 @@ translate english ep22_dialogue6_5_4e57def4:
 translate english ep22_dialogue6_5_24fcd9b8:
 
     # alex_photograph "Вы хотите сделать еще одну фотосессию?"
-    alex_photograph "Do you want to do another photo shoot?"
+    alex_photograph "Do you want to do another photoshoot?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:341
 translate english ep22_dialogue6_5_e43324ce:
@@ -551,7 +551,7 @@ translate english ep22_dialogue6_7a_f5ebacc5:
 
     # mt "Я сделала фотосессию!"
     # mt "Мне надо получить деньги от Бифа!"
-    mt "I did a photo shoot!"
+    mt "I did a photoshoot!"
     mt "I need to get money from Biff!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:469
@@ -559,7 +559,7 @@ translate english ep22_dialogue6_7_c165afa3:
 
     # m "Биф! Я сделала фотосессию!"
     # "Где мои деньги?"
-    m "Biff! I did a photo shoot!"
+    m "Biff! I did a photoshoot!"
     "Where's my money?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:475
@@ -788,7 +788,7 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:387
     old "Не идти к Бифу."
-    new "Don't go to to Biff"
+    new "Don't go to Biff"
 
     # Quests/EP2_02/ep22_dialogues6.rpy:408
     old "Смириться с неизбежностью откровенных поз..."
@@ -1102,7 +1102,7 @@ translate english ep22_dialogue6_4_d28e74d8:
 translate english ep22_dialogue6_4_24fcd9b8_1:
 
     # alex_photograph "Вы хотите сделать еще одну фотосессию?"
-    alex_photograph "Do you want to do another photo shoot?"
+    alex_photograph "Do you want to do another photoshoot?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:462
 translate english ep22_dialogue6_5_5387a607_1:
@@ -1122,7 +1122,7 @@ translate english ep22_dialogue6_5_4e57def4_1:
 translate english ep22_dialogue6_5_24fcd9b8_1:
 
     # alex_photograph "Вы хотите сделать еще одну фотосессию?"
-    alex_photograph "Do you want to do another photo shoot?"
+    alex_photograph "Do you want to do another photoshoot?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:504
 translate english ep22_dialogue6_5_cd496de6_1:
@@ -1349,7 +1349,7 @@ translate english ep22_dialogue6_3_164b6c35:
     # "Цыпочек, которые не увиливают от посещения работы!"
     biff "No, girl!"
     biff "You are skipping your work to often!"
-    "It's time for other babes to ear money!"
+    "It's time for other babes to earn money!"
     "Babes who do not skip their job too often!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:317
@@ -1486,7 +1486,7 @@ translate english ep22_dialogue6_3_20243481:
     # biff "Значит цыпочка должна развлекать папочку!"
     biff "But girl! You will have to go through the audition after the photoshoot!"
     biff "Girl is working in daddy's office now!"
-    biff "Meaning she has to entartain her daddy now!"
+    biff "Meaning she has to entertain her daddy now!"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:461
 translate english ep22_dialogue6_3_463d2ad5_1:
@@ -1536,7 +1536,7 @@ translate english ep22_dialogue6_4_4e57def4_2:
 translate english ep22_dialogue6_4_24fcd9b8_2:
 
     # alex_photograph "Вы хотите сделать еще одну фотосессию?"
-    alex_photograph "Do you want to do another photo shoot?"
+    alex_photograph "Do you want to do another photoshoot?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:605
 translate english ep22_dialogue6_5_5387a607_2:
@@ -1556,7 +1556,7 @@ translate english ep22_dialogue6_5_4e57def4_2:
 translate english ep22_dialogue6_5_24fcd9b8_2:
 
     # alex_photograph "Вы хотите сделать еще одну фотосессию?"
-    alex_photograph "Do you want to do another photo shoot?"
+    alex_photograph "Do you want to do another photoshoot?"
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:664
 translate english ep22_dialogue6_5_cd496de6_2:
@@ -1670,5 +1670,5 @@ translate english strings:
 
     # Quests/EP2_02/ep22_dialogues6.rpy:421
     old "Монике надо ходить на работу в офис хотя бы раз в неделю."
-    new "Monica have to go to work in the office at least once a week."
+    new "Monica has to go to work in the office at least once a week."
 

@@ -34,7 +34,7 @@ translate english pub_environment_443f743b:
     # mt "Это Эшли. Жена Джо."
     # mt "Мне кажется что она немного странная."
     # mt "Хотя что может быть не странного в этой дыре?!"
-    mt "This is Ahley. Joe's wife."
+    mt "This is Ashley. Joe's wife."
     mt "She seems a bit weird to me."
     mt "At the same time, what is NOT weird is this hole?!"
 
@@ -70,7 +70,7 @@ translate english pub_environment_7bbd42f6:
     # mt "Эти девушки совсем не уважают себя!"
     # "Как можно делать подобное у всех на виду?!"
     mt "This girls do not respect themselves at all!"
-    "How can they do it in front of eveyone?!"
+    "How can they do it in front of everyone?!"
 
 # game/Rooms/Pub/pub.rpy:120
 translate english pub_environment_d24f74ff:

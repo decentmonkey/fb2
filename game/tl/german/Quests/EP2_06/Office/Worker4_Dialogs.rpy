@@ -15,16 +15,16 @@ translate german worker4_dialogue_workplace_51699f74:
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:10
 translate german worker4_dialogue_office_ff53ecb6:
 
-    # w4 "Миссис Бакфет, можно?"
+    # w4 "Миссис Бакфетт, можно?"
     w4 "Frau Buckfett, kann ich rein kommen?"
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:13
 translate german worker4_dialogue_office_7b953c57:
 
     # m "Да, заходи."
-    # w4 "Миссис Бакфет, у меня пропал интернет."
+    # w4 "Миссис Бакфетт, у меня пропал интернет."
     # m "Окей. И чем я тебе могу помочь?"
-    # m "Ты же знаешь, что этими проблемами занимается наш системный админимтратор."
+    # m "Ты же знаешь, что этими проблемами занимается наш системный администратор."
     # m "Пухлый коротышка в очках."
     # m "Так что иди к нему со своей проблемой."
     # w4 "Но он не хочет мне помогать."
@@ -99,7 +99,7 @@ translate german worker4_dialogue_office_97fb610b:
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:43
 translate german worker4_dialogue_office_c7436ff9:
 
-    # w4 "Миссис Бакфет, у меня пропал интернет."
+    # w4 "Миссис Бакфетт, у меня пропал интернет."
     w4 "Frau Buckfett, mein Internet funktioniert nicht mehr!"
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:45
@@ -111,7 +111,7 @@ translate german worker4_dialogue_office_f36dafd4:
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:48
 translate german worker4_dialogue_office_3ce419d7:
 
-    # m "Ты же знаешь, что этими проблемами занимается наш системный админимтратор."
+    # m "Ты же знаешь, что этими проблемами занимается наш системный администратор."
     m "Unser Systemadmin muss sich um sowas kümmern."
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:51

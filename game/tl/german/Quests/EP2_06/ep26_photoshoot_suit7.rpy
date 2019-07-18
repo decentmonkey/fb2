@@ -128,7 +128,7 @@ translate german ep26_photoshoot_suit7_d3f304a6:
 translate german ep26_photoshoot_suit7_7f4a0034:
 
     # m "Алекс, я не буду вставать в эту позу, даже не надейся!"
-    # m "А меня грудь почти открыта, прикрыты только соски!"
+    # m "У меня грудь почти открыта, прикрыты только соски!"
     # alex_photograph "Миссис Бакфетт, Ваша грудь обнажена не более, чем в приличном нижнем белье."
     # alex_photograph "Не переживайте, ничего не видно."
     # m "Точно?"
@@ -671,7 +671,7 @@ translate german ep26_photoshoot_suit7_pose6_b93eb7a1:
 
     # alex_photograph "Следующая поза, Миссис Бакфетт!"
     # m "Алекс, я не буду вставать в эту позу, даже не надейся!"
-    # m "А меня грудь почти открыта, прикрыты только соски!"
+    # m "У меня грудь почти открыта, прикрыты только соски!"
     alex_photograph "Nächste Pose, bitte!"
     m "Ich werde mich so nicht ablichten lassen!"
     m "Meine Brüste sind nahezu frei sichtbar!"
@@ -1112,5 +1112,5 @@ translate german strings:
 
     # Quests/EP2_06/ep26_photoshoot_suit7.rpy:934
     old "Опустить руки. (недостаточные отношения с Алексом, required lvl. 2) (disabled)"
-    new ""
+    new "Lass deine Hände runter hängen. (low relationship with Alex, required lvl.2) (disabled)"
 

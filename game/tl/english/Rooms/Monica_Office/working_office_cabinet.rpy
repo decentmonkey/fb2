@@ -78,8 +78,8 @@ translate english working_office_cabinet_environment_0f4f6cc2:
     # mt "Кто Я и кто она?!"
     # mt "Фи!"
     mt "She was better as a maid."
-    mt "She doent have any chances to reach my level anyways!"
-    mt "Who am I and who is she?!"
+    mt "She doesn't have any chances to reach my level anyways!"
+    mt "Who am I, and who is she?!"
     mt "Phi!"
 
 # game/Rooms/Monica_Office/working_office_cabinet.rpy:129
@@ -88,7 +88,7 @@ translate english working_office_cabinet_environment_64c1d5ac:
     # mt "Компьютер не работает."
     # mt "Я не удивлена."
     # mt "Биф не хочет, чтобы я имела доступ хоть к чему-то ценному..."
-    mt "Computet doesn't work."
+    mt "Computer doesn't work."
     mt "Why I'm not surprised."
     mt "Biff doesn't want me to have an access to anything valuable..."
 
@@ -130,7 +130,7 @@ translate english working_office_cabinet_environment_0ca3a0fd:
 translate english working_office_cabinet_environment_9af3465f:
 
     # mt "За этим столом я провожу свой рабочий день..."
-    mt "I'm spending my work day at this table..."
+    mt "I'm spending my workday at this table..."
 
 # game/Rooms/Monica_Office/working_office_cabinet.rpy:169
 translate english working_office_cabinet_environment_3556f4f7:
@@ -146,7 +146,7 @@ translate english working_office_cabinet_environment_3556f4f7:
     mt "What's that?"
     mt "Telescope or projector?"
     mt "..."
-    mt "Is is a hidden camera?"
+    mt "Is it a hidden camera?"
     mt "That's it!"
     mt "Biff is watching me..."
     mt "Dirty bastard..."

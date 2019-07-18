@@ -63,7 +63,7 @@ translate english ep26_photoshoot_suit6_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Ma'am! We're finished with the photo shoot!"
+    alex_photograph "Ma'am! We're finished with the photoshoot!"
     m "Finally!!!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:160
@@ -312,7 +312,7 @@ translate english ep26_photoshoot_suit6_pose10_3bfb839a:
 translate english ep26_photoshoot_suit6_pose10_3b7827ad:
 
     # alex_photograph "Это прекрасная поза, Миссис Бакфетт!"
-    alex_photograph "This is great pose, Mrs. Buckfett!"
+    alex_photograph "This is a great pose, Mrs. Buckfett!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:764
 translate english ep26_photoshoot_suit6_pose10_8ecf3774:
@@ -364,7 +364,7 @@ translate english ep26_photoshoot_suit6_pose11_78be36ec:
     # m "Только один! И не ближе!"
     # alex_photograph "Конечно!"
     alex_photograph "Yes, Mrs. Buckfett!"
-    alex_photograph "Don't worry, costume is hidding everything!"
+    alex_photograph "Don't worry, costume is hiding everything!"
     m "Really?!"
     alex_photograph "Yes, Mrs. Buckfett! One more photo!"
     m "Only one! And not closer!"
@@ -375,7 +375,7 @@ translate english ep26_photoshoot_suit6_end_b9cd880a:
 
     # alex_photograph "Мэм! Мы закончили фотосессию!"
     # m "Наконец-то!!!"
-    alex_photograph "Ma'am! We're finished with the photo shoot!"
+    alex_photograph "Ma'am! We're finished with the photoshoot!"
     m "Finally!!!"
 
 # game/Quests/EP2_06/ep26_photoshoot_suit6.rpy:923

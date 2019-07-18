@@ -74,7 +74,7 @@ translate english ep25_dialogues3_steve1a_fbfac77a:
 translate english ep25_dialogues3_steve1a_51aaee09:
 
     # m "Стив, меня беспокоит возможность нежелательной беременности."
-    m "Steve, I don’t want unxpected pregnancy."
+    m "Steve, I don’t want unexpected pregnancy."
 
 # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:78
 translate english ep25_dialogues3_steve1a_97c3fb40:
@@ -209,7 +209,7 @@ translate english ep25_dialogues3_steve1a_df0e97b3:
 
     # steve "Джейн, принести, пожалуйста, стакан воды."
     # steve "У Миссис Бакфетт болит голова и ей надо запить таблетку."
-    steve "Bring us a glass of water please."
+    steve "Bring us a glass of water, please."
     steve "Mrs. Buckfett has a headache and need something to drink a pill with."
 
 # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:152
@@ -614,7 +614,7 @@ translate english ep25_dialogues3_steve2_27d7c8c1:
     # steve "Зато $ 5000 сразу отправятся на твой любимый адрес!"
     steve "And as a business-woman you should be familiar with this, Monica."
     steve "There is nothing unusual."
-    steve "And you will immediately get $ 5000 on the adress you have specified."
+    steve "And you will immediately get $ 5000 on the address you have specified."
 
 # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:458
 translate english ep25_dialogues3_steve2_29a4f6ab_1:
@@ -648,7 +648,7 @@ translate english ep25_dialogues3_steve2_b5329f24:
     # mt "В отличии от фотосессий у Бифа, где на меня смотрит весь мир..."
     mt "Still can't believe what's happening..."
     mt "At least no one will find out about it."
-    mt "Especially compared to photo shoots with Biff, where I'm posing for a whole world."
+    mt "Especially compared to photoshoots with Biff, where I'm posing for a whole world."
 
 # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:483
 translate english ep25_dialogues3_steve2_77e1c5e4:
@@ -982,7 +982,7 @@ translate english ep25_dialogues3_steve4b_da662ac5:
 translate english ep25_dialogues3_steve4b_58227ab2:
 
     # tiffany "Иначе я заявлю о харрасменте!"
-    tiffany "Or I'm going to file harrassment charge!"
+    tiffany "Or I'm going to file harassment charge!"
 
 # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:782
 translate english ep25_dialogues3_steve4b_7fce0f9c:
@@ -1008,7 +1008,7 @@ translate english ep25_dialogues3_steve4b_8a436021:
     # m "И что теперь?"
     # m "Из-за этой дешевой шлюхи мне придется снова его поднимать?"
     m "What now?"
-    m "Because of this stupid whore I have to work on your dick again?!"
+    m "Because of this stupid whore, I have to work on your dick again?!"
 
 # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:801
 translate english ep25_dialogues3_steve4b_747c555e:
@@ -1028,7 +1028,7 @@ translate english ep25_dialogues3_steve4b_29a4f6ab:
 translate english ep25_dialogues3_steve4b_9eacdcc9:
 
     # steve "Моника, ты можешь продолжать. Контракт еще не закрыт."
-    steve "You can continue, Monica. You still have to fulfull your obligations."
+    steve "You can continue, Monica. You still have to fulfill your obligations."
 
 # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:809
 translate english ep25_dialogues3_steve4b_29a4f6ab_1:
@@ -1240,7 +1240,7 @@ translate english ep25_dialogues3_steve1b_fbfac77a:
 translate english ep25_dialogues3_steve1b_51aaee09:
 
     # m "Стив, меня беспокоит возможность нежелательной беременности."
-    m "Steve, I don’t want unxpected pregnancy."
+    m "Steve, I don’t want unexpected pregnancy."
 
 # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:136
 translate english ep25_dialogues3_steve1b_97c3fb40:
@@ -1379,7 +1379,7 @@ translate english ep25_dialogues3_steve1b_df0e97b3:
 
     # steve "Джейн, принести, пожалуйста, стакан воды."
     # steve "У Миссис Бакфетт болит голова и ей надо запить таблетку."
-    steve "Bring us a glass of water please."
+    steve "Bring us a glass of water, please."
     steve "Mrs. Buckfett has a headache and need something to drink a pill with."
 
 # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:252

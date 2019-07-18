@@ -150,11 +150,11 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Похоже я нашла возможность зарабатывать деньги, делая фотосессии у Бифа. Но эти фотосессии все более развратные. Долго-ли я смогу себе это позволять?"
-    new "Looks like I found a way to make money by doing a photo shoot at Biff. But these photo shoots are more and more depraved. Can I afford it?"
+    new "Looks like I found a way to make money by doing a photoshoot at Biff. But these photoshoots are more and more depraved. Can I afford it?"
 
     # Quests/Question_Helper_Info.rpy:115
     old "Я отказалась от того что хочет Биф. Но найду-ли я другой способ достать деньги? Возможно, мне придется, все-таки, передумать?"
-    new "I gave up what Biff wanted. But will I find another way to get the money? Though, I might have to change my mind."
+    new "I gave up what Biff wanted. But will I find another way to get the money? Though I might have to change my mind."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Мне надо как-то найти $ 5000 до пятницы. Где мне их взять? Может быть спросить Бифа о работе?"
@@ -170,7 +170,7 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Теперь Дик имеет свой галстук! Мой кошмар закончился. Надо проведать его."
-    new "Now Dick has his tie! My nightmare is over. I should go see him."
+    new "Now Dick has his tie! My nightmare is over. I should go to see him."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Теперь я должна приносить Виктории раз в неделю $ 5000 до пятницы. Я даже не представляла насколько она опасна."
@@ -182,7 +182,7 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:115
     old "Мелани обещала узнать всю правду про Дика. За это я согласилась поучаствовать с ней в какой-то фотосессии. Надеюсь я не пожалею об этом..."
-    new "Melanie promised to know the whole truth about Dick. For this, I agreed to take part in a photo shoot with her. I hope I'll not regret it..."
+    new "Melanie promised to know the whole truth about Dick. For this, I agreed to take part in a photoshoot with her. I hope I'll not regret it..."
 
     # Quests/Question_Helper_Info.rpy:115
     old "Это был жуткий кошмар, но я надеюсь оно того стоило! Ну держись, Виктория! Я нашла кое-кого кто тебе не по зубам!"
@@ -254,11 +254,11 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:149
     old "Барди снова требует от меня каких-то извращений! Похоже, удалось переключить его на Бетти. Давно стоит проучить ее за то как она обращается со мной! Итак, надо сообщать Барди когда мы собираемся идти на фитнесс..."
-    new "Bardi is demanding something perverted from me again! Looks like I was able to point him towards Betty for now. Serves her right for treating me like that. Have to infrom Bardi when we are going to the gym..."
+    new "Bardi is demanding something perverted from me again! Looks like I was able to point him towards Betty for now. Serves her right for treating me like that. Have to inform Bardi when we are going to the gym..."
 
     # Quests/Question_Helper_Info.rpy:149
     old "Барди удалось найти компромат на Бетти. Надеюсь теперь он оставит меня в покое!"
-    new "Bardi was able to find blackmail material on Betty. Hopefully he will leave me alone now."
+    new "Bardi was able to find blackmail material on Betty. Hopefully, he will leave me alone now."
 
     # Quests/Question_Helper_Info.rpy:149
     old "Барди хочет чтобы я одевала трусики Бетти, которые она носила в прошлый раз. Бетти обязана показать мне их, если я спрошу."
@@ -270,7 +270,7 @@ translate english strings:
 
     # Quests/Question_Helper_Info.rpy:149
     old "Я теперь должна ходить без трусиков в доме. Иначе Барди накажет меня. Мерзавец!"
-    new "I can't wear panties now at home, otherwise Bardi will punish me. What an asshole!"
+    new "I can't wear panties now at home, otherwise Bardie will punish me. What an asshole!"
 
     # Quests/Question_Helper_Info.rpy:149
     old "Бетти теперь должна ходить без трусиков в доме. Она сказала что я могу проверять это. Это все проделки Барди!"

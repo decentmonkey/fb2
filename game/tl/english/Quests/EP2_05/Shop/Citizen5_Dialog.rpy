@@ -48,7 +48,7 @@ translate english cit5_dialog_2_f50beb05:
     # m "У тебя есть деньги?"
     # cit5 "У меня много денег, но родители не разрешают мне ходить по магазинам. Хи-хи"
     m "Do you have money?"
-    cit5 "I have a lot of money, hovewer my parents prohibit me going shopping. Hehehe"
+    cit5 "I have a lot of money, however my parents prohibit me going shopping. Hehehe"
 
 # game/Quests/EP2_05/Shop/Citizen5_Dialog.rpy:28
 translate english cit5_dialog_2_706e6bed:
@@ -110,7 +110,7 @@ translate english cit5_dialog_3_7cc8a10d:
 translate english cit5_dialog_3_ce9d0edd:
 
     # cit5 "Покажи свою киску и я куплю это платье..."
-    cit5 "Show me your pussy and I'll buy the dress."
+    cit5 "Show me your pussy, and I'll buy the dress."
 
 # game/Quests/EP2_05/Shop/Citizen5_Dialog.rpy:63
 translate english cit5_dialog_3_7ea10a71:
@@ -120,7 +120,7 @@ translate english cit5_dialog_3_7ea10a71:
     # cit5 "Покажи ее и я куплю это платье..."
     m "WHAAAT?!"
     cit5 "Your pussy!"
-    cit5 "Show it to me and I'll buy the dress..."
+    cit5 "Show it to me, and I'll buy the dress..."
 
 # game/Quests/EP2_05/Shop/Citizen5_Dialog.rpy:67
 translate english cit5_dialog_3_6cbbd2d6:
