@@ -1197,32 +1197,123 @@ label ep26_dialogues2_steve5:
     with diss
     pause 1.0
     music Loved_Up2
-    #video
     img 20379
     with fadelong
-    steve "Да, Бетти! Да!"
+    betty "Ты куда залез, Стив?!"
+    #video
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_SteveOffice_Steve_Betty_Anal_1.mp3"
+    scene black
+    image videov_SteveOffice_Steve_Betty_Anal_1_1 = Movie(play="video/v_SteveOffice_Steve_Betty_Anal_1_1.mkv", fps=30)
+    show videov_SteveOffice_Steve_Betty_Anal_1_1
+    with fadelong
+    wclean
+    music Loved_Up2
     img 20380
+    with fade
+    steve "Да, Бетти! Да!"
     w
     img 20382
-    betty "Ты куда залез, Стив?!"
+    with diss
     betty "Ай!!!"
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_SteveOffice_Steve_Betty_Anal_1.mp3"
+    scene black
+    image videov_SteveOffice_Steve_Betty_Anal_1_2 = Movie(play="video/v_SteveOffice_Steve_Betty_Anal_1_2.mkv", fps=30)
+    show videov_SteveOffice_Steve_Betty_Anal_1_2
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_SteveOffice_Steve_Betty_Anal_1.mp3"
+    scene black
+    image videov_SteveOffice_Steve_Betty_Anal_1_3 = Movie(play="video/v_SteveOffice_Steve_Betty_Anal_1_3.mkv", fps=30)
+    show videov_SteveOffice_Steve_Betty_Anal_1_3
+    with fadelong
+    wclean
+    music Loved_Up2
     img 20381
+    with fade
     steve "В твою попку, Бетти!"
     steve " Я так давно хотел тебя трахнуть в попку!"
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_SteveOffice_Steve_Betty_Anal_1.mp3"
+    scene black
+    image videov_SteveOffice_Steve_Betty_Anal_1_4 = Movie(play="video/v_SteveOffice_Steve_Betty_Anal_1_4.mkv", fps=30)
+    show videov_SteveOffice_Steve_Betty_Anal_1_4
+    with fadelong
+    wclean
+    music Loved_Up2
     img 20383
+    with fade
     betty "Мне больно!"
 
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_SteveOffice_Steve_Betty_Anal_1.mp3"
+    scene black
+    image videov_SteveOffice_Steve_Betty_Anal_1_5 = Movie(play="video/v_SteveOffice_Steve_Betty_Anal_1_5.mkv", fps=30)
+    show videov_SteveOffice_Steve_Betty_Anal_1_5
+    with fadelong
     steve "Твоя попка, Бетти!"
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_SteveOffice_Steve_Betty_Anal_1.mp3"
+    scene black
+    image videov_SteveOffice_Steve_Betty_Anal_1_6 = Movie(play="video/v_SteveOffice_Steve_Betty_Anal_1_6.mkv", fps=30)
+    show videov_SteveOffice_Steve_Betty_Anal_1_6
+    with fadelong
     steve " Мне нравиться трахать тебя в твою дырочку!"
+    wclean
 
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_SteveOffice_Steve_Betty_Anal_1.mp3"
+    scene black
+    image videov_SteveOffice_Steve_Betty_Anal_1_7 = Movie(play="video/v_SteveOffice_Steve_Betty_Anal_1_7.mkv", fps=30)
+    show videov_SteveOffice_Steve_Betty_Anal_1_7
+    with fadelong
     steve "Она бесподобна!"
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_SteveOffice_Steve_Betty_Anal_1.mp3"
+    scene black
+    image videov_SteveOffice_Steve_Betty_Anal_1_8 = Movie(play="video/v_SteveOffice_Steve_Betty_Anal_1_8.mkv", fps=30)
+    show videov_SteveOffice_Steve_Betty_Anal_1_8
+    with fadelong
     steve "Я хочу кончить в нее"
+    wclean
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
     sound bulk1
     steve "ААААААААХХХ!"
 
     music Groove2_85
     img 20384
-    with fade
+    with fadelong
     if bettySteveKitchenSex == True:
         betty "Черт, Стив! Ты снова кончил в меня?!"
         img 20385
@@ -1233,8 +1324,10 @@ label ep26_dialogues2_steve5:
 
 
     img 20386
+    with diss
     steve "Бетти, это всего-лишь твоя попка!"
     img 20387
+    with diss
     steve "Не волнуйся!"
 
     img 20388

@@ -1952,3 +1952,47 @@ translate english ep26_dialogues2_steve3_4b191628:
     m "I have a private trainer."
     m "Who knows his job very well and knows how to achieve goals."
 
+# TODO: Translation updated at 2019-07-19 13:20
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1202
+translate english ep26_dialogues2_steve5_3e0892bf:
+
+    # betty "Ты куда залез, Стив?!"
+    betty "Where are you putting it, Steve?!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1221
+translate english ep26_dialogues2_steve5_f67169af:
+
+    # betty "Ай!!!"
+    betty "Ouch!!!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1260
+translate english ep26_dialogues2_steve5_1e10d8f7:
+
+    # betty "Мне больно!"
+    betty "It hurts!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1271
+translate english ep26_dialogues2_steve5_37f20d08:
+
+    # steve "Твоя попка, Бетти!"
+    steve "Your butt!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1282
+translate english ep26_dialogues2_steve5_66655c97:
+
+    # steve " Мне нравиться трахать тебя в твою дырочку!"
+    steve "I love fucking your hole!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1294
+translate english ep26_dialogues2_steve5_3b1bbd06:
+
+    # steve "Она бесподобна!"
+    steve "Is marvelous!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1305
+translate english ep26_dialogues2_steve5_9925c068:
+
+    # steve "Я хочу кончить в нее"
+    steve "I want to cum into it"
+

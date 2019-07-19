@@ -1952,3 +1952,47 @@ translate german ep26_dialogues2_steve3_4b191628:
     m "Ich habe einen Privattrainer."
     m "Der seinen Job gut macht und weiß, wie man Ziele erreicht."
 
+# TODO: Translation updated at 2019-07-19 13:18
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1202
+translate german ep26_dialogues2_steve5_3e0892bf:
+
+    # betty "Ты куда залез, Стив?!"
+    betty "Wohin steckst du ihn, Steve?"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1221
+translate german ep26_dialogues2_steve5_f67169af:
+
+    # betty "Ай!!!"
+    betty "Aua!!!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1260
+translate german ep26_dialogues2_steve5_1e10d8f7:
+
+    # betty "Мне больно!"
+    betty "Es tut weh!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1271
+translate german ep26_dialogues2_steve5_37f20d08:
+
+    # steve "Твоя попка, Бетти!"
+    steve "Dein Arsch!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1282
+translate german ep26_dialogues2_steve5_66655c97:
+
+    # steve " Мне нравиться трахать тебя в твою дырочку!"
+    steve "Ich liebe es, dieses Loch zu nutzen!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1294
+translate german ep26_dialogues2_steve5_3b1bbd06:
+
+    # steve "Она бесподобна!"
+    steve "Er ist unbeschreiblich!"
+
+# game/Quests/EP2_06/ep26_dialogues2_steve.rpy:1305
+translate german ep26_dialogues2_steve5_9925c068:
+
+    # steve "Я хочу кончить в нее"
+    steve "Ich will drinnen kommen"
+

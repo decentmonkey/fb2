@@ -10,7 +10,7 @@ label ep26_dialogues1_bardie1:
     img black_screen
     with diss
     pause 2.0
-    music Indo_Rock2
+    music Loved_Up
     # Сцена Барди с журналом
     # Старт, пара кадров
     #video
@@ -18,19 +18,60 @@ label ep26_dialogues1_bardie1:
     with fadelong
     bardie "Аххх! Ахххх!!!"
     bardie "Моника Бакфетт..."
+    img black_screen
+    with diss
+#    stop music
+#    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
+    scene black
+    image videov_Bardie_Masturbation_1_1 = Movie(play="video/v_Bardie_Masturbation_1_1.mkv", fps=30)
+    show videov_Bardie_Masturbation_1_1
+    with fade
+    wclean
     img 12960
     with fade
     bardie "Аххх! Ахххх!!!"
+    img black_screen
+    with diss
+#    stop music
+#    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
+    scene black
+    image videov_Bardie_Masturbation_1_2 = Movie(play="video/v_Bardie_Masturbation_1_2.mkv", fps=30)
+    show videov_Bardie_Masturbation_1_2
+    with fade
+    wclean
     img 12961
     with fade
     bardie "Моя гувернантка..."
     bardie "Аххх!"
+    img black_screen
+    with diss
+#    stop music
+#    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
+    scene black
+    image videov_Bardie_Masturbation_1_3 = Movie(play="video/v_Bardie_Masturbation_1_3.mkv", fps=30)
+    show videov_Bardie_Masturbation_1_3
+    with fade
+    wclean
     img 12962
     with fade
     bardie "Я молодец!"
     bardie "Я хороший хозяин, Аххх!"
     # video end
     # Барди кончает
+    img black_screen
+    with diss
+#    stop music
+#    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
+    scene black
+    image videov_Bardie_Masturbation_1_4 = Movie(play="video/v_Bardie_Masturbation_1_4.mkv", fps=30)
+    show videov_Bardie_Masturbation_1_4
+    with fade
+    wclean
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Loved_Up2
     sound hlup10
     img 12963
     with diss
@@ -44,6 +85,7 @@ label ep26_dialogues1_bardie1:
     img 12964
     with diss
     w
+    music stop
     sound hlup19
     img 13183
     with diss
@@ -95,6 +137,9 @@ label ep26_dialogues1_bardie1:
     img 12974
     with fadelong
     m "Что... Что ты делаешь??"
+    img 13183
+    with diss
+    w
     img 13184
     with diss
     m "Это... Это Я?!"
@@ -553,25 +598,111 @@ label ep26_dialogues1_bardie4:
     bardie "Вот так. А теперь начинай двигать ими вверх и вниз!"
 # Барди говорит хорошая гувернантка и тд
     # video
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+    scene black
+    image videov_Monica_Bardie_Titjob_1_1 = Movie(play="video/v_Monica_Bardie_Titjob_1_1.mkv", fps=30)
+    show videov_Monica_Bardie_Titjob_1_1
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+    scene black
+    image videov_Monica_Bardie_Titjob_1_2 = Movie(play="video/v_Monica_Bardie_Titjob_1_2.mkv", fps=30)
+    show videov_Monica_Bardie_Titjob_1_2
+    with fadelong
+    wclean
+    music Loved_Up
     img 13045
     with fade
     w
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+    scene black
+    image videov_Monica_Bardie_Titjob_1_3 = Movie(play="video/v_Monica_Bardie_Titjob_1_3.mkv", fps=30)
+    show videov_Monica_Bardie_Titjob_1_3
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+    scene black
+    image videov_Monica_Bardie_Titjob_1_4 = Movie(play="video/v_Monica_Bardie_Titjob_1_4.mkv", fps=30)
+    show videov_Monica_Bardie_Titjob_1_4
+    with fadelong
+    wclean
+    music Loved_Up
     img 13046
     with fade
     bardie "Хорошая гувернантка..."
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+    scene black
+    image videov_Monica_Bardie_Titjob_1_5 = Movie(play="video/v_Monica_Bardie_Titjob_1_5.mkv", fps=30)
+    show videov_Monica_Bardie_Titjob_1_5
+    with fadelong
+    wclean
+    music Loved_Up
     img 13047
     with fade
     w
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+    scene black
+    image videov_Monica_Bardie_Titjob_1_6 = Movie(play="video/v_Monica_Bardie_Titjob_1_6.mkv", fps=30)
+    show videov_Monica_Bardie_Titjob_1_6
+    with fadelong
+    wclean
+    music Loved_Up
     img 13048
     with fade
     bardie "Хорошая..."
     bardie "Протирай как следует, это твоя работа..."
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+    scene black
+    image videov_Monica_Bardie_Titjob_1_7 = Movie(play="video/v_Monica_Bardie_Titjob_1_7.mkv", fps=30)
+    show videov_Monica_Bardie_Titjob_1_7
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    stop music
+    play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+    scene black
+    image videov_Monica_Bardie_Titjob_1_8 = Movie(play="video/v_Monica_Bardie_Titjob_1_8.mkv", fps=30)
+    show videov_Monica_Bardie_Titjob_1_8
+    with fadelong
+    wclean
 # Когда заканчивают, Барди говорит Монике придти завтра, когда он уладит обязанности хозяина дома и
 # выдаст необходимые распоряжения Бетти
     # end video
 
     # Барди кончает на грудь Монике
     music stop
+    stop music
+    img black_screen
+    with diss
     bardie "Оооооох!!!"
     sound bulk1
     img 13123
