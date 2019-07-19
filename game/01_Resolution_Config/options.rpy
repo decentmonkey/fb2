@@ -32,13 +32,17 @@ define config.version = "EP2-v0.6"
 define gui.about = _p("""
 Thanks to:
 
-The big Dog
+Abelardo
+
+Jetvoice
+
+Prometheus
 
 Ronny schönherr
 
 Stefan Kemske
 
-Jetvoice
+The big Dog
 
 for great support!
 

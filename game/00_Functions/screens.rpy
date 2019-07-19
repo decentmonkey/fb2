@@ -1650,6 +1650,7 @@ screen navigation():
 
         textbutton _("New Episodes") action OpenURL("http://decent-monkey.com/news/")
         textbutton _("Guide") action OpenURL("http://decent-monkey.com/walkthrough/")
+        textbutton ("Become Supporter") action OpenURL("http://www.patreon.com/decentmonkey/")
         textbutton _("My Thanks") action ShowMenu("about")
 
         if renpy.variant("pc"):
