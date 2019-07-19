@@ -1186,18 +1186,44 @@ screen questlog_screen(inText):
 #                area (getRes(700), getRes(95), getRes(750), getRes(1001))
 #                viewport id "questlog_journal":
 #                    draggable True mousewheel True
-        text inText:
-            xpos getRes(700)
-            ypos getRes(95)
-            xsize getRes(580)
-            style "questlog_text_style"
-#                vbar value YScrollValue("questlog_journal")
+#        viewport:
+#            xinitial getRes(587)
+#            yinitial getRes(42)
+#            child_size (getRes(580), getRes(700))
+#            scrollbars "vertical"
+#            mousewheel True
+#            draggable True
+#            pagekeys True
+
+#            side_yfill True
+
+#            vbox:
+#                transclude
         button:
             xfill True
             yfill True
             action [
                 Return()
             ]
+        viewport id "questlog_viewport":
+#            xinitial getRes(587)
+#            yinitial getRes(42)
+            xpos getRes(700)
+            ypos getRes(95)
+            draggable True
+            scrollbars "vertical"
+            xmaximum getRes(650)
+            ymaximum getRes(878)
+            mousewheel True
+            pagekeys True
+            text inText:
+                xsize getRes(580)
+                style "questlog_text_style"
+#        vbar value YScrollValue("questlog_viewport")
+#                    xpos getRes(700)
+#                    ypos getRes(95)
+#                    xsize getRes(580)
+        #                vbar value YScrollValue("questlog_journal")
         imagebutton:
             xpos getRes(1280)
             ypos getRes(80)

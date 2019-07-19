@@ -2346,18 +2346,18 @@ translate english strings:
 
     # Quests/EP2_05/ep25_dialogues2_steve.rpy:437
     old "Ты собираешься переводить мне деньги, Стив? (не было сделки со Стивом)"
-    new "Steve, are you planning to transfer me money? (Monica didn't have a deal with Steve)"
+    new "Steve, will you transfer money to me? (Monica didn't have a deal with Steve)"
 
     # Quests/EP2_05/ep25_dialogues2_steve.rpy:437
     old "Ты собираешься переводить мне деньги, Стив? (была сделка со Стивом)"
-    new "Steve, are you planning to transfer me money? (Monica had a deal with Steve)"
+    new "Steve, will you transfer money to me? (Monica had a deal with Steve)"
 # TODO: Translation updated at 2019-06-07 03:31
 
 translate english strings:
 
     # Quests/EP2_05/ep25_dialogues2_steve.rpy:437
     old "Ты собираешься переводить мне деньги, Стив? (была сделка со Стивом) (disabled)"
-    new "Steve, are you planning to transfer me money? (Monica had a deal with Steve) (disabled)"
+    new "Steve, will you transfer money to me? (Monica had a deal with Steve) (disabled)"
 # TODO: Translation updated at 2019-06-07 11:05
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:619
