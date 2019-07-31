@@ -681,6 +681,7 @@ label cit3_naked_boobs_dance_variant2:
     menu:
         "Мне нужны деньги.":
             pass
+    img 13306
     m "Мне нужны деньги!"
     img 13305
     citizen3 "Ты не знаешь от чего отказываешься, ну ладно, держи..."
