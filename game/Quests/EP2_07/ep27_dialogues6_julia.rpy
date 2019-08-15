@@ -27,7 +27,7 @@ label ep27_dialogues6_julia2:
     mt "Теперь можно отнести их моей секретарше."
     return
 
-label ep27_dialogues6_julia3:
+label ep27_dialogues6_julia3b:
     # Моника пытается выйти из офиса до того как сдала собранные отчеты
     mt "Мне надо сдать отчеты моей секретарше."
     return

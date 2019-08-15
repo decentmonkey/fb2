@@ -731,7 +731,7 @@ label cit9_naked_boobs_dance_variant1:
     return True
 
 #  танцы с сиськами 2 вариант
-label cit9_naked_boobs_dance_variant1:
+label cit9_naked_boobs_dance_variant2:
     img 13663
     citizen9 "Расчехляй близняжек и на шест!"
     img 13634
