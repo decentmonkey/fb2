@@ -860,3 +860,293 @@ translate english strings:
     old "Почему бы и нет. Это возможность заработать деньги..."
     new "Why not. It's an opportunity to earn some cash..."
 
+# TODO: Translation updated at 2019-08-15 14:57
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:522
+translate english cit3_naked_boobs_dance_1st_27f9662b:
+
+    # citizen3 "Детка, разденься и покрутись ка на шесте!"
+    # citizen3 "Надо же его использовать по назначению."
+    citizen3 "Детка, разденься и покрутись ка на шесте!"
+    citizen3 "Надо же его использовать по назначению."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:525
+translate english cit3_naked_boobs_dance_1st_7a7b8d5b:
+
+    # m "Не слишком ли многого ты хочешь!?"
+    m "Не слишком ли многого ты хочешь!?"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:527
+translate english cit3_naked_boobs_dance_1st_28b0f4a9:
+
+    # citizen3 "Нет, детка, совсем не многого!"
+    # citizen3 "Знала бы ты мои фантазии... Я там..."
+    citizen3 "Нет, детка, совсем не многого!"
+    citizen3 "Знала бы ты мои фантазии... Я там..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:531
+translate english cit3_naked_boobs_dance_1st_9683b582:
+
+    # m "Мне не интересно!"
+    m "Мне не интересно!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:533
+translate english cit3_naked_boobs_dance_1st_1eb8b4ff:
+
+    # citizen3 "Ладно, тогда раздевайся и крутись!"
+    citizen3 "Ладно, тогда раздевайся и крутись!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:540
+translate english cit3_naked_boobs_dance_1st_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:543
+translate english cit3_naked_boobs_dance_1st_f4965ca3:
+
+    # mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
+    # mt "Хуже уже не будет..."
+    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
+    mt "Хуже уже не будет..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:546
+translate english cit3_naked_boobs_dance_1st_16773ef0:
+
+    # m "Ладно. Только отвернись!"
+    m "Ладно. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:549
+translate english cit3_naked_boobs_dance_1st_08409749:
+
+    # citizen3 "Да, детка, как скажещь!"
+    citizen3 "Да, детка, как скажещь!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:553
+translate english cit3_naked_boobs_dance_1st_6c4529b0:
+
+    # citizen3 "Танцуй уже!"
+    citizen3 "Танцуй уже!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:560
+translate english cit3_naked_boobs_dance_1st_62de20ed:
+
+    # citizen3 "Да, детка, молодец!"
+    citizen3 "Да, детка, молодец!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:565
+translate english cit3_naked_boobs_dance_1st_e460966f:
+
+    # citizen3 "А какие у тебя ножки! Ух!"
+    citizen3 "А какие у тебя ножки! Ух!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:568
+translate english cit3_naked_boobs_dance_1st_d28d9672:
+
+    # citizen3 "Я бы заплатил 7, или нет, 9 долларов если ты дотронешься своей ножкой до моего дружка!"
+    # citizen3 "Ты же понимаешь о ком я?"
+    citizen3 "Я бы заплатил 7, или нет, 9 долларов если ты дотронешься своей ножкой до моего дружка!"
+    citizen3 "Ты же понимаешь о ком я?"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:571
+translate english cit3_naked_boobs_dance_1st_ba84bb4b:
+
+    # mt "Да заткнись ты уже... Я бы на такое не согласилась и за 7000 долларов..."
+    # mt "Хотя..."
+    mt "Да заткнись ты уже... Я бы на такое не согласилась и за 7000 долларов..."
+    mt "Wait..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:574
+translate english cit3_naked_boobs_dance_1st_d5dbd52a:
+
+    # citizen3 "Детка, почему ты молчишь? Сара за 7 баксов мне бы уже отсасывала!"
+    citizen3 "Детка, почему ты молчишь? Сара за 7 баксов мне бы уже отсасывала!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:577
+translate english cit3_naked_boobs_dance_1st_9d1be5f0:
+
+    # m "Все! Плати!"
+    m "Все! Плати!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:579
+translate english cit3_naked_boobs_dance_1st_da948a22:
+
+    # citizen3 "Хорошо, детка, но ты так и не ответила на мой вопрос!"
+    citizen3 "Хорошо, детка, но ты так и не ответила на мой вопрос!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:581
+translate english cit3_naked_boobs_dance_1st_f13101bf:
+
+    # mt "Извращенец..."
+    mt "Pervert..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:588
+translate english cit3_naked_boobs_dance_variant1_98d4fed4:
+
+    # citizen3 "Детка, разденься и покрутись ка на шесте!"
+    # citizen3 "Мне нужно кое-что уточнить."
+    citizen3 "Детка, разденься и покрутись ка на шесте!"
+    citizen3 "Мне нужно кое-что уточнить."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:596
+translate english cit3_naked_boobs_dance_variant1_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:599
+translate english cit3_naked_boobs_dance_variant1_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:602
+translate english cit3_naked_boobs_dance_variant1_08409749:
+
+    # citizen3 "Да, детка, как скажещь!"
+    citizen3 "Да, детка, как скажещь!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:606
+translate english cit3_naked_boobs_dance_variant1_3494d9f9:
+
+    # citizen3 "Знаешь, я тут видел Сару и мне интересно, кто из Вас лучше танцует..."
+    # citizen3 "Так что не задерживай меня и начинай!"
+    citizen3 "Знаешь, я тут видел Сару и мне интересно, кто из Вас лучше танцует..."
+    citizen3 "Так что не задерживай меня и начинай!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:609
+translate english cit3_naked_boobs_dance_variant1_6dbcd79d:
+
+    # mt "Сравнивать меня с какой-то уличной шлюхой? Конечно я танцую лучше!"
+    mt "Сравнивать меня с какой-то уличной шлюхой? Конечно я танцую лучше!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:614
+translate english cit3_naked_boobs_dance_variant1_8021d66b:
+
+    # citizen3 "Вау! Не плохо!"
+    citizen3 "Вау! Не плохо!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:619
+translate english cit3_naked_boobs_dance_variant1_6edd443c:
+
+    # citizen3 "Отлично! Но пока еще не уровень Сары!"
+    citizen3 "Отлично! Но пока еще не уровень Сары!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:621
+translate english cit3_naked_boobs_dance_variant1_50cb011a:
+
+    # mt "Ах ты паразит! Я докажу тебе..."
+    mt "Ах ты паразит! Я докажу тебе..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:626
+translate english cit3_naked_boobs_dance_variant1_21b72327:
+
+    # citizen3 "Ничего себе! А вот это что-то новое!"
+    # citizen3 "Да, думаю ты лучше!"
+    citizen3 "Ничего себе! А вот это что-то новое!"
+    citizen3 "Да, думаю ты лучше!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:629
+translate english cit3_naked_boobs_dance_variant1_86e3b9fc:
+
+    # mt "В этом никто и не сомневался!"
+    mt "В этом никто и не сомневался!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:632
+translate english cit3_naked_boobs_dance_variant1_9d1be5f0:
+
+    # m "Все! Плати!"
+    m "Все! Плати!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:634
+translate english cit3_naked_boobs_dance_variant1_fef9d602:
+
+    # citizen3 "Вот, заработала. Думаю, ты чуть лучше Сары"
+    citizen3 "Вот, заработала. Думаю, ты чуть лучше Сары"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:640
+translate english cit3_naked_boobs_dance_variant2_d3a20b9f:
+
+    # citizen3 "Детка, разденься и покрутись ка на шесте!"
+    citizen3 "Детка, разденься и покрутись ка на шесте!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:647
+translate english cit3_naked_boobs_dance_variant2_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:650
+translate english cit3_naked_boobs_dance_variant2_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:653
+translate english cit3_naked_boobs_dance_variant2_08409749:
+
+    # citizen3 "Да, детка, как скажещь!"
+    citizen3 "Да, детка, как скажещь!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:657
+translate english cit3_naked_boobs_dance_variant2_691173d7:
+
+    # citizen3 "Ну не стой, давай уже полезай на шест!"
+    citizen3 "Ну не стой, давай уже полезай на шест!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:659
+translate english cit3_naked_boobs_dance_variant2_d684e4d5:
+
+    # mt "Козел..."
+    mt "Козел..."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:664
+translate english cit3_naked_boobs_dance_variant2_b5fd5fa5:
+
+    # citizen3 "Хорошо."
+    citizen3 "Fine."
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:669
+translate english cit3_naked_boobs_dance_variant2_136bdc79:
+
+    # citizen3 "Давай детка, еще!"
+    citizen3 "Давай детка, еще!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:674
+translate english cit3_naked_boobs_dance_variant2_4607c564:
+
+    # citizen3 "Ах...Вот это ножки."
+    # citizen3 "Ты шикарна!"
+    citizen3 "Ах...Вот это ножки."
+    citizen3 "Ты шикарна!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:678
+translate english cit3_naked_boobs_dance_variant2_9d1be5f0:
+
+    # m "Все! Плати!"
+    m "Все! Плати!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:681
+translate english cit3_naked_boobs_dance_variant2_ceef6929:
+
+    # citizen3 "Знаешь, детка, сейчас не самое удачное время... У меня не так много налички. Но у меня есть прекрасный товар. Хочешь?"
+    citizen3 "Знаешь, детка, сейчас не самое удачное время... У меня не так много налички. Но у меня есть прекрасный товар. Хочешь?"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:687
+translate english cit3_naked_boobs_dance_variant2_8ca48eb4:
+
+    # m "Мне нужны деньги!"
+    m "Мне нужны деньги!"
+
+# game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:689
+translate english cit3_naked_boobs_dance_variant2_6c62eb85:
+
+    # citizen3 "Ты не знаешь от чего отказываешься, ну ладно, держи..."
+    citizen3 "Ты не знаешь от чего отказываешься, ну ладно, держи..."
+
+translate english strings:
+
+    # game/Quests/EP2/Citizens/Citizen3_Dialogue.rpy:683
+    old "Мне нужны деньги!"
+    new "Мне нужны деньги!"
+

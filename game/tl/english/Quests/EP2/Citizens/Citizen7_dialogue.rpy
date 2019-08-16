@@ -982,3 +982,377 @@ translate english cit7_naked_boobs_variant2_b665c521:
     # citizen7 "Ох, надеюсь этого хватит для моего очередного творения!"
     citizen7 "Hopefully, it will be enough for another of mine creation!"
 
+# TODO: Translation updated at 2019-08-15 14:57
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:589
+translate english cit7_naked_boobs_dance_1st_06d8bfe2:
+
+    # citizen7 "Я недавно представлял твою прекрасную грудь."
+    # citizen7 "Хочу тебя заверить, когда я на нее смотрю, у меня поднимается... Вдохновение."
+    citizen7 "Я недавно представлял твою прекрасную грудь."
+    citizen7 "Хочу тебя заверить, когда я на нее смотрю, у меня поднимается... Вдохновение."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:592
+translate english cit7_naked_boobs_dance_1st_1e0a6fa6:
+
+    # mt "Извращенец."
+    mt "Извращенец."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:594
+translate english cit7_naked_boobs_dance_1st_0aa4f7cf:
+
+    # citizen7 "Но также вдохновению способствует вон та железная палочка сзади тебя."
+    # citizen7 "Хочу увидеть твою голую грудь и танец!"
+    # citizen7 "Я заплачу, но только если это добавит вдохновения!"
+    citizen7 "Но также вдохновению способствует вон та железная палочка сзади тебя."
+    citizen7 "Хочу увидеть твою голую грудь и танец!"
+    citizen7 "Я заплачу, но только если это добавит вдохновения!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:603
+translate english cit7_naked_boobs_dance_1st_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:606
+translate english cit7_naked_boobs_dance_1st_f4965ca3:
+
+    # mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
+    # mt "Хуже уже не будет..."
+    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
+    mt "Хуже уже не будет..."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:609
+translate english cit7_naked_boobs_dance_1st_adc3f642:
+
+    # m "Откуда я узнаю, что это даст тебе вдохновение?"
+    m "Откуда я узнаю, что это даст тебе вдохновение?"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:611
+translate english cit7_naked_boobs_dance_1st_e4c39b18:
+
+    # citizen7 "Ооо! Сразу видно, ты ничего в этом не понимаешь! Я его почувствую..."
+    # citizen7 "Вдохновение... Оно идет снизу. Возможно, когда-нибудь, я тебе покажу."
+    citizen7 "Ооо! Сразу видно, ты ничего в этом не понимаешь! Я его почувствую..."
+    citizen7 "Вдохновение... Оно идет снизу. Возможно, когда-нибудь, я тебе покажу."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:614
+translate english cit7_naked_boobs_dance_1st_5ebfecb8:
+
+    # mt "Кажется, я поняла о чем он..."
+    # mt "Очередной извращенец..."
+    mt "Кажется, я поняла о чем он..."
+    mt "Очередной извращенец..."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:617
+translate english cit7_naked_boobs_dance_1st_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:620
+translate english cit7_naked_boobs_dance_1st_0be392a1:
+
+    # citizen7 "Что за издевательства над бедным уличным художником?"
+    citizen7 "Что за издевательства над бедным уличным художником?"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:624
+translate english cit7_naked_boobs_dance_1st_94f72cbd:
+
+    # citizen7 "Я готов!"
+    citizen7 "Я готов!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:629
+translate english cit7_naked_boobs_dance_1st_92fa7a3f:
+
+    # citizen7 "Славно! Очень не плохо!"
+    citizen7 "Славно! Очень не плохо!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:634
+translate english cit7_naked_boobs_dance_1st_62d3a8c9:
+
+    # citizen7 "Это намного лучше простых танцев!"
+    citizen7 "Это намного лучше простых танцев!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:639
+translate english cit7_naked_boobs_dance_1st_25d90ecb:
+
+    # citizen7 "Представляю, насколько большое вдохновение я бы получил, если бы ты была голая..."
+    citizen7 "Представляю, насколько большое вдохновение я бы получил, если бы ты была голая..."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:642
+translate english cit7_naked_boobs_dance_1st_2afc07c9:
+
+    # m "Все, достаточно!"
+    m "Все, достаточно!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:644
+translate english cit7_naked_boobs_dance_1st_00087f4d:
+
+    # citizen7 "Не достаточно! У тебя нет сострадания и ты не разбираешься в искусстве!"
+    citizen7 "Не достаточно! У тебя нет сострадания и ты не разбираешься в искусстве!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:647
+translate english cit7_naked_boobs_dance_1st_ad156768:
+
+    # citizen7 "Хорошо! Вот! Я получил не так много вдохновения!"
+    citizen7 "Хорошо! Вот! Я получил не так много вдохновения!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:654
+translate english cit7_naked_boobs_dance_variant1_c8a83e93:
+
+    # citizen7 "С прошлой нашей встречи, я ощущаю недостаток вдохновения!"
+    # citizen7 "Я просто обязан увидеть твою грудь. И обязательно в танце!"
+    citizen7 "С прошлой нашей встречи, я ощущаю недостаток вдохновения!"
+    citizen7 "Я просто обязан увидеть твою грудь. И обязательно в танце!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:662
+translate english cit7_naked_boobs_dance_variant1_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:665
+translate english cit7_naked_boobs_dance_variant1_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:668
+translate english cit7_naked_boobs_dance_variant1_0be392a1:
+
+    # citizen7 "Что за издевательства над бедным уличным художником?"
+    citizen7 "Что за издевательства над бедным уличным художником?"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:672
+translate english cit7_naked_boobs_dance_variant1_59f18b8b:
+
+    # citizen7 "Искусство не прощает задержек! Начинай!"
+    citizen7 "Искусство не прощает задержек! Начинай!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:677
+translate english cit7_naked_boobs_dance_variant1_5b47692d:
+
+    # citizen7 "Это восхитительно!"
+    citizen7 "Это восхитительно!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:682
+translate english cit7_naked_boobs_dance_variant1_1f409f1e:
+
+    # citizen7 "Какая красота!"
+    citizen7 "What a beauty!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:687
+translate english cit7_naked_boobs_dance_variant1_3c73f0fa:
+
+    # citizen7 "Да ты просто богиня!"
+    citizen7 "Да ты просто богиня!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:690
+translate english cit7_naked_boobs_dance_variant1_2afc07c9:
+
+    # m "Все, достаточно!"
+    m "Все, достаточно!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:692
+translate english cit7_naked_boobs_dance_variant1_04af38bc:
+
+    # citizen7 "Богиня, но почему? Мы же только начали... Меня начало наполнять вдохновение!"
+    citizen7 "Богиня, но почему? Мы же только начали... Меня начало наполнять вдохновение!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:695
+translate english cit7_naked_boobs_dance_variant1_36c5aa3d:
+
+    # m "Хватит, я и так слишком долго танцевала."
+    # mt "Не могу поверить что я это делала..."
+    m "Хватит, я и так слишком долго танцевала."
+    mt "Не могу поверить что я это делала..."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:698
+translate english cit7_naked_boobs_dance_variant1_64f7a5d6:
+
+    # citizen7 "Здесь я решаю, что долго, а что нет!"
+    # citizen7 "Придется искать вдохновение где-то еще."
+    # citizen7 "И за это я дам только доллар!"
+    citizen7 "Здесь я решаю, что долго, а что нет!"
+    citizen7 "Придется искать вдохновение где-то еще."
+    citizen7 "И за это я дам только доллар!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:702
+translate english cit7_naked_boobs_dance_variant1_4cfc1ef1:
+
+    # m "Почему так мало?"
+    m "Почему так мало?"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:704
+translate english cit7_naked_boobs_dance_variant1_1c6c2892:
+
+    # citizen7 "Ты не поймешь!"
+    citizen7 "Ты не поймешь!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:706
+translate english cit7_naked_boobs_dance_variant1_61d2ac53:
+
+    # mt "Какой-то неадекватный псих... Ну и пошел он к черту..."
+    mt "Какой-то неадекватный псих... Ну и пошел он к черту..."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:713
+translate english cit7_naked_boobs_dance_variant2_8e2ec123:
+
+    # citizen7 "Недостаток вдохновения! Его необходимо восполнить! Иначе я не смогу создавать свои шедевры!"
+    # citizen7 "Я просто обязан увидеть твою грудь. И обязательно в танце!"
+    citizen7 "Недостаток вдохновения! Его необходимо восполнить! Иначе я не смогу создавать свои шедевры!"
+    citizen7 "Я просто обязан увидеть твою грудь. И обязательно в танце!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:721
+translate english cit7_naked_boobs_dance_variant2_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:724
+translate english cit7_naked_boobs_dance_variant2_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:727
+translate english cit7_naked_boobs_dance_variant2_0be392a1:
+
+    # citizen7 "Что за издевательства над бедным уличным художником?"
+    citizen7 "Что за издевательства над бедным уличным художником?"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:731
+translate english cit7_naked_boobs_dance_variant2_59f18b8b:
+
+    # citizen7 "Искусство не прощает задержек! Начинай!"
+    citizen7 "Искусство не прощает задержек! Начинай!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:736
+translate english cit7_naked_boobs_dance_variant2_8527ff2e:
+
+    # citizen7 "Да! Я чувствую прилив вдохновения!"
+    citizen7 "Да! Я чувствую прилив вдохновения!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:741
+translate english cit7_naked_boobs_dance_variant2_85b5dd33:
+
+    # citizen7 "Изумительно!"
+    citizen7 "Изумительно!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:746
+translate english cit7_naked_boobs_dance_variant2_d3716a83:
+
+    # citizen7 "О да! Когда-нибудь я тебя нарисую!"
+    citizen7 "О да! Когда-нибудь я тебя нарисую!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:749
+translate english cit7_naked_boobs_dance_variant2_2afc07c9:
+
+    # m "Все, достаточно!"
+    m "Все, достаточно!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:751
+translate english cit7_naked_boobs_dance_variant2_e8d9e0f2:
+
+    # citizen7 "Нет не достаточно! Не достаточно! Нужно еще!"
+    citizen7 "Нет не достаточно! Не достаточно! Нужно еще!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:753
+translate english cit7_naked_boobs_dance_variant2_cc928bfc:
+
+    # m "Хватит, я и так слишком долго танцевала."
+    m "Хватит, я и так слишком долго танцевала."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:755
+translate english cit7_naked_boobs_dance_variant2_b187a4c3:
+
+    # citizen7 "Не достаточно долго! Что же делать?!"
+    # citizen7 "Ага, придумал! Да, это то, что нужно!"
+    # citizen7 "Наклонись!"
+    citizen7 "Не достаточно долго! Что же делать?!"
+    citizen7 "Ага, придумал! Да, это то, что нужно!"
+    citizen7 "Наклонись!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:759
+translate english cit7_naked_boobs_dance_variant2_f198b09e:
+
+    # m "Что?"
+    m "What?"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:761
+translate english cit7_naked_boobs_dance_variant2_d41732c1:
+
+    # citizen7 "Да, да! Наклонись! Иначе я останусь без вдохновения!"
+    citizen7 "Да, да! Наклонись! Иначе я останусь без вдохновения!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:770
+translate english cit7_naked_boobs_dance_variant2_3028785e:
+
+    # mt "Какого черта происходит? Он выглядит не очень адекватно... Что же делать?"
+    mt "Какого черта происходит? Он выглядит не очень адекватно... Что же делать?"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:775
+translate english cit7_naked_boobs_dance_variant2_754e49dc:
+
+    # mt "Думаю, лучше потерпеть, а то мало ли что."
+    mt "Думаю, лучше потерпеть, а то мало ли что."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:778
+translate english cit7_naked_boobs_dance_variant2_dfa6791f:
+
+    # citizen7 "Вот! Уже готовая скульптура!"
+    citizen7 "Вот! Уже готовая скульптура!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:780
+translate english cit7_naked_boobs_dance_variant2_5f22ba82:
+
+    # mt "Да что он несет?"
+    mt "Да что он несет?"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:782
+translate english cit7_naked_boobs_dance_variant2_b9fd868c:
+
+    # citizen7 "Чуточку формалина и..."
+    citizen7 "Чуточку формалина и..."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:784
+translate english cit7_naked_boobs_dance_variant2_ad85b04a:
+
+    # mt "Так, о чем это он... Формалин? Черт! Думаю, не стоит с ним часто видеться..."
+    mt "Так, о чем это он... Формалин? Черт! Думаю, не стоит с ним часто видеться..."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:787
+translate english cit7_naked_boobs_dance_variant2_9d638a1f:
+
+    # citizen7 "Да, вот теперь хорошо! Вот твои деньги."
+    citizen7 "Да, вот теперь хорошо! Вот твои деньги."
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:791
+translate english cit7_naked_boobs_dance_variant2_26e61cd1:
+
+    # m "Какого черта ты делаешь?! Не трогай меня!"
+    m "Какого черта ты делаешь?! Не трогай меня!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:793
+translate english cit7_naked_boobs_dance_variant2_5df560ba:
+
+    # m "Убери свои грязные руки! И плати! А то обещаю, у тебя еще долго не будет вдохновения!"
+    m "Убери свои грязные руки! И плати! А то обещаю, у тебя еще долго не будет вдохновения!"
+
+# game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:795
+translate english cit7_naked_boobs_dance_variant2_d7e674d1:
+
+    # citizen7 "ОЙ-ой! Ладно, ладно, хорошо! Вот, возьми!"
+    citizen7 "ОЙ-ой! Ладно, ладно, хорошо! Вот, возьми!"
+
+translate english strings:
+
+    # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:772
+    old "Потерпеть."
+    new "Потерпеть."
+
+    # game/Quests/EP2/Citizens/Citizen7_dialogue.rpy:772
+    old "Не выдержать."
+    new "Не выдержать."
+

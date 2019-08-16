@@ -1061,3 +1061,359 @@ translate german citizen9_comment1_f4e1f245:
     # mt "Мерзавец!"
     mt "Bastard!"
 
+# TODO: Translation updated at 2019-08-15 14:57
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:87
+translate german citizen9_dialogue_0e79f4d8:
+
+    # m "Не в этот раз."
+    # citizen9 "Ооо, ты не отказываешься... Хорошо. Тогда приходи, как будешь не так занята. Кстати, у Найджела есть деньги!"
+    m "Diesmal nicht."
+    citizen9 "Oh nein, du darfst nicht ablehnen... Gut. Dann komm, wenn du mehr Zeit hast. Übrigens, Nigel hat Geld."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:604
+translate german cit9_naked_boobs_dance_1st_14c76c9c:
+
+    # citizen9 "Йо, дамочка! Давай посмотрим на твои сисечки!"
+    citizen9 "Йо, дамочка! Давай посмотрим на твои сисечки!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:606
+translate german cit9_naked_boobs_dance_1st_386ad4a7:
+
+    # mt "Как же ты меня бесишь, если бы мне не были так нужны деньги, то я..."
+    mt "Как же ты меня бесишь, если бы мне не были так нужны деньги, то я..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:608
+translate german cit9_naked_boobs_dance_1st_e029d8d7:
+
+    # citizen9 "И ты же уже знаешь, зачем нужен пилон..."
+    # citizen9 "Лезь на него!"
+    citizen9 "И ты же уже знаешь, зачем нужен пилон..."
+    citizen9 "Лезь на него!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:616
+translate german cit9_naked_boobs_dance_1st_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:619
+translate german cit9_naked_boobs_dance_1st_f4965ca3:
+
+    # mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
+    # mt "Хуже уже не будет..."
+    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
+    mt "Хуже уже не будет..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:622
+translate german cit9_naked_boobs_dance_1st_a8906b34:
+
+    # m "Знаешь что, я тебе не верю. Деньги сразу!"
+    m "Знаешь что, я тебе не верю. Деньги сразу!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:624
+translate german cit9_naked_boobs_dance_1st_30099c40:
+
+    # citizen9 "Вот это ты придумала!"
+    # citizen9 "А если мне не понравится?"
+    citizen9 "Вот это ты придумала!"
+    citizen9 "А если мне не понравится?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:627
+translate german cit9_naked_boobs_dance_1st_47062a74:
+
+    # mt "Ах ты сволочь..."
+    mt "Ах ты сволочь..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:629
+translate german cit9_naked_boobs_dance_1st_65b0f615:
+
+    # m "Тебе же нравилось все, что ты видел до этого..."
+    m "Тебе же нравилось все, что ты видел до этого..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:631
+translate german cit9_naked_boobs_dance_1st_bf6dd945:
+
+    # citizen9 "Ладно, дамочка, держи! А теперь раздевайся!"
+    citizen9 "Ладно, дамочка, держи! А теперь раздевайся!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:633
+translate german cit9_naked_boobs_dance_1st_7ce38ba3:
+
+    # m "Отвернись!"
+    m "Dreh dich um!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:636
+translate german cit9_naked_boobs_dance_1st_46f16c50:
+
+    # citizen9 "Так и быть!"
+    citizen9 "Так и быть!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:642
+translate german cit9_naked_boobs_dance_1st_ee514e97:
+
+    # citizen9 "Йо! Ну неужели сама не догадываешься, что пилон уже тебя заждался?!"
+    citizen9 "Йо! Ну неужели сама не догадываешься, что пилон уже тебя заждался?!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:647
+translate german cit9_naked_boobs_dance_1st_cf9e9e75:
+
+    # citizen9 "О да!"
+    citizen9 "Ja!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:652
+translate german cit9_naked_boobs_dance_1st_5aa4f947:
+
+    # citizen9 "Порадуй старину Найджела!"
+    citizen9 "Порадуй старину Найджела!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:657
+translate german cit9_naked_boobs_dance_1st_ab343ffc:
+
+    # citizen9 "Горяча!"
+    citizen9 "Горяча!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:660
+translate german cit9_naked_boobs_dance_1st_2afc07c9:
+
+    # m "Все, достаточно!"
+    m "Все, достаточно!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:662
+translate german cit9_naked_boobs_dance_1st_ee5c55e1:
+
+    # citizen9 "И правда хватит. Пора засунуть мой член меджу твоих сисек!"
+    # citizen9 "Я же уже заплатил..."
+    citizen9 "И правда хватит. Пора засунуть мой член меджу твоих сисек!"
+    citizen9 "Я же уже заплатил..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:665
+translate german cit9_naked_boobs_dance_1st_46e3f6c6:
+
+    # m "?!"
+    m "?!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:667
+translate german cit9_naked_boobs_dance_1st_19c4f352:
+
+    # citizen9 "Шутка! Дамочка, в тебе ни капли чувства юмора."
+    citizen9 "Шутка! Дамочка, в тебе ни капли чувства юмора."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:669
+translate german cit9_naked_boobs_dance_1st_d7c7acbf:
+
+    # mt "Зато твое чувство юмора ужасно... Мерзавец!"
+    mt "Зато твое чувство юмора ужасно... Мерзавец!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:676
+translate german cit9_naked_boobs_dance_variant1_719c4eaf:
+
+    # citizen9 "Йо, я соскучился по твоим танцам на пилоне!"
+    # citizen9 "Станцуй!"
+    citizen9 "Йо, я соскучился по твоим танцам на пилоне!"
+    citizen9 "Станцуй!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:684
+translate german cit9_naked_boobs_dance_variant1_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:687
+translate german cit9_naked_boobs_dance_variant1_5def303f:
+
+    # m "Знаешь что, почему ты так плохо со мной обращаешься?"
+    m "Знаешь что, почему ты так плохо со мной обращаешься?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:689
+translate german cit9_naked_boobs_dance_variant1_caff5af2:
+
+    # citizen9 "Не, дамочка, с тобой я еще хорошо обращаюсь!"
+    # citizen9 "Здесь недалеко есть пара шлюх, вот с ними я..."
+    citizen9 "Не, дамочка, с тобой я еще хорошо обращаюсь!"
+    citizen9 "Здесь недалеко есть пара шлюх, вот с ними я..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:692
+translate german cit9_naked_boobs_dance_variant1_3af99033:
+
+    # m "Мне неинтересно!"
+    m "Мне неинтересно!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:694
+translate german cit9_naked_boobs_dance_variant1_4829d10c:
+
+    # citizen9 "Ну и ладно! Тогда пулей на пилон! И разденься!"
+    citizen9 "Ну и ладно! Тогда пулей на пилон! И разденься!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:696
+translate german cit9_naked_boobs_dance_variant1_16b931f9:
+
+    # m "А ты отвернись!"
+    m "А ты отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:699
+translate german cit9_naked_boobs_dance_variant1_ead285a1:
+
+    # citizen9 "О да! Это видео непременно пойдет в мою коллекцию..."
+    citizen9 "О да! Это видео непременно пойдет в мою коллекцию..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:705
+translate german cit9_naked_boobs_dance_variant1_dfe27c36:
+
+    # citizen9 "Класс! Я доволен!"
+    citizen9 "Класс! Я доволен!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:707
+translate german cit9_naked_boobs_dance_variant1_61bdb0fe:
+
+    # mt "Интересно чем..."
+    mt "Интересно чем..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:709
+translate german cit9_naked_boobs_dance_variant1_97d2ce99:
+
+    # citizen9 "Танцуй же уже!"
+    citizen9 "Танцуй же уже!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:714
+translate german cit9_naked_boobs_dance_variant1_07c14f7e:
+
+    # citizen9 "Да, дамочка, это твое призвание!"
+    citizen9 "Да, дамочка, это твое призвание!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:719
+translate german cit9_naked_boobs_dance_variant1_463aec5b:
+
+    # citizen9 "Да ты просто бомба!"
+    citizen9 "Да ты просто бомба!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:722
+translate german cit9_naked_boobs_dance_variant1_2afc07c9:
+
+    # m "Все, достаточно!"
+    m "Все, достаточно!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:724
+translate german cit9_naked_boobs_dance_variant1_beab4c2d:
+
+    # citizen9 "Я бы так не сказал, но в любом случае, дома у меня будет еще неколько часов важных дел..."
+    # citizen9 "Я буду смотреть порно!"
+    citizen9 "Я бы так не сказал, но в любом случае, дома у меня будет еще неколько часов важных дел..."
+    citizen9 "Я буду смотреть порно!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:727
+translate german cit9_naked_boobs_dance_variant1_4ed96630:
+
+    # m "Я и без тебя это поняла..."
+    m "Я и без тебя это поняла..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:729
+translate german cit9_naked_boobs_dance_variant1_be429c0f:
+
+    # citizen9 "А ты догадливая ... Иногда..."
+    # citizen9 "Но все равно, надеюсь, к следующему разу ты разучишь больше движений."
+    citizen9 "А ты догадливая ... Иногда..."
+    citizen9 "Но все равно, надеюсь, к следующему разу ты разучишь больше движений."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:736
+translate german cit9_naked_boobs_dance_variant2_1d8034e3:
+
+    # citizen9 "Расчехляй близняжек и на шест!"
+    citizen9 "Расчехляй близняжек и на шест!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:743
+translate german cit9_naked_boobs_dance_variant2_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:746
+translate german cit9_naked_boobs_dance_variant2_b7157567:
+
+    # citizen9 "Я даже сам отвернусь..."
+    citizen9 "Я даже сам отвернусь..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:748
+translate german cit9_naked_boobs_dance_variant2_d49d2267:
+
+    # mt "Что это с ним?"
+    mt "Was ist mit dem?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:753
+translate german cit9_naked_boobs_dance_variant2_03b9ab33:
+
+    # citizen9 "Залезай пожалуйста на шест."
+    citizen9 "Залезай пожалуйста на шест."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:755
+translate german cit9_naked_boobs_dance_variant2_db84928c:
+
+    # mt "А где же Йо? Что с ним сегодня?"
+    mt "А где же Йо? Что с ним сегодня?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:760
+translate german cit9_naked_boobs_dance_variant2_b774103a:
+
+    # citizen9 "Очень красиво!"
+    citizen9 "Очень красиво!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:765
+translate german cit9_naked_boobs_dance_variant2_5fbdf14a:
+
+    # citizen9 "Очень, очень красиво!"
+    citizen9 "Очень, очень красиво!"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:768
+translate german cit9_naked_boobs_dance_variant2_5a443f58:
+
+    # m "Что с тобой сегодня?"
+    m "Что с тобой сегодня?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:770
+translate german cit9_naked_boobs_dance_variant2_e5bde651:
+
+    # citizen9 "Со мной все в порядке, просто я прочитал в гороскопе, что в течение дня мне лучше быть вежливым и, возможно, я добьюсь чего-то большего."
+    citizen9 "Со мной все в порядке, просто я прочитал в гороскопе, что в течение дня мне лучше быть вежливым и, возможно, я добьюсь чего-то большего."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:772
+translate german cit9_naked_boobs_dance_variant2_a11423be:
+
+    # mt "Возможно, но явно не со мной."
+    mt "Возможно, но явно не со мной."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:774
+translate german cit9_naked_boobs_dance_variant2_e94e956f:
+
+    # citizen9 "Вот, возьми пожалуйста твои деньги."
+    citizen9 "Вот, возьми пожалуйста твои деньги."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:777
+translate german cit9_naked_boobs_dance_variant2_286f89c8:
+
+    # citizen9 "И все?"
+    citizen9 "И все?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:779
+translate german cit9_naked_boobs_dance_variant2_b7952d91:
+
+    # m "А чего ты хотел?"
+    m "А чего ты хотел?"
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:781
+translate german cit9_naked_boobs_dance_variant2_a7712119:
+
+    # citizen9 "Ну я же был вежлив..."
+    citizen9 "Ну я же был вежлив..."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:783
+translate german cit9_naked_boobs_dance_variant2_74eee33d:
+
+    # m "Ну тебе же ясно в гороскопе сказали 'возможно добьетесь'. Со мной ничего не удалось."
+    m "Ну тебе же ясно в гороскопе сказали 'возможно добьетесь'. Со мной ничего не удалось."
+
+# game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:785
+translate german cit9_naked_boobs_dance_variant2_092c0639:
+
+    # citizen9 "Йо, дамочка! Все гороскопы отстой, я знал это!"
+    citizen9 "Йо, дамочка! Все гороскопы отстой, я знал это!"
+

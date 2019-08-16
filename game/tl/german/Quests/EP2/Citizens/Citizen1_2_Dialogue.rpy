@@ -1002,3 +1002,351 @@ translate german cit1_2_naked_boobs_variant2_3dca3b0e:
     # citizen1 "Ух, тетя, снова нас порадовала!"
     citizen1 "Verdammt, Lady. Du hast mir mal wieder den Tag gerettet!"
 
+# TODO: Translation updated at 2019-08-15 14:57
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:499
+translate german cit1_2_naked_boobs_dance_1st_87f45bf0:
+
+    # citizen1 "Тетя, нам скучно!"
+    # citizen1 "Как насчет еще одного танца на пилоне?"
+    citizen1 "Тетя, нам скучно!"
+    citizen1 "Как насчет еще одного танца на пилоне?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:502
+translate german cit1_2_naked_boobs_dance_1st_7cc4dad0:
+
+    # m "Вы уже видели меня танцующей там.."
+    m "Вы уже видели меня танцующей там.."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:504
+translate german cit1_2_naked_boobs_dance_1st_bb780f4c:
+
+    # citizen1 "Эм...Ну да..."
+    # citizen1 "Короче потанцуй для нас без кофты."
+    citizen1 "Эм...Ну да..."
+    citizen1 "Короче потанцуй для нас без кофты."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:512
+translate german cit1_2_naked_boobs_dance_1st_64204555:
+
+    # m "Хватит с вас и того, что вы уже видели!"
+    m "Du hast schon genug gesehen!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:515
+translate german cit1_2_naked_boobs_dance_1st_42610c0e:
+
+    # mt "Я уже танцевала, мою прекрасную грудь они видели... Не так страшно, если все это будет вместе."
+    # mt "Хуже уже не будет... А мне нужны деньги..."
+    mt "Я уже танцевала, мою прекрасную грудь они видели... Не так страшно, если все это будет вместе."
+    mt "Хуже уже не будет... А мне нужны деньги..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:518
+translate german cit1_2_naked_boobs_dance_1st_fcdfdef0:
+
+    # m "Сколько вы заплатите?"
+    m "Сколько вы заплатите?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:520
+translate german cit1_2_naked_boobs_dance_1st_4c04fa9f:
+
+    # citizen1 "Тетя, тариф стандартный!"
+    # citizen1 "Но если ты готова станцевать с бутылкой в заднице, это можно обсудить!"
+    citizen1 "Тетя, тариф стандартный!"
+    citizen1 "Но если ты готова станцевать с бутылкой в заднице, это можно обсудить!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:523
+translate german cit1_2_naked_boobs_dance_1st_3e8f4ca7:
+
+    # m "Что?! Да как ты смеешь такое говорить?!"
+    m "Что?! Да как ты смеешь такое говорить?!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:525
+translate german cit1_2_naked_boobs_dance_1st_27ab2e66:
+
+    # citizen1 "Ой, тетя! Не кипятись, я пошутил..."
+    citizen1 "Ой, тетя! Не кипятись, я пошутил..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:527
+translate german cit1_2_naked_boobs_dance_1st_2685a7a1:
+
+    # m "Только вздумайте еще раз так пошутить! Отвернитесь!"
+    m "Только вздумайте еще раз так пошутить! Отвернитесь!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:532
+translate german cit1_2_naked_boobs_dance_1st_6fb78f2b:
+
+    # citizen1 "Конечно, тетя, не вопрос."
+    citizen1 "Конечно, тетя, не вопрос."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:534
+translate german cit1_2_naked_boobs_dance_1st_8d1facd6:
+
+    # m "Можете поворачиваться..."
+    m "Можете поворачиваться..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:537
+translate german cit1_2_naked_boobs_dance_1st_3b6c084f:
+
+    # citizen1 "Да, они шикарны. Можешь начинать."
+    citizen1 "Да, они шикарны. Можешь начинать."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:544
+translate german cit1_2_naked_boobs_dance_1st_d4b91253:
+
+    # citizen1 "Отлично, тетя!"
+    citizen1 "Отлично, тетя!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:549
+translate german cit1_2_naked_boobs_dance_1st_953e155e:
+
+    # citizen1 "Черт, как глупо было просить тебя крутиться в одежде!"
+    citizen1 "Черт, как глупо было просить тебя крутиться в одежде!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:556
+translate german cit1_2_naked_boobs_dance_1st_ed1e70e1:
+
+    # citizen1 "Вау, тетя! Тебе нужно этим зарабатывать! Хотя стоп, этим ты и занимаешься!"
+    # citizen1 "Ха-ха-ха!"
+    citizen1 "Вау, тетя! Тебе нужно этим зарабатывать! Хотя стоп, этим ты и занимаешься!"
+    citizen1 "Ha Ha Ha!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:559
+translate german cit1_2_naked_boobs_dance_1st_c998832f:
+
+    # mt "Грязные панки..."
+    # mt "Мерзавцы..."
+    mt "Dreckige Punks..."
+    mt "Мерзавцы..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:567
+translate german cit1_2_naked_boobs_dance_variant1_8dfc466c:
+
+    # citizen1 "Тетя, мы снова хотим ощутить себя в стрип клубе!"
+    # citizen1 "Как насчет еще одного танца на пилоне?"
+    citizen1 "Тетя, мы снова хотим ощутить себя в стрип клубе!"
+    citizen1 "Как насчет еще одного танца на пилоне?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:570
+translate german cit1_2_naked_boobs_dance_variant1_6aab30ea:
+
+    # m "В стрип клубе платят больше, да и вход туда бывает платный."
+    m "В стрип клубе платят больше, да и вход туда бывает платный."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:572
+translate german cit1_2_naked_boobs_dance_variant1_adbab5cf:
+
+    # citizen1 "Но мы ведь не в стрип клубе!"
+    # citizen1 "Станцуй для нас, и сиськи не забудь оголить."
+    citizen1 "Но мы ведь не в стрип клубе!"
+    citizen1 "Станцуй для нас, и сиськи не забудь оголить."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:580
+translate german cit1_2_naked_boobs_dance_variant1_64204555:
+
+    # m "Хватит с вас и того, что вы уже видели!"
+    m "Du hast schon genug gesehen!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:583
+translate german cit1_2_naked_boobs_dance_variant1_fcdfdef0:
+
+    # m "Сколько вы заплатите?"
+    m "Сколько вы заплатите?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:585
+translate german cit1_2_naked_boobs_dance_variant1_14212efc:
+
+    # citizen1 "Снова ты за свое!"
+    # citizen1 "Можно подумать о том, как ты можешь заработать больше, но в другой раз."
+    # citizen1 "И вообще, ты нас утомляешь своей болтовней, раздевайся уже!"
+    citizen1 "Снова ты за свое!"
+    citizen1 "Можно подумать о том, как ты можешь заработать больше, но в другой раз."
+    citizen1 "И вообще, ты нас утомляешь своей болтовней, раздевайся уже!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:594
+translate german cit1_2_naked_boobs_dance_variant1_60ed7423:
+
+    # m "Нет, не будет вам танцев!"
+    # m "Вы и так уже видели достаточно!"
+    m "Нет, не будет вам танцев!"
+    m "Вы и так уже видели достаточно!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:598
+translate german cit1_2_naked_boobs_dance_variant1_d37b06bf:
+
+    # m "Хорошо. Отвернитесь!"
+    m "Хорошо. Отвернитесь!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:601
+translate german cit1_2_naked_boobs_dance_variant1_6fb78f2b:
+
+    # citizen1 "Конечно, тетя, не вопрос."
+    citizen1 "Конечно, тетя, не вопрос."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:605
+translate german cit1_2_naked_boobs_dance_variant1_baef537d:
+
+    # m "Можете поворачиваться.."
+    m "Du kannst wieder herschauen."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:608
+translate german cit1_2_naked_boobs_dance_variant1_a217ed39:
+
+    # citizen1 "Тетя, тебе особое приглашение нужно? Начинай уже!"
+    citizen1 "Тетя, тебе особое приглашение нужно? Начинай уже!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:613
+translate german cit1_2_naked_boobs_dance_variant1_d4b91253:
+
+    # citizen1 "Отлично, тетя!"
+    citizen1 "Отлично, тетя!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:618
+translate german cit1_2_naked_boobs_dance_variant1_953e155e:
+
+    # citizen1 "Черт, как глупо было просить тебя крутиться в одежде!"
+    citizen1 "Черт, как глупо было просить тебя крутиться в одежде!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:623
+translate german cit1_2_naked_boobs_dance_variant1_e0aa76e9:
+
+    # citizen1 "И зачем мы ходим в стрип клуб?"
+    citizen1 "И зачем мы ходим в стрип клуб?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:628
+translate german cit1_2_naked_boobs_dance_variant1_0d864ded:
+
+    # citizen1 "Тетя, ты помнишь про наше предложение насчет бутылки?"
+    citizen1 "Тетя, ты помнишь про наше предложение насчет бутылки?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:631
+translate german cit1_2_naked_boobs_dance_variant1_cfe65c80:
+
+    # m "Еще слово, и я засуну бутылку тебе в зад!"
+    m "Еще слово, и я засуну бутылку тебе в зад!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:633
+translate german cit1_2_naked_boobs_dance_variant1_1c610f3b:
+
+    # citizen1 "Ха-ха-ха! Два раза одна и та же шутка прошла!"
+    citizen1 "Ха-ха-ха! Два раза одна и та же шутка прошла!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:635
+translate german cit1_2_naked_boobs_dance_variant1_aa6cfbb5:
+
+    # mt "Грязные панки..."
+    mt "Dreckige Punks..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:637
+translate german cit1_2_naked_boobs_dance_variant1_4d6bbd5e:
+
+    # citizen1 "Ладно, молодец, тетя, нам понравилось!"
+    citizen1 "Ладно, молодец, тетя, нам понравилось!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:643
+translate german cit1_2_naked_boobs_dance_variant2_5ef2aa62:
+
+    # citizen1 "Тетя, станцуй! И не забуть снять кофту!"
+    citizen1 "Тетя, станцуй! И не забуть снять кофту!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:650
+translate german cit1_2_naked_boobs_dance_variant2_64204555:
+
+    # m "Хватит с вас и того, что вы уже видели!"
+    m "Du hast schon genug gesehen!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:653
+translate german cit1_2_naked_boobs_dance_variant2_d37b06bf:
+
+    # m "Хорошо. Отвернитесь!"
+    m "Хорошо. Отвернитесь!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:656
+translate german cit1_2_naked_boobs_dance_variant2_36c8f0b1:
+
+    # citizen1 "..."
+    citizen1 "..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:660
+translate german cit1_2_naked_boobs_dance_variant2_baef537d:
+
+    # m "Можете поворачиваться.."
+    m "Du kannst wieder herschauen."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:663
+translate german cit1_2_naked_boobs_dance_variant2_0a4cd3c8:
+
+    # citizen1 "Начинай!"
+    citizen1 "Начинай!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:665
+translate german cit1_2_naked_boobs_dance_variant2_3ae0aaa3:
+
+    # mt "Что-то они какие-то молчаливые... Это подозрительно..."
+    mt "Что-то они какие-то молчаливые... Это подозрительно..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:670
+translate german cit1_2_naked_boobs_dance_variant2_b83a24ee:
+
+    # citizen1 "Отлично!"
+    citizen1 "Ausgezeichnet!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:675
+translate german cit1_2_naked_boobs_dance_variant2_07ae3433:
+
+    # citizen1 "Не плохо!"
+    citizen1 "Не плохо!"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:677
+translate german cit1_2_naked_boobs_dance_variant2_095f6200:
+
+    # mt "Что это с ними сегодня? Они ведут себя не как обычно..."
+    mt "Что это с ними сегодня? Они ведут себя не как обычно..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:688
+translate german cit1_2_naked_boobs_dance_variant2_25e34b1f:
+
+    # m "Что это был за звук?"
+    m "Что это был за звук?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:690
+translate german cit1_2_naked_boobs_dance_variant2_ae0e18a7:
+
+    # mt "Как будто меня сфотографировали..."
+    mt "Как будто меня сфотографировали..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:692
+translate german cit1_2_naked_boobs_dance_variant2_d686f700:
+
+    # citizen1 "Какой звук, тетя? Мы ничего не слышали."
+    citizen1 "Какой звук, тетя? Мы ничего не слышали."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:694
+translate german cit1_2_naked_boobs_dance_variant2_4cc24482:
+
+    # m "Вы меня сфотографировали?"
+    m "Вы меня сфотографировали?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:696
+translate german cit1_2_naked_boobs_dance_variant2_8d84ec33:
+
+    # citizen1 "Нет, тетя! Да и откуда у нас фотоаппарат?"
+    citizen1 "Нет, тетя! Да и откуда у нас фотоаппарат?"
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:698
+translate german cit1_2_naked_boobs_dance_variant2_ca6b83b7:
+
+    # mt "И правда, откуда... Хотя... Нет, у них нет фотоаппарата..."
+    mt "И правда, откуда... Хотя... Нет, у них нет фотоаппарата..."
+
+# game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:700
+translate german cit1_2_naked_boobs_dance_variant2_a265d54e:
+
+    # citizen1 "Кстати, отличный танец!"
+    citizen1 "Кстати, отличный танец!"
+
+translate german strings:
+
+    # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:589
+    old "Я передумала."
+    new "Ich überdenke."
+

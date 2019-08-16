@@ -920,3 +920,423 @@ translate german citizen4_dialogue_after_boobs_second_time_234f2bb7:
     mt "Das ist absolut widerlich, aber ich muss gefühlskalt sein..."
     mt "Es ist ja nicht für lange..."
 
+# TODO: Translation updated at 2019-08-15 14:57
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:593
+translate german cit4_naked_boobs_dance_1st_65421f38:
+
+    # citizen4 "Я бы посмотрел на твои сиськи еще разок, но в танце. Что скажешь?"
+    citizen4 "Я бы посмотрел на твои сиськи еще разок, но в танце. Что скажешь?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:595
+translate german cit4_naked_boobs_dance_1st_7920ed99:
+
+    # m "Не слишком ли многого ты хочешь?!"
+    m "Не слишком ли многого ты хочешь?!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:597
+translate german cit4_naked_boobs_dance_1st_70c6c360:
+
+    # citizen4 "Девочка, ты забыла где ты? В этом районе каждая вторая готова таким образом заработать пару лишних долларов."
+    # citizen4 "Решайся быстрее, у меня нет времени. Ну дак что?"
+    citizen4 "Девочка, ты забыла где ты? В этом районе каждая вторая готова таким образом заработать пару лишних долларов."
+    citizen4 "Решайся быстрее, у меня нет времени. Ну дак что?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:605
+translate german cit4_naked_boobs_dance_1st_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:608
+translate german cit4_naked_boobs_dance_1st_f4965ca3:
+
+    # mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
+    # mt "Хуже уже не будет..."
+    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
+    mt "Хуже уже не будет..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:611
+translate german cit4_naked_boobs_dance_1st_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:614
+translate german cit4_naked_boobs_dance_1st_d0978175:
+
+    # citizen4 "Ладно, только в этот раз..."
+    citizen4 "Ладно, только в этот раз..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:620
+translate german cit4_naked_boobs_dance_1st_c1f95314:
+
+    # citizen4 "Залезай уже на пилон и начинай!"
+    citizen4 "Залезай уже на пилон и начинай!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:622
+translate german cit4_naked_boobs_dance_1st_61ceb40b:
+
+    # m "Почему Вы такой грубый?"
+    m "Почему Вы такой грубый?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:624
+translate german cit4_naked_boobs_dance_1st_995b8014:
+
+    # citizen4 "Я нормальный, да и не твое это дело! Твое дело крутить жопой на пилоне! Начинай!"
+    citizen4 "Я нормальный, да и не твое это дело! Твое дело крутить жопой на пилоне! Начинай!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:631
+translate german cit4_naked_boobs_dance_1st_6766db94:
+
+    # m "Знаете, я передумала!"
+    m "Знаете, я передумала!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:634
+translate german cit4_naked_boobs_dance_1st_f62dbd3e:
+
+    # m "Хорошо."
+    # mt "Мне нужны эти деньги... Черт..."
+    m "Na gut."
+    mt "Мне нужны эти деньги... Черт..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:640
+translate german cit4_naked_boobs_dance_1st_4c18ce6d:
+
+    # citizen4 "А знаешь, не плохо!"
+    citizen4 "А знаешь, не плохо!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:647
+translate german cit4_naked_boobs_dance_1st_784cce77:
+
+    # citizen4 "Жопу бы тебе побольше!"
+    citizen4 "Жопу бы тебе побольше!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:652
+translate german cit4_naked_boobs_dance_1st_5fc686fe:
+
+    # citizen4 "Да, очень не дурно."
+    citizen4 "Да, очень не дурно."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:657
+translate german cit4_naked_boobs_dance_1st_b04819e1:
+
+    # citizen4 "Знаешь, у тебя есть будущее, но надо больше практики и накачай жопу!"
+    citizen4 "Знаешь, у тебя есть будущее, но надо больше практики и накачай жопу!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:660
+translate german cit4_naked_boobs_dance_1st_bf617ce0:
+
+    # citizen4 "Вот держи, заработала!"
+    # mt "!!!"
+    citizen4 "Вот держи, заработала!"
+    mt "!!!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:668
+translate german cit4_naked_boobs_dance_variant1_35710c7e:
+
+    # citizen4 "Думаю, стоит закрепить начатое. Полезай на пилон. И блузку сними!"
+    citizen4 "Думаю, стоит закрепить начатое. Полезай на пилон. И блузку сними!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:670
+translate german cit4_naked_boobs_dance_variant1_9af81142:
+
+    # m "Зачем мне снимать блузку, если ты не хочешь смотреть на мою грудь?"
+    m "Зачем мне снимать блузку, если ты не хочешь смотреть на мою грудь?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:672
+translate german cit4_naked_boobs_dance_variant1_e5d71a7a:
+
+    # citizen4 "Это не твое дело! Я говорю, ты делаешь."
+    # citizen4 "Ну дак что?"
+    citizen4 "Это не твое дело! Я говорю, ты делаешь."
+    citizen4 "Ну дак что?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:680
+translate german cit4_naked_boobs_dance_variant1_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:683
+translate german cit4_naked_boobs_dance_variant1_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:686
+translate german cit4_naked_boobs_dance_variant1_a4066f0b:
+
+    # citizen4 "Все равно мне не интересны твои сиськи."
+    citizen4 "Все равно мне не интересны твои сиськи."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:688
+translate german cit4_naked_boobs_dance_variant1_7279e034:
+
+    # mt "Как он может такое говорить? Моя прекрасная грудь много кого интересует!"
+    mt "Как он может такое говорить? Моя прекрасная грудь много кого интересует!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:691
+translate german cit4_naked_boobs_dance_variant1_c1f95314:
+
+    # citizen4 "Залезай уже на пилон и начинай!"
+    citizen4 "Залезай уже на пилон и начинай!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:693
+translate german cit4_naked_boobs_dance_variant1_94420ba9:
+
+    # m "Хорошо."
+    m "Na gut."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:698
+translate german cit4_naked_boobs_dance_variant1_1836d0b0:
+
+    # citizen4 "Мне кажется, я начинаю любить твои сиськи!"
+    citizen4 "Мне кажется, я начинаю любить твои сиськи!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:703
+translate german cit4_naked_boobs_dance_variant1_0d98331f:
+
+    # citizen4 "Да, вот так, двигайся!"
+    citizen4 "Да, вот так, двигайся!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:708
+translate german cit4_naked_boobs_dance_variant1_3513b231:
+
+    # citizen4 "Знаешь, все равно что-то не то. Кое чего не хватает."
+    citizen4 "Знаешь, все равно что-то не то. Кое чего не хватает."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:722
+translate german cit4_naked_boobs_dance_variant1_6fab9fb3:
+
+    # citizen4 "Черт! Ты меня ударила!"
+    citizen4 "Черт! Ты меня ударила!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:725
+translate german cit4_naked_boobs_dance_variant1_23653138:
+
+    # m "Вообще то я не хотела, ты подошел слишком близко!"
+    m "Вообще то я не хотела, ты подошел слишком близко!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:727
+translate german cit4_naked_boobs_dance_variant1_cc50c89e:
+
+    # citizen4 "Ты мне сломала нос!"
+    citizen4 "Ты мне сломала нос!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:729
+translate german cit4_naked_boobs_dance_variant1_a32a8dcc:
+
+    # m "Не правда, у тебя даже крови нет. В следующий раз не подходи близко."
+    # mt "Иначе я сделаю это специально!"
+    m "Не правда, у тебя даже крови нет. В следующий раз не подходи близко."
+    mt "Иначе я сделаю это специально!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:732
+translate german cit4_naked_boobs_dance_variant1_871671e8:
+
+    # citizen4 "Ха-ха-ха! Девочка начинает входить во вкус?"
+    # citizen4 "Следующий раз..."
+    citizen4 "Ха-ха-ха! Девочка начинает входить во вкус?"
+    citizen4 "Следующий раз..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:735
+translate german cit4_naked_boobs_dance_variant1_7b787145:
+
+    # m "Плати!"
+    m "Плати!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:737
+translate german cit4_naked_boobs_dance_variant1_48a6b115:
+
+    # citizen4 "Да не вопрос!"
+    citizen4 "Да не вопрос!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:739
+translate german cit4_naked_boobs_dance_variant1_08347811:
+
+    # mt "Все это толко для того, чтобы заработать немного денег. Ведь так, Моника?"
+    mt "Все это толко для того, чтобы заработать немного денег. Ведь так, Моника?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:745
+translate german cit4_naked_boobs_dance_variant2_35710c7e:
+
+    # citizen4 "Думаю, стоит закрепить начатое. Полезай на пилон. И блузку сними!"
+    citizen4 "Думаю, стоит закрепить начатое. Полезай на пилон. И блузку сними!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:747
+translate german cit4_naked_boobs_dance_variant2_e2446fe8:
+
+    # m "Зачем мне снимать кофту, если ты не хочешь смотреть на мою грудь?"
+    m "Зачем мне снимать кофту, если ты не хочешь смотреть на мою грудь?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:749
+translate german cit4_naked_boobs_dance_variant2_e5d71a7a:
+
+    # citizen4 "Это не твое дело! Я говорю, ты делаешь."
+    # citizen4 "Ну дак что?"
+    citizen4 "Это не твое дело! Я говорю, ты делаешь."
+    citizen4 "Ну дак что?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:757
+translate german cit4_naked_boobs_dance_variant2_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:760
+translate german cit4_naked_boobs_dance_variant2_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:763
+translate german cit4_naked_boobs_dance_variant2_a4066f0b:
+
+    # citizen4 "Все равно мне не интересны твои сиськи."
+    citizen4 "Все равно мне не интересны твои сиськи."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:765
+translate german cit4_naked_boobs_dance_variant2_7279e034:
+
+    # mt "Как он может такое говорить? Моя прекрасная грудь много кого интересует!"
+    mt "Как он может такое говорить? Моя прекрасная грудь много кого интересует!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:768
+translate german cit4_naked_boobs_dance_variant2_c1f95314:
+
+    # citizen4 "Залезай уже на пилон и начинай!"
+    citizen4 "Залезай уже на пилон и начинай!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:770
+translate german cit4_naked_boobs_dance_variant2_94420ba9:
+
+    # m "Хорошо."
+    m "Na gut."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:775
+translate german cit4_naked_boobs_dance_variant2_1836d0b0:
+
+    # citizen4 "Мне кажется, я начинаю любить твои сиськи!"
+    citizen4 "Мне кажется, я начинаю любить твои сиськи!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:780
+translate german cit4_naked_boobs_dance_variant2_0d98331f:
+
+    # citizen4 "Да, вот так, двигайся!"
+    citizen4 "Да, вот так, двигайся!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:787
+translate german cit4_naked_boobs_dance_variant2_3513b231:
+
+    # citizen4 "Знаешь, все равно что-то не то. Кое чего не хватает."
+    citizen4 "Знаешь, все равно что-то не то. Кое чего не хватает."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:797
+translate german cit4_naked_boobs_dance_variant2_e502a163:
+
+    # citizen4 "Вот чего не хватает! Моей руки на твоей сочной жопе!"
+    citizen4 "Вот чего не хватает! Моей руки на твоей сочной жопе!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:799
+translate german cit4_naked_boobs_dance_variant2_c051171b:
+
+    # m "Какого черта? Отпути меня!"
+    m "Какого черта? Отпути меня!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:801
+translate german cit4_naked_boobs_dance_variant2_36243c5c:
+
+    # citizen4 "Не, мне нравится твой зад!"
+    citizen4 "Не, мне нравится твой зад!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:803
+translate german cit4_naked_boobs_dance_variant2_93e0dd07:
+
+    # mt "Черт, если я отпущу пилон, он может меня отпустить и я упаду... Что делать?"
+    mt "Черт, если я отпущу пилон, он может меня отпустить и я упаду... Что делать?"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:817
+translate german cit4_naked_boobs_dance_variant2_7594db58:
+
+    # citizen4 "Ха-ха-ха! Глупая девочка!"
+    citizen4 "Ха-ха-ха! Глупая девочка!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:821
+translate german cit4_naked_boobs_dance_variant2_a9b7b8e1:
+
+    # m "Знаешь что! Если ты меня не отпустишь, у тебя будут проблемы!"
+    m "Знаешь что! Если ты меня не отпустишь, у тебя будут проблемы!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:823
+translate german cit4_naked_boobs_dance_variant2_e0406624:
+
+    # citizen4 "Девочка, ты не в тех условиях, чтобы угрожать!"
+    # citizen4 "Погоди минутку..."
+    citizen4 "Девочка, ты не в тех условиях, чтобы угрожать!"
+    citizen4 "Погоди минутку..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:827
+translate german cit4_naked_boobs_dance_variant2_a29dc817:
+
+    # citizen4 "О да, отличный зад!"
+    citizen4 "О да, отличный зад!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:830
+translate german cit4_naked_boobs_dance_variant2_6d654a59:
+
+    # citizen4 "Эх, маловат, но вполне годный!"
+    citizen4 "Эх, маловат, но вполне годный!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:835
+translate german cit4_naked_boobs_dance_variant2_9e8e68c1:
+
+    # mt "Похоже, у меня нет выбора..."
+    mt "Похоже, у меня нет выбора..."
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:838
+translate german cit4_naked_boobs_dance_variant2_a29dc817_1:
+
+    # citizen4 "О да, отличный зад!"
+    citizen4 "О да, отличный зад!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:841
+translate german cit4_naked_boobs_dance_variant2_6d654a59_1:
+
+    # citizen4 "Эх, маловат, но вполне годный!"
+    citizen4 "Эх, маловат, но вполне годный!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:845
+translate german cit4_naked_boobs_dance_variant2_8fb8bc5e:
+
+    # m "Я тебя убью!"
+    m "Я тебя убью!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:847
+translate german cit4_naked_boobs_dance_variant2_03c481b9:
+
+    # citizen4 "Началось... Вот твои два бакса, заработала."
+    # citizen4 "И вот еще один, за твой красивый зад!"
+    citizen4 "Началось... Вот твои два бакса, заработала."
+    citizen4 "И вот еще один, за твой красивый зад!"
+
+# game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:851
+translate german cit4_naked_boobs_dance_variant2_cccfe7b4:
+
+    # mt "Когда нибудь ты за это ответишь, я обещаю!"
+    mt "Когда нибудь ты за это ответишь, я обещаю!"
+
+translate german strings:
+
+    # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:805
+    old "Отпустить руки."
+    new "Отпустить руки."
+
+    # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:805
+    old "Угрожать."
+    new "Угрожать."
+
+    # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:805
+    old "Терпеть."
+    new "Терпеть."
+

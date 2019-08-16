@@ -1077,3 +1077,447 @@ translate german cit13_naked_boobs_variant2_b4f15484:
     citizen13 "Ja! In dem Film gestern..."
     citizen13 "Da waren 10 Männer... Warte, warum erzähle ich dir das, das siehst du sicher täglich."
 
+# TODO: Translation updated at 2019-08-15 14:57
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:568
+translate german cit13_naked_boobs_dance_1st_a4ba9d7b:
+
+    # citizen13 "Подруга, я часто вспоминаю тебя. Точнее твою красивую грудь и твои движения на пилоне."
+    # citizen13 "Может быть покажешь мне эти две вещи одновременно?"
+    citizen13 "Подруга, я часто вспоминаю тебя. Точнее твою красивую грудь и твои движения на пилоне."
+    citizen13 "Может быть покажешь мне эти две вещи одновременно?"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:571
+translate german cit13_naked_boobs_dance_1st_fa7273f0:
+
+    # mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
+    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:573
+translate german cit13_naked_boobs_dance_1st_1cffca87:
+
+    # m "Что я получу за это?"
+    m "Что я получу за это?"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:575
+translate german cit13_naked_boobs_dance_1st_6e3e8815:
+
+    # citizen13 "Вот ты какая... Я думал, что ты сделаешь это ради нашей дружбы..."
+    citizen13 "Вот ты какая... Я думал, что ты сделаешь это ради нашей дружбы..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:577
+translate german cit13_naked_boobs_dance_1st_bbf9136c:
+
+    # m "Нет, мне нужны деньги."
+    m "Нет, мне нужны деньги."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:579
+translate german cit13_naked_boobs_dance_1st_43323c84:
+
+    # mt "Какой еще дружбы? Я вообще тебя не знаю..."
+    # mt "У такой леди как Я не может быть друзей в этих грязных трущобах!"
+    # mt "Это все какое-то недоразумение... Временное..."
+    mt "Какой еще дружбы? Я вообще тебя не знаю..."
+    mt "У такой леди как Я не может быть друзей в этих грязных трущобах!"
+    mt "Это все какое-то недоразумение... Временное..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:583
+translate german cit13_naked_boobs_dance_1st_0566a0c3:
+
+    # citizen13 "Хорошо, подруга, я дам тебе немного денег."
+    citizen13 "Хорошо, подруга, я дам тебе немного денег."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:590
+translate german cit13_naked_boobs_dance_1st_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:593
+translate german cit13_naked_boobs_dance_1st_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:595
+translate german cit13_naked_boobs_dance_1st_f4ecc735:
+
+    # citizen13 "А ты смешная! Зачем? Я же уже видел твою грудь."
+    citizen13 "А ты смешная! Зачем? Я же уже видел твою грудь."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:597
+translate german cit13_naked_boobs_dance_1st_3a87d6ae:
+
+    # m "Я не привыкла переодеваться, когда на меня смотрит мужчина."
+    m "Я не привыкла переодеваться, когда на меня смотрит мужчина."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:599
+translate german cit13_naked_boobs_dance_1st_b57b9150:
+
+    # citizen13 "Но я ведь не мужчина, а твой друг, а ты моя подруга."
+    citizen13 "Но я ведь не мужчина, а твой друг, а ты моя подруга."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:601
+translate german cit13_naked_boobs_dance_1st_d3e3e4b1:
+
+    # m "Это не важно, отвернись!"
+    m "Это не важно, отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:603
+translate german cit13_naked_boobs_dance_1st_35a2ddc4:
+
+    # citizen13 "Скучная ты, ну ладно."
+    citizen13 "Скучная ты, ну ладно."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:608
+translate german cit13_naked_boobs_dance_1st_f16f3d9b:
+
+    # citizen13 "Привет, близняшки! Готовы потанцевать?"
+    citizen13 "Привет, близняшки! Готовы потанцевать?"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:610
+translate german cit13_naked_boobs_dance_1st_bea7dc4c:
+
+    # mt "Господи, лучше бы ты молчал..."
+    mt "Господи, лучше бы ты молчал..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:615
+translate german cit13_naked_boobs_dance_1st_f12e09d8:
+
+    # citizen13 "Подруга, я же уже говорил, что у тебя талант?"
+    citizen13 "Подруга, я же уже говорил, что у тебя талант?"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:620
+translate german cit13_naked_boobs_dance_1st_f7b0c142:
+
+    # citizen13 "Вот это пластика!"
+    citizen13 "Вот это пластика!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:625
+translate german cit13_naked_boobs_dance_1st_3faa5507:
+
+    # citizen13 "Ты же научишь меня также? По дружбе..."
+    citizen13 "Ты же научишь меня также? По дружбе..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:628
+translate german cit13_naked_boobs_dance_1st_eb7db2d2:
+
+    # citizen13 "Дак что, научишь?"
+    citizen13 "Дак что, научишь?"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:630
+translate german cit13_naked_boobs_dance_1st_5ab99367:
+
+    # mt "Да ни за что на свете."
+    mt "Да ни за что на свете."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:632
+translate german cit13_naked_boobs_dance_1st_2fce66a2:
+
+    # m "Нет!"
+    m "Nein! Das ist das teuerste Kleid im ganzen Laden."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:634
+translate german cit13_naked_boobs_dance_1st_1bb6d7b8:
+
+    # citizen13 "Жаль, но, возможно скоро ты изментшь свое мнение. Мы бы классно провели время."
+    # citizen13 "Чуть не забыл... Вот твои деньги."
+    citizen13 "Жаль, но, возможно скоро ты изментшь свое мнение. Мы бы классно провели время."
+    citizen13 "Чуть не забыл... Вот твои деньги."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:642
+translate german cit13_naked_boobs_dance_variant1_3f6a8288:
+
+    # citizen13 "Потанцуй еще! И грудь оголи, пожалуйста!"
+    # citizen13 "Мы же подруги!"
+    citizen13 "Потанцуй еще! И грудь оголи, пожалуйста!"
+    citizen13 "Мы же подруги!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:650
+translate german cit13_naked_boobs_dance_variant1_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:653
+translate german cit13_naked_boobs_dance_variant1_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:655
+translate german cit13_naked_boobs_dance_variant1_40df3ddf:
+
+    # citizen13 "Ну, подруга, это уже не смешно..."
+    citizen13 "Ну, подруга, это уже не смешно..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:657
+translate german cit13_naked_boobs_dance_variant1_e5964a27:
+
+    # m "Отвернись, иначе ничего не будет."
+    m "Отвернись, иначе ничего не будет."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:659
+translate german cit13_naked_boobs_dance_variant1_f3e56509:
+
+    # citizen13 "Ладно, подруга, как скажешь."
+    citizen13 "Ладно, подруга, как скажешь."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:664
+translate german cit13_naked_boobs_dance_variant1_e16bccee:
+
+    # citizen13 "Начинаем!"
+    citizen13 "Начинаем!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:669
+translate german cit13_naked_boobs_dance_variant1_002887ad:
+
+    # citizen13 "Отлично!"
+    citizen13 "Ausgezeichnet!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:674
+translate german cit13_naked_boobs_dance_variant1_cf9cbc33:
+
+    # citizen13 "Подруга, ты прекрасна!"
+    citizen13 "Подруга, ты прекрасна!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:683
+translate german cit13_naked_boobs_dance_variant1_e78a762e:
+
+    # citizen13 "Ух ты! Что тут у нас?"
+    citizen13 "Ух ты! Что тут у нас?"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:686
+translate german cit13_naked_boobs_dance_variant1_b1218e87:
+
+    # m "Отдай мою туфлю!"
+    m "Отдай мою туфлю!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:688
+translate german cit13_naked_boobs_dance_variant1_f957337b:
+
+    # citizen13 "Подруга, как не вежливо! Это Луи Витон? Очень похоже..."
+    citizen13 "Подруга, как не вежливо! Это Луи Витон? Очень похоже..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:690
+translate german cit13_naked_boobs_dance_variant1_41f4553b:
+
+    # mt "Господи, откуда ты это услышал проживая в этой дыре..."
+    mt "Господи, откуда ты это услышал проживая в этой дыре..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:692
+translate german cit13_naked_boobs_dance_variant1_fe5afd99:
+
+    # m "Нет."
+    m "Nein."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:694
+translate german cit13_naked_boobs_dance_variant1_88fcaeb0:
+
+    # citizen13 "Очень похоже..."
+    citizen13 "Очень похоже..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:696
+translate german cit13_naked_boobs_dance_variant1_00434c8d:
+
+    # m "Наверное, а теперь отдай мне туфлю."
+    m "Наверное, а теперь отдай мне туфлю."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:698
+translate german cit13_naked_boobs_dance_variant1_2a34ec79:
+
+    # citizen13 "Погоди, подруга. Мне кажется, только я думаю о нашей дружбе и тебе на нее наплевать."
+    citizen13 "Погоди, подруга. Мне кажется, только я думаю о нашей дружбе и тебе на нее наплевать."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:700
+translate german cit13_naked_boobs_dance_variant1_a17b6363:
+
+    # mt "У нас нет никакой дружбы и мне на тебя плевать..."
+    mt "У нас нет никакой дружбы и мне на тебя плевать..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:702
+translate german cit13_naked_boobs_dance_variant1_091a2b4a:
+
+    # citizen13 "Знаешь что... Обними меня, как свою лучшую подругу и я отдам тебе туфлю, но если ты откажешься, я выкину ее в помойку."
+    citizen13 "Знаешь что... Обними меня, как свою лучшую подругу и я отдам тебе туфлю, но если ты откажешься, я выкину ее в помойку."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:704
+translate german cit13_naked_boobs_dance_variant1_a03e0284:
+
+    # mt "Было бы очень не приятно потерять туфлю... В одной я далеко не уйду... Что делать?"
+    mt "Было бы очень не приятно потерять туфлю... В одной я далеко не уйду... Что делать?"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:708
+translate german cit13_naked_boobs_dance_variant1_5c066d11:
+
+    # mt "Возможно, стоит сделать вид что я обнимаюсь с ним."
+    # mt "Мне нужна моя туфля назад. Я не смогу его догнать в одной туфле..."
+    mt "Возможно, стоит сделать вид что я обнимаюсь с ним."
+    mt "Мне нужна моя туфля назад. Я не смогу его догнать в одной туфле..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:711
+translate german cit13_naked_boobs_dance_variant1_d59116cb:
+
+    # m "Хорошо, давай обнимемся."
+    m "Хорошо, давай обнимемся."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:713
+translate german cit13_naked_boobs_dance_variant1_ca39431e:
+
+    # citizen13 "Ура! Я знал, что ты не откажешь!"
+    citizen13 "Ура! Я знал, что ты не откажешь!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:720
+translate german cit13_naked_boobs_dance_variant1_63e5ac50:
+
+    # mt "Какого черта? Он лапает мой зад?!"
+    mt "Какого черта? Он лапает мой зад?!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:722
+translate german cit13_naked_boobs_dance_variant1_dc367350:
+
+    # citizen13 "Вот это я понимаю дружба! Вот, возьми свою туфлю."
+    citizen13 "Вот это я понимаю дружба! Вот, возьми свою туфлю."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:726
+translate german cit13_naked_boobs_dance_variant1_74103451:
+
+    # m "Подруги так не поступают!"
+    m "Подруги так не поступают!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:728
+translate german cit13_naked_boobs_dance_variant1_53118b5b:
+
+    # citizen13 "Хм... Да, возможно ты права."
+    citizen13 "Хм... Да, возможно ты права."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:730
+translate german cit13_naked_boobs_dance_variant1_9e3ea201:
+
+    # m "Дружба должна быть на доверии, а после такого я не уверена, что могу тебе доверять."
+    # m "А теперь, если мы и правда подруги, отдай мне туфлю!"
+    m "Дружба должна быть на доверии, а после такого я не уверена, что могу тебе доверять."
+    m "А теперь, если мы и правда подруги, отдай мне туфлю!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:733
+translate german cit13_naked_boobs_dance_variant1_365cc232:
+
+    # citizen13 "Конечно мы подруги! Вот, возьми."
+    citizen13 "Конечно мы подруги! Вот, возьми."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:736
+translate german cit13_naked_boobs_dance_variant1_bbccc29e:
+
+    # citizen13 "Кстати, чуть не забыл: вот твои деньги."
+    citizen13 "Кстати, чуть не забыл: вот твои деньги."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:742
+translate german cit13_naked_boobs_dance_variant2_3819539b:
+
+    # citizen13 "Потанцуй еще! И грудь оголи пожалуйста!"
+    # citizen13 "Мы же подруги!"
+    citizen13 "Потанцуй еще! И грудь оголи пожалуйста!"
+    citizen13 "Мы же подруги!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:750
+translate german cit13_naked_boobs_dance_variant2_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:753
+translate german cit13_naked_boobs_dance_variant2_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:755
+translate german cit13_naked_boobs_dance_variant2_18d7236f:
+
+    # citizen13 "Ну, подруга, ну хватит уже..."
+    citizen13 "Ну, подруга, ну хватит уже..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:757
+translate german cit13_naked_boobs_dance_variant2_e5964a27:
+
+    # m "Отвернись, иначе ничего не будет."
+    m "Отвернись, иначе ничего не будет."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:759
+translate german cit13_naked_boobs_dance_variant2_084b69a9:
+
+    # citizen13 "Какая же ты скучная..."
+    citizen13 "Какая же ты скучная..."
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:764
+translate german cit13_naked_boobs_dance_variant2_3096e776:
+
+    # citizen13 "Твоя грудь стала больше? Или мне показалось?"
+    # citizen13 "Ладно, не важно, танцуй!"
+    citizen13 "Твоя грудь стала больше? Или мне показалось?"
+    citizen13 "Ладно, не важно, танцуй!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:770
+translate german cit13_naked_boobs_dance_variant2_ebfe1ec2:
+
+    # citizen13 "Йуху! Какие обороты!"
+    citizen13 "Йуху! Какие обороты!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:775
+translate german cit13_naked_boobs_dance_variant2_748384de:
+
+    # citizen13 "Ты  даже так умеешь?!"
+    citizen13 "Ты  даже так умеешь?!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:780
+translate german cit13_naked_boobs_dance_variant2_73f72c39:
+
+    # citizen13 "Круто! Ой, что это?!"
+    citizen13 "Круто! Ой, что это?!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:790
+translate german cit13_naked_boobs_dance_variant2_b55299b5:
+
+    # m "Какого хрена ты делаешь?"
+    m "Какого хрена ты делаешь?"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:792
+translate german cit13_naked_boobs_dance_variant2_863ee417:
+
+    # citizen13 "Подруга, это чудо! Видимо ты понравилась моему дружочку! Это так неожиданно!"
+    citizen13 "Подруга, это чудо! Видимо ты понравилась моему дружочку! Это так неожиданно!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:794
+translate german cit13_naked_boobs_dance_variant2_82f4fcf8:
+
+    # m "Оденься!"
+    m "Оденься!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:796
+translate german cit13_naked_boobs_dance_variant2_0599b1a2:
+
+    # mt "Его член просто крохотный, Фи!"
+    mt "Его член просто крохотный, Фи!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:798
+translate german cit13_naked_boobs_dance_variant2_304a2455:
+
+    # citizen13 "Обязательно расскажу об этом всем!"
+    citizen13 "Обязательно расскажу об этом всем!"
+
+# game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:801
+translate german cit13_naked_boobs_dance_variant2_077447e9:
+
+    # citizen13 "Кстати, подруга, вот тебе лишнй доллар! Уверен, ты рада!"
+    citizen13 "Кстати, подруга, вот тебе лишнй доллар! Уверен, ты рада!"
+
+translate german strings:
+
+    # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:585
+    old "Хватит с тебя того, что ты уже видел!"
+    new "Хватит с тебя того, что ты уже видел!"
+
+    # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:706
+    old "Подруги так не поступают!"
+    new "Подруги так не поступают!"
+

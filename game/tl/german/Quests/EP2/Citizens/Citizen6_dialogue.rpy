@@ -1392,3 +1392,421 @@ translate german cit6_naked_boobs_variant1_c66b7d0d:
     # mt "Господи, что я говорю? Неужели я готова сделать такое..."
     mt "Meine Güte, was sage ich da überhaupt? Bin ich wirklich bereit, das zu tun?..."
 
+# TODO: Translation updated at 2019-08-15 14:57
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:737
+translate german cit6_naked_boobs_dance_1st_656c16c1:
+
+    # citizen6 "Эй, как насчеет танцев?"
+    citizen6 "Эй, как насчеет танцев?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:739
+translate german cit6_naked_boobs_dance_1st_1b2aef29:
+
+    # m "Можно, но только если ты заплатишь."
+    m "Можно, но только если ты заплатишь."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:741
+translate german cit6_naked_boobs_dance_1st_5cc0b3a9:
+
+    # citizen6 "Да, я заплачу, а ты снимешь кофточку."
+    citizen6 "Да, я заплачу, а ты снимешь кофточку."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:743
+translate german cit6_naked_boobs_dance_1st_132167a0:
+
+    # m "Что?!"
+    m "Was?!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:750
+translate german cit6_naked_boobs_dance_1st_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:753
+translate german cit6_naked_boobs_dance_1st_f4965ca3:
+
+    # mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
+    # mt "Хуже уже не будет..."
+    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
+    mt "Хуже уже не будет..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:756
+translate german cit6_naked_boobs_dance_1st_90bc53c5:
+
+    # m "Сколько ты заплатишь?"
+    m "Сколько ты заплатишь?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:758
+translate german cit6_naked_boobs_dance_1st_5dbae68c:
+
+    # citizen6 "Танцы-доллар, сиськи-по пол доллара каждая. Итого 2 доллара."
+    citizen6 "Танцы-доллар, сиськи-по пол доллара каждая. Итого 2 доллара."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:765
+translate german cit6_naked_boobs_dance_1st_96a5a52b:
+
+    # m "Ну уж нет!"
+    m "Oh nein!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:767
+translate german cit6_naked_boobs_dance_1st_fb8445d4:
+
+    # citizen6 "Ладно, тут можно и по дешевле найти!"
+    citizen6 "Ладно, тут можно и по дешевле найти!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:770
+translate german cit6_naked_boobs_dance_1st_bd8fb1d8:
+
+    # mt "Сиськи по пол доллара каждая?! Да моя грудь стоит миллион!"
+    mt "Сиськи по пол доллара каждая?! Да моя грудь стоит миллион!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:772
+translate german cit6_naked_boobs_dance_1st_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:776
+translate german cit6_naked_boobs_dance_1st_892fef8c:
+
+    # citizen6 "Хорошо, отвернусь!"
+    # img_12023
+    citizen6 "Хорошо, отвернусь!"
+    img_12023
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:780
+translate german cit6_naked_boobs_dance_1st_49d077a4:
+
+    # citizen6 "Давай, не тормози, начинай!"
+    citizen6 "Давай, не тормози, начинай!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:785
+translate german cit6_naked_boobs_dance_1st_c439809c:
+
+    # citizen6 "Хе-хе! Прекрасно!"
+    citizen6 "Хе-хе! Прекрасно!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:790
+translate german cit6_naked_boobs_dance_1st_023a2233:
+
+    # citizen6 "Давай еще! И, если мне понравится, то я, возможно, дам тебе еще доллар!"
+    citizen6 "Давай еще! И, если мне понравится, то я, возможно, дам тебе еще доллар!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:797
+translate german cit6_naked_boobs_dance_1st_93c0fd1a:
+
+    # citizen6 "Ну, не знаю, такое чувство, что ты халтуришь..."
+    citizen6 "Ну, не знаю, такое чувство, что ты халтуришь..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:800
+translate german cit6_naked_boobs_dance_1st_01dceb50:
+
+    # m "С тебя хватит!"
+    m "С тебя хватит!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:802
+translate german cit6_naked_boobs_dance_1st_80472eae:
+
+    # citizen6 "Вот смотрю я на тебя и думаю, что нет в тебе искры, но свои 2 бакса ты заработала."
+    # citizen6 "Тренируйся! И получишь 2.5 доллара, а может и 3!"
+    citizen6 "Вот смотрю я на тебя и думаю, что нет в тебе искры, но свои 2 бакса ты заработала."
+    citizen6 "Тренируйся! И получишь 2.5 доллара, а может и 3!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:805
+translate german cit6_naked_boobs_dance_1st_60207a8d:
+
+    # m "Когда я верну себе все то, чем я владела, я затолкаю эти 2 доллара тебе в рот!"
+    m "Когда я верну себе все то, чем я владела, я затолкаю эти 2 доллара тебе в рот!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:812
+translate german cit6_naked_boobs_dance_variant1_9fc48d9f:
+
+    # citizen6 "Детка, потанцуй еще, мне нравится, как ты крутишься на пилоне."
+    # citizen6 "Особенно без блузки."
+    citizen6 "Детка, потанцуй еще, мне нравится, как ты крутишься на пилоне."
+    citizen6 "Особенно без блузки."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:820
+translate german cit6_naked_boobs_dance_variant1_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:822
+translate german cit6_naked_boobs_dance_variant1_fbf18ed1:
+
+    # citizen6 "Ладно, если ты не хочешь денег..."
+    citizen6 "Ладно, если ты не хочешь денег..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:825
+translate german cit6_naked_boobs_dance_variant1_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:828
+translate german cit6_naked_boobs_dance_variant1_04d28f94:
+
+    # citizen6 "Хорошо."
+    # img_12023
+    citizen6 "Na gut."
+    img_12023
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:832
+translate german cit6_naked_boobs_dance_variant1_49d077a4:
+
+    # citizen6 "Давай, не тормози, начинай!"
+    citizen6 "Давай, не тормози, начинай!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:837
+translate german cit6_naked_boobs_dance_variant1_c439809c:
+
+    # citizen6 "Хе-хе! Прекрасно!"
+    citizen6 "Хе-хе! Прекрасно!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:842
+translate german cit6_naked_boobs_dance_variant1_023a2233:
+
+    # citizen6 "Давай еще! И, если мне понравится, то я, возможно, дам тебе еще доллар!"
+    citizen6 "Давай еще! И, если мне понравится, то я, возможно, дам тебе еще доллар!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:847
+translate german cit6_naked_boobs_dance_variant1_7c348801:
+
+    # citizen6 "Ну не знаю, такое чувство, что ты халтуришь..."
+    citizen6 "Ну не знаю, такое чувство, что ты халтуришь..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:850
+translate german cit6_naked_boobs_dance_variant1_01dceb50:
+
+    # m "С тебя хватит!"
+    m "С тебя хватит!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:852
+translate german cit6_naked_boobs_dance_variant1_80472eae:
+
+    # citizen6 "Вот смотрю я на тебя и думаю, что нет в тебе искры, но свои 2 бакса ты заработала."
+    # citizen6 "Тренируйся! И получишь 2.5 доллара, а может и 3!"
+    citizen6 "Вот смотрю я на тебя и думаю, что нет в тебе искры, но свои 2 бакса ты заработала."
+    citizen6 "Тренируйся! И получишь 2.5 доллара, а может и 3!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:855
+translate german cit6_naked_boobs_dance_variant1_60207a8d:
+
+    # m "Когда я верну себе все то, чем я владела, я затолкаю эти 2 доллара тебе в рот!"
+    m "Когда я верну себе все то, чем я владела, я затолкаю эти 2 доллара тебе в рот!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:860
+translate german cit6_naked_boobs_dance_variant2_6ba9e3a3:
+
+    # img_13488
+    # citizen6 "Детка, потанцуй еще, я устал от стрип клуба, там плохое освещение..."
+    # citizen6 "И сними блузку. Без нее тебе лучше."
+    # img_13462
+    img_13488
+    citizen6 "Детка, потанцуй еще, я устал от стрип клуба, там плохое освещение..."
+    citizen6 "И сними блузку. Без нее тебе лучше."
+    img_13462
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:869
+translate german cit6_naked_boobs_dance_variant2_f1154c8b:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    # img_13464
+    # citizen6 "Ладно, если ты не хочешь денег..."
+    m "Хватит с тебя того, что ты уже видел!"
+    img_13464
+    citizen6 "Ладно, если ты не хочешь денег..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:873
+translate german cit6_naked_boobs_dance_variant2_e0796152:
+
+    # img_13466
+    # m "Хорошо. Только отвернись!"
+    img_13466
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:877
+translate german cit6_naked_boobs_dance_variant2_0df2021a:
+
+    # citizen6 "Ладно."
+    citizen6 "Ok."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:881
+translate german cit6_naked_boobs_dance_variant2_84e91c41:
+
+    # citizen6 "Ну давай уже! Мне долго ждатть?"
+    citizen6 "Ну давай уже! Мне долго ждатть?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:886
+translate german cit6_naked_boobs_dance_variant2_58060d36:
+
+    # citizen6 "Вот, другое дело!"
+    citizen6 "Вот, другое дело!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:891
+translate german cit6_naked_boobs_dance_variant2_023a2233:
+
+    # citizen6 "Давай еще! И, если мне понравится, то я, возможно, дам тебе еще доллар!"
+    citizen6 "Давай еще! И, если мне понравится, то я, возможно, дам тебе еще доллар!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:896
+translate german cit6_naked_boobs_dance_variant2_390f9a2c:
+
+    # citizen6 "А сегодня ты получше! Тренировалась?"
+    citizen6 "А сегодня ты получше! Тренировалась?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:899
+translate german cit6_naked_boobs_dance_variant2_01dceb50:
+
+    # m "С тебя хватит!"
+    m "С тебя хватит!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:901
+translate german cit6_naked_boobs_dance_variant2_221d6c1c:
+
+    # citizen6 "Я тут придумал, как ты можешь заработать еще доллар."
+    # citizen6 "Я был в стрип клубе и там некоторые из твоих коллег наклоняются перед лицами посетителей, а между сисек у них бутылка..."
+    # citizen6 "Дак вот, они наклоняются, а из бутылки льется пиво прямо в рот!"
+    citizen6 "Я тут придумал, как ты можешь заработать еще доллар."
+    citizen6 "Я был в стрип клубе и там некоторые из твоих коллег наклоняются перед лицами посетителей, а между сисек у них бутылка..."
+    citizen6 "Дак вот, они наклоняются, а из бутылки льется пиво прямо в рот!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:905
+translate german cit6_naked_boobs_dance_variant2_86bb6353:
+
+    # citizen6 "Я тут прикупил пивка..."
+    # citizen6 "Ну дак что? Сделаешь это? Я дам тебе доллар!"
+    # citizen6 "Ради такого я даже присяду, ведь тут нет сцены..."
+    # citizen6 "Ну дак что, хочешь доллар?"
+    citizen6 "Я тут прикупил пивка..."
+    citizen6 "Ну дак что? Сделаешь это? Я дам тебе доллар!"
+    citizen6 "Ради такого я даже присяду, ведь тут нет сцены..."
+    citizen6 "Ну дак что, хочешь доллар?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:913
+translate german cit6_naked_boobs_dance_variant2_e3b58f50:
+
+    # m "Я хочу больше!"
+    m "Я хочу больше!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:915
+translate german cit6_naked_boobs_dance_variant2_ac110893:
+
+    # citizen6 "Серьезно? Я и так плачу тебе доллар! На это можно купить целый кебаб!"
+    # citizen6 "Сколько же ты хочешь?"
+    citizen6 "Серьезно? Я и так плачу тебе доллар! На это можно купить целый кебаб!"
+    citizen6 "Сколько же ты хочешь?"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:918
+translate german cit6_naked_boobs_dance_variant2_14afcf1f:
+
+    # mt "Черт, мне нужны деньги и я уже решила, что могу пойти на такое... Как бы сделать так, чтобы он согласился заплатить как можно больше."
+    mt "Черт, мне нужны деньги и я уже решила, что могу пойти на такое... Как бы сделать так, чтобы он согласился заплатить как можно больше."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:920
+translate german cit6_naked_boobs_dance_variant2_b8d35edd:
+
+    # m "Я хочу 50 долларов! Один человек мне заплатил столько только за то, что я показала ему грудь."
+    m "Я хочу 50 долларов! Один человек мне заплатил столько только за то, что я показала ему грудь."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:922
+translate german cit6_naked_boobs_dance_variant2_949ea9b7:
+
+    # citizen6 "Ха-ха-ха! Я даже знаю его! Его тут все знают! Он помешан на новых сиськах! Думаю, в другой раз он столько не заплатит."
+    # citizen6 "Хорошо. В стрип клубе я за это плачу 10 долларов, но девочке из этого идет не все. Я дам тебе не 1 доллар, а 3!"
+    citizen6 "Ха-ха-ха! Я даже знаю его! Его тут все знают! Он помешан на новых сиськах! Думаю, в другой раз он столько не заплатит."
+    citizen6 "Хорошо. В стрип клубе я за это плачу 10 долларов, но девочке из этого идет не все. Я дам тебе не 1 доллар, а 3!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:925
+translate german cit6_naked_boobs_dance_variant2_9b1f0d49:
+
+    # m "Ладно."
+    # mt "Мне нужны с него хоть какие-то деньги... Черт..."
+    m "Ok."
+    mt "Мне нужны с него хоть какие-то деньги... Черт..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:928
+translate german cit6_naked_boobs_dance_variant2_d684e4d5:
+
+    # mt "Козел..."
+    mt "Козел..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:931
+translate german cit6_naked_boobs_dance_variant2_8e590f08:
+
+    # citizen6 "Вот кстати мое любимое пивко."
+    citizen6 "Вот кстати мое любимое пивко."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:938
+translate german cit6_naked_boobs_dance_variant2_c9487be4:
+
+    # citizen6 "О да, детка!"
+    # citizen6 "Дааа!"
+    # citizen6 "Даже лучше стрип клуба! Нет этих лампочек..."
+    citizen6 "О да, детка!"
+    citizen6 "Дааа!"
+    citizen6 "Даже лучше стрип клуба! Нет этих лампочек..."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:943
+translate german cit6_naked_boobs_dance_variant2_cfed87e3:
+
+    # W
+    W
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:945
+translate german cit6_naked_boobs_dance_variant2_cfed87e3_1:
+
+    # W
+    W
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:947
+translate german cit6_naked_boobs_dance_variant2_cfed87e3_2:
+
+    # W
+    W
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:949
+translate german cit6_naked_boobs_dance_variant2_63df02ee:
+
+    # citizen6 "Ух! Зашибись! Вот твои деньги! Я доволен!"
+    citizen6 "Ух! Зашибись! Вот твои деньги! Я доволен!"
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:953
+translate german cit6_naked_boobs_dance_variant2_f0b1f9ad:
+
+    # m "Думаю, тебе стоит вернуться в стрип клуб. Я не готова на такое."
+    m "Думаю, тебе стоит вернуться в стрип клуб. Я не готова на такое."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:955
+translate german cit6_naked_boobs_dance_variant2_cc84fa59:
+
+    # citizen6 "Ладно, приду, когда ты будешь работать."
+    citizen6 "Ладно, приду, когда ты будешь работать."
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:957
+translate german cit6_naked_boobs_dance_variant2_3aa97a1b:
+
+    # mt "Козел, я не сприптизерша."
+    # passimg 1350
+    mt "Козел, я не сприптизерша."
+    passimg 1350
+
+# game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:960
+translate german cit6_naked_boobs_dance_variant2_afa92547:
+
+    # citizen6 "Да, кстати, вот 2 доллара за танец."
+    citizen6 "Да, кстати, вот 2 доллара за танец."
+
+translate german strings:
+
+    # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:910
+    old "Я хочу больше!"
+    new "Я хочу больше!"
+
+    # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:910
+    old "Это слишком!"
+    new "Это слишком!"
+

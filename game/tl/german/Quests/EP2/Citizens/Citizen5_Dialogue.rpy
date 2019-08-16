@@ -984,3 +984,333 @@ translate german cit5_naked_boobs_variant2_9416d522:
     # citizen5 "Мистер хочет увидеть на тебе это."
     citizen5 "Ich will dich darin sehen!"
 
+# TODO: Translation updated at 2019-08-15 14:57
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:541
+translate german cit5_naked_boobs_dance_1st_e7466b9e:
+
+    # citizen5 "Мистер желает увидеть совмещение."
+    citizen5 "Мистер желает увидеть совмещение."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:543
+translate german cit5_naked_boobs_dance_1st_aa4a366a:
+
+    # m "Что? Я не понимаю."
+    m "Что? Я не понимаю."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:545
+translate german cit5_naked_boobs_dance_1st_d23272c6:
+
+    # citizen5 "Необходимо совместить манящие груди и танцы на железной палке."
+    citizen5 "Необходимо совместить манящие груди и танцы на железной палке."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:547
+translate german cit5_naked_boobs_dance_1st_6815cb5e:
+
+    # m "Ты хочешь, чтобы я снанцевала?"
+    m "Ты хочешь, чтобы я снанцевала?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:549
+translate german cit5_naked_boobs_dance_1st_09377dea:
+
+    # citizen5 "Да! Но перед этим оголи свои манящие груди!"
+    citizen5 "Да! Но перед этим оголи свои манящие груди!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:551
+translate german cit5_naked_boobs_dance_1st_1d5576a5:
+
+    # mt "Теперь понятно о чем ты..."
+    mt "Теперь понятно о чем ты..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:558
+translate german cit5_naked_boobs_dance_1st_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:560
+translate german cit5_naked_boobs_dance_1st_465306cb:
+
+    # citizen5 "Мистер разочарован!"
+    citizen5 "Мистер разочарован!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:563
+translate german cit5_naked_boobs_dance_1st_f4965ca3:
+
+    # mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
+    # mt "Хуже уже не будет..."
+    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
+    mt "Хуже уже не будет..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:566
+translate german cit5_naked_boobs_dance_1st_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:571
+translate german cit5_naked_boobs_dance_1st_640fc988:
+
+    # citizen5 "О, конечно!"
+    citizen5 "О, конечно!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:574
+translate german cit5_naked_boobs_dance_1st_5d643062:
+
+    # citizen5 "Мистер рад, можно начинать!"
+    citizen5 "Мистер рад, можно начинать!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:581
+translate german cit5_naked_boobs_dance_1st_21ada946:
+
+    # citizen5 "Это очень хорошо! Ты очень молодец!"
+    citizen5 "Это очень хорошо! Ты очень молодец!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:588
+translate german cit5_naked_boobs_dance_1st_0416d65f:
+
+    # citizen5 "Как ты замечательно двигаешься! Ты профессионал!"
+    citizen5 "Как ты замечательно двигаешься! Ты профессионал!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:593
+translate german cit5_naked_boobs_dance_1st_7f51431d:
+
+    # citizen5 "Ооо...Ты получишь от мистера много денег!"
+    citizen5 "Ооо...Ты получишь от мистера много денег!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:596
+translate german cit5_naked_boobs_dance_1st_9681aa99:
+
+    # m "Все! Плати! Мне нужны настоящие деньги!"
+    m "Все! Плати! Мне нужны настоящие деньги!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:598
+translate german cit5_naked_boobs_dance_1st_6e11da0c:
+
+    # mt "И не нужны твои тугрики..."
+    mt "И не нужны твои тугрики..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:600
+translate german cit5_naked_boobs_dance_1st_c7787692:
+
+    # citizen5 "Настоящие? Это можно, вот возьми."
+    citizen5 "Настоящие? Это можно, вот возьми."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:607
+translate german cit5_naked_boobs_dance_variant1_e7466b9e:
+
+    # citizen5 "Мистер желает увидеть совмещение."
+    citizen5 "Мистер желает увидеть совмещение."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:609
+translate german cit5_naked_boobs_dance_variant1_88b6ac52:
+
+    # mt "Неужели снова придется раздется и станцевать?"
+    mt "Неужели снова придется раздется и станцевать?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:616
+translate german cit5_naked_boobs_dance_variant1_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:618
+translate german cit5_naked_boobs_dance_variant1_465306cb:
+
+    # citizen5 "Мистер разочарован!"
+    citizen5 "Мистер разочарован!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:621
+translate german cit5_naked_boobs_dance_variant1_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:626
+translate german cit5_naked_boobs_dance_variant1_640fc988:
+
+    # citizen5 "О, конечно!"
+    citizen5 "О, конечно!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:629
+translate german cit5_naked_boobs_dance_variant1_d1955dbc:
+
+    # citizen5 "У мистера сегодня хорошее настроение!"
+    citizen5 "У мистера сегодня хорошее настроение!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:632
+translate german cit5_naked_boobs_dance_variant1_d3650220:
+
+    # citizen5 "Крутись! Превосходно!"
+    citizen5 "Крутись! Превосходно!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:641
+translate german cit5_naked_boobs_dance_variant1_075b5291:
+
+    # citizen5 "Мистеру кажется, что он готов будет написать хайку!"
+    citizen5 "Мистеру кажется, что он готов будет написать хайку!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:644
+translate german cit5_naked_boobs_dance_variant1_9b93bf91:
+
+    # citizen5 "Мистер придумал! Вот послушай!"
+    citizen5 "Мистер придумал! Вот послушай!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:646
+translate german cit5_naked_boobs_dance_variant1_676c7fb6:
+
+    # citizen5 "Стрекоза летала,"
+    # citizen5 "На сакуру села."
+    # citizen5 "Радость мистеру."
+    citizen5 "Стрекоза летала,"
+    citizen5 "На сакуру села."
+    citizen5 "Радость мистеру."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:650
+translate german cit5_naked_boobs_dance_variant1_c2a65fbd:
+
+    # citizen5 "Или это не хайку... Мистер запутался от твоих безупречных форм!"
+    citizen5 "Или это не хайку... Мистер запутался от твоих безупречных форм!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:652
+translate german cit5_naked_boobs_dance_variant1_4d2ea75b:
+
+    # mt "А у мистера похоже, что не все дома..."
+    mt "А у мистера похоже, что не все дома..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:654
+translate german cit5_naked_boobs_dance_variant1_5d0cd2df:
+
+    # citizen5 "Вот твои настоящие деньги."
+    citizen5 "Вот твои настоящие деньги."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:660
+translate german cit5_naked_boobs_dance_variant2_1a041f05:
+
+    # citizen5 "Как насчет танца на пилоне?"
+    citizen5 "Как насчет танца на пилоне?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:662
+translate german cit5_naked_boobs_dance_variant2_def59489:
+
+    # mt "Что? А где же обычный бред, который он все время несет?"
+    # mt "Он что, где то это услышал?"
+    mt "Что? А где же обычный бред, который он все время несет?"
+    mt "Он что, где то это услышал?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:665
+translate german cit5_naked_boobs_dance_variant2_bd77b91b:
+
+    # citizen5 "И не забудь оголить свои манящие груди."
+    citizen5 "И не забудь оголить свои манящие груди."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:667
+translate german cit5_naked_boobs_dance_variant2_9cf2ed88:
+
+    # mt "А, нет, все нормально."
+    # mt "Он все тот же кретин..."
+    mt "А, нет, все нормально."
+    mt "Он все тот же кретин..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:675
+translate german cit5_naked_boobs_dance_variant2_a885f5b2:
+
+    # m "Хватит с тебя того, что ты уже видел!"
+    m "Хватит с тебя того, что ты уже видел!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:677
+translate german cit5_naked_boobs_dance_variant2_465306cb:
+
+    # citizen5 "Мистер разочарован!"
+    citizen5 "Мистер разочарован!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:680
+translate german cit5_naked_boobs_dance_variant2_b6b83365:
+
+    # m "Хорошо. Только отвернись!"
+    m "Хорошо. Только отвернись!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:683
+translate german cit5_naked_boobs_dance_variant2_640fc988:
+
+    # citizen5 "О, конечно!"
+    citizen5 "О, конечно!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:689
+translate german cit5_naked_boobs_dance_variant2_ccfbcd0f:
+
+    # citizen5 "Мистер думает, что ты не очень любишь это прекрасное занятие и хочет, чтобы ты чувствовала себя по-особенному!"
+    citizen5 "Мистер думает, что ты не очень любишь это прекрасное занятие и хочет, чтобы ты чувствовала себя по-особенному!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:691
+translate german cit5_naked_boobs_dance_variant2_5b86c86e:
+
+    # mt "Он что-то задумал?"
+    mt "Он что-то задумал?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:693
+translate german cit5_naked_boobs_dance_variant2_900a14f6:
+
+    # citizen5 "Можно стартовать!"
+    citizen5 "Можно стартовать!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:701
+translate german cit5_naked_boobs_dance_variant2_f4aa3282:
+
+    # citizen5 "Это тебе!"
+    citizen5 "Это тебе!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:706
+translate german cit5_naked_boobs_dance_variant2_aee1185c:
+
+    # citizen5 "Получай!"
+    citizen5 "Nimm das!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:711
+translate german cit5_naked_boobs_dance_variant2_c6e5bd1a:
+
+    # citizen5 "И вот еще!"
+    citizen5 "И вот еще!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:716
+translate german cit5_naked_boobs_dance_variant2_c0de09a8:
+
+    # citizen5 "Все, у меня закончились деньги!"
+    citizen5 "Все, у меня закончились деньги!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:719
+translate german cit5_naked_boobs_dance_variant2_43e7f255:
+
+    # citizen5 "Тебе понравилось? Удалось ли мне создать атмосферу?"
+    citizen5 "Тебе понравилось? Удалось ли мне создать атмосферу?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:721
+translate german cit5_naked_boobs_dance_variant2_ceff4cd3:
+
+    # m "Какую еще атмосферу?"
+    m "Какую еще атмосферу?"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:723
+translate german cit5_naked_boobs_dance_variant2_4775598d:
+
+    # citizen5 "Атмосферу твоего рабочего места!"
+    citizen5 "Атмосферу твоего рабочего места!"
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:725
+translate german cit5_naked_boobs_dance_variant2_fe7f6dd6:
+
+    # mt "Знал бы ты что у меня за атмосфера на рабочем месте..."
+    mt "Знал бы ты что у меня за атмосфера на рабочем месте..."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:727
+translate german cit5_naked_boobs_dance_variant2_46d69307:
+
+    # m "Нет.."
+    m "Нет.."
+
+# game/Quests/EP2/Citizens/Citizen5_Dialogue.rpy:729
+translate german cit5_naked_boobs_dance_variant2_b32cda3e:
+
+    # citizen5 "Ай-ай, мистер немного разочарован. Но ничего, думаю американские деньги также помогут ее созданию..."
+    citizen5 "Ай-ай, мистер немного разочарован. Но ничего, думаю американские деньги также помогут ее созданию..."
+
