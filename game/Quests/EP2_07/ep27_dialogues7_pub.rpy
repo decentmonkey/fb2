@@ -1170,6 +1170,9 @@ label ep27_dialogues7_pub18:
 
 
 
+label ep27_dialogues7_pub19:
+    mt "Я уже обслуживала этого посетителя..."
+    return
 
 
 
