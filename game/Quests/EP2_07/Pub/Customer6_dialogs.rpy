@@ -10,3 +10,8 @@ label customer6_serve1:
     img 14319
     mt "Да он похоже пьян... Думаю, Джо о нем позаботится..."
     return
+
+
+label customer6_afterserve1:
+    mt "Жалкий алкоголик..."
+    return
