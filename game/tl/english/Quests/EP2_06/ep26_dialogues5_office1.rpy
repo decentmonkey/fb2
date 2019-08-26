@@ -270,7 +270,7 @@ translate english ep26_dialogues5_office1_2_1f6fb834:
     mt "Damn it! For how long do I have to keep this charade!?"
     mt "Pretending to be an obedient girl in front of this bastard!"
     mt "Me! Monica Buckfett!"
-    mt "АААААААААААААААА!!!"
+    mt "ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ!!!"
     m "..."
     m "I'm... I'm a good girl, Biff..."
     biff "Then come to daddy and kiss him!"
@@ -1124,7 +1124,7 @@ translate english ep26_dialogues5_office1_2_3011c396:
     # mt "Мне! Монике Бакфетт!"
     # mt "АААААААААААААААА!!!"
     mt "Me! Monica Buckfett!"
-    mt "АААААААААААААААА!!!"
+    mt "ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ!!!"
 
 # game/Quests/EP2_06/ep26_dialogues5_office1.rpy:421
 translate english ep26_dialogues5_office1_2_e612037c_2:

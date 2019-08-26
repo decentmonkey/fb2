@@ -548,7 +548,7 @@ translate english ep23_dialogues1_3_e27228cb:
     # mt "АААААААА!!!"
     # "ДА Я ЧИЩЕ ЧЕМ ВЫ ВСЕ ВМЕСТЕ ВЗЯТЫЕ ЗДЕСЬ!!!"
     # "ЖАЛКИЕ НИЧТОЖЕСТВА!!!"
-    mt "АААААААА!!!"
+    mt "ÀÀÀÀÀÀÀÀ!!!"
     "I AM CLEANER THAN ANY OF YOU!!!"
     "PATHETIC NOBODIES!!!"
 
