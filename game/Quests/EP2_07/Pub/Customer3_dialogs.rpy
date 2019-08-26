@@ -111,7 +111,7 @@ label customer3_serve1:
     img 14258
     mt "Какой же он мерзкий..."
 
-label customer3_serve1:
+label customer3_serve2:
     img 14249
     m "Привет! Вам что нибудь принести?"
     img 14250
