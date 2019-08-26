@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/EP2_02/ep22_photoshoot3.rpy:7
 translate english ep22_photoshoot3_a69435de:
@@ -378,7 +378,7 @@ translate english ep22_photoshoot3_casting_f4e1f245_1:
 
 translate english strings:
 
-    # Quests/EP2_02/ep22_photoshoot3.rpy:760
+    # game/Quests/EP2_02/ep22_photoshoot3.rpy:760
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot3_casting_corruption_required]) (disabled)"
     new "Be a good girl at Biff' casting... (low corruption, required [photoshoot3_casting_corruption_required]) (disabled)"
 

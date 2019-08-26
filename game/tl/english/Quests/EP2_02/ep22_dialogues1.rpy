@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/EP2_02/ep22_dialogues1.rpy:29
 translate english ep22_dialogue1_2_governess_refuse_to_go_176c0e82:
@@ -26,13 +26,13 @@ translate english ep22_dialogue1_4_clothshop_cd6ca5f9:
     mt "The shop is closed..."
     "I wonder why..."
 
-# game/Quests/EP2_02/ep22_dialogues1.rpy:66
+# game/Quests/EP2_02/ep22_dialogues1.rpy:69
 translate english ep22_dialogue1_5_kitchen_e52c039c:
 
     # mt "Наконец-то я поем нормальную еду!"
     mt "Finally, I get to eat a normal meal!"
 
-# game/Quests/EP2_02/ep22_dialogues1.rpy:69
+# game/Quests/EP2_02/ep22_dialogues1.rpy:72
 translate english ep22_dialogue1_5_kitchen_b349834f:
 
     # mt "Как же хорошо снова посидеть за этим столиком..."
@@ -42,7 +42,7 @@ translate english ep22_dialogue1_5_kitchen_b349834f:
 
 translate english strings:
 
-    # Quests/EP2_02/ep22_dialogues1.rpy:54
+    # game/Quests/EP2_02/ep22_dialogues1.rpy:54
     old "Поесть пока Бетти нет дома..."
     new "Eat while Betty is not at home..."
 

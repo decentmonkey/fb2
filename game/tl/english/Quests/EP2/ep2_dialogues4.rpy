@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/EP2/ep2_dialogues4.rpy:8
 translate english monica_office_entrance_biff_dialogue1_698a18e0:
@@ -2468,87 +2468,83 @@ translate english monica_office_cabinet_biff_dialogue5_0a5616b8_2:
 
 translate english strings:
 
-    # Quests/EP2/ep2_dialogues4.rpy:154
+    # game/Quests/EP2/ep2_dialogues4.rpy:154
     old "Попросить деньги в долг."
     new "Ask for money to borrow."
 
-    # Quests/EP2/ep2_dialogues4.rpy:425
+    # game/Quests/EP2/ep2_dialogues4.rpy:425
     old "Притвориться что это не Я..."
     new "Pretend it wasn't me..."
 
-    # Quests/EP2/ep2_dialogues4.rpy:614
+    # game/Quests/EP2/ep2_dialogues4.rpy:614
     old "Попросить помощь у Мелани."
     new "Ask Melanie for help"
 
-    # Quests/EP2/ep2_dialogues4.rpy:614
+    # game/Quests/EP2/ep2_dialogues4.rpy:614
     old "Говорить с Мелани."
     new "Talking to Melanie."
 
-    # Quests/EP2/ep2_dialogues4.rpy:647
+    # game/Quests/EP2/ep2_dialogues4.rpy:647
     old "Да, я примерно понимаю в чем заключаются они, твои силы..."
     new "Yes, I understand about what they are, your strength..."
 
-    # Quests/EP2/ep2_dialogues4.rpy:647
+    # game/Quests/EP2/ep2_dialogues4.rpy:647
     old "Мелани, ни один мужчина не устоит перед тобой!"
     new "Melanie, there is no man who can resist you!"
 
-    # Quests/EP2/ep2_dialogues4.rpy:845
+    # game/Quests/EP2/ep2_dialogues4.rpy:845
     old "У Моники хорошие отношения с Мелани"
     new "Monica has a good relationship with Melanie"
 
-    # Quests/EP2/ep2_dialogues4.rpy:853
+    # game/Quests/EP2/ep2_dialogues4.rpy:853
     old "У Моники плохие отношения с Мелани"
     new "Monica has a bad relationship with Melanie"
 
-    # Quests/EP2/ep2_dialogues4.rpy:895
+    # game/Quests/EP2/ep2_dialogues4.rpy:895
     old "$ 5.000!!!"
     new "$ 5,000!!!"
 
-    # Quests/EP2/ep2_dialogues4.rpy:971
+    # game/Quests/EP2/ep2_dialogues4.rpy:971
     old "Да, я согласна... (corruption)"
     new "I agree... (corruption)"
 
-    # Quests/EP2/ep2_dialogues4.rpy:1079
-    old "Согласиться."
-    new "Agree."
-
-    # Quests/EP2/ep2_dialogues4.rpy:1103
+    # game/Quests/EP2/ep2_dialogues4.rpy:1103
     old "Моника заставляла моделей проходить обнаженный кастинг"
     new "Monica forced models to pass the nude casting"
 
-    # Quests/EP2/ep2_dialogues4.rpy:1137
+    # game/Quests/EP2/ep2_dialogues4.rpy:1137
     old "Моника не проводила с моделями обнаженный кастинг"
     new "Monica did not hold nude casting with models"
 
-    # Quests/EP2/ep2_dialogues4.rpy:1220
+    # game/Quests/EP2/ep2_dialogues4.rpy:1220
     old "Да, буду..."
     new "Yes, I have..."
 
-    # Quests/EP2/ep2_dialogues4.rpy:1220
+    # game/Quests/EP2/ep2_dialogues4.rpy:1220
     old "Пока нет..."
     new "Not this time."
 
-    # Quests/EP2/ep2_dialogues4.rpy:1277
+    # game/Quests/EP2/ep2_dialogues4.rpy:1277
     old "Переодеться."
     new "Change clothes."
 
-    # Quests/EP2/ep2_dialogues4.rpy:1565
+    # game/Quests/EP2/ep2_dialogues4.rpy:1565
     old "Моника была груба к Алексу"
     new "Monica was rude to Alex"
 
-    # Quests/EP2/ep2_dialogues4.rpy:1578
+    # game/Quests/EP2/ep2_dialogues4.rpy:1578
     old "Моника была добра к Алексу"
     new "Monica was kind to Alex"
 
-    # Quests/EP2/ep2_dialogues4.rpy:1624
+    # game/Quests/EP2/ep2_dialogues4.rpy:1624
     old "Продолжить делать кадры. (corruption)"
     new "Continue taking shots... (corruption)"
 
-    # Quests/EP2/ep2_dialogues4.rpy:1624
+    # game/Quests/EP2/ep2_dialogues4.rpy:1624
     old "Продолжить делать кадры. (low corruption, required [monicaBiffWorkPhotoShot1PervertCorruptionRequired]) (disabled)"
     new "Continue taking shots... (low corruption, required [monicaBiffWorkPhotoShot1PervertCorruptionRequired]) (disabled)"
 
-    # Quests/EP2/ep2_dialogues4.rpy:1624
+    # game/Quests/EP2/ep2_dialogues4.rpy:1624
     old "Прекратить это."
     new "Stop it."
 

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:36
+﻿# TODO: Translation updated at 2019-08-26 19:44
 
 # game/Quests/EP2_07/Pub/Customer9_dialogs.rpy:5
 translate german customer9_1stmeeting_fd726aa7:
@@ -22,7 +22,7 @@ translate german customer9_1stmeeting_ef6f15d6:
 translate german customer9_1stmeeting_33c3e357:
 
     # m "Да."
-    m "Да."
+    m "Ja."
 
 # game/Quests/EP2_07/Pub/Customer9_dialogs.rpy:16
 translate german customer9_1stmeeting_3d540ed5:
@@ -46,7 +46,7 @@ translate german customer9_1stmeeting_53354c91:
 translate german customer9_1stmeeting_bdb0c5e7:
 
     # m "Нет, спасибо."
-    m "Нет, спасибо."
+    m "Nein, danke."
 
 # game/Quests/EP2_07/Pub/Customer9_dialogs.rpy:24
 translate german customer9_1stmeeting_025fd9d4:
@@ -118,7 +118,7 @@ translate german customer9_serve1_c521970f:
 translate german customer9_serve1_e88dbab1:
 
     # m "Ай!"
-    m "Ай!"
+    m "Autsch!"
 
 # game/Quests/EP2_07/Pub/Customer9_dialogs.rpy:56
 translate german customer9_serve1_b9dc1487:

@@ -1,6 +1,6 @@
-﻿# TODO: Translation updated at 2019-02-16 02:59
+﻿# TODO: Translation updated at 2019-08-26 19:44
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:9
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:19
 translate german ep23_dialogues5_1_ac28ff3d:
 
     # m "Алекс... А где Мелани?"
@@ -12,7 +12,7 @@ translate german ep23_dialogues5_1_ac28ff3d:
     "Warum brauchen sie sie denn?"
     m "Das geht dich nichts an, Alex..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:21
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:35
 translate german ep23_dialogues5_2_9baf4d88:
 
     # m "Мелани... Я хочу поговорить с тобой..."
@@ -20,7 +20,7 @@ translate german ep23_dialogues5_2_9baf4d88:
     m "Melanie... Ich muss mit dir reden..."
     melanie "Über was wollen sie denn reden, Frau Buckfett?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:25
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:39
 translate german ep23_dialogues5_2_fc8799e2:
 
     # m "Может мы отойти с тобой куда-нибудь?"
@@ -28,7 +28,7 @@ translate german ep23_dialogues5_2_fc8799e2:
     m "Können wir bitte wo anders hin gehen?"
     "Ich möchte nicht, dass Alex etwas mitbekommt."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:35
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:51
 translate german ep23_dialogues5_2_70a8bf50:
 
     # melanie "Миссис Бакфетт, у нас с Вами официальные отношения."
@@ -38,7 +38,7 @@ translate german ep23_dialogues5_2_70a8bf50:
     "Ich wünschte, wir hätten keine Geheimnisse."
     "Das könnte meiner Karriere schaden..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:39
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:56
 translate german ep23_dialogues5_2_fd42eb08:
 
     # mt "Мне надо как-то уговорить Мелани пойти со мной."
@@ -50,7 +50,7 @@ translate german ep23_dialogues5_2_fd42eb08:
     "..."
     "Melanie liebt Komplimente..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:46
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:65
 translate german ep23_dialogues5_2_499cdfa2:
 
     # m "Мелани, пожалуйста..."
@@ -62,7 +62,7 @@ translate german ep23_dialogues5_2_499cdfa2:
     "Und das schönste Model des ganzen Magazines."
     "Ich würde daher gerne mit dir alleine sprechen..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:57
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:75
 translate german ep23_dialogues5_2_5ba1d7f3:
 
     # melanie "Хорошо, Миссис Бакфетт."
@@ -70,7 +70,7 @@ translate german ep23_dialogues5_2_5ba1d7f3:
     melanie "Na gut, Frau Buckfett."
     "Gehen wir in die Umkleide."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:63
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:84
 translate german ep23_dialogues5_2_b4b4c590:
 
     # mt "Хм..."
@@ -78,7 +78,7 @@ translate german ep23_dialogues5_2_b4b4c590:
     mt "Hmm..."
     "Ich sehe, dass sich Melanie hier gut einfindet, während das für mich nicht zutrifft..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:69
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:90
 translate german ep23_dialogues5_2_2c6856e2:
 
     # melanie "Итак, Миссис Бакфетт?"
@@ -88,7 +88,7 @@ translate german ep23_dialogues5_2_2c6856e2:
     m "Melanie, ich möchte dich um einen Gefallen bitten..."
     melanie "Ich frage mich... wie kann ich helfen, Frau Buckfett?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:77
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:100
 translate german ep23_dialogues5_2_e55f19de:
 
     # m "Это... Это касается одного мужчины..."
@@ -98,7 +98,7 @@ translate german ep23_dialogues5_2_e55f19de:
     "Und du Melanie, soweit ich weiß, bist dafür genau die Richtige..."
     "Es geht um ein paar kleine Probleme, die ich in letzter Zeit habe.."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:81
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:105
 translate german ep23_dialogues5_2_25058677:
 
     # "Я обещаю что повышу тебя значительно выше, чем ты сейчас..."
@@ -106,7 +106,7 @@ translate german ep23_dialogues5_2_25058677:
     "Ich verspreche dir, dass ich dich in eine deutlich bessere Position bringen werden, im Vergleich zu jetzt."
     "Wenn ich alles zurück erhalte..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:88
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:114
 translate german ep23_dialogues5_2_7ea983ff:
 
     # melanie "Да, Миссис Бакфетт."
@@ -118,7 +118,7 @@ translate german ep23_dialogues5_2_7ea983ff:
     "Ich verstehe nicht ganz, warum sie das eigentlich tragen..."
     "Ihr Mann hat sich scheiden lassen und alles Geld mitgenommen?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:93
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:119
 translate german ep23_dialogues5_2_c660a90b:
 
     # m "Нет, Мелани... Муж у меня..."
@@ -126,7 +126,7 @@ translate german ep23_dialogues5_2_c660a90b:
     m "Nein, Melanie... Mein Mann..."
     "Reden wir nicht darüber... Ich kann nichts positives über ihn sagen..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:96
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:122
 translate german ep23_dialogues5_2_b17c085f:
 
     # melanie "Миссис Бакфетт. Не бывает плохих мужчин."
@@ -136,7 +136,7 @@ translate german ep23_dialogues5_2_b17c085f:
     "Man muss nur wissen, wie man mit ihnen umgeht."
     "Brauchen sie also Hilfe mit ihrem Ehemann?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:107
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:135
 translate german ep23_dialogues5_2_f8d7c483:
 
     # m "Нет, Мелани..."
@@ -144,7 +144,7 @@ translate german ep23_dialogues5_2_f8d7c483:
     m "Nein, Melanie..."
     m "Ich brauch Hilfe mit ... einem Anderen..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:110
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:139
 translate german ep23_dialogues5_2_075067d8:
 
     # melanie "Значит в этом замешан еще один мужчина?"
@@ -156,13 +156,13 @@ translate german ep23_dialogues5_2_075067d8:
     melanie "Wieso bin ich da nicht gleich drauf gekommen?"
     melanie "Nur Liebe könnte Monica Buckfett zu solchen Opfern bewegen!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:115
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:145
 translate german ep23_dialogues5_2_c47b25d5:
 
     # "У всех на виду!"
     "Jetzt ist alles klar."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:117
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:149
 translate german ep23_dialogues5_2_f1327c0f:
 
     # m "Мелани... знаешь..."
@@ -172,7 +172,7 @@ translate german ep23_dialogues5_2_f1327c0f:
     "Es ist... nicht wirklich Liebe..."
     "Es geht auch um einen andere Frau... auf diesem Weg..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:121
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:155
 translate german ep23_dialogues5_2_b78d204e:
 
     # melanie "Еще одной женщины?"
@@ -182,7 +182,7 @@ translate german ep23_dialogues5_2_b78d204e:
     "Jetzt wird es interessant!"
     "Und was genau will jetzt Frau Buckfett SELBST von Melanie?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:134
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:169
 translate german ep23_dialogues5_2_3b0f9916:
 
     # m "У меня есть подозрения, что этот мужчина замешан в том, что у меня возникли небольшие временные трудности..."
@@ -192,7 +192,7 @@ translate german ep23_dialogues5_2_3b0f9916:
     "Dieser Mann war mein Fan und liebte mich. Ist mir wie ein Dackel nachgelaufen, aber..."
     "Aber plötzlich hat er sich verändert."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:138
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:174
 translate german ep23_dialogues5_2_825b2fa5:
 
     # "Впоследствии еще появилась другая женщина."
@@ -200,7 +200,7 @@ translate german ep23_dialogues5_2_825b2fa5:
     "Im Grunde weil eine Andere aufgetaucht ist."
     "Und ich habe das dumpfe Gefühlt, dass damit all meine Probleme zusammen hängen."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:141
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:178
 translate german ep23_dialogues5_2_fcd2df71:
 
     # "Я пыталась найти подход у этому мужчине, но потерпела неудачу."
@@ -210,7 +210,7 @@ translate german ep23_dialogues5_2_fcd2df71:
     "Ich weiß nicht warum!!!"
     "Aber dieser Mann liebt schöne Frauen und könnte vor dir kaum auf den Füßen bleiben!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:148
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:186
 translate german ep23_dialogues5_2_0c4f422c:
 
     # m "Еще он как-то проговорился о том что мечтает о тебе..."
@@ -220,7 +220,7 @@ translate german ep23_dialogues5_2_0c4f422c:
     melanie "Oh, Frau Buckfett..."
     "Ich bekomme tausende Liebesbekundungen jeden Tag..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:154
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:193
 translate german ep23_dialogues5_2_b508763e:
 
     # melanie "А как же Вы?"
@@ -230,7 +230,7 @@ translate german ep23_dialogues5_2_b508763e:
     "Denken sie, ich bin schöner als sie, Frau Buckfett?"
     "Wie könnte ich diese Frau übertreffen, die sie bei diesem Mann überragen soll?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:159
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:201
 translate german ep23_dialogues5_2_b1d26e26:
 
     # m "Мелани... Я хочу поговорить с тобой..."
@@ -240,13 +240,13 @@ translate german ep23_dialogues5_2_b1d26e26:
     melanie "Na gut, Frau Buckfett."
     "Gehen wir in die Umkleide."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:163
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:205
 translate german ep23_dialogues5_2_1aa58f2b:
 
     # m "Я... про наш разговор..."
     m "Ich ... bzgl. Unserem Gespräch..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:165
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:207
 translate german ep23_dialogues5_2_e3b4f71e:
 
     # melanie "Что же Вы ответите?"
@@ -256,13 +256,13 @@ translate german ep23_dialogues5_2_e3b4f71e:
     "Denken sie, ich bin schöner als sie, Frau Buckfett?"
     "Wie könnte ich diese Frau übertreffen, die sie bei diesem Mann überragen soll?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:177
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:222
 translate german ep23_dialogues5_2_8badd592:
 
     # m "Нет, Мелани. Я не думаю что ты лучше меня."
     m "Nein, Melanie. Ich denke nicht, dass du besser bist als ich."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:190
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:237
 translate german ep23_dialogues5_2_0a974efc:
 
     # m "Видишь ли, Мелани."
@@ -274,19 +274,19 @@ translate german ep23_dialogues5_2_0a974efc:
     "Aber was du, Melanie, wirklich verstehst, ..."
     "Ist, wie man mit Männern umgeht..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:195
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:242
 translate german ep23_dialogues5_2_3a8416ea:
 
     # melanie "Миссис Бакфетт, это очевидно. Я рада что Вы, наконец-то, это признали..."
     melanie "Frau Buckfett, es ist doch ganz klar. Ich bin froh, dass sie sich das nun endlich selbst eingestehen..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:197
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:245
 translate german ep23_dialogues5_2_39854fe8:
 
     # m "Но мужчиной, про которого я говорю, будет управлять не так просто."
     m "Aber der Mann, von dem ich spreche, ist nicht einfach zu handhaben."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:199
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:248
 translate german ep23_dialogues5_2_adecfad6:
 
     # melanie "Миссис Бакфетт, любым мужчиной управлять просто."
@@ -296,7 +296,7 @@ translate german ep23_dialogues5_2_adecfad6:
     "Männer opfern alles, kämpfen gegeneinander..."
     "Für eine Frau..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:203
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:253
 translate german ep23_dialogues5_2_1b2539ef:
 
     # "Им надо, всего-лишь, показать что Вы именно та женщина..."
@@ -308,25 +308,25 @@ translate german ep23_dialogues5_2_1b2539ef:
     "..."
     "Jeder Mann würde alles für mich tun, Frau Buckfett."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:208
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:258
 translate german ep23_dialogues5_2_7bd768ca:
 
     # m "У меня тоже много поклонников!"
     m "Ich habe auch tonnenweise Fans!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:215
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:267
 translate german ep23_dialogues5_2_ef97dfe5:
 
     # melanie "Почему же тогда Вы не попросите помощи их?"
     melanie "Warum fragen sie nicht nach deren Hilfe?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:217
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:269
 translate german ep23_dialogues5_2_0a5616b8:
 
     # mt "!!!"
     mt "!!!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:219
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:272
 translate german ep23_dialogues5_2_d72b025e:
 
     # melanie "Нет, Миссис Бакфетт... Вы не умеете управлять мужчинами."
@@ -336,13 +336,13 @@ translate german ep23_dialogues5_2_d72b025e:
     "Überlassen sie das einfach mir..."
     "Also, wer ist der Typ, mit dem sie nicht klar kommen?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:231
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:286
 translate german ep23_dialogues5_2_485e6c22:
 
     # m "Я скажу тебе если ты согласишься помочь мне!"
     m "Ich erzähls dir, wenn du mir versprichst mir zu helfen!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:235
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:292
 translate german ep23_dialogues5_2_b1d26e26_1:
 
     # m "Мелани... Я хочу поговорить с тобой..."
@@ -352,25 +352,25 @@ translate german ep23_dialogues5_2_b1d26e26_1:
     melanie "Na gut, Frau Buckfett."
     "Gehen wir in die Umkleide."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:239
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:297
 translate german ep23_dialogues5_2_1aa58f2b_1:
 
     # m "Я... про наш разговор..."
     m "Ich ... bzgl. Unserem Gespräch..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:241
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:300
 translate german ep23_dialogues5_2_8713b006:
 
     # melanie "Я помогу Вам, Миссис Бакфетт, если..."
     melanie "Ich helfe ihnen, Frau Buckfett, wenn..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:243
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:302
 translate german ep23_dialogues5_2_4253afcc:
 
     # m "Если?"
     m "Wenn?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:245
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:305
 translate german ep23_dialogues5_2_1c66a9bb:
 
     # melanie "Если Вы поучаствуете со мной в фотосессии."
@@ -378,7 +378,7 @@ translate german ep23_dialogues5_2_1c66a9bb:
     melanie "Wenn sie in einem Shooting mit mir mit machen."
     melanie "Biff will einige vulgäre Posen und du kannst mir dabei helfen."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:248
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:308
 translate german ep23_dialogues5_2_d785dcc3:
 
     # melanie "В любом случае я не собираюсь задерживаться здесь."
@@ -386,19 +386,19 @@ translate german ep23_dialogues5_2_d785dcc3:
     melanie "Jedenfalls werde ich hier nicht weiter rum hängen."
     melanie "Ich möchte lediglich den geltenden Vertrag zu Ende bringen."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:251
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:311
 translate german ep23_dialogues5_2_32890979:
 
     # m "И чем-же я могу помочь тебе?"
     m "Und wie kann ich dir da helfen?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:253
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:313
 translate german ep23_dialogues5_2_84df9513:
 
     # melanie "Тем что поучаствуете вместе со мной..."
     melanie "Wir machen das Shooting zu zweit..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:255
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:316
 translate german ep23_dialogues5_2_47c629d7:
 
     # m "Значит Биф что-то требует от тебя?"
@@ -406,31 +406,31 @@ translate german ep23_dialogues5_2_47c629d7:
     m "Verlangt Biff etwas von dir?"
     "Warum kannst du ihn nicht ebenfalls kontrollieren, hm?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:259
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:321
 translate german ep23_dialogues5_2_e3a7836a:
 
     # melanie "Миссис Бакфетт... Я именно это и делаю..."
     melanie "Frau Buckfett ... Genau das mache ich ja..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:261
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:323
 translate german ep23_dialogues5_2_c318681f:
 
     # melanie "Ну так что?"
     melanie "Also?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:270
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:334
 translate german ep23_dialogues5_2_16f0663c:
 
     # m "Я не хочу участвовать в каких-то сомнительных фотосессиях."
     m "Ich will nicht an einem dubiosen Shooting teilnehmen."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:272
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:336
 translate german ep23_dialogues5_2_49af6a6c:
 
     # melanie "Значит мы отложим этот разговор..."
     melanie "Also verschieben wir diese Unterhaltung..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:281
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:347
 translate german ep23_dialogues5_2_c1743eb8:
 
     # m "Хорошо, Мелани..."
@@ -440,7 +440,7 @@ translate german ep23_dialogues5_2_c1743eb8:
     "Ich ... Ich stimme dem Shooting zu..."
     "Wann findet es statt?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:287
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:357
 translate german ep23_dialogues5_2_7dbb1f9e:
 
     # melanie "Насколько я знаю, до этого Биф запланировал некоторые фотосессии с Вами."
@@ -450,7 +450,7 @@ translate german ep23_dialogues5_2_7dbb1f9e:
     "Mach erst die und dann starten wir."
     help "Du musst erst die anderen Shootings absolvieren, bevor du das Shooting mit Melanie machen kannst."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:293
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:364
 translate german ep23_dialogues5_2_7c0faa2d:
 
     # melanie "Это будет ближайшая фотосессия."
@@ -458,15 +458,15 @@ translate german ep23_dialogues5_2_7c0faa2d:
     melanie "Das wird das nächste Shooting."
     "Biff zeigt dir, was du wissen musst."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:298
-translate german ep23_dialogues5_2_9d888495:
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:371
+translate german ep23_dialogues5_2_5cb773a0:
 
     # mt "Итак... Очередная глупая фотосессия..."
     # "Но я сделаю ее, мне надо добраться до Дика!"
     mt "Also... ein weiteres, dummes Shooting..."
     "Aber ich werde es machen, ich muss zu Dick!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:302
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:377
 translate german ep23_dialogues5_2_69c18a8f:
 
     # mt "Сучка Мелани! Ставит какие-то глупые условия мне!"
@@ -474,13 +474,13 @@ translate german ep23_dialogues5_2_69c18a8f:
     mt "Melanie ist eine Schlampe! Stellt mir einfach Bedingungen!"
     "AN MICH! MONICA BUCKFETT, IHRE CHEFIN!!!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:309
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:387
 translate german ep23_dialogues5_2a_32b92694:
 
     # m "Мелани, когда будет эта твоя фотосессия?"
     m "Melanie, wann findet das Shooting statt?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:312
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:393
 translate german ep23_dialogues5_2a_7dbb1f9e:
 
     # melanie "Насколько я знаю, до этого Биф запланировал некоторые фотосессии с Вами."
@@ -490,7 +490,7 @@ translate german ep23_dialogues5_2a_7dbb1f9e:
     "Mach erst die und dann starten wir."
     help "Du musst erst die anderen Shootings absolvieren, bevor du das Shooting mit Melanie machen kannst."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:318
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:400
 translate german ep23_dialogues5_2a_7c0faa2d:
 
     # melanie "Это будет ближайшая фотосессия."
@@ -498,7 +498,7 @@ translate german ep23_dialogues5_2a_7c0faa2d:
     melanie "Das wird das nächste Shooting."
     "Biff zeigt dir, was du wissen musst."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:326
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:410
 translate german ep23_dialogues5_3_7b36577f:
 
     # m "Что это за униформа, Алекс?"
@@ -520,13 +520,13 @@ translate german ep23_dialogues5_3_7b36577f:
     alex_photograph "Die Leute bewundern die Airline, Frau Buckfett!"
     m "Und wer spielt den Passagier?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:336
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:422
 translate german ep23_dialogues5_3_f4a22235:
 
     # melanie "В роли пассажира буду я, Миссис Бакфетт..."
     melanie "Diesen Part werde ich übernehmen, Frau Buckfett..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:338
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:425
 translate german ep23_dialogues5_3_b6c100ab:
 
     # mt "Как же могло быть иначе!"
@@ -534,7 +534,7 @@ translate german ep23_dialogues5_3_b6c100ab:
     mt "Was auch sonst?"
     "Von Anfang an wusste ich, dass dieser Shoot absolut idiotisch werden würde!!!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:341
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:430
 translate german ep23_dialogues5_3_8d82109b:
 
     # m "Ладно, Алекс..."
@@ -546,21 +546,17 @@ translate german ep23_dialogues5_3_8d82109b:
     alex_photograph "Natürlich!"
     "Wissen sie, Melanie macht diese Blickwinkel nicht mit!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:346
-translate german ep23_dialogues5_3_69e6ce04:
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:436
+translate german ep23_dialogues5_3_aef6ade1:
 
     # "Правда, Мелани?"
     # melanie "Правда, Алекс..."
     # alex_photograph "Итак, мотор!"
-    # m "Алекс, я не собираюсь вставать в эту позу!!!"
-    # "Даже не мечтай!"
     "Ja, Melanie?"
     melanie "Das stimmt, Alex..."
     alex_photograph "Hier, der Motor!"
-    m "Alex, ich posiere nicht in dieser Position!!!"
-    "Denk nicht mal dran!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:378
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:479
 translate german ep23_dialogues5_3a_7cd197f5:
 
     # melanie "Миссис Бакфетт. Вы прервали сессию."
@@ -568,7 +564,7 @@ translate german ep23_dialogues5_3a_7cd197f5:
     melanie "Frau Buckfett. Sie haben den Shoot gestoppt."
     "Für mich ist das ok."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:381
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:482
 translate german ep23_dialogues5_3a_bbf3f956:
 
     # "Может быть мой контракт закончится раньше, чем мы ее завершим."
@@ -576,7 +572,7 @@ translate german ep23_dialogues5_3a_bbf3f956:
     "Vielleicht läuft so mein Vertrag aus, bevor wir das hier beenden."
     "Wie auch immer, du kannst wieder kommen, wenn du entspannter bist."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:384
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:487
 translate german ep23_dialogues5_3a_393d661a:
 
     # mt "Не Мелани говорить про раскованность!"
@@ -584,31 +580,71 @@ translate german ep23_dialogues5_3a_393d661a:
     mt "Schwachsinn, hier geht es nicht um Melanie!"
     "Sie muss sich ja nicht vor laufender Kamera erniedrigen!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:388
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:493
 translate german ep23_dialogues5_3a_07d898e4:
 
     # alex_photograph "Мистер Биф не будет доволен тем, что фотосессия сорвалась."
     alex_photograph "Biff wird nicht glücklich sein über den abgebrochenen Shoot."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:394
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:499
 translate german ep23_dialogues5_3b_41ee94bf:
 
     # mt "Мне надо к Мелани!"
     mt "Ich muss mit Melanie reden!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:406
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:509
+translate german ep23_dialogues5_3c_ee1ef0be:
+
+    # alex_photograph "Мэм! Мы закончили фотосессию!"
+    alex_photograph "Wir sind mit dem Shooting durch!"
+
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:512
+translate german ep23_dialogues5_3c_c577c087:
+
+    # melanie "Миссис Бакфетт..."
+    # "А мне понравилась последняя поза..."
+    melanie "Frau Buckfett..."
+    "Und ich mochte die letzte Pose..."
+
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:516
+translate german ep23_dialogues5_3c_3680e9d0:
+
+    # "Не хотите-ли Вы коснуться меня язычком еще раз..."
+    # "Без трусиков..."
+    "Möchten sie mich nochmal mit ihrer Zunge berühren?..."
+    "Ohne Höschen..."
+
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:533
+translate german ep23_dialogues5_3c_5917d46a:
+
+    # m "НЕТ, МЕЛАНИ!!!"
+    # "ЭТОГО НЕ БУДЕТ НИКОГДА!!!"
+    # "И следи за своим языком и не забывай КТО Я и КТО ТЫ!!!"
+    m "NEIN, MELANIE!!!"
+    "DAS WIRD NIEMALS PASSIEREN!!!"
+    "Pass auf deine Zunge auf und denke dran wer du bist und wer ich bin!!!"
+
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:539
+translate german ep23_dialogues5_3c_a4291675:
+
+    # melanie "..."
+    # melanie "Хорошо, Миссис Бакфетт. Я буду ждать Вас в гримерной комнате."
+    melanie "..."
+    melanie "Schon gut, Frau Buckfett. Ich warte auf sie in der Umkleide."
+
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:553
 translate german ep23_dialogues6_0ca81fa6:
 
     # m "Мелани! Я выполнила твою просьбу! Теперь твоя очередь!"
     m "Melanie! Ich habe deine Bedingung erfüllt, jetzt bist du dran!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:408
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:555
 translate german ep23_dialogues6_79d813f6:
 
     # melanie "Так кто этот мужчина, Миссис Бакфетт?"
     melanie "Also, um welchen Mann geht es, Frau Buckfett?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:410
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:559
 translate german ep23_dialogues6_654feaff:
 
     # m "Этот мужчина..."
@@ -618,7 +654,7 @@ translate german ep23_dialogues6_654feaff:
     "Er ist..."
     "Es ist Dick der Anwalt..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:416
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:567
 translate german ep23_dialogues6_576cd1ac:
 
     # melanie "Пфи!! Кто???"
@@ -628,25 +664,25 @@ translate german ep23_dialogues6_576cd1ac:
     "Dick der Anwalt? Der Fette?"
     "Welche Probleme könnten sie denn haben, die mit ihm zu tun haben?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:420
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:572
 translate german ep23_dialogues6_e612037c:
 
     # m "..."
     m "..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:422
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:574
 translate german ep23_dialogues6_0a5616b8:
 
     # mt "!!!"
     mt "!!!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:434
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:588
 translate german ep23_dialogues6_c9163ffe:
 
     # melanie "Так что мне надо от него получить?"
     melanie "Also, was soll ich von ihm in Erfahrung bringen?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:436
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:591
 translate german ep23_dialogues6_d138b0e7:
 
     # m "Дик занимается одним очень важним делом, которое касается меня."
@@ -658,31 +694,31 @@ translate german ep23_dialogues6_d138b0e7:
     "Auf seine Initiative hin!"
     "Und, wenn er nicht wäre, hätte ich nicht solche Probleme, wie ich sie jetzt habe."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:441
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:596
 translate german ep23_dialogues6_06f6d155:
 
     # melanie "Хорошо, мне надо только узнать информацию?"
     melanie "Gut, ich brauche jetzt noch die Info um was es geht."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:443
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:598
 translate german ep23_dialogues6_3c5c9e17:
 
     # m "Вообще, не только... Там еще есть Виктория, его секретарша..."
     m "Nun, im Allgemeinen... also... da ist noch Victoria, seine Sekretärin..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:446
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:601
 translate german ep23_dialogues6_1359457e:
 
     # "Она против того чтобы Дик помогал мне..."
     "Sie ist dagegen, dass Dick mir helfen kann..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:448
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:603
 translate german ep23_dialogues6_5e8bacea:
 
     # melanie "Значит из-за любви к ней Дик перестал помогать Вам?"
     melanie "Hat Dick wegen seiner Liebe zu ihr aufgehört, ihnen zu helfen?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:450
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:607
 translate german ep23_dialogues6_d0b55cce:
 
     # m "Нет, Дик... он не перестал помогать мне..."
@@ -690,13 +726,13 @@ translate german ep23_dialogues6_d0b55cce:
     m "Nein, Dick ... er hat nicht aufgehört mir zu helfen..."
     "Ich habe eine Übereinkunft mit Victoria ... befristet..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:453
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:612
 translate german ep23_dialogues6_021fbf7c:
 
     # melanie "Договорились? О чем?"
     melanie "Übereinkunft? Bezüglich was?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:463
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:622
 translate german ep23_dialogues6_12d51699:
 
     # m "Это... Это неважно, Мелани!!!"
@@ -704,7 +740,7 @@ translate german ep23_dialogues6_12d51699:
     m "Das... Das spielt keine Rolle, Melanie!!!"
     m "Kannst du bitte einfach rausfinden, wer hinter all dem steckt?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:466
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:625
 translate german ep23_dialogues6_84c6710c:
 
     # melanie "Знаете, Миссис Бакфетт... Это выглядит простым делом."
@@ -712,7 +748,7 @@ translate german ep23_dialogues6_84c6710c:
     melanie "Wissen sie, Frau Buckfett... Das sieht einfach aus."
     "Aber haben sie vergessen, was sie mir versprochen haben?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:469
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:630
 translate german ep23_dialogues6_68f45bbd:
 
     # m "Я уже приняла участие в той жуткой фотосессии!"
@@ -720,7 +756,7 @@ translate german ep23_dialogues6_68f45bbd:
     m "Ich habe bereits an diesem furchtbaren Shooting teilgenommen!"
     "Was willst du denn noch?!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:472
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:635
 translate german ep23_dialogues6_35fc44e5:
 
     # melanie "Видите-ли, Миссис Бакфетт... Я - женщина."
@@ -728,7 +764,7 @@ translate german ep23_dialogues6_35fc44e5:
     melanie "Wissen sie, Frau Buckfett... Ich bin eine Frau."
     "Eine Frau will immer mehr..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:475
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:638
 translate german ep23_dialogues6_f4c90b6b:
 
     # m "Мелани!"
@@ -736,27 +772,27 @@ translate german ep23_dialogues6_f4c90b6b:
     m "Melanie!"
     "Wenn du mir hilft, kannst du dich darauf verlassen, Verleger dieses Magazines zu werden!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:478
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:641
 translate german ep23_dialogues6_1a92e49f:
 
     # melanie "О! Да это и впрямь так важно для Вас, Миссис Бакфетт!"
     melanie "Oh! Das ist also wirklich so wichtig für sie?"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:480
-translate german ep23_dialogues6_0779e3c6:
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:644
+translate german ep23_dialogues6_672dc129:
 
-    # m "..."
+    # melanie "..."
     # melanie "Хорошо, я проведаю этого Дика в ближайшее время."
-    m "..."
+    melanie "..."
     melanie "Gut, ich werde Dick bald besuchen."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:489
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:655
 translate german ep23_dialogues6_46790167:
 
     # m "Только будь аккуратна с Викторией. Эта сучка очень, ОЧЕНЬ опасна!"
     m "Sei nur vorsichtig mit Victoria. Diese Schlampe ist sehr, sehr gefährlich!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:491
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:657
 translate german ep23_dialogues6_5556a1f0:
 
     # melanie "Миссис Бакфетт, Вам стоит заниматься своим делом, которое у Вас получается очень хорошо."
@@ -768,7 +804,7 @@ translate german ep23_dialogues6_5556a1f0:
     "Aber ich weiß besser als wie, wie man Zugang zu einem Mann findet."
     "Und es wird mir eine Ehre und Freude sein zu tun, was Monica Buckfett nicht kann."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:496
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:663
 translate german ep23_dialogues6_38c8c391:
 
     # melanie "И меня очень привлекает то, что Вы будете должны мне."
@@ -776,136 +812,67 @@ translate german ep23_dialogues6_38c8c391:
     melanie "Und ich freue mich auch darauf, weil sie mir dann was schulden."
     "Das wird meiner Karriere sehr helfen..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:499
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:667
 translate german ep23_dialogues6_e612037c_1:
 
     # m "..."
     m "..."
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:501
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:671
 translate german ep23_dialogues6_7b554ba0:
 
     # melanie "Ждите новостей, Миссис Бакфетт!"
     melanie "Warten sie auf Neuigkeiten, Frau Buckfett!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:505
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:678
 translate german ep23_dialogues6_5aec3033:
 
     # mt "Ну все!!!"
     mt "Gut, das wär's dann!!!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:507
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:680
 translate german ep23_dialogues6_3448f747:
 
     # "Ну держись, сучка Виктория!"
     "Halt dich fest, Victoria, du Bitch!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:509
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:682
 translate german ep23_dialogues6_8917751d:
 
     # "Ну держись, Виктория!"
     "Halt dich fest, Victoria!"
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:510
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:683
 translate german ep23_dialogues6_f6d1a5f9:
 
     # "Я нашла кое-кого кто тебе не по зубам!"
     "Ich habe jemanden, der ist zu tough für dich!"
 
-translate german strings:
-
-    # Quests/EP2_03/ep23_dialogues5_melanie.rpy:146
-    old "Дик признавался что хочет Мелани"
-    new "Dick hat zugegeben, dass er Melanie will."
-
-    # Quests/EP2_03/ep23_dialogues5_melanie.rpy:172
-    old "Да, Мелани, возможно ты справишься лучше."
-    new "Ja, Melanie, vielleicht kannst du das besser."
-
-    # Quests/EP2_03/ep23_dialogues5_melanie.rpy:172
-    old "Нет, Мелани. Я не думаю что ты лучше меня."
-    new "Nein, Melanie. Ich denke nicht, dass du besser bist als ich."
-
-    # Quests/EP2_03/ep23_dialogues5_melanie.rpy:265
-    old "Хорошо, я согласна."
-    new "Nun, Ich stimme zu."
-
-    # Quests/EP2_03/ep23_dialogues5_melanie.rpy:265
-    old "Я не хочу участвовать в каких-то сомнительных фотосессиях."
-    new "Ich will nicht an einem dubiosen Shooting teilnehmen."
-
-# TODO: Translation updated at 2019-03-02 22:56
-
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:429
-translate german ep23_dialogues5_3_aef6ade1:
-
-    # "Правда, Мелани?"
-    # melanie "Правда, Алекс..."
-    # alex_photograph "Итак, мотор!"
-    "Ja, Melanie?"
-    melanie "Das stimmt, Alex..."
-    alex_photograph "Hier, der Motor!"
-
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:502
-translate german ep23_dialogues5_3c_ee1ef0be:
-
-    # alex_photograph "Мэм! Мы закончили фотосессию!"
-    alex_photograph "Wir sind mit dem Shooting durch!"
-
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:505
-translate german ep23_dialogues5_3c_c577c087:
-
-    # melanie "Миссис Бакфетт..."
-    # "А мне понравилась последняя поза..."
-    melanie "Frau Buckfett..."
-    "Und ich mochte die letzte Pose..."
-
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:509
-translate german ep23_dialogues5_3c_3680e9d0:
-
-    # "Не хотите-ли Вы коснуться меня язычком еще раз..."
-    # "Без трусиков..."
-    "Möchten sie mich nochmal mit ihrer Zunge berühren?..."
-    "Ohne Höschen..."
-
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:526
-translate german ep23_dialogues5_3c_5917d46a:
-
-    # m "НЕТ, МЕЛАНИ!!!"
-    # "ЭТОГО НЕ БУДЕТ НИКОГДА!!!"
-    # "И следи за своим языком и не забывай КТО Я и КТО ТЫ!!!"
-    m "NEIN, MELANIE!!!"
-    "DAS WIRD NIEMALS PASSIEREN!!!"
-    "Pass auf deine Zunge auf und denke dran wer du bist und wer ich bin!!!"
-
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:532
-translate german ep23_dialogues5_3c_a4291675:
-
-    # melanie "..."
-    # melanie "Хорошо, Миссис Бакфетт. Я буду ждать Вас в гримерной комнате."
-    melanie "..."
-    melanie "Schon gut, Frau Buckfett. Ich warte auf sie in der Umkleide."
-
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:637
-translate german ep23_dialogues6_672dc129:
-
-    # melanie "..."
-    # melanie "Хорошо, я проведаю этого Дика в ближайшее время."
-    melanie "..."
-    melanie "Gut, ich werde Dick bald besuchen."
-
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:684
+# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:691
 translate german ep23_dialogues6a_7b554ba0:
 
     # melanie "Ждите новостей, Миссис Бакфетт!"
     melanie "Warten sie auf Neuigkeiten, Frau Buckfett!"
-# TODO: Translation updated at 2019-03-02 23:02
 
-# game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:364
-translate german ep23_dialogues5_2_5cb773a0:
+translate german strings:
 
-    # mt "Итак... Очередная глупая фотосессия..."
-    # "Но я сделаю ее, мне надо добраться до Дика!"
-    mt "Also... ein weiteres, dummes Shooting..."
-    "Aber ich werde es machen, ich muss zu Dick!"
+    # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:184
+    old "Дик признавался что хочет Мелани"
+    new "Dick hat zugegeben, dass er Melanie will."
+
+    # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:215
+    old "Да, Мелани, возможно ты справишься лучше."
+    new "Ja, Melanie, vielleicht kannst du das besser."
+
+    # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:215
+    old "Нет, Мелани. Я не думаю что ты лучше меня."
+    new "Nein, Melanie. Ich denke nicht, dass du besser bist als ich."
+
+    # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:327
+    old "Хорошо, я согласна."
+    new "Nun, Ich stimme zu."
+
+    # game/Quests/EP2_03/ep23_dialogues5_melanie.rpy:327
+    old "Я не хочу участвовать в каких-то сомнительных фотосессиях."
+    new "Ich will nicht an einem dubiosen Shooting teilnehmen."
 

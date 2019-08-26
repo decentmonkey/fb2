@@ -1,6 +1,6 @@
-﻿# TODO: Translation updated at 2018-12-05 17:53
+﻿# TODO: Translation updated at 2019-08-26 19:44
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:4
+# game/Characters/Family/Ralph_Dialogues1.rpy:4
 translate german ralphDialogue1_876a775e:
 
     # mt "Я не хочу разговаривать с ним в таком виде."
@@ -8,7 +8,7 @@ translate german ralphDialogue1_876a775e:
     mt "Ich will mit ihm so nicht reden."
     "Ich muss mich umziehen!"
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:13
+# game/Characters/Family/Ralph_Dialogues1.rpy:14
 translate german ralphDialogue1_875c581d:
 
     # ralph "Моника, ты что-то хотела?"
@@ -18,7 +18,7 @@ translate german ralphDialogue1_875c581d:
     m "Nein."
     "Tut mir leid."
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:28
+# game/Characters/Family/Ralph_Dialogues1.rpy:34
 translate german ralphDialogue2_3b6a8341:
 
     # m "Мистер Робертс."
@@ -26,7 +26,7 @@ translate german ralphDialogue2_3b6a8341:
     m "Herr Roberts."
     "Darf ich Sie etwas fragen?"
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:33
+# game/Characters/Family/Ralph_Dialogues1.rpy:39
 translate german ralphDialogue2_0857f2b7:
 
     # ralph "Да, Моника, спрашивай."
@@ -34,19 +34,19 @@ translate german ralphDialogue2_0857f2b7:
     ralph "Klar, Monica. Frag` nur."
     "Hast du dich schon mit dem Haus vertraut gemacht?"
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:36
+# game/Characters/Family/Ralph_Dialogues1.rpy:42
 translate german ralphDialogue2_8669b91a:
 
     # m "Еще не до конца, Мистер Робертс."
     m "Noch nicht, Herr Roberts."
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:38
+# game/Characters/Family/Ralph_Dialogues1.rpy:44
 translate german ralphDialogue2_d6d745d1:
 
     # ralph "Осваивайся, удачи тебе!"
     ralph "Viel Erfolg."
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:40
+# game/Characters/Family/Ralph_Dialogues1.rpy:46
 translate german ralphDialogue2_7885d051:
 
     # m "Спасибо, Мистер Робертс. Можно вопрос?"
@@ -54,7 +54,7 @@ translate german ralphDialogue2_7885d051:
     m "Danke. Ich habe eine Frage."
     ralph "Ja?"
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:44
+# game/Characters/Family/Ralph_Dialogues1.rpy:50
 translate german ralphDialogue2_21b7df00:
 
     # m "Мистер Робертс. Мне Ваша супруга только что сказала что я слишком дорого для Вас стою."
@@ -62,7 +62,7 @@ translate german ralphDialogue2_21b7df00:
     m "Herr Roberts, Ihre Frau sagte mir gerade, dass ich zu teuer bin für Sie."
     "Und dass mein Lohn 90 € die Stunde beträgt."
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:49
+# game/Characters/Family/Ralph_Dialogues1.rpy:55
 translate german ralphDialogue2_3e4f1b21:
 
     # ralph "..."
@@ -72,7 +72,7 @@ translate german ralphDialogue2_3e4f1b21:
     "Hmm..."
     "Was möchtest du wissen?"
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:55
+# game/Characters/Family/Ralph_Dialogues1.rpy:61
 translate german ralphDialogue2_a1bbab04:
 
     # m "Мистер Робертс."
@@ -82,31 +82,31 @@ translate german ralphDialogue2_a1bbab04:
     "Fred sagte mir, dass ich um sonst arbeite."
     "Und daher wollte ich wissen..."
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:59
+# game/Characters/Family/Ralph_Dialogues1.rpy:65
 translate german ralphDialogue2_9099f979:
 
     # ralph "Что бы ты хотела узнать, Моника?"
     ralph "Was denn, Monica?"
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:61
+# game/Characters/Family/Ralph_Dialogues1.rpy:67
 translate german ralphDialogue2_e612037c:
 
     # m "..."
     m "..."
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:63
+# game/Characters/Family/Ralph_Dialogues1.rpy:69
 translate german ralphDialogue2_a20cefa7:
 
     # "..."
     "..."
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:65
+# game/Characters/Family/Ralph_Dialogues1.rpy:71
 translate german ralphDialogue2_e612037c_1:
 
     # m "..."
     m "..."
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:69
+# game/Characters/Family/Ralph_Dialogues1.rpy:75
 translate german ralphDialogue2_748f403e:
 
     # ralph "Ладно."
@@ -120,7 +120,7 @@ translate german ralphDialogue2_748f403e:
     "Um ehrlich zu sein, Betty hatte alles im Griff."
     "Und wir brauchten kein Dienstmädchen."
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:75
+# game/Characters/Family/Ralph_Dialogues1.rpy:81
 translate german ralphDialogue2_2886d472:
 
     # "Тем более что почти все наши деньги Бетти тратит на себя."
@@ -134,7 +134,7 @@ translate german ralphDialogue2_2886d472:
     "Egal, jedenfalls sagte ich Betty, dass ich dich bezahle."
     "So kann ich etwas Geld für mich zurück halten."
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:82
+# game/Characters/Family/Ralph_Dialogues1.rpy:88
 translate german ralphDialogue2_0f8644d4:
 
     # ralph "Ну.. Ты понимаешь, Моника?"
@@ -142,7 +142,7 @@ translate german ralphDialogue2_0f8644d4:
     ralph "Verstehst du das, Monica?"
     "Betty ist so streng."
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:89
+# game/Characters/Family/Ralph_Dialogues1.rpy:95
 translate german ralphDialogue2_34de61fc:
 
     # mt "О! Я понимаю!"
@@ -150,7 +150,7 @@ translate german ralphDialogue2_34de61fc:
     mt "Oh. Verstehe!"
     "Ich verstehe, du schleimiger Wurm!"
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:92
+# game/Characters/Family/Ralph_Dialogues1.rpy:98
 translate german ralphDialogue2_ef211ac0:
 
     # "Что ты будешь забирать мои деньги себе и тратить на шлюх!"
@@ -158,13 +158,13 @@ translate german ralphDialogue2_ef211ac0:
     "Dass du meinen Lohn für deinen Spaß ausgibst!"
     "Ich verstehe sehr gut!"
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:97
+# game/Characters/Family/Ralph_Dialogues1.rpy:103
 translate german ralphDialogue2_88140e25:
 
     # m "Да, Сэр. Я понимаю."
     m "Ja, das verstehe ich."
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:101
+# game/Characters/Family/Ralph_Dialogues1.rpy:107
 translate german ralphDialogue2_95b1e6c1:
 
     # ralph "Если честно, я сам немного побаиваюсь этой авантюры."
@@ -174,7 +174,7 @@ translate german ralphDialogue2_95b1e6c1:
     "Also, wenn du nicht arbeiten willst, musst du das auch nicht."
     "Willst du, dass ich Betty sage, dass du uns verlässt?"
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:105
+# game/Characters/Family/Ralph_Dialogues1.rpy:111
 translate german ralphDialogue2_8c2bad97:
 
     # m "Нет, Сэр."
@@ -182,7 +182,7 @@ translate german ralphDialogue2_8c2bad97:
     m "Nein."
     "Ich werde arbeiten."
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:108
+# game/Characters/Family/Ralph_Dialogues1.rpy:114
 translate german ralphDialogue2_0278c5d9:
 
     # "..."
@@ -190,7 +190,7 @@ translate german ralphDialogue2_0278c5d9:
     "..."
     "Brauchen Sie mich noch?"
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:112
+# game/Characters/Family/Ralph_Dialogues1.rpy:118
 translate german ralphDialogue2_73c88b6c:
 
     # ralph "Нет, Моника, можешь идти."
@@ -198,7 +198,7 @@ translate german ralphDialogue2_73c88b6c:
     ralph "Nein, Monica. Du kannst gehen."
     m "Auf Wiedersehen."
 
-# game/Quests/Family/Ralph_Dialogues1.rpy:116
+# game/Characters/Family/Ralph_Dialogues1.rpy:122
 translate german ralphDialogue2_704991cb:
 
     # mt "..."

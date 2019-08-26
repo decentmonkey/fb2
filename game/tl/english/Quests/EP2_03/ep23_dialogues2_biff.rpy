@@ -1,6 +1,6 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
-# game/Quests/EP2_03/ep23_dialogues2_biff.rpy:22
+# game/Quests/EP2_03/ep23_dialogues2_biff.rpy:23
 translate english ep23_dialogues1_0eef9d1a:
 
     # m "Биф... Мог бы ты дать еще немного денег?"
@@ -8,7 +8,7 @@ translate english ep23_dialogues1_0eef9d1a:
     m "Biff, could you please give me some more money?"
     "Can you pay me a bit more, 0 more at least?"
 
-# game/Quests/EP2_03/ep23_dialogues2_biff.rpy:26
+# game/Quests/EP2_03/ep23_dialogues2_biff.rpy:27
 translate english ep23_dialogues1_577830cb:
 
     # biff "Детка, хорошо что ты напомнила про сумму!"
@@ -26,7 +26,7 @@ translate english ep23_dialogues1_577830cb:
     biff "You are only worth $ 3,000!"
     "Even this is too much for a street whore like you!"
 
-# game/Quests/EP2_03/ep23_dialogues2_biff.rpy:34
+# game/Quests/EP2_03/ep23_dialogues2_biff.rpy:35
 translate english ep23_dialogues1_cca0b3fc:
 
     # m "Нет, Биф... Я не подразумевала пересмотр суммы..."
@@ -36,7 +36,7 @@ translate english ep23_dialogues1_cca0b3fc:
     biff "Still feel like you are not earning enough?"
     m "No, Biff ... It was nothing ..."
 
-# game/Quests/EP2_03/ep23_dialogues2_biff.rpy:38
+# game/Quests/EP2_03/ep23_dialogues2_biff.rpy:39
 translate english ep23_dialogues1_52a774d9:
 
     # mt "Черт! С этим слизняком опасно говорить про деньги!"
@@ -48,7 +48,7 @@ translate english ep23_dialogues1_52a774d9:
     "Where else can I get so much money?!"
     "..."
 
-# game/Quests/EP2_03/ep23_dialogues2_biff.rpy:44
+# game/Quests/EP2_03/ep23_dialogues2_biff.rpy:45
 translate english ep23_dialogues1_d44618e0:
 
     # "Какая огромная сумма, Моника? Ты о чем?"
@@ -61,8 +61,6 @@ translate english ep23_dialogues1_d44618e0:
     "Do not get used to it! It's just temporary!"
     "Remember that you are here to throw this bastard out of your chair!"
     "And restore justice !!!"
-
-# TODO: Translation updated at 2019-05-21 02:20
 
 # game/Quests/EP2_03/ep23_dialogues2_biff.rpy:53
 translate english ep23_dialogues1_0eef9d1a_1:
@@ -131,8 +129,6 @@ translate english ep23_dialogues1_d44618e0_1:
     "Do not get used to it! It's just temporary!"
     "Remember that you are here to throw this bastard out of your chair!"
     "And restore justice !!!"
-
-# TODO: Translation updated at 2019-07-17 02:25
 
 # game/Quests/EP2_03/ep23_dialogues2_biff.rpy:86
 translate english ep23_dialogues1_0eef9d1a_2:

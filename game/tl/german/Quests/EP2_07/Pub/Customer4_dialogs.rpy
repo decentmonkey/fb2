@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:36
+﻿# TODO: Translation updated at 2019-08-26 19:44
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:5
 translate german customer4_1stmeeting_fd726aa7:
@@ -86,7 +86,7 @@ translate german customer4_serve1_2f9bc1c1:
 translate german customer4_serve1_0e481844:
 
     # m "Я поняла!"
-    m "Я поняла!"
+    m "Verstanden."
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:40
 translate german customer4_serve1_5dff8128:

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-15 14:57
+﻿# TODO: Translation updated at 2019-08-26 19:44
 
 # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:13
 translate german ep27_dialogues4_biff1_915eb37e:
@@ -359,13 +359,15 @@ translate german ep27_dialogues4_biff5_49fb8188:
     biff "Папочка доволен." 
 
 # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:228
-translate german ep27_dialogues4_biff5_1e2915e6:
+translate german ep27_dialogues4_biff5_a4ca3eab:
 
     # m "Сегодня цыпочка-Босс пришла показать папочке свою попу..." 
-    # mg 12844
-    # biff "Папочка доволен." 
     m "Сегодня цыпочка-Босс пришла показать папочке свою попу..." 
-    mg 12844
+
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:231
+translate german ep27_dialogues4_biff5_49fb8188_1:
+
+    # biff "Папочка доволен." 
     biff "Папочка доволен." 
 
 # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:234
@@ -374,19 +376,19 @@ translate german ep27_dialogues4_biff5_4886bc5b:
     # m "Сегодня цыпочка пришла только показать папочке отчеты." 
     m "Сегодня цыпочка пришла только показать папочке отчеты." 
 
-# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:236
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:248
 translate german ep27_dialogues4_biff5_acad4336:
 
     # biff "Ладно, цыпочка, у папочки все-равно сейчас нет времени." 
     biff "Ладно, цыпочка, у папочки все-равно сейчас нет времени." 
 
-# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:241
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:253
 translate german ep27_dialogues4_biff5_db1f6159:
 
     # m "Биф, я собрала отчеты, потому что ты требуешь этого!" 
     m "Биф, я собрала отчеты, потому что ты требуешь этого!" 
 
-# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:243
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:255
 translate german ep27_dialogues4_biff5_7726c9ff:
 
     # biff "Хорошо, цыпочка." 
@@ -394,19 +396,19 @@ translate german ep27_dialogues4_biff5_7726c9ff:
     biff "Okay, Mädchen." 
     biff "Продолжай вести себя хорошо."
 
-# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:248
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:260
 translate german ep27_dialogues4_biff5_e6d1b4c3:
 
     # biff "Цыпочка может и дальше работать в моей прекрасной компании!" 
     biff "Цыпочка может и дальше работать в моей прекрасной компании!" 
 
-# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:252
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:264
 translate german ep27_dialogues4_biff5_f01d412c:
 
     # mt "В моей компании, сволочь! В МОЕЙ!" 
     mt "В моей компании, сволочь! В МОЕЙ!" 
 
-# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:263
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:275
 translate german ep27_dialogues4_biff6_f6354555:
 
     # biff "Цыпочка принесла отчеты?" 
@@ -414,13 +416,13 @@ translate german ep27_dialogues4_biff6_f6354555:
     biff "Цыпочка принесла отчеты?" 
     biff "Но я знаю, что цыпочка плохая!"
 
-# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:266
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:278
 translate german ep27_dialogues4_biff6_7a84cfbf:
 
     # m "???" 
     m "???" 
 
-# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:268
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:280
 translate german ep27_dialogues4_biff6_fe30df2b:
 
     # biff "Папочка знает, что отчеты собирала не цыпочка!" 
@@ -428,13 +430,13 @@ translate german ep27_dialogues4_biff6_fe30df2b:
     biff "Папочка знает, что отчеты собирала не цыпочка!" 
     biff "Цыпочка ленится! Цыпочка сидит в кресле Босса и отращивает свою попу!"
 
-# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:271
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:283
 translate german ep27_dialogues4_biff6_3b2e4d85:
 
     # m "!!!" 
     m "!!!" 
 
-# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:273
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:285
 translate german ep27_dialogues4_biff6_3fa6b239:
 
     # biff "Ленивая цыпочка не будет работать у папочки!" 
@@ -442,7 +444,7 @@ translate german ep27_dialogues4_biff6_3fa6b239:
     biff "Ленивая цыпочка не будет работать у папочки!" 
     biff "Цыпочка должна сама шевелить своей попой и только тогда она сможет понравиться папочке!"
 
-# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:282
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:294
 translate german ep27_dialogues4_biff7_ebd2007c:
 
     # biff "Да, и цыпочка! Ты уже давно не сдавала отчеты!" 
@@ -452,13 +454,13 @@ translate german ep27_dialogues4_biff7_ebd2007c:
     biff "Если ты не будешь делать этого, то не докажешь что такой цыпочке как ты можно доверять!"
     biff "Папочка не любит ленивых цыпочек!"
 
-# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:286
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:298
 translate german ep27_dialogues4_biff7_4940ba45:
 
     # m "Да, Биф..." 
     m "Ja, Biff..." 
 
-# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:296
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:308
 translate german ep27_dialogues4_biff8_6b3ee9de:
 
     # m "Дорогуша, я принесла тебе флешку."
@@ -466,7 +468,7 @@ translate german ep27_dialogues4_biff8_6b3ee9de:
     m "Дорогуша, я принесла тебе флешку."
     m "Ты можешь скопировать эти дурацкие отчеты себе."
 
-# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:299
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:311
 translate german ep27_dialogues4_biff8_3a37497a:
 
     # secretary "Да, Миссис Бакфетт, конечно."
@@ -474,7 +476,7 @@ translate german ep27_dialogues4_biff8_3a37497a:
     secretary "Да, Миссис Бакфетт, конечно."
     secretary "Мистер Биф просил Вас зайти к нему после того, как Вы сдадите отчеты."
 
-# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:302
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:314
 translate german ep27_dialogues4_biff8_e612037c:
 
     # m "..."
@@ -506,7 +508,7 @@ translate german strings:
     old "Ничего."
     new "Ничего."
 
-    # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:275
+    # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:287
     old "Моника не сама собирала отчеты"
     new "Моника не сама собирала отчеты"
 

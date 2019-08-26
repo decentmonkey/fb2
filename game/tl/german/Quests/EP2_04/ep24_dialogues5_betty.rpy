@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-16 13:23
+﻿# TODO: Translation updated at 2019-08-26 19:44
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:2
 translate german ep24_dialogues5_betty0a_8944db1b:
@@ -609,7 +609,7 @@ translate german ep24_dialogues5_betty5_2bbea0e5:
     m "Was? Warum, Frau Roberts?"
 
 # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:643
-translate german ep24_dialogues5_betty5_cad8cc63:
+translate german ep24_dialogues5_betty5_2c9182a3:
 
     # m "Ведь я просто наемный работник!"
     m "Ich bin nur eine Angestelle!"
@@ -784,19 +784,11 @@ translate german ep24_dialogues5_betty7_896757c5:
 
 translate german strings:
 
-    # Quests/EP2_04/ep24_dialogues5_betty.rpy:198
+    # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:198
     old "Спасибо, Миссис Робертс. Это будет намного удобнее."
     new "Danke, Frau Roberts. Das ist sehr angenehm."
 
-    # Quests/EP2_04/ep24_dialogues5_betty.rpy:198
+    # game/Quests/EP2_04/ep24_dialogues5_betty.rpy:198
     old "Промолчать..."
     new "Sage nichts."
-
-# TODO: Translation updated at 2019-04-17 05:15
-
-# game/Quests/EP2_04/ep24_dialogues5_betty.rpy:643
-translate german ep24_dialogues5_betty5_2c9182a3:
-
-    # m "Ведь я просто наемный работник!"
-    m "Ich bin nur eine Angestelle!"
 

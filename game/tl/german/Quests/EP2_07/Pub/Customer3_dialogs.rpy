@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:36
+﻿# TODO: Translation updated at 2019-08-26 19:44
 
 # game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:5
 translate german customer3_1stmeeting_fd726aa7:
@@ -84,7 +84,7 @@ translate german customer3_serve1_119ad287:
 translate german customer3_serve1_94420ba9:
 
     # m "Хорошо."
-    m "Хорошо."
+    m "Na gut."
 
 # game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:52
 translate german customer3_serve1_8e657baf:
@@ -132,7 +132,7 @@ translate german customer3_serve1_225d296d:
 translate german customer3_serve1_ce9290ca:
 
     # customer3 "Напомни, как тебя зовут?"
-    customer3 "Напомни, как тебя зовут?"
+    customer3 "Wie war nochmal dein Name?"
 
 # game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:74
 translate german customer3_serve1_4aedcacd:
@@ -192,7 +192,7 @@ translate german customer3_serve1_79d77d30:
 translate german customer3_serve1_94420ba9_1:
 
     # m "Хорошо."
-    m "Хорошо."
+    m "Na gut."
 
 # game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:99
 translate german customer3_serve1_cb16a6dc:
@@ -204,7 +204,7 @@ translate german customer3_serve1_cb16a6dc:
 translate german customer3_serve1_f13101bf:
 
     # mt "Извращенец..."
-    mt "Извращенец..."
+    mt "Perverser!..."
 
 # game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:110
 translate german customer3_serve1_11baad6f:
@@ -304,7 +304,7 @@ translate german customer3_serve2_e83ba8a8:
 translate german customer3_serve2_dd728403:
 
     # mt "Козел!"
-    mt "Козел!"
+    mt "Arschloch!"
 
 # game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:155
 translate german customer3_after_serve1_f3882c6e:

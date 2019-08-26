@@ -1,82 +1,4 @@
-﻿# TODO: Translation updated at 2019-07-02 18:59
-
-# game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:9
-translate english ep26_dialogues7_melanie1_87f7800f:
-
-    # m "Мелани, ты вернулась?"
-    # m "Где ты так долго была? Что с тобой случилось?"
-    # melanie "Миссис Бакфетт, это Вы?"
-    # m "Да, Мелани, это Я!"
-    # m "И я ждала тебя все это время!"
-    # m "Почему тебя так долго не было?!"
-    # m "Я уже думала что Маркус забрал тебя!"
-    # melanie "Миссис Бакфетт, я не понимаю о чем Вы говорите..."
-    # m "Что значит ты не понимаешь, Мелани?"
-    # m "Я говорю про твой визит к Маркусу!"
-    # m "Ты должна была решить с ним вопрос по поводу меня!"
-    # m "Но, вместо этого, ты куда-то пропала!"
-    # melanie "Мэм, Я не знаю о чем и о ком Вы говорите..."
-    # m "Ты что, играешь со мной, Мелани?!"
-    # m "Ты прекрасно знаешь что я говорю о Маркусе!"
-    # melanie "Мэм, я не знаю кто это..."
-    # melanie "Миссис Бакфетт, я очень занята. Пожалуйста, не отвлекайте меня..."
-    # mt "Она не хочет говорить про Маркуса..."
-    # mt "Она что, обманула меня и не ходила к нему?!"
-    m "Melanie, you are back!"
-    m "Where have you been for so long? What happened?"
-    melanie "Oh, it's you, Mrs. Buckfett..."
-    m "Yes, Melanie. It's ME!"
-    m "I was waiting for you the whole time!"
-    m "Why were you absent for so long?!"
-    m "I was afraid that Marcus got you!"
-    melanie "I don't understand what are you talking about, Mrs. Buckfett."
-    m "What is the meaning of this, Melanie?"
-    m "I'm talking about your visit to Marcus!"
-    m "You were supposed to visit him and solve my problem!"
-    m "But instead, you were gone!"
-    melanie "Mam, I don’t understand who or what you are talking about..."
-    m "Are you playing with me?"
-    m "You know very well that I'm talking about Marcus!"
-    melanie "Mam, I have no idea who Marcus is..."
-    melanie "Mrs. Buckfett, I'm very busy, please stop distracting me..."
-    mt "She doesn't want to talk about Marcus..."
-    mt "Is she lying to me? Maybe she didn’t go to him?"
-
-# game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:36
-translate english ep26_dialogues7_melanie1_a96e3162:
-
-    # m "У меня странное чуство..."
-    # m "Мелани?"
-    # m "Мелани!"
-    # m "Что там? Что там такое?"
-    # m "О БОЖЕ!"
-    # m "НЕТ!"
-    # melanie "Миссис Бакфетт, я просила Вас не беспокоить меня."
-    # m "!!!"
-    m "I have a strange feeling..."
-    m "Melanie?"
-    m "Melanie!"
-    m "What? What is it?"
-    m "Oh my God!"
-    m "NO!"
-    melanie "Mrs. Buckfett, I've asked you not to disturb me."
-    m "!!!"
-
-translate english strings:
-
-    # Quests/EP2_06/ep26_dialogues7_melanie.rpy:32
-    old "Мелани, ты вернулась?"
-    new "Melanie, you are back!"
-
-    # Quests/EP2_06/ep26_dialogues7_melanie.rpy:32
-    old "Посмотреть на Мелани."
-    new "Look at Melanie."
-
-    # Quests/EP2_06/ep26_dialogues7_melanie.rpy:32
-    old "Мелани, пожалуйста, для меня это очень важно! (next update) (disabled)"
-    new "Melany, please, it's very important to me! (next update) (disabled)"
-
-# TODO: Translation updated at 2019-07-17 02:25
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:13
 translate english ep26_dialogues7_melanie1_18a99bab:
@@ -218,7 +140,19 @@ translate english ep26_dialogues7_melanie1_29a4f6ab:
 
 translate english strings:
 
-    # Quests/EP2_06/ep26_dialogues7_melanie.rpy:120
+    # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:7
+    old "Мелани, ты вернулась?"
+    new "Melanie, you are back!"
+
+    # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:7
+    old "Посмотреть на Мелани."
+    new "Look at Melanie."
+
+    # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:7
+    old "Мелани, пожалуйста, для меня это очень важно! (next update) (disabled)"
+    new "Melany, please, it's very important to me! (next update) (disabled)"
+
+    # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:120
     old "Узнайте что случилось с Мелани в продолжении игры..."
     new "Find out what happened with Melanie in the next updates..."
 

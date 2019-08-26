@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:36
+﻿# TODO: Translation updated at 2019-08-26 19:44
 
 # game/Quests/EP2_07/Pub/Customer7-8_dialogs.rpy:7
 translate german customer78_1stmeeting_fd726aa7:
@@ -126,7 +126,7 @@ translate german customer78_1stmeeting_e41d3f30:
 translate german customer78_1stmeeting_94420ba9:
 
     # m "Хорошо."
-    m "Хорошо."
+    m "Na gut."
 
 # game/Quests/EP2_07/Pub/Customer7-8_dialogs.rpy:67
 translate german customer78_1stmeeting_626f5f0e:
@@ -135,7 +135,7 @@ translate german customer78_1stmeeting_626f5f0e:
     # customer7 "Вот, держи!" 
     # customer7 "Приходи к нам чаще! Я вижу в тебе потенциал."
     customer7 "То что надо! Похоже, ты умеешь читать мысли!"
-    customer7 "Вот, держи!" 
+    customer7 "Da!" 
     customer7 "Приходи к нам чаще! Я вижу в тебе потенциал."
 
 # game/Quests/EP2_07/Pub/Customer7-8_dialogs.rpy:71
@@ -148,7 +148,7 @@ translate german customer78_1stmeeting_46f1c327:
 translate german customer78_1stmeeting_a511da94:
 
     # m "До свидания."
-    m "До свидания."
+    m "Auf Wiedersehen."
 
 # game/Quests/EP2_07/Pub/Customer7-8_dialogs.rpy:78
 translate german customer78_serve1_b327a8da:

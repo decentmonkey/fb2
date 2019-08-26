@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:5
 translate english citizen10_dialogue_b8f1bd99:
@@ -80,15 +80,15 @@ translate english citizen10_dialogue_pilon_517f152f:
 
 translate english strings:
 
-    # Quests/EP2/Citizens/Citizen10_dialogue.rpy:13
+    # game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:13
     old "Возьмите, пожалуйста, этот флаер..."
     new "Please, take this flyer..."
 
-    # Quests/EP2/Citizens/Citizen10_dialogue.rpy:27
+    # game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:27
     old "Хватит с меня разговоров!"
     new "I'm done talking!"
 
-    # Quests/EP2/Citizens/Citizen10_dialogue.rpy:27
+    # game/Quests/EP2/Citizens/Citizen10_dialogue.rpy:27
     old "А о чем бы вы хотели поговорить?"
     new "What would you like to talk about?"
 

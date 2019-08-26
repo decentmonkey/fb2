@@ -537,7 +537,7 @@ label ep27_dialogues2_melanie2:
     w
     img 14098
     # снимает сапог
-   img 14099
+    img 14099
     dick_secretary "Хорошо, а теперь сделай моей ножке массаж своей грудью..." #-
     img 14100
     melanie "ЧТО?!" #+

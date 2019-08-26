@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/EP2/Citizens/Citizen11_alco.rpy:8
 translate english take_trash_bottle_68e0eb1b:
@@ -44,23 +44,23 @@ translate english take_trash_bottle_3195d48e:
 
 translate english strings:
 
-    # Quests/EP2/Citizens/Citizen11_alco.rpy:11
+    # game/Quests/EP2/Citizens/Citizen11_alco.rpy:11
     old "Взять бутылку."
     new "Get the bottle."
 
-    # Quests/EP2/Citizens/Citizen11_alco.rpy:11
+    # game/Quests/EP2/Citizens/Citizen11_alco.rpy:11
     old "Не брать."
     new "Don't take it"
 
-    # Quests/EP2/Citizens/Citizen11_alco.rpy:23
+    # game/Quests/EP2/Citizens/Citizen11_alco.rpy:23
     old "Оставить бутылку себе."
     new "Keep the bottle."
 
-    # Quests/EP2/Citizens/Citizen11_alco.rpy:23
+    # game/Quests/EP2/Citizens/Citizen11_alco.rpy:23
     old "Поставить бутылку на место."
     new "Put the bottle back."
 
-    # Quests/EP2/Citizens/Citizen11_alco.rpy:29
+    # game/Quests/EP2/Citizens/Citizen11_alco.rpy:29
     old "Водка"
     new "Vodka"
 
