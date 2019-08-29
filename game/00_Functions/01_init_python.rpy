@@ -98,8 +98,14 @@ python early:
         keyPressed = pygame.key.get_pressed()
         if keyPressed[pygame.K_SLASH]:
             return
-        print what
-        renpy.pause()
+
+        what = __(what)
+        what = re.sub("\!\s{1,}", "!\n", what)
+        what = re.sub("\?\s{1,}", "?\n", what)
+        what = re.sub("\.\s{1,}", ".\n", what)
+        what = re.sub("Mr\.\\n", "Mr. ", what)
+        what = re.sub("Mrs\.\\n", "Mrs. ", what)
+
         renpy.say(who, what)
 
     renpy.register_statement("", parse=saywrapper_parse, execute=saywrapper_execute, lint = saywrapper_lint, translatable=True) #враппер для say, чтобы подымать флаг активного диалога

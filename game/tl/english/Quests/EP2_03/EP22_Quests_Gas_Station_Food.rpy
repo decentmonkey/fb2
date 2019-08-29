@@ -1,46 +1,46 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-29 19:50
 
 # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:28
 translate english ep22_quests_Gas_Station_Food1_buy_food_1d49c419:
 
     # mt "У меня нет денег на это..."
-    mt "I don’t have money to buy it"
+    mt "У меня нет денег на это..."
 
 translate english strings:
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Пончик"
-    new "Donut"
+    new "Пончик"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Печенье с вишневой начинкой"
-    new "Cherry Filled Cookies"
+    new "Печенье с вишневой начинкой"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Шоколадный торт"
-    new "Chocolate cake"
+    new "Шоколадный торт"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Канноли"
-    new "Cannoli"
+    new "Канноли"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Наполеон"
-    new "Napoleon"
+    new "Наполеон"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Пирожное"
-    new "Cake"
+    new "Пирожное"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Кекс"
-    new "Cake"
+    new "Кекс"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Печенье с орехами"
-    new "Cookies with nuts"
+    new "Печенье с орехами"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Вафли"
-    new "Waffles"
+    new "Вафли"
 

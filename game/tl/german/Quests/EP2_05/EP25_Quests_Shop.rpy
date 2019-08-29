@@ -1,12 +1,12 @@
-﻿# TODO: Translation updated at 2019-06-01 03:18
+﻿# TODO: Translation updated at 2019-08-29 19:52
 
 translate german strings:
 
-    # Quests/EP2_05/EP25_Quests_Shop.rpy:216
+    # game/Quests/EP2_05/EP25_Quests_Shop.rpy:216
     old "Продать платье в магазине одежды"
-    new "Verkaufe das Kleid im Laden."
+    new "Продать платье в магазине одежды"
 
-    # Quests/EP2_05/EP25_Quests_Shop.rpy:220
+    # game/Quests/EP2_05/EP25_Quests_Shop.rpy:220
     old "Вивиан ждет что Моника продаст платье."
-    new "Vivian wartet darauf, dass Monica das Kleid verkauft."
+    new "Вивиан ждет что Моника продаст платье."
 

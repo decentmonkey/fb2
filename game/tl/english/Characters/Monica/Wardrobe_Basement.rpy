@@ -159,3 +159,11 @@ translate english strings:
     old "Одеть красное платье."
     new "Put on the red dress."
 
+# TODO: Translation updated at 2019-08-29 19:50
+
+translate english strings:
+
+    # game/Characters/Monica/Wardrobe_Basement.rpy:150
+    old "Переодеться в одежду шлюхи."
+    new "Переодеться в одежду шлюхи."
+

@@ -1,46 +1,46 @@
-﻿# TODO: Translation updated at 2019-03-02 22:56
+﻿# TODO: Translation updated at 2019-08-29 19:51
 
 # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:28
 translate german ep22_quests_Gas_Station_Food1_buy_food_1d49c419:
 
     # mt "У меня нет денег на это..."
-    mt "Dafür habe ich kein Geld..."
+    mt "У меня нет денег на это..."
 
 translate german strings:
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Пончик"
-    new "Donut"
+    new "Пончик"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Печенье с вишневой начинкой"
-    new "Mit Kirschen gefüllte Cookies."
+    new "Печенье с вишневой начинкой"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Шоколадный торт"
-    new "Schokokuchen"
+    new "Шоколадный торт"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Канноли"
-    new "Cannoli"
+    new "Канноли"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Наполеон"
-    new "Napoleon"
+    new "Наполеон"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Пирожное"
-    new "Kuchen"
+    new "Пирожное"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Кекс"
-    new "Kuchen"
+    new "Кекс"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Печенье с орехами"
-    new "Cookies mit Nüssen"
+    new "Печенье с орехами"
 
-    # Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
+    # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Вафли"
-    new "Waffeln"
+    new "Вафли"
 

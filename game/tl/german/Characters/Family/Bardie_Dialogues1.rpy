@@ -48,3 +48,31 @@ translate german bardie_comment4_b96410b1:
     m "Ich werde dir gar nichts beweisen, Baby!"
     m "Geh mir aus dem Weg!"
 
+# TODO: Translation updated at 2019-08-29 19:51
+
+# game/Characters/Family/Bardie_Dialogues1.rpy:21
+translate german bardieDialogue1_27701d53:
+
+    # bardie "Ах ты так!"
+    # bardie_t "Ну она у меня попляшет!"
+    bardie "Ах ты так!"
+    bardie_t "Ну она у меня попляшет!"
+
+# game/Characters/Family/Bardie_Dialogues1.rpy:39
+translate german bardie_comment4_5e66c3f2:
+
+    # m "С какой стати я буду это делать?!"
+    m "С какой стати я буду это делать?!"
+
+# game/Characters/Family/Bardie_Dialogues1.rpy:41
+translate german bardie_comment4_2fbbe860:
+
+    # bardie "Ты там что-то прячешь! Ты что-то украла!"
+    bardie "Ты там что-то прячешь! Ты что-то украла!"
+
+# game/Characters/Family/Bardie_Dialogues1.rpy:47
+translate german bardie_comment4_4cbe27a0:
+
+    # bardie "Тогда докажи! Подними юбку!"
+    bardie "Тогда докажи! Подними юбку!"
+

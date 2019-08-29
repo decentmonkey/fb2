@@ -1293,7 +1293,7 @@ screen say(who, what):
     $ in_who = who
     $ in_what = what
 
-    python:
+#    python:
 #        global last_dialogue_character
 #        global dialogue_active_flag, screenActionHappened
 #        print who
@@ -1303,11 +1303,12 @@ screen say(who, what):
 #            last_dialogue_character = who
 #        dialogue_active_flag = True
 #        screenActionHappened = True
-        what = re.sub("\!\s{1,}", "!\n", what)
-        what = re.sub("\?\s{1,}", "?\n", what)
-        what = re.sub("\.\s{1,}", ".\n", what)
-        what = re.sub("Mr\.\\n", "Mr. ", what)
-        what = re.sub("Mrs\.\\n", "Mrs. ", what)
+
+#        what = re.sub("\!\s{1,}", "!\n", what)
+#        what = re.sub("\?\s{1,}", "?\n", what)
+#        what = re.sub("\.\s{1,}", ".\n", what)
+#        what = re.sub("Mr\.\\n", "Mr. ", what)
+#        what = re.sub("Mrs\.\\n", "Mrs. ", what)
 #        mycopytext(what)
 
     window:

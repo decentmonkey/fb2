@@ -1,31 +1,32 @@
-﻿# TODO: Translation updated at 2019-04-16 13:23
+﻿# TODO: Translation updated at 2019-08-29 19:50
 
 translate english strings:
 
-    # Quests/EP2_04/EP24_Quests_Betty.rpy:21
+    # game/Quests/EP2_04/EP24_Quests_Betty.rpy:17
+    old "Миссис Робертс, я бы хотела проверить Ваши трусики..."
+    new "Миссис Робертс, я бы хотела проверить Ваши трусики..."
+
+    # game/Quests/EP2_04/EP24_Quests_Betty.rpy:21
     old "Говорить."
-    new "Speak"
+    new "Говорить."
 
-    # Quests/EP2_04/EP24_Quests_Betty.rpy:23
+    # game/Quests/EP2_04/EP24_Quests_Betty.rpy:23
     old "Смотреть."
-    new "Watch"
+    new "Смотреть."
 
-    # Quests/EP2_04/EP24_Quests_Betty.rpy:30
+    # game/Quests/EP2_04/EP24_Quests_Betty.rpy:30
     old "Бетти должна показать, если я спрошу ее об этом...."
-    new "Betty should show it if I ask her about it ...."
+    new "Бетти должна показать, если я спрошу ее об этом...."
 
-    # Quests/EP2_04/EP24_Quests_Betty.rpy:191
-    old "Бетти запрещено носить трусики...."
-    new "Betty is forbidden to wear panties ...."
-
-    # Quests/EP2_04/EP24_Quests_Betty.rpy:192
-    old "Униформа гувернантки (без трусиков)"
-    new "Maid uniform (without panties)"
-# TODO: Translation updated at 2019-07-17 02:25
-
-translate english strings:
-
-    # Quests/EP2_04/EP24_Quests_Betty.rpy:63
+    # game/Quests/EP2_04/EP24_Quests_Betty.rpy:63
     old "Миссис Робертс. Барди зовет Вас в свою комнату..."
-    new "Mrs. Roberts. Bardi is calling you to his room..."
+    new "Миссис Робертс. Барди зовет Вас в свою комнату..."
+
+    # game/Quests/EP2_04/EP24_Quests_Betty.rpy:196
+    old "Бетти запрещено носить трусики...."
+    new "Бетти запрещено носить трусики...."
+
+    # game/Quests/EP2_04/EP24_Quests_Betty.rpy:197
+    old "Униформа гувернантки (без трусиков)"
+    new "Униформа гувернантки (без трусиков)"
 

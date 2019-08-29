@@ -1,494 +1,482 @@
-﻿# TODO: Translation updated at 2018-12-05 17:53
+﻿# TODO: Translation updated at 2019-08-29 19:51
 
 # game/Quests/EP2/Intro_Questions.rpy:4
 translate german intro_questions_2f9353e5:
 
     # help "Прежде чем начать игру, пожалуйста, напомните, как вела себя Моника в Эпизоде 1?"
-    help "Bevor wir starten, bitte erinnere mich, was Monica in Episode 1 getan hat!"
+    help "Прежде чем начать игру, пожалуйста, напомните, как вела себя Моника в Эпизоде 1?"
 
 # game/Quests/EP2/Intro_Questions.rpy:10
 translate german intro_questions_af34d34b:
 
     # help "Спасибо за ответ!"
-    help "Danke für die Antwort!"
+    help "Спасибо за ответ!"
 
 # game/Quests/EP2/Intro_Questions.rpy:15
 translate german intro_questions_eb169654:
 
     # help "Спасибо за ответы!"
-    help "Danke für die Antworten!"
+    help "Спасибо за ответы!"
 
 # game/Quests/EP2/Intro_Questions.rpy:16
 translate german intro_questions_into_loop1_594974f5:
 
     # help "Последний вопрос. В чем Моника легла спать?"
-    help "Letzte Frage. Was trug Monica beim Schlafen?"
+    help "Последний вопрос. В чем Моника легла спать?"
 
-# game/Quests/EP2/Intro_Questions.rpy:31
+# game/Quests/EP2/Intro_Questions.rpy:33
 translate german intro_questions_save_b69d9a8d:
 
     # help "В чем Моника легла спать?"
-    help "Was trug Manica beim Schlafen?"
+    help "В чем Моника легла спать?"
 
 translate german strings:
 
-    # Quests/EP2/Intro_Questions.rpy:5
+    # game/Quests/EP2/Intro_Questions.rpy:5
     old "Ответить очень кратко."
-    new "Antworte sehr kurz."
+    new "Ответить очень кратко."
 
-    # Quests/EP2/Intro_Questions.rpy:5
+    # game/Quests/EP2/Intro_Questions.rpy:5
     old "Ответить очень подробно."
-    new "Antworte sehr ausschweifend."
+    new "Ответить очень подробно."
 
-    # Quests/EP2/Intro_Questions.rpy:18
+    # game/Quests/EP2/Intro_Questions.rpy:18
     old "Моника легла спать в трусиках Юлии."
-    new "Monica ist in Julias Höschen ins Bett."
+    new "Моника легла спать в трусиках Юлии."
 
-    # Quests/EP2/Intro_Questions.rpy:18
+    # game/Quests/EP2/Intro_Questions.rpy:18
     old "Моника легла спать обнаженной (доступно только в сохранении Эпизода 1) (disabled)"
-    new "Monica ging nackt ins Bett (nur verfügbar mit save von Ep1) (disabled)"
+    new "Моника легла спать обнаженной (доступно только в сохранении Эпизода 1) (disabled)"
 
-    # Quests/EP2/Intro_Questions.rpy:32
+    # game/Quests/EP2/Intro_Questions.rpy:34
     old "Моника легла спать обнаженной."
-    new "Monica ging nackt ins Bett."
+    new "Моника легла спать обнаженной."
 
-    # Quests/EP2/Intro_Questions.rpy:48
+    # game/Quests/EP2/Intro_Questions.rpy:50
     old "Моника общалась с соседом."
-    new "Monica hat mit ihrem Nachbarn gesprochen."
+    new "Моника общалась с соседом."
 
-    # Quests/EP2/Intro_Questions.rpy:48
+    # game/Quests/EP2/Intro_Questions.rpy:50
     old "Моника не видела соседа."
-    new "Monica hat ihren Nachbarn nicht gesehen."
+    new "Моника не видела соседа."
 
-    # Quests/EP2/Intro_Questions.rpy:53
+    # game/Quests/EP2/Intro_Questions.rpy:55
     old "Моника поздоровалась с соседом."
-    new "Monica hat den Nachbarn begrüßt."
+    new "Моника поздоровалась с соседом."
 
-    # Quests/EP2/Intro_Questions.rpy:53
+    # game/Quests/EP2/Intro_Questions.rpy:55
     old "Моника не стала здороваться."
-    new "Monica hat ihn nicht begrüßt."
+    new "Моника не стала здороваться."
 
-    # Quests/EP2/Intro_Questions.rpy:61
+    # game/Quests/EP2/Intro_Questions.rpy:63
     old "Монике было все-равно что сосед чуть не погиб."
-    new "Monica war es egal, dass ihr Nachbar fast getötet wurde."
+    new "Монике было все-равно что сосед чуть не погиб."
 
-    # Quests/EP2/Intro_Questions.rpy:61
+    # game/Quests/EP2/Intro_Questions.rpy:63
     old "Моника проявила обеспокоенность."
-    new "Monica zeigte Besorgnis."
+    new "Моника проявила обеспокоенность."
 
-    # Quests/EP2/Intro_Questions.rpy:67
+    # game/Quests/EP2/Intro_Questions.rpy:69
     old "Моника сказала что сосед грязный."
-    new "Monica sagte, der Nachbar sei dreckig."
+    new "Моника сказала что сосед грязный."
 
-    # Quests/EP2/Intro_Questions.rpy:67
+    # game/Quests/EP2/Intro_Questions.rpy:69
     old "Нет."
-    new "Nein."
+    new "Нет."
 
-    # Quests/EP2/Intro_Questions.rpy:74
+    # game/Quests/EP2/Intro_Questions.rpy:76
     old "Ох ничего себе! Он сломал мне забор!"
-    new "Oh wow!"
+    new "Ох ничего себе! Он сломал мне забор!"
 
-    # Quests/EP2/Intro_Questions.rpy:74
+    # game/Quests/EP2/Intro_Questions.rpy:76
     old "Эту царапину еле видно! Из-за чего весь шум?"
-    new "Der kleine Kratzer ist ja kaum sichtbar, was soll die Aufregung?"
+    new "Эту царапину еле видно! Из-за чего весь шум?"
 
-    # Quests/EP2/Intro_Questions.rpy:80
+    # game/Quests/EP2/Intro_Questions.rpy:82
     old "Моника прогнала соседа."
-    new "Monica hat den Nachbarn verjagt."
+    new "Моника прогнала соседа."
 
-    # Quests/EP2/Intro_Questions.rpy:80
+    # game/Quests/EP2/Intro_Questions.rpy:82
     old "Моника закатила соседу большой иск."
-    new "Monica hat den Nachbarn auf eine hohe Summe verklagt."
+    new "Моника закатила соседу большой иск."
 
-    # Quests/EP2/Intro_Questions.rpy:80
+    # game/Quests/EP2/Intro_Questions.rpy:82
     old "Моника решила отсудить маленькую сумму."
-    new "Monica hat den Nachbarn auf eine geringe Summe verklagt."
+    new "Моника решила отсудить маленькую сумму."
 
-    # Quests/EP2/Intro_Questions.rpy:87
+    # game/Quests/EP2/Intro_Questions.rpy:89
     old "Моника высказалась по поводу фермы соседа."
-    new "Monica hat sich über die Farm des Nachbarn geäußert."
+    new "Моника высказалась по поводу фермы соседа."
 
-    # Quests/EP2/Intro_Questions.rpy:101
+    # game/Quests/EP2/Intro_Questions.rpy:103
     old "Моника обращается с Юлией криком"
-    new "Monica hat Julia angeschrien."
+    new "Моника обращается с Юлией криком"
 
-    # Quests/EP2/Intro_Questions.rpy:101
+    # game/Quests/EP2/Intro_Questions.rpy:103
     old "Моника общается более вежливо."
-    new "Monica hat höflicher geredet."
+    new "Моника общается более вежливо."
 
-    # Quests/EP2/Intro_Questions.rpy:110
+    # game/Quests/EP2/Intro_Questions.rpy:112
     old "Юлия наказана и убирает пятно все время."
-    new "Julia wurde bestraft und hat ständig den Fleck beseitig."
+    new "Юлия наказана и убирает пятно все время."
 
-    # Quests/EP2/Intro_Questions.rpy:110
+    # game/Quests/EP2/Intro_Questions.rpy:112
     old "Юлия наказана криком, но пятно можно не убирать."
-    new "Julia wurde angeschrien, der Fleck konnte nicht beseitigt werden."
+    new "Юлия наказана криком, но пятно можно не убирать."
 
-    # Quests/EP2/Intro_Questions.rpy:110
+    # game/Quests/EP2/Intro_Questions.rpy:112
     old "Юлия наказана и убирает пятно в свободное время."
-    new "Julia wurde bestraft und hat in ihrer Freizeit den Fleck beseitigt."
+    new "Юлия наказана и убирает пятно в свободное время."
 
-    # Quests/EP2/Intro_Questions.rpy:110
+    # game/Quests/EP2/Intro_Questions.rpy:112
     old "Юлию не наказана за пятно никак."
-    new "Julia wurde für den Fleck in keiner Weise bestraft."
+    new "Юлию не наказана за пятно никак."
 
-    # Quests/EP2/Intro_Questions.rpy:114
+    # game/Quests/EP2/Intro_Questions.rpy:116
     old "Моника простила Юлию после строгого наказания."
-    new "Monica hat Julia nach einer heftigen Strafe vergeben."
+    new "Моника простила Юлию после строгого наказания."
 
-    # Quests/EP2/Intro_Questions.rpy:131
+    # game/Quests/EP2/Intro_Questions.rpy:133
     old "Моника соврала про то что пятно поставила Юлия, а не Моника."
-    new "Monica hat über den Fleck gelogen, den sie gemacht hat, nicht Julia."
+    new "Моника соврала про то что пятно поставила Юлия, а не Моника."
 
-    # Quests/EP2/Intro_Questions.rpy:131
+    # game/Quests/EP2/Intro_Questions.rpy:133
     old "Моника сказала правду про пятно."
-    new "Monica hat über den Fleck die Wahrheit gesagt."
+    new "Моника сказала правду про пятно."
 
-    # Quests/EP2/Intro_Questions.rpy:140
+    # game/Quests/EP2/Intro_Questions.rpy:142
     old "Юлии пришлось заняться сексом со Фредом."
-    new "Julia hatte Sex mit Fred."
+    new "Юлии пришлось заняться сексом со Фредом."
 
-    # Quests/EP2/Intro_Questions.rpy:140
+    # game/Quests/EP2/Intro_Questions.rpy:142
     old "Юлия не решилась на это..."
-    new "Julia hat sich nicht getraut..."
+    new "Юлия не решилась на это..."
 
-    # Quests/EP2/Intro_Questions.rpy:145
+    # game/Quests/EP2/Intro_Questions.rpy:147
     old "Юлия не стала говорить Фреду что секс ей не понравился."
-    new "Julia hat Fred nicht gesagt, dass sie Sex nicht mag."
+    new "Юлия не стала говорить Фреду что секс ей не понравился."
 
-    # Quests/EP2/Intro_Questions.rpy:145
+    # game/Quests/EP2/Intro_Questions.rpy:147
     old "Юлия взывала к совести Фреда."
-    new "Julia hat an Freds Pflichtbewusstsein appeliert."
+    new "Юлия взывала к совести Фреда."
 
-    # Quests/EP2/Intro_Questions.rpy:155
+    # game/Quests/EP2/Intro_Questions.rpy:157
     old "Моника сказала Стиву по телефону что он мешок с дерьмом."
-    new "Monica sagte Steve am Telefon, dass er ein Haufen Scheiße ist."
+    new "Моника сказала Стиву по телефону что он мешок с дерьмом."
 
-    # Quests/EP2/Intro_Questions.rpy:164
+    # game/Quests/EP2/Intro_Questions.rpy:166
     old "Моника обозвала моделей мартышками."
-    new "Monica nannte die Models Affen."
+    new "Моника обозвала моделей мартышками."
 
-    # Quests/EP2/Intro_Questions.rpy:164
+    # game/Quests/EP2/Intro_Questions.rpy:166
     old "Моника повела себя вежливо."
-    new "Monica war höflich."
+    new "Моника повела себя вежливо."
 
-    # Quests/EP2/Intro_Questions.rpy:171
+    # game/Quests/EP2/Intro_Questions.rpy:173
     old "Моника заставила моделей полностью раздеться."
-    new "Monica brachte die Models dazu, sich auszuziehen."
+    new "Моника заставила моделей полностью раздеться."
 
-    # Quests/EP2/Intro_Questions.rpy:171
+    # game/Quests/EP2/Intro_Questions.rpy:173
     old "Моника не стала издеваться на моделями."
-    new "Monica hatte keine Lust, mit den Models Spielchen zu spielen."
+    new "Моника не стала издеваться на моделями."
 
-    # Quests/EP2/Intro_Questions.rpy:182
+    # game/Quests/EP2/Intro_Questions.rpy:184
     old "Моника показала моделям фотосессию Мелани."
-    new "Monica zeigte den Models die Fotosession mit Melanie."
+    new "Моника показала моделям фотосессию Мелани."
 
-    # Quests/EP2/Intro_Questions.rpy:182
+    # game/Quests/EP2/Intro_Questions.rpy:184
     old "Моника сказала моделям уйти."
-    new "Monica sagte zu den Models, dass sie verschwinden sollen."
+    new "Моника сказала моделям уйти."
 
-    # Quests/EP2/Intro_Questions.rpy:185
+    # game/Quests/EP2/Intro_Questions.rpy:187
     old "Моника накричала на моделей после фотосессии."
-    new "Monica schrie die Models an nach der Fotosession."
+    new "Моника накричала на моделей после фотосессии."
 
-    # Quests/EP2/Intro_Questions.rpy:185
+    # game/Quests/EP2/Intro_Questions.rpy:187
     old "Моника вежливо отказала."
-    new "Monica hat höflich abgelehnt."
+    new "Моника вежливо отказала."
 
-    # Quests/EP2/Intro_Questions.rpy:195
+    # game/Quests/EP2/Intro_Questions.rpy:197
     old "Моника смеялась над моделью, когда увидела ее работающей проституткой."
-    new "Monica hat das Model ausgelacht, als sie sah, dass sie nun als Prostituierte arbeitet."
+    new "Моника смеялась над моделью, когда увидела ее работающей проституткой."
 
-    # Quests/EP2/Intro_Questions.rpy:195
+    # game/Quests/EP2/Intro_Questions.rpy:197
     old "Моника не стала смеяться над ней."
-    new "Monica hat sie nicht ausgelacht."
+    new "Моника не стала смеяться над ней."
 
-    # Quests/EP2/Intro_Questions.rpy:204
+    # game/Quests/EP2/Intro_Questions.rpy:206
     old "Моника сказала Мелани, чтобы та следила за своей фигурой, иначе может уволить ее."
-    new "Monica sagte Melanie, sie muss auf ihre Figur aufpassen, sonst wird sie gefeuert."
+    new "Моника сказала Мелани, чтобы та следила за своей фигурой, иначе может уволить ее."
 
-    # Quests/EP2/Intro_Questions.rpy:204
+    # game/Quests/EP2/Intro_Questions.rpy:206
     old "Моника похвалила Мелани."
-    new "Monica lobte Melanie."
+    new "Моника похвалила Мелани."
 
-    # Quests/EP2/Intro_Questions.rpy:211
+    # game/Quests/EP2/Intro_Questions.rpy:213
     old "Моника сказала Алексу, что он будет уволен если продолжит брать пикантные ракурсы."
-    new "Monica sagte Alex, dass er gefeurt wird, wenn er weiter aus anrüchigen Winkeln fotografiert."
+    new "Моника сказала Алексу, что он будет уволен если продолжит брать пикантные ракурсы."
 
-    # Quests/EP2/Intro_Questions.rpy:211
+    # game/Quests/EP2/Intro_Questions.rpy:213
     old "Моника попросила Алекса войти в ее положение."
-    new "Monica fragte Alex, ob er in ihre Position will."
+    new "Моника попросила Алекса войти в ее положение."
 
-    # Quests/EP2/Intro_Questions.rpy:221
+    # game/Quests/EP2/Intro_Questions.rpy:223
     old "Моника сказала Дику что вокруг одни идиоты."
-    new "Monica sagte Dick, dass sie nur von Idioten umgeben ist."
+    new "Моника сказала Дику что вокруг одни идиоты."
 
-    # Quests/EP2/Intro_Questions.rpy:221
+    # game/Quests/EP2/Intro_Questions.rpy:223
     old "Моника сказала Дику что она самостоятельная."
-    new "Monica sagte Dick, dass sie auf sich alleine gestellt ist."
+    new "Моника сказала Дику что она самостоятельная."
 
-    # Quests/EP2/Intro_Questions.rpy:229
+    # game/Quests/EP2/Intro_Questions.rpy:231
     old "Моника сказала что не любит общаться с Диком."
-    new "Monica sagte, dass sie ungern mit Dick redet."
+    new "Моника сказала что не любит общаться с Диком."
 
-    # Quests/EP2/Intro_Questions.rpy:229
+    # game/Quests/EP2/Intro_Questions.rpy:231
     old "Моника согласилась на встречу."
-    new "Monica stimmte dem Meeting zu."
+    new "Моника согласилась на встречу."
 
-    # Quests/EP2/Intro_Questions.rpy:240
+    # game/Quests/EP2/Intro_Questions.rpy:242
     old "Моника все время ругалась на Фреда."
-    new "Monica hackelte sich ständig mit Fred."
+    new "Моника все время ругалась на Фреда."
 
-    # Quests/EP2/Intro_Questions.rpy:240
+    # game/Quests/EP2/Intro_Questions.rpy:242
     old "Моника иногда ругалась на Фреда."
-    new "Monica verteufelte Fred manchmal."
+    new "Моника иногда ругалась на Фреда."
 
-    # Quests/EP2/Intro_Questions.rpy:240
+    # game/Quests/EP2/Intro_Questions.rpy:242
     old "Моника не ругалась на Фреда никогда."
-    new "Monica tat das nicht."
+    new "Моника не ругалась на Фреда никогда."
 
-    # Quests/EP2/Intro_Questions.rpy:274
+    # game/Quests/EP2/Intro_Questions.rpy:276
     old "Моника позвала продавщицу на заправке."
-    new "Monica rief nach der Bedienung in der Tankstelle."
+    new "Моника позвала продавщицу на заправке."
 
-    # Quests/EP2/Intro_Questions.rpy:274
+    # game/Quests/EP2/Intro_Questions.rpy:276
     old "Моника разбила бутылку, чтобы привлечь внимание."
-    new "Monica hat die Flasche zerbrochen, um ihre Aufmerksamkeit zu erlangen."
+    new "Моника разбила бутылку, чтобы привлечь внимание."
 
-    # Quests/EP2/Intro_Questions.rpy:282
+    # game/Quests/EP2/Intro_Questions.rpy:284
     old "Моника обвинила в этом кассиршу."
-    new "Monica beschuldigte die Kassiererin."
+    new "Моника обвинила в этом кассиршу."
 
-    # Quests/EP2/Intro_Questions.rpy:282
+    # game/Quests/EP2/Intro_Questions.rpy:284
     old "Моника согласилась возместить ущерб."
-    new "Monica stimmte zu, den Schaden zu begleichen."
+    new "Моника согласилась возместить ущерб."
 
-    # Quests/EP2/Intro_Questions.rpy:292
+    # game/Quests/EP2/Intro_Questions.rpy:294
     old "Моника при покупке платья общалась в продавцом грубо"
-    new "Während Monica das Kleid kaufte, war sie unfreundlich zu der Kassiererin."
+    new "Моника при покупке платья общалась в продавцом грубо"
 
-    # Quests/EP2/Intro_Questions.rpy:292
+    # game/Quests/EP2/Intro_Questions.rpy:294
     old "Вежливо."
-    new "Höflich."
+    new "Вежливо."
 
-    # Quests/EP2/Intro_Questions.rpy:299
+    # game/Quests/EP2/Intro_Questions.rpy:301
     old "Моника заплатила за платье сама."
-    new "Monica zahlte selbst für das Kleid."
+    new "Моника заплатила за платье сама."
 
-    # Quests/EP2/Intro_Questions.rpy:299
+    # game/Quests/EP2/Intro_Questions.rpy:301
     old "За платье заплатил Дик."
-    new "Dick zahlte für das Kleid."
+    new "За платье заплатил Дик."
 
-    # Quests/EP2/Intro_Questions.rpy:307
+    # game/Quests/EP2/Intro_Questions.rpy:309
     old "Моника грубила когда возвращала платье."
-    new "Monica war unfreundlich, als sie das Kleid zurück brachte."
+    new "Моника грубила когда возвращала платье."
 
-    # Quests/EP2/Intro_Questions.rpy:307
+    # game/Quests/EP2/Intro_Questions.rpy:309
     old "Моника общалась вежливо."
-    new "Monica redete höflich."
+    new "Моника общалась вежливо."
 
-    # Quests/EP2/Intro_Questions.rpy:316
+    # game/Quests/EP2/Intro_Questions.rpy:318
     old "Моника ругалась на продавца когда та застала ее утром в примерочной"
-    new "Monica bedrohte die Verkäuferin, als sie sie morgens in der Umkleide fand."
+    new "Моника ругалась на продавца когда та застала ее утром в примерочной"
 
-    # Quests/EP2/Intro_Questions.rpy:316
+    # game/Quests/EP2/Intro_Questions.rpy:318
     old "Моника выкрутилась за счет вежливости."
-    new "Monica kam mit Höflichkeit aus der Situation."
+    new "Моника выкрутилась за счет вежливости."
 
-    # Quests/EP2/Intro_Questions.rpy:325
+    # game/Quests/EP2/Intro_Questions.rpy:327
     old "Моника ругалась на Дика в машине и не стала подвозить его."
-    new "Monica war uncharmant zu Dick im Auto und hat ihn nicht gefahren."
+    new "Моника ругалась на Дика в машине и не стала подвозить его."
 
-    # Quests/EP2/Intro_Questions.rpy:325
+    # game/Quests/EP2/Intro_Questions.rpy:327
     old "Моника общалась с Диком мило."
-    new "Monica war nett zu Dick."
+    new "Моника общалась с Диком мило."
 
-    # Quests/EP2/Intro_Questions.rpy:336
+    # game/Quests/EP2/Intro_Questions.rpy:338
     old "Моника сказала Дику что он уродливый."
-    new "Monica sagte Dick, er sei hässlich."
+    new "Моника сказала Дику что он уродливый."
 
-    # Quests/EP2/Intro_Questions.rpy:336
+    # game/Quests/EP2/Intro_Questions.rpy:338
     old "Моника только пошутила насчет галстука."
-    new "Monica machte nur Spaß über die Krawatte."
+    new "Моника только пошутила насчет галстука."
 
-    # Quests/EP2/Intro_Questions.rpy:345
+    # game/Quests/EP2/Intro_Questions.rpy:347
     old "Моника назвала Дика плюшевым мишкой и сказала что он смешной."
-    new "Monica nannte Dick einen Teddybär und sagte, er sei lustig."
+    new "Моника назвала Дика плюшевым мишкой и сказала что он смешной."
 
-    # Quests/EP2/Intro_Questions.rpy:345
+    # game/Quests/EP2/Intro_Questions.rpy:347
     old "Моника назвала Дика кавалером."
-    new "Monica nannte Dick ihren Freund."
+    new "Моника назвала Дика кавалером."
 
-    # Quests/EP2/Intro_Questions.rpy:355
+    # game/Quests/EP2/Intro_Questions.rpy:357
     old "Дик собирается помочь подать иск на соседа."
-    new "Dick wird Monica helfen, den Nachbarn zu verklagen."
+    new "Дик собирается помочь подать иск на соседа."
 
-    # Quests/EP2/Intro_Questions.rpy:362
+    # game/Quests/EP2/Intro_Questions.rpy:364
     old "Дик проговорился что хочет Мелани."
-    new "Dick platzte damit heraus, dass er Melanie will."
+    new "Дик проговорился что хочет Мелани."
 
-    # Quests/EP2/Intro_Questions.rpy:368
+    # game/Quests/EP2/Intro_Questions.rpy:371
     old "Моника ругалась на официантку и сказала Дику ее уволить."
-    new "Monica war rüde zu der Bedienung und sagte Dick, er sollte sie feuern."
+    new "Моника ругалась на официантку и сказала Дику ее уволить."
 
-    # Quests/EP2/Intro_Questions.rpy:368
+    # game/Quests/EP2/Intro_Questions.rpy:371
     old "Моника попросила Дика оставить официантке чаевые."
-    new "Monica bat Dick, der Bedienung Trinkgeld zu geben."
+    new "Моника попросила Дика оставить официантке чаевые."
 
-    # Quests/EP2/Intro_Questions.rpy:380
+    # game/Quests/EP2/Intro_Questions.rpy:383
     old "Моника сказала Фреду что Дик жирный урод."
-    new "Monica sagte zu Fred, dass Dick ein fetter Bastard ist."
+    new "Моника сказала Фреду что Дик жирный урод."
 
-    # Quests/EP2/Intro_Questions.rpy:380
+    # game/Quests/EP2/Intro_Questions.rpy:383
     old "Моника сказала Фреду что Дик старался угодить ей."
-    new "Monica sagte Fred, dass Dick versuchte, sie zufrieden zu stellen."
+    new "Моника сказала Фреду что Дик старался угодить ей."
 
-    # Quests/EP2/Intro_Questions.rpy:391
+    # game/Quests/EP2/Intro_Questions.rpy:394
     old "У Фреда был секс с Кристиной."
-    new "Fred hatte Sex mit Christina."
+    new "У Фреда был секс с Кристиной."
 
-    # Quests/EP2/Intro_Questions.rpy:396
+    # game/Quests/EP2/Intro_Questions.rpy:399
     old "У Фреда с Кристиной был миньет и анал."
-    new "Fred und Christina hatten einen Blowjob und Analsex."
+    new "У Фреда с Кристиной был миньет и анал."
 
-    # Quests/EP2/Intro_Questions.rpy:396
+    # game/Quests/EP2/Intro_Questions.rpy:399
     old "Кристина не выдержала и убежала."
-    new "Christina brach zusammen und rannte davon."
+    new "Кристина не выдержала и убежала."
 
-    # Quests/EP2/Intro_Questions.rpy:407
+    # game/Quests/EP2/Intro_Questions.rpy:410
     old "Моника грубо отшила инструктора по фитнесу"
-    new "Monica wies den Fitnesstrainer harsch zurück."
+    new "Моника грубо отшила инструктора по фитнесу"
 
-    # Quests/EP2/Intro_Questions.rpy:407
+    # game/Quests/EP2/Intro_Questions.rpy:410
     old "Вежливо отказала."
-    new "Lehnte freundlich ab."
+    new "Вежливо отказала."
 
-    # Quests/EP2/Intro_Questions.rpy:414
+    # game/Quests/EP2/Intro_Questions.rpy:417
     old "У Stephanie был секс с инструктором"
-    new "Stephanie hatte Sex mit dem Trainer."
+    new "У Stephanie был секс с инструктором"
 
-    # Quests/EP2/Intro_Questions.rpy:422
+    # game/Quests/EP2/Intro_Questions.rpy:425
     old "Моника ругалась на клерка в банке."
-    new "Monica war harsch zu der Bankangestellten."
+    new "Моника ругалась на клерка в банке."
 
-    # Quests/EP2/Intro_Questions.rpy:422
+    # game/Quests/EP2/Intro_Questions.rpy:425
     old "Моника вошла в положение."
-    new "Monica ist in ihrer Position."
+    new "Моника вошла в положение."
 
-    # Quests/EP2/Intro_Questions.rpy:431
+    # game/Quests/EP2/Intro_Questions.rpy:434
     old "Моника сказала Стиву что он отсосет у собаки если соврал."
-    new "Monica sagte Steve, dass er einen Hundeschwanz lutschen wird, wenn er lügt."
+    new "Моника сказала Стиву что он отсосет у собаки если соврал."
 
-    # Quests/EP2/Intro_Questions.rpy:431
+    # game/Quests/EP2/Intro_Questions.rpy:434
     old "Моника не стала такого говорить."
-    new "Monica sagte das nicht."
+    new "Моника не стала такого говорить."
 
-    # Quests/EP2/Intro_Questions.rpy:440
+    # game/Quests/EP2/Intro_Questions.rpy:443
     old "Моника назвала продавца кебабов животным."
-    new "Monica nannte den Kebabverkäufer ein Tier."
+    new "Моника назвала продавца кебабов животным."
 
-    # Quests/EP2/Intro_Questions.rpy:440
+    # game/Quests/EP2/Intro_Questions.rpy:443
     old "Моника не стала его так называть."
-    new "Monica nannte ihn so nicht."
+    new "Моника не стала его так называть."
 
-    # Quests/EP2/Intro_Questions.rpy:449
+    # game/Quests/EP2/Intro_Questions.rpy:452
     old "Моника решила уволить Юлию"
-    new "Monica entschied, Julia zu feuern."
+    new "Моника решила уволить Юлию"
 
-    # Quests/EP2/Intro_Questions.rpy:453
+    # game/Quests/EP2/Intro_Questions.rpy:456
     old "Моника в итоге пожалела Юлию и не стала увольнять ее"
-    new "Julia tat Monica leid und sie entschied sich, sie nicht zu feuern."
+    new "Моника в итоге пожалела Юлию и не стала увольнять ее"
 
-    # Quests/EP2/Intro_Questions.rpy:453
+    # game/Quests/EP2/Intro_Questions.rpy:456
     old "Уволила."
-    new "Julia wurde fortgeschickt."
+    new "Уволила."
 
-    # Quests/EP2/Intro_Questions.rpy:463
+    # game/Quests/EP2/Intro_Questions.rpy:466
     old "Моника запланировала уволить Тиффани и Джейн"
-    new "Monica hatte vor, Tiffany und Jane zu feuern."
+    new "Моника запланировала уволить Тиффани и Джейн"
 
-    # Quests/EP2/Intro_Questions.rpy:463
+    # game/Quests/EP2/Intro_Questions.rpy:466
     old "Моника решила еще проследить за ними."
-    new "Monica entschloss sich, ihnen zu folgen."
+    new "Моника решила еще проследить за ними."
 
-    # Quests/EP2/Intro_Questions.rpy:471
+    # game/Quests/EP2/Intro_Questions.rpy:474
     old "Моника запланировала уволить Фреда"
-    new "Monica wollte Fred kündigen."
+    new "Моника запланировала уволить Фреда"
 
-    # Quests/EP2/Intro_Questions.rpy:471
+    # game/Quests/EP2/Intro_Questions.rpy:474
     old "Моника решила еще подумать над этим."
-    new "Monica wollte darüber nachdenken."
+    new "Моника решила еще подумать над этим."
 
-    # Quests/EP2/Intro_Questions.rpy:482
+    # game/Quests/EP2/Intro_Questions.rpy:485
     old "Моника показывала Бобу грудь за еду."
-    new "Monica zeigte Bob ihre Brüste für Essen."
+    new "Моника показывала Бобу грудь за еду."
 
-    # Quests/EP2/Intro_Questions.rpy:482
+    # game/Quests/EP2/Intro_Questions.rpy:485
     old "Моника показала грудь заключенным, чтобы узнать имя Боба"
-    new "Monica zeigte den Gefangenen ihre Brüste, um Bob's Namen zu erfahren."
+    new "Моника показала грудь заключенным, чтобы узнать имя Боба"
 
-    # Quests/EP2/Intro_Questions.rpy:490
+    # game/Quests/EP2/Intro_Questions.rpy:493
     old "Монике пришлось показать заключенным грудь во время шантажа."
-    new "Monica musste wegen der Erpressung den Gefangenen ihre Brüste zeigen."
+    new "Монике пришлось показать заключенным грудь во время шантажа."
 
-    # Quests/EP2/Intro_Questions.rpy:490
+    # game/Quests/EP2/Intro_Questions.rpy:493
     old "Моника поставила заключенных на место."
-    new "Monica wies die Gefangenen zurecht."
+    new "Моника поставила заключенных на место."
 
-    # Quests/EP2/Intro_Questions.rpy:495
+    # game/Quests/EP2/Intro_Questions.rpy:498
     old "Монике пришлось также показать заключенным зад."
-    new "Monica musste auch ihren Hintern zeigen."
+    new "Монике пришлось также показать заключенным зад."
 
-    # Quests/EP2/Intro_Questions.rpy:500
+    # game/Quests/EP2/Intro_Questions.rpy:503
     old "Монику заставили сказать что она хорошая шлюха."
-    new "Monica war gezwungen zu sagen, sie sei eine gute Hure."
+    new "Монику заставили сказать что она хорошая шлюха."
 
-    # Quests/EP2/Intro_Questions.rpy:500
+    # game/Quests/EP2/Intro_Questions.rpy:503
     old "Моника отказалась это говорить."
-    new "Monica sagte das nicht."
+    new "Моника отказалась это говорить."
 
-    # Quests/EP2/Intro_Questions.rpy:513
+    # game/Quests/EP2/Intro_Questions.rpy:516
     old "Моника накричала на Дика в его кабинете."
-    new "Monica schrie Dick in seinem Büro an."
+    new "Моника накричала на Дика в его кабинете."
 
-    # Quests/EP2/Intro_Questions.rpy:513
+    # game/Quests/EP2/Intro_Questions.rpy:516
     old "Моника пробовала уговорить Дика."
-    new "Monica versuchte Dick zu überzeugen."
+    new "Моника пробовала уговорить Дика."
 
-    # Quests/EP2/Intro_Questions.rpy:522
+    # game/Quests/EP2/Intro_Questions.rpy:525
     old "Моника делала миньет Фреду."
-    new "Monica gab Fred einen Blowjob."
+    new "Моника делала миньет Фреду."
 
-    # Quests/EP2/Intro_Questions.rpy:522
+    # game/Quests/EP2/Intro_Questions.rpy:525
     old "Моника обошлась без миньета."
-    new "Monica gab Fred keinen Blowjob."
+    new "Моника обошлась без миньета."
 
-    # Quests/EP2/Intro_Questions.rpy:527
+    # game/Quests/EP2/Intro_Questions.rpy:530
     old "Моника проглотила сперму Фреда."
-    new "Monica schluckte Freds Samen."
+    new "Моника проглотила сперму Фреда."
 
-    # Quests/EP2/Intro_Questions.rpy:527
+    # game/Quests/EP2/Intro_Questions.rpy:530
     old "Моника выплюнула сперму Фреда."
-    new "Monica spuckte Freds Sperma aus."
+    new "Моника выплюнула сперму Фреда."
 
-    # Quests/EP2/Intro_Questions.rpy:541
+    # game/Quests/EP2/Intro_Questions.rpy:544
     old "Моника вела себя как сучка!"
-    new "Monica verhielt sich wie ein Miststück!"
+    new "Моника вела себя как сучка!"
 
-    # Quests/EP2/Intro_Questions.rpy:541
+    # game/Quests/EP2/Intro_Questions.rpy:544
     old "Моника старалась быть вежливой насколько умеет..."
-    new "Monica versuchte so höflich zu sein, wie es ihr möglich war..."
-
-# TODO: Translation updated at 2019-08-29 19:17
-
-# game/Quests/EP2/Intro_Questions.rpy:16
-translate german intro_questions_into_loop1_cbd4f4c0:
-
-    # m "here"
-    # m "Последний вопрос. В чем Моника легла спать?"
-    # help "Последний вопрос. В чем Моника легла спать?"
-    m "here"
-    m "Последний вопрос. В чем Моника легла спать?"
-    help "Последний вопрос. В чем Моника легла спать?"
+    new "Моника старалась быть вежливой насколько умеет..."
 

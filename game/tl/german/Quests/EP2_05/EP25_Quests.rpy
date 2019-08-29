@@ -1,8 +1,8 @@
-﻿# TODO: Translation updated at 2019-06-01 03:18
+﻿# TODO: Translation updated at 2019-08-29 19:52
 
 translate german strings:
 
-    # Quests/EP2_05/EP25_Quests.rpy:17
+    # game/Quests/EP2_05/EP25_Quests.rpy:18
     old "Найти нормальную одежду"
-    new "Finde normale Kleider"
+    new "Найти нормальную одежду"
 

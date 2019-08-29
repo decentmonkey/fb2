@@ -1,26 +1,26 @@
-﻿# TODO: Translation updated at 2019-01-16 15:00
+﻿# TODO: Translation updated at 2019-08-29 19:51
 
-# game/Quests/EP2_02/EP22_Quests_Falling_Path.rpy:38
+# game/Quests/EP2_02/EP22_Quests_Falling_Path.rpy:59
 translate german ep22_quests_falling_path4_ada061db:
 
     # mt "Я боюсь подходить к людям в вечернее время."
     # "Это опасно..."
-    mt "Ich habe Angst, Leute am Abend anzusprechen."
-    "Das ist gefährlich..."
+    mt "Я боюсь подходить к людям в вечернее время."
+    "Это опасно..."
 
-# game/Quests/EP2_02/EP22_Quests_Falling_Path.rpy:42
+# game/Quests/EP2_02/EP22_Quests_Falling_Path.rpy:63
 translate german ep22_quests_falling_path4_55b332f2:
 
     # mt "За такие маленькие деньги я больше ничего не собираюсь показывать ему сегодня..."
-    mt "Für so wenig Geld zeige ich ihm heute sicher nicht mehr..."
+    mt "За такие маленькие деньги я больше ничего не собираюсь показывать ему сегодня..."
 
 translate german strings:
 
-    # Quests/EP2_02/EP22_Quests_Falling_Path.rpy:51
+    # game/Quests/EP2_02/EP22_Quests_Falling_Path.rpy:78
     old "Моника обслужила 'Клиента'"
-    new "Monica hat 'Kunden' bedient"
+    new "Моника обслужила 'Клиента'"
 
-    # Quests/EP2_02/EP22_Quests_Falling_Path.rpy:73
+    # game/Quests/EP2_02/EP22_Quests_Falling_Path.rpy:107
     old "Falling Path started..."
     new "Falling Path started..."
 

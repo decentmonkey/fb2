@@ -1,38 +1,38 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-29 19:50
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:186
+# game/Quests/House_Cleaning/House_Cleaning.rpy:191
 translate english house_cleaning_room_finished_3615f202:
 
     # mt "Здесь все, теперь другую сторону."
-    mt "This is it, now the other side."
+    mt "Здесь все, теперь другую сторону."
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:190
+# game/Quests/House_Cleaning/House_Cleaning.rpy:195
 translate english house_cleaning_room_finished_a47cb48b:
 
     # mt "Кажется все."
-    mt "That seems to be everything."
+    mt "Кажется все."
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:282
+# game/Quests/House_Cleaning/House_Cleaning.rpy:290
 translate english start_cleaning_dialogue1a_b6cc470f:
 
     # mt "Сегодня пришла очередь убрать"
-    mt "Now it's time to clean up."
+    mt "Сегодня пришла очередь убрать"
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:307
+# game/Quests/House_Cleaning/House_Cleaning.rpy:315
 translate english start_cleaning_dialogue1_f03b8b11:
 
     # mt "Моя бывшая спальня..."
     # "Но ничего! Скоро она будет снова моя! Клянусь!"
-    mt "My former bedroom..."
-    "But it's nothing! Soon it will be mine again! I swear!"
+    mt "Моя бывшая спальня..."
+    "Но ничего! Скоро она будет снова моя! Клянусь!"
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:310
+# game/Quests/House_Cleaning/House_Cleaning.rpy:318
 translate english start_cleaning_dialogue1_f077c48c:
 
     # mt "Начну уборку отсюда."
-    mt "I'll start cleaning here."
+    mt "Начну уборку отсюда."
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:312
+# game/Quests/House_Cleaning/House_Cleaning.rpy:320
 translate english start_cleaning_dialogue1_e40c8367:
 
     # mt "!!!"
@@ -40,19 +40,19 @@ translate english start_cleaning_dialogue1_e40c8367:
     # "Догадываюсь зачем..."
     # "Ненавижу эту малявку!"
     mt "!!!"
-    mt "Bardie's here again!"
-    "Guess why..."
-    "I hate that little thing!"
+    mt "Снова здесь этот Барди!"
+    "Догадываюсь зачем..."
+    "Ненавижу эту малявку!"
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:319
+# game/Quests/House_Cleaning/House_Cleaning.rpy:327
 translate english start_cleaning_dialogue1b_f03b8b11:
 
     # mt "Моя бывшая спальня..."
     # "Но ничего! Скоро она будет снова моя! Клянусь!"
-    mt "My former bedroom..."
-    "But it's nothing! Soon it will be mine again! I swear!"
+    mt "Моя бывшая спальня..."
+    "Но ничего! Скоро она будет снова моя! Клянусь!"
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:323
+# game/Quests/House_Cleaning/House_Cleaning.rpy:331
 translate english start_cleaning_dialogue1b_e40c8367:
 
     # mt "!!!"
@@ -60,121 +60,121 @@ translate english start_cleaning_dialogue1b_e40c8367:
     # "Догадываюсь зачем..."
     # "Ненавижу эту малявку!"
     mt "!!!"
-    mt "Bardie's here again!"
-    "Guess why..."
-    "I hate that little thing!"
+    mt "Снова здесь этот Барди!"
+    "Догадываюсь зачем..."
+    "Ненавижу эту малявку!"
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:334
+# game/Quests/House_Cleaning/House_Cleaning.rpy:342
 translate english start_cleaning_dialogue2_33221ba5:
 
     # mt "Я убрала верхний холл."
-    mt "I cleaned the upper hall."
+    mt "Я убрала верхний холл."
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:336
+# game/Quests/House_Cleaning/House_Cleaning.rpy:344
 translate english start_cleaning_dialogue2_db694782:
 
     # mt "Я убрала нижний холл."
-    mt "I cleaned the lower hall."
+    mt "Я убрала нижний холл."
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:338
+# game/Quests/House_Cleaning/House_Cleaning.rpy:346
 translate english start_cleaning_dialogue2_c9055e76:
 
     # mt "Я убрала спальню Барди."
-    mt "I cleaned Bardie's bedroom."
+    mt "Я убрала спальню Барди."
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:340
+# game/Quests/House_Cleaning/House_Cleaning.rpy:348
 translate english start_cleaning_dialogue2_724c6222:
 
     # mt "Я убрала спальню для гостей."
-    mt "I cleaned the guest bedroom."
+    mt "Я убрала спальню для гостей."
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:342
+# game/Quests/House_Cleaning/House_Cleaning.rpy:350
 translate english start_cleaning_dialogue2_a1d583d6:
 
     # mt "Я убрала гостиную."
-    mt "I cleaned the living room."
+    mt "Я убрала гостиную."
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:344
+# game/Quests/House_Cleaning/House_Cleaning.rpy:352
 translate english start_cleaning_dialogue2_4ae91ad7:
 
     # mt "Я убрала мою бывшую спальню."
-    mt "I cleaned my former bedroom."
+    mt "Я убрала мою бывшую спальню."
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:347
+# game/Quests/House_Cleaning/House_Cleaning.rpy:355
 translate english start_cleaning_dialogue2_3d7d8ac3:
 
     # mt "Теперь надо убрать верхний холл."
-    mt "Now I need to clear the upper hall."
+    mt "Теперь надо убрать верхний холл."
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:349
+# game/Quests/House_Cleaning/House_Cleaning.rpy:357
 translate english start_cleaning_dialogue2_bafab389:
 
     # mt "Теперь надо убрать нижний холл."
-    mt "Now I need to clear the lower hall."
+    mt "Теперь надо убрать нижний холл."
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:351
+# game/Quests/House_Cleaning/House_Cleaning.rpy:359
 translate english start_cleaning_dialogue2_70fc1b00:
 
     # mt "Теперь надо убрать спальню Барди."
-    mt "Now I need to clean Bardie's bedroom."
+    mt "Теперь надо убрать спальню Барди."
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:353
+# game/Quests/House_Cleaning/House_Cleaning.rpy:361
 translate english start_cleaning_dialogue2_06f80b34:
 
     # mt "Теперь надо убрать спальню для гостей."
-    mt "Now I have to clean the guest bedroom."
+    mt "Теперь надо убрать спальню для гостей."
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:355
+# game/Quests/House_Cleaning/House_Cleaning.rpy:363
 translate english start_cleaning_dialogue2_00f42c72:
 
     # mt "Теперь надо убрать гостиную."
-    mt "Now I need to clean the living room."
+    mt "Теперь надо убрать гостиную."
 
-# game/Quests/House_Cleaning/House_Cleaning.rpy:357
+# game/Quests/House_Cleaning/House_Cleaning.rpy:365
 translate english start_cleaning_dialogue2_f858909d:
 
     # mt "Теперь надо убрать мою бывшую спальню."
-    mt "Now I have to clean my former bedroom."
+    mt "Теперь надо убрать мою бывшую спальню."
 
 translate english strings:
 
-    # Quests/House_Cleaning/House_Cleaning.rpy:25
+    # game/Quests/House_Cleaning/House_Cleaning.rpy:27
     old "Начать уборку в доме."
-    new "Start cleaning the house."
+    new "Начать уборку в доме."
 
-    # Quests/House_Cleaning/House_Cleaning.rpy:25
+    # game/Quests/House_Cleaning/House_Cleaning.rpy:27
     old "Не убираться сегодня..."
-    new "Don't clean today..."
+    new "Не убираться сегодня..."
 
-    # Quests/House_Cleaning/House_Cleaning.rpy:235
+    # game/Quests/House_Cleaning/House_Cleaning.rpy:243
     old "Смотреть..."
-    new "Look..."
+    new "Смотреть..."
 
-    # Quests/House_Cleaning/House_Cleaning.rpy:235
+    # game/Quests/House_Cleaning/House_Cleaning.rpy:243
     old "Пропустить."
-    new "Skip."
+    new "Пропустить."
 
-    # Quests/House_Cleaning/House_Cleaning.rpy:286
+    # game/Quests/House_Cleaning/House_Cleaning.rpy:294
     old "Верхний холл."
-    new "Upper hall"
+    new "Верхний холл."
 
-    # Quests/House_Cleaning/House_Cleaning.rpy:288
+    # game/Quests/House_Cleaning/House_Cleaning.rpy:296
     old "Нижний холл."
-    new "Lower hall"
+    new "Нижний холл."
 
-    # Quests/House_Cleaning/House_Cleaning.rpy:290
+    # game/Quests/House_Cleaning/House_Cleaning.rpy:298
     old "Спальню Барди."
-    new "Bardie's bedroom."
+    new "Спальню Барди."
 
-    # Quests/House_Cleaning/House_Cleaning.rpy:292
+    # game/Quests/House_Cleaning/House_Cleaning.rpy:300
     old "Спальню для гостей."
-    new "Guest bedroom."
+    new "Спальню для гостей."
 
-    # Quests/House_Cleaning/House_Cleaning.rpy:294
+    # game/Quests/House_Cleaning/House_Cleaning.rpy:302
     old "Гостиную."
-    new "Living room"
+    new "Гостиную."
 
-    # Quests/House_Cleaning/House_Cleaning.rpy:296
+    # game/Quests/House_Cleaning/House_Cleaning.rpy:304
     old "Мою бывшую спальню."
-    new "My former bedroom."
+    new "Мою бывшую спальню."
 
