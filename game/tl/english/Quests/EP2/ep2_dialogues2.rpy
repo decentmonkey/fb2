@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2/ep2_dialogues2.rpy:7
 translate english monica_shawarma_dialogue0_650b1fcd:
@@ -610,19 +610,19 @@ translate english monica_shawarma_dialogue11_9630037f:
 
 translate english strings:
 
-    # game/Quests/EP2/ep2_dialogues2.rpy:130
+    # Quests/EP2/ep2_dialogues2.rpy:130
     old "Согласиться разносить флаеры."
     new "Agree to deliver flyers."
 
-    # game/Quests/EP2/ep2_dialogues2.rpy:203
+    # Quests/EP2/ep2_dialogues2.rpy:203
     old "Купить кебаб за $ 1"
     new "Buy the kebab for $ 1"
 
-    # game/Quests/EP2/ep2_dialogues2.rpy:203
+    # Quests/EP2/ep2_dialogues2.rpy:203
     old "Разносить флаеры."
     new "Deliver flyers."
 
-    # game/Quests/EP2/ep2_dialogues2.rpy:203
+    # Quests/EP2/ep2_dialogues2.rpy:203
     old "Я не собираюсь ничего разносить! Давай кебаб сюда!"
     new "I'm not going to deliver anything! Get the kebab!"
 

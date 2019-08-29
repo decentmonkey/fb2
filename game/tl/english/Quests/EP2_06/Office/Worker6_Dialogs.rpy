@@ -1,12 +1,68 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-07-02 18:59
 
-# game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:8
+# game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:4
+translate english worker6_dialogue_workplace_b3471ff0:
+
+    # w6 "Как же достали эти амбициозные новички и карьеристы!"
+    # w6 "Ничего не делают, только сидят в своем интернете."
+    # w6 "А как надо сделать какой-то сложный отчет дак Грета, сделай пожалуйста..."
+    w6 "I'm so tired of these ambitious upstart newbies!"
+    w6 "They do nothing and just browse the internet!"
+    w6 "And if they need to do something complicated they just ask Greta to do it!"
+
+# game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:11
+translate english worker6_dialogue_office_f0a01fe2:
+
+    # w6 "Миссис Бакфетт, можно?"
+    w6 "Mrs. Buckfett, can I come in?"
+
+# game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:14
+translate english worker6_dialogue_office_10bc4042:
+
+    # m "Да, заходи."
+    # w6 "Миссис Бакфетт, Я бы хотела поговорить о ситуации в нашем отделе."
+    # w6 "Вы же наверняка знаете на ком все держится..."
+    # w6 "А этот карьерист Джон... Как он меня достал!"
+    # w6 "Думаю, с Вашими менеджерскими талантами Вы понимаете, кто достоин стать главой отдела."
+    # m "Уж будь в этом уверена."
+    # m "Придет время и ты все узнаешь."
+    # mt "Глава отдела? Как же вы мне надоели..."
+    # m "Я тебя услышала. Ты свободна."
+    # w6 "Да, спасибо миссис Бакфет. Вот кстати отчет, который я сегодня сделала."
+    # m "Спасибо, можешь положить на стол."
+    m "Yes, come in."
+    w6 "Mrs. Buckfett, I'd like to talk about the situation in our department."
+    w6 "You probably know already who does all the work here."
+    w6 "And this John... I'm so tired of him!"
+    w6 "With your managerial talents, I think you understand who have to become new department head."
+    m "Yes, of course."
+    m "You will be the first one to know."
+    mt "Head of the department? Can you all just stop already?"
+    m "I heard you. You can go."
+    w6 "Yes, thank you, Mrs. Buckfett. By the way, here is a report I prepared today."
+    m "Thank you. Put it one the table."
+
+# game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:27
+translate english worker6_dialogue_office_69363cbb:
+
+    # m "Я занята, приходи завтра."
+    # w6 "Но как же..."
+    # m "Я сказала завтра, я сейчас занята!"
+    m "I'm busy, come tomorrow."
+    w6 "Bu-ut..."
+    m "I said tomorrow! I'm busy now!"
+
+# TODO: Translation updated at 2019-07-02 20:56
+
+# game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:3
 translate english worker6_look_ef4c461b:
 
     # mt "Как можно быть такой толстой коровой?"
     # mt "Фи!"
     mt "How can you be such a fat cow?"
     mt "Phi!"
+
+# TODO: Translation updated at 2019-07-17 02:25
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:17
 translate english worker6_dialogue_workplace_a1a9e3c6:
@@ -23,12 +79,6 @@ translate english worker6_dialogue_workplace_c1af418c:
     # mt "Боже! Какое занудство!"
     w6 "And if they need to do something complicated they just ask Greta to do it!"
     mt "My God! What a tediousness!"
-
-# game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:30
-translate english worker6_dialogue_office_3e6eef3d:
-
-    # w6 "Миссис Бакфетт, можно?"
-    w6 "Mrs. Buckfett, can I come in?"
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:34
 translate english worker6_dialogue_office_97fb610b:
@@ -94,6 +144,16 @@ translate english worker6_dialogue_office_eb4d2bcc:
     w6 "Bu-ut..."
     m "I said tomorrow! I'm busy now!"
 
+# TODO: Translation updated at 2019-07-18 12:24
+
+# game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:30
+translate english worker6_dialogue_office_3e6eef3d:
+
+    # w6 "Миссис Бакфетт, можно?"
+    w6 "Mrs. Buckfett, can I come in?"
+
+# TODO: Translation updated at 2019-08-29 19:18
+
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:72
 translate english takeReportsFlashCard_Worker6_49f3e42b:
 
@@ -116,7 +176,7 @@ translate english takeReportsFlashCard_Worker6_9b00cddc:
     # w5 "Грета, скопируй все свои ответы миссис Бакфетт. Я надеюсь, в них нет ошибок."
     # w6t "Ах ты сволочь..."
     w5 "Грета, скопируй все свои ответы миссис Бакфетт. Я надеюсь, в них нет ошибок."
-    w6t "Bastard."
+    w6t "Ах ты сволочь..."
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:83
 translate english takeReportsFlashCard_Worker6_79832b17:
@@ -131,6 +191,6 @@ translate english takeReportsFlashCard_Worker6_09bccbd2:
     # m "Спасибо."
     # mt "Похоже, с этими двумя надо будет что-то решать..."
     w6 "Пожалуйста, миссис Бакфетт."
-    m "Thank you."
+    m "Спасибо."
     mt "Похоже, с этими двумя надо будет что-то решать..."
 

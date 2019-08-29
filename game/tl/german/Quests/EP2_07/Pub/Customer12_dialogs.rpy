@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2019-08-29 19:05
 
 # game/Quests/EP2_07/Pub/Customer12_dialogs.rpy:5
 translate german customer12_1stmeeting_be9c1409:
@@ -44,7 +44,7 @@ translate german customer12_1stmeeting_2a4739c2:
 translate german customer12_1stmeeting_df4d06f3:
 
     # m "Они настоящие!"
-    m "Sie sind natürlich!"
+    m "Они настоящие!"
 
 # game/Quests/EP2_07/Pub/Customer12_dialogs.rpy:26
 translate german customer12_1stmeeting_361f0858:

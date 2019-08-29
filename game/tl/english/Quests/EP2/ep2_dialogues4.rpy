@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2/ep2_dialogues4.rpy:8
 translate english monica_office_entrance_biff_dialogue1_698a18e0:
@@ -2468,83 +2468,153 @@ translate english monica_office_cabinet_biff_dialogue5_0a5616b8_2:
 
 translate english strings:
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:154
+    # Quests/EP2/ep2_dialogues4.rpy:154
     old "Попросить деньги в долг."
     new "Ask for money to borrow."
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:425
+    # Quests/EP2/ep2_dialogues4.rpy:425
     old "Притвориться что это не Я..."
     new "Pretend it wasn't me..."
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:614
+    # Quests/EP2/ep2_dialogues4.rpy:614
     old "Попросить помощь у Мелани."
     new "Ask Melanie for help"
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:614
+    # Quests/EP2/ep2_dialogues4.rpy:614
     old "Говорить с Мелани."
     new "Talking to Melanie."
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:647
+    # Quests/EP2/ep2_dialogues4.rpy:647
     old "Да, я примерно понимаю в чем заключаются они, твои силы..."
     new "Yes, I understand about what they are, your strength..."
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:647
+    # Quests/EP2/ep2_dialogues4.rpy:647
     old "Мелани, ни один мужчина не устоит перед тобой!"
     new "Melanie, there is no man who can resist you!"
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:845
+    # Quests/EP2/ep2_dialogues4.rpy:845
     old "У Моники хорошие отношения с Мелани"
     new "Monica has a good relationship with Melanie"
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:853
+    # Quests/EP2/ep2_dialogues4.rpy:853
     old "У Моники плохие отношения с Мелани"
     new "Monica has a bad relationship with Melanie"
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:895
+    # Quests/EP2/ep2_dialogues4.rpy:895
     old "$ 5.000!!!"
     new "$ 5,000!!!"
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:971
+    # Quests/EP2/ep2_dialogues4.rpy:971
     old "Да, я согласна... (corruption)"
     new "I agree... (corruption)"
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:1103
+    # Quests/EP2/ep2_dialogues4.rpy:1079
+    old "Согласиться."
+    new "Agree."
+
+    # Quests/EP2/ep2_dialogues4.rpy:1103
     old "Моника заставляла моделей проходить обнаженный кастинг"
     new "Monica forced models to pass the nude casting"
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:1137
+    # Quests/EP2/ep2_dialogues4.rpy:1137
     old "Моника не проводила с моделями обнаженный кастинг"
     new "Monica did not hold nude casting with models"
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:1220
+    # Quests/EP2/ep2_dialogues4.rpy:1220
     old "Да, буду..."
     new "Yes, I have..."
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:1220
+    # Quests/EP2/ep2_dialogues4.rpy:1220
     old "Пока нет..."
     new "Not this time."
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:1277
+    # Quests/EP2/ep2_dialogues4.rpy:1277
     old "Переодеться."
     new "Change clothes."
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:1565
+    # Quests/EP2/ep2_dialogues4.rpy:1565
     old "Моника была груба к Алексу"
     new "Monica was rude to Alex"
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:1578
+    # Quests/EP2/ep2_dialogues4.rpy:1578
     old "Моника была добра к Алексу"
     new "Monica was kind to Alex"
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:1624
+    # Quests/EP2/ep2_dialogues4.rpy:1624
     old "Продолжить делать кадры. (corruption)"
     new "Continue taking shots... (corruption)"
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:1624
+    # Quests/EP2/ep2_dialogues4.rpy:1624
     old "Продолжить делать кадры. (low corruption, required [monicaBiffWorkPhotoShot1PervertCorruptionRequired]) (disabled)"
     new "Continue taking shots... (low corruption, required [monicaBiffWorkPhotoShot1PervertCorruptionRequired]) (disabled)"
 
-    # game/Quests/EP2/ep2_dialogues4.rpy:1624
+    # Quests/EP2/ep2_dialogues4.rpy:1624
     old "Прекратить это."
     new "Stop it."
+
+# TODO: Translation updated at 2019-08-29 19:18
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1655
+translate english monica_office_photostudio_alex_dialogue2_local1_c14450c7:
+
+    # m "Эй! Не вздумай заглядывать туда!!!"
+    # mt "Черт!!!"
+    m "Эй! Не вздумай заглядывать туда!!!"
+    mt "Черт!!!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1661
+translate english monica_office_photostudio_alex_dialogue2_local1_89b65137:
+
+    # alex_photograph "Мы закончили, Мэм!"
+    # "Хотите переодеться назад?"
+    alex_photograph "Мы закончили, Мэм!"
+    "Хотите переодеться назад?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1670
+translate english monica_office_photostudio_alex_dialogue2_local1_83504b00:
+
+    # m "Я не буду так сниматься!"
+    # m "Мы сделали достаточно кадров!"
+    # alex_photograph "Хотите переодеться назад?"
+    m "Я не буду так сниматься!"
+    m "Мы сделали достаточно кадров!"
+    alex_photograph "Хотите переодеться назад?"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1677
+translate english monica_office_photostudio_alex_dialogue2_local1_509dc425:
+
+    # mt "Вот еще! Теперь это мое платье!!!"
+    # "Я не собираюсь переодеваться в те тряпки!"
+    # "Ни за что!"
+    mt "Вот еще! Теперь это мое платье!!!"
+    "Я не собираюсь переодеваться в те тряпки!"
+    "Ни за что!"
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1682
+translate english monica_office_photostudio_alex_dialogue2_local1_1fdc7cc4:
+
+    # m "Нет, Алекс."
+    # "Мне понравилось это платье, я оставлю его."
+    # alex_photograph "Но Мэм..."
+    # "Платье, украшения..."
+    # "Это реквизит фотостудии и..."
+    m "Нет, Алекс."
+    "Мне понравилось это платье, я оставлю его."
+    alex_photograph "Но Мэм..."
+    "Платье, украшения..."
+    "Это реквизит фотостудии и..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1690
+translate english monica_office_photostudio_alex_dialogue2_local1_b37e2637:
+
+    # m "Алекс, достаточно."
+    # alex_photograph "Мэм..."
+    m "Алекс, достаточно."
+    alex_photograph "Мэм..."
+
+# game/Quests/EP2/ep2_dialogues4.rpy:1695
+translate english monica_office_photostudio_alex_dialogue2_local1_b62e51c4:
+
+    # mt "Итак, {c}надо вернуться к Бифу{/c}..."
+    mt "Итак, {c}надо вернуться к Бифу{/c}..."
 

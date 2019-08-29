@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:81
 translate english ep22_dialogues2_1_49727905:
@@ -1304,51 +1304,51 @@ translate english ep22_dialogue2_8_2_b9dd673e:
 
 translate english strings:
 
-    # game/Quests/EP2_02/ep22_dialogues2.rpy:298
+    # Quests/EP2_02/ep22_dialogues2.rpy:298
     old "Дотронуться до члена Фреда."
     new "Touch Fred's dick."
 
-    # game/Quests/EP2_02/ep22_dialogues2.rpy:330
+    # Quests/EP2_02/ep22_dialogues2.rpy:330
     old "Хорошо, я приду в прачечную в районе обеда."
     new "Okay, I'll be there at lunch time."
 
-    # game/Quests/EP2_02/ep22_dialogues2.rpy:330
+    # Quests/EP2_02/ep22_dialogues2.rpy:330
     old "Я не собираюсь делать этого!"
     new "I'm not doing it!"
 
-    # game/Quests/EP2_02/ep22_dialogues2.rpy:509
+    # Quests/EP2_02/ep22_dialogues2.rpy:509
     old "Мэм. Я считаю этот ковер необязательно нести в химчистку..."
     new "MA'am. I don't think the carpet has to be dry-cleaned..."
 
-    # game/Quests/EP2_02/ep22_dialogues2.rpy:520
+    # Quests/EP2_02/ep22_dialogues2.rpy:520
     old "Да, Мэм. Я буду тереть пятно каждый день. Его можно оттереть."
     new "Yes, Ma'am. I'll rub the stain every day. It can be removed."
 
-    # game/Quests/EP2_02/ep22_dialogues2.rpy:552
+    # Quests/EP2_02/ep22_dialogues2.rpy:552
     old "Мэм. Я должна отлучиться ненадолго. Затем я сразу же приступлю к работе. (Бетти недовольна. Сброс прогресса)"
     new "MA'am. I have to go away for a while. Then I'll get to work instantly. (Betty unhappy. Reset progress)"
 
-    # game/Quests/EP2_02/ep22_dialogues2.rpy:552
+    # Quests/EP2_02/ep22_dialogues2.rpy:552
     old "Да, Мэм. Я уже приступаю. (Опоздание к Дику)"
     new "Yes, MA'am. I'm starting. (Late arrival to Dick)"
 
-    # game/Quests/EP2_02/ep22_dialogues2.rpy:621
+    # Quests/EP2_02/ep22_dialogues2.rpy:621
     old "ТЕМ ВРЕМЕНЕМ..."
     new "MEANWHILE..."
 
-    # game/Quests/EP2_02/ep22_dialogues2.rpy:681
+    # Quests/EP2_02/ep22_dialogues2.rpy:681
     old "Коснуться члена Фреда язычком..."
     new "Touch Fred's cock with the tongue..."
 
-    # game/Quests/EP2_02/ep22_dialogues2.rpy:681
+    # Quests/EP2_02/ep22_dialogues2.rpy:681
     old "Нет времени на это..."
     new "No time for this..."
 
-    # game/Quests/EP2_02/ep22_dialogues2.rpy:724
+    # Quests/EP2_02/ep22_dialogues2.rpy:724
     old "Сделай это быстро..."
     new "Do it quickly..."
 
-    # game/Quests/EP2_02/ep22_dialogues2.rpy:724
+    # Quests/EP2_02/ep22_dialogues2.rpy:724
     old "Я ухожу..."
     new "I'm leaving..."
 

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2_02/ep22_photoshoot1.rpy:6
 translate english ep22_photoshoot1_026d0d89:
@@ -168,23 +168,23 @@ translate english corruption_required_9bce411b:
 
 translate english strings:
 
-    # game/Quests/EP2_02/ep22_photoshoot1.rpy:482
+    # Quests/EP2_02/ep22_photoshoot1.rpy:482
     old "Переодеться назад..."
     new "Change clothes back..."
 
-    # game/Quests/EP2_02/ep22_photoshoot1.rpy:482
+    # Quests/EP2_02/ep22_photoshoot1.rpy:482
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (corruption)"
     new "Be a good girl at Biff' casting... (corruption)"
 
-    # game/Quests/EP2_02/ep22_photoshoot1.rpy:482
+    # Quests/EP2_02/ep22_photoshoot1.rpy:482
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot1_casting_corruption_required]) (disabled)"
     new "Be a good girl at Biff' casting... (low corruption, required [photoshoot1_casting_corruption_required]) (disabled)"
 
-    # game/Quests/EP2_02/ep22_photoshoot1.rpy:519
+    # Quests/EP2_02/ep22_photoshoot1.rpy:519
     old "Притвориться цыпочкой..."
     new "Be a good girl..."
 
-    # game/Quests/EP2_02/ep22_photoshoot1.rpy:519
+    # Quests/EP2_02/ep22_photoshoot1.rpy:519
     old "Я не собираюсь никем притворяться!"
     new "I'm not going to act anymore!"
 

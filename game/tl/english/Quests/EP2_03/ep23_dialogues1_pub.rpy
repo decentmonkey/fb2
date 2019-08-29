@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:28
 translate english ep23_dialogues1_1_fa7c1042:
@@ -548,7 +548,7 @@ translate english ep23_dialogues1_3_e27228cb:
     # mt "АААААААА!!!"
     # "ДА Я ЧИЩЕ ЧЕМ ВЫ ВСЕ ВМЕСТЕ ВЗЯТЫЕ ЗДЕСЬ!!!"
     # "ЖАЛКИЕ НИЧТОЖЕСТВА!!!"
-    mt "ÀÀÀÀÀÀÀÀ!!!"
+    mt "АААААААА!!!"
     "I AM CLEANER THAN ANY OF YOU!!!"
     "PATHETIC NOBODIES!!!"
 
@@ -616,37 +616,37 @@ translate english ep23_dialogues1_4_ffa4f0a6:
     "I'm not spending anymore time than necessary as a miserable dishwasher!"
     "I am a Queen, not a dishwasher!"
 
-# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:443
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:441
 translate english ep23_dialogues1_4a2_f74d306a:
 
     # mt "Никогда бы не подумала что буду мыть посуду в подобной дыре..."
     mt "Never would have thought that I would be washing dishes in a hole like that."
 
-# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:445
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:443
 translate english ep23_dialogues1_4a2_22d6c1f8:
 
     # mt "Не могу поверить что я делаю это..."
     mt "I can't believe I'm doing this ..."
 
-# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:447
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:445
 translate english ep23_dialogues1_4a2_2e68cdf1:
 
     # mt "У меня ощущение что все это сон..."
     mt "I feel like I'm in a nightmare..."
 
-# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:449
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:447
 translate english ep23_dialogues1_4a2_c0da9282:
 
     # mt "Мне надо определенно что-то менять в этой ситуации... И как можно быстрее!"
     mt "I have to resolve my problems.. As soon as possible!"
 
-# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:469
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:466
 translate english ep23_dialogues1_4b_e270059d:
 
     # mt "Черт! Кажется, этот извращенец Джо пытается меня незаметно лапать!"
     mt "Damn! I think this pervert Joe tries to grope me!"
 
-# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:492
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:489
 translate english ep23_dialogues1_4b_9f3552aa:
 
     # m "Джо! Ты что-то хотел взять здесь?"
@@ -656,19 +656,19 @@ translate english ep23_dialogues1_4b_9f3552aa:
     joe "Yes, [monica_pub_name]!"
     "I need a clean beer mug."
 
-# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:498
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:495
 translate english ep23_dialogues1_4b_0ca6cf6c:
 
     # mt "Это место - действительно Shiny Hole с извращенцами!"
     mt "Shiny Hole... Definitely a hole... filled with perverts!"
 
-# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:519
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:516
 translate english ep23_dialogues1_4c_c74224c2:
 
     # mt "Черт! Эшли меня трогает за зад?!"
     mt "Is Ashley touching my ass?!"
 
-# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:542
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:539
 translate english ep23_dialogues1_4c_0b82904f:
 
     # m "Эшли! Ты что-то хотела взять здесь?"
@@ -678,7 +678,7 @@ translate english ep23_dialogues1_4c_0b82904f:
     ashley "I'm making sure that you are doing your job properly!"
     "Look! Dirt is everywhere!"
 
-# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:548
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:545
 translate english ep23_dialogues1_4c_81824821:
 
     # mt "О БОЖЕ!!!"
@@ -688,13 +688,13 @@ translate english ep23_dialogues1_4c_81824821:
     "Why do I have to tolerate such treatment?!"
     mt "Shiny Hole... Definitely a hole... filled with perverts!"
 
-# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:556
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:553
 translate english ep23_dialogues1_5_c9158df9:
 
     # mt "Все! Хватит! Я не собираюсь дальше портить руки моющими средствами!"
     mt "That’s it! Enough! Enough harming my beautiful hand skin with detergents!"
 
-# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:559
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:556
 translate english ep23_dialogues1_5_c27f5004:
 
     # m "Эшли, я помыла посуду... Где моя еда?"
@@ -704,13 +704,72 @@ translate english ep23_dialogues1_5_c27f5004:
     ashley "You didn’t do your job well and there are still unwashed dishes left."
     "Oh well, all right, go eat..."
 
-# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:572
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:569
 translate english ep23_dialogues1_5_582e6ecf:
 
     # mt "По крайней мере это действительно вкусная еда... По сравнению с кебабом..."
     # mt "И я честно заработала ее..."
     mt "At least this is actually delicious ... Compared to kebab ..."
     mt "And I've earned it honestly"
+
+translate english strings:
+
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:45
+    old "Зайти в бар."
+    new "Enter the bar"
+
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:131
+    old "Слушать их болтовню."
+    new "Listen to their chatter."
+
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:158
+    old "Мэрилин"
+    new "Marilyn"
+
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:163
+    old "Меня зовут..."
+    new "My name is..."
+
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:267
+    old "Да, я хочу устроиться на работу."
+    new "Yes, I'd like to work here."
+
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:337
+    old "Пожалуйста! Дайте хоть какую-то работу!"
+    new "Please! Let me work here!"
+
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:348
+    old "Я буду работать за еду..."
+    new "I will work for food ..."
+
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:423
+    old "Мыть посуду."
+    new "Wash the dishes."
+
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:467
+    old "Не обращать внимание... (corruption)"
+    new "Don't pay attention... (corruption)"
+
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:467
+    old "Не обращать внимание... (low corruption, required [monicaWashHoldJoeCorruption]) (disabled)"
+    new "Don't pay attention... (low corruption, required [monicaWashHoldJoeCorruption]) (disabled)"
+
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:467
+    old "Прекратить это!"
+    new "Stop it!"
+
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:517
+    old "Не обращать внимание... (low corruption, required [monicaWashHoldAshleyCorruption]) (disabled)"
+    new "Don't pay attention... (low corruption, required [monicaWashHoldAshleyCorruption]) (disabled)"
+
+# TODO: Translation updated at 2019-04-17 04:57
+
+translate english strings:
+
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:163
+    old "Меня зовут... (enter для ввода)"
+    new "My name is... (press enter to submit)"
+# TODO: Translation updated at 2019-07-17 02:25
 
 # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:583
 translate english ep23_dialogues1_6_dbc9525b:
@@ -882,71 +941,23 @@ translate english ep23_dialogues1_6b_50cd8115:
 
 translate english strings:
 
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:45
-    old "Зайти в бар."
-    new "Enter the bar"
-
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:131
-    old "Слушать их болтовню."
-    new "Listen to their chatter."
-
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:158
-    old "Мэрилин"
-    new "Marilyn"
-
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:163
-    old "Меня зовут... (enter для ввода)"
-    new "My name is... (press enter to submit)"
-
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:267
-    old "Да, я хочу устроиться на работу."
-    new "Yes, I'd like to work here."
-
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:337
-    old "Пожалуйста! Дайте хоть какую-то работу!"
-    new "Please! Let me work here!"
-
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:348
-    old "Я буду работать за еду..."
-    new "I will work for food ..."
-
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:423
-    old "Мыть посуду."
-    new "Wash the dishes."
-
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:423
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:423
     old "Заказать еду."
     new "Order the food"
 
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:470
-    old "Не обращать внимание... (corruption)"
-    new "Don't pay attention... (corruption)"
-
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:470
-    old "Не обращать внимание... (low corruption, required [monicaWashHoldJoeCorruption]) (disabled)"
-    new "Не обращать внимание... (low corruption, required [monicaWashHoldJoeCorruption]) (disabled)"
-
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:470
-    old "Прекратить это!"
-    new "Stop it!"
-
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:520
-    old "Не обращать внимание... (low corruption, required [monicaWashHoldAshleyCorruption]) (disabled)"
-    new "Не обращать внимание... (low corruption, required [monicaWashHoldAshleyCorruption]) (disabled)"
-
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:607
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:607
     old "Shiny Бургер."
     new "Shiny Burger."
 
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:607
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:607
     old "Спагетти."
     new "Spaghetti."
 
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:607
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:607
     old "Суп харчо."
     new "Soup kharcho."
 
-    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:679
+    # Quests/EP2_03/ep23_dialogues1_pub.rpy:679
     old "Моника часто мыла посуду."
     new "Monica washed dishes often."
 

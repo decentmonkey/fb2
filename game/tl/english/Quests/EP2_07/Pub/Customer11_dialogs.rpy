@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-08-29 19:03
 
 # game/Quests/EP2_07/Pub/Customer11_dialogs.rpy:5
 translate english customer11_1stmeeting_be9c1409:
@@ -42,7 +42,7 @@ translate english customer11_1stmeeting_158bb02d:
 translate english customer11_1stmeeting_6d6255db:
 
     # m "Спасибо."
-    m "Thank you."
+    m "Спасибо."
 
 # game/Quests/EP2_07/Pub/Customer11_dialogs.rpy:30
 translate english customer11_1stmeeting_b530bfe1:

@@ -13,6 +13,8 @@ label intro_questions:
             img 3367
             with fade
             help "Спасибо за ответы!"
+    m "here"
+    m "Последний вопрос. В чем Моника легла спать?"
     help "Последний вопрос. В чем Моника легла спать?"
     label .into_loop1:
         menu:

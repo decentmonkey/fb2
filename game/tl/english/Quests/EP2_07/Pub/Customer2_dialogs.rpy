@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-08-29 19:03
 
 # game/Quests/EP2_07/Pub/Customer2_dialogs.rpy:5
 translate english customer2_1stmeeting_8a4aac3a:
@@ -72,7 +72,7 @@ translate english customer2_1stmeeting_17b2d0bd:
 translate english customer2_1stmeeting_3bbc74af:
 
     # mt "Урод..."
-    mt "Jerk..."
+    mt "Урод..."
 
 # game/Quests/EP2_07/Pub/Customer2_dialogs.rpy:32
 translate english customer2_1stmeeting_9b84fdc7:

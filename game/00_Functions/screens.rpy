@@ -837,16 +837,17 @@ screen hud_minimap(minimapData):
                     xanchor 0.5
                     xysize (int(196 * gui.resolution.koeff), int(110 * gui.resolution.koeff))
                     padding (0,0)
-                    $ imgName = get_image_filename(miniMapOpenButtonImg + res.suffix)
-                    add imgName
+                    action [
+                        Call("miniMapOpen")
+                    ]
+#                        imgName = get_image_filename(miniMapOpenButtonImg + res.suffix)
+                    add get_image_filename(miniMapOpenButtonImg + res.suffix)
                     text "":
                         xanchor 0.5
                         xpos 0.465
                         ypos 0.5
                         style "minimap_open_button_text"
-                    action [
-                        Call("miniMapOpen")
-                    ]
+#                    action Call("miniMapOpen")
             else:
                 vbox:
                     button:

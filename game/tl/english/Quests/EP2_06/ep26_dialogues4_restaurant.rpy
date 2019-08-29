@@ -1,4 +1,244 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-07-02 18:59
+
+# game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:16
+translate english ep26_dialogues4_restaurant1_c0b8d7d0:
+
+    # reception "Женщина, постойте-ка!"
+    # m "Что Вам надо?!"
+    # reception "Мэм, какая цель Вашего визита сюда?"
+    # m "Это не Ваше дело!"
+    # m "Я посещаю любые места когда захочу."
+    # m "И не собираюсь отчитываться ни перед кем!"
+    # reception "Мэм, это мое дело, как сотрудника отеля."
+    # reception "У нас есть подозрение на незаконное занятие проституцией."
+    # reception "Это запрещено в нашем отеле!"
+    # m "ЧТО?!"
+    # m "Да как ты смеешь, никчемный работник!?"
+    # m "Я приличная Леди!"
+    # m "И иду отведать ланч в Вашем ресторане!"
+    # m "По приглашению!"
+    # reception "Мэм, пожалуйста, предъявите доказательства того, что Вы собираетесь посетить ресторан."
+    # reception "И Ваше приглашение."
+    # reception "Иначе я вынуждена буду вызвать охрану."
+    reception "Wait a minute, Ma'am!"
+    m "What do you want?!"
+    reception "What's purpose of your visit?"
+    m "None of your business."
+    m "I can visit any place I want."
+    m "And no one is telling me what to do!"
+    reception "Ma'am, it's my job as this hotel's receptionist."
+    reception "I suspect that you are an illegal prostitute."
+    reception "It is prohibited in our hotel!"
+    m "WHAT?!"
+    m "How dare you, useless clerk!"
+    m "I'm respectable lady!"
+    m "I'm visiting to eat a lunch!"
+    m "I have an invitation!"
+    reception "Ma'am, please show me the proof."
+    reception "Please, show me your invitation."
+    reception "Or I'll be forced to call guards."
+
+# game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:42
+translate english ep26_dialogues4_restaurant1_a99f0ac9:
+
+    # m "Абсолютно не понимаю необходимость этого ненужного действия."
+    # m "Но вот, пожалуйста!"
+    # m "Если уж Вам так надо!"
+    # reception "..."
+    m "I don’t understand the reason of this useless actions."
+    m "Here, take it!"
+    m "If you want it so much!"
+    reception "..."
+
+# game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:55
+translate english ep26_dialogues4_restaurant1_8f40ab44:
+
+    # m "Доказательства?!"
+    # m "У меня достаточно денег, чтобы скупить весь этот дурацкий отель!"
+    # reception "..."
+    # m "Поверь, я уже все всем доказала в этой жизни!"
+    # m "И, если тебе кажется, что в этом есть необходимость, то можешь ходить за мной и следить."
+    # m "Однако, если твоя цель преследования меня получить чаевые от такой леди как Я, то ты выбрала неверный путь!"
+    # m "А сейчас, уйди с дороги, пока я по настоящему не разозлилась!"
+    # reception "..."
+    m "Proof?"
+    m "I have enough money to buy your whole stupid hotel!"
+    reception "..."
+    m "Believe me, I've proven everything in this life to anyone already!"
+    m "You can follow and observe me if you want."
+    m "But if you are trying to get tips from a lady like me, you made a mistake!"
+    m "And now, get out of my way, before I really got mad!"
+    reception "..."
+
+# game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:66
+translate english ep26_dialogues4_restaurant1_eca75734:
+
+    # m "Я не собираюсь предъявлять каких-то дурацких доказательств!"
+    # m "Я ухожу!"
+    # m "Но я еще вернусь!"
+    # m "И устрою неприятности такому нерадивому и никчемному сотруднику, как Вы!"
+    m "I'm not giving you any proof!"
+    m "I'm leaving!"
+    m "But I'll be back!"
+    m "And when I'm back, you will regret everything that just happened!"
+
+# game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:81
+translate english ep26_dialogues4_restaurant2_f1871896:
+
+    # reception "Мэм! Пожалуйста, назовите цель Вашего визита."
+    # m "Я иду в ресторан!"
+    # reception "Хорошо, Мэм."
+    reception "Ma'am, please tell me your visit's purpose."
+    m "I'm going to the restaurant!"
+    reception "All right, Ma'am."
+
+# game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:94
+translate english ep26_dialogues4_restaurant3_7af2cf35:
+
+    # waitress "Здравствуйте, Мэм!"
+    # waitress "Это... Это ВЫ?!"
+    # m "Да, это Я!"
+    # m "Удивительно, что ты все еще работаешь здесь!"
+    # waitress "Мэм... Что Вам будет угодно?!"
+    # m "Этот ресторан не дотягивает до моих требований."
+    # m "Но я, так уж и быть, соблаговолю откушать здесь."
+    # waitress "Да, Мэм..."
+    # waitress "Присаживайтесь, пожалуйста, за свободный столик."
+    # waitress "Мэм, Что Вам будет угодно?"
+    waitress "Good day, Ma'am!"
+    waitress "It's... It's YOU!"
+    m "Yes, it's ME!"
+    m "Surprisingly you still work here."
+    waitress "What would you like, Ma'am?"
+    m "This restaurant is not up to my standards..."
+    m "But I'm in a good mood today to eat even in a place like this one."
+    waitress "Yes, Ma'am..."
+    waitress "Please, take a seat, there are vacant tables."
+    waitress "What would you like?"
+
+# game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:116
+translate english ep26_dialogues4_restaurant3_19eae6e4:
+
+    # m "В этом дурацком ресторане нет нормальной еды для такой леди как Я!"
+    # m "Я ухожу!"
+    # waitress "!!!"
+    m "This stupid restaurant doesn't have suitable food for the lady like myself."
+    m "I'm leaving!"
+    waitress "!!!"
+
+# game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:122
+translate english ep26_dialogues4_restaurant3_cd835712:
+
+    # m "Я оплачу этим сертификатом"
+    # waitress "Да, Мэм. Несколько минут и все будет готово."
+    # m "Я советую тебе поторопиться, деточка."
+    # m "Если ты не хочешь вылететь с работы прямо сейчас!"
+    # waitress "Пожалуйста, Мэм."
+    # m "Ммммм... Как вкусно..."
+    # m "Я уже отвылка от такой вкусной пищи."
+    # m "А зря!"
+    # m "Надо скорее возвращать назад мою прежнюю жизнь!"
+    # m "Я закончила."
+    # m "Было невкусно!"
+    # waitress "Мэм, прошу прощения."
+    # waitress "В следующий раз мы постараемся угодить Вам..." 
+    m "I'll pay with this ticket."
+    waitress "Yes, Ma'am. Everything will be ready in few minutes."
+    m "Hurry up, darling."
+    m "If you want to keep your job."
+    waitress "Please, Ma'am."
+    m "Mmmm... so great..."
+    m "I've grown unaccustomed to good food already."
+    m "That's not how it should be!"
+    m "I have to get back my old life soon!"
+    m "I'm done."
+    m "Food was awful!"
+    waitress "We are very sorry, Ma'am."
+    waitress "We will try better next time..." 
+
+# game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:160
+translate english ep26_dialogues4_restaurant4_908d8f6b:
+
+    # waitress "Здравствуйте, Мэм!"
+    # waitress "Это... Это ВЫ?!"
+    # m "Да, это Я!"
+    # waitress "Мэм... Я очень рада видеть Вас!"
+    # waitress "И тепло приветствую Вас от имени заведения!"
+    # m "Спасибо."
+    # m "Я бы хотела у Вас что-нибудь поесть."
+    # waitress "Да, Мэм."
+    # waitress "Присаживайтесь, пожалуйста, за свободный столик." 
+    # waitress "Мэм, что Вам будет угодно?"
+    # waitress "Специально для Вас у нас скидка 50 процентов на все меню."
+    waitress "Good day, Ma'am!"
+    waitress "It's... It's YOU!"
+    m "Yes, it's ME!"
+    waitress "Ma'am... I'm glad to see you!"
+    waitress "Please, accept warm welcomes from our restaurant."
+    m "Thank you."
+    m "I would like to have something to eat."
+    waitress "Yes, Ma'am."
+    waitress "Please, take a seat, there are vacant tables." 
+    waitress "Ma'am, what would you like?"
+    waitress "Specifically for you, we have a 50 percent discount on all our menu."
+
+# game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:181
+translate english ep26_dialogues4_restaurant4_c6b5f13a:
+
+    # m "Спасибо, я передумала. Зайду попозже."
+    # waitress "Мэм, мы всегда ждем Вас!"
+    m "Thanks, I've reconsidered. I'll come back later."
+    waitress "We are always glad to see you!"
+
+# game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:187
+translate english ep26_dialogues4_restaurant4_8ab2f12b:
+
+    # waitress "Я оплачу сертификатом."
+    # waitress "Да, Мэм."
+    # waitress "Несколько минут и все будет готово."
+    # waitress "Пожалуйста, Мэм."
+    # m "Ммммм... Как вкусно..."
+    # m "Я уже отвылка от такой вкусной пищи."
+    # m "А зря!"
+    # m "Надо скорее возвращать назад мою прежнюю жизнь!"
+    # m "Я закончила."
+    # m "Было очень вкусно. Спасибо!"
+    # waitress "Мэм, добро пожаловать к нам снова!"
+    waitress "I'll use this meal ticket."
+    waitress "Yes, Ma'am."
+    waitress "Couple of minutes and all will be ready."
+    waitress "Please, Ma'am."
+    m "Mmmm... so great..."
+    m "I've grown unaccustomed to good food already."
+    m "That's not how it should be!"
+    m "I have to get back my old life soon!"
+    m "I'm done."
+    m "Food was very delicious, thank you."
+    waitress "Welcome again, Ma'am."
+
+# game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:211
+translate english ep26_dialogues4_restaurant5_e20d3132:
+
+    # mt "Я уже посещала ресторан сегодня."
+    # mt "Больше мне пока нечего там делать."
+    mt "I've already visited restaurant today."
+    mt "Have nothing more to do there."
+
+translate english strings:
+
+    # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:38
+    old "Показать сертификат."
+    new "Show a certificate."
+
+    # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:38
+    old "Показать сертификат. (disabled)"
+    new "Show a certificate. (disabled)"
+
+    # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:38
+    old "Устроить скандал и войти"
+    new "Make a scene and enter the room."
+
+# TODO: Translation updated at 2019-07-17 02:25
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:30
 translate english ep26_dialogues4_restaurant1_f2888de6:
@@ -406,14 +646,6 @@ translate english ep26_dialogues4_restaurant4_9329aedf:
     # m "Суши и сок."
     m "Sushi and a juice."
 
-# game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:426
-translate english ep26_dialogues4_restaurant4_c6b5f13a:
-
-    # m "Спасибо, я передумала. Зайду попозже."
-    # waitress "Мэм, мы всегда ждем Вас!"
-    m "Thanks, I've reconsidered. I'll come back later."
-    waitress "We are always glad to see you!"
-
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:437
 translate english ep26_dialogues4_restaurant4_6b0296a8:
 
@@ -470,49 +702,29 @@ translate english ep26_dialogues4_restaurant4_5452fc04:
     m "Food was very delicious, thank you."
     waitress "Welcome again, Ma'am."
 
-# game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:516
-translate english ep26_dialogues4_restaurant5_e20d3132:
-
-    # mt "Я уже посещала ресторан сегодня."
-    # mt "Больше мне пока нечего там делать."
-    mt "I've already visited restaurant today."
-    mt "Have nothing more to do there."
-
 translate english strings:
 
-    # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:72
-    old "Показать сертификат."
-    new "Show a certificate."
-
-    # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:72
-    old "Показать сертификат. (disabled)"
-    new "Show a certificate. (disabled)"
-
-    # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:72
-    old "Устроить скандал и войти"
-    new "Make a scene and enter the room."
-
-    # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:176
+    # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:176
     old "У Моники плохие отношения с официанткой."
     new "Monica has a bad relationship with the waitress"
 
-    # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:216
+    # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:216
     old "Стейк из форели, греческий салат и шампанское."
     new "Trout steak, greek salad and champagne."
 
-    # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:216
+    # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:216
     old "Морепродукты и коктейль."
     new "Seafood and cocktail."
 
-    # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:216
+    # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:216
     old "Лазанья с кофе."
     new "Lasagne with a coffee"
 
-    # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:216
+    # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:216
     old "Суши и сок."
     new "Sushi and a juice."
 
-    # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:363
+    # Quests/EP2_06/ep26_dialogues4_restaurant.rpy:363
     old "У Моники хорошие отношения с официанткой."
     new "Monica has a good relationship with the waitress"
 

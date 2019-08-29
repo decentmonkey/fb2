@@ -1,18 +1,18 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-05-21 02:20
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:8
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:4
 translate english cit1_dialog_1_cbb7c6cb:
 
     # m "Пожалуйста, рассмотрите покупку этого красивого платья..."
     m "Please, consider buying this beautiful dress..."
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:12
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:6
 translate english cit1_dialog_1_fe1d4f4d:
 
     # cit1 "Ой уйди, не до тебя сейчас... Я забыл как убить Супермена... Какой то камень криптошит или магманит..."
     cit1 "Go away, I don’t have time for you... Forgot what was Superman's weakness... Was it kryptolite or kryptotite..."
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:14
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:8
 translate english cit1_dialog_1_f9f42170:
 
     # m "Но Вы даже не знаете, что я предлагаю, послушайте меня."
@@ -20,13 +20,13 @@ translate english cit1_dialog_1_f9f42170:
     m "But you don’t even know what I'm offering!"
     cit1 "I told you that I'm not interested, bye!"
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:24
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:14
 translate english cit1_dialog_2_cbb7c6cb:
 
     # m "Пожалуйста, рассмотрите покупку этого красивого платья..."
     m "Please, consider buying this beautiful dress..."
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:27
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:16
 translate english cit1_dialog_2_0055e18c:
 
     # cit1 "Что?"
@@ -36,13 +36,13 @@ translate english cit1_dialog_2_0055e18c:
     m "I'm offering you to buy this dress."
     cit1 "What dress?"
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:33
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:20
 translate english cit1_dialog_2_48234540:
 
     # mt "Что за идиот..."
     mt "What an idiot..."
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:35
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:22
 translate english cit1_dialog_2_40bc54e0:
 
     # m "Вот это, оно надето на мне."
@@ -52,7 +52,7 @@ translate english cit1_dialog_2_40bc54e0:
     cit1 "Hmm... That's interesting... Hey, lady, are you working here?"
     m "Of course, I'm selling you a dress, am I not?"
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:40
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:26
 translate english cit1_dialog_2_89c35851:
 
     # cit1 "Как то это все очень подозрительно... А где Ваш бейдж?"
@@ -62,7 +62,7 @@ translate english cit1_dialog_2_89c35851:
     m "You see, I'm only working here part-time. I don’t have one."
     cit1 "Hmm.... So you are not an employee here then? Who are you?"
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:56
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:35
 translate english cit1_dialog_2_664febad:
 
     # m "Я... Я работаю здесь манекеном."
@@ -70,7 +70,7 @@ translate english cit1_dialog_2_664febad:
     m "I'm... I'm working here as a mannequin..."
     cit1 "Great, I'll take a closer look."
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:72
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:47
 translate english cit1_dialog_2_58866c7d:
 
     # cit1 "Эй, похоже ты бракованый манекен! Манекены не двигаются!"
@@ -78,19 +78,19 @@ translate english cit1_dialog_2_58866c7d:
     cit1 "Hey, looks like there is a defect. Mannequins don’t move!"
     cit1 "Rise your hands up!"
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:83
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:54
 translate english cit1_dialog_2_020b3dff:
 
     # m "Нет, Мистер!"
     m "No, Mister!"
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:91
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:58
 translate english cit1_dialog_2_07c840d2:
 
     # cit1 "Какой хороший манекен!"
     cit1 "What a nice mannequin!"
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:105
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:66
 translate english cit1_dialog_2_273b940e:
 
     # cit1 "Черт, совсем забыл, надо успеть в мой любимый магазин комиксов! Еще увидимся, манекен!"
@@ -98,13 +98,13 @@ translate english cit1_dialog_2_273b940e:
     cit1 "Damn, almost forgot. I have to go to my favorite comic-book store. See you, mannequin!"
     mt "How dare he talk like that! Damn geek..."
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:114
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:72
 translate english cit1_dialog_3_cbb7c6cb:
 
     # m "Пожалуйста, рассмотрите покупку этого красивого платья..."
     m "Please, consider buying this beautiful dress..."
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:117
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:74
 translate english cit1_dialog_3_074adcde:
 
     # cit1 "О, манекен! Да, давай рассмотрю..."
@@ -114,27 +114,27 @@ translate english cit1_dialog_3_074adcde:
     cit1 "Freeze!"
     m "Why? I think you can see dress just like that."
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:121
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:78
 translate english cit1_dialog_3_ef3633cf:
 
     # cit1 "А ну помолчи! Манекены не двигаются и не говорят."
     cit1 "Stay silent! Mannequins don’t move or talk!"
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:126
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:81
 translate english cit1_dialog_3_52b48c26:
 
     # m "Эй! Что ты делаешь?"
     m "Hey! What are you doing?"
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:129
-translate english cit1_dialog_3_98cbf962:
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:83
+translate english cit1_dialog_3_cc0e12f6:
 
     # cit1 "А что, непонятно? Оцениваю товар."
     # cit1 "Ты же хочешь, чтобы я купил платье?"
     cit1 "What? I'm evaluating the goods."
     cit1 "Do you want me to buy it?"
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:140
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:90
 translate english cit1_dialog_3_f50dd28e:
 
     # m "Нет, это уже слишком...Хватит с меня!"
@@ -144,7 +144,7 @@ translate english cit1_dialog_3_f50dd28e:
     m "Get out of here!!"
     cit1 "Arghh!! Broken mannequin!!"
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:149
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:96
 translate english cit1_dialog_3_e0de1982:
 
     # m "Ну...да..."
@@ -152,13 +152,13 @@ translate english cit1_dialog_3_e0de1982:
     m "Well... yes..."
     cit1 "Great. Now shut up and don’t move."
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:169
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:110
 translate english cit1_dialog_3_9cb260cd:
 
     # cit1 "Оу... Какой приятный запах! Странно, откуда он у манекена..."
     cit1 "Woah.. What a nice smelling mannequin..."
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:184
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:117
 translate english cit1_dialog_3_95fb9af9:
 
     # m "Это уже слишком! Что ты себе позволяешь?"
@@ -166,13 +166,13 @@ translate english cit1_dialog_3_95fb9af9:
     m "That's enough! What do you think you are doing?"
     cit1 "Arghh!! Broken mannequin!!"
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:203
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:129
 translate english cit1_dialog_3_8ccf1dd5:
 
     # cit1 "Очень хорошо, хотел бы я такого манекена себе домой!"
     cit1 "Very good, I'd like a mannequin like that at home."
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:211
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:132
 translate english cit1_dialog_3_12a3963d:
 
     # m "Вам все понравилось? Вы готовы купить это замечательное платье?"
@@ -180,19 +180,19 @@ translate english cit1_dialog_3_12a3963d:
     m "Did you like it? Will you buy the dress?"
     cit1 "Yes, I liked everything!"
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:215
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:135
 translate english cit1_dialog_3_aadc66ae:
 
     # m "Пройдем на кассу?"
     m "Let's move to the cash out?"
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:218
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:137
 translate english cit1_dialog_3_4b1527a4:
 
     # cit1 "Зачем? У меня все равно нет денег, а ты отличный манекен!"
     cit1 "Why? I don’t have money anyways! You are such a great mannequin!"
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:222
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:139
 translate english cit1_dialog_3_4963c464:
 
     # m "Ах ты... Да ты меня всю облапал!"
@@ -200,7 +200,7 @@ translate english cit1_dialog_3_4963c464:
     m "You... You felt me up!"
     cit1 "Well, you were the one offering to examine the goods. Dress is so so by the way."
 
-# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:226
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:142
 translate english cit1_dialog_3_6dee84c2:
 
     # m "Урод!"
@@ -208,19 +208,27 @@ translate english cit1_dialog_3_6dee84c2:
 
 translate english strings:
 
-    # game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:76
+    # Quests/EP2_05/Shop/Citizen1_Dialog.rpy:49
     old "Да, конечно..."
     new "Yes, of course..."
 
-    # game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:76
+    # Quests/EP2_05/Shop/Citizen1_Dialog.rpy:49
     old "Нет, Мистер!"
     new "No, Mister!"
 
-    # game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:133
+    # Quests/EP2_05/Shop/Citizen1_Dialog.rpy:85
     old "Нет, это уже слишком..."
     new "No, that’s too much..."
 
-    # game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:178
+    # Quests/EP2_05/Shop/Citizen1_Dialog.rpy:112
     old "Позволить клиенту продолжить."
     new "Let customer to continue..."
+# TODO: Translation updated at 2019-06-07 11:05
 
+# game/Quests/EP2_05/Shop/Citizen1_Dialog.rpy:129
+translate english cit1_dialog_3_98cbf962:
+
+    # cit1 "А что, непонятно? Оцениваю товар."
+    # cit1 "Ты же хочешь, чтобы я купил платье?"
+    cit1 "What? I'm evaluating the goods."
+    cit1 "Do you want me to buy it?"

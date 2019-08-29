@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2019-08-29 19:05
 
 # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:13
 translate german ep27_dialogues4_biff1_915eb37e:
@@ -37,7 +37,7 @@ translate german ep27_dialogues4_biff1_ccaced44:
 
     # m "Мне..." 
     # m "Мне нравится, Бифф..."
-    m "Ich bin..." 
+    m "Мне..." 
     m "Мне нравится, Бифф..."
 
 # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:31
@@ -161,8 +161,8 @@ translate german ep27_dialogues4_biff1_8f05d8c7:
 
     # secretary "Да, Мистер Биф?" 
     # secretary "Чем могу быть Вам полезна?"
-    secretary "Ja, Biff?" 
-    secretary "Wie kann ich behilflich sein?"
+    secretary "Да, Мистер Биф?" 
+    secretary "Чем могу быть Вам полезна?"
 
 # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:97
 translate german ep27_dialogues4_biff1_3ff8fa0f:
@@ -206,7 +206,7 @@ translate german ep27_dialogues4_biff2_18167f73:
     mt "Он все время называет меня либо цыпочкой, либо двадцатидолларовой шлюхой!"
     mt "Каждый раз, когда я это слышу, мне хочется прибить его!"
     mt "Долго он еще будет сидеть в моем кресле?!"
-    mt "IN MEINEM!"
+    mt "В МОЕМ!"
     mt "КРЕСЛЕ!"
     mt "..."
     mt "Либо я скоро верну все назад, либо точно прибью его..."
@@ -222,7 +222,7 @@ translate german ep27_dialogues4_biff3_edb91a5f:
 translate german ep27_dialogues4_biff3_abb1557e:
 
     # secretary "Да, Миссис Бакфетт?"
-    secretary "Ja, Frau Buckfett?"
+    secretary "Да, Миссис Бакфетт?"
 
 # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:132
 translate german ep27_dialogues4_biff3_950938bb:
@@ -271,8 +271,8 @@ translate german ep27_dialogues4_biff3_9bb8a634:
 
     # secretary "Мистер Биф знает что для нас лучше..."
     # secretary "Мистер Биф заботится о нас..."
-    secretary "Biff weiß, was für uns am Besten ist..."
-    secretary "Herr Biff kümmert sich um uns..."
+    secretary "Мистер Биф знает что для нас лучше..."
+    secretary "Мистер Биф заботится о нас..."
 
 # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:157
 translate german ep27_dialogues4_biff3_63253b7b:
@@ -330,7 +330,7 @@ translate german ep27_dialogues4_biff5_54064a1a:
     # biff "Хорошая цыпочка должна развлечь папочку." 
     # biff "Кто сегодня цыпочка?"
     biff "Хорошая цыпочка должна развлечь папочку." 
-    biff "Wer ist das Chick heute Abend?"
+    biff "Кто сегодня цыпочка?"
 
 # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:207
 translate german ep27_dialogues4_biff5_73771fb7:
@@ -393,7 +393,7 @@ translate german ep27_dialogues4_biff5_7726c9ff:
 
     # biff "Хорошо, цыпочка." 
     # biff "Продолжай вести себя хорошо."
-    biff "Okay, Mädchen." 
+    biff "Хорошо, цыпочка." 
     biff "Продолжай вести себя хорошо."
 
 # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:260
@@ -458,7 +458,7 @@ translate german ep27_dialogues4_biff7_ebd2007c:
 translate german ep27_dialogues4_biff7_4940ba45:
 
     # m "Да, Биф..." 
-    m "Ja, Biff..." 
+    m "Да, Биф..." 
 
 # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:308
 translate german ep27_dialogues4_biff8_6b3ee9de:

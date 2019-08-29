@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2019-01-14 00:27
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:124
 translate german ep22_dialogues5_0a_5932acdd:
@@ -243,7 +243,7 @@ translate german ep22_dialogues5_2_06023181:
     dick_secretary "Schau in die Kamera und grinse."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:282
-translate german ep22_dialogues5_2_d12f24bd:
+translate german ep22_dialogues5_2_6246afc5:
 
     # dick_secretary "Ну же! Смелее!"
     # dick_secretary "Вы просите меня о помощи и даже не хотите улыбнуться мне?"
@@ -351,8 +351,8 @@ translate german ep22_dialogues5_2_97fcf3b8:
 # game/Quests/EP2_02/ep22_dialogues5.rpy:371
 translate german ep22_dialogues5_2_6d210b4d:
 
-    # dick_secretary "Сегодня..." 
-    dick_secretary "Heute..." 
+    # dick_secretary "Сегодня..."
+    dick_secretary "Heute..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:373
 translate german ep22_dialogues5_2_537bc0e8:
@@ -363,8 +363,8 @@ translate german ep22_dialogues5_2_537bc0e8:
 # game/Quests/EP2_02/ep22_dialogues5.rpy:375
 translate german ep22_dialogues5_2_d1cf2caa:
 
-    # dick_secretary "Завтра..." 
-    dick_secretary "Morgen..." 
+    # dick_secretary "Завтра..."
+    dick_secretary "Morgen..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:378
 translate german ep22_dialogues5_2_772c4685:
@@ -953,8 +953,8 @@ translate german ep22_dialogues5_7_79b5b8f4:
 # game/Quests/EP2_02/ep22_dialogues5.rpy:847
 translate german ep22_dialogues5_7_61ff459c:
 
-    # "Вот..." 
-    "Eine Sekunde..." 
+    # "Вот..."
+    "Eine Sekunde..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:849
 translate german ep22_dialogues5_7_6f19259c:
@@ -973,8 +973,8 @@ translate german ep22_dialogues5_7_d97faaf2:
 # game/Quests/EP2_02/ep22_dialogues5.rpy:855
 translate german ep22_dialogues5_7_01bc1142:
 
-    # m "ЧТОООООО???" 
-    m "WAAAAAAS???" 
+    # m "ЧТОООООО???"
+    m "WAAAAAAS???"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:858
 translate german ep22_dialogues5_7_4b17ca1b:
@@ -1001,7 +1001,7 @@ translate german ep22_dialogues5_7_679ccd60:
     "Oh mein Gott!!!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:871
-translate german ep22_dialogues5_7_fb6bfa58:
+translate german ep22_dialogues5_7_0f4560a6:
 
     # mt "У меня нет выбора и нет времени искать другие варианты..."
     # "Похоже единственный путь к спасению - поцеловать каблук этой сучки Виктории..."
@@ -1638,9 +1638,9 @@ translate german ep22_dialogues5_9_329034b5:
 translate german ep22_dialogues5_9_a698195d:
 
     # dick_secretary "Нет проблем, Миссис Бакфетт!"
-    # "Просто купите в интернете сертификат на это имя и адрес email..." 
+    # "Просто купите в интернете сертификат на это имя и адрес email..."
     dick_secretary "Kein Problem, Frau Buckfett!"
-    "Kaufe einfach einen Gutschein im Internet und nutze dabei diesen Namen und diese Adresse..." 
+    "Kaufe einfach einen Gutschein im Internet und nutze dabei diesen Namen und diese Adresse..."
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1338
 translate german ep22_dialogues5_9_a7e40015:
@@ -1686,6 +1686,653 @@ translate german ep22_dialogues5_9a_530d7415:
     "Ich bin sicher, Dick kann ihr nicht widerstehen..."
     "Ich will mir nur gar nicht ausmalen, was es mich kosten würde, sie zu überuegen, mir zu helfen..."
 
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1368
+translate german ep22_dialogues5_10_a9a121ce:
+
+    # dick_secretary "Я собираюсь в пятницу заняться шопингом..."
+    # "Миссис Бакфетт! Вы не забыли про нашу дружбу?"
+    dick_secretary "Ich gehe Freitag shoppen..."
+    "Frau Buckfett! Hast du unserer Freundschaft vergessen?"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1371
+translate german ep22_dialogues5_10_f882c901:
+
+    # m "Мисс Виктория... Я не забыла про нашу дружбу..."
+    # "Деньги будут вовремя..."
+    m "Frau Victoria... das habe ich nicht..."
+    "Das Geld wird rechtzeitig da sein..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1375
+translate german ep22_dialogues5_10_c1762657:
+
+    # dick_secretary "Хорошая подружка, можешь идти..."
+    dick_secretary "Gute Freundin, du darfst gehen..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1383
+translate german ep22_dialogues5_11_6e808278:
+
+    # dick_secretary "Миссис Бакфетт!"
+    # "Я собираюсь скоро на шопинг!"
+    # "Надеюсь сертификат будет на месте!"
+    # "А сейчас мне не до Вас! Извините!"
+    dick_secretary "Frau Buckfett..."
+    "Bald gehe ich shoppen!"
+    "Ich hoffe, der Gutschein ist rechtzeitig da!"
+    "Und jetzt habe ich keine Zeit mehr für dich! Sorry!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1395
+translate german ep22_dialogues5_12_65356311:
+
+    # dick_secretary "Миссис Бакфетт!"
+    # "Вы просрочили деньги!"
+    # m "Мисс Виктория... Я... Честно..."
+    dick_secretary "Frau Buckfett..."
+    "Du bist überfällig!"
+    m "Frau Victoria... Ich bin... Ehrlich gesagt..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1401
+translate german ep22_dialogues5_12_35997325:
+
+    # dick_secretary "Вы поставили меня в неудобное положение!"
+    # dick_secretary "Теперь Вам надо лизать прощение!"
+    # m "Я прошу прощения, Миссис Виктория..."
+    dick_secretary "Du bringst mich in eine komplizierte Situation!"
+    dick_secretary "Jetzt musst du um Vergebung lecken!"
+    m "Tut mir leid, Frau Victoria..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1408
+translate german ep22_dialogues5_12_c693c2fc:
+
+    # dick_secretary "Лижите прощение, Миссис Бакфетт!"
+    dick_secretary "Lecke um Vergebung, Frau Buckfett!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1410
+translate german ep22_dialogues5_12_ea3a9c59:
+
+    # m "ЧТО????"
+    m "Was????"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1412
+translate german ep22_dialogues5_12_1118caea:
+
+    # dick_secretary "Давайте скорее!"
+    # "А то Вам придется лизать это прощение на глазах Мистера Дика!"
+    dick_secretary "Beeil dich!"
+    "Du musst vor Dick um Vergebung lecken!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1416
+translate german ep22_dialogues5_12_849d4cf6:
+
+    # mt "О БОЖЕ!!!"
+    mt "Oh mein Gott!!!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1418
+translate german ep22_dialogues5_12_96bb3db8:
+
+    # "МНЕ?!?! ЦЕЛОВАТЬ У НЕЕ?!?!"
+    # "ЭТО МЕСТО?!?!"
+    "ICH?!?! SIE KÜSSEN?!?!"
+    "AN DIESEM ORT?!?!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1423
+translate german ep22_dialogues5_12_58991361:
+
+    # mt "СНОВА?!?!?"
+    mt "WIEDER?!?!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1427
+translate german ep22_dialogues5_12_9d39e49d:
+
+    # mt "Меня сейчас стошнит!!!"
+    mt "Mir wird schlecht!!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1429
+translate german ep22_dialogues5_12_3ac5db19:
+
+    # dick_secretary "Давайте скорее!"
+    # "И не забудьте!"
+    # "Вы не имеете доступа к моей киске!"
+    # "Лизать прощение надо там куда я показываю пальцем!"
+    # "Это мой зад!"
+    # "Учитесь хорошенько лизать его!"
+    dick_secretary "Beeil dich!"
+    "Vergiss nicht!"
+    "Du hast keinen Zugang zu meiner Pussy!"
+    "Du must da um Vergebung lecken, wo ich mit meinem Finger hin deute!"
+    "Das ist mein Arsch!"
+    "Lerne, ihn gut zu lecken!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1449
+translate german ep22_dialogues5_12_ee318f94:
+
+    # mt "У меня нет выбора!"
+    # "Это лучше чем оказаться в руках у Маркуса!"
+    # "Страшная цена свободы, Моника!"
+    mt "Ich habe keine Wahl!"
+    "Es ist besser, als in den Händen von Marcus zu sein!"
+    "Der schreckliche Preis der Freiheit, Monica!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1453
+translate german ep22_dialogues5_12_e19a9097:
+
+    # "Мне придется ее заплатить..."
+    # "(хмык)"
+    "Ich muss dafür teuer bezahlen..."
+    "(schnief)"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1468
+translate german ep22_dialogues5_12_58e443e1:
+
+    # dick_secretary "Миссис Бакфетт!!!"
+    dick_secretary "Frau Buckfett!!!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1470
+translate german ep22_dialogues5_12_17b79c6d:
+
+    # m "Мммммпххфф!!!"
+    m "Mmmmhhh!!!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1473
+translate german ep22_dialogues5_12_9b6a65ea:
+
+    # dick_secretary "Вы так не добудете прощения!"
+    dick_secretary "So werde ich dir nicht vergeben!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1475
+translate german ep22_dialogues5_12_c210ce5a:
+
+    # dick_secretary "Вы уже вылизали мне весь зад до блеска!"
+    dick_secretary "Du hast meinen Arsch bereits in Perfektion geleckt!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1477
+translate german ep22_dialogues5_12_842af8b7:
+
+    # dick_secretary "Но Ваше прощение находится не вокруг моей попки, а внутри нее!"
+    dick_secretary "Aber deine Vergebung liegt nicht um meinen Arsch, sie ist innen!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1479
+translate german ep22_dialogues5_12_555d642a:
+
+    # dick_secretary "Напрягите язычок, Миссис Бакфетт!"
+    # "Ваш острый язычок!"
+    # "Который слишком много болтает!"
+    # "И засуньте его туда где ему полагается быть с самого начала!"
+    dick_secretary "Drück deine Zunge rein, Frau Buckfett!"
+    "Deine scharfe Zunge!"
+    "Genug der Worte!"
+    "Drück sie gleich zu Beginn dahin, wo sie hin soll!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1499
+translate german ep22_dialogues5_12_090ade82:
+
+    # dick_secretary "Да, вот так!"
+    # "А теперь поелозьте им в разные стороны, Да!"
+    dick_secretary "Das stimmt!"
+    "Jetzt beweg sie hin und her, ja!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1503
+translate german ep22_dialogues5_12_de0d3908:
+
+    # dick_secretary "Вот так, Да!"
+    dick_secretary "Gut so!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1505
+translate german ep22_dialogues5_12_57a9d949:
+
+    # dick_secretary "Прощение где-то рядом, Вы почти нащупали его!"
+    dick_secretary "Vergebung ist nah, gleich hast du's!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1508
+translate german ep22_dialogues5_12_efaaed3d:
+
+    # dick_secretary "Еще чуть-чуть! Почти!"
+    dick_secretary "Ein bisschen mehr! Fast!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1510
+translate german ep22_dialogues5_12_0f96d512:
+
+    # dick_secretary "Да, все! Достаточно!"
+    dick_secretary "Ja, das reicht! Genug!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1515
+translate german ep22_dialogues5_12_2e951437:
+
+    # dick_secretary "Миссис Бакфетт! Вы можете вынуть свой язык из моего зада."
+    # "Достаточно..."
+    dick_secretary "Frau Buckfett! Du kannst deine Zunge aus meinem Arsch nehmen."
+    "Leidenschaftlich..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1521
+translate german ep22_dialogues5_12_214f5db6:
+
+    # dick_secretary "Хорошая подружка!"
+    # "Я прощаю тебя!"
+    # "Но это не отменяет нашей договоренности!"
+    # "Я все еще собираюсь на шоппинг!"
+    dick_secretary "Gute Freundin!"
+    "Ich vergeb Dir!"
+    "Das ändert jedoch nichts an unserer Vereinbarung!"
+    "Ich werde immer noch shoppen gehen!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1526
+translate german ep22_dialogues5_12_bc77b64e:
+
+    # "У меня уже составлен длинный список на несколько месяцев вперед!"
+    # "Наша дружба будет долгой, Миссис Бакфетт!"
+    "Ich habe schon eine lange Liste für die kommenden Monate gemacht!"
+    "Unsere Freundschaft wird von langer Dauer sein, Frau Buckfett!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1530
+translate german ep22_dialogues5_12_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1536
+translate german ep22_dialogues5_13_7ea49bc6:
+
+    # mt "Я не могу сделать это!"
+    # "Меня скорее стошнит!"
+    mt "Ich ertrage das nicht mehr!"
+    "Lieber kotze ich!!!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1542
+translate german ep22_dialogues5_13a_4ffd1e69:
+
+    # mt "$ 5000 каждую неделю!"
+    # "Сучка!!!"
+    mt "00 jede Woche!"
+    "Schlampe!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1562
+translate german ep22_dialogues5_14_6db92207:
+
+    # dick "Виктория, детка моя!"
+    # "Можно я потрогаю твою попу?"
+    dick "Victoria, Baby!"
+    "Kann ich deinen Hintern anfassen?"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1566
+translate german ep22_dialogues5_14_ee8b166b:
+
+    # dick_secretary "Нет, Мистер Дик!"
+    # "Еще пока не время..."
+    dick_secretary "Nein, Herr Dick!"
+    "Noch nicht..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1570
+translate german ep22_dialogues5_14_26fa0ede:
+
+    # dick "Ну пожалуйста, Виктория!"
+    # "Ну детка моя!"
+    # dick_secretary "Нет!"
+    dick "Bitte, Victoria!"
+    "Meine Hübsche!"
+    dick_secretary "Nein! Das ist das teuerste Kleid im ganzen Laden."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1574
+translate german ep22_dialogues5_14_c5bd89c3:
+
+    # dick "Ну почему же, крошка?"
+    dick "Warum nicht, Baby?"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1576
+translate german ep22_dialogues5_14_5481fac8:
+
+    # dick_secretary "У меня не очень хорошее настроение сегодня..."
+    # dick "Кто посмел испортить тебе настроение, детка?"
+    # dick_secretary "Миссис Бакфетт!"
+    dick_secretary "Ich bin heute nicht in Stimmung"
+    dick "Wer wagt es, deine Laune zu drücken, Baby?"
+    dick_secretary "Frau Buckfett..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1582
+translate german ep22_dialogues5_14_51145218:
+
+    # dick2 "ЧТО?!?!"
+    # "ОПЯТЬ ОНА ЗА СВОЕ?!?!"
+    dick2 "Was?!?!"
+    "DIE JETZT SCHON WIEDER?!?!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1585
+translate german ep22_dialogues5_14_90729561:
+
+    # dick_secretary "Нет, Мистер Дик..."
+    # "Она все поняла и теперь ведет себя как подруга."
+    # "Но она по дружески обратилась ко мне с просьбой помочь ей деньгами."
+    dick_secretary "Nein, Herr Dick..."
+    "Sie hat die Nachricht verstanden und verhält sich jetzt wie eine Freundin."
+    "Sie war freundlich und hat mich um Hilfe wegen ihrem Geldproblem gebeten."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1589
+translate german ep22_dialogues5_14_63ad2cd3:
+
+    # "У нее сложная ситуация сейчас..."
+    # "Я пообещала давать ей деньги каждую неделю."
+    # "Я не могла отказать из-за своей доброты..."
+    "Sie ist ein einer derzeitigen, schwierigen Lage..."
+    "Ich habe ihr versprochen, ihr jede Woche etwas Geld zu geben."
+    "Ich konnte einfach nicht nein sagen, ich bin doch so gütig..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1593
+translate german ep22_dialogues5_14_57a75efd:
+
+    # "Но теперь у меня остается совсем мало денег на уход за собой..."
+    # "А я привыкла хорошо выглядеть для Мистера Дика!"
+    "Aber jetzt habe ich kaum noch genug für mich selbst..."
+    "Ich will doch gut aussehen für dich, Dick!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1597
+translate german ep22_dialogues5_14_13fcf3da:
+
+    # "И я боюсь что Мистер Дик разлюбит Меня..."
+    # dick "Моя милая Виктория!"
+    # "Я никогда не разлюблю тебя!"
+    # "Не переживай, детка!"
+    "Und ich habe Angst, dass Dick aufhört mich zu lieben..."
+    dick "Meine liebe Victoria!"
+    "Ich werde nie aufhören, dich zu lieben!"
+    "Keine Sorge, Baby!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1602
+translate german ep22_dialogues5_14_2cb07373:
+
+    # "Я буду давать тебе больше денег чем сейчас!"
+    # "Тебе хватит и на себя и на свою доброту, которая так нравится мне в тебе!"
+    "Ich werde dir noch mehr Geld geben!"
+    "Du wirst genug für dich und für deine Großzügigkeit haben, welche ich so sehr an dir liebe!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1607
+translate german ep22_dialogues5_14_2cd84250:
+
+    # dick_secretary "Хорошо, Мистер Дик..."
+    # "Вы можете потрогать мою попу..."
+    dick_secretary "Ok, Herr Dick..."
+    "Du darfst meinen Hintern anfassen..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1618
+translate german ep22_dialogues5_14_e28a6700:
+
+    # dick "Крошка! Можно я поцелую ее?"
+    dick "Baby! Kann ich ihn küssen?"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1621
+translate german ep22_dialogues5_14_54693eb5:
+
+    # dick_secretary "Ой! Мистер Дик!"
+    # "Мою попу все хотят поцеловать!"
+    dick_secretary "Oh, Herr Dick!"
+    "Jeder will meinen Arsch küssen!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1625
+translate german ep22_dialogues5_14_6332b097:
+
+    # dick "А кто еще кроме меня хочет это сделать???"
+    # dick_secretary "Миссис Бакфетт..."
+    # dick "Ты что, серьезно?"
+    dick "Warte, wer noch ausser mir will das???"
+    dick_secretary "Frau Buckfett..."
+    dick "Ist das dein Ernst?"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1633
+translate german ep22_dialogues5_14_020c0302:
+
+    # dick_secretary "Да, Мистер Дик!"
+    # "Миссис Бакфетт сразу захотела меня как только мы познакомились в первый раз!"
+    dick_secretary "Ja, Dick!"
+    "Frau Buckfett wollte das sofort, nachdem wir uns das erste Mal getroffen haben!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1636
+translate german ep22_dialogues5_14_83544eec:
+
+    # "Сначала показывала мне свою грудь..."
+    # "Затем пыталась подражать мне перед Вами..."
+    "Erst zeigte sie mir ihre Brüste..."
+    "Dann wollte sie mich vor dir schlecht machen..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1642
+translate german ep22_dialogues5_14_b6eb4a09:
+
+    # dick_secretary "Да, Мистер Дик..."
+    dick_secretary "Ja, Dick..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1646
+translate german ep22_dialogues5_14_37a1d7da:
+
+    # dick "Малышка, можно я первый это сделаю?"
+    dick "Baby, kann ich zuerst?"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1649
+translate german ep22_dialogues5_14_68b72382:
+
+    # dick_secretary "Можно, Мистер Дик..."
+    dick_secretary "Ja, Dick..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1654
+translate german ep22_dialogues5_14_adb36927:
+
+    # dick_secretary "Вы уже опоздали, Мистер Дик..."
+    # dick "Как это я уже опоздал?"
+    dick_secretary "Du bist schon spät dran, Dick..."
+    dick "Wie ich bin spät dran?"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1657
+translate german ep22_dialogues5_14_b2d9f57c:
+
+    # dick_secretary "Эта Миссис Бакфетт..."
+    # "Я не хотела, Мистер Дик!"
+    # "Но она... Она сама... Буквально силой..."
+    # "Простите!!!"
+    dick_secretary "Diese Frau Buckfett..."
+    "Ich wollte das nicht, Dick!"
+    "Aber sie... sie hat... mich gezwungen..."
+    "Es tut mir leid!!!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1662
+translate german ep22_dialogues5_14_c8317083:
+
+    # dick "О, Малышка! Я знаю эту Бакфетт!"
+    # "Она всегда добивается своего!"
+    # "Куда уж тебе, бедной девочке, справиться с ней!"
+    dick "Oh Baby! Ich kenne Buckfett!"
+    "Sie setzt sich immer durch!"
+    "Wie könntest du, kleines Mädchen, damit umgehen?"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1666
+translate german ep22_dialogues5_14_cc83bc9f:
+
+    # dick_secretary "Да, Мистер Дик!"
+    # "Обещайте что будете защищать меня!"
+    # dick "Я буду защищать тебя, Виктория!"
+    dick_secretary "Ja, Dick!"
+    "Versprich mir, dass du mich beschützt!"
+    dick "Ich beschütze dich, Victoria!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1671
+translate german ep22_dialogues5_14_7e969477:
+
+    # dick "..."
+    # dick "Значит мне придется быть вторым?"
+    # dick_secretary "Если Вы не брезгуете ласкать меня после лица Миссис Бакфетт..."
+    # dick "Моника весьма чистоплотна..."
+    # dick_secretary "Хорошо, Мистер Дик. Как скажете..."
+    dick "..."
+    dick "Also bin ich jetzt der Zweite?"
+    dick_secretary "Wenn es dich nicht stört, dass dein Gesicht nach Frau Buckfett da war..."
+    dick "Monica ist sehr reinlich..."
+    dick_secretary "Ok, Dick. Wie du meinst..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1680
+translate german ep22_dialogues5_14_d466afd0:
+
+    # dick_secretary "Я бы хотела чтобы Миссис Бакфетт первая сделала это..."
+    dick_secretary "Ich wünschte, Frau Buckfett wäre die Erste die..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1691
+translate german ep22_dialogues5_14_5bbd2fce:
+
+    # dick "Ммммммм"
+    dick "Mmmmmm."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1696
+translate german ep22_dialogues5_14_5971763f:
+
+    # dick "Мммммм... ням"
+    dick "Mmmmm... Aber..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1710
+translate german ep22_dialogues5_14_5c736847:
+
+    # "Виктория, ты божество!"
+    "Victoria, du bist eine Göttin!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1719
+translate german ep22_dialogues5_14_6d716afe:
+
+    # dick_secretary "Мистер Дик, у меня вкусная попка?"
+    # dick "У тебя самая вкусная попка на свете!"
+    dick_secretary "Dick, schmeckt mein Arsch gut?"
+    dick "Du hast den besten Arsch der Welt!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1742
+translate german ep22_dialogues5_14_d3076610:
+
+    # dick_secretary "Как Вы думаете, она нравится Миссис Бакфетт?"
+    # dick "О! Виктория! Я думаю она без ума от нее!"
+    dick_secretary "Denkst du, Frau Buckfett mag meinen Arsch?"
+    dick "Oh! Victoria! Ich denke, sie ist verrückt danach!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1745
+translate german ep22_dialogues5_14_f559f401:
+
+    # dick_secretary "Как Вы думаете, она понравится Миссис Бакфетт?"
+    # dick "О! Виктория! Я думаю она будет без ума от нее!"
+    dick_secretary "Denkst du, Frau Buckfett gefällt das?"
+    dick "Oh! Victoria! Ich denke, sie wäre verrückt danach!"
+
+translate german strings:
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:196
+    old "Моника опоздала, потому что терла пятно"
+    new "Monica ist zu spät, da sie den Fleck reinigte."
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:251
+    old "У меня нет выбора... (low corruption, required [monicaVictoriaShowBoobsToCameraCorruptionRequired]) (disabled)"
+    new "Ich habe keine Wahl... (low corruption, required [monicaVictoriaShowBoobsToCameraCorruptionRequired]) (disabled)"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:251
+    old "У меня нет выбора... (corruption)"
+    new "Ich habe keine Wahl... (Korruption)"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:251
+    old "Мисс Виктория, Вы такая изящная леди... (попытаться не показывать грудь)."
+    new "Frau Victoria, Sie sind so eine anmutige Frau... (versuche, nicht die Brüste zu zeigen)"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:292
+    old "Улыбнуться искренней улыбкой..."
+    new "Lächle aufrichtig."
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:310
+    old "Это провокация. Лучше ответить что ее грудь лучше."
+    new "Das ist eine Provokation. Es ist wohl besser, ich sage, ihre Brüste seien schöner."
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:529
+    old "Послать Дика к черту."
+    new "Schicke Dick zum Teufel."
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:529
+    old "Попробовать соблазнить Дика как это делает Виктория (low corruption, required [monicaDickSeduceAsVictoriaByAssCorruptionRequired]) (disabled)"
+    new "Versuche Dick zu verführen wie Victoria. (low corruption, required [monicaDickSeduceAsVictoriaByAssCorruptionRequired]) (disabled)"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:529
+    old "Попробовать соблазнить Дика как это делает Виктория (corruption)"
+    new "Versuche, Dick wie Victoria zu verführen (Korruption)"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:808
+    old "Я согласна... (у меня нет другого выбора, иначе меня сейчас схватят!)"
+    new "Ich stimme zu... (Ich habe keine andere Wahl, sonst schnappen sie mich!)"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:868
+    old "Поцеловать каблук Виктории (у меня нет выбора...)"
+    new "Küsse Victorias Absatz (Ich habe keine andere Wahl...)"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:868
+    old "Это уже слишком!"
+    new "Das ist zu viel!"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:937
+    old "Я считаю что то что я поцеловала Ваш каблук - достаточно для начала нашей дружбы, Мисс Виктория..."
+    new "Ich glaube, die Tatsache, dass ich deinen Absatz geküsst habe, ist genug für den Anfang unserer Freundschaft..."
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:937
+    old "Лизнуть зад Виктории... (corruption)"
+    new "Lecke Victorias Hintern... (Korruption)"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:937
+    old "Лизнуть зад Виктории... (low corruption, required [monicaVictoriaLickAssBeginCorruptionRequired]) (disabled)"
+    new "Lecke Victorias Arsch... (low corruption, required [monicaVictoriaLickAssBeginCorruptionRequired]) (disabled)"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:1116
+    old "5 минут спустя..."
+    new "5 Minuten später..."
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:1435
+    old "Поцеловать зад Виктории (у меня нет выбора...)"
+    new "Küsse Victorias Arsch (Ich habe keine Wahl)"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:1435
+    old "Убежать!"
+    new "Lauf weg!"
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:1487
+    old "Засунуть язык глубоко в анальное отверстие Виктории..."
+    new "Steck deine Zunge tief in Victorias Arsch..."
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:1647
+    old "Можно, Мистер Дик..."
+    new "Ja, Dick..."
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:1647
+    old "Вы уже опоздали, Мистер Дик..."
+    new "Du bist schon spät dran, Dick..."
+
+    # Quests/EP2_02/ep22_dialogues5.rpy:1647
+    old "Я бы хотела чтобы Миссис Бакфетт первая сделала это... (отказать)"
+    new "Ich wünschte, Frau Buckfett hätte das zuerst gemacht... (lehne ab)"
+# TODO: Translation updated at 2019-01-14 02:06
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:282
+translate german ep22_dialogues5_2_d12f24bd:
+
+    # dick_secretary "Ну же! Смелее!"
+    # dick_secretary "Вы просите меня о помощи и даже не хотите улыбнуться мне?"
+    dick_secretary "Komm schon. Mehr!"
+    dick_secretary "Du bittest mich um Hilfe, also lächle gefälligst für mich!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:871
+translate german ep22_dialogues5_7_fb6bfa58:
+
+    # mt "У меня нет выбора и нет времени искать другие варианты..."
+    # "Похоже единственный путь к спасению - поцеловать каблук этой сучки Виктории..."
+    mt "Ich habe keine Wahl und keine Zeit, um andere Optionen abzuwägen..."
+    "Sieht so aus, als wäre der einzige Weg mich zu retten, den Absatz von dieser Schlampe zu küssen..."
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1408
+translate german ep22_dialogues5_12_643654e6:
+
+    # dick_secretary "Лижите прощение, Миссис Бакфетт!"
+    dick_secretary "Lecke um Vergebung, Frau Buckfett!"
+
+# game/Quests/EP2_02/ep22_dialogues5.rpy:1562
+translate german ep22_dialogues5_14_81462817:
+
+    # dick "Виктория, детка моя!"
+    # "Можно я потрогаю твою попу?"
+    dick "Victoria, Baby!"
+    "Kann ich deinen Hintern anfassen?"
+
+# TODO: Translation updated at 2019-01-16 15:00
+
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1369
 translate german ep22_dialogues5_10_53d40514:
 
@@ -1705,610 +2352,4 @@ translate german ep22_dialogues5_10_34768b92:
 
     # "Миссис Бакфетт! Вы не забыли про нашу дружбу?"
     "Frau Buckfett! Hast du unserer Freundschaft vergessen?"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1375
-translate german ep22_dialogues5_10_f882c901:
-
-    # m "Мисс Виктория... Я не забыла про нашу дружбу..."
-    # "Деньги будут вовремя..."
-    m "Frau Victoria... das habe ich nicht..."
-    "Das Geld wird rechtzeitig da sein..."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1379
-translate german ep22_dialogues5_10_c1762657:
-
-    # dick_secretary "Хорошая подружка, можешь идти..."
-    dick_secretary "Gute Freundin, du darfst gehen..."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1387
-translate german ep22_dialogues5_11_6e808278:
-
-    # dick_secretary "Миссис Бакфетт!"
-    # "Я собираюсь скоро на шопинг!"
-    # "Надеюсь сертификат будет на месте!"
-    # "А сейчас мне не до Вас! Извините!"
-    dick_secretary "Frau Buckfett..."
-    "Bald gehe ich shoppen!"
-    "Ich hoffe, der Gutschein ist rechtzeitig da!"
-    "Und jetzt habe ich keine Zeit mehr für dich! Sorry!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1399
-translate german ep22_dialogues5_12_65356311:
-
-    # dick_secretary "Миссис Бакфетт!"
-    # "Вы просрочили деньги!"
-    # m "Мисс Виктория... Я... Честно..."
-    dick_secretary "Frau Buckfett..."
-    "Du bist überfällig!"
-    m "Frau Victoria... Ich bin... Ehrlich gesagt..."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1405
-translate german ep22_dialogues5_12_35997325:
-
-    # dick_secretary "Вы поставили меня в неудобное положение!"
-    # dick_secretary "Теперь Вам надо лизать прощение!"
-    # m "Я прошу прощения, Миссис Виктория..."
-    dick_secretary "Du bringst mich in eine komplizierte Situation!"
-    dick_secretary "Jetzt musst du um Vergebung lecken!"
-    m "Tut mir leid, Frau Victoria..."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1412
-translate german ep22_dialogues5_12_643654e6:
-
-    # dick_secretary "Лижите прощение, Миссис Бакфетт!"
-    dick_secretary "Lecke um Vergebung, Frau Buckfett!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1414
-translate german ep22_dialogues5_12_ea3a9c59:
-
-    # m "ЧТО????"
-    m "Was????"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1416
-translate german ep22_dialogues5_12_1118caea:
-
-    # dick_secretary "Давайте скорее!"
-    # "А то Вам придется лизать это прощение на глазах Мистера Дика!"
-    dick_secretary "Beeil dich!"
-    "Du musst vor Dick um Vergebung lecken!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1420
-translate german ep22_dialogues5_12_849d4cf6:
-
-    # mt "О БОЖЕ!!!"
-    mt "Oh mein Gott!!!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1422
-translate german ep22_dialogues5_12_96bb3db8:
-
-    # "МНЕ?!?! ЦЕЛОВАТЬ У НЕЕ?!?!"
-    # "ЭТО МЕСТО?!?!"
-    "ICH?!?! SIE KÜSSEN?!?!"
-    "AN DIESEM ORT?!?!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1427
-translate german ep22_dialogues5_12_58991361:
-
-    # mt "СНОВА?!?!?"
-    mt "WIEDER?!?!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1431
-translate german ep22_dialogues5_12_9d39e49d:
-
-    # mt "Меня сейчас стошнит!!!"
-    mt "Mir wird schlecht!!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1433
-translate german ep22_dialogues5_12_3ac5db19:
-
-    # dick_secretary "Давайте скорее!"
-    # "И не забудьте!"
-    # "Вы не имеете доступа к моей киске!"
-    # "Лизать прощение надо там куда я показываю пальцем!"
-    # "Это мой зад!"
-    # "Учитесь хорошенько лизать его!"
-    dick_secretary "Beeil dich!"
-    "Vergiss nicht!"
-    "Du hast keinen Zugang zu meiner Pussy!"
-    "Du must da um Vergebung lecken, wo ich mit meinem Finger hin deute!"
-    "Das ist mein Arsch!"
-    "Lerne, ihn gut zu lecken!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1453
-translate german ep22_dialogues5_12_ee318f94:
-
-    # mt "У меня нет выбора!"
-    # "Это лучше чем оказаться в руках у Маркуса!"
-    # "Страшная цена свободы, Моника!"
-    mt "Ich habe keine Wahl!"
-    "Es ist besser, als in den Händen von Marcus zu sein!"
-    "Der schreckliche Preis der Freiheit, Monica!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1457
-translate german ep22_dialogues5_12_e19a9097:
-
-    # "Мне придется ее заплатить..."
-    # "(хмык)"
-    "Ich muss dafür teuer bezahlen..."
-    "(schnief)"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1472
-translate german ep22_dialogues5_12_58e443e1:
-
-    # dick_secretary "Миссис Бакфетт!!!"
-    dick_secretary "Frau Buckfett!!!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1474
-translate german ep22_dialogues5_12_17b79c6d:
-
-    # m "Мммммпххфф!!!"
-    m "Mmmmhhh!!!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1477
-translate german ep22_dialogues5_12_9b6a65ea:
-
-    # dick_secretary "Вы так не добудете прощения!"
-    dick_secretary "So werde ich dir nicht vergeben!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1479
-translate german ep22_dialogues5_12_c210ce5a:
-
-    # dick_secretary "Вы уже вылизали мне весь зад до блеска!"
-    dick_secretary "Du hast meinen Arsch bereits in Perfektion geleckt!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1481
-translate german ep22_dialogues5_12_842af8b7:
-
-    # dick_secretary "Но Ваше прощение находится не вокруг моей попки, а внутри нее!"
-    dick_secretary "Aber deine Vergebung liegt nicht um meinen Arsch, sie ist innen!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1483
-translate german ep22_dialogues5_12_555d642a:
-
-    # dick_secretary "Напрягите язычок, Миссис Бакфетт!"
-    # "Ваш острый язычок!"
-    # "Который слишком много болтает!"
-    # "И засуньте его туда где ему полагается быть с самого начала!"
-    dick_secretary "Drück deine Zunge rein, Frau Buckfett!"
-    "Deine scharfe Zunge!"
-    "Genug der Worte!"
-    "Drück sie gleich zu Beginn dahin, wo sie hin soll!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1503
-translate german ep22_dialogues5_12_090ade82:
-
-    # dick_secretary "Да, вот так!"
-    # "А теперь поелозьте им в разные стороны, Да!"
-    dick_secretary "Das stimmt!"
-    "Jetzt beweg sie hin und her, ja!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1507
-translate german ep22_dialogues5_12_de0d3908:
-
-    # dick_secretary "Вот так, Да!"
-    dick_secretary "Gut so!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1509
-translate german ep22_dialogues5_12_57a9d949:
-
-    # dick_secretary "Прощение где-то рядом, Вы почти нащупали его!"
-    dick_secretary "Vergebung ist nah, gleich hast du's!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1512
-translate german ep22_dialogues5_12_efaaed3d:
-
-    # dick_secretary "Еще чуть-чуть! Почти!"
-    dick_secretary "Ein bisschen mehr! Fast!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1514
-translate german ep22_dialogues5_12_0f96d512:
-
-    # dick_secretary "Да, все! Достаточно!"
-    dick_secretary "Ja, das reicht! Genug!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1519
-translate german ep22_dialogues5_12_2e951437:
-
-    # dick_secretary "Миссис Бакфетт! Вы можете вынуть свой язык из моего зада."
-    # "Достаточно..."
-    dick_secretary "Frau Buckfett! Du kannst deine Zunge aus meinem Arsch nehmen."
-    "Leidenschaftlich..."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1525
-translate german ep22_dialogues5_12_214f5db6:
-
-    # dick_secretary "Хорошая подружка!"
-    # "Я прощаю тебя!"
-    # "Но это не отменяет нашей договоренности!"
-    # "Я все еще собираюсь на шоппинг!"
-    dick_secretary "Gute Freundin!"
-    "Ich vergeb Dir!"
-    "Das ändert jedoch nichts an unserer Vereinbarung!"
-    "Ich werde immer noch shoppen gehen!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1530
-translate german ep22_dialogues5_12_bc77b64e:
-
-    # "У меня уже составлен длинный список на несколько месяцев вперед!"
-    # "Наша дружба будет долгой, Миссис Бакфетт!"
-    "Ich habe schon eine lange Liste für die kommenden Monate gemacht!"
-    "Unsere Freundschaft wird von langer Dauer sein, Frau Buckfett!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1534
-translate german ep22_dialogues5_12_0a5616b8:
-
-    # mt "!!!"
-    mt "!!!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1540
-translate german ep22_dialogues5_13_7ea49bc6:
-
-    # mt "Я не могу сделать это!"
-    # "Меня скорее стошнит!"
-    mt "Ich ertrage das nicht mehr!"
-    "Lieber kotze ich!!!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1546
-translate german ep22_dialogues5_13a_4ffd1e69:
-
-    # mt "$ 5000 каждую неделю!"
-    # "Сучка!!!"
-    mt "00 jede Woche!"
-    "Schlampe!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1566
-translate german ep22_dialogues5_14_81462817:
-
-    # dick "Виктория, детка моя!"
-    # "Можно я потрогаю твою попу?"
-    dick "Victoria, Baby!"
-    "Kann ich deinen Hintern anfassen?"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1570
-translate german ep22_dialogues5_14_ee8b166b:
-
-    # dick_secretary "Нет, Мистер Дик!"
-    # "Еще пока не время..."
-    dick_secretary "Nein, Herr Dick!"
-    "Noch nicht..."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1574
-translate german ep22_dialogues5_14_26fa0ede:
-
-    # dick "Ну пожалуйста, Виктория!"
-    # "Ну детка моя!"
-    # dick_secretary "Нет!"
-    dick "Bitte, Victoria!"
-    "Meine Hübsche!"
-    dick_secretary "Nein! Das ist das teuerste Kleid im ganzen Laden."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1578
-translate german ep22_dialogues5_14_c5bd89c3:
-
-    # dick "Ну почему же, крошка?"
-    dick "Warum nicht, Baby?"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1580
-translate german ep22_dialogues5_14_5481fac8:
-
-    # dick_secretary "У меня не очень хорошее настроение сегодня..."
-    # dick "Кто посмел испортить тебе настроение, детка?"
-    # dick_secretary "Миссис Бакфетт!"
-    dick_secretary "Ich bin heute nicht in Stimmung"
-    dick "Wer wagt es, deine Laune zu drücken, Baby?"
-    dick_secretary "Frau Buckfett..."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1586
-translate german ep22_dialogues5_14_51145218:
-
-    # dick2 "ЧТО?!?!"
-    # "ОПЯТЬ ОНА ЗА СВОЕ?!?!"
-    dick2 "Was?!?!"
-    "DIE JETZT SCHON WIEDER?!?!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1589
-translate german ep22_dialogues5_14_90729561:
-
-    # dick_secretary "Нет, Мистер Дик..."
-    # "Она все поняла и теперь ведет себя как подруга."
-    # "Но она по дружески обратилась ко мне с просьбой помочь ей деньгами."
-    dick_secretary "Nein, Herr Dick..."
-    "Sie hat die Nachricht verstanden und verhält sich jetzt wie eine Freundin."
-    "Sie war freundlich und hat mich um Hilfe wegen ihrem Geldproblem gebeten."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1593
-translate german ep22_dialogues5_14_63ad2cd3:
-
-    # "У нее сложная ситуация сейчас..."
-    # "Я пообещала давать ей деньги каждую неделю."
-    # "Я не могла отказать из-за своей доброты..."
-    "Sie ist ein einer derzeitigen, schwierigen Lage..."
-    "Ich habe ihr versprochen, ihr jede Woche etwas Geld zu geben."
-    "Ich konnte einfach nicht nein sagen, ich bin doch so gütig..."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1597
-translate german ep22_dialogues5_14_57a75efd:
-
-    # "Но теперь у меня остается совсем мало денег на уход за собой..."
-    # "А я привыкла хорошо выглядеть для Мистера Дика!"
-    "Aber jetzt habe ich kaum noch genug für mich selbst..."
-    "Ich will doch gut aussehen für dich, Dick!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1601
-translate german ep22_dialogues5_14_13fcf3da:
-
-    # "И я боюсь что Мистер Дик разлюбит Меня..."
-    # dick "Моя милая Виктория!"
-    # "Я никогда не разлюблю тебя!"
-    # "Не переживай, детка!"
-    "Und ich habe Angst, dass Dick aufhört mich zu lieben..."
-    dick "Meine liebe Victoria!"
-    "Ich werde nie aufhören, dich zu lieben!"
-    "Keine Sorge, Baby!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1606
-translate german ep22_dialogues5_14_2cb07373:
-
-    # "Я буду давать тебе больше денег чем сейчас!"
-    # "Тебе хватит и на себя и на свою доброту, которая так нравится мне в тебе!"
-    "Ich werde dir noch mehr Geld geben!"
-    "Du wirst genug für dich und für deine Großzügigkeit haben, welche ich so sehr an dir liebe!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1611
-translate german ep22_dialogues5_14_2cd84250:
-
-    # dick_secretary "Хорошо, Мистер Дик..."
-    # "Вы можете потрогать мою попу..."
-    dick_secretary "Ok, Herr Dick..."
-    "Du darfst meinen Hintern anfassen..."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1622
-translate german ep22_dialogues5_14_e28a6700:
-
-    # dick "Крошка! Можно я поцелую ее?"
-    dick "Baby! Kann ich ihn küssen?"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1625
-translate german ep22_dialogues5_14_54693eb5:
-
-    # dick_secretary "Ой! Мистер Дик!"
-    # "Мою попу все хотят поцеловать!"
-    dick_secretary "Oh, Herr Dick!"
-    "Jeder will meinen Arsch küssen!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1629
-translate german ep22_dialogues5_14_6332b097:
-
-    # dick "А кто еще кроме меня хочет это сделать???"
-    # dick_secretary "Миссис Бакфетт..."
-    # dick "Ты что, серьезно?"
-    dick "Warte, wer noch ausser mir will das???"
-    dick_secretary "Frau Buckfett..."
-    dick "Ist das dein Ernst?"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1637
-translate german ep22_dialogues5_14_020c0302:
-
-    # dick_secretary "Да, Мистер Дик!"
-    # "Миссис Бакфетт сразу захотела меня как только мы познакомились в первый раз!"
-    dick_secretary "Ja, Dick!"
-    "Frau Buckfett wollte das sofort, nachdem wir uns das erste Mal getroffen haben!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1640
-translate german ep22_dialogues5_14_83544eec:
-
-    # "Сначала показывала мне свою грудь..."
-    # "Затем пыталась подражать мне перед Вами..."
-    "Erst zeigte sie mir ihre Brüste..."
-    "Dann wollte sie mich vor dir schlecht machen..."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1646
-translate german ep22_dialogues5_14_b6eb4a09:
-
-    # dick_secretary "Да, Мистер Дик..."
-    dick_secretary "Ja, Dick..."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1650
-translate german ep22_dialogues5_14_37a1d7da:
-
-    # dick "Малышка, можно я первый это сделаю?" 
-    dick "Baby, kann ich zuerst?" 
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1653
-translate german ep22_dialogues5_14_68b72382:
-
-    # dick_secretary "Можно, Мистер Дик..."
-    dick_secretary "Ja, Dick..."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1658
-translate german ep22_dialogues5_14_adb36927:
-
-    # dick_secretary "Вы уже опоздали, Мистер Дик..."
-    # dick "Как это я уже опоздал?"
-    dick_secretary "Du bist schon spät dran, Dick..."
-    dick "Wie ich bin spät dran?"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1661
-translate german ep22_dialogues5_14_b2d9f57c:
-
-    # dick_secretary "Эта Миссис Бакфетт..."
-    # "Я не хотела, Мистер Дик!"
-    # "Но она... Она сама... Буквально силой..."
-    # "Простите!!!"
-    dick_secretary "Diese Frau Buckfett..."
-    "Ich wollte das nicht, Dick!"
-    "Aber sie... sie hat... mich gezwungen..."
-    "Es tut mir leid!!!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1666
-translate german ep22_dialogues5_14_c8317083:
-
-    # dick "О, Малышка! Я знаю эту Бакфетт!"
-    # "Она всегда добивается своего!"
-    # "Куда уж тебе, бедной девочке, справиться с ней!"
-    dick "Oh Baby! Ich kenne Buckfett!"
-    "Sie setzt sich immer durch!"
-    "Wie könntest du, kleines Mädchen, damit umgehen?"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1670
-translate german ep22_dialogues5_14_cc83bc9f:
-
-    # dick_secretary "Да, Мистер Дик!"
-    # "Обещайте что будете защищать меня!"
-    # dick "Я буду защищать тебя, Виктория!"
-    dick_secretary "Ja, Dick!"
-    "Versprich mir, dass du mich beschützt!"
-    dick "Ich beschütze dich, Victoria!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1675
-translate german ep22_dialogues5_14_7e969477:
-
-    # dick "..."
-    # dick "Значит мне придется быть вторым?"
-    # dick_secretary "Если Вы не брезгуете ласкать меня после лица Миссис Бакфетт..."
-    # dick "Моника весьма чистоплотна..."
-    # dick_secretary "Хорошо, Мистер Дик. Как скажете..."
-    dick "..."
-    dick "Also bin ich jetzt der Zweite?"
-    dick_secretary "Wenn es dich nicht stört, dass dein Gesicht nach Frau Buckfett da war..."
-    dick "Monica ist sehr reinlich..."
-    dick_secretary "Ok, Dick. Wie du meinst..."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1684
-translate german ep22_dialogues5_14_d466afd0:
-
-    # dick_secretary "Я бы хотела чтобы Миссис Бакфетт первая сделала это..."
-    dick_secretary "Ich wünschte, Frau Buckfett wäre die Erste die..."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1695
-translate german ep22_dialogues5_14_5bbd2fce:
-
-    # dick "Ммммммм"
-    dick "Mmmmmm."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1700
-translate german ep22_dialogues5_14_5971763f:
-
-    # dick "Мммммм... ням"
-    dick "Mmmmm... Aber..."
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1714
-translate german ep22_dialogues5_14_5c736847:
-
-    # "Виктория, ты божество!"
-    "Victoria, du bist eine Göttin!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1723
-translate german ep22_dialogues5_14_6d716afe:
-
-    # dick_secretary "Мистер Дик, у меня вкусная попка?"
-    # dick "У тебя самая вкусная попка на свете!"
-    dick_secretary "Dick, schmeckt mein Arsch gut?"
-    dick "Du hast den besten Arsch der Welt!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1746
-translate german ep22_dialogues5_14_d3076610:
-
-    # dick_secretary "Как Вы думаете, она нравится Миссис Бакфетт?"
-    # dick "О! Виктория! Я думаю она без ума от нее!"
-    dick_secretary "Denkst du, Frau Buckfett mag meinen Arsch?"
-    dick "Oh! Victoria! Ich denke, sie ist verrückt danach!"
-
-# game/Quests/EP2_02/ep22_dialogues5.rpy:1749
-translate german ep22_dialogues5_14_f559f401:
-
-    # dick_secretary "Как Вы думаете, она понравится Миссис Бакфетт?"
-    # dick "О! Виктория! Я думаю она будет без ума от нее!"
-    dick_secretary "Denkst du, Frau Buckfett gefällt das?"
-    dick "Oh! Victoria! Ich denke, sie wäre verrückt danach!"
-
-translate german strings:
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:196
-    old "Моника опоздала, потому что терла пятно"
-    new "Monica ist zu spät, da sie den Fleck reinigte."
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:251
-    old "У меня нет выбора... (low corruption, required [monicaVictoriaShowBoobsToCameraCorruptionRequired]) (disabled)"
-    new "Ich habe keine Wahl... (low corruption, required [monicaVictoriaShowBoobsToCameraCorruptionRequired]) (disabled)"
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:251
-    old "У меня нет выбора... (corruption)"
-    new "Ich habe keine Wahl... (Korruption)"
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:251
-    old "Мисс Виктория, Вы такая изящная леди... (попытаться не показывать грудь)."
-    new "Frau Victoria, Sie sind so eine anmutige Frau... (versuche, nicht die Brüste zu zeigen)"
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:292
-    old "Улыбнуться искренней улыбкой..."
-    new "Lächle aufrichtig."
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:310
-    old "Это провокация. Лучше ответить что ее грудь лучше."
-    new "Das ist eine Provokation. Es ist wohl besser, ich sage, ihre Brüste seien schöner."
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:529
-    old "Послать Дика к черту."
-    new "Schicke Dick zum Teufel."
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:529
-    old "Попробовать соблазнить Дика как это делает Виктория (low corruption, required [monicaDickSeduceAsVictoriaByAssCorruptionRequired]) (disabled)"
-    new "Versuche Dick zu verführen wie Victoria. (low corruption, required [monicaDickSeduceAsVictoriaByAssCorruptionRequired]) (disabled)"
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:529
-    old "Попробовать соблазнить Дика как это делает Виктория (corruption)"
-    new "Versuche, Dick wie Victoria zu verführen (Korruption)"
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:808
-    old "Я согласна... (у меня нет другого выбора, иначе меня сейчас схватят!)"
-    new "Ich stimme zu... (Ich habe keine andere Wahl, sonst schnappen sie mich!)"
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:868
-    old "Поцеловать каблук Виктории (у меня нет выбора...)"
-    new "Küsse Victorias Absatz (Ich habe keine andere Wahl...)"
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:868
-    old "Это уже слишком!"
-    new "Das ist zu viel!"
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:937
-    old "Я считаю что то что я поцеловала Ваш каблук - достаточно для начала нашей дружбы, Мисс Виктория..."
-    new "Ich glaube, die Tatsache, dass ich deinen Absatz geküsst habe, ist genug für den Anfang unserer Freundschaft..."
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:937
-    old "Лизнуть зад Виктории... (corruption)"
-    new "Lecke Victorias Hintern... (Korruption)"
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:937
-    old "Лизнуть зад Виктории... (low corruption, required [monicaVictoriaLickAssBeginCorruptionRequired]) (disabled)"
-    new "Lecke Victorias Arsch... (low corruption, required [monicaVictoriaLickAssBeginCorruptionRequired]) (disabled)"
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:1116
-    old "5 минут спустя..."
-    new "5 Minuten später..."
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:1439
-    old "Поцеловать зад Виктории (у меня нет выбора...)"
-    new "Küsse Victorias Arsch (Ich habe keine Wahl)"
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:1439
-    old "Убежать!"
-    new "Lauf weg!"
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:1491
-    old "Засунуть язык глубоко в анальное отверстие Виктории..."
-    new "Steck deine Zunge tief in Victorias Arsch..."
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:1651
-    old "Можно, Мистер Дик..."
-    new "Ja, Dick..."
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:1651
-    old "Вы уже опоздали, Мистер Дик..."
-    new "Du bist schon spät dran, Dick..."
-
-    # game/Quests/EP2_02/ep22_dialogues5.rpy:1651
-    old "Я бы хотела чтобы Миссис Бакфетт первая сделала это... (отказать)"
-    new "Ich wünschte, Frau Buckfett hätte das zuerst gemacht... (lehne ab)"
 

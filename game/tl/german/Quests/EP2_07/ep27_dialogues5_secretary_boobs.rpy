@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2019-08-29 19:05
 
 # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:12
 translate german ep27_dialogues5_secretary_boobs1_bb649694:
@@ -7,7 +7,7 @@ translate german ep27_dialogues5_secretary_boobs1_bb649694:
     # mt "Так получилось, что я уже показывала свою грудь тому негодяю за $ 50."
     # mt "Этот мерзавец отказывается платить мне столько же за повторный показ."
     # mt "Но, он сказал что заплатит еще $ 50 за другую пару грудей, которую еще не видел..."
-    mt "Hmm..."
+    mt "Хм..."
     mt "Так получилось, что я уже показывала свою грудь тому негодяю за $ 50."
     mt "Этот мерзавец отказывается платить мне столько же за повторный показ."
     mt "Но, он сказал что заплатит еще $ 50 за другую пару грудей, которую еще не видел..."
@@ -144,7 +144,7 @@ translate german ep27_dialogues5_secretary_boobs6_bcb51f4b:
     # citizen4 "Да, я помню!"
     # citizen4 "Я заплачу $ 50, но только за новую пару малышек."
     # citizen4 "Твоих малышек я уже видел!"
-    citizen4 "Ja, ich erinnere mich!"
+    citizen4 "Да, я помню!"
     citizen4 "Я заплачу $ 50, но только за новую пару малышек."
     citizen4 "Твоих малышек я уже видел!"
 
@@ -160,7 +160,7 @@ translate german ep27_dialogues5_secretary_boobs6_2bec9c63:
     # secretary "Миссис Бакфетт!"
     # secretary "О чем говорит этот человек?"
     # secretary "Кто он?!"
-    secretary "Frau Buckfett..."
+    secretary "Миссис Бакфетт!"
     secretary "О чем говорит этот человек?"
     secretary "Кто он?!"
 
@@ -283,8 +283,8 @@ translate german ep27_dialogues5_secretary_boobs6_3e929528:
 
     # secretary "Я..."
     # secretary "Миссис Бакфетт..."
-    secretary "Ich..."
-    secretary "Frau Buckfett..."
+    secretary "Я..."
+    secretary "Миссис Бакфетт..."
 
 # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:191
 translate german ep27_dialogues5_secretary_boobs6_06ed67c1:
@@ -292,7 +292,7 @@ translate german ep27_dialogues5_secretary_boobs6_06ed67c1:
     # citizen4 "Эта девочка не хочет показывать своих машылек."
     # citizen4 "Я ухожу!"
     citizen4 "Эта девочка не хочет показывать своих машылек."
-    citizen4 "Ich gehe!"
+    citizen4 "Я ухожу!"
 
 # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:194
 translate german ep27_dialogues5_secretary_boobs6_6d563241:
@@ -377,14 +377,14 @@ translate german ep27_dialogues5_secretary_boobs6_ea0e2e2d:
 
     # m "Хорошо..."
     # m "$ 10 сверху и можешь потрогать ее."
-    m "Gut..."
+    m "Хорошо..."
     m "$ 10 сверху и можешь потрогать ее."
 
 # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:278
 translate german ep27_dialogues5_secretary_boobs6_ee05cda0:
 
     # secretary "Миссис Бакфетт!"
-    secretary "Frau Buckfett..."
+    secretary "Миссис Бакфетт!"
 
 # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:280
 translate german ep27_dialogues5_secretary_boobs6_1ed648c4:
@@ -429,7 +429,7 @@ translate german ep27_dialogues5_secretary_boobs6_09a9ae84:
 
     # citizen4 "Хорошо."
     # citizen4 "Ты можешь привести еще пару малышек и я заплачу тебе еще $ 50." 
-    citizen4 "Na gut."
+    citizen4 "Хорошо."
     citizen4 "Ты можешь привести еще пару малышек и я заплачу тебе еще $ 50." 
 
 # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:314
@@ -437,7 +437,7 @@ translate german ep27_dialogues5_secretary_boobs6_91a31460:
 
     # secretary "Миссис Бакфетт..."
     # secretary "Могу я идти, пожалуйста?" 
-    secretary "Frau Buckfett..."
+    secretary "Миссис Бакфетт..."
     secretary "Могу я идти, пожалуйста?" 
 
 # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:317

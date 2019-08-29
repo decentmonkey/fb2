@@ -1,4 +1,20 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2019-02-16 02:59
+
+# game/Quests/EP2_03/ep23_photoshoot4.rpy:109
+translate german tempaaa1_b9cd880a:
+
+    # alex_photograph "Мэм! Мы закончили фотосессию!"
+    # m "Наконец-то!!!"
+    alex_photograph "Wir sind mit dem Shooting durch!"
+    m "Endlich!!!"
+
+# game/Quests/EP2_03/ep23_photoshoot4.rpy:112
+translate german tempaaa1_00d63a19:
+
+    # mt "Что теперь?"
+    mt "Was nun?"
+
+# TODO: Translation updated at 2019-03-02 22:56
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:16
 translate german ep22_photoshoot4_39656896:
@@ -232,7 +248,7 @@ translate german ep23_photoshoot4_casting_f4e1f245_1:
 
 translate german strings:
 
-    # game/Quests/EP2_03/ep23_photoshoot4.rpy:653
+    # Quests/EP2_03/ep23_photoshoot4.rpy:653
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot4_casting_corruption_required]) (disabled)"
     new "Geh zum Casting zu Biff und sage, du bist ein Chick... (low corruption, required [photoshoot4_casting_corruption_required]) (disabled)"
 

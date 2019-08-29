@@ -1,20 +1,21 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-06-01 03:20
 
-# game/Quests/EP2_05/EP25_Quests_Steve.rpy:36
+# game/Quests/EP2_05/EP25_Quests_Steve.rpy:32
 translate english ep25_quests_steve2_bd9df7dc:
 
     # mt "Сегодня выходной. Офис Стива закрыт."
     mt "It's weekend. Steve's office is closed."
 
-# game/Quests/EP2_05/EP25_Quests_Steve.rpy:39
+# game/Quests/EP2_05/EP25_Quests_Steve.rpy:35
 translate english ep25_quests_steve2_e92e04f0:
 
     # mt "Уже вечер. Офис Стива закрыт."
     mt "It's evening. Steve's office is closed."
 
+# TODO: Translation updated at 2019-06-03 01:59
+
 translate english strings:
 
-    # game/Quests/EP2_05/EP25_Quests_Steve.rpy:128
+    # Quests/EP2_05/EP25_Quests_Steve.rpy:123
     old "Стив перевел деньги Виктории."
     new "Steve has sent money to Victoria."
-

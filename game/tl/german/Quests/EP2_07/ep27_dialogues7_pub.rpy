@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2019-08-29 19:05
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:9
 translate german ep27_dialogues7_pub1_08c69d28:
@@ -148,7 +148,7 @@ translate german ep27_dialogues7_pub1_5e8d35af:
 translate german ep27_dialogues7_pub1_11c2bc7b:
 
     # mt "ЧТО?!"
-    mt "WAS?!"
+    mt "ЧТО?!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:90
 translate german ep27_dialogues7_pub1_86ee1545:
@@ -248,7 +248,7 @@ translate german ep27_dialogues7_pub1_9984dfd2:
     # m "Я..."
     # m "Я согласна работать. Мне нужна хоть какая-то работа."
     # m "Я обещаю что не буду грубить клиентам, а буду обращаться с ними вежливо."
-    m "Ich..."
+    m "Я..."
     m "Я согласна работать. Мне нужна хоть какая-то работа."
     m "Я обещаю что не буду грубить клиентам, а буду обращаться с ними вежливо."
 
@@ -289,9 +289,9 @@ translate german ep27_dialogues7_pub1_a1e52aa2:
     # mt "Мне с трудом вериться в то что я вообще такое говорю!"
     # mt "Я! Моника Бакфетт!"
     # mt "И говорю такие слова!"
-    mt "Oh mein Gott!"
+    mt "О БОЖЕ!"
     mt "Мне с трудом вериться в то что я вообще такое говорю!"
-    mt "Ich! Monica Buckfett!"
+    mt "Я! Моника Бакфетт!"
     mt "И говорю такие слова!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:172
@@ -314,7 +314,7 @@ translate german ep27_dialogues7_pub1_aaa55d5c:
 translate german ep27_dialogues7_pub1_1c465980:
 
     # m "А?" 
-    m "Ja?" 
+    m "А?" 
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:184
 translate german ep27_dialogues7_pub1_cca4cedb:
@@ -452,7 +452,7 @@ translate german ep27_dialogues7_pub8_80434e83:
     # m "Такой суммы просто не могло быть..."
     # mt "В этой дыре!!!"
     m "Нет, столько не было!"
-    m "Das schwöre ich!"
+    m "Клянусь!"
     m "Такой суммы просто не могло быть..."
     mt "В этой дыре!!!"
 
@@ -646,7 +646,7 @@ translate german ep27_dialogues7_pub10_07fb9d20:
     m "..."
     mt "Дьявол, мне не хочется делать этого!"
     mt "С другой стороны, в этом нет ничего страшного и это позволит мне снова работать здесь..."
-    mt "Ich brauche Geld!"
+    mt "Мне нужны деньги..."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:430
 translate german ep27_dialogues7_pub10_6a0ff505:
@@ -654,7 +654,7 @@ translate german ep27_dialogues7_pub10_6a0ff505:
     # m "..."
     # joe "Я жду!"
     m "..."
-    joe "Ich warte!"
+    joe "Я жду!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:444
 translate german ep27_dialogues7_pub10_3b1ae659:
@@ -680,7 +680,7 @@ translate german ep27_dialogues7_pub10_93351f74:
 translate german ep27_dialogues7_pub10_2fce66a2:
 
     # m "Нет!"
-    m "Nein! Das ist das teuerste Kleid im ganzen Laden."
+    m "Нет!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:453
 translate german ep27_dialogues7_pub10_e40d2a2a:
@@ -694,7 +694,7 @@ translate german ep27_dialogues7_pub10_08547c4c:
     # mt "Черт! Что же мне делать?"
     # mt "Мне нужна эта работа. Я могу здесь заработать хотя бы на еду..."
     # mt "Но неужели я соглашусь на то, чтобы какой-то толстяк в трущобах лапал меня?!"
-    mt "Verdammt! Was soll ich nur machen?"
+    mt "Черт! Что же мне делать?"
     mt "Мне нужна эта работа. Я могу здесь заработать хотя бы на еду..."
     mt "Но неужели я соглашусь на то, чтобы какой-то толстяк в трущобах лапал меня?!"
 
@@ -780,7 +780,7 @@ translate german ep27_dialogues7_pub11_ff7215dd:
 translate german ep27_dialogues7_pub11_2fce66a2:
 
     # m "Нет!"
-    m "Nein! Das ist das teuerste Kleid im ganzen Laden."
+    m "Нет!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:534
 translate german ep27_dialogues7_pub11_5e399132:
@@ -809,7 +809,7 @@ translate german ep27_dialogues7_pub11_2ca4f9a4:
 
     # m "Ладно..."
     # m "Только быстро..."
-    m "Ok."
+    m "Ладно..."
     m "Только быстро..."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:554
@@ -882,7 +882,7 @@ translate german ep27_dialogues7_pub11_220d22ab:
     # mt "Дьявол!"
     # mt "Мое изысканное тело создано для того, чтобы быть на обложке модного журнала..."
     # mt "До чего я докатилась, О БОЖЕ!"
-    mt "Diese Teufelin!"
+    mt "Дьявол!"
     mt "Мое изысканное тело создано для того, чтобы быть на обложке модного журнала..."
     mt "До чего я докатилась, О БОЖЕ!"
 
@@ -932,7 +932,7 @@ translate german ep27_dialogues7_pub12_fcfea440:
 translate german ep27_dialogues7_pub12_60c5bdc0:
 
     # m "Ладно..."
-    m "Ok."
+    m "Ладно..."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:691
 translate german ep27_dialogues7_pub12_a9a4f026:
@@ -963,7 +963,7 @@ translate german ep27_dialogues7_pub12_8b770337:
 
     # mt "Что же мне делать?"
     # mt "Может быть лучше достать $ 500? Но как?!"
-    mt "Was mache ich jetzt?"
+    mt "Что же мне делать?"
     mt "Может быть лучше достать $ 500? Но как?!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:707
@@ -995,7 +995,7 @@ translate german ep27_dialogues7_pub12_a0767079:
     # mt "Мне так стыдно делать это..."
     # mt "Показывать свой голый зад в какой-то shiny hole посреди трущоб..."
     # mt "Это какой-то сон..."
-    mt "Diese Teufelin!"
+    mt "Дьявол!"
     mt "Мне так стыдно делать это..."
     mt "Показывать свой голый зад в какой-то shiny hole посреди трущоб..."
     mt "Это какой-то сон..."
@@ -1219,7 +1219,7 @@ translate german ep27_dialogues7_pub13_84c26e4b:
     # joe "Если ты не согласна, то можешь идти и искать $ 500!"
     joe "[monica_pub_name], твоя грудь прекрасна!"
     joe "Но от твоей попки я просто без ума!"
-    joe "Das ist meine Bedingung!"
+    joe "Это мое условие!"
     joe "Если ты не согласна, то можешь идти и искать $ 500!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:839
@@ -1243,7 +1243,7 @@ translate german ep27_dialogues7_pub13_f3e9f4b9:
     # mt "Мне не стоит даже в мыслях называть себя Моникой..."
     # mt "Вдруг я проговорюсь..."
     # mt "Ведь меня здесь знают под именем [monica_pub_name]..."
-    mt "Diese Teufelin!"
+    mt "Дьявол!"
     mt "До чего ты докатилась, Моника!"
     mt "..."
     mt "Мне не стоит даже в мыслях называть себя Моникой..."
@@ -1390,7 +1390,7 @@ translate german ep27_dialogues7_pub13_12ab06ac:
     # joe "Аххх!"
     joe "Но как же! Ты должна танцевать!"
     joe "За такую задницу дадут... дадут..."
-    joe "Aaaa!"
+    joe "Аххх!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:925
 translate german ep27_dialogues7_pub13_27d407cf:
@@ -1435,7 +1435,7 @@ translate german ep27_dialogues7_pub13_f762bbad:
 
     # m "ЧТО?!"
     # m "Ты там что, дрочишь на меня, Джо?!"
-    m "WAS?!"
+    m "ЧТО?!"
     m "Ты там что, дрочишь на меня, Джо?!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:945
@@ -1454,7 +1454,7 @@ translate german ep27_dialogues7_pub13_b1c9c7e6:
     # m "Иди к Эшли, немедленно!"
     # m "Мне нужна эта работа!"
     # mt "Извращенец!!!"
-    m "Zefix!!!"
+    m "Дьявол!!!"
     m "Все, шоу закончено!"
     m "Иди к Эшли, немедленно!"
     m "Мне нужна эта работа!"
@@ -1472,7 +1472,7 @@ translate german ep27_dialogues7_pub13_ab6d87c6:
     # joe "Это Эшли! Прячься!"
     # mt "О БОЖЕ!"
     joe "Это Эшли! Прячься!"
-    mt "Oh mein Gott!"
+    mt "О БОЖЕ!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:963
 translate german ep27_dialogues7_pub13_48373391:
@@ -1550,7 +1550,7 @@ translate german ep27_dialogues7_pub14_a341efdd:
     # joe "И..."
     joe "Я поговорил с [monica_pub_name] и, мне кажется, надо дать ей еще шанс."
     joe "Я ручаюсь за нее, Эшли."
-    joe "Und..."
+    joe "И..."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1001
 translate german ep27_dialogues7_pub14_f2b1ec2e:
@@ -1652,7 +1652,7 @@ translate german ep27_dialogues7_pub15_62e3e0d2:
 translate german ep27_dialogues7_pub15_1e2cb459:
 
     # ashley "Ммммм..."
-    ashley "Mmmm..."
+    ashley "Ммммм..."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1077
 translate german ep27_dialogues7_pub15_0a5616b8:
@@ -1739,7 +1739,7 @@ translate german ep27_dialogues7_pub16_66f0952d:
 
     # ashley "Да, [monica_pub_name]!"
     # ashley "Чувствуешь меня?"
-    ashley "Ja, [monica_pub_name]!"
+    ashley "Да, [monica_pub_name]!"
     ashley "Чувствуешь меня?"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1131
@@ -1792,7 +1792,7 @@ translate german ep27_dialogues7_pub16_36c01181:
     # m "На меня что-то начинает накатывать..."
     # m "Погоди, я боюсь этого..."
     m "Погоди, Эшли!"
-    m "Ich..."
+    m "Я..."
     m "На меня что-то начинает накатывать..."
     m "Погоди, я боюсь этого..."
 
@@ -1865,7 +1865,7 @@ translate german ep27_dialogues7_pub17_d5c8801d:
 
     # m "Ладно..."
     # m "А ты мне точно разрешишь снова работать здесь?"
-    m "Ok."
+    m "Ладно..."
     m "А ты мне точно разрешишь снова работать здесь?"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1206
@@ -1878,7 +1878,7 @@ translate german ep27_dialogues7_pub17_215d6d0a:
 translate german ep27_dialogues7_pub17_aa2f7641:
 
     # m "ЧТО??!"
-    m "Was???"
+    m "ЧТО??!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1210
 translate german ep27_dialogues7_pub17_43129b9f:
@@ -1928,7 +1928,7 @@ translate german ep27_dialogues7_pub17_8c8d0c15:
 translate german ep27_dialogues7_pub17_324f1c84:
 
     # ashley "Да, [monica_pub_name]!"
-    ashley "Ja, [monica_pub_name]!"
+    ashley "Да, [monica_pub_name]!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1242
 translate german ep27_dialogues7_pub17_2352cfec:

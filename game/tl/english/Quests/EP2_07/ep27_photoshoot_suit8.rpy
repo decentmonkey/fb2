@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-08-29 19:03
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:4
 translate english ep27_photoshoot_suit8_b6ecaf9f:
@@ -65,7 +65,7 @@ translate english ep27_photoshoot_suit8_12d8bca6:
 
     # m "Нет, Алекс!"
     # m "Даже не мечтай! Я не буду сниматься голой!"
-    m "No, Alex!"
+    m "Нет, Алекс!"
     m "Даже не мечтай! Я не буду сниматься голой!"
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:40
@@ -114,7 +114,7 @@ translate english ep27_photoshoot_suit8_daa07bc7:
 translate english ep27_photoshoot_suit8_80584ae2:
 
     # melanie "Миссис Бакфетт..."
-    melanie "Mrs. Buckfett..."
+    melanie "Миссис Бакфетт..."
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:69
 translate english ep27_photoshoot_suit8_0a5616b8:
@@ -153,7 +153,7 @@ translate english ep27_photoshoot_suit8_84154610:
     # mt "Я не представляю как мне впоследствии оправдываться перед обществом за такие кадры..."
     # mt "Может быть этот журнал не успеет распространиться до того как я верну свою власть?"
     # mt "Я сделаю изъятие всех копий этих кадров, клянусь!"
-    mt "Oh my God!"
+    mt "О БОЖЕ!"
     mt "Я снимаюсь на камеру... БЕЗ ТРУСИКОВ!"
     mt "ГОЛОЙ!"
     mt "Я не представляю как мне впоследствии оправдываться перед обществом за такие кадры..."
@@ -190,7 +190,7 @@ translate english ep27_photoshoot_suit8_805550c1:
     m "..."
     alex_photograph "И у Вас вполне приличные трусики, Миссис Бакфетт!"
     alex_photograph "Они все закрывают так, что ничего не будет видно!"
-    m "Alright, Alex..."
+    m "Ладно, Алекс."
     m "Только не снимай меня сзади..."
     m "И спереди тоже..."
     m "В общем, снимай так, чтобы ничего не было видно."
@@ -325,7 +325,7 @@ translate english ep27_photoshoot_suit8_9edb98e8:
     alex_photograph "Из этого ракурса ничего не видно."
     20536
     m "Алекс, снимай издалека!"
-    alex_photograph "Of course, Mrs. Buckfett!"
+    alex_photograph "Конечно, Миссис Бакфетт!"
     20537
     20538
     20539
@@ -336,7 +336,7 @@ translate english ep27_photoshoot_suit8_9edb98e8:
     20541
     m "Алекс, не вздумай брать такой кадр!"
     m "Ты что, сошел с ума?!"
-    alex_photograph "Mrs. Buckfett!"
+    alex_photograph "Миссис Бакфетт!"
     alex_photograph "Из этого ракурса ничего не видно."
     20543
     20542
@@ -352,7 +352,7 @@ translate english ep27_photoshoot_suit8_9edb98e8:
     m "Ты хочешь сфотографировать мою... мою..."
     alex_photograph "Не переживайте, Миссис Бакфетт!"
     alex_photograph "Из этого ракурса ничего не видно."
-    m "Really?"
+    m "Точно?"
     alex_photograph "Да, Миссис Бакфетт! Уверяю Вас!"
     20548
     m "Алекс, я не собираюсь раздвигать ноги!"
@@ -417,7 +417,7 @@ translate english ep27_photoshoot_suit8_9edb98e8:
     20566
     20567
     20568
-    m "Alex!"
+    m "Алекс!"
     20569
     20570 
     m "Алекс, ты куда встал?!"
@@ -441,7 +441,7 @@ translate english ep27_photoshoot_suit8_d7188919:
     # melanie "Фотосессия должна быть завершена."
     # melanie "Алекс, фотографируй так как посчитаешь нужным."
     # melanie "Миссис Бакфетт, раздвиньте ноги и предоставьте Алексу доступ."
-    m "Melanie?"
+    m "Мелани?"
     melanie "Фотосессия должна быть завершена."
     melanie "Алекс, фотографируй так как посчитаешь нужным."
     melanie "Миссис Бакфетт, раздвиньте ноги и предоставьте Алексу доступ."
@@ -479,7 +479,7 @@ translate english ep27_photoshoot_suit8_f1124e78:
     # alex_photograph "Моя мечта сбылась!"
     m "!!!"
     20577
-    alex_photograph "Oh, Mrs. Buckfett!"
+    alex_photograph "О, Миссис Бакфетт!"
     alex_photograph "Как я мечтал рассмотреть Вашу киску поближе!"
     20578
     alex_photograph "И Вашу попку!"
@@ -492,7 +492,7 @@ translate english ep27_photoshoot_suit8_b71c1863:
     # secretary "Мисс Мелани."
     # secretary "Мистер Биф просил Вас зайти к нему!"
     # melanie "Хорошо, я зайду к нему."
-    secretary "Ms. Melanie."
+    secretary "Мисс Мелани."
     secretary "Мистер Биф просил Вас зайти к нему!"
     melanie "Хорошо, я зайду к нему."
 
@@ -529,8 +529,8 @@ translate english ep27_photoshoot_suit8_f8953a88:
     20585
     alex_photograph "Миссис Бакфетт... Ахххх..."
     20586
-    alex_photograph "Oh, Mrs. Buckfett!"
-    alex_photograph "Ahhh..."
+    alex_photograph "О, Миссис Бакфетт!"
+    alex_photograph "Ахххх..."
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:340
 translate english ep27_photoshoot_suit8_270e71aa:
@@ -548,7 +548,7 @@ translate english ep27_photoshoot_suit8_b124f44f:
 translate english ep27_photoshoot_suit8_1e580c5e:
 
     # alex_photograph "Ой!"
-    alex_photograph "Oh!"
+    alex_photograph "Ой!"
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:348
 translate english ep27_photoshoot_suit8_0da2d289:

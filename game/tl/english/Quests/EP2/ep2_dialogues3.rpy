@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2/ep2_dialogues3.rpy:5
 translate english monica_fred_about_dick_dialogue1_4fd34647:
@@ -1014,31 +1014,31 @@ translate english monica_dick_office_dialogue2_4b80df1c:
 
 translate english strings:
 
-    # game/Quests/EP2/ep2_dialogues3.rpy:222
+    # Quests/EP2/ep2_dialogues3.rpy:222
     old "Приставать к Дику. (low corruption, required [monicaTryToDickBlowjobRequiredCorruption]) (disabled)"
     new "Seduce Dick. (low corruption, required [monicaTryToDickBlowjobRequiredCorruption]) (disabled)"
 
-    # game/Quests/EP2/ep2_dialogues3.rpy:222
+    # Quests/EP2/ep2_dialogues3.rpy:222
     old "Приставать к Дику. (corruption)"
     new "Seduce Dick. (corruption)"
 
-    # game/Quests/EP2/ep2_dialogues3.rpy:222
+    # Quests/EP2/ep2_dialogues3.rpy:222
     old "Я пока не нашла деньги..."
     new "I haven't found any money yet..."
 
-    # game/Quests/EP2/ep2_dialogues3.rpy:477
+    # Quests/EP2/ep2_dialogues3.rpy:477
     old "Попросить Викторию вежливо..."
     new "Ask Victoria politely..."
 
-    # game/Quests/EP2/ep2_dialogues3.rpy:488
+    # Quests/EP2/ep2_dialogues3.rpy:488
     old "Попросить Викторию еще вежливее..."
     new "Ask Victoria more politely..."
 
-    # game/Quests/EP2/ep2_dialogues3.rpy:505
+    # Quests/EP2/ep2_dialogues3.rpy:505
     old "Сделать Виктории комплимент..."
     new "Give Victoria a compliment..."
 
-    # game/Quests/EP2/ep2_dialogues3.rpy:635
+    # Quests/EP2/ep2_dialogues3.rpy:635
     old "Монике пришлось зарабатывать на еду разноской флаеров"
     new "Monica had to earn money by delivering flyers"
 

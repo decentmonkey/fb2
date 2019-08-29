@@ -1,4 +1,4 @@
-define debugMode = False
+define debugMode = True
 
 default gameStage = 0
 default gameSubStage = 0
@@ -61,7 +61,6 @@ label start:
 #        "":
 #            pass
 #    m "[menuName]"
-
     call intro_questions() from _call_intro_questions
     $ ralphAskedAboutPayment = False
     $ add_objective("ask_ralph", _("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
@@ -279,7 +278,6 @@ label start_game:
 
 #    $ autorun_to_object("intro_scene", "intro_scene_start")
     music stop
-
 #    $ _dismiss_pause = False
     scene black_screen
     with Dissolve(1)

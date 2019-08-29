@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2018-12-05 17:53
 
 # game/Quests/Technical/Episode1_End.rpy:7
 translate german episode1End_ed7f9993:

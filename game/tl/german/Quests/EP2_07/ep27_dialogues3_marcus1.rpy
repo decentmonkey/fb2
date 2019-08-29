@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2019-08-29 19:05
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:6
 translate german ep27_dialogues_marcus1_1_1201dac2:
@@ -46,7 +46,7 @@ translate german ep27_dialogues_marcus1_2_e7b32ebe:
 translate german ep27_dialogues_marcus1_2_14238f24:
 
     # m "Я... Я..."
-    m "Ich... Ich bin..."
+    m "Я... Я..."
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:39
 translate german ep27_dialogues_marcus1_2_a94f01f4:
@@ -92,14 +92,14 @@ translate german ep27_dialogues_marcus1_2_20a8a648:
 translate german ep27_dialogues_marcus1_2_0170edfe:
 
     # m "Да, Мэм... Конечно..."
-    m "Ja, sicherlich..."
+    m "Да, Мэм... Конечно..."
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:56
 translate german ep27_dialogues_marcus1_2_34a6f17c:
 
     # mt "О БОЖЕ!"
     # mt "Может быть мне убежать, пока не поздно?!"
-    mt "Oh mein Gott!"
+    mt "О БОЖЕ!"
     mt "Может быть мне убежать, пока не поздно?!"
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:65
@@ -107,7 +107,7 @@ translate german ep27_dialogues_marcus1_2_2a9fe690:
 
     # detective "Добрый день, Мэм."
     # detective "Вы хотели увидеть Мистера Маркуса?"
-    detective "Guten Tag."
+    detective "Добрый день, Мэм."
     detective "Вы хотели увидеть Мистера Маркуса?"
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:68
@@ -135,7 +135,7 @@ translate german ep27_dialogues_marcus1_2_28413dcf:
 
     # detective "Хорошо, Мэм."
     # detective "Подождите минуту."
-    detective "Ok."
+    detective "Хорошо, Мэм."
     detective "Подождите минуту."
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:78
@@ -174,7 +174,7 @@ translate german ep27_dialogues_marcus1_2_ab98a302:
 translate german ep27_dialogues_marcus1_2_0451f78b:
 
     # detective "Хорошо, Мэм."
-    detective "Ok."
+    detective "Хорошо, Мэм."
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:98
 translate german ep27_dialogues_marcus1_2_ecb3449a:
@@ -195,7 +195,7 @@ translate german ep27_dialogues_marcus1_2_1ad8ac45:
 
     # detective "Миссис Бакфетт."
     # detective "Вас сейчас проводят в место, где Вам будет комфортно ожидать Мистера Маркуса."
-    detective "Frau Buckfett."
+    detective "Миссис Бакфетт."
     detective "Вас сейчас проводят в место, где Вам будет комфортно ожидать Мистера Маркуса."
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:110
@@ -232,7 +232,7 @@ translate german ep27_dialogues_marcus1_3_aeeb68a0:
     # m "Мистер Маркус согласился встретиться со мной!"
     # m "Зачем Вы привели меня сюда?!"
     m "Это... Это место!"
-    m "Aber!"
+    m "Но!"
     m "Мистер Маркус согласился встретиться со мной!"
     m "Зачем Вы привели меня сюда?!"
 
@@ -268,7 +268,7 @@ translate german ep27_dialogues_marcus1_3_cffba948:
 translate german ep27_dialogues_marcus1_3_71fb12d2:
 
     # policeman2 "Ха-ха-ха!"
-    policeman2 "Ha Ha Ha!"
+    policeman2 "Ха-ха-ха!"
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:141
 translate german ep27_dialogues_marcus1_3_e39586e7:
@@ -326,7 +326,7 @@ translate german ep27_dialogues_marcus1_4_747611e2:
 translate german ep27_dialogues_marcus1_4_d047b121:
 
     # m "Хорошо..."
-    m "Gut..."
+    m "Хорошо..."
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:171
 translate german ep27_dialogues_marcus1_4_1c3fee88:
@@ -334,7 +334,7 @@ translate german ep27_dialogues_marcus1_4_1c3fee88:
     # m "Что?"
     # m "А где низ?"
     # m "Дайте мне что-нибудь прикрыть низ?"
-    m "Was?"
+    m "Что?"
     m "А где низ?"
     m "Дайте мне что-нибудь прикрыть низ?"
 
@@ -362,8 +362,8 @@ translate german ep27_dialogues_marcus1_5_c010a1b0:
     # mt "О БОЖЕ!"
     # mt "О БОЖЕ!!!"
     # mt "Я снова здесь!"
-    mt "Oh mein Gott!"
-    mt "Oh mein Gott!!!"
+    mt "О БОЖЕ!"
+    mt "О БОЖЕ!!!"
     mt "Я снова здесь!"
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:191
@@ -378,7 +378,7 @@ translate german ep27_dialogues_marcus1_5_f2868e57:
 translate german ep27_dialogues_marcus1_5_0fbdf5dc:
 
     # mt "Что же мне делать?!"
-    mt "Was soll ich tun?!"
+    mt "Что же мне делать?!"
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:196
 translate german ep27_dialogues_marcus1_5_012cf710:
@@ -389,7 +389,7 @@ translate german ep27_dialogues_marcus1_5_012cf710:
     # mt "Как мне спастись?!"
     mt "ОНИ СКАЗАЛИ ЧТО ОТСЮДА Я НАПРАВЛЮСЬ НА ОБЪЕКТ!!!"
     mt "Я УВЕРЕНА ЧТО ОНИ ГОВОРИЛИ ПРО ЭТУ ФЕРМУ!!!"
-    mt "Oh mein Gott!!!"
+    mt "О БОЖЕ!!!"
     mt "Как мне спастись?!"
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:201
@@ -458,7 +458,7 @@ translate german ep27_dialogues_marcus1_5_71fd823c:
     # mt "Завтра я встречусь с Маркусом."
     # mt "Я ничего не нарушала, ни одного закона или правила!"
     # mt "По крайней мере, Маркус не знает про некоторые исключения..."
-    mt "Ich bin - Monica Buckfett!"
+    mt "Я - Моника Бакфетт!"
     mt "И я пройду через все! Я одержу победу!"
     mt "Завтра я встречусь с Маркусом."
     mt "Я ничего не нарушала, ни одного закона или правила!"
@@ -559,7 +559,7 @@ translate german ep27_dialogues_marcus1_11_cb61c1a8:
     mt "Завтра новый день."
     mt "С утра я встречусь с Маркусом лицом к лицу и решу все мои проблемы."
     mt "Я сильная и я знаю что справлюсь..."
-    mt "Alles gut!"
+    mt "Все будет хорошо!"
     mt "А сейчас пора спать..."
 
 translate german strings:

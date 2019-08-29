@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2019-05-21 02:22
 
 # game/Quests/EP2_05/ep25_dialogues4_map.rpy:3
 translate german ep25_dialogues4_map1_b1524046:
@@ -19,6 +19,20 @@ translate german ep25_dialogues4_map2_8100b9ff:
     mt "Ich zeige mich besser nicht so, wie ich gekleidet bin."
     mt "Ich sehe aus wie Monica Buckfett, die Leute könnten mich erkennen."
     mt "Ich muss in mein Zimmer schleichen ohne Aufmerksamkeit zu erregen."
+
+# game/Quests/EP2_05/ep25_dialogues4_map.rpy:23
+translate german ep25_dialogues4_map3_b7fbd4e8:
+
+    # m "Красивое платье"
+    m "Ein schönes Kleid."
+
+translate german strings:
+
+    # Quests/EP2_05/ep25_dialogues4_map.rpy:7
+    old "Переодеться в одежду шлюхи."
+    new "Zieh die Nuttenkleider an."
+
+# TODO: Translation updated at 2019-06-01 03:18
 
 # game/Quests/EP2_05/ep25_dialogues4_map.rpy:25
 translate german ep25_dialogues4_map3_ed0a7d78:

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:8
 translate english citizen12_dialogue_b8f1bd99:
@@ -180,15 +180,15 @@ translate english citizen12_dialogue_refuse_after_offend_1bd5bc5f:
 
 translate english strings:
 
-    # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:104
+    # Quests/EP2/Citizens/Citizen12_dialogue.rpy:104
     old "Сказать спасибо за спасение от нападения"
     new "Say thank you for saving from offending."
 
-    # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:117
+    # Quests/EP2/Citizens/Citizen12_dialogue.rpy:117
     old "Я никого не собираюсь развлекать!"
     new "I'm not entertaining anyone!"
 
-    # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:117
+    # Quests/EP2/Citizens/Citizen12_dialogue.rpy:117
     old "Чем тебя развлечь?"
     new "What can I entertain you with?"
 

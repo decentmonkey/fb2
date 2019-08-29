@@ -1,12 +1,12 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2018-12-06 21:43
 
-# game/Quests/EP2/Kebab_Work/Kebab_work.rpy:112
+# game/Quests/EP2/Kebab_Work/Kebab_work.rpy:106
 translate german kebab_work_trader_interact2_fe94dec5:
 
     # m "interact2"
     m "interact2"
 
-# game/Quests/EP2/Kebab_Work/Kebab_work.rpy:155
+# game/Quests/EP2/Kebab_Work/Kebab_work.rpy:140
 translate german kebab_work_block_teleports_69d82d22:
 
     # mt "Я не пойду в эту вонючую подворотню!"
@@ -16,19 +16,19 @@ translate german kebab_work_block_teleports_69d82d22:
 
 translate german strings:
 
-    # game/Quests/EP2/Kebab_Work/Kebab_work.rpy:17
+    # Quests/EP2/Kebab_Work/Kebab_work.rpy:15
     old "Флаеры убавлено"
     new "Flyer weniger"
 
-    # game/Quests/EP2/Kebab_Work/Kebab_work.rpy:90
+    # Quests/EP2/Kebab_Work/Kebab_work.rpy:84
     old "Осталось флаеров"
     new "Flyer übrig"
 
-    # game/Quests/EP2/Kebab_Work/Kebab_work.rpy:116
+    # Quests/EP2/Kebab_Work/Kebab_work.rpy:110
     old "Я раздала все флаеры, где мой кебаб?"
     new "Ich habe alle Flyer verteilt, wo ist mein Kebab?"
 
-    # game/Quests/EP2/Kebab_Work/Kebab_work.rpy:116
+    # Quests/EP2/Kebab_Work/Kebab_work.rpy:110
     old "У меня не получилось раздать все флаеры..."
     new "Ich konnte nicht alle Flyer verteilen..."
 

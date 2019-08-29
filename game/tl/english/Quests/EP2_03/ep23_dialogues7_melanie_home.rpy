@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:24
 translate english ep23_dialogues7_1b076107:
@@ -252,7 +252,7 @@ translate english ep23_dialogues7_43017bac_1:
 
 translate english strings:
 
-    # game/Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:18
+    # Quests/EP2_03/ep23_dialogues7_melanie_home.rpy:18
     old "У МЕЛАНИ ДОМА..."
     new "MELANIE'S HOME..."
 

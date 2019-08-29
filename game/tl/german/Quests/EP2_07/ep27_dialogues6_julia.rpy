@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2019-08-29 19:05
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:6
 translate german ep27_dialogues6_julia1_bcd962f6:
@@ -120,7 +120,7 @@ translate german ep27_dialogues6_julia3_a89a4661:
     # fred "Миссис Бакфетт."
     # fred "Если говорить о сферах профессионализма, то, возможно, кое-кому стоит ограничиться обязанностями гувернантки."
     # fred "А работа Боссом при этом - это выход за профессиональные рамки основной профессии."
-    fred "Frau Buckfett."
+    fred "Миссис Бакфетт."
     fred "Если говорить о сферах профессионализма, то, возможно, кое-кому стоит ограничиться обязанностями гувернантки."
     fred "А работа Боссом при этом - это выход за профессиональные рамки основной профессии."
 
@@ -154,7 +154,7 @@ translate german ep27_dialogues6_julia3_8ba309c2:
     # m "Юлия, выйди из кабинета."
     # m "Быстро!"
     m "Юлия, выйди из кабинета."
-    m "Los!"
+    m "Быстро!"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:105
 translate german ep27_dialogues6_julia3_d1f70c04_1:
@@ -406,7 +406,7 @@ translate german ep27_dialogues6_julia3_b56b14db:
 translate german ep27_dialogues6_julia3_c14dd19c:
 
     # m "Вон отсюда!"
-    m "Raus hier!"
+    m "Вон отсюда!"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:250
 translate german ep27_dialogues6_julia3_f1c83604:
@@ -505,7 +505,7 @@ translate german ep27_dialogues6_julia3_60941b3f:
     # m "Когда я должна это сделать?"
     # fred "Сделайте это завтра или в ближайшие дни."
     # m "И как ты узнаешь что я это сделала?"
-    m "Ok."
+    m "Ладно..."
     m "Когда я должна это сделать?"
     fred "Сделайте это завтра или в ближайшие дни."
     m "И как ты узнаешь что я это сделала?"
@@ -599,7 +599,7 @@ translate german ep27_dialogues6_julia6_f16abd34:
     # m "Я сделала как ты просил!"
     # m "Что тебе снова надо?"
     # fred "Миссис Бакфетт, Вы прекрасно справились."
-    fred "Frau Buckfett."
+    fred "Миссис Бакфетт."
     m "Фред... Мерзавец..."
     m "Зачем ты подкараулил меня здесь?"
     m "Я сделала как ты просил!"
@@ -638,7 +638,7 @@ translate german ep27_dialogues6_julia6_9135da73:
     # m "!!!"
     # m "Я подумаю..."
     m "!!!"
-    m "Ich überlege noch..."
+    m "Я подумаю..."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:428
 translate german ep27_dialogues6_julia7_bfb4f289:
@@ -650,7 +650,7 @@ translate german ep27_dialogues6_julia7_bfb4f289:
 translate german ep27_dialogues6_julia7_8b35153b:
 
     # julia "Да, Миссис Бакфетт?"
-    julia "Ja, Frau Buckfett?"
+    julia "Да, Миссис Бакфетт?"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:432
 translate german ep27_dialogues6_julia7_7c0b8fed:
@@ -733,7 +733,7 @@ translate german ep27_dialogues6_julia8_ce397ee3:
 
     # fred "Миссис Бакфетт..."
     # fred "Если Вы не оцените фигуру Юлии, то весь отдел оценит Вашу прекрасную фигуру в позе гувернантки, трущей пятно."
-    fred "Frau Buckfett..."
+    fred "Миссис Бакфетт..."
     fred "Если Вы не оцените фигуру Юлии, то весь отдел оценит Вашу прекрасную фигуру в позе гувернантки, трущей пятно."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:476
@@ -746,13 +746,13 @@ translate german ep27_dialogues6_julia8_29a4f6ab:
 translate german ep27_dialogues6_julia9_2ec62310:
 
     # m "Юлия, подойди ко мне!"
-    m "Julia, komm her!"
+    m "Юлия, подойди ко мне!"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:497
 translate german ep27_dialogues6_julia9_a2759b0a:
 
     # julia "Да, Миссис Бакфетт?" 
-    julia "Ja, Frau Buckfett?" 
+    julia "Да, Миссис Бакфетт?" 
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:499
 translate german ep27_dialogues6_julia9_e612037c:
@@ -909,7 +909,7 @@ translate german ep27_dialogues6_julia10a_a2692991:
     # m "Мерзавец..."
     # m "Ненавижу его..."
     m "ФРЕД!!!"
-    m "Dreckiger Bastard!..."
+    m "Мерзавец..."
     m "Ненавижу его..."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:601
@@ -1001,7 +1001,7 @@ translate german ep27_dialogues6_julia12_14c4a001:
     # m "Мерзавец..."
     # m "Ты что, подглядываешь как я переодеваюсь?!"
     m "ФРЕД!!!"
-    m "Dreckiger Bastard!..."
+    m "Мерзавец..."
     m "Ты что, подглядываешь как я переодеваюсь?!"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:704
@@ -1038,7 +1038,7 @@ translate german ep27_dialogues6_julia12_f4c8c7b8:
     m "К чему ты клонишь, Фред?!"
     m "Я не какая-нибудь лесбиянка!"
     m "Я - Леди! И я твой Босс!"
-    m "Hast du es schon vergessen?"
+    m "Не забывай этого!"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:718
 translate german ep27_dialogues6_julia12_717e76b7:
@@ -1062,7 +1062,7 @@ translate german ep27_dialogues6_julia12_bab9bfc3:
 translate german ep27_dialogues6_julia12_e330597d:
 
     # m "Ты..."
-    m "Du..."
+    m "Ты..."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:727
 translate german ep27_dialogues6_julia12_ad773e3c:
@@ -1086,7 +1086,7 @@ translate german ep27_dialogues6_julia12_6faaf4b7:
 translate german ep27_dialogues6_julia13_a6e86dab:
 
     # julia "Миссис Бакфетт?"
-    julia "Frau Buckfett?"
+    julia "Миссис Бакфетт?"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:747
 translate german ep27_dialogues6_julia13_cc650b61:
@@ -1153,7 +1153,7 @@ translate german ep27_dialogues6_julia13_c9f08138:
 
     # julia "Миссис Бакфетт!"
     # julia "Что Вы собираетесь сделать?!"
-    julia "Frau Buckfett..."
+    julia "Миссис Бакфетт!"
     julia "Что Вы собираетесь сделать?!"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:806
@@ -1176,7 +1176,7 @@ translate german ep27_dialogues6_julia13_a3556acf:
 translate german ep27_dialogues6_julia13_4729beaf:
 
     # julia "Ай!"
-    julia "Autsch!"
+    julia "Ай!"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:833
 translate german ep27_dialogues6_julia13_1599b2d7:
@@ -1205,7 +1205,7 @@ translate german ep27_dialogues6_julia13_dabf091e:
     # m "Видимо тебе что-то показалось, Юлия."
     # m "Иди занимайся работой."
     # m "Хватит смотреть в окно!"
-    m "Nein! Das ist das teuerste Kleid im ganzen Laden."
+    m "Нет!"
     m "Видимо тебе что-то показалось, Юлия."
     m "Иди занимайся работой."
     m "Хватит смотреть в окно!"
@@ -1224,7 +1224,7 @@ translate german ep27_dialogues6_julia13_a657bd82:
     # julia "Конечно..."
     # help "Дальнейший прогресс с Юлией будет доступен в следующем обновлении."
     m "Если ты будешь плохо работать, то тебя ждет увольнение!"
-    julia "Ja, Frau Buckfett..."
+    julia "Да, Миссис Бакфетт..."
     julia "Конечно..."
     help "Дальнейший прогресс с Юлией будет доступен в следующем обновлении."
 

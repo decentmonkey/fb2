@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2019-04-16 13:23
 
 # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:30
 translate german ep24_dialogues1_bardie_39746741:
@@ -211,7 +211,7 @@ translate german ep24_dialogues1_bardie_9ca2b454:
     m "Ich gehe ins Fitnessstudio mit Betty von Zeit zu Zeit."
 
 # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:188
-translate german ep24_dialogues1_bardie_68d1866e:
+translate german ep24_dialogues1_bardie_36516b7d:
 
     # bardie "Ты занимаешься фитнесом, правда?!"
     bardie "Arbeitest du da?"
@@ -322,15 +322,23 @@ translate german ep24_dialogues1_bardie3_3c6405a7:
 
 translate german strings:
 
-    # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:156
+    # Quests/EP2_04/ep24_dialogues1_bardie.rpy:156
     old "Хорошо, я помогу тебе..."
     new "Na gut, ich helfe dir..."
 
-    # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:156
+    # Quests/EP2_04/ep24_dialogues1_bardie.rpy:156
     old "Я тебе уже говорила, что ничем не могу помочь тебе."
     new "Ich habe dir bereits gesagt, dass es nichts gibt, mit dem ich dir helfen könnte."
 
-    # game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:248
+    # Quests/EP2_04/ep24_dialogues1_bardie.rpy:248
     old "Барди, пойдем вниз, я хочу поговорить с тобой."
     new "Bardi, lass usn runter gehen, ich möchte mit dir sprechen."
+
+# TODO: Translation updated at 2019-04-17 05:15
+
+# game/Quests/EP2_04/ep24_dialogues1_bardie.rpy:188
+translate german ep24_dialogues1_bardie_68d1866e:
+
+    # bardie "Ты занимаешься фитнесом, правда?!"
+    bardie "Arbeitest du da?"
 

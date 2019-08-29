@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2_02/EP22_Quests_Falling_Path.rpy:59
 translate english ep22_quests_falling_path4_ada061db:
@@ -16,11 +16,11 @@ translate english ep22_quests_falling_path4_55b332f2:
 
 translate english strings:
 
-    # game/Quests/EP2_02/EP22_Quests_Falling_Path.rpy:78
+    # Quests/EP2_02/EP22_Quests_Falling_Path.rpy:78
     old "Моника обслужила 'Клиента'"
     new "Monica served 'Customer'"
 
-    # game/Quests/EP2_02/EP22_Quests_Falling_Path.rpy:107
+    # Quests/EP2_02/EP22_Quests_Falling_Path.rpy:107
     old "Falling Path started..."
     new "Falling Path started..."
 

@@ -98,6 +98,8 @@ python early:
         keyPressed = pygame.key.get_pressed()
         if keyPressed[pygame.K_SLASH]:
             return
+        print what
+        renpy.pause()
         renpy.say(who, what)
 
     renpy.register_statement("", parse=saywrapper_parse, execute=saywrapper_execute, lint = saywrapper_lint, translatable=True) #враппер для say, чтобы подымать флаг активного диалога

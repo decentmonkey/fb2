@@ -15,11 +15,11 @@ translate german cant_use_fba19ab3:
     # "Я еще не сошла с ума!"
     mt "Ich werde niemandem Drogen geben."
     "Ich bin noch nicht total verrückt!"
-# TODO: Translation updated at 2019-08-15 14:57
+# TODO: Translation updated at 2019-08-29 19:17
 
 # game/Inventory/default_actions_refuse.rpy:11
 translate german cant_use_c62a1505:
 
     # mt "[item_description!t] and It? I can't use that!"
-    mt "[item_description!t] und? Ich kann das nicht benutzen!"
+    mt "[item_description!t] and It? I can't use that!"
 

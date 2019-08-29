@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2018-12-05 17:53
 
 # game/Quests/AfterJail/AfterJail_House.rpy:2
 translate german afterJailHouse_dialogue1a_99e5cdcb:
@@ -164,7 +164,7 @@ translate german afterJailHouse_dialogue22_8b1d5d88:
 
 translate german strings:
 
-    # game/Quests/AfterJail/AfterJail_House.rpy:86
+    # Quests/AfterJail/AfterJail_House.rpy:86
     old "Там на столике что-то лежит..."
     new "Da liegt was auf dem Tischchen..."
 

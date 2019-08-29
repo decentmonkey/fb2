@@ -1,8 +1,8 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 translate english strings:
 
-    # game/Quests/EP2_03/EP23_Quests.rpy:12
+    # Quests/EP2_03/EP23_Quests.rpy:12
     old "Еда"
     new "Food"
 

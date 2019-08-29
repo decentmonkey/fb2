@@ -1,4 +1,28 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2019-05-21 02:22
+
+# game/Quests/EP2_05/ep25_dialogues5_basement.rpy:3
+translate german ep25_dialgues5_basement1_77319230:
+
+    # mt "Дьявол!"
+    # mt "Под это платье мои трусики не одеть!"
+    # mt "Что же делать?"
+    # mt "Не буду же я ходить по улице в трусиках Бетти!"
+    # mt "..."
+    # mt "Буду ходить пока без трусиков!"
+    # mt "Ничего страшного!"
+    # mt "Я ведь не собираюсь задирать платье нигде!"
+    # mt "Никто никогда не увидит что под ним!"
+    mt "Diese Teufelin!"
+    mt "Ich kann keine Unterwäsche in diesem Kleid tragen."
+    mt "Was soll ich tun?"
+    mt "Ich werde nicht Bettys Höschen auf der Straße tragen!"
+    mt "..."
+    mt "Ich gehe ohne!"
+    mt "Das ist ok."
+    mt "Ich werde ja wohl nicht mein Kleid hochziehen."
+    mt "Niemand wird es merken."
+
+# TODO: Translation updated at 2019-06-01 03:18
 
 # game/Quests/EP2_05/ep25_dialogues5_basement.rpy:17
 translate german ep25_dialgues5_basement1_2fc25f91:

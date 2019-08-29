@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2019-08-29 19:05
 
 # game/Quests/EP2_07/ep27_dialogues1_melanie.rpy:5
 translate german ep27_dialogues1_melanie1_24312471:
@@ -111,7 +111,7 @@ translate german ep27_dialogues1_melanie1_14d22b73:
 
     # melanie "Нет, Миссис Бакфетт."
     # melanie "Вас ждет другая судьба..."
-    melanie "Nein, Frau Buckfett..."
+    melanie "Нет, Миссис Бакфетт."
     melanie "Вас ждет другая судьба..."
 
 # game/Quests/EP2_07/ep27_dialogues1_melanie.rpy:57
@@ -190,7 +190,7 @@ translate german ep27_dialogues1_melanie2_1cc0d6d0:
     # melanie "Миссис Бакфетт."
     # melanie "Я не уверена в правильности решения пригласить Вас..."
     # melanie "Вы точно вошли незаметно? Вас никто не видел?"
-    melanie "Frau Buckfett."
+    melanie "Миссис Бакфетт."
     melanie "Я не уверена в правильности решения пригласить Вас..."
     melanie "Вы точно вошли незаметно? Вас никто не видел?"
 
@@ -215,8 +215,8 @@ translate german ep27_dialogues1_melanie2_9a429857:
 
     # melanie "Хорошо, Миссис Бакфетт..."
     # melanie "Проходите."
-    melanie "Na gut, Frau Buckfett..."
-    melanie "Gehen Sie."
+    melanie "Хорошо, Миссис Бакфетт..."
+    melanie "Проходите."
 
 # game/Quests/EP2_07/ep27_dialogues1_melanie.rpy:110
 translate german ep27_dialogues1_melanie2_6c108715:
@@ -258,7 +258,7 @@ translate german ep27_dialogues1_melanie2_0a056099:
     # melanie "Миссис Бакфетт..."
     # melanie "Вы задаете слишком прямые вопросы."
     # melanie "Для меня большой риск общаться с Вами..."
-    melanie "Frau Buckfett..."
+    melanie "Миссис Бакфетт..."
     melanie "Вы задаете слишком прямые вопросы."
     melanie "Для меня большой риск общаться с Вами..."
 
@@ -314,7 +314,7 @@ translate german ep27_dialogues1_melanie2_42e6e425:
 translate german ep27_dialogues1_melanie2_fe9d2871:
 
     # m "ЧТО?!"
-    m "WAS?!"
+    m "ЧТО?!"
 
 # game/Quests/EP2_07/ep27_dialogues1_melanie.rpy:148
 translate german ep27_dialogues1_melanie2_e9ae63ee:
@@ -354,7 +354,7 @@ translate german ep27_dialogues1_melanie2_2d2d36cb:
     # melanie "Да, Миссис Бакфетт..."
     # melanie "Оно... Даже хуже..."
     # melanie "И вскоре Вы отправитесь туда..."
-    melanie "Ja, Frau Buckfett..."
+    melanie "Да, Миссис Бакфетт..."
     melanie "Оно... Даже хуже..."
     melanie "И вскоре Вы отправитесь туда..."
 
@@ -427,7 +427,7 @@ translate german ep27_dialogues1_melanie2_75a92409:
 
     # melanie "Миссис Бакфетт..."
     # melanie "Я видела там вещи..."
-    melanie "Frau Buckfett..."
+    melanie "Миссис Бакфетт..."
     melanie "Я видела там вещи..."
 
 # game/Quests/EP2_07/ep27_dialogues1_melanie.rpy:190
@@ -467,7 +467,7 @@ translate german ep27_dialogues1_melanie2_62bd8a4d:
 
     # melanie "Нет, Миссис Бакфетт."
     # melanie "Я на Вашей стороне..."
-    melanie "Nein, Frau Buckfett..."
+    melanie "Нет, Миссис Бакфетт."
     melanie "Я на Вашей стороне..."
 
 # game/Quests/EP2_07/ep27_dialogues1_melanie.rpy:211
@@ -501,7 +501,7 @@ translate german ep27_dialogues1_melanie2_dba8a32b:
     # melanie "Я была глупа и думала что весь мир принадлежит мне."
     # melanie "Что я могу добиться любой цели и поставить на колени любого мужчину..."
     # m "..."
-    melanie "Frau Buckfett..."
+    melanie "Миссис Бакфетт..."
     melanie "Я была глупа и думала что весь мир принадлежит мне."
     melanie "Что я могу добиться любой цели и поставить на колени любого мужчину..."
     m "..."
@@ -601,7 +601,7 @@ translate german ep27_dialogues1_melanie2_4a3af72f:
 
     # melanie "Миссис Бакфетт..."
     # melanie "Вы имели деньги и власть."
-    melanie "Frau Buckfett..."
+    melanie "Миссис Бакфетт..."
     melanie "Вы имели деньги и власть."
 
 # game/Quests/EP2_07/ep27_dialogues1_melanie.rpy:261
@@ -632,7 +632,7 @@ translate german ep27_dialogues1_melanie2_b6832d0f:
     # melanie "Миссис Бакфетт."
     # melanie "Закон - это лишь инструмент для управления теми, к кого нет власти."
     # melanie "Для тех, у кого есть деньги и власть, закон не существует..."
-    melanie "Frau Buckfett."
+    melanie "Миссис Бакфетт."
     melanie "Закон - это лишь инструмент для управления теми, к кого нет власти."
     melanie "Для тех, у кого есть деньги и власть, закон не существует..."
 
@@ -701,7 +701,7 @@ translate german ep27_dialogues1_melanie2_b4c34d1f:
 
     # melanie "Да, Миссис Бакфетт."
     # melanie "Мистер Маркус - это очень... очень большой человек..."
-    melanie "Ja, Frau Buckfett."
+    melanie "Да, Миссис Бакфетт."
     melanie "Мистер Маркус - это очень... очень большой человек..."
 
 # game/Quests/EP2_07/ep27_dialogues1_melanie.rpy:306
@@ -733,7 +733,7 @@ translate german ep27_dialogues1_melanie2_466e3f58:
     # melanie "Я не считаю его мерзавцем."
     # m "Почему, Мелани?!"
     # m "Как ты можешь оправдывать его?!"
-    melanie "Nein, Frau Buckfett..."
+    melanie "Нет, Миссис Бакфетт."
     melanie "Я не считаю его мерзавцем."
     m "Почему, Мелани?!"
     m "Как ты можешь оправдывать его?!"
@@ -747,7 +747,7 @@ translate german ep27_dialogues1_melanie2_6dfd555c:
     # melanie "Вы не встречали таких сильных мужчин ранее..."
     # melanie "И вот... встретили..."
     # melanie "Впрочем и я тоже..."
-    melanie "Frau Buckfett."
+    melanie "Миссис Бакфетт."
     melanie "Мистер Маркус - это мужчина."
     melanie "Мужчина, который имеет силу и власть поступать так как он хочет."
     melanie "Вы не встречали таких сильных мужчин ранее..."
@@ -768,7 +768,7 @@ translate german ep27_dialogues1_melanie2_77a02baf:
     # melanie "Нет, Миссис Бакфетт."
     # melanie "Мистер Маркус имеет свое мнение на все вопросы."
     # melanie "Например, он помогает Вам вместо того, чтобы делать так, как его просят люди, стоящие за ним..."
-    melanie "Nein, Frau Buckfett..."
+    melanie "Нет, Миссис Бакфетт."
     melanie "Мистер Маркус имеет свое мнение на все вопросы."
     melanie "Например, он помогает Вам вместо того, чтобы делать так, как его просят люди, стоящие за ним..."
 
@@ -835,7 +835,7 @@ translate german ep27_dialogues1_melanie2_89858b6b:
 
     # m "Почему?!"
     # m "Если он может забрать меня в любой момент, то почему он ждет от меня каких-то нарушений закона?!"
-    m "Warum?!!?"
+    m "Почему?!"
     m "Если он может забрать меня в любой момент, то почему он ждет от меня каких-то нарушений закона?!"
 
 # game/Quests/EP2_07/ep27_dialogues1_melanie.rpy:364
@@ -974,7 +974,7 @@ translate german ep27_dialogues1_melanie2_ef278d8c:
     # melanie "Миссис Бакфетт."
     # melanie "Я могу сказать Вам честно."
     # melanie "Я считала Вас надменной дурой, которой богатство и власть достались благодаря случайности."
-    melanie "Frau Buckfett."
+    melanie "Миссис Бакфетт."
     melanie "Я могу сказать Вам честно."
     melanie "Я считала Вас надменной дурой, которой богатство и власть достались благодаря случайности."
 

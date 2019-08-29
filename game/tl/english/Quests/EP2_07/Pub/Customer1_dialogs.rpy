@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-08-29 19:03
 
 # game/Quests/EP2_07/Pub/Customer1_dialogs.rpy:5
 translate english customer1_1stmeeting_d65254f7:
@@ -56,7 +56,7 @@ translate english customer1_1stmeeting_eb8fa856:
 translate english customer1_1stmeeting_33c3e357:
 
     # m "Да."
-    m "Yes."
+    m "Да."
 
 # game/Quests/EP2_07/Pub/Customer1_dialogs.rpy:27
 translate english customer1_1stmeeting_4adae319:
@@ -118,7 +118,7 @@ translate english customer1_serve1_e610fd64:
 translate english customer1_serve1_94420ba9:
 
     # m "Хорошо."
-    m "Fine."
+    m "Хорошо."
 
 # game/Quests/EP2_07/Pub/Customer1_dialogs.rpy:61
 translate english customer1_serve1_68347f8f:
@@ -136,7 +136,7 @@ translate english customer1_serve1_0b980e50:
 translate english customer1_serve1_3bbc74af:
 
     # mt "Урод..."
-    mt "Jerk..."
+    mt "Урод..."
 
 # game/Quests/EP2_07/Pub/Customer1_dialogs.rpy:70
 translate english customer1_serve1_fd794667:

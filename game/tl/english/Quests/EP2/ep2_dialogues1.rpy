@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2/ep2_dialogues1.rpy:10
 translate english sleep_scene1_2be26c48:
@@ -41,7 +41,7 @@ translate english sleep_scene1_3d95f619:
     m "What restaurant?"
 
 # game/Quests/EP2/ep2_dialogues1.rpy:32
-translate english sleep_scene1_10641ca1:
+translate english sleep_scene1_059f3a5a:
 
     # dick "В самый лучший! В отеле Le Grand!"
     dick "To the best! To Le Grand!"
@@ -1232,23 +1232,31 @@ translate english monica_goout1_governess_restrict_1f686299_1:
 
 translate english strings:
 
-    # game/Quests/EP2/ep2_dialogues1.rpy:548
+    # Quests/EP2/ep2_dialogues1.rpy:548
     old "Бетти подумывает взять Монику в фитнесс зал"
     new "Betty is considering taking Monica to the fitness gym."
 
-    # game/Quests/EP2/ep2_dialogues1.rpy:554
+    # Quests/EP2/ep2_dialogues1.rpy:554
     old "Моника еще не проявила себя"
     new "Monica hasn't shown herself yet"
 
-    # game/Quests/EP2/ep2_dialogues1.rpy:574
+    # Quests/EP2/ep2_dialogues1.rpy:574
     old "Моника регулярно убирается"
     new "Monica cleaned up regularly"
 
-    # game/Quests/EP2/ep2_dialogues1.rpy:579
+    # Quests/EP2/ep2_dialogues1.rpy:579
     old "Моника плохо работает"
     new "Monica doesn't work well"
 
-    # game/Quests/EP2/ep2_dialogues1.rpy:758
+    # Quests/EP2/ep2_dialogues1.rpy:758
     old "Моника нерегулярно убирается в доме"
     new "Monica irregularly cleaned the house"
+
+# TODO: Translation updated at 2019-04-18 00:15
+
+# game/Quests/EP2/ep2_dialogues1.rpy:32
+translate english sleep_scene1_10641ca1:
+
+    # dick "В самый лучший! В отеле Le Grand!"
+    dick "To the best! To Le Grand!"
 

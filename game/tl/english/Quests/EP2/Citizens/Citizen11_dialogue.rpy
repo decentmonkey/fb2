@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:6
 translate english citizen11_dialogue_b8f1bd99:
@@ -142,15 +142,15 @@ translate english citizen11_dialogue_pilon_4d02bdba:
 
 translate english strings:
 
-    # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:37
+    # Quests/EP2/Citizens/Citizen11_dialogue.rpy:37
     old "Вот, возьмите."
     new "Here, take this."
 
-    # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:37
+    # Quests/EP2/Citizens/Citizen11_dialogue.rpy:37
     old "У меня нет алкоголя."
     new "I have no alcohol."
 
-    # game/Quests/EP2/Citizens/Citizen11_dialogue.rpy:83
+    # Quests/EP2/Citizens/Citizen11_dialogue.rpy:83
     old "Нет, спасибо."
     new "No, thanks."
 

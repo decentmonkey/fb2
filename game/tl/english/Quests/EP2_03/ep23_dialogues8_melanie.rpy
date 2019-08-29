@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:8
 translate english ep23_dialogues8_1_623d812f:
@@ -1284,19 +1284,19 @@ translate english ep23_dialogues8_4_ea50a044:
 
 translate english strings:
 
-    # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:872
+    # Quests/EP2_03/ep23_dialogues8_melanie.rpy:872
     old "Согласиться на кастинг."
     new "Agree for an audition."
 
-    # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:872
+    # Quests/EP2_03/ep23_dialogues8_melanie.rpy:872
     old "Попросить Мелани помочь без кастинга. (хорошие отношения с Мелани)"
     new "Ask Melanie for help without an audition. (good relationship with Melanie)"
 
-    # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:872
+    # Quests/EP2_03/ep23_dialogues8_melanie.rpy:872
     old "Попросить Мелани помочь без кастинга. (плохие отношения с Мелани) (disabled)"
     new "Ask Melanie for help without casting. (bad relationship with Melanie) (disabled)"
 
-    # game/Quests/EP2_03/ep23_dialogues8_melanie.rpy:872
+    # Quests/EP2_03/ep23_dialogues8_melanie.rpy:872
     old "Попросить Мелани помочь без кастинга. (Моника недостаточно скромная) (disabled)"
     new "Ask Melanie for help without casting... (Monica is not decent enough) (disabled)"
 

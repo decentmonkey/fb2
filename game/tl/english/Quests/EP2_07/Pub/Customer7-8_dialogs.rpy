@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-08-29 19:03
 
 # game/Quests/EP2_07/Pub/Customer7-8_dialogs.rpy:7
 translate english customer78_1stmeeting_fd726aa7:
@@ -126,7 +126,7 @@ translate english customer78_1stmeeting_e41d3f30:
 translate english customer78_1stmeeting_94420ba9:
 
     # m "Хорошо."
-    m "Fine."
+    m "Хорошо."
 
 # game/Quests/EP2_07/Pub/Customer7-8_dialogs.rpy:67
 translate english customer78_1stmeeting_626f5f0e:
@@ -135,7 +135,7 @@ translate english customer78_1stmeeting_626f5f0e:
     # customer7 "Вот, держи!" 
     # customer7 "Приходи к нам чаще! Я вижу в тебе потенциал."
     customer7 "То что надо! Похоже, ты умеешь читать мысли!"
-    customer7 "Here you go!" 
+    customer7 "Вот, держи!" 
     customer7 "Приходи к нам чаще! Я вижу в тебе потенциал."
 
 # game/Quests/EP2_07/Pub/Customer7-8_dialogs.rpy:71
@@ -148,7 +148,7 @@ translate english customer78_1stmeeting_46f1c327:
 translate english customer78_1stmeeting_a511da94:
 
     # m "До свидания."
-    m "Goodbye."
+    m "До свидания."
 
 # game/Quests/EP2_07/Pub/Customer7-8_dialogs.rpy:78
 translate english customer78_serve1_b327a8da:

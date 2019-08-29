@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2019-08-29 19:05
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:7
 translate german ep27_dialogues2_melanie1_10836444:
@@ -78,7 +78,7 @@ translate german ep27_dialogues2_melanie2_f05f871b:
     # reception_secretary "Здравствуйте, Миссис Мелани!" 
     # reception_secretary "Рада снова видеть Вас!"
     # reception_secretary "Вы решили навестить Мистера Дика?"
-    reception_secretary "Hallo, Melanie!" 
+    reception_secretary "Здравствуйте, Миссис Мелани!" 
     reception_secretary "Рада снова видеть Вас!"
     reception_secretary "Вы решили навестить Мистера Дика?"
 
@@ -116,7 +116,7 @@ translate german ep27_dialogues2_melanie2_69417e87:
 translate german ep27_dialogues2_melanie2_7ad5efc3:
 
     # melanie "Спасибо." 
-    melanie "Danke." 
+    melanie "Спасибо." 
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:88
 translate german ep27_dialogues2_melanie2_5d97b613:
@@ -445,7 +445,7 @@ translate german ep27_dialogues2_melanie2_b18c61a1:
     img_13993
     melanie "!!!" 
     img_13994
-    melanie "Ich..." 
+    melanie "Я..." 
     melanie "Я немного знакома с ним..."
     img_13995
     melanie "Мисс Виктория." 
@@ -572,7 +572,7 @@ translate german ep27_dialogues2_melanie2_9f83aba4:
     # dick_secretary "Да, кстати." 
     # dick_secretary "У меня есть еще одна подружка, которую ты хорошо знаешь."
     img_14019
-    melanie "Victoria..." 
+    melanie "Мисс Виктория..." 
     melanie "Я хочу стать Вашей подружкой."
     img_14020
     dick_secretary "Неубедительно." 
@@ -581,7 +581,7 @@ translate german ep27_dialogues2_melanie2_9f83aba4:
     img_14021
     melanie "!!!" 
     img_14022
-    melanie "Victoria..." 
+    melanie "Мисс Виктория..." 
     melanie "Я - Мелани, самая популярная модель Модного Журнала."
     melanie "Я очень известна и знаменита."
     melanie "И Я бы очень хотела стать Вашей подружкой."
@@ -598,7 +598,7 @@ translate german ep27_dialogues2_melanie2_9f83aba4:
     img_14027
     dick_secretary "???" 
     img_14028
-    melanie "Ja, ich stimme zu..." 
+    melanie "Да, я согласна..." 
     img_14029
     dick_secretary "Повтори все что я сказала!" 
     img_14030
@@ -606,7 +606,7 @@ translate german ep27_dialogues2_melanie2_9f83aba4:
     img_14031
     dick_secretary "!!!" 
     img_14032
-    melanie "Ich..." 
+    melanie "Я..." 
     melanie "Я обещаю что буду хорошей подружкой."
     melanie "И буду каждый четверг присылать Вам сертификат на $ 10.000."
     img_14033
@@ -623,7 +623,7 @@ translate german ep27_dialogues2_melanie2_9f83aba4:
     img_14038
     melanie "..." 
     img_14039
-    dick_secretary "Oh, anbei..." 
+    dick_secretary "Да, кстати." 
     dick_secretary "У меня есть еще одна подружка, которую ты хорошо знаешь."
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:387
@@ -741,7 +741,7 @@ translate german ep27_dialogues2_melanie2_5b2a8905:
     # melanie "Хорошо..."
     # melanie "Я сделаю это, но на этом все, договорились?"
     melanie "..." 
-    melanie "Gut..."
+    melanie "Хорошо..."
     melanie "Я сделаю это, но на этом все, договорились?"
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:441
@@ -777,7 +777,7 @@ translate german ep27_dialogues2_melanie2_addb9ae4:
 
     # dick_secretary "Отлично!" 
     # dick_secretary "Теперь Мистер Дик поймет, что ты такая же шлюха, как и Бакфетт!"
-    dick_secretary "Ausgezeichnet!" 
+    dick_secretary "Отлично!" 
     dick_secretary "Теперь Мистер Дик поймет, что ты такая же шлюха, как и Бакфетт!"
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:464
@@ -798,8 +798,8 @@ translate german ep27_dialogues2_melanie2_533c5e53:
     # melanie "Я знаю..." 
     # melanie "Мисс Виктория..."
     # melanie "Все мечтают о такой груди, как у меня..."
-    melanie "Ich habe herausgefunden..." 
-    melanie "Victoria..."
+    melanie "Я знаю..." 
+    melanie "Мисс Виктория..."
     melanie "Все мечтают о такой груди, как у меня..."
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:474
@@ -845,8 +845,8 @@ translate german ep27_dialogues2_melanie2_4a327b6e:
 
     # dick_secretary "Правильный ответ." 
     # dick_secretary "Хорошая подружка!"
-    dick_secretary "Richtig." 
-    dick_secretary "Gute Freundin!"
+    dick_secretary "Правильный ответ." 
+    dick_secretary "Хорошая подружка!"
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:496
 translate german ep27_dialogues2_melanie2_48838778:
@@ -854,7 +854,7 @@ translate german ep27_dialogues2_melanie2_48838778:
     # melanie "Мисс Виктория, мы закончили?" 
     # melanie "Я могу идти?"
     melanie "Мисс Виктория, мы закончили?" 
-    melanie "Kann ich gehen?"
+    melanie "Я могу идти?"
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:499
 translate german ep27_dialogues2_melanie2_b3e08f59:
@@ -926,7 +926,7 @@ translate german ep27_dialogues2_melanie2_c674f2f5:
 translate german ep27_dialogues2_melanie2_461881f3:
 
     # melanie "ЧТО?!" 
-    melanie "WAS?!" 
+    melanie "ЧТО?!" 
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:545
 translate german ep27_dialogues2_melanie2_aad5c80c:
@@ -1089,7 +1089,7 @@ translate german ep27_dialogues2_melanie2_974ef23c:
 
     # dick_secretary "Хорошо..."
     # dick_secretary "Возьми мой большой пальчик себе в рот..."
-    dick_secretary "Gut..."
+    dick_secretary "Хорошо..."
     dick_secretary "Возьми мой большой пальчик себе в рот..."
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:626

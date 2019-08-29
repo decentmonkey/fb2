@@ -6,7 +6,7 @@ translate german strings:
     old "{b}Note:{/b} Microsoft's DirectX web setup program will, by default, install the Bing toolbar. If you do not want this toolbar, uncheck the appropriate box."
     new ""
 
-# TODO: Translation updated at 2019-08-15 14:57
+# TODO: Translation updated at 2019-08-29 19:17
 
 translate german strings:
 

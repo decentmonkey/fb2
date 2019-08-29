@@ -1,12 +1,12 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2019-03-02 22:56
 
 translate german strings:
 
-    # game/Quests/EP2_03/EP23_Quests_Melanie.rpy:22
+    # Quests/EP2_03/EP23_Quests_Melanie.rpy:21
     old "ГРИМЕРНАЯ КОМНАТА"
     new "MAKEUP RAUM"
 
-    # game/Quests/EP2_03/EP23_Quests_Melanie.rpy:25
+    # Quests/EP2_03/EP23_Quests_Melanie.rpy:24
     old "Мелани очень любит себя."
     new "Melanie ist selbstverliebt."
 

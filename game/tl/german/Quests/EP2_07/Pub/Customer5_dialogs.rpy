@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:44
+﻿# TODO: Translation updated at 2019-08-29 19:05
 
 # game/Quests/EP2_07/Pub/Customer5_dialogs.rpy:5
 translate german customer5_1stmeeting_fd726aa7:
@@ -76,7 +76,7 @@ translate german customer5_1stmeeting_b8f9f334:
 translate german customer5_1stmeeting_94420ba9:
 
     # m "Хорошо."
-    m "Na gut."
+    m "Хорошо."
 
 # game/Quests/EP2_07/Pub/Customer5_dialogs.rpy:42
 translate german customer5_1stmeeting_2b297aeb:

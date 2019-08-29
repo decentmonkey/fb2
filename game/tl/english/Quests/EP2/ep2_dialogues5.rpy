@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-26 19:45
+﻿# TODO: Translation updated at 2019-04-08 16:14
 
 # game/Quests/EP2/ep2_dialogues5.rpy:50
 translate english monica_rich_hotel_entrance_31ad8d20:
@@ -3000,183 +3000,183 @@ translate english monica_basement_bedroom_before_sleep1_7513074d:
 
 translate english strings:
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:227
+    # Quests/EP2/ep2_dialogues5.rpy:227
     old "Сказать всем правду!"
     new "Tell everyone the truth!"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:227
+    # Quests/EP2/ep2_dialogues5.rpy:227
     old "Подыграть Бифу. Если я хочу все вернуть назад, то надо быть хитрее..."
     new "Play along with Biff. If I want everything back, I have to be smart..."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:227
+    # Quests/EP2/ep2_dialogues5.rpy:227
     old "Еще подумать..."
     new "Think carefully..."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:250
+    # Quests/EP2/ep2_dialogues5.rpy:250
     old "Несколько часов спустя..."
     new "A few hours later..."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:275
+    # Quests/EP2/ep2_dialogues5.rpy:275
     old "Продолжение следует..."
     new "To be continued..."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:490
+    # Quests/EP2/ep2_dialogues5.rpy:490
     old "Я - та кто уволит тебя за этот проступок!"
     new "I'm the one who will fire you for this misdemeanor!"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:490
+    # Quests/EP2/ep2_dialogues5.rpy:490
     old "Я понимаю. У тебя много забот..."
     new "I understand. You're very busy..."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:575
+    # Quests/EP2/ep2_dialogues5.rpy:575
     old "Отказаться..."
     new "Refuse..."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:898
+    # Quests/EP2/ep2_dialogues5.rpy:898
     old "Ну... Хорошо... Давай потанцуем..."
     new "Well... OK...Let's dance..."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:898
+    # Quests/EP2/ep2_dialogues5.rpy:898
     old "Я пока не решила..."
     new "I haven't decided yet..."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1077
+    # Quests/EP2/ep2_dialogues5.rpy:1077
     old "$ 30.000.000 и я подумаю! (corruption)"
     new "$ 30,000,000 and I'll think about it! (corruption)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1077
+    # Quests/EP2/ep2_dialogues5.rpy:1077
     old "$ 30.000.000 и я подумаю! (low corruption, required [monicaPhilipTalkBlowjobCorruptionRequired]) (disabled)"
     new "$ 30.000.000 and I'll think! (low corruption, required [monicaPhilipTalkBlowjobCorruptionRequired]) (disabled)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1077
+    # Quests/EP2/ep2_dialogues5.rpy:1077
     old "Вы правда думаете что я стою так мало?"
     new "Do you really think my price is as little?"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1149
+    # Quests/EP2/ep2_dialogues5.rpy:1149
     old "Биф! Мы можем отойти на пару минут?"
     new "Biff! Could we take a few minutes?"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1174
+    # Quests/EP2/ep2_dialogues5.rpy:1174
     old "Биф, пожалуйста, дай деньги. Я буду хорошей цыпочкой..."
     new "Biff, please give me the money. I'll be a good girl..."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1174
+    # Quests/EP2/ep2_dialogues5.rpy:1174
     old "Я ни за что это не скажу! Уйти."
     new "I would never say that for the world to hear! Escape."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1269
+    # Quests/EP2/ep2_dialogues5.rpy:1269
     old "Да, давай еще потанцуем."
     new "Yes, let's dance."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1295
+    # Quests/EP2/ep2_dialogues5.rpy:1295
     old "Я не собираюсь про это говорить!"
     new "I'm not going to talk about that!"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1295
+    # Quests/EP2/ep2_dialogues5.rpy:1295
     old "Хх... Хорошо... Филипп..."
     new "Mm.. OK... Philip..."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1359
+    # Quests/EP2/ep2_dialogues5.rpy:1359
     old "В МОЕМ! (хмык)"
     new "IN MINE! (sob)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1359
+    # Quests/EP2/ep2_dialogues5.rpy:1359
     old "Мне... Мне надо подумать!"
     new "I... I need to think!"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1473
+    # Quests/EP2/ep2_dialogues5.rpy:1473
     old "Сесть на колени. (corruption)"
     new "Sit on the knees. (corruption)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1473
+    # Quests/EP2/ep2_dialogues5.rpy:1473
     old "Сесть на колени. (low corruption, required [monicaPhilipBlojwobKneesCorruptionRequired]) (disabled)"
     new "Sit on the knees. (low corruption, required [monicaPhilipBlojwobKneesCorruptionRequired]) (disabled)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1473
+    # Quests/EP2/ep2_dialogues5.rpy:1473
     old "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!!"
     new "I'M NOT GOING TO DO THAT!!!"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1531
+    # Quests/EP2/ep2_dialogues5.rpy:1531
     old "Я НЕ СОБИРАЮСЬ ЭТОГО ДЕЛАТЬ!!! (убежать)"
     new "I'M NOT GOING TO DO THAT!!! (run away)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1531
+    # Quests/EP2/ep2_dialogues5.rpy:1531
     old "Открыть рот... (corruption)"
     new "Open mouth... (corruption)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1531
+    # Quests/EP2/ep2_dialogues5.rpy:1531
     old "Открыть рот... (low corruption, required [monicaPhilipBlojwobOpenMouthCorruptionRequired]) (disabled)"
     new "Open your mouth... (low corruption, required [monicaPhilipBlojwobOpenMouthCorruptionRequired]) (disabled)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1561
+    # Quests/EP2/ep2_dialogues5.rpy:1561
     old "Делать все что говорит Филипп. У меня нет выхода. Мне нужны эти деньги!!! (corruption)"
     new "Do all that Philip says. I have no choice. I need this money!!! (corruption)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1561
+    # Quests/EP2/ep2_dialogues5.rpy:1561
     old "Делать все что говорит Филипп. У меня нет выхода. Мне нужны эти деньги!!! (low corruption, required [monicaPhilipBlojwobOpenMouth2CorruptionRequired]) (disabled)"
     new "Do what Philip says. I have no choice. I need the money!!! (low corruption, required [monicaPhilipBlojwobOpenMouth2CorruptionRequired]) (disabled)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1757
+    # Quests/EP2/ep2_dialogues5.rpy:1757
     old "Пожалуйста, дайте еще $ 500!!!"
     new "Please give me another $ 500!!!"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1782
+    # Quests/EP2/ep2_dialogues5.rpy:1782
     old "Я могу сделать это еще раз... (corruption)"
     new "I can do it again... (corruption)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1782
+    # Quests/EP2/ep2_dialogues5.rpy:1782
     old "Я могу сделать это еще раз... (low corruption, required [monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired]) (disabled)"
     new "I can do it again... (low corruption, required [monicaPhilipBlojwobOpenOfferedAgainCorruptionRequired]) (disabled)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1782
+    # Quests/EP2/ep2_dialogues5.rpy:1782
     old "Я не знаю... Мне нечего предложить..."
     new "I do not know... I have nothing to offer..."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1899
+    # Quests/EP2/ep2_dialogues5.rpy:1899
     old "Открыть рот для нового члена. (corruption)"
     new "Open your mouth for a new dick. (corruption)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1899
+    # Quests/EP2/ep2_dialogues5.rpy:1899
     old "Открыть рот для нового члена. (low corruption, required [monicaPhilipBlojwobOpenMouthAgainCorruptionRequired]) (disabled)"
     new "Open your mouth for a new dick. (low corruption, required [monicaPhilipBlojwobOpenMouthAgainCorruptionRequired]) (disabled)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1899
+    # Quests/EP2/ep2_dialogues5.rpy:1899
     old "Не открывать самой..."
     new "Do not open by myself..."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1972
+    # Quests/EP2/ep2_dialogues5.rpy:1972
     old "Моника была добра к нему"
     new "Monica was kind to him"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:1994
+    # Quests/EP2/ep2_dialogues5.rpy:1994
     old "Моника обещала уволить его"
     new "Monica promised to fire him"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:2026
+    # Quests/EP2/ep2_dialogues5.rpy:2026
     old "Открыть рот. Я решила делать все что говорит Филипп. Если я не достану эти деньги, то мне конец!"
     new "Open my mouth. I decided to do everything Philip says. If I don't get that money, I'm dead!"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:2026
+    # Quests/EP2/ep2_dialogues5.rpy:2026
     old "Я не могу это сделать..."
     new "I couldn't possibly do that..."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:2192
+    # Quests/EP2/ep2_dialogues5.rpy:2192
     old "Делать как сказал Филипп..."
     new "Do as Philip said..."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:2230
+    # Quests/EP2/ep2_dialogues5.rpy:2230
     old "Проглотить сперму двух мужчин... (corruption)"
     new "Swallow the sperm of two men... (corruption)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:2230
+    # Quests/EP2/ep2_dialogues5.rpy:2230
     old "Проглотить сперму двух мужчин... (low corruption, required [monicaPhilipBlojwobTakeSpermCorruptionRequired]) (disabled)"
     new "Swallow the sperm of the two men... (low corruption, required [monicaPhilipBlojwobTakeSpermCorruptionRequired]) (disabled)"
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:2230
+    # Quests/EP2/ep2_dialogues5.rpy:2230
     old "Притвориться что проглотила..."
     new "Pretend to swallow..."
 
-    # game/Quests/EP2/ep2_dialogues5.rpy:2270
+    # Quests/EP2/ep2_dialogues5.rpy:2270
     old "Проглотить сперму по настоящему, иначе Филипп увидит и я не получу деньги..."
     new "Swallow the cum for real. Philip will check for sure, and I won't get the money..."
 
