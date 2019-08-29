@@ -269,6 +269,7 @@ label citizens_init:
     return
 
 label citizens_init_day:
+    $ citizensAmountDay = 15 #debug!!!!
     python:
         citizensDayList = random.sample(set(list(citizens_list_source.keys())), citizensAmountDay)
 #        citizensDayList = citizens_list_source.keys() #debug!!!

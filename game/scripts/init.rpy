@@ -190,6 +190,7 @@ define monicaWhoringClothAssSpankCorruptionRequired = 90  # Кол-во corrupti
 define monicaWhoringClothPylonDanceCorruptionRequired = 90 # Кол-во corruption, чтобы Моника танцевала на пилоне
 define monicaWhoringClothPylonDanceVisitsRequired = 1 # Кол-во визитов у этого клиента, чтобы появилась возможность танцевать на пилоне
 define monicaWhoringNakedBoobsVisitsRequired = 4 # Кол-во визитов у этого клиента, чтобы появилась возможность показывать обнаженную грудь
+define monicaWhoringNakedBoobsDanceVisitsRequired = 0 # Кол-во визитов у этого клиента, чтобы появилась возможность танцевать с обнаженной грудью #debug!!!
 define monicaWhoringClothNakedBoobsCorruptionRequired = 100 # Кол-во corruption, чтобы Моника показала голые сиськи
 define monicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired = 110  # Кол-во corruption, чтобы Моника показала голые сиськи и сжала соски
 define monicaWhoringClothNakedBoobsShakeCorruptionRequired = 110  # Кол-во corruption, чтобы Моника показала голые сиськи и потрясла ими
@@ -200,11 +201,13 @@ define monicaWhoringClothBoobsTongueCorruptionProgress = 1 #Кол-во corrupti
 define monicaWhoringClothAssCorruptionProgress = 1 #Кол-во corruption, которые даются за пока зада в одежде
 define monicaWhoringClothPylonDanceCorruptionProgress = 1 #Кол-во corruption, которые даются за танец у пилона в одежде
 define monicaWhoringClothNakedBoobsCorruptionProgress = 2 #Кол-во corruption, которые даются за голые сиськи
+define monicaWhoringClothNakedBoobsDanceCorruptionProgress = 2 #Кол-во corruption, которые даются за танец с голыми сиськами
 
 define monicaWhoringClothBoobsOrButtMoney = 0.25 # Моника показала грудь в одежде, либо зад в одежде (что-то одно)
 define monicaWhoringClothBoobsAndButtMoney = 0.50 # Моника показала грудь в одежде и зад в одежде (и то и то)
 define monicaWhoringClothDanceMoney = 0.25 # Моника станцеывала в одежде
 define monicaWhoringNakedBoobsMoney = 2.0 # Моника показала голую грудь
+define monicaWhoringNakedBoobsMoneyDance = 2.0 # Моника станцевала с голой грудью
 
 define monicaVictoriaShowBoobsToCameraCorruptionRequired = 59 #Кол-во corruption, чтобы Моника показала грудь Виктории на телефон
 define monicaDickSeduceAsVictoriaByAssCorruptionRequired = 62 #Кол-во corruption, чтобы Моника показала Дику зад

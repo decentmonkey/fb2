@@ -87,7 +87,7 @@ label monica_gosleep1:
         call ep22_dialogues3_13() from _call_ep22_dialogues3_13_4
         $ monicaBettyPanties = False
     if monicaEatedLastDay < day:
-        if day - monicaEatedLastDay >= 3 and (monicaCantSleepHungry2 == True or debugMode == False):
+        if day - monicaEatedLastDay >= 3 and (monicaCantSleepHungry2 == True or debugMode == False) and debugMode == False:
             #если Моника не ела 3 дня
             $ autorun_to_object("basement_monica_hungry_cant_sleep")
             call refresh_scene_fade() from _call_refresh_scene_fade_46

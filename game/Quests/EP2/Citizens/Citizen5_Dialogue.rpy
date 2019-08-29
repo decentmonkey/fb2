@@ -1,5 +1,7 @@
 default citizen5BoobsNakesShowedLastDay = 0
+default citizen5BoobsNakedDancedLastDay = 0
 default citizen5BoobsNakesShowedCount = -1
+default citizen5BoobsNakedDancedCount = -1
 label citizen5_dialogue:
     imgl Dial_Monica_Sandwich_0
 #    menu:
@@ -66,6 +68,7 @@ label citizen5_dialogue_pilon:
     $ showedButt = False
     $ showedDance = False
     $ showedNakedBoobs = False
+    $ showedNakedBoobsDance = False
     label citizen5_dialogue_pilon_loop5:
     call pylonController(1, 1) from _call_pylonController_195
     menu:
@@ -197,9 +200,35 @@ label citizen5_dialogue_pilon:
             $ showedNakedBoobs = True
             $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen5_dialogue_pilon_loop5
+
+
+        "Станцуй с голыми сиськами. (disabled)" if pylonpart4startsCompleted == False or citizen5BoobsNakedDancedLastDay == day:
+            pass
+        "Станцуй с голыми сиськами. (мало свиданий) (disabled)" if (pylonpart4startsCompleted == True and citizen5BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") < monicaWhoringNakedBoobsDanceVisitsRequired:
+            pass
+        "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen5BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired:
+            $ store_music()
+            if citizen5BoobsNakedDancedCount == -1:
+                call cit5_naked_boobs_dance_1st()
+                if _return != False:
+                    $ citizen5BoobsNakedDancedCount += 1
+            else:
+                if citizen5BoobsNakedDancedCount%2 == 0:
+                    call cit5_naked_boobs_dance_variant1()
+                if citizen5BoobsNakedDancedCount%2 == 1:
+                    call cit5_naked_boobs_dance_variant2()
+                $ citizen5BoobsNakedDancedCount += 1
+            if _return != False:
+                $ citizen5BoobsNakedDancedLastDay = day
+                $ showedNakedBoobsDance = True
+                $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))
+            $ restore_music()
+            jump citizen1_dialogue_pilon_loop5
+
+
         "Достаточно на сегодня.":
             $ earnedMoney = 0
-            if showedBoobs == True or showedButt == True or showedDance == True or showedNakedBoobs == True:
+            if showedBoobs == True or showedButt == True or showedDance == True or showedNakedBoobs == True or showedNakedBoobsDance == True:
                 if showedBoobs == True:
                     $ earnedMoney += monicaWhoringClothBoobsOrButtMoney
                 if showedButt == True:
@@ -208,6 +237,8 @@ label citizen5_dialogue_pilon:
                     $ earnedMoney += monicaWhoringClothDanceMoney
                 if showedNakedBoobs == True:
                     $ earnedMoney += monicaWhoringNakedBoobsMoney
+                if showedNakedBoobsDance == True:
+                    $ earnedMoney += monicaWhoringNakedBoobsMoneyDance
                 call pylonController(2, 1) from _call_pylonController_218
                 citizen5 "Ты дать мистеру величайшее наслаждение. Мы видеться скоро вновь!"
                 $ add_money(earnedMoney)

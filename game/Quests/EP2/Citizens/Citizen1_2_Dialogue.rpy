@@ -1,5 +1,7 @@
 default citizen1BoobsNakesShowedLastDay = 0
+default citizen1BoobsNakedDancedLastDay = 0
 default citizen1BoobsNakesShowedCount = -1
+default citizen1BoobsNakedDancedCount = -1
 
 label citizen1_dialogue:
     imgl Dial_Monica_Sandwich_0
@@ -83,6 +85,7 @@ label citizen1_dialogue_pilon:
     $ showedButt = False
     $ showedDance = False
     $ showedNakedBoobs = False
+    $ showedNakedBoobsDance = False
 
     label citizen1_dialogue_pilon_loop1:
     call pylonController(1, 1) from _call_pylonController_150
@@ -232,9 +235,33 @@ label citizen1_dialogue_pilon:
             $ showedNakedBoobs = True
             $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
             jump citizen1_dialogue_pilon_loop1
+        "Станцуй с голыми сиськами. (disabled)" if pylonpart4startsCompleted == False or citizen1BoobsNakedDancedLastDay == day:
+            pass
+        "Станцуй с голыми сиськами. (мало свиданий) (disabled)" if (pylonpart4startsCompleted == True and citizen1BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") < monicaWhoringNakedBoobsDanceVisitsRequired:
+            pass
+        "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen1BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired:
+            $ store_music()
+            if citizen1BoobsNakedDancedCount == -1:
+                call cit1_2_naked_boobs_dance_1st()
+                if _return != False:
+                    $ citizen1BoobsNakedDancedCount += 1
+            else:
+                if citizen1BoobsNakedDancedCount%2 == 0:
+                    call cit1_2_naked_boobs_dance_variant1()
+                if citizen1BoobsNakedDancedCount%2 == 1:
+                    call cit1_2_naked_boobs_dance_variant2()
+                $ citizen1BoobsNakedDancedCount += 1
+            if _return != False:
+                $ citizen1BoobsNakedDancedLastDay = day
+                $ showedNakedBoobsDance = True
+                $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))
+            $ restore_music()
+            jump citizen1_dialogue_pilon_loop1
+
+
         "Достаточно на сегодня.":
             $ earnedMoney = 0
-            if showedBoobs == True or showedButt == True or showedDance == True or showedNakedBoobs == True:
+            if showedBoobs == True or showedButt == True or showedDance == True or showedNakedBoobs == True or showedNakedBoobsDance == True:
                 if showedBoobs == True:
                     $ earnedMoney += monicaWhoringClothBoobsOrButtMoney
                 if showedButt == True:
@@ -243,6 +270,8 @@ label citizen1_dialogue_pilon:
                     $ earnedMoney += monicaWhoringClothDanceMoney
                 if showedNakedBoobs == True:
                     $ earnedMoney += monicaWhoringNakedBoobsMoney
+                if showedNakedBoobsDance == True:
+                    $ earnedMoney += monicaWhoringNakedBoobsMoneyDance
                 call pylonController(2, 1) from _call_pylonController_172
                 citizen1 "Ну все, тетя, хватит. До следующего раза. Вот, держи."
                 $ add_money(earnedMoney)
@@ -495,7 +524,9 @@ label cit1_2_naked_boobs_variant2:
 
 # первый раз танцы с сиськами
 label cit1_2_naked_boobs_dance_1st:
+    music Groove2_85
     img 13188
+    with fade
     citizen1 "Тетя, нам скучно!"
     citizen1 "Как насчет еще одного танца на пилоне?"
     img 13189
@@ -504,14 +535,16 @@ label cit1_2_naked_boobs_dance_1st:
     citizen1 "Эм...Ну да..."
     citizen1 "Короче потанцуй для нас без кофты."
     img 13191
+    with fade
     menu:
-        "Почему бы и нет.":
+        "Мне нужны деньги...":
             pass
         "Хватит с вас и того, что вы уже видели!":
             img 13192
             m "Хватит с вас и того, что вы уже видели!"
             return False
     img 13193
+    with fade
     mt "Я уже танцевала, мою прекрасную грудь они видели... Не так страшно, если все это будет вместе."
     mt "Хуже уже не будет... А мне нужны деньги..."
     img 13194
@@ -519,43 +552,62 @@ label cit1_2_naked_boobs_dance_1st:
     img 13195
     citizen1 "Тетя, тариф стандартный!"
     citizen1 "Но если ты готова станцевать с бутылкой в заднице, это можно обсудить!"
+    music Power_Bots_Loop
     img 13196
     m "Что?! Да как ты смеешь такое говорить?!"
     img 13197
     citizen1 "Ой, тетя! Не кипятись, я пошутил..."
+    music Groove2_85
     img 13198
+    with fade
     m "Только вздумайте еще раз так пошутить! Отвернитесь!"
+
     # отворачиваются
     img 13199
+    with diss
     w
+    sound snd_fabric1
     img 13200
+    with diss
     citizen1 "Конечно, тетя, не вопрос."
+    music Loved_Up
     img 13201
+    with fade
     m "Можете поворачиваться..."
     # поворачиваются, моника стоит с голыми сиськами
     img 13202
     citizen1 "Да, они шикарны. Можешь начинать."
     # движение на пилоне
+    music Molten_Alloy
     img 13203
+    with diss
     w
     img 13204
+    with diss
     w
     img 13205
     citizen1 "Отлично, тетя!"
     # движение на пилоне еще
     img 13206
+    with diss
     w
     img 13207
+    with diss
     citizen1 "Черт, как глупо было просить тебя крутиться в одежде!"
     # движение на пилоне еще
     img 13208
+    with diss
     w
     img 13209
+    with diss
     w
     img 13210
+    with diss
     citizen1 "Вау, тетя! Тебе нужно этим зарабатывать! Хотя стоп, этим ты и занимаешься!"
     citizen1 "Ха-ха-ха!"
+    music Groove2_85
     img 13211
+    with fade
     mt "Грязные панки..."
     mt "Мерзавцы..."
     $ nakedBoobsDanceFirstly_Cit1_2 = True
@@ -563,7 +615,9 @@ label cit1_2_naked_boobs_dance_1st:
 
 # первый выриант
 label cit1_2_naked_boobs_dance_variant1:
+    music Groove2_85
     img 13212
+    with fade
     citizen1 "Тетя, мы снова хотим ощутить себя в стрип клубе!"
     citizen1 "Как насчет еще одного танца на пилоне?"
     img 13213
@@ -572,6 +626,7 @@ label cit1_2_naked_boobs_dance_variant1:
     citizen1 "Но мы ведь не в стрип клубе!"
     citizen1 "Станцуй для нас, и сиськи не забудь оголить."
     img 13215
+    with fade
     menu:
         "Хорошо.":
             pass
@@ -580,12 +635,14 @@ label cit1_2_naked_boobs_dance_variant1:
             m "Хватит с вас и того, что вы уже видели!"
             return False
     img 13217
+    with fade
     m "Сколько вы заплатите?"
     img 13218
     citizen1 "Снова ты за свое!"
     citizen1 "Можно подумать о том, как ты можешь заработать больше, но в другой раз."
     citizen1 "И вообще, ты нас утомляешь своей болтовней, раздевайся уже!"
     img 13219
+    with diss
     menu:
         "Хорошо.":
             pass
@@ -595,43 +652,60 @@ label cit1_2_naked_boobs_dance_variant1:
             m "Вы и так уже видели достаточно!"
             return False
     img 13221
+    with fade
     m "Хорошо. Отвернитесь!"
     # отворачиваются
     img 13222
     citizen1 "Конечно, тетя, не вопрос."
+    sound snd_fabric1
+    music Loved_Up
     img 13223
+    with fade
     w
     img 13224
+    with fadelong
     m "Можете поворачиваться.."
     # поворачиваются, моника стоит с голыми сиськами
     img 13225
     citizen1 "Тетя, тебе особое приглашение нужно? Начинай уже!"
     # движение на пилоне
+    music Molten_Alloy
     img 13226
+    with diss
     w
     img 13227
+    with diss
     citizen1 "Отлично, тетя!"
     # движение на пилоне еще
     img 13228
+    with diss
     w
     img 13229
+    with diss
     citizen1 "Черт, как глупо было просить тебя крутиться в одежде!"
     # движение на пилоне еще
     img 13230
+    with diss
     w
     img 13231
+    with diss
     citizen1 "И зачем мы ходим в стрип клуб?"
     # моника слезает  спилона, панк достает бутылку
     img 13234
     w
     img 13232
+    with fade
     citizen1 "Тетя, ты помнишь про наше предложение насчет бутылки?"
     # моника злая
+    music Power_Bots_Loop
     img 13233
+    with fade
     m "Еще слово, и я засуну бутылку тебе в зад!"
     img 13235
     citizen1 "Ха-ха-ха! Два раза одна и та же шутка прошла!"
+    music Groove2_85
     img 13236
+    with fade
     mt "Грязные панки..."
     img 13237
     citizen1 "Ладно, молодец, тетя, нам понравилось!"
@@ -639,24 +713,33 @@ label cit1_2_naked_boobs_dance_variant1:
 
 # второй выриант
 label cit1_2_naked_boobs_dance_variant2:
+    music Groove2_85
     img 13238
+    with fade
     citizen1 "Тетя, станцуй! И не забуть снять кофту!"
     img 13239
+    with fade
     menu:
-        "Хорошо.":
+        "Мне нужны деньги...":
             pass
         "Хватит с вас и того, что вы уже видели!":
             img 13240
             m "Хватит с вас и того, что вы уже видели!"
             return False
     img 13241
+    with fade
     m "Хорошо. Отвернитесь!"
     # отворачиваются
+    music Loved_Up
     img 13242
+    with diss
     citizen1 "..."
+    sound snd_fabric1
     img 13223
+    with fade
     w
     img 13224
+    with fadelong
     m "Можете поворачиваться.."
     # поворачиваются, моника стоит с голыми сиськами
     img 13225
@@ -664,16 +747,22 @@ label cit1_2_naked_boobs_dance_variant2:
     img 13243
     mt "Что-то они какие-то молчаливые... Это подозрительно..."
     # движение на пилоне
+    music Molten_Alloy
     img 13244
+    with diss
     w
     img 13245
+    with diss
     citizen1 "Отлично!"
     # движение на пилоне еще
     img 13246
+    with diss
     w
     img 13247
+    with diss
     citizen1 "Не плохо!"
     img 13248
+    with diss
     mt "Что это с ними сегодня? Они ведут себя не как обычно..."
     # движение на пилоне еще
     # когда моника крутится на пилоне спиной к панкам, один из них достает
@@ -681,10 +770,15 @@ label cit1_2_naked_boobs_dance_variant2:
     # звук фотографировния
     # моника слезает с шеста
     img 13249
+    with diss
     w
     img 13250
+    with diss
+    call photoshop_flash()
     w
+    music Groove2_85
     img 13251
+    with diss
     m "Что это был за звук?"
     img 13252
     mt "Как будто меня сфотографировали..."
@@ -695,7 +789,9 @@ label cit1_2_naked_boobs_dance_variant2:
     img 13255
     citizen1 "Нет, тетя! Да и откуда у нас фотоаппарат?"
     img 13256
+    with fade
     mt "И правда, откуда... Хотя... Нет, у них нет фотоаппарата..."
     img 13257
+    with diss
     citizen1 "Кстати, отличный танец!"
     return True
