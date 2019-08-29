@@ -160,3 +160,11 @@ translate german strings:
     old "Одеть красное платье."
     new "Zieh das rote Kleid an."
 
+# TODO: Translation updated at 2019-08-26 19:44
+
+translate german strings:
+
+    # game/Characters/Monica/Wardrobe_Basement.rpy:150
+    old "Переодеться в одежду шлюхи."
+    new "Zieh die Nuttenkleider an."
+

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-05-21 02:20
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/EP2_05/ep25_dialogues4_map.rpy:3
 translate english ep25_dialogues4_map1_b1524046:
@@ -19,20 +19,6 @@ translate english ep25_dialogues4_map2_8100b9ff:
     mt "I'd better not show myself dressed like that."
     mt "I'm looking like Monica Buckfett and people can recognize me."
     mt "I have to sneak to my room without attracting any attention."
-
-# game/Quests/EP2_05/ep25_dialogues4_map.rpy:23
-translate english ep25_dialogues4_map3_b7fbd4e8:
-
-    # m "Красивое платье"
-    m "Beautiful dress."
-
-translate english strings:
-
-    # Quests/EP2_05/ep25_dialogues4_map.rpy:7
-    old "Переодеться в одежду шлюхи."
-    new "Put on whore's clothes."
-
-# TODO: Translation updated at 2019-06-01 03:20
 
 # game/Quests/EP2_05/ep25_dialogues4_map.rpy:25
 translate english ep25_dialogues4_map3_ed0a7d78:

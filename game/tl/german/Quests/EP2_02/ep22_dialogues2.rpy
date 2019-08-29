@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-01-14 00:27
+﻿# TODO: Translation updated at 2019-08-26 19:44
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:81
 translate german ep22_dialogues2_1_49727905:
@@ -181,7 +181,7 @@ translate german ep22_dialogues2_1_8212f0e5:
     ralph "Aber ich verstehe nicht, was du davon hast, Fred?"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:154
-translate german ep22_dialogues2_1_829d42d4:
+translate german ep22_dialogues2_1_2dc59ffb:
 
     # fred "О! Мистер Робертс!"
     # "Я профессионал!"
@@ -303,8 +303,8 @@ translate german ep22_dialogues2_1_48271a1e:
 # game/Quests/EP2_02/ep22_dialogues2.rpy:235
 translate german ep22_dialogues2_1_f9c1b037:
 
-    # fred "..."
-    fred "..."
+    # fred "..." 
+    fred "..." 
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:239
 translate german ep22_dialogues2_1_e00f1841:
@@ -349,14 +349,14 @@ translate german ep22_dialogues2_1_0c35fd57:
 # game/Quests/EP2_02/ep22_dialogues2.rpy:254
 translate german ep22_dialogues2_1_3bdb6613:
 
-    # ralph "..."
-    ralph "..."
+    # ralph "..." 
+    ralph "..." 
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:256
 translate german ep22_dialogues2_1_f9c1b037_1:
 
-    # fred "..."
-    fred "..."
+    # fred "..." 
+    fred "..." 
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:262
 translate german ep22_dialogues2_1_06bde803:
@@ -411,7 +411,7 @@ translate german ep22_dialogues2_1_ce263b8a:
     betty "Das kann nicht in deinem Verantwortungsbereich liegen!"
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:281
-translate german ep22_dialogues2_1_a9a3cae8:
+translate german ep22_dialogues2_1_47b3c708:
 
     # fred "Мэм! Я вижу Вы недавно в столице."
     # "У Вас ведь не было личного водителя до этого?"
@@ -639,8 +639,8 @@ translate german ep22_dialogues2_4_4307dcb3:
 # game/Quests/EP2_02/ep22_dialogues2.rpy:438
 translate german ep22_dialogues2_4_3a99a038:
 
-    # betty "Тогда вот ЭТО ЧТО ТАКОЕ???"
-    betty "Dann, WAS ist DAS???"
+    # betty "Тогда вот ЭТО ЧТО ТАКОЕ???" 
+    betty "Dann, WAS ist DAS???" 
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:441
 translate german ep22_dialogues2_4_0a5616b8:
@@ -957,8 +957,8 @@ translate german ep22_dialogue2_8_f2060836:
 # game/Quests/EP2_02/ep22_dialogues2.rpy:661
 translate german ep22_dialogue2_8_f9c1b037:
 
-    # fred "..."
-    fred "..."
+    # fred "..." 
+    fred "..." 
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:665
 translate german ep22_dialogue2_8_9bf469f2:
@@ -1097,8 +1097,8 @@ translate german ep22_dialogue2_8_1_8337b73a:
 # game/Quests/EP2_02/ep22_dialogues2.rpy:901
 translate german ep22_dialogue2_8_1_23b77084:
 
-    # "Мои трусики???"
-    "Mein Höschen?"
+    # "Мои трусики???" 
+    "Mein Höschen?" 
 
 # game/Quests/EP2_02/ep22_dialogues2.rpy:905
 translate german ep22_dialogue2_8_1_d924fe99:
@@ -1304,72 +1304,51 @@ translate german ep22_dialogue2_8_2_b9dd673e:
 
 translate german strings:
 
-    # Quests/EP2_02/ep22_dialogues2.rpy:298
+    # game/Quests/EP2_02/ep22_dialogues2.rpy:298
     old "Дотронуться до члена Фреда."
     new "Berühre Fred's Penis."
 
-    # Quests/EP2_02/ep22_dialogues2.rpy:330
+    # game/Quests/EP2_02/ep22_dialogues2.rpy:330
     old "Хорошо, я приду в прачечную в районе обеда."
     new "Ok, ich komme gegen Mittag runter."
 
-    # Quests/EP2_02/ep22_dialogues2.rpy:330
+    # game/Quests/EP2_02/ep22_dialogues2.rpy:330
     old "Я не собираюсь делать этого!"
     new "Das werde ich nicht machen!"
 
-    # Quests/EP2_02/ep22_dialogues2.rpy:509
+    # game/Quests/EP2_02/ep22_dialogues2.rpy:509
     old "Мэм. Я считаю этот ковер необязательно нести в химчистку..."
     new "Ich denke, dieser Teppich muss nicht in die Reinigung..."
 
-    # Quests/EP2_02/ep22_dialogues2.rpy:520
+    # game/Quests/EP2_02/ep22_dialogues2.rpy:520
     old "Да, Мэм. Я буду тереть пятно каждый день. Его можно оттереть."
     new "Ja, das mache ich, jeden Tag. Er kann so entfernt werden."
 
-    # Quests/EP2_02/ep22_dialogues2.rpy:552
+    # game/Quests/EP2_02/ep22_dialogues2.rpy:552
     old "Мэм. Я должна отлучиться ненадолго. Затем я сразу же приступлю к работе. (Бетти недовольна. Сброс прогресса)"
     new "Ich muss für eine Weile weg, dann arbeite ich sofort weiter. (Betty ist unglücklich. Starte den Fortschritt von vorne)"
 
-    # Quests/EP2_02/ep22_dialogues2.rpy:552
+    # game/Quests/EP2_02/ep22_dialogues2.rpy:552
     old "Да, Мэм. Я уже приступаю. (Опоздание к Дику)"
     new "Ja, ich fange gleich an. (Du kommst zu spät zu Dick)"
 
-    # Quests/EP2_02/ep22_dialogues2.rpy:621
+    # game/Quests/EP2_02/ep22_dialogues2.rpy:621
     old "ТЕМ ВРЕМЕНЕМ..."
     new "WÄHRENDDESSEN..."
 
-    # Quests/EP2_02/ep22_dialogues2.rpy:681
+    # game/Quests/EP2_02/ep22_dialogues2.rpy:681
     old "Коснуться члена Фреда язычком..."
     new "Berühre Fred's Schwanz mit der Zunge..."
 
-    # Quests/EP2_02/ep22_dialogues2.rpy:681
+    # game/Quests/EP2_02/ep22_dialogues2.rpy:681
     old "Нет времени на это..."
     new "Dafür ist keine Zeit..."
 
-    # Quests/EP2_02/ep22_dialogues2.rpy:724
+    # game/Quests/EP2_02/ep22_dialogues2.rpy:724
     old "Сделай это быстро..."
     new "Lass es uns schnell machen..."
 
-    # Quests/EP2_02/ep22_dialogues2.rpy:724
+    # game/Quests/EP2_02/ep22_dialogues2.rpy:724
     old "Я ухожу..."
     new "Ich gehe..."
-# TODO: Translation updated at 2019-01-14 02:06
-
-# game/Quests/EP2_02/ep22_dialogues2.rpy:154
-translate german ep22_dialogues2_1_2dc59ffb:
-
-    # fred "О! Мистер Робертс!"
-    # "Я профессионал!"
-    # "Мне доставляет эстетическое удовольствие то что я окружен другими профессионалами."
-    fred "Oh, Herr Roberts!"
-    "Ich bin auch Profi!"
-    "Ich erhalte ästhetische Genugtuung, von Profis umgeben zu sein."
-
-# game/Quests/EP2_02/ep22_dialogues2.rpy:281
-translate german ep22_dialogues2_1_47b3c708:
-
-    # fred "Мэм! Я вижу Вы недавно в столице."
-    # "У Вас ведь не было личного водителя до этого?"
-    # betty "Нет, не было..."
-    fred "Ich weiß, dass sie noch nicht zu lange in der Hauptstadt sind."
-    "Sie hatten vorher noch keinen eigenen Fahrer, richtig?"
-    betty "Nein, nie..."
 

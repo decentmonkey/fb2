@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-07-17 02:25
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/EP2_06/EP26_Quests_Bardie.rpy:41
 translate english ep26_quests_bardie2a_1c2427c0:

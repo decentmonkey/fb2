@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/AfterJail/AfterJail_House.rpy:2
 translate english afterJailHouse_dialogue1a_99e5cdcb:
@@ -164,7 +164,7 @@ translate english afterJailHouse_dialogue22_8b1d5d88:
 
 translate english strings:
 
-    # Quests/AfterJail/AfterJail_House.rpy:86
+    # game/Quests/AfterJail/AfterJail_House.rpy:86
     old "Там на столике что-то лежит..."
     new "There's something on the table..."
 

@@ -1,82 +1,4 @@
-﻿# TODO: Translation updated at 2019-07-02 18:58
-
-# game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:9
-translate german ep26_dialogues7_melanie1_87f7800f:
-
-    # m "Мелани, ты вернулась?"
-    # m "Где ты так долго была? Что с тобой случилось?"
-    # melanie "Миссис Бакфетт, это Вы?"
-    # m "Да, Мелани, это Я!"
-    # m "И я ждала тебя все это время!"
-    # m "Почему тебя так долго не было?!"
-    # m "Я уже думала что Маркус забрал тебя!"
-    # melanie "Миссис Бакфетт, я не понимаю о чем Вы говорите..."
-    # m "Что значит ты не понимаешь, Мелани?"
-    # m "Я говорю про твой визит к Маркусу!"
-    # m "Ты должна была решить с ним вопрос по поводу меня!"
-    # m "Но, вместо этого, ты куда-то пропала!"
-    # melanie "Мэм, Я не знаю о чем и о ком Вы говорите..."
-    # m "Ты что, играешь со мной, Мелани?!"
-    # m "Ты прекрасно знаешь что я говорю о Маркусе!"
-    # melanie "Мэм, я не знаю кто это..."
-    # melanie "Миссис Бакфетт, я очень занята. Пожалуйста, не отвлекайте меня..."
-    # mt "Она не хочет говорить про Маркуса..."
-    # mt "Она что, обманула меня и не ходила к нему?!"
-    m "Melanie, du bist zurück!!"
-    m "Wo warst du so lange? Was ist passiert?"
-    melanie "Oh, sie sinds, Frau Buckfett..."
-    m "Ja, Melanie. ICH bin's!"
-    m "Ich habe die ganze Zeit auf dich gewartet!"
-    m "Warum warst du so lange weg?"
-    m "Ich habe schon befürchtet, Marcus hat dich erwischt!"
-    melanie "Ich weiß nicht, von was sie reden, Frau Buckfett."
-    m "Was hat das zu bedeuten, Melanie?"
-    m "Ich rede von deinem Besuch bei Marcus!"
-    m "Du solltest ihn besuchen und meine Probleme lösen!"
-    m "Aber anstelle dessen warst du verschwunden!"
-    melanie "Ich weiß nicht von wem oder über was sie reden!"
-    m "Spielst du mit mir?"
-    m "Du weißt sehr wohl, dass ich über Marcus rede!"
-    melanie "Ich habe keine Ahnung, wer Marcus ist..."
-    melanie "Frau Buckfett, ich bin sehr beschäftigt, bitte lenken sie mich nicht weiter ab..."
-    mt "Sie will nicht über Marcus sprechen..."
-    mt "Lügt sie mich an? Vielleicht ist sie gar nicht zu ihm gegangen?"
-
-# game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:36
-translate german ep26_dialogues7_melanie1_a96e3162:
-
-    # m "У меня странное чуство..."
-    # m "Мелани?"
-    # m "Мелани!"
-    # m "Что там? Что там такое?"
-    # m "О БОЖЕ!"
-    # m "НЕТ!"
-    # melanie "Миссис Бакфетт, я просила Вас не беспокоить меня."
-    # m "!!!"
-    m "Ich habe ein seltsames Gefühl..."
-    m "Melanie?"
-    m "Melanie!"
-    m "Was? Was ist das?"
-    m "Oh mein Gott!"
-    m "NEIN!"
-    melanie "Frau Buckfett, ich habe sie doch gebeten, mich nicht weiter zu stören."
-    m "!!!"
-
-translate german strings:
-
-    # Quests/EP2_06/ep26_dialogues7_melanie.rpy:32
-    old "Мелани, ты вернулась?"
-    new "Melanie, du bist zurück!!"
-
-    # Quests/EP2_06/ep26_dialogues7_melanie.rpy:32
-    old "Посмотреть на Мелани."
-    new "Schau Melanie an."
-
-    # Quests/EP2_06/ep26_dialogues7_melanie.rpy:32
-    old "Мелани, пожалуйста, для меня это очень важно! (next update) (disabled)"
-    new "Melanie, bitte, es ist sehr wichtig für mich! (nächstes Update) (disabled)"
-
-# TODO: Translation updated at 2019-07-17 02:23
+﻿# TODO: Translation updated at 2019-08-26 19:44
 
 # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:13
 translate german ep26_dialogues7_melanie1_18a99bab:
@@ -218,7 +140,19 @@ translate german ep26_dialogues7_melanie1_29a4f6ab:
 
 translate german strings:
 
-    # Quests/EP2_06/ep26_dialogues7_melanie.rpy:120
+    # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:7
+    old "Мелани, ты вернулась?"
+    new "Melanie, du bist zurück!!"
+
+    # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:7
+    old "Посмотреть на Мелани."
+    new "Schau Melanie an."
+
+    # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:7
+    old "Мелани, пожалуйста, для меня это очень важно! (next update) (disabled)"
+    new "Melanie, bitte, es ist sehr wichtig für mich! (nächstes Update) (disabled)"
+
+    # game/Quests/EP2_06/ep26_dialogues7_melanie.rpy:120
     old "Узнайте что случилось с Мелани в продолжении игры..."
     new "Finde im nächsten Update raus, was mit Melanie passiert ist..."
 

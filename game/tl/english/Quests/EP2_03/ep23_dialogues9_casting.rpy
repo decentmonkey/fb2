@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:35
 translate english ep23_dialogue9_1_a43c77ff:
@@ -1348,13 +1348,13 @@ translate english ep23_dialogue9_4_2e3b44e1:
     # m "Я буду ждать."
     m "I'll be waiting."
 
-# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1636
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1637
 translate english ep23_dialogue9_5a_5635762e:
 
     # m "Алекс, ты не видел Мелани?"
     m "Alex, have you seen Melanie?"
 
-# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1638
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1639
 translate english ep23_dialogue9_5a_07b28474:
 
     # alex_photograph "Нет, Миссис Бакфетт, ее сегодня не было."
@@ -1362,151 +1362,11 @@ translate english ep23_dialogue9_5a_07b28474:
     alex_photograph "No, Mrs. Buckfett, she hasn’t come today."
     "Do you have any idea where she might be?"
 
-# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1642
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1643
 translate english ep23_dialogue9_5a_803dd0c2:
 
     # m "Я... Нет, Алекс... Я не знаю где Мелани..."
     m "I ... No, Alex ... I don't know where Melanie is ..."
-
-# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1652
-translate english ep23_dialogue9_5b_9116c9ea:
-
-    # m "Дорогуша, ты не видела Мелани?"
-    m "Honey, did you see Melanie?"
-
-# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1654
-translate english ep23_dialogue9_5b_23509a09:
-
-    # secretary "Нет, Миссис Бакфетт."
-    # "Ее все ищут!"
-    # "Может быть Вы в курсе где она?"
-    secretary "No, Mrs. Buckfett..."
-    "Everyone is looking for her!"
-    "Maybe you know where she is?"
-
-# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1659
-translate english ep23_dialogue9_5b_279855ef:
-
-    # m "Нет, дорогуша..."
-    # "Я... Я не имею представления где она может быть..."
-    m "No, darling ..."
-    "I ... I have no idea where she might be ..."
-
-# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1669
-translate english ep23_dialogue9_5c_7770ec35:
-
-    # m "Биф, ты не видел Мелани?"
-    # biff "Нет, цыпочка, я не видел ее."
-    # "Малышка Мелани куда-то пропала."
-    # "Папочка обязательно накажет ее, когда она появится!"
-    m "Biff, did you see Melanie?"
-    biff "No, babe, haven't seen her."
-    "She has gone somewhere."
-    "Daddy will punish her when she appears!"
-
-# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1675
-translate english ep23_dialogue9_5c_ab53e264:
-
-    # mt "Черт! Бедная Мелани..."
-    # "Я даже боюсь представить что сейчас с ней..."
-    mt "Damn! Poor Melanie ..."
-    "I'm even afraid to imagine what could have happened to her ..."
-
-# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1680
-translate english ep23_dialogue9_5d_0fde7bf6:
-
-    # mt "От Мелани нет новостей... Я даже боюсь представить что с ней..."
-    # help "Узнайте что случилось с Мелани в следующих апдейтах игры!"
-    mt "No news from Melanie... I'm afraid to even image what could have happened to her..."
-    help "Find out Melanie's destiny in game's next updates!"
-
-translate english strings:
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:106
-    old "Да, я готова (черт!)"
-    new "Yes, I'm ready (damn!)"
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:106
-    old "Я пока не решилась на это..."
-    new "I have not decided yet..."
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:178
-    old "Остаться и выполнять приказы."
-    new "Stay and follow the orders."
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:451
-    old "Положить руки на зад."
-    new "Put your hands on your ass."
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:451
-    old "Убежать."
-    new "Runaway"
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:493
-    old "Да, хочу."
-    new "Yes, I want to."
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:517
-    old "Очень хочу!"
-    new "Yes, I do!"
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:888
-    old "Да, я поняла."
-    new "I understand."
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:888
-    old "Послать ее к черту!"
-    new "Send her to hell!"
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:942
-    old "Трахать себя."
-    new "Fuck yourself"
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:942
-    old "Послать к черту."
-    new "Send to hell."
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:973
-    old "Да!"
-    new "Yes!"
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:973
-    old "Хочу поскорее закончить это..."
-    new "I want to end it as soon as possible ..."
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:999
-    old "ДА!!!"
-    new "YES!!!"
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:999
-    old "Когда же закончится этот кошмар?!"
-    new "When will this nightmare end ?!"
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:1038
-    old "ДААА!!!"
-    new "YESS!!!"
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:1130
-    old "Мелани, ты сучка! Ты специально затеяла это!"
-    new "Melanie, you! You did all of this on purpose!"
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:1130
-    old "Мелани, пожалуйста, я не могу сделать это. (хорошие отношения с Мелани)"
-    new "Melanie, please, I can't do that. (good relationship with Melanie)"
-
-    # Quests/EP2_03/ep23_dialogues9_casting.rpy:1130
-    old "Мелани, пожалуйста, я не могу сделать это. (плохие отношения с Мелани) (disabled)"
-    new "Melanie, please, I can't do that. (bad relationship with Melanie) (disabled)"
-
-# TODO: Translation updated at 2019-04-26 03:58
-
-# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1680
-translate english ep23_dialogue9_5d_b17b8dd3:
-
-    # mt "От Мелани нет новостей... Я даже боюсь представить что с ней..."
-    mt "No news from Melanie... I'm afraid to even image what could have happened to her..."
-
-# TODO: Translation updated at 2019-05-21 02:20
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1647
 translate english ep23_dialogue9_5a_5635762e_1:
@@ -1528,52 +1388,6 @@ translate english ep23_dialogue9_5a_803dd0c2_1:
     # m "Я... Нет, Алекс... Я не знаю где Мелани..."
     m "I ... No, Alex ... I don't know where Melanie is ..."
 
-# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1677
-translate english ep23_dialogue9_5b_9116c9ea_1:
-
-    # m "Дорогуша, ты не видела Мелани?"
-    m "Honey, did you see Melanie?"
-
-# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1679
-translate english ep23_dialogue9_5b_23509a09_1:
-
-    # secretary "Нет, Миссис Бакфетт."
-    # "Ее все ищут!"
-    # "Может быть Вы в курсе где она?"
-    secretary "No, Mrs. Buckfett..."
-    "Everyone is looking for her!"
-    "Maybe you know where she is?"
-
-# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1684
-translate english ep23_dialogue9_5b_279855ef_1:
-
-    # m "Нет, дорогуша..."
-    # "Я... Я не имею представления где она может быть..."
-    m "No, darling ..."
-    "I ... I have no idea where she might be ..."
-
-# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1706
-translate english ep23_dialogue9_5c_7770ec35_1:
-
-    # m "Биф, ты не видел Мелани?"
-    # biff "Нет, цыпочка, я не видел ее."
-    # "Малышка Мелани куда-то пропала."
-    # "Папочка обязательно накажет ее, когда она появится!"
-    m "Biff, did you see Melanie?"
-    biff "No, babe, haven't seen her."
-    "She has gone somewhere."
-    "Daddy will punish her when she appears!"
-
-# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1712
-translate english ep23_dialogue9_5c_ab53e264_1:
-
-    # mt "Черт! Бедная Мелани..."
-    # "Я даже боюсь представить что сейчас с ней..."
-    mt "Damn! Poor Melanie ..."
-    "I'm even afraid to imagine what could have happened to her ..."
-
-# TODO: Translation updated at 2019-07-17 02:25
-
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1657
 translate english ep23_dialogue9_5a_5635762e_2:
 
@@ -1593,6 +1407,54 @@ translate english ep23_dialogue9_5a_803dd0c2_2:
 
     # m "Я... Нет, Алекс... Я не знаю где Мелани..."
     m "I ... No, Alex ... I don't know where Melanie is ..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1675
+translate english ep23_dialogue9_5b_9116c9ea:
+
+    # m "Дорогуша, ты не видела Мелани?"
+    m "Honey, did you see Melanie?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1677
+translate english ep23_dialogue9_5b_23509a09:
+
+    # secretary "Нет, Миссис Бакфетт."
+    # "Ее все ищут!"
+    # "Может быть Вы в курсе где она?"
+    secretary "No, Mrs. Buckfett..."
+    "Everyone is looking for her!"
+    "Maybe you know where she is?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1682
+translate english ep23_dialogue9_5b_279855ef:
+
+    # m "Нет, дорогуша..."
+    # "Я... Я не имею представления где она может быть..."
+    m "No, darling ..."
+    "I ... I have no idea where she might be ..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1687
+translate english ep23_dialogue9_5b_9116c9ea_1:
+
+    # m "Дорогуша, ты не видела Мелани?"
+    m "Honey, did you see Melanie?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1689
+translate english ep23_dialogue9_5b_23509a09_1:
+
+    # secretary "Нет, Миссис Бакфетт."
+    # "Ее все ищут!"
+    # "Может быть Вы в курсе где она?"
+    secretary "No, Mrs. Buckfett..."
+    "Everyone is looking for her!"
+    "Maybe you know where she is?"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1694
+translate english ep23_dialogue9_5b_279855ef_1:
+
+    # m "Нет, дорогуша..."
+    # "Я... Я не имею представления где она может быть..."
+    m "No, darling ..."
+    "I ... I have no idea where she might be ..."
 
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1699
 translate english ep23_dialogue9_5b_9116c9ea_2:
@@ -1618,6 +1480,46 @@ translate english ep23_dialogue9_5b_279855ef_2:
     m "No, darling ..."
     "I ... I have no idea where she might be ..."
 
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1717
+translate english ep23_dialogue9_5c_7770ec35:
+
+    # m "Биф, ты не видел Мелани?"
+    # biff "Нет, цыпочка, я не видел ее."
+    # "Малышка Мелани куда-то пропала."
+    # "Папочка обязательно накажет ее, когда она появится!"
+    m "Biff, did you see Melanie?"
+    biff "No, babe, haven't seen her."
+    "She has gone somewhere."
+    "Daddy will punish her when she appears!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1723
+translate english ep23_dialogue9_5c_ab53e264:
+
+    # mt "Черт! Бедная Мелани..."
+    # "Я даже боюсь представить что сейчас с ней..."
+    mt "Damn! Poor Melanie ..."
+    "I'm even afraid to imagine what could have happened to her ..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1728
+translate english ep23_dialogue9_5c_7770ec35_1:
+
+    # m "Биф, ты не видел Мелани?"
+    # biff "Нет, цыпочка, я не видел ее."
+    # "Малышка Мелани куда-то пропала."
+    # "Папочка обязательно накажет ее, когда она появится!"
+    m "Biff, did you see Melanie?"
+    biff "No, babe, haven't seen her."
+    "She has gone somewhere."
+    "Daddy will punish her when she appears!"
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1734
+translate english ep23_dialogue9_5c_ab53e264_1:
+
+    # mt "Черт! Бедная Мелани..."
+    # "Я даже боюсь представить что сейчас с ней..."
+    mt "Damn! Poor Melanie ..."
+    "I'm even afraid to imagine what could have happened to her ..."
+
 # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1739
 translate english ep23_dialogue9_5c_7770ec35_2:
 
@@ -1637,4 +1539,88 @@ translate english ep23_dialogue9_5c_ab53e264_2:
     # "Я даже боюсь представить что сейчас с ней..."
     mt "Damn! Poor Melanie ..."
     "I'm even afraid to imagine what could have happened to her ..."
+
+# game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1750
+translate english ep23_dialogue9_5d_b17b8dd3:
+
+    # mt "От Мелани нет новостей... Я даже боюсь представить что с ней..."
+    mt "No news from Melanie... I'm afraid to even image what could have happened to her..."
+
+translate english strings:
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:106
+    old "Да, я готова (черт!)"
+    new "Yes, I'm ready (damn!)"
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:106
+    old "Я пока не решилась на это..."
+    new "I have not decided yet..."
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:178
+    old "Остаться и выполнять приказы."
+    new "Stay and follow the orders."
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:451
+    old "Положить руки на зад."
+    new "Put your hands on your ass."
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:451
+    old "Убежать."
+    new "Runaway"
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:493
+    old "Да, хочу."
+    new "Yes, I want to."
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:517
+    old "Очень хочу!"
+    new "Yes, I do!"
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:888
+    old "Да, я поняла."
+    new "I understand."
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:888
+    old "Послать ее к черту!"
+    new "Send her to hell!"
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:942
+    old "Трахать себя."
+    new "Fuck yourself"
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:942
+    old "Послать к черту."
+    new "Send to hell."
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:973
+    old "Да!"
+    new "Yes!"
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:973
+    old "Хочу поскорее закончить это..."
+    new "I want to end it as soon as possible ..."
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:999
+    old "ДА!!!"
+    new "YES!!!"
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:999
+    old "Когда же закончится этот кошмар?!"
+    new "When will this nightmare end ?!"
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1038
+    old "ДААА!!!"
+    new "YESS!!!"
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1130
+    old "Мелани, ты сучка! Ты специально затеяла это!"
+    new "Melanie, you! You did all of this on purpose!"
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1130
+    old "Мелани, пожалуйста, я не могу сделать это. (хорошие отношения с Мелани)"
+    new "Melanie, please, I can't do that. (good relationship with Melanie)"
+
+    # game/Quests/EP2_03/ep23_dialogues9_casting.rpy:1130
+    old "Мелани, пожалуйста, я не могу сделать это. (плохие отношения с Мелани) (disabled)"
+    new "Melanie, please, I can't do that. (bad relationship with Melanie) (disabled)"
 

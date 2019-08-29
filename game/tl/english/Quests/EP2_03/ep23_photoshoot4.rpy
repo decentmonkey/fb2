@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/EP2_03/ep23_photoshoot4.rpy:16
 translate english ep22_photoshoot4_39656896:
@@ -232,7 +232,7 @@ translate english ep23_photoshoot4_casting_f4e1f245_1:
 
 translate english strings:
 
-    # Quests/EP2_03/ep23_photoshoot4.rpy:653
+    # game/Quests/EP2_03/ep23_photoshoot4.rpy:653
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot4_casting_corruption_required]) (disabled)"
     new "Go to casting to Biff and pretend to be a chick ... (low corruption, required [photoshoot4_casting_corruption_required]) (disabled)"
 

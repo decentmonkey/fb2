@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/EP2_03/ep23_photoshoot5.rpy:24
 translate english ep22_photoshoot5_pose1_cdc1e2ec:
@@ -278,23 +278,23 @@ translate english ep23_photoshoot5_casting_f4e1f245_1:
 
 translate english strings:
 
-    # Quests/EP2_03/ep23_photoshoot5.rpy:624
+    # game/Quests/EP2_03/ep23_photoshoot5.rpy:624
     old "Прервать фотосессию."
     new "Stop the photo session."
 
-    # Quests/EP2_03/ep23_photoshoot5.rpy:624
+    # game/Quests/EP2_03/ep23_photoshoot5.rpy:624
     old "Сделать что просит Алекс."
     new "Do what Alex asks."
 
-    # Quests/EP2_03/ep23_photoshoot5.rpy:624
+    # game/Quests/EP2_03/ep23_photoshoot5.rpy:624
     old "Попросить Мелани не делать этого (хорошие отношения с Мелани)"
     new "Ask Melanie not to do this (good relationship with Melanie)"
 
-    # Quests/EP2_03/ep23_photoshoot5.rpy:624
+    # game/Quests/EP2_03/ep23_photoshoot5.rpy:624
     old "Попросить Мелани не делать этого (плохие отношения с Мелани) (disabled)"
     new "Ask Melanie not to do this (bad relationship with Melanie) (disabled)"
 
-    # Quests/EP2_03/ep23_photoshoot5.rpy:769
+    # game/Quests/EP2_03/ep23_photoshoot5.rpy:769
     old "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot5_casting_corruption_required]) (disabled)"
     new "Go to casting to Biff and pretend to be a chick ... (low corruption, required [photoshoot5_casting_corruption_required]) (disabled)"
 

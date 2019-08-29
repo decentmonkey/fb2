@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/Dick_Car_Parting.rpy:7
 translate english dick_meeting1_car_parting1_a44838a4:
@@ -310,19 +310,19 @@ translate english dick_meeting1_car_parting4_fred_dialogue_43802f23:
 
 translate english strings:
 
-    # Quests/Dick_Car_Parting.rpy:55
+    # game/Quests/Dick_Car_Parting.rpy:55
     old "Выбросить его прямо здесь..."
     new "Throw him right here..."
 
-    # Quests/Dick_Car_Parting.rpy:55
+    # game/Quests/Dick_Car_Parting.rpy:55
     old "Отвезти к офису..."
     new "Get to the office..."
 
-    # Quests/Dick_Car_Parting.rpy:152
+    # game/Quests/Dick_Car_Parting.rpy:152
     old "Дик жирный урод!"
     new "Dick, the fat bastard!"
 
-    # Quests/Dick_Car_Parting.rpy:152
+    # game/Quests/Dick_Car_Parting.rpy:152
     old "Дик облажался, но он старался..."
     new "Dick screwed up, but he tried..."
 

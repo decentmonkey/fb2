@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:5
 translate english citizen14_dialogue_b8f1bd99:
@@ -88,11 +88,11 @@ translate english citizen14_dialogue_pilon_f227022c:
 
 translate english strings:
 
-    # Quests/EP2/Citizens/Citizen14_dialogue.rpy:26
+    # game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:26
     old "Мне никто не может понравиться в этой дыре!"
     new "I don't like anyone in this shithole!"
 
-    # Quests/EP2/Citizens/Citizen14_dialogue.rpy:26
+    # game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:26
     old "Может и так..."
     new "Maybe so..."
 

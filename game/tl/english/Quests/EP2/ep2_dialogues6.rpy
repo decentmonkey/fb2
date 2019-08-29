@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/EP2/ep2_dialogues6.rpy:9
 translate english cloth_shop_refuse1_3b69b5c2:

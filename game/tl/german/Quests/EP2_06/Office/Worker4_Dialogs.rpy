@@ -1,60 +1,6 @@
-﻿# TODO: Translation updated at 2019-07-02 18:58
+﻿# TODO: Translation updated at 2019-08-26 19:44
 
-# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:3
-translate german worker4_dialogue_workplace_51699f74:
-
-    # mt "Вторая сестра... Никак не могу запомнить как их зовут.."
-    # m "Здравствуй. Напомни, как тебя зовут?"
-    # w4 "Я Элла. Мою сестру зовут Эмма. Нас всегда путают!"
-    # m "Поняла. Продолжай работать."
-    mt "Der andere Zwilling... Ich kann mich einfach nicht an ihre Namen erinnern..."
-    m "Hallo. Wie war doch gleich noch dein Name?"
-    w4 "Ich bin Ella! Meine Schwester ist Emma. Jeder bringt uns immer durcheinander!"
-    m "Habs verstanden. Weitermachen!"
-
-# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:10
-translate german worker4_dialogue_office_ff53ecb6:
-
-    # w4 "Миссис Бакфетт, можно?"
-    w4 "Frau Buckfett, kann ich rein kommen?"
-
-# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:13
-translate german worker4_dialogue_office_7b953c57:
-
-    # m "Да, заходи."
-    # w4 "Миссис Бакфетт, у меня пропал интернет."
-    # m "Окей. И чем я тебе могу помочь?"
-    # m "Ты же знаешь, что этими проблемами занимается наш системный администратор."
-    # m "Пухлый коротышка в очках."
-    # m "Так что иди к нему со своей проблемой."
-    # w4 "Но он не хочет мне помогать."
-    # m "Скажи ему, что он будет уволен, если сейчас же не решит вопрос."
-    # w4 "Хорошо, Миссис Бакфетт."
-    # w4 "Я передам" 
-    m "Ja."
-    w4 "Frau Buckfett, mein Internet funktioniert nicht mehr!"
-    m "Und warum sagst du das mir?"
-    m "Unser Systemadmin muss sich um sowas kümmern."
-    m "Kleiner, dicker Typ mit Brille."
-    m "Geh zu ihm wenn du Probleme hast."
-    w4 "Aber er will mir nicht helfen."
-    m "Sag ihm, dass er auf der Straße sitzt, wenn das Problem nicht zügig behoben ist."
-    w4 "Na gut, Frau Buckfett."
-    w4 "Ich sage es ihm..." 
-
-# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:37
-translate german worker4_dialogue_office_a2197eab:
-
-    # m "Я занята, приходи завтра."
-    # w4 "Ладно, но у меня проблема..."
-    # m "Ты что, не понимаешь? Я сейчас занята!"
-    m "Ich bin beschäftigt, komm morgen wieder."
-    w4 "Aber ich habe ein Problem..."
-    m "Siehst du nicht, dass ich beschäftigt bin?"
-
-# TODO: Translation updated at 2019-07-02 20:57
-
-# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:3
+# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:11
 translate german worker4_look_0c71281a:
 
     # mt "Две близняшки."
@@ -63,8 +9,6 @@ translate german worker4_look_0c71281a:
     mt "Zwillinge."
     mt "Denken die, sie sind hübsch?"
     mt "Da täuschen sie sich. Bäh!"
-
-# TODO: Translation updated at 2019-07-17 02:23
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:20
 translate german worker4_dialogue_workplace_37d7985c:
@@ -90,6 +34,12 @@ translate german worker4_dialogue_workplace_2bc2f0b8:
     # m "Поняла. Продолжай работать."
     m "Habs verstanden. Weitermachen!"
 
+# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:36
+translate german worker4_dialogue_office_125fd8f0:
+
+    # w4 "Миссис Бакфетт, можно?"
+    w4 "Frau Buckfett, kann ich rein kommen?"
+
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:40
 translate german worker4_dialogue_office_97fb610b:
 
@@ -97,7 +47,7 @@ translate german worker4_dialogue_office_97fb610b:
     m "Ja."
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:43
-translate german worker4_dialogue_office_c7436ff9:
+translate german worker4_dialogue_office_5d51fdae:
 
     # w4 "Миссис Бакфетт, у меня пропал интернет."
     w4 "Frau Buckfett, mein Internet funktioniert nicht mehr!"
@@ -109,7 +59,7 @@ translate german worker4_dialogue_office_f36dafd4:
     m "Und warum sagst du das mir?"
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:48
-translate german worker4_dialogue_office_3ce419d7:
+translate german worker4_dialogue_office_b56fa05c:
 
     # m "Ты же знаешь, что этими проблемами занимается наш системный администратор."
     m "Unser Systemadmin muss sich um sowas kümmern."
@@ -156,23 +106,55 @@ translate german worker4_dialogue_office_4b9a9ce5:
     # m "Ты что, не понимаешь? Я сейчас занята!"
     m "Siehst du nicht, dass ich beschäftigt bin?"
 
-# TODO: Translation updated at 2019-07-18 12:24
+# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:90
+translate german takeReportsFlashCard_Worker4_cc0852e0:
 
-# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:36
-translate german worker4_dialogue_office_125fd8f0:
+    # m "Здравствуй. Скопируй мне свои сделанные отчеты вот сюда."
+    # w4t "Интересно, почему я должна их копировать на флеш карту? Уже давно ими не пользуются..."
+    # w4 "Хорошо. Миссис Бакфетт, а зачем это? Я ведь могу их отправить Вам на почту."
+    m "Здравствуй. Скопируй мне свои сделанные отчеты вот сюда."
+    w4t "Интересно, почему я должна их копировать на флеш карту? Уже давно ими не пользуются..."
+    w4 "Хорошо. Миссис Бакфетт, а зачем это? Я ведь могу их отправить Вам на почту."
 
-    # w4 "Миссис Бакфетт, можно?"
-    w4 "Frau Buckfett, kann ich rein kommen?"
+# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:94
+translate german takeReportsFlashCard_Worker4_fed805da:
 
-# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:43
-translate german worker4_dialogue_office_5d51fdae:
+    # mt "На самом деле, мне твои отчеты неинтересны ни на почте, на на карте..."
+    # mt "Гребаный Биф!"
+    mt "На самом деле, мне твои отчеты неинтересны ни на почте, на на карте..."
+    mt "Гребаный Биф!"
 
-    # w4 "Миссис Бакфетт, у меня пропал интернет."
-    w4 "Frau Buckfett, mein Internet funktioniert nicht mehr!"
+# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:97
+translate german takeReportsFlashCard_Worker4_353e7248:
 
-# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:48
-translate german worker4_dialogue_office_b56fa05c:
+    # m "Сразу видно, ты ничего не понимаешь в безопасности. Это хороший способ!"
+    m "Сразу видно, ты ничего не понимаешь в безопасности. Это хороший способ!"
 
-    # m "Ты же знаешь, что этими проблемами занимается наш системный администратор."
-    m "Unser Systemadmin muss sich um sowas kümmern."
+# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:99
+translate german takeReportsFlashCard_Worker4_82cf8647:
+
+    # w3t "А у нашей начальницы отличная задница..."
+    w3t "А у нашей начальницы отличная задница..."
+
+# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:101
+translate german takeReportsFlashCard_Worker4_f3a44b2f:
+
+    # w3t "И сиськи ничего такие, но мои определенно больше!"
+    w3t "И сиськи ничего такие, но мои определенно больше!"
+
+# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:103
+translate german takeReportsFlashCard_Worker4_9a3974c3:
+
+    # w4 "Но что если на флеш карте окажется вирус, или Вы ее потеряете."
+    # m "Я? Я ее не потеряю."
+    w4 "Но что если на флеш карте окажется вирус, или Вы ее потеряете."
+    m "Я? Я ее не потеряю."
+
+# game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:106
+translate german takeReportsFlashCard_Worker4_6e6f6d75:
+
+    # mt "А она не такая и глупая... Или делает вид..."
+    # mt "Все-равно она не умнее меня!"
+    mt "А она не такая и глупая... Или делает вид..."
+    mt "Все-равно она не умнее меня!"
 

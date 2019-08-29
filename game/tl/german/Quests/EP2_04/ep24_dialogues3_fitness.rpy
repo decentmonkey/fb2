@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-16 13:23
+﻿# TODO: Translation updated at 2019-08-26 19:44
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:39
 translate german ep24_dialogues3_fitness1_8b4a6786:
@@ -435,7 +435,7 @@ translate german ep24_dialogues3_fitness3c_59e96a51:
     betty "Ja."
 
 # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:413
-translate german ep24_dialogues3_fitness3c_1ed11e74:
+translate german ep24_dialogues3_fitness3c_a8b01a9e:
 
     # fitness_instructor "Тебе комортно, ты больше не стесняешься меня?"
     fitness_instructor "Fühlst du dich wohl? Oder bist du immer noch beschämt?"
@@ -714,27 +714,19 @@ translate german ep24_dialogues3_fitness6_07ce043e:
 
 translate german strings:
 
-    # Quests/EP2_04/ep24_dialogues3_fitness.rpy:31
+    # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:31
     old "Сказать Барди, что Моника идет на фитнесс с Бетти."
     new "Erzähle Bardie, dass du mit Betty ins Fitnessstudio gehst."
 
-    # Quests/EP2_04/ep24_dialogues3_fitness.rpy:31
+    # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:31
     old "Не говорить ему..."
     new "Sage nichts."
 
-    # Quests/EP2_04/ep24_dialogues3_fitness.rpy:565
+    # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:565
     old "Да, я очень хочу..."
     new "Ja, ich will das wirklich sehr..."
 
-    # Quests/EP2_04/ep24_dialogues3_fitness.rpy:565
+    # game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:565
     old "Я хочу, но не таким путем. Я замужем!"
     new "Ich will! Aber nicht so, ich bin verheiratet!"
-
-# TODO: Translation updated at 2019-04-17 05:15
-
-# game/Quests/EP2_04/ep24_dialogues3_fitness.rpy:413
-translate german ep24_dialogues3_fitness3c_a8b01a9e:
-
-    # fitness_instructor "Тебе комортно, ты больше не стесняешься меня?"
-    fitness_instructor "Fühlst du dich wohl? Oder bist du immer noch beschämt?"
 

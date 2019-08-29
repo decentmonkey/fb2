@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2018-12-05 17:53
+﻿# TODO: Translation updated at 2019-08-26 19:44
 
 # game/Quests/Dick_Car_Parting.rpy:7
 translate german dick_meeting1_car_parting1_a44838a4:
@@ -45,7 +45,7 @@ translate german dick_meeting1_car_parting2_41006220:
     "Ich hatte nicht mal Zeit mit dir."
 
 # game/Quests/Dick_Car_Parting.rpy:45
-translate german dick_meeting1_car_parting2_b99aba93:
+translate german dick_meeting1_car_parting2_28c16d2b:
 
     # m "Нет, Дик!"
     # "Ты уже дважды разочаровал меня!"
@@ -310,33 +310,19 @@ translate german dick_meeting1_car_parting4_fred_dialogue_43802f23:
 
 translate german strings:
 
-    # Quests/Dick_Car_Parting.rpy:55
+    # game/Quests/Dick_Car_Parting.rpy:55
     old "Выбросить его прямо здесь..."
     new "Wirf es gleich hier hin..."
 
-    # Quests/Dick_Car_Parting.rpy:55
+    # game/Quests/Dick_Car_Parting.rpy:55
     old "Отвезти к офису..."
     new "Geh in's Büro..."
 
-    # Quests/Dick_Car_Parting.rpy:152
+    # game/Quests/Dick_Car_Parting.rpy:152
     old "Дик жирный урод!"
     new "Dick, dieser fette Bastard!"
 
-    # Quests/Dick_Car_Parting.rpy:152
+    # game/Quests/Dick_Car_Parting.rpy:152
     old "Дик облажался, но он старался..."
     new "Dick hat es vermasselt, aber er hat sich wenigstens Mühe gegeben."
-
-# TODO: Translation updated at 2018-12-12 15:08
-
-# game/Quests/Dick_Car_Parting.rpy:45
-translate german dick_meeting1_car_parting2_28c16d2b:
-
-    # m "Нет, Дик!"
-    # "Ты уже дважды разочаровал меня!"
-    # "Боюсь, что третий раз уже слишком сильно скажется на наших отношениях!"
-    # "А ты для меня пока еще полезен."
-    m "Nein, Dick!"
-    "Du hast mich schon zweimal enttäuscht!"
-    "Ich fürchte, dass ein drittes Mal zu viel negativen Einfluss auf unsere Beziehung haben wird."
-    "Aber bisher bist du noch nützlich für mich."
 

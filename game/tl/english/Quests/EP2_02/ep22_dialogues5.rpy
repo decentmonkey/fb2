@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:124
 translate english ep22_dialogues5_0a_5932acdd:
@@ -2224,91 +2224,91 @@ translate english ep22_dialogues5_14_f559f401:
 
 translate english strings:
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:196
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:196
     old "Моника опоздала, потому что терла пятно"
     new "Monica was late because she was rubbing the stain."
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:251
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:251
     old "У меня нет выбора... (low corruption, required [monicaVictoriaShowBoobsToCameraCorruptionRequired]) (disabled)"
     new "I have no choice... (low corruption, required [monicaVictoriaShowBoobsToCameraCorruptionRequired]) (disabled)"
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:251
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:251
     old "У меня нет выбора... (corruption)"
     new "I have no choice... (corruption)"
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:251
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:251
     old "Мисс Виктория, Вы такая изящная леди... (попытаться не показывать грудь)."
     new "Miss Victoria, You are such a graceful lady... (try not to show breasts.)"
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:292
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:292
     old "Улыбнуться искренней улыбкой..."
     new "Smile with the sincere smile..."
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:310
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:310
     old "Это провокация. Лучше ответить что ее грудь лучше."
     new "This is a provocation. Better say her breasts are better."
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:529
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:529
     old "Послать Дика к черту."
     new "Send Dick to hell."
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:529
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:529
     old "Попробовать соблазнить Дика как это делает Виктория (low corruption, required [monicaDickSeduceAsVictoriaByAssCorruptionRequired]) (disabled)"
     new "Try to seduce Dick like Victoria does. (low corruption, required [monicaDickSeduceAsVictoriaByAssCorruptionRequired]) (disabled)"
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:529
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:529
     old "Попробовать соблазнить Дика как это делает Виктория (corruption)"
     new "Try to seduce Dick like Victoria does (corruption)"
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:808
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:808
     old "Я согласна... (у меня нет другого выбора, иначе меня сейчас схватят!)"
     new "I agree... (I have no other choice, or I'll be caught!)"
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:868
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:868
     old "Поцеловать каблук Виктории (у меня нет выбора...)"
     new "Kiss heel Victoria (I have no choice...)"
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:868
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:868
     old "Это уже слишком!"
     new "That's too much!"
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:937
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:937
     old "Я считаю что то что я поцеловала Ваш каблук - достаточно для начала нашей дружбы, Мисс Виктория..."
     new "It's more than enough that I kissed your heel..."
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:937
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:937
     old "Лизнуть зад Виктории... (corruption)"
     new "Lick Victoria's ass... (corruption)"
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:937
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:937
     old "Лизнуть зад Виктории... (low corruption, required [monicaVictoriaLickAssBeginCorruptionRequired]) (disabled)"
     new "Lick Victoria's ass... (low corruption, required [monicaVictoriaLickAssBeginCorruptionRequired]) (disabled)"
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:1116
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:1116
     old "5 минут спустя..."
     new "5 minutes later..."
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:1439
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:1439
     old "Поцеловать зад Виктории (у меня нет выбора...)"
     new "Kiss Victoria's ass (I have no choice...)"
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:1439
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:1439
     old "Убежать!"
     new "Runaway!"
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:1491
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:1491
     old "Засунуть язык глубоко в анальное отверстие Виктории..."
     new "Stick tongue deep into Victoria's asshole..."
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:1651
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:1651
     old "Можно, Мистер Дик..."
     new "Yes, Mr. Dick..."
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:1651
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:1651
     old "Вы уже опоздали, Мистер Дик..."
     new "I'm afraid that's too late already..."
 
-    # Quests/EP2_02/ep22_dialogues5.rpy:1651
+    # game/Quests/EP2_02/ep22_dialogues5.rpy:1651
     old "Я бы хотела чтобы Миссис Бакфетт первая сделала это... (отказать)"
     new "I wish Mrs. Buckfett did it first... (refuse)"
 

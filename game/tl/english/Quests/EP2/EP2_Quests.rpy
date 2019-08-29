@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-04-08 16:14
+﻿# TODO: Translation updated at 2019-08-26 19:45
 
 # game/Quests/EP2/EP2_Quests.rpy:144
 translate english dick_secretary_time_to_pay1a_6619b09e:
@@ -16,15 +16,15 @@ translate english dick_secretary_time_to_pay2_213ade2a:
 
 translate english strings:
 
-    # Quests/EP2/EP2_Quests.rpy:56
+    # game/Quests/EP2/EP2_Quests.rpy:56
     old "Отправиться на встречу с Диком"
     new "Go to the meeting with Dick"
 
-    # Quests/EP2/EP2_Quests.rpy:116
+    # game/Quests/EP2/EP2_Quests.rpy:116
     old "Принести Виктории $ 5000 до вечера пятницы"
     new "Bring Victoria $ 5,000 until Friday evening"
 
-    # Quests/EP2/EP2_Quests.rpy:436
+    # game/Quests/EP2/EP2_Quests.rpy:436
     old "Принести деньги Дику завтра"
     new "Bring money to Dick tomorrow"
 

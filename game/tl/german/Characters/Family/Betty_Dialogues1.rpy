@@ -28,3 +28,11 @@ translate german bettyDialogue3_58d95acf:
     # "Сучка..."
     "Schlampe!"
 
+# TODO: Translation updated at 2019-08-26 19:44
+
+# game/Characters/Family/Betty_Dialogues1.rpy:9
+translate german bettyDialogue1_269ef339:
+
+    # betty "Я буду следить за тем как ты работаешь."
+    betty "Ich schaue dir auf die Finger."
+
