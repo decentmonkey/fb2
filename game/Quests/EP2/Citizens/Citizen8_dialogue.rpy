@@ -2,6 +2,7 @@ default citizen8BoobsNakesShowedLastDay = 0
 default citizen8BoobsNakedDancedLastDay = 0
 default citizen8BoobsNakesShowedCount = -1
 default citizen8BoobsNakedDancedCount = -1
+default citizen8BoobsNakedDancedEvent1Count = 0
 default citizen8_varA = 1
 
 label citizen8_dialogue:
@@ -246,7 +247,7 @@ label citizen8_dialogue_pilon:
             pass
         "Станцуй с голыми сиськами. (мало свиданий) (disabled)" if (pylonpart4startsCompleted == True and citizen8BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") < monicaWhoringNakedBoobsDanceVisitsRequired:
             pass
-        "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen8BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired:
+        "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen8BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired and citizen8BoobsNakesShowedCount>=0:
             $ store_music()
             if citizen8BoobsNakedDancedCount == -1:
                 call cit8_naked_boobs_dance_1st()
@@ -263,7 +264,7 @@ label citizen8_dialogue_pilon:
                 $ showedNakedBoobsDance = True
                 $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))
             $ restore_music()
-            jump citizen1_dialogue_pilon_loop8
+            jump citizen8_dialogue_pilon_loop8
 
         "Достаточно на сегодня.":
             $ earnedMoney = 0
@@ -571,11 +572,14 @@ label cit8_naked_boobs_variant2:
 
 # первый раз танцы с сиськами
 label cit8_naked_boobs_dance_1st:
+    music Groove2_85
     img 13570
+    with fade
     citizen8 "Добавим разнообразия: оголяй сиськи, иди на пилон. Все просто."
     citizen8 "Ты делаешь, я плачу."
     citizen8 "Сколько плачу-зависит от тебя."
     img 13571
+    with diss
     menu:
         "Мне нужны деньги...":
             pass
@@ -584,6 +588,7 @@ label cit8_naked_boobs_dance_1st:
             m "Хватит с тебя того, что ты уже видел!"
             return False
     img 13316
+    with fade
     mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
     mt "Хуже не будет..."
     img 13573
@@ -591,6 +596,7 @@ label cit8_naked_boobs_dance_1st:
     img 13574
     citizen8 "Я тебя обманывал?"
     img 13575
+    with diss
     m "Нет."
     img 13576
     citizen8 "Вот именно. И вообще, я не предлагаю сделку, если не могу ее выполнить."
@@ -600,6 +606,7 @@ label cit8_naked_boobs_dance_1st:
     citizen8 "Зачем? Мы уже это проходили: я не отвернусь, иначе сделки не будет."
     citizen8 "Переодевайся."
     img 13579
+    with diss
     menu:
         "Хорошо.":
             pass
@@ -608,48 +615,67 @@ label cit8_naked_boobs_dance_1st:
             m "Хватит с тебя того, что ты уже видел!"
             return False
     img 13580
+    with fade
     mt "Он уже видел как я переодеваюсь..."
+    music Loved_Up
     img 13581
     m "Хорошо."
     # переодевается
     img 12223
+    with diss
     w
+    sound snd_fabric1
     img 12224
+    with diss
     w
     img 13582
+    with fadelong
     citizen8 "Вот так, умница!"
     citizen8 "Я вижу, ты готова, начинай!"
     # движение на пилоне
+    music Molten_Alloy
     img 13583
+    with fadelong
     w
     img 13584
+    with diss
     citizen8 "А ты подготовилась. Не дурно."
     # движение на пилоне еще
     img 13585
+    with diss
     w
     img 13586
+    with diss
     citizen8 "Скажи честно, ты тренировалась?"
     # движение на пилоне еще
     img 13587
+    with diss
     w
     img 13588
+    with diss
     citizen8 "Хотя постой, ты двигаешься как обычно. Я бы назвал это эффектом сисек."
     # моника слезает с шеста
+    music Groove2_85
     img 13589
+    with fadelong
     m "Все, достаточно!"
     img 13590
     citizen8 "Как скажешь. Да, эффект сисек работает! Даже если бы ты двигалась неумело, я бы все равно заплатил за твои голые сиськи."
     # дает деньги
     img 13591
+    with fade
     citizen8 "Сделка состоялась."
     $ nakedBoobsDanceFirstly_Cit8  = True
     return True
 
 #  танцы с сиськами var 1
 label cit8_naked_boobs_dance_variant1:
+    music Groove2_85
     img 13592
+    with fade
     citizen8 "Новая сделка: снимай кофту и на пилон."
     img 13579
+    with diss
     menu:
         "Хорошо.":
             pass
@@ -658,57 +684,77 @@ label cit8_naked_boobs_dance_variant1:
             m "Хватит с тебя того, что ты уже видел!"
             return False
     img 13581
+    with fade
     m "Хорошо."
     img 13593
     citizen8 "Чего же ты ждешь? Переодевайся."
     img 13594
     m "..."
     #  переодевается
+    music Loved_Up
+    sound snd_fabric1
     img 13595
+    with diss
     w
     img 13596
+    with fadelong
     citizen8 "Я смотрю, это вызывает у тебя все меньше стеснения."
     img 13597
     m "Это не правда"
     img 13598
     citizen8 "Да? А я так не думаю. Ты даже не просишь меня отвернуться."
     img 13599
+    with fade
     mt "Да, не прошу... Неужели он прав насчет моего стеснения?!"
     mt "До чего ты докатилась, Моника?"
     # разделась
     img 13600
+    with diss
     citizen8 "Улыбнись! У тебя отличные сиськи."
     citizen8 "А теперь на пилон!"
     # движение на пилоне
+    music Molten_Alloy
     img 13601
+    with fadelong
     w
     img 13602
+    with diss
     citizen8 "Ты и сама знаешь, что у тебя прогресс..."
     # движение на пилоне еще
     img 13603
+    with diss
     w
     img 13604
+    with diss
     citizen8 "Так что я не буду ничего говорить..."
     # движение на пилоне еще
     img 13606
+    with diss
     w
     img 13605
+    with diss
     citizen8 "Но ты молодец."
     # моника слезает с шеста
+    music Groove2_85
     img 13589
+    with fadelong
     m "Все, достаточно!"
     img 13607
     citizen8 "Хорошо."
     # дает деньги
     img 13591
+    with fade
     citizen8 "Сделка состоялась."
     return True
 
 #  танцы с сиськами var 2
 label cit8_naked_boobs_dance_variant2:
+    music Groove2_85
     img 13570
+    with fade
     citizen8 "Давай продолжим наши упражнения на пилоне."
     img 13579
+    with diss
     menu:
         "Хорошо.":
             pass
@@ -717,77 +763,116 @@ label cit8_naked_boobs_dance_variant2:
             m "Хватит с тебя того, что ты уже видел!"
             return False
     img 13593
+    with fade
     citizen8 "Раздевайся."
     # раздевается и стоит с гол сиськами
+    music Loved_Up
+    sound snd_fabric1
     img 13595
+    with diss
     w
     img 13596
+    with diss
     w
     img 13608
+    with diss
     w
     img 13609
+    with fade
     citizen8 "Меня не покидает ощущение, что что-то тут не то."
     citizen8 "Ты танцуешь на пилоне и мы как будто в стрип клубе, но это не так."
     img 13610
+    with diss
     citizen8 "Представим что мы в стрип клубе..."
     img 13611
+    with diss
     m "?"
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Loved_Up
     img 13612
+    with fadelong
     citizen8 "Привет! Я хочу приватный танец. Сколько он стоит?"
     img 13613
     m "..."
     img 13614
+    with diss
     menu:
         "Эм... 100 долларов.":
             pass
         "Я не собираюсь играть в твои дурацкие игры!":
+            music Power_Bots_loop
             img 13615
+            with fade
             m "Я не собираюсь играть в твои дурацкие игры!"
             return False
     #  переодевается
     img 13616
+    with diss
     m "100 долларов."
     img 13617
     citizen8 "А у вас дорогой стрип клуб!"
     citizen8 "Слишком дорого! Пусть будет обычный танец. Можешь начинать."
+    m "!!!"
     # движение на пилоне
+    music Molten_Alloy
     img 13618
+    with fadelong
     w
     img 13619
+    with diss
     citizen8 "А теперь поинтересуйся, нравится ли мне все, что я вижу."
     img 13620
+    with diss
     menu:
         "Поинтересоваться.":
             img 13621
+            with diss
             m "Мистер, Вам нравится?"
             img 13622
+            with diss
             citizen8 "Да, детка, более чем!"
+            $ citizen8BoobsNakedDancedEvent1Count += 1
             pass
         "Иди к черту!":
+            music Groove2_85
             img 13623
+            with diss
             m "..."
             img 13624
+            with diss
             citizen8 "Что же ты молчишь?"
+            music Molten_Alloy
             pass
     # движение на пилоне еще
     img 13625
+    with diss
     w
     img 13626
+    with diss
     citizen8 "Да, ты горяча!"
     # движение на пилоне еще
     img 13628
+    with diss
     w
     img 13627
+    with diss
     citizen8 "Прекрасно!"
     # моника слезает с шеста
+    music Groove2_85
     img 13589
+    with fadelong
     m "Все, достаточно!"
     img 13607
     citizen8 "Хорошо. Точнее не очень хорошо. Почему я должен говорить, что ты должна говорить?"
     citizen8 "Хотя ладно, это вопрос времени..."
     img 13629
+    with fade
     mt "То, что я тебе что-то говорю, еще ничего не значит..."
     # дает деньги
     img 13591
+    with diss
     citizen8 "Сделка состоялась."
     return True

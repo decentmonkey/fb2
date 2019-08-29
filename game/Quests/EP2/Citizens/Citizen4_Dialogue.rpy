@@ -6,6 +6,10 @@ default citizen4BoobsNakedDancedLastDay = 0
 default citizen4NakedBoobsRefuseFlag = False
 default citizen4BoobsNakedDancedCount = -1
 
+default citizen4BoobsNakedDancedCount1 = 0
+default citizen4BoobsNakedDancedCount2 = 0
+default citizen4BoobsNakedDancedCount3 = 0
+
 label citizen4_dialogue:
     imgl Dial_Monica_Sandwich_0
 #    menu:
@@ -72,6 +76,7 @@ label citizen4_dialogue_pilon:
     $ showedDance = False
     $ showedNakedBoobs = False
     $ showedNakedBoobsDance = False
+    $ earnedMoney = 0
     label citizen4_dialogue_pilon_loop4:
     call pylonController(1, 1) from _call_pylonController_37
     menu:
@@ -268,10 +273,9 @@ label citizen4_dialogue_pilon:
                 $ showedNakedBoobsDance = True
                 $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))
             $ restore_music()
-            jump citizen1_dialogue_pilon_loop4
+            jump citizen4_dialogue_pilon_loop4
 
         "Достаточно на сегодня.":
-            $ earnedMoney = 0
             if showedBoobs == True or showedButt == True or showedDance == True or showedNakedBoobs == True or showedNakedBoobsDance == True:
                 if showedBoobs == True:
                     $ earnedMoney += monicaWhoringClothBoobsOrButtMoney
@@ -618,7 +622,9 @@ label citizen4_dialogue_after_boobs_second_time:
 
 # первый раз танцы с сиськами
 label cit4_naked_boobs_dance_1st:
+    music Groove2_85
     img 13371
+    with fade
     citizen4 "Я бы посмотрел на твои сиськи еще разок, но в танце. Что скажешь?"
     img 13372
     m "Не слишком ли многого ты хочешь?!"
@@ -626,14 +632,16 @@ label cit4_naked_boobs_dance_1st:
     citizen4 "Девочка, ты забыла где ты? В этом районе каждая вторая готова таким образом заработать пару лишних долларов."
     citizen4 "Решайся быстрее, у меня нет времени. Ну дак что?"
     img 13374
+    with fade
     menu:
-        "Почему бы и нет.":
+        "Мне нужны деньги...":
             pass
         "Хватит с тебя того, что ты уже видел!":
             img 13375
             m "Хватит с тебя того, что ты уже видел!"
             return False
     img 13376
+    with fade
     mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
     mt "Хуже уже не будет..."
     img 13377
@@ -642,16 +650,24 @@ label cit4_naked_boobs_dance_1st:
     img 13378
     citizen4 "Ладно, только в этот раз..."
     img 13379
+    with diss
     w
+    music Loved_Up
+    sound snd_fabric1
     img 13380
+    with diss
+    w
     # поворачиваются, моника стоит с голыми сиськами
     img 13381
+    with fadelong
     citizen4 "Залезай уже на пилон и начинай!"
+    music Groove2_85
     img 13382
     m "Почему Вы такой грубый?"
     img 13383
     citizen4 "Я нормальный, да и не твое это дело! Твое дело крутить жопой на пилоне! Начинай!"
     img 13384
+    with fade
     menu:
         "Хорошо.":
             pass
@@ -660,32 +676,45 @@ label cit4_naked_boobs_dance_1st:
             m "Знаете, я передумала!"
             return False
     img 13385
+    with fade
     m "Хорошо."
     mt "Мне нужны эти деньги... Черт..."
     # движение на пилоне
+    music RocknRoll_loop
     img 13387
+    with fadelong
     w
     img 13388
+    with diss
     citizen4 "А знаешь, не плохо!"
     # движение на пилоне еще
     img 13389
+    with diss
     w
     img 13390
+    with diss
     w
     img 13391
+    with diss
     citizen4 "Жопу бы тебе побольше!"
     # движение на пилоне еще
     img 13392
+    with diss
     w
     img 13393
+    with diss
     citizen4 "Да, очень не дурно."
     # движение на пилоне еще
     img 13394
+    with diss
     w
+    music Groove2_85
     img 13395
+    with fadelong
     citizen4 "Знаешь, у тебя есть будущее, но надо больше практики и накачай жопу!"
     # моника слезает с шеста
     img 13396
+    with fade
     citizen4 "Вот держи, заработала!"
     mt "!!!"
     $ nakedBoobsDanceFirstly_Cit4 = True
@@ -693,7 +722,9 @@ label cit4_naked_boobs_dance_1st:
 
 # танцы с сиськами вариант 1
 label cit4_naked_boobs_dance_variant1:
+    music Groove2_85
     img 13400
+    with fade
     citizen4 "Думаю, стоит закрепить начатое. Полезай на пилон. И блузку сними!"
     img 13397
     m "Зачем мне снимать блузку, если ты не хочешь смотреть на мою грудь?"
@@ -701,6 +732,7 @@ label cit4_naked_boobs_dance_variant1:
     citizen4 "Это не твое дело! Я говорю, ты делаешь."
     citizen4 "Ну дак что?"
     img 13398
+    with fade
     menu:
         "Хорошо.":
             pass
@@ -709,55 +741,79 @@ label cit4_naked_boobs_dance_variant1:
             m "Хватит с тебя того, что ты уже видел!"
             return False
     img 13399
+    with fade
     m "Хорошо. Только отвернись!"
     # отворачиваются
     img 13403
     citizen4 "Все равно мне не интересны твои сиськи."
+    sound snd_fabric1
     img 13404
+    with diss
     mt "Как он может такое говорить? Моя прекрасная грудь много кого интересует!"
     # поворачиваются, моника стоит с голыми сиськами
     img 13381
+    with fadelong
     citizen4 "Залезай уже на пилон и начинай!"
     img 13382
     m "Хорошо."
+    mt "Мерзавец..."
     # движение на пилоне
+    music RocknRoll_loop
     img 13405
+    with fadelong
     w
     img 13406
+    with diss
     citizen4 "Мне кажется, я начинаю любить твои сиськи!"
     # движение на пилоне еще
     img 13407
+    with diss
     w
     img 13408
+    with diss
     citizen4 "Да, вот так, двигайся!"
     # движение на пилоне еще
     img 13409
+    with diss
     w
     img 13410
+    with diss
     citizen4 "Знаешь, все равно что-то не то. Кое чего не хватает."
     # движение на пилоне еще
     # ситизен пытается схватить монику за жопу во время ее вращения, но не выходит.
     # на варианте 2 он схватит ее за зад. должна быть такая поза, когда ты держишься за пилон в позе сидя
     # моника на повороте ударяет его ногой
     img 13411
+    with diss
     w
     img 13412
+    with diss
     w
+    sound Jump1
     img 13413
+    with diss
     w
+    sound snd_punch_face1
     img 13414
+    with diss
     w
+    sound snd_down1
+    music Power_Bots_Loop
     img 13415
+    with diss
     citizen4 "Черт! Ты меня ударила!"
     # моника слезает с шеста
     img 13416
+    with fade
     m "Вообще то я не хотела, ты подошел слишком близко!"
     img 13417
     citizen4 "Ты мне сломала нос!"
     img 13418
     m "Не правда, у тебя даже крови нет. В следующий раз не подходи близко."
     mt "Иначе я сделаю это специально!"
+    music Groove2_85
     img 13419
+    with fade
     citizen4 "Ха-ха-ха! Девочка начинает входить во вкус?"
     citizen4 "Следующий раз..."
     img 13420
@@ -765,12 +821,15 @@ label cit4_naked_boobs_dance_variant1:
     img 13421
     citizen4 "Да не вопрос!"
     img 13422
+    with fade
     mt "Все это толко для того, чтобы заработать немного денег. Ведь так, Моника?"
     return True
 
 # танцы с сиськами вариант 2
 label cit4_naked_boobs_dance_variant2:
+    music Groove2_85
     img 13423
+    with fade
     citizen4 "Думаю, стоит закрепить начатое. Полезай на пилон. И блузку сними!"
     img 13424
     m "Зачем мне снимать кофту, если ты не хочешь смотреть на мою грудь?"
@@ -778,6 +837,7 @@ label cit4_naked_boobs_dance_variant2:
     citizen4 "Это не твое дело! Я говорю, ты делаешь."
     citizen4 "Ну дак что?"
     img 13426
+    with fade
     menu:
         "Хорошо.":
             pass
@@ -786,96 +846,151 @@ label cit4_naked_boobs_dance_variant2:
             m "Хватит с тебя того, что ты уже видел!"
             return False
     img 13399
+    with fade
     m "Хорошо. Только отвернись!"
     # отворачиваются
     img 13403
     citizen4 "Все равно мне не интересны твои сиськи."
+    sound snd_fabric1
     img 13404
+    with diss
     mt "Как он может такое говорить? Моя прекрасная грудь много кого интересует!"
     # поворачиваются, моника стоит с голыми сиськами
     img 13381
+    with fadelong
     citizen4 "Залезай уже на пилон и начинай!"
     img 13382
     m "Хорошо."
+    mt "Мерзавец..."
     # движение на пилоне
+    music RocknRoll_loop
     img 13428
+    with fadelong
     w
     img 13429
+    with diss
     citizen4 "Мне кажется, я начинаю любить твои сиськи!"
     # движение на пилоне еще
     img 13430
+    with diss
     w
     img 13431
+    with diss
     citizen4 "Да, вот так, двигайся!"
     # движение на пилоне еще
     img 13432
+    with diss
     w
     img 13433
+    with diss
     w
     img 13434
+    with diss
     citizen4 "Знаешь, все равно что-то не то. Кое чего не хватает."
     # движение на пилоне еще
     # ситизен пытается схватить монику за жопу во время ее вращения. Выходит.
     img 13821
+    with diss
     w
+    sound Jump1
     img 13822
+    with diss
     w
+    sound Jump2
     img 13436
+    with diss
     w
     img 13435
+    with diss
     citizen4 "Вот чего не хватает! Моей руки на твоей сочной жопе!"
+    music Power_Bots_Loop
     img 13437
+    with hpunch
     m "Какого черта? Отпути меня!"
     img 13438
+    with diss
     citizen4 "Не, мне нравится твой зад!"
     img 13439
+    with fade
     mt "Черт, если я отпущу пилон, он может меня отпустить и я упаду... Что делать?"
     img 13440
+    with diss
     menu:
         "Отпустить руки.":
             # моника отпускает руки и ситизен отпускает ее. моника падает
+            music Groove2_85
+            sound Jump1
             img 13446
+            with diss
             w
+            sound snd_down1
             img 13447
+            with diss
             w
             img 13448
+            with diss
             w
+            sound snd_bodyfall
             img 13449
+            with diss
             w
             img 13450
+            with fade
             citizen4 "Ха-ха-ха! Глупая девочка!"
+            $ citizen4BoobsNakedDancedCount1 += 1
             pass
         "Угрожать.":
+            music Power_Bots_Loop
             img 13441
+            with diss
             m "Знаешь что! Если ты меня не отпустишь, у тебя будут проблемы!"
+            music Groove2_85
             img 13442
             citizen4 "Девочка, ты не в тех условиях, чтобы угрожать!"
             citizen4 "Погоди минутку..."
             # лапает
+            sound Jump2
             img 13443
+            with diss
             citizen4 "О да, отличный зад!"
             # лапает
             img 13444
+            with diss
             citizen4 "Эх, маловат, но вполне годный!"
             # отпускает
+            $ citizen4BoobsNakedDancedCount2 += 1
             pass
         "Терпеть.":
             img 13445
+            with fade
             mt "Похоже, у меня нет выбора..."
             # лапает
+            sound Jump2
             img 13443
+            with diss
             citizen4 "О да, отличный зад!"
             # лапает
             img 13444
+            with diss
             citizen4 "Эх, маловат, но вполне годный!"
             # отпускает
+            $ citizen4BoobsNakedDancedCount3 += 1
             pass
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Power_Bots_Loop
     img 13451
+    with fadelong
     m "Я тебя убью!"
     img 13452
+    with diss
     citizen4 "Началось... Вот твои два бакса, заработала."
     citizen4 "И вот еще один, за твой красивый зад!"
+    $ earnedMoney +=1 # доллар за зад
     # моника злая
     img 13453
+    with fade
     mt "Когда нибудь ты за это ответишь, я обещаю!"
     return True

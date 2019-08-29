@@ -271,7 +271,7 @@ label citizen3_dialogue_pilon:
             pass
         "Станцуй с голыми сиськами. (мало свиданий) (disabled)" if (pylonpart4startsCompleted == True and citizen3BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") < monicaWhoringNakedBoobsDanceVisitsRequired:
             pass
-        "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen3BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired:
+        "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen3BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired and citizen3BoobsNakesShowedCount>=0:
             $ store_music()
             if citizen3BoobsNakedDancedCount == -1:
                 call cit3_naked_boobs_dance_1st()
@@ -288,7 +288,7 @@ label citizen3_dialogue_pilon:
                 $ showedNakedBoobsDance = True
                 $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))
             $ restore_music()
-            jump citizen1_dialogue_pilon_loop3
+            jump citizen3_dialogue_pilon_loop3
 
         "Достаточно на сегодня.":
             $ earnedMoney = 0
@@ -547,20 +547,28 @@ label cit3_naked_boobs_variant2:
 
 # первый раз танцы с сиськами
 label cit3_naked_boobs_dance_1st:
+    music Groove2_85
     img 13258
+    with fade
     citizen3 "Детка, разденься и покрутись ка на шесте!"
     citizen3 "Надо же его использовать по назначению."
     img 13259
     m "Не слишком ли многого ты хочешь!?"
     img 13260
+    with diss
     citizen3 "Нет, детка, совсем не многого!"
     citizen3 "Знала бы ты мои фантазии... Я там..."
     # моника перебивает. не знаю, как это может выглядеть в диалогах, возможно никак
+    music Power_Bots_Loop
     img 13261
+    with vpunch
     m "Мне не интересно!"
+    music Groove2_85
     img 13262
+    with fade
     citizen3 "Ладно, тогда раздевайся и крутись!"
     img 13263
+    with diss
     menu:
         "Мне нужны деньги...":
             pass
@@ -569,6 +577,7 @@ label cit3_naked_boobs_dance_1st:
             m "Хватит с тебя того, что ты уже видел!"
             return False
     img 13265
+    with fade
     mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
     mt "Хуже уже не будет..."
     img 13266
@@ -576,33 +585,49 @@ label cit3_naked_boobs_dance_1st:
     # отворачиваются
     img 13267
     citizen3 "Да, детка, как скажещь!"
+    music Loved_Up
     img 13268
+    with fade
+    w
     # поворачиваются, моника стоит с голыми сиськами
+    sound snd_fabric1
     img 13269
+    with fadelong
     citizen3 "Танцуй уже!"
     # движение на пилоне
+    music RocknRoll_loop
     img 13270
+    with fadelong
     w
     img 13271
+    with diss
     w
     img 13272
+    with diss
     citizen3 "Да, детка, молодец!"
     # движение на пилоне еще
     img 13273
+    with diss
     w
     img 13274
+    with diss
     citizen3 "А какие у тебя ножки! Ух!"
     # движение на пилоне еще
     img 13275
+    with diss
     citizen3 "Я бы заплатил 7, или нет, 9 долларов если ты дотронешься своей ножкой до моего дружка!"
     citizen3 "Ты же понимаешь о ком я?"
     img 13276
+    with diss
     mt "Да заткнись ты уже... Я бы на такое не согласилась и за 7000 долларов..."
     mt "Хотя..."
     img 13277
+    with diss
     citizen3 "Детка, почему ты молчишь? Сара за 7 баксов мне бы уже отсасывала!"
     # моника слезает с шеста
+    music Groove2_85
     img 13278
+    with fade
     m "Все! Плати!"
     img 13279
     citizen3 "Хорошо, детка, но ты так и не ответила на мой вопрос!"
@@ -613,10 +638,13 @@ label cit3_naked_boobs_dance_1st:
 
 # первый вариант танцы с сиськами
 label cit3_naked_boobs_dance_variant1:
+    music Groove2_85
     img 13281
+    with fade
     citizen3 "Детка, разденься и покрутись ка на шесте!"
     citizen3 "Мне нужно кое-что уточнить."
     img 13282
+    with fade
     menu:
         "Хорошо.":
             pass
@@ -625,49 +653,75 @@ label cit3_naked_boobs_dance_variant1:
             m "Хватит с тебя того, что ты уже видел!"
             return False
     img 13284
+    with fade
     m "Хорошо. Только отвернись!"
     # отворачиваются
     img 13285
     citizen3 "Да, детка, как скажещь!"
+    music Loved_Up
+    sound snd_fabric1
     img 13268
+    with diss
+    w
     # поворачиваются, моника стоит с голыми сиськами
     img 13286
+    with fadelong
     citizen3 "Знаешь, я тут видел Сару и мне интересно, кто из Вас лучше танцует..."
     citizen3 "Так что не задерживай меня и начинай!"
     img 13287
     mt "Сравнивать меня с какой-то уличной шлюхой? Конечно я танцую лучше!"
     # движение на пилоне
+    music RocknRoll_loop
     img 13288
+    with diss
     w
     img 13289
+    with diss
     citizen3 "Вау! Не плохо!"
     # движение на пилоне еще
     img 13290
+    with diss
     w
     img 13291
+    with diss
     citizen3 "Отлично! Но пока еще не уровень Сары!"
     img 13292
+    with diss
     mt "Ах ты паразит! Я докажу тебе..."
     # движение на пилоне extra (моника доказывает, что она танцует лучше)
+    music stop
+    img black_screen
+    with diss
+    music Molten_Alloy
+    pause 1.0
     img 13293
+    with fadelong
     w
     img 13294
+    with diss
     citizen3 "Ничего себе! А вот это что-то новое!"
     citizen3 "Да, думаю ты лучше!"
     img 13295
+    with diss
     mt "В этом никто и не сомневался!"
     # моника слезает с шеста
+    music Groove2_85
     img 13278
+    with fade
     m "Все! Плати!"
     img 13279
+    with diss
     citizen3 "Вот, заработала. Думаю, ты чуть лучше Сары"
     return True
 
 # второй вариант танцы с сиськами
 label cit3_naked_boobs_dance_variant2:
+    music Groove2_85
     img 13281
+    with fade
     citizen3 "Детка, разденься и покрутись ка на шесте!"
     img 13282
+    with fade
     menu:
         "Хорошо.":
             pass
@@ -676,44 +730,62 @@ label cit3_naked_boobs_dance_variant2:
             m "Хватит с тебя того, что ты уже видел!"
             return False
     img 13284
+    with fade
     m "Хорошо. Только отвернись!"
     # отворачиваются
+    music Loved_Up
     img 13285
     citizen3 "Да, детка, как скажещь!"
+    sound snd_fabric1
     img 13268
+    with fadelong
     # поворачиваются, моника стоит с голыми сиськами
+    w
     img 13286
     citizen3 "Ну не стой, давай уже полезай на шест!"
     img 13287
     mt "Козел..."
     # движение на пилоне
+    music RocknRoll_loop
     img 13296
+    with diss
     w
     img 13297
+    with diss
     citizen3 "Хорошо."
     # движение на пилоне еще
     img 13298
+    with diss
     w
     img 13299
+    with diss
     citizen3 "Давай детка, еще!"
     # движение на пилоне еще
     img 13301
+    with diss
     w
     img 13300
+    with diss
     citizen3 "Ах...Вот это ножки."
     citizen3 "Ты шикарна!"
     # моника слезает с шеста
+    music Groove2_85
     img 13302
+    with fade
     m "Все! Плати!"
     # ситизен показывает косяк
     img 13303
     citizen3 "Знаешь, детка, сейчас не самое удачное время... У меня не так много налички. Но у меня есть прекрасный товар. Хочешь?"
     img 13304
+    with fade
     menu:
         "Мне нужны деньги!":
             pass
+    music Power_Bots_Loop
     img 13306
+    with vpunch
     m "Мне нужны деньги!"
     img 13305
+    with fade
     citizen3 "Ты не знаешь от чего отказываешься, ну ладно, держи..."
     return True

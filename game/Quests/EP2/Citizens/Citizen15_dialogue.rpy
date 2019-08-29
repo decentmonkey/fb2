@@ -194,24 +194,30 @@ label citizen15_dialogue_pilon:
             pass
         "Станцуй с голыми сиськами. (мало свиданий) (disabled)" if (pylonpart4startsCompleted == True and citizen15BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") < monicaWhoringNakedBoobsDanceVisitsRequired:
             pass
-        "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen15BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired:
+        "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen15BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired:# and citizen15BoobsNakesShowedCount>=0:
             $ store_music()
             if citizen15BoobsNakedDancedCount == -1:
                 call cit15_naked_boobs_dance_1st()
-                if _return != False:
+                if _return == False:
                     $ citizen15BoobsNakedDancedCount += 1
             else:
                 if citizen15BoobsNakedDancedCount%2 == 0:
                     call cit15_naked_boobs_dance_variant1()
                 if citizen15BoobsNakedDancedCount%2 == 1:
                     call cit15_naked_boobs_dance_variant2()
+                    if _return == 1:
+                        $ showedNakedBoobsDance = True
+                        $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))
+                        $ restore_music()
+                        $ autorun_to_object("citizen15_autorun_comment1", scene="hostel_edge_1_a")
+                        return False # Заканчиваем евент
                 $ citizen15BoobsNakedDancedCount += 1
             if _return != False:
                 $ citizen15BoobsNakedDancedLastDay = day
                 $ showedNakedBoobsDance = True
                 $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))
             $ restore_music()
-            jump citizen1_dialogue_pilon_loop15
+            jump citizen15_dialogue_pilon_loop15
 
         "Достаточно на сегодня.":
             $ earnedMoney = 0
@@ -505,7 +511,9 @@ label cit15_naked_boobs_variant2:
 
 # первый раз танцы с сиськами
 label cit15_naked_boobs_dance_1st:
+    music Groove2_85
     img 13768
+    with fade
     citizen15 "Бэйба! Я удивлен, что ты еще не крутишься голая на этом пилоне!"
     img 13769
     m "Разве я должна?"
@@ -520,16 +528,20 @@ label cit15_naked_boobs_dance_1st:
     citizen15 "Отлично! Значит так: показывай свои сисечки и пулей на пилон!"
     citizen15 "Я за это плачу!"
     img 13774
+    with diss
     menu:
         "Мне нужны деньги...":
             pass
         "Хватит с тебя того, что ты уже видел!":
+            music Power_Bots_Loop
             img 13775
+            with fade
             m "Хватит с тебя того, что ты уже видел!"
             img 13776
             citizen15 "Я знаю, ты передумаешь!"
             return False
     img 13777
+    with fade
     mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
     mt "Хуже уже не будет..."
     img 13778
@@ -537,80 +549,113 @@ label cit15_naked_boobs_dance_1st:
     # отворачиваются
     img 13779
     citizen15 "Ну ты как обычно, ладно!"
+    sound snd_fabric1
     img 12444
+    with diss
+    w
     # поворачиваются, моника стоит с голыми сиськами
     img 13780
+    with fadelong
     citizen15 "Давай, залазь!"
     img 13781
+    with diss
     mt "Когда-нибудь моему терпению придет конец..."
     # движение на пилоне
+    music Molten_Alloy
     img 13782
+    with fadelong
     w
     img 13783
+    with diss
     citizen15 "Давай, бейби, покажи на что ты способна!"
     # движение на пилоне еще
     img 13784
+    with diss
     w
     img 13785
+    with diss
     citizen15 "Вот так вот! Уверен, ты уже мокрая!"
     img 13786
+    with diss
     mt "И не надейся..."
     # моника слезает с шеста
+    music Groove2_85
     img 13787
+    with fadelong
     citizen15 "И это все? Не густо..."
     citizen15 "Ааа... Я тебя понял! Ты меня дразнишь... Хорошо..."
     img 13655
     mt "И не надейся, ничтожество."
     img 13788
+    with diss
     citizen15 "Ладно, держи, заработала."
     $ nakedBoobsDanceFirstly_Cit15 = True
     return True
 
 # танцы с сиськами вариант 1
 label cit15_naked_boobs_dance_variant1:
+    music Groove2_85
     img 13789
+    with fade
     citizen15 "Ну что, ты готова меня развлекать?"
     citizen15 "Зачем я спрашиваю? Я же знаю, что да!"
     citizen15 "Раздевайся и на пилон!"
     img 13790
     m "Нет."
     img 13774
+    with diss
     menu:
         "Хорошо.":
             pass
         "Хватит с тебя того, что ты уже видел!":
+            music Power_Bots_Loop
             img 13775
+            with fade
             m "Хватит с тебя того, что ты уже видел!"
             img 13776
             citizen15 "Я знаю, ты передумаешь!"
             return False
     img 13778
+    with fade
     m "Хорошо. Только отвернись!"
     citizen15 "Что с тобой не так? Все девочки хотят, чтобы я на них смотрел!"
     # отворачиваются
     img 13779
     citizen15 "Ладно, сыграем снова в твою игру!"
+    sound snd_fabric1
     img 12444
+    with diss
+    w
     # поворачиваются, моника стоит с голыми сиськами
     img 13780
+    with fadelong
     citizen15 "Начинай уже!"
     img 13781
+    with diss
     mt "Когда-нибудь моему терпению придет конец..."
     # движение на пилоне
+    music Molten_Alloy
     img 13792
+    with fadelong
     w
     img 13791
+    with diss
     citizen15 "О да! Девочка вошла во вкус!"
     # движение на пилоне еще
     img 13793
+    with diss
     w
     img 13794
+    with diss
     citizen15 "Йо! Вот это ты раскрутилась!"
     citizen15 "Уверен, ты не против также покрутиться на моем толстом члене!"
     img 13786
+    with diss
     mt "Скорее, я не против его оторвать..."
     # моника слезает с шеста
+    music Groove2_85
     img 13787
+    with fadelong
     citizen15 "И это все? Не густо..."
     citizen15 "Ааа... Ты продолжаешь меня дразнить... Хорошо..."
     img 13655
@@ -619,96 +664,138 @@ label cit15_naked_boobs_dance_variant1:
     citizen15 "Вот твои деньги, девочка. И я тут подумал: если ты попросишь, чтобы я тебя трахнул, скорее всего, я соглашусь, но я не уверен."
     # кадр как ситизен держится за член, который пока в штанах и моника видит какой он большой
     # короче у этого негра огромный хер. Моника это видит и охеревает
+    sound Jump1
     img 13795
+    with diss
     w
     img 13796
+    with diss
     mt "Черт! У него там что, бейсбольная бита?"
     img 13797
+    with fade
     citizen15 "Что, нравится мой инструмент? Я знаю, он всем нравится!"
     return True
 
 # танцы с сиськами вариант 2
 label cit15_naked_boobs_dance_variant2:
+    music Groove2_85
     img 13768
+    with fade
     citizen15 "Давай повторим наши танцы! И не забудь про сиськи!"
     citizen15 "И не вздумая отказываться, я ведь знаю, что ты от меня без ума."
     img 13798
+    with diss
     menu:
         "Хорошо.":
             pass
         "Хватит с тебя того, что ты уже видел!":
+            music Power_Bots_Loop
             img 13775
+            with fade
             m "Хватит с тебя того, что ты уже видел!"
             img 13776
             citizen15 "Я знаю, ты передумаешь!"
             return False
     img 13778
+    with fade
     m "Хорошо. Только отвернись!"
     # отворачиваются
     img 13779
     citizen15 "Ладно, сыграем снова в твою игру!"
+    sound snd_fabric1
     img 12444
+    with diss
+    w
     # поворачиваются, моника стоит с голыми сиськами
     img 13799
+    with fadelong
     citizen15 "Крутись уже! И не разочаруй меня!"
     img 13781
+    with diss
     mt "Когда-нибудь моему терпению придет конец..."
     # движение на пилоне
+    music Molten_Alloy
     img 13801
+    with fadelong
     w
     img 13800
+    with diss
     citizen15 "Йо, детка, а ты сегодня в ударе!"
     # движение на пилоне еще. в это время к пилону подходит ситизен14
     img 13802
+    with diss
     w
+    music Groove2_85
     img 13803
+    with fade
     citizen14 "Ик! Эй друг, я смотрю ты тут развлекаешься!"
     citizen14 "Кстати, ты знаешь, я нравлюсь этой девочке! Хрюк..."
     citizen14 "Пожалуй, постою с тобой!"
     img 13804
+    with diss
     citizen15 "Йо! Это моя бейба, друг!"
     # моника слезает с шеста
-    img 1380
+    music Power_Bots_Loop
+    img 13805
+    with hpunch
     m "Какого хрена здесь еще кто-то?"
+    music Loved_Up
     img 13806
+    with diss
     citizen15 "Бейб, не злись, это мой друг, а у друзей не может быть секретов!"
     img 13807
     citizen14 "Хрюк!"
+    music Groove2_85
     img 13808
     m "Или ты сейчас же просишь своего друга свалить отсюда или я..."
     img 13809
+    with fade
     citizen15 "Ого! Какая же ты горячая когда злишься!"
     citizen15 "Я слышал, что иногда надо делать вещи, о которых просят девочки."
     citizen15 "После этого они будут лучше сосать! Я уверен скоро ты меня об этом попросишь..."
     img 13810
+    with diss
     menu:
         "Перестать терпеть это.":
             # моника злая
+            music Power_Bots_Loop
             img 13811
+            with fade
             m "Ах ты сволочь! А ну проваливай отсюда иначе тебе не поздоровится!"
             img 13812
+            with diss
             citizen15 "Йо, девочка! Ты уверена? Если я уйду, ты не ничего не получишь и все закончится тем, что ты снова ко мне придешь."
             img 13813
             m "Мне плевать! Ты меня достал!"
             img 13814
+            with fade
             citizen15 "Ха-ха-ха! Ладно, как скажешь"
             # ситизен15 уходит, событие у пилона полностью заканчивается. моника не получает денег
-            return False
+            return 1
         "Молча слушать.":
             pass
     img 13815
+    with diss
     citizen15 "Йо, друг! Думаю тебе лучше уйти, это моя девочка!"
     citizen15 "Скоро я подгоню тебе какую нибудь дешевую шлюшку, не волнуйся."
     img 13816
+    with diss
     citizen14 "Ик! А ты знаешь мои слабости. Ладно, уговорил."
     # ситизен14 уходит
     img 13817
+    with diss
     w
     img 13818
+    with fade
     citizen15 "Ну что, не хочешь ли ты попросить меня кое о чем?"
     img 13819
     m "Да. Где мои деньги?"
     img 13820
+    with fade
     citizen15 "Я не совсем это имел ввиду, ну да ладно, в другой раз. Надо нагулять апетит."
     citizen15 "Вот твои деньги, бейба."
-    return True
+    return 2
+
+label citizen15_autorun_comment1:
+    mt "Мерзавец..."
+    return

@@ -206,7 +206,7 @@ label citizen5_dialogue_pilon:
             pass
         "Станцуй с голыми сиськами. (мало свиданий) (disabled)" if (pylonpart4startsCompleted == True and citizen5BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") < monicaWhoringNakedBoobsDanceVisitsRequired:
             pass
-        "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen5BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired:
+        "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen5BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired and citizen5BoobsNakesShowedCount>=0:
             $ store_music()
             if citizen5BoobsNakedDancedCount == -1:
                 call cit5_naked_boobs_dance_1st()
@@ -223,7 +223,7 @@ label citizen5_dialogue_pilon:
                 $ showedNakedBoobsDance = True
                 $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))
             $ restore_music()
-            jump citizen1_dialogue_pilon_loop5
+            jump citizen5_dialogue_pilon_loop5
 
 
         "Достаточно на сегодня.":
@@ -568,7 +568,9 @@ label cit5_naked_boobs_variant2:
 
 # первый раз танцы с сиськами
 label cit5_naked_boobs_dance_1st:
+    music Groove2_85
     img 13307
+    with fade
     citizen5 "Мистер желает увидеть совмещение."
     img 13308
     m "Что? Я не понимаю."
@@ -581,8 +583,9 @@ label cit5_naked_boobs_dance_1st:
     img 13312
     mt "Теперь понятно о чем ты..."
     img 13313
+    with fade
     menu:
-        "Почему бы и нет.":
+        "Мне нужны деньги...":
             pass
         "Хватит с тебя того, что ты уже видел!":
             img 13314
@@ -591,54 +594,75 @@ label cit5_naked_boobs_dance_1st:
             citizen5 "Мистер разочарован!"
             return False
     img 13316
+    with fade
     mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
     mt "Хуже уже не будет..."
     img 13317
     m "Хорошо. Только отвернись!"
     # отворачиваются
     img 13318
-    w
+    with diss
+    m "???"
+    sound snd_fabric1
+    music Loved_Up
     img 13319
+    with diss
     citizen5 "О, конечно!"
     # поворачиваются, моника стоит с голыми сиськами
     img 13320
+    with fadelong
     citizen5 "Мистер рад, можно начинать!"
     # движение на пилоне
+    music Molten_Alloy
     img 13321
+    with fadelong
     w
     img 13322
+    with diss
     w
     img 13323
+    with diss
     citizen5 "Это очень хорошо! Ты очень молодец!"
     # движение на пилоне еще
     img 13324
+    with diss
     w
     img 13325
+    with diss
     w
     img 13326
+    with diss
     citizen5 "Как ты замечательно двигаешься! Ты профессионал!"
     # движение на пилоне еще
     img 13328
+    with diss
     w
     img 13327
+    with diss
     citizen5 "Ооо...Ты получишь от мистера много денег!"
     # моника слезает с шеста
+    music Groove2_85
     img 13329
+    with fadelong
     m "Все! Плати! Мне нужны настоящие деньги!"
     img 13330
     mt "И не нужны твои тугрики..."
     img 13331
+    with fade
     citizen5 "Настоящие? Это можно, вот возьми."
     $ nakedBoobsDanceFirstly_Cit5 = True
     return True
 
 # первый вариант танцы с сиськами
 label cit5_naked_boobs_dance_variant1:
+    music Groove2_85
     img 13307
+    with fade
     citizen5 "Мистер желает увидеть совмещение."
     img 13312
     mt "Неужели снова придется раздется и станцевать?"
     img 13313
+    with diss
     menu:
         "Хорошо.":
             pass
@@ -649,45 +673,62 @@ label cit5_naked_boobs_dance_variant1:
             citizen5 "Мистер разочарован!"
             return False
     img 13317
+    with fade
     m "Хорошо. Только отвернись!"
     # отворачиваются
     img 13318
     w
+    sound snd_fabric1
     img 13319
+    with diss
     citizen5 "О, конечно!"
     # поворачиваются, моника стоит с голыми сиськами
     img 13320
+    with fadelong
     citizen5 "У мистера сегодня хорошее настроение!"
     # движение на пилоне
+    music Molten_Alloy
     img 13332
+    with fadelong
     citizen5 "Крутись! Превосходно!"
     # движение на пилоне еще
     img 13333
+    with diss
     w
     img 13334
+    with diss
     w
     img 13335
+    with diss
     w
     img 13336
+    with diss
     citizen5 "Мистеру кажется, что он готов будет написать хайку!"
     # моника слезает с шеста
+    music Groove2_85
     img 13337
+    with fadelong
     citizen5 "Мистер придумал! Вот послушай!"
     img 13338
+    with diss
     citizen5 "Стрекоза летала,"
     citizen5 "На сакуру села."
     citizen5 "Радость мистеру."
     img 13339
+    with fade
     citizen5 "Или это не хайку... Мистер запутался от твоих безупречных форм!"
     img 13340
     mt "А у мистера похоже, что не все дома..."
     img 13341
+    with diss
     citizen5 "Вот твои настоящие деньги."
     return True
 
 # второй вариант танцы с сиськами
 label cit5_naked_boobs_dance_variant2:
+    music Groove2_85
     img 13342
+    with fade
     citizen5 "Как насчет танца на пилоне?"
     img 13343
     mt "Что? А где же обычный бред, который он все время несет?"
@@ -698,6 +739,7 @@ label cit5_naked_boobs_dance_variant2:
     mt "А, нет, все нормально."
     mt "Он все тот же кретин..."
     img 13346
+    with fade
     menu:
         "Хорошо.":
             pass
@@ -708,54 +750,83 @@ label cit5_naked_boobs_dance_variant2:
             citizen5 "Мистер разочарован!"
             return False
     img 13349
+    with fade
     m "Хорошо. Только отвернись!"
     # отворачиваются
     img 13350
     citizen5 "О, конечно!"
     img 13351
     w
+    sound snd_fabric1
     img 13352
+    with diss
+    w
     # поворачиваются, моника стоит с голыми сиськами
     img 13353
+    with fadelong
     citizen5 "Мистер думает, что ты не очень любишь это прекрасное занятие и хочет, чтобы ты чувствовала себя по-особенному!"
     img 13354
     mt "Он что-то задумал?"
     img 13355
+    with diss
     citizen5 "Можно стартовать!"
     # движение на пилоне: моника танцует, а ситизен кидает доллары зимбабве
     # очень много на эту тему стереотипных фото аля Девушка танцует, мужчина сорит деньгами
+    music Molten_Alloy
     img 13356
+    with fadelong
     w
     img 13357
+    with diss
     w
     img 13358
+    with diss
+    sound snd_take_paper
     citizen5 "Это тебе!"
     #  моника танцует
+    sound snd_take_paper
     img 13359
+    with diss
     w
+    sound snd_take_paper
     img 13360
+    with diss
     citizen5 "Получай!"
     #  моника танцует,
+    sound snd_take_paper
     img 13361
+    with diss
     w
+    sound snd_take_paper
     img 13362
+    with diss
     citizen5 "И вот еще!"
     #  моника танцует,
     img 13363
+    with diss
     w
     img 13364
+    with diss
     citizen5 "Все, у меня закончились деньги!"
     #  моника слезает с шеста
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Groove2_85
     img 13365
+    with fadelong
     citizen5 "Тебе понравилось? Удалось ли мне создать атмосферу?"
     img 13366
     m "Какую еще атмосферу?"
     img 13367
     citizen5 "Атмосферу твоего рабочего места!"
     img 13369
+    with diss
     mt "Знал бы ты что у меня за атмосфера на рабочем месте..."
     img 13368
     m "Нет.."
     img 13370
+    with fade
     citizen5 "Ай-ай, мистер немного разочарован. Но ничего, думаю американские деньги также помогут ее созданию..."
     return True

@@ -282,7 +282,7 @@ label citizen9_dialogue_pilon:
             pass
         "Станцуй с голыми сиськами. (мало свиданий) (disabled)" if (pylonpart4startsCompleted == True and citizen9BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") < monicaWhoringNakedBoobsDanceVisitsRequired:
             pass
-        "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen9BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired:
+        "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen9BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired and citizen9BoobsNakesShowedCount>=0:
             $ store_music()
             if citizen9BoobsNakedDancedCount == -1:
                 call cit9_naked_boobs_dance_1st()
@@ -299,7 +299,7 @@ label citizen9_dialogue_pilon:
                 $ showedNakedBoobsDance = True
                 $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))
             $ restore_music()
-            jump citizen1_dialogue_pilon_loop9
+            jump citizen9_dialogue_pilon_loop9
 
         "Достаточно на сегодня.":
             $ earnedMoney = 0
@@ -630,7 +630,9 @@ label citizen9_comment1:
 
 # первый раз танцы с сиськами
 label cit9_naked_boobs_dance_1st:
+    music Groove2_85
     img 13631
+    with fade
     citizen9 "Йо, дамочка! Давай посмотрим на твои сисечки!"
     img 13632
     mt "Как же ты меня бесишь, если бы мне не были так нужны деньги, то я..."
@@ -638,14 +640,18 @@ label cit9_naked_boobs_dance_1st:
     citizen9 "И ты же уже знаешь, зачем нужен пилон..."
     citizen9 "Лезь на него!"
     img 13634
+    with diss
     menu:
         "Мне нужны деньги...":
             pass
         "Хватит с тебя того, что ты уже видел!":
+            music Power_Bots_Loop
             img 13635
+            with fade
             m "Хватит с тебя того, что ты уже видел!"
             return False
     img 13316
+    with fade
     mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
     mt "Хуже уже не будет..."
     img 13636
@@ -664,36 +670,54 @@ label cit9_naked_boobs_dance_1st:
     # отворачивается
     img 13642
     citizen9 "Так и быть!"
+    sound snd_fabric1
     img 12251
+    with diss
+    w
     # поворачиваются, моника стоит с голыми сиськами
     img 13643
+    with fadelong
     w
     img 13644
+    with diss
     citizen9 "Йо! Ну неужели сама не догадываешься, что пилон уже тебя заждался?!"
     # движение на пилоне
+    music RocknRoll_loop
     img 13645
+    with fadelong
     w
     img 13646
+    with diss
     citizen9 "О да!"
     # движение на пилоне еще
     img 13648
+    with diss
     w
     img 13647
+    with diss
     citizen9 "Порадуй старину Найджела!"
     # движение на пилоне еще
     img 13649
+    with diss
     w
     img 13650
+    with diss
     citizen9 "Горяча!"
     # моника слезает с шеста
+    music Groove2_85
     img 13651
+    with fadelong
     m "Все, достаточно!"
     img 13652
     citizen9 "И правда хватит. Пора засунуть мой член меджу твоих сисек!"
     citizen9 "Я же уже заплатил..."
+    music Power_Bots_Loop
     img 13653
+    with hpunch
     m "?!"
+    music Groove2_85
     img 13654
+    with fade
     citizen9 "Шутка! Дамочка, в тебе ни капли чувства юмора."
     img 13655
     mt "Зато твое чувство юмора ужасно... Мерзавец!"
@@ -702,18 +726,24 @@ label cit9_naked_boobs_dance_1st:
 
 #  танцы с сиськами 1 вариант
 label cit9_naked_boobs_dance_variant1:
+    music Groove2_85
     img 13663
+    with fade
     citizen9 "Йо, я соскучился по твоим танцам на пилоне!"
     citizen9 "Станцуй!"
     img 13634
+    with diss
     menu:
         "Хорошо.":
             pass
         "Хватит с тебя того, что ты уже видел!":
+            music Power_Bots_Loop
             img 13635
+            with fade
             m "Хватит с тебя того, что ты уже видел!"
             return False
     img 13664
+    with fade
     m "Знаешь что, почему ты так плохо со мной обращаешься?"
     img 13665
     citizen9 "Не, дамочка, с тобой я еще хорошо обращаюсь!"
@@ -725,35 +755,50 @@ label cit9_naked_boobs_dance_variant1:
     img 13668
     m "А ты отвернись!"
     # отворачивается. достает тел и по тихому снимает как моника переодевается
+    sound Jump1
     img 13669
+    with diss
     citizen9 "О да! Это видео непременно пойдет в мою коллекцию..."
     img 13670
+    call photoshop_flash()
     w
+    sound snd_fabric1
     img 13671
+    with fadelong
     # поворачивается моника стоит с сиськами
+    w
     img 13672
     citizen9 "Класс! Я доволен!"
     img 13673
+    with diss
     mt "Интересно чем..."
     img 13674
     citizen9 "Танцуй же уже!"
     # движение на пилоне
+    music RocknRoll_loop
     img 13675
+    with fadelong
     w
     img 13676
+    with diss
     citizen9 "Да, дамочка, это твое призвание!"
     # движение на пилоне
     img 13677
+    with diss
     w
     img 13678
+    with diss
     citizen9 "Да ты просто бомба!"
     # моника слезает с шеста
+    music Groove2_85
     img 13651
+    with fadelong
     m "Все, достаточно!"
     img 13652
     citizen9 "Я бы так не сказал, но в любом случае, дома у меня будет еще неколько часов важных дел..."
     citizen9 "Я буду смотреть порно!"
     img 13653
+    with diss
     m "Я и без тебя это поняла..."
     img 13654
     citizen9 "А ты догадливая ... Иногда..."
@@ -762,9 +807,12 @@ label cit9_naked_boobs_dance_variant1:
 
 #  танцы с сиськами 2 вариант
 label cit9_naked_boobs_dance_variant2:
+    music Groove2_85
     img 13663
+    with fade
     citizen9 "Расчехляй близняжек и на шест!"
     img 13634
+    with diss
     menu:
         "Хорошо.":
             pass
@@ -773,43 +821,57 @@ label cit9_naked_boobs_dance_variant2:
             m "Хватит с тебя того, что ты уже видел!"
             return False
     img 13637
+    with fade
     citizen9 "Я даже сам отвернусь..."
     img 13638
     mt "Что это с ним?"
-    w
-    img 1225
+#    w
+#    img 1225
     # поворачивается, моника с сиськами
+    sound snd_fabric1
     img 13643
+    with fadelong
     citizen9 "Залезай пожалуйста на шест."
     img 13673
     mt "А где же Йо? Что с ним сегодня?"
     # движение на пилоне
+    music RocknRoll_loop
     img 13680
+    with fadelong
     w
     img 13679
+    with diss
     citizen9 "Очень красиво!"
     # движение на пилоне
     img 13681
+    with diss
     w
     img 13682
+    with diss
     citizen9 "Очень, очень красиво!"
     # моника слезает с шеста
+    music Groove2_85
     img 13683
+    with fadelong
     m "Что с тобой сегодня?"
     img 13684
     citizen9 "Со мной все в порядке, просто я прочитал в гороскопе, что в течение дня мне лучше быть вежливым и, возможно, я добьюсь чего-то большего."
     img 13685
     mt "Возможно, но явно не со мной."
     img 13686
+    with fade
     citizen9 "Вот, возьми пожалуйста твои деньги."
     # моника берет дкньги
     img 13687
+    with fadelong
     citizen9 "И все?"
     img 13688
+    with diss
     m "А чего ты хотел?"
     img 13689
     citizen9 "Ну я же был вежлив..."
     img 13690
+    with diss
     m "Ну тебе же ясно в гороскопе сказали 'возможно добьетесь'. Со мной ничего не удалось."
     img 13691
     citizen9 "Йо, дамочка! Все гороскопы отстой, я знал это!"

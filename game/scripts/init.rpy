@@ -194,7 +194,7 @@ define monicaWhoringNakedBoobsDanceVisitsRequired = 0 # Кол-во визито
 define monicaWhoringClothNakedBoobsCorruptionRequired = 100 # Кол-во corruption, чтобы Моника показала голые сиськи
 define monicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired = 110  # Кол-во corruption, чтобы Моника показала голые сиськи и сжала соски
 define monicaWhoringClothNakedBoobsShakeCorruptionRequired = 110  # Кол-во corruption, чтобы Моника показала голые сиськи и потрясла ими
-
+define monicaWhoringNakedBoobsDanceCitizen6BottleCorruptionRequired = 200 # событие с citizen6
 
 define monicaWhoringClothBoobsCorruptionProgress = 1 # Кол-во corruption, которые даются за показ груди в одежде
 define monicaWhoringClothBoobsTongueCorruptionProgress = 1 #Кол-во corruption, которые даются за показ груди в одежде, высунув язык

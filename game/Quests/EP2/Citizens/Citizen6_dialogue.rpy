@@ -2,6 +2,7 @@ default citizen6BoobsNakesShowedLastDay = 0
 default citizen6BoobsNakedDancedLastDay = 0
 default citizen6BoobsNakesShowedCount = -1
 default citizen6BoobsNakedDancedCount = -1
+default citizen6BoobsNakedDancedBottleCount = 0
 default questOffendMonicaFlyersCitizen6ThanksGiven = False
 default questWhorePlaceSearchingStage = 0
 
@@ -298,6 +299,7 @@ label citizen6_dialogue_pilon:
     $ showedDance = False
     $ showedNakedBoobs = False
     $ showedNakedBoobsDance = False
+    $ earnedMoney = 0
     label citizen6_dialogue_pilon_loop6:
     call pylonController(1, 1) from _call_pylonController_14
     menu:
@@ -429,7 +431,7 @@ label citizen6_dialogue_pilon:
             pass
         "Станцуй с голыми сиськами. (мало свиданий) (disabled)" if (pylonpart4startsCompleted == True and citizen6BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") < monicaWhoringNakedBoobsDanceVisitsRequired:
             pass
-        "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen6BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired:
+        "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen6BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired and citizen6BoobsNakesShowedCount>=0:
             $ store_music()
             if citizen6BoobsNakedDancedCount == -1:
                 call cit6_naked_boobs_dance_1st()
@@ -446,11 +448,10 @@ label citizen6_dialogue_pilon:
                 $ showedNakedBoobsDance = True
                 $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))
             $ restore_music()
-            jump citizen1_dialogue_pilon_loop6
+            jump citizen6_dialogue_pilon_loop6
 
 
         "Достаточно на сегодня.":
-            $ earnedMoney = 0
             if showedBoobs == True or showedButt == True or showedDance == True or showedNakedBoobs == True or showedNakedBoobsDance == True:
                 if showedBoobs == True:
                     $ earnedMoney += monicaWhoringClothBoobsOrButtMoney
@@ -764,15 +765,19 @@ label cit6_naked_boobs_variant2:
 
 # первый раз танцы с сиськами
 label cit6_naked_boobs_dance_1st:
+    music Groove2_85
     img 13454
+    with fade
     citizen6 "Эй, как насчеет танцев?"
     img 13455
     m "Можно, но только если ты заплатишь."
     img 13456
     citizen6 "Да, я заплачу, а ты снимешь кофточку."
     img 13457
+    with hpunch
     m "Что?!"
     img 13458
+    with diss
     menu:
         "Мне нужны деньги...":
             pass
@@ -781,13 +786,16 @@ label cit6_naked_boobs_dance_1st:
             m "Хватит с тебя того, что ты уже видел!"
             return False
     img 13376
+    with fade
     mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
     mt "Хуже уже не будет..."
     img 13460
+    with fade
     m "Сколько ты заплатишь?"
     img 13461
     citizen6 "Танцы-доллар, сиськи-по пол доллара каждая. Итого 2 доллара."
     img 13462
+    with fade
     menu:
         "Хорошо.":
             pass
@@ -798,51 +806,71 @@ label cit6_naked_boobs_dance_1st:
             citizen6 "Ладно, тут можно и по дешевле найти!"
             return False
     img 13465
+    with fade
     mt "Сиськи по пол доллара каждая?! Да моя грудь стоит миллион!"
     img 13466
+    with diss
     m "Хорошо. Только отвернись!"
     # отворачиваются
     img 13467
-
     citizen6 "Хорошо, отвернусь!"
-    img_12023
+    sound snd_fabric1
+    img 12023
+    with diss
+    w
     # поворачиваются, моника стоит с голыми сиськами
     img 13468
+    with fadelong
     citizen6 "Давай, не тормози, начинай!"
+    music RocknRoll_loop
     # движение на пилоне
     img 13469
+    with fadelong
     w
     img 13470
+    with diss
     citizen6 "Хе-хе! Прекрасно!"
     # движение на пилоне еще
     img 13471
+    with diss
     w
     img 13472
+    with diss
     citizen6 "Давай еще! И, если мне понравится, то я, возможно, дам тебе еще доллар!"
     # движение на пилоне еще
     img 13473
+    with diss
     w
     img 13474
+    with diss
     w
     img 13475
+    with diss
     citizen6 "Ну, не знаю, такое чувство, что ты халтуришь..."
     # моника слезает с шеста
+    music Groove2_85
     img 13476
+    with fadelong
     m "С тебя хватит!"
     img 13477
     citizen6 "Вот смотрю я на тебя и думаю, что нет в тебе искры, но свои 2 бакса ты заработала."
     citizen6 "Тренируйся! И получишь 2.5 доллара, а может и 3!"
+    music Power_Bots_Loop
     img 13478
+    with fade
     m "Когда я верну себе все то, чем я владела, я затолкаю эти 2 доллара тебе в рот!"
     $ nakedBoobsDanceFirstly_Cit6  = True
     return True
 
 # танцы с сиськами var 1
-label cit6_naked_boobs_dance_variant1:
+label cit6_naked_boobs_dance_variant2:
+    music Groove2_85
     img 13479
+    with fade
     citizen6 "Детка, потанцуй еще, мне нравится, как ты крутишься на пилоне."
     citizen6 "Особенно без блузки."
     img 13462
+    with diss
     menu:
         "Хорошо.":
             pass
@@ -853,94 +881,132 @@ label cit6_naked_boobs_dance_variant1:
             citizen6 "Ладно, если ты не хочешь денег..."
             return False
     img 13466
+    with fade
     m "Хорошо. Только отвернись!"
     # отворачиваются
     img 13467
     citizen6 "Хорошо."
-    img_12023
+    sound snd_fabric1
+    img 12023
+    with diss
+    w
     # поворачиваются, моника стоит с голыми сиськами
     img 13468
+    with fadelong
     citizen6 "Давай, не тормози, начинай!"
     # движение на пилоне
+    music RocknRoll_loop
     img 13480
+    with fadelong
     w
     img 13481
+    with diss
     citizen6 "Хе-хе! Прекрасно!"
     # движение на пилоне еще
     img 13482
+    with diss
     w
     img 13483
+    with diss
     citizen6 "Давай еще! И, если мне понравится, то я, возможно, дам тебе еще доллар!"
     # движение на пилоне еще
     img 13485
+    with diss
     w
     img 13484
+    with diss
     citizen6 "Ну не знаю, такое чувство, что ты халтуришь..."
     # моника слезает с шеста
+    music Groove2_85
     img 13486
+    with fade
     m "С тебя хватит!"
     img 13487
     citizen6 "Вот смотрю я на тебя и думаю, что нет в тебе искры, но свои 2 бакса ты заработала."
     citizen6 "Тренируйся! И получишь 2.5 доллара, а может и 3!"
+    music Power_Bots_Loop
     img 13478
+    with fade
     m "Когда я верну себе все то, чем я владела, я затолкаю эти 2 доллара тебе в рот!"
     return True
 
 # вариант 2
-label cit6_naked_boobs_dance_variant2:
-    img_13488
+label cit6_naked_boobs_dance_variant1:
+    music Groove2_85
+    img 13488
+    with fade
     citizen6 "Детка, потанцуй еще, я устал от стрип клуба, там плохое освещение..."
     citizen6 "И сними блузку. Без нее тебе лучше."
-    img_13462
+    img 13462
+    with diss
     menu:
         "Хорошо.":
             pass
         "Хватит с тебя того, что ты уже видел!":
             img 12021
             m "Хватит с тебя того, что ты уже видел!"
-            img_13464
+            img 13464
             citizen6 "Ладно, если ты не хочешь денег..."
             return False
-    img_13466
+    img 13466
+    with fade
     m "Хорошо. Только отвернись!"
     # отворачиваются
     img 13467
     citizen6 "Ладно."
+    sound snd_fabric1
     img 12023
+    with diss
     # поворачиваются, моника стоит с голыми сиськами
+    w
     img 13468
+    with fadelong
     citizen6 "Ну давай уже! Мне долго ждатть?"
     # движение на пилоне
+    music Molten_Alloy
     img 13489
+    with fadelong
     w
     img 13490
+    with diss
     citizen6 "Вот, другое дело!"
     # движение на пилоне еще
     img 13491
+    with diss
     w
     img 13492
+    with diss
     citizen6 "Давай еще! И, если мне понравится, то я, возможно, дам тебе еще доллар!"
     # движение на пилоне еще
     img 13494
+    with diss
     w
     img 13493
+    with diss
     citizen6 "А сегодня ты получше! Тренировалась?"
     # моника слезает с шеста
+    music Groove2_85
     img 13486
+    with fadelong
     m "С тебя хватит!"
     img 13495
+    with diss
     citizen6 "Я тут придумал, как ты можешь заработать еще доллар."
     citizen6 "Я был в стрип клубе и там некоторые из твоих коллег наклоняются перед лицами посетителей, а между сисек у них бутылка..."
     citizen6 "Дак вот, они наклоняются, а из бутылки льется пиво прямо в рот!"
     img 13496
+    with diss
     citizen6 "Я тут прикупил пивка..."
     citizen6 "Ну дак что? Сделаешь это? Я дам тебе доллар!"
     citizen6 "Ради такого я даже присяду, ведь тут нет сцены..."
     citizen6 "Ну дак что, хочешь доллар?"
     img 13497
+    with fade
+    $ menu_corruption = [monicaWhoringNakedBoobsDanceCitizen6BottleCorruptionRequired]
     menu:
         "Я хочу больше!":
             img 13501
+            with fade
             m "Я хочу больше!"
             img 13502
             citizen6 "Серьезно? Я и так плачу тебе доллар! На это можно купить целый кебаб!"
@@ -948,45 +1014,64 @@ label cit6_naked_boobs_dance_variant2:
             img 13503
             mt "Черт, мне нужны деньги и я уже решила, что могу пойти на такое... Как бы сделать так, чтобы он согласился заплатить как можно больше."
             img 13504
+            with fade
             m "Я хочу 50 долларов! Один человек мне заплатил столько только за то, что я показала ему грудь."
             img 13505
             citizen6 "Ха-ха-ха! Я даже знаю его! Его тут все знают! Он помешан на новых сиськах! Думаю, в другой раз он столько не заплатит."
             citizen6 "Хорошо. В стрип клубе я за это плачу 10 долларов, но девочке из этого идет не все. Я дам тебе не 1 доллар, а 3!"
             img 13506
+            with fade
             m "Ладно."
             mt "Мне нужны с него хоть какие-то деньги... Черт..."
             img 13507
             mt "Козел..."
             # сцена.
+            music Loved_Up
             img 13630
+            with fadelong
             citizen6 "Вот кстати мое любимое пивко."
             # дает бутылку, продолжение сцены
             img 13659
+            with fadelong
+            sound hlup21
             w
             img 13660
+            with diss
             w
             img 13661
+            with diss
             citizen6 "О да, детка!"
             citizen6 "Дааа!"
             citizen6 "Даже лучше стрип клуба! Нет этих лампочек..."
             # звук питья ...
+            sound snd_piss
             img 13656
-            W
+            with diss
+            w
             img 13657
-            W
+            with diss
+            w
             img 13658
-            W
+            sound snd_drinking_water
+            w
+            music Groove2_85
             img 13662
+            with fadelong
             citizen6 "Ух! Зашибись! Вот твои деньги! Я доволен!"
+            $ earnedMoney += 3
+            $ citizen6BoobsNakedDancedBottleCount =+ 1
             pass
         "Это слишком!":
             img 13498
+            with fade
             m "Думаю, тебе стоит вернуться в стрип клуб. Я не готова на такое."
             img 13499
             citizen6 "Ладно, приду, когда ты будешь работать."
             img 13507
+            with diss
             mt "Козел, я не сприптизерша."
-            passimg 1350
+            pass
     img 13500
+    with fade
     citizen6 "Да, кстати, вот 2 доллара за танец."
     return True
