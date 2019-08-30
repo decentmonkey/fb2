@@ -1,3 +1,5 @@
+define game.extra = True
+
 define gui.flag720 = False
 define gui.scenes_transitions = True
 define gui.resolution.menu_pause_before_change_slide.value = 600 #600, 380

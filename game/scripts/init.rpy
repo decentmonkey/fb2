@@ -224,6 +224,9 @@ define monicaFitnessLookAtGirlsCorruption = 1 #Кол-во corruption за по�
 
 define monicaBardieNotebookLookCorruption = 1 #Кол-во corruption за подглядывание в ноутбук Барди
 
+define monicaSecretaryBoobsCitizen4Open1CorruptionRequired = 200 # кол-во corruption, чтобы Моника сама открыла грудь секретарше
+define monicaSecretaryBoobsCitizen4Open2CorruptionRequired = 250 # Кол-во corruption, чтобы разрешить потрогать секретаршу citizen4
+
 default houseMusic = "Mandeville"
 #default biffMusic = "Funk_loop8"
 default biffMusic = "Groove2_85"

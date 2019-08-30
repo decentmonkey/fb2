@@ -178,7 +178,7 @@ label ep22_quests_office12: # Регулярный разговор с секр�
         return False
     call ep22_dialogue6_2() from _call_ep22_dialogue6_2
     call refresh_scene_fade() from _call_refresh_scene_fade_72
-    return
+    return False
 
 
 label ep22_quests_office13:
