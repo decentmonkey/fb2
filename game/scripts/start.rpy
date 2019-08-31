@@ -269,6 +269,7 @@ label start_game:
     call bedroom1_init_addition1() from _call_bedroom1_init_addition1_1 # Барди bedroom1
     $ ep24_quests_initialized = True
     $ ep26_quests_initialized = True
+    $ ep27_quests_initialized = True
 
 #    $ changeDayTime("evening")
 #    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом

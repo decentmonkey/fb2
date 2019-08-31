@@ -37,7 +37,7 @@ label monica_office_secretary_init:
 
     $ add_object_to_scene("Teleport_Monica_Office_Cabinet", {"type":3, "text" : _("КАБИНЕТ МОНИКИ"), "rarrow" : "arrow_down_2", "base":"Office_Monica_Secretary_Teleport_Cabinet", "click" : "monica_office_secretary_teleport", "xpos" : 1692, "ypos" : 756, "zorder":11, "teleport":True})
 
-    $ add_object_to_scene("Teleport_Monica_Office_Entrance", {"type":3, "text" : _("ЛИФТ"), "rarrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "monica_office_secretary_teleport", "xpos" : 780, "ypos" : 956, "zorder":11, "teleport":"True", "high_sprite_hover":True})
+    $ add_object_to_scene("Teleport_Monica_Office_Entrance", {"type":3, "text" : _("ЛИФТ"), "rarrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "monica_office_secretary_teleport", "xpos" : 780, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True})
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

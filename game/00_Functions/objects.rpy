@@ -479,6 +479,7 @@ label process_object_click_alternate_inventory(idx, inventory_data, click_label,
     $ data["action"] = "inv"
     $ interface_blocked_flag = True
     $ act = data["action"]
+    $ obj_name = name
     if shortFunction == False:
         call expression func_name pass (name, inventory[idx], inventory_data, data) from _call_expression_3
     else:

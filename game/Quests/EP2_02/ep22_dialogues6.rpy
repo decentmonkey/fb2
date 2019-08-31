@@ -499,6 +499,10 @@ label ep22_dialogue6_3:
                 img 12782
                 mt "Сволочь!!!"
 
+    if monicaWorkingAtBiffOffice == True and monicaWorkFlashCardQuestActive == True and day-monicaWorkFlashCardReportLastDay > 14: # Моника долго не сдавала отчеты
+        call ep27_dialogues4_biff7()
+#        $ add_char_progress("Biff", biffFlashCardQuestBiffNoticeNoReportsRegress, "biffFlashCardQuestBiffNoticeNoReportsRegress" + str(day))
+
 
     #блокировать выход на monica_office_secretary_dialogue6
     return

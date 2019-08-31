@@ -5,9 +5,14 @@ default monicaOfficeWorkedToday = False
 
 default office_work_comment1_1_lastDay = 0
 
+default monicaWorkedDaysTotal = 0
+default monicaWorkFlashCardReportLastDay = 0
+
 init python:
     def add_office_working_day(status): #True - был рабочий день, #False - не было рабочего дня
-        global cleaningLog
+        global cleaningLog, monicaWorkedDaysTotal
+        if status == True:
+            monicaWorkedDaysTotal += 1
         officeWorkingLog.insert(0, status)
         return
 
@@ -96,6 +101,8 @@ label office_life_day1:
 label office_life_evening1:
     if monicaOfficeWorkedToday == True:
         $ add_office_working_day(True)
+        if ep27_quests_flash_quest1_inited == False:
+            call ep27_quests_office1() # Инициализация квестов со флешкой (этап1)
     else:
         $ add_office_working_day(False)
     $ monicaOfficeWorkedToday = False

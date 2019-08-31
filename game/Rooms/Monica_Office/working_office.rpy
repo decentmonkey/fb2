@@ -84,3 +84,12 @@ label working_office_environment:
 
 
     return
+
+#label Computer1_use_flash_card:
+#label Computer2_use_flash_card:
+#label Computer3_use_flash_card:
+#label Computer4_use_flash_card:
+#label Computer5_use_flash_card:
+#label Computer6_use_flash_card:
+#    mt "Компьютер требует пароль."
+#    return

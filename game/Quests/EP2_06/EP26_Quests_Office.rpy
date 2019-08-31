@@ -108,11 +108,28 @@ label ep26_quests_office7:
         $ workingOfficeCabinetMonicaSuffix = 1
         call refresh_scene_fade() from _call_refresh_scene_fade_152
         return False
-    call ep26_dialogues6_office2_7() from _call_ep26_dialogues6_office2_7
+    call ep27_dialogues6_julia0() # Регулярный выбор Юлии когда она сидит
     if _return == False:
-        $ workingOfficeCabinetMonicaSuffix = 2
-        call refresh_scene_fade() from _call_refresh_scene_fade_153
+#        $ workingOfficeCabinetMonicaSuffix = 2
+        call refresh_scene_fade()
         return False
-    call office_work_begin2() from _call_office_work_begin2 # Рабочий день скипается с Юлией
-    call ep26_dialogues6_office2_8() from _call_ep26_dialogues6_office2_8
+    if _return == 1: # Заставить Юлию работать допоздна
+        call ep26_dialogues6_office2_7() from _call_ep26_dialogues6_office2_7
+        if _return == False:
+            $ workingOfficeCabinetMonicaSuffix = 2
+            call refresh_scene_fade() from _call_refresh_scene_fade_153
+            return False
+        call office_work_begin2() from _call_office_work_begin2 # Рабочий день скипается с Юлией
+        call ep26_dialogues6_office2_8() from _call_ep26_dialogues6_office2_8
+    if _return == 2: # Заставить Юлию собирать отчеты
+        call ep27_quests_office8_julia()
+        $ workingOfficeCabinetMonicaSuffix = 2
+        call refresh_scene_fade()
+        return False
+    if _return == 3: #Юлия, ты сегодня хорошо выглядишь
+        call ep27_quests_julia3()
+        $ workingOfficeCabinetMonicaSuffix = 2
+        call refresh_scene_fade()
+        return False
+
     return

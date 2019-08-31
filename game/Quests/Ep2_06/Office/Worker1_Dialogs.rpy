@@ -77,19 +77,27 @@ label worker1_dialogue_office:
             return
 
 label takeReportsFlashCard_Worker1:
+    music Groove2_85
     img 20754
+    with hpunch
     m "Привет. Мне нужны отчеты, которые ты сделала."
+    music Loved_Up
     img 20755
+    with diss
     w1 "Но... Миссис Бакфетт, простите, я еще не доделала. И мне нужно будет их проверить..."
     menu:
         "Ничего страшного.":
+            call bitch(-2, "takeReportsFlashCard_Worker1")
             img 20756
+            with diss
             m "Ничего страшного. Конечно, не следует такого допускать."
             m "Ты же постараешься сделать так, чтобы такой ситуации не повторилось?"
             w1 "Я...Да, конечно..."
             pass
         "И почему же они еще не готовы?":
+            call bitch(2, "takeReportsFlashCard_Worker1")
             img 20757
+            with diss
             m "И почему же они еще не готовы?"
             w1 "..."
             m "А?"
@@ -99,10 +107,12 @@ label takeReportsFlashCard_Worker1:
             w1 "Обещаю Вам, я их доделаю! Сегодня же!"
             pass
     img 20759
+    with diss
     m "Отлично, а пока скопируй мне все, что у тебя есть на данный момент."
     w1 "Хорошо..."
     w1 "Я все скопировала."
     img 20760
+    with diss
     m "Хорошо."
     m "И не забывай, твой вклад в работу компании очень высок."
     w1 "Да, миссис Бакфетт."

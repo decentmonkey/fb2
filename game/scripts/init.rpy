@@ -182,6 +182,15 @@ define PS7_BiffProgressCasting = 5 #Прогресс за то что пришл
 define PS7_BiffProgressCastingChick = 5 #Прогресс за то что притворилась цыпочкой на кастинге
 define PS7_AlexProgressEachCorruptionShot = 3
 
+define biffFlashCardQuestReportNoSelf = -10 # Флеш карта, регресс если не сама собирала
+define biffFlashCardQuestReportNone = 1 # Флеш карта, сдала отчета Бифу, ничего не показала
+define biffFlashCardQuestReportBoobs = 3 # Показала грудь
+define biffFlashCardQuestReportAss = 5 # Показала попу
+define biffFlashCardQuestReportBoobsCorruptionRequired = 150
+define biffFlashCardQuestReportAssCorruptionRequired = 250
+define biffFlashCardQuestDaysBeforeBiffNotice = 14 # Кол-во дней между отчетами, пока Биф не ругается что не сдаются
+define biffFlashCardQuestBiffNoticeNoReportsRegress = -10 # Регресс, если Моника долго не сдает отчеты
+
 define monicaWhoringStartCorruptionRequired = 60
 define monicaWhoringClothBoobsCorruptionRequired = 60 # Кол-во corruption, чтобы Моника показала грудь в одежде
 define monicaWhoringClothBoobsTongueCorruptionRequired = 70 #Кол-во corruption, чтобы Моника показала грудь в одежде и высунула язык

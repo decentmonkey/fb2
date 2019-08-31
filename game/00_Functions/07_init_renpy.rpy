@@ -105,11 +105,17 @@ define cit10 = Character(_("Покупательница"), who_color=c_pink)
 
 
 define w1 = Character(_("Марта"), who_color=c_pink)
+define w1t = Character(_("Марта"), who_color=c_pink, what_color=c_blue, what_italic=True)
 define w2 = Character(_("Системный Администратор"), who_color=c_blue)
+define w2t = Character(_("Системный Администратор"), who_color=c_blue, what_color=c_blue, what_italic=True)
 define w3 = Character(_("Эмма"), who_color=c_pink)
+define w3t = Character(_("Эмма"), who_color=c_pink, what_color=c_blue, what_italic=True)
 define w4 = Character(_("Элла"), who_color=c_pink)
+define w4t = Character(_("Элла"), who_color=c_pink, what_color=c_blue, what_italic=True)
 define w5 = Character(_("Джон"), who_color=c_blue)
+define w5t = Character(_("Джон"), who_color=c_blue, what_color=c_blue, what_italic=True)
 define w6 = Character(_("Грета"), who_color=c_pink)
+define w6t = Character(_("Грета"), who_color=c_pink, what_color=c_blue, what_italic=True)
 define w7 = Character(_("Лин"), who_color=c_pink)
 define w7t = Character(_("Лин"), who_color=c_pink, what_color=c_blue, what_italic=True)
 
