@@ -314,7 +314,7 @@ label characters_init:
     return
 
 label characters_pub_init:
-    $ char_info["Bartender"] = {"name": _("Джо"), "name_orig":"Джо", "enabled":False, "face":"Face_Joe", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": _("Бармен в Shiny Hole"), "max_progress":100, "uplevel_label":"bartenderProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
+    $ char_info["Bartender"] = {"name": _("Джо"), "name_orig":"Джо", "enabled":True, "face":"Face_Joe", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": _("Бармен в Shiny Hole"), "max_progress":100, "uplevel_label":"bartenderProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
     $ char_info["Bartender_Waitress"] = {"name": _("Эшли"), "name_orig":"Эшли", "enabled":True, "face":"Face_Ashley", "style":"char_face_style1_pink",  "bar_suffix": "pink", "level":1, "current_progress":0, "caption": _("Жена бармена"), "max_progress":100, "uplevel_label":"bartenderWaitressProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
     return
 

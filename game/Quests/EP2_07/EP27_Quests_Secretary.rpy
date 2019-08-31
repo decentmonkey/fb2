@@ -12,7 +12,6 @@ label ep27_quests_secretary1:
     if _return == -1 or _return == 0:
         call refresh_scene_fade()
         return True
-    $ add_object_to_scene("Traffic_Light", {"type":2, "base":"Bank_Street_Traffic_Light", "click" : "street_bank_environment", "actions" : "l", "zorder" : 0, "b":0.15})
     $ add_object_to_scene("Secretary", {"type" : 2, "base" : "Hostel_Street3_Secretary[hostelStreet3SecretarySuffix][day_suffix]", "click" : "ep27_dialogues5_secretary_boobs2", "actions" : "l", "zorder":10}, scene="hostel_street3")
     $ add_hook("Monica", "ep27_dialogues5_secretary_boobs2", scene="hostel_street3", label="secretary_boobs_quest1")
     $ add_hook("Citizen_3", "ep27_dialogues5_secretary_boobs3", scene="hostel_street3", label="secretary_boobs_quest1")
@@ -51,6 +50,6 @@ label ep27_quests_secretary2:
         $ autorun_to_object("ep27_dialogues5_secretary_boobs7", scene="hostel_edge_1_a")
 
 
-
+    $ remove_hook(label="secretary_boobs_quest1")
     call change_scene("hostel_edge_1_a", "Fade_long", "highheels_run1")
     return False

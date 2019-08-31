@@ -421,6 +421,10 @@ label ep23_dialogues1_4:
 label ep23_dialogues1_4a:
     # Моника работает
     menu:
+        "Работать официанткой в Shiny Hole." if pubMonicaWorkingWaitress == True:
+            return 4
+        "Спросить о повышении." if monicaPubWashingDishesCount>0 and pubMonicaWorkingWaitress == False:
+            return 3
         "Мыть посуду.":
             return 1
         "Заказать еду.":
@@ -467,8 +471,9 @@ label ep23_dialogues1_4b: # Бармен
     with Dissolve(0.3)
     w
     mt "Черт! Кажется, этот извращенец Джо пытается меня незаметно лапать!"
+    $ menu_corruption = [monicaWashHoldJoeCorruption]
     menu:
-        "Не обращать внимание... (corruption)" if corruption >= monicaWashHoldJoeCorruption:
+        "Не обращать внимание...":
             sound snd_washing_dishes
             music Loved_Up
             img 9646
@@ -480,11 +485,13 @@ label ep23_dialogues1_4b: # Бармен
             img 9648
             with Dissolve(0.3)
             w
-            $ add_char_progress("Bartender", monicaWashMolestJoeProgress, "PS1_JoeProgressMolest_day" + str(day))
+            if char_info["Bartender"]["level"] == 1:
+                $ add_char_progress("Bartender", monicaWashMolestJoeProgress, "PS1_JoeProgressMolest_day" + str(day))
             music Groove2_85
+            $ questLog(48, True)
 
-        "Не обращать внимание... (low corruption, required [monicaWashHoldJoeCorruption]) (disabled)" if corruption < monicaWashHoldJoeCorruption:
-            pass
+#        "Не обращать внимание... (low corruption, required [monicaWashHoldJoeCorruption]) (disabled)" if corruption < monicaWashHoldJoeCorruption:
+#            pass
         "Прекратить это!":
             music Power_Bots_Loop
             img 9649
@@ -517,8 +524,9 @@ label ep23_dialogues1_4c: # Барменша
     w
 
     mt "Черт! Эшли меня трогает за зад?!"
+    $ menu_corruption = [monicaWashHoldAshleyCorruption]
     menu:
-        "Не обращать внимание... (corruption)" if corruption >= monicaWashHoldAshleyCorruption:
+        "Не обращать внимание...":
             sound snd_washing_dishes
             music Loved_Up
             img 9655
@@ -530,11 +538,14 @@ label ep23_dialogues1_4c: # Барменша
             img 9657
             with Dissolve(0.3)
             w
-            $ add_char_progress("Bartender_Waitress", monicaWashMolestAshleyProgress, "PS1_AshleyProgressMolest_day" + str(day))
-            music Groove2_85
 
-        "Не обращать внимание... (low corruption, required [monicaWashHoldAshleyCorruption]) (disabled)" if corruption < monicaWashHoldAshleyCorruption:
-            pass
+            if char_info["Bartender_Waitress"]["level"] == 1:
+                $ add_char_progress("Bartender_Waitress", monicaWashMolestAshleyProgress, "PS1_AshleyProgressMolest_day" + str(day))
+            music Groove2_85
+            $ questLog(49, True)
+
+#        "Не обращать внимание... (low corruption, required [monicaWashHoldAshleyCorruption]) (disabled)" if corruption < monicaWashHoldAshleyCorruption:
+#            pass
         "Прекратить это!":
             music Power_Bots_Loop
             img 9658
