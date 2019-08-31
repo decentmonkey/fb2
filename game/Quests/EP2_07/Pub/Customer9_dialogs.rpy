@@ -1,90 +1,138 @@
-
-
 label customer9_1stmeeting:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 14394
+    with fadelong
     m "Здравствуйте! Что будете заказывать?"
     img 14395
+    with diss
     customer9 "Оу! Новенькая? Скажи, ты любишь подарки?"
     img 14396
     mt "Подарки? Вероятно, он о чаевых..."
     img 14397
+    with diss
     menu:
         "Ну да...":
+            music Hidden_Agenda
             img 14398
+            with fade
             m "Да."
             img 14399
-            сustomer9 "Я так и думал. Вот скажи, что тебе подарить?"
+            with diss
+            customer9 "Я так и думал. Вот скажи, что тебе подарить?"
             img 14400
+            with diss
             m "У меня все есть, но чаевые были бы кстати."
             img 14401
-            сustomer9 "Нет, я не о чаевых. Как насчет страстного поцелуя?"
+            with fade
+            customer9 "Нет, я не о чаевых. Как насчет страстного поцелуя?"
+            music Groove2_85
             img 14402
+            with diss
             m "Нет, спасибо."
             img 14403
+            with diss
             mt "Да как он может подобное спрашивать у такой как Я!?"
             if monicaBitch == True:
                 mt "Придурок!"
             pass
         "Я не готова отвечать на этот вопрос.":
+            music Groove2_85
             img 14404
+            with fade
             m "Я не готова отвечать на этот вопрос."
             img 14405
-            сustomer9 "Я понял... Свидетели... Хорошо, не отвечай, потом расскажешь!"
+            with diss
+            customer9 "Я понял... Свидетели... Хорошо, не отвечай, потом расскажешь!"
             pass
     # смотрит на монику
     img 14406
+    with fade
     customer9 "Ты любишь классический секс или в попу?"
+    music Power_Bots_Loop
     img 14407
+    with hpunch
     m "А?!"
     img 14408
     customer9 "Я понял! Это значит в попу... Иначе ты бы не работала в Shiny Hole."
     img 14403
+    with diss
     mt "Он нормальный?"
     img 14409
+    with fade
     customer9 "Мне пожалуй ничего, но я очень рад нашему знакомству!"
     img 14410
+    with diss
     mt "Не адекватный урод..."
     return
 
 label customer9_serve1:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 14411
+    with fadelong
     m "Добрый день, что будете заказывать?"
     # чел резко хватает монику и садит себе на колени
+    music Groove2_85
+    sound Jump1
     img 14476
+    with vpunch
     m "Ай!"
+    sound Jump2
     img 14477
-    сustomer9 "Скажи, ты была хорошей девочкой?"
-    сustomer9 "Расскажи Санте!"
-    сustomer9 "И возможно, Санта сделает тебе хороший подарок!"
+    with hpunch
+    customer9 "Скажи, ты была хорошей девочкой?"
+    customer9 "Расскажи Санте!"
+    customer9 "И возможно, Санта сделает тебе хороший подарок!"
 #    mt "Меня посадил к себе на колени незнакомый мужик! Возможно, стоит ему подыграть..."
     img 14478
+    with diss
+    $ menu_corruption = [0, pubCustomer9_serve1_Corruption]
     menu:
         "Быстро отпусти меня!":
+            music Power_Bots_Loop
+            sound snd_punch_face2
             img 14479
+            with diss
             m "Быстро отпусти меня!"
+            sound Jump1
             img 14480
+            with diss
             m "Еще раз попробуй сделай так и я сломаю тебе нос, урод!"
             # моника вырывается
             img 14481
-            сustomer9 "Ах вот ты как! Ну и вали! Ваше пиво кстати отстой!"
+            with fade
+            customer9 "Ах вот ты как! Ну и вали! Ваше пиво кстати отстой!"
             img 14482
+            with diss
             mt "Что же ты его тогда пьешь?"
-            return
+            return False
         "Да, я была хорошей девочкой.":
+            music Hidden_Agenda
             img 14483
+            with fade
             m "Да, я была хорошей девочкой."
             img 14484
-            сustomer9 "Я так и думал! Уверен, ты обслужила очень много клиентов и они остались довольны."
+            with diss
+            customer9 "Я так и думал! Уверен, ты обслужила очень много клиентов и они остались довольны."
             # кладет ей под чулок купюру
+            sound snd_take_paper
             img 14485
+            with diss
             w
+            $ add_tips(20.0)
             img 14486
+            with fade
             customer9 "Ладно, беги, у меня еще есть пиво."
             img 14487
+            with diss
             mt "Он дал мне 20 долларов! Ничего себе..."
-            mt "Но стоит-ли мне позволять так вести с собой?! Моника, не забывай кто ты такая!"
-            return
+            $ add_corruption(10, "pubCustomer9_serve1_Corruption")
+            return True
 
 label customer9_afterserve1:
     mt "Очередной ненормальный посетитель..."
+    return
+label customer9_afterserve2:
+    mt "Но стоит-ли мне позволять так вести с собой?! Моника, не забывай кто ты такая!"
     return

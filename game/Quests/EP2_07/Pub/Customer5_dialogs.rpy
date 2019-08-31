@@ -1,87 +1,138 @@
 
 
 label customer5_1stmeeting:
-    img 14297
-    m "Здравствуйте! Что будете заказывать?"
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 14298
+    with fadelong
+    m "Здравствуйте! Что будете заказывать?"
     customer5 "Какая красота! И давно ли ты тут?"
     # смотрит на монику
     img 14299
+    with fade
     m "Я? Всего пару дней..."
+    music In_Your_Arms
     img 14300
+    with diss
     customer5 "Ой как хорошо! Теперь я буду бывать здесь еще чаще!"
     customer5 "Скажи, у тебя есть парень?"
     customer5 "Или нет... Где же мои манеры? Как тебя зовут?"
     img 14301
     mt "Не хватало еще, чтобы ко мне подкатывал какой-то кретин..."
     img 14302
+    with diss
     m "[monica_pub_name]"
     img 14303
+    with fade
     customer5 "Ох... [monica_pub_name] и Джери...Шикарно звучит..."
     customer5 "Мне надо все обдумать... Лучше всего это делается за пивом..."
     customer5 "Да, ты не ответила на мой вопрос: У тебя есть парень?"
     img 14304
+    with diss
     m "Вообще-то я за мужем."
     # смотрит на моникт руку
     img 14305
+    with diss
     w
     img 14306
+    with fade
     customer5 "Понятно, ты врешь, кольца нет, значит ты свободна!"
     customer5 "У меня все шансы!"
     customer5 "В общем, мне пива!"
+    music Groove2_85
     img 14301
     mt "Еще чего... Размечтался... Ему никогда не светит такая леди, как Я!"
     img 14307
+    with diss
     m "Хорошо."
     # уходит - приносит
+    music stop
+    img black_screen
+    with diss
+    sound highheels_run2
+    pause 1.0
+    music Groove2_85
     img 14308
+    with fade
     w
+    sound snd_plates1
     img 14309
+    with diss
     w
+    sound snd_beer_table
     img 14310
+    with diss
     m "Пожалуйста."
-    img 14311
-    customer5 "Да, спасибо. Можешь идти."
+    music In_Your_Arms
+#    img 14311
+#    with fade
     img 14312
+    with diss
+    customer5 "Да, спасибо. Можешь идти."
+    $ add_tips(1.0)
     customer5 "Хотя стоп...Где же мои манеры? Вот тебя доллар. Скоро заработаешь себе на платье."
     img 14313
+    with diss
     mt "Изысканные манеры... Фи!"
     return
 
 label customer5_serve1:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 14314
+    with fadelong
     m "Привет! Вам что нибудь принести?"
     img 14315
-    сustomer5 "Да! Мне пожалуйста два бургера, и два Ваших самых лучших коктейля!"
+    with diss
+    customer5 "Да! Мне пожалуйста два бургера, и два Ваших самых лучших коктейля!"
     img 14316
+    with diss
     m "Хорошо, один момент!"
     # уходит - приносит
+    music stop
+    img black_screen
+    with diss
+    sound highheels_run2
+    pause 1.0
+    music Hidden_Agenda
     img 14349
+    with fade
     w
+    sound snd_plates1
     img 14350
+    with diss
     w
+    sound snd_beer_table
     img 14351
+    with diss
     w
     img 14353
+    with diss
     m "Вот, пожалуйста! Что нибудь еще?"
+    music In_Your_Arms
     img 14354
-    сustomer5 "Да, Вас! Не зря же я купил всего по два!"
-    сustomer5 "Садитесь рядом и давайте пообщаемся!"
-    сustomer5 "Я верю, что мы созданы друг для друга!"
-    img 14355
+    with fade
+    customer5 "Да, Вас! Не зря же я купил всего по два!"
+    customer5 "Садитесь рядом и давайте пообщаемся!"
+    customer5 "Я верю, что мы созданы друг для друга!"
     menu:
         "Сесть рядом с клиентом. (в будущих обновлениях) (disabled)":
             # в след обнове
             return
         "Не буду!":
             # клиент злой
+            m "Не буду!"
+            music Power_Bots_Loop
             img 14355
-            сustomer5 "Ах ты глупая официантка! Даже школьницы знают этот способ знакомства!"
+            with fade
+            customer5 "Ах ты глупая официантка! Даже школьницы знают этот способ знакомства!"
             customer5 "Не могла сказать сразу?!"
             img 14357
+            with diss
             m "Я подумала, что Вы очень голодный."
             m "Что нибудь еще?"
             img 14358
+            with diss
             customer5 "Да! Свали отсюда!"
             return
 

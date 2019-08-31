@@ -119,8 +119,30 @@ define w6t = Character(_("Грета"), who_color=c_pink, what_color=c_blue, wha
 define w7 = Character(_("Лин"), who_color=c_pink)
 define w7t = Character(_("Лин"), who_color=c_pink, what_color=c_blue, what_italic=True)
 
-
-
+define customer1 = Character(_("Посетитель"), who_color=c_blue)
+define customer1t = Character(_("Посетитель"), who_color=c_blue, what_color=c_blue, what_italic=True)
+define customer2 = Character(_("Посетитель"), who_color=c_blue)
+define customer2t = Character(_("Посетитель"), who_color=c_blue, what_color=c_blue, what_italic=True)
+define customer3 = Character(_("Посетитель"), who_color=c_blue)
+define customer3t = Character(_("Посетитель"), who_color=c_blue, what_color=c_blue, what_italic=True)
+define customer4 = Character(_("Посетитель"), who_color=c_blue)
+define customer4t = Character(_("Посетитель"), who_color=c_blue, what_color=c_blue, what_italic=True)
+define customer5 = Character(_("Посетитель"), who_color=c_blue)
+define customer5t = Character(_("Посетитель"), who_color=c_blue, what_color=c_blue, what_italic=True)
+define customer6 = Character(_("Посетитель"), who_color=c_blue)
+define customer6t = Character(_("Посетитель"), who_color=c_blue, what_color=c_blue, what_italic=True)
+define customer7 = Character(_("Посетитель"), who_color=c_blue)
+define customer7t = Character(_("Посетитель"), who_color=c_blue, what_color=c_blue, what_italic=True)
+define customer8 = Character(_("Посетитель"), who_color=c_blue)
+define customer8t = Character(_("Посетитель"), who_color=c_blue, what_color=c_blue, what_italic=True)
+define customer9 = Character(_("Посетитель"), who_color=c_blue)
+define customer9t = Character(_("Посетитель"), who_color=c_blue, what_color=c_blue, what_italic=True)
+define customer10 = Character(_("Посетитель"), who_color=c_blue)
+define customer10t = Character(_("Посетитель"), who_color=c_blue, what_color=c_blue, what_italic=True)
+define customer11 = Character(_("Посетитель"), who_color=c_blue)
+define customer11t = Character(_("Посетитель"), who_color=c_blue, what_color=c_blue, what_italic=True)
+define customer12 = Character(_("Посетитель"), who_color=c_blue)
+define customer12t = Character(_("Посетитель"), who_color=c_blue, what_color=c_blue, what_italic=True)
 
 
 #

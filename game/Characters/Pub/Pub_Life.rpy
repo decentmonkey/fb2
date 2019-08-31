@@ -61,7 +61,7 @@ label Pub_Life_day2: # Обычное наполнение бара, все с �
     $ set_active("Pub_StripteaseGirl2", False, scene="pub")
     call Pub_Visitors_RemoveAll() from _call_Pub_Visitors_RemoveAll_2
     call Pub_Visitors_Add_Random(2,4) from _call_Pub_Visitors_Add_Random_2
-    if pubMonicaWorkingWaitress == True and pubMonicaWorkedWaitressLastDay == day:
+    if pubMonicaWorkingWaitress == True and pubMonicaWorkedWaitressLastDay != day:
         call Pub_Visitors_Remove_Food() # убираем еду у всех
     else:
         call Pub_Visitors_Full_Food() from _call_Pub_Visitors_Full_Food_2 # у всех еда
@@ -79,7 +79,7 @@ label Pub_Life_evening2:
 
     call Pub_Visitors_RemoveAll() from _call_Pub_Visitors_RemoveAll_3
     call Pub_Visitors_Add_Random(5,7) from _call_Pub_Visitors_Add_Random_3
-    if pubMonicaWorkingWaitress == True and pubMonicaWorkedWaitressLastDay == day:
+    if pubMonicaWorkingWaitress == True and pubMonicaWorkedWaitressLastDay != day:
         call Pub_Visitors_Remove_Food() # убираем еду у всех
     else:
         call Pub_Visitors_Full_Food() from _call_Pub_Visitors_Full_Food_3 # Все посетители + у всех еда

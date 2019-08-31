@@ -27,7 +27,7 @@ label ep27_dialogues7_pub1:
         return False
 
 # Если у Эшли ур.1, то она говорит что не уверена в ней, но Джо отзывается о ней хорошо (показан хитрый Джо)
-    if char_info["Bartender"]["level"] > 1:
+    if char_info["Bartender_Waitress"]["level"] < 2:
         img 20956
         with fade
         ashley "Хммм..."
@@ -233,8 +233,9 @@ label ep27_dialogues7_pub1:
 #
 # Эшли говорит Мэрилин, чтобы та одевала рабочую униформу и шла работать.
 #
-    ashley "[monica_pub_name], ты меня слышишь?!"
     music Groove2_85
+    with vpunch
+    ashley "[monica_pub_name], ты меня слышишь?!"
     img 20992
     with fade
     m "А?" # оборачивается
@@ -292,23 +293,48 @@ label ep27_dialogues7_pub6:
             return True
     return
 
+label ep27_dialogues7_pub6a:
+    mt "Я не собираюсь отдавать никому мои чаевые!"
+    return
+
+
 label ep27_dialogues7_pub7:
 # При клике на барменов, Моника говорит что закончила работу и вот чаевые.
 # Эшли дает ей 10 процентов и говорит приходить работать еще.
+    music2 pub_noise1_low
+    music Groove2_85
     img 20995
+    with fadelong
     m "Эшли, я закончила работу."
-    m "Вот чаевые, которые я смогла получить..."
+
+    if pubMonicaWaitressTips == 0:
+        m "Мне никто не дал чевых сегодня..."
+    else:
+        $ add_money(-pubMonicaWaitressTips)
+        m "Вот чаевые, которые я смогла получить..."
 
     # если есть чаевые
-    img 20996
-    ashley "Хорошо. Вот твои десять процентов."
-    ashley "Завтра приходит работать еще."
+        img 20996
+        with diss
+        $ tipsBack = round_down(float(pubMonicaWaitressTips)*pubMonicaWaitressTipsKoeff, 0.05)
+        if tipsBack == 0.0:
+            $ tipsBack = 0.05
+        $ add_money(tipsBack)
+        ashley "Хорошо. Вот твои десять процентов."
+        ashley "Завтра приходит работать еще."
 
     # если нет чаевых
 #    img 20995
-    m "Мне никто не дал чевых сегодня..."
+#    m "Мне никто не дал чевых сегодня..."
     return
 
+label ep27_dialogues7_pub7a:
+    menu:
+        "Закончить работу.":
+            return True
+        "Продолжить.":
+            return False
+    return
 
 label ep27_dialogues7_pub8:
 # Если Моника не отдала чаевые, то при клике на барменов, идет диалог:

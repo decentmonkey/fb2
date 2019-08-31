@@ -71,6 +71,9 @@ init python:
     def convertMoneyStr(in_money):
         return '{:3,.2f}'.format(in_money)
 
+    def round_down(x, a):
+        return math.floor(x / a) * a
+
 label mycopytext_label(txt):
     $ mycopytext(txt)
     return

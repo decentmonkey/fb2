@@ -10,6 +10,11 @@ define restaurantSushiPrice = 36
 define pubSoupPrice = 3
 define pubSphagettiPrice = 5
 define pubShinyBurger = 10
+define pubCustomer12_serve1_Corruption = 180
+define pubCustomer9_serve1_Corruption = 200
+
+default pubMonicaWaitressTipsKoeff = 0.1 # Сколько чаевых отдают Монике
+default pubMonicaWaitressVisitorsPerDay = 3 # Сколько посетителей Моника может обслужить в день
 
 define monicaSteveJaneCorruption1 = 150 # Согласие на контракт Знакомство
 define monicaSteveJaneCorruption2 = 200 # Предложение показать Стиву свою грудь
