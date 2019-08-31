@@ -26,11 +26,11 @@ init python:
 
     def questLog(questLogIdx, status):
         global questLogDataEnabled, questLogLinesUpdated, questLogJustUpdated
-        questLogDataEnabled[str(questLogIdx)] = status
-        if status == True:
+        if status == True and (questLogDataEnabled.has_key(str(questLogIdx)) == False or questLogDataEnabled[str(questLogIdx)] != True):
             notif(_("Журнал обновлен"))
             questLogLinesUpdated.append(str(questLogIdx))
             questLogJustUpdated = True
+        questLogDataEnabled[str(questLogIdx)] = status
 #        for idx in range(0, len(questLogData)):
 #            if questLogData[idx][0] == questLogIdx:
 #                questLogData[idx][2] = status

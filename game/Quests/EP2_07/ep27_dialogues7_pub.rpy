@@ -14,7 +14,7 @@ label ep27_dialogues7_pub1:
     m "Что я зарабатывала какие-то деньги здесь?"
 # Далее:
 # Если ур у Эшли и Джо < 1
-    if char_info["Bartender_Waitress"]["level"] < 1 and char_info["Bartender"]["level"] < 1:
+    if char_info["Bartender_Waitress"]["level"] < 2 and char_info["Bartender"]["level"] < 2:
         img 20954
         with fade
         ashley "Хммм..."
@@ -27,7 +27,7 @@ label ep27_dialogues7_pub1:
         return False
 
 # Если у Эшли ур.1, то она говорит что не уверена в ней, но Джо отзывается о ней хорошо (показан хитрый Джо)
-    if char_info["Bartender"]["level"] >= 1:
+    if char_info["Bartender"]["level"] > 1:
         img 20956
         with fade
         ashley "Хммм..."

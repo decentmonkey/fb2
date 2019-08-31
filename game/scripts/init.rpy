@@ -21,8 +21,8 @@ define monicaSteveCumSexDeal = 40
 define monicaSteveRegularBlowjobDeal = 10
 
 define monicaWashHoldJoeCorruption = 150 # Кол-во corruption, требуемого чтобы Моника терпела лапание от бармена
-define monicaWashMolestJoeProgress = 10 # Прогресс за лапания от Джо
-define monicaWashMolestAshleyProgress = 25 # Прогресс за лапание от Эшли
+define monicaWashMolestJoeProgress = 50 # Прогресс за лапания от Джо
+define monicaWashMolestAshleyProgress = 50 # Прогресс за лапание от Эшли
 define monicaWashHoldAshleyCorruption = 150 # Кол-во corruption, требуемого чтобы Моника терпела лапание от барменши
 
 define bettyCleaningProgessAmount = 20 #5 #Прогресс с Бетти за уборку

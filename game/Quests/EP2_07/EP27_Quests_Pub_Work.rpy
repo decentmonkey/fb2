@@ -13,8 +13,11 @@ label ep27_quests_pub_work1: # Моника спрашивает о повыше
         return False
     # Моника принята на работу официанткой
     $ pubMonicaWorkingWaitress = True
+
+    call process_hooks("Pub_Life_evening", "global")
+
     $ questLog(52, True)
-    call refresh_scene_fade()
+    call refresh_scene_fade_long()
     return False
 
 label ep27_quests_pub_work2_begin: #Работать официанткой в Shiny Hole.
@@ -30,5 +33,11 @@ label ep27_quests_pub_work2_begin: #Работать официанткой в S
     $ pubMonicaWaitressClothBefore = cloth
     $ cloth = "Waitress"
     $ cloth_type = "Waitress"
+    $ add_hook("Teleport_Hostel_Street", "ep27_quests_pub_work3_exit", scene="pub", label="working_waitress")
     call refresh_scene_fade()
+    return
+
+label ep27_quests_pub_work3_exit: # Моника пытается выйти из паба во время работы
+    call ep27_dialogues7_pub6() # Вопрос о том, чтобы уйти без чаевых
+
     return

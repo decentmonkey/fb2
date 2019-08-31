@@ -38,6 +38,21 @@ label Pub_Visitors_RemoveAll: #Убрать всех посетителей
         pubVisitor12Suffix = ""
     return
 
+label Pub_Visitors_Remove_Food: # Убрать еду у всех посетителей
+    python:
+        pubVisitor1Suffix = ""
+        pubVisitor2Suffix = ""
+        pubVisitor3Suffix = ""
+        pubVisitor4Suffix = ""
+        pubVisitor5Suffix = ""
+        pubVisitor6Suffix = ""
+        pubVisitor7Suffix = ""
+        pubVisitor8Suffix = ""
+        pubVisitor9Suffix = ""
+        pubVisitor10Suffix = ""
+        pubVisitor11Suffix = ""
+        pubVisitor12Suffix = ""
+    return
 label Pub_Visitors_Full_Food: # Все посетители + у всех еда
 #    $ set_active(True, group="visitors", scene="pub")
     python:
