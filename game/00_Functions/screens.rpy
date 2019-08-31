@@ -1472,7 +1472,7 @@ screen choice(items):
                         if menu_corruption[idx] >0:
                             if corruption >= menu_corruption[idx]:
                                 str1 = __(i.caption)
-                                str1 = str1 + __(" (corruption)")
+                                str1 = str1 + "{color=#31e8b1}" + __(" (corruption: ") + str(menu_corruption[idx]) + "){/color}"
                                 button_obj["caption"] = str1
                             else:
                                 str1 = __(i.caption)

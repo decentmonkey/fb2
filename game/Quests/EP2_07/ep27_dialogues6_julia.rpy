@@ -1,6 +1,6 @@
 label ep27_dialogues6_julia0:
     menu:
-        "Юлия... Ты сегодня хорошо выглядишь..." if juliaQuestStage0_Progress >= 1 and juliaQuestLastDay != day:
+        "Отношения с Юлией..." if juliaQuestLastDay != day:
             return 3
         "Заставить Юлию собрать отчеты вместо Моники." if monicaWorkFlashCardQuestActive == True and monicaWorkFlashCardNeedReportsAmount > monicaWorkFlashCardReportsCollected and monicaWorkFlashCardReportLastDay != day:
             return 2
@@ -8,6 +8,22 @@ label ep27_dialogues6_julia0:
             return 1
         "Уйти.":
             return False
+    return
+
+label ep27_dialogues6_julia0b:
+    menu:
+        "Ущипнуть Юлию за зад." if juliaQuestStage0_Progress >= 5:
+            return 5
+        "Поцеловать Юлию." if juliaQuestStage0_Progress >= 4:
+            return 4
+        "Сделать Юлии комплимент по поводу ее фигуры." if juliaQuestStage0_Progress >= 3:
+            return 3
+        "Юлия, ты красивая девушка и мне нравится твоя прическа..." if juliaQuestStage0_Progress >= 2:
+            return 2
+        "Юлия... Ты сегодня хорошо выглядишь..." if juliaQuestStage0_Progress >= 1:
+            return 1
+        "Уйти.":
+            return 0
     return
 
 
@@ -512,6 +528,10 @@ label ep27_dialogues6_julia4:
 # Ей приходится делать это, либо она может потянуть время.
     return
 
+label ep27_dialogues6_julia4a:
+    mt "Фред - еще один мерзавец, который принялся шантажировать меня!"
+    return
+
 label ep27_dialogues6_julia5:
 
 # Появляется пункт сказать Юлии что она сегодня хорошо выглядит
@@ -528,6 +548,7 @@ label ep27_dialogues6_julia5:
     with diss
     m "..." # Надменно
     img 20880
+    with fadelong
     julia "Ссс... Сссспасибо... Миссис Бакфетт..."
 # Это действие добавляет уровень 1 у Юлии
     return
@@ -539,23 +560,32 @@ label ep27_dialogues6_julia6:
 # Моника спрашивает зачем мне говорить это.
 # Фред отвечает что Моника знает зачем, чтобы не случилось кое-чего, чего Моника не хочет
 # Моника отвечает что подумает
+    music Groove2_85
     img 20857
+    with fade
     fred "Миссис Бакфетт."
     m "Фред... Мерзавец..."
     m "Зачем ты подкараулил меня здесь?"
     m "Я сделала как ты просил!"
     m "Что тебе снова надо?"
     fred "Миссис Бакфетт, Вы прекрасно справились."
+    music Hidden_Agenda
     img 20858
+    with diss
     m "Тише!"
     img 20857
+    with diss
     fred "Сегодня Вы скажете что Юлия очень красивая девушка и Вам нравится ее прическа."
     img 20858
+    with diss
     m "Зачем мне говорить это? С какой стати?!"
+    music Groove2_85
     img 20857
+    with fade
     fred "Миссис Бакфетт, Вы знаете зачем."
     fred "Чтобы не случилось кое-что, чего Вы бы не хотели чтобы случилось..."
     img 20859
+    with diss
     m "!!!"
     m "Я подумаю..."
     return
@@ -567,32 +597,46 @@ label ep27_dialogues6_julia7:
 # И говорит спасибо, Миссис Бакфетт. У Вас тоже очень красивые волосы.
 # Моника отвечает надменно что она знает об этом.
 # Это действие добавляет уровень у Юлии
-    menu:
-        "Юлия, ты красивая девушка и мне нравится твоя прическа...":
-            pass
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 20875
+    with fade
     w
     img 20876
+    with diss
     w
     img 20877
+    with fade
     m "Юлия, ты..."
     img 20878
+    with diss
     julia "Да, Миссис Бакфетт?"
     img 20879
+    with fade
     m "Юлия... Ты... Ты красивая девушка."
+    sound Jump2
     img 20880
+    with vpunch
     julia "..."
     img 20881
+    with fade
     m "И... И мне нравится твоя прическа."
+    sound Jump1
     img 20882
+    with diss
     julia "..." # ошарашена и странно смотрит
+    music Groove2_85
     img 20883
+    with fade
     m "..." # надменно
     img 20884
+    with diss
     julia "Спасибо, Миссис Бакфетт."
     julia "У Вас тоже очень красивые волосы."
     img 20885
+    with diss
     m "Спасибо, но я и так знаю это!" # Надменно отвечает и уходит
+    sound highheels_short_walk
 # Это действие добавляет уровень 1 у Юлии
     return
 
@@ -606,31 +650,34 @@ label ep27_dialogues6_julia8:
 # Юлия обычная бездарность, у которой фигура не сравнится с фигурой Моники.
 # Фред говорит что если Моника не оценит фигуру Юлии, то весь отдел оценит фигуру Моники в позе гувернантки, трущей пятно.
 # Моника злится и уходит.
+    music Groove2_85
     img 20860
+    with fadelong
     fred "..." # Улыбается
     m "Снова ТЫ!"
     m "Не даешь переодеться нормально! Все вынюхиваешь здесь!"
     img 20861
+    with diss
     fred "Миссис Бакфетт, Вы снова прекрасно справились!"
     fred "Сегодня Вы скажете Юлии что у нее сексуальная фигура и грудь."
     fred "Затем попросите повернуться ее спиной и сказать что у нее красивая попа."
     fred "Вы должны произнести именно это слова!"
     img 20860
+    with fade
     m "Я не считаю ее фигуру красивой, а тем более сексуальной!"
     m "С какой стати мне говорить это ей?!"
     m "Юлия - обычная бездарность, у которой фигура не сравнится с моей!"
     img 20861
+    with diss
     fred "Миссис Бакфетт..."
     fred "Если Вы не оцените фигуру Юлии, то весь отдел оценит Вашу прекрасную фигуру в позе гувернантки, трущей пятно."
     img 20862
+    with diss
     m "!!!"
     return
 
 label ep27_dialogues6_julia9:
 # Появляется выбор сказать Юлии комплимент по поводу тела.
-    menu:
-        "Сделать Юлии комплимент по поводу ее фигуры.":
-            pass
 # Моника сидит за креслом и зовет Юлию, чтобы та подошла к Монике
 # Юлия подходит
 # Моника напрягается и смотрит на Юлию
@@ -638,24 +685,38 @@ label ep27_dialogues6_julia9:
 # Моника говорит Юлии что у нее красивая фигура и Монике нравится ее грудь.
 # Юлия очень удивленно смотрит на Монику и молчит
 # Моника говорит Юлии, чтобы та повернулась спиной к ней
+    music Groove2_85
     img 20886
+    with fadelong
     w
     img 20887
+    with diss
     m "Юлия, подойди ко мне!"
 # Юлия подходит
+    sound highheels_short_walk
     img 20888
+    with fadelong
     julia "Да, Миссис Бакфетт?" # немного испуганно
     img 20889
+    with diss
     m "..."
     img 20890
+    with diss
     julia "..." # вопросительно
+    music Hidden_Agenda
     img 20891
+    with fade
     m "Юлия..."
     img 20892
+    with diss
     m "Юлия, у тебя красивая фигура и мне нравится твоя грудь."
+    sound Jump1
     img 20893
+    with vpunch
     julia "..." # Юлия очень удивленно смотрит на Монику и молчит
+    music Groove2_85
     img 20894
+    with fade
     m "А теперь повернись ко мне спиной!" # жестко
 
 # Юлия поворачивается
@@ -667,27 +728,41 @@ label ep27_dialogues6_julia9:
 # Моника говорит что да, она может идти
 # Это действие добавляет уровень у Юлии
     img 20895
+    with diss
     julia "???"
     img 20896
+    with diss
     m "!!!"
+    music Hidden_Agenda
     img 20897
+    with fade
     w
     img 20898
+    with diss
     w
     img 20899
+    with diss
     w
     img 20900
+    with fade
     m "У тебя также красивая попа и она также нравится мне."
+    sound Jump2
     img 20901
+    with vpunch
     julia "!!!" # Юлия ошарашенно смотрит на Монику
+    music Groove2_85
     img 20902
+    with fade
     m "!!!" # Моника зло смотрит на Юлию
     img 20903
+    with fade
     julia "Ссссс... Сссспасибо, Миссис Бакфетт..."
     julia "Для меня это неожиданно..."
     img 20904
+    with diss
     julia "Я могу идти на свое рабочее место?"
     img 20905
+    with diss
     m "Да, Юлия, ты можешь идти!"
 # Это действие добавляет уровень 1 у Юлии
     return
@@ -700,23 +775,36 @@ label ep27_dialogues6_julia10:
 # Я не собираюсь делать этого.
 # Фред отвечает что в этом нет ничего особенного, зато что-то особенное может случиться, если она этого не сделает.
 # До встречи, Миссис Бакфетт.
+    music Groove2_85
     img 20870
+    with fadelong
     m "Фред! Хватит преследовать меня!"
     fred "Миссис Бакфетт, Вы снова справились на отлично."
     m "Тише!"
     img 20871
+    with diss
     fred "Сегодня Вы поцелуете Юлию."
     fred "Можно в щеку."
+    music Power_Bots_Loop
     img 20872
+    with vpunch
     m "ЧТООООО???"
     m "Я не собираюсь делать этого!!!"
+    music Groove2_85
     img 20873
+    with diss
     fred "Миссис Бакфетт, в этом нет ничего особенного."
     fred "Зато что-то особенное может случиться, если Вы не сделаете этого..."
     m "!!!"
     fred "До встречи, Миссис Бакфетт..." # уходит
-
+    music stop
+    img black_screen
+    with diss
+    sound man_steps
+    pause 1.5
+    music Sneaky_Snitch
     img 20874
+    with fadelong
     w5 "Миссис Бакфетт, это Ваш водитель?"
     w5 "Хотите я предложу ему тоже кофе?"
     if monicaBitch == True:
@@ -737,46 +825,61 @@ label ep27_dialogues6_julia10a:
 
 label ep27_dialogues6_julia11:
 # Появляется вариант поцеловать Юлию
-    menu:
-        "Поцеловать Юлию.":
-            pass
 # Моника подходит к Юлии
 # Юлия встает и говорит чем она может помочь?
 # Моника говорит сядь и сиди работай, я просто хочу проверить как ты работаешь
 # Юлия отвечает да, конечно и садится
 # Моника встает сзади и смотрит
+    music Groove2_85
+    sound highheels_short_walk
     img 20906
+    with fadelong
     w
+    sound desk_open
     img 20907
+    with diss
     julia "Миссис Бакфетт, чем я могу помочь Вам?"
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 20908
+    with fade
     m "Юлия, сядь и сиди работай."
     m "Я просто хочу проверить как ты работаешь."
     img 20909
+    with diss
     julia "Да, конечно, Миссис Бакфетт."
     julia "Как скажете."
+    sound desk_open
     img 20910
-    with diss
+    with fade
     m "..."
 # Выбор:
 # Поцеловать Юлию
 # Не целовать.
 # Нет, я не могу зайти настолько далеко. Все-таки, я Босс!
     img 20911
+    with diss
+    $ menu_corruption = [juliaMonicaKissCorruptionRequired]
     menu:
         "Поцеловать Юлию.":
             pass
         "Не целовать.": #corruption
+            music Groove2_85
             img 20912
+            with fade
             mt "Нет, я не могу зайти настолько далеко."
             mt "Все-таки, я Босс!"
             return -1
 
 # Если поцеловать:
 # Моника нагибается и пытается поцеловать Юлию
-
-    img 20913
+    music stop
+    img black_screen
     with diss
+    pause 1.0
+    music Loved_Up
+    img 20913
+    with fadelong
     w
     img 20914
     with diss
@@ -795,42 +898,73 @@ label ep27_dialogues6_julia11:
     w
 # Если уровень не 2, то Юлия уворачивается и говорит: Миссис Бакфетт, что Вы собираетесь сделать?!
     if char_info["Julia"]["level"] < 2:
+        sound Jump1
+        music Power_Bots_Loop
         img 20919
+        with hpunch
         julia "Миссис Бакфетт, что Вы собираетесь сделать?!"
 # Моника говорит что ничего (смущенно) и уходит.
 # Появляется сообщение что Юлия должна быть ур.2
         img 20920
+        with fade
         m "Ничего!" # смущенно и уходит
         $ notif(_("Требуется отношения с Юлией ур.2"))
+        music stop
+        img black_screen
+        with diss
+        sound highheels_run2
+        pause 1.5
+        music Power_Bots_Loop
+        img 20921
+        with fadelong
+        mt "Гребаный Фред!"
+        mt "Я чувствую себя полной дурой!"
         return -2
 
 # Если уровень 2, то Моника быстро целует Юлию в щечку
 # Юлия в шоке
 # Спрашивает Миссис Бакфетт, что это было?
 # Моника отвечает что ничего.
+    sound snd_kiss2
     img 20922
     with diss
     m "(чмок)" #звук
     img 20924
     with diss
     w
+    sound snd_kiss3
     img 20923 #чмок звук снова
-    with diss
+    with hpunch
     julia "!!!"
+    music Groove2_85
     img 20925
+    with fade
     m "..."
     julia "Миссис Бакфетт, что это было?"
     img 20926
+    with diss
     m "Ничего..." # уходит в кресло
 
 # Моника садится в кресло.
 # Моника сидит и смотрит в сторону гордо и надменно (думает гребаный фред)
+    music stop
+    img black_screen
+    with diss
+    sound highheels_run2
+    pause 1.5
+    music Groove2_85
     img 20921
+    with fadelong
     mt "Гребаный Фред!"
     mt "Я чувствую себя полной дурой!"
 # Юлия ошарашенно продолжает сидеть и смотреть на Монику
 
 # Это добавляет прогресс к ур.2
+    return
+
+label ep27_dialogues6_julia11a:
+    mt "Гребаный Фред!"
+    mt "Я чувствую себя полной дурой!"
     return
 
 label ep27_dialogues6_julia12:
@@ -846,36 +980,54 @@ label ep27_dialogues6_julia12:
 # Фред отвечает что он профессионал и нет необходимости убивать его.
 # Просто сделайте что я прошу.
 # Моника злится
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Power_Bots_Loop
     img 20863
+    with fadelong
     m "ФРЕД!!!"
     m "Мерзавец..."
     m "Ты что, подглядываешь как я переодеваюсь?!"
+    music Groove2_85
     img 20864
+    with diss
     fred "Вы прекрасно справились, Миссис Бакфетт."
     fred "Продолжим нашу маленькую игру."
     fred "Сегодня Вы можете говорить с Юлией о чем хотите..."
     img 20865
+    with diss
     fred "..."
     fred "Но Вы должны ущипнуть ее за попу."
+    music Power_Bots_Loop
     img 20866
+    with hpunch
     m "!!!"
     img 20867
+    with fade
     m "К чему ты клонишь, Фред?!"
     m "Я не какая-нибудь лесбиянка!"
     m "Я - Леди! И я твой Босс!"
     m "Не забывай этого!"
+    music Groove2_85
     img 20864
+    with fade
     fred "Миссис Бакфетт, не будет ничего страшного, если женщина Босс ущипнет за попу свою подчиненную."
     fred "Это одинаковый пол, поэтому это не будет считаться харрасментом."
     fred "И будет вполне профессионально."
     img 20865
+    with diss
     fred "Однако, Миссис Бакфетт, если Вы этого не сделаете..."
     fred "То весь Ваш отдел скоро увидит фото, как их Босса щипает за задницу другой мужчина."
     img 20868
+    with diss
     m "Ты..."
     img 20865
+    with diss
     fred "В то время, когда их Босс трет пятно на ковре."
     img 20869
+    with fade
     m "Я убью тебя, Фред..."
     fred "Миссис Бакфетт, я профессионал и нет необходимости убивать меня."
     fred "Просто сделайте что я прошу..."
@@ -884,26 +1036,39 @@ label ep27_dialogues6_julia12:
 
 label ep27_dialogues6_julia13:
 # Появляется вариант Ущипнуть Юлию за зад.
-    menu:
-        "Ущипнуть Юлию за зад.":
-            pass
 # Моника подходит к Юлии и просит ее встать и подойти к ней.
 # Моника подходит к окну, Юлия следует за ней
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    sound highheels_short_walk
+    music Groove2_85
     img 20927
+    with fadelong
     w
+    sound desk_open
     img 20928
+    with diss
     julia "Миссис Бакфетт?"
+    sound highheels_short_walk
     img 20929
+    with fadelong
     m "Юлия."
     m "Пожалуйста, встань и подойди ко мне."
 # Моника встает чуть сзади Юлии и говорит ей посмотреть в окно.
 # Спрашивает у Юлии что она там видит?
 # Юлия смущается и говорит Монике что видит там город.
+    sound highheels_short_walk
     img 20930
+    with diss
     julia "..."
+    music Loved_Up
     img 20931
+    with diss
     m "Юлия, посмотри, пожалуйста, в окно."
     img 20932
+    with fade
     julia "..."
     img 20933
     with diss
@@ -912,6 +1077,7 @@ label ep27_dialogues6_julia13:
     with diss
     m "Юлия, что ты там видишь?"
     img 20935
+    with fade
     julia "Миссис Бакфетт, я вижу там город..."
 
 # Выбор:
@@ -920,20 +1086,25 @@ label ep27_dialogues6_julia13:
 # # Если не делать: Моника говорит Юлии что хватит смотреть в окно, пора возвращаться к работе.
 # Юлия подозрительно смотрит на Монику
     img 20936
+    with diss
+    $ menu_corruption = [juliaMonicaPinchAssCorruptionRequired]
     menu:
         "Ущипнуть Юлию.": #corruption
             pass
         "Не делать этого.":
+            music Groove2_85
             mt "Нет, я не могу сделать это..."
             # моника уходит к столу
+            sound highheels_run2
             img 20937
+            with fadelong
             m "Юлия, хватит смотреть в окно!"
             m "Пора возвращаться к работе!"
             julia "..." # удивленно смотрит
             return -1
 
     img 20938
-    with diss
+    with fade
     w
     img 20939
     with diss
@@ -945,17 +1116,23 @@ label ep27_dialogues6_julia13:
 # Потому что, если она будет плохо работать, то ее ждет увольнение!
 # Юлия в шоке отвечает да, конечно и идет работать
         # отскакивает
+        sound Jump1
         img 20940
         with diss
         w
+        music Power_Bots_Loop
+        sound Jump2
         img 20941
-        with diss
+        with vpunch
         julia "Миссис Бакфетт!"
         julia "Что Вы собираетесь сделать?!"
         img 20942
+        with fade
         m "Я? Ничего!"
         m "Видимо тебе что-то показалось, Юлия."
+        sound highheels_run2
         img 20943
+        with fadelong
         m "Иди занимайся работой."
         m "Хватит смотреть в окно!"
         return -2
@@ -969,31 +1146,49 @@ label ep27_dialogues6_julia13:
 # Потому что, если она будет плохо работать, то ее ждет увольнение!
 # Юлия в шоке отвечает да, конечно и идет работать
     # щипает
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Loved_Up
+    sound Jump1
+    img 20940
+    with diss
+    w
+    sound Jump2
     img 20944
     with diss #jump
     w
-    img 20945
-    with diss
-    w
+    music Power_Bots_Loop
     img 20946
     with hpunch
     julia "Ай!"
-    img 20947
+    img 20945
     with diss
+    w
+    sound Jump1
+    img 20947
+    with vpunch
     julia "!!!"
     img 20948
+    with fade
     julia "Миссис Бакфетт, что Вы сделали?!"
-    img 20949
     m "..."
+    music Groove2_85
+    img 20949
+    with diss
     julia "Вы... Вы ущипнули меня за мою попу!"
     img 20950
+    with fade
     m "Нет!"
     m "Видимо тебе что-то показалось, Юлия."
     m "Иди занимайся работой."
     m "Хватит смотреть в окно!"
     img 20951
+    with diss
     julia "..."
     img 20952
+    with fade
     m "Если ты будешь плохо работать, то тебя ждет увольнение!"
     julia "Да, Миссис Бакфетт..."
     julia "Конечно..."

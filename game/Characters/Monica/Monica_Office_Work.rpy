@@ -94,6 +94,9 @@ label office_life_day1:
         $ move_object("Julia", "working_office_cabinet") # Юлия идет на работу
         $ set_active(True, group="workers", scene="working_office") # Сотрудники на работе
         $ set_active(True, group="workers", scene="working_office2")
+    else:
+        $ move_object("Julia", "empty") # Юлия отдыхает
+
 
 #    $ move_object("Biff", "empty")
     return
@@ -107,6 +110,7 @@ label office_life_evening1:
         $ add_office_working_day(False)
     $ monicaOfficeWorkedToday = False
 
+    $ move_object("Julia", "empty") # Юлия отдыхает
     $ set_active(False, group="workers", scene="working_office") # Сотрудники уходят с работы
     $ set_active(False, group="workers", scene="working_office2")
 
@@ -125,6 +129,10 @@ label office_work_lift:
             sound snd_fabric1
             pause 1.0
             call put_work_clothes() from _call_put_work_clothes
+        call process_hooks("office_work_lift", "misc")
+        if _return == False:
+            call refresh_scene_fade()
+            return
         call change_scene("monica_office_secretary", "Fade_long", "snd_lift") from _call_change_scene_308
         return False
     if _return == 2:
@@ -137,6 +145,10 @@ label office_work_lift:
             sound snd_fabric1
             pause 1.0
             call put_work_clothes() from _call_put_work_clothes_1
+        call process_hooks("office_work_lift", "misc")
+        if _return == False:
+            call refresh_scene_fade()
+            return
         call change_scene("working_office", "Fade_long", "snd_lift") from _call_change_scene_309
         return False
     if _return == 3:
@@ -149,6 +161,10 @@ label office_work_lift:
             sound snd_fabric1
             pause 1.0
             call putoff_work_clothes() from _call_putoff_work_clothes
+        call process_hooks("office_work_lift", "misc")
+        if _return == False:
+            call refresh_scene_fade()
+            return
         call change_scene("monica_office_entrance", "Fade_long", "snd_lift") from _call_change_scene_310
         return False
     return
@@ -156,10 +172,15 @@ label office_work_lift:
 label office_work_minimap_teleport:
     #minimapCell["teleport_scene_name"]
     $ target_scene = minimapCell["teleport_scene_name"]
-    $ print target_scene
+#    $ print target_scene
     if target_scene == scene_name:
         call refresh_scene_fade() from _call_refresh_scene_fade_145
         return
+    call process_hooks("office_work_lift_minimap", "misc")
+    if _return == False:
+        call refresh_scene_fade()
+        return
+
     if target_scene == "monica_office_entrance":
         if cloth_type == "WorkingOutfit":
             img black_screen
@@ -221,6 +242,7 @@ label office_work_begin2:
     pause 1.5
     $ monicaOfficeWorkedToday = True
     $ changeDayTime("evening")
+    $ move_object("Julia", "working_office_cabinet")
     $ rand1 = random.choice([2,3,4,5])
     $ workingOfficeCabinetMonicaSuffix = rand1
     call refresh_scene_fade() from _call_refresh_scene_fade_147

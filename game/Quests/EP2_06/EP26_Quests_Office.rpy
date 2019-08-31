@@ -126,10 +126,8 @@ label ep26_quests_office7:
         $ workingOfficeCabinetMonicaSuffix = 2
         call refresh_scene_fade()
         return False
-    if _return == 3: #Юлия, ты сегодня хорошо выглядишь
-        call ep27_quests_julia3()
-        $ workingOfficeCabinetMonicaSuffix = 2
-        call refresh_scene_fade()
+    if _return == 3: #Отношения с Юлией
+        call ep27_quests_julia1_relationships()
         return False
 
     return

@@ -236,6 +236,13 @@ define monicaBardieNotebookLookCorruption = 1 #Кол-во corruption за по�
 define monicaSecretaryBoobsCitizen4Open1CorruptionRequired = 200 # кол-во corruption, чтобы Моника сама открыла грудь секретарше
 define monicaSecretaryBoobsCitizen4Open2CorruptionRequired = 250 # Кол-во corruption, чтобы разрешить потрогать секретаршу citizen4
 
+define juliaLvl1IncreaseProgress = 20 # Прогресс, добавляемый за комплименты Юлии на ур.1
+define juliaLvl2IncreaseProgress = 50 # Прогресс, добавляемый за комплименты Юлии на ур.2
+define juliaLvl3IncreaseProgress = 50 # Прогресс, добавляемый за комплименты Юлии на ур.3
+define juliaLvl12IncreaseProgressLow = 5 # Прогресс за действия lvl1, который начисляется на lvl2
+define juliaMonicaKissCorruptionRequired = 180 # corruption, чтобы поцеловать Юлию
+define juliaMonicaPinchAssCorruptionRequired = 220 # corruption, чтобы ущипнуть Юлию за зад
+
 default houseMusic = "Mandeville"
 #default biffMusic = "Funk_loop8"
 default biffMusic = "Groove2_85"
@@ -309,6 +316,10 @@ label characters_init:
 label characters_pub_init:
     $ char_info["Bartender"] = {"name": _("Джо"), "name_orig":"Джо", "enabled":False, "face":"Face_Joe", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": _("Бармен в Shiny Hole"), "max_progress":100, "uplevel_label":"bartenderProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
     $ char_info["Bartender_Waitress"] = {"name": _("Эшли"), "name_orig":"Эшли", "enabled":True, "face":"Face_Ashley", "style":"char_face_style1_pink",  "bar_suffix": "pink", "level":1, "current_progress":0, "caption": _("Жена бармена"), "max_progress":100, "uplevel_label":"bartenderWaitressProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
+    return
+
+label characters_init_julia:
+    $ char_info["Julia"] = {"name": _("Юлия"), "name_orig":"Юлия", "enabled":True, "face":"Face_Julia", "style":"char_face_style1_pink",  "bar_suffix": "pink", "level":1, "current_progress":0, "caption": _("Юлия боится Монику"), "max_progress":100, "uplevel_label":"juliaProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
     return
 
 label define_autorun:

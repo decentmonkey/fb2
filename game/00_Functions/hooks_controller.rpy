@@ -13,6 +13,11 @@ init python:
             room_name = api_scene_name
         if len(args) >= 3:
             room_name = args[2]
+        if kwargs.has_key("recursive") == True and kwargs["recursive"] == True:
+            rooms_list = get_rooms_recursive(room_name)
+        else:
+            rooms_list = [room_name]
+        kwargs.pop("recursive", None)
 
         hook_data = {"hook_label":hook_label}
         for var1, value1 in kwargs.items():
@@ -20,17 +25,18 @@ init python:
         if hook_data.has_key("priority") == False:
             hook_data["priority"] = 100
 
-        if scenes_data["hooks"].has_key(room_name) == False:
-            scenes_data["hooks"][room_name] = {}
-        if scenes_data["hooks"][room_name].has_key(obj_name) == False:
-            scenes_data["hooks"][room_name][obj_name] = []
+        for room_name in rooms_list:
+            if scenes_data["hooks"].has_key(room_name) == False:
+                scenes_data["hooks"][room_name] = {}
+            if scenes_data["hooks"][room_name].has_key(obj_name) == False:
+                scenes_data["hooks"][room_name][obj_name] = []
 
-        remove_hook(obj_name, hook_label, scene=room_name)
-        hooks_list = scenes_data["hooks"][room_name][obj_name]
-        flag1 = False
-        hooks_list.append(hook_data)
-        hooks_list = sort_hooks(hooks_list)
-        scenes_data["hooks"][room_name][obj_name] = hooks_list
+            remove_hook(obj_name, hook_label, scene=room_name)
+            hooks_list = scenes_data["hooks"][room_name][obj_name]
+            flag1 = False
+            hooks_list.append(hook_data)
+            hooks_list = sort_hooks(hooks_list)
+            scenes_data["hooks"][room_name][obj_name] = hooks_list
         return
 
     def add_hook_multi(hook_label, **kwargs): #устанавливает хук
