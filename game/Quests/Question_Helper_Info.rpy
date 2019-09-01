@@ -1,5 +1,8 @@
 default questLogDataEnabled = {}
 default questLogLinesUpdated = []
+
+#call question_helper_enable("question_helper_hairdye_find_julia")
+#call question_helper_disable()
 label question_helper_hairdye:
     menu:
         "Посмотреть подсказку":
@@ -109,6 +112,13 @@ label question_office_tea_lost_phone:
     with fadelong
     help "Телефон на полу при входе в офис..."
     w
+    return
+
+label question_clothing_shop_sell_dress:
+    img help1_17
+    with fadelong
+    help "Подходить к клиентам и пытаться продать платье."
+    help "Этот клиент, в итоге, должен купить его."
     return
 
 label questLog_init:

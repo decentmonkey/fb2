@@ -410,6 +410,33 @@ label cit3_dialog_3:
     w
     img 11223
     with fade
+    menu:
+        "Если ты меня обманешь...":
+            pass
+        "Ты купишь это платье просто так!":
+            $ monicaOffendedCit3 = True
+            music Power_Bots_Loop
+            img 21229
+            with fadelong
+            m "Ты купишь это платье просто так."
+            m "Иначе я сейчас оторву тебе член..."
+            with hpunch
+            m "ЯСНО ТЕБЕ!"
+            img 21230
+            with diss
+            cit3 "Ладно, ладно! Я куплю его!"
+            cit3 "Пожалуйста, отпусти меня!"
+            music Groove2_85
+            img 21231
+            with fadelong
+            m "То-то же..."
+            mt "Мне надо было с самого начала так и поступить."
+            mt "Ни к чему было терпеть все эти унижения..."
+            music stop
+            call textonblack(_("Спустя некоторое время..."))
+            img black_screen
+            with Dissolve(1)
+            return True
     if monicaBitch == True:
         mt "В моем списке для убийств теперь появится еще один человек..."
     m "Если ты меня обманешь..."
@@ -566,6 +593,8 @@ label cit3_dialog_3:
     show videov_ShopVisitor2_Monica_Blowjob_1_11
     with fadelong
     wclean
+
+    $ add_corruption(30, "monica_clothing_shop_blowjob")
 
     music stop
     music2 stop
