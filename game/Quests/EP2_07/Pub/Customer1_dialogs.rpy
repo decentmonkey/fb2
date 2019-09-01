@@ -1,21 +1,29 @@
 # чел в синей куртке
 
 label customer1_1stmeeting:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 14203
+    with fadelong
     mt "Надо пересилить себя..."
     m "Что будете заказывать?"
     img 14202
+    with diss
     customer1 "Вообще-то я ничего не хотел, но теперь думаю, что что-то закажу."
-    customer1 "И откуда этот говнюк Джо достал такую красотку?"
+    customer1t "И откуда этот говнюк Джо достал такую красотку?"
     customer1 "Как тебя зовут?"
-    m "[monica_pub_name]"
+    m "Меня зовут [monica_pub_name]."
+    music Groove2_85
     img 14204
+    with fade
     customer1 "Отлично, [monica_pub_name]"
     customer1 "Думаю, ты тут для того, чтобы заработать, так?"
     img 14205
+    with diss
     m "Ну, да..."
     mt "Надо быть осторожнее с этими пьяницами..."
     img 14206
+    with fade
     customer1 "Я так и думал. Вообще, чтобы получать хорошие чаевый, нужно как минимум быть вежливой."
     customer1 "Например ты должна была сказать:"
     img 14207
@@ -24,54 +32,84 @@ label customer1_1stmeeting:
     img 14208
     m "Да."
     img 14209
+    with diss
     mt "Да кем он себя возомнил?"
     mt "Очередной придурок..."
     img 14210
+    with fade
     customer1 "Хорошо. Думаю, в следующий раз ты будешь более вежливой. Кстати, я передумал делать заказ."
     img 14211
+    with diss
     mt "Что за урод? Только зря потратила время..."
     return
 
 label customer1_serve1:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 14212
+    with fadelong
     m "Что будете заказывать?"
     img 14213
     customer1 "Ну нет, разве я так тебя учил?"
     customer1 "Будь вежливой, скажи как тебя зовут..."
     img 14214
+    $ menu_bitchiness
     menu:
-        "Быть вежливой.":
+        "Быть вежливой." if bitchmeterValue <= maxBitchness / 2:
             img 14215
+            with fade
             mt "Насколько знаю, официантки ведут себя вежливо."
             mt "Попытаюсь притвориться, наксолько у меня хватит сил..."
 #            mt "Возможно, так правильнее, я совсем не знаю как работают официантки."
             img 14216
+            with diss
             m "Здравствуйте, меня зовут [monica_pub_name]..."
             img 14217
+            with fade
             customer1 "Отлично, [monica_pub_name]."
             customer1 "А теперь, [monica_pub_name], принеси мне пива."
             img 14218
+            with diss
             m "Хорошо."
             # уходит, приносит
+            music stop
+            img black_screen
+            with diss
+            sound highheels_run2
+            pause 1.0
+            music Hidden_Agenda
+            sound snd_plates1
             img 14219
+            with fade
             w
+            sound snd_beer_table
             img 14220
+            with diss
             w
             img 14221
+            with diss
             customer1 "Запомни, быть хорошей официанткой очень сложно. Кекоторые получают по 100 долларов чаевых за заказ. А пока держи..."
+            $ add_tips(0.25)
             # дает 0.25
             img 14209
+            with fade
             mt "Четвертак? Сколько же бокалов я должна принести, чтобы ты дал мне 100 долларов?"
-            if monicaBitch == True:
-                mt "Урод..."
-            return
+#            if monicaBitch == True:
+            mt "Урод..."
+            return True
+        "Быть вежливой. (Моника недостаточно приличная) (disabled)" if bitchmeterValue > maxBitchness / 2:
+            pass
         "Отказаться.":
+            music Groove2_85
             img 14222
+            with fade
             mt "Я не собираюсь слушаться этого деревеньщину!"
             # развернуться и уйти
+            sound highheels_short_walk
             img 14223
+            with diss
             customer1 "Эй, ты куда?"
-            return
+            return False
 
 #label customer1_serve2:
 #    m "Что будете заказывать?"

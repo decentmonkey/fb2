@@ -1,73 +1,121 @@
 # лысый чел слева
 
 label customer2_1stmeeting:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 14225
+    with fadelong
     m "Что будете заказывать?"
     img 14224
+    with diss
     customer2 "Новенькая?"
     # смотрит на монику
+    music Groove2_85
     img 14226
+    with fade
     customer2 "Ну что сказать: нормально."
     customer2 "И откуда же ты приехала в нашу дыру?"
     img 14227
     mt "Я ни откуда не приезжала! Я просто живу в тех районах, куда такие как ты не заходят."
     img 14228
+    with diss
     m "Я из этого города."
     img 14229
+    with fade
     customer2 "Из этого говоришь? Я знаю всех в этом районе и ты тут недавно..."
     customer2 "Думаешь, наше знакомство лучше начать с обмана?"
     img 14230
     mt "Думаю, лучше соврать..."
     img 14231
+    with diss
     m "Да, Вы правы. Я приехала недавно на заработки."
     img 14232
+    with fade
     customer2 "Да, это похоже на правду."
     customer2 "И ты, похоже не из городских, иначе что тебе тут делать?"
     customer2 "Похоже, ты из какой-то деревни, коих тысячи."
     img 14233
+    with diss
     mt "Из деревни здесь только ты..."
     if monicaBitch == True:
         mt "Урод..."
     img 14234
+    with fade
+    $ add_tips(0.5)
     customer2 "Ладно, девочка, вот тебе полбакса и принеси мне пиво. Считай, это в честь первого знакомства."
     # уходит - приходит
+    music stop
+    img black_screen
+    with diss
+    sound highheels_run2
+    pause 1.0
+    music Hidden_Agenda
     img 14235
+    with fade
     w
+    sound snd_plates1
     img 14236
+    with diss
     w
+    sound snd_beer_table
     img 14237
+    with diss
     m "Вот, пожалуйста."
     img 14238
+    with fade
     customer2 "Спасибо, можешь идти. Кстати, у тебя большой потенциал, ха-ха-ха. Буду ждать тебя на сцене."
     img 14239
+    with diss
     mt "Не дождешься..."
     return
 
 label customer2_serve1:
+    music Hidden_Agenda
+    sound highheels_short_walk
     img 14240
-    сustomer2 "Эй, официантка! Мне еще пива! Кстати, как тебя зовут?"
+    with fade
+    customer2 "Эй, официантка! Мне еще пива! Кстати, как тебя зовут?"
     # если не первый раз
-    customer2 "Я все время забываю!"
+    if get_pub_visitor_visits(obj_name) > 2:
+        customer2 "Я все время забываю!"
     img 14241
-    m "[monica_pub_name]"
+    with diss
+    m "Меня зовут [monica_pub_name]."
     img 14242
-    сustomer2 "И постарайся успеть, пока я не допил свой бокал!"
+    with fade
+    customer2 "И постарайся успеть, пока я не допил свой бокал!"
     # уходит - приходит
+    music stop
+    img black_screen
+    with diss
+    sound highheels_run2
+    pause 1.0
+    music Hidden_Agenda
     img 14243
+    with fade
     w
+    sound snd_plates1
     img 14244
+    with diss
     w
+    sound snd_beer_table
     img 14245
+    with diss
     m "Ваше пиво."
+    music Groove2_85
     img 14246
-    сustomer2 "Ага, могла бы и побыстрее, хотя все вы, деревеньщины медлительные."
+    with fade
+    customer2 "Ага, могла бы и побыстрее, хотя все вы, деревеньщины медлительные."
     img 14247
+    with diss
     m "Вообще-то я не из деревни."
     img 14248
-    сustomer2 "Ну да, рассказывай. Если бы ты была не из деревни, тебя бы здесь не было!"
-    сustomer2 "Свободна! И подходи ко мне время от времени, я быстро пью."
-    сustomer2 "И если не будешь хорошо работать, может и зараобоаешь..."
+    with fade
+    customer2 "Ну да, рассказывай. Если бы ты была не из деревни, тебя бы здесь не было!"
+    customer2 "Свободна! И подходи ко мне время от времени, я быстро пью."
+    customer2 "И если не будешь хорошо работать, может и зараобоаешь..."
     img 14239
+    with diss
     mt "Да что ты знаешь про меня? Неудачник!"
     return
 
@@ -76,7 +124,7 @@ label customer2_serve1:
 #этого хватает, чтобы чел слегка облмлся
 #label customer2_serve1:
 #    mt "Может быть тот лысый хочет еще пива... Думаю, стоит спросить."
-#    сustomer2 "Эй, официантка! Мне еще пива!"
+#    customer2 "Эй, официантка! Мне еще пива!"
 #    m "Да, одну секунду."
 #    m "Ой!"
 #    # врезается

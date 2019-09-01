@@ -3,6 +3,8 @@ default visitorsVisits = {}
 label ep27_pub_visitors_init:
     if get_pub_visitor_visits("Pub_Visitor9") > 0:
         $ pubVisitor9Suffix = "_Food"
+    if get_pub_visitor_visits("Pub_Visitor10") > 0:
+        $ pubVisitor9Suffix = "_Food"
     return
 
 label ep27_pub_visitors_click:
@@ -14,12 +16,44 @@ label ep27_pub_visitors_click:
     music2 pub_noise1_low
     $ visitsCount = get_pub_visitor_visits(obj_name)
     if obj_name == "Pub_Visitor1":
+        if visitsCount == 0:
+            call customer1_1stmeeting()
+            # nofood
+        if visitsCount > 0:
+            call customer1_serve1()
+            if _return == True:
+                $ pubVisitor1Suffix = "_Food"
+        $ autorun_to_object("customer1_afterserve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor2":
+        if visitsCount == 0:
+            call customer2_1stmeeting()
+            $ pubVisitor2Suffix = "_Food"
+        if visitsCount > 0:
+            call customer2_serve1()
+            $ pubVisitor2Suffix = "_Food"
+        $ autorun_to_object("customer2_after_serve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor3":
+        if visitsCount == 0:
+            call customer3_1stmeeting()
+            $ pubVisitor3Suffix = "_Food"
+        if visitsCount > 0:
+            if visitsCount%2 == 1:
+                call customer3_serve1()
+                $ pubVisitor3Suffix = "_Food"
+            else:
+                call customer3_serve2()
+                # nofood
+        $ autorun_to_object("customer3_after_serve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor4":
+        if visitsCount == 0:
+            call customer4_1stmeeting()
+        if visitsCount > 0:
+            call customer4_serve1()
+            $ pubVisitor4Suffix = "_Food"
+        $ autorun_to_object("customer4_afterserve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor5":
         if visitsCount == 0:
@@ -34,10 +68,18 @@ label ep27_pub_visitors_click:
         call customer6_serve1()
         $ autorun_to_object("customer6_afterserve1", scene=scene_name)
         pass
-    if obj_name == "Pub_Visitor7":
-        pass
-    if obj_name == "Pub_Visitor8":
-        pass
+    if obj_name == "Pub_Visitor7" or obj_name == "Pub_Visitor8":
+        $ visitsCount = get_pub_visitor_visits("Pub_Visitor7") + get_pub_visitor_visits("Pub_Visitor8")
+        if visitsCount == 0:
+            call customer78_1stmeeting()
+            $ pubVisitor7Suffix = "_Food"
+            $ pubVisitor8Suffix = "_Food"
+        if visitsCount > 0:
+            call customer78_serve1()
+            $ pubVisitor7Suffix = "_Food"
+            $ pubVisitor8Suffix = "_Food"
+            $ autorun_to_object("customer78_afterserve1", scene=scene_name)
+
     if obj_name == "Pub_Visitor9":
         if visitsCount == 0:
             call customer9_1stmeeting()
@@ -50,6 +92,12 @@ label ep27_pub_visitors_click:
                 $ autorun_to_object("customer9_afterserve2", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor10":
+        if visitsCount == 0:
+            call customer10_1stmeeting()
+            $ pubVisitor10Suffix = "_Food"
+        if visitsCount > 0:
+            call customer10_serve1()
+        $ autorun_to_object("customer10_afterserve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor11":
         call customer11_1stmeeting()
@@ -68,11 +116,17 @@ label ep27_pub_visitors_click:
     $ pubMonicaWaitressServedCustomersToday += 1
     $ pubMonicaWaitressServedCustomersTotal += 1
     if pubMonicaWaitressServedCustomersToday >= pubMonicaWaitressVisitorsPerDay:
+        if day_time == "day":
+            $ changeDayTime("evening") # Если закончили, упершись в лимит клиентов, то меняем время суток
+        $ autorun_to_object("ep27_pub_visitors_dummy_autorun", scene=scene_name)
         call ep27_quests_pub_work5() # Заканчиваем работу
         return False
     $ scene_sound = "highheels_short_walk"
     call refresh_scene_fade()
     return False
+
+label ep27_pub_visitors_dummy_autorun:
+    return
 
 init python:
     def get_pub_visitor_visits(obj_name):

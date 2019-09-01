@@ -1,100 +1,175 @@
 # 2 парня у шеста
 
 label customer78_1stmeeting:
-    img 14425
-    w
-    img 14453
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.0
+    music RocknRoll_loop
+    if get_active_objects("Pub_StripteaseGirl1", scene="pub") != False:
+        img 14453
+        with fadelong
+    if get_active_objects("Pub_StripteaseGirl2", scene="pub") != False:
+        img 14425
+        with fadelong
     m "Здравствуйте! Что будете заказывать?"
     img 14426
+    with diss
     customer7 "Заказ? Да, готовы, но мы скажем, что мы хотим официантке, а Ты поднимайся! Надоело уже смотреть на эту стриптизершу."
     # смотрит на монику
     img 14427
+    with diss
     m "Я и есть официантка..."
     img 14428
+    with fade
     customer7 "Да? Да быть не может! Ты гораздо эффектнее смотрелась бы на пилоне!"
     customer7 "Ты новенькая?"
     customer7 "Как тебя зовут?"
     img 14429
+    with diss
     m "Да, я тут недавно. Меня зовут [monica_pub_name]"
     img 14430
+    with fade
     customer7 "[monica_pub_name], ты хочешь заработать?"
     img 14431
+    with diss
     mt "Да я зарабатываю по больше чем вся твоя семья и твой товарищ и все их родственники во всем мире!"
     img 14432
+    with diss
     m "Да, именно за этим я здесь."
-    img 14433
-    w
-    img 14454
+    if get_active_objects("Pub_StripteaseGirl1", scene="pub") != False:
+        img 14454
+        with fadelong
+    if get_active_objects("Pub_StripteaseGirl2", scene="pub") != False:
+        img 14433
+        with fadelong
     customer7 "Я так и думал... Просто для информации: гораздо больше можно заработать тут.." # показывает на шест
     img 14434
+    with diss
     m "Мне это не интересно."
     img 14435
+    with fade
     customer7 "Да, да, все так говорят, пока не узнают какие тут деньги..."
     img 14437
     mt "Неужели и правда большие?"
     img 14455
+    with diss
     menu:
         "И какие же?":
             img 14456
+            with fade
             m "И какие же?"
             img 14457
+            with fade
             customer7 "Ну за представление можно заработать 100 долларов..."
             customer7 "Но все зависит от того, что ты покажешь..."
             img 14458
             m "Я поняла, мне это не интересно."
             img 14459
+            with diss
             mt "100 долларов за вечер? Немаленькие деньги для такой дыры..."
             mt "Но это не для меня! Я не собираюсь танцевать у всех на виду!"
             pass
         "Мне это не интересно.":
             img 14460
+            with fade
             m "Говорю же, мне это не интересно."
             img 14461
+            with diss
             customer7 "Конечно, конечно, это пока..."
             pass
     img 14462
+    with fade
     customer7 "А пока, принеси нам два шота! На свой вкус."
     img 14463
+    with diss
     m "Хорошо."
     # уходит принтсит
+    music stop
+    img black_screen
+    with diss
+    sound highheels_run2
+    pause 1.0
+    music RocknRoll_loop
     img 14464
+    with fade
     w
     img 14465
+    with diss
     w
+    sound snd_plates1
     img 14466
+    with diss
     w
+    sound snd_beer_table
     img 14467
+    with fade
     customer7 "То что надо! Похоже, ты умеешь читать мысли!"
+    $ add_tips(1.0)
     customer7 "Вот, держи!" # дает доллар
     customer7 "Приходи к нам чаще! Я вижу в тебе потенциал."
     img 14468
     mt "Какой еще потенциал?"
     img 14469
+    with diss
     m "До свидания."
     return
 
 label customer78_serve1:
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.0
+    music RocknRoll_loop
     img 14470
+    with fadelong
     m "Что будете..."
     img 14471
-    сustomer7 "Нам два шота! И быстро! Хотим их выпить перед очередным выступлением!"
+    with diss
+    customer7 "Нам два шота! И быстро! Хотим их выпить перед очередным выступлением!"
     img 14472
+    with diss
     m "Хорошо, один момент!"
     # уходит - приносит
+    music stop
+    img black_screen
+    with diss
+    sound highheels_run2
+    pause 1.0
+    music Hidden_Agenda
     img 14464
+    with fade
     w
     img 14465
+    with diss
     w
+    sound snd_plates1
     img 14466
+    with diss
     w
+    sound snd_beer_table
     img 14473
+    with diss
     m "Вот, пожалуйста! Что нибудь еще?"
     img 14474
-    сustomer7 "Да, вот еще что! Не могла бы ты в следующия раз быть побыстрее!"
-    сustomer7 "Похоже тебя сюда взяли по двум причинам. Эти причины: сиськи и жопа! Но уж точно не скорость!"
+    with fade
+    customer7 "Да, вот еще что! Не могла бы ты в следующия раз быть побыстрее!"
+    customer7 "Похоже тебя сюда взяли по двум причинам. Эти причины: сиськи и жопа! Но уж точно не скорость!"
+    music RocknRoll_loop
     img 14467
-    сustomer7 "А теперь иди, шоу уже началось!"
+    with diss
+    w
+    if get_active_objects("Pub_StripteaseGirl1", scene="pub") != False:
+        img 14454
+        with fadelong
+    if get_active_objects("Pub_StripteaseGirl2", scene="pub") != False:
+        img 14433
+        with fadelong
+    customer7 "А теперь иди, шоу уже началось!"
     img 14475
+    with diss
     mt "Козлы..."
     return
 

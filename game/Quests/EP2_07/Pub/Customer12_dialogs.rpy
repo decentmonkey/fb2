@@ -20,7 +20,7 @@ label customer12_1stmeeting:
     customer12 "Как зовут?"
     img 14416
     with diss
-    m "[monica_pub_name]"
+    m "Меня зовут [monica_pub_name]."
     music Groove2_85
     img 14417
     with fade

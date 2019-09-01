@@ -21,7 +21,7 @@ label customer5_1stmeeting:
     mt "Не хватало еще, чтобы ко мне подкатывал какой-то кретин..."
     img 14302
     with diss
-    m "[monica_pub_name]"
+    m "Меня зовут [monica_pub_name]."
     img 14303
     with fade
     customer5 "Ох... [monica_pub_name] и Джери...Шикарно звучит..."

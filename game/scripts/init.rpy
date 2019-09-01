@@ -12,6 +12,7 @@ define pubSphagettiPrice = 5
 define pubShinyBurger = 10
 define pubCustomer12_serve1_Corruption = 180
 define pubCustomer9_serve1_Corruption = 200
+define pubCustomer4_serve1_Corruption = 170
 
 default pubMonicaWaitressTipsKoeff = 0.1 # Сколько чаевых отдают Монике
 default pubMonicaWaitressVisitorsPerDay = 3 # Сколько посетителей Моника может обслужить в день
@@ -29,6 +30,18 @@ define monicaWashHoldJoeCorruption = 150 # Кол-во corruption, требуе�
 define monicaWashMolestJoeProgress = 50 # Прогресс за лапания от Джо
 define monicaWashMolestAshleyProgress = 50 # Прогресс за лапание от Эшли
 define monicaWashHoldAshleyCorruption = 150 # Кол-во corruption, требуемого чтобы Моника терпела лапание от барменши
+define monicaTipsPunishmentJoeProgress = 25 # Сколько прогресс за наказание, если Моника украла чаевые
+define monicaTipsPunishmentAshleyProgress = 25
+
+define monicaTipsPunishmentScene1AssCorruption = 180 # потрогать за попу в одежде
+define monicaTipsPunishmentScene2ShowBoobsCorruption = 190 # показать голую грудь Джо
+define monicaTipsPunishmentScene2TouchBoobsCorruption = 195 # дать потрогать грудь Джо
+define monicaTipsPunishmentScene3ShowNakedAssCorruption = 210 # показать Джо голый зад
+define monicaTipsPunishmentScene4DanceNakedCorruption = 230 # танец на столе обнаженной
+
+define monicaTipsPunishmentAshleyScene1KissingCorruption = 180 # дать Эшли себя целовать
+define monicaTipsPunishmentAshleyScene2PussyTouchigCorruption = 200 # дать Эшли потрогать свою киску
+define monicaTipsPunishmentAshleyScene3AssToAssCorruption = 230 # тереться с Эшли задницами :)
 
 define bettyCleaningProgessAmount = 20 #5 #Прогресс с Бетти за уборку
 define bettyCleaningProgessAmountLevel3 = 10 # Прогресс с Бетти за уборку после lvl 3

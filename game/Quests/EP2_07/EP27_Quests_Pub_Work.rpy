@@ -10,6 +10,8 @@ default pubMonicaWaitressVisitorsServed = []
 default pubMonicaWaitressClothBefore = ""
 default pubMonicaWaitressClothTypeBefore = ""
 
+default pubMonicaWaitressTipsPunishmentTalkStage = 0
+
 
 label ep27_quests_pub_work1: # Моника спрашивает о повышении
     call ep27_dialogues7_pub1()
@@ -42,7 +44,7 @@ label ep27_quests_pub_work2_begin: #Работать официанткой в S
     $ set_var("Monica", zorder = 1, scene="pub")
 #    $ set_var("Monica", zorder = 200, scene="pub")
     call ep27_pub_visitors_init()
-    
+
     $ pubMonicaWaitressVisitorsServed = []
     $ pubMonicaWaitressWorkedDaysTotal += 1
     $ pubMonicaWaitressTips = 0
@@ -72,6 +74,11 @@ label ep27_quests_pub_work3_exit: # Моника пытается выйти и�
     $ set_var("Monica", zorder = 200, scene="pub") # Делаем Монику снова спереди
     if pubMonicaWaitressTips > 0:
         $ autorun_to_object("ep27_dialogues7_pub6a", scene="hostel_street")
+    $ add_hook("Teleport_Hostel_Pub", "ep27_dialogues7_pub6a", scene="hostel_street", label="evening_time_temp")
+    $ add_hook("Bartender", "ep27_quests_pub_work6_tips_punishment", scene="pub", label="working_waitress_tips_punishment1")
+    $ add_hook("Bartender_Waitress", "ep27_quests_pub_work6_tips_punishment", scene="pub", label="working_waitress_tips_punishment1")
+    $ pubMonicaWaitressTipsPunishmentTalkStage = 0
+
     $ cloth_type = pubMonicaWaitressClothTypeBefore
     $ cloth = pubMonicaWaitressClothBefore
     music2 stop
@@ -109,4 +116,36 @@ label ep27_quests_pub_work5:
     $ notif(_("Моника закончила смену официантки"))
     $ set_var("Monica", zorder = 200, scene="pub") # Делаем Монику снова спереди
     call change_scene("hostel_street", "Fade_long")
+    return
+
+label ep27_quests_pub_work6_tips_punishment: # Наказание за кражу чаевых
+    if act=="l":
+        return
+    call ep27_dialogues7_pub8()
+    if _return == 0:
+        call change_scene("hostel_street", "Fade_long")
+        return False
+    if _return == 1:
+        # Моника вернула деньги
+        call ep27_quests_pub_work7_tips_punishment_forgive()
+        call refresh_scene_fade_long()
+        return False
+    if _return == 2:
+        $ pubMonicaWaitressTipsPunishmentTalkStage = 1
+        call refresh_scene_fade_long()
+        return False
+    if _return == 3:
+        # Попросить прощения у Джо
+        call ep22_quests_pub_punishment_joe()
+        return False
+    if _return == 4:
+        # Попросить прощения у Эшли
+        call ep22_quests_pub_punishment_ashley()
+        return False
+
+    return
+
+label ep27_quests_pub_work7_tips_punishment_forgive: # Моника прощается
+    $ pubMonicaWaitressTipsStolen = False
+    $ remove_hook(label="working_waitress_tips_punishment1")
     return
