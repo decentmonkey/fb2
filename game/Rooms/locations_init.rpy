@@ -155,3 +155,8 @@ label locations_init_rich_hotel_restaurant:
     $ add_location("rich_hotel_restaurant_entrance", caption=_("Restaurant"), label="rich_hotel_restaurant_entrance", init_label="rich_hotel_restaurant_entrance_init", parent="rich_hotel_reception")
 
     return
+
+label locations_init_melanie_home:
+    # Дом Мелани (пока пустой)
+    $ add_location("melanie_home", caption=_("АПАРТАМЕНТЫ МЕЛАНИ"), label="melanie_home", init_label="melanie_home_init", parent="World")
+    return

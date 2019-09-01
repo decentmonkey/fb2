@@ -11,5 +11,6 @@ label ep27_quests1:
     # Мелани
     call ep27_quests_melanie1_init()
 
+    $ currentMusicPriority = 0
     $ ep27_quests_initialized = True
     return

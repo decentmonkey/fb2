@@ -22,5 +22,34 @@ label ep27_quests_melanie2_dialogue: # Диалог с Мелани
 
 label ep27_quests_melanie2_init_map: # Инициализация посещения Мелани (карта)
     $ remove_hook()
+    call locations_init_melanie_home()
     $ add_objective("go_to_melanie", _("Идти к Мелани домой"), c_red, 30)
+    $ map_objects["Teleport_Melanie_Home"] = {"text" : _("АПАРТАМЕНТЫ МЕЛАНИ"), "xpos" : 1726, "ypos" : 791, "base" : "map_marker", "state" : "visible"}
+    $ add_hook("map_teleport", "ep27_quests_melanie4_melanie_check_whore_cloth", scene="global", priority = 2000, label="melanie_home_checkcloth")
+    $ add_hook("open", "ep27_quests_melanie3_melanie_home_scene", scene="melanie_home")
+    return
+
+label ep27_quests_melanie3_melanie_home_scene:
+    $ remove_hook()
+    $ remove_hook(label="melanie_returned_dialogue3")
+    $ remove_hook(label="melanie_home_checkcloth")
+    $ add_hook("map_teleport", "ep27_dialogues1_melanie4", scene="global", priority = 2000, label="melanie_home_restrict") # Блокируем дом Мелани
+    call ep27_dialogues1_melanie2()
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    $ changeDayTime("evening")
+    $ autorun_to_object("ep27_dialogues1_melanie3", scene="street_house_outside") # Комментарий после встречи с Мелани
+    call change_scene("street_house_outside", "Fade_long", "highheels_run2")
+    return
+
+label ep27_quests_melanie4_melanie_check_whore_cloth: # Переодеваем Монику перед приходом к Мелани
+    if cloth != "Whore" and cloth_type != "Nude":
+        mt "Мелани просила меня придти в другой... Одежде..."
+        return False
+#        menu:
+#            "Переодеться в одежду шлюхи.":
+#                $ cloth = "Whore" #Принудительно переодеваем Монику
+#                $ cloth_type = "Whore"
     return

@@ -10,6 +10,10 @@ label ep27_pub_visitors_init:
 label ep27_pub_visitors_click:
     if act=="l":
         return
+    if pubMonicaWaitressServedCustomersToday >= pubMonicaWaitressVisitorsPerDay:
+        call ep27_dialogues7_pub3()
+        call ep27_dialogues7_pub3a()
+        return False
     if obj_name in pubMonicaWaitressVisitorsServed:
         call ep27_dialogues7_pub19()
         return False
@@ -118,8 +122,10 @@ label ep27_pub_visitors_click:
     if pubMonicaWaitressServedCustomersToday >= pubMonicaWaitressVisitorsPerDay:
         if day_time == "day":
             $ changeDayTime("evening") # Если закончили, упершись в лимит клиентов, то меняем время суток
-        $ autorun_to_object("ep27_pub_visitors_dummy_autorun", scene=scene_name)
-        call ep27_quests_pub_work5() # Заканчиваем работу
+#        $ autorun_to_object("ep27_pub_visitors_dummy_autorun", scene=scene_name)
+        $ autorun_to_object("ep27_dialogues7_pub3b", scene=scene_name)
+
+#        call ep27_quests_pub_work5() # Заканчиваем работу
         return False
     $ scene_sound = "highheels_short_walk"
     call refresh_scene_fade()

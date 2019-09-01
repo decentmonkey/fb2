@@ -144,68 +144,122 @@ label ep27_dialogues1_melanie1b:
 
 label ep27_dialogues1_melanie2:
     # Моника приходит к Мелани
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(_("АПАРТАМЕНТЫ МЕЛАНИ"))
+    img black_screen
+    with Dissolve(2.0)
+#    music Groove2_85
+    music Villainous_Treachery
     img 20620
+    with fadelong
     w
     img 20621
+    with diss
     m "Мелани, я пришла..."
     img 20622
+    with diss
     melanie "..."
     img 20623
+    with fade
     m "И я жду ответы..."
     img 20624
+    with fade
     melanie "Миссис Бакфетт."
     melanie "Я не уверена в правильности решения пригласить Вас..."
     melanie "Вы точно вошли незаметно? Вас никто не видел?"
-
+    music Groove2_85
     img 20625
+    with fadelong
     m "Мелани, меня никто не видел. Я уверена в этом."
     m "И, раз уж я пришла, позволь мне войти."
     img 20626
+    with diss
     melanie "..."
     m "..."
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music In_Your_Arms
     img 20627
+    with fadelong
     melanie "Хорошо, Миссис Бакфетт..."
     melanie "Проходите."
     #
+    sound highheels_short_walk
     img 20628
+    with fadelong
     melanie "Присаживайтесь."
     img 20629
+    with diss
     melanie "Давайте выпьем вина..."
     img 20630
+    with fade
     m "..."
+    music Groove2_85
     img 20631
+    with fade
     m "Мелани, давай перейдем сразу к делу."
     m "Ты видела Маркуса?"
     img 20632
+    with diss
     m "Что он сказал тебе?"
     m "Как мне избавиться от него?!"
+    music Villainous_Treachery
     img 20633
+    with fade
     melanie "Миссис Бакфетт..."
     melanie "Вы задаете слишком прямые вопросы."
     melanie "Для меня большой риск общаться с Вами..."
     img 20634
+    with diss
     m "Мелани, я задаю те вопросы, которые меня больше всего волнуют!"
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music In_Your_Arms
+    sound pour_wine
     img 20635 #наливает
+    with fadelong
     melanie "Выпейте вина, Миссис Бакфетт."
     img 20630
+    with diss
     m "..."
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.5
+    music In_Your_Arms
     img 20636
+    with fadelong
     m "Хорошо, Мелани."
     img 20637
+    with diss
     mt "Вкусное вино..."
     mt "Как вкусно..."
     mt "Я уже отвыкла..."
     melanie "Зря Вы не согласились, Миссис Бакфетт..."
+    sound plastinka2
+    music Groove2_85
     img 20638
     with diss
     w
     img 20639
+    with diss
     m "На что я зря не согласилась, Мелани?"
+    with fade
     img 20640
     melanie "На то, чтобы поехать на ферму, когда Мистер Маркус предложил Вам..."
+    music Power_Bots_Loop
     img 20641
+    with hpunch
     m "ЧТО?!"
     img 20642
+    with fade
     m "Мелани, ты представляешь о чем идет речь?!"
     m "Ты, вообще, знаешь что это за место?!"
     img 20643
@@ -590,7 +644,7 @@ label ep27_dialogues1_melanie3:
 label ep27_dialogues1_melanie4:
     mt "Мелани говорила что ей опасно общаться со мной."
     mt "Думаю, пока лучше не рисковать приближаться к ней..."
-    return
+    return False
 
 
 
