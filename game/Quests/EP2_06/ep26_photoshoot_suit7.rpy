@@ -4,7 +4,7 @@ label ep26_photoshoot_suit7:
     music Groove2_85
     $ shotsAmount = PS7_shots_amount
     $ shotsTotalAmount = 33
-    $ shotsAmount = 33 #debug
+#    $ shotsAmount = 33 #debug
 
     $ shots = 2
     $ arrowUp = True

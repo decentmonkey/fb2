@@ -95,6 +95,19 @@ label ep22_quests_office4_l1:
         call ep26_photoshoot_suit7() from _call_ep26_photoshoot_suit7
         call ep26_photoshoot_suit7_end() from _call_ep26_photoshoot_suit7_end
         $ photoshoot7_count += 1
+        $ monicaOutfitsEnabled[7] = True # Открываем следующий костюм
+    if monicaPhotoShootOutfitIdx == 8:
+        call ep27_photoshoot_suit8()
+        if _return == False:
+            img black_screen
+            with Dissolve(1.0)
+            pause 1.5
+            img 20594
+            with fadelong
+            jump ep22_quests_office4_loop1
+        call ep27_photoshoot_suit8_end()
+        $ photoshoot8_count += 1
+#        $ monicaOutfitsEnabled[8] = True # Открываем следующий костюм
     #конец фотосессии
     sound snd_fabric1
     img black_screen

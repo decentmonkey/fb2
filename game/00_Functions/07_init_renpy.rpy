@@ -13,6 +13,7 @@ define fred = Character(_("Водитель Фред"), who_color=c_blue) #Fred
 define neighbor = Character(_("Сосед"), who_color=c_green) #Neighbor
 define gray_mouse = Character(_("Серая мышь"), who_color=c_gray) #Gray Mouse
 define secretary = Character(_("Секретарша"), who_color=c_pink) #Monica Secretary
+define secretary_t = Character(_("Секретарша"), who_color=c_pink, what_color=c_blue, what_italic=True) #Monica Secretary thinking
 define steve = Character(_("Партнер Стив"), who_color=c_blue) #Parthner Steve
 define model1 = Character(_("Кастинг модель 1"), who_color=c_pink) #Casting Model 1
 define model2 = Character(_("Кастинг модель 2"), who_color=c_pink) #Casting Model 2
