@@ -267,30 +267,35 @@ label ep27_dialogues1_melanie2:
     m "Как ты можешь говорить мне такое?!"
     music Villainous_Treachery
     img 20644
-    with fade
+    with fadelong
     melanie "Я знаю что это за место, Миссис Бакфетт..."
     melanie "Я видела его..."
     img 20645
-    with diss
+    with vpunch
     m "Ты была там?!"
     m "Ты видела это... это место...?"
     m "Оно действительно такое, как говорит Маркус?!"
+    sound highheels_short_walk
     img 20646
     with fade
     melanie "Да, Миссис Бакфетт..."
     melanie "Оно... Даже хуже..."
     melanie "И вскоре Вы отправитесь туда..."
+    music Power_Bots_Loop
     img 20647
-    with diss
+    with hpunch
     m "Нет! Я не отправлюсь туда, никогда!"
+    music Villainous_Treachery
     img 20648
     with fade
     melanie "Вы отправитесь... И будете делать что Вам скажут..."
     melanie "Вы будете умолять о том, чтобы оказаться на обложке их журнала..."
+    music Power_Bots_Loop
     img 20649
     with diss
     m "Я знаю что там за журнал!"
     m "Я не буду умолять об этом!"
+    music Villainous_Treachery
     img 20650
     with fade
     melanie "Будете, как и остальные девушки, которые находятся там."
@@ -320,7 +325,7 @@ label ep27_dialogues1_melanie2:
     with diss
     melanie "Вещи... которые похуже смерти..."
     img 20658
-    with fade
+    with vpunch
     m "!!!"
     music stop
     img black_screen
@@ -330,14 +335,35 @@ label ep27_dialogues1_melanie2:
     img 20659
     with fadelong
     melanie "Выпейте вина, Миссис Бакфетт..."
+#    music stop
+    img black_screen
+    with Dissolve(1.0)
+    pause 1.5
+    show screen camera_viewfinder_screen()
+    sound camera_lens1
     img 20660 # photo
+    with Dissolve(0.2)
     w
+    sound camera_lens1
     img 20661
+    with Dissolve(0.2)
     w
+    sound camera_lens1
     img 20662 #photo
+    with Dissolve(0.2)
     w
+    call photoshop_flash()
+    w
+
     #
+    music stop
+    img black_screen
+    hide screen camera_viewfinder_screen
+    with diss
+    pause 1.5
+    music Groove2_85
     img 20663
+    with fadelong
     m "Итак, Мелани."
     m "Почему ты утверждаешь что я обязательно попаду туда?"
     img 20664
