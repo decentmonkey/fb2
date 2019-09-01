@@ -227,6 +227,9 @@ screen camera_record_screen():
         ypos getRes(43)
         add "images/Icons2/Rec_Icon1.png" at camera_record_icon_transform
 
+screen camera_viewfinder_screen():
+    add "images/Icons2/Camera_ViewFinder.png"
+    
 screen pylon_screen(sceneImage, objectsList):
     layer "master"
     add sceneImage:

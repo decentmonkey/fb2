@@ -251,8 +251,8 @@ label ep27_dialogues1_melanie2:
     img 20639
     with diss
     m "На что я зря не согласилась, Мелани?"
-    with fade
     img 20640
+    with fade
     melanie "На то, чтобы поехать на ферму, когда Мистер Маркус предложил Вам..."
     music Power_Bots_Loop
     img 20641
@@ -263,49 +263,72 @@ label ep27_dialogues1_melanie2:
     m "Мелани, ты представляешь о чем идет речь?!"
     m "Ты, вообще, знаешь что это за место?!"
     img 20643
+    with diss
     m "Как ты можешь говорить мне такое?!"
+    music Villainous_Treachery
     img 20644
+    with fade
     melanie "Я знаю что это за место, Миссис Бакфетт..."
     melanie "Я видела его..."
     img 20645
+    with diss
     m "Ты была там?!"
     m "Ты видела это... это место...?"
     m "Оно действительно такое, как говорит Маркус?!"
     img 20646
+    with fade
     melanie "Да, Миссис Бакфетт..."
     melanie "Оно... Даже хуже..."
     melanie "И вскоре Вы отправитесь туда..."
     img 20647
+    with diss
     m "Нет! Я не отправлюсь туда, никогда!"
     img 20648
+    with fade
     melanie "Вы отправитесь... И будете делать что Вам скажут..."
     melanie "Вы будете умолять о том, чтобы оказаться на обложке их журнала..."
     img 20649
+    with diss
     m "Я знаю что там за журнал!"
     m "Я не буду умолять об этом!"
     img 20650
+    with fade
     melanie "Будете, как и остальные девушки, которые находятся там."
     melanie "Вы будете удивлены, когда увидите КОГО там можно встретить среди них..."
     melanie "У наших хозяев действительно хороший вкус..."
     img 20651
+    with diss
     m "Наших хозяев?!"
     img 20652
+    with fade
     melanie "Но Вам не удастся добиться ничего..."
     melanie "Вы упустили свой шанс."
     img 20653
+    with diss
     melanie "Теперь Вы попадете туда в качестве..."
     img 20654
+    with diss
     melanie "Я не буду об этом..." # Отворачивается
     img 20655
+    with fade
     m "Нет, Мелани! Я лучше умру!"
     img 20656
+    with diss
     melanie "Миссис Бакфетт..."
     melanie "Я видела там вещи..."
     img 20657
+    with diss
     melanie "Вещи... которые похуже смерти..."
     img 20658
+    with fade
     m "!!!"
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music In_Your_Arms
     img 20659
+    with fadelong
     melanie "Выпейте вина, Миссис Бакфетт..."
     img 20660 # photo
     w
