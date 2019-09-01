@@ -115,17 +115,23 @@ label ep26_dialogues7_melanie1:
             img 20507
             with diss
             m "!!!"
+#            music stop
+            img black_screen
+            with diss
+            pause 2.0
+            $ melanieMonicaSawFarmTattoo = True
+            $ monicaOfficeMakeupRoomSkipMusicOneTime = True
+            return True
+
             img black_screen
             with Dissolve(2.0)
             call textonblack_long(_("Узнайте что случилось с Мелани в продолжении игры...")) from _call_textonblack_long_2
             img black_screen
             with Dissolve(2.0)
-            $ melanieMonicaSawFarmTattoo = True
-            $ monicaOfficeMakeupRoomSkipMusicOneTime = True
     #    "Мелани, сучка, ты что, никуда не ходила?! (next update) (disabled)":
     #        pass
-        "Мелани, пожалуйста, для меня это очень важно! (next update) (disabled)":
-            pass
+#        "Мелани, пожалуйста, для меня это очень важно! (next update) (disabled)":
+#            pass
         "Уйти.":
             img black_screen
             with diss

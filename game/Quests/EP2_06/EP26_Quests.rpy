@@ -5,7 +5,7 @@ label ep26_quests1:
     $ add_hook_day("ep26_quests_steve1", week_day = 6) # вешаем сброс посещений офиса Стива каждую субботу утром
     if melanieDisappeared == True:
         $ monicaOutfitsEnabled[5] = True # Открываем следующий костюм
-    $ autorun_to_object("ep26_dialogues5_office1_1", scene="monica_office_cabinet_table")
+        $ autorun_to_object("ep26_dialogues5_office1_1", scene="monica_office_cabinet_table")
 
 
     if monicaMustNotWearPanties == True and bettyMustNotWearPanties == True:

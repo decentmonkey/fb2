@@ -10,9 +10,9 @@ label ep27_pub_visitors_init:
 label ep27_pub_visitors_click:
     if act=="l":
         return
-#    if obj_name in pubMonicaWaitressVisitorsServed:
-#        call ep27_dialogues7_pub19()
-#        return False
+    if obj_name in pubMonicaWaitressVisitorsServed:
+        call ep27_dialogues7_pub19()
+        return False
     music2 pub_noise1_low
     $ visitsCount = get_pub_visitor_visits(obj_name)
     if obj_name == "Pub_Visitor1":

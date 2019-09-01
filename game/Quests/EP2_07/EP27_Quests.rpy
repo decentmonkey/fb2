@@ -8,6 +8,8 @@ label ep27_quests1:
     if photoshoot7_count > 0:
         $ monicaOutfitsEnabled[7] = True # Открываем следующий костюм (черный лебедь)
 
+    # Мелани
+    call ep27_quests_melanie1_init()
 
     $ ep27_quests_initialized = True
     return

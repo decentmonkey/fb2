@@ -1,85 +1,146 @@
 # Моника говорит с Мелани в гримерке
+default ep27_dialogues_melanie_stage = 0
 
 label ep27_dialogues1_melanie1:
-    img 20601
-    m "Мелани, скажи!"
-    m "Что случилось с тобой?!"
-    m "Это важно для меня! Ты же знаешь!"
-    melanie "Я Вам сказала, Миссис Бакфетт. Я занята..."
+    if ep27_dialogues_melanie_stage == 0:
+        music Groove2_85
+        img 20601
+        with fadelong
+        m "Мелани, скажи!"
+        m "Что случилось с тобой?!"
+        m "Это важно для меня! Ты же знаешь!"
+        music Master_Disorder
+        melanie "Я Вам сказала, Миссис Бакфетт. Я занята..."
+    else:
+        music Master_Disorder
     menu:
-        "Мелани, ты решила мой вопрос?":
+        "Мелани, ты решила мой вопрос?" if ep27_dialogues_melanie_stage >= 0:
             img 20602
+            with fade
             m "Мелани, ты решила мой вопрос?"
             # если была фотосессия
-            img 20604
-            m "Ты что думаешь, что я забуду про то что ты заставила меня делать, там в офисе?!"
-            m "Что ты сможешь сделать вид будто ничего не было?"
-            m "У тебя не выйдет, Мелани!"
+            if monicaMelanieCastingLickedDildo == True:
+                music Power_Bots_Loop
+                img 20604
+                with diss
+                m "Ты что думаешь, что я забуду про то что ты заставила меня делать, там в офисе?!"
+                m "Что ты сможешь сделать вид будто ничего не было?"
+                m "У тебя не выйдет, Мелани!"
+            music Master_Disorder
             img 20603
+            with diss
             melanie "..."
             melanie "Я не знаю про что Вы говорите, Миссис Бакфетт."
             melanie "Я работаю здесь моделью, а Вы отвлекаете меня."
-        "Мелани, ты была у Маркуса?":
+            if ep27_dialogues_melanie_stage < 1:
+                $ ep27_dialogues_melanie_stage = 1
+            $ monicaOfficeMakeupRoomSkipMusicOneTime = True
+            return False
+
+        "Мелани, ты была у Маркуса?" if ep27_dialogues_melanie_stage >= 1:
+            music Groove2_85
             img 20605
+            with fade
             m "Мелани, скажи, ты вообще была у Маркуса?!"
             m "Я понимаю, у тебя не получилось ничего решить."
             m "Но что Маркус сказал тебе?"
+            music Master_Disorder
             img 20606
+            with diss
             melanie "Я не знаю про кого Вы говорите, Миссис Бакфетт."
-        "Мелани, мне важно что случилось с тобой! (disabled)":
-            pass
-        "Мелани, мне важно что случилось с тобой!": # открывается позднее
+            if ep27_dialogues_melanie_stage < 2:
+                $ ep27_dialogues_melanie_stage = 2
+            $ monicaOfficeMakeupRoomSkipMusicOneTime = True
+            return False
+#        "Мелани, мне важно что случилось с тобой! (disabled)":
+#            pass
+        "Мелани, мне важно что случилось с тобой!" if ep27_dialogues_melanie_stage >= 2: # открывается позднее
+            music Groove2_85
             img 20607
+            with fade
             m "Мелани. Я понимаю что тебе не удалось решить вопрос с Маркусом."
             m "Я с самого начала понимала что это невозможно."
             m "Но скажи, что случилось с тобой?"
             m "Для меня важно это знать!"
+            music Master_Disorder
             img 20608
+            with diss
             melanie "Вам важно знать что случилось со мной? Вы задумались про меня?"
             m "Да, Мелани!"
             m "Если не хочешь, можешь больше ничего не говорить."
             m "Расскажи про себя, хотя бы про себя!"
             img 20609
+            with fade
             melanie "Почему Вам это интересно, Миссис Бакфетт?"
             img 20610
+            with diss
             m "..."
             melanie "..."
             img 20611
+            with diss
             m "Потому что..."
             melanie "..."
+#            music stop
+#            img black_screen
+#            with diss
+#            pause 1.5
+#            music Master_Disorder
             img 20612
+            with fade
             m "Потому что меня, возможно, ждет то же самое..."
+            music stop
+            img black_screen
+            with diss
+            pause 1.5
+            music Master_Disorder
             # Мелани встает
             img 20613
+            with fadelong
             melanie "Нет, Миссис Бакфетт."
             melanie "Вас ждет другая судьба..."
             img 20614
+            with diss
             m "!!!"
-
             melanie "Я не буду говорить об этом здесь..."
             img 20615
+            with fade
             melanie "Приходите завтра ко мне домой..."
             melanie "Я живу рядом с отелем Le Grand."
             img 20616
+            with diss
             melanie "Сделайте это так, чтобы никто не видел и не знал..."
             melanie "Можете одеть эту Вашу одежду, в которой Вы первый раз пришли к Бифу."
             img 20617
+            with diss
             melanie "Никто не подумает что такая девушка идет ко мне."
             img 20618
             mt "!!!"
             img 20619
+            with diss
             m "Хорошо, Мелани."
             m "Я приду к тебе..."
 
-            # говорит в фотостудии
-            mt "Итак, мне, наконец-то, удалось заставить Мелани пойти на контакт..."
-            mt "Завтра я узнаю что случилось с ней."
-            mt "Мне нужна информация, любая..."
-            mt "Это поможет мне выбраться из тех неприятностей, которые слишком затянулись..."
-
-            $ objective1 = _("Идти к Мелани домой") # На след. день
+            return True
+        "Уйти.":
+            return False
     return
     # Мелани исчезает и ждет дома
+
+label ep27_dialogues1_melanie1a:
+    # говорит в фотостудии
+    mt "Итак, мне, наконец-то, удалось заставить Мелани пойти на контакт..."
+    mt "Завтра я узнаю что случилось с ней."
+    mt "Мне нужна информация, любая..."
+    mt "Это поможет мне выбраться из тех неприятностей, которые слишком затянулись..."
+    return False
+
+
+label ep27_dialogues1_melanie1b:
+    mt "Мне надо {c}идти к Мелани{/c}..."
+    mt "Мне нужна информация, любая..."
+    mt "Это поможет мне выбраться из тех неприятностей, которые слишком затянулись..."
+    return
+
 
 label ep27_dialogues1_melanie2:
     # Моника приходит к Мелани

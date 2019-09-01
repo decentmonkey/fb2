@@ -20,7 +20,7 @@ label ep25_quests1:
     return False
 
 label ep25_quests2:
-    # Инициализируем новое платья в окружающем мире
+    # Инициализируем новое платье в окружающем мире
     $ add_hook("photoshoots_work_available_check", "ep25_quest9", scene="global", label="weekly_money_check")
 
     call ep25_quests_steve1() from _call_ep25_quests_steve1 # Офис Стива

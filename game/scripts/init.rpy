@@ -14,7 +14,7 @@ define pubCustomer12_serve1_Corruption = 180
 define pubCustomer9_serve1_Corruption = 200
 define pubCustomer4_serve1_Corruption = 170
 
-default pubMonicaWaitressTipsKoeff = 0.1 # Сколько чаевых отдают Монике
+default pubMonicaWaitressTipsKoeff = 0.3 # Сколько чаевых отдают Монике
 default pubMonicaWaitressVisitorsPerDay = 3 # Сколько посетителей Моника может обслужить в день
 
 define monicaSteveJaneCorruption1 = 150 # Согласие на контракт Знакомство
