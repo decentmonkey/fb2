@@ -271,7 +271,7 @@ define monicaBardieNotebookLookCorruption = 1 #Кол-во corruption за по�
 define monicaSecretaryBoobsCitizen4Open1CorruptionRequired = 200 # кол-во corruption, чтобы Моника сама открыла грудь секретарше
 define monicaSecretaryBoobsCitizen4Open2CorruptionRequired = 250 # Кол-во corruption, чтобы разрешить потрогать секретаршу citizen4
 
-define juliaLvl1IncreaseProgress = 20 # Прогресс, добавляемый за комплименты Юлии на ур.1
+define juliaLvl1IncreaseProgress = 25 # Прогресс, добавляемый за комплименты Юлии на ур.1
 define juliaLvl2IncreaseProgress = 50 # Прогресс, добавляемый за комплименты Юлии на ур.2
 define juliaLvl3IncreaseProgress = 50 # Прогресс, добавляемый за комплименты Юлии на ур.3
 define juliaLvl12IncreaseProgressLow = 5 # Прогресс за действия lvl1, который начисляется на lvl2
