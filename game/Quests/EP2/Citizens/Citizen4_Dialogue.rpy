@@ -259,14 +259,14 @@ label citizen4_dialogue_pilon:
         "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen4BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired:
             $ store_music()
             if citizen4BoobsNakedDancedCount == -1:
-                call cit4_naked_boobs_dance_1st()
+                call cit4_naked_boobs_dance_1st() from _call_cit4_naked_boobs_dance_1st
                 if _return != False:
                     $ citizen4BoobsNakedDancedCount += 1
             else:
                 if citizen4BoobsNakedDancedCount%2 == 0:
-                    call cit4_naked_boobs_dance_variant1()
+                    call cit4_naked_boobs_dance_variant1() from _call_cit4_naked_boobs_dance_variant1
                 if citizen4BoobsNakedDancedCount%2 == 1:
-                    call cit4_naked_boobs_dance_variant2()
+                    call cit4_naked_boobs_dance_variant2() from _call_cit4_naked_boobs_dance_variant2
                 $ citizen4BoobsNakedDancedCount += 1
             if _return != False:
                 $ citizen4BoobsNakedDancedLastDay = day

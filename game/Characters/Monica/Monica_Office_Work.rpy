@@ -105,7 +105,7 @@ label office_life_evening1:
     if monicaOfficeWorkedToday == True:
         $ add_office_working_day(True)
         if ep27_quests_flash_quest1_inited == False:
-            call ep27_quests_office1() # Инициализация квестов со флешкой (этап1)
+            call ep27_quests_office1() from _call_ep27_quests_office1 # Инициализация квестов со флешкой (этап1)
     else:
         $ add_office_working_day(False)
     $ monicaOfficeWorkedToday = False
@@ -129,9 +129,9 @@ label office_work_lift:
             sound snd_fabric1
             pause 1.0
             call put_work_clothes() from _call_put_work_clothes
-        call process_hooks("office_work_lift", "misc")
+        call process_hooks("office_work_lift", "misc") from _call_process_hooks_66
         if _return == False:
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _call_refresh_scene_fade_158
             return
         call change_scene("monica_office_secretary", "Fade_long", "snd_lift") from _call_change_scene_308
         return False
@@ -145,9 +145,9 @@ label office_work_lift:
             sound snd_fabric1
             pause 1.0
             call put_work_clothes() from _call_put_work_clothes_1
-        call process_hooks("office_work_lift", "misc")
+        call process_hooks("office_work_lift", "misc") from _call_process_hooks_67
         if _return == False:
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _call_refresh_scene_fade_159
             return
         call change_scene("working_office", "Fade_long", "snd_lift") from _call_change_scene_309
         return False
@@ -161,9 +161,9 @@ label office_work_lift:
             sound snd_fabric1
             pause 1.0
             call putoff_work_clothes() from _call_putoff_work_clothes
-        call process_hooks("office_work_lift", "misc")
+        call process_hooks("office_work_lift", "misc") from _call_process_hooks_68
         if _return == False:
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _call_refresh_scene_fade_160
             return
         call change_scene("monica_office_entrance", "Fade_long", "snd_lift") from _call_change_scene_310
         return False
@@ -176,9 +176,9 @@ label office_work_minimap_teleport:
     if target_scene == scene_name:
         call refresh_scene_fade() from _call_refresh_scene_fade_145
         return
-    call process_hooks("office_work_lift_minimap", "misc")
+    call process_hooks("office_work_lift_minimap", "misc") from _call_process_hooks_69
     if _return == False:
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_161
         return
 
     if target_scene == "monica_office_entrance":

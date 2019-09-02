@@ -242,14 +242,14 @@ label citizen1_dialogue_pilon:
         "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen1BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired and citizen1BoobsNakesShowedCount>=0:
             $ store_music()
             if citizen1BoobsNakedDancedCount == -1:
-                call cit1_2_naked_boobs_dance_1st()
+                call cit1_2_naked_boobs_dance_1st() from _call_cit1_2_naked_boobs_dance_1st
                 if _return != False:
                     $ citizen1BoobsNakedDancedCount += 1
             else:
                 if citizen1BoobsNakedDancedCount%2 == 0:
-                    call cit1_2_naked_boobs_dance_variant1()
+                    call cit1_2_naked_boobs_dance_variant1() from _call_cit1_2_naked_boobs_dance_variant1
                 if citizen1BoobsNakedDancedCount%2 == 1:
-                    call cit1_2_naked_boobs_dance_variant2()
+                    call cit1_2_naked_boobs_dance_variant2() from _call_cit1_2_naked_boobs_dance_variant2
                 $ citizen1BoobsNakedDancedCount += 1
             if _return != False:
                 $ citizen1BoobsNakedDancedLastDay = day
@@ -774,7 +774,7 @@ label cit1_2_naked_boobs_dance_variant2:
     w
     img 13250
     with diss
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_149
     w
     music Groove2_85
     img 13251

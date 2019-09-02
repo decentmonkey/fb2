@@ -24,7 +24,7 @@ label ep27_quests_office2:
     $ remove_hook()
     if act=="l":
         return
-    call ep27_dialogues4_biff1()
+    call ep27_dialogues4_biff1() from _call_ep27_dialogues4_biff1
 
     $ miniMapEnabledOnly = ["none"]
     $ add_hook_multi("ep26_dialogues5_office1_1a", scene="monica_office_secretary", label="monica_flash_card_quest1_block", filter={"teleport":True})
@@ -33,7 +33,7 @@ label ep27_quests_office2:
 
 
     $ autorun_to_object("ep27_dialogues4_biff2", scene="monica_office_secretary")
-    call change_scene("monica_office_secretary", "Fade_long")
+    call change_scene("monica_office_secretary", "Fade_long") from _call_change_scene_374
 
     return False
 
@@ -42,9 +42,9 @@ label ep27_quests_office3:
     $ remove_hook()
     $ define_inventory_object("flash_card", {"description" : _("Флеш Карта"), "label_suffix" : "_use_flash_card", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/flash_card" + res.suffix + ".png"})
 
-    call ep27_dialogues4_biff3()
+    call ep27_dialogues4_biff3() from _call_ep27_dialogues4_biff3
 
-    call ep27_quests_office4_reset_reports() # Сбрасываем отчеты
+    call ep27_quests_office4_reset_reports() from _call_ep27_quests_office4_reset_reports # Сбрасываем отчеты
 
     # Инитим сбор отчетов у воркеров
     $ add_hook_multi("ep27_quests_office_workers1", scene="working_office", label="monica_flash_card_quest1", filter={"group":"workers"})
@@ -61,7 +61,7 @@ label ep27_quests_office3:
     $ miniMapEnabledOnly = []
     $ remove_hook(label="monica_flash_card_quest1_block")
     $ autorun_to_object("ep27_dialogues4_biff4", scene="monica_office_secretary")
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_168
     return False
 
 label ep27_quests_office4_reset_reports:
@@ -82,9 +82,9 @@ label ep27_quests_office6_return_reports_teleport: # Перехват возвр
     if monicaWorkFlashCardQuestActive == False or monicaWorkFlashCardQuestNeedGiveReports == False:
         return
     # Разговор с секретаршей
-    call ep27_dialogues4_biff8()
-    call ep27_quests_office4_reset_reports() # Сбрасываем отчеты
-    call change_scene("monica_office_secretary")
+    call ep27_dialogues4_biff8() from _call_ep27_dialogues4_biff8
+    call ep27_quests_office4_reset_reports() from _call_ep27_quests_office4_reset_reports_1 # Сбрасываем отчеты
+    call change_scene("monica_office_secretary") from _call_change_scene_375
     $ remove_objective("reports_to_biff")
     $ add_objective("reports_to_biff", _("Биф просил зайти к нему после сдачи отчетов."), c_orange, 20)
     return False
@@ -98,18 +98,18 @@ label ep27_quests_office7_biff: # Разговор с Бифом после сд
     if monicaWorkFlashCardQuestReportsNeedTalkBiff == False: # Нет необходимости общаться по отчетам
         return
     if monicaWorkFlashCardQuestReportsCollectedBySelf == True:
-        call ep27_dialogues4_biff5() # Хороший отчет
+        call ep27_dialogues4_biff5() from _call_ep27_dialogues4_biff5 # Хороший отчет
         $ monicaWorkFlashCardQuestGoodReportsCount += 1
     else:
-        call ep27_dialogues4_biff6() # Плохой отчет
+        call ep27_dialogues4_biff6() from _call_ep27_dialogues4_biff6 # Плохой отчет
         $ monicaWorkFlashCardQuestBadReportsCount += 1
     $ monicaWorkFlashCardQuestReportsNeedTalkBiff = False
     $ remove_objective("reports_to_biff")
-    call change_scene("monica_office_cabinet", "Fade_long")
+    call change_scene("monica_office_cabinet", "Fade_long") from _call_change_scene_376
     return False
 
 label ep27_quests_office8_julia: # Моника заставляет собирать отчеты Юлию
-    call ep27_dialogues6_julia1()
+    call ep27_dialogues6_julia1() from _call_ep27_dialogues6_julia1
     $ monicaWorkFlashCardQuestReportsCollectedBySelf = False
     $ monicaWorkFlashCardQuestNeedGiveReports = True
     $ monicaWorkFlashCardReportsCollected = monicaWorkFlashCardNeedReportsAmount
@@ -120,14 +120,14 @@ label ep27_quests_office8_julia: # Моника заставляет собир�
     $ changeDayTime("evening") # Изменяем на вечер
     $ monicaOfficeWorkedToday = True
 #    $ move_object("Julia", "empty") # Юлия уходит с работы (обычный день)
-    call ep27_quests_julia1_init() # Чекаем инициализацию квеста с Юлией
+    call ep27_quests_julia1_init() from _call_ep27_quests_julia1_init # Чекаем инициализацию квеста с Юлией
     $ autorun_to_object("ep27_dialogues6_julia2", scene="working_office_cabinet")
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_169
     return
 
 label ep27_quests_office9_check_exit: # Проверка на выход из офиса, если надо сдать отчет
     if monicaWorkFlashCardQuestActive == True and monicaWorkFlashCardQuestNeedGiveReports == True:
-        call ep27_dialogues6_julia3b()
+        call ep27_dialogues6_julia3b() from _call_ep27_dialogues6_julia3b
         return False
     return
 

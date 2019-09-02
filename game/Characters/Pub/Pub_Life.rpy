@@ -62,7 +62,7 @@ label Pub_Life_day2: # Обычное наполнение бара, все с �
     call Pub_Visitors_RemoveAll() from _call_Pub_Visitors_RemoveAll_2
     call Pub_Visitors_Add_Random(2,4) from _call_Pub_Visitors_Add_Random_2
     if pubMonicaWorkingWaitress == True and pubMonicaWorkedWaitressLastDay != day:
-        call Pub_Visitors_Remove_Food() # убираем еду у всех
+        call Pub_Visitors_Remove_Food() from _call_Pub_Visitors_Remove_Food # убираем еду у всех
     else:
         call Pub_Visitors_Full_Food() from _call_Pub_Visitors_Full_Food_2 # у всех еда
     call Pub_Visitors_CheckStripLooking() from _call_Pub_Visitors_CheckStripLooking_2 # Если есть стриптизерши, то смотрят, иначе нет
@@ -80,7 +80,7 @@ label Pub_Life_evening2:
     call Pub_Visitors_RemoveAll() from _call_Pub_Visitors_RemoveAll_3
     call Pub_Visitors_Add_Random(5,7) from _call_Pub_Visitors_Add_Random_3
     if pubMonicaWorkingWaitress == True and pubMonicaWorkedWaitressLastDay != day:
-        call Pub_Visitors_Remove_Food() # убираем еду у всех
+        call Pub_Visitors_Remove_Food() from _call_Pub_Visitors_Remove_Food_1 # убираем еду у всех
     else:
         call Pub_Visitors_Full_Food() from _call_Pub_Visitors_Full_Food_3 # Все посетители + у всех еда
     call Pub_Visitors_CheckStripLooking() from _call_Pub_Visitors_CheckStripLooking_3 # Если есть стриптизерши, то смотрят, иначе нет

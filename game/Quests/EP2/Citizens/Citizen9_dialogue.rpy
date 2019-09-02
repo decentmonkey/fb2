@@ -285,14 +285,14 @@ label citizen9_dialogue_pilon:
         "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen9BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired and citizen9BoobsNakesShowedCount>=0:
             $ store_music()
             if citizen9BoobsNakedDancedCount == -1:
-                call cit9_naked_boobs_dance_1st()
+                call cit9_naked_boobs_dance_1st() from _call_cit9_naked_boobs_dance_1st
                 if _return != False:
                     $ citizen9BoobsNakedDancedCount += 1
             else:
                 if citizen9BoobsNakedDancedCount%2 == 0:
-                    call cit9_naked_boobs_dance_variant1()
+                    call cit9_naked_boobs_dance_variant1() from _call_cit9_naked_boobs_dance_variant1
                 if citizen9BoobsNakedDancedCount%2 == 1:
-                    call cit9_naked_boobs_dance_variant2()
+                    call cit9_naked_boobs_dance_variant2() from _call_cit9_naked_boobs_dance_variant2
                 $ citizen9BoobsNakedDancedCount += 1
             if _return != False:
                 $ citizen9BoobsNakedDancedLastDay = day
@@ -760,7 +760,7 @@ label cit9_naked_boobs_dance_variant1:
     with diss
     citizen9 "О да! Это видео непременно пойдет в мою коллекцию..."
     img 13670
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_151
     w
     sound snd_fabric1
     img 13671

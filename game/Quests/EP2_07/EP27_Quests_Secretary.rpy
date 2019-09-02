@@ -8,9 +8,9 @@ default ep27_quests_secretart1_monica_secretary_touched_boobs = False
 
 
 label ep27_quests_secretary1:
-    call ep27_dialogues5_secretary_boobs1()
+    call ep27_dialogues5_secretary_boobs1() from _call_ep27_dialogues5_secretary_boobs1
     if _return == -1 or _return == 0:
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_157
         return True
     $ add_object_to_scene("Secretary", {"type" : 2, "base" : "Hostel_Street3_Secretary[hostelStreet3SecretarySuffix][day_suffix]", "click" : "ep27_dialogues5_secretary_boobs2", "actions" : "l", "zorder":10}, scene="hostel_street3")
     $ add_hook("Monica", "ep27_dialogues5_secretary_boobs2", scene="hostel_street3", label="secretary_boobs_quest1")
@@ -31,16 +31,16 @@ label ep27_quests_secretary1:
     $ miniMapEnabledOnly = ["none"]
     $ hudDaySkipToEveningEnabled = False
     $ map_enabled = False
-    call process_change_map_location("Hostel2")
+    call process_change_map_location("Hostel2") from _call_process_change_map_location_2
 
-    call change_scene("hostel_street3", "Fade_long", "highheels_run1")
+    call change_scene("hostel_street3", "Fade_long", "highheels_run1") from _call_change_scene_362
     music street3
     return False
 
 label ep27_quests_secretary2:
     # клик на ситизена, которому показывать грудь
 
-    call ep27_dialogues5_secretary_boobs6()
+    call ep27_dialogues5_secretary_boobs6() from _call_ep27_dialogues5_secretary_boobs6
     $ ep27_quests_secretary1_show_boobs_active = False
     $ miniMapEnabledOnly = []
     $ hudDaySkipToEveningEnabled = True
@@ -51,5 +51,5 @@ label ep27_quests_secretary2:
 
 
     $ remove_hook(label="secretary_boobs_quest1")
-    call change_scene("hostel_edge_1_a", "Fade_long", "highheels_run1")
+    call change_scene("hostel_edge_1_a", "Fade_long", "highheels_run1") from _call_change_scene_363
     return False

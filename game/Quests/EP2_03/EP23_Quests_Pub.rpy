@@ -98,10 +98,10 @@ label ep23_quests_pub5_dishes: # Моника моет посуду
         call change_scene("hostel_street", "Fade_long") from _call_change_scene_333
         return False
     if _return == 3: # Спросить о повышении
-        call ep27_quests_pub_work1()
+        call ep27_quests_pub_work1() from _call_ep27_quests_pub_work1
         return False
     if _return == 4: #Работать официанткой в Shiny Hole.
-        call ep27_quests_pub_work2_begin()
+        call ep27_quests_pub_work2_begin() from _call_ep27_quests_pub_work2_begin
         return False
     return False
 
@@ -117,7 +117,7 @@ label ep23_quests_pub6_dishes: # Клик на Монику
     return False
 
 label ep23_quests_pub6_dishes_bartender: # Клик на Бармена
-    call pub_bar1_environment()
+    call pub_bar1_environment() from _call_pub_bar1_environment
     call ep23_dialogues1_4a2() from _call_ep23_dialogues1_4a2_1
     call ep23_dialogues1_4b() from _call_ep23_dialogues1_4b
     call ep23_dialogues1_5() from _call_ep23_dialogues1_5_1
@@ -126,7 +126,7 @@ label ep23_quests_pub6_dishes_bartender: # Клик на Бармена
     return False
 
 label ep23_quests_pub6_dishes_bartender_waitress: # Клик на Барменшу
-    call pub_bar1_environment()
+    call pub_bar1_environment() from _call_pub_bar1_environment_1
     call ep23_dialogues1_4a2() from _call_ep23_dialogues1_4a2_2
     call ep23_dialogues1_4c() from _call_ep23_dialogues1_4c
     call ep23_dialogues1_5() from _call_ep23_dialogues1_5_2

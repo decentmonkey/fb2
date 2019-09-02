@@ -14,36 +14,36 @@ default pubMonicaWaitressTipsPunishmentTalkStage = 0
 
 
 label ep27_quests_pub_work1: # Моника спрашивает о повышении
-    call ep27_dialogues7_pub1()
+    call ep27_dialogues7_pub1() from _call_ep27_dialogues7_pub1
     music2 stop
     if _return == False or _return == -1:
-        call change_scene("hostel_street", "Fade_long")
+        call change_scene("hostel_street", "Fade_long") from _call_change_scene_366
         return False
     # Моника принята на работу официанткой
     $ pubMonicaWorkingWaitress = True
 
     if day_time == "day":
-        call process_hooks("Pub_Life_day", "global")
+        call process_hooks("Pub_Life_day", "global") from _call_process_hooks_70
     else:
-        call process_hooks("Pub_Life_evening", "global")
+        call process_hooks("Pub_Life_evening", "global") from _call_process_hooks_71
 
     $ questLog(52, True)
-    call refresh_scene_fade_long()
+    call refresh_scene_fade_long() from _call_refresh_scene_fade_long_23
     return False
 
 label ep27_quests_pub_work2_begin: #Работать официанткой в Shiny Hole.
     if pubMonicaWorkedWaitressLastDay == day: # уже работала сегодня
-        call ep27_dialogues7_pub3()
-        call refresh_scene_fade()
+        call ep27_dialogues7_pub3() from _call_ep27_dialogues7_pub3
+        call refresh_scene_fade() from _call_refresh_scene_fade_162
         return False
 
     # Начинаем работу официанткой
 
-    call ep27_dialogues7_pub4()
+    call ep27_dialogues7_pub4() from _call_ep27_dialogues7_pub4
     music2 stop
     $ set_var("Monica", zorder = 1, scene="pub")
 #    $ set_var("Monica", zorder = 200, scene="pub")
-    call ep27_pub_visitors_init()
+    call ep27_pub_visitors_init() from _call_ep27_pub_visitors_init
 
     $ pubMonicaWaitressVisitorsServed = []
     $ pubMonicaWaitressWorkedDaysTotal += 1
@@ -62,11 +62,11 @@ label ep27_quests_pub_work2_begin: #Работать официанткой в S
     with diss
     sound snd_fabric1
     pause 0.5
-    call refresh_scene_fade_long()
+    call refresh_scene_fade_long() from _call_refresh_scene_fade_long_24
     return
 
 label ep27_quests_pub_work3_exit: # Моника пытается выйти из паба во время работы
-    call ep27_dialogues7_pub6() # Вопрос о том, чтобы уйти без чаевых
+    call ep27_dialogues7_pub6() from _call_ep27_dialogues7_pub6 # Вопрос о том, чтобы уйти без чаевых
     if _return == True:
         return False
     $ remove_hook(label="working_waitress")
@@ -88,22 +88,22 @@ label ep27_quests_pub_work3_exit: # Моника пытается выйти и�
     sound snd_fabric1
     pause 1.0
     $ notif(_("Моника украла чаевые из Shiny Hole"))
-    call change_scene("hostel_street", "Fade_long")
+    call change_scene("hostel_street", "Fade_long") from _call_change_scene_367
     return False
 
 label ep27_quests_pub_work4: # Клик на барменов
     if act=="l":
         return
-    call ep27_dialogues7_pub7a()
+    call ep27_dialogues7_pub7a() from _call_ep27_dialogues7_pub7a
     if _return == False:
         return False
     # Заканчиваем работу самостоятельно
-    call ep27_quests_pub_work5()
+    call ep27_quests_pub_work5() from _call_ep27_quests_pub_work5
     return False
 
 label ep27_quests_pub_work5:
     # Заканчиваем работу
-    call ep27_dialogues7_pub7()
+    call ep27_dialogues7_pub7() from _call_ep27_dialogues7_pub7
     music2 stop
     $ remove_hook(label="working_waitress")
     $ pubMonicaWorkedWaitressLastDay = day
@@ -115,32 +115,32 @@ label ep27_quests_pub_work5:
     pause 1.0
     $ notif(_("Моника закончила смену официантки"))
     $ set_var("Monica", zorder = 200, scene="pub") # Делаем Монику снова спереди
-    call change_scene("hostel_street", "Fade_long")
+    call change_scene("hostel_street", "Fade_long") from _call_change_scene_368
     return
 
 label ep27_quests_pub_work6_tips_punishment: # Наказание за кражу чаевых
     if act=="l":
         return
-    call ep27_dialogues7_pub8()
+    call ep27_dialogues7_pub8() from _call_ep27_dialogues7_pub8
     if _return == 0:
-        call change_scene("hostel_street", "Fade_long")
+        call change_scene("hostel_street", "Fade_long") from _call_change_scene_369
         return False
     if _return == 1:
         # Моника вернула деньги
-        call ep27_quests_pub_work7_tips_punishment_forgive()
-        call refresh_scene_fade_long()
+        call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive_7
+        call refresh_scene_fade_long() from _call_refresh_scene_fade_long_25
         return False
     if _return == 2:
         $ pubMonicaWaitressTipsPunishmentTalkStage = 1
-        call refresh_scene_fade_long()
+        call refresh_scene_fade_long() from _call_refresh_scene_fade_long_26
         return False
     if _return == 3:
         # Попросить прощения у Джо
-        call ep22_quests_pub_punishment_joe()
+        call ep22_quests_pub_punishment_joe() from _call_ep22_quests_pub_punishment_joe
         return False
     if _return == 4:
         # Попросить прощения у Эшли
-        call ep22_quests_pub_punishment_ashley()
+        call ep22_quests_pub_punishment_ashley() from _call_ep22_quests_pub_punishment_ashley
         return False
 
     return

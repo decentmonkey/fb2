@@ -11,85 +11,85 @@ label ep27_pub_visitors_click:
     if act=="l":
         return
     if pubMonicaWaitressServedCustomersToday >= pubMonicaWaitressVisitorsPerDay:
-        call ep27_dialogues7_pub3()
-        call ep27_dialogues7_pub3a()
+        call ep27_dialogues7_pub3() from _call_ep27_dialogues7_pub3_1
+        call ep27_dialogues7_pub3a() from _call_ep27_dialogues7_pub3a
         return False
     if obj_name in pubMonicaWaitressVisitorsServed:
-        call ep27_dialogues7_pub19()
+        call ep27_dialogues7_pub19() from _call_ep27_dialogues7_pub19
         return False
     music2 pub_noise1_low
     $ visitsCount = get_pub_visitor_visits(obj_name)
     if obj_name == "Pub_Visitor1":
         if visitsCount == 0:
-            call customer1_1stmeeting()
+            call customer1_1stmeeting() from _call_customer1_1stmeeting
             # nofood
         if visitsCount > 0:
-            call customer1_serve1()
+            call customer1_serve1() from _call_customer1_serve1
             if _return == True:
                 $ pubVisitor1Suffix = "_Food"
         $ autorun_to_object("customer1_afterserve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor2":
         if visitsCount == 0:
-            call customer2_1stmeeting()
+            call customer2_1stmeeting() from _call_customer2_1stmeeting
             $ pubVisitor2Suffix = "_Food"
         if visitsCount > 0:
-            call customer2_serve1()
+            call customer2_serve1() from _call_customer2_serve1
             $ pubVisitor2Suffix = "_Food"
         $ autorun_to_object("customer2_after_serve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor3":
         if visitsCount == 0:
-            call customer3_1stmeeting()
+            call customer3_1stmeeting() from _call_customer3_1stmeeting
             $ pubVisitor3Suffix = "_Food"
         if visitsCount > 0:
             if visitsCount%2 == 1:
-                call customer3_serve1()
+                call customer3_serve1() from _call_customer3_serve1
                 $ pubVisitor3Suffix = "_Food"
             else:
-                call customer3_serve2()
+                call customer3_serve2() from _call_customer3_serve2
                 # nofood
         $ autorun_to_object("customer3_after_serve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor4":
         if visitsCount == 0:
-            call customer4_1stmeeting()
+            call customer4_1stmeeting() from _call_customer4_1stmeeting
         if visitsCount > 0:
-            call customer4_serve1()
+            call customer4_serve1() from _call_customer4_serve1
             $ pubVisitor4Suffix = "_Food"
         $ autorun_to_object("customer4_afterserve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor5":
         if visitsCount == 0:
-            call customer5_1stmeeting()
+            call customer5_1stmeeting() from _call_customer5_1stmeeting
             $ pubVisitor5Suffix = "_Food"
         if visitsCount > 0:
-            call customer5_serve1()
+            call customer5_serve1() from _call_customer5_serve1
             $ pubVisitor5Suffix = "_Food"
         $ autorun_to_object("customer5_afterserve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor6":
-        call customer6_serve1()
+        call customer6_serve1() from _call_customer6_serve1
         $ autorun_to_object("customer6_afterserve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor7" or obj_name == "Pub_Visitor8":
         $ visitsCount = get_pub_visitor_visits("Pub_Visitor7") + get_pub_visitor_visits("Pub_Visitor8")
         if visitsCount == 0:
-            call customer78_1stmeeting()
+            call customer78_1stmeeting() from _call_customer78_1stmeeting
             $ pubVisitor7Suffix = "_Food"
             $ pubVisitor8Suffix = "_Food"
         if visitsCount > 0:
-            call customer78_serve1()
+            call customer78_serve1() from _call_customer78_serve1
             $ pubVisitor7Suffix = "_Food"
             $ pubVisitor8Suffix = "_Food"
             $ autorun_to_object("customer78_afterserve1", scene=scene_name)
 
     if obj_name == "Pub_Visitor9":
         if visitsCount == 0:
-            call customer9_1stmeeting()
+            call customer9_1stmeeting() from _call_customer9_1stmeeting
             $ autorun_to_object("customer9_afterserve1", scene=scene_name)
         if visitsCount > 0:
-            call customer9_serve1()
+            call customer9_serve1() from _call_customer9_serve1
             if _return == False:
                 $ autorun_to_object("customer9_afterserve1", scene=scene_name)
             else:
@@ -97,20 +97,20 @@ label ep27_pub_visitors_click:
         pass
     if obj_name == "Pub_Visitor10":
         if visitsCount == 0:
-            call customer10_1stmeeting()
+            call customer10_1stmeeting() from _call_customer10_1stmeeting
             $ pubVisitor10Suffix = "_Food"
         if visitsCount > 0:
-            call customer10_serve1()
+            call customer10_serve1() from _call_customer10_serve1
         $ autorun_to_object("customer10_afterserve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor11":
-        call customer11_1stmeeting()
+        call customer11_1stmeeting() from _call_customer11_1stmeeting
         $ pubVisitor11Suffix = "_Food"
     if obj_name == "Pub_Visitor12":
         if visitsCount == 0:
-            call customer12_1stmeeting()
+            call customer12_1stmeeting() from _call_customer12_1stmeeting
         if visitsCount > 0:
-            call customer12_serve1()
+            call customer12_serve1() from _call_customer12_serve1
             $ pubVisitor12Suffix = "_Food"
         $ autorun_to_object("customer12_afterserve1", scene=scene_name)
         pass
@@ -128,7 +128,7 @@ label ep27_pub_visitors_click:
 #        call ep27_quests_pub_work5() # Заканчиваем работу
         return False
     $ scene_sound = "highheels_short_walk"
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_170
     return False
 
 label ep27_pub_visitors_dummy_autorun:

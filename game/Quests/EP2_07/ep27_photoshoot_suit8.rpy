@@ -192,7 +192,7 @@ label ep27_photoshoot_suit8_pose1:
 #        alex_photograph "Следующая поза, Миссис Бакфетт!"
         if corruption < PS8_monica_pose2_corruption_required:
             m "Алекс, я не буду вставать в эту позу, даже не надейся!"
-            call corruption_required(PS8_monica_pose2_corruption_required)
+            call corruption_required(PS8_monica_pose2_corruption_required) from _call_corruption_required_56
             return
         m "Алекс, снимай издалека!"
         alex_photograph "Конечно, Миссис Бакфетт!"
@@ -211,7 +211,7 @@ label ep27_photoshoot_suit8_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_186
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -222,7 +222,7 @@ label ep27_photoshoot_suit8_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_187
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -235,13 +235,13 @@ label ep27_photoshoot_suit8_pose1:
         m "Алекс, не вздумай брать такой кадр!"
         m "У меня же там ничего нет!"
         if corruption < PS8_monica_shot1_corruption_required:
-            call corruption_required(PS8_monica_shot1_corruption_required)
+            call corruption_required(PS8_monica_shot1_corruption_required) from _call_corruption_required_57
             jump expression photoPoseLabel
         # если можно
         alex_photograph "Не переживайте, Миссис Бакфетт!"
         alex_photograph "Из этого ракурса ничего не видно."
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_188
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot1_progress")
         $ PS8_shoots_array.append(photoImage)
         w
@@ -284,7 +284,7 @@ label ep27_photoshoot_suit8_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_189
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -295,7 +295,7 @@ label ep27_photoshoot_suit8_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_190
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -307,13 +307,13 @@ label ep27_photoshoot_suit8_pose2:
         with Dissolve(0.2)
         m "Алекс, я просила не снимать близко!"
         if corruption < PS8_monica_shot2_corruption_required:
-            call corruption_required(PS8_monica_shot2_corruption_required)
+            call corruption_required(PS8_monica_shot2_corruption_required) from _call_corruption_required_58
             jump expression photoPoseLabel
         # если можно
         alex_photograph "Не переживайте, Миссис Бакфетт!"
         alex_photograph "Из этого ракурса ничего не видно."
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_191
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot2_progress")
         $ PS8_shoots_array.append(photoImage)
         w
@@ -359,7 +359,7 @@ label ep27_photoshoot_suit8_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_192
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -372,12 +372,12 @@ label ep27_photoshoot_suit8_pose3:
         m "Алекс, не вздумай брать такой кадр!"
         m "Ты что, сошел с ума?!"
         if corruption < PS8_monica_shot3_corruption_required:
-            call corruption_required(PS8_monica_shot3_corruption_required)
+            call corruption_required(PS8_monica_shot3_corruption_required) from _call_corruption_required_59
             jump expression photoPoseLabel
         alex_photograph "Миссис Бакфетт!"
         alex_photograph "Из этого ракурса ничего не видно."
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_193
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot3_progress")
         $ PS8_shoots_array.append(photoImage)
         w
@@ -389,7 +389,7 @@ label ep27_photoshoot_suit8_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_194
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -420,7 +420,7 @@ label ep27_photoshoot_suit8_pose4:
         music Groove2_85
         m "Алекс, я не собираюсь раздвигать ноги!"
         if corruption < PS8_monica_pose4_corruption_required:
-            call corruption_required(PS8_monica_pose4_corruption_required)
+            call corruption_required(PS8_monica_pose4_corruption_required) from _call_corruption_required_60
             return
         alex_photograph "Миссис Бакфетт, это всего-лишь образ!"
         alex_photograph "Не волуйтесь, ничего не видно!"
@@ -440,7 +440,7 @@ label ep27_photoshoot_suit8_pose4:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_195
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -453,12 +453,12 @@ label ep27_photoshoot_suit8_pose4:
         m "Алекс, не фотографируй сзади!"
         m "У меня же голый зад!"
         if corruption < PS8_monica_shot4_corruption_required:
-            call corruption_required(PS8_monica_shot4_corruption_required)
+            call corruption_required(PS8_monica_shot4_corruption_required) from _call_corruption_required_61
             jump expression photoPoseLabel
         alex_photograph "Миссис Бакфетт, я не буду приближать камеру."
         alex_photograph "Я фотографирую издалека!"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_196
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot4_progress")
         $ PS8_shoots_array.append(photoImage)
         w
@@ -472,14 +472,14 @@ label ep27_photoshoot_suit8_pose4:
         m "Алекс, ты в своем уме?!"
         m "Ты хочешь сфотографировать мою... мою..."
         if corruption < PS8_monica_shot5_corruption_required:
-            call corruption_required(PS8_monica_shot5_corruption_required)
+            call corruption_required(PS8_monica_shot5_corruption_required) from _call_corruption_required_62
             jump expression photoPoseLabel
         alex_photograph "Не переживайте, Миссис Бакфетт!"
         alex_photograph "Из этого ракурса ничего не видно."
         m "Точно?"
         alex_photograph "Да, Миссис Бакфетт! Уверяю Вас!"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_197
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot5_progress")
         $ PS8_shoots_array.append(photoImage)
         w
@@ -520,7 +520,7 @@ label ep27_photoshoot_suit8_pose5:
         m "И я твой Босс, ты не забыл это?!"
     #
         if corruption < PS8_monica_pose5_corruption_required:
-            call corruption_required(PS8_monica_pose5_corruption_required)
+            call corruption_required(PS8_monica_pose5_corruption_required) from _call_corruption_required_63
             return
         alex_photograph "Миссис Бакфетт, не переживайте!"
         alex_photograph "Все-равно ничего не видно! Украшение дает блеск и засвечивает кадр!"
@@ -541,7 +541,7 @@ label ep27_photoshoot_suit8_pose5:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_198
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -553,12 +553,12 @@ label ep27_photoshoot_suit8_pose5:
         with Dissolve(0.2)
         m "Алекс, там точно ничего не видно?"
         if corruption < PS8_monica_shot6_corruption_required:
-            call corruption_required(PS8_monica_shot6_corruption_required)
+            call corruption_required(PS8_monica_shot6_corruption_required) from _call_corruption_required_64
             jump expression photoPoseLabel
         alex_photograph "Не волнуйтесь, Миссис Бакфетт!"
         alex_photograph "Украшение все скрывает!"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_199
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot6_progress")
         $ PS8_shoots_array.append(photoImage)
         w
@@ -572,12 +572,12 @@ label ep27_photoshoot_suit8_pose5:
         m "Алекс, что ты делаешь?!"
         m "Зачем ты снимаешь вблизи?!"
         if corruption < PS8_monica_shot7_corruption_required:
-            call corruption_required(PS8_monica_shot7_corruption_required)
+            call corruption_required(PS8_monica_shot7_corruption_required) from _call_corruption_required_65
             jump expression photoPoseLabel
         alex_photograph "Миссис Бакфетт, я фотографирую украшение."
         alex_photograph "Больше ничего не попадает в кадр!"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_200
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot7_progress")
         $ PS8_shoots_array.append(photoImage)
         w
@@ -625,7 +625,7 @@ label ep27_photoshoot_suit8_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_201
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -635,14 +635,14 @@ label ep27_photoshoot_suit8_pose6:
         img 20554
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _call_photoshop_flash_152
         w
         sound camera_lens1
         $ photoImage = 20555
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_202
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -653,7 +653,7 @@ label ep27_photoshoot_suit8_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_203
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -683,7 +683,7 @@ label ep27_photoshoot_suit8_pose7:
         m "Ты думаешь что я буду сниматься голой, да еще и раздвигать ноги?!"
         m "Ты не перепутал съемку на модный журнал и какое-нибудь порно?!"
         if corruption < PS8_monica_pose8_corruption_required:
-            call corruption_required(PS8_monica_pose8_corruption_required)
+            call corruption_required(PS8_monica_pose8_corruption_required) from _call_corruption_required_66
             return
         alex_photograph "Миссис Бакфетт, я буду снимать Вам только спереди!"
         alex_photograph "Положение Ваших ног лишь передает в кадр непринужденность."
@@ -706,7 +706,7 @@ label ep27_photoshoot_suit8_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_204
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -717,7 +717,7 @@ label ep27_photoshoot_suit8_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_205
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -728,7 +728,7 @@ label ep27_photoshoot_suit8_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_206
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -774,7 +774,7 @@ label ep27_photoshoot_suit8_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_207
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -788,7 +788,7 @@ label ep27_photoshoot_suit8_pose8:
         m "Алекс, НЕТ!"
         m "Я же голая там!"
         if corruption < PS8_monica_shot8_corruption_required:
-            call corruption_required(PS8_monica_shot8_corruption_required)
+            call corruption_required(PS8_monica_shot8_corruption_required) from _call_corruption_required_67
             jump expression photoPoseLabel
         #
         alex_photograph "Миссис Бакфетт, я буду фотографировать только верхнюю часть."
@@ -796,37 +796,37 @@ label ep27_photoshoot_suit8_pose8:
         m "Только не смотри ниже!"
         alex_photograph "Да, Миссис Бакфетт, конечно!"
         w
-        call photoshop_flash()
+        call photoshop_flash() from _call_photoshop_flash_153
         w
         sound camera_lens1
         img 20564
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _call_photoshop_flash_154
         w
         sound camera_lens1
         img 20565
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _call_photoshop_flash_155
         w
         sound camera_lens1
         img 20566
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _call_photoshop_flash_156
         w
         sound camera_lens1
         img 20567
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _call_photoshop_flash_157
         w
         sound camera_lens1
         img 20568
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _call_photoshop_flash_158
         w
         m "Алекс!"
         sound camera_lens1
@@ -834,7 +834,7 @@ label ep27_photoshoot_suit8_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_208
         $ PS8_shoots_array.append(photoImage)
         w
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot8_progress")
@@ -894,21 +894,21 @@ label ep27_photoshoot_suit8_pose8:
         w
         alex_photograph "О, Миссис Бакфетт!"
         alex_photograph "Как я мечтал рассмотреть Вашу киску поближе!"
-        call photoshop_flash()
+        call photoshop_flash() from _call_photoshop_flash_159
         w
         sound camera_lens1
         img 20578
         with Dissolve(0.2)
         w
         alex_photograph "И Вашу попку!"
-        call photoshop_flash()
+        call photoshop_flash() from _call_photoshop_flash_160
         w
         sound camera_lens1
         img 20579
         with Dissolve(0.2)
         w
         alex_photograph "Моя мечта сбылась!"
-        call photoshop_flash()
+        call photoshop_flash() from _call_photoshop_flash_161
         w
 
         music Groove2_85
@@ -943,7 +943,7 @@ label ep27_photoshoot_suit8_pose8:
         with Dissolve(0.2)
         w
         alex_photograph "Как только я устроился в этот журнал, я стал мечтать сфотографировать это!"
-        call photoshop_flash()
+        call photoshop_flash() from _call_photoshop_flash_162
         w
         alex_photograph "Новая модель трусиков от Модного Журнала! Она так идем Вам, Миссис Бакфетт!"
         sound camera_lens1
@@ -951,7 +951,7 @@ label ep27_photoshoot_suit8_pose8:
         with Dissolve(0.2)
         w
         alex_photograph "Миссис Бакфетт... Ахххх..."
-        call photoshop_flash()
+        call photoshop_flash() from _call_photoshop_flash_163
         w
         sound camera_lens1
         $ photoImage = 20586
@@ -960,7 +960,7 @@ label ep27_photoshoot_suit8_pose8:
         w
         alex_photograph "О, Миссис Бакфетт!"
         alex_photograph "Ахххх..."
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _call_photoshoot_flash_count_209
         $ PS8_shoots_array.append(photoImage)
         w
         music stop

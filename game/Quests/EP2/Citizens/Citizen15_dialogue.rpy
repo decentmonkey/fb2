@@ -197,14 +197,14 @@ label citizen15_dialogue_pilon:
         "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen15BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired and citizen15BoobsNakesShowedCount>=0:
             $ store_music()
             if citizen15BoobsNakedDancedCount == -1:
-                call cit15_naked_boobs_dance_1st()
+                call cit15_naked_boobs_dance_1st() from _call_cit15_naked_boobs_dance_1st
                 if _return == False:
                     $ citizen15BoobsNakedDancedCount += 1
             else:
                 if citizen15BoobsNakedDancedCount%2 == 0:
-                    call cit15_naked_boobs_dance_variant1()
+                    call cit15_naked_boobs_dance_variant1() from _call_cit15_naked_boobs_dance_variant1
                 if citizen15BoobsNakedDancedCount%2 == 1:
-                    call cit15_naked_boobs_dance_variant2()
+                    call cit15_naked_boobs_dance_variant2() from _call_cit15_naked_boobs_dance_variant2
                     if _return == 1:
                         $ showedNakedBoobsDance = True
                         $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))

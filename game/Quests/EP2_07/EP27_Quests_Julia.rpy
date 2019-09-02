@@ -24,31 +24,31 @@ label ep27_quests_julia1_init: # Инит квеста с Юлией
 
 label ep27_quests_julia1_relationships:
     # Отношения с Юлией (меню)
-    call ep27_dialogues6_julia0b()
+    call ep27_dialogues6_julia0b() from _call_ep27_dialogues6_julia0b
     if _return == 1: #Юлия, ты сегодня хорошо выглядишь
-        call ep27_quests_julia3()
+        call ep27_quests_julia3() from _call_ep27_quests_julia3
         $ workingOfficeCabinetMonicaSuffix = 2
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_163
         return False
     if _return == 2: #Юлия, ты красивая девушка и мне нравится твоя прическа...
-        call ep27_quests_julia5()
+        call ep27_quests_julia5() from _call_ep27_quests_julia5
         $ workingOfficeCabinetMonicaSuffix = 2
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_164
         return False
     if _return == 3: #Сделать Юлии комплимент по поводу ее фигуры.
-        call ep27_quests_julia7()
+        call ep27_quests_julia7() from _call_ep27_quests_julia7
         $ workingOfficeCabinetMonicaSuffix = 2
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_165
         return False
     if _return == 4: #Поцеловать Юлию.
-        call ep27_quests_julia9()
+        call ep27_quests_julia9() from _call_ep27_quests_julia9
         $ workingOfficeCabinetMonicaSuffix = 2
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_166
         return False
     if _return == 5: #Ущипнуть Юлию за зад.
-        call ep27_quests_julia11()
+        call ep27_quests_julia11() from _call_ep27_quests_julia11
         $ workingOfficeCabinetMonicaSuffix = 2
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_167
         return False
 
     return
@@ -58,19 +58,19 @@ label ep27_quests_julia2: # Проверка на первый приход Фр
         return
     $ remove_hook()
     # Фред приходит!
-    call ep27_dialogues6_julia3()
+    call ep27_dialogues6_julia3() from _call_ep27_dialogues6_julia3
     if _return == True:
         $ autorun_to_object("ep27_dialogues6_julia4", scene="working_office_cabinet")
         $ questLog(47, True)
         $ juliaQuestStage0_Progress = 1
         $ juliaQuestStarted = True
-        call characters_init_julia()
+        call characters_init_julia() from _call_characters_init_julia
     else:
         $ juliaQuestRefused = True
     return False
 
 label ep27_quests_julia3: # Юлия, ты сегодня хорошо выглядишь
-    call ep27_dialogues6_julia5()
+    call ep27_dialogues6_julia5() from _call_ep27_dialogues6_julia5
     $ juliaQuestLastDay = day
     if char_info["Julia"]["level"] == 1:
         $ add_char_progress("Julia", juliaLvl1IncreaseProgress, "juliaLvl1IncreaseProgress_day_" + str(day))
@@ -92,18 +92,18 @@ label ep27_quests_julia4_fred_catch: # Фред перехватывает Мо�
     music stop
     sound snd_lift
     pause 1.0
-    call ep27_dialogues6_julia6()
+    call ep27_dialogues6_julia6() from _call_ep27_dialogues6_julia6
     music stop
     img black_screen
     with diss
     pause 1.0
     $ juliaQuestStage0_Progress = 2
-    call change_scene("working_office")
+    call change_scene("working_office") from _call_change_scene_370
     $ autorun_to_object("ep27_dialogues6_julia4a", scene=scene_name)
     return
 
 label ep27_quests_julia5: #Юлия, ты красивая девушка и мне нравится твоя прическа...
-    call ep27_dialogues6_julia7()
+    call ep27_dialogues6_julia7() from _call_ep27_dialogues6_julia7
     $ juliaQuestLastDay = day
     if char_info["Julia"]["level"] == 1:
         $ add_char_progress("Julia", juliaLvl1IncreaseProgress, "juliaLvl1IncreaseProgress_day_" + str(day))
@@ -122,18 +122,18 @@ label ep27_quests_julia6_fred_catch:
     music stop
     sound snd_lift
     pause 1.0
-    call ep27_dialogues6_julia8()
+    call ep27_dialogues6_julia8() from _call_ep27_dialogues6_julia8
     music stop
     img black_screen
     with diss
     pause 1.0
     $ juliaQuestStage0_Progress = 3
-    call change_scene("monica_office_photostudio")
+    call change_scene("monica_office_photostudio") from _call_change_scene_371
     $ autorun_to_object("ep27_dialogues6_julia4a", scene=scene_name)
     return
 
 label ep27_quests_julia7: #Сделать Юлии комплимент по поводу ее фигуры.
-    call ep27_dialogues6_julia9()
+    call ep27_dialogues6_julia9() from _call_ep27_dialogues6_julia9
     $ juliaQuestLastDay = day
     if char_info["Julia"]["level"] == 1:
         $ add_char_progress("Julia", juliaLvl1IncreaseProgress, "juliaLvl1IncreaseProgress_day_" + str(day))
@@ -152,18 +152,18 @@ label ep27_quests_julia8_fred_catch:
     music stop
     sound snd_lift
     pause 1.0
-    call ep27_dialogues6_julia10()
+    call ep27_dialogues6_julia10() from _call_ep27_dialogues6_julia10
     music stop
     img black_screen
     with diss
     pause 1.0
     $ juliaQuestStage0_Progress = 4
-    call change_scene("working_office")
+    call change_scene("working_office") from _call_change_scene_372
     $ autorun_to_object("ep27_dialogues6_julia10a", scene=scene_name)
     return
 
 label ep27_quests_julia9: #Поцеловать Юлию.
-    call ep27_dialogues6_julia11()
+    call ep27_dialogues6_julia11() from _call_ep27_dialogues6_julia11
     if _return == -1:
         return
     if _return == -2:
@@ -187,19 +187,19 @@ label ep27_quests_julia10_fred_catch:
     music stop
     sound snd_lift
     pause 1.0
-    call ep27_dialogues6_julia12()
+    call ep27_dialogues6_julia12() from _call_ep27_dialogues6_julia12
     music stop
     img black_screen
     with diss
     pause 1.0
     $ juliaQuestStage0_Progress = 5
     $ move_object("Melanie", "empty")
-    call change_scene("monica_office_makeup_room")
+    call change_scene("monica_office_makeup_room") from _call_change_scene_373
     $ autorun_to_object("ep27_dialogues6_julia10a", scene=scene_name)
     return
 
 label ep27_quests_julia11: #Ущипнуть Юлию за зад.
-    call ep27_dialogues6_julia13()
+    call ep27_dialogues6_julia13() from _call_ep27_dialogues6_julia13
     if _return == -1:
         return
     if _return == -2:

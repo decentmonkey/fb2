@@ -27,6 +27,6 @@ label ep26_quests_melanie2:
     if act=="l":
         return
     call ep26_dialogues7_melanie1() from _call_ep26_dialogues7_melanie1
-    call ep27_quests_melanie1_init()
+    call ep27_quests_melanie1_init() from _call_ep27_quests_melanie1_init_1
     call refresh_scene_fade_long() from _call_refresh_scene_fade_long_12
     return False

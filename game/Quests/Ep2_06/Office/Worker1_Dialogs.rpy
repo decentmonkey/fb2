@@ -87,7 +87,7 @@ label takeReportsFlashCard_Worker1:
     w1 "Но... Миссис Бакфетт, простите, я еще не доделала. И мне нужно будет их проверить..."
     menu:
         "Ничего страшного.":
-            call bitch(-2, "takeReportsFlashCard_Worker1")
+            call bitch(-2, "takeReportsFlashCard_Worker1") from _call_bitch_201
             img 20756
             with diss
             m "Ничего страшного. Конечно, не следует такого допускать."
@@ -95,7 +95,7 @@ label takeReportsFlashCard_Worker1:
             w1 "Я...Да, конечно..."
             pass
         "И почему же они еще не готовы?":
-            call bitch(2, "takeReportsFlashCard_Worker1")
+            call bitch(2, "takeReportsFlashCard_Worker1") from _call_bitch_202
             img 20757
             with diss
             m "И почему же они еще не готовы?"

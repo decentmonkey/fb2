@@ -232,7 +232,7 @@ label after_load():
     if ep26_quests_initialized == False:
         call ep26_quests1() from _call_ep26_quests1
     if ep27_quests_initialized == False:
-        call ep27_quests1()
+        call ep27_quests1() from _call_ep27_quests1
 
     $ imagesSizesCache = {}
     call run_after_load() from _call_run_after_load

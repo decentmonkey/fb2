@@ -176,7 +176,7 @@ label ep22_dialogue6_2:
             call ep23_dialogue9_5b() from _call_ep23_dialogue9_5b
 
         "Заставить секретаршу показать грудь в трущобах. (bitchiness)" if game.extra == True and ep27_quests_secretary1_show_boobs_active == True and pylonpart4startsCompleted == True and monicaWorkingAtBiffOffice == True:
-            call ep27_quests_secretary1()
+            call ep27_quests_secretary1() from _call_ep27_quests_secretary1
             if _return == False:
                 return False
         "Уйти.":
@@ -500,7 +500,7 @@ label ep22_dialogue6_3:
                 mt "Сволочь!!!"
 
     if monicaWorkingAtBiffOffice == True and monicaWorkFlashCardQuestActive == True and day-monicaWorkFlashCardReportLastDay > 14: # Моника долго не сдавала отчеты
-        call ep27_dialogues4_biff7()
+        call ep27_dialogues4_biff7() from _call_ep27_dialogues4_biff7
 #        $ add_char_progress("Biff", biffFlashCardQuestBiffNoticeNoReportsRegress, "biffFlashCardQuestBiffNoticeNoReportsRegress" + str(day))
 
 

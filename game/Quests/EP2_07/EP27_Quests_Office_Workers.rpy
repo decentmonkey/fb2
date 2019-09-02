@@ -8,19 +8,19 @@ label ep27_quests_office_workers1: #Клик на воркеров, когда �
         return
 
     if obj_name == "Worker1":
-        call takeReportsFlashCard_Worker1()
+        call takeReportsFlashCard_Worker1() from _call_takeReportsFlashCard_Worker1
     if obj_name == "Worker2":
-        call takeReportsFlashCard_Worker2()
+        call takeReportsFlashCard_Worker2() from _call_takeReportsFlashCard_Worker2
     if obj_name == "Worker3":
-        call takeReportsFlashCard_Worker3()
+        call takeReportsFlashCard_Worker3() from _call_takeReportsFlashCard_Worker3
     if obj_name == "Worker4":
-        call takeReportsFlashCard_Worker4()
+        call takeReportsFlashCard_Worker4() from _call_takeReportsFlashCard_Worker4
     if obj_name == "Worker5":
-        call takeReportsFlashCard_Worker5()
+        call takeReportsFlashCard_Worker5() from _call_takeReportsFlashCard_Worker5
     if obj_name == "Worker6":
-        call takeReportsFlashCard_Worker6()
+        call takeReportsFlashCard_Worker6() from _call_takeReportsFlashCard_Worker6
     if obj_name == "Worker7":
-        call takeReportsFlashCard_Worker7()
+        call takeReportsFlashCard_Worker7() from _call_takeReportsFlashCard_Worker7
 
 
     $ ep27_flash_card_reports_done_arr.append(obj_name)
@@ -35,7 +35,7 @@ label ep27_quests_office_workers1: #Клик на воркеров, когда �
         $ autorun_to_object("ep27_dialogues6_julia2", scene=scene_name)
         $ move_object("Julia", "empty") # Юлия уходит с работы (обычный день)
         $ changeDayTime("evening") # Изменяем на вечер
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_173
     return False
 
 label Worker1_use_flash_card:
@@ -46,7 +46,7 @@ label Worker5_use_flash_card:
 label Worker6_use_flash_card:
 label Worker7_use_flash_card:
     if obj_name in ep27_flash_card_reports_done_arr: # уже собирали отчет у этого сотрудника
-        call ep27_dialogues4_biff9()
+        call ep27_dialogues4_biff9() from _call_ep27_dialogues4_biff9
         return
-    call ep27_quests_office_workers1()
+    call ep27_quests_office_workers1() from _call_ep27_quests_office_workers1
     return

@@ -48,7 +48,7 @@ label ep27_dialogues6_julia1:
     # несколько минут спустя
     sound highheels_run1
     music stop
-    call textonblack(_("Спустя некоторое время..."))
+    call textonblack(_("Спустя некоторое время...")) from _call_textonblack_29
     img black_screen
     with Dissolve(1)
     music Groove2_85
@@ -67,13 +67,13 @@ label ep27_dialogues6_julia1:
             with diss
             julia "..."
             $ juliaOfficeOffended2 = True
-            call bitch(10, "ep27_dialogues6_julia1_1")
+            call bitch(10, "ep27_dialogues6_julia1_1") from _call_bitch_199
         "Хорошо, Юлия.":
             m "Хорошо, Юлия. Спасибо."
             img 20796
             with diss
             julia "Да, Миссис Бакфетт, пожалуйста."
-            call bitch(-10, "ep27_dialogues6_julia1_1")
+            call bitch(-10, "ep27_dialogues6_julia1_1") from _call_bitch_200
     return
 
 label ep27_dialogues6_julia2:

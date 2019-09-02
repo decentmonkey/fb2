@@ -97,7 +97,7 @@ label ep22_quests_office4_l1:
         $ photoshoot7_count += 1
         $ monicaOutfitsEnabled[7] = True # Открываем следующий костюм
     if monicaPhotoShootOutfitIdx == 8:
-        call ep27_photoshoot_suit8()
+        call ep27_photoshoot_suit8() from _call_ep27_photoshoot_suit8
         if _return == False:
             img black_screen
             with Dissolve(1.0)
@@ -105,7 +105,7 @@ label ep22_quests_office4_l1:
             img 20594
             with fadelong
             jump ep22_quests_office4_loop1
-        call ep27_photoshoot_suit8_end()
+        call ep27_photoshoot_suit8_end() from _call_ep27_photoshoot_suit8_end
         $ photoshoot8_count += 1
 #        $ monicaOutfitsEnabled[8] = True # Открываем следующий костюм
     #конец фотосессии

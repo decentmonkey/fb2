@@ -233,7 +233,7 @@ label ep25_quests_shop8:
         call change_scene("street_cloth_shop", "Fade_long") from _call_change_scene_261
     if _return == 1:
         # Покупаем платье
-        call question_helper_disable()
+        call question_helper_disable() from _call_question_helper_disable
         $ monicaHasCasualDress1 = True
         $ monicaBoughtCasualDress1 = True
         $ remove_objective("find_casual_dress")
@@ -259,7 +259,7 @@ label ep25_quests_shop8:
         img black_screen
         with diss
         pause 1.0
-        call question_helper_enable("question_clothing_shop_sell_dress")
+        call question_helper_enable("question_clothing_shop_sell_dress") from _call_question_helper_enable
         call change_scene("cloth_shop_view1", "Fade_long", False) from _call_change_scene_263
 
     return False
@@ -295,7 +295,7 @@ label ep25_quests_shop11:
 label ep25_quests_shop11a:
     # Заканчивание работы
     call ep25_dialogues1_shop10() from _call_ep25_dialogues1_shop10 # Заканчиваем работу на сегодня
-    call question_helper_disable()
+    call question_helper_disable() from _call_question_helper_disable_1
     $ monicaSellingDressInProgress = False
     $ changeDayTime("evening")
     $ remove_hook(label="sell_dress_process")
@@ -331,7 +331,7 @@ label ep25_quests_shop14: # пустое лейбл для очистки autoru
 
 label ep25_quests_shop15:
     # Моника продала платье, требует награду
-    call question_helper_disable()
+    call question_helper_disable() from _call_question_helper_disable_2
     $ remove_hook(label="cloth_shop_quests")
     call ep25_dialogues1_shop12() from _call_ep25_dialogues1_shop12
     $ autorun_to_object("ep25_dialogues1_shop12a", scene="street_cloth_shop")
