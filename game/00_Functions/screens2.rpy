@@ -229,7 +229,7 @@ screen camera_record_screen():
 
 screen camera_viewfinder_screen():
     add "images/Icons2/Camera_ViewFinder.png"
-    
+
 screen pylon_screen(sceneImage, objectsList):
     layer "master"
     add sceneImage:
@@ -242,3 +242,50 @@ screen pylon_screen(sceneImage, objectsList):
         add objData[1]:
             xpos canvas_offset[1]
             ypos canvas_offset[0]
+
+
+screen achievements_screen():
+    $ width1 = int(1217 * gui.resolution.koeff)
+    $ height1 = int(872 * gui.resolution.koeff)
+    $ x = int(377 * gui.resolution.koeff)
+    $ y = int(107 * gui.resolution.koeff)
+
+    layer "master"
+    zorder 100
+    fixed:
+        button:
+            xfill True
+            yfill True
+            action [
+                Hide("say"),
+                Hide("dialogue_image_left"),
+                Hide("dialogue_image_right"),
+                Hide("dialogue_image_center"),
+                Hide("dialogue_down_arrow"),
+                Hide("action_menu_screen"),
+                Hide("action_menu_tooltip_screen"),
+                Hide("sprites_hover_dummy_screen"),
+                Hide("character_info_screen")
+            ]
+        frame:
+            background Frame("gui/frame4" + res.suffix + ".png", left=2, top=int(80*gui.resolution.koeff), right=2, bottom=2)
+            pos(x, y)
+            anchor(0, 0)
+            xysize (width1, height1)
+            imagebutton:
+                xpos 1.0
+                ypos 0.0
+                anchor (0.5, 0.5)
+                idle "/icons/window_close" + res.suffix + ".png"
+                hover "/icons/window_close_hover" + res.suffix + ".png"
+                action [
+                    Hide("say"),
+                    Hide("dialogue_image_left"),
+                    Hide("dialogue_image_right"),
+                    Hide("dialogue_image_center"),
+                    Hide("dialogue_down_arrow"),
+                    Hide("action_menu_screen"),
+                    Hide("action_menu_tooltip_screen"),
+                    Hide("sprites_hover_dummy_screen"),
+                    Hide("character_info_screen")
+                ]
