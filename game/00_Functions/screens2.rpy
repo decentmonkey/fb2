@@ -322,9 +322,9 @@ screen achievements_screen():
                             pos(posX, posY + curY)
                         add "gui/gallery_frame" + res.suffix + ".png":
                             pos(posX-gui.resolution.gallery.frame.offset, posY-gui.resolution.gallery.frame.offset + curY)
-#                    text cellsList[i][1] style "gallery_caption_text":
-#                        pos(posX + getRes(244/2), posY + curY + getRes(137+15))
-#                        anchor (0.5, 0.5)
+                    text cellsList[i][1] style "gallery_caption_text":
+                        pos(posX + getRes(244/2), posY + curY + getRes(137+15))
+                        anchor (0.5, 0.5)
                 $ curY += int(math.ceil(float(len(cellsList))/float(cellsInRow))) * cellSizeY + gui.resolution.gallery.category_margin_down
 
 
