@@ -1,24 +1,24 @@
-﻿# TODO: Translation updated at 2019-08-29 19:50
+﻿# TODO: Translation updated at 2019-09-03 15:17
 
 # game/Quests/EP2_02/EP22_Quests_Falling_Path.rpy:59
 translate english ep22_quests_falling_path4_ada061db:
 
     # mt "Я боюсь подходить к людям в вечернее время."
     # "Это опасно..."
-    mt "Я боюсь подходить к людям в вечернее время."
-    "Это опасно..."
+    mt "It's scary to approach people in the evening."
+    "It's dangerous..."
 
 # game/Quests/EP2_02/EP22_Quests_Falling_Path.rpy:63
 translate english ep22_quests_falling_path4_55b332f2:
 
     # mt "За такие маленькие деньги я больше ничего не собираюсь показывать ему сегодня..."
-    mt "За такие маленькие деньги я больше ничего не собираюсь показывать ему сегодня..."
+    mt "For such little money, I'm not going to show anything more to him today..."
 
 translate english strings:
 
     # game/Quests/EP2_02/EP22_Quests_Falling_Path.rpy:78
     old "Моника обслужила 'Клиента'"
-    new "Моника обслужила 'Клиента'"
+    new "Monica served 'Customer'"
 
     # game/Quests/EP2_02/EP22_Quests_Falling_Path.rpy:107
     old "Falling Path started..."

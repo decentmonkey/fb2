@@ -130,3 +130,11 @@ translate english strings:
     old "Жена бармена"
     new "Bartender's wife"
 
+# TODO: Translation updated at 2019-09-03 15:17
+
+translate english strings:
+
+    # game/scripts/init.rpy:357
+    old "Юлия боится Монику"
+    new "Юлия боится Монику"
+

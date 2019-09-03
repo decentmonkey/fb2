@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-29 19:52
+﻿# TODO: Translation updated at 2019-09-03 15:21
 
 translate german strings:
 

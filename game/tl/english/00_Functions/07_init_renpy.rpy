@@ -346,3 +346,11 @@ translate english strings:
     old "Лин"
     new "Lin"
 
+# TODO: Translation updated at 2019-09-03 15:17
+
+translate english strings:
+
+    # game/00_Functions/07_init_renpy.rpy:123
+    old "Посетитель"
+    new "Посетитель"
+

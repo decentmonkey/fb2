@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-08-29 19:51
+﻿# TODO: Translation updated at 2019-09-03 15:21
 
 # game/Quests/Hostel/Hostel_AfterJail.rpy:4
 translate german hostelAfterJail_street_dialogue3_a48cad6f:
@@ -6,15 +6,15 @@ translate german hostelAfterJail_street_dialogue3_a48cad6f:
     # "Мне..."
     # "Очень стыдно..."
     # "Носить это..."
-    "Мне..."
-    "Очень стыдно..."
-    "Носить это..."
+    "Ich bin..."
+    "Sehr beschämt!"
+    "Das zu tragen..."
 
 # game/Quests/Hostel/Hostel_AfterJail.rpy:8
 translate german hostelAfterJail_street_dialogue3_fd9ccfa9:
 
     # "Надо скорее что-то придумать..."
     # "Я сгораю от стыда!!"
-    "Надо скорее что-то придумать..."
-    "Я сгораю от стыда!!"
+    "Ich sollte besser an etwas Anderes denken..."
+    "Ich versinke vor Scham!!"
 

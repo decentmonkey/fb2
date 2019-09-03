@@ -45,3 +45,11 @@ translate english strings:
     old " (low corruption, required "
     new ""
 
+# TODO: Translation updated at 2019-09-03 15:17
+
+translate english strings:
+
+    # game/00_Functions/screens.rpy:1483
+    old " (corruption: "
+    new " (corruption: "
+

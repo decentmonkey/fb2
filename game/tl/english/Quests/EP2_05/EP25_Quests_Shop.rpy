@@ -1,12 +1,12 @@
-﻿# TODO: Translation updated at 2019-08-29 19:50
+﻿# TODO: Translation updated at 2019-09-03 15:17
 
 translate english strings:
 
-    # game/Quests/EP2_05/EP25_Quests_Shop.rpy:216
+    # game/Quests/EP2_05/EP25_Quests_Shop.rpy:218
     old "Продать платье в магазине одежды"
-    new "Продать платье в магазине одежды"
+    new "Sell the dress in the clothing store."
 
-    # game/Quests/EP2_05/EP25_Quests_Shop.rpy:220
+    # game/Quests/EP2_05/EP25_Quests_Shop.rpy:222
     old "Вивиан ждет что Моника продаст платье."
-    new "Вивиан ждет что Моника продаст платье."
+    new "Vivian is waiting for Monica to sell the dress."
 

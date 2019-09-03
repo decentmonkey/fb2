@@ -130,3 +130,11 @@ translate german strings:
     old "Жена бармена"
     new "Frau des Bartenders"
 
+# TODO: Translation updated at 2019-09-03 15:21
+
+translate german strings:
+
+    # game/scripts/init.rpy:357
+    old "Юлия боится Монику"
+    new "Юлия боится Монику"
+

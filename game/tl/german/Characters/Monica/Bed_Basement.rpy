@@ -178,25 +178,25 @@ translate german monica_wakeup1_a2404ba7:
     # "Я заслуживаю лучшего!"
     # mt "Это мой дом! Я не заслуживаю того чтобы спать в подвале!"
     # mt "Мне надо что-то придумать, чтобы вернуть все назад как было!"
-    mt "Еще одно утро в этой дыре! Мне надо что-то придумать, чтобы вернуть все назад как было!"
-    mt "Я не высыпаюсь на этой кровати."
-    "Мне нужна нормальная постель!"
-    mt "Такая королева как я не может привыкнуть спать в таких условиях!"
-    "Я заслуживаю лучшего!"
-    mt "Это мой дом! Я не заслуживаю того чтобы спать в подвале!"
-    mt "Мне надо что-то придумать, чтобы вернуть все назад как было!"
+    mt "Ein weiterer Morgen in diesem Loch. Ich muss mir etwas einfallen lassen, um mein Haus zurück zu bekommen."
+    mt "Ich bekomme nicht genug Schlaf auf diesem Bett."
+    "Ich brauche ein vernünftiges Bett!"
+    mt "Eine Königin wie ich kann sich zum Schlafen nicht an diese Umstände gewöhnen."
+    "Ich verdiene besseres!"
+    mt "Das ist mein Haus. Ich habe es nicht verdient, im Keller zu schlafen!"
+    mt "Ich muss mir etwas einfallen lassen, um es zurück zu bekommen!"
 
 translate german strings:
 
     # game/Characters/Monica/Bed_Basement.rpy:61
     old "Не ложиться."
-    new "Не ложиться."
+    new "Bleib wach."
 
     # game/Characters/Monica/Bed_Basement.rpy:108
     old "Лечь спать голодной."
-    new "Лечь спать голодной."
+    new "Geh' hungrig ins Bett"
 
     # game/Characters/Monica/Bed_Basement.rpy:142
     old "Лечь спать."
-    new "Лечь спать."
+    new "Geh' schlafen."
 

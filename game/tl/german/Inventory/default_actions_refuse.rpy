@@ -21,5 +21,5 @@ translate german cant_use_fba19ab3:
 translate german cant_use_c62a1505:
 
     # mt "[item_description!t] and It? I can't use that!"
-    mt "[item_description!t] and It? I can't use that!"
+    mt "[item_description!t] und? Ich kann das nicht benutzen!"
 

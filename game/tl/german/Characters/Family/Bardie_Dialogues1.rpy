@@ -55,24 +55,24 @@ translate german bardieDialogue1_27701d53:
 
     # bardie "Ах ты так!"
     # bardie_t "Ну она у меня попляшет!"
-    bardie "Ах ты так!"
-    bardie_t "Ну она у меня попляшет!"
+    bardie "Du!"
+    bardie_t "Dafür wird sie bezahlen."
 
 # game/Characters/Family/Bardie_Dialogues1.rpy:39
 translate german bardie_comment4_5e66c3f2:
 
     # m "С какой стати я буду это делать?!"
-    m "С какой стати я буду это делать?!"
+    m "Warum zur Hölle sollte ich das tun?"
 
 # game/Characters/Family/Bardie_Dialogues1.rpy:41
 translate german bardie_comment4_2fbbe860:
 
     # bardie "Ты там что-то прячешь! Ты что-то украла!"
-    bardie "Ты там что-то прячешь! Ты что-то украла!"
+    bardie "Du versteckst da doch was! Du hast etwas gestohlen!"
 
 # game/Characters/Family/Bardie_Dialogues1.rpy:47
 translate german bardie_comment4_4cbe27a0:
 
     # bardie "Тогда докажи! Подними юбку!"
-    bardie "Тогда докажи! Подними юбку!"
+    bardie "Beweise es! Zieh den Rock hoch!"
 

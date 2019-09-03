@@ -36,7 +36,7 @@ translate german rich_hotel_reception_environment_064c07e7:
 translate german rich_hotel_reception_environment_41bbc723:
 
     # mt "Стойка Администратора."
-    mt "Tisch des Admins."
+    mt "Tisch der Rezeption."
 
 # game/Rooms/Rich_Hotel/rich_hotel_reception.rpy:62
 translate german rich_hotel_reception_environment_103da57c:

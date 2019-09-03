@@ -166,5 +166,5 @@ translate german strings:
 
     # game/Characters/Monica/Wardrobe_Basement.rpy:150
     old "Переодеться в одежду шлюхи."
-    new "Переодеться в одежду шлюхи."
+    new "Zieh die Nuttenkleider an."
 
