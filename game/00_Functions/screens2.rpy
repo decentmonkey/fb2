@@ -247,45 +247,59 @@ screen pylon_screen(sceneImage, objectsList):
 screen achievements_screen():
     $ width1 = int(1217 * gui.resolution.koeff)
     $ height1 = int(872 * gui.resolution.koeff)
-    $ x = int(377 * gui.resolution.koeff)
-    $ y = int(107 * gui.resolution.koeff)
+    $ x1 = int(377 * gui.resolution.koeff)
+    $ y1 = int(107 * gui.resolution.koeff)
 
     layer "master"
-    zorder 100
-    fixed:
-        button:
-            xfill True
-            yfill True
+    zorder 60
+    modal True
+    button:
+        xfill True
+        yfill True
+        action [
+            Return()
+        ]
+    frame:
+        background Frame("gui/frame4" + res.suffix + ".png", left=2, top=int(80*gui.resolution.koeff), right=2, bottom=2)
+        pos(x1, y1)
+        anchor(0, 0)
+        xysize (width1, height1)
+        imagebutton:
+            xpos 1.0
+            ypos 0.0
+            anchor (0.5, 0.5)
+            idle "/icons/window_close" + res.suffix + ".png"
+            hover "/icons/window_close_hover" + res.suffix + ".png"
             action [
-                Hide("say"),
-                Hide("dialogue_image_left"),
-                Hide("dialogue_image_right"),
-                Hide("dialogue_image_center"),
-                Hide("dialogue_down_arrow"),
-                Hide("action_menu_screen"),
-                Hide("action_menu_tooltip_screen"),
-                Hide("sprites_hover_dummy_screen"),
-                Hide("character_info_screen")
+                Return()
             ]
-        frame:
-            background Frame("gui/frame4" + res.suffix + ".png", left=2, top=int(80*gui.resolution.koeff), right=2, bottom=2)
-            pos(x, y)
-            anchor(0, 0)
-            xysize (width1, height1)
-            imagebutton:
-                xpos 1.0
-                ypos 0.0
-                anchor (0.5, 0.5)
-                idle "/icons/window_close" + res.suffix + ".png"
-                hover "/icons/window_close_hover" + res.suffix + ".png"
-                action [
-                    Hide("say"),
-                    Hide("dialogue_image_left"),
-                    Hide("dialogue_image_right"),
-                    Hide("dialogue_image_center"),
-                    Hide("dialogue_down_arrow"),
-                    Hide("action_menu_screen"),
-                    Hide("action_menu_tooltip_screen"),
-                    Hide("sprites_hover_dummy_screen"),
-                    Hide("character_info_screen")
-                ]
+        viewport id "questlog_viewport":
+#            xpos getRes(377+10)
+#            ypos getRes(107+10)
+            xpos 0
+            ypos getRes(85)
+            draggable True
+            scrollbars "vertical"
+            xmaximum getRes(1217-15)
+            ymaximum getRes(852-85)
+            mousewheel True
+            pagekeys True
+            child_size (getRes(852-85), 10 * getRes(170))
+            $ rowOffset = getRes(22) #244x137
+            $ cellSizeX = getRes(296)
+            $ cellSizeY = getRes(170)
+            $ cellsInRow = 4
+            $ galleryX = 0
+            $ galleryY = 0
+            for i in range(0,40):
+                $ posX = i%cellsInRow * cellSizeX + rowOffset
+                $ posY = int(i/cellsInRow) * cellSizeY
+#                frame:
+#                    background None
+#                    pos(posX, posY)
+#                    anchor(0,0)
+#                    xysize (cellSizeX, cellSizeY)
+                add "images/Achievements/A001.jpg":
+                    pos(posX, posY)
+                add "gui/gallery_frame" + res.suffix + ".png":
+                    pos(posX-gui.resolution.gallery.frame.offset, posY-gui.resolution.gallery.frame.offset)

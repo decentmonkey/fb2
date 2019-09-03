@@ -76,6 +76,7 @@ define gui.resolution.koeff = 1
 
 define gui.resolution.preferences1 = 400
 
+define gui.resolution.gallery.frame.offset = 2
 
 define res.suffix = "" #"", "_720p"
 

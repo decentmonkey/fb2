@@ -222,3 +222,9 @@ label show_questlog:
     $ questLogLinesUpdated = []
     sound open_map
     return
+
+label show_achievements:
+    sound open_map
+    call screen achievements_screen()
+    sound open_map
+    return
