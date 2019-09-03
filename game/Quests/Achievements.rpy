@@ -1,22 +1,22 @@
 init python:
     achievements_categories = [
-        ["House", _("House")],
-        ["Photoshoots", _("Photoshoots")],
-        ["BiffCastings", _("Biff Castings")],
-        ["Melanie", _("Melanie")],
-        ["Betty", _("Betty")],
-        ["DickVictoria", _("Dick & Victoria")],
-        ["PublicEvents", _("Public Events")],
-        ["Fitness", _("Fitness")],
-        ["Steve", _("Steve, Jane, Tiffany")],
-        ["ClothingShop", _("Clothing Shop")],
-        ["Julia", _("Julia")],
-        ["Marcus", _("Marcus")],
-        ["Office", _("Office")],
-        ["Pub", _("Shiny Hole")],
-        ["Slums", _("Slums")],
-        ["HotelLeGrand", _("Hotel Le Grand")],
-        ["GasStation", _("Gas Station")]
+        ["House", _("House"), c_orange],
+        ["Photoshoots", _("Photoshoots"), c_pink],
+        ["BiffCastings", _("Biff Castings"), c_blue],
+        ["Melanie", _("Melanie"), c_pink],
+        ["Betty", _("Betty"), c_green],
+        ["DickVictoria", _("Dick & Victoria"), c_red],
+        ["PublicEvents", _("Public Events"), c_white],
+        ["Fitness", _("Fitness"), c_green],
+        ["Steve", _("Steve, Jane, Tiffany"), c_blue],
+        ["ClothingShop", _("Clothing Shop"), c_orange],
+        ["Julia", _("Julia"), c_green],
+        ["Marcus", _("Marcus"), c_red],
+        ["Office", _("Office"), c_orange],
+        ["Pub", _("Shiny Hole"), c_pink],
+        ["Slums", _("Slums"), c_blue],
+        ["HotelLeGrand", _("Hotel Le Grand"), c_green],
+        ["GasStation", _("Gas Station"), c_gray]
     ]
     achievements_list = {
         "Betty" : [
@@ -314,7 +314,7 @@ init python:
             ["13231", ""],
             ["13247", ""],
             ["13271", ""],
-            ["13298", ""],
+            ["13289", ""],
             ["13296", ""],
             ["13327", ""],
             ["13334", ""],
@@ -947,3 +947,31 @@ init python:
         "img_12638" : "12638",
         "img_9944" : "9944"
     }
+
+init python:
+    if persistent.achievements is None:
+        persistent.achievements = {}
+
+    def check_achievement(str):
+        if achievements_labels.has_key(str):
+            achLabel = achievements_labels[str]
+            if persistent.achievements.has_key(achLabel) == False:
+                persistent.achievements[achLabel] = True
+                renpy.save_persistent()
+                print "Achievement reached!"
+            return True
+        return False
+
+    def get_achievement(achLabel):
+        if persistent.achievements.has_key(achLabel) and persistent.achievements[achLabel] == True:
+            return True
+        return False
+
+
+
+
+
+
+
+
+#

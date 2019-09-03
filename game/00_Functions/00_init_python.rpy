@@ -112,6 +112,15 @@ python early:
         if checkPath != False: return checkPath
         return str(var)
 
+    def img_find_path_ext(var):
+        checkPath = get_image_filename("img_" + str(var))
+        if checkPath != False: return [checkPath, "img_" + str(var)]
+        checkPath = get_image_filename("zimg_" + str(var))
+        if checkPath != False: return [checkPath, "zimg_" + str(var)]
+        checkPath = get_image_filename(str(var))
+        if checkPath != False: return [checkPath, str(var)]
+        return str(var)
+
     def sortBySceneDataZOrder(obj_name):
         return obj_name
 

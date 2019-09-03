@@ -8,9 +8,12 @@ python early:
 #        config.has_autosave = False
 #        config.autosave_on_choice = False
         try:
-            imagePath = img_find_path(renpy.eval(s))
+            imagePathExt = img_find_path_ext(renpy.eval(s))
         except:
-            imagePath = img_find_path(s)
+            imagePathExt = img_find_path_ext(s)
+
+        imagePath = imagePathExt[0]
+        check_achievement(imagePathExt[1])
 
         if (renpy.get_screen("say") != None or renpy.get_screen("choice") != None or renpy.get_screen("window") != None or dialogue_active_flag == True) and persistent.pause_before_change_slide == True:
             renpy.hide_screen("say")

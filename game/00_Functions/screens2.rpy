@@ -243,12 +243,23 @@ screen pylon_screen(sceneImage, objectsList):
             xpos canvas_offset[1]
             ypos canvas_offset[0]
 
-
 screen achievements_screen():
     $ width1 = int(1217 * gui.resolution.koeff)
     $ height1 = int(872 * gui.resolution.koeff)
     $ x1 = int(377 * gui.resolution.koeff)
     $ y1 = int(107 * gui.resolution.koeff)
+
+    $ rowOffset = getRes(22) #244x137
+    $ cellSizeX = getRes(296)
+    $ cellSizeY = getRes(170)
+    $ cellsInRow = 4
+    $ category_height = gui.resolution.gallery.category_height
+
+    # calculate viewport size
+    $ rowsAmount = 0
+    for category in achievements_categories:
+        $ rowsAmount += int(math.ceil(float(len(achievements_list[category[0]]))/float(cellsInRow)))
+    $ viewportHeight = len(achievements_categories) * (category_height+gui.resolution.gallery.category_margin_down) + rowsAmount * cellSizeY
 
     layer "master"
     zorder 60
@@ -284,22 +295,62 @@ screen achievements_screen():
             ymaximum getRes(852-85)
             mousewheel True
             pagekeys True
-            child_size (getRes(852-85), 10 * getRes(170))
-            $ rowOffset = getRes(22) #244x137
-            $ cellSizeX = getRes(296)
-            $ cellSizeY = getRes(170)
-            $ cellsInRow = 4
+            child_size (getRes(852-85), viewportHeight)
             $ galleryX = 0
             $ galleryY = 0
-            for i in range(0,40):
-                $ posX = i%cellsInRow * cellSizeX + rowOffset
-                $ posY = int(i/cellsInRow) * cellSizeY
-#                frame:
-#                    background None
-#                    pos(posX, posY)
-#                    anchor(0,0)
-#                    xysize (cellSizeX, cellSizeY)
-                add "images/Achievements/A001.jpg":
-                    pos(posX, posY)
-                add "gui/gallery_frame" + res.suffix + ".png":
-                    pos(posX-gui.resolution.gallery.frame.offset, posY-gui.resolution.gallery.frame.offset)
+            $ curY = 0
+            for category in achievements_categories:
+#                text category[1] style "char_face_style_caption":
+                text category[1]:
+                    pos(rowOffset, curY)
+                    font "fonts/BebasNeue Regular.ttf"
+                    color category[2]
+                    size 40
+                $ curY += category_height
+                $ cellsList = achievements_list[category[0]]
+
+                for i in range(0,len(cellsList)):
+                    $ posX = i%cellsInRow * cellSizeX + rowOffset
+                    $ posY = int(i/cellsInRow) * cellSizeY
+                    if get_achievement(cellsList[i][0]) == True:
+                        add "images/Achievements/ach_" + cellsList[i][0] + ".jpg":
+                            pos(posX, posY + curY)
+                        add "gui/gallery_frame" + res.suffix + ".png":
+                            pos(posX-gui.resolution.gallery.frame.offset, posY-gui.resolution.gallery.frame.offset + curY)
+                    else:
+                        add "images/Achievements/ach_" + cellsList[i][0] + "_disabled.jpg":
+                            pos(posX, posY + curY)
+                        add "gui/gallery_frame" + res.suffix + ".png":
+                            pos(posX-gui.resolution.gallery.frame.offset, posY-gui.resolution.gallery.frame.offset + curY)
+#                    text cellsList[i][1] style "gallery_caption_text":
+#                        pos(posX + getRes(244/2), posY + curY + getRes(137+15))
+#                        anchor (0.5, 0.5)
+                $ curY += int(math.ceil(float(len(cellsList))/float(cellsInRow))) * cellSizeY + gui.resolution.gallery.category_margin_down
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#

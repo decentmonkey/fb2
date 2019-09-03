@@ -77,6 +77,8 @@ define gui.resolution.koeff = 1
 define gui.resolution.preferences1 = 400
 
 define gui.resolution.gallery.frame.offset = 2
+define gui.resolution.gallery.category_height = 45
+define gui.resolution.gallery.category_margin_down = 20
 
 define res.suffix = "" #"", "_720p"
 
@@ -291,6 +293,12 @@ style photoshoot_cinema_text_style:
     font "fonts/arial.ttf"
     color "#33b18b"
     outlines [(13, "#18181a", 0, 0)]
+
+style gallery_caption_text:
+    font "fonts/arial.ttf"
+    size 14
+    color "#808080"
+
 
 define gui.credits.offset1 = 30
 define gui.credits.offset2 = 42
