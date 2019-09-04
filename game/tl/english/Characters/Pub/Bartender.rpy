@@ -12,5 +12,5 @@ translate english strings:
 
     # game/Characters/Pub/Bartender.rpy:4
     old "Бармен в Shiny Hole. Лапает меня, пока Эшли не видит."
-    new "Бармен в Shiny Hole. Лапает меня, пока Эшли не видит."
+    new "Bartender in Shiny Hole. Groping me while Ashley cant see."
 

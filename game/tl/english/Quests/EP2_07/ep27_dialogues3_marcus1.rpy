@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:5
 translate english ep27_dialogues_marcus1_1_75325162:
@@ -7,7 +7,7 @@ translate english ep27_dialogues_marcus1_1_75325162:
     # mt "У меня ноги подкашываются от ужаса... Мне страшно... Что делать?"
     # mt "Стоит-ли мне идти туда..."
     mt "I'm scared."
-    mt "У меня ноги подкашываются от ужаса... Мне страшно... Что делать?"
+    mt "My legs a shaking... I'm scared... What do I do?"
     mt "Should I really go there?"
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:13
@@ -38,7 +38,7 @@ translate english ep27_dialogues_marcus1_1b_7c97686e:
 translate english ep27_dialogues_marcus1_1c_68859321:
 
     # mt "В таком виде я точно туда не пойду. {c}Мне надо переодеться{/c}."
-    mt "В таком виде я точно туда не пойду. {c}Мне надо переодеться{/c}."
+    mt "I'm not going in there like that. {c}I have to change{/c}."
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:36
 translate english ep27_dialogues_marcus1_1d_6376d9ca:
@@ -520,7 +520,7 @@ translate english ep27_dialogues_marcus1_8_cc2c831f:
     mt "Bars."
     mt "I can shake it to call Bob."
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:427
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:429
 translate english ep27_dialogues_marcus1_9_aa6553df:
 
     # overseer "Ну, что тебе?!"
@@ -532,7 +532,7 @@ translate english ep27_dialogues_marcus1_9_aa6553df:
     overseer "My head hurts!"
     overseer "Even more than before!"
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:433
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:435
 translate english ep27_dialogues_marcus1_9_b067e1fc:
 
     # mt "Дьявол! Я ненавижу этого урода!"
@@ -546,7 +546,7 @@ translate english ep27_dialogues_marcus1_9_b067e1fc:
     mt "Food is awful here, but I'm kinda already used to such food."
     mt "For a young lady like me it's hard, but I've already learned how to do it."
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:442
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:444
 translate english ep27_dialogues_marcus1_9_fb7f6ffd:
 
     # m "Мистер Боб."
@@ -554,7 +554,7 @@ translate english ep27_dialogues_marcus1_9_fb7f6ffd:
     m "Mr. Bob."
     m "Can you please bring some of the tasty food you have?"
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:445
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:447
 translate english ep27_dialogues_marcus1_9_2c0d9962:
 
     # overseer "Не положено! Сегодня заключенных уже кормили!"
@@ -564,13 +564,13 @@ translate english ep27_dialogues_marcus1_9_2c0d9962:
     overseer "Eat, tomorrow!"
     mt "My God! Asshole!"
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:450
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:452
 translate english ep27_dialogues_marcus1_9_405faabd:
 
     # m "Спасибо, Мистер Боб... Я подожду до завтра..."
     m "Thank you, Mr. Bob. I'll wait till tomorrow."
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:453
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:455
 translate english ep27_dialogues_marcus1_9_9a7d14fd:
 
     # mt "Не больно-то и хотелось есть его помои!"
@@ -580,19 +580,19 @@ translate english ep27_dialogues_marcus1_9_9a7d14fd:
     mt "I'm even glad!"
     mt "Better to wait and it comes normal food tomorrow when I get out!"
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:460
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:462
 translate english ep27_dialogues_marcus1_10_20f3bac9:
 
     # mt "Я устала. Может быть лечь поспать?"
     mt "I'm tired. Should I go sleep?"
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:477
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:480
 translate english ep27_dialogues_marcus1_11_a10b07c3:
 
     # mt "Завтра новый день."
     mt "Tomorrow is a new day."
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:480
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:483
 translate english ep27_dialogues_marcus1_11_21a5a8d3:
 
     # mt "С утра я встречусь с Маркусом лицом к лицу и решу все мои проблемы."
@@ -600,7 +600,7 @@ translate english ep27_dialogues_marcus1_11_21a5a8d3:
     mt "I'll meet with Marcus tomorrow face to face and solve all my problems."
     mt "I'm strong and know that I can do it."
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:484
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:487
 translate english ep27_dialogues_marcus1_11_cd8a73ac:
 
     # mt "Все будет хорошо!"
@@ -630,11 +630,11 @@ translate english strings:
     old "Попытаться уйти."
     new "Try to leave."
 
-    # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:489
-    old "Узнайте что ждет Монику\nв грядущем обновлении игры!"
-    new "Узнайте что ждет Монику\nв грядущем обновлении игры!"
-
     # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:492
+    old "Узнайте что ждет Монику\nв грядущем обновлении игры!"
+    new "Find out what happens to Monica in the upcoming update!"
+
+    # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:495
     old "Fashion Business"
     new "Fashion Business"
 

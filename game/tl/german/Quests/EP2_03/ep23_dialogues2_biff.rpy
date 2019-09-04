@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_03/ep23_dialogues2_biff.rpy:23
 translate german ep23_dialogues1_0eef9d1a:
@@ -6,7 +6,7 @@ translate german ep23_dialogues1_0eef9d1a:
     # m "Биф... Мог бы ты дать еще немного денег?"
     # "Хотя бы еще $ 100?..."
     m "Kannst du mir nicht noch etwas Geld geben, Biff?"
-    "Wenigstens 0 mehr...?"
+    "Wenigstens $ 100 mehr...?"
 
 # game/Quests/EP2_03/ep23_dialogues2_biff.rpy:27
 translate german ep23_dialogues1_577830cb:
@@ -23,7 +23,7 @@ translate german ep23_dialogues1_577830cb:
     "Ich glaube, du unterhältst Daddy nicht gut genug..."
     "Und .000 ist mir das nicht wert!"
     mt "!!!"
-    biff "Ich denke, du solltest mit .000 vollkommen zufrieden sein."
+    biff "Ich denke, du solltest mit $ 3.000 vollkommen zufrieden sein."
     "Für so eine Straßenhure ist das gutes Geld!"
 
 # game/Quests/EP2_03/ep23_dialogues2_biff.rpy:35
@@ -68,7 +68,7 @@ translate german ep23_dialogues1_0eef9d1a_1:
     # m "Биф... Мог бы ты дать еще немного денег?"
     # "Хотя бы еще $ 100?..."
     m "Kannst du mir nicht noch etwas Geld geben, Biff?"
-    "Wenigstens 0 mehr...?"
+    "Wenigstens $ 100 mehr...?"
 
 # game/Quests/EP2_03/ep23_dialogues2_biff.rpy:57
 translate german ep23_dialogues1_577830cb_1:
@@ -85,7 +85,7 @@ translate german ep23_dialogues1_577830cb_1:
     "Ich glaube, du unterhältst Daddy nicht gut genug..."
     "Und .000 ist mir das nicht wert!"
     mt "!!!"
-    biff "Ich denke, du solltest mit .000 vollkommen zufrieden sein."
+    biff "Ich denke, du solltest mit $ 3.000 vollkommen zufrieden sein."
     "Für so eine Straßenhure ist das gutes Geld!"
 
 # game/Quests/EP2_03/ep23_dialogues2_biff.rpy:65
@@ -136,7 +136,7 @@ translate german ep23_dialogues1_0eef9d1a_2:
     # m "Биф... Мог бы ты дать еще немного денег?"
     # "Хотя бы еще $ 100?..."
     m "Kannst du mir nicht noch etwas Geld geben, Biff?"
-    "Wenigstens 0 mehr...?"
+    "Wenigstens $ 100 mehr...?"
 
 # game/Quests/EP2_03/ep23_dialogues2_biff.rpy:90
 translate german ep23_dialogues1_577830cb_2:
@@ -153,7 +153,7 @@ translate german ep23_dialogues1_577830cb_2:
     "Ich glaube, du unterhältst Daddy nicht gut genug..."
     "Und .000 ist mir das nicht wert!"
     mt "!!!"
-    biff "Ich denke, du solltest mit .000 vollkommen zufrieden sein."
+    biff "Ich denke, du solltest mit $ 3.000 vollkommen zufrieden sein."
     "Für so eine Straßenhure ist das gutes Geld!"
 
 # game/Quests/EP2_03/ep23_dialogues2_biff.rpy:98

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_07/Pub/Customer5_dialogs.rpy:8
 translate english customer5_1stmeeting_ab6f9bd6:
@@ -47,9 +47,9 @@ translate english customer5_1stmeeting_ed907d5a:
     customer5 "You didn't answer. Do you have a boyfriend?"
 
 # game/Quests/EP2_07/Pub/Customer5_dialogs.rpy:32
-translate english customer5_1stmeeting_91e563c8:
+translate english customer5_1stmeeting_cd5336c6:
 
-    # m "Вообще-то я за мужем."
+    # m "Вообще-то я замужем."
     m "I'm married."
 
 # game/Quests/EP2_07/Pub/Customer5_dialogs.rpy:39
@@ -87,9 +87,9 @@ translate english customer5_1stmeeting_e50b4dff:
     customer5 "Thank you, you can go."
 
 # game/Quests/EP2_07/Pub/Customer5_dialogs.rpy:73
-translate english customer5_1stmeeting_ebd1a501:
+translate english customer5_1stmeeting_6a137f1c:
 
-    # customer5 "Хотя стоп...Где же мои манеры? Вот тебя доллар. Скоро заработаешь себе на платье."
+    # customer5 "Хотя стоп...Где же мои манеры? Вот тебе доллар. Скоро заработаешь себе на платье."
     customer5 "Oh, wait...Where are my manners? Here the dollar for you. You can buy a dress soon."
 
 # game/Quests/EP2_07/Pub/Customer5_dialogs.rpy:76

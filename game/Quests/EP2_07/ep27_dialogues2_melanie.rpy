@@ -126,7 +126,7 @@ label ep27_dialogues2_melanie2:
     w
     img 13940
     with fade
-    reception_secretary "Здравствуйте, Миссис Мелани!" #+
+    reception_secretary "Здравствуйте, Мисс Мелани !" #+
     reception_secretary "Рада снова видеть Вас!"
     reception_secretary "Вы решили навестить Мистера Дика?"
     music ZigZag
@@ -203,7 +203,7 @@ label ep27_dialogues2_melanie2:
     img 13954
     with fade
     melanie "Ты?!" #-
-    melanie "Не слишком-ли смелая инициатива, юная девока?"
+    melanie "Не слишком-ли смелая инициатива, юная девочка?"
     melanie "Это слишком много чести для маленькой секретарши, которая спит со своим Боссом."
     melanie "Ты ведь знаешь кто я такая."
     music Groove2_85
@@ -909,7 +909,7 @@ label ep27_dialogues2_melanie2:
     img 14092
     with fade
     dick_secretary "Пожалуйста, сними этот сапожок!" #+
-    dick_secretary "Будь хорошей подружой!"
+    dick_secretary "Будь хорошей подружкой!"
     music Power_Bots_Loop
     img 14093
     with diss

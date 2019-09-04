@@ -112,7 +112,7 @@ label customer12_serve1:
             music Hidden_Agenda
             img 14451
             with fade
-            mt "И не только по этому..."
+            mt "И не только поэтому..."
             img 14452
             with diss
             customer12 "Постарайся сделать так, чтобы я получил свой заказ как можно скорее."

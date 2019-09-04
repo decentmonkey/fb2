@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:41
 translate german ep27_dialogues6_julia1_bcd962f6:
@@ -87,9 +87,9 @@ translate german ep27_dialogues6_julia3_c6a1eb96:
     m "Fred, was machst du hier?"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:130
-translate german ep27_dialogues6_julia3_bfeb6228:
+translate german ep27_dialogues6_julia3_421d7808:
 
-    # fred "Миссис Бакфетт, я работаю в этой компании, поэтому Вам вопрос звучит странно."
+    # fred "Миссис Бакфетт, я работаю в этой компании, поэтому Ваш вопрос звучит странно."
     # fred "И непрофессионально."
     fred "Das ist eine seltsame Frage, Frau Buckfett. Ich arbeite doch in dieser Firma."
     fred "Sie klingen unprofessionell."
@@ -163,9 +163,9 @@ translate german ep27_dialogues6_julia3_d1f70c04_1:
     julia "..."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:198
-translate german ep27_dialogues6_julia3_3b6411d0:
+translate german ep27_dialogues6_julia3_94c301ce:
 
-    # m "Фред, ты не слишком-ли ты нарываешься?!"
+    # m "Фред, не слишком-ли ты нарываешься?!"
     m "Fred, nimmst du dir nicht gerade etwas viel raus?"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:201
@@ -217,9 +217,9 @@ translate german ep27_dialogues6_julia3_080d0778:
     fred "Oh, Frau Buckfett. Für ihren Arsch habe ich ganz eigene Pläne."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:235
-translate german ep27_dialogues6_julia3_75d8c011:
+translate german ep27_dialogues6_julia3_59eaa063:
 
-    # fred "Они также связаня с попками Стефани и Ребекки, если Вы помните..."
+    # fred "Они также связаны с попками Стефани и Ребекки, если Вы помните..."
     fred "Pläne, die auch mit denen von Stephanie und Rebecca zu tun haben."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:244
@@ -323,9 +323,9 @@ translate german ep27_dialogues6_julia3_f7384d2e:
     fred "Und dann wurde ihr auch noch verboten, überhaupt Höschen zu tragen."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:310
-translate german ep27_dialogues6_julia3_cff7683c:
+translate german ep27_dialogues6_julia3_506fcf73:
 
-    # fred "И она теперь трет пятно на ковре без трусикой, сверкая своей очаровательной попой."
+    # fred "И она теперь трет пятно на ковре без трусиков, сверкая своей очаровательной попой."
     fred "Und jetzt schrubbt sie den Fleck mit nacktem Hintern."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:316
@@ -404,7 +404,7 @@ translate german ep27_dialogues6_julia3_5d1f335f:
 translate german ep27_dialogues6_julia3_b56b14db:
 
     # w1 "Миссис Бакфетт, можно войти?"
-    w1 "Миссис Бакфетт, можно войти?"
+    w1 "Frau Buckfett, kann ich reinkommen?"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:379
 translate german ep27_dialogues6_julia3_c14dd19c:
@@ -560,7 +560,7 @@ translate german ep27_dialogues6_julia3_29d532a3:
 translate german ep27_dialogues6_julia3_cff46d24:
 
     # fred "Я буду держаться в курсе, Миссис Бакфетт..."
-    fred "Я буду держаться в курсе, Миссис Бакфетт..."
+    fred "Ich halte sie auf dem Laufenden, Frau Buckfett..."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:514
 translate german ep27_dialogues6_julia4_3afec51f:
@@ -636,7 +636,7 @@ translate german ep27_dialogues6_julia6_f16abd34:
 translate german ep27_dialogues6_julia6_95924f9d:
 
     # m "Тише!"
-    m "Тише!"
+    m "Ruhe!"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:578
 translate german ep27_dialogues6_julia6_1d87c9b0:
@@ -730,15 +730,15 @@ translate german ep27_dialogues6_julia8_b5905be7:
     # m "Не даешь переодеться нормально! Все вынюхиваешь здесь!"
     fred "..." 
     m "DU schon wieder?"
-    m "Не даешь переодеться нормально! Все вынюхиваешь здесь!"
+    m "Ich kann mich nicht in Ruhe umziehen, du schnüffelst hier wieder rum!"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:661
-translate german ep27_dialogues6_julia8_738f6779:
+translate german ep27_dialogues6_julia8_117c584b:
 
     # fred "Миссис Бакфетт, Вы снова прекрасно справились!"
     # fred "Сегодня Вы скажете Юлии что у нее сексуальная фигура и грудь."
     # fred "Затем попросите повернуться ее спиной и сказать что у нее красивая попа."
-    # fred "Вы должны произнести именно это слова!"
+    # fred "Вы должны произнести именно эти слова!"
     fred "Frau Buckfett, das haben sie mal wieder sehr gut gemacht."
     fred "Heute werden sie Julia sagen, dass sie einen sexy Körper und schöne Brüste hat."
     fred "Dann werden sie sie bitten, sich umzudrehen und ihnen ihren Arsch zu zeigen."
@@ -874,7 +874,7 @@ translate german ep27_dialogues6_julia10_ee620d3f:
     # m "Тише!"
     m "Fred! Hör auf mir zu folgen!"
     fred "Frau Buckfett, wieder gut gemacht!"
-    m "Тише!"
+    m "Ruhe!"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:786
 translate german ep27_dialogues6_julia10_e3bbf751:
@@ -909,24 +909,24 @@ translate german ep27_dialogues6_julia10_78864629:
 
     # w5 "Миссис Бакфетт, это Ваш водитель?"
     # w5 "Хотите я предложу ему тоже кофе?"
-    w5 "Миссис Бакфетт, это Ваш водитель?"
-    w5 "Хотите я предложу ему тоже кофе?"
+    w5 "Ist das ihr Fahrer?"
+    w5 "Wollen sie, dass ich ihm Kaffee anbiete?"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:812
 translate german ep27_dialogues6_julia10_16f24b6f:
 
     # m "Да, это мой водитель!"
     # m "И моя прислуга не нуждается в кофе!"
-    m "Да, это мой водитель!"
-    m "И моя прислуга не нуждается в кофе!"
+    m "Ja, ist er."
+    m "Meine Angestellten brauchen keinen Kaffee!"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:814
 translate german ep27_dialogues6_julia10_167accd4:
 
     # m "Иди работай!"
     # w5 "Хорошо, Миссис Бакфетт. Вы всегда можете рассчитывать на меня."
-    m "Иди работай!"
-    w5 "Хорошо, Миссис Бакфетт. Вы всегда можете рассчитывать на меня."
+    m "Zurück an die Arbeit!"
+    w5 "Ok, Frau Buckfett. Sie können immer auf mich zählen."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:820
 translate german ep27_dialogues6_julia10a_a2692991:
@@ -936,7 +936,7 @@ translate german ep27_dialogues6_julia10a_a2692991:
     # m "Ненавижу его..."
     m "FRED !!!"
     m "Dreckiger Bastard!..."
-    m "Ненавижу его..."
+    m "Ich hasse ihn!"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:841
 translate german ep27_dialogues6_julia11_2f77fc15:
@@ -1044,7 +1044,7 @@ translate german ep27_dialogues6_julia12_14c4a001:
     # m "Ты что, подглядываешь как я переодеваюсь?!"
     m "FRED !!!"
     m "Dreckiger Bastard!..."
-    m "Ты что, подглядываешь как я переодеваюсь?!"
+    m "Spannst du, während ich mich umziehe?"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:996
 translate german ep27_dialogues6_julia12_f29c8731:
@@ -1188,7 +1188,7 @@ translate german ep27_dialogues6_julia13_a0c2b085:
 translate german ep27_dialogues6_julia13_3f534a82:
 
     # m "Да, там город..."
-    m "Да, там город..."
+    m "Ja, die Stadt ist da drüben..."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:1127
 translate german ep27_dialogues6_julia13_c9f08138:
@@ -1274,11 +1274,11 @@ translate german strings:
 
     # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:2
     old "Отношения с Юлией..."
-    new "Отношения с Юлией..."
+    new "Beziehung mit Julia..."
 
     # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:2
     old "Заставить Юлию собрать отчеты вместо Моники."
-    new "Заставить Юлию собрать отчеты вместо Моники."
+    new "Bringe Julia dazu, die Berichte anstatt Monica einzusammeln."
 
     # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:2
     old "Юлия, что там с отчетами, которые надо обработать сегодня?"

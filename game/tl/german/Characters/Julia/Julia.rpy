@@ -4,5 +4,5 @@ translate german strings:
 
     # game/Characters/Julia/Julia.rpy:10
     old "Юлия стесняется комплиментов Моники и боится ее."
-    new "Юлия стесняется комплиментов Моники и боится ее."
+    new "Julia ist entsetzt von Monicas Komplimenten und hat Angst vor ihr."
 

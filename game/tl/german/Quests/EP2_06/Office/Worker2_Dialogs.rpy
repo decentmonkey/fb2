@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_06/Office/Worker2_Dialogs.rpy:8
 translate german worker2_look_318735e9:
@@ -118,9 +118,9 @@ translate german takeReportsFlashCard_Worker2_d887e7ac:
     # m "Я за твоими отчетами? Я надеюсь, они готовы?"
     # w2 "Миссис Бакфетт, я системный администратор."
     # m "Это очень хорошо, а теперь возьми эту флеш карту и скопируй на нее свои отчеты."
-    m "Я за твоими отчетами? Я надеюсь, они готовы?"
-    w2 "Миссис Бакфетт, я системный администратор."
-    m "Это очень хорошо, а теперь возьми эту флеш карту и скопируй на нее свои отчеты."
+    m "Ich bin wegen den Berichten da. Sind sie fertig?"
+    w2 "Frau Buckfett, ich bin der Systemadmin."
+    m "Mir recht. Nimm den Stick und kopiere deinen Bericht."
 
 # game/Quests/EP2_06/Office/Worker2_Dialogs.rpy:108
 translate german takeReportsFlashCard_Worker2_379c754b:
@@ -129,24 +129,24 @@ translate german takeReportsFlashCard_Worker2_379c754b:
     # w2t "Да, похоже она совсем не разбирается в этом... С таким же успехом я могу сказать, что чищу вентиляторы... Ха-ха!"
     # m "Напомни, а чем ты тут вообще занимаешься ?"
     # w2 "Я слежу за работой сети, компьютеров и автоматизацией различных бизнес процессов..."
-    w2 "Миссис Бакфетт, я не пишу отчеты, я же говорю, я системный администратор."
-    w2t "Да, похоже она совсем не разбирается в этом... С таким же успехом я могу сказать, что чищу вентиляторы... Ха-ха!"
-    m "Напомни, а чем ты тут вообще занимаешься ?"
-    w2 "Я слежу за работой сети, компьютеров и автоматизацией различных бизнес процессов..."
+    w2 "Frau Buckfett, ich schreibe keine Berichte, ich bin ein System a-d-m-i-n-i-s-t-r-a-t-o-r"
+    w2t "Sieht immer noch so aus, als hat sie keinen blassen Dunst, was ich hier mache. Ich könnte ihr genauso sagen, dass ich die Ventilatoren putze."
+    m "Also, was genau machst du dann hier?"
+    w2 "Ich verwalte unser Firmennetzwerk, checke die PC's an den Arbeitsplätzen und optimiere IT-Prozesse."
 
 # game/Quests/EP2_06/Office/Worker2_Dialogs.rpy:114
 translate german takeReportsFlashCard_Worker2_1d46c453:
 
     # w2t "И определенно буду следить за твоей красивой попой."
     # m "Я поняла. Ладно, следи."
-    w2t "И определенно буду следить за твоей красивой попой."
-    m "Я поняла. Ладно, следи."
+    w2t "Und ich schaue auf deinen hübschen Hintern."
+    m "Ich verstehe. Weitermachen."
 
 # game/Quests/EP2_06/Office/Worker2_Dialogs.rpy:118
 translate german takeReportsFlashCard_Worker2_e2b80d55:
 
     # mt "Как я могла забыть... Он разбирается в компьютерах... Нужно не забывать об этом..."
-    mt "Как я могла забыть... Он разбирается в компьютерах... Нужно не забывать об этом..."
+    mt "Wie konnte ich das vergessen. Er ist der PC Nerd... Ich sollte sowas nicht vergessen."
 
 translate german strings:
 

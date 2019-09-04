@@ -352,5 +352,5 @@ translate german strings:
 
     # game/00_Functions/07_init_renpy.rpy:123
     old "Посетитель"
-    new "Посетитель"
+    new "Besucher"
 

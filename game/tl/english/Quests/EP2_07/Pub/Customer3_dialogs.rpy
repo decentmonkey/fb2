@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:12
 translate english customer3_1stmeeting_fd726aa7:
@@ -58,7 +58,7 @@ translate english customer3_1stmeeting_3ffa1a21:
 translate english customer3_1stmeeting_cee29585:
 
     # customer3 "О да! Жду твою жопу на пилоне!"
-    customer3 "Oh yes! I'm waiting to see it on the scene!"
+    customer3 "Oh yes! I'm waiting to see it on the stage!"
 
 # game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:69
 translate english customer3_1stmeeting_f5db6773:
@@ -117,9 +117,9 @@ translate english customer3_serve1_2634c1c8:
     customer3 "Right. But you need tips, right?"
 
 # game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:111
-translate english customer3_serve1_dfc94b8a:
+translate english customer3_serve1_a1525a5f:
 
-    # mt "Мне противно, но если он даст чаевый, может и стоит потерпеть его дурной язык. Но только совсем чуть-чуть..."
+    # mt "Мне противно, но если он даст чаевые, может и стоит потерпеть его дурной язык. Но только совсем чуть-чуть..."
     mt "Disgusting, but I maybe I can try to endure it to earn a bit of money..."
 
 # game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:116
@@ -198,7 +198,7 @@ translate english customer3_serve1_94420ba9_1:
 translate english customer3_serve1_cb16a6dc:
 
     # customer3 "И жопа у тебя просто отпад!"
-    customer3 "And you ass is great!"
+    customer3 "And your ass is great!"
 
 # game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:167
 translate english customer3_serve1_f13101bf:
@@ -207,9 +207,9 @@ translate english customer3_serve1_f13101bf:
     mt "Pervert..."
 
 # game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:189
-translate english customer3_serve1_11baad6f:
+translate english customer3_serve1_682cd047:
 
-    # customer3 "Молодец, красивая жопа! Вот тебя целый доллар! Купи себе помаду!"
+    # customer3 "Молодец, красивая жопа! Вот тебе целый доллар! Купи себе помаду!"
     customer3 "Good, pretty ass! Here is a dollar! Buy your self a lipstick!"
 
 # game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:192

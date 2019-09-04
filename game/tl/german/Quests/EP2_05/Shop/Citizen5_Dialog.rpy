@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_05/Shop/Citizen5_Dialog.rpy:11
 translate german cit5_dialog_1_afe9aa68:

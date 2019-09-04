@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_06/Office/Worker1_Dialogs.rpy:11
 translate german worker1_look_f059b0ef:
@@ -104,13 +104,13 @@ translate german worker1_dialogue_office_3d607ae8:
 translate german takeReportsFlashCard_Worker1_6c08cedf:
 
     # m "Привет. Мне нужны отчеты, которые ты сделала."
-    m "Привет. Мне нужны отчеты, которые ты сделала."
+    m "Hi. Ich brauche die Berichte, die du gemacht hast."
 
 # game/Quests/EP2_06/Office/Worker1_Dialogs.rpy:87
 translate german takeReportsFlashCard_Worker1_3ddafb42:
 
     # w1 "Но... Миссис Бакфетт, простите, я еще не доделала. И мне нужно будет их проверить..."
-    w1 "Но... Миссис Бакфетт, простите, я еще не доделала. И мне нужно будет их проверить..."
+    w1 "Aber... Es tut mir leid Frau Buckfett, ich habe sie noch nicht fertig. Und ich muss sie nochmal korrektur lesen."
 
 # game/Quests/EP2_06/Office/Worker1_Dialogs.rpy:93
 translate german takeReportsFlashCard_Worker1_045e3f6c:
@@ -118,9 +118,9 @@ translate german takeReportsFlashCard_Worker1_045e3f6c:
     # m "Ничего страшного. Конечно, не следует такого допускать."
     # m "Ты же постараешься сделать так, чтобы такой ситуации не повторилось?"
     # w1 "Я...Да, конечно..."
-    m "Ничего страшного. Конечно, не следует такого допускать."
-    m "Ты же постараешься сделать так, чтобы такой ситуации не повторилось?"
-    w1 "Я...Да, конечно..."
+    m "Ok. Aber versuche so eine Situation zukünftig zu vermeiden."
+    m "Verstanden?"
+    w1 "Ich... Ja... Natürlich..."
 
 # game/Quests/EP2_06/Office/Worker1_Dialogs.rpy:101
 translate german takeReportsFlashCard_Worker1_0438f593:
@@ -128,7 +128,7 @@ translate german takeReportsFlashCard_Worker1_0438f593:
     # m "И почему же они еще не готовы?"
     # w1 "..."
     # m "А?"
-    m "И почему же они еще не готовы?"
+    m "Warum sind sie noch nicht fertig?"
     w1 "..."
     m "Ja?"
 
@@ -138,9 +138,9 @@ translate german takeReportsFlashCard_Worker1_21527dd3:
     # w1 "Миссис Бакфетт, я... У меня..."
     # m "Ты же знаешь, какую важную работу все мы здесь делаем!"
     # w1 "Обещаю Вам, я их доделаю! Сегодня же!"
-    w1 "Миссис Бакфетт, я... У меня..."
-    m "Ты же знаешь, какую важную работу все мы здесь делаем!"
-    w1 "Обещаю Вам, я их доделаю! Сегодня же!"
+    w1 "Frau Buckfett... Ich... Ich..."
+    m "Verstehst du nicht die Bedeutung der Arbeit, die wir hier machen?"
+    w1 "Ich verspreche sie fertig zu machen. Heute!"
 
 # game/Quests/EP2_06/Office/Worker1_Dialogs.rpy:111
 translate german takeReportsFlashCard_Worker1_88ed0ef6:
@@ -148,9 +148,9 @@ translate german takeReportsFlashCard_Worker1_88ed0ef6:
     # m "Отлично, а пока скопируй мне все, что у тебя есть на данный момент."
     # w1 "Хорошо..."
     # w1 "Я все скопировала."
-    m "Отлично, а пока скопируй мне все, что у тебя есть на данный момент."
+    m "Gut. Kopiere das was du bisher hast auf den Stick."
     w1 "Gut..."
-    w1 "Я все скопировала."
+    w1 "Erledigt."
 
 # game/Quests/EP2_06/Office/Worker1_Dialogs.rpy:116
 translate german takeReportsFlashCard_Worker1_ea6c0a25:
@@ -159,8 +159,8 @@ translate german takeReportsFlashCard_Worker1_ea6c0a25:
     # m "И не забывай, твой вклад в работу компании очень высок."
     # w1 "Да, миссис Бакфетт."
     m "Na gut."
-    m "И не забывай, твой вклад в работу компании очень высок."
-    w1 "Да, миссис Бакфетт."
+    m "Vergiss nicht, dass diese Abteilung für die Firma sehr wichtig ist."
+    w1 "Ja, Frau Buckfett."
 
 translate german strings:
 
@@ -174,9 +174,9 @@ translate german strings:
 
     # game/Quests/EP2_06/Office/Worker1_Dialogs.rpy:88
     old "Ничего страшного."
-    new "Ничего страшного."
+    new "Es ist nichts."
 
     # game/Quests/EP2_06/Office/Worker1_Dialogs.rpy:88
     old "И почему же они еще не готовы?"
-    new "И почему же они еще не готовы?"
+    new "Warum sind sie noch nicht fertig?"
 

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_04/ep24_dialogues4_bardie2.rpy:25
 translate english ep24_dialogues4_bardie1_8e8ced13:

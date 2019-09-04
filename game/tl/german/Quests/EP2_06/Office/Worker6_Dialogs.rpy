@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:8
 translate german worker6_look_ef4c461b:
@@ -99,30 +99,30 @@ translate german takeReportsFlashCard_Worker6_49f3e42b:
 
     # m "Привет. Мне нужны твои отчеты. Скопируй их мне на флеш карту."
     # w6 "Да, но зачем? Все же можно отправить на электронную почту..."
-    m "Привет. Мне нужны твои отчеты. Скопируй их мне на флеш карту."
-    w6 "Да, но зачем? Все же можно отправить на электронную почту..."
+    m "Hi. Ich brauche deine Berichte. Kopiere sie bitte auf diesen USB Stick."
+    w6 "Warum? Ich kann sie per Mail senden."
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:80
 translate german takeReportsFlashCard_Worker6_8b81304b:
 
     # w5 "Миссис Бакфетт, не обращайте внимания на Грету. Она не понимает всю важность этого действия."
     # w5 "Давайте я помогу."
-    w5 "Миссис Бакфетт, не обращайте внимания на Грету. Она не понимает всю важность этого действия."
-    w5 "Давайте я помогу."
+    w5 "Frau Buckfett, ignorieren sie Greta, sie versteht die Wichtigkeit nicht."
+    w5 "Lass mich helfen."
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:85
 translate german takeReportsFlashCard_Worker6_9b00cddc:
 
     # w5 "Грета, скопируй все свои ответы миссис Бакфетт. Я надеюсь, в них нет ошибок."
     # w6t "Ах ты сволочь..."
-    w5 "Грета, скопируй все свои ответы миссис Бакфетт. Я надеюсь, в них нет ошибок."
+    w5 "Greta, kopiere alle deine Berichte. Ich hoffe, sie sind tadellos."
     w6t "Oh, du Bastard ..."
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:90
 translate german takeReportsFlashCard_Worker6_79832b17:
 
     # w6 "В отличие от твоих, они качественные!"
-    w6 "В отличие от твоих, они качественные!"
+    w6 "Im Gegensatz zu deinen, sind sie das."
 
 # game/Quests/EP2_06/Office/Worker6_Dialogs.rpy:95
 translate german takeReportsFlashCard_Worker6_09bccbd2:
@@ -130,7 +130,7 @@ translate german takeReportsFlashCard_Worker6_09bccbd2:
     # w6 "Пожалуйста, миссис Бакфетт."
     # m "Спасибо."
     # mt "Похоже, с этими двумя надо будет что-то решать..."
-    w6 "Пожалуйста, миссис Бакфетт."
+    w6 "Hier, Frau Buckfett."
     m "Danke."
-    mt "Похоже, с этими двумя надо будет что-то решать..."
+    mt "Ich muss mir wegen denen beiden was einfallen lassen."
 

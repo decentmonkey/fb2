@@ -12,5 +12,5 @@ translate english strings:
 
     # game/Characters/Pub/Bartender_Waitress.rpy:4
     old "Жена бармена. Лапает меня, пока Джо не видит."
-    new "Жена бармена. Лапает меня, пока Джо не видит."
+    new "Bartender's wife. Groping me while Joe cant see."
 

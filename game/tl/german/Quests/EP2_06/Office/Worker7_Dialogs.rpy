@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:10
 translate german worker7_look_520402d7:
@@ -108,13 +108,13 @@ translate german worker7_dialogue_office_2b3f9588:
 translate german takeReportsFlashCard_Worker7_2696404e:
 
     # m "Вот флеш карта, скопируй сюда сделанные тобою отчеты."
-    m "Вот флеш карта, скопируй сюда сделанные тобою отчеты."
+    m "Hier ist ein USB Stick. Kopiere deine Berichte da rauf."
 
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:80
 translate german takeReportsFlashCard_Worker7_dd0c6b8b:
 
     # mt "Хоть бы она меня не узнала... Она могла видеть меня в трущобах..."
-    mt "Хоть бы она меня не узнала... Она могла видеть меня в трущобах..."
+    mt "Ich hoffe, sie erkennt mich nicht wieder. Sie hat mich in den Slums gesehen."
 
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:81
 translate german takeReportsFlashCard_Worker7_a737dfd6:
@@ -126,7 +126,7 @@ translate german takeReportsFlashCard_Worker7_a737dfd6:
 translate german takeReportsFlashCard_Worker7_cd4b42a6:
 
     # w7t "Меня не покидает чувство, что я где-то видела Миссис Бакфетт. И определенно не здесь."
-    w7t "Меня не покидает чувство, что я где-то видела Миссис Бакфетт. И определенно не здесь."
+    w7t "Ich habe immer noch das Gefühl, dass ich diese Frau Buckfett schon mal gesehen habe, und definitiv nicht hier."
 
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:87
 translate german takeReportsFlashCard_Worker7_4269d984:
@@ -134,9 +134,9 @@ translate german takeReportsFlashCard_Worker7_4269d984:
     # w7t "Может быть в каком-то журнале..."
     # w7t "Возможно..."
     # w7t "Хотя нет!"
-    w7t "Может быть в каком-то журнале..."
+    w7t "Vielleicht in dem Magazin..."
     w7t "Das kann passieren..."
-    w7t "Хотя нет!"
+    w7t "Oder auch nicht!"
 
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:92
 translate german takeReportsFlashCard_Worker7_20f7fff2:
@@ -144,9 +144,9 @@ translate german takeReportsFlashCard_Worker7_20f7fff2:
     # m "Эй! О чем задумалась? Я жду твои отчеты!"
     # w7 "Да, мэм, копируется..."
     # w7t "Черт, сбила с мысли..."
-    m "Эй! О чем задумалась? Я жду твои отчеты!"
-    w7 "Да, мэм, копируется..."
-    w7t "Черт, сбила с мысли..."
+    m "Hey! Hör zu träumen auf! Wo sind die Berichte?"
+    w7 "Ja. Ich kopiere."
+    w7t "Verdammt. Was habe ich nur gedacht?"
 
 # game/Quests/EP2_06/Office/Worker7_Dialogs.rpy:97
 translate german takeReportsFlashCard_Worker7_9d7b21cc:
@@ -154,5 +154,5 @@ translate german takeReportsFlashCard_Worker7_9d7b21cc:
     # w7 "Готово."
     # m "Хорошо, продолжай работу."
     w7 "Ok."
-    m "Хорошо, продолжай работу."
+    m "Ok. Weiter machen."
 

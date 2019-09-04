@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:7
 translate german cit3_dialog_1_3346b6c2:
@@ -451,22 +451,22 @@ translate german cit3_dialog_3_b69d8e8a:
 
     # m "Ты купишь это платье просто так."
     # m "Иначе я сейчас оторву тебе член..."
-    m "Ты купишь это платье просто так."
-    m "Иначе я сейчас оторву тебе член..."
+    m "Du wirst das Kleid genau so kaufen!"
+    m "Oder ich schneide dir den Schwanz ab..."
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:424
 translate german cit3_dialog_3_eac02bba:
 
     # m "ЯСНО ТЕБЕ!"
-    m "ЯСНО ТЕБЕ!"
+    m "VERSTANDEN?!"
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:427
 translate german cit3_dialog_3_0f0784dc:
 
     # cit3 "Ладно, ладно! Я куплю его!"
     # cit3 "Пожалуйста, отпусти меня!"
-    cit3 "Ладно, ладно! Я куплю его!"
-    cit3 "Пожалуйста, отпусти меня!"
+    cit3 "Gut, gut! Ich kaufe es!"
+    cit3 "Bitte, lass mich gehen!"
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:432
 translate german cit3_dialog_3_e2d88195:
@@ -474,9 +474,9 @@ translate german cit3_dialog_3_e2d88195:
     # m "То-то же..."
     # mt "Мне надо было с самого начала так и поступить."
     # mt "Ни к чему было терпеть все эти унижения..."
-    m "То-то же..."
-    mt "Мне надо было с самого начала так и поступить."
-    mt "Ни к чему было терпеть все эти унижения..."
+    m "Jetzt weißt du es..."
+    mt "Ich hätte das von Anfang an machen sollen."
+    mt "Es gab keinen Grund, all diese Demütigungen zu ertragen."
 
 # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:441
 translate german cit3_dialog_3_847c1fda:
@@ -564,7 +564,7 @@ translate german strings:
 
     # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:413
     old "Ты купишь это платье просто так!"
-    new "Ты купишь это платье просто так!"
+    new "Du wirst das Kleid genau so kaufen!"
 
     # game/Quests/EP2_05/Shop/Citizen3_Dialog.rpy:436
     old "Спустя некоторое время..."

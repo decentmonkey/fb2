@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_03/ep23_dialogues2_biff.rpy:23
 translate english ep23_dialogues1_0eef9d1a:
@@ -6,7 +6,7 @@ translate english ep23_dialogues1_0eef9d1a:
     # m "Биф... Мог бы ты дать еще немного денег?"
     # "Хотя бы еще $ 100?..."
     m "Biff, could you please give me some more money?"
-    "Can you pay me a bit more, 0 more at least?"
+    "Can you pay me a bit more, $ 100 more at least?"
 
 # game/Quests/EP2_03/ep23_dialogues2_biff.rpy:27
 translate english ep23_dialogues1_577830cb:
@@ -68,7 +68,7 @@ translate english ep23_dialogues1_0eef9d1a_1:
     # m "Биф... Мог бы ты дать еще немного денег?"
     # "Хотя бы еще $ 100?..."
     m "Biff, could you please give me some more money?"
-    "Can you pay me a bit more, 0 more at least?"
+    "Can you pay me a bit more, $ 100 more at least?"
 
 # game/Quests/EP2_03/ep23_dialogues2_biff.rpy:57
 translate english ep23_dialogues1_577830cb_1:
@@ -136,7 +136,7 @@ translate english ep23_dialogues1_0eef9d1a_2:
     # m "Биф... Мог бы ты дать еще немного денег?"
     # "Хотя бы еще $ 100?..."
     m "Biff, could you please give me some more money?"
-    "Can you pay me a bit more, 0 more at least?"
+    "Can you pay me a bit more, $ 100 more at least?"
 
 # game/Quests/EP2_03/ep23_dialogues2_biff.rpy:90
 translate english ep23_dialogues1_577830cb_2:

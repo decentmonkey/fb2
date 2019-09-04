@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:57
 translate german citizens_dialogue_refuse_079708da:

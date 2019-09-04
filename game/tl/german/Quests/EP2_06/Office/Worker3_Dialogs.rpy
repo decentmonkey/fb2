@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:11
 translate german worker3_look_0c71281a:
@@ -96,7 +96,7 @@ translate german worker3_dialogue_office_fc91423b:
 translate german takeReportsFlashCard_Worker3_70e3287e:
 
     # m "Я за отчетами, надеюсь, они готовы."
-    m "Я за отчетами, надеюсь, они готовы."
+    m "Ich bin wegen den Berichten hier. Ich hoffe, sie sind fertig."
 
 # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:78
 translate german takeReportsFlashCard_Worker3_72bc9d4b:
@@ -105,16 +105,16 @@ translate german takeReportsFlashCard_Worker3_72bc9d4b:
     # m "Это не обязательно. Возьми эту карту и скопируй на нее всю свою работу."
     # w3 "Да, мэм."
     # m "Встань, когда с тобой говорит Босс."
-    w3 "Да, я только кое-что проверю..."
-    m "Это не обязательно. Возьми эту карту и скопируй на нее всю свою работу."
+    w3 "Ja, lassen sie mich nur kurz was überprüfen."
+    m "Das ist unnötig, kopieren sie sie einfach."
     w3 "Ja."
-    m "Встань, когда с тобой говорит Босс."
+    m "Steh auf, wenn der Chef mit dir redet."
 
 # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:84
 translate german takeReportsFlashCard_Worker3_e2f118b0:
 
     # w3 "Мэм, могу я спросить?"
-    w3 "Мэм, могу я спросить?"
+    w3 "Kann ich etas fragen bitte?"
 
 # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:87
 translate german takeReportsFlashCard_Worker3_364c9c00:
@@ -122,25 +122,25 @@ translate german takeReportsFlashCard_Worker3_364c9c00:
     # m "Да, что ты хотела?"
     # w3 "В офисе жарко. Когда нам установят кондиционер?"
     # mt "Понятия не имею, скорее всего никогда."
-    m "Да, что ты хотела?"
-    w3 "В офисе жарко. Когда нам установят кондиционер?"
-    mt "Понятия не имею, скорее всего никогда."
+    m "Ja, was?"
+    w3 "Es ist sehr heiß im Büro. Wann bekommen wir die Klimaanlage?"
+    mt "Ich habe keine Ahnung. Wahrscheinlich nie."
 
 # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:92
 translate german takeReportsFlashCard_Worker3_723d5b53:
 
     # m "Я не знаю, мне надо выдать распоряжение. Нужно подождать, пока у меня будет настроение для этого."
     # w3 "Да мэм, спасибо."
-    m "Я не знаю, мне надо выдать распоряжение. Нужно подождать, пока у меня будет настроение для этого."
-    w3 "Да мэм, спасибо."
+    m "Ich weiß es nicht. Ich muss das anordnen. Vielleicht wenn ich gute Laune habe."
+    w3 "Ok, danke."
 
 # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:98
 translate german takeReportsFlashCard_Worker3_5ef67f47:
 
     # m "Не сейчас, я занята."
     # w3 "Да мэм..."
-    m "Не сейчас, я занята."
-    w3 "Да мэм..."
+    m "Jetzt nicht, ich bin beschäftigt."
+    w3 "Ja. Ich habe etwas wichtiges mit ihm zu besprechen."
 
 # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:103
 translate german takeReportsFlashCard_Worker3_b0eebdf5:
@@ -149,10 +149,10 @@ translate german takeReportsFlashCard_Worker3_b0eebdf5:
     # m "Хорошо."
     # m "Продолжай в том же духе."
     # w3 "Да, миссис Бакфетт."
-    w3 "Все скопировалось."
+    w3 "Alles ist kopiert."
     m "Na gut."
-    m "Продолжай в том же духе."
-    w3 "Да, миссис Бакфетт."
+    m "Mach weiter so."
+    w3 "Ja, Frau Buckfett."
 
 translate german strings:
 
@@ -166,9 +166,9 @@ translate german strings:
 
     # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:85
     old "Спрашивай"
-    new "Спрашивай"
+    new "Frage"
 
     # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:85
     old "Нет"
-    new "Нет"
+    new "Nein"
 

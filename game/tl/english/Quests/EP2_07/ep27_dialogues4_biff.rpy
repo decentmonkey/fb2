@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:15
 translate english ep27_dialogues4_biff1_915eb37e:
@@ -55,12 +55,12 @@ translate english ep27_dialogues4_biff1_4a0fcb67:
     m "What reports, Biff?" 
 
 # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:51
-translate english ep27_dialogues4_biff1_544fb46a:
+translate english ep27_dialogues4_biff1_2a5a9800:
 
     # biff "Отчеты тех, кто подчиняется тебе, цыпочка." 
     # biff "Они ведь что-то делают, правда?"
     # biff "Значит у них есть отчеты!"
-    # biff "Я хочу чтобы ты собирала их показывала мне."
+    # biff "Я хочу чтобы ты собирала их и показывала мне."
     biff "Reports of the people you are managing." 
     biff "They are doing something, aren't they?"
     biff "Meaning they have reports."
@@ -486,7 +486,7 @@ translate english ep27_dialogues4_biff8_e612037c:
 translate english ep27_dialogues4_biff9_bf1dfd7b:
 
     # mt "Я уже копировала отчет у этого сотрудника..."
-    mt "Я уже копировала отчет у этого сотрудника..."
+    mt "I've already got this employees report..."
 
 translate english strings:
 
@@ -520,5 +520,5 @@ translate english strings:
 
     # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:382
     old "Моника давно не сдавала отчеты."
-    new "Моника давно не сдавала отчеты."
+    new "Monica didn't submit reports in a while."
 

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:22
 translate english ep27_photoshoot_suit8_b6ecaf9f:
@@ -42,7 +42,7 @@ translate english ep27_photoshoot_suit8_c3bce7f0:
 translate english ep27_photoshoot_suit8_bc49bd9c:
 
     # alex_photograph "Они есть! Вот это украшение! Оно выполняет их роль!"
-    alex_photograph "Thre are! This decorative piece! It's supposed to play panties' role!"
+    alex_photograph "There are! This decorative piece! It's supposed to play panties' role!"
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:50
 translate english ep27_photoshoot_suit8_71550824:
@@ -85,7 +85,7 @@ translate english ep27_photoshoot_suit8_5726b1ab:
 
     # mt "Черт! Я знала что эти фотосессии доведут меня до такого!"
     # mt "Но мне нужно еще время... Еще немного времени... Надо как-то оттянуть этот момент..."
-    mt "Damn! I need it will come to this eventually!"
+    mt "Damn! I thought it will come to this eventually!"
     mt "But I need more time... A bit more time... I have to stall somehow..."
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:82
@@ -112,7 +112,7 @@ translate english ep27_photoshoot_suit8_1255b7b5:
 translate english ep27_photoshoot_suit8_9f2ef870:
 
     # help "Ожидание прогресса истории с Мелани."
-    help "Waiting for a progress in Melanie's story."
+    help "Waiting for progress in Melanie's story."
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:103
 translate english ep27_photoshoot_suit8_80584ae2:
@@ -205,7 +205,7 @@ translate english ep27_photoshoot_suit8_9a3634c9:
 
     # alex_photograph "Да, Мэм. Конечно!"
     # alex_photograph "Итак, Мотор!"
-    alex_photograph "Yes, Ma'am. Of course!"
+    alex_photograph "Yes, Ma'am. Of couuuuurse!"
     alex_photograph "So, action!"
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:194
@@ -374,7 +374,7 @@ translate english ep27_photoshoot_suit8_pose5_4d0627a0:
 translate english ep27_photoshoot_suit8_pose5_1f79c229:
 
     # m "Алекс, там точно ничего не видно?"
-    m "You really sure, Alex?"
+    m "You really are sure, Alex?"
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:558
 translate english ep27_photoshoot_suit8_pose5_dcbcae23:
@@ -421,9 +421,9 @@ translate english ep27_photoshoot_suit8_pose7_b3448420:
     m "It's a trending fashion magazine, not some porn?!"
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:688
-translate english ep27_photoshoot_suit8_pose7_b654165f:
+translate english ep27_photoshoot_suit8_pose7_f6f8b9e3:
 
-    # alex_photograph "Миссис Бакфетт, я буду снимать Вам только спереди!"
+    # alex_photograph "Миссис Бакфетт, я буду снимать Вас только спереди!"
     # alex_photograph "Положение Ваших ног лишь передает в кадр непринужденность."
     # m "Непринужденность?!"
     # m "Я лежу здесь голой задницей, раздвинув ноги!"
@@ -432,7 +432,7 @@ translate english ep27_photoshoot_suit8_pose7_b654165f:
     alex_photograph "Position of your legs gives off a relaxing vibe."
     m "Relaxing?!"
     m "I'm laying here with my butt naked and spread legs!"
-    m "At least there are no one behind! I'll die from shame if there was!"
+    m "At least there is no one behind! I'd die from shame if there were anyone!"
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:786
 translate english ep27_photoshoot_suit8_pose8_fe7e6555:
@@ -486,7 +486,7 @@ translate english ep27_photoshoot_suit8_pose8_c80de355:
 translate english ep27_photoshoot_suit8_pose8_eb9622d0:
 
     # help "Необходимо сделать все предыдущие кадры..."
-    help "Необходимо сделать все предыдущие кадры..."
+    help "Have to make all previous photos."
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:864
 translate english ep27_photoshoot_suit8_pose8_0546f742:
@@ -504,7 +504,7 @@ translate english ep27_photoshoot_suit8_pose8_d7188919:
     m "Melanie?"
     melanie "Photoshoot must be finished."
     melanie "Do what you have to do, Alex."
-    melanie "Mrs. Buckfett, spread your legs and give Alex the access."
+    melanie "Mrs. Buckfett, spread your legs and give Alex some access."
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:875
 translate english ep27_photoshoot_suit8_pose8_fccbcbad:
@@ -594,7 +594,7 @@ translate english ep27_photoshoot_suit8_pose8_911dd77c:
 translate english ep27_photoshoot_suit8_pose8_53045235:
 
     # alex_photograph "Новая модель трусиков от Модного Журнала! Она так идем Вам, Миссис Бакфетт!"
-    alex_photograph "Новая модель трусиков от Модного Журнала! Она так идем Вам, Миссис Бакфетт!"
+    alex_photograph "New panties model from the Fashion Magazine! It fits you so well, Mrs Buckfett!"
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:953
 translate english ep27_photoshoot_suit8_pose8_ebe627dc:
@@ -648,7 +648,7 @@ translate english ep27_photoshoot_suit8_pose8_993e59cc:
     # melanie "Миссис Бакфетт, я не хочу делать эту фотосессию вместо Вас."
     # melanie "Если я отдам Вам камеру и Вы сотрете сделанные кадры, то Вам придется все это повторить еще раз."
     melanie "Mrs. Buckfett, I don’t want to do it instead of you."
-    melanie "If I give camera back and you delete everything I'll have to do it all over again."
+    melanie "If I give the camera back and you delete everything I'll have to do it all over again."
 
 # game/Quests/EP2_07/ep27_photoshoot_suit8.rpy:1012
 translate english ep27_photoshoot_suit8_pose8_29a4f6ab_1:

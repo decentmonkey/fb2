@@ -685,7 +685,7 @@ label cit13_naked_boobs_dance_1st:
     m "Нет!"
     img 13716
     with fade
-    citizen13 "Жаль, но, возможно скоро ты изментшь свое мнение. Мы бы классно провели время."
+    citizen13 "Жаль, но, возможно скоро ты изменишь свое мнение. Мы бы классно провели время."
     citizen13 "Чуть не забыл... Вот твои деньги."
     $ nakedBoobsDanceFirstly_Cit13 = True
     return True

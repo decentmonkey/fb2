@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:12
 translate german ep25_dialogues2_steve1_3a2267eb:
@@ -1448,7 +1448,7 @@ translate german ep25_dialogues2_steve10_fce01b44:
 translate german ep25_dialogues2_steve10_e7a69a21:
 
     # steve "$ 1000, Моника!"
-    steve "00, Monica."
+    steve "$ 1000, Monica."
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:1275
 translate german ep25_dialogues2_steve10_32f7fc14:

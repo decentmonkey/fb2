@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:15
 translate german ep27_dialogues2_melanie1_10836444:
@@ -73,9 +73,9 @@ translate german ep27_dialogues2_melanie1_cec5853f:
     melanie "Okay, es ist notwendig, ihn zu besuchen."
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:129
-translate german ep27_dialogues2_melanie2_f05f871b:
+translate german ep27_dialogues2_melanie2_dd6459cc:
 
-    # reception_secretary "Здравствуйте, Миссис Мелани!" 
+    # reception_secretary "Здравствуйте, Мисс Мелани !" 
     # reception_secretary "Рада снова видеть Вас!"
     # reception_secretary "Вы решили навестить Мистера Дика?"
     reception_secretary "Hallo, Melanie!" 
@@ -175,10 +175,10 @@ translate german ep27_dialogues2_melanie2_c0227d65:
     dick_secretary "Ich habe dich her gebeten."
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:205
-translate german ep27_dialogues2_melanie2_c1bf285f:
+translate german ep27_dialogues2_melanie2_324312d8:
 
     # melanie "Ты?!" 
-    # melanie "Не слишком-ли смелая инициатива, юная девока?"
+    # melanie "Не слишком-ли смелая инициатива, юная девочка?"
     # melanie "Это слишком много чести для маленькой секретарши, которая спит со своим Боссом."
     # melanie "Ты ведь знаешь кто я такая."
     melanie "Du?!" 
@@ -986,7 +986,7 @@ translate german ep27_dialogues2_melanie2_4a327b6e:
 translate german ep27_dialogues2_melanie2_33b9c77d:
 
     # dick_secretary "А теперь потряси своими сиськами. Я хочу снять видео!"
-    dick_secretary "А теперь потряси своими сиськами. Я хочу снять видео!"
+    dick_secretary "Jetzt wackeln sie mit den Brüsten, ich will es filmen!"
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:829
 translate german ep27_dialogues2_melanie2_2274d9dc_1:
@@ -998,7 +998,7 @@ translate german ep27_dialogues2_melanie2_2274d9dc_1:
 translate german ep27_dialogues2_melanie2_9e0f0dd8:
 
     # dick_secretary "Мне надо повторить? Хочешь быть плохой подружкой?"
-    dick_secretary "Мне надо повторить? Хочешь быть плохой подружкой?"
+    dick_secretary "Muss ich mich widerholen? Willst du eine gute Freundin sein?"
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:836
 translate german ep27_dialogues2_melanie2_43017bac_2:
@@ -1055,10 +1055,10 @@ translate german ep27_dialogues2_melanie2_43017bac_3:
     melanie "..."
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:911
-translate german ep27_dialogues2_melanie2_10845e89:
+translate german ep27_dialogues2_melanie2_b000eb09:
 
     # dick_secretary "Пожалуйста, сними этот сапожок!" 
-    # dick_secretary "Будь хорошей подружой!"
+    # dick_secretary "Будь хорошей подружкой!"
     dick_secretary "Zieh meine Schuhe aus!" 
     dick_secretary "Sei eine gute Freundin!"
 
@@ -1235,8 +1235,8 @@ translate german ep27_dialogues2_melanie2_bc4e2f9c:
 
     # melanie "Я не готова сделать это!"
     # dick_secretary "Хорошая подружка должна быть готова всегда."
-    melanie "Я не готова сделать это!"
-    dick_secretary "Хорошая подружка должна быть готова всегда."
+    melanie "Ich kann das noch nicht tun!"
+    dick_secretary "Eine gute Freundin muss immer alles tun können."
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1088
 translate german ep27_dialogues2_melanie2_2274d9dc_6:
@@ -1312,5 +1312,5 @@ translate german strings:
 
     # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1071
     old "Сделать что приказала Виктория."
-    new "Сделать что приказала Виктория."
+    new "Mach, was Victoria will."
 

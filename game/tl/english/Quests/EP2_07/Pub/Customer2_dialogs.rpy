@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_07/Pub/Customer2_dialogs.rpy:8
 translate english customer2_1stmeeting_8a4aac3a:
@@ -90,7 +90,7 @@ translate english customer2_1stmeeting_3ffa1a21:
 translate english customer2_1stmeeting_210de569:
 
     # customer2 "Спасибо, можешь идти. Кстати, у тебя большой потенциал, ха-ха-ха. Буду ждать тебя на сцене."
-    customer2 "Thank you, you can go. You have a big potential by the way. Can't wait to see you on the scene."
+    customer2 "Thank you, you can go. You have a big potential by the way. Can't wait to see you on the stage."
 
 # game/Quests/EP2_07/Pub/Customer2_dialogs.rpy:69
 translate english customer2_1stmeeting_f5db6773:
@@ -120,7 +120,7 @@ translate english customer2_serve1_d0f4241b:
 translate english customer2_serve1_34371c43:
 
     # customer2 "И постарайся успеть, пока я не допил свой бокал!"
-    customer2 "Try to do it before I finished my current glass!"
+    customer2 "Try to do it before I finish my current glass!"
 
 # game/Quests/EP2_07/Pub/Customer2_dialogs.rpy:104
 translate english customer2_serve1_fe87a27c:
@@ -129,9 +129,9 @@ translate english customer2_serve1_fe87a27c:
     m "Your beer."
 
 # game/Quests/EP2_07/Pub/Customer2_dialogs.rpy:108
-translate english customer2_serve1_4a539f48:
+translate english customer2_serve1_a7a935cc:
 
-    # customer2 "Ага, могла бы и побыстрее, хотя все вы, деревеньщины медлительные."
+    # customer2 "Ага, могла бы и побыстрее, хотя все вы, деревенщины медлительные."
     customer2 "You can do faster. All your villagers are so slow."
 
 # game/Quests/EP2_07/Pub/Customer2_dialogs.rpy:111
@@ -141,11 +141,11 @@ translate english customer2_serve1_6a3d20ea:
     m "I'm not from the village."
 
 # game/Quests/EP2_07/Pub/Customer2_dialogs.rpy:114
-translate english customer2_serve1_e9919603:
+translate english customer2_serve1_0d079093:
 
     # customer2 "Ну да, рассказывай. Если бы ты была не из деревни, тебя бы здесь не было!"
     # customer2 "Свободна! И подходи ко мне время от времени, я быстро пью."
-    # customer2 "И если не будешь хорошо работать, может и зараобоаешь..."
+    # customer2 "И, если будешь хорошо работать, может и заработаешь..."
     customer2 "Yea, of course. Why else you would be in a hole like that!"
     customer2 "Go now! Come back from time to time, I'm a fast drinker."
     customer2 "And if you work well, you might earn some money."

@@ -136,5 +136,5 @@ translate english strings:
 
     # game/scripts/init.rpy:357
     old "Юлия боится Монику"
-    new "Юлия боится Монику"
+    new "Julia is afraid of Monica"
 

@@ -12,5 +12,5 @@ translate german strings:
 
     # game/Characters/Pub/Bartender.rpy:4
     old "Бармен в Shiny Hole. Лапает меня, пока Эшли не видит."
-    new "Бармен в Shiny Hole. Лапает меня, пока Эшли не видит."
+    new "Barkeeper im Shiny Hole. Befummelt mich, wenn Ashley es nicht sieht."
 

@@ -685,7 +685,7 @@ label ep27_photoshoot_suit8_pose7:
         if corruption < PS8_monica_pose8_corruption_required:
             call corruption_required(PS8_monica_pose8_corruption_required) from _call_corruption_required_66
             return
-        alex_photograph "Миссис Бакфетт, я буду снимать Вам только спереди!"
+        alex_photograph "Миссис Бакфетт, я буду снимать Вас только спереди!"
         alex_photograph "Положение Ваших ног лишь передает в кадр непринужденность."
         m "Непринужденность?!"
         m "Я лежу здесь голой задницей, раздвинув ноги!"

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2/ep2_dialogues5.rpy:50
 translate german monica_rich_hotel_entrance_31ad8d20:

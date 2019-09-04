@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:30
 translate german ep26_dialogues4_restaurant1_f2888de6:
@@ -380,7 +380,7 @@ translate german ep26_dialogues4_restaurant4_00cc55d2:
     # waitress "Мэм, что Вам будет угодно?"
     # waitress "Специально для Вас у нас скидка 50 процентов на все меню."
     waitress "Was möchten sie denn?"
-    waitress "Speziell für sie haben wir einen 50 % Rabatt auf jedes Menü."
+    waitress "Speziell für sie haben wir einen 50 prozent Rabatt auf jedes Menü."
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:403
 translate german ep26_dialogues4_restaurant4_4e40b86b:

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_06/Office/Worker2_Dialogs.rpy:8
 translate english worker2_look_318735e9:
@@ -118,7 +118,7 @@ translate english takeReportsFlashCard_Worker2_d887e7ac:
     # m "Я за твоими отчетами? Я надеюсь, они готовы?"
     # w2 "Миссис Бакфетт, я системный администратор."
     # m "Это очень хорошо, а теперь возьми эту флеш карту и скопируй на нее свои отчеты."
-    m "I here for reports. Are they ready?"
+    m "I am here for the reports. Are they ready?"
     w2 "Mrs. Buckfett, I'm a system administrator."
     m "Good, now take this drive and copy your reports."
 
@@ -129,7 +129,7 @@ translate english takeReportsFlashCard_Worker2_379c754b:
     # w2t "Да, похоже она совсем не разбирается в этом... С таким же успехом я могу сказать, что чищу вентиляторы... Ха-ха!"
     # m "Напомни, а чем ты тут вообще занимаешься ?"
     # w2 "Я слежу за работой сети, компьютеров и автоматизацией различных бизнес процессов..."
-    w2 "Mrs. Buckfett, I don’t write reports, I'm a system administrator."
+    w2 "Mrs. Buckfett, I don’t write reports, I'm a system a-d-m-i-n-i-s-t-r-a-t-o-r."
     w2t "Looks like she really doesn’t know anything about it, I can as well say that I clean fans... Ahaha!"
     m "So, what are you doing here again?"
     w2 "I manage our network, look after personal computers our employees use and automation of the business processes..."
@@ -146,7 +146,7 @@ translate english takeReportsFlashCard_Worker2_1d46c453:
 translate english takeReportsFlashCard_Worker2_e2b80d55:
 
     # mt "Как я могла забыть... Он разбирается в компьютерах... Нужно не забывать об этом..."
-    mt "How could I forget? He is one good at computers... I should forget stuff like that..."
+    mt "How could I forget? He is te one good with computers... I should not forget stuff like that..."
 
 translate english strings:
 

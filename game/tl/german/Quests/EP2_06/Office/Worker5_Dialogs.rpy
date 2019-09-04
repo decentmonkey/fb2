@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:8
 translate german worker5_look_5ede57a7:
@@ -138,13 +138,13 @@ translate german worker5_dialogue_office_4669f28f:
 translate german takeReportsFlashCard_Worker5_dc884f27:
 
     # m "Здравствуй. Скопируй, пожалуйста, отчеты, которые ты сделал. Вот флеш карта."
-    m "Здравствуй. Скопируй, пожалуйста, отчеты, которые ты сделал. Вот флеш карта."
+    m "Hallo. Bitte kopiere die Berichte auf diesem USB Stick."
 
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:103
 translate german takeReportsFlashCard_Worker5_cd518e5f:
 
     # w5 "Я очень рад, что Вы подошли Миссис Бакфетт. Да, конечно, я сейчас."
-    w5 "Я очень рад, что Вы подошли Миссис Бакфетт. Да, конечно, я сейчас."
+    w5 "Ich bin froh, dass sie da sind. Natürlich, Frau Buckfett, nur ein paar Minuten."
 
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:107
 translate german takeReportsFlashCard_Worker5_a8af2e6f:
@@ -152,29 +152,29 @@ translate german takeReportsFlashCard_Worker5_a8af2e6f:
     # w5 "Хотите кофе, миссис Бакфетт?"
     # m "Нет."
     # w5 "Жаль, если вдруг захотите, дайте знать."
-    w5 "Хотите кофе, миссис Бакфетт?"
+    w5 "Möchten sie einen Kaffee, Frau Buckfett?"
     m "Nein."
-    w5 "Жаль, если вдруг захотите, дайте знать."
+    w5 "Bitte lassen sie mich wissen, wenn sie ihre Meinung ändern."
 
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:117
 translate german takeReportsFlashCard_Worker5_da229d1c:
 
     # w5 "Вот, я все скопировал Вам папку в 'Наиболее качественные отчеты', чтобы Вам было проще."
-    w5 "Вот, я все скопировал Вам папку в 'Наиболее качественные отчеты', чтобы Вам было проще."
+    w5 "Das ist alles. Ich habe alles in den Ordner 'die präzisesten Berichte' kopiert, ganz zu ihrem Wohlbefinden."
 
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:119
 translate german takeReportsFlashCard_Worker5_3db4c551:
 
     # mt "Да уж, что бы я делала без этой папки?"
     # m "Я сообщу, если ты мне понадобишься."
-    mt "Да уж, что бы я делала без этой папки?"
-    m "Я сообщу, если ты мне понадобишься."
+    mt "Ja, was hättest du nur ohne diesen Ordner gemacht?"
+    m "Ich sage dir, ob ich dich wieder brauche."
 
 # game/Quests/EP2_06/Office/Worker5_Dialogs.rpy:123
 translate german takeReportsFlashCard_Worker5_557748ae:
 
     # w5 "Да, миссис Бакфетт, можете на меня рассчитывать в любое время."
-    w5 "Да, миссис Бакфетт, можете на меня рассчитывать в любое время."
+    w5 "Ja, Frau Buckfett. Sie können immer auf mich zählen."
 
 translate german strings:
 

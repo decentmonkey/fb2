@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_07/ep27_dialogues1_melanie.rpy:11
 translate english ep27_dialogues1_melanie1_bfe9389a:
@@ -180,7 +180,7 @@ translate english ep27_dialogues1_melanie1b_9a4a120f:
     # mt "Мне надо {c}идти к Мелани{/c}..."
     # mt "Мне нужна информация, любая..."
     # mt "Это поможет мне выбраться из тех неприятностей, которые слишком затянулись..."
-    mt "Мне надо {c}идти к Мелани{/c}..."
+    mt "I have to {c}go to Melanie{/c}..."
     mt "I need information. Any information."
     mt "It will help me to get out of my troubles, which last for too long already."
 
@@ -645,10 +645,10 @@ translate english ep27_dialogues1_melanie2_91c05462:
     m "It breaks any acceptable norm!"
 
 # game/Quests/EP2_07/ep27_dialogues1_melanie.rpy:473
-translate english ep27_dialogues1_melanie2_b6832d0f:
+translate english ep27_dialogues1_melanie2_2ec397f8:
 
     # melanie "Миссис Бакфетт."
-    # melanie "Закон - это лишь инструмент для управления теми, к кого нет власти."
+    # melanie "Закон - это лишь инструмент для управления теми, у кого нет власти."
     # melanie "Для тех, у кого есть деньги и власть, закон не существует..."
     melanie "Mrs. Buckfett."
     melanie "Law - is just an instrument to rule those who do not have power."

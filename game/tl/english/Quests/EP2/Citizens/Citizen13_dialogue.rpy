@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:10
 translate english citizen13_dialogue_b8f1bd99:
@@ -833,9 +833,9 @@ translate english cit13_naked_boobs_dance_1st_2fce66a2:
     m "No!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:688
-translate english cit13_naked_boobs_dance_1st_1bb6d7b8:
+translate english cit13_naked_boobs_dance_1st_154b17f6:
 
-    # citizen13 "Жаль, но, возможно скоро ты изментшь свое мнение. Мы бы классно провели время."
+    # citizen13 "Жаль, но, возможно скоро ты изменишь свое мнение. Мы бы классно провели время."
     # citizen13 "Чуть не забыл... Вот твои деньги."
     citizen13 "Pitty, but maybe you will change your mind soon. That was amazing!"
     citizen13 "Almost forgot. Here is your money."
@@ -1170,15 +1170,15 @@ translate english strings:
 
     # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:94
     old "Станцуй с голыми сиськами. (disabled)"
-    new "Станцуй с голыми сиськами. (disabled)"
+    new "Dance with bare tits. (disabled)"
 
     # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:94
     old "Станцуй с голыми сиськами. (мало свиданий) (disabled)"
-    new "Станцуй с голыми сиськами. (мало свиданий) (disabled)"
+    new "Dance with bare tits. (not enough dates) (disabled)"
 
     # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:94
     old "Станцуй с голыми сиськами."
-    new "Станцуй с голыми сиськами."
+    new "Dance with bare tits."
 
     # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:94
     old "Достаточно на сегодня."

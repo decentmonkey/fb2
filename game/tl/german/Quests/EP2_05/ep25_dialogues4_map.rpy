@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_05/ep25_dialogues4_map.rpy:3
 translate german ep25_dialogues4_map1_b1524046:

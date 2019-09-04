@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:6
 translate english customer10_1stmeeting_be9c1409:
@@ -36,7 +36,7 @@ translate english customer10_1stmeeting_d0f4241b:
 translate english customer10_1stmeeting_7f305589:
 
     # customer10 "Любопытно... [monica_pub_name] - это сценическое имя или настоящее?"
-    customer10 "Hmmm.... [monica_pub_name] - is it a real name or scene name?"
+    customer10 "Hmmm.... [monica_pub_name] - is it a real name or your stage name?"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:32
 translate english customer10_1stmeeting_1bb91c60:
@@ -65,9 +65,9 @@ translate english customer10_1stmeeting_e6ec6224:
     m "Nothing... I like my name..."
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:45
-translate english customer10_1stmeeting_20f5c292:
+translate english customer10_1stmeeting_652ca166:
 
-    # customer10 "А мне вот что-то не очень... Надо бы тебе придумать другое имя...Подуммай над этим!"
+    # customer10 "А мне вот что-то не очень... Надо бы тебе придумать другое имя...Подумай над этим!"
     # customer10 "А пока принеси мне что нибудь выпить!"
     customer10 "And I don’t... You have to think about it!"
     customer10 "For now, bring me something to drink!"
@@ -119,9 +119,9 @@ translate english customer10_1stmeeting_1a897bb2:
     customer10 "Thanks for the drinks, see you soon."
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:86
-translate english customer10_1stmeeting_204c0845:
+translate english customer10_1stmeeting_7fe8c33b:
 
-    # mt "Надеюсь, не скоро."
+    # mt "Надеюсь, нескоро."
     mt "Not very soon, I hope."
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:94
@@ -195,7 +195,7 @@ translate english customer10_serve1_b6eadb2b:
     # customer10 "Отлично! Я уже вижу тебя на сцене!"
     # m "Этого не будет."
     m "[monica_pub_name]"
-    customer10 "Great! I already can see you on the scene!"
+    customer10 "Great! I already can see you on the stage!"
     m "Will never happen."
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:138

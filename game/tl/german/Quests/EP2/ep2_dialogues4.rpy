@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2/ep2_dialogues4.rpy:8
 translate german monica_office_entrance_biff_dialogue1_698a18e0:

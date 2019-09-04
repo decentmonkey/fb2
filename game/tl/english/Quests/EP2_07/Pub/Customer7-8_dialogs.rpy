@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_07/Pub/Customer7-8_dialogs.rpy:16
 translate english customer78_1stmeeting_fd726aa7:
@@ -41,9 +41,9 @@ translate english customer78_1stmeeting_33e1977b:
     customer7 "[monica_pub_name], wanna earn some money?"
 
 # game/Quests/EP2_07/Pub/Customer7-8_dialogs.rpy:37
-translate english customer78_1stmeeting_2b8cd6c3:
+translate english customer78_1stmeeting_2f70e34a:
 
-    # mt "Да я зарабатываю по больше чем вся твоя семья и твой товарищ и все их родственники во всем мире!"
+    # mt "Да я зарабатываю побольше, чем вся твоя семья и твой товарищ, и все их родственники во всем мире!"
     mt "I was earning more than whole your family and your friends by my own!"
 
 # game/Quests/EP2_07/Pub/Customer7-8_dialogs.rpy:40
@@ -91,9 +91,9 @@ translate english customer78_1stmeeting_69f7da41:
     customer7 "Depending on what you will show..."
 
 # game/Quests/EP2_07/Pub/Customer7-8_dialogs.rpy:68
-translate english customer78_1stmeeting_37c6bb37:
+translate english customer78_1stmeeting_79fea4fe:
 
-    # m "Я поняла, мне это не интересно."
+    # m "Я поняла, мне это неинтересно."
     m "I see, not interested."
 
 # game/Quests/EP2_07/Pub/Customer7-8_dialogs.rpy:71

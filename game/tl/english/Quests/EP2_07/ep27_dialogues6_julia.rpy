@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:41
 translate english ep27_dialogues6_julia1_bcd962f6:
@@ -87,9 +87,9 @@ translate english ep27_dialogues6_julia3_c6a1eb96:
     m "What are you doing here, Fred?!"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:130
-translate english ep27_dialogues6_julia3_bfeb6228:
+translate english ep27_dialogues6_julia3_421d7808:
 
-    # fred "Миссис Бакфетт, я работаю в этой компании, поэтому Вам вопрос звучит странно."
+    # fred "Миссис Бакфетт, я работаю в этой компании, поэтому Ваш вопрос звучит странно."
     # fred "И непрофессионально."
     fred "That's a strange question coming from you, Mrs. Buckfett. Am I not working in this company?"
     fred "You sound unprofessional."
@@ -163,9 +163,9 @@ translate english ep27_dialogues6_julia3_d1f70c04_1:
     julia "..."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:198
-translate english ep27_dialogues6_julia3_3b6411d0:
+translate english ep27_dialogues6_julia3_94c301ce:
 
-    # m "Фред, ты не слишком-ли ты нарываешься?!"
+    # m "Фред, не слишком-ли ты нарываешься?!"
     m "Don't you think that you are allowing yourself too much, Fred?!"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:201
@@ -217,9 +217,9 @@ translate english ep27_dialogues6_julia3_080d0778:
     fred "Oh, Mrs. Buckfett. For your butt I have some special plans."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:235
-translate english ep27_dialogues6_julia3_75d8c011:
+translate english ep27_dialogues6_julia3_59eaa063:
 
-    # fred "Они также связаня с попками Стефани и Ребекки, если Вы помните..."
+    # fred "Они также связаны с попками Стефани и Ребекки, если Вы помните..."
     fred "Plans connected with butts of Stephanie and Rebecca."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:244
@@ -323,9 +323,9 @@ translate english ep27_dialogues6_julia3_f7384d2e:
     fred "And after that, she was prohibited to even wear panties."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:310
-translate english ep27_dialogues6_julia3_cff7683c:
+translate english ep27_dialogues6_julia3_506fcf73:
 
-    # fred "И она теперь трет пятно на ковре без трусикой, сверкая своей очаровательной попой."
+    # fred "И она теперь трет пятно на ковре без трусиков, сверкая своей очаровательной попой."
     fred "And now she is polishing the spot on the carpet showing off her bare butt."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:316
@@ -733,12 +733,12 @@ translate english ep27_dialogues6_julia8_b5905be7:
     m "You don’t allow me to change clothes in peace! Trying to sniff something out!"
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:661
-translate english ep27_dialogues6_julia8_738f6779:
+translate english ep27_dialogues6_julia8_117c584b:
 
     # fred "Миссис Бакфетт, Вы снова прекрасно справились!"
     # fred "Сегодня Вы скажете Юлии что у нее сексуальная фигура и грудь."
     # fred "Затем попросите повернуться ее спиной и сказать что у нее красивая попа."
-    # fred "Вы должны произнести именно это слова!"
+    # fred "Вы должны произнести именно эти слова!"
     fred "Mrs. Buckfett, you did well again!"
     fred "Today you will tell Julia that she has a sexy body and chest."
     fred "Then you will ask her to turn around and show you her butt."
@@ -936,7 +936,7 @@ translate english ep27_dialogues6_julia10a_a2692991:
     # m "Ненавижу его..."
     m "FRED!!!"
     m "Dirty bastard..."
-    m "I have him..."
+    m "I hate him..."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:841
 translate english ep27_dialogues6_julia11_2f77fc15:
@@ -1274,11 +1274,11 @@ translate english strings:
 
     # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:2
     old "Отношения с Юлией..."
-    new "Отношения с Юлией..."
+    new "Relationships with Julia..."
 
     # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:2
     old "Заставить Юлию собрать отчеты вместо Моники."
-    new "Заставить Юлию собрать отчеты вместо Моники."
+    new "Make Julia collect reports in Monica's place."
 
     # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:2
     old "Юлия, что там с отчетами, которые надо обработать сегодня?"

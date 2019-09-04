@@ -1,12 +1,12 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_03/ep23_dialogues6_melanie_dick.rpy:52
-translate english ep23_dialogues6_1_22b00af0:
+translate english ep23_dialogues6_1_6c9055fe:
 
-    # reception_secretary "Здравствуйте, Миссис Мелани!"
+    # reception_secretary "Здравствуйте, Мисс Мелани!"
     # "Это Вы? Я не верю своим глазам!"
     # "Чем я могу быть полезна для Вас?"
-    reception_secretary "Hello, Mrs. Melanie!"
+    reception_secretary "Hello, Ms. Melanie!"
     "Is it really you? I can`t believe my eyes!"
     "What can I do for you?"
 
@@ -47,11 +47,11 @@ translate english ep23_dialogues6_1_43017bac:
     melanie "..."
 
 # game/Quests/EP2_03/ep23_dialogues6_melanie_dick.rpy:70
-translate english ep23_dialogues6_1_6619ff92:
+translate english ep23_dialogues6_1_e799572c:
 
-    # reception_secretary "Миссис Мелани, разрешите взять Ваш автограф?"
+    # reception_secretary "Мисс Мелани, разрешите взять Ваш автограф?"
     # "Это для моей дочери, она большая Ваша поклонница!"
-    reception_secretary "Mrs. Melanie, may I have your autograph?"
+    reception_secretary "Ms. Melanie, may I have your autograph?"
     "It's for my daughter, she is your big fan!"
 
 # game/Quests/EP2_03/ep23_dialogues6_melanie_dick.rpy:73

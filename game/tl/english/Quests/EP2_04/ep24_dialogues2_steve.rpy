@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:9
 translate english ep24_dialogues2_steve1_42e92cf2:
@@ -2422,7 +2422,7 @@ translate english ep24_dialogues3_steve10g_eaf8a181:
     # m "Твоя цена?"
     # steve "$ 1000, Моника!"
     m "Your price?"
-    steve "HOW MUCH?!?!"
+    steve "$ 1000, Monica!"
 
 # game/Quests/EP2_04/ep24_dialogues2_steve.rpy:2136
 translate english ep24_dialogues3_steve10g_32f7fc14:

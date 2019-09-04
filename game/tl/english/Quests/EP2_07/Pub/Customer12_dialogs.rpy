@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_07/Pub/Customer12_dialogs.rpy:8
 translate english customer12_1stmeeting_be9c1409:
@@ -84,7 +84,7 @@ translate english customer12_serve1_8aa417c1:
 translate english customer12_serve1_30d3990e:
 
     # customer12 "Пиво, бургер и ваш изумительный харчо!"
-    customer12 "Beer, burger, and your amazing Kharcho!"
+    customer12 "Beer, burger, and your amazing soup!"
 
 # game/Quests/EP2_07/Pub/Customer12_dialogs.rpy:66
 translate english customer12_serve1_5ade49bf:
@@ -133,9 +133,9 @@ translate english customer12_serve1_4fd392c6:
     mt "Idiot..."
 
 # game/Quests/EP2_07/Pub/Customer12_dialogs.rpy:115
-translate english customer12_serve1_33ebd61f:
+translate english customer12_serve1_ea941821:
 
-    # mt "И не только по этому..."
+    # mt "И не только поэтому..."
     mt "And not just because of this..."
 
 # game/Quests/EP2_07/Pub/Customer12_dialogs.rpy:118

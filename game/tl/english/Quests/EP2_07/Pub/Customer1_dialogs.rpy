@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_07/Pub/Customer1_dialogs.rpy:8
 translate english customer1_1stmeeting_d65254f7:
@@ -37,9 +37,9 @@ translate english customer1_1stmeeting_a2af2c05:
     mt "I have to be more careful..."
 
 # game/Quests/EP2_07/Pub/Customer1_dialogs.rpy:27
-translate english customer1_1stmeeting_64ecad77:
+translate english customer1_1stmeeting_5c3342e0:
 
-    # customer1 "Я так и думал. Вообще, чтобы получать хорошие чаевый, нужно как минимум быть вежливой."
+    # customer1 "Я так и думал. Вообще, чтобы получать хорошие чаевые, нужно как минимум быть вежливой."
     # customer1 "Например ты должна была сказать:"
     customer1 "To earn good tips, you at least have to be polite."
     customer1 "For example, you should say"
@@ -93,10 +93,10 @@ translate english customer1_serve1_340149e1:
     customer1 "Be polite, tell me what's your name..."
 
 # game/Quests/EP2_07/Pub/Customer1_dialogs.rpy:61
-translate english customer1_serve1_2cf4b6b5:
+translate english customer1_serve1_4a1362b1:
 
     # mt "Насколько знаю, официантки ведут себя вежливо."
-    # mt "Попытаюсь притвориться, наксолько у меня хватит сил..."
+    # mt "Попытаюсь притвориться, насколько у меня хватит сил..."
     mt "As far as I know, the waitress is supposed to be polite..."
     mt "I'll try to pretend..."
 
@@ -121,9 +121,9 @@ translate english customer1_serve1_94420ba9:
     m "Fine."
 
 # game/Quests/EP2_07/Pub/Customer1_dialogs.rpy:91
-translate english customer1_serve1_68347f8f:
+translate english customer1_serve1_ad892a7a:
 
-    # customer1 "Запомни, быть хорошей официанткой очень сложно. Кекоторые получают по 100 долларов чаевых за заказ. А пока держи..."
+    # customer1 "Запомни, быть хорошей официанткой очень сложно. Некоторые получают по 100 долларов чаевых за заказ. А пока держи..."
     customer1 "Remember, being good waitress is hard. Some can earn 100 dollars. But for now, take it."
 
 # game/Quests/EP2_07/Pub/Customer1_dialogs.rpy:96
@@ -160,5 +160,5 @@ translate english strings:
 
     # game/Quests/EP2_07/Pub/Customer1_dialogs.rpy:57
     old "Быть вежливой. (Моника недостаточно приличная) (disabled)"
-    new "Быть вежливой. (Моника недостаточно приличная) (disabled)"
+    new "Be polite. (Monica is not good enough) (disabled)"
 

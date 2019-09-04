@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/Question_Helper_Info.rpy:11
 translate english question_helper_hairdye_99c30ae8:
@@ -95,8 +95,8 @@ translate english question_clothing_shop_sell_dress_c37d1348:
 
     # help "Подходить к клиентам и пытаться продать платье."
     # help "Этот клиент, в итоге, должен купить его."
-    help "Подходить к клиентам и пытаться продать платье."
-    help "Этот клиент, в итоге, должен купить его."
+    help "Go to customers and try to sell the dress."
+    help "This customer will buy it in the end."
 
 translate english strings:
 
@@ -190,7 +190,7 @@ translate english strings:
 
     # game/Quests/Question_Helper_Info.rpy:125
     old "Биф требует, чтобы я собирала отчеты у своих сотрудников и приносила ему. За кого он меня держит?!"
-    new "Биф требует, чтобы я собирала отчеты у своих сотрудников и приносила ему. За кого он меня держит?!"
+    new "Biff wants me to collect reports from my employees. Who does he think I am?"
 
     # game/Quests/Question_Helper_Info.rpy:125
     old "Биф хочет чтобы я ходила к нему на кастинги. Если я хочу убедить его взять меня в офис, мне надо завоевать его доверие. Но смогу-ли я на это пойти?"
@@ -314,31 +314,27 @@ translate english strings:
 
     # game/Quests/Question_Helper_Info.rpy:125
     old "Я устроилась работать официанткой в Shiny Hole. У меня нет зарплаты и почти все чаевые надо отдавать хозяевам, но это шанс заработать хоть какие-то деньги. Я не могу выносить этих жутких клиентов, но у меня нет выбора. Тем более, это ненадолго..."
-    new "Я устроилась работать официанткой в Shiny Hole. У меня нет зарплаты и почти все чаевые надо отдавать хозяевам, но это шанс заработать хоть какие-то деньги. Я не могу выносить этих жутких клиентов, но у меня нет выбора. Тем более, это ненадолго..."
-
-    # game/Quests/Question_Helper_Info.rpy:125
-    old "Shiny Hole"
-    new "Shiny Hole"
+    new "I got work at Shiny Hole as a waitress. There is no salary and almost all my tips I have to give to the owners. I can also barely get on with those disgusting customers. But it's all just temporary... and I need this job..."
 
     # game/Quests/Question_Helper_Info.rpy:125
     old "Кажется, Джо пытается меня лапать, когда я мою посуду... Ненавижу эту работу!"
-    new "Кажется, Джо пытается меня лапать, когда я мою посуду... Ненавижу эту работу!"
+    new "Looks like Joe tried to grope me while I was washing dishes... I hate this job!"
 
     # game/Quests/Question_Helper_Info.rpy:125
     old "Кажется, Эшли пытается меня лапать. Я не понимаю с какой целью. Ведь у нее есть муж!"
-    new "Кажется, Эшли пытается меня лапать. Я не понимаю с какой целью. Ведь у нее есть муж!"
+    new "Looks like Ashley tried to grope me while I was washing dishes... Doesn't she has a husband?!"
 
     # game/Quests/Question_Helper_Info.rpy:125
     old "Мне удалось договориться с Джо, чтобы снова работать официанткой. Для этого мне пришлось позволить ему лапать меня, пока его жена не видит. Моника, ты уверена что это правильный путь?"
-    new "Мне удалось договориться с Джо, чтобы снова работать официанткой. Для этого мне пришлось позволить ему лапать меня, пока его жена не видит. Моника, ты уверена что это правильный путь?"
+    new "I managed to make a deal with Joe to work as a waitress again. But I had to let him to grope me. Monica do you really think that it's a right way?"
 
     # game/Quests/Question_Helper_Info.rpy:125
     old "Я танцевала голой перед Джо, пока он дрочил на меня. А потом пряталась за диваном от его жены! Моника, ты точно помнишь кто ты?! Ты не [monica_pub_name]! Одумайся!"
-    new "Я танцевала голой перед Джо, пока он дрочил на меня. А потом пряталась за диваном от его жены! Моника, ты точно помнишь кто ты?! Ты не [monica_pub_name]! Одумайся!"
+    new "I danced naked in front of Joe, while he was jerking off. And then was hiding behind a sofa from his wife! Monica, come on, wake up! You are not [monica_pub_name]!"
 
     # game/Quests/Question_Helper_Info.rpy:125
     old "Мне удалось договориться с Эшли, чтобы снова работать официанткой. Эта грязная Эшли - гребаная лесбиянка! Неужели я способна на такое?!"
-    new "Мне удалось договориться с Эшли, чтобы снова работать официанткой. Эта грязная Эшли - гребаная лесбиянка! Неужели я способна на такое?!"
+    new "I managed to make a deal with Ashley to work as a waitress again. She is a fucking lesbian! Am I really ready for this?!"
 
     # game/Quests/Question_Helper_Info.rpy:125
     old "Любой ценой избегать встречи с Маркусом!"
@@ -346,5 +342,5 @@ translate english strings:
 
     # game/Quests/Question_Helper_Info.rpy:125
     old "Мелани советует мне самой придти к Маркусу. Якобы это может помочь... Готова-ли Я на это пойти и что меня ждет?"
-    new "Мелани советует мне самой придти к Маркусу. Якобы это может помочь... Готова-ли Я на это пойти и что меня ждет?"
+    new "Melanie advises me to go to Marcus. She says it might help me... Am I really going to do it?"
 

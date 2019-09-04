@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:124
 translate german ep22_dialogues5_0a_5932acdd:
@@ -1953,7 +1953,7 @@ translate german ep22_dialogues5_13a_4ffd1e69:
 
     # mt "$ 5000 каждую неделю!"
     # "Сучка!!!"
-    mt "00 jede Woche!"
+    mt "$ 5.000 jede Woche!"
     "Schlampe!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1566

@@ -1,11 +1,11 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:13
-translate english ep27_dialogues7_pub1_08c69d28:
+translate english ep27_dialogues7_pub1_9a5cbf4e:
 
     # m "Эшли..."
     # m "Можно-ли попросить дать мне еще другую работу, чтобы я..."
-    # m "Что я зарабатывала какие-то деньги здесь?"
+    # m "Чтобы я зарабатывала какие-то деньги здесь?"
     m "Ashley."
     m "Do you think there is any more work for me?"
     m "For me to earn money here?"
@@ -336,13 +336,13 @@ translate english ep27_dialogues7_pub3_763d2737:
 translate english ep27_dialogues7_pub3a_997ce750:
 
     # mt "Моя смена закончена. Пусть дальше с ними общается Эшли. Это ее уровень!"
-    mt "Моя смена закончена. Пусть дальше с ними общается Эшли. Это ее уровень!"
+    mt "My shift is over. He is Ashley's problem now. It's her level."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:265
 translate english ep27_dialogues7_pub3b_ac66409f:
 
     # mt "Все, хватит!"
-    mt "Все, хватит!"
+    mt "That's it, enough!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:267
 translate english ep27_dialogues7_pub3b_b6187c3a:
@@ -350,15 +350,15 @@ translate english ep27_dialogues7_pub3b_b6187c3a:
     # mt "Моя смена закончена. Теперь мне надо отдать чаевые Эшли."
     # mt "С другой стороны, мне бы эти чаевые тоже бы не помешали..."
     # mt "Мне не очень хочется {c}отдавать их Эшли{/c}..."
-    mt "Моя смена закончена. Теперь мне надо отдать чаевые Эшли."
-    mt "С другой стороны, мне бы эти чаевые тоже бы не помешали..."
-    mt "Мне не очень хочется {c}отдавать их Эшли{/c}..."
+    mt "My shift is over. Now I have to give my tips to Ashley."
+    mt "On the other hand, they would be very handy for me..."
+    mt "I don’t really want to {c}give them away to Ashley{/c}..."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:271
 translate english ep27_dialogues7_pub3b_a32c8c53:
 
     # mt "Моя смена закончена. Мне надо сказать Эшли что у меня нет чаевых за сегодня."
-    mt "Моя смена закончена. Мне надо сказать Эшли что у меня нет чаевых за сегодня."
+    mt "My shift is over. I have to tell Ashley that there were no tips today."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:284
 translate english ep27_dialogues7_pub4_6b58e0b3:
@@ -392,7 +392,7 @@ translate english ep27_dialogues7_pub5_7d4b0ca8:
 translate english ep27_dialogues7_pub6a_59ea2514:
 
     # mt "Я не собираюсь отдавать никому мои чаевые!"
-    mt "Я не собираюсь отдавать никому мои чаевые!"
+    mt "I'm not going to give away my tips!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:323
 translate english ep27_dialogues7_pub7_e3ee6871:
@@ -413,10 +413,10 @@ translate english ep27_dialogues7_pub7_1e6fb6ed:
     m "Here are the tips I got."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:338
-translate english ep27_dialogues7_pub7_d3de0759:
+translate english ep27_dialogues7_pub7_ca3401b8:
 
     # ashley "Хорошо. Вот твои десять процентов."
-    # ashley "Завтра приходит работать еще."
+    # ashley "Завтра приходи работать еще."
     ashley "Alright, here are your 10 percent."
     ashley "Come again tomorrow."
 
@@ -474,7 +474,7 @@ translate english ep27_dialogues7_pub8_87b40ef2:
 translate english ep27_dialogues7_pub8_c1a73088:
 
     # m "В тот день было $ [pubMonicaWaitressTips]."
-    m "В тот день было $ [pubMonicaWaitressTips]."
+    m "That day I had $ [pubMonicaWaitressTips]."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:413
 translate english ep27_dialogues7_pub8_f2f09928:
@@ -1135,8 +1135,8 @@ translate english ep27_dialogues7_pub12_cfa305f4:
     joe "To show off your body for money!"
     joe "You just taking it slowly."
     joe "Want to get used to this place first."
-    joe "I understan you, [monica_pub_name]."
-    joe "All girls dancing on the scene were a bit shy first."
+    joe "I understand you, [monica_pub_name]."
+    joe "All girls dancing on the stage were a bit shy at first."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1079
 translate english ep27_dialogues7_pub12_5ea61393:
@@ -2013,10 +2013,10 @@ translate english ep27_dialogues7_pub17_b9524506:
     ashley "Yeees!" 
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1796
-translate english ep27_dialogues7_pub17_a5308a37:
+translate english ep27_dialogues7_pub17_236952b0:
 
     # ashley "Ты отлично справилась, [monica_pub_name]."
-    # ashley "Но, если при килентах ты будешь такой же шлюхой, какой была сейчас, я тебя уволю."
+    # ashley "Но, если при клиентах ты будешь такой же шлюхой, какой была сейчас, я тебя уволю."
     ashley "You did well, [monica_pub_name]."
     ashley "But if you will behave like a whore with the customers, I'll fire you."
 
@@ -2070,11 +2070,11 @@ translate english strings:
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:347
     old "Закончить работу."
-    new "Закончить работу."
+    new "Finish work."
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:347
     old "Продолжить."
-    new "Продолжить."
+    new "Continue."
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:383
     old "Попросить снова взять работать в Shiny Hole."
@@ -2082,15 +2082,15 @@ translate english strings:
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:444
     old "Отдать деньги"
-    new "Отдать деньги"
+    new "Give away money."
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:444
     old "Попросить прощения у Джо."
-    new "Попросить прощения у Джо."
+    new "Ask Joe's forgiveness."
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:444
     old "Попросить прощения у Эшли."
-    new "Попросить прощения у Эшли."
+    new "Ask Ashley's forgiveness."
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:444
     old "Идти танцевать на сцену (в следующем обновлении) (disabled)"
@@ -2106,19 +2106,19 @@ translate english strings:
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:513
     old "Прощение у Джо 1"
-    new "Прощение у Джо 1"
+    new "Joe's forgiveness 1"
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:513
     old "Прощение у Джо 2"
-    new "Прощение у Джо 2"
+    new "Joe's forgiveness 2"
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:513
     old "Прощение у Джо 3"
-    new "Прощение у Джо 3"
+    new "Joe's forgiveness 3"
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:513
     old "Прощение у Джо 4"
-    new "Прощение у Джо 4"
+    new "Joe's forgiveness 4"
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:761
     old "Согласиться показать грудь."
@@ -2138,19 +2138,19 @@ translate english strings:
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1477
     old "Прощение у Эшли 1"
-    new "Прощение у Эшли 1"
+    new "Ashley's forgiveness 1"
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1477
     old "Прощение у Эшли 2"
-    new "Прощение у Эшли 2"
+    new "Ashley's forgiveness 2"
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1477
     old "Прощение у Эшли 3"
-    new "Прощение у Эшли 3"
+    new "Ashley's forgiveness 3"
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1477
     old "Прощение у Эшли 4"
-    new "Прощение у Эшли 4"
+    new "Ashley's forgiveness 4"
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1513
     old "Позволить Эшли поцеловать себя."

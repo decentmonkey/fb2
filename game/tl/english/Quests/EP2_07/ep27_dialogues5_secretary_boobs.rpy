@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:14
 translate english ep27_dialogues5_secretary_boobs1_bb649694:
@@ -303,9 +303,9 @@ translate english ep27_dialogues5_secretary_boobs6_3e929528:
     secretary "Mrs. Buckfett..."
 
 # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:252
-translate english ep27_dialogues5_secretary_boobs6_06ed67c1:
+translate english ep27_dialogues5_secretary_boobs6_98db71d0:
 
-    # citizen4 "Эта девочка не хочет показывать своих машылек."
+    # citizen4 "Эта девочка не хочет показывать своих малышек."
     # citizen4 "Я ухожу!"
     citizen4 "This girl doesn't want to do it."
     citizen4 "I'm leaving!"
@@ -467,11 +467,11 @@ translate english ep27_dialogues5_secretary_boobs6_18a0fbb6:
     m "I'll give you a bonus later."
 
 # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:451
-translate english ep27_dialogues5_secretary_boobs7_010b5d3e:
+translate english ep27_dialogues5_secretary_boobs7_69e25a6f:
 
     # mt "Возможно это было несколько черезчур для такой тонкой натуры, как моя секретарша..."
     # mt "Но, с другой стороны, если даже такой леди как Я пришлось идти на подобные жертвы..."
-    # mt "Но моей подчиненной и подавно следует сделать это!"
+    # mt "То моей подчиненной и подавно следует сделать это!"
     # mt "У впереди сложный путь наверх, в мою прежнюю жизнь."
     # mt "И я не остановлюсь ни перед чем, чтобы пройти его!"
     mt "It might have been too much for a delicate person like my secretary."
@@ -488,7 +488,7 @@ translate english strings:
 
     # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:31
     old "Совершить этот поступок. (Моника слишком приличная) (disabled)"
-    new "Совершить этот поступок. (Моника слишком приличная) (disabled)"
+    new "Do it. (Monica is too good) (disabled)"
 
     # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:31
     old "Отказаться от этого."
@@ -504,7 +504,7 @@ translate english strings:
 
     # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:344
     old "Разрешить за $ 50 сверху."
-    new "Разрешить за $ 50 сверху."
+    new "Allow for $ 50 on top."
 
     # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:344
     old "Запретить."

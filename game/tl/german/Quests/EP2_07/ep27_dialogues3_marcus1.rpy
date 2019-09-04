@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:5
 translate german ep27_dialogues_marcus1_1_75325162:
@@ -7,7 +7,7 @@ translate german ep27_dialogues_marcus1_1_75325162:
     # mt "У меня ноги подкашываются от ужаса... Мне страшно... Что делать?"
     # mt "Стоит-ли мне идти туда..."
     mt "Ich habe Angst..."
-    mt "У меня ноги подкашываются от ужаса... Мне страшно... Что делать?"
+    mt "Meine Beine zittern... Ich habe Angst... Was mache ich?"
     mt "Soll ich da wirklich hin gehen?"
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:13
@@ -38,7 +38,7 @@ translate german ep27_dialogues_marcus1_1b_7c97686e:
 translate german ep27_dialogues_marcus1_1c_68859321:
 
     # mt "В таком виде я точно туда не пойду. {c}Мне надо переодеться{/c}."
-    mt "В таком виде я точно туда не пойду. {c}Мне надо переодеться{/c}."
+    mt "So gehe ich da nicht rein. {c}Ich muss mich umziehen{/c}."
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:36
 translate german ep27_dialogues_marcus1_1d_6376d9ca:
@@ -520,7 +520,7 @@ translate german ep27_dialogues_marcus1_8_cc2c831f:
     mt "Gitter."
     mt "Ich kann daran rütteln, um Bob zu holen."
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:427
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:429
 translate german ep27_dialogues_marcus1_9_aa6553df:
 
     # overseer "Ну, что тебе?!"
@@ -532,7 +532,7 @@ translate german ep27_dialogues_marcus1_9_aa6553df:
     overseer "Und ich habe Kopfschmerzen!"
     overseer "Noch mehr als zuvor!"
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:433
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:435
 translate german ep27_dialogues_marcus1_9_b067e1fc:
 
     # mt "Дьявол! Я ненавижу этого урода!"
@@ -546,7 +546,7 @@ translate german ep27_dialogues_marcus1_9_b067e1fc:
     mt "Das Essen ist furchtbar hier, aber ich bin irgendwie schon daran gewohnt."
     mt "Für eine junge Lady wie mich ist es hart, aber ich kann damit umgehen."
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:442
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:444
 translate german ep27_dialogues_marcus1_9_fb7f6ffd:
 
     # m "Мистер Боб."
@@ -554,7 +554,7 @@ translate german ep27_dialogues_marcus1_9_fb7f6ffd:
     m "Bob!"
     m "Kannst du mir bitte etwas von dem tollen Essen bringen?"
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:445
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:447
 translate german ep27_dialogues_marcus1_9_2c0d9962:
 
     # overseer "Не положено! Сегодня заключенных уже кормили!"
@@ -564,13 +564,13 @@ translate german ep27_dialogues_marcus1_9_2c0d9962:
     overseer "Iss morgen!"
     mt "Mein Gott, Arschloch!"
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:450
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:452
 translate german ep27_dialogues_marcus1_9_405faabd:
 
     # m "Спасибо, Мистер Боб... Я подожду до завтра..."
     m "Danke Bob, ich warte auf Morgen."
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:453
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:455
 translate german ep27_dialogues_marcus1_9_9a7d14fd:
 
     # mt "Не больно-то и хотелось есть его помои!"
@@ -580,19 +580,19 @@ translate german ep27_dialogues_marcus1_9_9a7d14fd:
     mt "Ich bin sogar froh!"
     mt "Es ist besser, bis morgen zu warten, und eine normale Mahlzeit in der Stadt zu essen!"
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:460
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:462
 translate german ep27_dialogues_marcus1_10_20f3bac9:
 
     # mt "Я устала. Может быть лечь поспать?"
     mt "Ich bin müde. Soll ich schlafen gehen?"
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:477
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:480
 translate german ep27_dialogues_marcus1_11_a10b07c3:
 
     # mt "Завтра новый день."
     mt "Morgen ist ein neuer Tag."
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:480
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:483
 translate german ep27_dialogues_marcus1_11_21a5a8d3:
 
     # mt "С утра я встречусь с Маркусом лицом к лицу и решу все мои проблемы."
@@ -600,7 +600,7 @@ translate german ep27_dialogues_marcus1_11_21a5a8d3:
     mt "Morgen treffe ich Marcus unter vier Augen und löse all meine Probleme."
     mt "Ich bin stark und weiß, dass ich es kann."
 
-# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:484
+# game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:487
 translate german ep27_dialogues_marcus1_11_cd8a73ac:
 
     # mt "Все будет хорошо!"
@@ -630,11 +630,11 @@ translate german strings:
     old "Попытаться уйти."
     new "Versuche zu gehen."
 
-    # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:489
-    old "Узнайте что ждет Монику\nв грядущем обновлении игры!"
-    new "Узнайте что ждет Монику\nв грядущем обновлении игры!"
-
     # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:492
+    old "Узнайте что ждет Монику\nв грядущем обновлении игры!"
+    new "Finde raus, was mit Monica passiert ist, im nächsten Update."
+
+    # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:495
     old "Fashion Business"
     new "Fashion Business"
 

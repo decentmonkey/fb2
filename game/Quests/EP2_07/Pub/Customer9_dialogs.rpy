@@ -63,7 +63,7 @@ label customer9_1stmeeting:
     customer9 "Мне пожалуй ничего, но я очень рад нашему знакомству!"
     img 14410
     with diss
-    mt "Не адекватный урод..."
+    mt "Неадекватный урод..."
     return
 
 label customer9_serve1:

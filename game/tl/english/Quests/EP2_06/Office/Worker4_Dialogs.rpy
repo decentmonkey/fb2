@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:11
 translate english worker4_look_0c71281a:
@@ -117,9 +117,9 @@ translate english takeReportsFlashCard_Worker4_cc0852e0:
     w4 "Alright. Mrs. Buckfett, can I send them to your email?"
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:97
-translate english takeReportsFlashCard_Worker4_fed805da:
+translate english takeReportsFlashCard_Worker4_a0cabca4:
 
-    # mt "На самом деле, мне твои отчеты неинтересны ни на почте, на на карте..."
+    # mt "На самом деле, мне твои отчеты неинтересны ни на почте, ни на карте..."
     # mt "Гребаный Биф!"
     mt "I don’t care whether your reports are on USB drive or in the email!"
     mt "Fucking Biff!"

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_07/ep27_dialogues1_melanie.rpy:11
 translate german ep27_dialogues1_melanie1_bfe9389a:
@@ -132,7 +132,7 @@ translate german ep27_dialogues1_melanie1_4a25c597:
     # melanie "Приходите завтра ко мне домой..."
     # melanie "Я живу рядом с отелем Le Grand."
     melanie "Kommen Sie morgen zu mir nach Hause ..."
-    melanie "Я живу рядом с отелем Le Grand."
+    melanie "Ich lebe in der Nähe vom Hotel La Grande."
 
 # game/Quests/EP2_07/ep27_dialogues1_melanie.rpy:113
 translate german ep27_dialogues1_melanie1_c02599a2:
@@ -180,7 +180,7 @@ translate german ep27_dialogues1_melanie1b_9a4a120f:
     # mt "Мне надо {c}идти к Мелани{/c}..."
     # mt "Мне нужна информация, любая..."
     # mt "Это поможет мне выбраться из тех неприятностей, которые слишком затянулись..."
-    mt "Мне надо {c}идти к Мелани{/c}..."
+    mt "Ich muss {c}zu Melanie{/c} gehen..."
     mt "Ich brauche Infos. Jede Info."
     mt "Es wird mir helfen, meine Probleme los zu werden, in denen ich schon zu lange bin."
 
@@ -645,10 +645,10 @@ translate german ep27_dialogues1_melanie2_91c05462:
     m "Dies ist ein Verstoß gegen alle denkbaren Normen!"
 
 # game/Quests/EP2_07/ep27_dialogues1_melanie.rpy:473
-translate german ep27_dialogues1_melanie2_b6832d0f:
+translate german ep27_dialogues1_melanie2_2ec397f8:
 
     # melanie "Миссис Бакфетт."
-    # melanie "Закон - это лишь инструмент для управления теми, к кого нет власти."
+    # melanie "Закон - это лишь инструмент для управления теми, у кого нет власти."
     # melanie "Для тех, у кого есть деньги и власть, закон не существует..."
     melanie "Frau Buckfett."
     melanie "Gesetze - sind nur Werkzeuge die zu beherrschen, die keine Macht haben."
@@ -1181,8 +1181,8 @@ translate german ep27_dialogues1_melanie4_c3c641e9:
 
     # mt "Мелани говорила что ей опасно общаться со мной."
     # mt "Думаю, пока лучше не рисковать приближаться к ней..."
-    mt "Мелани говорила что ей опасно общаться со мной."
-    mt "Думаю, пока лучше не рисковать приближаться к ней..."
+    mt "Melanie hat mir gesagt, dass es riskant für sie ist, mit mir zu gehen."
+    mt "ich sollte mich momentan von ihr fern halten."
 
 translate german strings:
 

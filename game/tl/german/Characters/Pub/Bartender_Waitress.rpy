@@ -12,5 +12,5 @@ translate german strings:
 
     # game/Characters/Pub/Bartender_Waitress.rpy:4
     old "Жена бармена. Лапает меня, пока Джо не видит."
-    new "Жена бармена. Лапает меня, пока Джо не видит."
+    new "Die Frau des Barkeepers. Betatscht mich, wenn Joe es nicht sieht."
 

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:17
+﻿# TODO: Translation updated at 2019-09-04 20:22
 
 # game/Quests/EP2_07/Pub/Customer9_dialogs.rpy:6
 translate english customer9_1stmeeting_fd726aa7:
@@ -103,9 +103,9 @@ translate english customer9_1stmeeting_20f4a81d:
     customer9 "Don’t need anything, but I'm glad to meet you!"
 
 # game/Quests/EP2_07/Pub/Customer9_dialogs.rpy:66
-translate english customer9_1stmeeting_3f8c5555:
+translate english customer9_1stmeeting_0fa88eb4:
 
-    # mt "Не адекватный урод..."
+    # mt "Неадекватный урод..."
     mt "Retarded idiot..."
 
 # game/Quests/EP2_07/Pub/Customer9_dialogs.rpy:74

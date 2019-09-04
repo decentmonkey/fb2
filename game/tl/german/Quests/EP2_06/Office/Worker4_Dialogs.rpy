@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-03 15:21
+﻿# TODO: Translation updated at 2019-09-04 20:20
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:11
 translate german worker4_look_0c71281a:
@@ -112,49 +112,49 @@ translate german takeReportsFlashCard_Worker4_cc0852e0:
     # m "Здравствуй. Скопируй мне свои сделанные отчеты вот сюда."
     # w4t "Интересно, почему я должна их копировать на флеш карту? Уже давно ими не пользуются..."
     # w4 "Хорошо. Миссис Бакфетт, а зачем это? Я ведь могу их отправить Вам на почту."
-    m "Здравствуй. Скопируй мне свои сделанные отчеты вот сюда."
-    w4t "Интересно, почему я должна их копировать на флеш карту? Уже давно ими не пользуются..."
-    w4 "Хорошо. Миссис Бакфетт, а зачем это? Я ведь могу их отправить Вам на почту."
+    m "Hallo. Bitte kopiere die Berichte auf diesem USB Stick."
+    w4t "Soll ich sie wirklich kopieren? Die schaut do sowieso keiner an."
+    w4 "Ok, Frau Buckfett, kann ich sie auch per Mail senden?"
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:97
-translate german takeReportsFlashCard_Worker4_fed805da:
+translate german takeReportsFlashCard_Worker4_a0cabca4:
 
-    # mt "На самом деле, мне твои отчеты неинтересны ни на почте, на на карте..."
+    # mt "На самом деле, мне твои отчеты неинтересны ни на почте, ни на карте..."
     # mt "Гребаный Биф!"
-    mt "На самом деле, мне твои отчеты неинтересны ни на почте, на на карте..."
-    mt "Гребаный Биф!"
+    mt "Es ist mir scheiß egal, ob die Berichte auf dem Stick oder im Postfach sind."
+    mt "Verfluchter Biff!"
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:101
 translate german takeReportsFlashCard_Worker4_353e7248:
 
     # m "Сразу видно, ты ничего не понимаешь в безопасности. Это хороший способ!"
-    m "Сразу видно, ты ничего не понимаешь в безопасности. Это хороший способ!"
+    m "Offenbar verstehst du nichts von Sicherheit. Auf diesem Weg ist es die sicherste Methode."
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:104
 translate german takeReportsFlashCard_Worker4_82cf8647:
 
     # w3t "А у нашей начальницы отличная задница..."
-    w3t "А у нашей начальницы отличная задница..."
+    w3t "Unser Chef hat einen ziemlich heißen Arsch..."
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:107
 translate german takeReportsFlashCard_Worker4_f3a44b2f:
 
     # w3t "И сиськи ничего такие, но мои определенно больше!"
-    w3t "И сиськи ничего такие, но мои определенно больше!"
+    w3t "Und die Titten auch, obwohl meine größer sind!"
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:110
 translate german takeReportsFlashCard_Worker4_9a3974c3:
 
     # w4 "Но что если на флеш карте окажется вирус, или Вы ее потеряете."
     # m "Я? Я ее не потеряю."
-    w4 "Но что если на флеш карте окажется вирус, или Вы ее потеряете."
-    m "Я? Я ее не потеряю."
+    w4 "Aber was, wenn der Stick einen Virus hat oder sie ihn verlieren?"
+    m "Ich? Ihn verlieren?"
 
 # game/Quests/EP2_06/Office/Worker4_Dialogs.rpy:114
 translate german takeReportsFlashCard_Worker4_6e6f6d75:
 
     # mt "А она не такая и глупая... Или делает вид..."
     # mt "Все-равно она не умнее меня!"
-    mt "А она не такая и глупая... Или делает вид..."
-    mt "Все-равно она не умнее меня!"
+    mt "Sie ist nicht dumm... Tut sie sonst nur so?"
+    mt "Aber sie ist auch nicht schlauer als ich!"
 
