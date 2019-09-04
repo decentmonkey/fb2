@@ -51,14 +51,14 @@ label police_cell1_environment:
         if act=="l":
             img 5088
             with fade
-        mt "Какой ужас!"
-        mt "О БОЖЕ!"
-        call refresh_scene_fade() from _call_refresh_scene_fade_175
-        return
-    if obj_data["action"] == "h":
-        mt "Если честно, я не хочу подходить к ЭТОМУ..."
-        mt "Если только мне совсем не захочется..."
-        mt "Но, в любом случае, я буду делать это только пока никто не видит!"
+            mt "Какой ужас!"
+            mt "О БОЖЕ!"
+            call refresh_scene_fade() from _call_refresh_scene_fade_175
+            return
+        if act == "h":
+            mt "Если честно, я не хочу подходить к ЭТОМУ..."
+            mt "Если только мне совсем не захочется..."
+            mt "Но, в любом случае, я буду делать это только пока никто не видит!"
 
 
     return

@@ -17,7 +17,7 @@ label police_cell2:
 label police_cell2_init:
     $ add_object_to_scene("Monica", {"type":2, "base":"Police_Cell2_Monica_[cloth]_[monicaPoliceCell2Suffix]", "click" : "police_cell1_environment", "actions" : "l", "zorder" : 10}, scene="police_cell2")
 
-    $ add_object_to_scene("Bed", {"type":2, "base":"Police_Cell_2_Bed", "click" : "police_cell1_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="police_cell2")
+    $ add_object_to_scene("Bed", {"type":2, "base":"Police_Cell_2_Bed", "click" : "police_cell1_environment", "actions" : "lh", "zorder" : 0, "group":"environment"}, scene="police_cell2")
 
     $ add_object_to_scene("Cage", {"type":2, "base":"Police_Cell_2_Cage", "click" : "police_cell2_teleport", "actions" : "lw", "zorder" : 0, "group":"environment", "teleport":True}, scene="police_cell2")
     $ add_object_to_scene("Teleport_Cage1", {"type":3, "text" : _("КАМЕРА"), "rarrow" : "arrow_left_2", "base":"empty", "click" : "police_cell2_teleport", "xpos" : 210, "ypos" : 326, "zorder":5, "teleport":True}, scene="police_cell2")
