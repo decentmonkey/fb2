@@ -2729,7 +2729,24 @@ define offsets_table = {
     "rich_hotel_reception_reception_1":(229,505,829,623),
     "rich_hotel_reception_reception_1_overlay":(528,425,862,666),
     "rich_hotel_reception_reception_2":(216,438,862,633),
-    "rich_hotel_reception_reception_2_overlay":(511,383,925,643)
+    "rich_hotel_reception_reception_2_overlay":(511,383,925,643),
+    "police_cell1_monica_jailrobe_1_overlay":(242,922,892,1467),
+    "police_cell2_monica_jailrobe_2_overlay":(323,582,1077,1367),
+    "police_cell2_monica_jailrobe_3_overlay":(304,675,1036,1236),
+    "pub_monica_waitress1_overlay":(489,932,584,1034),
+    "hostel_street3_secretary_overlay":(956,8,1030,186),
+    "hostel_street3_secretary":(795,93,1009,177),
+    "police_cell1_monica_jailrobe_1":(311,1011,733,1229),
+    "police_cell2_monica_jailrobe_1":(254,703,1079,891),
+    "police_cell2_monica_jailrobe_2":(290,843,1030,1018),
+    "police_cell2_monica_jailrobe_3":(313,939,979,1126),
+    "police_cell3_monica_jailrobe_1":(461,356,1079,1469),
+    "pub_monica_waitress1":(175,926,564,1019),
+    "rich_hotel_restaurant_entrance_monica_casualdress1_waitress_visitor3":(0,290,1079,1775),
+    "rich_hotel_restaurant_entrance_waitress_angry":(50,1411,1079,1775),
+    "rich_hotel_restaurant_entrance_waitress_angry_overlay":(669,1156,1079,1659),
+    "rich_hotel_restaurant_entrance_waitress_smile":(45,1378,1079,1745),
+    "rich_hotel_restaurant_entrance_waitress_smile_overlay":(669,1135,1079,1581)
 }
 
 init python:
