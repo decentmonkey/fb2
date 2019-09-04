@@ -765,12 +765,12 @@ label ep27_dialogues2_melanie2:
     img 14069
     with Dissolve(0.2)
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_164
     w
     img 14071
     with Dissolve(0.2)
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_165
     w
     music Groove2_85
     img 14068

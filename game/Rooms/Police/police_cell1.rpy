@@ -25,7 +25,7 @@ label police_cell1_init:
 
 label police_cell1_teleport:
     if obj_name == "Teleport_Cage2":
-        call change_scene("police_cell2", "Fade_long")
+        call change_scene("police_cell2", "Fade_long") from _call_change_scene_377
     return
 
 label police_cell1_environment:
@@ -38,11 +38,11 @@ label police_cell1_environment:
             mt "Жуткая кровать."
             mt "Это ужас!"
         if act=="h":
-            call ep27_dialogues_marcus1_10()
+            call ep27_dialogues_marcus1_10() from _call_ep27_dialogues_marcus1_10
             if _return == False:
-                call refresh_scene_fade()
+                call refresh_scene_fade() from _call_refresh_scene_fade_174
                 return
-            call ep27_dialogues_marcus1_11()
+            call ep27_dialogues_marcus1_11() from _call_ep27_dialogues_marcus1_11
             return
 
     if obj_name == "Lamp":
@@ -53,7 +53,7 @@ label police_cell1_environment:
             with fade
         mt "Какой ужас!"
         mt "О БОЖЕ!"
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_175
         return
     if obj_data["action"] == "h":
         mt "Если честно, я не хочу подходить к ЭТОМУ..."

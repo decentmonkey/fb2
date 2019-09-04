@@ -58,7 +58,7 @@ label ep27_quests_melanie3_melanie_home_scene:
     $ add_hook("change_time_day", "ep27_quests_melanie5_victoria_scene1", scene="global") # Виктория звонит Мелани
     $ changeDayTime("evening")
     $ autorun_to_object("ep27_dialogues1_melanie3", scene="street_house_outside") # Комментарий после встречи с Мелани
-    call ep27_police1_init()
+    call ep27_police1_init() from _call_ep27_police1_init
 
 #    $ rain = True
 #    $ rainIntencity = 3

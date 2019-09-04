@@ -89,7 +89,7 @@ label ep27_dialogues_marcus1_2:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("5 минут спустя..."))
+    call textonblack(_("5 минут спустя...")) from _call_textonblack_31
     img black_screen
     with Dissolve(2.0)
     music Groove2_85
@@ -117,7 +117,7 @@ label ep27_dialogues_marcus1_2:
     m "Да, Сэр, конечно..."
     music stop
     sound man_steps
-    call textonblack(_("Спустя некоторое время..."))
+    call textonblack(_("Спустя некоторое время...")) from _call_textonblack_32
     img black_screen
     with Dissolve(1)
     ## Проходит время
@@ -489,10 +489,10 @@ label ep27_dialogues_marcus1_11:
 
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Узнайте что ждет Монику\nв грядущем обновлении игры!"))
+    call textonblack(_("Узнайте что ждет Монику\nв грядущем обновлении игры!")) from _call_textonblack_33
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Fashion Business"))
+    call textonblack(_("Fashion Business")) from _call_textonblack_34
     img black_screen
     with Dissolve(2.0)
     $ renpy.pause(2.0, hard=True)

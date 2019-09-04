@@ -28,14 +28,14 @@ label police_cell2_init:
 
 label police_cell2_teleport:
     if obj_name == "Teleport_Cage1":
-        call change_scene("police_cell1", "Fade_long")
+        call change_scene("police_cell1", "Fade_long") from _call_change_scene_378
         return
     if obj_name == "Cage":
         if act=="l":
             mt "Надо дергать эту проклятую решетку!"
             mt "Иначе меня никто не услышит!"
         if act=="w":
-            call change_scene("police_cell3")
+            call change_scene("police_cell3") from _call_change_scene_379
             return
     return
 

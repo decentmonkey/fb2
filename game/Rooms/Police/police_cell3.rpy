@@ -25,7 +25,7 @@ label police_cell3_init:
 
 label police_cell3_teleport:
     if obj_name == "Teleport_Cage2":
-        call change_scene("police_cell2", "Fade_long")
+        call change_scene("police_cell2", "Fade_long") from _call_change_scene_383
         return
     return
 
@@ -37,7 +37,7 @@ label police_cell3_environment:
             with vpunch
             return
         sound snd_jail_door_locked
-        call process_hooks("cage_interact", "police")
+        call process_hooks("cage_interact", "police") from _call_process_hooks_72
         return
     if obj_name == "Monica":
         mt "Надо дергать эту проклятую решетку!"
