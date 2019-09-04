@@ -50,20 +50,20 @@ define bettyFitnessProgressAmount = 50 #Прогресс с Бетти за по
 define bettyCleaningProgessRegressAmount = -10 # Насколько убавляется прогресс с Бетти если Моника пропустила уборку
 define bettyTryOutInGovernessClothRegressAmount = -10 # Насколько убавляется прогресс с Бетти если Моника пытается выйти за пределы дома в одежде гувернантки
 
-define bardieCleaningUpskirtTry = 20 #15 #Прогресс с Барди за попытку подсмотреть во время уборки (начальная стадия)
-define bardieCleaningUpskirtTry2 = 25 #15 #Прогресс с Барди за просмотр трусиков во время уборки (трусики Юлии)
-define bardieCleaningUpskirtTry3 = 10 # Прогресс с Барди за просмотр трусиков во время уборки (трусики Бетти)
-define bardieCleaningUpskirtTry3_wrong_panties = -7 # Прибавление прогресса за неверные трусики
-define bardieCleaning2Upskirt = 15 # Прогресс Барди за просмотр юбки Моники (трусики Юлии)
+define bardieCleaningUpskirtTry = 50 #15 #Прогресс с Барди за попытку подсмотреть во время уборки (начальная стадия)
+define bardieCleaningUpskirtTry2 = 35 #15 #Прогресс с Барди за просмотр трусиков во время уборки (трусики Юлии)
+define bardieCleaningUpskirtTry3 = 35 # Прогресс с Барди за просмотр трусиков во время уборки (трусики Бетти)
+define bardieCleaningUpskirtTry3_wrong_panties = -15 # Прибавление прогресса за неверные трусики
+define bardieCleaning2Upskirt = 35 # Прогресс Барди за просмотр юбки Моники (трусики Юлии)
 
-define bardieCleaningUpskirtTry4 = 20 # Прогресс с Барди за просмотр трусиков во время уборки (трусики Бетти)
-define bardieCleaningUpskirtTry4_wrong_panties = -10 # Прибавление прогресса за неверные трусики
+define bardieCleaningUpskirtTry4 = 35 # Прогресс с Барди за просмотр трусиков во время уборки (трусики Бетти)
+define bardieCleaningUpskirtTry4_wrong_panties = -15 # Прибавление прогресса за неверные трусики
 
 define bardieCleaningUpskirtTryCorruption = 0 # Увеличение corruption, когда Барди подсматривает под юбку Моники
 
 define bardieCleaningNonNudeDuringPunishment = 2 # Кол-во раз, когда Барди увидел что Моника носит трусики до того, как следует наказание
 
-define bettyShowPantiesToMonicaProgress = 15 # Прогресс с Барди за просмотр трусиков во время уборки (трусики Бетти)
+define bettyShowPantiesToMonicaProgress = 35 # Прогресс с Барди за просмотр трусиков во время уборки (трусики Бетти)
 
 define monicaCleaningAddCorruptionPerCleaning = 1 #Увеличение corruption за одну уборку
 

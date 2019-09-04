@@ -89,7 +89,7 @@ label ep27_quests_melanie3b_stop_rain: # Выключаем дождь
     return
 
 label ep27_quests_melanie4_melanie_check_whore_cloth: # Переодеваем Монику перед приходом к Мелани
-    if cloth != "Whore" and cloth_type != "Nude":
+    if cloth != "Whore" and cloth_type != "Nude" and obj_name == "Teleport_Melanie_Home":
         mt "Мелани просила меня придти в другой... Одежде..."
         return False
     if cloth_type == "Nude":
