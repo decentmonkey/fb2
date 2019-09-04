@@ -201,18 +201,18 @@ define PS7_BiffProgressCastingChick = 5 #Прогресс за то что пр�
 define PS7_AlexProgressEachCorruptionShot = 3
 
 define PS8_monica_photoshoot8_agree = 300 # Моника согласилась на фотосессию без трусиков
-define PS8_monica_shot1_corruption_required = 280 # Первая поза, нижний кадр #img_20535
-define PS8_monica_pose2_corruption_required = 260 # Встать во вторую позу
-define PS8_monica_shot2_corruption_required = 290 # Вторая поза, нижний кадр #img_20539
-define PS8_monica_shot3_corruption_required = 320 # Третья поза, средний кадр #img_20543 (видна киска)
-define PS8_monica_shot4_corruption_required = 320 # Поза 4, средний кадр img_20546
-define PS8_monica_shot5_corruption_required = 325 # Поза 4, нижний кадр img_20547 (видна киска)
-define PS8_monica_pose4_corruption_required = 300 # Встать в Пятую позу кадр #img_20548
-define PS8_monica_shot6_corruption_required = 350 # Поза 5, средний кадр img_20550 (видна киска)
-define PS8_monica_shot7_corruption_required = 355 # Поза 5, нижний кадр img_20551 (видна киска)
-define PS8_monica_pose5_corruption_required = 340 # Встать в позу 6, стоит голым задом к камере #img_20552
-define PS8_monica_pose8_corruption_required = 370 # Встать в позу 8, экстремальная img_20561
-define PS8_monica_shot8_corruption_required = 380 # Поза 8, средний кадр #img_20567
+define PS8_monica_shot1_corruption_required = 310 # Первая поза, нижний кадр #img_20535
+define PS8_monica_pose2_corruption_required = 310 # Встать во вторую позу
+define PS8_monica_shot2_corruption_required = 320 # Вторая поза, нижний кадр #img_20539
+define PS8_monica_shot3_corruption_required = 330 # Третья поза, средний кадр #img_20543 (видна киска)
+define PS8_monica_shot4_corruption_required = 340 # Поза 4, средний кадр img_20546
+define PS8_monica_shot5_corruption_required = 345 # Поза 4, нижний кадр img_20547 (видна киска)
+define PS8_monica_pose4_corruption_required = 350 # Встать в Пятую позу кадр #img_20548
+define PS8_monica_shot6_corruption_required = 360 # Поза 5, средний кадр img_20550 (видна киска)
+define PS8_monica_shot7_corruption_required = 365 # Поза 5, нижний кадр img_20551 (видна киска)
+define PS8_monica_pose5_corruption_required = 375 # Встать в позу 6, стоит голым задом к камере #img_20552
+define PS8_monica_pose8_corruption_required = 400 # Встать в позу 8, экстремальная img_20561
+define PS8_monica_shot8_corruption_required = 420 # Поза 8, средний кадр #img_20567
 
 
 define PS8_AlexProgressEachCorruptionShot = 3
