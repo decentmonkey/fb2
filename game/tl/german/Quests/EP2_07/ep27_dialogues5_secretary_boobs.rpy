@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-04 20:20
+﻿# TODO: Translation updated at 2019-09-04 22:25
 
 # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:14
 translate german ep27_dialogues5_secretary_boobs1_bb649694:
@@ -396,13 +396,13 @@ translate german ep27_dialogues5_secretary_boobs6_ea0e2e2d:
     m "Gut..."
     m "$ 10 drauf und du darfst es machen."
 
-# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:376
+# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:377
 translate german ep27_dialogues5_secretary_boobs6_ee05cda0:
 
     # secretary "Миссис Бакфетт!"
     secretary "Frau Buckfett..."
 
-# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:380
+# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:381
 translate german ep27_dialogues5_secretary_boobs6_1ed648c4:
 
     # m "Дорогуша."
@@ -412,19 +412,19 @@ translate german ep27_dialogues5_secretary_boobs6_1ed648c4:
     m "Bitte bleib ruhig."
     m "Es ist sehr wichtig! Und es ist für unser Gemeinwohl."
 
-# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:389
+# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:390
 translate german ep27_dialogues5_secretary_boobs6_077f854a:
 
     # citizen4 "Какая упругая грудь!"
     citizen4 "Was für feste Brüste!"
 
-# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:395
+# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:419
 translate german ep27_dialogues5_secretary_boobs6_8edd2125:
 
     # citizen4 "я хотел бы увидеть ее на своем члене!"
     citizen4 "Ich würde sie gerne auf meinem Penis sehen!"
 
-# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:399
+# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:423
 translate german ep27_dialogues5_secretary_boobs6_0e06918d:
 
     # m "Все, этого достаточно!"
@@ -432,7 +432,7 @@ translate german ep27_dialogues5_secretary_boobs6_0e06918d:
     m "Das wars, es reicht!"
     m "Wo sind meine 60 $?"
 
-# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:408
+# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:432
 translate german ep27_dialogues5_secretary_boobs6_20958929_1:
 
     # m "Все, этого достаточно!"
@@ -440,7 +440,7 @@ translate german ep27_dialogues5_secretary_boobs6_20958929_1:
     m "Das wars, es reicht!"
     m "Wo sind meine 50 $?"
 
-# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:423
+# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:447
 translate german ep27_dialogues5_secretary_boobs6_09a9ae84:
 
     # citizen4 "Хорошо."
@@ -448,7 +448,7 @@ translate german ep27_dialogues5_secretary_boobs6_09a9ae84:
     citizen4 "Na gut."
     citizen4 "Willst du mir für 50 $ wieder Neue bringen?" 
 
-# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:436
+# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:460
 translate german ep27_dialogues5_secretary_boobs6_91a31460:
 
     # secretary "Миссис Бакфетт..."
@@ -456,7 +456,7 @@ translate german ep27_dialogues5_secretary_boobs6_91a31460:
     secretary "Frau Buckfett..."
     secretary "Kann ich bitte gehen?" 
 
-# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:440
+# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:464
 translate german ep27_dialogues5_secretary_boobs6_18a0fbb6:
 
     # m "Да, можешь идти дорогуша."
@@ -466,7 +466,7 @@ translate german ep27_dialogues5_secretary_boobs6_18a0fbb6:
     m "Das hast du gut gemacht."
     m "Ich gebe dir später eine Prämie."
 
-# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:451
+# game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:475
 translate german ep27_dialogues5_secretary_boobs7_69e25a6f:
 
     # mt "Возможно это было несколько черезчур для такой тонкой натуры, как моя секретарша..."

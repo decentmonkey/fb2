@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-04 20:20
+﻿# TODO: Translation updated at 2019-09-04 22:25
 
 # game/Quests/EP2/Intro_Questions.rpy:4
 translate german intro_questions_2f9353e5:

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-04 20:20
+﻿# TODO: Translation updated at 2019-09-04 22:25
 
 # game/Quests/EP2_02/ep22_casting.rpy:4
 translate german ep22_dialogue6_6_loop2_47ee974b:

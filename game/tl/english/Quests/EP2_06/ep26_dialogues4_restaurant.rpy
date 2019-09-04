@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-04 20:22
+﻿# TODO: Translation updated at 2019-09-04 22:23
 
 # game/Quests/EP2_06/ep26_dialogues4_restaurant.rpy:30
 translate english ep26_dialogues4_restaurant1_f2888de6:

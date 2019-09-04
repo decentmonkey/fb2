@@ -10,9 +10,9 @@ define restaurantSushiPrice = 36
 define pubSoupPrice = 3
 define pubSphagettiPrice = 5
 define pubShinyBurger = 10
-define pubCustomer12_serve1_Corruption = 180
-define pubCustomer9_serve1_Corruption = 200
-define pubCustomer4_serve1_Corruption = 170
+define pubCustomer12_serve1_Corruption = 220
+define pubCustomer9_serve1_Corruption = 220
+define pubCustomer4_serve1_Corruption = 100
 
 default pubMonicaWaitressTipsKoeff = 0.3 # Сколько чаевых отдают Монике
 default pubMonicaWaitressVisitorsPerDay = 3 # Сколько посетителей Моника может обслужить в день
@@ -33,15 +33,15 @@ define monicaWashHoldAshleyCorruption = 150 # Кол-во corruption, требу
 define monicaTipsPunishmentJoeProgress = 25 # Сколько прогресс за наказание, если Моника украла чаевые
 define monicaTipsPunishmentAshleyProgress = 25
 
-define monicaTipsPunishmentScene1AssCorruption = 180 # потрогать за попу в одежде
-define monicaTipsPunishmentScene2ShowBoobsCorruption = 190 # показать голую грудь Джо
-define monicaTipsPunishmentScene2TouchBoobsCorruption = 195 # дать потрогать грудь Джо
-define monicaTipsPunishmentScene3ShowNakedAssCorruption = 210 # показать Джо голый зад
-define monicaTipsPunishmentScene4DanceNakedCorruption = 230 # танец на столе обнаженной
+define monicaTipsPunishmentScene1AssCorruption = 150 # потрогать за попу в одежде
+define monicaTipsPunishmentScene2ShowBoobsCorruption = 170 # показать голую грудь Джо
+define monicaTipsPunishmentScene2TouchBoobsCorruption = 200 # дать потрогать грудь Джо
+define monicaTipsPunishmentScene3ShowNakedAssCorruption = 220 # показать Джо голый зад
+define monicaTipsPunishmentScene4DanceNakedCorruption = 300 # танец на столе обнаженной
 
-define monicaTipsPunishmentAshleyScene1KissingCorruption = 180 # дать Эшли себя целовать
-define monicaTipsPunishmentAshleyScene2PussyTouchigCorruption = 200 # дать Эшли потрогать свою киску
-define monicaTipsPunishmentAshleyScene3AssToAssCorruption = 230 # тереться с Эшли задницами :)
+define monicaTipsPunishmentAshleyScene1KissingCorruption = 250 # дать Эшли себя целовать
+define monicaTipsPunishmentAshleyScene2PussyTouchigCorruption = 270 # дать Эшли потрогать свою киску
+define monicaTipsPunishmentAshleyScene3AssToAssCorruption = 300 # тереться с Эшли задницами :)
 
 define bettyCleaningProgessAmount = 20 #5 #Прогресс с Бетти за уборку
 define bettyCleaningProgessAmountLevel3 = 10 # Прогресс с Бетти за уборку после lvl 3
@@ -200,7 +200,7 @@ define PS7_BiffProgressCasting = 5 #Прогресс за то что пришл
 define PS7_BiffProgressCastingChick = 5 #Прогресс за то что притворилась цыпочкой на кастинге
 define PS7_AlexProgressEachCorruptionShot = 3
 
-define PS8_monica_photoshoot8_agree = 250 # Моника согласилась на фотосессию без трусиков
+define PS8_monica_photoshoot8_agree = 300 # Моника согласилась на фотосессию без трусиков
 define PS8_monica_shot1_corruption_required = 280 # Первая поза, нижний кадр #img_20535
 define PS8_monica_pose2_corruption_required = 260 # Встать во вторую позу
 define PS8_monica_shot2_corruption_required = 290 # Вторая поза, нижний кадр #img_20539
@@ -221,10 +221,10 @@ define biffFlashCardQuestReportNoSelf = -10 # Флеш карта, регрес�
 define biffFlashCardQuestReportNone = 1 # Флеш карта, сдала отчета Бифу, ничего не показала
 define biffFlashCardQuestReportBoobs = 3 # Показала грудь
 define biffFlashCardQuestReportAss = 5 # Показала попу
-define biffFlashCardQuestReportBoobsCorruptionRequired = 150
-define biffFlashCardQuestReportAssCorruptionRequired = 250
+define biffFlashCardQuestReportBoobsCorruptionRequired = 220
+define biffFlashCardQuestReportAssCorruptionRequired = 240
 define biffFlashCardQuestDaysBeforeBiffNotice = 14 # Кол-во дней между отчетами, пока Биф не ругается что не сдаются
-define biffFlashCardQuestBiffNoticeNoReportsRegress = -10 # Регресс, если Моника долго не сдает отчеты
+define biffFlashCardQuestBiffNoticeNoReportsRegress = -20 # Регресс, если Моника долго не сдает отчеты
 
 define monicaWhoringStartCorruptionRequired = 60
 define monicaWhoringClothBoobsCorruptionRequired = 60 # Кол-во corruption, чтобы Моника показала грудь в одежде
@@ -275,8 +275,8 @@ define juliaLvl1IncreaseProgress = 25 # Прогресс, добавляемый
 define juliaLvl2IncreaseProgress = 50 # Прогресс, добавляемый за комплименты Юлии на ур.2
 define juliaLvl3IncreaseProgress = 50 # Прогресс, добавляемый за комплименты Юлии на ур.3
 define juliaLvl12IncreaseProgressLow = 5 # Прогресс за действия lvl1, который начисляется на lvl2
-define juliaMonicaKissCorruptionRequired = 180 # corruption, чтобы поцеловать Юлию
-define juliaMonicaPinchAssCorruptionRequired = 220 # corruption, чтобы ущипнуть Юлию за зад
+define juliaMonicaKissCorruptionRequired = 150 # corruption, чтобы поцеловать Юлию
+define juliaMonicaPinchAssCorruptionRequired = 170 # corruption, чтобы ущипнуть Юлию за зад
 
 default houseMusic = "Mandeville"
 #default biffMusic = "Funk_loop8"

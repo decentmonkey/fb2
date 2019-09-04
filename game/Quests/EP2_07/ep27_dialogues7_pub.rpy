@@ -681,6 +681,7 @@ label ep27_dialogues7_pub10:
     img 21055
     with diss
     joe "Я стал мечтать об этом с первой минуты, когда увидел тебя здесь, [monica_pub_name]!"
+
     img 21056
     with diss
     w
@@ -688,6 +689,16 @@ label ep27_dialogues7_pub10:
     img 21057
     with diss
     w
+    stop music
+    play music "Sounds/audio_Monica_Joe_Ass_1.mp3"
+    scene black
+    image videov_Monica_Joe_Ass_1_1 = Movie(play="video/v_Monica_Joe_Ass_1_1.mkv", fps=30)
+    show videov_Monica_Joe_Ass_1_1
+#    with fadelong
+    wclean
+    stop music
+    music stop
+    music Loved_Up
     img 21056
     with diss
     w
@@ -720,6 +731,21 @@ label ep27_dialogues7_pub10:
     img 21058
     with fade
     mt "Очередной озабоченный мерзавец!"
+
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    stop music
+    play music "Sounds/audio_Monica_Joe_Ass_1.mp3"
+    scene black
+    image videov_Monica_Joe_Ass_1_2 = Movie(play="video/v_Monica_Joe_Ass_1_2.mkv", fps=30)
+    show videov_Monica_Joe_Ass_1_2
+    with fadelong
+    wclean
+    stop music
+    music stop
+
     music Loved_Up2
     img 21059
     with diss
@@ -847,6 +873,21 @@ label ep27_dialogues7_pub11:
     img 21079
     with diss
     joe "Вот это да!"
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    stop music
+    play music "Sounds/audio_Monica_Joe_Boobs_1.mp3"
+    scene black
+    image videov_Monica_Joe_Boobs_1_1 = Movie(play="video/v_Monica_Joe_Boobs_1_1.mkv", fps=30)
+    show videov_Monica_Joe_Boobs_1_1
+#    with fadelong
+    wclean
+    stop music
+    music stop
+    music Loved_Up2
+
     img 21080
     with diss
     w
@@ -885,6 +926,22 @@ label ep27_dialogues7_pub11:
     img 21082
     with diss
     w
+
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    stop music
+    play music "Sounds/audio_Monica_Joe_Boobs_1.mp3"
+    scene black
+    image videov_Monica_Joe_Boobs_1_2 = Movie(play="video/v_Monica_Joe_Boobs_1_2.mkv", fps=30)
+    show videov_Monica_Joe_Boobs_1_2
+#    with fadelong
+    wclean
+    stop music
+    music stop
+    music Loved_Up2
+
     img 21084
     with diss
     w
@@ -1495,6 +1552,7 @@ label ep27_dialogues7_pub15:
     img 21172
     with fadelong
     m "Я пришла, Эшли..."
+
     music Loved_Up
     img 21173
     with diss
@@ -1529,6 +1587,17 @@ label ep27_dialogues7_pub15:
     img 21179
     with fade
     mt "!!!"
+
+
+    music audio_longkiss1
+    scene black
+    image videov_Monica_Ashley_Kiss_1_1 = Movie(play="video/v_Monica_Ashley_Kiss_1_1.mkv", fps=30)
+    show videov_Monica_Ashley_Kiss_1_1
+    with fadelong
+    wclean
+
+    stop music
+    music Loved_Up
     sound snd_longkiss1
     img 21180
     with diss
@@ -1548,6 +1617,16 @@ label ep27_dialogues7_pub15:
     img 21183
     with diss
     mt "!!!"
+
+    music2 audio_longkiss1
+    scene black
+    image videov_Monica_Ashley_Kiss_1_1 = Movie(play="video/v_Monica_Ashley_Kiss_1_1.mkv", fps=30)
+    show videov_Monica_Ashley_Kiss_1_1
+    with fadelong
+    wclean
+
+    music2 stop
+#    music Loved_Up2
     img 21184
     with diss
     ashley "Ах, эта сладкая попка... Мммммм..."

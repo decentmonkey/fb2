@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-04 20:20
+﻿# TODO: Translation updated at 2019-09-04 22:25
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:13
 translate german ep27_dialogues7_pub1_9a5cbf4e:
@@ -784,31 +784,31 @@ translate german ep27_dialogues7_pub10_2512db8c:
     # joe "Я стал мечтать об этом с первой минуты, когда увидел тебя здесь, [monica_pub_name]!"
     joe "Von der ersten Minute an, als ich dich sah!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:722
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:733
 translate german ep27_dialogues7_pub10_4345e9bf:
 
     # mt "Очередной озабоченный мерзавец!"
     mt "Noch so ein verdammter Bastard!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:726
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:752
 translate german ep27_dialogues7_pub10_c59bfd7b:
 
     # joe "Ах, твоя попка!"
     joe "Oh, dein Arsch!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:729
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:755
 translate german ep27_dialogues7_pub10_61711a26:
 
     # joe "Она такая упругая!"
     joe "Er ist so weich!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:732
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:758
 translate german ep27_dialogues7_pub10_1230075a:
 
     # joe "Ах!"
     joe "Ah!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:736
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:762
 translate german ep27_dialogues7_pub10_b0560e21:
 
     # m "Ну все, хватит!"
@@ -816,7 +816,7 @@ translate german ep27_dialogues7_pub10_b0560e21:
     m "In Ordnung, genug!"
     m "Gehen wir, Ashley."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:745
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:771
 translate german ep27_dialogues7_pub11_ff7215dd:
 
     # joe "[monica_pub_name], ты пришла!"
@@ -826,13 +826,13 @@ translate german ep27_dialogues7_pub11_ff7215dd:
     joe "Ich will deine Brüte sehen!"
     joe "Ich will sie sehen!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:751
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:777
 translate german ep27_dialogues7_pub11_2fce66a2:
 
     # m "Нет!"
     m "Nein! Das ist das teuerste Kleid im ganzen Laden."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:754
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:780
 translate german ep27_dialogues7_pub11_5e399132:
 
     # joe "Мне жаль, [monica_pub_name], но Эшли начнет что-то подозревать."
@@ -840,7 +840,7 @@ translate german ep27_dialogues7_pub11_5e399132:
     joe "Es tut mir leid, [monica_pub_name], aber Ashley wird misstrauisch."
     joe "Es ist ein großes Risiko für mich."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:758
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:784
 translate german ep27_dialogues7_pub11_27ba4bfe:
 
     # mt "Дьявол! Снова я в такой глупой ситуации!"
@@ -848,13 +848,13 @@ translate german ep27_dialogues7_pub11_27ba4bfe:
     mt "Verdammt. Schon wieder in dieser dummen Situation!"
     mt "Brauche ich diesen dämlichen Job wirklich?!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:768
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:794
 translate german ep27_dialogues7_pub11_675c98d3:
 
     # m "Нет, Джо!"
     m "Nein, Joe!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:779
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:805
 translate german ep27_dialogues7_pub11_2ca4f9a4:
 
     # m "Ладно..."
@@ -862,13 +862,13 @@ translate german ep27_dialogues7_pub11_2ca4f9a4:
     m "Ok."
     m "Beeil dich einfach..."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:785
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:811
 translate german ep27_dialogues7_pub11_3d920104:
 
     # joe "Ах! Какие сиськи!"
     joe "Ah! Was für Titten!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:788
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:814
 translate german ep27_dialogues7_pub11_ebfd2b19:
 
     # joe "Тебе определенно надо танцевать на сцене, [monica_pub_name]!"
@@ -876,7 +876,7 @@ translate german ep27_dialogues7_pub11_ebfd2b19:
     joe "Du musst unbedingt auf der Bühne tanzen, [monica_pub_name]!"
     mt "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:792
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:818
 translate german ep27_dialogues7_pub11_2bb5e2ae:
 
     # joe "Можно я потрогаю их?"
@@ -884,7 +884,7 @@ translate german ep27_dialogues7_pub11_2bb5e2ae:
     joe "Kann ich sie berühren?"
     m "Nein, Joe! Wir waren uns einig!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:797
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:823
 translate german ep27_dialogues7_pub11_63b2f453:
 
     # joe "Я не могу так, не могу, [monica_pub_name]!"
@@ -892,7 +892,7 @@ translate german ep27_dialogues7_pub11_63b2f453:
     joe "Ich kann nicht, kann nicht, [monica_pub_name]!"
     joe "Lass sie mich berühren, und Ashley wird dir vergeben!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:802
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:828
 translate german ep27_dialogues7_pub11_0c78f96e:
 
     # mt "Я не могу пойти на это!"
@@ -902,13 +902,13 @@ translate german ep27_dialogues7_pub11_0c78f96e:
     mt "..."
     mt "Aber... Er weiß ja gar nicht, wer ich wirklich bin..."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:813
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:839
 translate german ep27_dialogues7_pub11_675c98d3_1:
 
     # m "Нет, Джо!"
     m "Nein, Joe!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:818
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:844
 translate german ep27_dialogues7_pub11_32acde5a:
 
     # m "Ты прикоснешься к моей груди буквально на секунду."
@@ -916,7 +916,7 @@ translate german ep27_dialogues7_pub11_32acde5a:
     m "Fein, aber nur für eine Sekunde."
     joe "Ja, [monica_pub_name], das verspreche ich!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:822
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:848
 translate german ep27_dialogues7_pub11_b6729f67:
 
     # m "И больше никаких условий после этого."
@@ -926,7 +926,7 @@ translate german ep27_dialogues7_pub11_b6729f67:
     m "Versprochen?"
     joe "Ja, [monica_pub_name], das verspreche ich!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:828
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:854
 translate german ep27_dialogues7_pub11_220d22ab:
 
     # mt "Дьявол!"
@@ -936,31 +936,31 @@ translate german ep27_dialogues7_pub11_220d22ab:
     mt "Mein göttlicher Körper ist dazu bestimmt, auf der Titelseite eines Magazines zu sein."
     mt "Wie weit bin ich gesunken? Oh mein Gott!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:833
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:859
 translate german ep27_dialogues7_pub11_a82271d0:
 
     # mt "Хотя... Это не Я... Это [monica_pub_name]..."
     mt "Obwohl ... Es bin ja nicht ich ... Es ist [monica_pub_name] ..."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:846
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:872
 translate german ep27_dialogues7_pub11_4ccd2e2d:
 
     # joe "Ах, какие сиськи!"
     joe "Ah, was für Titten!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:849
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:875
 translate german ep27_dialogues7_pub11_28f46cca:
 
     # joe "Вот это да!"
     joe "Zur Hölle, ja!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:925
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:982
 translate german ep27_dialogues7_pub11_82df67be:
 
     # joe "Лучшие сиськи в shiny hole!"
     joe "Die besten Titten im Shiny Hole!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:930
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:987
 translate german ep27_dialogues7_pub11_4a9e4853:
 
     # m "Все, Джо!"
@@ -970,7 +970,7 @@ translate german ep27_dialogues7_pub11_4a9e4853:
     m "Genug!"
     m "Gehen wir, Ashley."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:940
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:997
 translate german ep27_dialogues7_pub12_fcfea440:
 
     # joe "[monica_pub_name], я хочу увидеть твою попку!"
@@ -978,13 +978,13 @@ translate german ep27_dialogues7_pub12_fcfea440:
     joe "[monica_pub_name], ich will deinen Arsch sehen!"
     m "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:944
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1001
 translate german ep27_dialogues7_pub12_60c5bdc0:
 
     # m "Ладно..."
     m "Ok."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:958
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1015
 translate german ep27_dialogues7_pub12_a9a4f026:
 
     # joe "Нет, [monica_pub_name], я хочу увидеть твою попку голой!"
@@ -992,13 +992,13 @@ translate german ep27_dialogues7_pub12_a9a4f026:
     joe "Nein, [monica_pub_name], ich will dein Arsch nackt sehen!"
     joe "Zeige ihn mir, und ich verspreche, Ashley vergibt dir!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:963
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1020
 translate german ep27_dialogues7_pub12_1b6c9f79:
 
     # m "Джо, может быть, можно как-то без этого?"
     m "Joe, können wir das irgendwie vermeiden?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:967
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1024
 translate german ep27_dialogues7_pub12_af35d726:
 
     # joe "Нет, [monica_pub_name], я действительно хочу увидеть твою попку."
@@ -1008,7 +1008,7 @@ translate german ep27_dialogues7_pub12_af35d726:
     joe "Es ist mein größter Wunsch jetzt!"
     joe "Und bis das nicht erfüllt ist, kann ich dir nicht mit Ashley helfen."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:973
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1030
 translate german ep27_dialogues7_pub12_8b770337:
 
     # mt "Что же мне делать?"
@@ -1016,13 +1016,13 @@ translate german ep27_dialogues7_pub12_8b770337:
     mt "Was mache ich jetzt?"
     mt "Vielleicht sollte ich mir irgendwie 500 $ besorgen, aber wie?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:983
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1040
 translate german ep27_dialogues7_pub12_675c98d3:
 
     # m "Нет, Джо!"
     m "Nein, Joe!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:988
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1045
 translate german ep27_dialogues7_pub12_4a6f5296:
 
     # m "Джо, но только никаких прикосновений, тебе ясно?!"
@@ -1030,7 +1030,7 @@ translate german ep27_dialogues7_pub12_4a6f5296:
     m "Nicht anfassen, verstanden, Joe?"
     joe "Natürlich [monica_pub_name], ich nehme nur einen Blick!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:992
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1049
 translate german ep27_dialogues7_pub12_ac05a9e3:
 
     # m "И никаких дополнительных условий, ясно?!"
@@ -1038,7 +1038,7 @@ translate german ep27_dialogues7_pub12_ac05a9e3:
     m "Und keine zusätzlichen Bedingungen, klar?!"
     joe "Ja, [monica_pub_name], das verspreche ich!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:997
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1054
 translate german ep27_dialogues7_pub12_a0767079:
 
     # mt "Дьявол!"
@@ -1050,55 +1050,55 @@ translate german ep27_dialogues7_pub12_a0767079:
     mt "Ich zeige meinen nackten Hintern jemanden in den Slums."
     mt "Das ist alles nur ein Traum."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1004
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1061
 translate german ep27_dialogues7_pub12_c1dbe876:
 
     # joe "[monica_pub_name], я жду!"
     joe "[monica_pub_name], ich warte!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1007
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1064
 translate german ep27_dialogues7_pub12_f01fcc83:
 
     # joe "Скорее, показывай свою попку!"
     joe "Beeil dich und zeig ihn mir!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1010
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1067
 translate german ep27_dialogues7_pub12_29a4f6ab:
 
     # m "!!!"
     m "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1026
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1083
 translate german ep27_dialogues7_pub12_1ec97dbb:
 
     # joe "Ах, какая попка!"
     joe "Ah, was für ein Arsch!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1029
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1086
 translate german ep27_dialogues7_pub12_871b3816:
 
     # joe "Давно я не видел такой идеальной формы!"
     joe "Ich habe schon eine ganze Weile nicht mehr so eine perfekte Form gesehen!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1033
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1090
 translate german ep27_dialogues7_pub12_60791066:
 
     # mt "Ты этого недостоин, толстяк! Смотреть на мое восхитительное тело!"
     mt "Du bist es nicht wert, meinen perfekten Körper zu sehen, Fettsackbastard!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1042
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1099
 translate german ep27_dialogues7_pub12_b938ba91:
 
     # joe "[monica_pub_name], почему ты не показала мне ее сразу, как только пришла?"
     joe "[monica_pub_name], warum hast du ihn mir nicht von Anfang an gezeigt?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1046
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1103
 translate german ep27_dialogues7_pub12_726516c0:
 
     # joe "Я бы сразу взял тебя официанткой. Без необходимости мыть посуду!"
     joe "Ich hätte dich sofort als Bedienung eingestellt!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1049
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1106
 translate german ep27_dialogues7_pub12_ba3ba6f0:
 
     # mt "Это он думает что оказал бы мне честь?! Сразу бы дал работать официанткой в этой дыре?!"
@@ -1106,13 +1106,13 @@ translate german ep27_dialogues7_pub12_ba3ba6f0:
     mt "Denkt er, das wäre erstrebenswert?! Als Bedienung in diesem Loch arbeiten?"
     mt "Besonders für mich? Monica Buckfett?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1054
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1111
 translate german ep27_dialogues7_pub12_48bd24ab:
 
     # joe "[monica_pub_name], можно потрогать?!"
     joe "[monica_pub_name] kann ich ihn berühren?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1059
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1116
 translate german ep27_dialogues7_pub12_2f6acb50:
 
     # m "Только попробуй, Джо!"
@@ -1120,7 +1120,7 @@ translate german ep27_dialogues7_pub12_2f6acb50:
     m "Wage es nicht, Joe!"
     m "Ich werde dir den Finger brechen!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1064
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1121
 translate german ep27_dialogues7_pub12_cfa305f4:
 
     # joe "Но [monica_pub_name]! Мы ведь только начали!"
@@ -1138,7 +1138,7 @@ translate german ep27_dialogues7_pub12_cfa305f4:
     joe "Ich verstehe das, [monica_pub_name]."
     joe "Alle Mädels die auf der Bühne tanzen waren anfangs etwas schüchtern."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1079
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1136
 translate german ep27_dialogues7_pub12_5ea61393:
 
     # m "Все, Джо!"
@@ -1146,13 +1146,13 @@ translate german ep27_dialogues7_pub12_5ea61393:
     m "Das reicht, Joe!"
     m "Genug!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1083
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1140
 translate german ep27_dialogues7_pub12_c66da8ed:
 
     # m "Идем к Эшли!"
     m "Gehen wir, Ashley."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1091
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1148
 translate german ep27_dialogues7_pub13_62152b2f:
 
     # joe "[monica_pub_name], ты уже украла столько денег..."
@@ -1160,7 +1160,7 @@ translate german ep27_dialogues7_pub13_62152b2f:
     joe "[monica_pub_name], aber du hast so viel Geld gestohlen!"
     joe "Ashley wird langsam misstrauisch."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1095
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1152
 translate german ep27_dialogues7_pub13_e7a38fad:
 
     # joe "Обычно... Знаешь..."
@@ -1170,13 +1170,13 @@ translate german ep27_dialogues7_pub13_e7a38fad:
     joe "Ich liebe Schlampen mehr als Geld."
     joe "Und Ashley weiß das und ist sehr eifersüchtig."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1101
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1158
 translate german ep27_dialogues7_pub13_44d245cb:
 
     # mt "Я не шлюха!!!"
     mt "Ich bin keine Schlampe !!!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1105
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1162
 translate german ep27_dialogues7_pub13_efef2802:
 
     # joe "Если честно, она так следит за мной, что уже очень давно я не видел другой голой женщины."
@@ -1188,13 +1188,13 @@ translate german ep27_dialogues7_pub13_efef2802:
     joe "Ich möchte, dass du dich ausziehst, [monica_pub_name]."
     joe "Komplett."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1111
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1168
 translate german ep27_dialogues7_pub13_19ff8b35:
 
     # m "Это исключено, Джо!"
     m "Auf gar keinen Fall, Joe!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1114
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1171
 translate german ep27_dialogues7_pub13_163a64f8:
 
     # joe "Тогда извини, для меня это слишком большой риск."
@@ -1202,7 +1202,7 @@ translate german ep27_dialogues7_pub13_163a64f8:
     joe "Dann tut es mir leid, für mich ist es ein zu großes Risiko."
     joe "Wenn Ashley es rausfindet, verprügelt sie mich. Du kannst gehen."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1121
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1178
 translate german ep27_dialogues7_pub13_7715890c:
 
     # m "Твоя жена тоже может быть голой женщиной, Джо!"
@@ -1210,7 +1210,7 @@ translate german ep27_dialogues7_pub13_7715890c:
     m "Deine Frau kann doch der nackte Körper sein!"
     m "Schau sie doch an!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1134
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1191
 translate german ep27_dialogues7_pub13_50c6db4c:
 
     # m "Джо..."
@@ -1220,7 +1220,7 @@ translate german ep27_dialogues7_pub13_50c6db4c:
     m "Ich muss wirklich wieder hier arbeiten."
     m "Vielleicht brauche ich mich nicht vollständig zu entkleiden?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1140
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1197
 translate german ep27_dialogues7_pub13_45a330e5:
 
     # joe "Хорошо, [monica_pub_name]."
@@ -1232,13 +1232,13 @@ translate german ep27_dialogues7_pub13_45a330e5:
     joe "Mach ein paar sexy Posen."
     mt "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1146
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1203
 translate german ep27_dialogues7_pub13_61523c47:
 
     # joe "Это будет как приватный танец."
     joe "Wie ein Privattanz."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1150
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1207
 translate german ep27_dialogues7_pub13_0073586f:
 
     # m "Ладно, Джо..."
@@ -1246,7 +1246,7 @@ translate german ep27_dialogues7_pub13_0073586f:
     m "Nun, Joe ..."
     m "Ich ziehe das Top aus."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1155
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1212
 translate german ep27_dialogues7_pub13_350e2047:
 
     # joe "Нет, [monica_pub_name]!"
@@ -1254,13 +1254,13 @@ translate german ep27_dialogues7_pub13_350e2047:
     joe "Nein, [monica_pub_name]!"
     joe "Zieh das Unterteil aus!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1160
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1217
 translate german ep27_dialogues7_pub13_f42b557a:
 
     # m "ЧТОООО?!"
     m "WAAAS?!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1164
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1221
 translate german ep27_dialogues7_pub13_84c26e4b:
 
     # joe "[monica_pub_name], твоя грудь прекрасна!"
@@ -1272,19 +1272,19 @@ translate german ep27_dialogues7_pub13_84c26e4b:
     joe "Das ist meine Bedingung!"
     joe "Wenn du nicht willst, kannst du gehen und schauen, wie du die 500 $ her bekommst!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1170
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1227
 translate german ep27_dialogues7_pub13_29a4f6ab:
 
     # m "!!!"
     m "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1179
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1236
 translate german ep27_dialogues7_pub13_675c98d3:
 
     # m "Нет, Джо!"
     m "Nein, Joe!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1184
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1241
 translate german ep27_dialogues7_pub13_f3e9f4b9:
 
     # mt "Дьявол!"
@@ -1300,7 +1300,7 @@ translate german ep27_dialogues7_pub13_f3e9f4b9:
     mt "Nicht dass es mir noch rausrutscht."
     mt "Schließlich kennen sie mich hier unter dem Namen [monica_pub_name] ..."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1192
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1249
 translate german ep27_dialogues7_pub13_db8322e0:
 
     # mt "Черт! Мо... [monica_pub_name]!"
@@ -1308,7 +1308,7 @@ translate german ep27_dialogues7_pub13_db8322e0:
     mt "Verdammt! Mo ... [monica_pub_name]!"
     mt "Schließ die Augen und mach es!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1203
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1260
 translate german ep27_dialogues7_pub13_607c1d50:
 
     # mt "Ненавижу этого Джо!"
@@ -1316,7 +1316,7 @@ translate german ep27_dialogues7_pub13_607c1d50:
     mt "Ich hasse ihn!"
     mt "Ich bin gezwungen, diese dummen Dinge zu tun um den Job zu behalten!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1207
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1264
 translate german ep27_dialogues7_pub13_0ce4b367:
 
     # mt "Как могло дойти до такого?"
@@ -1324,37 +1324,37 @@ translate german ep27_dialogues7_pub13_0ce4b367:
     mt "Wie konnte das passieren?"
     mt "Ich kann es nicht glauben..."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1228
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1285
 translate german ep27_dialogues7_pub13_e3d199b6:
 
     # joe "О да, [monica_pub_name]!"
     joe "Oh, ja, [monica_pub_name]!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1231
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1288
 translate german ep27_dialogues7_pub13_bbaa61ce:
 
     # joe "Покажи мне свою попу, Да!"
     joe "Zeig mir deinen Arsch, ja!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1234
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1291
 translate german ep27_dialogues7_pub13_2ba49d76:
 
     # joe "Давай, меняй позы! Развлеки малыша Джо!"
     joe "Komm schon, pose für mich! Unterhalte den kleinen Joe!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1237
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1294
 translate german ep27_dialogues7_pub13_a71159d4:
 
     # joe "Вот так! Активнее виляй своей задницей, [monica_pub_name]!"
     joe "Ja! Beweg deinen Arsch, [monica_pub_name]!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1240
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1297
 translate german ep27_dialogues7_pub13_8bdcf723:
 
     # joe "Вот так! Теперь повернись, ДА!"
     joe "Ja. So! Ja!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1243
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1300
 translate german ep27_dialogues7_pub13_3c263b05:
 
     # joe "Да! Запомни! Клиент должен хорошо рассмотреть твою задницу, [monica_pub_name]!"
@@ -1362,13 +1362,13 @@ translate german ep27_dialogues7_pub13_3c263b05:
     joe "Ja! Denk dran, der Kunde muss einen guten Blick auf deinen Arsch haben, [monica_pub_name]!"
     joe "So bekommst du mehr Trinkgeld!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1249
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1306
 translate german ep27_dialogues7_pub13_77c95ae9:
 
     # joe "Стоп! Вот так, замри!"
     joe "Stopp! Genau so! Keine Bewegung mehr!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1259
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1316
 translate german ep27_dialogues7_pub13_83ee9ba2:
 
     # joe "Можешь продолжать!"
@@ -1376,13 +1376,13 @@ translate german ep27_dialogues7_pub13_83ee9ba2:
     joe "Du kannst weiter machen!"
     joe "Leg deine Hände auf den Arsch."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1264
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1321
 translate german ep27_dialogues7_pub13_67255fda:
 
     # joe "Вот так!"
     joe "Ja, genau so."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1267
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1324
 translate german ep27_dialogues7_pub13_a84bd0e0:
 
     # joe "Давай, [monica_pub_name], двигайся поактивнее!"
@@ -1394,13 +1394,13 @@ translate german ep27_dialogues7_pub13_a84bd0e0:
     m "Hör endlich mit diesen schmutzigen Kommentaren auf!"
     m "Dem habe ich nicht zugestimmt!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1273
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1330
 translate german ep27_dialogues7_pub13_8f41e0d5:
 
     # joe "Да, [monica_pub_name]! У тебя лучшая задница, которую я видел в Shiny Hole!"
     joe "Ja, [monica_pub_name]! Du hast den besten Arsch, den ich je gesehen habe!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1276
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1333
 translate german ep27_dialogues7_pub13_04e5cf04:
 
     # joe "Да, выгнись посильнее, да!"
@@ -1408,13 +1408,13 @@ translate german ep27_dialogues7_pub13_04e5cf04:
     joe "Ja, genau so!"
     joe "Er ist perfekt!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1280
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1337
 translate german ep27_dialogues7_pub13_5aa48599:
 
     # joe "Ни у одной из наших девочек нет таких идеальных форм!"
     joe "Keine von unseren Mädchen hat so eine perfekte Form!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1283
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1340
 translate german ep27_dialogues7_pub13_3cb15066:
 
     # joe "Эта задница должна сиять в Shiny Hole!"
@@ -1426,13 +1426,13 @@ translate german ep27_dialogues7_pub13_3cb15066:
     m "Nein, Joe!"
     m "Ich werde niemals vor Publikum tanzen!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1290
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1347
 translate german ep27_dialogues7_pub13_f41d6f6e:
 
     # joe "Продолжай! Поближе! Я... Я почти все..."
     joe "Mach weiter! Näher! Ich... Ich ..."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1293
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1350
 translate german ep27_dialogues7_pub13_12ab06ac:
 
     # joe "Но как же! Ты должна танцевать!"
@@ -1442,19 +1442,19 @@ translate german ep27_dialogues7_pub13_12ab06ac:
     joe "Die Leute werden mindestens... mindestens..."
     joe "Aaaa!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1299
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1356
 translate german ep27_dialogues7_pub13_27d407cf:
 
     # joe "Дадут 20... 50..."
     joe "20... nein 50..."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1302
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1359
 translate german ep27_dialogues7_pub13_58afa613:
 
     # joe "Нет, даже 100 долларов! Сто!"
     joe "Nein, Sogar 100 Dollar geben! 100!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1305
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1362
 translate german ep27_dialogues7_pub13_26f38bb2:
 
     # m "Сколько?! 100 долларов?!"
@@ -1462,7 +1462,7 @@ translate german ep27_dialogues7_pub13_26f38bb2:
     m "Was?! 100?!?"
     m "Verebbelst du mich, Joe?!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1309
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1366
 translate german ep27_dialogues7_pub13_5fb63133:
 
     # joe "Может... Ах.... Может не столько..."
@@ -1472,7 +1472,7 @@ translate german ep27_dialogues7_pub13_5fb63133:
     joe "Aber mit 20 kannst du bestimmt rechnen, [monica_pub_name]!"
     joe "Das ist gutes Geld... Ahhhh!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1316
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1373
 translate german ep27_dialogues7_pub13_7251b99d:
 
     # m "Все, мне надоело кривляться!"
@@ -1480,7 +1480,7 @@ translate german ep27_dialogues7_pub13_7251b99d:
     m "Das wars, es reicht!"
     joe "Aaaaahhh!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1322
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1379
 translate german ep27_dialogues7_pub13_f762bbad:
 
     # m "ЧТО?!"
@@ -1488,7 +1488,7 @@ translate german ep27_dialogues7_pub13_f762bbad:
     m "WAS?!"
     m "Holst du dir einen runter, Joe?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1327
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1384
 translate german ep27_dialogues7_pub13_ed21dfcb:
 
     # joe "Ааааххх! Ааааааааххх!"
@@ -1496,7 +1496,7 @@ translate german ep27_dialogues7_pub13_ed21dfcb:
     joe "Aaaahhh! Aaaaaaaahhh!"
     joe "Nur noch ein bisschen!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1332
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1389
 translate german ep27_dialogues7_pub13_b1c9c7e6:
 
     # m "Дьявол!!!"
@@ -1510,13 +1510,13 @@ translate german ep27_dialogues7_pub13_b1c9c7e6:
     m "Ich brauche diesen Job!"
     mt "Perverser!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1341
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1398
 translate german ep27_dialogues7_pub13_14f94b2f:
 
     # joe "Что?! Кто-то идет?"
     joe "Was?! Es kommt jemand!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1344
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1401
 translate german ep27_dialogues7_pub13_ab6d87c6:
 
     # joe "Это Эшли! Прячься!"
@@ -1524,7 +1524,7 @@ translate german ep27_dialogues7_pub13_ab6d87c6:
     joe "Es ist Ashley! Versteck dich!"
     mt "Oh mein Gott!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1357
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1414
 translate german ep27_dialogues7_pub13_48373391:
 
     # ashley "Джо! Вот ты где!"
@@ -1532,7 +1532,7 @@ translate german ep27_dialogues7_pub13_48373391:
     ashley "Joe! Hier bist du!"
     ashley "Was machst du Parasit hier?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1362
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1419
 translate german ep27_dialogues7_pub13_91d87bab:
 
     # mt "Как я вляпалась!"
@@ -1546,7 +1546,7 @@ translate german ep27_dialogues7_pub13_91d87bab:
     mt "Monica! Wie konnte es so weit kommen?"
     mt "Was hast du nur falsch gemacht? Was?!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1370
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1427
 translate german ep27_dialogues7_pub13_23a350fa:
 
     # ashley "Я что, должна одна целый день обслуживать пьяниц?!"
@@ -1554,25 +1554,25 @@ translate german ep27_dialogues7_pub13_23a350fa:
     ashley "Soll ich mich um diese Trunkenbolde den ganzen Tag alleine kümmern?"
     ashley "Diese Schlampe [monica_pub_name] arbeitet nicht länger hier! Oder hast du das schon vergessen?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1375
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1432
 translate german ep27_dialogues7_pub13_71f1fc36:
 
     # joe "Эшли! Я просто устал, решил отдохнуть..."
     joe "Ashley! Ich war müde und musste eine kurze Pause machen..."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1379
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1436
 translate german ep27_dialogues7_pub13_9203f6c4:
 
     # ashley "Никакого отдыха! Быстро работать!"
     ashley "Keine Pausen! Zurück an die Arbeit!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1382
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1439
 translate german ep27_dialogues7_pub13_1f9e1c50:
 
     # ashley "Зачем я только вышла замуж за такого растяпу!"
     ashley "Warum habe ich diesen faulen Sack nur geheiratet?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1390
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1447
 translate german ep27_dialogues7_pub13_e1e4e0ed:
 
     # m "!!!"
@@ -1580,19 +1580,19 @@ translate german ep27_dialogues7_pub13_e1e4e0ed:
     m "!!!"
     mt "Wenigstens hat sie meine Kleider nicht bemerkt. Ich muss hier leise raus..."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1406
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1463
 translate german ep27_dialogues7_pub14_6bc6d974:
 
     # joe "Эшли, ты моя самая красивая и любимая жена!"
     joe "Ashley, du bist meine schönste und geliebte Frau!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1409
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1466
 translate german ep27_dialogues7_pub14_67364231:
 
     # ashley "И, Джо? Что тебе снова понадобилось от меня?"
     ashley "Was Joe? Was willst du wieder?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1412
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1469
 translate german ep27_dialogues7_pub14_a341efdd:
 
     # joe "Я поговорил с [monica_pub_name] и, мне кажется, надо дать ей еще шанс."
@@ -1602,25 +1602,25 @@ translate german ep27_dialogues7_pub14_a341efdd:
     joe "Ich bürge für sie."
     joe "Und..."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1418
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1475
 translate german ep27_dialogues7_pub14_f2b1ec2e:
 
     # joe "И я тебя очень сильно люблю..."
     joe "Und Ich liebe dich sehr, Ashley..."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1423
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1480
 translate german ep27_dialogues7_pub14_e15ca0f8:
 
     # ashley "Ох, Джо..."
     ashley "Oh, Joe ..."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1426
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1483
 translate german ep27_dialogues7_pub14_1751f19b:
 
     # ashley "Ну ладно... Хорошо..."
     ashley "Nun, also gut."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1431
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1488
 translate german ep27_dialogues7_pub14_3c466cc3:
 
     # ashley "[monica_pub_name], ты можешь снова работать."
@@ -1628,13 +1628,13 @@ translate german ep27_dialogues7_pub14_3c466cc3:
     ashley "[monica_pub_name], du kannst hier wieder arbeiten."
     ashley "Aber belaste nie wieder meine Gutmütigkeit!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1435
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1492
 translate german ep27_dialogues7_pub14_0a5616b8:
 
     # mt "!!!"
     mt "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1448
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1505
 translate german ep27_dialogues7_pub14a_77c8cc71:
 
     # m "Эшли... У меня нет таких денег."
@@ -1646,19 +1646,19 @@ translate german ep27_dialogues7_pub14a_77c8cc71:
     m "Ich würde nicht gerne nackt vor allen tanzen."
     m "Gibt's da nicht was Anderes?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1454
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1511
 translate german ep27_dialogues7_pub14a_7e874953:
 
     # ashley "Вообще-то, [monica_pub_name], у обладательницы такой раскошной попки есть один вариант попросить прощения у меня."  
     ashley "Hm, [monica_pub_name], jemand mit so einem sexy Arsch kann mich in anderer Weise zahlen."  
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1457
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1514
 translate german ep27_dialogues7_pub14a_63253b7b:
 
     # m "..." 
     m "..." 
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1460
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1517
 translate german ep27_dialogues7_pub14a_8c59f49d:
 
     # ashley "[monica_pub_name], если хочешь, чтобы тебя простили, дождись пока Джо будет занят"
@@ -1666,19 +1666,19 @@ translate german ep27_dialogues7_pub14a_8c59f49d:
     ashley "[monica_pub_name], warte, bis Joe etwas zu tun hat."
     ashley "Und dann triff mich im Lagerraum."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1497
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1554
 translate german ep27_dialogues7_pub15_2e19aba6:
 
     # m "Я пришла, Эшли..."
     m "Ich bin da, Ashley."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1501
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1559
 translate german ep27_dialogues7_pub15_4ad49493:
 
     # ashley "О, [monica_pub_name]!"
     ashley "Oh, [monica_pub_name]!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1505
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1563
 translate german ep27_dialogues7_pub15_b6da8673:
 
     # ashley "Иди ко мне!"
@@ -1686,61 +1686,61 @@ translate german ep27_dialogues7_pub15_b6da8673:
     ashley "Komm zu mir!"
     ashley "Ich habe darauf gewartet, bis du einen Fehler machst."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1509
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1567
 translate german ep27_dialogues7_pub15_54140316:
 
     # ashley "Иди ко мне! Иди я поцелую тебя!"
     ashley "Komm zu mir! Ich werde dich küssen!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1520
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1578
 translate german ep27_dialogues7_pub15_62e3e0d2:
 
     # m "Нет, Эшли! Я не способна на такое!"
     m "Nein, Ashley! Ich bin nicht so!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1527
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1585
 translate german ep27_dialogues7_pub15_1e2cb459:
 
     # ashley "Ммммм..."
     ashley "Mmmm..."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1531
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1589
 translate german ep27_dialogues7_pub15_0a5616b8:
 
     # mt "!!!"
     mt "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1535
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1604
 translate german ep27_dialogues7_pub15_73c3d2aa:
 
     # ashley "Ммммм... Моя конфетка... Мммммм..."
     ashley "Mmmmm ... Mein Schatz ... Mmmmmm ..."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1550
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1619
 translate german ep27_dialogues7_pub15_0a5616b8_1:
 
     # mt "!!!"
     mt "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1553
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1632
 translate german ep27_dialogues7_pub15_80686ba6:
 
     # ashley "Ах, эта сладкая попка... Мммммм..."
     ashley "So ein süßer Arsch. Mmmmm"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1556
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1635
 translate german ep27_dialogues7_pub15_c6def46e:
 
     # ashley "Какая она упругая... Мммммм...."
     ashley "Es ist so toll, ihn zu berühren. Mmmmm"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1561
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1640
 translate german ep27_dialogues7_pub15_d2c2cab5:
 
     # m "Эшли, пожалуйста, хватит!"
     m "Ashley, bitte, halt!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1564
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1643
 translate german ep27_dialogues7_pub15_793a4dd3:
 
     # ashley "[monica_pub_name], ты получила прощение на этот раз..."
@@ -1748,19 +1748,19 @@ translate german ep27_dialogues7_pub15_793a4dd3:
     ashley "[monica_pub_name], ich verzeihe dir."
     ashley "Ich warte darauf, bis du wieder Mist baust."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1567
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1646
 translate german ep27_dialogues7_pub15_0a5616b8_2:
 
     # mt "!!!"
     mt "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1574
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1653
 translate german ep27_dialogues7_pub16_2e19aba6:
 
     # m "Я пришла, Эшли..."
     m "Ich bin da, Ashley."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1578
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1657
 translate german ep27_dialogues7_pub16_15c0be2e:
 
     # ashley "О, [monica_pub_name]!"
@@ -1770,13 +1770,13 @@ translate german ep27_dialogues7_pub16_15c0be2e:
     ashley "Komm zu mir!"
     ashley "Lass mich deinen Arsch berühren!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1589
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1668
 translate german ep27_dialogues7_pub16_62e3e0d2:
 
     # m "Нет, Эшли! Я не способна на такое!"
     m "Nein, Ashley! Ich bin nicht so!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1594
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1673
 translate german ep27_dialogues7_pub16_8c04d60b:
 
     # mt "О Боже!"
@@ -1784,7 +1784,7 @@ translate german ep27_dialogues7_pub16_8c04d60b:
     mt "Oh Gott!"
     mt "Was macht sie?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1601
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1680
 translate german ep27_dialogues7_pub16_66f0952d:
 
     # ashley "Да, [monica_pub_name]!"
@@ -1792,49 +1792,49 @@ translate german ep27_dialogues7_pub16_66f0952d:
     ashley "Ja, [monica_pub_name]!"
     ashley "Fühlst du mich?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1606
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1685
 translate german ep27_dialogues7_pub16_3621685a:
 
     # m "Ахххх!"
     m "Ahhhh!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1610
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1689
 translate german ep27_dialogues7_pub16_16649dc8:
 
     # ashley "Наслаждаешься этим?"
     ashley "Genießt du es?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1613
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1692
 translate german ep27_dialogues7_pub16_3621685a_1:
 
     # m "Ахххх!"
     m "Ahhhh!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1622
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1701
 translate german ep27_dialogues7_pub16_fbe07b17:
 
     # ashley "Почуствуй меня, [monica_pub_name]!"
     ashley "Fühl mich, [monica_pub_name]!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1625
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1704
 translate german ep27_dialogues7_pub16_e35d1c2c:
 
     # ashley "Если захочешь, это можно сделать по другому."
     ashley "Wenn du willst, können wir es auch anders machen."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1628
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1707
 translate german ep27_dialogues7_pub16_fa402dd6:
 
     # m "ААА! Ааааахх!"
     m "Aaaahhh! Aaaaaaaahhh!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1631
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1710
 translate german ep27_dialogues7_pub16_64a59c19:
 
     # ashley "Ах, какая ты вкусная, [monica_pub_name]!"
     ashley "Ah, du bist so süß, [monica_pub_name]!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1638
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1717
 translate german ep27_dialogues7_pub16_36c01181:
 
     # m "Погоди, Эшли!"
@@ -1846,7 +1846,7 @@ translate german ep27_dialogues7_pub16_36c01181:
     m "Da kommt was..."
     m "Warte, das beunruhigt mich."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1645
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1724
 translate german ep27_dialogues7_pub16_74ecdaca:
 
     # ashley "Это оргазм, моя [monica_pub_name]."
@@ -1854,19 +1854,19 @@ translate german ep27_dialogues7_pub16_74ecdaca:
     ashley "Das ist ein Orgasmus, meine [monica_pub_name]."
     ashley "Magst du es nicht?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1649
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1728
 translate german ep27_dialogues7_pub16_808e8f2e:
 
     # m "Я... Я не совсем знаю что это такое и..."
     m "Ich. Ich weiß nicht, was das sein soll."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1652
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1731
 translate german ep27_dialogues7_pub16_88124584:
 
     # ashley "Ах, иди ко мне, [monica_pub_name], я тебе покажу!"
     ashley "Oh, kommt zu mir, [monica_pub_name], ich werde es dir zeigen!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1656
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1735
 translate german ep27_dialogues7_pub16_32b622ad:
 
     # m "Нет, Эшли! Мне..."
@@ -1874,7 +1874,7 @@ translate german ep27_dialogues7_pub16_32b622ad:
     m "Nein, Ashley! Mir..."
     m "Ich muss gehen!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1667
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1746
 translate german ep27_dialogues7_pub17_c72df613:
 
     # m "Эшли, я пришла."
@@ -1884,7 +1884,7 @@ translate german ep27_dialogues7_pub17_c72df613:
     m "Aber bitte fass meine Pussy nicht an."
     m "Zumindest nicht dieses Mal."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1673
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1752
 translate german ep27_dialogues7_pub17_7526f289:
 
     # ashley "Хорошо, [monica_pub_name]."
@@ -1892,25 +1892,25 @@ translate german ep27_dialogues7_pub17_7526f289:
     ashley "Ok, [monica_pub_name]."
     ashley "Zieh dein Unterteil aus, ich will deinen Arsch spüren."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1682
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1761
 translate german ep27_dialogues7_pub17_62e3e0d2:
 
     # m "Нет, Эшли! Я не способна на такое!"
     m "Nein, Ashley! Ich bin nicht so!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1687
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1766
 translate german ep27_dialogues7_pub17_c03a69f0:
 
     # m "Эшли, и что будет дальше?"
     m "Ashley, was hast du vor?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1690
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1769
 translate german ep27_dialogues7_pub17_2c4bffef:
 
     # ashley "Не бойся, [monica_pub_name], снимай!"
     ashley "Keine Angst, zieh es einfach aus!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1694
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1773
 translate german ep27_dialogues7_pub17_d5c8801d:
 
     # m "Ладно..."
@@ -1918,19 +1918,19 @@ translate german ep27_dialogues7_pub17_d5c8801d:
     m "Ok."
     m "Versprichst du mir, dass ich hier wieder arbeiten kann?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1706
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1785
 translate german ep27_dialogues7_pub17_215d6d0a:
 
     # ashley "Потрись о мою попку своей и я прощу тебя!"
     ashley "Reibe deinen Hintern an meinem und ich verzeihe dir."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1710
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1789
 translate german ep27_dialogues7_pub17_aa2f7641:
 
     # m "ЧТО??!"
     m "Was???"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1714
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1793
 translate german ep27_dialogues7_pub17_43129b9f:
 
     # ashley "Давай, [monica_pub_name]!"
@@ -1938,49 +1938,49 @@ translate german ep27_dialogues7_pub17_43129b9f:
     ashley "Komm, [monica_pub_name]!"
     ashley "Ich will deinen süßen Arsch fühlen!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1718
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1797
 translate german ep27_dialogues7_pub17_07f49330:
 
     # ashley "Иначе я тебя не прощу!"
     ashley "Ansonsten werde ich dir ja nicht verzeihen!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1727
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1806
 translate german ep27_dialogues7_pub17_62e3e0d2_1:
 
     # m "Нет, Эшли! Я не способна на такое!"
     m "Nein, Ashley! Ich bin nicht so!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1734
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1813
 translate german ep27_dialogues7_pub17_f69672a3:
 
     # ashley "Ну же, [monica_pub_name]!"
     ashley "Komm schon, [monica_pub_name]!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1737
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1816
 translate german ep27_dialogues7_pub17_8eb6ef48:
 
     # ashley "Я не чувствую твою попку! Где она?"
     ashley "Ich kann deinen Arsch nicht fühlen! Wo ist er?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1740
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1819
 translate german ep27_dialogues7_pub17_d25f8628:
 
     # ashley "Не будет твоей попки - не будет прощения!"
     ashley "Kein Arsch - keine Vergebung!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1747
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1826
 translate german ep27_dialogues7_pub17_8c8d0c15:
 
     # mt "О БОЖЕ! Что я делаю?!"
     mt "Mein Gott, was mache ich nur?"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1752
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1831
 translate german ep27_dialogues7_pub17_324f1c84:
 
     # ashley "Да, [monica_pub_name]!"
     ashley "Ja, [monica_pub_name]!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1756
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1835
 translate german ep27_dialogues7_pub17_2352cfec:
 
     # ashley "Какая у тебя упругая и приятная попка!"
@@ -1988,31 +1988,31 @@ translate german ep27_dialogues7_pub17_2352cfec:
     ashley "Dein Arsch fühlt sich so gut an."
     ashley "Wie ein Pfirsich!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1760
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1839
 translate german ep27_dialogues7_pub17_0a5616b8:
 
     # mt "!!!"
     mt "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1764
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1843
 translate german ep27_dialogues7_pub17_a4198b8f:
 
     # ashley "Ах! Как здорово!"
     ashley "Ah! Wie schön!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1768
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1847
 translate german ep27_dialogues7_pub17_c585cda2:
 
     # ashley "Ах! Ах! Да!"
     ashley "Ah! Ah! Ja!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1788
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1867
 translate german ep27_dialogues7_pub17_b9524506:
 
     # ashley "Дааааааа!!!" 
     ashley "Jaaaa!" 
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1796
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1875
 translate german ep27_dialogues7_pub17_236952b0:
 
     # ashley "Ты отлично справилась, [monica_pub_name]."
@@ -2020,13 +2020,13 @@ translate german ep27_dialogues7_pub17_236952b0:
     ashley "Das hast du gut gemacht, [monica_pub_name]."
     ashley "Aber wenn du dich gegenüber den Kunden wie eine Nutte benimmst, werde ich dich feuern."
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1799
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1878
 translate german ep27_dialogues7_pub17_44d245cb:
 
     # mt "Я не шлюха!!!"
     mt "Ich bin keine Schlampe !!!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1812
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1891
 translate german ep27_dialogues7_pub18_2d3aebc7:
 
     # ashley "Джо, я подумала и решила дать [monica_pub_name] еще один шанс."
@@ -2034,7 +2034,7 @@ translate german ep27_dialogues7_pub18_2d3aebc7:
     ashley "Joe, ich habe eine Weile nachgedacht und beschlossen [monica_pub_name] eine neue Chance zu geben."
     joe "Wirklich, Ashley? Das freut mich sehr zu hören!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1816
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1895
 translate german ep27_dialogues7_pub18_60999f41:
 
     # ashley "[monica_pub_name], ты можешь снова работать."
@@ -2042,13 +2042,13 @@ translate german ep27_dialogues7_pub18_60999f41:
     ashley "[monica_pub_name], du kannst hier wieder arbeiten."
     ashley "Aber stelle meine Geduld auf keine Probe, sonst wirst du wieder bestraft." 
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1820
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1899
 translate german ep27_dialogues7_pub18_0a5616b8:
 
     # mt "!!!"
     mt "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1826
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1905
 translate german ep27_dialogues7_pub19_e8a80d81:
 
     # mt "Я уже обслуживала этого посетителя..."
@@ -2120,51 +2120,51 @@ translate german strings:
     old "Прощение у Джо 4"
     new "Joe Vergebung 4"
 
-    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:761
+    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:787
     old "Согласиться показать грудь."
     new "Stimme zu, Brüste zu zeigen."
 
-    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:976
+    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1033
     old "Показать Джо свою голую попу."
     new "Zeige Joe deinen nackten Hintern."
 
-    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1116
+    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1173
     old "Предложить компромисс."
     new "Biete einen Kompromiss an."
 
-    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1467
+    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1524
     old "Подождать пока Джо будет занят и идти в подсобку за Эшли."
     new "Warte, bis sich Joe umdreht und folge Ashley in den Lagerraum."
 
-    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1477
+    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1534
     old "Прощение у Эшли 1"
     new "Ashley Vergebung 1"
 
-    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1477
+    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1534
     old "Прощение у Эшли 2"
     new "Ashley Vergebung 2"
 
-    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1477
+    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1534
     old "Прощение у Эшли 3"
     new "Ashley Vergebung 3"
 
-    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1477
+    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1534
     old "Прощение у Эшли 4"
     new "Ashley Vergebung 4"
 
-    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1513
+    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1571
     old "Позволить Эшли поцеловать себя."
     new "Erlaube Ashley, dich zu küssen."
 
-    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1513
+    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1571
     old "Отказать."
     new "Lehne ab."
 
-    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1582
+    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1661
     old "Позволить Эшли потрогать свою киску."
     new "Erlaube Ashley, deine Pussy zu berühren."
 
-    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1675
+    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:1754
     old "Сделать то о чем просит Эшли."
     new "Mach, was Ashley verlangt."
 

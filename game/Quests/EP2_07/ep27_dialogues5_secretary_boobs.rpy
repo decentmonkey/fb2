@@ -370,6 +370,7 @@ label ep27_dialogues5_secretary_boobs6:
                     with diss
                     m "Хорошо..."
                     m "$ 10 сверху и можешь потрогать ее."
+
                     music Power_Bots_Loop
                     img 13879
                     with hpunch
@@ -387,6 +388,29 @@ label ep27_dialogues5_secretary_boobs6:
                     img 13881
                     with diss
                     citizen4 "Какая упругая грудь!"
+
+                    music stop
+                    img black_screen
+                    with diss
+                    pause 1.5
+                    stop music
+                    play music "Sounds/audio_MonicaSecretary_Citizen4_Boobs_1.mp3"
+                    scene black
+                    image videov_MonicaSecretary_Citizen4_Boobs_1_2 = Movie(play="video/v_MonicaSecretary_Citizen4_Boobs_1_2.mkv", fps=30)
+                    show videov_MonicaSecretary_Citizen4_Boobs_1_2
+                #    with fadelong
+                    wclean
+                    stop music
+                    play music "Sounds/audio_MonicaSecretary_Citizen4_Boobs_1.mp3"
+                    scene black
+                    image videov_MonicaSecretary_Citizen4_Boobs_1_3 = Movie(play="video/v_MonicaSecretary_Citizen4_Boobs_1_3.mkv", fps=30)
+                    show videov_MonicaSecretary_Citizen4_Boobs_1_3
+                #    with fadelong
+                    wclean
+                    stop music
+                    music stop
+                    music Loved_Up
+
                     img 13882
                     with diss
                     w

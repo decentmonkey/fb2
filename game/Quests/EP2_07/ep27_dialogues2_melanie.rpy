@@ -839,7 +839,8 @@ label ep27_dialogues2_melanie2:
         img black_screen
         with diss
         pause 2.0
-        music Loved_Up2
+#        music Loved_Up2
+        music audio_Melanie_Victoria_Boobs_1
         scene black
         image videov_Melanie_Victoria_Boobs_1_1 = Movie(play="video/v_Melanie_Victoria_Boobs_1_1.mkv", fps=30)
         show videov_Melanie_Victoria_Boobs_1_1
@@ -855,6 +856,18 @@ label ep27_dialogues2_melanie2:
         scene black
         image videov_Melanie_Victoria_Boobs_1_4 = Movie(play="video/v_Melanie_Victoria_Boobs_1_4.mkv", fps=30)
         show videov_Melanie_Victoria_Boobs_1_4
+        wclean
+        scene black
+        image videov_Melanie_Victoria_Boobs_1_5 = Movie(play="video/v_Melanie_Victoria_Boobs_1_5.mkv", fps=30)
+        show videov_Melanie_Victoria_Boobs_1_5
+        wclean
+        scene black
+        image videov_Melanie_Victoria_Boobs_1_6 = Movie(play="video/v_Melanie_Victoria_Boobs_1_6.mkv", fps=30)
+        show videov_Melanie_Victoria_Boobs_1_6
+        wclean
+        scene black
+        image videov_Melanie_Victoria_Boobs_1_7 = Movie(play="video/v_Melanie_Victoria_Boobs_1_7.mkv", fps=30)
+        show videov_Melanie_Victoria_Boobs_1_7
         wclean
     music stop
     img black_screen
@@ -1008,7 +1021,48 @@ label ep27_dialogues2_melanie2:
     with fade
     melanie "Вы..."
     melanie "Вы моя лучшая подружка, Мисс Виктория..."
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    music2 audio_Melanie_Victoria_Titjob_1b
+    stop music
+    play music "Sounds/audio_Melanie_Titjob_1a.mp3"
+    scene black
+    image videov_Melanie_Victoria_Titjob_1_1 = Movie(play="video/v_Melanie_Victoria_Titjob_1_1.mkv", fps=30)
+    show videov_Melanie_Victoria_Titjob_1_1
+    with fadelong
+    wclean
+    stop music
+    play music "Sounds/audio_Melanie_Titjob_1a.mp3"
+    scene black
+    image videov_Melanie_Victoria_Titjob_1_2 = Movie(play="video/v_Melanie_Victoria_Titjob_1_2.mkv", fps=30)
+    show videov_Melanie_Victoria_Titjob_1_2
+    dick_secretary "Да, Давай!"
+    wclean
+    if game.extra == True:
+        stop music
+        play music "Sounds/audio_Melanie_Titjob_1a.mp3"
+        scene black
+        image videov_Melanie_Victoria_Titjob_1_4 = Movie(play="video/v_Melanie_Victoria_Titjob_1_4.mkv", fps=30)
+        show videov_Melanie_Victoria_Titjob_1_4
+        dick_secretary "Хорошенько работай своими сиськами, Да!"
+        wclean
+        stop music
+        play music "Sounds/audio_Melanie_Titjob_1a.mp3"
+        scene black
+        image videov_Melanie_Victoria_Titjob_1_5 = Movie(play="video/v_Melanie_Victoria_Titjob_1_5.mkv", fps=30)
+        show videov_Melanie_Victoria_Titjob_1_5
+        dick_secretary "Меня так возбуждает!"
+        wclean
+        stop music
+        play music "Sounds/audio_Melanie_Titjob_1a.mp3"
+        scene black
+        image videov_Melanie_Victoria_Titjob_1_6 = Movie(play="video/v_Melanie_Victoria_Titjob_1_6.mkv", fps=30)
+        show videov_Melanie_Victoria_Titjob_1_6
+        wclean
 
+    music2 stop
     music Loved_Up
     # video
     sound hlup25
@@ -1018,27 +1072,22 @@ label ep27_dialogues2_melanie2:
     sound hlup10
     img 14115
     with diss
-    w
+    dick_secretary "Эти сиськи стоят миллоны долларов."
+#    w
     sound hlup10
     img 14116
     with diss
-    w
+    dick_secretary "Тебе пишут сотни тысяч поклонников, Да?"
+#    w
     sound hlup25
     img 14117
     with diss
-    w
-    dick_secretary "Давай, подружка, Да!"
-
-    dick_secretary "Да, Давай!"
-
-    dick_secretary "Хорошенько работай своими сиськами, Да!"
-
-    dick_secretary "Меня так возбуждает!"
-
-    dick_secretary "Эти сиськи стоят миллоны долларов."
-    dick_secretary "Тебе пишут сотни тысяч поклонников, Да?"
-
     melanie "Да, Мисс Виктория..."
+#    w
+
+
+
+
 
     # end video
     music stop

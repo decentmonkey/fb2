@@ -11,6 +11,8 @@ label hostel_street:
 
     $ hostelStreet2MonicaFromSideSuffix = "2"
 
+    music2 stop
+
     if day_time == "day":
         music street1
     else:
