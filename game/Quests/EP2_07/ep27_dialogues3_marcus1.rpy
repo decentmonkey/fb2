@@ -417,9 +417,11 @@ label ep27_dialogues_marcus1_8:
 label ep27_dialogues_marcus1_9:
     # Моника дергает за решетку
     # Подходит Боб
+    music2 stop
     music stop
     img black_screen
     with diss
+    sound man_steps
     pause 1.5
     music Groove2_85
     img 21235
@@ -467,10 +469,11 @@ label ep27_dialogues_marcus1_10:
 
 label ep27_dialogues_marcus1_11:
     # Моника легла спать
+    music2 stop
     music stop
     img black_screen
     with diss
-    pause 1.5
+    pause 2.0
     music Euro_Loop1
     img 21232
     with fadelong
@@ -492,17 +495,42 @@ label ep27_dialogues_marcus1_11:
     call textonblack(_("Fashion Business"))
     img black_screen
     with Dissolve(2.0)
+    $ renpy.pause(2.0, hard=True)
+#    pause 2.0
+    stop music fadeout 4.0
+    $ renpy.pause(4.0, hard=True)
+#    pause 4.0
+    music Malicious
+#    pause 2.0
+    $ renpy.pause(2.0, hard=True)
+    sound man_steps
+#    pause 2.0
+    $ renpy.pause(2.0, hard=True)
+    sound snd_jail_door
+#    pause 2.0
+    $ renpy.pause(2.0, hard=True)
+    img 21240
+    with fadelong
+#    pause 2.0
+    $ renpy.pause(2.0, hard=True)
+    stop music
+    sound snd_cinematic_impact
+    img black_screen
+#    pause 2.0
+    $ renpy.pause(2.0, hard=True)
     img black_screen
     with Dissolve(0.5)
     img Patreon_Game_Logo
     with Dissolve(0.7)
     $ renpy.pause(1.0, hard=True)
-    pause 4.0
+#    pause 4.0
+    $ renpy.pause(4.0, hard=True)
     img black_screen
     with Dissolve(0.7)
-    pause 30.0
-    music stop
-    pause 1.0
+    pause 3.0
+#    pause 30.0
+#    music stop
+#    pause 1.0
     $ MainMenu(confirm=False)()
     return
 

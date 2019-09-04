@@ -4,7 +4,7 @@
 ## them. Lines beginning with a single '#' mark are commented-out code, and you
 ## may want to uncomment them when appropriate.
 
-
+define build.include_update = True
 ## Basics ######################################################################
 
 ## A human-readable name of the game. This is used to set the default window
@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "EP2-v0.6"
+define config.version = "EP2-v0.7-Extra"
 
 
 ## Text that is placed on the game's about screen. Place the text between the

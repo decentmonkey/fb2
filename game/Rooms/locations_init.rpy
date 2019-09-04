@@ -160,3 +160,11 @@ label locations_init_melanie_home:
     # Дом Мелани (пока пустой)
     $ add_location("melanie_home", caption=_("АПАРТАМЕНТЫ МЕЛАНИ"), label="melanie_home", init_label="melanie_home_init", parent="World")
     return
+
+
+label locations_init_police_jail_cage:
+    # Камера в полиции
+    $ add_location("police_cell1", caption=_("КАМЕРА"), label="police_cell1", init_label="police_cell1_init", parent="police_entrance")
+    $ add_location("police_cell2", caption=_("КАМЕРА"), label="police_cell2", init_label="police_cell2_init", parent="police_entrance")
+    $ add_location("police_cell3", caption=_("РЕШЕТКА"), label="police_cell3", init_label="police_cell3_init", parent="police_entrance")
+    return

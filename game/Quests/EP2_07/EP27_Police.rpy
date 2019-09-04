@@ -37,7 +37,25 @@ label ep27_police2_reception_dialogue: # Разговор в проходной 
     call ep27_dialogues_marcus1_4() # Входят в камеру
     call ep27_dialogues_marcus1_5() # Моника в камере
 
+    $ cloth = "JailRobe" # Переодеваем Монику
+    $ cloth_type = "Jail"
+    $ inventory = [] # Забираем весь инвентарь
 
-    call ep27_dialogues_marcus1_9() # Боб
-    call ep27_dialogues_marcus1_11()
+    $ add_hook("cage_interact", "ep27_police3_interact_cage1", scene="police", label="cage_interact1")
+
+    call locations_init_police_jail_cage() # Инициализируем камеру
+    call change_scene("police_cell1", "Fade_long", False)
+
+
+#    call ep27_dialogues_marcus1_9() # Боб
+#    call ep27_dialogues_marcus1_11()
     return False
+
+label ep27_police3_interact_cage1:
+    call ep27_dialogues_marcus1_9()
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    call change_scene("police_cell1", "Fade_long")
+    return

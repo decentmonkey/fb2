@@ -63,6 +63,8 @@ label monica_take_nap1:
             $ basementBedroomMonicaNapGfx = False
             $ basementBedroomMonicaNapGfxBettyPanties = False
             $ basement_bedroom2_Monica_Nap_Betty_Suffix = ""
+            img black_screen
+            with Dissolve(0.2)
             #транзиция на отдых
             call process_hooks("basement_monica_before_nap", "global") from _call_process_hooks_29
             if _return == False:
@@ -111,6 +113,8 @@ label monica_gosleep1a:
             call change_scene("basement_bedroom_table") from _call_change_scene_237
             return False
         "Лечь спать голодной.":
+            img black_screen
+            with Dissolve(0.2)
             call monica_process_sleep() from _call_monica_process_sleep
             return False
 #            $ basementBedroomMonicaSleepGfx = False
@@ -128,6 +132,8 @@ label monica_gosleep1a:
 #            call refresh_scene_fade() from _call_refresh_scene_fade_48
 #            return False
         "Пропустить до Пятницы." if basementBedSkipUntilFridayEnabled == True and week_day != 5:
+            img black_screen
+            with Dissolve(0.2)
             $ basementBedroomMonicaSleepGfx = False
             call monica_skip_until_friday() from _call_monica_skip_until_friday
             return False
@@ -141,6 +147,8 @@ label monica_gosleep1b:
     $ basement_bedroom2_MonicaSuffix = 2
     menu:
         "Лечь спать.":
+            img black_screen
+            with Dissolve(0.2)
             call monica_process_sleep() from _call_monica_process_sleep_1
             return False
 #            $ basementBedroomMonicaSleepGfx = False
@@ -166,6 +174,8 @@ label monica_gosleep1b:
                 else:
                     $ cloth = "GovernessPants"
                 $ monicaBettyPanties = False
+            img black_screen
+            with Dissolve(0.2)
             call monica_skip_until_friday() from _call_monica_skip_until_friday_1
             return False
         "Не ложиться.":
