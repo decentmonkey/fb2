@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-04 22:25
+﻿# TODO: Translation updated at 2019-09-05 21:13
 
 # game/Quests/EP2/Citizens/Citizen11_alco.rpy:8
 translate german take_trash_bottle_68e0eb1b:

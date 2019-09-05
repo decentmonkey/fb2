@@ -58,6 +58,7 @@ label ep27_quests_melanie3_melanie_home_scene:
     $ add_hook("change_time_day", "ep27_quests_melanie5_victoria_scene1", scene="global") # Виктория звонит Мелани
     $ changeDayTime("evening")
     $ autorun_to_object("ep27_dialogues1_melanie3", scene="street_house_outside") # Комментарий после встречи с Мелани
+    $ add_hook("Melanie", "ep27_quests_melanie7_block_melanie", scene="monica_office_makeup_room", label="ep27_melanie_block_end1") # Блокируем Мелани
     call ep27_police1_init() from _call_ep27_police1_init
 
 #    $ rain = True
@@ -82,7 +83,6 @@ label ep27_quests_melanie3b_stop_rain: # Выключаем дождь
     $ rain = False
     $ rainIntencity = 3
     $ lightning = False
-    m "here"
     hide screen Rain
     stop music
     $ SStop()
@@ -129,3 +129,9 @@ label ep27_quests_melanie6_victoria_scene1:
 
     $ ep27_melanie_visited_victoria = True
     return
+
+label ep27_quests_melanie7_block_melanie: # Блокируем диалог с Мелани
+    if act=="l":
+        return
+    call ep27_dialogues1_melanie4()
+    return False

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-04 22:23
+﻿# TODO: Translation updated at 2019-09-05 21:10
 
 # game/Quests/EP2/Citizens/Citizens_Controller.rpy:57
 translate english citizens_dialogue_refuse_079708da:

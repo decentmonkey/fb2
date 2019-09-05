@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-04 22:23
+﻿# TODO: Translation updated at 2019-09-05 21:10
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:13
 translate english ep27_dialogues7_pub1_9a5cbf4e:
@@ -151,14 +151,14 @@ translate english ep27_dialogues7_pub1_11c2bc7b:
     mt "WHAT?!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:123
-translate english ep27_dialogues7_pub1_86ee1545:
+translate english ep27_dialogues7_pub1_913173f9:
 
     # joe "Она ведь работает у нас неофициально!"
-    # joe "Можно, скажем, отдавать ей 10 процентов от того, что ей дадут клиенты."
+    # joe "Можно, скажем, отдавать ей 30 процентов от того, что ей дадут клиенты."
     # joe "И нам необязательно платить ей основную зарплату."
     # joe "Ей вполне хватит остатка от чаевых."
     joe "She is working unofficially after all!"
-    joe "We can give her. Let's say... 10 percent from the tips."
+    joe "We can give her. Let's say... 30 percent from the tips."
     joe "We don't even need to pay her a salary."
     joe "Just tips will be enough."
 
@@ -189,11 +189,11 @@ translate english ep27_dialogues7_pub1_54008fcb:
     ashley "So you are proposing to send [monica_pub_name] to those drunkards while not paying her?"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:148
-translate english ep27_dialogues7_pub1_bfde3df2:
+translate english ep27_dialogues7_pub1_b9d02751:
 
-    # joe "Платить, но только 10 процентов от чаевых. Мы ничем не рискуем, Эшли!"
+    # joe "Платить, но только 30 процентов от чаевых. Мы ничем не рискуем, Эшли!"
     # joe "Нет зарплаты - не нужны документы! Не страшны никакие проверки!"
-    joe "No, we will, but only 10 percent of the tips. We are not risking anything!"
+    joe "No, we will, but only 30 percent of the tips. We are not risking anything!"
     joe "No salary - means she doesn't need documents, so any checks are not scary for us."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:152
@@ -413,11 +413,11 @@ translate english ep27_dialogues7_pub7_1e6fb6ed:
     m "Here are the tips I got."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:338
-translate english ep27_dialogues7_pub7_ca3401b8:
+translate english ep27_dialogues7_pub7_5be2f58a:
 
-    # ashley "Хорошо. Вот твои десять процентов."
+    # ashley "Хорошо. Вот твои тридцать процентов."
     # ashley "Завтра приходи работать еще."
-    ashley "Alright, here are your 10 percent."
+    ashley "Alright, here are your 30 percent."
     ashley "Come again tomorrow."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:364

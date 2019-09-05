@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-04 22:25
+﻿# TODO: Translation updated at 2019-09-05 21:13
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:13
 translate german ep27_dialogues7_pub1_9a5cbf4e:
@@ -151,14 +151,14 @@ translate german ep27_dialogues7_pub1_11c2bc7b:
     mt "WAS?!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:123
-translate german ep27_dialogues7_pub1_86ee1545:
+translate german ep27_dialogues7_pub1_913173f9:
 
     # joe "Она ведь работает у нас неофициально!"
-    # joe "Можно, скажем, отдавать ей 10 процентов от того, что ей дадут клиенты."
+    # joe "Можно, скажем, отдавать ей 30 процентов от того, что ей дадут клиенты."
     # joe "И нам необязательно платить ей основную зарплату."
     # joe "Ей вполне хватит остатка от чаевых."
     joe "Immerhin arbeitet sie hier schwarz!"
-    joe "Wir können ihr ja... sagen wir, 10 Prozent des Trinkgeldes geben."
+    joe "Wir können ihr ja... sagen wir, 30 Prozent des Trinkgeldes geben."
     joe "Wir müssen ihr nicht mal Gehalt zahlen."
     joe "Trinkgelder sind genug."
 
@@ -189,11 +189,11 @@ translate german ep27_dialogues7_pub1_54008fcb:
     ashley "Also willst du [monica_pub_name] zu diesen Betrunkenen schicken und sie nicht bezahlen?"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:148
-translate german ep27_dialogues7_pub1_bfde3df2:
+translate german ep27_dialogues7_pub1_b9d02751:
 
-    # joe "Платить, но только 10 процентов от чаевых. Мы ничем не рискуем, Эшли!"
+    # joe "Платить, но только 30 процентов от чаевых. Мы ничем не рискуем, Эшли!"
     # joe "Нет зарплаты - не нужны документы! Не страшны никакие проверки!"
-    joe "Nein, nur 10 Prozent des Trinkgeldes, nichts riskieren ist meine Devise."
+    joe "Nein, nur 30 Prozent des Trinkgeldes, nichts riskieren ist meine Devise."
     joe "Keine Bezahlung - keine Notwendigkeit für Papiere! Keine Angst vor jeder Prüfung. Ganz einfach!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:152
@@ -413,11 +413,11 @@ translate german ep27_dialogues7_pub7_1e6fb6ed:
     m "Hier sind die Trinkgelder, die ich bekommen habe."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:338
-translate german ep27_dialogues7_pub7_ca3401b8:
+translate german ep27_dialogues7_pub7_5be2f58a:
 
-    # ashley "Хорошо. Вот твои десять процентов."
+    # ashley "Хорошо. Вот твои тридцать процентов."
     # ashley "Завтра приходи работать еще."
-    ashley "Gut. Hier sind deine zehn Prozent."
+    ashley "Gut. Hier sind deine dreißig Prozent."
     ashley "Komm morgen wieder."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:364

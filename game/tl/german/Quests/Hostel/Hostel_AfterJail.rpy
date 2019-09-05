@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-04 22:25
+﻿# TODO: Translation updated at 2019-09-05 21:13
 
 # game/Quests/Hostel/Hostel_AfterJail.rpy:4
 translate german hostelAfterJail_street_dialogue3_a48cad6f:
