@@ -133,5 +133,5 @@ label ep27_quests_melanie6_victoria_scene1:
 label ep27_quests_melanie7_block_melanie: # Блокируем диалог с Мелани
     if act=="l":
         return
-    call ep27_dialogues1_melanie4()
+    call ep27_dialogues1_melanie4() from _call_ep27_dialogues1_melanie4_1
     return False
