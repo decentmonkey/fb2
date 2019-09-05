@@ -19,6 +19,8 @@ label ep27_quests_secretary1:
     $ add_hook("Citizen_7", "ep27_dialogues5_secretary_boobs3", scene="hostel_street3", label="secretary_boobs_quest1")
     $ add_hook("Teleport_Hostel_Street_Corner", "ep27_dialogues5_secretary_boobs4", scene="hostel_street3", label="secretary_boobs_quest1")
     $ add_hook("Teleport_Hostel_Street2", "ep27_dialogues5_secretary_boobs4", scene="hostel_street3", label="secretary_boobs_quest1")
+    $ move_object("Secretary", "hostel_street3")
+
     music stop
     img black_screen
     with diss
@@ -49,7 +51,7 @@ label ep27_quests_secretary2:
     if _return == True:
         $ autorun_to_object("ep27_dialogues5_secretary_boobs7", scene="hostel_edge_1_a")
 
-
+    $ move_object("Secretary", "monica_office_secretary")
     $ remove_hook(label="secretary_boobs_quest1")
     call change_scene("hostel_edge_1_a", "Fade_long", "highheels_run1") from _call_change_scene_363
     return False

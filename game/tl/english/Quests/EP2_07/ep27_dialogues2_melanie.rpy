@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-04 22:23
+﻿# TODO: Translation updated at 2019-09-05 21:10
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:15
 translate english ep27_dialogues2_melanie1_10836444:
@@ -73,9 +73,9 @@ translate english ep27_dialogues2_melanie1_cec5853f:
     melanie "Fine, I'll just visit him."
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:129
-translate english ep27_dialogues2_melanie2_dd6459cc:
+translate english ep27_dialogues2_melanie2_756e18e9:
 
-    # reception_secretary "Здравствуйте, Мисс Мелани !" 
+    # reception_secretary "Здравствуйте, Мисс Мелани!" 
     # reception_secretary "Рада снова видеть Вас!"
     # reception_secretary "Вы решили навестить Мистера Дика?"
     reception_secretary "Hello, Ms. Melanie!" 
@@ -747,12 +747,12 @@ translate english ep27_dialogues2_melanie2_b5784e43:
     dick_secretary "While you are behaving well, photos will be kept safe."
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:637
-translate english ep27_dialogues2_melanie2_c2e1c51f_8:
+translate english ep27_dialogues2_melanie2_c2e1c51f_10:
 
     # melanie "..." 
     melanie "..." 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:640
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:642
 translate english ep27_dialogues2_melanie2_2cff6690:
 
     # dick_secretary "Да, кстати." 
@@ -760,13 +760,13 @@ translate english ep27_dialogues2_melanie2_2cff6690:
     dick_secretary "Oh, by the way." 
     dick_secretary "I have another friend you know very well."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:651
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:653
 translate english ep27_dialogues2_melanie2_43017bac_1:
 
     # melanie "..."
     melanie "..."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:654
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:656
 translate english ep27_dialogues2_melanie2_a171c733:
 
     # dick_secretary "Она навещает меня регулярно." 
@@ -776,13 +776,33 @@ translate english ep27_dialogues2_melanie2_a171c733:
     dick_secretary "But she doesn't always behave."
     dick_secretary "And has to ask me for my forgiveness from time to time."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:660
-translate english ep27_dialogues2_melanie2_c2e1c51f_9:
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:662
+translate english ep27_dialogues2_melanie2_c2e1c51f_8:
 
     # melanie "..." 
     melanie "..." 
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:666
+translate english ep27_dialogues2_melanie2_0f0fc9f9:
+
+    # dick_secretary "Да, кстати." 
+    # dick_secretary "У меня есть еще одна подружка, которую ты хорошо знаешь."
+    # dick_secretary "Она навещает меня регулярно." 
+    # dick_secretary "Однако, она не всегда себя хорошо ведет."
+    # dick_secretary "И, чтобы сновать стать хорошей подружкой, ей приходится просить прощения у меня."
+    dick_secretary "Oh, by the way." 
+    dick_secretary "I have another friend you know very well."
+    dick_secretary "She visits me regularly." 
+    dick_secretary "But she doesn't always behave."
+    dick_secretary "And has to ask me for my forgiveness from time to time."
+
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:674
+translate english ep27_dialogues2_melanie2_c2e1c51f_9:
+
+    # melanie "..." 
+    melanie "..." 
+
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:682
 translate english ep27_dialogues2_melanie2_fbd3843a:
 
     # dick_secretary "Это хорошо что ты одела ту же шубку, что и на фото."  
@@ -790,13 +810,13 @@ translate english ep27_dialogues2_melanie2_fbd3843a:
     dick_secretary "It's good that you wear the same coat as in the photo."  
     dick_secretary "We can make another good photo."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:671
-translate english ep27_dialogues2_melanie2_c2e1c51f_10:
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:687
+translate english ep27_dialogues2_melanie2_c2e1c51f_11:
 
     # melanie "..." 
     melanie "..." 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:674
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:690
 translate english ep27_dialogues2_melanie2_4ee25934:
 
     # dick_secretary "Могу поспорить, что под этой шубкой ничего нет." 
@@ -804,31 +824,31 @@ translate english ep27_dialogues2_melanie2_4ee25934:
     dick_secretary "I bet there is nothing else under there." 
     dick_secretary "You dressed up like that to shake your tits before Dick, did you not?"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:679
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:695
 translate english ep27_dialogues2_melanie2_d26e579a_6:
 
     # melanie "!!!" 
     melanie "!!!" 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:687
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:703
 translate english ep27_dialogues2_melanie2_99fc4119:
 
     # dick_secretary "Давай, показывай их, как это сделала первая подружка." 
     dick_secretary "Come on, show them to me, as my first friend did already." 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:692
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:708
 translate english ep27_dialogues2_melanie2_c80755a6:
 
     # dick_secretary "Я хочу сделать фото и сравнить Ваши сиськи."
     dick_secretary "I want to take a photo and compare them."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:698
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:714
 translate english ep27_dialogues2_melanie2_d26e579a_7:
 
     # melanie "!!!" 
     melanie "!!!" 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:701
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:717
 translate english ep27_dialogues2_melanie2_c5ab4ca2:
 
     # melanie "Я не буду показывать свою грудь!" 
@@ -836,7 +856,7 @@ translate english ep27_dialogues2_melanie2_c5ab4ca2:
     melanie "I'm not showing you my chest!" 
     melanie "I have a self-respect and..."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:709
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:725
 translate english ep27_dialogues2_melanie2_449cdb66:
 
     # dick_secretary "Ты плохая подружка! Можешь уходить!" 
@@ -844,31 +864,101 @@ translate english ep27_dialogues2_melanie2_449cdb66:
     dick_secretary "You are a bad friend! You can go!" 
     dick_secretary "Good friends don't argue with me!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:713
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:729
 translate english ep27_dialogues2_melanie2_d26e579a_8:
 
     # melanie "!!!" 
     melanie "!!!" 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:716
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:732
 translate english ep27_dialogues2_melanie2_12115515:
 
     # dick_secretary "Можешь идти, я не задерживаю тебя!" 
     dick_secretary "You can go, I don't keep you here!" 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:719
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:735
 translate english ep27_dialogues2_melanie2_d26e579a_9:
 
     # melanie "!!!" 
     melanie "!!!" 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:722
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:738
 translate english ep27_dialogues2_melanie2_2d348793_6:
 
     # dick_secretary "..." 
     dick_secretary "..." 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:731
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:744
+translate english ep27_dialogues2_melanie2_fbd3843a_1:
+
+    # dick_secretary "Это хорошо что ты одела ту же шубку, что и на фото."  
+    # dick_secretary "Можно сделать хороший кадр."
+    dick_secretary "It's good that you wear the same coat as in the photo."  
+    dick_secretary "We can make another good photo."
+
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:749
+translate english ep27_dialogues2_melanie2_c2e1c51f_12:
+
+    # melanie "..." 
+    melanie "..." 
+
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:752
+translate english ep27_dialogues2_melanie2_4ee25934_1:
+
+    # dick_secretary "Могу поспорить, что под этой шубкой ничего нет." 
+    # dick_secretary "Ты ведь пришла для того, чтобы трясти своими сиськами перед Диком, да?"
+    dick_secretary "I bet there is nothing else under there." 
+    dick_secretary "You dressed up like that to shake your tits before Dick, did you not?"
+
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:757
+translate english ep27_dialogues2_melanie2_d26e579a_10:
+
+    # melanie "!!!" 
+    melanie "!!!" 
+
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:762
+translate english ep27_dialogues2_melanie2_d046a463:
+
+    # melanie "!!!" 
+    # melanie "Я не буду показывать свою грудь!" 
+    # melanie "Я уважающая себя женщина и..."
+    melanie "!!!" 
+    melanie "I'm not showing you my chest!" 
+    melanie "I have a self-respect and..."
+
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:771
+translate english ep27_dialogues2_melanie2_449cdb66_1:
+
+    # dick_secretary "Ты плохая подружка! Можешь уходить!" 
+    # dick_secretary "Хорошая подружка не пререкается со мной."
+    dick_secretary "You are a bad friend! You can go!" 
+    dick_secretary "Good friends don't argue with me!"
+
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:775
+translate english ep27_dialogues2_melanie2_d26e579a_11:
+
+    # melanie "!!!" 
+    melanie "!!!" 
+
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:778
+translate english ep27_dialogues2_melanie2_12115515_1:
+
+    # dick_secretary "Можешь идти, я не задерживаю тебя!" 
+    dick_secretary "You can go, I don't keep you here!" 
+
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:781
+translate english ep27_dialogues2_melanie2_d26e579a_12:
+
+    # melanie "!!!" 
+    melanie "!!!" 
+
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:784
+translate english ep27_dialogues2_melanie2_2d348793_7:
+
+    # dick_secretary "..." 
+    dick_secretary "..." 
+
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:793
 translate english ep27_dialogues2_melanie2_5b2a8905:
 
     # melanie "..." 
@@ -878,7 +968,7 @@ translate english ep27_dialogues2_melanie2_5b2a8905:
     melanie "Fine..."
     melanie "I'll do it, but that will be all, deal?"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:737
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:799
 translate english ep27_dialogues2_melanie2_7b41e32b:
 
     # dick_secretary "Это только начало, подружка!" 
@@ -886,27 +976,23 @@ translate english ep27_dialogues2_melanie2_7b41e32b:
     dick_secretary "It's just a beginning, friend!" 
     dick_secretary "Argue with me one more time and our friendship is over!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:741
-translate english ep27_dialogues2_melanie2_d26e579a_10:
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:803
+translate english ep27_dialogues2_melanie2_d26e579a_13:
 
     # melanie "!!!" 
     melanie "!!!" 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:747
-translate english ep27_dialogues2_melanie2_dbff2483:
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:809
+translate english ep27_dialogues2_melanie2_9102b20d:
 
     # dick_secretary "Давай, показывай!" 
     # dick_secretary "Мне нужно фото, дискредитирующее тебя перед Мистером Диком!"
+    # melanie "..." 
     dick_secretary "Come on, show them!" 
     dick_secretary "I need a photo showing you in a bad light for Mr. Dick."
-
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:751
-translate english ep27_dialogues2_melanie2_c2e1c51f_11:
-
-    # melanie "..." 
     melanie "..." 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:778
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:844
 translate english ep27_dialogues2_melanie2_addb9ae4:
 
     # dick_secretary "Отлично!" 
@@ -914,19 +1000,19 @@ translate english ep27_dialogues2_melanie2_addb9ae4:
     dick_secretary "Excellent!" 
     dick_secretary "He will finally understand that you are just a whole, same as Mrs. Buckfett!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:783
-translate english ep27_dialogues2_melanie2_d26e579a_11:
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:849
+translate english ep27_dialogues2_melanie2_d26e579a_14:
 
     # melanie "!!!" 
     melanie "!!!" 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:787
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:854
 translate english ep27_dialogues2_melanie2_93face97:
 
     # dick_secretary "У тебя красивая грудь, подружка!" 
     dick_secretary "You have a nice chest, friend!" 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:790
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:857
 translate english ep27_dialogues2_melanie2_533c5e53:
 
     # melanie "Я знаю..." 
@@ -936,25 +1022,47 @@ translate english ep27_dialogues2_melanie2_533c5e53:
     melanie "Mrs. Victoria..."
     melanie "A lot of people dream to have one like mine."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:797
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:864
 translate english ep27_dialogues2_melanie2_945803b3:
 
     # dick_secretary "Но скажи, чья грудь лучше?" 
     dick_secretary "Can you tell whose is better?" 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:802
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:868
+translate english ep27_dialogues2_melanie2_93face97_1:
+
+    # dick_secretary "У тебя красивая грудь, подружка!" 
+    dick_secretary "You have a nice chest, friend!" 
+
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:871
+translate english ep27_dialogues2_melanie2_533c5e53_1:
+
+    # melanie "Я знаю..." 
+    # melanie "Мисс Виктория..."
+    # melanie "Все мечтают о такой груди, как у меня..."
+    melanie "I found out..." 
+    melanie "Mrs. Victoria..."
+    melanie "A lot of people dream to have one like mine."
+
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:877
+translate english ep27_dialogues2_melanie2_945803b3_1:
+
+    # dick_secretary "Но скажи, чья грудь лучше?" 
+    dick_secretary "Can you tell whose is better?" 
+
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:883
 translate english ep27_dialogues2_melanie2_77da7b12:
 
     # dick_secretary "Твоя или моя?" 
     dick_secretary "Yours or mine?" 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:805
-translate english ep27_dialogues2_melanie2_c2e1c51f_12:
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:886
+translate english ep27_dialogues2_melanie2_c2e1c51f_13:
 
     # melanie "..." 
     melanie "..." 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:810
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:891
 translate english ep27_dialogues2_melanie2_049066f4:
 
     # dick_secretary "..." 
@@ -962,19 +1070,19 @@ translate english ep27_dialogues2_melanie2_049066f4:
     dick_secretary "..." 
     dick_secretary "Think carefully before you answer."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:814
-translate english ep27_dialogues2_melanie2_c2e1c51f_13:
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:895
+translate english ep27_dialogues2_melanie2_c2e1c51f_14:
 
     # melanie "..." 
     melanie "..." 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:817
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:898
 translate english ep27_dialogues2_melanie2_1e8d2a4e:
 
     # melanie "Ваша грудь лучше, Мисс Виктория..." 
     melanie "Of course yours, Ms. Victoria." 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:821
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:906
 translate english ep27_dialogues2_melanie2_4a327b6e:
 
     # dick_secretary "Правильный ответ." 
@@ -982,31 +1090,31 @@ translate english ep27_dialogues2_melanie2_4a327b6e:
     dick_secretary "Right." 
     dick_secretary "Good girlfriend!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:825
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:910
 translate english ep27_dialogues2_melanie2_33b9c77d:
 
     # dick_secretary "А теперь потряси своими сиськами. Я хочу снять видео!"
     dick_secretary "Now shake your tits. I want to film it!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:829
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:914
 translate english ep27_dialogues2_melanie2_2274d9dc_1:
 
     # melanie "!!!"
     melanie "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:833
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:918
 translate english ep27_dialogues2_melanie2_9e0f0dd8:
 
     # dick_secretary "Мне надо повторить? Хочешь быть плохой подружкой?"
     dick_secretary "Do I have to repeat? Do you want to be a good friend?"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:836
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:921
 translate english ep27_dialogues2_melanie2_43017bac_2:
 
     # melanie "..."
     melanie "..."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:880
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:966
 translate english ep27_dialogues2_melanie2_48838778:
 
     # melanie "Мисс Виктория, мы закончили?" 
@@ -1014,7 +1122,7 @@ translate english ep27_dialogues2_melanie2_48838778:
     melanie "Are we finished now?" 
     melanie "Can I go?"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:884
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:970
 translate english ep27_dialogues2_melanie2_b3e08f59:
 
     # dick_secretary "Нет, подружка." 
@@ -1022,25 +1130,25 @@ translate english ep27_dialogues2_melanie2_b3e08f59:
     dick_secretary "No, my friend." 
     dick_secretary "I want you to help me out."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:888
-translate english ep27_dialogues2_melanie2_c2e1c51f_14:
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:974
+translate english ep27_dialogues2_melanie2_c2e1c51f_15:
 
     # melanie "..." 
     melanie "..." 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:891
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:978
 translate english ep27_dialogues2_melanie2_ffc73deb:
 
     # melanie "В чем Вы хотите чтобы я Вам помогла, Мисс Виктория?" 
     melanie "What do you need my help with, Ms. Victoria?" 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:894
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:985
 translate english ep27_dialogues2_melanie2_d87b91fc:
 
     # dick_secretary "Подружка, я ждала тебя здесь целый день." 
     dick_secretary "Friend, I was waiting for you for a whole day." 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:915
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1007
 translate english ep27_dialogues2_melanie2_bdd0f174:
 
     # dick_secretary "Я всегда ношу сапожки, чтобы выглядеть красиво." 
@@ -1048,13 +1156,13 @@ translate english ep27_dialogues2_melanie2_bdd0f174:
     dick_secretary "I always wear these shoes to look nice." 
     dick_secretary "But while I was waiting my legs got tired."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:921
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1013
 translate english ep27_dialogues2_melanie2_43017bac_3:
 
     # melanie "..."
     melanie "..."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:924
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1016
 translate english ep27_dialogues2_melanie2_b000eb09:
 
     # dick_secretary "Пожалуйста, сними этот сапожок!" 
@@ -1062,37 +1170,37 @@ translate english ep27_dialogues2_melanie2_b000eb09:
     dick_secretary "Take off my shoe!" 
     dick_secretary "Be a good friend!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:929
-translate english ep27_dialogues2_melanie2_d26e579a_12:
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1021
+translate english ep27_dialogues2_melanie2_d26e579a_15:
 
     # melanie "!!!" 
     melanie "!!!" 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:934
-translate english ep27_dialogues2_melanie2_2d348793_7:
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1026
+translate english ep27_dialogues2_melanie2_2d348793_8:
 
     # dick_secretary "..." 
     dick_secretary "..." 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:960
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1053
 translate english ep27_dialogues2_melanie2_c674f2f5:
 
     # dick_secretary "Хорошо, а теперь сделай моей ножке массаж своей грудью..." 
     dick_secretary "Now, give my leg a massage with your chest." 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:964
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1057
 translate english ep27_dialogues2_melanie2_461881f3:
 
     # melanie "ЧТО?!" 
     melanie "WHAT?!" 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:967
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1060
 translate english ep27_dialogues2_melanie2_aad5c80c:
 
     # melanie "Моей грудью?! Трогать моей грудью твои ноги?!!" 
     melanie "What?! Massaging your legs with my chest?!" 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:970
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1063
 translate english ep27_dialogues2_melanie2_adc9985c:
 
     # dick_secretary "Кажется я слышала пререкание?" 
@@ -1100,13 +1208,13 @@ translate english ep27_dialogues2_melanie2_adc9985c:
     dick_secretary "Did you just argue with me?" 
     dick_secretary "Or I misheard?"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:976
-translate english ep27_dialogues2_melanie2_d26e579a_13:
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1069
+translate english ep27_dialogues2_melanie2_d26e579a_16:
 
     # melanie "!!!" 
     melanie "!!!" 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:979
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1072
 translate english ep27_dialogues2_melanie2_df997561:
 
     # dick_secretary "Мне послышалось?" 
@@ -1114,25 +1222,25 @@ translate english ep27_dialogues2_melanie2_df997561:
     dick_secretary "Did I?" 
     dick_secretary "Or are you a bad friend?!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:985
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1079
 translate english ep27_dialogues2_melanie2_2274d9dc_2:
 
     # melanie "!!!"
     melanie "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:990
-translate english ep27_dialogues2_melanie2_2d348793_8:
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1084
+translate english ep27_dialogues2_melanie2_2d348793_9:
 
     # dick_secretary "..." 
     dick_secretary "..." 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:998
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1092
 translate english ep27_dialogues2_melanie2_71ab2262:
 
     # melanie "Вам послышалось, Мисс Виктория..." 
     melanie "You misheard, Ms. Victoria." 
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1001
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1095
 translate english ep27_dialogues2_melanie2_378e2220:
 
     # dick_secretary "Давай, подружка!" 
@@ -1142,31 +1250,31 @@ translate english ep27_dialogues2_melanie2_378e2220:
     dick_secretary "Your tits - are main tool for a work."
     dick_secretary "You made your career with this tool."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1009
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1103
 translate english ep27_dialogues2_melanie2_64fd3516:
 
     # dick_secretary "Почему бы не использовать его, чтобы снять усталось у лучшей подружки?"
     dick_secretary "Why don't you use it to help out your friend?"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1012
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1106
 translate english ep27_dialogues2_melanie2_43017bac_4:
 
     # melanie "..."
     melanie "..."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1016
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1110
 translate english ep27_dialogues2_melanie2_6f4a0ec3:
 
     # dick_secretary "Я ведь твоя лучшая подружка, Мелани? Правда?"
     dick_secretary "I'm your best friend after all, aren't I?"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1019
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1113
 translate english ep27_dialogues2_melanie2_2274d9dc_3:
 
     # melanie "!!!"
     melanie "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1022
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1116
 translate english ep27_dialogues2_melanie2_296ceb20:
 
     # melanie "Вы..."
@@ -1174,73 +1282,73 @@ translate english ep27_dialogues2_melanie2_296ceb20:
     melanie "You are."
     melanie "You are my best friend, Ms. Victoria."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1041
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1135
 translate english ep27_dialogues2_melanie2_7edb8319:
 
     # dick_secretary "Да, Давай!"
     dick_secretary "Yes, come on!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1049
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1143
 translate english ep27_dialogues2_melanie2_debdaccf:
 
     # dick_secretary "Хорошенько работай своими сиськами, Да!"
     dick_secretary "Keep working with your tits! Yes!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1056
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1150
 translate english ep27_dialogues2_melanie2_48ae473b:
 
     # dick_secretary "Меня так возбуждает!"
     dick_secretary "It's so arousing!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1075
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1170
 translate english ep27_dialogues2_melanie2_b5a23b0d:
 
     # dick_secretary "Эти сиськи стоят миллоны долларов."
     dick_secretary "These tits worth a million!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1080
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1175
 translate english ep27_dialogues2_melanie2_c5e9ced6:
 
     # dick_secretary "Тебе пишут сотни тысяч поклонников, Да?"
     dick_secretary "You have hundreds of fans, right?"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1085
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1180
 translate english ep27_dialogues2_melanie2_42505e1d:
 
     # melanie "Да, Мисс Виктория..."
     melanie "Yes, Ms. Victoria."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1100
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1195
 translate english ep27_dialogues2_melanie2_75923353:
 
     # dick_secretary "Но я думаю это лучшее применение твоим сиськам, нежели показ их Мистеру Дику!"
     dick_secretary "But I think what you are doing now is much better use for your tits, than showing them to Mr. Dick."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1103
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1199
 translate english ep27_dialogues2_melanie2_2274d9dc_4:
 
     # melanie "!!!"
     melanie "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1106
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1202
 translate english ep27_dialogues2_melanie2_8a25ff1d:
 
     # dick_secretary "Скажи, ты рада сделать массаж своей лучшей подружке?"
     dick_secretary "Tell me, are you glad doing a massage to your friend?"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1109
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1205
 translate english ep27_dialogues2_melanie2_2274d9dc_5:
 
     # melanie "!!!"
     melanie "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1112
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1208
 translate english ep27_dialogues2_melanie2_93f7fc51:
 
     # melanie "Да, я рада сделать Вам массаж, Мисс Виктория..."
     melanie "Yes, I'm very glad."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1115
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1212
 translate english ep27_dialogues2_melanie2_974ef23c:
 
     # dick_secretary "Хорошо..."
@@ -1248,7 +1356,7 @@ translate english ep27_dialogues2_melanie2_974ef23c:
     dick_secretary "Fine..."
     dick_secretary "Take my big finger in your mouth."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1131
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1231
 translate english ep27_dialogues2_melanie2_bc4e2f9c:
 
     # melanie "Я не готова сделать это!"
@@ -1256,49 +1364,49 @@ translate english ep27_dialogues2_melanie2_bc4e2f9c:
     melanie "I'm not ready to do it!"
     dick_secretary "Good friend have to be always ready for anything."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1137
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1237
 translate english ep27_dialogues2_melanie2_2274d9dc_6:
 
     # melanie "!!!"
     melanie "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1142
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1242
 translate english ep27_dialogues2_melanie2_a185820c:
 
     # dick_secretary "Мне надо повторить?"
     dick_secretary "Do I have to repeat myself?"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1160
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1260
 translate english ep27_dialogues2_melanie2_f1e96d8f:
 
     # dick_secretary "Ах! Как чудесно!"
     dick_secretary "Ah! Brilliant!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1167
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1267
 translate english ep27_dialogues2_melanie2_c679fbc7:
 
     # dick_secretary "Ах! Ах!"
     dick_secretary "Ah! Ah!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1173
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1274
 translate english ep27_dialogues2_melanie2_2274d9dc_7:
 
     # melanie "!!!"
     melanie "!!!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1176
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1277
 translate english ep27_dialogues2_melanie2_cbeed157:
 
     # dick_secretary "А теперь... теперь..."
     dick_secretary "An now... now..."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1183
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1284
 translate english ep27_dialogues2_melanie2_96e361d7:
 
     # dick_secretary "Теперь... АААаааааааххххх!!!"
     dick_secretary "Now. arghhhh!!!"
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1200
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1301
 translate english ep27_dialogues2_melanie2_79c44e23:
 
     # dick_secretary "Ладно, подружка..." 
@@ -1308,7 +1416,7 @@ translate english ep27_dialogues2_melanie2_79c44e23:
     dick_secretary "Enough for today."
     dick_secretary "We will continue our friendship later."
 
-# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1208
+# game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1309
 translate english ep27_dialogues2_melanie2_b2f8c5a9:
 
     # dick_secretary "Ты можешь идти, подружка, но помни про наш уговор..." 
@@ -1328,7 +1436,7 @@ translate english strings:
     old "Попросить Викторию стать ее подружкой."
     new "Ask Victoria to become her friend."
 
-    # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1120
+    # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:1217
     old "Сделать что приказала Виктория."
     new "Do what Victoria ordered."
 

@@ -47,3 +47,11 @@ translate german strings:
     old " (corruption: "
     new " (corruption: "
 
+# TODO: Translation updated at 2019-09-05 21:03
+
+translate german strings:
+
+    # game/00_Functions/screens.rpy:1676
+    old "UPDATE GAME"
+    new "UPDATE GAME"
+

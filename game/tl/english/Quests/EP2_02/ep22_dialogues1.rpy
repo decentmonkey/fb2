@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-04 22:23
+﻿# TODO: Translation updated at 2019-09-05 21:10
 
 # game/Quests/EP2_02/ep22_dialogues1.rpy:29
 translate english ep22_dialogue1_2_governess_refuse_to_go_176c0e82:

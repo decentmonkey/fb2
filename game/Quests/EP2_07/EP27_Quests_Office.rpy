@@ -26,6 +26,8 @@ label ep27_quests_office2:
         return
     call ep27_dialogues4_biff1() from _call_ep27_dialogues4_biff1
 
+    $ remove_hook(label="monica_flash_card_quest1")
+
     $ miniMapEnabledOnly = ["none"]
     $ add_hook_multi("ep26_dialogues5_office1_1a", scene="monica_office_secretary", label="monica_flash_card_quest1_block", filter={"teleport":True})
     $ add_hook("Teleport_Monica_Office_Entrance", "ep26_dialogues5_office1_1a", scene="monica_office_secretary", label="monica_flash_card_quest1_block")

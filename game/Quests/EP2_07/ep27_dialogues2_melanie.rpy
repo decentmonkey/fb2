@@ -126,7 +126,7 @@ label ep27_dialogues2_melanie2:
     w
     img 13940
     with fade
-    reception_secretary "Здравствуйте, Мисс Мелани !" #+
+    reception_secretary "Здравствуйте, Мисс Мелани!" #+
     reception_secretary "Рада снова видеть Вас!"
     reception_secretary "Вы решили навестить Мистера Дика?"
     music ZigZag
@@ -635,91 +635,153 @@ label ep27_dialogues2_melanie2:
     img 14038
     with diss
     melanie "..." #+
-    img 14039
-    with fade
-    dick_secretary "Да, кстати." #-
-    dick_secretary "У меня есть еще одна подружка, которую ты хорошо знаешь."
 
-    # Кладет фото Моники, где она показывает грудь на телефон
-    sound snd_paper2
-    img 14046
-    with diss
-    w
-    # Мелани крупным планом, напряжена
-    img 14047
-    with diss
-    melanie "..."
-    img 14048
-    with diss
-    dick_secretary "Она навещает меня регулярно." #крупный план фотографии Моники
-    dick_secretary "Однако, она не всегда себя хорошо ведет."
-    dick_secretary "И, чтобы сновать стать хорошей подружкой, ей приходится просить прощения у меня."
-    sound snd_woman_laugh
-    img 14049
-    with diss
-    melanie "..." # вид из фотографии на Мелани
+    if monicaShowedBoobsToVictoriaCamera == True:
+        img 14039
+        with fade
+        dick_secretary "Да, кстати." #-
+        dick_secretary "У меня есть еще одна подружка, которую ты хорошо знаешь."
 
-    # Достает телефон
-    sound Jump1
-    img 14050
-    with fade
-    dick_secretary "Это хорошо что ты одела ту же шубку, что и на фото."  #-
-    dick_secretary "Можно сделать хороший кадр."
-    sound snd_woman_laugh3
-    img 14051
-    with diss
-    melanie "..." #-
-    img 14052
-    with fade
-    dick_secretary "Могу поспорить, что под этой шубкой ничего нет." #+ держит телефон
-    dick_secretary "Ты ведь пришла для того, чтобы трясти своими сиськами перед Диком, да?"
-    music Power_Bots_Loop
-    img 14053
-    with diss
-    melanie "!!!" #+
+        # Кладет фото Моники, где она показывает грудь на телефон
+        sound snd_paper2
+        img 14046
+        with diss
+        w
+        # Мелани крупным планом, напряжена
+        img 14047
+        with diss
+        melanie "..."
+        img 14048
+        with diss
+        dick_secretary "Она навещает меня регулярно." #крупный план фотографии Моники
+        dick_secretary "Однако, она не всегда себя хорошо ведет."
+        dick_secretary "И, чтобы сновать стать хорошей подружкой, ей приходится просить прощения у меня."
+        sound snd_woman_laugh
+        img 14049
+        with diss
+        melanie "..." # вид из фотографии на Мелани
+    else:
+        img 14039
+        with fade
+        dick_secretary "Да, кстати." #-
+        dick_secretary "У меня есть еще одна подружка, которую ты хорошо знаешь."
+        dick_secretary "Она навещает меня регулярно." #крупный план фотографии Моники
+        dick_secretary "Однако, она не всегда себя хорошо ведет."
+        dick_secretary "И, чтобы сновать стать хорошей подружкой, ей приходится просить прощения у меня."
+        sound snd_woman_laugh
+        img 14049
+        with diss
+        melanie "..." # вид из фотографии на Мелани
 
-    # В одной руке телефон, держащий для фото, в другой - фото Моники с грудью
-    # Поворачивает фото к Мелани. Видто спину Мелани, фото и ехидную Викторию
-    music Groove2_85
-    sound snd_paper1
-    img 14054
-    with fade
-    dick_secretary "Давай, показывай их, как это сделала первая подружка." #
+    if monicaShowedBoobsToVictoriaCamera == True:
 
-    # Поворачивает фото к себе, держа рядом с телефоном
-    img 14055
-    with diss
-    dick_secretary "Я хочу сделать фото и сравнить Ваши сиськи."
+        # Достает телефон
+        sound Jump1
+        img 14050
+        with fade
+        dick_secretary "Это хорошо что ты одела ту же шубку, что и на фото."  #-
+        dick_secretary "Можно сделать хороший кадр."
+        sound snd_woman_laugh3
+        img 14051
+        with diss
+        melanie "..." #-
+        img 14052
+        with fade
+        dick_secretary "Могу поспорить, что под этой шубкой ничего нет." #+ держит телефон
+        dick_secretary "Ты ведь пришла для того, чтобы трясти своими сиськами перед Диком, да?"
+        music Power_Bots_Loop
+        img 14053
+        with diss
+        melanie "!!!" #+
 
-    # возмущенно
-    music Power_Bots_Loop
-    img 14056
-    with fade
-    melanie "!!!" #+
-    img 14057
-    with diss
-    melanie "Я не буду показывать свою грудь!" #-
-    melanie "Я уважающая себя женщина и..."
+        # В одной руке телефон, держащий для фото, в другой - фото Моники с грудью
+        # Поворачивает фото к Мелани. Видто спину Мелани, фото и ехидную Викторию
+        music Groove2_85
+        sound snd_paper1
+        img 14054
+        with fade
+        dick_secretary "Давай, показывай их, как это сделала первая подружка." #
 
-    # пренебрежительно
-    # убирает телефон и фото
-    sound snd_paper2
-    img 14058
-    with fade
-    dick_secretary "Ты плохая подружка! Можешь уходить!" #-
-    dick_secretary "Хорошая подружка не пререкается со мной."
-    img 14059
-    with diss
-    melanie "!!!" #+
-    img 14060
-    with fade
-    dick_secretary "Можешь идти, я не задерживаю тебя!" #+
-    img 14061
-    with diss
-    melanie "!!!" #+
-    img 14062
-    with diss
-    dick_secretary "..." #+
+        # Поворачивает фото к себе, держа рядом с телефоном
+        img 14055
+        with diss
+        dick_secretary "Я хочу сделать фото и сравнить Ваши сиськи."
+
+        # возмущенно
+        music Power_Bots_Loop
+        img 14056
+        with fade
+        melanie "!!!" #+
+        img 14057
+        with diss
+        melanie "Я не буду показывать свою грудь!" #-
+        melanie "Я уважающая себя женщина и..."
+
+        # пренебрежительно
+        # убирает телефон и фото
+        sound snd_paper2
+        img 14058
+        with fade
+        dick_secretary "Ты плохая подружка! Можешь уходить!" #-
+        dick_secretary "Хорошая подружка не пререкается со мной."
+        img 14059
+        with diss
+        melanie "!!!" #+
+        img 14060
+        with fade
+        dick_secretary "Можешь идти, я не задерживаю тебя!" #+
+        img 14061
+        with diss
+        melanie "!!!" #+
+        img 14062
+        with diss
+        dick_secretary "..." #+
+    else:
+        # Достает телефон
+        sound Jump1
+        img 14052
+        with fade
+        dick_secretary "Это хорошо что ты одела ту же шубку, что и на фото."  #-
+        dick_secretary "Можно сделать хороший кадр."
+        sound snd_woman_laugh3
+        img 14051
+        with diss
+        melanie "..." #-
+        img 14052
+        with fade
+        dick_secretary "Могу поспорить, что под этой шубкой ничего нет." #+ держит телефон
+        dick_secretary "Ты ведь пришла для того, чтобы трясти своими сиськами перед Диком, да?"
+        music Power_Bots_Loop
+        img 14053
+        with diss
+        melanie "!!!" #+
+
+        music Power_Bots_Loop
+        img 14056
+        with fade
+        melanie "!!!" #+
+        melanie "Я не буду показывать свою грудь!" #-
+        melanie "Я уважающая себя женщина и..."
+
+        # пренебрежительно
+        # убирает телефон и фото
+        sound snd_paper2
+        img 14058
+        with fade
+        dick_secretary "Ты плохая подружка! Можешь уходить!" #-
+        dick_secretary "Хорошая подружка не пререкается со мной."
+        img 14059
+        with diss
+        melanie "!!!" #+
+        img 14060
+        with fade
+        dick_secretary "Можешь идти, я не задерживаю тебя!" #+
+        img 14061
+        with diss
+        melanie "!!!" #+
+        img 14062
+        with diss
+        dick_secretary "..." #+
 
     music stop
     img black_screen
@@ -742,12 +804,10 @@ label ep27_dialogues2_melanie2:
 
     # Снова достает телефон и фото
     sound Jump1
-    img 14066
+    img 14052
     with fade
     dick_secretary "Давай, показывай!" #+ держит телефон
     dick_secretary "Мне нужно фото, дискредитирующее тебя перед Мистером Диком!"
-    img 14067
-    with diss
     melanie "..." #-
 
     music stop
@@ -762,12 +822,18 @@ label ep27_dialogues2_melanie2:
     w
     # щелчок фото
     sound camera_lens1
-    img 14069
+    if monicaShowedBoobsToVictoriaCamera == True:
+        img 14069
+    else:
+        img 14068
     with Dissolve(0.2)
     w
     call photoshop_flash() from _call_photoshop_flash_164
     w
-    img 14071
+    if monicaShowedBoobsToVictoriaCamera == True:
+        img 14071
+    else:
+        img 14070
     with Dissolve(0.2)
     w
     call photoshop_flash() from _call_photoshop_flash_165
@@ -782,19 +848,34 @@ label ep27_dialogues2_melanie2:
     with diss
     melanie "!!!" #+
     music Groove2_85
-    img 14073
-    with fade
-    dick_secretary "У тебя красивая грудь, подружка!" #-
-    img 14074
-    with diss
-    melanie "Я знаю..." #-
-    melanie "Мисс Виктория..."
-    melanie "Все мечтают о такой груди, как у меня..."
+    if monicaShowedBoobsToVictoriaCamera == True:
+        img 14073
+        with fade
+        dick_secretary "У тебя красивая грудь, подружка!" #-
+        img 14074
+        with diss
+        melanie "Я знаю..." #-
+        melanie "Мисс Виктория..."
+        melanie "Все мечтают о такой груди, как у меня..."
 
-    # Удаление
-    img 14075
-    with fade
-    dick_secretary "Но скажи, чья грудь лучше?" #-
+        # Удаление
+        img 14075
+        with fade
+        dick_secretary "Но скажи, чья грудь лучше?" #-
+    else:
+        img 14068
+        with fade
+        dick_secretary "У тебя красивая грудь, подружка!" #-
+        img 14072
+        with diss
+        melanie "Я знаю..." #-
+        melanie "Мисс Виктория..."
+        melanie "Все мечтают о такой груди, как у меня..."
+        # Удаление
+        img 14052
+        with fade
+        dick_secretary "Но скажи, чья грудь лучше?" #-
+
 
     # Крупным
     img 14076
@@ -816,7 +897,11 @@ label ep27_dialogues2_melanie2:
     with diss
     melanie "Ваша грудь лучше, Мисс Виктория..." #-
     sound snd_woman_laugh
-    img 14081
+
+    if monicaShowedBoobsToVictoriaCamera == True:
+        img 14081
+    else:
+        img 14076
     with fade
     dick_secretary "Правильный ответ." #-
     dick_secretary "Хорошая подружка!"
@@ -841,10 +926,11 @@ label ep27_dialogues2_melanie2:
         pause 2.0
 #        music Loved_Up2
         music audio_Melanie_Victoria_Boobs_1
-        scene black
-        image videov_Melanie_Victoria_Boobs_1_1 = Movie(play="video/v_Melanie_Victoria_Boobs_1_1.mkv", fps=30)
-        show videov_Melanie_Victoria_Boobs_1_1
-        wclean
+        if monicaShowedBoobsToVictoriaCamera == True:
+            scene black
+            image videov_Melanie_Victoria_Boobs_1_1 = Movie(play="video/v_Melanie_Victoria_Boobs_1_1.mkv", fps=30)
+            show videov_Melanie_Victoria_Boobs_1_1
+            wclean
         scene black
         image videov_Melanie_Victoria_Boobs_1_2 = Movie(play="video/v_Melanie_Victoria_Boobs_1_2.mkv", fps=30)
         show videov_Melanie_Victoria_Boobs_1_2
@@ -886,11 +972,16 @@ label ep27_dialogues2_melanie2:
     img 14084
     with diss
     melanie "..." #+
-    img 14085
-    with fade
+    if monicaShowedBoobsToVictoriaCamera == True:
+        img 14085
+        with fade
     melanie "В чем Вы хотите чтобы я Вам помогла, Мисс Виктория?" #-
-    img 14086
-    with diss
+    if monicaShowedBoobsToVictoriaCamera == True:
+        img 14086
+        with diss
+    else:
+        img 14083
+        with diss
     dick_secretary "Подружка, я ждала тебя здесь целый день." #+
     # Кладет ногу в сапоге на стол
     music stop
@@ -902,9 +993,10 @@ label ep27_dialogues2_melanie2:
     img 14087
     with fadelong
     w
-    img 14088
-    with diss
-    w
+    if monicaShowedBoobsToVictoriaCamera == True:
+        img 14088
+        with diss
+        w
     sound desk_open
     img 14089
     with diss
@@ -939,9 +1031,10 @@ label ep27_dialogues2_melanie2:
     pause 1.5
     music Groove2_85
     # мелани начинает снимать сапог
-    img 14096
-    with fadelong
-    w
+    if monicaShowedBoobsToVictoriaCamera == True:
+        img 14096
+        with fadelong
+        w
     sound snd_zip
     img 14095
     with diss
@@ -980,8 +1073,9 @@ label ep27_dialogues2_melanie2:
     dick_secretary "Или передо мной плохая подружка?!"
 
     # Мелани смотрит на фото
-    img 14105
-    with diss
+    if monicaShowedBoobsToVictoriaCamera == True:
+        img 14105
+        with diss
     melanie "!!!"
 
     # Зло смотрит
@@ -1069,9 +1163,10 @@ label ep27_dialogues2_melanie2:
     img 14114
     with diss
     w
-    sound hlup10
-    img 14115
-    with diss
+    if monicaShowedBoobsToVictoriaCamera == True:
+        sound hlup10
+        img 14115
+        with diss
     dick_secretary "Эти сиськи стоят миллоны долларов."
 #    w
     sound hlup10
@@ -1098,8 +1193,9 @@ label ep27_dialogues2_melanie2:
     img 14118
     with fadelong
     dick_secretary "Но я думаю это лучшее применение твоим сиськам, нежели показ их Мистеру Дику!"
-    img 14119
-    with diss
+    if monicaShowedBoobsToVictoriaCamera == True:
+        img 14119
+        with diss
     melanie "!!!"
     img 14120
     with fade
@@ -1110,8 +1206,9 @@ label ep27_dialogues2_melanie2:
     img 14122
     with fade
     melanie "Да, я рада сделать Вам массаж, Мисс Виктория..."
-    img 14123
-    with diss
+    if monicaShowedBoobsToVictoriaCamera == True:
+        img 14123
+        with diss
     dick_secretary "Хорошо..."
     dick_secretary "Возьми мой большой пальчик себе в рот..."
     music Power_Bots_Loop
@@ -1126,7 +1223,10 @@ label ep27_dialogues2_melanie2:
             with diss
             pause 1.5
             music Power_Bots_Loop
-            img 14127
+            if monicaShowedBoobsToVictoriaCamera == True:
+                img 14127
+            else:
+                img 14128
             with fadelong
             melanie "Я не готова сделать это!"
             dick_secretary "Хорошая подружка должна быть готова всегда."
@@ -1167,9 +1267,10 @@ label ep27_dialogues2_melanie2:
     dick_secretary "Ах! Ах!"
 
     # Мелани продолжает держать ногу во рту
-    sound hlup19
-    img 14134
-    with fade
+    if monicaShowedBoobsToVictoriaCamera == True:
+        sound hlup19
+        img 14134
+        with fade
     melanie "!!!"
     img 14135
     with diss

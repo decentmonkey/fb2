@@ -53,3 +53,11 @@ translate english strings:
     old " (corruption: "
     new " (corruption: "
 
+# TODO: Translation updated at 2019-09-05 21:04
+
+translate english strings:
+
+    # game/00_Functions/screens.rpy:1676
+    old "UPDATE GAME"
+    new "UPDATE GAME"
+

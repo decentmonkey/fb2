@@ -1,10 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-04 22:25
-
-# game/Quests/EP2_07/EP27_Quests_Melanie.rpy:85
-translate german ep27_quests_melanie3b_stop_rain_9beb19ec:
-
-    # m "here"
-    m "hier"
+﻿# TODO: Translation updated at 2019-09-05 21:13
 
 # game/Quests/EP2_07/EP27_Quests_Melanie.rpy:93
 translate german ep27_quests_melanie4_melanie_check_whore_cloth_bb852919:
