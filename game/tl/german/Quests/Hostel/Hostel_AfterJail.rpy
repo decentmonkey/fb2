@@ -6,15 +6,15 @@ translate german hostelAfterJail_street_dialogue3_a48cad6f:
     # "Мне..."
     # "Очень стыдно..."
     # "Носить это..."
-    "Мне..."
-    "Очень стыдно..."
-    "Носить это..."
+    "Ich bin..."
+    "Sehr beschämt!"
+    "Das zu tragen..."
 
 # game/Quests/Hostel/Hostel_AfterJail.rpy:8
 translate german hostelAfterJail_street_dialogue3_fd9ccfa9:
 
     # "Надо скорее что-то придумать..."
     # "Я сгораю от стыда!!"
-    "Надо скорее что-то придумать..."
-    "Я сгораю от стыда!!"
+    "Ich sollte besser an etwas Anderes denken..."
+    "Ich versinke vor Scham!!"
 

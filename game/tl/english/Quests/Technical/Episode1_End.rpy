@@ -4,11 +4,11 @@
 translate english episode1End_ed7f9993:
 
     # mt "Я так устала."
-    mt "Я так устала."
+    mt "I'm tired."
 
 # game/Quests/Technical/Episode1_End.rpy:10
 translate english episode1End_b5c9729b:
 
     # "Я хочу спать..."
-    "Я хочу спать..."
+    "I want to sleep..."
 

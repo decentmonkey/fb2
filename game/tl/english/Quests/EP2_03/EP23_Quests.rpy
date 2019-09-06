@@ -4,5 +4,5 @@ translate english strings:
 
     # game/Quests/EP2_03/EP23_Quests.rpy:12
     old "Еда"
-    new "Еда"
+    new "Food"
 
