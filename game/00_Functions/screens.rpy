@@ -1687,7 +1687,7 @@ screen navigation():
             textbutton _("Main Menu") action MainMenu()
 
         textbutton _("New Episodes") action OpenURL("http://decent-monkey.com/news/")
-        textbutton _("Guide") action OpenURL("http://decent-monkey.com/walkthrough/")
+        textbutton _("Guide") action OpenURL("http://decent-monkey.com/the-guide-for-episode-2/")
         textbutton ("Become Supporter") action OpenURL("http://www.patreon.com/decentmonkey/")
         textbutton _("My Thanks") action ShowMenu("about")
 
