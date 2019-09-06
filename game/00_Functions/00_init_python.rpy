@@ -104,6 +104,7 @@ python early:
 
 
     def img_find_path(var):
+#        print "here"
         checkPath = get_image_filename("img_" + str(var))
         if checkPath != False: return checkPath
         checkPath = get_image_filename("zimg_" + str(var))

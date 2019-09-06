@@ -79,12 +79,12 @@ screen show_image_screen_image(image_name):
     layer "master"
     zorder 15
     fixed:
-        add image_name at convert_resolution_transform
+        add image_name
 
 screen show_image_screen(image_name):
     layer "master"
     fixed:
-        add image_name at convert_resolution_transform
+        add image_name
 
 screen credits_screen(creditsList):
     frame:

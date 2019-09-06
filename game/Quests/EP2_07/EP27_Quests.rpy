@@ -11,6 +11,9 @@ label ep27_quests1:
     # Мелани
     call ep27_quests_melanie1_init() from _call_ep27_quests_melanie1_init
 
+    if renpy.seen_label("ep24_dialogues3_steve10"): # Еще раз принудительно бреем Монику после посещения Стива дома
+        $ monicaPussyShaved = True
+
     $ currentMusicPriority = 0
     $ ep27_quests_initialized = True
     return
