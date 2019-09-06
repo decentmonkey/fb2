@@ -81,7 +81,7 @@ label customer5_serve1:
     sound highheels_short_walk
     img 14314
     with fadelong
-    m "Привет! Вам что нибудь принести?"
+    m "Привет! Вам что-нибудь принести?"
     img 14315
     with diss
     customer5 "Да! Мне пожалуйста два бургера, и два Ваших самых лучших коктейля!"
@@ -108,7 +108,7 @@ label customer5_serve1:
     w
     img 14353
     with diss
-    m "Вот, пожалуйста! Что нибудь еще?"
+    m "Вот, пожалуйста! Что-нибудь еще?"
     music In_Your_Arms
     img 14354
     with fade
@@ -130,7 +130,7 @@ label customer5_serve1:
             img 14357
             with diss
             m "Я подумала, что Вы очень голодный."
-            m "Что нибудь еще?"
+            m "Что-нибудь еще?"
             img 14358
             with diss
             customer5 "Да! Свали отсюда!"

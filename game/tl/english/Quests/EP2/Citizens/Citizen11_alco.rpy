@@ -1,66 +1,66 @@
-﻿# TODO: Translation updated at 2019-09-05 21:10
+﻿# TODO: Translation updated at 2019-09-06 13:21
 
 # game/Quests/EP2/Citizens/Citizen11_alco.rpy:8
 translate english take_trash_bottle_68e0eb1b:
 
     # m "Похоже кто-то выкинул бутылку водки... Может ли она мне пригодиться?"
-    m "Looks like someone threw away a bottle of vodka... Can it be useful to me?"
+    m "Похоже кто-то выкинул бутылку водки... Может ли она мне пригодиться?"
 
 # game/Quests/EP2/Citizens/Citizen11_alco.rpy:10
 translate english take_trash_bottle_68e0eb1b_1:
 
     # m "Похоже кто-то выкинул бутылку водки... Может ли она мне пригодиться?"
-    m "Looks like someone threw away a bottle of vodka... Can it be useful to me?"
+    m "Похоже кто-то выкинул бутылку водки... Может ли она мне пригодиться?"
 
 # game/Quests/EP2/Citizens/Citizen11_alco.rpy:16
 translate english take_trash_bottle_bb99ad64:
 
     # mt "Не знаю зачем, но думаю она может пригодиться."
-    mt "I don't know why, but I think it might be useful."
+    mt "Не знаю зачем, но думаю она может пригодиться."
 
 # game/Quests/EP2/Citizens/Citizen11_alco.rpy:21
 translate english take_trash_bottle_6a633068:
 
     # m "Черт! Из нее уже кто-то пил!"
-    m "Fuck! Out of it, someone's been drinking!"
+    m "Черт! Из нее уже кто-то пил!"
 
 # game/Quests/EP2/Citizens/Citizen11_alco.rpy:25
 translate english take_trash_bottle_71207c20:
 
     # m "Ну и ладно, оставлю ее у себя, вдруг пригодится."
-    m "All right, I'll keep it, in case it comes in handy."
+    m "Ну и ладно, оставлю ее у себя, вдруг пригодится."
 
 # game/Quests/EP2/Citizens/Citizen11_alco.rpy:35
 translate english take_trash_bottle_3fc4b018:
 
     # mt "Оставлю бутылку здесь. Мне ни к чему это пойло!"
-    mt "I'll leave the bottle here. I don't need that drink!"
+    mt "Оставлю бутылку здесь. Мне ни к чему это пойло!"
 
 # game/Quests/EP2/Citizens/Citizen11_alco.rpy:39
 translate english take_trash_bottle_3195d48e:
 
     # m "Ну уж нет, я не собираюсь лазать по помойкам!"
-    m "Well, no, I'm not going to climb the garbage!"
+    m "Ну уж нет, я не собираюсь лазать по помойкам!"
 
 translate english strings:
 
     # game/Quests/EP2/Citizens/Citizen11_alco.rpy:11
     old "Взять бутылку."
-    new "Get the bottle."
+    new "Взять бутылку."
 
     # game/Quests/EP2/Citizens/Citizen11_alco.rpy:11
     old "Не брать."
-    new "Don't take it"
+    new "Не брать."
 
     # game/Quests/EP2/Citizens/Citizen11_alco.rpy:23
     old "Оставить бутылку себе."
-    new "Keep the bottle."
+    new "Оставить бутылку себе."
 
     # game/Quests/EP2/Citizens/Citizen11_alco.rpy:23
     old "Поставить бутылку на место."
-    new "Put the bottle back."
+    new "Поставить бутылку на место."
 
     # game/Quests/EP2/Citizens/Citizen11_alco.rpy:29
     old "Водка"
-    new "Vodka"
+    new "Водка"
 

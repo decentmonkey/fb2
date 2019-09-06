@@ -197,7 +197,7 @@ label customer3_serve2:
     sound highheels_short_walk
     img 14249
     with fadelong
-    m "Привет! Вам что нибудь принести?"
+    m "Привет! Вам что-нибудь принести?"
     img 14250
     with diss
     customer3 "Скучно мне..."

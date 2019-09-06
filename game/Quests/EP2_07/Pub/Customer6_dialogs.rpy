@@ -5,7 +5,7 @@ label customer6_serve1:
     sound highheels_short_walk
     img 14317
     with fade
-    m "Вам что нибудь принести?"
+    m "Вам что-нибудь принести?"
     music Groove2_85
     img 14318
     with diss

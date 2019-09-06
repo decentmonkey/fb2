@@ -1,22 +1,22 @@
-﻿# TODO: Translation updated at 2019-09-05 21:13
+﻿# TODO: Translation updated at 2019-09-06 13:20
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:8
 translate german customer4_1stmeeting_fd726aa7:
 
     # m "Здравствуйте! Что будете заказывать?"
-    m "Einen guten Tag! Was möchten sie?"
+    m "Здравствуйте! Что будете заказывать?"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:11
 translate german customer4_1stmeeting_d9f92989:
 
     # customer4 "Оу! Какая красивая мордашка! Новенькая?"
-    customer4 "Wow! Was für eine Schönheit! Bist du neu?"
+    customer4 "Оу! Какая красивая мордашка! Новенькая?"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:16
 translate german customer4_1stmeeting_4e5d8031:
 
     # m "Кто, Я?!"
-    m "Wer? Ich?"
+    m "Кто, Я?!"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:19
 translate german customer4_1stmeeting_51e9d8b1:
@@ -24,23 +24,23 @@ translate german customer4_1stmeeting_51e9d8b1:
     # customer4 "Нет, твоя мордашка! Ну конечно же ты!"
     # customer4 "Мда... Понятно почему ты официантка."
     # customer4 "Как зовут? Только не спрашивай кого..."
-    customer4 "Nein, die hinter dir! Ja natürlich du!"
-    customer4 "Ha... jetzt verstehe ich, warum du nur eine Bedienung bist."
-    customer4 "Wie ist dein Name? Bitte frag nicht wessen..."
+    customer4 "Нет, твоя мордашка! Ну конечно же ты!"
+    customer4 "Мда... Понятно почему ты официантка."
+    customer4 "Как зовут? Только не спрашивай кого..."
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:23
 translate german customer4_1stmeeting_480c3600:
 
     # mt "Он что, думает, что Я глупая?"
     # mt "Я?!"
-    mt "Denkt er, ich bin dumm?"
-    mt "Ist das?!"
+    mt "Он что, думает, что Я глупая?"
+    mt "Я?!"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:27
 translate german customer4_1stmeeting_d0f4241b:
 
     # m "Меня зовут [monica_pub_name]."
-    m "Mein Name ist [monica_pub_name]."
+    m "Меня зовут [monica_pub_name]."
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:30
 translate german customer4_1stmeeting_006a30b4:
@@ -48,95 +48,95 @@ translate german customer4_1stmeeting_006a30b4:
     # customer4 "Отлично, [monica_pub_name]! Я не буду говорить как меня зовут, и даже делать заказ."
     # customer4 "Ты новенькая, не уверен, что эта информация уместится в твоей красивой головке."
     # customer4 "Можешь идти, увидимся!"
-    customer4 "Toll, [monica_pub_name]! Meinen Namen sage ich nichts, oder bestelle was."
-    customer4 "Du bist neu, und ich weiß nicht, ob so viel Info überhaupt in deine Kopf passt."
-    customer4 "Du kannst gehen, bis später dann!"
+    customer4 "Отлично, [monica_pub_name]! Я не буду говорить как меня зовут, и даже делать заказ."
+    customer4 "Ты новенькая, не уверен, что эта информация уместится в твоей красивой головке."
+    customer4 "Можешь идти, увидимся!"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:35
 translate german customer4_1stmeeting_b5fc8734:
 
     # mt "Почему он так со мной разговаривает? Я не глупая!"
-    mt "Warum ist der so? Ich bin nicht dumm!"
+    mt "Почему он так со мной разговаривает? Я не глупая!"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:43
-translate german customer4_serve1_6a886429:
+translate german customer4_serve1_dd273371:
 
-    # m "Привет! Вам что нибудь принести?"
-    m "Hallo. Möchten sie was?"
+    # m "Привет! Вам что-нибудь принести?"
+    m "Привет! Вам что-нибудь принести?"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:46
 translate german customer4_serve1_d15c8d2f:
 
     # customer4 "Ооо! Новая официанточка! Да! Принеси мне пива и Ваш восхитительный Shiny бургер!"
-    customer4 "Ohh! Ein neues Gesicht! Ja! Bier und einen Shiny Burger!"
+    customer4 "Ооо! Новая официанточка! Да! Принеси мне пива и Ваш восхитительный Shiny бургер!"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:49
 translate german customer4_serve1_3e00d7cd:
 
     # m "Да, конечно."
-    m "Ok, eine Minute!"
+    m "Да, конечно."
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:52
 translate german customer4_serve1_2f9bc1c1:
 
     # customer4 "Запомнила? Одно пиво и Shiny бургер. Не харчо и не пасту!"
-    customer4 "Verstanden? Ein Bier und ein Burger, sonst nichts!"
+    customer4 "Запомнила? Одно пиво и Shiny бургер. Не харчо и не пасту!"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:55
 translate german customer4_serve1_0e481844:
 
     # m "Я поняла!"
-    m "Verstanden."
+    m "Я поняла!"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:57
 translate german customer4_serve1_5dff8128:
 
     # customer4 "Я надеюсь..."
-    customer4 "Hoffentlich!.."
+    customer4 "Я надеюсь..."
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:75
 translate german customer4_serve1_72cecf41:
 
     # m "Вот, пожалуйста!"
-    m "Hier, bitte!"
+    m "Вот, пожалуйста!"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:78
 translate german customer4_serve1_2cd5526d:
 
     # customer4 "Ой, какая молодец! Все как надо!"
-    customer4 "Gute Arbeit! Perfekt!"
+    customer4 "Ой, какая молодец! Все как надо!"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:80
 translate german customer4_serve1_c6811120:
 
     # customer4 "Держи доллар за красивую мордашку! А если улыбнешься, дам два!"
-    customer4 "Hier, ein Dollar! Ich gebe dir zwei wenn du lächelst!"
+    customer4 "Держи доллар за красивую мордашку! А если улыбнешься, дам два!"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:89
 translate german customer4_serve1_253df2bd:
 
     # mt "Доллар за одну улыбку... Чтож, пускай..."
     # mt "Он не знает что я буду думать, пока улыбаюсь ему..."
-    mt "Ein Dollar für ein Lächeln, na gut. ..."
-    mt "Er weiß nicht, was ich denke, während ich lächle, egal..."
+    mt "Доллар за одну улыбку... Чтож, пускай..."
+    mt "Он не знает что я буду думать, пока улыбаюсь ему..."
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:95
 translate german customer4_serve1_ae110be8:
 
     # mt "Придурок..."
-    mt "Idiot..."
+    mt "Придурок..."
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:100
 translate german customer4_serve1_6dc28e32:
 
     # customer4 "Какая умничка, держи еще доллар!"
-    customer4 "Gut, gut. Nimm das!"
+    customer4 "Какая умничка, держи еще доллар!"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:108
-translate german customer4_serve1_210f7f0f:
+translate german customer4_serve1_db143774:
 
-    # mt "С чего бы мне улыбаться этой деревеньщине?"
-    mt "Warum sollte ich ihn anlächeln?"
+    # mt "С чего бы мне улыбаться этой деревенщине?"
+    mt "С чего бы мне улыбаться этой деревенщине?"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:111
 translate german customer4_serve1_e612037c:
@@ -148,21 +148,21 @@ translate german customer4_serve1_e612037c:
 translate german customer4_serve1_f16d8669:
 
     # customer4 "Не хочешь? Это все потому, что ты тут недавно..."
-    customer4 "Du willst nicht? Naja, du bist neu hier..."
+    customer4 "Не хочешь? Это все потому, что ты тут недавно..."
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:118
 translate german customer4_afterserve1_777b6a62:
 
     # mt "Глупый пингвин..."
-    mt "Dummer Pinguin..."
+    mt "Глупый пингвин..."
 
 translate german strings:
 
     # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:84
     old "Улыбнуться."
-    new "Lächle."
+    new "Улыбнуться."
 
     # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:84
     old "Не улыбаться."
-    new "Lächle nicht."
+    new "Не улыбаться."
 

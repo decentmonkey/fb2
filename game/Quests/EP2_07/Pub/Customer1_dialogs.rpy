@@ -103,7 +103,7 @@ label customer1_serve1:
             music Groove2_85
             img 14222
             with fade
-            mt "Я не собираюсь слушаться этого деревеньщину!"
+            mt "Я не собираюсь слушаться этого деревенщину!"
             # развернуться и уйти
             sound highheels_short_walk
             img 14223

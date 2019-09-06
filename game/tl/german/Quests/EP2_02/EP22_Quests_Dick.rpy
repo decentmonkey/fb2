@@ -1,20 +1,20 @@
-﻿# TODO: Translation updated at 2019-09-05 21:13
+﻿# TODO: Translation updated at 2019-09-06 13:20
 
 translate german strings:
 
     # game/Quests/EP2_02/EP22_Quests_Dick.rpy:72
     old "Заработать $ 5000 для Виктории до Пятницы!"
-    new "Verdiene $ 5000 für Victoria bis Freitag!"
+    new "Заработать $ 5000 для Виктории до Пятницы!"
 
     # game/Quests/EP2_02/EP22_Quests_Dick.rpy:106
     old "Виктория потратила деньги Моники на шоппинг. Она ждет деньги снова до следующей пятницы."
-    new "Victoria hat Monicas Geld beim shoppen verprasst. Sie wartet auf das nächste Geld bis Freitag."
+    new "Виктория потратила деньги Моники на шоппинг. Она ждет деньги снова до следующей пятницы."
 
     # game/Quests/EP2_02/EP22_Quests_Dick.rpy:145
     old "Разговор."
-    new "Sprich."
+    new "Разговор."
 
     # game/Quests/EP2_02/EP22_Quests_Dick.rpy:145
     old "end"
-    new "Ende"
+    new "end"
 

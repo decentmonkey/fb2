@@ -78,7 +78,13 @@ init python:
         return
 
 label show_game_updater:
-    $ URL = "http://192.168.1.217:81/renpy/repo/game/"
+#    if persistent.download_code
+    show screen game_updater_background()
+    with diss
+    $ updateDownloadCode = renpy.input("Download code: (enter to confirm)", "")
+    hide screen game_updater_background
+
+    $ URL = "http://update.decent-monkey.com/repo/" + updateDownloadCode + "/game/"
     $ updateDataURL = URL + "update_data.json"
 
     $ updaterProgressBarValue = 50
@@ -89,10 +95,11 @@ label show_game_updater:
     $ updateFetchedFiles = 0
     $ updateStatusLog = []
     show screen game_updater()
+    with diss
     pause 0.1
     $ updateDataRaw = get_url_data(updateDataURL)
     if updateDataRaw == False:
-        $ updateGlobalStatusText = "Error in connection!"
+        $ updateGlobalStatusText = "Error in connection! (wrong code?)"
         show screen game_updater()
         pause
         return
@@ -135,6 +142,8 @@ label show_game_updater:
         $ _game_menu_screen = 'save'
     return
 
+screen game_updater_background():
+    add "gui/main_menu.png"
 
 screen game_updater():
     layer "master"

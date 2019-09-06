@@ -40,7 +40,7 @@ label customer4_serve1:
     sound highheels_short_walk
     img 14328
     with fadelong
-    m "Привет! Вам что нибудь принести?"
+    m "Привет! Вам что-нибудь принести?"
     img 14329
     with diss
     customer4 "Ооо! Новая официанточка! Да! Принеси мне пива и Ваш восхитительный Shiny бургер!"
@@ -105,7 +105,7 @@ label customer4_serve1:
             music Groove2_85
             img 14342
             with fade
-            mt "С чего бы мне улыбаться этой деревеньщине?"
+            mt "С чего бы мне улыбаться этой деревенщине?"
             img 14343
             with diss
             m "..."

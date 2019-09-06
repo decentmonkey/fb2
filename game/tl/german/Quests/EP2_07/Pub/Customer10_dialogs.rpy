@@ -1,140 +1,140 @@
-﻿# TODO: Translation updated at 2019-09-05 21:13
+﻿# TODO: Translation updated at 2019-09-06 13:20
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:6
 translate german customer10_1stmeeting_be9c1409:
 
     # m "Вы готовы сделать заказ?"
-    m "Bereit zu bestellen?"
+    m "Вы готовы сделать заказ?"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:15
 translate german customer10_1stmeeting_12ebe120:
 
     # customer10 "Да! Я желаю Вас. Сколько?"
-    customer10 "Ja! Ich will dich! Wieviel?"
+    customer10 "Да! Я желаю Вас. Сколько?"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:19
 translate german customer10_1stmeeting_41341785:
 
     # m "Что? Вы это о чем? Я не продаюсь!"
-    m "Was? Ich bin nicht käuflich!"
+    m "Что? Вы это о чем? Я не продаюсь!"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:22
 translate german customer10_1stmeeting_e170eadb:
 
     # customer10 "Серьезно? У всего есть цена..."
     # customer10 "Как тебя зовут?"
-    customer10 "Ernsthaft? Alles hat seinen Preis..."
-    customer10 "Wie ist dein Name?"
+    customer10 "Серьезно? У всего есть цена..."
+    customer10 "Как тебя зовут?"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:27
 translate german customer10_1stmeeting_d0f4241b:
 
     # m "Меня зовут [monica_pub_name]."
-    m "Mein Name ist [monica_pub_name]."
+    m "Меня зовут [monica_pub_name]."
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:30
 translate german customer10_1stmeeting_7f305589:
 
     # customer10 "Любопытно... [monica_pub_name] - это сценическое имя или настоящее?"
-    customer10 "Hmmm.... [monica_pub_name] - Ist das dein echter Name oder dein Bühnenname?"
+    customer10 "Любопытно... [monica_pub_name] - это сценическое имя или настоящее?"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:32
 translate german customer10_1stmeeting_1bb91c60:
 
     # mt "Почему он спрашивает?"
-    mt "Warum fragt er?"
+    mt "Почему он спрашивает?"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:35
 translate german customer10_1stmeeting_0fcb6dca:
 
     # m "Конечно настоящее!"
-    m "Mein Echter natürlich!"
+    m "Конечно настоящее!"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:38
 translate german customer10_1stmeeting_27aca818:
 
     # customer10 "Правда? Я думаю, тебе бы больше пошло имя Анжелина! Или Виолетта!"
     # customer10 "Что думаешь?"
-    customer10 "Oh? Ich denke, Angeline oder Violette würde besser passen!"
-    customer10 "Was meinst du?"
+    customer10 "Правда? Я думаю, тебе бы больше пошло имя Анжелина! Или Виолетта!"
+    customer10 "Что думаешь?"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:42
 translate german customer10_1stmeeting_e6ec6224:
 
     # m "Ничего... Мне мое имя нравится..."
-    m "Nichts... Ich mag meinen Namen..."
+    m "Ничего... Мне мое имя нравится..."
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:45
-translate german customer10_1stmeeting_652ca166:
+translate german customer10_1stmeeting_603b13d8:
 
     # customer10 "А мне вот что-то не очень... Надо бы тебе придумать другое имя...Подумай над этим!"
-    # customer10 "А пока принеси мне что нибудь выпить!"
-    customer10 "Und ich nicht... denk mal drüber nach!"
-    customer10 "Jetzt bring mir was zu trinken!"
+    # customer10 "А пока принеси мне что-нибудь выпить!"
+    customer10 "А мне вот что-то не очень... Надо бы тебе придумать другое имя...Подумай над этим!"
+    customer10 "А пока принеси мне что-нибудь выпить!"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:49
 translate german customer10_1stmeeting_dbc1d7e6:
 
     # m "Да, хорошо."
-    m "Ja, gerne."
+    m "Да, хорошо."
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:67
 translate german customer10_1stmeeting_b4d02bfb:
 
     # customer10 "А...Виолетта! Наконец то!"
-    customer10 "Ah... Violette! Na endlich!"
+    customer10 "А...Виолетта! Наконец то!"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:70
 translate german customer10_1stmeeting_596cf8de:
 
     # m "Я не Виолетта..."
-    m "Ich heiße nicht Violette..."
+    m "Я не Виолетта..."
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:73
 translate german customer10_1stmeeting_414338fa:
 
     # customer10 "Это не важно, но важно то, что я тут постоянный клиент и советую тебе это запомнить, Виолетта!"
     # customer10 "Но я могу тебя звать и Новенькая... Что думаешь?"
-    customer10 "Egal. Aber so lange ich da bin, heißt du Violette!"
-    customer10 "Oder ich nenne dich Neuling... Was meinst du?"
+    customer10 "Это не важно, но важно то, что я тут постоянный клиент и советую тебе это запомнить, Виолетта!"
+    customer10 "Но я могу тебя звать и Новенькая... Что думаешь?"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:76
 translate german customer10_1stmeeting_a9a99920:
 
     # mt "Что ты урод!"
-    mt "Bastard!"
+    mt "Что ты урод!"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:79
 translate german customer10_1stmeeting_d0f4241b_1:
 
     # m "Меня зовут [monica_pub_name]."
-    m "Mein Name ist [monica_pub_name]."
+    m "Меня зовут [monica_pub_name]."
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:82
 translate german customer10_1stmeeting_1a897bb2:
 
     # customer10 "Да, Виолетта, я помню!"
     # customer10 "Кстати, спасибо за выпивку. Еще увидимся."
-    customer10 "Ja, Violette, weiß ich!"
-    customer10 "Danke für die Drinks, bis dann."
+    customer10 "Да, Виолетта, я помню!"
+    customer10 "Кстати, спасибо за выпивку. Еще увидимся."
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:86
 translate german customer10_1stmeeting_7fe8c33b:
 
     # mt "Надеюсь, нескоро."
-    mt "Nicht sehr bald, hoffe ich."
+    mt "Надеюсь, нескоро."
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:94
-translate german customer10_serve1_6a886429:
+translate german customer10_serve1_dd273371:
 
-    # m "Привет! Вам что нибудь принести?"
-    m "Hallo. Möchten sie was?"
+    # m "Привет! Вам что-нибудь принести?"
+    m "Привет! Вам что-нибудь принести?"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:97
 translate german customer10_serve1_d1c7e39b:
 
     # customer10 "Да, новенькая! Как ты помнишь, я тут постоянный клиент."
-    customer10 "Ja, Neuling! Wie du siehst, bin ich Stammkunde."
+    customer10 "Да, новенькая! Как ты помнишь, я тут постоянный клиент."
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:99
 translate german customer10_serve1_36474134:
@@ -146,13 +146,13 @@ translate german customer10_serve1_36474134:
 translate german customer10_serve1_1adb6c35:
 
     # customer10 "И знаешь, все официантки здесь еще и танцуют!"
-    customer10 "Und wusstest du, dass alle Bedienungen auch tanzen?"
+    customer10 "И знаешь, все официантки здесь еще и танцуют!"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:106
 translate german customer10_serve1_74801c0c:
 
     # m "Впервые об этом слышу..."
-    m "Das ist das erste Mal, dass ich das höre..."
+    m "Впервые об этом слышу..."
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:109
 translate german customer10_serve1_0eec96cf:
@@ -161,32 +161,32 @@ translate german customer10_serve1_0eec96cf:
     # customer10 "Знаешь, давай так: 100 баксов и ты лезешь на пилон!"
     # customer10 "Пойми, делаю это только ради тебя!"
     # customer10 "Как насчет танца?"
-    customer10 "Seltsam, aber du kannst mir vertrauen!"
-    customer10 "Hier ist der Deal. 100 Mäuse und dafür tanzt du!"
-    customer10 "Das mache ich nur für dich!"
-    customer10 "Also?"
+    customer10 "Очень странно, но уж мне то ты можешь поверить!"
+    customer10 "Знаешь, давай так: 100 баксов и ты лезешь на пилон!"
+    customer10 "Пойми, делаю это только ради тебя!"
+    customer10 "Как насчет танца?"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:116
 translate german customer10_serve1_29ca68ef:
 
     # mt "100 долларов?! За один танец на пилоне..."
     # mt "Да он нормальный, предлагать такое МНЕ?!"
-    mt "100 Dollar? Für einen Tanz?"
-    mt "Wie kann er es wagen, sowas MIR anzubieten?"
+    mt "100 долларов?! За один танец на пилоне..."
+    mt "Да он нормальный, предлагать такое МНЕ?!"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:125
 translate german customer10_serve1_ebada9e0:
 
     # m "Знаешь что, Я не танцую!"
-    m "Ich tanze nicht!"
+    m "Знаешь что, Я не танцую!"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:128
 translate german customer10_serve1_bb0614a6:
 
     # customer10 "Не правда, это лишь вопрос времени."
     # customer10 "Кстати, забыл, как тебя зовут?"
-    customer10 "Nur eine Frage der Zeit."
-    customer10 "Oh, anbei, wie war nochmal dein Name?"
+    customer10 "Не правда, это лишь вопрос времени."
+    customer10 "Кстати, забыл, как тебя зовут?"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:133
 translate german customer10_serve1_b6eadb2b:
@@ -195,24 +195,24 @@ translate german customer10_serve1_b6eadb2b:
     # customer10 "Отлично! Я уже вижу тебя на сцене!"
     # m "Этого не будет."
     m "[monica_pub_name]"
-    customer10 "Toll! Ich kann dich schon auf der Bühne sehen!"
-    m "Wird nie passieren."
+    customer10 "Отлично! Я уже вижу тебя на сцене!"
+    m "Этого не будет."
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:138
 translate german customer10_serve1_425fa8ff:
 
     # customer10 "А заказывать я ничего не буду, у меня все есть!"
-    customer10 "Ich brauche nichts, habe schon alles da!"
+    customer10 "А заказывать я ничего не буду, у меня все есть!"
 
 # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:142
 translate german customer10_afterserve1_d1a4362e:
 
     # mt "Озабоченный извращенец... Тут, похоже, все такие..."
-    mt "Verdammter Perverser... Wie alle hier..."
+    mt "Озабоченный извращенец... Тут, похоже, все такие..."
 
 translate german strings:
 
     # game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:118
     old "Я не из таких!"
-    new "So bin ich nicht!"
+    new "Я не из таких!"
 

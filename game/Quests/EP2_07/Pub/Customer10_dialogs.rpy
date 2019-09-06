@@ -43,7 +43,7 @@ label customer10_1stmeeting:
     img 14370
     with diss
     customer10 "А мне вот что-то не очень... Надо бы тебе придумать другое имя...Подумай над этим!"
-    customer10 "А пока принеси мне что нибудь выпить!"
+    customer10 "А пока принеси мне что-нибудь выпить!"
     img 14371
     with diss
     m "Да, хорошо."
@@ -91,7 +91,7 @@ label customer10_serve1:
     sound highheels_short_walk
     img 14359
     with fadelong
-    m "Привет! Вам что нибудь принести?"
+    m "Привет! Вам что-нибудь принести?"
     img 14368
     with diss
     customer10 "Да, новенькая! Как ты помнишь, я тут постоянный клиент."

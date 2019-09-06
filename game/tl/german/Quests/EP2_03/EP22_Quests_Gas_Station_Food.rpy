@@ -1,46 +1,46 @@
-﻿# TODO: Translation updated at 2019-09-05 21:13
+﻿# TODO: Translation updated at 2019-09-06 13:20
 
 # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:28
 translate german ep22_quests_Gas_Station_Food1_buy_food_1d49c419:
 
     # mt "У меня нет денег на это..."
-    mt "Dafür habe ich kein Geld..."
+    mt "У меня нет денег на это..."
 
 translate german strings:
 
     # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Пончик"
-    new "Donut"
+    new "Пончик"
 
     # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Печенье с вишневой начинкой"
-    new "Mit Kirschen gefüllte Cookies."
+    new "Печенье с вишневой начинкой"
 
     # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Шоколадный торт"
-    new "Schokokuchen"
+    new "Шоколадный торт"
 
     # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Канноли"
-    new "Cannoli"
+    new "Канноли"
 
     # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Наполеон"
-    new "Napoleon"
+    new "Наполеон"
 
     # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Пирожное"
-    new "Kuchen"
+    new "Пирожное"
 
     # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Кекс"
-    new "Kuchen"
+    new "Кекс"
 
     # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Печенье с орехами"
-    new "Cookies mit Nüssen"
+    new "Печенье с орехами"
 
     # game/Quests/EP2_03/EP22_Quests_Gas_Station_Food.rpy:13
     old "Вафли"
-    new "Waffeln"
+    new "Вафли"
 

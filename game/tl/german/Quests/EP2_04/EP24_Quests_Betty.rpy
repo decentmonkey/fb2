@@ -1,32 +1,32 @@
-﻿# TODO: Translation updated at 2019-09-05 21:13
+﻿# TODO: Translation updated at 2019-09-06 13:20
 
 translate german strings:
 
     # game/Quests/EP2_04/EP24_Quests_Betty.rpy:17
     old "Миссис Робертс, я бы хотела проверить Ваши трусики..."
-    new "Frau Roberts, ich möchte gern ihr Höschen sehen."
+    new "Миссис Робертс, я бы хотела проверить Ваши трусики..."
 
     # game/Quests/EP2_04/EP24_Quests_Betty.rpy:21
     old "Говорить."
-    new "Spreche"
+    new "Говорить."
 
     # game/Quests/EP2_04/EP24_Quests_Betty.rpy:23
     old "Смотреть."
-    new "Schau zu"
+    new "Смотреть."
 
     # game/Quests/EP2_04/EP24_Quests_Betty.rpy:30
     old "Бетти должна показать, если я спрошу ее об этом...."
-    new "Betty sollte es mir zeigen, wenn ich sie danach frage..."
+    new "Бетти должна показать, если я спрошу ее об этом...."
 
     # game/Quests/EP2_04/EP24_Quests_Betty.rpy:63
     old "Миссис Робертс. Барди зовет Вас в свою комнату..."
-    new "Frau Roberts, Bardie möchte sie in seinem Zimmer sprechen..."
+    new "Миссис Робертс. Барди зовет Вас в свою комнату..."
 
     # game/Quests/EP2_04/EP24_Quests_Betty.rpy:196
     old "Бетти запрещено носить трусики...."
-    new "Betty ist es verboten, ein Höschen zu tragen..."
+    new "Бетти запрещено носить трусики...."
 
     # game/Quests/EP2_04/EP24_Quests_Betty.rpy:197
     old "Униформа гувернантки (без трусиков)"
-    new "Dienstmädchenuniform (ohne Höschen)"
+    new "Униформа гувернантки (без трусиков)"
 
