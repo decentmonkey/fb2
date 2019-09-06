@@ -134,7 +134,7 @@ label show_game_updater:
         deleteFiles = []
         for fileName in listFiles:
             fileName = str(fileName)
-            if updateData["files"].has_key(fileName) == False and fileName != "update_data.json":
+            if updateData["files"].has_key(fileName) == False and fileName != "update_data.json" and fileName != "script_version.txt":
                 deleteFiles.append(fileName)
 
 
