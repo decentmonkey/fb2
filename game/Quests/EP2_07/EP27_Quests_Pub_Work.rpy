@@ -1,4 +1,5 @@
 default pubMonicaWorkingWaitress = False
+default pubMonicaWorkingWaitressShiftInProgress = False
 default pubMonicaWorkedWaitressLastDay = 0
 default pubMonicaWaitressTips = 0
 default pubMonicaWaitressTipsStolen = False
@@ -38,6 +39,7 @@ label ep27_quests_pub_work2_begin: #Работать официанткой в S
         return False
 
     # Начинаем работу официанткой
+    $ pubMonicaWorkingWaitressShiftInProgress = True
 
     call ep27_dialogues7_pub4() from _call_ep27_dialogues7_pub4
     music2 stop
@@ -77,6 +79,8 @@ label ep27_quests_pub_work3_exit: # Моника пытается выйти и�
     $ add_hook("Teleport_Hostel_Pub", "ep27_dialogues7_pub6a", scene="hostel_street", label="evening_time_temp")
     $ add_hook("Bartender", "ep27_quests_pub_work6_tips_punishment", scene="pub", label="working_waitress_tips_punishment1")
     $ add_hook("Bartender_Waitress", "ep27_quests_pub_work6_tips_punishment", scene="pub", label="working_waitress_tips_punishment1")
+
+    $ pubMonicaWorkingWaitressShiftInProgress = False
     $ pubMonicaWaitressTipsPunishmentTalkStage = 0
 
     $ cloth_type = pubMonicaWaitressClothTypeBefore
@@ -103,6 +107,7 @@ label ep27_quests_pub_work4: # Клик на барменов
 
 label ep27_quests_pub_work5:
     # Заканчиваем работу
+    $ pubMonicaWorkingWaitressShiftInProgress = False
     call ep27_dialogues7_pub7() from _call_ep27_dialogues7_pub7
     music2 stop
     $ remove_hook(label="working_waitress")

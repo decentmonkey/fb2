@@ -72,8 +72,11 @@ label ep23_quests_pub4: # диалог о приеме на работу
 
 
 label ep23_quests_pub5_dishes: # Моника моет посуду
+    if cloth_type == "Waitress": #костыль, чтобы не было меню во время работы официанткой!
+        $ act="l"
     if act=="l" and obj_name != "Pub_Bar1_Washbasin":
         return
+
     call ep23_dialogues1_4a() from _call_ep23_dialogues1_4a
     if _return == False:
         call refresh_scene_fade() from _call_refresh_scene_fade_79
