@@ -97,15 +97,27 @@ label show_game_updater:
     show screen game_updater()
     with diss
     pause 0.1
+    $ updateError = False
     $ updateDataRaw = get_url_data(updateDataURL)
     if updateDataRaw == False:
+        $ updateError = True
         $ updateGlobalStatusText = "Error in connection! (wrong code?)"
         show screen game_updater()
         pause
         return
 
     python:
-        updateData = json.loads(updateDataRaw)
+        try:
+            updateData = json.loads(updateDataRaw)
+        except:
+            updateError = True
+            updateGlobalStatusText = "Error in connection! (wrong code?)"
+            renpy.show_screen("game_updater")
+            renpy.pause()
+    if updateError == True:
+        return
+
+    python:
         localUpdateDataRaw = open(config.basedir + "/game/update_data.json", "r").read()
         localUpdateData = json.loads(localUpdateDataRaw)
         updateFiles = []
