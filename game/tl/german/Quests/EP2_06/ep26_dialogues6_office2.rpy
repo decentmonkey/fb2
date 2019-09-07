@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-06 13:20
+﻿# TODO: Translation updated at 2019-09-07 14:01
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:29
 translate german ep26_dialogues6_office2_1_bb097c9c:
@@ -528,13 +528,13 @@ translate german ep26_dialogues6_office2_7_45c4b1c3:
     # m "Ты ведь не намекаешь на то, что я должна помогать тебе в этой работе?"
     m "Oder willst du sagen, dass ICH etwa DIR helfen soll, DEINEN Job zu machen??"
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:473
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:475
 translate german ep26_dialogues6_office2_7_b918ea0a:
 
     # julia "Нет, Миссис Бакфетт. Что Вы?"
     julia "Nein, nein, Frau Buckfett. Natürlich nicht!"
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:476
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:478
 translate german ep26_dialogues6_office2_7_4ff3f864:
 
     # julia "Я сделаю все сама."
@@ -542,13 +542,13 @@ translate german ep26_dialogues6_office2_7_4ff3f864:
     julia "Ich werde alle selbst erledigen."
     julia "Bitte vergeben sie mir!"
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:487
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:489
 translate german ep26_dialogues6_office2_8_e34292af:
 
     # mt "Все, я свободна на сегодня!"
     mt "Das ist dann alles! Ich bin fertig für heute!"
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:490
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:492
 translate german ep26_dialogues6_office2_8_b303f5b0:
 
     # mt "Пусть Юлия делает всю работу."
@@ -556,13 +556,13 @@ translate german ep26_dialogues6_office2_8_b303f5b0:
     mt "Ich lasse Julia die ganze Arbeit machen."
     mt "Julia Tag und Nacht arbeiten lassen ist genau das, was sie braucht!"
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:494
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:496
 translate german ep26_dialogues6_office2_8_975253ce:
 
     # mt "Я - это совершенно другое!"
     mt "Ich bin da völlig anders!"
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:510
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:512
 translate german ep26_dialogues6_office2_9_5929e93b:
 
     # mt "Эти бездельники не пришли на работу. Видите-ли сегодня выходной."
@@ -572,7 +572,7 @@ translate german ep26_dialogues6_office2_9_5929e93b:
     mt "Wenn ich meine Firma zurück habe, streiche ich erstmal all diese 'Wochenenden'!"
     mt "Ich zeige denen schon, wo der Barthel den Most holt."
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:516
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:518
 translate german ep26_dialogues6_office2_10_a5b80609:
 
     # mt "Сегодня выходной."
@@ -582,7 +582,7 @@ translate german ep26_dialogues6_office2_10_a5b80609:
     mt "Weil diese Nichtsnutze am Wochenende blau machen, habe ich heute nichts zu tun."
     mt "Widerlich."
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:524
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:526
 translate german ep26_dialogues6_office2_monica_julia_c627c844:
 
     # mt "Это Юлия."
@@ -590,7 +590,7 @@ translate german ep26_dialogues6_office2_monica_julia_c627c844:
     mt "Das ist Julia..."
     mt "Mein früheres Dienstmädchen."
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:527
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:529
 translate german ep26_dialogues6_office2_monica_julia_5fd7c39a:
 
     # mt "Бесполезное создание."
@@ -598,13 +598,13 @@ translate german ep26_dialogues6_office2_monica_julia_5fd7c39a:
     mt "Nutzlose Kreatur."
     mt "Ich kann es nicht fassen, dass ich mich schon wieder mit ihr abgeben muss."
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:530
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:532
 translate german ep26_dialogues6_office2_monica_julia_726a7369:
 
     # mt "Странное совпадение что она снова рядом."
     mt "So ein dummer Zufall."
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:536
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:538
 translate german ep26_dialogues6_office2_monica_sofa_1014579e:
 
     # mt "Мммм..."
@@ -612,13 +612,13 @@ translate german ep26_dialogues6_office2_monica_sofa_1014579e:
     mt "Mmmmm..."
     mt "Dieses Sofa ist sehr bequem..."
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:541
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:543
 translate german ep26_dialogues6_office2_minimap_active_892f1dbd:
 
     # help "Активировано меню быстрого перемещения по офису."
     help "Das Büroschnellreisemenü ist aktiviert."
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:546
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:548
 translate german ep26_dialogues6_office2_monica_visit1_58e1b461:
 
     # mt "Дьявол! Уже вечер!"
@@ -630,7 +630,7 @@ translate german ep26_dialogues6_office2_monica_visit1_58e1b461:
     mt "Ich weiß nicht, wohin ich gehen soll."
     mt "Ich komme morgen wieder."
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:553
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:555
 translate german ep26_dialogues6_office2_monica_visit1a_96a61cde:
 
     # mt "Ага, вот вы где!"
@@ -638,7 +638,7 @@ translate german ep26_dialogues6_office2_monica_visit1a_96a61cde:
     mt "Ah, da bist du!"
     mt "Jetzt lernst du deinen neuen Chef kennen!"
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:558
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:560
 translate german ep26_dialogues6_office2_monica_visit1b_70f12d24:
 
     # m "Где там эти растяпы?"

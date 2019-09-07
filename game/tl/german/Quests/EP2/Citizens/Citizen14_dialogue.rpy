@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-06 13:20
+﻿# TODO: Translation updated at 2019-09-07 14:01
 
 # game/Quests/EP2/Citizens/Citizen14_dialogue.rpy:5
 translate german citizen14_dialogue_b8f1bd99:

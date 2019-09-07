@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-06 13:21
+﻿# TODO: Translation updated at 2019-09-07 14:00
 
 translate english strings:
 
@@ -10,7 +10,7 @@ translate english strings:
     old "Биф просил зайти к нему после сдачи отчетов."
     new "Biff told me to visit him after reports' sumbission."
 
-    # game/Quests/EP2_07/EP27_Quests_Office.rpy:121
+    # game/Quests/EP2_07/EP27_Quests_Office.rpy:123
     old "Отдать собранные отчеты для Бифа."
     new "Give reports to Biff"
 

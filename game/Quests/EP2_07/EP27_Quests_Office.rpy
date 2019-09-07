@@ -112,6 +112,8 @@ label ep27_quests_office7_biff: # Разговор с Бифом после сд
 
 label ep27_quests_office8_julia: # Моника заставляет собирать отчеты Юлию
     call ep27_dialogues6_julia1() from _call_ep27_dialogues6_julia1
+    call process_hooks("office_work_process", "global") from _call_process_hooks_73
+
     $ monicaWorkFlashCardQuestReportsCollectedBySelf = False
     $ monicaWorkFlashCardQuestNeedGiveReports = True
     $ monicaWorkFlashCardReportsCollected = monicaWorkFlashCardNeedReportsAmount
@@ -122,7 +124,6 @@ label ep27_quests_office8_julia: # Моника заставляет собир�
     $ changeDayTime("evening") # Изменяем на вечер
     $ monicaOfficeWorkedToday = True
 #    $ move_object("Julia", "empty") # Юлия уходит с работы (обычный день)
-    call ep27_quests_julia1_init() from _call_ep27_quests_julia1_init # Чекаем инициализацию квеста с Юлией
     $ autorun_to_object("ep27_dialogues6_julia2", scene="working_office_cabinet")
     call refresh_scene_fade() from _call_refresh_scene_fade_169
     return

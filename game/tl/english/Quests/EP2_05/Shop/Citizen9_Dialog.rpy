@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-06 13:21
+﻿# TODO: Translation updated at 2019-09-07 14:00
 
 # game/Quests/EP2_05/Shop/Citizen9_Dialog.rpy:7
 translate english cit9_dialog_1_7df4c80e:

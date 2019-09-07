@@ -467,7 +467,9 @@ label ep26_dialogues6_office2_7:
     img 20285
     with diss
     m "Ты ведь не намекаешь на то, что я должна помогать тебе в этой работе?"
-    $ juliaOfficeOffended1 = True
+    if juliaOfficeOffended1 == False:
+        $ juliaOfficeOffended1 = True
+        $ juliaOfficeOffendedDay = day
     call bitch(20, "ep26_dialogues6_office2_7") from _call_bitch_194
     img 20286
     julia "Нет, Миссис Бакфетт. Что Вы?"

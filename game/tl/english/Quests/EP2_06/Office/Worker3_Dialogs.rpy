@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-06 13:21
+﻿# TODO: Translation updated at 2019-09-07 14:00
 
 # game/Quests/EP2_06/Office/Worker3_Dialogs.rpy:11
 translate english worker3_look_0c71281a:

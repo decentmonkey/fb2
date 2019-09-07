@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-06 13:20
+﻿# TODO: Translation updated at 2019-09-07 14:01
 
 # game/Quests/EP2_05/EP25_Quests_Shop_Visitors.rpy:21
 translate german ep25_quests_shop_visitors1_ac9c1f06:

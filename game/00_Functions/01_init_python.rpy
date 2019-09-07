@@ -201,7 +201,6 @@ python early:
         currentMusic = musicName
         currentMusicPriority = priority1
         checkPath = "Music/" + str(musicName) + ".ogg"
-        print currentMusic
         if renpy.loadable(checkPath):
             renpy.music.play(checkPath, channel="music", loop=True, fadeout=1.0, fadein=1.0)
         return

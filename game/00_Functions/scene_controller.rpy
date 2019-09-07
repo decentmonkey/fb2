@@ -37,8 +37,8 @@ label show_scene_now:
         $ sound_to_play = get_filename(scene_sound)
         play sound sound_to_play
         $ scene_sound = False
-    $ print "Bitchiness"
-    $ print bitchmeterValue
+    $ empty1 = "Bitchiness"
+    $ empty1 = bitchmeterValue
     hide screen sprites_hover_dummy_screen
 
 #    window hide

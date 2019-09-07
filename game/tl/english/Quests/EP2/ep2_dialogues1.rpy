@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-06 13:21
+﻿# TODO: Translation updated at 2019-09-07 14:00
 
 # game/Quests/EP2/ep2_dialogues1.rpy:10
 translate english sleep_scene1_2be26c48:

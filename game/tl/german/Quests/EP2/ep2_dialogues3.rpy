@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-06 13:20
+﻿# TODO: Translation updated at 2019-09-07 14:01
 
 # game/Quests/EP2/ep2_dialogues3.rpy:5
 translate german monica_fred_about_dick_dialogue1_4fd34647:

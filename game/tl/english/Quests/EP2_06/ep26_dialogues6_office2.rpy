@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-06 13:21
+﻿# TODO: Translation updated at 2019-09-07 14:00
 
 # game/Quests/EP2_06/ep26_dialogues6_office2.rpy:29
 translate english ep26_dialogues6_office2_1_bb097c9c:
@@ -528,13 +528,13 @@ translate english ep26_dialogues6_office2_7_45c4b1c3:
     # m "Ты ведь не намекаешь на то, что я должна помогать тебе в этой работе?"
     m "Or are you trying to say that I should help you do YOUR job?"
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:473
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:475
 translate english ep26_dialogues6_office2_7_b918ea0a:
 
     # julia "Нет, Миссис Бакфетт. Что Вы?"
     julia "No, Mrs. Buckfett. Of course not!"
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:476
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:478
 translate english ep26_dialogues6_office2_7_4ff3f864:
 
     # julia "Я сделаю все сама."
@@ -542,13 +542,13 @@ translate english ep26_dialogues6_office2_7_4ff3f864:
     julia "I'll do it all by myself."
     julia "Please, forgive me!"
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:487
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:489
 translate english ep26_dialogues6_office2_8_e34292af:
 
     # mt "Все, я свободна на сегодня!"
     mt "That's all! I'm done for today!"
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:490
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:492
 translate english ep26_dialogues6_office2_8_b303f5b0:
 
     # mt "Пусть Юлия делает всю работу."
@@ -556,13 +556,13 @@ translate english ep26_dialogues6_office2_8_b303f5b0:
     mt "I'll let Julia do the work."
     mt "Working all day and night is exactly what Julia needs!"
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:494
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:496
 translate english ep26_dialogues6_office2_8_975253ce:
 
     # mt "Я - это совершенно другое!"
     mt "I'm completely different!"
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:510
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:512
 translate english ep26_dialogues6_office2_9_5929e93b:
 
     # mt "Эти бездельники не пришли на работу. Видите-ли сегодня выходной."
@@ -572,7 +572,7 @@ translate english ep26_dialogues6_office2_9_5929e93b:
     mt "When I get my company back, I'm canceling all weekends..."
     mt "I'll teach them not to slack while I'm in charge."
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:516
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:518
 translate english ep26_dialogues6_office2_10_a5b80609:
 
     # mt "Сегодня выходной."
@@ -582,7 +582,7 @@ translate english ep26_dialogues6_office2_10_a5b80609:
     mt "Because these useless slackers don’t work on weekends, I have nothing to do."
     mt "Disgusting!"
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:524
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:526
 translate english ep26_dialogues6_office2_monica_julia_c627c844:
 
     # mt "Это Юлия."
@@ -590,7 +590,7 @@ translate english ep26_dialogues6_office2_monica_julia_c627c844:
     mt "This is Julia."
     mt "My former maid."
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:527
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:529
 translate english ep26_dialogues6_office2_monica_julia_5fd7c39a:
 
     # mt "Бесполезное создание."
@@ -598,13 +598,13 @@ translate english ep26_dialogues6_office2_monica_julia_5fd7c39a:
     mt "Useless creature."
     mt "I can't believe I have to deal with her again."
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:530
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:532
 translate english ep26_dialogues6_office2_monica_julia_726a7369:
 
     # mt "Странное совпадение что она снова рядом."
     mt "Such a strange coincidence."
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:536
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:538
 translate english ep26_dialogues6_office2_monica_sofa_1014579e:
 
     # mt "Мммм..."
@@ -612,13 +612,13 @@ translate english ep26_dialogues6_office2_monica_sofa_1014579e:
     mt "Mmmmm..."
     mt "This sofa is very comfortable..."
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:541
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:543
 translate english ep26_dialogues6_office2_minimap_active_892f1dbd:
 
     # help "Активировано меню быстрого перемещения по офису."
     help "Office fast travel menu is activated."
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:546
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:548
 translate english ep26_dialogues6_office2_monica_visit1_58e1b461:
 
     # mt "Дьявол! Уже вечер!"
@@ -630,7 +630,7 @@ translate english ep26_dialogues6_office2_monica_visit1_58e1b461:
     mt "I don’t know where to go."
     mt "I'll have to come back tomorrow..."
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:553
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:555
 translate english ep26_dialogues6_office2_monica_visit1a_96a61cde:
 
     # mt "Ага, вот вы где!"
@@ -638,7 +638,7 @@ translate english ep26_dialogues6_office2_monica_visit1a_96a61cde:
     mt "Ah, that's where you are!"
     mt "Now you will meet your new Boss!"
 
-# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:558
+# game/Quests/EP2_06/ep26_dialogues6_office2.rpy:560
 translate english ep26_dialogues6_office2_monica_visit1b_70f12d24:
 
     # m "Где там эти растяпы?"

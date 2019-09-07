@@ -102,6 +102,7 @@ label ep26_quests_office7:
     # Моника говорит с Юлией в обычный день (заставляет работать допоздна)
     if act=="l":
         return
+    call ep27_quests_julia1_init() from _call_ep27_quests_julia1_init # Чекаем инициализацию квеста с Юлией
     if day_time == "evening":
         # Юлия работает допоздна
         call ep26_dialogues6_office2_5() from _call_ep26_dialogues6_office2_5

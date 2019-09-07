@@ -3,6 +3,7 @@ default monicaOfficeWorkKindCount1 = 0 # Кол-во раз Моника жал�
 default juliaOfficeOffended1 = False # Моника заставляла Юлию работать допоздна
 default juliaOfficeOffended2 = False # Моника заставляла Юлию собирать отчеты вместо себя и ругалась при этом
 
+default juliaOfficeOffendedDay = 0
 
 label juliaProgressLevelUp:
     $ char_data["level"] = char_data["level"] + 1

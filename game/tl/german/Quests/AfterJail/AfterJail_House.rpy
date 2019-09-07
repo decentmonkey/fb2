@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-06 13:20
+﻿# TODO: Translation updated at 2019-09-07 14:01
 
 # game/Quests/AfterJail/AfterJail_House.rpy:2
 translate german afterJailHouse_dialogue1a_99e5cdcb:

@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-06 13:20
+﻿# TODO: Translation updated at 2019-09-07 14:01
 
 # game/Quests/EP2_05/Shop/Citizen4_Dialog.rpy:8
 translate german cit4_dialog_1_dd08ce08:

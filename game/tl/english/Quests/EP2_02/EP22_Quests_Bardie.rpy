@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-06 13:21
+﻿# TODO: Translation updated at 2019-09-07 14:00
 
 # game/Quests/EP2_02/EP22_Quests_Bardie.rpy:51
 translate english EP22_Quests_Bardie_Monica_Rest_After_Cleaning_comment1_e859687f:

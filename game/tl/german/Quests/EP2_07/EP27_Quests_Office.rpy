@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-06 13:20
+﻿# TODO: Translation updated at 2019-09-07 14:01
 
 translate german strings:
 
@@ -10,7 +10,7 @@ translate german strings:
     old "Биф просил зайти к нему после сдачи отчетов."
     new "Biff sagte mir, ich muss zu ihm, wenn ich die Berichte habe."
 
-    # game/Quests/EP2_07/EP27_Quests_Office.rpy:121
+    # game/Quests/EP2_07/EP27_Quests_Office.rpy:123
     old "Отдать собранные отчеты для Бифа."
     new "Gib die Berichte Biff."
 

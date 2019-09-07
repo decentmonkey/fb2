@@ -66,7 +66,9 @@ label ep27_dialogues6_julia1:
             img 20795
             with diss
             julia "..."
-            $ juliaOfficeOffended2 = True
+            if juliaOfficeOffended2 == False:
+                $ juliaOfficeOffended2 = True
+                $ juliaOfficeOffendedDay = day
             call bitch(10, "ep27_dialogues6_julia1_1") from _call_bitch_199
         "Хорошо, Юлия.":
             m "Хорошо, Юлия. Спасибо."

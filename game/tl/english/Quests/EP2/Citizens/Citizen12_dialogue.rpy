@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2019-09-06 13:21
+﻿# TODO: Translation updated at 2019-09-07 14:00
 
 # game/Quests/EP2/Citizens/Citizen12_dialogue.rpy:8
 translate english citizen12_dialogue_b8f1bd99:
