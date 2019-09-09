@@ -134,7 +134,7 @@ translate german citizen15_dialogue_pilon_loop15_e7678610:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Benötigt [monicaWhoringClothBoobsCorruptionrequired] Korruption"
+    help "Benötigt [monicaWhoringClothBoobsCorruptionRequired] Korruption"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:104
 translate german citizen15_dialogue_pilon_loop15_48b1ace1:
@@ -170,7 +170,7 @@ translate german citizen15_dialogue_pilon_loop15_299ae0b0:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Benötigt [monicaWhoringClothAssCorruptionrequired] Korruption"
+    help "Benötigt [monicaWhoringClothAssCorruptionRequired] Korruption"
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:129
 translate german citizen15_dialogue_pilon_loop15_48b1ace1_1:
@@ -206,7 +206,7 @@ translate german citizen15_dialogue_pilon_loop15_d15b9b6b:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "[MonicaWhoringClothPylonDanceCorruptionRequired]Mehr Korruption benötigt."
+    help "[monicaWhoringClothPylonDanceCorruptionRequired] Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen15_dialogue.rpy:156
 translate german citizen15_dialogue_pilon_loop15_c6b5282d:

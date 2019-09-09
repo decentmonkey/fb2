@@ -290,7 +290,7 @@ translate english citizen6_dialogue_after_offend3_eb4beb68:
     # help "Требуется [monicaWhoringClothBoobsCorruptionRequired] corruption"
     citizen6 "Honey, you promised me anything. So, I want to see your boobs!"
     m "No, I can't do that!"
-    help "Required [monicaWhoringClothBoobsCorruptionrequired] corruption"
+    help "Required [monicaWhoringClothBoobsCorruptionRequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:213
 translate english citizen6_dialogue_after_offend3_8310e39d:
@@ -436,7 +436,7 @@ translate english citizen6_dialogue_pilon_loop6_e7678610:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "Required [monicaWhoringClothBoobsCorruptionrequired] corruption"
+    help "Required [monicaWhoringClothBoobsCorruptionRequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:318
 translate english citizen6_dialogue_pilon_loop6_48b1ace1:

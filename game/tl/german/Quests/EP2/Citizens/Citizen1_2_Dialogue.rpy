@@ -150,7 +150,7 @@ translate german citizen1_dialogue_pilon_loop1_e7678610:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Benötigt [monicaWhoringClothBoobsCorruptionrequired] Korruption"
+    help "Benötigt [monicaWhoringClothBoobsCorruptionRequired] Korruption"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:105
 translate german citizen1_dialogue_pilon_loop1_48b1ace1:
@@ -192,7 +192,7 @@ translate german citizen1_dialogue_pilon_loop1_299ae0b0:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "Benötigt [monicaWhoringClothAssCorruptionrequired] Korruption"
+    help "Benötigt [monicaWhoringClothAssCorruptionRequired] Korruption"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:129
 translate german citizen1_dialogue_pilon_loop1_48b1ace1_1:
@@ -228,7 +228,7 @@ translate german citizen1_dialogue_pilon_loop1_d15b9b6b:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "[MonicaWhoringClothPylonDanceCorruptionRequired]Mehr Korruption benötigt."
+    help "[monicaWhoringClothPylonDanceCorruptionRequired] Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:156
 translate german citizen1_dialogue_pilon_loop1_c6b5282d:
@@ -268,7 +268,7 @@ translate german citizen1_dialogue_pilon_loop1_49aafc4d:
     mt "Das kann ich mir nicht leisten!"
     "So sehr am Boden bin ich nun auch noch nicht!"
     "Und ich hoffe, dass das NIE passieren wird!"
-    help "[MonicaWhoringClothNakedBoobsCorruptionRequired] Mehr Korruption benötigt."
+    help "[monicaWhoringClothNakedBoobsCorruptionRequired] Mehr Korruption benötigt."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:205
 translate german citizen1_dialogue_pilon_loop1_7dec49ad:
@@ -304,7 +304,7 @@ translate german citizen1_dialogue_pilon_loop1_1_737d10d7:
     # help "Требуется [monicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired] corruption"
     mt "Es reicht schon, dass er mich so anstarrt."
     "Er hat genug mit dem was er sieht!"
-    help "[MonicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired] Mehr Korruption benötigt"
+    help "[monicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired] Mehr Korruption benötigt"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:224
 translate german citizen1_dialogue_pilon_loop1_1_745b11c5:

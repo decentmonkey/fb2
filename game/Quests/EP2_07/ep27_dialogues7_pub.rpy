@@ -1538,8 +1538,8 @@ label ep27_dialogues7_pub14b:
             return 2
         "Прощение у Эшли 3" if pubMonicaWaitressTipsPunishmentAshleyStage >= 2:
             return 3
-        "Прощение у Эшли 4" if pubMonicaWaitressTipsPunishmentAshleyStage >= 3:
-            return 4
+#        "Прощение у Эшли 4" if pubMonicaWaitressTipsPunishmentAshleyStage >= 3:
+#            return 4
 #        "Прощение у Эшли 5" if pubMonicaWaitressTipsPunishmentAshleyStage >= 4:
 #            return 5
     return

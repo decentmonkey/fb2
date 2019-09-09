@@ -146,7 +146,7 @@ translate english citizen8_dialogue_pilon_loop8_e7678610:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "Required [monicaWhoringClothBoobsCorruptionrequired] corruption"
+    help "Required [monicaWhoringClothBoobsCorruptionRequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:115
 translate english citizen8_dialogue_pilon_loop8_48b1ace1:
@@ -168,7 +168,7 @@ translate english citizen8_dialogue_pilon_loop8_1_5ef83602:
     # help "Требуется [monicaWhoringClothBoobsTongueCorruptionRequired] corruption"
     mt "It's enough that he's staring at me like that."
     "He's gotten to see plenty enough!"
-    help "Required [monicaWhoringClothBoobsTongueCorruptionrequired] corruption"
+    help "Required [monicaWhoringClothBoobsTongueCorruptionRequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:128
 translate english citizen8_dialogue_pilon_loop8_1_745b11c5:

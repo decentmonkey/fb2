@@ -3,7 +3,8 @@ default monicaKissedBiff = False
 default ep26_quests_biff1_Flag = False
 
 label ep26_quests_biff1:
-    if ep26_quests_biff1_Flag != False:
+    if ep26_quests_biff1_Flag != False or monicaWorkingAtBiffOffice == True:
+        $ remove_hook(label="biff_work_dialogue1")
         return
     # Инициализируем разговор о работе в офисе
     $ add_hook("Biff", "ep26_quests_biff2", scene="monica_office_cabinet_table", label="biff_work_dialogue1")
@@ -80,6 +81,7 @@ label ep26_quests_biff5:
     # возвращаем Мелани
     call ep26_quests_melanie1() from _call_ep26_quests_melanie1
 
+    $ remove_hook(label="biff_work_dialogue1")
     $ monicaWorkingAtBiffOffice = True
 
     # инициализируем работу в офисе

@@ -150,7 +150,7 @@ translate english citizen1_dialogue_pilon_loop1_e7678610:
     mt "I can't do that!"
     "I'm not sinking that low yet!"
     "And I hope I NEVER DO!"
-    help "Required [monicaWhoringClothBoobsCorruptionrequired] corruption"
+    help "Required [monicaWhoringClothBoobsCorruptionRequired] corruption"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:105
 translate english citizen1_dialogue_pilon_loop1_48b1ace1:
