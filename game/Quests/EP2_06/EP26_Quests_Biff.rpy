@@ -12,6 +12,9 @@ label ep26_quests_biff1:
     return
 
 label ep26_quests_biff2:
+    if monicaWorkingAtBiffOffice == True:
+        $ remove_hook(label="biff_work_dialogue1")
+        return
     # Разговор с Бифом о работе
     if act=="l":
         return
