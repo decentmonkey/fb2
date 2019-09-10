@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "EP2-v0.7-Extra"
+define config.version = "EP2-v0.7-Extra-fix2"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -254,3 +254,7 @@ init python:
     config.layers = [ 'zero', 'master', 'transient', 'belowmid', 'midlayer', 'abovemid', 'screens', 'overlay', 'hud']
 
 define config.missing_image_callback = missing_filename_callback
+
+
+# define renpy.config.fix_rollback_without_choice = False
+define config.hard_rollback_limit = 0
