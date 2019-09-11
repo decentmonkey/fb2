@@ -560,7 +560,7 @@ translate english monica_dick_secretary_dialogue2_ce9a25fa:
 translate english monica_dick_secretary_dialogue2_4dbffab1:
 
     # dick_secretary "Мисс Виктория..."
-    dick_secretary "Mrs. Victoria..."
+    dick_secretary "Ms. Victoria..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:420
 translate english monica_dick_secretary_dialogue2_f21aacea:
@@ -750,7 +750,7 @@ translate english monica_dick_secretary_dialogue2_2d348793:
 translate english monica_dick_secretary_dialogue2_c9e11ba7:
 
     # m "Мисс Виктория..."
-    m "Mrs. Victoria..."
+    m "Ms. Victoria..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:518
 translate english monica_dick_secretary_dialogue2_1e48df60:
@@ -774,7 +774,7 @@ translate english monica_dick_secretary_dialogue2_1e48df60_1:
 translate english monica_dick_secretary_dialogue2_c9e11ba7_1:
 
     # m "Мисс Виктория..."
-    m "Mrs. Victoria..."
+    m "Ms. Victoria..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:527
 translate english monica_dick_secretary_dialogue2_67c52bb8:
@@ -882,7 +882,7 @@ translate english monica_dick_secretary_dialogue3_1c1046f5:
 translate english monica_dick_secretary_dialogue3_c9e11ba7:
 
     # m "Мисс Виктория..."
-    m "Mrs. Victoria..."
+    m "Ms. Victoria..."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:579
 translate english monica_dick_secretary_dialogue3_c80077e2:

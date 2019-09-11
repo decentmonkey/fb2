@@ -1143,7 +1143,7 @@ translate english ep25_dialogues2_steve6_3dc94d6c:
 
     # m "Мисс Виктория..."
     # m "Скажите... Вам приходил на почту подарочный сертификат?"
-    m "Mrs. Victoria..."
+    m "Ms. Victoria..."
     m "Please tell me... Did you get a gift certificate on your email?"
 
 # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:1001

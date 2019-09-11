@@ -108,6 +108,7 @@ python early:
         what = re.sub("\.\s{1,}", ".\n", what)
         what = re.sub("Mr\.\\n", "Mr. ", what)
         what = re.sub("Mrs\.\\n", "Mrs. ", what)
+        what = re.sub("Ms\.\\n", "Ms. ", what)
 
         renpy.say(who, what)
 

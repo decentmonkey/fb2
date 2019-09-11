@@ -506,7 +506,7 @@ translate english ep27_dialogues2_melanie2_c2e1c51f_4:
 translate english ep27_dialogues2_melanie2_3853984e:
 
     # melanie "Что Вы имеете ввиду, Мисс Виктория?" 
-    melanie "What do you mean, Mr. Victoria?" 
+    melanie "What do you mean, Ms. Victoria?" 
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:460
 translate english ep27_dialogues2_melanie2_987dd035:
@@ -615,7 +615,7 @@ translate english ep27_dialogues2_melanie2_8ad79b7f:
 
     # melanie "Мисс Виктория..." 
     # melanie "Я хочу стать Вашей подружкой."
-    melanie "Mrs. Victoria..." 
+    melanie "Ms. Victoria..." 
     melanie "I want to become your friend."
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:547
@@ -642,7 +642,7 @@ translate english ep27_dialogues2_melanie2_25088098:
     # melanie "Я очень известна и знаменита."
     # melanie "И Я бы очень хотела стать Вашей подружкой."
     # melanie "И была бы счастлива, если бы Вы приняли мою дружбу с Вами..."
-    melanie "Mrs. Victoria..." 
+    melanie "Ms. Victoria..." 
     melanie "I - Melanie, model of the most popular magazine."
     melanie "I'm very famous and rich."
     melanie "And I would like to become your friend."
@@ -998,7 +998,7 @@ translate english ep27_dialogues2_melanie2_addb9ae4:
     # dick_secretary "Отлично!" 
     # dick_secretary "Теперь Мистер Дик поймет, что ты такая же шлюха, как и Бакфетт!"
     dick_secretary "Excellent!" 
-    dick_secretary "He will finally understand that you are just a whole, same as Mrs. Buckfett!"
+    dick_secretary "He will finally understand that you are just a whore, same as Mrs. Buckfett!"
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:849
 translate english ep27_dialogues2_melanie2_d26e579a_14:
@@ -1019,7 +1019,7 @@ translate english ep27_dialogues2_melanie2_533c5e53:
     # melanie "Мисс Виктория..."
     # melanie "Все мечтают о такой груди, как у меня..."
     melanie "I found out..." 
-    melanie "Mrs. Victoria..."
+    melanie "Ms. Victoria..."
     melanie "A lot of people dream to have one like mine."
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:864
@@ -1041,7 +1041,7 @@ translate english ep27_dialogues2_melanie2_533c5e53_1:
     # melanie "Мисс Виктория..."
     # melanie "Все мечтают о такой груди, как у меня..."
     melanie "I found out..." 
-    melanie "Mrs. Victoria..."
+    melanie "Ms. Victoria..."
     melanie "A lot of people dream to have one like mine."
 
 # game/Quests/EP2_07/ep27_dialogues2_melanie.rpy:877
