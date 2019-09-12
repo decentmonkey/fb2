@@ -1123,7 +1123,7 @@ label cit1_2_counting1:
     m "Ай!"
     img 14554
     citizen2 "Четыре!"
-    img 1456
+    img 14562
     citizen1 "Пять!"
     img 14554
     citizen2 "Скоро будем мы бухать!"
