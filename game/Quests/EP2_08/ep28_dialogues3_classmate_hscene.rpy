@@ -673,7 +673,7 @@ label dialogue_classmate_5:
                 return 1
             "Если это поможет быстро решить проблему малявки, то, возможно, стоит потерпеть...":
                 pass
-    $ dialogue_classmate_5_flag = True
+        $ dialogue_classmate_5_flag = True
     else:
         img 14983
         teacher "А, миссис Бейкер! Это вы? Ну как, вы надумали?" #с улыбочкой
