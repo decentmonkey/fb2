@@ -1050,6 +1050,8 @@ label dialogue_betty_college_6:
     img 15078
     betty "!!!"
     img 15079
+    w
+    img 15114
     betty "ЧТО! ЭТО! ТАКОЕ?!"
     # Бетти бомбит
     img 15080
@@ -1093,8 +1095,9 @@ label dialogue_betty_college_6:
     # Барди с мерзкой улыбочкой
     img 15091
     bardie "???"
-    img 15093
+    img 15092
     bardie "Ты хорошо подумала?"
+    img  15093
     betty "..."
     # Барди показывает свой смартфон
     img 15094
