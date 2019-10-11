@@ -985,7 +985,7 @@ label ep28_dialogues_jail2:
         "Поставить их на место!":
             return False
     img 21446
-    img 21447
+#    img 21447
     img 21445
     prisoners "Хорошая шлюха! Да! Да!"
     img 21448
