@@ -2168,3 +2168,47 @@ translate german strings:
     old "Сделать то о чем просит Эшли."
     new "Mach, was Ashley verlangt."
 
+# TODO: Translation updated at 2019-09-30 21:54
+
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:375
+translate german ep27_dialogues7_pub8_023485b8:
+
+    # m "!!!"
+    # mt "Черт! Мне нужно убедить ее, что я не забирала деньги."
+    # mt "Только, как это сделать?"
+    # mt "Эта Эшли все равно мне не поверит."
+    # mt "..."
+    # ashley "Что смотришь? Убирайся отсюда!"
+    # ashley "Здесь больше нет для тебя работы!"
+    # ashley "И я не буду тебя обслуживать даже за деньги!"
+    m "!!!"
+    mt "Черт! Мне нужно убедить ее, что я не забирала деньги."
+    mt "Только, как это сделать?"
+    mt "Эта Эшли все равно мне не поверит."
+    mt "..."
+    ashley "Was guckst du? Raus hier!"
+    ashley "Es gibt keine Arbeit mehr für dich!"
+    ashley "Und ich werde dich nicht bedienen, auch nicht für Geld!"
+
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:389
+translate german ep27_dialogues7_pub8_0589f2f1:
+
+    # mt "Мне нужна эта работа..."
+    # mt "Может, если я извинюсь, у меня получится с ней договориться?"
+    mt "Мне нужна эта работа..."
+    mt "Может, если я извинюсь, у меня получится с ней договориться?"
+
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:393
+translate german ep27_dialogues7_pub8_926ad131:
+
+    # mt "Я не собираюсь терпеть такое хамское отношение ко мне!"
+    # mt "С меня хватит!"
+    mt "Я не собираюсь терпеть такое хамское отношение ко мне!"
+    mt "Das reicht!"
+
+translate german strings:
+
+    # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:452
+    old "Идти танцевать на сцену"
+    new "Идти танцевать на сцену"
+

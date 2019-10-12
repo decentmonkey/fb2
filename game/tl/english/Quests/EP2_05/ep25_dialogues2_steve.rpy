@@ -1764,3 +1764,15 @@ translate english strings:
     old "Заключить сделку."
     new "Close a deal."
 
+# TODO: Translation updated at 2019-09-30 21:46
+
+translate english strings:
+
+    # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:437
+    old "Итак, Стив! Ответь мне!"
+    new "Итак, Стив! Ответь мне!"
+
+    # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:437
+    old "Ты собираешься переводить мне деньги, Стив?"
+    new "Ты собираешься переводить мне деньги, Стив?"
+

@@ -14,8 +14,10 @@ define pubCustomer12_serve1_Corruption = 220
 define pubCustomer9_serve1_Corruption = 220
 define pubCustomer4_serve1_Corruption = 100
 
-default pubMonicaWaitressTipsKoeff = 0.3 # Сколько чаевых отдают Монике
+default pubMonicaWaitressTipsKoeff = 0.3 # Сколько чаевых отдают Монике за работу официанткой
 default pubMonicaWaitressVisitorsPerDay = 3 # Сколько посетителей Моника может обслужить в день
+default pubMonicaDanceTipsKoeff = 0.3 # Сколько чаевых отдают Монике за танцы
+default pubMonicaDanceTipsKoeffText = "70" # текст чаевых
 
 define monicaSteveJaneCorruption1 = 150 # Согласие на контракт Знакомство
 define monicaSteveJaneCorruption2 = 200 # Предложение показать Стиву свою грудь

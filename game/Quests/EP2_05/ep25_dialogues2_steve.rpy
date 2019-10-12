@@ -435,11 +435,11 @@ label ep25_dialogues2_steve3:
     w
 
     menu:
-        "Итак, Стив! Ответь мне! (была сделка со Стивом)" if monicaHasSexWithSteveBasement == True:
+        "Итак, Стив! Ответь мне!" if monicaHasSexWithSteveBasement == True:
             pass
         "Итак, Стив! Ответь мне! (не было сделки со Стивом) (disabled)" if monicaHasSexWithSteveBasement == False:
             pass
-        "Ты собираешься переводить мне деньги, Стив? (не было сделки со Стивом)" if monicaHasSexWithSteveBasement == False:
+        "Ты собираешься переводить мне деньги, Стив?" if monicaHasSexWithSteveBasement == False:
             pass
         "Ты собираешься переводить мне деньги, Стив? (была сделка со Стивом) (disabled)" if monicaHasSexWithSteveBasement == True:
             pass
