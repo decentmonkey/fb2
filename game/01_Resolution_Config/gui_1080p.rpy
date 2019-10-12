@@ -80,6 +80,9 @@ define gui.resolution.gallery.frame.offset = 2
 define gui.resolution.gallery.category_height = 45
 define gui.resolution.gallery.category_margin_down = 20
 
+define gui.resoultion.hud_screen.face_hud_image_background_pos = (2003, 146)
+define gui.resolution.hud_screen.face_hud_image_pos = (2003 + 22, 146 + 19)
+
 define res.suffix = "" #"", "_720p"
 
 define notifyLineOffset = 50 #ep22

@@ -451,7 +451,8 @@ label define_hudpresets:
             "display_scene_caption" : True,
             "display_scene_map" : True,
             "display_bitchmeter" : True,
-            "display_closemap" : True
+            "display_closemap" : True,
+            "display_face_hud": False
         },
         "default_map_disabled" : {
             "display_daytime" : True,
@@ -461,7 +462,8 @@ label define_hudpresets:
             "display_scene_caption" : True,
             "display_scene_map" : False,
             "display_bitchmeter" : True,
-            "display_closemap" : True
+            "display_closemap" : True,
+            "display_face_hud": False
         },
         "map": {
             "display_daytime" : True,
@@ -471,7 +473,8 @@ label define_hudpresets:
             "display_scene_caption" : False,
             "display_scene_map" : False,
             "display_bitchmeter" : False,
-            "display_closemap" : True
+            "display_closemap" : True,
+            "display_face_hud": False
         },
         "map_locked" : {
             "display_daytime" : True,
@@ -481,9 +484,20 @@ label define_hudpresets:
             "display_scene_caption" : False,
             "display_scene_map" : False,
             "display_bitchmeter" : False,
-            "display_closemap" : False
+            "display_closemap" : False,
+            "display_face_hud": False
         },
-
+        "betty": {
+            "display_daytime" : True,
+            "display_money" : True,
+            "display_objectives" : True,
+            "display_calendar" : True,
+            "display_scene_caption" : True,
+            "display_scene_map" : True,
+            "display_bitchmeter" : False,
+            "display_closemap" : True,
+            "display_face_hud": True
+        }
     }
     return
 

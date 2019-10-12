@@ -222,6 +222,7 @@ label ep27_quests_julia12_fred_catch:
     if juliaFredCatchFromDay == day or week_day == 7 or day_time != "day" or scene_name == "monica_office_entrance":
         return
         # next updates
+    m "catch"
     return
     $ remove_hook(label="ep27_quests_julia1_f")
     return

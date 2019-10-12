@@ -27,5 +27,5 @@ init python:
             map_objects[place_name]["state"] = map_state
             subst_to_object(place_name, object_subst, scene="map")
         mapFocusedObjects = []
-        hud_preset_current = "default"
+        hud_preset_current = hud_preset_default
         return

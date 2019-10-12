@@ -1106,6 +1106,11 @@ screen hud_screen(hud_presets):
 
     fixed:
 #            size (200, 327)
+        if hud_presets.has_key("display_face_hud") and hud_presets["display_face_hud"] == True:
+            add "gui/frame5" + res.suffix + ".png":
+                pos gui.resoultion.hud_screen.face_hud_image_background_pos
+            add "/icons/" + faceHudImage + res.suffix + ".png":
+                pos gui.resolution.hud_screen.face_hud_image_pos
         if hud_presets.has_key("display_bitchmeter") and hud_presets["display_bitchmeter"] == True:
 #            $ bitchmeter_description = get_bitchmeter_description() + " (" + str(bitchmeterValue) + ")"
             $ bitchmeter_description = get_bitchmeter_description()

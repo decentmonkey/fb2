@@ -25,6 +25,9 @@ default menu_corruption = []
 default menu_price = []
 default menu_bitchiness = []
 
+default hud_preset_current = "default"
+default hud_preset_default = "default"
+
 default after_load_ready_to_render = False
 
 label start:
