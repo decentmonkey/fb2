@@ -23,6 +23,7 @@ label change_owner_default:
         $ faceHudImage = "Face_Betty_HUD"
         $ hud_preset_current = "betty"
         $ hud_preset_default = "betty"
+        $ minimap_coords_preset = 1
         call define_hudpresets()
 
     if new_owner == "Monica":
@@ -30,5 +31,6 @@ label change_owner_default:
         $ faceHudImage = False
         $ hud_preset_current = "default"
         $ hud_preset_default = "default"
+        $ minimap_coords_preset = 0
 
     return

@@ -1,5 +1,6 @@
 default livingRoomRalphIsHere = False
 default livingRoomRalphSuffix = ""
+default livingRoomBettySuffix = 1
 
 label living_room:
     $ print "enter_living_room"

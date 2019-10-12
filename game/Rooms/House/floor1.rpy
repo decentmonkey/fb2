@@ -1,3 +1,5 @@
+default floor1BettySuffix = 1
+
 label floor1:
     $ print "enter_floor1"
     $ miniMapData = []

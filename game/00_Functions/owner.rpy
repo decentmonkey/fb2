@@ -3,6 +3,6 @@ default owners_data = {"Monica":{}, "Betty":{"money":150, "objectives":[], "inve
 
 label change_owner(in_new_owner):
     $ new_owner = in_new_owner
-    call process_hook("change_owner", "global")
+    call process_hooks("change_owner", "global")
     $ owner = new_owner
     return

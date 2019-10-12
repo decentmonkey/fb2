@@ -35,7 +35,7 @@ define gui.resolution.hud_screen.calendar_text_x_align = 0.49
 define gui.resolution.hud_screen.calendar_text_y_align = 0.32
 
 define gui.resolution.hud_screen.minimap_x_pos = 1711
-
+define gui.resolution.hud_screen.minimap_y_pos = 85
 
 define gui.resolution.text_button.spacing1 = 12 #12, 8
 define gui.resolution.text_button.spacing2 = 15 #15, 10
@@ -80,8 +80,10 @@ define gui.resolution.gallery.frame.offset = 2
 define gui.resolution.gallery.category_height = 45
 define gui.resolution.gallery.category_margin_down = 20
 
-define gui.resoultion.hud_screen.face_hud_image_background_pos = (2003, 146)
-define gui.resolution.hud_screen.face_hud_image_pos = (2003 + 22, 146 + 19)
+define gui.resoultion.hud_screen.face_hud_image_background_pos = (1730, 87)
+define gui.resolution.hud_screen.face_hud_image_pos = (1730 + 22, 87 + 19)
+define gui.resolution.hud_screen.minimap_x_pos_owner = 1827
+define gui.resolution.hud_screen.minimap_y_pos_owner = 273
 
 define res.suffix = "" #"", "_720p"
 

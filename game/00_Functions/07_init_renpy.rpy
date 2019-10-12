@@ -60,6 +60,7 @@ define perry = Character(_("Перри"), who_color=c_green) #Perry
 define ralph = Character(_("Ральф Робертс"), who_color=c_green) #Ralph Roberts
 define biff = Character(_("Биф"), who_color=c_blue) #biff
 define betty = Character(_("Бетти Робертс"), who_color=c_pink) #Betty Roberts
+define betty_t = Character(_("Бетти Робертс"), who_color=c_pink, what_color=c_blue, what_italic=True) #Betty Roberts
 define bardie = Character(_("Барди"), who_color=c_blue) #Bardie
 define bardie_t = Character(_("Барди"), who_color=c_blue, what_color=c_blue, what_italic=True) #Bardie
 define gas_boyfriend = Character(_("Бойфренд"), who_color=c_blue) #бойфренд девушки с заправки

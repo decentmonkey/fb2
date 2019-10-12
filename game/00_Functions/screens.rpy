@@ -828,9 +828,17 @@ screen character_info_screen(obj_name, x, y):
 screen hud_minimap(minimapData):
     layer "master"
     zorder 60
+    python:
+        if minimap_coords_preset == 0:
+            minimap_pos_x = gui.resolution.hud_screen.minimap_x_pos
+            minimap_pos_y = gui.resolution.hud_screen.minimap_y_pos
+        if minimap_coords_preset == 1:
+            minimap_pos_x = gui.resolution.hud_screen.minimap_x_pos_owner
+            minimap_pos_y = gui.resolution.hud_screen.minimap_y_pos_owner
+
     fixed:
         if len(minimapData) > 0:
-            pos (int(gui.resolution.hud_screen.minimap_x_pos * gui.resolution.koeff), int(85 * gui.resolution.koeff))
+            pos (int(minimap_pos_x * gui.resolution.koeff), int(minimap_pos_y * gui.resolution.koeff))
             if miniMapOpened == False:
                 button:
                     yanchor 0.0
@@ -1042,17 +1050,18 @@ screen hud_screen(hud_presets):
                         action [
                             Call("show_achievements")
                         ]
-                    null:
-                        height gui.resolution.hud_screen.height1
-                    imagebutton:
-                        if questLogJustUpdated == True:
-                            idle "icons/questlog_icon" + res.suffix + ".png" at quest_log_transform
-                        else:
-                            idle "icons/questlog_icon" + res.suffix + ".png"
-                        hover "icons/questlog_icon_hover" + res.suffix + ".png"
-                        action [
-                            Call("show_questlog")
-                        ]
+                    if hud_presets.has_key("display_questlog") == False or hud_presets["display_questlog"] == True:
+                        null:
+                            height gui.resolution.hud_screen.height1
+                        imagebutton:
+                            if questLogJustUpdated == True:
+                                idle "icons/questlog_icon" + res.suffix + ".png" at quest_log_transform
+                            else:
+                                idle "icons/questlog_icon" + res.suffix + ".png"
+                            hover "icons/questlog_icon_hover" + res.suffix + ".png"
+                            action [
+                                Call("show_questlog")
+                            ]
                     if questionHelperEnabled == True:
                         null:
                             height gui.resolution.hud_screen.height1

@@ -223,6 +223,7 @@ label ep27_quests_julia12_fred_catch:
         return
         # next updates
     m "catch"
+    call ep28_betty_init()
     return
     $ remove_hook(label="ep27_quests_julia1_f")
     return

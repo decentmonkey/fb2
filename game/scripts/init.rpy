@@ -496,7 +496,8 @@ label define_hudpresets:
             "display_scene_map" : True,
             "display_bitchmeter" : False,
             "display_closemap" : True,
-            "display_face_hud": True
+            "display_face_hud": True,
+            "display_questlog": False
         }
     }
     return
