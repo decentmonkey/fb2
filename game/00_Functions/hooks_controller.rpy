@@ -1,6 +1,7 @@
 default hooks_stack = []
 default sprites_hover_dummy_screen_flag = False
-
+default hooks_log = {}
+default hook_log_idx = 0
 init python:
 
     def add_hook(*args, **kwargs): #устанавливает хук
@@ -270,6 +271,21 @@ init python:
         hooks_list = scenes_data["hooks"][room_name][hook_obj_name]
         return hooks_list
 
+    def checkObjectOwnerVisible(obj_name, obj_data):
+        global owner, scene_name
+        if (obj_data.has_key("owner") == False and owner == "Monica") or (obj_data.has_key("owner") == True and obj_data["onwer"] == owner):
+            return True
+        if scenes_data["hooks"].has_key(scene_name) == True and scenes_data["hooks"][scene_name].has_key(obj_name):
+            hooks_list = scenes_data["hooks"][scene_name][obj_name]
+            for hook_data in hooks_list:
+                if hooks_data.has_key("owner") == False:
+                    if owner == "Monica":
+                        return True
+                    else:
+                        return False
+                if hooks_data["owner"] == owner:
+                    return True
+        return False
 
 label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen_flag = False):
     $ _return = None
@@ -298,7 +314,10 @@ label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen
             if sprites_hover_dummy_screen_flag == True:
                 show screen sprites_hover_dummy_screen()
                 $ sprites_hover_dummy_screen_flag = False
-            call expression label_name from _call_expression_5 #вызов хука
+            $ hooks_log[label_name] = hook_log_idx
+            $ hook_log_idx += 1
+            if (hook_data.has_key("owner") == False and owner == "Monica") or (hook_data.has_key("owner") == True and hook_data["owner"] == owner):
+                call expression label_name from _call_expression_5 #вызов хука
         $ stack_data = hooks_stack.pop()
         $ label_name = stack_data[2]
         $ idx = stack_data[3]
@@ -333,6 +352,8 @@ label call_hook(label_name, menu_name, sprites_hover_dummy_screen_flag = False):
     if sprites_hover_dummy_screen_flag == True:
         show screen sprites_hover_dummy_screen()
         $ sprites_hover_dummy_screen_flag = False
+    $ hooks_log[label_name] = hook_log_idx
+    $ hook_log_idx += 1
     call expression label_name from _call_expression_12 #вызов хука
 #    $ stack = renpy.get_return_stack()
 #    $ stack[0] = (stack[0][0], stack[0][1], stack[0][2]+2)

@@ -169,7 +169,7 @@ screen screen_sprites(data):
                 for pass_num in range(1,3): #pass1 - overlays, pass2 - sprites and masks
                     for zorder_ptr in zorder_list:
                         $ i = zorder_ptr[0]
-                        if data[i].has_key("active") == False or data[i]["active"] == True:
+                        if (data[i].has_key("active") == False or data[i]["active"] == True) and (showObjectsNotOwner == True or checkObjectOwnerVisible(i, data[i]) == True):
                             $ tooltip_data = data[i]["tooltip"] if "tooltip" in data[i] else False
                             $ day_time_suffix = "_" + day_time if day_time in ["evening"] else ""
                             $ brightness_adjustment = 0.1
