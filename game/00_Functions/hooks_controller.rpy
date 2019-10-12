@@ -273,8 +273,7 @@ init python:
 
     def checkObjectOwnerVisible(obj_name, obj_data):
         global owner, scene_name
-        if (obj_data.has_key("owner") == False and owner == "Monica") or (obj_data.has_key("owner") == True and obj_data["owner"] == owner):
-            print "HERE1"
+        if (obj_data.has_key("owner") == False and owner == "Monica") or (obj_data.has_key("owner") == True and obj_data["owner"] == owner) or (obj_data.has_key("owners_visible_forced") and obj_data["owners_visible_forced"] == True):
             return True
         if scenes_data["hooks"].has_key(scene_name) == True and scenes_data["hooks"][scene_name].has_key(obj_name):
             hooks_list = scenes_data["hooks"][scene_name][obj_name]
@@ -316,6 +315,8 @@ label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen
             $ hooks_log[label_name] = hook_log_idx
             $ hook_log_idx += 1
             if (hook_data.has_key("owner") == False and owner == "Monica") or (hook_data.has_key("owner") == True and hook_data["owner"] == owner):
+                if hook_data.has_key("once") and hook_data["once"] == True:
+                    $ remove_hook()
                 call expression label_name from _call_expression_5 #вызов хука
         $ stack_data = hooks_stack.pop()
         $ label_name = stack_data[2]
