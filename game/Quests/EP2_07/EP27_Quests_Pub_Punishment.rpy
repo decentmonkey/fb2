@@ -101,7 +101,7 @@ label ep22_quests_pub_punishment_ashley:
             call change_scene("hostel_street", "Fade_long") from _call_change_scene_360
             return False
         $ pubMonicaWaitressTipsPunishmentAshleyStage = 2
-        $ add_char_progress("Bartender_Waitress", monicaTipsPunishmentAshleyProgress, "monicaTipsPunishmentAshleyProgress1")
+        $ add_char_progress("Bartender_Waitress", monicaTipsPunishmentAshleyProgress, "monicaTipsPunishmentAshleyProgress2")
         call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive_5
         call ep27_dialogues7_pub18() from _call_ep27_dialogues7_pub18_1
         call refresh_scene_fade_long() from _call_refresh_scene_fade_long_20
@@ -112,7 +112,7 @@ label ep22_quests_pub_punishment_ashley:
             call change_scene("hostel_street", "Fade_long") from _call_change_scene_361
             return False
         $ pubMonicaWaitressTipsPunishmentAshleyStage = 3
-        $ add_char_progress("Bartender_Waitress", monicaTipsPunishmentAshleyProgress, "monicaTipsPunishmentAshleyProgress1")
+        $ add_char_progress("Bartender_Waitress", monicaTipsPunishmentAshleyProgress, "monicaTipsPunishmentAshleyProgress3")
         call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive_6
         call ep27_dialogues7_pub18() from _call_ep27_dialogues7_pub18_2
         call refresh_scene_fade_long() from _call_refresh_scene_fade_long_21

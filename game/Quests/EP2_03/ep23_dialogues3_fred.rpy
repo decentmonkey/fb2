@@ -687,6 +687,9 @@ label ep23_dialogues3_5:
     img 8590
     with fade
     w
+    img 8591
+    with fade
+    w
     img 8592
     with fade
     fred "ААААаааааххх!"

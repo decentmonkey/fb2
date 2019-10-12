@@ -77,6 +77,7 @@ label ep22_quests_falling_path4:
     if _return != False:
         $ notif(_("Моника обслужила 'Клиента'"))
         call falling_path_store_customer() from _call_falling_path_store_customer
+    call refresh_scene_fade()
     return False
 
 label falling_path_start_customer():
