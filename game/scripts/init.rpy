@@ -319,6 +319,7 @@ default dialogue_active_flag = False
 
 define imagesSizesCache = {}
 default menuName = False
+default char_info = {}
 
 label characters_init:
     $ char_info = {
