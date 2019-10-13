@@ -187,27 +187,134 @@ label ep28_betty_college2_teacher_day2b: # Разговор с Барди пос
 
     $ remove_hook(label="betty_college_day2")
     $ move_object("Bardie", "empty")
-    $ add_hook("enter_scene", "ep28_betty_college2_teacher_day2c", scene="floor1", owner="Betty", once=True)
-    call refresh_scene_fade()
-    return False
-
-label ep28_betty_college2_teacher_day2c: # Бетти заходит в дом, завершение дня 2
-    call dialogue_betty_college_3()
     $ move_object("Betty", "bedroom1")
     music stop
     img black_screen
     with diss
-    pause 1.5
+    pause 2.5
     $ hudDaySkipToEveningEnabled = True
     call change_scene("basement_bedroom2", "Fade_long", False)
     call change_owner("Monica")
-
     $ add_hook("change_time_day", "ep28_betty_college2_teacher_day3", scene="global", label="betty_college_day3")
-
     return
 
-label ep28_betty_college2_teacher_day3:
+label ep28_betty_college2_teacher_day3: # Инициализация дня 3
     if week_day == 7:
         return
+
+    $ remove_hook()
+    $ add_hook("enter_scene", "dialogue_betty_college_1_1_6", scene="street_college", once=True, owner="Betty")
+    $ add_hook("College", "ep28_betty_college2_building_day1", scene="street_college", label="betty_college_day3", owner="Betty")
+    $ add_hook("Teacher", "ep28_betty_college2_teacher_day3_teacher", scene="college_class", label="betty_college_day3", owner="Betty")
+
+    $ move_object("Ralph", "living_room")
+
+    $ streetCollegeBettySuffix = 1
+
+    call change_owner("Betty")
+    $ set_active("Betty", True, scene="House", recursive=True)
+    $ set_active("Betty", True, scene="street_college", recursive=True)
+    $ hudDaySkipToEveningEnabled = False
+
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(_("Утро..."))
+    img black_screen
+    with Dissolve(2.0)
+
+    call change_scene("street_house_main_yard")
+
     return
+
+label ep28_betty_college2_teacher_day3_teacher: # Разговор с учителем день 3
+    if act=="l":
+        return
+    call dialogue_betty_teacher_3()
+    $ bettyCollegeDay = 3
+
+    $ add_hook("enter_scene", "dialogue_betty_college_1_1_7", scene="street_college", owner="Betty", once=True)
+    $ remove_hook(label="betty_college_day3")
+    $ streetCollegeBettySuffix = 2
+
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    call change_scene("street_college", "Fade_long", "highheels_run2")
+
+    $ move_object("Bardie", "street_house_main_yard")
+    $ add_hook("Bardie", "ep28_betty_college2_teacher_day3b", scene="street_house_main_yard", owner="Betty", label="betty_college_day3")
+    $ add_hook("Betty", "dialogue_betty_college_1_1i", scene="street_house_main_yard", owner="Betty", label="betty_college_day3")
+    $ add_hook("Driver", "dialogue_betty_college_1_1a0", scene="street_house_main_yard", owner="Betty", label="betty_college_day3")
+
+    return False
+
+label ep28_betty_college2_teacher_day3b: # Разговор с Барди день 3
+    if act=="l":
+        call dialogue_betty_college_1_1c()
+        return False
+    call dialogue_betty_college_5()
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    call dialogue_betty_college_6()
+
+#    music stop
+#    img black_screen
+#    with diss
+#    pause 3.0
+#    call dialogue_doublephoto_1()
+
+    $ remove_hook(label="betty_college_day3")
+    $ move_object("Bardie", "empty")
+    $ move_object("Betty", "bedroom1")
+    music stop
+    img black_screen
+    with diss
+    pause 2.5
+    $ hudDaySkipToEveningEnabled = True
+    $ cloth = "Governess"
+    $ cloth_type = "Governess"
+    call change_scene("basement_bedroom2", "Fade_long", False)
+    call change_owner("Monica")
+    call change_scene("basement_bedroom2", "Fade_long", False)
+    call ep28_betty_college_double_photo_init()
+    return False
+
+label ep28_betty_college_double_photo_init:
+    $ map_enabled = False
+    $ miniMapEnabledOnly = ["Floor2", "Basement"]
+    $ move_object("Betty", "bedroom_bardie")
+    $ add_hook("enter_scene", "dialogue_doublephoto_1a", scene="basement_bedroom2", once=True)
+    $ add_hook("enter_scene", "dialogue_doublephoto_1a", scene="basement_pool", once=True)
+    $ add_hook("enter_scene", "dialogue_doublephoto_1a", scene="floor1", once=True)
+
+
+    $ add_hook("enter_scene", "dialogue_doublephoto_1a", scene="floor2", label="double_photo_block")
+#    $ add_hook("Teleport_Floor2_Stairs", "dialogue_doublephoto_1a", scene="floor2", label="double_photo_block")
+    $ add_hook("Teleport_Basement_Side", "dialogue_doublephoto_1a", scene="basement_hole", label="double_photo_block")
+    $ add_hook("Teleport_Street", "dialogue_doublephoto_1a", scene="floor1", label="double_photo_block")
+    $ add_hook("Teleport_Kitchen", "dialogue_doublephoto_1a", scene="floor1", label="double_photo_block")
+
+    $ add_hook("Teleport_BedroomBardie", "ep28_betty_college_double_photo1", scene="floor2", label="double_photo_block")
+    $ monicaLastCleaningOfferedDay = day
+
+    return
+
+label ep28_betty_college_double_photo1:
+    $ remove_hook(label="double_photo_block")
+    $ map_enabled = True
+    $ miniMapEnabledOnly = []
+    call dialogue_doublephoto_1()
+    $ move_object("Betty", "bedroom1")
+    $ add_hook("change_time_day", "ep28_monica_college_bardie_erick_quest_check", scene="global", label="ep28_monica_college_bardie_erick_quest_check")
+#    $ add_hook("enter_scene", "dialogue_classmate_15a", scene="floor2", once=True)
+    $ autorun_to_object("dialogue_classmate_15a", scene="floor2")
+    call refresh_scene_fade()
+    return False
+
+
+
 #
