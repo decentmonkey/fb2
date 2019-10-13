@@ -7,7 +7,8 @@ label ep28_betty_init:
     $ livingRoomBettySuffix = 1
     $ add_object_to_scene("Betty", {"type" : 2, "active":False, "base" : "House_LivingRoom_Betty_[livingRoomBettySuffix][day_suffix]", "click" : "living_room_environment", "actions" : "l", "zorder":11}, scene="living_room")
 
-    $ move_object("Betty", "street_house_main_yard")
+#    $ move_object("Betty", "street_house_main_yard")
+    $ set_active("Betty", True, scene="World", recursive=True)
     $ add_hook("Betty", "dialogue_betty_college_1_1a", scene="street_house_main_yard", label="betty_college1", owner="Betty")
     $ add_hook("Betty", "dialogue_betty_college_1_1a", scene="floor1", label="betty_college1", owner="Betty")
     $ add_hook("Betty", "dialogue_betty_college_1_1a", scene="living_room", label="betty_college1", owner="Betty")
@@ -59,7 +60,7 @@ label ep28_betty_ralph:
     return
 
 label ep28_betty_teleport_map:
-    call map_show(True)
+    call map_show()
     return
 
 

@@ -1,6 +1,11 @@
-label ep28_quests:
+default ep28_quests_initialized = False
 
-    # Проверка на баг с отсутствием диалога с Бифом о работе
-    if ep26_quests_biff1_Flag == True and monicaWorkingAtBiffOffice == False:
-        call ep26_quests_biff1()
+label ep28_quests:
+    if ep28_quests_initialized == True:
+        return
+
+    if check_hook(label="ep26_bardie_dialogue5_betty_kitchen"):
+        $ bettyMustFeedMonicaOnKitchenBoobs = True
+        call ep28_monica_bardie_init()
+    $ ep28_quests_initialized = True
     return

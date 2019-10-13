@@ -168,3 +168,9 @@ label locations_init_police_jail_cage:
     $ add_location("police_cell2", caption=_("КАМЕРА"), label="police_cell2", init_label="police_cell2_init", parent="police_entrance")
     $ add_location("police_cell3", caption=_("РЕШЕТКА"), label="police_cell3", init_label="police_cell3_init", parent="police_entrance")
     return
+
+label locations_init_college:
+    # Колледж
+    $ add_location("street_college", caption=_("КОЛЛЕДЖ"), label="street_college", init_label="street_college_init", parent="World")
+    $ add_location("college_class", caption=_("КЛАСС БАРДИ"), label="college_class", init_label="college_class_init", parent="street_college")
+    return

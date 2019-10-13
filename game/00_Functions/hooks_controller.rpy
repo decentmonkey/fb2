@@ -354,7 +354,7 @@ init python:
                     return True
         return False
 
-label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen_flag = False):
+label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen_flag = False, noowners=False):
     $ _return = None
     if room_name == False:
         $ room_name = api_scene_name
@@ -383,7 +383,7 @@ label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen
                 $ sprites_hover_dummy_screen_flag = False
             $ hooks_log[label_name] = hook_log_idx
             $ hook_log_idx += 1
-            if (hook_data.has_key("owner") == False and owner == "Monica") or (hook_data.has_key("owner") == True and hook_data["owner"] == owner):
+            if (hook_data.has_key("owner") == False and owner == "Monica") or (hook_data.has_key("owner") == True and hook_data["owner"] == owner) or noowners == True:
                 if hook_data.has_key("once") and hook_data["once"] == True:
                     $ remove_hook()
                 call expression label_name from _call_expression_5 #вызов хука

@@ -68,6 +68,8 @@ define hotel_staff = Character(_("Сотрудник Отеля"), who_color=c_b
 define philip = Character(_("Филипп"), who_color=c_blue) #Philip
 define empty_name = Character("", who_color=c_blue) #empty name
 
+define teacher = Character(_("Мистер Эдвардс"), who_color=c_blue) #Teacher Edwards
+
 define reporter1 = Character(_("Репортер 1"), who_color=c_blue) #Reporter1
 define reporter2 = Character(_("Репортер 2"), who_color=c_orange) #Reporter2
 define reporter3 = Character(_("Репортер 3"), who_color=c_pink) #Reporter3

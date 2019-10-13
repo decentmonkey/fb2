@@ -79,6 +79,7 @@ label ep28_quests_julia_fred_catch2: # Фред ловит Монику на в�
     pause 1.0
     if _return == False:
         $ juliaQuestMonicaRefusedFred = True
+        $ remove_objective("find_julia_panties_color")
     else:
         $ juliaQuestStage1_Progress = 3
     $ move_object("Melanie", "empty")
@@ -100,6 +101,7 @@ label ep28_quests_julia_fred_catch3: # Фред ловит Монику на в�
     pause 1.0
     if _return == False:
         $ juliaQuestMonicaRefusedFred = True
+        $ remove_objective("find_julia_panties_color")
     else:
         $ juliaQuestStage1_Progress = 4
     call change_scene("monica_office_secretary_teatable")
@@ -120,6 +122,7 @@ label ep28_quests_julia_fred_catch4: # Фред ловит Монику на в�
     pause 1.0
     if _return == False:
         $ juliaQuestMonicaRefusedFred = True
+        $ remove_objective("find_julia_panties_color")
     else:
         $ juliaQuestStage1_Progress = 5
     call change_scene("monica_office_photostudio")
