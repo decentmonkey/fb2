@@ -148,7 +148,7 @@ label ep26_quests_bardie7:
     # Бетти уходит к Барди
     call ep26_dialogues1_bardie11() from _call_ep26_dialogues1_bardie11
     $ move_object("Betty", "empty")
-    $ add_hook("open", "ep26_quests_bardie9", scene="bedroom_bardie", label="evening_time_temp") # Наказание Бетти
+    $ add_hook("open", "ep26_quests_bardie9", scene="bedroom_bardie", label="evening_time_temp", priority = 200) # Наказание Бетти
     $ remove_objective("call_betty")
     call refresh_scene_fade() from _call_refresh_scene_fade_155
     return

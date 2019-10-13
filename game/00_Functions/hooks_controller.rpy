@@ -156,6 +156,75 @@ init python:
 
         return flag1
 
+
+    def check_hook(*args, **kwargs):
+        if kwargs.has_key("scene"):
+            if kwargs["scene"] == "all":
+                rooms_list = list(scenes_data["hooks"].keys())
+            else:
+                rooms_list = [kwargs["scene"]]
+            del kwargs["scene"]
+        else:
+            if len(args) > 0:
+                rooms_list = [api_scene_name]
+            else:
+                rooms_list = list(scenes_data["hooks"].keys())
+        if kwargs.has_key("recursive") == True and kwargs["recursive"] == True:
+            rooms_list = get_rooms_recursive(rooms_list[0])
+        kwargs.pop("recursive", None)
+
+        if len(args) == 2: #obj_name, hook_label
+            obj_name = args[0]
+            hook_label = args[1]
+        if len(args) == 1: #hook_label
+            obj_name = False
+            hook_label = args[0]
+        if len(args) == 0: #() проверка текущего хука, либо проверка хука по фильтру
+            if len(kwargs) > 0: #проверка всех хуков на сцене по фильтру
+                flag1 = False
+                filter_arr = {}
+                for var1, value1 in kwargs.items():
+                    filter_arr[var1] = value1
+
+                for room_name in rooms_list:
+                    if scenes_data["hooks"].has_key(room_name) == True:
+                        for obj_name1 in scenes_data["hooks"][room_name]:
+                            flag2 = False
+                            hooks_list = scenes_data["hooks"][room_name][obj_name1]
+
+                            for idx in reversed(range(len(hooks_list))):
+                                if check_filter(filter_arr, hooks_list[idx]) == True:
+                                    flag1 = True
+                                    return True
+
+            else:
+                if scenes_data["hooks"].has_key(last_hook_scene) and scenes_data["hooks"][last_hook_scene].has_key(last_hook_obj_name) == True:
+                    hooks_list = scenes_data["hooks"][last_hook_scene][last_hook_obj_name]
+                    idx = find_hook_by_label(hooks_list, last_hook_label)
+                    if idx != -1:
+                        flag1 = True
+                        return True
+                    return False
+        else:
+            flag1 = False
+            for room_name in rooms_list:
+                if obj_name == False:
+                    for obj_name1 in scenes_data["hooks"][room_name]:
+                        hooks_list = scenes_data["hooks"][room_name][obj_name1]
+                        idx = find_hook_by_label(hooks_list, hook_label)
+                        if idx != -1:
+                            flag1 = True
+                            return True
+                else:
+                    if scenes_data["hooks"][room_name].has_key(obj_name) == True:
+                        hooks_list = scenes_data["hooks"][room_name][obj_name]
+                        idx = find_hook_by_label(hooks_list, hook_label)
+                        if idx != -1:
+                            flag1 = True
+                            return True
+
+        return flag1
+
     def replace_hook(*args, **kwargs):
         if kwargs.has_key("scene"):
             if kwargs["scene"] == "all":
