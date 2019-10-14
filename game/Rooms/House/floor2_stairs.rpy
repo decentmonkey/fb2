@@ -1,3 +1,5 @@
+default floor2StairsBettySuffix = 1
+
 label floor2_stairs:
     $ print "enter_floor2_stairs"
     $ miniMapData = []
@@ -22,6 +24,10 @@ label floor2_stairs_init:
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
+
+label floor2_stairs_init2:
+    $ add_object_to_scene("Betty", {"type" : 2, "base" : "Floor2_Stairs_Betty[floor2StairsBettySuffix]", "click" : "floor2_stairs_environment", "actions" : "l", "zorder":10}, scene="floor2_stairs")
+    return
 
 label floor2_stairs_teleport:
     if obj_name == "Teleport_Floor2":

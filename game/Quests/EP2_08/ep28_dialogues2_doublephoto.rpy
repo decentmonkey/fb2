@@ -192,7 +192,10 @@ label dialogue_doublephoto_1:
     music Groove2_85
     img 15136
     with diss
+#    if ep28_monica_eric_meeting_completed == False:
     bardie "Ах да... Вы же еще не знакомы... Я скоро приглашу его в гости."
+#    else:
+#        bardie "Ах да... Ты еще с ним не знакома... В отличие от гувернантки."
     img 15119
     with diss
     mt "Он совсем обнаглел! Ненавижу эту малявку!"

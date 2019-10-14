@@ -63,6 +63,9 @@ define betty = Character(_("Бетти Робертс"), who_color=c_pink) #Bett
 define betty_t = Character(_("Бетти Робертс"), who_color=c_pink, what_color=c_blue, what_italic=True) #Betty Roberts
 define bardie = Character(_("Барди"), who_color=c_blue) #Bardie
 define bardie_t = Character(_("Барди"), who_color=c_blue, what_color=c_blue, what_italic=True) #Bardie
+define eric = Character(_("Эрик"), who_color=c_green) #Eric
+define eric_t = Character(_("Эрик"), who_color=c_green, what_color=c_blue, what_italic=True) #Eric
+
 define gas_boyfriend = Character(_("Бойфренд"), who_color=c_blue) #бойфренд девушки с заправки
 define hotel_staff = Character(_("Сотрудник Отеля"), who_color=c_blue) #сотрудник отеля
 define philip = Character(_("Филипп"), who_color=c_blue) #Philip

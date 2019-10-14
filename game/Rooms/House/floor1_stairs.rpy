@@ -1,4 +1,5 @@
 default floor1_stairs_Teleport_Basement_Pool_offset = False
+default floor1StairsBettySuffix = 1
 
 label floor1_stairs:
     $ print "enter_floor1_stairs"
@@ -29,6 +30,9 @@ label floor1_stairs_init:
     $ add_object_to_scene("Teleport_Floor2_Stairs", {"type":3, "text" : _("ЛЕСТНИЦА ВВЕРХ"), "rarrow" : "arrow_up_2", "base":"Floor1_Stairs_StairsUp", "click" : "floor1_stairs_teleport", "xpos" : 857, "ypos" : 250, "zorder":9, "teleport":True}, {"floor1_stairs_Teleport_Basement_Pool_offset":{"v":True, "xpos" : 857, "ypos" : 240}})
     return
 
+label floor1_stairs_init2:
+    $ add_object_to_scene("Betty", {"type" : 2, "base" : "Floor1_Stairs_Betty[floor1StairsBettySuffix]", "click" : "floor1_stairs_environment", "actions" : "l", "zorder":10}, scene="floor1_stairs")
+    return
 #    $ add_object_to_scene("Mirrors", {"type":2, "base":"Floor2_Mirrors", "click" : "floor2_environment", "actions" : "l", "zorder" : 0})
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

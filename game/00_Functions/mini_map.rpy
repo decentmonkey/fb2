@@ -11,6 +11,8 @@ default miniMapOpenButtonImg2 = "Open_Button_Map2"
 
 default miniMapHousePreset = "default"
 
+default minimapBettyFloor2Enabled = False
+
 label miniMapOpen:
     hide screen hud_minimap
     sound metal_slide
@@ -42,6 +44,8 @@ label miniMapHouseGenerate:
         if owner == "Betty":
             $ miniMapData.append({"name":"Street_Yard", "caption":_("Street Yard"), "img":"Street_Yard_Map", "teleport_scene":"house_out_others", "teleport_type":"function"})
             $ miniMapData.append({"name":"Floor1", "caption":_("Down Floor"), "img":"Floor1_Map", "teleport_scene":"floor1", "teleport_type":"scene"})
+            if minimapBettyFloor2Enabled == True:
+                $ miniMapData.append({"name":"Floor2", "caption":_("Up Floor"), "img":"Floor2_Map", "teleport_scene":"floor2", "teleport_type":"scene"})
     if miniMapHousePreset == "laundry":
         if owner == "Monica":
             $ miniMapData.append({"name":"Bedroom", "caption":_("Bedroom"), "img":"Bedroom_Map", "teleport_scene":"bedroom2", "teleport_type":"scene"})
@@ -56,6 +60,8 @@ label miniMapHouseGenerate:
         if owner == "Betty":
             $ miniMapData.append({"name":"Street_Yard", "caption":_("Street Yard"), "img":"Street_Yard_Map", "teleport_scene":"house_out_others", "teleport_type":"function"})
             $ miniMapData.append({"name":"Floor1", "caption":_("Down Floor"), "img":"Floor1_Map", "teleport_scene":"floor1", "teleport_type":"scene"})
+            if minimapBettyFloor2Enabled == True:
+                $ miniMapData.append({"name":"Floor2", "caption":_("Up Floor"), "img":"Floor2_Map", "teleport_scene":"floor2", "teleport_type":"scene"})
     return
 
 label miniMapHostelGenerate:

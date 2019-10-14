@@ -1,5 +1,8 @@
 default bettyCollegeDay1JobFinished = False
 default bettyCollegeDay = 0
+default bettyCollegeTeacherRefused = False
+default bettyCollegeTeacherStage = 0
+default bettyCollegeMonicaLesbieInited = False
 
 label ep28_betty_college_init:
     call dialogue_betty_college_0_1()
@@ -79,6 +82,8 @@ label ep28_betty_college2_teacher_day1: # Сцена учителя с Бетт�
     if _return == True:
         $ bettyCollegeDay1JobFinished = True
         $ add_hook("enter_scene", "dialogue_betty_college_1_1_3", scene="street_college", owner="Betty", once=True)
+    else:
+        $ bettyCollegeTeacherRefused = True
 
     $ remove_hook(label="betty_college_day1")
 
@@ -195,9 +200,14 @@ label ep28_betty_college2_teacher_day2b: # Разговор с Барди пос
     $ hudDaySkipToEveningEnabled = True
     call change_scene("basement_bedroom2", "Fade_long", False)
     call change_owner("Monica")
-    $ add_hook("change_time_day", "ep28_betty_college2_teacher_day3", scene="global", label="betty_college_day3")
+    $ add_hook("change_time_day", "ep28_betty_college2_teacher_day3a", scene="global", label="betty_college_day3")
+
     return
 
+label ep28_betty_college2_teacher_day3a:
+    $ remove_hook()
+    $ add_hook("change_time_day", "ep28_betty_college2_teacher_day3", scene="global", label="betty_college_day3")
+    return
 label ep28_betty_college2_teacher_day3: # Инициализация дня 3
     if week_day == 7:
         return
@@ -259,7 +269,6 @@ label ep28_betty_college2_teacher_day3b: # Разговор с Барди ден
     img black_screen
     with diss
     pause 2.0
-    call dialogue_betty_college_6()
 
 #    music stop
 #    img black_screen
@@ -268,8 +277,24 @@ label ep28_betty_college2_teacher_day3b: # Разговор с Барди ден
 #    call dialogue_doublephoto_1()
 
     $ remove_hook(label="betty_college_day3")
+    call ep28_betty_house_init_ext1() # Инициализируем доп. локации в доме
+    $ set_active("Betty", True, scene="House", recursive=True)
+    $ add_hook("Teleport_BedroomBardie", "ep28_betty_college2_teacher_day3c", scene="floor2", label=["betty_college_day3"], owner="Betty")
     $ move_object("Bardie", "empty")
+    $ add_objective("go_to_bardie", _("Идти к Барди в комнату"), c_orange, 45)
+    $ minimapBettyFloor2Enabled = True
+    call refresh_scene_fade()
+    return
+
+label ep28_betty_college2_teacher_day3c:
+#    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Floor2_Stairs_Betty[floor2StairsBettySuffix]", "click" : "floor2_stairs_environment", "actions" : "l", "zorder":10, "tint": monica_tint})
+    $ remove_objective("go_to_bardie")
     $ move_object("Betty", "bedroom1")
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    call dialogue_betty_college_6()
     music stop
     img black_screen
     with diss
@@ -280,6 +305,8 @@ label ep28_betty_college2_teacher_day3b: # Разговор с Барди ден
     call change_scene("basement_bedroom2", "Fade_long", False)
     call change_owner("Monica")
     call change_scene("basement_bedroom2", "Fade_long", False)
+
+    $ bettyCollegeTeacherStage = 1
     call ep28_betty_college_double_photo_init()
     return False
 
@@ -309,12 +336,23 @@ label ep28_betty_college_double_photo1:
     $ miniMapEnabledOnly = []
     call dialogue_doublephoto_1()
     $ move_object("Betty", "bedroom1")
-    $ add_hook("change_time_day", "ep28_monica_college_bardie_erick_quest_check", scene="global", label="ep28_monica_college_bardie_erick_quest_check")
+#    $ add_hook("change_time_day", "ep28_monica_college_bardie_erick_quest_check", scene="global", label="ep28_monica_college_bardie_erick_quest_check")
 #    $ add_hook("enter_scene", "dialogue_classmate_15a", scene="floor2", once=True)
     $ autorun_to_object("dialogue_classmate_15a", scene="floor2")
+#    if ep28_monica_bardie_eric_college_inited == False:
+#        call ep28_monica_bardie_eric_college_init()
+
+    if ep28_monica_eric_meeting_completed == False:
+        call ep28_monica_bardie_eric_meeting_init() # Инициализируем знакомство с Эриком вечером
+
     call refresh_scene_fade()
     return False
 
+label ep28_betty_college_monica_lesbie_init: # Инициализация сцены Бетти и Моники
+    if bettyCollegeMonicaLesbieInited == True:
+        return
 
+    $ bettyCollegeMonicaLesbieInited = True
+    return
 
 #

@@ -43,9 +43,39 @@ label ep28_betty_init:
     call change_scene("street_house_main_yard")
     return
 
+label ep28_betty_house_init_ext1:
+    $ floor2StairsBettySuffix = 1
+    call floor2_stairs_init2() # Добавляем Бетти
+    $ floor1StairsBettySuffix = 1
+    call floor1_stairs_init2() # Добавляем Бетти
+    $ add_hook("Betty", "dialogue_betty_college_1_1i", scene="floor1_stairs", label=["betty_college1", "betty_college1_ext"], owner="Betty")
+    $ add_hook("Betty", "dialogue_betty_college_1_1i", scene="floor2_stairs", label=["betty_college1", "betty_college1_ext"], owner="Betty")
+    $ add_hook("Betty", "dialogue_betty_college_1_1j", scene="floor2", label=["betty_college1", "betty_college1_ext"], owner="Betty")
+    $ add_hook("Teleport_Floor1_Stairs", "ep28_betty_teleport_floor1_stairs", scene="floor1", label=["betty_college1", "betty_college1_ext"], owner="Betty")
+    $ add_hook("Teleport_Floor1", "ep28_betty_teleport_floor1", scene="floor1_stairs", label=["betty_college1", "betty_college1_ext"], owner="Betty")
+    $ add_hook("Teleport_Floor2_Stairs", "ep28_betty_teleport_floor2_stairs", scene="floor1_stairs", label=["betty_college1", "betty_college1_ext"], owner="Betty")
+    $ add_hook("Teleport_Floor1_Stairs", "ep28_betty_teleport_floor1_stairs", scene="floor2_stairs", label=["betty_college1", "betty_college1_ext"], owner="Betty")
+    $ add_hook("Teleport_Floor2", "ep28_betty_teleport_floor2", scene="floor2_stairs", label=["betty_college1", "betty_college1_ext"], owner="Betty")
+    $ add_hook("Teleport_Floor2_Stairs", "ep28_betty_teleport_floor2_stairs", scene="floor2", label=["betty_college1", "betty_college1_ext"], owner="Betty")
+
+    return
+
 label ep28_betty_teleport_floor1:
     call change_scene("floor1")
     return
+
+label ep28_betty_teleport_floor1_stairs:
+    call change_scene("floor1_stairs")
+    return
+
+label ep28_betty_teleport_floor2_stairs:
+    call change_scene("floor2_stairs")
+    return
+
+label ep28_betty_teleport_floor2:
+    call change_scene("floor2")
+    return
+
 
 label ep28_betty_teleport_living_room:
     call change_scene("living_room")
