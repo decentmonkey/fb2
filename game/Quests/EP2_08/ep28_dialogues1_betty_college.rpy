@@ -751,6 +751,7 @@ label dialogue_betty_college_1_1_3:
 
 # Дом. Двор. Спустя некоторое время Бетти возвращается домой и во дворе дома сталкивается с Барди.
 label dialogue_betty_college_2:
+    sound ball4
     # Барди делает вид, что ничего не знает, спрашивает Бетти
     music Groove2_85
     img 14621
@@ -1214,6 +1215,7 @@ label dialogue_betty_college_1_1_5:
 
 # Дом. Двор. Спустя некоторое время Бетти возвращается домой и во дворе дома сталкивается с Барди.
 label dialogue_betty_college_4:
+    sound ball4
     # Барди снова делает вид, что не знает ничего
     music Sneaky_Snitch
     img 14637
@@ -1607,6 +1609,7 @@ label dialogue_betty_college_1_1_7:
 
 # Дом. Двор. Бетти возвращается домой и видит во дворе, как Барди играет с мячом.
 label dialogue_betty_college_5:
+    sound ball4
     # Барди снова делает вид, что не замечает ее. Бетти стоит, руки в боки и зовет его
     music Groove2_85
     img 14643

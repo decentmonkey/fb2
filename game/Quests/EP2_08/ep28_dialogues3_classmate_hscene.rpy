@@ -523,6 +523,7 @@ label dialogue_classmate_1a:
     w
     img 22114
     with diss
+    sound ahhh11
     mt "Странные ощущения какие-то..."
     img 22115
     with diss
@@ -542,6 +543,7 @@ label dialogue_classmate_1a:
 
     sound bulk1
     img 22117
+    sound man moan6
     show screen photoshot_screen()
     with hpunch
     pause 0.7
@@ -558,12 +560,14 @@ label dialogue_classmate_1a:
     m "Не смей!"
     sound bulk1
     img 22119 # звук кончания
+    sound man moan1
     show screen photoshot_screen()
     with hpunch
     pause 0.7
     hide screen photoshot_screen
     w
     #sound звук спермы на живот
+    sound hlup2
     img 22121 # прилетает сперма Монике на живот
     with diss
     w
