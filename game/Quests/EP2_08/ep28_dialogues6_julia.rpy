@@ -223,6 +223,7 @@ label ep28_dialogues6_julia_2:
     with diss
     w
     #sound Юлия увидела флешку на полке
+    sound vjuh3
     img 21937
     with fade
     w
@@ -928,6 +929,7 @@ label ep28_dialogues6_julia_7:
     img black_screen
     with diss
     #sound беготня, что-то падает и тд
+    sound run2
     pause 3.0 # время беготни
 
     music stop

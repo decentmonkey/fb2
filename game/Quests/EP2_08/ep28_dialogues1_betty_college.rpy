@@ -502,6 +502,7 @@ label dialogue_betty_teacher_1:
     img 14762
     with vpunch
     #sound папка падает на пол
+    sound down7
     betty "Oй!"
     img 14763
     with diss
@@ -644,6 +645,7 @@ label dialogue_betty_teacher_1:
     # Бетти медленно начинает дрочить ему
     img 14796
     with diss
+    sound drkanje5
     teacher "Да, так! У вас отлично получается, миссис Робертс! Быстрее!"
     # Бетти пристально смотрит на член и старается с удвоенной силой
     # Барди все видит и слышит. Волнение на его лице сменяется злорадной ухмылкой. Он достает свой смартфон и делает фото.
@@ -657,10 +659,12 @@ label dialogue_betty_teacher_1:
     # Бетти продолжает усердно работать рукой, не отрывая глаз от члена учителя
     img 14798
     with diss
+    sound drkanje5
     w
     music Loved_Up2
     img 14799
     with fade
+    sound drkanje5
     #видео teacher_betty_handjob
     teacher "Ооо, миссис Робертс... Да, так! Еще..."
     teacher "Ммм... Еще быстрее!"
@@ -672,6 +676,7 @@ label dialogue_betty_teacher_1:
     pause 0.7
     hide screen photoshot_screen
     teacher "ООООООООО!!!"
+    sound man moan18
     sound bulk1
     show screen photoshot_screen()
     with hpunch
@@ -688,6 +693,7 @@ label dialogue_betty_teacher_1:
     # препод крайне доволен, надевает обратно брюки и садится за стол, а Бетти, изображая из себя оскорбленную невинность, вытирает руку
 
     # sound звук падающей спермы на папку (вввиухх...)
+    sound hlup2
     music Groove2_85
     img 14801
     betty "Вы испачкали документы Барди, мистер Эдвардс."
@@ -994,6 +1000,7 @@ label dialogue_betty_teacher_2:
     with fade
     betty "Ох! Ооо!"
     #sound поцелуй груди
+    sound kiss1
     img 14839
     with diss
     w
@@ -1001,6 +1008,7 @@ label dialogue_betty_teacher_2:
     with diss
     w
     #sound поцелуй груди
+    sound kiss1
     img 14838
     with diss
     betty_t "Мне нужно остановить это немедленно. Ммм... Иначе одной рукой я не обойдусь сегодня."
@@ -1145,6 +1153,7 @@ label dialogue_betty_teacher_2:
     pause 0.7
     hide screen photoshot_screen
     teacher "Ооо, дааааааа!"
+    sound man moan18
     # Бетти делает еще несколько движений своей рукой у себя в трусиках и кончает следом за ним
     img 14875
     with diss
@@ -1154,6 +1163,7 @@ label dialogue_betty_teacher_2:
     with hpunch
     pause 0.7
     hide screen photoshot_screen
+    sound woman_moan14
     betty "ООООООООО!!!"
     # препод крайне доволен (уже одет)
     music stop
@@ -1300,8 +1310,10 @@ label dialogue_betty_teacher_3:
     with diss
     w
     #sound целует грудь Бетти
+    sound kiss1
     img 14891
     with diss
+    sound ahhh1
     betty_t "Ммм, как же хорошо..."
     img 14892
     with diss
@@ -1361,8 +1373,10 @@ label dialogue_betty_teacher_3:
     w
     img 14904
     with diss
+    sound chpok3
     w
     #sound ах
+    sound ahhh12
     img 14905
     with diss
     betty "Ах!"
@@ -1372,6 +1386,7 @@ label dialogue_betty_teacher_3:
     w
     img 14907
     with diss
+    sound chpok3
     w
     # учитель подводит ее к столу, нагибает над ним и снимает с нее трусики, второй рукой расстегивает свою ширинку
     music stop
@@ -1388,6 +1403,7 @@ label dialogue_betty_teacher_3:
     betty "Ммм..."
     # продолжает рукой ласкать ее киску, а потом входит в нее пальцами
     #sound чавк
+    sound chmok2
     img 14919
     with diss
     w
@@ -1431,6 +1447,7 @@ label dialogue_betty_teacher_3:
     w
     img 14924
     with diss
+    sound ahhh12
     betty "Ооо... М-мистер Эд-двардс... Ммм..."
     img 14922
     with diss
@@ -1451,6 +1468,7 @@ label dialogue_betty_teacher_3:
     music Loved_Up2
     img 14910
     with fadelong
+    sound chmok2
     w
     #видео teacher betty sex 1
     img 14911
@@ -1513,6 +1531,7 @@ label dialogue_betty_teacher_3:
     w
     img 14932
     #sound бетти кончает
+    sound woman_moan14
     show screen photoshot_screen()
     with hpunch
     pause 0.7
@@ -1532,6 +1551,7 @@ label dialogue_betty_teacher_3:
     with hpunch
     pause 0.7
     hide screen photoshot_screen
+    sound man moan18
     w
     teacher "Ооо, дааааааа!"
     img 14938
@@ -1671,22 +1691,27 @@ label dialogue_betty_college_6:
     bardie "Я уверен, что тебе понравится... Посмотри."
     # Бетти подходит к его столу и заглядывает в ноут, видит на фото себя с учителем и офигевает
     #sound звук клавиши
+    sound keyboard
     img 15076
     with diss
     w
     #sound звук клавиши
+    sound keyboard
     img 15077
     with diss
     w
     #sound звук клавиши
+    sound keyboard
     img 15078
     with diss
     betty "!!!"
     #sound звук клавиши
+    sound keyboard
     img 15079
     with diss
     w
     #sound звук клавиши
+    sound keyboard
     img 15114
     with diss
     betty "ЧТО! ЭТО! ТАКОЕ?!"
