@@ -618,7 +618,7 @@ label ep28_dialogues_jail2_marcus1:
     music Master_Disorder
     # Маркус запускает Монике в попу палец.
     #sound Маркус елозит пальцем
-    sound drkanje5
+    music2 drkanje5
     img 21742
     with fadelong
     marcus "Хм... Миссис Бакфетт... Как интересно..."
@@ -638,6 +638,7 @@ label ep28_dialogues_jail2_marcus1:
     m "!!!"
     # Моника пытается сжать
     #sound Моника пытается сжать палец ))))
+    music2 stop
     sound chpok9
     img 21746
     show screen photoshot_screen()
@@ -843,7 +844,7 @@ label ep28_dialogues_jail2_marcus1:
             pass
     # Моника тужится и садится на пробку
 #    sound anger2
-    sound snd_woman_scream1a
+#    sound snd_woman_scream1a
     img 21779
     with hpunch
     m "ААааааааргхххх..."
@@ -1131,6 +1132,8 @@ label ep28_dialogues_jail2_marcus2:
     img 21829
     with diss
     w
+    music stop
+    w
     # Маркус держит пробку.
 
     # Маркус нюхает пробку
@@ -1138,6 +1141,7 @@ label ep28_dialogues_jail2_marcus2:
     img 21830
     with fade
     marcus "Ммммм... Превосходно!"
+    music Master_Disorder
     img 21831
     with diss
     marcus "Не хотите попробовать?"
@@ -1146,6 +1150,7 @@ label ep28_dialogues_jail2_marcus2:
     with fade
     marcus "Попробуйте это, Миссис Бакфетт."
     marcus "Мне это нравится, а Вам?"
+    music stop
     m "???"
     sound snd_sniff1
     img 21833 # Моника нюхает
@@ -1302,6 +1307,11 @@ label ep28_dialogues_jail2_marcus2:
     marcus "Вы ведь меня понимаете, Миссис Бакфетт, правда?"
     img 21865
     m "!!!"
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Master_Disorder
     img 21866
     with fade
     marcus "Вы можете идти, на этот раз..."
@@ -1368,6 +1378,7 @@ label ep28_dialogues_jail2_marcus3:
     mt "И у меня болит попа..."
     mt "Но я счастлива, что я снова на свободе!"
 
+    help "Продолжение истории с Маркусом в следующих обновлениях игры!"
 #    $ log1 = _("Анальная пробка")
     return
 

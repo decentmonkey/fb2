@@ -1122,9 +1122,9 @@ label ep28_dialogues_jail4:
     music2 stop
     img black_screen
     with diss
-    pause 2.0
     #sound заключенные убегают
     sound running
+    pause 2.0
     music I_Feel_You
     img 21404
     with fadelong
@@ -2492,8 +2492,8 @@ label ep28_dialogues_jail14:
     w
     img 21552
     with diss
-    mt "!!!"
     prisoner4 "Эй, посторонись, дай мне тоже вставить член ей в ротик."
+    mt "!!!"
     music2 stop
     #sound входит blowjob
     sound chavc26
