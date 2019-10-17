@@ -2880,6 +2880,7 @@ label ep28_dialogues_jail14:
 # Как такое могло случиться?
 # Мне лучше об этом забыть...
 # Я сплю...
+label ep28_dialogues_jail15:
     img 21614
     mt "И... Как я выдержала это..."
     mt "Мне надо лечь спать..."
@@ -2893,6 +2894,7 @@ label ep28_dialogues_jail14:
 
 # Утро
 # Мне надо позвать Боба. Мистер Маркус должен встретиться со мной!
+label ep28_dialogues_jail16:
     img 21616
     mt "Мне надо позвать Боба. Мистер Маркус должен встретиться со мной, наконец!"
     mt "Я не буду оставаться здесь более ни на один день, ни на один час!"
@@ -2902,6 +2904,7 @@ label ep28_dialogues_jail14:
 # Ура! Наконец-то!
 # Наконец-то я покину это жуткое место!
 # Наконец-то!
+label ep28_dialogues_jail17:
     img 21617
     overseer "Мистер Маркус ждет тебя!"
     overseer "Иди за мной!"
@@ -2912,20 +2915,30 @@ label ep28_dialogues_jail14:
 
 # Моника идет вдоль заключенных. Они кричат хорошая шлюха (или молчат)
     # идет если поставила заключенных на место
+label ep28_dialogues_jail18:
+    music Pyro_Flow
     img 21620
+    with fadelong
     mt "Грязные похотливые животные! Фи!"
     img 21621
+    with diss
+    w
+    return
 
+label ep28_dialogues_jail19:
     # идет если поддалась
+    music Malicious
+    music2 prison_yell_music
     img 21622
+    with fadelong
     mt "Боже! Нет! Только не прикасайтесь ко мне!!!"
     prisoners "Хорошая шлюха!"
     prisoners "Да! Хорошая шлюха!"
     img 21623
+    with diss
     prisoners "Мы ждем нашу шлюху!"
     prisoners "Хорошая шлюха!"
-
-
+    music2 stop
     return
 
 

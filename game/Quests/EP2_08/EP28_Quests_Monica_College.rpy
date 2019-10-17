@@ -10,10 +10,14 @@ default monicaBettyLesbian = False # у Моники и Бетти было ле
 
 label ep28_monica_bardie_init:
     $ add_hook("Teleport_BedroomBardie", "ep28_monica_college_check_bardie_bedroom_clothes", scene="floor2", priority = 300, label="bedroom_bardie_check_cloth")
-    $ add_hook("basement_monica_after_nap", "ep28_monica_bardie_init2", scene="global", once=True)
+#    $ add_hook("basement_monica_after_nap", "ep28_monica_bardie_init2", scene="global", once=True)
+    $ add_hook("enter_scene", "ep28_monica_bardie_init2", scene="basement_bedroom2", label="ep28_monica_bardie_init")
     return
 
 label ep28_monica_bardie_init2: #next day
+    if day_time != "evening":
+        return
+    $ remove_hook()
     call ep28_betty_college_init() # инициализируем линию Бетти по колледжу
 #    $ add_hook("Teleport_BedroomBardie", "ep28_monica_bardie_eric_meeting", scene="floor2", label="bardie_eric_meeting")
     return
