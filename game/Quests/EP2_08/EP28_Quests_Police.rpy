@@ -2,6 +2,7 @@ default ep28_quests_police_day1_cage1_flag = False
 default ep28_quests_police_day1_bed1_flag = False
 default ep28_quests_monica_offended_day1 = False # Монику использовали заключенные день1
 default ep28_quests_monica_offended_day2 = False # Монику использовали заключенные день2
+default ep28_quests_monica_offended_day3 = False # Монику использовали заключенные день3
 default ep28_quests_monica_offended_prisoners = False # Моника сама наехала на заключенных
 default ep28_quests_monica_kicked_prisoners = False # Моника ударила и укусила заключенных
 default ep28_quests_monica_called_monicapubname = False
@@ -111,12 +112,55 @@ label ep28_quests_police_day2_bed1: # Кровать день2, приходят
     else:
         $ ep28_quests_monica_offended_day2 = True
         $ add_corruption(monicaJailDay2AddCorruption, "monicaJailDay2AddCorruption")
+
+    $ remove_hook(label="cage_day2")
+    $ add_hook("Bed", "ep28_quests_police_day2_bed2", scene="police_cell1", label="cage_day2") # кровать
+    $ add_hook("Bed", "ep28_quests_police_day2_bed2", scene="police_cell2", label="cage_day2") # кровать
+
+
+    call refresh_scene_fade_long()
     return False
 
+label ep28_quests_police_day2_bed2: # Кровать день2, после заключенных (сон)
+    if act=="l":
+        return
+    call ep27_dialogues_marcus1_10()
+    if _return == False:
+        call refresh_scene_fade_long()
+        return False
 
+    call ep28_dialogues_jail10()
+    $ day = day + 1
+    call ep28_dialogues_jail11()
+    $ remove_hook(label="cage_day2")
+    $ add_hook("cage_interact", "ep28_quests_police_day3_cage1", scene="police", label="cage_day3")
+    call change_scene("police_cell1", "Fade_long", False)
+    return False
 
+label ep28_quests_police_day3_cage1: # День3, решетка
+    $ remove_hook()
+    call ep28_dialogues_jail12()
+    $ add_hook("Bed", "ep28_quests_police_day3_bed1", scene="police_cell1", label="cage_day2") # кровать
+    $ add_hook("Bed", "ep28_quests_police_day3_bed1", scene="police_cell2", label="cage_day2") # кровать
+    call change_scene("police_cell2", "Fade_long", False)
+    return False
 
+label ep28_quests_police_day3_bed1: # Ден3, кровать, приход заключенных
+    if act=="l":
+        return
+    call ep27_dialogues_marcus1_10()
+    if _return == False:
+        call refresh_scene_fade_long()
+        return False
+    call ep28_dialogues_jail13()
+    call ep28_dialogues_jail14()
+    if _return == False:
+        $ ep28_quests_monica_offended_prisoners = True
+    else:
+        $ ep28_quests_monica_offended_day3 = True
+        $ add_corruption(monicaJailDay3AddCorruption, "monicaJailDay3AddCorruption")
 
+    return False
 
 
 

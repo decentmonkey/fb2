@@ -1869,6 +1869,7 @@ label ep28_dialogues_jail12:
 # ПОЖАЛУЙСТА!!!
 # МИСТЕР БОБ!!!
     music stop
+    music2 stop
     img black_screen
     with diss
     sound man_steps
@@ -1881,7 +1882,7 @@ label ep28_dialogues_jail12:
     overseer "Мистер Маркус сегодня занят."
     music Power_Bots_Loop
     img 21482
-    with diss
+    with hpunch
     m "КАК?! НЕТ!!!"
     m "МИСТЕР МАРКУС ДОЛЖЕН МЕНЯ СЕГОДНЯ ПРИНЯТЬ!"
     m "ПОЖАЛУЙСТА!!!"
@@ -1891,10 +1892,14 @@ label ep28_dialogues_jail12:
 # НЕТ! МИСТЕР БОБ!
 # ВЫ НЕ ПОНИМАЕТЕ! МНЕ НУЖНО ВСТРЕТИТЬСЯ С НИМ СЕГОДНЯ!
 # МНЕ НЕЛЬЗЯ ЖДАТЬ ЕЩЕ ОДИН ДЕНЬ!
+    music Groove2_85
     img 21483
+    with fade
     overseer "Мистер Маркус сказал, что примет тебя завтра!"
     overseer "Подожди еще один день."
+    music Power_Bots_Loop
     img 21484
+    with diss
     m "НЕТ! МИСТЕР БОБ!"
     m "ВЫ НЕ ПОНИМАЕТЕ! МНЕ НУЖНО ВСТРЕТИТЬСЯ С НИМ СЕГОДНЯ!"
     m "МНЕ НЕЛЬЗЯ ЖДАТЬ ЕЩЕ ОДИН ДЕНЬ!"
@@ -1903,36 +1908,65 @@ label ep28_dialogues_jail12:
 # Я... Я... Что?
 # Я спрашиваю ты будешь жрать?! Или мне уйти?!
 # Да, мистер Боб... Спасибо...
+    music Groove2_85
     img 21485
+    with fade
     overseer "Это меня не касается!"
     overseer "Ты будешь жрать или нет?!"
     img 21486
+    with diss
     m "Я... Я... Что?"
     img 21487
+    with fade
     overseer "Я спрашиваю ты будешь жрать?! Или мне уйти?"
     m "Да, Мистер Боб... Спасибо..."
-
+    music stop
+    img black_screen
+    with diss
+    sound snd_eating
+    pause 2.0
 # О БОЖЕ!
 # Еще один день!
 # Мне надо пораньше лечь спать. Этот день быстро пролетит.
 # Еще одна ночь и я встречусь с Мистером Маркусом.
 # И все это закончится!
+    music Malicious
     img 21488
+    with fadelong
     mt "О БОЖЕ!"
     mt "Еще один день!"
     img 21489
+    with diss
     mt "Мне надо пораньше лечь спать."
     mt "Этот день быстро пролетит."
+    return
 
+label ep28_dialogues_jail13:
 # Я лягу спать пораньше...
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+    music I_Feel_You
     img 21490
+    with fadelong
     mt "Я лягу спать пораньше..."
-
+    return
 # Моника ложится спать. Просыпается от шума заключенных.
 
+label ep28_dialogues_jail14:
 # Шлюха! Шлюха! Мы пришли к тебе!
 # Шлюха!
+    music stop
+    music2 stop
+    sound man_steps
+    call textonblack(_("Спустя некоторое время..."))
+    img black_screen
+    with Dissolve(1)
+    music2 prison_yell_music
     img 21491
+    with fadelong
     prisoners "Шлюха! Шлюха! Мы пришли к тебе!"
     prisoners "Шлюха!"
 
@@ -1940,7 +1974,9 @@ label ep28_dialogues_jail12:
 # Они снова пришли!
 # Я... О БОЖЕ!!! Что я пообещала им вчера?!
 # Что же мне делать?!
+    music Power_Bots_Loop
     img 21492
+    with hpunch
     mt "О БОЖЕ!!! Я совсем забыла!"
     mt "Они снова пришли!"
     mt "Я... О БОЖЕ!!! Что я пообещала им вчера?!"
@@ -1948,7 +1984,9 @@ label ep28_dialogues_jail12:
 
 # Что Вам снова надо?! Зачем Вы снова пришли сюда!
 # Уходите!
+    music2 stop
     img 21493
+    with fade
     m "Что Вам снова надо?! Зачем Вы снова пришли сюда?!"
     m "Уходите!"
 
@@ -1956,27 +1994,42 @@ label ep28_dialogues_jail12:
 # К хорошей шлюхе! Которая будет сосать наши члены сегодня!
 # Достают члены
 # Да! Да! Сосать!
+    music Villainous_Treachery
+    music2 prison_yell_music
     img 21494
+    with diss
     prisoner1 "Мы пришли к нашей шлюхе! Да!"
     prisoner1 "К хорошей шлюхе! Которая будет сосать наши члены сегодня!"
     # Достают члены
+    sound Jump1
     img 21495
+    with diss
     prisoners "Да! Да! Сосать!"
 
 # Я не буду делать этого! Никогда, Вы слышите?!
 # Ты будешь сосать! Будешь! Иначе ты плохая шлюха!
 # Да!
 # Ты надоела нам! Если ты будешь плохой шлюхой, мы все расскажем детективу про тебя!
+    music2 stop
+    music Power_Bots_Loop
     img 21496
+    with fade
     m "Я не буду делать этого! Никогда, Вы слышите?!"
+    music Villainous_Treachery
+    music2 prison_yell_music
     img 21497
+    with diss
     prisoner1 "Ты будешь сосать! Будешь! Иначе ты плохая шлюха!"
     prisoners "Да! Будет плохой шлюхой!"
     img 21498
+    with diss
     prisoner1 "Ты надоела нам! Если ты будешь плохой шлюхой, мы все расскажем детективу про тебя!"
 
 # НЕТ! Вы не сделаете этого!
+    music Malicious
+    music2 stop
     img 21499
+    with fade
     mt "Тянуть время..."
     mt "Мне просто нужно тянуть время..."
     m "НЕТ! Вы не сделаете этого!"
@@ -1984,14 +2037,21 @@ label ep28_dialogues_jail12:
 # Если шлюха будет хорошей, мы не будем этого делать!
 # Садись на колени и соси наши члены!
 # Будь хорошей шлюхой, jail_name
+    music2 prison_yell_music
+    music Villainous_Treachery
     img 21498
+    with diss
     prisoner1 "Если шлюха будет хорошей, мы не будем этого делать!"
     img 21500
+    with diss
     prisoner1 "Садись на колени и соси наши члены!"
     prisoner1 "Будь хорошей шлюхой, [monica_jail_name]."
 
 # НЕТ! Я не буду! Ни за что!!!
+    music Power_Bots_Loop
+    music2 stop
     img 21501
+    with hpunch
     m "НЕТ! Я не буду! Ни за что!!!"
     mt "Боже! Как это мерзко!!!"
     mt "!!!"
@@ -1999,7 +2059,14 @@ label ep28_dialogues_jail12:
 # Тогда мы уходим! Позовите детектива, ребята!
 # Да, мы пошли звать детектива.
 # Плохая шлюха!
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music2 prison_yell_music
+    music Power_Bots_Loop
     img 21502
+    with fadelong
     prisoner1 "Тогда мы уходим! Позовите детектива, ребята!"
     prisoners "Да, мы пошли звать детектива."
     prisoners "Плохая шлюха!"
@@ -2008,7 +2075,9 @@ label ep28_dialogues_jail12:
 
 # Нет! Стойте!
 # Не делайте этого!
+    music2 stop
     img 21503
+    with diss
     mt "Что?!"
     mt "!!!"
     mt "Нет-нет! Мне нельзя этого допустить!"
@@ -2018,14 +2087,18 @@ label ep28_dialogues_jail12:
 # Мы сделаем это! Ты плохая шлюха!
 # Да! Да!
 # Мы сделаем это!
+    music2 prison_yell_music
     img 21504
+    with fade
     prisoner1 "Мы сделаем это! Ты плохая шлюха!"
     prisoners "Да! Да!"
     prisoners "Мы сделаем это!"
 
 # Не делайте!
 # Я... Я...
+    music2 stop
     img 21505
+    with diss
     m "Не делайте!"
     m "Я... Я..."
     mt "!!!"
@@ -2038,7 +2111,16 @@ label ep28_dialogues_jail12:
 # Мы знаем что ты шлюха!
 # Но ты хорошая шлюха или плохая?!
 # Отвечай!
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+    sound Jump1
+    music2 prison_yell_music
+    music Villainous_Treachery
     img 21506
+    with diss
     prisoner1 "Ты? Что ты?!"
     prisoner1 "Мы знаем что ты шлюха!"
     prisoner1 "Но ты хорошая шлюха или плохая?!"
@@ -2050,43 +2132,84 @@ label ep28_dialogues_jail12:
         "Сделать, что они хотят.":
             pass
         "Поставить их на место!":
+            call ep28_dialogues_monica_offending_prisoners()
             return False
 
 # Я... Я...
 # Ну же!
 # Я... Я хорошая шлюха...
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Hidden_Agenda
     img 21507
+    with fadelong
     m "Я... Я..."
+    music Villainous_Treachery
+    music2 prison_yell_music
     img 21508
+    with diss
     prisoner1 "Ну же!"
+    music2 stop
+    music Hidden_Agenda
     img 21509
+    with fade
     m "Я... Я хорошая шлюха..."
 
 # Вставай на колени и соси наши члены!
 # Хорошая шлюха обещала сосать их сегодня!
+    music Villainous_Treachery
+    music2 prison_yell_music
     img 21508
+    with diss
     prisoner1 "Снимай свою одежду!"
     img 21510
+    with diss
     m "..."
     img 21511
+    with fade
     prisoner1 "Давай!"
 
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 2.0
+    music2 prison_yell_music
     img 21512 # вид одежды
-
+    with fadelong
+    w
+    music Villainous_Treachery
     img 21513
+    with diss
     prisoner1 "Вставай на колени и соси наши члены!"
     prisoner1 "Хорошая шлюха обещала сосать их сегодня!"
 
 # Я...
+    music Malicious
     img 21514
+    with diss
     m "Я..."
 
 # Всавай на колени!
+    music Villainous_Treachery
     img 21515
     prisoner1 "Вставай на колени!"
 
 # Моника встает на колени
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.5
+    music Malicious
+    music2 prison_yell_music
     img 21516
+    with fadelong
     m "..."
     mt "Я не смогу... Не смогу..."
     mt "От них воняет... Ужасно!"
@@ -2094,15 +2217,33 @@ label ep28_dialogues_jail12:
 
 # Принимай мой член! Давай, скорее!
 # А то я сейчас кончу тебе на лицо.
+    music Villainous_Treachery
     img 21517
+    with fade
     prisoner1 "Принимай мой член! Давай, скорее!"
     prisoner1 "А то я сейчас кончу тебе на лицо. Уже не могу терпеть!"
 
 # Что здесь за беспорядок?! Заходит Боб.
 # Боб, мы пришли к нашей шлюхе! Ты обещал, Боб!
+    music stop
+    img black_screen
+    with diss
+    sound man_steps
+    pause 1.5
+    music Groove2_85
     img 21518
+    with fadelong
     overseer "Что здесь за беспорядок?!"
+
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    #sound заключенные бегут к стене и встают руки за спину
+    pause 1.0
+    music Groove2_85
     img 21519
+    with fadelong
     prisoner1 "Боб, мы пришли к нашей шлюхе!"
     prisoner1 "Ты обещал, Боб!"
 
@@ -2111,12 +2252,15 @@ label ep28_dialogues_jail12:
 # Она сама хочет этого!
 # Сама?
     img 21520
+    with diss
     overseer "Я пущу Вас к ней после того, как она побывает у Мистера Маркуса!"
     img 21521
+    with fade
     prisoner1 "Но Боб! Мы не занимаемся с ней сексом!"
     prisoner1 "Она просто сосет наши члены. Ничего такого..."
     prisoner1 "Она сама хочет этого!"
     img 21522
+    with diss
     overseer "Сама?"
 # Да, эта шлюха сама этого хочет!
 # Да, шлюха?! Отвечай!
@@ -2124,19 +2268,27 @@ label ep28_dialogues_jail12:
 # Отвечай, шлюха! Ты знаешь что надо ответить, чтобы быть хорошей шлюхой!
 
     prisoner1 "Да, эта шлюха сама этого хочет!"
+    music Villainous_Treachery
     img 21523
+    with fade
     prisoner1 "Да, шлюха?! Отвечай!"
+    music Malicious
     img 21524
+    with diss
     m "Я... Я..."
 # И ты знаешь что будет с плохой шлюхой!
 # Ты знаешь это!
 # Я... Я...
 # Мистер Боб... Я... Их члены...
+    music Villainous_Treachery
     img 21525
+    with fade
     prisoner1 "И ты знаешь что будет с плохой шлюхой!"
     prisoner1 "Ты знаешь это!"
 
+    music Malicious
     img 21526
+    with diss
     m "Я... Я..."
     mt "О БОЖЕ! Если я скажу Бобу правду, то они точно расскажут все детективу!"
     mt "Боба уберут отсюда, а что будет со мной - Я даже боюсь представить!"
@@ -2144,10 +2296,14 @@ label ep28_dialogues_jail12:
 # Я хочу их члены... сосать...
 # Видишь, Боб?
     img 21527
+    with fade
     prisoner1 "Ну же, шлюха!"
     img 21528
+    with diss
     m "Я хочу их члены... сосать..."
+    music Groove2_85
     img 21529
+    with fade
     prisoner1 "Видишь, Боб?"
 # Она сама хочет! Открой нам дверь!
 # Мы хотим попасть к ней! Это неудобно делать через решетку!
@@ -2158,36 +2314,55 @@ label ep28_dialogues_jail12:
     prisoner1 "Мы хотим попасть к ней! Это неудобно делать через решетку!"
     prisoner1 "Наши члены не настолько длинные...."
     img 21530
+    with diss
     prisoner1 "Нам неудобно, Боб!"
     img 21531
+    with fade
     overseer "И что, ты правда сама этого хочешь?"
     overseer "Тебя никто не заставлял?"
 # Нннет... Мистер Боб...
 # Мммменя... Никто... Не заставлял...
 # Ну хорошо, я открою. Только давайте быстро! Скоро отбой!
 # И у меня начинает болеть голова из-за вас!
+    music Malicious
     img 21532
+    with diss
     m "Ннннет... Мистер Боб..."
     m "Ммммменя... Никто... Не заставлял..."
+    music Groove2_85
     img 21533
+    with fade
     overseer "Ну хорошо, я открою. Только давайте быстро! Скоро отбой!"
     overseer "И у меня начинает болеть голова из-за вас!"
 # У Вас есть 10 минут!
 # Да! Ура! Ребята, залетай!
     img 21534
+    with diss
     overseer "У Вас есть 10 минут!"
-
+    music stop
+    img black_screen
+    with diss
+    sound snd_jail_door
+    pause 2.0
+    music Indo_Rock
     img 21535
+    with fade
     prisoner1 "Да! Ура! Ребята, залетай!"
     m "О БОЖЕ!"
     mt "НЕТ!!!"
     mt "!!!"
+    sound snd_bodyfall
+#    music stop
+    img black_screen
+    with diss
+    pause 2.0
 
 # Да, хорошая шлюха! Соси! Соси наши члены!
 # Да!
 # Давай, да!
 # Моника сосет кучу членов.
     img 21536
+    with fadelong
     mt "..."
     mt "Как же отвратительно от него воняет!"
     mt "!!!"
@@ -2195,76 +2370,166 @@ label ep28_dialogues_jail12:
     mt "10 минут... Мне нужно продержаться всего 10 минут..."
     mt "Это же так мало..."
     prisoner1 "Да, хорошая шлюха! Соси! Соси наши члены!"
+    #sound входит член blowjob
+    #sound music начинается чавк-чавк
     img 21537 # входит
+    with diss
     mt "Фуууу!"
     mt "!!!"
     mt "Ненавижу!"
+    music2 prison_yell_music
     img 21538
+    with diss
+    w
+    music2 stop
     img 21539
+    with diss
     prisoner1 "Да!"
     img 21540
+    with diss
+    w
     img 21541
+    with diss
     prisoner1 "Давай, Да!"
+    sound bulk1
     img 21542 # кончает
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     mt "!!!"
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     prisoner1 "ААааахххх!"
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    w
 # Моника сосет кучу членов.
 
 # Эй, моя очередь.
 # Эй, посторонись, дай мне тоже вставить член ей в ротик.
 # Да, какой ротик.
 # Как приятно, ребята, да!
+    music2 prison_yell_music
     img 21543
+    with fade
+    prisoner2 "Эй, моя очередь!"
     mt "Еще один!"
     mt "Мне кажется, прошла уже целая вечность! Где этот чертов Боб!"
     mt "Я не хочу делать ЭТО!"
     mt "!!!"
-    prisoner2 "Эй, моя очередь!"
+    music2 stop
     img 21544
+    with diss
     prisoner2 "Давай! Попробуй моего малыша!"
+    #sound входит blowjob
+    #sound music чав-чавк уже больше и быстрее
     img 21545
+    with diss
     m "Ммммпфххххх... Мммммннн..."
     img 21546
+    with diss
     w
     img 21547
+    with diss
     w
     img 21548
+    with diss
     prisoner2 "Я почти все..."
+    sound bulk1
     img 21549 # кончает
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     mt "Фуууу!"
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     prisoner2 "ААааахххх!"
-
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    w
+    music2 prison_yell_music
     img 21550
+    with fade
     w
     img 21551
+    with diss
     mt "Какая мерзость!!!"
     w
     img 21552
+    with diss
     mt "!!!"
     prisoner4 "Эй, посторонись, дай мне тоже вставить член ей в ротик."
+    music2 stop
+    #sound входит blowjob
+    #sound music чавк-чавк еще сильнее
     img 21553 # Вставляет
-    mt "Ненавижу их всех!!!"
+    with diss
     w
+    mt "Ненавижу их всех!!!"
     img 21554
+    with diss
+    w
     img 21555
+    with diss
     prisoner4 "Да, какой ротик!"
     img 21556
+    with diss
     w
     img 21557
-    mt "Хочется сжать зубы и посмотреть, как это животное будет корчиться от боли..."
+    with diss
     prisoner4 "Как приятно, ребята, да!"
+    mt "Хочется сжать зубы и посмотреть, как это животное будет корчиться от боли..."
+    music2 prison_yell_music
     img 21559
+    with fade
     prisoner5 "Продвигайтесь быстрее! Мы тоже ждем!"
     img 21558
+    with diss
+    w
 # ААааахххх!
 # Эй! Кончай на нее! Не разбрызгивай на нас!
 # Моя очередь!
 # ААааааааххх!
+    music2 stop
+    sound bulk1
     img 21560
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     prisoner4 "ААааахххх!"
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    w
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    w
+    music2 prison_yell_music
     img 21561
+    with fade
     prisoner5 "Эй! Кончай на нее! Не разбрызгивай на нас!"
     img 21562
+    with diss
     prisoner3 "Эй! Подвинься!"
     mt "Я не могу больше!"
     mt "У меня болит все во рту!"
@@ -2275,11 +2540,20 @@ label ep28_dialogues_jail12:
 # Следующий!
 #    prisoner3 "Эй! Подвинься!"
     img 21563
+    with fade
     prisoner3 "Моя очередь!"
     prisoner3 "Кто закончил, отходите в сторону!"
+    music2 stop
+    #sound входит blowjob
+    #sound music чавк-чавк очень сильный и быстрый
     img 21564 # вставляет
+    with diss
+    w
     img 21565
+    with diss
+    w
     img 21566
+    with diss
     mt "!!!"
 
 
@@ -2291,136 +2565,274 @@ label ep28_dialogues_jail12:
 # Не задерживайте очередь!
 # Ну же! Кончай скорее!
 # Я почти!
+    music2 prison_yell_music
     img 21567
+    with fade
     prisoner5 "Не задерживайте очередь!"
     prisoner5 "Ну же! Кончай скорее!"
     img 21568
+    with diss
     prisoner3 "Я почти!"
 # Давай! Долби ее активнее!
 # ААааааааххх!
 # Следующий!
     img 21569
+    with diss
     prisoner6 "Давай! Долби ее активнее!"
+    music2 stop
+    sound bulk1
     img 21570
-    mt "КОГДА ВСЕ ЭТО ЗАКОНЧИТСЯ???"
-    mt "ФУ-У-У-У!!!"
-    mt "!!!"
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     prisoner3 "ААааахххх!"
+    mt "КОГДА ВСЕ ЭТО ЗАКОНЧИТСЯ???"
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    mt "ФУ-У-У-У!!!"
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    mt "!!!"
 # Эй! Ты куда лезешь!
 # Ты после меня!
 # ААааааааххх!
+    music2 prison_yell_music
     img 21571
+    with diss
     m "!!!"
     m "Сволочи, хватит кончать на меня!"
     img 21572
+    with fade
     prisoner1 "А куда нам кончать? Нам нельзя пачкать камеру."
     img 21573
+    with diss
     m "Куда-нибудь! В унитаз!"
 
     img 21574
+    with fade
     prisoner1 "Кстати! Спасибо что напомнила!"
+    img black_screen
+    with diss
+    sound man_steps
+    pause 1.5
+    sound snd_man_piss1
     img 21575 # писает
+    with fadelong
     prisoner1 "Я весь день терпел..."
 
     img 21576
+    with fade
     prisoner6 "Эй! Ты куда лезешь?!" # Говорит 5-му
     prisoner6 "Ты после меня!"
+    music2 stop
+    #sound входит blowjob
+    #sound music чавк-чавк очень сильный
     img 21577 # вставляет
+    with diss
     m "!!!"
     img 21578
+    with diss
+    w
+    sound snd_man_piss1b
     img 21579
+    with diss
+    w
     img 21580
+    with diss
+    w
     img 21581
+    with diss
+    w
     img 21582
-
+    with diss
+    w
+    sound bulk1
     img 21583
-
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     prisoner6 "ААааахххх!"
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    w
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
 #    prisoner6 "На! Украшу твою мордашку!"
-
+    w
     img 21584
+    with diss
     mt "!!!"
     mt "Мои глаза!!!"
     mt "Я не могу открыть их!!!"
     mt "!!!"
+    music2 prison_yell_music
     img 21585
+    with fade
     prisoner5 "Моя очередь!"
 
+    #sound входит blowjob
+    #sound music чав-чавк очень сильный и быстрый
     img 21587 # вставляет
     mt "!!!"
     mt "Хватит! Мне больно!"
     img 21588
+    with diss
+    w
     img 21589
+    with diss
+    w
     img 21590
+    with diss
+    w
 
 # Время!
+    music2 stop
     img 21586
+    with hpunch
     overseer "Время!"
 # Скорее, скорее!
 # Дай мне!
 # Я еще не все!
+    music2 prison_yell_music
     img 21591
+    with diss
     prisoner1 "Скорее, скорее!"
     img 21592
+    with diss
     prisoner1 "Дай мне!"
     img 21593
+    with diss
     prisoner5 "Я еще не все!"
 # Дай я тогда тоже засуну!
 # Я должен успеть!
     img 21594
+    with diss
     prisoner1 "Дай я тогда тоже засуну! Еще раз!"
     prisoner1 "Я должен успеть!"
 # Да, давай, растягивай ей ротик!
 # ААааааааххх!
 # ААааааааххх!
+    music2 stop
+    #sound входит blowjob сразу 2, жуткий звук :)
+    #sound music чав-чавк двойной
     img 21595
+    with diss
     mt "БОЖЕ!!!"
     mt "!!!"
-    mt "Боже! Я сейчас с ума сойду! Как же больно!!!"
-    mt "!!!"
     prisoner3 "Да, давай, растягивай ей ротик!"
+#    mt "Боже! Я сейчас с ума сойду! Как же больно!!!"
+    mt "!!!"
     img 21596
+    with diss
     prisoner1 "Смотрите, парни! Наши члены, с трудом, но влезли в ее рот!"
     img 21597
+    with diss
     prisoner1 "Может быть у этой шлюхи уже есть большой опыт?"
     img 21598
+    with diss
     prisoner3 "Да нет, она неопытная... Но у нее есть задатки, чтобы стать первоклассной шлюхой!"
+    sound bulk1
     img 21599
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     prisoner5 "ААааахххх!"
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     prisoner1 "ААааахххх!"
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    w
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    w
 # Все, брысь отсюда!
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    sound man_steps
+    pause 1.5
+    music Groove2_85
+    music2 prison_yell_music
     img 21600
+    with fadelong
     overseer "Все, брысь отсюда!"
 # О БОЖЕ!!! Что это было...
 # У меня сводит челюсть, я не могу пошевелить ей...
 # А это что?! # Боб стоит с членом
 # Боб?!
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    #sound толпа заключенных уходит
+    pause 2.0
+    music Malicious
     img 21601
-
+    with fadelong
+    w
     img 21602
+    with diss
     mt "О БОЖЕ!!! Что это было..."
     img 21603
+    with diss
     mt "У меня сводит челюсть, я не могу пошевелить ей..."
     mt "И горло ужасно болит!"
     mt "Мои глаза! Я не могу разлепить их!"
     mt "Я вся в этой мерзкой гадости!!!"
     mt "Что мне делать теперь с челюстью? Я не могу закрыть рот!"
+    sound Jump1
     img 21604
+    with diss
     mt "Наверное, мне надо помассировать ее..."
     img 21605
+    with diss
     mt "Клянусь, больше ни один вонючий отросток никогда не коснется моих губ!"
+    sound Jump2
     img 21606
+    with hpunch
     mt "А это что?!"
+    music Power_Bots_Loop
     img 21607
+    with fade
     m "БОБ?! ТЫ?!"
 # Ну ты любишь делать это... Ты сама сказала...
 # И я подумал, что...
 # Уйди отсюда, Боб!
 # Никогда в жизни я не буду этого делать!
+    music Groove2_85
     img 21608
+    with diss
     overseer "Ну... Ты любишь делать это... Ты сама сказала..."
     overseer "И Я подумал, что..."
+    music Power_Bots_Loop
     img 21609
+    with fade
     m "Уйди отсюда, Боб!"
     m "Размечтался!"
     m "Никогда этого не будет!"
@@ -2428,28 +2840,40 @@ label ep28_dialogues_jail12:
 # Твари!
 # Ладно, ладно, ухожу...
     img 21610
+    with diss
     m "Мерзавцы!"
     m "Твари!"
     m "Знали бы Вы кто Я такая!"
     overseer "Ладно, ладно, ухожу..."
-
+    music stop
+    img black_screen
+    with diss
+    sound man_steps
+    pause 2.0
 # Моника ложится спать...
 # Я не могу поверить... Их... Столько...
 # Я...
 # Как такое могло случиться...
+    music Malicious
     img 21611
+    with fadelong
     mt "Я не могу поверить... Их... Столько..."
     mt "Я..."
     mt "Как такое могло случиться..."
     mt "Как я согласилась на ЭТО?!"
+    music Pyro_Flow
     img 21612
+    with diss
     mt "..."
     mt "Я клянусь что уничтожу всех этих ублюдков!"
     mt "Они ответят за все!"
     mt "Они ответят за свой гнусный шантаж!"
+    music Hidden_Agenda
     img 21613
+    with diss
     mt "..."
     mt "Мне надо умыться..."
+    return
 # И... Как я выдержала это...
 # Мне надо лечь спать...
 # Не могу поверить что я решилась на это...
