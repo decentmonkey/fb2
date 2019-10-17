@@ -2821,64 +2821,70 @@ label ep28_dialogues_jail14:
     #sound толпа заключенных уходит
     sound walk
     pause 2.0
-    music Malicious
-    img 21601
-    with fadelong
-    w
-    img 21602
-    with diss
-    mt "О БОЖЕ!!! Что это было..."
-    img 21603
-    with diss
-    mt "У меня сводит челюсть, я не могу пошевелить ей..."
-    mt "И горло ужасно болит!"
-    mt "Мои глаза! Я не могу разлепить их!"
-    mt "Я вся в этой мерзкой гадости!!!"
-    mt "Что мне делать теперь с челюстью? Я не могу закрыть рот!"
-    sound Jump1
-    img 21604
-    with diss
-    mt "Наверное, мне надо помассировать ее..."
-    img 21605
-    with diss
-    mt "Клянусь, больше ни один вонючий отросток никогда не коснется моих губ!"
-    sound Jump2
-    img 21606
-    with hpunch
-    mt "А это что?!"
-    music Power_Bots_Loop
-    img 21607
-    with fade
-    m "БОБ?! ТЫ?!"
-# Ну ты любишь делать это... Ты сама сказала...
-# И я подумал, что...
-# Уйди отсюда, Боб!
-# Никогда в жизни я не буду этого делать!
-    music Groove2_85
-    img 21608
-    with diss
-    overseer "Ну... Ты любишь делать это... Ты сама сказала..."
-    overseer "И Я подумал, что..."
-    music Power_Bots_Loop
-    img 21609
-    with fade
-    m "Уйди отсюда, Боб!"
-    m "Размечтался!"
-    m "Никогда этого не будет!"
-# Мерзавцы!
-# Твари!
-# Ладно, ладно, ухожу...
-    img 21610
-    with diss
-    m "Мерзавцы!"
-    m "Твари!"
-    m "Знали бы Вы кто Я такая!"
-    overseer "Ладно, ладно, ухожу..."
-    music stop
-    img black_screen
-    with diss
-    sound man_steps
-    pause 2.0
+    if game.extra == True:
+        music Malicious
+        img 21601
+        with fadelong
+        w
+        img 21602
+        with diss
+        mt "О БОЖЕ!!! Что это было..."
+        img 21603
+        with diss
+        mt "У меня сводит челюсть, я не могу пошевелить ей..."
+        mt "И горло ужасно болит!"
+        mt "Мои глаза! Я не могу разлепить их!"
+        mt "Я вся в этой мерзкой гадости!!!"
+        mt "Что мне делать теперь с челюстью? Я не могу закрыть рот!"
+        sound Jump1
+        img 21604
+        with diss
+        mt "Наверное, мне надо помассировать ее..."
+        img 21605
+        with diss
+        mt "Клянусь, больше ни один вонючий отросток никогда не коснется моих губ!"
+        sound Jump2
+        img 21606
+        with hpunch
+        mt "А это что?!"
+        $ ep28_quests_bob_dick = True
+        music Power_Bots_Loop
+        img 21607
+        with fade
+        m "БОБ?! ТЫ?!"
+    # Ну ты любишь делать это... Ты сама сказала...
+    # И я подумал, что...
+    # Уйди отсюда, Боб!
+    # Никогда в жизни я не буду этого делать!
+        music Groove2_85
+        img 21608
+        with diss
+        overseer "Ну... Ты любишь делать это... Ты сама сказала..."
+        overseer "И Я подумал, что..."
+        music Power_Bots_Loop
+        img 21609
+        with fade
+        m "Уйди отсюда, Боб!"
+        m "Размечтался!"
+        m "Никогда этого не будет!"
+        # Мерзавцы!
+        # Твари!
+        # Ладно, ладно, ухожу...
+        img 21610
+        with diss
+        with hpunch
+        m "Мерзавцы!"
+        with hpunch
+        m "Твари!"
+        with hpunch
+        m "Знали бы Вы кто Я такая!"
+        overseer "Ладно, ладно, ухожу..."
+        music stop
+        img black_screen
+        with diss
+        sound man_steps
+        pause 2.0
+
 # Моника ложится спать...
 # Я не могу поверить... Их... Столько...
 # Я...
@@ -2910,45 +2916,82 @@ label ep28_dialogues_jail14:
 # Мне лучше об этом забыть...
 # Я сплю...
 label ep28_dialogues_jail15:
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+    music I_Feel_You
     img 21614
+    with fadelong
     mt "И... Как я выдержала это..."
     mt "Мне надо лечь спать..."
     mt "Не могу поверить, что я решилась на это..."
     mt "Может быть, был другой путь?"
     mt "Как такое могло случиться, со мной?"
     img 21615
+    with diss
     mt "..."
     mt "Мне лучше об этом забыть..."
     mt "Я сплю..."
+    return
 
 # Утро
 # Мне надо позвать Боба. Мистер Маркус должен встретиться со мной!
 label ep28_dialogues_jail16:
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(_("День 4"))
+    img black_screen
+    with Dissolve(2.0)
+    music Power_Bots_Loop
     img 21616
+    with fadelong
     mt "Мне надо позвать Боба. Мистер Маркус должен встретиться со мной, наконец!"
     mt "Я не буду оставаться здесь более ни на один день, ни на один час!"
-
+    return
 # Мистер Маркус ждет тебя!
 # Иди за мной!
 # Ура! Наконец-то!
 # Наконец-то я покину это жуткое место!
 # Наконец-то!
 label ep28_dialogues_jail17:
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    sound man_steps
+    pause 2.0
+    music Groove2_85
     img 21617
+    with fadelong
     overseer "Мистер Маркус ждет тебя!"
     overseer "Иди за мной!"
+    music RnB3_65
     img 21618
+    with diss
     m "Ура! Наконец-то!"
     mt "Наконец-то, я покину это жуткое место!"
     mt "Наконец-то!"
-
+    return
 # Моника идет вдоль заключенных. Они кричат хорошая шлюха (или молчат)
     # идет если поставила заключенных на место
 label ep28_dialogues_jail18:
+    $ notif(_("Моника поставила заключенных на место."))
+    sound snd_jail_door
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    sound highheels_short_walk
+    pause 2.0
+    sound man_steps
     music Pyro_Flow
     img 21620
     with fadelong
     mt "Грязные похотливые животные! Фи!"
+    sound man_steps
     img 21621
     with diss
     w
@@ -2956,13 +2999,23 @@ label ep28_dialogues_jail18:
 
 label ep28_dialogues_jail19:
     # идет если поддалась
+    $ notif(_("Моника подчинилась заключенным."))
+    sound snd_jail_door
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    sound highheels_run2
+    pause 2.0
     music Malicious
     music2 prison_yell_music
+    sound man_steps
     img 21622
     with fadelong
     mt "Боже! Нет! Только не прикасайтесь ко мне!!!"
     prisoners "Хорошая шлюха!"
     prisoners "Да! Хорошая шлюха!"
+    sound man_steps
     img 21623
     with diss
     prisoners "Мы ждем нашу шлюху!"
