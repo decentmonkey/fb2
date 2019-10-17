@@ -1022,6 +1022,7 @@ label ep28_dialogues_jail4:
             pass
 
     #sound звук облапывания Моники в камере
+    sound scream1
     img 21389
     with fade
     m "Вы же обещали!"
@@ -1031,6 +1032,7 @@ label ep28_dialogues_jail4:
 # Шлюха хорошая! Да!
 # И я хочу! И мне тоже дайте!
     #sound хватают за ягодицу
+    sound grab4
     img 21390
     with diss
     prisoners "Да! Хорошая! Шлюха!"
@@ -1045,25 +1047,30 @@ label ep28_dialogues_jail4:
     prisoner5 "И мне!"
     prisoner6 "И мне!"
     #sound хватают за грудь
+    sound grab3
     img 21392
     with fade
     mt "Нет!"
     prisoner1 "В очередь! Шлюха одна, а нас много!"
     #sound хватают за вторую грудь
+    sound grab3
     img 21393
     with diss
     mt "!!!"
     prisoner2 "Потрогать шлюху!"
     #sound хватают за вторую грудь еще одной рукой
+    sound grab6
     img 21394
     with fade
     mt "Не-е-е-ет!"
     prisoners "Да, очередь! Очередь!"
     #sound хватают за талию
+    sound grab5
     img 21395
     with diss
     prisoners "Да! Хорошая! Шлюха!"
     #sound хватают за ягодицу
+    sound grab4
     img 21396
     with diss
     prisoner2 "Потрогать шлюху!"
@@ -1078,6 +1085,7 @@ label ep28_dialogues_jail4:
     mt "Я сплю..."
     mt "Это какой-то кошмарный сон..."
     #sound хватают за ягодицу ближе к киске
+    sound grab5
     img 21398
     with diss
     mt "Это не в реальности..."
@@ -1085,6 +1093,7 @@ label ep28_dialogues_jail4:
     with fade
     mt "Этого не может быть..."
     #sound хватают за киску снизу
+    sound grab3
     img 21400
     with hpunch
     m "АЙ!!!"
@@ -1115,6 +1124,7 @@ label ep28_dialogues_jail4:
     with diss
     pause 2.0
     #sound заключенные убегают
+    sound runaway1
     music I_Feel_You
     img 21404
     with fadelong
@@ -1492,6 +1502,7 @@ label ep28_dialogues_jail9:
     with diss
     pause 1.5
     #sound Моника раскрывает киску
+    sound chpok3
     music Loved_Up
     img 21446
     with fadelong
@@ -1801,6 +1812,8 @@ label ep28_dialogues_jail9:
     prisoner1 "Шлюха может отдыхать на сегодня! Да!"
     prisoners "Мы придем к шлюхе завтра! Да!"
     #sound заключенные уходят (топают)
+    sound walk
+
 
 # О Боже! Что я сказала?!
 # Но какая разница?!
@@ -2240,6 +2253,7 @@ label ep28_dialogues_jail14:
     img black_screen
     with diss
     #sound заключенные бегут к стене и встают руки за спину
+    sound runaway4
     pause 1.0
     music Groove2_85
     img 21519
@@ -2371,7 +2385,9 @@ label ep28_dialogues_jail14:
     mt "Это же так мало..."
     prisoner1 "Да, хорошая шлюха! Соси! Соси наши члены!"
     #sound входит член blowjob
+    sound chavc26
     #sound music начинается чавк-чавк
+    music long chavc4
     img 21537 # входит
     with diss
     mt "Фуууу!"
@@ -2429,7 +2445,9 @@ label ep28_dialogues_jail14:
     with diss
     prisoner2 "Давай! Попробуй моего малыша!"
     #sound входит blowjob
+    sound chavc26
     #sound music чав-чавк уже больше и быстрее
+    music long chavc3
     img 21545
     with diss
     m "Ммммпфххххх... Мммммннн..."
@@ -2475,7 +2493,9 @@ label ep28_dialogues_jail14:
     prisoner4 "Эй, посторонись, дай мне тоже вставить член ей в ротик."
     music2 stop
     #sound входит blowjob
+    sound chavc26
     #sound music чавк-чавк еще сильнее
+    music long chavc9
     img 21553 # Вставляет
     with diss
     w
@@ -2545,7 +2565,9 @@ label ep28_dialogues_jail14:
     prisoner3 "Кто закончил, отходите в сторону!"
     music2 stop
     #sound входит blowjob
+    sound chavc26
     #sound music чавк-чавк очень сильный и быстрый
+    music long chavc8
     img 21564 # вставляет
     with diss
     w
@@ -2633,7 +2655,9 @@ label ep28_dialogues_jail14:
     prisoner6 "Ты после меня!"
     music2 stop
     #sound входит blowjob
+    sound chavc26
     #sound music чавк-чавк очень сильный
+    music long chavc9
     img 21577 # вставляет
     with diss
     m "!!!"
@@ -2685,7 +2709,9 @@ label ep28_dialogues_jail14:
     prisoner5 "Моя очередь!"
 
     #sound входит blowjob
+    sound chavc26
     #sound music чав-чавк очень сильный и быстрый
+    music long chavc3
     img 21587 # вставляет
     mt "!!!"
     mt "Хватит! Мне больно!"
@@ -2728,7 +2754,9 @@ label ep28_dialogues_jail14:
 # ААааааааххх!
     music2 stop
     #sound входит blowjob сразу 2, жуткий звук :)
+    sound chavc6
     #sound music чав-чавк двойной
+    music long chavc1
     img 21595
     with diss
     mt "БОЖЕ!!!"
@@ -2791,6 +2819,7 @@ label ep28_dialogues_jail14:
     img black_screen
     with diss
     #sound толпа заключенных уходит
+    sound walk
     pause 2.0
     music Malicious
     img 21601
