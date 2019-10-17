@@ -1032,7 +1032,7 @@ label ep28_dialogues_jail4:
 # Шлюха хорошая! Да!
 # И я хочу! И мне тоже дайте!
     #sound хватают за ягодицу
-    sound grab4
+    sound grabbing4
     img 21390
     with diss
     prisoners "Да! Хорошая! Шлюха!"
@@ -1047,30 +1047,30 @@ label ep28_dialogues_jail4:
     prisoner5 "И мне!"
     prisoner6 "И мне!"
     #sound хватают за грудь
-    sound grab3
+    sound grabbing3
     img 21392
     with fade
     mt "Нет!"
     prisoner1 "В очередь! Шлюха одна, а нас много!"
     #sound хватают за вторую грудь
-    sound grab3
+    sound grabbing3
     img 21393
     with diss
     mt "!!!"
     prisoner2 "Потрогать шлюху!"
     #sound хватают за вторую грудь еще одной рукой
-    sound grab6
+    sound grabbing6
     img 21394
     with fade
     mt "Не-е-е-ет!"
     prisoners "Да, очередь! Очередь!"
     #sound хватают за талию
-    sound grab5
+    sound grabbing7
     img 21395
     with diss
     prisoners "Да! Хорошая! Шлюха!"
     #sound хватают за ягодицу
-    sound grab4
+    sound grabbing4
     img 21396
     with diss
     prisoner2 "Потрогать шлюху!"
@@ -1085,7 +1085,7 @@ label ep28_dialogues_jail4:
     mt "Я сплю..."
     mt "Это какой-то кошмарный сон..."
     #sound хватают за ягодицу ближе к киске
-    sound grab5
+    sound grabbing7
     img 21398
     with diss
     mt "Это не в реальности..."
@@ -1093,7 +1093,7 @@ label ep28_dialogues_jail4:
     with fade
     mt "Этого не может быть..."
     #sound хватают за киску снизу
-    sound grab3
+    sound grabbing9
     img 21400
     with hpunch
     m "АЙ!!!"
@@ -1124,7 +1124,7 @@ label ep28_dialogues_jail4:
     with diss
     pause 2.0
     #sound заключенные убегают
-    sound runaway1
+    sound running
     music I_Feel_You
     img 21404
     with fadelong
@@ -1812,7 +1812,7 @@ label ep28_dialogues_jail9:
     prisoner1 "Шлюха может отдыхать на сегодня! Да!"
     prisoners "Мы придем к шлюхе завтра! Да!"
     #sound заключенные уходят (топают)
-    sound walk
+    sound steps_jail
 
 
 # О Боже! Что я сказала?!
@@ -2253,7 +2253,7 @@ label ep28_dialogues_jail14:
     img black_screen
     with diss
     #sound заключенные бегут к стене и встают руки за спину
-    sound runaway4
+    sound running
     pause 1.0
     music Groove2_85
     img 21519
@@ -2829,7 +2829,7 @@ label ep28_dialogues_jail14:
     img black_screen
     with diss
     #sound толпа заключенных уходит
-    sound walk
+    sound steps_jail
     pause 2.0
     if game.extra == True:
         music Malicious
