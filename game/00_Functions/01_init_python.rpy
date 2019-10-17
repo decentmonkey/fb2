@@ -256,6 +256,30 @@ python early:
     renpy.music.register_channel("music2", "music", True)
     renpy.register_statement("music2", parse=music_parse, execute=music2_exec) #music - оператор воспроизведения музыки
 
+    def music3_exec(ob1):
+        global currentMusic3
+        o, priority = ob1
+        if o == "stop":
+            currentMusic3 = False
+            renpy.music.stop(channel='music3', fadeout=1.0)
+            return
+        try:
+            musicName = renpy.eval(o)
+        except:
+            musicName = o
+        if musicName == currentMusic3:
+            return
+
+        currentMusic3 = musicName
+        checkPath = "Music/" + str(musicName) + ".ogg"
+        if renpy.loadable(checkPath):
+#            print "play music: " + checkPath
+            renpy.music.play(checkPath, channel="music3", loop=True, fadeout=1.0, fadein=1.0)
+        return
+
+    renpy.music.register_channel("music3", "music", True)
+    renpy.register_statement("music3", parse=music_parse, execute=music3_exec) #music - оператор воспроизведения музыки
+
     def video_parse(l):
         return l.simple_expression()
     def video_exec(o):

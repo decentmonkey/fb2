@@ -2358,7 +2358,7 @@ label ep28_dialogues_jail14:
     with diss
     sound snd_jail_door
     pause 2.0
-    music Indo_Rock
+    music3 Indo_Rock
     img 21535
     with fade
     prisoner1 "Да! Ура! Ребята, залетай!"
@@ -2385,9 +2385,10 @@ label ep28_dialogues_jail14:
     mt "Это же так мало..."
     prisoner1 "Да, хорошая шлюха! Соси! Соси наши члены!"
     #sound входит член blowjob
+    $ renpy.music.set_volume(0.4, delay=1.0, channel='music3')
     sound chavc26
     #sound music начинается чавк-чавк
-    music long chavc4
+    music long_chavc4
     img 21537 # входит
     with diss
     mt "Фуууу!"
@@ -2407,6 +2408,7 @@ label ep28_dialogues_jail14:
     img 21541
     with diss
     prisoner1 "Давай, Да!"
+    music stop
     sound bulk1
     img 21542 # кончает
     show screen photoshot_screen()
@@ -2447,7 +2449,7 @@ label ep28_dialogues_jail14:
     #sound входит blowjob
     sound chavc26
     #sound music чав-чавк уже больше и быстрее
-    music long chavc3
+    music long_chavc3
     img 21545
     with diss
     m "Ммммпфххххх... Мммммннн..."
@@ -2460,6 +2462,7 @@ label ep28_dialogues_jail14:
     img 21548
     with diss
     prisoner2 "Я почти все..."
+    music stop
     sound bulk1
     img 21549 # кончает
     show screen photoshot_screen()
@@ -2495,7 +2498,7 @@ label ep28_dialogues_jail14:
     #sound входит blowjob
     sound chavc26
     #sound music чавк-чавк еще сильнее
-    music long chavc9
+    music long_chavc9
     img 21553 # Вставляет
     with diss
     w
@@ -2524,6 +2527,7 @@ label ep28_dialogues_jail14:
 # Эй! Кончай на нее! Не разбрызгивай на нас!
 # Моя очередь!
 # ААааааааххх!
+    music stop
     music2 stop
     sound bulk1
     img 21560
@@ -2567,7 +2571,7 @@ label ep28_dialogues_jail14:
     #sound входит blowjob
     sound chavc26
     #sound music чавк-чавк очень сильный и быстрый
-    music long chavc8
+    music long_chavc8
     img 21564 # вставляет
     with diss
     w
@@ -2602,6 +2606,7 @@ label ep28_dialogues_jail14:
     with diss
     prisoner6 "Давай! Долби ее активнее!"
     music2 stop
+    music stop
     sound bulk1
     img 21570
     show screen photoshot_screen()
@@ -2657,7 +2662,7 @@ label ep28_dialogues_jail14:
     #sound входит blowjob
     sound chavc26
     #sound music чавк-чавк очень сильный
-    music long chavc9
+    music long_chavc9
     img 21577 # вставляет
     with diss
     m "!!!"
@@ -2677,6 +2682,7 @@ label ep28_dialogues_jail14:
     img 21582
     with diss
     w
+    music stop
     sound bulk1
     img 21583
     show screen photoshot_screen()
@@ -2711,7 +2717,7 @@ label ep28_dialogues_jail14:
     #sound входит blowjob
     sound chavc26
     #sound music чав-чавк очень сильный и быстрый
-    music long chavc3
+    music long_chavc3
     img 21587 # вставляет
     mt "!!!"
     mt "Хватит! Мне больно!"
@@ -2727,6 +2733,7 @@ label ep28_dialogues_jail14:
 
 # Время!
     music2 stop
+    music stop
     img 21586
     with hpunch
     overseer "Время!"
@@ -2756,7 +2763,7 @@ label ep28_dialogues_jail14:
     #sound входит blowjob сразу 2, жуткий звук :)
     sound chavc6
     #sound music чав-чавк двойной
-    music long chavc1
+    music long_chavc1
     img 21595
     with diss
     mt "БОЖЕ!!!"
@@ -2773,6 +2780,7 @@ label ep28_dialogues_jail14:
     img 21598
     with diss
     prisoner3 "Да нет, она неопытная... Но у нее есть задатки, чтобы стать первоклассной шлюхой!"
+    music stop
     sound bulk1
     img 21599
     show screen photoshot_screen()
@@ -2801,6 +2809,8 @@ label ep28_dialogues_jail14:
 # Все, брысь отсюда!
     music stop
     music2 stop
+    music3 stop
+    $ renpy.music.set_volume(1.0, delay=1.0, channel='music3')
     img black_screen
     with diss
     sound man_steps
