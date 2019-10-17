@@ -40,6 +40,7 @@ label ep27_police2_reception_dialogue: # Разговор в проходной 
     $ cloth = "JailRobe" # Переодеваем Монику
     $ cloth_type = "Jail"
     $ inventory = [] # Забираем весь инвентарь
+    $ money = 0 # отбираем деньги
 
     $ add_hook("cage_interact", "ep27_police3_interact_cage1", scene="police", label="cage_interact1")
 

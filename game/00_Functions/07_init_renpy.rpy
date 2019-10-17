@@ -49,6 +49,7 @@ define prisoner3 = Character(_("Заключенный 3"), who_color=c_red) #Pr
 define prisoner4 = Character(_("Заключенный 4"), who_color=c_red) #Prisoner
 define prisoner5 = Character(_("Заключенный 5"), who_color=c_red) #Prisoner
 define prisoner6 = Character(_("Заключенный 6"), who_color=c_red) #Prisoner
+define prisoners = Character(_("Заключенные"), who_color=c_red) #Prisoners
 define judge = Character(_("Судья"), who_color=c_blue) #Judge
 define reception_secretary = Character(_("Секретарь на рецепшине"), who_color=c_pink) #Reception Secretary
 define reception_secretary_t = Character(_("Секретарь на рецепшине"), who_color=c_pink, what_color=c_blue, what_italic=True) #Reception Secretary

@@ -38,6 +38,7 @@ label police_cell3_environment:
             return
         sound snd_jail_door_locked
         call process_hooks("cage_interact", "police") from _call_process_hooks_72
+        $ cageInteractCnt = cageInteractAmount
         return
     if obj_name == "Monica":
         mt "Надо дергать эту проклятую решетку!"
