@@ -75,7 +75,7 @@ label ep25_quests4a:
 
 label ep25_quests5:
     # Проверка на платье при переходе в дом по карте (перекидываем наружу если одето платье)
-    if cloth == "CasualDress1":
+    if cloth == "CasualDress1" or cloth == "SchoolOutfit1":
         call change_scene("street_house_outside", "Fade_long", "highheels_run2") from _call_change_scene_273
     return
 
@@ -86,12 +86,21 @@ label ep25_quests6:
         $ basementHoleIncomingDirection = "Laundry"
         call change_scene("basement_hole", "Fade_long") from _call_change_scene_274
         return False
+
+    if cloth == "SchoolOutfit1":
+        call dialogue_classmate_4a()
+        $ basementHoleIncomingDirection = "Laundry"
+        call change_scene("basement_hole", "Fade_long")
+        return False
     return
 
 label ep25_quests7:
     # Проверка на платье при попытке выхода на лестницу из бассейна дома
     if cloth == "CasualDress1":
         call ep25_dialogues4_map3() from _call_ep25_dialogues4_map3
+        return False
+    if cloth == "SchoolOutfit1":
+        call dialogue_classmate_4a()
         return False
     return
 

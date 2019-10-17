@@ -3,6 +3,7 @@ default bettyCollegeDay = 0
 default bettyCollegeTeacherRefused = False
 default bettyCollegeTeacherStage = 0
 default bettyCollegeMonicaLesbieInited = False
+default ep28_betty_college2_flag = False
 
 label ep28_betty_college_init:
     call dialogue_betty_college_0_1()
@@ -16,7 +17,9 @@ label ep28_betty_college_init:
     return
 
 label ep28_betty_college2:
-    call dialogue_betty_college_1() # Барди говорит Бетти что надо идти в колледж
+    if ep28_betty_college2_flag == False:
+        call dialogue_betty_college_1() # Барди говорит Бетти что надо идти в колледж
+        $ ep28_betty_college2_flag = True
 
     # инициализируем колледж
 
@@ -81,6 +84,7 @@ label ep28_betty_college2_teacher_day1: # Сцена учителя с Бетт�
     call dialogue_betty_teacher_1()
     if _return == True:
         $ bettyCollegeDay1JobFinished = True
+        $ bettyCollegeTeacherRefused = False
         $ add_hook("enter_scene", "dialogue_betty_college_1_1_3", scene="street_college", owner="Betty", once=True)
     else:
         $ bettyCollegeTeacherRefused = True
@@ -106,11 +110,16 @@ label ep28_betty_college2_teacher_day1b: # Бетти возвращается �
     else:
         call dialogue_betty_college_2_1()
         $ add_hook("change_time_day", "ep28_betty_college2_teacher_day1d", scene="global", label="betty_college_aborted")
+
     $ remove_hook(label="betty_college_day1")
     $ move_object("Bardie", "empty")
     $ add_hook("enter_scene", "ep28_betty_college2_teacher_day1c", scene="floor1", owner="Betty", once=True)
     call refresh_scene_fade()
     return False
+
+label ep28_betty_college2_teacher_day1_resume:
+    $ add_hook("change_time_day", "ep28_betty_college2", scene="global", once=True, label="ep28_betty_college2")
+    return
 
 label ep28_betty_college2_teacher_day1c: # Бетти заходит в дом (переход управления к Монике)
     if bettyCollegeDay1JobFinished == True:
@@ -122,9 +131,12 @@ label ep28_betty_college2_teacher_day1c: # Бетти заходит в дом (
     pause 1.5
     $ hudDaySkipToEveningEnabled = True
     call change_scene("basement_bedroom2", "Fade_long", False)
+    $ map_objects["Teleport_College"]["state"] = "visible"
+
     call change_owner("Monica")
 
-    $ add_hook("change_time_day", "ep28_betty_college2_teacher_day2", scene="global", label="betty_college_day2")
+    if bettyCollegeDay1JobFinished == True:
+        $ add_hook("change_time_day", "ep28_betty_college2_teacher_day2", scene="global", label="betty_college_day2")
 
     return False
 
@@ -199,6 +211,7 @@ label ep28_betty_college2_teacher_day2b: # Разговор с Барди пос
     pause 2.5
     $ hudDaySkipToEveningEnabled = True
     call change_scene("basement_bedroom2", "Fade_long", False)
+    $ map_objects["Teleport_College"]["state"] = "visible"
     call change_owner("Monica")
     $ add_hook("change_time_day", "ep28_betty_college2_teacher_day3a", scene="global", label="betty_college_day3")
 
@@ -303,6 +316,7 @@ label ep28_betty_college2_teacher_day3c:
     $ cloth = "Governess"
     $ cloth_type = "Governess"
     call change_scene("basement_bedroom2", "Fade_long", False)
+    $ map_objects["Teleport_College"]["state"] = "visible"
     call change_owner("Monica")
     call change_scene("basement_bedroom2", "Fade_long", False)
 
@@ -314,9 +328,9 @@ label ep28_betty_college_double_photo_init:
     $ map_enabled = False
     $ miniMapEnabledOnly = ["Floor2", "Basement"]
     $ move_object("Betty", "bedroom_bardie")
-    $ add_hook("enter_scene", "dialogue_doublephoto_1a", scene="basement_bedroom2", once=True)
-    $ add_hook("enter_scene", "dialogue_doublephoto_1a", scene="basement_pool", once=True)
-    $ add_hook("enter_scene", "dialogue_doublephoto_1a", scene="floor1", once=True)
+    $ add_hook("enter_scene", "dialogue_doublephoto_1a", scene="basement_bedroom2", once=True, label="double_photo_block")
+    $ add_hook("enter_scene", "dialogue_doublephoto_1a", scene="basement_pool", once=True, label="double_photo_block")
+    $ add_hook("enter_scene", "dialogue_doublephoto_1a", scene="floor1", once=True, label="double_photo_block")
 
 
     $ add_hook("enter_scene", "dialogue_doublephoto_1a", scene="floor2", label="double_photo_block")

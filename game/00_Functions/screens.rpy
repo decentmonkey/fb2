@@ -889,7 +889,7 @@ screen hud_minimap(minimapData):
                             $ minimapCheckMapScene = "Street_Corner"
                         if miniMapDisabled.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled[minimapCheckMapScene]:
                             $ locationDisabledFlag = True
-                        if cloth == "CasualDress1" and miniMapDisabled2.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled2[minimapCheckMapScene]:
+                        if (cloth == "CasualDress1" or cloth == "SchoolOutfit1") and miniMapDisabled2.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled2[minimapCheckMapScene]:
                             $ locationDisabledFlag = True
                         button:
                             yanchor 0.0
@@ -1506,11 +1506,11 @@ screen choice(items):
                         if menu_price[idx] >0:
                             if money >= menu_price[idx]:
                                 str1 = __(i.caption)
-                                str1 = str1 + "  $ " + '{:5,.2f}'.format(menu_price[idx])
+                                str1 = str1 + "  {color=#31e8b1}$ " + '{:5,.2f}'.format(menu_price[idx]) + "{/color}"
                                 button_obj["caption"] = str1
                             else:
                                 str1 = __(i.caption)
-                                str1 = str1 + "  $ " + '{:5,.2f}'.format(menu_price[idx])
+                                str1 = str1 + "  {color=#880000}$ " + '{:5,.2f}'.format(menu_price[idx]) + "{/color}"
                                 button_obj["caption"] = str1
                                 button_obj["active"] = False
 

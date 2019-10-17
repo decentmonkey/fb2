@@ -104,7 +104,12 @@ init python:
         return
 
     def clear_scene_from_objects(scene):
-        scenes_data["objects"][scene] = {}
+        list1 = []
+        for key1 in scenes_data["objects"][scene]:
+            list1.append(key1)
+        for key1 in list1:
+            if key1 != "data":
+                del(scenes_data["objects"][scene][key1])
         return
 
 

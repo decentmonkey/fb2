@@ -1,4 +1,5 @@
 default dialogue_classmate_5_flag = False
+default dialogue_classmate_7_flag = False
 
 # Дом. Комната Барди. Барди и Эрик (одноклассник).
 label dialogue_classmate_1:
@@ -45,13 +46,23 @@ label dialogue_classmate_1:
     bardie "Гувернантка! Гувернантка!!!"
     return
 
+label dialogue_classmate_1d:
+    call dialogue_classmate_2a()
+    $ dialogue_classmate_1b_flag = True
+    $ autorun_to_object("dialogue_classmate_1b", scene="basement_bedroom2")
+    call refresh_scene_fade()
+    return
+
 label dialogue_classmate_1b:
-    bardie "Гувернантка! Гувернантка!!!"
+    if day_time == "evening":
+        bardie "Гувернантка! Гувернантка!!!"
+        mt "Меня зовет эта малявка Барди!"
+        mt "Надо {c}идти к нему в комнату{/c}..."
     return
 
 label dialogue_classmate_1c:
     mt "Меня зовет эта малявка Барди!"
-    mt "Надо идти к нему в комнату..."
+    mt "Надо {c}идти к нему в комнату{/c}..."
     return False
 
 label dialogue_classmate_1a:
@@ -627,6 +638,17 @@ label dialogue_classmate_1_2:
     return
 
 # Дом. Комната Барди. Барди, Моника и Эрик.
+label dialogue_classmate_2a:
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Sneaky_Snitch
+    img 15180
+    with fadelong
+    bardie "Гувернантка! Гувернантка!!!"
+    return
+
 label dialogue_classmate_2:
     # Барди стоит в своей комнате, Эрик валяется на его кровати, Барди орет
     music Sneaky_Snitch
@@ -649,11 +671,13 @@ label dialogue_classmate_2:
     bardie "Гувернантка, смотри, кто пришел. Эрику понравилось у нас в гостях."
     bardie "Аха-ха!"
     # Моника поворачивается и видит Эрика
+    music Power_Bots_Loop
     img 15183
     with fade
     mt "Ну что за мелкие извращенцы! Опять, как в прошлый раз?"
     mt "И долго все это будет продолжаться"
     # Барди с улыбочкой, Эрик все это время смотрит на нее
+    music Groove2_85
     img 15184
     with diss
     bardie "Гувернантка, я хочу проверить, придерживаешься ли ты правил этого дома."
@@ -669,23 +693,20 @@ label dialogue_classmate_2:
         sound snd_fabric1
         pause 1.5
         music Loved_Up
-        img 15186
+        if monicaBettyPanties == False:
+            img 15186
+        else:
+            if monicaBettyPantiesId == 1:
+                img 15239
+            if monicaBettyPantiesId == 2:
+                img 15240
+            if monicaBettyPantiesId == 3:
+                img 15241
+            if monicaBettyPantiesId == 4:
+                img 15242
+            if monicaBettyPantiesId == 5:
+                img 15243
         with fadelong
-        w ################
-        img 15239
-        with diss
-        w
-        img_15240
-        with diss
-        w
-        img_15241
-        with diss
-        w
-        img_15242
-        with diss
-        w
-        img_15243
-        with diss
         w
         img 15187
         with diss
@@ -715,10 +736,12 @@ label dialogue_classmate_2:
                 bardie "Хорошая гувернантка. Именно поэтому у меня есть к гувернантке серьезное задание."
                 pass
             "Отказаться. Эти малявки совсем обнаглели!":
+                music Power_Bots_Loop
                 img 15189
                 with fade
                 m "Я не буду этого делать! Тем более при твоем друге!"
                 # Барди угрожающе
+                music Groove2_85
                 img 15190
                 with diss
                 bardie "Гувернантка не хочет быть хорошей?"
@@ -816,6 +839,7 @@ label dialogue_classmate_2:
     img 15209
     with fade
     m "???"
+    music Sneaky_Snitch
     img 15210
     with diss
     bardie "У Бетти получилось решить с ним очень сложный вопрос. У тебя тем более получится решить эту маленькую проблемку Эрика."
@@ -849,6 +873,7 @@ label dialogue_classmate_2:
     img 15217
     with fade
     m "Чем это она неудобна?"
+    music Groove2_85
     img 15218
     with diss
     bardie "В этой униформе гувернантке приходится делать лишние движения... чтобы показать, что она соблюдает правила дома."
@@ -864,9 +889,10 @@ label dialogue_classmate_2:
     bardie "Аха-ха-ха!!!"
     bardie "Учитель подумает, что ты какая-нибудь разносчица флаеров или продавщица кебабов."
     #
-    img 15221
-    with diss
-    bardie "Или то красное платье, в котором ты незаметно пробираешься в дом изо дня в день?"
+    if monicaHasCasualDress1 == True:
+        img 15221
+        with diss
+        bardie "Или то красное платье, в котором ты незаметно пробираешься в дом изо дня в день?"
     #
     img 15222
     with diss
@@ -935,8 +961,9 @@ label dialogue_classmate_2:
     with diss
     bardie "Не ври! Бетти говорит, что ты получаешь большую зарплату здесь. Так что найдешь несколько баксов, чтобы купить платье."
     bardie "Мы с Эриком будем ждать тебя здесь. Надеюсь, ты вернешься из колледжа с хорошими новостями."
+    music Power_Bots_Loop
     img 15238
-    with fade
+#    with fade
     mt "Ненавижу все эту семейку, которая поселилась в моем доме! И Я еще должна молча все это терпеть!"
     music stop
     img black_screen
@@ -956,8 +983,15 @@ label dialogue_classmate_2_1:
     mt "Мне надо скорее идти в магазин!"
     return
 
+label dialogue_classmate_2_1a:
+    mt "Мне лучше идти туда в уличной одежде, которая наиболее подходит для этого жуткого района..."
+    return
+
 # Город. Магазин одежды. Моника перед магазином одежды.
 label dialogue_classmate_3:
+    if cloth != "Whore":
+        return
+    $ remove_hook()
     # не рендерить!
     mt "В этот раз мне не составит труда подобрать себе платье... Ведь там полный магазин дурацкой одежды."
     # если Вивьен приставала е Монике
@@ -972,182 +1006,309 @@ label dialogue_classmate_3_1:
 #    mt "А я леди. Мне просто надо перетерпеть все эти временные трудности..."
 
     # Если Моника толкала Вивиен.
-    mt "В прошлый раз я не очень-то поладила с продавцом этого магазина."
-    mt "Стоит-ли мне рисковать заходить туда?"
-    menu:
-        "Зайти в магазин.":
-            return True
-        "Уйти":
-            return False
+    if monicaKickedVivianForDress == True: # Моника ударила Вивиен
+        mt "В прошлый раз я не очень-то поладила с продавцом этого магазина."
+        mt "Стоит-ли мне рисковать заходить туда?"
+        menu:
+            "Зайти в магазин.":
+                pass
+            "Уйти":
+                return 0
+
+        mt "Черт... Надеюсь она меня не вспомнит..." # Если толкала Вивиен
 
 
-
-
+    music stop
+    img black_screen
+    with diss
+    sound highheels_run2
+    pause 2.0
     # Моника подходит к Вивьен, ведет себя высокомерно
+    music Groove2_85
     img 22233
-    mt "Черт... Надеюсь она меня не вспомнит..." # Если толкала Вивиен
+    with fadelong
     m "Я хочу купить обычную одежду, которую носят домохозяйки!"
 
-
+    if monicaNeedToSellDress == False: # Моника не продавала платье манекеном
     # если Моника хорошо обращалась с Вивиан и не было сцен (покупала платье)
-    img 22234
-    vivian "Здравствуйте! Да, конечно!"
-    vivian "Пройдемте за мной."
-    img 22236
-    vivian "Вот, пожалуйста..."
-
-    # Если Моника толкала Вивиан
-    mt "Кажется, она не помнит меня..."
-    mt "Видимо я хорошо приложила эту дуру в прошлый раз..."
-#    vivian "Я сейчас вам принесу."
+        img 22234
+        with diss
+        cashier "Здравствуйте! Да, конечно!"
+        cashier "Пройдемте за мной."
+        music stop
+        img black_screen
+        with diss
+        sound highheels_run2
+        pause 2.0
+        music Groove2_85
+        img 22236
+        with fadelong
+        cashier "Вот, пожалуйста..."
+        if monicaKickedVivianForDress == True: # Моника ударила Вивиен
+            mt "Кажется, она не помнит меня..."
+            mt "Видимо я хорошо приложила эту дуру в прошлый раз..."
+    else:
+        # Если Моника толкала Вивиан
+        if monicaKickedVivianForDress == True: # Моника ударила Вивиен
+            mt "Кажется, она не помнит меня..."
+            mt "Видимо я хорошо приложила эту дуру в прошлый раз..."
+    #    cashier "Я сейчас вам принесу."
     #
 
     # если Моника работала манекеном
-    img 22235
-    $ notif(_("Моника работала манекеном"))
-    vivian "О, это ты? Хочешь 'купить' одежду, как в прошлый раз?"
-    mt "На что эта лесбиянка намекает?"
-    mt "???"
+        sound highheels_short_walk
+        img 22235
+        with diss
+        $ notif(_("Моника работала манекеном"))
+        cashier "О, это ты? Хочешь 'купить' одежду, как в прошлый раз?"
+        mt "На что эта лесбиянка намекает?"
+        mt "???"
 
-    img 22236
-    vivian "У меня есть подходящий костюм."
-    img 22237
-    vivian "Можешь отработать этот костюм манекеном. У меня есть еще товар, который надо продать."
-    img 22238
-    vivian "Или могу предложить другой вариант."
-    vivian "Я сделаю большую скидку, если ты мне сделаешь что-нибудь приятное."
-    mt "..."
-    #
-
+        music stop
+        img black_screen
+        with diss
+        pause 2.0
+        music Groove2_85
+        img 22236
+        with fadelong
+        cashier "У меня есть подходящий костюм."
+        sound highheels_short_walk
+        img 22237
+        with diss
+        cashier "Можешь отработать этот костюм манекеном. У меня есть еще товар, который надо продать."
+        music Loved_Up
+        sound highheels_short_walk
+        img 22238
+        with fadelong
+        cashier "Или могу предложить другой вариант."
+        cashier "Я сделаю большую скидку, если ты мне сделаешь что-нибудь приятное."
+        mt "..."
+        #
+    if clothShopCashierOffended2 == False and clothShopCashierOffended3ReturnDress == False and clothShopCashierFirstNightOffended == False:
+        $ schoolOutfitPrice = monicaEricCollegeDressPriceDiscount
+        $ notif(_("Моника вела себя с Вивиан вежливо."))
+    else:
+        $ schoolOutfitPrice = monicaEricCollegeDressPriceRegular
+        $ notif(_("Моника была недостаточно добра к продавцу."))
+    $ menu_price = [schoolOutfitPrice, 0, monicaEricCollegeDressPriceLickingDiscount]
+    music Groove2_85
     menu:
         "Купить костюм.":
             # Вивьен оформляет покупку, отдает костюм с улыбкой, Моника держится высокомерно
             # Моника в примерочной меряет платье
             call dialogue_classmate_3_1_7()
+            img black_screen
+            with diss
+            sound highheels_short_walk
+            pause 1.5
+#            music Road_Trip
             img 22269
+            with fadelong
             m "Я беру его."
-#            vivian "Пожалуйста, ваш костюм."
+#            cashier "Пожалуйста, ваш костюм."
 
             # Если Моника вела себя хорошо с Вивиан
             img 22270
-            $ notif(_("Моника вела себя с Вивиан вежливо."))
-            vivian "Специально для Вас скидка 50 процентов."
-            vivian "Приходите к нам еще. Мы всегда рады вас видеть."
-            #
+            if clothShopCashierOffended2 == False and clothShopCashierOffended3ReturnDress == False and clothShopCashierFirstNightOffended == False:
+                $ notif(_("Моника вела себя с Вивиан вежливо."))
+                cashier "Специально для Вас скидка 50 процентов."
+            $ add_money(-schoolOutfitPrice)
 
+            cashier "Приходите к нам еще. Мы всегда рады вас видеть."
+            #
             m "Спасибо. Обязательно."
             return 1
-        "Получить костюм бесплатно.":
+        "Получить костюм бесплатно." if monicaNeedToSellDress == True:
             # если Моника работала манекеном
             mt "Я могу получить этот костюм бесплатно, если соглашусь работать манекеном."
             mt "Но у меня нет времени на это."
             mt "Малявка сказал, что чем быстрее я поговорю с учителем, тем лучше."
             mt "..."
             return 2
-        "Получить скидку на костюм.":
+        "Получить скидку на костюм." if monicaNeedToSellDress == True:
             # если Моника работала манекеном
             pass
 
     # Моника подозрительно
     img 22239
+    with diss
     mt "..."
     mt "Большая скидка? Хм."
     m "И что же я должна буду сделать?"
 
     # Вивьен с многозначительной улыбочкой
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    music Loved_Up
     img 22241
-    vivian "Я знала, что тебе понравится этот вариант."
+    with fadelong
+    cashier "Я знала, что тебе понравится этот вариант."
     img 22242
+    with diss
     mt "!!!"
     img 22243
-    vivian "Просто поцелуй мой животик."
+    with fade
+    cashier "Просто поцелуй мой животик."
+    music Groove2_85
     img 22244
+    with diss
     mt "???"
     img 22245
+    with fade
     m "Просто поцеловать?"
     # Вивьен приподнимает топ, улыбается
     img 22246
+    with diss
     mt "..."
     img 22247
+    with fade
     mt "Фу! Она снова принуждает меня делать всякие мерзости."
     mt "!!!"
     img 22248
-    vivian "Да. Давай, просто сделай это и заберешь костюм со скидкой."
+    with diss
+    cashier "Да. Давай, просто сделай это и заберешь костюм со скидкой."
     # Моника с недовольным видом наклоняется и целует ее в живот, Вивьен довольно улыбается и приспускает шорты
+    $ menu_corruption = [monicaVivianSchoolOutfitLick1]
     menu:
         "Поцеловать животик.":
             pass
         "Уйти.":
             m "Я не собираюсь продолжать это!"
-            return False
+            return 3
+    sound highheels_short_walk
+    music Loved_Up
     img 22249
+    with fadelong
     w
     img 22250
+    with diss
     w
+    sound snd_kiss2
     img 22251
+    with diss
     w
+    sound snd_fabric1
     img 22252
-    vivian "Давай, еще один разочек немного ниже."
+    with fade
+    cashier "Давай, еще один разочек немного ниже."
+    music Groove2_85
     img 22253
+    with diss
     m "Ты говорила про один поцелуй!" #возмущенно
-
-    vivian "Я не уточнила сколько раз нужно поцеловать мой животик."
+    cashier "Я не уточнила сколько раз нужно поцеловать мой животик."
     img 22254
+    with diss
     mt "!!!"
+    $ menu_corruption = [monicaVivianSchoolOutfitLick2]
     menu:
         "Поцеловать животик ниже.":
             pass
         "Уйти.":
             m "Я не собираюсь продолжать это!"
-            return False
+            return 3
     # Моника снова с отвращением целует ее живот, Вивьен еще ниже приспускает шорты
+    music Loved_Up
+    sound snd_kiss2
     img 22255
+    with diss
     w
+    #sound звук мммммм
     img 22256
-    vivian "Ммм..."
+    with fade
+    cashier "Ммм..."
+    sound snd_fabric1
     img 22257
-    vivian "И еще..."
+    with diss
+    cashier "И еще..."
+    music Groove2_85
     img 22258
+    with fade
     mt "Да она издевается!"
     img 22259
+    with diss
     m "Я не буду больше этого делать!" #снова возмущенно
     img 22260
-    vivian "Последний раз и все. Иначе никакой скидки!"
+    with fade
+    cashier "Последний раз и все. Иначе никакой скидки!"
     img 22261
+    with diss
+    $ menu_corruption = [monicaVivianSchoolOutfitLick3]
     menu:
         "Поцеловать животик еще ниже.":
             pass
         "Уйти.":
             m "Я не собираюсь продолжать это!"
-            return False
+            return 3
     mt "Какая мерзость!"
+    sound snd_kiss3
+    music Loved_Up2
     img 22262 # целует
+    with diss
     w
+    sound Jump1
     img 22263
+    with diss
     mt "!!!"
     # Моника злится, но целует, на лице отвращение
     img 22264
-    vivian "Ммм... Это было приятно." #Вивьен довольна
-    vivian "Теперь можешь купить этот костюм со скидкой."
+    with fade
+    cashier "Ммм... Это было приятно." #Вивьен довольна
+    cashier "Теперь можешь купить этот костюм со скидкой."
+    music Groove2_85
     img 22265
+    with diss
     mt "Ну наконец-то!"
 
+    call dialogue_classmate_3_1_7()
     # Вивьен оформляет покупку, отдает костюм с улыбкой, Моника держится высокомерно
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    music Road_Trip
+    $ add_money(-monicaEricCollegeDressPriceLickingDiscount)
     img 22269
-    mt "..."
+    with fadelong
+    m "Я беру его."
     img 22270 #?
+    with diss
+    cashier "Твой костюм. Надеюсь, ты скоро придешь снова."
+    sound highheels_short_walk
     img 22271
-    vivian "Твой костюм. Надеюсь, ты скоро придешь снова."
+    with diss
+    cashier "Тебе же понравился мой индивидуальный подход к постоянным клиентам?" #многозначительно улыбается
+    sound jump2
     img 22272
-    vivian "Тебе же понравился мой индивидуальный подход к постоянным клиентам?" #многозначительно улыбается
-
+    with diss
+    w
+    music Groove2_85
+    sound Jump1
     img 22273
+    with fade
     m "Очень!" #зло
     # Моника забирает покупку
+    $ monicaBoughtSchoolOutfitByLicking = True
+    return 4
 
-    # На улице
-    mt "Надеюсь, что мне больше не придется возвращаться в этот магазин с дурацкой одеждой для людей без вкуса."
-    mt "И общаться с НЕЙ!"
+label dialogue_classmate_3_1_1a:
+    if cloth_type == "SchoolOutfit":
+        mt "В этой районе одни извращенцы."
+        mt "Которые только и мечтают, чтобы изнасиловать приличную домохозяйку..."
+        mt "Я не пойду туда!"
+        return False
+    return
+
+
+label dialogue_classmate_3_1_1b:
+    mt "!!!"
+    mt "Чертова лесбиянка!"
+    return
+
+
+label dialogue_classmate_3_1_1c:
+    mt "Я не хочу шататься по городу в таком провинциальном виде..."
     mt "Фи!"
     return
 
@@ -1184,13 +1345,22 @@ label dialogue_classmate_3_1_6:
 # Моника в примерочной, костюм с шортами
 label dialogue_classmate_3_1_7:
     # Моника надевает в примерочной шортики и блузку, смотрит на себя в этом костюме
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 2.0
+    music Road_Trip
     img 22266
+    with fadelong
     mt "Какой ужас!"
     img 22267
+    with diss
     mt "..."
     mt "Я в нем похожа на маму?"
     mt "По крайней мере, выгляжу получше, чем эта деревенщина в своем ужасном платье."
     img 22268
+    with diss
     mt "Думаю, что не найду ничего более приемлимого в этом магазине. Только время зря потрачу."
     mt "Это, конечно, лучше, чем тот ужас, в котором я хожу по этому району, но все-же..."
     return
@@ -1232,6 +1402,10 @@ label dialogue_classmate_3_2d:
 label dialogue_classmate_3_2:
     # не рендерить!!!
 #    mt "Сейчас мне нужно переодеться и идти в колледж."
+    mt "Надеюсь, что мне больше не придется возвращаться в этот магазин с дурацкой одеждой для людей без вкуса."
+    mt "И общаться с НЕЙ!"
+    mt "Фи!"
+    mt "..."
     mt "Сейчас мне нужно идти в колледж."
     mt "Если я сделаю что-то не так, Барди меня накажет и снова будет угрожать Маркусом."
     mt "Лучше лишний раз не связываться с этой малявкой."
@@ -1294,192 +1468,300 @@ label dialogue_classmate_3_3i:
 label dialogue_classmate_4:
     # не рендерить!
     # Моника одета в костюм мамы, чем очень недовольна
-    mt "Чувствую себя ужасно в этом наряде. Как эта деревенщина Бетти может подобное надевать?"
-    mt "Поверить не могу! Я, Моника Бакфетт, буду притворяться какой-то миссис Б..."
-    mt "Забыла... Вот черт. Что-то на Б..."
-    mt "А учитель, по-моему, Эдвардс. Надеюсь, у меня получится все быстро сделать. И поскорее забыть об этих глупостях малявок."
-    mt "Как-будто у меня своих проблем мало! Еще этот Барди со своим другом..."
-    mt "Так, Моника, соберись! Нужно сделать все, как хочет Барди, иначе проблем станет еще больше."
+    if day_time != "evening":
+        $ remove_hook()
+        mt "Чувствую себя ужасно в этом наряде. Как эта деревенщина Бетти может подобное надевать?"
+        mt "Поверить не могу! Я, Моника Бакфетт, буду притворяться какой-то миссис Б..."
+        mt "Забыла... Вот черт. Что-то на Б..."
+        mt "А учитель, по-моему, Эдвардс. Надеюсь, у меня получится все быстро сделать. И поскорее забыть об этих глупостях малявок."
+        mt "Как-будто у меня своих проблем мало! Еще этот Барди со своим другом..."
+        mt "Так, Моника, соберись! Нужно сделать все, как хочет Барди, иначе проблем станет еще больше."
+        return False
+    return
+
+label dialogue_classmate_4a:
+    # Моника говорит при входе в калитку дома (если одето schooloutfit)
+    mt "Мне лучше не показываться в этом провинциальном наряде перед Бетти."
+    mt "Эта дура подумает что я хочу занять ее место рядом с Ральфом."
+    mt "Нет, Я, конечно, хочу занять ее место, потому что оно МОЕ!"
+    mt "Но без этого тюфяка Ральфа."
+    mt "Это мой дом! И только мой!"
     return
 
 # Колледж. Класс. Разговор Моники и учителя.
 label dialogue_classmate_5:
     if dialogue_classmate_5_flag == False:
         # Моника стоит у дверей, учитель сидит за учительским столом
+        music Groove2_85
         img 14944
+        with fadelong
         w
         img 14945
+        with diss
         w
+        sound highheels_short_walk
         img 14946
+        with diss
         mt "Это учитель? Надеюсь, разговор с ним не займет у меня много времени."
         img 14947
+        with fade
         m "Мистер Эд... Эдвардс?"
         # учитель поворачивается к ней с серьезным лицом
         img 14948
+        with diss
         teacher "Да. Миссис Бейкер, я полагаю?"
         img 14949
+        with diss
         mt "Точно. Бейкер. Как я могла забыть?"
         img 14950
+        with fade
         m "Да, мистер Эдвардс. Я пришла поговорить про моего сына Эрика."
         img 14951
+        with diss
         mt "Мелкого озабоченного извращенца..."
         img 14952
+        with fade
         teacher "Проходите, миссис Бейкер. Присаживайтесь." #предлагает ей стул сбоку от учительского стола
         # учитель общается очень вежливо, с выражением лица 'солидный учитель', Моника спокойно его слушает
+        music stop
+        img black_screen
+        with diss
+        pause 1.5
+        sound highheels_short_walk
+        music Groove2_85
         img 14953
+        with fadelong
         teacher "Эрик - один из лучших студентов в классе и никогда с ним не было проблем. Но вот на днях..."
         teacher "На днях Эрик залез в шкафчик с одеждой тренера по плаванию. И она его застала за тем, что он дро... хм-м, что он мастурбировал, используя ее нижнее белье."
+        sound Jump2
         img 14954
+        with hpunch
         mt "И почему я не удивлена?.." #Моника продолжает его спокойно слушать с непроницаемым лицом
         img 14956
+        with fade
         teacher "Тренер очень возмущена и собирается идти к директору. Она будет требовать у директора наказать Эрика."
         teacher "Но я ее уговорил немного подождать, так как хотел поговорить сначала с вами."
+        sound Jump1
         img 14955
+        with diss
         teacher "Возможно, мы с вами сможем уладить этот вопрос без вмешательства директора."
         teacher "Я не хотел бы, чтобы у Эрика была плохая характеристика. И чтобы об этом инциденте узнал весь колледж."
         img 14957
+        with diss
         mt "Какая-нибудь мама на моем месте, наверное, была бы в шоке."
         mt "Нужно сказать этому мистеру Эдвардсу что-нибудь эмоционально. Как там Барди мне говорил?"
         # Моника делает удивленное лицо
+        music Hidden_Agenda
         img 14958
+        with fade
         m "Мистер Эдвардс, я просто шокирована поступком Эрика! Я обязательно серьезно поговорю с ним!"
         m "Такого больше не повторится, мистер Эдвардс. И я предпочла бы, чтобы не было никакой огласки."
         # учитель с серьезным лицом
         img 14959
+        with diss
         teacher "Я абсолютно с вами согласен, миссис Бейкер."
         img 14960
+        with diss
         mt "Отлично!"
         # Моника встает со стула, смотрит на учителя
+        sound highheels_short_walk
         img 14961
+        with fade
         m "Значит, мы с вами все уладили? Я тогда пойду."
         # учитель отводит взгляд, потом снова смотрит на нее
+        music Groove2_85
         img 14962
+        with diss
         teacher "Нет, миссис Бейкер. Не торопитесь. Мы не уладили..."
         img 14963
         mt "???"
         # Моника вопросительно смотрит на него, садится обратно
+        sound highheels_short_walk
         img 14964
+        with fade
         teacher "Видите ли, миссис Бейкер, основная сложность - это успокоить учителя по плаванию."
         teacher "Мисс Мэнсфилд сильно рассержена на Эрика..."
         img 14965
+        with diss
         m "..."
         img 14966
+        with fade
         teacher "И я даже не знаю, как это сделать."
         teacher "Она очень строгая и так просто с ней не договориться."
         img 14967
+        with diss
         teacher "Если у меня получится, тогда с Эриком все будет в порядке. Никто ничего не узнает."
         teacher "Но это будет крайне сложно сделать..."
         img 14968
+        with fade
         m "Мистер Эдвардс, есть ли у вас какие-нибудь идеи? Как вы сможете договориться с ней?" #с досадой
         img 14969
+        with diss
         teacher "Да, идея есть. Она хочет номинироваться на преподавателя года."
         teacher "Для этого ей нужна не только физическая форма и успехи в педагогике..."
         teacher "Но и солидный объем теоретической работы."
         img 14970
+        with diss
         teacher "Она должна предложить какую-нибудь прогрессивную методику преподавания. Таковой у нее нет."
         teacher "А у меня как раз есть кое-какие наработки по современной методике преподавания. И я мог бы передать их мисс Мэнсфилд." #все это с очень важным видом
         teacher "Но, понимаете, миссис Бейкер... Просто так я это сделать не могу. Я потратил немало времени на эту работу."
         img 14971
+        with diss
         teacher "Если вы меня поддержите, миссис Бейкер, то я сегодня же поговорю с ней. И предложу помочь мисс Мэнсфилд с этой методикой."
         # Моника удивляется
+        music Hidden_Agenda
         img 14972
+        with fade
         m "Каким образом я могу вас поддержать, мистер Эдвардс? Что мне нужно сделать?"
         img 14973
+        with diss
         mt "Хоть на этот раз обойдется без сомнительных просьб в мой адрес..."
         mt "Это все-таки учитель. Он должен быть высокоморальным человеком и примером для своих учеников."
         # учитель, смущенно улыбаясь
+        music Groove2_85
         img 14974
+        with fade
         teacher "Мне не совсем удобно, миссис Бейкер..."
         teacher "Но дело уж очень деликатное..."
         teacher "Я вынужден попросить вас о небольшом одолжении. Это все же делается ради вашего сына, миссис Бейкер."
         # Моника с серьезным лицом
+        music Hidden_Agenda
         img 14976
+        with diss
         m "Каком одолжении, мистер Эдвардс? Я сделаю, что нужно."
         # учитель, смущенно
+        music Groove2_85
         img 14975
+        with fade
         teacher "Если бы вы, миссис Бейкер, смогли показать мне хотя бы свою грудь..."
         teacher "То я был бы очень рад этому."
         teacher "Это очень поддержало бы меня морально."
         # Моника в шоке
+        music Power_Bots_Loop
         img 14977
+        with hpunch
         mt "!!!"
         img 14978
-        menu:
-            "Убежать.":
-                img 14979
-                m "Я не буду этого делать!!!"
-                return False
-            "Постараться договориться с учителем без этих извращений.":
-                img 14980
-                m "Мистер Эдвардс! Я не ожидала, что вы можете предложить мне подобное!"
-                m "Я же мать вашего ученика. Как так можно?"
-                # Моника вскакивает со стула, учитель ей, с сожалением
-                img 14981
-                teacher "Тогда у меня, к сожалению, никак не выйдет договориться с мисс Мэнсфилд."
-                teacher "И она создаст Эрику большие проблемы."
-                img 14982
-                teacher "..."
-                return 1
-            "Если это поможет быстро решить проблему малявки, то, возможно, стоит потерпеть...":
-                pass
-        $ dialogue_classmate_5_flag = True
+        with diss
     else:
+        music Groove2_85
         img 14983
+        with fadelong
         teacher "А, миссис Бейкер! Это вы? Ну как, вы надумали?" #с улыбочкой
 
+    if dialogue_classmate_5_flag == False:
+        $ menu_corruption = [0, monicaTeacherCorruption2, monicaTeacherCorruption1]
+    else:
+        $ menu_corruption = [0, monicaTeacherCorruption4, monicaTeacherCorruption3]
+    $ dialogue_classmate_5_flag = True
+    menu:
+        "Убежать.":
+            img 14979
+            with fadelong
+            m "Я не буду этого делать!!!"
+            return False
+        "Постараться договориться с учителем без этих извращений.":
+            music Groove2_85
+            img 14980
+            with fade
+            m "Мистер Эдвардс! Я не ожидала, что вы можете предложить мне подобное!"
+            m "Я же мать вашего ученика. Как так можно?"
+            # Моника вскакивает со стула, учитель ей, с сожалением
+            img 14981
+            with diss
+            teacher "Тогда у меня, к сожалению, никак не выйдет договориться с мисс Мэнсфилд."
+            teacher "И она создаст Эрику большие проблемы."
+            img 14982
+            with diss
+            teacher "..."
+        "Если это поможет быстро решить проблему малявки, то, возможно, стоит потерпеть...":
+            pass
+
     # Моника стоит у учителького стола сбоку
+    music Hidden_Agenda
     img 14984
+    with diss
     mt "Мне нужно всего лишь показать грудь. А она у меня действительно великолепна."
     mt "В принципе, если это все, что от меня требуется..."
     mt "И этим я смогу отделаться от надоедливого Барди... то, возможно, стоит пойти на это."
     img 14985
+    with diss
     mt "Он же хочет, чтобы я просто показала грудь. На большее не намекает."
     mt "Хотя мог бы воспользоваться ситуацией."
     mt "Я уже насмотрелась на разных извращенцев и этот мистер Эдвардс не похож на них."
+    music Groove2_85
     img 14986
+    with fade
     m "Хорошо, мистер Эдвардс. Я покажу грудь, но только прикасаться ко мне я не позволю."
     m "Можно только посмотреть!" #строго
     # учитель, довольно улыбаясь, встает со своего стула
     img 14987
+    with diss
     teacher "Конечно! Я только посмотрю."
     teacher "Это и правда мне очень поможет, миссис Бейкер."
     # Моника с недовольным лицом приспускает блузку и оголяет грудь, учитель пялиться на нее
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 2.0
+    music Loved_Up
     img 14988
+    with fadelong
     m "..."
     img 14989
+    with diss
     teacher "Вы потрясающе красивая женщина, миссис Бейкер! Я никогда не видел более красивой груди!"
     img 14990
+    with diss
     mt "Еще бы! Я владелица модного журнала и самая красивая женщина в этом городе!"
     mt "Или, вообще, во всей этой стране!"
     img 14991
+    with fade
     teacher "Можно я прикоснусь совсем немного?"
+    music Groove2_85
     img 14992
+    with hpunch
     m "Нет, мы так не договаривались. Вы достаточно посмотрели, мистер Эдвардс?" #строго
     img 14993
+    with fade
     teacher "Да, спасибо, миссис Бейкер. Я уверен, что у меня теперь все получится."
     # Моника приводит блузку в порядок
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 2.0
+    music Groove2_85
     img 14994
+    with fadelong
     m "Мистер Эдвардс, как я узнаю, что у вас получилось все уладить с мисс Мэнсфилд?"
     m "Я должна быть уверена в положительном результате."
     img 14995
+    with diss
     teacher "Я позвонил бы вам, но так как дело очень деликатное и я боюсь огласки..."
     teacher "Будет лучше, если вы снова придете ко мне. И тогда я вам лично все сообщу, миссис Бейкер." #с улыбочкой
     # Моника недовольна
+    music Hidden_Agenda
     img 14998
+    with fade
     mt "Черт! Мне снова нужно будет приходить сюда!"
     mt "..."
     img 14999
+    with diss
     mt "А если что-то у учителя пойдет не так?"
     mt "То у Эрика будут проблемы. И у меня тогда тоже... с Барди."
+    music Groove2_85
     img 14996
+    with fade
     m "Договорились, мистер Эдвардс. Буду надеяться на успешное решение этой проблемы."
     m "До встречи."
     img 14997
+    with diss
     teacher "До свидания, миссис Бейкер."
     teacher "Приятно было с вами познакомиться."
     # Моника уходит
-    $ log1 = _("Сходить к Мистеру Эдвардсу, чтобы узнать решил-ли он проблему Эрика")
-    $ log1 = _("Барди совсем обнаглел и заставляет меня быть мамой для своего одноклассника. Такого же неудачника как он сам!")
+#    $ log1 = _("Барди совсем обнаглел и заставляет меня быть мамой для своего одноклассника. Такого же неудачника как он сам!")
     return
 
 # Город. Школьный двор. Моника, выйдя с колледжа.
@@ -1498,92 +1780,372 @@ label dialogue_classmate_5_1a:
     mt "Он же учитель! Он должен подавать пример своим ученикам!"
     mt "Я больше не хочу разговаривать с ним! Пусть эти малявки сами разбираются!!!"
     mt "Нужно будет зайти к малявке и сказать, что ноги моей больше не будет в этом колледже."
-    return
+    return False
 
 # Дом. Комната Барди. Барди, Моника.
-label dialogue_classmate_5_1b:
+label dialogue_classmate_5_1b: # если ушла от учителя
     # Моника заходит в комнату Барди, тот сидит на кровати, залипнув в телефон
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.5
+    music Groove2_85
     img 15145
+    with fadelong
     w
     img 15146
+    with diss
     mt "Ненавижу эту малявку! Он меня достал уже со своими глупостями!"
     # Барди вопросительно смотрит на нее
     img 15147
+    with fade
     bardie "Ну как сходила, гувернантка? Надеюсь, у тебя все получилось уладить?"
     # Моника недовольно
     img 15148
+    with diss
     m "Если бы твой друг включил мозг, когда надумал залезть в шкафчик мисс Мэнсфилд. То проблем бы никаких не было."
     # Барди смотрит на Монику
     img 15149
+    with fade
     bardie "И? Проблема решена?"
     # Моника орет
+    music Power_Bots_Loop
     img 15150
     m "Нет! И я не собираюсь заниматься этими глупостями!"
     m "Я не пойду больше в этот твой чертов колледж! Разбирайтесь сами!"
     # Барди угрожающе
+    music Groove2_85
     img 15151
+    with fade
     bardie "Гувернантка забыла, что Эрик делает хозяину домашку?"
+    music Power_Bots_Loop
     img 15152
     m "Да какое мне дело до этого?!" #возмущенно
     m "Пусть сам решает свои проблемы!!!"
+    music Groove2_85
     img 15153
+    with fade
     bardie "Гувернантка плохая! Ее надо наказать!"
-    bardie "Покажи мне, как хорошо ты соблюдаешь правила этого дома!"
-    img 14596
-    m "!!!" # зло смотрит на него
-    img 15154
-    mt "Надеюсь, после этого он, наконец, отстанет от меня."
-    # поднимает юбку БАРДИ НАКАЗЫВАЕТ МОНИКУ - ШЛЕПАЕТ ПО ПОПЕ
-    bardie "Гувернантка ослушалась приказа хозяина!"
-    bardie "Плохая гувернантка!"
-    bardie "Гувернантка поняла, что вела себя плохо?"
-    bardie "Гувернантка больше не будет так делать и выполнит все, что скажет хозяин?"
-    bardie "Гувернантка должна пойти в колледж и решить проблему Эрика!"
 
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(_("5 минут спустя..."))
+    img black_screen
+    with Dissolve(2.0)
+    music Groove2_85
+
+    if monicaUnder != "Nude":
+        sound snd_fabric1
+        if monicaBettyPanties == False:
+            if monicaUnder != "Nude":
+                img 10272
+        else:
+            if monicaBettyPantiesId == 1:
+                #betty
+                img 10273
+            if monicaBettyPantiesId == 2:
+                img 10274
+            if monicaBettyPantiesId == 3:
+                img 10275
+            if monicaBettyPantiesId == 4:
+                img 10276
+            if monicaBettyPantiesId == 5:
+                img 10277
+        with fadelong
+        bardie "Покажи мне, как хорошо ты соблюдаешь правила этого дома!"
+        sound snd_fabric1
+        if monicaBettyPanties == False:
+            if monicaUnder != "Nude":
+                #governess
+                img 10292
+                with diss
+                w
+                img 10293
+                with diss
+                w
+        else:
+            if monicaBettyPantiesId == 1:
+                #betty
+                img 10295
+                with diss
+                w
+                img 10294
+                with diss
+                w
+                img 10305
+                with diss
+                w
+        #
+            if monicaBettyPantiesId == 2:
+                img 10296
+                with diss
+                w
+                img 10297
+                with diss
+                w
+                img 10306
+                with diss
+                w
+        #
+            if monicaBettyPantiesId == 3:
+                img 10299
+                with diss
+                w
+                img 10298
+                with diss
+                w
+                img 10307
+                with diss
+                w
+        #
+            if monicaBettyPantiesId == 4:
+                img 10300
+                with diss
+                w
+                img 10301
+                with diss
+                w
+                img 10308
+                with diss
+                w
+        #
+            if monicaBettyPantiesId == 5:
+                img 10303
+                with diss
+                w
+                img 10302
+                with diss
+                w
+                img 10304
+                with diss
+                w
+    else:
+        img 10281
+        with fadelong
+        bardie "Покажи мне, как хорошо ты соблюдаешь правила этого дома!"
+    img 10309
+    with fade
+    w
+    img 10310
+    with fade
+    w
+    img 10311
+    with fade
     mt "Ненавижу его!"
+    img 10312
+    with fade
+    w
+    img 10313
+    with fade
     mt "Он меня этим не напугает и не заставит идти к учителю!"
+    img 10314
+    with fade
+    w
+    img 10315
+    with fade
     mt "Он все равно не добьется своего!"
+    img 10316
+    with fade
+    w
+    img 10317
+    with fade
     mt "Я не пойду в этот чертов колледж! Я не хочу!!!"
-    mt "Черт! Как больно! Когда он уже остановится?!"
+    img 10318
+    with fade
+    w
+    img 10319
+    with fade
+    w
 
-    m "!!!"
-    m "Я хорошая гувернантка!"
-    m "Но я не пойду в колледж!"
-    mt "Нет! Я не пойду туда больше!"
-    mt "Я хорошая гувернантка! Я поговорю с учителем еще раз!"
+
+label dialogue_classmate_5_1b_loop1:
+    # Барди шлепает Монику
+
+    music stop
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_1 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_1.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_1
+    wclean
+    stop music
+
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_2 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_2.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_2
+    bardie "Гувернантка ослушалась приказа хозяина!"
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_3 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_3.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_3
+
+    bardie "Получай!"
+    bardie "Плохая гувернантка!"
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_4 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_4.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_4
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_5 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_5.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_5
+    bardie "Гувернантка поняла, что вела себя плохо?"
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_6 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_6.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_6
+    bardie "Гувернантка больше не будет так делать и выполнит все, что скажет хозяин?"
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_7 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_7.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_7
+    bardie "Гувернантка должна пойти в колледж и решить проблему Эрика!"
+    wclean
+    stop music
+
+    music Power_Bots_Loop
+    mt "Черт! Как больно! Когда он уже остановится?!"
+    menu:
+        "Отпусти меня немедленно, малявка!":
+            img 10320
+            with fade
+#            m "!!!"
+            m "Я хорошая гувернантка!"
+            m "Но я не пойду в колледж!"
+            m "Отпусти меня немедленно, малявка!"
+#            mt "Нет! Я не пойду туда больше!"
+            jump dialogue_classmate_5_1b_loop1
+        "Я поняла! Я буду слушаться хозяина!":
+            pass
+
+
+    music Groove2_85
+    img 10321
+    with fade
+    m "Я поняла! Я буду слушаться хозяина!"
+    img 10322
+    with fade
+    m "Я хорошая гувернантка! Я поговорю с учителем еще раз!"
+    img 10323
+    with fade
+    bardie "Так-то лучше!"
+    img 10324
+    with diss
+    bardie "Если будешь себя снова плохо вести, получишь еще!"
+    img 10325
+    with fade
+    bardie "Гувернантка, можешь продолжать работать..."
+    bardie "Ты мне пока не нужна."
+
+    music stop
+    img black_screen
+    with Dissolve(1.0)
+    pause 1.0
+    music Pyro_Flow
+    img 10326
+    with fadelong
+    mt "Не могу поверить!"
+    mt "Этот малявка отшлепал меня словно я маленький ребенок!"
+
+    #Если повтор
+    if bardieMonicaPunishmentCount > 1:
+        img 10327
+        with fade
+        mt "И уже не первый раз!!!"
+        #
+        img 10327
+        mt "В моем же доме!"
+        mt "Отшлепали! Меня!!!"
+        mt "Монику Бакфетт!!!"
+        #
+
+    img 10328
+    with fade
+    mt "У меня попа горит!"
+    img 10329
+    with diss
+    mt "Что этот Барди себе позволяет?!"
+
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Groove2_85
+    img 10330
+    with fadelong
+    mt "Как унизительно!"
+    mt "Мне надо как-то избавиться от него!"
+
+
+#    img 14596
+#    m "!!!" # зло смотрит на него
+#    img 15154
+#    mt "Надеюсь, после этого он, наконец, отстанет от меня."
+    # поднимает юбку БАРДИ НАКАЗЫВАЕТ МОНИКУ - ШЛЕПАЕТ ПО ПОПЕ
+#    bardie "Гувернантка ослушалась приказа хозяина!"
+#    bardie "Плохая гувернантка!"
+#    bardie "Гувернантка поняла, что вела себя плохо?"
+#    bardie "Гувернантка больше не будет так делать и выполнит все, что скажет хозяин?"
+#    bardie "Гувернантка должна пойти в колледж и решить проблему Эрика!"
+
+
     return
 
 # Дом. Комната Барди. Барди, Моника и Эрик.
-label dialogue_classmate_6:
+label dialogue_classmate_6: # Моника успешно сходила к учителю
     # Моника заходит в комнату Барди, Эрик сидит на стуле возле ноута, Барди стоит рядом
+    img 22277
     mt "Ненавижу этих двух малявок! Надеюсь, сегодня обойдется без уроков по вылизыванию меня там..."
     # Барди и Эрик вопросительно смотрят
+    img 22278
     bardie "Ну как сходила, гувернантка? Надеюсь, у тебя все получилось уладить?"
     # Моника недовольно
+    img 22279
     m "Если бы твой друг включил мозг, когда надумал залезть в шкафчик мисс Мэнсфилд. То проблем бы никаких не было."
     # Эрик снова залипает в ноут, теряя интерес, Барди смотрит на Монику
+    img 22280
     m "А теперь мне и учителю приходится думать о том, как это уладить!" #возмущенно
     m "Мистер Эдвардс сказал, что поговорит с мисс Мэнсфилд. Как будет результат, он мне сообщит."
     m "Из-за этого мне снова придется идти в колледж."
     m "А это никак не входило в мои планы!"
     # Барди
+    img 22281
     bardie "Гувернантка хорошая! Я вижу, что она старается."
     bardie "Если у нее получится все уладить, то я буду очень доволен своей гувернанткой!"
+    img 22282
     mt "..."
+    img 22283
     bardie "Теперь можешь идти, гувернантка."
     bardie "Ты на сегодня свободна."
+    return
+
+label dialogue_classmate_6a:
     mt "Черт, мне снова придется надевать этот дурацкий костюм для провинциалок. Фи!"
     return
 
 # Город. Школьный двор. Моника перед колледжем.
 label dialogue_classmate_7:
+    $ dialogue_classmate_7_flag = True
     # не рендерить!
     # Моника, как в прошлый раз, одета в костюм мамы
     mt "Чувствую себя ужасно в этом костюме. Как эта деревенщина Бетти может подобное надевать?"
     mt "Надеюсь, у учителя все получилось, и мне не придется возвращаться сюда снова."
     mt "Нужно сделать все, чтобы у этого мелкого озабоченного извращенца не было проблем в колледже."
     mt "Иначе у меня возникнут проблемы посерьезнее, чем есть сейчас."
-    return
+    return False
 
 # Колледж. Класс. Разговор Моники и учителя.
 label dialogue_classmate_8:

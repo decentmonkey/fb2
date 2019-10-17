@@ -145,6 +145,9 @@ label EP22_Quests_Bardie6_panties_box:
     if cloth == "CasualDress1":
         mt "Я не могу одеть никакие трусики под это платье..."
         return
+    if cloth == "SchoolOutfit1":
+        mt "Я не могу одеть никакие трусики под эти обтягивающие шорты..."
+        return
 
     $ store_music()
     music Hidden_Agenda

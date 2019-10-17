@@ -59,7 +59,7 @@ label map:
     $ scene_image = "scene_Map" + day_suffix
 
     call define_hudpresets() from _call_define_hudpresets_1
-
+    $ clear_scene_from_objects(scene_name)
     if hud_presets[hud_preset_current]["display_closemap"] == True:
         $ add_object_to_scene("Close", {"type" : 2, "img_overlay": "map_close" + res.suffix, "base":"map_close_hover" + res.suffix, "click" : "map_environment", "actions" : "l", "zorder":10, "xsprite":1839, "ysprite":17}, scene="map", owner=owner)
 

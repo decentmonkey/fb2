@@ -1,3 +1,22 @@
+# v0.8
+define monicaEricCollegeDressPriceRegular = 40 # Цена за платье в квесте Эрика
+define monicaEricCollegeDressPriceDiscount = 20 # Цена за платье в квесте Эрика со скидкой
+define monicaEricCollegeDressPriceLickingDiscount = 5 # Цена за платье, если Моника поцелует животик Вивиан
+
+define monicaVivianSchoolOutfitLick1 = 150 # Моника покупает за поцелуй1
+define monicaVivianSchoolOutfitLick2 = 170 # Моника покупает за поцелуй2
+define monicaVivianSchoolOutfitLick3 = 200 # Моника покупает за поцелуй3
+define monicaVivianSchoolOutfitLickBuy = 15 # corruption добавляется за покупку платья поцелуем
+
+define monicaTeacherCorruption1 = 350 # Моника показывает грудь сразу
+define monicaTeacherCorruption2 = 310 # Моника показывает грудь, поломавшись
+
+define monicaTeacherCorruption3 = 250 # Моника показывает грудь сразу
+define monicaTeacherCorruption4 = 210 # Моника показывает грудь, поломавшись
+
+define monicaTeacherAddCorruption1 = 10 # За показ груди день 1
+#
+
 define monicaBardieTitJobCorruption = 170 # Сделать Барди titjob
 define monicaBettyKitchenBoobsCorruption = 250 # Показ груди на кухне при Бетти.
 

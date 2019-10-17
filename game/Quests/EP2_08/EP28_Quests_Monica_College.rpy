@@ -1,6 +1,12 @@
 default ep28_monica_eric_meeting_completed = False
 default ep28_monica_bardie_eric_college_inited = False
 default ep28_monica_bardie_eric_quest_stage = 0
+default monicaHasSchoolOutfit1 = False
+default monicaBoughtSchoolOutfitByLicking = False
+default monicaHasSchoolOutfit1Day = 0
+default monicaEricQuest1Stage = 0
+default ep28_monica_bardie_eric_college4_visit1_data = 0
+default monicaBettyLesbian = False # у Моники и Бетти было лесби
 
 label ep28_monica_bardie_init:
     $ add_hook("Teleport_BedroomBardie", "ep28_monica_college_check_bardie_bedroom_clothes", scene="floor2", priority = 300, label="bedroom_bardie_check_cloth")
@@ -74,24 +80,209 @@ label ep28_monica_bardie_eric_college1:
     if day_time != "evening":
         return
     $ remove_hook()
-    $ autorun_to_object("dialogue_classmate_1b", scene="basement_bedroom2")
+    $ autorun_to_object("dialogue_classmate_1d", scene="basement_bedroom2")
+    $ add_hook("enter_scene", "dialogue_classmate_1b", scene="floor2", label="bardie_eric_quest_college", once=True)
+    $ add_hook("enter_scene", "dialogue_classmate_1b", scene="floor1", label="bardie_eric_quest_college", once=True)
+    $ add_hook("enter_scene", "dialogue_classmate_1b", scene="basement_pool", label="bardie_eric_quest_college", once=True)
+    $ add_hook("enter_scene", "dialogue_classmate_1b", scene="floor1_stairs", label="bardie_eric_quest_college", once=True)
     $ add_objective("go_to_bardie", _("Идти к Барди в комнату"), c_orange, 45)
-    $ move_object("Betty", "empty")
+    $ move_object("Betty", "bedroom1")
     call refresh_scene_fade()
     $ add_hook("Teleport_BedroomBardie", "ep28_monica_bardie_eric_college2", scene="floor2", label="bardie_eric_quest_college")
     return
 
 label ep28_monica_bardie_eric_college2:
-    $ remove_hook()
+    $ remove_hook(label="bardie_eric_quest_college")
     call dialogue_classmate_2() # Барди говорит Монике притворяться мамой Эрика
     $ add_hook("Teleport_BedroomBardie", "dialogue_classmate_1_1", scene="floor2", label=["bardie_eric_quest_college", "evening_time_temp"]) # Разблокируем комнату Барди на след.день
+    $ autorun_to_object("dialogue_classmate_2_1", scene="floor2") # Моника комментирует
+    $ remove_objective("go_to_bardie")
+    $ add_objective("find_dress_for_college", _("Найти наряд, чтобы притвориться мамой Эрика"), c_green, 45)
+    $ add_hook("enter_scene", "dialogue_classmate_3", scene="street_cloth_shop")
+    $ add_hook("Teleport_Cloth_Shop_Entrance", "ep28_monica_bardie_eric_college3_shop", scene="street_cloth_shop", label="bardie_eric_quest_college_shop")
+    $ map_objects ["Teleport_College"] = {"text" : _("КОЛЛЕДЖ"), "xpos" : 174, "ypos" : 579, "base" : "map_marker", "state" : "visible"}
+    call street_college_init()
+    $ move_object("Betty", "bedroom1")
+    $ add_hook("enter_scene", "ep28_monica_bardie_eric_college2_enter_regular", scene="street_college", label="bardie_eric_quest_college_regular")
+    $ add_hook("before_open", "ep28_monica_bardie_eric_college2_before_open_regular" , scene="street_college", label="bardie_eric_quest_college_regular2")
+    call refresh_scene_fade()
+    $ questLog(55, True)
+    return False
+
+label ep28_monica_bardie_eric_college2_block_schooloutfit_map: # Проверка на ограничение перемещения по карте в униформе для школы. Только дом и колледж
+    if cloth_type == "SchoolOutfit" and obj_name != "Teleport_House" and obj_name != "Teleport_College":
+        call dialogue_classmate_3_1_1c()
+        return False
     return
 
-label ep28_monica_bardie_eric_college3:
-    if bettyCollegeTeacherStage > 0:
-        call ep28_betty_college_monica_lesbie_init()
+label ep28_monica_bardie_eric_college2_enter_regular: # Регулярный комментарий при входе в локацию колледжа
+    if cloth == "CasualDress1":
+        call dialogue_classmate_3_2b()
+        return
+    if cloth_type == "Whore":
+        call dialogue_classmate_3_2bb()
+        return
     return
+
+label ep28_monica_bardie_eric_college2_before_open_regular: # Регулярная проверка при входе в локацию колледжа
+    if cloth_type != "SchoolOutfit":
+        $ streetCollegeMonicaSuffix = 2
+
+    if day_time == "evening" and streetCollegeMonicaSuffix == 1:
+        $ streetCollegeMonicaSuffix = 2
+    return
+label ep28_monica_bardie_eric_college3_shop: # Моника заходит в магазин одежды за нарядом
+    if cloth != "Whore":
+        call dialogue_classmate_2_1a()
+        return False
+    call dialogue_classmate_3_1()
+    $ _return = 1
+    if _return == 0: # Моника отказалась заходить в магазин
+        return False
+    if _return == 1 or _return == 4:
+        # Моника получила костюм мамы, можно идти в колледж
+        $ remove_objective("find_dress_for_college")
+        $ add_objective("eric_college", _("Уладить проблему Эрика в колледже"), c_blue, 45)
+        $ remove_hook(label="bardie_eric_quest_college_shop")
+        $ monicaHasSchoolOutfit1Day = day
+        $ monicaHasSchoolOutfit1 = True
+        $ add_hook("Teleport_Cloth_Shop_Entrance", "ep28_monica_bardie_eric_college3_shop2", scene="street_cloth_shop", label="evening_time_temp")
+        $ add_hook("Teleport_Cloth_Shop_Entrance", "ep28_monica_bardie_eric_college3_shop2_check_school_outfit", scene="street_cloth_shop", label="cloth_shop_check_school_outfit", priority = 110)
+        $ add_hook("Teleport_Shawarma", "dialogue_classmate_3_1_1a", scene="street_cloth_shop", label="school_outfit_slums_forbidden")
+        $ add_hook("College", "ep28_monica_bardie_eric_college4_visit1", scene="street_college", label="bardie_eric_quest_day1")
+        $ add_hook("Monica", "ep28_monica_bardie_eric_college4", scene="street_college", label="street_college_monica")
+        $ add_hook("enter_scene", "dialogue_classmate_4", scene="street_college", label="bardie_eric_quest_day1")
+        $ add_hook("map_teleport", "ep28_monica_bardie_eric_college2_block_schooloutfit_map", scene="global", priority = 850)
+
+        $ add_hook("Teacher", "ep28_monica_bardie_eric_college4_visit1_teacher", scene="college_class", label="bardie_eric_quest_day1")
+        $ bardieDayEmpty = True # днем Барди нет
+
+        # Инициализируем перемещение в schooloutfit по дому
+        call street_house_outside_init2()
+        call wardrobeBasementPutUpSchoolOutfit1()
+
+        $ autorun_to_object("dialogue_classmate_3_2", scene="street_cloth_shop")
+        $ add_corruption(monicaVivianSchoolOutfitLickBuy, "monicaVivianSchoolOutfitLickBuy")
+    if _return == 3:
+        $ autorun_to_object("dialogue_classmate_3_1_1b", scene="street_cloth_shop")
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    call refresh_scene_fade_long()
+    return False
+
+label ep28_monica_bardie_eric_college3_shop2:
+    mt "Магазин закрыт..."
+    "Интересно почему..."
+    return False
+
+label ep28_monica_bardie_eric_college3_shop2_check_school_outfit:
+    if monicaHasSchoolOutfit1Day == day:
+        return
+    if cloth_type != "Whore":
+        call dialogue_classmate_2_1a()
+        return False
+    return
+#label ep28_monica_bardie_eric_college3:
+#    if bettyCollegeTeacherStage > 0:
+#        call ep28_betty_college_monica_lesbie_init()
+#    return
+label ep28_monica_bardie_eric_college4: # Клика на Монику на улице у колледжа
+    if act=="l":
+        if cloth == "CasualDress1":
+            call dialogue_classmate_3_2b()
+            return False
+        if cloth_type == "Whore":
+            call dialogue_classmate_3_2bb()
+            return False
+        if cloth_type == "SchoolOutfit":
+            call dialogue_classmate_3_3()
+            return False
+
+    return
+label ep28_monica_bardie_eric_college4_visit1: # Моника приходит в колледж первый раз
+    if act=="l":
+        return
+    if day_time == "evening":
+        return
+    call change_scene("college_class","Fade_long", "highheels_run2")
+    return False
+
+label ep28_monica_bardie_eric_college4_visit1_teacher:
+    if act=="l":
+        return
+    call dialogue_classmate_5()
+    if _return == False:
+        $ add_hook("enter_scene", "dialogue_classmate_5_1a", scene="street_college", once=True)
+        $ add_hook("Teleport_BedroomBardie", "ep28_monica_bardie_eric_college4_visit1_bardie_refuse", scene="floor2", label="bardie_eric_quest_day1b")
+    else:
+        $ add_hook("enter_scene", "dialogue_classmate_5_1", scene="street_college", once=True)
+        $ add_hook("Teleport_BedroomBardie", "ep28_monica_bardie_eric_college4_visit1_bardie_completed", scene="floor2", label="bardie_eric_quest_day1b")
+        $ add_objective("check_teacher", _("Сходить к Мистеру Эдвардсу, чтобы узнать решил-ли он проблему Эрика"), c_white, 55)
+        $ monicaEricQuest1Stage = 1
+        $ add_corruption(monicaTeacherAddCorruption1, "monicaTeacherAddCorruption1")
+
+    $ move_object("Bardie", "empty")
+    $ remove_hook(label="bardie_eric_quest_day1")
+    $ add_hook("College", "ep28_monica_bardie_eric_college4_visit1_college_block", scene="street_college", label=["evening_time_temp", "bardie_eric_quest_day1block"]) # Блокируем колледж на сегодня
+    $ streetCollegeMonicaSuffix = 2
+    call change_scene("street_college","Fade_long", "highheels_run2")
+    return False
+
+label ep28_monica_bardie_eric_college4_visit1_college_block:
+    if act=="l":
+        return
+    call dialogue_classmate_3_3a()
+    return False
+
+label ep28_monica_bardie_eric_college4_visit1_bardie_refuse: #Моника отказалась от условий учителя (день1)
+    if day_time != "evening":
+        return
+    $ remove_hook()
+    call dialogue_classmate_5_1b()
+    $ streetCollegeMonicaSuffix = 1
+    $ remove_hook(label="bardie_eric_quest_day1block")
+    $ add_hook("College", "ep28_monica_bardie_eric_college4_visit1", scene="street_college", label="bardie_eric_quest_day1") # снова активируем колледж день1
+    $ add_hook("Teacher", "ep28_monica_bardie_eric_college4_visit1_teacher", scene="college_class", label="bardie_eric_quest_day1") # снова активируем учителя день1
+    call change_scene("basement_bedroom2", "Fade_long", False)
+    return False
+
+label ep28_monica_bardie_eric_college4_visit1_bardie_completed: # Моника успешно сходила к учителю
+    if day_time != "evening":
+        return
+#    help "Продолжение квеста ожидайте в следующем апдейте."
+#    $ streetCollegeMonicaSuffix = 1
+#    return
+    $ remove_hook()
+    call dialogue_classmate_6()
+    $ streetCollegeMonicaSuffix = 1
+    $ ep28_monica_bardie_eric_college4_visit1_data = day
+    $ remove_hook(label="bardie_eric_quest_day1block")
+    $ add_hook("enter_scene", "dialogue_classmate_7", scene="street_college", once=True)
+    $ add_hook("College", "ep28_monica_bardie_eric_college4_visit2", scene="street_college", label="bardie_eric_quest_day1") # снова активируем колледж день1
+    $ add_hook("Teleport_BedroomBardie", "ep28_monica_college_bardie_betty_lesbian_scene", scene="floor2", label="monica_betty_lesbian")
+    $ add_hook("Teleport_BedroomBardie", "dialogue_classmate_1_1", scene="floor2", label=["evening_time_temp", "bardie_eric_quest_day1block"])
+    $ autorun_to_object("dialogue_classmate_6a", scene="floor2")
+    call refresh_scene_fade()
+    return False
+
+label ep28_monica_bardie_eric_college4_visit2:
+    if act=="l":
+        return
+    help "Продолжение квеста ожидайте в следующем обновлении игры!"
+    return False
 
 label ep28_monica_college_bardie_erick_quest_check:
-
     return
+
+label ep28_monica_college_bardie_betty_lesbian_scene: # Лесби сцена Бетти и Моники (после 1-го успешного дня в колледже на следующий вечер)
+    if day_time != "evening" or ep28_monica_bardie_eric_college4_visit1_data == day:
+        return
+    $ remove_hook()
+    call dialogue_4_classmate_lesbian_1()
+
+    $ add_hook("Teleport_BedroomBardie", "dialogue_classmate_1_1", scene="floor2", label=["evening_time_temp", "bardie_eric_quest_day1block"])
+    $ autorun_to_object("dialogue_4_classmate_lesbian_1a", scene="floor2")
+    $ monicaBettyLesbian = True
+    return False

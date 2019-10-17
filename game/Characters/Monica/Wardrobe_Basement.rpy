@@ -44,6 +44,9 @@ label wardrobeBasement:
             with Dissolve(0.5)
 #            $ renpy.pause(0.5)
             $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue2_governess")
+        "Одежда Домохозяйки." if monicaHasSchoolOutfit1 == True:
+            call wardrobeBasementPutUpSchoolOutfit1()
+            $ autorun_to_object("basement_bedroom1", "dialogue_classmate_3_3")
         "Только трусики.":
             $ cloth = "GovernessPants"
             $ cloth_type = "Nude"
@@ -154,6 +157,11 @@ label hook_basement_bedroom_check_exit_cloth_map: #проверка при вы�
                             $ monicaBettyPanties = False
                         call wardrobeBasementPutUpCasualDress1() from _call_wardrobeBasementPutUpCasualDress1_1
                         return True
+
+                    "Одежда Домохозяйки." if monicaHasSchoolOutfit1 == True and obj_name == "Teleport_College":
+                        call wardrobeBasementPutUpSchoolOutfit1() #Принудительно переодеваем Монику
+                        return True
+
                     "Переодеться в одежду шлюхи." if monicaHasCasualDress1 == True:
                         if monicaBettyPanties == True:
                             call ep22_dialogues3_13() from _call_ep22_dialogues3_13_6
@@ -181,6 +189,11 @@ label hook_basement_bedroom_check_exit_cloth_map: #проверка при вы�
                                 $ monicaBettyPanties = False
                             call wardrobeBasementPutUpCasualDress1() from _call_wardrobeBasementPutUpCasualDress1_2
                             return True
+
+                        "Одежда Домохозяйки." if monicaHasSchoolOutfit1 == True and obj_name == "Teleport_College":
+                            call wardrobeBasementPutUpSchoolOutfit1() #Принудительно переодеваем Монику
+                            return True
+
                         "Переодеться в одежду шлюхи." if monicaHasCasualDress1 == True:
                             if monicaBettyPanties == True:
                                 call ep22_dialogues3_13() from _call_ep22_dialogues3_13_9
@@ -247,6 +260,19 @@ label wardrobeBasementPutUpCasualDress1:
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
     call wardrobeBasementCasualDressMiniMap1() from _call_wardrobeBasementCasualDressMiniMap1_1
+    sound snd_fabric1
+    img black_screen
+    with Dissolve(0.5)
+    return
+
+label wardrobeBasementPutUpSchoolOutfit1:
+    # Одеваем CasualDress1
+    if monicaCasualDressWearFirstTimeWardrobe == True:
+        $ monicaCasualDressWearFirstTimeWardrobe = False
+        call ep25_dialgues5_basement1()
+    $ cloth = "SchoolOutfit1"
+    $ cloth_type = "SchoolOutfit"
+    call wardrobeBasementCasualDressMiniMap1()
     sound snd_fabric1
     img black_screen
     with Dissolve(0.5)
