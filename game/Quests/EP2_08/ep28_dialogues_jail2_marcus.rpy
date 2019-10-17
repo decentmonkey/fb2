@@ -602,6 +602,7 @@ label ep28_dialogues_jail2_marcus1:
     with diss
     w
     #sound Маркус вводит палец в попу Моники
+    sound chpok2
     img 21740 # вводит палец
     with diss
     w
@@ -617,6 +618,7 @@ label ep28_dialogues_jail2_marcus1:
     music Master_Disorder
     # Маркус запускает Монике в попу палец.
     #sound Маркус елозит пальцем
+    sound drkanje5
     img 21742
     with fadelong
     marcus "Хм... Миссис Бакфетт... Как интересно..."
@@ -636,6 +638,7 @@ label ep28_dialogues_jail2_marcus1:
     m "!!!"
     # Моника пытается сжать
     #sound Моника пытается сжать палец ))))
+    sound chpok9
     img 21746
     show screen photoshot_screen()
     with hpunch
@@ -655,6 +658,7 @@ label ep28_dialogues_jail2_marcus1:
     img black_screen
     with diss
     #sound Маркус вытаскивает палец
+    sound chpok6
     pause 1.5
     music Master_Disorder
     img 21749
@@ -728,6 +732,7 @@ label ep28_dialogues_jail2_marcus1:
     with fade
     w
     #sound Моника надавливает на пробку, но у нее не получается
+    sound chpok12
     img 21762
     with diss
     show screen photoshot_screen()
@@ -750,6 +755,7 @@ label ep28_dialogues_jail2_marcus1:
     with fade
     w
     #sound Моника садится на пробку, смещая ее в сторону
+    sound chpok12
     img 21765
     with diss
     show screen photoshot_screen()
@@ -759,6 +765,7 @@ label ep28_dialogues_jail2_marcus1:
     w
     # Пробка падает
     #sound пробка падает на пол
+    sound down10
     img 21766
     with diss
     w
@@ -799,10 +806,12 @@ label ep28_dialogues_jail2_marcus1:
     with fadelong
     w
     #sound Моника берет пробку рукой
+    sound swish
     img 21772
     with diss
     w
     #sound Моника ставит пробку на стол
+    sound Knock
     img 21773
     with diss
     w
@@ -813,6 +822,7 @@ label ep28_dialogues_jail2_marcus1:
     with diss
     w
     #sound Моника садится на пробку глубже
+    sound chpok12
     img 21776
     with diss
     show screen photoshot_screen()
@@ -838,6 +848,7 @@ label ep28_dialogues_jail2_marcus1:
     with hpunch
     m "ААааааааргхххх..."
     #sound Моника села на пробку, звук
+    sound chpok10
     img 21780 # звук что села
     with diss
     w
