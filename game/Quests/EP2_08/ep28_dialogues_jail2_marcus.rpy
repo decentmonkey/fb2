@@ -909,44 +909,80 @@ label ep28_dialogues_jail2_marcus1:
 
 label ep28_dialogues_jail2_marcus2:
     # Сцена меняется на кабинет
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    sound snd_jail_door
+    pause 1.0
+    sound snd_fabric1
+    pause 2.0
+    sound highheels_run2
+    pause 2.0
+    music Groove2_85
     img 21790
+    with fadelong
     marcus "О, Миссис Бакфетт..."
     marcus "Рад снова видеть Вас!"
     img 21791
+    with diss
     marcus "У Вас красивое платье."
     marcus "Жаль это подделка. Вы достойны лучшего..."
+    sound highheels_short_walk
     img 21792
+    with fade
     marcus "Пожалуйста, присаживайтесь..."
     marcus "Платье можете пока оставить на себе."
     # Моника садится
     m "Сссспасибо... Мистер Маркус..."
+    sound highheels_short_walk
     img 21793
+    with diss
     m "ССсскажите... Что со мной будет?..."
     mt "Все, что угодно... Только не ферма!"
     img 21794
+    with fade
     marcus "Миссис Бакфетт, скажите, Вам удобно?"
     img 21795
+    with diss
     m "Да, Мистер Маркус. Мне вполне удобно."
     img 21796
+    with fade
     marcus "Вам ничего не мешает?"
     img 21797
+    with diss
     m "Нет, Мистер Маркус..."
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     mt "Мне ужасно больно! Я хочу вытащить это поскорее!!!"
+    music Master_Disorder
     img 21798
+    with fade
     marcus "Вы ведь ничего не вынимали из себя?"
     marcus "Я к тому... Вам ведь действительно нравится то, что находится в Вас?"
     marcus "Вы меня не обманывали?"
 
     img 21799
+    with diss
     m "Нет, Мистер Маркус..."
     m "Во мне... Во мне до сих пор это..."
 
     img 21800
+    with fade
     marcus "Миссис Бакфетт, Вы бы хотели, чтобы это оставалось в Вас все время?"
     img 21801
+    with diss
     m "Мистер Маркус... Я бы... Я бы хотела немного отдохнуть... От этого..."
 
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Groove2_85
     img 21802
+    with fadelong
     marcus "Миссис Бакфетт..."
     marcus "Я вспоминаю нашу первую встречу..."
     marcus "Вы пришли сюда и начали кричать на меня."
@@ -954,205 +990,352 @@ label ep28_dialogues_jail2_marcus2:
     marcus "Но Вы сами сказали о том, что благодарны мне."
     marcus "Скажите, разве я заслуживал такого отношения к себе?"
 
+    music Malicious
     img 21803
+    with diss
     mt "О Боже..."
     mt "Что я ему тогда наговорила?! Знала бы я, что это за человек..."
     mt "..."
+    music Hidden_Agenda
     m "Мистер Маркус... Я..."
     m "Я приношу свои извинения Вам."
     m "Это было ошибкой с моей стороны."
     m "Я... Я недооценила Вас."
     img 21804
+    with diss
     m "Просто это было все было так неожиданно..."
     m "Я прошу Вас простить меня..."
+    music Groove2_85
     img 21805
+    with fade
     marcus "Мне нравятся Ваши слова, Миссис Бакфетт."
     marcus "Скажите, ведь Вы все та же сильная леди, которая вошла сюда?"
     marcus "Ведь Вы ничуть не изменились, правда?"
+    music Master_Disorder
     img 21806
+    with diss
     marcus "Для меня важно, чтобы эти слова говорила именно она."
     img 21807
+    with diss
     m "Да, Мистер Маркус..."
     img 21808
+    with fade
     marcus "Это неубедительно. Скажите кто Вы."
     marcus "Сделайте это так, как Вы умеете говорить!"
     # Моника встает, расправляет плечи и говорит ледяным тоном
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.5
+    music Pyro_Flow
     img 21809
+    with fadelong
     w
     img 21810
+    with diss
     m "Я - Моника Бакфетт."
     m "Я - владелица Модного Журнала."
     m "Все люди вокруг подчиняются мне."
     m "Моя красота и богатство не имеют равных далеко за пределами этого места."
+    music Master_Disorder
     img 21811
+    with fade
     marcus "Хорошо. Теперь покажите мне."
+    music Pyro_Flow
     img 21812
+    with diss
     m "Показать ЧТО?"
+    music Master_Disorder
     img 21813
+    with fade
     marcus "Ту вещь, которая в Вас. Я хочу Вам помочь..."
     img 21814
+    with diss
     m "!!!"
     img 21815
+    with fade
     marcus "Владелица Модного Журнала, поднимите юбку. Не стесняйтесь."
     marcus "Я хочу проверить Ваши слова."
     img 21816
+    with diss
     mt "Он смеется надо мной!!! Да как он..."
     mt "Черт!"
     m "..."
 
     # Моника задирает платье и показывает пробку, которая в нее вставлена
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.0
+    music Master_Disorder
     img 21817
+    with fadelong
+    w
     img 21818
+    with diss
+    w
+    sound snd_fabric1
     img 21819
+    with diss
+    w
     marcus "О, Миссис Бакфетт..."
     marcus "Вы подобрали правильный цвет платья..."
     marcus "Должен признать, что Вы действительно разбираетесь в моде."
     img 21820
+    with diss
     marcus "Ваша интуиция позволяет Вам соблюсти правильное сочетание цветов в любой ситуации."
     marcus "Даже в той, которую Вы не можете предугадать заранее."
     img 21821
+    with fade
     marcus "Вы можете подойти ко мне, я помогу Вам."
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.0
+    music Master_Disorder
     img 21822
+    with fadelong
     marcus "Повернитесь спиной."
     # Моника подходит
     # Маркус вытаскивает пробку (анимация)
+    sound highheels_short_walk
     img 21823
+    with diss
+    w
     img 21824
+    with diss
+    w
+    music stop
     img 21825
-    img 21826
-    img 21827
+    with diss
+    w
+    scene black
+    sound Monica_butt_plug_v
+    image videov_Marcus_Monica_Dildo_1_1 = Movie(play="video/v_Marcus_Monica_Dildo_1_1.mkv", fps=30, loop=False, image="/images/Slides/v_Marcus_Monica_Dildo_1_1_stop.jpg")
+    show videov_Marcus_Monica_Dildo_1_1
+    pause 2.5
+    music Master_Disorder
+    wclean
+
+#    img 21826
+#    img 21827
+    sound snd_woman_pain
     img 21828
+    with hpunch
     m "ААААЙ!!"
     # Моника оборачивается
+    sound highheels_short_walk
     img 21829
+    with diss
+    w
     # Маркус держит пробку.
 
     # Маркус нюхает пробку
+    sound snd_sniff1
     img 21830
+    with fade
     marcus "Ммммм... Превосходно!"
     img 21831
+    with diss
     marcus "Не хотите попробовать?"
-
     m "Что?!"
     img 21832
+    with fade
     marcus "Попробуйте это, Миссис Бакфетт."
     marcus "Мне это нравится, а Вам?"
     m "???"
+    sound snd_sniff1
     img 21833 # Моника нюхает
+    with diss
     mt "Это... Это просто отвратительно!"
 
+    music Groove2_85
     img 21834
+    with fade
     marcus "Вы достаточно сказали сегодня."
     img 21835
+    with diss
     marcus "Теперь Я хочу кое-что Вам рассказать."
     marcus "Вы женщина очень высокого положения. Вы привыкли говорить, а не слушать."
     marcus "И, для того, чтобы быть уверенным, что Вы не будете перебивать меня..."
     img 21836
+    with diss
     marcus "Возьмите это в рот."
 
+    music Power_Bots_Loop
     img 21837
+    with hpunch
     mt "Что?! В рот?! Он достал это из моей попы только что!"
     m "!!!"
     m "Но..."
     marcus "Вы же не собираетесь перебивать меня, Миссис Бакфетт?"
     m "Нет..."
     img 21838
+    with diss
     marcus "Тогда нет причин не взять в рот это..."
     marcus "Или есть какие-то причины?"
 
     m "Нннет..."
 
     # Маркус засовывает пробку Монике в рот
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Malicious
     img 21839
+    with fadelong
     mt "Фуууу!!! Как это противно!"
     mt "Но если я откажусь..."
     w
+    sound snd_gulp
     img 21840
+    with diss
+    w
+    music Groove2_85
     img 21841
+    with fade
     marcus "Вы можете присесть."
     # Моника садится
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.5
+    music Groove2_85
     img 21842
-
+    with fadelong
+    w
     img 21843
+    with diss
     marcus "Итак, Миссис Бакфетт..."
     marcus "Я удивлен и обрадован Вашему визиту."
     marcus "Пока Вы меня ожидали, я был в отъезде."
+    music Villainous_Treachery
     img 21844
+    with fade
     marcus "И как раз собирался, по возвращению, арестовать Вас."
     img 21845
+    with diss
     m "!!!"
+    music Groove2_85
     img 21846
+    with fade
     marcus "Вы спросите насчет Мистера Дика?"
     marcus "Да, действительно, его действия являются определенным препятствием между нами."
     img 21847
+    with diss
     marcus "Однако, я нашел способ обойти его."
+    music Malicious
     img 21848
+    with hpunch
     m "!!!"
+    music Groove2_85
     img 21849
+    with fade
     marcus "Видите-ли, за мной стоят еще люди, с которыми я вынужден считаться..."
     marcus "И эти люди также хотят заполучить Вас."
     m "..."
     img 21850
+    with diss
     marcus "Они видят препятствие только в действиях Мистера Дика."
     marcus "Но не знают о том, что в действиях Мистера Дика есть слабая сторона."
     marcus "Дело в том, что я работаю здесь, на месте. И вижу больше них..."
+    music Malicious
     img 21851
+    with diss
     m "!!!"
+    music Groove2_85
     img 21852
+    with fade
     marcus "И Я, и Эти Люди - всецело доверяем друг другу."
     marcus "С моей стороны было бы крайне неудобно не сообщать им новую информацию..."
+    music Villainous_Treachery
     marcus "Поэтому, я собирался сообщить им о ней и арестовать Вас немедленно..."
+    music Malicious
     img 21853
+    with diss
     m "!!!"
+    music Groove2_85
     img 21854
+    with fade
     marcus "Для меня было удивлением, что Вы сделали такой своевременный упреждающий шаг..."
     m "..."
+    music Master_Disorder
     img 21855
+    with diss
     marcus "Как-будто кто-то очень мудрый подсказал Вам его..."
     img 21856
+    with diss
     m "!!!"
+    music Groove2_85
     img 21857
+    with fade
     marcus "Но, думаю, это Ваша женская интуиция, которая помогает Вам..."
     img 21858
+    with diss
     m "..."
     img 21859
+    with fade
     marcus "Вы пытаетесь заставить меня думать, что играть с Вами ЗДЕСЬ будет интереснее, чем играть на Ранчо 218."
     marcus "Заставить быть ребенком, который не хочет делиться своей игрушкой с остальными..."
     img 21860
+    with diss
     m "..."
     img 21861
+    with fade
     marcus "Интересная попытка..."
     marcus "И, Вы знаете... Я заинтересован..."
     img 21862
+    with diss
     m "..."
+    music Master_Disorder
     img 21863
+    with fade
     marcus "Понимаете-ли... Имея неограниченную власть..."
     marcus "Становится все сложнее и сложнее развлекать себя..."
     img 21864
+    with diss
     marcus "Вы ведь меня понимаете, Миссис Бакфетт, правда?"
     img 21865
     m "!!!"
     img 21866
+    with fade
     marcus "Вы можете идти, на этот раз..."
     marcus "Я пока не буду сообщать никому о той информации, что у меня есть..."
     marcus "Пока..."
     img 21867
+    with diss
     marcus "И, не забывайте, я не единственный, кто стоит за всем этим."
     marcus "Стоит Вам хоть немного оступиться, и об этом узнают ТАМ."
     marcus "Даже в этом кабинете. Сейчас очень редкое короткое окно, когда я уверен, что нас не слышат."
 
     # Моника встает, продолжая держать пробку во рту
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.5
+    music Groove2_85
     img 21868
+    with fadelong
     marcus "Да, и Вы можете снова придти ко мне, когда будете готовы..."
     marcus "Заинтересовать меня еще раз..."
+    music Master_Disorder
     img 21869
+    with diss
     marcus "Пока я не успел потерять тот интерес, что у меня есть сейчас..."
     img 21870
+    with diss
     m "!!!"
     marcus "Можете идти."
+    sound highheels_short_walk
     img 21871
+    with fade
     marcus "И сохраните эту вещь. Она будет Вам напоминать о нашей дружбе..."
-
     # Моника уходит
 
     return

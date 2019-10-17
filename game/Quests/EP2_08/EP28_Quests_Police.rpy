@@ -229,6 +229,10 @@ label ep28_quests_police_final: # Завершение тюремного кве
     $ add_inventory("butt_plug", 1, True)
     $ add_hook("enter_scene", "ep28_quests_police_final_home", scene="basement_bedroom2", once=True)
     $ add_hook("Building", "ep28_dialogues_jail2_marcus5", scene="street_police", label="marcus_block1")
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
     call change_scene("street_police", "Fade_long", False)
     $ marcus_visit1_completed = True
     return
