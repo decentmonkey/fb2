@@ -7,202 +7,316 @@ label ep28_dialogues_jail2_marcus1:
 # Но, в этот раз, она знает что надо делать и выберется отсюда!
 # Ведь я знаю что делать... Хотя... Я пришла сюда и я не знаю что мне делать.
 # Я как-то не задумывалась что скажу этому человеку, О БОЖЕ!!!
+    music stop
+    music2 stop
+    music3 stop
+    img black_screen
+    with diss
+    pause 3.0
+    music Master_Disorder
     img 21630
+    with fadelong
     marcus "О, Миссис Бакфетт..."
     marcus "Вы очень богатая и влиятельная женщина."
     img 21631
+    with diss
     marcus "Ваш визит для меня большая честь."
     marcus "Чему я обязан такой чести?"
     img 21632
+    with fade
     mt "Снова этот ужасный кабинет..."
     mt "Но, в этот раз я знаю, что надо делать, чтобы выбраться отсюда!"
     mt "Ведь я знаю, что делать... Хотя..."
     mt "Я пришла сюда и я не знаю, что мне делать."
     mt "Я как-то не задумывалась, что скажу этому человеку... О БОЖЕ!"
+    music Groove2_85
     img 21633
+    with diss
     mt "!!!"
     mt "Так! Моника, соберись! Скажи ему уже хоть что-нибудь!"
     m "..."
     # встает и расправляет плечи
     m "Мистер Маркус, я пришла поговорить с Вами."
     img 21634
+    with diss
     marcus "???"
     img 21635
+    with fade
     m "Мистер Маркус, спасибо, что согласились принять меня."
+    music Master_Disorder
     img 21636
+    with diss
     marcus "О, для меня честь принимать такую важную леди как Вы, Миссис Бакфетт."
     img 21637
+    with diss
     marcus "Простите за условия нашей встречи. У меня не было времени подготовиться к ней."
+    music Groove2_85
     img 21638
+    with fade
     mt "Начало хорошее. Но расслабляться мне не стоит..."
     m "Ничего страшного, Мистер Маркус, все в порядке."
     marcus "Это замечательно!"
     img 21639
+    with diss
     marcus "Итак, Миссис Бакфетт, Вы можете снять верхнюю одежду и присаживаться."
+    music Power_Bots_Loop
     img 21640
+    with fade
     mt "В смысле? Какую верхнюю одежду?"
     m "!!!"
     m "Верхнюю одежду?"
+    music Groove2_85
     img 21641
+    with diss
     marcus "Да, Миссис Бакфетт, уверен Вам неудобно находиться в помещении в верхней одежде."
     marcus "Рядом с Вами вешалка. Вы можете повесить ее."
+    music Master_Disorder
     img 21642
+    with diss
     marcus "Или, хотите, Я Вам помогу?"
+#    music Groove2_85
     img 21643
+    with fade
     mt "Он хочет, чтобы я разделась?! И сидела перед ним совсем голая?! И беззащитная..."
     m "!!!"
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.5
+    music Groove2_85
     img 21644
+    with fadelong
     mt "Он пытается унизить меня. Поставить в неловкое положение..."
     mt "Что ж..."
     mt "Я пришла сюда с определенной целью и я добьюсь ее!"
     mt "Этот жуткий Маркус не сломит меня!"
     mt "Просто сейчас нужно сделать, как он говорит..."
     m "Мистер Маркус, спасибо... Я сама..."
+    sound highheels_short_walk
     img 21645
+    with fade
     m "Спасибо что... заботитесь обо мне..."
     # Моника раздевается и присаживается, закрывшись руками
 
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.5
+    music Groove2_85
     img 21646 #садится
+    with fadelong
     mt "От этого разговора зависит моя жизнь!"
     mt "Я должна собраться и не обращать внимания на свою наготу..."
     mt "И на этот холодный стул..."
     mt "Это мелочи по сравнению с тем, что меня ожидает на ферме!"
     w
     img 21647
+    with diss
     marcus "Миссис Бакфетт, не стесняйтесь."
     marcus "Вы можете вести себя более раскованно."
     img 21648
+    with fade
     mt "!!!"
     img 21649
+    with diss
     marcus "..."
 
     img 21650 # садится прямо
+    with fade
     mt "Он... Издевается надо мной?"
     w
     menu:
         "Убрать руки с груди...":
             pass
     img 21651
-    mt "!!!"
     with diss
-    w
+    mt "!!!"
 
     img 21652
+    with fade
     marcus "Вы можете раздвинуть ноги, Миссис Бакфетт."
     marcus "Это не будет смущать меня."
     img 21653
+    with diss
     marcus "Ведь мы с Вами друзья, не правда-ли?"
+    music Power_Bots_Loop
     img 21654
+    with hpunch
     mt "ЧТО?!"
     mt "Зачем? Что он задумал?!"
     w
+    music Master_Disorder
     img 21655
+    with fade
     marcus "Или мы не друзья?"
     # Моника опускает руки и садится ровно
+    music Malicious
     img 21656
+    with diss
     mt "Боже, как страшно!"
     mt "Но... мне нельзя сейчас спорить с ним!"
     mt "Я должна помнить о цели своего визита сюда!"
     mt "!!!"
     img 21657
+    with diss
     w
     menu:
         "Раздвинуть ноги...":
             pass
     img 21658
+    with Dissolve(1.0)
     mt "!!!"
     with diss
     w
     img 21659
+    with fade
     m "Да, Мистер Маркус..."
     m "Мы... Мы с Вами друзья."
-
+    music Master_Disorder
     img 21660
+    with diss
     marcus "Итак, Миссис Бакфетт. О чем Вы хотели со мной поговорить?"
 
+    music Malicious
     img 21661
+    with fade
     mt "Мне надо собраться!"
     mt "Мне надо убедить его!"
 
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Hidden_Agenda
     img 21662
+    with fadelong
     m "Мистер Маркус, Я пришла выразить Вам мою благодарность за свою заботу обо мне..."
     img 21663
+    with diss
     marcus "..."
-    img 21664
+    img 21662
+    with diss
     m "Вы замечательный, добрый человек."
     m "Вы умный и проницательный. И я пришла сказать это Вам."
+    music Groove2_85
     img 21665
+    with fade
     marcus "О, Миссис Бакфетт. Мы с Вами похожи."
     img 21666
+    with diss
     m "???"
     img 21667
+    with fade
     marcus "Из всей лести, я также предпочитаю самую грубую..."
     marcus "Итак, опустим..."
     marcus "Что Вы хотели обсудить со мной?"
+    music Hidden_Agenda
     img 21668
+    with diss
     mt "Надо аккуратнее подбирать слова..."
     m "Я... Я хотела обсудить с Вами..."
     m "Видите-ли, я сейчас нахожусь в довольно щекотливом положении."
     m "Мне приходится строго следить за тем что происходит вокруг..."
+    music Groove2_85
     img 21669
+    with fade
     marcus "Что Вы имеете ввиду, Миссис Бакфетт?"
+    music Hidden_Agenda
     img 21670
+    with diss
     m "Я имею ввиду соблюдение закона и..."
+    music Groove2_85
     img 21671
+    with fade
     marcus "Все вокруг соблюдают законы, Миссис Бакфетт."
     marcus "Разве это стоит вообще обсуждать?"
 
+    music Hidden_Agenda
     img 21672
+    with diss
     m "Мистер Маркус, я имею ввиду последствия..."
     m "Вы знаете, мне довольно сложно вести честный образ жизни, не имея документов и..."
+    music Groove2_85
     img 21673
+    with fade
     marcus "О, Миссис Бакфетт, право. Вам не стоит переживать из-за этого."
+    music Hidden_Agenda
     img 21674
+    with diss
     m "Да, но в ином случае я рискую отправиться в одно, место, где..."
     m "В которое я не хотела бы попадать, Мистер Маркус."
+    music Groove2_85
     img 21675
+    with fade
     marcus "Значит, тот образ жизни, что Вы сейчас ведете, не устраивает Вас, Миссис Бакфетт?"
+    music Hidden_Agenda
     img 21676
+    with diss
     m "Честно говоря, мне очень сложно, Мистер Маркус."
     m "И я бы хотела попросить Вас помочь мне..."
+    music Groove2_85
     img 21677
+    with fade
     marcus "О, Миссис Бакфетт. Я Вас понимаю."
     marcus "Я действительно осознаю все те неудобства, с которыми Вам приходится сталкиваться."
     marcus "И я категорически против этого."
     img 21678
+    with diss
     m "???"
     img 21679
+    with fade
     marcus "Я ведь с самого начала предупреждал Вас об этом."
     marcus "И я очень рад что Вы сами пришли к этому же выводу."
+    music Hidden_Agenda
     img 21680
+    with diss
     m "Что Вы имеете ввиду, Мистер Маркус?"
     m "К какому выводу я пришла?"
+    music Villainous_Treachery
     img 21681
+    with fade
     marcus "К тому, чтобы отправиться на ферму прямо сейчас."
     marcus "Я считаю, что такой леди как Вы ни к чему испытывать неудобства."
+#    music Power_Bots_Loop
     img 21682
+    with hpunch
     mt "ЧТО?! Нет-Нет!"
     m "!!!"
+    music Master_Disorder
     img 21683
+    with fade
     marcus "Вас сейчас окружает злой мир, полный неопределенности."
     marcus "А на Объекте 218 все будет просто и понятно."
     img 21684
+    with diss
     marcus "Вам больше не придется принимать решений и питать излишние иллюзии о завтрашнем дне."
+    music Power_Bots_Loop
     img 21685
+    with hpunch
     m "НЕЕЕТ!!!"
     m "Мистер Маркус..."
     m "Я... Я не имела ввиду что пришла к такому выводу... Я..."
+    music Master_Disorder
     img 21686
+    with fade
     marcus "Но как же, Миссис Бакфетт."
     marcus "Вы же сами сказали, что Вас не устраивает Ваш теперешний образ жизни."
+    music Malicious
     img 21687
+    with diss
     mt "У меня путаются мысли! Все, что угодно, только не ферма!"
     mt "Надо сказать ему! Все, что угодно!!!"
     m "Я... Я..."
+    music Master_Disorder
     img 21688
+    with fade
     marcus "И Вы пришли ко мне за помощью..."
     marcus "Я окажу Вам помощь, Миссис Бакфетт."
+    music Malicious
     img 21689
+    with diss
     menu:
         "Спасибо, Мистер Маркус (отправиться на Ранчо 218 добровольно) (в будущих обновлениях) (disabled)":
             pass
@@ -210,55 +324,79 @@ label ep28_dialogues_jail2_marcus1:
             pass
     # Моника вскакивает
     img 21690
+    with fade
     m "Мистер Маркус! Я не это имела ввиду..."
+    music Villainous_Treachery
     img 21691
+    with diss
     marcus "А что же еще, Миссис Бакфетт?"
     marcus "Неужели Вам нравится то, как Вы сейчас живете?"
     m "Мне... Мне нравится, как я сейчас живу..."
     marcus "Вы лукавите, Миссис Бакфетт..."
+    music Hidden_Agenda
     img 21692
+    with fade
     m "Нет, Мистер Маркус! Мне... Мне правда нравится..."
     m "Я... Раньше я была слишком высокомерной..."
     m "У меня было слишком много денег и я..."
     m "И я не замечала мира вокруг..."
     img 21693
+    with diss
     m "Текущее положение дел помогает мне открыть глаза..."
     m "Я... Я пережила много интересных историй."
     m "Моя жизнь стала очень разнообразна..."
     img 21694
+    with diss
     m "Мистер Маркус... Спасибо Вам за это..."
     m "Я... Я правда хочу остаться здесь..."
     m "И... И не ехать на ферму!"
 
+    music Master_Disorder
     img 21695
+    with fade
     marcus "Миссис Бакфетт, неужели Вы правда справляетесь?"
+    music Hidden_Agenda
     img 21696
+    with diss
     m "С чем я справляюсь, Мистер Маркус?"
+    music Master_Disorder
     img 21697
+    with fade
     marcus "С тем что ничего не нарушаете."
     m "Ддддда....."
     img 21698
+    with diss
     marcus "Вы действительно ничего не пытались нарушить здесь, в камере, пока ожидали нашей встречи."
     marcus "Оба раза. Хотя мы проверяли это."
     marcus "Мы общались с надзирателем и даже с заключенными."
+    music Malicious
     img 21699
+    with fade
     mt "!!!"
     mt "О БОЖЕ!"
     mt "Что бы было, если бы они рассказала про то, что я пыталась сбежать отсюда!"
 
+    music Master_Disorder
     img 21700
+    with diss
     marcus "Миссис Бакфетт, пожалуйста, сядьте на место в ту же позу, которую я попросил Вас принять..."
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Master_Disorder
     img 21702
-    mt "..."
-    with fade
+    with fadelong
+#    mt "..."
     w
     marcus "В ту же позу, Миссис Бакфетт... В ту же позу..."
     img 21703
-    mt "!!!"
-    with diss
+    with Dissolve(1.0)
     w
+    mt "!!!"
     marcus "И не двигайтесь. Тем что Вы бегаете передо мной, Вы меня отвлекаете от нашей беседы."
 
+    music Master_Disorder
     img 21700
     with fade
     marcus "Вернемся к Вашей жизни вне этих стен."
@@ -268,199 +406,337 @@ label ep28_dialogues_jail2_marcus1:
     marcus "Вы ведь не можете работать, Миссис Бакфетт."
     marcus "Без документов это будет незаконно."
 
+    music Hidden_Agenda
     img 21704
+    with fade
     m "Я... Мистер Маркус..."
     m "Я - девушка. Я, как и все, сижу на диете."
     m "Так что мне практически не нужна еда."
     m "Благодаря этому я улучшаю свою фигуру."
     m "Я очень довольна своим образом жизни..."
+    music Master_Disorder
     img 21705
+    with diss
     marcus "А дом? У Вас нет средств снимать жилье."
     marcus "Да и, если бы были, Вы должны делать это официально, а иначе будет нарушение закона."
     marcus "Но у Вас нет документов."
     img 21706
+    with diss
     m "..."
     img 21707
+    with fade
     marcus "Где Вы живете, Миссис Бакфетт?" #пронзительно
+    music Malicious
     img 21708
+    with diss
     mt "Черт! Мне нельзя говорить ему, что я живу в своем доме!"
     mt "Но что я ему скажу?!"
     m "!!!"
+    music Villainous_Treachery
     img 21709
+    with fade
     marcus "Вы живете на улице?"
     img 21710
+    with diss
     m "Я... Я... Да..."
     m "На улице..."
     img 21711
+    with fade
     marcus "И Вам нравится?"
 
     img 21712
+    with diss
     m "Дддда... Мистер Маркус... Мне нравится..."
     img 21713
+    with fade
     marcus "Миссис Бакфетт, Вы знаете, что жить на улице без регистрации незаконно..."
+    music Malicious
     img 21714
+    with hpunch
     mt "О нет! Это нарушение закона! Он сейчас снова отправит меня в эту жуткую камеру!"
     mt "А потом на ФЕРМУ!!!"
     m "Я... Я... Мистер Маркус..."
+    music Master_Disorder
     img 21713
+    with diss
     marcus "Что Вы ответите на это?"
+    music Malicious
     img 21714
+    with fade
     m "Я... Я не знаю..."
     m "Я ничего не соображаю от ужаса..."
     m "Мистер Маркус, скажите что мне ответить?"
+    music Groove2_85
     img 21715
+    with diss
     marcus "Миссис Бакфетт, ответьте мне, зачем Вы на самом деле сюда пришли."
+    music Malicious
     img 21716
+    with fade
     mt "Я должна помнить о своей цели!"
     mt "Я должна уговорить его!"
     m "..."
     img 21717
+    with diss
     marcus "..."
     m "Я... Я пришла..."
     m "Я пришла... пришла, чтобы..."
     img 21718
+    with fade
     marcus "..."
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Hidden_Agenda
     img 21719
+    with fadelong
     m "Я пришла, чтобы понравиться Вам, Мистер Маркус..."
+    music Groove2_85
     img 21720
+    with diss
     marcus "О, это похвально."
     marcus "Вы действительно можете понравиться мне, если будете стараться..."
+    music Villainous_Treachery
     img 21721
+    with diss
     marcus "На Ранчо 218."
+    music Power_Bots_Loop
     img 21722
+    with hpunch
     m "!!!"
     m "Мистер Маркус... На Ранчо... Я..."
+    music Hidden_Agenda
     img 21723
+    with fade
     m "Вы знаете, со мной могут произойти некоторые..."
     m "Некоторые изменения..."
     m "И я не смогу... понравиться Вам..."
     m "Поэтому я боюсь, что..."
 
+    music Master_Disorder
     img 21724
+    with diss
     marcus "Миссис Бакфетт, Вы правы. Вы будете смотреть на мир по-другому."
     marcus "И уже не будет той Моники Бакфетт, в глазах которой всегда горит огонь."
     marcus "Мне будет не хватать Вас..."
+    music Malicious
+    sound snd_bodyfall
     img 21725
+    with hpunch
     mt "БОЖЕ!"
     mt "НЕТ!!!"
     m "!!!"
+    music Master_Disorder
     img 21726
+    with diss
     marcus "Но, возможно, есть другой путь..."
     img 21727
+    with fade
     mt "Он... Он говорит... Про другой путь?"
     mt "Значит... Значит, он не торопится отправить меня на ферму?"
     mt "Это мой шанс!"
     m "???"
     img 21728
+    with diss
     marcus "Миссис Бакфетт, подойдите сюда."
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.5
+    music Master_Disorder
     img 21729
+    with fadelong
     m "Да... Мистер Маркус..."
     # Подходит ближе к Маркусу
     img 21730
+    with diss
     marcus "Я бы хотел проверить Ваше анальное отверстие, Миссис Бакфетт."
     marcus "Я боюсь, что для леди такого уровня и социального положения, как Вы, это будет не совсем комфортно."
     img 21731
+    with diss
     marcus "И, если Вы откажетесь, я пойму Вас..."
     menu:
         "Позволить Маркусу проверить себя.":
             pass
 
+    music Malicious
     img 21732
+    with fade
     mt "Если я откажусь, мне конец. Я понимаю это!"
     mt "Мне надо разрешить ему, но надо как-то подыграть, я не должна быть просто куклой."
     mt "Иначе этому психу я стану неинтересна и для меня все будет кончено!"
 
+    music Hidden_Agenda
     img 21733
+    with diss
     m "Мистер Маркус... Это... Это вполне терпимая процедура..."
     m "Я... Я действительно леди очень высокого уровня, но..."
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.0
+    music Hidden_Agenda
     img 21734
+    with fade
     m "Но, если об этом просит такой мужчина как Вы..."
+    music Loved_Up
     img 21735
+    with diss
     m "То никакая леди не сможет отказать в этом..."
     mt "О БОЖЕ!!!"
 
     # Моника поворачивает к Маркусу задом
     img 21736
+    with diss
     marcus "..."
     img 21737
     with diss
     w
     img 21738
+    with diss
+    w
     img 21739
+    with diss
+    w
+    #sound Маркус вводит палец в попу Моники
     img 21740 # вводит палец
+    with diss
+    w
+    sound snd_woman_pain
     img 21741
+    with vpunch
     m "Ой!"
 
-
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Master_Disorder
     # Маркус запускает Монике в попу палец.
+    #sound Маркус елозит пальцем
     img 21742
+    with fadelong
     marcus "Хм... Миссис Бакфетт... Как интересно..."
     marcus "Моника Бакфетт... Владелица Модного Журнала..."
     marcus "Железная Леди... Холодная как лед..."
     img 21743
+    with diss
     marcus "Мало кто знает что ТАМ у Вас очень тепло..."
     img 21744
+    with diss
     m "..."
     img 21745
+    with fade
     marcus "Сожмите мой палец..."
     m "Как?! Как я могу сжать его?"
     marcus "Сожмите его своим анальным отверстием."
     m "!!!"
     # Моника пытается сжать
+    #sound Моника пытается сжать палец ))))
     img 21746
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     m "Ииииииии..."
     img 21747
+    with fade
     marcus "Слабовато, Миссис Бакфетт."
     marcus "Вы практически девственница."
     m "!!!"
     img 21748
+    with diss
     m "Я... Я сильнее не могу, Мистер Маркус..."
 
+    music stop
+    img black_screen
+    with diss
+    #sound Маркус вытаскивает палец
+    pause 1.5
+    music Master_Disorder
     img 21749
+    with fade
     marcus "А теперь присядьте."
     # Моника садится на стул
+    sound highheels_short_walk
     img 21750
     with fadelong
     w
     img 21751
+    with diss
     marcus "Нет, Миссис Бакфетт, не туда."
     marcus "Присядьте, пожалуйста, сюда."
     marcus "И сделайте это, пожалуйста, своим анальным отверстием."
 
     # Моника смотрит и видит анальную пробку
+    music Malicious
     img 21752
+    with hpunch
     mt "Анальным отверстием?! Я должна сесть на это?!"
     m "!!!"
     m "Что это?!"
 
+    music Master_Disorder
     img 21753
+    with diss
     marcus "Это, всего-лишь, небольшая трудность, Миссис Бакфетт."
     marcus "Я люблю людей, которые умеют их преодолевать."
     marcus "Любая девушка на ферме сделает это даже не поморщившись."
     marcus "Для Вас это будет сложнее, но я хочу увидеть доказательство."
     marcus "Того, что Вы действительно имеете желание выйти отсюда."
 
+    music Malicious
     img 21754
+    with fade
     m "Я..."
     mt "Мне нужно это сделать!"
     mt "Просто необходимо, если я хочу скорее выбраться отсюда!"
+    music Master_Disorder
     img 21755
+    with diss
     marcus "Я жду, Миссис Бакфетт."
     # Моника пытается сесть на пробку
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.0
+    music Master_Disorder
     img 21756
+    with fadelong
     menu:
         "Сесть на анальную пробку.":
             pass
-
+    w
+    sound highheels_short_walk
     img 21757
+    with diss
     w
     img 21758
+    with diss
     w
     img 21759
+    with fade
+    w
     img 21760
+    with diss
+    w
     img 21761 # садится
+    with fade
+    w
+    #sound Моника надавливает на пробку, но у нее не получается
     img 21762
+    with diss
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    w
     img 21763
+    with fade
     m "У меня... Не получается..."
     m "Это штука... Она слишком большая..."
 
@@ -471,69 +747,152 @@ label ep28_dialogues_jail2_marcus1:
             pass
     # Моника пробует еще
     img 21764
+    with fade
+    w
+    #sound Моника садится на пробку, смещая ее в сторону
     img 21765
+    with diss
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    w
     # Пробка падает
+    #sound пробка падает на пол
     img 21766
-
+    with diss
+    w
+    music Groove2_85
     img 21767
+    with fade
     m "Ой, она упала..."
     marcus "Подымите, поставьте ее и продолжайте далее."
 
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Hidden_Agenda
     img 21768
+    with fade
     m "Но..."
+    music Villainous_Treachery
     marcus "Это Ваш шанс понравиться мне, Миссис Бакфетт."
     img 21769
+    with diss
     marcus "Единственный шанс..."
     img 21770
+    with fade
     m "!!!"
     menu:
         "Поставить пробку на место и сесть снова.":
             pass
 
     # Моника снова пытается
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.0
+    music Master_Disorder
     img 21771
+    with fadelong
+    w
+    #sound Моника берет пробку рукой
     img 21772
+    with diss
+    w
+    #sound Моника ставит пробку на стол
     img 21773
+    with diss
+    w
     img 21774
+    with fade
+    w
     img 21775
+    with diss
+    w
+    #sound Моника садится на пробку глубже
     img 21776
+    with diss
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    w
+    music Malicious
     img 21777
+    with fade
+    w
     img 21778
+    with diss
     mt "У меня не получается!"
     mt "Но это мой единственный шанс спастись!"
     menu:
         "Попытаться изо всех сил! Это единственный шанс спастись!":
             pass
     # Моника тужится и садится на пробку
+#    sound anger2
+    sound snd_woman_scream1a
     img 21779
+    with hpunch
     m "ААааааааргхххх..."
+    #sound Моника села на пробку, звук
     img 21780 # звук что села
+    with diss
+    w
     img 21781
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     mt "Ааааа!!! Как больно!"
     m "Я... Я села..."
     marcus "Встаньте и покажите мне."
 
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.5
+    music Master_Disorder
     img 21783 # показывает
+    with fadelong
     w
     img 21782
+    with diss
     marcus "Браво, Миссис Бакфетт."
     marcus "Вам нравится то, что находится в Вас?"
+    sound highheels_short_walk
     img 21784
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     mt "Мне больно! Эта штука разрывает меня изнутри!"
     mt "Но что мне ответить ему?!"
     img 21785
+    with diss
     m "Ддда..."
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Master_Disorder
     img 21786
+    with fade
     marcus "Меня радует это."
     marcus "Сейчас Вам принесут Вашу одежду."
     marcus "Я жду Вас в своем кабинете."
     img 21787
+    with diss
     m "..."
     img 21788
+    with fade
     marcus "Да, и, если Вам действительно нравится, Я разрешаю Вам пока не вынимать это."
     img 21789
+    with hpunch
     m "!!!"
-
     return
 
 

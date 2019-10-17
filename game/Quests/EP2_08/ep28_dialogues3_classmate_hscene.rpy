@@ -11,12 +11,18 @@ label dialogue_classmate_1:
     scene black_screen
     with Dissolve(1)
     music Sneaky_Snitch
-    img 15244
+    if monicaMadeDoublePhotoBetty == True:
+        img 15244
+    else:
+        img 22284
     with fadelong
     w
     img 15245
     eric "Не может быть, что они тебя слушаются и делают все, что ты им скажешь."
-    img 15246
+    if monicaMadeDoublePhotoBetty == True:
+        img 15246
+    else:
+        img 22285
     with diss
     eric "Это не ты делал эту фотографию!"
     # Барди удивленно смотрит на друга
@@ -31,7 +37,10 @@ label dialogue_classmate_1:
     img 15249
     with diss
     bardie "Да Бетти его скорее выгонит из дома, чем позволит сделать такую фотку!"
-    img 15250
+    if monicaMadeDoublePhotoBetty == True:
+        img 15250
+    else:
+        img 22286
     with fade
     eric "Ага. И ты командуешь двумя взрослыми женщинами... Так я тебе и поверил!"
     img 15251

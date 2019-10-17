@@ -212,8 +212,8 @@ label ep28_quests_police_final: # Завершение тюремного кве
         call ep28_dialogues_jail19()
 
     # Разговор с Маркусом
-#    call ep28_dialogues_jail2_marcus1()
-#    call ep28_dialogues_jail2_marcus2()
+    call ep28_dialogues_jail2_marcus1()
+    call ep28_dialogues_jail2_marcus2()
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
     $ rain = True
