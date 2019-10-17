@@ -1132,9 +1132,14 @@ label ep28_dialogues_jail4:
 label ep28_dialogues_jail5:
     # Моника может постучать в решетку и Боб кричит я занят, хватит шуметь!
     overseer "Я занят! Хватит шуметь!"
-    return
+    return False
 # Моника ложится спать и думает что надо заснуть, завтра я проснусь и этот кошмарный сон исчезнет.
 label ep28_dialogues_jail6:
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
     music I_Feel_You
     img 21406
     with fadelong
@@ -1146,10 +1151,20 @@ label ep28_dialogues_jail6:
 
 label ep28_dialogues_jail7:
 # С утра Моника встает и думает что надо позвать Боба, Мистер Маркус должен встретиться с ней!
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(_("День 2"))
+    img black_screen
+    with Dissolve(2.0)
     music Malicious
     img 21407
     with fadelong
     mt "Мне надо позвать Боба! Мистер Маркус должен встретиться со мной!"
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     return
 
 # Приходит Боб.
@@ -1157,10 +1172,19 @@ label ep28_dialogues_jail7:
 # Боб отвечает что он еще занят и не распоряжался о встрече.
 # Моника говорит скажите ему что я хочу встретиться с ним, пожалуйста!
 label ep28_dialogues_jail8:
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    sound man_steps
+    pause 2.0
+    music Groove2_85
     img 21408
+    with fadelong
     overseer "Чего тебе?"
     m "Где Мистер Маркус?"
     img 21409
+    with diss
     overseer "Мистер Маркус занят и не распоряжался о встрече."
     m "Боб, скажите ему, что я хочу встретиться с ним, пожалуйста!"
 # Боб отвечает что это не его дело, но, вроде бы Мистер Маркус освободится завтра.
@@ -1168,35 +1192,60 @@ label ep28_dialogues_jail8:
 # Либо не шуметь!
 # Моника говорит что да, дай, пожалуйста, поесть. Боб уходит и приносит еду.
     img 21410
+    with fade
     overseer "Это не мое дело! Хотя, вообще-то, кажется я слышал Мистер Маркус освободится завтра."
     overseer "Я могу дать тебе поесть, если хочешь."
     overseer "Либо не шуми больше!"
     m "Да, Мистер Боб... Дайте, пожалуйста, мне поесть..."
     #Боб уходит и приносит еду.
 # Итак, завтра! Завтра я встречусь с Мистером Маркусом и этот кошмар закончится, я уверена!
+    music stop
+    img black_screen
+    with diss
+    sound snd_eating
+    pause 2.0
+    music Malicious
     img 21411
+    with fadelong
     mt "Итак, завтра!"
     mt "Завтра я встречусь с Мистером Маркусом и этот кошмар закончится, я уверена!"
+    return
 
+label ep28_dialogues_jail9:
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 2.0
+    music2 prison_yell_music
 # Моника ложится спать.
 # Ее будят крики шлюха!
 # Шлюха! Нам нужна наша шлюха!
     img 21412
+    with fadelong
     w
     img 21413
+    with diss
     prisoners "Шлюха! Нам нужна наша шлюха!"
     img 21414
+    with fade
     prisoners "Шлюха!"
 
 # Моника встает и кричит на них: что вам снова надо от меня!
 # Нам нужна шлюха! jail_name, наша шлюха!
 # Шлюха сегодня хорошая?! Или шлюха снова плохая?!
 # Шлюха, отвечай!
+    music Power_Bots_Loop
     img 21415
+    with diss
     m "Что Вам снова надо от меня?!"
+    music stop
     img 21416
+    with fade
     prisoners "Нам нужна шлюха! [monica_jail_name], наша шлюха!"
+    music Villainous_Treachery
     img 21417
+    with diss
     prisoner1 "Шлюха сегодня хорошая?"
     prisoner1 "Или шлюха снова плохая?!"
     prisoner1 "Шлюха, отвечай!"
@@ -1206,12 +1255,16 @@ label ep28_dialogues_jail8:
 # Если они расскажут обо мне, то мне конец! Всего один день!
 # Может быть стоит перетерпеть это? Эти унижения! Это путь к моей свободе!
 # Мне надо пройти его! Но смогу-ли Я?!
+    music2 stop
+    music Malicious
     img 21418
+    with fade
     mt "О БОЖЕ! Снова они!"
     mt "Что же мне делать?! Мне надо как-то дождаться завтрашнего дня!"
     mt "Если они расскажут обо мне, то мне конец!"
     mt "Всего один день!"
     img 21419
+    with diss
     mt "..."
     mt "Может быть стоит перетерпеть это? Эти унижения..."
     mt "Это пусть к моей свободе..."
@@ -1224,6 +1277,7 @@ label ep28_dialogues_jail8:
         "Притворяться шлюхой.":
             pass
         "Поставить их на место!":
+            call ep28_dialogues_monica_offending_prisoners()
             return False
 
 # Я... Я хорошая шлюха...
@@ -1231,85 +1285,153 @@ label ep28_dialogues_jail8:
 # Мы предвкушаем твою задницу, шлюха!
 # Достают члены
 # Мы хотим получить удовольствие от нее, прямо сейчас!
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Hidden_Agenda
     img 21420
+    with fadelong
     m "Я... Я хорошая шлюха..."
+    music Villainous_Treachery
+    music2 prison_yell_music
     img 21421
+    with diss
     prisoner1 "Хорошая шлюха встанет на колени и повернется к нам задницей! Да!"
     prisoner1 "Мы предвкушаем твою задницу, шлюха!"
 # Достают члены
+    sound snd_fabric1
     img 21422
+    with fade
     w
+    sound Jump2
     img 21423
+    with hpunch
     prisoner1 "Мы хотим получить удовольствие от нее, прямо сейчас!"
 
 # О БОЖЕ!
 # Что Вы собираетесь делать?!
 # Мы будем дрочить на тебя, шлюха! Скоро ты будешь наша!
 # А пока мы хотим подрочить на твою задницу! Вставай своей задницей, сейчас же!
+    music2 stop
+    music Malicious
     img 21424
+    with fade
     m "О БОЖЕ!"
     m "Что Вы собираетесь делать?!"
+    music Villainous_Treachery
+    music2 prison_yell_music
     img 21425
+    with diss
     prisoner1 "Мы будем дрочить, шлюха! Скоро ты будешь наша!"
+    music stop
+    sound Jump1
     img 21426
+    with hpunch
+    w
+    sound Jump1
     img 21427
+    with hpunch
+    w
+    sound Jump1
     img 21428
+    with hpunch
+    w
+    sound Jump2
     img 21429
+    with hpunch
+    w
+    music Villainous_Treachery
     img 21430
+    with fade
     prisoner1 "А пока мы хотим подрочить на твою задницу!"
     prisoner1 "Садись на колени и вставай своей задницей к нам, сейчас же!"
 
 # Сделать как велят заключенные.
 # Поставить их на место!
+    music Malicious
     img 21431
+    with diss
     menu:
         "Сделать как велят заключенные.":
             pass
         "Поставить их на место!":
+            call ep28_dialogues_monica_offending_prisoners()
             return False
 
     mt "У меня нет другого выхода..."
     mt "Мне надо притворяться будто я слушаю их..."
     mt "Иначе мне конец..."
 
+    sound highheels_short_walk
     img 21432
+    with diss
     mt "Боже! Я не могу поверить что делаю это..."
+    music Villainous_Treachery
     img 21433
+    with fade
     prisoner1 "Ближе, шлюха!"
     prisoner1 "Сядь ближе! Нам не видно твоей задницы!"
+    music Malicious
     img 21434
+    with diss
     menu:
         "Сесть ближе к заключенным.":
             pass
         "Поставить их на место!":
+            call ep28_dialogues_monica_offending_prisoners()
             return False
 # Моника встает на колени, голой попой к заключенным.
     mt "Я пододвинусь к ним... Аккуратно..."
     mt "Главное чтобы они не смогли схватить меня..."
     mt "Как в прошлый раз..."
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.5
+    music Loved_Up
     img 21435
+    with fadelong
     m "..."
 # Заключенные дрочат.
 # Да, шлюха! Скажи! Скажи что эта шлюха и ее задница принадлежат нам!
 # Скажи!
+    music Villainous_Treachery
+    music2 prison_yell_music
     img 21436
+    with fade
     prisoner1 "Выше! Выше задницу!"
     prisoner1 "Нам плохо видно!"
     prisoner1 "Шлюха должна поднять одежду, чтобы был лучший обзор! Да!"
 
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.5
+    music Villainous_Treachery
     img 21437
+    with diss
     prisoner1 "Да, шлюха!"
     img 21438
+    with diss
     w
     prisoner1 "Скажи что эта шлюха и ее задница принадлежат нам!"
     prisoner1 "Скажи!"
 
 # О БОЖЕ!! Неужели я скажу такое?!
+    music Malicious
+    music2 stop
     img 21439
+    with fade
     mt "О БОЖЕ! Неужели я скажу такое?!"
 
 # Ну же, шлюха! Мы ждем!
+    music2 prison_yell_music
     img 21440
+    with fade
     prisoner1 "Ну же, шлюха! Мы ждем!"
 
 # Сказать что Моника шлюха и что ее задница принадлежит заключенным.
@@ -1319,6 +1441,7 @@ label ep28_dialogues_jail8:
         "Сказать, что Моника шлюха и что ее задница принадлежит заключенным.":
             pass
         "Поставить их на место!":
+            call ep28_dialogues_monica_offending_prisoners()
             return False
 
 # Главное - понтянуть время, Моника! Я скажу им все что угодно, чтобы выиграть время...
@@ -1327,9 +1450,17 @@ label ep28_dialogues_jail8:
 
     mt "Главное - потянуть время, Моника!"
     mt "Я скажу им все что угоодно, чтобы выиграть время..."
+    music2 stop
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Hidden_Agenda
     img 21441
+    with fadelong
     m "Эта... Эта шлюха хорошая..."
     img 21442
+    with diss
     m "Эта шлюха и ее задница... принадлежат вам..."
 
 # Да! Хорошая шлюха!
@@ -1337,11 +1468,15 @@ label ep28_dialogues_jail8:
 
 # Скажи что эта задница всегда будет к нашим услугам, скажи!
 # Скажи! Скажи! Задница! Скажи!
+    music Villainous_Treachery
+    music2 prison_yell_music
     img 21443
+    with fade
     prisoners "Да! Хорошая шлюха!"
     prisoners "Хорошая шлюха! Да! Да!"
 
     img 21444
+    with diss
     prisoner1 "Открой свою киску!"
     prisoner1 "Покажи нам что у шлюхи внутри!"
 
@@ -1349,16 +1484,32 @@ label ep28_dialogues_jail8:
         "Положить палец на свою киску и раздвинуть ее.":
             pass
         "Поставить их на место!":
+            call ep28_dialogues_monica_offending_prisoners()
             return False
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+    #sound Моника раскрывает киску
+    music Loved_Up
     img 21446
+    with fadelong
+    w
 #    img 21447
+    music2 prison_yell_music
     img 21445
+    with diss
     prisoners "Хорошая шлюха! Да! Да!"
     img 21448
+    with diss
     prisoners "Да! Хорошая шлюха!"
+    music Villainous_Treachery
     img 21449
+    with fade
     prisoner1 "Скажи что эта задница всегда будет к нашим услугам! Скажи!"
     img 21450
+    with diss
     prisoners "Скажи! Скажи! Задница! Скажи!"
 
 # Сказать что попа Моники всегда к услугам заключенных.
@@ -1367,11 +1518,19 @@ label ep28_dialogues_jail8:
         "Сказать, что попа Моники всегда к услугам заключенных.":
             pass
         "Поставить их на место!":
+            call ep28_dialogues_monica_offending_prisoners()
             return False
 
 # Как я могу сказать такое?! Неужели я это сделаю?!
 # Это все сон! Это какой-то кошмар! Я не верю в то что это происходит!
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Malicious
     img 21451
+    with fadelong
     mt "Как я могу сказать такое?! Неужели Я это сделаю?!"
     mt "Это все сон!"
     mt "Это какой-то кошмар!"
@@ -1379,13 +1538,17 @@ label ep28_dialogues_jail8:
 
 # Ну же, шлюха!
 # Мы ждем!
+    music Villainous_Treachery
+    music2 prison_yell_music
     img 21452
+    with fade
     prisoner1 "Ну же, шлюха!"
     prisoner1 "Мы ждем!"
 
 # Задница этой шлюхи всегда к вашим услугам...
 # В любое время, шлюха! Скажи это!
     img 21453
+    with diss
     mt "..."
     mt "Грязные животные..."
     mt "Я скажу это... Эту мерзость..."
@@ -1395,42 +1558,74 @@ label ep28_dialogues_jail8:
     prisoner1 "В любое время, шлюха! Скажи это!"
 
 # Задница этой шлюхи всегда к вашим услугам... в лобое время...
+    music Hidden_Agenda
+    music2 stop
     img 21454
+    with fade
     m "Задница этой шлюхи всегда к Вашим услугам... в любое время..."
 
 # Да! Шлюха! Да!
 # Кончают...
 # Хорошая шлюха! Хорошая! Да!
 # Скоро мы вставим свои члены в эту аппетитную задницу! Да!
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Loved_Up2
+    music2 prison_yell_music
     img 21455
+    with fadelong
     prisoners "Да! Шлюха! Да!"
     # Кончают...
+    sound bulk1
     img 21456
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     prisoner1 "АААааааххх!!!"
+    sound bulk1
     img 21457
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     prisoner2 "АААааааххх!!!"
 
     img 21458
+    with fade
     prisoners "Хорошая шлюха! Хорошая! Да!"
     prisoner1 "Скоро мы вставим свои члены в эту аппетитную задницу! Да!"
 # Скажи, шлюха! Скажи, что ты ждешь наши члены в своей заднице!
 # Скажи это, шлюха!
+    music Villainous_Treachery
     prisoner1 "Скажи, шлюха! Скажи, что ты ждешь наши члены в своей заднице!"
     prisoner1 "Скажи это, шлюха!"
 # m "!!!"
 # Нет!!!
+    music2 stop
+    music Power_Bots_Loop
     img 21459
+    with hpunch
     mt "!!!"
     m "Нет!!!"
 # Скажи, шлюха! А не то ты станешь плохой шлюхой!
 # Да! Да! Плохая шлюха, да!
+    music Villainous_Treachery
+    music2 prison_yell_music
     img 21460
+    with fade
     prisoner1 "Скажи, шлюха! А не то ты станешь плохой шлюхой!"
     img 21461
+    with diss
     prisoners "Да! Да! Плохая шлюха! Да!"
 
 # О БОЖЕ!!! Что мне делать?!
+    music2 stop
+    music Malicious
     img 21462
+    with fade
     mt "О БОЖЕ!!! Что мне делать?!"
 
 # Сказать что Моника ждет члены заключенных в своей попе
@@ -1439,38 +1634,68 @@ label ep28_dialogues_jail8:
         "Сказать, что Моника ждет члены заключенных в своей попе.":
             pass
         "Поставить их на место!":
+            call ep28_dialogues_monica_offending_prisoners()
             return False
 
 # Я... Я жду ваши члены...
 # Где?! Где ты ждешь наши члены, шлюха?! Отвечай нам!
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Hidden_Agenda
     img 21463
+    with fadelong
     m "Я... Я жду Ваши члены..."
+    music Villainous_Treachery
+    music2 prison_yell_music
     img 21464
+    with fade
     prisoner1 "Где?! Где ты ждешь наши члены, шлюха?! Отвечай нам!"
 
 # Я... Я жду ваши члены... в своей попе...
 # О БОЖЕ!!!
+
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Hidden_Agenda
     img 21465
+    with fadelong
     m "Я... Я жду Ваши члены... в своей попе..."
     mt "О БОЖЕ!!!"
 
 # Скажи, скажи что ты хочешь, чтобы они поскорее оказались там!
 # Скажи это!
+    music Villainous_Treachery
+    music2 prison_yell_music
     img 21464
+    with fade
     prisoner1 "Скажи, скажи что ты хочешь, чтобы они поскорее оказались там!"
     prisoner1 "Скажи это!"
 
 # Как я могу такое сказать?! Но мне не важно что я говорю...
 # Все-равно этого никогда не будет... А мне надо выиграть время...
 # Всего-лишь время!
+    music Malicious
     img 21462
+    with fade
     mt "Как я могу такое сказать?! Но мне не важно, что я говорю..."
     mt "Все равно этого никогда не будет... А мне надо выиграть время..."
     mt "Всего лишь время!"
 
 # Я... Я жду ваши члены... в своей попе...
 # Я... Я хочу, чтобы они поскорее оказались там...
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Hidden_Agenda
     img 21466
+    with fadelong
     m "Я... Я жду Ваши члены... в своей попе..."
     m "Я... Я хочу, чтобы они поскорее оказались там..."
 
@@ -1479,19 +1704,25 @@ label ep28_dialogues_jail8:
 # У всех нас, одновременно!
 # Да! Да! Хорошая шлюха!
 # Одновременно, сосать, да!
+    music Villainous_Treachery
+    music2 prison_yell_music
     img 21467
+    with fade
     prisoner1 "Да, хорошая шлюха! Да!"
     prisoner1 "До завтра, шлюха!"
     prisoner1 "Завтра ты будешь сосать наши члены!"
     prisoner1 "У всех нас, одновременно!"
     img 21469
+    with diss
     prisoners "Да! Да! Хорошая шлюха!"
     prisoners "Одновременно, сосать, Да!"
 
 # НЕТ!!!
 # О БОЖЕ!!!
 # Я не буду делать этого!!!
+    music Power_Bots_Loop
     img 21468
+    with hpunch
     m "НЕТ!!!"
     m "О БОЖЕ!!!"
     m "Я не буду делать этого!!!"
@@ -1499,7 +1730,9 @@ label ep28_dialogues_jail8:
 # Ты будешь! Иначе ты будешь плохой шлюхой, да!
 # Скажи это! Скажи что ты будешь сосать наши члены завтра!
 # Скажи! Мы хотим это услышать!
+    music Villainous_Treachery
     img 21470
+    with fade
     prisoner1 "Ты будешь! Иначе ты будешь плохой шлюхой, Да!"
     prisoner1 "Скажи это! Скажи, что ты будешь сосать наши члены завтра!"
     prisoner1 "Скажи! Мы хотим услышать это!"
@@ -1507,6 +1740,7 @@ label ep28_dialogues_jail8:
 # Да! Да!
 # Услышать! Да!
     img 21471
+    with diss
     prisoners "Да! Да!"
     prisoners "Услышать! Да!"
 
@@ -1514,7 +1748,10 @@ label ep28_dialogues_jail8:
 # Что мне делать?!
 # Завтра Мистер Маркус примет меня.
 #Мне надо сказать что угодно, чтобы они отстали от меня!
+    music Malicious
+    music2 stop
     img 21472
+    with fade
     mt "О БОЖЕ!"
     mt "Что мне делать?!"
     mt "Завтра Мистер Маркус примет меня."
@@ -1526,16 +1763,29 @@ label ep28_dialogues_jail8:
         "Сказать, что завтра Моника будет сосать члены заключенных.":
             pass
         "Поставить их на место!":
+            call ep28_dialogues_monica_offending_prisoners()
             return False
 
 # Я... Я буду сосать Ваши члены... Завтра...
 # Одновременно! Одновременно все наши члены! Да!
 # Я... Я буду сосать завтра все Ваши члены... Одновременно...
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Groove2_85
     img 21473
+    with fade
     m "Я... Я буду сосать Ваши члены... Завтра..."
+    music Villainous_Treachery
+    music2 prison_yell_music
     img 21474
+    with diss
     prisoner1 "Одновременно! Одновременно все наши члены! Да!"
+    music Groove2_85
     img 21475
+    with fade
     m "Я... Я буду сосать завтра все Ваши члены... Одновременно..."
     mt "Мерзавцы... Никогда этого не будет!"
 
@@ -1543,43 +1793,74 @@ label ep28_dialogues_jail8:
 # Да!
 # Шлюха может отдыхать на сегодня! Да!
 # Мы придем к шлюхе завтра! Да!
-
+    music Villainous_Treachery
     prisoner1 "Да! Хорошая шлюха!"
     prisoners "Да!"
     img 21476
+    with diss
     prisoner1 "Шлюха может отдыхать на сегодня! Да!"
     prisoners "Мы придем к шлюхе завтра! Да!"
+    #sound заключенные уходят (топают)
 
 # О Боже! Что я сказала?!
 # Но какая разница?!
 # Завтра я встречусь с Маркусом и этот кошмар закончится!
 # Мне надо спать! Я хочу поскорее уснуть!
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 2.0
+    music Malicious
     img 21477
+    with fadelong
     mt "О Боже! Что Я сказала?!"
     img 21478
+    with diss
     mt "!!!"
     mt "Но какая разница?!"
     mt "Завтра я встречусь с Маркусом и это кошмар закончится!"
     mt "Мне надо спать! Я хочу поскорее уснуть!"
+    return
 
+label ep28_dialogues_jail10:
 # Моника ложится спать.
 # Я наговорила кучу ерунды сегодня.
 # Но это не важно. Все это не уйдет дальше этих жутких стен.
 # А для меня главное - это выбраться отсюда.
 # И завтра я добьюсь своей цели!
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+    music I_Feel_You
     img 21479
+    with fadelong
     mt "Я наговорила кучу ерунды сегодня."
     mt "Но это не важно. Все это не уйдет дальше этих жутких стен."
     mt "А для меня главное - это выбраться отсюда."
     mt "И завтра я добьюсь своей цели!"
+    return
 
+label ep28_dialogues_jail11:
 # Утро
 # Мне надо позвать Боба.
 # Мне надо встретиться с Мистером Маркусом скорее!
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(_("День 3"))
+    img black_screen
+    with Dissolve(2.0)
+    music Malicious
     img 21480
+    with fadelong
     mt "Мне надо позвать Боба."
     mt "Мне надо встретиться с Мистером Маркусом скорее!"
+    return
 
+label ep28_dialogues_jail12:
 # Боб приходит. Чего тебе?!
 # Я хочу встретиться с Мистером Маркусом!
 # Мистер Маркус сегодня снова занят.
@@ -1587,11 +1868,20 @@ label ep28_dialogues_jail8:
 # МИСТЕР МАРКУС ДОЛЖЕН МЕНЯ СЕГОДНЯ ПРИНЯТЬ!
 # ПОЖАЛУЙСТА!!!
 # МИСТЕР БОБ!!!
+    music stop
+    img black_screen
+    with diss
+    sound man_steps
+    pause 2.0
+    music Groove2_85
     img 21481
+    with fadelong
     overseer "Чего тебе?!"
     m "Я хочу встретиться с Мистером Маркусом!"
     overseer "Мистер Маркус сегодня занят."
+    music Power_Bots_Loop
     img 21482
+    with diss
     m "КАК?! НЕТ!!!"
     m "МИСТЕР МАРКУС ДОЛЖЕН МЕНЯ СЕГОДНЯ ПРИНЯТЬ!"
     m "ПОЖАЛУЙСТА!!!"

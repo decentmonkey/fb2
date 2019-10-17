@@ -15,6 +15,10 @@ define monicaTeacherCorruption3 = 250 # Моника показывает гру
 define monicaTeacherCorruption4 = 210 # Моника показывает грудь, поломавшись
 
 define monicaTeacherAddCorruption1 = 10 # За показ груди день 1
+
+define monicaJailDay1AddCorruption = 30 # За евенты дня1
+define monicaJailDay2AddCorruption = 30 # За евенты дня1
+define monicaJailDay3AddCorruption = 80 # За евенты дня1
 #
 
 define monicaBardieTitJobCorruption = 170 # Сделать Барди titjob
