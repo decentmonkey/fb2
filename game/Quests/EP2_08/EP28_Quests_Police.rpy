@@ -220,11 +220,12 @@ label ep28_quests_police_final: # Завершение тюремного кве
     call ep28_dialogues_jail2_marcus2() from _call_ep28_dialogues_jail2_marcus2
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
+    $ changeDayTime("evening")
     $ rain = True
     $ rainIntencity = 3
     $ lightning = True
-    $ day_time = "evening"
-    $ day_suffix = "_Evening"
+#    $ day_time = "evening"
+#    $ day_suffix = "_Evening"
     $ add_hook("enter_scene", "ep28_dialogues_jail2_marcus3", scene="street_police", once=True)
 
     $ add_money(moneyStored)

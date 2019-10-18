@@ -13,10 +13,13 @@ label ep28_betty_college_init:
     $ cloth_type = "Governess"
     call change_scene("floor2", "Fade_long") from _call_change_scene_390
 
-    $ add_hook("change_time_day", "ep28_betty_college2", scene="global", once=True, label="ep28_betty_college2", priority=99)
+    $ add_hook("change_time_day", "ep28_betty_college2", scene="global", label="ep28_betty_college2", priority=99)
     return
 
 label ep28_betty_college2:
+    if check_scene_parent(scene_name, "House", recursive=True) == False:
+        return
+    $ remove_hook()
     if ep28_betty_college2_flag == False:
         call dialogue_betty_college_1() from _call_dialogue_betty_college_1 # Барди говорит Бетти что надо идти в колледж
         $ ep28_betty_college2_flag = True
@@ -147,6 +150,8 @@ label ep28_betty_college2_teacher_day1d: # Квест остановлен
 label ep28_betty_college2_teacher_day2: # Инициализация 2-го дня похода к учителю
     if week_day == 7:
         return
+    if check_scene_parent(scene_name, "House", recursive=True) == False: # Проверяем что мы в доме (а не где-то у Маркуса и тд)
+        return
     $ remove_hook()
 
     $ add_hook("enter_scene", "dialogue_betty_college_1_1_4", scene="street_college", once=True, owner="Betty")
@@ -223,6 +228,8 @@ label ep28_betty_college2_teacher_day3a:
     return
 label ep28_betty_college2_teacher_day3: # Инициализация дня 3
     if week_day == 7:
+        return
+    if check_scene_parent(scene_name, "House", recursive=True) == False: # Проверяем что мы в доме (а не где-то у Маркуса и тд)
         return
 
     $ remove_hook()
