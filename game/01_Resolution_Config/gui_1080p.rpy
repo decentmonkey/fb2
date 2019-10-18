@@ -81,9 +81,9 @@ define gui.resolution.gallery.category_height = 45
 define gui.resolution.gallery.category_margin_down = 20
 
 define gui.resoultion.hud_screen.face_hud_image_background_pos = (1730, 87)
-define gui.resolution.hud_screen.face_hud_image_pos = (1730 + 22, 87 + 19)
+define gui.resolution.hud_screen.face_hud_image_pos = (1730 + 22, 67 + 19)#(1730 + 22, 87 + 19)
 define gui.resolution.hud_screen.minimap_x_pos_owner = 1827
-define gui.resolution.hud_screen.minimap_y_pos_owner = 273
+define gui.resolution.hud_screen.minimap_y_pos_owner = 240
 
 define res.suffix = "" #"", "_720p"
 

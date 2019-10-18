@@ -8,9 +8,13 @@ default ep28_quests_monica_kicked_prisoners = False # Моника ударил�
 default ep28_quests_monica_called_monicapubname = False
 default ep28_quests_bob_dick = False # Боб запихнул член Монике в рот
 default marcus_visit1_completed = False
+
+default moneyStored = 0
+
 label ep28_quests_police1:
     # Инициализация
     call ep28_dialogues_jail1()
+    $ moneyStored = money
     $ money = 0 # отбираем деньги
     $ add_hook("Sortir", "ep28_quests_police1_sortir", scene="police_cell1", label="cell_sortir") # туалет
     $ remove_hook(label="cage_interact1")
@@ -223,12 +227,18 @@ label ep28_quests_police_final: # Завершение тюремного кве
     $ day_suffix = "_Evening"
     $ add_hook("enter_scene", "ep28_dialogues_jail2_marcus3", scene="street_police", once=True)
 
+    $ add_money(moneyStored)
     $ define_inventory_object("butt_plug", {"description" : _("Анальная пробка"), "label_suffix" : "_use_butt_plug", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/butt_plug" + res.suffix + ".png"})
     $ questLog(54, False)
     $ questLog(56, True)
     $ add_inventory("butt_plug", 1, True)
     $ add_hook("enter_scene", "ep28_quests_police_final_home", scene="basement_bedroom2", once=True)
     $ add_hook("Building", "ep28_dialogues_jail2_marcus5", scene="street_police", label="marcus_block1")
+
+    if monicaWorkFlashCardQuestActive == True:
+        $ add_inventory("flash_card", 1, True)
+
+
     music stop
     img black_screen
     with diss
