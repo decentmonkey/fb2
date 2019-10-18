@@ -349,7 +349,39 @@ label dialogue_4_classmate_lesbian_1:
     img 22207
     with diss
     w
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,5))*1.66666667)) + " loop 0.0>Sounds/v_Monica_Betty_Licking_1_1.ogg"
+    scene black
+    image videov_Monica_Betty_Licking_1_1 = Movie(play="video/v_Monica_Betty_Licking_1_1.mkv", fps=30)
+    show videov_Monica_Betty_Licking_1_1
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,5))*1.66666667)) + " loop 0.0>Sounds/v_Monica_Betty_Licking_1_1.ogg"
+    scene black
+    image videov_Monica_Betty_Licking_1_2 = Movie(play="video/v_Monica_Betty_Licking_1_2.mkv", fps=30)
+    show videov_Monica_Betty_Licking_1_2
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,5))*1.66666667)) + " loop 0.0>Sounds/v_Monica_Betty_Licking_1_1.ogg"
+    scene black
+    image videov_Monica_Betty_Licking_1_3 = Movie(play="video/v_Monica_Betty_Licking_1_3.mkv", fps=30)
+    show videov_Monica_Betty_Licking_1_3
+    with fadelong
+    wclean
+
     #sound Бетти произносит ММмммммм...
+    music Loved_Up
     img 22208
     with diss
     betty "Мммм..."

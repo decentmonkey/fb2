@@ -410,6 +410,26 @@ label dialogue_classmate_1a:
     img 22078
     with diss
     w
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,3))*1.66666)) + " loop 0.0>Sounds/v_Monica_Eric_Licking_1_1.ogg"
+    scene black
+    image videov_Monica_Eric_Licking_1_1 = Movie(play="video/v_Monica_Eric_Licking_1_1.mkv", fps=30)
+    show videov_Monica_Eric_Licking_1_1
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,3))*1.66666)) + " loop 0.0>Sounds/v_Monica_Eric_Licking_1_1.ogg"
+    scene black
+    image videov_Monica_Eric_Licking_1_2 = Movie(play="video/v_Monica_Eric_Licking_1_2.mkv", fps=30)
+    show videov_Monica_Eric_Licking_1_2
+    with fadelong
+    wclean
     img 22080
     with diss
     w
