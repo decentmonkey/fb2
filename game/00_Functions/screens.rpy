@@ -1687,6 +1687,12 @@ screen navigation():
             textbutton _("Save") action ShowMenu("save")
 
         textbutton _("Load") action ShowMenu("load")
+
+        if game.extra == True and renpy.current_screen().screen_name[0] == "load":
+            if check_saves_for_migration() == True:
+                textbutton _("MIGRATE FROM 720p") action Start("migrate_saves") text_color "#e8b131" text_hover_color "#f8f131"
+#        python:
+            #config.save_directory
         if renpy.android != True:
             textbutton _("UPDATE GAME") action Start("show_game_updater") text_color "#31e8b1" text_hover_color "#9ff5dd"
 

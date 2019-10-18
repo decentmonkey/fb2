@@ -120,8 +120,8 @@ label ep28_betty_college2_teacher_day1b: # Бетти возвращается �
     call refresh_scene_fade() from _call_refresh_scene_fade_180
     return False
 
-label ep28_betty_college2_teacher_day1_resume:
-    $ add_hook("change_time_day", "ep28_betty_college2", scene="global", once=True, label="ep28_betty_college2")
+label ep28_betty_college2_teacher_day1_resume: # Возобновляем квест с Бетти после наказания от Барди
+    $ add_hook("change_time_day", "ep28_betty_college2", scene="global", once=True, label="ep28_betty_college2", priority=99)
     return
 
 label ep28_betty_college2_teacher_day1c: # Бетти заходит в дом (переход управления к Монике)
