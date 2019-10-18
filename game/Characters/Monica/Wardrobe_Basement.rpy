@@ -45,7 +45,7 @@ label wardrobeBasement:
 #            $ renpy.pause(0.5)
             $ autorun_to_object("basement_bedroom1", "wardrobeBasement_dialogue2_governess")
         "Одежда Домохозяйки." if monicaHasSchoolOutfit1 == True:
-            call wardrobeBasementPutUpSchoolOutfit1()
+            call wardrobeBasementPutUpSchoolOutfit1() from _call_wardrobeBasementPutUpSchoolOutfit1_1
             $ autorun_to_object("basement_bedroom1", "dialogue_classmate_3_3")
         "Только трусики.":
             $ cloth = "GovernessPants"
@@ -159,7 +159,7 @@ label hook_basement_bedroom_check_exit_cloth_map: #проверка при вы�
                         return True
 
                     "Одежда Домохозяйки." if monicaHasSchoolOutfit1 == True and obj_name == "Teleport_College":
-                        call wardrobeBasementPutUpSchoolOutfit1() #Принудительно переодеваем Монику
+                        call wardrobeBasementPutUpSchoolOutfit1() from _call_wardrobeBasementPutUpSchoolOutfit1_2 #Принудительно переодеваем Монику
                         return True
 
                     "Переодеться в одежду шлюхи." if monicaHasCasualDress1 == True:
@@ -191,7 +191,7 @@ label hook_basement_bedroom_check_exit_cloth_map: #проверка при вы�
                             return True
 
                         "Одежда Домохозяйки." if monicaHasSchoolOutfit1 == True and obj_name == "Teleport_College":
-                            call wardrobeBasementPutUpSchoolOutfit1() #Принудительно переодеваем Монику
+                            call wardrobeBasementPutUpSchoolOutfit1() from _call_wardrobeBasementPutUpSchoolOutfit1_3 #Принудительно переодеваем Монику
                             return True
 
                         "Переодеться в одежду шлюхи." if monicaHasCasualDress1 == True:
@@ -269,10 +269,10 @@ label wardrobeBasementPutUpSchoolOutfit1:
     # Одеваем CasualDress1
     if monicaCasualDressWearFirstTimeWardrobe == True:
         $ monicaCasualDressWearFirstTimeWardrobe = False
-        call ep25_dialgues5_basement1()
+        call ep25_dialgues5_basement1() from _call_ep25_dialgues5_basement1_1
     $ cloth = "SchoolOutfit1"
     $ cloth_type = "SchoolOutfit"
-    call wardrobeBasementCasualDressMiniMap1()
+    call wardrobeBasementCasualDressMiniMap1() from _call_wardrobeBasementCasualDressMiniMap1_2
     sound snd_fabric1
     img black_screen
     with Dissolve(0.5)

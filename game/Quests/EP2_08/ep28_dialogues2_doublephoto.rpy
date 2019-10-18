@@ -133,7 +133,7 @@ label dialogue_doublephoto_1:
     betty "Давай, быстрее!"
     betty "Только одно фото!"
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_166
     w
     # Барди с довольным видом делает фотку
     img 15130
@@ -141,24 +141,24 @@ label dialogue_doublephoto_1:
     betty "Все?"
     bardie "Подождите, что-то не получилось фото. Ну-ка еще раз."
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_167
     w
     # Барди делет еще несколько кадров
     img 15131
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_168
     w
     img 15132
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_169
     w
     img 15133
     with diss
     betty "Все! Хватит!"
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_170
     w
     # Бетти опускает юбку, Моника следом за ней
     music stop

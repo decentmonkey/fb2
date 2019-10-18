@@ -1899,7 +1899,7 @@ label ep26_dialogues1_bardie12:
             "Я завтра пойду в колледж...":
                 img 13117
                 betty "Я завтра пойду в колледж..."
-                call ep28_betty_college2_teacher_day1_resume() # снова активируем квест с Бетти в колледже
+                call ep28_betty_college2_teacher_day1_resume() from _call_ep28_betty_college2_teacher_day1_resume # снова активируем квест с Бетти в колледже
             "Промолчать...":
                 betty "..."
     else:

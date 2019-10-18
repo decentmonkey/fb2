@@ -13,7 +13,7 @@ label ep26_quests_betty1:
     $ add_hook_multi("ep26_quests_betty2", scene="kitchen2", label=["kitchen_betty_bardie_food1"], filter={"group":"environment"})
     $ add_hook("enter_scene", "ep26_quests_betty3", scene="kitchen", label="kitchen_betty_bardie_food1_enter")
 
-    call ep28_monica_bardie_init() # Инициализация v0.8 квеста с колледжем
+    call ep28_monica_bardie_init() from _call_ep28_monica_bardie_init_1 # Инициализация v0.8 квеста с колледжем
 
     return
 

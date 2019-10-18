@@ -26,21 +26,21 @@ label street_college_init:
 label street_college_teleport:
     if obj_name == "College":
         if act=="l":
-            call dialogue_classmate_3_3i() #dialogue_betty_college_1_1s()
+            call dialogue_classmate_3_3i() from _call_dialogue_classmate_3_3i_1 #dialogue_betty_college_1_1s()
         if act=="w":
             if day_time != "evening":
                 if cloth == "CasualDress1":
-                    call dialogue_classmate_3_2b()
+                    call dialogue_classmate_3_2b() from _call_dialogue_classmate_3_2b_2
                     return
                 if cloth_type == "Whore":
-                    call dialogue_classmate_3_2bb()
+                    call dialogue_classmate_3_2bb() from _call_dialogue_classmate_3_2bb_2
                     return
-                call dialogue_classmate_3_2d()
+                call dialogue_classmate_3_2d() from _call_dialogue_classmate_3_2d
             else:
-                call dialogue_classmate_3_2c()
+                call dialogue_classmate_3_2c() from _call_dialogue_classmate_3_2c
     return
 label street_college_environment:
     if obj_name == "Monica":
-        call dialogue_classmate_3_2e()
+        call dialogue_classmate_3_2e() from _call_dialogue_classmate_3_2e
 
     return

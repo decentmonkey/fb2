@@ -88,9 +88,9 @@ label ep25_quests6:
         return False
 
     if cloth == "SchoolOutfit1":
-        call dialogue_classmate_4a()
+        call dialogue_classmate_4a() from _call_dialogue_classmate_4a
         $ basementHoleIncomingDirection = "Laundry"
-        call change_scene("basement_hole", "Fade_long")
+        call change_scene("basement_hole", "Fade_long") from _call_change_scene_412
         return False
     return
 
@@ -100,7 +100,7 @@ label ep25_quests7:
         call ep25_dialogues4_map3() from _call_ep25_dialogues4_map3
         return False
     if cloth == "SchoolOutfit1":
-        call dialogue_classmate_4a()
+        call dialogue_classmate_4a() from _call_dialogue_classmate_4a_1
         return False
     return
 

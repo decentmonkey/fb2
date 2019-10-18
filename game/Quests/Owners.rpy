@@ -24,7 +24,7 @@ label change_owner_default:
         $ hud_preset_current = "betty"
         $ hud_preset_default = "betty"
         $ minimap_coords_preset = 1
-        call define_hudpresets()
+        call define_hudpresets() from _call_define_hudpresets_3
 
     if new_owner == "Monica":
         $ showObjectsNotOwner = True

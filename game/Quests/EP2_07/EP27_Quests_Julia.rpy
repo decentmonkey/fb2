@@ -51,7 +51,7 @@ label ep27_quests_julia1_relationships:
         call refresh_scene_fade() from _call_refresh_scene_fade_167
         return False
     if _return == 6: # Выяснить какого цвета трусики у Юлии
-        call ep28_quests_julia_panties_menu()
+        call ep28_quests_julia_panties_menu() from _call_ep28_quests_julia_panties_menu
         return False
     return False
 
@@ -225,7 +225,7 @@ label ep27_quests_julia12_fred_catch:
         return
         # next updates
     $ remove_hook(label="ep27_quests_julia1_f")
-    call ep28_quests_julia_fred_catch1()
+    call ep28_quests_julia_fred_catch1() from _call_ep28_quests_julia_fred_catch1
 #    m "catch"
 #    call ep28_betty_init()
 #    return

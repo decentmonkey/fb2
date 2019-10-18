@@ -7,7 +7,7 @@ label dialogue_classmate_1:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_41
     scene black_screen
     with Dissolve(1)
     music Sneaky_Snitch
@@ -56,10 +56,10 @@ label dialogue_classmate_1:
     return
 
 label dialogue_classmate_1d:
-    call dialogue_classmate_2a()
+    call dialogue_classmate_2a() from _call_dialogue_classmate_2a
     $ dialogue_classmate_1b_flag = True
     $ autorun_to_object("dialogue_classmate_1b", scene="basement_bedroom2")
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_183
     return
 
 label dialogue_classmate_1b:
@@ -1149,7 +1149,7 @@ label dialogue_classmate_3_1:
         "Купить костюм.":
             # Вивьен оформляет покупку, отдает костюм с улыбкой, Моника держится высокомерно
             # Моника в примерочной меряет платье
-            call dialogue_classmate_3_1_7()
+            call dialogue_classmate_3_1_7() from _call_dialogue_classmate_3_1_7
             img black_screen
             with diss
             sound highheels_short_walk
@@ -1314,7 +1314,7 @@ label dialogue_classmate_3_1:
     with diss
     mt "Ну наконец-то!"
 
-    call dialogue_classmate_3_1_7()
+    call dialogue_classmate_3_1_7() from _call_dialogue_classmate_3_1_7_1
     # Вивьен оформляет покупку, отдает костюм с улыбкой, Моника держится высокомерно
     music stop
     img black_screen
@@ -1884,7 +1884,7 @@ label dialogue_classmate_5_1b: # если ушла от учителя
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("5 минут спустя..."))
+    call textonblack(_("5 минут спустя...")) from _call_textonblack_42
     img black_screen
     with Dissolve(2.0)
     music Groove2_85

@@ -34,28 +34,28 @@ label college_class_init:
 
 label college_class_teleport:
     if obj_name == "Teleport_Street_College":
-        call change_scene("street_college", "Fade_long", "highheels_run2")
+        call change_scene("street_college", "Fade_long", "highheels_run2") from _call_change_scene_402
         return
     return
 label college_class_environment:
     if obj_name == "College_Class_Books":
-        call dialogue_classmate_3_3d()
+        call dialogue_classmate_3_3d() from _call_dialogue_classmate_3_3d
     if obj_name == "College_Class_Desk":
-        call dialogue_classmate_3_3e()
+        call dialogue_classmate_3_3e() from _call_dialogue_classmate_3_3e
     if obj_name == "College_Class_Formulas":
-        call dialogue_classmate_3_3h()
+        call dialogue_classmate_3_3h() from _call_dialogue_classmate_3_3h
     if obj_name == "College_Class_SchoolTables":
-        call dialogue_classmate_3_3g()
+        call dialogue_classmate_3_3g() from _call_dialogue_classmate_3_3g
     if obj_name == "College_Class_Windows":
-        call dialogue_classmate_3_3c()
+        call dialogue_classmate_3_3c() from _call_dialogue_classmate_3_3c
     if obj_name == "College_Class_WorldMap":
-        call dialogue_classmate_3_3f()
+        call dialogue_classmate_3_3f() from _call_dialogue_classmate_3_3f
 
     if obj_name == "Monica":
-        call dialogue_classmate_3_3i()
+        call dialogue_classmate_3_3i() from _call_dialogue_classmate_3_3i
 
     if obj_name == "Teacher":
         if act=="l":
-            call dialogue_classmate_3_3b()
+            call dialogue_classmate_3_3b() from _call_dialogue_classmate_3_3b
 
     return

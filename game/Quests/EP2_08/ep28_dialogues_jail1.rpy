@@ -151,7 +151,7 @@ label ep28_dialogues_jail1:
     sound man_steps
     img black_screen
     with Dissolve(1.5)
-    call textonblack(_("День 1"))
+    call textonblack(_("День 1")) from _call_textonblack_33
     img black_screen
     with Dissolve(2.0)
     return
@@ -189,7 +189,7 @@ label ep28_dialogues_jail3b:
 
 label ep28_dialogues_jail3a:
     mt "Никого нет..."
-    call change_scene("police_cell2", "Fade_long")
+    call change_scene("police_cell2", "Fade_long") from _call_change_scene_389
     return False
 
 label ep28_dialogues_jail4:
@@ -437,7 +437,7 @@ label ep28_dialogues_jail4:
 # Если поставить на место, то Моника говорит чтобы они заткнулись!
 # Они сами нарушают правила тем, что заключают сделки с надзирателем.
 # Гуляют здесь без разрешения администрации.
-            call ep28_dialogues_monica_offending_prisoners()
+            call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners
             return False
 
 # Если притворяться шлюхой
@@ -558,7 +558,7 @@ label ep28_dialogues_jail4:
         "Извиниться перед заключенными.":
             pass
         "Поставить их на место!":
-            call ep28_dialogues_monica_offending_prisoners()
+            call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_1
             return False
 
 # Мне надо делать что они говорят, иначе конец!
@@ -632,7 +632,7 @@ label ep28_dialogues_jail4:
         "Показать грудь.":
             pass
         "Поставить их на место!":
-            call ep28_dialogues_monica_offending_prisoners()
+            call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_2
             return False
 
 # Моника показывает грудь, закрывая другой рукой киску.
@@ -700,7 +700,7 @@ label ep28_dialogues_jail4:
         "Показать свою киску.":
             pass
         "Поставить их на место!":
-            call ep28_dialogues_monica_offending_prisoners()
+            call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_3
             return False
 
 # Моника поднимает вторую руку вверх, держа робу.
@@ -766,7 +766,7 @@ label ep28_dialogues_jail4:
         "Попросить разрешение показать свою попу.":
             pass
         "Поставить их на место!":
-            call ep28_dialogues_monica_offending_prisoners()
+            call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_4
             return False
 
 # Я... Я прошу...
@@ -956,7 +956,7 @@ label ep28_dialogues_jail4:
         "Подойти к заключенным.":
             pass
         "Поставить их на место!":
-            call ep28_dialogues_monica_offending_prisoners()
+            call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_5
             return False
 
     music stop
@@ -1164,7 +1164,7 @@ label ep28_dialogues_jail7:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("День 2"))
+    call textonblack(_("День 2")) from _call_textonblack_35
     img black_screen
     with Dissolve(2.0)
     music Malicious
@@ -1287,7 +1287,7 @@ label ep28_dialogues_jail9:
         "Притворяться шлюхой.":
             pass
         "Поставить их на место!":
-            call ep28_dialogues_monica_offending_prisoners()
+            call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_6
             return False
 
 # Я... Я хорошая шлюха...
@@ -1366,7 +1366,7 @@ label ep28_dialogues_jail9:
         "Сделать как велят заключенные.":
             pass
         "Поставить их на место!":
-            call ep28_dialogues_monica_offending_prisoners()
+            call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_7
             return False
 
     mt "У меня нет другого выхода..."
@@ -1389,7 +1389,7 @@ label ep28_dialogues_jail9:
         "Сесть ближе к заключенным.":
             pass
         "Поставить их на место!":
-            call ep28_dialogues_monica_offending_prisoners()
+            call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_8
             return False
 # Моника встает на колени, голой попой к заключенным.
     mt "Я пододвинусь к ним... Аккуратно..."
@@ -1451,7 +1451,7 @@ label ep28_dialogues_jail9:
         "Сказать, что Моника шлюха и что ее задница принадлежит заключенным.":
             pass
         "Поставить их на место!":
-            call ep28_dialogues_monica_offending_prisoners()
+            call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_9
             return False
 
 # Главное - понтянуть время, Моника! Я скажу им все что угодно, чтобы выиграть время...
@@ -1494,7 +1494,7 @@ label ep28_dialogues_jail9:
         "Положить палец на свою киску и раздвинуть ее.":
             pass
         "Поставить их на место!":
-            call ep28_dialogues_monica_offending_prisoners()
+            call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_10
             return False
     music stop
     music2 stop
@@ -1529,7 +1529,7 @@ label ep28_dialogues_jail9:
         "Сказать, что попа Моники всегда к услугам заключенных.":
             pass
         "Поставить их на место!":
-            call ep28_dialogues_monica_offending_prisoners()
+            call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_11
             return False
 
 # Как я могу сказать такое?! Неужели я это сделаю?!
@@ -1645,7 +1645,7 @@ label ep28_dialogues_jail9:
         "Сказать, что Моника ждет члены заключенных в своей попе.":
             pass
         "Поставить их на место!":
-            call ep28_dialogues_monica_offending_prisoners()
+            call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_12
             return False
 
 # Я... Я жду ваши члены...
@@ -1774,7 +1774,7 @@ label ep28_dialogues_jail9:
         "Сказать, что завтра Моника будет сосать члены заключенных.":
             pass
         "Поставить их на место!":
-            call ep28_dialogues_monica_offending_prisoners()
+            call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_13
             return False
 
 # Я... Я буду сосать Ваши члены... Завтра...
@@ -1863,7 +1863,7 @@ label ep28_dialogues_jail11:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("День 3"))
+    call textonblack(_("День 3")) from _call_textonblack_36
     img black_screen
     with Dissolve(2.0)
     music Malicious
@@ -1974,7 +1974,7 @@ label ep28_dialogues_jail14:
     music stop
     music2 stop
     sound man_steps
-    call textonblack(_("Спустя некоторое время..."))
+    call textonblack(_("Спустя некоторое время...")) from _call_textonblack_37
     img black_screen
     with Dissolve(1)
     music2 prison_yell_music
@@ -2145,7 +2145,7 @@ label ep28_dialogues_jail14:
         "Сделать, что они хотят.":
             pass
         "Поставить их на место!":
-            call ep28_dialogues_monica_offending_prisoners()
+            call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_14
             return False
 
 # Я... Я...
@@ -2952,7 +2952,7 @@ label ep28_dialogues_jail16:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("День 4"))
+    call textonblack(_("День 4")) from _call_textonblack_38
     img black_screen
     with Dissolve(2.0)
     music Power_Bots_Loop

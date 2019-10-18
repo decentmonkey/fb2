@@ -6,19 +6,19 @@ default bettyCollegeMonicaLesbieInited = False
 default ep28_betty_college2_flag = False
 
 label ep28_betty_college_init:
-    call dialogue_betty_college_0_1()
+    call dialogue_betty_college_0_1() from _call_dialogue_betty_college_0_1
 #    $ add_hook("Teleport_BedroomBardie",
     $ add_hook("enter_scene", "dialogue_betty_college_0_1b", scene="floor2", once=True)
     $ cloth = "Governess"
     $ cloth_type = "Governess"
-    call change_scene("floor2", "Fade_long")
+    call change_scene("floor2", "Fade_long") from _call_change_scene_390
 
     $ add_hook("change_time_day", "ep28_betty_college2", scene="global", once=True, label="ep28_betty_college2")
     return
 
 label ep28_betty_college2:
     if ep28_betty_college2_flag == False:
-        call dialogue_betty_college_1() # Барди говорит Бетти что надо идти в колледж
+        call dialogue_betty_college_1() from _call_dialogue_betty_college_1 # Барди говорит Бетти что надо идти в колледж
         $ ep28_betty_college2_flag = True
 
     # инициализируем колледж
@@ -44,44 +44,44 @@ label ep28_betty_college2:
     $ add_hook("Teacher", "ep28_betty_college2_teacher_day1", scene="college_class", label="betty_college_day1", owner="Betty")
 
     $ add_hook("enter_scene", "dialogue_betty_college_1_1a", scene="street_house_main_yard", once=True, owner="Betty")
-    call locations_init_college()
-    call ep28_betty_init()
+    call locations_init_college() from _call_locations_init_college
+    call ep28_betty_init() from _call_ep28_betty_init
     $ move_object("Ralph", "living_room")
     $ add_objective("bardie_college", _("Уладить проблему Барди в колледже"), c_green, 15)
     return
 
 label ep28_betty_college2_building:
     if act=="l":
-        call dialogue_betty_college_1_1s()
+        call dialogue_betty_college_1_1s() from _call_dialogue_betty_college_1_1s
         return
-    call dialogue_betty_college_1_1b()
+    call dialogue_betty_college_1_1b() from _call_dialogue_betty_college_1_1b
     return False
 
 label ep28_betty_college2_building_day1:
     if act=="l":
         return
-    call change_scene("college_class", "Fade_long", "highheels_run2")
+    call change_scene("college_class", "Fade_long", "highheels_run2") from _call_change_scene_391
     return False
 
 label ep28_betty_college2_class_teleport_back:
     $ streetCollegeBettySuffix = 2
-    call change_scene("street_college", "Fade_long", "highheels_run2")
+    call change_scene("street_college", "Fade_long", "highheels_run2") from _call_change_scene_392
     return
 
 label ep28_betty_college2_teacher:
 
     if act=="l":
-        call dialogue_betty_college_1_1k()
+        call dialogue_betty_college_1_1k() from _call_dialogue_betty_college_1_1k
         return
     return
 
 
 label ep28_betty_college2_teacher_day1: # Сцена учителя с Бетти день 1
     if act=="l":
-        call dialogue_betty_college_1_1_2()
+        call dialogue_betty_college_1_1_2() from _call_dialogue_betty_college_1_1_2
         return False
     $ bettyCollegeDay = 1
-    call dialogue_betty_teacher_1()
+    call dialogue_betty_teacher_1() from _call_dialogue_betty_teacher_1
     if _return == True:
         $ bettyCollegeDay1JobFinished = True
         $ bettyCollegeTeacherRefused = False
@@ -92,7 +92,7 @@ label ep28_betty_college2_teacher_day1: # Сцена учителя с Бетт�
     $ remove_hook(label="betty_college_day1")
 
     $ streetCollegeBettySuffix = 2
-    call change_scene("street_college", "Fade_long", "highheels_run2")
+    call change_scene("street_college", "Fade_long", "highheels_run2") from _call_change_scene_393
 
     $ move_object("Bardie", "street_house_main_yard")
     $ add_hook("Bardie", "ep28_betty_college2_teacher_day1b", scene="street_house_main_yard", owner="Betty", label="betty_college_day1")
@@ -103,18 +103,18 @@ label ep28_betty_college2_teacher_day1: # Сцена учителя с Бетт�
 
 label ep28_betty_college2_teacher_day1b: # Бетти возвращается из колледжа, говорит с Барди
     if act=="l":
-        call dialogue_betty_college_1_1c()
+        call dialogue_betty_college_1_1c() from _call_dialogue_betty_college_1_1c
         return False
     if bettyCollegeDay1JobFinished == True:
-        call dialogue_betty_college_2()
+        call dialogue_betty_college_2() from _call_dialogue_betty_college_2
     else:
-        call dialogue_betty_college_2_1()
+        call dialogue_betty_college_2_1() from _call_dialogue_betty_college_2_1
         $ add_hook("change_time_day", "ep28_betty_college2_teacher_day1d", scene="global", label="betty_college_aborted")
 
     $ remove_hook(label="betty_college_day1")
     $ move_object("Bardie", "empty")
     $ add_hook("enter_scene", "ep28_betty_college2_teacher_day1c", scene="floor1", owner="Betty", once=True)
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_180
     return False
 
 label ep28_betty_college2_teacher_day1_resume:
@@ -123,17 +123,17 @@ label ep28_betty_college2_teacher_day1_resume:
 
 label ep28_betty_college2_teacher_day1c: # Бетти заходит в дом (переход управления к Монике)
     if bettyCollegeDay1JobFinished == True:
-        call dialogue_betty_college_3()
+        call dialogue_betty_college_3() from _call_dialogue_betty_college_3
     $ move_object("Betty", "bedroom1")
     music stop
     img black_screen
     with diss
     pause 1.5
     $ hudDaySkipToEveningEnabled = True
-    call change_scene("basement_bedroom2", "Fade_long", False)
+    call change_scene("basement_bedroom2", "Fade_long", False) from _call_change_scene_394
     $ map_objects["Teleport_College"]["state"] = "visible"
 
-    call change_owner("Monica")
+    call change_owner("Monica") from _call_change_owner
 
     if bettyCollegeDay1JobFinished == True:
         $ add_hook("change_time_day", "ep28_betty_college2_teacher_day2", scene="global", label="betty_college_day2")
@@ -157,7 +157,7 @@ label ep28_betty_college2_teacher_day2: # Инициализация 2-го дн
 
     $ streetCollegeBettySuffix = 1
 
-    call change_owner("Betty")
+    call change_owner("Betty") from _call_change_owner_1
     $ set_active("Betty", True, scene="House", recursive=True)
     $ set_active("Betty", True, scene="street_college", recursive=True)
     $ hudDaySkipToEveningEnabled = False
@@ -165,17 +165,17 @@ label ep28_betty_college2_teacher_day2: # Инициализация 2-го дн
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Утро..."))
+    call textonblack(_("Утро...")) from _call_textonblack_39
     img black_screen
     with Dissolve(2.0)
 
-    call change_scene("street_house_main_yard")
+    call change_scene("street_house_main_yard") from _call_change_scene_395
     return
 
 label ep28_betty_college2_teacher_day2_teacher: # Разговор с учителем
     if act=="l":
         return
-    call dialogue_betty_teacher_2()
+    call dialogue_betty_teacher_2() from _call_dialogue_betty_teacher_2
     $ bettyCollegeDay = 2
 
     $ add_hook("enter_scene", "dialogue_betty_college_1_1_5", scene="street_college", owner="Betty", once=True)
@@ -186,7 +186,7 @@ label ep28_betty_college2_teacher_day2_teacher: # Разговор с учите
     img black_screen
     with diss
     pause 2.0
-    call change_scene("street_college", "Fade_long", "highheels_run2")
+    call change_scene("street_college", "Fade_long", "highheels_run2") from _call_change_scene_396
 
     $ move_object("Bardie", "street_house_main_yard")
     $ add_hook("Bardie", "ep28_betty_college2_teacher_day2b", scene="street_house_main_yard", owner="Betty", label="betty_college_day2")
@@ -198,9 +198,9 @@ label ep28_betty_college2_teacher_day2_teacher: # Разговор с учите
 
 label ep28_betty_college2_teacher_day2b: # Разговор с Барди после сцены 2-го дня
     if act=="l":
-        call dialogue_betty_college_1_1c()
+        call dialogue_betty_college_1_1c() from _call_dialogue_betty_college_1_1c_1
         return False
-    call dialogue_betty_college_4()
+    call dialogue_betty_college_4() from _call_dialogue_betty_college_4
 
     $ remove_hook(label="betty_college_day2")
     $ move_object("Bardie", "empty")
@@ -210,9 +210,9 @@ label ep28_betty_college2_teacher_day2b: # Разговор с Барди пос
     with diss
     pause 2.5
     $ hudDaySkipToEveningEnabled = True
-    call change_scene("basement_bedroom2", "Fade_long", False)
+    call change_scene("basement_bedroom2", "Fade_long", False) from _call_change_scene_397
     $ map_objects["Teleport_College"]["state"] = "visible"
-    call change_owner("Monica")
+    call change_owner("Monica") from _call_change_owner_2
     $ add_hook("change_time_day", "ep28_betty_college2_teacher_day3a", scene="global", label="betty_college_day3")
 
     return
@@ -234,7 +234,7 @@ label ep28_betty_college2_teacher_day3: # Инициализация дня 3
 
     $ streetCollegeBettySuffix = 1
 
-    call change_owner("Betty")
+    call change_owner("Betty") from _call_change_owner_3
     $ set_active("Betty", True, scene="House", recursive=True)
     $ set_active("Betty", True, scene="street_college", recursive=True)
     $ hudDaySkipToEveningEnabled = False
@@ -242,18 +242,18 @@ label ep28_betty_college2_teacher_day3: # Инициализация дня 3
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Утро..."))
+    call textonblack(_("Утро...")) from _call_textonblack_40
     img black_screen
     with Dissolve(2.0)
 
-    call change_scene("street_house_main_yard")
+    call change_scene("street_house_main_yard") from _call_change_scene_398
 
     return
 
 label ep28_betty_college2_teacher_day3_teacher: # Разговор с учителем день 3
     if act=="l":
         return
-    call dialogue_betty_teacher_3()
+    call dialogue_betty_teacher_3() from _call_dialogue_betty_teacher_3
     $ bettyCollegeDay = 3
 
     $ add_hook("enter_scene", "dialogue_betty_college_1_1_7", scene="street_college", owner="Betty", once=True)
@@ -264,7 +264,7 @@ label ep28_betty_college2_teacher_day3_teacher: # Разговор с учите
     img black_screen
     with diss
     pause 2.0
-    call change_scene("street_college", "Fade_long", "highheels_run2")
+    call change_scene("street_college", "Fade_long", "highheels_run2") from _call_change_scene_399
 
     $ move_object("Bardie", "street_house_main_yard")
     $ add_hook("Bardie", "ep28_betty_college2_teacher_day3b", scene="street_house_main_yard", owner="Betty", label="betty_college_day3")
@@ -275,9 +275,9 @@ label ep28_betty_college2_teacher_day3_teacher: # Разговор с учите
 
 label ep28_betty_college2_teacher_day3b: # Разговор с Барди день 3
     if act=="l":
-        call dialogue_betty_college_1_1c()
+        call dialogue_betty_college_1_1c() from _call_dialogue_betty_college_1_1c_2
         return False
-    call dialogue_betty_college_5()
+    call dialogue_betty_college_5() from _call_dialogue_betty_college_5
     music stop
     img black_screen
     with diss
@@ -290,13 +290,13 @@ label ep28_betty_college2_teacher_day3b: # Разговор с Барди ден
 #    call dialogue_doublephoto_1()
 
     $ remove_hook(label="betty_college_day3")
-    call ep28_betty_house_init_ext1() # Инициализируем доп. локации в доме
+    call ep28_betty_house_init_ext1() from _call_ep28_betty_house_init_ext1 # Инициализируем доп. локации в доме
     $ set_active("Betty", True, scene="House", recursive=True)
     $ add_hook("Teleport_BedroomBardie", "ep28_betty_college2_teacher_day3c", scene="floor2", label=["betty_college_day3"], owner="Betty")
     $ move_object("Bardie", "empty")
     $ add_objective("go_to_bardie", _("Идти к Барди в комнату"), c_orange, 45)
     $ minimapBettyFloor2Enabled = True
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_181
     return
 
 label ep28_betty_college2_teacher_day3c:
@@ -307,7 +307,7 @@ label ep28_betty_college2_teacher_day3c:
     img black_screen
     with diss
     pause 2.0
-    call dialogue_betty_college_6()
+    call dialogue_betty_college_6() from _call_dialogue_betty_college_6
     music stop
     img black_screen
     with diss
@@ -315,13 +315,13 @@ label ep28_betty_college2_teacher_day3c:
     $ hudDaySkipToEveningEnabled = True
     $ cloth = "Governess"
     $ cloth_type = "Governess"
-    call change_scene("basement_bedroom2", "Fade_long", False)
+    call change_scene("basement_bedroom2", "Fade_long", False) from _call_change_scene_400
     $ map_objects["Teleport_College"]["state"] = "visible"
-    call change_owner("Monica")
-    call change_scene("basement_bedroom2", "Fade_long", False)
+    call change_owner("Monica") from _call_change_owner_4
+    call change_scene("basement_bedroom2", "Fade_long", False) from _call_change_scene_401
 
     $ bettyCollegeTeacherStage = 1
-    call ep28_betty_college_double_photo_init()
+    call ep28_betty_college_double_photo_init() from _call_ep28_betty_college_double_photo_init
     return False
 
 label ep28_betty_college_double_photo_init:
@@ -348,7 +348,7 @@ label ep28_betty_college_double_photo1:
     $ remove_hook(label="double_photo_block")
     $ map_enabled = True
     $ miniMapEnabledOnly = []
-    call dialogue_doublephoto_1()
+    call dialogue_doublephoto_1() from _call_dialogue_doublephoto_1
     $ move_object("Betty", "bedroom1")
 #    $ add_hook("change_time_day", "ep28_monica_college_bardie_erick_quest_check", scene="global", label="ep28_monica_college_bardie_erick_quest_check")
 #    $ add_hook("enter_scene", "dialogue_classmate_15a", scene="floor2", once=True)
@@ -357,9 +357,9 @@ label ep28_betty_college_double_photo1:
 #        call ep28_monica_bardie_eric_college_init()
 
     if ep28_monica_eric_meeting_completed == False:
-        call ep28_monica_bardie_eric_meeting_init() # Инициализируем знакомство с Эриком вечером
+        call ep28_monica_bardie_eric_meeting_init() from _call_ep28_monica_bardie_eric_meeting_init # Инициализируем знакомство с Эриком вечером
 
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_182
     return False
 
 label ep28_betty_college_monica_lesbie_init: # Инициализация сцены Бетти и Моники

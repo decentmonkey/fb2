@@ -6,7 +6,7 @@ label dialogue_betty_college_0_1:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Вечер..."))
+    call textonblack(_("Вечер...")) from _call_textonblack_43
     img black_screen
     with Dissolve(2.0)
     music Groove2_85
@@ -223,7 +223,7 @@ label dialogue_betty_college_1:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("Утро..."))
+    call textonblack(_("Утро...")) from _call_textonblack_44
     scene black_screen
     with Dissolve(1)
     music Sneaky_Snitch
@@ -1736,15 +1736,15 @@ label dialogue_betty_teacher_3:
     img 14916
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_171
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_172
     w
     # Барди злорадно ухмыляется за дверью и делает несколько кадров
     img 14908
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_173
     w
     bardie_t "!!!"
     bardie_t "Отлично! Теперь она от меня никуда не денется!"
@@ -1903,7 +1903,7 @@ label dialogue_betty_teacher_3:
     img 14939
     with fadelong
     w
-    call photoshop_flash()
+    call photoshop_flash() from _call_photoshop_flash_174
     w
     # Бетти встает и одевается, препод тоже
     music stop
