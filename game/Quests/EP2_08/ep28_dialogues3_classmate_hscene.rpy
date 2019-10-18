@@ -399,8 +399,9 @@ label dialogue_classmate_1a:
     mt "Боже! Даже боюсь думать о последствиях."
     mt "У меня сейчас нет другого выхода, кроме того, как перетерпеть эту мерзость."
     # Эрик высовывает свой язык и касается им киски Моники
-    music Loved_Up
+#    music Loved_Up
     #видео erick licking monica
+    music v_Monica_Eric_Licking_1_1
     img 22079
     with diss
     w
@@ -430,6 +431,7 @@ label dialogue_classmate_1a:
     show videov_Monica_Eric_Licking_1_2
     with fadelong
     wclean
+#    music v_Monica_Eric_Licking_1_1
     img 22080
     with diss
     w
@@ -538,7 +540,8 @@ label dialogue_classmate_1a:
     img black_screen
     with diss
     pause 1.5
-    music Loved_Up
+#    music Loved_Up
+    music v_Monica_Eric_Bardie_Licking_1_1
     img 22107
     with fadelong
     w
@@ -555,6 +558,27 @@ label dialogue_classmate_1a:
     img 22111
     with diss
     w
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,3))*1.66666)) + " loop 0.0>Sounds/v_Monica_Eric_Bardie_Licking_1_1.ogg"
+    scene black
+    image videov_Monica_Eric_Bardie_Licking_1_1 = Movie(play="video/v_Monica_Eric_Bardie_Licking_1_1.mkv", fps=30)
+    show videov_Monica_Eric_Bardie_Licking_1_1
+    with fadelong
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,3))*1.66666)) + " loop 0.0>Sounds/v_Monica_Eric_Bardie_Licking_1_1.ogg"
+    scene black
+    image videov_Monica_Eric_Bardie_Licking_1_2 = Movie(play="video/v_Monica_Eric_Bardie_Licking_1_2.mkv", fps=30)
+    show videov_Monica_Eric_Bardie_Licking_1_2
+    with fadelong
+    wclean
+    music v_Monica_Eric_Bardie_Licking_1_1
     img 22112
     with diss
     mt "..."
@@ -583,7 +607,7 @@ label dialogue_classmate_1a:
 
     sound bulk1
     img 22117
-    sound man moan6
+    sound man_moan6
     show screen photoshot_screen()
     with hpunch
     pause 0.7
@@ -600,7 +624,7 @@ label dialogue_classmate_1a:
     m "Не смей!"
     sound bulk1
     img 22119 # звук кончания
-    sound man moan1
+    sound man_moan1
     show screen photoshot_screen()
     with hpunch
     pause 0.7

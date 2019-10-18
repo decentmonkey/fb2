@@ -517,10 +517,18 @@ label dialogue_betty_teacher_1:
         with diss
         betty "!!!"
         # Бетти зависает на этом зрелище, но тут же берет себя в руки, выпрямляется. Глаза у нее заблестели, но она делает вид, что ничего не видела
-        sound erection1
         #video teacher dick up
-        img 14766
+        img black_screen
         with diss
+        sound erection1
+        scene black
+        image videov_Teacher_Betty_DickUp_1 = Movie(play="video/v_Teacher_Betty_DickUp_1.mkv", fps=30, loop=False, image="/images/Slides/v_Teacher_Betty_DickUp_1_stop.jpg")
+        show videov_Teacher_Betty_DickUp_1
+#        with fadelong
+        wclean
+
+#       img 14766
+#        with diss
         betty "..."
         $ dialogue_betty_teacher_1_flag = True
 
@@ -668,10 +676,61 @@ label dialogue_betty_teacher_1:
     img 14799
     with fade
     sound drkanje5
-    #видео teacher_betty_handjob
     teacher "Ооо, миссис Робертс... Да, так! Еще..."
     teacher "Ммм... Еще быстрее!"
+    #видео teacher_betty_handjob
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,3)*1.0)) + " loop 0.0>Sounds/Betty_handjob_teacher.ogg"
+    scene black
+    image videov_Teacher_Betty_HandJob_1_1 = Movie(play="video/v_Teacher_Betty_HandJob_1_1.mkv", fps=30)
+    show videov_Teacher_Betty_HandJob_1_1
+    wclean
+    if game.extra == True:
+        img black_screen
+        with diss
+        music stop
+        stop music
+        play music "<from " + str((rand(1,3)*1.0)) + " loop 0.0>Sounds/Betty_handjob_teacher.ogg"
+        scene black
+        image videov_Teacher_Betty_HandJob_1_2 = Movie(play="video/v_Teacher_Betty_HandJob_1_2.mkv", fps=30)
+        show videov_Teacher_Betty_HandJob_1_2
+        wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,3)*1.0)) + " loop 0.0>Sounds/Betty_handjob_teacher.ogg"
+    scene black
+    image videov_Teacher_Betty_HandJob_1_3 = Movie(play="video/v_Teacher_Betty_HandJob_1_3.mkv", fps=30)
+    show videov_Teacher_Betty_HandJob_1_3
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,3)*1.0)) + " loop 0.0>Sounds/Betty_handjob_teacher.ogg"
+    scene black
+    image videov_Teacher_Betty_HandJob_1_4 = Movie(play="video/v_Teacher_Betty_HandJob_1_4.mkv", fps=30)
+    show videov_Teacher_Betty_HandJob_1_4
+    wclean
+    if game.extra == True:
+        img black_screen
+        with diss
+        music stop
+        stop music
+        play music "<from " + str((rand(1,3)*1.0)) + " loop 0.0>Sounds/Betty_handjob_teacher.ogg"
+        scene black
+        image videov_Teacher_Betty_HandJob_1_5 = Movie(play="video/v_Teacher_Betty_HandJob_1_5.mkv", fps=30)
+        show videov_Teacher_Betty_HandJob_1_5
+        wclean
+
     #препод со стоном кончает на личный файл Барди, который на столе, попадает и Бетти на руку
+    stop music
+    music stop
+    music Loved_Up2
     sound bulk1
     img 14800
     show screen photoshot_screen()
@@ -679,8 +738,8 @@ label dialogue_betty_teacher_1:
     pause 0.7
     hide screen photoshot_screen
     teacher "ООООООООО!!!"
-    sound man moan18
-    sound bulk1
+    sound man_moan18
+#    sound bulk1
     show screen photoshot_screen()
     with hpunch
     pause 0.7
@@ -984,6 +1043,44 @@ label dialogue_betty_teacher_2:
     with diss
     w
     #видео teacher_betty_titsgrooping
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,3))*1.16666667)) + " loop 0.0>Sounds/Betty_tits_v.ogg"
+    scene black
+    image videov_Teacher_Betty_TitsGrooping_1_1 = Movie(play="video/v_Teacher_Betty_TitsGrooping_1_1.mkv", fps=30)
+    show videov_Teacher_Betty_TitsGrooping_1_1
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,3))*1.16666667)) + " loop 0.0>Sounds/Betty_tits_2.ogg"
+    scene black
+    image videov_Teacher_Betty_TitsGrooping_1_2 = Movie(play="video/v_Teacher_Betty_TitsGrooping_1_2.mkv", fps=30)
+    show videov_Teacher_Betty_TitsGrooping_1_2
+    wclean
+    if game.extra == True:
+        img black_screen
+        with diss
+        music stop
+        stop music
+        play music "<from " + str((float(rand(1,3))*1.16666667)) + " loop 0.0>Sounds/Betty_tits_3.ogg"
+        scene black
+        image videov_Teacher_Betty_TitsGrooping_1_3 = Movie(play="video/v_Teacher_Betty_TitsGrooping_1_3.mkv", fps=30)
+        show videov_Teacher_Betty_TitsGrooping_1_3
+        wclean
+        img black_screen
+        with diss
+        music stop
+        stop music
+        play music "<from " + str((float(rand(1,3))*1.16666667)) + " loop 0.0>Sounds/Betty_tits_4.ogg"
+        scene black
+        image videov_Teacher_Betty_TitsGrooping_1_4 = Movie(play="video/v_Teacher_Betty_TitsGrooping_1_4.mkv", fps=30)
+        show videov_Teacher_Betty_TitsGrooping_1_4
+        wclean
+
     img 14831
     with diss
     w
@@ -1012,6 +1109,7 @@ label dialogue_betty_teacher_2:
     with diss
     w
     #sound поцелуй груди
+    music Loved_Up
     sound kiss1
     img 14838
     with diss
@@ -1085,6 +1183,57 @@ label dialogue_betty_teacher_2:
     betty_t "Ммм... Ну и что, что он оказался таким вкусным..."
     # и еще раз языком по стволу и по головке
     # видео betty teacher licking
+    img black_screen
+    with diss
+    pause 1.5
+    music stop
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float((rand(1,4))*1.83333333)) + " loop 0.0>Sounds/v_Teacher_Betty_DickLicking_1_1.ogg"
+    scene black
+    image videov_Teacher_Betty_DickLicking_1_1 = Movie(play="video/v_Teacher_Betty_DickLicking_1_1.mkv", fps=30)
+    show videov_Teacher_Betty_DickLicking_1_1
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float((rand(1,4))*1.83333333)) + " loop 0.0>Sounds/v_Teacher_Betty_DickLicking_1_1.ogg"
+    scene black
+    image videov_Teacher_Betty_DickLicking_1_2 = Movie(play="video/v_Teacher_Betty_DickLicking_1_2.mkv", fps=30)
+    show videov_Teacher_Betty_DickLicking_1_2
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float((rand(1,4))*1.83333333)) + " loop 0.0>Sounds/v_Teacher_Betty_DickLicking_1_1.ogg"
+    scene black
+    image videov_Teacher_Betty_DickLicking_1_3 = Movie(play="video/v_Teacher_Betty_DickLicking_1_3.mkv", fps=30)
+    show videov_Teacher_Betty_DickLicking_1_3
+    wclean
+    if game.extra == True:
+        img black_screen
+        with diss
+        music stop
+        stop music
+        play music "<from " + str(float((rand(1,4))*1.83333333)) + " loop 0.0>Sounds/v_Teacher_Betty_DickLicking_1_1.ogg"
+        scene black
+        image videov_Teacher_Betty_DickLicking_1_4 = Movie(play="video/v_Teacher_Betty_DickLicking_1_4.mkv", fps=30)
+        show videov_Teacher_Betty_DickLicking_1_4
+        wclean
+        img black_screen
+        with diss
+        music stop
+        stop music
+        play music "<from " + str(float((rand(1,4))*1.83333333)) + " loop 0.0>Sounds/v_Teacher_Betty_DickLicking_1_1.ogg"
+        scene black
+        image videov_Teacher_Betty_DickLicking_1_5 = Movie(play="video/v_Teacher_Betty_DickLicking_1_5.mkv", fps=30)
+        show videov_Teacher_Betty_DickLicking_1_5
+        wclean
+
     img 14860
     with diss
     w
@@ -1099,10 +1248,11 @@ label dialogue_betty_teacher_2:
     with diss
     teacher "Еще немного, миссис Робертс. Обхватите его губами."
     # Бетти обхватывает губами головку и насаживается головой на член
+    stop music
+    music Loved_Up2
     img 14865
     with diss
     w
-    music Loved_Up2
     sound Jump2
     img 14864
     show screen photoshot_screen()
@@ -1123,6 +1273,43 @@ label dialogue_betty_teacher_2:
     with diss
     w
     # видео betty teacher blowjob
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/v_Teacher_Betty_Blowjob_1_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Blowjob_1_1 = Movie(play="video/v_Teacher_Betty_Blowjob_1_1.mkv", fps=30)
+    show videov_Teacher_Betty_Blowjob_1_1
+    wclean
+    if game.extra == True:
+        img black_screen
+        with diss
+        music stop
+        stop music
+        play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/v_Teacher_Betty_Blowjob_1_1.ogg"
+        scene black
+        image videov_Teacher_Betty_Blowjob_1_2 = Movie(play="video/v_Teacher_Betty_Blowjob_1_2.mkv", fps=30)
+        show videov_Teacher_Betty_Blowjob_1_2
+        wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/v_Teacher_Betty_Blowjob_1_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Blowjob_1_3 = Movie(play="video/v_Teacher_Betty_Blowjob_1_3.mkv", fps=30)
+    show videov_Teacher_Betty_Blowjob_1_3
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/v_Teacher_Betty_Blowjob_1_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Blowjob_1_4 = Movie(play="video/v_Teacher_Betty_Blowjob_1_4.mkv", fps=30)
+    show videov_Teacher_Betty_Blowjob_1_4
+    wclean
     music Sneaky_Snitch
     img 14857
     with fadelong
@@ -1157,7 +1344,7 @@ label dialogue_betty_teacher_2:
     pause 0.7
     hide screen photoshot_screen
     teacher "Ооо, дааааааа!"
-    sound man moan18
+    sound man_moan18
     # Бетти делает еще несколько движений своей рукой у себя в трусиках и кончает следом за ним
     img 14875
     with diss
@@ -1476,6 +1663,61 @@ label dialogue_betty_teacher_3:
     sound chmok2
     w
     #видео teacher betty sex 1
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,3))*1.16666667)) + " loop 0.0>Sounds/v_Teacher_Betty_Sex_1_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Sex_1_1 = Movie(play="video/v_Teacher_Betty_Sex_1_1.mkv", fps=30)
+    show videov_Teacher_Betty_Sex_1_1
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,3))*1.16666667)) + " loop 0.0>Sounds/v_Teacher_Betty_Sex_1_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Sex_1_2 = Movie(play="video/v_Teacher_Betty_Sex_1_2.mkv", fps=30)
+    show videov_Teacher_Betty_Sex_1_2
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,3))*1.16666667)) + " loop 0.0>Sounds/v_Teacher_Betty_Sex_1_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Sex_1_3 = Movie(play="video/v_Teacher_Betty_Sex_1_3.mkv", fps=30)
+    show videov_Teacher_Betty_Sex_1_3
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,3))*1.16666667)) + " loop 0.0>Sounds/v_Teacher_Betty_Sex_1_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Sex_1_4 = Movie(play="video/v_Teacher_Betty_Sex_1_4.mkv", fps=30)
+    show videov_Teacher_Betty_Sex_1_4
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,3))*1.16666667)) + " loop 0.0>Sounds/v_Teacher_Betty_Sex_1_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Sex_1_5 = Movie(play="video/v_Teacher_Betty_Sex_1_5.mkv", fps=30)
+    show videov_Teacher_Betty_Sex_1_5
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,3))*1.16666667)) + " loop 0.0>Sounds/v_Teacher_Betty_Sex_1_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Sex_1_6 = Movie(play="video/v_Teacher_Betty_Sex_1_6.mkv", fps=30)
+    show videov_Teacher_Betty_Sex_1_6
+    wclean
+
     img 14911
     with diss
     w
@@ -1518,6 +1760,88 @@ label dialogue_betty_teacher_3:
     img 14926
     with diss
     w
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,5))*1.5)) + " loop 0.0>Sounds/v_Teacher_Betty_Sex_2_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Sex_2_1 = Movie(play="video/v_Teacher_Betty_Sex_2_1.mkv", fps=30)
+    show videov_Teacher_Betty_Sex_2_1
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,5))*1.5)) + " loop 0.0>Sounds/v_Teacher_Betty_Sex_2_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Sex_2_2 = Movie(play="video/v_Teacher_Betty_Sex_2_2.mkv", fps=30)
+    show videov_Teacher_Betty_Sex_2_2
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,5))*1.5)) + " loop 0.0>Sounds/v_Teacher_Betty_Sex_2_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Sex_2_3 = Movie(play="video/v_Teacher_Betty_Sex_2_3.mkv", fps=30)
+    show videov_Teacher_Betty_Sex_2_3
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,5))*1.5)) + " loop 0.0>Sounds/v_Teacher_Betty_Sex_2_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Sex_2_4 = Movie(play="video/v_Teacher_Betty_Sex_2_4.mkv", fps=30)
+    show videov_Teacher_Betty_Sex_2_4
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,5))*1.5)) + " loop 0.0>Sounds/v_Teacher_Betty_Sex_2_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Sex_2_5 = Movie(play="video/v_Teacher_Betty_Sex_2_5.mkv", fps=30)
+    show videov_Teacher_Betty_Sex_2_5
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,5))*1.5)) + " loop 0.0>Sounds/v_Teacher_Betty_Sex_2_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Sex_2_6 = Movie(play="video/v_Teacher_Betty_Sex_2_6.mkv", fps=30)
+    show videov_Teacher_Betty_Sex_2_6
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,5))*1.5)) + " loop 0.0>Sounds/v_Teacher_Betty_Sex_2_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Sex_2_7 = Movie(play="video/v_Teacher_Betty_Sex_2_7.mkv", fps=30)
+    show videov_Teacher_Betty_Sex_2_7
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,5))*1.5)) + " loop 0.0>Sounds/v_Teacher_Betty_Sex_2_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Sex_2_8 = Movie(play="video/v_Teacher_Betty_Sex_2_8.mkv", fps=30)
+    show videov_Teacher_Betty_Sex_2_8
+    wclean
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str((float(rand(1,5))*1.5)) + " loop 0.0>Sounds/v_Teacher_Betty_Sex_2_1.ogg"
+    scene black
+    image videov_Teacher_Betty_Sex_2_9 = Movie(play="video/v_Teacher_Betty_Sex_2_9.mkv", fps=30)
+    show videov_Teacher_Betty_Sex_2_9
+    wclean
+    music Loved_Up2
     img 14927
     with diss
     teacher "Ммммммм..."
@@ -1556,7 +1880,7 @@ label dialogue_betty_teacher_3:
     with hpunch
     pause 0.7
     hide screen photoshot_screen
-    sound man moan18
+    sound man_moan18
     w
     teacher "Ооо, дааааааа!"
     img 14938
