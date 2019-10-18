@@ -285,6 +285,7 @@ label dialogue_4_classmate_lesbian_1:
     with diss
     w
     #sound Моника прикасается языком к киске Бетти
+    sound lick3
     img 22193
     with diss
     w
@@ -315,6 +316,7 @@ label dialogue_4_classmate_lesbian_1:
     with diss
     w
     #sound Моника прикасается языком к киске Бетти
+    sound lick3
     img 22199
     with diss
     w
@@ -330,6 +332,7 @@ label dialogue_4_classmate_lesbian_1:
     bardie "Гувернантка, еще не все."
     bardie "Продолжай. Я еще думаю, простить тебя или нет..."
     #sound Моника прикасается языком к киске Бетти
+    sound lick3
     img 22203
     with diss
     w
@@ -338,6 +341,7 @@ label dialogue_4_classmate_lesbian_1:
     with diss
     betty_t "Как же это противно... М-м-м-мне совсем это не нравится... Мммм..."
     #sound Бетти произносит Аааааааххх
+    sound ahhh1
     img 22205
     with diss
     betty "Ааааааххх..."
@@ -346,6 +350,7 @@ label dialogue_4_classmate_lesbian_1:
     with diss
     betty "Все, хватит, достаточно! Мне неприятно, что она трогает меня там-м-м..."
     #sound Моника лижет киску Бетти обычно
+    sound lick10
     img 22207
     with diss
     w
@@ -381,6 +386,7 @@ label dialogue_4_classmate_lesbian_1:
     wclean
 
     #sound Бетти произносит ММмммммм...
+    sound woman_moan8a
     music Loved_Up
     img 22208
     with diss
@@ -392,11 +398,14 @@ label dialogue_4_classmate_lesbian_1:
     pause 1.5
     music Loved_Up2
     #sound падает мяч
+    sound ball3
     img 22209 # падает мяч
     with fadelong
     w
     #sound Бетти произносит Ммммммм в экстазе
+    sound woman_moan6
     #sound Моника лижет сильно
+    sound lick13
     img 22210
     with diss
     betty "Мммм..."
@@ -429,22 +438,27 @@ label dialogue_4_classmate_lesbian_1:
     betty "Аааах, прикажи ей остановится... Оооо..."
     # в итоге Бетти кончает со стонами
     #sound Бетти почти кончает (ахи рывками)
+    sound woman_moan7a
     img 22220
     with diss
     w
     #sound Бетти почти кончает (ахи рывками)
+    sound woman_moan12
     img 22221
     with diss
     w
     #sound Бетти почти кончает (ахи рывками)
+    sound woman_moan11
     img 22222
     with diss
     w
     #sound Бетти почти кончает (ахи рывками)
+    sound woman_moan12
     img 22223
     with diss
     betty "Ты... Ты!... Ты...."
     #sound Бетти кончает
+    sound woman_moan14
     img 22224
     show screen photoshot_screen()
     with hpunch
@@ -452,6 +466,7 @@ label dialogue_4_classmate_lesbian_1:
     hide screen photoshot_screen
     betty "АААААААА!!!"
     #sound Бетти кончает
+    sound woman_moan15
     img 22225
     show screen photoshot_screen()
     with hpunch
