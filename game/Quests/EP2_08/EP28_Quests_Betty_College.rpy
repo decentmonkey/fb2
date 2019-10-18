@@ -13,7 +13,7 @@ label ep28_betty_college_init:
     $ cloth_type = "Governess"
     call change_scene("floor2", "Fade_long") from _call_change_scene_390
 
-    $ add_hook("change_time_day", "ep28_betty_college2", scene="global", once=True, label="ep28_betty_college2")
+    $ add_hook("change_time_day", "ep28_betty_college2", scene="global", once=True, label="ep28_betty_college2", priority=99)
     return
 
 label ep28_betty_college2:
@@ -136,7 +136,7 @@ label ep28_betty_college2_teacher_day1c: # Бетти заходит в дом (
     call change_owner("Monica") from _call_change_owner
 
     if bettyCollegeDay1JobFinished == True:
-        $ add_hook("change_time_day", "ep28_betty_college2_teacher_day2", scene="global", label="betty_college_day2")
+        $ add_hook("change_time_day", "ep28_betty_college2_teacher_day2", scene="global", label="betty_college_day2", priority = 99)
 
     return False
 
@@ -219,7 +219,7 @@ label ep28_betty_college2_teacher_day2b: # Разговор с Барди пос
 
 label ep28_betty_college2_teacher_day3a:
     $ remove_hook()
-    $ add_hook("change_time_day", "ep28_betty_college2_teacher_day3", scene="global", label="betty_college_day3")
+    $ add_hook("change_time_day", "ep28_betty_college2_teacher_day3", scene="global", label="betty_college_day3", priority=99)
     return
 label ep28_betty_college2_teacher_day3: # Инициализация дня 3
     if week_day == 7:
