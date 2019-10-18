@@ -5,6 +5,8 @@ default bettyCollegeTeacherStage = 0
 default bettyCollegeMonicaLesbieInited = False
 default ep28_betty_college2_flag = False
 
+default ep28_day_var1 = 0
+
 label ep28_betty_college_init:
     call dialogue_betty_college_0_1() from _call_dialogue_betty_college_0_1
 #    $ add_hook("Teleport_BedroomBardie",
@@ -218,16 +220,16 @@ label ep28_betty_college2_teacher_day2b: # Разговор с Барди пос
     call change_scene("basement_bedroom2", "Fade_long", False) from _call_change_scene_397
     $ map_objects["Teleport_College"]["state"] = "visible"
     call change_owner("Monica") from _call_change_owner_2
-    $ add_hook("change_time_day", "ep28_betty_college2_teacher_day3a", scene="global", label="betty_college_day3")
-
-    return
-
-label ep28_betty_college2_teacher_day3a:
-    $ remove_hook()
     $ add_hook("change_time_day", "ep28_betty_college2_teacher_day3", scene="global", label="betty_college_day3", priority=99)
+    $ ep28_day_var1 = day + 1
     return
+
+#label ep28_betty_college2_teacher_day3a:
+#    $ remove_hook()
+#    $ add_hook("change_time_day", "ep28_betty_college2_teacher_day3", scene="global", label="betty_college_day3", priority=99)
+#    return
 label ep28_betty_college2_teacher_day3: # Инициализация дня 3
-    if week_day == 7:
+    if week_day == 7 or ep28_day_var1 >= day:
         return
     if check_scene_parent(scene_name, "House", recursive=True) == False: # Проверяем что мы в доме (а не где-то у Маркуса и тд)
         return

@@ -132,7 +132,7 @@ translate english ep28_dialogues6_julia_1_54035cbd:
     mt "I hate that bastard!"
     mt "..."
     mt "But if he shows me a picture of me scrubbing that damn stain..."
-    mt "And in the uniform of a governess!.."
+    mt "And in the uniform of a maid!.."
     mt "!!!"
     mt "I'm afraid to even think about the consequences!"
 
@@ -589,7 +589,7 @@ translate english ep28_dialogues6_julia_7_3e8616fe:
     mt "I'm going to show my Secretary what panties I'm wearing!!!"
     mt "What if she recognized her panties?!"
     mt "I can't tell her I'm wearing her panties."
-    mt "I, Monica Buckfett, wear my ex-governess's panties!"
+    mt "I, Monica Buckfett, wear my ex-maid's panties!"
     mt "Although... I hardly believe it myself and Julia certainly won't believe it..."
     mt "..."
     m "Julia!"
@@ -631,11 +631,11 @@ translate english ep28_dialogues6_julia_7_2735c4ba:
     m "Um... Julia, you know..."
     m "..."
     m "Even though I've been a little hard on you sometimes..."
-    m "I loved the way you worked as my governess."
+    m "I loved the way you worked as my maid."
     julia "It's true, Mrs. Buckfett?.."
     m "Yes, Julia..."
     julia "I thought so... You... In general..."
-    m "I really enjoyed it. I don't think it's easy to find a better governess than you."
+    m "I really enjoyed it. I don't think it's easy to find a better maid than you."
     mt "Fuck!!! I can't say that!"
     m "After you stopped working, I saw your panties in your room..." 
     m "And I liked them very much..."
@@ -1618,7 +1618,7 @@ translate english ep28_dialogues6_julia_7_177e8844:
     # mt "Я, Моника Бакфетт, ношу трусики своей бывшей гувернантки!"
     mt "What if she recognized her panties?!"
     mt "I can't tell her I'm wearing her panties."
-    mt "I, Monica Buckfett, wear my ex-governess's panties!"
+    mt "I, Monica Buckfett, wear my ex-maid's panties!"
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:762
 translate english ep28_dialogues6_julia_7_587dab8e:
@@ -1656,7 +1656,7 @@ translate english ep28_dialogues6_julia_7_274eee22:
     m "Um... Julia, you know..."
     m "..."
     m "Even though I've been a little hard on you sometimes..."
-    m "I loved the way you worked as my governess."
+    m "I loved the way you worked as my maid."
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:800
 translate english ep28_dialogues6_julia_7_39c7e4f2:
@@ -1676,7 +1676,7 @@ translate english ep28_dialogues6_julia_7_4e383abc:
     # julia "А я думала, что... Вы... В общем..."
     # m "Мне правда все нравилось. Думаю, весьма непросто найти гувернантку лучше, чем ты."
     julia "I thought so... You... In general..."
-    m "I really enjoyed it. I don't think it's easy to find a better governess than you."
+    m "I really enjoyed it. I don't think it's easy to find a better maid than you."
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:812
 translate english ep28_dialogues6_julia_7_49a959b6:

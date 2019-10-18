@@ -1704,10 +1704,14 @@ screen navigation():
         textbutton _("New Episodes") action OpenURL("http://decent-monkey.com/news/")
         textbutton _("Guide") action OpenURL("http://decent-monkey.com/the-guide-for-episode-2/")
         textbutton ("Become Supporter") action OpenURL("http://www.patreon.com/decentmonkey/")
-        textbutton _("My Thanks") action ShowMenu("about")
+        $ flag1 = False
         if game.extra == True and renpy.current_screen().screen_name[0] == "load":
             if check_saves_for_migration() == True:
                 textbutton _("MIGRATE FROM 720p") action Start("migrate_saves") text_color "#e8b131" text_hover_color "#f8f131"
+                $ flag1 = True
+        if flag1 == False:
+            textbutton _("My Thanks") action ShowMenu("about")
+
 
         if renpy.variant("pc"):
 

@@ -27,11 +27,11 @@ translate english dialogue_doublephoto_1_e8070777:
     # m "Зачем тебе нужна эта фотография?"
     # bardie "Гувернантку это не касается! Поднимай юбку!"
     # mt "..."
-    betty "Governess!!!"
+    betty "Maid!!!"
     mt "She's yelling in the house again..."
     mt "What does this hillbilly want with me again?"
     m "Yes, Mrs. Roberts..."
-    betty "Governess, I..."
+    betty "Maid, I..."
     betty "..."
     bardie "I need to see how well you follow the rules of this house..."
     bardie "...take a photo!"
@@ -40,16 +40,16 @@ translate english dialogue_doublephoto_1_e8070777:
     m "I'm not going to be photographed with my skirt up!"
     m "It's enough that you look under my skirt every chance you get!"
     mt "You horny little pervert!"
-    bardie "The governess talks too much!"
-    bardie "If you're a good governess and follow the rules, then do as you're told!"
+    bardie "The maid talks too much!"
+    bardie "If you're a good maid and follow the rules, then do as you're told!"
     m "..."
     bardie "Or do you refuse and want me to punish you?"
     mt "!!!"
     mt "I hate that little boy! And that crazy hillbilly Betty!"
-    mt "When this house becomes mine again, I will take her as my governess. She'll have to work for food."
+    mt "When this house becomes mine again, I will take her as my maid. She'll have to work for food."
     mt "!!!"
     m "Why do you need this picture?"
-    bardie "It's not governess's business! Lift your skirt!"
+    bardie "It's not maid's business! Lift your skirt!"
     mt "..."
 
 # game/Quests/EP2_08/ep28_dialogues2_doublephoto.rpy:35
@@ -60,13 +60,13 @@ translate english dialogue_doublephoto_1_e0cfd1de:
     # m "Я хорошая гувернантка! Но я не буду этого делать!"
     mt "Fuck!!!"
     mt "He'll see I'm wearing panties and punish me again!"
-    m "I'm a good governess! But I won't do it!"
+    m "I'm a good maid! But I won't do it!"
 
 # game/Quests/EP2_08/ep28_dialogues2_doublephoto.rpy:43
 translate english dialogue_doublephoto_1_3aadfc25:
 
     # m "Я хорошая гувернантка! Но я не буду этого делать!"
-    m "I'm a good governess! But I won't do it!"
+    m "I'm a good maid! But I won't do it!"
 
 # game/Quests/EP2_08/ep28_dialogues2_doublephoto.rpy:46
 translate english dialogue_doublephoto_1_84072011:
@@ -130,7 +130,7 @@ translate english dialogue_doublephoto_1_84072011:
     bardie "Aha-ha!"
     betty "How dare you treat me like that, a decent woman?! Brat!"
     betty "I am your father's wife! And you're going to show a photo where I'm naked with this whore to your classmate!!!"
-    mt "I hate this family! When she's my governess, I'll fire her!"
+    mt "I hate this family! When she's my maid, I'll fire her!"
     mt "!!!"
     bardie "If you keep talking to me like that, you won't be my father's wife for long..."
     bardie "You forgot that I have a lot of photos, interesting photos...?"
@@ -146,7 +146,7 @@ translate english dialogue_doublephoto_1_84072011:
 translate english dialogue_doublephoto_1_126f2d84:
 
     # betty "Гувернантка!!!"
-    betty "Governess!!!"
+    betty "Maid!!!"
 
 # game/Quests/EP2_08/ep28_dialogues2_doublephoto.rpy:18
 translate english dialogue_doublephoto_1_b8174a24:
@@ -166,7 +166,7 @@ translate english dialogue_doublephoto_1_35f31d08:
 translate english dialogue_doublephoto_1_2dfa3803:
 
     # betty "Гувернантка, я..."
-    betty "Governess, I..."
+    betty "Maid, I..."
 
 # game/Quests/EP2_08/ep28_dialogues2_doublephoto.rpy:29
 translate english dialogue_doublephoto_1_f2060836:
@@ -213,8 +213,8 @@ translate english dialogue_doublephoto_1_2065edf5:
 
     # bardie "Гувернантка слишком много разговаривает!"
     # bardie "Если ты хорошая гувернантка и соблюдаешь правила, то делай, что тебе говорят!"
-    bardie "The governess talks too much!"
-    bardie "If you're a good governess and follow the rules, then do as you're told!"
+    bardie "The maid talks too much!"
+    bardie "If you're a good maid and follow the rules, then do as you're told!"
 
 # game/Quests/EP2_08/ep28_dialogues2_doublephoto.rpy:56
 translate english dialogue_doublephoto_1_e612037c:
@@ -237,7 +237,7 @@ translate english dialogue_doublephoto_1_00ded871:
     # mt "!!!"
     mt "!!!"
     mt "I hate that little boy! And that crazy hillbilly Betty!"
-    mt "When this house becomes mine again, I will take her as my governess. She'll have to work for food."
+    mt "When this house becomes mine again, I will take her as my maid. She'll have to work for food."
     mt "!!!"
 
 # game/Quests/EP2_08/ep28_dialogues2_doublephoto.rpy:70
@@ -251,7 +251,7 @@ translate english dialogue_doublephoto_1_f7d1b414:
 
     # bardie "Гувернантку это не касается! Поднимай юбку!"
     # mt "..."
-    bardie "It's not governess's business! Lift your skirt!"
+    bardie "It's not maid's business! Lift your skirt!"
     mt "..."
 
 # game/Quests/EP2_08/ep28_dialogues2_doublephoto.rpy:79
@@ -266,7 +266,7 @@ translate english dialogue_doublephoto_1_ef6a9255:
 translate english dialogue_doublephoto_1_3aadfc25_1:
 
     # m "Я хорошая гувернантка! Но я не буду этого делать!"
-    m "I'm a good governess! But I won't do it!"
+    m "I'm a good maid! But I won't do it!"
 
 # game/Quests/EP2_08/ep28_dialogues2_doublephoto.rpy:111
 translate english dialogue_doublephoto_1_5c2413fc:
@@ -387,7 +387,7 @@ translate english dialogue_doublephoto_1_9b6c5564:
 
     # mt "Ненавижу эту семейку! Когда она будет моей гувернанткой, я ее уволю!"
     # mt "!!!"
-    mt "I hate this family! When she's my governess, I'll fire her!"
+    mt "I hate this family! When she's my maid, I'll fire her!"
     mt "!!!"
 
 # game/Quests/EP2_08/ep28_dialogues2_doublephoto.rpy:225
@@ -428,5 +428,5 @@ translate english dialogue_doublephoto_1_3bdef71e:
 translate english dialogue_doublephoto_1a_126f2d84:
 
     # betty "Гувернантка!!!"
-    betty "Governess!!!"
+    betty "Maid!!!"
 

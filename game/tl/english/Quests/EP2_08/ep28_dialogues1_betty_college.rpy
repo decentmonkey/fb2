@@ -22,7 +22,7 @@ translate english dialogue_betty_college_0_1_f7f8f160:
 translate english dialogue_betty_college_0_1_a2d95cc1:
 
     # bardie "Хорошо. Я вижу, что ты соблюдаешь правила. Позови гувернантку. Я давно не проверял ее."
-    bardie "Good. I can see you're following the rules. Call the governess. I haven't checked her in a while."
+    bardie "Good. I can see you're following the rules. Call the maid. I haven't checked her in a while."
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:22
 translate english dialogue_betty_college_0_1_ebc42394:
@@ -35,7 +35,7 @@ translate english dialogue_betty_college_0_1_2024b143:
 
     # bardie "Я сказал тебе, чтобы ты позвала гувернантку..."
     # bardie "Или ты решила, что меня не надо слушаться? Ты забыла, что у меня есть парочка очень интересных фото с тобой и тренером?"
-    bardie "I told you to call the governess..."
+    bardie "I told you to call the maid..."
     bardie "Or have you decided not to listen to me? Did you forget I have some very interesting photos of you and coach?"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:28
@@ -62,7 +62,7 @@ translate english dialogue_betty_college_0_1_99bb31af:
 translate english dialogue_betty_college_0_1_c2a03c7b:
 
     # betty "Гувернантка! Гувернантка!!!"
-    betty "Governess! Governess!!!"
+    betty "Maid! Maid!!!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:40
 translate english dialogue_betty_college_0_1_8a5af272:
@@ -84,7 +84,7 @@ translate english dialogue_betty_college_0_1_35f31d08:
 translate english dialogue_betty_college_0_1_ab51fab2:
 
     # betty "Гувернантка, я тебя позвала, чтобы..."
-    betty "Governess, I called you to..."
+    betty "Maid, I called you to..."
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:51
 translate english dialogue_betty_college_0_1_f2060836:
@@ -120,7 +120,7 @@ translate english dialogue_betty_college_0_1_0e168634:
 translate english dialogue_betty_college_0_1_2fd327f8:
 
     # bardie "Начнем с тебя. Ты же хорошая гувернантка? Ты соблюдаешь правила?"
-    bardie "Let's start with you. You're a good governess, aren't you? Are you following the rules?"
+    bardie "Let's start with you. You're a good maid, aren't you? Are you following the rules?"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:68
 translate english dialogue_betty_college_0_1_41359497:
@@ -138,13 +138,13 @@ translate english dialogue_betty_college_0_1_41359497:
 translate english dialogue_betty_college_0_1_1829de14:
 
     # m "Я не буду делать этого! Да как ты смеешь?! В обязанности гувернантки не входит позировать в голом виде перед камерой!"
-    m "I'm not doing this! How dare you?! The duties of the governess does not include posing naked in front of the camera!"
+    m "I'm not doing this! How dare you?! The duties of the maid does not include posing naked in front of the camera!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:75
 translate english dialogue_betty_college_0_1_c85396bc:
 
     # bardie "А в обязанности хорошей гувернантки - входит. Ты же хорошая гувернантка?"
-    bardie "And the duties of a good governess include it. You're a good governess, aren't you?"
+    bardie "And the duties of a good maid include it. You're a good maid, aren't you?"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:78
 translate english dialogue_betty_college_0_1_29a4f6ab:
@@ -172,13 +172,13 @@ translate english dialogue_betty_college_0_1_ef6a9255:
 translate english dialogue_betty_college_0_1_3aadfc25:
 
     # m "Я хорошая гувернантка! Но я не буду этого делать!"
-    m "I'm a good governess! But I won't do it!"
+    m "I'm a good maid! But I won't do it!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:98
 translate english dialogue_betty_college_0_1_3aadfc25_1:
 
     # m "Я хорошая гувернантка! Но я не буду этого делать!"
-    m "I'm a good governess! But I won't do it!"
+    m "I'm a good maid! But I won't do it!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:101
 translate english dialogue_betty_college_0_1_29a4f6ab_1:
@@ -376,13 +376,13 @@ translate english dialogue_betty_college_1_1f_51aabe48:
 translate english dialogue_betty_college_1_1g_ca5b573c:
 
     # betty_t "Нужно внимательнее следить за этой гувернанткой. Какая-то она подозрительная."
-    betty_t "We need to keep a closer eye on this governess. She looks suspicious."
+    betty_t "We need to keep a closer eye on this maid. She looks suspicious."
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:215
 translate english dialogue_betty_college_1_1h_4b2fb1fa:
 
     # betty "Гувернантка, ты недостаточно тщательно оттираешь пятно на ковре. За столько дней могла бы уже очистить его."
-    betty "Governess, you don't clean the carpet thoroughly enough. You could have cleaned it in days."
+    betty "Maid, you don't clean the carpet thoroughly enough. You could have cleaned it in days."
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:219
 translate english dialogue_betty_college_1_1i_dbd42054:
@@ -394,7 +394,7 @@ translate english dialogue_betty_college_1_1i_dbd42054:
 translate english dialogue_betty_college_1_1j_a5a4509e:
 
     # betty_t "Мне нравится дизайн этого дома. Тот, кто это все делал, явно обладает изысканным вкусом... Не то, что моя гувернантка!"
-    betty_t "I like the design of this house. Whoever did all this obviously has exquisite taste... Not like my governess!"
+    betty_t "I like the design of this house. Whoever did all this obviously has exquisite taste... Not like my maid!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:227
 translate english dialogue_betty_college_1_1k_0445c9b0:
@@ -552,7 +552,7 @@ translate english dialogue_betty_teacher_1_e84b67d7:
     # bardie_t "Эта деревенщина не сможет договориться с преподом. Надо было гувернантку посылать к нему."
     bardie_t "Heck!"
     bardie_t "..."
-    bardie_t "This hillbilly can't make a deal with the teacher. I should have sent a governess to him."
+    bardie_t "This hillbilly can't make a deal with the teacher. I should have sent a maid to him."
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:320
 translate english dialogue_betty_teacher_1_5290e555:
@@ -2026,7 +2026,7 @@ translate english dialogue_betty_college_6_3408bee9:
     # bardie "Ты забыла, что должна соблюдать правила этого дома? Снимай их, быстро!"
     # bardie "Во-вторых, позови гувернантку. Я хочу сфотографировать вас вдвоем."
     bardie "Have you forgotten that you have to abide by the rules of this house? Take them off!"
-    bardie "Secondly, call the governess. I want to take a picture of you two."
+    bardie "Secondly, call the maid. I want to take a picture of you two."
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:1133
 translate english dialogue_betty_college_6_b47c3c9f:
@@ -2040,7 +2040,7 @@ translate english dialogue_betty_college_6_b47c3c9f:
 translate english dialogue_betty_college_6_86eaf680:
 
     # bardie "Ты сейчас снимешь свои трусы и позовешь гувернантку! Я жду!"
-    bardie "You're going to take off yourlingerie and call the governess! I'm waiting!"
+    bardie "You're going to take off yourlingerie and call the maid! I'm waiting!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:1145
 translate english dialogue_betty_college_6_8ac1e6de_1:
@@ -2058,7 +2058,7 @@ translate english dialogue_betty_college_6_99bb31af_2:
 translate english dialogue_betty_college_6_e8e1203d:
 
     # betty "Гувернантка!!! Иди сюда!"
-    betty "The governess!!! Come here!"
+    betty "The maid!!! Come here!"
 
 translate english strings:
 

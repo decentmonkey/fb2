@@ -88,21 +88,21 @@ translate english dialogue_4_classmate_lesbian_1_495cf7a8:
     # bardie "Я вижу, что ты соблюдаешь правила этого дома. Ты тоже свободна на сегодня."
     betty "Why did you call me? I don't have time for your nonsense!"
     betty "Hurry!"
-    bardie "Call the governess. I want to see how you follow the rules of this house."
+    bardie "Call the maid. I want to see how you follow the rules of this house."
     betty "!!!"
     betty "Can't you check for yourself?!"
     betty "I don't want to call her! And even more so to show in her presence that I follow the rules!"
     bardie "You must have forgotten I'm the boss.'!"
-    bardie "You must obey me! Call the governess!!!"
-    betty "The governess! Come here!"
+    bardie "You must obey me! Call the maid!!!"
+    betty "The maid! Come here!"
     m "Yes, Mrs. Roberts?" 
     mt "That bumpkin and the little baby are getting to me!"
     mt "What could I do to get them off my back?"
     mt "???"
-    betty "Governess, I called you to..."
+    betty "Maid, I called you to..."
     betty "To..."
     betty "..."
-    bardie "Governess, I want to see how well you observe the rules of this house."
+    bardie "Maid, I want to see how well you observe the rules of this house."
     bardie "And how well you obey your master."
     mt "This provincial whore could put a brat in his place..."
     mt "If she could say 'no' to men..."
@@ -117,7 +117,7 @@ translate english dialogue_4_classmate_lesbian_1_495cf7a8:
     betty_t "I hate that brat!!!"
     betty "!!!"
     bardie "Now I'm going to make sure you follow the rules. Show me. Spread your legs apart and lift your skirt."
-    betty "I don't want to do it in front of the governess! Actually, I'm not wearing panties!"
+    betty "I don't want to do it in front of the maid! Actually, I'm not wearing panties!"
     betty "!!!"
     betty "I'm not going to sit here in front of you with my legs spread!"
     bardie "Let's take another look at your photos."
@@ -127,13 +127,13 @@ translate english dialogue_4_classmate_lesbian_1_495cf7a8:
     bardie "I'm waiting!"
     betty "!!!"
     bardie "Good. Don't lower your skirt."
-    bardie "I'm going to check on the governess."
-    bardie "Governess, kneel on the floor between Betty's legs!"
+    bardie "I'm going to check on the maid."
+    bardie "Maid, kneel on the floor between Betty's legs!"
     m "WHAT?!"
     m "I'm not doing this!!!"
     m "Check as usual!"
-    bardie "You're a bad governess. You refused to accept my friend's gratitude."
-    bardie "A bad governess must be punished by the master!"
+    bardie "You're a bad maid. You refused to accept my friend's gratitude."
+    bardie "A bad maid must be punished by the master!"
     bardie "If you don't do as I say, you'll only get worse!"
     mt "He threatens me with Marcus again..."
     mt "He can go to the police and tell them I live here."
@@ -143,20 +143,20 @@ translate english dialogue_4_classmate_lesbian_1_495cf7a8:
     mt "Maybe even tomorrow..."
     mt "No! I mustn't let that happen!!!"
     mt "!!!"
-    bardie "Governess, bend down and touch Betty's pussy with your tongue."
+    bardie "Maid, bend down and touch Betty's pussy with your tongue."
     betty "I don't want that slut to touch me with her lips!" 
-    betty "Governess, don't you dare touch me!" 
+    betty "Maid, don't you dare touch me!" 
     mt "Are you kidding me?! I'm sick of what he's asking me to do!"
     mt "And to whom?! To that hillbilly! I, Monica Buckfett!"
     betty "Phew!"
     m "!!!"
     m "That's all, I hope?! Can I go?"
-    bardie "No, governess! I am very dissatisfied with you!"
+    bardie "No, maid! I am very dissatisfied with you!"
     bardie "Do it a few more times, and I'll see if it's enough or not."
     betty "When's this whole circus going to stop?!"
     betty_t "Ugh! This whore agreed to lick me THERE!"
     betty_t "How disgusting it is that she touches me!"
-    bardie "Governess, it's not over."
+    bardie "Maid, it's not over."
     bardie "Go on. I'm still wondering whether to forgive you or not..."
     betty_t "How is it disgusting... I don't like it at all... Mmmm..."
     betty "That's enough, that's enough! I don't like her touching me there-m-m..."
@@ -166,8 +166,8 @@ translate english dialogue_4_classmate_lesbian_1_495cf7a8:
     betty "I am... a decent woman..."
     betty "Aaah, tell her to stop... Ohhh..."
     betty "ÀÀÀÀÀÀÀÀ!!!"
-    bardie "Governess, that's enough."
-    bardie "Now the master is satisfied with his governess and she can go."
+    bardie "Maid, that's enough."
+    bardie "Now the master is satisfied with his maid and she can go."
     bardie "I see you're following the rules of this house. You're free for tonight, too."
 
 # TODO: Translation updated at 2019-10-18 04:27
@@ -188,7 +188,7 @@ translate english dialogue_4_classmate_lesbian_1_3355e008:
 translate english dialogue_4_classmate_lesbian_1_33ad1ef4:
 
     # bardie "Зови гувернантку. Я хочу проверить, как вы соблюдаете правила этого дома."
-    bardie "Call the governess. I want to see how you follow the rules of this house."
+    bardie "Call the maid. I want to see how you follow the rules of this house."
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:20
 translate english dialogue_4_classmate_lesbian_1_99bb31af:
@@ -210,7 +210,7 @@ translate english dialogue_4_classmate_lesbian_1_89cec368:
     # bardie "Ты, наверное, забыла, что я тут хозяин?!"
     # bardie "Ты должна меня слушаться! Зови гувернантку!!!"
     bardie "You must have forgotten I'm the boss.'!"
-    bardie "You must obey me! Call the governess!!!"
+    bardie "You must obey me! Call the maid!!!"
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:32
 translate english dialogue_4_classmate_lesbian_1_99bb31af_1:
@@ -222,7 +222,7 @@ translate english dialogue_4_classmate_lesbian_1_99bb31af_1:
 translate english dialogue_4_classmate_lesbian_1_45b4f6e9:
 
     # betty "Гувернантка! Иди сюда!"
-    betty "The governess! Come here!"
+    betty "The maid! Come here!"
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:50
 translate english dialogue_4_classmate_lesbian_1_ee8c5344:
@@ -245,7 +245,7 @@ translate english dialogue_4_classmate_lesbian_1_7fd34658:
     # betty "Гувернантка, я тебя позвала, чтобы..."
     # betty "Чтобы..."
     mt "???"
-    betty "Governess, I called you to..."
+    betty "Maid, I called you to..."
     betty "To..."
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:66
@@ -258,7 +258,7 @@ translate english dialogue_4_classmate_lesbian_1_f2060836:
 translate english dialogue_4_classmate_lesbian_1_e9d4f61f:
 
     # bardie "Гувернантка, я хочу проверить, насколько хорошо вы соблюдаете правила этого дома."
-    bardie "Governess, I want to see how well you observe the rules of this house."
+    bardie "Maid, I want to see how well you observe the rules of this house."
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:73
 translate english dialogue_4_classmate_lesbian_1_2248c6eb:
@@ -336,7 +336,7 @@ translate english dialogue_4_classmate_lesbian_1_a92b147a:
 translate english dialogue_4_classmate_lesbian_1_5beade1d:
 
     # betty "Я не хочу делать этого при гувернантке! Вообще-то, на мне нет трусиков!"
-    betty "I don't want to do it in front of the governess! Actually, I'm not wearing panties!"
+    betty "I don't want to do it in front of the maid! Actually, I'm not wearing panties!"
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:133
 translate english dialogue_4_classmate_lesbian_1_99bb31af_3:
@@ -396,13 +396,13 @@ translate english dialogue_4_classmate_lesbian_1_e57142f2:
 translate english dialogue_4_classmate_lesbian_1_cbf77052:
 
     # bardie "Сейчас я буду проверять гувернантку."
-    bardie "I'm going to check on the governess."
+    bardie "I'm going to check on the maid."
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:183
 translate english dialogue_4_classmate_lesbian_1_33460f0a:
 
     # bardie "Гувернантка, встань на пол на колени между ног Бетти!"
-    bardie "Governess, kneel on the floor between Betty's legs!"
+    bardie "Maid, kneel on the floor between Betty's legs!"
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:188
 translate english dialogue_4_classmate_lesbian_1_30ba0bfe:
@@ -420,7 +420,7 @@ translate english dialogue_4_classmate_lesbian_1_9f55afd5:
     # bardie "Ты плохая гувернантка."
     # bardie "Плохую гувернантку хозяин должен наказать!"
     bardie "You are a bad maid."
-    bardie "A bad governess must be punished by the master!"
+    bardie "A bad maid must be punished by the master!"
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:201
 translate english dialogue_4_classmate_lesbian_1_bf9630e4:
@@ -470,7 +470,7 @@ translate english dialogue_4_classmate_lesbian_1_007234ec:
 translate english dialogue_4_classmate_lesbian_1_f6819283:
 
     # bardie "Гувернантка, наклонись и дотронься языком до киски Бетти."
-    bardie "Governess, bend down and touch Betty's pussy with your tongue."
+    bardie "Maid, bend down and touch Betty's pussy with your tongue."
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:243
 translate english dialogue_4_classmate_lesbian_1_bf9c7264:
@@ -482,7 +482,7 @@ translate english dialogue_4_classmate_lesbian_1_bf9c7264:
 translate english dialogue_4_classmate_lesbian_1_d8825f55:
 
     # betty "Гувернантка, не смей прикасаться ко мне!" 
-    betty "Governess, don't you dare touch me!" 
+    betty "Maid, don't you dare touch me!" 
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:250
 translate english dialogue_4_classmate_lesbian_1_cc0bab56:
@@ -511,7 +511,7 @@ translate english dialogue_4_classmate_lesbian_1_285770d3:
     # bardie "Нет, гувернантка! Я тобой очень недоволен!"
     # bardie "Сделай так еще несколько раз, а я подумаю, достаточно или нет."
     m "That's all, I hope?! Can I go?"
-    bardie "No, governess! I am very dissatisfied with you!"
+    bardie "No, maid! I am very dissatisfied with you!"
     bardie "Do it a few more times, and I'll see if it's enough or not."
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:323
@@ -533,7 +533,7 @@ translate english dialogue_4_classmate_lesbian_1_9e9e9f7c:
 
     # bardie "Гувернантка, еще не все."
     # bardie "Продолжай. Я еще думаю, простить тебя или нет..."
-    bardie "Governess, it's not over."
+    bardie "Maid, it's not over."
     bardie "Go on. I'm still wondering whether to forgive you or not..."
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:339
@@ -612,13 +612,13 @@ translate english dialogue_4_classmate_lesbian_1_ebe56a97:
 translate english dialogue_4_classmate_lesbian_1_24d2e3d3:
 
     # bardie "Достаточно, гувернантка."
-    bardie "Governess, that's enough."
+    bardie "Maid, that's enough."
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:484
 translate english dialogue_4_classmate_lesbian_1_4e44ec07:
 
     # bardie "Теперь хозяин доволен своей гувернанткой и она может идти."
-    bardie "Now the master is satisfied with his governess and she can go."
+    bardie "Now the master is satisfied with his maid and she can go."
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:494
 translate english dialogue_4_classmate_lesbian_1_da594c3d:

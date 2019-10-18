@@ -36,16 +36,16 @@ translate english dialogue_classmate_1_38df7d5a:
     erick "..."
     bardie "!!!"
     bardie "I'll prove to you now that they obey me!"
-    bardie "Governess! Governess!!!"
+    bardie "Maid! Maid!!!"
     mt "This baby brought into the house another as preoccupied petty pervert as himself."
     m "Yes? You called me?"
-    bardie "Governess, I must see if you observe the rules of this house!"
+    bardie "Maid, I must see if you observe the rules of this house!"
     m "What, right now? With your friend?!" 
     m "???"
-    bardie "Yes, I need to check right now, governess."
+    bardie "Yes, I need to check right now, maid."
     m "It's not my job to do that! I'm not going to pass this test in front of your friend!"
     m "!!!"
-    bardie "If you're a good governess and follow the rules, then do as you're told!"
+    bardie "If you're a good maid and follow the rules, then do as you're told!"
     m "..."
     bardie "Or do you refuse and want me to punish you?"
     mt "!!!"
@@ -60,13 +60,13 @@ translate english dialogue_classmate_1_e0cfd1de:
     # m "Я хорошая гувернантка! Но я не буду этого делать!"
     mt "Fuck!!!"
     mt "He'll see I'm wearing panties and punish me again!"
-    m "I'm a good governess! But I won't do it!"
+    m "I'm a good maid! But I won't do it!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:49
 translate english dialogue_classmate_1_3aadfc25:
 
     # m "Я хорошая гувернантка! Но я не буду этого делать!"
-    m "I'm a good governess! But I won't do it!"
+    m "I'm a good maid! But I won't do it!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:52
 translate english dialogue_classmate_1_c75b8c8d:
@@ -103,17 +103,17 @@ translate english dialogue_classmate_1_c75b8c8d:
     erick "I am... Um... The dispute is not won."
     erick "Because I... I didn't see properly..."
     m "What do you mean 'didn't see'?! I did everything as said Bardi."
-    erick "If your governess pulls up her skirt again and.. let me take a closer look, then I'll do your homework for 2 months."
+    erick "If your maid pulls up her skirt again and.. let me take a closer look, then I'll do your homework for 2 months."
     mt "!!!"
     mt "These two babies are arguing about something stupid! And I have to stand here in front of them half naked!!!"
-    bardie "What are you waiting for, governess? Did you hear that? Come closer to us and lift your skirt again!"
+    bardie "What are you waiting for, maid? Did you hear that? Come closer to us and lift your skirt again!"
     mt "I hate that boy! And his horny friend!"
     mt "If I don't, he won't let go of me."
     bardie "I am waiting."
     erick "I ... I can't see anything at all."
-    bardie "Governess, spread your legs wide!"
+    bardie "Maid, spread your legs wide!"
     mt "!!!"
-    erick "I want to see even closer. Let your governess sit on the bed. Then I can see everything."
+    erick "I want to see even closer. Let your maid sit on the bed. Then I can see everything."
     m "!!!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:89
@@ -124,7 +124,7 @@ translate english dialogue_classmate_1_a461c0ef:
     # mt "Черт!"
     # m "..."
     m "I won't do it! It's all gone too far!!!"
-    bardie "The governess doesn't want to be good? Had she forgotten what the master could do if she did not obey him?"
+    bardie "The maid doesn't want to be good? Had she forgotten what the master could do if she did not obey him?"
     mt "Heck!"
     m "..."
 
@@ -200,12 +200,12 @@ translate english dialogue_classmate_1_efc0a63c:
     m "What the hell?! Don't you want to ask me? I don't want you to touch me!"
     bardie "He would only touch his tongue and do nothing more."
     bardie "But for the master he will do homework for two months."
-    bardie "A good governess should be glad to make such small sacrifices for her master."
+    bardie "A good maid should be glad to make such small sacrifices for her master."
     mt "How awful! Do I have to spread my legs in front of someone for this brat's homework?"
     mt "Me?! Monica Buckfett! The richest and most powerful woman in this city!"
     m "Just try to touch me there with your fingers or anything!"
     m "!!!"
-    bardie "Yes, Eric! Don't touch her there with your fingers or anything. This is my governess."
+    bardie "Yes, Eric! Don't touch her there with your fingers or anything. This is my maid."
     bardie "Don't forget that!"
     erick "..."
     mt "Ugh, how disgusting! But if I don't listen to Bardi..."
@@ -239,10 +239,10 @@ translate english dialogue_classmate_1_efc0a63c:
     m "Hey, what are you doing?! Ewww!!!"
     mt "!!!"
     mt "Finally, it's over!"
-    bardie "You are a good governess. The governess helped her master to win the argument."
+    bardie "You are a good maid. The maid helped her master to win the argument."
     bardie "Hey, man, what's with the homework?"
     erick "Okay. You won two months of homework."
-    bardie "You may go, governess. You're free for tonight."
+    bardie "You may go, maid. You're free for tonight."
     mt "What strange sensations did I have? I do not understand..."
     mt "It's probably due to a nervous breakdown over everything that's been going on lately."
     mt "I need to see a good therapist..."
@@ -258,7 +258,7 @@ translate english dialogue_classmate_1_1_16dc678b:
 translate english dialogue_classmate_1_2_6a54bb81:
 
     # bardie "Гувернантка! Гувернантка!!!"
-    bardie "Governess! Governess!!!"
+    bardie "Maid! Maid!!!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:196
 translate english dialogue_classmate_2_a380c481:
@@ -270,13 +270,13 @@ translate english dialogue_classmate_2_a380c481:
     # mt "Ну что за мелкие извращенцы! Опять, как в прошлый раз?"
     # mt "И долго все это будет продолжаться"
     # bardie "Гувернантка, я хочу проверить, придерживаешься ли ты правил этого дома."
-    bardie "Governess! Governess!!!"
+    bardie "Maid! Maid!!!"
     m "What's the matter? Why scream like that?"
-    bardie "Governess, look who's here. Eric really enjoyed to visit us."
+    bardie "Maid, look who's here. Eric really enjoyed to visit us."
     bardie "Aha-ha!"
     mt "What little perverts! Again, like last time?"
     mt "And how long will it last"
-    bardie "Governess, I want to see if you follow the rules of this house."
+    bardie "Maid, I want to see if you follow the rules of this house."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:208
 translate english dialogue_classmate_2_73f72cc4:
@@ -287,8 +287,8 @@ translate english dialogue_classmate_2_73f72cc4:
     # bardie "В качестве наказания гувернантке нужно будет кое-что сделать для хозяина."
     mt "Fuck!!! I'm wearing panties. He will punish me again!"
     mt "Although... What would he do to me? I'll listen to his orders to lift my skirt." 
-    bardie "You're a bad governess!"
-    bardie "As a punishment, the governess will need to do something for the master."
+    bardie "You're a bad maid!"
+    bardie "As a punishment, the maid will need to do something for the master."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:218
 translate english dialogue_classmate_2_950ddb84:
@@ -299,7 +299,7 @@ translate english dialogue_classmate_2_950ddb84:
     # mt "Черт!"
     # m "..."
     m "I won't do it! Especially in front of your friend!"
-    bardie "The governess doesn't want to be good?"
+    bardie "The maid doesn't want to be good?"
     bardie "Had she forgotten what the master could do if she did not obey him?"
     mt "Heck!"
     m "..."
@@ -308,7 +308,7 @@ translate english dialogue_classmate_2_950ddb84:
 translate english dialogue_classmate_2_11228318:
 
     # bardie "Хорошая гувернантка. Именно поэтому у меня есть к гувернантке серьезное задание."
-    bardie "A good governess. That is why I have a serious assignment for my governess."
+    bardie "A good maid. That is why I have a serious assignment for my maid."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:229
 translate english dialogue_classmate_2_9a0b929c:
@@ -395,22 +395,22 @@ translate english dialogue_classmate_2_9a0b929c:
     erick "Well... I am... As saying..."
     erick "..."
     m "How do you imagine that? Why would I go to college and cheat on a teacher?"
-    bardie "No one will suspect anything, governess. This teacher became our class leader recently, but it is possible to agree with him."
+    bardie "No one will suspect anything, maid. This teacher became our class leader recently, but it is possible to agree with him."
     m "???"
     bardie "Betty managed to solve a very difficult question with him. You're all the more likely can solve Eric's little problem."
     m "I'm not going anywhere! It's all nonsense!"
-    bardie "It's not a request, governess! This is the master's order."
+    bardie "It's not a request, maid! This is the master's order."
     bardie "To argue with the owner, especially at a party,when we have guests, is forbidden!"
-    m "I work here as a governess! I didn't hire to be somebody's mom!"
+    m "I work here as a maid! I didn't hire to be somebody's mom!"
     m "I don't know how or what to do! I don't look like anyone's mother!"
     m "!!!"
-    bardie "Betty didn't know either, but she figured it out. And you will understand, the governess."
+    bardie "Betty didn't know either, but she figured it out. And you will understand, the maid."
     bardie "But about the fact that unlike anyone's mother-Yes. You need a normal dress."
-    bardie "You don't have to go in a governess uniform."
+    bardie "You don't have to go in a maid uniform."
     bardie "You have a nice uniform and I like it. Although I don't think your uniform suits you very well."
     m "What do you mean?"
-    bardie "In this uniform, the governess has to make unnecessary movements... to show that she follows the rules of the house."
-    bardie "It should be seen for master without special movements how good governess you are."
+    bardie "In this uniform, the maid has to make unnecessary movements... to show that she follows the rules of the house."
+    bardie "It should be seen for master without special movements how good maid you are."
     m "I have something to wear besides this ridiculous uniform!"
     bardie "What are your clothes? The one you came to work for us in?"
     bardie "Ah-ha-ha!!!"
@@ -421,18 +421,18 @@ translate english dialogue_classmate_2_9a0b929c:
     bardie "You should look like Betty. You need a dress like hers."
     m "I'll never wear such stupid clothes as Betty's!"
     mt "Eww! Provincial!"
-    bardie "Then the governess must buy one. Meet with the teacher need the faster, the better."
+    bardie "Then the maid must buy one. Meet with the teacher need the faster, the better."
     m "..."
-    bardie "The governess must listen to him carefully and apologize for Eric."
+    bardie "The maid must listen to him carefully and apologize for Eric."
     bardie "Then to say that you will definitely talk to your son and this will not happen again."
     m "..."
     bardie "If the teacher asks you to do something for the needs of the class, then agree. This will help Eric avoid punishment."
     m "Why would I do anything for the needs of the class?"
     bardie "Because I told you so! And don't argue!"
     bardie "If you do well, the master will be very pleased."
-    bardie "You want the master to be pleased, don't you, governess?"
+    bardie "You want the master to be pleased, don't you, maid?"
     bardie "And remember, you're Mrs. Baker to the teacher, and Eric Baker is your son."
-    bardie "The teacher's name is Mr. Edwards. Remember everything, governess?"
+    bardie "The teacher's name is Mr. Edwards. Remember everything, maid?"
     m "..."
     bardie "Now go buy a dress."
     m "I have no money for a dress!"
@@ -1192,33 +1192,33 @@ translate english dialogue_classmate_5_1b_c59f7a65:
     # mt "Нет! Я не пойду туда больше!"
     # mt "Я хорошая гувернантка! Я поговорю с учителем еще раз!"
     mt "I hate that boy! He got me already with his nonsense!"
-    bardie "How was it, governess? I hope you've got it all sorted out."
+    bardie "How was it, maid? I hope you've got it all sorted out."
     m "If your friend had turned on his brain when he decided to go into miss Mansfield's locker, there would be no problems."
     bardie "And? The problem is solved?"
     m "No! And I'm not going to do this nonsense!"
     m "I'm not going to that damn college anymore! Sort it out yourself!"
-    bardie "Had the governess forgotten that Eric was doing his master's homework?"
+    bardie "Had the maid forgotten that Eric was doing his master's homework?"
     m "What do I care?!" 
     m "Let him solve his own problems!!!"
-    bardie "The governess is bad! She must be punished!"
+    bardie "The maid is bad! She must be punished!"
     bardie "Show me how well you follow the rules of this house!"
     m "!!!" 
     mt "I hope he finally leaves me alone after that."
-    bardie "The governess disobeyed the master's orders!"
-    bardie "Bad governess!"
-    bardie "Did the governess realize she was behaving badly?"
-    bardie "The governess will no longer behave so and will do whatever the owner says, won't she?"
-    bardie "The governess must go to College and solve Eric's problem!"
+    bardie "The maid disobeyed the master's orders!"
+    bardie "Bad maid!"
+    bardie "Did the maid realize she was behaving badly?"
+    bardie "The maid will no longer behave so and will do whatever the owner says, won't she?"
+    bardie "The maid must go to College and solve Eric's problem!"
     mt "I hate him!"
     mt "He won't scare me with this and make me go to the teacher!"
     mt "He's not going to make it!"
     mt "I'm not going to that fucking college! I don't want to!!!"
     mt "Hell! How painful! When will he stop?!"
     m "!!!"
-    m "I'm a good governess!"
+    m "I'm a good maid!"
     m "But I'm not going to college!"
     mt "No! I'm not going there anymore!"
-    mt "I'm a good governess! I'll talk to the teacher again!"
+    mt "I'm a good maid! I'll talk to the teacher again!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:798
 translate english dialogue_classmate_6_28d9d498:
@@ -1237,16 +1237,16 @@ translate english dialogue_classmate_6_28d9d498:
     # bardie "Ты на сегодня свободна."
     # mt "Черт, мне снова придется надевать этот дурацкий костюм для провинциалок. Фи!"
     mt "I hate those two babies! I hope today there will be lessons without licking me there..."
-    bardie "How was it, governess? I hope you've got it all sorted out."
+    bardie "How was it, maid? I hope you've got it all sorted out."
     m "If your friend had turned on his brain when he decided to go into miss Mansfield's locker, there would be no problems."
     m "And now the teacher and I have to think about how to deal with it!" 
     m "Mr Edwards said he would speak to Miss Mansfield. As soon as he gets result, he will tell me."
     m "Because of that, I'll have to go back to college."
     m "And that wasn't part of my plan!"
-    bardie "The governess is good! I can see she's trying."
-    bardie "If she can manage it, I shall be very pleased with my governess!"
+    bardie "The maid is good! I can see she's trying."
+    bardie "If she can manage it, I shall be very pleased with my maid!"
     mt "..."
-    bardie "You may go now, governess."
+    bardie "You may go now, maid."
     bardie "You're free for today."
     mt "Hell, I'm going to have to wear that ridiculous provincial dress again. FIE!"
 
@@ -1594,13 +1594,13 @@ translate english dialogue_classmate_9_1_3ac66f47:
     # bardie "Жду тебя с окончательным положительным результатом."
     # mt "Черт, мне снова придется надевать этот дурацкий костюм для провинциалок. Фи!"
     mt "Nasty little boy! How many problems does he cause with his existence in my house."
-    bardie "How was it, governess?"
+    bardie "How was it, maid?"
     "I hope you've got it all sorted out."
     m "The teacher said that he had not yet succeeded."
     "He would speak to miss Mansfield in the next few days."
     m "He'll let me know the result when he's done with her."
     m "So I have to go back to that damn college."
-    bardie "The governess is good. You may go, governess."
+    bardie "The maid is good. You may go, maid."
     bardie "Waiting for you with the final positive result."
     mt "Hell, I'm going to have to wear that ridiculous provincial dress again. FIE!"
 
@@ -1961,17 +1961,17 @@ translate english dialogue_classmate_9_2_f92004f2:
     # m "Я сделала достаточно для того, чтобы ты не наказывал меня!"
     # m "Именно это и будет лучшая благодарность!"
     mt "Nasty little boy! How many problems does he cause with his existence in my house."
-    bardie "How was it, governess? I hope you've got it all sorted out."
+    bardie "How was it, maid? I hope you've got it all sorted out."
     m "Yes, Eric's problem is solved."
     m "There will be no consequences after his actions in the locker room..."
-    bardie "The governess is good! The master of the house is very pleased with her!"
-    bardie "Eric is coming to visit me one of these days to thank the governess..."
+    bardie "The maid is good! The master of the house is very pleased with her!"
+    bardie "Eric is coming to visit me one of these days to thank the maid..."
     m "I can do without his thanks."
     m "The best thanks would be if you would stop molesting me!"
     m "!!!"
-    bardie "The governess does not like that the master of the house is pleased with her?"
+    bardie "The maid does not like that the master of the house is pleased with her?"
     bardie "She'd rather be punished by him?"
-    bardie "I can arrange it quickly! I do not like that the governess refuses the gratitude of the master's friend."
+    bardie "I can arrange it quickly! I do not like that the maid refuses the gratitude of the master's friend."
     mt "This little boy is still buggin' me!"
     m "I've done enough for you not to punish me!"
     m "That is what will be the best gratitude!"
@@ -1984,10 +1984,10 @@ translate english dialogue_classmate_12_ef37dbbc:
     # mt "Что этому мелкому извращенцу от меня опять надо?"
     # bardie "Гувентантка, я хочу проверить, придерживаешься ли ты правил этого дома."
     # m "..."
-    bardie "Governess!!!"
+    bardie "Maid!!!"
     m "What's the matter? Why are you shouting like that?"
     mt "What does this little pervert want from me again?"
-    bardie "Governess, I want to check that you follow the rules of this house."
+    bardie "Maid, I want to check that you follow the rules of this house."
     m "..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1245
@@ -1998,13 +1998,13 @@ translate english dialogue_classmate_12_e0cfd1de:
     # m "Я хорошая гувернантка! Но я не буду этого делать!"
     mt "Fuck!!!"
     mt "He'll see I'm wearing panties and punish me again!"
-    m "I'm a good governess! But I won't do it!"
+    m "I'm a good maid! But I won't do it!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1253
 translate english dialogue_classmate_12_3aadfc25:
 
     # m "Я хорошая гувернантка! Но я не буду этого делать!"
-    m "I'm a good governess! But I won't do it!"
+    m "I'm a good maid! But I won't do it!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1256
 translate english dialogue_classmate_12_5feace01:
@@ -2036,11 +2036,11 @@ translate english dialogue_classmate_12_5feace01:
     # mt "Как же я устала выполнять глупые приказы этого малявки!"
     # mt "!!!"
     # mt "Скорее бы вернуть этот дом себе и выкинуть эту ненормальную семейку отсюда!"
-    bardie "A good governess. The master is pleased with her. So I can trust her with a issue."
+    bardie "A good maid. The master is pleased with her. So I can trust her with a issue."
     mt "Oh no!"
-    bardie "Governess, Eric's in trouble again."
+    bardie "Maid, Eric's in trouble again."
     bardie "The teacher calls his mother urgently."
-    bardie "The governess must pretend to be Eric's mother again and go talk to the teacher."
+    bardie "The maid must pretend to be Eric's mother again and go talk to the teacher."
     mt "No way, little boy!" 
     m "What had he done this time? Why do I have to go solve his problems again?!"
     bardie "You solved his problem fast enough last time."
@@ -2050,15 +2050,15 @@ translate english dialogue_classmate_12_5feace01:
     m "I'm not going to go there!"
     m "Since your friend doesn't have the brains not to get involved in all sorts of stupid situations... There's nothing I can do to help!"
     m "Should I go to college every time because of him?"
-    bardie "It's not a request, governess! This is the master's order!"
+    bardie "It's not a request, maid! This is the master's order!"
     bardie "And it's forbidden to argue with the master!"
     bardie "You need to talk to the teacher again and apologize for Eric."
     bardie "Tell him you'll talk to your son and it won't happen again."
     m "I've already promised something like this! And what is the result?!" 
     m "!!!"
     mt "Hell!!! I'm going to have to talk to this high-moral pervert again!"
-    bardie "If you do well this time, governess...Then I, the master of the house, will be very pleased."
-    bardie "You want the master to be pleased, don't you, governess?"
+    bardie "If you do well this time, maid...Then I, the master of the house, will be very pleased."
+    bardie "You want the master to be pleased, don't you, maid?"
     bardie "I'll wait for you here. I hope you come back from college with good news..." 
     mt "How tired I am of obeying this little boy's foolish orders!"
     mt "!!!"
@@ -2355,7 +2355,7 @@ translate english dialogue_classmate_15_bbb56071:
     # m "Больше я в этот мерзкий колледж ни ногой! Ни при каких условиях!"
     # m "Еще раз твой друг вляпается, сами будете разбираться!!!"
     mt "Nasty little boy! How many problems does he cause with his existence in my house."
-    bardie "How was it, governess? I hope you've got it all sorted out."
+    bardie "How was it, maid? I hope you've got it all sorted out."
     m "Yes! Eric's problem is solved!"
     m "I don't want to go back to that filthy College. Under no circumstances!"
     m "Once again, your friend will get into it, you'll figure it out by yourself!!!"
@@ -2474,7 +2474,7 @@ translate english dialogue_classmate_1_a6c965c6:
 translate english dialogue_classmate_1_6a54bb81:
 
     # bardie "Гувернантка! Гувернантка!!!"
-    bardie "Governess! Governess!!!"
+    bardie "Maid! Maid!!!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:67
 translate english dialogue_classmate_1b_c22f74e6:
@@ -2482,7 +2482,7 @@ translate english dialogue_classmate_1b_c22f74e6:
     # bardie "Гувернантка! Гувернантка!!!"
     # mt "Меня зовет эта малявка Барди!"
     # mt "Надо {c}идти к нему в комнату{/c}..."
-    bardie "Governess! Governess!!!"
+    bardie "Maid! Maid!!!"
     mt "This little thing is calling me!"
     mt "I need to {c}go to his room{/c}..."
 
@@ -2510,7 +2510,7 @@ translate english dialogue_classmate_1a_e4c6374a:
 translate english dialogue_classmate_1a_f94766c2:
 
     # bardie "Гувернантка, мне надо проверить, соблюдаешь ли ты правила этого дома!"
-    bardie "Governess, I must see if you observe the rules of this house!"
+    bardie "Maid, I must see if you observe the rules of this house!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:97
 translate english dialogue_classmate_1a_551a10a7:
@@ -2524,7 +2524,7 @@ translate english dialogue_classmate_1a_551a10a7:
 translate english dialogue_classmate_1a_6522afdb:
 
     # bardie "Да, мне нужно проверить прямо сейчас, гувернантка."
-    bardie "Yes, I need to check right now, governess."
+    bardie "Yes, I need to check right now, maid."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:107
 translate english dialogue_classmate_1a_f63ab183:
@@ -2538,7 +2538,7 @@ translate english dialogue_classmate_1a_f63ab183:
 translate english dialogue_classmate_1a_27122781:
 
     # bardie "Если ты хорошая гувернантка и соблюдаешь правила, то делай, что тебе говорят!"
-    bardie "If you're a good governess and follow the rules, then do as you're told!"
+    bardie "If you're a good maid and follow the rules, then do as you're told!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:115
 translate english dialogue_classmate_1a_e612037c:
@@ -2578,13 +2578,13 @@ translate english dialogue_classmate_1a_ef6a9255:
 translate english dialogue_classmate_1a_3aadfc25:
 
     # m "Я хорошая гувернантка! Но я не буду этого делать!"
-    m "I'm a good governess! But I won't do it!"
+    m "I'm a good maid! But I won't do it!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:148
 translate english dialogue_classmate_1a_3aadfc25_1:
 
     # m "Я хорошая гувернантка! Но я не буду этого делать!"
-    m "I'm a good governess! But I won't do it!"
+    m "I'm a good maid! But I won't do it!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:167
 translate english dialogue_classmate_1a_82b43786:
@@ -2642,7 +2642,7 @@ translate english dialogue_classmate_1a_6d592128:
 translate english dialogue_classmate_1a_b3ec5162:
 
     # eric "Если твоя гувернантка задерет юбку еще раз и... даст посмотреть поближе, тогда я буду делать тебе домашку 2 месяца."
-    eric "If your governess pulls up her skirt again and.. let me take a closer look, then I'll do your homework for 2 months."
+    eric "If your maid pulls up her skirt again and.. let me take a closer look, then I'll do your homework for 2 months."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:203
 translate english dialogue_classmate_1a_7079d945:
@@ -2656,7 +2656,7 @@ translate english dialogue_classmate_1a_7079d945:
 translate english dialogue_classmate_1a_44d0b9e4:
 
     # bardie "Чего ты ждешь, гувернантка? Ты не слышала что-ли? Подойди поближе к нам и подними юбку еще раз!"
-    bardie "What are you waiting for, governess? Did you hear that? Come closer to us and lift your skirt again!"
+    bardie "What are you waiting for, maid? Did you hear that? Come closer to us and lift your skirt again!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:212
 translate english dialogue_classmate_1a_736a33d6:
@@ -2682,7 +2682,7 @@ translate english dialogue_classmate_1a_2bbe9696:
 translate english dialogue_classmate_1a_20ee4718:
 
     # bardie "Гувернантка, расставь ноги шире!"
-    bardie "Governess, spread your legs wide!"
+    bardie "Maid, spread your legs wide!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:239
 translate english dialogue_classmate_1a_0a5616b8:
@@ -2694,7 +2694,7 @@ translate english dialogue_classmate_1a_0a5616b8:
 translate english dialogue_classmate_1a_8c359702:
 
     # eric "Я хочу увидеть еще ближе. Пусть твоя гувернантка сядет на кровать. Тогда я смогу все рассмотреть."
-    eric "I want to see even closer. Let your governess sit on the bed. Then I can see everything."
+    eric "I want to see even closer. Let your maid sit on the bed. Then I can see everything."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:256
 translate english dialogue_classmate_1a_29a4f6ab:
@@ -2712,7 +2712,7 @@ translate english dialogue_classmate_1a_be50450f:
 translate english dialogue_classmate_1a_4f1850b1:
 
     # bardie "Гувернантка не хочет быть хорошей? Она забыла, что может сделать хозяин, если она не будет слушаться его?"
-    bardie "The governess doesn't want to be good? Had she forgotten what the master could do if she did not obey him?"
+    bardie "The maid doesn't want to be good? Had she forgotten what the master could do if she did not obey him?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:273
 translate english dialogue_classmate_1a_9bc9bd12:
@@ -2804,7 +2804,7 @@ translate english dialogue_classmate_1a_96b7dd24:
 translate english dialogue_classmate_1a_6777ce4b:
 
     # bardie "Хорошая гувернантка должна быть рада пойти на такие маленькие жертвы ради своего хозяина."
-    bardie "A good governess should be glad to make such small sacrifices for her master."
+    bardie "A good maid should be glad to make such small sacrifices for her master."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:374
 translate english dialogue_classmate_1a_2b455e46:
@@ -2827,7 +2827,7 @@ translate english dialogue_classmate_1a_63497bbd:
 
     # bardie "Да, Эрик! Не трогай ее там пальцами или чем-то еще. Это МОЯ гувернантка."
     # bardie "Не забывай это!"
-    bardie "Yes, Eric! Don't touch her there with your fingers or anything. This is my governess."
+    bardie "Yes, Eric! Don't touch her there with your fingers or anything. This is my maid."
     bardie "Don't forget that!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:392
@@ -2944,7 +2944,7 @@ translate english dialogue_classmate_1a_48688880:
 translate english dialogue_classmate_1a_dbc489bb:
 
     # bardie "Хорошая гувернантка поднимает юбку!"
-    bardie "A good governess raises her skirt!"
+    bardie "A good maid raises her skirt!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:517
 translate english dialogue_classmate_1a_29a4f6ab_6:
@@ -2956,7 +2956,7 @@ translate english dialogue_classmate_1a_29a4f6ab_6:
 translate english dialogue_classmate_1a_37990d34:
 
     # bardie "Плохая гувернантка будет наказана штрафом..."
-    bardie "The bad governess will be punished with a fine..."
+    bardie "The bad maid will be punished with a fine..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:526
 translate english dialogue_classmate_1a_3a291a18:
@@ -3040,7 +3040,7 @@ translate english dialogue_classmate_1a_e71e7fab:
 translate english dialogue_classmate_1a_7fa6271f:
 
     # bardie "Гувернантка хорошая. Гувернантка помогла хозяину выиграть спор."
-    bardie "You are a good governess. The governess helped her master to win the argument."
+    bardie "You are a good maid. The maid helped her master to win the argument."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:656
 translate english dialogue_classmate_1a_0a5616b8_4:
@@ -3060,7 +3060,7 @@ translate english dialogue_classmate_1a_90521286:
 translate english dialogue_classmate_1a_4a2df245:
 
     # bardie "Можешь идти, гувернантка. На сегодня ты свободна."
-    bardie "You may go, governess. You're free for tonight."
+    bardie "You may go, maid. You're free for tonight."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:676
 translate english dialogue_classmate_1b1_21857483:
@@ -3078,13 +3078,13 @@ translate english dialogue_classmate_1b1_21857483:
 translate english dialogue_classmate_2a_6a54bb81:
 
     # bardie "Гувернантка! Гувернантка!!!"
-    bardie "Governess! Governess!!!"
+    bardie "Maid! Maid!!!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:710
 translate english dialogue_classmate_2_6a54bb81:
 
     # bardie "Гувернантка! Гувернантка!!!"
-    bardie "Governess! Governess!!!"
+    bardie "Maid! Maid!!!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:720
 translate english dialogue_classmate_2_89317b9c:
@@ -3097,7 +3097,7 @@ translate english dialogue_classmate_2_6ad2b33a:
 
     # bardie "Гувернантка, смотри, кто пришел. Эрику понравилось у нас в гостях."
     # bardie "Аха-ха!"
-    bardie "Governess, look who's here. Eric really enjoyed to visit us."
+    bardie "Maid, look who's here. Eric really enjoyed to visit us."
     bardie "Aha-ha!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:730
@@ -3112,7 +3112,7 @@ translate english dialogue_classmate_2_9496be75:
 translate english dialogue_classmate_2_94453bf0:
 
     # bardie "Гувернантка, я хочу проверить, придерживаешься ли ты правил этого дома."
-    bardie "Governess, I want to see if you follow the rules of this house."
+    bardie "Maid, I want to see if you follow the rules of this house."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:740
 translate english dialogue_classmate_2_c4611c26:
@@ -3127,8 +3127,8 @@ translate english dialogue_classmate_2_a281ca98:
 
     # bardie "Ты плохая гувернантка!"
     # bardie "В качестве наказания гувернантке нужно будет кое-что сделать для хозяина."
-    bardie "You're a bad governess!"
-    bardie "As a punishment, the governess will need to do something for the master."
+    bardie "You're a bad maid!"
+    bardie "As a punishment, the maid will need to do something for the master."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:795
 translate english dialogue_classmate_2_c9a07947:
@@ -3141,7 +3141,7 @@ translate english dialogue_classmate_2_d8740677:
 
     # bardie "Гувернантка не хочет быть хорошей?"
     # bardie "Она забыла, что может сделать хозяин, если она не будет слушаться его?"
-    bardie "The governess doesn't want to be good?"
+    bardie "The maid doesn't want to be good?"
     bardie "Had she forgotten what the master could do if she did not obey him?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:804
@@ -3160,7 +3160,7 @@ translate english dialogue_classmate_2_e612037c:
 translate english dialogue_classmate_2_11228318_1:
 
     # bardie "Хорошая гувернантка. Именно поэтому у меня есть к гувернантке серьезное задание."
-    bardie "A good governess. That is why I have a serious assignment for my governess."
+    bardie "A good maid. That is why I have a serious assignment for my maid."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:835
 translate english dialogue_classmate_2_d0666177:
@@ -3252,7 +3252,7 @@ translate english dialogue_classmate_2_d8310dd1:
 translate english dialogue_classmate_2_56b929e7:
 
     # bardie "Никто ничего не заподозрит, гувернантка. Этот учитель у нас совсем недавно, но с ним можно договориться."
-    bardie "No one will suspect anything, governess. This teacher became our class leader recently, but it is possible to agree with him."
+    bardie "No one will suspect anything, maid. This teacher became our class leader recently, but it is possible to agree with him."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:894
 translate english dialogue_classmate_2_d0666177_1:
@@ -3277,7 +3277,7 @@ translate english dialogue_classmate_2_b270e1b1:
 
     # bardie "Это не просьба, гувернантка! Это приказ хозяина дома."
     # bardie "А спорить с хозяином, тем более при гостях, тебе запрещено!"
-    bardie "It's not a request, governess! This is the master's order."
+    bardie "It's not a request, maid! This is the master's order."
     bardie "To argue with the owner, especially at a party,when we have guests, is forbidden!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:912
@@ -3285,7 +3285,7 @@ translate english dialogue_classmate_2_426036a5:
 
     # m "Я работаю здесь просто гувернанткой! Быть чьей-то мамой я не нанималась!"
     # m "Я не знаю, как и что делать! И вообще, я не похожа на чью-либо маму!"
-    m "I work here as a governess! I didn't hire to be somebody's mom!"
+    m "I work here as a maid! I didn't hire to be somebody's mom!"
     m "I don't know how or what to do! I don't look like anyone's mother!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:915
@@ -3299,7 +3299,7 @@ translate english dialogue_classmate_2_d5ab4c1f:
 
     # bardie "Бетти тоже не знала, но разобралась на месте. И ты разберешься, гувернантка."
     # bardie "А вот насчет того, что непохожа на маму - это да. Нужно платье нормальное."
-    bardie "Betty didn't know either, but she figured it out. And you will understand, the governess."
+    bardie "Betty didn't know either, but she figured it out. And you will understand, the maid."
     bardie "But about the fact that unlike anyone's mother-Yes. You need a normal dress."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:924
@@ -3307,7 +3307,7 @@ translate english dialogue_classmate_2_eaebe9e5:
 
     # bardie "Ты должна идти не в униформе гувернантки."
     # bardie "У тебя хорошая униформа и мне она нравится. Хотя, я думаю, что твоя униформа тебе не очень удобна."
-    bardie "You don't have to go in a governess uniform."
+    bardie "You don't have to go in a maid uniform."
     bardie "You have a nice uniform and I like it. Although I don't think your uniform suits you very well."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:928
@@ -3321,8 +3321,8 @@ translate english dialogue_classmate_2_8d422c0a:
 
     # bardie "В этой униформе гувернантке приходится делать лишние движения... чтобы показать, что она соблюдает правила дома."
     # bardie "А хозяину и без лишних движений должно быть видно, насколько ты хорошая гувернантка."
-    bardie "In this uniform, the governess has to make unnecessary movements... to show that she follows the rules of the house."
-    bardie "It should be seen for master without special movements how good governess you are."
+    bardie "In this uniform, the maid has to make unnecessary movements... to show that she follows the rules of the house."
+    bardie "It should be seen for master without special movements how good maid you are."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:937
 translate english dialogue_classmate_2_d144ccb7:
@@ -3380,7 +3380,7 @@ translate english dialogue_classmate_2_029bcfbb:
 translate english dialogue_classmate_2_e4aa0931:
 
     # bardie "Тогда гувернантка должна купить себе такое платье. Встретиться с учителем нужно чем быстрее, тем лучше."
-    bardie "Then the governess must buy one. Meet with the teacher need the faster, the better."
+    bardie "Then the maid must buy one. Meet with the teacher need the faster, the better."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:978
 translate english dialogue_classmate_2_e612037c_1:
@@ -3393,7 +3393,7 @@ translate english dialogue_classmate_2_c864b9b7:
 
     # bardie "Гувернантка должна внимательно его выслушать и извиниться за Эрика."
     # bardie "Потом сказать, что ты обязательно поговоришь с сыном и такого больше не повторится."
-    bardie "The governess must listen to him carefully and apologize for Eric."
+    bardie "The maid must listen to him carefully and apologize for Eric."
     bardie "Then to say that you will definitely talk to your son and this will not happen again."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:985
@@ -3422,7 +3422,7 @@ translate english dialogue_classmate_2_5f1fceec:
     # bardie "Ты же хочешь, чтобы хозяин был доволен, гувернантка?"
     bardie "Because I told you so! And don't argue!"
     bardie "If you do well, the master will be very pleased."
-    bardie "You want the master to be pleased, don't you, governess?"
+    bardie "You want the master to be pleased, don't you, maid?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1001
 translate english dialogue_classmate_2_9611397a:
@@ -3430,7 +3430,7 @@ translate english dialogue_classmate_2_9611397a:
     # bardie "И запомни, что для учителя ты - миссис Бейкер, а Эрик Бейкер - твой сын."
     # bardie "Учителя зовут мистер Эдвардс. Все запомнила, гувернантка?"
     bardie "And remember, you're Mrs. Baker to the teacher, and Eric Baker is your son."
-    bardie "The teacher's name is Mr. Edwards. Remember everything, governess?"
+    bardie "The teacher's name is Mr. Edwards. Remember everything, maid?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1006
 translate english dialogue_classmate_2_e612037c_3:
@@ -3872,7 +3872,7 @@ translate english dialogue_classmate_5_1b_4e08e0e3:
 translate english dialogue_classmate_5_1b_1c39eed8:
 
     # bardie "Ну как сходила, гувернантка? Надеюсь, у тебя все получилось уладить?"
-    bardie "How was it, governess? I hope you've got it all sorted out."
+    bardie "How was it, maid? I hope you've got it all sorted out."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1860
 translate english dialogue_classmate_5_1b_2e5ae0b8:
@@ -3898,7 +3898,7 @@ translate english dialogue_classmate_5_1b_b9525521:
 translate english dialogue_classmate_5_1b_80782c9e:
 
     # bardie "Гувернантка забыла, что Эрик делает хозяину домашку?"
-    bardie "Had the governess forgotten that Eric was doing his master's homework?"
+    bardie "Had the maid forgotten that Eric was doing his master's homework?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1877
 translate english dialogue_classmate_5_1b_9d0da4b8:
@@ -3912,7 +3912,7 @@ translate english dialogue_classmate_5_1b_9d0da4b8:
 translate english dialogue_classmate_5_1b_b71715e9:
 
     # bardie "Гувернантка плохая! Ее надо наказать!"
-    bardie "The governess is bad! She must be punished!"
+    bardie "The maid is bad! She must be punished!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1910
 translate english dialogue_classmate_5_1b_9ec491e4:
@@ -3954,7 +3954,7 @@ translate english dialogue_classmate_5_1b_1958beb2:
 translate english dialogue_classmate_5_1b_loop1_496d12e2:
 
     # bardie "Гувернантка ослушалась приказа хозяина!"
-    bardie "The governess disobeyed the master's orders!"
+    bardie "The maid disobeyed the master's orders!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2040
 translate english dialogue_classmate_5_1b_loop1_1d4bb50f:
@@ -3962,25 +3962,25 @@ translate english dialogue_classmate_5_1b_loop1_1d4bb50f:
     # bardie "Получай!"
     # bardie "Плохая гувернантка!"
     bardie "Take this!"
-    bardie "Bad governess!"
+    bardie "Bad maid!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2054
 translate english dialogue_classmate_5_1b_loop1_762a1a69:
 
     # bardie "Гувернантка поняла, что вела себя плохо?"
-    bardie "Did the governess realize she was behaving badly?"
+    bardie "Did the maid realize she was behaving badly?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2061
 translate english dialogue_classmate_5_1b_loop1_0258817a:
 
     # bardie "Гувернантка больше не будет так делать и выполнит все, что скажет хозяин?"
-    bardie "The governess will no longer behave so and will do whatever the owner says, won't she?"
+    bardie "The maid will no longer behave so and will do whatever the owner says, won't she?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2068
 translate english dialogue_classmate_5_1b_loop1_b0f92076:
 
     # bardie "Гувернантка должна пойти в колледж и решить проблему Эрика!"
-    bardie "The governess must go to College and solve Eric's problem!"
+    bardie "The maid must go to College and solve Eric's problem!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2073
 translate english dialogue_classmate_5_1b_loop1_77441766:
@@ -3994,7 +3994,7 @@ translate english dialogue_classmate_5_1b_loop1_53a6a81c:
     # m "Я хорошая гувернантка!"
     # m "Но я не пойду в колледж!"
     # m "Отпусти меня немедленно, малявка!"
-    m "I'm a good governess!"
+    m "I'm a good maid!"
     m "But I'm not going to college!"
     m "Let me go, punk!"
 
@@ -4008,7 +4008,7 @@ translate english dialogue_classmate_5_1b_loop1_1f35fd99:
 translate english dialogue_classmate_5_1b_loop1_ec988006:
 
     # m "Я хорошая гувернантка! Я поговорю с учителем еще раз!"
-    m "I'm a good governess! I'll talk to the teacher again!"
+    m "I'm a good maid! I'll talk to the teacher again!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2097
 translate english dialogue_classmate_5_1b_loop1_bb3ecfee:
@@ -4084,7 +4084,7 @@ translate english dialogue_classmate_6_637b4c2a:
 translate english dialogue_classmate_6_1c39eed8:
 
     # bardie "Ну как сходила, гувернантка? Надеюсь, у тебя все получилось уладить?"
-    bardie "How was it, governess? I hope you've got it all sorted out."
+    bardie "How was it, maid? I hope you've got it all sorted out."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2179
 translate english dialogue_classmate_6_2e5ae0b8:
@@ -4109,8 +4109,8 @@ translate english dialogue_classmate_6_5d345edc:
 
     # bardie "Гувернантка хорошая! Я вижу, что она старается."
     # bardie "Если у нее получится все уладить, то я буду очень доволен своей гувернанткой!"
-    bardie "The governess is good! I can see she's trying."
-    bardie "If she can manage it, I shall be very pleased with my governess!"
+    bardie "The maid is good! I can see she's trying."
+    bardie "If she can manage it, I shall be very pleased with my maid!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2194
 translate english dialogue_classmate_6_72c4389d:
@@ -4123,7 +4123,7 @@ translate english dialogue_classmate_6_0676627c:
 
     # bardie "Теперь можешь идти, гувернантка."
     # bardie "Ты на сегодня свободна."
-    bardie "You may go now, governess."
+    bardie "You may go now, maid."
     bardie "You're free for today."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2208
@@ -4143,7 +4143,7 @@ translate english dialogue_classmate_9_1_5a97b705:
 
     # bardie "Ну как сходила, гувернантка?"
     # "Надеюсь, у тебя все получилось уладить?"
-    bardie "How was it, governess?"
+    bardie "How was it, maid?"
     "I hope you've got it all sorted out."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2411
@@ -4167,7 +4167,7 @@ translate english dialogue_classmate_9_1_708360e5:
 
     # bardie "Гувернантка хорошая. Можешь идти, гувернантка."
     # bardie "Жду тебя с окончательным положительным результатом."
-    bardie "The governess is good. You may go, governess."
+    bardie "The maid is good. You may go, maid."
     bardie "Waiting for you with the final positive result."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2421
@@ -4198,7 +4198,7 @@ translate english dialogue_classmate_9_2_b5a969a5:
 translate english dialogue_classmate_9_2_1c39eed8:
 
     # bardie "Ну как сходила, гувернантка? Надеюсь, у тебя все получилось уладить?"
-    bardie "How was it, governess? I hope you've got it all sorted out."
+    bardie "How was it, maid? I hope you've got it all sorted out."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2622
 translate english dialogue_classmate_9_2_01c428a6:
@@ -4213,8 +4213,8 @@ translate english dialogue_classmate_9_2_b6492ead:
 
     # bardie "Гувернантка хорошая! Хозяин дома очень доволен ею!"
     # bardie "На днях придет в гости Эрик, чтобы поблагодарить гувернантку..."
-    bardie "The governess is good! The master of the house is very pleased with her!"
-    bardie "Eric is coming to visit me one of these days to thank the governess..."
+    bardie "The maid is good! The master of the house is very pleased with her!"
+    bardie "Eric is coming to visit me one of these days to thank the maid..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2630
 translate english dialogue_classmate_9_2_bb97e26d:
@@ -4232,9 +4232,9 @@ translate english dialogue_classmate_9_2_6312b8a4:
     # bardie "Гувернантке не нравится, что хозяин дома доволен ею?"
     # bardie "Ей больше нравится получать наказания от него?"
     # bardie "Я это могу быстро устроить! Мне не нравится, что гувернантка отказывается от благодарности друга хозяина."
-    bardie "The governess does not like that the master of the house is pleased with her?"
+    bardie "The maid does not like that the master of the house is pleased with her?"
     bardie "She'd rather be punished by him?"
-    bardie "I can arrange it quickly! I do not like that the governess refuses the gratitude of the master's friend."
+    bardie "I can arrange it quickly! I do not like that the maid refuses the gratitude of the master's friend."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2640
 translate english dialogue_classmate_9_2_bbf5da61:
@@ -4254,7 +4254,7 @@ translate english dialogue_classmate_9_2_2d9a100a:
 translate english dialogue_classmate_12_7dc7fd8c:
 
     # bardie "Гувентантка!!!"
-    bardie "Governess!!!"
+    bardie "Maid!!!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2654
 translate english dialogue_classmate_12_8c049de4:
@@ -4272,7 +4272,7 @@ translate english dialogue_classmate_12_390f34cc:
 translate english dialogue_classmate_12_512b5821:
 
     # bardie "Гувентантка, я хочу проверить, придерживаешься ли ты правил этого дома."
-    bardie "Governess, I want to check that you follow the rules of this house."
+    bardie "Maid, I want to check that you follow the rules of this house."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2661
 translate english dialogue_classmate_12_e612037c:
@@ -4292,13 +4292,13 @@ translate english dialogue_classmate_12_ef6a9255:
 translate english dialogue_classmate_12_3aadfc25_1:
 
     # m "Я хорошая гувернантка! Но я не буду этого делать!"
-    m "I'm a good governess! But I won't do it!"
+    m "I'm a good maid! But I won't do it!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2683
 translate english dialogue_classmate_12_b7080aad:
 
     # bardie "Хорошая гувернантка. Хозяин ею доволен. Поэтому может доверить ей одно дело."
-    bardie "A good governess. The master is pleased with her. So I can trust her with a issue."
+    bardie "A good maid. The master is pleased with her. So I can trust her with a issue."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2685
 translate english dialogue_classmate_12_cbbc3ffd:
@@ -4312,9 +4312,9 @@ translate english dialogue_classmate_12_b9fe1dcb:
     # bardie "Гувернантка, у Эрика снова проблемы в колледже."
     # bardie "Учитель вызывает его мать к себе, срочно."
     # bardie "Гувернантка должна снова притвориться мамой Эрика и пойти поговорить с учителем."
-    bardie "Governess, Eric's in trouble again."
+    bardie "Maid, Eric's in trouble again."
     bardie "The teacher calls his mother urgently."
-    bardie "The governess must pretend to be Eric's mother again and go talk to the teacher."
+    bardie "The maid must pretend to be Eric's mother again and go talk to the teacher."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2691
 translate english dialogue_classmate_12_55035db8:
@@ -4359,7 +4359,7 @@ translate english dialogue_classmate_12_a0105af0:
 
     # bardie "Это не просьба, гувернантка! Это приказ хозяина дома!"
     # bardie "А спорить с хозяином гувернантке запрещено!"
-    bardie "It's not a request, governess! This is the master's order!"
+    bardie "It's not a request, maid! This is the master's order!"
     bardie "And it's forbidden to argue with the master!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2710
@@ -4389,8 +4389,8 @@ translate english dialogue_classmate_12_3803ad55:
 
     # bardie "Если ты все хорошо сделаешь и в этот раз, гувернантка...То я, хозяин дома, буду очень доволен."
     # bardie "Ты же хочешь, чтобы хозяин был доволен, гувернантка?"
-    bardie "If you do well this time, governess...Then I, the master of the house, will be very pleased."
-    bardie "You want the master to be pleased, don't you, governess?"
+    bardie "If you do well this time, maid...Then I, the master of the house, will be very pleased."
+    bardie "You want the master to be pleased, don't you, maid?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2722
 translate english dialogue_classmate_12_40f21196:
@@ -4424,7 +4424,7 @@ translate english dialogue_classmate_15_b5a969a5:
 translate english dialogue_classmate_15_1c39eed8:
 
     # bardie "Ну как сходила, гувернантка? Надеюсь, у тебя все получилось уладить?"
-    bardie "How was it, governess? I hope you've got it all sorted out."
+    bardie "How was it, maid? I hope you've got it all sorted out."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2932
 translate english dialogue_classmate_15_84c33bb7:
