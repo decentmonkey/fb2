@@ -350,5 +350,5 @@ translate german strings:
 
     # game/Quests/Question_Helper_Info.rpy:125
     old "Маркус ждет меня снова... Смогу-ли я решиться снова навестить его?"
-    new "Маркус ждет меня снова... Смогу-ли я решиться снова навестить его?"
+    new "Marcus wartet wieder auf mich... Werde ich in der Lage sein, ihn nochmal zu treffen?"
 

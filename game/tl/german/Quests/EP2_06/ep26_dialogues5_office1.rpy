@@ -1170,5 +1170,5 @@ translate german ep26_dialogues5_office1_1a2_30f0f65f:
     biff "Hör auf wie eine Hure auszusehen, während du hier bist!"
     biff "Ich weiß dass du auch normale Sachen hast!"
     biff "Daddy zahlt ja genug!"
-    help "Для продолжения сюжета нужно красивое платье ({c}сюжет со Стивом{/c})"
+    help "Monica braucht ein schönes Kleid, um diesen Handlungsstrang weiter zu gehen ({c}Steve's Storyline{/c})"
 

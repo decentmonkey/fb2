@@ -2264,7 +2264,7 @@ translate english dialogue_betty_college_8_fa92f2be:
     betty_t "It’s easier to agree."
     betty "I haven't forgotten..."
     betty "I just had no time to do this."
-    betty "I'll go to college and talk to the teacher."
+    betty "I'll go to the college and talk to the teacher."
 
 translate english strings:
 

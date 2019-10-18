@@ -34,5 +34,5 @@ translate german strings:
 translate german EP22_Quests_Bardie6_panties_box_3bc14ec4:
 
     # mt "Я не могу одеть никакие трусики под эти обтягивающие шорты..."
-    mt "Я не могу одеть никакие трусики под эти обтягивающие шорты..."
+    mt "Ich kann unter diesen engen Shorts keine Höschen tragen..."
 

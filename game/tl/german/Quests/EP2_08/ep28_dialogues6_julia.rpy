@@ -62,7 +62,7 @@ translate german ep28_dialogues6_julia_1_12d102dc:
     # fred "Если вы, Миссис Бакфетт, откажетесь играть в мою небольшую профессиональную игру..."
     # fred "То вы быстро перестанете быть боссом..."
     fred "Wenn sie, Frau Buckfett, sich weigern, in meinem professionellen Spiel mit zu machen..."
-    fred "То вы быстро перестанете быть боссом..."
+    fred "Dann wirst du aufhören, der Boss zu sein..."
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:43
 translate german ep28_dialogues6_julia_1_29a4f6ab:
@@ -283,7 +283,7 @@ translate german ep28_dialogues6_julia_3_4ca36089:
     m "Gib ihn mir!" 
     julia "Gut, Frau Buckfett. Wo ist er?"
     m "Der Ordner ist im Schrank, Regal ganz oben."
-    julia "F-F-Frau Buckfett... Da sind keine Ordner oder Dokumente... Nur Regale..."
+    julia "F-F-Frau Buckfett... Da sind keine Ordner oder Dokumente... Auf den Regalen..."
     mt "..."
     m "Julia! Ich sage dir, dass der Ordner da ist! Bring ihn mir endlich!" 
     m "Schnell!!!"
@@ -1156,7 +1156,7 @@ translate german ep28_dialogues6_julia_3_db9333b5:
 translate german ep28_dialogues6_julia_3_996373da:
 
     # julia "М-м-Миссис Бакфетт... Там на полках... Там нет никаких папок и документов..."
-    julia "F-F-Frau Buckfett... Da sind keine Ordner oder Dokumente... Nur Regale..."
+    julia "F-F-Frau Buckfett... Da sind keine Ordner oder Dokumente... Auf den Regalen..."
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:343
 translate german ep28_dialogues6_julia_3_72c4389d:

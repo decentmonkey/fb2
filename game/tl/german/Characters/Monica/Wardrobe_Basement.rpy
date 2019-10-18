@@ -174,5 +174,5 @@ translate german strings:
 
     # game/Characters/Monica/Wardrobe_Basement.rpy:19
     old "Одежда Домохозяйки."
-    new "Одежда Домохозяйки."
+    new "Hausfrauen Outfit."
 

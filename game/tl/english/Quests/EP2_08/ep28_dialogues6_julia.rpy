@@ -62,7 +62,7 @@ translate english ep28_dialogues6_julia_1_12d102dc:
     # fred "Если вы, Миссис Бакфетт, откажетесь играть в мою небольшую профессиональную игру..."
     # fred "То вы быстро перестанете быть боссом..."
     fred "If you, Mrs. Buckfett, refuse to play my small professional game..."
-    fred "Then you will quickly stop to be the boss..."
+    fred "Then you will quickly stop being the boss..."
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:43
 translate english ep28_dialogues6_julia_1_29a4f6ab:

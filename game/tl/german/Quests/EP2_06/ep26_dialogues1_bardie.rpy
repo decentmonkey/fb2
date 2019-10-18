@@ -1805,14 +1805,14 @@ translate german ep26_dialogues1_bardie12_e150214a:
 
     # bardie "И ты еще не закончила решать мои проблемы в колледже..."
     # bardie "Ты не забыла про них?"
-    bardie "И ты еще не закончила решать мои проблемы в колледже..."
-    bardie "Ты не забыла про них?"
+    bardie "Du bist noch nicht fertig, meine Probleme im College zu lösen..."
+    bardie "Hast du sie vergessen?"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1901
 translate german ep26_dialogues1_bardie12_ff30213d:
 
     # betty "Я завтра пойду в колледж..."
-    betty "Я завтра пойду в колледж..."
+    betty "Ich gehe morgen in das College..."
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1904
 translate german ep26_dialogues1_bardie12_f2060836:
@@ -1824,5 +1824,5 @@ translate german strings:
 
     # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1898
     old "Я завтра пойду в колледж..."
-    new "Я завтра пойду в колледж..."
+    new "Ich gehe morgen in das College..."
 

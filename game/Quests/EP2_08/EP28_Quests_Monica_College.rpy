@@ -140,7 +140,6 @@ label ep28_monica_bardie_eric_college3_shop: # Моника заходит в м
         call dialogue_classmate_2_1a() from _call_dialogue_classmate_2_1a
         return False
     call dialogue_classmate_3_1() from _call_dialogue_classmate_3_1
-    $ _return = 1
     if _return == 0: # Моника отказалась заходить в магазин
         return False
     if _return == 1 or _return == 4:
@@ -166,7 +165,9 @@ label ep28_monica_bardie_eric_college3_shop: # Моника заходит в м
         call wardrobeBasementPutUpSchoolOutfit1() from _call_wardrobeBasementPutUpSchoolOutfit1
 
         $ autorun_to_object("dialogue_classmate_3_2", scene="street_cloth_shop")
-        $ add_corruption(monicaVivianSchoolOutfitLickBuy, "monicaVivianSchoolOutfitLickBuy")
+
+        if _return == 4:
+            $ add_corruption(monicaVivianSchoolOutfitLickBuy, "monicaVivianSchoolOutfitLickBuy")
     if _return == 3:
         $ autorun_to_object("dialogue_classmate_3_1_1b", scene="street_cloth_shop")
     music stop

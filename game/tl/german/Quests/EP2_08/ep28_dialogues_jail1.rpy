@@ -5736,21 +5736,21 @@ translate german strings:
 
     # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:154
     old "День 1"
-    new "День 1"
+    new "Tag 1"
 
     # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1167
     old "День 2"
-    new "День 2"
+    new "Tag 2"
 
     # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1866
     old "День 3"
-    new "День 3"
+    new "Tag 3"
 
     # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:2955
     old "День 4"
-    new "День 4"
+    new "Tag 4"
 
     # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:3012
     old "Моника подчинилась заключенным."
-    new "Моника подчинилась заключенным."
+    new "Monica hat getan, was die gefangenen wollten."
 

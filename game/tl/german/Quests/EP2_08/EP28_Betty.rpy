@@ -4,5 +4,5 @@ translate german strings:
 
     # game/Quests/EP2_08/EP28_Betty.rpy:36
     old "КОЛЛЕДЖ"
-    new "КОЛЛЕДЖ"
+    new "COLLEGE"
 

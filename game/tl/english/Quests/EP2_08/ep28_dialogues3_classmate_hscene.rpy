@@ -2484,7 +2484,7 @@ translate english dialogue_classmate_1b_c22f74e6:
     # mt "Надо {c}идти к нему в комнату{/c}..."
     bardie "Governess! Governess!!!"
     mt "This little thing is calling me!"
-    mt "I need {c}go to his room{/c}..."
+    mt "I need to {c}go to his room{/c}..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:73
 translate english dialogue_classmate_1c_87642534:
@@ -2492,7 +2492,7 @@ translate english dialogue_classmate_1c_87642534:
     # mt "Меня зовет эта малявка Барди!"
     # mt "Надо {c}идти к нему в комнату{/c}..."
     mt "This little thing is calling me!"
-    mt "I need {c}go to his room{/c}..."
+    mt "I need to {c}go to his room{/c}..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:86
 translate english dialogue_classmate_1a_edb1630d:
@@ -3468,7 +3468,7 @@ translate english dialogue_classmate_2_a1664218:
 translate english dialogue_classmate_2_1a_1e33ce40:
 
     # mt "Мне лучше идти туда в уличной одежде, которая наиболее подходит для этого жуткого района..."
-    mt "I better go there in the street clothes that are most suitable for this creepy area..."
+    mt "I better go there in my street clothes. They are very suitable for this creepy area..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1063
 translate english dialogue_classmate_3_1_399f2083:
@@ -3757,7 +3757,7 @@ translate english dialogue_classmate_3_1_1a_19279faa:
     # mt "Которые только и мечтают, чтобы изнасиловать приличную домохозяйку..."
     # mt "Я не пойду туда!"
     mt "There are all the perverts in this area."
-    mt "Who only dream of raping a decent housewife..."
+    mt "Who only dreams of raping a decent housewife..."
     mt "I won’t go there!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1358
@@ -4462,7 +4462,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1258
     old "Поцеловать животик ниже."
-    new "Kiss the belly below."
+    new "Kiss the belly lower."
 
     # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1291
     old "Поцеловать животик еще ниже."

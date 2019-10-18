@@ -1803,16 +1803,16 @@ translate german ep28_dialogues_jail2_marcus2_4cccf7f1:
     # marcus "Вы подобрали правильный цвет платья..."
     # marcus "Должен признать, что Вы действительно разбираетесь в моде."
     marcus "Oh, Frau Buckfett..."
-    marcus "Вы подобрали правильный цвет платья..."
-    marcus "Должен признать, что Вы действительно разбираетесь в моде."
+    marcus "Sie haben die richtige Farbe für das Kleid ausgewählt..."
+    marcus "Ich muss zugeben, dass sie sich mit Mode wirklich auskennen."
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:1089
 translate german ep28_dialogues_jail2_marcus2_5d83dd59:
 
     # marcus "Ваша интуиция позволяет Вам соблюсти правильное сочетание цветов в любой ситуации."
     # marcus "Даже в той, которую Вы не можете предугадать заранее."
-    marcus "Ваша интуиция позволяет Вам соблюсти правильное сочетание цветов в любой ситуации."
-    marcus "Даже в той, которую Вы не можете предугадать заранее."
+    marcus "Ihre Intuition erlaubt es ihnen, in jeder Situation die richtigen Farbkombinationen zu finden."
+    marcus "Selbst in dem, welches nicht sehr vorteilhaft für sie ist."
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:1151
 translate german ep28_dialogues_jail2_marcus2_f46998b4:
@@ -1896,5 +1896,5 @@ translate german ep28_dialogues_jail2_marcus3_fbeeedc4:
     mt "Aber warum?!"
     mt "Mein Hintern tut weh..."
     mt "Aber ich bin froh, wieder frei zu sein!"
-    help "Продолжение истории с Маркусом в следующих обновлениях игры!"
+    help "Die Geschichte mit Marcus geht in den nächsten Updates weiter!"
 

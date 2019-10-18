@@ -1346,5 +1346,5 @@ translate german strings:
 
     # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:2
     old "Отношения с Юлией... (disabled)"
-    new "Отношения с Юлией... (disabled)"
+    new "Beziehung mit Julia... (disabled)"
 

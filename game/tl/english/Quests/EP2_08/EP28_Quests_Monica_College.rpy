@@ -18,7 +18,7 @@ translate english strings:
 
     # game/Quests/EP2_08/EP28_Quests_Monica_College.rpy:104
     old "Найти наряд, чтобы притвориться мамой Эрика"
-    new "Find an outfit to pretend to be Eric's mom"
+    new "Find an outfit for pretending to be Eric's mom"
 
     # game/Quests/EP2_08/EP28_Quests_Monica_College.rpy:149
     old "Уладить проблему Эрика в колледже"

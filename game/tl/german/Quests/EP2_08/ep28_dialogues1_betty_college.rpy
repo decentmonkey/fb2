@@ -2128,13 +2128,13 @@ translate german dialogue_betty_college_1_1a_1de6ed47:
 translate german dialogue_betty_college_1_1r_f2c89acf:
 
     # betty_t "Как в этом вообще можно разбираться?"
-    betty_t "Как в этом вообще можно разбираться?"
+    betty_t "Wie soll man das verstehen?"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:377
 translate german dialogue_betty_college_1_1s_b7e1a931:
 
     # betty_t "Всегда не любила учиться. У меня только одно желание, когда вижу колледж - поскорее уйти отсюда."
-    betty_t "Всегда не любила учиться. У меня только одно желание, когда вижу колледж - поскорее уйти отсюда."
+    betty_t "Ich mochte es noch nie zu lernen. Wenn ich das College sehe habe ich einen einzigen Wunsch - So schnell wie möglich wieder raus zu kommen."
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:385
 translate german dialogue_betty_college_1_1_2_b0325143:
@@ -2241,16 +2241,16 @@ translate german dialogue_betty_college_8_62b3d9b5:
     # betty "???"
     # bardie "Ты отказалась решить мою проблему в колледже!"
     # betty "..."
-    bardie "Я крайне недоволен тем, как ты себя ведешь!" 
+    bardie "Ich bin zutiefst unzufrieden, so wie du dich benimmst!" 
     betty "???"
-    bardie "Ты отказалась решить мою проблему в колледже!"
+    bardie "Du wolltest meine Collegeprobleme nicht lösen!"
     betty "..."
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:2225
 translate german dialogue_betty_college_8_516d725b:
 
     # betty_t "Пусть сам разбирается со своими проблемами..."
-    betty_t "Пусть сам разбирается со своими проблемами..."
+    betty_t "Lasse ihn selbst mit den Problemen klarkommen!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:2228
 translate german dialogue_betty_college_8_fa92f2be:
@@ -2260,19 +2260,19 @@ translate german dialogue_betty_college_8_fa92f2be:
     # betty "Я не забыла..."
     # betty "Просто мне было некогда этим заниматься."
     # betty "Я схожу в колледж и поговорю с учителем."
-    betty_t "Черт! Он теперь не отстанет от меня!"
-    betty_t "Проще согласиться."
-    betty "Я не забыла..."
-    betty "Просто мне было некогда этим заниматься."
-    betty "Я схожу в колледж и поговорю с учителем."
+    betty_t "Verdammt! Er wird mich nicht in Ruhe lassen!"
+    betty_t "Es ist einfacher, zuzustimmen."
+    betty "Ich habe sie nicht vergesseb..."
+    betty "Ich hatte nur bisher keine Zeit."
+    betty "Ich gehe ins College und rede mit dem Dozenten."
 
 translate german strings:
 
     # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:2223
     old "Промолчать."
-    new "Промолчать."
+    new "Sage nichts"
 
     # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:2223
     old "Согласиться сходить в колледж."
-    new "Согласиться сходить в колледж."
+    new "Stimme zu, ins College zu gehen."
 

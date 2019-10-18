@@ -360,13 +360,13 @@ translate german strings:
 
     # game/00_Functions/07_init_renpy.rpy:52
     old "Заключенные"
-    new "Заключенные"
+    new "Gefangene"
 
     # game/00_Functions/07_init_renpy.rpy:67
     old "Эрик"
-    new "Эрик"
+    new "Eric"
 
     # game/00_Functions/07_init_renpy.rpy:75
     old "Мистер Эдвардс"
-    new "Мистер Эдвардс"
+    new "Mr. Edwards"
 

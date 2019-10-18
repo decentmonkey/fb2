@@ -54,3 +54,11 @@ translate english strings:
     old "Slums"
     new "Slums"
 
+# TODO: Translation updated at 2019-10-18 16:48
+
+translate english strings:
+
+    # game/Quests/Achievements.rpy:2
+    old "College"
+    new "College"
+

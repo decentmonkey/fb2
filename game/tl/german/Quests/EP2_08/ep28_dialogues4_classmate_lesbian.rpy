@@ -419,7 +419,7 @@ translate german dialogue_4_classmate_lesbian_1_9f55afd5:
 
     # bardie "Ты плохая гувернантка."
     # bardie "Плохую гувернантку хозяин должен наказать!"
-    bardie "Ты плохая гувернантка."
+    bardie "Du bist ein schlechtes Dienstmädchen."
     bardie "Ungehorsames Dienstmädchen müssen vom Herrn des Hauses bestraft werden!"
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:201
@@ -464,7 +464,7 @@ translate german dialogue_4_classmate_lesbian_1_0a5616b8:
 translate german dialogue_4_classmate_lesbian_1_007234ec:
 
     # bardie "Бетти, откинься назад, на кровать."
-    bardie "Бетти, откинься назад, на кровать."
+    bardie "Betty, leg dich auf das Bett."
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:238
 translate german dialogue_4_classmate_lesbian_1_f6819283:
@@ -546,7 +546,7 @@ translate german dialogue_4_classmate_lesbian_1_f8a3a4e4:
 translate german dialogue_4_classmate_lesbian_1_7d7eccbe:
 
     # betty "Ааааааххх..."
-    betty "Ааааааххх..."
+    betty "Ahhhh..."
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:347
 translate german dialogue_4_classmate_lesbian_1_643b60f5:
@@ -594,7 +594,7 @@ translate german dialogue_4_classmate_lesbian_1_8aab763b:
 translate german dialogue_4_classmate_lesbian_1_48659c42:
 
     # betty "Ты... Ты!... Ты...."
-    betty "Ты... Ты!... Ты...."
+    betty "Du...Du!...Du!!..."
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:453
 translate german dialogue_4_classmate_lesbian_1_04bcf4f5:

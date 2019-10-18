@@ -4,9 +4,9 @@ translate german strings:
 
     # game/Quests/EP2_08/EP28_Quests_Betty_College.rpy:50
     old "Уладить проблему Барди в колледже"
-    new "Уладить проблему Барди в колледже"
+    new "Löse Bardies Problem im College"
 
     # game/Quests/EP2_08/EP28_Quests_Betty_College.rpy:297
     old "Идти к Барди в комнату"
-    new "Идти к Барди в комнату"
+    new "Gehe zu Bardies Zimmer"
 

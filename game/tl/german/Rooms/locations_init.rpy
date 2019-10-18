@@ -200,5 +200,5 @@ translate german strings:
 
     # game/Rooms/locations_init.rpy:175
     old "КЛАСС БАРДИ"
-    new "КЛАСС БАРДИ"
+    new "BARDIES KURSRAUM"
 

@@ -2483,16 +2483,16 @@ translate german dialogue_classmate_1b_c22f74e6:
     # mt "Меня зовет эта малявка Барди!"
     # mt "Надо {c}идти к нему в комнату{/c}..."
     bardie "Dienstmädchen! Dienstmädchen!!!!"
-    mt "Меня зовет эта малявка Барди!"
-    mt "Надо {c}идти к нему в комнату{/c}..."
+    mt "Das kleine Ding ruft mich!"
+    mt "Ich muss {c}in sein Zimmer gehen{/c}..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:73
 translate german dialogue_classmate_1c_87642534:
 
     # mt "Меня зовет эта малявка Барди!"
     # mt "Надо {c}идти к нему в комнату{/c}..."
-    mt "Меня зовет эта малявка Барди!"
-    mt "Надо {c}идти к нему в комнату{/c}..."
+    mt "Das kleine Ding ruft mich!"
+    mt "Ich muss {c}in sein Zimmer gehen{/c}..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:86
 translate german dialogue_classmate_1a_edb1630d:
@@ -2944,7 +2944,7 @@ translate german dialogue_classmate_1a_48688880:
 translate german dialogue_classmate_1a_dbc489bb:
 
     # bardie "Хорошая гувернантка поднимает юбку!"
-    bardie "Хорошая гувернантка поднимает юбку!"
+    bardie "Ein gutes Dienstmädchen hebt ihren Rock an!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:517
 translate german dialogue_classmate_1a_29a4f6ab_6:
@@ -2956,7 +2956,7 @@ translate german dialogue_classmate_1a_29a4f6ab_6:
 translate german dialogue_classmate_1a_37990d34:
 
     # bardie "Плохая гувернантка будет наказана штрафом..."
-    bardie "Плохая гувернантка будет наказана штрафом..."
+    bardie "Die Schlechte wird bestraft werden..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:526
 translate german dialogue_classmate_1a_3a291a18:
@@ -3022,7 +3022,7 @@ translate german dialogue_classmate_1a_77e54e71:
 translate german dialogue_classmate_1a_2a6a5380:
 
     # m "Не смей!"
-    m "Не смей!"
+    m "Wage es nicht!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:640
 translate german dialogue_classmate_1a_0a5616b8_3:
@@ -3468,21 +3468,21 @@ translate german dialogue_classmate_2_a1664218:
 translate german dialogue_classmate_2_1a_1e33ce40:
 
     # mt "Мне лучше идти туда в уличной одежде, которая наиболее подходит для этого жуткого района..."
-    mt "Мне лучше идти туда в уличной одежде, которая наиболее подходит для этого жуткого района..."
+    mt "Ich gehe da besser in Straßenkleidung hin. Für diese gruselige Gegend sind die sehr bequem..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1063
 translate german dialogue_classmate_3_1_399f2083:
 
     # mt "В прошлый раз я не очень-то поладила с продавцом этого магазина."
     # mt "Стоит-ли мне рисковать заходить туда?"
-    mt "В прошлый раз я не очень-то поладила с продавцом этого магазина."
-    mt "Стоит-ли мне рисковать заходить туда?"
+    mt "Das letzte Mal kam ich mit der Verkäuferin nicht so gut klar."
+    mt "Sollte ich es riskieren, da nochmal hin zu gehen?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1071
 translate german dialogue_classmate_3_1_8653592b:
 
     # mt "Черт... Надеюсь она меня не вспомнит..." 
-    mt "Черт... Надеюсь она меня не вспомнит..." 
+    mt "Verdammt... Ich hoffe, sie erinnert sich nicht an mich..." 
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1083
 translate german dialogue_classmate_3_1_c638ea8d:
@@ -3496,29 +3496,29 @@ translate german dialogue_classmate_3_1_28bf3b36:
     # cashier "Здравствуйте! Да, конечно!"
     # cashier "Пройдемте за мной."
     cashier "Hallo, ja natürlich."
-    cashier "Пройдемте за мной."
+    cashier "Folge mir..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1099
 translate german dialogue_classmate_3_1_1e4170aa:
 
     # cashier "Вот, пожалуйста..."
-    cashier "Вот, пожалуйста..."
+    cashier "Da bist du..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1101
 translate german dialogue_classmate_3_1_dcd6b39e:
 
     # mt "Кажется, она не помнит меня..."
     # mt "Видимо я хорошо приложила эту дуру в прошлый раз..."
-    mt "Кажется, она не помнит меня..."
-    mt "Видимо я хорошо приложила эту дуру в прошлый раз..."
+    mt "Sieht so aus, als ob sie sich nicht mehr an mich erinnert..."
+    mt "Offenbar habe ich der Idiotin letztes Mal ziemlich eine mitgegeben..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1106
 translate german dialogue_classmate_3_1_dcd6b39e_1:
 
     # mt "Кажется, она не помнит меня..."
     # mt "Видимо я хорошо приложила эту дуру в прошлый раз..."
-    mt "Кажется, она не помнит меня..."
-    mt "Видимо я хорошо приложила эту дуру в прошлый раз..."
+    mt "Sieht so aus, als ob sie sich nicht mehr an mich erinnert..."
+    mt "Offenbar habe ich der Idiotin letztes Mal ziemlich eine mitgegeben..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1116
 translate german dialogue_classmate_3_1_e78340dd:
@@ -3636,7 +3636,7 @@ translate german dialogue_classmate_3_1_d4d6ec58:
 translate german dialogue_classmate_3_1_708e673d:
 
     # m "Я не собираюсь продолжать это!"
-    m "Я не собираюсь продолжать это!"
+    m "Ich werde das nicht weiter machen!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1248
 translate german dialogue_classmate_3_1_048f6dbe:
@@ -3662,7 +3662,7 @@ translate german dialogue_classmate_3_1_0a5616b8_1:
 translate german dialogue_classmate_3_1_708e673d_1:
 
     # m "Я не собираюсь продолжать это!"
-    m "Я не собираюсь продолжать это!"
+    m "Ich werde das nicht weiter machen!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1273
 translate german dialogue_classmate_3_1_05ad2398:
@@ -3698,7 +3698,7 @@ translate german dialogue_classmate_3_1_d019381a:
 translate german dialogue_classmate_3_1_708e673d_2:
 
     # m "Я не собираюсь продолжать это!"
-    m "Я не собираюсь продолжать это!"
+    m "Ich werde das nicht weiter machen!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1297
 translate german dialogue_classmate_3_1_ccba1a41:
@@ -3757,8 +3757,8 @@ translate german dialogue_classmate_3_1_1a_19279faa:
     # mt "Которые только и мечтают, чтобы изнасиловать приличную домохозяйку..."
     # mt "Я не пойду туда!"
     mt "All die Perversen sind in dieser Gegen."
-    mt "Которые только и мечтают, чтобы изнасиловать приличную домохозяйку..."
-    mt "Я не пойду туда!"
+    mt "Wer träumt nur davon, eine brave Hausfrau zu vergewaltigen?..."
+    mt "Da gehe ich nicht hin!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1358
 translate german dialogue_classmate_3_1_1b_0553b307:
@@ -3773,7 +3773,7 @@ translate german dialogue_classmate_3_1_1c_ce0ee594:
 
     # mt "Я не хочу шататься по городу в таком провинциальном виде..."
     # mt "Фи!"
-    mt "Я не хочу шататься по городу в таком провинциальном виде..."
+    mt "Ich will nicht in der Stadt in so einem Bauernoutfit rumlaufen..."
     mt "Pah!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1409
@@ -3798,23 +3798,23 @@ translate german dialogue_classmate_3_1_7_de3bc3af:
     # mt "Думаю, что не найду ничего более приемлимого в этом магазине. Только время зря потрачу."
     # mt "Это, конечно, лучше, чем тот ужас, в котором я хожу по этому району, но все-же..."
     mt "Ich denke nicht, dass ich was Besseres in diesem Laden finde. Ich vergeude nur meine Zeit."
-    mt "Это, конечно, лучше, чем тот ужас, в котором я хожу по этому району, но все-же..."
+    mt "Das ist natürlich besser als dieser Horror, mit dem ich in dieser Gegend sonst rumlaufe, dennoch..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1431
 translate german dialogue_classmate_3_2b_77e346b2:
 
     # mt "В этом платье я больше похожа на директора колледжа."
     # mt "Учитель не поверит, что у этого бестолкового Эрика такая сногсшибательная мама..."
-    mt "В этом платье я больше похожа на директора колледжа."
-    mt "Учитель не поверит, что у этого бестолкового Эрика такая сногсшибательная мама..."
+    mt "In diesem Kleid sehe ich eher aus wie ein Collegedirektor."
+    mt "Der Dozent glaubt mir doch nie, dass Eric eine so heiße Mam hat..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1438
 translate german dialogue_classmate_3_2bb_1f6d97f2:
 
     # mt "Возможно, мать этого сопляка и пошла бы в колледж в таком виде..."
     # mt "Но не Я!"
-    mt "Возможно, мать этого сопляка и пошла бы в колледж в таком виде..."
-    mt "Но не Я!"
+    mt "Vielleicht würde die Mutter von dem Trottel in diesem Outfit ins College kommen..."
+    mt "Aber ich sicher nicht!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1458
 translate german dialogue_classmate_3_2_2321e8fe:
@@ -3830,7 +3830,7 @@ translate german dialogue_classmate_3_2_2321e8fe:
     mt "Und mit ihr sprechen!"
     mt "Pah!"
     mt "..."
-    mt "Сейчас мне нужно идти в колледж."
+    mt "Jetzt muss ich ins College gehen."
     mt "Wenn ich was falsch mache, wird Bardie mich bestrafen und mir wieder mit Marcus drohen."
     mt "Besser, ich verscherze es mir mit dem Kleinen nicht nochmal."
 
@@ -3838,15 +3838,15 @@ translate german dialogue_classmate_3_2_2321e8fe:
 translate german dialogue_classmate_3_3h_1ee2eaaa:
 
     # mt "Можно всю жизнь учить эти дурацкие формулы и все равно не стать успешным и богатым... Такой, как я."
-    mt "Можно всю жизнь учить эти дурацкие формулы и все равно не стать успешным и богатым... Такой, как я."
+    mt "Du kannst dein ganzes Leben diese dummen Formeln lernen und dennoch nicht erfolgreich und reich werden... so wie ich."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1516
 translate german dialogue_classmate_3_3i_c72cadc7:
 
     # mt "Поверить не могу! Я, Моника Бакфетт, должна идти в этот дурацкий колледж!"
     # mt "Да еше и притворяться там матерью какого-то малявки!!!"
-    mt "Поверить не могу! Я, Моника Бакфетт, должна идти в этот дурацкий колледж!"
-    mt "Да еше и притворяться там матерью какого-то малявки!!!"
+    mt "Ich fasse es nicht, ich, Monica Buckfett, muss in dieses dumme College!"
+    mt "Ja, und dann auch noch vorgeben, ich sei die Mutter von einem von diesen Losern!!!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1537
 translate german dialogue_classmate_4a_77baa78d:
@@ -3856,11 +3856,11 @@ translate german dialogue_classmate_4a_77baa78d:
     # mt "Нет, Я, конечно, хочу занять ее место, потому что оно МОЕ!"
     # mt "Но без этого тюфяка Ральфа."
     # mt "Это мой дом! И только мой!"
-    mt "Мне лучше не показываться в этом провинциальном наряде перед Бетти."
-    mt "Эта дура подумает что я хочу занять ее место рядом с Ральфом."
-    mt "Нет, Я, конечно, хочу занять ее место, потому что оно МОЕ!"
-    mt "Но без этого тюфяка Ральфа."
-    mt "Это мой дом! И только мой!"
+    mt "Ich zeige mich in diesem Provinzkleid besser nicht vor Betty."
+    mt "Diese Närrin wird denken, ich will ihren Platz und Ralph ausspannen."
+    mt "Nein, natürlich will ich ihren Platz, weil es MEINER ist!"
+    mt "Aber ohne Ralph, diese Matratze."
+    mt "Das ist mein Haus! Nur meins!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1852
 translate german dialogue_classmate_5_1b_4e08e0e3:
@@ -4446,25 +4446,25 @@ translate german strings:
 
     # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:521
     old "Сделать что говорит Барди."
-    new "Сделать что говорит Барди."
+    new "Mache, was Bardie sagt."
 
     # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1065
     old "Зайти в магазин."
-    new "Зайти в магазин."
+    new "Betrete den Laden."
 
     # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1115
     old "Моника работала манекеном"
-    new "Моника работала манекеном"
+    new "Monica hat als Mannequin gearbeitet."
 
     # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1227
     old "Поцеловать животик."
-    new "Поцеловать животик."
+    new "Küsse den Bauch."
 
     # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1258
     old "Поцеловать животик ниже."
-    new "Поцеловать животик ниже."
+    new "Küsse den Bauch weiter unten."
 
     # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1291
     old "Поцеловать животик еще ниже."
-    new "Поцеловать животик еще ниже."
+    new "Küsse den Bauch noch weiter unten."
 

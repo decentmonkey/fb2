@@ -1806,7 +1806,7 @@ translate english ep26_dialogues1_bardie12_e150214a:
     # bardie "И ты еще не закончила решать мои проблемы в колледже..."
     # bardie "Ты не забыла про них?"
     bardie "And you have not finished solving my problems in college..."
-    bardie "Have you forgotten about them?"
+    bardie "Have you forgotten them?"
 
 # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1901
 translate english ep26_dialogues1_bardie12_ff30213d:
