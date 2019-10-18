@@ -344,3 +344,11 @@ translate english strings:
     old "Мелани советует мне самой придти к Маркусу. Якобы это может помочь... Готова-ли Я на это пойти и что меня ждет?"
     new "Melanie advises me to go to Marcus. She says it might help me... Am I really going to do it?"
 
+# TODO: Translation updated at 2019-10-18 04:27
+
+translate english strings:
+
+    # game/Quests/Question_Helper_Info.rpy:125
+    old "Маркус ждет меня снова... Смогу-ли я решиться снова навестить его?"
+    new "Marcus is waiting for me again ... Will I be able to decide to visit him again?"
+

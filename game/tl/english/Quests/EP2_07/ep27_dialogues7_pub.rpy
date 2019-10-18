@@ -2182,9 +2182,9 @@ translate english ep27_dialogues7_pub8_023485b8:
     # ashley "Здесь больше нет для тебя работы!"
     # ashley "И я не буду тебя обслуживать даже за деньги!"
     m "!!!"
-    mt "Черт! Мне нужно убедить ее, что я не забирала деньги."
-    mt "Только, как это сделать?"
-    mt "Эта Эшли все равно мне не поверит."
+    mt "Fuck! I need to convince her that I didn't take the money."
+    mt "But how to do it?"
+    mt "That Ashley wouldn't believe me anyway."
     mt "..."
     ashley "What are you looking at? Get out of here!"
     ashley "No more work here for you!"
@@ -2195,20 +2195,20 @@ translate english ep27_dialogues7_pub8_0589f2f1:
 
     # mt "Мне нужна эта работа..."
     # mt "Может, если я извинюсь, у меня получится с ней договориться?"
-    mt "Мне нужна эта работа..."
-    mt "Может, если я извинюсь, у меня получится с ней договориться?"
+    mt "I need this job..."
+    mt "Maybe if I apologize, I can make a deal with her."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:393
 translate english ep27_dialogues7_pub8_926ad131:
 
     # mt "Я не собираюсь терпеть такое хамское отношение ко мне!"
     # mt "С меня хватит!"
-    mt "Я не собираюсь терпеть такое хамское отношение ко мне!"
+    mt "I'm not going to tolerate such a boorish attitude towards me!"
     mt "That's enough!"
 
 translate english strings:
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:452
     old "Идти танцевать на сцену"
-    new "Идти танцевать на сцену"
+    new "Go dance on the stage."
 

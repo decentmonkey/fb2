@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "EP2-v0.7-Extra-fix2"
+define config.version = "EP2-v0.8-Extra"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -34,9 +34,15 @@ Thanks to:
 
 Ragnaroekr
 
+Keks
+
 Abelardo
 
 Jetvoice
+
+Joe Swenson
+
+Miguel
 
 Prometheus
 
@@ -48,9 +54,9 @@ The big Dog
 
 for great support!
 
-Meli_x3, Koskesh, Ragnaroekr, GND53 and ColdBlade for English correction
+Ragnaroekr, Meli_x3, Koskesh, GND53 and ColdBlade for English correction
 
-Ragnaroekr and BruceLee73
+Ragnaroekr, Keks and BruceLee73
 for German translation
 
 renpytom (Tom Rothamel) for the Ren'Py Game Engine

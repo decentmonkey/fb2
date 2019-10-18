@@ -44,7 +44,7 @@ translate english strings:
 translate english low_corruption_d8229b96:
 
     # help "Not enough corruption! Required [requiredCorruption]."
-    help "Not enough corruption! Required [requiredCorruption]."
+    help "Not enough corruption! Requires [requiredCorruption]."
 
 # TODO: Translation updated at 2019-02-28 21:29
 

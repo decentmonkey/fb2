@@ -1770,9 +1770,9 @@ translate english strings:
 
     # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:437
     old "Итак, Стив! Ответь мне!"
-    new "Итак, Стив! Ответь мне!"
+    new "So, Steve! Answer me!"
 
     # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:437
     old "Ты собираешься переводить мне деньги, Стив?"
-    new "Ты собираешься переводить мне деньги, Стив?"
+    new "Are you going to transfer the money or not?"
 

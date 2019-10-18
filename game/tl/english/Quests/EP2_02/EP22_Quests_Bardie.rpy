@@ -28,3 +28,11 @@ translate english strings:
     old "Барди имеет полный доступ к трусикам Моники."
     new "Bardie has full access to Monica's panties at any time."
 
+# TODO: Translation updated at 2019-10-18 04:27
+
+# game/Quests/EP2_02/EP22_Quests_Bardie.rpy:149
+translate english EP22_Quests_Bardie6_panties_box_3bc14ec4:
+
+    # mt "Я не могу одеть никакие трусики под эти обтягивающие шорты..."
+    mt "I can’t wear any panties under these tight shorts..."
+

@@ -1340,3 +1340,11 @@ translate german strings:
     old "Ущипнуть Юлию."
     new "Piekse Julia."
 
+# TODO: Translation updated at 2019-10-18 04:32
+
+translate german strings:
+
+    # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:2
+    old "Отношения с Юлией... (disabled)"
+    new "Отношения с Юлией... (disabled)"
+

@@ -344,3 +344,11 @@ translate german strings:
     old "Мелани советует мне самой придти к Маркусу. Якобы это может помочь... Готова-ли Я на это пойти и что меня ждет?"
     new "Melanie hat mir geraten, zu Marcus zu gehen. Sie sagte, es könnte helfen... Will ich das wirklich?"
 
+# TODO: Translation updated at 2019-10-18 04:32
+
+translate german strings:
+
+    # game/Quests/Question_Helper_Info.rpy:125
+    old "Маркус ждет меня снова... Смогу-ли я решиться снова навестить его?"
+    new "Маркус ждет меня снова... Смогу-ли я решиться снова навестить его?"
+

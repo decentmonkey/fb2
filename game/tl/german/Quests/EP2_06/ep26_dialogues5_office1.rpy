@@ -1156,3 +1156,19 @@ translate german strings:
     old "Не целовать его."
     new "Küsse ihn nicht."
 
+# TODO: Translation updated at 2019-10-18 04:32
+
+# game/Quests/EP2_06/ep26_dialogues5_office1.rpy:25
+translate german ep26_dialogues5_office1_1a2_30f0f65f:
+
+    # biff "Эй, цыпочка!"
+    # biff "Хватит ходить здесь как шлюха!"
+    # biff "Я знаю, у тебя есть нормальное платье!"
+    # biff "Папочка тебе достаточно платит!"
+    # help "Для продолжения сюжета нужно красивое платье ({c}сюжет со Стивом{/c})"
+    biff "Hey, Babe!"
+    biff "Hör auf wie eine Hure auszusehen, während du hier bist!"
+    biff "Ich weiß dass du auch normale Sachen hast!"
+    biff "Daddy zahlt ja genug!"
+    help "Для продолжения сюжета нужно красивое платье ({c}сюжет со Стивом{/c})"
+

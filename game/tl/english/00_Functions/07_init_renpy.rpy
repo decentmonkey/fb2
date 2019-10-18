@@ -354,3 +354,19 @@ translate english strings:
     old "Посетитель"
     new "Visitor"
 
+# TODO: Translation updated at 2019-10-18 04:27
+
+translate english strings:
+
+    # game/00_Functions/07_init_renpy.rpy:52
+    old "Заключенные"
+    new "Prisoners"
+
+    # game/00_Functions/07_init_renpy.rpy:67
+    old "Эрик"
+    new "Eric"
+
+    # game/00_Functions/07_init_renpy.rpy:75
+    old "Мистер Эдвардс"
+    new "Mr. Edwards"
+

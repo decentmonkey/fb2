@@ -62,3 +62,11 @@ translate english strings:
     old "Thanks to:\n\nRagnaroekr\n\nAbelardo\n\nJetvoice\n\nPrometheus\n\nRonny schönherr\n\nStefan Kemske\n\nThe big Dog\n\nfor great support!\n\nMeli_x3, Koskesh, Ragnaroekr, GND53 and ColdBlade for English correction\n\nRagnaroekr and BruceLee73 for German translation\n\nrenpytom (Tom Rothamel) for the Ren'Py Game Engine\n\nThis game made under the inspiration of Terebonkoff Studio creations.\n\n"
     new "Thanks to:\n\nRagnaroekr\n\nAbelardo\n\nJetvoice\n\nPrometheus\n\nRonny schönherr\n\nStefan Kemske\n\nThe big Dog\n\nfor great support!\n\nMeli_x3, Koskesh, Ragnaroekr, GND53 and ColdBlade for English correction\n\nRagnaroekr and BruceLee73 for German translation\n\nrenpytom (Tom Rothamel) for the Ren'Py Game Engine\n\nThis game made under the inspiration of Terebonkoff Studio creations.\n\n"
 
+# TODO: Translation updated at 2019-10-18 04:31
+
+translate english strings:
+
+    # game/01_Resolution_Config/options.rpy:32
+    old "Thanks to:\n\nRagnaroekr\n\nKeks\n\nAbelardo\n\nJetvoice\n\nJoe Swenson\n\nMiguel\n\nPrometheus\n\nRonny schönherr\n\nStefan Kemske\n\nThe big Dog\n\nfor great support!\n\nRagnaroekr, Meli_x3, Koskesh, GND53 and ColdBlade for English correction\n\nRagnaroekr, Keks and BruceLee73 for German translation\n\nrenpytom (Tom Rothamel) for the Ren'Py Game Engine\n\nThis game made under the inspiration of Terebonkoff Studio creations.\n\n"
+    new "Thanks to:\n\nRagnaroekr\n\nKeks\n\nAbelardo\n\nJetvoice\n\nJoe Swenson\n\nMiguel\n\nPrometheus\n\nRonny schönherr\n\nStefan Kemske\n\nThe big Dog\n\nfor great support!\n\nRagnaroekr, Meli_x3, Koskesh, GND53 and ColdBlade for English correction\n\nRagnaroekr, Keks and BruceLee73 for German translation\n\nrenpytom (Tom Rothamel) for the Ren'Py Game Engine\n\nThis game made under the inspiration of Terebonkoff Studio creations.\n\n"
+

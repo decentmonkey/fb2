@@ -42,8 +42,8 @@ translate english street_police_environment2_65da624e:
     # mt "TO PROTECT AND SERVE THE RICH"
     # "JAIL THE HOMELESS"
     # "О БОЖЕ!!!"
-    mt "TO PROTECT AND SERVE THE RICH"
-    "JAIL THE HOMELESS"
+    mt "PROTECT AND SERVE THE RICH"
+    "PRISON FOR THE HOMELESS"
     "Oh my God!!!"
 
 translate english strings:

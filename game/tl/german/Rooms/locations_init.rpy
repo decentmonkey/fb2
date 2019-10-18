@@ -194,3 +194,11 @@ translate german strings:
     old "Restaurant"
     new "Restaurant"
 
+# TODO: Translation updated at 2019-10-18 04:32
+
+translate german strings:
+
+    # game/Rooms/locations_init.rpy:175
+    old "КЛАСС БАРДИ"
+    new "КЛАСС БАРДИ"
+

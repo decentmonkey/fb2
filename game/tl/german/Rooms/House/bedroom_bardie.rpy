@@ -25,7 +25,7 @@ translate german bedroom_bardie_environment_215a7c63:
 
     # mt "Стул Барди..."
     # "Хорошо бы он свалился с него!!!"
-    mt "Bardys Stuhl..."
+    mt "Bardies Stuhl..."
     "Ich wünschte, er wäre damit umgekippt!!!"
 
 # game/Rooms/House/bedroom_bardie.rpy:53

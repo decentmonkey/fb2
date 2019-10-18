@@ -167,3 +167,11 @@ translate english strings:
     old "Переодеться в одежду шлюхи."
     new "Put on whore's clothes."
 
+# TODO: Translation updated at 2019-10-18 04:27
+
+translate english strings:
+
+    # game/Characters/Monica/Wardrobe_Basement.rpy:19
+    old "Одежда Домохозяйки."
+    new "Housewives clothing."
+

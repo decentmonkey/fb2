@@ -991,14 +991,14 @@ translate german cit1_2_grooping_first_11ebf3f7:
 
     # citizen1 "Тетя, мы столько времени на тебя смотрели!"
     # citizen1 "Хотим тебя потрогать!"
-    citizen1 "Тетя, мы столько времени на тебя смотрели!"
-    citizen1 "Хотим тебя потрогать!"
+    citizen1 "Tante, wir haben dich jetzt schon so lange angeschaut!"
+    citizen1 "Wie wollen dich berühren!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:817
 translate german cit1_2_grooping_first_7bf6076f:
 
     # m "А я не хочу!"
-    m "А я не хочу!"
+    m "Aber ich will das nicht."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:821
 translate german cit1_2_grooping_first_bcbec9a1:
@@ -1006,9 +1006,9 @@ translate german cit1_2_grooping_first_bcbec9a1:
     # mt "Я заберу все ваши деньги! И не разденусь!"
     # mt "Не собираюсь раздеваться при этих болванах."
     # mt "Но мне надо как-то получить от них деньги."
-    mt "Я заберу все ваши деньги! И не разденусь!"
-    mt "Не собираюсь раздеваться при этих болванах."
-    mt "Но мне надо как-то получить от них деньги."
+    mt "Ich werde all euer Geld nehmen! Und mich dafür nicht ausziehen."
+    mt "Ich werde mich vor diesen Trotteln nicht ausziehen."
+    mt "Aber ich muss irgendwie Geld aus ihnen saugen."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:825
 translate german cit1_2_grooping_first_ac2cc93e:
@@ -1016,53 +1016,53 @@ translate german cit1_2_grooping_first_ac2cc93e:
     # m "Сколько вы заплатите?"
     # m "Я хочу 100 долларов! И не меньше!"
     m "Wie viel zahlen Sie?"
-    m "Я хочу 100 долларов! И не меньше!"
+    m "Ich will 100 $. Nicht weniger."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:828
 translate german cit1_2_grooping_first_5df89dee:
 
     # citizen1 "Тетя, ты нас обижаешь! У нас нет таких денег..."
     # citizen1 "Только ради твоей жопы и классных сисек я готов предложить тебе двойной тариф!"
-    citizen1 "Тетя, ты нас обижаешь! У нас нет таких денег..."
-    citizen1 "Только ради твоей жопы и классных сисек я готов предложить тебе двойной тариф!"
+    citizen1 "Tante, du verletzt uns! Soviel Geld haben wir nicht..."
+    citizen1 "Für deinen Arsch und die heißen Titten biete ich das Doppelte an wie sonst!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:831
 translate german cit1_2_grooping_first_037d99f3:
 
     # m "Что еще за тариф?!"
-    m "Что еще за тариф?!"
+    m "Das Doppelte?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:833
 translate german cit1_2_grooping_first_5a5a34e2:
 
     # citizen1 "Тетя, все очень просто!"
     # citizen1 "Мы платим тебе доллар, а при двойном тарифе платим два. Понятно?"
-    citizen1 "Тетя, все очень просто!"
-    citizen1 "Мы платим тебе доллар, а при двойном тарифе платим два. Понятно?"
+    citizen1 "Ganz einfach!"
+    citizen1 "Wir zahlen dir einen Dollar, das Doppelte heißt 2 Dollar, Verstanden?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:836
 translate german cit1_2_grooping_first_d18838f6:
 
     # m "Понятно."
-    m "Понятно."
+    m "Verstanden..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:838
 translate german cit1_2_grooping_first_0712a47b:
 
     # mt "Надо сделать так, чтобы эти идиоты заплатили как можно больше!"
-    mt "Надо сделать так, чтобы эти идиоты заплатили как можно больше!"
+    mt "Ich muss diese Idioten dazu bewegen, so viel wie möglich zu zahlen!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:840
 translate german cit1_2_grooping_first_4ffc6681:
 
     # m "Этого не достаточно!"
-    m "Этого не достаточно!"
+    m "Das ist nicht genug!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:842
 translate german cit1_2_grooping_first_6041e0b4:
 
     # citizen1 "Не достаточно для чего? Да на эти деньги ты здесь купишь много всего! Чего только стоит изумительная шаверма у Мамеда... Или Архимеда... Короче ты его знаешь!"
-    citizen1 "Не достаточно для чего? Да на эти деньги ты здесь купишь много всего! Чего только стоит изумительная шаверма у Мамеда... Или Архимеда... Короче ты его знаешь!"
+    citizen1 "Nicht genug für was? Damit kannst du dir hier eine Menge Sachen kaufen! Zum Beispiel einen Döner bei Mahmad, oder Archimedes... egal, du kennst ihn."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:844
 translate german cit1_2_grooping_first_63253b7b:
@@ -1074,97 +1074,97 @@ translate german cit1_2_grooping_first_63253b7b:
 translate german cit1_2_grooping_first_52ab6173:
 
     # citizen1 "Ох, ладно, тройной тариф, но мы будем это делать одновременно с братом!"
-    citizen1 "Ох, ладно, тройной тариф, но мы будем это делать одновременно с братом!"
+    citizen1 "Oh, ok, ich verdreifache, aber wir machen es gleichzeitig mit meinem Bruder!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:848
 translate german cit1_2_grooping_first_24f63d7b:
 
     # m "Что!?" 
-    m "Что!?" 
+    m "Was?!" 
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:850
 translate german cit1_2_grooping_first_033f23af:
 
     # mt "Да кем они себя возомнили? Чтобы меня трогали эти грязные панки?! Да еще и вдвоем?!"
-    mt "Да кем они себя возомнили? Чтобы меня трогали эти грязные панки?! Да еще и вдвоем?!"
+    mt "Was denken die, wer sie sind? Gleichzeitig von den Punks betatscht werden?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:857
 translate german cit1_2_grooping_first_2d912787:
 
     # m "Что? Да ни за что!"
-    m "Что? Да ни за что!"
+    m "Was? Niemals!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:860
 translate german cit1_2_grooping_first_bec13276:
 
     # mt "Думаю, они могут заплатить больше..."
-    mt "Думаю, они могут заплатить больше..."
+    mt "Ich glaube, die können mehr zahlen..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:862
 translate german cit1_2_grooping_first_c531d0fb:
 
     # m "Четверной тариф!"
-    m "Четверной тариф!"
+    m "Vervierfacht es!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:865
 translate german cit1_2_grooping_first_94b9bccb:
 
     # citizen1 "А ты бизнес вуман, тетя, совсем без денег нас оставляешь! Договорились!"
     # citizen1 "Раздевайся!"
-    citizen1 "А ты бизнес вуман, тетя, совсем без денег нас оставляешь! Договорились!"
-    citizen1 "Раздевайся!"
+    citizen1 "Du bist eine Geschäftsfrau, du lässt uns kein Geld übrig! Deal!"
+    citizen1 "Zieh dich aus!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:868
 translate german cit1_2_grooping_first_b5298206:
 
     # m "Вообще-то, я не сказала, что буду раздеваться!"
-    m "Вообще-то, я не сказала, что буду раздеваться!"
+    m "Eigentlich sagte ich nicht, dass ich mich ausziehe!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:870
 translate german cit1_2_grooping_first_d1204f1a:
 
     # citizen1 "Да как так-то? Четверной тариф!"
-    citizen1 "Да как так-то? Четверной тариф!"
+    citizen1 "Wie bitte? Wir vervierfachen das Geld!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:872
 translate german cit1_2_grooping_first_7afc0269:
 
     # m "Я не буду раздеваться!"
     # m "Выбор за вами! Я и так собираюсь позволить вам слишком много!"
-    m "Я не буду раздеваться!"
-    m "Выбор за вами! Я и так собираюсь позволить вам слишком много!"
+    m "Ich werde mich nicht ausziehen!"
+    m "Die Wahl liegt bei euch! Ich lasse euch sonst zu viel!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:875
 translate german cit1_2_grooping_first_50a7fb2d:
 
     # mt "Раньше бы я не позволила вам даже стоять со мной рядом!"
-    mt "Раньше бы я не позволила вам даже стоять со мной рядом!"
+    mt "Früher hätte ich es nicht einmal geduldet, dass ihr in meiner Nähe steht!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:878
 translate german cit1_2_grooping_first_d5548469:
 
     # citizen1 "Да за кого ты нас принимаешь, тетя? Мы с братом высококультуренные личности!"
     # citizen1 "Или культурные... Наш кузен работает в магазине старшим работником!"
-    citizen1 "Да за кого ты нас принимаешь, тетя? Мы с братом высококультуренные личности!"
-    citizen1 "Или культурные... Наш кузен работает в магазине старшим работником!"
+    citizen1 "Wer denkst du, sind wir? Mein Bruder und ich sind hochzivilisierte Menschen!"
+    citizen1 "Oder kulturell... Unser Cousin arbeitet im Laden als fest Angestellter!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:881
 translate german cit1_2_grooping_first_11894a13:
 
     # mt "Вот это да! Могу себе представить..."
-    mt "Вот это да! Могу себе представить..."
+    mt "WOW! Das kann ich mir richtig vorstellen..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:883
 translate german cit1_2_grooping_first_3fe1c50e:
 
     # citizen1 "Нам надо посоветоваться..."
-    citizen1 "Нам надо посоветоваться..."
+    citizen1 "Wir müssen uns beraten..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:888
 translate german cit1_2_grooping_first_fa882d40:
 
     # citizen1 "Ладно, тетя! Ты умеешь убеждать! Давай начнем уже!"
-    citizen1 "Ладно, тетя! Ты умеешь убеждать! Давай начнем уже!"
+    citizen1 "Okay, Tante, Du weißt, wie man Leute überredet. Fangen wir an!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:901
 translate german cit1_2_grooping_first_e9dd8e7e:
@@ -1173,66 +1173,66 @@ translate german cit1_2_grooping_first_e9dd8e7e:
     # citizen1 "Как тебе, братец?"
     # citizen1 "Эти сиськи шикарны!"
     # citizen1 "Но надо бы обратить внимание еще и на ее шикарный зад!"
-    citizen1 "Ого! Деньги вложены не зря!"
-    citizen1 "Как тебе, братец?"
-    citizen1 "Эти сиськи шикарны!"
-    citizen1 "Но надо бы обратить внимание еще и на ее шикарный зад!"
+    citizen1 "Wow! Das Geld ist gut investiert!"
+    citizen1 "Was denkst du, Bruder?"
+    citizen1 "Diese Titten sind der Hammer!"
+    citizen1 "Aber wir sollten auch ihren geilen Arsch nicht vergessen!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:909
 translate german cit1_2_grooping_first_40481c43:
 
     # mt "Черт! Надо еще немного потерпеть, иначе мне не удастся получить с них деньги..."
-    mt "Черт! Надо еще немного потерпеть, иначе мне не удастся получить с них деньги..."
+    mt "Zur Hölle! Ich muss noch etwas geduldig sein, sonst bekomme ich kein Geld..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:912
 translate german cit1_2_grooping_first_f6e6ee57:
 
     # mt "До чего противно...Это слишком..."
     # m "Я передумала! Это уже слишком!"
-    mt "До чего противно...Это слишком..."
-    m "Я передумала! Это уже слишком!"
+    mt "Wie widerlich... Das ist zuviel..."
+    m "Ich habe es mir anders überlegt! Das ist zu viel!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:920
 translate german cit1_2_grooping_first_19a05196:
 
     # citizen1 "Огонь! Тетя, ты просто космос!"
-    citizen1 "Огонь! Тетя, ты просто космос!"
+    citizen1 "Heiß, Tante, du bist Wahnsinn!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:922
 translate german cit1_2_grooping_first_5bc22111:
 
     # m "Да, я это знаю. Все, с вас хватит."
-    m "Да, я это знаю. Все, с вас хватит."
+    m "Ja, das weiß ich. Ihr habt genug!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:924
 translate german cit1_2_grooping_first_4869347f:
 
     # citizen1 "Вот умеешь ты обламывать! Ладно, пусть так... Вот твои деньги!"
-    citizen1 "Вот умеешь ты обламывать! Ладно, пусть так... Вот твои деньги!"
+    citizen1 "Du bist eine gute Lügnerin, aber so sei es, hier ist dein Geld!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:929
 translate german cit1_2_grooping_regular_5e9f8d24:
 
     # citizen1 "Тетя! Дай потрогать твою попу..."
-    citizen1 "Тетя! Дай потрогать твою попу..."
+    citizen1 "Tante, lass mich deinen Arsch anfassen..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:931
 translate german cit1_2_grooping_regular_03206928:
 
     # mt "Грязные панки...Снова хотят меня трогать своими ручищами..."
-    mt "Грязные панки...Снова хотят меня трогать своими ручищами..."
+    mt "Dreckige Punks... Sie wollen mich wieder anfassen..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:933
 translate german cit1_2_grooping_regular_2860f76c:
 
     # m "Нет! Ни за что!"
-    m "Нет! Ни за что!"
+    m "Nein! Keinesfalls!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:935
 translate german cit1_2_grooping_regular_4341de4c:
 
     # citizen1 "Четверной тариф!" 
-    citizen1 "Четверной тариф!" 
+    citizen1 "Vervierfacht es!" 
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:942
 translate german cit1_2_grooping_regular_de4b270b:
@@ -1244,19 +1244,19 @@ translate german cit1_2_grooping_regular_de4b270b:
 translate german cit1_2_grooping_regular_ed652a85:
 
     # mt "Ничтожества..."
-    mt "Ничтожества..."
+    mt "Nicht meine Brüste..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:947
 translate german cit1_2_grooping_regular_c531d0fb:
 
     # m "Четверной тариф!"
-    m "Четверной тариф!"
+    m "Vervierfacht es!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:949
 translate german cit1_2_grooping_regular_4b2abd93:
 
     # citizen1 "Тетя, не сделаешь ли скидочку?"
-    citizen1 "Тетя, не сделаешь ли скидочку?"
+    citizen1 "Bekommen wir einen Rabatt?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:951
 translate german cit1_2_grooping_regular_1e1db974:
@@ -1264,29 +1264,29 @@ translate german cit1_2_grooping_regular_1e1db974:
     # mt "Какие скидочки? Это же я...И... Я себя продаю... Черт..."
     # mt "Нет, это просто временное недоразумение."
     # mt "Я забуду об этом сразу как все закончится!"
-    mt "Какие скидочки? Это же я...И... Я себя продаю... Черт..."
-    mt "Нет, это просто временное недоразумение."
-    mt "Я забуду об этом сразу как все закончится!"
+    mt "Rabatt? Ich... ich verkaufe mich... verdammt..."
+    mt "Nein, das ist nur ein zeitweises Missverständnis."
+    mt "Ich vergesse das, sobald das alles vorbei ist!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:960
 translate german cit1_2_grooping_regular_b547c2ee:
 
     # m "Я передумала. Я не собираюсь идти на такие грязные вещи за деньги!"
-    m "Я передумала. Я не собираюсь идти на такие грязные вещи за деньги!"
+    m "Ich habe es mir anders überlegt! Ich mache so schmutzige Sachen nicht für Geld!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:962
 translate german cit1_2_grooping_regular_c40c53c6:
 
     # mt "Тем более за такие маленькие!"
     # mt "Хотя... Моника... Да ни за какие вообще!"
-    mt "Тем более за такие маленькие!"
-    mt "Хотя... Моника... Да ни за какие вообще!"
+    mt "Besonders nicht für so wenig!"
+    mt "Obwohl... Monica... Nein!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:966
 translate german cit1_2_grooping_regular_b9246edd:
 
     # mt "Это все временная необходимость..."
-    mt "Это все временная необходимость..."
+    mt "Das ist nur eine vorübergehende Notwendigkeit..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:968
 translate german cit1_2_grooping_regular_2fce66a2:
@@ -1299,8 +1299,8 @@ translate german cit1_2_grooping_regular_3556de4d:
 
     # citizen1 "Ну хорошо, но я пытался..."
     # citizen1 "Начнем?"
-    citizen1 "Ну хорошо, но я пытался..."
-    citizen1 "Начнем?"
+    citizen1 "Gut, aber ich habe es versucht..."
+    citizen1 "Sollen wir anfangen?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:984
 translate german cit1_2_grooping_regular_a741d4c6:
@@ -1308,73 +1308,73 @@ translate german cit1_2_grooping_regular_a741d4c6:
     # citizen1 "Какая жопа, да братик? Хотел бы я взглянуть на нее без этих дурацких шорт."
     # citizen1 "А сиськи то! Как у моей бывшей! Только в 4 раза больше! Ха-ха-ха!"
     # citizen1 "Какая упругая! Тетя, у тебя слишком шикарное тело для уличной шлюхи!"
-    citizen1 "Какая жопа, да братик? Хотел бы я взглянуть на нее без этих дурацких шорт."
-    citizen1 "А сиськи то! Как у моей бывшей! Только в 4 раза больше! Ха-ха-ха!"
-    citizen1 "Какая упругая! Тетя, у тебя слишком шикарное тело для уличной шлюхи!"
+    citizen1 "Was für ein Arsch, Bruder! Ich wünschte, ich könnte sie ohne diese dummen Shorts sehen."
+    citizen1 "Und die Titten erst! Wie die von meiner Ex! Nur viermal so groß! Hahaha!"
+    citizen1 "Wie elastisch! Du hast einen zu guten Körper für eine Straßennutte!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:988
 translate german cit1_2_grooping_regular_877c2670:
 
     # m "Я не шлюха!"
-    m "Я не шлюха!"
+    m "Ich bin KEINE Hure!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:990
 translate german cit1_2_grooping_regular_1cb665de:
 
     # mt "Вы даже не представляете кто я такая!"
-    mt "Вы даже не представляете кто я такая!"
+    mt "Ihr habt keine Ahnung, wer ich bin!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:992
 translate german cit1_2_grooping_regular_b3cbf850:
 
     # citizen1 "Конечо, конечно! Можешь называть это как хочешь."
-    citizen1 "Конечо, конечно! Можешь называть это как хочешь."
+    citizen1 "Natürlich, natürlich! Nenne es, wie du willst!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:995
 translate german cit1_2_grooping_regular_9b1be21a:
 
     # citizen1 "Тетя, мы понимаем, что ты корчишь из себя недотрогу, но хотим предложить еще кое-что."
     # citizen1 "Только дослушай прежде чем психовать."
-    citizen1 "Тетя, мы понимаем, что ты корчишь из себя недотрогу, но хотим предложить еще кое-что."
-    citizen1 "Только дослушай прежде чем психовать."
+    citizen1 "Tante, wir verstehen, dass du vorgibst, brav zu sein, aber wir wollen dir noch was Anderes vorschlagen."
+    citizen1 "Hör erstmal zu, bevor du ausflippst."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1001
 translate german cit1_2_grooping_regular_469e2407:
 
     # m "Хватит с меня предложений."
     # m "Вы и так уже меня всю облапали..."
-    m "Хватит с меня предложений."
-    m "Вы и так уже меня всю облапали..."
+    m "Ich habe genug von Vorschlägen."
+    m "Ihr habt mich schon überall unsittlich berührt..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1004
 translate german cit1_2_grooping_regular_037e00b2:
 
     # citizen1 "Ладно, тетя, как хочешь. Мы только лишь предлагаем тебе заработать денег."
-    citizen1 "Ладно, тетя, как хочешь. Мы только лишь предлагаем тебе заработать денег."
+    citizen1 "Gut, Tante, wie auch immer. Wir bieten dir nur an, mehr Geld zu machen."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1008
 translate german cit1_2_grooping_regular_69fc1ae9:
 
     # m "Я слушаю."
-    m "Я слушаю."
+    m "Ich höre."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1010
 translate german cit1_2_grooping_regular_28d79570:
 
     # mt "Хотя надо ли было их слушать? Разве они могут предложить что-то достойное меня?"
-    mt "Хотя надо ли было их слушать? Разве они могут предложить что-то достойное меня?"
+    mt "Ist es dazu nötig, denen zu zu hören? Wie könnten sie mir etwas anbieten, was meiner würdig ist?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1012
 translate german cit1_2_grooping_regular_8fc998a7:
 
     # citizen1 "Сыграй с нами в панк-считалочку!"
-    citizen1 "Сыграй с нами в панк-считалочку!"
+    citizen1 "Spiele Punkzählen mit uns!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1014
 translate german cit1_2_grooping_regular_f4f9f721:
 
     # m "Чего?"
-    m "Чего?"
+    m "Was?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1016
 translate german cit1_2_grooping_regular_4bb85450:
@@ -1386,25 +1386,25 @@ translate german cit1_2_grooping_regular_4bb85450:
     # citizen2 "Четыре!"
     # citizen1 "Пять!"
     # citizen2 "Скоро будем мы бухать!"
-    citizen1 "Да, сыграй! Она не большая. Вот послушай!"
-    citizen1 "Раз!"
-    citizen2 "Два!"
-    citizen1 "Три!"
-    citizen2 "Четыре!"
-    citizen1 "Пять!"
-    citizen2 "Скоро будем мы бухать!"
+    citizen1 "Ja, spielen wir es! Keine große Sache. Hör zu!"
+    citizen1 "Eins!"
+    citizen2 "Zwei!"
+    citizen1 "Drei!"
+    citizen2 "Vier!"
+    citizen1 "Fünf!"
+    citizen2 "Bald trinken wir!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1024
 translate german cit1_2_grooping_regular_5a4cfd4d:
 
     # mt "На большее у вас мозгов и не хватит..."
-    mt "На большее у вас мозгов и не хватит..."
+    mt "Für mehr habt ihr auch kein Hirn..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1026
 translate german cit1_2_grooping_regular_79482dd1:
 
     # m "И в чем смысл?"
-    m "И в чем смысл?"
+    m "Um was geht es?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1028
 translate german cit1_2_grooping_regular_fbd12921:
@@ -1413,10 +1413,10 @@ translate german cit1_2_grooping_regular_fbd12921:
     # citizen1 "Мы будем слегка шлепать твою попу и считать... Всего 5 раз, это немного."
     # citizen1 "Но учти! Это для нас важно, поэтому мы дадим тебе 10 долларов!"
     # mt "10 Долларов... И я вынуждена идти на такое за какие-то 10 долларов?!"
-    citizen1 "Ну в общем..."
-    citizen1 "Мы будем слегка шлепать твою попу и считать... Всего 5 раз, это немного."
-    citizen1 "Но учти! Это для нас важно, поэтому мы дадим тебе 10 долларов!"
-    mt "10 Долларов... И я вынуждена идти на такое за какие-то 10 долларов?!"
+    citizen1 "Nun, allgemein..."
+    citizen1 "Wir schlagen ein bisschen deinen Arsch und zählen... Nur 5 Mal, nicht viel."
+    citizen1 "Aber bedenke, das ist wichtig für uns, wir geben dir 10 $!"
+    mt "10$... Ich soll das für schäbige 10 $ machen?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1033
 translate german cit1_2_grooping_regular_c8e6f74e:
@@ -1425,8 +1425,8 @@ translate german cit1_2_grooping_regular_c8e6f74e:
     # mt "Черт, Моника, до чего ты дошла? Раньше ты зарабатывала 100 долларов в секунду..."
     # mt "Стоит ли соглашаться?"
     mt "Oh Gott!"
-    mt "Черт, Моника, до чего ты дошла? Раньше ты зарабатывала 100 долларов в секунду..."
-    mt "Стоит ли соглашаться?"
+    mt "Verdammt, Monica, in was bist du da nur geraten? Du hast 100 $ in der Sekunde verdient..."
+    mt "Soll ich zustimmen?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1040
 translate german cit1_2_grooping_regular_745b11c5:
@@ -1439,78 +1439,78 @@ translate german cit1_2_grooping_regular_a93efe19:
 
     # mt "Черт! Я соглашаюсь на такие вещи."
     # mt "Когда это все закончится, я забуду все как страшный сон."
-    mt "Черт! Я соглашаюсь на такие вещи."
-    mt "Когда это все закончится, я забуду все как страшный сон."
+    mt "Fuck! Ich stimme zu!"
+    mt "Wenn das alles vorbei ist, vergesse ich diesen Alptraum."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1045
 translate german cit1_2_grooping_regular_003f5522:
 
     # citizen1 "Ура, тетя согласна!"
     # citizen1 "Давай сделаем это."
-    citizen1 "Ура, тетя согласна!"
-    citizen1 "Давай сделаем это."
+    citizen1 "Hurra, sie stimmt zu!"
+    citizen1 "Machen wir es."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1050
 translate german cit1_2_grooping_regular_dc8d578b:
 
     # citizen1 "Вставай вот так..."
-    citizen1 "Вставай вот так..."
+    citizen1 "Stell dich so hin..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1056
 translate german cit1_2_grooping_regular_e2177de5:
 
     # citizen1 "Да, вот так и стой!"
     # citizen1 "Ну что, братец, мы готовы?"
-    citizen1 "Да, вот так и стой!"
-    citizen1 "Ну что, братец, мы готовы?"
+    citizen1 "Ja, gut so!"
+    citizen1 "Also, Bruder, sind wir fertig?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1059
 translate german cit1_2_grooping_regular_0ba18070:
 
     # citizen1 "Раз!"
-    citizen1 "Раз!"
+    citizen1 "Eins!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1061
 translate german cit1_2_grooping_regular_76ccf3b0:
 
     # citizen2 "Два!"
-    citizen2 "Два!"
+    citizen2 "Zwei!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1063
 translate german cit1_2_grooping_regular_ca40da7c:
 
     # citizen1 "Три!"
-    citizen1 "Три!"
+    citizen1 "Drei!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1065
 translate german cit1_2_grooping_regular_db8cc220:
 
     # citizen2 "Четыре!"
-    citizen2 "Четыре!"
+    citizen2 "Vier!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1067
 translate german cit1_2_grooping_regular_95920e5c:
 
     # citizen1 "Пять!"
-    citizen1 "Пять!"
+    citizen1 "Fünf!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1069
 translate german cit1_2_grooping_regular_f0790ee9:
 
     # m "Ай! Больно!"
-    m "Ай! Больно!"
+    m "Ah! Das tut weh!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1071
 translate german cit1_2_grooping_regular_1fecd1b2:
 
     # citizen2 "Скоро будем мы бухать!"
-    citizen2 "Скоро будем мы бухать!"
+    citizen2 "Bald trinken wir!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1073
 translate german cit1_2_grooping_regular_4aea5d8c:
 
     # citizen1 "Да! Прекрасный день сегодня!"
-    citizen1 "Да! Прекрасный день сегодня!"
+    citizen1 "Ja! Was für ein schöner Tag!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1076
 translate german cit1_2_grooping_regular_1d5ed55c:
@@ -1518,15 +1518,15 @@ translate german cit1_2_grooping_regular_1d5ed55c:
     # citizen1 "Тетя! Ты выглядишь не совсем довольной..."
     # citizen1 "Ты должна быть рада! Теперь ты знаешь нашу считалочку и сможешь сыграть с нами еще раз!"
     # citizen1 "И у тебя есть 10 долларов!"
-    citizen1 "Тетя! Ты выглядишь не совсем довольной..."
-    citizen1 "Ты должна быть рада! Теперь ты знаешь нашу считалочку и сможешь сыграть с нами еще раз!"
-    citizen1 "И у тебя есть 10 долларов!"
+    citizen1 "Tante, du siehst nicht glücklich aus..."
+    citizen1 "Du solltest aber glücklich sein! Jetzt kennst du unseren Rhythmus und kannst wieder mit uns spielen!"
+    citizen1 "Hier die 10 $!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1080
 translate german cit1_2_grooping_regular_0bcd7f12:
 
     # mt "Предел мечтаний...Черт, моя попа немного болит..."
-    mt "Предел мечтаний...Черт, моя попа немного болит..."
+    mt "Der ultimative Traum... Verdammt, mein Hintern tut etwas weh..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1084
 translate german cit1_2_grooping_regular_38a2917b:
@@ -1534,45 +1534,45 @@ translate german cit1_2_grooping_regular_38a2917b:
     # m "Нет!"
     # m "Даже не думайте!"
     m "Nein! Das ist das teuerste Kleid im ganzen Laden."
-    m "Даже не думайте!"
+    m "Denkt nicht mal dran!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1087
 translate german cit1_2_grooping_regular_5f4d682f:
 
     # citizen1 "Ха-ха! Тетя, ты даже не знаешь сколько желающих сыграть с нами."
     # citizen1 "Надеюсь, ты передумаешь."
-    citizen1 "Ха-ха! Тетя, ты даже не знаешь сколько желающих сыграть с нами."
-    citizen1 "Надеюсь, ты передумаешь."
+    citizen1 "Haha! Du kannst dir nicht vorstellen, wieviele Leute mit uns spielen wollen."
+    citizen1 "Ich hoffe, du hast deine Meinung geändert."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1090
 translate german cit1_2_grooping_regular_d9bd2285:
 
     # mt "Не надейся!"
-    mt "Не надейся!"
+    mt "Hofft das nicht."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1094
 translate german cit1_2_grooping_regular_a5786cba:
 
     # citizen1 "Да, тетя, ты нас сегодня очень порадовала! Скажу тебе по секрету, у меня не было таких телок, как ты."
-    citizen1 "Да, тетя, ты нас сегодня очень порадовала! Скажу тебе по секрету, у меня не было таких телок, как ты."
+    citizen1 "Ja, Tante, du hast uns heute sehr glücklich gemacht! Ich verrate dir ein Geheimnis, wir hatten noch nie ein Chick wie dich."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1096
 translate german cit1_2_grooping_regular_ddd1b5ad:
 
     # mt "И не будет."
-    mt "И не будет."
+    mt "Ach echt?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1098
 translate german cit1_2_grooping_regular_020219fb:
 
     # citizen1 "Вот держи, заработала."
-    citizen1 "Вот держи, заработала."
+    citizen1 "Hier, das hast du dir vedient."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1104
 translate german cit1_2_counting1_2378658e:
 
     # citizen1 "Сыграем в считалочку! Становись к пилону!"
-    citizen1 "Сыграем в считалочку! Становись к пилону!"
+    citizen1 "Spielen wir Zählen! Geh zur Stange!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1109
 translate german cit1_2_counting1_94420ba9:
@@ -1590,19 +1590,19 @@ translate german cit1_2_counting1_de4b270b:
 translate german cit1_2_counting1_0ba18070:
 
     # citizen1 "Раз!"
-    citizen1 "Раз!"
+    citizen1 "Eins!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1119
 translate german cit1_2_counting1_76ccf3b0:
 
     # citizen2 "Два!"
-    citizen2 "Два!"
+    citizen2 "Zwei!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1121
 translate german cit1_2_counting1_ca40da7c:
 
     # citizen1 "Три!"
-    citizen1 "Три!"
+    citizen1 "Drei!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1123
 translate german cit1_2_counting1_e88dbab1:
@@ -1614,33 +1614,33 @@ translate german cit1_2_counting1_e88dbab1:
 translate german cit1_2_counting1_db8cc220:
 
     # citizen2 "Четыре!"
-    citizen2 "Четыре!"
+    citizen2 "Vier!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1127
 translate german cit1_2_counting1_95920e5c:
 
     # citizen1 "Пять!"
-    citizen1 "Пять!"
+    citizen1 "Fünf!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1129
 translate german cit1_2_counting1_1fecd1b2:
 
     # citizen2 "Скоро будем мы бухать!"
-    citizen2 "Скоро будем мы бухать!"
+    citizen2 "Bald trinken wir!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1131
 translate german cit1_2_counting1_719904b9:
 
     # citizen1 "О да, брат, это волшебное чувство!"
     # citizen1 "Смотри, похоже тете нравится."
-    citizen1 "О да, брат, это волшебное чувство!"
-    citizen1 "Смотри, похоже тете нравится."
+    citizen1 "Oh ja, Bruder, das ist ein magisches Gefühl!"
+    citizen1 "Schau, sie scheint es auch zu mögen."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1134
 translate german cit1_2_counting1_d534b156:
 
     # m "Неправда."
-    m "Неправда."
+    m "Eine Lüge!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1136
 translate german cit1_2_counting1_a0ef7e62:
@@ -1648,9 +1648,9 @@ translate german cit1_2_counting1_a0ef7e62:
     # citizen1 "Ха-ха-ха. Я заметил твое выражение лица. Ты явно не страдаешь от этого."
     # citizen1 "Хватит себя обманывать!"
     # citizen1 "Думаю, скоро ты это признаешь, а пока получай свои 10 долларов."
-    citizen1 "Ха-ха-ха. Я заметил твое выражение лица. Ты явно не страдаешь от этого."
-    citizen1 "Хватит себя обманывать!"
-    citizen1 "Думаю, скоро ты это признаешь, а пока получай свои 10 долларов."
+    citizen1 "Hahaha, Ich habe deinen Gesichtsausdruck gesehen. Offenbar leidest du nicht darunter."
+    citizen1 "Hör auf, dich selbst an zu lügen."
+    citizen1 "Ich denke, dir wird das selbst bald klar, aber zwischenzeitlich, hier die 10 $!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1140
 translate german cit1_2_counting1_aa6cfbb5:
@@ -1666,33 +1666,33 @@ translate german strings:
 
     # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:812
     old "А я не хочу!"
-    new "А я не хочу!"
+    new "Aber ich will das nicht."
 
     # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:852
     old "Четверной тариф!"
-    new "Четверной тариф!"
+    new "Vervierfacht es!"
 
     # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:852
     old "Что? Да ни за что!"
-    new "Что? Да ни за что!"
+    new "Was? Niemals!"
 
     # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:907
     old "Это уже перебор!"
-    new "Это уже перебор!"
+    new "Das ist zu viel."
 
     # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:937
     old "Черт... Мне нужны деньги..."
-    new "Черт... Мне нужны деньги..."
+    new "Verdammt... Ich brauche Geld..."
 
     # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:955
     old "Это все необходимо..."
-    new "Это все необходимо..."
+    new "Das ist alles notwendig..."
 
     # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:998
     old "Хватит с меня предложений."
-    new "Хватит с меня предложений."
+    new "Ich habe genug von Vorschlägen."
 
     # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:998
     old "Я слушаю."
-    new "Я слушаю."
+    new "Ich höre."
 
