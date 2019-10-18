@@ -398,9 +398,9 @@ label dialogue_4_classmate_lesbian_1:
     pause 1.5
     music Loved_Up2
     #sound падает мяч
-    sound ball3
     img 22209 # падает мяч
     with fadelong
+    sound ball3
     w
     #sound Бетти произносит Ммммммм в экстазе
     sound woman_moan6
