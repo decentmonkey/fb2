@@ -1218,7 +1218,7 @@ translate english cit13_groping_1st_87724d95:
     # citizen13 "Обнимемся! В честь нашей дружбы!"
     citizen13 "How I love our friendship!"
     citizen13 "I never had a friend like you!"
-    citizen13 "Let's hug! For our frienship!"
+    citizen13 "Let's hug! For our friendship!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:928
 translate english cit13_groping_1st_f10fec51:
@@ -1248,7 +1248,7 @@ translate english cit13_groping_1st_65afda85:
 translate english cit13_groping_1st_e540a52f:
 
     # mt "Он не отличается умом. Думаю, его  можно обмануть..."
-    mt "He doesn’t look very bright. I thing I can trick him..."
+    mt "He doesn’t look very bright. I think I can trick him..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:944
 translate english cit13_groping_1st_12d1f887:
@@ -1267,7 +1267,7 @@ translate english cit13_groping_1st_aa54ced4:
 
     # m "Понимаешь, у меня сейчас не самое удачное материальное положение..."
     # m "Мне бы пригодились...20 долларов."
-    m "You see I'm not in a very good financial situation at the moment..."
+    m "You see, I'm not in a very good financial situation at the moment..."
     m "20 dollars would be very helpful."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:951
@@ -1347,7 +1347,7 @@ translate english cit13_groping_1st_cf1f37e0:
 
     # mt "Черт, похоже, придется это сделать, иначе он не заплатит."
     # mt "Просто сомкну руки сзади..."
-    mt "Damn it, looks like I have to do it or he will not pay."
+    mt "Damn it, it looks like I have to do it, or he will not pay."
     mt "I'll just pretend to hug him..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:994
@@ -1444,7 +1444,7 @@ translate english cit13_grooping_regular_2bdabde6:
     # citizen13 "Не заплачу, а как ты там говорила?"
     # citizen13 "Помогу материально... Кажется так."
     # citizen13 "Но только ради нашей дружбы!"
-    citizen13 "I'm not paying but... what were you saying?"
+    citizen13 "I'm not paying, but... what were you saying?"
     citizen13 "Helping financially... I think it was."
     citizen13 "But only for our friendship!"
 
@@ -1490,7 +1490,7 @@ translate english cit13_grooping_regular_e44e6b49:
     # mt "Он хочет, чтобы я обняла его крепко?! Он-никто и не достоин этого."
     # mt "Но мне нужны эти 5 долларов!"
     mt "What?! He doesn’t deserve to hug me like that!"
-    mt "But I need this 5 dollars!"
+    mt "But I need these 5 dollars!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1074
 translate english cit13_grooping_regular_d9ea341c:
@@ -1520,7 +1520,7 @@ translate english cit13_grooping_regular_d1619f4d:
 translate english cit13_grooping_regular_7cf646c3:
 
     # citizen13 "Подруга, теперь ты! И обними меня крепко!"
-    citizen13 "Come friend! You turn now!"
+    citizen13 "Come, friend! You turn now!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1091
 translate english cit13_grooping_regular_fc3b29c6:
@@ -1650,7 +1650,7 @@ translate english cit13_lipstick_event_d655d501:
 translate english cit13_lipstick_event_428f8058:
 
     # mt "Ну конечно знаю"
-    mt "Of course I do."
+    mt "Of course, I do."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1157
 translate english cit13_lipstick_event_840c8156:
@@ -1794,7 +1794,7 @@ translate english cit13_lipstick_event_30f366eb:
     # mt "Что же делать? Он готов дать мне 10 долларов, а деньги мне очень нужны."
     # mt "Он не отличается умом... Может, я смогу его обмануть?"
     mt "What?! Kiss this slum dweller?! Even on the cheek..."
-    mt "This will all be over soon and I will never set a foot in these slums again..."
+    mt "This will all be over soon, and I will never set foot in these slums again..."
     mt "What to do? He's willing to give me $ 10, and I really need the money."
     mt "He's not very smart... Maybe I can trick him."
 
@@ -1821,7 +1821,7 @@ translate english cit13_lipstick_event_5030da33:
 
     # citizen13 "О да! Как приятно! Это гораздо лучше, чем поцелуй Александра!"
     # citizen13 "Точнее Александры! Да! Моей девушки Александры!"
-    citizen13 "Yes! How nice! This is so much better than Alexandras kiss!"
+    citizen13 "Yes! How nice! This is so much better than Alexandra's kiss!"
     citizen13 "More precisely Alexandra's! Yes! My girlfriend Alexandra!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1236
@@ -1922,5 +1922,5 @@ translate english strings:
 
     # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1221
     old "Попытаться обмануть."
-    new "Try to decieve."
+    new "Try to deceive."
 

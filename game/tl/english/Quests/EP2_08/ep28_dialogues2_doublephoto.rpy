@@ -111,7 +111,7 @@ translate english dialogue_doublephoto_1_84072011:
     betty "Hurry up!"
     betty "Only one photo!"
     betty "Done?"
-    bardie "Wait, photo didn't come out. Come again."
+    bardie "Wait, the photo didn't come out. Come again."
     betty "That's all! Enough!"
     betty "I hope you're satisfied."
     bardie "Very satisfied! You have both proved to me that you follow the rules of this house."
@@ -300,7 +300,7 @@ translate english dialogue_doublephoto_1_ace4f03a:
     # betty "Все?"
     # bardie "Подождите, что-то не получилось фото. Ну-ка еще раз."
     betty "Done?"
-    bardie "Wait, photo didn't come out. Come again."
+    bardie "Wait, the photo didn't come out. Come again."
 
 # game/Quests/EP2_08/ep28_dialogues2_doublephoto.rpy:159
 translate english dialogue_doublephoto_1_46aeac9f:

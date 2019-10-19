@@ -1144,7 +1144,7 @@ translate english cit9_groping_first_baa97e8c:
     # citizen9 "Йо, дамочка, не груби! Сегодня не нужны, завтра будут нужны!"
     m "I'm not ready to do it."
     m "I don’t need your pitiful 5 dollars!"
-    citizen9 "Don’t be so mean lady! You don’t need it today, but who knows about tomorrow!"
+    citizen9 "Don’t be so mean, lady! You don’t need it today, but who knows about tomorrow!"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:909
 translate english cit9_groping_first_6fb10b03:
@@ -1194,13 +1194,13 @@ translate english cit9_groping_first_3485b183:
     citizen9 "Lady, something is telling me that you actually want it."
     mt "Yea, sure."
     citizen9 "Woah! What an ass!"
-    citizen9 "Havent touched anything like that in a while!"
+    citizen9 "I haven't touched anything like that in a while!"
     citizen9 "Best!"
     m "That's it, enough!"
     citizen9 "Don’t be greedy, lady!"
     m "I said enough!"
     citizen9 "Tchh..."
-    citizen9 "But I'm satisfied! Not everyday you can touch something like that!"
+    citizen9 "But I'm satisfied! Not every day you can touch something like that!"
     citizen9 "So, I have another 5. Want it?"
     m "No."
     mt "I'm tired of your blabbering..."
@@ -1225,14 +1225,14 @@ translate english cit9_groping_regular_7a537d73:
     citizen9 "Take a guess who's missing your butt?"
     mt "One day I'll have enough and punch you in your face..."
     citizen9 "Yo! That's so simple!"
-    citizen9 "Me of course!"
+    citizen9 "Me, of course!"
     citizen9 "And guess what I've brought?"
     m "..."
-    citizen9 "5 dollars of course!"
+    citizen9 "5 dollars, of course!"
     citizen9 "And if you say that you are glad to see me, it might become 6!"
     mt "1 Dollar for a couple of words to this dirty junkie..."
     mt "No one will hear..."
-    mt "And that's not true of course..."
+    mt "And that's not true, of course..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:958
 translate english cit9_groping_regular_f9d3db55:
@@ -1240,7 +1240,7 @@ translate english cit9_groping_regular_f9d3db55:
     # m "Я рада."
     # citizen9 "Да! А уж я то как рад! Давай уже быстрее начнем!"
     m "I'm glad."
-    citizen9 "Yes! And me as well! Lets start already!"
+    citizen9 "Yes! And me as well! Let's start already!"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:962
 translate english cit9_groping_regular_23c33fae:
@@ -1281,10 +1281,10 @@ translate english cit9_groping_regular_4bba26b5:
     m "I'm not your girl! And will never be!"
     m "I allowed you to touch my butt, not to grope it!"
     citizen9 "Like that then? You will not get your 5 dollars this way!"
-    m "You groped my whole body and now you are telling me that you will not pay?!"
+    m "You groped my whole body, and now you are telling me that you will not pay?!"
     m "Are you sure?"
     citizen9 "Yo, lady! I'm kidding! You like jokes, right?"
-    citizen9 "By the way, I'm participating as a stand up comedian in one of the bars... Come!"
+    citizen9 "By the way, I'm participating as a stand-up comedian in one of the bars... Come!"
     mt "Never..."
     citizen9 "Here are your 5 dollars!"
 
@@ -1309,14 +1309,14 @@ translate english cit9_special_c1af9cf3:
     m "Apologize?!"
     citizen9 "Yes, exactly."
     m "Why?"
-    mt "Of course there is more than enough for you to be sorry about..."
+    mt "Of course, there is more than enough for you to be sorry about..."
     citizen9 "For groping your butt to forcefully!"
     citizen9 "It probably hurt?"
     mt "What's going on?"
     citizen9t "Relax, lady, I have a surprise for you..."
-    citizen9 "I even brough 10 dollars! I want to apologize!"
+    citizen9 "I even brought 10 dollars! I want to apologize!"
     mt "Something's wrong... what does he want?"
-    mt "Shoud I just take 10 dollars and accept his apology?"
+    mt "Should I just take 10 dollars and accept his apology?"
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:1003
 translate english cit9_special_24fb6c8f:
@@ -1357,9 +1357,9 @@ translate english cit9_special_f9ec7432:
     citizen9 "Of course, lady. But only after I can get friendly with your butt."
     citizen9 "I'll be gentle, I promise."
     citizen9 "Then I'll give you 10 dollars, not 5 like before!"
-    mt "Shoud I trust this dirty drug addict?"
+    mt "Should I trust this dirty drug addict?"
     citizen9 "I'll give you half right now. Here, take it!"
-    citizen9 "And now let me touch your butt!"
+    citizen9 "And now, let me touch your butt!"
     mt "I already allowed it before..."
     mt "Damn it... I need money..."
     mt "And he promised to be gentle..."
@@ -1373,7 +1373,7 @@ translate english cit9_special_455d5b18:
     # citizen9 "Йо! Я знал, что ты не откажешь себе в этом удовольствии!"
     # mt "Каком еще удовольствии? В этом нет никакого удовольствия..."
     m "Okay."
-    citizen9 "Yo! I knew that you will not want to miss such pleasure!"
+    citizen9 "Yo! I knew that you will not want to miss such a pleasure!"
     mt "What pleasure? There is nothing pleasurable in this..."
 
 # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:1032
@@ -1417,7 +1417,7 @@ translate english cit9_special_e9f19370:
     # mt "..."
     # mt "Черт, это ужасно...Здесь одни извращенцы..."
     # mt "Надо быть еще более осторожной..."
-    citizen9 "Come on, lets begin!"
+    citizen9 "Come on, let's begin!"
     citizen9 "So great..."
     citizen9t "Come on, lady, relax..."
     mt "He is just keeping his hands on my butt"
@@ -1426,17 +1426,17 @@ translate english cit9_special_e9f19370:
     m "Ouch!!! It hurts!"
     citizen9 "What a nice ass!"
     m "I'll kill you, dirty junkie!!!"
-    citizen9 "Oops, someone is in the bad mood..."
+    citizen9 "Oops, someone is in a bad mood..."
     citizen9 "Don’t get angry!"
     m "You are finished!"
     citizen9 "I've remembered about one important thing... I better go... or run..."
     citizen9 "See you later!"
-    citizen9 "Come when you are in better mood!"
+    citizen9 "Come when you are in a better mood!"
     mt "This bastard put his finger in my butt..."
     mt "I'll kill him!"
     mt "..."
     mt "That's horrible... only perverts around here..."
-    mt "I have to be more carefull..."
+    mt "I have to be more careful..."
 
 translate english strings:
 
@@ -1466,5 +1466,5 @@ translate english strings:
 
     # game/Quests/EP2/Citizens/Citizen9_dialogue.rpy:1001
     old "Я не собираюсь тебя прощать."
-    new "I''m not going to forgive you."
+    new "I'm not going to forgive you."
 

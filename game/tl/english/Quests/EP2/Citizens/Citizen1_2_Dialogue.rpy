@@ -1024,7 +1024,7 @@ translate english cit1_2_grooping_first_5df89dee:
     # citizen1 "Тетя, ты нас обижаешь! У нас нет таких денег..."
     # citizen1 "Только ради твоей жопы и классных сисек я готов предложить тебе двойной тариф!"
     citizen1 "Aunt, you're hurting us! We don't have that much money..."
-    citizen1 "Just for the sake of your ass and cool tits I'm ready to offer you twice the money as usual!"
+    citizen1 "Just for the sake of your ass and cool tits, I'm ready to offer you twice the money as usual!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:831
 translate english cit1_2_grooping_first_037d99f3:
@@ -1038,7 +1038,7 @@ translate english cit1_2_grooping_first_5a5a34e2:
     # citizen1 "Тетя, все очень просто!"
     # citizen1 "Мы платим тебе доллар, а при двойном тарифе платим два. Понятно?"
     citizen1 "Aunt, it's very simple!"
-    citizen1 "We pay you a dollar, and at double rate we pay two. Got it?"
+    citizen1 "We pay you a dollar, and at double rate, we pay two. Got it?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:836
 translate english cit1_2_grooping_first_d18838f6:
@@ -1111,7 +1111,7 @@ translate english cit1_2_grooping_first_94b9bccb:
 
     # citizen1 "А ты бизнес вуман, тетя, совсем без денег нас оставляешь! Договорились!"
     # citizen1 "Раздевайся!"
-    citizen1 "And you're a business woman, aunt, you leave us with no money! Deal!"
+    citizen1 "And you're a businesswoman, aunt, you leave us with no money! Deal!"
     citizen1 "Take off your clothes!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:868
@@ -1182,7 +1182,7 @@ translate english cit1_2_grooping_first_e9dd8e7e:
 translate english cit1_2_grooping_first_40481c43:
 
     # mt "Черт! Надо еще немного потерпеть, иначе мне не удастся получить с них деньги..."
-    mt "Hell! I have to be patient a little bit more, otherwise I won't be able to get money from them..."
+    mt "Hell! I have to be patient a little bit more. Otherwise, I won't be able to get money from them..."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:912
 translate english cit1_2_grooping_first_f6e6ee57:
@@ -1519,7 +1519,7 @@ translate english cit1_2_grooping_regular_1d5ed55c:
     # citizen1 "Ты должна быть рада! Теперь ты знаешь нашу считалочку и сможешь сыграть с нами еще раз!"
     # citizen1 "И у тебя есть 10 долларов!"
     citizen1 "Auntie! You don't look happy..."
-    citizen1 "You should be happy! Now you know our rythm and you can play with us again!"
+    citizen1 "You should be happy! Now you know our rhythm, and you can play with us again!"
     citizen1 "And you have $ 10!"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1080
@@ -1686,7 +1686,7 @@ translate english strings:
 
     # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:955
     old "Это все необходимо..."
-    new "It's all necessarry..."
+    new "It's all necessary..."
 
     # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:998
     old "Хватит с меня предложений."

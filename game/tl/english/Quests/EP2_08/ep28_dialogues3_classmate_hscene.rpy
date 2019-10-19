@@ -16,7 +16,7 @@ translate english dialogue_classmate_1_38df7d5a:
     # mt "Этот малявка привел в дом еще одного такого же озабоченного мелкого извращенца, как он сам."
     # m "Да? Ты звал меня?"
     # bardie "Гувернантка, мне надо проверить, соблюдаешь ли ты правила этого дома!"
-    # m "Что, прямо сейчас? При твоем друге?!" 
+    # m "Что, прямо сейчас? При твоем друге?!"
     # m "???"
     # bardie "Да, мне нужно проверить прямо сейчас, гувернантка."
     # m "В мои обязанности это не входит! Я не собираюсь проходить эту проверку при твоем друге!"
@@ -30,7 +30,7 @@ translate english dialogue_classmate_1_38df7d5a:
     erick "It can't be that they listen to you and do whatever you tell them to do."
     erick "It was not you who took that picture!"
     bardie "What do you mean?! You don't believe me, dude? Who else could have taken that picture?"
-    erick "How do I know? Maybe you sent it from your dad's phone, and now you're telling to me that you took these pictures."
+    erick "How do I know? Maybe you sent it from your dad's phone, and now you're telling me that you took these pictures."
     bardie "Betty would rather kick him out of the house than let him take a picture like that."
     erick "Yep. And you command two mature women... I don't believe you!"
     erick "..."
@@ -40,7 +40,7 @@ translate english dialogue_classmate_1_38df7d5a:
     mt "This baby brought into the house another as preoccupied petty pervert as himself."
     m "Yes? You called me?"
     bardie "Maid, I must see if you observe the rules of this house!"
-    m "What, right now? With your friend?!" 
+    m "What, right now? With your friend?!"
     m "???"
     bardie "Yes, I need to check right now, maid."
     m "It's not my job to do that! I'm not going to pass this test in front of your friend!"
@@ -95,17 +95,17 @@ translate english dialogue_classmate_1_c75b8c8d:
     # m "!!!"
     bardie "Well? Now you're sure I wasn't lying?"
     erick "..."
-    bardie "I won the bet! You have to do all homework for the month ahead for me!"
+    bardie "I won the bet! You have to do all the homework for the month ahead for me!"
     mt "Were they arguing for homework? Kindergarten!"
     mt "Now he's finally going to get rid of me?"
     erick "N-no..."
     bardie "What 'no'? We agreed with you!"
     erick "I am... Um... The dispute is not won."
     erick "Because I... I didn't see properly..."
-    m "What do you mean 'didn't see'?! I did everything as said Bardi."
+    m "What do you mean 'didn't see'?! I did everything as said Bardie."
     erick "If your maid pulls up her skirt again and.. let me take a closer look, then I'll do your homework for 2 months."
     mt "!!!"
-    mt "These two babies are arguing about something stupid! And I have to stand here in front of them half naked!!!"
+    mt "These two babies are arguing about something stupid! And I have to stand here in front of them, half-naked!!!"
     bardie "What are you waiting for, maid? Did you hear that? Come closer to us and lift your skirt again!"
     mt "I hate that boy! And his horny friend!"
     mt "If I don't, he won't let go of me."
@@ -194,12 +194,12 @@ translate english dialogue_classmate_1_efc0a63c:
     bardie "Wider! He can't see anything like that."
     mt "I'll strangle that filthy little thing someday! And why did he cling to me, not Betty?!"
     mt "!!!"
-    erick "Dude, I've seen pussy licking in porn and I've always wanted to try it. You don't mind, do you?"
+    erick "Dude, I've seen pussy licking in porn, and I've always wanted to try it. You don't mind, do you?"
     bardie "???"
     bardie "Okay."
     m "What the hell?! Don't you want to ask me? I don't want you to touch me!"
     bardie "He would only touch his tongue and do nothing more."
-    bardie "But for the master he will do homework for two months."
+    bardie "But for the master, he will do homework for two months."
     bardie "A good maid should be glad to make such small sacrifices for her master."
     mt "How awful! Do I have to spread my legs in front of someone for this brat's homework?"
     mt "Me?! Monica Buckfett! The richest and most powerful woman in this city!"
@@ -216,7 +216,7 @@ translate english dialogue_classmate_1_efc0a63c:
     mt "But it's still disgusting!"
     mt "When is he going to finish this?"
     bardie "Hey, man! We're good? Will you do my homework?"
-    erick "Yes I will!"
+    erick "Yes, I will!"
     m "!!!"
     bardie "Hey, man. Take it easy..."
     erick "Licking by yourself is much more fun than just watching it!"
@@ -282,11 +282,11 @@ translate english dialogue_classmate_2_a380c481:
 translate english dialogue_classmate_2_73f72cc4:
 
     # mt "Черт!!! Я в трусиках. Он снова накажет меня!"
-    # mt "Хотя... Что он мне сделает? Я же послушаю его приказа поднять юбку." 
+    # mt "Хотя... Что он мне сделает? Я же послушаю его приказа поднять юбку."
     # bardie "Ты плохая гувернантка!"
     # bardie "В качестве наказания гувернантке нужно будет кое-что сделать для хозяина."
     mt "Fuck!!! I'm wearing panties. He will punish me again!"
-    mt "Although... What would he do to me? I'll listen to his orders to lift my skirt." 
+    mt "Although... What would he do to me? I'll listen to his orders to lift my skirt."
     bardie "You're a bad maid!"
     bardie "As a punishment, the maid will need to do something for the master."
 
@@ -378,7 +378,7 @@ translate english dialogue_classmate_2_9a0b929c:
     # mt "Ненавижу все эту семейку, которая поселилась в моем доме! И Я еще должна молча все это терпеть!"
     m "???"
     mt "What else had he come up with?"
-    mt "Although, from these two concerned I can expect only one..."
+    mt "Although, from these two concerned, I can expect only one..."
     bardie "Eric needs a mom."
     m "What do you mean 'need a mom'? What does that have to do with me?"
     bardie "You will be his mom"
@@ -391,7 +391,7 @@ translate english dialogue_classmate_2_9a0b929c:
     bardie "You have to pretend to be Eric's mom and go talk to the class leader."
     bardie "His parents can not, because the topic is very delicate."
     bardie "Eric wouldn't want his parents to know what he did."
-    m "What have you done?Why can't your parents know about this?"
+    m "What have you done? Why can't your parents know about this?"
     erick "Well... I am... As saying..."
     erick "..."
     m "How do you imagine that? Why would I go to college and cheat on a teacher?"
@@ -400,14 +400,14 @@ translate english dialogue_classmate_2_9a0b929c:
     bardie "Betty managed to solve a very difficult question with him. You're all the more likely can solve Eric's little problem."
     m "I'm not going anywhere! It's all nonsense!"
     bardie "It's not a request, maid! This is the master's order."
-    bardie "To argue with the owner, especially at a party,when we have guests, is forbidden!"
+    bardie "To argue with the owner, especially at a party, when we have guests, is forbidden!"
     m "I work here as a maid! I didn't hire to be somebody's mom!"
     m "I don't know how or what to do! I don't look like anyone's mother!"
     m "!!!"
     bardie "Betty didn't know either, but she figured it out. And you will understand, the maid."
     bardie "But about the fact that unlike anyone's mother-Yes. You need a normal dress."
     bardie "You don't have to go in a maid uniform."
-    bardie "You have a nice uniform and I like it. Although I don't think your uniform suits you very well."
+    bardie "You have a nice uniform, and I like it. Although I don't think your uniform suits you very well."
     m "What do you mean?"
     bardie "In this uniform, the maid has to make unnecessary movements... to show that she follows the rules of the house."
     bardie "It should be seen for master without special movements how good maid you are."
@@ -424,7 +424,7 @@ translate english dialogue_classmate_2_9a0b929c:
     bardie "Then the maid must buy one. Meet with the teacher need the faster, the better."
     m "..."
     bardie "The maid must listen to him carefully and apologize for Eric."
-    bardie "Then to say that you will definitely talk to your son and this will not happen again."
+    bardie "Then to say that you will definitely talk to your son, and this will not happen again."
     m "..."
     bardie "If the teacher asks you to do something for the needs of the class, then agree. This will help Eric avoid punishment."
     m "Why would I do anything for the needs of the class?"
@@ -438,7 +438,7 @@ translate english dialogue_classmate_2_9a0b929c:
     m "I have no money for a dress!"
     bardie "Don't lie! Betty says you get a big paycheck here. So you'll find a few bucks to buy a dress."
     bardie "Eric and I will wait for you here. I hope you come back from college with good news."
-    mt "I hate all this family, which settled in my house!And I still have to stand it in silence!"
+    mt "I hate all this family, which settled in my house! And I still have to stand it in silence!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:316
 translate english dialogue_classmate_2_1_fd7f671f:
@@ -449,7 +449,7 @@ translate english dialogue_classmate_2_1_fd7f671f:
     # mt "!!!"
     # mt "Мне надо скорее идти в магазин!"
     mt "I'll have to go back to the damn store, eww!"
-    mt "But I'd better do as Bardi little guy wants. Otherwise he'll go to Marcus and tell him where I live."
+    mt "But I'd better do as Bardi little guy wants. Otherwise, he'll go to Marcus and tell him where I live."
     mt "I'm afraid to think of him sending the police to take me away... and put back in that cell..."
     mt "!!!"
     mt "I have to go to the store!"
@@ -508,7 +508,7 @@ translate english dialogue_classmate_3_1_437bd925:
     # vivian "Специально для Вас скидка 50 процентов."
     # vivian "Приходите к нам еще. Мы всегда рады вас видеть."
     # m "Спасибо. Обязательно."
-    vivian "Especially for you 50 percent discount."
+    vivian "It costs $ 40, but especially for you a 50 percent discount."
     vivian "Come to us again. We are always glad to see you."
     m "Thanks. Necessarily."
 
@@ -540,23 +540,23 @@ translate english dialogue_classmate_3_1_b8a1e486:
     # mt "!!!"
     # vivian "Да. Давай, просто сделай это и заберешь костюм со скидкой."
     # vivian "Давай, еще один разочек немного ниже."
-    # m "Ты говорила про один поцелуй!" 
+    # m "Ты говорила про один поцелуй!"
     # vivian "Я не уточнила сколько раз нужно поцеловать мой животик."
     # mt "!!!"
     # vivian "Ммм..."
     # vivian "И еще..."
     # mt "Да она издевается!"
-    # m "Я не буду больше этого делать!" 
+    # m "Я не буду больше этого делать!"
     # vivian "Последний раз и все. Иначе никакой скидки!"
     # mt "Какая мерзость!"
     # mt "!!!"
-    # vivian "Ммм... Это было приятно." 
+    # vivian "Ммм... Это было приятно."
     # vivian "Теперь можешь купить этот костюм со скидкой."
     # mt "Ну наконец-то!"
     # mt "..."
     # vivian "Твой костюм. Надеюсь, ты скоро придешь снова."
-    # vivian "Тебе же понравился мой индивидуальный подход к постоянным клиентам?" 
-    # m "Очень!" 
+    # vivian "Тебе же понравился мой индивидуальный подход к постоянным клиентам?"
+    # m "Очень!"
     # mt "Надеюсь, что мне больше не придется возвращаться в этот магазин с дурацкой одеждой для людей без вкуса."
     # mt "И общаться с НЕЙ!"
     # mt "Фи!"
@@ -573,23 +573,23 @@ translate english dialogue_classmate_3_1_b8a1e486:
     mt "!!!"
     vivian "Yes. Come on, just do it and pick up the discounted suit."
     vivian "Come on, one more time a little lower."
-    m "You said one kiss!" 
+    m "You said one kiss!"
     vivian "I didn't specify how many times to kiss my tummy."
     mt "!!!"
     vivian "Mmm..."
     vivian "And one more..."
     mt "She's kidding!"
-    m "I won't do it again!" 
-    vivian "The last time and all. Otherwise you'll have no discount!"
+    m "I won't do it again!"
+    vivian "The last time and all. Otherwise, you'll have no discount!"
     mt "What an abomination!"
     mt "!!!"
-    vivian "Mmm... It was nice." 
+    vivian "Mmm... It was nice."
     vivian "Now you can buy this suit at a discount."
     mt "Finally!"
     mt "..."
     vivian "Your suit. I hope you come again soon."
-    vivian "You liked my individual approach to regular customers, don't you?" 
-    m "I liked it a lot!" 
+    vivian "You liked my individual approach to regular customers, don't you?"
+    m "I liked it a lot!"
     mt "I hope I don't have to go back to that store with ridiculous clothes for people with no taste."
     mt "And to communicate with her!"
     mt "Phi!"
@@ -678,7 +678,7 @@ translate english dialogue_classmate_3_2_d991e79e:
     # mt "Сейчас мне нужно переодеться и идти в колледж."
     # mt "Если я сделаю что-то не так, Барди меня накажет и снова будет угрожать Маркусом."
     # mt "Лучше лишний раз не связываться с этой малявкой."
-    mt "Now I need to change clothes and go to college."
+    mt "Now I have to change and go to сollege."
     mt "If I do something wrong, Bardie will punish me and threaten Marcus again."
     mt "It is better not to mess with this little boy once again."
 
@@ -748,11 +748,11 @@ translate english dialogue_classmate_4_929e8e29:
     # mt "Как-будто у меня своих проблем мало! Еще этот Барди со своим другом..."
     # mt "Так, Моника, соберись! Нужно сделать все, как хочет Барди, иначе проблем станет еще больше."
     mt "I feel terrible in this outfit. How could that hillbilly Betty wear that?"
-    mt "I can't believe it! I, Monica Buckfett will pretend to be some kind of Mrs B..."
+    mt "I can't believe it! I, Monica Buckfett, will pretend to be some kind of Mrs. B..."
     mt "Forgotten... Damn it. Something on B..."
     mt "The teacher, I think, is Edwards. I hope I can get it done quickly. And quickly forget about these nonsense babies."
     mt "As if I don't have enough problems of my own! And this Bardie with his friend..."
-    mt "Okay, Monica, get yourself together! I have to do everything as Bardie wants, otherwise there will be even more problems."
+    mt "Okay, Monica, get yourself together! I have to do everything as Bardie wants. Otherwise, there will be even more problems."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:565
 translate english dialogue_classmate_5_038c2db8:
@@ -793,22 +793,22 @@ translate english dialogue_classmate_5_98f81244:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:578
 translate english dialogue_classmate_5_44ad78c5:
 
-    # teacher "Проходите, миссис Бейкер. Присаживайтесь." 
-    teacher "Come in, Mrs. Baker. Sit down." 
+    # teacher "Проходите, миссис Бейкер. Присаживайтесь."
+    teacher "Come in, Mrs. Baker. Sit down."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:581
 translate english dialogue_classmate_5_537936c7:
 
     # teacher "Эрик - один из лучших студентов в классе и никогда с ним не было проблем. Но вот на днях..."
     # teacher "На днях Эрик залез в шкафчик с одеждой тренера по плаванию. И она его застала за тем, что он дро... хм-м, что он мастурбировал, используя ее нижнее белье."
-    teacher "Eric is one of the best students in the class and I have never had a problem with him. But the other day..."
+    teacher "Eric is one of the best students in the class, and I have never had a problem with him. But the other day..."
     teacher "The other day, Eric went into the locker with the swim coach's clothes. And she caught him... hmm, when he was masturbating using her underwear."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:584
 translate english dialogue_classmate_5_0711bd07:
 
-    # mt "И почему я не удивлена?.." 
-    mt "Why am I not surprised?" 
+    # mt "И почему я не удивлена?.."
+    mt "Why am I not surprised?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:586
 translate english dialogue_classmate_5_e0667ecb:
@@ -816,14 +816,14 @@ translate english dialogue_classmate_5_e0667ecb:
     # teacher "Тренер очень возмущена и собирается идти к директору. Она будет требовать у директора наказать Эрика."
     # teacher "Но я ее уговорил немного подождать, так как хотел поговорить сначала с вами."
     teacher "The coach is very indignant and is going to go to the director. She will demand the principal to punish Eric."
-    teacher "But I persuaded her to wait a little, because I wanted to talk to you first."
+    teacher "But I persuaded her to wait for a little because I wanted to talk to you first."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:589
 translate english dialogue_classmate_5_4c7df51e:
 
     # teacher "Возможно, мы с вами сможем уладить этот вопрос без вмешательства директора."
     # teacher "Я не хотел бы, чтобы у Эрика была плохая характеристика. И чтобы об этом инциденте узнал весь колледж."
-    teacher "Perhaps you and me can settle this matter without the director's intervention."
+    teacher "Perhaps you and I can settle this matter without the director's intervention."
     teacher "I wouldn't want Eric to have a bad characterization. As well as I wouldn't want the whole college to know about this incident."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:592
@@ -831,7 +831,7 @@ translate english dialogue_classmate_5_bc882c8a:
 
     # mt "Какая-нибудь мама на моем месте, наверное, была бы в шоке."
     # mt "Нужно сказать этому мистеру Эдвардсу что-нибудь эмоционально. Как там Барди мне говорил?"
-    mt "Some mom in my shoes would probably be in shock."
+    mt "Some moms in my shoes would probably be in shock."
     mt "I need to say something emotional to this Mr. Edwards. What did Bardie tell me?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:596
@@ -840,7 +840,7 @@ translate english dialogue_classmate_5_9abe4d14:
     # m "Мистер Эдвардс, я просто шокирована поступком Эрика! Я обязательно серьезно поговорю с ним!"
     # m "Такого больше не повторится, мистер Эдвардс. И я предпочла бы, чтобы не было никакой огласки."
     m "Mr. Edwards, I'm shocked by what Eric did! I'll have a serious talk with him!"
-    m "It won't happen again, Mr. Edwards. And I'd rather have this issues also not in the publicity."
+    m "It won't happen again, Mr. Edwards. And I'd rather have these issues also not in the publicity."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:600
 translate english dialogue_classmate_5_f957e136:
@@ -892,7 +892,7 @@ translate english dialogue_classmate_5_75580f1d:
     # teacher "И я даже не знаю, как это сделать."
     # teacher "Она очень строгая и так просто с ней не договориться."
     teacher "And I don't even know how to do it."
-    teacher "She's very strict and it's easy not to negotiate with her."
+    teacher "She's very strict, and it's easy not to negotiate with her."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:621
 translate english dialogue_classmate_5_8c2b0eea:
@@ -905,8 +905,8 @@ translate english dialogue_classmate_5_8c2b0eea:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:624
 translate english dialogue_classmate_5_c1632e3d:
 
-    # m "Мистер Эдвардс, есть ли у вас какие-нибудь идеи? Как вы сможете договориться с ней?" 
-    m "Mr. Edwards, do you have any ideas? How can you negotiate with her?" 
+    # m "Мистер Эдвардс, есть ли у вас какие-нибудь идеи? Как вы сможете договориться с ней?"
+    m "Mr. Edwards, do you have any ideas? How can you negotiate with her?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:626
 translate english dialogue_classmate_5_b637f9eb:
@@ -915,17 +915,17 @@ translate english dialogue_classmate_5_b637f9eb:
     # teacher "Для этого ей нужна не только физическая форма и успехи в педагогике..."
     # teacher "Но и солидный объем теоретической работы."
     teacher "Yes, there is an idea. She wants to be nominated for teacher of the year."
-    teacher "For this she needs not only physical form and success in pedagogy..."
+    teacher "For this, she needs not only physical form and success in pedagogy..."
     teacher "But also a solid amount of theoretical work."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:630
 translate english dialogue_classmate_5_6223f241:
 
     # teacher "Она должна предложить какую-нибудь прогрессивную методику преподавания. Таковой у нее нет."
-    # teacher "А у меня как раз есть кое-какие наработки по современной методике преподавания. И я мог бы передать их мисс Мэнсфилд." 
+    # teacher "А у меня как раз есть кое-какие наработки по современной методике преподавания. И я мог бы передать их мисс Мэнсфилд."
     # teacher "Но, понимаете, миссис Бейкер... Просто так я это сделать не могу. Я потратил немало времени на эту работу."
-    teacher "She must offer some progressive method of teaching. But she doesn't have one."
-    teacher "And I just got some of the developments for modern methods of teaching. And I could give them to Miss Mansfield." 
+    teacher "She must offer some progressive methods of teaching. But she doesn't have one."
+    teacher "And I just got some of the developments for modern methods of teaching. And I could give them to Miss Mansfield."
     teacher "But, you see, Mrs. Baker... I can't just do it. I spent a lot of time on these developments."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:634
@@ -945,8 +945,8 @@ translate english dialogue_classmate_5_d112daec:
 
     # mt "Хоть на этот раз обойдется без сомнительных просьб в мой адрес..."
     # mt "Это все-таки учитель. Он должен быть высокоморальным человеком и примером для своих учеников."
-    mt "At least this time there will be no questionable requests ito my address..."
-    mt "It's a teacher after all. He should be a moral person and an example for his students."
+    mt "At least this time, there will be no questionable requests to my address..."
+    mt "It's a teacher, after all. He should be a moral person and an example for his students."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:643
 translate english dialogue_classmate_5_077ea94e:
@@ -955,7 +955,7 @@ translate english dialogue_classmate_5_077ea94e:
     # teacher "Но дело уж очень деликатное..."
     # teacher "Я вынужден попросить вас о небольшом одолжении. Это все же делается ради вашего сына, миссис Бейкер."
     teacher "I feel uncomfortable, Mrs. Baker..."
-    teacher "Because it's very delicate question..."
+    teacher "Because it's a very delicate question..."
     teacher "I have to ask you a small favor. It's for your son's sake, Mrs. Baker."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:648
@@ -1011,8 +1011,8 @@ translate english dialogue_classmate_5_d4241cdf:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:679
 translate english dialogue_classmate_5_e6cbb911:
 
-    # teacher "А, миссис Бейкер! Это вы? Ну как, вы надумали?" 
-    teacher "Ah, Mrs. Baker! It is you? Well, what are you up to?" 
+    # teacher "А, миссис Бейкер! Это вы? Ну как, вы надумали?"
+    teacher "Oh, Mrs. Baker! Is that you? Well, what dо you think?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:683
 translate english dialogue_classmate_5_44bf82f4:
@@ -1031,16 +1031,16 @@ translate english dialogue_classmate_5_e3132f2c:
     # mt "Хотя мог бы воспользоваться ситуацией."
     # mt "Я уже насмотрелась на разных извращенцев и этот мистер Эдвардс не похож на них."
     mt "He just wants me to show my Breasts. He doesn't hint at anything more."
-    mt "Although he could take advantage of situation."
-    mt "I've seen enough perverts and this Mr. Edwards doesn't look like one."
+    mt "Although he could take advantage of the situation."
+    mt "I've seen enough perverts, and this Mr. Edwards doesn't look like one."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:691
 translate english dialogue_classmate_5_3904c8ed:
 
     # m "Хорошо, мистер Эдвардс. Я покажу грудь, но только прикасаться ко мне я не позволю."
-    # m "Можно только посмотреть!" 
+    # m "Можно только посмотреть!"
     m "All right, Mr. Edwards. I'll show you my breasts, but I won't let you touch me."
-    m "You can only look!" 
+    m "You can only look!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:695
 translate english dialogue_classmate_5_7223d4f4:
@@ -1079,8 +1079,8 @@ translate english dialogue_classmate_5_f6a6fe71:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:708
 translate english dialogue_classmate_5_b368a56b:
 
-    # m "Нет, мы так не договаривались. Вы достаточно посмотрели, мистер Эдвардс?" 
-    m "No, that's not what we agreed. Have you seen enough, Mr. Edwards?" 
+    # m "Нет, мы так не договаривались. Вы достаточно посмотрели, мистер Эдвардс?"
+    m "No, that's not what we agreed. Have you seen enough, Mr. Edwards?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:710
 translate english dialogue_classmate_5_8fda534c:
@@ -1100,9 +1100,9 @@ translate english dialogue_classmate_5_3b6bb76f:
 translate english dialogue_classmate_5_88b3d160:
 
     # teacher "Я позвонил бы вам, но так как дело очень деликатное и я боюсь огласки..."
-    # teacher "Будет лучше, если вы снова придете ко мне. И тогда я вам лично все сообщу, миссис Бейкер." 
-    teacher "I'd call you, but it's a delicate matter and I'm afraid of publicity..."
-    teacher "It would be better if you came to me again. And then I'll tell you personally, Mrs. Baker." 
+    # teacher "Будет лучше, если вы снова придете ко мне. И тогда я вам лично все сообщу, миссис Бейкер."
+    teacher "I'd call you, but it's a delicate matter, and I'm afraid of publicity..."
+    teacher "It would be better if you came to me again. And then I'll tell you personally, Mrs. Baker."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:720
 translate english dialogue_classmate_5_3542ca6d:
@@ -1117,8 +1117,8 @@ translate english dialogue_classmate_5_3389679b:
 
     # mt "А если что-то у учителя пойдет не так?"
     # mt "То у Эрика будут проблемы. И у меня тогда тоже... с Барди."
-    mt "What if something goes wrong ?"
-    mt "Eric will be in trouble. That means that i will have troubles too... with Bardie."
+    mt "What if something goes wrong?"
+    mt "Eric will be in trouble. That means that I will have trouble too... with Bardie."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:726
 translate english dialogue_classmate_5_bbffdb52:
@@ -1170,11 +1170,11 @@ translate english dialogue_classmate_5_1b_c59f7a65:
     # m "Нет! И я не собираюсь заниматься этими глупостями!"
     # m "Я не пойду больше в этот твой чертов колледж! Разбирайтесь сами!"
     # bardie "Гувернантка забыла, что Эрик делает хозяину домашку?"
-    # m "Да какое мне дело до этого?!" 
+    # m "Да какое мне дело до этого?!"
     # m "Пусть сам решает свои проблемы!!!"
     # bardie "Гувернантка плохая! Ее надо наказать!"
     # bardie "Покажи мне, как хорошо ты соблюдаешь правила этого дома!"
-    # m "!!!" 
+    # m "!!!"
     # mt "Надеюсь, после этого он, наконец, отстанет от меня."
     # bardie "Гувернантка ослушалась приказа хозяина!"
     # bardie "Плохая гувернантка!"
@@ -1198,11 +1198,11 @@ translate english dialogue_classmate_5_1b_c59f7a65:
     m "No! And I'm not going to do this nonsense!"
     m "I'm not going to that damn college anymore! Sort it out yourself!"
     bardie "Had the maid forgotten that Eric was doing his master's homework?"
-    m "What do I care?!" 
+    m "What do I care?!"
     m "Let him solve his own problems!!!"
     bardie "The maid is bad! She must be punished!"
     bardie "Show me how well you follow the rules of this house!"
-    m "!!!" 
+    m "!!!"
     mt "I hope he finally leaves me alone after that."
     bardie "The maid disobeyed the master's orders!"
     bardie "Bad maid!"
@@ -1226,7 +1226,7 @@ translate english dialogue_classmate_6_28d9d498:
     # mt "Ненавижу этих двух малявок! Надеюсь, сегодня обойдется без уроков по вылизыванию меня там..."
     # bardie "Ну как сходила, гувернантка? Надеюсь, у тебя все получилось уладить?"
     # m "Если бы твой друг включил мозг, когда надумал залезть в шкафчик мисс Мэнсфилд. То проблем бы никаких не было."
-    # m "А теперь мне и учителю приходится думать о том, как это уладить!" 
+    # m "А теперь мне и учителю приходится думать о том, как это уладить!"
     # m "Мистер Эдвардс сказал, что поговорит с мисс Мэнсфилд. Как будет результат, он мне сообщит."
     # m "Из-за этого мне снова придется идти в колледж."
     # m "А это никак не входило в мои планы!"
@@ -1239,8 +1239,8 @@ translate english dialogue_classmate_6_28d9d498:
     mt "I hate those two babies! I hope today there will be lessons without licking me there..."
     bardie "How was it, maid? I hope you've got it all sorted out."
     m "If your friend had turned on his brain when he decided to go into miss Mansfield's locker, there would be no problems."
-    m "And now the teacher and I have to think about how to deal with it!" 
-    m "Mr Edwards said he would speak to Miss Mansfield. As soon as he gets result, he will tell me."
+    m "And now the teacher and I have to think about how to deal with it!"
+    m "Mr. Edwards said he would speak to Miss Mansfield. As soon as he gets the result, he will tell me."
     m "Because of that, I'll have to go back to college."
     m "And that wasn't part of my plan!"
     bardie "The maid is good! I can see she's trying."
@@ -1260,7 +1260,7 @@ translate english dialogue_classmate_7_b74f8754:
     mt "I feel terrible in that. How could that hillbilly Betty wear that?"
     mt "I hope the teacher did it and I don't have to come back here again."
     mt "I need to do everything so that this little horny pervert does not have problems in college."
-    mt "Otherwise I'll have even more problems than I have right now."
+    mt "Otherwise, I'll have even more problems than I have right now."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:833
 translate english dialogue_classmate_8_428be37a:
@@ -1283,8 +1283,8 @@ translate english dialogue_classmate_8_9fa0f6bc:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:841
 translate english dialogue_classmate_8_377c5072:
 
-    # m "Удалось ли вам договориться с мисс Мэнсфилд?" 
-    m "Did you manage to make a deal with Miss Mansfield?" 
+    # m "Удалось ли вам договориться с мисс Мэнсфилд?"
+    m "Did you manage to make a deal with Miss Mansfield?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:843
 translate english dialogue_classmate_8_70692dfc:
@@ -1308,7 +1308,7 @@ translate english dialogue_classmate_8_a5da6166:
     # teacher "Она осталась не совсем довольна тем, что мою методику преподавания ей нужно дорабатывать."
     # teacher "Но мисс Мэнсфилд согласна подождать, когда я закончу работу."
     # teacher "Только после этого она согласна забыть про случай с Эриком."
-    teacher "She was not entirely satisfied and I need to improve my teaching methods."
+    teacher "She was not entirely satisfied, and I need to improve my teaching methods."
     teacher "But Miss Mansfield will wait until I finish my work."
     teacher "Only then she will agree to forget about what happened with Eric."
 
@@ -1343,9 +1343,9 @@ translate english dialogue_classmate_8_d0666177:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:863
 translate english dialogue_classmate_8_29b036d6:
 
-    # mt "Сейчас он снова будет просить о поддержке..." 
+    # mt "Сейчас он снова будет просить о поддержке..."
     # mt "Извращенец..."
-    mt "Now he will ask for support again ..." 
+    mt "Now he will ask for support again ..."
     mt "Pervert..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:866
@@ -1353,16 +1353,16 @@ translate english dialogue_classmate_8_51a0cecb:
 
     # teacher "Если бы вы, миссис Бейкер, смогли показать мне снова свою грудь."
     # teacher "И дать ее потрогать совсем немного."
-    # teacher "То я смогу найти в себе силы сделать это." 
+    # teacher "То я смогу найти в себе силы сделать это."
     teacher "If you could show me your breasts again, Mrs. Baker."
-    teacher "And let me to touch them little bit."
-    teacher "Then I can find the strength to do it." 
+    teacher "And let me touch them a little bit."
+    teacher "Then I can find the strength to do it."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:870
 translate english dialogue_classmate_8_63253b7b:
 
-    # m "..." 
-    m "..." 
+    # m "..."
+    m "..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:872
 translate english dialogue_classmate_8_4f0637ac:
@@ -1427,8 +1427,8 @@ translate english dialogue_classmate_8_e612037c:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:908
 translate english dialogue_classmate_8_33d00828:
 
-    # m "Потрогать можно совсем немного, мистер Эдвардс!" 
-    m "You can touch me but just a little, Mr. Edwards!" 
+    # m "Потрогать можно совсем немного, мистер Эдвардс!"
+    m "You can touch me but just a little, Mr. Edwards!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:911
 translate english dialogue_classmate_8_182254b1:
@@ -1445,8 +1445,8 @@ translate english dialogue_classmate_8_f7ac2629:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:922
 translate english dialogue_classmate_8_d3042a01:
 
-    # m "Я знаю, мистер Эдвардс! Достаточно!" 
-    m "I know, Mr. Edwards! Enough!" 
+    # m "Я знаю, мистер Эдвардс! Достаточно!"
+    m "I know, Mr. Edwards! Enough!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:925
 translate english dialogue_classmate_8_152c036d:
@@ -1463,8 +1463,8 @@ translate english dialogue_classmate_8_b6ed954a:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:929
 translate english dialogue_classmate_8_64760f28:
 
-    # teacher "Будет лучше, если вы снова придете ко мне. И тогда я вам лично все сообщу, миссис Бейкер." 
-    teacher "It would be better if you came to me again. And then I'll tell you personally, Mrs. Baker." 
+    # teacher "Будет лучше, если вы снова придете ко мне. И тогда я вам лично все сообщу, миссис Бейкер."
+    teacher "It would be better if you came to me again. And then I'll tell you personally, Mrs. Baker."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:932
 translate english dialogue_classmate_8_3542ca6d:
@@ -1480,7 +1480,7 @@ translate english dialogue_classmate_8_6b7171cc:
     # mt "А если что-то у учителя пойдет не так?"
     # mt "То у Эрика будут проблемы."
     # mt "И у меня тогда тоже... с Барди."
-    mt "What if something goes wrong ?"
+    mt "What if something goes wrong?"
     mt "Eric will be in trouble."
     mt "And me too then... with Bardi."
 
@@ -1517,11 +1517,11 @@ translate english dialogue_classmate_8_2_0884b0e8:
     # teacher "Да, конечно. Я доработал методику для вас. Осталось внести всего несколько поправок."
     # mansfield "..."
     # teacher "Завтра утром я ее вам отдам, мисс Мэнсфилд."
-    # mansfield "В таком случае до завтра, мистер Эдвардс!" 
+    # mansfield "В таком случае до завтра, мистер Эдвардс!"
     # teacher "Мисс Мэнсфилд?!"
     # mansfield "???"
     # teacher "Я... для вас..."
-    # teacher "Я очень старался для вас, мисс Мэнсфилд." 
+    # teacher "Я очень старался для вас, мисс Мэнсфилд."
     # teacher "Это лучшая прогрессивная методика преподавания."
     # teacher "Я проделал огромную работу..."
     # teacher "Я был бы очень рад угостить вас ужином, мисс Мэнсфилд."
@@ -1531,31 +1531,31 @@ translate english dialogue_classmate_8_2_0884b0e8:
     # mansfield "НЕТ!"
     # mansfield "Уясните, меня это НЕ ИНТЕРЕСУЕТ!"
     # mansfield "Меня ВЫ не интересуете!"
-    # teacher "Тогда, можеть быть... Кофе?" 
+    # teacher "Тогда, можеть быть... Кофе?"
     # teacher "Составите мне компанию, мисс Мэнсфилд?"
     # mansfield "Ответ НЕТ."
     # mansfield "И о какой благодарности с моей стороны может быть речь?!"
     # mansfield "Вообще-то, это Я вам сделала одолжение, мистер Эдвардс!"
-    # teacher "???" 
+    # teacher "???"
     # mansfield "Я не рассказала про вашего студента директору..."
     # mansfield "По вашей просьбе."
     # teacher "..."
     # mansfield "Не знаю, зачем вы так за него заступаетесь..."
-    # teacher "Он... Я..." 
+    # teacher "Он... Я..."
     # mansfield "Надеюсь, вас за это хорошо отблагодарили, мистер Эдвардс."
-    # teacher "!!!" 
+    # teacher "!!!"
     # mansfield "Жду мою методику завтра!"
     teacher "You look lovely today, Miss Mansfield."
     teacher "Good to see you! Sit down."
     mansfield "Let's get to the point, Mr. Edwards!"
-    teacher "Yes of course. I've refined the methodology for you. There are only a few amendments left to make."
+    teacher "Yes, of course. I've refined the methodology for you. There are only a few amendments left to make."
     mansfield "..."
     teacher "I'll give it to you tomorrow morning, Miss Mansfield."
-    mansfield "See you tomorrow, then, Mr. Edwards!" 
+    mansfield "See you tomorrow, then, Mr. Edwards!"
     teacher "Miss Mansfield?!"
     mansfield "???"
     teacher "I am... for you..."
-    teacher "I have tried very hard for you, Miss Mansfield." 
+    teacher "I have tried very hard for you, Miss Mansfield."
     teacher "This is the best progressive method of teaching."
     teacher "I've done a great job..."
     teacher "I'd love to have dinner with you, Miss Mansfield."
@@ -1565,19 +1565,19 @@ translate english dialogue_classmate_8_2_0884b0e8:
     mansfield "NO!"
     mansfield "I'm not INTERESTED!"
     mansfield "I'm not interested in YOU!"
-    teacher "Then maybe... Coffee?" 
+    teacher "Then maybe... Coffee?"
     teacher "Will you accompany me, Miss Mansfield?"
     mansfield "The answer is NO."
     mansfield "And what kind of gratitude on my part can be discussed?!"
     mansfield "Actually, I did you a favor, Mr. Edwards!"
-    teacher "???" 
+    teacher "???"
     mansfield "I didn't tell the principal about your student..."
     mansfield "At your request."
     teacher "..."
     mansfield "I don't know why you stand up for him like that..."
-    teacher "He... I am..." 
+    teacher "He... I am..."
     mansfield "I hope you've been well thanked for that, Mr. Edwards."
-    teacher "!!!" 
+    teacher "!!!"
     mansfield "Waiting for my methodology tomorrow!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1006
@@ -1614,7 +1614,7 @@ translate english dialogue_classmate_10_c7c97528:
     mt "I feel terrible in this outfit. How can that hillbilly Betty wear that?"
     mt "I hope the teacher did it and I don't have to come back here again."
     mt "I need to do everything so that this little horny pervert does not have problems in college."
-    "Otherwise I'll have even more problems than I have right now."
+    "Otherwise, I'll have even more problems than I have right now."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1039
 translate english dialogue_classmate_11_08989483:
@@ -1628,13 +1628,13 @@ translate english dialogue_classmate_11_1e691dce:
     # teacher "Здавствуйте, миссис Бейкер."
     # teacher "Я вас ждал. Присаживайтесь."
     teacher "Hello, Mrs. Baker."
-    teacher "I've waiting for you. Sit down, please."
+    teacher "I've waited for you. Sit down, please."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1046
 translate english dialogue_classmate_11_377c5072:
 
-    # m "Удалось ли вам договориться с мисс Мэнсфилд?" 
-    m "Did you manage to make a deal with Miss Mansfield?" 
+    # m "Удалось ли вам договориться с мисс Мэнсфилд?"
+    m "Did you manage to make a deal with Miss Mansfield?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1048
 translate english dialogue_classmate_11_b5c574e5:
@@ -1653,9 +1653,9 @@ translate english dialogue_classmate_11_e612037c:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1053
 translate english dialogue_classmate_11_3f3b8214:
 
-    # teacher "Но, благодаря вам, миссис Бейкер, я превзошел сам себя и доделал свою методику." 
+    # teacher "Но, благодаря вам, миссис Бейкер, я превзошел сам себя и доделал свою методику."
     # teacher "Теперь она точно будет довольна!"
-    teacher "But thanks to you, Mrs. Baker, I've outdone myself and perfected my technique." 
+    teacher "But thanks to you, Mrs. Baker, I've outdone myself and perfected my technique."
     teacher "Now she will definitely be happy!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1056
@@ -1673,8 +1673,8 @@ translate english dialogue_classmate_11_cff9d308:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1061
 translate english dialogue_classmate_11_16bd7868:
 
-    # mt "!!!" 
-    mt "!!!" 
+    # mt "!!!"
+    mt "!!!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1063
 translate english dialogue_classmate_11_0959acfd:
@@ -1691,10 +1691,10 @@ translate english dialogue_classmate_11_33d2a9ff:
 
     # teacher "Мне будет очень непросто это сделать, миссис Бейкер."
     # teacher "Ведь я сам могу стать номинантом! Я считаю, что моя работа достойна этого."
-    # teacher "Все зависит от того, насколько вы, миссис Бейкер, готовы поддержать меня..." 
+    # teacher "Все зависит от того, насколько вы, миссис Бейкер, готовы поддержать меня..."
     teacher "It won't be easy for me to do that, Mrs. Baker."
     teacher "After all, I can become a nominee myself! I think my work is worth it."
-    teacher "It all depends on how much you, Mrs. Baker, are willing to support me..." 
+    teacher "It all depends on how much you, Mrs. Baker, are willing to support me..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1073
 translate english dialogue_classmate_11_0a8e6d5c:
@@ -1731,7 +1731,7 @@ translate english dialogue_classmate_11_a32f4ff9:
 
     # teacher "После этого я сразу же отдам свою работу мисс Мэнсфилд."
     # teacher "И вопрос будет закрыт."
-    teacher "After that I will give my work to Miss Mansfield at once."
+    teacher "After that, I will give my work to Miss Mansfield at once."
     teacher "And the question will be closed."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1090
@@ -1817,10 +1817,10 @@ translate english dialogue_classmate_11_2dae72d0:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1128
 translate english dialogue_classmate_11_dc30a0c0:
 
-    # teacher "Я сделал все зависящее от меня, миссис Бейкер. Я пошел на такие жертвы." 
+    # teacher "Я сделал все зависящее от меня, миссис Бейкер. Я пошел на такие жертвы."
     # teacher "И все ради вас..."
     # teacher "В таком случае, у меня не получится решить проблему вашего сына, миссис Бейкер."
-    teacher "I did my best, Mrs. Baker. I made such sacrifices." 
+    teacher "I did my best, Mrs. Baker. I made such sacrifices."
     teacher "All for you..."
     teacher "In that case, I can't solve your son's problem, Mrs. Baker."
 
@@ -1836,7 +1836,7 @@ translate english dialogue_classmate_11_f45f3274:
     # mt "Если все что нужно этому извращенцу - это потрогать его член... И ничего более..."
     # mt "Возможно, мне стоит потерпеть и это все закончится, наконец-то?"
     mt "If all this pervert needs is to touch his cock... And nothing more..."
-    mt "Maybe I should be patient and this will all be over, finally?"
+    mt "Maybe I should be patient, and this will all be over, finally?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1146
 translate english dialogue_classmate_11_33d145bf:
@@ -1847,8 +1847,8 @@ translate english dialogue_classmate_11_33d145bf:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1148
 translate english dialogue_classmate_11_63253b7b:
 
-    # m "..." 
-    m "..." 
+    # m "..."
+    m "..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1154
 translate english dialogue_classmate_11_2b2c9dca:
@@ -1889,14 +1889,14 @@ translate english dialogue_classmate_11_dbd385d4:
     # mt "Он такой же извращенец, как и все."
     # mt "Только притворяется благородным и высокоморальным."
     # mt "А сам готов меня склонить к сексу!"
-    # mt "!!!" 
+    # mt "!!!"
     mt "Phew!!! How disgusting!"
     mt "What the hell?! He got me dirty!"
     teacher "I'm quite glad, Mrs. Baker... You and I have successfully closed the problem with Eric."
     mt "He's a pervert like everyone else."
     mt "Only pretends to be noble and moral."
-    mt "But ,actually, he is ready to persuade me to sex!"
-    mt "!!!" 
+    mt "But, actually, he is ready to persuade me to sex!"
+    mt "!!!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1184
 translate english dialogue_classmate_11_4d56223a:
@@ -1917,8 +1917,8 @@ translate english dialogue_classmate_11_f2391832:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1190
 translate english dialogue_classmate_11_b6e24a54:
 
-    # m "Хорошо. До свидания, мистер Эдвардс." 
-    m "Good. Goodbye, Mr. Edwards." 
+    # m "Хорошо. До свидания, мистер Эдвардс."
+    m "Good. Goodbye, Mr. Edwards."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1192
 translate english dialogue_classmate_11_ecb2d894:
@@ -1939,7 +1939,7 @@ translate english dialogue_classmate_11_1_b7128133:
     mt "It's a good thing I never see that noble and moral teacher again!"
     mt "It was awful!"
     mt "What example can such a teacher set to his students?!"
-    mt "Not surprisingly, the Bardie and Eric are horny and have only one thing on their mind!"
+    mt "Not surprisingly, the Bardie and Eric are horny and have only one thing on their minds!"
     mt "I have to go to Bardie today and tell him I've solved his friend's problem."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1210
@@ -2014,7 +2014,7 @@ translate english dialogue_classmate_12_5feace01:
     # bardie "Гувернантка, у Эрика снова проблемы в колледже."
     # bardie "Учитель вызывает его мать к себе, срочно."
     # bardie "Гувернантка должна снова притвориться мамой Эрика и пойти поговорить с учителем."
-    # mt "Не дождешься, малявка!" 
+    # mt "Не дождешься, малявка!"
     # m "Что он на этот раз натворил? Почему я опять должна идти решать его проблемы?!"
     # bardie "В прошлый раз ты достаточно быстро решила его проблему."
     # bardie "В этот раз тебе придется сделать также."
@@ -2027,21 +2027,21 @@ translate english dialogue_classmate_12_5feace01:
     # bardie "А спорить с хозяином гувернантке запрещено!"
     # bardie "Ты должна снова поговорить с учителем и извиниться за Эрика."
     # bardie "Скажешь ему, что ты обязательно поговоришь с сыном и такого больше не повторится."
-    # m "Я уже обещала подобное! И что в итоге?!" 
+    # m "Я уже обещала подобное! И что в итоге?!"
     # m "!!!"
     # mt "Черт!!! Мне снова придется разговаривать с этим высокоморальным извращенцем!"
     # bardie "Если ты все хорошо сделаешь и в этот раз, гувернантка...То я, хозяин дома, буду очень доволен."
     # bardie "Ты же хочешь, чтобы хозяин был доволен, гувернантка?"
-    # bardie "Я буду ждать тебя здесь. Надеюсь, ты вернешься из колледжа с хорошими новостями..." 
+    # bardie "Я буду ждать тебя здесь. Надеюсь, ты вернешься из колледжа с хорошими новостями..."
     # mt "Как же я устала выполнять глупые приказы этого малявки!"
     # mt "!!!"
     # mt "Скорее бы вернуть этот дом себе и выкинуть эту ненормальную семейку отсюда!"
-    bardie "A good maid. The master is pleased with her. So I can trust her with a issue."
+    bardie "A good maid. The master is pleased with her. So I can trust her with an issue."
     mt "Oh no!"
     bardie "Maid, Eric's in trouble again."
     bardie "The teacher calls his mother urgently."
     bardie "The maid must pretend to be Eric's mother again and go talk to the teacher."
-    mt "No way, little boy!" 
+    mt "No way, little boy!"
     m "What had he done this time? Why do I have to go solve his problems again?!"
     bardie "You solved his problem fast enough last time."
     bardie "You'll have to do the same this time."
@@ -2054,12 +2054,12 @@ translate english dialogue_classmate_12_5feace01:
     bardie "And it's forbidden to argue with the master!"
     bardie "You need to talk to the teacher again and apologize for Eric."
     bardie "Tell him you'll talk to your son and it won't happen again."
-    m "I've already promised something like this! And what is the result?!" 
+    m "I've already promised something like this! And what is the result?!"
     m "!!!"
     mt "Hell!!! I'm going to have to talk to this high-moral pervert again!"
     bardie "If you do well this time, maid...Then I, the master of the house, will be very pleased."
     bardie "You want the master to be pleased, don't you, maid?"
-    bardie "I'll wait for you here. I hope you come back from college with good news..." 
+    bardie "I'll wait for you here. I hope you come back from college with good news..."
     mt "How tired I am of obeying this little boy's foolish orders!"
     mt "!!!"
     mt "I wish I could get this house back and get this crazy family out of here."
@@ -2076,7 +2076,7 @@ translate english dialogue_classmate_12_1_8a246edd:
     # mt "!!!"
     # mt "Мне надо скорее идти в колледж. И не забыть надеть тот дурацкий костюм для деревенщин."
     mt "I'm going to have to go back to this damn college!"
-    mt "But I'd better do as Bardi little guy wants. Otherwise he'll go to Marcus and tell him where I live."
+    mt "But I'd better do as Bardi little guy wants. Otherwise, he'll go to Marcus and tell him where I live."
     mt "I'm afraid to even think that he will send the police and they will take me ..."
     mt "And they will put them in this cell again..."
     mt "And then they'll send me to that horrible place... No, no!"
@@ -2094,7 +2094,7 @@ translate english dialogue_classmate_13_87f8452b:
     mt "I feel awful in this suit. How can that hillbilly Betty wear that?!"
     mt "I hope this Mr. Edwards won't ask me to do any of his perverse things..."
     mt "Like I don't have enough problems of my own..."
-    mt "Okay, Monica, you need to calm that little Bardie down... Otherwise I will have even more problems."
+    mt "Okay, Monica, you need to calm that little Bardie down... Otherwise, I will have even more problems."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1315
 translate english dialogue_classmate_14_d720adbd:
@@ -2102,13 +2102,13 @@ translate english dialogue_classmate_14_d720adbd:
     # m "Мистер Эдвардс, добрый день."
     # teacher "Здавствуйте, миссис Бейкер. Я вас ждал."
     # teacher "Присаживайтесь."
-    # m "Что натворил Эрик в этот раз, мистер Эдвардс?!" 
+    # m "Что натворил Эрик в этот раз, мистер Эдвардс?!"
     # teacher "Вы не поверите, миссис Бейкер..."
     # teacher "Он снова залез в шкафчик к тренеру по плаванью..."
     # teacher "И сделал то же самое."
-    # m "ЧТО?!" 
+    # m "ЧТО?!"
     # m "!!!"
-    # teacher "Да. Мисс Мэнсфилд это снова увидела." 
+    # teacher "Да. Мисс Мэнсфилд это снова увидела."
     # teacher "У меня есть подозрения, что Эрик делает это постоянно."
     # teacher "Просто Мисс Мэнсфилд это не всегда замечает."
     # m "..."
@@ -2118,10 +2118,10 @@ translate english dialogue_classmate_14_d720adbd:
     # teacher "Мне пришлось составить для нее несколько педагогических отчетов, но..."
     # teacher "Как вы понимаете, миссис Бейкер, мне пришлось проделать огромную работу."
     # teacher "Поэтому я надеюсь на особую благодарность с вашей стороны, миссис Бейкер."
-    # mt "Ну вот, опять он начинает..." 
+    # mt "Ну вот, опять он начинает..."
     # mt "!!!"
     # mt "С другой стороны, вопрос с мисс Мэнсфилд уже улажен..."
-    # m "И что я должна сделать, мистер Эдвардс?" 
+    # m "И что я должна сделать, мистер Эдвардс?"
     # mt "Учитель на этот раз все очень быстро решил."
     # mt "И в итоге поставил меня перед фактом, что я ему должна."
     # mt "Высокоморальная сволочь!"
@@ -2134,13 +2134,13 @@ translate english dialogue_classmate_14_d720adbd:
     m "Mr. Edwards, good afternoon."
     teacher "Hello, Mrs. Baker. I've been waiting for you."
     teacher "Take a seat."
-    m "What did Eric do this time, Mr. Edwards?!" 
+    m "What did Eric do this time, Mr. Edwards?!"
     teacher "You wouldn't believe it, Mrs. Baker..."
     teacher "He went back to the swim coach's locker..."
     teacher "And did the same thing."
-    m "WHAT?!" 
+    m "WHAT?!"
     m "!!!"
-    teacher "Yes. Miss Mansfield saw it again." 
+    teacher "Yes. Miss Mansfield saw it again."
     teacher "I have the feeling that Eric does this all the time."
     teacher "It's just that Miss Mansfield doesn't always notice."
     m "..."
@@ -2150,10 +2150,10 @@ translate english dialogue_classmate_14_d720adbd:
     teacher "I had to write some pedagogical reports for her, but..."
     teacher "As you can imagine, Mrs. Baker, I've had a lot of work to do."
     teacher "So I hope for special thanks from you, Mrs. Baker."
-    mt "There he goes again..." 
+    mt "There he goes again..."
     mt "!!!"
     mt "On the other hand, the matter with miss Mansfield was settled..."
-    m "What I have to do, Mr. Edwards?" 
+    m "What I have to do, Mr. Edwards?"
     mt "This time the teacher settled everything very quickly."
     mt "And in the end, he confronted me with the fact that I owed him."
     mt "High-moral bastard!"
@@ -2188,10 +2188,10 @@ translate english dialogue_classmate_14_0648ae43:
 translate english dialogue_classmate_14_9e79e769:
 
     # m "Я не занимаюсь такими вещами, мистер Эдвардс!"
-    # teacher "Мисс Мэнсфилд может и передумать..." 
+    # teacher "Мисс Мэнсфилд может и передумать..."
     # teacher "..."
     m "I don't do that kind of thing, Mr. Edwards!"
-    teacher "Miss Mansfield might change her mind..." 
+    teacher "Miss Mansfield might change her mind..."
     teacher "..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1379
@@ -2199,11 +2199,11 @@ translate english dialogue_classmate_14_aaa2706f:
 
     # mt "!!!"
     # m "Я не собираюсь этого делать!!!"
-    # teacher "Я сделал все зависящее от меня..." 
+    # teacher "Я сделал все зависящее от меня..."
     # teacher "Пошел на такие жертвы..."
     # teacher "И очень быстро все уладил."
     # teacher "И все ради вас, миссис Бейкер!"
-    # m "..." 
+    # m "..."
     # mt "Учитель может сделать так, что о дебильном поступке Эрика узнают все."
     # mt "Тогда Барди точно разозлится и устроит мне массу проблем."
     # mt "Если потрогать мою изумительную попу - это все о чем он просит..."
@@ -2214,8 +2214,8 @@ translate english dialogue_classmate_14_aaa2706f:
     # mt "Еще бы! Об этой попе мечтают миллионы мужчин!"
     # mt "Знал бы он, кто я такая на самом деле..."
     # m "Этого можно было и не делать, мистер Эдвардс!"
-    # m "В них и так все прекрасно видно было!" 
-    # m "Ай, что вы делаете?!" 
+    # m "В них и так все прекрасно видно было!"
+    # m "Ай, что вы делаете?!"
     # m "Ч-что вы д-делаете?! Нет-нет!!!"
     # m "Остановитесь, м-мы договаривались не так!"
     # mt "Что этот извращенец творит?! Как он смеет так поступать со мной?!"
@@ -2264,15 +2264,15 @@ translate english dialogue_classmate_14_aaa2706f:
     # mt "Я не хочу больше видеть этого учителя! Никогда! Ненавижу его!"
     # mt "Ненавижу их всех! Больше никому не позволю прикасаться ко мне!!!"
     # mt "!!!"
-    # teacher "Надеюсь, мы с вами еще увидимся, миссис Бейкер?" 
+    # teacher "Надеюсь, мы с вами еще увидимся, миссис Бейкер?"
     # mt "!!!"
     mt "!!!"
     m "I'm not going to do that!!!"
-    teacher "I did my best..." 
+    teacher "I did my best..."
     teacher "I made such sacrifices..."
     teacher "And I settled everything really quick."
     teacher "All for you, Mrs. Baker!"
-    m "..." 
+    m "..."
     mt "The teacher can make everyone know about Eric's moronic act."
     mt "Then Bardie would get mad and give me a lot of trouble."
     mt "If touching my amazing ass is all that he asks..."
@@ -2283,8 +2283,8 @@ translate english dialogue_classmate_14_aaa2706f:
     mt "Of course! Millions of men dream about that ass!"
     mt "If only he knew who I really was..."
     m "You didn't have to do that, Mr. Edwards!"
-    m "Everything was clearly visible in them!" 
-    m "Ah, what are you doing?!" 
+    m "Everything was clearly visible in them!"
+    m "Ah, what are you doing?!"
     m "W-what are you d-doing?! No, no!!!"
     m "Stop, w-we agreed not so!"
     mt "What is this pervert doing?! How dare he do this to me?!"
@@ -2333,7 +2333,7 @@ translate english dialogue_classmate_14_aaa2706f:
     mt "I don't want to see that teacher again! Never! I hate him!"
     mt "I hate them all! I won't let anyone else touch me!!!"
     mt "!!!"
-    teacher "Will we see each other again, Mrs. Baker?" 
+    teacher "Will we see each other again, Mrs. Baker?"
     mt "!!!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1474
@@ -2358,7 +2358,7 @@ translate english dialogue_classmate_15_bbb56071:
     bardie "How was it, maid? I hope you've got it all sorted out."
     m "Yes! Eric's problem is solved!"
     m "I don't want to go back to that filthy College. Under no circumstances!"
-    m "Once again, your friend will get into it, you'll figure it out by yourself!!!"
+    m "Once again, your friend will get into it. You'll figure it out by yourself!!!"
 
 translate english strings:
 
@@ -2376,7 +2376,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:356
     old "Получить костюм бесплатно."
-    new "Get costume for free."
+    new "Get a costume for free."
 
     # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:356
     old "Получить скидку на костюм."
@@ -2400,7 +2400,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:733
     old "Барди совсем обнаглел и заставляет меня быть мамой для своего одноклассника. Такого же неудачника как он сам!"
-    new "What does Bardie allow himself, making me to pose as a Mom of his classmate! Loser like himself!"
+    new "What does Bardie allow himself, making me pose as a Mom of his classmate! A loser like himself!"
 
     # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:876
     old "Если это поможет быстрее решить проблему малявки, то, возможно, стоит потерпеть..."
@@ -2412,11 +2412,11 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:946
     old "Идти в колледж, притворившись мамой Эрика"
-    new "Go to college acting as Eric's mother."
+    new "Go to college, acting as Eric's mother."
 
     # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1353
     old "Отказаться и уйти!"
-    new "Refuse and get away!"
+    new "Refuse and getaway!"
 
 # TODO: Translation updated at 2019-10-18 04:27
 
@@ -2442,7 +2442,7 @@ translate english dialogue_classmate_1_36c02c01:
 translate english dialogue_classmate_1_fd39f773:
 
     # eric "Откуда я знаю? Может, ты переслал ее с телефона своего отца, а мне говоришь, что ты фотографировал."
-    eric "How do I know? Maybe you sent it from your dad's phone, and now you're telling to me that you took these pictures."
+    eric "How do I know? Maybe you sent it from your dad's phone, and now you're telling me that you took these pictures."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:39
 translate english dialogue_classmate_1_3a207636:
@@ -2515,9 +2515,9 @@ translate english dialogue_classmate_1a_f94766c2:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:97
 translate english dialogue_classmate_1a_551a10a7:
 
-    # m "Что, прямо сейчас? При твоем друге?!" 
+    # m "Что, прямо сейчас? При твоем друге?!"
     # m "???"
-    m "What, right now? With your friend?!" 
+    m "What, right now? With your friend?!"
     m "???"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:103
@@ -2602,7 +2602,7 @@ translate english dialogue_classmate_1a_d85913fb:
 translate english dialogue_classmate_1a_d642cb9b:
 
     # bardie "Я выиграл спор! С тебя домашка на месяц вперед!"
-    bardie "I won the bet! You have to do all homework for the month ahead for me!"
+    bardie "I won the bet! You have to do all the homework for the month ahead for me!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:178
 translate english dialogue_classmate_1a_cdca255f:
@@ -2636,7 +2636,7 @@ translate english dialogue_classmate_1a_94651a14:
 translate english dialogue_classmate_1a_6d592128:
 
     # m "Что значит 'не рассмотрел'?! Я все сделала, как сказал Барди."
-    m "What do you mean 'didn't see'?! I did everything as said Bardi."
+    m "What do you mean 'didn't see'?! I did everything as said Bardie."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:198
 translate english dialogue_classmate_1a_b3ec5162:
@@ -2650,7 +2650,7 @@ translate english dialogue_classmate_1a_7079d945:
     # mt "!!!"
     # mt "Эти две малявки спорят на какую-то глупость! А я должна тут стоять перед ними полуголая!!!"
     mt "!!!"
-    mt "These two babies are arguing about something stupid! And I have to stand here in front of them half naked!!!"
+    mt "These two babies are arguing about something stupid! And I have to stand here in front of them, half-naked!!!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:209
 translate english dialogue_classmate_1a_44d0b9e4:
@@ -2772,7 +2772,7 @@ translate english dialogue_classmate_1a_29a4f6ab_2:
 translate english dialogue_classmate_1a_9bff180f:
 
     # eric "Чувак, я видел в порно, как лижут киски и всегда хотел попробовать. Ты же не против?"
-    eric "Dude, I've seen pussy licking in porn and I've always wanted to try it. You don't mind, do you?"
+    eric "Dude, I've seen pussy licking in porn, and I've always wanted to try it. You don't mind, do you?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:355
 translate english dialogue_classmate_1a_d6be06e5:
@@ -2798,7 +2798,7 @@ translate english dialogue_classmate_1a_96b7dd24:
     # bardie "Он только потрогает языком и не будет больше ничего делать."
     # bardie "Зато за хозяина будут делать домашние задания целых два месяца."
     bardie "He would only touch his tongue and do nothing more."
-    bardie "But for the master he will do homework for two months."
+    bardie "But for the master, he will do homework for two months."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:371
 translate english dialogue_classmate_1a_6777ce4b:
@@ -2868,7 +2868,7 @@ translate english dialogue_classmate_1a_fa061958:
 translate english dialogue_classmate_1a_d1f03f74:
 
     # eric "Да буду, буду!"
-    eric "Yes I will!"
+    eric "Yes, I will!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:462
 translate english dialogue_classmate_1a_29a4f6ab_3:
@@ -3118,9 +3118,9 @@ translate english dialogue_classmate_2_94453bf0:
 translate english dialogue_classmate_2_c4611c26:
 
     # mt "Черт!!! Я в трусиках. Он снова накажет меня!"
-    # mt "Хотя... Что он мне сделает? Я же послушаю его приказа поднять юбку." 
+    # mt "Хотя... Что он мне сделает? Я же послушаю его приказа поднять юбку."
     mt "Fuck!!! I'm wearing panties. He will punish me again!"
-    mt "Although... What would he do to me? I'll listen to his orders to lift my skirt." 
+    mt "Although... What would he do to me? I'll listen to his orders to lift my skirt."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:766
 translate english dialogue_classmate_2_a281ca98:
@@ -3174,7 +3174,7 @@ translate english dialogue_classmate_2_5cf59358:
     # mt "Что еще он придумал?"
     # mt "Хотя, от этих двух озабоченных можно ожидать только одного..."
     mt "What else had he come up with?"
-    mt "Although, from these two concerned I can expect only one..."
+    mt "Although, from these two concerned, I can expect only one..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:844
 translate english dialogue_classmate_2_d74afa6b:
@@ -3232,7 +3232,7 @@ translate english dialogue_classmate_2_3653169d:
 translate english dialogue_classmate_2_1a5b16c6:
 
     # m "Что ты там натворил? Почему твоим родителям нельзя об этом знать?"
-    m "What have you done?Why can't your parents know about this?"
+    m "What have you done? Why can't your parents know about this?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:883
 translate english dialogue_classmate_2_e7f000f9:
@@ -3278,7 +3278,7 @@ translate english dialogue_classmate_2_b270e1b1:
     # bardie "Это не просьба, гувернантка! Это приказ хозяина дома."
     # bardie "А спорить с хозяином, тем более при гостях, тебе запрещено!"
     bardie "It's not a request, maid! This is the master's order."
-    bardie "To argue with the owner, especially at a party,when we have guests, is forbidden!"
+    bardie "To argue with the owner, especially at a party, when we have guests, is forbidden!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:912
 translate english dialogue_classmate_2_426036a5:
@@ -3308,7 +3308,7 @@ translate english dialogue_classmate_2_eaebe9e5:
     # bardie "Ты должна идти не в униформе гувернантки."
     # bardie "У тебя хорошая униформа и мне она нравится. Хотя, я думаю, что твоя униформа тебе не очень удобна."
     bardie "You don't have to go in a maid uniform."
-    bardie "You have a nice uniform and I like it. Although I don't think your uniform suits you very well."
+    bardie "You have a nice uniform, and I like it. Although I don't think your uniform suits you very well."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:928
 translate english dialogue_classmate_2_9678ba49:
@@ -3394,7 +3394,7 @@ translate english dialogue_classmate_2_c864b9b7:
     # bardie "Гувернантка должна внимательно его выслушать и извиниться за Эрика."
     # bardie "Потом сказать, что ты обязательно поговоришь с сыном и такого больше не повторится."
     bardie "The maid must listen to him carefully and apologize for Eric."
-    bardie "Then to say that you will definitely talk to your son and this will not happen again."
+    bardie "Then to say that you will definitely talk to your son, and this will not happen again."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:985
 translate english dialogue_classmate_2_e612037c_2:
@@ -3462,7 +3462,7 @@ translate english dialogue_classmate_2_d40e8852:
 translate english dialogue_classmate_2_a1664218:
 
     # mt "Ненавижу все эту семейку, которая поселилась в моем доме! И Я еще должна молча все это терпеть!"
-    mt "I hate all this family, which settled in my house!And I still have to stand it in silence!"
+    mt "I hate all this family, which settled in my house! And I still have to stand it in silence!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1040
 translate english dialogue_classmate_2_1a_1e33ce40:
@@ -3481,8 +3481,8 @@ translate english dialogue_classmate_3_1_399f2083:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1071
 translate english dialogue_classmate_3_1_8653592b:
 
-    # mt "Черт... Надеюсь она меня не вспомнит..." 
-    mt "Damn... I hope she doesn’t remember me..." 
+    # mt "Черт... Надеюсь она меня не вспомнит..."
+    mt "Damn... I hope she doesn’t remember me..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1083
 translate english dialogue_classmate_3_1_c638ea8d:
@@ -3562,7 +3562,7 @@ translate english dialogue_classmate_3_1_913edfa8:
 translate english dialogue_classmate_3_1_987fd2b6:
 
     # cashier "Специально для Вас скидка 50 процентов."
-    cashier "Especially for you 50 percent discount."
+    cashier "It costs $ 40, but especially for you a 50 percent discount."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1170
 translate english dialogue_classmate_3_1_b772b903:
@@ -3647,9 +3647,9 @@ translate english dialogue_classmate_3_1_048f6dbe:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1252
 translate english dialogue_classmate_3_1_040af86b:
 
-    # m "Ты говорила про один поцелуй!" 
+    # m "Ты говорила про один поцелуй!"
     # cashier "Я не уточнила сколько раз нужно поцеловать мой животик."
-    m "You said one kiss!" 
+    m "You said one kiss!"
     cashier "I didn't specify how many times to kiss my tummy."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1256
@@ -3685,14 +3685,14 @@ translate english dialogue_classmate_3_1_a6e6faea:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1284
 translate english dialogue_classmate_3_1_a75fe71c:
 
-    # m "Я не буду больше этого делать!" 
-    m "I won't do it again!" 
+    # m "Я не буду больше этого делать!"
+    m "I won't do it again!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1287
 translate english dialogue_classmate_3_1_d019381a:
 
     # cashier "Последний раз и все. Иначе никакой скидки!"
-    cashier "The last time and all. Otherwise you'll have no discount!"
+    cashier "The last time and all. Otherwise, you'll have no discount!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1295
 translate english dialogue_classmate_3_1_708e673d_2:
@@ -3715,9 +3715,9 @@ translate english dialogue_classmate_3_1_0a5616b8_2:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1310
 translate english dialogue_classmate_3_1_79599be6:
 
-    # cashier "Ммм... Это было приятно." 
+    # cashier "Ммм... Это было приятно."
     # cashier "Теперь можешь купить этот костюм со скидкой."
-    cashier "Mmm... It was nice." 
+    cashier "Mmm... It was nice."
     cashier "Now you can buy this suit at a discount."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1315
@@ -3741,14 +3741,14 @@ translate english dialogue_classmate_3_1_9c1b2a71:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1334
 translate english dialogue_classmate_3_1_6b7eb408:
 
-    # cashier "Тебе же понравился мой индивидуальный подход к постоянным клиентам?" 
-    cashier "You liked my individual approach to regular customers, don't you?" 
+    # cashier "Тебе же понравился мой индивидуальный подход к постоянным клиентам?"
+    cashier "You liked my individual approach to regular customers, don't you?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1343
 translate english dialogue_classmate_3_1_27265606:
 
-    # m "Очень!" 
-    m "I liked it a lot!" 
+    # m "Очень!"
+    m "I liked it a lot!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1350
 translate english dialogue_classmate_3_1_1a_19279faa:
@@ -3903,9 +3903,9 @@ translate english dialogue_classmate_5_1b_80782c9e:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1877
 translate english dialogue_classmate_5_1b_9d0da4b8:
 
-    # m "Да какое мне дело до этого?!" 
+    # m "Да какое мне дело до этого?!"
     # m "Пусть сам решает свои проблемы!!!"
-    m "What do I care?!" 
+    m "What do I care?!"
     m "Let him solve his own problems!!!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1882
@@ -4095,12 +4095,12 @@ translate english dialogue_classmate_6_2e5ae0b8:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2183
 translate english dialogue_classmate_6_ac9abd1a:
 
-    # m "А теперь мне и учителю приходится думать о том, как это уладить!" 
+    # m "А теперь мне и учителю приходится думать о том, как это уладить!"
     # m "Мистер Эдвардс сказал, что поговорит с мисс Мэнсфилд. Как будет результат, он мне сообщит."
     # m "Из-за этого мне снова придется идти в колледж."
     # m "А это никак не входило в мои планы!"
-    m "And now the teacher and I have to think about how to deal with it!" 
-    m "Mr Edwards said he would speak to Miss Mansfield. As soon as he gets result, he will tell me."
+    m "And now the teacher and I have to think about how to deal with it!"
+    m "Mr. Edwards said he would speak to Miss Mansfield. As soon as he gets the result, he will tell me."
     m "Because of that, I'll have to go back to college."
     m "And that wasn't part of my plan!"
 
@@ -4186,7 +4186,7 @@ translate english dialogue_classmate_10_e4a543bc:
     mt "I feel terrible in this outfit. How can that hillbilly Betty wear that?"
     mt "I hope the teacher did it and I don't have to come back here again."
     mt "I need to do everything so that this little horny pervert does not have problems in college."
-    mt "Otherwise I'll have even more problems than I have right now."
+    mt "Otherwise, I'll have even more problems than I have right now."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2616
 translate english dialogue_classmate_9_2_b5a969a5:
@@ -4298,7 +4298,7 @@ translate english dialogue_classmate_12_3aadfc25_1:
 translate english dialogue_classmate_12_b7080aad:
 
     # bardie "Хорошая гувернантка. Хозяин ею доволен. Поэтому может доверить ей одно дело."
-    bardie "A good maid. The master is pleased with her. So I can trust her with a issue."
+    bardie "A good maid. The master is pleased with her. So I can trust her with an issue."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2685
 translate english dialogue_classmate_12_cbbc3ffd:
@@ -4319,8 +4319,8 @@ translate english dialogue_classmate_12_b9fe1dcb:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2691
 translate english dialogue_classmate_12_55035db8:
 
-    # mt "Не дождешься, малявка!" 
-    mt "No way, little boy!" 
+    # mt "Не дождешься, малявка!"
+    mt "No way, little boy!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2693
 translate english dialogue_classmate_12_e810de30:
@@ -4373,9 +4373,9 @@ translate english dialogue_classmate_12_da493454:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2713
 translate english dialogue_classmate_12_a88d0be9:
 
-    # m "Я уже обещала подобное! И что в итоге?!" 
+    # m "Я уже обещала подобное! И что в итоге?!"
     # m "!!!"
-    m "I've already promised something like this! And what is the result?!" 
+    m "I've already promised something like this! And what is the result?!"
     m "!!!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2716
@@ -4395,8 +4395,8 @@ translate english dialogue_classmate_12_3803ad55:
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2722
 translate english dialogue_classmate_12_40f21196:
 
-    # bardie "Я буду ждать тебя здесь. Надеюсь, ты вернешься из колледжа с хорошими новостями..." 
-    bardie "I'll wait for you here. I hope you come back from college with good news..." 
+    # bardie "Я буду ждать тебя здесь. Надеюсь, ты вернешься из колледжа с хорошими новостями..."
+    bardie "I'll wait for you here. I hope you come back from college with good news..."
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2724
 translate english dialogue_classmate_12_74b3c6fd:
@@ -4434,7 +4434,7 @@ translate english dialogue_classmate_15_84c33bb7:
     # m "Еще раз твой друг вляпается, сами будете разбираться!!!"
     m "Yes! Eric's problem is solved!"
     m "I don't want to go back to that filthy College. Under no circumstances!"
-    m "Once again, your friend will get into it, you'll figure it out by yourself!!!"
+    m "Once again, your friend will get into it. You'll figure it out by yourself!!!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2939
 translate english dialogue_classmate_15a_cccb74c1:
@@ -4467,4 +4467,3 @@ translate english strings:
     # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1291
     old "Поцеловать животик еще ниже."
     new "Kiss the belly even lower."
-

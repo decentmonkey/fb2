@@ -36,19 +36,19 @@ translate english dialogue_5_dance_strip_1_fcacd5c3:
     m "Do I have to go on stage?!"
     m "But..."
     ashley "No buts!" 
-    ashley "Either you go on stage or you get out of here!"
+    ashley "Either you go on stage, or you get out of here!"
     m "How am I going to dance? I... I can't..."
     mt "Me, Monica Buckfett! I will dance a striptease! On stage in a filthy pub in a slum!"
     mt "This is unthinkable!!!"
     mt "It's one thing to dance at the pylon for one or two losers in the alley..."
     mt "They'll never know who I am anyway..."
     mt "But this stage now..."
-    mt "It's like a photo shoot for the cover of a magazine that will be seen by millions!"
-    mt "God! Someone can recognizes me!!!"
+    mt "It's like a photoshoot for the cover of a magazine that will be seen by millions!"
+    mt "God! Someone can recognize me!!!"
     mt "!!!"
     m "I've never danced... I don't know how... I'm shy!" 
     ashley "Why are you shy about it?"
-    ashley "You go out, shake your ass and it's done!"
+    ashley "You go out, shake your ass, and it's done!"
     ashley "Especially with an ass like yours..." 
     ashley "You can quickly work off the debt and even earn good money."
     ashley "So try it. There's nothing to worry about."
@@ -80,7 +80,7 @@ translate english dialogue_5_dance_strip_1_17907ee3:
     # mt "..."
     # mt "Схожу сначала в гримерку. Возможно, там есть приличные сценические костюмы..."
     # mt "Хотя сомневаюсь что в этой дыре есть что-то подходящее для такой леди как Я..."
-    mt "From other side..."
+    mt "From the other side..."
     mt "If I really could work off my debt to Ashley quickly..."
     mt "..."
     mt "I'll go to the dressing room first. Perhaps there are decent stage costumes..."
@@ -127,7 +127,7 @@ translate english dialogue_5_dance_strip_2_983417f3:
     # mt "..."
     # mt "Где эта Эшли?!"
     # mt "В чем, по ее мнению, я должна танцевать?!"
-    mt "Eww, it's just an utility room, not a dressing room!"
+    mt "Eww, it's just a utility room, not a dressing room!"
     mt "And everything is... so old!"
     mt "How can you prepare for performances here?!"
     stripper "Are you the new dancer?.." 
@@ -154,7 +154,7 @@ translate english dialogue_5_dance_strip_2_983417f3:
     stripper "Ah-ha-ha!"
     mt "..." 
     stripper "You don't think I'll give you my clothes, do you?!"
-    stripper "Go dance naked!"
+    stripper "Go, dance naked!"
     mt "Bitch!!!"
     mt "!!!" 
     mt "What should I do now?" 
@@ -172,7 +172,7 @@ translate english dialogue_5_dance_strip_4n_539306a7:
     # mt "Грязная заляпанная сцена! Фи!"
     # mt "Я не верю, что мне приходится танцевать на ней!"
     # mt "Мне! Монике Бакфетт!!!"
-    mt "Dirty stained stage! EW!"
+    mt "Dirty, stained stage! EW!"
     mt "I don't believe I have to dance on it!"
     mt "I, Monica Buckfett!!!"
 
@@ -203,7 +203,7 @@ translate english dialogue_5_dance_strip_3_87bbf6da:
     # mt "!!!"
     m "Where's Ashley?"
     joe "[monica_pub_name], you can ask me. What do you want?"
-    joe "I'll help you with any question!"
+    joe "I'll help you with any questions!"
     m "I have nothing to wear on stage!"
     m "I'm not going out there in these clothes!"
     m "..."
@@ -258,7 +258,7 @@ translate english dialogue_5_dance_strip_4e_ff44e51d:
     # mt "Сегодня хочется сделать так, чтобы у этой рыжей не осталось поклонников в этой дыре!"
     # mt "Звезда здесь может быть только одна - Я. А она даже не конкурентка мне... У меня вообще не может быть конкуренток!!!"
     mt "Today I want to make sure that this redhead has no fans left in this dump!"
-    mt "There can only be one star here . . . and she's not even a competitor to me... I can't have any competitors at all!!!"
+    mt "There can only be one star here... And she's not even a competitor to me... I can't have any competitors at all!!!"
 
 # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:181
 translate english dialogue_5_dance_strip_4f_36d49a0a:
@@ -386,7 +386,7 @@ translate english dialogue_5_dance_strip_5k_5f7d2980:
 translate english dialogue_5_dance_strip_5l_450e47f4:
 
     # customers "Снимай с себя эти тряпки и пошли в приват!"
-    customers "Take off these rags and let's go to a private dance!"
+    customers "Take off these rags, and let's go to a private dance!"
 
 # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:247
 translate english dialogue_5_dance_strip_5m_2806eae4:
@@ -421,7 +421,7 @@ translate english dialogue_5_dance_strip_6_d61dbc1a:
     m "I had nothing to wear on stage..."
     m "..."
     ashley "So what's the problem?" 
-    ashley "Girls in the dressing room have a lot of clothes for the performance."
+    ashley "Girls in the dressing room have a lot of clothes for performance."
     ashley "Go to the dressing room and ask for some of their clothes."
     ashley "And better go on stage without any clothes at all... There will be more tips!" 
     mt "!!!"
@@ -585,15 +585,15 @@ translate english dialogue_5_dance_strip_8_5894fee1:
     stripper "I'm Claire. What about you?"
     m "I'm [monica_pub_name]. Is Molly the redhead stripper?"
     clare "Yes." 
-    clare "She's a star here and she's very proud of it."
+    clare "She's a star here, and she's very proud of it."
     clare "It is better to be friends with her and not get in her way."
     mt "Star! Ha ha! Stripper with star-struck!"
     mt "Looks like this Claire is the only one in this dump who can communicate properly."
     clare "Have you been a stripper for a long time, [monica_pub_name]?"
-    m "No . Today will be my first performance..."
+    m "No. Today will be my first performance..."
     mt "Dancing at the pole in the streets of the slums does not count!" 
     clare "Don't worry." 
-    clare "I have been performing for several years and I really like it."
+    clare "I have been performing for several years, and I really like it."
     m "Do you like it?!" 
     m "I thought they only do it for money..."
     clare "For me, it's some kind of art. I like to share my beauty and see the enthusiastic looks of men."
@@ -604,7 +604,7 @@ translate english dialogue_5_dance_strip_8_5894fee1:
     mt "Dancing half-naked in public is disgusting."
     mt "And I will not change my attitude to this ever!"
     mt "!!!"
-    clare "[monica_pub_name], why don't you change you clothes?"
+    clare "[monica_pub_name], why don't you change your clothes?"
     clare "What are you going to wear for the performance?"
     clare "It's your turn to go on stage."
     m "I don't have clothes for the stage..."
@@ -659,7 +659,7 @@ translate english dialogue_5_dance_strip_8_8fa5673d:
     mt "There, of course, I had to show my body to all sorts of losers."
     mt "But not on the stage!"
     mt "And there is a whole crowd of such losers!!!"
-    mt "For me, being on stage is like posing for a photo shoot in front of the world."
+    mt "For me, being on stage is like posing for a photoshoot in front of the world."
     mt "It's one thing to dance at the pole for one or two losers on the street..."
     mt "!!!"
     mt "..."
@@ -667,7 +667,7 @@ translate english dialogue_5_dance_strip_8_8fa5673d:
     mt "..."
     mt "Okay, I've got to get ready and do it!"
     mt "It's not me, it's [monica_pub_name]."
-    mt "For [monica_pub_name] there is nothing wrong with that."
+    mt "For [monica_pub_name], there is nothing wrong with that."
     clare "Perfect. However..."
     clare "There's something you're missing."
     clare "It's obvious that you have no experience of performing on stage."
@@ -692,14 +692,14 @@ translate english dialogue_5_dance_strip_8_3fc24458:
     # clare "Ты просто создана для обложки какого-нибудь модного журнала."
     # mt "Хм... Хорошо, что она их не читает."
     # mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
-    clare "You have a great figure, [monica_pub_name]."
+    clare "You have a great shape, [monica_pub_name]."
     mt "Is she trying to molest me like Ashley?!"
     mt "I don't want to mess with another lesbian!"
     clare "The men in the audience will go crazy when they see you."
     mt "I got used to it."
     mt "Men have always been crazy about me..."
     clare "You'll be a star tonight, [monica_pub_name]."
-    mt "Of course I will! I have no rival here!"
+    mt "Of course, I will! I have no rival here!"
     mt "And not only here! I have no rival anywhere!"
     clare "Such gorgeous legs and such an ass as you have, any model will envy."
     clare "You're just made for the cover of some fashion magazine."
@@ -875,7 +875,7 @@ translate english dialogue_5_dance_strip_14_ac4d9929:
     m "You're talking about yourself, aren't you?" 
     m "I have the same opinion after our meeting."
     mt "The best place for this girl is on the street with whores! How did she get here?"
-    molly "I didn't hear you or did you just say something to me?"
+    molly "I didn't hear you, or did you just say something to me?"
     m "I have nothing to talk about with someone like you!"
     m "And, moreover, to argue about something!"
     m "I'm not going to fall to your level!!!"
@@ -926,7 +926,7 @@ translate english dialogue_5_dance_strip_16_a3349c41:
     mt "This Claire could show her beauty from the cover of a magazine..."
     mt "Not dancing in a pub in front of a bunch of drunken losers!"
     clare "Hi, [monica_pub_name]. How are you?"
-    clare "Ashley says you're getting better. She's pleased with you."
+    clare "Ashley says, you're getting better. She's pleased with you."
     m "Um. I'm not surprised Ashley's pleased with me."  
     mt "She couldn't be displeased. She can stare at me now." 
     mt "As well as her loser-husband!"
@@ -973,7 +973,7 @@ translate english dialogue_5_dance_strip_16_5a05920e:
     mt "I got used to it."
     mt "Men have always been crazy about me..."
     clare "You'll be a star tonight, [monica_pub_name]."
-    mt "Of course I will! I have no rival here!"
+    mt "Of course, I will! I have no rival here!"
     mt "And not only here! I have no rival anywhere!"
     clare "Such gorgeous legs and such an ass as you have, any model will envy."
     clare "You're just made for the cover of some fashion magazine."
@@ -1022,7 +1022,7 @@ translate english dialogue_5_dance_strip_17_58eefe38:
     joe "[monica_pub_name], is this Claire's costume?"  
     m "Yes." 
     joe "I see you've made friends with her..."  
-    m "What do you care?" 
+    m "What do you care about?" 
     joe "Can you figure out for me how to get her?"
     m "???" 
     joe "She doesn't talk to anyone here..."
@@ -1162,7 +1162,7 @@ translate english dialogue_5_dance_strip_21_6accc40a:
     mt "I'm so sick of Ashley."
     mt "!!!"
     ashley "What are you waiting for?!"
-    ashley "Give me a tip now or you can get out of here forever!"
+    ashley "Give me a tip now, or you can get out of here forever!"
 
 # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:766
 translate english dialogue_5_dance_strip_21_286ce8dd:
@@ -1270,7 +1270,7 @@ translate english dialogue_5_dance_strip_24_76690f6d:
     # joe "Но если подобные предложения от клиентов еще будут, то я тебе скажу об этом."
     # joe "Вдруг ты передумаешь..." 
     # m "..."
-    joe "[monica_pub_name], you earned a good tips today..."  
+    joe "[monica_pub_name], you earned good tips today..."  
     m "Yes. What do you care, Joe?" 
     joe "[monica_pub_name], do you want to earn real money?"
     joe "Not that measly few bucks?"
@@ -1283,7 +1283,7 @@ translate english dialogue_5_dance_strip_24_76690f6d:
     mt "How dare he suggest such a thing to me?!"
     mt "To have Monica Buckfett dance privately!!!"
     mt "And for whom?! For some loser?!"
-    mt "For whom the best entertainment in life is to come to this dump and drink beer?!"
+    mt "For whom, the best entertainment in life is to come to this dump and drink beer?!"
     mt "!!!"
     mt "I won't do it for any money!!!"
     m "I'm not going to make money such way, Joe!" 
@@ -1312,11 +1312,11 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:53
     old "Идти в гримерку, чтобы подготовиться к выступлению на сцене."
-    new "Go to the dressing room to prepare for the perfomance on the stage."
+    new "Go to the dressing room to prepare for the performance on the stage."
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:54
     old "Мне нужно отработать долг $500, выступая на сцене в пабе."
-    new "I have to get rid of my $ 500 debt by performing on stage."
+    new "I have to get rid of my $500 debt by performing on stage."
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:110
     old "Спросить у Эшли костюм для выступления."
@@ -1324,7 +1324,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:111
     old "Эта рыжая стриптизерша слишком многое себе позволяет. Как она смеет так общаться со мной?!"
-    new "This redhead is allowing herself too much. How dares she to be so rude with me?!"
+    new "This redhead is allowing herself too much. How dares she to be so rude to me?!"
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:158
     old "Поговорить в пабе с другой стриптизершей."
@@ -1332,7 +1332,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:328
     old "Мне нужно отработать долг $ 500, выступая на сцене в пабе."
-    new "I have to get rid of my $ 500 debt by performing on stage."
+    new "I have to get rid of my $500 debt by performing on stage."
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:392
     old "Надеть костюм с жилетом."
@@ -1344,7 +1344,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:423
     old "Взять у Клэр масло и намазаться самой."
-    new "Take Claires oil and put it on yourself."
+    new "Take Claire's oil and put it on yourself."
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:423
     old "Позволить Клэр намазать меня маслом."
@@ -1356,7 +1356,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:450
     old "Похоже, Клэр единственная в этой дыре, с кем можно нормально общаться."
-    new "Looks like Claire is the only one I can talk to normaly in this hole."
+    new "It looks like Claire is the only one I can talk to normally in this hole."
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:471
     old "Моника показывала Джо свою грудь."
@@ -1384,7 +1384,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:723
     old "Эшли простила мне долг. Теперь я могу зарабатывать, выступая на сцене в пабе Shiny Hole. Неужели для меня это теперь нормально?"
-    new "Ashley forgave my debt. Not I can earn money by dancing in Shiny Hole. Can't believe I'm okay with it now..."
+    new "Ashley forgave my debt. Now I can earn money by dancing in Shiny Hole. I can't believe I'm okay with it now..."
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:728
     old "Танцевать на сцене в Shiny Hole."

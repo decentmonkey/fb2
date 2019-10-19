@@ -1376,7 +1376,7 @@ translate english cit6_groping_1st_543ecc25:
     citizen6 "Be sure to let me know when you get a job!"
     mt "What kind of job is he talking about?"
     m "What job?"
-    citizen6 "What kind of job? In a strip club of course!"
+    citizen6 "What kind of job? In a strip club, of course!"
     citizen6 "Such an ass and boobs should not stand on the street!"
     citizen6 "Actually, it's almost a strip club that we have here, and I'm offering you a little extra cash."
     citizen6 "I want to touch your sweet boobs!"
@@ -1384,7 +1384,7 @@ translate english cit6_groping_1st_543ecc25:
     citizen6 "And I'm an honest customer, I'll pay you $ 10!"
     mt "You're not in a strip club, asshole!"
     mt "That pervert wants to touch my breasts..."
-    mt "What insolence! If it wasn't for my money problems.."
+    mt "What insolence! If it wasn't for my money problems..."
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:1096
 translate english cit6_groping_1st_745b11c5:
@@ -1481,7 +1481,7 @@ translate english cit6_grooping_regular_4a7308e5:
     # mt "И не подумаю..."
     m "I don't want to!"
     m "And enough of what you've already seen!"
-    citizen6 "I not only saw them, but touched them also! Do not worry, soon you'll ask for it!"
+    citizen6 "I not only saw them but touched them also! Do not worry, soon you'll ask for it!"
     mt "I won't..."
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:1148
@@ -1502,7 +1502,7 @@ translate english cit6_grooping_regular_264541bd:
     citizen6 "That's it!"
     citizen6 "Yes, gorgeous! You really turn me on!"
     citizen6 "It doesn't even look like this breast gets touched by 5 men a day!"
-    m "They are not touched.."
+    m "They are not touched..."
     citizen6 "Of course!"
     citizen6 "You know, I have an offer."
     citizen6 "Let's get this shirt off and get on with it!"
@@ -1601,7 +1601,7 @@ translate english cit6_bottle_spec_d21d8b02:
     citizen6 "I'm sure you're wondering why I need this bottle."
     mt "Probably to hand it over?"
     m "Absolutely not interesting..."
-    citizen6 "What a pitty!"
+    citizen6 "What a pity!"
     citizen6 "I want to shove it in your ass!"
     m "What?! You filthy pervert!"
     m "Go find yourself a whore who would be willing to do such a thing."
@@ -1612,7 +1612,7 @@ translate english cit6_bottle_spec_d21d8b02:
     citizen6 "We can do it in clothes!"
     citizen6 "I saw it in a movie the other day..."
     m "I'm not interested in what you saw! I'm not going to do that!"
-    citizen6 "Don't worry! I told you, we can do it in clothes..."
+    citizen6 "Don't worry! I told you we can do it in clothes..."
     citizen6 "In the film, said that it is called simulation. You know that word, right?"
     mt "What the hell is this simulation?!"
     citizen6 "I'll just put the bottle against your ass."
@@ -1622,10 +1622,10 @@ translate english cit6_bottle_spec_d21d8b02:
     citizen6 "..."
     citizen6 "Okay, I know how to motivate you. I'll give you $ 20."
     citizen6 "Don't worry, we'll make it quick."
-    citizen6 "I'm sure you'll like it, and maybe it'll even reminds you on something."
+    citizen6 "I'm sure you'll like it, and maybe it'll even remind you of something."
     m "It won't remind me of anything."
     citizen6 "Oh, yeah, the bottle won't be inside..."
-    citizen6 "Then for that $ 20, that's a lot. But nevermind, since I said $ 20, so be it. So, do you agree?"
+    citizen6 "Then for that , that's a lot. But nevermind, since I said , so be it. So, do you agree?"
     m "I've already answered! No!"
     citizen6 "Oh, I get it, you want more."
     citizen6 "Okay, a whore who says she's not a whore..."
@@ -1640,7 +1640,7 @@ translate english cit6_bottle_spec_d21d8b02:
     mt "I've never done anything like this before, especially in a place like this..."
     mt "It's awful! But I'm in this position now..."
     mt "I need my old life back, at any cost, and that takes money!"
-    mt "It's a good thing there's no one here but this pervert and no one else will know about it..."
+    mt "It's a good thing there's no one here, but this pervert and no one else will know about it..."
     mt "It's all for my main purpose..."
     mt "What should I do?"
 
@@ -1700,7 +1700,7 @@ translate english cit6_bottle_spec_8a7a6f9b:
     # citizen6 "Ну и ладно! Пойду значит вечером сниму шлюху и она запехнет бутылку в зад за 10 долларов!"
     m "Of course not!"
     m "I'm not gonna let some pervert do that!"
-    citizen6 "Well, okay! I'm gonna go pick up a hooker tonight and she's gonna shove a bottle up her ass for $ 10!"
+    citizen6 "Well, okay! I'm gonna go pick up a hooker tonight, and she's gonna shove a bottle up her ass for $ 10!"
 
 # game/Quests/EP2/Citizens/Citizen6_dialogue.rpy:1264
 translate english cit6_bottle_spec_ebf4c850:

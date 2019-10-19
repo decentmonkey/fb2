@@ -27,7 +27,7 @@ translate english ep28_dialogues_jail2_marcus1_73646b8b:
     mt "That awful office again..."
     mt "But this time I know what to do to get out of here!"
     mt "I know what to do... Although..."
-    mt "I came here and I don't know what to do."
+    mt "I came here, and I don't know what to do."
     mt "I didn't think about what I was going to tell this man... OH MY GOD!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:23
@@ -88,9 +88,9 @@ translate english ep28_dialogues_jail2_marcus1_fe2f4be8:
     # mt "В смысле? Какую верхнюю одежду?"
     # m "!!!"
     # m "Верхнюю одежду?"
-    mt "What do you mean? What kind of outer clothing ?"
+    mt "What do you mean? What kind of outer clothing?"
     m "!!!"
-    m "Outer clothing ?"
+    m "Outer clothing?"
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:47
 translate english ep28_dialogues_jail2_marcus1_7d077968:
@@ -125,7 +125,7 @@ translate english ep28_dialogues_jail2_marcus1_1a627b54:
     # m "Мистер Маркус, спасибо... Я сама..."
     mt "He's trying to humiliate me. To embarrass me..."
     mt "Well..."
-    mt "I came here with a goal and I will achieve it!"
+    mt "I came here with a goal, and I will achieve it!"
     mt "That creepy Marcus won't break me!"
     mt "I just need to do what he said..."
     m "Mr. Marcus, thank you... I can do it..."
@@ -341,14 +341,14 @@ translate english ep28_dialogues_jail2_marcus1_355bcf4d:
 
     # m "Да, но в ином случае я рискую отправиться в одно, место, где..."
     # m "В которое я не хотела бы попадать, Мистер Маркус."
-    m "Yes, but otherwise I risk going to one place, where..."
+    m "Yes, but otherwise, I risk going to one place, where..."
     m "Which I don't want to visit, Mr. Marcus."
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:164
 translate english ep28_dialogues_jail2_marcus1_cf2ff6a7:
 
     # marcus "Значит, тот образ жизни, что Вы сейчас ведете, не устраивает Вас, Миссис Бакфетт?"
-    marcus "So, you are not satisfied with your current lifestyle , Mrs. Buckfett?"
+    marcus "So, you are not satisfied with your current lifestyle, Mrs. Buckfett?"
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:166
 translate english ep28_dialogues_jail2_marcus1_9b700aeb:
@@ -365,7 +365,7 @@ translate english ep28_dialogues_jail2_marcus1_f718a20f:
     # marcus "Я действительно осознаю все те неудобства, с которыми Вам приходится сталкиваться."
     # marcus "И я категорически против этого."
     marcus "Oh, Mrs. Buckfett. I understand you."
-    marcus "I am really aware of all the inconveniences you have to face."
+    marcus "I am really aware of all the inconvenience you have to face."
     marcus "And I'm totally against it."
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:173
@@ -412,7 +412,7 @@ translate english ep28_dialogues_jail2_marcus1_13bd0c61:
     # marcus "Вас сейчас окружает злой мир, полный неопределенности."
     # marcus "А на Объекте 218 все будет просто и понятно."
     marcus "You are now surrounded by an evil world full of uncertainty."
-    marcus "So, at the Object 218 everything will be simple and clear."
+    marcus "So, at the Object 218, everything will be simple and clear."
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:190
 translate english ep28_dialogues_jail2_marcus1_e935cf14:
@@ -516,7 +516,7 @@ translate english ep28_dialogues_jail2_marcus1_34a51ce0:
 translate english ep28_dialogues_jail2_marcus1_e5c3447b:
 
     # m "С чем я справляюсь, Мистер Маркус?"
-    m "Am I doing well with what , Mr. Marcus?"
+    m "Am I doing well with what, Mr. Marcus?"
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:238
 translate english ep28_dialogues_jail2_marcus1_87c576f4:
@@ -589,8 +589,8 @@ translate english ep28_dialogues_jail2_marcus1_dc6cd156:
     # marcus "Вы ведь не можете работать, Миссис Бакфетт."
     # marcus "Без документов это будет незаконно."
     marcus "What about the food?"
-    marcus "You can't work, Mrs Buckfett"
-    marcus "Without documents it would be illegal."
+    marcus "You can't work, Mrs. Buckfett."
+    marcus "Without documents, it would be illegal."
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:272
 translate english ep28_dialogues_jail2_marcus1_6ab746c5:
@@ -613,7 +613,7 @@ translate english ep28_dialogues_jail2_marcus1_9001ecb2:
     # marcus "Да и, если бы были, Вы должны делать это официально, а иначе будет нарушение закона."
     # marcus "Но у Вас нет документов."
     marcus "And the house? You don't have the means to pay the rent."
-    marcus "And if it was, you have to do it officially, otherwise it will be violation of the law."
+    marcus "And if it was, you have to do it officially. Otherwise, it will be a violation of the law."
     marcus "But you have no documents."
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:282
@@ -694,7 +694,7 @@ translate english ep28_dialogues_jail2_marcus1_90b4d308:
     # m "Мистер Маркус, скажите что мне ответить?"
     m "I... I do not know..."
     m "It's hard for me to think because I'm scared..."
-    m "Mr. Marcus, can you tell me what should I say?"
+    m "Mr. Marcus, can you tell me what I should say?"
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:312
 translate english ep28_dialogues_jail2_marcus1_75f4e5f6:
@@ -775,7 +775,7 @@ translate english ep28_dialogues_jail2_marcus1_18085c85:
     # marcus "И уже не будет той Моники Бакфетт, в глазах которой всегда горит огонь."
     # marcus "Мне будет не хватать Вас..."
     marcus "Mrs. Buckfett, You're right. You will look at the world differently."
-    marcus "And there won't be fire in the eyes of Monica Buckfett anymore."
+    marcus "And there won't be the fire in the eyes of Monica Buckfett anymore."
     marcus "I will miss you..."
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:344
@@ -801,7 +801,7 @@ translate english ep28_dialogues_jail2_marcus1_b178011a:
     # mt "Значит... Значит, он не торопится отправить меня на ферму?"
     # mt "Это мой шанс!"
     # m "???"
-    mt "He... He speaks... Abou...the other way?"
+    mt "He... He speaks... About...the other way?"
     mt "It means... that he's in no hurry to send me to the farm?"
     mt "This is my chance!"
     m "???"
@@ -824,7 +824,7 @@ translate english ep28_dialogues_jail2_marcus1_1b65532d:
     # marcus "Я бы хотел проверить Ваше анальное отверстие, Миссис Бакфетт."
     # marcus "Я боюсь, что для леди такого уровня и социального положения, как Вы, это будет не совсем комфортно."
     marcus "I'd like to check your anus, Mrs. Buckfett."
-    marcus "I'm afraid it won't be very comfortable for a such high-level lady with social status as yours."
+    marcus "I'm afraid it won't be very comfortable for such a high-level lady with social status as yours."
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:363
 translate english ep28_dialogues_jail2_marcus1_263c25b2:
@@ -840,7 +840,7 @@ translate english ep28_dialogues_jail2_marcus1_f4895480:
     # mt "Иначе этому психу я стану неинтересна и для меня все будет кончено!"
     mt "If I refuse, I'm dead. I understand that!"
     mt "I have to let him, but I have to play along, I don't have to be just a doll."
-    mt "Otherwise this psycho will lose interest in me and the game will be over!"
+    mt "Otherwise, this psycho will lose interest in me, and the game will be over!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:374
 translate english ep28_dialogues_jail2_marcus1_efa81f3c:
@@ -945,7 +945,7 @@ translate english ep28_dialogues_jail2_marcus1_9a3f0617:
     # marcus "Присядьте, пожалуйста, сюда."
     # marcus "И сделайте это, пожалуйста, своим анальным отверстием."
     marcus "No, Mrs. Buckfett, not there."
-    marcus "Please have a seat, here."
+    marcus "Please have a seat here."
     marcus "And please do it with your anus."
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:432
@@ -954,7 +954,7 @@ translate english ep28_dialogues_jail2_marcus1_406c61c3:
     # mt "Анальным отверстием?! Я должна сесть на это?!"
     # m "!!!"
     # m "Что это?!"
-    mt "With my anus?! Do I have to seat on it?!"
+    mt "With my anus?! Do I have to sit on it?!"
     m "!!!"
     m "What's it?!"
 
@@ -1004,7 +1004,7 @@ translate english ep28_dialogues_jail2_marcus1_c3ef59d5:
     # m "Ой, она упала..."
     # marcus "Подымите, поставьте ее и продолжайте далее."
     m "Oh, it fell..."
-    marcus "Pick it up, put it up and move on."
+    marcus "Pick it up, put it up, and move on."
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:483
 translate english ep28_dialogues_jail2_marcus1_edd60eec:
@@ -1063,7 +1063,7 @@ translate english ep28_dialogues_jail2_marcus1_c37c0d1c:
 
     # mt "Мне больно! Эта штука разрывает меня изнутри!"
     # mt "Но что мне ответить ему?!"
-    mt "It hurst me! This thing is tearing me apart inside!"
+    mt "It hurts me! This thing is tearing me apart inside!"
     mt "But what shall I say to him?!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:525
@@ -1092,7 +1092,7 @@ translate english ep28_dialogues_jail2_marcus1_e612037c_2:
 translate english ep28_dialogues_jail2_marcus1_d0bc0601:
 
     # marcus "Да, и, если Вам действительно нравится, Я разрешаю Вам пока не вынимать это."
-    marcus "Yes, and if you really like It, I'll let you keep it inside.."
+    marcus "Yes, and if you really like it, I'll let you keep it inside.."
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:535
 translate english ep28_dialogues_jail2_marcus1_29a4f6ab_1:
@@ -1114,7 +1114,7 @@ translate english ep28_dialogues_jail2_marcus2_d59a594d:
     # marcus "У Вас красивое платье."
     # marcus "Жаль это подделка. Вы достойны лучшего..."
     marcus "You have a beautiful dress."
-    marcus "It's a petty that it's fake. You deserve better..."
+    marcus "It's a pity that it's fake. You deserve better..."
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:549
 translate english ep28_dialogues_jail2_marcus2_1130922e:
@@ -1168,7 +1168,7 @@ translate english ep28_dialogues_jail2_marcus2_1f851e30:
     # marcus "Вы меня не обманывали?"
     marcus "You didn't take anything out of yourself, did you?"
     marcus "I mean... You really like what's inside of you, don't you?"
-    marcus "Don't you not deceive me?"
+    marcus "Don't you deceive me?"
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:571
 translate english ep28_dialogues_jail2_marcus2_f6b32db0:
@@ -1202,7 +1202,7 @@ translate english ep28_dialogues_jail2_marcus2_073d77c9:
     marcus "Mrs. Buckfett..."
     marcus "I remember our first meeting..."
     marcus "You came here and started yelling at me."
-    marcus "You were indeed a high-level girl and you remained this way."
+    marcus "You were indeed a high-level girl, and you remained this way."
     marcus "But you've just said that you were grateful to me."
     marcus "Tell me, did I deserve to be treated like this?"
 
@@ -1377,7 +1377,7 @@ translate english ep28_dialogues_jail2_marcus2_2bae80f3:
     # marcus "Вы женщина очень высокого положения. Вы привыкли говорить, а не слушать."
     # marcus "И, для того, чтобы быть уверенным, что Вы не будете перебивать меня..."
     marcus "Now I want to tell you something."
-    marcus "You are a woman of very high rank. You're used to talk, not to listen."
+    marcus "You are a woman of a very high rank. You're used to talking, not to listen."
     marcus "And to make sure you don't interrupt me..."
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:676
@@ -1498,7 +1498,7 @@ translate english ep28_dialogues_jail2_marcus2_e518555c:
     # marcus "И Я, и Эти Люди - всецело доверяем друг другу."
     # marcus "С моей стороны было бы крайне неудобно не сообщать им новую информацию..."
     # marcus "Поэтому, я собирался сообщить им о ней и арестовать Вас немедленно..."
-    marcus "I and these People trust each other completely."
+    marcus "These People and I trust each other completely."
     marcus "It would be extremely inconvenient for me not to give them new information..."
     marcus "So I was going to tell them about it and arrest you immediately..."
 
@@ -1734,7 +1734,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:504
     old "Попытаться изо всех сил! Это единственный шанс спастись!"
-    new "Try it with brute forcet! It is the only path to salvation!"
+    new "Try it with brute force! It is the only path to salvation!"
 
     # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:812
     old "Анальная пробка"
@@ -1833,7 +1833,7 @@ translate english ep28_dialogues_jail2_marcus2_3bc6287a:
 
     # marcus "И Я, и Эти Люди - всецело доверяем друг другу."
     # marcus "С моей стороны было бы крайне неудобно не сообщать им новую информацию..."
-    marcus "I and these People trust each other completely."
+    marcus "These People and I trust each other completely."
     marcus "It would be extremely inconvenient for me not to give them new information..."
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:1262

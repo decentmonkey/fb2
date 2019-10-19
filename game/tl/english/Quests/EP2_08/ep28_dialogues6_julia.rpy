@@ -23,7 +23,7 @@ translate english ep28_dialogues6_julia_1_cbd45ab0:
 
     # fred "С моей стороны было бы непрофессионально совмещать две работы, Миссис Бакфетт."
     # fred "Тем более, такие не схожие по должностным обязанностям."
-    fred "From my side it would be unprofessional to do two jobs, Mrs. Buckfett."
+    fred "From my side, it would be unprofessional to do two jobs, Mrs. Buckfett."
     fred "Moreover, such a difference in official duties."
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:26
@@ -54,7 +54,7 @@ translate english ep28_dialogues6_julia_1_7762a044:
     # m "Фред, я не собираюсь больше заниматься подобными вещами!"
     # m "Я здесь начальник и нечего мною командовать!" 
     m "Fred, I'm not going to do this kind of thing again!"
-    m "I'm the boss here and there's nothing to command me!" 
+    m "I'm the boss here, and there's nothing to command me!" 
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:39
 translate english ep28_dialogues6_julia_1_12d102dc:
@@ -91,7 +91,7 @@ translate english ep28_dialogues6_julia_1_eba4e6c8:
 
     # fred "Я не сомневаюсь, Миссис Бакфетт, что у вас все получится."
     # fred "Я с нетерпением буду ждать вашего ответа."
-    fred "I have no doubt, Mrs. Buckfett that you will succeed."
+    fred "I have no doubt, Mrs. Buckfett, that you will succeed."
     fred "I look forward to hear from you."
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:56
@@ -223,9 +223,9 @@ translate english ep28_dialogues6_julia_2_1cd3da57:
     mt "Fuck! A little more!"
     julia "Mrs. Buckfett, there is no flashcard under your desk..."
     m "..."
-    mt "Of course it's not there!.."
+    mt "Of course, it's not there!.."
     m "Julia, are you sure that you've looked carefully?" 
-    julia "M-m-Mrs. Buckfett I'll look again..."
+    julia "M-m-Mrs. Buckfett, I'll look again..."
     mt "I can't see anything anyway!"
     mt "!!!"
     julia "???" 
@@ -328,7 +328,7 @@ translate english ep28_dialogues6_julia_3_8bcd68d7:
     # mt "!!!"
     # mt "Мне нужно будет придумать еще что-нибудь..."
     # mt "Иначе мерзавец Фред не оставит меня в покое..."
-    mt "Fuck! Just a bit more and I'll see her panties!"
+    mt "Fuck! Just a bit more, and I'll see her panties!"
     julia "Mrs. Buckfett, there are no documents..."
     m "..."
     m "Take a closer look, Julia!" 
@@ -343,7 +343,7 @@ translate english ep28_dialogues6_julia_3_8bcd68d7:
     julia "No, Mrs. Buckfett... There's nothing on the shelf."
     julia "..."
     m "..."
-    m "You wasn't looking for it well, Julia!! You can't be trusted with anything!"
+    m "You weren't looking for it well, Julia!! You can't be trusted with anything!"
     julia "???"
     julia "N-but..."
     m "Now go to work! And don't be distracted!"
@@ -471,7 +471,7 @@ translate english ep28_dialogues6_julia_5_6b250985:
     julia "M-m-Mrs. Buckfett... Have you lost something? Can I help?" 
     mt "Yes!!! Spread your legs and show your panties!"
     m "No!!! I will! Sit down and work!"
-    mt "Just a little more and I'll see her panties!"
+    mt "Just a little more, and I'll see her panties!"
     mt "!!!"
     m "Move your leg, Julia! It's interfering with me!"
     julia "Mrs. Buckfett! I Are you trying... You..."
@@ -484,7 +484,7 @@ translate english ep28_dialogues6_julia_5_6b250985:
     mt "What a nightmare!!!"
     mt "!!!"
     mt "What else can I think up?"
-    mt "It's time to end this! How long can you do this stupid things?!"
+    mt "It's time to end this! How long can you do these stupid things?!"
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:324
 translate english ep28_dialogues6_julia_6_a48c99bd:
@@ -549,7 +549,7 @@ translate english ep28_dialogues6_julia_6_fd485f28:
     # mt "Может, и правда сделать, как сказал этот мерзавец Фред?.."
     # mt "Я уже не знаю, что еще можно придумать..."
     m "No, Fred! It's not as easy as you think!!!"
-    m "I'm not some lesbian so that I get under her skirt!"
+    m "I'm not some kind of lesbian to just climb under her skirt!"
     fred "Mrs. Buckfett, I understand. But I ask you to hurry."
     fred "It's unprofessional of you to keep me waiting so long."
     m "..." 
@@ -590,7 +590,7 @@ translate english ep28_dialogues6_julia_7_3e8616fe:
     mt "What if she recognized her panties?!"
     mt "I can't tell her I'm wearing her panties."
     mt "I, Monica Buckfett, wear my ex-maid's panties!"
-    mt "Although... I hardly believe it myself and Julia certainly won't believe it..."
+    mt "Although... I hardly believe it myself, and Julia certainly won't believe it..."
     mt "..."
     m "Julia!"
     julia "Yes, Mrs. Buckfett?" 
@@ -698,7 +698,7 @@ translate english ep28_dialogues6_julia_7_1996b17d:
     m "But aren't they beautiful?" 
     julia "In fact, Mrs. Buckfett, they are terrible. I hated wearing them."
     mt "It's time to end this circus!"
-    m "Julia, I've just showed you my panties. Now I want to see yours!"
+    m "Julia, I've just shown you my panties. Now I want to see yours!"
     julia "What???"
     julia "No! I'm not going to show you anything, Mrs. Buckfett!"
     m "Julia, just show them to me. I just want to see."
@@ -727,7 +727,7 @@ translate english ep28_dialogues6_julia_8_c46de969:
     # mt "Ненавижу этого мерзавца!"
     m "Fred!"
     m "How long will you follow me?!"
-    mt "Today I could't find out the color of Julia's panties. What do I have to do?"
+    mt "Today I couldn't find out the color of Julia's panties. What do I have to do?"
     fred "Mrs. Buckfett... Have you already found out what I asked you to?"
     m "!!!" 
     mt "I hate that bastard!"
@@ -824,7 +824,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:113
     old "Заглянуть Юлии под платье."
-    new "Take a peek under Julias dress."
+    new "Take a peek under Julia's dress."
 
     # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:113
     old "Не заглядывать."
@@ -868,7 +868,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:535
     old "Заставить Юлию искать флешку."
-    new "Order Julia to find an usb drive."
+    new "Order Julia to find an USB drive."
 
     # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:535
     old "Заставить Юлию достать с полки папку с отчетами."
@@ -988,7 +988,7 @@ translate english ep28_dialogues6_julia_2_1dd68fda:
     # mt "Конечно, ее там нет!.."
     julia "Mrs. Buckfett, there is no flashcard under your desk..."
     m "..."
-    mt "Of course it's not there!.."
+    mt "Of course, it's not there!.."
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:188
 translate english ep28_dialogues6_julia_2_9c9597d9:
@@ -1000,7 +1000,7 @@ translate english ep28_dialogues6_julia_2_9c9597d9:
 translate english ep28_dialogues6_julia_2_49110679:
 
     # julia "М-м-миссис Бакфетт, я сейчас посмотрю еще раз..."
-    julia "M-m-Mrs. Buckfett I'll look again..."
+    julia "M-m-Mrs. Buckfett, I'll look again..."
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:206
 translate english ep28_dialogues6_julia_2_2d3bbd0f:
@@ -1188,7 +1188,7 @@ translate english ep28_dialogues6_julia_3_e612037c:
 translate english ep28_dialogues6_julia_3_ed57fb0b:
 
     # mt "Черт! Еще чуть-чуть и я увижу ее трусики!"
-    mt "Fuck! Just a bit more and I'll see her panties!"
+    mt "Fuck! Just a bit more, and I'll see her panties!"
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:384
 translate english ep28_dialogues6_julia_3_9ee00c08:
@@ -1274,7 +1274,7 @@ translate english ep28_dialogues6_julia_3_c77f7b8b:
     # m "..."
     # m "Ты плохо искала, Юлия! Тебе ничего нельзя доверить!"
     m "..."
-    m "You wasn't looking for it well, Julia!! You can't be trusted with anything!"
+    m "You weren't looking for it well, Julia!! You can't be trusted with anything!"
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:458
 translate english ep28_dialogues6_julia_3_b3b654ba:
@@ -1443,7 +1443,7 @@ translate english ep28_dialogues6_julia_5_16ea510b:
 
     # mt "Еще чуть-чуть и я увижу ее трусики!"
     # mt "!!!"
-    mt "Just a little more and I'll see her panties!"
+    mt "Just a little more, and I'll see her panties!"
     mt "!!!"
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:608
@@ -1492,7 +1492,7 @@ translate english ep28_dialogues6_julia_5_5ccdc81b:
     # mt "Пора уже заканчивать с этим! Сколько можно заниматься этими глупостями?!"
     mt "!!!"
     mt "What else can I think up?"
-    mt "It's time to end this! How long can you do this stupid things?!"
+    mt "It's time to end this! How long can you do these stupid things?!"
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:651
 translate english ep28_dialogues6_julia_6_58e1bbbe:
@@ -1518,7 +1518,7 @@ translate english ep28_dialogues6_julia_6_aa8108ac:
     # m "Нет, Фред! Это не так легко, как ты думаешь!!!"
     # m "Я не какая-то лесбиянка, чтобы просто взять и залезть к ней под юбку!"
     m "No, Fred! It's not as easy as you think!!!"
-    m "I'm not some lesbian so that I get under her skirt!"
+    m "I'm not some kind of lesbian to just climb under her skirt!"
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:685
 translate english ep28_dialogues6_julia_6_aebfd2c1:
@@ -1624,7 +1624,7 @@ translate english ep28_dialogues6_julia_7_177e8844:
 translate english ep28_dialogues6_julia_7_587dab8e:
 
     # mt "Хотя... Я сама в это с трудом верю, а Юлия тем более не поверит..."
-    mt "Although... I hardly believe it myself and Julia certainly won't believe it..."
+    mt "Although... I hardly believe it myself, and Julia certainly won't believe it..."
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:770
 translate english ep28_dialogues6_julia_7_a7ddebcd:
@@ -1798,7 +1798,7 @@ translate english ep28_dialogues6_julia_7_b8b7371d:
 translate english ep28_dialogues6_julia_7_895a7050:
 
     # m "Юлия, я тебе показала свои трусики. Теперь я хочу увидеть твои!"
-    m "Julia, I've just showed you my panties. Now I want to see yours!"
+    m "Julia, I've just shown you my panties. Now I want to see yours!"
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:912
 translate english ep28_dialogues6_julia_7_d0b3d6e6:
@@ -1874,7 +1874,7 @@ translate english ep28_dialogues6_julia_8_1091c843:
 translate english ep28_dialogues6_julia_8_5c319bb4:
 
     # mt "Я сегодня так и не узнала цвет трусиков Юлии. Что же делать?"
-    mt "Today I could't find out the color of Julia's panties. What do I have to do?"
+    mt "Today I couldn't find out the color of Julia's panties. What do I have to do?"
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:990
 translate english ep28_dialogues6_julia_8_4455fe95:

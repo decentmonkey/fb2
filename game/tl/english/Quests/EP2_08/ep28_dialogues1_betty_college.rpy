@@ -28,7 +28,7 @@ translate english dialogue_betty_college_0_1_a2d95cc1:
 translate english dialogue_betty_college_0_1_ebc42394:
 
     # betty "Тебе надо - ты и зови. Мне нет дела до твоих глупостей."
-    betty "You need it - so you call her by youself. I don't care about your nonsense."
+    betty "You need it - so you call her by yourself. I don't care about your nonsense."
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:24
 translate english dialogue_betty_college_0_1_2024b143:
@@ -36,7 +36,7 @@ translate english dialogue_betty_college_0_1_2024b143:
     # bardie "Я сказал тебе, чтобы ты позвала гувернантку..."
     # bardie "Или ты решила, что меня не надо слушаться? Ты забыла, что у меня есть парочка очень интересных фото с тобой и тренером?"
     bardie "I told you to call the maid..."
-    bardie "Or have you decided not to listen to me? Did you forget I have some very interesting photos of you and coach?"
+    bardie "Or have you decided not to listen to me? Did you forget I have some very interesting photos of you and the trainer?"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:28
 translate english dialogue_betty_college_0_1_a194bb1f:
@@ -130,7 +130,7 @@ translate english dialogue_betty_college_0_1_41359497:
     # mt "Задрать юбку перед каким-то малявкой, который будет снимать это на телефон! Который поселился в МОЕМ доме!!!"
     # mt "!!!"
     mt "He's quite insolent!!!"
-    mt "This little man requires me Monica Buckfett, so I agreed to lift my skirt!"
+    mt "This little man requires me, Monica Buckfett, so I agreed to lift my skirt!"
     mt "Lift up your skirt in front of some little guy who's gonna film it on his phone! Who moved into MY house!!!"
     mt "!!!"
 
@@ -138,7 +138,7 @@ translate english dialogue_betty_college_0_1_41359497:
 translate english dialogue_betty_college_0_1_1829de14:
 
     # m "Я не буду делать этого! Да как ты смеешь?! В обязанности гувернантки не входит позировать в голом виде перед камерой!"
-    m "I'm not doing this! How dare you?! The duties of the maid does not include posing naked in front of the camera!"
+    m "I'm not doing this! How dare you?! The duties of the maid do not include posing naked in front of the camera!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:75
 translate english dialogue_betty_college_0_1_c85396bc:
@@ -211,7 +211,7 @@ translate english dialogue_betty_college_0_1_45e9a3aa:
 
     # betty "Я порядочная замужняя женщина и ты не смеешь требовать от меня такого!" 
     # bardie "Стой! Я с тобой еще не договорил! Ты куда?" 
-    betty "I'm a decent married woman and you can't ask me to do that!" 
+    betty "I'm a decent married woman, and you can't ask me to do that!" 
     bardie "Stop! I'm not done with you yet! Where are you going?" 
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:121
@@ -311,7 +311,7 @@ translate english dialogue_betty_college_1_4ec243dc:
 
     # bardie "Если хочешь, чтобы отец и дальше думал, что ты верная жена, делай, что я тебе говорю."
     # bardie "И только попробуй не уладить вопрос моего отчисления. Тебе же хуже будет!"
-    bardie "If you want myf ather to keep thinking you're a faithful wife, do what I'm telling you."
+    bardie "If you want my father to keep thinking you're a faithful wife, do what I'm telling you."
     bardie "And just try not to settle the matter of my expulsion. You also will be worse!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:170
@@ -331,7 +331,7 @@ translate english dialogue_betty_college_1_1_0585824c:
 
     # betty_t "Как этот сопляк смеет так со мной разговаривать?!"
     # betty_t "Теперь мне придется идти в колледж и решать его проблемы. Как-будто у меня более важных дел нет!"
-    betty_t "How dare that brat talk to me like that?!"
+    betty_t "How dare that brat to talk to me like that?!"
     betty_t "Now I have to go to College and solve his problems. Like I don't have more important things to do!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:186
@@ -352,7 +352,7 @@ translate english dialogue_betty_college_1_1b_c02c601b:
 translate english dialogue_betty_college_1_1c_749ab1cf:
 
     # betty_t "Ненавижу это сопляка! Как он смеет командовать в моем доме?"
-    betty_t "I hate that brat! How dare he command my house?"
+    betty_t "I hate that brat! How dare he commands in my house?"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:199
 translate english dialogue_betty_college_1_1d_3c63588e:
@@ -418,7 +418,7 @@ translate english dialogue_betty_college_1_1m_c5d90af8:
 translate english dialogue_betty_college_1_1n_ef8b3614:
 
     # betty_t "Какие-то сложные математические формулы... Как в этом вообще что-то можно понять?"
-    betty_t "Some complicated mathematical formula... How does that even make sense?"
+    betty_t "Some complicated mathematical formulas... How does that even make sense?"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:243
 translate english dialogue_betty_college_1_1o_c92b28d5:
@@ -648,7 +648,7 @@ translate english dialogue_betty_teacher_1_f7033899:
     # betty_t "Вот черт. Что же мне делать?"
     # betty_t "Так, стоп! Я же замужняя женщина и верная жена."
     # betty_t "Тем более, я разговариваю с учителем Барди! Я не должна так смотреть на то, что у него в штанах!"
-    betty_t "Oh shit. What do i have to do?"
+    betty_t "Oh shit. What do I have to do?"
     betty_t "Okay, stop! I am a married woman and a faithful wife."
     betty_t "Besides, I'm talking to teacher Bardi! I shouldn't look at what's in his pants like that!"
 
@@ -685,7 +685,7 @@ translate english dialogue_betty_teacher_1_775fca2d:
 
     # betty_t "С другой стороны..."
     # betty_t "Хм... Если я просто потрогаю его, это же не будет считаться изменой?"
-    betty_t "From other side..."
+    betty_t "From the other side..."
     betty_t "Um... If I just touched him, it wouldn't be treason, would it?"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:382
@@ -748,7 +748,7 @@ translate english dialogue_betty_teacher_1_9343b291:
     # betty_t "Что я делаю? Это так неправильно..."
     # betty_t "Я просто потрогаю его и вопрос с Барди будет решен. Я делаю это не ради своего удовольствия!"
     betty_t "What am I doing? This is so wrong..."
-    betty_t "I'll just touch it and the Bardi issue will be resolved. I'm not doing this for my own pleasure!"
+    betty_t "I'll just touch it, and the Bardi issue will be resolved. I'm not doing this for my own pleasure!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:416
 translate english dialogue_betty_teacher_1_332b65bb:
@@ -1054,7 +1054,7 @@ translate english dialogue_betty_college_3_df13b3e5:
     # betty_t "Хм... А у меня сегодня хорошо получилось уговорить учителя насчет документов этого сопляка..."
     # betty_t "Я не только порядочная, но еще и умная женщина. Ральфу очень повезло, что у него такая жена, как я!"
     betty_t "Hmm... And today I was good at persuading the teacher about the documents of this jerk..."
-    betty_t "I'm not only a decent woman, I'm also a smart one. Ralph is very lucky to have a wife like me!"
+    betty_t "I'm not only a decent woman, but I'm also a smart one. Ralph is very lucky to have a wife like me!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:577
 translate english dialogue_betty_college_1_1_4_6674f34c:
@@ -1102,7 +1102,7 @@ translate english dialogue_betty_teacher_2_83b44fea:
     # betty_t "Но только рукой! На большее я не соглашусь, это уже будет изменой! А я замужняя женщина!"
     betty_t "Why do I, a decent woman, have to do this kind of thing because of some kid?!"
     betty_t "Do I have to work with my hand again? Well, it helped last time..."
-    betty_t "But only by hand! On greater I not agree, this already will treason! I'm a married woman!"
+    betty_t "But only by hand! On greater, I not agree. This already will treason! I'm a married woman!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:605
 translate english dialogue_betty_teacher_2_d4241cdf:
@@ -1134,7 +1134,7 @@ translate english dialogue_betty_teacher_2_175fd62a:
 translate english dialogue_betty_teacher_2_ad4b02f3:
 
     # teacher "Я просто потрогаю ее и все. У вас такая красивая грудь!"
-    teacher "I'll just touch it and that's it. You have such beautiful breasts!"
+    teacher "I'll just touch it, and that's it. You have such beautiful breasts!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:617
 translate english dialogue_betty_teacher_2_f2060836_1:
@@ -1166,7 +1166,7 @@ translate english dialogue_betty_teacher_2_5892dbae:
     # bardie_t "!!!"
     # bardie_t "Сегодня в моей коллекции прибавятся отличные фотки с Бетти! Жаль, отец пока не может оценить их."
     bardie_t "!!!"
-    bardie_t "Today in my collection will be added great pictures with Betty! Too bad my father can't appreciate them yet."
+    bardie_t "Today in my collection will be added great pictures with Betty! Too bad, my father can't appreciate them yet."
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:643
 translate english dialogue_betty_teacher_2_733283d2:
@@ -1203,14 +1203,14 @@ translate english dialogue_betty_teacher_2_de38e21f:
 
     # betty_t "Мне нужно остановить это немедленно. Ммм... Иначе одной рукой я не обойдусь сегодня."
     # betty_t "Я порядочная и замужняя женщина! Я не могу себе позволить большего!"
-    betty_t "I need to stop this now. Mmm... Otherwise this will be more than a handjob."
+    betty_t "I need to stop this now. Mmm... Otherwise, this will be more than a handjob."
     betty_t "I am a decent and married woman! I can't let you do more!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:662
 translate english dialogue_betty_teacher_2_0baac3be:
 
     # betty "Мистер Эдвардс! Давайте, сделаем все, как в прошлый раз и я пойду. У меня мало времени."
-    betty "Mr. Edwards! Let's do it like last time and I'll go. I don't have much time."
+    betty "Mr. Edwards! Let's do it like last time, and I'll go. I don't have much time."
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:664
 translate english dialogue_betty_teacher_2_d2101e2b:
@@ -1260,7 +1260,7 @@ translate english dialogue_betty_teacher_2_52a6e830:
 translate english dialogue_betty_teacher_2_722600bd:
 
     # betty "Мистер Эдвардс, вам не достаточно нравится, как я делаю это рукой и вы хотите большего?"
-    betty "Mr. Edwards, you don't like the way I do it with my hand and you want more?"
+    betty "Mr. Edwards, you don't like the way I do it with my hand, and you want more?"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:689
 translate english dialogue_betty_teacher_2_a0ef2061:
@@ -1382,7 +1382,7 @@ translate english dialogue_betty_teacher_2_70b44ac6:
 translate english dialogue_betty_teacher_2_6cb92fd7:
 
     # teacher "Именно. Еще раз и я закрою этот вопрос с отчислением Барди."
-    teacher "Exactly. One more time and I will close this matter with Bardi's expulsion."
+    teacher "Exactly. One more time, and I will close this matter with Bardi's expulsion."
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:764
 translate english dialogue_betty_teacher_2_1f2e8ee0:
@@ -1554,7 +1554,7 @@ translate english dialogue_betty_teacher_3_9dd921dd:
 translate english dialogue_betty_teacher_3_5a5d25da:
 
     # betty "Мистер Эдвардс, вам не достаточно моей голой груди и вы хотите большего?"
-    betty "Mr. Edwards, my bare breasts are not enough for you and you want more?"
+    betty "Mr. Edwards, my bare breasts are not enough for you, and you want more?"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:866
 translate english dialogue_betty_teacher_3_b75fc7c3:
@@ -1748,7 +1748,7 @@ translate english dialogue_betty_college_5_3b779c18:
     # betty "Я договорилась с твоим преподавателем. Это было непросто, но я смогла его убедить не отчислять тебя из колледжа."
     # betty "Он очень не хотел оставлять тебя. Мне пришлось три раза посетить его и, в итоге, я смогла его уговорить."
     betty "I made a deal with your teacher. It wasn't easy, but I was able to convince him not to drop you out of College."
-    betty "He really didn't want togo easy on you. I had to visit him three times and eventually I was able to persuade him."
+    betty "He really didn't want to go easy on you. I had to visit him three times, and eventually, I was able to persuade him."
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:1000
 translate english dialogue_betty_college_5_be0958c7:
@@ -1776,7 +1776,7 @@ translate english dialogue_betty_college_5_2c4ca34c:
 translate english dialogue_betty_college_5_5ef4c224:
 
     # betty_t "Вот ты и попался, мелкий сопляк! Попробуй теперь покомандовать в моем доме!"
-    betty_t "Here you are, you little brat! Now try to command in my house!"
+    betty_t "Here you are, you little brat! Now try to command me in my house!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:1012
 translate english dialogue_betty_college_5_be0958c7_1:
@@ -1992,7 +1992,7 @@ translate english dialogue_betty_college_6_cd9dbab4:
 translate english dialogue_betty_college_6_f1af47bd:
 
     # bardie "Естественно, не покажу. Это только для меня..."
-    bardie "Of course I won't. It's just for me..."
+    bardie "Of course, I won't. It's just for me..."
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:1115
 translate english dialogue_betty_college_6_f63c7192:
@@ -2040,7 +2040,7 @@ translate english dialogue_betty_college_6_b47c3c9f:
 translate english dialogue_betty_college_6_86eaf680:
 
     # bardie "Ты сейчас снимешь свои трусы и позовешь гувернантку! Я жду!"
-    bardie "You're going to take off yourlingerie and call the maid! I'm waiting!"
+    bardie "You're going to take off your lingerie and call the maid! I'm waiting!"
 
 # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:1145
 translate english dialogue_betty_college_6_8ac1e6de_1:
@@ -2072,7 +2072,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:393
     old "Поддаться давлению со стороны учителя"
-    new "Be compliant to the teacher."
+    new "Be compliant with the teacher."
 
     # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:619
     old "Не делать этого. Я порядочная замужняя женщина. Я же пришла сюда, чтобы удовлетворить его только рукой..."
@@ -2088,7 +2088,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:679
     old "Мне совсем неинтересно, какой он на вкус!!!"
-    new "I'm not interested how it tastes at all!"
+    new "I'm not interested in how it tastes at all!"
 
     # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:856
     old "Это все закончится сексом. Я не должна делать этого! Я порядочная женщина..."
@@ -2096,7 +2096,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues1_betty_college.rpy:856
     old "Он хочет приласкать меня. Это же просто ласки, а не измена? Я же порядочная женщина..."
-    new "He just wants to comfort me... It's not a cheating..."
+    new "He just wants to comfort me... It's not cheating..."
 
 # TODO: Translation updated at 2019-10-18 04:27
 

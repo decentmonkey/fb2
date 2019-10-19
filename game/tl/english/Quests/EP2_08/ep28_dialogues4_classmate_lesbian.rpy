@@ -139,8 +139,8 @@ translate english dialogue_4_classmate_lesbian_1_495cf7a8:
     mt "He can go to the police and tell them I live here."
     mt "..."
     mt "He will tell him..."
-    mt "The police will be here the same day..."
-    mt "Maybe even tomorrow..."
+    mt "The police will be here on the same day..."
+    mt "Maybe even today..."
     mt "No! I mustn't let that happen!!!"
     mt "!!!"
     bardie "Maid, bend down and touch Betty's pussy with your tongue."
@@ -167,7 +167,7 @@ translate english dialogue_4_classmate_lesbian_1_495cf7a8:
     betty "Aaah, tell her to stop... Ohhh..."
     betty "ÀÀÀÀÀÀÀÀ!!!"
     bardie "Maid, that's enough."
-    bardie "Now the master is satisfied with his maid and she can go."
+    bardie "Now the master is satisfied with his maid, and she can go."
     bardie "I see you're following the rules of this house. You're free for tonight, too."
 
 # TODO: Translation updated at 2019-10-18 04:27
@@ -445,8 +445,8 @@ translate english dialogue_4_classmate_lesbian_1_1ec6f87c:
     # mt "Возможно, даже завтра..."
     mt "..."
     mt "He will tell him..."
-    mt "The police will be here the same day..."
-    mt "Maybe even tomorrow..."
+    mt "The police will be here on the same day..."
+    mt "Maybe even today..."
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:216
 translate english dialogue_4_classmate_lesbian_1_03c53ace:
@@ -618,7 +618,7 @@ translate english dialogue_4_classmate_lesbian_1_24d2e3d3:
 translate english dialogue_4_classmate_lesbian_1_4e44ec07:
 
     # bardie "Теперь хозяин доволен своей гувернанткой и она может идти."
-    bardie "Now the master is satisfied with his maid and she can go."
+    bardie "Now the master is satisfied with his maid, and she can go."
 
 # game/Quests/EP2_08/ep28_dialogues4_classmate_lesbian.rpy:494
 translate english dialogue_4_classmate_lesbian_1_da594c3d:

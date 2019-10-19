@@ -60,7 +60,7 @@ translate english ep28_dialogues_jail1_25d0c484:
 translate english ep28_dialogues_jail1_51a72608:
 
     # marcus "Я снюсь тебе, чтобы сказать как избежать всего этого..."
-    marcus "I came in your dream tell you how to avoid all this..."
+    marcus "I came in your dream to tell you how to avoid all this..."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:28
 translate english ep28_dialogues_jail1_6b04efc2:
@@ -147,7 +147,7 @@ translate english ep28_dialogues_jail2_eaea81a0:
 
     # overseer "Мистер Маркус еще занят и он не может встретиться с тобой."
     # overseer "Тебе надо подождать его дольше."
-    overseer "Mr. Marcus is still busy and so you can't meet."
+    overseer "Mr. Marcus is still busy, and so you can't meet."
     overseer "You should wait longer."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:83
@@ -160,7 +160,7 @@ translate english ep28_dialogues_jail2_4834460a:
 translate english ep28_dialogues_jail2_76b490e5:
 
     # overseer "Это не мое дело. Ты арестант и сидишь в камере."
-    overseer "It's none of my business. You're a prisoner so you are in a cell."
+    overseer "It's none of my business. You're a prisoner, so you are in a cell."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:88
 translate english ep28_dialogues_jail2_a2b260ea:
@@ -294,7 +294,7 @@ translate english ep28_dialogues_jail2_0546d28b:
     # prisoner1 "За то что мы будем тихо себя вести и не надоедать Бобу своим шумом."
     prisoner1 "Whore, have you forgotten?"
     prisoner1 "Bob promised us fun with you!"
-    prisoner1 "For that we'll be super quiet and won't bother Bob with noisy things."
+    prisoner1 "For that, we'll be super quiet and won't bother Bob with noisy things."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:163
 translate english ep28_dialogues_jail2_2460c8c6:
@@ -439,9 +439,9 @@ translate english ep28_dialogues_jail2_84a90c0f:
     # prisoner1 "А нам за сотрудничество увеличат паек! Мы уверены в этом!"
     prisoner1 "We remember the days when Bob went to the Bank and meet the realtor."
     prisoner1 "We've all heard!"
-    prisoner1 "The detective will investigate and quickly find Bobs guilt."
-    prisoner1 "Then Bob will be replaced and we will be glad of it!"
-    prisoner1 "The other warden will be smarter and it will be easier for us to negotiate."
+    prisoner1 "The detective will investigate and quickly find Bob's guilt."
+    prisoner1 "Then Bob will be replaced, and we will be glad of it!"
+    prisoner1 "The other warden will be smarter, and it will be easier for us to negotiate."
     prisoner1 "And our rations will be increased for cooperation! We are sure of it!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:243
@@ -490,7 +490,7 @@ translate english ep28_dialogues_jail2_a4aee6ad:
     # mt "Но, если заключенные им расскажут про мои попытки сбежать, то это будет конец!"
     # mt "О БОЖЕ, Моника! Что же мне делать?"
     mt "..."
-    mt "But apparently they have no leads to do it."
+    mt "But apparently, they have no leads to do it."
     mt "But if the prisoners tell them about my attempts to escape, it will be the end!"
     mt "OH GOD, Monica! What do I have to do?"
 
@@ -504,7 +504,7 @@ translate english ep28_dialogues_jail2_bddd0252:
     # mt "Что же мне делать?"
     mt "Do I have to pretend to be a whore here?!"
     mt "..."
-    mt "But otherwise I won't survive! It's a matter of life and death."
+    mt "But otherwise, I won't survive! It's a matter of life and death."
     mt "And according to Melanie, it could be worse than death..."
     mt "What should I do?"
 
@@ -729,7 +729,7 @@ translate english ep28_dialogues_jail2_eed19ebf:
 
     # m "Вы... Вы очень красивые мужчины и..."
     # m "..."
-    m "You... You are very handsome men..."
+    m "You... You are a very handsome men..."
     m "..."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:446
@@ -1158,7 +1158,7 @@ translate english ep28_dialogues_jail2_a3bf0996:
     # mt "Нет!"
     # prisoner1 "В очередь! Шлюха одна, а нас много!"
     mt "No!"
-    prisoner1 "Line up, the whore is alone and we are many!"
+    prisoner1 "Line up, the whore is alone, and we are many!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:729
 translate english ep28_dialogues_jail2_6f9fcf70:
@@ -1272,7 +1272,7 @@ translate english ep28_dialogues_jail2_9d37a4a2:
     # mt "..."
     # mt "Эта лампа... Как она мешает мне..."
     mt "I must sleep... I need to sleep..."
-    mt "Tomorrow I will wake up and this nightmare will disappear..."
+    mt "Tomorrow I will wake up, and this nightmare will disappear..."
     mt "..."
     mt "This lamp... It stops me from sleeping..."
 
@@ -1316,7 +1316,7 @@ translate english ep28_dialogues_jail2_eb731016:
     # mt "Итак, завтра!"
     # mt "Завтра я встречусь с Мистером Маркусом и этот кошмар закончится, я уверена!"
     mt "So, tomorrow!"
-    mt "I'll meet Mr. Marcus tomorrow and this nightmare will be over, I'm sure!"
+    mt "I'll meet Mr. Marcus tomorrow, and this nightmare will be over, I'm sure!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:821
 translate english ep28_dialogues_jail2_ef9a5b9a:
@@ -1396,7 +1396,7 @@ translate english ep28_dialogues_jail2_a1d4d17d:
 translate english ep28_dialogues_jail2_b42aed58:
 
     # prisoner1 "Мы хотим получить удовольствие от нее, прямо сейчас!"
-    prisoner1 "We want to enjoy it, right now!"
+    prisoner1 "We want to enjoy it right now!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:884
 translate english ep28_dialogues_jail2_0de34d28:
@@ -1428,7 +1428,7 @@ translate english ep28_dialogues_jail2_3a7bfa61:
     # mt "Иначе мне конец..."
     mt "I have no other choice..."
     mt "I have to pretend to listen to them..."
-    mt "Otherwise I'm dead..."
+    mt "Otherwise, I'm dead..."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:910
 translate english ep28_dialogues_jail2_d8a4156f:
@@ -1574,7 +1574,7 @@ translate english ep28_dialogues_jail2_6226f8e5:
     # prisoner1 "Ну же, шлюха!"
     # prisoner1 "Мы ждем!"
     prisoner1 "Come on, whore!"
-    prisoner1 "We are waiting for!"
+    prisoner1 "We are waiting for it!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1023
 translate english ep28_dialogues_jail2_c61dfb34:
@@ -1700,7 +1700,7 @@ translate english ep28_dialogues_jail2_252bb632:
     # m "Я... Я жду Ваши члены... в своей попе..."
     # m "Я... Я хочу, чтобы они поскорее оказались там..."
     m "I am... I'm waiting for your dicks... in my ass..."
-    m "I...I want them to be there as soon as possible...."
+    m "I...I want them to be there as soon as possible..."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1117
 translate english ep28_dialogues_jail2_33d85f3c:
@@ -1738,7 +1738,7 @@ translate english ep28_dialogues_jail2_9af4e988:
     # prisoner1 "Ты будешь! Иначе ты будешь плохой шлюхой, Да!"
     # prisoner1 "Скажи это! Скажи, что ты будешь сосать наши члены завтра!"
     # prisoner1 "Скажи! Мы хотим услышать это!"
-    prisoner1 "You will! Otherwise you'll be a bad whore, Yes!"
+    prisoner1 "You will! Otherwise, you'll be a bad whore, Yes!"
     prisoner1 "Say it! Say you're going to suck our dicks tomorrow!"
     prisoner1 "Tell me! We want to hear it!"
 
@@ -1809,7 +1809,7 @@ translate english ep28_dialogues_jail2_f0aa31c8:
     # mt "Мне надо спать! Я хочу поскорее уснуть!"
     mt "!!!"
     mt "But who cares?!"
-    mt "Tomorrow I will meet with Marcus and this nightmare will end!"
+    mt "Tomorrow I will meet with Marcus, and this nightmare will end!"
     mt "I need to sleep! I want to go to sleep!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1205
@@ -1822,7 +1822,7 @@ translate english ep28_dialogues_jail2_7fd8b4a6:
     mt "I said a lot of nonsense today."
     mt "But it doesn't matter. All this will not go further than these terrible walls."
     mt "And for me, the main thing is to get out of here."
-    mt "And tomorrow I will achieve my goal!"
+    mt "And tomorrow, I will achieve my goal!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1214
 translate english ep28_dialogues_jail2_bd056402:
@@ -1969,7 +1969,7 @@ translate english ep28_dialogues_jail2_1c26fd5e:
 
     # prisoner1 "Ты будешь сосать! Будешь! Иначе ты плохая шлюха!"
     # prisoners "Да! Будет плохой шлюхой!"
-    prisoner1 "You will suck! You will! Otherwise you'll become a bad whore!"
+    prisoner1 "You will suck! You will! Otherwise, you'll become a bad whore!"
     prisoners "Yes! A bad whore!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1320
@@ -2238,7 +2238,7 @@ translate english ep28_dialogues_jail2_fdfe1313:
     prisoner1 "You See, Bob?"
     prisoner1 "She wants to! Open the door!"
     prisoner1 "We want to get to her! It is inconvenient to do through the bars!"
-    prisoner1 "Our Dicks aren't that long...."
+    prisoner1 "Our Dicks aren't that long..."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1505
 translate english ep28_dialogues_jail2_8c50f42d:
@@ -2380,7 +2380,7 @@ translate english ep28_dialogues_jail2_fe62c2c6:
 translate english ep28_dialogues_jail2_a279beaa:
 
     # mt "Какая мерзость!!!"
-    mt "What an nasty thing!!!"
+    mt "What a nasty thing!!!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1587
 translate english ep28_dialogues_jail2_26930aa3:
@@ -2460,7 +2460,7 @@ translate english ep28_dialogues_jail2_ad94eca3:
     # prisoner5 "Не задерживайте очередь!"
     # prisoner5 "Ну же! Кончай скорее!"
     prisoner5 "Don't delay the queue!"
-    prisoner5 "Come on! Come on hurry up!"
+    prisoner5 "Come on! Come on, hurry up!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1642
 translate english ep28_dialogues_jail2_62dc3950:
@@ -2660,7 +2660,7 @@ translate english ep28_dialogues_jail2_d6343286:
     mt "And my throat really hurts."
     mt "My eyes! I can't unstick them!"
     mt "I'm all in this disgusting filth!!!"
-    mt "What do i have to do with my jaw now? I can't shut my mouth!"
+    mt "What do I have to do with my jaw now? I can't shut my mouth!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1753
 translate english ep28_dialogues_jail2_81740d1b:
@@ -2868,7 +2868,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:686
     old "Вырваться."
-    new "Get away."
+    new "Getaway."
 
     # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:686
     old "Если я буду сопротивляться, то они расскажут Маркусу про меня..."
@@ -2884,7 +2884,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:952
     old "Сказать, что Моника шлюха и что ее задница принадлежит заключенным."
-    new "Say that Monica is a slut and her ass belongs to the prisoners."
+    new "Say that Monica is a slut, and her ass belongs to the prisoners."
 
     # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:982
     old "Положить палец на свою киску и раздвинуть ее."
@@ -2977,7 +2977,7 @@ translate english ep28_dialogues_jail1_eaea81a0:
 
     # overseer "Мистер Маркус еще занят и он не может встретиться с тобой."
     # overseer "Тебе надо подождать его дольше."
-    overseer "Mr. Marcus is still busy and so you can't meet."
+    overseer "Mr. Marcus is still busy, and so you can't meet."
     overseer "You should wait longer."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:133
@@ -2990,7 +2990,7 @@ translate english ep28_dialogues_jail1_4834460a:
 translate english ep28_dialogues_jail1_76b490e5:
 
     # overseer "Это не мое дело. Ты арестант и сидишь в камере."
-    overseer "It's none of my business. You're a prisoner so you are in a cell."
+    overseer "It's none of my business. You're a prisoner, so you are in a cell."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:142
 translate english ep28_dialogues_jail1_a2b260ea:
@@ -3134,7 +3134,7 @@ translate english ep28_dialogues_jail4_0546d28b:
     # prisoner1 "За то что мы будем тихо себя вести и не надоедать Бобу своим шумом."
     prisoner1 "Whore, have you forgotten?"
     prisoner1 "Bob promised us fun with you!"
-    prisoner1 "For that we'll be super quiet and won't bother Bob with noisy things."
+    prisoner1 "For that, we'll be super quiet and won't bother Bob with noisy things."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:268
 translate english ep28_dialogues_jail4_2460c8c6:
@@ -3279,9 +3279,9 @@ translate english ep28_dialogues_jail4_84a90c0f:
     # prisoner1 "А нам за сотрудничество увеличат паек! Мы уверены в этом!"
     prisoner1 "We remember the days when Bob went to the Bank and meet the realtor."
     prisoner1 "We've all heard!"
-    prisoner1 "The detective will investigate and quickly find Bobs guilt."
-    prisoner1 "Then Bob will be replaced and we will be glad of it!"
-    prisoner1 "The other warden will be smarter and it will be easier for us to negotiate."
+    prisoner1 "The detective will investigate and quickly find Bob's guilt."
+    prisoner1 "Then Bob will be replaced, and we will be glad of it!"
+    prisoner1 "The other warden will be smarter, and it will be easier for us to negotiate."
     prisoner1 "And our rations will be increased for cooperation! We are sure of it!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:379
@@ -3330,7 +3330,7 @@ translate english ep28_dialogues_jail4_a4aee6ad:
     # mt "Но, если заключенные им расскажут про мои попытки сбежать, то это будет конец!"
     # mt "О БОЖЕ, Моника! Что же мне делать?"
     mt "..."
-    mt "But apparently they have no leads to do it."
+    mt "But apparently, they have no leads to do it."
     mt "But if the prisoners tell them about my attempts to escape, it will be the end!"
     mt "OH GOD, Monica! What do I have to do?"
 
@@ -3344,7 +3344,7 @@ translate english ep28_dialogues_jail4_bddd0252:
     # mt "Что же мне делать?"
     mt "Do I have to pretend to be a whore here?!"
     mt "..."
-    mt "But otherwise I won't survive! It's a matter of life and death."
+    mt "But otherwise, I won't survive! It's a matter of life and death."
     mt "And according to Melanie, it could be worse than death..."
     mt "What should I do?"
 
@@ -3513,7 +3513,7 @@ translate english ep28_dialogues_jail4_eed19ebf:
 
     # m "Вы... Вы очень красивые мужчины и..."
     # m "..."
-    m "You... You are very handsome men..."
+    m "You... You are a very handsome men..."
     m "..."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:605
@@ -3950,7 +3950,7 @@ translate english ep28_dialogues_jail4_a3bf0996:
     # mt "Нет!"
     # prisoner1 "В очередь! Шлюха одна, а нас много!"
     mt "No!"
-    prisoner1 "Line up, the whore is alone and we are many!"
+    prisoner1 "Line up, the whore is alone, and we are many!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1059
 translate english ep28_dialogues_jail4_6f9fcf70:
@@ -4066,7 +4066,7 @@ translate english ep28_dialogues_jail6_9d37a4a2:
     # mt "..."
     # mt "Эта лампа... Как она мешает мне..."
     mt "I must sleep... I need to sleep..."
-    mt "Tomorrow I will wake up and this nightmare will disappear..."
+    mt "Tomorrow I will wake up, and this nightmare will disappear..."
     mt "..."
     mt "This lamp... It stops me from sleeping..."
 
@@ -4110,7 +4110,7 @@ translate english ep28_dialogues_jail8_eb731016:
     # mt "Итак, завтра!"
     # mt "Завтра я встречусь с Мистером Маркусом и этот кошмар закончится, я уверена!"
     mt "So, tomorrow!"
-    mt "I'll meet Mr. Marcus tomorrow and this nightmare will be over, I'm sure!"
+    mt "I'll meet Mr. Marcus tomorrow, and this nightmare will be over, I'm sure!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1239
 translate english ep28_dialogues_jail9_ef9a5b9a:
@@ -4190,7 +4190,7 @@ translate english ep28_dialogues_jail9_a1d4d17d:
 translate english ep28_dialogues_jail9_b42aed58:
 
     # prisoner1 "Мы хотим получить удовольствие от нее, прямо сейчас!"
-    prisoner1 "We want to enjoy it, right now!"
+    prisoner1 "We want to enjoy it right now!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1330
 translate english ep28_dialogues_jail9_0de34d28:
@@ -4222,7 +4222,7 @@ translate english ep28_dialogues_jail9_3a7bfa61:
     # mt "Иначе мне конец..."
     mt "I have no other choice..."
     mt "I have to pretend to listen to them..."
-    mt "Otherwise I'm dead..."
+    mt "Otherwise, I'm dead..."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1379
 translate english ep28_dialogues_jail9_d8a4156f:
@@ -4368,7 +4368,7 @@ translate english ep28_dialogues_jail9_6226f8e5:
     # prisoner1 "Ну же, шлюха!"
     # prisoner1 "Мы ждем!"
     prisoner1 "Come on, whore!"
-    prisoner1 "We are waiting for!"
+    prisoner1 "We are waiting for it!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1563
 translate english ep28_dialogues_jail9_c61dfb34:
@@ -4498,7 +4498,7 @@ translate english ep28_dialogues_jail9_252bb632:
     # m "Я... Я жду Ваши члены... в своей попе..."
     # m "Я... Я хочу, чтобы они поскорее оказались там..."
     m "I am... I'm waiting for your dicks... in my ass..."
-    m "I...I want them to be there as soon as possible...."
+    m "I...I want them to be there as soon as possible..."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1722
 translate english ep28_dialogues_jail9_33d85f3c:
@@ -4536,7 +4536,7 @@ translate english ep28_dialogues_jail9_9af4e988:
     # prisoner1 "Ты будешь! Иначе ты будешь плохой шлюхой, Да!"
     # prisoner1 "Скажи это! Скажи, что ты будешь сосать наши члены завтра!"
     # prisoner1 "Скажи! Мы хотим услышать это!"
-    prisoner1 "You will! Otherwise you'll be a bad whore, Yes!"
+    prisoner1 "You will! Otherwise, you'll be a bad whore, Yes!"
     prisoner1 "Say it! Say you're going to suck our dicks tomorrow!"
     prisoner1 "Tell me! We want to hear it!"
 
@@ -4611,7 +4611,7 @@ translate english ep28_dialogues_jail9_f0aa31c8:
     # mt "Мне надо спать! Я хочу поскорее уснуть!"
     mt "!!!"
     mt "But who cares?!"
-    mt "Tomorrow I will meet with Marcus and this nightmare will end!"
+    mt "Tomorrow I will meet with Marcus, and this nightmare will end!"
     mt "I need to sleep! I want to go to sleep!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1853
@@ -4624,7 +4624,7 @@ translate english ep28_dialogues_jail10_7fd8b4a6:
     mt "I said a lot of nonsense today."
     mt "But it doesn't matter. All this will not go further than these terrible walls."
     mt "And for me, the main thing is to get out of here."
-    mt "And tomorrow I will achieve my goal!"
+    mt "And tomorrow, I will achieve my goal!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1872
 translate english ep28_dialogues_jail11_bd056402:
@@ -4771,7 +4771,7 @@ translate english ep28_dialogues_jail14_1c26fd5e:
 
     # prisoner1 "Ты будешь сосать! Будешь! Иначе ты плохая шлюха!"
     # prisoners "Да! Будет плохой шлюхой!"
-    prisoner1 "You will suck! You will! Otherwise you'll become a bad whore!"
+    prisoner1 "You will suck! You will! Otherwise, you'll become a bad whore!"
     prisoners "Yes! A bad whore!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:2039
@@ -5040,7 +5040,7 @@ translate english ep28_dialogues_jail14_fdfe1313:
     prisoner1 "You See, Bob?"
     prisoner1 "She wants to! Open the door!"
     prisoner1 "We want to get to her! It is inconvenient to do through the bars!"
-    prisoner1 "Our Dicks aren't that long...."
+    prisoner1 "Our Dicks aren't that long..."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:2332
 translate english ep28_dialogues_jail14_8c50f42d:
@@ -5190,7 +5190,7 @@ translate english ep28_dialogues_jail14_d63a9685:
 translate english ep28_dialogues_jail14_a279beaa:
 
     # mt "Какая мерзость!!!"
-    mt "What an nasty thing!!!"
+    mt "What a nasty thing!!!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:2495
 translate english ep28_dialogues_jail14_acc549c7:
@@ -5270,7 +5270,7 @@ translate english ep28_dialogues_jail14_ad94eca3:
     # prisoner5 "Не задерживайте очередь!"
     # prisoner5 "Ну же! Кончай скорее!"
     prisoner5 "Don't delay the queue!"
-    prisoner5 "Come on! Come on hurry up!"
+    prisoner5 "Come on! Come on, hurry up!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:2601
 translate english ep28_dialogues_jail14_62dc3950:
@@ -5480,7 +5480,7 @@ translate english ep28_dialogues_jail14_d6343286:
     mt "And my throat really hurts."
     mt "My eyes! I can't unstick them!"
     mt "I'm all in this disgusting filth!!!"
-    mt "What do i have to do with my jaw now? I can't shut my mouth!"
+    mt "What do I have to do with my jaw now? I can't shut my mouth!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:2852
 translate english ep28_dialogues_jail14_81740d1b:
