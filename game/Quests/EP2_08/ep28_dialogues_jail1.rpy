@@ -478,7 +478,7 @@ label ep28_dialogues_jail4:
     with diss
     menu:
         "Назвать свое имя.":
-            $ monica_jail_name = _("Моника Бакфетт")
+            $ monica_jail_name = __("Моника Бакфетт")
             pass
         "Назваться [monica_pub_name]" if monicaWorkingAsDishwasher == True:
             $ monica_jail_name = monica_pub_name
