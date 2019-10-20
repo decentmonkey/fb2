@@ -469,8 +469,8 @@ label ep27_dialogues7_pub8:
             return 3
         "Попросить прощения у Эшли." if obj_name == "Bartender_Waitress" and pubMonicaWaitressTipsPunishmentTalkStage == 1:
             return 4
-        "Идти танцевать на сцену":
-            return 5
+#        "Идти танцевать на сцену":
+#            return 5
         "Попросить прощения по другому..." if pubMonicaWaitressTipsPunishmentTalkStage == 0:
             return 2
         "Уйти.":
