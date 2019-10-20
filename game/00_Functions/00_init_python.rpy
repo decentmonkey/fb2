@@ -112,6 +112,22 @@ python early:
         if checkPath != False: return checkPath
         checkPath = get_image_filename(str(var))
         if checkPath != False: return checkPath
+        checkPath = os.path.join(assetsStorageDirectory, "images/" + "img_" + str(var) + ".jpg")
+        if os.path.exists(checkPath):
+            list_files_dict["img_" + str(var)] = checkPath
+            return checkPath
+        checkPath = os.path.join(assetsStorageDirectory, "images/" + str(var) + ".jpg")
+        if os.path.exists(checkPath):
+            list_files_dict["img_" + str(var)] = checkPath
+            return checkPath
+        checkPath = os.path.join(assetsStorageDirectory, "images/" + "img_" + str(var) + ".png")
+        if os.path.exists(checkPath):
+            list_files_dict["img_" + str(var)] = checkPath
+            return checkPath
+        checkPath = os.path.join(assetsStorageDirectory, "images/" + str(var) + ".png")
+        if os.path.exists(checkPath):
+            list_files_dict["img_" + str(var)] = checkPath
+            return checkPath
         return str(var)
 
     def img_find_path_ext(var):

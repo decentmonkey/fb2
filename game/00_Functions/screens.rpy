@@ -78,13 +78,37 @@ style frame:
 screen show_image_screen_image(image_name):
     layer "master"
     zorder 15
-    fixed:
-        add image_name
+    if assetsStorageDirectory == False:
+        $ assetsStorageDirectory = renpy.config.savedir.replace("/saves", "/assets")
+    if image_name.find(assetsStorageDirectory) != -1:
+        python:
+            f = open(image_name,"rb")
+            image_binary=f.read()
+            f.close()
+            img1 = im.Data(image_binary, image_name)
+
+        fixed:
+            add img1 at convert_resolution_transform
+    else:
+        fixed:
+            add image_name at convert_resolution_transform
 
 screen show_image_screen(image_name):
     layer "master"
-    fixed:
-        add image_name
+    if assetsStorageDirectory == False:
+        $ assetsStorageDirectory = renpy.config.savedir.replace("/saves", "/assets")
+    if image_name.find(assetsStorageDirectory) != -1:
+        python:
+            f = open(image_name,"rb")
+            image_binary=f.read()
+            f.close()
+            img1 = im.Data(image_binary, image_name)
+
+        fixed:
+            add img1
+    else:
+        fixed:
+            add image_name
 
 screen credits_screen(creditsList):
     frame:

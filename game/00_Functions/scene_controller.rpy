@@ -125,6 +125,7 @@ label show_scene_now:
 label show_scene_loop:
     $ pause_enter += 1
     $ interact_data = ui.interact()
+label show_scene_loop2:
 #    pause
     $ pause_exit += 1
     if show_scene_loop_flag == False:
