@@ -41,6 +41,9 @@ init python:
 
     def notif(str1):
         global notifList, lastNotifTime
+        if renpy.get_screen("notify") == None:
+            notifList = []
+
         notifList.append(str1)
 #        renpy.notify(str1)
         lastNotifTime = time.time()
@@ -50,8 +53,8 @@ init python:
 
     def notifCheckTimeout(): #костыль на исчезание нотификаций при скиппинге текста
         global lastNotifTime
-        if time.time() - lastNotifTime > 60.0:
-            print "force remove notifications"
+        if time.time() - lastNotifTime > 20.0:
+#            print "force remove notifications"
             notifList = []
             renpy.hide_screen("notify")
         return

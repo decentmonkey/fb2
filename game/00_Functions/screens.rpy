@@ -2771,8 +2771,8 @@ screen notify(message):
 #        timer (3.25*len(notifList)) action [Hide('notify'), SetVariable("notifList", [])]
         if len(notifList) > 2:
             $ notifTimerLen = (2.0 * len(notifList))
-            if notifTimerLen > 6:
-                $ notifTimerLen = 6
+            if notifTimerLen > 6.0:
+                $ notifTimerLen = 6.0
             timer notifTimerLen action [SetVariable("notifList", []), Hide('notify')]
         else:
             timer (3.25) action [SetVariable("notifList", []), Hide('notify')]

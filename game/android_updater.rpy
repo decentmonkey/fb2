@@ -46,7 +46,6 @@ label android_assets_updater_check:
         assets_list = get_assets_list()
 
         for asset_name in assets_list["slides"]:
-            print asset_name
             if list_files_dict_assets.has_key(asset_name) == False:
                 if os.path.exists(os.path.join(assetsStorageDirectory, "images/" + asset_name)) == False:
                     downloading_assets_list.append(asset_name)
