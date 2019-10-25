@@ -165,9 +165,7 @@ label ep28_monica_bardie_eric_college3_shop: # Моника заходит в м
         call wardrobeBasementPutUpSchoolOutfit1() from _call_wardrobeBasementPutUpSchoolOutfit1
         $ remove_hook(label="street_house_check_cloth_outside")
         $ add_hook("before_open", "ep25_quests5", scene = "street_house_main_yard", label="street_house_check_cloth_outside", priority = 200) # Проверка на вход в дом (Моника оказывается снаружи)
-        $ remove_hook(label="street_house_check_cloth_outside")
         $ add_hook("Teleport_House_Gate", "ep25_quests6", scene="street_house_outside", label="street_house_check_cloth_outside", priority = 200) # Проверка при входе в ворота дома
-        $ remove_hook(label="street_house_check_cloth_outside")
         $ add_hook("Teleport_Floor1_Stairs", "ep25_quests7", scene="basement_pool", label="street_house_check_cloth_outside", priority = 200) # Проверка при выходе в дом из бассейна
         $ remove_hook(label="house_dark_passage")
         $ add_hook("Teleport_Basement_Side", "ep25_quests8", scene="basement_hole", label="house_dark_passage") # Активируем черный ход
