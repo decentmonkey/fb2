@@ -28,7 +28,12 @@ init python:
             f = open("/Users//Documents/work/browse/renpy_debug.json","w")
             f.write(str1)
             f.close()
-        return
+        if os.path.isdir("c:/debug") == True:
+            str1 = json.dumps(scenes_data)
+            f = open("c:/debug/renpy_debug.json","w")
+            f.write(str1)
+            f.close()
+            return
 
     profileTime = time.time()
     def profile(log_message=False):
