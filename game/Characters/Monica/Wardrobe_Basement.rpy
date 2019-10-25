@@ -267,9 +267,9 @@ label wardrobeBasementPutUpCasualDress1:
 
 label wardrobeBasementPutUpSchoolOutfit1:
     # Одеваем CasualDress1
-    if monicaCasualDressWearFirstTimeWardrobe == True:
-        $ monicaCasualDressWearFirstTimeWardrobe = False
-        call ep25_dialgues5_basement1() from _call_ep25_dialgues5_basement1_1
+#    if monicaCasualDressWearFirstTimeWardrobe == True:
+#        $ monicaCasualDressWearFirstTimeWardrobe = False
+#        call ep25_dialgues5_basement1() from _call_ep25_dialgues5_basement1_1
     $ cloth = "SchoolOutfit1"
     $ cloth_type = "SchoolOutfit"
     call wardrobeBasementCasualDressMiniMap1() from _call_wardrobeBasementCasualDressMiniMap1_2
