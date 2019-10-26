@@ -88,10 +88,12 @@ screen show_image_screen_image(image_name):
             img1 = im.Data(image_binary, image_name)
 
         fixed:
-            add img1 at convert_resolution_transform
+#            add img1 at convert_resolution_transform
+            add img1
     else:
         fixed:
-            add image_name at convert_resolution_transform
+#            add image_name at convert_resolution_transform
+            add image_name
 
 screen show_image_screen(image_name):
     layer "master"
