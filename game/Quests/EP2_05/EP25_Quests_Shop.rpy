@@ -123,6 +123,8 @@ label ep25_quests_shop3:
 
 label ep25_quests_shop4:
     # Моника не хочет заходить в магазин после покупки платья или после того как отобрала его
+    if check_hook(label="bardie_eric_quest_college_shop", scene="street_cloth_shop") == True:
+        return
     call ep25_dialogues1_shop3() from _call_ep25_dialogues1_shop3
     return False
 
@@ -138,6 +140,8 @@ label ep25_quests_shop4b:
 
 label ep25_quests_shop4c:
     # Моника не хочет заходить в магазин после отработки платья и после лесби сцены
+    if check_hook(label="bardie_eric_quest_college_shop", scene="street_cloth_shop") == True:
+        return
     call ep25_dialogues1_shop11() from _call_ep25_dialogues1_shop11
     return False
 
@@ -349,6 +353,8 @@ label ep25_quests_shop15:
 
 label ep25_quests_shop16:
     # Моника пытается зайти в магазин после того как отработала платье
+    if check_hook(label="bardie_eric_quest_college_shop", scene="street_cloth_shop") == True:
+        return
     call ep25_dialogues1_shop11() from _call_ep25_dialogues1_shop11_1
     return False
 
