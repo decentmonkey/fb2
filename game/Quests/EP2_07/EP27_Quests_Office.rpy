@@ -122,6 +122,7 @@ label ep27_quests_office8_julia: # Моника заставляет собир�
     $ remove_objective("reports_to_biff")
     $ add_objective("reports_to_biff", _("Отдать собранные отчеты для Бифа."), c_green, 20)
     $ changeDayTime("evening") # Изменяем на вечер
+    $ add_office_working_day(True) # Отмечаем рабочий день
     $ monicaOfficeWorkedToday = True
 #    $ move_object("Julia", "empty") # Юлия уходит с работы (обычный день)
     $ autorun_to_object("ep27_dialogues6_julia2", scene="working_office_cabinet")
