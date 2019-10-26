@@ -1,3 +1,26 @@
+# v0.8
+define monicaEricCollegeDressPriceRegular = 40 # Цена за платье в квесте Эрика
+define monicaEricCollegeDressPriceDiscount = 20 # Цена за платье в квесте Эрика со скидкой
+define monicaEricCollegeDressPriceLickingDiscount = 5 # Цена за платье, если Моника поцелует животик Вивиан
+
+define monicaVivianSchoolOutfitLick1 = 150 # Моника покупает за поцелуй1
+define monicaVivianSchoolOutfitLick2 = 170 # Моника покупает за поцелуй2
+define monicaVivianSchoolOutfitLick3 = 200 # Моника покупает за поцелуй3
+define monicaVivianSchoolOutfitLickBuy = 15 # corruption добавляется за покупку платья поцелуем
+
+define monicaTeacherCorruption1 = 350 # Моника показывает грудь сразу
+define monicaTeacherCorruption2 = 310 # Моника показывает грудь, поломавшись
+
+define monicaTeacherCorruption3 = 250 # Моника показывает грудь сразу
+define monicaTeacherCorruption4 = 210 # Моника показывает грудь, поломавшись
+
+define monicaTeacherAddCorruption1 = 10 # За показ груди день 1
+
+define monicaJailDay1AddCorruption = 30 # За евенты дня1
+define monicaJailDay2AddCorruption = 30 # За евенты дня1
+define monicaJailDay3AddCorruption = 80 # За евенты дня1
+#
+
 define monicaBardieTitJobCorruption = 170 # Сделать Барди titjob
 define monicaBettyKitchenBoobsCorruption = 250 # Показ груди на кухне при Бетти.
 
@@ -318,7 +341,9 @@ default char_data = False
 default dialogue_active_flag = False
 
 define imagesSizesCache = {}
+default assetsStorageDirectory = False
 default menuName = False
+default char_info = {}
 
 label characters_init:
     $ char_info = {
@@ -450,7 +475,8 @@ label define_hudpresets:
             "display_scene_caption" : True,
             "display_scene_map" : True,
             "display_bitchmeter" : True,
-            "display_closemap" : True
+            "display_closemap" : True,
+            "display_face_hud": False
         },
         "default_map_disabled" : {
             "display_daytime" : True,
@@ -460,7 +486,8 @@ label define_hudpresets:
             "display_scene_caption" : True,
             "display_scene_map" : False,
             "display_bitchmeter" : True,
-            "display_closemap" : True
+            "display_closemap" : True,
+            "display_face_hud": False
         },
         "map": {
             "display_daytime" : True,
@@ -470,7 +497,8 @@ label define_hudpresets:
             "display_scene_caption" : False,
             "display_scene_map" : False,
             "display_bitchmeter" : False,
-            "display_closemap" : True
+            "display_closemap" : True,
+            "display_face_hud": False
         },
         "map_locked" : {
             "display_daytime" : True,
@@ -480,9 +508,21 @@ label define_hudpresets:
             "display_scene_caption" : False,
             "display_scene_map" : False,
             "display_bitchmeter" : False,
-            "display_closemap" : False
+            "display_closemap" : False,
+            "display_face_hud": False
         },
-
+        "betty": {
+            "display_daytime" : True,
+            "display_money" : True,
+            "display_objectives" : True,
+            "display_calendar" : True,
+            "display_scene_caption" : True,
+            "display_scene_map" : True,
+            "display_bitchmeter" : False,
+            "display_closemap" : True,
+            "display_face_hud": True,
+            "display_questlog": False
+        }
     }
     return
 

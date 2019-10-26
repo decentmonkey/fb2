@@ -194,3 +194,11 @@ translate english strings:
     old "Restaurant"
     new "Restaurant"
 
+# TODO: Translation updated at 2019-10-18 04:27
+
+translate english strings:
+
+    # game/Rooms/locations_init.rpy:175
+    old "КЛАСС БАРДИ"
+    new "BARDIE'S CLASSROOM"
+

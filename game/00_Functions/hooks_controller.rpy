@@ -1,6 +1,7 @@
 default hooks_stack = []
 default sprites_hover_dummy_screen_flag = False
-
+default hooks_log = {}
+default hook_log_idx = 0
 init python:
 
     def add_hook(*args, **kwargs): #устанавливает хук
@@ -155,6 +156,75 @@ init python:
 
         return flag1
 
+
+    def check_hook(*args, **kwargs):
+        if kwargs.has_key("scene"):
+            if kwargs["scene"] == "all":
+                rooms_list = list(scenes_data["hooks"].keys())
+            else:
+                rooms_list = [kwargs["scene"]]
+            del kwargs["scene"]
+        else:
+            if len(args) > 0:
+                rooms_list = [api_scene_name]
+            else:
+                rooms_list = list(scenes_data["hooks"].keys())
+        if kwargs.has_key("recursive") == True and kwargs["recursive"] == True:
+            rooms_list = get_rooms_recursive(rooms_list[0])
+        kwargs.pop("recursive", None)
+
+        if len(args) == 2: #obj_name, hook_label
+            obj_name = args[0]
+            hook_label = args[1]
+        if len(args) == 1: #hook_label
+            obj_name = False
+            hook_label = args[0]
+        if len(args) == 0: #() проверка текущего хука, либо проверка хука по фильтру
+            if len(kwargs) > 0: #проверка всех хуков на сцене по фильтру
+                flag1 = False
+                filter_arr = {}
+                for var1, value1 in kwargs.items():
+                    filter_arr[var1] = value1
+
+                for room_name in rooms_list:
+                    if scenes_data["hooks"].has_key(room_name) == True:
+                        for obj_name1 in scenes_data["hooks"][room_name]:
+                            flag2 = False
+                            hooks_list = scenes_data["hooks"][room_name][obj_name1]
+
+                            for idx in reversed(range(len(hooks_list))):
+                                if check_filter(filter_arr, hooks_list[idx]) == True:
+                                    flag1 = True
+                                    return True
+
+            else:
+                if scenes_data["hooks"].has_key(last_hook_scene) and scenes_data["hooks"][last_hook_scene].has_key(last_hook_obj_name) == True:
+                    hooks_list = scenes_data["hooks"][last_hook_scene][last_hook_obj_name]
+                    idx = find_hook_by_label(hooks_list, last_hook_label)
+                    if idx != -1:
+                        flag1 = True
+                        return True
+                    return False
+        else:
+            flag1 = False
+            for room_name in rooms_list:
+                if obj_name == False:
+                    for obj_name1 in scenes_data["hooks"][room_name]:
+                        hooks_list = scenes_data["hooks"][room_name][obj_name1]
+                        idx = find_hook_by_label(hooks_list, hook_label)
+                        if idx != -1:
+                            flag1 = True
+                            return True
+                else:
+                    if scenes_data["hooks"][room_name].has_key(obj_name) == True:
+                        hooks_list = scenes_data["hooks"][room_name][obj_name]
+                        idx = find_hook_by_label(hooks_list, hook_label)
+                        if idx != -1:
+                            flag1 = True
+                            return True
+
+        return flag1
+
     def replace_hook(*args, **kwargs):
         if kwargs.has_key("scene"):
             if kwargs["scene"] == "all":
@@ -270,8 +340,21 @@ init python:
         hooks_list = scenes_data["hooks"][room_name][hook_obj_name]
         return hooks_list
 
+    def checkObjectOwnerVisible(obj_name, obj_data):
+        global owner, scene_name
+        if (obj_data.has_key("owner") == False and owner == "Monica") or (obj_data.has_key("owner") == True and obj_data["owner"] == owner) or (obj_data.has_key("owners_visible_forced") and obj_data["owners_visible_forced"] == True):
+            return True
+        if scenes_data["hooks"].has_key(scene_name) == True and scenes_data["hooks"][scene_name].has_key(obj_name):
+            hooks_list = scenes_data["hooks"][scene_name][obj_name]
+            for hook_data in hooks_list:
+                if hook_data.has_key("owner") == False:
+                    if owner == "Monica":
+                        return True
+                if hook_data.has_key("owner") == True and hook_data["owner"] == owner:
+                    return True
+        return False
 
-label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen_flag = False):
+label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen_flag = False, noowners=False):
     $ _return = None
     if room_name == False:
         $ room_name = api_scene_name
@@ -298,7 +381,12 @@ label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen
             if sprites_hover_dummy_screen_flag == True:
                 show screen sprites_hover_dummy_screen()
                 $ sprites_hover_dummy_screen_flag = False
-            call expression label_name from _call_expression_5 #вызов хука
+            $ hooks_log[label_name] = hook_log_idx
+            $ hook_log_idx += 1
+            if (hook_data.has_key("owner") == False and owner == "Monica") or (hook_data.has_key("owner") == True and hook_data["owner"] == owner) or noowners == True:
+                if hook_data.has_key("once") and hook_data["once"] == True:
+                    $ remove_hook()
+                call expression label_name from _call_expression_5 #вызов хука
         $ stack_data = hooks_stack.pop()
         $ label_name = stack_data[2]
         $ idx = stack_data[3]
@@ -333,6 +421,8 @@ label call_hook(label_name, menu_name, sprites_hover_dummy_screen_flag = False):
     if sprites_hover_dummy_screen_flag == True:
         show screen sprites_hover_dummy_screen()
         $ sprites_hover_dummy_screen_flag = False
+    $ hooks_log[label_name] = hook_log_idx
+    $ hook_log_idx += 1
     call expression label_name from _call_expression_12 #вызов хука
 #    $ stack = renpy.get_return_stack()
 #    $ stack[0] = (stack[0][0], stack[0][1], stack[0][2]+2)

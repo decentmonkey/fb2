@@ -1629,25 +1629,128 @@ label ep26_dialogues1_bardie10:
     w
     img 13048
     with fade
-    bardie "Хорошая..."
-    bardie "Протирай как следует, это твоя работа..."
+#    bardie "Хорошая..."
+#    bardie "Протирай как следует, это твоя работа..."
 # Когда заканчивают, Барди говорит Монике придти завтра, когда он уладит обязанности хозяина дома и
 # выдаст необходимые распоряжения Бетти
     # end video
+    w
+    $ rand1 = rand(1,4)
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    img black_screen
+    with diss
+    if rand1 == 1:
+        stop music
+        play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+        scene black
+        image videov_Monica_Bardie_Titjob_1_1 = Movie(play="video/v_Monica_Bardie_Titjob_1_1.mkv", fps=30)
+        show videov_Monica_Bardie_Titjob_1_1
+        with fadelong
+        wclean
+    if rand1 == 2:
+        img black_screen
+        with diss
+        stop music
+        play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+        scene black
+        image videov_Monica_Bardie_Titjob_1_2 = Movie(play="video/v_Monica_Bardie_Titjob_1_2.mkv", fps=30)
+        show videov_Monica_Bardie_Titjob_1_2
+        with fadelong
+        wclean
+    if rand1 == 3:
+        img black_screen
+        with diss
+        music stop
+        stop music
+        play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+        scene black
+        image videov_Monica_Bardie_Titjob_1_3 = Movie(play="video/v_Monica_Bardie_Titjob_1_3.mkv", fps=30)
+        show videov_Monica_Bardie_Titjob_1_3
+        with fadelong
+        wclean
+    if rand1 == 4:
+        img black_screen
+        with diss
+        stop music
+        play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+        scene black
+        image videov_Monica_Bardie_Titjob_1_4 = Movie(play="video/v_Monica_Bardie_Titjob_1_4.mkv", fps=30)
+        show videov_Monica_Bardie_Titjob_1_4
+        with fadelong
+        wclean
+#    bardie "Хорошая гувернантка..."
+    bardie "Хорошая..."
+    $ rand1 = rand(1,2)
+    if rand1 == 1:
+        img black_screen
+        with diss
+        music stop
+        stop music
+        play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+        scene black
+        image videov_Monica_Bardie_Titjob_1_5 = Movie(play="video/v_Monica_Bardie_Titjob_1_5.mkv", fps=30)
+        show videov_Monica_Bardie_Titjob_1_5
+        with fadelong
+        wclean
+    if rand1 == 2:
+        img black_screen
+        with diss
+        music stop
+        stop music
+        play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+        scene black
+        image videov_Monica_Bardie_Titjob_1_6 = Movie(play="video/v_Monica_Bardie_Titjob_1_6.mkv", fps=30)
+        show videov_Monica_Bardie_Titjob_1_6
+        with fadelong
+        wclean
+    music Loved_Up
+    img 13048
+    with fade
+    bardie "Протирай как следует, это твоя работа..."
+    $ rand1 = rand(1,2)
+    if rand1 == 1:
+        img black_screen
+        with diss
+        stop music
+        play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+        scene black
+        image videov_Monica_Bardie_Titjob_1_7 = Movie(play="video/v_Monica_Bardie_Titjob_1_7.mkv", fps=30)
+        show videov_Monica_Bardie_Titjob_1_7
+        with fadelong
+        wclean
+    if rand1 == 2:
+        img black_screen
+        with diss
+        stop music
+        play music "<from " + str((rand(1,3)*1.5)) + " loop 0.0>Sounds/audio_Monica_Bardie_Titjob_1.mp3"
+        scene black
+        image videov_Monica_Bardie_Titjob_1_8 = Movie(play="video/v_Monica_Bardie_Titjob_1_8.mkv", fps=30)
+        show videov_Monica_Bardie_Titjob_1_8
+        with fadelong
+        wclean
 
     # Барди кончает на грудь Монике
     music stop
     bardie "Оооооох!!!"
     sound bulk1
     img 13123
-    with fade
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     w
     img 13125
     with diss
     w
     sound bulk1
     img 13124
-    with fade
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     bardie "Оооооох!!!"
     sound hlup19
     img 13126
@@ -1788,11 +1891,23 @@ label ep26_dialogues1_bardie12:
     img 13119
     with diss
     betty "Нет! Не буду!"
-    img 13120
-    with fade
-    bardie "И не только в угол! Есть еще другие наказания, хе-хе!"
-    bardie "А теперь можешь идти! Заниматься делами по дому!"
-    bardie "Завтра на обед я хочу вкусный бургер!"
+    if bettyCollegeDay1JobFinished == False and bettyCollegeTeacherRefused == True:
+        img 13118
+        bardie "И ты еще не закончила решать мои проблемы в колледже..."
+        bardie "Ты не забыла про них?"
+        menu:
+            "Я завтра пойду в колледж...":
+                img 13117
+                betty "Я завтра пойду в колледж..."
+                call ep28_betty_college2_teacher_day1_resume() from _call_ep28_betty_college2_teacher_day1_resume # снова активируем квест с Бетти в колледже
+            "Промолчать...":
+                betty "..."
+    else:
+        img 13120
+        with fade
+        bardie "И не только в угол! Есть еще другие наказания, хе-хе!"
+        bardie "А теперь можешь идти! Заниматься делами по дому!"
+        bardie "Завтра на обед я хочу вкусный бургер!"
     img 13121
     with diss
     betty "!!!" # зло смотрит, тянется к платью

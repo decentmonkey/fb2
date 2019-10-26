@@ -168,3 +168,11 @@ translate german strings:
     old "Переодеться в одежду шлюхи."
     new "Zieh die Nuttenkleider an."
 
+# TODO: Translation updated at 2019-10-18 04:32
+
+translate german strings:
+
+    # game/Characters/Monica/Wardrobe_Basement.rpy:19
+    old "Одежда Домохозяйки."
+    new "Hausfrauen Outfit."
+

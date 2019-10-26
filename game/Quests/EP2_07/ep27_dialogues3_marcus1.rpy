@@ -487,16 +487,12 @@ label ep27_dialogues_marcus1_11:
     mt "Все будет хорошо!"
     mt "А сейчас пора спать..."
 
-    img black_screen
-    with Dissolve(2.0)
-    call textonblack(_("Узнайте что ждет Монику\nв грядущем обновлении игры!")) from _call_textonblack_33
-    img black_screen
-    with Dissolve(2.0)
-    call textonblack(_("Fashion Business")) from _call_textonblack_34
-    img black_screen
-    with Dissolve(2.0)
-    $ renpy.pause(2.0, hard=True)
+#    img black_screen
+#    with Dissolve(2.0)
+#    call textonblack(_("Узнайте что ждет Монику\nв грядущем обновлении игры!")) from _call_textonblack_33
 #    pause 2.0
+    img black_screen
+    with Dissolve(1.0)
     stop music fadeout 4.0
     $ renpy.pause(4.0, hard=True)
 #    pause 4.0
@@ -519,20 +515,29 @@ label ep27_dialogues_marcus1_11:
 #    pause 2.0
     $ renpy.pause(2.0, hard=True)
     img black_screen
-    with Dissolve(0.5)
-    img Patreon_Game_Logo
-    with Dissolve(0.7)
-    $ renpy.pause(1.0, hard=True)
-#    pause 4.0
-    $ renpy.pause(4.0, hard=True)
+    with Dissolve(2.0)
+    call textonblack(_("Fashion Business")) from _call_textonblack_34
     img black_screen
-    with Dissolve(0.7)
-    pause 3.0
-#    pause 30.0
-#    music stop
-#    pause 1.0
-    $ MainMenu(confirm=False)()
+    with Dissolve(2.0)
+    $ renpy.pause(2.0, hard=True)
     return
+
+
+#    img black_screen
+#    with Dissolve(0.5)
+#    img Patreon_Game_Logo
+#    with Dissolve(0.7)
+#    $ renpy.pause(1.0, hard=True)
+##    pause 4.0
+#    $ renpy.pause(4.0, hard=True)
+#    img black_screen
+#    with Dissolve(0.7)
+#    pause 3.0
+##    pause 30.0
+##    music stop
+##    pause 1.0
+#    $ MainMenu(confirm=False)()
+#    return
 
 #audio_woman_breathing_painfully
 

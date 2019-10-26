@@ -80,7 +80,7 @@ translate english bedroom1_environment_c45bfd63:
 translate english bedroom1_environment_1d4d2b82:
 
     # "none ((("
-    "none ((("
+    "nobody ((("
 
 translate english strings:
 

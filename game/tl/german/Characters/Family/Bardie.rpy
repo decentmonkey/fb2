@@ -28,7 +28,7 @@ translate german bardieStairsFloor1Hook1_4c88471c:
 translate german bardieProgressLevelUp1_35862969:
 
     # char_data["current_progress"] = 90
-    char_data["current_progress"] = 90
+    char_data["Derzeitiger Fortschritt"] = 90
 
 translate german strings:
 

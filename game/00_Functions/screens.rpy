@@ -78,13 +78,37 @@ style frame:
 screen show_image_screen_image(image_name):
     layer "master"
     zorder 15
-    fixed:
-        add image_name
+    if assetsStorageDirectory == False:
+        $ assetsStorageDirectory = renpy.config.savedir.replace("/saves", "/assets")
+    if image_name.find(assetsStorageDirectory) != -1:
+        python:
+            f = open(image_name,"rb")
+            image_binary=f.read()
+            f.close()
+            img1 = im.Data(image_binary, image_name)
+
+        fixed:
+            add img1 at convert_resolution_transform
+    else:
+        fixed:
+            add image_name at convert_resolution_transform
 
 screen show_image_screen(image_name):
     layer "master"
-    fixed:
-        add image_name
+    if assetsStorageDirectory == False:
+        $ assetsStorageDirectory = renpy.config.savedir.replace("/saves", "/assets")
+    if image_name.find(assetsStorageDirectory) != -1:
+        python:
+            f = open(image_name,"rb")
+            image_binary=f.read()
+            f.close()
+            img1 = im.Data(image_binary, image_name)
+
+        fixed:
+            add img1
+    else:
+        fixed:
+            add image_name
 
 screen credits_screen(creditsList):
     frame:
@@ -169,7 +193,7 @@ screen screen_sprites(data):
                 for pass_num in range(1,3): #pass1 - overlays, pass2 - sprites and masks
                     for zorder_ptr in zorder_list:
                         $ i = zorder_ptr[0]
-                        if data[i].has_key("active") == False or data[i]["active"] == True:
+                        if (data[i].has_key("active") == False or data[i]["active"] == True) and (showObjectsNotOwner == True or checkObjectOwnerVisible(i, data[i]) == True):
                             $ tooltip_data = data[i]["tooltip"] if "tooltip" in data[i] else False
                             $ day_time_suffix = "_" + day_time if day_time in ["evening"] else ""
                             $ brightness_adjustment = 0.1
@@ -828,9 +852,17 @@ screen character_info_screen(obj_name, x, y):
 screen hud_minimap(minimapData):
     layer "master"
     zorder 60
+    python:
+        if minimap_coords_preset == 0:
+            minimap_pos_x = gui.resolution.hud_screen.minimap_x_pos
+            minimap_pos_y = gui.resolution.hud_screen.minimap_y_pos
+        if minimap_coords_preset == 1:
+            minimap_pos_x = gui.resolution.hud_screen.minimap_x_pos_owner
+            minimap_pos_y = gui.resolution.hud_screen.minimap_y_pos_owner
+
     fixed:
         if len(minimapData) > 0:
-            pos (int(gui.resolution.hud_screen.minimap_x_pos * gui.resolution.koeff), int(85 * gui.resolution.koeff))
+            pos (int(minimap_pos_x * gui.resolution.koeff), int(minimap_pos_y * gui.resolution.koeff))
             if miniMapOpened == False:
                 button:
                     yanchor 0.0
@@ -881,7 +913,7 @@ screen hud_minimap(minimapData):
                             $ minimapCheckMapScene = "Street_Corner"
                         if miniMapDisabled.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled[minimapCheckMapScene]:
                             $ locationDisabledFlag = True
-                        if cloth == "CasualDress1" and miniMapDisabled2.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled2[minimapCheckMapScene]:
+                        if (cloth == "CasualDress1" or cloth == "SchoolOutfit1") and miniMapDisabled2.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled2[minimapCheckMapScene]:
                             $ locationDisabledFlag = True
                         button:
                             yanchor 0.0
@@ -1042,17 +1074,18 @@ screen hud_screen(hud_presets):
                         action [
                             Call("show_achievements")
                         ]
-                    null:
-                        height gui.resolution.hud_screen.height1
-                    imagebutton:
-                        if questLogJustUpdated == True:
-                            idle "icons/questlog_icon" + res.suffix + ".png" at quest_log_transform
-                        else:
-                            idle "icons/questlog_icon" + res.suffix + ".png"
-                        hover "icons/questlog_icon_hover" + res.suffix + ".png"
-                        action [
-                            Call("show_questlog")
-                        ]
+                    if hud_presets.has_key("display_questlog") == False or hud_presets["display_questlog"] == True:
+                        null:
+                            height gui.resolution.hud_screen.height1
+                        imagebutton:
+                            if questLogJustUpdated == True:
+                                idle "icons/questlog_icon" + res.suffix + ".png" at quest_log_transform
+                            else:
+                                idle "icons/questlog_icon" + res.suffix + ".png"
+                            hover "icons/questlog_icon_hover" + res.suffix + ".png"
+                            action [
+                                Call("show_questlog")
+                            ]
                     if questionHelperEnabled == True:
                         null:
                             height gui.resolution.hud_screen.height1
@@ -1106,6 +1139,11 @@ screen hud_screen(hud_presets):
 
     fixed:
 #            size (200, 327)
+        if hud_presets.has_key("display_face_hud") and hud_presets["display_face_hud"] == True:
+#            add "gui/frame5" + res.suffix + ".png":
+#                pos gui.resoultion.hud_screen.face_hud_image_background_pos
+            add "/icons/" + faceHudImage + res.suffix + ".png":
+                pos gui.resolution.hud_screen.face_hud_image_pos
         if hud_presets.has_key("display_bitchmeter") and hud_presets["display_bitchmeter"] == True:
 #            $ bitchmeter_description = get_bitchmeter_description() + " (" + str(bitchmeterValue) + ")"
             $ bitchmeter_description = get_bitchmeter_description()
@@ -1492,11 +1530,11 @@ screen choice(items):
                         if menu_price[idx] >0:
                             if money >= menu_price[idx]:
                                 str1 = __(i.caption)
-                                str1 = str1 + "  $ " + '{:5,.2f}'.format(menu_price[idx])
+                                str1 = str1 + "  {color=#31e8b1}$ " + '{:5,.2f}'.format(menu_price[idx]) + "{/color}"
                                 button_obj["caption"] = str1
                             else:
                                 str1 = __(i.caption)
-                                str1 = str1 + "  $ " + '{:5,.2f}'.format(menu_price[idx])
+                                str1 = str1 + "  {color=#880000}$ " + '{:5,.2f}'.format(menu_price[idx]) + "{/color}"
                                 button_obj["caption"] = str1
                                 button_obj["active"] = False
 
@@ -1673,6 +1711,7 @@ screen navigation():
             textbutton _("Save") action ShowMenu("save")
 
         textbutton _("Load") action ShowMenu("load")
+
         if renpy.android != True:
             textbutton _("UPDATE GAME") action Start("show_game_updater") text_color "#31e8b1" text_hover_color "#9ff5dd"
 
@@ -1689,7 +1728,14 @@ screen navigation():
         textbutton _("New Episodes") action OpenURL("http://decent-monkey.com/news/")
         textbutton _("Guide") action OpenURL("http://decent-monkey.com/the-guide-for-episode-2/")
         textbutton ("Become Supporter") action OpenURL("http://www.patreon.com/decentmonkey/")
-        textbutton _("My Thanks") action ShowMenu("about")
+        $ flag1 = False
+        if game.extra == True and renpy.current_screen().screen_name[0] == "load":
+            if check_saves_for_migration() == True:
+                textbutton _("MIGRATE FROM 720p") action Start("migrate_saves") text_color "#e8b131" text_hover_color "#f8f131"
+                $ flag1 = True
+        if flag1 == False:
+            textbutton _("My Thanks") action ShowMenu("about")
+
 
         if renpy.variant("pc"):
 
@@ -2725,8 +2771,8 @@ screen notify(message):
 #        timer (3.25*len(notifList)) action [Hide('notify'), SetVariable("notifList", [])]
         if len(notifList) > 2:
             $ notifTimerLen = (2.0 * len(notifList))
-            if notifTimerLen > 6:
-                $ notifTimerLen = 6
+            if notifTimerLen > 6.0:
+                $ notifTimerLen = 6.0
             timer notifTimerLen action [SetVariable("notifList", []), Hide('notify')]
         else:
             timer (3.25) action [SetVariable("notifList", []), Hide('notify')]

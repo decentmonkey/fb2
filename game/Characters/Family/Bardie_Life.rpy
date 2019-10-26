@@ -2,6 +2,8 @@ default bardieStage = 0
 
 default Bardie_Life_day5_day = 0
 
+default bardieDayEmpty = False # днем Барди нет
+
 label Bardie_Life_init:
     $ add_hook("change_time_day", "Bardie_Life_day", scene="global")
     $ add_hook("change_time_evening", "Bardie_Life_evening", scene="global")
@@ -77,6 +79,9 @@ label Bardie_Life_evening4:
     return False
 
 label Bardie_Life_day5:
+    if bardieDayEmpty == True:
+        $ move_object("Bardie", "empty")
+        return False
     if day == Bardie_Life_day5_day or day%2 == 0:
         return
     if get_active_objects("Betty", scene="floor2") != False:
@@ -87,6 +92,9 @@ label Bardie_Life_day5:
     return False
 
 label Bardie_Life_Day6: # Днем Барди все время во дворе
+    if bardieDayEmpty == True:
+        $ move_object("Bardie", "empty")
+        return False
     if day == Bardie_Life_day5_day or day%2 == 0:
         $ move_object("Bardie", "street_house_main_yard")
         return False

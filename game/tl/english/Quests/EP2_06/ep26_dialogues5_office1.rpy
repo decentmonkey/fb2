@@ -1156,3 +1156,19 @@ translate english strings:
     old "Не целовать его."
     new "Don’t kiss him."
 
+# TODO: Translation updated at 2019-10-18 04:27
+
+# game/Quests/EP2_06/ep26_dialogues5_office1.rpy:25
+translate english ep26_dialogues5_office1_1a2_30f0f65f:
+
+    # biff "Эй, цыпочка!"
+    # biff "Хватит ходить здесь как шлюха!"
+    # biff "Я знаю, у тебя есть нормальное платье!"
+    # biff "Папочка тебе достаточно платит!"
+    # help "Для продолжения сюжета нужно красивое платье ({c}сюжет со Стивом{/c})"
+    biff "Hey, babe!"
+    biff "Stop looking like a whore while you are here!"
+    biff "I know, that you have normal dresses!"
+    biff "Daddy pays you enough!"
+    help "Monica needs a beautiful dress to continue the plot. ({c}Steve's storyline{/c})"
+

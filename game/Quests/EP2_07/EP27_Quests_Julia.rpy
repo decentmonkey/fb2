@@ -50,8 +50,10 @@ label ep27_quests_julia1_relationships:
         $ workingOfficeCabinetMonicaSuffix = 2
         call refresh_scene_fade() from _call_refresh_scene_fade_167
         return False
-
-    return
+    if _return == 6: # Выяснить какого цвета трусики у Юлии
+        call ep28_quests_julia_panties_menu() from _call_ep28_quests_julia_panties_menu
+        return False
+    return False
 
 label ep27_quests_julia2: # Проверка на первый приход Фреда
 #    if juliaOfficeOffended1 == False or juliaOfficeOffended2 == False: # Если Моника хорошо общается с Юлией, то Фред не приходит
@@ -222,6 +224,9 @@ label ep27_quests_julia12_fred_catch:
     if juliaFredCatchFromDay == day or week_day == 7 or day_time != "day" or scene_name == "monica_office_entrance":
         return
         # next updates
-    return
     $ remove_hook(label="ep27_quests_julia1_f")
+    call ep28_quests_julia_fred_catch1() from _call_ep28_quests_julia_fred_catch1
+#    m "catch"
+#    call ep28_betty_init()
+#    return
     return

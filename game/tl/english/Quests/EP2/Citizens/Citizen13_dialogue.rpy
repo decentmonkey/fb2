@@ -1216,15 +1216,15 @@ translate english cit13_groping_1st_87724d95:
     # citizen13 "Как же мне нравится наша дружба!"
     # citizen13 "У меня никогда не было такой хорошей подруги, как ты!"
     # citizen13 "Обнимемся! В честь нашей дружбы!"
-    citizen13 "Как же мне нравится наша дружба!"
-    citizen13 "У меня никогда не было такой хорошей подруги, как ты!"
-    citizen13 "Обнимемся! В честь нашей дружбы!"
+    citizen13 "How I love our friendship!"
+    citizen13 "I never had a friend like you!"
+    citizen13 "Let's hug! For our friendship!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:928
 translate english cit13_groping_1st_f10fec51:
 
     # mt "Это ничтожество хочет обнять меня, Монику Бакфетт! Но, он заплатит..."
-    mt "Это ничтожество хочет обнять меня, Монику Бакфетт! Но, он заплатит..."
+    mt "He wants to hug me, Monica Buckfett! But, he is paying..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:935
 translate english cit13_groping_1st_d4311caa:
@@ -1236,63 +1236,63 @@ translate english cit13_groping_1st_d4311caa:
 translate english cit13_groping_1st_e207cd0d:
 
     # m "Почему я должна на это согласиться?"
-    m "Почему я должна на это согласиться?"
+    m "Why would I do it?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:940
 translate english cit13_groping_1st_65afda85:
 
     # citizen13 "Потому, что подруги иногда обнимаются, а ты моя подруга."
-    citizen13 "Потому, что подруги иногда обнимаются, а ты моя подруга."
+    citizen13 "Because we are friends and that's what friends do."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:942
 translate english cit13_groping_1st_e540a52f:
 
     # mt "Он не отличается умом. Думаю, его  можно обмануть..."
-    mt "Он не отличается умом. Думаю, его  можно обмануть..."
+    mt "He doesn’t look very bright. I think I can trick him..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:944
 translate english cit13_groping_1st_12d1f887:
 
     # m "Подруги ведь также помогают друг другу. Так?"
-    m "Подруги ведь также помогают друг другу. Так?"
+    m "Friends also help each other, right?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:946
 translate english cit13_groping_1st_eb336ed6:
 
     # citizen13 "Ну, да, наверное..."
-    citizen13 "Ну, да, наверное..."
+    citizen13 "Well, yes... I guess..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:948
 translate english cit13_groping_1st_aa54ced4:
 
     # m "Понимаешь, у меня сейчас не самое удачное материальное положение..."
     # m "Мне бы пригодились...20 долларов."
-    m "Понимаешь, у меня сейчас не самое удачное материальное положение..."
-    m "Мне бы пригодились...20 долларов."
+    m "You see, I'm not in a very good financial situation at the moment..."
+    m "20 dollars would be very helpful."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:951
 translate english cit13_groping_1st_c8b0a639:
 
     # citizen13 "Подруга...У меня у самого сейчас не так много денег. У меня только 5."
-    citizen13 "Подруга...У меня у самого сейчас не так много денег. У меня только 5."
+    citizen13 "Friend... I don’t have much. I have only 5."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:953
 translate english cit13_groping_1st_d600d682:
 
     # mt "Нищеброд!"
-    mt "Нищеброд!"
+    mt "Useless!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:955
 translate english cit13_groping_1st_1695cfcc:
 
     # m "Очень жаль..."
-    m "Очень жаль..."
+    m "That's unfortunate..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:957
 translate english cit13_groping_1st_e920ba79:
 
     # citizen13 "Подруга, я с удовольствием дам тебе эти 5 долларов! Давай обнимемся!"
-    citizen13 "Подруга, я с удовольствием дам тебе эти 5 долларов! Давай обнимемся!"
+    citizen13 "Friend, I'll gladly give you these 5 dollars! Let's hug!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:964
 translate english cit13_groping_1st_de4b270b:
@@ -1304,13 +1304,13 @@ translate english cit13_groping_1st_de4b270b:
 translate english cit13_groping_1st_98f17675:
 
     # mt "Я не хочу, чтобы меня обнимало это ничтожество."
-    mt "Я не хочу, чтобы меня обнимало это ничтожество."
+    mt "I don’t want to hug with this useless being."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:969
 translate english cit13_groping_1st_426d2c2b:
 
     # mt "5 долларов - очень мало, но мне нужны деньги..."
-    mt "5 долларов - очень мало, но мне нужны деньги..."
+    mt "5 dollars is too less. I really need money..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:971
 translate english cit13_groping_1st_94420ba9:
@@ -1322,115 +1322,115 @@ translate english cit13_groping_1st_94420ba9:
 translate english cit13_groping_1st_350ef123:
 
     # citizen13 "Ура!"
-    citizen13 "Ура!"
+    citizen13 "Hooray!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:982
 translate english cit13_groping_1st_a1303934:
 
     # citizen13 "Какая ты хорошая подруга!"
-    citizen13 "Какая ты хорошая подруга!"
+    citizen13 "You are a good friend!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:984
 translate english cit13_groping_1st_ad10055f:
 
     # mt "Какой же ты глупый, если считаешь, что я твоя подруга..."
-    mt "Какой же ты глупый, если считаешь, что я твоя подруга..."
+    mt "How stupid can you be to think that I'm your friend..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:986
 translate english cit13_groping_1st_efdf1c6f:
 
     # citizen13 "А почему ты меня не обнимаешь? Ты не ценишь нашу дружбу?"
-    citizen13 "А почему ты меня не обнимаешь? Ты не ценишь нашу дружбу?"
+    citizen13 "Why don’t you hug? You don’t value our friendship?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:988
 translate english cit13_groping_1st_cf1f37e0:
 
     # mt "Черт, похоже, придется это сделать, иначе он не заплатит."
     # mt "Просто сомкну руки сзади..."
-    mt "Черт, похоже, придется это сделать, иначе он не заплатит."
-    mt "Просто сомкну руки сзади..."
+    mt "Damn it, it looks like I have to do it, or he will not pay."
+    mt "I'll just pretend to hug him..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:994
 translate english cit13_groping_1st_673d8124:
 
     # citizen13 "Как хорошо!"
-    citizen13 "Как хорошо!"
+    citizen13 "How good!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1003
 translate english cit13_groping_1st_00f6ad99:
 
     # citizen13 "Какая ты мягкая!"
-    citizen13 "Какая ты мягкая!"
+    citizen13 "You are so soft!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1005
 translate english cit13_groping_1st_df58a3d8:
 
     # mt "Он что, лапает мою попу?"
     # mt "Что за мерзость?!"
-    mt "Он что, лапает мою попу?"
-    mt "Что за мерзость?!"
+    mt "Is he groping my butt?"
+    mt "Disgusting!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1011
 translate english cit13_groping_1st_ff260bb0:
 
     # mt "Если бы не эти 5 долларов, я бы тебя..."
-    mt "Если бы не эти 5 долларов, я бы тебя..."
+    mt "If it wasn’t for the 5 dollars, I would..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1018
 translate english cit13_groping_1st_b07f7cd9:
 
     # m "Какого черта? Ты лапал мою попу?!"
-    m "Какого черта? Ты лапал мою попу?!"
+    m "What the hell? Did you grope my butt?!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1020
 translate english cit13_groping_1st_906e562a:
 
     # citizen13 "Это дружеские объятия!"
-    citizen13 "Это дружеские объятия!"
+    citizen13 "It's just a friendly hug!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1022
 translate english cit13_groping_1st_8db264c5:
 
     # m "Не нужны мне такие объятия!"
-    m "Не нужны мне такие объятия!"
+    m "I don’t need hugs like that!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1024
 translate english cit13_groping_1st_8d853044:
 
     # citizen13 "Плохая подруга! Значит и деньги не нужны!"
-    citizen13 "Плохая подруга! Значит и деньги не нужны!"
+    citizen13 "Bad friend! Meaning that you don’t need any money!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1027
 translate english cit13_groping_1st_df8bc748:
 
     # citizen13 "Теперь я вижу, что ты ценишь нашу дружбу!"
     # citizen13 "Держи!" 
-    citizen13 "Теперь я вижу, что ты ценишь нашу дружбу!"
-    citizen13 "Держи!" 
+    citizen13 "Now I see that you value our friendship!"
+    citizen13 "Here!" 
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1030
 translate english cit13_groping_1st_1b69bcc0:
 
     # mt "Никакой между нами дружбы не существует!"
-    mt "Никакой между нами дружбы не существует!"
+    mt "There is no friendship between us!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1035
 translate english cit13_grooping_regular_7e203d75:
 
     # citizen13 "Говорят, что если люди будут обниматься, они будут жить дольше!"
-    citizen13 "Говорят, что если люди будут обниматься, они будут жить дольше!"
+    citizen13 "They say that those who hugs live longer!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1037
 translate english cit13_grooping_regular_3f1024ae:
 
     # mt "Возможно, но уж точно не с такими как ты."
-    mt "Возможно, но уж точно не с такими как ты."
+    mt "Yea, but not with guys like you!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1039
 translate english cit13_grooping_regular_ff8897b1:
 
     # citizen13 "Давай обнимемся!"
-    citizen13 "Давай обнимемся!"
+    citizen13 "Let's hug!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1041
 translate english cit13_grooping_regular_90bc53c5:
@@ -1444,21 +1444,21 @@ translate english cit13_grooping_regular_2bdabde6:
     # citizen13 "Не заплачу, а как ты там говорила?"
     # citizen13 "Помогу материально... Кажется так."
     # citizen13 "Но только ради нашей дружбы!"
-    citizen13 "Не заплачу, а как ты там говорила?"
-    citizen13 "Помогу материально... Кажется так."
-    citizen13 "Но только ради нашей дружбы!"
+    citizen13 "I'm not paying, but... what were you saying?"
+    citizen13 "Helping financially... I think it was."
+    citizen13 "But only for our friendship!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1047
 translate english cit13_grooping_regular_74b85df8:
 
     # mt "Которой не существует..."
-    mt "Которой не существует..."
+    mt "Which is only in your imagination..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1049
 translate english cit13_grooping_regular_f5d59a76:
 
     # citizen13 "Я дам тебе 5 долларов."
-    citizen13 "Я дам тебе 5 долларов."
+    citizen13 "I'll give you 5 dollars."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1056
 translate english cit13_grooping_regular_de4b270b:
@@ -1470,7 +1470,7 @@ translate english cit13_grooping_regular_de4b270b:
 translate english cit13_grooping_regular_98f17675:
 
     # mt "Я не хочу, чтобы меня обнимало это ничтожество."
-    mt "Я не хочу, чтобы меня обнимало это ничтожество."
+    mt "I don’t want to hug with this useless being."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1061
 translate english cit13_grooping_regular_48903bbb:
@@ -1479,30 +1479,30 @@ translate english cit13_grooping_regular_48903bbb:
     # citizen13 "Я немного сомневаюсь в том, что наша дружба взаимна..."
     # citizen13 "Я хочу, чтобы наши объятия были крепкими!"
     # citizen13 "Как демонстрация дружбы!"
-    citizen13 "Но у меня есть условие."
-    citizen13 "Я немного сомневаюсь в том, что наша дружба взаимна..."
-    citizen13 "Я хочу, чтобы наши объятия были крепкими!"
-    citizen13 "Как демонстрация дружбы!"
+    citizen13 "But I have a condition."
+    citizen13 "I have doubts that you see our friendship in the same light..."
+    citizen13 "I want our hugs to be strong!"
+    citizen13 "To demonstrate our strong friendship!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1066
 translate english cit13_grooping_regular_e44e6b49:
 
     # mt "Он хочет, чтобы я обняла его крепко?! Он-никто и не достоин этого."
     # mt "Но мне нужны эти 5 долларов!"
-    mt "Он хочет, чтобы я обняла его крепко?! Он-никто и не достоин этого."
-    mt "Но мне нужны эти 5 долларов!"
+    mt "What?! He doesn’t deserve to hug me like that!"
+    mt "But I need these 5 dollars!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1074
 translate english cit13_grooping_regular_d9ea341c:
 
     # m "Я на такое не согласна."
-    m "Я на такое не согласна."
+    m "I will not agree to this."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1076
 translate english cit13_grooping_regular_df15305b:
 
     # citizen13 "Я так и знал, что наша дружба не крепкая..."
-    citizen13 "Я так и знал, что наша дружба не крепкая..."
+    citizen13 "I knew it, you don’t value our friendship."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1079
 translate english cit13_grooping_regular_94420ba9:
@@ -1514,19 +1514,19 @@ translate english cit13_grooping_regular_94420ba9:
 translate english cit13_grooping_regular_d1619f4d:
 
     # citizen13 "Я знал!"
-    citizen13 "Я знал!"
+    citizen13 "I knew it!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1088
 translate english cit13_grooping_regular_7cf646c3:
 
     # citizen13 "Подруга, теперь ты! И обними меня крепко!"
-    citizen13 "Подруга, теперь ты! И обними меня крепко!"
+    citizen13 "Come, friend! You turn now!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1091
 translate english cit13_grooping_regular_fc3b29c6:
 
     # mt "Это ужасно..."
-    mt "Это ужасно..."
+    mt "Disgusting..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1102
 translate english cit13_grooping_regular_d50bb455:
@@ -1534,135 +1534,135 @@ translate english cit13_grooping_regular_d50bb455:
     # citizen13 "Как приятно!"
     # citizen13 "У тебя такая упругая попа!"
     # citizen13 "Хотел бы я себе такую же!"
-    citizen13 "Как приятно!"
-    citizen13 "У тебя такая упругая попа!"
-    citizen13 "Хотел бы я себе такую же!"
+    citizen13 "How good!"
+    citizen13 "You have such a nice butt!"
+    citizen13 "I would have liked to have one like that!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1106
 translate english cit13_grooping_regular_777e6663:
 
     # mt "Он снова меня лапает..."
-    mt "Он снова меня лапает..."
+    mt "He is groping me again..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1111
 translate english cit13_grooping_regular_ff260bb0:
 
     # mt "Если бы не эти 5 долларов, я бы тебя..."
-    mt "Если бы не эти 5 долларов, я бы тебя..."
+    mt "If it wasn’t for the 5 dollars, I would..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1118
 translate english cit13_grooping_regular_00a65ae1:
 
     # m "Какого черта? Ты снова меня лапаешь?!"
-    m "Какого черта? Ты снова меня лапаешь?!"
+    m "What the hell? You are doing it again!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1120
 translate english cit13_grooping_regular_170e7be2:
 
     # citizen13 "Я же говорил, это ради дружбы!"
-    citizen13 "Я же говорил, это ради дружбы!"
+    citizen13 "All for our friendship!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1122
 translate english cit13_grooping_regular_92af42c8:
 
     # m "Мне это надоело!"
-    m "Мне это надоело!"
+    m "I had enough!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1124
 translate english cit13_grooping_regular_8d853044:
 
     # citizen13 "Плохая подруга! Значит и деньги не нужны!"
-    citizen13 "Плохая подруга! Значит и деньги не нужны!"
+    citizen13 "Bad friend! Meaning that you don’t need any money!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1127
 translate english cit13_grooping_regular_60f32303:
 
     # m "Ну все, достаточно."
-    m "Ну все, достаточно."
+    m "That is enough."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1129
 translate english cit13_grooping_regular_131c993a:
 
     # citizen13 "Ты куда-то спешишь?"
-    citizen13 "Ты куда-то спешишь?"
+    citizen13 "Are you in a hurry?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1131
 translate english cit13_grooping_regular_a90e896c:
 
     # mt "Я спешу побыстрее вернуть свою прежнюю жизнь, а также спешу не видеть таких как ты."
-    mt "Я спешу побыстрее вернуть свою прежнюю жизнь, а также спешу не видеть таких как ты."
+    mt "I'm in a hurry to get my life back, and I'm also in a hurry not to see people like you."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1133
 translate english cit13_grooping_regular_5e4cae7d:
 
     # m "Нет, просто мы уже достаточно обнимались."
-    m "Нет, просто мы уже достаточно обнимались."
+    m "No, we've just hugged enough."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1135
 translate english cit13_grooping_regular_b70a1914:
 
     # citizen13 "Ну ладно, в следующий раз продолжим."
     # citizen13 "Вот твои 5 долларов."
-    citizen13 "Ну ладно, в следующий раз продолжим."
-    citizen13 "Вот твои 5 долларов."
+    citizen13 "Well, next time we'll continue."
+    citizen13 "Here's your $ 5."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1138
 translate english cit13_grooping_regular_e096378c:
 
     # mt "Надеюсь, он будет не скоро..."
-    mt "Надеюсь, он будет не скоро..."
+    mt "I hope it won't be soon..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1143
 translate english cit13_lipstick_event_1e576e30:
 
     # citizen13 "Подруга, выручай!"
     # citizen13 "Мне нужна твоя помощь!"
-    citizen13 "Подруга, выручай!"
-    citizen13 "Мне нужна твоя помощь!"
+    citizen13 "Friend, help me out!"
+    citizen13 "I need your help!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1146
 translate english cit13_lipstick_event_631511f4:
 
     # mt "Что опять на уме у этого извращенца?"
-    mt "Что опять на уме у этого извращенца?"
+    mt "What's that pervert up to again?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1148
 translate english cit13_lipstick_event_1366c8f2:
 
     # citizen13 "По твоей одежде сразу видно, что ты разбираешься в моде!"
-    citizen13 "По твоей одежде сразу видно, что ты разбираешься в моде!"
+    citizen13 "I can tell by your clothes that you know fashion!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1150
 translate english cit13_lipstick_event_984d0315:
 
     # mt "Это одежда шлюхи, она не может быть модной, но ты прав!"
-    mt "Это одежда шлюхи, она не может быть модной, но ты прав!"
+    mt "It's a whore's outfit, it can't be fashionable, but you're right!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1152
 translate english cit13_lipstick_event_d655d501:
 
     # citizen13 "И знаешь как делать очень красивый мейкап!"
     # citizen13 "Скажи, что знаешь!"
-    citizen13 "И знаешь как делать очень красивый мейкап!"
-    citizen13 "Скажи, что знаешь!"
+    citizen13 "And you know how to make a very beautiful make-up!"
+    citizen13 "Tell me what you know!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1155
 translate english cit13_lipstick_event_428f8058:
 
     # mt "Ну конечно знаю"
-    mt "Ну конечно знаю"
+    mt "Of course, I do."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1157
 translate english cit13_lipstick_event_840c8156:
 
     # m "Знаю."
-    m "Знаю."
+    m "I know."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1159
 translate english cit13_lipstick_event_97862f11:
 
     # citizen13 "Я тут недавно прикупил одну важную вещь."
-    citizen13 "Я тут недавно прикупил одну важную вещь."
+    citizen13 "I've just bought an important thing."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1164
 translate english cit13_lipstick_event_37ef1145:
@@ -1670,49 +1670,49 @@ translate english cit13_lipstick_event_37ef1145:
     # citizen13 "Но я не уверен, что знаю как ей правильно пользоваться."
     # citizen13 "Ты должна мне помочь! Научи меня!"
     # citizen13 "Покрась себе губы, как надо!"
-    citizen13 "Но я не уверен, что знаю как ей правильно пользоваться."
-    citizen13 "Ты должна мне помочь! Научи меня!"
-    citizen13 "Покрась себе губы, как надо!"
+    citizen13 "But I'm not sure I know how to use it properly."
+    citizen13 "You must help me! Teach me!"
+    citizen13 "Make up your lips properly!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1168
 translate english cit13_lipstick_event_cd6a6d95:
 
     # mt "Чтобы я, Моника Бакфетт, красила свои губы этой ужасной помадой?!"
     # mt "Да она стоит не больше доллара! Она очень не качественная."
-    mt "Чтобы я, Моника Бакфетт, красила свои губы этой ужасной помадой?!"
-    mt "Да она стоит не больше доллара! Она очень не качественная."
+    mt "Why would I, Monica Buckffet, wear that awful lipstick?!"
+    mt "It's not worth more than a dollar! It's very low-quality."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1171
 translate english cit13_lipstick_event_53a2cfdf:
 
     # citizen13 "Да, забыл сказать! Я помню, что у тебя проблемы с деньгами..."
     # citizen13 "За этот урок я дам тебе 10 долларов!"
-    citizen13 "Да, забыл сказать! Я помню, что у тебя проблемы с деньгами..."
-    citizen13 "За этот урок я дам тебе 10 долларов!"
+    citizen13 "Oh yeah, I forgot to say! I remember that you have a problem with money..."
+    citizen13 "I'll give you $ 10 for this lesson!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1174
 translate english cit13_lipstick_event_606b0145:
 
     # mt "Накрасить себе губы этой ужасной помадой и получить 10 долларов..."
-    mt "Накрасить себе губы этой ужасной помадой и получить 10 долларов..."
+    mt "Put on that awful lipstick and get $ 10..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1181
 translate english cit13_lipstick_event_67f1dcb4:
 
     # m "Я не собираюсь красить губы этой ужасной помадой."
-    m "Я не собираюсь красить губы этой ужасной помадой."
+    m "I'm not going to wear that awful lipstick."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1183
 translate english cit13_lipstick_event_accc9a66:
 
     # citizen13 "Ну как же, подруга?! Она такая красивая..."
-    citizen13 "Ну как же, подруга?! Она такая красивая..."
+    citizen13 "How come, friend?! It's so beautiful..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1185
 translate english cit13_lipstick_event_6f3c13b7:
 
     # m "Это помада для двадцатидолларовой шлюхи, а не для меня!"
-    m "Это помада для двадцатидолларовой шлюхи, а не для меня!"
+    m "That lipstick is for a twenty-dollar whore, not me!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1187
 translate english cit13_lipstick_event_41b78ab2:
@@ -1720,33 +1720,33 @@ translate english cit13_lipstick_event_41b78ab2:
     # citizen13 "?!"
     # citizen13 "Подруга, но ты ведь..."
     citizen13 "?!"
-    citizen13 "Подруга, но ты ведь..."
+    citizen13 "Friend, but you are..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1190
 translate english cit13_lipstick_event_877c2670:
 
     # m "Я не шлюха!"
-    m "Я не шлюха!"
+    m "I'm not a whore!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1192
 translate english cit13_lipstick_event_98e6c897:
 
     # mt "Хоть и одета как шлюха, но это все временно. Скоро я сожгу этот наряд."
-    mt "Хоть и одета как шлюха, но это все временно. Скоро я сожгу этот наряд."
+    mt "I may be dressed like a whore, but it's only temporary. I'll burn this outfit soon."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1194
 translate english cit13_lipstick_event_4d77de05:
 
     # citizen13 "Странная ты. Ладно, как хочешь."
-    citizen13 "Странная ты. Ладно, как хочешь."
+    citizen13 "You're weird. Okay, as you wish."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1197
 translate english cit13_lipstick_event_8a666077:
 
     # mt "Думаю, ничего страшного не произойдет. Я только накрашу себе губы, а потом быстро все сотру."
     # mt "А это ничтожество даст мне 10 долларов."
-    mt "Думаю, ничего страшного не произойдет. Я только накрашу себе губы, а потом быстро все сотру."
-    mt "А это ничтожество даст мне 10 долларов."
+    mt "I think nothing terrible should happen. I'll just put some lipstick on and then quickly wipe it off."
+    mt "And this jerk will give me $ 10."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1200
 translate english cit13_lipstick_event_94420ba9:
@@ -1759,8 +1759,8 @@ translate english cit13_lipstick_event_532f5a70:
 
     # citizen13 "Я знал! Я знал, что ты мне поможешь!"
     # citizen13 "Вот, держи." 
-    citizen13 "Я знал! Я знал, что ты мне поможешь!"
-    citizen13 "Вот, держи." 
+    citizen13 "I knew it! I knew you'd help me!"
+    citizen13 "Here you go." 
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1206
 translate english cit13_lipstick_event_4aed5af1:
@@ -1768,9 +1768,9 @@ translate english cit13_lipstick_event_4aed5af1:
     # m "Нужно сделать так..."
     # m "А потом вот так."
     # m "И все готово!"
-    m "Нужно сделать так..."
-    m "А потом вот так."
-    m "И все готово!"
+    m "You have to do so..."
+    m "And then like this."
+    m "It's done!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1210
 translate english cit13_lipstick_event_9ce3ec0d:
@@ -1780,11 +1780,11 @@ translate english cit13_lipstick_event_9ce3ec0d:
     # citizen13 "Хочу след от губ на моей щеке."
     # citizen13 "И я дам тебе 10 долларов."
     # citizen13 "Мы же подруги..."
-    citizen13 "Вау! Так просто! Дай-ка посмотреть!" 
-    citizen13 "Отлично! А теперь поцелуй меня!"
-    citizen13 "Хочу след от губ на моей щеке."
-    citizen13 "И я дам тебе 10 долларов."
-    citizen13 "Мы же подруги..."
+    citizen13 "Wow! So easy! Let me see!" 
+    citizen13 "Great! Now kiss me!"
+    citizen13 "I want a lip mark on my cheek."
+    citizen13 "And I'll give you $ 10."
+    citizen13 "We're friends..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1216
 translate english cit13_lipstick_event_30f366eb:
@@ -1793,60 +1793,60 @@ translate english cit13_lipstick_event_30f366eb:
     # mt "Скоро это все закончится и я не появлюсь в этих трущебах никогда..."
     # mt "Что же делать? Он готов дать мне 10 долларов, а деньги мне очень нужны."
     # mt "Он не отличается умом... Может, я смогу его обмануть?"
-    mt "Что?! Поцеловать этого трущобного жителя?! Пусть даже в щеку..."
-    mt "Скоро это все закончится и я не появлюсь в этих трущебах никогда..."
-    mt "Что же делать? Он готов дать мне 10 долларов, а деньги мне очень нужны."
-    mt "Он не отличается умом... Может, я смогу его обмануть?"
+    mt "What?! Kiss this slum dweller?! Even on the cheek..."
+    mt "This will all be over soon, and I will never set foot in these slums again..."
+    mt "What to do? He's willing to give me $ 10, and I really need the money."
+    mt "He's not very smart... Maybe I can trick him."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1224
 translate english cit13_lipstick_event_0cf24d3f:
 
     # mt "Сделаю это очень быстро..."
-    mt "Сделаю это очень быстро..."
+    mt "I'll do it very quickly..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1226
 translate english cit13_lipstick_event_0c359e5d:
 
     # m "Хорошо, я тебя поцелую."
-    m "Хорошо, я тебя поцелую."
+    m "All right, I'll kiss you."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1228
 translate english cit13_lipstick_event_941e8d5d:
 
     # citizen13 "Здорово. Я готов!"
-    citizen13 "Здорово. Я готов!"
+    citizen13 "Hey. I'm ready!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1233
 translate english cit13_lipstick_event_5030da33:
 
     # citizen13 "О да! Как приятно! Это гораздо лучше, чем поцелуй Александра!"
     # citizen13 "Точнее Александры! Да! Моей девушки Александры!"
-    citizen13 "О да! Как приятно! Это гораздо лучше, чем поцелуй Александра!"
-    citizen13 "Точнее Александры! Да! Моей девушки Александры!"
+    citizen13 "Yes! How nice! This is so much better than Alexandra's kiss!"
+    citizen13 "More precisely Alexandra's! Yes! My girlfriend Alexandra!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1236
 translate english cit13_lipstick_event_bc34dea9:
 
     # mt "Да все уже давно с тобой ясно..."
-    mt "Да все уже давно с тобой ясно..."
+    mt "Everything is already clear with you..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1238
 translate english cit13_lipstick_event_c6208010:
 
     # m "Я поняла..."
-    m "Я поняла..."
+    m "I understand..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1242
 translate english cit13_lipstick_event_5fa80415:
 
     # m "Ты знашь, я ведь уже научила тебя красить губы?"
-    m "Ты знашь, я ведь уже научила тебя красить губы?"
+    m "You know, I've already taught you how to put on lipstick?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1244
 translate english cit13_lipstick_event_3c44505a:
 
     # citizen13 "Да! И я за это благодарен!"
-    citizen13 "Да! И я за это благодарен!"
+    citizen13 "Yes! And I'm grateful for that!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1246
 translate english cit13_lipstick_event_180aa2c8:
@@ -1854,33 +1854,33 @@ translate english cit13_lipstick_event_180aa2c8:
     # m "Может быть, ты сможешь накрасить себе губы..."
     # m "Поцеловать себя в руку, а затем прислонить ее к щеке!"
     # m "Ведь если я тебя поцелую, могут передаться разные бактерии..."
-    m "Может быть, ты сможешь накрасить себе губы..."
-    m "Поцеловать себя в руку, а затем прислонить ее к щеке!"
-    m "Ведь если я тебя поцелую, могут передаться разные бактерии..."
+    m "Maybe you can put some lipstick on..."
+    m "Kiss your hand and then put it against your cheek!"
+    m "Because if I kiss you, different bacteria can be transmitted..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1250
 translate english cit13_lipstick_event_4f8bbdaf:
 
     # citizen13 "Ты думаешь?"
-    citizen13 "Ты думаешь?"
+    citizen13 "You think so?"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1252
 translate english cit13_lipstick_event_835d3d8c:
 
     # m "Да, я уверена."
-    m "Да, я уверена."
+    m "Yes, I'm sure."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1254
 translate english cit13_lipstick_event_3d640f15:
 
     # citizen13 "Да, я не хочу заболеть...Спасибо, подруга!"
-    citizen13 "Да, я не хочу заболеть...Спасибо, подруга!"
+    citizen13 "Yeah, I don't want to get sick...Thanks, girl!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1256
 translate english cit13_lipstick_event_59ec2162:
 
     # mt "Ну ты и идиот..."
-    mt "Ну ты и идиот..."
+    mt "Well, you idiot..."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1259
 translate english cit13_lipstick_event_b0006b75:
@@ -1889,16 +1889,16 @@ translate english cit13_lipstick_event_b0006b75:
     # citizen13 "Ты мне очень помогла!"
     # citizen13 "Теперь я знаю, к кому обращаться в случае подобных сложностей!"
     # citizen13 "Спасибо за урок." 
-    citizen13 "Спасибо тебе, подруга!"
-    citizen13 "Ты мне очень помогла!"
-    citizen13 "Теперь я знаю, к кому обращаться в случае подобных сложностей!"
-    citizen13 "Спасибо за урок." 
+    citizen13 "Thank you, friend!"
+    citizen13 "You've helped me a lot!"
+    citizen13 "Now I know who to turn to in case of such difficulties!"
+    citizen13 "Thanks for the lesson." 
 
 translate english strings:
 
     # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:930
     old "Почему я должна на это согласиться?"
-    new "Почему я должна на это согласиться?"
+    new "Why would I do it?"
 
     # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:930
     old "Да ни за что!"
@@ -1906,21 +1906,21 @@ translate english strings:
 
     # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1008
     old "Какого черта?."
-    new "Какого черта?."
+    new "What the hell?"
 
     # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1069
     old "Я на такое не согласна."
-    new "Я на такое не согласна."
+    new "I will not agree to this."
 
     # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1176
     old "Я не собираюсь красить губы этой ужасной помадой."
-    new "Я не собираюсь красить губы этой ужасной помадой."
+    new "I'm not going to wear that awful lipstick."
 
     # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1221
     old "Хорошо, я тебя поцелую."
-    new "Хорошо, я тебя поцелую."
+    new "All right, I'll kiss you."
 
     # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1221
     old "Попытаться обмануть."
-    new "Попытаться обмануть."
+    new "Try to deceive."
 

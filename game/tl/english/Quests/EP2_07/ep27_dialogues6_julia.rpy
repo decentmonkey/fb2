@@ -1340,3 +1340,11 @@ translate english strings:
     old "Ущипнуть Юлию."
     new "Pinch Julia."
 
+# TODO: Translation updated at 2019-10-18 04:27
+
+translate english strings:
+
+    # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:2
+    old "Отношения с Юлией... (disabled)"
+    new "Relations with Julia... (disabled)"
+

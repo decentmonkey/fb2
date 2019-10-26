@@ -125,6 +125,7 @@ label show_scene_now:
 label show_scene_loop:
     $ pause_enter += 1
     $ interact_data = ui.interact()
+label show_scene_loop2:
 #    pause
     $ pause_exit += 1
     if show_scene_loop_flag == False:
@@ -233,6 +234,7 @@ label after_load():
         call ep26_quests1() from _call_ep26_quests1
     if ep27_quests_initialized == False:
         call ep27_quests1() from _call_ep27_quests1
+    call process_afterload() from _call_process_afterload
 
     $ imagesSizesCache = {}
     call run_after_load() from _call_run_after_load

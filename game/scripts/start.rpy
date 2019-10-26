@@ -1,4 +1,4 @@
-define debugMode = False
+define debugMode = True
 
 default gameStage = 0
 default gameSubStage = 0
@@ -12,9 +12,12 @@ default objectives_list = []
 default currentMusic = False
 default currentMusicPriority = 0
 default currentMusic2 = False
+default currentMusic3 = False
 default storedMusic = []
 default storedMusicPriority = []
 default day_time = "day"
+default owner = "Monica"
+default showObjectsNotOwner = True
 default episode = 1
 default notifList = []
 default lastNotifTime = 0
@@ -22,6 +25,10 @@ default lastNotifTime = 0
 default menu_corruption = []
 default menu_price = []
 default menu_bitchiness = []
+
+default hud_preset_current = "default"
+default hud_preset_default = "default"
+default minimap_coords_preset = 0
 
 default after_load_ready_to_render = False
 
@@ -39,28 +46,6 @@ label start:
     $ hooks_stack = []
     $ inventory_objects = {}
     $ inventory = []
-
-#    $ sprites_hover_dummy_screen_flag = False
-#    $ add_hook("menu1", "menu_test2", scene="menu", caption = _("Доп. вариант2"), priority = 15, label=["testlab", "vorlab"])
-#    $ add_hook("menu1", "menu_test1", scene="menu", caption = _("Доп. вариант1"), priority = 90, active=False)
-
-#    $ remove_hook(label="vorlab")
-
-#    $ menuName = "menu1"
-#    menu:
-#        "var1":
-#            m "var1"
-#        "var2":
-#            m "var2"
-#            m "var2a"
-#            m "var2b"
-#            m "var2c"
-#        "var3":
-#            m "var3"
-
-#        "":
-#            pass
-#    m "[menuName]"
     call intro_questions() from _call_intro_questions
     $ ralphAskedAboutPayment = False
     $ add_objective("ask_ralph", _("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
@@ -307,14 +292,6 @@ label start_new_game:
 
 label empty_label:
     return
-
-
-
-
-
-
-
-
 
 
 

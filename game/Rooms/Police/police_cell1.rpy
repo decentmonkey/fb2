@@ -43,6 +43,7 @@ label police_cell1_environment:
                 call refresh_scene_fade() from _call_refresh_scene_fade_174
                 return
             call ep27_dialogues_marcus1_11() from _call_ep27_dialogues_marcus1_11
+            call ep28_quests_police1() from _call_ep28_quests_police1
             return
 
     if obj_name == "Lamp":

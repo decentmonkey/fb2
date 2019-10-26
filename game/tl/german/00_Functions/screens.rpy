@@ -55,3 +55,11 @@ translate german strings:
     old "UPDATE GAME"
     new "UPDATE GAME"
 
+# TODO: Translation updated at 2019-10-18 16:48
+
+translate german strings:
+
+    # game/00_Functions/screens.rpy:1710
+    old "MIGRATE FROM 720p"
+    new "MIGRATE FROM 720p"
+

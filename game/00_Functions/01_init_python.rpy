@@ -164,9 +164,27 @@ python early:
         checkPath = "Sounds/" + str(soundName) + ".ogg"
         if renpy.loadable(checkPath):
             renpy.play(checkPath, channel="sound")
+            return
         checkPath = "Sounds/" + str(soundName) + ".wav"
         if renpy.loadable(checkPath):
             renpy.play(checkPath, channel="sound")
+            return
+        checkPath = "Sounds/" + str(soundName) + ".mp3"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound")
+            return
+        checkPath = "Music/" + str(soundName) + ".ogg"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound")
+            return
+        checkPath = "Music/" + str(soundName) + ".wav"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound")
+            return
+        checkPath = "Music/" + str(soundName) + ".mp3"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound")
+            return
 
     renpy.register_statement("sound", parse=sound_parse, execute=sound_exec) #sound - оператор воспроизведения звука
 
@@ -204,6 +222,10 @@ python early:
         checkPath = "Music/" + str(musicName) + ".ogg"
         if renpy.loadable(checkPath):
             renpy.music.play(checkPath, channel="music", loop=True, fadeout=1.0, fadein=1.0)
+        else:
+            checkPath = "Sounds/" + str(musicName) + ".ogg"
+            if renpy.loadable(checkPath):
+                renpy.music.play(checkPath, channel="music", loop=True, fadeout=1.0, fadein=1.0)
         return
 
     renpy.register_statement("music", parse=music_parse, execute=music_exec) #music - оператор воспроизведения музыки
@@ -251,10 +273,42 @@ python early:
         if renpy.loadable(checkPath):
 #            print "play music: " + checkPath
             renpy.music.play(checkPath, channel="music2", loop=True, fadeout=1.0, fadein=1.0)
+        else:
+            checkPath = "Sounds/" + str(musicName) + ".ogg"
+            if renpy.loadable(checkPath):
+                renpy.music.play(checkPath, channel="music2", loop=True, fadeout=1.0, fadein=1.0)
         return
 
     renpy.music.register_channel("music2", "music", True)
     renpy.register_statement("music2", parse=music_parse, execute=music2_exec) #music - оператор воспроизведения музыки
+
+    def music3_exec(ob1):
+        global currentMusic3
+        o, priority = ob1
+        if o == "stop":
+            currentMusic3 = False
+            renpy.music.stop(channel='music3', fadeout=1.0)
+            return
+        try:
+            musicName = renpy.eval(o)
+        except:
+            musicName = o
+        if musicName == currentMusic3:
+            return
+
+        currentMusic3 = musicName
+        checkPath = "Music/" + str(musicName) + ".ogg"
+        if renpy.loadable(checkPath):
+#            print "play music: " + checkPath
+            renpy.music.play(checkPath, channel="music3", loop=True, fadeout=1.0, fadein=1.0)
+        else:
+            checkPath = "Sounds/" + str(musicName) + ".ogg"
+            if renpy.loadable(checkPath):
+                renpy.music.play(checkPath, channel="music3", loop=True, fadeout=1.0, fadein=1.0)
+        return
+
+    renpy.music.register_channel("music3", "music", True)
+    renpy.register_statement("music3", parse=music_parse, execute=music3_exec) #music - оператор воспроизведения музыки
 
     def video_parse(l):
         return l.simple_expression()

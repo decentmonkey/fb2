@@ -1,5 +1,5 @@
 default driverOnHouseYard = True
-
+default streetHouseMainYardBettySuffix = "1"
 
 label street_house_main_yard:
     $ print "enter_street_house_main_yard"

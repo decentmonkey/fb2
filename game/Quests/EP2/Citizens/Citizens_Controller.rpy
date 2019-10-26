@@ -271,6 +271,7 @@ label citizens_init:
 label citizens_init_day:
 #    if debugMode == True:
 #        $ citizensAmountDay = 15 #debug!!!!
+    call citizens_init()
     python:
         citizensDayList = random.sample(set(list(citizens_list_source.keys())), citizensAmountDay)
 #        citizensDayList = citizens_list_source.keys() #debug!!!
@@ -290,6 +291,7 @@ label citizens_init_day:
 
     return
 label citizens_init_evening:
+    call citizens_init()
     python:
         citizensEveningList = random.sample(set(list(citizens_list_source.keys())), citizensAmountEvening)
         if "Citizen_1" in citizensEveningList:

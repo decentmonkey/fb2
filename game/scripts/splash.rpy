@@ -1,4 +1,5 @@
 label splashscreen:
+    call init_launch()
     if debugMode == True:
         return
 

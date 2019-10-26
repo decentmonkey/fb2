@@ -59,9 +59,9 @@ label map:
     $ scene_image = "scene_Map" + day_suffix
 
     call define_hudpresets() from _call_define_hudpresets_1
-
+    $ clear_scene_from_objects(scene_name)
     if hud_presets[hud_preset_current]["display_closemap"] == True:
-        $ add_object_to_scene("Close", {"type" : 2, "img_overlay": "map_close" + res.suffix, "base":"map_close_hover" + res.suffix, "click" : "map_environment", "actions" : "l", "zorder":10, "xsprite":1839, "ysprite":17})
+        $ add_object_to_scene("Close", {"type" : 2, "img_overlay": "map_close" + res.suffix, "base":"map_close_hover" + res.suffix, "click" : "map_environment", "actions" : "l", "zorder":10, "xsprite":1839, "ysprite":17}, scene="map", owner=owner)
 
     python:
         for key, val in map_objects.items():
@@ -72,7 +72,7 @@ label map:
                 "disabled" : "_disabled",
             }
             if stateSuffix[val["state"]] != False:
-                add_object_to_scene(key, {"type":3, "text" : val["text"], "xpos" : val["xpos"], "ypos" : (val["ypos"] - 95), "xsprite":val["xpos"], "ysprite":val["ypos"], "img_overlay": val["base"] + stateSuffix[val["state"]] + res.suffix, "base":val["base"] + stateSuffix[val["state"]] + "_hover" + res.suffix, "click" : "map_environment", "sprite_align":"dc", "high_sprite_hover": True, "layout" : "map" + stateSuffix[val["state"]]})
+                add_object_to_scene(key, {"type":3, "text" : val["text"], "xpos" : val["xpos"], "ypos" : (val["ypos"] - 95), "xsprite":val["xpos"], "ysprite":val["ypos"], "img_overlay": val["base"] + stateSuffix[val["state"]] + res.suffix, "base":val["base"] + stateSuffix[val["state"]] + "_hover" + res.suffix, "click" : "map_environment", "sprite_align":"dc", "high_sprite_hover": True, "layout" : "map" + stateSuffix[val["state"]]}, scene="map", owner=owner)
 
 #    $ add_object_to_scene("Teleport_Office", {"type":3, "text" : _("ОФИС МОНИКИ"), "xpos" : 921, "ypos" : 337, "xsprite":921, "ysprite":432, "img_overlay": "map_marker" + res.suffix, "base":"map_marker_hover" + res.suffix, "click" : "map_environment", "sprite_align":"dc", "high_sprite_hover": True, "layout" : "map"})
 #    $ add_object_to_scene("Teleport_Office", {"type":3, "text" : _("ОФИС МОНИКИ"), "xpos" : 921, "ypos" : 337, "xsprite":921, "ysprite":432, "img_overlay": "map_marker_disabled" + res.suffix, "base":"map_marker_disabled_hover" + res.suffix, "click" : "map_environment", "sprite_align":"dc", "high_sprite_hover": True, "layout" : "map_disabled"})
@@ -169,6 +169,10 @@ label map_environment:
     if obj_name == "Teleport_Melanie_Home":
         call process_drive_teleport("Melanie_Home", "melanie_home") from _call_process_drive_teleport_14
         return
+    if obj_name == "Teleport_College":
+        call process_drive_teleport("College", "street_college") from _call_process_drive_teleport_15
+        return
+
     m "drive!"
     return
 

@@ -48,7 +48,8 @@ label ep22_dialogue1_4_clothshop:
     if cloth == "Governess":
         mt "Магазин закрыт..."
         "Интересно почему..."
-    return False
+        return False
+    return
 
 label ep22_dialogue1_5_kitchen:
     menu:

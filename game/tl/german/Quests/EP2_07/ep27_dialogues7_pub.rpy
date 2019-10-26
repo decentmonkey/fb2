@@ -2182,9 +2182,9 @@ translate german ep27_dialogues7_pub8_023485b8:
     # ashley "Здесь больше нет для тебя работы!"
     # ashley "И я не буду тебя обслуживать даже за деньги!"
     m "!!!"
-    mt "Черт! Мне нужно убедить ее, что я не забирала деньги."
-    mt "Только, как это сделать?"
-    mt "Эта Эшли все равно мне не поверит."
+    mt "Fuck! Ich muss sie überzeugen, dass ich das Geld nicht genommen habe."
+    mt "Aber wie?"
+    mt "Diese Ashley glaubt mir sowieso nicht."
     mt "..."
     ashley "Was guckst du? Raus hier!"
     ashley "Es gibt keine Arbeit mehr für dich!"
@@ -2195,20 +2195,20 @@ translate german ep27_dialogues7_pub8_0589f2f1:
 
     # mt "Мне нужна эта работа..."
     # mt "Может, если я извинюсь, у меня получится с ней договориться?"
-    mt "Мне нужна эта работа..."
-    mt "Может, если я извинюсь, у меня получится с ней договориться?"
+    mt "ich brauche diesen Job..."
+    mt "Vielleicht, wenn ich mich entschuldige, kann ich mit ihr einen Deal machen."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:393
 translate german ep27_dialogues7_pub8_926ad131:
 
     # mt "Я не собираюсь терпеть такое хамское отношение ко мне!"
     # mt "С меня хватит!"
-    mt "Я не собираюсь терпеть такое хамское отношение ко мне!"
+    mt "Ich toleriere nicht so ein abfallendes Verhalten mir gegenüber!"
     mt "Das reicht!"
 
 translate german strings:
 
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:452
     old "Идти танцевать на сцену"
-    new "Идти танцевать на сцену"
+    new "Tanze auf der Bühne."
 

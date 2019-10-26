@@ -354,3 +354,19 @@ translate german strings:
     old "Посетитель"
     new "Besucher"
 
+# TODO: Translation updated at 2019-10-18 04:32
+
+translate german strings:
+
+    # game/00_Functions/07_init_renpy.rpy:52
+    old "Заключенные"
+    new "Gefangene"
+
+    # game/00_Functions/07_init_renpy.rpy:67
+    old "Эрик"
+    new "Eric"
+
+    # game/00_Functions/07_init_renpy.rpy:75
+    old "Мистер Эдвардс"
+    new "Mr. Edwards"
+

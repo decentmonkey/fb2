@@ -1786,3 +1786,43 @@ translate german strings:
     old "Позвать Бетти к Барди."
     new "Hole Betty zu Bardie."
 
+# TODO: Translation updated at 2019-10-18 04:32
+
+# game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1685
+translate german ep26_dialogues1_bardie10_27ac5b45:
+
+    # bardie "Хорошая..."
+    bardie "Gut..."
+
+# game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1712
+translate german ep26_dialogues1_bardie10_88b5e5c2:
+
+    # bardie "Протирай как следует, это твоя работа..."
+    bardie "Mach es sauber... mach deinen Job..."
+
+# game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1896
+translate german ep26_dialogues1_bardie12_e150214a:
+
+    # bardie "И ты еще не закончила решать мои проблемы в колледже..."
+    # bardie "Ты не забыла про них?"
+    bardie "Du bist noch nicht fertig, meine Probleme im College zu lösen..."
+    bardie "Hast du sie vergessen?"
+
+# game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1901
+translate german ep26_dialogues1_bardie12_ff30213d:
+
+    # betty "Я завтра пойду в колледж..."
+    betty "Ich gehe morgen in das College..."
+
+# game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1904
+translate german ep26_dialogues1_bardie12_f2060836:
+
+    # betty "..."
+    betty "..."
+
+translate german strings:
+
+    # game/Quests/EP2_06/ep26_dialogues1_bardie.rpy:1898
+    old "Я завтра пойду в колледж..."
+    new "Ich gehe morgen in das College..."
+

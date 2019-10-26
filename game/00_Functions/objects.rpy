@@ -26,7 +26,7 @@ init python:
             if canvas_offset != False:
                 obj_data["canvas_" + obj_prop_name] = canvas_offset
 
-        if asset_found == False:
+        if asset_found == False and (showObjectsNotOwner == True or checkObjectOwnerVisible(name, obj_data) == True):
             ui.text("Assets not found for " + name + "\nScene name: " + api_scene_name + "\n" + str(obj_base), size=40, xalign=0.5, yalign=0.5)
             renpy.pause()
         return obj_data
@@ -39,6 +39,8 @@ init python:
             room_name = api_scene_name
         obj_name = args[0]
         data = args[1]
+        if kwargs.has_key("owner") == True:
+            data["owner"] = kwargs["owner"]
         if len(args) > 2:
             conditions = args[2]
             data["conditions"] = conditions
@@ -102,7 +104,12 @@ init python:
         return
 
     def clear_scene_from_objects(scene):
-        scenes_data["objects"][scene] = {}
+        list1 = []
+        for key1 in scenes_data["objects"][scene]:
+            list1.append(key1)
+        for key1 in list1:
+            if key1 != "data":
+                del(scenes_data["objects"][scene][key1])
         return
 
 
@@ -368,7 +375,8 @@ label process_object_click(func_name, obj_name_source, obj_data_source):
         return
 #    $ print renpy.get_screen("say")
     if renpy.get_screen("say") != None or renpy.get_screen("choice") != None:
-        return
+        $ renpy.pop_call()
+        jump show_scene_loop2
     if scenes_data["substs"].has_key(scene_name) and scenes_data["substs"][scene_name].has_key(obj_name):
         if scenes_data["substs"][scene_name][obj_name] != False:
             $ func_name = scenes_data["substs"][scene_name][obj_name]
@@ -378,8 +386,9 @@ label process_object_click(func_name, obj_name_source, obj_data_source):
     $ interface_blocked_flag = True
     $ screenActionHappened = False
     $ act = obj_data["action"]
+#    $ print obj_data
     call process_hooks(obj_name, api_scene_name) from _call_process_hooks_10
-    if _return != False:
+    if _return != False and ((obj_data.has_key("owner") == False and owner == "Monica") or (obj_data.has_key("owner") == True and obj_data["owner"] == owner)):
         call expression func_name from _call_expression_1
         if _return != False:
             $ scene_refresh_flag = True
@@ -398,10 +407,8 @@ label process_object_click(func_name, obj_name_source, obj_data_source):
     $ show_scene_loop_flag = True
     $ parse_transition_flag = False
     call remove_dialogue() from _call_remove_dialogue
-    return
-#    jump show_scene
-
-#    return
+    $ renpy.pop_call()
+    jump show_scene_loop2
 
 label process_object_click_alternate_action(idx, actions_list, click_label, name, data):
 #    $ config.has_autosave = False
@@ -410,7 +417,8 @@ label process_object_click_alternate_action(idx, actions_list, click_label, name
     if interface_blocked_flag == True:
         return
     if renpy.get_screen("say") != None or renpy.get_screen("choice") != None:
-        return
+        $ renpy.pop_call()
+        jump show_scene_loop2
     if idx == 0:
         $ func_name = click_label
     else:
@@ -441,7 +449,7 @@ label process_object_click_alternate_action(idx, actions_list, click_label, name
     $ obj_name = name
     $ obj_data = data
     call process_hooks(obj_name, api_scene_name) from _call_process_hooks_11
-    if _return != False:
+    if _return != False and ((obj_data.has_key("owner") == False and owner == "Monica") or (obj_data.has_key("owner") == True and obj_data["owner"] == owner)):
         call expression func_name from _call_expression_2
         if _return != False:
             $ scene_refresh_flag = True
@@ -454,18 +462,19 @@ label process_object_click_alternate_action(idx, actions_list, click_label, name
     $ show_scene_loop_flag = True
     $ parse_transition_flag = False
     call remove_dialogue() from _call_remove_dialogue_1
-    return
-#    jump show_scene
-#    return
+    $ renpy.pop_call()
+    jump show_scene_loop2
 
 label process_object_click_alternate_inventory(idx, inventory_data, click_label, name, data):
 #    $ config.has_autosave = False
 #    $ config.autosave_on_choice = False
 
     if interface_blocked_flag == True:
-        return
+        $ renpy.pop_call()
+        jump show_scene_loop2
     if renpy.get_screen("say") != None or renpy.get_screen("choice") != None:
-        return
+        $ renpy.pop_call()
+        jump show_scene_loop2
     $ func_name = name + inventory_data["label_suffix"]
     $ shortFunction = True
     if renpy.has_label(func_name) == False:
@@ -493,5 +502,6 @@ label process_object_click_alternate_inventory(idx, inventory_data, click_label,
 #        jump show_scene
     $ show_scene_loop_flag = True
     $ parse_transition_flag = False
-    return
+    $ renpy.pop_call()
+    jump show_scene_loop2
 #    jump show_scene

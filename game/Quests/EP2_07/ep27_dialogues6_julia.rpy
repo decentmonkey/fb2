@@ -2,6 +2,8 @@ label ep27_dialogues6_julia0:
     menu:
         "Отношения с Юлией..." if juliaQuestLastDay != day:
             return 3
+        "Отношения с Юлией... (disabled)" if juliaQuestLastDay == day and juliaQuestStage0_Progress > 0:
+            pass
         "Заставить Юлию собрать отчеты вместо Моники." if monicaWorkFlashCardQuestActive == True and monicaWorkFlashCardNeedReportsAmount > monicaWorkFlashCardReportsCollected and monicaWorkFlashCardReportLastDay != day:
             return 2
         "Юлия, что там с отчетами, которые надо обработать сегодня?":
@@ -12,16 +14,18 @@ label ep27_dialogues6_julia0:
 
 label ep27_dialogues6_julia0b:
     menu:
-        "Ущипнуть Юлию за зад." if juliaQuestStage0_Progress >= 5:
-            return 5
-        "Поцеловать Юлию." if juliaQuestStage0_Progress >= 4:
-            return 4
-        "Сделать Юлии комплимент по поводу ее фигуры." if juliaQuestStage0_Progress >= 3:
-            return 3
-        "Юлия, ты красивая девушка и мне нравится твоя прическа..." if juliaQuestStage0_Progress >= 2:
-            return 2
         "Юлия... Ты сегодня хорошо выглядишь..." if juliaQuestStage0_Progress >= 1:
             return 1
+        "Юлия, ты красивая девушка и мне нравится твоя прическа..." if juliaQuestStage0_Progress >= 2:
+            return 2
+        "Сделать Юлии комплимент по поводу ее фигуры." if juliaQuestStage0_Progress >= 3:
+            return 3
+        "Поцеловать Юлию." if juliaQuestStage0_Progress >= 4:
+            return 4
+        "Ущипнуть Юлию за зад." if juliaQuestStage0_Progress >= 5:
+            return 5
+        "Выяснить, какого цвета трусики на Юлии сегодня" if juliaQuestStage1_Progress > 0 and juliaQuestMonicaRefusedFred == False:
+            return 6
         "Уйти.":
             return 0
     return

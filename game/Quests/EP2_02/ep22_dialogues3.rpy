@@ -509,8 +509,9 @@ label ep22_dialogues3_6:
     img 7584
     w
     img 7577
-    with fade
     w
+    img 7578
+    with fade
     bardie "Отличный вид, хе-хе!"
     img 7579
     w
