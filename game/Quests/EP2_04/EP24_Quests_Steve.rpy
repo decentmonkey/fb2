@@ -121,6 +121,11 @@ label ep24_quests_steve7:
 
     $ basementBedSkipUntilFridayEnabled = True
     $ add_hook("Ralph", "ep24_quests_steve34", scene="living_room", label="steve_ralph_visit2")
+
+    call question_helper_enable("question_steve_ask_ralph")
+
+    $ add_objective("ask_ralph", _("Спросить у Ральфа по поводу Стива."), c_white, 55)
+
 #    $ add_hook_day("ep24_quests_steve35", day=day+30)
 #    $ add_hook("monica_cleaning_end", "ep24_quests_bardie1", scene="global")
     return
@@ -196,6 +201,8 @@ label ep24_quests_steve13:
     $ basementBedSkipUntilFridayEnabled = False
     $ skipDaysInterrupted = True
     call ep24_dialogues3_steve10() from _call_ep24_dialogues3_steve10
+
+    $ remove_objective("wait_for_steve")
 #    $ cloth = "Governess"
 #    $ cloth_type = "Governess"
 #    call change_scene("floor1", "Fade_long", False)
@@ -500,6 +507,9 @@ label ep24_quests_steve34:
     call ep24_dialogues3_steve14() from _call_ep24_dialogues3_steve14
     if _return == False:
         return False
+    $ remove_objective("ask_ralph")
+    $ add_objective("wait_for_steve", _("Дождаться второго прихода Стива в субботу."), c_blue, 55)
+
     $ remove_hook(label="steve_ralph_visit2")
     if monicaCleaningInProgressEngineWorkingFlag == True:
         $ houseCleaningStoredScene2 = store_scene("House", recursive=True)
