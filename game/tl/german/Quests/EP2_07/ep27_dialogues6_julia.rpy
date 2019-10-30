@@ -586,8 +586,8 @@ translate german ep27_dialogues6_julia4_3afec51f:
     mt "In der Zwischenzeit ..."
     mt "Aber jetzt muss ich wohl tun, was er verlangt."
     mt "Am Ende ist es nicht so schwierig."
-    mt "Ich mache es {c} morgen Nachmittag {/ c}."
-    mt "Oder ich {c} lasse mir Zeit {/ c}."
+    mt "Ich mache es {c} morgen Nachmittag {/c}."
+    mt "Oder ich {c} lasse mir Zeit {/c}."
     mt "Fred sagte, ich kann darüber nachdenken."
 
 # game/Quests/EP2_07/ep27_dialogues6_julia.rpy:534

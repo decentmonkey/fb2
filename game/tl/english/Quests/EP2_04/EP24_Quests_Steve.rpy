@@ -34,3 +34,15 @@ translate english strings:
     old "Стив прислал деньги."
     new "Does Steve send the money?"
 
+# TODO: Translation updated at 2019-10-30 19:59
+
+translate english strings:
+
+    # game/Quests/EP2_04/EP24_Quests_Steve.rpy:127
+    old "Спросить у Ральфа по поводу Стива."
+    new "Ask Ralph about Steve."
+
+    # game/Quests/EP2_04/EP24_Quests_Steve.rpy:511
+    old "Дождаться второго прихода Стива в субботу."
+    new "Wait for Steve's second visit on Saturday."
+

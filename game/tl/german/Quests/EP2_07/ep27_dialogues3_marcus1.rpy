@@ -32,7 +32,7 @@ translate german ep27_dialogues_marcus1_1b_7c97686e:
     # mt "{c}Лучше придти туда днем{/c}."
     mt "Es ist dunkel."
     mt "Spät in der Nacht, finde ich nicht den Mut, dorthin zu gehen."
-    mt "{C} Es ist besser, am Nachmittag zurück zu kommen{/ c}."
+    mt "{c} Es ist besser, am Nachmittag zurück zu kommen{/c}."
 
 # game/Quests/EP2_07/ep27_dialogues3_marcus1.rpy:32
 translate german ep27_dialogues_marcus1_1c_68859321:

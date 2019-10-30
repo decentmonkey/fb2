@@ -34,3 +34,15 @@ translate german strings:
     old "Стив прислал деньги."
     new "Überweist Steve das Geld?"
 
+# TODO: Translation updated at 2019-10-30 20:03
+
+translate german strings:
+
+    # game/Quests/EP2_04/EP24_Quests_Steve.rpy:127
+    old "Спросить у Ральфа по поводу Стива."
+    new "Frage Ralph wegen Steve."
+
+    # game/Quests/EP2_04/EP24_Quests_Steve.rpy:511
+    old "Дождаться второго прихода Стива в субботу."
+    new "Warte auf Steves zweiten Besuch am Samstag."
+
