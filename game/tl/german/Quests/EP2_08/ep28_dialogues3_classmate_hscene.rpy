@@ -4468,3 +4468,517 @@ translate german strings:
     old "Поцеловать животик еще ниже."
     new "Küsse den Bauch noch weiter unten."
 
+# TODO: Translation updated at 2019-11-05 23:48
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2578
+translate german dialogue_classmate_11_14d6f12a:
+
+    # mt "Фуууу!!! Какая гадость!"
+    # mt "Какого черта?! Он меня испачкал!"
+    mt "Pah! Wie widerlich!"
+    mt "Was zur Hölle, er hat mich schmutzig gemacht!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2582
+translate german dialogue_classmate_11_965871fd:
+
+    # teacher "Я весьма рад, миссис Бейкер... Мы с вами весьма успешно закрыли проблему с Эриком."
+    teacher "Ich bin froh, Frau Baker... Sie und ich konnten die Sache mit Eric final abschließen."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2584
+translate german dialogue_classmate_11_da40a7db:
+
+    # mt "Он такой же извращенец, как и все."
+    # mt "Только притворяется благородным и высокоморальным."
+    # mt "А сам готов меня склонить к сексу!"
+    mt "Er ist auch nur ein Perverser wie alle Anderen auch."
+    mt "Er tut nur so moralisch und gut."
+    mt "Aber eigentlich will er mit mir schlafen!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2588
+translate german dialogue_classmate_11_16bd7868_1:
+
+    # mt "!!!" 
+    mt "!!!" 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2764
+translate german dialogue_classmate_14_08989483:
+
+    # m "Мистер Эдвардс, добрый день."
+    m "Herr Edwards, guten Tag."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2767
+translate german dialogue_classmate_14_35ef3d58:
+
+    # teacher "Здавствуйте, миссис Бейкер. Я вас ждал."
+    # teacher "Присаживайтесь."
+    teacher "Hallo, Frau Baker. Ich habe sie schon erwartet."
+    teacher "Setzen Sie sich."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2771
+translate german dialogue_classmate_14_9f158d29:
+
+    # m "Что натворил Эрик в этот раз, мистер Эдвардс?!" 
+    m "Was hat der Krippl Eric diesmal angestellt?" 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2773
+translate german dialogue_classmate_14_c97194a5:
+
+    # teacher "Вы не поверите, миссис Бейкер..."
+    # teacher "Он снова залез в шкафчик к тренеру по плаванью..."
+    # teacher "И сделал то же самое."
+    teacher "Das glauben sie nicht, Frau Baker..."
+    teacher "Er ist wieder in die Umkleide der Schwimmtrainerin..."
+    teacher "Und hat das Gleiche nochmal gemacht."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2777
+translate german dialogue_classmate_14_3c7a61f7:
+
+    # m "ЧТО?!" 
+    # m "!!!"
+    m "WAS?!" 
+    m "!!!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2780
+translate german dialogue_classmate_14_fa48eb9e:
+
+    # teacher "Да. Мисс Мэнсфилд это снова увидела." 
+    # teacher "У меня есть подозрения, что Эрик делает это постоянно."
+    # teacher "Просто Мисс Мэнсфилд это не всегда замечает."
+    teacher "Ja, und Frau Mansfield hat ihn wieder erwischt." 
+    teacher "Ich habe das Gefühl, Eric macht das andauernd."
+    teacher "Nur Frau Mansfield bemerkt es nicht immer."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2785
+translate german dialogue_classmate_14_e612037c:
+
+    # m "..."
+    m "..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2787
+translate german dialogue_classmate_14_a7e56dd7:
+
+    # teacher "В любом случае, Мисс Мэнсфилд была очень злая на него..."
+    teacher "Jedenfalls, sie ist richtig angepisst..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2789
+translate german dialogue_classmate_14_7a44ad52:
+
+    # m "Была?.."
+    m "Ach nein!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2791
+translate german dialogue_classmate_14_f7dce5d7:
+
+    # teacher "Да, она очень злилась. И я с ней уже договорился."
+    # teacher "Мне пришлось составить для нее несколько педагогических отчетов, но..."
+    teacher "Ja, wirklich sauer. Ich konnte aber schon einen Deal aushandeln."
+    teacher "Ich muss einige pädagogische Berichte für sie schreiben, jedoch..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2794
+translate german dialogue_classmate_14_da7b5d41:
+
+    # teacher "Как вы понимаете, миссис Бейкер, мне пришлось проделать огромную работу."
+    # teacher "Поэтому я надеюсь на особую благодарность с вашей стороны, миссис Бейкер."
+    teacher "Wie sie sich vorstellen können, Frau Baker, habe ich viel zu tun."
+    teacher "Also hoffe ich auf ein besonderes Entgegenkommen ihrerseits."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2797
+translate german dialogue_classmate_14_2ff02d68:
+
+    # mt "Ну вот, опять он начинает..." 
+    # mt "!!!"
+    # mt "С другой стороны, вопрос с мисс Мэнсфилд уже улажен..."
+    mt "Da geht’s wieder los..." 
+    mt "!!!"
+    mt "Ich dachte, die Sache mit der Mansfield wäre durch..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2801
+translate german dialogue_classmate_14_10150ab0:
+
+    # m "И что я должна сделать, мистер Эдвардс?" 
+    m "Was wollen sie, Herr Edwards?" 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2803
+translate german dialogue_classmate_14_b565f53b:
+
+    # mt "Учитель на этот раз все очень быстро решил."
+    # mt "И в итоге поставил меня перед фактом, что я ему должна."
+    # mt "Высокоморальная сволочь!"
+    mt "Diesmal konnte der Dozent schnell eine Lösung finden."
+    mt "Und dann kommt er mir mit, sie schulden mir was."
+    mt "Hochmoralbastard!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2808
+translate german dialogue_classmate_14_b4e4a854:
+
+    # teacher "Я уже видел вашу прекрасную грудь, миссис Бейкер."
+    # teacher "Теперь я хочу посмотреть на вашу попку..."
+    # teacher "И потрогать ее."
+    teacher "Ich habe ihre tollen Brüste ja schon gesehen, Frau Baker."
+    teacher "Jetzt will ich ihren Arsch sehen."
+    teacher "Und ihn berühren."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2813
+translate german dialogue_classmate_14_9a206bb2:
+
+    # m "Мистер Эдвардс, вам не кажется, что это уже слишком?!"
+    # m "Я не собираюсь показывать вам то, что у меня под шортами!"
+    m "Herr Edwards, denken sie nicht, dass das ein bisschen viel ist?!"
+    m "Ich werde ihnen sicher nicht zeigen, was in meinen Höschen ist!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2816
+translate german dialogue_classmate_14_4a8f1c29:
+
+    # mt "Ведь проблема уже решена. Зачем мне соглашаться на это?"
+    mt "Das Problem ist ja bereits gelöst. Warum sollte ich zustimmen?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2822
+translate german dialogue_classmate_14_b4ba22fe:
+
+    # m "Мистер Эдвардс, я не буду вам ничего показывать!"
+    # m "На этот раз вы зашли слишком далеко!"
+    m "Herr Edwards, ich zeige ihnen gar nichts!"
+    m "Diesmal sind sie zu weit gegangen!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2825
+translate german dialogue_classmate_14_a2f68da4:
+
+    # teacher "Миссис Бейкер, я же только посмотрю..."
+    teacher "Frau Baker, ich schaue nur kurz hin..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2828
+translate german dialogue_classmate_14_6e57c241:
+
+    # teacher "И совсем немного потрогаю..."
+    teacher "Und ein bisschen berühren..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2833
+translate german dialogue_classmate_14_a8fc74a1:
+
+    # m "Не смей прикасаться ко мне, извращенец!!!"
+    m "Wagen sie es nicht, sie Perverser!!!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2840
+translate german dialogue_classmate_14_19a6addf:
+
+    # teacher "АААААА!"
+    teacher "AAAAAAH!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2842
+translate german dialogue_classmate_14_9955b089:
+
+    # m "И только попробуй предложить мне еще раз подобное!"
+    # m "Весь колледж узнает о том, какая ты озабоченная сволочь!"
+    m "Wagen sie es nicht, mir nochmal sowas anzubieten!"
+    m "Das ganze College wird erfahren, was für ein Lüstling sie sind!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2848
+translate german dialogue_classmate_14_2dae72d0:
+
+    # m "Я не занимаюсь такими вещами, мистер Эдвардс!"
+    m "Ich mache sowas nicht, Herr Edwards!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2850
+translate german dialogue_classmate_14_d74102ba:
+
+    # teacher "Мисс Мэнсфилд может и передумать..." 
+    # teacher "..."
+    teacher "Frau Mansfield könnte ihre Meinung ändern..." 
+    teacher "..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2859
+translate german dialogue_classmate_14_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2861
+translate german dialogue_classmate_14_a7415560:
+
+    # m "Я не собираюсь этого делать!!!"
+    m "Das werde ich nicht tun!!!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2863
+translate german dialogue_classmate_14_9a32897d:
+
+    # teacher "Я сделал все зависящее от меня..." 
+    # teacher "Пошел на такие жертвы..."
+    teacher "Ich habe mein Bestes getan..." 
+    teacher "Solche Opfer gebracht..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2866
+translate german dialogue_classmate_14_24e57b72:
+
+    # teacher "И очень быстро все уладил."
+    # teacher "И все ради вас, миссис Бейкер!"
+    teacher "Und alles schnell geklärt."
+    teacher "Alles nur für sie..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2869
+translate german dialogue_classmate_14_63253b7b:
+
+    # m "..." 
+    m "..." 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2871
+translate german dialogue_classmate_14_ba16a3ca:
+
+    # mt "Учитель может сделать так, что о дебильном поступке Эрика узнают все."
+    # mt "Тогда Барди точно разозлится и устроит мне массу проблем."
+    mt "Er könnte allen von Erics dummer Aktion erzählen."
+    mt "Dann würde Bardie durchdrehen und ich hätte großen Ärger am Hals."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2874
+translate german dialogue_classmate_14_235fe018:
+
+    # mt "Если потрогать мою изумительную попу - это все о чем он просит..."
+    # mt "Возможно, после этого он отстанет от меня..."
+    mt "Wenn es nur das Berühren meines tollen Hinterns ist, was er will..."
+    mt "Vielleicht lässt er mich danach in Ruhe?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2888
+translate german dialogue_classmate_14_cfed87e3:
+
+    # W
+    W
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2890
+translate german dialogue_classmate_14_676dca4f:
+
+    # mt "Я, Моника Бакфетт, стою с голым задом перед учителем в колледже!"
+    # mt "Какой кошмар!!!"
+    mt "Ich, Monica Buckfett, soll mit blankem Hintern vor einem Collegedozenten stehen?"
+    mt "Was für ein Alptraum!!!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2894
+translate german dialogue_classmate_14_80f02cf4:
+
+    # teacher "Миссис Бейкер, я не видел ничего красивее в своей жизни!"
+    teacher "Frau Baker, ich habe noch nie sowas Schönes gesehen!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2896
+translate german dialogue_classmate_14_2198f9a0:
+
+    # mt "Еще бы! Об этой попе мечтают миллионы мужчин!"
+    # mt "Знал бы он, кто я такая на самом деле..."
+    mt "Natürlich nicht! Millionen Männer träumen von meinem Hintern!"
+    mt "Wenn er nur wüsste, wer ich wirklich bin..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2906
+translate german dialogue_classmate_14_9766b765:
+
+    # m "Этого можно было и не делать, мистер Эдвардс!"
+    # m "В них и так все прекрасно видно было!" 
+    m "Das hätten sie nicht tun müssen, Herr Edwards!"
+    m "Alles war darin gut zu sehen!" 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2914
+translate german dialogue_classmate_14_7d138bf9:
+
+    # m "Ай, что вы делаете?!" 
+    m "Ah, was machen sie?" 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2919
+translate german dialogue_classmate_14_99bc6f29:
+
+    # m "Ч-что вы д-делаете?! Нет-нет!!!"
+    # m "Остановитесь, м-мы договаривались не так!"
+    m "W-w-was machen sie da?! Nein!"
+    m "Stopp! W-w-wir haben das so nicht besprochen!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2922
+translate german dialogue_classmate_14_4686f1bc:
+
+    # mt "Что этот извращенец творит?! Как он смеет так поступать со мной?!"
+    mt "Was macht der Perverse da? Was tut er mir an?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2927
+translate german dialogue_classmate_14_8deb8434:
+
+    # m "!!!"
+    # m "Прекратите это немедленно!"
+    # m "Мистер Эдвардс!!!"
+    m "!!!"
+    m "Hören sie damit auf!"
+    m "Herr Edwards!!!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2938
+translate german dialogue_classmate_14_a0a1fc15:
+
+    # mt "!!!"
+    # mt "Фу, неужели ему приятно делать такие мерзкие вещи?!"
+    mt "!!!"
+    mt "Argh, genießt er sowas etwa?!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2941
+translate german dialogue_classmate_14_4cad0cfb:
+
+    # mt "Это так... Так щекотно..."
+    # mt "..."
+    mt "Das ist... Das kitzelt..."
+    mt "..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2947
+translate german dialogue_classmate_14_2dbc4c1e:
+
+    # m "Ай! Нет!"
+    # m "Прекратите!!!"
+    # m "Уберите сейчас же!"
+    m "Ah, Nein!"
+    m "Hören sie auf!!!"
+    m "Nehmen sie das weg!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2956
+translate german dialogue_classmate_14_ba2e0eb9:
+
+    # mt "Боже, что же мне делать?"
+    # mt "Мне надо остановить его!"
+    mt "Gott, was mache ich?"
+    mt "Ich muss ihn stoppen!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2960
+translate german dialogue_classmate_14_48635fcd:
+
+    # mt "Надо... Остановить."
+    mt "Muss ihn... stopppen..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2962
+translate german dialogue_classmate_14_ddf4f1ff:
+
+    # mt "Сейчас же..."
+    # mt "Почему такое чувство, как-будто... Как-будто..."
+    mt "Jetzt..."
+    mt "Warum fühlt sich das so an?... So wie..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2968
+translate german dialogue_classmate_14_42b91956:
+
+    # mt "Что за странное ощущение?"
+    # mt "Не понимаю, что со мной... Надо прекратить это немедленно..."
+    mt "Was für ein komisches Gefühl?"
+    mt "Was ist los mit mir? Ich muss das sofort..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2973
+translate german dialogue_classmate_14_d9ef911e:
+
+    # m "Мне это совсем не нравится! Не смейте этого делать!"
+    # m "Прекратите!!!"
+    m "Ich mag das nicht! Hören sie auf damit!"
+    m "Hören sie auf!!!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2976
+translate german dialogue_classmate_14_4777105e:
+
+    # teacher "Да, конечно, миссис Бейкер... Еще несколько минут и я прекращу..."
+    teacher "Natürlich Frau Baker... nur noch ein paar Minuten, dann höre ich auf..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2980
+translate german dialogue_classmate_14_7b357f78:
+
+    # m "АААА!"
+    # m "НЕЕЕЕТ!"
+    m "AHHH!"
+    m "NEEEEEIN!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2987
+translate german dialogue_classmate_14_f4aeaf75:
+
+    # mt "Черт! Черт!"
+    mt "Fuck! Fuck!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2989
+translate german dialogue_classmate_14_77579664:
+
+    # m "Ах!"
+    m "Ah!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2991
+translate german dialogue_classmate_14_4b5bfad2:
+
+    # mt "Я чувствую ЭТО в себе!!!"
+    # mt "Черт! Нет!"
+    # m "!!!"
+    mt "Ich fühle ES in mir!!!"
+    mt "Fuck! NEIN!"
+    m "!!!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2996
+translate german dialogue_classmate_14_f36cfa2a:
+
+    # m "Ох!"
+    m "Oh!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2998
+translate german dialogue_classmate_14_5473d4a2:
+
+    # mt "Какое непонятное чувство... Что-то внизу живота и... ТАМ!"
+    # mt "Что он со мной делает?!"
+    # mt "Я хочу, чтобы он... Ах! ...чтобы он остановился!"
+    mt "Was für ein seltsames Gefühl... Irgendwas in meinem Unterlaib... DA!"
+    mt "Was macht er mit mir?!"
+    mt "Ich will... Ah! Mach, dass es aufhört!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3005
+translate german dialogue_classmate_14_0a5616b8_1:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3009
+translate german dialogue_classmate_14_4d98c3f0:
+
+    # mt "Фуууу!!! Он испачкал меня!"
+    # mt "Долбанный высокоморальный извращенец!!! Что он натворил?!"
+    mt "Pah! Er hat alles verschmiert!"
+    mt "Ein verdammter Hochmoralperverser!!! Was hat er getan?!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3012
+translate german dialogue_classmate_14_9cddd8ef:
+
+    # mt "!!!"
+    # mt "..."
+    # mt "Чувствую себя также непонятно, как после вылизываний Барди и его друга..."
+    mt "!!!"
+    mt "..."
+    mt "Ich fühle mich so benommen, wie als Bardie und sein Freund mich geleckt haben..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3016
+translate german dialogue_classmate_14_2ef4b43a:
+
+    # mt "..."
+    # mt "Похоже это нервный срыв из-за всего за последнее время...!"
+    mt "..."
+    mt "Ich glaube, ich habe einen Nervenzusammenbruch von all dem neulich..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3020
+translate german dialogue_classmate_14_44a29407:
+
+    # teacher "Я весьма рад такой благодарности от вас, миссис Бейкер!"
+    # teacher "Я давно хотел это сделать."
+    teacher "Ich bin sehr froh über ihre Einstellung, Frau Baker!"
+    teacher "Darauf habe ich schon lange gewartet."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3024
+translate german dialogue_classmate_14_cc70c083:
+
+    # mt "Он занялся со мной сексом (!!!) в классе, где сидят студенты!"
+    # mt "Я не хочу больше видеть этого учителя! Никогда! Ненавижу его!"
+    # mt "Ненавижу их всех! Больше никому не позволю прикасаться ко мне!!!"
+    # mt "!!!"
+    mt "Er hatte Sex mit mir (!!!) im Kursraum, da wo die Studenten sitzen!"
+    mt "Ich will ihn nie wieder sehen! Nie! Wieder! Ich hasse ihn!"
+    mt "Ich hasse sie alle! Ich werde nie wieder jemanden mich berühren lassen!!!"
+    mt "!!!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3029
+translate german dialogue_classmate_14_6d147674:
+
+    # teacher "Надеюсь, мы с вами еще увидимся, миссис Бейкер?" 
+    teacher "Werden wir uns wieder sehen, Frau Baker?" 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3032
+translate german dialogue_classmate_14_0a5616b8_2:
+
+    # mt "!!!"
+    mt "!!!"
+
