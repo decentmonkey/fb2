@@ -46,6 +46,12 @@ label start:
     $ hooks_stack = []
     $ inventory_objects = {}
     $ inventory = []
+
+
+
+
+    #call ep29_dialogues1_julia_10()
+
     call intro_questions() from _call_intro_questions
     $ ralphAskedAboutPayment = False
     $ add_objective("ask_ralph", _("Узнать у Ральфа по поводу оплаты"), c_orange, 13)

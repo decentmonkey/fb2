@@ -62,7 +62,7 @@ label ep29_dialogues1_julia_2:
     m "Юлия!" # тоном Я ТУТ БОСС
     m "..."
     julia "Да, Миссис Бакфетт..."
-    music Power_Bots_Loop
+    music Groove2_85
     img 22296
     with fade
     m "Хм..."
@@ -81,6 +81,7 @@ label ep29_dialogues1_julia_2:
     m "Ты должна справляться с любыми поставленными задачами, если это потребуется!"
     m "Ты понимаешь, о чем я говорю, Юлия?!"
     julia "Да, Миссис Бакфетт..." # испуганно
+    music Power_Bots_Loop
     img 22299
     with diss
     m "Тогда почему я дважды должна повторять, что ты должна посмотреть, что с моим компьютером?!" # переходит на крик
@@ -162,7 +163,6 @@ label ep29_dialogues1_julia_2:
     w
     sound vjuh3
     img 22315
-    with fade
     w
     img 22316
     with diss
@@ -177,7 +177,7 @@ label ep29_dialogues1_julia_2:
     # Юлия поворачивает голову и видит, что Моника подглядывает
     sound Jump1
     img 22319
-    with fade
+    with vpunch
     julia "Миссис Бакфетт! Что Вы делаете?!"
     # Юлия резко выпрямляется, Моника растерянно
     music Hidden_Agenda
@@ -198,7 +198,7 @@ label ep29_dialogues1_julia_2:
     w
     sound Jump1
     img 22324
-    with fade
+    with hpunch
     julia "Миссис Бакфетт!!!"
     # потом Моника делает вид, что ничего не произошло
     music Groove2_85
@@ -235,7 +235,6 @@ label ep29_dialogues1_julia_2:
     julia "Я не знаю, что еще можно нажать..."
     julia "Я могу спросить у программиста, Миссис Бакфетт..."
     # Моника рассержена
-    music Power_Bots_Loop
     img 22333
     with diss
     m "!!!"
@@ -243,6 +242,7 @@ label ep29_dialogues1_julia_2:
     with fade
     m "У программиста я и сама могу спросить, Юлия!"
     m "А тебе ничего нельзя поручить!"
+    music Power_Bots_Loop
     img 22335
     with diss
     m "!!!"
@@ -418,6 +418,7 @@ label ep29_dialogues1_julia_4:
     img 22351
     with fade
     julia "!!!"
+    music Groove2_85
     img 22352
     with diss
     m "Принести мне горячего кофе - это тоже сложная задача для тебя?!" # также строго
@@ -477,7 +478,7 @@ label ep29_dialogues1_julia_4:
     with fade
     w
     img 22362
-    with diss
+    with hpunch
     mt "!!!"
     mt "Какого черта?!"
     img 22363
@@ -494,7 +495,7 @@ label ep29_dialogues1_julia_4:
     mt "..."
     menu:
         "Послушать, что он скажет дальше.":
-            music Groove2_85
+            music Sneaky_Snitch
             img 22367
             with fade
             w5 "Миссис Бакфет, Вы всегда можете на меня рассчитывать."
@@ -529,7 +530,7 @@ label ep29_dialogues1_julia_4:
             m "!!!"
             m "Ты слишком много разговариваешь! Иди работай!!!"
             # подхалим, ничуть не смутившись
-            music Groove2_85
+            music Sneaky_Snitch
             img 22373
             with fade
             w5 "Да, конечно, Миссис Бакфетт. Я понимаю, что Вам некогда."
@@ -549,7 +550,7 @@ label ep29_dialogues1_julia_4:
             with fade
             m "Я не знала, что в ваши обязанности входит работать моей помощницей!"
             m "Выйди и закрой за собой дверь!!!"
-            music Groove2_85
+            music Sneaky_Snitch
             img 22377
             with diss
             w5 "Хорошо, Миссис Бакфетт. Понимаю, Вы очень заняты."
@@ -611,12 +612,12 @@ label ep29_dialogues1_julia_4:
     mt "ААААААААРРРГХХХХХ!!!"
     mt "Как меня достал этот мерзкий тип!!!"
     mt "!!!"
+    music Groove2_85
     img 22387
     with diss
     mt "Никчемные сотрудники!!! Все они никчемные!!! Бесполезные!!!"
     mt "Когда верну себе свое место босса, вышвырну отсюда всех этих бездельников!!!"
     mt "!!!"
-    music Groove2_85
     img 22388
     with fade
     mt "Теперь мне снова нужно придумывать какой-нибудь способ заглянуть Юлии под платье!"
@@ -670,7 +671,7 @@ label ep29_dialogues1_julia_5:
     julia "Хорошо, Миссис Бакфетт. Во сколько будет совещание?"
     music Power_Bots_Loop
     img 22397
-    with diss
+    with hpunch
     m "Прямо сейчас, Юлия!"
     m "Давай быстрее!"
     sound highheels_run2
@@ -708,7 +709,7 @@ label ep29_dialogues1_julia_5:
     sound vjuh3
     music Sneaky_Snitch
     img 22402
-    with diss
+
     w
     img 22403
     with diss
@@ -869,11 +870,11 @@ label ep29_dialogues1_julia_5:
     with diss
     m "..."
     m "Даже не знаю. Можно взять любой пример..."
-    sound vjuh3
+    #sound vjuh3
     img 22430
     with fade
     m "Что бы придумать?"
-    sound vjuh3
+    #sound vjuh3
     img 22431
     with diss
     m "Хм... Даже не знаю..."
@@ -885,23 +886,24 @@ label ep29_dialogues1_julia_5:
     with diss
     m "Точно! Допустим, вам нужно узнать, какого цвета трусики носит моя помощница Юлия!"
     # Юлия в шоке
+    # сменить музыку
     img 22434
     with vpunch
     julia "!!!"
     julia "М-миссис Бакфетт!"
     # Моника ее игнорит, отворачивается от нее и смотрит вопросительно на Джона и Грету. Те тоже в шоке
     img 22435
-    with diss
+
     w6 "!!!"
     w5 "!!!"
     img 22436
-    with diss
+
     w
     #sound Юлия вскакивает, падает стул
-    sound Jump1
+
     sound down9
     img 22437
-    with fade
+    with vpunch
     w
     # Грета первая приходит в себя, смотрит на Юлию
     music Sneaky_Snitch
@@ -973,7 +975,7 @@ label ep29_dialogues1_julia_5:
             with fade
             m "Нет, нельзя!" # сердито
             m "Занимайся своей работой и не отвлекай меня!"
-
+            music Groove2_85
             img 22451
             with diss
             mt "Эта Юлия задает слишком много вопросов!"
@@ -1015,6 +1017,7 @@ label ep29_dialogues1_julia_6:
     with fadelong
     w5 "Миссис Бакфетт! Вы, как всегда, великолепно выглядите!"
     w5 "Хотите кофе?"
+    music Groove2_85
     m "Нет. Я хотела узнать, выполнено ли мое задание?" # строго
     img 22456
     with diss
@@ -1045,6 +1048,7 @@ label ep29_dialogues1_julia_7:
     img 22460
     with fadelong
     w6 "Миссис Бакфетт..."
+    music Groove2_85
     m "Как идет выполнение моего задания?" # строго
     img 22461
     with fade
@@ -1072,7 +1076,7 @@ label ep29_dialogues1_julia_7:
 
 # Грета приходит к Юлии, когда в кабинете нет Моники.
 label ep29_dialogues1_julia_8:
-    music Groove2_85
+    music Sneaky_Snitch
     img 22465
     with fadelong
     w6 "Юлия..." # смущенно, стоит перед ее столом
@@ -1083,6 +1087,7 @@ label ep29_dialogues1_julia_8:
     w6 "..."
     w6 "Хм..."
     w6 "Понимаешь, я тут провожу опрос среди наших сотрудников. Психологический опрос."
+    music Groove2_85
     img 22467
     with diss
     julia "Психологический опрос? Зачем?"
@@ -1162,6 +1167,7 @@ label ep29_dialogues1_julia_8:
     julia "Так, а причем здесь мое нижнее белье?!"
     julia "Ты все это затеяла, чтобы выполнить задание Миссис Бакфетт?!"
     julia "Не могу поверить!.."
+    music Groove2_85
     img 22484
     with diss
     w6 "Юлия..."
@@ -1179,10 +1185,11 @@ label ep29_dialogues1_julia_8:
     img 22487
     with fade
     w6 "Юлия, просто скажи мне цвет и все. Это же несложно."
-    music Power_Bots_Loop
+    music Groove2_85
     img 22488
     with diss
     julia "Нет. У меня много работы, Грета. Извини."
+
     sound highheels_short_walk
     img 22489
     with fade
@@ -1205,6 +1212,7 @@ label ep29_dialogues1_julia_9:
     w5 "Юлия, ты сегодня прекрасно выглядишь!" # уверенно, с широкой улыбкой
     w5 "Не составишь мне компанию за чашечкой кофе?"
     w5 "Ты работаешь у нас в отделе уже давно, а мы с тобой так и не познакомились поближе."
+    music Groove2_85
     img 22493
     with fade
     julia "Поближе?" # удивленно
@@ -1214,7 +1222,7 @@ label ep29_dialogues1_julia_9:
     with diss
     w5 "Как скажешь, Юлия."
     w5 "Слушай, у меня к тебе есть небольшое дело..."
-    music Power_Bots_Loop
+
     img 22495
     with fade
     julia "Какое?" # подозрительно
@@ -1225,9 +1233,11 @@ label ep29_dialogues1_julia_9:
     w5 "У них завтра планируется фотосессия."
     w5 "Но там с моделью какие-то проблемы..."
     w5 "В общем, есть вероятность срыва съемки из-за нее."
+
     img 22497
     with fade
     julia "А я тут причем?" # подозрительно
+    music Loved_Up
     img 22498
     with diss
     w5 "..."
@@ -1251,6 +1261,7 @@ label ep29_dialogues1_julia_9:
     w5 "Я рад, что ты согласилась! Не переживай!"
     w5 "Это несложно, Юлия. Фотограф тебе все объяснит."
     w5 "И костюм для съемки тебе выдадут..."
+    music Groove2_85
     img 22503
     with diss
     w5 "..."
@@ -1298,11 +1309,12 @@ label ep29_dialogues1_julia_9:
     with diss
     w5 "Хорошо, Юлия. Успокойся."
     w5 "Тогда просто скажи мне цвет и все. Это же несложно."
-    music Power_Bots_Loop
+    music Groove2_85
     img 22512
     with fade
     julia "Нет!"
     julia "У меня много работы, Джон. Извини."
+
     sound man_steps
     img 22513
     with diss
@@ -1336,11 +1348,14 @@ label ep29_dialogues1_julia_10:
     w5 "Мне кажется, что такие шутки не в стиле Миссис Бакфетт, Грета..."
     w6 "Ну или она проверяет, насколько мы глупы."
     w6 "Поймем ли, что на такие глупые задания нельзя тратить свое рабочее время..."
+
     img 22519
     with diss
     w6 "Потом еще и накажет нас, что на работе занимаемся всякой ерундой..."
     w5 "..."
+    music Hidden_Agenda
     sound highheels_short_walk
+
     img 22520
     with fade
     w5 "А мне кажется, что она хочет проверить нашу стрессоустойчивость."
@@ -1355,6 +1370,7 @@ label ep29_dialogues1_julia_10:
     img 22523
     with fade
     w
+    music Groove2_85
     img 22524
     with diss
     w6 "Джон, а с другой стороны, Миссис Бакфетт работает в модном журнале..."
@@ -1389,6 +1405,7 @@ label ep29_dialogues1_julia_10:
     with diss
     w6 "Уверена, что Миссис Бакфетт действительно нуждается в личном помощнике."
     w6 "Ведь у нее так много обязанностей в нашей компании."
+    music Groove2_85
     img 22531
     with fade
     w6 "Но ты можешь не мечтать об этой должности!"
@@ -1396,15 +1413,14 @@ label ep29_dialogues1_julia_10:
     w6 "То есть Я!"
     w6 "!!!"
     # Джон крайне удивлен такому заявлению, начинают спорить
-    music Sneaky_Snitch
+    music Power_Bots_Loop
     img 22532
-    with diss
     w5 "???"
     w5 "Почему ты так считаешь? Уверен, что она имела ввиду МЕНЯ!"
     img 22533
-    with fade
     w6 "Нет, МЕНЯ!"
     w6 "И вообще, у меня больше шансов выполнить задание с трусиками Юлии!"
+    music Groove2_85
     img 22534
     with diss
     w5 "С чего бы это?!"
@@ -1414,12 +1430,11 @@ label ep29_dialogues1_julia_10:
     w6 "Вот увидишь! Я прямо сейчас пойду и все выясню!"
     w6 "!!!"
     img 22536
-    with fade
     w5 "!!!"
     music Turbo_Tornado
     img 22537
     with diss
-    sound running
+    #sound running - изменить
     #sound убегают наперегонки
     w
     # разворачивается и идет в сторону кабинета Моники, подхалим бежит за ней, обгоняет ее
@@ -1465,46 +1480,49 @@ label ep29_dialogues1_julia_10:
     #sound падает стул
     w
     img 22546
-    with diss
+
     sound Jump1
     #sound Юлия заскакивает на стол
     julia "Хватит!" # Юлия в шоке
     music Power_Bots_Loop
+    sound down9
     img 22547
     with diss
     julia "!!!"
     img 22548
     with fade
     julia "Я не собираюсь никому ничего рассказывать!"
+    music Groove2_85
     w5 "Ну покажи!"
     img 22549
     with diss
     w6 "Она не будет тебе показывать! А мне покажет! Да, Юлия?"
+    # сменить музыку
     img 22550
     with vpunch
     julia "Конечно, нет!!!"
     music Turbo_Tornado
     img 22551
-    with fade
+
     #sound Грета хватает за платье
     sound vjuh3
     w
     w6 "!!!"
     img 22552
-    with diss
+
     sound vjuh3
     w5 "!!!"
     # Грета тянется рукой к юбке Юлии, та отстраняется
-    music Power_Bots_Loop
+
+    sound Jump1
     img 22553
     with fade
-    sound Jump1
     julia "!!!"
     julia "Вы совсем ненормальные?!"
     julia "Не трогайте меня!"
     img 22554
-    with diss
-    sound vjuh2
+
+    sound Jump1
     #sound Юлия перепрыгивает столик (вжик!)
     w
     img 22555
@@ -1513,7 +1531,7 @@ label ep29_dialogues1_julia_10:
     julia "Я сегодня же пожалуюсь Миссис Бакфетт на вас!"
     julia "!!!"
     # Юлия убегает из кабинета, они смотрят ей вслед, потом друг на друга
-    music Sneaky_Snitch
+    music Groove2_85
     img 22556
     with fade
     w6 "!!!"
