@@ -47,11 +47,14 @@ label start:
     $ inventory_objects = {}
     $ inventory = []
 
-
-
-
-
-    #call dialogue_classmate_14()
+    #call ep29_dialogues3_melanie_monica_victoria_3b()
+    #call ep29_dialogues3_melanie_monica_victoria_1()
+    #call ep29_dialogues3_melanie_monica_victoria_2()
+    #call ep29_dialogues3_melanie_monica_victoria_3()
+    #call ep29_dialogues3_melanie_monica_victoria_3a()
+    #call ep29_dialogues3_melanie_monica_victoria_3c()
+    #call ep29_dialogues3_melanie_monica_victoria_4()
+    #call ep29_dialogues3_melanie_monica_victoria_5()
 
 
     call intro_questions() from _call_intro_questions

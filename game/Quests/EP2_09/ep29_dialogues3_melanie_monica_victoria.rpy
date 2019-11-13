@@ -7,51 +7,81 @@
 # в кабинет к Монике приходит Мелани
 label ep29_dialogues3_melanie_monica_victoria_3b:
     # Моника смотрит на Мелани удивленно
+    music ZigZag
     img 15409
+    with fadelong
     w
+    sound highheels_short_walk
     img 15410
+    with fade
     m "Мелани? Ты ко мне?"
+    music Master_Disorder
     img 15411
+    with diss
     mt "Мелани не просто так зашла ко мне в гости. Что-то случилось."
     mt "Надеюсь, это не касается Маркуса!"
     mt "!!!"
     # Мелани равнодушно
+    music ZigZag
     img 15412
+    with fade
     melanie "Миссис Бакфетт. Я сейчас была на встрече с нашим общим хорошим другом..."
     # Моника явно напугана
+    music Master_Disorder
     img 15413
+    with diss
     mt "!!!"
+    sound Jump1
     img 15414
+    with diss
     m "Нашим общим д-другом?"
+    music ZigZag
     img 15415
+    with fade
     melanie "Да, Миссис Бакфетт. Этот человек хочет сегодня встретиться с нами."
     img 15416
+    with diss
     mt "!!!"
     img 15417
+    with fade
     w
     img 15418
+    with diss
     melanie "Встреча состоится вечером у меня."
     melanie "В Ваших же интересах, Миссис Бакфетт, присутствовать на встрече..."
     # Моника смотрит на Мелани ошарашенно
     img 15419
+    with fade
     julia "???"
     img 15420
+    with diss
     melanie "..."
+    music Master_Disorder
     img 15421
+    with fade
     mt "Встреча с Маркусом?!"
     mt "У Мелани дома?!"
     img 15422
+    with diss
     mt "Сегодня?!"
     mt "!!!"
     # Юлия заинтересованно наблюдает за их диалогом
     # Моника смотрит на Юлию, потом снова на Мелани, берет себя в руки
     img 15423
+    with fade
     w
+    music ZigZag
     img 15424
+    with diss
     m "Я поняла, Мисс Мелани. Я приду вечером."
     img 15425
+    with fade
     melanie "Договорились, Миссис Бакфетт."
     # Мелани уходит
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
     # у Моники в заданиях появляется "Пойти вечером к Мелани домой на встречу с 'другом'"
     $ log1 = _("Пойти вечером к Мелани домой на встречу с 'другом'")
     return
@@ -79,17 +109,20 @@ label ep29_dialogues3_melanie_monica_victoria_7:
     return
 
 # мысли Моники
+# не рендерить!!!
 label ep29_dialogues3_melanie_monica_victoria_7a:
 # Моника пытается пойти к Мелани в красивом платье
     mt "Думаю, мне стоит надеть что-то более простое..."
     mt "В прошлый раз я была у Мелани в одежде шлюхи. Сегодня тоже нужно надеть его."
     return
 
+# не рендерить!!!
 label ep29_dialogues3_melanie_monica_victoria_7b:
 # Моника пытается пойти к Мелани в любой другой одежде, кроме одежды шлюхи
     mt "В прошлый раз я была у Мелани в одежде шлюхи. Сегодня тоже нужно надеть его."
     return
 
+# не рендерить!!!
 label ep29_dialogues3_melanie_monica_victoria_7c:
 # Моника пытается лечь спать
     mt "Я, конечно, могу не ехать к Мелани, но..."
@@ -108,74 +141,131 @@ label ep29_dialogues3_melanie_monica_victoria_7c:
 # Автоматически включается сцена в гримерке у Мелани, после нее управление переходит на Мелани
 label ep29_dialogues3_melanie_monica_victoria_1:
     # Мелани сидит перед зеркалом в гримерке, поправляет макияж кистью для мейкапа
+    music ZigZag
     img 15392
+    with fadelong
     w
     img 15393
+    with fade
     melanie_t "Я выгляжу какой-то уставшей..."
     melanie_t "Мне нужно взять несколько выходных и отдохнуть."
     img 15394
+    with diss
     melanie_t "Возможно, стоит полететь на острова... Океан, пальмы, никаких папарацци..."
-    melanie_t "Нужно будет подойти к Бифу, попросить у него небольшй отпуск."
+    melanie_t "Нужно будет подойти к Бифу, попросить у него небольшой отпуск."
     img 15395
+    with diss
     melanie_t "Он не сможет мне отказать."
     melanie_t "Еще ни один мужчина не отказывал мне. И Биф не станет первым..."
     # в гримерку заходит серкретарша Бифа
+    music stop
+    img black_screen
+    with diss
+    sound highheels_run1
+    pause 2.0
+    music Groove2_85
     img 15386
+    with fadelong
     secretary "Мисс Мелани..."
     # Мелани поворачивается к ней
     img 15387
+    with diss
     melanie "Да?"
     img 15388
+    with fade
     secretary "Сейчас звонила Мисс Виктория."
     # Мелани вопросительно смотрит на нее
     img 13932
+    with diss
     melanie "И что Мисс Виктория сказала?"
     img 13930
+    with fade
     secretary "Она просила передать Вам, что она сегодня ждет Вас у себя."
     secretary "Она сказала, что это очень срочно."
     # Мелани смотрит на секретаря вопросительно
     img 15389
+    with diss
     melanie "Говорила ли Мисс Виктория еще что-нибудь?"
     img 15390
+    with fade
     secretary "Нет, Мисс Мелани. Она только сказала, что это очень срочно."
     img 15391
+    music Master_Disorder
+    with diss
     melanie "..."
+
+### меню выбора взято из другого диалога
+
+    menu:
+        "Идти на встречу с Викторией":
+            pass
+        "Отказаться от встречи (пропуск всех событий с Викторией)":
+            music Groove2_85
+            img 13932
+            with fade
+            melanie "Если эта девочка еще раз позвонит, то передайте ей, что у меня нет времени на это." #+
+            img 13933
+            with diss
+            secretary "Хорошо, Мисс Мелани, я передам."
+            return False
+###
+    music ZigZag
     img 13929
+    with fade
     melanie "Спасибо. Я проведаю Мисс Викторию сегодня."
     melanie "Вы можете идти."
     # секретарша уходит, Мелани поворачивается снова к зеркалу и задумчиво смотрит на свое отражение
+    music stop
+    img black_screen
+    with diss
+    sound highheels_run1
+    pause 2.0
+    music Master_Disorder
     img 13935
+    with fade
     melanie_t "Что этой мерзкой Мисс Виктории снова нужно от меня?"
     melanie_t "Почему Я должна ехать к ней по первому же ее звонку?"
     melanie_t "..."
     # Мелани снова берет в руки кисть для мейка и проводит ею по скуле
     img 15396
+    with diss
     melanie_t "Эта мелкая стерва возомнила себя самой умной и хитрой..."
     melanie_t "Нужно будет придумать, как поставить ее на место."
     img 15397
+    with fade
     melanie_t "Кто она вообще такая, чтобы вести себя со МНОЙ подобным образом?"
     melanie_t "Нужно во что бы то ни стало лишить эту сучку возможности шантажировать меня."
     img 15398
+    with diss
     melanie_t "Если я узнаю, кто снабжает ее моими фотографиями, шпионя за мной..."
     melanie_t "То у меня будет хоть какая-то зацепка. Я смогу договориться с этим папарацци."
     img 13936
+    with diss
     melanie_t "Уверена, что все дело в деньгах."
     melanie_t "..."
     # положила кисть на столик, поправляет прическу
+    music ZigZag
     img 15399
+    with fade
     melanie_t "Конечно, проще всего было бы соблазнить Дика."
     melanie_t "В моих силах сделать так, чтобы он вышвырнул эту сучку на улицу..."
     img 15400
+    with diss
     melanie_t "Где он ее и подобрал, я так полагаю."
     melanie_t "Но ведь она сидит и охраняет Дика, как цепной пес."
     img 13935
+    with diss
     melanie_t "Хм... Интересно, Дик вообще ходит куда-нибудь без нее?"
     melanie_t "Нужно будет узнать об этом."
     # Мелани смотрит на себя в зеркало
+    music Power_Bots_Loop
     img 15401
+    with fade
     melanie_t "А пока мне придется поехать к этой мелкой сучке..."
     melanie_t "И узнать, что взбрело ей в голову на этот раз."
+    music ZigZag
     img 15402
+    with diss
     melanie_t "Сейчас мне нужно ехать в офис Дика."
     # встает со стула
     $ log1 = _("Пойти в офис Дика и узнать, что нужно Виктории")
@@ -242,6 +332,8 @@ label ep29_dialogues3_melanie_monica_victoria_1l:
     # смотрит на секретаря Бифа (глазик)
     melanie_t "Секретарю Бифа не помешало бы сходить к косметологу. Нельзя же себя так запускать..."
     return
+
+
 label ep29_dialogues3_melanie_monica_victoria_1m:
     # смотрит на секретаря Бифа (разговор, когда Бифа нет на месте)
     melanie "Биф у себя?"
@@ -249,6 +341,8 @@ label ep29_dialogues3_melanie_monica_victoria_1m:
     melanie "Нет, спасибо. Я позже сама с ним поговорю."
     melanie_t "Бифа сложно застать на рабочем месте. Такое ощущение, что он сюда приходит только выпить виски по вечерам..."
     return
+
+
 label ep29_dialogues3_melanie_monica_victoria_1n:
     # смотрит на секретаря Бифа (разговор, когда Биф на работе, вечером после посещения офиса Дика)
     melanie "Биф у себя?"
@@ -319,6 +413,8 @@ label ep29_dialogues3_melanie_monica_victoria_1y:
     # смотрит на секретаря на ресепшене (глазик)
     melanie_t "Она неплохо выглядит... В отличие от секретарши Бифа."
     return
+
+
 label ep29_dialogues3_melanie_monica_victoria_1z:
     # смотрит на секретаря на ресепшене (разговор)
     reception_secretary "Здравствуйте, Мисс Мелани!"
@@ -447,156 +543,246 @@ label ep29_dialogues3_melanie_monica_victoria_1ss:
 # Мелани поднимается на лифте в приемную Дика
 label ep29_dialogues3_melanie_monica_victoria_2:
     # Виктория сидит за своим рабочим столом с самодовольным видом
-    img 15454
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 2.0
+    music m80s_Things
+    img 15454    # секретарь ресепшн на первом этаже у Дика
+    with fadelong
     w
-    img 15455
+    sound highheels_short_walk
+    img 15455   # секретарь ресепшн на первом этаже у Дика
+    with fade
     w
+    music stop
+    img black_screen
+    with diss
+    sound snd_lift
+    pause 2.0
+    music ZigZag
     img 15456
+    with fade
     w
     img 15457
+    with diss
     melanie "Мисс Виктория, мне передали, что вы просили меня приехать к вам..."
     # Виктория смотрит на нее с недоброй ухмылкой
+    music Groove2_85
     img 15458
+    with fade
     victoria "Подружка, мне кажется, что ты не рада меня видеть..."
     victoria "Хорошие подружки так себя не ведут."
     victoria "Давай сделаем вид, что ты ничего мне сейчас не говорила. И ты подойдешь снова."
     # Мелани смотрит на нее непроницаемым взглядом
+    music ZigZag
     img 15459
+    with diss
     melanie "..."
     menu:
         "Сделать, как требует Виктория":
             pass
     img 15460
+    with diss
     melanie_t "Мне было бы приятно видеть ее лицо не здесь..."
     melanie_t "Например, на обложке журнала Фермы 218 она смотрелась бы неплохо."
     # разворачивается, отходит от стола, потом подходит снова
     # Виктория внимательно наблюдает за ней
     # Мелани с каменным лицом
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 2.0
+    music ZigZag
     img 15461
+    with fadelong
     w
+    sound highheels_short_walk
     img 15462
+    with fade
     w
     img 15463
+    with diss
     melanie "Виктория, здравствуй. Я рада нашей встрече."
+    music Groove2_85
     img 15464
+    with diss
     victoria "Уже лучше."
     victoria "Хорошие подружки целуются при встрече. Потому что действительно рады встрече."
     img 15465
+    with fade
     victoria "..."
     victoria "Ты же хорошая подружка?"
     # Мелани молча смотрит на нее
+    music ZigZag
     img 15466
+    with diss
     melanie "..."
     img 15467
+    with fade
     melanie_t "Эта сучка откровенно издевается надо мнойю."
     melanie_t "Сейчас я поиграю по ее правилам..."
     img 15468
+    with diss
     melanie_t "Она ведь не просто так позвала меня."
     melanie_t "Нужно узнать, что она хочет."
     melanie_t "Но я не оставлю подобное поведение безнаказанным..."
     img 15469
+    with diss
     menu:
         "Подойти к Виктории и поцеловать ее":
             pass
     # Мелани подходит и целует Виктория в щеку, та самодовольно улыбается
+    sound highheels_short_walk
     img 15470
+    with fade
     w
     img 15471
+    with diss
     w
+    music Loved_Up
     img 15472
+    with fade
+    sound snd_kiss2
     w
     img 15473
+    with diss
     victoria "Подружка соскучилась по мне?"
     # Мелани отходит от Викториии снова встает перед ее столом, сверлит ее взглядом
+    music Groove2_85
     img 15474
+    with fade
     melanie "..."
     img 15475
+    with diss
     victoria "Я не слышу ответа..."
     victoria "Возможно, я ошибаюсь и ты не моя подружка?"
     victoria "Ты не соскучилась по мне?"
+    music ZigZag
     img 15476
+    with fade
     melanie "Конечно, соскучилась... Подружка."
     # Виктория довольно хихикает
+    music Loved_Up
     img 15477
+    with diss
+    sound snd_woman_laugh3
     victoria "Раз ты так скучаешь по мне, подружка..."
     victoria "То, так уж и быть, я найду время, чтобы навестить тебя сегодня."
     victoria "Я приду к тебе вечером в гости."
     img 15478
+    with fade
     victoria "И еще я хочу, чтобы вторая наша подружка тоже пришла."
     victoria "Уверена, она тоже соскучилась по мне. Как ты думаешь?"
     # Мелани удивленно приподнимает бровь
+    sound Power_Bots_Loop
     img 15479
+    with diss
     melanie "Ко мне в гости?"
     melanie "..."
+    music Hidden_Agenda
     img 15480
+    with fade
     victoria "Да. Я тут подумала, что ни разу не была у тебя в гостях."
     victoria "А подружки ходят друг другу в гости и устраивают девичники."
     img 15481
+    with diss
     victoria "Сегодня вечером я хочу устроить девичник с моими хорошими подружками."
     victoria "Ты ведь рада, что я приду к тебе в гости?"
     victoria "Ты же хорошая подружка?"
     # Мелани молчит
+    music Master_Disorder
     img 15482
+    with fade
     melanie "..."
     img 15483
+    with diss
     menu:
         "Согласиться на предложение Виктории":
+            music Master_Disorder
             img 15484
+            with fade
             melanie_t "Она явно что-то задумала..."
             melanie_t "Узнать это можно только одним способом - согласиться, чтобы она пришла ко мне."
             img 15485
+            with diss
             melanie_t "Эта мелкая сучка не напугает меня, как бы она не старалась."
             melanie_t "Она ничего мне не сделает. Она и может только, что угрожать и все. На большее она не способна."
             pass
         "Отказаться":
+            music ZigZag
             img 15486
+            with fade
             melanie "Cегодня вечером я буду занята."
             melanie "Меня не будет дома."
             # Виктория хмурится и пристально смотрит на Мелани
+            music Hidden_Agenda
             img 15487
+            with diss
             victoria "Подружка хочет сказать, что у нее нет времени на меня?"
             img 15466
+            with fade
             melanie "..."
             img 15488
+            with diss
             victoria "Хорошая подружка отменила бы все свои планы."
             victoria "Иначе она может поссориться со мной."
+            music Master_Disorder
             victoria "И тогда о ее маленькой тайне узнает один наш общий друг..."
             img 15489
+            with fade
             melanie "..."
             img 15490
+            with diss
             victoria "Подружка же не хочет со мной ссориться?"
             melanie_t "Чертова интриганка."
             pass
     # Мелани равнодушно
+    music ZigZag
     img 15491
+    with fade
     melanie "Я хорошая подружка и буду ждать тебя сегодня в гости."
     # Виктория довольно улыбается
+    music Groove2_85
     img 15492
+    with diss
     victoria "Я очень расстроюсь, если вторая наша подружка не придет сегодня."
     victoria "Я тогда подумаю, что она не соскучилась по мне."
     victoria "Как ты думаешь, ведь вторая подружка не захочет меня расстраивать?"
     # Мелани с покерфейсом
+    music ZigZag
     img 15493
+    with fade
     melanie "..."
     melanie "Я уверена, что она с радостью с тобой встретится."
     # Виктория хихикает
+    sound snd_woman_laugh3
     img 15494
+    with diss
     victoria "Не могу дождаться нашей встречи!"
     # Мелани бросает взгляд на дверь Дика, Виктория это видит и хмурит брови
     img 15495
+    with fade
     w
+    music Groove2_85
     img 15496
+    with diss
     victoria "Ты можешь идти, подружка."
     victoria "Я понимаю, что ты с радостью повторила бы нашу встречу в этом кабинете..."
     victoria "Поэтому ты туда так смотришь. Но не расстраивайся. Мы увидимся сегодня вечером."
     # молча смотрят друг на друга
+    music Master_Disorder
     img 15497
+    with fade
     w
     img 15464
+    with diss
     victoria "До встречи, подружка."
     victoria "Я принесу тебе подарок сегодня."
     victoria "И не только тебе..."
     img 15466
+    with fade
     melanie "..."
     # Мелани бросает на нее непроницаемый взгляд, разворачивается и уходит
     # в заданиях появляется "Вернуться в студию и поговорить с Миссис Бакфетт"
@@ -615,23 +801,42 @@ label ep29_dialogues3_melanie_monica_victoria_2a:
 label ep29_dialogues3_melanie_monica_victoria_3:
     # подхалим подрывается с места, системный администратор подскакивает, все остальные смотрят на Мелани с изумлением
     # подхалим подбегает к Мелани
+    music stop
+    img black_screen
+    with diss
+    sound highheels_run1  #изменить звук - бег нескольких человек
+    pause 2.0
+    music m80s_Things
     img 15403
+    with fadelong
     w
+    music Sneaky_Snitch
     img 15404
+    with fade
     w5 "Мисс Мелани! Вы великолепно выглядите!"
     w5 "Я так рад Вас видеть в моем... нашем отделе!"
     img 15405
+    with diss
     w5 "Желаете, я проведу Вам небольшую экскурсию?"
     w5 "Расскажу немного о нашей работе..."
     w5 "И угощу Вас чашечкой великолепного кофе!"
     # системный администратор смотрит на нее, открыв рот взглядом, как у Эрика
+    music ZigZag
     img 15406
+    with fade
     w2 "!!!"
     # Мелани смотрит на него, потом на подхалима и, игнорируя его предложения, спрашивает
     img 15407
+    with diss
     melanie "Миссис Бакфетт у себя?"
+    music Sneaky_Snitch
     img 15408
+    with fade
     w5 "Да, Мисс Мелани. Она у себя в кабинете. Я провожу Вас!"
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
     # подхалим ведет ее через офис и открывает ей дверь в кабинет Моники, та заходит
     # Моника сидит за своим столом со скучающим видом и "работает", Юлия как всегда вся в работе
     return
@@ -639,20 +844,37 @@ label ep29_dialogues3_melanie_monica_victoria_3:
 # кабинет Моники, Мелани зашла в кабинет
 label ep29_dialogues3_melanie_monica_victoria_3a:
     # Мелани появляется в кабинете Моники
+    music ZigZag
+    img 15409
+    with fadelong
     melanie_t "Миссис Бакфетт не так уж и плохо тут устроилась."
     melanie_t "По ней не скажешь, что она особо здесь перерабатывает."
     melanie_t "Хотя... Заметно, что ей здесь откровенно скучно..."
+    w
+    sound highheels_short_walk
+    img 15410
+    with fade
+    m "Мелани? Ты ко мне?"
+    music stop
+    img black_screen
+    with Dissolve(2.0)
     # затемнение экрана, надпись "Несколько минут спустя..."
     return
 
 # кабинет Моники, Мелани выходит из кабинета
 label ep29_dialogues3_melanie_monica_victoria_3c:
     # Мелани выходит из кабинета Моники
+    img black_screen
+    with Dissolve(2.0)
+    music Master_Disorder
     img 15426
+    with fadelong
     melanie_t "Миссис Бакфетт явно напугана..."
     melanie_t "Теперь она точно придет ко мне."
     melanie_t "..."
+    music ZigZag
     img 15427
+    with fade
     melanie_t "Сейчас мне нужно поговорить с Бифом."
     melanie_t "Мне понравилась моя идея насчет небольшого отпуска."
     melanie_t "Думаю, он мне не откажет..."
@@ -663,84 +885,126 @@ label ep29_dialogues3_melanie_monica_victoria_3c:
 # Мелани заходит в кабинет Бифа
 label ep29_dialogues3_melanie_monica_victoria_4:
     # Биф, как обычно, сидит за столом с бутылкой алкоголя
+    music Groove2_85
     img 15428
+    with fadelong
     w
     img 15429
+    with fade
     biff "А! Моя лучшая цыпочка пришла!"
     biff "Чем порадуешь папочку сегодня?"
+    music ZigZag
     img 15430
+    with diss
     melanie_t "У него вокруг одни цыпочки... Как это пошло..."
+    sound highheels_short_walk
     img 15431
+    with fade
     melanie "Биф, я хотела поговорить с тобой."
     melanie "Надеюсь, ты мне не откажешь..."
     # смотрит на него заигрывающе, Биф сидит расплывается в улыбке
+    music Groove2_85
     img 15432
+    with diss
     biff "Цыпочка что-то хотела попросить у меня?"
     biff "Говори. Папочка сегодня добрый."
+    music Hidden_Agenda
     img 15433
+    with fade
     melanie "..."
+    sound Jump1
     img 15434
+    with diss
     melanie "Возможно, ты позволишь мне..."
     melanie "Взять несколько выходных дней и немного отдохнуть?"
+    music Groove2_85
     img 15435
+    with fade
     biff "Цыпочка устала? Конечно, папочка позволит ей отдохнуть!"
     biff "..."
     biff "Только цыпочка сначала сделает фотосессию!"
     img 15436
+    with diss
     melanie "Какую фотосессию?"
     img 15437
+    with fade
     biff "Мне нужны фотографии для следующего номера журнала."
     biff "И я хочу видеть на этих фотографиях твое лицо, цыпочка..."
     img 15438
+    with diss
     biff "И не только лицо..."
     biff "У цыпочки есть, что показать в объектив камеры."
     # Мелани приподнимает бровь удивленно
+    music ZigZag
     img 15439
+    with fade
     melanie "..."
+    music Groove2_85
     img 15440
+    with diss
     biff "В прошлый раз я просил тебя сделать фотосессию."
     biff "А ты сама не стала в ней сниматься."
     img 15441
+    with fade
     biff "Поэтому мне сейчас нужны именно твои фотографии."
     biff "А не той цыпочки, которая притворяется Моникой Бакфетт."
+    music ZigZag
     img 15442
+    with diss
     melanie_t "Хм... Я надеялась, что его устроят фотографии Миссис Бакфетт..."
     img 15443
+    with fade
     melanie "В каком костюме нужно провести съемку?"
+    music Groove2_85
     img 15444
+    with diss
     biff "Мне нравится твой костюм с красными трусиками..."
     img 15445
+    with diss
     biff "Хочу увидеть тебя в нем на фотографиях!"
     melanie "..."
     img 15446
+    with fade
     biff "Сделай эту фотосессию и можешь взять несколько выходных."
     biff "Папочка добрый, папочка разрешает."
     # сидит с видом "хозяин мира", улыбается
+    music ZigZag
     img 15447
+    with diss
     menu:
         "Согласиться на фотосессию":
             pass
         "Отказаться (пропуска фотосессии)":
+            music ZigZag
             img 15448
+            with fade
             melanie_t "Он намекнул, что ему нужны откровенные фотографии..."
             melanie_t "В этом костюме с трусиками другие фотографии и не получатся..."
             melanie_t "..."
             melanie_t "Думаю, Биф обойдется без этих фотографий."
             img 15449
+            with diss
             melanie "Биф, я пока не совсем готова к фотосессии..."
             melanie "Я ее сделаю, но позже..."
             img 15450
+            with diss
             melanie_t "... возможно."
             img 12847
+            with fade
             biff "Папочка добрый, поэтому разрешает тебе подумать."
             return False # пропуск фотосессии, сразу в гримерку, оттуда домой на девичник
     img 15448
+    with fade
     melanie_t "Что ж... У меня как раз есть время до встречи с мелкой дрянью Викторией."
     img 15451
+    with diss
     melanie "Хорошо, Биф. Я сделаю, как ты хочешь." # без эмоций
+    music Groove2_85
     img 15452
+    with fade
     biff "Хорошая цыпочка. Папочка цыпочкой очень доволен."
     img 15453
+    with diss
     melanie_t "Нужно пойти в фотостудию. Надеюсь, Алекс на месте."
     # в заданиях появляется "Провести фотосессию"
     $ log1 = _("Провести фотосессию")
@@ -749,62 +1013,100 @@ label ep29_dialogues3_melanie_monica_victoria_4:
 # Мелани заходит в фотостудию
 label ep29_dialogues3_melanie_monica_victoria_5:
     # Алекс на своем рабочем месте
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 2.0
+    music Groove2_85
     img 22583
+    with fadelong
     alex_photograph "Мелани! Надеюсь, ты пришла поработать со мной?"
     img 22584
+    with fade
     melanie "Да, Алекс. Сегодня у нас фотосессия."
     menu:
         "Переодеться":
             pass
+
+    sound highheels_short_walk
     img 22585
+    with diss
     # появляется окно выбора костюма, там только один (с красными трусиками)
     melanie "Я сейчас переоденусь и вернусь."
     # через несколько минут
     # в студии появляется Мелани в костюме, Алекс смотрит на нее как на богиню
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 2.0
+    music ZigZag
     img 22586
+    with fade
+    sound highheels_short_walk
     alex_photograph "Мелани! Ты великолепна!!!"
     img 22587
+    with diss
     melanie_t "Мне не нравится идея фотосессии в этом костюме."
     melanie_t "Он практически ничего не прикрывает."
     melanie_t "Надо сказать Алексу, чтобы не брал откровенных ракурсов."
     # Мелани бросает на него взгляд и идет на съемочную площадку
+    music Hidden_Agenda
     img 22588
+    with fade
     melanie "Алекс?"
     alex_photograph "Да, Мелани?"
     melanie "Ты все еще хочешь, чтобы мои фотографии появились в твоей личной коллекции?"
     # Алекс воодушевленно
     img 22589
+    with diss
     alex_photograph "Конечно, Мелани! Я давно мечтаю об этом! Так ты согласна?"
     melanie "Алекс, я обещаю подумать об этом. При одном условии."
     alex_photograph "???"
     img 22590
+    with fade
     melanie "Мое условие простое, Алекс."
     melanie "Никаких откровенных ракурсов на этой фотосессии."
     melanie "Тогда я обдумаю возможность согласиться на твое предложение..."
+    music Groove2_85
     img 22591
+    with diss
     alex_photograph "Мелани! Ты можешь не переживать! Я сделаю все, как ты скажешь!"
     melanie "Отлично, Алекс. У меня мало времени. Приступим?"
     # Мелани принимает первую позу
     img 22592
+    with fade
     alex_photograph "Итак, мотор!"
 
 
     # после окончания фотосессии
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    music Groove2_85
     img 22645
+    with fadelong
     alex_photograph "Мы закончили, Мелани! Ты была просто великолепна!!!"
     melanie "..."
     alex_photograph "Мелани, ты подумаешь над моим предложением?"
     # Мелани смотрит на него пристально
+    music ZigZag
     img 22646
+    with fade
     melanie "Я уже подумала, Алекс."
     melanie "Я не могу себе позволить сотрудничать с фотографом..."
     melanie "Который так пренебрежительно относится к моим просьбам."
     img 22647
+    with diss
     alex_photograph "Мелани... Но ведь я..."
     img 22648
+    with diss
     melanie "Алекс, ответ 'нет'."
     melanie "Я не хочу больше ничего слышать о твоей личной коллекции."
     img 22649
+    with fade
     alex_photograph "Но..."
     melanie "Надеюсь, ты доволен сегодняшней фотосессией..."
     melanie "..."

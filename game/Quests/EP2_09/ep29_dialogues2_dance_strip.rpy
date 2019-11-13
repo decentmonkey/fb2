@@ -80,7 +80,7 @@ label dialogue_5_dance_strip_2:
     # переключение на движок
 
 
-label dialogue_5_dance_strip_2:
+label dialogue_5_dance_strip_2a:
     # нажатие на Молли
     # к Монике поворачивается рыжая, смотрит на нее неприветливо
     img 22664
