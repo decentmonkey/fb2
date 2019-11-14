@@ -336,6 +336,7 @@ label ep29_dialogues3_melanie_monica_victoria_1l:
 
 label ep29_dialogues3_melanie_monica_victoria_1m:
     # смотрит на секретаря Бифа (разговор, когда Бифа нет на месте)
+    #img
     melanie "Биф у себя?"
     secretary "К сожалению, Мисс Мелани, он будет только вечером. Что-нибудь ему передать?"
     melanie "Нет, спасибо. Я позже сама с ним поговорю."
@@ -345,6 +346,7 @@ label ep29_dialogues3_melanie_monica_victoria_1m:
 
 label ep29_dialogues3_melanie_monica_victoria_1n:
     # смотрит на секретаря Бифа (разговор, когда Биф на работе, вечером после посещения офиса Дика)
+    #img
     melanie "Биф у себя?"
     secretary "Да, Мисс Мелани. Проходите."
     melanie "Спасибо."
@@ -417,10 +419,12 @@ label ep29_dialogues3_melanie_monica_victoria_1y:
 
 label ep29_dialogues3_melanie_monica_victoria_1z:
     # смотрит на секретаря на ресепшене (разговор)
+    #img
     reception_secretary "Здравствуйте, Мисс Мелани!"
     reception_secretary "Я так рада Вас видеть!"
     reception_secretary "Вы, как всегда, великолепно выглядите!"
     melanie "Спасибо."
+    #img
     reception_secretary "Вы пришли к Мистеру Дику? Он как раз у себя."
     reception_secretary "Уверена, что Мистер Дик будет рад Вашему визиту! Я могу проводить Вас, Мисс Мелани."
     melanie "Это совсем необязательно. Я помню, где находится кабинет Мистера Дика."
