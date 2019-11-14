@@ -419,15 +419,26 @@ label ep29_dialogues3_melanie_monica_victoria_1y:
 
 label ep29_dialogues3_melanie_monica_victoria_1z:
     # смотрит на секретаря на ресепшене (разговор)
-    #img
+    img 15454
+    w
+    img 15455
+    w
+    img 15713
+    w
+    img 15714
     reception_secretary "Здравствуйте, Мисс Мелани!"
     reception_secretary "Я так рада Вас видеть!"
     reception_secretary "Вы, как всегда, великолепно выглядите!"
+    img 15715
     melanie "Спасибо."
-    #img
+    img 13940
     reception_secretary "Вы пришли к Мистеру Дику? Он как раз у себя."
     reception_secretary "Уверена, что Мистер Дик будет рад Вашему визиту! Я могу проводить Вас, Мисс Мелани."
+    img 15716
+    w
+    img 15717
     melanie "Это совсем необязательно. Я помню, где находится кабинет Мистера Дика."
+    img 15718
     melanie_t "Не хватало еще, чтобы мелкая сучка сказала что-нибудь унизительное мне при этой женщине."
     return
 
