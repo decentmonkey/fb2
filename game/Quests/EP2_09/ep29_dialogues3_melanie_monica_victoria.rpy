@@ -337,13 +337,18 @@ label ep29_dialogues3_melanie_monica_victoria_1l:
 label ep29_dialogues3_melanie_monica_victoria_1m:
     # смотрит на секретаря Бифа (разговор, когда Бифа нет на месте)
     #img
+    music Groove2_85
     img 15801
+    with fade
     melanie "Биф у себя?"
     img 15802
+    with diss
     secretary "К сожалению, Мисс Мелани, он будет только вечером. Что-нибудь ему передать?"
     img 15803
+    with fade
     melanie "Нет, спасибо. Я позже сама с ним поговорю."
     img 15804
+    with diss
     melanie_t "Бифа сложно застать на рабочем месте. Такое ощущение, что он сюда приходит только выпить виски по вечерам..."
     return
 
@@ -351,11 +356,15 @@ label ep29_dialogues3_melanie_monica_victoria_1m:
 label ep29_dialogues3_melanie_monica_victoria_1n:
     # смотрит на секретаря Бифа (разговор, когда Биф на работе, вечером после посещения офиса Дика)
     #img
+    music Groove2_85
     img 15805
+    with fade
     melanie "Биф у себя?"
     img 15802
+    with diss
     secretary "Да, Мисс Мелани. Проходите."
     img 15803
+    with fade
     melanie "Спасибо."
     return
 
@@ -426,26 +435,27 @@ label ep29_dialogues3_melanie_monica_victoria_1y:
 
 label ep29_dialogues3_melanie_monica_victoria_1z:
     # смотрит на секретаря на ресепшене (разговор)
-    img 15454
-    w
-    img 15455
-    w
-    img 15713
-    w
+    music ZigZag
     img 15714
+    with fade
     reception_secretary "Здравствуйте, Мисс Мелани!"
     reception_secretary "Я так рада Вас видеть!"
     reception_secretary "Вы, как всегда, великолепно выглядите!"
     img 15715
+    with diss
     melanie "Спасибо."
     img 13940
+    with fade
     reception_secretary "Вы пришли к Мистеру Дику? Он как раз у себя."
     reception_secretary "Уверена, что Мистер Дик будет рад Вашему визиту! Я могу проводить Вас, Мисс Мелани."
     img 15716
+    with diss
     w
     img 15717
+    with diss
     melanie "Это совсем необязательно. Я помню, где находится кабинет Мистера Дика."
     img 15718
+    with fade
     melanie_t "Не хватало еще, чтобы мелкая сучка сказала что-нибудь унизительное мне при этой женщине."
     return
 
@@ -576,6 +586,9 @@ label ep29_dialogues3_melanie_monica_victoria_2:
     sound highheels_short_walk
     img 15455   # секретарь ресепшн на первом этаже у Дика
     with fade
+    w
+    img 15713
+    with diss
     w
     music stop
     img black_screen
@@ -996,7 +1009,7 @@ label ep29_dialogues3_melanie_monica_victoria_4:
     menu:
         "Согласиться на фотосессию":
             pass
-        "Отказаться (пропуска фотосессии)":
+        "Отказаться (пропуск фотосессии)":
             music ZigZag
             img 15448
             with fade

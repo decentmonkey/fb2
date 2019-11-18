@@ -7,7 +7,7 @@ label dialogue_5_dance_strip_1:
     # выбор Моники: отработать на сцене
     # Моника шокирована, что ей нужно будет танцевать, как стриптизерше, да еще и на сцене
     music2 pub_noise1_low
-    music Groove2_85
+    music Villainous_Treachery
     img 22650
     with fadelong
     mt "На сцене?!" # растерянно
@@ -19,7 +19,7 @@ label dialogue_5_dance_strip_1:
     with diss
     ashley "Никаких 'но'!" # раздраженно
     ashley "Или ты идешь на сцену или убираешься отсюда!"
-    music RnB3_65
+    music Villainous_Treachery
     img 22652
     with fade
     m "Как я буду танцевать? Я... Я не смогу..."
@@ -129,6 +129,7 @@ label dialogue_5_dance_strip_2a:
     with diss
     w
     # и отворачивается
+    music Villainous_Treachery
     img 22668
     with fade
     stripper "Увижу тебя рядом со своими вещами - скажу Джо, что ты у меня украла что-нибудь." # не глядя на Монику
@@ -278,7 +279,7 @@ label dialogue_5_dance_strip_3:
     with fade
     joe "Ну хорошо. Сегодня на сцену можешь не выходить."
     joe "Эшли я скажу, что ты будешь отрабатывать долг, начиная с завтрашнего дня."
-    joe "{c}Приходи завтра{/c}."
+    joe "{c}Приходи завтра{/c}"
     joe "Будет работать Клэр. Она тебе даст что-нибудь из одежды."
     # Джо отворачивается, продолжает свою работу. Моника сердито
     music stop

@@ -2256,7 +2256,7 @@ label dialogue_classmate_8:
     teacher "Она осталась не совсем довольна тем, что мою методику преподавания ей нужно дорабатывать."
     teacher "Но мисс Мэнсфилд согласна подождать, когда я закончу работу."
     teacher "Только после этого она согласна забыть про случай с Эриком."
-    music ZigZag
+    music Groove2_85
     img 15008
     with fade
     m "Когда вы сможете закончить эту работу, мистер Эдвардс?"
@@ -2269,7 +2269,7 @@ label dialogue_classmate_8:
     with fade
     teacher "..."
     teacher "Знаете, миссис Бейкер... Мне очень сложно отдавать свои труды мисс Мэнсфилд..."
-    music ZigZag
+    music Groove2_85
     img 15011
     with diss
     m "???"
@@ -2303,7 +2303,7 @@ label dialogue_classmate_8:
             m "Я не буду этого делать!!!"
             return False
         "Постараться договориться с учителем без этих извращений.":
-            music ZigZag
+            music Groove2_85
             img 15018
             with fade
             m "Мистер Эдвардс, я не хочу, чтобы вы трогали меня!"
@@ -2329,7 +2329,7 @@ label dialogue_classmate_8:
     with fade
     mt "Это отвратительно! Почему все вокруг хотят сделать со мной что-то непристойное?!"
     mt "!!!"
-    music ZigZag
+    music Groove2_85
     img 15022
     with diss
     mt "С другой стороны, если он просто потрогает немного... А я как-нибудь перетерплю это, то..."
@@ -2385,7 +2385,7 @@ label dialogue_classmate_8:
     img black_screen
     with diss
     pause 2.0
-    music ZigZag
+    music Groove2_85
     img 14998
     with fade
     mt "Черт! Мне снова нужно будет приходить сюда!"
@@ -2515,7 +2515,7 @@ label dialogue_classmate_8_2:
     with diss
     mansfield "Не знаю, зачем вы так за него заступаетесь..."
     teacher "Он... Я..." #растерянно
-    music ZigZag
+    music Groove2_85
     img 22580
     with fade
     mansfield "Надеюсь, вас за это хорошо отблагодарили, мистер Эдвардс."
@@ -2614,7 +2614,7 @@ label dialogue_classmate_11:
     with diss
     teacher "Но, благодаря вам, миссис Бейкер, я превзошел сам себя и доделал свою методику." #улыбаясь
     teacher "Теперь она точно будет довольна!"
-    music ZigZag
+    music Groove2_85
     img 14954
     with fade
     mt "Наконец-то, проблема решена!"
@@ -2627,7 +2627,7 @@ label dialogue_classmate_11:
     img 15041
     with hpunch
     mt "!!!" #удивленно
-    music ZigZag
+    music Groove2_85
     img 15042
     with fade
     m "Я очень рада, что у вас все получилось с вашей работой, мистер Эдвардс, но..."
@@ -2717,7 +2717,7 @@ label dialogue_classmate_11:
             m "Я не буду этого делать!!!"
             return False
         "Постараться договориться с учителем без этих извращений.":
-            music ZigZag
+            music Groove2_85
             img 15018
             with fade
             m "Я не занимаюсь такими вещами, мистер Эдвардс!"
@@ -2830,7 +2830,7 @@ label dialogue_classmate_11:
     img 15385
     with diss
     mt "!!!" #смотрит на него зло
-    music ZigZag
+    music Groove2_85
     img 14994
     with fade
     m "Проблема с Эриком точно решена, мистер Эдвардс?"
@@ -3207,7 +3207,7 @@ label dialogue_classmate_14:
             # Моника уходит
             return False
         "Постараться договориться с учителем без этих извращений.":
-            music ZigZag
+            music Groove2_85
             img 15321
             with fade
             m "Я не занимаюсь такими вещами, мистер Эдвардс!"
@@ -3221,7 +3221,7 @@ label dialogue_classmate_14:
             pass
 
     # Моника злится
-    music ZigZag
+    music Groove2_85
     img 15323
     with fade
     mt "!!!"
@@ -3237,7 +3237,7 @@ label dialogue_classmate_14:
     with diss
     teacher "И очень быстро все уладил."
     teacher "И все ради вас, миссис Бейкер!"
-    music ZigZag
+    music Groove2_85
     img 15327
     with fade
     m "..." #зло смотрит
@@ -3320,7 +3320,7 @@ label dialogue_classmate_14:
     with diss
     m "Ай, что вы делаете?!" # удивленно
     # учитель продолжает, потом встает, кладет ей руку на спину и наклоняет ее на свой стол, затем снова тянется к ее попе и целует ягодицы, потом начинает лизать ее киску
-    music ZigZag
+    music Groove2_85
     img 15345
     with fade
     w
@@ -3488,7 +3488,7 @@ label dialogue_classmate_14:
     mt "!!!"
     mt "..."
     mt "Чувствую себя также непонятно, как после вылизываний Барди и его друга..."
-    music ZigZag
+    music Groove2_85
     img 15377
     with fade
     mt "..."
