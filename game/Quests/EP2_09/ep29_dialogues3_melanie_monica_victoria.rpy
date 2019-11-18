@@ -337,9 +337,13 @@ label ep29_dialogues3_melanie_monica_victoria_1l:
 label ep29_dialogues3_melanie_monica_victoria_1m:
     # смотрит на секретаря Бифа (разговор, когда Бифа нет на месте)
     #img
+    img 15801
     melanie "Биф у себя?"
+    img 15802
     secretary "К сожалению, Мисс Мелани, он будет только вечером. Что-нибудь ему передать?"
+    img 15803
     melanie "Нет, спасибо. Я позже сама с ним поговорю."
+    img 15804
     melanie_t "Бифа сложно застать на рабочем месте. Такое ощущение, что он сюда приходит только выпить виски по вечерам..."
     return
 
@@ -347,8 +351,11 @@ label ep29_dialogues3_melanie_monica_victoria_1m:
 label ep29_dialogues3_melanie_monica_victoria_1n:
     # смотрит на секретаря Бифа (разговор, когда Биф на работе, вечером после посещения офиса Дика)
     #img
+    img 15805
     melanie "Биф у себя?"
+    img 15802
     secretary "Да, Мисс Мелани. Проходите."
+    img 15803
     melanie "Спасибо."
     return
 
