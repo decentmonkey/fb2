@@ -47,6 +47,24 @@ label start:
     $ inventory_objects = {}
     $ inventory = []
 
+    #call dialogue_5_dance_strip_1()
+    #call dialogue_5_dance_strip_2()
+    #call dialogue_5_dance_strip_2a()
+    #call dialogue_5_dance_strip_3()
+    #call dialogue_5_dance_strip_6()
+    #call dialogue_5_dance_strip_7()
+    #call dialogue_5_dance_strip_8()
+    #call dialogue_5_dance_strip_12()
+    #call dialogue_5_dance_strip_13()
+    #call dialogue_5_dance_strip_14()
+    #call dialogue_5_dance_strip_16()
+    #call dialogue_5_dance_strip_17()
+    #call dialogue_5_dance_strip_19()
+    #call dialogue_5_dance_strip_20()
+    #call dialogue_5_dance_strip_21()
+    #call dialogue_5_dance_strip_24()
+
+
     #call ep29_dialogues3_melanie_monica_victoria_3b()
     #call ep29_dialogues3_melanie_monica_victoria_1()
     #call ep29_dialogues3_melanie_monica_victoria_2()
