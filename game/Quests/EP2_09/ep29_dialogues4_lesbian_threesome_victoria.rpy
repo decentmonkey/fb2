@@ -69,6 +69,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1:
     mt "..."
     mt "Значит, Маркус выбрал квартиру Мелани, чтобы заманить меня сюда!"
     mt "А потом он меня схватит и снова отведет в свой жуткий кабинет!!!"  # если была сцена в тюрьме с анальной пробкой
+    music Power_Bots_Loop
     img 15508
     with diss
     mt "А у меня нет с собой анальной пробки!" # если была сцена в тюрьме с анальной пробкой
@@ -109,6 +110,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1:
     music Power_Bots_Loop
     img 15513
     with hpunch
+    sound plastinka1b
     w
     sound Jump1
     img 15514
@@ -270,6 +272,22 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     music Master_Disorder
     img 15543
     with diss
+    menu:
+        "Подойти к Виктории и поцеловать ее":
+            pass
+        "Не делать этого! (пропуск сцены)":
+            img 15545
+            with fade
+            mt "Фу! Мне к ней не то что прикасаться, мне на нее смотреть противно!"
+            music Power_Bots_Loop
+            mt "!!!"
+            m "Я хорошая подружка, но я не буду делать этого!!!"
+            music stop
+            img black_screen
+            with diss
+            sound highheels_run2
+            ##### арт Моника убегает
+            return False
     mt "Просто надо чмокнуть эту стерву в щеку, как сделала Мелани..."
     mt "Тогда она отвяжется от меня."
     img 15544
@@ -430,12 +448,13 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     melanie "!!!!!!"
     melanie "!!!!!!!!!"
     w
+    sound Groove2_85
     img 15576
     with diss
     victoria "Во-первых, не вздумай стирать это со своих фотографий!"
     victoria "Тебе же нравится моя работа?"
     # Мелани напряжанно отвечает
-    music ZigZag
+    music Power_Bots_Loop
     img 15577
     with fade
     melanie "Да..."
@@ -444,7 +463,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     with diss
     sound highheels_short_walk
     victoria "Я не слышу!"
-    music ZigZag
+    music Power_Bots_Loop
     img 15579
     with fade
     melanie "Да. Мне нравится твоя работа."
@@ -483,11 +502,13 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     img 15588
     with fade
     victoria "Мои хорошие подружки хотят получить подарок от меня?"
+    music Master_Disorder
     img 15589
     with diss
     melanie "Да..."
     # Виктория самодовольно хихикает, ставит одну ногу на столик, смотрит на Монику с Мелани сверху вниз
     # проводит пальцами вверх по своему бедру и немного приподнимает свое платье, становится видно, что она без трусиков
+    music Groove2_85
     img 15549
     with diss
     sound snd_woman_laugh3
@@ -586,110 +607,208 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     menu:
         "Подыграть Виктории":
             pass
+        "Не делать этого! (пропуск сцены)":
+            music Power_Bots_Loop
+            img 15604
+            with fade
+            mt "Я не собираюсь заниматься этими извращенскими мерзостями!"
+            mt "!!!"
+            m "Я хорошая подружка, но я не буду делать этого!!!"
+            # Моника убегает
+            music stop
+            img black_screen
+            with diss
+            sound highheels_run2
+            return False
     # Моника, глядя на Мелани
     img 15611
+    with diss
     m "Мы не хотим тебя расстраивать... Подружка..."
     # Мелани, глядя на Монику
     img 15612
+    with diss
     melanie "Мы хотим, чтобы ты помогла нам... Подружка."
     # поворачиваются к ней
+    music Groove2_85
     img 15613
+    with fade
     victoria "Так-то лучше!"
     victoria "А то я в какой-то момент стала подозревать..."
     victoria "Что вы только притворяетесь моими подружками..."
     # молчание, Виктория с нехорошей ухмылкой смотрит на них
+    music Power_Bots_Loop
     img 15602
+    with diss
     melanie "..."
     img 15531
+    with diss
     m "..."
-    victoria "Итак! Я придумала!"
     # перемещая палец в сторону Моники
+    music Groove2_85
     img 15614
+    with fade
+    victoria "Итак! Я придумала!"
     victoria "Ты, подружка Моника, помнишь, что тебе нельзя трогать мою киску?"
     victoria "Ты пока допущена только до моей попы!"
     victoria "Ты еще не достаточно хорошая подружка для моей киски."
     # Мелани удивленно приподнимает брови и смотрит на Монику
     img 15615
+    with diss
     m "..."
     # Виктория указывает пальцем на Мелани
     img 15616
+    with fade
     victoria "Ты, подружка Мелани, трогаешь только мою киску."
     victoria "Попу тебе трогать нельзя. Она только для подружки Моники."
+    music Hidden_Agenda
     img 15617
+    with diss
     victoria "Я разрешу тебе это делать, потом..."
     victoria "Уверена, ты меня сама попросишь об этом..."
     # обе подружки не торопятся исполнять указание Виктории
+    music Power_Bots_Loop
     img 15618
+    with fade
     melanie "..."
     m "..."
+    music Groove2_85
     img 15619
+    with diss
     victoria "Можете начинать! Давайте, я жду!"
     # Виктория поднимает свое платье выше
     # Мелани ставит бокал на стол, бросает еще один взгляд на Монику, поднимается с дивана и подходит к Виктории
     # смотрит на нее в упор
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.0
+    music Master_Disorder
     img 15620
+    with fadelong
     w
+    music Groove2_85
     img 15621
+    with diss
     victoria "Я вижу, подружка Мелани, что тебе не терпится поцеловать мою киску. Скажи мне это."
+    music Power_Bots_Loop
     img 15622
+    with fade
     melanie "..."
     img 15623
+    with diss
     menu:
         "Сказать, что приказывает Виктория":
             pass
     img 15624
+    with fade
     melanie "Мне... Мне не терпится поцеловать тебя..."
     # Моника все еще на диване и смотрит с отвращением
+    music Groove2_85
     img 15625
+    with diss
     victoria "Нет, не так! Скажи это еще раз!"
+    music Power_Bots_Loop
     img 15626
+    with fade
     melanie "Мисс Виктория, мне не терпится поцеловать вашу... Вашу киску..."
     # Виктория, улыбаясь
+    music Groove2_85
     img 15627
+    with diss
     victoria "Хорошая подружка Мелани."
     victoria "Моей киске тоже не терпится... Она уже вся влажная."
     victoria "На колени!"
     # Мелани медлит, смотрит в глаза Виктории
+    music Power_Bots_Loop
     img 15628
+    with fade
     melanie "..."
     img 15629
+    with diss
     menu:
         "Встать на колени и поцеловать киску Виктории":
             pass
     # Мелани опускается на колени, киска Виктории прямо у нее перед глазами
     # смотрит, потом приближает лицо и прикасается губами к ней
+    music stop
+    img black_screen
+    with diss
+    sound snd_paper1
+    pause 1.0
+    music Loved_Up
     img 15630
+    with fadelong
+    sound lick10
     victoria "М-м-м-м-м..."
     victoria "Какая хорошая подружка Мелани!"
     img 15631
+    with fade
     victoria "Давай еще разочек!"
     # Мелани целует еще раз, потом немного отстраняется
     # Виктория немного разворачивается, киска раскрывается, она кладет руку на голову Мелани
     # потом поворачивается к Монике
     img 15632
+    with diss
     victoria "А подружка Моника хорошая?"
     victoria "Или она хочет отказаться от моего подарка и расстроить меня?"
     # Моника молчит
+    music Power_Bots_Loop
     img 15606
+    with fade
     mt "Фу!!! Я не представляю, как я буду делать это!"
     mt "Какая мерзость!!!"
     mt "!!!"
     # Виктория смотрит на нее в упор, Моника ставит бокал на стол, бросает взгляд на Мелани
     # Моника поднимается с дивана и подходит к Виктории сзади, медлит
+    music Master_Disorder
     img 15633
+    with diss
     mt "!!!"
+    menu:
+        "Поцеловать попу Виктории":
+            pass
+        "Не делать этого! (пропуск сцены)":
+            music Power_Bots_Loop
+            img 15633
+            with fade
+            mt "Нет! Я, Моника Бакфетт! Я леди!"
+            mt "Я не собираюсь целовать тощую задницу этой мелкой стервы!"
+            mt "!!!"
+            m "Я хорошая подружка, но я не буду делать этого!!!"
+            # Моника убегает
+            music stop
+            img black_screen
+            with diss
+            sound highheels_run2
+            return False
     # встает на колени
+    music stop
+    img black_screen
+    with diss
+    sound snd_paper1
+    pause 1.0
+    music Groove2_85
     img 15635
+    with fade
     victoria "Давай, подружка Моника, целуй меня!"
     victoria "Тебе же нравится моя попа?"
+    music Power_Bots_Loop
     img 15636
+    with diss
     mt "Твоя попа отвратительна!!! Также как и ты!!!"
     img 15637
+    with diss
     m "Да... Нравится..."
+    music Groove2_85
     img 15638
+    with fade
     victoria "Прикоснись к ней губами."
     # Моника прикасается губами к ягодицам, сначала к одной
+    music Loved_Up
     img 15634
+    with diss
+    sound lick10
     victoria "Да, подружка хорошая! Поцелуй еще!"
     # Моника прикасается ко второй ягодице губами
     #victoria "А теперь подружка Моника потрогает руками мою попу..."
@@ -698,119 +817,197 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     #mt "!!!"
     # Виктория переключается на Мелани
     img 15639
+    with fade
     victoria "Хорошая подружка Мелани сейчас поцелует мою киску еще раз."
     victoria "Тебе ведь нравится целовать мою киску, м?"
+    music Power_Bots_Loop
     img 15640
+    with diss
     melanie "Да. Нравится."
+    music Groove2_85
     img 15641
+    with fade
     victoria "Что тебе нравится?"
+    music Power_Bots_Loop
     img 15642
+    with diss
     melanie "Мне нравится целовать твою киску..."
+    music Loved_Up
     img 15643
+    with fade
     victoria "Я разрешаю тебе поцеловать мою киску еще, раз тебе это так нравится."
     # Мелани снова прикасается губами к киске Виктории
     img 15644
+    with diss
     victoria "А теперь я разрешаю подружке Мелани потрогать мою киску язычком." # клитор
     victoria "М-м-м-м. Да, хорошая подружка!"
     victoria "И еще раз... Да, так!"
     img 15645
+    with fade
     victoria "А теперь подружка Мелани найдет мою дырочку и полижет ее." # влагалище
     victoria "Давай, да!"
+    sound lick10
     victoria "А подружка Моника чего ждет?"
     #mt "!!!"
     victoria "Я ей уже разрешила целовать мою вторую дырочку!"
     # Моника с отвращением прикасается губами к анусу, отстраняется
     img 15646
+    with diss
     victoria "А теперь я разрешаю полизать подружке Монике мою вторую дырочку."
     # Моника проводит кончиком языка
     #mt "Фуууу!!!"
     victoria "А теперь еще раз, подружка Моника! И посмелее!"
     # Моника снова проводит языком по анусу
     img 15647
+    with fade
     victoria "Да, так! Давай! М-м-м-м..."
     victoria "Подружка Мелани, теперь засунь свой язычок в мою дырочку."
     # Мелани выполняет, начинает двигать языком внутрь-наружу. Моника продолжает лизать.
     # Виктория приспускает лямки на своем платье, обнажает грудь
     # сжимает обеими руками свои соски, откидывает голову назад, глаза закрыты
+    sound lick10
     img 15648
+    with diss
+    sound ahhh1
     w
     img 15649
+    with diss
     victoria "Да-а-а... М-м-м-м..."
     img 15650
+    with fade
     victoria "Какие подружки хорошие... Как они стараются получить мой подарок..."
     # Виктория наклоняется немного, дотягивается рукой до сумочки, достает из нее телефон
+    music stop
+    img black_screen
+    with diss
+    sound vjuh3
+    pause 1.0
+    music Loved_Up
     img 15651
+    with fadelong
     victoria "Хорошие подружки не останавляваются!"
     victoria "Они продолжают лизать своим язычками мои обе дырочки!"
     img 15719
+    with diss
+    sound snd_photo_capture
     w
     img 15652
+    with fade
+    sound lick10
     victoria "Подружки знают, что мне это нравится..."
     # Виктория делает селфи, держа телефон над собой на вытянутой руке, на фото видно головы Моники и Мелани
     victoria "Подружки не должны останавляваться, иначе я огорчусь."
     # Виктория делает еще селфи сбоку, теперь на фото видно лица Моники и Мелани
     # убирает телефон обратно в сумочку, выпрямляется и говорит
     img 15653
+    with diss
     victoria "Думаю, что время подарка уже пришло..."
     victoria "Хорошие подружки заслужили подарок!"
     victoria "СТОП!!!"
     # Мелани и Моника отстраняются от Виктории
     # Моника с отвращением вытирает рот рукой, Мелани тоже вытирает рот, при этом заинтересованно смотрит на сумочку Виктории
     # Виктория снимает ногу со стола
+    music Groove2_85
     img 15654
+    with fade
     victoria "Подружки хорошо постарались..."
     victoria "Пришло время подарка. Кто хочет первый его получить?"
     # молчание
+    music Master_Disorder
     img 15655
+    with diss
     melanie "..."
     img 15656
+    with diss
     m "..."
+    music Groove2_85
     img 15657
+    with fade
     victoria "Мне кажется, что подружка Мелани будет первой..."
     victoria "Потому что ей так хотелось поласкать язычком мою дырочку... Что ее не пришлось заставлять..."
     img 15658
+    with diss
     victoria "Да, подружка?"
     victoria "Чтобы получить подарок от меня, тебе нужно снять одежду... И трусики тоже..."
     # Мелани удивленно смотрит на Викторию, продолжая сидеть на коленях
+    music Power_Bots_Loop
     img 15659
+    with fade
     melanie "Снять одежду и трусики? Зачем?"
     # Виктория смотрит на нее сверху вниз
+    music Groove2_85
     img 15660
+    with diss
     victoria "Потому что Я тебе так сказала сделать!"
     victoria "Снимай все с себя!"
     img 15661
+    with diss
     victoria "И подружка Моника сделает сейчас тоже самое!"
     victoria "Мне же не придется просить ее об этом дважды?!"
     # поворачивает голову и смотрит на Монику
+    music Power_Bots_Loop
     img 15543
+    with fade
     mt "!!!"
     mt "Какого черта эта стерва здесь устроила?!"
     img 15534
+    with diss
     mt "Недостаточно было всех этих извращений?!"
     mt "Что ей еще нужно?!"
     # Мелани смотрит на Монику, та на нее
+    music Master_Disorder
     img 15662
+    with fade
     melanie_t "Нужно сделать, как эта мелкая дрянь требует. Чтобы она не сомневалась в моем послушании..."
     melanie_t "После этого вечера нужно будет срочно предпринимать меры против нее."
     melanie_t "Она слишком многое себе позволяет..."
     img 15663
+    with diss
     menu:
         "Снять одежду":
             pass
+        "Не делать этого! (пропуск сцены)":
+            music Power_Bots_Loop
+            img 15604
+            with fade
+            mt "Это все зашло слишком далеко!"
+            mt "Я, Моника Бакфетт, не собираюсь играть по ее правилам!"
+            mt "!!!"
+            m "Я хорошая подружка, но я не буду делать этого!!!"
+            # Моника убегает
+            music stop
+            img black_screen
+            with diss
+            sound highheels_run2
+            return False
+
     # Мелани встает, снимает платье, бросает его на пол
     # Моника смотрит на Мелани, тоже встает и начинает раздеваться
     # Виктория внимательно наблюдает за ними, осматривая их прелести, самодовольно улыбается
     img 15664
+    with fade
     w
     img 15665
+    with diss
     w
     img 15666
+    with diss
     w
     img 15667
+    with diss
     w
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.5
+    music Loved_Up
     img 15668
+    with fadelong
     w
     img 15669
+    with fade
+    sound snd_woman_laugh3
     victoria "Я уверена, что вам понравится мой подарок."
     victoria "Я его выбирала специально для вас, мои подружки!"
     # Виктория снимает с себя платье, подходит к столику, берет сумочку и обходит диван с другой стороны
@@ -818,359 +1015,627 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     # те заинтересованно на нее смотрят, переглядываются между собой, им не видно, что там делает Виктория
     # через несколько минут
     # камера на Викторию, она стоит спиной, на ней надеты стринги, голову в полоборота
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 2.0
+    music Master_Disorder
     img 15670
+    with fadelong
+    sound swish
     w
     img 15671
+    with fade
     w
+    music Groove2_85
     img 15672
+    with diss
     victoria "Подружка Моника садится на диван и смотрит!"
     victoria "Подружка Мелани, ты готова увидеть подарок?"
     # Моника садится на диван
     img 15673
+    with fade
     melanie "Да..."
     img 15674
+    with diss
     victoria "Что 'да'?"
     victoria "Ты хочешь сказать, что ты хорошая подружка... И будешь рада получить от меня подарок?"
     victoria "Скажи мне это. Я хочу это услышать..."
     img 15675
+    with fade
     melanie "Я хорошая подружка и буду рада получить подарок от мисс Виктории."
     # Виктория довольно ухмыляется и поворачивается к Мелани и Монике
     # на ней надет страпон какого-нибудь нелепого цвета (н-р, ярко-розовый)
     # у ее подружек шок !!! даже у Мелани
     img 15676
+    with diss
     w
+    sound vjuh4
     img 15700
+    with fade
+    sound plastinka1b
     w
+    music Power_Bots_Loop
     img 15677
+    with hpunch
     melanie "!!!"
     img 15678
+    with fade
     melanie_t "Страпон?!"
-    melanie_t "Она решила подарить мне страпон?!"
+    melanie_t "Она решила подарить мне СТРАПОН?!"
     melanie_t "Мерзкая сучка! Она заставила нас думать, что у нее есть какой-то компромат!"
     img 15679
+    with hpunch
     m "!!!"
     img 15680
+    with fade
     mt "ЧТО?!"
     mt "Мне пришлось вылизывать ее зад, чтобы она подарила эту ужасную штуку!!!"
     img 15681
+    with diss
     mt "!!!"
     mt "Ненавижу!!!"
     # Виктория довольна произведенным эффектом
+    music Groove2_85
     img 15682
+    with fade
     victoria "Мои хорошие подружки рады подарку?"
     victoria "Подружка Мелани, тебе нравится?"
     # Мелани молчит и смотрит на нее, как на сумасшедшую
+    music Power_Bots_Loop
     img 15683
+    with diss
     melanie "..."
+    music Groove2_85
     img 15684
+    with fade
     victoria "Я вижу, что тебе нравится мой подарок, подружка Мелани."
     victoria "Тебе не терпится ощутить его внутри себя. Но ты стесняешься признаться в этом..."
     victoria "Не стоит стесняться, подружка. Скажи мне это!"
     # смотрит на Мелани пристально
+    music Power_Bots_Loop
     img 15685
+    with diss
     melanie "..."
     img 15686
+    with diss
     menu:
         "Сказать, как приказывает Виктория":
             pass
         "Отказаться!":
+            music Master_Disorder
             img 15687
+            with fade
             melanie_t "Я не позволю это мелкой дряни так унижать меня..."
             melanie_t "Да еще и в присутствии Миссис Бакфетт."
             # Мелани смотрит на Викторию пристально
             img 15688
+            with diss
             melanie "Я думаю, Мисс Виктория, что подружки не дарят друг другу такие подарки..."
             # Виктория строго смотрит на нее, подходит к ней, говорит с угрозой
+            music Power_Bots_Loop
             img 15689
+            with fade
             victoria "ХОРОШИЕ подружки дарят, Мисс Мелани!!!"
             victoria "Хотя... Мы можем перестать быть хорошими подружками прямо сейчас."
             img 15690
+            with diss
             victoria "У меня есть другой подарок... Для нашего общего друга...."
             victoria "Он им очень заинтересуется... Мисс Мелани..."
             img 15691
+            with diss
             melanie "..."
             # Мелани смотрит на Викторию высокомерно
+            music Master_Disorder
             img 15692
+            with fade
             melanie_t "Я не просто избавлюсь от нее."
             melanie_t "Сначала я ей отомщу. Заставлю пожалеть о том, что она сейчас делает."
+            music Groove2_85
             img 15693
+            with diss
             victoria "Итак! Что хорошая подружка сейчас должна мне сказать?"
             pass
+    music Master_Disorder
     img 15694
+    with fade
     melanie "Мне... Не терпится... Получить от вас подарок, мисс Виктория..."
     img 15695
+    with diss
     victoria "Точно не терпится? Ты уверена?"
     img 15696
+    with fade
     melanie "Да, мне не терпится..."
     img 15697
+    with diss
     victoria "Что именно тебе хочется, м? Скажи мне!"
+    music Power_Bots_Loop
     img 15698
+    with fade
     melanie "Мне не терпится ощутить ваш подарок внутри меня... мисс Виктория."
     # Виктория смотрит Мелани в глаза и ухмыляется
+    music Groove2_85
     img 15699
+    with diss
     victoria "На колени!"
     victoria "Оближи его как следует! Покажи мне, как ты хочешь его!"
     # Мелани медлит, потом опускается на колени, облизывает дилдо
+    sound vjuh3
     img 15701
+    with fade
     w
     img 15702
+    with diss
     w
     img 15703
+    with diss
     w
     img 15704
+    with fade
     victoria "Вот так, да!"
     victoria "Теперь возьми его в рот!"
     victoria "Я хочу, чтобы ты отсосала у меня, мисс Мелани!"
     # запихивает дилдо ей в рот, Мелани давится, отстраняется, дилдо становится мокрым, с него тянется слюна
     # Моника с ужасом наблюдает
+    music Power_Bots_Loop
     img 15705
+    with hpunch
     mt "О боже! Какой кошмар!"
     mt "Я не смогу этого сделать!"
     mt "!!!"
     # Виктория строго говорит Мелани
+    music Loved_Up
     img 15706
+    with fade
     w
     img 15707
+    with diss
     w
     img 15708
+    with diss
     w
     img 15709
+    with diss
     w
+    music Groove2_85
     img 15710
+    with fade
     victoria "Теперь на диван! Встань на колени и покажи мне свой фирменный зад!"
     # та поднимается, убивает Викторию взглядом, но исполняет
     # Виктория встает сзади нее (доги-стайл), шлепает ее по ягодице
+    music Power_Bots_Loop
     img 15711
+    with diss
     w
+    music Master_Disorder
     img 15712
+    with fade
+    sound highheels_short_walk
     w
     img 15720
+    with diss
     w
     img 15721
-    w
+    sound vjuh4
+    pause 0.5
+    sound snd_slap1
     img 15722
+    with vpunch
     melanie "Ах!"
     img 15723
+    with diss
+    w
     # у Мелани остается красный отпечаток на попе
     img 15724
+    with fade
     victoria "Какая отличная задница у вас, Мисс Мелани!"
     # шлепает еще раз
+    sound chpok6
     img 15725
+    with fade
     w
     img 15726
-    w
+    sound vjuh4
+    pause 0.5
+    sound snd_slap1
     img 15727
+    with vpunch
     melanie "Ах!"
     img 15728
+    with fade
     victoria "Тебе ведь нравится, подружка Мелани?"
     victoria "Скажи, что хочешь еще! Говори!!!"
+    music Power_Bots_Loop
     img 15729
+    with diss
     melanie "Мне... Мне нравится..."
     # Виктория снова шлепает ее, ягодицы у Мелани становятся красными
+    music Master_Disorder
     img 15730
-    w
+    with diss
+    sound vjuh4
+    pause 0.5
+    sound snd_slap1
     img 15731
+    with vpunch
     melanie "Ах!"
     # Виктория направляет дилдо в киску Мелани и вводит его
     # Моника продолжает с ужасом смотреть на эту картину
+    music Power_Bots_Loop
     img 15732
+    with fade
     mt "!!!"
     # Виктория поворачивается к Монике, при этом двигается в Мелани, схватив ту за волосы
+    music Loved_Up
     img 15733
+    with diss
     victoria "Подружка Моника, тебе нравится смотреть на нас?"
     victoria "Скажи, что тебе нравится!"
+    music Power_Bots_Loop
     img 15734
+    with fade
     mt "!!!"
+    menu:
+        "Сказать Виктории, что мне нравится":
+            pass
+        "Не делать этого! (пропуск сцены)":
+            music Power_Bots_Loop
+            img 15735
+            with fade
+            mt "Это отвратительно!"
+            mt "Эта Виктория - спятившая извращенка!!!"
+            mt "!!!"
+            m "Я хорошая подружка, но я не буду делать этого!!!"
+            # Моника убегает
+            music stop
+            img black_screen
+            with diss
+            sound highheels_run2
+            return False
     m "Д-да... Нравится..."
     img 15735
+    with diss
     mt "Это отвратительно!"
     mt "Эта Виктория - спятившая извращенка!!!"
     mt "!!!"
+    music Loved_Up
     img 15736
+    with fade
     victoria "Что именно тебе нравится?"
     victoria "Ты хочешь оказаться на месте нашей подружки? Скажи мне!"
+    music Power_Bots_Loop
     img 15737
+    with diss
     m "Д-да..."
     img 15738
+    with diss
     mt "Нет-нет! Это так мерзко!!!"
+    music Loved_Up
     img 15739
+    with fade
     victoria "Тогда раздвинь ноги и подготовь свою киску для меня."
     victoria "Покажи мне, как тебе нравится смотреть на меня."
+    music Power_Bots_Loop
     img 15681
+    with diss
     mt "!!!"
+    menu:
+        "Раздвинуть ноги":
+            pass
+        "Не делать этого! (пропуск сцены)":
+            music Power_Bots_Loop
+            img 15738
+            with fade
+            mt "Это отвратительно!"
+            mt "Пошла она к черту!!!"
+            mt "!!!"
+            m "Я хорошая подружка, но я не буду делать этого!!!"
+            # Моника убегает
+            music stop
+            img black_screen
+            with diss
+            sound highheels_run2
+            return False
     # Моника подчиняется, раздвигает ноги, смотрит на Викторию
+    music Loved_Up
     img 15740
+    with fade
     victoria "Теперь ласкай свою киску!"
     victoria "Я хочу посмотреть, как ты это делаешь!"
     img 15741
+    with diss
     mt "ЧТО!?"
     # Моника опускает руку и прикасается к себе там, начинает водить пальцами по киске
     # Виктория самодовольно ухмыляется
     img 15742
+    with diss
     w
     img 15743
+    with diss
     w
     img 15744
+    with fade
     victoria "Нравится тебе?"
+    music Power_Bots_Loop
     img 15745
+    with diss
     m "Да..."
     # Виктория снова шлепает Мелани по ягодицам и продолжает натягивать ее на свой страпон
+    music Loved_Up
     img 15746
     with diss
+    sound vjuh3
     w
     img 15747
     with diss
+    sound snd_slap1
     pause 0.5
     img 15748
-    with diss
+    with hpunch
     melanie "Ах!"
     # Виктория спрашивает у Мелани
     img 15749
+    with fade
     victoria "Тебе нравится, подружка Мелани?"
     victoria "У тебя такая киска! Она вся влажная!"
     img 15750
+    with diss
     victoria "Я вижу, что тебе нравится..."
     victoria "Подружка Моника, тебе нравится киска нашей подружки Мелани?"
+    music Power_Bots_Loop
     img 15751
+    with fade
     m "Нравится..."
+    music Loved_Up
     img 15752
+    with diss
     victoria "А твоя киска уже стала влажной?"
     victoria "Она готова к тому, чтобы я вошла в нее?"
+    music Power_Bots_Loop
     img 15753
+    with fade
     mt "!!!"
     mt "Боже! Какой кошмар!!!"
     img 15754
+    with diss
     mt "Я не хочу говорить ей это! Какая пошлость!!!"
     mt "!!!"
+    music Groove2_85
     img 15755
+    with fade
     victoria "Подружка Моника, я не слышу... Скажи мне это!"
     # сама в это время продолжает натягивать Мелани, делает это жестко, держа ее за волосы
     img 15756
+    with diss
     m "Да... Готова..."
     img 15757
+    with fade
     victoria "К чему ты готова, подружка Моника?"
+    music Power_Bots_Loop
     img 15758
+    with diss
     m "Готова к тому, чтобы ты... Вошла в меня..."
+    music Loved_Up
     img 15759
+    with fade
     victoria "Хорошая подружка! Мне нравится, что ты такая послушная."
     # Виктория еще раз шлепает Мелани по попе, у нее она вся красная от шлепков
+    sound vjuh3
     img 15726
-    w
+    with diss
+    pause 0.5
+    sound snd_slap1
     img 15727
+    with hpunch
     melanie "Ах!"
     img 15760
+    with diss
+    sound chpok6
     victoria "Подружка Мелани тоже хорошая!"
     victoria "Можешь теперь посмотреть на то, как я дарю подарок подружке Монике!"
     # вытаскивает из нее дилдо с хлюпом, отпускает ее волосы
     # Мелани встает, волосы растрепаны, смотрит ненавидящим взглядом на Викторию, но молчит
+    music Power_Bots_Loop
     img 15761
+    with fade
     melanie "..."
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.0
+    music Master_Disorder
     # садится на диван, берет бокал вина и делает несколько глотков
     # Виктория смотрит на Монику, с ухмылкой подзывает ее к себе пальчиком
     img 15762
+    with fade
     w
     img 15763
+    with diss
+    menu:
+        "Встать коленями на диван и нагнуться":
+            pass
+        "Не делать этого! (пропуск сцены)":
+            music Power_Bots_Loop
+            img 15681
+            with fade
+            mt "Это отвратительно!"
+            mt "Пошла она к черту!!!"
+            mt "!!!"
+            m "Я хорошая подружка, но я не буду делать этого!!!"
+            # Моника убегает
+            music stop
+            img black_screen
+            with diss
+            sound highheels_run2
+            return False
     mt "У Мелани все получилось... И я смогу. Я сильная."
     mt "!!!"
     mt "Скорее бы эта извращенка ушла отсюда!"
     # Моника подходит к дивану, нерешительно смотрит на Викторию. та пальцем ей показывает на диван
     # Моника встает в ту же позу, что и Мелани. Виктория смотрит на нее сзади, шлепает ее по ягодице
+    sound Jump1
     img 15764
+    with fade
     w
     img 15765
-    w
+    with diss
+    sound vjuh3
+    pause 0.5
+    sound snd_slap1
     img 15766
+    with hpunch
     m "Ах!"
     img 15767
+    with diss
     w
     img 15768
+    with diss
     victoria "Нет, подружка Моника!"
     victoria "Я хочу видеть твое лицо!"
     victoria "На спину!"
     # Моника ложится на спину, Виктория задирает ее ноги вверх, открывая себе доступ к ее киске и грубо входит в нее
     # Моника ойкает, гримаса боли
+    music stop
+    img black_screen
+    with diss
+    sound vjuh3
+    pause 1.0
+    music Groove2_85
     img 15769
+    with fadelong
     w
     img 15770
+    with fade
     w
     img 15771
+    with diss
+    sound chpok6
     m "Аааа!"
+    music Loved_Up
     img 15772
+    with fade
     victoria "М-м-м... Как же мне нравится ваша киска, Миссис Бакфетт."
     victoria "Вы ее хорошо подготовили для меня. Вы хорошая подружка, Миссис Бакфетт..."
     # выходит из нее полностью, снова направляет дилдо в киску и опять грубо входит
     # у Моники снова гримаса боли, Виктория смотрит на нее и довольно улыбается
     img 15773
+    with diss
     victoria "Тебе нравится чувствовать в себе мой подарок? Скажи, что тебе нравится!"
+    music Power_Bots_Loop
     img 15774
+    with diss
     m "М-мне... Н-нравится чувствовать в себе... Это..."
     # Виктория снова выходит и входит, Моника ахает
+    music Loved_Up
     img 15775
+    with fade
     m "Ай!"
     img 15776
+    with diss
     victoria "Что именно тебе нравится, подружка Моника?"
     victoria "Я хочу услышать это!"
     img 15777
+    with fade
     m "М-мне... Н-нравится как ты... Делаешь это..."
     img 15778
+    with diss
     victoria "Что 'ЭТО'?"
     victoria "Монике Бакфетт нравится, что я трахаю ее искусственным членом?"
 #    img 15779
-    m "Д-да-а..."
+    music Power_Bots_Loop
     img 15780
+    with fade
+    m "Д-да-а..."
     mt "Когда же этот кошмар уже закончится?!"
     mt "!!!"
     # Виктория начинает двигаться туда-обратно, удерживая ноги Моники, смотрит на ее лицо
     # Мелани пьет вино и смотрит с каменным лицом на разыгрывающуюся перед ней сцену
     # Виктория поворачивается к Мелани и ухмыляется
+    music Loved_Up
     img 15781
+    with diss
     victoria "Хотелось бы тебе оказаться на моем месте, подружка Мелани?"
     # Мелани вопросительно поднимает бровь, но молчит
     img 15782
+    with fade
     melanie "..."
     img 15783
+    with diss
     victoria "Возможно, в следующий наш девичник... Я разрешу тебе побыть на моем месте, подружка..."
     victoria "Скажи, что хочешь этого!"
+    music Power_Bots_Loop
     img 15784
+    with fade
     melanie "..."
     melanie "Да, я хочу этого..." # равнодушно
     # Виктория самодовольно улыбается, смотрит на Мелани, продолжая двигаться в Монике
     # потом поворачивается к Монике, ускоряет движения
+    music Loved_up2
     img 15785
+    with diss
     victoria "М-м-м-м... Да-а-а!"
     victoria "Как же охренительно трахать саму Монику Бакфетт!"
     img 15786
+    with fade
     victoria "А-а-а-а"
     victoria "Да-а!!!"
     # еще несколько резких движений и Виктория кончает
     img 15787
+    sound woman_moan14
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     victoria "ААААА!!!"
     victoria "Чертовски здорово!!! Да-а-а-а!!!"
     # Виктория отпускает ноги Моники, с хлюпом вытаскивает из нее дилдо
     # садится на диван в расслабленной позе, страпон торчит вверх, весь мокрый
+    music stop
+    img black_screen
+    with diss
+    sound chpok6
+    pause 2.0
+    music Groove2_85
     img 15788
+    with fadelong
     w
     img 15789
+    with fade
     victoria "М-м-м-м..."
     # Моника садится в закрытую позу, стараясь быть подальше от Виктории
     # Моника и Мелани смотрят на страпон, Виктория ухмыляется, видя это
     img 15790
+    with diss
     victoria "Ну что, подружки, вам понравился наш девичник?"
+    music Master_Disorder
     img 15791
+    with fade
     melanie "Да..."
+    music Groove2_85
     img 15792
+    with diss
     victoria "Что 'да'? Вам понравилось?"
     victoria "Вы хотели бы повторить наш девичник? Подружки."
+    music Master_Disorder
     img 15793
+    with fade
     m "Нам понравился девичник..."
+    music Power_Bots_Loop
     img 15763
+    with diss
     mt "!!!"
     mt "Ни за что!!!"
     mt "НЕНАВИЖУ!!!"
     img 15794
+    with diss
     melanie "И мы хотели бы повторить..."
     # Виктория самодовольно смеется
+    music Groove2_85
     img 15795
+    with fade
+    sound snd_woman_laugh3
     victoria "Я оставлю мой подарок здесь..."
     victoria "В следующий наш девичник он мне пригодится..."
     victoria "Хотя, возможно, я принесу своим хорошим подружкам еще какой-нибудь подарок."
@@ -1179,17 +1644,39 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     # Виктория стоит возле входной двери, смотрит на своих подружек, ухмыляется, подмигивает им и уходит
     # дверь за Викторией закрывается
     # камера на Монику с Мелани. они сидят одетые, держат в руке бокалы, смотрят друг на друга
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 2.0
+    sound snd_fabric1
+    pause 1.0
+    music Groove2_85
     img 15800
+    with fadelong
     w
     img 15796
+    with diss
     w
+    music stop
+    img black_screen
+    with diss
+    sound snd_door_open1
+    pause 1.0
+    sound snd_door_locked1
+    pause 1.0
+    music Power_Bots_Loop
     img 15797
+    with fadelong
     m "Я! НЕНАВИЖУ! ЭТУ СУЧКУ!"
+    music Master_Disorder
     img 15798
+    with fade
     melanie "Миссис Бакфетт. Думаю, наши интересы относительно Мисс Виктории совпадают."
     melanie "У меня есть идея, как избавиться от нее..."
     melanie "Я могу расчитывать на Вашу помощь?"
     img 15799
+    with diss
     m "Да, Мелани... Я готова на все ради этого..."
     # они обе преисполнены мести и готовы "дружить" против Виктории, бокалы сближаются, звук чокающихся бокалов
     # и мокрый страпон на диване
