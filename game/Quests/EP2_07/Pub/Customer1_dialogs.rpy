@@ -53,7 +53,12 @@ label customer1_serve1:
 
     # комментарий насчет танцев
     if monicaStartedStripDanceFlag == True and customer1_dance_comment_stage == 1:
-        m "второй разговор"
+        customer1 "Ты меня пытаешься надурить, детка."
+        customer1 "Ты танцуешь здесь иногда у пилона!"
+        m "Нет. Я же говорила, что я просто официантка..."
+        customer1 "Что-то я тебе не верю..."
+        mt "Да мне какая разница, веришь ты мне или нет!"
+        mt "Деревенщина!"
 
     if monicaStartedStripDanceFlag == True and customer1_dance_comment_stage == 0:
         customer1 "А не тебя я видел виляющей попой у пилона?"

@@ -1,3 +1,4 @@
+default customer11_dance_comment_stage = 0
 
 # подойдет и под каждодневную встречу. serve1 будет рандомно не очень часто
 label customer11_1stmeeting:
@@ -5,6 +6,32 @@ label customer11_1stmeeting:
     sound highheels_short_walk
     img 14381
     with fadelong
+
+
+    # комментарий насчет танцев
+    if monicaStartedStripDanceFlag == True and customer11_dance_comment_stage == 1:
+        customer11 "Не буду ничего говорить про то, как ты танцуешь у пилона."
+        m "Я..."
+        customer11 "А то снова будет много слов о том, что ты не такая."
+        customer11 "Ты же официантка сейчас?"
+        m "Да..."
+        customer11 "Давай, ты просто выполнишь свою работу и все?"
+        mt "?!"
+
+    if monicaStartedStripDanceFlag == True and customer11_dance_comment_stage == 0:
+        customer11 "Ты неплохо танцевала в прошлый раз на сцене."
+        m "!!!"
+        m "Вы меня с кем-то путаете. Я не танцую на сцене."
+        customer11 "Расскажи это кому-нибудь другому."
+        m "Я официантка, а не стрип..."
+        customer11 "Мне это неинтересно совсем!"
+        mt "!!!"
+        mt "Очередной хам..."
+        $ customer11_dance_comment_stage = 1
+
+    #
+
+
     m "Вы готовы сделать заказ?"
     # рассматривает
     sound snd_whistle1
