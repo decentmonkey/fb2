@@ -1,4 +1,5 @@
 # чел в синей куртке
+default customer1_dance_comment_stage = 0
 
 label customer1_1stmeeting:
     music Hidden_Agenda
@@ -46,8 +47,24 @@ label customer1_1stmeeting:
 label customer1_serve1:
     music Hidden_Agenda
     sound highheels_short_walk
+
     img 14212
     with fadelong
+
+    # комментарий насчет танцев
+    if monicaStartedStripDanceFlag == True and customer1_dance_comment_stage == 1:
+        m "второй разговор"
+
+    if monicaStartedStripDanceFlag == True and customer1_dance_comment_stage == 0:
+        customer1 "А не тебя я видел виляющей попой у пилона?"
+        m "Нет, Вы меня с кем-то путаете."
+        m "Я работаю здесь официанткой..."
+        customer1 "Только официанткой?"
+        m "Еще... Еще я мою посуду..."
+        $ customer1_dance_comment_stage = 1
+
+    #
+
     m "Что будете заказывать?"
     img 14213
     customer1 "Ну нет, разве я так тебя учил?"

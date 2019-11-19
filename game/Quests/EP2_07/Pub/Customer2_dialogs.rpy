@@ -1,4 +1,5 @@
 # лысый чел слева
+default customer2_dance_comment_stage = 0
 
 label customer2_1stmeeting:
     music Hidden_Agenda
