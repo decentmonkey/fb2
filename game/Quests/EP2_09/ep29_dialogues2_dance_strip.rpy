@@ -414,6 +414,7 @@ label dialogue_5_dance_strip_5d:
     customers "Сиськи показывай!"
     customers "Уууууу!!!"
     customers "Эй, научите ее, как надо это делать!!!"
+    customers "Эй, мы это уже видели в прошлый раз! Покажи что-нибудь еще!"
     return
 # реплики для side (тело)
 label dialogue_5_dance_strip_5e:
