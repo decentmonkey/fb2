@@ -678,7 +678,7 @@ translate german dialogue_classmate_3_2_d991e79e:
     # mt "Сейчас мне нужно переодеться и идти в колледж."
     # mt "Если я сделаю что-то не так, Барди меня накажет и снова будет угрожать Маркусом."
     # mt "Лучше лишний раз не связываться с этой малявкой."
-    mt "Jetzt muss ich mich umziehen und in das College gehen."
+    mt "Jetzt muss ich mich umziehen und zum College gehen."
     mt "Wenn ich was falsch mache, wird Bardie mich bestrafen und mir wieder mit Marcus drohen."
     mt "Besser, ich verscherze es mir mit dem Kleinen nicht nochmal."
 
@@ -4981,4 +4981,186 @@ translate german dialogue_classmate_14_0a5616b8_2:
 
     # mt "!!!"
     mt "!!!"
+
+# TODO: Translation updated at 2019-11-23 13:31
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2262
+translate german dialogue_classmate_8_e2f550f1:
+
+    # m "Когда вы сможете закончить эту работу, мистер Эдвардс?"
+    m "Когда вы сможете закончить эту работу, мистер Эдвардс?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2378
+translate german dialogue_classmate_8_23f2599f:
+
+    # m "Как я узнаю, что у вас получилось договориться с ней, мистер Эдвардс?"
+    # misic Hidden_Agenda
+    m "Wie weiß ich diesmal, dass der Deal erfolgreich war?"
+    misic Hidden_Agenda
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2432
+translate german dialogue_classmate_8_2_2e1b9836:
+
+    # teacher "Вы сегодня восхитительно выглядите, мисс Мэнсфилд."
+    # teacher "Рад вас видеть! Присаживайтесь."
+    teacher "Sie sehen heute gut aus, Frau Mansfield."
+    teacher "Schön sie zu sehen, setzen sie sich."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2437
+translate german dialogue_classmate_8_2_01e5c29a:
+
+    # mansfield "Давайте, ближе к делу, мистер Эдвардс!"
+    mansfield "Zum Punkt, Herr Edwards!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2442
+translate german dialogue_classmate_8_2_6a2e6584:
+
+    # teacher "Да, конечно. Я доработал методику для вас. Осталось внести всего несколько поправок."
+    teacher "Gerne. Ich habe die Lehrmethoden verbessert. Es gibt nur noch ein paar zusätzliche Sache."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2445
+translate german dialogue_classmate_8_2_db291af2:
+
+    # mansfield "..."
+    mansfield "..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2448
+translate german dialogue_classmate_8_2_a5cc7916:
+
+    # teacher "Завтра утром я ее вам отдам, мисс Мэнсфилд."
+    teacher "Ich gebe sie ihnen dann morgen, Frau Mansfield."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2453
+translate german dialogue_classmate_8_2_043fb41e:
+
+    # mansfield "В таком случае до завтра, мистер Эдвардс!" 
+    mansfield "Bis morgen dann, Herr Edwards!" 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2457
+translate german dialogue_classmate_8_2_5be8e651:
+
+    # teacher "Мисс Мэнсфилд?!"
+    teacher "Frau Mansfield?!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2461
+translate german dialogue_classmate_8_2_d89c474c:
+
+    # mansfield "???"
+    mansfield "???"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2464
+translate german dialogue_classmate_8_2_ec34b528:
+
+    # teacher "Я... для вас..."
+    # teacher "Я очень старался для вас, мисс Мэнсфилд." 
+    # teacher "Это лучшая прогрессивная методика преподавания."
+    # teacher "Я проделал огромную работу..."
+    teacher "Ich... habe sehr..."
+    teacher "Ich habe es sehr hart versucht, Frau Mansfield." 
+    teacher "Das ist die beste Lehrmethode momentan."
+    teacher "ich habe gute Arbeit geleistet..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2471
+translate german dialogue_classmate_8_2_c7e84a6c:
+
+    # teacher "Я был бы очень рад угостить вас ужином, мисс Мэнсфилд."
+    # teacher "Для меня это будет лучшая благодарность с вашей стороны."
+    teacher "Ich hätte sehr gerne ein Abendessen mit ihnen, Frau Mansfield."
+    teacher "Das wäre das Schönste für mich."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2478
+translate german dialogue_classmate_8_2_ce0997cf:
+
+    # mansfield "Мистер Эдвардс! Сколько раз можно заводить этот разговор про ужин?"
+    # mansfield "Ответ тот же..."
+    mansfield "Herr Edwards! Wie oft sollen wir noch über ein Abendessen reden?"
+    mansfield "Die Antwort wird immer die Selbe sein..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2483
+translate german dialogue_classmate_8_2_f86e9d9c:
+
+    # mansfield "НЕТ!"
+    mansfield "NEIN!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2486
+translate german dialogue_classmate_8_2_452fd794:
+
+    # mansfield "Уясните, меня это НЕ ИНТЕРЕСУЕТ!"
+    # mansfield "Меня ВЫ не интересуете!"
+    mansfield "Ich habe kein INTERESSE!"
+    mansfield "Ich habe an IHNEN kein Interesse!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2491
+translate german dialogue_classmate_8_2_2ace2db9:
+
+    # teacher "Тогда, можеть быть... Кофе?" 
+    # teacher "Составите мне компанию, мисс Мэнсфилд?"
+    teacher "Dann vielleicht... einen Kaffee?" 
+    teacher "Wie wäre es damit, Frau Mansfield?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2497
+translate german dialogue_classmate_8_2_e262d85d:
+
+    # mansfield "Ответ НЕТ."
+    mansfield "Die Antwort ist NEIN!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2502
+translate german dialogue_classmate_8_2_5033a0bb:
+
+    # mansfield "И о какой благодарности с моей стороны может быть речь?!"
+    # mansfield "Вообще-то, это Я вам сделала одолжение, мистер Эдвардс!"
+    mansfield "Was meinen sie mit, mein Teil der Sache?"
+    mansfield "Im Grunde habe ich ihnen einen Gefallen getan, Herr Edwards."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2506
+translate german dialogue_classmate_8_2_a18985eb:
+
+    # teacher "???" 
+    teacher "???" 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2509
+translate german dialogue_classmate_8_2_a13ea7ba:
+
+    # mansfield "Я не рассказала про вашего студента директору..."
+    # mansfield "По вашей просьбе."
+    mansfield "Ich habe nicht mit dem Direktor gesprochen..."
+    mansfield "Auf ihr Bitte hin."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2513
+translate german dialogue_classmate_8_2_d4241cdf:
+
+    # teacher "..."
+    teacher "..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2516
+translate german dialogue_classmate_8_2_7331aba8:
+
+    # mansfield "Не знаю, зачем вы так за него заступаетесь..."
+    # teacher "Он... Я..." 
+    mansfield "Ich weiß nicht, warum sie sich so für ihn einsetzen..."
+    teacher "Er... Ich..." 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2521
+translate german dialogue_classmate_8_2_6d8c9705:
+
+    # mansfield "Надеюсь, вас за это хорошо отблагодарили, мистер Эдвардс."
+    mansfield "Ich hoffe, er hat es ihnen sehr gedankt, Herr Edwards."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2525
+translate german dialogue_classmate_8_2_1d9b1139:
+
+    # teacher "!!!" 
+    teacher "!!!" 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2529
+translate german dialogue_classmate_8_2_48dc9793:
+
+    # mansfield "Жду мою методику завтра!"
+    mansfield "Ich erwarte meine Lehrmethoden dann morgen!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3308
+translate german dialogue_classmate_14_fe595690:
+
+    # m "Этого можно было и не делать, мистер Эдвардс!"
+    m "Das hätten sie nicht tun müssen, Herr Edwards!"
 

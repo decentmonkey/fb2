@@ -3845,7 +3845,7 @@ translate english dialogue_classmate_3_3i_c72cadc7:
 
     # mt "Поверить не могу! Я, Моника Бакфетт, должна идти в этот дурацкий колледж!"
     # mt "Да еше и притворяться там матерью какого-то малявки!!!"
-    mt "I can’t believe it! I, Monica Buckett, must go to this stupid college!"
+    mt "I can’t believe it! I, Monica Buckfett, must go to this stupid college!"
     mt "Yes, and even pretend to be the mother of some little one there!!!"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:1537
@@ -4980,4 +4980,186 @@ translate english dialogue_classmate_14_0a5616b8_2:
 
     # mt "!!!"
     mt "!!!"
+
+# TODO: Translation updated at 2019-11-23 13:27
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2262
+translate english dialogue_classmate_8_e2f550f1:
+
+    # m "Когда вы сможете закончить эту работу, мистер Эдвардс?"
+    m "Когда вы сможете закончить эту работу, мистер Эдвардс?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2378
+translate english dialogue_classmate_8_23f2599f:
+
+    # m "Как я узнаю, что у вас получилось договориться с ней, мистер Эдвардс?"
+    # misic Hidden_Agenda
+    m "How do I know you've made a deal with her, Mr. Edwards?"
+    misic Hidden_Agenda
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2432
+translate english dialogue_classmate_8_2_2e1b9836:
+
+    # teacher "Вы сегодня восхитительно выглядите, мисс Мэнсфилд."
+    # teacher "Рад вас видеть! Присаживайтесь."
+    teacher "You look lovely today, Miss Mansfield."
+    teacher "Good to see you! Sit down."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2437
+translate english dialogue_classmate_8_2_01e5c29a:
+
+    # mansfield "Давайте, ближе к делу, мистер Эдвардс!"
+    mansfield "Let's get to the point, Mr. Edwards!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2442
+translate english dialogue_classmate_8_2_6a2e6584:
+
+    # teacher "Да, конечно. Я доработал методику для вас. Осталось внести всего несколько поправок."
+    teacher "Yes, of course. I've refined the methodology for you. There are only a few amendments left to make."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2445
+translate english dialogue_classmate_8_2_db291af2:
+
+    # mansfield "..."
+    mansfield "..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2448
+translate english dialogue_classmate_8_2_a5cc7916:
+
+    # teacher "Завтра утром я ее вам отдам, мисс Мэнсфилд."
+    teacher "I'll give it to you tomorrow morning, Miss Mansfield."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2453
+translate english dialogue_classmate_8_2_043fb41e:
+
+    # mansfield "В таком случае до завтра, мистер Эдвардс!" 
+    mansfield "See you tomorrow, then, Mr. Edwards!" 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2457
+translate english dialogue_classmate_8_2_5be8e651:
+
+    # teacher "Мисс Мэнсфилд?!"
+    teacher "Miss Mansfield?!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2461
+translate english dialogue_classmate_8_2_d89c474c:
+
+    # mansfield "???"
+    mansfield "???"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2464
+translate english dialogue_classmate_8_2_ec34b528:
+
+    # teacher "Я... для вас..."
+    # teacher "Я очень старался для вас, мисс Мэнсфилд." 
+    # teacher "Это лучшая прогрессивная методика преподавания."
+    # teacher "Я проделал огромную работу..."
+    teacher "I am... for you..."
+    teacher "I have tried very hard for you, Miss Mansfield." 
+    teacher "This is the best progressive method of teaching."
+    teacher "I've done a great job..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2471
+translate english dialogue_classmate_8_2_c7e84a6c:
+
+    # teacher "Я был бы очень рад угостить вас ужином, мисс Мэнсфилд."
+    # teacher "Для меня это будет лучшая благодарность с вашей стороны."
+    teacher "I'd love to have dinner with you, Miss Mansfield."
+    teacher "For me, it will be the best gratitude on your part."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2478
+translate english dialogue_classmate_8_2_ce0997cf:
+
+    # mansfield "Мистер Эдвардс! Сколько раз можно заводить этот разговор про ужин?"
+    # mansfield "Ответ тот же..."
+    mansfield "Mr. Edwards! How many times can we have this conversation about dinner?"
+    mansfield "The answer is the same..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2483
+translate english dialogue_classmate_8_2_f86e9d9c:
+
+    # mansfield "НЕТ!"
+    mansfield "NO!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2486
+translate english dialogue_classmate_8_2_452fd794:
+
+    # mansfield "Уясните, меня это НЕ ИНТЕРЕСУЕТ!"
+    # mansfield "Меня ВЫ не интересуете!"
+    mansfield "I'm not INTERESTED!"
+    mansfield "I'm not interested in YOU!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2491
+translate english dialogue_classmate_8_2_2ace2db9:
+
+    # teacher "Тогда, можеть быть... Кофе?" 
+    # teacher "Составите мне компанию, мисс Мэнсфилд?"
+    teacher "Then maybe... Coffee?" 
+    teacher "Will you accompany me, Miss Mansfield?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2497
+translate english dialogue_classmate_8_2_e262d85d:
+
+    # mansfield "Ответ НЕТ."
+    mansfield "The answer is NO."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2502
+translate english dialogue_classmate_8_2_5033a0bb:
+
+    # mansfield "И о какой благодарности с моей стороны может быть речь?!"
+    # mansfield "Вообще-то, это Я вам сделала одолжение, мистер Эдвардс!"
+    mansfield "And what kind of gratitude on my part can be discussed?!"
+    mansfield "Actually, I did you a favor, Mr. Edwards!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2506
+translate english dialogue_classmate_8_2_a18985eb:
+
+    # teacher "???" 
+    teacher "???" 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2509
+translate english dialogue_classmate_8_2_a13ea7ba:
+
+    # mansfield "Я не рассказала про вашего студента директору..."
+    # mansfield "По вашей просьбе."
+    mansfield "I didn't tell the principal about your student..."
+    mansfield "At your request."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2513
+translate english dialogue_classmate_8_2_d4241cdf:
+
+    # teacher "..."
+    teacher "..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2516
+translate english dialogue_classmate_8_2_7331aba8:
+
+    # mansfield "Не знаю, зачем вы так за него заступаетесь..."
+    # teacher "Он... Я..." 
+    mansfield "I don't know why you stand up for him like that..."
+    teacher "He... I am..." 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2521
+translate english dialogue_classmate_8_2_6d8c9705:
+
+    # mansfield "Надеюсь, вас за это хорошо отблагодарили, мистер Эдвардс."
+    mansfield "I hope you've been well thanked for that, Mr. Edwards."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2525
+translate english dialogue_classmate_8_2_1d9b1139:
+
+    # teacher "!!!" 
+    teacher "!!!" 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2529
+translate english dialogue_classmate_8_2_48dc9793:
+
+    # mansfield "Жду мою методику завтра!"
+    mansfield "Waiting for my methodology tomorrow!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3308
+translate english dialogue_classmate_14_fe595690:
+
+    # m "Этого можно было и не делать, мистер Эдвардс!"
+    m "You didn't have to do that, Mr. Edwards!"
 
