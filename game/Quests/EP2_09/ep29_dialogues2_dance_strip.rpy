@@ -1844,6 +1844,7 @@ label dialogue_5_dance_strip_30b:
     return
 label dialogue_5_dance_strip_30c:
     # картина Молли на стене
+    img 22896
     mt "Это что? Фото стриптизерши во время работы?"
     mt "Фи, как пошло!"
     mt "А где фото второй стриптизерши?"
@@ -1867,11 +1868,13 @@ label dialogue_5_dance_strip_30f:
     return
 label dialogue_5_dance_strip_30g:
     # столик Молли
+    img 22898
     mt "Это столик для грима?"
     mt "Минимум косметики, деньги, коктейль, сигарета... Фу!"
     return
 label dialogue_5_dance_strip_30h:
     # столик Клэр
+    img 22897
     mt "Я тоже люблю, когда у меня есть много косметики."
     mt "Хоть я ею и не пользуюсь..."
     return
