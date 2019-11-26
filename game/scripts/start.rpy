@@ -51,7 +51,7 @@ label start:
 
 
 
-    #call ep29_dialogues4_lesbian_threesome_victoria_1()
+    # call dialogue_5_dance_strip_8()
 
 
     call intro_questions() from _call_intro_questions
