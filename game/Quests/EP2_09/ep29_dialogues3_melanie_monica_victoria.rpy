@@ -8,6 +8,7 @@
 label ep29_dialogues3_melanie_monica_victoria_3b:
     # Моника смотрит на Мелани удивленно
     music ZigZag
+    sound snd_door_open1
     img 15409
     with fadelong
     w
@@ -82,8 +83,10 @@ label ep29_dialogues3_melanie_monica_victoria_3b:
     img black_screen
     with diss
     sound highheels_short_walk
+    sound2 snd_door_close1
+    pause 2.0
     # у Моники в заданиях появляется "Пойти вечером к Мелани домой на встречу с 'другом'"
-    $ log1 = _("Пойти вечером к Мелани домой на встречу с 'другом'")
+    #$ log1 = _("Пойти вечером к Мелани домой на встречу с 'другом'")
     return
 
 # кабинет Моники, когда поработала до вечера и пора идти к Мелани
@@ -105,7 +108,7 @@ label ep29_dialogues3_melanie_monica_victoria_7:
     mt "Лучше мне пойти сейчас к Мелани и самой все узнать."
     mt "Да, так будет лучше всего."
     # в заданиях появляется "Нужно переодеться и ехать к Мелани"
-    $ log1 = _("Нужно переодеться и ехать к Мелани")
+    #$ log1 = _("Нужно переодеться и ехать к Мелани")
     return
 
 # мысли Моники

@@ -864,88 +864,89 @@ screen hud_minimap(minimapData):
             minimap_pos_x = gui.resolution.hud_screen.minimap_x_pos_owner
             minimap_pos_y = gui.resolution.hud_screen.minimap_y_pos_owner
 
-    fixed:
-        if len(minimapData) > 0:
-            pos (int(minimap_pos_x * gui.resolution.koeff), int(minimap_pos_y * gui.resolution.koeff))
-            if miniMapOpened == False:
-                button:
-                    yanchor 0.0
-                    xanchor 0.5
-                    xysize (int(196 * gui.resolution.koeff), int(110 * gui.resolution.koeff))
-                    padding (0,0)
-                    action [
-                        Call("miniMapOpen")
-                    ]
-#                        imgName = get_image_filename(miniMapOpenButtonImg + res.suffix)
-                    add get_image_filename(miniMapOpenButtonImg + res.suffix)
-                    text "":
-                        xanchor 0.5
-                        xpos 0.465
-                        ypos 0.5
-                        style "minimap_open_button_text"
-#                    action Call("miniMapOpen")
-            else:
-                vbox:
+    if miniMapTurnedOff == False:
+        fixed:
+            if len(minimapData) > 0:
+                pos (int(minimap_pos_x * gui.resolution.koeff), int(minimap_pos_y * gui.resolution.koeff))
+                if miniMapOpened == False:
                     button:
                         yanchor 0.0
                         xanchor 0.5
                         xysize (int(196 * gui.resolution.koeff), int(110 * gui.resolution.koeff))
                         padding (0,0)
-                        add get_image_filename(miniMapOpenButtonImg2 + res.suffix)
+                        action [
+                            Call("miniMapOpen")
+                        ]
+    #                        imgName = get_image_filename(miniMapOpenButtonImg + res.suffix)
+                        add get_image_filename(miniMapOpenButtonImg + res.suffix)
                         text "":
                             xanchor 0.5
                             xpos 0.465
                             ypos 0.5
                             style "minimap_open_button_text"
-                        action [
-                            Call("miniMapClose")
-                        ]
-                    null:
-                        height 10
-                    for minimapCell in minimapData:
-#                       $ print minimapCell
-                        $ locationDisabledFlag = False
-                        if len(miniMapEnabledOnly) > 0:
-                            if minimapCell["name"] in miniMapEnabledOnly:
-                                $ locationDisabledFlag = False
-                            else:
-                                $ locationDisabledFlag = True
-#                        if minimapCell["name"] in miniMapDisabled:
-#                            $ locationDisabledFlag = True
-                        $ minimapCheckMapScene = map_scene
-                        if map_scene == "Hostel2" or map_scene == "Cloth_Shop":
-                            $ minimapCheckMapScene = "Street_Corner"
-                        if miniMapDisabled.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled[minimapCheckMapScene]:
-                            $ locationDisabledFlag = True
-                        if (cloth == "CasualDress1" or cloth == "SchoolOutfit1") and miniMapDisabled2.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled2[minimapCheckMapScene]:
-                            $ locationDisabledFlag = True
+    #                    action Call("miniMapOpen")
+                else:
+                    vbox:
                         button:
                             yanchor 0.0
                             xanchor 0.5
                             xysize (int(196 * gui.resolution.koeff), int(110 * gui.resolution.koeff))
                             padding (0,0)
-                            if locationDisabledFlag == False:
-                                add get_image_filename(minimapCell["img"] + res.suffix)
-                            else:
-                                add get_image_filename(minimapCell["img"] + "_Disabled" + res.suffix)
-                            text minimapCell["caption"]:
-                                ypos 0.5
+                            add get_image_filename(miniMapOpenButtonImg2 + res.suffix)
+                            text "":
                                 xanchor 0.5
                                 xpos 0.465
-                                style "minimap_button_text"
-                            if locationDisabledFlag == False:
-                                action [
-                                    Call("miniMapHouseGenerateTeleport", minimapCell["name"], minimapCell)
-#                                   Return(False)
-                                ]
-                            else:
-                                action [
-                                    Call("miniMapDisabled", minimapCell["name"], minimapCell)
-                                ]
-#                    hovered tt.Action("This is City 1")
+                                ypos 0.5
+                                style "minimap_open_button_text"
+                            action [
+                                Call("miniMapClose")
+                            ]
                         null:
                             height 10
-#        pos renpy.get_mouse_pos()
+                        for minimapCell in minimapData:
+    #                       $ print minimapCell
+                            $ locationDisabledFlag = False
+                            if len(miniMapEnabledOnly) > 0:
+                                if minimapCell["name"] in miniMapEnabledOnly:
+                                    $ locationDisabledFlag = False
+                                else:
+                                    $ locationDisabledFlag = True
+    #                        if minimapCell["name"] in miniMapDisabled:
+    #                            $ locationDisabledFlag = True
+                            $ minimapCheckMapScene = map_scene
+                            if map_scene == "Hostel2" or map_scene == "Cloth_Shop":
+                                $ minimapCheckMapScene = "Street_Corner"
+                            if miniMapDisabled.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled[minimapCheckMapScene]:
+                                $ locationDisabledFlag = True
+                            if (cloth == "CasualDress1" or cloth == "SchoolOutfit1") and miniMapDisabled2.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled2[minimapCheckMapScene]:
+                                $ locationDisabledFlag = True
+                            button:
+                                yanchor 0.0
+                                xanchor 0.5
+                                xysize (int(196 * gui.resolution.koeff), int(110 * gui.resolution.koeff))
+                                padding (0,0)
+                                if locationDisabledFlag == False:
+                                    add get_image_filename(minimapCell["img"] + res.suffix)
+                                else:
+                                    add get_image_filename(minimapCell["img"] + "_Disabled" + res.suffix)
+                                text minimapCell["caption"]:
+                                    ypos 0.5
+                                    xanchor 0.5
+                                    xpos 0.465
+                                    style "minimap_button_text"
+                                if locationDisabledFlag == False:
+                                    action [
+                                        Call("miniMapHouseGenerateTeleport", minimapCell["name"], minimapCell)
+    #                                   Return(False)
+                                    ]
+                                else:
+                                    action [
+                                        Call("miniMapDisabled", minimapCell["name"], minimapCell)
+                                    ]
+    #                    hovered tt.Action("This is City 1")
+                            null:
+                                height 10
+    #        pos renpy.get_mouse_pos()
 
 screen hud_screen(hud_presets):
     layer "master"

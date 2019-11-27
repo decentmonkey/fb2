@@ -533,6 +533,18 @@ label define_hudpresets:
             "display_closemap" : True,
             "display_face_hud": True,
             "display_questlog": False
+        },
+        "melanie": {
+            "display_daytime" : True,
+            "display_money" : True,
+            "display_objectives" : True,
+            "display_calendar" : True,
+            "display_scene_caption" : True,
+            "display_scene_map" : True,
+            "display_bitchmeter" : False,
+            "display_closemap" : True,
+            "display_face_hud": True,
+            "display_questlog": False
         }
     }
     return

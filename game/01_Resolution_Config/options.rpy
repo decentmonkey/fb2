@@ -188,7 +188,7 @@ define config.window_icon = "gui/window_icon.png"
 
 define config.developer = True
 define config.cache_surfaces = True
-define config.image_cache_size_mb = 500
+define config.image_cache_size_mb = 100
 
 ## Build configuration #########################################################
 ##

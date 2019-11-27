@@ -2,11 +2,16 @@
 # управление продолжается за Мелани
 label ep29_dialogues4_lesbian_threesome_victoria_1:
     # Мелани дома одна, как обычно стоит перед зеркалом
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
     music ZigZag
     img 15498
     with fadelong
-    melanie_t "Скоро придет эта сучка Виктория. Надо быть с ней осторожнее."
-    melanie_t "Она не должна догадаться, что я ищу способ, как поставить ее на место."
+    w
+#    melanie_t "Скоро придет эта сучка Виктория. Надо быть с ней осторожнее."
+#    melanie_t "Она не должна догадаться, что я ищу способ, как поставить ее на место."
     # Мелани смотрит на часы
     img 15499
     with diss
@@ -107,6 +112,11 @@ label ep29_dialogues4_lesbian_threesome_victoria_1:
     img 15512
     with fade
     w
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 2.0
     music Power_Bots_Loop
     img 15513
     with hpunch
@@ -127,6 +137,12 @@ label ep29_dialogues4_lesbian_threesome_victoria_1:
     with diss
     mt "Как ОНА оказалась у Мелани дома???"
     mt "???"
+    stop music fadeout 1.0
+    scene black_screen
+    with Dissolve(1)
+    call textonblack(_("РАНЕЕ В ЭТОТ ДЕНЬ..."))
+    scene black_screen
+    with Dissolve(1)
     # появляется затемнение экрана "Ранее в этот день..."
     return
 
