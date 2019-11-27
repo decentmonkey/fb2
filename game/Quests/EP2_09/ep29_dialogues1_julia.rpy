@@ -1,3 +1,8 @@
+default ep29_dialogues1_julia_4_w5_offended = False
+default ep29_dialogues1_julia_4_julia_offended = False
+default ep29_dialogues1_julia_5_julia_offended = False
+default ep29_dialogues1_julia_5_julia_offended2 = False
+
 # Меню "Отношения с Юлией"
 label ep29_dialogues1_julia_1:
     menu:
@@ -203,10 +208,10 @@ label ep29_dialogues1_julia_2:
     # потом Моника делает вид, что ничего не произошло
     music Groove2_85
     img 22325
-    with diss
+#    with diss
     w
     img 22326
-    with diss
+#    with diss
     m "!!!"
     img 22327
     with fade
@@ -366,11 +371,12 @@ label ep29_dialogues1_julia_3:
     mt "Когда верну себе все, что у меня отняли!"
     mt "Я его заставлю пожалеть об этих его 'маленьких просьбах'!"
     mt "!!!"
-    return
+    return True
 
 # Кабинет Моники.
 label ep29_dialogues1_julia_4:
     # Моника стоит у себя в кабинете, Юлия работает за своим столом
+    # Принести горячий кофе
     music Groove2_85
     img 22342
     with fadelong
@@ -468,17 +474,21 @@ label ep29_dialogues1_julia_4:
     music stop
     img black_screen
     with diss
+    sound snd_door_open1
     pause 1.0
+    sound snd_door_close1
     music Sneaky_Snitch
     img 22360
     with fadelong
     w
-    sound vjuh3
+#    sound vjuh3
+    sound Jump1
     img 22361
     with fade
     w
     img 22362
     with hpunch
+    sound Jump2
     mt "!!!"
     mt "Какого черта?!"
     img 22363
@@ -493,6 +503,7 @@ label ep29_dialogues1_julia_4:
     img 22366
     with diss
     mt "..."
+    music Groove2_85
     menu:
         "Послушать, что он скажет дальше.":
             music Sneaky_Snitch
@@ -505,19 +516,23 @@ label ep29_dialogues1_julia_4:
             with diss
             w5 "Ведь я могу не только качественно и быстро выполнять свои прямые обязанности..."
             w5 "Я также могу помогать Вам, ведь Вам приходится очень много работать."
+            music Groove2_85
             mt "!!!"
             mt "Какой же он мерзкий тип этот Джон!"
             mt "Какого черта ОН притащил мне этот кофе!!!"
             mt "!!!" # уже очень злая
+            music Sneaky_Snitch
             img 22369
             with fade
             w5 "И такой помощник, как Я, будет Вам как раз кстати, Миссис Бакфетт."
             w5 "В отличии от толстухи Греты, Я могу делать любую работу в этом отделе."
             w5 "Даже самую сложную и ответственную..."
+            music Groove2_85
             img 22370
             with diss
             mt "!!!" # очень-очень злая
             mt "Когда этот сукин сын уже замолчит?!"
+            music Sneaky_Snitch
             img 22371
             with fade
             w5 "Помимо этого, я всегда внимателен к желаниям начальства..."
@@ -525,7 +540,7 @@ label ep29_dialogues1_julia_4:
             w5 "Я..."
             music Power_Bots_Loop
             img 22372
-            with diss
+            with hpunch
             m "ТАК, ХВАТИТ!"
             m "!!!"
             m "Ты слишком много разговариваешь! Иди работай!!!"
@@ -540,7 +555,7 @@ label ep29_dialogues1_julia_4:
             w5 "Надеюсь, Вам понравится кофе. Если захотите еще, я с радостью его Вам принесу..."
             music Power_Bots_Loop
             img 22375
-            with diss
+            with hpunch
             m "Вон из моего кабинета!!!"
             mt "!!!"
 
@@ -555,13 +570,16 @@ label ep29_dialogues1_julia_4:
             with diss
             w5 "Хорошо, Миссис Бакфетт. Понимаю, Вы очень заняты."
             w5 "Помните, что Вы всегда можете на меня рассчитывать, Миссис Бакфетт." # уходит
+            $ ep29_dialogues1_julia_4_w5_offended = True
 
     # подхалим уходит, Юлия стоит на том же месте. Моника зло смотрит на нее
     # sound переход, подхалим уходит
     music stop
     img black_screen
     with diss
+    sound snd_door_open1
     pause 1.0
+    sound snd_door_close1
     music Hidden_Agenda
     img 22378
     with fadelong
@@ -586,7 +604,8 @@ label ep29_dialogues1_julia_4:
             m "Иди работай!!!"
             # Юлия расстроенная уходит
             sound highheels_run2
-            pass
+            $ ep29_dialogues1_julia_4_julia_offended = True
+
         "Не отчитывать Юлию.":
             music Groove2_85
             img 22383
@@ -626,6 +645,7 @@ label ep29_dialogues1_julia_4:
 
 # Кабинет Моники.
 label ep29_dialogues1_julia_5:
+    # совещание
     # Моника стоит у себя в кабинете, Юлия работает за своим столом
     music Groove2_85
     img 22389
@@ -698,7 +718,9 @@ label ep29_dialogues1_julia_5:
     music stop
     img black_screen
     with diss
+    sound snd_door_open1
     pause 1.0
+    sound snd_door_close1
     music Groove2_85
     img 22401
     with fade
@@ -716,7 +738,7 @@ label ep29_dialogues1_julia_5:
     w5 "Миссис Бакфетт! Вы сегодня прекрасно выглядите!"
     w5 "Хотите, я принесу Вам горячего кофе, как в прошлый раз?"
     mt "Мерзкий тип..."
-    music Power_Bots_Loop
+    music Groove2_85
     img 22404
     with fade
     m "Нет! Садитесь на кресла. У меня к вам серьезный разговор!"
@@ -729,7 +751,7 @@ label ep29_dialogues1_julia_5:
             m "Юлия, твое присутствие на совещании не обязательно! Можешь возвращаться к своей работе!"
             julia "Хорошо, Миссис Бакфетт."
             sound highheels_short_walk
-            pass
+            $ ep29_dialogues1_julia_5_julia_offended = True
         "Заставить Юлию вести протокол совещания.":
             music Groove2_85
             img 22405
@@ -748,7 +770,7 @@ label ep29_dialogues1_julia_5:
             mt "Зато Юлия будет думать, что занимается полезным делом..."
             mt "..."
             mt "Какие же они все жалкие неудачники! Фи!"
-            pass
+
     # Грета с Джоном садятся на диван, Юлия уходит и садится за свой стол
     # Грета услужливо обращается к Монике
     music Sneaky_Snitch
@@ -887,6 +909,8 @@ label ep29_dialogues1_julia_5:
     m "Точно! Допустим, вам нужно узнать, какого цвета трусики носит моя помощница Юлия!"
     # Юлия в шоке
     # сменить музыку
+    music Groove2_85
+    sound Jump1
     img 22434
     with vpunch
     julia "!!!"
@@ -902,6 +926,7 @@ label ep29_dialogues1_julia_5:
     #sound Юлия вскакивает, падает стул
 
     sound down9
+    sound2 Jump2
     img 22437
     with vpunch
     w
@@ -950,7 +975,7 @@ label ep29_dialogues1_julia_5:
     sound highheels_short_walk
     music Groove2_85
     img 22446
-    with diss
+    with fadelong
     julia "М-миссис Бакфетт, можно спросить Вас?"
     m "..."
     menu:
@@ -984,7 +1009,7 @@ label ep29_dialogues1_julia_5:
             mt "Скорей бы вышвырнуть эту сволочь Биффа из моего кабинета!!!"
             mt "Мое место там! Среди моды!"
             mt "А не среди этих безмозглых болванов!"
-            pass
+            $ ep29_dialogues1_julia_5_julia_offended2 = True
     # Моника сидит с покерфейсом, на Юлию не смотрит
     music stop
     sound highheels_short_walk
@@ -1074,6 +1099,16 @@ label ep29_dialogues1_julia_7:
     mt "Фи!"
     return
 
+label ep29_dialogues1_julia_8a:
+    mt "Я поручила это дело своим сотрудникам."
+    mt "Такими глупостями должны заниматься подчиненные, а не такой важный Босс, как Я!"
+    mt "Мне надо подождать новостей от них!"
+    return
+
+label ep29_dialogues1_julia_8b:
+    help "Дальнейший прогресс с Юлией будет доступен в следующем обновлении."
+    return
+
 # Грета приходит к Юлии, когда в кабинете нет Моники.
 label ep29_dialogues1_julia_8:
     music Sneaky_Snitch
@@ -1161,6 +1196,7 @@ label ep29_dialogues1_julia_8:
     w6 "..."
     w6 "По любимому цвету можно охарактеризовать любого человека..."
     w6 "..."
+    sound Jump1
     music Power_Bots_Loop
     img 22483
     with fade
@@ -1172,12 +1208,13 @@ label ep29_dialogues1_julia_8:
     with diss
     w6 "Юлия..."
     sound highheels_run2
+    sound2 vjuh3
     img 22485
     with fade
     julia "Нет! Я не буду больше отвечать на твои вопросы!" # возмущенно
     julia "Цвет моего нижнего белья - это мое личное дело!"
     julia "И никакого отношения к работе это не имеет!"
-    sound vjuh3
+#    sound Jump1
     img 22486
     with diss
     julia "!!!"
@@ -1443,14 +1480,15 @@ label ep29_dialogues1_julia_10:
     # Юлия подпрыгивает от неожиданности.
     # Джон и Гретта с крайне сосредоточенными лицами подбегают к ней, окружают с двух сторон
     # Юлия напугана, смотрит то на Джона, то на Грету
-    music Power_Bots_Loop
+#    music Sneaky_Snitch
+    sound snd_door_open1
+    music Turbo_Tornado
     img 22538
     with fade
     julia "!!!"
     julia "Ч-ч-что вы делаете?!"
     w6 "!!!"
     w5 "!!!"
-    music Sneaky_Snitch
     img 22539
     with diss
     w5 "Юлия! У меня к тебе серьезный разговор!"
@@ -1459,7 +1497,7 @@ label ep29_dialogues1_julia_10:
     w6 "Ты должна помочь мне Юлия!"
     w6 "Ты же говорила, что будешь помогать коллегам!"
     sound vjuh3
-    music Power_Bots_Loop
+#    music Power_Bots_Loop
     img 22541
     with fade
     #sound Юлия хватает стул в руки
@@ -1467,10 +1505,12 @@ label ep29_dialogues1_julia_10:
     img 22542
     with diss
     w6 "Нет, ему не надо ничего говорить! Скажи мне!"
+    sound Jump1
     music Turbo_Tornado
     img 22543
     with diss
     w5 "Нет, МНЕ!!!"
+    sound Jump1
     img 22544
     with diss
     w6 "МНЕ!!!"
@@ -1484,7 +1524,7 @@ label ep29_dialogues1_julia_10:
     sound Jump1
     #sound Юлия заскакивает на стол
     julia "Хватит!" # Юлия в шоке
-    music Power_Bots_Loop
+#    music Power_Bots_Loop
     sound down9
     img 22547
     with diss
@@ -1492,7 +1532,7 @@ label ep29_dialogues1_julia_10:
     img 22548
     with fade
     julia "Я не собираюсь никому ничего рассказывать!"
-    music Groove2_85
+#    music Groove2_85
     w5 "Ну покажи!"
     img 22549
     with diss
@@ -1525,15 +1565,20 @@ label ep29_dialogues1_julia_10:
     sound Jump1
     #sound Юлия перепрыгивает столик (вжик!)
     w
+    sound2 Jump2
     img 22555
     with diss
     sound highheels_run2
     julia "Я сегодня же пожалуюсь Миссис Бакфетт на вас!"
     julia "!!!"
     # Юлия убегает из кабинета, они смотрят ей вслед, потом друг на друга
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
     music Groove2_85
     img 22556
-    with fade
+    with fadelong
     w6 "!!!"
     w5 "!!!"
 

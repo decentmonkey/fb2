@@ -61,8 +61,15 @@ label ep28_quests_julia_panties_menu:
         $ workingOfficeCabinetMonicaSuffix = 2
         call refresh_scene_fade() from _call_refresh_scene_fade_179
         return
-
-
+    if _return == 5: #Заставить Юлию включить неработающий компьютер
+        call ep29_quests_julia1()
+        return
+    if _return == 6: #Заставить Юлию принести горячий кофе
+        call ep29_quests_julia2()
+        return
+    if _return == 7: #Есть же подчиненные. Поручить им выполнить просьбу Фреда
+        call ep29_quests_julia3()
+        return
     return
 
 label ep28_quests_julia_fred_catch2: # Фред ловит Монику на входе #2
