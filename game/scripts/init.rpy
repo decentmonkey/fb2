@@ -14,7 +14,18 @@ define monicaTeacherCorruption2 = 310 # Моника показывает гру
 define monicaTeacherCorruption3 = 250 # Моника показывает грудь сразу
 define monicaTeacherCorruption4 = 210 # Моника показывает грудь, поломавшись
 
+define monicaTeacherCorruption5 = 260 # Моника дает потрогать грудь сразу
+define monicaTeacherCorruption6 = 220 # Моника дает потрогать грудь, поломавшись
+
+define monicaTeacherCorruption7 = 280 # Моника делает handjob сразу
+define monicaTeacherCorruption8 = 240 # Моника делает handjob, поломавшись
+
+define monicaTeacherCorruption9 = 350 # Моника занимается сексом сразу
+define monicaTeacherCorruption10 = 330 # Моника занимается сексом, поломавшись
+
 define monicaTeacherAddCorruption1 = 10 # За показ груди день 1
+define monicaTeacherAddCorruption2 = 10 # За трогание груди день 2
+define monicaTeacherAddCorruption3 = 20 # За handjob день 3
 
 define monicaJailDay1AddCorruption = 30 # За евенты дня1
 define monicaJailDay2AddCorruption = 30 # За евенты дня1

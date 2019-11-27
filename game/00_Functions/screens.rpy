@@ -241,7 +241,8 @@ screen screen_sprites(data):
                                 $ overlayName = data[i]["img" + day_time_suffix + "_overlay"] if data[i]["img" + day_time_suffix + "_overlay"] != False else data[i]["img" + "_overlay"] if data[i]["img" + "_overlay"] != False else False
                                 if pass_num == 1:
                                     if overlayName != False:
-                                        add overlayName at convert_resolution_transform:
+#                                        add overlayName at convert_resolution_transform:
+                                        add overlayName:
                                             if overlay_canvas_offset != False:
                                                 xpos overlay_canvas_offset[1]
                                                 ypos overlay_canvas_offset[0]
@@ -339,7 +340,8 @@ screen screen_sprites(data):
                                 $ if spriteStr == False and maskStr == False and overlayName == False: disableSprite = True
                                 if pass_num == 1:
                                     if overlayName != False:
-                                        add overlayName at convert_resolution_transform:
+#                                        add overlayName at convert_resolution_transform:
+                                        add overlayName:
                                             if overlay_canvas_offset != False:
                                                 xpos overlay_canvas_offset[1]
                                                 ypos overlay_canvas_offset[0]

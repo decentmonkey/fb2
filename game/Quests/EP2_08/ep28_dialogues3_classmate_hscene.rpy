@@ -1,5 +1,7 @@
 default dialogue_classmate_5_flag = False
 default dialogue_classmate_7_flag = False
+default dialogue_classmate_8_flag = False
+default dialogue_classmate_11_flag = False
 
 # Дом. Комната Барди. Барди и Эрик (одноклассник).
 label dialogue_classmate_1:
@@ -2219,7 +2221,7 @@ label dialogue_classmate_7:
     mt "Иначе у меня возникнут проблемы посерьезнее, чем есть сейчас."
     return False
 
-# Колледж. Класс. Разговор Моники и учителя.
+# Колледж. Класс. Разговор Моники и учителя., второе посещение
 label dialogue_classmate_8:
     # Моника заходит в кабинет, стоит у дверей, учитель сидит за учительским столом
     music Groove2_85
@@ -2230,40 +2232,42 @@ label dialogue_classmate_8:
     with diss
     mt "Надеюсь, в этот раз мне не придется вдохновлять его своей голой грудью..."
     sound highheels_short_walk
-    img 15002
-    with fade
-    m "Мистер Эдвардс, добрый день."
-    # учитель поворачивается к ней, с улыбочкой
-    img 15003
-    with diss
-    teacher "Здавствуйте, миссис Бейкер. Я вас ждал. Присаживайтесь."
-    # Моника садится на стул рядом с его столом
-    sound highheels_short_walk
-    img 15004
-    with fade
-    m "Удалось ли вам договориться с мисс Мэнсфилд?" #с серьезным выражением лица
-    music Hidden_Agenda
-    img 15005
-    with diss
-    teacher "Да, я поговорил с ней, миссис Бейкер."
-    teacher "И у меня почти получилось с ней договориться, но..."
-    img 15006
-    with fade
-    m "???"
-    m "Но?.."
-    img 15007
-    with diss
-    teacher "Она осталась не совсем довольна тем, что мою методику преподавания ей нужно дорабатывать."
-    teacher "Но мисс Мэнсфилд согласна подождать, когда я закончу работу."
-    teacher "Только после этого она согласна забыть про случай с Эриком."
-    music Groove2_85
-    img 15008
-    with fade
-    m "Когда вы сможете закончить эту работу, мистер Эдвардс?"
-    img 15009
-    with diss
-    teacher "Я уже провел кое-какую работу над своей методикой."
-    teacher "Думаю, теперь мисс Мэнсфилд будет ею довольна."
+    if dialogue_classmate_8_flag == False:
+        img 15002
+        with fade
+        m "Мистер Эдвардс, добрый день."
+        # учитель поворачивается к ней, с улыбочкой
+        img 15003
+        with diss
+        teacher "Здавствуйте, миссис Бейкер. Я вас ждал. Присаживайтесь."
+        # Моника садится на стул рядом с его столом
+        sound highheels_short_walk
+        img 15004
+        with fade
+        m "Удалось ли вам договориться с мисс Мэнсфилд?" #с серьезным выражением лица
+        music Hidden_Agenda
+        img 15005
+        with diss
+        teacher "Да, я поговорил с ней, миссис Бейкер."
+        teacher "И у меня почти получилось с ней договориться, но..."
+        img 15006
+        with fade
+        m "???"
+        m "Но?.."
+        img 15007
+        with diss
+        teacher "Она осталась не совсем довольна тем, что мою методику преподавания ей нужно дорабатывать."
+        teacher "Но мисс Мэнсфилд согласна подождать, когда я закончу работу."
+        teacher "Только после этого она согласна забыть про случай с Эриком."
+        music Groove2_85
+        img 15008
+        with fade
+        m "Когда вы сможете закончить эту работу, мистер Эдвардс?"
+        img 15009
+        with diss
+        teacher "Я уже провел кое-какую работу над своей методикой."
+        teacher "Думаю, теперь мисс Мэнсфилд будет ею довольна."
+        $ dialogue_classmate_8_flag = True
     music Hidden_Agenda
     img 15010
     with fade
@@ -2295,6 +2299,7 @@ label dialogue_classmate_8:
     music Groove2_85
     img 15016
     with diss
+    $ menu_corruption = [0, monicaTeacherCorruption6, monicaTeacherCorruption5]
     menu:
         "Убежать.":
             music Power_Bots_Loop
@@ -2317,7 +2322,7 @@ label dialogue_classmate_8:
             img 15020
             with fade
             teacher "..."
-            return 1
+#            return 1
         "Если это поможет быстрее решить проблему малявки, то, возможно, стоит потерпеть...":
             pass
 
@@ -2376,7 +2381,7 @@ label dialogue_classmate_8:
     img 15032
     with diss
     m "Как я узнаю, что у вас получилось договориться с ней, мистер Эдвардс?"
-    misic Hidden_Agenda
+    music Hidden_Agenda
     img 15033
     with fade
     teacher "Будет лучше, если вы снова придете ко мне. И тогда я вам лично все сообщу, миссис Бейкер." #с улыбочкой
@@ -2405,7 +2410,6 @@ label dialogue_classmate_8:
     teacher "До свидания, миссис Бейкер."
     teacher "Буду рад видеть вас снова."
 
-    $ log1 = _("Сообщить Барди о визите в колледж")
     $ log1 = _("Идти в колледж, притворившись мамой Эрика")
     return
 
@@ -2418,6 +2422,12 @@ label dialogue_classmate_8_1:
 
 # Колледж. Класс. Разговор учителя и мисс Мэнсфилд.
 label dialogue_classmate_8_2:
+    scene black_screen
+    with Dissolve(1)
+    stop music fadeout 1.0
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    scene black_screen
+    with Dissolve(1)
     # в кабинет к Эдвардсу заходит мисс Мэнсфилд, в руках нагайка, учитель вскакивает со своего стула, широко улыбается
     music Groove2_85
     img 22558
@@ -2477,9 +2487,9 @@ label dialogue_classmate_8_2:
     with vpunch
     mansfield "Мистер Эдвардс! Сколько раз можно заводить этот разговор про ужин?"
     mansfield "Ответ тот же..."
-    music Power_Bots_Loop
+#    music Groove2_85
     img 22571
-    with diss
+#    with diss
     mansfield "НЕТ!"
     img 22572
     with fade
@@ -2490,13 +2500,13 @@ label dialogue_classmate_8_2:
     with diss
     teacher "Тогда, можеть быть... Кофе?" #растерянно
     teacher "Составите мне компанию, мисс Мэнсфилд?"
-    music Power_Bots_Loop
+    music Groove2_85
     sound Jump2
     img 22574
     with vpunch
     mansfield "Ответ НЕТ."
     # убирает нагайку с его груди, он держится за это место, она ему с насмешкой
-    music Groove2_85
+#    music Groove2_85
     img 22575
     with diss
     mansfield "И о какой благодарности с моей стороны может быть речь?!"
@@ -2516,6 +2526,7 @@ label dialogue_classmate_8_2:
     mansfield "Не знаю, зачем вы так за него заступаетесь..."
     teacher "Он... Я..." #растерянно
     music Groove2_85
+    sound vjuh3
     img 22580
     with fade
     mansfield "Надеюсь, вас за это хорошо отблагодарили, мистер Эдвардс."
@@ -2528,6 +2539,10 @@ label dialogue_classmate_8_2:
     with fade
     mansfield "Жду мою методику завтра!"
     # хлопает дверью, Эдвардс стоит расстроенный
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
     return
 
 # Дом. Комната Барди. Барди и Моника
@@ -2593,60 +2608,63 @@ label dialogue_classmate_11:
     img 15036
     with fade
     m "Мистер Эдвардс, добрый день."
-    # учитель поворачивается к ней, с улыбочкой
     img 15037
     with diss
     teacher "Здавствуйте, миссис Бейкер."
-    teacher "Я вас ждал. Присаживайтесь."
-    # Моника садится на стул рядом с его столом
-    img 15038
-    with fade
-    m "Удалось ли вам договориться с мисс Мэнсфилд?" #с серьезным выражением лица
-    music Hidden_Agenda
-    img 15039
-    with diss
-    teacher "Видите ли, с мисс Мэнсфилд не так просто договориться."
-    teacher "Она снова нашла недочеты в моей работе."
-    img 15040
-    with fade
-    m "..."
-    img 14740
-    with diss
-    teacher "Но, благодаря вам, миссис Бейкер, я превзошел сам себя и доделал свою методику." #улыбаясь
-    teacher "Теперь она точно будет довольна!"
-    music Groove2_85
-    img 14954
-    with fade
-    mt "Наконец-то, проблема решена!"
-    # учитель делает задумчивое лицо
-    music Hidden_Agenda
-    img 14953
-    with diss
-    teacher "Но теперь я сомневаюсь, стоит ли мне отдавать свою методику ей..."
-    music Power_Bots_Loop
-    img 15041
-    with hpunch
-    mt "!!!" #удивленно
-    music Groove2_85
-    img 15042
-    with fade
-    m "Я очень рада, что у вас все получилось с вашей работой, мистер Эдвардс, но..."
-    m "Надеюсь, что я не зря прихожу к вам уже третий раз."
-    m "Я ожидаю, что вы все-таки договоритесь с мисс Мэнсфилд."
-    # вопросительно смотрит на него, учитель серьезно
-    img 15043
-    with diss
-    teacher "Мне будет очень непросто это сделать, миссис Бейкер."
-    teacher "Ведь я сам могу стать номинантом! Я считаю, что моя работа достойна этого."
-    teacher "Все зависит от того, насколько вы, миссис Бейкер, готовы поддержать меня..." #улыбочка
-    # Моника  в шоке, возмущается
-    music Power_Bots_Loop
-    sound Jump1
-    img 15044
-    with fade
-    m "Вы в своем уме?! Как вы можете мне такое предлагать?!"
-    m "Если бы я знала, что в итоге вы потребуете от меня ТАКОГО. Я бы отказалась вообще от вашей помощи!"
-    m "!!!"
+    if dialogue_classmate_11_flag == False:
+        # учитель поворачивается к ней, с улыбочкой
+        # Моника садится на стул рядом с его столом
+        teacher "Я вас ждал. Присаживайтесь."
+        img 15038
+        with fade
+        m "Удалось ли вам договориться с мисс Мэнсфилд?" #с серьезным выражением лица
+        music Hidden_Agenda
+        img 15039
+        with diss
+        teacher "Видите ли, с мисс Мэнсфилд не так просто договориться."
+        teacher "Она снова нашла недочеты в моей работе."
+        img 15040
+        with fade
+        m "..."
+        img 14740
+        with diss
+        teacher "Но, благодаря вам, миссис Бейкер, я превзошел сам себя и доделал свою методику." #улыбаясь
+        teacher "Теперь она точно будет довольна!"
+        music Groove2_85
+        img 14954
+        with fade
+        mt "Наконец-то, проблема решена!"
+        # учитель делает задумчивое лицо
+        music Hidden_Agenda
+        img 14953
+        with diss
+        teacher "Но теперь я сомневаюсь, стоит ли мне отдавать свою методику ей..."
+        music Power_Bots_Loop
+        img 15041
+        with hpunch
+        mt "!!!" #удивленно
+        music Groove2_85
+        img 15042
+        with fade
+        m "Я очень рада, что у вас все получилось с вашей работой, мистер Эдвардс, но..."
+        m "Надеюсь, что я не зря прихожу к вам уже третий раз."
+        m "Я ожидаю, что вы все-таки договоритесь с мисс Мэнсфилд."
+        # вопросительно смотрит на него, учитель серьезно
+        img 15043
+        with diss
+        teacher "Мне будет очень непросто это сделать, миссис Бейкер."
+        teacher "Ведь я сам могу стать номинантом! Я считаю, что моя работа достойна этого."
+        teacher "Все зависит от того, насколько вы, миссис Бейкер, готовы поддержать меня..." #улыбочка
+        # Моника  в шоке, возмущается
+        music Power_Bots_Loop
+        sound Jump1
+        img 15044
+        with fade
+        m "Вы в своем уме?! Как вы можете мне такое предлагать?!"
+        m "Если бы я знала, что в итоге вы потребуете от меня ТАКОГО. Я бы отказалась вообще от вашей помощи!"
+        m "!!!"
+        $ dialogue_classmate_11_flag = True
+
     music Hidden_Agenda
     img 15045
     with diss
@@ -2709,6 +2727,7 @@ label dialogue_classmate_11:
     mt "..."
     img 15056
     with diss
+    $ menu_corruption = [0, monicaTeacherCorruption8, monicaTeacherCorruption7]
     menu:
         "Убежать.":
             music Power_Bots_Loop
@@ -2730,7 +2749,6 @@ label dialogue_classmate_11:
             img 15020
             with diss
             teacher "..."
-            return 1
         "Если это поможет быстрее решить проблему малявки, то, возможно, стоит потерпеть...":
             pass
     music Groove2_85
@@ -2845,8 +2863,9 @@ label dialogue_classmate_11:
     img 14997
     with diss
     teacher "Всегда к вашим услугам, миссис Бейкер."
+    $ monica_teacher_handjob = True
     # Моника уходит
-    return
+    return True
 
 # Город. Школьный двор. Моника, выйдя с колледжа.
 label dialogue_classmate_11_1:
@@ -2920,7 +2939,14 @@ label dialogue_classmate_12:
     img 15164
     with fadelong
     bardie "Гувентантка!!!"
+    return
+
+label dialogue_classmate_12a:
     # спустя несколько минут Моника заходит к нему в комнату, недовольно
+    music Sneaky_Snitch
+    img 15164
+    with fadelong
+    bardie "Гувентантка!!!"
     music stop
     img black_screen
     with diss
@@ -2946,11 +2972,15 @@ label dialogue_classmate_12:
         with fade
         mt "Черт!!!"
         mt "Он увидит, что я в трусиках и снова накажет меня!"
-        sound highheels_run2
         music Groove2_85
         img 15169
         with diss
         m "Я хорошая гувернантка! Но я не буду этого делать!"
+        sound highheels_run2
+        music stop
+        img black_screen
+        with diss
+        pause 2.0
         return False
     img 15170
     with diss
@@ -2958,11 +2988,15 @@ label dialogue_classmate_12:
         "Сделать, как требует Барди.":
             pass
         "Убежать.":
-            sound highheels_run2
             music Groove2_85
             img 15169
             with fade
             m "Я хорошая гувернантка! Но я не буду этого делать!"
+            sound highheels_run2
+            music stop
+            img black_screen
+            with diss
+            pause 2.0
             return False
     # Моника с недовольным лицом поднимает юбку
     music stop
@@ -2982,7 +3016,7 @@ label dialogue_classmate_12:
     with fade
     bardie "Хорошая гувернантка. Хозяин ею доволен. Поэтому может доверить ей одно дело."
     img 12995
-    with diss
+#    with diss
     mt "Только не это!"
     img 15172
     with fade
@@ -3062,12 +3096,13 @@ label dialogue_classmate_12_1:
 
 # Город. Школьный двор. Моника перед колледжем.
 label dialogue_classmate_13:
-    # не рендерить!
-    # Моника одета в костюм мамы, чем очень недовольна
-    mt "Чувствую себя ужасно в этом костюме. Как эта деревенщина Бетти может такое надевать?!"
-    mt "Надеюсь, этот мистер Эдвардс не будет от меня требовать всяких своих извращенских штук..."
-    mt "Как-будто у меня своих проблем мало..."
-    mt "Так, Моника, тебе нужно успокоить этого малявку Барди... Иначе проблем станет еще больше."
+    if cloth_type == "SchoolOutfit":
+        # не рендерить!
+        # Моника одета в костюм мамы, чем очень недовольна
+        mt "Чувствую себя ужасно в этом костюме. Как эта деревенщина Бетти может такое надевать?!"
+        mt "Надеюсь, этот мистер Эдвардс не будет от меня требовать всяких своих извращенских штук..."
+        mt "Как-будто у меня своих проблем мало..."
+        mt "Так, Моника, тебе нужно успокоить этого малявку Барди... Иначе проблем станет еще больше."
     return
 
 # Колледж. Класс. Разговор Моники и учителя.
@@ -3163,6 +3198,7 @@ label dialogue_classmate_14:
     mt "Ведь проблема уже решена. Зачем мне соглашаться на это?"
     img 15312
     with diss
+    $ menu_corruption = [0, monicaTeacherCorruption10, monicaTeacherCorruption9]
     menu:
         "Отказаться и уйти!":
             # Моника встает со своего стула
@@ -3205,6 +3241,7 @@ label dialogue_classmate_14:
             m "И только попробуй предложить мне еще раз подобное!"
             m "Весь колледж узнает о том, какая ты озабоченная сволочь!"
             # Моника уходит
+            $ monica_college_teacher_kicked1 = True
             return False
         "Постараться договориться с учителем без этих извращений.":
             music Groove2_85
@@ -3216,7 +3253,7 @@ label dialogue_classmate_14:
             teacher "Мисс Мэнсфилд может и передумать..." #говорит многозначительно
             teacher "..."
             # учитель отворачивается и начинает просматривать какие-то бумаги на столе, работать
-            return 1
+#            return 1
         "Если это поможет быстрее решить проблему малявки, то, возможно, стоит потерпеть...":
             pass
 
@@ -3425,8 +3462,9 @@ label dialogue_classmate_14:
     sound snd_fabric1
     pause 2.0
     music Loved_Up2
+    sound2 Jump2
     img 15367
-    with fadelong
+    with hpunch
     sound chmok2
     m "АААА!"
     m "НЕЕЕЕТ!"
@@ -3520,6 +3558,7 @@ label dialogue_classmate_14:
     img black_screen
     with diss
     sound highheels_short_walk
+    $ monica_teacher_sex = True
     return
 
 # Город. Школьный двор. Моника, выйдя с колледжа.
