@@ -19,6 +19,7 @@ define model1 = Character(_("Кастинг модель 1"), who_color=c_pink) 
 define model2 = Character(_("Кастинг модель 2"), who_color=c_pink) #Casting Model 2
 define alex_photograph = Character(_("Фотограф Алекс"), who_color=c_green) #Alex Photograph
 define melanie = Character(_("Модель Мелани"), who_color=c_pink) #Melanie Model
+define melanie_t = Character(_("Модель Мелани"), who_color=c_pink, what_color=c_blue, what_italic=True) #Melanie Model thinking
 define dick = Character(_("Дик Адвокат"), who_color=c_green) #Dick The Lawyer
 define dick2 = Character(_("Дик Адвокат"), who_color=c_red) #Dick The Lawyer
 define saleswoman = Character(_("Кристина"), who_color=c_pink) #Saleswoman
@@ -73,6 +74,10 @@ define philip = Character(_("Филипп"), who_color=c_blue) #Philip
 define empty_name = Character("", who_color=c_blue) #empty name
 
 define teacher = Character(_("Мистер Эдвардс"), who_color=c_blue) #Teacher Edwards
+define mansfield = Character(_("Мисс Менсфилд"), who_color=c_pink) #Mansfield
+define clare = Character(_("Клэр"), who_color=c_green) #Mansfield
+define stripper = Character(_("Стриптизерша"), who_color=c_red) #Molly unknown
+define molly = Character(_("Молли"), who_color=c_red) #Molly unknown
 
 define reporter1 = Character(_("Репортер 1"), who_color=c_blue) #Reporter1
 define reporter2 = Character(_("Репортер 2"), who_color=c_orange) #Reporter2

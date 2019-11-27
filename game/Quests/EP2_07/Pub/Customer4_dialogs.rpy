@@ -1,5 +1,7 @@
 # парень на переднем плане
 
+default customer4_dance_comment_stage = 0
+
 label customer4_1stmeeting:
     music Hidden_Agenda
     sound highheels_short_walk
@@ -40,10 +42,41 @@ label customer4_serve1:
     sound highheels_short_walk
     img 14328
     with fadelong
-    m "Привет! Вам что-нибудь принести?"
+
+
+    # комментарий насчет танцев
+    if monicaStartedStripDanceFlag == True and customer4_dance_comment_stage == 1:
+        customer4 "А вот и официанточка, она же стриптизерша!"
+        m "Я не стритизерша."
+        customer4 "Ну, конечно! Еще скажи, что я снова перепутал."
+        customer4 "Ты думала, в маске никто не узнает, кто ты на самом деле?"
+        mt "???"
+        mt "Он... узнал... м-меня?"
+        mt "!!!"
+        customer4 "Ты боишься, если узнают, что ты еще и официанткой тут работаешь, то приставать будут?"
+        customer4 "Ладно. Я не скажу никому. Притворяйся дальше."
+        mt "Как же этот придурок напугал меня!"
+        mt "Фу-у-у... Что-то с нервами у меня совсем непорядок!"
+        m "..."
+
+
+    if monicaStartedStripDanceFlag == True and customer4_dance_comment_stage == 0:
+        customer4 "Эй, отлично выступаешь на сцене!"
+        m "Вы меня с кем-то путаете."
+        m "Я здесь не танцую."
+        customer4 "Я не могу тебя с кем-то путать. Я тебя видел на сцене!"
+        m "Я не танцую на сцене."
+        customer4 "Хммм... Странно..."
+        mt "!!!"
+        mt "Какое ему дело до этого?!"
+        $ customer4_dance_comment_stage = 1
+
+    #
+
+    m "Вам что-нибудь принести?"
     img 14329
     with diss
-    customer4 "Ооо! Новая официанточка! Да! Принеси мне пива и Ваш восхитительный Shiny бургер!"
+    customer4 "Да! Принеси мне пива и Ваш восхитительный Shiny бургер!"
     img 14330
     with diss
     m "Да, конечно."

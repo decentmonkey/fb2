@@ -1,4 +1,5 @@
 # лысый чел слева
+default customer2_dance_comment_stage = 0
 
 label customer2_1stmeeting:
     music Hidden_Agenda
@@ -72,8 +73,34 @@ label customer2_1stmeeting:
 label customer2_serve1:
     music Hidden_Agenda
     sound highheels_short_walk
+
     img 14240
     with fade
+
+    # комментарий насчет танцев
+    if monicaStartedStripDanceFlag == True and customer2_dance_comment_stage == 1:
+        customer2 "Эй, я видел тебя на сцене! Это точно была ты!"
+        m "Боюсь, Вы ошиблись..."
+        customer2 "Не-а! Папочка не ошибается никогда!"
+        mt "Чего он прицепился ко мне!!!"
+        m "Я не танцую на сцене. Возможно, танцовщица просто немного похожа на меня..."
+        customer2 "Да? Хммм... Ладно, я присмотрюсь внимательнее в следующий раз."
+        m "Я могу идти?"
+
+
+    if monicaStartedStripDanceFlag == True and customer2_dance_comment_stage == 0:
+        customer2 "О-о-о-о! Ты же тут на сцене танцуешь!"
+        customer2 "Решила спуститься к папочке? Аха-ха!"
+        m "Нет, Вы меня с кем-то путаете."
+        m "Я работаю здесь официанткой..."
+        customer2 "Папочку нехорошо обманывать!"
+        m "Я не обманываю..."
+        customer2 "Ой, да ладно тебе!!!"
+        m "Вы что-то будете заказывать? Или я могу идти?"
+        $ customer2_dance_comment_stage = 1
+
+    #
+
     customer2 "Эй, официантка! Мне еще пива! Кстати, как тебя зовут?"
     # если не первый раз
     if get_pub_visitor_visits(obj_name) > 2:

@@ -216,3 +216,51 @@ translate english strings:
     old "Я не из таких!"
     new "I'm not like that!"
 
+# TODO: Translation updated at 2019-11-23 13:27
+
+# game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:100
+translate english customer10_serve1_e138897b:
+
+    # customer10 "Новенькая, ты мне сказала, что не танцуешь..."
+    # m "Не танцую."
+    # customer10 "Я тебя видел на сцене..."
+    # m "Вы меня перепутали с кем-то..."
+    # customer10 "Это врядли. По-моему, ты меня обманываешь."
+    # m "Нет. Я здесь работаю официанткой."
+    # customer10 "Я спрошу у Джо насчет тебя..."
+    # mt "!!!"
+    customer10 "Новенькая, ты мне сказала, что не танцуешь..."
+    m "Не танцую."
+    customer10 "Я тебя видел на сцене..."
+    m "Вы меня перепутали с кем-то..."
+    customer10 "Это врядли. По-моему, ты меня обманываешь."
+    m "Нет. Я здесь работаю официанткой."
+    customer10 "Я спрошу у Джо насчет тебя..."
+    mt "!!!"
+
+# game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:111
+translate english customer10_serve1_c9382e14:
+
+    # customer10 "А, новенькая, это ты..."
+    # customer10 "Сколько за приват берешь?"
+    # m "!!!"
+    # m "Я не танцую ни на сцене, ни в привате."
+    # customer10 "Разве? Хммм..."
+    # m "Да..."
+    # mt "Как мне надоели все эти неудачники!"
+    # mt "!!!"
+    customer10 "А, новенькая, это ты..."
+    customer10 "Сколько за приват берешь?"
+    m "!!!"
+    m "Я не танцую ни на сцене, ни в привате."
+    customer10 "Разве? Хммм..."
+    m "Yes..."
+    mt "Как мне надоели все эти неудачники!"
+    mt "!!!"
+
+# game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:124
+translate english customer10_serve1_2a76d528:
+
+    # m "Вам что-нибудь принести?"
+    m "What would you like?"
+

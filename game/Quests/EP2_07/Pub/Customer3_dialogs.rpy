@@ -4,6 +4,8 @@ default customer3_1stmeetingEvent2Count = 0
 default customer3_serve2Event1Count = 0
 default customer3_serve2Event2Count = 0
 
+default customer3_dance_comment_stage = 0
+
 label customer3_1stmeeting:
     music Hidden_Agenda
     sound highheels_short_walk
@@ -74,6 +76,40 @@ label customer3_serve1:
     sound highheels_short_walk
     img 14274
     with fadelong
+
+
+    # комментарий насчет танцев
+    if monicaStartedStripDanceFlag == True and customer3_dance_comment_stage == 1:
+        customer3 "Так что? Надумала насчет моего предложения?"
+        m "Какого предложения? Вы что-то хотели заказать?"
+        customer3 "Тебя хочу. Сколько будет стоит?"
+        mt "Моника, спокойно. Просто очередной пьяница. Их тут целый паб."
+        m "Я работаю официанткой и меня нельзя заказать."
+        customer3 "А если я тебе щедро заплачу?"
+        mt "Отдашь всю свою зарплату за год? Думаю, даже этого будет недостаточно."
+        mt "Таким неудачникам, как ты, можно только мечтать обо мне."
+        mt "И не только неудачникам... Вообще всем!"
+        m "Вы меня с кем-то путаете."
+        customer3 "Я спрошу у Джо..."
+        mt "!!!"
+
+    if monicaStartedStripDanceFlag == True and customer3_dance_comment_stage == 0:
+        customer3 "Я думал, ты уже не официанткой здесь работаешь... "
+        customer3 "Твоя задница со сцены смотрится отлично."
+        m "Вы меня с кем-то путаете."
+        m "Я просто официантка..."
+        customer3 "Я хорошо запоминаю задницы. И твою я отлично помню."
+        customer3 "Сколько стоит приват? Я заплачу."
+        m "Я не танцую здесь на сцене. Тем более, не танцую при..."
+        customer3 "Окей. Можешь дальше врать, мне все равно."
+        customer3 "Как надумаешь насчет приват танца, знаешь, где меня найти."
+        mt "!!!"
+        mt "Он что о себе возомнил?!"
+        mt "Всего лишь очередной неудачик, который спускает все свои деньги на шлюх и пиво!"
+        $ customer3_dance_comment_stage = 1
+
+    #
+
     m "Что будете заказывать?"
     img 14275
     with diss
@@ -197,7 +233,33 @@ label customer3_serve2:
     sound highheels_short_walk
     img 14249
     with fadelong
-    m "Привет! Вам что-нибудь принести?"
+
+    # комментарий насчет танцев
+    if monicaStartedStripDanceFlag == True and customer3_dance_comment_stage == 1:
+        customer3 "А, это ты?"
+        customer3 "Пойдем в приват?"
+        m "Я не танцую. Тем более, приват!"
+        customer3 "А если я тебе щедро заплачу?"
+        mt "Таким неудачникам, как ты, можно только мечтать обо мне."
+        mt "И не только неудачникам... Вообще всем!"
+        m "Вы меня с кем-то путаете."
+        customer3 "Я спрошу у Джо..."
+        mt "!!!"
+
+    if monicaStartedStripDanceFlag == True and customer3_dance_comment_stage == 0:
+        customer3 "Твоя задница со сцены смотрится отлично."
+        m "Вы меня с кем-то путаете."
+        m "Я просто официантка..."
+        customer3 "Я хорошо запоминаю задницы. И твою я отлично помню."
+        m "Я не танцую здесь на сцене."
+        customer3 "Можешь дальше врать, мне все равно."
+        mt "!!!"
+        mt "Он что о себе возомнил?!"
+        $ customer3_dance_comment_stage = 1
+
+    #
+
+    m "Вам что-нибудь принести?"
     img 14250
     with diss
     customer3 "Скучно мне..."
