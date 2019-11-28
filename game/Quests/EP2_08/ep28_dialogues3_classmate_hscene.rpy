@@ -2,9 +2,9 @@ default dialogue_classmate_5_flag = False
 default dialogue_classmate_7_flag = False
 default dialogue_classmate_8_flag = False
 default dialogue_classmate_11_flag = False
-default MonicaEdvardschoice1 = False  # Моника сразу соглашается на требование учителя, не ломается (1-й визит в 0.9)
-default MonicaEdvardschoice2 = False  # Моника сразу соглашается на требование учителя, не ломается (2-й визит в 0.9)
-default MonicaEdvardschoice3 = False  # Моника сразу соглашается на требование учителя, не ломается (3-й визит в 0.9)
+default monicaEdvardschoice1 = False  # Моника сразу соглашается на требование учителя, не ломается (1-й визит в 0.9)
+default monicaEdvardschoice2 = False  # Моника сразу соглашается на требование учителя, не ломается (2-й визит в 0.9)
+default monicaEdvardschoice3 = False  # Моника сразу соглашается на требование учителя, не ломается (3-й визит в 0.9)
 
 # Дом. Комната Барди. Барди и Эрик (одноклассник).
 label dialogue_classmate_1:
@@ -2327,12 +2327,12 @@ label dialogue_classmate_8:
             teacher "..."
 #            return 1
         "Если это поможет быстрее решить проблему малявки, то, возможно, стоит потерпеть...":
+            $ monicaEdvardschoice1 = True # Моника сразу соглашается на требование учителя, не ломается (первое посещение в 0.9)
             pass
 
 
 
     # Моника смотрит на него с раздражением
-    $ MonicaEdvardschoice1 = True # Моника сразу соглашается на требование учителя, не ломается (первое посещение в 0.9)
     music Power_Bots_Loop
     img 15021
     with fade
@@ -2754,9 +2754,9 @@ label dialogue_classmate_11:
             with diss
             teacher "..."
         "Если это поможет быстрее решить проблему малявки, то, возможно, стоит потерпеть...":
+            $ monicaEdvardschoice2 = True  # Моника сразу соглашается на требование учителя, не ломается (второе посещение)
             pass
 
-    $ MonicaEdvardschoice2 = True  # Моника сразу соглашается на требование учителя, не ломается (второе посещение)
 
     music Groove2_85
     img 15057
@@ -3262,10 +3262,10 @@ label dialogue_classmate_14:
             # учитель отворачивается и начинает просматривать какие-то бумаги на столе, работать
 #            return 1
         "Если это поможет быстрее решить проблему малявки, то, возможно, стоит потерпеть...":
+            $ monicaEdvardschoice3 = True # Моника сразу соглашается на требование учителя, не ломается (третье посещение)
             pass
 
     # Моника злится
-    $ MonicaEdvardschoice3 = True # Моника сразу соглашается на требование учителя, не ломается (третье посещение)
     music Groove2_85
     img 15323
     with fade
