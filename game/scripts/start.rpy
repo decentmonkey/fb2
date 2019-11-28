@@ -53,7 +53,7 @@ label start:
 
 
 
-    # call dialogue_5_dance_strip_8()
+    # call dialogue_classmate_14()
 
 
     call intro_questions() from _call_intro_questions

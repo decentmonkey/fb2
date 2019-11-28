@@ -2,6 +2,9 @@ default dialogue_classmate_5_flag = False
 default dialogue_classmate_7_flag = False
 default dialogue_classmate_8_flag = False
 default dialogue_classmate_11_flag = False
+default MonicaEdvardschoice1 = False  # Моника сразу соглашается на требование учителя, не ломается (1-й визит в 0.9)
+default MonicaEdvardschoice2 = False  # Моника сразу соглашается на требование учителя, не ломается (2-й визит в 0.9)
+default MonicaEdvardschoice3 = False  # Моника сразу соглашается на требование учителя, не ломается (3-й визит в 0.9)
 
 # Дом. Комната Барди. Барди и Эрик (одноклассник).
 label dialogue_classmate_1:
@@ -2329,6 +2332,7 @@ label dialogue_classmate_8:
 
 
     # Моника смотрит на него с раздражением
+    $ MonicaEdvardschoice1 = True # Моника сразу соглашается на требование учителя, не ломается (первое посещение в 0.9)
     music Power_Bots_Loop
     img 15021
     with fade
@@ -2751,6 +2755,9 @@ label dialogue_classmate_11:
             teacher "..."
         "Если это поможет быстрее решить проблему малявки, то, возможно, стоит потерпеть...":
             pass
+
+    $ MonicaEdvardschoice2 = True  # Моника сразу соглашается на требование учителя, не ломается (второе посещение)
+
     music Groove2_85
     img 15057
     with fade
@@ -3258,6 +3265,7 @@ label dialogue_classmate_14:
             pass
 
     # Моника злится
+    $ MonicaEdvardschoice3 = True # Моника сразу соглашается на требование учителя, не ломается (третье посещение)
     music Groove2_85
     img 15323
     with fade
@@ -3361,10 +3369,12 @@ label dialogue_classmate_14:
     img 15345
     with fade
     w
+    music Villainous_Treachery
     img 15346
     with diss
     m "Ч-что вы д-делаете?! Нет-нет!!!"
     m "Остановитесь, м-мы договаривались не так!"
+    sound Jump2
     img 15347
     with fade
     mt "Что этот извращенец творит?! Как он смеет так поступать со мной?!"
@@ -3375,12 +3385,14 @@ label dialogue_classmate_14:
     with diss
     w
     sound lick13
+    music Villainous_Treachery
     img 15349
     with diss
     m "!!!"
     m "Прекратите это немедленно!"
     m "Мистер Эдвардс!!!"
     # но сама продолжает стоять в этой позе, оперевшись об стол
+    music Loved_Up
     img 15350
     with fade
     w
@@ -3447,10 +3459,12 @@ label dialogue_classmate_14:
     img 15364
     with diss
     w
+    music Villainous_Treachery
     img 15365
     with fade
     m "Мне это совсем не нравится! Не смейте этого делать!"
     m "Прекратите!!!"
+    music Hidden_Agenda
     img 15366
     with diss
     teacher "Да, конечно, миссис Бейкер... Еще несколько минут и я прекращу..."
@@ -3520,18 +3534,18 @@ label dialogue_classmate_14:
     img black_screen
     with diss
     pause 1.5
-    music Power_Bots_Loop
+    music Villainous_Treachery
     img 15376
     with fadelong
     mt "!!!"
     mt "..."
     mt "Чувствую себя также непонятно, как после вылизываний Барди и его друга..."
-    music Groove2_85
     img 15377
     with fade
     mt "..."
     mt "Похоже это нервный срыв из-за всего за последнее время...!"
     # учитель застегивает штаны и садится за свой стол, довольный собой
+    music Hidden_Agenda
     img 15378
     with diss
     teacher "Я весьма рад такой благодарности от вас, миссис Бейкер!"
