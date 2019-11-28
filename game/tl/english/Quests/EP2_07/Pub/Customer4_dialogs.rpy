@@ -183,17 +183,17 @@ translate english customer4_serve1_e6f7d461:
     # mt "Как же этот придурок напугал меня!"
     # mt "Фу-у-у... Что-то с нервами у меня совсем непорядок!"
     # m "..."
-    customer4 "А вот и официанточка, она же стриптизерша!"
-    m "Я не стритизерша."
-    customer4 "Ну, конечно! Еще скажи, что я снова перепутал."
-    customer4 "Ты думала, в маске никто не узнает, кто ты на самом деле?"
+    customer4 "And here is the waitress, she’s a stripper!"
+    m "I am not a stripper."
+    customer4 "Well, of course! Also say that I mixed up again."
+    customer4 "You thought no one in the mask would know who you really are?"
     mt "???"
-    mt "Он... узнал... м-меня?"
+    mt "Did he ... recognize ... m-me?"
     mt "!!!"
-    customer4 "Ты боишься, если узнают, что ты еще и официанткой тут работаешь, то приставать будут?"
-    customer4 "Ладно. Я не скажу никому. Притворяйся дальше."
-    mt "Как же этот придурок напугал меня!"
-    mt "Фу-у-у... Что-то с нервами у меня совсем непорядок!"
+    customer4 "Are you afraid that if they found out that you also work as a waitress here, they will pester you?"
+    customer4 "Okay. I will not tell anyone. "
+    mt "How did this moron scare me!"
+    mt "Uhhh ... What a fraught situation!"
     m "..."
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:64
@@ -207,14 +207,14 @@ translate english customer4_serve1_7504648d:
     # customer4 "Хммм... Странно..."
     # mt "!!!"
     # mt "Какое ему дело до этого?!"
-    customer4 "Эй, отлично выступаешь на сцене!"
-    m "Вы меня с кем-то путаете."
-    m "Я здесь не танцую."
-    customer4 "Я не могу тебя с кем-то путать. Я тебя видел на сцене!"
-    m "Я не танцую на сцене."
-    customer4 "Хммм... Странно..."
+    customer4 "Hey, you are great on stage!"
+    m "You confuse me with someone."
+    m "I don’t dance here."
+    customer4 "I can’t confuse you with anyone. I saw you on stage!"
+    m "I do not dance on stage."
+    customer4 "Hmmm ... weird ..."
     mt "!!!"
-    mt "Какое ему дело до этого?!"
+    mt "What does he care about that ?!"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:76
 translate english customer4_serve1_2a76d528:
@@ -226,5 +226,5 @@ translate english customer4_serve1_2a76d528:
 translate english customer4_serve1_dbb466da:
 
     # customer4 "Да! Принеси мне пива и Ваш восхитительный Shiny бургер!"
-    customer4 "Да! Принеси мне пива и Ваш восхитительный Shiny бургер!"
+    customer4 "Yes! Bring me a beer and your delicious Shiny burger!"
 

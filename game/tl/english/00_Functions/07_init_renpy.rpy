@@ -376,17 +376,17 @@ translate english strings:
 
     # game/00_Functions/07_init_renpy.rpy:77
     old "Мисс Менсфилд"
-    new "Мисс Менсфилд"
+    new "Miss Mansfield"
 
     # game/00_Functions/07_init_renpy.rpy:78
     old "Клэр"
-    new "Клэр"
+    new "Claire"
 
     # game/00_Functions/07_init_renpy.rpy:79
     old "Стриптизерша"
-    new "Стриптизерша"
+    new "Stripper"
 
     # game/00_Functions/07_init_renpy.rpy:80
     old "Молли"
-    new "Молли"
+    new "Molly"
 

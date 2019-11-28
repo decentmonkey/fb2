@@ -4988,7 +4988,7 @@ translate german dialogue_classmate_14_0a5616b8_2:
 translate german dialogue_classmate_8_e2f550f1:
 
     # m "Когда вы сможете закончить эту работу, мистер Эдвардс?"
-    m "Когда вы сможете закончить эту работу, мистер Эдвардс?"
+    m "Wann sind sie mit der Arbeit fertig, Herr Edwards?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2378
 translate german dialogue_classmate_8_23f2599f:

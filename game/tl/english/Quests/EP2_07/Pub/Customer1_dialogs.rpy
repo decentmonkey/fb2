@@ -173,12 +173,12 @@ translate english customer1_serve1_fa953cc0:
     # customer1 "Что-то я тебе не верю..."
     # mt "Да мне какая разница, веришь ты мне или нет!"
     # mt "Деревенщина!"
-    customer1 "Ты меня пытаешься надурить, детка."
-    customer1 "Ты танцуешь здесь иногда у пилона!"
-    m "Нет. Я же говорила, что я просто официантка..."
-    customer1 "Что-то я тебе не верю..."
-    mt "Да мне какая разница, веришь ты мне или нет!"
-    mt "Деревенщина!"
+    customer1 "You're trying to fool me, baby."
+    customer1 "You sometimes dance here at the pole!"
+    m "No. I said that I'm just a waitress ..."
+    customer1 "Something says me, not to believe you ..."
+    mt "I don't care if you believe me or not."
+    mt "Hillbilly!"
 
 # game/Quests/EP2_07/Pub/Customer1_dialogs.rpy:64
 translate english customer1_serve1_c100928d:
@@ -188,9 +188,9 @@ translate english customer1_serve1_c100928d:
     # m "Я работаю здесь официанткой..."
     # customer1 "Только официанткой?"
     # m "Еще... Еще я мою посуду..."
-    customer1 "А не тебя я видел виляющей попой у пилона?"
-    m "Нет, Вы меня с кем-то путаете."
-    m "Я работаю здесь официанткой..."
-    customer1 "Только официанткой?"
-    m "Еще... Еще я мою посуду..."
+    customer1 "And I did not see you wagging your boobs at the pole?"
+    m "No, you confuse me with someone."
+    m "I work here as a waitress ..."
+    customer1 "Just a waitress?"
+    m "More ... I also wash the dishes ..."
 

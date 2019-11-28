@@ -283,7 +283,7 @@ translate english ep28_dialogues6_julia_3_4ca36089:
     m "Get it for me!" 
     julia "Well, Mrs. Buckfett. Where's that folder?"
     m "This folder is in the closet on the top shelf."
-    julia "M-m-Mrs. Buckfett...There are no folders or documents... Оn these shelves......"
+    julia "Mm-mrs. Buckfett ... There are no folders or documents ... On these shelves ......"
     mt "..."
     m "Julia! I'm telling you, that folder is there! Get it for me!" 
     m "Quickly!"
@@ -1156,7 +1156,7 @@ translate english ep28_dialogues6_julia_3_db9333b5:
 translate english ep28_dialogues6_julia_3_996373da:
 
     # julia "М-м-Миссис Бакфетт... Там на полках... Там нет никаких папок и документов..."
-    julia "M-m-Mrs. Buckfett...There are no folders or documents... Оn these shelves......"
+    julia "Mm-mrs. Buckfett ... There are no folders or documents ... On these shelves ......"
 
 # game/Quests/EP2_08/ep28_dialogues6_julia.rpy:343
 translate english ep28_dialogues6_julia_3_72c4389d:

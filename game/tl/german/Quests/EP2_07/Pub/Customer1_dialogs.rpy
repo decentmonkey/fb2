@@ -173,12 +173,12 @@ translate german customer1_serve1_fa953cc0:
     # customer1 "Что-то я тебе не верю..."
     # mt "Да мне какая разница, веришь ты мне или нет!"
     # mt "Деревенщина!"
-    customer1 "Ты меня пытаешься надурить, детка."
-    customer1 "Ты танцуешь здесь иногда у пилона!"
-    m "Нет. Я же говорила, что я просто официантка..."
-    customer1 "Что-то я тебе не верю..."
-    mt "Да мне какая разница, веришь ты мне или нет!"
-    mt "Деревенщина!"
+    customer1 "Du willst mich doch verschaukeln, Baby!"
+    customer1 "Du tanzt hier manchmal an der Stange!"
+    m "Nein! Wie ich schon sagte, bin ich nur eine Bedienung..."
+    customer1 "Irgendwas sagt mir, dir nicht zu glauben..."
+    mt "Es ist mir egal ob du mir glaubst oder nicht."
+    mt "Hinterwäldler!"
 
 # game/Quests/EP2_07/Pub/Customer1_dialogs.rpy:64
 translate german customer1_serve1_c100928d:
@@ -188,9 +188,9 @@ translate german customer1_serve1_c100928d:
     # m "Я работаю здесь официанткой..."
     # customer1 "Только официанткой?"
     # m "Еще... Еще я мою посуду..."
-    customer1 "А не тебя я видел виляющей попой у пилона?"
-    m "Нет, Вы меня с кем-то путаете."
-    m "Я работаю здесь официанткой..."
-    customer1 "Только официанткой?"
-    m "Еще... Еще я мою посуду..."
+    customer1 "Und ich habe dich nicht Brüste wackeln an der Stange gesehen?"
+    m "Nein, du verwechselst mich mit wem."
+    m "Ich arbeite hier nur als Bedienung..."
+    customer1 "Nur als Bedienung?"
+    m "Und... ich spüle auch ab..."
 

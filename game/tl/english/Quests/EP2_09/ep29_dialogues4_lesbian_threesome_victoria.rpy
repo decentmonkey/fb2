@@ -1110,7 +1110,7 @@ translate english ep29_dialogues4_lesbian_threesome_victoria_1a_d3d1829f:
     # mt "!!!"
     # m "Я хорошая подружка, но я не буду делать этого!!!"
     mt "!!!"
-    m "Я хорошая подружка, но я не буду делать этого!!!"
+    m "I am a good girlfriend, but I will not do that !!!"
 
 # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:291
 translate english ep29_dialogues4_lesbian_threesome_victoria_1a_05c23fd1:
@@ -1504,9 +1504,9 @@ translate english ep29_dialogues4_lesbian_threesome_victoria_1a_70aa7355:
     # mt "Я не собираюсь заниматься этими извращенскими мерзостями!"
     # mt "!!!"
     # m "Я хорошая подружка, но я не буду делать этого!!!"
-    mt "Я не собираюсь заниматься этими извращенскими мерзостями!"
+    mt "I'm not going to do these perverse abominations!"
     mt "!!!"
-    m "Я хорошая подружка, но я не буду делать этого!!!"
+    m "I am a good girlfriend, but I will not do that !!!"
 
 # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:626
 translate english ep29_dialogues4_lesbian_threesome_victoria_1a_dc3d272a:
@@ -1681,10 +1681,10 @@ translate english ep29_dialogues4_lesbian_threesome_victoria_1a_764c033e:
     # mt "Я не собираюсь целовать тощую задницу этой мелкой стервы!"
     # mt "!!!"
     # m "Я хорошая подружка, но я не буду делать этого!!!"
-    mt "Нет! Я, Моника Бакфетт! Я леди!"
-    mt "Я не собираюсь целовать тощую задницу этой мелкой стервы!"
+    mt "Not! Me, Monica Buckett! I am a lady!"
+    mt "I'm not going to kiss the skinny ass of this petty bitch!"
     mt "!!!"
-    m "Я хорошая подружка, но я не буду делать этого!!!"
+    m "I am a good girlfriend, but I will not do that !!!"
 
 # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:794
 translate english ep29_dialogues4_lesbian_threesome_victoria_1a_05f1d60a:
@@ -1921,10 +1921,10 @@ translate english ep29_dialogues4_lesbian_threesome_victoria_1a_8a3ad332:
     # mt "Я, Моника Бакфетт, не собираюсь играть по ее правилам!"
     # mt "!!!"
     # m "Я хорошая подружка, но я не буду делать этого!!!"
-    mt "Это все зашло слишком далеко!"
-    mt "Я, Моника Бакфетт, не собираюсь играть по ее правилам!"
+    mt "It all went too far!"
+    mt "I, Monica Buckett, are not going to play by her rules!"
     mt "!!!"
-    m "Я хорошая подружка, но я не буду делать этого!!!"
+    m "I am a good girlfriend, but I will not do that !!!"
 
 # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:1011
 translate english ep29_dialogues4_lesbian_threesome_victoria_1a_3399773a:
@@ -1977,7 +1977,7 @@ translate english ep29_dialogues4_lesbian_threesome_victoria_1a_56a4408d:
     # melanie_t "Она решила подарить мне СТРАПОН?!"
     # melanie_t "Мерзкая сучка! Она заставила нас думать, что у нее есть какой-то компромат!"
     melanie_t "A strapon ?!"
-    melanie_t "Она решила подарить мне СТРАПОН?!"
+    melanie_t "She decided to give me a STRAPON ?!"
     melanie_t "Vile bitch! She made us think she had some kind of incriminating evidence!"
 
 # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:1070
@@ -2214,7 +2214,7 @@ translate english ep29_dialogues4_lesbian_threesome_victoria_1a_a783ea78:
     mt "It's disgusting!"
     mt "This Victoria is a crazy pervert !!!"
     mt "!!!"
-    m "Я хорошая подружка, но я не буду делать этого!!!"
+    m "I am a good girlfriend, but I will not do that !!!"
 
 # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:1296
 translate english ep29_dialogues4_lesbian_threesome_victoria_1a_e75bde5e:
@@ -2274,9 +2274,9 @@ translate english ep29_dialogues4_lesbian_threesome_victoria_1a_26a91736:
     # mt "!!!"
     # m "Я хорошая подружка, но я не буду делать этого!!!"
     mt "It's disgusting!"
-    mt "Пошла она к черту!!!"
+    mt "She needs to go to hell !!!"
     mt "!!!"
-    m "Я хорошая подружка, но я не буду делать этого!!!"
+    m "I am a good girlfriend, but I will not do that !!!"
 
 # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:1344
 translate english ep29_dialogues4_lesbian_threesome_victoria_1a_fb23a461:
@@ -2414,9 +2414,9 @@ translate english ep29_dialogues4_lesbian_threesome_victoria_1a_26a91736_1:
     # mt "!!!"
     # m "Я хорошая подружка, но я не буду делать этого!!!"
     mt "It's disgusting!"
-    mt "Пошла она к черту!!!"
+    mt "She needs to go to hell !!!"
     mt "!!!"
-    m "Я хорошая подружка, но я не буду делать этого!!!"
+    m "I am a good girlfriend, but I will not do that !!!"
 
 # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:1473
 translate english ep29_dialogues4_lesbian_threesome_victoria_1a_bd779701:
@@ -2644,21 +2644,21 @@ translate english strings:
 
     # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:275
     old "Не делать этого! (пропуск сцены)"
-    new "Не делать этого! (пропуск сцены)"
+    new "Do not do this! (skip scene)"
 
     # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:768
     old "Поцеловать попу Виктории"
-    new "Поцеловать попу Виктории"
+    new "Kiss Victoria's ass"
 
     # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:1279
     old "Сказать Виктории, что мне нравится"
-    new "Сказать Виктории, что мне нравится"
+    new "Tell Victoria what I like."
 
     # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:1323
     old "Раздвинуть ноги"
-    new "Раздвинуть ноги"
+    new "Spread legs"
 
     # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:1456
     old "Встать коленями на диван и нагнуться"
-    new "Встать коленями на диван и нагнуться"
+    new "Kneel on the sofa and bend down"
 

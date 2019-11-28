@@ -1404,7 +1404,7 @@ translate english ep28_dialogues_jail2_0de34d28:
     # m "О БОЖЕ!"
     # m "Что Вы собираетесь делать?!"
     m "Oh my God!"
-    m "What are уou going to do?!"
+    m "What are you going to do ?!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:887
 translate english ep28_dialogues_jail2_b4271346:
@@ -4198,7 +4198,7 @@ translate english ep28_dialogues_jail9_0de34d28:
     # m "О БОЖЕ!"
     # m "Что Вы собираетесь делать?!"
     m "Oh my God!"
-    m "What are уou going to do?!"
+    m "What are you going to do ?!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1336
 translate english ep28_dialogues_jail9_b4271346:

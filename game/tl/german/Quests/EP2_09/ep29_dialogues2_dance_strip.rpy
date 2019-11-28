@@ -725,7 +725,7 @@ translate german dialogue_5_dance_strip_3_34313109:
     # joe "Будет работать Клэр. Она тебе даст что-нибудь из одежды."
     joe "Du musst heute nicht auf die Bühne."
     joe "Ich sage Ashley, dass du ab morgen deine Schulden begleichen wirst."
-    joe "{c}Приходи завтра{/c}"
+    joe "{c}Komm morgen wieder{/c}"
     joe "Claire arbeitet, sie wird dir was geben."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:292
@@ -753,10 +753,10 @@ translate german dialogue_5_dance_strip_5a_00c8bc79:
     customers "Wer ist sie? Ich habe sie hier noch nie gesehen!"
     customers "Ist das eine neue Stripperin? Wow!"
     customers "Hey, schönes Mädchen, komm zu uns!"
-    customers "Снимай маску! Покажи нам себя!"
-    customers "Эй! Хорош уже! Давай, раздевайся!"
-    customers "Где стриптиз?!"
-    customers "Это что?! Где сиськи голые?!"
+    customers "Nimm die Maske ab, zeig uns dein Gesicht!"
+    customers "Hey! Schon ganz gut! Zieh dich aus!"
+    customers "Wo ist der Striptease?!"
+    customers "Was ist das?! Wo sind die nackten Brüste?!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:380
 translate german dialogue_5_dance_strip_5b_f8282965:
@@ -772,11 +772,11 @@ translate german dialogue_5_dance_strip_5b_f8282965:
     customers "Komm Baby, zeig was du kannst!"
     customers "Oh ja! Hammer Brüste an der Kleinen!"
     customers "Heilige Scheiße!"
-    customers "Давай, раздевайся!"
-    customers "Эй, покажи нам сиськи!"
-    customers "Уууууу!!!"
-    customers "Я пришел на голые сиськи посмотреть, а не на это!"
-    customers "Где нормальный стриптиз?!"
+    customers "Komm, zieh dich aus!"
+    customers "Hey, zeig uns die Titten!"
+    customers "Oooooohhhh!!!"
+    customers "Ich bin hier um nackte Brüste zu sehen, nicht das!"
+    customers "Das ist kein normaler Striptease!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:393
 translate german dialogue_5_dance_strip_5c_d730b13e:
@@ -789,14 +789,14 @@ translate german dialogue_5_dance_strip_5c_d730b13e:
     # customers "Твою мать, сними с себя хоть что-нибудь!"
     # customers "И это все?!"
     # customers "Уууууу!!!"
-    customers "Снимай с себя эти тряпки!"
-    customers "Пошли в приват, детка!"
-    customers "Да! Давай еще!"
-    customers "Вау, детка! У меня уже в штанах дымится! Иди сюда!"
+    customers "Zieh diese Fetzen aus!"
+    customers "Machen wir einen Privattanz, Baby!"
+    customers "Ja! Los geht’s!"
+    customers "Wow, Baby! Ich habe schon ein Zelt in der Hose aufgestellt! Komm rüber!"
     customers "Komm schon, wackel mit dem Arsch!"
-    customers "Твою мать, сними с себя хоть что-нибудь!"
-    customers "И это все?!"
-    customers "Уууууу!!!"
+    customers "Bei meiner Mutter, zieh wenigstens irgendwas aus!"
+    customers "Das ist alles?!"
+    customers "Oooooohhhh!!!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:408
 translate german dialogue_5_dance_strip_5d_762dea1b:
@@ -811,14 +811,14 @@ translate german dialogue_5_dance_strip_5d_762dea1b:
     # customers "Эй, научите ее, как надо это делать!!!"
     # customers "Эй, мы это уже видели в прошлый раз! Покажи что-нибудь еще!"
     customers "Oh ja Baby! Du bist der Wahnsinn!"
-    customers "Да! Мы тебя ждали, красотка!"
-    customers "Спускайся сюда!"
-    customers "Покажи свои сиськи!"
+    customers "Ja! Wir haben schon auf dich gewartet, Schönheit!"
+    customers "Komm hier runter!"
+    customers "Zeig uns Titten!"
     customers "Komm Baby, zeig was du kannst!"
-    customers "Сиськи показывай!"
-    customers "Уууууу!!!"
-    customers "Эй, научите ее, как надо это делать!!!"
-    customers "Эй, мы это уже видели в прошлый раз! Покажи что-нибудь еще!"
+    customers "Zeig sie uns!"
+    customers "Oooooohhhh!!!"
+    customers "Hey, zeig ihr mal wie es geht!!!"
+    customers "Hey, das haben wir letztes Mal schon gesehen! Mach was Anderes!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:422
 translate german dialogue_5_dance_strip_5e_db9f29dd:
@@ -831,14 +831,14 @@ translate german dialogue_5_dance_strip_5e_db9f29dd:
     # customers "Да разденься ты уже!!!"
     # customers "Я за что деньги платить должен?!"
     # customers "Покрути своей задницей!"
-    customers "Вау! Какие сиськи!"
+    customers "Wow! Was für Brüste!"
     customers "Baby, komm hier runter! Ich habe was für dich!"
-    customers "Давай в приват!"
-    customers "Потряси своими сиськами!"
-    customers "Да! Охренительно!"
-    customers "Да разденься ты уже!!!"
-    customers "Я за что деньги платить должен?!"
-    customers "Покрути своей задницей!"
+    customers "Mach einen Privaten!"
+    customers "Wackel mit den Dingern!"
+    customers "Ja! Fuck!"
+    customers "Ja, zieh dich schon aus!!!"
+    customers "Wofür sollte ich da zahlen?!"
+    customers "Dreh deinen Arsch!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:435
 translate german dialogue_5_dance_strip_5f_8b4fcc1b:
@@ -853,12 +853,12 @@ translate german dialogue_5_dance_strip_5f_8b4fcc1b:
     # customers "Где нормальный стриптиз?!"
     customers "Hey, willst du diese knackigen Dollars? Zieh die Hose aus!"
     customers "Zeig uns deine Pussy!"
-    customers "Давай, снимай с себя все!"
-    customers "Иди сюда! Смотри, что у меня есть для тебя!"
-    customers "О, какая задница! Папочка любит такие! Пошли ко мне, детка!"
-    customers "И это все?!"
-    customers "Уууууу!!!"
-    customers "Где нормальный стриптиз?!"
+    customers "Komm schon, zieh alles aus!"
+    customers "Komm her! Schau mal, was ich für dich habe!"
+    customers "Oh, was für ein Hintern! Daddy liebt ihn! Komm zu mir, Baby!"
+    customers "Das ist alles?!"
+    customers "Oooooohhhh!!!"
+    customers "Das ist kein normaler Striptease!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:454
 translate german dialogue_5_dance_strip_6_5d152fef:
@@ -1534,7 +1534,7 @@ translate german dialogue_5_dance_strip_13_f1f730c3:
 translate german dialogue_5_dance_strip_13_9b5eef7d:
 
     # m "Сегодня я ничего не заработала..."
-    m "Сегодня я ничего не заработала..."
+    m "Heute habe ich nichts verdient..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1041
 translate german dialogue_5_dance_strip_13_7e51d0fe:
@@ -1632,11 +1632,11 @@ translate german dialogue_5_dance_strip_14_a4542f1c:
     # mt "Которые мне так нужны..."
     # mt "..."
     # mt "Я сделаю это позже..."
-    mt "Нет, я не могу пока этого позволить себе."
-    mt "Эта сучка Эшли выгонит меня отсюда и я не смогу зарабатывать деньги..."
-    mt "Которые мне так нужны..."
+    mt "Nein, das kann ich mir noch nicht leisten."
+    mt "Diese Bitch Ashley schmeißt mich hier raus und dann kann ich kein Geld verdienen..."
+    mt "Welches ich so dringend benötige..."
     mt "..."
-    mt "Я сделаю это позже..."
+    mt "Das mache ich später..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1128
 translate german dialogue_5_dance_strip_14_0dc503bf:
@@ -1962,7 +1962,7 @@ translate german dialogue_5_dance_strip_19_f1f730c3:
 translate german dialogue_5_dance_strip_19_9b5eef7d:
 
     # m "Сегодня я ничего не заработала..."
-    m "Сегодня я ничего не заработала..."
+    m "Heute habe ich nichts verdient..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1490
 translate german dialogue_5_dance_strip_19_7e51d0fe:
@@ -2307,16 +2307,16 @@ translate german dialogue_5_dance_strip_25_67f598b0:
 
     # mt "Молли. Считает себя королевой сцены Shiny Hole..."
     # mt "Звезда трущоб. Фи!"
-    mt "Молли. Считает себя королевой сцены Shiny Hole..."
-    mt "Звезда трущоб. Фи!"
+    mt "Molly. Sie sieht sich als die Königin des Shiny Hole."
+    mt "Ein Slumstar! Pah!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1764
 translate german dialogue_5_dance_strip_26_8ca95b78:
 
     # mt "Эта Клэр могла бы быть моделью журнала..."
     # mt "А не танцевать в пабе перед толпой пьяных неудачников!"
-    mt "Эта Клэр могла бы быть моделью журнала..."
-    mt "А не танцевать в пабе перед толпой пьяных неудачников!"
+    mt "Diese Claire könnte ein fantastisches Model sein..."
+    mt "Und nicht in einer Bar vor betrunkenen Losern tanzen!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1773
 translate german dialogue_5_dance_strip_27_160fd8a0:
@@ -2326,17 +2326,17 @@ translate german dialogue_5_dance_strip_27_160fd8a0:
     # mt "Ответить ей в таком же тоне означает - опуститься до ее уровня."
     # mt "Я, Моника Бакфетт, никогда не опущусь до уровня этой хамки."
     molly "Was willst du?"
-    molly "Я отдыхаю после выступления. Не отвлекай меня." 
-    mt "Ответить ей в таком же тоне означает - опуститься до ее уровня."
-    mt "Я, Моника Бакфетт, никогда не опущусь до уровня этой хамки."
+    molly "Nach der Vorstellung ruhe ich mich aus. Bitte stör mich nicht." 
+    mt "Ihr in gleichem Ton zu anworten hieße, sich auf ihr Niveau zu begeben."
+    mt "Ich, Monica Buckfett, werde mich nie auf dieses Unterschichtlevel begeben."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1785
 translate german dialogue_5_dance_strip_28_6af8dd69:
 
     # clare "Привет, [monica_pub_name]. Отлично выглядишь."
     # m "Привет, Клэр. Ты тоже. Как отработала сегодня?"
-    clare "Привет, [monica_pub_name]. Отлично выглядишь."
-    m "Привет, Клэр. Ты тоже. Как отработала сегодня?"
+    clare "Hallo, [monica_pub_name]. Du siehst toll aus."
+    m "Hi Claire. Du auch. Wie wars heute?"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1789
 translate german dialogue_5_dance_strip_28_9ebccfdf:
@@ -2344,17 +2344,17 @@ translate german dialogue_5_dance_strip_28_9ebccfdf:
     # clare "Получила массу удовольствия, как всегда."
     # clare "Надеюсь, ты тоже хорошо отработаешь сегодня." 
     # mt "Неужели в моем окружении появился хоть один адекватный человек?"
-    clare "Получила массу удовольствия, как всегда."
-    clare "Надеюсь, ты тоже хорошо отработаешь сегодня." 
-    mt "Неужели в моем окружении появился хоть один адекватный человек?"
+    clare "Ich hatte wie immer viel Spaß."
+    clare "Ich hoffe, du arbeitest heute auch gut." 
+    mt "Sollte da wirklich wenigstens eine angemessen Person in meinem Umfeld sein?"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1797
 translate german dialogue_5_dance_strip_28_6af8dd69_1:
 
     # clare "Привет, [monica_pub_name]. Отлично выглядишь."
     # m "Привет, Клэр. Ты тоже. Как отработала сегодня?"
-    clare "Привет, [monica_pub_name]. Отлично выглядишь."
-    m "Привет, Клэр. Ты тоже. Как отработала сегодня?"
+    clare "Hallo, [monica_pub_name]. Du siehst toll aus."
+    m "Hi Claire. Du auch. Wie wars heute?"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1801
 translate german dialogue_5_dance_strip_28_9ebccfdf_1:
@@ -2362,17 +2362,17 @@ translate german dialogue_5_dance_strip_28_9ebccfdf_1:
     # clare "Получила массу удовольствия, как всегда."
     # clare "Надеюсь, ты тоже хорошо отработаешь сегодня." 
     # mt "Неужели в моем окружении появился хоть один адекватный человек?"
-    clare "Получила массу удовольствия, как всегда."
-    clare "Надеюсь, ты тоже хорошо отработаешь сегодня." 
-    mt "Неужели в моем окружении появился хоть один адекватный человек?"
+    clare "Ich hatte wie immer viel Spaß."
+    clare "Ich hoffe, du arbeitest heute auch gut." 
+    mt "Sollte da wirklich wenigstens eine angemessen Person in meinem Umfeld sein?"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1809
 translate german dialogue_5_dance_strip_28_6af8dd69_2:
 
     # clare "Привет, [monica_pub_name]. Отлично выглядишь."
     # m "Привет, Клэр. Ты тоже. Как отработала сегодня?"
-    clare "Привет, [monica_pub_name]. Отлично выглядишь."
-    m "Привет, Клэр. Ты тоже. Как отработала сегодня?"
+    clare "Hallo, [monica_pub_name]. Du siehst toll aus."
+    m "Hi Claire. Du auch. Wie wars heute?"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1813
 translate german dialogue_5_dance_strip_28_9ebccfdf_2:
@@ -2380,15 +2380,15 @@ translate german dialogue_5_dance_strip_28_9ebccfdf_2:
     # clare "Получила массу удовольствия, как всегда."
     # clare "Надеюсь, ты тоже хорошо отработаешь сегодня." 
     # mt "Неужели в моем окружении появился хоть один адекватный человек?"
-    clare "Получила массу удовольствия, как всегда."
-    clare "Надеюсь, ты тоже хорошо отработаешь сегодня." 
-    mt "Неужели в моем окружении появился хоть один адекватный человек?"
+    clare "Ich hatte wie immer viel Spaß."
+    clare "Ich hoffe, du arbeitest heute auch gut." 
+    mt "Sollte da wirklich wenigstens eine angemessen Person in meinem Umfeld sein?"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1820
 translate german dialogue_5_dance_strip_29_de40db90:
 
     # mt "Мне нужно переодеться. Что мне надеть?"
-    mt "Мне нужно переодеться. Что мне надеть?"
+    mt "ich muss mich umziehen. Was soll ich tragen?"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1836
 translate german dialogue_5_dance_strip_30a_1713958f:
@@ -2396,17 +2396,17 @@ translate german dialogue_5_dance_strip_30a_1713958f:
     # mt "Это гримерка?! Фи!"
     # mt "В моем доме подвал выглядит приличнее!"
     # mt "В моем бывшем доме..."
-    mt "Это гримерка?! Фи!"
-    mt "В моем доме подвал выглядит приличнее!"
-    mt "В моем бывшем доме..."
+    mt "Ist das eine Umkleide? Pah!"
+    mt "Selbst der Keller sieht in meinem Haus besser aus!"
+    mt "In meinem früheren Haus..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1842
 translate german dialogue_5_dance_strip_30b_85d3c0db:
 
     # mt "Вентиляционные трубы в гримерке?"
     # mt "Не похоже, что это дизайнерское решение..."
-    mt "Вентиляционные трубы в гримерке?"
-    mt "Не похоже, что это дизайнерское решение..."
+    mt "Belüftungsrohre in einer Umkleide?"
+    mt "Sieht nicht nach der Entscheidung eines Innenarchitekten aus.."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1847
 translate german dialogue_5_dance_strip_30c_71381b2b:
@@ -2414,9 +2414,9 @@ translate german dialogue_5_dance_strip_30c_71381b2b:
     # mt "Это что? Фото стриптизерши во время работы?"
     # mt "Фи, как пошло!"
     # mt "А где фото второй стриптизерши?"
-    mt "Это что? Фото стриптизерши во время работы?"
-    mt "Фи, как пошло!"
-    mt "А где фото второй стриптизерши?"
+    mt "Was ist das? Ein Foto von einer Stripperin während des Auftritts?"
+    mt "Wah, was zur Hölle?"
+    mt "Und wo ist das Foto der anderen Stripperin?"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1853
 translate german dialogue_5_dance_strip_30d_e56db6cf:
@@ -2424,17 +2424,17 @@ translate german dialogue_5_dance_strip_30d_e56db6cf:
     # mt "Какие-то дешевые тряпки на вешалке..."
     # mt "Зачем им столько одежды здесь?"
     # mt "Они же выступают на сцене почти голые."
-    mt "Какие-то дешевые тряпки на вешалке..."
-    mt "Зачем им столько одежды здесь?"
-    mt "Они же выступают на сцене почти голые."
+    mt "Billige Lumpen an dem Haken..."
+    mt "Warum brauchen die hier so viele Outfits?"
+    mt "Auf der Bühne sind sie fast nackt."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1859
 translate german dialogue_5_dance_strip_30e_2addec80:
 
     # mt "Надеюсь, что там нет моего журнала..."
     # mt "С моим фото на обложке..."
-    mt "Надеюсь, что там нет моего журнала..."
-    mt "С моим фото на обложке..."
+    mt "Ich hoffe, dass mein Magazin hier nirgends ist.."
+    mt "Mit mir auf dem Cover..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1864
 translate german dialogue_5_dance_strip_30f_d5aa77a2:
@@ -2442,91 +2442,91 @@ translate german dialogue_5_dance_strip_30f_d5aa77a2:
     # mt "Фу! Здесь вообще не принято поддерживать порядок?"
     # mt "Я такой грязи еще нигде не видела... Ну, если только в хостеле..."
     # mt "В этих трущобах, наверное, жить и работать в грязи - это норма."
-    mt "Фу! Здесь вообще не принято поддерживать порядок?"
-    mt "Я такой грязи еще нигде не видела... Ну, если только в хостеле..."
-    mt "В этих трущобах, наверное, жить и работать в грязи - это норма."
+    mt "Pah! Ist es generell unangebracht, hier für Ordnung zu sorgen?"
+    mt "Ich habe noch nie so viel Schmutz gesehen... Hm, außer in dem Hostel vielleicht..."
+    mt "Wahrscheinlich muss es so sein in den Slums, inmitten von Dreck zu leben und zu arbeiten."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1870
 translate german dialogue_5_dance_strip_30g_bbfc3e2d:
 
     # mt "Это столик для грима?"
     # mt "Минимум косметики, деньги, коктейль, сигарета... Фу!"
-    mt "Это столик для грима?"
-    mt "Минимум косметики, деньги, коктейль, сигарета... Фу!"
+    mt "Ist das ein Schminktisch?"
+    mt "Das Minimum an Make-Up, Geld, ein Cocktail, eine Zigarette... Wah!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1875
 translate german dialogue_5_dance_strip_30h_c6e707f7:
 
     # mt "Я тоже люблю, когда у меня есть много косметики."
     # mt "Хоть я ею и не пользуюсь..."
-    mt "Я тоже люблю, когда у меня есть много косметики."
-    mt "Хоть я ею и не пользуюсь..."
+    mt "Ich liebe es, wenn ich viel Makeup zur Auswahl habe."
+    mt "Auch wenn ich es kaum benutze..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1880
 translate german dialogue_5_dance_strip_30i_fbceee88:
 
     # mt "В этих зеркалах возможно хоть что-то рассмотреть под слоем пыли?"
-    mt "В этих зеркалах возможно хоть что-то рассмотреть под слоем пыли?"
+    mt "Es ist kaum möglich in diesen Spiegeln etwas zu erkennen wegen der Staubschicht."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1884
 translate german dialogue_5_dance_strip_30j_a4c8f9d3:
 
     # mt "Обои с изображением Мулен Руж?"
     # mt "Кто додумался их сюда приклеить?"
-    mt "Обои с изображением Мулен Руж?"
-    mt "Кто додумался их сюда приклеить?"
+    mt "Ein Poster mit dem Bild des Moulin Rouge?"
+    mt "Wem ist denn das eingefallen?"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1889
 translate german dialogue_5_dance_strip_30k_1cac6ff2:
 
     # mt "Ковер. Больше похож на какую-то тряпку..."
-    mt "Ковер. Больше похож на какую-то тряпку..."
+    mt "Ein Teppich. Oder mehr ein Bodenlumpen..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1893
 translate german dialogue_5_dance_strip_30l_0e28c69a:
 
     # mt "Хм... Как эти цветы здесь выживают?"
-    mt "Хм... Как эти цветы здесь выживают?"
+    mt "Hmm... Wie können diese Blumen hier überleben?"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1897
 translate german dialogue_5_dance_strip_30m_2aeb85e1:
 
     # mt "Одежда на полу вперемешку с мусором. Фу!"
     # mt "Это потом кто-то надевает?"
-    mt "Одежда на полу вперемешку с мусором. Фу!"
-    mt "Это потом кто-то надевает?"
+    mt "Kleider, vermischt mit Müll am Boden. Pah!"
+    mt "Zieht die jemand an?"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1902
 translate german dialogue_5_dance_strip_30n_ca71ee1f:
 
     # mt "Это что? Какая-то косметика для тела..."
-    mt "Это что? Какая-то косметика для тела..."
+    mt "Was ist das? Eine Art von Körperschminke..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1906
 translate german dialogue_5_dance_strip_30o_5e328c90:
 
     # mt "Неплохо смотрится. Но не в этой убогой кладовке..."
-    mt "Неплохо смотрится. Но не в этой убогой кладовке..."
+    mt "Sieht gut aus. Aber nicht in dieser ekligen Anrichte..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1910
 translate german dialogue_5_dance_strip_30p_bae6d40c:
 
     # mt "Сломанное, старое зеркало вместо сушилки для белья? Хм..."
-    mt "Сломанное, старое зеркало вместо сушилки для белья? Хм..."
+    mt "Ein alter, zerbrochener Spiegel anstatt eines Trockners? Hm..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1914
 translate german dialogue_5_dance_strip_30r_5be8a517:
 
     # mt "Здесь даже двери нет! Какая-то грязная тряпка вместо нее!"
     # mt "Как здесь можно переодеваться?"
-    mt "Здесь даже двери нет! Какая-то грязная тряпка вместо нее!"
-    mt "Как здесь можно переодеваться?"
+    mt "Hier gibt es keine Tür, nur dreckige Lumpen!"
+    mt "Wie soll ich mich hier umziehen?"
 
 translate german strings:
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1113
     old "Взять стул Клэр и ударить им рыжую сучку!"
-    new "Взять стул Клэр и ударить им рыжую сучку!"
+    new "Nimm Clairs Stuhl und schlage die Bitch damit!"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1113
     old "Мне не о чем разговаривать с такой как ты!"
@@ -2534,61 +2534,61 @@ translate german strings:
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1821
     old "Костюм для сцены (с жилетом)"
-    new "Костюм для сцены (с жилетом)"
+    new "Bühnenoutfit (mit Top)"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1821
     old "Костюм для сцены (без жилета)"
-    new "Костюм для сцены (без жилета)"
+    new "Bühnenoutfit (ohne Top)"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1821
     old "Одежда шлюхи"
-    new "Одежда шлюхи"
+    new "Nuttenkleidung"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1920
     old "Идти на сцену."
-    new "Идти на сцену."
+    new "Geh auf die Bühne."
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1920
     old "Музыка: Случайно"
-    new "Музыка: Случайно"
+    new "Musik: Beliebig"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1920
     old "Музыка: Трек 1"
-    new "Музыка: Трек 1"
+    new "Musik: Track 1"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1920
     old "Музыка: Трек 2"
-    new "Музыка: Трек 2"
+    new "Musik: Track 2"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1920
     old "Музыка: Трек 3"
-    new "Музыка: Трек 3"
+    new "Musik: Track 3"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1920
     old "Музыка: Трек 4"
-    new "Музыка: Трек 4"
+    new "Musik: Track 4"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1920
     old "Музыка: Трек 5"
-    new "Музыка: Трек 5"
+    new "Musik: Track 5"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1920
     old "Музыка: Трек 6"
-    new "Музыка: Трек 6"
+    new "Musik: Track 6"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1920
     old "Музыка: Трек 7"
-    new "Музыка: Трек 7"
+    new "Musik: Track 7"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1920
     old "Музыка: Трек 8"
-    new "Музыка: Трек 8"
+    new "Musik: Track 8"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1920
     old "Реплики из зала: Вкл"
-    new "Реплики из зала: Вкл"
+    new "Rufe der Zuschauer: An"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1920
     old "Реплики из зала: Выкл"
-    new "Реплики из зала: Выкл"
+    new "Rufe der Zuschauer: Aus"
 

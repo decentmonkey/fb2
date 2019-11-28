@@ -183,17 +183,17 @@ translate german customer4_serve1_e6f7d461:
     # mt "Как же этот придурок напугал меня!"
     # mt "Фу-у-у... Что-то с нервами у меня совсем непорядок!"
     # m "..."
-    customer4 "А вот и официанточка, она же стриптизерша!"
-    m "Я не стритизерша."
-    customer4 "Ну, конечно! Еще скажи, что я снова перепутал."
-    customer4 "Ты думала, в маске никто не узнает, кто ты на самом деле?"
+    customer4 "Und da ist die Bedienung, sie ist eine Stripperin!"
+    m "Ich bin keine Stripperin."
+    customer4 "Ha, natürlich! Sag blos, ich habe das durcheinander gebracht?"
+    customer4 "Dachtest du, niemand würde dich unter der Maske erkennen?"
     mt "???"
-    mt "Он... узнал... м-меня?"
+    mt "Hat er... mich... erkannt?"
     mt "!!!"
-    customer4 "Ты боишься, если узнают, что ты еще и официанткой тут работаешь, то приставать будут?"
-    customer4 "Ладно. Я не скажу никому. Притворяйся дальше."
-    mt "Как же этот придурок напугал меня!"
-    mt "Фу-у-у... Что-то с нервами у меня совсем непорядок!"
+    customer4 "Hast du Angst, dass du bedrängt wirst, wenn jemand rausfindet, dass du hier auch als Bedienung arbeitest?"
+    customer4 "Ok. Ich werde es keinem sagen."
+    mt "Wie konnte der Trottel mich so erschrecken?"
+    mt "Uhhh... Was für eine nervenaufreibende Sache!"
     m "..."
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:64
@@ -207,14 +207,14 @@ translate german customer4_serve1_7504648d:
     # customer4 "Хммм... Странно..."
     # mt "!!!"
     # mt "Какое ему дело до этого?!"
-    customer4 "Эй, отлично выступаешь на сцене!"
-    m "Вы меня с кем-то путаете."
-    m "Я здесь не танцую."
-    customer4 "Я не могу тебя с кем-то путать. Я тебя видел на сцене!"
-    m "Я не танцую на сцене."
-    customer4 "Хммм... Странно..."
+    customer4 "Hey, auf der Bühne bist du klasse!"
+    m "Du verwechselst mich mit wem Anderen."
+    m "Ich tanze hier nicht."
+    customer4 "Ich verwechsle dich nicht. Ich habe dich auf der Bühne gesehen."
+    m "Ich tanze da nicht."
+    customer4 "Hmmm... sehr merkwürdig..."
     mt "!!!"
-    mt "Какое ему дело до этого?!"
+    mt "Was interessiert das ihn überhaupt?"
 
 # game/Quests/EP2_07/Pub/Customer4_dialogs.rpy:76
 translate german customer4_serve1_2a76d528:
@@ -226,5 +226,5 @@ translate german customer4_serve1_2a76d528:
 translate german customer4_serve1_dbb466da:
 
     # customer4 "Да! Принеси мне пива и Ваш восхитительный Shiny бургер!"
-    customer4 "Да! Принеси мне пива и Ваш восхитительный Shiny бургер!"
+    customer4 "Ja! Bring mir ein Bier und den köstlichen Shiny Burger!"
 

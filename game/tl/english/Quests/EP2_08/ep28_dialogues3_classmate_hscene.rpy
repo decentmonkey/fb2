@@ -678,7 +678,7 @@ translate english dialogue_classmate_3_2_d991e79e:
     # mt "Сейчас мне нужно переодеться и идти в колледж."
     # mt "Если я сделаю что-то не так, Барди меня накажет и снова будет угрожать Маркусом."
     # mt "Лучше лишний раз не связываться с этой малявкой."
-    mt "Now I have to change and go to сollege."
+    mt "Now I have to change and go to college."
     mt "If I do something wrong, Bardie will punish me and threaten Marcus again."
     mt "It is better not to mess with this little boy once again."
 
@@ -1012,7 +1012,7 @@ translate english dialogue_classmate_5_d4241cdf:
 translate english dialogue_classmate_5_e6cbb911:
 
     # teacher "А, миссис Бейкер! Это вы? Ну как, вы надумали?"
-    teacher "Oh, Mrs. Baker! Is that you? Well, what dо you think?"
+    teacher "Oh, Mrs. Baker! Is that you? Well, what do you think?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:683
 translate english dialogue_classmate_5_44bf82f4:
@@ -4987,7 +4987,7 @@ translate english dialogue_classmate_14_0a5616b8_2:
 translate english dialogue_classmate_8_e2f550f1:
 
     # m "Когда вы сможете закончить эту работу, мистер Эдвардс?"
-    m "Когда вы сможете закончить эту работу, мистер Эдвардс?"
+    m "When can you finish this work, Mr. Edwards?"
 
 # game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2378
 translate english dialogue_classmate_8_23f2599f:

@@ -1414,13 +1414,13 @@ translate english ep29_dialogues3_melanie_monica_victoria_1_3a5c4a5b:
     # melanie_t "Возможно, стоит полететь на острова... Океан, пальмы, никаких папарацци..."
     # melanie_t "Нужно будет подойти к Бифу, попросить у него небольшой отпуск."
     melanie_t "It might be worth flying to the islands ... Ocean, palm trees, no paparazzi ..."
-    melanie_t "Нужно будет подойти к Бифу, попросить у него небольшой отпуск."
+    melanie_t "It will be necessary to approach Biff, ask him for a short vacation."
 
 # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:206
 translate english ep29_dialogues3_melanie_monica_victoria_1_492c5cc6:
 
     # melanie "Если эта девочка еще раз позвонит, то передайте ей, что у меня нет времени на это." 
-    melanie "Если эта девочка еще раз позвонит, то передайте ей, что у меня нет времени на это." 
+    melanie "If this girl calls again, tell her that I do not have time for this." 
 
 # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:209
 translate english ep29_dialogues3_melanie_monica_victoria_1_53c0c8d0:
@@ -1550,14 +1550,14 @@ translate english ep29_dialogues3_melanie_monica_victoria_3c_0b0fe2b0:
 translate english ep29_dialogues3_melanie_monica_victoria_4_ae66b3af:
 
     # biff "Мне нравится твой костюм с красными трусиками..."
-    biff "Мне нравится твой костюм с красными трусиками..."
+    biff "I like your suit with red panties ..."
 
 # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:999
 translate english ep29_dialogues3_melanie_monica_victoria_4_cbacb532:
 
     # biff "Хочу увидеть тебя в нем на фотографиях!"
     # melanie "..."
-    biff "Хочу увидеть тебя в нем на фотографиях!"
+    biff "I want to see you in it in the photos!"
     melanie "..."
 
 # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1016
@@ -1568,7 +1568,7 @@ translate english ep29_dialogues3_melanie_monica_victoria_4_5a43ff44:
     # melanie_t "..."
     # melanie_t "Думаю, Биф обойдется без этих фотографий."
     melanie_t "He hinted that he needed candid photos ..."
-    melanie_t "В этом костюме с трусиками другие фотографии и не получатся..."
+    melanie_t "In this outfit with these panties, others will not work ..."
     melanie_t "..."
     melanie_t "I think Biff will do without these photos."
 
@@ -1576,7 +1576,7 @@ translate english ep29_dialogues3_melanie_monica_victoria_4_5a43ff44:
 translate english ep29_dialogues3_melanie_monica_victoria_5_7499eafc:
 
     # alex_photograph "Мелани! Надеюсь, ты пришла поработать со мной?"
-    alex_photograph "Мелани! Надеюсь, ты пришла поработать со мной?"
+    alex_photograph "Melanie! I hope you came to work with me?"
 
 # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1062
 translate english ep29_dialogues3_melanie_monica_victoria_5_b4aa8776:
@@ -1594,7 +1594,7 @@ translate english ep29_dialogues3_melanie_monica_victoria_5_aeb17ffe:
 translate english ep29_dialogues3_melanie_monica_victoria_5_19a70f81:
 
     # alex_photograph "Мелани! Ты великолепна!!!"
-    alex_photograph "Мелани! Ты великолепна!!!"
+    alex_photograph "Melanie! You are wonderful!!!"
 
 # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1086
 translate english ep29_dialogues3_melanie_monica_victoria_5_774de096:
@@ -1602,8 +1602,8 @@ translate english ep29_dialogues3_melanie_monica_victoria_5_774de096:
     # melanie_t "Мне не нравится идея фотосессии в этом костюме."
     # melanie_t "Он практически ничего не прикрывает."
     # melanie_t "Надо сказать Алексу, чтобы не брал откровенных ракурсов."
-    melanie_t "Мне не нравится идея фотосессии в этом костюме."
-    melanie_t "Он практически ничего не прикрывает."
+    melanie_t "I do not like the idea of ​​a photo shoot in this costume."
+    melanie_t "It practically does not cover anything."
     melanie_t "I must tell Alex not to take frank angles."
 
 # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1093
@@ -1613,7 +1613,7 @@ translate english ep29_dialogues3_melanie_monica_victoria_5_6a901cc9:
     # alex_photograph "Да, Мелани?"
     # melanie "Ты все еще хочешь, чтобы мои фотографии появились в твоей личной коллекции?"
     melanie "Alex?"
-    alex_photograph "Да, Мелани?"
+    alex_photograph "Yes, Melanie?"
     melanie "Do you still want my photos to appear in your personal collection?"
 
 # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1099
@@ -1622,7 +1622,7 @@ translate english ep29_dialogues3_melanie_monica_victoria_5_0c66e759:
     # alex_photograph "Конечно, Мелани! Я давно мечтаю об этом! Так ты согласна?"
     # melanie "Алекс, я обещаю подумать об этом. При одном условии."
     # alex_photograph "???"
-    alex_photograph "Конечно, Мелани! Я давно мечтаю об этом! Так ты согласна?"
+    alex_photograph "Of course, Melanie! I have been dreaming about this for a long time! So do you agree?"
     melanie "Alex, I promise to think about it. Under one condition."
     alex_photograph "???"
 
@@ -1641,7 +1641,7 @@ translate english ep29_dialogues3_melanie_monica_victoria_5_aae46724:
 
     # alex_photograph "Мелани! Ты можешь не переживать! Я сделаю все, как ты скажешь!"
     # melanie "Отлично, Алекс. У меня мало времени. Приступим?"
-    alex_photograph "Мелани! Ты можешь не переживать! Я сделаю все, как ты скажешь!"
+    alex_photograph "Melanie! No need to worry! I will do everything as you say!"
     melanie "Great, Alex. I do not have much time. Let's get started?"
 
 # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1115
@@ -1656,9 +1656,9 @@ translate english ep29_dialogues3_melanie_monica_victoria_5_0401202d:
     # alex_photograph "Мы закончили, Мелани! Ты была просто великолепна!!!"
     # melanie "..."
     # alex_photograph "Мелани, ты подумаешь над моим предложением?"
-    alex_photograph "Мы закончили, Мелани! Ты была просто великолепна!!!"
+    alex_photograph "We're done, Melanie! You were just gorgeous !!!"
     melanie "..."
-    alex_photograph "Мелани, ты подумаешь над моим предложением?"
+    alex_photograph "Melanie, will you think about my proposal?"
 
 # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1133
 translate english ep29_dialogues3_melanie_monica_victoria_5_315e44a0:
@@ -1674,7 +1674,7 @@ translate english ep29_dialogues3_melanie_monica_victoria_5_315e44a0:
 translate english ep29_dialogues3_melanie_monica_victoria_5_2f8a07b0:
 
     # alex_photograph "Мелани... Но ведь я..."
-    alex_photograph "Мелани... Но ведь я..."
+    alex_photograph "Melanie ... But I ..."
 
 # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1141
 translate english ep29_dialogues3_melanie_monica_victoria_5_6285a609:
@@ -1700,17 +1700,17 @@ translate english strings:
 
     # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:86
     old "Пойти вечером к Мелани домой на встречу с 'другом'"
-    new "Пойти вечером к Мелани домой на встречу с 'другом'"
+    new "Go to Melanie’s home in the evening to meet a 'friend'"
 
     # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:199
     old "Идти на встречу с Викторией"
-    new "Идти на встречу с Викторией"
+    new "Go to a meeting with Victoria"
 
     # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:199
     old "Отказаться от встречи (пропуск всех событий с Викторией)"
-    new "Отказаться от встречи (пропуск всех событий с Викторией)"
+    new "Refuse a meeting (skipping all events with Victoria)"
 
     # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1009
     old "Отказаться (пропуск фотосессии)"
-    new "Отказаться (пропуск фотосессии)"
+    new "Refuse (pass photo shoot)"
 

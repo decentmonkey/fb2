@@ -10,13 +10,13 @@ translate german ep29_photoshoot_melanie1_0aaa6625:
 translate german ep29_photoshoot_melanie1_f4acc67d:
 
     # alex_photograph "Да, Мелани. Конечно."
-    alex_photograph "Да, Мелани. Конечно."
+    alex_photograph "Ja, Melanie. Natürlich."
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:29
 translate german ep29_photoshoot_melanie1_9f961c38:
 
     # alex_photograph "Отлично! Следующая поза, Мелани!"
-    alex_photograph "Отлично! Следующая поза, Мелани!"
+    alex_photograph "Gut! Nächste Pose, Melanie!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:38
 translate german ep29_photoshoot_melanie1_995325d4:
@@ -25,14 +25,14 @@ translate german ep29_photoshoot_melanie1_995325d4:
     # alex_photograph "Конечно, Мелани. Никаких откровенных ракурсов!"
     # alex_photograph "Я делаю все, как ты сказала!"
     melanie "Alex, erinnerst du dich an unsere Abmachung?"
-    alex_photograph "Конечно, Мелани. Никаких откровенных ракурсов!"
-    alex_photograph "Я делаю все, как ты сказала!"
+    alex_photograph "Natürlich, Melanie. Keine seltsamen Blickwinkel!"
+    alex_photograph "Ich mache alles wie du willst!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:45
 translate german ep29_photoshoot_melanie1_becb3959:
 
     # alex_photograph "Следующая поза, Мелани!"
-    alex_photograph "Следующая поза, Мелани!"
+    alex_photograph "Nächste Pose, Melanie!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:51
 translate german ep29_photoshoot_melanie1_29856955:
@@ -40,25 +40,25 @@ translate german ep29_photoshoot_melanie1_29856955:
     # melanie "Алекс, что ты делаешь?"
     # alex_photograph "Мелани, я нашел интересный ракурс."
     melanie "Alex, was machst du da?"
-    alex_photograph "Мелани, я нашел интересный ракурс."
+    alex_photograph "Melanie, ich habe einen tollen Winkel gefunden."
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:57
 translate german ep29_photoshoot_melanie1_bdedcdc4:
 
     # alex_photograph "Ты просто божественно прекрасно получишься на снимке."
-    alex_photograph "Ты просто божественно прекрасно получишься на снимке."
+    alex_photograph "Du siehst einfach göttlich schön auf diesem Bild aus."
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:62
 translate german ep29_photoshoot_melanie1_e8c73bb5:
 
     # alex_photograph "Ничего лишнего не будет видно, Мелани."
-    alex_photograph "Ничего лишнего не будет видно, Мелани."
+    alex_photograph "Man sieht nichts privates, Melanie."
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:67
 translate german ep29_photoshoot_melanie1_becb3959_1:
 
     # alex_photograph "Следующая поза, Мелани!"
-    alex_photograph "Следующая поза, Мелани!"
+    alex_photograph "Nächste Pose, Melanie!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:85
 translate german ep29_photoshoot_melanie1_24eeabd2:
@@ -69,8 +69,8 @@ translate german ep29_photoshoot_melanie1_24eeabd2:
     # alex_photograph "Следующая поза, Мелани!"
     melanie "Alex, du kannst mich nicht verarschen, so wie Frau Buckfett..."
     melanie "Wage es nicht, mich aus diesem Winkel zu fotografieren."
-    alex_photograph "Мелани, не переживай. На снимке ничего не видно."
-    alex_photograph "Следующая поза, Мелани!"
+    alex_photograph "Melanie, keine Sorge. Man sieht nichts schlimmes auf dem Bild."
+    alex_photograph "Nächste Pose, Melanie!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:102
 translate german ep29_photoshoot_melanie1_d4bbee9f:
@@ -79,7 +79,7 @@ translate german ep29_photoshoot_melanie1_d4bbee9f:
     # alex_photograph "Я не фотографирую, Мелани."
     # alex_photograph "Я просто пытаюсь подобрать интересный ракурс."
     melanie "Alex, wage es nicht, solche Fotos zu machen!"
-    alex_photograph "Я не фотографирую, Мелани."
+    alex_photograph "Ich mache keine Fotos, Melanie."
     alex_photograph "Ich versuche nur, einen interessanten Winkel zu finden."
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:109
@@ -94,9 +94,9 @@ translate german ep29_photoshoot_melanie1_101753e3:
     melanie "Für wen hältst du mich, Alex?"
     melanie "Das ist nicht das erste Mal, dass ich ein Shooting mit mache."
     melanie "Glaubst du, ich verstehe nicht, was du gerade getan hast?"
-    alex_photograph "Мелани, я потом покажу тебе снимки."
-    alex_photograph "Ты увидишь, что я делаю вполне приличные кадры."
-    alex_photograph "Следующая поза, Мелани!"
+    alex_photograph "Ich zeige dir die Bilder später, Melanie."
+    alex_photograph "Du wirst sehen, dass ich sehr anständige Fotos mache."
+    alex_photograph "Nächste Pose, Melanie!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:132
 translate german ep29_photoshoot_melanie1_fd99a7a7:
@@ -108,9 +108,9 @@ translate german ep29_photoshoot_melanie1_fd99a7a7:
     # alex_photograph "Следующая поза, Мелани!"
     melanie "Alex, wenn du weiterhin solche Aufnahmen machen möchtest, dann..."
     melanie "Dann werde ich das Shooting abbrechen."
-    alex_photograph "Мелани, снимки получаются очень приличные."
-    alex_photograph "Ты зря так переживаешь. На них совсем ничего не видно."
-    alex_photograph "Следующая поза, Мелани!"
+    alex_photograph "Melanie, die Bilder sind absolut anständig."
+    alex_photograph "Du machst dir zu viele Gedanken. Man kann nichts erkennen."
+    alex_photograph "Nächste Pose, Melanie!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:154
 translate german ep29_photoshoot_melanie1_b8b0b3e8:
@@ -119,10 +119,10 @@ translate german ep29_photoshoot_melanie1_b8b0b3e8:
     # melanie "Ты хочешь, чтобы эта фотосессия стала последней нашей совместной работой?"
     # alex_photograph "Мелани, нет конечно! Кадры получаются очень красивые и приличные!"
     # alex_photograph "Следующая поза, Мелани!"
-    melanie "Алекс, тебе сколько раз нужно повторить, чтобы ты не брал такие ракурсы?"
-    melanie "Ты хочешь, чтобы эта фотосессия стала последней нашей совместной работой?"
-    alex_photograph "Мелани, нет конечно! Кадры получаются очень красивые и приличные!"
-    alex_photograph "Следующая поза, Мелани!"
+    melanie "Alex, wie oft willst du noch sagen, dass du keine schmuddeligen Winkel nimmst?"
+    melanie "Willst du, dass dieses Shooting unsere letzte Zusammenarbeit war?"
+    alex_photograph "Melanie, natürlich nicht! Die Bilder sind sehr schön und anständig!"
+    alex_photograph "Nächste Pose, Melanie!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:175
 translate german ep29_photoshoot_melanie1_6dd0167e:
@@ -131,8 +131,8 @@ translate german ep29_photoshoot_melanie1_6dd0167e:
     # alex_photograph "Мелани, с этого ракурса ничего не видно. Не переживай."
     # alex_photograph "Следующая поза, Мелани!"
     melanie "Alex, wage es nicht, solche Fotos zu machen!"
-    alex_photograph "Мелани, с этого ракурса ничего не видно. Не переживай."
-    alex_photograph "Следующая поза, Мелани!"
+    alex_photograph "Melanie, man kann aus diesem Winkel nichts erkennen, sorge dich nicht."
+    alex_photograph "Nächste Pose, Melanie!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:191
 translate german ep29_photoshoot_melanie1_6189d96d:
@@ -140,7 +140,7 @@ translate german ep29_photoshoot_melanie1_6189d96d:
     # melanie "А сейчас что ты делашь?"
     # alex_photograph "Это будет великолепный кадр, Мелани!"
     melanie "Was machst du jetzt?"
-    alex_photograph "Это будет великолепный кадр, Мелани!"
+    alex_photograph "Das wird ein großartiges Shooting, Melanie!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:197
 translate german ep29_photoshoot_melanie1_e7188e12:
@@ -150,9 +150,9 @@ translate german ep29_photoshoot_melanie1_e7188e12:
     # alex_photograph "Я помню, о чем мы договаривались."
     # alex_photograph "Следующая поза, Мелани!"
     melanie "Wenn du mich hintergehst, dann werde ich nicht mehr mit dir zusammen arbeiten, Alex."
-    alex_photograph "Мелани, ты можешь не беспокоиться."
-    alex_photograph "Я помню, о чем мы договаривались."
-    alex_photograph "Следующая поза, Мелани!"
+    alex_photograph "Mach dir keine Sorgen."
+    alex_photograph "Ich weiß, was wir vereinbart haben."
+    alex_photograph "Nächste Pose, Melanie!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:214
 translate german ep29_photoshoot_melanie1_29856955_1:
@@ -160,7 +160,7 @@ translate german ep29_photoshoot_melanie1_29856955_1:
     # melanie "Алекс, что ты делаешь?"
     # alex_photograph "Мелани, я нашел интересный ракурс."
     melanie "Alex, was machst du da?"
-    alex_photograph "Мелани, я нашел интересный ракурс."
+    alex_photograph "Melanie, ich habe einen tollen Winkel gefunden."
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:220
 translate german ep29_photoshoot_melanie1_b8e1933e:
@@ -169,16 +169,16 @@ translate german ep29_photoshoot_melanie1_b8e1933e:
     # alex_photograph "Конечно, Мелани. Никаких откровенных ракурсов!"
     # alex_photograph "Следующая поза, Мелани!"
     melanie "Alex, erinnerst du dich an unsere Abmachung?"
-    alex_photograph "Конечно, Мелани. Никаких откровенных ракурсов!"
-    alex_photograph "Следующая поза, Мелани!"
+    alex_photograph "Natürlich, Melanie. Keine seltsamen Blickwinkel!"
+    alex_photograph "Nächste Pose, Melanie!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:228
 translate german ep29_photoshoot_melanie1_240048f7:
 
     # melanie "Алекс, не вздумай в этой позе делать кадры сзади или крупным планом."
     # alex_photograph "Конечно, Мелани. Никаких откровенных ракурсов! Я помню."
-    melanie "Алекс, не вздумай в этой позе делать кадры сзади или крупным планом."
-    alex_photograph "Конечно, Мелани. Никаких откровенных ракурсов! Я помню."
+    melanie "Alex, mach aus diesem Winkel keine Nahaufnahmen."
+    alex_photograph "Natürlich nicht, Melanie. Nur anständige Bilder, ich weiß!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:238
 translate german ep29_photoshoot_melanie1_641d306c:
@@ -186,7 +186,7 @@ translate german ep29_photoshoot_melanie1_641d306c:
     # melanie "Алекс?"
     # alex_photograph "Я фотографирую не сзади, а сверху. Потрясающий кадр, Мелани!"
     melanie "Alex?"
-    alex_photograph "Я фотографирую не сзади, а сверху. Потрясающий кадр, Мелани!"
+    alex_photograph "Ich mache die Fotos nicht von hinten, sondern von oben. Klasse Bild, Melanie!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:244
 translate german ep29_photoshoot_melanie1_7432e9a4:
@@ -194,7 +194,7 @@ translate german ep29_photoshoot_melanie1_7432e9a4:
     # melanie "А сейчас что ты делашь?"
     # alex_photograph "Фотографирую сверху. Просто немного сменил ракурс."
     melanie "Was machst du jetzt?"
-    alex_photograph "Фотографирую сверху. Просто немного сменил ракурс."
+    alex_photograph "Ich mache von oben Fotos. Ich ändere nur etwas den Winkel."
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:250
 translate german ep29_photoshoot_melanie1_3916bf17:
@@ -202,9 +202,9 @@ translate german ep29_photoshoot_melanie1_3916bf17:
     # melanie "Алекс! Никаких крупных планов. Ты помнишь об этом?"
     # alex_photograph "Конечно, Мелани!"
     # alex_photograph "Следующая поза, Мелани!"
-    melanie "Алекс! Никаких крупных планов. Ты помнишь об этом?"
+    melanie "Alex! Keine Nahaufnahmen. Erinnerst du dich?"
     alex_photograph "Natürlich, Melanie!"
-    alex_photograph "Следующая поза, Мелани!"
+    alex_photograph "Nächste Pose, Melanie!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:258
 translate german ep29_photoshoot_melanie1_3606acb8:
@@ -214,19 +214,19 @@ translate german ep29_photoshoot_melanie1_3606acb8:
     # alex_photograph "Мелани, я обещаю, что эти снимки будут настоящим произведением искусства!"
     melanie "Alex, so eine Pose mache ich nicht."
     melanie "Das wars, ich bin kein Pornomodel für dich!"
-    alex_photograph "Мелани, я обещаю, что эти снимки будут настоящим произведением искусства!"
+    alex_photograph "Melanie, ich verspreche dir, dass diese Bilder die wahre Kunst sind!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:265
 translate german ep29_photoshoot_melanie1_6bb8559a:
 
     # alex_photograph "Когда ты их увидишь, то захочешь разместить их, как свои портреты, в гримерке!"
-    alex_photograph "Когда ты их увидишь, то захочешь разместить их, как свои портреты, в гримерке!"
+    alex_photograph "Wenn du sie siehst wirst du sie mit deinen Portraits in der Umkleide tauschen wollen!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:274
 translate german ep29_photoshoot_melanie1_5df057ca:
 
     # melanie "Чтобы я никаких своих интимных мест крупным планом на них не видела, Алекс."
-    melanie "Чтобы я никаких своих интимных мест крупным планом на них не видела, Алекс."
+    melanie "Ich warne dich, wehe, ich sehe da eine unangemessene Nahaufnahme, Alex."
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:279
 translate german ep29_photoshoot_melanie1_a549d96a:
@@ -238,11 +238,11 @@ translate german ep29_photoshoot_melanie1_a549d96a:
 translate german ep29_photoshoot_melanie1_aa335efd:
 
     # alex_photograph "Никаких откровенных ракурсов, я помню!"
-    alex_photograph "Никаких откровенных ракурсов, я помню!"
+    alex_photograph "Keine Nahaufnahmen, ich weiß!"
 
 # game/Quests/EP2_09/ep29_photoshoot_melanie1.rpy:289
 translate german ep29_photoshoot_melanie1_33fe8edc:
 
     # alex_photograph "И никаких крупных планов!"
-    alex_photograph "И никаких крупных планов!"
+    alex_photograph "Definitiv nicht!"
 

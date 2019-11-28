@@ -4,25 +4,25 @@ translate english strings:
 
     # game/Characters/Monica/Cheats.rpy:2
     old "Добавить $ 100."
-    new "Добавить $ 100."
+    new "Add $ 100."
 
     # game/Characters/Monica/Cheats.rpy:2
     old "Увеличить Bitchiness."
-    new "Увеличить Bitchiness."
+    new "Increase Bitchiness."
 
     # game/Characters/Monica/Cheats.rpy:2
     old "Уменьшить Bitchiness."
-    new "Уменьшить Bitchiness."
+    new "Reduce Bitchiness."
 
     # game/Characters/Monica/Cheats.rpy:2
     old "Увеличить Corruption."
-    new "Увеличить Corruption."
+    new "Increase Corruption."
 
     # game/Characters/Monica/Cheats.rpy:2
     old "Голод: Вкл."
-    new "Голод: Вкл."
+    new "Hunger: On"
 
     # game/Characters/Monica/Cheats.rpy:2
     old "Голод: Выкл."
-    new "Голод: Выкл."
+    new "Hunger: Off"
 

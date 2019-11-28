@@ -1748,14 +1748,14 @@ translate english ep29_dialogues1_julia_1_152ff826:
     # mt "Мои сотрудники уже занимаются этим."
     # mt "Надо подождать новостей от них..."
     mt "My employees are already doing this."
-    mt "Надо подождать новостей от них..."
+    mt "We must wait for news from them ..."
 
 # game/Quests/EP2_09/ep29_dialogues1_julia.rpy:120
 translate english ep29_dialogues1_julia_2_97f62617:
 
     # m "Откуда я знаю?! Там есть какие-то кнопки..."
     # m "Понажимай на них."
-    m "Откуда я знаю?! Там есть какие-то кнопки..."
+    m "How do I know?! There are some buttons ..."
     m "Click on them."
 
 # game/Quests/EP2_09/ep29_dialogues1_julia.rpy:288
@@ -2720,7 +2720,7 @@ translate english ep29_dialogues1_julia_10_57933a9a:
 translate english ep29_dialogues1_julia_10_53c85150:
 
     # w5 "Ну покажи!"
-    w5 "Ну покажи!"
+    w5 "Well, show me!"
 
 # game/Quests/EP2_09/ep29_dialogues1_julia.rpy:1499
 translate english ep29_dialogues1_julia_10_7752ba30:
