@@ -7,6 +7,9 @@ default monicaPhotoShootOutfitIdx = 1
 default monicaOutfitsIcons = ["/Icons2/Photoshoot1_Icon", "/Icons2/Photoshoot2_Icon", "/Icons2/Photoshoot3_Icon", "/Icons2/Photoshoot4_Icon", "/Icons2/Photoshoot5_Icon", "/Icons2/Photoshoot6_Icon", "/Icons2/Photoshoot7_Icon", "/Icons2/Photoshoot8_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon"]
 default monicaOutfitsEnabled = [True, True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, ]
 
+default melanieOutfitsIcons = ["/Icons2/Photoshoot_Melanie_1_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon"]
+default melanieOutfitsEnabled = [True, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, ]
+
 default biffWeeklyPhotoShootEnabled = True
 
 default monicaAskBiffGiftCertificateFirstTime = True
@@ -29,6 +32,8 @@ default PS7_shoots_array = []
 define PS8_shots_amount = 16
 default PS8_shoots_array = []
 
+define PS_Melanie_1_shots_amount = 24
+default PS_Melanie_1_shoots_array = []
 
 label biffProgressLevelUp1:
     $ char_data["level"] = char_data["level"] + 1
@@ -39,4 +44,8 @@ label biffProgressLevelUp1:
 
 label biffInitOutfitIcons:
     $ monicaOutfitsIcons2 = ["/Icons2/Photoshoot1_Icon", "/Icons2/Photoshoot2_Icon", "/Icons2/Photoshoot3_Icon", "/Icons2/Photoshoot4_Icon", "/Icons2/Photoshoot5_Icon", "/Icons2/Photoshoot6_Icon", "/Icons2/Photoshoot7_Icon", "/Icons2/Photoshoot8_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon"]
+    return
+
+label biffInitMelanieOutfitIcons:
+    $ melanieOutfitsIcons = ["/Icons2/Photoshoot_Melanie_1_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon"]
     return

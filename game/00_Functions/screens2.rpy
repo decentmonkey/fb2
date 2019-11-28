@@ -84,6 +84,33 @@ screen choose_photoshoot_outfit():
                 $ offsetXIdx += 1
             $ offsetYIdx +=1
 
+screen choose_melanie_photoshoot_outfit():
+    modal True
+    fixed:
+        xpos getRes(480)
+        ypos getRes(220)
+        $ offsetYIdx = 0
+        $ idx = 0
+        for row1 in range(0,2):
+            $ offsetXIdx = 0
+            for col1 in range(0,5):
+                imagebutton:
+                    xpos (offsetXIdx * getRes(200))
+                    ypos (offsetYIdx * getRes(330))
+                    if melanieOutfitsEnabled[idx] == True:
+                        idle melanieOutfitsIcons[idx] + ".png"
+                        hover melanieOutfitsIcons[idx] + "_hover.png"
+                        action Return(idx)
+                    else:
+                        if melanieOutfitsIcons[idx] == "":
+                            idle "/Icons2/Photoshoot_Empty_Icon_Disabled.png"
+                        else:
+                            idle melanieOutfitsIcons[idx] + "_Disabled.png"
+                        action Return(-1)
+                $ idx += 1
+                $ offsetXIdx += 1
+            $ offsetYIdx +=1
+
 screen photoshoot_camera_icon(shootsArr):
     $ list1 = list(set(shootsArr))
     fixed:

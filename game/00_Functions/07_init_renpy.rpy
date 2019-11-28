@@ -58,6 +58,7 @@ define reception = Character(_("Рецепшин Администратор"), w
 define reception_t = Character(_("Рецепшин Администратор"), who_color=c_pink) #Reception Administrator
 define house_guard = Character(_("Охранник"), who_color=c_red) #Guard
 define dick_secretary = Character(_("Секретарша Дика"), who_color=c_red) #Dick Secretary
+define victoria = Character(_("Секретарша Дика"), who_color=c_red) #Dick Secretary
 define perry = Character(_("Перри"), who_color=c_green) #Perry
 define ralph = Character(_("Ральф Робертс"), who_color=c_green) #Ralph Roberts
 define biff = Character(_("Биф"), who_color=c_blue) #biff

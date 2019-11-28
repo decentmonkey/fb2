@@ -137,7 +137,12 @@ label ep29_dialogues4_lesbian_threesome_victoria_1:
     with diss
     mt "Как ОНА оказалась у Мелани дома???"
     mt "???"
-    stop music fadeout 1.0
+    # Моника смотрит Мелани
+    music Master_Disorder
+    img 15516
+    with fadelong
+    mt "???"
+    music stop
     scene black_screen
     with Dissolve(1)
     call textonblack(_("РАНЕЕ В ЭТОТ ДЕНЬ..."))
@@ -151,11 +156,12 @@ label ep29_dialogues4_lesbian_threesome_victoria_1:
 
 # квартира Мелани, управление за Мелани (продолжение сцены)
 label ep29_dialogues4_lesbian_threesome_victoria_1a:
-    # Моника смотрит Мелани
-    music Master_Disorder
-    img 15516
-    with fadelong
-    mt "???"
+    music stop
+    scene black_screen
+    with Dissolve(1)
+    call textonblack(_("СЕЙЧАС..."))
+    scene black_screen
+    with Dissolve(1)
     # Виктория смотрит на Монику с ухмылкой
     music Groove2_85
     img 15517
@@ -464,7 +470,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     melanie "!!!!!!"
     melanie "!!!!!!!!!"
     w
-    sound Groove2_85
+    music Groove2_85
     img 15576
     with diss
     victoria "Во-первых, не вздумай стирать это со своих фотографий!"
@@ -539,6 +545,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     w
     img 15592
     with diss
+    w
     # Моника с Мелани в шоке смотрят на нее, но ничего не предпринимают
     music Power_Bots_Loop
     img 15594
@@ -865,11 +872,11 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     sound lick10
     victoria "А подружка Моника чего ждет?"
     #mt "!!!"
-    victoria "Я ей уже разрешила целовать мою вторую дырочку!"
+#    victoria "Я ей уже разрешила целовать мою вторую дырочку!"
     # Моника с отвращением прикасается губами к анусу, отстраняется
     img 15646
     with diss
-    victoria "А теперь я разрешаю полизать подружке Монике мою вторую дырочку."
+#    victoria "А теперь я разрешаю полизать подружке Монике мою вторую дырочку."
     # Моника проводит кончиком языка
     #mt "Фуууу!!!"
     victoria "А теперь еще раз, подружка Моника! И посмелее!"
@@ -877,7 +884,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     img 15647
     with fade
     victoria "Да, так! Давай! М-м-м-м..."
-    victoria "Подружка Мелани, теперь засунь свой язычок в мою дырочку."
+#    victoria "Подружка Мелани, теперь засунь свой язычок в мою дырочку."
     # Мелани выполняет, начинает двигать языком внутрь-наружу. Моника продолжает лизать.
     # Виктория приспускает лямки на своем платье, обнажает грудь
     # сжимает обеими руками свои соски, откидывает голову назад, глаза закрыты
@@ -903,14 +910,20 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     with fadelong
     victoria "Хорошие подружки не останавляваются!"
     victoria "Они продолжают лизать своим язычками мои обе дырочки!"
+    w
+    sound camera_lens1
     img 15719
-    with diss
-    sound snd_photo_capture
+    with Dissolve(0.2)
+    w
+    call photoshop_flash()
     w
     img 15652
     with fade
     sound lick10
     victoria "Подружки знают, что мне это нравится..."
+    w
+    call photoshop_flash()
+    w
     # Виктория делает селфи, держа телефон над собой на вытянутой руке, на фото видно головы Моники и Мелани
     victoria "Подружки не должны останавляваться, иначе я огорчусь."
     # Виктория делает еще селфи сбоку, теперь на фото видно лица Моники и Мелани
@@ -1064,12 +1077,17 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     # Виктория довольно ухмыляется и поворачивается к Мелани и Монике
     # на ней надет страпон какого-нибудь нелепого цвета (н-р, ярко-розовый)
     # у ее подружек шок !!! даже у Мелани
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.5
     img 15676
     with diss
     w
     sound vjuh4
     img 15700
-    with fade
+    with diss
     sound plastinka1b
     w
     music Power_Bots_Loop
@@ -1177,7 +1195,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     victoria "На колени!"
     victoria "Оближи его как следует! Покажи мне, как ты хочешь его!"
     # Мелани медлит, потом опускается на колени, облизывает дилдо
-    sound vjuh3
+#    sound vjuh3
     img 15701
     with fade
     w
@@ -1247,9 +1265,14 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     with fade
     victoria "Какая отличная задница у вас, Мисс Мелани!"
     # шлепает еще раз
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Master_Disorder
     sound chpok6
     img 15725
-    with fade
+    with hpunch
     w
     img 15726
     sound vjuh4
@@ -1525,11 +1548,15 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     img 15770
     with fade
     w
-    img 15771
+    music stop
+    img black_screen
     with diss
-    sound chpok6
-    m "Аааа!"
+    pause 1.5
     music Loved_Up
+    img 15771
+    sound chpok6
+    with hpunch
+    m "Аааа!"
     img 15772
     with fade
     victoria "М-м-м... Как же мне нравится ваша киска, Миссис Бакфетт."
@@ -1696,4 +1723,8 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     m "Да, Мелани... Я готова на все ради этого..."
     # они обе преисполнены мести и готовы "дружить" против Виктории, бокалы сближаются, звук чокающихся бокалов
     # и мокрый страпон на диване
+    music stop
+    img black_screen
+    with diss
+    pause 3.0
     return
