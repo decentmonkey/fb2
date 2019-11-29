@@ -1,5 +1,6 @@
 default ep29_quests_melanie_started = False
 default ep29_melanie_refused_visit_victoria = False
+default ep29_monica_refused_visit_victoria = False
 
 default ep29_melanie_talk_victoria_stage = 0
 default ep29_quests_melanie_monica_stage=1
@@ -30,6 +31,15 @@ label ep29_quests_melanie_init1:
 
 label ep29_quests_melanie_monica_sleep_restrict: # Не даем ложиться спать
     call ep29_dialogues3_melanie_monica_victoria_7c()
+    if _return == True:
+        $ remove_objective("go_to_melanie_dress")
+        $ remove_objective("go_to_melanie")
+        $ remove_hook(label="ep29_quests_melanie")
+        call ep29_quests_melanie_disappearing()
+        $ add_hook("map_teleport", "ep27_quests_melanie3a_block_melanie_home", scene="global", priority = 2000, label="melanie_home_restrict") # Блокируем дом Мелани
+        $ add_hook("enter_scene", "ep29_quests_melanie_check1", scene="monica_office_entrance", label="ep29_quests_melanie_check1") # Проверка для старта следующих апдейтов квеста
+        $ ep29_monica_refused_visit_victoria = True
+        return
     return False
 
 label ep29_quests_melanie_map1:
@@ -51,8 +61,12 @@ label ep29_quests_melanie_monica_come_melanie: # Моника приходит �
         $ remove_objective("go_to_melanie_dress")
         $ remove_objective("go_to_melanie")
         $ remove_hook(label="ep29_quests_melanie")
-        call process_change_map_location("House")
-        call change_scene("street_house_outside", "Fade_long", "highheels_run2")
+        call ep29_quests_melanie_disappearing()
+        call process_change_map_location("Monica_Office")
+        $ cloth = "WorkingOutfit1"
+        $ cloth_type = "WorkingOutfit"
+        $ add_hook("enter_scene", "ep29_dialogues3_melanie_monica_victoria_7d", scene="working_office_cabinet", once=True)
+        call change_scene("working_office_cabinet", "Fade_long", "highheels_run2")
         return False
     # Переход на управление Мелани
     call melanie_home_init2() # инициализируем апартаменты Мелани
@@ -258,11 +272,15 @@ label ep29_quests_melanie_home1_chair: # старт сцены с Виктори
     $ add_hook("enter_scene", "ep29_quests_melanie_check1", scene="monica_office_entrance", label="ep29_quests_melanie_check1") # Проверка для старта следующих апдейтов квеста
 
     # убираем Мелани
-    $ add_hook("Melanie_Life_day", "Melanie_Life_disappeared", scene="global", label="melanie_disappeared_after_victoria")
-    $ add_hook("Melanie_Life_evening", "Melanie_Life_disappeared", scene="global", label="melanie_disappeared_after_victoria")
+    call ep29_quests_melanie_disappearing()
     $ remove_hook(label="ep29_quests_melanie")
     $ ep29_quests_victoria_event_completed = True
     return False
+
+label ep29_quests_melanie_disappearing:
+    $ add_hook("Melanie_Life_day", "Melanie_Life_disappeared", scene="global", label="melanie_disappeared_after_victoria")
+    $ add_hook("Melanie_Life_evening", "Melanie_Life_disappeared", scene="global", label="melanie_disappeared_after_victoria")
+    return
 
 label ep29_quests_melanie_check1:
     return

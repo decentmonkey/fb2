@@ -1,5 +1,7 @@
 # дом Мелани, вечер
 # управление продолжается за Мелани
+default victoria_drawn_melanie_photo1 = False
+default ep29_victoria_melanie_victoria_quest_fully_completed = False
 label ep29_dialogues4_lesbian_threesome_victoria_1:
     # Мелани дома одна, как обычно стоит перед зеркалом
     music stop
@@ -138,10 +140,6 @@ label ep29_dialogues4_lesbian_threesome_victoria_1:
     mt "Как ОНА оказалась у Мелани дома???"
     mt "???"
     # Моника смотрит Мелани
-    music Master_Disorder
-    img 15516
-    with fadelong
-    mt "???"
     music stop
     scene black_screen
     with Dissolve(1)
@@ -399,6 +397,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     with diss
     sound vjuh4
     w
+    $ victoria_drawn_melanie_photo1 = True
     img 15562
     with fade
     victoria "Так портрет смотрится намного гармоничнее."
@@ -1723,6 +1722,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     m "Да, Мелани... Я готова на все ради этого..."
     # они обе преисполнены мести и готовы "дружить" против Виктории, бокалы сближаются, звук чокающихся бокалов
     # и мокрый страпон на диване
+    $ ep29_victoria_melanie_victoria_quest_fully_completed = True
     music stop
     img black_screen
     with diss

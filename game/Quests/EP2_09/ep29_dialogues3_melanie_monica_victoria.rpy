@@ -128,11 +128,23 @@ label ep29_dialogues3_melanie_monica_victoria_7b:
 # не рендерить!!!
 label ep29_dialogues3_melanie_monica_victoria_7c:
 # Моника пытается лечь спать
+    img scene_Basement_Bedroom1
+    with fadelong
     mt "Я, конечно, могу не ехать к Мелани, но..."
     mt "Тогда меня могут ждать большие неприятности с Маркусом!"
     mt "Даже не хочу думать о том, что тогда меня может ожидать!"
     mt "!!!"
     mt "Лучше мне пойти сейчас к Мелани и самой все узнать."
+    menu:
+        "Лечь спать (пропуск событий с Мелани).":
+            return True
+        "Не ложиться.":
+            return False
+    return False
+
+label ep29_dialogues3_melanie_monica_victoria_7d:
+    mt "Ой, я заснула? Мне приснился странный сон."
+    mt "Впрочем, уже вечер. Мне нечего делать здесь."
     return
 
 # при клике на Дом Мелани на карте включается сцена у Мелани дома
