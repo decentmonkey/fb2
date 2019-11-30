@@ -361,12 +361,20 @@ label dialogue_5_dance_strip_4f:
 
 label dialogue_5_dance_strip_4g:
     # Отказывается переходить на стадию 1
+    img 22904
+    with fadelong
     mt "Я не буду снимать с себя жилет!"
     mt "Не хватало еще, чтобы эта толпа неудачников пялилась на мою прекрасную грудь!!!"
+    help "У Моники мало опыта работы танцовщицей."
+    if len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToTopless:
+        help "Окрыты не все движения. Требуется [monicaPosesOpenedToTopless]."
+    if pubDanceCount < monicaDanceAmountToTopless:
+        help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
     return
 
 label dialogue_5_dance_strip_4h:
     # Переход на стадию 1 успешен
+
     mt "Если я сниму жилет, то заработаю больше денег..."
     mt "Они же просто будут смотреть... на голую грудь [monica_pub_name]."
     return
@@ -383,6 +391,11 @@ label dialogue_5_dance_strip_4j:
 label dialogue_5_dance_strip_4k:
     # Отказывается вставать в позу
     mt "Я не готова так позировать! Это уже слишком!"
+    help "У Моники мало опыта работы танцовщицей."
+    if len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
+        help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+    if pubDanceCount < monicaDanceAmountToTopless:
+        help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
     return
 
 label dialogue_5_dance_strip_4l:
@@ -486,6 +499,11 @@ label dialogue_5_dance_strip_5c2:
         customers2 "И это все?!"
     if idx == 3:
         customers3 "Уууууу!!!"
+    return
+
+label dialogue_5_dance_strip_5ca:
+    customers2 "И это все?!"
+    customers2 "Детка, иди танцуй еще!"
     return
 
 # Моника топлесс
@@ -2089,9 +2107,13 @@ label dialogue_5_dance_strip_29:
         "Костюм для сцены (с жилетом)":
             return 0
         "Костюм для сцены (без жилета)":
-            if pubDanceCount < 4:
+            if pubDanceCount < monicaDanceAmountToTopless or len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
                 m "Я не выйду на сцену с голой грудью!!!"
                 help "У Моники мало опыта работы танцовщицей."
+                if len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
+                    help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+                if pubDanceCount < monicaDanceAmountToTopless:
+                    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
                 return 0
             return 1
         "Одежда шлюхи":
@@ -2104,9 +2126,13 @@ label dialogue_5_dance_strip_29b:
         "Костюм для сцены (с жилетом)":
             return 0
         "Костюм для сцены (без жилета)":
-            if pubDanceCount < 4:
+            if pubDanceCount < 4 or len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
                 m "Я не выйду на сцену с голой грудью!!!"
                 help "У Моники мало опыта работы танцовщицей."
+                if len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
+                    help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+                if pubDanceCount < monicaDanceAmountToTopless:
+                    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
                 return 0
             return 1
     return

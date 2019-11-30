@@ -15,7 +15,10 @@ default pub_dance_dialogues_down_list4 = []
 label pub_dance_dialogues_start_dancing:
     # Моника вышла на сцену
     if monicaDancingStage == 0:
-        img 22901
+        if cloth == "StripOutfit1":
+            img 22901
+        if cloth == "StripOutfit2":
+            img 22903
         with fadelong
         $ rand1 = rand(1,2)
         if rand1 == 1:
@@ -27,7 +30,7 @@ label pub_dance_dialogues_start_dancing:
         if cloth == "StripOutfit1":
             img 22900
         if cloth == "StripOutfit2":
-            img 22900
+            img 22903
         with fadelong
         $ rand1 = rand(1,2)
         if rand1 == 1:
@@ -39,7 +42,7 @@ label pub_dance_dialogues_start_dancing:
         if cloth == "StripOutfit1":
             img 22902
         if cloth == "StripOutfit2":
-            img 22902
+            img 22903
         with fadelong
         $ rand1 = rand(1,2)
         if rand1 == 1:
@@ -155,30 +158,30 @@ label pub_dance_dialogues_excitement_down(pose, zone):
 
 label pub_dance_dialogues_excitement_tips():
 #    $ kupury = [1,2,5,10,20,50]
-    $ kupury = [50,20,10,5,2,1]
+    $ kupury = [10,5,2,1]
     if stage_Monica_Excitement_Current <= 27:
-        $ money = rand(3,5)
+        $ moneyTips1 = rand(3,5)
     else:
         if stage_Monica_Excitement_Current <= 54:
-            $ money = rand(6,8)
+            $ moneyTips1 = rand(6,8)
         else:
             if stage_Monica_Excitement_Current <= 69:
-                $ money = rand(10,12)
+                $ moneyTips1 = rand(10,12)
             else:
                 if stage_Monica_Excitement_Current <= 84:
-                    $ money = rand(18,22)
+                    $ moneyTips1 = rand(18,22)
                 else:
                     if stage_Monica_Excitement_Current <= 100:
-                        $ money = rand(30, 40)
+                        $ moneyTips1 = rand(30, 40)
 
     python:
         kupury_out = []
         curMoney = 0
 
-        while curMoney < money:
+        while curMoney < moneyTips1:
             flag1 = False
             for idx1 in range(0, len(kupury)):
-                if kupury[idx1] < money-curMoney:
+                if kupury[idx1] <= moneyTips1-curMoney:
                     kupury_out.append(kupury[idx1])
                     curMoney += kupury[idx1]
                     flag1 = True
@@ -190,7 +193,7 @@ label pub_dance_dialogues_excitement_tips():
     if money < 9:
         sound2 fx_coins_b3
     else:
-        if money < 20:
+        if moneyTips1 < 20:
             sound2 fx_coins_b2
         else:
             sound2 fx_coins_b1

@@ -1,7 +1,11 @@
 #v0.9 pub
 define monicaForgivenessDancingAgreeCorruption = 250 # Моника соглашается танцевать, чтобы отработать деньги (из меню)
 define monicaClaireOilingVest = 280 # Моника соглашается, чтобы Клэр намазала ее маслом
+define monicaPutStripClothToplessStage = 310 # Моника снимает верх на сцене
 define monicaPutStripClothTopless = 350 # Моника одевает одежду для стриптиза без верха
+define monicaDanceAmountToTopless = 4 # Кол-во танцев, чтобы Моника согласилась снять бра
+define monicaPosesOpenedToTopless = 6 # Кол-во поз, которые необходимо открыть, чтобы Моника стала танцевать топлесс
+define monicaPosesOpenedToStage2 = 12 # Кол-во поз, которые необходимо открыть, чтобы Моника перешла на стадию 2
 
 # v0.8
 define monicaEricCollegeDressPriceRegular = 40 # Цена за платье в квесте Эрика
