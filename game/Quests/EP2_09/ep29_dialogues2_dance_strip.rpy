@@ -401,84 +401,182 @@ label dialogue_5_dance_strip_4m:
 # Моника в корсете
 # реплики для верха (лицо)
 label dialogue_5_dance_strip_5a:
+    if len(pub_dance_dialogues_up_list) == 0:
+        $ pub_dance_dialogues_up_list = random.sample(set([1,2,3,4,5]), 5)
+    $ idx = pub_dance_dialogues_up_list.pop()
+
     # правильные стрелки
-    customers "Эй, смотри, какая телка!"
-    customers "Кто это такая? Я ее раньше не видел!"
-    customers "Это новая стриптизерша? Вау!"
-    customers "Эй, красотка, иди к нам!"
-    customers "Снимай маску! Покажи нам себя!"
+    if idx == 1:
+        customers1 "Эй, смотри, какая телка!"
+    if idx == 2:
+        customers2 "Кто это такая? Я ее раньше не видел!"
+    if idx == 3:
+        customers3 "Это новая стриптизерша? Вау!"
+    if idx == 4:
+        customers4 "Эй, красотка, иди к нам!"
+    if idx == 5:
+        customers5 "Снимай маску! Покажи нам себя!"
+    return
+label dialogue_5_dance_strip_5a1:
+    if len(pub_dance_dialogues_up_list2) == 0:
+        $ pub_dance_dialogues_up_list2 = random.sample(set([1,2,3]), 3)
+    $ idx = pub_dance_dialogues_up_list2.pop()
     # неправильные стрелки
-    customers "Эй! Хорош уже! Давай, раздевайся!"
-    customers "Где стриптиз?!"
-    customers "Это что?! Где сиськи голые?!"
+    if idx == 1:
+        customers1 "Эй! Хорош уже! Давай, раздевайся!"
+    if idx == 2:
+        customers2 "Где стриптиз?!"
+    if idx == 3:
+        customers3 "Это что?! Где сиськи голые?!"
     return
 # реплики для side (тело)
 label dialogue_5_dance_strip_5b:
+    if len(pub_dance_dialogues_side_list) == 0:
+        $ pub_dance_dialogues_side_list = random.sample(set([1,2,3,4,5]), 5)
+    $ idx = pub_dance_dialogues_side_list.pop()
     # правильные стрелки
-    customers "Давай, покажи класс, детка!"
-    customers "О, да! Вот это сиськи!"
-    customers "Охренеть!"
-    customers "Давай, раздевайся!"
-    customers "Эй, покажи нам сиськи!"
+    if idx == 1:
+        customers1 "Давай, покажи класс, детка!"
+    if idx == 2:
+        customers2 "О, да! Вот это сиськи!"
+    if idx == 3:
+        customers3 "Охренеть!"
+    if idx == 4:
+        customers4 "Давай, раздевайся!"
+    if idx == 5:
+        customers5 "Эй, покажи нам сиськи!"
+    return
+label dialogue_5_dance_strip_5b2:
+    if len(pub_dance_dialogues_side_list2) == 0:
+        $ pub_dance_dialogues_side_list2 = random.sample(set([1,2,3]), 3)
+    $ idx = pub_dance_dialogues_side_list2.pop()
     # неправильные стрелки
-    customers "Уууууу!!!"
-    customers "Я пришел на голые сиськи посмотреть, а не на это!"
-    customers "Где нормальный стриптиз?!"
+    if idx == 1:
+        customers1 "Уууууу!!!"
+    if idx == 2:
+        customers2 "Я пришел на голые сиськи посмотреть, а не на это!"
+    if idx == 3:
+        customers3 "Где нормальный стриптиз?!"
     return
 # реплики для down (ноги, попа)
 label dialogue_5_dance_strip_5c:
+    if len(pub_dance_dialogues_down_list) == 0:
+        $ pub_dance_dialogues_down_list = random.sample(set([1,2,3,4,5]), 5)
+    $ idx = pub_dance_dialogues_down_list.pop()
     # правильные стрелки
-    customers "Снимай с себя эти тряпки!"
-    customers "Пошли в приват, детка!"
-    customers "Да! Давай еще!"
-    customers "Вау, детка! У меня уже в штанах дымится! Иди сюда!"
-    customers "Давай, покрути своей задницей!"
+    if idx == 1:
+        customers1 "Снимай с себя эти тряпки!"
+    if idx == 2:
+        customers2 "Пошли в приват, детка!"
+    if idx == 3:
+        customers3 "Да! Давай еще!"
+    if idx == 4:
+        customers4 "Вау, детка! У меня уже в штанах дымится! Иди сюда!"
+    if idx == 5:
+        customers5 "Давай, покрути своей задницей!"
+    return
+label dialogue_5_dance_strip_5c2:
+    if len(pub_dance_dialogues_down_list2) == 0:
+        $ pub_dance_dialogues_down_list2 = random.sample(set([1,2,3]), 3)
+    $ idx = pub_dance_dialogues_down_list2.pop()
     # неправильные стрелки
-    customers "Твою мать, сними с себя хоть что-нибудь!"
-    customers "И это все?!"
-    customers "Уууууу!!!"
+    if idx == 1:
+        customers1 "Твою мать, сними с себя хоть что-нибудь!"
+    if idx == 2:
+        customers2 "И это все?!"
+    if idx == 3:
+        customers3 "Уууууу!!!"
     return
 
 # Моника топлесс
 # реплики для верха (лицо)
 label dialogue_5_dance_strip_5d:
+    if len(pub_dance_dialogues_up_list3) == 0:
+        $ pub_dance_dialogues_up_list3 = random.sample(set([1,2,3,4,5]), 5)
+    $ idx = pub_dance_dialogues_up_list3.pop()
     # правильные стрелки
-    customers "О да! Детка, ты супер!"
-    customers "Да! Мы тебя ждали, красотка!"
-    customers "Спускайся сюда!"
-    customers "Покажи свои сиськи!"
-    customers "Давай, покажи класс, детка!"
+    if idx == 1:
+        customers1 "О да! Детка, ты супер!"
+    if idx == 2:
+        customers2 "Да! Мы тебя ждали, красотка!"
+    if idx == 3:
+        customers3 "Спускайся сюда!"
+    if idx == 4:
+        customers4 "Покажи свои сиськи!"
+    if idx == 5:
+        customers5 "Давай, покажи класс, детка!"
+    return
+label dialogue_5_dance_strip_5d2:
+    if len(pub_dance_dialogues_side_list4) == 0:
+        $ pub_dance_dialogues_side_list4 = random.sample(set([1,2,3,4]), 4)
+    $ idx = pub_dance_dialogues_side_list4.pop()
     # неправильные стрелки
-    customers "Сиськи показывай!"
-    customers "Уууууу!!!"
-    customers "Эй, научите ее, как надо это делать!!!"
-    customers "Эй, мы это уже видели в прошлый раз! Покажи что-нибудь еще!"
+    if idx == 1:
+        customers1 "Сиськи показывай!"
+    if idx == 2:
+        customers2 "Уууууу!!!"
+    if idx == 3:
+        customers3 "Эй, научите ее, как надо это делать!!!"
+    if idx == 4:
+        customers4 "Эй, мы это уже видели в прошлый раз! Покажи что-нибудь еще!"
     return
 # реплики для side (тело)
 label dialogue_5_dance_strip_5e:
+    if len(pub_dance_dialogues_up_list3) == 0:
+        $ pub_dance_dialogues_up_list3 = random.sample(set([1,2,3,4,5]), 5)
+    $ idx = pub_dance_dialogues_up_list3.pop()
     # правильные стрелки
-    customers "Вау! Какие сиськи!"
-    customers "Детка, спускайся сюда! У меня для тебя есть кое-что!"
-    customers "Давай в приват!"
-    customers "Потряси своими сиськами!"
-    customers "Да! Охренительно!"
+    if idx == 1:
+        customers1 "Вау! Какие сиськи!"
+    if idx == 2:
+        customers2 "Детка, спускайся сюда! У меня для тебя есть кое-что!"
+    if idx == 3:
+        customers3 "Давай в приват!"
+    if idx == 4:
+        customers4 "Потряси своими сиськами!"
+    if idx == 5:
+        customers5 "Да! Охренительно!"
+    return
+label dialogue_5_dance_strip_5e2:
+    if len(pub_dance_dialogues_side_list4) == 0:
+        $ pub_dance_dialogues_side_list4 = random.sample(set([1,2,3]), 3)
+    $ idx = pub_dance_dialogues_side_list4.pop()
     # неправильные стрелки
-    customers "Да разденься ты уже!!!"
-    customers "Я за что деньги платить должен?!"
-    customers "Покрути своей задницей!"
+    if idx == 1:
+        customers1 "Да разденься ты уже!!!"
+    if idx == 2:
+        customers2 "Я за что деньги платить должен?!"
+    if idx == 3:
+        customers3 "Покрути своей задницей!"
     return
 # реплики для down (ноги, попа)
 label dialogue_5_dance_strip_5f:
+    if len(pub_dance_dialogues_up_list3) == 0:
+        $ pub_dance_dialogues_up_list3 = random.sample(set([1,2,3,4,5]), 5)
+    $ idx = pub_dance_dialogues_up_list3.pop()
     # правильные стрелки
-    customers "Эй, хочешь этих хрустящих купюр? Снимай свои трусики!"
-    customers "Покажи нам свою киску!"
-    customers "Давай, снимай с себя все!"
-    customers "Иди сюда! Смотри, что у меня есть для тебя!"
-    customers "О, какая задница! Папочка любит такие! Пошли ко мне, детка!"
+    if idx == 1:
+        customers1 "Эй, хочешь этих хрустящих купюр? Снимай свои трусики!"
+    if idx == 2:
+        customers2 "Покажи нам свою киску!"
+    if idx == 3:
+        customers3 "Давай, снимай с себя все!"
+    if idx == 4:
+        customers4 "Иди сюда! Смотри, что у меня есть для тебя!"
+    if idx == 5:
+        customers5 "О, какая задница! Папочка любит такие! Пошли ко мне, детка!"
+    return
+label dialogue_5_dance_strip_5f2:
+    if len(pub_dance_dialogues_side_list4) == 0:
+        $ pub_dance_dialogues_side_list4 = random.sample(set([1,2,3]), 3)
+    $ idx = pub_dance_dialogues_side_list4.pop()
     # неправильные стрелки
-    customers "И это все?!"
-    customers "Уууууу!!!"
-    customers "Где нормальный стриптиз?!"
+    if idx == 1:
+        customers1 "И это все?!"
+    if idx == 2:
+        customers2 "Уууууу!!!"
+    if idx == 3:
+        customers3 "Где нормальный стриптиз?!"
     return
 
 # Паб. Моника возвращается в паб на другой день, после знакомства с рыжей.
@@ -2114,27 +2212,38 @@ label dialogue_5_dance_strip_30r:
 label dialogue_5_dance_strip_scene_menu:
     menu:
         "Идти на сцену.":
-            pass
-        "Музыка: Случайно":
-            pass
-        "Музыка: Трек 1":
-            pass
-        "Музыка: Трек 2":
-            pass
-        "Музыка: Трек 3":
-            pass
-        "Музыка: Трек 4":
-            pass
-        "Музыка: Трек 5":
-            pass
-        "Музыка: Трек 6":
-            pass
-        "Музыка: Трек 7":
-            pass
-        "Музыка: Трек 8":
-            pass
-        "Реплики из зала: Вкл":
-            pass
-        "Реплики из зала: Выкл":
-            pass
-    return
+            return True
+        "Музыка: Последовательно" if stageMusicControlEnabled == True and stageMusicMode == 0:
+            $ stageMusicMode = 1
+        "Музыка: Случайно" if stageMusicControlEnabled == True and stageMusicMode == 1:
+            $ stageMusicMode = 2
+            $ stageCustomMusic = 0
+        "Музыка: Трек 1" if stageMusicControlEnabled == True and stageMusicMode == 2 and stageCustomMusic == 0:
+            $ stageMusicMode = 2
+            $ stageCustomMusic = 1
+        "Музыка: Трек 2" if stageMusicControlEnabled == True and stageMusicMode == 2 and stageCustomMusic == 1:
+            $ stageMusicMode = 2
+            $ stageCustomMusic = 2
+        "Музыка: Трек 3" if stageMusicControlEnabled == True and stageMusicMode == 2 and stageCustomMusic == 2:
+            $ stageMusicMode = 2
+            $ stageCustomMusic = 3
+        "Музыка: Трек 4" if stageMusicControlEnabled == True and stageMusicMode == 2 and stageCustomMusic == 3:
+            $ stageMusicMode = 2
+            $ stageCustomMusic = 4
+        "Музыка: Трек 5" if stageMusicControlEnabled == True and stageMusicMode == 2 and stageCustomMusic == 4:
+            $ stageMusicMode = 2
+            $ stageCustomMusic = 5
+        "Музыка: Трек 6" if stageMusicControlEnabled == True and stageMusicMode == 2 and stageCustomMusic == 5:
+            $ stageMusicMode = 2
+            $ stageCustomMusic = 6
+        "Музыка: Трек 7" if stageMusicControlEnabled == True and stageMusicMode == 2 and stageCustomMusic == 6:
+            $ stageMusicMode = 2
+            $ stageCustomMusic = 7
+        "Музыка: Трек 8" if stageMusicControlEnabled == True and stageMusicMode == 2 and stageCustomMusic == 7:
+            $ stageMusicMode = 0
+            $ stageCustomMusic = 0
+    jump dialogue_5_dance_strip_scene_menu
+#        "Реплики из зала: Вкл":
+#            pass
+#        "Реплики из зала: Выкл":
+#            pass

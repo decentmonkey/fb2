@@ -158,5 +158,10 @@ define customer11t = Character(_("Посетитель"), who_color=c_blue, what
 define customer12 = Character(_("Посетитель"), who_color=c_blue)
 define customer12t = Character(_("Посетитель"), who_color=c_blue, what_color=c_blue, what_italic=True)
 
+define customers1 = Character(_("Зритель"), who_color=c_blue)
+define customers2 = Character(_("Зритель"), who_color=c_orange)
+define customers3 = Character(_("Зритель"), who_color=c_red)
+define customers4 = Character(_("Зритель"), who_color=c_green)
+define customers5 = Character(_("Зритель"), who_color=c_pink)
 
 #

@@ -188,7 +188,7 @@ define config.window_icon = "gui/window_icon.png"
 
 define config.developer = True
 define config.cache_surfaces = True
-define config.image_cache_size_mb = 100
+define config.image_cache_size_mb = 512
 
 ## Build configuration #########################################################
 ##
@@ -264,3 +264,10 @@ define config.missing_image_callback = missing_filename_callback
 
 # define renpy.config.fix_rollback_without_choice = False
 define config.hard_rollback_limit = 0
+define config.rollback_enabled = False
+define config.conditionswitch_predict_all = False
+define config.predict_statements = 0
+define config.developer = "auto"
+define config.predict_screen_statements = False
+define config.predict_screens = False
+define config.autosave_on_choice = True

@@ -100,7 +100,8 @@ label pub_dance1: # Обычные танцы
     $ monica_strip_tips_today = 0
     $ pubDanceCount += 1
 
-    m "Танцы"
+    call pub_dance1_stage_start1()
+#    m "Танцы"
     if pubDanceCount == 1:
         $ monica_strip_tips_today = 0
     if pubDanceCount > 1:

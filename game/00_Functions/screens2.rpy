@@ -355,13 +355,103 @@ screen achievements_screen():
                 $ curY += int(math.ceil(float(len(cellsList))/float(cellsInRow))) * cellSizeY + gui.resolution.gallery.category_margin_down
 
 
+screen love_bar_screen(oldBarValue, newBarValue):
+    fixed:
+            bar:
+                xpos getRes(17)
+                ypos getRes(260)
+                value AnimatedValue(newBarValue, 1.0, 1.0, oldBarValue)
+                xoffset 5
+                xysize(gui.resolution.hud_screen.love_bar_xysize)
+                bar_vertical True
+                top_bar "/icons/bar/love_bar_empty" + res.suffix + ".png"
+                bottom_bar "/icons/bar/love_bar_full" + res.suffix + ".png"
+                thumb "/icons/bar/love_bar_thumb" + res.suffix + ".png"
+                bottom_gutter gui.resolution.hud_screen.love_bar_bottom_gutter
+                top_gutter gui.resolution.hud_screen.love_bar_top_gutter
+                thumb_offset gui.resolution.hud_screen.love_bar_thumb_offset
+
+
+screen poledance_camera_icon(shootsArr):
+    $ list1 = list(set(shootsArr))
+    fixed:
+        xpos getRes(40)
+        ypos getRes(20)
+        hbox:
+            add "/Icons2/Photo_Cinema_icon.png"
+            null width getRes(8)
+            text str(len(list(set(shootsArr)))) + " / " + str(shotsTotalAmount) style "photoshoot_cinema_text_style"
 
 
 
-
-
-
-
+screen poledance():
+    fixed:
+        xpos getRes(1650)
+        ypos getRes(430)
+        #up
+        if arrowUp == True:
+            imagebutton:
+                xanchor 0.5
+                yanchor 0.5
+                xpos getRes(50)
+                ypos getRes(-40)
+                idle "/Icons2/dance_up.png"
+                hover "/Icons2/dance_up_hover.png"
+                action [SetVariable("arrowUp", False), Return("up")]
+        else:
+            add "/Icons2/dance_up_Disabled.png":
+                xpos getRes(50)
+                ypos getRes(-40)
+                xanchor 0.5
+                yanchor 0.5
+        #left
+        if arrowSide == True:
+            imagebutton:
+                xanchor 0.5
+                yanchor 0.5
+                xpos getRes(0)
+                ypos getRes(80)
+                idle "/Icons2/dance_left.png"
+                hover "/Icons2/dance_left_hover.png"
+                action [SetVariable("arrowSide", False), Return("side")]
+        else:
+            add "/Icons2/dance_left_Disabled.png":
+                xpos getRes(0)
+                ypos getRes(80)
+                xanchor 0.5
+                yanchor 0.5
+        #down
+        if arrowDown == True:
+            imagebutton:
+                xanchor 0.5
+                yanchor 0.5
+                xpos getRes(50)
+                ypos getRes(200)
+                idle "/Icons2/dance_down.png"
+                hover "/Icons2/dance_down_hover.png"
+                action [SetVariable("arrowDown", False), Return("down")]
+        else:
+            add "/Icons2/dance_down_Disabled.png":
+                xpos getRes(50)
+                ypos getRes(200)
+                xanchor 0.5
+                yanchor 0.5
+        #next
+        if arrowStop == True:
+            imagebutton:
+                xanchor 0.5
+                yanchor 0.5
+                xpos getRes(170)
+                ypos getRes(80)
+                idle "/Icons2/dance_stop.png"
+                hover "/Icons2/dance_stop_hover.png"
+                action Return("stop")
+        else:
+            add "/Icons2/dance_stop_Disabled.png":
+                xanchor 0.5
+                yanchor 0.5
+                xpos getRes(170)
+                ypos getRes(80)
 
 
 
