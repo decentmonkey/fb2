@@ -35,6 +35,8 @@ label pub_dance_init:
     $ add_hook("monica_pole_dance_end", "pub_dance_end1", scene="global", label="monica_pole_dance_end", quest="monica_dance_pub")
     $ add_hook("Teleport_Hostel_Street", "pub_dance_exit_check", scene="pub", label="monica_pole_dance_exit_check", quest="monica_dance_pub", priority = 201)
     $ add_hook("Teleport_Pub", "pub_dance_close", scene="pub_makeuproom", label="monica_pole_dance_close", quest="monica_dance_pub")
+    $ add_hook("enter_scene", "pub_dance_scene_return", scene="pub_stage1", label="monica_dance_return_stage", quest="monica_dance_pub")
+
     $ pubMonicaDanceTipsKoeffText = "30"
     return
 
@@ -58,6 +60,13 @@ label pub_dance_close: # Закрывание гримерки
 
     $ set_active("Teleport_Pub_MakeupRoom", False, scene="pub")
     $ monicaDancingInProgress = False
+    return
+
+label pub_dance_scene_return:
+    # Моника заходит к сцене после танцев
+    if cloth_type == "StripOutfit" and monicaDancedLastDay == day: # Моника выходит к сцене сразу после танцев
+        sound snd_applause1
+        call dialogue_5_dance_strip_5ca()
     return
 
 label pub_dance_ashley_after:

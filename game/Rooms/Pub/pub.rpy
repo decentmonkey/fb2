@@ -137,6 +137,14 @@ label pub_environment:
                     img 9667
             with fade
             w
+            if ep29_quests_pub_monica_knows_molly == True and obj_name == "Pub_StripteaseGirl1":
+                call dialogue_5_dance_strip_25()
+                call refresh_scene_fade()
+                return
+            if ep29_quests_pub_monica_knows_claire == True and obj_name == "Pub_StripteaseGirl2":
+                call dialogue_5_dance_strip_26()
+                call refresh_scene_fade()
+                return
             mt "Эти девушки совсем не уважают себя!"
             "Как можно делать подобное у всех на виду?!"
             call refresh_scene_fade() from _call_refresh_scene_fade_47

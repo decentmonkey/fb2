@@ -454,7 +454,7 @@ label ep27_dialogues7_pub8:
 # -Идти танцевать на сцену (в следующей версии игры)
 # -Попросить прощения по другому...
     $ menu_price = [500]
-    if pubMonicaWaitressTipsPunishmentTalkStage == 0 and pubMonicaWaitressTipsPunishmentTalkStage == 0:
+    if pubMonicaWaitressTipsPunishmentTalkStage == 0 and pubMonicaWaitressTipsPunishmentTalkStage == 0 and ep29_quests_pub_forgiveness_dancing_enabled == True:
         $ menu_corruption = [0, monicaForgivenessDancingAgreeCorruption]
     menu:
         "Отдать деньги":

@@ -24,6 +24,7 @@ label ep29_quests_pub1_dance_agree:
     $ add_hook("Pub_StripteaseGirl1", "ep29_quests_pub1_day1_molly", scene="pub_makeuproom", label="monica_dance_forgiveness_dialogue")
 
     $ add_hook("before_open", "dialogue_5_dance_strip_2", scene="pub_makeuproom", once=True, label="monica_dance_block")
+    $ add_hook("enter_scene", "pub_dance_scene_return", scene="pub_stage1", label="monica_dance_return_stage", quest="monica_dance_forgiveness")
 #    $ autorun_to_object("dialogue_5_dance_strip_4n", scene="pub_stage1")
     $ questLog(57, True) #Мне нужно отработать долг $500, выступая на сцене в пабе.
     $ ep29_quests_pub_forgiveness_dancing_quest_in_progress = True
