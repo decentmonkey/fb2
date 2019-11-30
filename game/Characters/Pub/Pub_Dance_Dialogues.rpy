@@ -66,11 +66,11 @@ label pub_dance_dialogues_react(pose, zone): # Реакция зала
 
     if moveRepeated == True or zoneRepeated == True: # движение не понравилось
         if moveRepeated == True:
-            $ notif(_("Моника повторяет направления танца"))
-        if zoneRepeated == True:
             $ notif(_("Моника делала это движение в прошлый раз"))
+        if zoneRepeated == True:
+            $ notif(_("Моника повторяет направления танца"))
         call pub_dance_dialogues_excitement_down(pose, zone)
-        show screen love_bar_screen(0.0, 0.4)
+        show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
         $ idx = rand(1,4)
         $ crowdSound = "snd_crowd_uuu" + str(idx)
         sound crowdSound
@@ -92,7 +92,7 @@ label pub_dance_dialogues_react(pose, zone): # Реакция зала
     else:
         # Движение понравилось
         call pub_dance_dialogues_excitement_up(pose, zone)
-        show screen love_bar_screen(0.0, 0.4)
+        show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
         $ idx = rand(1,3)
         $ applauseSound = "snd_applause" + str(idx)
         sound applauseSound
@@ -119,10 +119,35 @@ label pub_dance_dialogues_react(pose, zone): # Реакция зала
     return
 
 label pub_dance_dialogues_excitement_up(pose, zone):
-
+    python:
+        idx1 = 0
+        if zone == "up":
+            idx1 = 0
+        if zone == "side":
+            idx1 = 1
+        if zone == "down":
+            idx1 = 2
+        excitementAmount = excitementTableUp[pose-1][idx1]
+        stage_Monica_Excitement_Last = stage_Monica_Excitement_Current
+        stage_Monica_Excitement_Current += excitementAmount
+        if stage_Monica_Excitement_Current > 100:
+            stage_Monica_Excitement_Current = 100
     return
 
 label pub_dance_dialogues_excitement_down(pose, zone):
+    python:
+        idx1 = 0
+        if zone == "up":
+            idx1 = 0
+        if zone == "side":
+            idx1 = 1
+        if zone == "down":
+            idx1 = 2
+        excitementAmount = excitementTableDown[pose-1][idx1]
+        stage_Monica_Excitement_Last = stage_Monica_Excitement_Current
+        stage_Monica_Excitement_Current -= excitementAmount
+        if stage_Monica_Excitement_Current < 0:
+            stage_Monica_Excitement_Current = 0
     return
 
 label pub_dance_dialogues_excitement_tips():

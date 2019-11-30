@@ -104,7 +104,10 @@ label pub_dance1_stage_start1:
         scene black
         image videov_Monica_Strip_A1 = Movie(play="video/v_Monica_Strip_A1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_A1_end.jpg")
         show videov_Monica_Strip_A1
-        #pause 1.8
+        pause 1.8
+        img black_screen
+        w
+        show screen atl_test1()
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "side":

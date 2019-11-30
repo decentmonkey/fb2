@@ -171,5 +171,10 @@ transform camera_record_icon_transform:
     pause 0.4
     repeat
 
+transform pole_dance_shake:
+    xalign 0.0
+    linear 2.0 yalign 1.0
+    repeat
+
 #translate german python:
 #    objectivesFont = "fonts/OpenSans-Regular.ttf"

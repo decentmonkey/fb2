@@ -360,7 +360,7 @@ screen love_bar_screen(oldBarValue, newBarValue):
             bar:
                 xpos getRes(17)
                 ypos getRes(260)
-                value AnimatedValue(newBarValue, 1.0, 1.0, oldBarValue)
+                value AnimatedValue(float(newBarValue)/100, 1.0, 1.0, float(oldBarValue)/100)
                 xoffset 5
                 xysize(gui.resolution.hud_screen.love_bar_xysize)
                 bar_vertical True
@@ -454,7 +454,8 @@ screen poledance():
                 ypos getRes(80)
 
 
-
+screen atl_test1():
+    add "/images/Slides/v_Monica_Strip_A1_end.jpg" at pole_dance_shake
 
 
 
