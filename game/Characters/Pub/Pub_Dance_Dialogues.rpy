@@ -158,7 +158,7 @@ label pub_dance_dialogues_excitement_down(pose, zone):
 
 label pub_dance_dialogues_excitement_tips():
 #    $ kupury = [1,2,5,10,20,50]
-    $ kupury = [10,5,2,1]
+    $ kupury = [20,10,5,2,1]
     if stage_Monica_Excitement_Current <= 27:
         $ moneyTips1 = rand(7,9)
     else:

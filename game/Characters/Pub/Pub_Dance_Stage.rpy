@@ -1,6 +1,6 @@
 default stageMusicControlEnabled = False # включено-ли произвольное управление музыкой
 default stageMusicMode = 0 # 0 - последовательно, 1 - случайно, 2 - произвольная музыка
-default stageLastMusic = 1 # индекс последней игравшей музыки
+default stageLastMusic = -1 # индекс последней игравшей музыки
 default stageCustomMusic = 0 # индекс произвольной музыки
 
 default stageCurrentMusicIntro = False
