@@ -1,3 +1,8 @@
+#v0.9 pub
+define monicaForgivenessDancingAgreeCorruption = 250 # Моника соглашается танцевать, чтобы отработать деньги (из меню)
+define monicaClaireOilingVest = 280 # Моника соглашается, чтобы Клэр намазала ее маслом
+define monicaPutStripClothTopless = 350 # Моника одевает одежду для стриптиза без верха
+
 # v0.8
 define monicaEricCollegeDressPriceRegular = 40 # Цена за платье в квесте Эрика
 define monicaEricCollegeDressPriceDiscount = 20 # Цена за платье в квесте Эрика со скидкой
@@ -51,7 +56,7 @@ define pubCustomer4_serve1_Corruption = 100
 default pubMonicaWaitressTipsKoeff = 0.3 # Сколько чаевых отдают Монике за работу официанткой
 default pubMonicaWaitressVisitorsPerDay = 3 # Сколько посетителей Моника может обслужить в день
 default pubMonicaDanceTipsKoeff = 0.3 # Сколько чаевых отдают Монике за танцы
-default pubMonicaDanceTipsKoeffText = "70" # текст чаевых
+default pubMonicaDanceTipsKoeffText = "30" # текст чаевых
 
 define monicaSteveJaneCorruption1 = 150 # Согласие на контракт Знакомство
 define monicaSteveJaneCorruption2 = 200 # Предложение показать Стиву свою грудь
@@ -389,6 +394,11 @@ label characters_init:
 label characters_pub_init:
     $ char_info["Bartender"] = {"name": _("Джо"), "name_orig":"Джо", "enabled":True, "face":"Face_Joe", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": _("Бармен в Shiny Hole"), "max_progress":100, "uplevel_label":"bartenderProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
     $ char_info["Bartender_Waitress"] = {"name": _("Эшли"), "name_orig":"Эшли", "enabled":True, "face":"Face_Ashley", "style":"char_face_style1_pink",  "bar_suffix": "pink", "level":1, "current_progress":0, "caption": _("Жена бармена"), "max_progress":100, "uplevel_label":"bartenderWaitressProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
+    return
+
+label characters_pub_init2:
+    $ char_info["Pub_StripteaseGirl1"] = {"name": _("Стриптизерша"), "name_orig":"Молли", "enabled":True, "face":"Face_Molly", "style":"char_face_style1_red",  "bar_suffix": "red", "level":1, "current_progress":0, "caption": _("Королева Shiny Hole"), "max_progress":100, "uplevel_label":"mollyProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
+    $ char_info["Pub_StripteaseGirl2"] = {"name": _("Стриптизерша"), "name_orig":"Клэр", "enabled":True, "face":"Face_Claire", "style":"char_face_style1_green",  "bar_suffix": "green", "level":1, "current_progress":0, "caption": _("Стриптизерша в Shiny Hole"), "max_progress":100, "uplevel_label":"claireProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
     return
 
 label characters_init_julia:

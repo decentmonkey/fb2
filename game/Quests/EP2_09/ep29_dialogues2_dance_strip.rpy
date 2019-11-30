@@ -1,5 +1,6 @@
 default dialogue_5_dance_strip_20_flag1 = False
-
+default monicaClaireOilingCount = 0
+default monicaClaireOilingToplessCount = 0
 # Паб. Разговор с Эшли (Моника украла чаевые).
 label dialogue_5_dance_strip_1:
     # Эшли орет на Монику, что та украла чаевые (ep27_dialogues7_pub8)
@@ -19,6 +20,12 @@ label dialogue_5_dance_strip_1:
     with diss
     ashley "Никаких 'но'!" # раздраженно
     ashley "Или ты идешь на сцену или убираешься отсюда!"
+    if day_time != "evening":
+        ashley "Так что {c}приходи вечером!{/c}"
+        ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
+        ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+        return False
+
     music Villainous_Treachery
     img 22652
     with fade
@@ -27,10 +34,17 @@ label dialogue_5_dance_strip_1:
     with diss
     mt "Я, Моника Бакфетт! Буду танцевать стриптиз! На сцене в грязном пабе в трущобах!"
     mt "Это немыслимо!!!"
-    mt "Одно дело танцевать у пилона для одного-двух неудачников в подворотне..."
-    mt "Они все равно никогда не узнают, кто я такая..."
-    mt "А сцена..."
-    mt "Это все равно, что фотосессия для обложки журнала, который увидят миллионы!"
+    python:
+        flag1 = False
+        for progress_name in corruption_places:
+            if progress_name.find('monicaWhoringClothPylonDanceCorruption') != -1:
+                flag1 = True
+    if flag1 == True:
+        mt "Одно дело танцевать у пилона для одного-двух неудачников в подворотне..."
+        mt "Они все равно никогда не узнают, кто я такая..."
+        mt "А сцена..."
+        mt "Это все равно, что фотосессия для обложки журнала, который увидят миллионы!"
+
     music Power_Bots_Loop
     img 22654
     with diss
@@ -79,7 +93,7 @@ label dialogue_5_dance_strip_1:
             with diss
             m "Я... Мне нужно время подумать..."
             m "Сегодня я точно не готова это сделать..."
-            return 1
+            return False
     # Моника выбирает идти в гримерку
     mt "С другой стороны..."
     mt "Если и правда получится быстро отработать долг перед Эшли..."
@@ -88,9 +102,9 @@ label dialogue_5_dance_strip_1:
     mt "..."
     mt "Схожу сначала в гримерку. Возможно, там есть приличные сценические костюмы..."
     mt "Хотя сомневаюсь что в этой дыре есть что-то подходящее для такой леди как Я..."
-    $ log1 = _("Идти в гримерку, чтобы подготовиться к выступлению на сцене.")
-    $ log1 = _("Мне нужно отработать долг $500, выступая на сцене в пабе.")
-    return
+#    $ log1 = _("Идти в гримерку, чтобы подготовиться к выступлению на сцене.")
+#    $ log1 = _("Мне нужно отработать долг $500, выступая на сцене в пабе.")
+    return True
 
 # Паб. Гримерка танцовщиц. Разговор Моники с рыжей стриптизершой.
 # После того, как Моника не отдала чаевые и была наказана. Появляется меню отработать чаевые на сцене.
@@ -109,12 +123,16 @@ label dialogue_5_dance_strip_2:
     mt "Фи, это же просто подсобка, а не гримерка!"
     mt "И все такое... старое!"
     mt "Как здесь можно готовиться к выступлениям?!"
+    call refresh_scene_fade()
     # переключение на движок
-
-
+    return
 label dialogue_5_dance_strip_2a:
     # нажатие на Молли
     # к Монике поворачивается рыжая, смотрит на нее неприветливо
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     music Groove2_85
     img 22664
     with fadelong
@@ -207,15 +225,19 @@ label dialogue_5_dance_strip_2a:
     with diss
     mt "И не хватало еще, чтобы мое лицо узнал кто-то за пределами этих трущоб..."
     mt "..."
+    music Groove2_85
     img 22682
     with fade
     sound highheels_short_walk
     mt "Где эта Эшли?!"
     mt "В чем, по ее мнению, я должна танцевать?!"
-    $ log1 = _("Спросить у Эшли костюм для выступления.")
-    $ log1 = _("Эта рыжая стриптизерша слишком многое себе позволяет. Как она смеет так общаться со мной?!")
+#    $ log1 = _("Спросить у Эшли костюм для выступления.")
+#    $ log1 = _("Эта рыжая стриптизерша слишком многое себе позволяет. Как она смеет так общаться со мной?!")
     return
-
+label dialogue_5_dance_strip_2b:
+    mt "Я не хочу разговаривать с этой хамкой. Она провоцирует меня."
+    mt "Я... боюсь не сдержаться и ударить ее..."
+    return
 # гримерка - один выход. Перед танцами выход ведет ко сцене. После танцев выход ведет к диалогу с Эшли или Джо (если ловит ее)
 # Далее Моника оказывается в локации паба (как обычно)
 # Локация сцены (крупным планом сцена и Моника стоит перед ней). Для танцев надо нажать на цену (look или walk)
@@ -229,6 +251,22 @@ label dialogue_5_dance_strip_4n:
     mt "Я не верю, что мне приходится танцевать на ней!"
     mt "Мне! Монике Бакфетт!!!"
     return
+
+label dialogue_5_dance_strip_4na:
+    if act=="l":
+        return
+    mt "Мне нужно идти в гримерную комнату..."
+    return False
+
+label dialogue_5_dance_strip_4nb:
+    mt "Сначала мне надо поговорить с Эшли..."
+    return False
+
+label dialogue_5_dance_strip_4nc:
+    if act=="l":
+        return
+    mt "Мне надо придти завтра."
+    return False
 
 # Моника после первого посещения гримерки идет к барной стойке к Эшли. Ей нужен костюм для выступления.
 # Паб. Возле барной стойки. Эшли там нет, только Джо. Разговор Моники с Джо.
@@ -286,13 +324,13 @@ label dialogue_5_dance_strip_3:
     img black_screen
     with diss
     pause 1.0
-    music Villainous_Treachery
+    music Groove2_85
     img 22692
     with fadelong
     mt "{c}Завтра{/c} мне предстоит снова вернуться в эту ужасную гримерку, фи!"
     mt "Да еще и придется знакомиться с еще одной хамкой!"
     mt "!!!"
-    $ log1 = _("Поговорить в пабе с другой стриптизершей.")
+#    $ log1 = _("Поговорить в пабе с другой стриптизершей.")
     return
 
 # Мысли Моники на сцене. В зависимости от уровня corruption.
@@ -357,7 +395,7 @@ label dialogue_5_dance_strip_4m:
     mt "Все! С меня хватит!!!"
     mt "Я на сегодня наработалась [monica_pub_name]!"
     mt "Не хочу больше видеть эту толпу пьяных неудачников!"
-    return
+    return False
 
 # Крики посетителей из зала во время выступления Моники.
 # Моника в корсете
@@ -485,6 +523,7 @@ label dialogue_5_dance_strip_6:
     with diss
     mt "..."
     # Моника в растерянности. Выбор: отдать деньги, идти в гримерку или уйти
+    $ menu_price = [500]
     menu:
         "Отдать деньги":
             music Hidden_Agenda
@@ -516,7 +555,7 @@ label dialogue_5_dance_strip_6:
     img 22701
     with fade
     mt "Возможно, у этой Клэр найдется приличный костюм..."
-    $ log1 = _("Идти в гримерку, чтобы подготовиться к выступлению на сцене.")
+#    $ log1 = _("Идти в гримерку, чтобы подготовиться к выступлению на сцене.")
     return 2
 
 
@@ -534,21 +573,30 @@ label dialogue_5_dance_strip_7:
     img 22703
     with fade
     m "Мне нужна работа..." # растерянно
-    img 22704
-    with diss
-    ashley "Тогда чего ты ждешь? Иди в гримерку!"
-    ashley "Тебе сначала нужно подготовиться к выступлению, переодеться..."
-    music Loved_Up
-    img 22705
-    with fade
-    ashley "Вернее, раздеться!" # улыбается
-    music Groove2_85
-    img 22706
-    with diss
-    mt "!!!"
-    # Моника в растерянности. Выбор: отдать деньги, идти в гримерку или уйти
+    if day_time != "evening":
+        img 20993
+        with diss
+        ashley "{c}Приходи вечером!{/c}"
+        ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
+        ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+    else:
+        img 22704
+        with diss
+        ashley "Тогда чего ты ждешь? Иди в гримерку!"
+        ashley "Тебе сначала нужно подготовиться к выступлению, переодеться..."
+        music Loved_Up
+        img 22705
+        with fade
+        ashley "Вернее, раздеться!" # улыбается
+        music Groove2_85
+        img 22706
+        with diss
+        mt "!!!"
+        # Моника в растерянности. Выбор: отдать деньги, идти в гримерку или уйти
+    if ep29_quests_pub_block_money_return == False:
+        $ menu_price = [500]
     menu:
-        "Отдать деньги":
+        "Отдать деньги" if ep29_quests_pub_block_money_return == False:
             music Hidden_Agenda
             img 21009
             with fade
@@ -563,17 +611,18 @@ label dialogue_5_dance_strip_7:
             ashley "Ладно, так уж и быть. Теперь ты можешь снова работать здесь."
             ashley "Но не испытывай моего терпения!"
             return 1
-        "Идти в гримерку.":
+        "Идти в гримерку." if day_time == "evening":
             pass
         "Уйти.":
-            music Villainous_Treachery
-            mt "Я, Моника Бакфетт, на этой грязной сцене?!"
-            mt "Нет! Я не смогу!!!"
-            mt "Я не опущусь до уровня этих шлюх у пилона!"
-            img 22707
-            with fade
-            m "Я... Мне нужно время подумать..."
-            m "Сегодня я точно не готова это сделать..."
+            if day_time == "evening":
+                music Groove2_85
+                mt "Я, Моника Бакфетт, на этой грязной сцене?!"
+                mt "Нет! Я не смогу!!!"
+                mt "Я не опущусь до уровня этих шлюх у пилона!"
+                img 22707
+                with fade
+                m "Я... Мне нужно время подумать..."
+                m "Сегодня я точно не готова это сделать..."
             return 0
     # Моника выбирает идти в гримерку
     img 22708
@@ -581,14 +630,21 @@ label dialogue_5_dance_strip_7:
     mt "Если это единственный способ быстро отработать долг перед Эшли..."
     mt "..."
     mt "Схожу сначала в гримерку. Возможно, там есть приличные сценические костюмы..."
-    $ log1 = _("Идти в гримерку, чтобы подготовиться к выступлению на сцене.")
-    $ log1 = _("Мне нужно отработать долг $ 500, выступая на сцене в пабе.")
+#    $ log1 = _("Идти в гримерку, чтобы подготовиться к выступлению на сцене.")
+#    $ log1 = _("Мне нужно отработать долг $ 500, выступая на сцене в пабе.")
     return
 
+label dialogue_5_dance_strip_8a:
+    mt "Это и есть вторая стриптизерша?"
+    return
 
 # Паб. Гримерка. Разговор Моники со второй стриптизершей.
 # Следующий приход после начала цепочки квестов
 label dialogue_5_dance_strip_8:
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     # брюнетка стоит спиной к Монике, переодевается, Моника стоит в дверях
     music Groove2_85
     img 22709
@@ -598,7 +654,7 @@ label dialogue_5_dance_strip_8:
     with fade
     mt "Надо приготовиться к знакомству со второй хамкой." # с воинственным настроем
     mt "Она, наверное, тоже возомнила себя звездой, как та рыжая стерва..."
-    music Villainous_Treachery
+    music Pyro_Flow
     img 22711
     with diss
     mt "Звездой в грязном пабе в трущобах!.." # высокомерно
@@ -641,9 +697,15 @@ label dialogue_5_dance_strip_8:
     m "Нет. Сегодня будет мое первое выступление..."
 
     # если были сцены в трущобах с ситизенами
-    img 22722
-    with diss
-    mt "Танцы у пилона на улицах трущоб - не в счет!" # если были сцены в трущобах с ситизенами
+    python:
+        flag1 = False
+        for progress_name in corruption_places:
+            if progress_name.find('monicaWhoringClothPylonDanceCorruption') != -1:
+                flag1 = True
+    if flag1 == True:
+        img 22722
+        with diss
+        mt "Танцы у пилона на улицах трущоб - не в счет!" # если были сцены в трущобах с ситизенами
     #
     music Groove2_85
     img 22723
@@ -734,7 +796,7 @@ label dialogue_5_dance_strip_8_loop1:
     # Клэр отвернулась к вешалке, Моника снимает с себя свою одежду
     music Groove2_85
     img 22741
-    with fade
+    with fadelong
     mt "Одно дело трущобы..." # если были сцены в трущобах с ситизенами
     mt "Там, конечно, приходилось показывать себя всяким неудачникам."
     music Power_Bots_Loop
@@ -803,10 +865,12 @@ label dialogue_5_dance_strip_8_loop1:
     img 22753
     with diss
     w
+    $ menu_corruption = [0, monicaClaireOilingVest]
     menu:
         "Взять у Клэр масло и намазаться самой.":
             pass
         "Позволить Клэр намазать меня маслом.":
+
             # Клэр намазывает ее маслом
             img 22754
             with fade
@@ -880,13 +944,14 @@ label dialogue_5_dance_strip_8_loop1:
             with fade
             mt "Хм... Хорошо, что она их не читает."
             mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
-            return 1
+            $ monicaClaireOilingCount += 1
+            $ add_char_progress("Pub_StripteaseGirl2", 50, "oiling1")
     # Клэр, осматривая Монику
     music stop
     img black_screen
     with diss
     pause 1.5
-    music Groove2_85
+    music Molten_Alloy
     img 22772
     with fadelong
     clare "Вот теперь ты выглядишь на миллион баксов!"
@@ -901,12 +966,19 @@ label dialogue_5_dance_strip_8_loop1:
     # выход на движок (персонажи в сцене)
     clare "Давай, тебя там уже ждут!"
     mt "Черт. Черт! Черт!!!"
-    $ log1 = _("Выйти на сцену паба и танцевать.")
-    $ log1 = _("Похоже, Клэр единственная в этой дыре, с кем можно нормально общаться.") # квест лог
+
+    $ pubMakeupRoomSkipMusicOnce = True
+#    $ log1 = _("Выйти на сцену паба и танцевать.")
+#    $ log1 = _("Похоже, Клэр единственная в этой дыре, с кем можно нормально общаться.") # квест лог
     return
 
 # Паб. Перед сценой. Разговор Моники с Джо.
 # Джо ловит Монику перед подъемом на сцену первый раз
+label dialogue_5_dance_strip_9b:
+    clare "Вот теперь ты выглядишь на миллион баксов!"
+    clare "Давай, тебя там уже ждут!"
+    return False
+
 label dialogue_5_dance_strip_9a:
     # Моника смотри на Джо у сцены
     # не рендерить!
@@ -981,12 +1053,16 @@ label dialogue_5_dance_strip_11:
 # На выходе из гримерки
 label dialogue_5_dance_strip_12:
     # Эшли требовательно
+    music2 stop
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     music2 pub_noise1_low
     music Groove2_85
     img 22781
     with fadelong
     ashley "Ну что, [monica_pub_name], сколько ты заработала сегодня?"
-    music Villainous_Treachery
     img 22782
     with fade
     m "???"
@@ -999,10 +1075,10 @@ label dialogue_5_dance_strip_12:
     ashley "Здесь надо не просто танцевать, а зарабывать деньги!"
     ashley "Если бы ты показала публике свою грудь или голую попку..."
     ashley "То тебе определенно дали бы несколько долларов."
+    music Power_Bots_Loop
     img 22785
     with hpunch
     m "Я не собираюсь этого делать!!!"
-    music Power_Bots_Loop
     img 22786
     with diss
     ashley "А придется! Как ты собираешься возвращать мне долг?"
@@ -1026,19 +1102,27 @@ label dialogue_5_dance_strip_12:
 # У сцены
 label dialogue_5_dance_strip_13:
     # Эшли требовательно
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
     music2 pub_noise1_low
     music Groove2_85
     img 22790
     with fadelong
     ashley "[monica_pub_name], сколько ты заработала сегодня?"
-    # ничего не заработала
-    img 22791
-    with fade
-    # заработала
-    m "Сегодня я ничего не заработала..."
-    img 22792
-    with fade
-    m "Сегодня я заработала [monica_strip_tips_today]."
+    if monica_strip_tips_today == 0:
+        # ничего не заработала
+        img 22791
+        with fade
+        # заработала
+        m "Сегодня я ничего не заработала..."
+    else:
+        img 22792
+        with fade
+        $ add_money(-monica_strip_tips_today)
+        $ monica_strip_forgiveness_money_left -= monica_strip_tips_today
+        m "Сегодня я заработала [monica_strip_tips_today]."
     img 22793
     with diss
     ashley "Тебе осталось отдать мне еще [monica_strip_forgiveness_money_left]."
@@ -1065,15 +1149,25 @@ label dialogue_5_dance_strip_13:
 # Далее, после первого выступления, танцует только рыжая
 label dialogue_5_dance_strip_14:
     # рыжая сидит возле зеркала, Моника стоит в дверях
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     music Groove2_85
     img 22813
     with fadelong
     mt "Черт, я совсем забыла, что сегодня здесь звезда трущоб!"
+    return
+label dialogue_5_dance_strip_14a:
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Groove2_85
     img 22814
-    with fade
+    with fadelong
     sound highheels_short_walk
     mt "Я не хочу разговаривать с этой хамкой!"
-
     # Моника проходит в гримерку и молча переодевается в одежду Клэр
     # рыжая смотрит на Монику высокомерно
     img 22815
@@ -1143,13 +1237,14 @@ label dialogue_5_dance_strip_14:
     with diss
     mt "Не могу выносить ее присутствия!"
     mt "Надо скорее одеться и идти на сцену."
-    menu:
-        "Надеть костюм с жилетом.":
-            pass
-        "Надеть только трусики.":
-            mt "Я не выйду на сцену с голой грудью!!!"
-            return False
-    $ log1 = _("Выйти на сцену паба и танцевать.")
+    $ add_char_progress("Pub_StripteaseGirl1", 25, "Pub_StripteaseGirl1_conflict1")
+#    menu:
+#        "Надеть костюм с жилетом.":
+#            pass
+#        "Надеть только трусики.":
+#            mt "Я не выйду на сцену с голой грудью!!!"
+#            return False
+#    $ log1 = _("Выйти на сцену паба и танцевать.")
     return
 
 # Паб. Гримерка танцовщиц. Моника, после выступления.
@@ -1201,12 +1296,21 @@ label dialogue_5_dance_strip_16:
     mt "Эта озабоченная Эшли со своим таким же озабоченным мужем уже достали меня!"
     mt "Кто бы предупредил меня заранее, что с ними не стоит связываться?!"
     # Моника переодевается
-    menu:
-        "Надеть костюм с жилетом.":
-            pass
-        "Надеть только трусики.":
-            m "Я не выйду на сцену с голой грудью!!!"
-            return False
+    call dialogue_5_dance_strip_29b()
+    $ topless = False
+    if _return == 0:
+        $ cloth = "StripOutfit1"
+        $ cloth_type = "StripOutfit"
+    if _return == 1:
+        $ topless = True
+        $ cloth = "StripOutfit2"
+        $ cloth_type = "StripOutfit"
+#    menu:
+#        "Надеть костюм с жилетом.":
+#            pass
+#        "Надеть только трусики.":
+#            m "Я не выйду на сцену с голой грудью!!!"
+#            return False
     # Клэр берет со столика в руки флакон
     music stop
     img black_screen
@@ -1215,19 +1319,23 @@ label dialogue_5_dance_strip_16:
     pause 1.5
     music Groove2_85
     # корсет
-    img 22753
-    with fade
+    if topless == False:
+        img 22753
+        with fade
     # без корсета
-    img 22833
-    with fade
+    else:
+        img 22833
+        with fade
     clare "Ты забыла намазаться маслом для тела..."
     clare "[monica_pub_name], давай я тебе помогу?"
+    $ menu_corruption = [0, monicaClaireOilingVest]
     menu:
         "Взять у Клэр масло и намазаться самой.":
             pass
-        "Позволить Клэр намазать меня маслом.":
+        "Позволить Клэр намазать меня маслом." if game.extra == True or cloth == "StripOutfit1":
             # Клэр намазывает ее маслом
             if topless == True:
+                $ monicaClaireOilingToplessCount += 1
                 img 22754
                 with fade
                 sound hlup2
@@ -1290,6 +1398,7 @@ label dialogue_5_dance_strip_16:
 
 
             else:
+                $ monicaClaireOilingCount += 1
                 img 22754
                 with fade
                 sound hlup2
@@ -1361,20 +1470,27 @@ label dialogue_5_dance_strip_16:
                 with fade
                 mt "Хм... Хорошо, что она их не читает."
                 mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
-            return 1
+            $ add_char_progress("Pub_StripteaseGirl2", 50, "oiling1")
+#            return 1
     # Клэр, осматривая Монику
     # Переход на движок
-    clare "Выглядишь сногсшибательно."
-    clare "Иди и покажи им, кто здесь звезда."
-    mt "Черт! Снова эта сцена! И толпа пьяных неудачников!"
-    $ log1 = _("Выйти на сцену паба и танцевать.")
     return
 
+label dialogue_5_dance_strip_16a:
+    clare "Выглядишь сногсшибательно."
+    clare "Иди и покажи им, кто здесь звезда."
+
+    return
 # Джо перехватывает Монику перед входом на сцену
 # Паб. Перед сценой. Разговор Моники с Джо.
 # У сцены
 label dialogue_5_dance_strip_17:
     # Джо стоит перед выходом на сцену
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.5
     music2 pub_noise1_low
     music Groove2_85
     img 22797
@@ -1412,15 +1528,15 @@ label dialogue_5_dance_strip_17:
     img 22803
     with fadelong
     clare "Что здесь происходит?!" # смотрит на Джо строго
-    img 22804
-    with fade
     sound Jump2
+    img 22804
+    with hpunch
     clare "Тебе чего надо от [monica_pub_name]?!" # ткнув его в грудь нагайкой
     joe "Я... Мне... Я просто..." # растерянно мямлит и смотрит на нагайку
     music Power_Bots_Loop
-    img 22805
-    with diss
     sound Jump2
+    img 22805
+    with vpunch
     clare "Я просто пойду сейчас к твоей жене!" #с угрозой
     clare "И расскажу, чем ТЫ тут занимаешься!"
     music Groove2_85
@@ -1439,9 +1555,13 @@ label dialogue_5_dance_strip_17:
     music Power_Bots_Loop
     img 22809
     with diss
-    sound man_steps
     clare "Тогда пошел отсюда! Быстро!!!" # ткнув его снова нагайкой
     joe "!!!"
+    music stop
+    img black_screen
+    with diss
+    sound man_steps
+    pause 1.0
     music Groove2_85
     img 22810
     with fade
@@ -1457,6 +1577,11 @@ label dialogue_5_dance_strip_17:
     m "Спасибо, Клэр."
     # Клэр уходит
     mt "Когда я выберусь из этого дна, заведу себе такой же хлыст от извращенцев!"
+    $ add_char_progress("Pub_StripteaseGirl2", 50, "Pub_StripteaseGirl2_defend_monica1")
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     return
 
 
@@ -1481,13 +1606,16 @@ label dialogue_5_dance_strip_19:
     with fadelong
     ashley "[monica_pub_name], сколько ты заработала сегодня?"
 
-    img 22791
-    with fade
-    m "Сегодня я ничего не заработала..."
-
-    img 22792
-    with fade
-    m "Сегодня я заработала [monica_strip_tips_today]."
+    if monica_strip_tips_today == 0:
+        img 22791
+        with fade
+        m "Сегодня я ничего не заработала..."
+    else:
+        img 22792
+        with fade
+        m "Сегодня я заработала [monica_strip_tips_today]."
+        $ add_money(-monica_strip_tips_today)
+        $ monica_strip_forgiveness_money_left -= monica_strip_tips_today
 
     img 22793
     with diss
@@ -1529,14 +1657,14 @@ label dialogue_5_dance_strip_19:
     mt "Если меня кто-нибудь узнает, несмотря на мою маску..."
     mt "Боюсь даже думать о последствиях!"
     mt "!!!"
-    $ log1 = _("Эшли простила мне долг. Теперь я могу зарабатывать, выступая на сцене в пабе Shiny Hole. Неужели для меня это теперь нормально?")
+#    $ log1 = _("Эшли простила мне долг. Теперь я могу зарабатывать, выступая на сцене в пабе Shiny Hole. Неужели для меня это теперь нормально?")
     return
 
 # После этого появляется пункт выбора: Танцевать на сцене
 label dialogue_5_dance_strip_20:
-    menu:
-        "Танцевать на сцене в Shiny Hole.":
-            pass
+#    menu:
+#        "Танцевать на сцене в Shiny Hole.":
+#            pass
     music2 pub_noise1_low
     music Groove2_85
     img 22855
@@ -1546,6 +1674,13 @@ label dialogue_5_dance_strip_20:
     img 22854
     with fade
     m "Я пришла работать на сцене."
+    if day_time != "evening":
+        img 20993
+        with diss
+        ashley "{c}Приходи вечером!{/c}"
+        ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
+        ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+        return False
     img 22856
     with diss
     ashley "Хорошо, [monica_pub_name]."
@@ -1557,7 +1692,7 @@ label dialogue_5_dance_strip_20:
         ashley "Не забудь потом отдать мне часть чаевых."
         ashley "Ты тут вертишь голым задом у пилона не просто так, [monica_pub_name]!"
         mt "Я не хочу даже спорить с этой хамкой..."
-    return
+    return True
 
 
 # Паб. Моника выходит из гримерки после выступления на сцене по желанию. Если идет в сторону барной стойки, появляется Эшли.
@@ -1565,6 +1700,11 @@ label dialogue_5_dance_strip_20:
 # У сцены
 label dialogue_5_dance_strip_21:
     # Эшли требовательно
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.0
     music2 pub_noise1_low
     music Groove2_85
     img 22790
@@ -1624,10 +1764,10 @@ label dialogue_5_dance_strip_21:
         ashley "Хм. Все девочки сначала так говорят..." # c улыбкой
         ashley "Завтра приходи работать еще."
     else:
-        $ add_money(-monica_strip_tips_today)
         music Groove2_85
         img 22792
         with fade
+        $ add_money(-monica_strip_tips_today)
         m "Вот чаевые, которые я смогла получить..."
         $ tipsBack = round_down(float(monica_strip_tips_today)*pubMonicaDanceTipsKoeff, 0.05)
         if tipsBack == 0.0:
@@ -1638,7 +1778,7 @@ label dialogue_5_dance_strip_21:
         img 22867
         with diss
         ashley "И не забывай, что для твоей попки у меня найдется еще работа..." # подмигивает
-        music Villainous_Treachery
+        music Power_Bots_Loop
         img 22868
         with fade
         m "Меня не интересуют другие способы подработки!"
@@ -1658,11 +1798,17 @@ label dialogue_5_dance_strip_21:
 label dialogue_5_dance_strip_22:
     music2 pub_noise1_low
     music Groove2_85
+    img 21025
+    with fadelong
     m "Эшли, я закончила работу."
     ashley "Сколько ты заработала сегодня чаевых, [monica_pub_name]?"
     if monica_strip_tips_today == 0:
+        img 21013
+        with diss
         m "Мне никто не дал чевых сегодня..."
     else:
+        img 22899
+        with fade
         $ add_money(-monica_strip_tips_today)
         m "Вот чаевые, которые я смогла получить..."
         $ tipsBack = round_down(float(monica_strip_tips_today)*pubMonicaDanceTipsKoeff, 0.05)
@@ -1670,6 +1816,8 @@ label dialogue_5_dance_strip_22:
             $ tipsBack = 0.05
         $ add_money(tipsBack)
         ashley "Хорошо. Вот твои [pubMonicaDanceTipsKoeffText] процентов."
+        img 22696
+        with fade
         ashley "Завтра приходи работать еще."
     return
 
@@ -1678,7 +1826,7 @@ label dialogue_5_dance_strip_22:
 # Моника может уйти, не отдавая чаевые.
 label dialogue_5_dance_strip_23:
     menu:
-        "Уйти и не отдавать чаевые хозяевам бара.":
+        "Уйти и не отдавать чаевые хозяевам бара. (в будущих обновлениях) (disabled)":
             mt "Я не собираюсь отдавать никому мои чаевые!"
             return False
         "Остаться.":
@@ -1690,11 +1838,16 @@ label dialogue_5_dance_strip_23:
 # Моника заработала на сцене хорошие чаевые.
 label dialogue_5_dance_strip_24:
     # Джо смотрит на Монику похотливо
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    sound2 man_steps
+    pause 1.5
     music2 pub_noise1_low
     music Groove2_85
     img 22870
     with fadelong
-    sound man_steps
     w
     img 22871
     with fade
@@ -1734,7 +1887,8 @@ label dialogue_5_dance_strip_24:
     m "Я не собираюсь зарабатывать ТАКИМ способом, Джо!" # сердится
     m "И не хочу слышать больше подобных предложений!!!"
     m "!!!"
-    musc Hidden_Agenda
+    music2 stop
+    music Hidden_Agenda
     img 22879
     with diss
     joe "[monica_pub_name], может ты все-таки подумаешь хорошо?"
@@ -1744,16 +1898,23 @@ label dialogue_5_dance_strip_24:
     with fade
     m "???" # смотрит на него как на идиота
     m "Нет!!!"
+    music Hidden_Agenda
     img 22881
     with diss
     joe "Хорошо, [monica_pub_name]."
-    music Hidden_Agenda
     joe "Но если подобные предложения от клиентов еще будут, то я тебе скажу об этом."
     joe "Вдруг ты передумаешь..." # Джо подмигивает и уходит
     m "..."
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     return
 
 # Моника смотрит на Молли (глазик)
+label dialogue_5_dance_strip_25a:
+    mt "Что это еще такое? Она сидит с таким видом, будто она тут самая главная..."
+    return
 label dialogue_5_dance_strip_25:
     mt "Молли. Считает себя королевой сцены Shiny Hole..."
     mt "Звезда трущоб. Фи!"
@@ -1767,66 +1928,94 @@ label dialogue_5_dance_strip_26:
 
 # Моника говорит с Молли (диалог)
 label dialogue_5_dance_strip_27:
-    music Villainous_Treachery
+    music Groove2_85
     img 22882
     with fade
     molly "Чего тебе?"
     molly "Я отдыхаю после выступления. Не отвлекай меня." # отворачивается
-    mt "Ответить ей в таком же тоне означает - опуститься до ее уровня."
-    mt "Я, Моника Бакфетт, никогда не опущусь до уровня этой хамки."
+    if rand(1,2) == 1:
+        mt "Я не хочу разговаривать с этой хамкой. Она провоцирует меня."
+        mt "Я... боюсь не сдержаться и ударить ее..."
+    else:
+        mt "Ответить ей в таком же тоне означает - опуститься до ее уровня."
+        mt "Я, Моника Бакфетт, никогда не опущусь до уровня этой хамки."
     return
 
 # Моника говорит с Клэр (диалог)
 label dialogue_5_dance_strip_28:
     # strip corset
-    music Groove2_85
-    img 22883
-    with fade
-    clare "Привет, [monica_pub_name]. Отлично выглядишь."
-    m "Привет, Клэр. Ты тоже. Как отработала сегодня?"
-    img 22886
-    with diss
-    clare "Получила массу удовольствия, как всегда."
-    clare "Надеюсь, ты тоже хорошо отработаешь сегодня." # приветливо
-    mt "Неужели в моем окружении появился хоть один адекватный человек?"
+    if cloth == "StripOutfit1":
+        music Groove2_85
+        img 22883
+        with fade
+        clare "Привет, [monica_pub_name]. Отлично выглядишь."
+        m "Привет, Клэр. Ты тоже. Как отработала сегодня?"
+        img 22886
+        with diss
+        clare "Получила массу удовольствия, как всегда."
+        clare "Надеюсь, ты тоже хорошо отработаешь сегодня." # приветливо
+        mt "Неужели в моем окружении появился хоть один адекватный человек?"
 
-    #strip topless
-    music Groove2_85
-    img 22884
-    with fade
-    clare "Привет, [monica_pub_name]. Отлично выглядишь."
-    m "Привет, Клэр. Ты тоже. Как отработала сегодня?"
-    img 22886
-    with diss
-    clare "Получила массу удовольствия, как всегда."
-    clare "Надеюсь, ты тоже хорошо отработаешь сегодня." # приветливо
-    mt "Неужели в моем окружении появился хоть один адекватный человек?"
+    if cloth == "StripOutfit2":
+        #strip topless
+        music Groove2_85
+        img 22884
+        with fade
+        clare "Привет, [monica_pub_name]. Отлично выглядишь."
+        m "Привет, Клэр. Ты тоже. Как отработала сегодня?"
+        img 22886
+        with diss
+        clare "Получила массу удовольствия, как всегда."
+        clare "Надеюсь, ты тоже хорошо отработаешь сегодня." # приветливо
+        mt "Неужели в моем окружении появился хоть один адекватный человек?"
 
-    #whore outfit
-    music Groove2_85
-    img 22885
-    with fade
-    clare "Привет, [monica_pub_name]. Отлично выглядишь."
-    m "Привет, Клэр. Ты тоже. Как отработала сегодня?"
-    img 22886
-    with diss
-    clare "Получила массу удовольствия, как всегда."
-    clare "Надеюсь, ты тоже хорошо отработаешь сегодня." # приветливо
-    mt "Неужели в моем окружении появился хоть один адекватный человек?"
+    if cloth == "Whore":
+        #whore outfit
+        music Groove2_85
+        img 22885
+        with fade
+        clare "Привет, [monica_pub_name]. Отлично выглядишь."
+        m "Привет, Клэр. Ты тоже. Как отработала сегодня?"
+        img 22886
+        with diss
+        clare "Получила массу удовольствия, как всегда."
+        clare "Надеюсь, ты тоже хорошо отработаешь сегодня." # приветливо
+        mt "Неужели в моем окружении появился хоть один адекватный человек?"
     return
 
 # Моника переодевается, кликнув на вешалку рядом со столиком Клэр
 label dialogue_5_dance_strip_29:
     mt "Мне нужно переодеться. Что мне надеть?"
+    $ menu_corruption = [0, monicaPutStripClothTopless]
     menu:
         "Костюм для сцены (с жилетом)":
-            pass
+            return 0
         "Костюм для сцены (без жилета)":
-            pass
+            if pubDanceCount < 4:
+                m "Я не выйду на сцену с голой грудью!!!"
+                help "У Моники мало опыта работы танцовщицей."
+                return 0
+            return 1
         "Одежда шлюхи":
-            pass
+            return 2
     return
 
+label dialogue_5_dance_strip_29b:
+    $ menu_corruption = [0, monicaPutStripClothTopless]
+    menu:
+        "Костюм для сцены (с жилетом)":
+            return 0
+        "Костюм для сцены (без жилета)":
+            if pubDanceCount < 4:
+                m "Я не выйду на сцену с голой грудью!!!"
+                help "У Моники мало опыта работы танцовщицей."
+                return 0
+            return 1
+    return
+label dialogue_5_dance_strip_29a:
+    mt "Я не буду ходить по этому мерзкому заведению в таком виде!"
+    mt "Мне надо переодеться!"
+    return
 
 # мысли Моники
 # не рендерить!!!
@@ -1845,6 +2034,7 @@ label dialogue_5_dance_strip_30b:
 label dialogue_5_dance_strip_30c:
     # картина Молли на стене
     img 22896
+    with fade
     mt "Это что? Фото стриптизерши во время работы?"
     mt "Фи, как пошло!"
     mt "А где фото второй стриптизерши?"
@@ -1869,12 +2059,14 @@ label dialogue_5_dance_strip_30f:
 label dialogue_5_dance_strip_30g:
     # столик Молли
     img 22898
+    with fade
     mt "Это столик для грима?"
     mt "Минимум косметики, деньги, коктейль, сигарета... Фу!"
     return
 label dialogue_5_dance_strip_30h:
     # столик Клэр
     img 22897
+    with fade
     mt "Я тоже люблю, когда у меня есть много косметики."
     mt "Хоть я ею и не пользуюсь..."
     return

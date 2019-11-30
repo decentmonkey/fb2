@@ -421,6 +421,8 @@ label ep23_dialogues1_4:
 label ep23_dialogues1_4a:
     # Моника работает
     menu:
+        "Танцевать на сцене в Shiny Hole." if monicaDancingWillingly == True:
+            return 5
         "Работать официанткой в Shiny Hole." if pubMonicaWorkingWaitress == True:
             return 4
         "Спросить о повышении." if monicaPubWashingDishesCount>0 and pubMonicaWorkingWaitress == False:

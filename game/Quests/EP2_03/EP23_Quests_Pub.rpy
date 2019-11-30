@@ -106,6 +106,10 @@ label ep23_quests_pub5_dishes: # Моника моет посуду
     if _return == 4: #Работать официанткой в Shiny Hole.
         call ep27_quests_pub_work2_begin() from _call_ep27_quests_pub_work2_begin
         return False
+    if _return == 5: #Танцевать на сцене
+        call pub_dance_start()
+        return False
+
     return False
 
 

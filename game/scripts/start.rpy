@@ -265,7 +265,7 @@ label start_game:
     $ ep24_quests_initialized = True
     $ ep26_quests_initialized = True
     $ ep27_quests_initialized = True
-
+    $ ep29_quests_initialized = True
 #    $ changeDayTime("evening")
 #    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
 #    $ print scene_data
