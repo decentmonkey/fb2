@@ -454,10 +454,70 @@ screen poledance():
                 ypos getRes(80)
 
 
-screen atl_test1():
-    add "/images/Slides/v_Monica_Strip_A1_end.jpg" at pole_dance_shake
+screen poledance_shoot(imagePath):
+    add imagePath at pole_dance_shake
 
 
+
+screen poledance_coins(coinsArr):
+
+    zorder 100
+    style_prefix "notify"
+
+    $ notifOffset = 0
+    $ idx1 = 0
+    for coin in coinsArr:
+        $ msg =  ("+ $" + str(coin))
+        if idx == 0:
+            frame at coin_appear1:
+                ypos 0.2
+                yoffset notifOffset
+                text "[msg!tq]"
+                $ notifOffset += notifyLineOffset
+                $ idx1 += 1
+        if idx == 1:
+            frame at coin_appear2:
+                ypos 0.2
+                yoffset notifOffset
+                text "[msg!tq]"
+                $ notifOffset += notifyLineOffset
+                $ idx1 += 1
+        if idx == 2:
+            frame at coin_appear3:
+                ypos 0.2
+                yoffset notifOffset
+                text "[msg!tq]"
+                $ notifOffset += notifyLineOffset
+                $ idx1 += 1
+        if idx == 3:
+            frame at coin_appear4:
+                ypos 0.2
+                yoffset notifOffset
+                text "[msg!tq]"
+                $ notifOffset += notifyLineOffset
+                $ idx1 += 1
+        if idx == 4:
+            frame at coin_appear5:
+                ypos 0.2
+                yoffset notifOffset
+                text "[msg!tq]"
+                $ notifOffset += notifyLineOffset
+                $ idx1 += 1
+        if idx == 5:
+            frame at coin_appear6:
+                ypos 0.2
+                yoffset notifOffset
+                text "[msg!tq]"
+                $ notifOffset += notifyLineOffset
+                $ idx1 += 1
+        if idx == 6:
+            frame at coin_appear7:
+                ypos 0.2
+                yoffset notifOffset
+                text "[msg!tq]"
+                $ notifOffset += notifyLineOffset
+                $ idx1 += 1
+    timer (3.25) action [Hide('poledance_coins')]
 
 
 

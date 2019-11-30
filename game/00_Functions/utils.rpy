@@ -56,6 +56,11 @@ init python:
         renpy.show_screen("notify", "notifList")
         return
 
+    def notif_clean():
+        renpy.hide_screen("notify")
+        notifList = []
+        return
+
     def notifCheckTimeout(): #костыль на исчезание нотификаций при скиппинге текста
         global lastNotifTime
         if time.time() - lastNotifTime > 20.0:

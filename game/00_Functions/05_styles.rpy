@@ -172,9 +172,17 @@ transform camera_record_icon_transform:
     repeat
 
 transform pole_dance_shake:
-    xalign 0.0
-    linear 2.0 yalign 1.0
+    anchor (0.5,0.5)
+    pos (0.5, 0.5)
+    ease 1.0 zoom 1.1 xpos 0.51 ypos 0.53 zoom 1.06
+    ease 1.0 zoom 1.0 xpos 0.49 ypos 0.48 zoom 1.1
+    ease 1.0 zoom 1.1 xpos 0.51 ypos 0.53 zoom 1.06
+    ease 1.0 zoom 1.0 xpos 0.49 ypos 0.47 zoom 1.13
+    ease 1.0 zoom 1.1 xpos 0.52 ypos 0.53 zoom 1.06
+    ease 1.0 zoom 1.0 xpos 0.49 ypos 0.48 zoom 1.1
+    ease 1.0 zoom 1.1 xpos 0.52 ypos 0.47 zoom 1.06
+    ease 1.0 zoom 1.0 xpos 0.49 ypos 0.49 zoom 1.1
+    ease 1.0 zoom 1.0 xpos 0.5 ypos 0.5 zoom 1.1
     repeat
-
 #translate german python:
 #    objectivesFont = "fonts/OpenSans-Regular.ttf"

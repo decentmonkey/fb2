@@ -64,7 +64,8 @@ label pub_dance_dialogues_react(pose, zone): # Реакция зала
         stage_Monica_shoots_array.append(checkZoneKey)
         stage_Monica_last_zone = zone
 
-    if moveRepeated == True or zoneRepeated == True: # движение не понравилось
+#    if moveRepeated == True or zoneRepeated == True: # движение не понравилось
+    if zoneRepeated == True: # движение не понравилось
         if moveRepeated == True:
             $ notif(_("Моника делала это движение в прошлый раз"))
         if zoneRepeated == True:
@@ -93,6 +94,7 @@ label pub_dance_dialogues_react(pose, zone): # Реакция зала
         # Движение понравилось
         call pub_dance_dialogues_excitement_up(pose, zone)
         show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
+        call pub_dance_dialogues_excitement_tips()
         $ idx = rand(1,3)
         $ applauseSound = "snd_applause" + str(idx)
         sound applauseSound
@@ -115,6 +117,7 @@ label pub_dance_dialogues_react(pose, zone): # Реакция зала
 
 
 #    wclean
+    $ notif_clean()
 
     return
 
@@ -151,4 +154,45 @@ label pub_dance_dialogues_excitement_down(pose, zone):
     return
 
 label pub_dance_dialogues_excitement_tips():
+#    $ kupury = [1,2,5,10,20,50]
+    $ kupury = [50,20,10,5,2,1]
+    if stage_Monica_Excitement_Current <= 27:
+        $ money = rand(3,5)
+    else:
+        if stage_Monica_Excitement_Current <= 54:
+            $ money = rand(6,8)
+        else:
+            if stage_Monica_Excitement_Current <= 69:
+                $ money = rand(10,12)
+            else:
+                if stage_Monica_Excitement_Current <= 84:
+                    $ money = rand(18,22)
+                else:
+                    if stage_Monica_Excitement_Current <= 100:
+                        $ money = rand(30, 40)
+
+    python:
+        kupury_out = []
+        curMoney = 0
+
+        while curMoney < money:
+            flag1 = False
+            for idx1 in range(0, len(kupury)):
+                if kupury[idx1] < money-curMoney:
+                    kupury_out.append(kupury[idx1])
+                    curMoney += kupury[idx1]
+                    flag1 = True
+            if flag1 == False:
+                curMoney = money
+        shuffle(kupury_out)
+        for kupura in kupury_out:
+            money += kupura
+    if money < 9:
+        sound2 fx_coins_b3
+    else:
+        if money < 20:
+            sound2 fx_coins_b2
+        else:
+            sound2 fx_coins_b1
+    show screen poledance_coins(kupury_out)
     return

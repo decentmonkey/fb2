@@ -98,6 +98,8 @@ label pub_dance1_stage_start1:
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
     if result == "stop":
         jump pub_dance1_stage_stop
     if result == "up":
@@ -105,23 +107,23 @@ label pub_dance1_stage_start1:
         image videov_Monica_Strip_A1 = Movie(play="video/v_Monica_Strip_A1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_A1_end.jpg")
         show videov_Monica_Strip_A1
         pause 1.8
-        img black_screen
-        w
-        show screen atl_test1()
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_A1_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "side":
         scene black
         image videov_Monica_Strip_A2 = Movie(play="video/v_Monica_Strip_A2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_A2_end.jpg")
         show videov_Monica_Strip_A2
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_A2_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "down":
         scene black
         image videov_Monica_Strip_A3 = Movie(play="video/v_Monica_Strip_A3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_A3_end.jpg")
         show videov_Monica_Strip_A3
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_A3_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
 
@@ -138,27 +140,32 @@ label pub_dance1_stage_start1:
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
     if result == "stop":
         jump pub_dance1_stage_stop
     if result == "up":
         scene black
         image videov_Monica_Strip_B1 = Movie(play="video/v_Monica_Strip_B1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_B1_end.jpg")
         show videov_Monica_Strip_B1
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_B1_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "side":
         scene black
         image videov_Monica_Strip_B2 = Movie(play="video/v_Monica_Strip_B2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_B2_end.jpg")
         show videov_Monica_Strip_B2
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_B2_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "down":
         scene black
         image videov_Monica_Strip_B3 = Movie(play="video/v_Monica_Strip_B3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_B3_end.jpg")
         show videov_Monica_Strip_B3
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_B3_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
 
@@ -175,27 +182,32 @@ label pub_dance1_stage_start1:
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
     if result == "stop":
         jump pub_dance1_stage_stop
     if result == "up":
         scene black
         image videov_Monica_Strip_C1 = Movie(play="video/v_Monica_Strip_C1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_C1_end.jpg")
         show videov_Monica_Strip_C1
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_C1_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "side":
         scene black
         image videov_Monica_Strip_C2 = Movie(play="video/v_Monica_Strip_C2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_C2_end.jpg")
         show videov_Monica_Strip_C2
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_C2_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "down":
         scene black
         image videov_Monica_Strip_C3 = Movie(play="video/v_Monica_Strip_C3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_C3_end.jpg")
         show videov_Monica_Strip_C3
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_C3_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
 
@@ -209,6 +221,8 @@ label pub_dance1_stage_start1:
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
     music stop
     img black_screen
     with diss
@@ -221,7 +235,8 @@ label pub_dance1_stage_start1:
         sound snd_applause_undress1
         pause 0.7
         hide screen photoshot_screen
-        #pause 1.8
+        pause 2.1
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Undress1A_end.jpg")
         wclean
     if pubDanceCount%3 == 1:
         scene black
@@ -230,7 +245,8 @@ label pub_dance1_stage_start1:
         sound snd_applause_undress1
         pause 0.7
         hide screen photoshot_screen
-        #pause 1.8
+        pause 2.1
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Undress1B_end.jpg")
         wclean
     if pubDanceCount%3 == 2:
         scene black
@@ -239,7 +255,8 @@ label pub_dance1_stage_start1:
         sound snd_applause_undress1
         pause 0.7
         hide screen photoshot_screen
-        #pause 1.8
+        pause 2.1
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Undress1C_end.jpg")
         wclean
 
     $ arrowUp = True
@@ -256,6 +273,8 @@ label pub_dance1_stage_start1:
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
     music stageCurrentMusicLoop
     if result == "stop":
         jump pub_dance1_stage_stop
@@ -263,21 +282,24 @@ label pub_dance1_stage_start1:
         scene black
         image videov_Monica_Strip_D1 = Movie(play="video/v_Monica_Strip_D1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_D1_end.jpg")
         show videov_Monica_Strip_D1
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_D1_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "side":
         scene black
         image videov_Monica_Strip_D2 = Movie(play="video/v_Monica_Strip_D2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_D2_end.jpg")
         show videov_Monica_Strip_D2
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_D2_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "down":
         scene black
         image videov_Monica_Strip_D3 = Movie(play="video/v_Monica_Strip_D3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_D3_end.jpg")
         show videov_Monica_Strip_D3
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_D3_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
 
@@ -294,27 +316,32 @@ label pub_dance1_stage_start1:
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
     if result == "stop":
         jump pub_dance1_stage_stop
     if result == "up":
         scene black
         image videov_Monica_Strip_E1 = Movie(play="video/v_Monica_Strip_E1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_E1_end.jpg")
         show videov_Monica_Strip_E1
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_E1_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "side":
         scene black
         image videov_Monica_Strip_E2 = Movie(play="video/v_Monica_Strip_E2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_E2_end.jpg")
         show videov_Monica_Strip_E2
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_E2_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "down":
         scene black
         image videov_Monica_Strip_E3 = Movie(play="video/v_Monica_Strip_E3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_E3_end.jpg")
         show videov_Monica_Strip_E3
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_E3_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
 
@@ -331,27 +358,32 @@ label pub_dance1_stage_start1:
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
     if result == "stop":
         jump pub_dance1_stage_stop
     if result == "up":
         scene black
         image videov_Monica_Strip_F1 = Movie(play="video/v_Monica_Strip_F1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_F1_end.jpg")
         show videov_Monica_Strip_F1
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_F1_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "side":
         scene black
         image videov_Monica_Strip_F2 = Movie(play="video/v_Monica_Strip_F2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_F2_end.jpg")
         show videov_Monica_Strip_F2
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_F2_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "down":
         scene black
         image videov_Monica_Strip_F3 = Movie(play="video/v_Monica_Strip_F3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_F3_end.jpg")
         show videov_Monica_Strip_F3
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_F3_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
 
@@ -368,27 +400,32 @@ label pub_dance1_stage_start1:
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
     if result == "stop":
         jump pub_dance1_stage_stop
     if result == "up":
         scene black
         image videov_Monica_Strip_G1 = Movie(play="video/v_Monica_Strip_G1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_G1_end.jpg")
         show videov_Monica_Strip_G1
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_G1_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "side":
         scene black
         image videov_Monica_Strip_G2 = Movie(play="video/v_Monica_Strip_G2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_G2_end.jpg")
         show videov_Monica_Strip_G2
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_G2_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "down":
         scene black
         image videov_Monica_Strip_G3 = Movie(play="video/v_Monica_Strip_G3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_G3_end.jpg")
         show videov_Monica_Strip_G3
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_G3_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
 
@@ -405,27 +442,32 @@ label pub_dance1_stage_start1:
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
     if result == "stop":
         jump pub_dance1_stage_stop
     if result == "up":
         scene black
         image videov_Monica_Strip_H1 = Movie(play="video/v_Monica_Strip_H1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_H1_end.jpg")
         show videov_Monica_Strip_H1
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_H1_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "side":
         scene black
         image videov_Monica_Strip_H2 = Movie(play="video/v_Monica_Strip_H2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_H2_end.jpg")
         show videov_Monica_Strip_H2
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_H2_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "down":
         scene black
         image videov_Monica_Strip_H3 = Movie(play="video/v_Monica_Strip_H3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_H3_end.jpg")
         show videov_Monica_Strip_H3
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_H3_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
 
@@ -442,27 +484,32 @@ label pub_dance1_stage_start1:
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
     if result == "stop":
         jump pub_dance1_stage_stop
     if result == "up":
         scene black
         image videov_Monica_Strip_I1 = Movie(play="video/v_Monica_Strip_I1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_I1_end.jpg")
         show videov_Monica_Strip_I1
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_I1_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "side":
         scene black
         image videov_Monica_Strip_I2 = Movie(play="video/v_Monica_Strip_I2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_I2_end.jpg")
         show videov_Monica_Strip_I2
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_I2_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
     if result == "down":
         scene black
         image videov_Monica_Strip_I3 = Movie(play="video/v_Monica_Strip_I3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_I3_end.jpg")
         show videov_Monica_Strip_I3
-        #pause 1.8
+        pause 1.8
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_I3_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
 
@@ -484,3 +531,53 @@ label pub_dance_stage_flash:
     pause 0.7
     hide screen photoshot_screen
     return
+
+transform coin_appear1:
+    on show:
+        alpha 0
+        linear .25 alpha 1.0
+    on hide:
+        linear .5 alpha 0.0
+
+transform coin_appear2:
+    pause 0.1
+    on show:
+        alpha 0
+        linear .25 alpha 1.0
+    on hide:
+        linear .5 alpha 0.0
+transform coin_appear3:
+    pause 0.2
+    on show:
+        alpha 0
+        linear .25 alpha 1.0
+    on hide:
+        linear .5 alpha 0.0
+transform coin_appear4:
+    pause 0.3
+    on show:
+        alpha 0
+        linear .25 alpha 1.0
+    on hide:
+        linear .5 alpha 0.0
+transform coin_appear5:
+    pause 0.4
+    on show:
+        alpha 0
+        linear .25 alpha 1.0
+    on hide:
+        linear .5 alpha 0.0
+transform coin_appear6:
+    pause 0.5
+    on show:
+        alpha 0
+        linear .25 alpha 1.0
+    on hide:
+        linear .5 alpha 0.0
+transform coin_appear7:
+    pause 0.6
+    on show:
+        alpha 0
+        linear .25 alpha 1.0
+    on hide:
+        linear .5 alpha 0.0
