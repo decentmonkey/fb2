@@ -126,6 +126,7 @@ label pub_dance_end1: # Обычное завершение танцев
     $ move_object("Pub_StripteaseGirl2", "empty")
     $ move_object("Pub_StripteaseGirl1", "empty")
     $ pubDanceGirlsBlockedDay = day
+    $ pub_makeuproom_monica_suffix = 2
     call change_scene("pub_makeuproom", "Fade_long")
     return False
 

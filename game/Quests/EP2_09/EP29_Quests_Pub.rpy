@@ -216,6 +216,7 @@ label ep29_quests_pub1_day2_ashley3_init:
     $ add_hook("Cloth2", "ep29_quests_dance_change_cloth", scene="pub_makeuproom", label="ep29_quests_dance_change_cloth")
     $ add_hook("Stage", "dialogue_5_dance_strip_4m", scene="pub_stage1", label="monica_dance_block", quest="monica_dance_forgiveness")
     $ add_hook("Teleport_Pub", "ep29_quests_pub1_day2_ashley3", scene="pub_makeuproom", label="monica_dance_block", quest="monica_dance_forgiveness")
+    $ pub_makeuproom_monica_suffix = 2
     call pub_dance_remove_stage_visitors()
     $ remove_hook(label="monica_dance_block_stage")
     music stop
@@ -264,6 +265,7 @@ label ep29_quests_pub1_day3_dance_end:
     $ add_hook("enter_scene", "dialogue_5_dance_strip_15", scene="pub_makeuproom", once=True, quest="monica_dance_forgiveness")
     call change_scene("pub_makeuproom", "Fade_long")
     call pub_dance_remove_stage_visitors()
+    $ pub_makeuproom_monica_suffix = 2
     $ set_active("Teleport_Pub_MakeupRoom", False, scene="pub")
     $ add_hook("change_time_day", "ep29_quests_pub1_day4_init", scene="global")
     return False
@@ -339,6 +341,7 @@ label ep29_quests_pub1_day4_joe:
 label ep29_quests_pub1_day4_dance_end:
     $ add_hook("enter_scene", "dialogue_5_dance_strip_18", scene="pub_makeuproom", once=True)
     call pub_dance_remove_stage_visitors()
+    $ pub_makeuproom_monica_suffix = 2
     call change_scene("pub_makeuproom", "Fade_long")
     return False
 
