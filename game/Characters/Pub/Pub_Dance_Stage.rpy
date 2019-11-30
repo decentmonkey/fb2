@@ -244,7 +244,8 @@ label pub_dance1_stage_start1:
     hide screen love_bar_screen
     hide screen poledance_shoot
     hide screen poledance_coins
-    music stop
+    music pub_noise1
+#    music stop
     img black_screen
     with diss
     pause 1.0
@@ -253,7 +254,7 @@ label pub_dance1_stage_start1:
         scene black
         image videov_Monica_Strip_Undress1A = Movie(play="video/v_Monica_Strip_Undress1A.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Undress1A_end.jpg")
         show videov_Monica_Strip_Undress1A
-        sound snd_applause_undress1
+        music2 snd_applause_undress1
         pause 0.7
         hide screen photoshot_screen
         pause 2.1
@@ -264,7 +265,7 @@ label pub_dance1_stage_start1:
         scene black
         image videov_Monica_Strip_Undress1B = Movie(play="video/v_Monica_Strip_Undress1B.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Undress1B_end.jpg")
         show videov_Monica_Strip_Undress1B
-        sound snd_applause_undress1
+        music2 snd_applause_undress1
         pause 0.7
         hide screen photoshot_screen
         pause 2.1
@@ -275,14 +276,13 @@ label pub_dance1_stage_start1:
         scene black
         image videov_Monica_Strip_Undress1C = Movie(play="video/v_Monica_Strip_Undress1C.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Undress1C_end.jpg")
         show videov_Monica_Strip_Undress1C
-        sound snd_applause_undress1
+        music2 snd_applause_undress1
         pause 0.7
         hide screen photoshot_screen
         pause 2.1
         hide videov_Monica_Strip_Undress1C
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Undress1C_end.jpg")
         wclean
-
 label pub_dance1_stage_start1_topless:
     $ monicaDancingTopless = True
     if monicaDancingStage < 1:
@@ -297,6 +297,7 @@ label pub_dance1_stage_start1_topless:
     show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
     show screen poledance_camera_icon(stage_Monica_shoots_array)
     show screen poledance()
+    music2 stop
     $ result = ui.interact()
     if result == "stop":
         jump pub_dance1_stage_stop
@@ -305,6 +306,10 @@ label pub_dance1_stage_start1_topless:
     hide screen love_bar_screen
     hide screen poledance_shoot
     hide screen poledance_coins
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
     music stageCurrentMusicLoop
     if result == "up":
         scene black
@@ -564,7 +569,6 @@ label pub_dance1_stage_start1_topless:
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_I3_end.jpg")
         wclean
         call pub_dance_dialogues_react(pose, result)
-
 
     jump pub_dance1_stage_end
 
