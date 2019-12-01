@@ -2,6 +2,7 @@ default basement_bedroom2_MonicaSuffix = 2
 default basement_bedroom2_MonicaSuffix2 = ""
 default basement_bedroom2_Monica_Nap_Betty_Suffix = ""
 default basementBedNapSuffix2 = ""
+default basement_bedroom2_buttplug_suffix = 1
 
 default basement_bedroom2_ep22_init = False
 default basement_bedroom2_ep24_init = False
@@ -83,6 +84,11 @@ label basement_bedroom2_init:
 
     return
 
+label basement_bedroom2_init2:
+    $ add_object_to_scene("ButtPlug", {"type":2, "base":"Basement_Bedroom2_ButtPlug[basement_bedroom2_buttplug_suffix]", "click" : "basement_bedroom2_environment", "actions" : "lh", "zorder" : 1, "group":"items", "label":"toy"}, scene="basement_bedroom2")
+
+    return
+
 label basement_bedroom2_teleport:
     if obj_name == "Teleport_Bedroom1":
         call change_scene("basement_bedroom1") from _call_change_scene_65
@@ -152,6 +158,13 @@ label basement_bedroom2_environment:
         if act == "w":
             call change_scene("basement_bedroom_table") from _call_change_scene_68
             return
+    if obj_name == "ButtPlug":
+        if act=="l":
+            mt "Эта жуткая пробка..."
+            mt "Я даже боюсь вспоминать, при каких обстоятельствах она оказалась у меня..."
+            return
+        mt "Я не буду прикасаться к ней! Только не снова!"
+
     return
 
 label hook_basement_bedroom2_change_view_to_suffix3:

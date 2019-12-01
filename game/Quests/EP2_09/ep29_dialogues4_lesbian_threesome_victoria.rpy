@@ -2,6 +2,7 @@
 # управление продолжается за Мелани
 default victoria_drawn_melanie_photo1 = False
 default ep29_victoria_melanie_victoria_quest_fully_completed = False
+default ep29_victoria_melanie_licking = False # Лизали-ли девочки киску Виктории на девичники
 label ep29_dialogues4_lesbian_threesome_victoria_1:
     # Мелани дома одна, как обычно стоит перед зеркалом
     music stop
@@ -940,6 +941,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     with fade
     victoria "Подружки хорошо постарались..."
     victoria "Пришло время подарка. Кто хочет первый его получить?"
+    $ ep29_victoria_melanie_licking = True
     # молчание
     music Master_Disorder
     img 15655

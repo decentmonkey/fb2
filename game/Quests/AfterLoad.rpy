@@ -6,4 +6,5 @@ label process_afterload:
 
     call ep28_quests() from _call_ep28_quests
     call ep29_quests_init()
+    call ep29_revenge_quest1_init()
     return
