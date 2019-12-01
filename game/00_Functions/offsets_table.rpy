@@ -2929,7 +2929,14 @@ define offsets_table = {
     "basement_bedroom_table_opened_buttplug1":(138,430,778,1479),
     "basement_bedroom_table_opened_buttplug1_overlay":(502,400,833,663),
     "basement_bedroom_table_opened_gun":(138,894,755,1479),
-    "basement_bedroom_table_opened_gun_overlay":(305,840,796,1303)
+    "basement_bedroom_table_opened_gun_overlay":(305,840,796,1303),
+    "basement_laundry1_box2_mask":(773,1040,907,1334),
+    "basement_laundry1_box3_mask":(686,1041,822,1336),
+    "basement_laundry1_box4_mask":(591,1042,725,1340),
+    "basement_laundry1_box5_mask":(772,751,973,1043),
+    "basement_laundry1_box6_mask":(593,746,790,1045),
+    "basement_laundry1_irondesk_mask":(603,1470,1079,1900),
+    "basement_laundry1_washmachine_mask":(616,433,1046,759)
 }
 
 init python:

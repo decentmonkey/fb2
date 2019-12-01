@@ -74,6 +74,8 @@ label ep29_revenge_quest1_buttplug:
 
     $ add_hook("enter_scene", "ep29_dialogues5_gun_monica_8", scene="basement_laundry", label="ep29_revenge_quest1_comment", quest="revenge_quest", once=True)
 
+    $ cloth = "Governess"
+    $ cloth_type = "Governess"
 
     call refresh_scene_fade()
     return False
