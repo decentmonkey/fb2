@@ -2812,6 +2812,38 @@ label dialogue_classmate_11:
     img 15070
     with diss
     w
+#######################################
+
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_HandJob1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_HandJob1_1 = Movie(play="video/v_Monica_Teacher_HandJob1_1.mkv", fps=30)
+    show videov_Monica_Teacher_HandJob1_1
+    with fadelong
+    wclean
+
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_HandJob1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_HandJob1_2 = Movie(play="video/v_Monica_Teacher_HandJob1_2.mkv", fps=30)
+    show videov_Monica_Teacher_HandJob1_2
+    with fadelong
+    wclean
+
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_HandJob1_3.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_HandJob1_3 = Movie(play="video/v_Monica_Teacher_HandJob1_3.mkv", fps=30)
+    show videov_Monica_Teacher_HandJob1_3
+    with fadelong
+    wclean
+
+#######################################
     music stop
     music Loved_Up2
     sound bulk1
@@ -3369,7 +3401,7 @@ label dialogue_classmate_14:
     img 15345
     with fade
     w
-    music Villainous_Treachery
+    music Groove2_85
     img 15346
     with diss
     m "Ч-что вы д-делаете?! Нет-нет!!!"
@@ -3385,7 +3417,7 @@ label dialogue_classmate_14:
     with diss
     w
     sound lick13
-    music Villainous_Treachery
+    music Groove2_85
     img 15349
     with diss
     m "!!!"
@@ -3441,6 +3473,29 @@ label dialogue_classmate_14:
     with diss
     sound chmok2
     mt "Надо... Остановить."
+
+######################################
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_Fingering1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_Fingering1_1 = Movie(play="video/v_Monica_Teacher_Fingering1_1.mkv", fps=30)
+    show videov_Monica_Teacher_Fingering1_1
+    with fadelong
+    wclean
+
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_Fingering1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_Fingering1_2 = Movie(play="video/v_Monica_Teacher_Fingering1_2.mkv", fps=30)
+    show videov_Monica_Teacher_Fingering1_2
+    with fadelong
+    wclean
+######################################
+
     sound snd_zip
     img 15361
     with fade
@@ -3459,7 +3514,7 @@ label dialogue_classmate_14:
     img 15364
     with diss
     w
-    music Villainous_Treachery
+    music Groove2_85
     img 15365
     with fade
     m "Мне это совсем не нравится! Не смейте этого делать!"
@@ -3511,6 +3566,66 @@ label dialogue_classmate_14:
     # учитель ускоряется, Моника удивлена и испугана новыми ощущениями
     # в итоге сцены секса Моника не кончает, учитель кончит ей на ягодицы
     # Моника спешит одеться, ее бомбит, паника еще не прекратилась
+
+####################################
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_Sex1_1 = Movie(play="video/v_Monica_Teacher_Sex1_1.mkv", fps=30)
+    show videov_Monica_Teacher_Sex1_1
+    with fadelong
+    wclean
+
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,6))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_Sex1_2 = Movie(play="video/v_Monica_Teacher_Sex1_2.mkv", fps=30)
+    show videov_Monica_Teacher_Sex1_2
+    with fadelong
+    wclean
+
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,6))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_3.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_Sex1_3 = Movie(play="video/v_Monica_Teacher_Sex1_3.mkv", fps=30)
+    show videov_Monica_Teacher_Sex1_3
+    with fadelong
+    wclean
+
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,6))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_4.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_Sex1_4 = Movie(play="video/v_Monica_Teacher_Sex1_4.mkv", fps=30)
+    show videov_Monica_Teacher_Sex1_4
+    with fadelong
+    wclean
+
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,6))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_5.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_Sex1_5 = Movie(play="video/v_Monica_Teacher_Sex1_5.mkv", fps=30)
+    show videov_Monica_Teacher_Sex1_5
+    with fadelong
+    wclean
+
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,6))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_6.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_Sex1_6 = Movie(play="video/v_Monica_Teacher_Sex1_6.mkv", fps=30)
+    show videov_Monica_Teacher_Sex1_6
+    with fadelong
+    wclean
+
+#####################################
+
     img 15373
     sound bulk1
     show screen photoshot_screen()
@@ -3534,7 +3649,7 @@ label dialogue_classmate_14:
     img black_screen
     with diss
     pause 1.5
-    music Villainous_Treachery
+    music Groove2_85
     img 15376
     with fadelong
     mt "!!!"

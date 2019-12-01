@@ -8,7 +8,7 @@ label dialogue_5_dance_strip_1:
     # выбор Моники: отработать на сцене
     # Моника шокирована, что ей нужно будет танцевать, как стриптизерше, да еще и на сцене
     music2 pub_noise1_low
-    music Villainous_Treachery
+    music Groove2_85
     img 22650
     with fadelong
     mt "На сцене?!" # растерянно
@@ -26,7 +26,7 @@ label dialogue_5_dance_strip_1:
         ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
         return False
 
-    music Villainous_Treachery
+    music Groove2_85
     img 22652
     with fade
     m "Как я буду танцевать? Я... Я не смогу..."
@@ -147,7 +147,7 @@ label dialogue_5_dance_strip_2a:
     with diss
     w
     # и отворачивается
-    music Villainous_Treachery
+    music Groove2_85
     img 22668
     with fade
     stripper "Увижу тебя рядом со своими вещами - скажу Джо, что ты у меня украла что-нибудь." # не глядя на Монику
@@ -213,7 +213,7 @@ label dialogue_5_dance_strip_2a:
     with diss
     mt "Вот стерва!!!"
     mt "!!!" # отворачивается от рыжей
-    music Villainous_Treachery
+    music Groove2_85
     img 22680
     with fade
     mt "Что же мне теперь делать?" # растерянно
@@ -659,7 +659,7 @@ label dialogue_5_dance_strip_6:
         "Идти в гримерку.":
             pass
         "Уйти.":
-            music Villainous_Treachery
+            music Groove2_85
             mt "Нет! Я не смогу!!!"
             mt "Я не опущусь до уровня этих девушек у пилона!"
             img 22700
@@ -843,7 +843,7 @@ label dialogue_5_dance_strip_8:
     mt "Хм... Искусство?.."
     mt "Возможно, если так к этому относиться, то намного проще выходить на сцену."
     mt "Но я не представляю себе такого отношения к этому."
-    music Villainous_Treachery
+    music Groove2_85
     img 22728
     with diss
     mt "Сами по себе танцы полуголой на публике отвратительны."
@@ -890,7 +890,7 @@ label dialogue_5_dance_strip_8:
     img 22738
     with fade
     m "Серьезно?!" # удивленно
-    music Villainous_Treachery
+    music Groove2_85
     img 22739
     with diss
     m "..." # смотрит на вещи на стуле
@@ -940,7 +940,7 @@ label dialogue_5_dance_strip_8_loop1:
     mt "..."
     mt "Я очень надеюсь, что в этой маске мое лицо никто не узнает..."
     mt "..."
-    music Villainous_Treachery
+    music Groove2_85
     img 22746
     with fade
     mt "Так, мне надо собраться и сделать это!"
@@ -995,7 +995,7 @@ label dialogue_5_dance_strip_8_loop1:
             music Loved_Up
             img 22755
             with diss
-            sound skin_lotion1
+            sound skin_lotion11
             w
             img 22756
             with diss
@@ -1005,16 +1005,16 @@ label dialogue_5_dance_strip_8_loop1:
             w
             img 22758
             with diss
-            sound skin_lotion1
+            sound skin_lotion11
             clare "А у тебя отличная фигура, [monica_pub_name]."
             img 22759
             with fade
-            sound skin_lotion2
+            sound skin_lotion11
             mt "Она что, ко мне пытается пристать, как Эшли?!"
             mt "Я не хочу связываться с еще одной лесбиянкой!"
             img 22760
             with diss
-            sound skin_lotion2
+            sound skin_lotion11
             clare "Мужчины в зале с ума сойдут, когда тебя увидят."
             img 22761
             with diss
@@ -1022,44 +1022,67 @@ label dialogue_5_dance_strip_8_loop1:
             mt "Мужчины всегда сходили по мне с ума..."
             img 22762
             with fade
-            sound skin_lotion1
+            sound skin_lotion11
             w
             img 22763
             with diss
             w
             img 22764
             with fade
-            sound skin_lotion2
+            sound skin_lotion11
             clare "Ты сегодня будешь звездой, [monica_pub_name]."
             img 22765
             with diss
-            sound skin_lotion2
+            sound skin_lotion11
             mt "Конечно, буду! Мне нет здесь равных!"
             mt "И не только здесь! Мне нет равных нигде!"
             img 22766
             with fade
-            sound skin_lotion1
+            sound skin_lotion11
             w
             img 22767
             with diss
-            sound skin_lotion2
+            sound skin_lotion11
             w
             img 22768
             with diss
-            sound skin_lotion2
+            sound skin_lotion11
             clare "Таким шикарным ногам и такой попе, как у тебя, позавидует любая модель."
             img 22769
             with fade
-            sound skin_lotion1
+            sound skin_lotion11
             w
             img 22770
             with diss
-            sound skin_lotion2
+            sound skin_lotion11
             clare "Ты просто создана для обложки какого-нибудь модного журнала."
             img 22771
             with fade
             mt "Хм... Хорошо, что она их не читает."
             mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
+            ###################################
+
+            img black_screen
+            with diss
+            music stop
+            stop music
+            play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+            scene black
+            image videov_Monica_Claire_Oiling3_1 = Movie(play="video/v_Monica_Claire_Oiling3_1.mkv", fps=30)
+            show videov_Monica_Claire_Oiling3_1
+            with fadelong
+            wclean
+
+            music stop
+            stop music
+            play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+            scene black
+            image videov_Monica_Claire_Oiling3_2 = Movie(play="video/v_Monica_Claire_Oiling3_2.mkv", fps=30)
+            show videov_Monica_Claire_Oiling3_2
+            with fadelong
+            wclean
+
+            ###################################
             $ monicaClaireOilingCount += 1
             $ add_char_progress("Pub_StripteaseGirl2", 50, "oiling1")
     # Клэр, осматривая Монику
@@ -1133,7 +1156,7 @@ label dialogue_5_dance_strip_9:
         with diss
         joe "И твоя попа также бесподобна. Тебе не стоит прятать ее от наших ребят!"
     #
-    music Villainous_Treachery
+    music Groove2_85
     img 22780
     with fade
     m "???" # удивленно и зло
@@ -1317,12 +1340,12 @@ label dialogue_5_dance_strip_14a:
             with fade
             molly "Мне послышалось или ты что-то сейчас мне сказала?"
             # Моника ей также высокомерно в ответ
-            music Villainous_Treachery
+            music Groove2_85
             img 22821
             with diss
             menu:
                 "Взять стул Клэр и ударить им рыжую сучку!":
-                    music Villainous_Treachery
+                    music Groove2_85
                     img 22822
                     with fade
                     mt "Нет, я не могу пока этого позволить себе."
@@ -1332,7 +1355,7 @@ label dialogue_5_dance_strip_14a:
                     mt "Я сделаю это позже..."
                 "Мне не о чем разговаривать с такой как ты!":
                     pass
-            music Villainous_Treachery
+            music Groove2_85
             img 22823
             with fade
             m "Мне не о чем разговаривать с такой как ты!"
@@ -1406,7 +1429,7 @@ label dialogue_5_dance_strip_16:
     with diss
     m "Да? Я не знала..." # удивленно
     m "Спасибо за предупреждение..."
-    music Villainous_Treachery
+    music Groove2_85
     img 22832
     with diss
     mt "Эта озабоченная Эшли со своим таким же озабоченным мужем уже достали меня!"
@@ -1459,7 +1482,7 @@ label dialogue_5_dance_strip_16:
                 music Loved_Up
                 img 22834
                 with diss
-                sound skin_lotion1
+                sound skin_lotion11
                 w
                 img 22835
                 with diss
@@ -1467,15 +1490,15 @@ label dialogue_5_dance_strip_16:
 
                 img 22836
                 with fade
-                sound skin_lotion2
+                sound skin_lotion11
                 mt "Она что, снова ко мне пытается пристать, как Эшли?!"
                 img 22837
                 with diss
-                sound skin_lotion1
+                sound skin_lotion11
                 w
                 img 22838
                 with diss
-                sound skin_lotion2
+                sound skin_lotion11
                 clare "Мужчины в зале с ума сойдут, когда тебя увидят."
                 img 22839
                 with fade
@@ -1486,32 +1509,90 @@ label dialogue_5_dance_strip_16:
                 w
                 img 22841
                 with diss
-                sound skin_lotion2
+                sound skin_lotion11
                 w
                 img 22842
                 with diss
-                sound skin_lotion2
+                sound skin_lotion11
                 clare "Ты сегодня будешь звездой, [monica_pub_name]."
 
                 img 22843
                 with fade
-                sound skin_lotion1
+                sound skin_lotion11
                 mt "Конечно, буду! Мне нет здесь равных!"
                 mt "И не только здесь! Мне нигде нет равных!"
 
                 img 22844
                 with diss
-                sound skin_lotion2
+                sound skin_lotion11
                 clare "Таким шикарным ногам и такой попе, как у тебя, позавидует любая модель."
                 img 22845
                 with diss
-                sound skin_lotion2
+                sound skin_lotion11
                 clare "Ты просто создана для обложки какого-нибудь модного журнала."
                 img 22846
                 with fade
                 mt "Хм... Хорошо, что она их не читает."
                 mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
+                ###################################
 
+                img black_screen
+                with diss
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling1_1 = Movie(play="video/v_Monica_Claire_Oiling1_1.mkv", fps=30)
+                show videov_Monica_Claire_Oiling1_1
+                with fadelong
+                wclean
+
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling1_2 = Movie(play="video/v_Monica_Claire_Oiling1_2.mkv", fps=30)
+                show videov_Monica_Claire_Oiling1_2
+                with fadelong
+                wclean
+
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling2_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling2_1 = Movie(play="video/v_Monica_Claire_Oiling2_1.mkv", fps=30)
+                show videov_Monica_Claire_Oiling2_1
+                with fadelong
+                wclean
+
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling2_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling2_2 = Movie(play="video/v_Monica_Claire_Oiling2_2.mkv", fps=30)
+                show videov_Monica_Claire_Oiling2_2
+                with fadelong
+                wclean
+
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling3_1 = Movie(play="video/v_Monica_Claire_Oiling3_1.mkv", fps=30)
+                show videov_Monica_Claire_Oiling3_1
+                with fadelong
+                wclean
+
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling3_2 = Movie(play="video/v_Monica_Claire_Oiling3_2.mkv", fps=30)
+                show videov_Monica_Claire_Oiling3_2
+                with fadelong
+                wclean
+
+                ###################################
 
             else:
                 $ monicaClaireOilingCount += 1
@@ -1522,7 +1603,7 @@ label dialogue_5_dance_strip_16:
                 music Loved_Up
                 img 22755
                 with diss
-                sound skin_lotion1
+                sound skin_lotion11
                 w
                 img 22756
                 with diss
@@ -1532,15 +1613,15 @@ label dialogue_5_dance_strip_16:
                 w
                 img 22758
                 with diss
-                sound skin_lotion1
+                sound skin_lotion11
                 clare "Какая же у тебя отличная фигура, [monica_pub_name]."
                 img 22759
                 with fade
-                sound skin_lotion2
+                sound skin_lotion11
                 mt "Она что, снова ко мне пытается пристать, как Эшли?!"
                 img 22760
                 with diss
-                sound skin_lotion2
+                sound skin_lotion11
                 clare "Мужчины в зале с ума сойдут, когда тебя увидят."
                 img 22761
                 with diss
@@ -1548,44 +1629,68 @@ label dialogue_5_dance_strip_16:
                 mt "Мужчины всегда сходили по мне с ума..."
                 img 22762
                 with fade
-                sound skin_lotion1
+                sound skin_lotion11
                 w
                 img 22763
                 with diss
                 w
                 img 22764
                 with fade
-                sound skin_lotion2
+                sound skin_lotion11
                 clare "Ты сегодня будешь звездой, [monica_pub_name]."
                 img 22765
                 with diss
-                sound skin_lotion2
+                sound skin_lotion11
                 mt "Конечно, буду! Мне нет здесь равных!"
                 mt "И не только здесь! Мне нет равных нигде!"
                 img 22766
                 with fade
-                sound skin_lotion1
+                sound skin_lotion11
                 w
                 img 22767
                 with diss
-                sound skin_lotion2
+                sound skin_lotion11
                 w
                 img 22768
                 with diss
-                sound skin_lotion2
+                sound skin_lotion11
                 clare "Таким шикарным ногам и такой попе, как у тебя, позавидует любая модель."
                 img 22769
                 with fade
-                sound skin_lotion1
+                sound skin_lotion11
                 w
                 img 22770
                 with diss
-                sound skin_lotion2
+                sound skin_lotion11
                 clare "Ты просто создана для обложки какого-нибудь модного журнала."
                 img 22771
                 with fade
                 mt "Хм... Хорошо, что она их не читает."
                 mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
+                ###################################
+
+                img black_screen
+                with diss
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling3_1 = Movie(play="video/v_Monica_Claire_Oiling3_1.mkv", fps=30)
+                show videov_Monica_Claire_Oiling3_1
+                with fadelong
+                wclean
+
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling3_2 = Movie(play="video/v_Monica_Claire_Oiling3_2.mkv", fps=30)
+                show videov_Monica_Claire_Oiling3_2
+                with fadelong
+                wclean
+
+                ###################################
+
             $ add_char_progress("Pub_StripteaseGirl2", 50, "oiling1")
 #            return 1
     # Клэр, осматривая Монику
@@ -1765,7 +1870,7 @@ label dialogue_5_dance_strip_19:
     with diss
     m "Я не собираюсь выступать голая!!!"
     m "!!!"
-    music Villainous_Treachery
+    music Groove2_85
     img 22853
     with fade
     mt "Эта извращенка так и ждет, когда я выйду голая на сцену!"
@@ -1843,7 +1948,7 @@ label dialogue_5_dance_strip_21:
     with diss
     ashley "Ага. Ты забираешь 30 процентов чаевых, остальное - мне."
     ashley "Тебя что-то не устраиваает?!"
-    music Villainous_Treachery
+    music Groove2_85
     img 22860
     with fade
     m "..." # сердито смотрит на Эшли
@@ -1989,7 +2094,7 @@ label dialogue_5_dance_strip_24:
     with hpunch
     m "Приватный танец?!" # зло
     m "Ты за кого меня принимаешь?!"
-    music Villainous_Treachery
+    music Groove2_85
     img 22877
     with diss
     mt "Как он смеет предлагать мне подобное?!"
@@ -2009,7 +2114,7 @@ label dialogue_5_dance_strip_24:
     with diss
     joe "[monica_pub_name], может ты все-таки подумаешь хорошо?"
     joe "Это и правда неплохие деньги..."
-    music Villainous_Treachery
+    music Groove2_85
     img 22880
     with fade
     m "???" # смотрит на него как на идиота
