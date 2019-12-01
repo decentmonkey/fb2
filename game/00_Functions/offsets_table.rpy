@@ -2924,7 +2924,12 @@ define offsets_table = {
     "pub_stage1_monica_stripoutfit1_1":(0,159,1079,466),
     "pub_stage1_monica_stripoutfit1_1_overlay":(935,224,1079,565),
     "pub_stage1_monica_stripoutfit2_1":(0,151,1079,460),
-    "pub_stage1_monica_stripoutfit2_1_overlay":(937,176,1079,594)
+    "pub_stage1_monica_stripoutfit2_1_overlay":(937,176,1079,594),
+    "basement_bedroom2_buttplug1":(989,1661,1046,1696),
+    "basement_bedroom_table_opened_buttplug1":(138,430,778,1479),
+    "basement_bedroom_table_opened_buttplug1_overlay":(502,400,833,663),
+    "basement_bedroom_table_opened_gun":(138,894,755,1479),
+    "basement_bedroom_table_opened_gun_overlay":(305,840,796,1303)
 }
 
 init python:
