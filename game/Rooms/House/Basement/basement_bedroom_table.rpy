@@ -41,6 +41,9 @@ label basement_bedroom_table_environment:
         if act == "h":
             sound snd_door_locked1
             $ renpy.pause(1.0)
+            if ep29_revenge_quest_started == True:
+                call ep29_dialogues5_gun_monica_a()
+                return
             mt "Закрыт..."
             "Мне неинтересно что там..."
 

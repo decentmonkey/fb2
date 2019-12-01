@@ -60,11 +60,15 @@ init python:
     (0, ""),
     (2, "GERMAN TRANSLATION AND GLOBAL SUPPORT"),
     (3, "Ragnaroekr"),
+    (3, "Keks"),
     (0, ""),
     (0, ""),
     (2, "TEXT CORRECTION"),
-    (3, "ColdBlade"),
-    (3, "Meli_x3"),
+    (3, "Aesthetic Dialectic"),
+    (0, ""),
+    (0, ""),
+    (2, "Testing"),
+    (3, "Aeros"),
     (0, ""),
     (0, ""),
     (2, "GAME ENGINE"),
@@ -216,10 +220,6 @@ init python:
     (3, " "),
     (3, " "),
     (3, " "),
-    (2, "Greatest thanks to my best friend"),
-    (3, "Dmitry"),
-    (2, "for help and support during creation of this game."),
-    (3, " "),
     (3, " "),
     (3, " "),
     (3, " "),
@@ -283,5 +283,6 @@ init python:
 
 label credits:
     show screen credits_screen(credits)
-#    $ renpy.pause()
+    $ renpy.pause(30.0, hard=True)
+    pause
     return

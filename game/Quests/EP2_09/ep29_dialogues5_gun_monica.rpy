@@ -66,22 +66,23 @@ label ep29_dialogues5_gun_monica_1:
         with diss
         sound highheels_run2
         pause 2.0
-        return False
+        return 0
     menu:
         "Сделать, как требует Барди.":
             pass
-        "Убежать.":
+        "Убежать. (Пропуск квеста мести)":
             img 15816
             with fade
             m "Я хорошая гувернантка! Но я не буду этого делать!"
             img 15817
             with diss
+            w
             music stop
             img black_screen
             with diss
             sound highheels_run2
             pause 2.0
-            return False
+            return 1
     # Моника поднимает юбку, она без трусиков
     # Барди доволен
     music stop
@@ -143,11 +144,11 @@ label ep29_dialogues5_gun_monica_1:
     bardie "Он стал весь испачканный и мою гувернантку Монику Бакфетт на фото теперь плохо видно."
     # Моника удивленно смотрит на него
     music Groove2_85
-    img 15829
+    img 15830
     with fade
     mt "Фу!"
     mt "Не хочу даже думать о том, в чем он испачкал мой журнал!"
-    img 15830
+    img 15829
     with diss
     m "..."
     m "А я здесь причем?"
@@ -232,7 +233,7 @@ label ep29_dialogues5_gun_monica_1:
     sound snd_door_open1
     pause 1.5
     # Барди самодовольно улыбается и уходит
-    return
+    return 2
 
 # после ухода Барди Моника стоит возле своей кровати
 label ep29_dialogues5_gun_monica_2:
@@ -286,9 +287,12 @@ label ep29_dialogues5_gun_monica_2:
     mt "Уверена, что где-то недалеко отсюда..."
     mt "..."
     # у Моники в заданиях появляется "Найти ключ от прикроватной тумбочки"
-    $ log1 = _("Найти ключ от прикроватной тумбочки")
+#    $ log1 = _("Найти ключ от прикроватной тумбочки")
     return
 
+label ep29_dialogues5_gun_monica_a:
+    mt "Где может быть ключ от этого шкафчика?"
+    return
 
 # мысли Моники
 # не рендерить!!!
@@ -305,10 +309,23 @@ label ep29_dialogues5_gun_monica_4:
     mt "Под кроватью его точно нет. Я бы заметила его, когда прятала пробку."
     return
 
+label ep29_dialogues5_gun_monica_4a:
+    img scene_Basement_Bedroom1
+    with fadelong
+    menu:
+        "К черту этот дурацкий запертый ящик. Просто запихаю пробку подальше под кровать. (пропуск квеста мести)":
+            return False
+        "Надо поискать ключ еще раз...":
+            return True
+    return
+
+
 label ep29_dialogues5_gun_monica_5:
     # ищет ключ у себя в комнате в шкафу
+    if act=="l":
+        return
     mt "В шкафу ключа нет. Там только мои вещи и больше ничего."
-    return
+    return False
 
 label ep29_dialogues5_gun_monica_6:
     # ищет ключ у бассейна
@@ -319,7 +336,9 @@ label ep29_dialogues5_gun_monica_6:
 label ep29_dialogues5_gun_monica_7:
     # выходит в темный коридор подвала
     mt "Думаю, нужно вернуться и поискать ключ в своей комнате или в прачечной."
+    $ remove_hook(label="ep29_revenge_quest1_comment2")
     return
+
 
 label ep29_dialogues5_gun_monica_8:
     # заходит в прачечную
@@ -329,20 +348,31 @@ label ep29_dialogues5_gun_monica_8:
 label ep29_dialogues5_gun_monica_9:
     # ищет по шкафчикам
     mt "В этом шкафчике только трусики Бетти."
+    return
+label ep29_dialogues5_gun_monica_9b:
     mt "В этом нет ключа."
+    return
+label ep29_dialogues5_gun_monica_9b2:
     mt "Здесь тоже пусто."
+    return
+label ep29_dialogues5_gun_monica_9b3:
     # поворачивается, смотрит в сторону гладильной доски
     mt "Где же этот чертов ключ?! Может, там?"
     # ищет у гладильной доски
     img 22895
-    with diss
+    with fade
     mt "Черт! В этой прачечной можно найти все что угодно, кроме ключа!"
+    return
     # смотрит на стиральную машинку
-
+label ep29_dialogues5_gun_monica_9b4:
     mt "Может, он внутри стиральной машинки?"
     # подходит, приседает, чтобы открыть ее и замечает ключ под шкафчиками на полу
+    return
+label ep29_dialogues5_gun_monica_9b5:
     mt "Что там?"
     mt "Что-то блестит..."
+    return
+label ep29_dialogues5_gun_monica_9b6:
     mt "Неужели ключ?! Ну наконец-то!"
     mt "!!!"
     mt "Надеюсь, что это тот ключ, который мне нужен."
@@ -353,20 +383,20 @@ label ep29_dialogues5_gun_monica_9:
 label ep29_dialogues5_gun_monica_10:
     # Моника заходит в комнату, достает пробку из-под кровати
     # подходит к шкафчику возле кровати, вставляет ключ в замок
-    music stop
-    img black_screen
-    with diss
-    sound metal_slide
-    pause 2.0
-    sound2 snd_door_open1
-    pause 1.0
-    music Groove2_85
+#    music stop
+#    img black_screen
+#    with diss
+#    sound metal_slide
+#    pause 2.0
+#    sound2 snd_door_open1
+#    pause 1.0
+#    music Groove2_85
+    music Marty_Gots_a_Plan
     img 22887
     with fadelong
     mt "Отлично! Ключ подошел!"
 #    mt "!!!"
     # с улыбочкой
-    music Marty_Gots_a_Plan
     mt "Интересно, что же там хранила Юлия?"
     mt "???"
     # делает один оборот ключа с скрипучим звуком, дергает шкафчик, он не открывается
@@ -380,33 +410,70 @@ label ep29_dialogues5_gun_monica_10:
     img 22889
     with hpunch
     w
-    # переход на сцену
-
-    img black_screen
-    with diss
-    pause 1.5
-    img 22890
-    with fadelong
-    w
-    img 22891
-    with fade
-    w
-    img 22892
-    with diss
-    w
-    img 22893
-    with fade
-    w
-    img 22894
-    with diss
-    w
     music stop
     img black_screen
     with diss
-    pause 2.0
+    pause 1.5
+    # переход на сцену
+    return
+
+label ep29_dialogues5_gun_monica_10b:
+    help "Внимание! Все прочие события станут неактивными!"
+    help "Вы действительно хотите продолжить?"
+    menu:
+        "Взять пистолет.":
+            pass
+        "Продолжить игру.":
+            return False
+    music vendetta
+    img black_screen
+    with diss
+    $ renpy.pause (2.0, hard=True)
+    img 22890
+    with fadelong
+    $ renpy.pause (4.0, hard=True)
+    img 22891
+    with fadelong
+    $ renpy.pause (5.0, hard=True)
+    img 22892
+    with fadelong
+    $ renpy.pause (6.0, hard=True)
+    img 22893
+    with fadelong
+    $ renpy.pause (5.0, hard=True)
+    img 22894
+    with fadelong
+    $ renpy.pause (3.0, hard=True)
+    stop music
+    sound snd_cinematic_impact
+    img black_screen
+#    pause 2.0
+    $ renpy.pause(4.0, hard=True)
+    music Continue_Life
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(_("Fashion Business"))
+    img black_screen
+    with Dissolve(2.0)
+    $ renpy.pause(2.0, hard=True)
+    img black_screen
+    with Dissolve(0.5)
+    img Patreon_Game_Logo
+    with Dissolve(0.7)
+    $ renpy.pause(1.0, hard=True)
+##    pause 4.0
+    $ renpy.pause(4.0, hard=True)
+    img black_screen
+    with Dissolve(0.7)
+    $ renpy.pause(3.0, hard=True)
+##    pause 30.0
+##    music stop
+##    pause 1.0
+    call credits()
+    $ MainMenu(confirm=False)()
     # заглядывает и видит там пистолет
     # тревожная музыка
     # занавес
-    return
+    return True
 
 # + отрывок музыки из "Убить Билла"

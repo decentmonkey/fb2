@@ -179,3 +179,12 @@ label locations_init_pub_stage:
     $ add_location("pub_makeuproom", caption=_("ГРИМЕРНАЯ КОМНАТА"), label="pub_makeuproom", init_label="pub_makeuproom_init", parent="pub")
     $ add_location("pub_stage1", caption=_("SHINY HOLE"), label="pub_stage1", init_label="pub_stage1_init", parent="pub")
     return
+
+
+label locations_init_laundry_wash_machine:
+    $ add_location("basement_laundry_washmachine", caption=_("Laundry"), label="basement_laundry_washmachine", init_label="basement_laundry_washmachine_init", parent="basement_laundry")
+    return
+
+label locations_init_basement_bedroom_table_opened:
+    $ add_location("basement_bedroom_table_opened", caption=_("BASEMENT"), label="basement_bedroom_table_opened", init_label="basement_bedroom_table_opened_init", parent="basement_laundry")
+    return
