@@ -3616,3 +3616,72 @@ label dialogue_classmate_15:
 label dialogue_classmate_15a:
     mt "Ненавижу эту малявку!"
     return
+
+
+
+
+
+
+
+label video_tutorial:
+
+    img black_screen
+    with diss
+
+    # видео, цикличное. без звука
+    scene black
+    image videov_Monica_Eric_Bardie_Licking_1_2 = Movie(play="video/v_Monica_Eric_Bardie_Licking_1_2.mkv", fps=30)
+    show videov_Monica_Eric_Bardie_Licking_1_2
+#    with fadelong # ставить только в первом видео серии, либо не ставить вовсе
+    wclean # то же самое, что "w", только без мигающей стрелочки
+
+    # видео, цикличное. со звуком
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,9))*1.16666667) + " loop 0.0>Sounds/v_Monica_Eric_Bardie_Licking_1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Eric_Bardie_Licking_1_2 = Movie(play="video/v_Monica_Eric_Bardie_Licking_1_2.mkv", fps=30)
+    show videov_Monica_Eric_Bardie_Licking_1_2
+    with fadelong
+    wclean
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,9))*1.16666667) + " loop 0.0>Sounds/v_Monica_Eric_Bardie_Licking_1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Eric_Bardie_Licking_1_3 = Movie(play="video/v_Monica_Eric_Bardie_Licking_1_3.mkv", fps=30)
+    show videov_Monica_Eric_Bardie_Licking_1_3
+    with fadelong
+    wclean
+
+
+    # видео, нецикличное. разовое
+    sound Monica_butt_plug_v # звук, который мы проигрываем
+    image videov_Marcus_Monica_Dildo_1_1 = Movie(play="video/v_Marcus_Monica_Dildo_1_1.mkv", fps=30, loop=False, image="/images/Slides/v_Marcus_Monica_Dildo_1_1_stop.jpg")
+    show videov_Marcus_Monica_Dildo_1_1
+    pause 2.5
+    music Master_Disorder
+    wclean
+
+    music Groove2_85
+    return
+
+
+# handjob - 30 кадров => 30 кадров / 30 fps (кадров в секунду) = 1 секунда
+# fingering - 30 => 30/ 30 fps = 1 секунда, пишем 1.0
+# sex - 35 => 35 / 30fps = 1.16666667
+# все они 30 fps (30 кадров в секунду)
+
+# monica_claire_oiling => 25 fps!!!
+
+# 10 повторений видео в звуке. Значит мы можем брать для начала воспроизведения случайный отрезок от 1 до 7
+
+
+
+
+
+
+
+
+    #
