@@ -28,7 +28,12 @@ python early:
         image_screen_scene_flag = False
         screenActionHappened = True
     def img_pred(s):
-        return [Image(img_find_path(s))]
+        try:
+            imagePathExt = img_find_path_ext(renpy.eval(s))
+        except:
+            imagePathExt = img_find_path_ext(s)
+        imagePath = imagePathExt[0]
+        return [Image(imagePath)]
     renpy.register_statement("img", parse=img_disp, execute=img_exec, predict=img_pred) #кастомный scene
 
     def imgl_exec(s):
