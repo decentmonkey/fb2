@@ -285,4 +285,8 @@ label credits:
     show screen credits_screen(credits)
     $ renpy.pause(30.0, hard=True)
     pause
+    music stop
+    img black_screen
+    with diss
+    $ renpy.pause(2.0, hard=True)
     return
