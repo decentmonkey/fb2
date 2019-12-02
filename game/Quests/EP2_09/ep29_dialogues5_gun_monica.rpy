@@ -456,7 +456,7 @@ label ep29_dialogues5_gun_monica_10b:
     music Continue_Life
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Fashion Business"))
+    call textonblack("TO BE CONTINUED IN THE NEXT UPDATE")
     img black_screen
     with Dissolve(2.0)
     $ renpy.pause(2.0, hard=True)

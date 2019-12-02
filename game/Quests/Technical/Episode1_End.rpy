@@ -222,23 +222,23 @@ init python:
     (3, " "),
     (3, "GREETINGS TO BRILLIANT PATRONS"),
     (2, " "),
-    (2, "Abelardo")
+    (2, "Abelardo"),
     (1, " "),
-    (2, "aIMissRyu23")
+    (2, "aIMissRyu23"),
     (1, " "),
-    (2, "Jetvoice")
+    (2, "Jetvoice"),
     (1, " "),
-    (2, "Miguel")
+    (2, "Miguel"),
     (1, " "),
-    (2, "Olli P.")
+    (2, "Olli P."),
     (1, " "),
-    (2, "onstant")
+    (2, "onstant"),
     (1, " "),
-    (2, "SimonLee")
+    (2, "SimonLee"),
     (1, " "),
-    (2, "The big Dog")
+    (2, "The big Dog"),
     (1, " "),
-    (2, "Виталий Рябоконь")
+    (2, "Виталий Рябоконь"),
     (3, " "),
     (3, " "),
     (3, " "),
