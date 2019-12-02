@@ -262,6 +262,7 @@ label start_game:
 
     call floor2_init_addition1() from _call_floor2_init_addition1_1 #Барди floor2
     call bedroom1_init_addition1() from _call_bedroom1_init_addition1_1 # Барди bedroom1
+    call monica_cheats_init()
     $ ep24_quests_initialized = True
     $ ep26_quests_initialized = True
     $ ep27_quests_initialized = True
