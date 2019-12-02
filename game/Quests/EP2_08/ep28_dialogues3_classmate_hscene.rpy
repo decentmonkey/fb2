@@ -2827,7 +2827,7 @@ label dialogue_classmate_11:
 
     music stop
     stop music
-    play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_HandJob1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_HandJob1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
     scene black
     image videov_Monica_Teacher_HandJob1_2 = Movie(play="video/v_Monica_Teacher_HandJob1_2.mkv", fps=30)
     show videov_Monica_Teacher_HandJob1_2
@@ -2836,7 +2836,7 @@ label dialogue_classmate_11:
 
     music stop
     stop music
-    play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_HandJob1_3.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_HandJob1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
     scene black
     image videov_Monica_Teacher_HandJob1_3 = Movie(play="video/v_Monica_Teacher_HandJob1_3.mkv", fps=30)
     show videov_Monica_Teacher_HandJob1_3
@@ -3581,7 +3581,7 @@ label dialogue_classmate_14:
 
     music stop
     stop music
-    play music "<from " + str(float(rand(1,6))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
     scene black
     image videov_Monica_Teacher_Sex1_2 = Movie(play="video/v_Monica_Teacher_Sex1_2.mkv", fps=30)
     show videov_Monica_Teacher_Sex1_2
@@ -3590,7 +3590,7 @@ label dialogue_classmate_14:
 
     music stop
     stop music
-    play music "<from " + str(float(rand(1,6))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_3.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_3.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
     scene black
     image videov_Monica_Teacher_Sex1_3 = Movie(play="video/v_Monica_Teacher_Sex1_3.mkv", fps=30)
     show videov_Monica_Teacher_Sex1_3
@@ -3599,7 +3599,7 @@ label dialogue_classmate_14:
 
     music stop
     stop music
-    play music "<from " + str(float(rand(1,6))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_4.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_4.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
     scene black
     image videov_Monica_Teacher_Sex1_4 = Movie(play="video/v_Monica_Teacher_Sex1_4.mkv", fps=30)
     show videov_Monica_Teacher_Sex1_4
@@ -3608,7 +3608,7 @@ label dialogue_classmate_14:
 
     music stop
     stop music
-    play music "<from " + str(float(rand(1,6))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_5.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_5.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
     scene black
     image videov_Monica_Teacher_Sex1_5 = Movie(play="video/v_Monica_Teacher_Sex1_5.mkv", fps=30)
     show videov_Monica_Teacher_Sex1_5
@@ -3617,7 +3617,7 @@ label dialogue_classmate_14:
 
     music stop
     stop music
-    play music "<from " + str(float(rand(1,6))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_6.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_6.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
     scene black
     image videov_Monica_Teacher_Sex1_6 = Movie(play="video/v_Monica_Teacher_Sex1_6.mkv", fps=30)
     show videov_Monica_Teacher_Sex1_6
