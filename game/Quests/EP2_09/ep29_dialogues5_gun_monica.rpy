@@ -444,6 +444,9 @@ label ep29_dialogues5_gun_monica_10b:
     img 22894
     with fadelong
     $ renpy.pause (3.0, hard=True)
+    img 22905
+    with diss
+    pause 0.5
 #    scene black
 #    image videov_Monica_TakeGun1 = Movie(play="video/v_Monica_TakeGun1.mkv", fps=25, loop=False, image="/Overlays/black_screen.jpg")
 #    show videov_Monica_TakeGun1

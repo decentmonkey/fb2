@@ -2936,7 +2936,9 @@ define offsets_table = {
     "basement_laundry1_box5_mask":(772,751,973,1043),
     "basement_laundry1_box6_mask":(593,746,790,1045),
     "basement_laundry1_irondesk_mask":(603,1470,1079,1900),
-    "basement_laundry1_washmachine_mask":(616,433,1046,759)
+    "basement_laundry1_washmachine_mask":(616,433,1046,759),
+    "pub_makeuproom_monica_whore_2":(194,500,684,684),
+    "pub_makeuproom_monica_whore_2_overlay":(621,513,768,888)
 }
 
 init python:
