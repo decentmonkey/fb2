@@ -992,7 +992,8 @@ label dialogue_5_dance_strip_8_loop1:
             with fade
             sound hlup2
             w
-            music Loved_Up
+            music stop
+            music2 Loved_Up
             img 22755
             with diss
             sound skin_lotion11
@@ -1061,30 +1062,31 @@ label dialogue_5_dance_strip_8_loop1:
             mt "Хм... Хорошо, что она их не читает."
             mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
             ###################################
+            if game.extra == True:
+                img black_screen
+                with diss
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling3_1 = Movie(play="video/v_Monica_Claire_Oiling3_1.mkv", fps=30)
+                show videov_Monica_Claire_Oiling3_1
+                with fadelong
+                wclean
 
-            img black_screen
-            with diss
-            music stop
-            stop music
-            play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-            scene black
-            image videov_Monica_Claire_Oiling3_1 = Movie(play="video/v_Monica_Claire_Oiling3_1.mkv", fps=30)
-            show videov_Monica_Claire_Oiling3_1
-            with fadelong
-            wclean
-
-            music stop
-            stop music
-            play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-            scene black
-            image videov_Monica_Claire_Oiling3_2 = Movie(play="video/v_Monica_Claire_Oiling3_2.mkv", fps=30)
-            show videov_Monica_Claire_Oiling3_2
-            with fadelong
-            wclean
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling3_2 = Movie(play="video/v_Monica_Claire_Oiling3_2.mkv", fps=30)
+                show videov_Monica_Claire_Oiling3_2
+                with fadelong
+                wclean
 
             ###################################
             $ monicaClaireOilingCount += 1
             $ add_char_progress("Pub_StripteaseGirl2", 50, "oiling1")
+            music2 stop
     # Клэр, осматривая Монику
     music stop
     img black_screen
@@ -1479,11 +1481,24 @@ label dialogue_5_dance_strip_16:
                 with fade
                 sound hlup2
                 w
-                music Loved_Up
+                music stop
+                music2 Loved_Up
                 img 22834
                 with diss
                 sound skin_lotion11
                 w
+                img black_screen
+                with diss
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling1_1 = Movie(play="video/v_Monica_Claire_Oiling1_1.mkv", fps=30)
+                show videov_Monica_Claire_Oiling1_1
+                with fadelong
+                wclean
+
+#                music Loved_Up
                 img 22835
                 with diss
                 clare "Какая же у тебя отличная фигура, [monica_pub_name]."
@@ -1492,6 +1507,16 @@ label dialogue_5_dance_strip_16:
                 with fade
                 sound skin_lotion11
                 mt "Она что, снова ко мне пытается пристать, как Эшли?!"
+
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling1_2 = Movie(play="video/v_Monica_Claire_Oiling1_2.mkv", fps=30)
+                show videov_Monica_Claire_Oiling1_2
+                with fadelong
+                wclean
+#                music Loved_Up
                 img 22837
                 with diss
                 sound skin_lotion11
@@ -1507,6 +1532,16 @@ label dialogue_5_dance_strip_16:
                 img 22840
                 with diss
                 w
+
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling2_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling2_1 = Movie(play="video/v_Monica_Claire_Oiling2_1.mkv", fps=30)
+                show videov_Monica_Claire_Oiling2_1
+                with fadelong
+                wclean
+
                 img 22841
                 with diss
                 sound skin_lotion11
@@ -1522,58 +1557,6 @@ label dialogue_5_dance_strip_16:
                 mt "Конечно, буду! Мне нет здесь равных!"
                 mt "И не только здесь! Мне нигде нет равных!"
 
-                img 22844
-                with diss
-                sound skin_lotion11
-                clare "Таким шикарным ногам и такой попе, как у тебя, позавидует любая модель."
-                img 22845
-                with diss
-                sound skin_lotion11
-                clare "Ты просто создана для обложки какого-нибудь модного журнала."
-                img 22846
-                with fade
-                mt "Хм... Хорошо, что она их не читает."
-                mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
-                ###################################
-
-                img black_screen
-                with diss
-                music stop
-                stop music
-                play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-                scene black
-                image videov_Monica_Claire_Oiling1_1 = Movie(play="video/v_Monica_Claire_Oiling1_1.mkv", fps=30)
-                show videov_Monica_Claire_Oiling1_1
-                with fadelong
-                wclean
-
-                music stop
-                stop music
-                play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-                scene black
-                image videov_Monica_Claire_Oiling1_2 = Movie(play="video/v_Monica_Claire_Oiling1_2.mkv", fps=30)
-                show videov_Monica_Claire_Oiling1_2
-                with fadelong
-                wclean
-
-                music stop
-                stop music
-                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling2_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-                scene black
-                image videov_Monica_Claire_Oiling2_1 = Movie(play="video/v_Monica_Claire_Oiling2_1.mkv", fps=30)
-                show videov_Monica_Claire_Oiling2_1
-                with fadelong
-                wclean
-
-                music stop
-                stop music
-                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling2_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-                scene black
-                image videov_Monica_Claire_Oiling2_2 = Movie(play="video/v_Monica_Claire_Oiling2_2.mkv", fps=30)
-                show videov_Monica_Claire_Oiling2_2
-                with fadelong
-                wclean
-
                 music stop
                 stop music
                 play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
@@ -1582,7 +1565,15 @@ label dialogue_5_dance_strip_16:
                 show videov_Monica_Claire_Oiling3_1
                 with fadelong
                 wclean
-
+#                music Loved_Up
+                img 22844
+                with diss
+                sound skin_lotion11
+                clare "Таким шикарным ногам и такой попе, как у тебя, позавидует любая модель."
+                img 22845
+                with diss
+                sound skin_lotion11
+                clare "Ты просто создана для обложки какого-нибудь модного журнала."
                 music stop
                 stop music
                 play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
@@ -1591,6 +1582,17 @@ label dialogue_5_dance_strip_16:
                 show videov_Monica_Claire_Oiling3_2
                 with fadelong
                 wclean
+                music2 stop
+                music Groove2_85
+                img 22846
+                with fade
+                mt "Хм... Хорошо, что она их не читает."
+                mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
+                ###################################
+
+
+
+
 
                 ###################################
 
@@ -1647,6 +1649,19 @@ label dialogue_5_dance_strip_16:
                 with fade
                 sound skin_lotion11
                 w
+
+                img black_screen
+                with diss
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling3_1 = Movie(play="video/v_Monica_Claire_Oiling3_1.mkv", fps=30)
+                show videov_Monica_Claire_Oiling3_1
+                with fadelong
+                wclean
+
+                music Loved_Up
                 img 22767
                 with diss
                 sound skin_lotion11
@@ -1655,6 +1670,16 @@ label dialogue_5_dance_strip_16:
                 with diss
                 sound skin_lotion11
                 clare "Таким шикарным ногам и такой попе, как у тебя, позавидует любая модель."
+
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling3_2 = Movie(play="video/v_Monica_Claire_Oiling3_2.mkv", fps=30)
+                show videov_Monica_Claire_Oiling3_2
+                with fadelong
+                wclean
+                music Loved_Up
                 img 22769
                 with fade
                 sound skin_lotion11
@@ -1669,25 +1694,7 @@ label dialogue_5_dance_strip_16:
                 mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
                 ###################################
 
-                img black_screen
-                with diss
-                music stop
-                stop music
-                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-                scene black
-                image videov_Monica_Claire_Oiling3_1 = Movie(play="video/v_Monica_Claire_Oiling3_1.mkv", fps=30)
-                show videov_Monica_Claire_Oiling3_1
-                with fadelong
-                wclean
 
-                music stop
-                stop music
-                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-                scene black
-                image videov_Monica_Claire_Oiling3_2 = Movie(play="video/v_Monica_Claire_Oiling3_2.mkv", fps=30)
-                show videov_Monica_Claire_Oiling3_2
-                with fadelong
-                wclean
 
                 ###################################
 

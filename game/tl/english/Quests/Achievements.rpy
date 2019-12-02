@@ -62,3 +62,11 @@ translate english strings:
     old "College"
     new "College"
 
+# TODO: Translation updated at 2019-12-02 22:53
+
+translate english strings:
+
+    # game/Quests/Achievements.rpy:2
+    old "Strip Dance"
+    new "Strip Dance"
+
