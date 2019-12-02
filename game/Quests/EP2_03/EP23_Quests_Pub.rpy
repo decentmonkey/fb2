@@ -92,6 +92,8 @@ label ep23_quests_pub5_dishes: # Моника моет посуду
         if monicaEatedLastDay == day:
             call ep23_dialogues1_4() from _call_ep23_dialogues1_4
             return False
+        $ set_active("Bartender", True, scene="pub_bar1")
+        $ set_active("Bartender_Waitress", True, scene="pub_bar1")
         call change_scene("pub_bar1") from _call_change_scene_223
         return False
     if _return == 2: # Заказать еду
