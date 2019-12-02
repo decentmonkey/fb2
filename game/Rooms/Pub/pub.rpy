@@ -81,6 +81,8 @@ label pub_teleport:
         music2 stop
         call change_scene("hostel_street") from _call_change_scene_169
     if obj_name == "Teleport_Pub_MakeupRoom":
+        if cloth == "Whore":
+            $ pub_makeuproom_monica_suffix = 1
         music2 stop
         call change_scene("pub_makeuproom", "Fade_long")
     return

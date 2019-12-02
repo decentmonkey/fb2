@@ -36,6 +36,7 @@ label pub_dance_init:
     $ add_hook("Teleport_Hostel_Street", "pub_dance_exit_check", scene="pub", label="monica_pole_dance_exit_check", quest="monica_dance_pub", priority = 201)
     $ add_hook("Teleport_Pub", "pub_dance_close", scene="pub_makeuproom", label="monica_pole_dance_close", quest="monica_dance_pub")
     $ add_hook("enter_scene", "pub_dance_scene_return", scene="pub_stage1", label="monica_dance_return_stage", quest="monica_dance_pub")
+    $ add_hook("Pub_StripteaseGirl2", "ep29_quests_pub1_day4_claire", scene="pub_makeuproom", label="monica_dance_claire_regular_dialogue1", quest="monica_dance_pub")
 
     $ pubMonicaDanceTipsKoeffText = "30"
     return

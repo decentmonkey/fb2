@@ -51,12 +51,12 @@ label pub_dance1_stage_start1:
         musicList = [
             {"intro":"track1_intro", "loop":"track1"},
             {"intro":"track2_intro", "loop":"track2"},
+            {"intro":"track7_intro", "loop":"track7"},
             {"intro":"track3_intro", "loop":"track3"},
             {"intro":"track4_intro", "loop":"track4"},
             {"intro":"track5_intro", "loop":"track5"},
-            {"intro":"track6_intro", "loop":"track6"},
-            {"intro":"track7_intro", "loop":"track7"},
             {"intro":"track8_intro", "loop":"track8"},
+            {"intro":"track6_intro", "loop":"track6"},
         ]
         if stageMusicMode == 0:
             stageLastMusic += 1

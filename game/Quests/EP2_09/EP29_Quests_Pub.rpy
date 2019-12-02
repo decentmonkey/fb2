@@ -258,6 +258,7 @@ label ep29_quests_pub1_day3_molly:
     $ add_objective("go_dance", _("Выйти на сцену паба и танцевать."), c_orange, 110)
     $ add_hook("monica_pole_dance_end", "ep29_quests_pub1_day3_dance_end", scene="global", label="monica_pole_dance_end", quest="monica_dance_forgiveness")
     $ add_hook("Teleport_Pub", "ep29_quests_pub1_day2_ashley4", scene="pub_makeuproom", label="monica_dance_forgiveness_ashley_debt", quest="monica_dance_forgiveness")
+    $ pub_makeuproom_monica_suffix = 2
     call refresh_scene_fade()
     return False
 
@@ -355,17 +356,19 @@ label ep29_quests_dance_change_cloth:
         return
     call dialogue_5_dance_strip_29()
     if _return == 0:
+        $ pub_makeuproom_monica_suffix = 1
         $ cloth = "StripOutfit1"
         $ cloth_type = "StripOutfit"
     if _return == 1:
+        $ pub_makeuproom_monica_suffix = 1
         $ cloth = "StripOutfit2"
         $ cloth_type = "StripOutfit"
     if _return == 2:
+        $ pub_makeuproom_monica_suffix = 2
         $ cloth = "Whore"
         $ cloth_type = "Whore"
 
     $ remove_objective("go_to_makeuproom")
-    $ pub_makeuproom_monica_suffix = 1
     if monicaDancedLastDay != day and cloth_type == "StripOutfit":
         $ add_objective("go_dance", _("Выйти на сцену паба и танцевать."), c_orange, 110)
 
