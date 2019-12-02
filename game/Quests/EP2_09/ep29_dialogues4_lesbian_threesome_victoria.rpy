@@ -1190,6 +1190,9 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     with fade
     melanie "Мне не терпится ощутить ваш подарок внутри меня... мисс Виктория."
     # Виктория смотрит Мелани в глаза и ухмыляется
+
+#label v_Victoria_Melanie_Sex_test:
+
     music Groove2_85
     img 15699
     with diss
@@ -1227,12 +1230,40 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     img 15707
     with diss
     w
-    img 15708
+
+    ################################
+    img black_screen
     with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,5))*1.5) + " loop 0.0>Sounds/v_Victoria_Monica_Melanie_Blowjob1_1.ogg"
+    scene black
+    image videov_Victoria_Monica_Melanie_Blowjob1_1 = Movie(play="video/v_Victoria_Monica_Melanie_Blowjob1_1.mkv", fps=30)
+    show videov_Victoria_Monica_Melanie_Blowjob1_1
+    with fadelong
+    wclean
+    ################################
+
+    music Loved_Up
+    img 15708
+    with fade
     w
     img 15709
     with diss
     w
+    ################################
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,5))*1.5) + " loop 0.0>Sounds/v_Victoria_Monica_Melanie_Blowjob1_2.ogg"
+    scene black
+    image videov_Victoria_Monica_Melanie_Blowjob1_2 = Movie(play="video/v_Victoria_Monica_Melanie_Blowjob1_2.mkv", fps=30)
+    show videov_Victoria_Monica_Melanie_Blowjob1_2
+    with fadelong
+    wclean
+    ################################
+
     music Groove2_85
     img 15710
     with fade
@@ -1261,11 +1292,31 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     img 15723
     with diss
     w
+    ################################
+    sound v_Victoria_Melanie_Spanking1_1
+    image videov_Victoria_Melanie_Spanking1_1 = Movie(play="video/v_Victoria_Melanie_Spanking1_1.mkv", fps=30, loop=False, image="/images/Slides/v_Victoria_Melanie_Spanking1_1_stop.jpg")
+    show videov_Victoria_Melanie_Spanking1_1
+    pause 2.5
+    music Master_Disorder
+    wclean
+    #################################
+
     # у Мелани остается красный отпечаток на попе
+    music Master_Disorder
     img 15724
     with fade
     victoria "Какая отличная задница у вас, Мисс Мелани!"
     # шлепает еще раз
+
+    ################################
+    sound v_Victoria_Melanie_Spanking1_2
+    image videov_Victoria_Melanie_Spanking1_2 = Movie(play="video/v_Victoria_Melanie_Spanking1_2.mkv", fps=30, loop=False, image="/images/Slides/v_Victoria_Melanie_Spanking1_2_stop.jpg")
+    show videov_Victoria_Melanie_Spanking1_2
+    pause 2.5
+    music Master_Disorder
+    wclean
+    #################################
+
     music stop
     img black_screen
     with diss
@@ -1290,6 +1341,30 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     img 15729
     with diss
     melanie "Мне... Мне нравится..."
+########################################
+
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_1.ogg"
+    scene black
+    image videov_Victoria_Melanie_Sex1_1 = Movie(play="video/v_Victoria_Melanie_Sex1_1.mkv", fps=30)
+    show videov_Victoria_Melanie_Sex1_1
+    with fadelong
+    wclean
+
+
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_4.ogg"
+    scene black
+    image videov_Victoria_Melanie_Sex1_4 = Movie(play="video/v_Victoria_Melanie_Sex1_4.mkv", fps=30)
+    show videov_Victoria_Melanie_Sex1_4
+    with fadelong
+    wclean
+
+########################################
     # Виктория снова шлепает ее, ягодицы у Мелани становятся красными
     music Master_Disorder
     img 15730
@@ -1307,6 +1382,19 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     with fade
     mt "!!!"
     # Виктория поворачивается к Монике, при этом двигается в Мелани, схватив ту за волосы
+########################################
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_2.ogg"
+    scene black
+    image videov_Victoria_Melanie_Sex1_2 = Movie(play="video/v_Victoria_Melanie_Sex1_2.mkv", fps=30)
+    show videov_Victoria_Melanie_Sex1_2
+    with fadelong
+    wclean
+########################################
+
     music Loved_Up
     img 15733
     with diss
@@ -1391,6 +1479,30 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     img 15742
     with diss
     w
+
+########################################
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_3.ogg"
+    scene black
+    image videov_Victoria_Melanie_Sex1_3 = Movie(play="video/v_Victoria_Melanie_Sex1_3.mkv", fps=30)
+    show videov_Victoria_Melanie_Sex1_3
+    with fadelong
+    wclean
+
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_7.ogg"
+    scene black
+    image videov_Victoria_Melanie_Sex1_7 = Movie(play="video/v_Victoria_Melanie_Sex1_7.mkv", fps=30)
+    show videov_Victoria_Melanie_Sex1_7
+    with fadelong
+    wclean
+########################################
+
+    music Loved_Up
     img 15743
     with diss
     w
@@ -1402,6 +1514,28 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     with diss
     m "Да..."
     # Виктория снова шлепает Мелани по ягодицам и продолжает натягивать ее на свой страпон
+
+########################################
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_5.ogg"
+    scene black
+    image videov_Victoria_Melanie_Sex1_5 = Movie(play="video/v_Victoria_Melanie_Sex1_5.mkv", fps=30)
+    show videov_Victoria_Melanie_Sex1_5
+    with fadelong
+    wclean
+
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_6.ogg"
+    scene black
+    image videov_Victoria_Melanie_Sex1_6 = Movie(play="video/v_Victoria_Melanie_Sex1_6.mkv", fps=30)
+    show videov_Victoria_Melanie_Sex1_6
+    with fadelong
+    wclean
+########################################
     music Loved_Up
     img 15746
     with diss
@@ -1427,6 +1561,29 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     img 15751
     with fade
     m "Нравится..."
+
+########################################
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_8.ogg"
+    scene black
+    image videov_Victoria_Melanie_Sex1_8 = Movie(play="video/v_Victoria_Melanie_Sex1_8.mkv", fps=30)
+    show videov_Victoria_Melanie_Sex1_8
+    with fadelong
+    wclean
+
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_9.ogg"
+    scene black
+    image videov_Victoria_Melanie_Sex1_9 = Movie(play="video/v_Victoria_Melanie_Sex1_9.mkv", fps=30)
+    show videov_Victoria_Melanie_Sex1_9
+    with fadelong
+    wclean
+
+##########################################
     music Loved_Up
     img 15752
     with diss
