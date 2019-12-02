@@ -2212,3 +2212,25 @@ translate german strings:
     old "Идти танцевать на сцену"
     new "Tanze auf der Bühne."
 
+# TODO: Translation updated at 2019-12-02 02:48
+
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:434
+translate german ep27_dialogues7_pub8_2d4f1dc4:
+
+    # ashley "Меня не волнуют твои оправдания, [monica_pub_name]."
+    ashley "Ich kümmere mich nicht um deine Ausreden, [monica_pub_name]."
+
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:436
+translate german ep27_dialogues7_pub8_749e9ab7:
+
+    # ashley "Либо ты отдаешь эти $ 500 наличными, либо иди отрабатывать эти деньги, виляя своей задницей на сцене."
+    ashley "Entweder gibst du mir 500 $ oder verdienst sie dir an der Stange!"
+
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:447
+translate german ep27_dialogues7_pub8_9363041f:
+
+    # ashley "Ты отдашь эти $ 500 наличными."
+    # ashley "А иначе убирайся отсюда!"
+    ashley "Ты отдашь эти $ 500 наличными."
+    ashley "Ansonsten hier raus!"
+

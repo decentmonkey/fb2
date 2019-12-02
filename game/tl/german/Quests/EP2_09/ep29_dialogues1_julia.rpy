@@ -2772,3 +2772,49 @@ translate german ep29_dialogues1_julia_10_071e9735:
     w6 "!!!"
     w5 "!!!"
 
+# TODO: Translation updated at 2019-12-02 02:48
+
+# game/Quests/EP2_09/ep29_dialogues1_julia.rpy:517
+translate german ep29_dialogues1_julia_4_fdedb109:
+
+    # w5 "Ведь я могу не только качественно и быстро выполнять свои прямые обязанности..."
+    # w5 "Я также могу помогать Вам, ведь Вам приходится очень много работать."
+    w5 "Ich kann mich schnell und effizient um meine eigentlichen Aufgaben kümmern..."
+    w5 "Ich kann auch Ihnen helfen, weil Sie so viel Arbeit haben."
+
+# game/Quests/EP2_09/ep29_dialogues1_julia.rpy:520
+translate german ep29_dialogues1_julia_4_9b2a31b2:
+
+    # mt "!!!"
+    # mt "Какой же он мерзкий тип этот Джон!"
+    # mt "Какого черта ОН притащил мне этот кофе!!!"
+    # mt "!!!" 
+    mt "!!!"
+    mt "Was für ein schmieriger Typ dieser John ist..."
+    mt "Warum zur Hölle bringt nun er mir jetzt den Kaffee?!"
+    mt "!!!" 
+
+# game/Quests/EP2_09/ep29_dialogues1_julia.rpy:1103
+translate german ep29_dialogues1_julia_8a_faa2d349:
+
+    # mt "Я поручила это дело своим сотрудникам."
+    # mt "Такими глупостями должны заниматься подчиненные, а не такой важный Босс, как Я!"
+    # mt "Мне надо подождать новостей от них!"
+    mt "Я поручила это дело своим сотрудникам."
+    mt "Такими глупостями должны заниматься подчиненные, а не такой важный Босс, как Я!"
+    mt "Мне надо подождать новостей от них!"
+
+# game/Quests/EP2_09/ep29_dialogues1_julia.rpy:1109
+translate german ep29_dialogues1_julia_8b_cce7afef:
+
+    # help "Дальнейший прогресс с Юлией будет доступен в следующем обновлении."
+    help "Weitere Fortschritte mit Julia werden im nächsten Update zur Verfügung stehen."
+
+# game/Quests/EP2_09/ep29_dialogues1_julia.rpy:1534
+translate german ep29_dialogues1_julia_10_ddba59c9:
+
+    # julia "Я не собираюсь никому ничего рассказывать!"
+    # w5 "Ну покажи!"
+    julia "Ich sage es niemandem!"
+    w5 "Hm, zeig mal!"
+

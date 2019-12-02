@@ -1348,3 +1348,15 @@ translate german strings:
     old "Отношения с Юлией... (disabled)"
     new "Beziehung mit Julia... (disabled)"
 
+# TODO: Translation updated at 2019-12-02 02:48
+
+# game/Quests/EP2_07/ep27_dialogues6_julia.rpy:1198
+translate german ep27_dialogues6_julia13_ef0e1199:
+
+    # m "Если ты будешь плохо работать, то тебя ждет увольнение!"
+    # julia "Да, Миссис Бакфетт..."
+    # julia "Конечно..."
+    m "Wenn du nicht anständig arbeitest, wirst du gefeuert!"
+    julia "Ja, Frau Buckfett..."
+    julia "Natürlich ..."
+

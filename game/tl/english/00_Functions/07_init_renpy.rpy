@@ -390,3 +390,11 @@ translate english strings:
     old "Молли"
     new "Molly"
 
+# TODO: Translation updated at 2019-12-02 02:47
+
+translate english strings:
+
+    # game/00_Functions/07_init_renpy.rpy:161
+    old "Зритель"
+    new "Зритель"
+

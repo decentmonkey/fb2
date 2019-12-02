@@ -2662,3 +2662,45 @@ translate german strings:
     old "Встать коленями на диван и нагнуться"
     new "Knie auf dem Sofa und bücke dich nach unten."
 
+# TODO: Translation updated at 2019-12-02 02:48
+
+# game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:873
+translate german ep29_dialogues4_lesbian_threesome_victoria_1a_3932b208:
+
+    # victoria "А подружка Моника чего ждет?"
+    victoria "Worauf wartest du, Monica?"
+
+# game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:882
+translate german ep29_dialogues4_lesbian_threesome_victoria_1a_bbbe507a:
+
+    # victoria "А теперь еще раз, подружка Моника! И посмелее!"
+    victoria "Und jetzt nochmal, Freudin Monica. Aber energischer!"
+
+# game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:886
+translate german ep29_dialogues4_lesbian_threesome_victoria_1a_f8a6ce80:
+
+    # victoria "Да, так! Давай! М-м-м-м..."
+    victoria "Ja, das ist es! Mmmm..."
+
+# game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:923
+translate german ep29_dialogues4_lesbian_threesome_victoria_1a_f39ca8dc:
+
+    # victoria "Подружки знают, что мне это нравится..."
+    victoria "Meine Freundinnen wissen, dass ich das sehr mag..."
+
+# game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:928
+translate german ep29_dialogues4_lesbian_threesome_victoria_1a_f05018e3:
+
+    # victoria "Подружки не должны останавляваться, иначе я огорчусь."
+    victoria "Ihr dürft nicht aufhören, sonst werde ich sauer."
+
+translate german strings:
+
+    # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:147
+    old "РАНЕЕ В ЭТОТ ДЕНЬ..."
+    new "РАНЕЕ В ЭТОТ ДЕНЬ..."
+
+    # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:161
+    old "СЕЙЧАС..."
+    new "СЕЙЧАС..."
+

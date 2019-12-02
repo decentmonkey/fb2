@@ -434,3 +434,125 @@ translate german strings:
     old "Найти ключ от прикроватной тумбочки"
     new "Finde den Schlüssel für das Nachtkästchen."
 
+# TODO: Translation updated at 2019-12-02 02:48
+
+# game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:198
+translate german ep29_dialogues5_gun_monica_1_111400f4:
+
+    # mt "И придумает какое-нибудь извращение с ней!"
+    # mt "Или, что еще хуже, заберет ее у меня!"
+    mt "Und dann eine perverse Idee damit hat!"
+    mt "Oder, schlimmer noch, ihn mit wegnimmt!"
+
+# game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:201
+translate german ep29_dialogues5_gun_monica_1_bbb3234f:
+
+    # mt "Если Маркус узнает, что я не послушалась его приказа и не хранила пробку..."
+    # mt "!!!"
+    mt "Wenn Marcus rausfindet, dass ich seiner Anweisung nicht folge geleistet habe und den Korken verloren habe..."
+    mt "!!!"
+
+# game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:294
+translate german ep29_dialogues5_gun_monica_a_92792259:
+
+    # mt "Где может быть ключ от этого шкафчика?"
+    mt "Aber wo könnte der Schlüssel dafür sein?"
+
+# game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:350
+translate german ep29_dialogues5_gun_monica_9_e6ea6527:
+
+    # mt "В этом шкафчике только трусики Бетти."
+    mt "Hier sind nur Bettys Höschen."
+
+# game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:353
+translate german ep29_dialogues5_gun_monica_9b_24086524:
+
+    # mt "В этом нет ключа."
+    mt "Hier ist kein Schlüssel."
+
+# game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:356
+translate german ep29_dialogues5_gun_monica_9b2_3342513b:
+
+    # mt "Здесь тоже пусто."
+    mt "Hier ist auch nichts."
+
+# game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:360
+translate german ep29_dialogues5_gun_monica_9b3_f06babeb:
+
+    # mt "Где же этот чертов ключ?! Может, там?"
+    mt "Wo ist der verdammte Schlüssel?! Vielleicht hier?"
+
+# game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:364
+translate german ep29_dialogues5_gun_monica_9b3_f6ccaae9:
+
+    # mt "Черт! В этой прачечной можно найти все что угодно, кроме ключа!"
+    mt "Fix. Hier findet man Alles außer dem Schlüssel!"
+
+# game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:368
+translate german ep29_dialogues5_gun_monica_9b4_4b129209:
+
+    # mt "Может, он внутри стиральной машинки?"
+    mt "Vielleicht in der Waschmaschine?"
+
+# game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:372
+translate german ep29_dialogues5_gun_monica_9b5_e0638b2d:
+
+    # mt "Что там?"
+    # mt "Что-то блестит..."
+    mt "Was ist da?"
+    mt "Da glitzert was..."
+
+# game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:376
+translate german ep29_dialogues5_gun_monica_9b6_cd86d6a0:
+
+    # mt "Неужели ключ?! Ну наконец-то!"
+    # mt "!!!"
+    # mt "Надеюсь, что это тот ключ, который мне нужен."
+    # mt "Нужно скорее проверить!"
+    mt "Ist das wirklich der Schlüssel?! Na endlich!"
+    mt "!!!"
+    mt "Ich hoffe, das ist auch der Richtige!"
+    mt "Ich muss es ausprobieren!"
+
+# game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:397
+translate german ep29_dialogues5_gun_monica_10_ac3ebd0d:
+
+    # mt "Отлично! Ключ подошел!"
+    # mt "Интересно, что же там хранила Юлия?"
+    # mt "???"
+    mt "Gut! Er ist aufgetaucht!"
+    mt "Ich frage mich, was Julia da gebunkert hat?"
+    mt "???"
+
+# game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:409
+translate german ep29_dialogues5_gun_monica_10_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:421
+translate german ep29_dialogues5_gun_monica_10b_cf2e5ee9:
+
+    # help "Внимание! Все прочие события станут неактивными!"
+    # help "Вы действительно хотите продолжить?"
+    help "Внимание! Все прочие события станут неактивными!"
+    help "Вы действительно хотите продолжить?"
+
+translate german strings:
+
+    # game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:70
+    old "Убежать. (Пропуск квеста мести)"
+    new "Убежать. (Пропуск квеста мести)"
+
+    # game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:315
+    old "К черту этот дурацкий запертый ящик. Просто запихаю пробку подальше под кровать. (пропуск квеста мести)"
+    new "К черту этот дурацкий запертый ящик. Просто запихаю пробку подальше под кровать. (пропуск квеста мести)"
+
+    # game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:315
+    old "Надо поискать ключ еще раз..."
+    new "Надо поискать ключ еще раз..."
+
+    # game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:423
+    old "Взять пистолет."
+    new "Взять пистолет."
+

@@ -2662,3 +2662,45 @@ translate english strings:
     old "Встать коленями на диван и нагнуться"
     new "Kneel on the sofa and bend down"
 
+# TODO: Translation updated at 2019-12-02 02:47
+
+# game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:873
+translate english ep29_dialogues4_lesbian_threesome_victoria_1a_3932b208:
+
+    # victoria "А подружка Моника чего ждет?"
+    victoria "And girlfriend Monica what is waiting?"
+
+# game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:882
+translate english ep29_dialogues4_lesbian_threesome_victoria_1a_bbbe507a:
+
+    # victoria "А теперь еще раз, подружка Моника! И посмелее!"
+    victoria "And now again, girlfriend Monica! And bolder!"
+
+# game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:886
+translate english ep29_dialogues4_lesbian_threesome_victoria_1a_f8a6ce80:
+
+    # victoria "Да, так! Давай! М-м-м-м..."
+    victoria "Yes it is! Come on! Mmmm ..."
+
+# game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:923
+translate english ep29_dialogues4_lesbian_threesome_victoria_1a_f39ca8dc:
+
+    # victoria "Подружки знают, что мне это нравится..."
+    victoria "Girlfriends know that I like it ..."
+
+# game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:928
+translate english ep29_dialogues4_lesbian_threesome_victoria_1a_f05018e3:
+
+    # victoria "Подружки не должны останавляваться, иначе я огорчусь."
+    victoria "Girlfriends should not stop, otherwise I will be upset."
+
+translate english strings:
+
+    # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:147
+    old "РАНЕЕ В ЭТОТ ДЕНЬ..."
+    new "РАНЕЕ В ЭТОТ ДЕНЬ..."
+
+    # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:161
+    old "СЕЙЧАС..."
+    new "СЕЙЧАС..."
+

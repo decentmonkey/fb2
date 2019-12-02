@@ -390,3 +390,11 @@ translate german strings:
     old "Молли"
     new "Molly"
 
+# TODO: Translation updated at 2019-12-02 02:48
+
+translate german strings:
+
+    # game/00_Functions/07_init_renpy.rpy:161
+    old "Зритель"
+    new "Зритель"
+

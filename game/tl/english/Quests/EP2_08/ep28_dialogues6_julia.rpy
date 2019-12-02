@@ -1928,3 +1928,13 @@ translate english ep28_dialogues6_julia_8_d2ad4390:
     mt "I don't know what else to do..."
     help "Further progress with Julia will be available in the next update."
 
+# TODO: Translation updated at 2019-12-02 02:47
+
+# game/Quests/EP2_08/ep28_dialogues6_julia.rpy:1060
+translate english ep28_dialogues6_julia_8_a56a5481:
+
+    # mt "..."
+    # mt "Я уже не знаю, что еще можно придумать..."
+    mt "..."
+    mt "I don't know what else to do..."
+

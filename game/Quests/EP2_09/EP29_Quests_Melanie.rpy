@@ -65,6 +65,7 @@ label ep29_quests_melanie_monica_come_melanie: # Моника приходит �
         call process_change_map_location("Monica_Office")
         $ cloth = "WorkingOutfit1"
         $ cloth_type = "WorkingOutfit"
+        $ add_hook("map_teleport", "ep27_quests_melanie3a_block_melanie_home", scene="global", priority = 2000, label="melanie_home_restrict") # Блокируем дом Мелани
         $ add_hook("enter_scene", "ep29_dialogues3_melanie_monica_victoria_7d", scene="working_office_cabinet", once=True)
         call change_scene("working_office_cabinet", "Fade_long", "highheels_run2")
         return False

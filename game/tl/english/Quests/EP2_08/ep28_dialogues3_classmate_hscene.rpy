@@ -5163,3 +5163,181 @@ translate english dialogue_classmate_14_fe595690:
     # m "Этого можно было и не делать, мистер Эдвардс!"
     m "You didn't have to do that, Mr. Edwards!"
 
+# TODO: Translation updated at 2019-12-02 02:47
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2617
+translate english dialogue_classmate_11_a04200c3:
+
+    # teacher "Здавствуйте, миссис Бейкер."
+    teacher "Hello, Mrs. Baker."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2621
+translate english dialogue_classmate_11_0a69191b:
+
+    # teacher "Я вас ждал. Присаживайтесь."
+    teacher "I've waited for you. Sit down, please."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2988
+translate english dialogue_classmate_12a_7dc7fd8c:
+
+    # bardie "Гувентантка!!!"
+    bardie "Maid!!!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2997
+translate english dialogue_classmate_12a_8c049de4:
+
+    # m "Что случилось? Зачем ты так кричишь?"
+    m "What's the matter? Why are you shouting like that?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3000
+translate english dialogue_classmate_12a_390f34cc:
+
+    # mt "Что этому мелкому извращенцу от меня опять надо?"
+    mt "What does this little pervert want from me again?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3004
+translate english dialogue_classmate_12a_512b5821:
+
+    # bardie "Гувентантка, я хочу проверить, придерживаешься ли ты правил этого дома."
+    bardie "Maid, I want to check that you follow the rules of this house."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3007
+translate english dialogue_classmate_12a_e612037c:
+
+    # m "..."
+    m "..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3012
+translate english dialogue_classmate_12a_ef6a9255:
+
+    # mt "Черт!!!"
+    # mt "Он увидит, что я в трусиках и снова накажет меня!"
+    mt "Fuck!!!"
+    mt "He'll see I'm wearing panties and punish me again!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3017
+translate english dialogue_classmate_12a_3aadfc25:
+
+    # m "Я хорошая гувернантка! Но я не буду этого делать!"
+    m "I'm a good maid! But I won't do it!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3033
+translate english dialogue_classmate_12a_3aadfc25_1:
+
+    # m "Я хорошая гувернантка! Но я не буду этого делать!"
+    m "I'm a good maid! But I won't do it!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3056
+translate english dialogue_classmate_12a_b7080aad:
+
+    # bardie "Хорошая гувернантка. Хозяин ею доволен. Поэтому может доверить ей одно дело."
+    bardie "A good maid. The master is pleased with her. So I can trust her with an issue."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3059
+translate english dialogue_classmate_12a_cbbc3ffd:
+
+    # mt "Только не это!"
+    mt "Oh no!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3062
+translate english dialogue_classmate_12a_b9fe1dcb:
+
+    # bardie "Гувернантка, у Эрика снова проблемы в колледже."
+    # bardie "Учитель вызывает его мать к себе, срочно."
+    # bardie "Гувернантка должна снова притвориться мамой Эрика и пойти поговорить с учителем."
+    bardie "Maid, Eric's in trouble again."
+    bardie "The teacher calls his mother urgently."
+    bardie "The maid must pretend to be Eric's mother again and go talk to the teacher."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3068
+translate english dialogue_classmate_12a_55035db8:
+
+    # mt "Не дождешься, малявка!" 
+    mt "No way, little boy!" 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3071
+translate english dialogue_classmate_12a_e810de30:
+
+    # m "Что он на этот раз натворил? Почему я опять должна идти решать его проблемы?!"
+    m "What had he done this time? Why do I have to go solve his problems again?!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3075
+translate english dialogue_classmate_12a_eef1bd98:
+
+    # bardie "В прошлый раз ты достаточно быстро решила его проблему."
+    # bardie "В этот раз тебе придется сделать также."
+    bardie "You solved his problem fast enough last time."
+    bardie "You'll have to do the same this time."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3079
+translate english dialogue_classmate_12a_c9a7e2ef:
+
+    # bardie "Эрик делает домашние задания для хозяина, если ты помнишь..."
+    # bardie "Поэтому в твоих интересах, чтобы у него не было проблем в колледже!"
+    bardie "Eric does his master's homework, if you remember..."
+    bardie "So it's in your best interest that he doesn't have any problem in college!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3085
+translate english dialogue_classmate_12a_2663697e:
+
+    # m "Я не собираюсь идти туда!"
+    # m "Раз у твоего друга нет мозгов, чтобы не встревать во всякие глупые ситуации... То я тут ничем не смогу помочь!"
+    # m "Я что, каждый раз теперь буду ходить в колледж из-за него?"
+    m "I'm not going to go there!"
+    m "Since your friend doesn't have the brains not to get involved in all sorts of stupid situations... There's nothing I can do to help!"
+    m "Should I go to college every time because of him?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3091
+translate english dialogue_classmate_12a_a0105af0:
+
+    # bardie "Это не просьба, гувернантка! Это приказ хозяина дома!"
+    # bardie "А спорить с хозяином гувернантке запрещено!"
+    bardie "It's not a request, maid! This is the master's order!"
+    bardie "And it's forbidden to argue with the master!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3095
+translate english dialogue_classmate_12a_da493454:
+
+    # bardie "Ты должна снова поговорить с учителем и извиниться за Эрика."
+    # bardie "Скажешь ему, что ты обязательно поговоришь с сыном и такого больше не повторится."
+    bardie "You need to talk to the teacher again and apologize for Eric."
+    bardie "Tell him you'll talk to your son and it won't happen again."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3100
+translate english dialogue_classmate_12a_a88d0be9:
+
+    # m "Я уже обещала подобное! И что в итоге?!" 
+    # m "!!!"
+    m "I've already promised something like this! And what is the result?!" 
+    m "!!!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3104
+translate english dialogue_classmate_12a_4ae3805e:
+
+    # mt "Черт!!! Мне снова придется разговаривать с этим высокоморальным извращенцем!"
+    mt "Hell!!! I'm going to have to talk to this high-moral pervert again!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3108
+translate english dialogue_classmate_12a_3803ad55:
+
+    # bardie "Если ты все хорошо сделаешь и в этот раз, гувернантка...То я, хозяин дома, буду очень доволен."
+    # bardie "Ты же хочешь, чтобы хозяин был доволен, гувернантка?"
+    bardie "If you do well this time, maid...Then I, the master of the house, will be very pleased."
+    bardie "You want the master to be pleased, don't you, maid?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3113
+translate english dialogue_classmate_12a_40f21196:
+
+    # bardie "Я буду ждать тебя здесь. Надеюсь, ты вернешься из колледжа с хорошими новостями..." 
+    bardie "I'll wait for you here. I hope you come back from college with good news..." 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3117
+translate english dialogue_classmate_12a_74b3c6fd:
+
+    # mt "Как же я устала выполнять глупые приказы этого малявки!"
+    # mt "!!!"
+    # mt "Скорее бы вернуть этот дом себе и выкинуть эту ненормальную семейку отсюда!"
+    mt "How tired I am of obeying this little boy's foolish orders!"
+    mt "!!!"
+    mt "I wish I could get this house back and get this crazy family out of here."
+

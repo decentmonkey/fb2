@@ -1714,3 +1714,417 @@ translate english strings:
     old "Отказаться (пропуск фотосессии)"
     new "Refuse (pass photo shoot)"
 
+# TODO: Translation updated at 2019-12-02 02:47
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:146
+translate english ep29_dialogues3_melanie_monica_victoria_7d_4449ebaa:
+
+    # mt "Ой, я заснула? Мне приснился странный сон."
+    # mt "Впрочем, уже вечер. Мне нечего делать здесь."
+    mt "Ой, я заснула? Мне приснился странный сон."
+    mt "Впрочем, уже вечер. Мне нечего делать здесь."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:388
+translate english ep29_dialogues3_melanie_monica_victoria_1n2_a9c715e4:
+
+    # melanie_t "Бифа сейчас нет."
+    # melanie_t "И мне нечего делать здесь. Я не найду здесь ничего, кроме пустых бутылок из-под виски."
+    melanie_t "Бифа сейчас нет."
+    melanie_t "И мне нечего делать здесь. Я не найду здесь ничего, кроме пустых бутылок из-под виски."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:435
+translate english ep29_dialogues3_melanie_monica_victoria_1u_9fcec30a:
+
+    # melanie_t "Мне с ней не о чем разговаривать."
+    melanie_t "I have nothing to talk about with her."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:669
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_b2dece42:
+
+    # melanie "Виктория, здравствуй. Я рада нашей встрече."
+    melanie "Hello, hello. I am glad to see you."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:673
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_7aad7251:
+
+    # victoria "Уже лучше."
+    # victoria "Хорошие подружки целуются при встрече. Потому что действительно рады встрече."
+    victoria "Already better."
+    victoria "Good girlfriends kiss at a meeting. Because they are really happy to meet."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:677
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_e6be113f:
+
+    # victoria "..."
+    # victoria "Ты же хорошая подружка?"
+    victoria "..."
+    victoria "Are you a good girlfriend?"
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:683
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_43017bac:
+
+    # melanie "..."
+    melanie "..."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:686
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_da65b0a2:
+
+    # melanie_t "Эта сучка откровенно издевается надо мнойю."
+    # melanie_t "Сейчас я поиграю по ее правилам..."
+    melanie_t "This bitch is openly mocking me."
+    melanie_t "Now I will play by her rules ..."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:690
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_29a249fd:
+
+    # melanie_t "Она ведь не просто так позвала меня."
+    # melanie_t "Нужно узнать, что она хочет."
+    # melanie_t "Но я не оставлю подобное поведение безнаказанным..."
+    melanie_t "She didn’t just call me."
+    melanie_t "You need to find out what she wants."
+    melanie_t "But I will not leave this behavior unpunished ..."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:713
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_94575090:
+
+    # victoria "Подружка соскучилась по мне?"
+    victoria "Did your girlfriend miss me?"
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:718
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_43017bac_1:
+
+    # melanie "..."
+    melanie "..."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:721
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_984388f3:
+
+    # victoria "Я не слышу ответа..."
+    # victoria "Возможно, я ошибаюсь и ты не моя подружка?"
+    # victoria "Ты не соскучилась по мне?"
+    victoria "I do not hear the answer ..."
+    victoria "Maybe I'm wrong and you're not my girlfriend?"
+    victoria "Didn't you miss me?"
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:727
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_984e7654:
+
+    # melanie "Конечно, соскучилась... Подружка."
+    melanie "Of course, I missed you ... Girlfriend."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:733
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_8a3859b4:
+
+    # victoria "Раз ты так скучаешь по мне, подружка..."
+    # victoria "То, так уж и быть, я найду время, чтобы навестить тебя сегодня."
+    # victoria "Я приду к тебе вечером в гости."
+    victoria "Since you miss me so much, girlfriend ..."
+    victoria "So be it, I will find the time to visit you today."
+    victoria "I will come to visit you in the evening."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:738
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_49aa7098:
+
+    # victoria "И еще я хочу, чтобы вторая наша подружка тоже пришла."
+    # victoria "Уверена, она тоже соскучилась по мне. Как ты думаешь?"
+    victoria "And I also want our second girlfriend to come too."
+    victoria "I'm sure she missed me too. What do you think?"
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:744
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_848fbd7a:
+
+    # melanie "Ко мне в гости?"
+    # melanie "..."
+    melanie "To my place?"
+    melanie "..."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:749
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_f3f1c443:
+
+    # victoria "Да. Я тут подумала, что ни разу не была у тебя в гостях."
+    # victoria "А подружки ходят друг другу в гости и устраивают девичники."
+    victoria "Yes. I thought that I’ve never been to your place."
+    victoria "And girlfriends go to visit each other and arrange hen parties."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:753
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_dc510ecb:
+
+    # victoria "Сегодня вечером я хочу устроить девичник с моими хорошими подружками."
+    # victoria "Ты ведь рада, что я приду к тебе в гости?"
+    # victoria "Ты же хорошая подружка?"
+    victoria "Tonight I want to have a bachelorette party with my good girlfriends."
+    victoria "You are glad that I will come to visit you?"
+    victoria "Are you a good girlfriend?"
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:760
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_43017bac_2:
+
+    # melanie "..."
+    melanie "..."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:768
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_126ed108:
+
+    # melanie_t "Она явно что-то задумала..."
+    # melanie_t "Узнать это можно только одним способом - согласиться, чтобы она пришла ко мне."
+    melanie_t "She obviously was up to something ..."
+    melanie_t "There is only one way to find out - to agree that she come to me."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:772
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_af2aa653:
+
+    # melanie_t "Эта мелкая сучка не напугает меня, как бы она не старалась."
+    # melanie_t "Она ничего мне не сделает. Она и может только, что угрожать и все. На большее она не способна."
+    melanie_t "This little bitch doesn't scare me, no matter how hard she tries."
+    melanie_t "She won’t do anything to me. She can only threaten everything. She is not capable of more."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:779
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_6be21fcb:
+
+    # melanie "Cегодня вечером я буду занята."
+    # melanie "Меня не будет дома."
+    melanie "I'll be busy tonight."
+    melanie "I will not be home."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:785
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_d27cf7be:
+
+    # victoria "Подружка хочет сказать, что у нее нет времени на меня?"
+    victoria "Does a girlfriend want to say that she has no time for me?"
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:788
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_43017bac_3:
+
+    # melanie "..."
+    melanie "..."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:791
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_7e70005f:
+
+    # victoria "Хорошая подружка отменила бы все свои планы."
+    # victoria "Иначе она может поссориться со мной."
+    victoria "A good girlfriend would cancel all her plans."
+    victoria "Otherwise, she may quarrel with me."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:794
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_aa97b9a2:
+
+    # victoria "И тогда о ее маленькой тайне узнает один наш общий друг..."
+    victoria "And then one of our mutual friends finds out about her little secret ..."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:797
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_43017bac_4:
+
+    # melanie "..."
+    melanie "..."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:800
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_96fde2d5:
+
+    # victoria "Подружка же не хочет со мной ссориться?"
+    # melanie_t "Чертова интриганка."
+    victoria "My girlfriend doesn’t want to quarrel with me?"
+    melanie_t "Damn intrigue."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:807
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_77dbf8ef:
+
+    # melanie "Я хорошая подружка и буду ждать тебя сегодня в гости."
+    melanie "I am a good girlfriend and will be waiting for you today."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:812
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_b75b2ab1:
+
+    # victoria "Я очень расстроюсь, если вторая наша подружка не придет сегодня."
+    # victoria "Я тогда подумаю, что она не соскучилась по мне."
+    # victoria "Как ты думаешь, ведь вторая подружка не захочет меня расстраивать?"
+    victoria "I will be very upset if our second girlfriend does not come today."
+    victoria "Then I will think that she did not miss me."
+    victoria "What do you think, because the second girlfriend will not want to upset me?"
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:819
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_902bfe04:
+
+    # melanie "..."
+    # melanie "Я уверена, что она с радостью с тобой встретится."
+    melanie "..."
+    melanie "I’m sure she will be happy to meet you."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:825
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_62485139:
+
+    # victoria "Не могу дождаться нашей встречи!"
+    victoria "I can’t wait for our meeting!"
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:833
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_bebe7041:
+
+    # victoria "Ты можешь идти, подружка."
+    # victoria "Я понимаю, что ты с радостью повторила бы нашу встречу в этом кабинете..."
+    # victoria "Поэтому ты туда так смотришь. Но не расстраивайся. Мы увидимся сегодня вечером."
+    victoria "You can go, girlfriend."
+    victoria "I understand that you would gladly repeat our meeting in this office ..."
+    victoria "So you look there like that. But don't be upset. We will see each other tonight."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:843
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_6c45ec5f:
+
+    # victoria "До встречи, подружка."
+    # victoria "Я принесу тебе подарок сегодня."
+    # victoria "И не только тебе..."
+    victoria "See you, girlfriend."
+    victoria "I will bring you a present today."
+    victoria "And not only to you ..."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:848
+translate english ep29_dialogues3_melanie_monica_victoria_2a0_43017bac_5:
+
+    # melanie "..."
+    melanie "..."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:961
+translate english ep29_dialogues3_melanie_monica_victoria_3c0_0b0fe2b0:
+
+    # melanie_t "Сейчас мне нужно поговорить с Бифом."
+    # melanie_t "Мне понравилась моя идея насчет небольшого отпуска."
+    # melanie_t "Думаю, он мне не откажет..."
+    melanie_t "Now I need to talk to Biff."
+    melanie_t "I liked my idea about a short vacation."
+    melanie_t "I think he will not refuse me ..."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:967
+translate english ep29_dialogues3_melanie_monica_victoria_3d_315db138:
+
+    # melanie_t "У меня нет желания общаться с этим... Боссом..."
+    melanie_t "У меня нет желания общаться с этим... Боссом..."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1124
+translate english ep29_dialogues3_melanie_monica_victoria_5a1_aeb17ffe:
+
+    # melanie "Я сейчас переоденусь и вернусь."
+    melanie "I’ll change clothes and come back."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1136
+translate english ep29_dialogues3_melanie_monica_victoria_5a1_19a70f81:
+
+    # alex_photograph "Мелани! Ты великолепна!!!"
+    alex_photograph "Melanie! You are wonderful!!!"
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1139
+translate english ep29_dialogues3_melanie_monica_victoria_5a1_774de096:
+
+    # melanie_t "Мне не нравится идея фотосессии в этом костюме."
+    # melanie_t "Он практически ничего не прикрывает."
+    # melanie_t "Надо сказать Алексу, чтобы не брал откровенных ракурсов."
+    melanie_t "I do not like the idea of ​​a photo shoot in this costume."
+    melanie_t "It practically does not cover anything."
+    melanie_t "I must tell Alex not to take frank angles."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1146
+translate english ep29_dialogues3_melanie_monica_victoria_5a1_6a901cc9:
+
+    # melanie "Алекс?"
+    # alex_photograph "Да, Мелани?"
+    # melanie "Ты все еще хочешь, чтобы мои фотографии появились в твоей личной коллекции?"
+    melanie "Alex?"
+    alex_photograph "Yes, Melanie?"
+    melanie "Do you still want my photos to appear in your personal collection?"
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1152
+translate english ep29_dialogues3_melanie_monica_victoria_5a1_0c66e759:
+
+    # alex_photograph "Конечно, Мелани! Я давно мечтаю об этом! Так ты согласна?"
+    # melanie "Алекс, я обещаю подумать об этом. При одном условии."
+    # alex_photograph "???"
+    alex_photograph "Of course, Melanie! I have been dreaming about this for a long time! So do you agree?"
+    melanie "Alex, I promise to think about it. Under one condition."
+    alex_photograph "???"
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1157
+translate english ep29_dialogues3_melanie_monica_victoria_5a1_22839ad1:
+
+    # melanie "Мое условие простое, Алекс."
+    # melanie "Никаких откровенных ракурсов на этой фотосессии."
+    # melanie "Тогда я обдумаю возможность согласиться на твое предложение..."
+    melanie "My condition is simple, Alex."
+    melanie "No outright angles at this photo shoot."
+    melanie "Then I will consider the possibility of agreeing to your proposal ..."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1163
+translate english ep29_dialogues3_melanie_monica_victoria_5a1_aae46724:
+
+    # alex_photograph "Мелани! Ты можешь не переживать! Я сделаю все, как ты скажешь!"
+    # melanie "Отлично, Алекс. У меня мало времени. Приступим?"
+    alex_photograph "Melanie! No need to worry! I will do everything as you say!"
+    melanie "Great, Alex. I do not have much time. Let's get started?"
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1168
+translate english ep29_dialogues3_melanie_monica_victoria_5a1_5e0d68d9:
+
+    # alex_photograph "Итак, мотор!"
+    alex_photograph "Let's start then!"
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1180
+translate english ep29_dialogues3_melanie_monica_victoria_5a0_0401202d:
+
+    # alex_photograph "Мы закончили, Мелани! Ты была просто великолепна!!!"
+    # melanie "..."
+    # alex_photograph "Мелани, ты подумаешь над моим предложением?"
+    alex_photograph "We're done, Melanie! You were just gorgeous !!!"
+    melanie "..."
+    alex_photograph "Melanie, will you think about my proposal?"
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1187
+translate english ep29_dialogues3_melanie_monica_victoria_5a0_315e44a0:
+
+    # melanie "Я уже подумала, Алекс."
+    # melanie "Я не могу себе позволить сотрудничать с фотографом..."
+    # melanie "Который так пренебрежительно относится к моим просьбам."
+    melanie "I already thought, Alex."
+    melanie "I can not afford to collaborate with a photographer ..."
+    melanie "Which is so dismissive of my requests."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1192
+translate english ep29_dialogues3_melanie_monica_victoria_5a0_2f8a07b0:
+
+    # alex_photograph "Мелани... Но ведь я..."
+    alex_photograph "Melanie ... But I ..."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1195
+translate english ep29_dialogues3_melanie_monica_victoria_5a0_6285a609:
+
+    # melanie "Алекс, ответ 'нет'."
+    # melanie "Я не хочу больше ничего слышать о твоей личной коллекции."
+    melanie "Alex, the answer is no."
+    melanie "I don’t want to hear anything else about your personal collection."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1199
+translate english ep29_dialogues3_melanie_monica_victoria_5a0_ffe57524:
+
+    # alex_photograph "Но..."
+    # melanie "Надеюсь, ты доволен сегодняшней фотосессией..."
+    # melanie "..."
+    # melanie_t "Нужно переодеться и ехать домой. Скоро придут Миссис Бакфетт и Виктория."
+    alex_photograph "But..."
+    melanie "I hope you are satisfied with today's photo shoot ..."
+    melanie "..."
+    melanie_t "Need to change clothes and go home. Mrs. Buckfett and Victoria will come soon."
+
+# game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1232
+translate english ep29_dialogues3_melanie_monica_victoria_6b_a285669a:
+
+    # mt "ЧТО... ЭТО... БЫЛО?!"
+    # mt "!!!"
+    # mt "Когда я верну себе все, что у меня отняли..."
+    # mt "Эта сучка будет первой, кому я буду мстить!!!"
+    mt "ЧТО... ЭТО... БЫЛО?!"
+    mt "!!!"
+    mt "Когда я верну себе все, что у меня отняли..."
+    mt "Эта сучка будет первой, кому я буду мстить!!!"
+
+translate english strings:
+
+    # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:138
+    old "Лечь спать (пропуск событий с Мелани)."
+    new "Лечь спать (пропуск событий с Мелани)."
+

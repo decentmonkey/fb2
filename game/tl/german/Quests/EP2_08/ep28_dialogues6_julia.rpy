@@ -1928,3 +1928,13 @@ translate german ep28_dialogues6_julia_8_d2ad4390:
     mt "Ich wüsste sonst nicht mehr weiter..."
     help "Weitere Fortschritte mit Julia werden im nächsten Update zur Verfügung stehen."
 
+# TODO: Translation updated at 2019-12-02 02:48
+
+# game/Quests/EP2_08/ep28_dialogues6_julia.rpy:1060
+translate german ep28_dialogues6_julia_8_a56a5481:
+
+    # mt "..."
+    # mt "Я уже не знаю, что еще можно придумать..."
+    mt "..."
+    mt "Ich wüsste sonst nicht mehr weiter..."
+

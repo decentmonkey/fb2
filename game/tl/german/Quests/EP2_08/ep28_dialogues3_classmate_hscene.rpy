@@ -5164,3 +5164,181 @@ translate german dialogue_classmate_14_fe595690:
     # m "Этого можно было и не делать, мистер Эдвардс!"
     m "Das hätten sie nicht tun müssen, Herr Edwards!"
 
+# TODO: Translation updated at 2019-12-02 02:48
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2617
+translate german dialogue_classmate_11_a04200c3:
+
+    # teacher "Здавствуйте, миссис Бейкер."
+    teacher "Hallo Frau Baker. Ich habe sie erwartet, nehmen sie Platz."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2621
+translate german dialogue_classmate_11_0a69191b:
+
+    # teacher "Я вас ждал. Присаживайтесь."
+    teacher "Bitte, bier."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2988
+translate german dialogue_classmate_12a_7dc7fd8c:
+
+    # bardie "Гувентантка!!!"
+    bardie "Dienstmagd!!!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:2997
+translate german dialogue_classmate_12a_8c049de4:
+
+    # m "Что случилось? Зачем ты так кричишь?"
+    m "Was ist los? Warum schreist du so?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3000
+translate german dialogue_classmate_12a_390f34cc:
+
+    # mt "Что этому мелкому извращенцу от меня опять надо?"
+    mt "Was will der kleine Perverse schon wieder?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3004
+translate german dialogue_classmate_12a_512b5821:
+
+    # bardie "Гувентантка, я хочу проверить, придерживаешься ли ты правил этого дома."
+    bardie "Dienstmädchen, ich will prüfen, ob du die Hausordnung befolgst."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3007
+translate german dialogue_classmate_12a_e612037c:
+
+    # m "..."
+    m "..."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3012
+translate german dialogue_classmate_12a_ef6a9255:
+
+    # mt "Черт!!!"
+    # mt "Он увидит, что я в трусиках и снова накажет меня!"
+    mt "Verdammt!!!"
+    mt "Er wird sehen, dass ich wieder ein Höschen trage und mich wieder bestrafen!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3017
+translate german dialogue_classmate_12a_3aadfc25:
+
+    # m "Я хорошая гувернантка! Но я не буду этого делать!"
+    m "Ich bin ein gutes Dienstmädchen aber ich werde es nicht machen."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3033
+translate german dialogue_classmate_12a_3aadfc25_1:
+
+    # m "Я хорошая гувернантка! Но я не буду этого делать!"
+    m "Ich bin ein gutes Dienstmädchen aber ich werde es nicht machen."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3056
+translate german dialogue_classmate_12a_b7080aad:
+
+    # bardie "Хорошая гувернантка. Хозяин ею доволен. Поэтому может доверить ей одно дело."
+    bardie "Du bist eine Gute. Der Meister ist sehr zufrieden. Also kann ich dir eine Sache anvertrauen."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3059
+translate german dialogue_classmate_12a_cbbc3ffd:
+
+    # mt "Только не это!"
+    mt "Oh nein!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3062
+translate german dialogue_classmate_12a_b9fe1dcb:
+
+    # bardie "Гувернантка, у Эрика снова проблемы в колледже."
+    # bardie "Учитель вызывает его мать к себе, срочно."
+    # bardie "Гувернантка должна снова притвориться мамой Эрика и пойти поговорить с учителем."
+    bardie "Eric hat wieder Probleme."
+    bardie "Der Lehrer verlangt umgehend nach seiner Mutter."
+    bardie "Du musst wieder so tun als ob und ihn besuchen."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3068
+translate german dialogue_classmate_12a_55035db8:
+
+    # mt "Не дождешься, малявка!" 
+    mt "Vergiss es!" 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3071
+translate german dialogue_classmate_12a_e810de30:
+
+    # m "Что он на этот раз натворил? Почему я опять должна идти решать его проблемы?!"
+    m "Was hat er diesmal angestellt? Warum muss ich wieder sein Problem lösen?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3075
+translate german dialogue_classmate_12a_eef1bd98:
+
+    # bardie "В прошлый раз ты достаточно быстро решила его проблему."
+    # bardie "В этот раз тебе придется сделать также."
+    bardie "Du warst schnell letztes Mal."
+    bardie "Diesmal musst du es wieder tun."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3079
+translate german dialogue_classmate_12a_c9a7e2ef:
+
+    # bardie "Эрик делает домашние задания для хозяина, если ты помнишь..."
+    # bardie "Поэтому в твоих интересах, чтобы у него не было проблем в колледже!"
+    bardie "Eric erledigt meine Hausaufgaben, denk daran..."
+    bardie "Also ist es in deinem Interesse, dass er kein Problem am College hat!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3085
+translate german dialogue_classmate_12a_2663697e:
+
+    # m "Я не собираюсь идти туда!"
+    # m "Раз у твоего друга нет мозгов, чтобы не встревать во всякие глупые ситуации... То я тут ничем не смогу помочь!"
+    # m "Я что, каждый раз теперь буду ходить в колледж из-за него?"
+    m "Ich werde da nicht hin gehen!"
+    m "Nachdem dein Freund wohl zu dumm ist, nicht in Ärger zu geraten... kann ich da leider nichts tun."
+    m "Soll ich jetzt jedes Mal ins College wegen ihm?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3091
+translate german dialogue_classmate_12a_a0105af0:
+
+    # bardie "Это не просьба, гувернантка! Это приказ хозяина дома!"
+    # bardie "А спорить с хозяином гувернантке запрещено!"
+    bardie "Das ist keine Bitte, Magd, es ist ein Befehl!"
+    bardie "Und es ist verboten, mit dem Meister zu diskutieren!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3095
+translate german dialogue_classmate_12a_da493454:
+
+    # bardie "Ты должна снова поговорить с учителем и извиниться за Эрика."
+    # bardie "Скажешь ему, что ты обязательно поговоришь с сыном и такого больше не повторится."
+    bardie "Du musst nochmal mit dem Dozenten sprechen und dich für Eric entschuldigen."
+    bardie "Sag ihm, dass du mit deinem Sohn redest und es nicht mehr vorkommt."
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3100
+translate german dialogue_classmate_12a_a88d0be9:
+
+    # m "Я уже обещала подобное! И что в итоге?!" 
+    # m "!!!"
+    m "Das habe ich schon mal, und? Was war das Ergebnis?!" 
+    m "!!!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3104
+translate german dialogue_classmate_12a_4ae3805e:
+
+    # mt "Черт!!! Мне снова придется разговаривать с этим высокоморальным извращенцем!"
+    mt "Verdammt!!! Ich muss nochmal mit diesem moralischen Perversen reden!"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3108
+translate german dialogue_classmate_12a_3803ad55:
+
+    # bardie "Если ты все хорошо сделаешь и в этот раз, гувернантка...То я, хозяин дома, буду очень доволен."
+    # bardie "Ты же хочешь, чтобы хозяин был доволен, гувернантка?"
+    bardie "Wenn du es diesmal gut machst, dann werde ich, der Herr des Hauses, zufrieden sein."
+    bardie "Du möchtest doch,dass dein Meister zufrieden ist oder?"
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3113
+translate german dialogue_classmate_12a_40f21196:
+
+    # bardie "Я буду ждать тебя здесь. Надеюсь, ты вернешься из колледжа с хорошими новостями..." 
+    bardie "Ich wart hier auf dich. Ich hoffe, du kommst mit guten Nachrichten zurück." 
+
+# game/Quests/EP2_08/ep28_dialogues3_classmate_hscene.rpy:3117
+translate german dialogue_classmate_12a_74b3c6fd:
+
+    # mt "Как же я устала выполнять глупые приказы этого малявки!"
+    # mt "!!!"
+    # mt "Скорее бы вернуть этот дом себе и выкинуть эту ненормальную семейку отсюда!"
+    mt "Wie ich es leid bin, die dummen Anweisungen dieses Idioten zu befolgen."
+    mt "!!!"
+    mt "Ich wünschte, ich bekomme endlich das Haus zurück und diese irre Familie hier raus."
+

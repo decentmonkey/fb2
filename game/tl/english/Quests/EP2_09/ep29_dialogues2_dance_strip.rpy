@@ -2592,3 +2592,657 @@ translate english strings:
     old "Реплики из зала: Выкл"
     new "Shouts from the audience: Off"
 
+# TODO: Translation updated at 2019-12-02 02:47
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:24
+translate english dialogue_5_dance_strip_1_e2a6610e:
+
+    # ashley "Так что {c}приходи вечером!{/c}"
+    # ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
+    # ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+    ashley "Так что {c}приходи вечером!{/c}"
+    ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
+    ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:35
+translate english dialogue_5_dance_strip_1_077b7f14:
+
+    # mt "Я, Моника Бакфетт! Буду танцевать стриптиз! На сцене в грязном пабе в трущобах!"
+    # mt "Это немыслимо!!!"
+    mt "Me, Monica Buckfett! I will dance a striptease! On stage in a filthy pub in a slum!"
+    mt "This is unthinkable!!!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:43
+translate english dialogue_5_dance_strip_1_1d58a2ae:
+
+    # mt "Одно дело танцевать у пилона для одного-двух неудачников в подворотне..."
+    # mt "Они все равно никогда не узнают, кто я такая..."
+    # mt "А сцена..."
+    # mt "Это все равно, что фотосессия для обложки журнала, который увидят миллионы!"
+    mt "It's one thing to dance at the pylon for one or two losers in the alley..."
+    mt "They'll never know who I am anyway..."
+    mt "But this stage now..."
+    mt "It's like a photoshoot for the cover of a magazine that will be seen by millions!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:238
+translate english dialogue_5_dance_strip_2b_1929d956:
+
+    # mt "Я не хочу разговаривать с этой хамкой. Она провоцирует меня."
+    # mt "Я... боюсь не сдержаться и ударить ее..."
+    mt "Я не хочу разговаривать с этой хамкой. Она провоцирует меня."
+    mt "Я... боюсь не сдержаться и ударить ее..."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:258
+translate english dialogue_5_dance_strip_4na_6c45d44b:
+
+    # mt "Мне нужно идти в гримерную комнату..."
+    mt "Мне нужно идти в гримерную комнату..."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:262
+translate english dialogue_5_dance_strip_4nb_7b2ae18d:
+
+    # mt "Сначала мне надо поговорить с Эшли..."
+    mt "Сначала мне надо поговорить с Эшли..."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:268
+translate english dialogue_5_dance_strip_4nc_944e8323:
+
+    # mt "Мне надо придти завтра."
+    mt "Мне надо придти завтра."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:366
+translate english dialogue_5_dance_strip_4g_da19df8f:
+
+    # mt "Я не буду снимать с себя жилет!"
+    # mt "Не хватало еще, чтобы эта толпа неудачников пялилась на мою прекрасную грудь!!!"
+    # help "У Моники мало опыта работы танцовщицей."
+    mt "I'm not taking my vest off!"
+    mt "I didn't want that bunch of losers staring at my beautiful breasts!!!"
+    help "У Моники мало опыта работы танцовщицей."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:370
+translate english dialogue_5_dance_strip_4g_16a4c179:
+
+    # help "Окрыты не все движения. Требуется [monicaPosesOpenedToTopless]."
+    help "Окрыты не все движения. Требуется [monicaPosesOpenedToTopless]."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:372
+translate english dialogue_5_dance_strip_4g_bab4df62:
+
+    # help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:393
+translate english dialogue_5_dance_strip_4k_3e11c48f:
+
+    # mt "Я не готова так позировать! Это уже слишком!"
+    # help "У Моники мало опыта работы танцовщицей."
+    mt "I'm not ready to pose like that! This is too much!"
+    help "У Моники мало опыта работы танцовщицей."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:396
+translate english dialogue_5_dance_strip_4k_bdec30fe:
+
+    # help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+    help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:398
+translate english dialogue_5_dance_strip_4k_bab4df62:
+
+    # help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:423
+translate english dialogue_5_dance_strip_5a_e7cb2e33:
+
+    # customers1 "Эй, смотри, какая телка!"
+    customers1 "Hey, look what a chick!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:425
+translate english dialogue_5_dance_strip_5a_58c72ed5:
+
+    # customers2 "Кто это такая? Я ее раньше не видел!"
+    customers2 "Who is she? I've never seen her before!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:427
+translate english dialogue_5_dance_strip_5a_1018416e:
+
+    # customers3 "Это новая стриптизерша? Вау!"
+    customers3 "Is that the new stripper? Wow!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:429
+translate english dialogue_5_dance_strip_5a_e1953827:
+
+    # customers4 "Эй, красотка, иди к нам!"
+    customers4 "Hey, pretty girl, come to us!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:431
+translate english dialogue_5_dance_strip_5a_189282c6:
+
+    # customers5 "Снимай маску! Покажи нам себя!"
+    customers5 "Take off the mask! Show us yourself!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:439
+translate english dialogue_5_dance_strip_5a1_00b63f56:
+
+    # customers1 "Эй! Хорош уже! Давай, раздевайся!"
+    customers1 "Hey! Pretty good already! Come and undress!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:441
+translate english dialogue_5_dance_strip_5a1_0b9814cf:
+
+    # customers2 "Где стриптиз?!"
+    customers2 "Where is the striptease ?!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:443
+translate english dialogue_5_dance_strip_5a1_5724044d:
+
+    # customers3 "Это что?! Где сиськи голые?!"
+    customers3 "What's this?! Why aren't the boobs naked?!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:452
+translate english dialogue_5_dance_strip_5b_27007742:
+
+    # customers1 "Давай, покажи класс, детка!"
+    customers1 "Come on, show your best, baby!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:454
+translate english dialogue_5_dance_strip_5b_8954f0e2:
+
+    # customers2 "О, да! Вот это сиськи!"
+    customers2 "Oh Yes! What boobs she has!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:456
+translate english dialogue_5_dance_strip_5b_6d690452:
+
+    # customers3 "Охренеть!"
+    customers3 "Holy shit!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:458
+translate english dialogue_5_dance_strip_5b_866ce988:
+
+    # customers4 "Давай, раздевайся!"
+    customers4 "Come undress!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:460
+translate english dialogue_5_dance_strip_5b_d3e1ca02:
+
+    # customers5 "Эй, покажи нам сиськи!"
+    customers5 "Hey, show us the boobs!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:468
+translate english dialogue_5_dance_strip_5b2_775b27ee:
+
+    # customers1 "Уууууу!!!"
+    customers1 "Oooooooo !!!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:470
+translate english dialogue_5_dance_strip_5b2_29166189:
+
+    # customers2 "Я пришел на голые сиськи посмотреть, а не на это!"
+    customers2 "I came to see naked boobs, not this!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:472
+translate english dialogue_5_dance_strip_5b2_51449e57:
+
+    # customers3 "Где нормальный стриптиз?!"
+    customers3 "Where is the normal striptease ?!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:481
+translate english dialogue_5_dance_strip_5c_2d6f55eb:
+
+    # customers1 "Снимай с себя эти тряпки!"
+    customers1 "Take off these rags!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:483
+translate english dialogue_5_dance_strip_5c_74c30680:
+
+    # customers2 "Пошли в приват, детка!"
+    customers2 "Let's go in private, baby!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:485
+translate english dialogue_5_dance_strip_5c_c69e69ec:
+
+    # customers3 "Да! Давай еще!"
+    customers3 "Yes! Let's do it!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:487
+translate english dialogue_5_dance_strip_5c_2d8855e3:
+
+    # customers4 "Вау, детка! У меня уже в штанах дымится! Иди сюда!"
+    customers4 "Wow baby! I'm already smoking in my pants! Come here!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:489
+translate english dialogue_5_dance_strip_5c_cf4489f4:
+
+    # customers5 "Давай, покрути своей задницей!"
+    customers5 "Come on, wiggle your ass!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:497
+translate english dialogue_5_dance_strip_5c2_9aa0899a:
+
+    # customers1 "Твою мать, сними с себя хоть что-нибудь!"
+    customers1 "By my mother, take off at least something!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:499
+translate english dialogue_5_dance_strip_5c2_10f1a5d1:
+
+    # customers2 "И это все?!"
+    customers2 "And that's all?!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:501
+translate english dialogue_5_dance_strip_5c2_b288216d:
+
+    # customers3 "Уууууу!!!"
+    customers3 "Oooooooo !!!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:505
+translate english dialogue_5_dance_strip_5ca_231aebe5:
+
+    # customers2 "И это все?!"
+    # customers2 "Детка, иди танцуй еще!"
+    customers2 "And that's all?!"
+    customers2 "Детка, иди танцуй еще!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:517
+translate english dialogue_5_dance_strip_5d_6dbbcf18:
+
+    # customers1 "О да! Детка, ты супер!"
+    customers1 "Oh Yes! Baby, you're awesome!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:519
+translate english dialogue_5_dance_strip_5d_d4d37373:
+
+    # customers2 "Да! Мы тебя ждали, красотка!"
+    customers2 "Yes! We were waiting for you, beauty!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:521
+translate english dialogue_5_dance_strip_5d_b98a0779:
+
+    # customers3 "Спускайся сюда!"
+    customers3 "Come down here!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:523
+translate english dialogue_5_dance_strip_5d_252e5bde:
+
+    # customers4 "Покажи свои сиськи!"
+    customers4 "Show your boobs!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:525
+translate english dialogue_5_dance_strip_5d_a23f571b:
+
+    # customers5 "Давай, покажи класс, детка!"
+    customers5 "Come on, show your best, baby!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:533
+translate english dialogue_5_dance_strip_5d2_26a89e65:
+
+    # customers1 "Сиськи показывай!"
+    customers1 "Show the boobs!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:535
+translate english dialogue_5_dance_strip_5d2_a5d10335:
+
+    # customers2 "Уууууу!!!"
+    customers2 "Oooooooo !!!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:537
+translate english dialogue_5_dance_strip_5d2_7e7a0585:
+
+    # customers3 "Эй, научите ее, как надо это делать!!!"
+    customers3 "Hey, teach her how to do it !!!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:539
+translate english dialogue_5_dance_strip_5d2_daac9440:
+
+    # customers4 "Эй, мы это уже видели в прошлый раз! Покажи что-нибудь еще!"
+    customers4 "Hey, we saw it last time! Show me something else!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:548
+translate english dialogue_5_dance_strip_5e_5ede27cb:
+
+    # customers1 "Вау! Какие сиськи!"
+    customers1 "Wow! What boobs!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:550
+translate english dialogue_5_dance_strip_5e_12bd27e0:
+
+    # customers2 "Детка, спускайся сюда! У меня для тебя есть кое-что!"
+    customers2 "Baby, come down here! I have something for you!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:552
+translate english dialogue_5_dance_strip_5e_4338939c:
+
+    # customers3 "Давай в приват!"
+    customers3 "Go private!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:554
+translate english dialogue_5_dance_strip_5e_2ec32b11:
+
+    # customers4 "Потряси своими сиськами!"
+    customers4 "Shake your boobs!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:556
+translate english dialogue_5_dance_strip_5e_d8882e90:
+
+    # customers5 "Да! Охренительно!"
+    customers5 "Yes! Fuck!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:564
+translate english dialogue_5_dance_strip_5e2_a36a41b8:
+
+    # customers1 "Да разденься ты уже!!!"
+    customers1 "Yes, undress already!!!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:566
+translate english dialogue_5_dance_strip_5e2_0346a283:
+
+    # customers2 "Я за что деньги платить должен?!"
+    customers2 "What should I pay money for ?!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:568
+translate english dialogue_5_dance_strip_5e2_fe5fafd0:
+
+    # customers3 "Покрути своей задницей!"
+    customers3 "Turn your ass!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:577
+translate english dialogue_5_dance_strip_5f_27271715:
+
+    # customers1 "Эй, хочешь этих хрустящих купюр? Снимай свои трусики!"
+    customers1 "Hey, you want those crisp Dollars? Take off your panties!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:579
+translate english dialogue_5_dance_strip_5f_45dd0418:
+
+    # customers2 "Покажи нам свою киску!"
+    customers2 "Show us your pussy!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:581
+translate english dialogue_5_dance_strip_5f_b6e23a8f:
+
+    # customers3 "Давай, снимай с себя все!"
+    customers3 "Come on, take it all off!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:583
+translate english dialogue_5_dance_strip_5f_0e3274b2:
+
+    # customers4 "Иди сюда! Смотри, что у меня есть для тебя!"
+    customers4 "Come here! Look what I have for you!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:585
+translate english dialogue_5_dance_strip_5f_6792a479:
+
+    # customers5 "О, какая задница! Папочка любит такие! Пошли ко мне, детка!"
+    customers5 "Oh what an ass! Daddy loves these! Come to me baby!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:593
+translate english dialogue_5_dance_strip_5f2_489a723b:
+
+    # customers1 "И это все?!"
+    customers1 "And that's all?!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:595
+translate english dialogue_5_dance_strip_5f2_a5d10335:
+
+    # customers2 "Уууууу!!!"
+    customers2 "Oooooooo !!!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:597
+translate english dialogue_5_dance_strip_5f2_51449e57:
+
+    # customers3 "Где нормальный стриптиз?!"
+    customers3 "Where is the normal striptease ?!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:695
+translate english dialogue_5_dance_strip_7_71a7ecfe:
+
+    # ashley "{c}Приходи вечером!{/c}"
+    # ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
+    # ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+    ashley "{c}Приходи вечером!{/c}"
+    ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
+    ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:754
+translate english dialogue_5_dance_strip_8a_258bf020:
+
+    # mt "Это и есть вторая стриптизерша?"
+    mt "Is this the second stripper?"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1117
+translate english dialogue_5_dance_strip_9b_7ab25434:
+
+    # clare "Вот теперь ты выглядишь на миллион баксов!"
+    # clare "Давай, тебя там уже ждут!"
+    clare "Now you look like worth a million bucks!"
+    clare "Come on, they're waiting for you!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1309
+translate english dialogue_5_dance_strip_14a_5fcce578:
+
+    # mt "Я не хочу разговаривать с этой хамкой!"
+    mt "I don't want to talk to that lower creature!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1314
+translate english dialogue_5_dance_strip_14a_abb8e943:
+
+    # molly "Тебя здороваться не учили?.."
+    molly "Didn't they teach you how to say 'Hello'?.."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1318
+translate english dialogue_5_dance_strip_14a_2d64c30a:
+
+    # molly "Понабирают на работу шлюх из подворотни..."
+    molly "They recruit whores from the street..."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1323
+translate english dialogue_5_dance_strip_14a_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1332
+translate english dialogue_5_dance_strip_14a_f0fbf915:
+
+    # m "Ты это сейчас про себя, да?" 
+    # m "Я такого же мнения после нашего с тобой так сказать 'знакомства'!"
+    m "You're talking about yourself, aren't you?" 
+    m "I have the same opinion after our meeting."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1336
+translate english dialogue_5_dance_strip_14a_8af546bc:
+
+    # mt "Этой хамке самое место в подворотне со шлюхами! Как она здесь оказалась?"
+    mt "The best place for this girl is on the street with whores! How did she get here?"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1341
+translate english dialogue_5_dance_strip_14a_6058675d:
+
+    # molly "Мне послышалось или ты что-то сейчас мне сказала?"
+    molly "I didn't hear you, or did you just say something to me?"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1351
+translate english dialogue_5_dance_strip_14a_a4542f1c:
+
+    # mt "Нет, я не могу пока этого позволить себе."
+    # mt "Эта сучка Эшли выгонит меня отсюда и я не смогу зарабатывать деньги..."
+    # mt "Которые мне так нужны..."
+    # mt "..."
+    # mt "Я сделаю это позже..."
+    mt "No, I can’t afford it yet."
+    mt "This bitch Ashley will throw me out of here and I won’t be able to make money ..."
+    mt "Which I need so much ..."
+    mt "..."
+    mt "I'll do it later..."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1361
+translate english dialogue_5_dance_strip_14a_0dc503bf:
+
+    # m "Мне не о чем разговаривать с такой как ты!"
+    # m "И, тем более, о чем-то спорить!"
+    m "I have nothing to talk about with someone like you!"
+    m "And, moreover, to argue about something!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1366
+translate english dialogue_5_dance_strip_14a_462478a4:
+
+    # m "Я не собираюсь опускаться до твоего уровня!!!"
+    # m "!!!"
+    m "I'm not going to fall to your level!!!"
+    m "!!!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1372
+translate english dialogue_5_dance_strip_14a_9f0a0a5c:
+
+    # molly "!!!"
+    molly "!!!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1377
+translate english dialogue_5_dance_strip_14a_69ec4892:
+
+    # mt "Не могу выносить ее присутствия!"
+    # mt "Надо скорее одеться и идти на сцену."
+    mt "I can't stand her presence!"
+    mt "I need to get dressed and go on stage."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1701
+translate english dialogue_5_dance_strip_16a_5d7dd29e:
+
+    # clare "Выглядишь сногсшибательно."
+    # clare "Иди и покажи им, кто здесь звезда."
+    clare "You look stunning."
+    clare "Go and show them who is the star here."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1901
+translate english dialogue_5_dance_strip_20_71a7ecfe:
+
+    # ashley "{c}Приходи вечером!{/c}"
+    # ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
+    # ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+    ashley "{c}Приходи вечером!{/c}"
+    ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
+    ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2039
+translate english dialogue_5_dance_strip_22_c0bfaf84:
+
+    # ashley "Хорошо. Вот твои [pubMonicaDanceTipsKoeffText] процентов."
+    ashley "Good. Here are your [pubMonicaDanceTipsKoeffText] percentages."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2042
+translate english dialogue_5_dance_strip_22_61e17b68:
+
+    # ashley "Завтра приходи работать еще."
+    ashley "Come again tomorrow."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2108
+translate english dialogue_5_dance_strip_24_c355293a:
+
+    # m "Я не собираюсь зарабатывать ТАКИМ способом, Джо!" 
+    # m "И не хочу слышать больше подобных предложений!!!"
+    # m "!!!"
+    m "I'm not going to make money such way, Joe!" 
+    m "And I don't want to hear any more offers like that!!!"
+    m "!!!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2125
+translate english dialogue_5_dance_strip_24_6612a40f:
+
+    # joe "Хорошо, [monica_pub_name]."
+    # joe "Но если подобные предложения от клиентов еще будут, то я тебе скажу об этом."
+    # joe "Вдруг ты передумаешь..." 
+    # m "..."
+    joe "Alright, [monica_pub_name]."
+    joe "But if there are more offers like this from customers, I'll tell you about it."
+    joe "You might change your mind..." 
+    m "..."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2137
+translate english dialogue_5_dance_strip_25a_fd2a89c3:
+
+    # mt "Что это еще такое? Она сидит с таким видом, будто она тут самая главная..."
+    mt "Что это еще такое? Она сидит с таким видом, будто она тут самая главная..."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2155
+translate english dialogue_5_dance_strip_27_434f0f74:
+
+    # molly "Чего тебе?"
+    # molly "Я отдыхаю после выступления. Не отвлекай меня." 
+    molly "What do you want?"
+    molly "I rest after the performance. Please do not disturb me." 
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2158
+translate english dialogue_5_dance_strip_27_1929d956:
+
+    # mt "Я не хочу разговаривать с этой хамкой. Она провоцирует меня."
+    # mt "Я... боюсь не сдержаться и ударить ее..."
+    mt "Я не хочу разговаривать с этой хамкой. Она провоцирует меня."
+    mt "Я... боюсь не сдержаться и ударить ее..."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2161
+translate english dialogue_5_dance_strip_27_bf4ae831:
+
+    # mt "Ответить ей в таком же тоне означает - опуститься до ее уровня."
+    # mt "Я, Моника Бакфетт, никогда не опущусь до уровня этой хамки."
+    mt "To answer her in the same tone means to go down to her level."
+    mt "I, Monica Buckett, will never stoop to the level of this boor."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2216
+translate english dialogue_5_dance_strip_29_e0e2893b:
+
+    # m "Я не выйду на сцену с голой грудью!!!"
+    # help "У Моники мало опыта работы танцовщицей."
+    m "I'm not going on stage bare-chested!!!"
+    help "У Моники мало опыта работы танцовщицей."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2219
+translate english dialogue_5_dance_strip_29_bdec30fe:
+
+    # help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+    help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2221
+translate english dialogue_5_dance_strip_29_bab4df62:
+
+    # help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2235
+translate english dialogue_5_dance_strip_29b_e0e2893b:
+
+    # m "Я не выйду на сцену с голой грудью!!!"
+    # help "У Моники мало опыта работы танцовщицей."
+    m "I'm not going on stage bare-chested!!!"
+    help "У Моники мало опыта работы танцовщицей."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2238
+translate english dialogue_5_dance_strip_29b_bdec30fe:
+
+    # help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+    help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2240
+translate english dialogue_5_dance_strip_29b_bab4df62:
+
+    # help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2245
+translate english dialogue_5_dance_strip_29a_cf5e7835:
+
+    # mt "Я не буду ходить по этому мерзкому заведению в таком виде!"
+    # mt "Мне надо переодеться!"
+    mt "Я не буду ходить по этому мерзкому заведению в таком виде!"
+    mt "I have to change!"
+
+translate english strings:
+
+    # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2049
+    old "Уйти и не отдавать чаевые хозяевам бара. (в будущих обновлениях) (disabled)"
+    new "Уйти и не отдавать чаевые хозяевам бара. (в будущих обновлениях) (disabled)"
+
+    # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2344
+    old "Музыка: Последовательно"
+    new "Музыка: Последовательно"
+
