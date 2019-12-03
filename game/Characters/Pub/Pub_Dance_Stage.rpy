@@ -273,7 +273,7 @@ label pub_dance1_stage_start1:
         hide videov_Monica_Strip_Undress1A
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Undress1A_end.jpg")
         wclean
-        $ stage_achievements_list.append("v_Monica_Strip_Undress1A_end")
+        $ stage_achievements_list.append("v_Monica_Strip_Undress1A")
     if pubDanceCount%3 == 1:
         scene black
         image videov_Monica_Strip_Undress1B = Movie(play="video/v_Monica_Strip_Undress1B.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Undress1B_end.jpg")
@@ -285,7 +285,7 @@ label pub_dance1_stage_start1:
         hide videov_Monica_Strip_Undress1B
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Undress1B_end.jpg")
         wclean
-        $ stage_achievements_list.append("v_Monica_Strip_Undress1B_end")
+        $ stage_achievements_list.append("v_Monica_Strip_Undress1B")
     if pubDanceCount%3 == 2:
         scene black
         image videov_Monica_Strip_Undress1C = Movie(play="video/v_Monica_Strip_Undress1C.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Undress1C_end.jpg")
@@ -297,7 +297,7 @@ label pub_dance1_stage_start1:
         hide videov_Monica_Strip_Undress1C
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Undress1C_end.jpg")
         wclean
-        $ stage_achievements_list.append("v_Monica_Strip_Undress1C_end")
+        $ stage_achievements_list.append("v_Monica_Strip_Undress1C")
 label pub_dance1_stage_start1_topless:
     $ monicaDancingTopless = True
     if monicaDancingStage < 1:
