@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "EP2-v0.8-Extra-fix2"
+define config.version = "EP2-v0.9-Extra"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -38,19 +38,29 @@ Keks
 
 Abelardo
 
+aIMissRyu23
+
 Jetvoice
 
 Joe Swenson
 
 Miguel
 
+Olli P.
+
+onstant
+
 Prometheus
 
 Ronny schönherr
 
+SimonLee
+
 Stefan Kemske
 
 The big Dog
+
+Виталий Рябоконь
 
 for great support!
 

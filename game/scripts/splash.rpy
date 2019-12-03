@@ -11,6 +11,14 @@ label splashscreen:
     stop music fadeout 0.5
     img black_screen
     with Dissolve(0.5)
+    img splash_thanks
+    with Dissolve(0.7)
+    $ renpy.pause(1.0)
+    pause 4.0
+    img black_screen
+    with Dissolve(0.7)
+    img black_screen
+    with Dissolve(0.5)
     img all_over_18
     with Dissolve(0.7)
     $ renpy.pause(2.0)
@@ -22,7 +30,9 @@ label splashscreen:
     $ renpy.pause(1.0, hard=True)
     pause 4.0
     img black_screen
-    with Dissolve(0.7)
+    $ renpy.pause(2.0)
+
+
     return
 
     wclean
