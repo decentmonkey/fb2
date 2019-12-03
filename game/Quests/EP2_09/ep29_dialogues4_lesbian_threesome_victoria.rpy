@@ -828,11 +828,29 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     with fade
     victoria "Прикоснись к ней губами."
     # Моника прикасается губами к ягодицам, сначала к одной
-    music Loved_Up
+    music stop
+    stop music
+    music2 Loved_Up
     img 15634
     with diss
     sound lick10
     victoria "Да, подружка хорошая! Поцелуй еще!"
+
+    # причесать
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+#    play music "<from " + str(float(rand(1,4))*1.66666667) + " loop 0.0>Sounds/v_Victoria_Monica_Melanie_Licking1.ogg"
+    scene black
+    image videov_Victoria_Monica_Melanie_Licking1_1 = Movie(play="video/v_Victoria_Monica_Melanie_Licking1_1.mkv", fps=30)
+    show videov_Victoria_Monica_Melanie_Licking1_1
+    with fadelong
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+#    music2 Loved_Up
     # Моника прикасается ко второй ягодице губами
     #victoria "А теперь подружка Моника потрогает руками мою попу..."
     #victoria "Раздвинет ее половинки в стороны и поцелует мою дырочку..."
@@ -843,19 +861,19 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     with fade
     victoria "Хорошая подружка Мелани сейчас поцелует мою киску еще раз."
     victoria "Тебе ведь нравится целовать мою киску, м?"
-    music Power_Bots_Loop
+    music2 Power_Bots_Loop
     img 15640
     with diss
     melanie "Да. Нравится."
-    music Groove2_85
+    music2 Groove2_85
     img 15641
     with fade
     victoria "Что тебе нравится?"
-    music Power_Bots_Loop
+    music2 Power_Bots_Loop
     img 15642
     with diss
     melanie "Мне нравится целовать твою киску..."
-    music Loved_Up
+    music2 Loved_Up
     img 15643
     with fade
     victoria "Я разрешаю тебе поцеловать мою киску еще, раз тебе это так нравится."
@@ -865,6 +883,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     victoria "А теперь я разрешаю подружке Мелани потрогать мою киску язычком." # клитор
     victoria "М-м-м-м. Да, хорошая подружка!"
     victoria "И еще раз... Да, так!"
+
     img 15645
     with fade
     victoria "А теперь подружка Мелани найдет мою дырочку и полижет ее." # влагалище
@@ -874,6 +893,8 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     #mt "!!!"
 #    victoria "Я ей уже разрешила целовать мою вторую дырочку!"
     # Моника с отвращением прикасается губами к анусу, отстраняется
+    # причесать
+
     img 15646
     with diss
 #    victoria "А теперь я разрешаю полизать подружке Монике мою вторую дырочку."
@@ -881,6 +902,22 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     #mt "Фуууу!!!"
     victoria "А теперь еще раз, подружка Моника! И посмелее!"
     # Моника снова проводит языком по анусу
+
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    music stop
+    img black_screen
+    with diss
+    stop music
+#    play music "<from " + str(float(rand(1,4))*1.66666667) + " loop 0.0>Sounds/v_Victoria_Monica_Melanie_Licking1.ogg"
+    scene black
+    image videov_Victoria_Monica_Melanie_Licking1_2 = Movie(play="video/v_Victoria_Monica_Melanie_Licking1_2.mkv", fps=30)
+    show videov_Victoria_Monica_Melanie_Licking1_2
+    with fadelong
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+#    music Loved_Up
+
     img 15647
     with fade
     victoria "Да, так! Давай! М-м-м-м..."
@@ -901,6 +938,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     victoria "Какие подружки хорошие... Как они стараются получить мой подарок..."
     # Виктория наклоняется немного, дотягивается рукой до сумочки, достает из нее телефон
     music stop
+    music2 stop
     img black_screen
     with diss
     sound vjuh3
@@ -1200,12 +1238,18 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     victoria "Оближи его как следует! Покажи мне, как ты хочешь его!"
     # Мелани медлит, потом опускается на колени, облизывает дилдо
 #    sound vjuh3
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Loved_Up
     img 15701
-    with fade
+    with fadelong
     w
     img 15702
     with diss
     w
+
     img 15703
     with diss
     w
@@ -1214,55 +1258,68 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     victoria "Вот так, да!"
     victoria "Теперь возьми его в рот!"
     victoria "Я хочу, чтобы ты отсосала у меня, мисс Мелани!"
-    # запихивает дилдо ей в рот, Мелани давится, отстраняется, дилдо становится мокрым, с него тянется слюна
-    # Моника с ужасом наблюдает
     music Power_Bots_Loop
     img 15705
     with hpunch
     mt "О боже! Какой кошмар!"
     mt "Я не смогу этого сделать!"
     mt "!!!"
-    # Виктория строго говорит Мелани
     music Loved_Up
     img 15706
     with fade
     w
-    img 15707
-    with diss
-    w
-
     ################################
     img black_screen
     with diss
-    music stop
-    stop music
-    play music "<from " + str(float(rand(1,5))*1.5) + " loop 0.0>Sounds/v_Victoria_Monica_Melanie_Blowjob1_1.ogg"
     scene black
     image videov_Victoria_Monica_Melanie_Blowjob1_1 = Movie(play="video/v_Victoria_Monica_Melanie_Blowjob1_1.mkv", fps=30)
     show videov_Victoria_Monica_Melanie_Blowjob1_1
     with fadelong
     wclean
     ################################
-
-    music Loved_Up
-    img 15708
-    with fade
-    w
-    img 15709
+    if game.extra == True:
+        ################################
+        img black_screen
+        with diss
+        scene black
+        image videov_Victoria_Monica_Melanie_Blowjob1_2 = Movie(play="video/v_Victoria_Monica_Melanie_Blowjob1_2.mkv", fps=30)
+        show videov_Victoria_Monica_Melanie_Blowjob1_2
+        with fadelong
+        wclean
+        ################################
+    # запихивает дилдо ей в рот, Мелани давится, отстраняется, дилдо становится мокрым, с него тянется слюна
+    # Моника с ужасом наблюдает
+    # Виктория строго говорит Мелани
+    ################################
+    ################################
+    img 15707
     with diss
     w
-    ################################
+
+
     img black_screen
     with diss
-    music stop
-    stop music
-    play music "<from " + str(float(rand(1,5))*1.5) + " loop 0.0>Sounds/v_Victoria_Monica_Melanie_Blowjob1_2.ogg"
     scene black
-    image videov_Victoria_Monica_Melanie_Blowjob1_2 = Movie(play="video/v_Victoria_Monica_Melanie_Blowjob1_2.mkv", fps=30)
-    show videov_Victoria_Monica_Melanie_Blowjob1_2
+    image videov_Victoria_Monica_Melanie_Blowjob1_4 = Movie(play="video/v_Victoria_Monica_Melanie_Blowjob1_4.mkv", fps=30)
+    show videov_Victoria_Monica_Melanie_Blowjob1_4
     with fadelong
     wclean
     ################################
+    if game.extra == True:
+        img black_screen
+        with diss
+        scene black
+        image videov_Victoria_Monica_Melanie_Blowjob1_3 = Movie(play="video/v_Victoria_Monica_Melanie_Blowjob1_3.mkv", fps=30)
+        show videov_Victoria_Monica_Melanie_Blowjob1_3
+        with fadelong
+        wclean
+    img 15708
+    with fade
+    w
+    ################################
+    img 15709
+    with diss
+    w
 
     music Groove2_85
     img 15710
@@ -1282,21 +1339,28 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     img 15720
     with diss
     w
-    img 15721
-    sound vjuh4
-    pause 0.5
-    sound snd_slap1
-    img 15722
-    with vpunch
-    melanie "Ах!"
-    img 15723
-    with diss
-    w
+#    img 15721
+#    sound vjuh4
+#    pause 0.5
+#    sound snd_slap1
+#    img 15722
+#    with vpunch
+#    melanie "Ах!"
+#    img 15723
+#    with diss
+#    w
     ################################
+    img v_Victoria_Melanie_Spanking1_1_start
+    with fade
+    w
+    scene black
     sound v_Victoria_Melanie_Spanking1_1
-    image videov_Victoria_Melanie_Spanking1_1 = Movie(play="video/v_Victoria_Melanie_Spanking1_1.mkv", fps=30, loop=False, image="/images/Slides/v_Victoria_Melanie_Spanking1_1_stop.jpg")
+    image videov_Victoria_Melanie_Spanking1_1 = Movie(play="video/v_Victoria_Melanie_Spanking1_1.mkv", fps=30, loop=False, image="/images/Slides/v_Victoria_Melanie_Spanking1_1_end.jpg")
     show videov_Victoria_Melanie_Spanking1_1
-    pause 2.5
+#    sound2 vjuh4
+    pause 0.5
+#    sound2 snd_slap1
+    melanie "Ах!"
     music Master_Disorder
     wclean
     #################################
@@ -1309,23 +1373,45 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     # шлепает еще раз
 
     ################################
-    sound v_Victoria_Melanie_Spanking1_2
-    image videov_Victoria_Melanie_Spanking1_2 = Movie(play="video/v_Victoria_Melanie_Spanking1_2.mkv", fps=30, loop=False, image="/images/Slides/v_Victoria_Melanie_Spanking1_2_stop.jpg")
-    show videov_Victoria_Melanie_Spanking1_2
-    pause 2.5
-    music Master_Disorder
-    wclean
-    #################################
+    if game.extra == True:
+        img v_Victoria_Melanie_Spanking1_2_start
+        with fade
+        w
+        scene black
+        sound v_Victoria_Melanie_Spanking1_2
+        image videov_Victoria_Melanie_Spanking1_2 = Movie(play="video/v_Victoria_Melanie_Spanking1_2.mkv", fps=30, loop=False, image="/images/Slides/v_Victoria_Melanie_Spanking1_2_end.jpg")
+        show videov_Victoria_Melanie_Spanking1_2
+    #    sound2 vjuh4
+        pause 0.5
+    #    sound2 snd_slap1
+        melanie "Ах!"
+        music Master_Disorder
+        wclean
+        #################################
 
     music stop
     img black_screen
     with diss
     pause 1.5
-    music Master_Disorder
+#    music Master_Disorder
     sound chpok6
     img 15725
     with hpunch
     w
+    music Loved_Up2
+    img black_screen
+    with diss
+#    music stop
+#    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_2.ogg"
+    scene black
+    image videov_Victoria_Melanie_Sex1_1 = Movie(play="video/v_Victoria_Melanie_Sex1_1.mkv", fps=30)
+    show videov_Victoria_Melanie_Sex1_1
+    with fadelong
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     img 15726
     sound vjuh4
     pause 0.5
@@ -1333,6 +1419,10 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     img 15727
     with vpunch
     melanie "Ах!"
+
+
+
+
     img 15728
     with fade
     victoria "Тебе ведь нравится, подружка Мелани?"
@@ -1342,31 +1432,22 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     with diss
     melanie "Мне... Мне нравится..."
 ########################################
-
-    img black_screen
-    with diss
-    music stop
-    stop music
-    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_1.ogg"
-    scene black
-    image videov_Victoria_Melanie_Sex1_1 = Movie(play="video/v_Victoria_Melanie_Sex1_1.mkv", fps=30)
-    show videov_Victoria_Melanie_Sex1_1
-    with fadelong
-    wclean
-
-
-    music stop
-    stop music
-    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_4.ogg"
+    music Loved_Up2
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_2.ogg"
     scene black
     image videov_Victoria_Melanie_Sex1_4 = Movie(play="video/v_Victoria_Melanie_Sex1_4.mkv", fps=30)
     show videov_Victoria_Melanie_Sex1_4
     with fadelong
     wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
 
 ########################################
     # Виктория снова шлепает ее, ягодицы у Мелани становятся красными
-    music Master_Disorder
+#    music Master_Disorder
     img 15730
     with diss
     sound vjuh4
@@ -1377,27 +1458,33 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     melanie "Ах!"
     # Виктория направляет дилдо в киску Мелани и вводит его
     # Моника продолжает с ужасом смотреть на эту картину
-    music Power_Bots_Loop
+#    music Power_Bots_Loop
     img 15732
     with fade
     mt "!!!"
     # Виктория поворачивается к Монике, при этом двигается в Мелани, схватив ту за волосы
 ########################################
+    music Loved_Up2
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
     img black_screen
     with diss
-    music stop
-    stop music
-    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_2.ogg"
+    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_2.ogg"
     scene black
     image videov_Victoria_Melanie_Sex1_2 = Movie(play="video/v_Victoria_Melanie_Sex1_2.mkv", fps=30)
     show videov_Victoria_Melanie_Sex1_2
     with fadelong
     wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
 ########################################
 
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
     music Loved_Up
     img 15733
-    with diss
+    with fadelong
     victoria "Подружка Моника, тебе нравится смотреть на нас?"
     victoria "Скажи, что тебе нравится!"
     music Power_Bots_Loop
@@ -1433,13 +1520,13 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     victoria "Что именно тебе нравится?"
     victoria "Ты хочешь оказаться на месте нашей подружки? Скажи мне!"
     music Power_Bots_Loop
-    img 15737
-    with diss
-    m "Д-да..."
     img 15738
     with diss
     mt "Нет-нет! Это так мерзко!!!"
     music Loved_Up
+    img 15737
+    with fadelong
+    m "Д-да..."
     img 15739
     with fade
     victoria "Тогда раздвинь ноги и подготовь свою киску для меня."
@@ -1468,7 +1555,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     # Моника подчиняется, раздвигает ноги, смотрит на Викторию
     music Loved_Up
     img 15740
-    with fade
+    with fadelong
     victoria "Теперь ласкай свою киску!"
     victoria "Я хочу посмотреть, как ты это делаешь!"
     img 15741
@@ -1476,67 +1563,69 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     mt "ЧТО!?"
     # Моника опускает руку и прикасается к себе там, начинает водить пальцами по киске
     # Виктория самодовольно ухмыляется
+    music Loved_Up2
     img 15742
     with diss
     w
 
 ########################################
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
     img black_screen
     with diss
-    music stop
-    stop music
-    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_3.ogg"
+    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_2.ogg"
     scene black
     image videov_Victoria_Melanie_Sex1_3 = Movie(play="video/v_Victoria_Melanie_Sex1_3.mkv", fps=30)
     show videov_Victoria_Melanie_Sex1_3
     with fadelong
     wclean
+    stop music2
 
-    music stop
-    stop music
-    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_7.ogg"
+    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_1.ogg"
     scene black
     image videov_Victoria_Melanie_Sex1_7 = Movie(play="video/v_Victoria_Melanie_Sex1_7.mkv", fps=30)
     show videov_Victoria_Melanie_Sex1_7
     with fadelong
     wclean
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    stop music2
 ########################################
 
-    music Loved_Up
+#    music Loved_Up
     img 15743
     with diss
     w
     img 15744
     with fade
     victoria "Нравится тебе?"
-    music Power_Bots_Loop
+#    music Power_Bots_Loop
     img 15745
     with diss
     m "Да..."
     # Виктория снова шлепает Мелани по ягодицам и продолжает натягивать ее на свой страпон
 
 ########################################
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
     img black_screen
     with diss
-    music stop
-    stop music
-    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_5.ogg"
+    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_1.ogg"
     scene black
     image videov_Victoria_Melanie_Sex1_5 = Movie(play="video/v_Victoria_Melanie_Sex1_5.mkv", fps=30)
     show videov_Victoria_Melanie_Sex1_5
     with fadelong
     wclean
-
-    music stop
-    stop music
-    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_6.ogg"
-    scene black
-    image videov_Victoria_Melanie_Sex1_6 = Movie(play="video/v_Victoria_Melanie_Sex1_6.mkv", fps=30)
-    show videov_Victoria_Melanie_Sex1_6
-    with fadelong
-    wclean
+    stop music2
+    if game.extra == True:
+        stop music2
+        play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_1.ogg"
+        scene black
+        image videov_Victoria_Melanie_Sex1_6 = Movie(play="video/v_Victoria_Melanie_Sex1_6.mkv", fps=30)
+        show videov_Victoria_Melanie_Sex1_6
+        with fadelong
+        wclean
+        stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
 ########################################
-    music Loved_Up
+#    music Loved_Up
     img 15746
     with diss
     sound vjuh3
@@ -1557,31 +1646,32 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     with diss
     victoria "Я вижу, что тебе нравится..."
     victoria "Подружка Моника, тебе нравится киска нашей подружки Мелани?"
-    music Power_Bots_Loop
+#    music Power_Bots_Loop
     img 15751
     with fade
     m "Нравится..."
 
 ########################################
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
     img black_screen
     with diss
-    music stop
-    stop music
-    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_8.ogg"
+    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_1.ogg"
     scene black
     image videov_Victoria_Melanie_Sex1_8 = Movie(play="video/v_Victoria_Melanie_Sex1_8.mkv", fps=30)
     show videov_Victoria_Melanie_Sex1_8
     with fadelong
     wclean
+    stop music2
 
-    music stop
-    stop music
-    play music "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_9.ogg"
-    scene black
-    image videov_Victoria_Melanie_Sex1_9 = Movie(play="video/v_Victoria_Melanie_Sex1_9.mkv", fps=30)
-    show videov_Victoria_Melanie_Sex1_9
-    with fadelong
-    wclean
+    if game.extra == True:
+        play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Sex1_1.ogg"
+        scene black
+        image videov_Victoria_Melanie_Sex1_9 = Movie(play="video/v_Victoria_Melanie_Sex1_9.mkv", fps=30)
+        show videov_Victoria_Melanie_Sex1_9
+        with fadelong
+        wclean
+        stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
 ##########################################
     music Loved_Up
@@ -1704,23 +1794,26 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     with fadelong
     w
     img 15770
-    with fade
+    with diss
     w
     music stop
     img black_screen
     with diss
     pause 1.5
-    music Loved_Up
+    music Loved_Up2
     img 15771
     sound chpok6
     with hpunch
     m "Аааа!"
+
+
     img 15772
     with fade
     victoria "М-м-м... Как же мне нравится ваша киска, Миссис Бакфетт."
     victoria "Вы ее хорошо подготовили для меня. Вы хорошая подружка, Миссис Бакфетт..."
     # выходит из нее полностью, снова направляет дилдо в киску и опять грубо входит
     # у Моники снова гримаса боли, Виктория смотрит на нее и довольно улыбается
+
     img 15773
     with diss
     victoria "Тебе нравится чувствовать в себе мой подарок? Скажи, что тебе нравится!"
@@ -1729,10 +1822,12 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     with diss
     m "М-мне... Н-нравится чувствовать в себе... Это..."
     # Виктория снова выходит и входит, Моника ахает
-    music Loved_Up
+    music Loved_Up2
     img 15775
-    with fade
+    with hpunch
     m "Ай!"
+
+
     img 15776
     with diss
     victoria "Что именно тебе нравится, подружка Моника?"
@@ -1740,11 +1835,38 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     img 15777
     with fade
     m "М-мне... Н-нравится как ты... Делаешь это..."
+
     img 15778
     with diss
     victoria "Что 'ЭТО'?"
     victoria "Монике Бакфетт нравится, что я трахаю ее искусственным членом?"
 #    img 15779
+#=======================================
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    img black_screen
+    with diss
+    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Monica_Sex1_1.ogg"
+    scene black
+    image videov_Victoria_Monica_Sex1_1 = Movie(play="video/v_Victoria_Monica_Sex1_1.mkv", fps=30)
+    show videov_Victoria_Monica_Sex1_1
+    with fadelong
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #=======================
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    img black_screen
+    with diss
+    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Monica_Sex1_1.ogg"
+    scene black
+    image videov_Victoria_Monica_Sex1_2 = Movie(play="video/v_Victoria_Monica_Sex1_2.mkv", fps=30)
+    show videov_Victoria_Monica_Sex1_2
+    with fadelong
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #=======================
+
     music Power_Bots_Loop
     img 15780
     with fade
@@ -1754,7 +1876,49 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     # Виктория начинает двигаться туда-обратно, удерживая ноги Моники, смотрит на ее лицо
     # Мелани пьет вино и смотрит с каменным лицом на разыгрывающуюся перед ней сцену
     # Виктория поворачивается к Мелани и ухмыляется
-    music Loved_Up
+    music Loved_Up2
+    #========================
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    img black_screen
+    with diss
+    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Monica_Sex1_1.ogg"
+    scene black
+    image videov_Victoria_Monica_Sex1_3 = Movie(play="video/v_Victoria_Monica_Sex1_3.mkv", fps=30)
+    show videov_Victoria_Monica_Sex1_3
+    with fadelong
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #======================
+    #========================
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    img black_screen
+    with diss
+    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Monica_Sex1_1.ogg"
+    scene black
+    image videov_Victoria_Monica_Sex1_4 = Movie(play="video/v_Victoria_Monica_Sex1_4.mkv", fps=30)
+    show videov_Victoria_Monica_Sex1_4
+    with fadelong
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #======================
+
+
+    #========================
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    img black_screen
+    with diss
+    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Monica_Sex1_1.ogg"
+    scene black
+    image videov_Victoria_Monica_Sex1_5 = Movie(play="video/v_Victoria_Monica_Sex1_5.mkv", fps=30)
+    show videov_Victoria_Monica_Sex1_5
+    with fadelong
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #======================
+
     img 15781
     with diss
     victoria "Хотелось бы тебе оказаться на моем месте, подружка Мелани?"
@@ -1762,6 +1926,21 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     img 15782
     with fade
     melanie "..."
+
+    #========================
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    img black_screen
+    with diss
+    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Monica_Sex1_1.ogg"
+    scene black
+    image videov_Victoria_Monica_Sex1_6 = Movie(play="video/v_Victoria_Monica_Sex1_6.mkv", fps=30)
+    show videov_Victoria_Monica_Sex1_6
+    with fadelong
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #======================
+
     img 15783
     with diss
     victoria "Возможно, в следующий наш девичник... Я разрешу тебе побыть на моем месте, подружка..."
@@ -1774,10 +1953,39 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     # Виктория самодовольно улыбается, смотрит на Мелани, продолжая двигаться в Монике
     # потом поворачивается к Монике, ускоряет движения
     music Loved_up2
+    #========================
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    img black_screen
+    with diss
+    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Monica_Sex1_1.ogg"
+    scene black
+    image videov_Victoria_Monica_Sex1_7 = Movie(play="video/v_Victoria_Monica_Sex1_7.mkv", fps=30)
+    show videov_Victoria_Monica_Sex1_7
+    with fadelong
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #======================
+
     img 15785
     with diss
     victoria "М-м-м-м... Да-а-а!"
     victoria "Как же охренительно трахать саму Монику Бакфетт!"
+
+    #========================
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    img black_screen
+    with diss
+    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Monica_Sex1_1.ogg"
+    scene black
+    image videov_Victoria_Monica_Sex1_8 = Movie(play="video/v_Victoria_Monica_Sex1_8.mkv", fps=30)
+    show videov_Victoria_Monica_Sex1_8
+    with fadelong
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #======================
+
     img 15786
     with fade
     victoria "А-а-а-а"
