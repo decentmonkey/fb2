@@ -3703,6 +3703,7 @@ label dialogue_classmate_14:
     with diss
     sound highheels_short_walk
     $ monica_teacher_sex = True
+    $ monica_teacher_sex_day = day
     return
 
 # Город. Школьный двор. Моника, выйдя с колледжа.

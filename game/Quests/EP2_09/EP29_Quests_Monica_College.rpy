@@ -4,6 +4,7 @@ default monice_college_teacher_refused = False
 default monica_college_teacher_kicked1 = False # Моника ударила учителя (4 посещение)
 default monica_teacher_handjob = False
 default monica_teacher_sex = False
+default monica_teacher_sex_day = 0
 
 default ep29_quests_monica_college_inited = False
 default ep29_quests_monica_college_visit4_init_days_countdown = 3
