@@ -30,6 +30,7 @@ label basement_bedroom_table_init:
 label basement_bedroom_table_teleport:
     if obj_name == "Teleport_Bedroom_Back":
         $ sleepAfterEat = False
+        $ basementBedroomMonicaSleepGfx = False
         call change_scene("basement_bedroom2") from _call_change_scene_93
         return
     return

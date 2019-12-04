@@ -175,9 +175,10 @@ label ep29_quests_monica_college_visit4_init_bardie1:
     $ move_object("Betty", "empty")
     $ move_object("Ralph", "empty")
 
-    $ add_hook("Teleport_Basement_Side", "dialogue_classmate_1c", scene="basement_hole", label="monica_bardie_meeting_block")
-    $ add_hook("Teleport_Street", "dialogue_classmate_1c", scene="floor1", label="monica_bardie_meeting_block")
-    $ add_hook("Teleport_Kitchen", "dialogue_classmate_1c", scene="floor1", label="monica_bardie_meeting_block")
+    $ add_hook("BasementBed", "dialogue_classmate_1c", scene="basement_bedroom2", label="monica_bardie_eric_meeting_block")
+    $ add_hook("Teleport_Basement_Side", "dialogue_classmate_1c", scene="basement_hole", label="monica_bardie_eric_meeting_block")
+    $ add_hook("Teleport_Street", "dialogue_classmate_1c", scene="floor1", label="monica_bardie_eric_meeting_block")
+    $ add_hook("Teleport_Kitchen", "dialogue_classmate_1c", scene="floor1", label="monica_bardie_eric_meeting_block")
     $ add_hook("Teleport_BedroomBardie", "ep29_quests_monica_college_visit4_init_bardie2", scene="floor2", label="monica_bardie_visit4_init", priority = 100)
     $ ep29_quests_monica_college_visit4_block = True
     $ monicaLastCleaningOfferedDay = day

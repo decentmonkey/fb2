@@ -8,6 +8,7 @@ default monica_strip_forgiveness_money_left = 500
 default pubMakeupRoomGirlsRandomSuffix = False
 default ep29_quests_claire_talk_last_day = 0
 default ep29_quests_joe_catched_monica_claire = False
+default ep29_quests_monica_gave_money_forgivenes_last_day = 0
 label ep29_quests_pub1_dance_agree:
     # Моника согласилась отрабатывать танцами (из меню)
     call dialogue_5_dance_strip_1() # Моника мнется
@@ -122,6 +123,9 @@ label ep29_quests_pub1_day2_ashley:
     if act=="l":
         return
     call dialogue_5_dance_strip_6()
+    if _return == -1:
+        call refresh_scene_fade()
+        return False
     if _return == 1:
         $ ep29_quests_pub_forgiveness_dancing_quest_in_progress = False
         $ ep29_quests_pub_forgiveness_dancing_stage = 0
@@ -277,7 +281,9 @@ label ep29_quests_pub1_day2_ashley4: # Эшли забирает у Моники
         return
     if cloth_type != "StripOutfit":
         if pubDanceCount <= 3:
-            call dialogue_5_dance_strip_13()
+            if ep29_quests_monica_gave_money_forgivenes_last_day != day:
+                call dialogue_5_dance_strip_13()
+                $ ep29_quests_monica_gave_money_forgivenes_last_day = day
         else:
             # Монику прощают
             call dialogue_5_dance_strip_19()

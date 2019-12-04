@@ -26,6 +26,7 @@ label pub_dance1_stage_start1:
     $ stage_Monica_Excitement_Current = 0
     $ stage_Monica_Excitement_Last = 0
     $ stage_achievements_list = []
+    $ stage_Monica_last_zone = False
     python:
         excitementTableUp = [
             [3,5,9], #1 - бар от 0 до 27 - 4 бакса чаевых
