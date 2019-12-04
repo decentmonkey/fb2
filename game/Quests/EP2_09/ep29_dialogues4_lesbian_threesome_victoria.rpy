@@ -1904,20 +1904,20 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
     #======================
 
-
-    #========================
-    $ renpy.music.set_volume(0.5, 0.5, channel="music")
-    img black_screen
-    with diss
-    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Monica_Sex1_1.ogg"
-    scene black
-    image videov_Victoria_Monica_Sex1_5 = Movie(play="video/v_Victoria_Monica_Sex1_5.mkv", fps=30)
-    show videov_Victoria_Monica_Sex1_5
-    with fadelong
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-    #======================
+    if game.extra == True:
+        #========================
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        img black_screen
+        with diss
+        play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Monica_Sex1_1.ogg"
+        scene black
+        image videov_Victoria_Monica_Sex1_5 = Movie(play="video/v_Victoria_Monica_Sex1_5.mkv", fps=30)
+        show videov_Victoria_Monica_Sex1_5
+        with fadelong
+        wclean
+        stop music2
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+        #======================
 
     img 15781
     with diss
@@ -1953,19 +1953,20 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     # Виктория самодовольно улыбается, смотрит на Мелани, продолжая двигаться в Монике
     # потом поворачивается к Монике, ускоряет движения
     music Loved_up2
-    #========================
-    $ renpy.music.set_volume(0.5, 0.5, channel="music")
-    img black_screen
-    with diss
-    play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Monica_Sex1_1.ogg"
-    scene black
-    image videov_Victoria_Monica_Sex1_7 = Movie(play="video/v_Victoria_Monica_Sex1_7.mkv", fps=30)
-    show videov_Victoria_Monica_Sex1_7
-    with fadelong
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-    #======================
+    if game.extra == True:
+        #========================
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        img black_screen
+        with diss
+        play music2 "<from " + str(float(rand(1,7))*1.16666667) + " loop 0.0>Sounds/v_Victoria_Monica_Sex1_1.ogg"
+        scene black
+        image videov_Victoria_Monica_Sex1_7 = Movie(play="video/v_Victoria_Monica_Sex1_7.mkv", fps=30)
+        show videov_Victoria_Monica_Sex1_7
+        with fadelong
+        wclean
+        stop music2
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+        #======================
 
     img 15785
     with diss
