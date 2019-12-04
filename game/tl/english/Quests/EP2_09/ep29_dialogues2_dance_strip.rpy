@@ -725,7 +725,7 @@ translate english dialogue_5_dance_strip_3_34313109:
     # joe "Будет работать Клэр. Она тебе даст что-нибудь из одежды."
     joe "Well. You don't have to go on stage tonight."
     joe "I'll tell Ashley you're going to be working on your debt starting tomorrow."
-    joe "{c} Come tomorrow {/ c}"
+    joe "{c} Come tomorrow {/c}"
     joe "Claire will work. She'll give you some clothes."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:292
@@ -2328,7 +2328,7 @@ translate english dialogue_5_dance_strip_27_160fd8a0:
     molly "What do you want?"
     molly "I rest after the performance. Please do not disturb me." 
     mt "To answer her in the same tone means to go down to her level."
-    mt "I, Monica Buckett, will never stoop to the level of this boor."
+    mt "I, Monica Buckfett, will never stoop to the level of this boor."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1785
 translate english dialogue_5_dance_strip_28_6af8dd69:
@@ -2600,9 +2600,9 @@ translate english dialogue_5_dance_strip_1_e2a6610e:
     # ashley "Так что {c}приходи вечером!{/c}"
     # ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
     # ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
-    ashley "Так что {c}приходи вечером!{/c}"
-    ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
-    ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+    ashley "So come {c} in the evening! {/c}"
+    ashley "No dancing during the bright day! I don’t want to endure this loud music even during the day!"
+    ashley "I have enough of Joe's constant whining under my ear!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:35
 translate english dialogue_5_dance_strip_1_077b7f14:
@@ -2629,26 +2629,26 @@ translate english dialogue_5_dance_strip_2b_1929d956:
 
     # mt "Я не хочу разговаривать с этой хамкой. Она провоцирует меня."
     # mt "Я... боюсь не сдержаться и ударить ее..."
-    mt "Я не хочу разговаривать с этой хамкой. Она провоцирует меня."
-    mt "Я... боюсь не сдержаться и ударить ее..."
+    mt "I do not want to talk with this boorish. She provokes me."
+    mt "I'm ... afraid not to hold back and hit her ..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:258
 translate english dialogue_5_dance_strip_4na_6c45d44b:
 
     # mt "Мне нужно идти в гримерную комнату..."
-    mt "Мне нужно идти в гримерную комнату..."
+    mt "I need to go to the dressing room ..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:262
 translate english dialogue_5_dance_strip_4nb_7b2ae18d:
 
     # mt "Сначала мне надо поговорить с Эшли..."
-    mt "Сначала мне надо поговорить с Эшли..."
+    mt "First I need to talk to Ashley ..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:268
 translate english dialogue_5_dance_strip_4nc_944e8323:
 
     # mt "Мне надо придти завтра."
-    mt "Мне надо придти завтра."
+    mt "I have to come tomorrow."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:366
 translate english dialogue_5_dance_strip_4g_da19df8f:
@@ -2658,19 +2658,19 @@ translate english dialogue_5_dance_strip_4g_da19df8f:
     # help "У Моники мало опыта работы танцовщицей."
     mt "I'm not taking my vest off!"
     mt "I didn't want that bunch of losers staring at my beautiful breasts!!!"
-    help "У Моники мало опыта работы танцовщицей."
+    help "Monica has little experience as a dancer."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:370
 translate english dialogue_5_dance_strip_4g_16a4c179:
 
     # help "Окрыты не все движения. Требуется [monicaPosesOpenedToTopless]."
-    help "Окрыты не все движения. Требуется [monicaPosesOpenedToTopless]."
+    help "Not all movements are open. Requires [monicaPosesOpenedToTopless]."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:372
 translate english dialogue_5_dance_strip_4g_bab4df62:
 
     # help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
-    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+    help "Required to go on stage [monicaDanceAmountToTopless] times."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:393
 translate english dialogue_5_dance_strip_4k_3e11c48f:
@@ -2678,19 +2678,19 @@ translate english dialogue_5_dance_strip_4k_3e11c48f:
     # mt "Я не готова так позировать! Это уже слишком!"
     # help "У Моники мало опыта работы танцовщицей."
     mt "I'm not ready to pose like that! This is too much!"
-    help "У Моники мало опыта работы танцовщицей."
+    help "Monica has little experience as a dancer."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:396
 translate english dialogue_5_dance_strip_4k_bdec30fe:
 
     # help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
-    help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+    help "Not all movements are open. Requires [monicaPosesOpenedToStage2]."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:398
 translate english dialogue_5_dance_strip_4k_bab4df62:
 
     # help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
-    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+    help "Required to go on stage [monicaDanceAmountToTopless] times."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:423
 translate english dialogue_5_dance_strip_5a_e7cb2e33:
@@ -2842,7 +2842,7 @@ translate english dialogue_5_dance_strip_5ca_231aebe5:
     # customers2 "И это все?!"
     # customers2 "Детка, иди танцуй еще!"
     customers2 "And that's all?!"
-    customers2 "Детка, иди танцуй еще!"
+    customers2 "Baby go dance again!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:517
 translate english dialogue_5_dance_strip_5d_6dbbcf18:
@@ -3000,9 +3000,9 @@ translate english dialogue_5_dance_strip_7_71a7ecfe:
     # ashley "{c}Приходи вечером!{/c}"
     # ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
     # ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
-    ashley "{c}Приходи вечером!{/c}"
-    ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
-    ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+    ashley "{c} Come in the evening! {/c}"
+    ashley "No dancing during the bright day! I don’t want to endure this loud music even during the day!"
+    ashley "I have enough of Joe's constant whining under my ear!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:754
 translate english dialogue_5_dance_strip_8a_258bf020:
@@ -3120,9 +3120,9 @@ translate english dialogue_5_dance_strip_20_71a7ecfe:
     # ashley "{c}Приходи вечером!{/c}"
     # ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
     # ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
-    ashley "{c}Приходи вечером!{/c}"
-    ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
-    ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+    ashley "{c} Come in the evening! {/c}"
+    ashley "No dancing during the bright day! I don’t want to endure this loud music even during the day!"
+    ashley "I have enough of Joe's constant whining under my ear!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2039
 translate english dialogue_5_dance_strip_22_c0bfaf84:
@@ -3162,7 +3162,7 @@ translate english dialogue_5_dance_strip_24_6612a40f:
 translate english dialogue_5_dance_strip_25a_fd2a89c3:
 
     # mt "Что это еще такое? Она сидит с таким видом, будто она тут самая главная..."
-    mt "Что это еще такое? Она сидит с таким видом, будто она тут самая главная..."
+    mt "What else is this? She sits with the appearance that she is the most important here ..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2155
 translate english dialogue_5_dance_strip_27_434f0f74:
@@ -3177,8 +3177,8 @@ translate english dialogue_5_dance_strip_27_1929d956:
 
     # mt "Я не хочу разговаривать с этой хамкой. Она провоцирует меня."
     # mt "Я... боюсь не сдержаться и ударить ее..."
-    mt "Я не хочу разговаривать с этой хамкой. Она провоцирует меня."
-    mt "Я... боюсь не сдержаться и ударить ее..."
+    mt "I do not want to talk with this boorish. She provokes me."
+    mt "I'm ... afraid not to hold back and hit her ..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2161
 translate english dialogue_5_dance_strip_27_bf4ae831:
@@ -3186,7 +3186,7 @@ translate english dialogue_5_dance_strip_27_bf4ae831:
     # mt "Ответить ей в таком же тоне означает - опуститься до ее уровня."
     # mt "Я, Моника Бакфетт, никогда не опущусь до уровня этой хамки."
     mt "To answer her in the same tone means to go down to her level."
-    mt "I, Monica Buckett, will never stoop to the level of this boor."
+    mt "I, Monica Buckfett, will never stoop to the level of this boor."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2216
 translate english dialogue_5_dance_strip_29_e0e2893b:
@@ -3194,19 +3194,19 @@ translate english dialogue_5_dance_strip_29_e0e2893b:
     # m "Я не выйду на сцену с голой грудью!!!"
     # help "У Моники мало опыта работы танцовщицей."
     m "I'm not going on stage bare-chested!!!"
-    help "У Моники мало опыта работы танцовщицей."
+    help "Monica has little experience as a dancer."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2219
 translate english dialogue_5_dance_strip_29_bdec30fe:
 
     # help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
-    help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+    help "Not all movements are open. Requires [monicaPosesOpenedToStage2]."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2221
 translate english dialogue_5_dance_strip_29_bab4df62:
 
     # help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
-    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+    help "Required to go on stage [monicaDanceAmountToTopless] times."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2235
 translate english dialogue_5_dance_strip_29b_e0e2893b:
@@ -3214,35 +3214,35 @@ translate english dialogue_5_dance_strip_29b_e0e2893b:
     # m "Я не выйду на сцену с голой грудью!!!"
     # help "У Моники мало опыта работы танцовщицей."
     m "I'm not going on stage bare-chested!!!"
-    help "У Моники мало опыта работы танцовщицей."
+    help "Monica has little experience as a dancer."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2238
 translate english dialogue_5_dance_strip_29b_bdec30fe:
 
     # help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
-    help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+    help "Not all movements are open. Requires [monicaPosesOpenedToStage2]."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2240
 translate english dialogue_5_dance_strip_29b_bab4df62:
 
     # help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
-    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+    help "Required to go on stage [monicaDanceAmountToTopless] times."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2245
 translate english dialogue_5_dance_strip_29a_cf5e7835:
 
     # mt "Я не буду ходить по этому мерзкому заведению в таком виде!"
     # mt "Мне надо переодеться!"
-    mt "Я не буду ходить по этому мерзкому заведению в таком виде!"
+    mt "I will not go to this vile institution in this form!"
     mt "I have to change!"
 
 translate english strings:
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2049
     old "Уйти и не отдавать чаевые хозяевам бара. (в будущих обновлениях) (disabled)"
-    new "Уйти и не отдавать чаевые хозяевам бара. (в будущих обновлениях) (disabled)"
+    new "Leave and do not tip the owners of the bar. (in future updates) (disabled)"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2344
     old "Музыка: Последовательно"
-    new "Музыка: Последовательно"
+    new "Music: Consistently"
 

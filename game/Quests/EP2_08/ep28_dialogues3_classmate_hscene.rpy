@@ -3493,14 +3493,15 @@ label dialogue_classmate_14:
     with fadelong
     wclean
 
-    music stop
-    stop music
-    play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_Fingering1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-    scene black
-    image videov_Monica_Teacher_Fingering1_2 = Movie(play="video/v_Monica_Teacher_Fingering1_2.mkv", fps=30)
-    show videov_Monica_Teacher_Fingering1_2
-    with fadelong
-    wclean
+    if game.extra == True:
+        music stop
+        stop music
+        play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_Fingering1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+        scene black
+        image videov_Monica_Teacher_Fingering1_2 = Movie(play="video/v_Monica_Teacher_Fingering1_2.mkv", fps=30)
+        show videov_Monica_Teacher_Fingering1_2
+        with fadelong
+        wclean
 ######################################
 
     music Loved_Up
@@ -3565,14 +3566,15 @@ label dialogue_classmate_14:
     img 15368
     with fade
     mt "Черт! Черт!"
-    music stop
-    stop music
-    play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_3.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-    scene black
-    image videov_Monica_Teacher_Sex1_3 = Movie(play="video/v_Monica_Teacher_Sex1_3.mkv", fps=30)
-    show videov_Monica_Teacher_Sex1_3
-    with fadelong
-    wclean
+    if game.extra == True:
+        music stop
+        stop music
+        play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_3.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+        scene black
+        image videov_Monica_Teacher_Sex1_3 = Movie(play="video/v_Monica_Teacher_Sex1_3.mkv", fps=30)
+        show videov_Monica_Teacher_Sex1_3
+        with fadelong
+        wclean
     music stop
     stop music
     play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_5.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
@@ -3619,14 +3621,15 @@ label dialogue_classmate_14:
     show videov_Monica_Teacher_Sex1_2
     with fadelong
     wclean
-    music stop
-    stop music
-    play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_6.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-    scene black
-    image videov_Monica_Teacher_Sex1_6 = Movie(play="video/v_Monica_Teacher_Sex1_6.mkv", fps=30)
-    show videov_Monica_Teacher_Sex1_6
-    with fadelong
-    wclean
+    if game.extra == True:
+        music stop
+        stop music
+        play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_6.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+        scene black
+        image videov_Monica_Teacher_Sex1_6 = Movie(play="video/v_Monica_Teacher_Sex1_6.mkv", fps=30)
+        show videov_Monica_Teacher_Sex1_6
+        with fadelong
+        wclean
     # учитель ускоряется, Моника удивлена и испугана новыми ощущениями
     # в итоге сцены секса Моника не кончает, учитель кончит ей на ягодицы
     # Моника спешит одеться, ее бомбит, паника еще не прекратилась

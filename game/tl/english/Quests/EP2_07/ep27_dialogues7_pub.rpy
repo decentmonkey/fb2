@@ -2231,6 +2231,6 @@ translate english ep27_dialogues7_pub8_9363041f:
 
     # ashley "Ты отдашь эти $ 500 наличными."
     # ashley "А иначе убирайся отсюда!"
-    ashley "Ты отдашь эти $ 500 наличными."
+    ashley "You give this $ 500 in cash."
     ashley "Or you can get out of here!"
 

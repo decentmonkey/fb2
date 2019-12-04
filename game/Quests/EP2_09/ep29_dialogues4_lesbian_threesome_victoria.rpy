@@ -1766,14 +1766,26 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     img 15764
     with fade
     w
-    img 15765
-    with diss
-    sound vjuh3
+#    img 15765
+#    with diss
+#    sound vjuh3
+#    pause 0.5
+#    sound snd_slap1
+#    img 15766
+#    with hpunch
+    img v_Victoria_Monica_Spanking1_2_start
+    with fade
+    w
+    scene black
+    sound v_Victoria_Monica_Spanking1_2
+    image videov_Victoria_Monica_Spanking1_2 = Movie(play="video/v_Victoria_Monica_Spanking1_2.mkv", fps=30, loop=False, image="/images/Slides/v_Victoria_Monica_Spanking1_2_end.jpg")
+    show videov_Victoria_Monica_Spanking1_2
+#    sound2 vjuh4
     pause 0.5
-    sound snd_slap1
-    img 15766
-    with hpunch
+#    sound2 snd_slap1
     m "Ах!"
+    music Master_Disorder
+    wclean
     img 15767
     with diss
     w

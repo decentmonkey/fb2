@@ -516,7 +516,7 @@ translate german citizen4_show_boobs_first_time_097e8b2d:
     m "..."
     citizen4 "..."
     m "..."
-    citizen4 "50 $!"
+    citizen4 "50 $ !"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:447
 translate german citizen4_show_boobs_first_time_50ea7d20_1:
@@ -598,7 +598,7 @@ translate german citizen4_show_boobs_regular_time_c9325300:
 translate german citizen4_show_boobs_regular_time_fdfa89c4:
 
     # m "50$!"
-    m "50 $!"
+    m "50 $ !"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:521
 translate german citizen4_show_boobs_regular_time_45ccfdf5:

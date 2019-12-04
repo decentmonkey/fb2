@@ -2698,9 +2698,17 @@ translate german strings:
 
     # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:147
     old "РАНЕЕ В ЭТОТ ДЕНЬ..."
-    new "РАНЕЕ В ЭТОТ ДЕНЬ..."
+    new "FRÜHER AN DIESEM TAG..."
 
     # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:161
     old "СЕЙЧАС..."
-    new "СЕЙЧАС..."
+    new "JETZT..."
+
+# TODO: Translation updated at 2019-12-04 16:18
+
+# game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:1718
+translate german ep29_dialogues4_lesbian_threesome_victoria_1a_c790a3fe_5:
+
+    # melanie "Ах!"
+    melanie "Ah!"
 

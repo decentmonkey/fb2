@@ -535,24 +535,24 @@ translate german ep29_dialogues5_gun_monica_10b_cf2e5ee9:
 
     # help "Внимание! Все прочие события станут неактивными!"
     # help "Вы действительно хотите продолжить?"
-    help "Внимание! Все прочие события станут неактивными!"
-    help "Вы действительно хотите продолжить?"
+    help "Achtung! Alle anderen Events werden inaktiv!"
+    help "Sicher, dass du weitermachen willst?"
 
 translate german strings:
 
     # game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:70
     old "Убежать. (Пропуск квеста мести)"
-    new "Убежать. (Пропуск квеста мести)"
+    new "Lauf weg. (Überspringe das Rache-Quest)"
 
     # game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:315
     old "К черту этот дурацкий запертый ящик. Просто запихаю пробку подальше под кровать. (пропуск квеста мести)"
-    new "К черту этот дурацкий запертый ящик. Просто запихаю пробку подальше под кровать. (пропуск квеста мести)"
+    new "Zur Hölle mit dieser verdammten, verschlossenen Truhe. Aus den Augen, aus dem Sinn... (Überspringe das Rache-Quest)"
 
     # game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:315
     old "Надо поискать ключ еще раз..."
-    new "Надо поискать ключ еще раз..."
+    new "Schau nochmal nach dem Schlüssel..."
 
     # game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:423
     old "Взять пистолет."
-    new "Взять пистолет."
+    new "Nimm die Waffe."
 

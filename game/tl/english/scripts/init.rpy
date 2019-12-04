@@ -144,9 +144,9 @@ translate english strings:
 
     # game/scripts/init.rpy:407
     old "Королева Shiny Hole"
-    new "Королева Shiny Hole"
+    new "Queen of Shiny Hole"
 
     # game/scripts/init.rpy:408
     old "Стриптизерша в Shiny Hole"
-    new "Стриптизерша в Shiny Hole"
+    new "Stripper in Shiny Hole"
 

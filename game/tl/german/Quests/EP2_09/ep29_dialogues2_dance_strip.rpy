@@ -124,7 +124,7 @@ translate german dialogue_5_dance_strip_3_6ccf7229:
     joe "Ich sage Ashley, dass du ab morgen deine Schulden begleichen wirst."
     joe "{c}Komme morgen wieder{/c}."
     joe "Claire arbeitet, sie wird dir was geben."
-    mt "{cMorgen{/c} muss ich wieder in diese abartige Umkleide, wah!"
+    mt "{c}Morgen{/c} muss ich wieder in diese abartige Umkleide, wah!"
     mt "Ja, und dann muss ich noch mit der anderen Person klar kommen!"
     mt "!!!"
 
@@ -734,7 +734,7 @@ translate german dialogue_5_dance_strip_3_6d4c1d6c:
     # mt "{c}Завтра{/c} мне предстоит снова вернуться в эту ужасную гримерку, фи!"
     # mt "Да еще и придется знакомиться с еще одной хамкой!"
     # mt "!!!"
-    mt "{cMorgen{/c} muss ich wieder in diese abartige Umkleide, wah!"
+    mt "{c}Morgen{/c} muss ich wieder in diese abartige Umkleide, wah!"
     mt "Ja, und dann muss ich noch mit der anderen Person klar kommen!"
     mt "!!!"
 
@@ -912,7 +912,7 @@ translate german dialogue_5_dance_strip_6_76eaf365:
     # ashley "Тогда иди в гримерку и договаривайся с Клэр."
     # ashley "Или отдавай $ 500 и можешь не танцевать."
     ashley "Dann geh in die Umkleide und rede mit Claire."
-    ashley "Oder gib mir 500 $, dann musst du nicht tanzen."
+    ashley "Oder gib mir 500 $ , dann musst du nicht tanzen."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:486
 translate german dialogue_5_dance_strip_6_72c4389d:
@@ -930,7 +930,7 @@ translate german dialogue_5_dance_strip_6_28f51fc7:
 translate german dialogue_5_dance_strip_6_8c7e5ee7:
 
     # m "Вот $ 500..."
-    m "Da sind 500 $."
+    m "Da sind 500 $ ."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:500
 translate german dialogue_5_dance_strip_6_90d92dab:
@@ -1004,7 +1004,7 @@ translate german dialogue_5_dance_strip_7_28f51fc7:
 translate german dialogue_5_dance_strip_7_8c7e5ee7:
 
     # m "Вот $ 500..."
-    m "Da sind 500 $."
+    m "Da sind 500 $ ."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:562
 translate german dialogue_5_dance_strip_7_90d92dab:
@@ -1432,7 +1432,7 @@ translate german dialogue_5_dance_strip_8_loop1_c6e0871d:
     # clare "Давай, тебя там уже ждут!"
     # mt "Черт. Черт! Черт!!!"
     mt "Milliarden..."
-    mt "Но, думаю Клэр не умеет даже считать до стольки..."
+    mt "Aber ich glaube nicht, dass Claire überhaupt so weit zählen kann..."
     clare "Aber ich bezweifel, dass Claire überhaupt so weit zählen kann..."
     mt "Komm schon, sie warten auf dich!"
 
@@ -2600,9 +2600,9 @@ translate german dialogue_5_dance_strip_1_e2a6610e:
     # ashley "Так что {c}приходи вечером!{/c}"
     # ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
     # ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
-    ashley "Так что {c}приходи вечером!{/c}"
-    ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
-    ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+    ashley "Komm also {c}am Abend!{/c}"
+    ashley "Kein Tanzen am hellichten Tag! Ich will diese laute Musik nicht auch noch tagsüber hören!"
+    ashley "Ich habe genug von Joes Rumheulerei!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:35
 translate german dialogue_5_dance_strip_1_077b7f14:
@@ -2629,26 +2629,26 @@ translate german dialogue_5_dance_strip_2b_1929d956:
 
     # mt "Я не хочу разговаривать с этой хамкой. Она провоцирует меня."
     # mt "Я... боюсь не сдержаться и ударить ее..."
-    mt "Я не хочу разговаривать с этой хамкой. Она провоцирует меня."
-    mt "Я... боюсь не сдержаться и ударить ее..."
+    mt "Ich will mit dieser Schnalle nicht reden. Sie provoziert mich."
+    mt "Ich... fürchte, ich kann mich nicht zurück halten und könnte sie schlagen."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:258
 translate german dialogue_5_dance_strip_4na_6c45d44b:
 
     # mt "Мне нужно идти в гримерную комнату..."
-    mt "Мне нужно идти в гримерную комнату..."
+    mt "Ich muss in die Umkleide..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:262
 translate german dialogue_5_dance_strip_4nb_7b2ae18d:
 
     # mt "Сначала мне надо поговорить с Эшли..."
-    mt "Сначала мне надо поговорить с Эшли..."
+    mt "Erst muss ich mit Ashley sprechen..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:268
 translate german dialogue_5_dance_strip_4nc_944e8323:
 
     # mt "Мне надо придти завтра."
-    mt "Мне надо придти завтра."
+    mt "Ich muss morgen wieder kommen."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:366
 translate german dialogue_5_dance_strip_4g_da19df8f:
@@ -2658,19 +2658,19 @@ translate german dialogue_5_dance_strip_4g_da19df8f:
     # help "У Моники мало опыта работы танцовщицей."
     mt "Ich ziehe meine Weste nicht aus!"
     mt "Ich wollte nicht, dass diese Loser auf meine Brüste starren!!!"
-    help "У Моники мало опыта работы танцовщицей."
+    help "Monica hat wenig Erfahrung als Tänzerin."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:370
 translate german dialogue_5_dance_strip_4g_16a4c179:
 
     # help "Окрыты не все движения. Требуется [monicaPosesOpenedToTopless]."
-    help "Окрыты не все движения. Требуется [monicaPosesOpenedToTopless]."
+    help "Nicht alle Bewegungen sind verfügbar. Benötigt [monicaPosesOpenedToTopless]."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:372
 translate german dialogue_5_dance_strip_4g_bab4df62:
 
     # help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
-    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+    help "Benötigt, um auf die Bühne zu gehen [monicaDanceAmountToTopless] Mal."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:393
 translate german dialogue_5_dance_strip_4k_3e11c48f:
@@ -2678,19 +2678,19 @@ translate german dialogue_5_dance_strip_4k_3e11c48f:
     # mt "Я не готова так позировать! Это уже слишком!"
     # help "У Моники мало опыта работы танцовщицей."
     mt "Ich bin noch nicht bereit, so zu posieren! Für kein Geld der Welt!"
-    help "У Моники мало опыта работы танцовщицей."
+    help "Monica hat wenig Erfahrung als Tänzerin."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:396
 translate german dialogue_5_dance_strip_4k_bdec30fe:
 
     # help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
-    help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+    help "Nicht alle Bewegungen sind freigeschalten. Benötigt [monicaPosesOpenedToStage2]."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:398
 translate german dialogue_5_dance_strip_4k_bab4df62:
 
     # help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
-    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+    help "Benötigt, um auf die Bühne zu gehen [monicaDanceAmountToTopless] Mal."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:423
 translate german dialogue_5_dance_strip_5a_e7cb2e33:
@@ -2842,7 +2842,7 @@ translate german dialogue_5_dance_strip_5ca_231aebe5:
     # customers2 "И это все?!"
     # customers2 "Детка, иди танцуй еще!"
     customers2 "Das ist alles?!"
-    customers2 "Детка, иди танцуй еще!"
+    customers2 "Baby, tanz' nochmal!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:517
 translate german dialogue_5_dance_strip_5d_6dbbcf18:
@@ -3000,9 +3000,9 @@ translate german dialogue_5_dance_strip_7_71a7ecfe:
     # ashley "{c}Приходи вечером!{/c}"
     # ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
     # ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
-    ashley "{c}Приходи вечером!{/c}"
-    ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
-    ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+    ashley "{c}Komm Abends wieder!{/c}"
+    ashley "Kein Tanzen am hellichten Tag! Ich will diese laute Musik nicht auch noch tagsüber hören!"
+    ashley "Ich habe genug von Joes Rumheulerei!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:754
 translate german dialogue_5_dance_strip_8a_258bf020:
@@ -3120,9 +3120,9 @@ translate german dialogue_5_dance_strip_20_71a7ecfe:
     # ashley "{c}Приходи вечером!{/c}"
     # ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
     # ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
-    ashley "{c}Приходи вечером!{/c}"
-    ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
-    ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+    ashley "{c}Komm Abends wieder!{/c}"
+    ashley "Kein Tanzen am hellichten Tag! Ich will diese laute Musik nicht auch noch tagsüber hören!"
+    ashley "Ich habe genug von Joes Rumheulerei!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2039
 translate german dialogue_5_dance_strip_22_c0bfaf84:
@@ -3162,7 +3162,7 @@ translate german dialogue_5_dance_strip_24_6612a40f:
 translate german dialogue_5_dance_strip_25a_fd2a89c3:
 
     # mt "Что это еще такое? Она сидит с таким видом, будто она тут самая главная..."
-    mt "Что это еще такое? Она сидит с таким видом, будто она тут самая главная..."
+    mt "Was soll das? Sie sitzt so da, als wäre sie die Wichtigste hier..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2155
 translate german dialogue_5_dance_strip_27_434f0f74:
@@ -3177,8 +3177,8 @@ translate german dialogue_5_dance_strip_27_1929d956:
 
     # mt "Я не хочу разговаривать с этой хамкой. Она провоцирует меня."
     # mt "Я... боюсь не сдержаться и ударить ее..."
-    mt "Я не хочу разговаривать с этой хамкой. Она провоцирует меня."
-    mt "Я... боюсь не сдержаться и ударить ее..."
+    mt "Ich will mit dieser Schnalle nicht reden. Sie provoziert mich."
+    mt "Ich... fürchte, ich kann mich nicht zurück halten und könnte sie schlagen."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2161
 translate german dialogue_5_dance_strip_27_bf4ae831:
@@ -3194,19 +3194,19 @@ translate german dialogue_5_dance_strip_29_e0e2893b:
     # m "Я не выйду на сцену с голой грудью!!!"
     # help "У Моники мало опыта работы танцовщицей."
     m "Ich gehe nicht barbusig auf die Bühne!!!"
-    help "У Моники мало опыта работы танцовщицей."
+    help "Monica hat wenig Erfahrung als Tänzerin."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2219
 translate german dialogue_5_dance_strip_29_bdec30fe:
 
     # help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
-    help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+    help "Nicht alle Bewegungen sind freigeschalten. Benötigt [monicaPosesOpenedToStage2]."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2221
 translate german dialogue_5_dance_strip_29_bab4df62:
 
     # help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
-    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+    help "Benötigt, um auf die Bühne zu gehen [monicaDanceAmountToTopless] Mal."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2235
 translate german dialogue_5_dance_strip_29b_e0e2893b:
@@ -3214,35 +3214,35 @@ translate german dialogue_5_dance_strip_29b_e0e2893b:
     # m "Я не выйду на сцену с голой грудью!!!"
     # help "У Моники мало опыта работы танцовщицей."
     m "Ich gehe nicht barbusig auf die Bühne!!!"
-    help "У Моники мало опыта работы танцовщицей."
+    help "Monica hat wenig Erfahrung als Tänzerin."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2238
 translate german dialogue_5_dance_strip_29b_bdec30fe:
 
     # help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
-    help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+    help "Nicht alle Bewegungen sind freigeschalten. Benötigt [monicaPosesOpenedToStage2]."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2240
 translate german dialogue_5_dance_strip_29b_bab4df62:
 
     # help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
-    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+    help "Benötigt, um auf die Bühne zu gehen [monicaDanceAmountToTopless] Mal."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2245
 translate german dialogue_5_dance_strip_29a_cf5e7835:
 
     # mt "Я не буду ходить по этому мерзкому заведению в таком виде!"
     # mt "Мне надо переодеться!"
-    mt "Я не буду ходить по этому мерзкому заведению в таком виде!"
+    mt "Ich werde nicht in diesen Laden mit diesem Sachen gehen!"
     mt "Ich muss mich umziehen!"
 
 translate german strings:
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2049
     old "Уйти и не отдавать чаевые хозяевам бара. (в будущих обновлениях) (disabled)"
-    new "Уйти и не отдавать чаевые хозяевам бара. (в будущих обновлениях) (disabled)"
+    new "Gehe, um gib dem Besitzer der Bar kein Trinkgeld. (In kommenden Updates) (disabled)"
 
     # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2344
     old "Музыка: Последовательно"
-    new "Музыка: Последовательно"
+    new "Musik: Konsistent"
 

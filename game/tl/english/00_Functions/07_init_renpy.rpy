@@ -396,5 +396,5 @@ translate english strings:
 
     # game/00_Functions/07_init_renpy.rpy:161
     old "Зритель"
-    new "Зритель"
+    new "Viewer"
 

@@ -4,5 +4,5 @@
 translate english basement_laundry_washmachine_environment_35365c8e:
 
     # mt "Какие-то ключи..."
-    mt "Какие-то ключи..."
+    mt "Some keys ..."
 

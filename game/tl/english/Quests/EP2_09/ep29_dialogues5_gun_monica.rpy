@@ -154,7 +154,7 @@ translate english ep29_dialogues5_gun_monica_1_ae477439:
     # bardie "Гувернантка, мне надоел тот журнал с твоей фотографией на обложке."
     # bardie "Он стал весь испачканный и мою гувернантку Монику Бакфетт на фото теперь плохо видно."
     bardie "Governess, I’m tired of that magazine with your cover photo."
-    bardie "He became all soiled and my governess Monica Buckett in the photo is now hard to see."
+    bardie "He became all soiled and my governess Monica Buckfett in the photo is now hard to see."
 
 # game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:85
 translate english ep29_dialogues5_gun_monica_1_dffc179c:
@@ -535,24 +535,24 @@ translate english ep29_dialogues5_gun_monica_10b_cf2e5ee9:
 
     # help "Внимание! Все прочие события станут неактивными!"
     # help "Вы действительно хотите продолжить?"
-    help "Внимание! Все прочие события станут неактивными!"
-    help "Вы действительно хотите продолжить?"
+    help "Attention! All other events will become inactive!"
+    help "Are you sure you want to continue?"
 
 translate english strings:
 
     # game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:70
     old "Убежать. (Пропуск квеста мести)"
-    new "Убежать. (Пропуск квеста мести)"
+    new "Run away. (Skipping the quest for revenge)"
 
     # game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:315
     old "К черту этот дурацкий запертый ящик. Просто запихаю пробку подальше под кровать. (пропуск квеста мести)"
-    new "К черту этот дурацкий запертый ящик. Просто запихаю пробку подальше под кровать. (пропуск квеста мести)"
+    new "To hell with this stupid locked box. Just cram the cork further under the bed. (skipping the quest for revenge)"
 
     # game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:315
     old "Надо поискать ключ еще раз..."
-    new "Надо поискать ключ еще раз..."
+    new "We must look for the key again ..."
 
     # game/Quests/EP2_09/ep29_dialogues5_gun_monica.rpy:423
     old "Взять пистолет."
-    new "Взять пистолет."
+    new "Take the gun."
 

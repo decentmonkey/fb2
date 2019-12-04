@@ -4,5 +4,5 @@ translate english strings:
 
     # game/Rooms/Melanie/melanie_home.rpy:33
     old "В ГОРОД"
-    new "В ГОРОД"
+    new "IN TOWN"
 

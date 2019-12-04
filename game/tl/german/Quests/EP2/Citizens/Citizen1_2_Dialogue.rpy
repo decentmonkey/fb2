@@ -1016,7 +1016,7 @@ translate german cit1_2_grooping_first_ac2cc93e:
     # m "Сколько вы заплатите?"
     # m "Я хочу 100 долларов! И не меньше!"
     m "Wie viel zahlen Sie?"
-    m "Ich will 100 $. Nicht weniger."
+    m "Ich will 100 $ . Nicht weniger."
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:828
 translate german cit1_2_grooping_first_5df89dee:
@@ -1415,8 +1415,8 @@ translate german cit1_2_grooping_regular_fbd12921:
     # mt "10 Долларов... И я вынуждена идти на такое за какие-то 10 долларов?!"
     citizen1 "Nun, allgemein..."
     citizen1 "Wir schlagen ein bisschen deinen Arsch und zählen... Nur 5 Mal, nicht viel."
-    citizen1 "Aber bedenke, das ist wichtig für uns, wir geben dir 10 $!"
-    mt "10$... Ich soll das für schäbige 10 $ machen?"
+    citizen1 "Aber bedenke, das ist wichtig für uns, wir geben dir 10 $ !"
+    mt "10$ ... Ich soll das für schäbige 10 $ machen?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1033
 translate german cit1_2_grooping_regular_c8e6f74e:
@@ -1520,7 +1520,7 @@ translate german cit1_2_grooping_regular_1d5ed55c:
     # citizen1 "И у тебя есть 10 долларов!"
     citizen1 "Tante, du siehst nicht glücklich aus..."
     citizen1 "Du solltest aber glücklich sein! Jetzt kennst du unseren Rhythmus und kannst wieder mit uns spielen!"
-    citizen1 "Hier die 10 $!"
+    citizen1 "Hier die 10 $ !"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1080
 translate german cit1_2_grooping_regular_0bcd7f12:
@@ -1650,7 +1650,7 @@ translate german cit1_2_counting1_a0ef7e62:
     # citizen1 "Думаю, скоро ты это признаешь, а пока получай свои 10 долларов."
     citizen1 "Hahaha, Ich habe deinen Gesichtsausdruck gesehen. Offenbar leidest du nicht darunter."
     citizen1 "Hör auf, dich selbst an zu lügen."
-    citizen1 "Ich denke, dir wird das selbst bald klar, aber zwischenzeitlich, hier die 10 $!"
+    citizen1 "Ich denke, dir wird das selbst bald klar, aber zwischenzeitlich, hier die 10 $ !"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1140
 translate german cit1_2_counting1_aa6cfbb5:

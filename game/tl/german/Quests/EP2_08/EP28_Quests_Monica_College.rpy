@@ -30,5 +30,5 @@ translate german strings:
 
     # game/Quests/EP2_08/EP28_Quests_Monica_College.rpy:247
     old "Поговорить с Барди (он бывает в своей комнате вечером)"
-    new "Поговорить с Барди (он бывает в своей комнате вечером)"
+    new "Sprich mit Bardie (er ist Abends in seinem Zimmer)"
 

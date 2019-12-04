@@ -396,7 +396,7 @@ translate german cit8_naked_boobs_1st_e2d3665a:
 translate german cit8_naked_boobs_1st_fabbf05a:
 
     # m "1000 $!"
-    m "1000 $!"
+    m "1000 $ !"
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:360
 translate german cit8_naked_boobs_1st_5a56b64e:
@@ -940,7 +940,7 @@ translate german cit8_naked_boobs_dance_variant2_7c6c6e9d:
 translate german cit8_naked_boobs_dance_variant2_459bf370:
 
     # m "100 долларов."
-    m "100 $."
+    m "100 $ ."
 
 # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:816
 translate german cit8_naked_boobs_dance_variant2_555a2480:
@@ -1040,7 +1040,7 @@ translate german strings:
 
     # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:354
     old "1000 $!"
-    new "1000 $!"
+    new "1000 $ !"
 
     # game/Quests/EP2/Citizens/Citizen8_dialogue.rpy:354
     old "Ни на сколько!"

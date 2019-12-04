@@ -1274,7 +1274,7 @@ translate german cit13_groping_1st_aa54ced4:
 translate german cit13_groping_1st_c8b0a639:
 
     # citizen13 "Подруга...У меня у самого сейчас не так много денег. У меня только 5."
-    citizen13 "Freundin, ich habe selbst nicht viel, nur 5 $."
+    citizen13 "Freundin, ich habe selbst nicht viel, nur 5 $ ."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:953
 translate german cit13_groping_1st_d600d682:
@@ -1490,7 +1490,7 @@ translate german cit13_grooping_regular_e44e6b49:
     # mt "Он хочет, чтобы я обняла его крепко?! Он-никто и не достоин этого."
     # mt "Но мне нужны эти 5 долларов!"
     mt "Was?! Er hat es nicht verdient, mich so zu umarmen!"
-    mt "Aber ich brauche die 5 $!"
+    mt "Aber ich brauche die 5 $ !"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1074
 translate german cit13_grooping_regular_d9ea341c:
@@ -1604,7 +1604,7 @@ translate german cit13_grooping_regular_b70a1914:
     # citizen13 "Ну ладно, в следующий раз продолжим."
     # citizen13 "Вот твои 5 долларов."
     citizen13 "Gut, nächstes Mal machen wir weiter."
-    citizen13 "Hier sind deine 5$!"
+    citizen13 "Hier sind deine 5$ !"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1138
 translate german cit13_grooping_regular_e096378c:
@@ -1795,7 +1795,7 @@ translate german cit13_lipstick_event_30f366eb:
     # mt "Он не отличается умом... Может, я смогу его обмануть?"
     mt "Was?! Den Obdachlosen küssen? Auch wenn es nur die Wange ist..."
     mt "Das wird bald vorbei sein und ich werde nie wieder einen Fuß in diese Slums setzen..."
-    mt "Was soll ich tun? Er gibt mir 10 $, und ich brauch das Geld wirklich."
+    mt "Was soll ich tun? Er gibt mir 10 $ , und ich brauch das Geld wirklich."
     mt "Er ist nicht sehr schlau... Vielleicht kann ich ihn überlisten."
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1224

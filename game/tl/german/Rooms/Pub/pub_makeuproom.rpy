@@ -4,5 +4,5 @@ translate german strings:
 
     # game/Rooms/Pub/pub_makeuproom.rpy:37
     old "ВЫХОД ИЗ ГРИМЕРНОЙ КОМНАТЫ"
-    new "ВЫХОД ИЗ ГРИМЕРНОЙ КОМНАТЫ"
+    new "VERLASSE DIE ABSTELLKAMMER"
 

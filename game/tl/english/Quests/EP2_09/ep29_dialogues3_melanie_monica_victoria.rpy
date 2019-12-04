@@ -1721,16 +1721,16 @@ translate english ep29_dialogues3_melanie_monica_victoria_7d_4449ebaa:
 
     # mt "Ой, я заснула? Мне приснился странный сон."
     # mt "Впрочем, уже вечер. Мне нечего делать здесь."
-    mt "Ой, я заснула? Мне приснился странный сон."
-    mt "Впрочем, уже вечер. Мне нечего делать здесь."
+    mt "Oh, did I fall asleep? I had a strange dream."
+    mt "However, it is already evening. I have nothing to do here."
 
 # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:388
 translate english ep29_dialogues3_melanie_monica_victoria_1n2_a9c715e4:
 
     # melanie_t "Бифа сейчас нет."
     # melanie_t "И мне нечего делать здесь. Я не найду здесь ничего, кроме пустых бутылок из-под виски."
-    melanie_t "Бифа сейчас нет."
-    melanie_t "И мне нечего делать здесь. Я не найду здесь ничего, кроме пустых бутылок из-под виски."
+    melanie_t "There is no Biff here right now."
+    melanie_t "And I have nothing to do here. I will not find anything here except empty whiskey bottles."
 
 # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:435
 translate english ep29_dialogues3_melanie_monica_victoria_1u_9fcec30a:
@@ -1996,7 +1996,7 @@ translate english ep29_dialogues3_melanie_monica_victoria_3c0_0b0fe2b0:
 translate english ep29_dialogues3_melanie_monica_victoria_3d_315db138:
 
     # melanie_t "У меня нет желания общаться с этим... Боссом..."
-    melanie_t "У меня нет желания общаться с этим... Боссом..."
+    melanie_t "I have no desire to communicate with this ... Boss ..."
 
 # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:1124
 translate english ep29_dialogues3_melanie_monica_victoria_5a1_aeb17ffe:
@@ -2117,14 +2117,14 @@ translate english ep29_dialogues3_melanie_monica_victoria_6b_a285669a:
     # mt "!!!"
     # mt "Когда я верну себе все, что у меня отняли..."
     # mt "Эта сучка будет первой, кому я буду мстить!!!"
-    mt "ЧТО... ЭТО... БЫЛО?!"
+    mt "WHAT WAS IT?!"
     mt "!!!"
-    mt "Когда я верну себе все, что у меня отняли..."
-    mt "Эта сучка будет первой, кому я буду мстить!!!"
+    mt "When I get back everything that was taken from me ..."
+    mt "This bitch will be the first to whom I will avenge !!!"
 
 translate english strings:
 
     # game/Quests/EP2_09/ep29_dialogues3_melanie_monica_victoria.rpy:138
     old "Лечь спать (пропуск событий с Мелани)."
-    new "Лечь спать (пропуск событий с Мелани)."
+    new "Go to bed (skipping events with Melanie)."
 

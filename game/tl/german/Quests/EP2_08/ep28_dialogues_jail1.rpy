@@ -1274,13 +1274,13 @@ translate german ep28_dialogues_jail2_9d37a4a2:
     mt "Ich muss schlafen... ich muss einfach schlafen..."
     mt "Morgen wache ich auf und der Alptraum ist vorbei..."
     mt "..."
-    mt "Ich muss Bob rufen! Marcus muss mich jetzt sehen!"
+    mt "Diese Lampe... Sie hält mich vom schlafen ab..."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:788
 translate german ep28_dialogues_jail2_0cf3ebca:
 
     # mt "Мне надо позвать Боба! Мистер Маркус должен встретиться со мной!"
-    mt "Wo ist Marcus?"
+    mt "Ich muss Bob rufen! Marcus muss mich jetzt sehen!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:795
 translate german ep28_dialogues_jail2_6a013872:
@@ -1288,15 +1288,15 @@ translate german ep28_dialogues_jail2_6a013872:
     # overseer "Чего тебе?"
     # m "Где Мистер Маркус?"
     overseer "Was willst du?"
-    m "Marcus ist beschäftigt und hat kein Treffen angesetzt."
+    m "Wo ist Marcus?"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:798
 translate german ep28_dialogues_jail2_d09c0351:
 
     # overseer "Мистер Маркус занят и не распоряжался о встрече."
     # m "Боб, скажите ему, что я хочу встретиться с ним, пожалуйста!"
-    overseer "Bob, bitte sag ihm, dass ich ihn sehen will, bitte!"
-    m "Das geht mich nichts an! Obwohl, eigentlich glaube ich, dass Marcus morgen Zeit hat."
+    overseer "Marcus ist beschäftigt und hat noch kein Meeting angesetzt."
+    m "Bob, bitte sag ihm, dass ich ihn sehen will, bitte!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:805
 translate german ep28_dialogues_jail2_12323353:
@@ -1305,8 +1305,8 @@ translate german ep28_dialogues_jail2_12323353:
     # overseer "Я могу дать тебе поесть, если хочешь."
     # overseer "Либо не шуми больше!"
     # m "Да, Мистер Боб... Дайте, пожалуйста, мне поесть..."
-    overseer "Ich kann dir was zu essen bringen, wenn du willst."
-    overseer "Я могу дать тебе поесть, если хочешь."
+    overseer "Das geht mich nichts an! Obwohl, eigentlich glaube ich gehört zu haben, dass Marcus morgen Zeit hat."
+    overseer "Ich kann dir etwas zu Essen geben, wenn du willst."
     overseer "Aber mach keinen Krach mehr!"
     m "Ja, Bob... Bitte gib mir Essen..."
 
@@ -4068,13 +4068,13 @@ translate german ep28_dialogues_jail6_9d37a4a2:
     mt "Ich muss schlafen... ich muss einfach schlafen..."
     mt "Morgen wache ich auf und der Alptraum ist vorbei..."
     mt "..."
-    mt "Ich muss Bob rufen! Marcus muss mich jetzt sehen!"
+    mt "Diese Lampe... Sie hält mich vom schlafen ab..."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1173
 translate german ep28_dialogues_jail7_0cf3ebca:
 
     # mt "Мне надо позвать Боба! Мистер Маркус должен встретиться со мной!"
-    mt "Wo ist Marcus?"
+    mt "Ich muss Bob rufen! Marcus muss mich jetzt sehen!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1194
 translate german ep28_dialogues_jail8_6a013872:
@@ -4082,15 +4082,15 @@ translate german ep28_dialogues_jail8_6a013872:
     # overseer "Чего тебе?"
     # m "Где Мистер Маркус?"
     overseer "Was willst du?"
-    m "Marcus ist beschäftigt und hat kein Treffen angesetzt."
+    m "Wo ist Marcus?"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1198
 translate german ep28_dialogues_jail8_d09c0351:
 
     # overseer "Мистер Маркус занят и не распоряжался о встрече."
     # m "Боб, скажите ему, что я хочу встретиться с ним, пожалуйста!"
-    overseer "Bob, bitte sag ihm, dass ich ihn sehen will, bitte!"
-    m "Das geht mich nichts an! Obwohl, eigentlich glaube ich, dass Marcus morgen Zeit hat."
+    overseer "Marcus ist beschäftigt und hat noch kein Meeting angesetzt."
+    m "Bob, bitte sag ihm, dass ich ihn sehen will, bitte!"
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:1206
 translate german ep28_dialogues_jail8_12323353:
@@ -4099,8 +4099,8 @@ translate german ep28_dialogues_jail8_12323353:
     # overseer "Я могу дать тебе поесть, если хочешь."
     # overseer "Либо не шуми больше!"
     # m "Да, Мистер Боб... Дайте, пожалуйста, мне поесть..."
-    overseer "Ich kann dir was zu essen bringen, wenn du willst."
-    overseer "Я могу дать тебе поесть, если хочешь."
+    overseer "Das geht mich nichts an! Obwohl, eigentlich glaube ich gehört zu haben, dass Marcus morgen Zeit hat."
+    overseer "Ich kann dir etwas zu Essen geben, wenn du willst."
     overseer "Aber mach keinen Krach mehr!"
     m "Ja, Bob... Bitte gib mir Essen..."
 

@@ -4,5 +4,5 @@ translate german strings:
 
     # game/Characters/Pub/Claire.rpy:4
     old "Клэр относится к Монике с симпатией. Она ее друг."
-    new "Клэр относится к Монике с симпатией. Она ее друг."
+    new "Claire ist Monica sympathisch. Sie ist ihre Freundin."
 

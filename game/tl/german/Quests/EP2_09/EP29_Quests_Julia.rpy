@@ -4,9 +4,9 @@ translate german strings:
 
     # game/Quests/EP2_09/EP29_Quests_Julia.rpy:65
     old "Узнать как продвигается выполнение задания."
-    new "Узнать как продвигается выполнение задания."
+    new "Finde raus, wie der Job weiter geht."
 
     # game/Quests/EP2_09/EP29_Quests_Julia.rpy:65
     old "Собрать отчет."
-    new "Собрать отчет."
+    new "Sammle die Berichte ein."
 

@@ -2800,9 +2800,9 @@ translate english ep29_dialogues1_julia_8a_faa2d349:
     # mt "Я поручила это дело своим сотрудникам."
     # mt "Такими глупостями должны заниматься подчиненные, а не такой важный Босс, как Я!"
     # mt "Мне надо подождать новостей от них!"
-    mt "Я поручила это дело своим сотрудникам."
-    mt "Такими глупостями должны заниматься подчиненные, а не такой важный Босс, как Я!"
-    mt "Мне надо подождать новостей от них!"
+    mt "I entrusted this work to my employees."
+    mt "Such nonsense should be dealt with by subordinates, and not by such an important Boss as me!"
+    mt "I need to wait for news from them!"
 
 # game/Quests/EP2_09/ep29_dialogues1_julia.rpy:1109
 translate english ep29_dialogues1_julia_8b_cce7afef:

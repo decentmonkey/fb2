@@ -1681,7 +1681,7 @@ translate english ep29_dialogues4_lesbian_threesome_victoria_1a_764c033e:
     # mt "Я не собираюсь целовать тощую задницу этой мелкой стервы!"
     # mt "!!!"
     # m "Я хорошая подружка, но я не буду делать этого!!!"
-    mt "Not! Me, Monica Buckett! I am a lady!"
+    mt "Not! Me, Monica Buckfett! I am a lady!"
     mt "I'm not going to kiss the skinny ass of this petty bitch!"
     mt "!!!"
     m "I am a good girlfriend, but I will not do that !!!"
@@ -1922,7 +1922,7 @@ translate english ep29_dialogues4_lesbian_threesome_victoria_1a_8a3ad332:
     # mt "!!!"
     # m "Я хорошая подружка, но я не буду делать этого!!!"
     mt "It all went too far!"
-    mt "I, Monica Buckett, are not going to play by her rules!"
+    mt "I, Monica Buckfett, are not going to play by her rules!"
     mt "!!!"
     m "I am a good girlfriend, but I will not do that !!!"
 
@@ -2698,9 +2698,17 @@ translate english strings:
 
     # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:147
     old "РАНЕЕ В ЭТОТ ДЕНЬ..."
-    new "РАНЕЕ В ЭТОТ ДЕНЬ..."
+    new "EARLIER THIS DAY ..."
 
     # game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:161
     old "СЕЙЧАС..."
-    new "СЕЙЧАС..."
+    new "NOW..."
+
+# TODO: Translation updated at 2019-12-04 16:19
+
+# game/Quests/EP2_09/ep29_dialogues4_lesbian_threesome_victoria.rpy:1718
+translate english ep29_dialogues4_lesbian_threesome_victoria_1a_c790a3fe_5:
+
+    # melanie "Ах!"
+    melanie "Ah!"
 

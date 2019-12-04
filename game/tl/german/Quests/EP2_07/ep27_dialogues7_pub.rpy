@@ -488,7 +488,7 @@ translate german ep27_dialogues7_pub8_1c4b13f9:
     # ashley "Я не верю тебе, [monica_pub_name]!"
     # ashley "Чаевых было как минимум $ 500, раз ты решила не отдавать их."
     ashley "Ich glaube dir nicht!"
-    ashley "Das waren bestimmt 500 $, die du eingesteckt hast!"
+    ashley "Das waren bestimmt 500 $ , die du eingesteckt hast!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:420
 translate german ep27_dialogues7_pub8_80434e83:
@@ -532,7 +532,7 @@ translate german ep27_dialogues7_pub8_28f51fc7:
 translate german ep27_dialogues7_pub8_8c7e5ee7:
 
     # m "Вот $ 500..."
-    m "Da sind 500 $."
+    m "Da sind 500 $ ."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:456
 translate german ep27_dialogues7_pub8_90d92dab:
@@ -2231,6 +2231,6 @@ translate german ep27_dialogues7_pub8_9363041f:
 
     # ashley "Ты отдашь эти $ 500 наличными."
     # ashley "А иначе убирайся отсюда!"
-    ashley "Ты отдашь эти $ 500 наличными."
+    ashley "Gib diese 500 $ in Bar."
     ashley "Ansonsten hier raus!"
 

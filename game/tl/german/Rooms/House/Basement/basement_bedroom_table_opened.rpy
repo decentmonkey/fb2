@@ -4,5 +4,5 @@
 translate german basement_bedroom_table_opened_environment_6b73f0cc:
 
     # mt "Это... Пистолет???"
-    mt "Это... Пистолет???"
+    mt "Das ist ... eine Waffe???"
 
