@@ -29,16 +29,26 @@ label pub_dance1_stage_start1:
     $ stage_Monica_last_zone = False
     python:
         excitementTableUp = [
-            [3,5,9], #1 - бар от 0 до 27 - 4 бакса чаевых
-            [5,4,9], #2
-            [9,4,5], #3
-            [5,9,7], #4 - бар от 27 до 54 - 7 баксов чаевых
-            [9,3,6], #5
-            [6,7,9], #6
+            [7,5,5], #1 - бар от 0 до 27 - 4 бакса чаевых
+            [5,4,6], #2
+            [5,5,7], #3 6 + 7 + 7 = до 20, 5 +4 +5 = от 14
+            [8,7,11], #4 - бар от 27 до 54 - 7 баксов чаевых
+            [12,8,9], #5
+            [7,8,12], #6 от 18 до 30
 
             [10,9,15], #7 - бар от 54 до 69 - 11 баксов чаевых
-            [9,8,15], #8 - бар от 69 до 84 - 20 баксов
-            [15,10,9], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,15], #8 - бар от 69 до 84 - 20 баксов
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            # от 29 до 45
+            # итого: от 61 до
+
+            # Общее:
+            # stage 1 - до 20
+            # stage 2 - до 35 + 20 = 55
+            # stage 3 - 55 + 45 = 100
+
+            # максимум давать 20 баксов, т.е, 66
+            #
         ]
         excitementTableDown = [
             [2,2,2], #1
@@ -634,53 +644,3 @@ label pub_dance_stage_flash:
     pause 0.7
     hide screen photoshot_screen
     return
-
-transform coin_appear1:
-    on show:
-        alpha 0
-        linear .25 alpha 1.0
-    on hide:
-        linear .5 alpha 0.0
-
-transform coin_appear2:
-    pause 0.1
-    on show:
-        alpha 0
-        linear .25 alpha 1.0
-    on hide:
-        linear .5 alpha 0.0
-transform coin_appear3:
-    pause 0.2
-    on show:
-        alpha 0
-        linear .25 alpha 1.0
-    on hide:
-        linear .5 alpha 0.0
-transform coin_appear4:
-    pause 0.3
-    on show:
-        alpha 0
-        linear .25 alpha 1.0
-    on hide:
-        linear .5 alpha 0.0
-transform coin_appear5:
-    pause 0.4
-    on show:
-        alpha 0
-        linear .25 alpha 1.0
-    on hide:
-        linear .5 alpha 0.0
-transform coin_appear6:
-    pause 0.5
-    on show:
-        alpha 0
-        linear .25 alpha 1.0
-    on hide:
-        linear .5 alpha 0.0
-transform coin_appear7:
-    pause 0.6
-    on show:
-        alpha 0
-        linear .25 alpha 1.0
-    on hide:
-        linear .5 alpha 0.0

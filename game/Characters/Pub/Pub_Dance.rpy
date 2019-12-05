@@ -112,10 +112,10 @@ label pub_dance1: # Обычные танцы
 
     call pub_dance1_stage_start1()
 #    m "Танцы"
-    if pubDanceCount == 1:
-        $ monica_strip_tips_today = 0
-    if pubDanceCount > 1:
-        $ monica_strip_tips_today = rand(5,30)
+#    if pubDanceCount == 1:
+#        $ monica_strip_tips_today = 0
+#    if pubDanceCount > 1:
+#        $ monica_strip_tips_today = rand(5,30)
         # dialogue_5_dance_strip_11!!!
     $ move_object("Pub_StripteaseGirl2", "empty")
     $ move_object("Pub_StripteaseGirl1", "empty")

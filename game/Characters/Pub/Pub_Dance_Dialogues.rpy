@@ -160,19 +160,19 @@ label pub_dance_dialogues_excitement_tips():
 #    $ kupury = [1,2,5,10,20,50]
     $ kupury = [20,10,5,2,1]
     if stage_Monica_Excitement_Current <= 27:
-        $ moneyTips1 = rand(7,9)
+        $ moneyTips1 = rand(2,4)
     else:
         if stage_Monica_Excitement_Current <= 54:
-            $ moneyTips1 = rand(13,15)
+            $ moneyTips1 = rand(4,6)
         else:
             if stage_Monica_Excitement_Current <= 69:
-                $ moneyTips1 = rand(20,22)
+                $ moneyTips1 = rand(6,8)
             else:
                 if stage_Monica_Excitement_Current <= 84:
-                    $ moneyTips1 = rand(35,45)
+                    $ moneyTips1 = rand(11,17)
                 else:
                     if stage_Monica_Excitement_Current <= 100:
-                        $ moneyTips1 = rand(80, 100)
+                        $ moneyTips1 = rand(27, 40)
 
     python:
         kupury_out = []
@@ -190,6 +190,7 @@ label pub_dance_dialogues_excitement_tips():
         shuffle(kupury_out)
         for kupura in kupury_out:
             money += kupura
+            monica_strip_tips_today += kupura
     if money < 9:
         sound2 fx_coins_b3
     else:

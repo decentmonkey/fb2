@@ -144,7 +144,7 @@ translate german strings:
 
     # game/scripts/init.rpy:407
     old "Королева Shiny Hole"
-    new "Königin des Shiny Hole"
+    new "Koenigin des Shiny Hole"
 
     # game/scripts/init.rpy:408
     old "Стриптизерша в Shiny Hole"
