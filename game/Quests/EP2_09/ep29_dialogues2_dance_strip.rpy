@@ -1480,7 +1480,7 @@ label dialogue_5_dance_strip_16:
     menu:
         "Взять у Клэр масло и намазаться самой.":
             pass
-        "Позволить Клэр намазать меня маслом." if game.extra == True and cloth == "StripOutfit1":
+        "Позволить Клэр намазать меня маслом." if game.extra == True or cloth == "StripOutfit1":
             # Клэр намазывает ее маслом
             if topless == True:
                 $ monicaClaireOilingToplessCount += 1
