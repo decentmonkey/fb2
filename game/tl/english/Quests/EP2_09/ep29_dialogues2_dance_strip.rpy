@@ -3246,3 +3246,29 @@ translate english strings:
     old "Музыка: Последовательно"
     new "Music: Consistently"
 
+# TODO: Translation updated at 2019-12-05 12:59
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:608
+translate english dialogue_5_dance_strip_6_b957ef04:
+
+    # ashley "А, ты пришла?"
+    # ashley "Я уже думала, ты не вернешься..."
+    ashley "Oh, you came?"
+    ashley "I thought you weren't coming back..."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:611
+translate english dialogue_5_dance_strip_6_71a7ecfe:
+
+    # ashley "{c}Приходи вечером!{/c}"
+    # ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
+    # ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+    ashley "{c} Come in the evening! {/c}"
+    ashley "No dancing during the bright day! I don’t want to endure this loud music even during the day!"
+    ashley "I have enough of Joe's constant whining under my ear!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:617
+translate english dialogue_5_dance_strip_6_b833e5d7:
+
+    # ashley "В прошлый раз я так и не увидела эту попку на сцене голой..." 
+    ashley "Last time I didn't see that ass on stage naked..." 
+

@@ -3246,3 +3246,29 @@ translate german strings:
     old "Музыка: Последовательно"
     new "Musik: Konsistent"
 
+# TODO: Translation updated at 2019-12-05 12:58
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:608
+translate german dialogue_5_dance_strip_6_b957ef04:
+
+    # ashley "А, ты пришла?"
+    # ashley "Я уже думала, ты не вернешься..."
+    ashley "Oh, du bist da?"
+    ashley "Ich dachte, du kommst nicht mehr..."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:611
+translate german dialogue_5_dance_strip_6_71a7ecfe:
+
+    # ashley "{c}Приходи вечером!{/c}"
+    # ashley "Днем танцев нет! Я не хочу терпеть эту громкую музыку еще и днем!"
+    # ashley "Мне и так хватает постоянного нытья Джо у меня под ухом!"
+    ashley "{c}Komm Abends wieder!{/c}"
+    ashley "Kein Tanzen am hellichten Tag! Ich will diese laute Musik nicht auch noch tagsüber hören!"
+    ashley "Ich habe genug von Joes Rumheulerei!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:617
+translate german dialogue_5_dance_strip_6_b833e5d7:
+
+    # ashley "В прошлый раз я так и не увидела эту попку на сцене голой..." 
+    ashley "Ich habe letztes Mal deinen Arsch nicht nackt auf der Bühne gesehen..." 
+
