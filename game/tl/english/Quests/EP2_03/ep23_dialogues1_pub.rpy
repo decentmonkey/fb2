@@ -950,3 +950,23 @@ translate english strings:
     old "Моника часто мыла посуду."
     new "Monica washed dishes often."
 
+# TODO: Translation updated at 2019-12-06 16:36
+
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:748
+translate english ep23_dialogues1_7_6d543bf5:
+
+    # m "Меня зовут..."
+    m "My name is..."
+
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:754
+translate english ep23_dialogues1_7_e034d52a:
+
+    # m "Меня зовут... [monica_pub_name]..."
+    m "My name is... [monica_pub_name]..."
+
+translate english strings:
+
+    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:423
+    old "Меня зовут..."
+    new "My name is..."
+

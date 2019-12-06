@@ -950,3 +950,23 @@ translate german strings:
     old "Моника часто мыла посуду."
     new "Monica hat das Geschirr oft gespült."
 
+# TODO: Translation updated at 2019-12-06 16:37
+
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:748
+translate german ep23_dialogues1_7_6d543bf5:
+
+    # m "Меня зовут..."
+    m "Mein Name ist..."
+
+# game/Quests/EP2_03/ep23_dialogues1_pub.rpy:754
+translate german ep23_dialogues1_7_e034d52a:
+
+    # m "Меня зовут... [monica_pub_name]..."
+    m "Mein Name ist... [monica_pub_name]..."
+
+translate german strings:
+
+    # game/Quests/EP2_03/ep23_dialogues1_pub.rpy:423
+    old "Меня зовут..."
+    new "Mein Name ist..."
+

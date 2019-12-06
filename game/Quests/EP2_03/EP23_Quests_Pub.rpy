@@ -111,6 +111,10 @@ label ep23_quests_pub5_dishes: # Моника моет посуду
     if _return == 5: #Танцевать на сцене
         call pub_dance_start()
         return False
+    if _return == 6:
+        call ep23_dialogues1_7()
+        call refresh_scene_fade()
+        return False
 
     return False
 

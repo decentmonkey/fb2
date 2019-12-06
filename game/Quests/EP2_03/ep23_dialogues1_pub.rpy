@@ -431,6 +431,8 @@ label ep23_dialogues1_4a:
             return 1
         "Заказать еду.":
             return 2
+        "Меня зовут...": # сменить имя
+            return 6
         "Уйти.":
             return False
 
@@ -741,7 +743,15 @@ label ep23_dialogues1_6b:
     mt "Хотя пирожные, пожалуй, повкуснее, чем помои в этой блестящей дыре!"
     return
 
+label ep23_dialogues1_7: # Смена имени
 
-
+    m "Меня зовут..."
+    if renpy.android == True:
+        call screen input_softkeyboard
+        $ monica_pub_name = _return
+    else:
+        $ monica_pub_name = renpy.input(__("Меня зовут... (enter для ввода)"), monica_pub_name)
+    m "Меня зовут... [monica_pub_name]..."
+    return
 
     #
