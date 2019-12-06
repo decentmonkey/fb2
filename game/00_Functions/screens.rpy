@@ -864,7 +864,7 @@ screen hud_minimap(minimapData):
             minimap_pos_x = gui.resolution.hud_screen.minimap_x_pos_owner
             minimap_pos_y = gui.resolution.hud_screen.minimap_y_pos_owner
 
-    if miniMapTurnedOff == False:
+    if miniMapTurnedOff2 == False:
         fixed:
             if len(minimapData) > 0:
                 pos (int(minimap_pos_x * gui.resolution.koeff), int(minimap_pos_y * gui.resolution.koeff))

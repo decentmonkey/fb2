@@ -177,14 +177,14 @@ label ep29_quests_melanie_control1_init:
             "Teleport_Melanie_Home" : {"text" : _("АПАРТАМЕНТЫ МЕЛАНИ"), "xpos" : 1726, "ypos" : 791, "base" : "map_marker", "state" : "visible", "owner":"Melanie"}
     }
     $ hudDaySkipToEveningEnabled = False
-    $ miniMapTurnedOff = True # выключаем minimap
+    $ miniMapTurnedOff2 = True # выключаем minimap
     call change_scene("monica_office_makeup_room", "Fade_long", False)
 #    $ add_hook("Melanie", "ep29_dialogues3_melanie_monica_victoria_1f"
     return
 
 label ep29_quests_melanie_control1_uninit:
     $ set_var("Monica", actions="l", scene="working_office_cabinet")
-    $ miniMapTurnedOff = False
+    $ miniMapTurnedOff2 = False
     $ hudDaySkipToEveningEnabled = True
     call change_owner("Monica")
     $ restore_scene(stored_scene)

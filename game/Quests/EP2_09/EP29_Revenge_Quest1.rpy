@@ -85,6 +85,8 @@ label ep29_revenge_quest1_laundry_boxes:
         call ep29_dialogues5_gun_monica_9()
         $ remove_hook()
         return
+    $ set_active("Box5", False, scene="basement_laundry")
+    $ set_active("Box6", False, scene="basement_laundry")
     if obj_name == "Box2" or obj_name == "Box4" or obj_name == "Box6":
         call ep29_dialogues5_gun_monica_9b()
     if obj_name == "Box3" or obj_name == "Box5":
