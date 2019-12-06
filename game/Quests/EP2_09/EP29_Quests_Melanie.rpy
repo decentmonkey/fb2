@@ -79,6 +79,8 @@ label ep29_quests_melanie_monica_come_melanie: # Моника приходит �
     $ cloth_type = "WorkingOutfit"
     call process_change_map_location("Monica_Office")
     $ mapTeleportForcedCarSound = True
+    $ set_active(True, teleport=True, scene="working_office") # Включаем телепорты # костыль!
+
     call ep29_quests_melanie_control1_init()
     $ money = 125000.0
     $ add_objective("go_to_victoria", _("Пойти в офис Дика и узнать, что нужно Виктории"), c_blue, 105)
@@ -258,6 +260,7 @@ label ep29_quests_melanie_home1_chair: # старт сцены с Виктори
     # переключаем Монику назад
     $ mapTeleportForcedCarSound = False
     call ep29_quests_melanie_control1_uninit()
+    $ set_active(True, teleport=True, scene="working_office") # Включаем телепорты # костыль!
     call process_change_map_location("House")
     music stop
     img black_screen
