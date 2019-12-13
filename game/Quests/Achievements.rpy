@@ -1209,7 +1209,7 @@ init python:
             achLabel = achievements_labels[str]
             if persistent.achievements.has_key(achLabel) == False:
                 persistent.achievements[achLabel] = True
-                renpy.save_persistent()
+#                renpy.save_persistent()
                 print "Achievement reached!"
             return True
         return False
