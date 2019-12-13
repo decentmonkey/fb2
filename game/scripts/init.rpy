@@ -91,7 +91,7 @@ define monicaTipsPunishmentAshleyScene1KissingCorruption = 250 # дать Эшл
 define monicaTipsPunishmentAshleyScene2PussyTouchigCorruption = 270 # дать Эшли потрогать свою киску
 define monicaTipsPunishmentAshleyScene3AssToAssCorruption = 300 # тереться с Эшли задницами :)
 
-define bettyCleaningProgessAmount = 20 #5 #Прогресс с Бетти за уборку
+define bettyCleaningProgessAmount = 25 #5 #Прогресс с Бетти за уборку
 define bettyCleaningProgessAmountLevel3 = 10 # Прогресс с Бетти за уборку после lvl 3
 define bettyFitnessProgressAmount = 50 #Прогресс с Бетти за посещение фитнесса
 #define bettyFitnessProgressAmount = 10 #Прогресс с Бетти за посещение фитнесса
@@ -124,7 +124,7 @@ define photoshot1AlexProgressPervertAmount = 10 # Прогресс у Алекс
 
 define monicaKebabWorkFlyersAmount = 5 # Количество флаеров, которые надо раздать Монике
 define monicaKebabWorkFlyersAmountRandomDiff = 1 #Рандом, в котором будет делаться отклонение от monicaKebabWorkFlyersAmount
-define monicaKebabWorkCorruptionAddingPerDay = 1 # Кол-во corruption, которые добавляются при разноске кебабов
+define monicaKebabWorkCorruptionAddingPerDay = 4 # Кол-во corruption, которые добавляются при разноске кебабов
 
 define monicaThiefCorruptionAmount = 1 # Кол-во corruption, увеличивается при воровстве еды на заправке
 
@@ -288,12 +288,12 @@ define monicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired = 110  # Ко�
 define monicaWhoringClothNakedBoobsShakeCorruptionRequired = 110  # Кол-во corruption, чтобы Моника показала голые сиськи и потрясла ими
 define monicaWhoringNakedBoobsDanceCitizen6BottleCorruptionRequired = 200 # событие с citizen6
 
-define monicaWhoringClothBoobsCorruptionProgress = 1 # Кол-во corruption, которые даются за показ груди в одежде
-define monicaWhoringClothBoobsTongueCorruptionProgress = 1 #Кол-во corruption, которые даются за показ груди в одежде, высунув язык
-define monicaWhoringClothAssCorruptionProgress = 1 #Кол-во corruption, которые даются за пока зада в одежде
-define monicaWhoringClothPylonDanceCorruptionProgress = 1 #Кол-во corruption, которые даются за танец у пилона в одежде
-define monicaWhoringClothNakedBoobsCorruptionProgress = 2 #Кол-во corruption, которые даются за голые сиськи
-define monicaWhoringClothNakedBoobsDanceCorruptionProgress = 2 #Кол-во corruption, которые даются за танец с голыми сиськами
+define monicaWhoringClothBoobsCorruptionProgress = 2 # Кол-во corruption, которые даются за показ груди в одежде
+define monicaWhoringClothBoobsTongueCorruptionProgress = 2 #Кол-во corruption, которые даются за показ груди в одежде, высунув язык
+define monicaWhoringClothAssCorruptionProgress = 2 #Кол-во corruption, которые даются за пока зада в одежде
+define monicaWhoringClothPylonDanceCorruptionProgress = 2 #Кол-во corruption, которые даются за танец у пилона в одежде
+define monicaWhoringClothNakedBoobsCorruptionProgress = 4 #Кол-во corruption, которые даются за голые сиськи
+define monicaWhoringClothNakedBoobsDanceCorruptionProgress = 5 #Кол-во corruption, которые даются за танец с голыми сиськами
 
 define monicaWhoringClothBoobsOrButtMoney = 0.25 # Моника показала грудь в одежде, либо зад в одежде (что-то одно)
 define monicaWhoringClothBoobsAndButtMoney = 0.50 # Моника показала грудь в одежде и зад в одежде (и то и то)
@@ -310,7 +310,7 @@ define monicaVictoriaLickAssBeginProgress = 10 # Кол-во прогресса 
 define monicaVictoriaPunishmentAssLickProgress = 10 # Кол-во прогресса за наказание лизанием зада
 define monicaVictoriaEarnedWeeklyMoneyProgress = 5 # Кол-во прогресса за зарабатывание денег за неделю
 
-define monicaBettyPantiesCorruption = 1 #Кол-во corruption за надевание трусиков Бетти
+define monicaBettyPantiesCorruption = 4 #Кол-во corruption за надевание трусиков Бетти
 
 define monicaFitnessLookAtGirlsCorruption = 1 #Кол-во corruption за подглядывание во время фитнеса
 
