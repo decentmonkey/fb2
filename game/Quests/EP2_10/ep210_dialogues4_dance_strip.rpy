@@ -415,7 +415,7 @@ label ep210_dialogues4_dance_strip_5:
     mt "..."
     menu:
         "Взять помаду и испортить фото рыжей сучки.":
-            $ monicaMollyfoto = True # Моника разрисовала портрет Молли
+            $ monicaMollyFoto = True # Моника разрисовала портрет Молли
             pass
         "Не делать этого.":
             mt "Идея хорошая, но..."
