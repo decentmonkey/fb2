@@ -16,6 +16,8 @@ default pubVisitor10Suffix = ""
 default pubVisitor11Suffix = ""
 default pubVisitor12Suffix = ""
 
+default pubLocationInitializedForced = False
+
 label pub:
     $ print "enter_pub"
     $ miniMapData = []
@@ -32,6 +34,12 @@ label pub:
 
     if get_active_objects(scene="pub", group="visitors") != False:
         music2 pub_noise1
+
+    if pubLocationInitializedForced == False and monica_pub_name == False:
+        $ add_hook("enter_scene", "ep23_quests_pub1", scene="pub")
+        $ set_active("Pub_Washbasin", False, scene="pub")
+        $ pubLocationInitializedForced = True
+
 
     return
 label pub_init:
