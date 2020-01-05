@@ -121,6 +121,10 @@ label question_clothing_shop_sell_dress:
     help "Этот клиент, в итоге, должен купить его."
     return
 
+label question_steve_ask_ralph:
+    help "Спросить у Ральфа по поводу Стива."
+    return
+
 label questLog_init:
     $ questLogData = [
     [55, _("Барди совсем обнаглел и заставляет меня быть мамой для своего одноклассника. Такого же неудачника как он сам!"), True, _("Барди")],
