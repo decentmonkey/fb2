@@ -1,3 +1,5 @@
+default customer9_dance_comment_stage = 0
+
 label customer9_1stmeeting:
     music Hidden_Agenda
     sound highheels_short_walk
@@ -71,7 +73,44 @@ label customer9_serve1:
     sound highheels_short_walk
     img 14411
     with fadelong
-    m "Добрый день, что будете заказывать?"
+
+    # комментарий насчет танцев
+    if monicaStartedStripDanceFlag == True and customer9_dance_comment_stage == 1:
+        customer9 "Эй, не могу дождаться, когда ты покажешь свою голую попку со сцены!"
+        m "Вы меня с кем-то..."
+        customer9 "Я хочу, чтобы ты сняла с себя трусики на сцене и бросила их мне..."
+        customer9 "Я хочу забрать их..."
+        customer9 "Я готов заплатить за это. Сколько? Назови цену."
+        mt "?!"
+        m "Я не танцую на..."
+        customer9 "Не хочешь говорить? Хорошо, я буду ждать этого момента."
+        customer9 "А потом просто заберу их..."
+        mt "..."
+        mt "Человек, озабоченный чужими трусами!"
+        mt "Кого только не встретишь в этой дыре!"
+        mt "!!!"
+
+
+    if monicaStartedStripDanceFlag == True and customer9_dance_comment_stage == 0:
+        customer9 "У меня в штанах дымится, когда вижу тебя на сцене!"
+        m "!!!"
+        m "Вы меня с кем-то путаете. Я не танцую на сцене."
+        customer9 "Расскажи это кому-нибудь другому."
+        m "Я официантка, а не стрип..."
+        customer9 "Охренительная задница!!!"
+        customer9 "Не могу дождаться, когда ты ее оголишь на сцене перед всеми!"
+        m "Я..."
+        customer9 "А еще хочу увидеть, как ты танцуешь только для меня..."
+        mt "Долбанный извращенец!"
+        mt "По-моему, здесь все такие!"
+        mt "!!!"
+        mt "Как мне надоела эта дыра!"
+        $ customer9_dance_comment_stage = 1
+
+    #
+
+
+    m "Что будете заказывать?"
     # чел резко хватает монику и садит себе на колени
     music Groove2_85
     sound Jump1

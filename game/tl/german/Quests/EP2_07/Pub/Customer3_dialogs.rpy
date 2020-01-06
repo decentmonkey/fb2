@@ -326,3 +326,109 @@ translate german strings:
     old "Я что, похожа на стриптизершу?"
     new "Sehe ich aus wie eine Stripperin?"
 
+# TODO: Translation updated at 2019-11-23 13:31
+
+# game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:83
+translate german customer3_serve1_fdeaed02:
+
+    # customer3 "Так что? Надумала насчет моего предложения?"
+    # m "Какого предложения? Вы что-то хотели заказать?"
+    # customer3 "Тебя хочу. Сколько будет стоит?"
+    # mt "Моника, спокойно. Просто очередной пьяница. Их тут целый паб."
+    # m "Я работаю официанткой и меня нельзя заказать."
+    # customer3 "А если я тебе щедро заплачу?"
+    # mt "Отдашь всю свою зарплату за год? Думаю, даже этого будет недостаточно."
+    # mt "Таким неудачникам, как ты, можно только мечтать обо мне."
+    # mt "И не только неудачникам... Вообще всем!"
+    # m "Вы меня с кем-то путаете."
+    # customer3 "Я спрошу у Джо..."
+    # mt "!!!"
+    customer3 "Und? Hast du über mein Angebot nachgedacht?"
+    m "Welches Angebot? Willst du was bestellen?"
+    customer3 "Ich will dich. Wieviel kostet mich das?"
+    mt "Monica, ruhig. Nur ein weiterer Betrunkener. Der ganze Laden ist voll davon."
+    m "Ich arbeite als Bedienung und kann nicht bestellt werden."
+    customer3 "Und was, wenn ich dich großzügig bezahle?"
+    mt "Du müsstest mir schon mein Jahresgehalt geben. Und selbst das wäre nicht genug."
+    mt "Solche Loser wie du können nur von mir träumen."
+    mt "Und nicht nur Loser, eigentlich... Jeder!"
+    m "Du verwechselst mich mit wem Anderen."
+    customer3 "Ich rede mal mit Joe..."
+    mt "!!!"
+
+# game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:97
+translate german customer3_serve1_ced29abb:
+
+    # customer3 "Я думал, ты уже не официанткой здесь работаешь... "
+    # customer3 "Твоя задница со сцены смотрится отлично."
+    # m "Вы меня с кем-то путаете."
+    # m "Я просто официантка..."
+    # customer3 "Я хорошо запоминаю задницы. И твою я отлично помню."
+    # customer3 "Сколько стоит приват? Я заплачу."
+    # m "Я не танцую здесь на сцене. Тем более, не танцую при..."
+    # customer3 "Окей. Можешь дальше врать, мне все равно."
+    # customer3 "Как надумаешь насчет приват танца, знаешь, где меня найти."
+    # mt "!!!"
+    # mt "Он что о себе возомнил?!"
+    # mt "Всего лишь очередной неудачик, который спускает все свои деньги на шлюх и пиво!"
+    customer3 "Ich dachte, du arbeitest hier nicht mehr als Bedienung..."
+    customer3 "Dein Arsch sieht auf der Bühne geil aus."
+    m "Du verwechselst mich mit wem Anderen."
+    m "Ich bin nur eine Bedienung..."
+    customer3 "Ich erinnere mich gut an Ärsche. Und deinen erkenne ich ganz besonders."
+    customer3 "Wieviel kostet eine Private? Ich zahle!"
+    m "Ich tanze hier nicht auf der Bühne, und ich tanze nicht, wenn..."
+    customer3 "Ok, lüg ruhig weiter, ist mit egal."
+    customer3 "Wenn du deine Meinung änderst, weißt du ja, wo du mich findest."
+    mt "!!!"
+    mt "Denkt er an sich selbst?"
+    mt "Nur noch ein Bastard der all sein Geld für Bier und Nutten ausgibt!"
+
+# game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:239
+translate german customer3_serve2_6d3e1c0c:
+
+    # customer3 "А, это ты?"
+    # customer3 "Пойдем в приват?"
+    # m "Я не танцую. Тем более, приват!"
+    # customer3 "А если я тебе щедро заплачу?"
+    # mt "Таким неудачникам, как ты, можно только мечтать обо мне."
+    # mt "И не только неудачникам... Вообще всем!"
+    # m "Вы меня с кем-то путаете."
+    # customer3 "Я спрошу у Джо..."
+    # mt "!!!"
+    customer3 "Das bist du?"
+    customer3 "Machst auch Private?"
+    m "Ich tanze nicht! Erst Recht keine Privattänze!"
+    customer3 "Und was, wenn ich dich großzügig bezahle?"
+    mt "Solche Loser wie du können nur von mir träumen."
+    mt "Und nicht nur Loser, eigentlich... Jeder!"
+    m "Du verwechselst mich mit wem Anderen."
+    customer3 "Ich rede mal mit Joe..."
+    mt "!!!"
+
+# game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:250
+translate german customer3_serve2_d47a5186:
+
+    # customer3 "Твоя задница со сцены смотрится отлично."
+    # m "Вы меня с кем-то путаете."
+    # m "Я просто официантка..."
+    # customer3 "Я хорошо запоминаю задницы. И твою я отлично помню."
+    # m "Я не танцую здесь на сцене."
+    # customer3 "Можешь дальше врать, мне все равно."
+    # mt "!!!"
+    # mt "Он что о себе возомнил?!"
+    customer3 "Dein Arsch sieht auf der Bühne geil aus."
+    m "Du verwechselst mich mit wem Anderen."
+    m "Ich bin nur eine Bedienung..."
+    customer3 "Ich erinnere mich gut an Ärsche. Und deinen erkenne ich ganz besonders."
+    m "Ich tanze hier nicht auf der Bühne."
+    customer3 "Ok, lüg ruhig weiter, ist mit egal."
+    mt "!!!"
+    mt "Denkt er an sich selbst?"
+
+# game/Quests/EP2_07/Pub/Customer3_dialogs.rpy:262
+translate german customer3_serve2_2a76d528:
+
+    # m "Вам что-нибудь принести?"
+    m "Was möchstest du?"
+

@@ -3,7 +3,7 @@ default street_house_outside_monica_suffix_str = ""
 label street_house_outside:
     $ print "enter_street_house_outside"
     $ miniMapData = []
-    if miniMapTurnedOff == False:
+    if miniMapTurnedOff2 == False:
         call miniMapHouseGenerate() from _call_miniMapHouseGenerate_20
 
     $ sceneIsStreet = True

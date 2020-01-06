@@ -62,3 +62,11 @@ translate german strings:
     old "College"
     new "College"
 
+# TODO: Translation updated at 2019-12-03 00:21
+
+translate german strings:
+
+    # game/Quests/Achievements.rpy:2
+    old "Strip Dance"
+    new "Strip Dance"
+

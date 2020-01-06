@@ -39,6 +39,18 @@ label basement_laundry_init:
 
     return
 
+label basement_laundry_init2:
+    $ add_object_to_scene("Box2", {"type":2, "base":"Basement_Laundry1_Box2", "click" : "basement_laundry_environment", "actions" : "l", "zorder" : 0, "group":"laundry_boxes", "active":True}, scene="basement_laundry")
+    $ add_object_to_scene("Box3", {"type":2, "base":"Basement_Laundry1_Box3", "click" : "basement_laundry_environment", "actions" : "l", "zorder" : 0, "group":"laundry_boxes", "active":True}, scene="basement_laundry")
+    $ add_object_to_scene("Box4", {"type":2, "base":"Basement_Laundry1_Box4", "click" : "basement_laundry_environment", "actions" : "l", "zorder" : 0, "group":"laundry_boxes", "active":True}, scene="basement_laundry")
+    $ add_object_to_scene("Box5", {"type":2, "base":"Basement_Laundry1_Box5", "click" : "basement_laundry_environment", "actions" : "l", "zorder" : 0, "group":"laundry_boxes", "active":True}, scene="basement_laundry")
+    $ add_object_to_scene("Box6", {"type":2, "base":"Basement_Laundry1_Box6", "click" : "basement_laundry_environment", "actions" : "l", "zorder" : 0, "group":"laundry_boxes", "active":True}, scene="basement_laundry")
+    $ add_object_to_scene("IronDesk", {"type":2, "base":"Basement_Laundry1_IronDesk", "click" : "basement_laundry_environment", "actions" : "l", "zorder" : 0, "active":False}, scene="basement_laundry")
+
+    $ add_object_to_scene("WashMachine", {"type":2, "base":"Basement_Laundry1_WashMachine", "click" : "basement_laundry_environment", "actions" : "lw", "zorder" : 0, "group":"laundry_boxes", "active":False}, scene="basement_laundry")
+
+    return
+
 label basement_laundry_teleport:
     if obj_name == "Teleport_Basement_Pool":
         call change_scene("basement_pool") from _call_change_scene_153

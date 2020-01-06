@@ -88,10 +88,12 @@ screen show_image_screen_image(image_name):
             img1 = im.Data(image_binary, image_name)
 
         fixed:
-            add img1 at convert_resolution_transform
+#            add img1 at convert_resolution_transform
+            add img1
     else:
         fixed:
-            add image_name at convert_resolution_transform
+#            add image_name at convert_resolution_transform
+            add image_name
 
 screen show_image_screen(image_name):
     layer "master"
@@ -239,7 +241,8 @@ screen screen_sprites(data):
                                 $ overlayName = data[i]["img" + day_time_suffix + "_overlay"] if data[i]["img" + day_time_suffix + "_overlay"] != False else data[i]["img" + "_overlay"] if data[i]["img" + "_overlay"] != False else False
                                 if pass_num == 1:
                                     if overlayName != False:
-                                        add overlayName at convert_resolution_transform:
+#                                        add overlayName at convert_resolution_transform:
+                                        add overlayName:
                                             if overlay_canvas_offset != False:
                                                 xpos overlay_canvas_offset[1]
                                                 ypos overlay_canvas_offset[0]
@@ -337,7 +340,8 @@ screen screen_sprites(data):
                                 $ if spriteStr == False and maskStr == False and overlayName == False: disableSprite = True
                                 if pass_num == 1:
                                     if overlayName != False:
-                                        add overlayName at convert_resolution_transform:
+#                                        add overlayName at convert_resolution_transform:
+                                        add overlayName:
                                             if overlay_canvas_offset != False:
                                                 xpos overlay_canvas_offset[1]
                                                 ypos overlay_canvas_offset[0]
@@ -860,88 +864,89 @@ screen hud_minimap(minimapData):
             minimap_pos_x = gui.resolution.hud_screen.minimap_x_pos_owner
             minimap_pos_y = gui.resolution.hud_screen.minimap_y_pos_owner
 
-    fixed:
-        if len(minimapData) > 0:
-            pos (int(minimap_pos_x * gui.resolution.koeff), int(minimap_pos_y * gui.resolution.koeff))
-            if miniMapOpened == False:
-                button:
-                    yanchor 0.0
-                    xanchor 0.5
-                    xysize (int(196 * gui.resolution.koeff), int(110 * gui.resolution.koeff))
-                    padding (0,0)
-                    action [
-                        Call("miniMapOpen")
-                    ]
-#                        imgName = get_image_filename(miniMapOpenButtonImg + res.suffix)
-                    add get_image_filename(miniMapOpenButtonImg + res.suffix)
-                    text "":
-                        xanchor 0.5
-                        xpos 0.465
-                        ypos 0.5
-                        style "minimap_open_button_text"
-#                    action Call("miniMapOpen")
-            else:
-                vbox:
+    if miniMapTurnedOff2 == False:
+        fixed:
+            if len(minimapData) > 0:
+                pos (int(minimap_pos_x * gui.resolution.koeff), int(minimap_pos_y * gui.resolution.koeff))
+                if miniMapOpened == False:
                     button:
                         yanchor 0.0
                         xanchor 0.5
                         xysize (int(196 * gui.resolution.koeff), int(110 * gui.resolution.koeff))
                         padding (0,0)
-                        add get_image_filename(miniMapOpenButtonImg2 + res.suffix)
+                        action [
+                            Call("miniMapOpen")
+                        ]
+    #                        imgName = get_image_filename(miniMapOpenButtonImg + res.suffix)
+                        add get_image_filename(miniMapOpenButtonImg + res.suffix)
                         text "":
                             xanchor 0.5
                             xpos 0.465
                             ypos 0.5
                             style "minimap_open_button_text"
-                        action [
-                            Call("miniMapClose")
-                        ]
-                    null:
-                        height 10
-                    for minimapCell in minimapData:
-#                       $ print minimapCell
-                        $ locationDisabledFlag = False
-                        if len(miniMapEnabledOnly) > 0:
-                            if minimapCell["name"] in miniMapEnabledOnly:
-                                $ locationDisabledFlag = False
-                            else:
-                                $ locationDisabledFlag = True
-#                        if minimapCell["name"] in miniMapDisabled:
-#                            $ locationDisabledFlag = True
-                        $ minimapCheckMapScene = map_scene
-                        if map_scene == "Hostel2" or map_scene == "Cloth_Shop":
-                            $ minimapCheckMapScene = "Street_Corner"
-                        if miniMapDisabled.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled[minimapCheckMapScene]:
-                            $ locationDisabledFlag = True
-                        if (cloth == "CasualDress1" or cloth == "SchoolOutfit1") and miniMapDisabled2.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled2[minimapCheckMapScene]:
-                            $ locationDisabledFlag = True
+    #                    action Call("miniMapOpen")
+                else:
+                    vbox:
                         button:
                             yanchor 0.0
                             xanchor 0.5
                             xysize (int(196 * gui.resolution.koeff), int(110 * gui.resolution.koeff))
                             padding (0,0)
-                            if locationDisabledFlag == False:
-                                add get_image_filename(minimapCell["img"] + res.suffix)
-                            else:
-                                add get_image_filename(minimapCell["img"] + "_Disabled" + res.suffix)
-                            text minimapCell["caption"]:
-                                ypos 0.5
+                            add get_image_filename(miniMapOpenButtonImg2 + res.suffix)
+                            text "":
                                 xanchor 0.5
                                 xpos 0.465
-                                style "minimap_button_text"
-                            if locationDisabledFlag == False:
-                                action [
-                                    Call("miniMapHouseGenerateTeleport", minimapCell["name"], minimapCell)
-#                                   Return(False)
-                                ]
-                            else:
-                                action [
-                                    Call("miniMapDisabled", minimapCell["name"], minimapCell)
-                                ]
-#                    hovered tt.Action("This is City 1")
+                                ypos 0.5
+                                style "minimap_open_button_text"
+                            action [
+                                Call("miniMapClose")
+                            ]
                         null:
                             height 10
-#        pos renpy.get_mouse_pos()
+                        for minimapCell in minimapData:
+    #                       $ print minimapCell
+                            $ locationDisabledFlag = False
+                            if len(miniMapEnabledOnly) > 0:
+                                if minimapCell["name"] in miniMapEnabledOnly:
+                                    $ locationDisabledFlag = False
+                                else:
+                                    $ locationDisabledFlag = True
+    #                        if minimapCell["name"] in miniMapDisabled:
+    #                            $ locationDisabledFlag = True
+                            $ minimapCheckMapScene = map_scene
+                            if map_scene == "Hostel2" or map_scene == "Cloth_Shop":
+                                $ minimapCheckMapScene = "Street_Corner"
+                            if miniMapDisabled.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled[minimapCheckMapScene]:
+                                $ locationDisabledFlag = True
+                            if (cloth == "CasualDress1" or cloth == "SchoolOutfit1") and miniMapDisabled2.has_key(minimapCheckMapScene) and minimapCell["name"] in miniMapDisabled2[minimapCheckMapScene]:
+                                $ locationDisabledFlag = True
+                            button:
+                                yanchor 0.0
+                                xanchor 0.5
+                                xysize (int(196 * gui.resolution.koeff), int(110 * gui.resolution.koeff))
+                                padding (0,0)
+                                if locationDisabledFlag == False:
+                                    add get_image_filename(minimapCell["img"] + res.suffix)
+                                else:
+                                    add get_image_filename(minimapCell["img"] + "_Disabled" + res.suffix)
+                                text minimapCell["caption"]:
+                                    ypos 0.5
+                                    xanchor 0.5
+                                    xpos 0.465
+                                    style "minimap_button_text"
+                                if locationDisabledFlag == False:
+                                    action [
+                                        Call("miniMapHouseGenerateTeleport", minimapCell["name"], minimapCell)
+    #                                   Return(False)
+                                    ]
+                                else:
+                                    action [
+                                        Call("miniMapDisabled", minimapCell["name"], minimapCell)
+                                    ]
+    #                    hovered tt.Action("This is City 1")
+                            null:
+                                height 10
+    #        pos renpy.get_mouse_pos()
 
 screen hud_screen(hud_presets):
     layer "master"

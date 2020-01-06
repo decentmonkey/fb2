@@ -238,7 +238,7 @@ translate english ep28_dialogues_jail2_marcus1_8e8b80d9:
 translate english ep28_dialogues_jail2_marcus1_921c735f:
 
     # marcus "Итак, Миссис Бакфетт. О чем Вы хотели со мной поговорить?"
-    marcus "So, Mrs. Buckfett. What dо you want to talk to me about?"
+    marcus "So, Mrs. Buckfett. What did you want to talk to me about?"
 
 # game/Quests/EP2_08/ep28_dialogues_jail2_marcus.rpy:124
 translate english ep28_dialogues_jail2_marcus1_c9ed115f:

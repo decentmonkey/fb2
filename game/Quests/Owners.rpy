@@ -26,6 +26,18 @@ label change_owner_default:
         $ minimap_coords_preset = 1
         call define_hudpresets() from _call_define_hudpresets_3
 
+    if new_owner == "Melanie":
+        $ showObjectsNotOwner = False
+        $ faceHudImage = "Face_Melanie_HUD"
+        $ hud_preset_current = "melanie"
+        $ hud_preset_default = "melanie"
+        $ minimap_coords_preset = 1
+        $ melanie_control_active = True
+        call define_hudpresets()
+    else:
+        $ melanie_control_active = False
+
+
     if new_owner == "Monica":
         $ showObjectsNotOwner = True
         $ faceHudImage = False

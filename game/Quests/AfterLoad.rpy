@@ -5,4 +5,7 @@ label process_afterload:
         call ep26_quests_biff1() from _call_ep26_quests_biff1_1
 
     call ep28_quests() from _call_ep28_quests
+    call ep29_quests_init()
+    call ep29_revenge_quest1_init()
+    call monica_cheats_init()
     return

@@ -1,3 +1,5 @@
+default customer10_dance_comment_stage = 0
+
 label customer10_1stmeeting:
     music Hidden_Agenda
     sound highheels_short_walk
@@ -91,7 +93,35 @@ label customer10_serve1:
     sound highheels_short_walk
     img 14359
     with fadelong
-    m "Привет! Вам что-нибудь принести?"
+
+
+    # комментарий насчет танцев
+    if monicaStartedStripDanceFlag == True and customer10_dance_comment_stage == 1:
+        customer10 "Новенькая, ты мне сказала, что не танцуешь..."
+        m "Не танцую."
+        customer10 "Я тебя видел на сцене..."
+        m "Вы меня перепутали с кем-то..."
+        customer10 "Это врядли. По-моему, ты меня обманываешь."
+        m "Нет. Я здесь работаю официанткой."
+        customer10 "Я спрошу у Джо насчет тебя..."
+        mt "!!!"
+
+
+    if monicaStartedStripDanceFlag == True and customer10_dance_comment_stage == 0:
+        customer10 "А, новенькая, это ты..."
+        customer10 "Сколько за приват берешь?"
+        m "!!!"
+        m "Я не танцую ни на сцене, ни в привате."
+        customer10 "Разве? Хммм..."
+        m "Да..."
+        mt "Как мне надоели все эти неудачники!"
+        mt "!!!"
+        $ customer10_dance_comment_stage = 1
+
+    #
+
+
+    m "Вам что-нибудь принести?"
     img 14368
     with diss
     customer10 "Да, новенькая! Как ты помнишь, я тут постоянный клиент."

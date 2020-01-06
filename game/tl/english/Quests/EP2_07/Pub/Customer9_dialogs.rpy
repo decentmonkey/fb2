@@ -208,3 +208,71 @@ translate english strings:
     old "Да, я была хорошей девочкой."
     new "Yes, I was a good girl."
 
+# TODO: Translation updated at 2019-11-23 13:27
+
+# game/Quests/EP2_07/Pub/Customer9_dialogs.rpy:79
+translate english customer9_serve1_68699670:
+
+    # customer9 "Эй, не могу дождаться, когда ты покажешь свою голую попку со сцены!"
+    # m "Вы меня с кем-то..."
+    # customer9 "Я хочу, чтобы ты сняла с себя трусики на сцене и бросила их мне..."
+    # customer9 "Я хочу забрать их..."
+    # customer9 "Я готов заплатить за это. Сколько? Назови цену."
+    # mt "?!"
+    # m "Я не танцую на..."
+    # customer9 "Не хочешь говорить? Хорошо, я буду ждать этого момента."
+    # customer9 "А потом просто заберу их..."
+    # mt "..."
+    # mt "Человек, озабоченный чужими трусами!"
+    # mt "Кого только не встретишь в этой дыре!"
+    # mt "!!!"
+    customer9 "Hey, I can’t wait for you to show off your naked ass on the stage!"
+    m "You confuse me with someone ..."
+    customer9 "I want you to take off your panties on stage and throw them to me ..."
+    customer9 "I want to pick them up ..."
+    customer9 "I am willing to pay for it. How many? Name the price."
+    mt "?!"
+    m "I do not dance on ..."
+    customer9 "Do you want to talk? OK, I will wait for this moment."
+    customer9 "And then just pick them up ..."
+    mt "..."
+    mt "A man preoccupied with other people's cowards!"
+    mt "Whoever you will not meet in this hole!"
+    mt "!!!"
+
+# game/Quests/EP2_07/Pub/Customer9_dialogs.rpy:95
+translate english customer9_serve1_0806ea0a:
+
+    # customer9 "У меня в штанах дымится, когда вижу тебя на сцене!"
+    # m "!!!"
+    # m "Вы меня с кем-то путаете. Я не танцую на сцене."
+    # customer9 "Расскажи это кому-нибудь другому."
+    # m "Я официантка, а не стрип..."
+    # customer9 "Охренительная задница!!!"
+    # customer9 "Не могу дождаться, когда ты ее оголишь на сцене перед всеми!"
+    # m "Я..."
+    # customer9 "А еще хочу увидеть, как ты танцуешь только для меня..."
+    # mt "Долбанный извращенец!"
+    # mt "По-моему, здесь все такие!"
+    # mt "!!!"
+    # mt "Как мне надоела эта дыра!"
+    customer9 "It smokes in my pants when I see you on stage!"
+    m "!!!"
+    m "You confuse me with someone. I do not dance on stage."
+    customer9 "Tell it to someone else."
+    m "I'm a waitress, not a strip ..."
+    customer9 "Fucking ass !!!"
+    customer9 "I can’t wait to expose him on stage in front of everyone!"
+    m "I..."
+    customer9 "I also want to see how you dance only for me ..."
+    mt "Fucking weirdo!"
+    mt "In my opinion, everyone is here!"
+    mt "!!!"
+    mt "How tired I am of this hole!"
+
+# game/Quests/EP2_07/Pub/Customer9_dialogs.rpy:113
+translate english customer9_serve1_8a4aac3a:
+
+    # m "Что будете заказывать?"
+    m "What would you like?"
+

@@ -2,6 +2,7 @@ default basement_bedroom2_MonicaSuffix = 2
 default basement_bedroom2_MonicaSuffix2 = ""
 default basement_bedroom2_Monica_Nap_Betty_Suffix = ""
 default basementBedNapSuffix2 = ""
+default basement_bedroom2_buttplug_suffix = 1
 
 default basement_bedroom2_ep22_init = False
 default basement_bedroom2_ep24_init = False
@@ -9,12 +10,14 @@ default basement_bedroom2_ep24_init = False
 label basement_bedroom2:
     $ street_house_outside_monica_suffix = 1
 
-    if basement_bedroom2_ep22_init == False:
-        $ add_object_to_scene("Monica", {"type" : 2, "base" : "Basement_Bedroom2_Monica_[cloth]_[basement_bedroom2_MonicaSuffix][basement_bedroom2_MonicaSuffix2]", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder":10, "tint": [1.0, 1.0, 0.9]}, {"basementBedroomMonicaNapGfxBettyPanties":{"v":True, "base":"Basement_Bedroom2_Monica_Governess_Betty_[monicaBettyPantiesId]_Nap_1", "img_overlay":"Basement_Bedroom2_Monica_GovernessPants_Nap_1_Overlay"}, "basementBedroomMonicaNapGfx":{"v":True, "base":"Basement_Bedroom2_Monica_[cloth]_Nap_[basementBedNapIndex][basement_bedroom2_Monica_Nap_Betty_Suffix]", "img_overlay":"Basement_Bedroom2_Monica_[cloth]_Nap_[basementBedNapIndex]_Overlay"}, "basementBedroomMonicaSleepGfx":{"v":True, "base":"Basement_Bedroom2_Monica_Sleep_[basementBedSleepIndex]"}, "basementBedroomBettyPantiesOnly":{"v":True, "base":"Basement_Bedroom2_Monica_Governess[basement_bedroom2_MonicaSuffix]_Betty_[monicaBettyPantiesId]", "img_overlay":"Basement_Bedroom2_Monica_GovernessPants_[basement_bedroom2_MonicaSuffix]_Overlay"}}, scene="basement_bedroom2")
-        $ basement_bedroom2_ep22_init = True
-    if basement_bedroom2_ep24_init == False:
-        $ add_object_to_scene("Monica", {"type" : 2, "base" : "Basement_Bedroom2_Monica_[cloth]_[basement_bedroom2_MonicaSuffix][basement_bedroom2_MonicaSuffix2]", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder":10, "tint": [1.0, 1.0, 0.9]}, {"basementBedroomMonicaNapGfxBettyPanties":{"v":True, "base":"Basement_Bedroom2_Monica_Governess_Betty_[monicaBettyPantiesId]_Nap_1", "img_overlay":"Basement_Bedroom2_Monica_GovernessPants_Nap_1_Overlay"}, "basementBedroomMonicaNapGfx":{"v":True, "base":"Basement_Bedroom2_Monica_[cloth]_Nap_[basementBedNapIndex][basement_bedroom2_Monica_Nap_Betty_Suffix][basementBedNapSuffix2]", "img_overlay":"Basement_Bedroom2_Monica_[cloth]_Nap_[basementBedNapIndex]_Overlay"}, "basementBedroomMonicaSleepGfx":{"v":True, "base":"Basement_Bedroom2_Monica_Sleep_[basementBedSleepIndex]"}, "basementBedroomBettyPantiesOnly":{"v":True, "base":"Basement_Bedroom2_Monica_Governess[basement_bedroom2_MonicaSuffix]_Betty_[monicaBettyPantiesId]", "img_overlay":"Basement_Bedroom2_Monica_GovernessPants_[basement_bedroom2_MonicaSuffix]_Overlay"}}, scene="basement_bedroom2")
-        $ basement_bedroom2_ep24_init = True
+#    if basement_bedroom2_ep22_init == False:
+#        $ add_object_to_scene("Monica", {"type" : 2, "base" : "Basement_Bedroom2_Monica_[cloth]_[basement_bedroom2_MonicaSuffix][basement_bedroom2_MonicaSuffix2]", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder":10, "tint": [1.0, 1.0, 0.9]}, {"basementBedroomMonicaNapGfxBettyPanties":{"v":True, "base":"Basement_Bedroom2_Monica_Governess_Betty_[monicaBettyPantiesId]_Nap_1", "img_overlay":"Basement_Bedroom2_Monica_GovernessPants_Nap_1_Overlay"}, "basementBedroomMonicaNapGfx":{"v":True, "base":"Basement_Bedroom2_Monica_[cloth]_Nap_[basementBedNapIndex][basement_bedroom2_Monica_Nap_Betty_Suffix]", "img_overlay":"Basement_Bedroom2_Monica_[cloth]_Nap_[basementBedNapIndex]_Overlay"}, "basementBedroomMonicaSleepGfx":{"v":True, "base":"Basement_Bedroom2_Monica_Sleep_[basementBedSleepIndex]"}, "basementBedroomBettyPantiesOnly":{"v":True, "base":"Basement_Bedroom2_Monica_Governess[basement_bedroom2_MonicaSuffix]_Betty_[monicaBettyPantiesId]", "img_overlay":"Basement_Bedroom2_Monica_GovernessPants_[basement_bedroom2_MonicaSuffix]_Overlay"}}, scene="basement_bedroom2")
+#        $ basement_bedroom2_ep22_init = True
+#    if basement_bedroom2_ep24_init == False:
+#        $ add_object_to_scene("Monica", {"type" : 2, "base" : "Basement_Bedroom2_Monica_[cloth]_[basement_bedroom2_MonicaSuffix][basement_bedroom2_MonicaSuffix2]", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder":10, "tint": [1.0, 1.0, 0.9]}, {"basementBedroomMonicaNapGfxBettyPanties":{"v":True, "base":"Basement_Bedroom2_Monica_Governess_Betty_[monicaBettyPantiesId]_Nap_1", "img_overlay":"Basement_Bedroom2_Monica_GovernessPants_Nap_1_Overlay"}, "basementBedroomMonicaNapGfx":{"v":True, "base":"Basement_Bedroom2_Monica_[cloth]_Nap_[basementBedNapIndex][basement_bedroom2_Monica_Nap_Betty_Suffix][basementBedNapSuffix2]", "img_overlay":"Basement_Bedroom2_Monica_[cloth]_Nap_[basementBedNapIndex]_Overlay"}, "basementBedroomMonicaSleepGfx":{"v":True, "base":"Basement_Bedroom2_Monica_Sleep_[basementBedSleepIndex]"}, "basementBedroomBettyPantiesOnly":{"v":True, "base":"Basement_Bedroom2_Monica_Governess[basement_bedroom2_MonicaSuffix]_Betty_[monicaBettyPantiesId]", "img_overlay":"Basement_Bedroom2_Monica_GovernessPants_[basement_bedroom2_MonicaSuffix]_Overlay"}}, scene="basement_bedroom2")
+#        $ basement_bedroom2_ep24_init = True
+
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "Basement_Bedroom2_Monica_[cloth]_[basement_bedroom2_MonicaSuffix][basement_bedroom2_MonicaSuffix2]", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder":10, "tint": [1.0, 1.0, 0.9]}, {"basementBedroomMonicaNapGfxBettyPanties":{"v":True, "base":"Basement_Bedroom2_Monica_Governess_Betty_[monicaBettyPantiesId]_Nap_1", "img_overlay":"Basement_Bedroom2_Monica_GovernessPants_Nap_1_Overlay"}, "basementBedroomMonicaNapGfx":{"v":True, "base":"Basement_Bedroom2_Monica_[cloth]_Nap_[basementBedNapIndex][basement_bedroom2_Monica_Nap_Betty_Suffix][basementBedNapSuffix2]", "img_overlay":"Basement_Bedroom2_Monica_[cloth]_Nap_[basementBedNapIndex]_Overlay"}, "basementBedroomMonicaSleepGfx":{"v":True, "base":"Basement_Bedroom2_Monica_Sleep_[basementBedSleepIndex]"}, "basementBedroomBettyPantiesOnly":{"v":True, "base":"Basement_Bedroom2_Monica_Governess[basement_bedroom2_MonicaSuffix]_Betty_[monicaBettyPantiesId]", "img_overlay":"Basement_Bedroom2_Monica_GovernessPants_[basement_bedroom2_MonicaSuffix]_Overlay"}}, scene="basement_bedroom2")
 
     $ print "enter_basement_bedroom2"
     $ miniMapData = []
@@ -78,6 +81,11 @@ label basement_bedroom2_init:
     $ add_object_to_scene("waffles", {"type":2, "base":"Basement_Bedroom2_Cake9", "click" : "basement_bedroom2_teleport_to_table", "actions" : "l", "zorder" : 4, "group":"environment", "label":"food", "active":False}, scene="basement_bedroom2")
 
     $ add_object_to_scene("Teleport_Bedroom1", {"type":3, "text" : _("ШКАФ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "basement_bedroom2_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "high_sprite_hover":True}, scene="basement_bedroom2")
+
+    return
+
+label basement_bedroom2_init2:
+    $ add_object_to_scene("ButtPlug", {"type":2, "base":"Basement_Bedroom2_ButtPlug[basement_bedroom2_buttplug_suffix]", "click" : "basement_bedroom2_environment", "actions" : "lh", "zorder" : 1, "group":"items", "label":"toy"}, scene="basement_bedroom2")
 
     return
 
@@ -150,6 +158,13 @@ label basement_bedroom2_environment:
         if act == "w":
             call change_scene("basement_bedroom_table") from _call_change_scene_68
             return
+    if obj_name == "ButtPlug":
+        if act=="l":
+            mt "Эта жуткая пробка..."
+            mt "Я даже боюсь вспоминать, при каких обстоятельствах она оказалась у меня..."
+            return
+        mt "Я не буду прикасаться к ней! Только не снова!"
+
     return
 
 label hook_basement_bedroom2_change_view_to_suffix3:

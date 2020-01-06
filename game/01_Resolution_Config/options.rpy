@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "EP2-v0.8-Extra-fix1"
+define config.version = "EP2-v0.9-Extra-fix2"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -38,19 +38,29 @@ Keks
 
 Abelardo
 
+aIMissRyu23
+
 Jetvoice
 
 Joe Swenson
 
 Miguel
 
+Olli P.
+
+onstant
+
 Prometheus
 
 Ronny schönherr
 
+SimonLee
+
 Stefan Kemske
 
 The big Dog
+
+Виталий Рябоконь
 
 for great support!
 
@@ -188,7 +198,7 @@ define config.window_icon = "gui/window_icon.png"
 
 define config.developer = True
 define config.cache_surfaces = True
-define config.image_cache_size_mb = 500
+define config.image_cache_size_mb = 512
 
 ## Build configuration #########################################################
 ##
@@ -264,3 +274,11 @@ define config.missing_image_callback = missing_filename_callback
 
 # define renpy.config.fix_rollback_without_choice = False
 define config.hard_rollback_limit = 0
+define config.rollback_enabled = False
+define config.conditionswitch_predict_all = True
+#define config.predict_statements = 40
+define config.developer = "auto"
+define config.predict_screen_statements = True
+define config.predict_screens = True
+define config.autosave_on_choice = False
+define config.has_autosave = False

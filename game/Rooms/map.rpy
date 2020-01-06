@@ -16,6 +16,7 @@ default mapSubstMonicaOfficeToPolice = False
 default teleportDickOfficeEveningFlag = False
 default teleportDickOfficeHeavyRainFlag = False
 default teleportHomeFredBlowjobFlag = False
+default mapTeleportForcedCarSound = False
 
 init python:
     def checkMapVisited(scene_name):
@@ -195,7 +196,10 @@ label process_drive_teleport(in_target_map_scene, in_target_scene):
             return
     else:
         $ mapChangedFlag = True
-        call start_walk_direct() from _call_start_walk_direct
+        if mapTeleportForcedCarSound == False:
+            call start_walk_direct() from _call_start_walk_direct
+        else:
+            call start_drive_direct()
     $ mapChangedFlag = True
     return
 
@@ -218,6 +222,10 @@ label process_drive_teleport_direct(in_target_map_scene, in_target_scene):
     return
 label process_change_map_location(target_map_scene):
     $ map_objects["Teleport_" + map_scene]["state"] = "visible"
+    python:
+        for obj1 in map_objects:
+            if map_objects[obj1]["state"] == "active":
+                map_objects[obj1]["state"] = "visible"
     $ map_objects["Teleport_" + target_map_scene]["state"] = "active"
     $ map_scene = target_map_scene
     $ mapChangedFlag = True

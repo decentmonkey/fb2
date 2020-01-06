@@ -1348,3 +1348,15 @@ translate english strings:
     old "Отношения с Юлией... (disabled)"
     new "Relations with Julia... (disabled)"
 
+# TODO: Translation updated at 2019-12-02 02:47
+
+# game/Quests/EP2_07/ep27_dialogues6_julia.rpy:1198
+translate english ep27_dialogues6_julia13_ef0e1199:
+
+    # m "Если ты будешь плохо работать, то тебя ждет увольнение!"
+    # julia "Да, Миссис Бакфетт..."
+    # julia "Конечно..."
+    m "If you don't work well, you will be fired!"
+    julia "Yes, Mrs. Buckfett ..."
+    julia "Of course."
+

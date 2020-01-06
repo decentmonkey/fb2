@@ -214,3 +214,57 @@ translate german strings:
     old "Мне это не интересно."
     new "Das interessiert mich nicht."
 
+# TODO: Translation updated at 2019-11-23 13:31
+
+# game/Quests/EP2_07/Pub/Customer7-8_dialogs.rpy:134
+translate german customer78_serve1_6647fad5:
+
+    # customer7 "Эй, детка! Когда уже разденешься на сцене?!"
+    # m "Я... Я не танцую..."
+    # customer7 "Мы это уже слышали. Не танцует она! Аха-ха!!!"
+    # customer7 "Запомни: чем меньше одежды на сцене, тем больше чаевые!"
+    # m "!!!"
+    # mt "Похотливые животные! Ненавижу!"
+    # m "Я..."
+    # customer7 "А если пойдешь с нами в приват, то заработаешь раз в десять больше!"
+    # m "Я не танцую!"
+    # mt "!!!"
+    # customer7 "А если будешь работать официанткой с голыми сиськами..."
+    # customer7 "То чаевых будет еще больше! Аха-ха!!!"
+    # mt "!!!"
+    customer7 "Hey Babe! Wann ziehst du dich auf der Bühne aus?!"
+    m "Ich...Ich... Ich tanze nicht..."
+    customer7 "Das haben wir schon gehört. Sie tanzt nicht... Hahahaha!!!"
+    customer7 "Denk dran: Je weniger Kleider auf der Bühne, desto mehr Trinkgeld!"
+    m "!!!"
+    mt "Tierische Lüstlinge! Ich hasse sie!"
+    m "Ich..."
+    customer7 "Und wenn du mit uns Privattänze machst, verdienst du das Zehnfache!"
+    m "ich tanze nicht!"
+    mt "!!!"
+    customer7 "Wenn du als Bedienung oben ohne arbeitest..."
+    customer7 "Gibt es noch mehr Trinkgeld! Hahaha!"
+    mt "!!!"
+
+# game/Quests/EP2_07/Pub/Customer7-8_dialogs.rpy:151
+translate german customer78_serve1_a65e1741:
+
+    # customer7 "О, детка! Правильно сделала, что послушалась нашего совета!"
+    # m "Какого совета?"
+    # customer7 "Отпадные сиськи! На сцене выглядишь охренительно!"
+    # m "Я официантка, а не стриптизерша..."
+    # customer7 "Конечно, конечно... А то я тебя не разглядел на сцене отсюда!"
+    # m "Я..."
+    # customer7 "В следующий раз снимай с себя все эти тряпки на сцене."
+    # customer7 "Если хочешь заработать хорошие чаевые."
+    # mt "!!!"
+    customer7 "Oh Baby! Schön, dass du unseren Rat angenommen hast!"
+    m "Welchen Rat?"
+    customer7 "Heiße Brüste! Du siehst mega heiß auf der Bühne aus!"
+    m "Ich bin eine Bedienung, keine Stripperin..."
+    customer7 "Natürlich, natürlich... Und ich habe dich auch nicht auf der Bühne gesehen!"
+    m "Ich..."
+    customer7 "Nächstes Mal, zieh dir alles aus!"
+    customer7 "Wenn du gutes Trinkgeld willst."
+    mt "!!!"
+

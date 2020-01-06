@@ -216,3 +216,51 @@ translate german strings:
     old "Я не из таких!"
     new "So bin ich nicht!"
 
+# TODO: Translation updated at 2019-11-23 13:31
+
+# game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:100
+translate german customer10_serve1_e138897b:
+
+    # customer10 "Новенькая, ты мне сказала, что не танцуешь..."
+    # m "Не танцую."
+    # customer10 "Я тебя видел на сцене..."
+    # m "Вы меня перепутали с кем-то..."
+    # customer10 "Это врядли. По-моему, ты меня обманываешь."
+    # m "Нет. Я здесь работаю официанткой."
+    # customer10 "Я спрошу у Джо насчет тебя..."
+    # mt "!!!"
+    customer10 "Neue, du sagtest, du tanzt nicht..."
+    m "Mache ich auch nicht."
+    customer10 "Ich habe dich auf der Bühne gesehen..."
+    m "Du hast mich verwechselt..."
+    customer10 "Unwahrscheinlich. Ich glaube, du willst mich verebbeln."
+    m "Nein. Ich arbeite hier nur als Bedienung."
+    customer10 "Ich frage mal Joe wegen Dir..."
+    mt "!!!"
+
+# game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:111
+translate german customer10_serve1_c9382e14:
+
+    # customer10 "А, новенькая, это ты..."
+    # customer10 "Сколько за приват берешь?"
+    # m "!!!"
+    # m "Я не танцую ни на сцене, ни в привате."
+    # customer10 "Разве? Хммм..."
+    # m "Да..."
+    # mt "Как мне надоели все эти неудачники!"
+    # mt "!!!"
+    customer10 "Ha, die Neue, du bist's..."
+    customer10 "Wieviel nimmst du für einen Privattanz?"
+    m "!!!"
+    m "Ich tanze weder auf der Bühne noch privat."
+    customer10 "Wirklich? Hmmm..."
+    m "Ja."
+    mt "Wie leid ich diese Loser alle bin!"
+    mt "!!!"
+
+# game/Quests/EP2_07/Pub/Customer10_dialogs.rpy:124
+translate german customer10_serve1_2a76d528:
+
+    # m "Вам что-нибудь принести?"
+    m "Was möchstest du?"
+

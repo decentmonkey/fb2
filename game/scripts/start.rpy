@@ -1,4 +1,4 @@
-define debugMode = True
+define debugMode = False
 
 default gameStage = 0
 default gameSubStage = 0
@@ -16,6 +16,8 @@ default currentMusic3 = False
 default storedMusic = []
 default storedMusicPriority = []
 default day_time = "day"
+default day = 0
+default week_day = 1
 default owner = "Monica"
 default showObjectsNotOwner = True
 default episode = 1
@@ -47,14 +49,11 @@ label start:
     $ inventory_objects = {}
     $ inventory = []
 
-    #call ep29_dialogues3_melanie_monica_victoria_3b()
-    #call ep29_dialogues3_melanie_monica_victoria_1()
-    #call ep29_dialogues3_melanie_monica_victoria_2()
-    #call ep29_dialogues3_melanie_monica_victoria_3()
-    #call ep29_dialogues3_melanie_monica_victoria_3a()
-    #call ep29_dialogues3_melanie_monica_victoria_3c()
-    #call ep29_dialogues3_melanie_monica_victoria_4()
-    #call ep29_dialogues3_melanie_monica_victoria_5()
+
+
+
+
+    #call v_Victoria_Melanie_Sex_test()
 
 
     call intro_questions() from _call_intro_questions
@@ -263,10 +262,11 @@ label start_game:
 
     call floor2_init_addition1() from _call_floor2_init_addition1_1 #Барди floor2
     call bedroom1_init_addition1() from _call_bedroom1_init_addition1_1 # Барди bedroom1
+    call monica_cheats_init()
     $ ep24_quests_initialized = True
     $ ep26_quests_initialized = True
     $ ep27_quests_initialized = True
-
+    $ ep29_quests_initialized = True
 #    $ changeDayTime("evening")
 #    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
 #    $ print scene_data

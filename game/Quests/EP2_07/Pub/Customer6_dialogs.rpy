@@ -1,5 +1,6 @@
 # дипрессивный чел у стойки
 
+
 label customer6_serve1:
     music Hidden_Agenda
     sound highheels_short_walk

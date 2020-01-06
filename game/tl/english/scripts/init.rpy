@@ -138,3 +138,15 @@ translate english strings:
     old "Юлия боится Монику"
     new "Julia is afraid of Monica"
 
+# TODO: Translation updated at 2019-12-02 02:47
+
+translate english strings:
+
+    # game/scripts/init.rpy:407
+    old "Королева Shiny Hole"
+    new "Queen of Shiny Hole"
+
+    # game/scripts/init.rpy:408
+    old "Стриптизерша в Shiny Hole"
+    new "Stripper in Shiny Hole"
+

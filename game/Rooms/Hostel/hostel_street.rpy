@@ -63,6 +63,7 @@ label hostel_street_teleport:
             mt "Я не могу зайти туда одетой в рекламу кебеба..."
             mt "Я просто застряну в проходе!"
             return
+        call ep29_quests_pub1_begin_dance_quest_check() # проверяем условия старта квеста на танцы в баре
         call change_scene("pub") from _call_change_scene_192
         return
     return

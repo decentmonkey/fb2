@@ -105,7 +105,7 @@ init python:
         return
 
     def monica_eated(): # Вызывается когда Моника поела
-        global day, day_time
+        global day, day_time, monicaEatedLastDay, monicaEatedLastDayTime
         monicaEatedLastDay = day
         monicaEatedLastDayTime = day_time
         return
@@ -139,6 +139,10 @@ label bitch(amount, place=False):
         $ amount *= 3
 
     $ bitchmeterValue += amount
+    if bitchmeterValue < 0:
+        $ bitchmeterValue = 0
+    if bitchmeterValue > maxBitchness:
+        $ bitchmeterValue = maxBitchness
     if amount > 0:
         show screen notify ("Bitchness increased!")
     else:

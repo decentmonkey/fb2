@@ -15,6 +15,7 @@ init python:
         ["Marcus", _("Marcus"), c_red],
         ["Office", _("Office"), c_orange],
         ["Pub", _("Shiny Hole"), c_pink],
+        ["PoleDance", _("Strip Dance"), c_red],
         ["Slums", _("Slums"), c_blue],
         ["HotelLeGrand", _("Hotel Le Grand"), c_green],
         ["GasStation", _("Gas Station"), c_gray]
@@ -65,7 +66,16 @@ init python:
             ["8249", "Dick & Victoria"],
             ["14070", "Victoria"],
             ["14122", "Victoria"],
-            ["14130", "Victoria"]
+            ["14130", "Victoria"],
+            ["15472", ""],
+            ["15500", ""],
+            ["15521", ""],
+            ["15565", ""],
+            ["15651", ""],
+            ["15703", ""],
+            ["15728", ""],
+            ["15766", ""],
+            ["15785", ""]
         ],
         "Fitness": [
             ["7739", "Stephanie"],
@@ -146,7 +156,14 @@ init python:
             ["14919", ""],
             ["14931", ""],
             ["14962", ""],
-            ["14988", ""]
+            ["14988", ""],
+            ["15029", ""],
+            ["15069", ""],
+            ["15317", ""],
+            ["15340", ""],
+            ["15363", ""],
+            ["15382", ""],
+            ["22574", ""]
         ],
         "Julia": [
             ["20231", "Meeting"],
@@ -159,7 +176,16 @@ init python:
             ["21930",""],
             ["21978",""],
             ["22003",""],
-            ["22035",""]
+            ["22035",""],
+            ["22318", ""],
+            ["22323", ""],
+            ["22358", ""],
+            ["22416", ""],
+            ["22476", ""],
+            ["22503", ""],
+            ["22553", ""]
+
+
         ],
 
         "Marcus": [
@@ -202,6 +228,9 @@ init python:
             ["14122", "Victoria"],
             ["14130", "Victoria"],
             ["20525", "Photoshoot"],
+            ["15390", ""],
+            ["15410", ""],
+            ["15443", ""]
         ],
         "Photoshoots": [
             ["6548", ""],
@@ -224,7 +253,9 @@ init python:
             ["20170", ""],
             ["20511", ""],
             ["20569", ""],
-            ["20578", ""]
+            ["20578", ""],
+            ["22608", ""]
+
         ],
         "BiffCastings": [
             ["8442", ""],
@@ -325,7 +356,48 @@ init python:
             ["21194", "Ashley"],
             ["21108", "Joe"],
             ["21226", "Ashley"],
-            ["21145", "Joe"]
+            ["21145", "Joe"],
+            ["22676", ""],
+            ["22725", ""],
+            ["22768", ""],
+            ["22841", ""],
+            ["22777", ""],
+            ["22786", ""],
+            ["22803", ""],
+            ["22819", ""],
+            ["22874", ""]
+            ],
+        "PoleDance": [
+            ["v_Monica_Strip_A1_end", ""],
+            ["v_Monica_Strip_A2_end", ""],
+            ["v_Monica_Strip_A3_end", ""],
+            ["v_Monica_Strip_B1_end", ""],
+            ["v_Monica_Strip_B2_end", ""],
+            ["v_Monica_Strip_B3_end", ""],
+            ["v_Monica_Strip_C1_end", ""],
+            ["v_Monica_Strip_C2_end", ""],
+            ["v_Monica_Strip_C3_end", ""],
+            ["v_Monica_Strip_Undress1A_end", ""],
+            ["v_Monica_Strip_Undress1B_end", ""],
+            ["v_Monica_Strip_Undress1C_end", ""],
+            ["v_Monica_Strip_D1_end", ""],
+            ["v_Monica_Strip_D2_end", ""],
+            ["v_Monica_Strip_D3_end", ""],
+            ["v_Monica_Strip_E1_end", ""],
+            ["v_Monica_Strip_E2_end", ""],
+            ["v_Monica_Strip_E3_end", ""],
+            ["v_Monica_Strip_F1_end", ""],
+            ["v_Monica_Strip_F2_end", ""],
+            ["v_Monica_Strip_F3_end", ""],
+            ["v_Monica_Strip_G1_end", ""],
+            ["v_Monica_Strip_G2_end", ""],
+            ["v_Monica_Strip_G3_end", ""],
+            ["v_Monica_Strip_H1_end", ""],
+            ["v_Monica_Strip_H2_end", ""],
+            ["v_Monica_Strip_H3_end", ""],
+            ["v_Monica_Strip_I1_end", ""],
+            ["v_Monica_Strip_I2_end", ""],
+            ["v_Monica_Strip_I3_end", ""]
         ],
 
         "Slums": [
@@ -1058,7 +1130,73 @@ init python:
         "img_21860" : "21860",
         "img_22268" : "22268",
         "img_22251" : "22251",
-        "img_22261" : "22261"
+        "img_22261" : "22261",
+        "img_15029" : "15029",
+        "img_15069" : "15069",
+        "img_15317" : "15317",
+        "img_15340" : "15340",
+        "img_15363" : "15363",
+        "img_15382" : "15382",
+        "img_22574" : "22574",
+        "img_22318" : "22318",
+        "img_22323" : "22323",
+        "img_22358" : "22358",
+        "img_22416" : "22416",
+        "img_22476" : "22476",
+        "img_22503" : "22503",
+        "img_22553" : "22553",
+        "img_22676" : "22676",
+        "img_22725" : "22725",
+        "img_22768" : "22768",
+        "img_22841" : "22841",
+        "img_22777" : "22777",
+        "img_22786" : "22786",
+        "img_22803" : "22803",
+        "img_22819" : "22819",
+        "img_15390" : "15390",
+        "img_15410" : "15410",
+        "img_15443" : "15443",
+        "img_22608" : "22608",
+        "img_15472" : "15472",
+        "img_15500" : "15500",
+        "img_15521" : "15521",
+        "img_15565" : "15565",
+        "img_15651" : "15651",
+        "img_15703" : "15703",
+        "img_15728" : "15728",
+        "img_15766" : "15766",
+        "img_15785" : "15785",
+        "v_Monica_Strip_A1_end" : "v_Monica_Strip_A1_end",
+        "v_Monica_Strip_A2_end" : "v_Monica_Strip_A2_end",
+        "v_Monica_Strip_A3_end" : "v_Monica_Strip_A3_end",
+        "v_Monica_Strip_B1_end" : "v_Monica_Strip_B1_end",
+        "v_Monica_Strip_B2_end" : "v_Monica_Strip_B2_end",
+        "v_Monica_Strip_B3_end" : "v_Monica_Strip_B3_end",
+        "v_Monica_Strip_C1_end" : "v_Monica_Strip_C1_end",
+        "v_Monica_Strip_C2_end" : "v_Monica_Strip_C2_end",
+        "v_Monica_Strip_C3_end" : "v_Monica_Strip_C3_end",
+        "v_Monica_Strip_D1_end" : "v_Monica_Strip_D1_end",
+        "v_Monica_Strip_D2_end" : "v_Monica_Strip_D2_end",
+        "v_Monica_Strip_D3_end" : "v_Monica_Strip_D3_end",
+        "v_Monica_Strip_E1_end" : "v_Monica_Strip_E1_end",
+        "v_Monica_Strip_E2_end" : "v_Monica_Strip_E2_end",
+        "v_Monica_Strip_E3_end" : "v_Monica_Strip_E3_end",
+        "v_Monica_Strip_F1_end" : "v_Monica_Strip_F1_end",
+        "v_Monica_Strip_F2_end" : "v_Monica_Strip_F2_end",
+        "v_Monica_Strip_F3_end" : "v_Monica_Strip_F3_end",
+        "v_Monica_Strip_G1_end" : "v_Monica_Strip_G1_end",
+        "v_Monica_Strip_G2_end" : "v_Monica_Strip_G2_end",
+        "v_Monica_Strip_G3_end" : "v_Monica_Strip_G3_end",
+        "v_Monica_Strip_H1_end" : "v_Monica_Strip_H1_end",
+        "v_Monica_Strip_H2_end" : "v_Monica_Strip_H2_end",
+        "v_Monica_Strip_H3_end" : "v_Monica_Strip_H3_end",
+        "v_Monica_Strip_I1_end" : "v_Monica_Strip_I1_end",
+        "v_Monica_Strip_I2_end" : "v_Monica_Strip_I2_end",
+        "v_Monica_Strip_I3_end" : "v_Monica_Strip_I3_end",
+        "v_Monica_Strip_Undress1A" : "v_Monica_Strip_Undress1A_end",
+        "v_Monica_Strip_Undress1B" : "v_Monica_Strip_Undress1B_end",
+        "v_Monica_Strip_Undress1C" : "v_Monica_Strip_Undress1C_end",
+        "img_22874": "22874"
 
     }
 
@@ -1071,7 +1209,7 @@ init python:
             achLabel = achievements_labels[str]
             if persistent.achievements.has_key(achLabel) == False:
                 persistent.achievements[achLabel] = True
-                renpy.save_persistent()
+#                renpy.save_persistent()
                 print "Achievement reached!"
             return True
         return False
@@ -1080,7 +1218,6 @@ init python:
         if persistent.achievements.has_key(achLabel) and persistent.achievements[achLabel] == True:
             return True
         return False
-
 
 
 

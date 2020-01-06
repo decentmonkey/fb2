@@ -1,3 +1,15 @@
+#v0.9 pub
+define monicaForgivenessDancingAgreeCorruption = 250 # Моника соглашается танцевать, чтобы отработать деньги (из меню)
+define monicaClaireOilingVest = 280 # Моника соглашается, чтобы Клэр намазала ее маслом
+define monicaPutStripClothToplessStage = 310 # Моника снимает верх на сцене
+define monicaPutStripClothTopless = 350 # Моника одевает одежду для стриптиза без верха
+define monicaDanceAmountToTopless = 4 # Кол-во танцев, чтобы Моника согласилась снять бра
+define monicaPosesOpenedToTopless = 6 # Кол-во поз, которые необходимо открыть, чтобы Моника стала танцевать топлесс
+define monicaPosesOpenedToStage2 = 12 # Кол-во поз, которые необходимо открыть, чтобы Моника перешла на стадию 2
+
+#revenge quest
+define ep29_revenge_quest_retry_days = 7 # Через сколько дней квест пытается запуститься вновь (например, если были одеты трусики и стартовать не получилось)
+
 # v0.8
 define monicaEricCollegeDressPriceRegular = 40 # Цена за платье в квесте Эрика
 define monicaEricCollegeDressPriceDiscount = 20 # Цена за платье в квесте Эрика со скидкой
@@ -14,7 +26,18 @@ define monicaTeacherCorruption2 = 310 # Моника показывает гру
 define monicaTeacherCorruption3 = 250 # Моника показывает грудь сразу
 define monicaTeacherCorruption4 = 210 # Моника показывает грудь, поломавшись
 
+define monicaTeacherCorruption5 = 260 # Моника дает потрогать грудь сразу
+define monicaTeacherCorruption6 = 220 # Моника дает потрогать грудь, поломавшись
+
+define monicaTeacherCorruption7 = 280 # Моника делает handjob сразу
+define monicaTeacherCorruption8 = 240 # Моника делает handjob, поломавшись
+
+define monicaTeacherCorruption9 = 350 # Моника занимается сексом сразу
+define monicaTeacherCorruption10 = 330 # Моника занимается сексом, поломавшись
+
 define monicaTeacherAddCorruption1 = 10 # За показ груди день 1
+define monicaTeacherAddCorruption2 = 10 # За трогание груди день 2
+define monicaTeacherAddCorruption3 = 20 # За handjob день 3
 
 define monicaJailDay1AddCorruption = 30 # За евенты дня1
 define monicaJailDay2AddCorruption = 30 # За евенты дня1
@@ -40,7 +63,7 @@ define pubCustomer4_serve1_Corruption = 100
 default pubMonicaWaitressTipsKoeff = 0.3 # Сколько чаевых отдают Монике за работу официанткой
 default pubMonicaWaitressVisitorsPerDay = 3 # Сколько посетителей Моника может обслужить в день
 default pubMonicaDanceTipsKoeff = 0.3 # Сколько чаевых отдают Монике за танцы
-default pubMonicaDanceTipsKoeffText = "70" # текст чаевых
+default pubMonicaDanceTipsKoeffText = "30" # текст чаевых
 
 define monicaSteveJaneCorruption1 = 150 # Согласие на контракт Знакомство
 define monicaSteveJaneCorruption2 = 200 # Предложение показать Стиву свою грудь
@@ -68,7 +91,7 @@ define monicaTipsPunishmentAshleyScene1KissingCorruption = 250 # дать Эшл
 define monicaTipsPunishmentAshleyScene2PussyTouchigCorruption = 270 # дать Эшли потрогать свою киску
 define monicaTipsPunishmentAshleyScene3AssToAssCorruption = 300 # тереться с Эшли задницами :)
 
-define bettyCleaningProgessAmount = 20 #5 #Прогресс с Бетти за уборку
+define bettyCleaningProgessAmount = 25 #5 #Прогресс с Бетти за уборку
 define bettyCleaningProgessAmountLevel3 = 10 # Прогресс с Бетти за уборку после lvl 3
 define bettyFitnessProgressAmount = 50 #Прогресс с Бетти за посещение фитнесса
 #define bettyFitnessProgressAmount = 10 #Прогресс с Бетти за посещение фитнесса
@@ -101,7 +124,7 @@ define photoshot1AlexProgressPervertAmount = 10 # Прогресс у Алекс
 
 define monicaKebabWorkFlyersAmount = 5 # Количество флаеров, которые надо раздать Монике
 define monicaKebabWorkFlyersAmountRandomDiff = 1 #Рандом, в котором будет делаться отклонение от monicaKebabWorkFlyersAmount
-define monicaKebabWorkCorruptionAddingPerDay = 1 # Кол-во corruption, которые добавляются при разноске кебабов
+define monicaKebabWorkCorruptionAddingPerDay = 4 # Кол-во corruption, которые добавляются при разноске кебабов
 
 define monicaThiefCorruptionAmount = 1 # Кол-во corruption, увеличивается при воровстве еды на заправке
 
@@ -265,12 +288,12 @@ define monicaWhoringClothNakedBoobsNippleSquizeCorruptionRequired = 110  # Ко�
 define monicaWhoringClothNakedBoobsShakeCorruptionRequired = 110  # Кол-во corruption, чтобы Моника показала голые сиськи и потрясла ими
 define monicaWhoringNakedBoobsDanceCitizen6BottleCorruptionRequired = 200 # событие с citizen6
 
-define monicaWhoringClothBoobsCorruptionProgress = 1 # Кол-во corruption, которые даются за показ груди в одежде
-define monicaWhoringClothBoobsTongueCorruptionProgress = 1 #Кол-во corruption, которые даются за показ груди в одежде, высунув язык
-define monicaWhoringClothAssCorruptionProgress = 1 #Кол-во corruption, которые даются за пока зада в одежде
-define monicaWhoringClothPylonDanceCorruptionProgress = 1 #Кол-во corruption, которые даются за танец у пилона в одежде
-define monicaWhoringClothNakedBoobsCorruptionProgress = 2 #Кол-во corruption, которые даются за голые сиськи
-define monicaWhoringClothNakedBoobsDanceCorruptionProgress = 2 #Кол-во corruption, которые даются за танец с голыми сиськами
+define monicaWhoringClothBoobsCorruptionProgress = 2 # Кол-во corruption, которые даются за показ груди в одежде
+define monicaWhoringClothBoobsTongueCorruptionProgress = 2 #Кол-во corruption, которые даются за показ груди в одежде, высунув язык
+define monicaWhoringClothAssCorruptionProgress = 2 #Кол-во corruption, которые даются за пока зада в одежде
+define monicaWhoringClothPylonDanceCorruptionProgress = 2 #Кол-во corruption, которые даются за танец у пилона в одежде
+define monicaWhoringClothNakedBoobsCorruptionProgress = 4 #Кол-во corruption, которые даются за голые сиськи
+define monicaWhoringClothNakedBoobsDanceCorruptionProgress = 5 #Кол-во corruption, которые даются за танец с голыми сиськами
 
 define monicaWhoringClothBoobsOrButtMoney = 0.25 # Моника показала грудь в одежде, либо зад в одежде (что-то одно)
 define monicaWhoringClothBoobsAndButtMoney = 0.50 # Моника показала грудь в одежде и зад в одежде (и то и то)
@@ -287,7 +310,7 @@ define monicaVictoriaLickAssBeginProgress = 10 # Кол-во прогресса 
 define monicaVictoriaPunishmentAssLickProgress = 10 # Кол-во прогресса за наказание лизанием зада
 define monicaVictoriaEarnedWeeklyMoneyProgress = 5 # Кол-во прогресса за зарабатывание денег за неделю
 
-define monicaBettyPantiesCorruption = 1 #Кол-во corruption за надевание трусиков Бетти
+define monicaBettyPantiesCorruption = 4 #Кол-во corruption за надевание трусиков Бетти
 
 define monicaFitnessLookAtGirlsCorruption = 1 #Кол-во corruption за подглядывание во время фитнеса
 
@@ -378,6 +401,11 @@ label characters_init:
 label characters_pub_init:
     $ char_info["Bartender"] = {"name": _("Джо"), "name_orig":"Джо", "enabled":True, "face":"Face_Joe", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": _("Бармен в Shiny Hole"), "max_progress":100, "uplevel_label":"bartenderProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
     $ char_info["Bartender_Waitress"] = {"name": _("Эшли"), "name_orig":"Эшли", "enabled":True, "face":"Face_Ashley", "style":"char_face_style1_pink",  "bar_suffix": "pink", "level":1, "current_progress":0, "caption": _("Жена бармена"), "max_progress":100, "uplevel_label":"bartenderWaitressProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
+    return
+
+label characters_pub_init2:
+    $ char_info["Pub_StripteaseGirl1"] = {"name": _("Стриптизерша"), "name_orig":"Молли", "enabled":True, "face":"Face_Molly", "style":"char_face_style1_red",  "bar_suffix": "red", "level":1, "current_progress":0, "caption": _("Королева Shiny Hole"), "max_progress":100, "uplevel_label":"mollyProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
+    $ char_info["Pub_StripteaseGirl2"] = {"name": _("Стриптизерша"), "name_orig":"Клэр", "enabled":True, "face":"Face_Claire", "style":"char_face_style1_green",  "bar_suffix": "green", "level":1, "current_progress":0, "caption": _("Стриптизерша в Shiny Hole"), "max_progress":100, "uplevel_label":"claireProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":_("Work in progress...")}
     return
 
 label characters_init_julia:
@@ -512,6 +540,18 @@ label define_hudpresets:
             "display_face_hud": False
         },
         "betty": {
+            "display_daytime" : True,
+            "display_money" : True,
+            "display_objectives" : True,
+            "display_calendar" : True,
+            "display_scene_caption" : True,
+            "display_scene_map" : True,
+            "display_bitchmeter" : False,
+            "display_closemap" : True,
+            "display_face_hud": True,
+            "display_questlog": False
+        },
+        "melanie": {
             "display_daytime" : True,
             "display_money" : True,
             "display_objectives" : True,

@@ -147,6 +147,9 @@ label ep27_quests_pub_work6_tips_punishment: # Наказание за краж�
         # Попросить прощения у Эшли
         call ep22_quests_pub_punishment_ashley() from _call_ep22_quests_pub_punishment_ashley
         return False
+    if _return == 5:
+        call ep29_quests_pub1_dance_agree()
+        return False
     return
 
 label ep27_quests_pub_work7_tips_punishment_forgive: # Моника прощается

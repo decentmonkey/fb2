@@ -1316,7 +1316,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:54
     old "Мне нужно отработать долг $500, выступая на сцене в пабе."
-    new "I have to get rid of my $500 debt by performing on stage."
+    new "I have to get rid of my $ 500 debt by performing on stage."
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:110
     old "Спросить у Эшли костюм для выступления."
@@ -1332,7 +1332,7 @@ translate english strings:
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:328
     old "Мне нужно отработать долг $ 500, выступая на сцене в пабе."
-    new "I have to get rid of my $500 debt by performing on stage."
+    new "I have to get rid of my $ 500 debt by performing on stage."
 
     # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:392
     old "Надеть костюм с жилетом."

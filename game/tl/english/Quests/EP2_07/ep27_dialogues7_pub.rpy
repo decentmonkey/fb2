@@ -2212,3 +2212,25 @@ translate english strings:
     old "Идти танцевать на сцену"
     new "Go dance on the stage."
 
+# TODO: Translation updated at 2019-12-02 02:47
+
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:434
+translate english ep27_dialogues7_pub8_2d4f1dc4:
+
+    # ashley "Меня не волнуют твои оправдания, [monica_pub_name]."
+    ashley "I don't care about your excuses, [monica_pub_name]."
+
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:436
+translate english ep27_dialogues7_pub8_749e9ab7:
+
+    # ashley "Либо ты отдаешь эти $ 500 наличными, либо иди отрабатывать эти деньги, виляя своей задницей на сцене."
+    ashley "You either give me $ 500, or go and earn them by shaking your butt on the stage!"
+
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:447
+translate english ep27_dialogues7_pub8_9363041f:
+
+    # ashley "Ты отдашь эти $ 500 наличными."
+    # ashley "А иначе убирайся отсюда!"
+    ashley "You give this $ 500 in cash."
+    ashley "Or you can get out of here!"
+

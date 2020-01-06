@@ -40,12 +40,16 @@ init python:
         return day_time == "day"
 
 label changeDayTime_day_hooks:
+    if monica_cheats_hungry_enabled == False:
+        $ monica_eated()
     $ remove_hook(label="evening_time_temp")
     call process_hooks("change_time_day", "global") from _call_process_hooks_19
     call process_hooks("week_day_" + str(week_day), "global_week_day") from _call_process_hooks_20
     call process_hooks("day_" + str(day), "global_day") from _call_process_hooks_21
     return
 label changeDayTime_evening_hooks:
+    if monica_cheats_hungry_enabled == False:
+        $ monica_eated()
     $ remove_hook(label="day_time_temp")
     call process_hooks("change_time_evening", "global") from _call_process_hooks_22
     call process_hooks("day_" + str(week_day) + "_evening", "global_week_day") from _call_process_hooks_23

@@ -56,3 +56,43 @@ translate german customer11_1stmeeting_aac685ed:
     # mt "Очередной придурок."
     mt "Ein weiterer Idiot..."
 
+# TODO: Translation updated at 2019-11-23 13:31
+
+# game/Quests/EP2_07/Pub/Customer11_dialogs.rpy:13
+translate german customer11_1stmeeting_2d57d608:
+
+    # customer11 "Не буду ничего говорить про то, как ты танцуешь у пилона."
+    # m "Я..."
+    # customer11 "А то снова будет много слов о том, что ты не такая."
+    # customer11 "Ты же официантка сейчас?"
+    # m "Да..."
+    # customer11 "Давай, ты просто выполнишь свою работу и все?"
+    # mt "?!"
+    customer11 "Ich werde nichts darüber sagen, dass du an der Stange tanzt."
+    m "Ich..."
+    customer11 "Denn dann kommen viele Ausreden, dass du das gar nicht bist."
+    customer11 "Bist du jetzt die Bedienung?"
+    m "Ja."
+    customer11 "Komm schon, mach einfach deinen Job und gut is."
+    mt "?!"
+
+# game/Quests/EP2_07/Pub/Customer11_dialogs.rpy:22
+translate german customer11_1stmeeting_66709490:
+
+    # customer11 "Ты неплохо танцевала в прошлый раз на сцене."
+    # m "!!!"
+    # m "Вы меня с кем-то путаете. Я не танцую на сцене."
+    # customer11 "Расскажи это кому-нибудь другому."
+    # m "Я официантка, а не стрип..."
+    # customer11 "Мне это неинтересно совсем!"
+    # mt "!!!"
+    # mt "Очередной хам..."
+    customer11 "Letztes Mal hast du zielich gut getanzt."
+    m "!!!"
+    m "Du verwechselst mich mit wem Anderen."
+    customer11 "Erzähl das wem Anderen."
+    m "Ich bin eine Bedienung, keine Stripp..."
+    customer11 "Aber das interessiert mich eigentlich nicht!"
+    mt "!!!"
+    mt "Noch so einer..."
+

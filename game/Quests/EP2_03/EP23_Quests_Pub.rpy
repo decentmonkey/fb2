@@ -92,6 +92,8 @@ label ep23_quests_pub5_dishes: # Моника моет посуду
         if monicaEatedLastDay == day:
             call ep23_dialogues1_4() from _call_ep23_dialogues1_4
             return False
+        $ set_active("Bartender", True, scene="pub_bar1")
+        $ set_active("Bartender_Waitress", True, scene="pub_bar1")
         call change_scene("pub_bar1") from _call_change_scene_223
         return False
     if _return == 2: # Заказать еду
@@ -106,6 +108,14 @@ label ep23_quests_pub5_dishes: # Моника моет посуду
     if _return == 4: #Работать официанткой в Shiny Hole.
         call ep27_quests_pub_work2_begin() from _call_ep27_quests_pub_work2_begin
         return False
+    if _return == 5: #Танцевать на сцене
+        call pub_dance_start()
+        return False
+    if _return == 6:
+        call ep23_dialogues1_7()
+        call refresh_scene_fade()
+        return False
+
     return False
 
 

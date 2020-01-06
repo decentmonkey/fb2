@@ -1,5 +1,10 @@
 default dialogue_classmate_5_flag = False
 default dialogue_classmate_7_flag = False
+default dialogue_classmate_8_flag = False
+default dialogue_classmate_11_flag = False
+default monicaEdvardschoice1 = False  # Моника сразу соглашается на требование учителя, не ломается (1-й визит в 0.9)
+default monicaEdvardschoice2 = False  # Моника сразу соглашается на требование учителя, не ломается (2-й визит в 0.9)
+default monicaEdvardschoice3 = False  # Моника сразу соглашается на требование учителя, не ломается (3-й визит в 0.9)
 
 # Дом. Комната Барди. Барди и Эрик (одноклассник).
 label dialogue_classmate_1:
@@ -2219,7 +2224,7 @@ label dialogue_classmate_7:
     mt "Иначе у меня возникнут проблемы посерьезнее, чем есть сейчас."
     return False
 
-# Колледж. Класс. Разговор Моники и учителя.
+# Колледж. Класс. Разговор Моники и учителя., второе посещение
 label dialogue_classmate_8:
     # Моника заходит в кабинет, стоит у дверей, учитель сидит за учительским столом
     music Groove2_85
@@ -2230,46 +2235,48 @@ label dialogue_classmate_8:
     with diss
     mt "Надеюсь, в этот раз мне не придется вдохновлять его своей голой грудью..."
     sound highheels_short_walk
-    img 15002
-    with fade
-    m "Мистер Эдвардс, добрый день."
-    # учитель поворачивается к ней, с улыбочкой
-    img 15003
-    with diss
-    teacher "Здавствуйте, миссис Бейкер. Я вас ждал. Присаживайтесь."
-    # Моника садится на стул рядом с его столом
-    sound highheels_short_walk
-    img 15004
-    with fade
-    m "Удалось ли вам договориться с мисс Мэнсфилд?" #с серьезным выражением лица
-    music Hidden_Agenda
-    img 15005
-    with diss
-    teacher "Да, я поговорил с ней, миссис Бейкер."
-    teacher "И у меня почти получилось с ней договориться, но..."
-    img 15006
-    with fade
-    m "???"
-    m "Но?.."
-    img 15007
-    with diss
-    teacher "Она осталась не совсем довольна тем, что мою методику преподавания ей нужно дорабатывать."
-    teacher "Но мисс Мэнсфилд согласна подождать, когда я закончу работу."
-    teacher "Только после этого она согласна забыть про случай с Эриком."
-    music ZigZag
-    img 15008
-    with fade
-    m "Когда вы сможете закончить эту работу, мистер Эдвардс?"
-    img 15009
-    with diss
-    teacher "Я уже провел кое-какую работу над своей методикой."
-    teacher "Думаю, теперь мисс Мэнсфилд будет ею довольна."
+    if dialogue_classmate_8_flag == False:
+        img 15002
+        with fade
+        m "Мистер Эдвардс, добрый день."
+        # учитель поворачивается к ней, с улыбочкой
+        img 15003
+        with diss
+        teacher "Здавствуйте, миссис Бейкер. Я вас ждал. Присаживайтесь."
+        # Моника садится на стул рядом с его столом
+        sound highheels_short_walk
+        img 15004
+        with fade
+        m "Удалось ли вам договориться с мисс Мэнсфилд?" #с серьезным выражением лица
+        music Hidden_Agenda
+        img 15005
+        with diss
+        teacher "Да, я поговорил с ней, миссис Бейкер."
+        teacher "И у меня почти получилось с ней договориться, но..."
+        img 15006
+        with fade
+        m "???"
+        m "Но?.."
+        img 15007
+        with diss
+        teacher "Она осталась не совсем довольна тем, что мою методику преподавания ей нужно дорабатывать."
+        teacher "Но мисс Мэнсфилд согласна подождать, когда я закончу работу."
+        teacher "Только после этого она согласна забыть про случай с Эриком."
+        music Groove2_85
+        img 15008
+        with fade
+        m "Когда вы сможете закончить эту работу, мистер Эдвардс?"
+        img 15009
+        with diss
+        teacher "Я уже провел кое-какую работу над своей методикой."
+        teacher "Думаю, теперь мисс Мэнсфилд будет ею довольна."
+        $ dialogue_classmate_8_flag = True
     music Hidden_Agenda
     img 15010
     with fade
     teacher "..."
     teacher "Знаете, миссис Бейкер... Мне очень сложно отдавать свои труды мисс Мэнсфилд..."
-    music ZigZag
+    music Groove2_85
     img 15011
     with diss
     m "???"
@@ -2295,6 +2302,7 @@ label dialogue_classmate_8:
     music Groove2_85
     img 15016
     with diss
+    $ menu_corruption = [0, monicaTeacherCorruption6, monicaTeacherCorruption5]
     menu:
         "Убежать.":
             music Power_Bots_Loop
@@ -2303,7 +2311,7 @@ label dialogue_classmate_8:
             m "Я не буду этого делать!!!"
             return False
         "Постараться договориться с учителем без этих извращений.":
-            music ZigZag
+            music Groove2_85
             img 15018
             with fade
             m "Мистер Эдвардс, я не хочу, чтобы вы трогали меня!"
@@ -2317,8 +2325,9 @@ label dialogue_classmate_8:
             img 15020
             with fade
             teacher "..."
-            return 1
+#            return 1
         "Если это поможет быстрее решить проблему малявки, то, возможно, стоит потерпеть...":
+            $ monicaEdvardschoice1 = True # Моника сразу соглашается на требование учителя, не ломается (первое посещение в 0.9)
             pass
 
 
@@ -2329,7 +2338,7 @@ label dialogue_classmate_8:
     with fade
     mt "Это отвратительно! Почему все вокруг хотят сделать со мной что-то непристойное?!"
     mt "!!!"
-    music ZigZag
+    music Groove2_85
     img 15022
     with diss
     mt "С другой стороны, если он просто потрогает немного... А я как-нибудь перетерплю это, то..."
@@ -2376,7 +2385,7 @@ label dialogue_classmate_8:
     img 15032
     with diss
     m "Как я узнаю, что у вас получилось договориться с ней, мистер Эдвардс?"
-    misic Hidden_Agenda
+    music Hidden_Agenda
     img 15033
     with fade
     teacher "Будет лучше, если вы снова придете ко мне. И тогда я вам лично все сообщу, миссис Бейкер." #с улыбочкой
@@ -2385,7 +2394,7 @@ label dialogue_classmate_8:
     img black_screen
     with diss
     pause 2.0
-    music ZigZag
+    music Groove2_85
     img 14998
     with fade
     mt "Черт! Мне снова нужно будет приходить сюда!"
@@ -2405,7 +2414,6 @@ label dialogue_classmate_8:
     teacher "До свидания, миссис Бейкер."
     teacher "Буду рад видеть вас снова."
 
-    $ log1 = _("Сообщить Барди о визите в колледж")
     $ log1 = _("Идти в колледж, притворившись мамой Эрика")
     return
 
@@ -2418,6 +2426,12 @@ label dialogue_classmate_8_1:
 
 # Колледж. Класс. Разговор учителя и мисс Мэнсфилд.
 label dialogue_classmate_8_2:
+    scene black_screen
+    with Dissolve(1)
+    stop music fadeout 1.0
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    scene black_screen
+    with Dissolve(1)
     # в кабинет к Эдвардсу заходит мисс Мэнсфилд, в руках нагайка, учитель вскакивает со своего стула, широко улыбается
     music Groove2_85
     img 22558
@@ -2477,9 +2491,9 @@ label dialogue_classmate_8_2:
     with vpunch
     mansfield "Мистер Эдвардс! Сколько раз можно заводить этот разговор про ужин?"
     mansfield "Ответ тот же..."
-    music Power_Bots_Loop
+#    music Groove2_85
     img 22571
-    with diss
+#    with diss
     mansfield "НЕТ!"
     img 22572
     with fade
@@ -2490,13 +2504,13 @@ label dialogue_classmate_8_2:
     with diss
     teacher "Тогда, можеть быть... Кофе?" #растерянно
     teacher "Составите мне компанию, мисс Мэнсфилд?"
-    music Power_Bots_Loop
+    music Groove2_85
     sound Jump2
     img 22574
     with vpunch
     mansfield "Ответ НЕТ."
     # убирает нагайку с его груди, он держится за это место, она ему с насмешкой
-    music Groove2_85
+#    music Groove2_85
     img 22575
     with diss
     mansfield "И о какой благодарности с моей стороны может быть речь?!"
@@ -2515,7 +2529,8 @@ label dialogue_classmate_8_2:
     with diss
     mansfield "Не знаю, зачем вы так за него заступаетесь..."
     teacher "Он... Я..." #растерянно
-    music ZigZag
+    music Groove2_85
+    sound vjuh3
     img 22580
     with fade
     mansfield "Надеюсь, вас за это хорошо отблагодарили, мистер Эдвардс."
@@ -2528,6 +2543,10 @@ label dialogue_classmate_8_2:
     with fade
     mansfield "Жду мою методику завтра!"
     # хлопает дверью, Эдвардс стоит расстроенный
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
     return
 
 # Дом. Комната Барди. Барди и Моника
@@ -2593,60 +2612,63 @@ label dialogue_classmate_11:
     img 15036
     with fade
     m "Мистер Эдвардс, добрый день."
-    # учитель поворачивается к ней, с улыбочкой
     img 15037
     with diss
     teacher "Здавствуйте, миссис Бейкер."
-    teacher "Я вас ждал. Присаживайтесь."
-    # Моника садится на стул рядом с его столом
-    img 15038
-    with fade
-    m "Удалось ли вам договориться с мисс Мэнсфилд?" #с серьезным выражением лица
-    music Hidden_Agenda
-    img 15039
-    with diss
-    teacher "Видите ли, с мисс Мэнсфилд не так просто договориться."
-    teacher "Она снова нашла недочеты в моей работе."
-    img 15040
-    with fade
-    m "..."
-    img 14740
-    with diss
-    teacher "Но, благодаря вам, миссис Бейкер, я превзошел сам себя и доделал свою методику." #улыбаясь
-    teacher "Теперь она точно будет довольна!"
-    music ZigZag
-    img 14954
-    with fade
-    mt "Наконец-то, проблема решена!"
-    # учитель делает задумчивое лицо
-    music Hidden_Agenda
-    img 14953
-    with diss
-    teacher "Но теперь я сомневаюсь, стоит ли мне отдавать свою методику ей..."
-    music Power_Bots_Loop
-    img 15041
-    with hpunch
-    mt "!!!" #удивленно
-    music ZigZag
-    img 15042
-    with fade
-    m "Я очень рада, что у вас все получилось с вашей работой, мистер Эдвардс, но..."
-    m "Надеюсь, что я не зря прихожу к вам уже третий раз."
-    m "Я ожидаю, что вы все-таки договоритесь с мисс Мэнсфилд."
-    # вопросительно смотрит на него, учитель серьезно
-    img 15043
-    with diss
-    teacher "Мне будет очень непросто это сделать, миссис Бейкер."
-    teacher "Ведь я сам могу стать номинантом! Я считаю, что моя работа достойна этого."
-    teacher "Все зависит от того, насколько вы, миссис Бейкер, готовы поддержать меня..." #улыбочка
-    # Моника  в шоке, возмущается
-    music Power_Bots_Loop
-    sound Jump1
-    img 15044
-    with fade
-    m "Вы в своем уме?! Как вы можете мне такое предлагать?!"
-    m "Если бы я знала, что в итоге вы потребуете от меня ТАКОГО. Я бы отказалась вообще от вашей помощи!"
-    m "!!!"
+    if dialogue_classmate_11_flag == False:
+        # учитель поворачивается к ней, с улыбочкой
+        # Моника садится на стул рядом с его столом
+        teacher "Я вас ждал. Присаживайтесь."
+        img 15038
+        with fade
+        m "Удалось ли вам договориться с мисс Мэнсфилд?" #с серьезным выражением лица
+        music Hidden_Agenda
+        img 15039
+        with diss
+        teacher "Видите ли, с мисс Мэнсфилд не так просто договориться."
+        teacher "Она снова нашла недочеты в моей работе."
+        img 15040
+        with fade
+        m "..."
+        img 14740
+        with diss
+        teacher "Но, благодаря вам, миссис Бейкер, я превзошел сам себя и доделал свою методику." #улыбаясь
+        teacher "Теперь она точно будет довольна!"
+        music Groove2_85
+        img 14954
+        with fade
+        mt "Наконец-то, проблема решена!"
+        # учитель делает задумчивое лицо
+        music Hidden_Agenda
+        img 14953
+        with diss
+        teacher "Но теперь я сомневаюсь, стоит ли мне отдавать свою методику ей..."
+        music Power_Bots_Loop
+        img 15041
+        with hpunch
+        mt "!!!" #удивленно
+        music Groove2_85
+        img 15042
+        with fade
+        m "Я очень рада, что у вас все получилось с вашей работой, мистер Эдвардс, но..."
+        m "Надеюсь, что я не зря прихожу к вам уже третий раз."
+        m "Я ожидаю, что вы все-таки договоритесь с мисс Мэнсфилд."
+        # вопросительно смотрит на него, учитель серьезно
+        img 15043
+        with diss
+        teacher "Мне будет очень непросто это сделать, миссис Бейкер."
+        teacher "Ведь я сам могу стать номинантом! Я считаю, что моя работа достойна этого."
+        teacher "Все зависит от того, насколько вы, миссис Бейкер, готовы поддержать меня..." #улыбочка
+        # Моника  в шоке, возмущается
+        music Power_Bots_Loop
+        sound Jump1
+        img 15044
+        with fade
+        m "Вы в своем уме?! Как вы можете мне такое предлагать?!"
+        m "Если бы я знала, что в итоге вы потребуете от меня ТАКОГО. Я бы отказалась вообще от вашей помощи!"
+        m "!!!"
+        $ dialogue_classmate_11_flag = True
+
     music Hidden_Agenda
     img 15045
     with diss
@@ -2709,6 +2731,7 @@ label dialogue_classmate_11:
     mt "..."
     img 15056
     with diss
+    $ menu_corruption = [0, monicaTeacherCorruption8, monicaTeacherCorruption7]
     menu:
         "Убежать.":
             music Power_Bots_Loop
@@ -2717,7 +2740,7 @@ label dialogue_classmate_11:
             m "Я не буду этого делать!!!"
             return False
         "Постараться договориться с учителем без этих извращений.":
-            music ZigZag
+            music Groove2_85
             img 15018
             with fade
             m "Я не занимаюсь такими вещами, мистер Эдвардс!"
@@ -2730,9 +2753,11 @@ label dialogue_classmate_11:
             img 15020
             with diss
             teacher "..."
-            return 1
         "Если это поможет быстрее решить проблему малявки, то, возможно, стоит потерпеть...":
+            $ monicaEdvardschoice2 = True  # Моника сразу соглашается на требование учителя, не ломается (второе посещение)
             pass
+
+
     music Groove2_85
     img 15057
     with fade
@@ -2768,9 +2793,31 @@ label dialogue_classmate_11:
     img 15065
     with fade
     w
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_HandJob1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_HandJob1_1 = Movie(play="video/v_Monica_Teacher_HandJob1_1.mkv", fps=30)
+    show videov_Monica_Teacher_HandJob1_1
+    with fadelong
+    wclean
+    music Loved_Up
     img 15067
     with diss
     teacher "Ммм... Да-а-а, как же хорошо..."
+
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_HandJob1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_HandJob1_2 = Movie(play="video/v_Monica_Teacher_HandJob1_2.mkv", fps=30)
+    show videov_Monica_Teacher_HandJob1_2
+    with fadelong
+    wclean
+
+    music Loved_Up
     sound drkanje5
     img 15068
     with fade
@@ -2779,6 +2826,15 @@ label dialogue_classmate_11:
     img 15069
     with diss
     teacher "Ммммммм..."
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_HandJob1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_HandJob1_3 = Movie(play="video/v_Monica_Teacher_HandJob1_3.mkv", fps=30)
+    show videov_Monica_Teacher_HandJob1_3
+    with fadelong
+    wclean
+    music Loved_Up2
     # учитель ускоряет движения и со стоном кончает на блузку Моники
     img 15066
     with diss
@@ -2787,6 +2843,12 @@ label dialogue_classmate_11:
     img 15070
     with diss
     w
+#######################################
+
+
+
+
+#######################################
     music stop
     music Loved_Up2
     sound bulk1
@@ -2830,7 +2892,7 @@ label dialogue_classmate_11:
     img 15385
     with diss
     mt "!!!" #смотрит на него зло
-    music ZigZag
+    music Groove2_85
     img 14994
     with fade
     m "Проблема с Эриком точно решена, мистер Эдвардс?"
@@ -2845,8 +2907,9 @@ label dialogue_classmate_11:
     img 14997
     with diss
     teacher "Всегда к вашим услугам, миссис Бейкер."
+    $ monica_teacher_handjob = True
     # Моника уходит
-    return
+    return True
 
 # Город. Школьный двор. Моника, выйдя с колледжа.
 label dialogue_classmate_11_1:
@@ -2920,7 +2983,14 @@ label dialogue_classmate_12:
     img 15164
     with fadelong
     bardie "Гувентантка!!!"
+    return
+
+label dialogue_classmate_12a:
     # спустя несколько минут Моника заходит к нему в комнату, недовольно
+    music Sneaky_Snitch
+    img 15164
+    with fadelong
+    bardie "Гувентантка!!!"
     music stop
     img black_screen
     with diss
@@ -2946,11 +3016,15 @@ label dialogue_classmate_12:
         with fade
         mt "Черт!!!"
         mt "Он увидит, что я в трусиках и снова накажет меня!"
-        sound highheels_run2
         music Groove2_85
         img 15169
         with diss
         m "Я хорошая гувернантка! Но я не буду этого делать!"
+        sound highheels_run2
+        music stop
+        img black_screen
+        with diss
+        pause 2.0
         return False
     img 15170
     with diss
@@ -2958,11 +3032,15 @@ label dialogue_classmate_12:
         "Сделать, как требует Барди.":
             pass
         "Убежать.":
-            sound highheels_run2
             music Groove2_85
             img 15169
             with fade
             m "Я хорошая гувернантка! Но я не буду этого делать!"
+            sound highheels_run2
+            music stop
+            img black_screen
+            with diss
+            pause 2.0
             return False
     # Моника с недовольным лицом поднимает юбку
     music stop
@@ -2982,7 +3060,7 @@ label dialogue_classmate_12:
     with fade
     bardie "Хорошая гувернантка. Хозяин ею доволен. Поэтому может доверить ей одно дело."
     img 12995
-    with diss
+#    with diss
     mt "Только не это!"
     img 15172
     with fade
@@ -3062,12 +3140,13 @@ label dialogue_classmate_12_1:
 
 # Город. Школьный двор. Моника перед колледжем.
 label dialogue_classmate_13:
-    # не рендерить!
-    # Моника одета в костюм мамы, чем очень недовольна
-    mt "Чувствую себя ужасно в этом костюме. Как эта деревенщина Бетти может такое надевать?!"
-    mt "Надеюсь, этот мистер Эдвардс не будет от меня требовать всяких своих извращенских штук..."
-    mt "Как-будто у меня своих проблем мало..."
-    mt "Так, Моника, тебе нужно успокоить этого малявку Барди... Иначе проблем станет еще больше."
+    if cloth_type == "SchoolOutfit":
+        # не рендерить!
+        # Моника одета в костюм мамы, чем очень недовольна
+        mt "Чувствую себя ужасно в этом костюме. Как эта деревенщина Бетти может такое надевать?!"
+        mt "Надеюсь, этот мистер Эдвардс не будет от меня требовать всяких своих извращенских штук..."
+        mt "Как-будто у меня своих проблем мало..."
+        mt "Так, Моника, тебе нужно успокоить этого малявку Барди... Иначе проблем станет еще больше."
     return
 
 # Колледж. Класс. Разговор Моники и учителя.
@@ -3163,6 +3242,7 @@ label dialogue_classmate_14:
     mt "Ведь проблема уже решена. Зачем мне соглашаться на это?"
     img 15312
     with diss
+    $ menu_corruption = [0, monicaTeacherCorruption10, monicaTeacherCorruption9]
     menu:
         "Отказаться и уйти!":
             # Моника встает со своего стула
@@ -3205,9 +3285,10 @@ label dialogue_classmate_14:
             m "И только попробуй предложить мне еще раз подобное!"
             m "Весь колледж узнает о том, какая ты озабоченная сволочь!"
             # Моника уходит
+            $ monica_college_teacher_kicked1 = True
             return False
         "Постараться договориться с учителем без этих извращений.":
-            music ZigZag
+            music Groove2_85
             img 15321
             with fade
             m "Я не занимаюсь такими вещами, мистер Эдвардс!"
@@ -3216,12 +3297,13 @@ label dialogue_classmate_14:
             teacher "Мисс Мэнсфилд может и передумать..." #говорит многозначительно
             teacher "..."
             # учитель отворачивается и начинает просматривать какие-то бумаги на столе, работать
-            return 1
+#            return 1
         "Если это поможет быстрее решить проблему малявки, то, возможно, стоит потерпеть...":
+            $ monicaEdvardschoice3 = True # Моника сразу соглашается на требование учителя, не ломается (третье посещение)
             pass
 
     # Моника злится
-    music ZigZag
+    music Groove2_85
     img 15323
     with fade
     mt "!!!"
@@ -3237,7 +3319,7 @@ label dialogue_classmate_14:
     with diss
     teacher "И очень быстро все уладил."
     teacher "И все ради вас, миссис Бейкер!"
-    music ZigZag
+    music Groove2_85
     img 15327
     with fade
     m "..." #зло смотрит
@@ -3320,14 +3402,16 @@ label dialogue_classmate_14:
     with diss
     m "Ай, что вы делаете?!" # удивленно
     # учитель продолжает, потом встает, кладет ей руку на спину и наклоняет ее на свой стол, затем снова тянется к ее попе и целует ягодицы, потом начинает лизать ее киску
-    music ZigZag
+    music Groove2_85
     img 15345
     with fade
     w
+    music Groove2_85
     img 15346
     with diss
     m "Ч-что вы д-делаете?! Нет-нет!!!"
     m "Остановитесь, м-мы договаривались не так!"
+    sound Jump2
     img 15347
     with fade
     mt "Что этот извращенец творит?! Как он смеет так поступать со мной?!"
@@ -3338,12 +3422,14 @@ label dialogue_classmate_14:
     with diss
     w
     sound lick13
+    music Groove2_85
     img 15349
     with diss
     m "!!!"
     m "Прекратите это немедленно!"
     m "Мистер Эдвардс!!!"
     # но сама продолжает стоять в этой позе, оперевшись об стол
+    music Loved_Up
     img 15350
     with fade
     w
@@ -3374,14 +3460,16 @@ label dialogue_classmate_14:
     m "Прекратите!!!"
     m "Уберите сейчас же!"
     w
+    music stop
     img 15357
     with diss
     sound chmok2
     w
+    sound chmok2
     img 15358
     with diss
-    sound chmok2
     w
+    music Loved_Up
     sound ahhh11
     img 15359
     with fade
@@ -3392,6 +3480,31 @@ label dialogue_classmate_14:
     with diss
     sound chmok2
     mt "Надо... Остановить."
+
+######################################
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_Fingering1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_Fingering1_1 = Movie(play="video/v_Monica_Teacher_Fingering1_1.mkv", fps=30)
+    show videov_Monica_Teacher_Fingering1_1
+    with fadelong
+    wclean
+
+    if game.extra == True:
+        music stop
+        stop music
+        play music "<from " + str(float(rand(1,7))*1.0) + " loop 0.0>Sounds/v_Monica_Teacher_Fingering1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+        scene black
+        image videov_Monica_Teacher_Fingering1_2 = Movie(play="video/v_Monica_Teacher_Fingering1_2.mkv", fps=30)
+        show videov_Monica_Teacher_Fingering1_2
+        with fadelong
+        wclean
+######################################
+
+    music Loved_Up
     sound snd_zip
     img 15361
     with fade
@@ -3410,10 +3523,12 @@ label dialogue_classmate_14:
     img 15364
     with diss
     w
+    music Groove2_85
     img 15365
     with fade
     m "Мне это совсем не нравится! Не смейте этого делать!"
     m "Прекратите!!!"
+    music Hidden_Agenda
     img 15366
     with diss
     teacher "Да, конечно, миссис Бейкер... Еще несколько минут и я прекращу..."
@@ -3425,19 +3540,51 @@ label dialogue_classmate_14:
     sound snd_fabric1
     pause 2.0
     music Loved_Up2
+    sound2 Jump2
     img 15367
-    with fadelong
+    with hpunch
     sound chmok2
     m "АААА!"
     m "НЕЕЕЕТ!"
     # но вырваться не пытается, ноги послушно раздвинуты, учитель входит в нее полностью
     w
+
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_Sex1_1 = Movie(play="video/v_Monica_Teacher_Sex1_1.mkv", fps=30)
+    show videov_Monica_Teacher_Sex1_1
+    with fadelong
+    wclean
+    music Loved_Up2
     img 15382
     with diss
     w
     img 15368
     with fade
     mt "Черт! Черт!"
+    if game.extra == True:
+        music stop
+        stop music
+        play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_3.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+        scene black
+        image videov_Monica_Teacher_Sex1_3 = Movie(play="video/v_Monica_Teacher_Sex1_3.mkv", fps=30)
+        show videov_Monica_Teacher_Sex1_3
+        with fadelong
+        wclean
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_5.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_Sex1_5 = Movie(play="video/v_Monica_Teacher_Sex1_5.mkv", fps=30)
+    show videov_Monica_Teacher_Sex1_5
+    with fadelong
+    wclean
+
+    music Loved_Up2
     img 15369
     with diss
     m "Ах!"
@@ -3450,15 +3597,50 @@ label dialogue_classmate_14:
     img 15371
     with fade
     m "Ох!"
+
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_4.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_Sex1_4 = Movie(play="video/v_Monica_Teacher_Sex1_4.mkv", fps=30)
+    show videov_Monica_Teacher_Sex1_4
+    with fadelong
+    wclean
+    music Loved_Up2
     img 15372
     with diss
     sound ahhh11
     mt "Какое непонятное чувство... Что-то внизу живота и... ТАМ!"
     mt "Что он со мной делает?!"
     mt "Я хочу, чтобы он... Ах! ...чтобы он остановился!"
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Teacher_Sex1_2 = Movie(play="video/v_Monica_Teacher_Sex1_2.mkv", fps=30)
+    show videov_Monica_Teacher_Sex1_2
+    with fadelong
+    wclean
+    if game.extra == True:
+        music stop
+        stop music
+        play music "<from " + str(float(rand(1,5))*1.16666667) + " loop 0.0>Sounds/v_Monica_Teacher_Sex1_6.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+        scene black
+        image videov_Monica_Teacher_Sex1_6 = Movie(play="video/v_Monica_Teacher_Sex1_6.mkv", fps=30)
+        show videov_Monica_Teacher_Sex1_6
+        with fadelong
+        wclean
     # учитель ускоряется, Моника удивлена и испугана новыми ощущениями
     # в итоге сцены секса Моника не кончает, учитель кончит ей на ягодицы
     # Моника спешит одеться, ее бомбит, паника еще не прекратилась
+
+####################################
+
+
+
+#####################################
+
+    music Loved_Up2
     img 15373
     sound bulk1
     show screen photoshot_screen()
@@ -3482,18 +3664,18 @@ label dialogue_classmate_14:
     img black_screen
     with diss
     pause 1.5
-    music Power_Bots_Loop
+    music Groove2_85
     img 15376
     with fadelong
     mt "!!!"
     mt "..."
     mt "Чувствую себя также непонятно, как после вылизываний Барди и его друга..."
-    music ZigZag
     img 15377
     with fade
     mt "..."
     mt "Похоже это нервный срыв из-за всего за последнее время...!"
     # учитель застегивает штаны и садится за свой стол, довольный собой
+    music Hidden_Agenda
     img 15378
     with diss
     teacher "Я весьма рад такой благодарности от вас, миссис Бейкер!"
@@ -3520,6 +3702,8 @@ label dialogue_classmate_14:
     img black_screen
     with diss
     sound highheels_short_walk
+    $ monica_teacher_sex = True
+    $ monica_teacher_sex_day = day
     return
 
 # Город. Школьный двор. Моника, выйдя с колледжа.
@@ -3563,3 +3747,72 @@ label dialogue_classmate_15:
 label dialogue_classmate_15a:
     mt "Ненавижу эту малявку!"
     return
+
+
+
+
+
+
+
+label video_tutorial:
+
+    img black_screen
+    with diss
+
+    # видео, цикличное. без звука
+    scene black
+    image videov_Monica_Eric_Bardie_Licking_1_2 = Movie(play="video/v_Monica_Eric_Bardie_Licking_1_2.mkv", fps=30)
+    show videov_Monica_Eric_Bardie_Licking_1_2
+#    with fadelong # ставить только в первом видео серии, либо не ставить вовсе
+    wclean # то же самое, что "w", только без мигающей стрелочки
+
+    # видео, цикличное. со звуком
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,9))*1.16666667) + " loop 0.0>Sounds/v_Monica_Eric_Bardie_Licking_1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Eric_Bardie_Licking_1_2 = Movie(play="video/v_Monica_Eric_Bardie_Licking_1_2.mkv", fps=30)
+    show videov_Monica_Eric_Bardie_Licking_1_2
+    with fadelong
+    wclean
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,9))*1.16666667) + " loop 0.0>Sounds/v_Monica_Eric_Bardie_Licking_1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Eric_Bardie_Licking_1_3 = Movie(play="video/v_Monica_Eric_Bardie_Licking_1_3.mkv", fps=30)
+    show videov_Monica_Eric_Bardie_Licking_1_3
+    with fadelong
+    wclean
+
+
+    # видео, нецикличное. разовое
+    sound Monica_butt_plug_v # звук, который мы проигрываем
+    image videov_Marcus_Monica_Dildo_1_1 = Movie(play="video/v_Marcus_Monica_Dildo_1_1.mkv", fps=30, loop=False, image="/images/Slides/v_Marcus_Monica_Dildo_1_1_stop.jpg")
+    show videov_Marcus_Monica_Dildo_1_1
+    pause 2.5
+    music Master_Disorder
+    wclean
+
+    music Groove2_85
+    return
+
+
+# handjob - 30 кадров => 30 кадров / 30 fps (кадров в секунду) = 1 секунда
+# fingering - 30 => 30/ 30 fps = 1 секунда, пишем 1.0
+# sex - 35 => 35 / 30fps = 1.16666667
+# все они 30 fps (30 кадров в секунду)
+
+# monica_claire_oiling => 25 fps!!!
+
+# 10 повторений видео в звуке. Значит мы можем брать для начала воспроизведения случайный отрезок от 1 до 7
+
+
+
+
+
+
+
+
+    #

@@ -24,3 +24,11 @@ translate german strings:
     old "Уладить проблему Эрика в колледже"
     new "Löse Erics Problem im College"
 
+# TODO: Translation updated at 2019-12-02 02:48
+
+translate german strings:
+
+    # game/Quests/EP2_08/EP28_Quests_Monica_College.rpy:247
+    old "Поговорить с Барди (он бывает в своей комнате вечером)"
+    new "Sprich mit Bardie (er ist Abends in seinem Zimmer)"
+

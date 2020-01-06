@@ -30,6 +30,7 @@ label basement_bedroom_table_init:
 label basement_bedroom_table_teleport:
     if obj_name == "Teleport_Bedroom_Back":
         $ sleepAfterEat = False
+        $ basementBedroomMonicaSleepGfx = False
         call change_scene("basement_bedroom2") from _call_change_scene_93
         return
     return
@@ -41,6 +42,9 @@ label basement_bedroom_table_environment:
         if act == "h":
             sound snd_door_locked1
             $ renpy.pause(1.0)
+            if ep29_revenge_quest_started == True:
+                call ep29_dialogues5_gun_monica_a()
+                return
             mt "Закрыт..."
             "Мне неинтересно что там..."
 

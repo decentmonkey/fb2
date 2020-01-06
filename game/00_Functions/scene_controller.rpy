@@ -7,6 +7,8 @@ default game_version1_screen_ready_to_render = False
 default patch32applied = False
 default scene_caption = ""
 default exitHookCalled = False
+default scene_name = "none"
+default api_scene_name = "none"
 #default sprites_hover_dummy_screen_flag = False
 
 label show_scene:

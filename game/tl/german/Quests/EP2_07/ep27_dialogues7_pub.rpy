@@ -488,7 +488,7 @@ translate german ep27_dialogues7_pub8_1c4b13f9:
     # ashley "Я не верю тебе, [monica_pub_name]!"
     # ashley "Чаевых было как минимум $ 500, раз ты решила не отдавать их."
     ashley "Ich glaube dir nicht!"
-    ashley "Das waren bestimmt 500 $, die du eingesteckt hast!"
+    ashley "Das waren bestimmt 500 $ , die du eingesteckt hast!"
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:420
 translate german ep27_dialogues7_pub8_80434e83:
@@ -532,7 +532,7 @@ translate german ep27_dialogues7_pub8_28f51fc7:
 translate german ep27_dialogues7_pub8_8c7e5ee7:
 
     # m "Вот $ 500..."
-    m "Da sind 500 $."
+    m "Da sind 500 $ ."
 
 # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:456
 translate german ep27_dialogues7_pub8_90d92dab:
@@ -2211,4 +2211,26 @@ translate german strings:
     # game/Quests/EP2_07/ep27_dialogues7_pub.rpy:452
     old "Идти танцевать на сцену"
     new "Tanze auf der Bühne."
+
+# TODO: Translation updated at 2019-12-02 02:48
+
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:434
+translate german ep27_dialogues7_pub8_2d4f1dc4:
+
+    # ashley "Меня не волнуют твои оправдания, [monica_pub_name]."
+    ashley "Ich kümmere mich nicht um deine Ausreden, [monica_pub_name]."
+
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:436
+translate german ep27_dialogues7_pub8_749e9ab7:
+
+    # ashley "Либо ты отдаешь эти $ 500 наличными, либо иди отрабатывать эти деньги, виляя своей задницей на сцене."
+    ashley "Entweder gibst du mir 500 $ oder verdienst sie dir an der Stange!"
+
+# game/Quests/EP2_07/ep27_dialogues7_pub.rpy:447
+translate german ep27_dialogues7_pub8_9363041f:
+
+    # ashley "Ты отдашь эти $ 500 наличными."
+    # ashley "А иначе убирайся отсюда!"
+    ashley "Gib diese 500 $ in Bar."
+    ashley "Ansonsten hier raus!"
 

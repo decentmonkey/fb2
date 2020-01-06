@@ -138,3 +138,15 @@ translate german strings:
     old "Юлия боится Монику"
     new "Julia hat Angst vor Monica"
 
+# TODO: Translation updated at 2019-12-02 02:48
+
+translate german strings:
+
+    # game/scripts/init.rpy:407
+    old "Королева Shiny Hole"
+    new "Koenigin des Shiny Hole"
+
+    # game/scripts/init.rpy:408
+    old "Стриптизерша в Shiny Hole"
+    new "Stripperin im Shiny Hole"
+

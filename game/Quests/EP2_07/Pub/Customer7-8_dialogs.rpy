@@ -1,5 +1,7 @@
 # 2 парня у шеста
 
+default customer78_dance_comment_stage = 0
+
 label customer78_1stmeeting:
     music stop
     img black_screen
@@ -123,8 +125,43 @@ label customer78_serve1:
     sound highheels_short_walk
     pause 1.0
     music RocknRoll_loop
+
     img 14470
     with fadelong
+
+    # комментарий насчет танцев
+    if monicaStartedStripDanceFlag == True and customer78_dance_comment_stage == 1:
+        customer7 "Эй, детка! Когда уже разденешься на сцене?!"
+        m "Я... Я не танцую..."
+        customer7 "Мы это уже слышали. Не танцует она! Аха-ха!!!"
+        customer7 "Запомни: чем меньше одежды на сцене, тем больше чаевые!"
+        m "!!!"
+        mt "Похотливые животные! Ненавижу!"
+        m "Я..."
+        customer7 "А если пойдешь с нами в приват, то заработаешь раз в десять больше!"
+        m "Я не танцую!"
+        mt "!!!"
+        customer7 "А если будешь работать официанткой с голыми сиськами..."
+        customer7 "То чаевых будет еще больше! Аха-ха!!!"
+        mt "!!!"
+
+
+
+    if monicaStartedStripDanceFlag == True and customer78_dance_comment_stage == 0:
+        customer7 "О, детка! Правильно сделала, что послушалась нашего совета!"
+        m "Какого совета?"
+        customer7 "Отпадные сиськи! На сцене выглядишь охренительно!"
+        m "Я официантка, а не стриптизерша..."
+        customer7 "Конечно, конечно... А то я тебя не разглядел на сцене отсюда!"
+        m "Я..."
+        customer7 "В следующий раз снимай с себя все эти тряпки на сцене."
+        customer7 "Если хочешь заработать хорошие чаевые."
+        mt "!!!"
+        $ customer78_dance_comment_stage = 1
+
+    #
+
+
     m "Что будете..."
     img 14471
     with diss

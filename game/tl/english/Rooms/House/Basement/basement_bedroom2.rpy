@@ -96,3 +96,19 @@ translate english basement_bedroom2_environment_fb695496:
     "But it's only temporary!!!"
     "This is some kind of misunderstanding that will soon be resolved!"
 
+# TODO: Translation updated at 2019-12-02 02:47
+
+# game/Rooms/House/Basement/basement_bedroom2.rpy:163
+translate english basement_bedroom2_environment_014731bc:
+
+    # mt "Эта жуткая пробка..."
+    # mt "Я даже боюсь вспоминать, при каких обстоятельствах она оказалась у меня..."
+    mt "This creepy jam ..."
+    mt "I’m even afraid to remember under what circumstances she was with me ..."
+
+# game/Rooms/House/Basement/basement_bedroom2.rpy:166
+translate english basement_bedroom2_environment_37623f39:
+
+    # mt "Я не буду прикасаться к ней! Только не снова!"
+    mt "I will not touch her! Just not again!"
+

@@ -58,6 +58,7 @@ define reception = Character(_("Рецепшин Администратор"), w
 define reception_t = Character(_("Рецепшин Администратор"), who_color=c_pink) #Reception Administrator
 define house_guard = Character(_("Охранник"), who_color=c_red) #Guard
 define dick_secretary = Character(_("Секретарша Дика"), who_color=c_red) #Dick Secretary
+define victoria = Character(_("Секретарша Дика"), who_color=c_red) #Dick Secretary
 define perry = Character(_("Перри"), who_color=c_green) #Perry
 define ralph = Character(_("Ральф Робертс"), who_color=c_green) #Ralph Roberts
 define biff = Character(_("Биф"), who_color=c_blue) #biff
@@ -157,5 +158,10 @@ define customer11t = Character(_("Посетитель"), who_color=c_blue, what
 define customer12 = Character(_("Посетитель"), who_color=c_blue)
 define customer12t = Character(_("Посетитель"), who_color=c_blue, what_color=c_blue, what_italic=True)
 
+define customers1 = Character(_("Зритель"), who_color=c_blue)
+define customers2 = Character(_("Зритель"), who_color=c_orange)
+define customers3 = Character(_("Зритель"), who_color=c_red)
+define customers4 = Character(_("Зритель"), who_color=c_green)
+define customers5 = Character(_("Зритель"), who_color=c_pink)
 
 #

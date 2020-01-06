@@ -96,3 +96,19 @@ translate german basement_bedroom2_environment_fb695496:
     "Aber das ist nur übergangsweise!!!"
     "Das ist ales ein Missverständnis, das bald aufgeklärt sein wird!"
 
+# TODO: Translation updated at 2019-12-02 02:48
+
+# game/Rooms/House/Basement/basement_bedroom2.rpy:163
+translate german basement_bedroom2_environment_014731bc:
+
+    # mt "Эта жуткая пробка..."
+    # mt "Я даже боюсь вспоминать, при каких обстоятельствах она оказалась у меня..."
+    mt "Dieser gruselige Typ..."
+    mt "Ich will mich nicht mal daran erinnern, unter welchen Umständen sie bei mir war..."
+
+# game/Rooms/House/Basement/basement_bedroom2.rpy:166
+translate german basement_bedroom2_environment_37623f39:
+
+    # mt "Я не буду прикасаться к ней! Только не снова!"
+    mt "Ich werde sie nicht anfassen! Nicht schon wieder!"
+

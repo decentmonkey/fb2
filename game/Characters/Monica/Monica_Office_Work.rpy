@@ -222,6 +222,7 @@ label office_work_begin1:
     if _return == False:
         return False
     call process_hooks("office_work_process", "global") from _call_process_hooks_63
+    call ep29_quests_melanie_check() # Проверка продолжения квеста с Мелани
     img black_screen
     with diss
     pause 1.5
@@ -237,6 +238,7 @@ label office_work_begin1:
 label office_work_begin2:
     # Рабочий день с приказами Юлии
     call process_hooks("office_work_process", "global") from _call_process_hooks_64
+    call ep29_quests_melanie_check() # Проверка продолжения квеста с Мелани
     img black_screen
     with diss
     pause 1.5

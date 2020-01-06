@@ -16,6 +16,8 @@ default pubVisitor10Suffix = ""
 default pubVisitor11Suffix = ""
 default pubVisitor12Suffix = ""
 
+default pubLocationInitializedForced = False
+
 label pub:
     $ print "enter_pub"
     $ miniMapData = []
@@ -32,6 +34,12 @@ label pub:
 
     if get_active_objects(scene="pub", group="visitors") != False:
         music2 pub_noise1
+
+    if pubLocationInitializedForced == False and monica_pub_name == False:
+        $ add_hook("enter_scene", "ep23_quests_pub1", scene="pub")
+        $ set_active("Pub_Washbasin", False, scene="pub")
+        $ pubLocationInitializedForced = True
+
 
     return
 label pub_init:
@@ -60,13 +68,18 @@ label pub_init:
     $ add_object_to_scene("Pub_Bar", {"type" : 2, "base" : "Pub_Bar", "click" : "pub_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub")
     $ add_object_to_scene("Pub_Bar_Table", {"type" : 2, "base" : "Pub_Bar_Table", "click" : "pub_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub")
 #    $ add_object_to_scene("Pub_Pole", {"type" : 2, "base" : "Pub_Pole", "click" : "pub_environment", "actions" : "lw", "zorder":0, "group":"environment"}, scene="pub")
-    $ add_object_to_scene("Pub_Washbasin", {"type" : 2, "base" : "Pub_Washbasin", "click" : "pub_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub")
+    $ add_object_to_scene("Pub_Washbasin", {"type" : 2, "base" : "Pub_Washbasin", "click" : "pub_environment", "actions" : "l", "zorder":0, "group":"environment", "active":False}, scene="pub")
 
 #    $ add_object_to_scene("Car", {"type":2, "base":"pub_Car", "click" : "pub_environment", "actions" : "l", "zorder" : 0})
 
     $ add_object_to_scene("Teleport_Hostel_Street", {"type":3, "text" : _("ВЫХОД ИЗ HOLE"), "rarrow" : "arrow_right_2", "base":"Pub_Teleport_Hostel_Street", "click" : "pub_teleport", "xpos" : 1379, "ypos" : 1023, "zorder":250, "teleport":True, "high_sprite_hover":True}, scene="pub")
 
     return
+
+label pub_ini2:
+    $ add_object_to_scene("Teleport_Pub_MakeupRoom", {"type":3, "text" : _("ГРИМЕРНАЯ КОМНАТА"), "larrow" : "arrow_left_2", "base":"empty", "click" : "pub_teleport", "xpos" : 225, "ypos" : 1023, "zorder":250, "teleport":True, "high_sprite_hover":True}, scene="pub")
+    return
+
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
@@ -75,6 +88,11 @@ label pub_teleport:
     if obj_name == "Teleport_Hostel_Street":
         music2 stop
         call change_scene("hostel_street") from _call_change_scene_169
+    if obj_name == "Teleport_Pub_MakeupRoom":
+        if cloth == "Whore":
+            $ pub_makeuproom_monica_suffix = 1
+        music2 stop
+        call change_scene("pub_makeuproom", "Fade_long")
     return
 label pub_environment:
     if obj_name == "Bartender":
@@ -129,6 +147,14 @@ label pub_environment:
                     img 9667
             with fade
             w
+            if ep29_quests_pub_monica_knows_molly == True and obj_name == "Pub_StripteaseGirl1":
+                call dialogue_5_dance_strip_25()
+                call refresh_scene_fade()
+                return
+            if ep29_quests_pub_monica_knows_claire == True and obj_name == "Pub_StripteaseGirl2":
+                call dialogue_5_dance_strip_26()
+                call refresh_scene_fade()
+                return
             mt "Эти девушки совсем не уважают себя!"
             "Как можно делать подобное у всех на виду?!"
             call refresh_scene_fade() from _call_refresh_scene_fade_47

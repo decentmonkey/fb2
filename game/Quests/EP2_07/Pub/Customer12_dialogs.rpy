@@ -1,3 +1,5 @@
+default customer12_dance_comment_stage = 0
+
 # мужик который выглядит как баба
 default customer12_serve1_event1_count = 0
 label customer12_1stmeeting:
@@ -57,6 +59,45 @@ label customer12_serve1:
     sound highheels_short_walk
     img 14438
     with fadelong
+
+
+    # комментарий насчет танцев
+    if monicaStartedStripDanceFlag == True and customer12_dance_comment_stage == 1:
+        customer12 "О, это ты! Слушай, а как насчет привата?"
+        m "Я не танцую приват... И на сцене не танцую."
+        customer12 "Я это уже слышал... Аха-ха!!!"
+        customer12 "Хорош уже строить из себя невинную цыпочку!"
+        customer12 "Сколько за приват?"
+        mt "?!"
+        m "Я не танцую приват!"
+        customer12 "А зря! Могла бы хорошо заработать!"
+        customer12 "Ладно, думаю, это временно. Скоро ты передумаешь."
+        mt "!!!"
+        mt "Ни за что не пойду в приват!"
+        mt "За кого он меня принимает?!"
+
+
+    if monicaStartedStripDanceFlag == True and customer12_dance_comment_stage == 0:
+        customer12 "Эй, ты же у пилона теперь сиськами трясешь!"
+        customer12 "Или ты здесь на двух работах?"
+        m "!!!"
+        m "Вы меня с кем-то путаете. Я не танцую на сцене."
+        customer12 "Ну конечно! Я что, слепой что-ли?!"
+        m "Я просто официантка..."
+        customer12 "Ну ладно. Не хочешь - не говори."
+        customer12 "Только на сцене в следующий раз танцуй без этих своих шмоток."
+        m "!!!"
+        customer12 "Тогда не придется подрабатывать официанткой."
+        customer12 "За такие сиськи чаевых много будут платить."
+        mt "Фу, как грубо!"
+        mt "По-моему, здесь все такие грубияны!"
+        mt "!!!"
+        mt "Как мне надоела эта дыра!"
+        $ customer12_dance_comment_stage = 1
+
+    #
+
+
     m "Здравствуйте, что будете заказывать?"
     img 14439
     with diss

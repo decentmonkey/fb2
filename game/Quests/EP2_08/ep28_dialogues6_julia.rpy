@@ -1059,7 +1059,7 @@ label ep28_dialogues6_julia_8:
     with fadelong
     mt "..."
     mt "Я уже не знаю, что еще можно придумать..."
-    help "Дальнейший прогресс с Юлией будет доступен в следующем обновлении."
+#    help "Дальнейший прогресс с Юлией будет доступен в следующем обновлении."
     return True
 
 
@@ -1074,6 +1074,12 @@ label ep28_dialogues6_julia_9:
             return 3
         "Показать Юлии свои трусики." if juliaQuestStage1_Progress > 3:
             return 4
+        "Заставить Юлию включить неработающий компьютер." if juliaQuestStage1_Progress > 4:
+            return 5
+        "Заставить Юлию принести горячий кофе." if juliaQuestStage1_Progress > 5:
+            return 6
+        "Есть же подчиненные. Поручить им выполнить просьбу Фреда." if juliaQuestStage1_Progress > 6:
+            return 7
         "Уйти.":
             return 0
     return

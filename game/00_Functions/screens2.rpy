@@ -84,6 +84,33 @@ screen choose_photoshoot_outfit():
                 $ offsetXIdx += 1
             $ offsetYIdx +=1
 
+screen choose_melanie_photoshoot_outfit():
+    modal True
+    fixed:
+        xpos getRes(480)
+        ypos getRes(220)
+        $ offsetYIdx = 0
+        $ idx = 0
+        for row1 in range(0,2):
+            $ offsetXIdx = 0
+            for col1 in range(0,5):
+                imagebutton:
+                    xpos (offsetXIdx * getRes(200))
+                    ypos (offsetYIdx * getRes(330))
+                    if melanieOutfitsEnabled[idx] == True:
+                        idle melanieOutfitsIcons[idx] + ".png"
+                        hover melanieOutfitsIcons[idx] + "_hover.png"
+                        action Return(idx)
+                    else:
+                        if melanieOutfitsIcons[idx] == "":
+                            idle "/Icons2/Photoshoot_Empty_Icon_Disabled.png"
+                        else:
+                            idle melanieOutfitsIcons[idx] + "_Disabled.png"
+                        action Return(-1)
+                $ idx += 1
+                $ offsetXIdx += 1
+            $ offsetYIdx +=1
+
 screen photoshoot_camera_icon(shootsArr):
     $ list1 = list(set(shootsArr))
     fixed:
@@ -328,20 +355,213 @@ screen achievements_screen():
                 $ curY += int(math.ceil(float(len(cellsList))/float(cellsInRow))) * cellSizeY + gui.resolution.gallery.category_margin_down
 
 
+screen love_bar_screen(oldBarValue, newBarValue):
+    fixed:
+            bar:
+                xpos getRes(17)
+                ypos getRes(260)
+                value AnimatedValue(float(newBarValue)/100, 1.0, 1.0, float(oldBarValue)/100)
+                xoffset 5
+                xysize(gui.resolution.hud_screen.love_bar_xysize)
+                bar_vertical True
+                top_bar "/icons/bar/love_bar_empty" + res.suffix + ".png"
+                bottom_bar "/icons/bar/love_bar_full" + res.suffix + ".png"
+                thumb "/icons/bar/love_bar_thumb" + res.suffix + ".png"
+                bottom_gutter gui.resolution.hud_screen.love_bar_bottom_gutter
+                top_gutter gui.resolution.hud_screen.love_bar_top_gutter
+                thumb_offset gui.resolution.hud_screen.love_bar_thumb_offset
+
+
+screen poledance_camera_icon(shootsArr):
+    $ list1 = list(set(shootsArr))
+    fixed:
+        xpos getRes(40)
+        ypos getRes(20)
+        hbox:
+            add "/Icons2/Photo_Cinema_icon.png"
+            null width getRes(8)
+            text str(len(list(set(shootsArr)))) + " / " + str(shotsTotalAmount) style "photoshoot_cinema_text_style"
 
 
 
+screen poledance():
+    fixed:
+        xpos getRes(1650)
+        ypos getRes(430)
+        #up
+        if arrowUp == True:
+            imagebutton:
+                xanchor 0.5
+                yanchor 0.5
+                xpos getRes(50)
+                ypos getRes(-40)
+                idle "/Icons2/dance_up.png"
+                hover "/Icons2/dance_up_hover.png"
+                action [SetVariable("arrowUp", False), Return("up")]
+        else:
+            add "/Icons2/dance_up_Disabled.png":
+                xpos getRes(50)
+                ypos getRes(-40)
+                xanchor 0.5
+                yanchor 0.5
+        #left
+        if arrowSide == True:
+            imagebutton:
+                xanchor 0.5
+                yanchor 0.5
+                xpos getRes(0)
+                ypos getRes(80)
+                idle "/Icons2/dance_left.png"
+                hover "/Icons2/dance_left_hover.png"
+                action [SetVariable("arrowSide", False), Return("side")]
+        else:
+            add "/Icons2/dance_left_Disabled.png":
+                xpos getRes(0)
+                ypos getRes(80)
+                xanchor 0.5
+                yanchor 0.5
+        #down
+        if arrowDown == True:
+            imagebutton:
+                xanchor 0.5
+                yanchor 0.5
+                xpos getRes(50)
+                ypos getRes(200)
+                idle "/Icons2/dance_down.png"
+                hover "/Icons2/dance_down_hover.png"
+                action [SetVariable("arrowDown", False), Return("down")]
+        else:
+            add "/Icons2/dance_down_Disabled.png":
+                xpos getRes(50)
+                ypos getRes(200)
+                xanchor 0.5
+                yanchor 0.5
+        #next
+        if arrowStop == True:
+            imagebutton:
+                xanchor 0.5
+                yanchor 0.5
+                xpos getRes(170)
+                ypos getRes(80)
+                idle "/Icons2/dance_stop.png"
+                hover "/Icons2/dance_stop_hover.png"
+                action Return("stop")
+        else:
+            add "/Icons2/dance_stop_Disabled.png":
+                xanchor 0.5
+                yanchor 0.5
+                xpos getRes(170)
+                ypos getRes(80)
+
+
+screen poledance_shoot(imagePath):
+    add imagePath at pole_dance_shake
 
 
 
+screen poledance_coins(coinsArr):
 
+    zorder 100
+    style_prefix "notify"
 
+    $ notifOffset = 0
+    $ idx1 = 0
+    for coin in coinsArr:
+        $ msg =  ("+ $" + str(coin))
+        if idx == 0:
+            frame at coin_appear1:
+                ypos 0.2
+                yoffset notifOffset
+                text "[msg!tq]"
+                $ notifOffset += notifyLineOffset
+                $ idx1 += 1
+        if idx == 1:
+            frame at coin_appear2:
+                ypos 0.2
+                yoffset notifOffset
+                text "[msg!tq]"
+                $ notifOffset += notifyLineOffset
+                $ idx1 += 1
+        if idx == 2:
+            frame at coin_appear3:
+                ypos 0.2
+                yoffset notifOffset
+                text "[msg!tq]"
+                $ notifOffset += notifyLineOffset
+                $ idx1 += 1
+        if idx == 3:
+            frame at coin_appear4:
+                ypos 0.2
+                yoffset notifOffset
+                text "[msg!tq]"
+                $ notifOffset += notifyLineOffset
+                $ idx1 += 1
+        if idx == 4:
+            frame at coin_appear5:
+                ypos 0.2
+                yoffset notifOffset
+                text "[msg!tq]"
+                $ notifOffset += notifyLineOffset
+                $ idx1 += 1
+        if idx == 5:
+            frame at coin_appear6:
+                ypos 0.2
+                yoffset notifOffset
+                text "[msg!tq]"
+                $ notifOffset += notifyLineOffset
+                $ idx1 += 1
+        if idx == 6:
+            frame at coin_appear7:
+                ypos 0.2
+                yoffset notifOffset
+                text "[msg!tq]"
+                $ notifOffset += notifyLineOffset
+                $ idx1 += 1
+    timer (3.25) action [Hide('poledance_coins')]
 
+transform coin_appear1:
+    on show:
+        alpha 0
+        linear .25 alpha 1.0
+    on hide:
+        linear .5 alpha 0.0
 
-
-
-
-
+transform coin_appear2:
+    on show:
+        alpha 0
+        linear .25 alpha 1.0
+    on hide:
+        linear .5 alpha 0.0
+transform coin_appear3:
+    on show:
+        alpha 0
+        linear .25 alpha 1.0
+    on hide:
+        linear .5 alpha 0.0
+transform coin_appear4:
+    on show:
+        alpha 0
+        linear .25 alpha 1.0
+    on hide:
+        linear .5 alpha 0.0
+transform coin_appear5:
+    on show:
+        alpha 0
+        linear .25 alpha 1.0
+    on hide:
+        linear .5 alpha 0.0
+transform coin_appear6:
+    on show:
+        alpha 0
+        linear .25 alpha 1.0
+    on hide:
+        linear .5 alpha 0.0
+transform coin_appear7:
+    on show:
+        alpha 0
+        linear .25 alpha 1.0
+    on hide:
+        linear .5 alpha 0.0
 
 
 

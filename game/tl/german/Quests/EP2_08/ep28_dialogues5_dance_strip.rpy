@@ -220,7 +220,7 @@ translate german dialogue_5_dance_strip_3_87bbf6da:
     joe "Ich sage Ashley, dass du ab morgen deine Schulden begleichen wirst."
     joe "{c}Komme morgen wieder{/c}."
     joe "Claire arbeitet, sie wird dir was geben."
-    mt "{cMorgen{/c} muss ich wieder in diese abartige Umkleide, wah!"
+    mt "{c}Morgen{/c} muss ich wieder in diese abartige Umkleide, wah!"
     mt "Und ich muss mich mit dieser anderen niederen Existenz erneut beschäftigen!"
     mt "!!!"
 
@@ -427,7 +427,7 @@ translate german dialogue_5_dance_strip_6_d61dbc1a:
     mt "!!!"
     m "Ich werde nicht nackt tanzen!" 
     ashley "Dann geh in die Umkleide und rede mit Claire."
-    ashley "Oder gib mir 500 $, dann musst du nicht tanzen."
+    ashley "Oder gib mir 500 $ , dann musst du nicht tanzen."
     mt "..."
 
 # game/Quests/EP2_08/ep28_dialogues5_dance_strip.rpy:273
@@ -439,7 +439,7 @@ translate german dialogue_5_dance_strip_6_ac3ffaaa:
     # ashley "Ладно, так уж и быть. Теперь ты можешь снова работать здесь."
     # ashley "Но не испытывай моего терпения!"
     m "Ashley ..."
-    m "Da sind 500 $."
+    m "Da sind 500 $ ."
     ashley "Ich wusste es, ha ha!"
     ashley "Gut, du kannst hier wieder arbeiten."
     ashley "Aber belaste nie wieder meine Gutmütigkeit!"
@@ -491,7 +491,7 @@ translate german dialogue_5_dance_strip_7_ac3ffaaa:
     # ashley "Ладно, так уж и быть. Теперь ты можешь снова работать здесь."
     # ashley "Но не испытывай моего терпения!"
     m "Ashley ..."
-    m "Da sind 500 $."
+    m "Da sind 500 $ ."
     ashley "Ich wusste es, ha ha!"
     ashley "Gut, du kannst hier wieder arbeiten."
     ashley "Aber belaste nie wieder meine Gutmütigkeit!"
@@ -718,7 +718,7 @@ translate german dialogue_5_dance_strip_8_c09f030e:
     clare "Du siehst aus wie eine Ein-Million-Dollar Frau."
     mt "Ich sehe immer so aus... Und ich sehe nicht nur so aus... Ich koste auch soviel."
     mt "Milliarden..."
-    mt "Но, думаю Клэр не умеет даже считать до стольки..."
+    mt "Aber ich glaube nicht, dass Claire überhaupt so weit zählen kann..."
     clare "Aber ich bezweifel, dass Claire überhaupt so weit zählen kann..."
     mt "Komm schon, sie warten auf dich!"
 

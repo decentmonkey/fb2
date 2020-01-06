@@ -370,3 +370,31 @@ translate german strings:
     old "Мистер Эдвардс"
     new "Mr. Edwards"
 
+# TODO: Translation updated at 2019-11-23 13:31
+
+translate german strings:
+
+    # game/00_Functions/07_init_renpy.rpy:77
+    old "Мисс Менсфилд"
+    new "Miss Mansfield"
+
+    # game/00_Functions/07_init_renpy.rpy:78
+    old "Клэр"
+    new "Claire"
+
+    # game/00_Functions/07_init_renpy.rpy:79
+    old "Стриптизерша"
+    new "Stripper"
+
+    # game/00_Functions/07_init_renpy.rpy:80
+    old "Молли"
+    new "Molly"
+
+# TODO: Translation updated at 2019-12-02 02:48
+
+translate german strings:
+
+    # game/00_Functions/07_init_renpy.rpy:161
+    old "Зритель"
+    new "Zuschauer"
+

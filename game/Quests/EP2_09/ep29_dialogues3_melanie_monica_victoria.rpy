@@ -8,6 +8,7 @@
 label ep29_dialogues3_melanie_monica_victoria_3b:
     # Моника смотрит на Мелани удивленно
     music ZigZag
+    sound snd_door_open1
     img 15409
     with fadelong
     w
@@ -82,8 +83,10 @@ label ep29_dialogues3_melanie_monica_victoria_3b:
     img black_screen
     with diss
     sound highheels_short_walk
+    sound2 snd_door_close1
+    pause 2.0
     # у Моники в заданиях появляется "Пойти вечером к Мелани домой на встречу с 'другом'"
-    $ log1 = _("Пойти вечером к Мелани домой на встречу с 'другом'")
+    #$ log1 = _("Пойти вечером к Мелани домой на встречу с 'другом'")
     return
 
 # кабинет Моники, когда поработала до вечера и пора идти к Мелани
@@ -105,7 +108,7 @@ label ep29_dialogues3_melanie_monica_victoria_7:
     mt "Лучше мне пойти сейчас к Мелани и самой все узнать."
     mt "Да, так будет лучше всего."
     # в заданиях появляется "Нужно переодеться и ехать к Мелани"
-    $ log1 = _("Нужно переодеться и ехать к Мелани")
+    #$ log1 = _("Нужно переодеться и ехать к Мелани")
     return
 
 # мысли Моники
@@ -125,11 +128,23 @@ label ep29_dialogues3_melanie_monica_victoria_7b:
 # не рендерить!!!
 label ep29_dialogues3_melanie_monica_victoria_7c:
 # Моника пытается лечь спать
+    img scene_Basement_Bedroom1
+    with fadelong
     mt "Я, конечно, могу не ехать к Мелани, но..."
     mt "Тогда меня могут ждать большие неприятности с Маркусом!"
     mt "Даже не хочу думать о том, что тогда меня может ожидать!"
     mt "!!!"
     mt "Лучше мне пойти сейчас к Мелани и самой все узнать."
+    menu:
+        "Лечь спать (пропуск событий с Мелани).":
+            return True
+        "Не ложиться.":
+            return False
+    return False
+
+label ep29_dialogues3_melanie_monica_victoria_7d:
+    mt "Ой, я заснула? Мне приснился странный сон."
+    mt "Впрочем, уже вечер. Мне нечего делать здесь."
     return
 
 # при клике на Дом Мелани на карте включается сцена у Мелани дома
@@ -268,7 +283,7 @@ label ep29_dialogues3_melanie_monica_victoria_1:
     with diss
     melanie_t "Сейчас мне нужно ехать в офис Дика."
     # встает со стула
-    $ log1 = _("Пойти в офис Дика и узнать, что нужно Виктории")
+#    $ log1 = _("Пойти в офис Дика и узнать, что нужно Виктории")
     return
 
 # управление перешло на Мелани
@@ -337,9 +352,18 @@ label ep29_dialogues3_melanie_monica_victoria_1l:
 label ep29_dialogues3_melanie_monica_victoria_1m:
     # смотрит на секретаря Бифа (разговор, когда Бифа нет на месте)
     #img
+    music Groove2_85
+    img 15801
+    with fade
     melanie "Биф у себя?"
+    img 15802
+    with diss
     secretary "К сожалению, Мисс Мелани, он будет только вечером. Что-нибудь ему передать?"
+    img 15803
+    with fade
     melanie "Нет, спасибо. Я позже сама с ним поговорю."
+    img 15804
+    with diss
     melanie_t "Бифа сложно застать на рабочем месте. Такое ощущение, что он сюда приходит только выпить виски по вечерам..."
     return
 
@@ -347,9 +371,22 @@ label ep29_dialogues3_melanie_monica_victoria_1m:
 label ep29_dialogues3_melanie_monica_victoria_1n:
     # смотрит на секретаря Бифа (разговор, когда Биф на работе, вечером после посещения офиса Дика)
     #img
+    music Groove2_85
+    img 15805
+    with fade
     melanie "Биф у себя?"
+    img 15802
+    with diss
     secretary "Да, Мисс Мелани. Проходите."
+    img 15803
+    with fade
     melanie "Спасибо."
+    return
+
+label ep29_dialogues3_melanie_monica_victoria_1n2:
+    # Мелани заходит в кабинет Бифа, когда его нет
+    melanie_t "Бифа сейчас нет."
+    melanie_t "И мне нечего делать здесь. Я не найду здесь ничего, кроме пустых бутылок из-под виски."
     return
 
 # мысли Мелани в кабинете Бифа
@@ -392,12 +429,12 @@ label ep29_dialogues3_melanie_monica_victoria_1t:
 # не рендерить!!!
 label ep29_dialogues3_melanie_monica_victoria_1u:
     # смотрит на Юлию (глазик)
-    melanie_t "Это кто? Наверное, помощница Миссис Бакфетт. Я не хотела бы оказаться на ее месте."
-    return
-label ep29_dialogues3_melanie_monica_victoria_1v:
-    # смотрит на Юлию (разговор)
+    if act=="l":
+        melanie_t "Это кто? Наверное, помощница Миссис Бакфетт. Я не хотела бы оказаться на ее месте."
+        return
     melanie_t "Мне с ней не о чем разговаривать."
     return
+
 label ep29_dialogues3_melanie_monica_victoria_1w:
     # смотрит на Монику (глазик)
     melanie_t "Миссис Бакфетт. Она неплохо тут устроилась."
@@ -419,26 +456,46 @@ label ep29_dialogues3_melanie_monica_victoria_1y:
 
 label ep29_dialogues3_melanie_monica_victoria_1z:
     # смотрит на секретаря на ресепшене (разговор)
-    img 15454
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    music m80s_Things
+    pause 2.0
+    img 15454    # секретарь ресепшн на первом этаже у Дика
+    with fadelong
     w
-    img 15455
+    sound highheels_short_walk
+    img 15455   # секретарь ресепшн на первом этаже у Дика
+    with fade
     w
     img 15713
+    with diss
     w
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music ZigZag
     img 15714
+    with fadelong
     reception_secretary "Здравствуйте, Мисс Мелани!"
     reception_secretary "Я так рада Вас видеть!"
     reception_secretary "Вы, как всегда, великолепно выглядите!"
     img 15715
+    with diss
     melanie "Спасибо."
     img 13940
+    with fade
     reception_secretary "Вы пришли к Мистеру Дику? Он как раз у себя."
     reception_secretary "Уверена, что Мистер Дик будет рад Вашему визиту! Я могу проводить Вас, Мисс Мелани."
     img 15716
+    with diss
     w
     img 15717
+    with diss
     melanie "Это совсем необязательно. Я помню, где находится кабинет Мистера Дика."
     img 15718
+    with fade
     melanie_t "Не хватало еще, чтобы мелкая сучка сказала что-нибудь унизительное мне при этой женщине."
     return
 
@@ -542,42 +599,29 @@ label ep29_dialogues3_melanie_monica_victoria_1oo:
 label ep29_dialogues3_melanie_monica_victoria_1pp:
     melanie_t "Виктория ясно дала понять, что продолжит разговор вечером."
     melanie_t "Сейчас нет смысла возвращаться в офис Дика."
-    return
+    return False
 
 # если Мелани хочет зайти снова к Монике после разговора с ней
 label ep29_dialogues3_melanie_monica_victoria_1rr:
     melanie_t "Думаю, Миссис Бакфетт поняла, что должна прийти ко мне вечером."
     melanie_t "Уверена, что она не проигнорирует эту встречу."
-    return
+    return False
 
 # если Мелани хочет зайти снова к Бифу после разговора с ним
 label ep29_dialogues3_melanie_monica_victoria_1ss:
+    if act=="l":
+        return
     melanie_t "Я больше не хочу с ним разговаривать."
-    return
+    return False
 
-# Мелани поднимается на лифте в приемную Дика
 label ep29_dialogues3_melanie_monica_victoria_2:
     # Виктория сидит за своим рабочим столом с самодовольным видом
-    img black_screen
-    with diss
-    sound highheels_short_walk
-    pause 2.0
-    music m80s_Things
-    img 15454    # секретарь ресепшн на первом этаже у Дика
-    with fadelong
-    w
-    sound highheels_short_walk
-    img 15455   # секретарь ресепшн на первом этаже у Дика
-    with fade
-    w
-    music stop
-    img black_screen
-    with diss
-    sound snd_lift
-    pause 2.0
+
+#    sound snd_lift
+#    pause 2.0
     music ZigZag
     img 15456
-    with fade
+    with fadelong
     w
     img 15457
     with diss
@@ -604,18 +648,21 @@ label ep29_dialogues3_melanie_monica_victoria_2:
     # разворачивается, отходит от стола, потом подходит снова
     # Виктория внимательно наблюдает за ней
     # Мелани с каменным лицом
-    music stop
+#    music stop
     img black_screen
     with diss
     sound highheels_short_walk
-    pause 2.0
     music ZigZag
     img 15461
     with fadelong
     w
+    return
+
+label ep29_dialogues3_melanie_monica_victoria_2a0:
+    music ZigZag
     sound highheels_short_walk
     img 15462
-    with fade
+    with fadelong
     w
     img 15463
     with diss
@@ -691,9 +738,9 @@ label ep29_dialogues3_melanie_monica_victoria_2:
     victoria "И еще я хочу, чтобы вторая наша подружка тоже пришла."
     victoria "Уверена, она тоже соскучилась по мне. Как ты думаешь?"
     # Мелани удивленно приподнимает бровь
-    sound Power_Bots_Loop
+    music Power_Bots_Loop
     img 15479
-    with diss
+#    with diss
     melanie "Ко мне в гости?"
     melanie "..."
     music Hidden_Agenda
@@ -739,7 +786,7 @@ label ep29_dialogues3_melanie_monica_victoria_2:
             img 15466
             with fade
             melanie "..."
-            img 15488
+            img 15487
             with diss
             victoria "Хорошая подружка отменила бы все свои планы."
             victoria "Иначе она может поссориться со мной."
@@ -801,7 +848,7 @@ label ep29_dialogues3_melanie_monica_victoria_2:
     melanie "..."
     # Мелани бросает на нее непроницаемый взгляд, разворачивается и уходит
     # в заданиях появляется "Вернуться в студию и поговорить с Миссис Бакфетт"
-    $ log1 = _("Вернуться в студию и поговорить с Миссис Бакфетт")
+#    $ log1 = _("Вернуться в студию и поговорить с Миссис Бакфетт")
     return
 
 # мысли Мелани в холле у лифта
@@ -852,6 +899,7 @@ label ep29_dialogues3_melanie_monica_victoria_3:
     img black_screen
     with diss
     sound highheels_short_walk
+    call refresh_scene_fade()
     # подхалим ведет ее через офис и открывает ей дверь в кабинет Моники, та заходит
     # Моника сидит за своим столом со скучающим видом и "работает", Юлия как всегда вся в работе
     return
@@ -874,6 +922,12 @@ label ep29_dialogues3_melanie_monica_victoria_3a:
     img black_screen
     with Dissolve(2.0)
     # затемнение экрана, надпись "Несколько минут спустя..."
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(_("5 минут спустя..."))
+    img black_screen
+    with Dissolve(2.0)
     return
 
 # кабинет Моники, Мелани выходит из кабинета
@@ -893,9 +947,25 @@ label ep29_dialogues3_melanie_monica_victoria_3c:
     melanie_t "Сейчас мне нужно поговорить с Бифом."
     melanie_t "Мне понравилась моя идея насчет небольшого отпуска."
     melanie_t "Думаю, он мне не откажет..."
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(_("Спустя некоторое время..."))
+    img black_screen
+    with Dissolve(2.0)
     # в заданиях появляется "Пойти в кабинет Бифа и поговорить с ним"
-    $ log1 = _("Пойти в кабинет Бифа и поговорить с ним")
+#    $ log1 = _("Пойти в кабинет Бифа и поговорить с ним")
     return
+
+label ep29_dialogues3_melanie_monica_victoria_3c0:
+    melanie_t "Сейчас мне нужно поговорить с Бифом."
+    melanie_t "Мне понравилась моя идея насчет небольшого отпуска."
+    melanie_t "Думаю, он мне не откажет..."
+    return
+
+label ep29_dialogues3_melanie_monica_victoria_3d:
+    melanie_t "У меня нет желания общаться с этим... Боссом..."
+    return False
 
 # Мелани заходит в кабинет Бифа
 label ep29_dialogues3_melanie_monica_victoria_4:
@@ -989,7 +1059,7 @@ label ep29_dialogues3_melanie_monica_victoria_4:
     menu:
         "Согласиться на фотосессию":
             pass
-        "Отказаться (пропуска фотосессии)":
+        "Отказаться (пропуск фотосессии)":
             music ZigZag
             img 15448
             with fade
@@ -1022,7 +1092,7 @@ label ep29_dialogues3_melanie_monica_victoria_4:
     with diss
     melanie_t "Нужно пойти в фотостудию. Надеюсь, Алекс на месте."
     # в заданиях появляется "Провести фотосессию"
-    $ log1 = _("Провести фотосессию")
+#    $ log1 = _("Провести фотосессию")
     return
 
 # Мелани заходит в фотостудию
@@ -1040,13 +1110,16 @@ label ep29_dialogues3_melanie_monica_victoria_5:
     img 22584
     with fade
     melanie "Да, Алекс. Сегодня у нас фотосессия."
-    menu:
-        "Переодеться":
-            pass
+    return
+#    menu:
+#        "Переодеться":
+#            pass
 
-    sound highheels_short_walk
+label ep29_dialogues3_melanie_monica_victoria_5a1:
     img 22585
-    with diss
+    with fadelong
+    music ZigZag
+    sound highheels_short_walk
     # появляется окно выбора костюма, там только один (с красными трусиками)
     melanie "Я сейчас переоденусь и вернусь."
     # через несколько минут
@@ -1093,8 +1166,9 @@ label ep29_dialogues3_melanie_monica_victoria_5:
     img 22592
     with fade
     alex_photograph "Итак, мотор!"
+    return
 
-
+label ep29_dialogues3_melanie_monica_victoria_5a0:
     # после окончания фотосессии
     music stop
     img black_screen
@@ -1129,7 +1203,7 @@ label ep29_dialogues3_melanie_monica_victoria_5:
 
     melanie_t "Нужно переодеться и ехать домой. Скоро придут Миссис Бакфетт и Виктория."
     # в заданиях появляется "Идти в гримерку, переодеться"
-    $ log1 = _("Идти в гримерку, переодеться")
+#    $ log1 = _("Идти в гримерку, переодеться")
     return
 
 # Гримерка
@@ -1140,7 +1214,7 @@ label ep29_dialogues3_melanie_monica_victoria_6:
     melanie_t "Должен существовать способ поставить Викторию на место..."
     melanie_t "Возможно, стоит поговорить об этом с Миссис Бакфетт..."
     # в заданиях появляется "Нужно ехать домой. Скоро придет Виктория"
-    $ log1 = _("Нужно ехать домой. Скоро придет Виктория")
+#    $ log1 = _("Нужно ехать домой. Скоро придет Виктория")
     return
 
 # вызов "ep29_dialogues4_lesbian_threesome_victoria_1a"
@@ -1151,4 +1225,12 @@ label ep29_dialogues3_melanie_monica_victoria_6a:
     # едет к себе домой, при любом клике, кроме выхода
     melanie_t "Сейчас мне нужно ехать к себе домой."
     melanie_t "Скоро придут Миссис Бакфетт и Виктория."
+    return
+
+# мысли Моники после сцены с Викторией, когда вышла от Мелани
+label ep29_dialogues3_melanie_monica_victoria_6b:
+    mt "ЧТО... ЭТО... БЫЛО?!"
+    mt "!!!"
+    mt "Когда я верну себе все, что у меня отняли..."
+    mt "Эта сучка будет первой, кому я буду мстить!!!"
     return

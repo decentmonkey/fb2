@@ -1,4 +1,4 @@
-
+default customer5_dance_comment_stage = 0
 
 label customer5_1stmeeting:
     music Hidden_Agenda
@@ -81,7 +81,40 @@ label customer5_serve1:
     sound highheels_short_walk
     img 14314
     with fadelong
-    m "Привет! Вам что-нибудь принести?"
+
+
+    # комментарий насчет танцев
+    if monicaStartedStripDanceFlag == True and customer5_dance_comment_stage == 1:
+        customer5 "А я тебя ждал!"
+        m "Да? Хотите сделать заказ?"
+        customer5 "Конечно! Скажи, а сколько будет стоить приват с тобой?"
+        m "!!!"
+        m "Я не танцую!"
+        mt "Как же они меня все достали со своими расспросами!!!"
+        customer5 "Не, теперь ты меня не обманешь! Я видел тебя на сцене!"
+        m "Вы меня с кем-то перепутали. Тут работает девушка, она немного похожа на меня..."
+        customer5 "Да? Это она новенькая стриптизерша?"
+        m "Да."
+        customer5 "А как мне заказать у нее приват?"
+        m "Не знаю. По-моему, она только на сцене танцует и в приват не ходит."
+        customer5 "Жаль..."
+
+
+
+    if monicaStartedStripDanceFlag == True and customer5_dance_comment_stage == 0:
+        customer5 "Ого! Ты же на сцене танцуешь!"
+        m "Вы меня с кем-то путаете."
+        m "Я не танцую на сцене."
+        customer5 "Серьезно? По-моему, это ты была!"
+        m "Я работаю тут просто официанткой и не танцую стриптиз."
+        customer5 "Вот черт. Видимо, я перебрал с пивом тогда..."
+        mt "Неудивительно..."
+        $ customer5_dance_comment_stage = 1
+
+    #
+
+
+    m "Вам что-нибудь принести?"
     img 14315
     with diss
     customer5 "Да! Мне пожалуйста два бургера, и два Ваших самых лучших коктейля!"

@@ -432,15 +432,20 @@ label ep27_dialogues7_pub8:
         img 21006
         with fade
         ashley "Меня не волнуют твои оправдания, [monica_pub_name]."
-        ashley "Либо ты отдаешь эти $ 500 наличными, либо иди отрабатывать эти деньги, виляя своей задницей на сцене."
-        img 21007
-        m "!!!"
-        img 21008
-        with diss
-        w
-        img 21000
-        with fade
-        ashley "А иначе убирайся отсюда!"
+        if ep29_quests_pub_forgiveness_dancing_enabled == True:
+            ashley "Либо ты отдаешь эти $ 500 наличными, либо иди отрабатывать эти деньги, виляя своей задницей на сцене."
+            img 21007
+            m "!!!"
+            img 21008
+            with diss
+            w
+            img 21000
+            with fade
+            ashley "А иначе убирайся отсюда!"
+        else:
+            img 21000
+            ashley "Ты отдашь эти $ 500 наличными."
+            ashley "А иначе убирайся отсюда!"
 
 # После этого появляется выбор при клике на барменов
 # -Отдать $ 500
@@ -449,6 +454,8 @@ label ep27_dialogues7_pub8:
 # -Идти танцевать на сцену (в следующей версии игры)
 # -Попросить прощения по другому...
     $ menu_price = [500]
+    if pubMonicaWaitressTipsPunishmentTalkStage == 0 and pubMonicaWaitressTipsPunishmentTalkStage == 0 and ep29_quests_pub_forgiveness_dancing_enabled == True:
+        $ menu_corruption = [0, monicaForgivenessDancingAgreeCorruption]
     menu:
         "Отдать деньги":
             music Hidden_Agenda
@@ -465,12 +472,12 @@ label ep27_dialogues7_pub8:
             ashley "Ладно, так уж и быть. Теперь ты можешь снова работать здесь."
             ashley "Но не испытывай моего терпения!"
             return 1
+        "Идти танцевать на сцену" if ep29_quests_pub_forgiveness_dancing_enabled == True and pubMonicaWaitressTipsPunishmentTalkStage == 0:
+            return 5
         "Попросить прощения у Джо." if obj_name == "Bartender" and pubMonicaWaitressTipsPunishmentTalkStage == 1:
             return 3
         "Попросить прощения у Эшли." if obj_name == "Bartender_Waitress" and pubMonicaWaitressTipsPunishmentTalkStage == 1:
             return 4
-#        "Идти танцевать на сцену":
-#            return 5
         "Попросить прощения по другому..." if pubMonicaWaitressTipsPunishmentTalkStage == 0:
             return 2
         "Уйти.":

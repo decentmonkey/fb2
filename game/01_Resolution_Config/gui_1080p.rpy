@@ -85,6 +85,11 @@ define gui.resolution.hud_screen.face_hud_image_pos = (1730 + 22, 67 + 19)#(1730
 define gui.resolution.hud_screen.minimap_x_pos_owner = 1827
 define gui.resolution.hud_screen.minimap_y_pos_owner = 240
 
+define gui.resolution.hud_screen.love_bar_bottom_gutter = 50
+define gui.resolution.hud_screen.love_bar_top_gutter = 0 #18, 12
+define gui.resolution.hud_screen.love_bar_thumb_offset = 40 #22, 14
+define gui.resolution.hud_screen.love_bar_xysize = (90, 450)
+
 define res.suffix = "" #"", "_720p"
 
 define notifyLineOffset = 50 #ep22

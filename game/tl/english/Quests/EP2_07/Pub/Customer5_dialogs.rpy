@@ -182,3 +182,59 @@ translate english strings:
     old "Не буду!"
     new "I will not!"
 
+# TODO: Translation updated at 2019-11-23 13:27
+
+# game/Quests/EP2_07/Pub/Customer5_dialogs.rpy:88
+translate english customer5_serve1_1a267afe:
+
+    # customer5 "А я тебя ждал!"
+    # m "Да? Хотите сделать заказ?"
+    # customer5 "Конечно! Скажи, а сколько будет стоить приват с тобой?"
+    # m "!!!"
+    # m "Я не танцую!"
+    # mt "Как же они меня все достали со своими расспросами!!!"
+    # customer5 "Не, теперь ты меня не обманешь! Я видел тебя на сцене!"
+    # m "Вы меня с кем-то перепутали. Тут работает девушка, она немного похожа на меня..."
+    # customer5 "Да? Это она новенькая стриптизерша?"
+    # m "Да."
+    # customer5 "А как мне заказать у нее приват?"
+    # m "Не знаю. По-моему, она только на сцене танцует и в приват не ходит."
+    # customer5 "Жаль..."
+    customer5 "And I was waiting for you!"
+    m "Yes? Want to place an order?"
+    customer5 "Of course! Tell me, how much will a private cost with you?"
+    m "!!!"
+    m "I do not dance!"
+    mt "How did they all got me with their questions !!!"
+    customer5 "No, now you won’t deceive me! I saw you on stage!"
+    m "You mixed me up with someone. A girl works here, she looks a bit like me ..."
+    customer5 "Yes? Is she a brand new stripper?"
+    m "Yes."
+    customer5 "How can I order a private from her?"
+    m "I do not know. In my opinion, she only dances on stage and does not go in private."
+    customer5 "Sorry..."
+
+# game/Quests/EP2_07/Pub/Customer5_dialogs.rpy:105
+translate english customer5_serve1_61688aaa:
+
+    # customer5 "Ого! Ты же на сцене танцуешь!"
+    # m "Вы меня с кем-то путаете."
+    # m "Я не танцую на сцене."
+    # customer5 "Серьезно? По-моему, это ты была!"
+    # m "Я работаю тут просто официанткой и не танцую стриптиз."
+    # customer5 "Вот черт. Видимо, я перебрал с пивом тогда..."
+    # mt "Неудивительно..."
+    customer5 "Wow! You are dancing on stage!"
+    m "You confuse me with someone."
+    m "I do not dance on stage."
+    customer5 "Seriously? In my opinion, it was you!"
+    m "I work here just as a waitress and do not dance striptease."
+    customer5 "Damn it. Maybe I just drank too much last time ..."
+    mt "Not surprising..."
+
+# game/Quests/EP2_07/Pub/Customer5_dialogs.rpy:117
+translate english customer5_serve1_2a76d528:
+
+    # m "Вам что-нибудь принести?"
+    m "What would you like?"
+

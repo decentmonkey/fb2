@@ -30,6 +30,7 @@ label android_assets_updater(downloading_assets_list):
     return
 
 label android_assets_updater_check:
+    return
     $ assetsStorageDirectory = renpy.config.savedir.replace("/saves", "/assets")
     # if android
     if renpy.android != True:

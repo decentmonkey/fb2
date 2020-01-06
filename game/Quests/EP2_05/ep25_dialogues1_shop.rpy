@@ -20,6 +20,8 @@ label ep25_dialogues1_shop1a:
     return
 
 label ep25_dialogues1_shop1b:
+    if check_hook(label="bardie_eric_quest_college_shop", scene="street_cloth_shop") == True:
+        return
     # Магазин закрыт
     mt "Магазин закрыт..."
     "Интересно почему..."

@@ -200,7 +200,7 @@ translate german ep27_dialogues5_secretary_boobs6_65a981a6:
     # m "Итак, у меня есть с собой другая пара сисек."
     # m "Готов-ли ты заплатить за них $ 50?"
     m "Ich habe ein neues Paar dabei."
-    m "Zahlst du dann auch 50 $?"
+    m "Zahlst du dann auch 50 $ ?"
 
 # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:186
 translate german ep27_dialogues5_secretary_boobs6_6dc03301:
@@ -380,7 +380,7 @@ translate german ep27_dialogues5_secretary_boobs6_20958929:
     # m "Все, этого достаточно!"
     # m "Где мои $ 50?!"
     m "Das wars, es reicht!"
-    m "Wo sind meine 50 $?"
+    m "Wo sind meine 50 $ ?"
 
 # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:368
 translate german ep27_dialogues5_secretary_boobs6_e612037c_1:
@@ -430,7 +430,7 @@ translate german ep27_dialogues5_secretary_boobs6_0e06918d:
     # m "Все, этого достаточно!"
     # m "Где мои $ 60?!"
     m "Das wars, es reicht!"
-    m "Wo sind meine 60 $?"
+    m "Wo sind meine 60 $ ?"
 
 # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:432
 translate german ep27_dialogues5_secretary_boobs6_20958929_1:
@@ -438,7 +438,7 @@ translate german ep27_dialogues5_secretary_boobs6_20958929_1:
     # m "Все, этого достаточно!"
     # m "Где мои $ 50?!"
     m "Das wars, es reicht!"
-    m "Wo sind meine 50 $?"
+    m "Wo sind meine 50 $ ?"
 
 # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:447
 translate german ep27_dialogues5_secretary_boobs6_09a9ae84:
@@ -504,7 +504,7 @@ translate german strings:
 
     # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:344
     old "Разрешить за $ 50 сверху."
-    new "Erlaube es für weitere 50 $."
+    new "Erlaube es für weitere 50 $ ."
 
     # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:344
     old "Запретить."
@@ -512,5 +512,5 @@ translate german strings:
 
     # game/Quests/EP2_07/ep27_dialogues5_secretary_boobs.rpy:353
     old "Разрешить за $ 10 сверху."
-    new "Erlaube mehr für 10 $."
+    new "Erlaube mehr für 10 $ ."
 

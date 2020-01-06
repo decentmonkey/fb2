@@ -162,3 +162,43 @@ translate english customer2_after_serve1_6e184144:
     # mt "Лысый болван..."
     mt "Bald idiot..."
 
+# TODO: Translation updated at 2019-11-23 13:27
+
+# game/Quests/EP2_07/Pub/Customer2_dialogs.rpy:82
+translate english customer2_serve1_ab04798a:
+
+    # customer2 "Эй, я видел тебя на сцене! Это точно была ты!"
+    # m "Боюсь, Вы ошиблись..."
+    # customer2 "Не-а! Папочка не ошибается никогда!"
+    # mt "Чего он прицепился ко мне!!!"
+    # m "Я не танцую на сцене. Возможно, танцовщица просто немного похожа на меня..."
+    # customer2 "Да? Хммм... Ладно, я присмотрюсь внимательнее в следующий раз."
+    # m "Я могу идти?"
+    customer2 "Hey, I saw you on stage! It was definitely you!"
+    m "I'm afraid you were wrong ..."
+    customer2 "Nah! Daddy is never wrong!"
+    mt "What does he cling to that thought?"
+    m "I do not dance on stage. Maybe the dancer is just a little like me ..."
+    customer2 "Yes? Hmmm ... Okay, I’ll take a closer look next time."
+    m "Can I go?"
+
+# game/Quests/EP2_07/Pub/Customer2_dialogs.rpy:92
+translate english customer2_serve1_e1a270b5:
+
+    # customer2 "О-о-о-о! Ты же тут на сцене танцуешь!"
+    # customer2 "Решила спуститься к папочке? Аха-ха!"
+    # m "Нет, Вы меня с кем-то путаете."
+    # m "Я работаю здесь официанткой..."
+    # customer2 "Папочку нехорошо обманывать!"
+    # m "Я не обманываю..."
+    # customer2 "Ой, да ладно тебе!!!"
+    # m "Вы что-то будете заказывать? Или я могу идти?"
+    customer2 "Oooh! You are dancing on stage here!"
+    customer2 "Decided to go lie on daddy? Aha ha!"
+    m "No, you confuse me with someone."
+    m "I work here as a waitress ..."
+    customer2 "It's bad to cheat daddy!"
+    m "I'm not lying..."
+    customer2 "Oh come on!!!"
+    m "Will you order something? Or can I go now?"
+

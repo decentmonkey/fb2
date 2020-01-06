@@ -28,7 +28,12 @@ python early:
         image_screen_scene_flag = False
         screenActionHappened = True
     def img_pred(s):
-        return [Image(img_find_path(s))]
+        try:
+            imagePathExt = img_find_path_ext(renpy.eval(s))
+        except:
+            imagePathExt = img_find_path_ext(s)
+        imagePath = imagePathExt[0]
+        return [Image(imagePath)]
     renpy.register_statement("img", parse=img_disp, execute=img_exec, predict=img_pred) #кастомный scene
 
     def imgl_exec(s):
@@ -188,6 +193,42 @@ python early:
 
     renpy.register_statement("sound", parse=sound_parse, execute=sound_exec) #sound - оператор воспроизведения звука
 
+    def sound2_parse(l):
+        return l.simple_expression()
+
+    def sound2_exec(o):
+        try:
+            sound2Name = renpy.eval(o)
+        except:
+            sound2Name = o
+        checkPath = "Sounds/" + str(sound2Name) + ".ogg"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound2")
+            return
+        checkPath = "Sounds/" + str(sound2Name) + ".wav"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound2")
+            return
+        checkPath = "Sounds/" + str(sound2Name) + ".mp3"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound2")
+            return
+        checkPath = "Music/" + str(sound2Name) + ".ogg"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound2")
+            return
+        checkPath = "Music/" + str(sound2Name) + ".wav"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound2")
+            return
+        checkPath = "Music/" + str(sound2Name) + ".mp3"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound2")
+            return
+
+    renpy.music.register_channel("sound2", "sfx", False)
+    renpy.register_statement("sound2", parse=sound2_parse, execute=sound2_exec) #sound2 - оператор воспроизведения звука
+
     def music_parse(l):
         return (l.simple_expression(), l.rest())
 
@@ -221,6 +262,7 @@ python early:
         currentMusicPriority = priority1
         checkPath = "Music/" + str(musicName) + ".ogg"
         if renpy.loadable(checkPath):
+            print "play!" + str(checkPath)
             renpy.music.play(checkPath, channel="music", loop=True, fadeout=1.0, fadein=1.0)
         else:
             checkPath = "Sounds/" + str(musicName) + ".ogg"

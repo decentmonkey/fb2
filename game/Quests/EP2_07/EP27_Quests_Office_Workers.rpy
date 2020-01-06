@@ -35,6 +35,7 @@ label ep27_quests_office_workers1: #Клик на воркеров, когда �
         $ autorun_to_object("ep27_dialogues6_julia2", scene=scene_name)
         $ move_object("Julia", "empty") # Юлия уходит с работы (обычный день)
         $ changeDayTime("evening") # Изменяем на вечер
+        $ add_office_working_day(True) # Отмечаем рабочий день
     call refresh_scene_fade() from _call_refresh_scene_fade_173
     return False
 

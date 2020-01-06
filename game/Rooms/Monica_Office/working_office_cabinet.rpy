@@ -13,10 +13,14 @@ label working_office_cabinet:
     call miniMapOfficeGenerate() from _call_miniMapOfficeGenerate_9
 
     # Стул неактивен, когда Моника на нем сидит
-    if workingOfficeCabinetMonicaSuffix == 1 or workingOfficeCabinetMonicaSuffix == 4:
+#    if workingOfficeCabinetMonicaSuffix == 1 or workingOfficeCabinetMonicaSuffix == 4:
+    if workingOfficeCabinetMonicaSuffix == 1 or workingOfficeCabinetMonicaSuffix == 6 or workingOfficeCabinetMonicaSuffix == 7:
         $ workingOfficeCabinetMonicaChairEnabled = True
     else:
         $ workingOfficeCabinetMonicaChairEnabled = False
+
+    if day_time == "day" and (workingOfficeCabinetMonicaSuffix == 4 or workingOfficeCabinetMonicaSuffix == 5):
+        $ workingOfficeCabinetMonicaSuffix = 3
 
     $ scene_image = "scene_WorkingOfficeCabinet[day_suffix]"
 
