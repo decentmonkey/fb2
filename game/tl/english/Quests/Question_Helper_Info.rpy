@@ -352,3 +352,11 @@ translate english strings:
     old "Маркус ждет меня снова... Смогу-ли я решиться снова навестить его?"
     new "Marcus is waiting for me again ... Will I be able to decide to visit him again?"
 
+# TODO: Translation updated at 2020-01-07 23:39
+
+# game/Quests/Question_Helper_Info.rpy:125
+translate english question_steve_ask_ralph_03a21e4f:
+
+    # help "Спросить у Ральфа по поводу Стива."
+    help "Ask Ralph about Steve."
+

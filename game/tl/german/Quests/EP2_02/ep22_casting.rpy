@@ -592,3 +592,37 @@ translate german strings:
     old "Засунуть член в ее анальное отверстие, затем вытащить и облизать его. (disabled)"
     new "Steck den Schwanz in ihren Arsch, zieh ihn raus und lecke daran. (disabled)"
 
+# TODO: Translation updated at 2020-01-07 23:40
+
+# game/Quests/EP2_02/ep22_casting.rpy:644
+translate german ep22_dialogue6_6_loop1_c8cb2977_1:
+
+    # biff "Хорошо, папочка доволен!"
+    biff "Okay, Daddy ist glücklich!"
+
+# game/Quests/EP2_02/ep22_casting.rpy:652
+translate german ep22_dialogue6_6_loop1_c8cb2977_2:
+
+    # biff "Хорошо, папочка доволен!"
+    biff "Okay, Daddy ist glücklich!"
+
+# game/Quests/EP2_02/ep22_casting.rpy:660
+translate german ep22_dialogue6_6_loop1_c8cb2977_3:
+
+    # biff "Хорошо, папочка доволен!"
+    biff "Okay, Daddy ist glücklich!"
+
+translate german strings:
+
+    # game/Quests/EP2_02/ep22_casting.rpy:5
+    old "Раздеться и принимать различные модельные позы."
+    new "Раздеться и принимать различные модельные позы."
+
+    # game/Quests/EP2_02/ep22_casting.rpy:5
+    old "Раздеться и встать на колени задом к Бифу."
+    new "Раздеться и встать на колени задом к Бифу."
+
+    # game/Quests/EP2_02/ep22_casting.rpy:5
+    old "Раздеться и лечь на пол раздвинув ноги."
+    new "Раздеться и лечь на пол раздвинув ноги."
+

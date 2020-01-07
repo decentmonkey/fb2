@@ -185,7 +185,7 @@ label ep210_dialogues2_punishment_victoria_4:
 
 
 # Кабинет Моники.
-label ep210_dialogues2_punishment_victoria_1:
+label ep210_dialogues2_punishment_victoria_1a:
 # они фоткаются у Алекса и договариваются с папарацци о встрече (они не знают, что он - друг Виктории)
 
 # Мелани с Моникой приходят на встречу, а там их ждет Виктория
