@@ -107,7 +107,6 @@ label gallery_ep22_photoshoot1:
             with Dissolve(0.2)
             w
             call photoshoot_flash_count()
-            $ PS1_shoots_array.append(photoImage)
             w
             jump gallery_ep22_photoshoot1_pose2
         if result == "down":
@@ -263,8 +262,7 @@ label gallery_ep22_photoshoot1:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_108
-            $ PS1_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot1_pose5
         if result == "side":
@@ -275,12 +273,11 @@ label gallery_ep22_photoshoot1:
             with Dissolve(0.2)
             if corruption < PS1_monica_shot3_corruption_required:
                 m "Алекс! Забудь про такие ракурсы!"
-                call corruption_required(PS1_monica_shot3_corruption_required) from _call_corruption_required_32
+                call corruption_required(PS1_monica_shot3_corruption_required)
                 jump gallery_ep22_photoshoot1_pose5
             w
             $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot3_progress")
             call photoshoot_flash_count() from _call_photoshoot_flash_count_109
-            $ PS1_shoots_array.append(photoImage)
             w
             jump gallery_ep22_photoshoot1_pose5
         if result == "down":
@@ -290,8 +287,7 @@ label gallery_ep22_photoshoot1:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_110
-            $ PS1_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot1_pose5
 
@@ -321,8 +317,7 @@ label gallery_ep22_photoshoot1:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_111
-            $ PS1_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot1_pose6
         if result == "side":
@@ -333,12 +328,11 @@ label gallery_ep22_photoshoot1:
             with Dissolve(0.2)
             if corruption < PS1_monica_shot4_corruption_required:
                 m "Алекс! Я не буду делать такой кадр!"
-                call corruption_required(PS1_monica_shot4_corruption_required) from _call_corruption_required_33
+                call corruption_required(PS1_monica_shot4_corruption_required)
                 jump gallery_ep22_photoshoot1_pose6
             w
             $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot4_progress")
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_112
-            $ PS1_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot1_pose6
         if result == "down":
@@ -348,8 +342,7 @@ label gallery_ep22_photoshoot1:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_113
-            $ PS1_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot1_pose6
 
@@ -380,12 +373,11 @@ label gallery_ep22_photoshoot1:
             with Dissolve(0.2)
             if corruption < PS1_monica_shot5_corruption_required:
                 m "Алекс! Я не буду делать такой кадр!"
-                call corruption_required(PS1_monica_shot5_corruption_required) from _call_corruption_required_34
+                call corruption_required(PS1_monica_shot5_corruption_required)
                 jump gallery_ep22_photoshoot1_pose7
             w
             $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot5_progress")
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_114
-            $ PS1_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot1_pose7
         if result == "side":
@@ -395,8 +387,8 @@ label gallery_ep22_photoshoot1:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_115
-            $ PS1_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
+
             w
             jump gallery_ep22_photoshoot1_pose7
         if result == "down":
@@ -406,8 +398,8 @@ label gallery_ep22_photoshoot1:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_116
-            $ PS1_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
+
             w
             jump gallery_ep22_photoshoot1_pose7
 
@@ -431,8 +423,7 @@ label gallery_ep22_photoshoot1:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_117
-            $ PS1_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot1_pose8
         if result == "side":
@@ -442,8 +433,7 @@ label gallery_ep22_photoshoot1:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_118
-            $ PS1_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot1_pose8
         if result == "down":
@@ -454,12 +444,11 @@ label gallery_ep22_photoshoot1:
             with Dissolve(0.2)
             if corruption < PS1_monica_shot6_corruption_required:
                 m "Алекс! Забудь про такие ракурсы!"
-                call corruption_required(PS1_monica_shot6_corruption_required) from _call_corruption_required_35
+                call corruption_required(PS1_monica_shot6_corruption_required)
                 jump gallery_ep22_photoshoot1_pose8
             w
             $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot6_progress")
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_119
-            $ PS1_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot1_pose8
 
@@ -507,7 +496,6 @@ label gallery_ep22_photoshoot1_casting:
     img 8437
     with Dissolve(0.5)
 
-    $ shotsAmountCompleted = len(list(set(PS1_shoots_array)))
 #    $ shotsTotalAmount
 
 
@@ -528,7 +516,7 @@ label gallery_ep22_photoshoot1_casting:
             biff "Что Моника Бакфетт хочет показать папочке?"
             $ chickMode = True
             $ castingCloth = 1
-            call ep22_casting()
+            call gallery_8442()
             img 8446
             with fade
             mt "Мерзавец!"
@@ -548,9 +536,7 @@ label gallery_ep22_photoshoot1_casting:
             mt "Ненавижу!!!"
                 #
             biff "И что цыпочка будет делать?"
-            $ castingCloth = 1
-            $ chickMode = False
-            call ep22_casting()
+            call gallery_8442()
             img 8446
             with fade
             mt "Мерзавец!"
@@ -561,10 +547,6 @@ label gallery_ep22_photoshoot1_casting:
 
 ##########################################################
 ##########################################################
-################### Photoshoots ##########################
-##########################################################
-##########################################################
-
 
 label gallery_ep22_photoshoot5:
     $ melanieWaitingOpenedOutfits = False
@@ -627,8 +609,8 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_21
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
+
             w
             jump gallery_ep22_photoshoot5_pose1
         if result == "side":
@@ -638,8 +620,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_22
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose1
         if result == "down":
@@ -649,8 +630,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_23
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose1
 
@@ -692,8 +672,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_24
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose2
         if result == "side":
@@ -703,8 +682,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_25
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose2
         if result == "down":
@@ -714,8 +692,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_26
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose2
 
@@ -763,8 +740,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_27
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose3
         if result == "side":
@@ -774,8 +750,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_28
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose3
         if result == "down":
@@ -785,8 +760,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_29
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose3
 
@@ -819,7 +793,7 @@ label gallery_ep22_photoshoot5:
                 music Groove2_85
                 m "Алекс! Я не собираюсь сидеть на коленях перед Мелани!"
                 "И это не обсуждается!"
-                call corruption_required(PS5_monica_pose4_corruption_required) from _call_corruption_required_10
+                call corruption_required(PS5_monica_pose4_corruption_required)
                 return False
             m "Алекс! Я не собираюсь сидеть на коленях перед Мелани!"
             m "..."
@@ -843,8 +817,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_30
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose4
         if result == "side":
@@ -854,8 +827,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_31
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose4
         if result == "down":
@@ -865,8 +837,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_32
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose4
 
@@ -897,7 +868,7 @@ label gallery_ep22_photoshoot5:
                 music Groove2_85
                 m "Алекс! Я не собираюсь ползать в ногах у Мелани!"
                 "И это не обсуждается!"
-                call corruption_required(PS5_monica_pose5_corruption_required) from _call_corruption_required_11
+                call corruption_required(PS5_monica_pose5_corruption_required)
                 return False
             $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot2_progress")
             jump gallery_ep22_photoshoot5_pose6
@@ -916,8 +887,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_33
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose5
         if result == "side":
@@ -927,8 +897,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_34
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose5
         if result == "down":
@@ -938,8 +907,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_35
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose5
 
@@ -980,8 +948,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_36
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose6
         if result == "side":
@@ -991,8 +958,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_37
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose6
         if result == "down":
@@ -1002,8 +968,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_38
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose6
 
@@ -1036,7 +1001,7 @@ label gallery_ep22_photoshoot5:
             alex_photograph "Авиакомпания показывает насколько важен каждый пассажир!"
 
             if corruption < PS5_monica_pose7_corruption_required:
-                call corruption_required(PS5_monica_pose7_corruption_required) from _call_corruption_required_12
+                call corruption_required(PS5_monica_pose7_corruption_required)
                 m "Алекс! Я не собираюсь ползать в ногах у Мелани!"
                 "И это не обсуждается!"
                 return False
@@ -1057,8 +1022,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_39
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose7
         if result == "side":
@@ -1067,19 +1031,18 @@ label gallery_ep22_photoshoot5:
             img 8775
             with Dissolve(0.2)
             w
-            call photoshop_flash() from _call_photoshop_flash_26
+            call photoshop_flash()
             w
             img 8776
             with Dissolve(0.2)
             w
-            call photoshop_flash() from _call_photoshop_flash_27
+            call photoshop_flash()
             w
             $ photoImage = 8778
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_40
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose7
         if result == "down":
@@ -1089,8 +1052,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_41
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose7
 
@@ -1128,8 +1090,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_42
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose8
         if result == "side":
@@ -1139,8 +1100,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_43
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose8
         if result == "down":
@@ -1150,8 +1110,7 @@ label gallery_ep22_photoshoot5:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_44
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose8
 
@@ -1189,9 +1148,8 @@ label gallery_ep22_photoshoot5:
         melanie "Миссис Бакфетт?"
         menu:
             "Прервать фотосессию.":
-                return False
+                return
             "Сделать что просит Алекс.":
-                $ monicaLickedMelaniePussyPantiesPhotoshoot = True
                 mt "Похоже у меня нет выхода..."
                 "Мне надо любой ценой узнать замешан-ли во всем этом Дик!"
                 "И Мелани единственная надежда на это!"
@@ -1207,7 +1165,7 @@ label gallery_ep22_photoshoot5:
                 melanie "Алекс, я думаю этого достаточно!"
                 "Я ведь знаю что этот кадр твоя инициатива!"
                 # конец фотосессии
-                return True
+                return
             "Попросить Мелани не делать этого (плохие отношения с Мелани) (disabled)" if melanieOffended2 == True or melanieOffended1 == True:
                 pass
 
@@ -1252,19 +1210,18 @@ label gallery_ep22_photoshoot5:
             img 8800
             with Dissolve(0.2)
             w
-            call photoshop_flash() from _call_photoshop_flash_28
+            call photoshop_flash()
             w
             img 8792
             with Dissolve(0.2)
             w
-            call photoshop_flash() from _call_photoshop_flash_29
+            call photoshop_flash()
             w
             $ photoImage = 8793
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_45
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose9
         if result == "side":
@@ -1273,24 +1230,23 @@ label gallery_ep22_photoshoot5:
             img 8801
             with Dissolve(0.2)
             w
-            call photoshop_flash() from _call_photoshop_flash_30
+            call photoshop_flash()
             w
             img 8790
             with Dissolve(0.2)
             w
-            call photoshop_flash() from _call_photoshop_flash_31
+            call photoshop_flash()
             w
             img 8794
             with Dissolve(0.2)
             w
-            call photoshop_flash() from _call_photoshop_flash_32
+            call photoshop_flash()
             w
             $ photoImage = 8795
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_46
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose9
         if result == "down":
@@ -1299,24 +1255,23 @@ label gallery_ep22_photoshoot5:
             img 8799
             with Dissolve(0.2)
             w
-            call photoshop_flash() from _call_photoshop_flash_33
+            call photoshop_flash()
             w
             img 8796
             with Dissolve(0.2)
             w
-            call photoshop_flash() from _call_photoshop_flash_34
+            call photoshop_flash()
             w
             img 8797
             with Dissolve(0.2)
             w
-            call photoshop_flash() from _call_photoshop_flash_35
+            call photoshop_flash()
             w
             $ photoImage = 8798
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_47
-            $ PS5_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot5_pose9
 
@@ -1334,7 +1289,7 @@ label gallery_ep22_photoshoot5_end:
     #Если кастинг у Бифа
     menu:
         "Переодеться назад...":
-            $ biffMonicaLastCastingSkipped = True
+            return
         "Идти на кастинг к Бифу и притвориться цыпочкой... (corruption)" if (biffMonicaCastingsEnabled == True or monicaWorkingAtBiffOffice == True) and corruption >= photoshoot5_casting_corruption_required: #если есть кастинги
             mt "Биф ждет меня на свой дурацкий кастинг..."
             "Он говорил даст мне работу если я буду хорошей цыпочкой..."
@@ -1342,17 +1297,16 @@ label gallery_ep22_photoshoot5_end:
             "Так может быть притвориться?"
             "Ведь у меня нет к нему чувств, я хладнокровная женщина, идущая к своей мести..."
             #если обещала
-            if monicaSaidBiffSheIsWillBeAGoodChick == True:
                 "..."
                 "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
-            call ep23_photoshoot5_casting() from _call_ep23_photoshoot5_casting
+            call gallery_ep23_photoshoot5_casting()
             return
         "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot5_casting_corruption_required]) (disabled)" if (biffMonicaCastingsEnabled == True or monicaWorkingAtBiffOffice == True) and corruption < photoshoot5_casting_corruption_required:
             pass
 
     return
 
-label ep23_photoshoot5_casting:
+label gallery_ep23_photoshoot5_casting:
     music Groove2_85
     sound highheels_short_walk
     img 9493
@@ -1363,8 +1317,7 @@ label ep23_photoshoot5_casting:
     m "Привет, Биф. Я пришла..."
 
     img 9495
-    $ add_char_progress("Biff", PS5_BiffProgressCasting, "PS5_BiffProgressCasting_day" + str(day))
-    $ shotsAmountCompleted = len(list(set(PS5_shoots_array)))
+
 #    $ shotsTotalAmount
     biff "О! Цыпочка пришла к папочке!"
     menu:
@@ -1377,11 +1330,8 @@ label ep23_photoshoot5_casting:
             img 9497
             biff "Кто сегодня цыпочка?"
             m "Сегодня цыпочка - это Стюардесса из Fashion Airlines..."
-            $ add_char_progress("Biff", PS5_BiffProgressCastingChick, "PS5_BiffProgressCastingChick_day" + str(day))
             biff "Что Стюардесса хочет показать папочке?"
-            $ chickMode = True
-            $ castingCloth = 5
-            call ep22_casting() from _call_ep22_casting_2
+            call gallery_8442()
             img 9499
             with fade
             mt "Мерзавец!"
@@ -1400,7 +1350,7 @@ label ep23_photoshoot5_casting:
             biff "И что цыпочка будет делать?"
             $ castingCloth = 5
             $ chickMode = False
-            call ep22_casting() from _call_ep22_casting_3
+            call gallery_8442() from _call_gallery_8442_3
             img 9499
             with fade
             mt "Мерзавец!"
@@ -1543,7 +1493,7 @@ label gallery_ep27_photoshoot_suit8:
             img 20528
             with diss
             melanie "Не затягивайте, Миссис Бакфетт."
-            return False
+            return
 
     mt "О БОЖЕ!"
     mt "Я снимаюсь на камеру... БЕЗ ТРУСИКОВ!"
@@ -1603,7 +1553,7 @@ label gallery_ep27_photoshoot_suit8_pose1:
 #        alex_photograph "Следующая поза, Миссис Бакфетт!"
         if corruption < PS8_monica_pose2_corruption_required:
             m "Алекс, я не буду вставать в эту позу, даже не надейся!"
-            call corruption_required(PS8_monica_pose2_corruption_required) from _call_corruption_required_56
+            call corruption_required(PS8_monica_pose2_corruption_required)
             return
         m "Алекс, снимай издалека!"
         alex_photograph "Конечно, Миссис Бакфетт!"
@@ -1622,8 +1572,7 @@ label gallery_ep27_photoshoot_suit8_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_186
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         jump expression photoPoseLabel
     if result == "side":
@@ -1633,8 +1582,7 @@ label gallery_ep27_photoshoot_suit8_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_187
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         jump expression photoPoseLabel
     if result == "down":
@@ -1646,15 +1594,14 @@ label gallery_ep27_photoshoot_suit8_pose1:
         m "Алекс, не вздумай брать такой кадр!"
         m "У меня же там ничего нет!"
         if corruption < PS8_monica_shot1_corruption_required:
-            call corruption_required(PS8_monica_shot1_corruption_required) from _call_corruption_required_57
+            call corruption_required(PS8_monica_shot1_corruption_required)
             jump expression photoPoseLabel
         # если можно
         alex_photograph "Не переживайте, Миссис Бакфетт!"
         alex_photograph "Из этого ракурса ничего не видно."
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_188
+        call photoshoot_flash_count()
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot1_progress")
-        $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
 
@@ -1695,8 +1642,7 @@ label gallery_ep27_photoshoot_suit8_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_189
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         jump expression photoPoseLabel
     if result == "side":
@@ -1706,8 +1652,7 @@ label gallery_ep27_photoshoot_suit8_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_190
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         jump expression photoPoseLabel
     if result == "down":
@@ -1718,15 +1663,14 @@ label gallery_ep27_photoshoot_suit8_pose2:
         with Dissolve(0.2)
         m "Алекс, я просила не снимать близко!"
         if corruption < PS8_monica_shot2_corruption_required:
-            call corruption_required(PS8_monica_shot2_corruption_required) from _call_corruption_required_58
+            call corruption_required(PS8_monica_shot2_corruption_required)
             jump expression photoPoseLabel
         # если можно
         alex_photograph "Не переживайте, Миссис Бакфетт!"
         alex_photograph "Из этого ракурса ничего не видно."
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_191
+        call photoshoot_flash_count()
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot2_progress")
-        $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
 
@@ -1770,8 +1714,7 @@ label gallery_ep27_photoshoot_suit8_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_192
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         jump expression photoPoseLabel
     if result == "side":
@@ -1783,14 +1726,13 @@ label gallery_ep27_photoshoot_suit8_pose3:
         m "Алекс, не вздумай брать такой кадр!"
         m "Ты что, сошел с ума?!"
         if corruption < PS8_monica_shot3_corruption_required:
-            call corruption_required(PS8_monica_shot3_corruption_required) from _call_corruption_required_59
+            call corruption_required(PS8_monica_shot3_corruption_required)
             jump expression photoPoseLabel
         alex_photograph "Миссис Бакфетт!"
         alex_photograph "Из этого ракурса ничего не видно."
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_193
+        call photoshoot_flash_count()
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot3_progress")
-        $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
     if result == "down":
@@ -1800,8 +1742,7 @@ label gallery_ep27_photoshoot_suit8_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_194
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         jump expression photoPoseLabel
 
@@ -1831,7 +1772,7 @@ label gallery_ep27_photoshoot_suit8_pose4:
         music Groove2_85
         m "Алекс, я не собираюсь раздвигать ноги!"
         if corruption < PS8_monica_pose4_corruption_required:
-            call corruption_required(PS8_monica_pose4_corruption_required) from _call_corruption_required_60
+            call corruption_required(PS8_monica_pose4_corruption_required)
             return
         alex_photograph "Миссис Бакфетт, это всего-лишь образ!"
         alex_photograph "Не волуйтесь, ничего не видно!"
@@ -1851,8 +1792,7 @@ label gallery_ep27_photoshoot_suit8_pose4:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_195
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         jump expression photoPoseLabel
     if result == "side":
@@ -1864,14 +1804,13 @@ label gallery_ep27_photoshoot_suit8_pose4:
         m "Алекс, не фотографируй сзади!"
         m "У меня же голый зад!"
         if corruption < PS8_monica_shot4_corruption_required:
-            call corruption_required(PS8_monica_shot4_corruption_required) from _call_corruption_required_61
+            call corruption_required(PS8_monica_shot4_corruption_required)
             jump expression photoPoseLabel
         alex_photograph "Миссис Бакфетт, я не буду приближать камеру."
         alex_photograph "Я фотографирую издалека!"
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_196
+        call photoshoot_flash_count()
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot4_progress")
-        $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
     if result == "down":
@@ -1883,16 +1822,15 @@ label gallery_ep27_photoshoot_suit8_pose4:
         m "Алекс, ты в своем уме?!"
         m "Ты хочешь сфотографировать мою... мою..."
         if corruption < PS8_monica_shot5_corruption_required:
-            call corruption_required(PS8_monica_shot5_corruption_required) from _call_corruption_required_62
+            call corruption_required(PS8_monica_shot5_corruption_required)
             jump expression photoPoseLabel
         alex_photograph "Не переживайте, Миссис Бакфетт!"
         alex_photograph "Из этого ракурса ничего не видно."
         m "Точно?"
         alex_photograph "Да, Миссис Бакфетт! Уверяю Вас!"
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_197
+        call photoshoot_flash_count()
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot5_progress")
-        $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
 
@@ -1931,7 +1869,7 @@ label gallery_ep27_photoshoot_suit8_pose5:
         m "И я твой Босс, ты не забыл это?!"
     #
         if corruption < PS8_monica_pose5_corruption_required:
-            call corruption_required(PS8_monica_pose5_corruption_required) from _call_corruption_required_63
+            call corruption_required(PS8_monica_pose5_corruption_required)
             return
         alex_photograph "Миссис Бакфетт, не переживайте!"
         alex_photograph "Все-равно ничего не видно! Украшение дает блеск и засвечивает кадр!"
@@ -1952,8 +1890,7 @@ label gallery_ep27_photoshoot_suit8_pose5:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_198
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         jump expression photoPoseLabel
     if result == "side":
@@ -1964,14 +1901,13 @@ label gallery_ep27_photoshoot_suit8_pose5:
         with Dissolve(0.2)
         m "Алекс, там точно ничего не видно?"
         if corruption < PS8_monica_shot6_corruption_required:
-            call corruption_required(PS8_monica_shot6_corruption_required) from _call_corruption_required_64
+            call corruption_required(PS8_monica_shot6_corruption_required)
             jump expression photoPoseLabel
         alex_photograph "Не волнуйтесь, Миссис Бакфетт!"
         alex_photograph "Украшение все скрывает!"
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_199
+        call photoshoot_flash_count()
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot6_progress")
-        $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
     if result == "down":
@@ -1983,14 +1919,13 @@ label gallery_ep27_photoshoot_suit8_pose5:
         m "Алекс, что ты делаешь?!"
         m "Зачем ты снимаешь вблизи?!"
         if corruption < PS8_monica_shot7_corruption_required:
-            call corruption_required(PS8_monica_shot7_corruption_required) from _call_corruption_required_65
+            call corruption_required(PS8_monica_shot7_corruption_required)
             jump expression photoPoseLabel
         alex_photograph "Миссис Бакфетт, я фотографирую украшение."
         alex_photograph "Больше ничего не попадает в кадр!"
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_200
+        call photoshoot_flash_count()
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot7_progress")
-        $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
 
@@ -2036,8 +1971,7 @@ label gallery_ep27_photoshoot_suit8_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_201
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         jump expression photoPoseLabel
     if result == "side":
@@ -2046,15 +1980,14 @@ label gallery_ep27_photoshoot_suit8_pose6:
         img 20554
         with Dissolve(0.2)
         w
-        call photoshop_flash() from _call_photoshop_flash_152
+        call photoshop_flash()
         w
         sound camera_lens1
         $ photoImage = 20555
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_202
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         jump expression photoPoseLabel
     if result == "down":
@@ -2064,8 +1997,7 @@ label gallery_ep27_photoshoot_suit8_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_203
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         jump expression photoPoseLabel
 
@@ -2094,7 +2026,7 @@ label gallery_ep27_photoshoot_suit8_pose7:
         m "Ты думаешь что я буду сниматься голой, да еще и раздвигать ноги?!"
         m "Ты не перепутал съемку на модный журнал и какое-нибудь порно?!"
         if corruption < PS8_monica_pose8_corruption_required:
-            call corruption_required(PS8_monica_pose8_corruption_required) from _call_corruption_required_66
+            call corruption_required(PS8_monica_pose8_corruption_required)
             return
         alex_photograph "Миссис Бакфетт, я буду снимать Вас только спереди!"
         alex_photograph "Положение Ваших ног лишь передает в кадр непринужденность."
@@ -2117,8 +2049,7 @@ label gallery_ep27_photoshoot_suit8_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_204
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         jump expression photoPoseLabel
     if result == "side":
@@ -2128,8 +2059,7 @@ label gallery_ep27_photoshoot_suit8_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_205
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         jump expression photoPoseLabel
     if result == "down":
@@ -2139,8 +2069,7 @@ label gallery_ep27_photoshoot_suit8_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_206
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         jump expression photoPoseLabel
 
@@ -2185,8 +2114,7 @@ label gallery_ep27_photoshoot_suit8_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_207
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         jump expression photoPoseLabel
     if result == "side":
@@ -2199,7 +2127,7 @@ label gallery_ep27_photoshoot_suit8_pose8:
         m "Алекс, НЕТ!"
         m "Я же голая там!"
         if corruption < PS8_monica_shot8_corruption_required:
-            call corruption_required(PS8_monica_shot8_corruption_required) from _call_corruption_required_67
+            call corruption_required(PS8_monica_shot8_corruption_required)
             jump expression photoPoseLabel
         #
         alex_photograph "Миссис Бакфетт, я буду фотографировать только верхнюю часть."
@@ -2207,37 +2135,37 @@ label gallery_ep27_photoshoot_suit8_pose8:
         m "Только не смотри ниже!"
         alex_photograph "Да, Миссис Бакфетт, конечно!"
         w
-        call photoshop_flash() from _call_photoshop_flash_153
+        call photoshop_flash()
         w
         sound camera_lens1
         img 20564
         with Dissolve(0.2)
         w
-        call photoshop_flash() from _call_photoshop_flash_154
+        call photoshop_flash()
         w
         sound camera_lens1
         img 20565
         with Dissolve(0.2)
         w
-        call photoshop_flash() from _call_photoshop_flash_155
+        call photoshop_flash()
         w
         sound camera_lens1
         img 20566
         with Dissolve(0.2)
         w
-        call photoshop_flash() from _call_photoshop_flash_156
+        call photoshop_flash()
         w
         sound camera_lens1
         img 20567
         with Dissolve(0.2)
         w
-        call photoshop_flash() from _call_photoshop_flash_157
+        call photoshop_flash()
         w
         sound camera_lens1
         img 20568
         with Dissolve(0.2)
         w
-        call photoshop_flash() from _call_photoshop_flash_158
+        call photoshop_flash()
         w
         m "Алекс!"
         sound camera_lens1
@@ -2245,8 +2173,7 @@ label gallery_ep27_photoshoot_suit8_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_208
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot8_progress")
         jump expression photoPoseLabel
@@ -2305,21 +2232,21 @@ label gallery_ep27_photoshoot_suit8_pose8:
         w
         alex_photograph "О, Миссис Бакфетт!"
         alex_photograph "Как я мечтал рассмотреть Вашу киску поближе!"
-        call photoshop_flash() from _call_photoshop_flash_159
+        call photoshop_flash()
         w
         sound camera_lens1
         img 20578
         with Dissolve(0.2)
         w
         alex_photograph "И Вашу попку!"
-        call photoshop_flash() from _call_photoshop_flash_160
+        call photoshop_flash()
         w
         sound camera_lens1
         img 20579
         with Dissolve(0.2)
         w
         alex_photograph "Моя мечта сбылась!"
-        call photoshop_flash() from _call_photoshop_flash_161
+        call photoshop_flash()
         w
 
         music Groove2_85
@@ -2354,7 +2281,7 @@ label gallery_ep27_photoshoot_suit8_pose8:
         with Dissolve(0.2)
         w
         alex_photograph "Как только я устроился в этот журнал, я стал мечтать сфотографировать это!"
-        call photoshop_flash() from _call_photoshop_flash_162
+        call photoshop_flash()
         w
         alex_photograph "Новая модель трусиков от Модного Журнала! Она так идем Вам, Миссис Бакфетт!"
         sound camera_lens1
@@ -2362,7 +2289,7 @@ label gallery_ep27_photoshoot_suit8_pose8:
         with Dissolve(0.2)
         w
         alex_photograph "Миссис Бакфетт... Ахххх..."
-        call photoshop_flash() from _call_photoshop_flash_163
+        call photoshop_flash()
         w
         sound camera_lens1
         $ photoImage = 20586
@@ -2371,8 +2298,7 @@ label gallery_ep27_photoshoot_suit8_pose8:
         w
         alex_photograph "О, Миссис Бакфетт!"
         alex_photograph "Ахххх..."
-        call photoshoot_flash_count() from _call_photoshoot_flash_count_209
-        $ PS8_shoots_array.append(photoImage)
+        call photoshoot_flash_count()
         w
         music stop
         img 20587
@@ -2445,7 +2371,7 @@ label gallery_ep27_photoshoot_suit8_end:
     #Если кастинг у Бифа
     menu:
         "Переодеться назад...":
-            $ biffMonicaLastCastingSkipped = True
+            return
         "Идти на кастинг к Бифу и притвориться цыпочкой... (corruption)" if (biffMonicaCastingsEnabled == True or monicaWorkingAtBiffOffice == True): #если есть кастинги
             mt "Я не собираюсь идти по офису голой! Я еще не докатилась до такого!"
             mt "И этого не произойдет никогда!!!"
@@ -2473,12 +2399,10 @@ label gallery_monica_office_photostudio_alex_dialogue2:
         "Пока нет...":
             m "Пока нет..."
             $ restore_music()
-            return False
+            return
 
-    $ questLog(9, False)
     img 6517
     with fade
-    $ add_corruption(monicaBiffWork3CorruptionAdding, "monicaBiffWork3CorruptionAdding")
     m "Да, буду..."
     "Что мне одеть?"
     "Я ведь не буду сниматься в этом?!"
@@ -2529,7 +2453,7 @@ label gallery_monica_office_photostudio_alex_dialogue2:
             pass
         "Уйти.":
             $ restore_music()
-            return False
+            return
 
     #переодевание
     img 6528
@@ -2723,34 +2647,34 @@ label gallery_monica_office_photostudio_alex_dialogue2:
     $ add_char_progress("AlexPhotograph", photoshot1AlexProgressAmount, "photoshot1")
 
     img 6588
-    call photoshop_flash() from _call_photoshop_flash
+    call photoshop_flash()
     w
     img 6589
-    call photoshop_flash() from _call_photoshop_flash_1
+    call photoshop_flash()
     w
     img 6590
-    call photoshop_flash() from _call_photoshop_flash_2
+    call photoshop_flash()
     w
     img 6591
-    call photoshop_flash() from _call_photoshop_flash_3
+    call photoshop_flash()
     w
     img 6592
-    call photoshop_flash() from _call_photoshop_flash_4
+    call photoshop_flash()
     w
     img 6593
-    call photoshop_flash() from _call_photoshop_flash_5
+    call photoshop_flash()
     w
     img 6594
-    call photoshop_flash() from _call_photoshop_flash_6
+    call photoshop_flash()
     w
     img 6596
-    call photoshop_flash() from _call_photoshop_flash_7
+    call photoshop_flash()
     w
     img 6595
-    call photoshop_flash() from _call_photoshop_flash_8
+    call photoshop_flash()
     w
     img 6597
-    call photoshop_flash() from _call_photoshop_flash_9
+    call photoshop_flash()
     w
 
     music Groove2_85
@@ -2768,13 +2692,13 @@ label gallery_monica_office_photostudio_alex_dialogue2:
     #фотосессия Моники со стулом
     img 6600
     with fade
-    call photoshop_flash() from _call_photoshop_flash_10
+    call photoshop_flash()
     w
     img 6601
-    call photoshop_flash() from _call_photoshop_flash_11
+    call photoshop_flash()
     w
     img 6602
-    call photoshop_flash() from _call_photoshop_flash_12
+    call photoshop_flash()
     w
 
     music Groove2_85
@@ -2812,7 +2736,6 @@ label gallery_monica_office_photostudio_alex_dialogue2:
     m "Мы сделали достаточно кадров!"
 
     if alexPhotographOffended1 == True:
-        $ notif(_("Моника была груба к Алексу"))
         #если Моника зла к Алексу
         img 6610
         alex_photograph "Мы не сделали самого главного, Миссис Бакфетт."
@@ -2825,7 +2748,6 @@ label gallery_monica_office_photostudio_alex_dialogue2:
         "А я так хочу туда!"
 
     else:
-        $ notif(_("Моника была добра к Алексу"))
         #если Моника добра к Алексу
         img 6612
         alex_photograph "Миссис Бакфетт!"
@@ -2856,46 +2778,45 @@ label gallery_monica_office_photostudio_alex_dialogue2:
 
     #Идет фотосессия с пошлыми ракурсами
     img 6616
-    call photoshop_flash() from _call_photoshop_flash_13
+    call photoshop_flash()
     w
     img 6617
-    call photoshop_flash() from _call_photoshop_flash_14
+    call photoshop_flash()
     w
     img 6618
-    call photoshop_flash() from _call_photoshop_flash_15
+    call photoshop_flash()
     w
     img 6619
-    call photoshop_flash() from _call_photoshop_flash_16
+    call photoshop_flash()
     w
     img 6620
-    call photoshop_flash() from _call_photoshop_flash_17
+    call photoshop_flash()
     w
-    label .local1:
+    label gallery_local1:
         menu:
             "Продолжить делать кадры. (corruption)" if corruption >= monicaBiffWorkPhotoShot1PervertCorruptionRequired:
                 $ add_char_progress("AlexPhotograph", photoshot1AlexProgressPervertAmount, "photoshot1_corruption")
-                $ add_corruption(monicaBiffWorkPhotoShot1PervertCorruptionAdding, "monicaBiffWorkPhotoShot1PervertCorruptionAdding")
                 img 6621
                 with fade
-                call photoshop_flash() from _call_photoshop_flash_18
+                call photoshop_flash()
                 w
                 img 6622
-                call photoshop_flash() from _call_photoshop_flash_19
+                call photoshop_flash()
                 w
                 img 6623
-                call photoshop_flash() from _call_photoshop_flash_20
+                call photoshop_flash()
                 w
                 img 6624
-                call photoshop_flash() from _call_photoshop_flash_21
+                call photoshop_flash()
                 w
                 img 6625
-                call photoshop_flash() from _call_photoshop_flash_22
+                call photoshop_flash()
                 w
                 img 6626
-                call photoshop_flash() from _call_photoshop_flash_23
+                call photoshop_flash()
                 w
                 img 6627
-                call photoshop_flash() from _call_photoshop_flash_24
+                call photoshop_flash()
                 w
                 img 6628
                 with Dissolve(0.5)
@@ -2912,7 +2833,7 @@ label gallery_monica_office_photostudio_alex_dialogue2:
                 "Хотите переодеться назад?"
 
             "Продолжить делать кадры. (low corruption, required [monicaBiffWorkPhotoShot1PervertCorruptionRequired]) (disabled)" if corruption < monicaBiffWorkPhotoShot1PervertCorruptionRequired:
-                jump .local1
+                jump gallery_local1
             "Прекратить это.":
                 music Stealth_Groover
                 img 6630
@@ -2973,7 +2894,7 @@ label gallery_monica_office_secretary_dialogue7:
     secretary "Да, Миссис Бакфетт!"
     "Я жду ВАС!"
     $ restore_music()
-    return False
+    return
 
 label gallery_monica_office_cabinet_biff_dialogue5:
     #render
@@ -3089,7 +3010,6 @@ label gallery_monica_office_cabinet_biff_dialogue5:
     with fade
     "А сейчас поехали!"
     "Нам еще надо подобрать {c}Мелани{/c} по пути!"
-    $ add_char_progress("Biff", 20, "photoshot1")
     mt "!!!"
     return
     #
@@ -3158,8 +3078,7 @@ label gallery_ep22_photoshoot2:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count
-            $ PS2_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot2_pose1
         if result == "side":
@@ -3169,8 +3088,7 @@ label gallery_ep22_photoshoot2:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_1
-            $ PS2_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot2_pose1
         if result == "down":
@@ -3180,8 +3098,7 @@ label gallery_ep22_photoshoot2:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_2
-            $ PS2_shoots_array.append(photoImage)
+            call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot2_pose1
 
@@ -3220,7 +3137,7 @@ label gallery_ep22_photoshoot2:
             img photoImage
             with Dissolve(0.2)
             w
-            call photoshoot_flash_count() from _call_photoshoot_flash_count_3
+            call photoshoot_flash_count()
             $ PS2_shoots_array.append(photoImage)
             w
             jump gallery_ep22_photoshoot2_pose2
@@ -3232,7 +3149,7 @@ label gallery_ep22_photoshoot2:
             with Dissolve(0.2)
             if corruption < PS2_monica_shot1_corruption_required:
                 m "Эй! Хватит брать свои правильные ракурсы!"
-                call corruption_required(PS2_monica_shot1_corruption_required) from _call_corruption_required
+                call corruption_required(PS2_monica_shot1_corruption_required) ###$$$$$$$
                 jump gallery_ep22_photoshoot2_pose2
             $ add_char_progress("AlexPhotograph", PS2_AlexProgressEachCorruptionShot, "PS2_monica_shot1_progress")
             w
@@ -3739,7 +3656,7 @@ label gallery_ep22_photoshoot2_casting:
             biff "Что Леди Нуар хочет показать папочке?"
             $ chickMode = True
             $ castingCloth = 2
-            call ep22_casting() from _call_ep22_casting
+            call gallery_8442() from _call_gallery_8442
             img 8462
             with fade
             mt "Мерзавец!"
@@ -3758,7 +3675,7 @@ label gallery_ep22_photoshoot2_casting:
             biff "И что цыпочка будет делать?"
             $ castingCloth = 2
             $ chickMode = False
-            call ep22_casting() from _call_ep22_casting_1
+            call gallery_8442() from _call_gallery_8442_1
             img 8462
             with fade
             mt "Мерзавец!"
@@ -4575,7 +4492,7 @@ label gallery_ep22_photoshoot3_casting:
             biff "Что девушка с календаря хочет показать папочке?"
             $ chickMode = True
             $ castingCloth = 3
-            call ep22_casting() from _call_ep22_casting_6
+            call gallery_8442() from _call_gallery_8442_6
             img 8480
             with fade
             mt "Мерзавец!"
@@ -4594,7 +4511,7 @@ label gallery_ep22_photoshoot3_casting:
             biff "И что цыпочка будет делать?"
             $ castingCloth = 3
             $ chickMode = False
-            call ep22_casting() from _call_ep22_casting_7
+            call gallery_8442() from _call_gallery_8442_7
             img 8480
             with fade
             mt "Мерзавец!"
@@ -5306,7 +5223,7 @@ label ep23_photoshoot4_casting:
             biff "Что Роза Надежды хочет показать папочке?"
             $ chickMode = True
             $ castingCloth = 4
-            call ep22_casting() from _call_ep22_casting_4
+            call gallery_8442() from _call_gallery_8442_4
             img 9476
             with fade
             mt "Мерзавец!"
@@ -5325,7 +5242,7 @@ label ep23_photoshoot4_casting:
             biff "И что цыпочка будет делать?"
             $ castingCloth = 4
             $ chickMode = False
-            call ep22_casting() from _call_ep22_casting_5
+            call gallery_8442() from _call_gallery_8442_5
             img 9476
             with fade
             mt "Мерзавец!"
@@ -6316,7 +6233,7 @@ label gallery_gallery_ep26_photoshoot6_casting:
             biff "Что Алая Жемчужина хочет показать папочке?"
             $ chickMode = True
             $ castingCloth = 6
-            call ep22_casting() from _call_ep22_casting_10
+            call gallery_8442() from _call_gallery_8442_10
 
             img 20183 #9476
             with fade
@@ -6336,7 +6253,7 @@ label gallery_gallery_ep26_photoshoot6_casting:
             biff "И что цыпочка будет делать?"
             $ castingCloth = 6
             $ chickMode = False
-            call ep22_casting() from _call_ep22_casting_11
+            call gallery_8442() from _call_gallery_8442_11
             img 20183 #9476
             with fade
             mt "Мерзавец!"
@@ -7581,7 +7498,7 @@ label gallery_ep26_photoshoot7_casting:
             biff "Что Запретное Желание хочет показать папочке?"
             $ chickMode = True
             $ castingCloth = 7
-            call ep22_casting() from _call_ep22_casting_12
+            call gallery_8442() from _call_gallery_8442_12
             img 20201 #9476
             with fade
             mt "Мерзавец!"
@@ -7600,7 +7517,7 @@ label gallery_ep26_photoshoot7_casting:
             biff "И что цыпочка будет делать?"
             $ castingCloth = 7
             $ chickMode = False
-            call ep22_casting() from _call_ep22_casting_13
+            call gallery_8442() from _call_gallery_8442_13
             img 20201 #9476
             with fade
             mt "Мерзавец!"
