@@ -1,4 +1,2894 @@
 
+label gallery_21069:
+# Трогает голую грудь
+    music Loved_Up
+    img 21063
+    with fadelong
+    joe "[monica_pub_name], ты пришла!"
+    joe "Я хочу посмотреть твою грудь!"
+    joe "Я хочу увидеть ее!"
+    music Groove2_85
+    img 21064
+    with hpunch
+    m "Нет!"
+    img 21065
+    with fade
+    joe "Мне жаль, [monica_pub_name], но Эшли начнет что-то подозревать."
+    joe "Это большой риск для меня."
+    img 21066
+    with diss
+    mt "Дьявол! Снова я в такой глупой ситуации!"
+    mt "Настолько-ли мне нужна эта дурацкая работа?!"
+    menu:
+        "Согласиться показать грудь.": #corruption
+            pass
+        "Отказаться.":
+            music Power_Bots_Loop
+            img 21064
+            with fade
+            m "Нет, Джо!"
+            return
+
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.5
+    music Loved_Up
+    img 21067 # звук одежды
+    with fadelong
+    m "Ладно..."
+    m "Только быстро..."
+    # Моника снимает верх
+    sound Jump1
+    img 21068
+    with fadelong
+    joe "Ах! Какие сиськи!"
+    img 21069
+    with diss
+    joe "Тебе определенно надо танцевать на сцене, [monica_pub_name]!"
+    mt "!!!"
+    img 21070
+    with diss
+    joe "Можно я потрогаю их?"
+    m "Нет, Джо! Мы договорились!"
+    music Groove2_85
+    img 21071
+    with fade
+    joe "Я не могу так, не могу, [monica_pub_name]!"
+    joe "Дай я только прикоснусь к ним и Эшли простит тебя, я обещаю!"
+    music Hidden_Agenda
+    img 21072
+    with diss
+    mt "Я не могу пойти на это!"
+    mt "..."
+    mt "Хотя... Он не знает кто я на самом деле..."
+    menu:
+        "Согласиться.": #corruption
+            pass
+        "Отказаться.":
+            music Power_Bots_Loop
+            img 21071
+            with fade
+            m "Нет, Джо!"
+            return
+    music Groove2_85
+    img 21073
+    with fade
+    m "Ты прикоснешься к моей груди буквально на секунду."
+    joe "Да, [monica_pub_name], я обещаю!"
+    img 21074
+    with diss
+    m "И больше никаких условий после этого."
+    m "Обещаешь?!"
+    joe "Да, [monica_pub_name], я обещаю!"
+    music Hidden_Agenda
+    img 21075
+    with fadelong
+    mt "Дьявол!"
+    mt "Мое изысканное тело создано для того, чтобы быть на обложке модного журнала..."
+    mt "До чего я докатилась, О БОЖЕ!"
+    img 21076
+    with diss
+    mt "Хотя... Это не Я... Это [monica_pub_name]..."
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Loved_Up2
+    img 21077
+    with fadelong
+    w
+    # джо трогает грудь
+    sound Jump2
+    img 21078
+    with diss
+    joe "Ах, какие сиськи!"
+    img 21079
+    with diss
+    joe "Вот это да!"
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    stop music
+    play music "Sounds/audio_Monica_Joe_Boobs_1.mp3"
+    scene black
+    image videov_Monica_Joe_Boobs_1_1 = Movie(play="video/v_Monica_Joe_Boobs_1_1.mkv", fps=30)
+    show videov_Monica_Joe_Boobs_1_1
+#    with fadelong
+    wclean
+    stop music
+    music stop
+    music Loved_Up2
+
+    img 21080
+    with diss
+    w
+    sound hlup10
+    img 21081
+    with diss
+    w
+    img 21080
+    with diss
+    w
+    sound hlup10
+    img 21081
+    with diss
+    w
+    img 21080
+    with diss
+    w
+    sound hlup10
+    img 21081
+    with diss
+    w
+    img 21080
+    with diss
+    w
+    sound hlup10
+    img 21081
+    with diss
+    w
+    img 21080
+    with diss
+    w
+    sound hlup10
+    img 21081
+    with diss
+    w
+    img 21082
+    with diss
+    w
+    label gallery_21083:
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    stop music
+    play music "Sounds/audio_Monica_Joe_Boobs_1.mp3"
+    scene black
+    image videov_Monica_Joe_Boobs_1_2 = Movie(play="video/v_Monica_Joe_Boobs_1_2.mkv", fps=30)
+    show videov_Monica_Joe_Boobs_1_2
+#    with fadelong
+    wclean
+    stop music
+    music stop
+    music Loved_Up2
+
+    img 21084
+    with diss
+    w
+    sound hlup10
+    img 21083
+    with diss
+    w
+    img 21084
+    with diss
+    w
+    sound hlup10
+    img 21083
+    with diss
+    w
+    img 21084
+    with diss
+    w
+    sound hlup10
+    img 21083
+    with diss
+    w
+    img 21084
+    with diss
+    w
+    sound hlup10
+    img 21083
+    with diss
+    w
+    img 21084
+    with diss
+    w
+    sound hlup10
+    img 21083
+    with diss
+    w
+    img 21085
+    with diss
+    joe "Лучшие сиськи в shiny hole!"
+
+    music Power_Bots_Loop
+    img 21086
+    with fade
+    m "Все, Джо!"
+    m "Хватит!"
+    m "Идем к Эшли!"
+    return
+
+label gallery_21194:
+    music Groove2_85
+    img 21189
+    with fadelong
+    m "Я пришла, Эшли..."
+    music Loved_Up
+    img 21190
+    with diss
+    ashley "О, [monica_pub_name]!"
+    ashley "Иди ко мне!"
+    ashley "Дай я потрогаю твою киску!"
+    menu:
+        "Позволить Эшли потрогать свою киску.": #corruption
+            pass
+        "Отказать.":
+            music Power_Bots_Loop
+            img 21189
+            with fade
+            m "Нет, Эшли! Я не способна на такое!"
+            return
+    music Groove2_85
+    img 21191
+    with fade
+    mt "О Боже!"
+    mt "Что эта Эшли собралась делать?!"
+    # Эшли запускает руку Монике в джинсы и трогает киску
+    music Loved_Up
+    sound Jump1
+    img 21192
+    with fade
+    ashley "Да, [monica_pub_name]!"
+    ashley "Чувствуешь меня?"
+    sound audio_Monica_Cabinet_FaceSitting_3
+    img 21193
+    with diss
+    m "Ахххх!"
+    img 21194
+    with diss
+    w
+    ashley "Наслаждаешься этим?"
+    img 21195
+    with diss
+    m "Ахххх!"
+    music Loved_Up2
+    sound audio_Monica_Cabinet_Dildo_3
+    img 21196
+    with diss
+    w
+    img 21197
+    with diss
+    w
+    ashley "Почуствуй меня, [monica_pub_name]!"
+    img 21198
+    with diss
+    ashley "Если захочешь, это можно сделать по другому."
+    img 21199
+    with diss
+    m "ААА! Ааааахх!"
+    img 21200
+    with diss
+    ashley "Ах, какая ты вкусная, [monica_pub_name]!"
+
+    music2 stop
+    # Моника отстраняется
+    music Groove2_85
+    img 21201
+    with vpunch
+    m "Погоди, Эшли!"
+    m "Я..."
+    m "На меня что-то начинает накатывать..."
+    m "Погоди, я боюсь этого..."
+    music Loved_Up
+    img 21202
+    with fade
+    ashley "Это оргазм, моя [monica_pub_name]."
+    ashley "Ты разве не любишь это?"
+    img 21203
+    with diss
+    m "Я... Я не совсем знаю что это такое и..."
+    img 21204
+    with fade
+    ashley "Ах, иди ко мне, [monica_pub_name], я тебе покажу!"
+    music Groove2_85
+    img 21205
+    with diss
+    m "Нет, Эшли! Мне..."
+    m "Мне надо идти!"
+    return
+
+label gallery_21108:
+# Просит посмотреть на ее обалденную попку
+    music Loved_Up
+    img 21087
+    with fadelong
+    joe "[monica_pub_name], я хочу увидеть твою попку!"
+    m "!!!"
+    img 21088
+    with diss
+    m "Ладно..."
+    # Моника поворачивается задом
+    img 21089
+    with diss
+    w
+    img 21090
+    with diss
+    w
+    img 21091
+    with diss
+    w
+    music Groove2_85
+    img 21092
+    with hpunch
+    joe "Нет, [monica_pub_name], я хочу увидеть твою попку голой!"
+    joe "Покажи ее мне и я сделаю так, чтобы Эшли снова простила тебя!"
+    music Hidden_Agenda
+    img 21093
+    with diss
+    m "Джо, может быть, можно как-то без этого?"
+    music Groove2_85
+    img 21094
+    with fade
+    joe "Нет, [monica_pub_name], я действительно хочу увидеть твою попку."
+    joe "Это мое самое большое желание сейчас!"
+    joe "И, пока оно не исполнится, я не смогу ничего сделать с Эшли."
+    music Hidden_Agenda
+    img 21095
+    with diss
+    mt "Что же мне делать?"
+    mt "Может быть лучше достать $ 500? Но как?!"
+    menu:
+        "Показать Джо свою голую попу.": #corruption
+            pass
+        "Отказаться.":
+            music Power_Bots_Loop
+            img 21094
+            with fade
+            m "Нет, Джо!"
+            return
+    music Groove2_85
+    img 21096
+    with fade
+    m "Джо, но только никаких прикосновений, тебе ясно?!"
+    joe "Конечно, [monica_pub_name], я только посмотрю!"
+    img 21097
+    with diss
+    m "И никаких дополнительных условий, ясно?!"
+    joe "Да, [monica_pub_name], я обещаю!"
+    music Hidden_Agenda
+    img 21098
+    with fade
+    mt "Дьявол!"
+    mt "Мне так стыдно делать это..."
+    mt "Показывать свой голый зад в какой-то shiny hole посреди трущоб..."
+    mt "Это какой-то сон..."
+    music Groove2_85
+    img 21099
+    with diss
+    joe "[monica_pub_name], я жду!"
+    img 21100
+    with diss
+    joe "Скорее, показывай свою попку!"
+    img 21101
+    with diss
+    m "!!!"
+    # Моника показывает голую попу
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.5
+    music Loved_Up
+    img 21102
+    with fadelong
+    w
+    img 21103
+    with diss
+    w
+    img 21104
+    with diss
+    joe "Ах, какая попка!"
+    img 21105
+    with diss
+    joe "Давно я не видел такой идеальной формы!"
+    music Groove2_85
+    img 21106
+    with fade
+    mt "Ты этого недостоин, толстяк! Смотреть на мое восхитительное тело!"
+
+    music Loved_Up2
+    sound Jump1
+    img 21107 #jump
+    with diss
+    w
+    img 21108
+    with diss
+    joe "[monica_pub_name], почему ты не показала мне ее сразу, как только пришла?"
+
+    img 21109
+    with diss
+    joe "Я бы сразу взял тебя официанткой. Без необходимости мыть посуду!"
+    img 21110
+    with fade
+    mt "Это он думает что оказал бы мне честь?! Сразу бы дал работать официанткой в этой дыре?!"
+    mt "Мне?! Монике Бакфетт?!"
+    sound Jump2
+    img 21111
+    with vpunch
+    joe "[monica_pub_name], можно потрогать?!"
+    # Моника одевается
+    music Power_Bots_Loop
+    img 21112
+    with diss
+    m "Только попробуй, Джо!"
+    m "И я сломаю тебе пальцы!"
+    music Groove2_85
+    img 21113
+    with fade
+    joe "Но [monica_pub_name]! Мы ведь только начали!"
+    joe "Признайся, ты ведь для этого и пришла сюда, в Shiny Hole."
+    joe "Чтобы показывать свое тело за деньги!"
+    joe "Просто ты не хочешь торопиться с этим."
+    joe "Хочешь сначала освоиться здесь."
+    joe "Я тебя понимаю, [monica_pub_name]."
+    joe "Все девочки, которые танцуют на сцене, сначала стеснялись."
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    music Groove2_85
+    img 21114
+    with fadelong
+    m "Все, Джо!"
+    m "Хватит!"
+    img 21115
+    with diss
+    m "Идем к Эшли!"
+    return
+
+label gallery_21226:
+    music Groove2_85
+    img 21206
+    with fadelong
+    m "Эшли, я пришла."
+    m "Только пожалуйста, давай ты не будешь трогать мою киску..."
+    m "По крайней мере не в этот раз..."
+    music Loved_Up
+    img 21207
+    with diss
+    ashley "Хорошо, [monica_pub_name]."
+    ashley "Снимай свой низ, я хочу потереться о твою сладкую попку!"
+    menu:
+        "Сделать то о чем просит Эшли.":
+            pass
+        "Отказаться.":
+            music Power_Bots_Loop
+            img 21206
+            with fade
+            m "Нет, Эшли! Я не способна на такое!"
+            return
+    sound snd_fabric1
+    img 21208
+    with fadelong
+    m "Эшли, и что будет дальше?"
+    img 21209
+    with diss
+    ashley "Не бойся, [monica_pub_name], снимай!"
+    sound snd_fabric1
+    img 21210
+    with fadelong
+    m "Ладно..."
+    m "А ты мне точно разрешишь снова работать здесь?"
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.5
+    music Loved_Up
+    # Моника снимает низ
+    img 21211
+    with fadelong
+    # Эшли поднимает юбку
+    ashley "Потрись о мою попку своей и я прощу тебя!"
+    music Power_Bots_Loop
+    img 21212
+    with hpunch
+    m "ЧТО??!"
+    music Loved_Up
+    img 21213
+    with fadelong
+    ashley "Давай, [monica_pub_name]!"
+    ashley "Я хочу почувствовать твою сладкую попку!"
+    img 21214
+    with diss
+    ashley "Иначе я тебя не прощу!"
+    menu:
+        "Сделать то о чем просит Эшли.":
+            pass
+        "Отказаться.":
+            music Power_Bots_Loop
+            img 21213
+            with fade
+            m "Нет, Эшли! Я не способна на такое!"
+            return
+
+    # Моника трется своей попой о попу Эшли.
+
+    img 21215
+    with fade
+    ashley "Ну же, [monica_pub_name]!"
+    img 21216
+    with diss
+    ashley "Я не чувствую твою попку! Где она?"
+    img 21217
+    with diss
+    ashley "Не будет твоей попки - не будет прощения!"
+    music Groove2_85
+    img 21218
+    with fadelong
+    w
+    img 21219
+    with fade
+    mt "О БОЖЕ! Что я делаю?!"
+    music Loved_Up2
+    sound hlup10
+    img 21220
+    with diss
+    ashley "Да, [monica_pub_name]!"
+    sound hlup25
+    img 21221
+    with diss
+    ashley "Какая у тебя упругая и приятная попка!"
+    ashley "Это просто персик!"
+    img 21222
+    with diss
+    mt "!!!"
+    sound hlup25
+    img 21223
+    with diss
+    ashley "Ах! Как здорово!"
+    sound hlup10
+    img 21224
+    with diss
+    ashley "Ах! Ах! Да!"
+    sound hlup10
+    img 21225
+    with diss
+    w
+    sound hlup19
+    img 21226
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    w
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    ashley "Дааааааа!!!" # Эшли кончает
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    music Groove2_85
+    img 21227
+    with fadelong
+    ashley "Ты отлично справилась, [monica_pub_name]."
+    ashley "Но, если при клиентах ты будешь такой же шлюхой, какой была сейчас, я тебя уволю."
+    img 21228
+    mt "Я не шлюха!!!"
+    return
+
+label gallery_21145:
+# Просит раздеться и забраться на стол
+    music Groove2_85
+    img 21116
+    with fadelong
+    joe "[monica_pub_name], ты уже украла столько денег..."
+    joe "И Эшли уже начинает что-то подозревать."
+    img 21117
+    with diss
+    joe "Обычно... Знаешь..."
+    joe "Больше денег я люблю только шлюх..."
+    joe "И Эшли знает об этом и очень ревнует."
+    music Power_Bots_Loop
+    img 21118
+    with vpunch
+    mt "Я не шлюха!!!"
+    music Groove2_85
+    img 21119
+    with fade
+    joe "Если честно, она так следит за мной, что уже очень давно я не видел другой голой женщины."
+    m "И что же ты хочешь на этот раз, Джо?"
+    joe "Я хочу чтобы ты разделась, [monica_pub_name]."
+    joe "Полностью."
+    img 21120
+    with diss
+    m "Это исключено, Джо!"
+    img 21121
+    with diss
+    joe "Тогда извини, для меня это слишком большой риск."
+    joe "Ты можешь идти. Если Эшли догадается, она прибьет меня."
+    menu:
+        "Уйти.":
+            music Power_Bots_Loop
+            img 21122
+            with fade
+            m "Твоя жена тоже может быть голой женщиной, Джо!"
+            m "Смотри лучше на нее!"
+            return
+        "Предложить компромисс.":
+            pass
+
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Hidden_Agenda
+    img 21123
+    with fadelong
+    m "Джо..."
+    m "Мне действительно надо снова работать здесь."
+    m "Может быть мне не надо раздеваться полностью?"
+    music Groove2_85
+    img 21124
+    with fadelong
+    joe "Хорошо, [monica_pub_name]."
+    joe "Ты можешь раздеться наполовину и встать на этот стол."
+    joe "И принять пару сексуальных поз."
+    mt "!!!"
+    img 21125
+    with diss
+    joe "Это будет как приватный танец."
+    music Hidden_Agenda
+    img 21126
+    with fadelong
+    m "Ладно, Джо..."
+    m "Сейчас я сниму верх..."
+    music Groove2_85
+    img 21127
+    with diss
+    joe "Нет, [monica_pub_name]!"
+    joe "Я хочу чтобы ты сняла низ!"
+    music Power_Bots_Loop
+    img 21128
+    with hpunch
+    m "ЧТОООО?!"
+    music Groove2_85
+    img 21129
+    with fade
+    joe "[monica_pub_name], твоя грудь прекрасна!"
+    joe "Но от твоей попки я просто без ума!"
+    joe "Это мое условие!"
+    joe "Если ты не согласна, то можешь идти и искать $ 500!"
+    img 21130
+    with diss
+    m "!!!"
+    menu:
+        "Согласиться.":
+            pass
+        "Отказаться.":
+            music Power_Bots_Loop
+            img 21128
+            with fade
+            m "Нет, Джо!"
+            return
+    music Hidden_Agenda
+    img 21131
+    with fade
+    mt "Дьявол!"
+    mt "До чего ты докатилась, Моника!"
+    mt "..."
+    mt "Мне не стоит даже в мыслях называть себя Моникой..."
+    mt "Вдруг я проговорюсь..."
+    mt "Ведь меня здесь знают под именем [monica_pub_name]..."
+    img 21132
+    with diss
+    mt "Черт! Мо... [monica_pub_name]!"
+    mt "Закрой глаза и сделай это..."
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    # Моника снимает низ и залезает на стол
+    music Groove2_85
+    img 21133
+    with fadelong
+    mt "Ненавижу этого Джо!"
+    mt "На что мне приходится идти ради этой дурацкой работы!"
+    img 21134
+    with diss
+    mt "Как могло дойти до такого?"
+    mt "Не могу поверить..."
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 2.0
+    music Molten_Alloy
+#    music RocknRoll_loop
+    img 21135
+    with fadelong
+    sound heel1
+    # звук каблука
+    w
+    img 21136
+    with diss
+    w
+    img 21137
+    with fade
+    sound heel1
+    joe "О да, [monica_pub_name]!"
+    img 21138
+    with diss
+    joe "Покажи мне свою попу, Да!"
+    img 21139
+    with fade
+    joe "Давай, меняй позы! Развлеки малыша Джо!"
+    img 21140
+    with fade
+    joe "Вот так! Активнее виляй своей задницей, [monica_pub_name]!"
+    img 21141
+    with diss
+    joe "Вот так! Теперь повернись, ДА!"
+    img 21142
+    with fade
+    joe "Да! Запомни! Клиент должен хорошо рассмотреть твою задницу, [monica_pub_name]!"
+    joe "Тогда ты получишь больше чаевых!"
+#    music stop
+    img 21143
+    with diss
+    joe "Стоп! Вот так, замри!"
+    # достает член
+    img 21144
+#    with fade
+    sound jump1
+    # jump
+    w
+#    music Molten_Alloy
+    img 21145
+    with diss
+    joe "Можешь продолжать!"
+    joe "Положи руки на задницу."
+    img 21146
+    with diss
+    joe "Вот так!"
+    img 21147
+    with fade
+    joe "Давай, [monica_pub_name], двигайся поактивнее!"
+    joe "Зарабатывай на чай!"
+    m "Джо, хватит грязных комментариев!"
+    m "Я и так не знаю как согласилась на это!"
+    img 21148
+    with diss
+    joe "Да, [monica_pub_name]! У тебя лучшая задница, которую я видел в Shiny Hole!"
+    img 21149
+    with diss
+    joe "Да, выгнись посильнее, да!"
+    joe "Твоя задница ослепительная!"
+    img 21150
+    with diss
+    joe "Ни у одной из наших девочек нет таких идеальных форм!"
+    img 21151
+    with diss
+    joe "Эта задница должна сиять в Shiny Hole!"
+    joe "[monica_pub_name], ты станешь звездой!"
+    m "Нет, Джо!"
+    m "Я никогда не буду танцевать голой на публике!"
+    sound snd_masturbation1
+    img 21152
+    with diss
+    joe "Продолжай! Поближе! Я... Я почти все..."
+    img 21153
+    with fade
+    joe "Но как же! Ты должна танцевать!"
+    joe "За такую задницу дадут... дадут..."
+    joe "Аххх!"
+    img 21154
+    with diss
+    joe "Дадут 20... 50..."
+    img 21155
+    with diss
+    joe "Нет, даже 100 долларов! Сто!"
+    img 21156
+    with diss
+    m "Сколько?! 100 долларов?!"
+    m "Ты шутишь, Джо?!"
+    img 21157
+    with diss
+    joe "Может... Ах.... Может не столько..."
+    joe "Но 20 долларов за такую задницу дадут точно, [monica_pub_name]!"
+    joe "Это хорошие деньги... Аххххх!"
+
+    music Groove2_85
+    img 21158
+    with fadelong
+    m "Все, мне надоело кривляться!"
+    joe "Аааааххх!"
+
+    music Power_Bots_Loop
+    img 21159
+    with hpunch
+    m "ЧТО?!"
+    m "Ты там что, дрочишь на меня, Джо?!"
+    sound snd_masturbation1
+    img 21160
+    with diss
+    joe "Ааааххх! Ааааааааххх!"
+    joe "Еще чуть-чуть!"
+    music Groove2_85
+    img 21161
+    with fade
+    m "Дьявол!!!"
+    m "Все, шоу закончено!"
+    m "Иди к Эшли, немедленно!"
+    m "Мне нужна эта работа!"
+    mt "Извращенец!!!"
+
+    music Power_Bots_Loop
+    img 21162
+    with fade
+    joe "Что?! Кто-то идет?"
+    img 21163
+    with diss
+    joe "Это Эшли! Прячься!"
+    mt "О БОЖЕ!"
+    music stop
+    img black_screen
+    with diss
+    sound snd_bodyfall
+    pause 1.5
+    music Groove2_85
+    img 21164 #Моника прячется
+    with fadelong
+    w
+    img 21165
+    with fade
+    ashley "Джо! Вот ты где!"
+    ashley "Что ты здесь делаешь, дармоед?!"
+    music Power_Bots_Loop
+    img 21166
+    with diss
+    mt "Как я вляпалась!"
+    mt "Я здесь, без трусов, прячусь за диваном!"
+    mt "От жены хозяина какой-то дыры в трущобах!"
+    mt "Моника! Как до такого могло дойти?!"
+    mt "Что ты сделала не так, чтобы такое произошло?! ЧТО?!"
+    music Groove2_85
+    img 21167
+    with fade
+    ashley "Я что, должна одна целый день обслуживать пьяниц?!"
+    ashley "Эта шлюха, [monica_pub_name], больше не работает здесь! Ты забыл?!"
+
+    img 21168
+    with diss
+    joe "Эшли! Я просто устал, решил отдохнуть..."
+    sound snd_kick_fred1
+    img 21169
+    with fade
+    ashley "Никакого отдыха! Быстро работать!"
+    img 21170
+    with fadelong
+    ashley "Зачем я только вышла замуж за такого растяпу!"
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Hidden_Agenda
+    img 21171
+    with fadelong
+    m "!!!"
+    mt "Хорошо что Эшли не заметила мою одежду. Мне надо незаметно выбраться отсюда..."
+    return
+
+label gallery_22676:
+    # нажатие на Молли
+    # к Монике поворачивается рыжая, смотрит на нее неприветливо
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Groove2_85
+    img 22664
+    with fadelong
+    stripper "Это ты новая танцовщица что-ли?.." #осматривает Монику с ног до головы
+    img 22665
+    with fade
+    stripper "М, понятно..."
+    img 22666
+    with diss
+    mt "???"
+    img 22667
+    with diss
+    w
+    # и отворачивается
+    music Groove2_85
+    img 22668
+    with fade
+    stripper "Увижу тебя рядом со своими вещами - скажу Джо, что ты у меня украла что-нибудь." # не глядя на Монику
+    stripper "Советую держаться подальше."
+    # Моника неприятно удивлена таким теплым приемом
+    music Power_Bots_Loop
+    img 22669
+    with diss
+    sound highheels_short_walk
+    mt "..."
+    mt "И я рада познакомиться..."
+    mt "Как грубо!"
+    mt "Всего лишь какая-то стриптизерша из трущоб!"
+    mt "Ей, видимо, неизвестно, что такое воспитание и манеры..."
+    # Моника зло смотрит на нее и проходит в гримерку
+    music Groove2_85
+    img 22670
+    with fade
+    mt "Мне надо надеть сценический костюм. Которого у меня нет..."
+    mt "Что же делать?"
+    music Hidden_Agenda
+    img 22671
+    with diss
+    mt "Попросить у этой хамки что-нибудь из одежды?"
+    # Моника смотрит на рыжую
+    sound highheels_short_walk
+    img 22672
+    with fade
+    mt "..."
+    # рыжая поворачивается к Монике
+    music Groove2_85
+    img 22673
+    with diss
+    stripper "Чего уставилась?!" #разговаривает высокомерно
+    stripper "Тебе на сцену через пять минут, чего ты ждешь?"
+    stripper "Или ты пойдешь в этом наряде для бомжей?"
+    # Моника смотрит на нее с неприязнью
+    img 22674
+    with fade
+    m "Мне не выдали сценический костюм. Я не знаю, в чем выходить на сцену."
+    sound snd_woman_laugh
+    img 22675
+    with diss
+    stripper "Сценический костюм?!"
+    stripper "Аха-ха!!!"
+    img 22676
+    with diss
+    sound snd_woman_laugh3
+    stripper "Может, тебе еще личного ассистента и гримера предоставить?!"
+    stripper "Аха-ха-ха!"
+    music Power_Bots_Loop
+    img 22677
+    with fade
+    mt "..." #Моника убивает ее взглядом
+    # рыжая снова отворачивается к зеркалу
+    music Groove2_85
+    img 22678
+    with diss
+    stripper "Ты же не думаешь, что я тебе дам свою одежду?!"
+    stripper "Иди танцуй голая!"
+    music Power_Bots_Loop
+    img 22679
+    with diss
+    mt "Вот стерва!!!"
+    mt "!!!" # отворачивается от рыжей
+    music Groove2_85
+    img 22680
+    with fade
+    mt "Что же мне теперь делать?" # растерянно
+    mt "Выйти на сцену в этой одежде?"
+    mt "Но я не могу идти на сцену в таком виде!"
+    mt "Кто-нибудь из этих неудачников узнает меня!"
+    # с негодованием
+    img 22681
+    with diss
+    mt "И не хватало еще, чтобы мое лицо узнал кто-то за пределами этих трущоб..."
+    mt "..."
+    music Groove2_85
+    img 22682
+    with fade
+    sound highheels_short_walk
+    mt "Где эта Эшли?!"
+    mt "В чем, по ее мнению, я должна танцевать?!"
+#    $ log1 = _("Спросить у Эшли костюм для выступления.")
+#    $ log1 = _("Эта рыжая стриптизерша слишком многое себе позволяет. Как она смеет так общаться со мной?!")
+    return
+
+label gallery_22725:
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    # брюнетка стоит спиной к Монике, переодевается, Моника стоит в дверях
+    music Groove2_85
+    img 22709
+    with fadelong
+    mt "Это и есть вторая стриптизерша?"
+    img 22710
+    with fade
+    mt "Надо приготовиться к знакомству со второй хамкой." # с воинственным настроем
+    mt "Она, наверное, тоже возомнила себя звездой, как та рыжая стерва..."
+    music Pyro_Flow
+    img 22711
+    with diss
+    mt "Звездой в грязном пабе в трущобах!.." # высокомерно
+    # Брюнетка поворачивается к Монике, она после выступления в черной маске
+    music Groove2_85
+    img 22712
+    with fade
+    stripper "Привет." # без улыбки, спокойно
+    stripper "Молли мне говорила, что у нас новенькая. Это ты?"
+    # Моника готовилась не к такому знакомству, растерянно
+    img 22713
+    with diss
+    m "..."
+    m "Д-да... Привет..."
+    img 22714
+    with fade
+    stripper "Я Клэр. А ты?"
+    img 22715
+    with diss
+    m "Я [monica_pub_name]. А Молли это та рыжая стриптизерша?"
+    img 22716
+    with fade
+    clare "Да." # с ехидной улыбкой
+    img 22717
+    with diss
+    clare "Она тут звезда и очень гордится этим."
+    img 22718
+    with fade
+    clare "С ней лучше дружить и не вставать у нее на пути."
+    img 22719
+    with diss
+    mt "Звезда! Ха-ха! Стриптизерша со звездной болезнью!"
+    mt "Похоже, эта Клэр единственная в этой дыре, кто может нормально общаться."
+    img 22720
+    with fade
+    clare "Ты давно в стриптизе, [monica_pub_name]?"
+    music Hidden_Agenda
+    img 22721
+    with diss
+    m "Нет. Сегодня будет мое первое выступление..."
+
+    # если были сцены в трущобах с ситизенами
+    python:
+        flag1 = False
+        for progress_name in corruption_places:
+            if progress_name.find('monicaWhoringClothPylonDanceCorruption') != -1:
+                flag1 = True
+    if flag1 == True:
+        img 22722
+        with diss
+        mt "Танцы у пилона на улицах трущоб - не в счет!" # если были сцены в трущобах с ситизенами
+    #
+    music Groove2_85
+    img 22723
+    with fade
+    clare "Не волнуйся." # дружелюбно
+    clare "Я выступаю уже несколько лет и мне очень нравится."
+    img 22724
+    with diss
+    m "Нравится?!" # удивленно
+    m "Я думала такое делают только из-за денег..."
+    img 22725
+    with fade
+    clare "Для меня это искусство. Мне нравится делиться своей красотой и видеть восторженные взгляды мужчин."
+    img 22726
+    with diss
+    clare "Это занятие не является источником денег для меня."
+    img 22727
+    with fade
+    mt "Хм... Искусство?.."
+    mt "Возможно, если так к этому относиться, то намного проще выходить на сцену."
+    mt "Но я не представляю себе такого отношения к этому."
+    music Groove2_85
+    img 22728
+    with diss
+    mt "Сами по себе танцы полуголой на публике отвратительны."
+    mt "И я не изменю своего отношения к этому никогда!"
+    mt "!!!"
+    music Groove2_85
+    img 22729
+    with fade
+    clare "[monica_pub_name], почему ты не переодеваешься?"
+    clare "В чем ты будешь выступать?"
+    clare "Тебе уже пора выходить на сцену."
+    # Моника проходит в гримерку и подходит к Клэр. Та стоит возле вешалки.
+    img 22730
+    with diss
+    m "У меня нет одежды для сцены..."
+    m "Эшли сказала, что я могу спросить одежду у тебя."
+    img 22731
+    with fade
+    clare "Без проблем. Ты можешь взять вот это." # отворачивается к вешалке, потом кладет одежду для Моники на стул рядом
+    # Моника в это время смотрит на ее фигуру
+    music Hidden_Agenda
+    img 22732
+    with diss
+    mt "А из этой Клэр получилась бы неплохая модель..."
+    mt "Конечно, до Мелани, а тем более до меня, ей далеко, но все же."
+    img 22733
+    with diss
+    mt "И что она забыла в этой дыре, тем более, что она тут не из-за денег..."
+    # Клэр поворачивается к Монике
+    music Groove2_85
+    img 22734
+    with fade
+    clare "К вещам Молли лучше не приближайся."
+    img 22735
+    with diss
+    clare "Наша звезда очень ревностно к этому относится." # с ехидной улыбкой
+    sound snd_fabric1
+    img 22736
+    with fade
+    clare "У меня полно подобных шмоток."
+    img 22737
+    with diss
+    clare "Можешь этот костюм оставить себе."
+    img 22738
+    with fade
+    m "Серьезно?!" # удивленно
+    music Groove2_85
+    img 22739
+    with diss
+    m "..." # смотрит на вещи на стуле
+    mt "Мне придется надевать на себя ЭТО?"
+    mt "Фи! Какой вульгарный костюм!"
+    mt "Да еще и после стриптизерши!"
+    img 22740
+    with diss
+    mt "Какой ужас!"
+    mt "Я, Моника Бакфетт, буду танцевать полуголая! В дешевом пабе для толпы неудачников!!!"
+    mt "Я не могу поверить в это!"
+label gallery_22725_1:
+    menu:
+        "Надеть костюм с жилетом.":
+            pass
+        "Надеть только трусики.":
+            m "Я не выйду на сцену с голой грудью!!!"
+            jump gallery_22725_1
+    # Клэр отвернулась к вешалке, Моника снимает с себя свою одежду
+    music Groove2_85
+    img 22741
+    with fadelong
+    mt "Одно дело трущобы..." # если были сцены в трущобах с ситизенами
+    mt "Там, конечно, приходилось показывать себя всяким неудачникам."
+    music Power_Bots_Loop
+    img 22742
+    with diss
+    mt "Но тут сцена!"
+    mt "И этих неудачников целая толпа!!!"
+    mt "Для меня быть на сцене - это все-равно что позировать на фотосессии перед всем миром."
+    mt "Это не идет ни в какое сравнение с тихой подворотней, где меня никто не знает."
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.5
+    music Molten_Alloy
+    img 22744
+    with fadelong
+    w
+    img 22743
+    with fade
+    mt "!!!"
+    # Моника надевает костюм
+    img 22745
+    with diss
+    mt "..."
+    mt "Я очень надеюсь, что в этой маске мое лицо никто не узнает..."
+    mt "..."
+    music Groove2_85
+    img 22746
+    with fade
+    mt "Так, мне надо собраться и сделать это!"
+    mt "Это не я, а [monica_pub_name]."
+    mt "Для [monica_pub_name] в этом нет ничего страшного."
+    # Клэр поворачивается и смотрит на переодетую Монику
+    music Groove2_85
+    img 22747
+    with diss
+    clare "Отлично. Только..."
+    # внимательно смотрит на Монику
+    clare "Кое-чего тебе не хватает."
+    img 22748
+    with diss
+    clare "Сразу видно, что у тебя нет опыта выступления на сцене."
+    mt "???"
+    # Клэр берет со столика в руки флакон
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.5
+    music Groove2_85
+    img 22749
+    with fadelong
+    clare "Тебе нужно намазать тело этим маслом."
+    img 22750
+    with diss
+    sound Jump1
+    w
+    sound highheels_short_walk
+    img 22751
+    with fade
+    clare "Тогда ты будешь выглядеть более эффектно на сцене."
+    img 22752
+    with diss
+    clare "[monica_pub_name], давай я тебе помогу?"
+    img 22753
+    with diss
+    w
+    menu:
+        "Взять у Клэр масло и намазаться самой.":
+            pass
+        "Позволить Клэр намазать меня маслом.":
+
+            # Клэр намазывает ее маслом
+            label gallery_22768:
+            img 22754
+            with fade
+            sound hlup2
+            w
+            music stop
+            music2 Loved_Up
+            img 22755
+            with diss
+            sound skin_lotion11
+            w
+            img 22756
+            with diss
+            w
+            img 22757
+            with fade
+            w
+            img 22758
+            with diss
+            sound skin_lotion11
+            clare "А у тебя отличная фигура, [monica_pub_name]."
+            img 22759
+            with fade
+            sound skin_lotion11
+            mt "Она что, ко мне пытается пристать, как Эшли?!"
+            mt "Я не хочу связываться с еще одной лесбиянкой!"
+            img 22760
+            with diss
+            sound skin_lotion11
+            clare "Мужчины в зале с ума сойдут, когда тебя увидят."
+            img 22761
+            with diss
+            mt "Я к этому привыкла."
+            mt "Мужчины всегда сходили по мне с ума..."
+            img 22762
+            with fade
+            sound skin_lotion11
+            w
+            img 22763
+            with diss
+            w
+            img 22764
+            with fade
+            sound skin_lotion11
+            clare "Ты сегодня будешь звездой, [monica_pub_name]."
+            img 22765
+            with diss
+            sound skin_lotion11
+            mt "Конечно, буду! Мне нет здесь равных!"
+            mt "И не только здесь! Мне нет равных нигде!"
+            img 22766
+            with fade
+            sound skin_lotion11
+            w
+            img 22767
+            with diss
+            sound skin_lotion11
+            w
+            img 22768
+            with diss
+            sound skin_lotion11
+            clare "Таким шикарным ногам и такой попе, как у тебя, позавидует любая модель."
+            img 22769
+            with fade
+            sound skin_lotion11
+            w
+            img 22770
+            with diss
+            sound skin_lotion11
+            clare "Ты просто создана для обложки какого-нибудь модного журнала."
+            img 22771
+            with fade
+            mt "Хм... Хорошо, что она их не читает."
+            mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
+            ###################################
+            if game.extra == True:
+                img black_screen
+                with diss
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling3_1 = Movie(play="video/v_Monica_Claire_Oiling3_1.mkv", fps=30)
+                show videov_Monica_Claire_Oiling3_1
+                with fadelong
+                wclean
+
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling3_2 = Movie(play="video/v_Monica_Claire_Oiling3_2.mkv", fps=30)
+                show videov_Monica_Claire_Oiling3_2
+                with fadelong
+                wclean
+
+            ###################################
+            music2 stop
+    # Клэр, осматривая Монику
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Molten_Alloy
+    img 22772
+    with fadelong
+    clare "Вот теперь ты выглядишь на миллион баксов!"
+    img 22773
+    with fade
+    mt "Я всегда выгляжу на миллион баксов... И не только выгляжу... Я и стою..."
+    img 22774
+    with diss
+    mt "Миллиарды..."
+    mt "Но, думаю Клэр не умеет даже считать до стольки..."
+
+    # выход на движок (персонажи в сцене)
+    clare "Давай, тебя там уже ждут!"
+    mt "Черт. Черт! Черт!!!"
+
+#    $ log1 = _("Выйти на сцену паба и танцевать.")
+#    $ log1 = _("Похоже, Клэр единственная в этой дыре, с кем можно нормально общаться.") # квест лог
+    return
+
+label gallery_22841:
+    # брюнетка стоит спиной к Монике, переодевается, Моника стоит в дверях
+    # Моника задумчиво смотрит на Клэр
+    music Groove2_85
+    img 22826
+    with fadelong
+    mt "Эта Клэр могла бы являть свою красоту с обложки журнала..."
+    mt "А не танцуя в пабе перед толпой пьяных неудачников!"
+    # Клэр в маске поворачивается к Монике, с улыбкой
+    img 22827
+    with fade
+    clare "Привет, [monica_pub_name]. Ну как ты?"
+    clare "Эшли говорит, что у тебя уже лучше получается. Она тобой довольна."
+    img 22828
+    with diss
+    m "Хм. Я не удивлена, что Эшли довольна мной."  # проходит в гримерку и начинает раздеваться
+    music Power_Bots_Loop
+    img 22829
+    with diss
+    mt "Еще бы она была недовольна! Она теперь может на меня пялиться." # сердито
+    mt "Как и ее муж-неудачник!"
+    music Groove2_85
+    img 22830
+    with fade
+    clare "Надеюсь, у тебя не было конфликтов с ней?"
+    clare "Про Эшли ходят не очень хорошие слухи."
+    clare "Так что, лучше не связывайся с ней..."
+    img 22831
+    with diss
+    m "Да? Я не знала..." # удивленно
+    m "Спасибо за предупреждение..."
+    music Groove2_85
+    img 22832
+    with diss
+    mt "Эта озабоченная Эшли со своим таким же озабоченным мужем уже достали меня!"
+    mt "Кто бы предупредил меня заранее, что с ними не стоит связываться?!"
+    # Моника переодевается
+    call gallery_22841_1()
+    if _return == 0:
+        $ cloth = "StripOutfit1"
+        $ cloth_type = "StripOutfit"
+    if _return == 1:
+        $ topless = True
+        $ cloth = "StripOutfit2"
+        $ cloth_type = "StripOutfit"
+#    menu:
+#        "Надеть костюм с жилетом.":
+#            pass
+#        "Надеть только трусики.":
+#            m "Я не выйду на сцену с голой грудью!!!"
+#            return False
+    # Клэр берет со столика в руки флакон
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.5
+    music Groove2_85
+    # корсет
+    if topless == False:
+        img 22753
+        with fade
+    # без корсета
+    else:
+        img 22833
+        with fade
+    clare "Ты забыла намазаться маслом для тела..."
+    clare "[monica_pub_name], давай я тебе помогу?"
+    menu:
+        "Взять у Клэр масло и намазаться самой.":
+            pass
+        "Позволить Клэр намазать меня маслом." if game.extra == True or cloth == "StripOutfit1":
+            # Клэр намазывает ее маслом
+            if topless == True:
+                img 22754
+                with fade
+                sound hlup2
+                w
+                music stop
+                music2 Loved_Up
+                img 22834
+                with diss
+                sound skin_lotion11
+                w
+                img black_screen
+                with diss
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling1_1 = Movie(play="video/v_Monica_Claire_Oiling1_1.mkv", fps=30)
+                show videov_Monica_Claire_Oiling1_1
+                with fadelong
+                wclean
+
+#                music Loved_Up
+                img 22835
+                with diss
+                clare "Какая же у тебя отличная фигура, [monica_pub_name]."
+
+                img 22836
+                with fade
+                sound skin_lotion11
+                mt "Она что, снова ко мне пытается пристать, как Эшли?!"
+
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling1_2 = Movie(play="video/v_Monica_Claire_Oiling1_2.mkv", fps=30)
+                show videov_Monica_Claire_Oiling1_2
+                with fadelong
+                wclean
+#                music Loved_Up
+                img 22837
+                with diss
+                sound skin_lotion11
+                w
+                img 22838
+                with diss
+                sound skin_lotion11
+                clare "Мужчины в зале с ума сойдут, когда тебя увидят."
+                img 22839
+                with fade
+                mt "Я к этому привыкла."
+                mt "Мужчины всегда по мне с ума сходили..."
+                img 22840
+                with diss
+                w
+
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling2_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling2_1 = Movie(play="video/v_Monica_Claire_Oiling2_1.mkv", fps=30)
+                show videov_Monica_Claire_Oiling2_1
+                with fadelong
+                wclean
+
+                img 22841
+                with diss
+                sound skin_lotion11
+                w
+                img 22842
+                with diss
+                sound skin_lotion11
+                clare "Ты сегодня будешь звездой, [monica_pub_name]."
+
+                img 22843
+                with fade
+                sound skin_lotion11
+                mt "Конечно, буду! Мне нет здесь равных!"
+                mt "И не только здесь! Мне нигде нет равных!"
+
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling3_1 = Movie(play="video/v_Monica_Claire_Oiling3_1.mkv", fps=30)
+                show videov_Monica_Claire_Oiling3_1
+                with fadelong
+                wclean
+#                music Loved_Up
+                img 22844
+                with diss
+                sound skin_lotion11
+                clare "Таким шикарным ногам и такой попе, как у тебя, позавидует любая модель."
+                img 22845
+                with diss
+                sound skin_lotion11
+                clare "Ты просто создана для обложки какого-нибудь модного журнала."
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling3_2 = Movie(play="video/v_Monica_Claire_Oiling3_2.mkv", fps=30)
+                show videov_Monica_Claire_Oiling3_2
+                with fadelong
+                wclean
+                music2 stop
+                music Groove2_85
+                img 22846
+                with fade
+                mt "Хм... Хорошо, что она их не читает."
+                mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
+                ###################################
+
+
+
+
+
+                ###################################
+
+            else:
+                img 22754
+                with fade
+                sound hlup2
+                w
+                music Loved_Up
+                img 22755
+                with diss
+                sound skin_lotion11
+                w
+                img 22756
+                with diss
+                w
+                img 22757
+                with fade
+                w
+                img 22758
+                with diss
+                sound skin_lotion11
+                clare "Какая же у тебя отличная фигура, [monica_pub_name]."
+                img 22759
+                with fade
+                sound skin_lotion11
+                mt "Она что, снова ко мне пытается пристать, как Эшли?!"
+                img 22760
+                with diss
+                sound skin_lotion11
+                clare "Мужчины в зале с ума сойдут, когда тебя увидят."
+                img 22761
+                with diss
+                mt "Я к этому привыкла."
+                mt "Мужчины всегда сходили по мне с ума..."
+                img 22762
+                with fade
+                sound skin_lotion11
+                w
+                img 22763
+                with diss
+                w
+                img 22764
+                with fade
+                sound skin_lotion11
+                clare "Ты сегодня будешь звездой, [monica_pub_name]."
+                img 22765
+                with diss
+                sound skin_lotion11
+                mt "Конечно, буду! Мне нет здесь равных!"
+                mt "И не только здесь! Мне нет равных нигде!"
+                img 22766
+                with fade
+                sound skin_lotion11
+                w
+
+                img black_screen
+                with diss
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling3_1 = Movie(play="video/v_Monica_Claire_Oiling3_1.mkv", fps=30)
+                show videov_Monica_Claire_Oiling3_1
+                with fadelong
+                wclean
+
+                music Loved_Up
+                img 22767
+                with diss
+                sound skin_lotion11
+                w
+                img 22768
+                with diss
+                sound skin_lotion11
+                clare "Таким шикарным ногам и такой попе, как у тебя, позавидует любая модель."
+
+                music stop
+                stop music
+                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+                scene black
+                image videov_Monica_Claire_Oiling3_2 = Movie(play="video/v_Monica_Claire_Oiling3_2.mkv", fps=30)
+                show videov_Monica_Claire_Oiling3_2
+                with fadelong
+                wclean
+                music Loved_Up
+                img 22769
+                with fade
+                sound skin_lotion11
+                w
+                img 22770
+                with diss
+                sound skin_lotion11
+                clare "Ты просто создана для обложки какого-нибудь модного журнала."
+                img 22771
+                with fade
+                mt "Хм... Хорошо, что она их не читает."
+                mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
+                ###################################
+
+
+
+                ###################################
+
+#            return 1
+    # Клэр, осматривая Монику
+    # Переход на движок
+    return
+
+label gallery_22841_1:
+    menu:
+        "Костюм для сцены (с жилетом)":
+            return
+        "Костюм для сцены (без жилета)":
+            if pubDanceCount < 4 or len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
+                m "Я не выйду на сцену с голой грудью!!!"
+                help "У Моники мало опыта работы танцовщицей."
+                if len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
+                    help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
+                if pubDanceCount < monicaDanceAmountToTopless:
+                    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
+                return
+            return
+    return
+
+label gallery_22777:
+    # Джо стоит перед выходом на сцену
+    music2 pub_noise1_low
+    music Hidden_Agenda
+    img 22775
+    with fadelong
+    joe "[monica_pub_name], а ты горячая штучка!"  # смотрит похотливо
+    music Power_Bots_Loop
+    img 22776
+    with fade
+    m "..." # раздраженно
+    music Hidden_Agenda
+    img 22777
+    with diss
+    joe "Только, жилет этот тут лишний."
+    joe "Если хочешь чаевых, то сними это с себя!"
+    joe "Местные девочки танцуют без одежды."
+    # если видел грудь Моники
+    if pubMonicaWaitressTipsPunishmentJoeStage >= 2:
+        img 22778
+        with fade
+        joe "А твоих малышек наши посетители очень оценят, я их уже оценил!"
+    #
+    # если видел попу Моники
+    if pubMonicaWaitressTipsPunishmentJoeStage >= 3:
+        img 22779
+        with diss
+        joe "И твоя попа также бесподобна. Тебе не стоит прятать ее от наших ребят!"
+    #
+    music Groove2_85
+    img 22780
+    with fade
+    m "???" # удивленно и зло
+    # движок
+    menu:
+        "Выйти на сцену в жилете.":
+            pass
+        "Снять жилет.":
+            m "Я не выйду на сцену с голой грудью!!!"
+            return
+    return
+
+label gallery_22786:
+    # Эшли требовательно
+    music2 stop
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music2 pub_noise1_low
+    music Groove2_85
+    img 22781
+    with fadelong
+    ashley "Ну что, [monica_pub_name], сколько ты заработала сегодня?"
+    img 22782
+    with fade
+    m "???"
+    img 22783
+    with diss
+    m "Что значит 'заработала'?! Я танцевала здесь!!!"
+    m "Разве этого не достаточно?!" # возмущенно
+    img 22784
+    with fade
+    ashley "Здесь надо не просто танцевать, а зарабывать деньги!"
+    ashley "Если бы ты показала публике свою грудь или голую попку..."
+    ashley "То тебе определенно дали бы несколько долларов."
+    music Power_Bots_Loop
+    img 22785
+    with hpunch
+    m "Я не собираюсь этого делать!!!"
+    img 22786
+    with diss
+    ashley "А придется! Как ты собираешься возвращать мне долг?"
+    ashley "Ты думала, что будешь просто танцевать?"
+    ashley "Ты мне будешь отдавать свои чаевые, а я буду постепенно списывать твой долг."
+    img 22787
+    with diss
+    m "!!!" # Моника офигевает
+    music Groove2_85
+    img 22788
+    with fade
+    ashley "Надеюсь, в следующий раз ты заработаешь хоть что-то на чай..."
+    ashley "Для этого достаточно будет снять жилетку на сцене."
+    img 22789
+    with diss
+    m "..."
+    return
+
+label gallery_22803:
+    # Джо стоит перед выходом на сцену
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.5
+    music2 pub_noise1_low
+    music Groove2_85
+    img 22797
+    with fadelong
+    joe "[monica_pub_name], это костюм Клэр?"  # смотрит похотливо
+    img 22798
+    with fade
+    m "Да." # раздраженно
+    music Hidden_Agenda
+    img 22799
+    with diss
+    joe "Я смотрю, ты с ней подружилась..."  # подмигивает
+    music Groove2_85
+    img 22800
+    with fade
+    m "Тебе что с этого?" # раздраженно
+    img 22801
+    with diss
+    joe "Выяснишь для меня, как к ней подкатить?"
+    m "???" # смотрит на него как на идиота
+    music Hidden_Agenda
+    img 22802
+    with fade
+    joe "Она тут ни с кем не общается..."
+    joe "И никого к себе не подпускает..."
+    joe "На приваты не соглашается, хотя предложений много..."
+    joe "А она тут работает уже не один год. И я все это время не знаю, как подойти к ней..."
+    # выходит Клэр с нагайкой, включает строгую училку
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 1.0
+    music Groove2_85
+    img 22803
+    with fadelong
+    clare "Что здесь происходит?!" # смотрит на Джо строго
+    sound Jump2
+    img 22804
+    with hpunch
+    clare "Тебе чего надо от [monica_pub_name]?!" # ткнув его в грудь нагайкой
+    joe "Я... Мне... Я просто..." # растерянно мямлит и смотрит на нагайку
+    music Power_Bots_Loop
+    sound Jump2
+    img 22805
+    with vpunch
+    clare "Я просто пойду сейчас к твоей жене!" #с угрозой
+    clare "И расскажу, чем ТЫ тут занимаешься!"
+    music Groove2_85
+    img 22806
+    with fade
+    joe "Ч-ч-чем???"
+    music Power_Bots_Loop
+    img 22807
+    with diss
+    clare "Пристаешь к [monica_pub_name]!!!"
+    music Groove2_85
+    img 22808
+    with diss
+    joe "Я... Я не пристаю!"
+    joe "Не надо ничего говорить Эшли!"
+    music Power_Bots_Loop
+    img 22809
+    with diss
+    clare "Тогда пошел отсюда! Быстро!!!" # ткнув его снова нагайкой
+    joe "!!!"
+    music stop
+    img black_screen
+    with diss
+    sound man_steps
+    pause 1.0
+    music Groove2_85
+    img 22810
+    with fade
+    # Джо растерян, уходит
+    clare "Вот кобель!"
+    clare "!!!"
+    # смотрит на Монику, улыбается
+    img 22811
+    with diss
+    clare "Если снова будет приставать, скажи мне. Он меня боится."
+    img 22812
+    with fade
+    m "Спасибо, Клэр."
+    # Клэр уходит
+    mt "Когда я выберусь из этого дна, заведу себе такой же хлыст от извращенцев!"
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    return
+
+label gallery_22819:
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Groove2_85
+    img 22814
+    with fadelong
+    sound highheels_short_walk
+    mt "Я не хочу разговаривать с этой хамкой!"
+    # Моника проходит в гримерку и молча переодевается в одежду Клэр
+    # рыжая смотрит на Монику высокомерно
+    img 22815
+    with diss
+    molly "Тебя здороваться не учили?.."
+    # рыжая отворачивается
+    img 22816
+    with diss
+    molly "Понабирают на работу шлюх из подворотни..."
+    # Моника поворачивается и зло смотрит на нее\
+    music Power_Bots_Loop
+    img 22817
+    with diss
+    mt "!!!"
+    menu:
+        "Клэр предупреждала, что лучше не конфликтовать с ней":
+            # отворачивается от Молли, послав ей убийственный взгляд
+            pass
+        "Да, Клэр предупреждала, но я же не могу просто проигнорировать такую наглость":
+            music Power_Bots_Loop
+            img 22818
+            with fade
+            m "Ты это сейчас про себя, да?" # со злостью
+            m "Я такого же мнения после нашего с тобой так сказать 'знакомства'!"
+            img 22819
+            with diss
+            mt "Этой хамке самое место в подворотне со шлюхами! Как она здесь оказалась?"
+            # рыжая поворачивается к Монике и смотрит вопросительно и высокомерно
+            music Groove2_85
+            img 22820
+            with fade
+            molly "Мне послышалось или ты что-то сейчас мне сказала?"
+            # Моника ей также высокомерно в ответ
+            music Groove2_85
+            img 22821
+            with diss
+            menu:
+                "Взять стул Клэр и ударить им рыжую сучку!":
+                    music Groove2_85
+                    img 22822
+                    with fade
+                    mt "Нет, я не могу пока этого позволить себе."
+                    mt "Эта сучка Эшли выгонит меня отсюда и я не смогу зарабатывать деньги..."
+                    mt "Которые мне так нужны..."
+                    mt "..."
+                    mt "Я сделаю это позже..."
+                "Мне не о чем разговаривать с такой как ты!":
+                    pass
+            music Groove2_85
+            img 22823
+            with fade
+            m "Мне не о чем разговаривать с такой как ты!"
+            m "И, тем более, о чем-то спорить!"
+            img 22824
+            with diss
+            sound highheels_short_walk
+            m "Я не собираюсь опускаться до твоего уровня!!!"
+            m "!!!"
+            # рыжая офигевает от такого, ничего не отвечает и зло смотрит на Монику
+            music Power_Bots_Loop
+            img 22825
+            with fade
+            molly "!!!"
+    # Моника отворачивается от нее
+    music Groove2_85
+    img 22825
+    with diss
+    mt "Не могу выносить ее присутствия!"
+    mt "Надо скорее одеться и идти на сцену."
+#    menu:
+#        "Надеть костюм с жилетом.":
+#            pass
+#        "Надеть только трусики.":
+#            mt "Я не выйду на сцену с голой грудью!!!"
+#            return False
+#    $ log1 = _("Выйти на сцену паба и танцевать.")
+    return
+
+label gallery_22874:
+    # Джо смотрит на Монику похотливо
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    sound2 man_steps
+    pause 1.5
+    music2 pub_noise1_low
+    music Groove2_85
+    img 22870
+    with fadelong
+    w
+    img 22871
+    with fade
+    joe "[monica_pub_name], ты сегодня заработала хорошие чаевые..."  # с улыбкой
+    img 22872
+    with diss
+    m "Да. А тебе какое дело до этого, Джо?" # раздраженно
+    music Hidden_Agenda
+    img 22873
+    with fade
+    joe "[monica_pub_name], ты хочешь заработать настоящие деньги?"
+    joe "А не эти жалкие несколько баксов?"
+    img 22874
+    with diss
+    m "На что ты намекаешь, Джо?" # с подозрением
+    img 22875
+    with fade
+    joe "Есть один клиент..."
+    joe "Он хочет, чтобы ты станцевала для него..."
+    joe "Только для него."  # подмигивает
+    music Power_Bots_Loop
+    img 22876
+    with hpunch
+    m "Приватный танец?!" # зло
+    m "Ты за кого меня принимаешь?!"
+    music Groove2_85
+    img 22877
+    with diss
+    mt "Как он смеет предлагать мне подобное?!"
+    mt "Чтобы Моника Бакфетт танцевала приват!!!"
+    mt "И для кого?! Для какого-нибудь неудачника?!"
+    mt "Для которого лучшее развлечение в жизни - придти в эту дыру и выпить пива?!"
+    mt "!!!"
+    mt "Ни за какие деньги Я не стану этого делать!!!"
+    img 22878
+    with fade
+    m "Я не собираюсь зарабатывать ТАКИМ способом, Джо!" # сердится
+    m "И не хочу слышать больше подобных предложений!!!"
+    m "!!!"
+    music2 stop
+    music Hidden_Agenda
+    img 22879
+    with diss
+    joe "[monica_pub_name], может ты все-таки подумаешь хорошо?"
+    joe "Это и правда неплохие деньги..."
+    music Groove2_85
+    img 22880
+    with fade
+    m "???" # смотрит на него как на идиота
+    m "Нет!!!"
+    music Hidden_Agenda
+    img 22881
+    with diss
+    joe "Хорошо, [monica_pub_name]."
+    joe "Но если подобные предложения от клиентов еще будут, то я тебе скажу об этом."
+    joe "Вдруг ты передумаешь..." # Джо подмигивает и уходит
+    m "..."
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    return
+
+############ Slums 1############
+
+label gallery_6127:
+    #render
+    #Моника пришла к кебабу говорить о еде
+    #первый раз
+    $ store_music()
+    music DarxieLand
+    img 6084
+    shawarma "Мадаме! Снова ВЫ!"
+    "Осмелюсь высказать сожаление, Мадаме!"
+    img 6085
+    m "О чем?!" #раздраженно
+    shawarma "О Вашем платье, Мадаме!"
+    "Вам оно шло гораздо больше, Мадаме!"
+    "Все женщины, в погоне за красотой, в конце концов теряют её!"
+    music Hidden_Agenda
+    img 6086
+    with fade
+    m "Ты считаешь что я некрасивая?"
+    img 6087
+    music DarxieLand
+    shawarma "О нет, Мадаме! Вы прекрасны как утренний цветок!"
+    img 6088
+    m "Какой еще утренний цветок?"
+    m "Слушай... У меня к тебе вопрос..."
+    img 6089
+    shawarma "Да, Мадаме! Я слушаю Вас!"
+    music Hidden_Agenda
+    img 6090
+    with fade
+    m "Так я тебе нравлюсь или нет..." #ехидно смотрит
+    img 6091
+    w
+    img 6092
+    music DarxieLand
+    shawarma "Да, Мадаме! Как утренний цветок!"
+    img 6093
+    mt "Что за утренний цветок!? Этот идиот несет какую-то чушь..."
+    music Hidden_Agenda
+    img 6094
+    with fade
+    m "Ты говорил что у тебя вкусный кебаб?"
+    img 6095
+    mt "Как же я хочу есть!"
+    img 6096
+    with fade
+    shawarma "Да, Мадаме! Самый вкусный кебаб в округе, Мадаме!"
+    img 6097
+    m "И ты дашь его попробовать такой красивой девушке как Я?"
+    img 6098
+    shawarma "Мадаме, я не могу дать Вам мой самый вкусный кебаб, Мадаме!"
+    img 6099
+    m "Почему это?"
+    img 6100
+    shawarma "Ваша красота слишком велика, чтобы покупать её, Мадаме!"
+    music Stealth_Groover
+    img 6101
+    m "Причем здесь покупать? Я ничего не собираюсь продавать тебе!"
+    #до этого добавить kebab advertising!
+    img 6102
+    shawarma "Но как же, Мадаме! Вы предложили французский поцелуй за мой вкусный кебаб, Мадаме!"
+    music Pyro_Flow
+    img 6103
+    m "ЧТО Я ПРЕДЛОЖИЛА?!"
+    img 6104
+    "ЕЩЕ ЧЕГО!!!"
+    "Я говорю тебе дай свой кебаб сюда, быстро!"
+    img 6105
+    shawarma "Хорошо, Мадаме! Только для Вас самый вкусный кебаб за $ 1! Мадаме!"
+    img 6118
+    w
+    img 6119
+    with fade
+    w
+    music DarxieLand
+#    if money > 0:
+#        call monica_shawarma_dialogue2a() from _call_monica_shawarma_dialogue2a_1
+#        return
+    #если есть доллар, то уходим на покупку
+#    music Stealth_Groover
+    img 6106
+    mt "Черт! У меня нет этого гребаного доллара!!!"
+    img 6107
+    m "Можешь дать мне его просто так?"
+    img 6108
+    shawarma "Нет, Мадаме! Только за $ 1, Мадаме!"
+#    music Pyro_Flow
+    img 6109
+    m "У меня нет этого гребаного доллара! Есть еще какие-то варианты?"
+    img 6110
+    music DarxieLand
+    shawarma "Конечно есть, Мадаме!"
+    "Если такой красивый женщин, как Вы, {c}расскажет всем вокруг про мой самый вкусный кебаб{/c}, то кебаб сам будет Вас искать!"
+    img 6111
+    "Он уже ждет, он хочет чтобы Вы всем рассказали про него!"
+    img 6112
+    m "Итак, ты хочешь чтобы я кому-то рассказала про тебя?"
+    img 6113
+    shawarma "Да, Мадаме! Вы разносить всем красивый флаер с рекламой самого вкусного кебаба!"
+    "Если Вы разнести все флаер, то вкусный кебаб ждать Вас!"
+    music Stealth_Groover
+    img 6114
+    m "Хорошо, если ты дашь мне сейчас свой кебаб, то {c}я разнесу твои флаеры{/c}..."
+    img 6115
+    with fade
+    w
+    music DarxieLand
+    img 6116
+    shawarma "Нет, Мадаме! Сначала флаер, потом вкусный кебаб!"
+    img 6117
+    mt "Вот урод!"
+    "Неужели мне правда стоит разносить эти флаеры за какой-то кебаб?"
+    menu:
+        "Согласиться разносить флаеры.":
+            music Hidden_Agenda
+            img 6120
+            mt "О БОЖЕ! Что мне только ни приходится делать чтобы хоть что-то поесть!"
+            img 6121
+            "Надеюсь я скоро решу это небольшое недоразумение и забуду это как кошмарный сон!"
+            img 6122
+            with fade
+            m "Давай сюда свои флаеры!"
+            img 6123
+            music DarxieLand
+            shawarma "Да, Мадаме! Вам надо надеть это!"
+            music stop
+            img 6124
+            w
+            #звук одежды
+            sound snd_cardboard1
+            img 6125
+            with fade
+            w
+            img 6126
+            w
+            music Power_Bots_Loop
+            img 6127
+            m "ЧТО..."
+            "ЧТО ЭТО ЗА ХРЕНЬ!?!?!?"
+            img 6128
+            "ЧТО ТЫ НАЦЕПИЛ НА МЕНЯ?!"
+            img 6129
+            w
+            img 6130
+            w
+            shawarma "Это условие работа!"
+            "Нет реклама, нет вкусный кебаб!"
+            img 6131
+            w
+            img 6132
+            w
+            music Hidden_Agenda
+            img 6133
+            m "О БОЖЕ!"
+            "Мне придется в этом ходить?!?!"
+            img 6134
+            mt "Он заплатит за это!"
+            "..."
+            "Но по крайней мере меня точно никто не узнает в этом!"
+            "Я быстро раздам эти долбаные флаеры и забуду этот кошмар!"
+
+        "Отказаться.":
+            music Power_Bots_Loop
+            img 6135
+            m "Я не собираюсь ничего разносить! Давай кебаб сюда!"
+            img 6136
+            shawarma "Нет, Мадаме! Нет флаер, нет кебаб!"
+            w
+            img 6138
+            with fade
+            w
+    return
+
+label gallery_7110:
+    imgl Dial_Monica_Sandwich_0
+#    menu:
+#        "Можно к Вам обратиться?":
+    m "Мистер... Можно к Вам обратиться?"
+    #img Моника спрашивает
+    imgr Dial_Citizen_9_1
+    if citizen9_offered_last_day == day and monicaGotJoint != True:
+        imgr Dial_Citizen_9_4
+        citizen9 "Хэй! Мы уже разговаривали."
+        return
+    citizen9 "А? Да?"
+    "Что?"
+    menu:
+        "Потрогай мою сиську." if monicaGotJoint == True:
+            imgl Dial_Monica_Sandwich_0
+            m "Потрогай мою сиську."
+            imgr Dial_Citizen_9_3
+            citizen9 "Как скажешь, дамочка."
+            #подходит к монике сзади и хватает за грудь. так как на ней табличка, ей сложно сопротивляться.
+            $ imagesArr = ["7110", "7111", "7112", "7113", "7114"]
+            $ images = random.sample(set(imagesArr), 2)
+            sound Jump2
+            img images[0]
+            w
+            img images[1]
+            w
+            img scene_Hostel_Street
+            imgl Dial_Monica_Sandwich_0
+            imgr Dial_Citizen_9_3
+            m "Идиот! Что ты делаешь?"
+            imgr Dial_Citizen_9_3
+            citizen9 "То, что ты мне сказала! Хе-хе-хе. Отличная грудь кстати!"
+            m "Идиот! Я от Джека!"
+            imgr Dial_Citizen_9_2
+            citizen9 "Ууу, дамочка, с этого и надо было начинать. Что у тебя?"
+            #citizen9 отходит
+            menu:
+                "Дать косяк.":
+                    imgl Dial_Monica_Sandwich_0
+                    m "Вот."
+                    imgr Dial_Citizen_9_3
+                    citizen9 "Отлично. Узнаю старину Джека. Отличная вещь. Хочешь?"
+                    imgl Dial_Monica_Sandwich_1
+                    m "Нет, спасибо. Вот, возьми еще флаер."
+                    imgr Dial_Citizen_9_2
+                    citizen9 "Флаер? Ладно. Как насчет потрогать сиську еще раз?"
+                    imgl Dial_Monica_Sandwich_2
+                    m "Нет!"
+                    mt "Идиот."
+                    return
+                "Ничего":
+                    imgl Dial_Monica_Sandwich_0
+                    m "Ничего, я, кажется, ошиблась..."
+                    return
+
+        "Возьмите, пожалуйста, этот флаер..." if citizen9_offered_last_day != day:
+            imgl Dial_Monica_Sandwich_1
+            #если нет косяка
+            m "Возьмите, пожалуйста, этот флаер..."
+            if rand(0, citizen9_refuse_probability) > 0:
+                imgr Dial_Citizen_9_2
+                citizen9 "А? Что?"
+                "Флаер?"
+                imgr Dial_Citizen_9_3
+                "Хорошо..."
+                citizen9 "Ооо, дамочка, а пойдемте к пилону! я потрогаю твою сиську еще разок!"
+                menu:
+                    "Да ни за что на свете!":
+                        #img Моника злится
+                        m "Мне ничего от тебя не нужно!"
+                    "Ну точно не сейчас.":
+                        m "Не в этот раз."
+                        citizen9 "Ооо, ты не отказываешься... Хорошо. Тогда приходи, как будешь не так занята. Кстати, у Найджела есть деньги!"
+            else:
+                imgr Dial_Citizen_9_4
+                citizen9 "Отстань, дамочка! Я пытаюсь кое-что вспомнить..."
+                citizen9 "Вы меня отвлекаете!"
+        "Уйти.":
+            pass
+#        "Уйти.":
+#            pass
+    return
+
+label gallery_7118:
+    imgl Dial_Monica_Sandwich_0
+#    menu:
+#        "Можно к Вам обратиться?":
+    m "Мистер... Можно к Вам обратиться?"
+    #img Моника спрашивает
+    imgr Dial_Citizen_7_1
+    if citizen7_offered_last_day == day:
+        imgr Dial_Citizen_7_4
+        citizen7 "Я пытаюсь сосредоточиться на искусстве!"
+        "Не отвлекайте меня!"
+        return
+    citizen7 "Да? Что Вы хотели?"
+    menu:
+        "Возьмите, пожалуйста, этот флаер...":
+            imgl Dial_Monica_Sandwich_1
+            m "Возьмите, пожалуйста, этот флаер..."
+            # Реально ли тут сделать картинку или что то в этом духе, как художник достает кисть и измеряет монику?
+            img 7118
+            w
+            img 7117
+            citizen7 "Прекрасно, очень хорошо! А теперь повернитесь!"
+            img 7116
+            w
+            img 7117
+            mt "Что вообще происходит?"
+            # тут эффект, что художник подходит к монике сзади и точно также ее мереет, либо она настолько становится паражена от этих манипуляций, что поворачивается. Что проще реализовать ?
+            img scene_Hostel_Street3
+            imgl Dial_Monica_Sandwich_1
+            imgr Dial_Citizen_7_1
+            m "Эй, мистер, Вы возьмете флаер?"
+#                    // художник делает еще несколько кругов\замеров
+            # здесь будет вставка новых событий
+            if rand(0, citizen7_refuse_probability) > 0:
+                imgr Dial_Citizen_7_2
+                imgr Dial_Citizen_7_2
+                citizen7 "Я закончил. Флаер? Да давайте уже..."
+                imgr Dial_Citizen_7_3
+                citizen7 "Я бы хотел провести блее детальные замеры. В менее людном месте, это необходимо. Давайте отойдем чуть подальше."
+                menu:
+                    "Я никуда с тобой не пойду":
+                        #img Моника злится
+                        m "Мне ничего от тебя не нужно!"
+                    "Куда именно?":
+                        m "Куда именно?"
+                        citizen7 "Здесь в подворотне есть прекрасное место для вдохновения. Мне нужно оценить ваши формы."
+                        mt "Кажется я знаю о каком месте он говорит..."
+                        m "Не дождешься!"
+                        citizen7 "И напрасно. Вы же понимаете, что работа модели всегда оплачивается?"
+                        if fallingPathStarted == True:
+                            mt "В любом случае об этом лучше говорить без этой дурацкой рекламы кебаба..."
+
+            else:
+                imgr Dial_Citizen_7_4
+                citizen7 "Я пытаюсь сосредоточиться на искусстве!"
+                "Не отвлекайте меня!"
+#        "Уйти.":
+#            pass
+    return
+
+label gallery_8493:
+    imgl Dial_Monica_Sandwich_0
+#    menu:
+#        "Мистер... Можно к Вам обратиться?":
+    m "Мистер... Можно к Вам обратиться?"
+    #img Моника спрашивает
+    imgr Dial_Citizen_12_1
+    if citizen12_offered_last_day == day:
+        imgr Dial_Citizen_12_4
+        citizen12 "Я тороплюсь! Мне некогда!"
+        return
+    citizen12 "Да, Крошка? Что ты хочешь от меня?"
+    menu:
+        "Возьмите, пожалуйста, этот флаер...":
+            imgl Dial_Monica_Sandwich_1
+            m "Возьмите, пожалуйста, этот флаер..."
+            if questOffendMonicaFlyersCitizen12Started == True:
+                citizen12 "Конечно, крошка, а ты не хочешь ничего у меня взять?"
+                m "Вы это о чем?"
+                imgr Dial_Citizen_12_4
+                citizen12 "Сейчас, я покажу..."
+                music Power_Bots_Loop
+                sound snd_bodyfall
+                img 8484
+                with fadelong
+                #звук падения тела
+                w
+                sound snd_woman_pain
+                img 8485
+                with hpunch
+                m "Аххх!!!"
+                # img хватает монику за плечи и сажает на колени
+                img 8486
+                with fade
+                m "Что ты себе позволяешь?! Что ты делаешь?"
+
+                sound snd_zip
+                img 8487
+                with fade
+                #звук ширинки
+                citizen12 "Расслабься, уверен, тебе это не впервой."
+                # img ситизен расстегивает ширинку
+                img 8488
+                mt "Черт, из за дурацкой рекламы мне сложно двигаться..."
+                img 8489
+                m "Помогите! Кто-нибудь! Полиция!"
+                img 8490
+                with fade
+                mt "Черт! Какая еще полиция?! Мне нельзя полицию!"
+                img 8491
+                with fade
+                citizen12 "Крошка, сейчас сделаешь мне минет и получишь свои 5 долларов."
+                img 8492
+                w
+                img 8493
+                with fade
+                m "Что ты сказал?! ПОМОГИТЕ, КТО НИБУДЬ!"
+                # img появлятеся citizen6
+                music Groove2_85
+                img 8494
+                with fadelong
+                citizen6 "Что здесь происходит?"
+                img 8495
+                citizen12 "Эй, мужик, иди своей дорогой, или присоединяйся!"
+                img 8496
+                m "Пожалуйста, помогите мне! Я не шлюха!"
+                img 8497
+                citizen6 "А что мне за это будет?"
+                img 8498
+                m "Все, что захочешь, только помоги мне!"
+                # citizen6 бьет citizen12 и тд тп
+                img 8499
+                with fadelong
+                #звук удара
+                sound snd_punch_face
+                w
+                #звук падения тела
+                sound snd_bodyfall
+                img 8500
+                w
+                img 8501
+                w
+                img 8502
+                with fade
+                w
+                img 8503
+                w
+                img 8504
+                w
+                img 8505
+                with fade
+                m "Спасибо, спасибо большое!"
+                citizen6 "Ага, подойдешь ко мне, обсудим мою награду."
+                m "Что?"
+                citizen6 "Ну ты же сама обещала, что у меня будет все, что я захочу..."
+                return
+            if rand(0, citizen12_refuse_probability) > 0:
+                imgr Dial_Citizen_12_2
+                citizen12 "Ээээ... взять что?"
+                m "Возьмите, пожалуйста, этот флаер..."
+                citizen12 "Ок..."
+                imgr Dial_Citizen_12_3
+                citizen12 "И все? А как же развлечься?"
+                menu:
+                    "Я никого не собираюсь развлекать!":
+                        imgl Dial_Monica_Sandwich_2
+                        #img Моника злится
+                        m "Я никого не собираюсь развлекать!"
+                    "Чем тебя развлечь?":
+                        m "Ты это о чем?"
+                        citizen12 "Да все просто, отойдем в сторонку, покажешь сиськи, может что еще."
+                        m "Не сегодня, засранец!"
+                        citizen12 "Да ладно тебе! Подумай об этом. Это быстрый способ заработать."
+            else:
+                imgr Dial_Citizen_12_4
+                citizen12 "Мне неинтересны никакие флаеры!"
+#        "Уйти.":
+#            pass
+    return
+
+label gallery_10597:
+    # Ситизен предлагает Монике показать грудь за $ 50
+    music Groove2_85
+    img 10571
+    with fade
+    citizen4 "Хотя... Ты красивая девочка. Хочу оценить их без одежды."
+    "Я недавно провернул одно дельце и у меня есть лишние 50$. Что скажешь?"
+    menu:
+        "Согласиться..." if corruption >= monicaWhoringClothNakedBoobsCorruptionRequired and fallingPathServedCustomersTotal >= 20:
+            pass
+        "Согласиться... (low corruption, required: [monicaWhoringClothNakedBoobsCorruptionRequired], 20 customers served) (disabled)" if corruption < monicaWhoringClothNakedBoobsCorruptionRequired or fallingPathServedCustomersTotal < 20:
+            pass
+#        if fallingPathServedCustomersTotal >= 20 and citizen4BoobsShowedFirstTime == False:
+        "Отказаться.":
+#                        call pylonController(4, 1)
+            music Pyro_Flow
+            img 10572
+            with fade
+            m "Да за кого ты меня принимаешь?!"
+            m "Этого не будет никогда!"
+            img 10571
+            citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
+            return False
+#                call pylonController(1, 1) #моника просто стоит у пилона
+    img 10573
+    with fade
+    mt "50$ были бы не лишними... Хорошо, что здесь никого нет."
+    img 10574
+    with diss
+    m "50$ ?"
+    img 10575
+    citizen4 "Все верно, девочка. Покажешь своих подружек и они твои."
+    img 10576
+    with fade
+    mt "Черт! Моника, ты уверена что станешь делать это???"
+    mt "Станешь показывать свою грудь какому-то нищему за жалкие 50$?"
+    img 10577
+    with diss
+    mt "Но, с другой стороны, это же не я показываю грудь, а какая-то шлюха в трущобах."
+    mt "Ведь никто даже представить себе не может что это делает Моника Бакфетт."
+    mt "Это как какая-то виртуальная игра, в которой все не по настоящему..."
+    mt "Но вот 50$, которые я получу, вполне реальны!"
+#                call pylonController(3, 1)
+    img 10578
+    with fade
+    m "Ладно, только не трогать!"
+    img 10579
+    citizen4 "Об этом не волнуйся, детка. Я не хочу проблем с твоим сутенером."
+    music Power_Bots_Looop
+    img 10580
+    mt "Да за кого он меня принимает?"
+#                call pylonController(3, 2)
+    img 10581
+    m "Хорошо, давай деньги."
+    music Groove2_85
+    img 10582
+    with diss
+    citizen4 "Только после того, как покажешь."
+    citizen4 "Деньги вперед я могу дать только твоему сутенеру!"
+    citizen4 "Извини, но таким девочкам как ты я на слово не верю..."
+#                citizen4 "А ты не глупая девочка. Вот, держи."
+#                $ add_money(50)
+#                with fade
+#                call showRandomImages(nakedboobsImages, 4)
+#                call pylonController(3, 5) #моника показывет голые сиськи
+    img 10583
+    m "!!!"
+    m "Отвернись!"
+    img 10584
+    with fade
+    w
+    music Loved_Up
+    img 10585
+    with fade
+    w
+    #показывает
+    img 10586
+    with fade
+    w
+    img 10587
+    with Dissolve(0.3)
+    $ renpy.pause(1.5)
+    music stop
+    sound plastinka2
+    img 10586
+    with Dissolve(0.3)
+    music Groove2_85
+    citizen4 "Эй! Куда ты их спрятала?!"
+    img 10588
+    with diss
+    m "Я показала тебе свою грудь! Давай деньги!"
+    citizen4 "Ты что, пошутила?! Я ничего не успел рассмотреть!"
+    m "Ты увидел достаточно! Давай деньги, скорее!"
+    img 10589
+    with fade
+    citizen4 "Я не дам тебе ничего, пока ты не покажешь мне грудь нормально!"
+    citizen4 "Я хочу рассмотреть ее как следует! Иначе никаких денег!"
+    img 10590
+    with fadelong
+    m "!!!"
+    menu:
+        "Согласиться...":
+            pass
+        "Отказаться.":
+#                        call pylonController(4, 1)
+            music Pyro_Flow
+            img 10591
+            with fade
+            m "Да за кого ты меня принимаешь?!"
+            citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
+            return
+    #Моника снова показывает грудь быстро
+    music Loved_Up
+    img 10592
+    with Dissolve(0.3)
+    $ renpy.pause(0.5)
+    music stop
+    sound plastinka2
+    img 10590
+    with Dissolve(0.3)
+    music Groove2_85
+    citizen4 "Эй! Хватит кривляться! Покажи грудь нормально!"
+
+    img 10593
+    citizen4 "Покажи грудь, а я досчитаю до пяти!"
+    citizen4 "Если ты уберешь грудь раньше, то не получишь никаких денег!"
+    img 10594
+    with fade
+    m "..."
+    citizen4 "..."
+    m "..."
+    citizen4 "50$!"
+    menu:
+        "Согласиться...":
+            pass
+        "Отказаться.":
+#                        call pylonController(4, 1)
+            music Pyro_Flow
+            img 10572
+            with fade
+            m "Да за кого ты меня принимаешь?!"
+            citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
+            return
+
+    #Моника показывает грудь, а citizen ее обсматривает
+    music Loved_Up
+    img 10595
+    with Dissolve(1.0)
+    w
+    img 10596
+    with fade
+    citizen4 "Один..."
+    img 10597
+    with fade
+    citizen4 "Два..."
+    img 10598
+    with fade
+    citizen4 "Три..."
+    img 10599
+    with fade
+    w
+    img 10600
+    with fade
+    w
+    img 10601
+    with diss
+    w
+    img 10602
+    with fade
+    citizen4 "Четыре..."
+    img 10603
+    with fade
+    w
+    img 10604
+    with fade
+    w
+    citizen4 "Пять..."
+    #Моника убирает грудь
+    music Groove2_85
+    img 10606
+    with diss
+    m "Доволен?"
+    citizen4 "Более чем..."
+#    $ pylonpart3startsCompleted = True
+    # Добавить сколько то corruption
+    return
+
+label gallery_11759:
+    img 11745
+    with fade
+    citizen1 "Тетя, у нас с братом возникла шикарная идея!"
+    img 11746
+    citizen1 "Мы ведь с тобой не первый раз видимся и уже не чужие люди.."
+    img 11747
+    m "Ты это к чему?"
+    img 11748
+    citizen1 "Мда, не умею я говорить намеками..."
+    citizen1 "Короче мы хотим посмотреть на твои сиськи, но уже так сказать без всего!"
+    img 11749
+    menu:
+        "Мне нужны деньги...":
+            pass
+        "Хватит с вас и того, что вы уже видели!":
+            img 11750
+
+            m "Хватит с вас и того, что вы уже видели!"
+            return
+    music Groove2_85
+    img 11751
+    with fade
+    m "Ну а мне это зачем?"
+    img 11752
+    citizen1 "Ну как зачем? А зачем ты нам их в одежде показываешь?"
+    citizen1 "Мы заплатим!"
+    music Hidden_Agenda
+    img 11753
+    with diss
+    m "Хорошо, смотрите, только руками не трогать!"
+    m "И отвернитесь!"
+    # отворачиваются
+    sound snd_fabric1
+    img 11755
+    with fade
+    w
+    img 11754
+    citizen1 "О чем речь, тетя! Разве мы когда нибудь тебя обманывали?"
+    m "Можете поворачиваться.."
+    img 11756
+    w
+    img 11757
+    w
+    # поворачиваются, моника показывает сиськи
+    music Loved_Up
+    img 11758
+    with diss
+    citizen1 "Ого! Прямо как у моей бывшей!"
+    # показывает сиськи еще
+    img 11759
+    with diss
+    w
+    img 11760
+    with diss
+    citizen1 "Вот это класс, тетя! Так они смотрятся гораздо лучше."
+    img 11761
+    with diss
+    w
+    img 11762
+    with diss
+    w
+    img 11763
+    with diss
+    w
+    img 11764
+    with diss
+    # показывает сиськи еще
+    w
+    music Groove2_85
+    img 11765
+    with diss
+    citizen1 "Да, сегодня день прошел не зря!"
+    return
+
+label gallery_11776:
+    music Groove2_85
+    img 11766
+    with fade
+    citizen1 "Тетя, покажи нам свои сиськи!"
+    img 11767
+    m "Как именно?"
+    img 11768
+    citizen1 "А ты шутница. Конечно голыми, так интереснее!"
+    img 11769
+    menu:
+
+        "Хорошо.":
+            pass
+        "Хватит с вас и того, что вы уже видели!":
+            img 11770
+            m "Хватит с вас и того, что вы уже видели!"
+            return
+
+    #m "Отвернитесь!"
+    # отворачиваютяс, моника переодевается...
+    #m "Можете повернуться."
+    img 11771
+    m "Хорошо. Если заплатите..."
+    music Loved_Up
+    img 11772
+    with fadelong
+    w
+    img 11773
+    with diss
+    m "Только руками не трогать!"
+    img 11774
+    citizen1 "Какие вопросы, тетя!"
+    # показывает
+    img 11775
+    citizen1 "Не могу наглядеться, красота!"
+    # смена картинки, под другим углом
+    img 11776
+    w
+    img 11777
+    w
+    img 11778
+    w
+    img 11779
+    citizen1 "Тетя, а че ты молчишь?"
+    img 11780
+    m "Мне нечего вам сказать..."
+    img 11781
+    citizen1 "Ого! Ну ладно, глядя на такие сиськи можно и ничего не говорить!"
+    # смена картинки, под другим углом
+    img 11782
+    w
+    img 11783
+    w
+    img 11784
+    w
+    img 11785
+    citizen1 "Эй, тетя! Как насчет того, чтобы получить немного больше?"
+    img 11786
+    with diss
+    m "..."
+    img 11787
+    citizen1 "У меня идея! Нас как раз двое, как и твоих подружек. Давай обнимемся!"
+    music Groove2_85
+    img 11788
+    with diss
+    m "Даже не надейся!!!"
+    img 11789
+    citizen1 "Кто-то сегодня не в духе? Ладно, и так все очень хорошо!"
+    return
+
+label gallery_11801:
+    music Groove2_85
+    img 11790
+    with fade
+    citizen1 "Тетя, покажи нам свои сиськи!"
+    img 11791
+    m "Как именно?"
+    img 11792
+    citizen1 "Серьезно?! Давай снимай уже все!"
+    img 11793
+    menu:
+        "Хорошо.":
+            pass
+        "Хватит с вас и того, что вы уже видели!":
+            img 11794
+            m "Хватит с вас и того, что вы уже видели!"
+            return
+    img 11795
+    with fade
+    m "Отвернитесь!"
+    # отворачиваютяс, моника переодевается...
+    music Loved_Up
+    sound snd_fabric1
+    img 11796
+    with fade
+    w
+    img 11797
+    with diss
+    m "Можете повернуться."
+    m "Только руками не трогать!"
+    img 11798
+    citizen1 "Конечно, тетя!"
+    # показывает
+    img 11799
+    w
+    img 11800
+    w
+    img 11801
+    citizen1 "Вау! Как в первый раз!"
+    img 11802
+    w
+    img 11803
+    w
+    img 11804
+    # смена картинки
+    music Groove2_85
+    img 11805
+    citizen1 "Ты же не против заработать чуть больше... Сожми ка свои аппетитные соски!"
+    img 11806
+    m "Ну...Я не знаю..."
+    img 11807
+    citizen1 "Давай! И прямо сейчас получишь часть денег!"
+    img 11808
+    menu:
+        "Хорошо.":
+            pass
+        "Хватит с вас и того, что вы уже видели!":
+            img 11809
+            m "Хватит с вас и того, что вы уже видели!"
+            return
+
+    # смена картинки - моника сжимает соски
+    music Loved_Up
+    img 12487
+    with fade
+    w
+    img 12488
+    w
+    img 12489
+    citizen1 "Уф...А ты горячая!"
+    citizen1 "И так заводит!"
+    img 12490
+    m "Ай!"
+    mt "Это немного больно и даже немного приятно... Странно..."
+    # смена картинки - моника сжимает соски
+    img 12491
+    w
+    img 12492
+    w
+    music Groove2_85
+    img 12493
+    with fade
+    citizen1 "Ух, тетя, снова нас порадовала!"
+    # ?? может есть смысл сделать картинку: если было сжатие сосков - моника наклоняется и поднимает монетку
+    return
+
+
 label gallery_11825:
     music Groove2_85
     img 11810
@@ -2064,6132 +4954,4 @@ label gallery_12450:
     citizen15 "Что, не можешь с собой справиться? Ха-ха... Ну не знаю, может когда нибудь я тебя и трахну, если хорошо попросишь."
     img 12468
     mt "Да ни за что на свете!"
-    return
-
-label gallery_12476:
-    music Groove2_85
-    img 12469
-    with fade
-    citizen15 "Время голых сисек! Давай, расчехляй!"
-    music Power_Bots_Loop
-    img 12470
-    mt "Я вырву твой вонючий язык..."
-    img 12471
-    with diss
-    menu:
-        "Мне нужны деньги...":
-            pass
-        "Хватит и того, что ты уже видел!":
-            img 12472
-            with fade
-            m "Хватит и того, что ты уже видел!"
-            return
-    music Groove2_85
-    img 12473
-    with fade
-    m "Хорошо."
-    m "Отвернись!"
-    img 12474
-    citizen15 "Конечно, детка!"
-    # отворачивается, моника переодевается ситизен резко поворачивается и ее пугает
-    sound snd_fabric1
-    img 12475
-    with fadelong
-    w
-    sound Jump1
-    img 12476
-    with hpunch
-    w
-    img 12477
-    with diss
-    w
-    sound Jump2
-    img 12478
-    with diss
-    citizen15 "Бу!!!"
-    img 12479
-    with diss
-    m "Ой! Какого?"
-    img 12480
-    with diss
-    citizen15 "Ха-ха-ха. Девочки всегда так смешно пугаются."
-    citizen15 "И после такого они уже в моей власти!"
-    img 12481
-    with fade
-    m "Что? О чем вообще ты?"
-    img 12482
-    citizen15 "Ну как же, разве ты не чувствуешь мое превосходство?"
-    img 12483
-    m "..."
-    img 12484
-    citizen15 "Разве не готова мне отдаться прямо здесь?"
-    img 12485
-    with fade
-    m "Знаешь что... Я не покажу тебе свою грудь..."
-    img 12486
-    with diss
-    citizen15 "Корчишь недотрогу? Такие девочки мне нравятся..."
-    return
-
-label gallery_13203:
-    music Groove2_85
-    img 13188
-    with fade
-    citizen1 "Тетя, нам скучно!"
-    citizen1 "Как насчет еще одного танца на пилоне?"
-    img 13189
-    m "Вы уже видели меня танцующей там.."
-    img 13190
-    citizen1 "Эм...Ну да..."
-    citizen1 "Короче потанцуй для нас без кофты."
-    img 13191
-    with fade
-    menu:
-        "Мне нужны деньги...":
-            pass
-        "Хватит с вас и того, что вы уже видели!":
-            img 13192
-            m "Хватит с вас и того, что вы уже видели!"
-            return
-    img 13193
-    with fade
-    mt "Я уже танцевала, мою прекрасную грудь они видели... Не так страшно, если все это будет вместе."
-    mt "Хуже уже не будет... А мне нужны деньги..."
-    img 13194
-    m "Сколько вы заплатите?"
-    img 13195
-    citizen1 "Тетя, тариф стандартный!"
-    citizen1 "Но если ты готова станцевать с бутылкой в заднице, это можно обсудить!"
-    music Power_Bots_Loop
-    img 13196
-    m "Что?! Да как ты смеешь такое говорить?!"
-    img 13197
-    citizen1 "Ой, тетя! Не кипятись, я пошутил..."
-    music Groove2_85
-    img 13198
-    with fade
-    m "Только вздумайте еще раз так пошутить! Отвернитесь!"
-
-    # отворачиваются
-    img 13199
-    with diss
-    w
-    sound snd_fabric1
-    img 13200
-    with diss
-    citizen1 "Конечно, тетя, не вопрос."
-    music Loved_Up
-    img 13201
-    with fade
-    m "Можете поворачиваться..."
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13202
-    citizen1 "Да, они шикарны. Можешь начинать."
-    # движение на пилоне
-    music Molten_Alloy
-    img 13203
-    with diss
-    w
-    img 13204
-    with diss
-    w
-    img 13205
-    citizen1 "Отлично, тетя!"
-    # движение на пилоне еще
-    img 13206
-    with diss
-    w
-    img 13207
-    with diss
-    citizen1 "Черт, как глупо было просить тебя крутиться в одежде!"
-    # движение на пилоне еще
-    img 13208
-    with diss
-    w
-    img 13209
-    with diss
-    w
-    img 13210
-    with diss
-    citizen1 "Вау, тетя! Тебе нужно этим зарабатывать! Хотя стоп, этим ты и занимаешься!"
-    citizen1 "Ха-ха-ха!"
-    music Groove2_85
-    img 13211
-    with fade
-    mt "Грязные панки..."
-    mt "Мерзавцы..."
-    return
-
-label gallery_13231:
-    music Groove2_85
-    img 13212
-    with fade
-    citizen1 "Тетя, мы снова хотим ощутить себя в стрип клубе!"
-    citizen1 "Как насчет еще одного танца на пилоне?"
-    img 13213
-    m "В стрип клубе платят больше, да и вход туда бывает платный."
-    img 13214
-    citizen1 "Но мы ведь не в стрип клубе!"
-    citizen1 "Станцуй для нас, и сиськи не забудь оголить."
-    img 13215
-    with fade
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с вас и того, что вы уже видели!":
-            img 13216
-            m "Хватит с вас и того, что вы уже видели!"
-            return
-    img 13217
-    with fade
-    m "Сколько вы заплатите?"
-    img 13218
-    citizen1 "Снова ты за свое!"
-    citizen1 "Можно подумать о том, как ты можешь заработать больше, но в другой раз."
-    citizen1 "И вообще, ты нас утомляешь своей болтовней, раздевайся уже!"
-    img 13219
-    with diss
-    menu:
-        "Хорошо.":
-            pass
-        "Я передумала.":
-            img 13220
-            m "Нет, не будет вам танцев!"
-            m "Вы и так уже видели достаточно!"
-            return
-    img 13221
-    with fade
-    m "Хорошо. Отвернитесь!"
-    # отворачиваются
-    img 13222
-    citizen1 "Конечно, тетя, не вопрос."
-    sound snd_fabric1
-    music Loved_Up
-    img 13223
-    with fade
-    w
-    img 13224
-    with fadelong
-    m "Можете поворачиваться.."
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13225
-    citizen1 "Тетя, тебе особое приглашение нужно? Начинай уже!"
-    # движение на пилоне
-    music Molten_Alloy
-    img 13226
-    with diss
-    w
-    img 13227
-    with diss
-    citizen1 "Отлично, тетя!"
-    # движение на пилоне еще
-    img 13228
-    with diss
-    w
-    img 13229
-    with diss
-    citizen1 "Черт, как глупо было просить тебя крутиться в одежде!"
-    # движение на пилоне еще
-    img 13230
-    with diss
-    w
-    img 13231
-    with diss
-    citizen1 "И зачем мы ходим в стрип клуб?"
-    # моника слезает  спилона, панк достает бутылку
-    img 13234
-    w
-    img 13232
-    with fade
-    citizen1 "Тетя, ты помнишь про наше предложение насчет бутылки?"
-    # моника злая
-    music Power_Bots_Loop
-    img 13233
-    with fade
-    m "Еще слово, и я засуну бутылку тебе в зад!"
-    img 13235
-    citizen1 "Ха-ха-ха! Два раза одна и та же шутка прошла!"
-    music Groove2_85
-    img 13236
-    with fade
-    mt "Грязные панки..."
-    img 13237
-    citizen1 "Ладно, молодец, тетя, нам понравилось!"
-    return
-
-label gallery_13247:
-    music Groove2_85
-    img 13238
-    with fade
-    citizen1 "Тетя, станцуй! И не забуть снять кофту!"
-    img 13239
-    with fade
-    menu:
-        "Мне нужны деньги...":
-            pass
-        "Хватит с вас и того, что вы уже видели!":
-            img 13240
-            m "Хватит с вас и того, что вы уже видели!"
-            return
-    img 13241
-    with fade
-    m "Хорошо. Отвернитесь!"
-    # отворачиваются
-    music Loved_Up
-    img 13242
-    with diss
-    citizen1 "..."
-    sound snd_fabric1
-    img 13223
-    with fade
-    w
-    img 13224
-    with fadelong
-    m "Можете поворачиваться.."
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13225
-    citizen1 "Начинай!"
-    img 13243
-    mt "Что-то они какие-то молчаливые... Это подозрительно..."
-    # движение на пилоне
-    music Molten_Alloy
-    img 13244
-    with diss
-    w
-    img 13245
-    with diss
-    citizen1 "Отлично!"
-    # движение на пилоне еще
-    img 13246
-    with diss
-    w
-    img 13247
-    with diss
-    citizen1 "Не плохо!"
-    img 13248
-    with diss
-    mt "Что это с ними сегодня? Они ведут себя не как обычно..."
-    # движение на пилоне еще
-    # когда моника крутится на пилоне спиной к панкам, один из них достает
-    # телефон, и фоткает другого на фоне моники когда она не видит
-    # звук фотографировния
-    # моника слезает с шеста
-    img 13249
-    with diss
-    w
-    img 13250
-    with diss
-    call photoshop_flash()
-    w
-    music Groove2_85
-    img 13251
-    with diss
-    m "Что это был за звук?"
-    img 13252
-    mt "Как будто меня сфотографировали..."
-    img 13253
-    citizen1 "Какой звук, тетя? Мы ничего не слышали."
-    img 13254
-    m "Вы меня сфотографировали?"
-    img 13255
-    citizen1 "Нет, тетя! Да и откуда у нас фотоаппарат?"
-    img 13256
-    with fade
-    mt "И правда, откуда... Хотя... Нет, у них нет фотоаппарата..."
-    with diss
-    img 13257
-    citizen1 "Кстати, отличный танец!"
-    return
-
-label gallery_13271:
-    music Groove2_85
-    img 13258
-    with fade
-    citizen3 "Детка, разденься и покрутись ка на шесте!"
-    citizen3 "Надо же его использовать по назначению."
-    img 13259
-    m "Не слишком ли многого ты хочешь!?"
-    img 13260
-    with diss
-    citizen3 "Нет, детка, совсем не многого!"
-    citizen3 "Знала бы ты мои фантазии... Я там..."
-    # моника перебивает. не знаю, как это может выглядеть в диалогах, возможно никак
-    music Power_Bots_Loop
-    img 13261
-    with vpunch
-    m "Мне не интересно!"
-    music Groove2_85
-    img 13262
-    with fade
-    citizen3 "Ладно, тогда раздевайся и крутись!"
-    img 13263
-    with diss
-    menu:
-        "Мне нужны деньги...":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13264
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13265
-    with fade
-    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
-    mt "Хуже уже не будет..."
-    img 13266
-    m "Ладно. Только отвернись!"
-    # отворачиваются
-    img 13267
-    citizen3 "Да, детка, как скажещь!"
-    music Loved_Up
-    img 13268
-    with fade
-    w
-    # поворачиваются, моника стоит с голыми сиськами
-    sound snd_fabric1
-    img 13269
-    with fadelong
-    citizen3 "Танцуй уже!"
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13270
-    with fadelong
-    w
-    img 13271
-    with diss
-    w
-    img 13272
-    with diss
-    citizen3 "Да, детка, молодец!"
-    # движение на пилоне еще
-    img 13273
-    with diss
-    w
-    img 13274
-    with diss
-    citizen3 "А какие у тебя ножки! Ух!"
-    # движение на пилоне еще
-    img 13275
-    with diss
-    citizen3 "Я бы заплатил 7, или нет, 9 долларов если ты дотронешься своей ножкой до моего дружка!"
-    citizen3 "Ты же понимаешь о ком я?"
-    img 13276
-    with diss
-    mt "Да заткнись ты уже... Я бы на такое не согласилась и за 7000 долларов..."
-    mt "Хотя..."
-    img 13277
-    with diss
-    citizen3 "Детка, почему ты молчишь? Сара за 7 баксов мне бы уже отсасывала!"
-    # моника слезает с шеста
-    music Groove2_85
-    img 13278
-    with fade
-    m "Все! Плати!"
-    img 13279
-    citizen3 "Хорошо, детка, но ты так и не ответила на мой вопрос!"
-    img 13280
-    mt "Извращенец..."
-    return
-
-label gallery_13289:
-    music Groove2_85
-    img 13281
-    with fade
-    citizen3 "Детка, разденься и покрутись ка на шесте!"
-    citizen3 "Мне нужно кое-что уточнить."
-    img 13282
-    with fade
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13283
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13284
-    with fade
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13285
-    citizen3 "Да, детка, как скажещь!"
-    music Loved_Up
-    sound snd_fabric1
-    img 13268
-    with diss
-    w
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13286
-    with fadelong
-    citizen3 "Знаешь, я тут видел Сару и мне интересно, кто из Вас лучше танцует..."
-    citizen3 "Так что не задерживай меня и начинай!"
-    img 13287
-    mt "Сравнивать меня с какой-то уличной шлюхой? Конечно я танцую лучше!"
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13288
-    with diss
-    w
-    img 13289
-    with diss
-    citizen3 "Вау! Не плохо!"
-    # движение на пилоне еще
-    img 13290
-    with diss
-    w
-    img 13291
-    with diss
-    citizen3 "Отлично! Но пока еще не уровень Сары!"
-    img 13292
-    with diss
-    mt "Ах ты паразит! Я докажу тебе..."
-    # движение на пилоне extra (моника доказывает, что она танцует лучше)
-    music stop
-    img black_screen
-    with diss
-    music Molten_Alloy
-    pause 1.0
-    img 13293
-    with fadelong
-    w
-    img 13294
-    with diss
-    citizen3 "Ничего себе! А вот это что-то новое!"
-    citizen3 "Да, думаю ты лучше!"
-    img 13295
-    with diss
-    mt "В этом никто и не сомневался!"
-    # моника слезает с шеста
-    music Groove2_85
-    img 13278
-    with fade
-    m "Все! Плати!"
-    img 13279
-    with diss
-    citizen3 "Вот, заработала. Думаю, ты чуть лучше Сары"
-    return
-
-label gallery_13296:
-    music Groove2_85
-    img 13281
-    with fade
-    citizen3 "Детка, разденься и покрутись ка на шесте!"
-    img 13282
-    with fade
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13283
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13284
-    with fade
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    music Loved_Up
-    img 13285
-    citizen3 "Да, детка, как скажещь!"
-    sound snd_fabric1
-    img 13268
-    with fadelong
-    # поворачиваются, моника стоит с голыми сиськами
-    w
-    img 13286
-    citizen3 "Ну не стой, давай уже полезай на шест!"
-    img 13287
-    mt "Козел..."
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13296
-    with diss
-    w
-    img 13297
-    with diss
-    citizen3 "Хорошо."
-    # движение на пилоне еще
-    img 13298
-    with diss
-    w
-    img 13299
-    with diss
-    citizen3 "Давай детка, еще!"
-    # движение на пилоне еще
-    img 13301
-    with diss
-    w
-    img 13300
-    with diss
-    citizen3 "Ах...Вот это ножки."
-    citizen3 "Ты шикарна!"
-    # моника слезает с шеста
-    music Groove2_85
-    img 13302
-    with fade
-    m "Все! Плати!"
-    # ситизен показывает косяк
-    img 13303
-    citizen3 "Знаешь, детка, сейчас не самое удачное время... У меня не так много налички. Но у меня есть прекрасный товар. Хочешь?"
-    img 13304
-    with fade
-    menu:
-        "Мне нужны деньги!":
-            pass
-    music Power_Bots_Loop
-    img 13306
-    with vpunch
-    m "Мне нужны деньги!"
-    img 13305
-    with fade
-    citizen3 "Ты не знаешь от чего отказываешься, ну ладно, держи..."
-    return
-
-label gallery_13327:
-    music Groove2_85
-    img 13307
-    with fade
-    citizen5 "Мистер желает увидеть совмещение."
-    img 13308
-    m "Что? Я не понимаю."
-    img 13309
-    citizen5 "Необходимо совместить манящие груди и танцы на железной палке."
-    img 13310
-    m "Ты хочешь, чтобы я снанцевала?"
-    img 13311
-    citizen5 "Да! Но перед этим оголи свои манящие груди!"
-    img 13312
-    mt "Теперь понятно о чем ты..."
-    img 13313
-    with fade
-    menu:
-        "Мне нужны деньги...":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13314
-            m "Хватит с тебя того, что ты уже видел!"
-            img 13315
-            citizen5 "Мистер разочарован!"
-            return
-    img 13316
-    with fade
-    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
-    mt "Хуже уже не будет..."
-    img 13317
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13318
-    with diss
-    m "???"
-    sound snd_fabric1
-    music Loved_Up
-    img 13319
-    with diss
-    citizen5 "О, конечно!"
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13320
-    with fadelong
-    citizen5 "Мистер рад, можно начинать!"
-    # движение на пилоне
-    music Molten_Alloy
-    img 13321
-    with fadelong
-    w
-    img 13322
-    with diss
-    w
-    img 13323
-    with diss
-    citizen5 "Это очень хорошо! Ты очень молодец!"
-    # движение на пилоне еще
-    img 13324
-    with diss
-    w
-    img 13325
-    with diss
-    w
-    img 13326
-    with diss
-    citizen5 "Как ты замечательно двигаешься! Ты профессионал!"
-    # движение на пилоне еще
-    img 13328
-    with diss
-    w
-    img 13327
-    with diss
-    citizen5 "Ооо...Ты получишь от мистера много денег!"
-    # моника слезает с шеста
-    music Groove2_85
-    img 13329
-    with fadelong
-    m "Все! Плати! Мне нужны настоящие деньги!"
-    img 13330
-    mt "И не нужны твои тугрики..."
-    img 13331
-    with fade
-    citizen5 "Настоящие? Это можно, вот возьми."
-    return
-
-label gallery_13334:
-    music Groove2_85
-    img 13307
-    with fade
-    citizen5 "Мистер желает увидеть совмещение."
-    img 13312
-    mt "Неужели снова придется раздется и станцевать?"
-    img 13313
-    with diss
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13314
-            m "Хватит с тебя того, что ты уже видел!"
-            img 13315
-            citizen5 "Мистер разочарован!"
-            return
-    img 13317
-    with fade
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13318
-    w
-    sound snd_fabric1
-    img 13319
-    with diss
-    citizen5 "О, конечно!"
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13320
-    with fadelong
-    citizen5 "У мистера сегодня хорошее настроение!"
-    # движение на пилоне
-    music Molten_Alloy
-    img 13332
-    with fadelong
-    citizen5 "Крутись! Превосходно!"
-    # движение на пилоне еще
-    img 13333
-    with diss
-    w
-    img 13334
-    with diss
-    w
-    img 13335
-    with diss
-    w
-    img 13336
-    with diss
-    citizen5 "Мистеру кажется, что он готов будет написать хайку!"
-    # моника слезает с шеста
-    music Groove2_85
-    img 13337
-    with fadelong
-    citizen5 "Мистер придумал! Вот послушай!"
-    img 13338
-    with diss
-    citizen5 "Стрекоза летала,"
-    citizen5 "На сакуру села."
-    citizen5 "Радость мистеру."
-    img 13339
-    with fade
-    citizen5 "Или это не хайку... Мистер запутался от твоих безупречных форм!"
-    img 13340
-    mt "А у мистера похоже, что не все дома..."
-    img 13341
-    with diss
-    citizen5 "Вот твои настоящие деньги."
-    return
-
-label gallery_13362:
-    music Groove2_85
-    img 13342
-    with fade
-    citizen5 "Как насчет танца на пилоне?"
-    img 13343
-    mt "Что? А где же обычный бред, который он все время несет?"
-    mt "Он что, где то это услышал?"
-    img 13344
-    citizen5 "И не забудь оголить свои манящие груди."
-    img 13345
-    mt "А, нет, все нормально."
-    mt "Он все тот же кретин..."
-    img 13346
-    with fade
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13347
-            m "Хватит с тебя того, что ты уже видел!"
-            img 13348
-            citizen5 "Мистер разочарован!"
-            return
-    img 13349
-    with fade
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13350
-    citizen5 "О, конечно!"
-    img 13351
-    w
-    sound snd_fabric1
-    img 13352
-    with diss
-    w
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13353
-    with fadelong
-    citizen5 "Мистер думает, что ты не очень любишь это прекрасное занятие и хочет, чтобы ты чувствовала себя по-особенному!"
-    img 13354
-    mt "Он что-то задумал?"
-    img 13355
-    with diss
-    citizen5 "Можно стартовать!"
-    # движение на пилоне: моника танцует, а ситизен кидает доллары зимбабве
-    # очень много на эту тему стереотипных фото аля Девушка танцует, мужчина сорит деньгами
-    music Molten_Alloy
-    img 13356
-    with fadelong
-    w
-    img 13357
-    with diss
-    w
-    img 13358
-    with diss
-    sound snd_take_paper
-    citizen5 "Это тебе!"
-    #  моника танцует
-    sound snd_take_paper
-    img 13359
-    with diss
-    w
-    sound snd_take_paper
-    img 13360
-    with diss
-    citizen5 "Получай!"
-    #  моника танцует,
-    sound snd_take_paper
-    img 13361
-    with diss
-    w
-    sound snd_take_paper
-    img 13362
-    with diss
-    citizen5 "И вот еще!"
-    #  моника танцует,
-    img 13363
-    with diss
-    w
-    img 13364
-    with diss
-    citizen5 "Все, у меня закончились деньги!"
-    #  моника слезает с шеста
-    music stop
-    img black_screen
-    with diss
-    pause 1.0
-    music Groove2_85
-    img 13365
-    with fadelong
-    citizen5 "Тебе понравилось? Удалось ли мне создать атмосферу?"
-    img 13366
-    m "Какую еще атмосферу?"
-    img 13367
-    citizen5 "Атмосферу твоего рабочего места!"
-    img 13369
-    with diss
-    mt "Знал бы ты что у меня за атмосфера на рабочем месте..."
-    img 13368
-    m "Нет.."
-    img 13370
-    with fade
-    citizen5 "Ай-ай, мистер немного разочарован. Но ничего, думаю американские деньги также помогут ее созданию..."
-    return
-
-label gallery_13389:
-    music Groove2_85
-    img 13371
-    with fade
-    citizen4 "Я бы посмотрел на твои сиськи еще разок, но в танце. Что скажешь?"
-    img 13372
-    m "Не слишком ли многого ты хочешь?!"
-    img 13373
-    citizen4 "Девочка, ты забыла где ты? В этом районе каждая вторая готова таким образом заработать пару лишних долларов."
-    citizen4 "Решайся быстрее, у меня нет времени. Ну дак что?"
-    img 13374
-    with fade
-    menu:
-        "Мне нужны деньги...":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13375
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13376
-    with fade
-    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
-    mt "Хуже уже не будет..."
-    img 13377
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13378
-    citizen4 "Ладно, только в этот раз..."
-    img 13379
-    with diss
-    w
-    music Loved_Up
-    sound snd_fabric1
-    img 13380
-    with diss
-    w
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13381
-    with fadelong
-    citizen4 "Залезай уже на пилон и начинай!"
-    music Groove2_85
-    img 13382
-    m "Почему Вы такой грубый?"
-    img 13383
-    citizen4 "Я нормальный, да и не твое это дело! Твое дело крутить жопой на пилоне! Начинай!"
-    img 13384
-    with fade
-    menu:
-        "Хорошо.":
-            pass
-        "Я передумала.":
-            img 13386
-            m "Знаете, я передумала!"
-            return
-    img 13385
-    with fade
-    m "Хорошо."
-    mt "Мне нужны эти деньги... Черт..."
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13387
-    with fadelong
-    w
-    img 13388
-    with diss
-    citizen4 "А знаешь, не плохо!"
-    # движение на пилоне еще
-    img 13389
-    with diss
-    w
-    img 13390
-    with diss
-    w
-    img 13391
-    with diss
-    citizen4 "Жопу бы тебе побольше!"
-    # движение на пилоне еще
-    img 13392
-    with diss
-    w
-    img 13393
-    with diss
-    citizen4 "Да, очень не дурно."
-    # движение на пилоне еще
-    img 13394
-    with diss
-    w
-    music Groove2_85
-    img 13395
-    with fadelong
-    citizen4 "Знаешь, у тебя есть будущее, но надо больше практики и накачай жопу!"
-    # моника слезает с шеста
-    img 13396
-    with fade
-    citizen4 "Вот держи, заработала!"
-    mt "!!!"
-    return
-
-label gallery_13405:
-    music Groove2_85
-    img 13400
-    with fade
-    citizen4 "Думаю, стоит закрепить начатое. Полезай на пилон. И блузку сними!"
-    img 13397
-    m "Зачем мне снимать блузку, если ты не хочешь смотреть на мою грудь?"
-    img 13401
-    citizen4 "Это не твое дело! Я говорю, ты делаешь."
-    citizen4 "Ну дак что?"
-    img 13398
-    with fade
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13402
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13399
-    with fade
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13403
-    citizen4 "Все равно мне не интересны твои сиськи."
-    sound snd_fabric1
-    img 13404
-    with diss
-    mt "Как он может такое говорить? Моя прекрасная грудь много кого интересует!"
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13381
-    with fadelong
-    citizen4 "Залезай уже на пилон и начинай!"
-    img 13382
-    m "Хорошо."
-    mt "Мерзавец..."
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13405
-    with fadelong
-    w
-    img 13406
-    with diss
-    citizen4 "Мне кажется, я начинаю любить твои сиськи!"
-    # движение на пилоне еще
-    img 13407
-    with diss
-    w
-    img 13408
-    with diss
-    citizen4 "Да, вот так, двигайся!"
-    # движение на пилоне еще
-    img 13409
-    with diss
-    w
-    img 13410
-    with diss
-    citizen4 "Знаешь, все равно что-то не то. Кое чего не хватает."
-    # движение на пилоне еще
-    # ситизен пытается схватить монику за жопу во время ее вращения, но не выходит.
-    # на варианте 2 он схватит ее за зад. должна быть такая поза, когда ты держишься за пилон в позе сидя
-    # моника на повороте ударяет его ногой
-    img 13411
-    with diss
-    w
-    img 13412
-    with diss
-    w
-    sound Jump1
-    img 13413
-    with diss
-    w
-    sound snd_punch_face1
-    img 13414
-    with diss
-    w
-    sound snd_down1
-    music Power_Bots_Loop
-    img 13415
-    with diss
-    citizen4 "Черт! Ты меня ударила!"
-    # моника слезает с шеста
-    img 13416
-    with fade
-    m "Вообще то я не хотела, ты подошел слишком близко!"
-    img 13417
-    citizen4 "Ты мне сломала нос!"
-    img 13418
-    m "Не правда, у тебя даже крови нет. В следующий раз не подходи близко."
-    mt "Иначе я сделаю это специально!"
-    music Groove2_85
-    img 13419
-    with fade
-    citizen4 "Ха-ха-ха! Девочка начинает входить во вкус?"
-    citizen4 "Следующий раз..."
-    img 13420
-    m "Плати!"
-    img 13421
-    citizen4 "Да не вопрос!"
-    img 13422
-    with fade
-    mt "Все это толко для того, чтобы заработать немного денег. Ведь так, Моника?"
-    return
-
-label gallery_13434:
-    music Groove2_85
-    img 13423
-    with fade
-    citizen4 "Думаю, стоит закрепить начатое. Полезай на пилон. И блузку сними!"
-    img 13424
-    m "Зачем мне снимать кофту, если ты не хочешь смотреть на мою грудь?"
-    img 13425
-    citizen4 "Это не твое дело! Я говорю, ты делаешь."
-    citizen4 "Ну дак что?"
-    img 13426
-    with fade
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13427
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13399
-    with fade
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13403
-    citizen4 "Все равно мне не интересны твои сиськи."
-    sound snd_fabric1
-    img 13404
-    with diss
-    mt "Как он может такое говорить? Моя прекрасная грудь много кого интересует!"
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13381
-    with fadelong
-    citizen4 "Залезай уже на пилон и начинай!"
-    img 13382
-    m "Хорошо."
-    mt "Мерзавец..."
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13428
-    with fadelong
-    w
-    img 13429
-    with diss
-    citizen4 "Мне кажется, я начинаю любить твои сиськи!"
-    # движение на пилоне еще
-    img 13430
-    with diss
-    w
-    img 13431
-    with diss
-    citizen4 "Да, вот так, двигайся!"
-    # движение на пилоне еще
-    img 13432
-    with diss
-    w
-    img 13433
-    with diss
-    w
-    img 13434
-    with diss
-    citizen4 "Знаешь, все равно что-то не то. Кое чего не хватает."
-    # движение на пилоне еще
-    # ситизен пытается схватить монику за жопу во время ее вращения. Выходит.
-    img 13821
-    with diss
-    w
-    sound Jump1
-    img 13822
-    with diss
-    w
-    sound Jump2
-    img 13436
-    with diss
-    w
-    img 13435
-    with diss
-    citizen4 "Вот чего не хватает! Моей руки на твоей сочной жопе!"
-    music Power_Bots_Loop
-    img 13437
-    with hpunch
-    m "Какого черта? Отпути меня!"
-    img 13438
-    with diss
-    citizen4 "Не, мне нравится твой зад!"
-    img 13439
-    with fade
-    mt "Черт, если я отпущу пилон, он может меня отпустить и я упаду... Что делать?"
-    img 13440
-    with diss
-    menu:
-        "Отпустить руки.":
-            # моника отпускает руки и ситизен отпускает ее. моника падает
-            label gallery_13449:
-            music Groove2_85
-            sound Jump1
-            img 13446
-            with diss
-            w
-            sound snd_down1
-            img 13447
-            with diss
-            w
-            img 13448
-            with diss
-            w
-            sound snd_bodyfall
-            img 13449
-            with diss
-            w
-            img 13450
-            with fade
-            citizen4 "Ха-ха-ха! Глупая девочка!"
-            pass
-        "Угрожать.":
-            music Power_Bots_Loop
-            img 13441
-            with diss
-            m "Знаешь что! Если ты меня не отпустишь, у тебя будут проблемы!"
-            music Groove2_85
-            img 13442
-            citizen4 "Девочка, ты не в тех условиях, чтобы угрожать!"
-            citizen4 "Погоди минутку..."
-            # лапает
-            sound Jump2
-            img 13443
-            with diss
-            citizen4 "О да, отличный зад!"
-            # лапает
-            img 13444
-            with diss
-            citizen4 "Эх, маловат, но вполне годный!"
-            # отпускает
-            pass
-        "Терпеть.":
-            img 13445
-            with fade
-            mt "Похоже, у меня нет выбора..."
-            # лапает
-            sound Jump2
-            img 13443
-            with diss
-            citizen4 "О да, отличный зад!"
-            # лапает
-            img 13444
-            with diss
-            citizen4 "Эх, маловат, но вполне годный!"
-            # отпускает
-            pass
-    music stop
-    img black_screen
-    with diss
-    pause 1.5
-    music Power_Bots_Loop
-    img 13451
-    with fadelong
-    m "Я тебя убью!"
-    img 13452
-    with diss
-    citizen4 "Началось... Вот твои два бакса, заработала."
-    citizen4 "И вот еще один, за твой красивый зад!"
-    # моника злая
-    img 13453
-    with fade
-    mt "Когда нибудь ты за это ответишь, я обещаю!"
-    return
-
-label gallery_13475:
-    music Groove2_85
-    img 13454
-    with fade
-    citizen6 "Эй, как насчеет танцев?"
-    img 13455
-    m "Можно, но только если ты заплатишь."
-    img 13456
-    citizen6 "Да, я заплачу, а ты снимешь кофточку."
-    img 13457
-    with hpunch
-    m "Что?!"
-    img 13458
-    with diss
-    menu:
-        "Мне нужны деньги...":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13459
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13376
-    with fade
-    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
-    mt "Хуже уже не будет..."
-    img 13460
-    with fade
-    m "Сколько ты заплатишь?"
-    img 13461
-    citizen6 "Танцы-доллар, сиськи-по пол доллара каждая. Итого 2 доллара."
-    img 13462
-    with fade
-    menu:
-        "Хорошо.":
-            pass
-        "Ну уж нет!":
-            img 13463
-            m "Ну уж нет!"
-            img 13464
-            citizen6 "Ладно, тут можно и по дешевле найти!"
-            return
-    img 13465
-    with fade
-    mt "Сиськи по пол доллара каждая?! Да моя грудь стоит миллион!"
-    img 13466
-    with diss
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13467
-    citizen6 "Хорошо, отвернусь!"
-    sound snd_fabric1
-    img 12023
-    with diss
-    w
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13468
-    with fadelong
-    citizen6 "Давай, не тормози, начинай!"
-    music RocknRoll_loop
-    # движение на пилоне
-    img 13469
-    with fadelong
-    w
-    img 13470
-    with diss
-    citizen6 "Хе-хе! Прекрасно!"
-    # движение на пилоне еще
-    img 13471
-    with diss
-    w
-    img 13472
-    with diss
-    citizen6 "Давай еще! И, если мне понравится, то я, возможно, дам тебе еще доллар!"
-    # движение на пилоне еще
-    img 13473
-    with diss
-    w
-    img 13474
-    with diss
-    w
-    img 13475
-    with diss
-    citizen6 "Ну, не знаю, такое чувство, что ты халтуришь..."
-    # моника слезает с шеста
-    music Groove2_85
-    img 13476
-    with fadelong
-    m "С тебя хватит!"
-    img 13477
-    citizen6 "Вот смотрю я на тебя и думаю, что нет в тебе искры, но свои 2 бакса ты заработала."
-    citizen6 "Тренируйся! И получишь 2.5 доллара, а может и 3!"
-    music Power_Bots_Loop
-    img 13478
-    with fade
-    m "Когда я верну себе все то, чем я владела, я затолкаю эти 2 доллара тебе в рот!"
-    return
-
-label gallery_13482:
-    music Groove2_85
-    img 13479
-    with fade
-    citizen6 "Детка, потанцуй еще, мне нравится, как ты крутишься на пилоне."
-    citizen6 "Особенно без блузки."
-    img 13462
-    with diss
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 12021
-            m "Хватит с тебя того, что ты уже видел!"
-            img 13464
-            citizen6 "Ладно, если ты не хочешь денег..."
-            return
-    img 13466
-    with fade
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13467
-    citizen6 "Хорошо."
-    sound snd_fabric1
-    img 12023
-    with diss
-    w
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13468
-    with fadelong
-    citizen6 "Давай, не тормози, начинай!"
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13480
-    with fadelong
-    w
-    img 13481
-    with diss
-    citizen6 "Хе-хе! Прекрасно!"
-    # движение на пилоне еще
-    img 13482
-    with diss
-    w
-    img 13483
-    with diss
-    citizen6 "Давай еще! И, если мне понравится, то я, возможно, дам тебе еще доллар!"
-    # движение на пилоне еще
-    img 13485
-    with diss
-    w
-    img 13484
-    with diss
-    citizen6 "Ну не знаю, такое чувство, что ты халтуришь..."
-    # моника слезает с шеста
-    music Groove2_85
-    img 13486
-    with fade
-    m "С тебя хватит!"
-    img 13487
-    citizen6 "Вот смотрю я на тебя и думаю, что нет в тебе искры, но свои 2 бакса ты заработала."
-    citizen6 "Тренируйся! И получишь 2.5 доллара, а может и 3!"
-    music Power_Bots_Loop
-    img 13478
-    with fade
-    m "Когда я верну себе все то, чем я владела, я затолкаю эти 2 доллара тебе в рот!"
-    return
-
-label gallery_13494:
-    music Groove2_85
-    img 13488
-    with fade
-    citizen6 "Детка, потанцуй еще, я устал от стрип клуба, там плохое освещение..."
-    citizen6 "И сними блузку. Без нее тебе лучше."
-    img 13462
-    with diss
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 12021
-            m "Хватит с тебя того, что ты уже видел!"
-            img 13464
-            citizen6 "Ладно, если ты не хочешь денег..."
-            return
-    img 13466
-    with fade
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13467
-    citizen6 "Ладно."
-    sound snd_fabric1
-    img 12023
-    with diss
-    # поворачиваются, моника стоит с голыми сиськами
-    w
-    img 13468
-    with fadelong
-    citizen6 "Ну давай уже! Мне долго ждатть?"
-    # движение на пилоне
-    music Molten_Alloy
-    img 13489
-    with fadelong
-    w
-    img 13490
-    with diss
-    citizen6 "Вот, другое дело!"
-    # движение на пилоне еще
-    img 13491
-    with diss
-    w
-    img 13492
-    with diss
-    citizen6 "Давай еще! И, если мне понравится, то я, возможно, дам тебе еще доллар!"
-    # движение на пилоне еще
-    img 13494
-    with diss
-    w
-    img 13493
-    with diss
-    citizen6 "А сегодня ты получше! Тренировалась?"
-    # моника слезает с шеста
-    music Groove2_85
-    img 13486
-    with fadelong
-    m "С тебя хватит!"
-    img 13495
-    with diss
-    citizen6 "Я тут придумал, как ты можешь заработать еще доллар."
-    citizen6 "Я был в стрип клубе и там некоторые из твоих коллег наклоняются перед лицами посетителей, а между сисек у них бутылка..."
-    citizen6 "Дак вот, они наклоняются, а из бутылки льется пиво прямо в рот!"
-    img 13496
-    with diss
-    citizen6 "Я тут прикупил пивка..."
-    citizen6 "Ну дак что? Сделаешь это? Я дам тебе доллар!"
-    citizen6 "Ради такого я даже присяду, ведь тут нет сцены..."
-    citizen6 "Ну дак что, хочешь доллар?"
-    img 13497
-    with fade
-    menu:
-        "Я хочу больше!":
-            img 13501
-            with fade
-            m "Я хочу больше!"
-            img 13502
-            citizen6 "Серьезно? Я и так плачу тебе доллар! На это можно купить целый кебаб!"
-            citizen6 "Сколько же ты хочешь?"
-            img 13503
-            mt "Черт, мне нужны деньги и я уже решила, что могу пойти на такое... Как бы сделать так, чтобы он согласился заплатить как можно больше."
-            img 13504
-            with fade
-            m "Я хочу 50 долларов! Один человек мне заплатил столько только за то, что я показала ему грудь."
-            img 13505
-            citizen6 "Ха-ха-ха! Я даже знаю его! Его тут все знают! Он помешан на новых сиськах! Думаю, в другой раз он столько не заплатит."
-            citizen6 "Хорошо. В стрип клубе я за это плачу 10 долларов, но девочке из этого идет не все. Я дам тебе не 1 доллар, а 3!"
-            img 13506
-            with fade
-            m "Ладно."
-            mt "Мне нужны с него хоть какие-то деньги... Черт..."
-            img 13507
-            mt "Козел..."
-            # сцена.
-            music Loved_Up
-            img 13630
-            with fadelong
-            citizen6 "Вот кстати мое любимое пивко."
-            # дает бутылку, продолжение сцены
-            img 13659
-            with fadelong
-            sound hlup21
-            w
-            img 13660
-            with diss
-            w
-            img 13661
-            with diss
-            citizen6 "О да, детка!"
-            citizen6 "Дааа!"
-            citizen6 "Даже лучше стрип клуба! Нет этих лампочек..."
-            # звук питья ...
-            sound snd_piss
-            img 13656
-            with diss
-            w
-            img 13657
-            with diss
-            w
-            img 13658
-            sound snd_drinking_water
-            w
-            music Groove2_85
-            img 13662
-            with fadelong
-            citizen6 "Ух! Зашибись! Вот твои деньги! Я доволен!"
-            pass
-        "Это слишком!":
-            img 13498
-            with fade
-            m "Думаю, тебе стоит вернуться в стрип клуб. Я не готова на такое."
-            img 13499
-            citizen6 "Ладно, приду, когда ты будешь работать."
-            img 13507
-            with diss
-            mt "Козел, я не сприптизерша."
-            pass
-    img 13500
-    with fade
-    citizen6 "Да, кстати, вот 2 доллара за танец."
-    return
-
-label gallery_13494_13657:
-    music Groove2_85
-    img 13488
-    with fade
-    citizen6 "Детка, потанцуй еще, я устал от стрип клуба, там плохое освещение..."
-    citizen6 "И сними блузку. Без нее тебе лучше."
-    img 13462
-    with diss
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 12021
-            m "Хватит с тебя того, что ты уже видел!"
-            img 13464
-            citizen6 "Ладно, если ты не хочешь денег..."
-            return
-    img 13466
-    with fade
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13467
-    citizen6 "Ладно."
-    sound snd_fabric1
-    img 12023
-    with diss
-    # поворачиваются, моника стоит с голыми сиськами
-    w
-    img 13468
-    with fadelong
-    citizen6 "Ну давай уже! Мне долго ждатть?"
-    # движение на пилоне
-    music Molten_Alloy
-    img 13489
-    with fadelong
-    w
-    img 13490
-    with diss
-    citizen6 "Вот, другое дело!"
-    # движение на пилоне еще
-    img 13491
-    with diss
-    w
-    img 13492
-    with diss
-    citizen6 "Давай еще! И, если мне понравится, то я, возможно, дам тебе еще доллар!"
-    # движение на пилоне еще
-    img 13494
-    with diss
-    w
-    img 13493
-    with diss
-    citizen6 "А сегодня ты получше! Тренировалась?"
-    # моника слезает с шеста
-    music Groove2_85
-    img 13486
-    with fadelong
-    m "С тебя хватит!"
-    img 13495
-    with diss
-    citizen6 "Я тут придумал, как ты можешь заработать еще доллар."
-    citizen6 "Я был в стрип клубе и там некоторые из твоих коллег наклоняются перед лицами посетителей, а между сисек у них бутылка..."
-    citizen6 "Дак вот, они наклоняются, а из бутылки льется пиво прямо в рот!"
-    img 13496
-    with diss
-    citizen6 "Я тут прикупил пивка..."
-    citizen6 "Ну дак что? Сделаешь это? Я дам тебе доллар!"
-    citizen6 "Ради такого я даже присяду, ведь тут нет сцены..."
-    citizen6 "Ну дак что, хочешь доллар?"
-    img 13497
-    with fade
-    menu:
-        "Я хочу больше!":
-            img 13501
-            with fade
-            m "Я хочу больше!"
-            img 13502
-            citizen6 "Серьезно? Я и так плачу тебе доллар! На это можно купить целый кебаб!"
-            citizen6 "Сколько же ты хочешь?"
-            img 13503
-            mt "Черт, мне нужны деньги и я уже решила, что могу пойти на такое... Как бы сделать так, чтобы он согласился заплатить как можно больше."
-            img 13504
-            with fade
-            m "Я хочу 50 долларов! Один человек мне заплатил столько только за то, что я показала ему грудь."
-            img 13505
-            citizen6 "Ха-ха-ха! Я даже знаю его! Его тут все знают! Он помешан на новых сиськах! Думаю, в другой раз он столько не заплатит."
-            citizen6 "Хорошо. В стрип клубе я за это плачу 10 долларов, но девочке из этого идет не все. Я дам тебе не 1 доллар, а 3!"
-            img 13506
-            with fade
-            m "Ладно."
-            mt "Мне нужны с него хоть какие-то деньги... Черт..."
-            img 13507
-            mt "Козел..."
-            # сцена.
-            music Loved_Up
-            img 13630
-            with fadelong
-            citizen6 "Вот кстати мое любимое пивко."
-            # дает бутылку, продолжение сцены
-            img 13659
-            with fadelong
-            sound hlup21
-            w
-            img 13660
-            with diss
-            w
-            img 13661
-            with diss
-            citizen6 "О да, детка!"
-            citizen6 "Дааа!"
-            citizen6 "Даже лучше стрип клуба! Нет этих лампочек..."
-            # звук питья ...
-            sound snd_piss
-            img 13656
-            with diss
-            w
-            img 13657
-            with diss
-            w
-            img 13658
-            sound snd_drinking_water
-            w
-            music Groove2_85
-            img 13662
-            with fadelong
-            citizen6 "Ух! Зашибись! Вот твои деньги! Я доволен!"
-            pass
-        "Это слишком!":
-            img 13498
-            with fade
-            m "Думаю, тебе стоит вернуться в стрип клуб. Я не готова на такое."
-            img 13499
-            citizen6 "Ладно, приду, когда ты будешь работать."
-            img 13507
-            with diss
-            mt "Козел, я не сприптизерша."
-            pass
-    img 13500
-    with fade
-    citizen6 "Да, кстати, вот 2 доллара за танец."
-    return
-
-label gallery_13520:
-    music Groove2_85
-    img 13508
-    with fade
-    citizen7 "Я недавно представлял твою прекрасную грудь."
-    citizen7 "Хочу тебя заверить, когда я на нее смотрю, у меня поднимается... Вдохновение."
-    img 13509
-    mt "Извращенец."
-    img 13510
-    citizen7 "Но также вдохновению способствует вон та железная палочка сзади тебя."
-    citizen7 "Хочу увидеть твою голую грудь и танец!"
-    citizen7 "Я заплачу, но только если это добавит вдохновения!"
-    img 13511
-    with diss
-    menu:
-        "Мне нужны деньги...":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13512
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13376
-    with fade
-    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
-    mt "Хуже уже не будет..."
-    img 13513
-    m "Откуда я узнаю, что это даст тебе вдохновение?"
-    img 13514
-    citizen7 "Ооо! Сразу видно, ты ничего в этом не понимаешь! Я его почувствую..."
-    citizen7 "Вдохновение... Оно идет снизу. Возможно, когда-нибудь, я тебе покажу."
-    img 13515
-    mt "Кажется, я поняла о чем он..."
-    mt "Очередной извращенец..."
-    music Loved_Up
-    img 13516
-    with fade
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13517
-    citizen7 "Что за издевательства над бедным уличным художником?"
-    sound snd_fabric1
-    img 12093
-    with diss
-    w
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13518
-    with fadelong
-    citizen7 "Я готов!"
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13519
-    with fadelong
-    w
-    img 13520
-    with diss
-    citizen7 "Славно! Очень не плохо!"
-    # движение на пилоне еще
-    img 13522
-    with diss
-    w
-    img 13521
-    with diss
-    citizen7 "Это намного лучше простых танцев!"
-    # движение на пилоне еще
-    img 13523
-    with diss
-    w
-    img 13524
-    with diss
-    citizen7 "Представляю, насколько большое вдохновение я бы получил, если бы ты была голая..."
-    # моника слезает с шеста
-    music Groove2_85
-    img 13525
-    with fadelong
-    m "Все, достаточно!"
-    img 13526
-    citizen7 "Не достаточно! У тебя нет сострадания и ты не разбираешься в искусстве!"
-    # дает деньги
-    img 13527
-    with fade
-    citizen7 "Хорошо! Вот! Я получил не так много вдохновения!"
-    return
-
-label gallery_13531:
-    music Groove2_85
-    img 13528
-    with fade
-    citizen7 "С прошлой нашей встречи, я ощущаю недостаток вдохновения!"
-    citizen7 "Я просто обязан увидеть твою грудь. И обязательно в танце!"
-    img 13529
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13530
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13516
-    with fade
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13517
-    citizen7 "Что за издевательства над бедным уличным художником?"
-    sound snd_fabric1
-    img 12093
-    with fade
-    w
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13518
-    with fadelong
-    citizen7 "Искусство не прощает задержек! Начинай!"
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13531
-    with fadelong
-    w
-    img 13532
-    with diss
-    citizen7 "Это восхитительно!"
-    # движение на пилоне еще
-    img 13533
-    with diss
-    w
-    img 13534
-    with diss
-    citizen7 "Какая красота!"
-    # движение на пилоне еще
-    img 13535
-    with diss
-    w
-    img 13536
-    with diss
-    citizen7 "Да ты просто богиня!"
-    # моника слезает с шеста
-    music Groove2_85
-    img 13537
-    with fadelong
-    m "Все, достаточно!"
-    img 13538
-    citizen7 "Богиня, но почему? Мы же только начали... Меня начало наполнять вдохновение!"
-    # дает деньги
-    img 13539
-    m "Хватит, я и так слишком долго танцевала."
-    mt "Не могу поверить что я это делала..."
-    img 13540
-    citizen7 "Здесь я решаю, что долго, а что нет!"
-    citizen7 "Придется искать вдохновение где-то еще."
-    citizen7 "И за это я дам только доллар!"
-    img 13541
-    m "Почему так мало?"
-    img 13542
-    citizen7 "Ты не поймешь!"
-    img 13543
-    with fade
-    mt "Какой-то неадекватный псих... Ну и пошел он к черту..."
-#    mt "Какой-то он не адекватный... Думаю, лучше его не провоцировать."
-    return
-
-label gallery_13551:
-    music Groove2_85
-    img 13528
-    with fade
-    citizen7 "Недостаток вдохновения! Его необходимо восполнить! Иначе я не смогу создавать свои шедевры!"
-    citizen7 "Я просто обязан увидеть твою грудь. И обязательно в танце!"
-    img 13529
-    with diss
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13530
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13516
-    with fade
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13517
-    citizen7 "Что за издевательства над бедным уличным художником?"
-    sound snd_fabric1
-    img 12093
-    with diss
-    w
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13518
-    with fadelong
-    citizen7 "Искусство не прощает задержек! Начинай!"
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13544
-    with fadelong
-    w
-    img 13545
-    with diss
-    citizen7 "Да! Я чувствую прилив вдохновения!"
-    # движение на пилоне еще
-    img 13547
-    with diss
-    w
-    img 13546
-    with diss
-    citizen7 "Изумительно!"
-    # движение на пилоне еще
-    img 13548
-    with diss
-    w
-    img 13549
-    with diss
-    citizen7 "О да! Когда-нибудь я тебя нарисую!"
-    # моника слезает с шеста
-    music Groove2_85
-    img 13550
-    with fadelong
-    m "Все, достаточно!"
-    img 13551
-    citizen7 "Нет не достаточно! Не достаточно! Нужно еще!"
-    img 13552
-    m "Хватит, я и так слишком долго танцевала."
-    img 13553
-    citizen7 "Не достаточно долго! Что же делать?!"
-    citizen7 "Ага, придумал! Да, это то, что нужно!"
-    citizen7 "Наклонись!"
-    img 13554
-    m "Что?"
-    img 13555
-    citizen7 "Да, да! Наклонись! Иначе я останусь без вдохновения!"
-    #художник подходит и птыается наклонить монику, слегка получается
-    img 13556
-    with diss
-    w
-    sound highheels_short_walk
-    img 13557
-    with diss
-    w
-    sound Jump1
-    img 13558
-    with diss
-    w
-    music Power_Bots_Loop
-    img 13559
-    with hpunch
-    mt "Какого черта происходит? Он выглядит не очень адекватно... Что же делать?"
-    img 13560
-    with diss
-    menu:
-        "Потерпеть.":
-            label gallery_13565:
-            music Groove2_85
-            img 13561
-            with diss
-            mt "Думаю, лучше потерпеть, а то мало ли что."
-            # художник ставит монику в позу...
-            img 13562
-            with diss
-            citizen7 "Вот! Уже готовая скульптура!"
-            img 13563
-            mt "Да что он несет?"
-            img 13564
-            with diss
-            citizen7 "Чуточку формалина и..."
-            img 13565
-            mt "Так, о чем это он... Формалин? Черт! Думаю, не стоит с ним часто видеться..."
-            # моника стоит пару сек
-            img 13566
-            with fade
-            citizen7 "Да, вот теперь хорошо! Вот твои деньги."
-            pass
-        "Не выдержать.":
-            music Power_Bots_Loop
-            img 13567
-            with hpunch
-            m "Какого черта ты делаешь?! Не трогай меня!"
-            img 13568
-            m "Убери свои грязные руки! И плати! А то обещаю, у тебя еще долго не будет вдохновения!"
-            img 13569
-            with fade
-            citizen7 "ОЙ-ой! Ладно, ладно, хорошо! Вот, возьми!"
-            pass
-    return
-
-label gallery_13584:
-    music Groove2_85
-    img 13570
-    with fade
-    citizen8 "Добавим разнообразия: оголяй сиськи, иди на пилон. Все просто."
-    citizen8 "Ты делаешь, я плачу."
-    citizen8 "Сколько плачу-зависит от тебя."
-    img 13571
-    with diss
-    menu:
-        "Мне нужны деньги...":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13572
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13316
-    with fade
-    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
-    mt "Хуже не будет..."
-    img 13573
-    m "Откуда я знаю, что ты не обманешь?"
-    img 13574
-    citizen8 "Я тебя обманывал?"
-    img 13575
-    with diss
-    m "Нет."
-    img 13576
-    citizen8 "Вот именно. И вообще, я не предлагаю сделку, если не могу ее выполнить."
-    img 13577
-    m "Хорошо. Только отвернись!"
-    img 13578
-    citizen8 "Зачем? Мы уже это проходили: я не отвернусь, иначе сделки не будет."
-    citizen8 "Переодевайся."
-    img 13579
-    with diss
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13572
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13580
-    with fade
-    mt "Он уже видел как я переодеваюсь..."
-    music Loved_Up
-    img 13581
-    m "Хорошо."
-    # переодевается
-    img 12223
-    with diss
-    w
-    sound snd_fabric1
-    img 12224
-    with diss
-    w
-    img 13582
-    with fadelong
-    citizen8 "Вот так, умница!"
-    citizen8 "Я вижу, ты готова, начинай!"
-    # движение на пилоне
-    music Molten_Alloy
-    img 13583
-    with fadelong
-    w
-    img 13584
-    with diss
-    citizen8 "А ты подготовилась. Не дурно."
-    # движение на пилоне еще
-    img 13585
-    with diss
-    w
-    img 13586
-    with diss
-    citizen8 "Скажи честно, ты тренировалась?"
-    # движение на пилоне еще
-    img 13587
-    with diss
-    w
-    img 13588
-    with diss
-    citizen8 "Хотя постой, ты двигаешься как обычно. Я бы назвал это эффектом сисек."
-    # моника слезает с шеста
-    music Groove2_85
-    img 13589
-    with fadelong
-    m "Все, достаточно!"
-    img 13590
-    citizen8 "Как скажешь. Да, эффект сисек работает! Даже если бы ты двигалась неумело, я бы все равно заплатил за твои голые сиськи."
-    # дает деньги
-    img 13591
-    with fade
-    citizen8 "Сделка состоялась."
-    return
-
-label gallery_13601:
-    music Groove2_85
-    img 13592
-    with fade
-    citizen8 "Новая сделка: снимай кофту и на пилон."
-    img 13579
-    with diss
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13572
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13581
-    with fade
-    m "Хорошо."
-    img 13593
-    citizen8 "Чего же ты ждешь? Переодевайся."
-    img 13594
-    m "..."
-    #  переодевается
-    music Loved_Up
-    sound snd_fabric1
-    img 13595
-    with diss
-    w
-    img 13596
-    with fadelong
-    citizen8 "Я смотрю, это вызывает у тебя все меньше стеснения."
-    img 13597
-    m "Это не правда"
-    img 13598
-    citizen8 "Да? А я так не думаю. Ты даже не просишь меня отвернуться."
-    img 13599
-    with fade
-    mt "Да, не прошу... Неужели он прав насчет моего стеснения?!"
-    mt "До чего ты докатилась, Моника?"
-    # разделась
-    img 13600
-    with diss
-    citizen8 "Улыбнись! У тебя отличные сиськи."
-    citizen8 "А теперь на пилон!"
-    # движение на пилоне
-    music Molten_Alloy
-    img 13601
-    with fadelong
-    w
-    img 13602
-    with diss
-    citizen8 "Ты и сама знаешь, что у тебя прогресс..."
-    # движение на пилоне еще
-    img 13603
-    with diss
-    w
-    img 13604
-    with diss
-    citizen8 "Так что я не буду ничего говорить..."
-    # движение на пилоне еще
-    img 13606
-    with diss
-    w
-    img 13605
-    with diss
-    citizen8 "Но ты молодец."
-    # моника слезает с шеста
-    music Groove2_85
-    img 13589
-    with fadelong
-    m "Все, достаточно!"
-    img 13607
-    citizen8 "Хорошо."
-    # дает деньги
-    img 13591
-    with fade
-    citizen8 "Сделка состоялась."
-    return
-
-label gallery_13612:
-    music Groove2_85
-    img 13570
-    with fade
-    citizen8 "Давай продолжим наши упражнения на пилоне."
-    img 13579
-    with diss
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13572
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13593
-    with fade
-    citizen8 "Раздевайся."
-    # раздевается и стоит с гол сиськами
-    music Loved_Up
-    sound snd_fabric1
-    img 13595
-    with diss
-    w
-    img 13596
-    with diss
-    w
-    img 13608
-    with diss
-    w
-    img 13609
-    with fade
-    citizen8 "Меня не покидает ощущение, что что-то тут не то."
-    citizen8 "Ты танцуешь на пилоне и мы как будто в стрип клубе, но это не так."
-    img 13610
-    with diss
-    citizen8 "Представим что мы в стрип клубе..."
-    img 13611
-    with diss
-    m "?"
-    music stop
-    img black_screen
-    with diss
-    pause 1.0
-    music Loved_Up
-    img 13612
-    with fadelong
-    citizen8 "Привет! Я хочу приватный танец. Сколько он стоит?"
-    img 13613
-    m "..."
-    img 13614
-    with diss
-    menu:
-        "Эм... 100 долларов.":
-            pass
-        "Я не собираюсь играть в твои дурацкие игры!":
-            music Power_Bots_loop
-            img 13615
-            with fade
-            m "Я не собираюсь играть в твои дурацкие игры!"
-            return
-    #  переодевается
-    img 13616
-    with diss
-    m "100 долларов."
-    img 13617
-    citizen8 "А у вас дорогой стрип клуб!"
-    citizen8 "Слишком дорого! Пусть будет обычный танец. Можешь начинать."
-    m "!!!"
-    # движение на пилоне
-    label gallery_13626:
-    music Molten_Alloy
-    img 13618
-    with fadelong
-    w
-    img 13619
-    with diss
-    citizen8 "А теперь поинтересуйся, нравится ли мне все, что я вижу."
-    img 13620
-    with diss
-    menu:
-        "Поинтересоваться.":
-            img 13621
-            with diss
-            m "Мистер, Вам нравится?"
-            img 13622
-            with diss
-            citizen8 "Да, детка, более чем!"
-            pass
-        "Иди к черту!":
-            music Groove2_85
-            img 13623
-            with diss
-            m "..."
-            img 13624
-            with diss
-            citizen8 "Что же ты молчишь?"
-            music Molten_Alloy
-            pass
-    # движение на пилоне еще
-    img 13625
-    with diss
-    w
-    img 13626
-    with diss
-    citizen8 "Да, ты горяча!"
-    # движение на пилоне еще
-    img 13628
-    with diss
-    w
-    img 13627
-    with diss
-    citizen8 "Прекрасно!"
-    # моника слезает с шеста
-    music Groove2_85
-    img 13589
-    with fadelong
-    m "Все, достаточно!"
-    img 13607
-    citizen8 "Хорошо. Точнее не очень хорошо. Почему я должен говорить, что ты должна говорить?"
-    citizen8 "Хотя ладно, это вопрос времени..."
-    img 13629
-    with fade
-    mt "То, что я тебе что-то говорю, еще ничего не значит..."
-    # дает деньги
-    img 13591
-    with diss
-    citizen8 "Сделка состоялась."
-    return
-
-label gallery_13645:
-    music Groove2_85
-    img 13631
-    with fade
-    citizen9 "Йо, дамочка! Давай посмотрим на твои сисечки!"
-    img 13632
-    mt "Как же ты меня бесишь, если бы мне не были так нужны деньги, то я..."
-    img 13633
-    citizen9 "И ты же уже знаешь, зачем нужен пилон..."
-    citizen9 "Лезь на него!"
-    img 13634
-    with diss
-    menu:
-        "Мне нужны деньги...":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            music Power_Bots_Loop
-            img 13635
-            with fade
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13316
-    with fade
-    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
-    mt "Хуже уже не будет..."
-    img 13636
-    m "Знаешь что, я тебе не верю. Деньги сразу!"
-    img 13637
-    citizen9 "Вот это ты придумала!"
-    citizen9 "А если мне не понравится?"
-    img 13638
-    mt "Ах ты сволочь..."
-    img 13639
-    m "Тебе же нравилось все, что ты видел до этого..."
-    img 13640
-    citizen9 "Ладно, дамочка, держи! А теперь раздевайся!"
-    img 13641
-    m "Отвернись!"
-    # отворачивается
-    img 13642
-    citizen9 "Так и быть!"
-    sound snd_fabric1
-    img 12251
-    with diss
-    w
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13643
-    with fadelong
-    w
-    img 13644
-    with diss
-    citizen9 "Йо! Ну неужели сама не догадываешься, что пилон уже тебя заждался?!"
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13645
-    with fadelong
-    w
-    img 13646
-    with diss
-    citizen9 "О да!"
-    # движение на пилоне еще
-    img 13648
-    with diss
-    w
-    img 13647
-    with diss
-    citizen9 "Порадуй старину Найджела!"
-    # движение на пилоне еще
-    img 13649
-    with diss
-    w
-    img 13650
-    with diss
-    citizen9 "Горяча!"
-    # моника слезает с шеста
-    music Groove2_85
-    img 13651
-    with fadelong
-    m "Все, достаточно!"
-    img 13652
-    citizen9 "И правда хватит. Пора засунуть мой член меджу твоих сисек!"
-    citizen9 "Я же уже заплатил..."
-    music Power_Bots_Loop
-    img 13653
-    with hpunch
-    m "?!"
-    music Groove2_85
-    img 13654
-    with fade
-    citizen9 "Шутка! Дамочка, в тебе ни капли чувства юмора."
-    img 13655
-    mt "Зато твое чувство юмора ужасно... Мерзавец!"
-    return
-
-label gallery_13675:
-    music Groove2_85
-    img 13663
-    with fade
-    citizen9 "Йо, я соскучился по твоим танцам на пилоне!"
-    citizen9 "Станцуй!"
-    img 13634
-    with diss
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            music Power_Bots_Loop
-            img 13635
-            with fade
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13664
-    with fade
-    m "Знаешь что, почему ты так плохо со мной обращаешься?"
-    img 13665
-    citizen9 "Не, дамочка, с тобой я еще хорошо обращаюсь!"
-    citizen9 "Здесь недалеко есть пара шлюх, вот с ними я..."
-    img 13666
-    m "Мне неинтересно!"
-    img 13667
-    citizen9 "Ну и ладно! Тогда пулей на пилон! И разденься!"
-    img 13668
-    m "А ты отвернись!"
-    # отворачивается. достает тел и по тихому снимает как моника переодевается
-    sound Jump1
-    img 13669
-    with diss
-    citizen9 "О да! Это видео непременно пойдет в мою коллекцию..."
-    img 13670
-    call photoshop_flash()
-    w
-    sound snd_fabric1
-    img 13671
-    with fadelong
-    # поворачивается моника стоит с сиськами
-    w
-    img 13672
-    citizen9 "Класс! Я доволен!"
-    img 13673
-    with diss
-    mt "Интересно чем..."
-    img 13674
-    citizen9 "Танцуй же уже!"
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13675
-    with fadelong
-    w
-    img 13676
-    with diss
-    citizen9 "Да, дамочка, это твое призвание!"
-    # движение на пилоне
-    img 13677
-    with diss
-    w
-    img 13678
-    with diss
-    citizen9 "Да ты просто бомба!"
-    # моника слезает с шеста
-    music Groove2_85
-    img 13651
-    with fadelong
-    m "Все, достаточно!"
-    img 13652
-    citizen9 "Я бы так не сказал, но в любом случае, дома у меня будет еще неколько часов важных дел..."
-    citizen9 "Я буду смотреть порно!"
-    img 13653
-    with diss
-    m "Я и без тебя это поняла..."
-    img 13654
-    citizen9 "А ты догадливая ... Иногда..."
-    citizen9 "Но все равно, надеюсь, к следующему разу ты разучишь больше движений."
-    return
-
-label gallery_13681:
-    music Groove2_85
-    img 13663
-    with fade
-    citizen9 "Расчехляй близняжек и на шест!"
-    img 13634
-    with diss
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13635
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13637
-    with fade
-    citizen9 "Я даже сам отвернусь..."
-    img 13638
-    mt "Что это с ним?"
-#    w
-#    img 1225
-    # поворачивается, моника с сиськами
-    sound snd_fabric1
-    img 13643
-    with fadelong
-    citizen9 "Залезай пожалуйста на шест."
-    img 13673
-    mt "А где же Йо? Что с ним сегодня?"
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13680
-    with fadelong
-    w
-    img 13679
-    with diss
-    citizen9 "Очень красиво!"
-    # движение на пилоне
-    img 13681
-    with diss
-    w
-    img 13682
-    with diss
-    citizen9 "Очень, очень красиво!"
-    # моника слезает с шеста
-    music Groove2_85
-    img 13683
-    with fadelong
-    m "Что с тобой сегодня?"
-    img 13684
-    citizen9 "Со мной все в порядке, просто я прочитал в гороскопе, что в течение дня мне лучше быть вежливым и, возможно, я добьюсь чего-то большего."
-    img 13685
-    mt "Возможно, но явно не со мной."
-    img 13686
-    with fade
-    citizen9 "Вот, возьми пожалуйста твои деньги."
-    # моника берет дкньги
-    img 13687
-    with fadelong
-    citizen9 "И все?"
-    img 13688
-    with diss
-    m "А чего ты хотел?"
-    img 13689
-    citizen9 "Ну я же был вежлив..."
-    img 13690
-    with diss
-    m "Ну тебе же ясно в гороскопе сказали 'возможно добьетесь'. Со мной ничего не удалось."
-    img 13691
-    citizen9 "Йо, дамочка! Все гороскопы отстой, я знал это!"
-    return
-
-label gallery_13711:
-    music Groove2_85
-    img 13692
-    with fade
-    citizen13 "Подруга, я часто вспоминаю тебя. Точнее твою красивую грудь и твои движения на пилоне."
-    citizen13 "Может быть покажешь мне эти две вещи одновременно?"
-    img 13316
-    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
-    img 13693
-    with diss
-    m "Что я получу за это?"
-    img 13694
-    citizen13 "Вот ты какая... Я думал, что ты сделаешь это ради нашей дружбы..."
-    img 13695
-    m "Нет, мне нужны деньги."
-    img 13696
-    with diss
-    mt "Какой еще дружбы? Я вообще тебя не знаю..."
-    mt "У такой леди как Я не может быть друзей в этих грязных трущобах!"
-    mt "Это все какое-то недоразумение... Временное..."
-    img 13697
-    citizen13 "Хорошо, подруга, я дам тебе немного денег."
-    img 13698
-    with diss
-    menu:
-        "Мне нужны деньги...":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13699
-            with fade
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13700
-    with fade
-    m "Хорошо. Только отвернись!"
-    img 13701
-    citizen13 "А ты смешная! Зачем? Я же уже видел твою грудь."
-    img 13702
-    m "Я не привыкла переодеваться, когда на меня смотрит мужчина."
-    img 13703
-    citizen13 "Но я ведь не мужчина, а твой друг, а ты моя подруга."
-    img 13704
-    m "Это не важно, отвернись!"
-    img 13705
-    citizen13 "Скучная ты, ну ладно."
-    sound snd_fabric1
-    img 12334
-    with diss
-    w
-    # отворачивается
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13706
-    with fadelong
-    citizen13 "Привет, близняшки! Готовы потанцевать?"
-    img 13707
-    with diss
-    mt "Господи, лучше бы ты молчал..."
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13708
-    with fadelong
-    w
-    img 13709
-    with diss
-    citizen13 "Подруга, я же уже говорил, что у тебя талант?"
-    # движение на пилоне еще
-    img 13710
-    with diss
-    w
-    img 13711
-    with diss
-    citizen13 "Вот это пластика!"
-    # движение на пилоне еще
-    img 13712
-    with diss
-    w
-    img 13713
-    with diss
-    citizen13 "Ты же научишь меня также? По дружбе..."
-    # моника слезает с шеста
-    music Groove2_85
-    img 13714
-    with fadelong
-    citizen13 "Дак что, научишь?"
-    img 13422
-    mt "Да ни за что на свете."
-    img 13715
-    with diss
-    m "Нет!"
-    img 13716
-    with fade
-    citizen13 "Жаль, но, возможно скоро ты изменишь свое мнение. Мы бы классно провели время."
-    citizen13 "Чуть не забыл... Вот твои деньги."
-    return
-
-label gallery_13724:
-    music Groove2_85
-    img 13717
-    with fade
-    citizen13 "Потанцуй еще! И грудь оголи, пожалуйста!"
-    citizen13 "Мы же подруги!"
-    img 13698
-    with diss
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13699
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13700
-    with fade
-    m "Хорошо. Только отвернись!"
-    img 13701
-    citizen13 "Ну, подруга, это уже не смешно..."
-    img 13702
-    m "Отвернись, иначе ничего не будет."
-    img 13703
-    citizen13 "Ладно, подруга, как скажешь."
-    sound snd_fabric1
-    img 12334
-    with diss
-    w
-    # отворачивается
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13718
-    with fadelong
-    citizen13 "Начинаем!"
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13719
-    with fadelong
-    w
-    img 13720
-    with diss
-    citizen13 "Отлично!"
-    # движение на пилоне еще
-    img 13721
-    with diss
-    w
-    img 13722
-    with diss
-    citizen13 "Подруга, ты прекрасна!"
-    # моника крутится на пилони и у нее растегивается и падает туфля. ситизен поднимает
-    img 13723
-    with diss
-    w
-    sound Jump1
-    img 13724
-    with diss
-    w
-    sound Jump2
-    img 13725
-    with diss
-    w
-    img 13726
-    with diss
-    citizen13 "Ух ты! Что тут у нас?"
-    # моника слезает с шеста
-    label gallery_13745:
-    music Groove2_85
-    img 13727
-    with fadelong
-    m "Отдай мою туфлю!"
-    img 13728
-    citizen13 "Подруга, как не вежливо! Это Луи Витон? Очень похоже..."
-    img 13729
-    mt "Господи, откуда ты это услышал проживая в этой дыре..."
-    img 13730
-    with diss
-    m "Нет."
-    img 13731
-    citizen13 "Очень похоже..."
-    img 13732
-    m "Наверное, а теперь отдай мне туфлю."
-    img 13733
-    citizen13 "Погоди, подруга. Мне кажется, только я думаю о нашей дружбе и тебе на нее наплевать."
-    img 13734
-    mt "У нас нет никакой дружбы и мне на тебя плевать..."
-    img 13735
-    citizen13 "Знаешь что... Обними меня, как свою лучшую подругу и я отдам тебе туфлю, но если ты откажешься, я выкину ее в помойку."
-    img 13729
-    with fade
-    mt "Было бы очень не приятно потерять туфлю... В одной я далеко не уйду... Что делать?"
-    img 13736
-    with diss
-    menu:
-        "Хорошо.":
-            mt "Возможно, стоит сделать вид что я обнимаюсь с ним."
-            mt "Мне нужна моя туфля назад. Я не смогу его догнать в одной туфле..."
-            img 13737
-            with fade
-            m "Хорошо, давай обнимемся."
-            img 13738
-            citizen13 "Ура! Я знал, что ты не откажешь!"
-            # моника обнимает ситизена, а он ее ситизен лапает монику за зад
-            music Loved_Up
-            img 13744
-            with fadelong
-            w
-            sound Jump2
-            img 13745
-            with diss
-            w
-            img 13746
-            with hpunch
-            mt "Какого черта? Он лапает мой зад?!"
-            img 13743
-            with fade
-            citizen13 "Вот это я понимаю дружба! Вот, возьми свою туфлю."
-            pass
-        "Подруги так не поступают!":
-            music Power_Bots_Loop
-            img 13739
-            with fade
-            m "Подруги так не поступают!"
-            img 13740
-            citizen13 "Хм... Да, возможно ты права."
-            img 13741
-            m "Дружба должна быть на доверии, а после такого я не уверена, что могу тебе доверять."
-            m "А теперь, если мы и правда подруги, отдай мне туфлю!"
-            music Groove2_85
-            img 13742
-            with fade
-            citizen13 "Конечно мы подруги! Вот, возьми."
-            pass
-    img 13823
-    with diss
-    citizen13 "Кстати, чуть не забыл: вот твои деньги."
-    return
-
-label gallery_13759:
-    music Groove2_85
-    img 13747
-    with fade
-    citizen13 "Потанцуй еще! И грудь оголи пожалуйста!"
-    citizen13 "Мы же подруги!"
-    img 13748
-    with diss
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            img 13749
-            m "Хватит с тебя того, что ты уже видел!"
-            return
-    img 13750
-    with fade
-    m "Хорошо. Только отвернись!"
-    img 13751
-    citizen13 "Ну, подруга, ну хватит уже..."
-    img 13702
-    m "Отвернись, иначе ничего не будет."
-    img 13703
-    citizen13 "Какая же ты скучная..."
-    sound snd_fabric1
-    img 12334
-    with diss
-    w
-    # отворачивается
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13752
-    with fadelong
-    citizen13 "Твоя грудь стала больше? Или мне показалось?"
-    citizen13 "Ладно, не важно, танцуй!"
-    # движение на пилоне
-    music RocknRoll_loop
-    img 13753
-    with fadelong
-    w
-    img 13754
-    with diss
-    citizen13 "Йуху! Какие обороты!"
-    # движение на пилоне еще
-    img 13755
-    with diss
-    w
-    img 13756
-    with diss
-    citizen13 "Ты  даже так умеешь?!"
-    # моника крутится на пилони
-    img 13757
-    with diss
-    w
-    img 13758
-    with diss
-    citizen13 "Круто! Ой, что это?!"
-    # ситизен снимает штаны. у него очень маленький член и он стоит.
-    # моника слезает с шеста
-    sound Jump1
-    img 13759
-    with diss
-    w
-    sound Jump2
-    img 13760
-    with vpunch
-    w
-    music Groove2_85
-    img 13761
-    with fade
-    w
-    img 13762
-    with diss
-    m "Какого хрена ты делаешь?"
-    img 13763
-    with diss
-    citizen13 "Подруга, это чудо! Видимо ты понравилась моему дружочку! Это так неожиданно!"
-    img 13764
-    with fade
-    m "Оденься!"
-    img 13765
-    mt "Его член просто крохотный, Фи!"
-    img 13766
-    with fade
-    citizen13 "Обязательно расскажу об этом всем!"
-    # ситизен одевает штаны.
-    img 13767
-    with diss
-    citizen13 "Кстати, подруга, вот тебе лишнй доллар! Уверен, ты рада!"
-    return
-
-label gallery_13783:
-    music Groove2_85
-    img 13768
-    with fade
-    citizen15 "Бэйба! Я удивлен, что ты еще не крутишься голая на этом пилоне!"
-    img 13769
-    m "Разве я должна?"
-    img 13770
-    citizen15 "Конечно! Все девочки так делают при виде меня!"
-    img 13771
-    m "Я не из таких."
-    img 13772
-    citizen15 "Ты что, лезбиянка?"
-    img 13773
-    m "Нет!"
-    citizen15 "Отлично! Значит так: показывай свои сисечки и пулей на пилон!"
-    citizen15 "Я за это плачу!"
-    img 13774
-    with diss
-    menu:
-        "Мне нужны деньги...":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            music Power_Bots_Loop
-            img 13775
-            with fade
-            m "Хватит с тебя того, что ты уже видел!"
-            img 13776
-            citizen15 "Я знаю, ты передумаешь!"
-            return
-    img 13777
-    with fade
-    mt "Я уже танцевала, мою прекрасную грудь он видел... Не так страшно, если все это будет вместе."
-    mt "Хуже уже не будет..."
-    img 13778
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13779
-    citizen15 "Ну ты как обычно, ладно!"
-    sound snd_fabric1
-    img 12444
-    with diss
-    w
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13780
-    with fadelong
-    citizen15 "Давай, залазь!"
-    img 13781
-    with diss
-    mt "Когда-нибудь моему терпению придет конец..."
-    # движение на пилоне
-    music Molten_Alloy
-    img 13782
-    with fadelong
-    w
-    img 13783
-    with diss
-    citizen15 "Давай, бейби, покажи на что ты способна!"
-    # движение на пилоне еще
-    img 13784
-    with diss
-    w
-    img 13785
-    with diss
-    citizen15 "Вот так вот! Уверен, ты уже мокрая!"
-    img 13786
-    with diss
-    mt "И не надейся..."
-    # моника слезает с шеста
-    music Groove2_85
-    img 13787
-    with fadelong
-    citizen15 "И это все? Не густо..."
-    citizen15 "Ааа... Я тебя понял! Ты меня дразнишь... Хорошо..."
-    img 13655
-    mt "И не надейся, ничтожество."
-    img 13788
-    with diss
-    citizen15 "Ладно, держи, заработала."
-    return
-
-label gallery_13792:
-    music Groove2_85
-    img 13789
-    with fade
-    citizen15 "Ну что, ты готова меня развлекать?"
-    citizen15 "Зачем я спрашиваю? Я же знаю, что да!"
-    citizen15 "Раздевайся и на пилон!"
-    img 13790
-    m "Нет."
-    img 13774
-    with diss
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            music Power_Bots_Loop
-            img 13775
-            with fade
-            m "Хватит с тебя того, что ты уже видел!"
-            img 13776
-            citizen15 "Я знаю, ты передумаешь!"
-            return
-    img 13778
-    with fade
-    m "Хорошо. Только отвернись!"
-    citizen15 "Что с тобой не так? Все девочки хотят, чтобы я на них смотрел!"
-    # отворачиваются
-    img 13779
-    citizen15 "Ладно, сыграем снова в твою игру!"
-    sound snd_fabric1
-    img 12444
-    with diss
-    w
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13780
-    with fadelong
-    citizen15 "Начинай уже!"
-    img 13781
-    with diss
-    mt "Когда-нибудь моему терпению придет конец..."
-    # движение на пилоне
-    music Molten_Alloy
-    img 13792
-    with fadelong
-    w
-    img 13791
-    with diss
-    citizen15 "О да! Девочка вошла во вкус!"
-    # движение на пилоне еще
-    img 13793
-    with diss
-    w
-    img 13794
-    with diss
-    citizen15 "Йо! Вот это ты раскрутилась!"
-    citizen15 "Уверен, ты не против также покрутиться на моем толстом члене!"
-    img 13786
-    with diss
-    mt "Скорее, я не против его оторвать..."
-    # моника слезает с шеста
-    music Groove2_85
-    img 13787
-    with fadelong
-    citizen15 "И это все? Не густо..."
-    citizen15 "Ааа... Ты продолжаешь меня дразнить... Хорошо..."
-    img 13655
-    mt "И не надейся, ничтожество."
-    img 13788
-    citizen15 "Вот твои деньги, девочка. И я тут подумал: если ты попросишь, чтобы я тебя трахнул, скорее всего, я соглашусь, но я не уверен."
-    # кадр как ситизен держится за член, который пока в штанах и моника видит какой он большой
-    # короче у этого негра огромный хер. Моника это видит и охеревает
-    sound Jump1
-    img 13795
-    with diss
-    w
-    img 13796
-    with diss
-    mt "Черт! У него там что, бейсбольная бита?"
-    img 13797
-    with fade
-    citizen15 "Что, нравится мой инструмент? Я знаю, он всем нравится!"
-    return
-
-label gallery_13807:
-    music Groove2_85
-    img 13768
-    with fade
-    citizen15 "Давай повторим наши танцы! И не забудь про сиськи!"
-    citizen15 "И не вздумая отказываться, я ведь знаю, что ты от меня без ума."
-    img 13798
-    with diss
-    menu:
-        "Хорошо.":
-            pass
-        "Хватит с тебя того, что ты уже видел!":
-            music Power_Bots_Loop
-            img 13775
-            with fade
-            m "Хватит с тебя того, что ты уже видел!"
-            img 13776
-            citizen15 "Я знаю, ты передумаешь!"
-            return
-    img 13778
-    with fade
-    m "Хорошо. Только отвернись!"
-    # отворачиваются
-    img 13779
-    citizen15 "Ладно, сыграем снова в твою игру!"
-    sound snd_fabric1
-    img 12444
-    with diss
-    w
-    # поворачиваются, моника стоит с голыми сиськами
-    img 13799
-    with fadelong
-    citizen15 "Крутись уже! И не разочаруй меня!"
-    img 13781
-    with diss
-    mt "Когда-нибудь моему терпению придет конец..."
-    # движение на пилоне
-    music Molten_Alloy
-    img 13801
-    with fadelong
-    w
-    img 13800
-    with diss
-    citizen15 "Йо, детка, а ты сегодня в ударе!"
-    # движение на пилоне еще. в это время к пилону подходит ситизен14
-    img 13802
-    with diss
-    w
-    music Groove2_85
-    img 13803
-    with fade
-    citizen14 "Ик! Эй друг, я смотрю ты тут развлекаешься!"
-    citizen14 "Кстати, ты знаешь, я нравлюсь этой девочке! Хрюк..."
-    citizen14 "Пожалуй, постою с тобой!"
-    img 13804
-    with diss
-    citizen15 "Йо! Это моя бейба, друг!"
-    # моника слезает с шеста
-    music Power_Bots_Loop
-    img 13805
-    with hpunch
-    m "Какого хрена здесь еще кто-то?"
-    music Loved_Up
-    img 13806
-    with diss
-    citizen15 "Бейб, не злись, это мой друг, а у друзей не может быть секретов!"
-    img 13807
-    citizen14 "Хрюк!"
-    music Groove2_85
-    img 13808
-    m "Или ты сейчас же просишь своего друга свалить отсюда или я..."
-    img 13809
-    with fade
-    citizen15 "Ого! Какая же ты горячая когда злишься!"
-    citizen15 "Я слышал, что иногда надо делать вещи, о которых просят девочки."
-    citizen15 "После этого они будут лучше сосать! Я уверен скоро ты меня об этом попросишь..."
-    img 13810
-    with diss
-    menu:
-        "Перестать терпеть это.":
-            # моника злая
-            music Power_Bots_Loop
-            img 13811
-            with fade
-            m "Ах ты сволочь! А ну проваливай отсюда иначе тебе не поздоровится!"
-            img 13812
-            with diss
-            citizen15 "Йо, девочка! Ты уверена? Если я уйду, ты не ничего не получишь и все закончится тем, что ты снова ко мне придешь."
-            img 13813
-            m "Мне плевать! Ты меня достал!"
-            img 13814
-            with fade
-            citizen15 "Ха-ха-ха! Ладно, как скажешь"
-            # ситизен15 уходит, событие у пилона полностью заканчивается. моника не получает денег
-            return
-        "Молча слушать.":
-            pass
-    img 13815
-    with diss
-    citizen15 "Йо, друг! Думаю тебе лучше уйти, это моя девочка!"
-    citizen15 "Скоро я подгоню тебе какую нибудь дешевую шлюшку, не волнуйся."
-    img 13816
-    with diss
-    citizen14 "Ик! А ты знаешь мои слабости. Ладно, уговорил."
-    # ситизен14 уходит
-    img 13817
-    with diss
-    w
-    img 13818
-    with fade
-    citizen15 "Ну что, не хочешь ли ты попросить меня кое о чем?"
-    img 13819
-    m "Да. Где мои деньги?"
-    img 13820
-    with fade
-    citizen15 "Я не совсем это имел ввиду, ну да ладно, в другой раз. Надо нагулять апетит."
-    citizen15 "Вот твои деньги, бейба."
-    return
-
-label gallery_13921:
-# Моника подходит к секретарше и просит флешку для отчетов.
-# Спрашивает у нее и как часто ей надо их сдавать?
-# Секретарша отвечает что не знает.
-# Может быть раз в неделю будет достаточно?
-# Но, если честно, она не знает, так как Мистер Биф очень непредсказуем.
-    music Groove2_85
-    img 12944
-    with fade
-    m "Дорогуша..."
-    img 12945
-    secretary "Да, Миссис Бакфетт?"
-    img 13911
-    with diss
-    m "Дорогуша, мне нужна флешка для отчетов."
-    sound desk_open
-    img 13921
-    with fadelong
-    w
-    img 13922
-    with diss
-    secretary "Да, Миссис Бакфетт, пожалуйста." # дает флешку
-    sound click1
-    img 13912
-    with fade
-    m "И как часто мне надо сдавать эти дурацкие отчеты?"
-    img 12945
-    with diss
-    secretary "Я не знаю, Миссис Бакфетт."
-    secretary "Может быть, раз в неделю будет достаточно?"
-    secretary "Но, если честно, я не знаю."
-    img 12941
-    secretary "Мистер Биф очень непредсказуем."
-    secretary "Все зависит от того, сколько бутылок виски он сегодня выпил..."
-
-# Моника говорит что он просто сволочь
-# Секретарша отвечает что Мистер Биф лучше нас знает что делать
-# Моника ...
-    img 13913
-    with diss
-    m "Он просто сволочь, вот и все!"
-    # с каменным лицом в сторону (как зомби)
-    img 13915
-    with diss
-    secretary "Мистер Биф знает что для нас лучше..."
-    secretary "Мистер Биф заботится о нас..."
-    img 13916
-    with diss
-    m "..." # Смотрит как на ненормальную
-    return
-
-
-
-############ Steve 1############
-
-label gallery_9944:
-
-    music stop
-    img black_screen
-    with Dissolve(0.5)
-    sound highheels_short_walk
-    pause 1.0
-    sound snd_door_open1
-    music Groove2_85
-
-    img 9932
-    with fadelong
-#    sound bottle1
-    w
-    img 9933
-    with fade
-#    sound bottle1
-    m "Вот, Мистер Робертс... Пожалуйста..."
-    img 9934
-    with fade
-    w
-    img 9935
-    with diss
-    sound Jump1
-    w
-    if monicaBettyPanties == False:
-        if monicaUnder != "Nude":
-    #подглядывание с 9935
-    #governess
-            img 9978
-        else:
-            #nude
-            img 9984
-    else:
-        if monicaBettyPantiesId == 1:
-            #betty
-            img 9979
-        if monicaBettyPantiesId == 2:
-            img 9980
-        if monicaBettyPantiesId == 3:
-            img 9981
-        if monicaBettyPantiesId == 4:
-            img 9982
-        if monicaBettyPantiesId == 5:
-            img 9983
-    with diss
-    sound Jump2
-    w
-    m "Миссис Робертс приготовила для Вас эту закуску..."
-    sound highheels_short_walk
-    img 9936
-    with fade
-    w
-    img 9937
-    with diss
-    steve "..."
-    img 9938
-    w
-    sound Jump1
-    img 9939
-    with fade
-    w
-    #звук падающей вилки
-    sound snd_forkfall
-    img 9940
-    with diss
-    w
-
-# Стив говорит: Ой, гувернантка, ты не могла бы поднять прибор, я нечаянно уронил его.
-# Моника наклоняется, чтобы подобрать.
-# Стив наклоняется и видит что у Моники нет трусиков.
-# Стив удивляется и пытается схватить ее рукой. Моника отскакивает и ненавидяще смотрит на Стива.
-    img 9942
-    steve "Ой, гувернантка!"
-    steve "Ты не могла бы поднять прибор? Я нечаянно уронил его..."
-    music Pyro_Flow
-    img 9941
-    with diss
-    w
-    img 9943
-    with fade
-    w
-    img 9944
-    with diss
-    m "!!!"
-    steve "..."
-    img 9945
-    with fade
-    w
-    img 9946
-    with fade
-    w
-    img 9947
-    with fade
-    w
-    img 9948
-    with Dissolve(0.5)
-    w
-    img 9949
-    with Dissolve(0.5)
-    sound Jump1
-    w
-
-    #подглядывание
-    if monicaBettyPanties == False:
-        if monicaUnder != "Nude":
-            #governess
-            img 9985
-        else:
-            #nude
-            img 9992
-            with diss
-            w
-            img 9991
-            with diss
-            w
-            img 9993
-            with diss
-            w
-            img 9994
-    else:
-        if monicaBettyPantiesId == 1:
-            #betty
-            img 9986
-        if monicaBettyPantiesId == 2:
-            img 9987
-        if monicaBettyPantiesId == 3:
-            img 9988
-        if monicaBettyPantiesId == 4:
-            img 9989
-        if monicaBettyPantiesId == 5:
-            img 9990
-
-    with diss
-    w
-    sound Jump2
-    img 9950
-    with diss
-    w
-    music stop
-    img 9951
-    m "!!!"
-    menu:
-        "Отдать вилку Стиву...":
-            music Pyro_Flow
-            img 9964
-            with fade
-            m "Пожалуйста, Мистер Стив."
-            img 9962
-            with diss
-            "Вот Ваша вилка..."
-        "Взять вилку в руку! (Bitchiness!)" if monicaBitch == True:
-            #звук Моника разворачивается с вилкой
-            music Villainous_Treachery
-            img 9952
-            with fadelong
-            w
-            img 9953
-            with diss
-            w
-            img 9954
-            with diss
-            w
-            img 9955
-            ralph "А? Что за шум?"
-            img 9956
-            with diss
-            w
-            img 9957
-            with diss
-            w
-            img 9958
-            with fade
-            w
-            music Hidden_Agenda
-            img 9959
-            with fadelong
-            m "Мистер Робертс, все в порядке!"
-            img 9960
-            with diss
-            m "Просто упал столовый прибор."
-            img 9961
-            with fade
-            m "Пожалуйста, Мистер Стив."
-            "Вот Ваша вилка..."
-            img 9963
-            with diss
-            w
-            img 9962
-            with Dissolve(0.5)
-            w
-            music Pyro_Flow
-            img 9964
-            with fade
-            w
-        "Взять вилку в руку! (Моника слишком приличная) (disabled)" if monicaBitch == False:
-            pass
-    sound highheels_short_walk
-    img 9965
-    with fade
-    w
-
-    music stop
-    sound snd_door_open1
-    img black_screen
-    with Dissolve(0.5)
-    pause 1.5
-    sound snd_door_close1
-
-    music BossaBossa
-    img 9966
-    with fadelong
-    steve "Какая у тебя горячая гувернантка, Ральф!"
-    steve "Давай скорее еще выпьем!"
-    ralph "Давай, Стив!"
-    return
-
-label gallery_10094:
-# Выбор: отказаться, либо череда выборов с торговлей
-# В итоге сходятся на $ 5.000
-    img 10092
-    with diss
-    menu:
-        "$ 8.000 за весь объект аренды!":
-            img 10093
-            with diss
-            m "$ 8.000 за весь объект аренды!"
-            steve "$ 2.000 за половину!"
-            img 10094
-            with diss
-            menu:
-                "Тогда за целый объект $ 7.000!":
-                    img 10093
-                    with diss
-                    m "Тогда за целый объект $ 7.000!"
-                    steve "За целый объект $ 4.000"
-                    jump gallery_10094
-                "$ 6.000 за половину! За целый $ 10.000!":
-                    img 10093
-                    with diss
-                    m "$ 6.000 за половину! За целый $ 10.000!"
-                    steve "$ 3.500 за целый! $ 1.500 за половину!"
-                    jump gallery_10094
-        "$ 7.000 за половину, за целый $ 10.000!":
-            img 10094
-            with diss
-            m "$ 7.000 за половину, за целый $ 10.000!"
-            steve "$ 2.000 за половину!"
-            menu:
-                "За половину $ 4.000, за целый $ 7.000...":
-                    img 10093
-                    with diss
-                    m "За половину $ 4.000, за целый $ 7.000..."
-                    steve "$ 2.200 за половину!"
-                    jump gallery_10094
-                "$ 3.000 за половину, за целый $ 6.000!":
-                    img 10093
-                    with diss
-                    m "$ 3.000 за половину, за целый $ 6.000!"
-                    steve "$ 5.000 за целый!"
-                    img 10095
-                    with diss
-                    menu:
-                        "Я согласна...":
-                            pass
-                        "$ 5.500 за целый!":
-                            img 10093
-                            with diss
-                            m "$ 5.500 за целый!"
-                            steve "За целый $4.000!"
-                            jump gallery_10094
-# Черт с тобой, Стив!
-# (по крайней мере у меня будут деньги для этой сучки Виктории!)
-# (и мне не придется позориться перед камерой на весь мир!)
-# Я согласна...
-    music Groove2_85
-    img 10096
-    with fade
-    m "Черт с тобой, Стив!"
-    mt "По крайней мере у меня будут деньги для этой сучки Виктории!"
-    mt "И мне не придется позориться перед камерой на весь мир!"
-    mt "Обо мне уже начинают ходить слухи..."
-    mt "Это нехорошо. Я скоро верну свое положение и мне не стоит терять репутацию..."
-    img 10097
-    with fade
-    m "Я согласна..."
-# Стив начинает движение
-# Моника говорит: Стой!
-# Стив, ты же понимаешь, что тебе это не сойдет с рук?!
-# Стив: да, Моника, я понимаю, но я готов рискнуть!
-# Стив, ты понимаешь что я убъю тебя за это?!
-    music Turbo_Tornado
-    img 10098
-    with fade
-    steve "..."
-    sound plastinka2
-    music Power_Bots_Loop
-    img 10099
-    m "СТОЙ!"
-    m "Стив, ты же понимаешь, что тебе это не сойдет с рук?!"
-    steve "Да, Моника, я понимаю, но я готов рискнуть!"
-    m "И ты понимаешь, что за это я сотру тебя в порошок?!"
-    m "Я закрою твою фирму и заставлю тебя жить на улице!"
-# Моника, но у нас честная сделка!
-# Стив, ты понимаешь что эта задница стоит миллиарды?!
-# Стив отвечает: Да, Моника! Я знаю!
-# Это очень редкая и выгодная сделка!
-    steve "Моника, но у нас честная сделка!"
-    img 10100
-    with diss
-    m "Стив, ты понимаешь что эта задница стоит миллиарды?!"
-    music Turbo_Tornado
-    img 10098
-    steve "Стив отвечает: Да, Моника! Я знаю!"
-    steve "Это очень редкая и выгодная сделка!"
-#    music stop
-    w
-
-    #звук входа
-    sound hlup10
-    img 10101
-    with diss
-    w
-    sound snd_monica_ahh
-    img 10102
-    m "Ааааххххххх!!!"
-
-# И входит в Монику
-# Идет секс
-    music stop
-    img black_screen
-    with Dissolve(0.5)
-#    pause 0.3
-    #видео1 начало
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_1_1 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_1.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_1_1
-    with fadelong
-    wclean
-    m "Я забыла спросить, Стив..."
-    m "Деньги у тебя с собой?!"
-    steve "Моника, конечно с собой!"
-    steve "Они у меня на банковской карте! Я могу перевести их тебе прямо сейчас..."
-    steve "Вернее, после окончания аренды твоей..."
-    m "Заткнись! Я так и знала!"
-    m "Купишь подарочный сертификат и отправишь его на адрес, который я скажу."
-    steve "Нет проблем, Моника! Не отвлекайся!"
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_1_2 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_2.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_1_2
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_1_3 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_3.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_1_3
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_1_4 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_4.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_1_4
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_1_5 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_5.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_1_5
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_1_6 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_6.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_1_6
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_1_7 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_7.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_1_7
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_1_8 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_8.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_1_8
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_1.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_1_9 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_1_9.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_1_9
-    wclean
-
-
-# Во время секса Моника говорит: я забыла спросить, Стив...
-# Деньги у тебя с собой?!
-# Стив отвечает: Моника, конечно с собой!
-# Они у меня на банковской карте! Я могу тебе перевести их тебе прямо сейчас...
-# Вернее, после окончания аренды твоей ...
-# Моника говорит: Заткнись! Я так и знала!
-# Купишь подарочный сертификат и отправишь его на адрес, который я скажу.
-# Стив: Нет проблем, Моника! Не отвлекайся!
-
-# Моника: черт, Стив! Какой ты огромный!
-# Стив: Моника, тебе нравится? Я так и знал!
-# Моника: Нет, Стив!
-# Мне... Ах...
-# Мне не нравится, конечно же! Ах!!!
-    m "Черт, Стив! Какой ты огромный!"
-    steve "Моника, тебе нравится? Я так и знал!"
-    m "Нет, Стив!"
-    stop music
-    sound snd_orgasm1
-    m "Мне... Ах..."
-    sound snd_orgasm2
-    m "Мне не нравится, конечно же! Ах!!!"
-
-    #видео1 конец
-
-# Ах!! Ах!! Ааааааххх!!
-# Моника падает... Она кончила
-# (снова это ощущение...)
-# (что это было снова?!?!)
-    music Loved_up2
-    img 10103
-    sound snd_orgasm3
-    m "Ах!! Ах!! Ааааааххх!!"
-    sound snd_bodyfall
-    img 10104
-    with fade
-    m "..."
-    img 10105
-    with diss
-    mt "Снова это ощущение..."
-    mt "Что это было снова?!?!"
-# Стив: Моника, я понимаю что ты кончила, но срок аренды твоей попы действует до тех пор пока не кончу Я!
-# Пожалуйста, встань как ты стояла до этого, задери юбку!
-# И обеспечь мне доступ к объету аренды!
-    music Groove2_85
-    img 10106
-    with fade
-    steve "Моника, я понимаю что ты кончила, но срок аренды твоей попы действует до тех пор, пока не кончу Я!"
-    steve "Пожалуйста, встань как ты стояла до этого, задери юбку!"
-    img 10104
-    with fade
-    steve "И обеспечь мне доступ к объекту аренды!"
-    steve "В соответствии с договором!"
-# Моника: Мерзавец...
-# Моника встает. Стив снова входит.
-# Стив: аааах!!!
-# Моника кричит: не вздумай кончить в меня!
-    img black_screen
-    with diss
-    pause 1.0
-    sound highheels_short_walk
-    img 10107
-    with fade
-    w
-    img 10108
-    with diss
-    steve "Иначе сделка недействительна!"
-
-    sound highheels_short_walk
-    img 10109
-    with fade
-    w
-    img 10110
-    with Dissolve(0.5)
-    w
-    label gallery_10117:
-    music Loved_up2
-    img 10111
-    with fade
-    w
-    img 10112
-    with fade
-    w
-    img 10113
-    with fade
-    w
-    img 10114
-    with fade
-    m "Мерзавец..."
-    music stop
-    w
-    #звук входа
-    sound hlup10
-    img 10115
-    with diss
-    w
-    sound snd_monica_ahh
-    img 10118
-    m "Ааааххххххх!!!"
-
-    img black_screen
-    with diss
-    pause 1.0
-    #видео2
-    music stop
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_2_1 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_1.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_2_1
-    with fadelong
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_2_2 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_2.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_2_2
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_2_3 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_3.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_2_3
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_2_4 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_4.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_2_4
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_2_5 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_5.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_2_5
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_2_6 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_6.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_2_6
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_2_8 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_8.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_2_8
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_2_9 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_9.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_2_9
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_2_10 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_10.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_2_10
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_2_11 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_11.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_2_11
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_2_12 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_12.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_2_12
-    wclean
-    stop music
-    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Pool_Basement_Steve_Monica_Sex_2.mp3"
-    scene black
-    image videov_Pool_Basement_Steve_Monica_Sex_2_13 = Movie(play="video/v_Pool_Basement_Steve_Monica_Sex_2_13.mkv", fps=30)
-    show videov_Pool_Basement_Steve_Monica_Sex_2_13
-    wclean
-
-    stop music
-    music Indo_Rock
-    img 10117
-    with diss
-    w
-    img 10116
-    with diss
-    w
-
-    img 10119
-    with fade
-    steve "Аааах!!!"
-    img 10120
-    m "Не вздумай кончить в меня!"
-# Стив вынимает и хочет кончить на юбку Моники.
-# Не вздумай кончить на мою униформу! У меня нет другой!
-# Стив хочет кончить на коврик.
-# Не вздумай кончать на коврик! Я не собираюсь убирать за тобой!
-    img 10121
-    with fade
-    steve "Аааах!!!"
-    m "Не вздумай кончить на мою униформу! У меня нет другой!"
-
-    img 10122
-    with fade
-    steve "Аааах!!!"
-    m "Не вздумай кончать на коврик! Я не собираюсь убирать за тобой!"
-
-# Стив: О боже! Моника! Куда же мне можно кончить?! Скорее!
-# Кончай в бассейн!
-    img 10123
-    with diss
-    steve "О Боже! Моника! Куда же мне можно кончить?! Скорее!"
-    img 10124
-    m "Кончай в бассейн!"
-# Стив поворачивается к бассейну и кончает.
-# Выбор: если Моника сучка, то она может толкнуть Стива в бассейн.
-# Остынь, Стив! Ты слишком возбудился, малыш!
-# После этого бросает визитку у бассейна и говорит.
-# И только попробуй не прислать сертификат!
-# Тогда я наведаюсь к тебе!
-# Либо:
-# Стив, вот визитка. Пришли сертификат по этому адресу.
-# И, Стив...
-# Давай забудем об этом... Об этой сделке...
-# И, необязательно об этом кому-то говорить. Ты понимаешь меня?
-# О, Моника! Конечно!
-# Если захочешь вспомнить, приходи ко мне в офис!
-    img 10125
-    with diss
-    steve "Аааах!!!"
-    img 10126
-    with diss
-    menu:
-        "Толкнуть Стива в бассейн..." if monicaBitch == True:
-            img 10127
-            with fade
-            #звук бульк
-            w
-            music stop
-            img black_screen
-            with diss
-            sound snd_water_splash
-            pause 1.5
-            music Pyro_Flow
-            img 10128
-            with fadelong
-            m "Остынь, Стив! Ты слишком возбудился, малыш!"
-
-# После этого бросает визитку у бассейна и говорит.
-            sound snd_take_paper
-            img 10129
-            with fade
-            m "Вот адрес!"
-            img 10130
-            with diss
-            m "И только попробуй не прислать сертификат!"
-            m "Тогда я наведаюсь к тебе!"
-        "Толкнуть Стива в бассейн... (Моника недостаточно стерва) (disabled)" if monicaBitch == False:
-            pass
-
-        "Дать визитку..." if monicaBitch == False:
-            music Groove2_85
-            img 10131
-            with fade
-            m "Стив, вот визитка. Пришли сертификат по этому адресу."
-            music Hidden_Agenda
-            img 10132
-            with diss
-            m "И, Стив..."
-            m "Давай забудем об этом... Об этой сделке..."
-            m "Необязательно об этом кому-то говорить. Ты понимаешь меня?"
-            img 10133
-            with fade
-            m "О, Моника! Конечно!"
-            m "Если захочешь вспомнить, приходи ко мне в офис!"
-
-        "Дать визитку... (Моника слишком стерва) (disabled)" if monicaBitch == True:
-            pass
-
-    img black_screen
-    with Dissolve(1.0)
-    pause 2.0
-    return
-
-label gallery_11368:
-# Второй приход к Стиву. Моника встречает Джейн, а также Тиффани.
-# Стива все нет. Моника наезжает на них обеих.
-    img 11308
-    with fadelong
-    jane "Миссис Бакфетт!"
-    music Pyro_Flow
-    img 11309
-    with fade
-    m "Встать, когда с тобой говорит твой Босс!"
-    img 11310
-    with fade
-    # Джейн встает
-    jane "..."
-    img 11311
-    with diss
-    m "Ты снова одета в это, Джейн?!"
-    m "Ты решила поиграть с огнем, да?!"
-    img 11312
-    with fade
-    jane "Миссис Бакфетт, Мистер Стив приказал мне носить это..."
-    img 11313
-    with diss
-    m "Стив?!"
-    img 11314
-    with diss
-    m "Кто твой Босс, Джейн?!"
-    m "Стив или Я?!"
-    img 11315
-    with fade
-    jane "..."
-    img 11316
-    with diss
-    m "Отвечай, быстро!"
-    img 11317
-    with fade
-    jane "Вы, Миссис Бакфетт..."
-    music Groove2_85
-    img 11318
-    with fade
-    m "Хорошо, можешь продолжать ходить в этом..."
-    m "Это будет отличный повод уволить тебя!"
-    img 11319
-    jane "..."
-
-    music stop
-    img black_screen
-    with diss
-    pause 2.0
-    music Indo_Rock2
-    img 11321
-    with fadelong
-    # Заходит Тиффани
-    tiffany "Джейн!"
-    img 11320
-    with diss
-    tiffany "Я нашла то свадебное платье, которое ты хочешь!"
-    img 11322
-    with diss
-    tiffany "Поехали скорее в тот магазин!"
-    img 11323
-    with diss
-    jane "!!!"
-    img 11324
-    with diss
-    tiffany "???"
-    music stop
-    sound plastinka2
-    img 11325
-    with diss
-    w
-    music Pyro_Flow
-    img 11326
-    with fadelong
-    m "..."
-    img 11327
-    with diss
-    tiffany "Ой!"
-    img 11328
-    with fade
-    tiffany "Миссис Бакфетт..."
-    tiffany "Здравствуйте..."
-    img 11329
-    with diss
-    m "Знакомое личико..."
-    if monicaBitch == True:
-        m "Напомни-ка, сучка, как тебя зовут?!"
-    else:
-        m "Напомни-ка, девочка, как тебя зовут?!"
-    img 11330
-    with fade
-    tiffany "Меня зовут Тиффани, Мэм..."
-    if janeTiffanyFirePlanned == True:
-        img 11331
-        with diss
-        m "Насколько я помню, тебя я тоже собиралась уволить!"
-        img 11332
-        with diss
-        m "Посмотри на свой внешний вид!"
-        img 11333
-        with fade
-        m "Ты недалеко ушла от этой проститутки, Джейн!"
-        img 11334
-        with diss
-        tiffany "!!!"
-        img 11335
-        with diss
-        jane "!!!"
-    else:
-        img 11331
-        with diss
-        m "Удивительно как тебя еще не уволили!"
-        img 11332
-        with diss
-        m "Посмотри на свой внешний вид!"
-        img 11333
-        with fade
-        m "Вы тут все одеты как проститутки!"
-        img 11334
-        with diss
-        tiffany "!!!"
-        img 11335
-        with diss
-        jane "!!!"
-
-    music Pyro_Flow
-    img 11336
-    with fadelong
-    m "Я разберусь и с тобой тоже!"
-    img 11337
-    with diss
-    m "Где Стив?! Он в своем кабинете?"
-    img 11338
-    with diss
-    jane "Миссис Бакфетт, Мистера Стива сегодня снова нет..."
-    img 11339
-    with fade
-    m "Этот слизняк что, скрывается от меня?!"
-    m "Может быть это ты предупредила его, Джейн?!"
-    img 11340
-    with diss
-    jane "Нет, Миссис Бакфетт."
-    jane "Я ничего ему не говорила, как Вы и приказали..."
-    img 11341
-    with fade
-    m "Может быть это ты ему сообщила, Тиффани?!"
-    img 11342
-    with diss
-    tiffany "Нет, Мэм. У меня нет личного номера Мистера Стива..."
-    img 11343
-    with fade
-    m "Пойду-ка я проверю, вдруг Вы меня обманываете!"
-    img black_screen
-    with diss
-    sound highheels_short_walk
-    pause 1.0
-    img 11344
-    with diss
-    jane "Миссис Бакфетт, но в кабинет Мистера Стива запрещено заходить в его отсутствие!"
-    img 11345
-    with fade
-    m "Джейн, ты забыла?!"
-    m "Кто здесь Босс?!"
-    m "Стив или Я?"
-    # Джейн смотрит на Тиффани
-    img 11346
-    with diss
-    jane "..."
-    img 11347
-    with diss
-    w
-    img 11348
-    with fade
-    jane "Вы, Миссис Бакфетт..."
-    img 11349
-    with fade
-    m "А ты, Тиффани?!"
-    m "Ты в курсе кто здес Босс?"
-    img 11350
-    with diss
-    jane "Миссис Бакфетт, здесь Босс Вы..."
-    img 11351
-    with diss
-    m "Правильный ответ."
-    m "А теперь, проводите меня в кабинет!"
-    # Заходят в кабинет
-    # Там Стива нет
-
-    music stop
-    img black_screen
-    with diss
-    sound highheels_short_walk
-    pause 3.0
-    music Groove2_85
-    #идут
-    img 11352
-    with fadelong
-    w
-    img 11353
-    with diss
-    m "Этого слизняка здесь нет..."
-    img 11354
-    with diss
-    m "Надо проверить под столом, вдруг он прячется там..."
-    # Смотрит под стол, там никого нет
-    music stop
-    img black_screen
-    with diss
-    sound highheels_short_walk
-    pause 2.0
-    music Groove2_85
-    img 11355
-    with fadelong
-    w
-    img 11356
-    with diss
-    w
-    img 11357
-    with diss
-    mt "Никого нет..."
-
-    # Моника садится на стул Стива
-    music stop
-    img black_screen
-    pause 1.0
-    pause 2.0
-    music Stealth_Groover
-    img 11358
-    with fadelong
-    m "Итак, девочки..."
-    m "Когда будет Стив?"
-    img 11359
-    with diss
-    jane "Миссис Бакфетт..."
-    jane "Мистер Стив должен быть завтра..."
-    img 11360
-    with fade
-    m "Может быть мне подождать его здесь?"
-    img 11361
-    with diss
-    m "Вдруг он появится... СЕГОДНЯ..."
-    img 11362
-    with fade
-    jane "..."
-    img 11363
-    with diss
-    m "А, Тиффани?"
-    img 11364
-    with fade
-    tiffany "Миссис Бакфетт."
-    tiffany "Мистер Стив вряд-ли появится сегодня..."
-    img black_screen
-    with diss
-    pause 1.0
-    img 11365
-    with fadelong
-    w
-    img 11366
-    with diss
-    w
-    sound highheels_short_walk
-    img 11367
-    with diss
-    w
-    # Моника уходит
-    img 11368
-    with diss
-    m "Хорошо"
-    img 11369
-    with diss
-    m "Я приду завтра."
-    img 11370
-    with fade
-    w
-    # повтор ep25_dialogues2_steve1a
-    return
-
-label gallery_11459:
-    img black_screen
-    with diss
-    pause 2.0
-    img 11390
-    music Groove2_85
-    with fadelong
-    m "Итак, Стив!"
-    m "Ответь мне!"
-    img 11391
-    with diss
-    m "Почему ты не перевел деньги на тот адрес?"
-    img 11392
-    with fade
-    steve "Моника... Я..."
-    steve "Я собирался это сделать..."
-    img 11393
-    with diss
-    m "!!!"
-    music stop
-    sound plastinka2
-    img 11394
-    with diss
-    steve "..."
-    music Groove2_85
-    img 11395
-    with fadelong
-    steve "Моника, погоди. Ты ведь теперь снова Босс?"
-    steve "Но какое тогда значение имеют эти $ 5000 для тебя?"
-    img 11396
-    with diss
-    m "Я - Бизнес Леди!"
-    m "Для меня все деньги имеют значение!"
-    img 11397
-    with fade
-    steve "Моника, скажи, так ты вернула все назад?"
-    steve "Эта компания снова принадлежит тебе?"
-    img 11398
-    with diss
-    m "..."
-    img 11399
-    with diss
-    steve "..."
-    img 11400
-    with fade
-    m "Ты прекрасно знаешь что эта компания принадлежит мне!"
-    img 11401
-    with diss
-    steve "..."
-    img 11402
-    with fade
-    steve "Моника, а ты можешь это доказать?"
-# Моника говорит что не собирается ничего доказывать Стиву!
-# И чтобы он перевел деньги немедленно!
-# Стив говорит что Моника ввела его в заблуждение своим внешним видом.
-# Что он действительно подумал что Моника снова Босс и она его этим напугала.
-# Моника отвечает что скоро она будет Боссом и Стиву стоит бояться ее, потому что она сотрет его в порошок!
-# Стив оправдывается что он всего-лишь бизнесмен.
-# Моника говорит чтобы он перевел деньги немедленно.
-# Стив говорит что не может сделать этого, потому что сделка не была закрыта.
-# Моника спрашивает какого черта?! Стив получил что хотел и сделка закрыта.
-# Стив говорит что нет.
-    music Power_Bots_Loop
-    img 11403
-    with fade
-    m "Я не собираюсь тебе ничего доказывать, жалкий слизняк!"
-    m "Переводи деньги, немедленно!"
-    music Groove2_85
-    img 11404
-    with fade
-    steve "Моника, ты ввела меня в заблуждение."
-    steve "Я действительно подумал что ты теперь снова мой Босс."
-    img 11405
-    with diss
-    steve "Ты очень напугала меня!"
-    music Power_Bots_Loop
-    img 11406
-    with fade
-    m "Очень скоро я снова стану твоим Боссом!"
-    m "И тебе стоит бояться меня, потому что я сотру тебя в порошок!"
-    m "За то что ты сделал!"
-    music Groove2_85
-    img 11407
-    with fade
-    steve "За то что я не перевел деньги?"
-    steve "Или за то что я взял в аренду твою..."
-    music Power_Bots_Loop
-    img 11408
-    with diss
-    m "Молчать! Ты прекрасно сам все понимаешь!"
-    music Groove2_85
-    img 11409
-    with fade
-    steve "Но Моника, я всего-лишь бизнесмен!"
-    img 11410
-    with diss
-    m "Переведи деньги немедленно!"
-    img 11411
-    with fade
-    steve "Моника, но я не могу сделать это, потому что сделка не была закрыта."
-    img 11412
-    with diss
-    m "Какого черта, Стив?"
-    m "Ты получил что хотел и сделка закрыта!"
-    img 11413
-    with diss
-    steve "Нет, Моника, она не закрыта..."
-# Моника спрашивает почему это?
-# Стив отвечает что потому что доступ к объекту был прекращен раньше завершения срока аренды.
-# Моника бесится: аренда была предоставлена в полной мере, сделка закрыта.
-# Нет
-# Почему?!
-# Потому что Стив не кончил в объект аренды.
-# Моника бесится: это невозможно! я не собираюсь иметь детей от такого мешка с дерьмом как ты!
-# Стив говорит что у объекта аренды есть еще один вход, вполне безопасный для того чтобы туда кончить.
-# Моника спрашивает у Стива что он имеет ввиду.
-    img 11414
-    with fade
-    m "Почему это, Стив?!"
-    img 11415
-    with diss
-    steve "Потому что доступ к объекту был прекращен раньше завершения срока аренды."
-    img 11416
-    with fade
-    m "Аренда была предоставлена в полной мере, сделка закрыта!"
-    steve "Нет!"
-    img 11417
-    with diss
-    m "Почему?!"
-    img 11418
-    with fade
-    steve "Потому что арендатор не смог кончить в объект аренды."
-    img 11419
-    with diss
-    m "Это невозможно!"
-    m "У владельца объекта аренды нет никакого желания иметь детей от такого мешка с дерьмом как ты!"
-    img 11420
-    with fade
-    steve "У объекта аренды есть еще один вход, вполне безопасный для того, чтобы туда кончить."
-    m "Что ты имеешь ввиду?"
-
-# Стив молча улыбается.
-# Моника догадывается: Ах ты про это?! Негодяй!
-# Это невозможно!
-# У Моники такого никогда не было и, она клянется, не будет никогда!
-# Стив улыбается.
-# Говорит что есть еще один вариант.
-    img 11421
-    with diss
-    steve "..."
-    music Power_Bots_Loop
-    img 11422
-    with fade
-    m "Ах ты про это?! Негодяй!"
-    m "Это невозможно!"
-    m "У меня никогда такого не было и, я клянусь, не будет никогда!"
-    music Groove2_85
-    img 11423
-    with fade
-    steve "..."
-    img 11424
-    with diss
-    steve "Есть еще один вариант..."
-# Моника делает выбор:
-    menu:
-        "Мне не нужны никакие варианты, мерзавец!":
-# Мне не нужны никакие варианты, мерзавец. Если он не заплатит то Моника прибъет его прямо здесь!
-# Стив платит
-            music Power_Bots_Loop
-            img 11425
-            with fade
-            w
-            img 11426
-            with diss
-            m "Мне не нужны никакие варианты, мерзавец!"
-            img 11427
-            with diss
-            m "Если ты не заплатишь, то я прибью тебя прямо здесь!"
-            img 11428
-            with fade
-            steve "Хорошо, Моника!"
-            steve "Я сейчас переведу деньги!"
-            steve "Не надо меня прибивать!"
-            return
-        "Какой вариант?":
-            pass
-# Либо спрашивает. Хорошо, Стив, ты мерзавец и я покончу с тобой, но мне сейчас нужен этот платеж. Какие варианты еще есть?
-# Стив достает член и говорит что у объекта недвижимости есть еще один безопасный способ принять его сперму.
-# Моника спрашивает что еще этот извращенец Стив имеет ввиду? Какой еще способ?
-# Стив отвечает что это ротик Моники. Что она все-равно не закрывает его, так что если она подержит его открытым еще немного,
-# то сможет быстро закрыть эту сделку.
-    music stop
-    img black_screen
-    with diss
-    pause 2.0
-    music Groove2_85
-    img 11429
-    with fadelong
-    m "Хорошо, Стив..."
-    m "Ты мерзавец и я покончу с тобой."
-    img 11430
-    with diss
-    m "Но мне сейчас нужен этот платеж."
-    m "Какой вариант еще есть?"
-
-    # Стив достает член
-    #zip
-    img black_screen
-    with diss
-    sound snd_zip
-    pause 2.0
-    sound Jump1
-    img 11431
-    with fadelong
-    w
-    img 11432
-    with fade
-    steve "У объекта аренды есть еще один безопасный способ принять сперму."
-    music Power_Bots_Loop
-    img 11433
-    with fade
-    m "Стив, извращенец! Что ты имеешь ввиду?"
-    m "Какой еще способ?"
-    music Groove2_85
-    img 11434
-    with diss
-    steve "Это ротик объекта аренды."
-    steve "Объект аренды все-равно не закрывает его."
-    steve "Так что, если ротик побудет открытым еще немного, то сможет быстро закрыть эту сделку."
-
-# Член около лица Моники.
-# Моника отвечает со злобой что сделка касалась только ее....
-# Стив говорит: Да, Моника, скажи это, произнеси это слово.
-# Моника отвечает что не собирается произносить и что то что хочет Стив будет ему стоить в два раза дороже!
-# Стив отвечает что у него сверху есть только $100.
-# Моника говорит что Стив что, издевается над ней?
-# Стив отвечает что нет, она ведь в курсе насчет его и Джейн.
-# Что Моника и так оставит Стива без денег на ланч на целую неделю.
-# Пусть Моника скорее откроет ротик, Стив уже изнемогает.
-    img 11435
-    with diss
-    m "!!!"
-    m "Сделка касалась только моей..."
-    m "Моей..."
-    img 11436
-    with diss
-    steve "Да, Моника! Скажи это!"
-    steve "Произнеси это слово!"
-    img 11439
-    with diss
-    m "Нет!"
-    img 11437
-    with diss
-    m "Я не собираюсь ничего произносить, Стив!"
-    img 11438
-    m "И то что ты хочешь, будет стоить тебе в два раза дороже!"
-    img 11440
-    with diss
-    steve "Моника, у меня сверху есть только $ 100."
-    img 11441
-    with fade
-    w
-    img 11442
-    with fade
-    w
-    img 11443
-    with diss
-    m "Стив, ты что, издеваешься надо мной?!"
-    img 11444
-    with diss
-    steve "Нет, Моника, я не издеваюсь над тобой."
-    img 11445
-    with diss
-    steve "Ты ведь в курсе насчет меня и Джейн..."
-    img 11446
-    with fade
-    steve "Ты и так оставишь меня без денег на ланч на целую неделю!"
-    img 11447
-    with fade
-    steve "Открой скорее свой ротик, я уже изнемогаю!"
-    img 11448
-    with diss
-# Моника делает выбор:
-    menu:
-        "Я не собираюсь заключать никаких новых сделок.":
-
-# Я не собираюсь заключать никаких новых сделок.
-# Если ты не заплатишь сейчас-же, то я убью тебя прямо здесь!
-# Стив платит
-            music Power_Bots_Loop
-            img 11449
-            with fadelong
-            m "Я не собираюсь заключать никаких новых сделок."
-            m "Если ты не заплатишь сейчас-же, то я убью тебя прямо здесь!"
-            img 11450
-            with diss
-            steve "Хорошо, Моника!"
-            steve "Я сейчас переведу деньги!"
-            steve "Не надо меня убивать!"
-            return
-        "Открыть свой ротик.":
-            pass
-
-# Либо Моника молчит и зло смотрит на Стива
-# Стив говорит что ну-же! Моника!
-# Сделай это и через пять минут деньги будут переведены!
-# Моника думает.
-# Стив смотрит.
-# Моника, давай быстрее! Джейн может войти в любой момент!
-# Моника молча открывает рот и зло смотрит.
-# Стив вгоняет в нее член с криком О ДА!!!
-# Как же я мечтал об этом дне!
-# Когда я вгоню свой член в твой ротик!
-# Каждый раз когда ты приходила и кричала на меня, я мечтал об этом дне!
-# Моника зло смотрит.
-# Стив кончает.
-    m "..."
-    img 11451
-    with fade
-    steve "Ну же, Моника!"
-    img 11452
-    with diss
-    steve "Сделай это и через пять минут деньги будут переведены!"
-    img 11453
-    with diss
-    m "..."
-    img 11454
-    with diss
-    steve "..."
-    sound hlup10
-    img 11455
-    with diss
-    steve "Моника, давай быстрее!"
-    img 11456
-    with fade
-    steve "Джейн может войти в любой момент!"
-    img 11457
-    w
-    m "..."
-
-    music stop
-    img 11458
-    with diss
-    steve "Ну же!"
-    sound hlup10
-    img 11459
-    with diss
-    steve "О ДА!!!"
-    music Loved_Up2
-    steve "Как же я мечтал об этом дне!"
-    steve "О дне, когда я вгоню свой член в твой ротик!"
-    img 11460
-    with diss
-    steve "Каждый раз, когда ты приходила и кричала на меня, я мечтал об этом дне!"
-    img 11461
-    with diss
-    m "!!!"
-
-
-    # video
-    music stop
-    music2 Loved_Up2
-    $ renpy.music.set_volume(0.3, 0.0, 'music2')
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
-    scene black
-    image videov_Steve_Monica_Blowjob_1_1 = Movie(play="video/v_Steve_Monica_Blowjob_1_1.mkv", fps=30)
-    show videov_Steve_Monica_Blowjob_1_1
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
-    scene black
-    image videov_Steve_Monica_Blowjob_1_2 = Movie(play="video/v_Steve_Monica_Blowjob_1_2.mkv", fps=30)
-    show videov_Steve_Monica_Blowjob_1_2
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
-    scene black
-    image videov_Steve_Monica_Blowjob_1_3 = Movie(play="video/v_Steve_Monica_Blowjob_1_3.mkv", fps=30)
-    show videov_Steve_Monica_Blowjob_1_3
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
-    scene black
-    image videov_Steve_Monica_Blowjob_1_4 = Movie(play="video/v_Steve_Monica_Blowjob_1_4.mkv", fps=30)
-    show videov_Steve_Monica_Blowjob_1_4
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
-    scene black
-    image videov_Steve_Monica_Blowjob_1_5 = Movie(play="video/v_Steve_Monica_Blowjob_1_5.mkv", fps=30)
-    show videov_Steve_Monica_Blowjob_1_5
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
-    scene black
-    image videov_Steve_Monica_Blowjob_1_6 = Movie(play="video/v_Steve_Monica_Blowjob_1_6.mkv", fps=30)
-    show videov_Steve_Monica_Blowjob_1_6
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
-    scene black
-    image videov_Steve_Monica_Blowjob_1_7 = Movie(play="video/v_Steve_Monica_Blowjob_1_7.mkv", fps=30)
-    show videov_Steve_Monica_Blowjob_1_7
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
-    scene black
-    image videov_Steve_Monica_Blowjob_1_8 = Movie(play="video/v_Steve_Monica_Blowjob_1_8.mkv", fps=30)
-    show videov_Steve_Monica_Blowjob_1_8
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
-    scene black
-    image videov_Steve_Monica_Blowjob_1_9 = Movie(play="video/v_Steve_Monica_Blowjob_1_9.mkv", fps=30)
-    show videov_Steve_Monica_Blowjob_1_9
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
-    scene black
-    image videov_Steve_Monica_Blowjob_1_10 = Movie(play="video/v_Steve_Monica_Blowjob_1_10.mkv", fps=30)
-    show videov_Steve_Monica_Blowjob_1_10
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.5)) + " loop 0.0>Sounds/audio_Steve_Blowjob1.mp3"
-    scene black
-    image videov_Steve_Monica_Blowjob_1_11 = Movie(play="video/v_Steve_Monica_Blowjob_1_11.mkv", fps=30)
-    show videov_Steve_Monica_Blowjob_1_11
-    with fadelong
-    wclean
-    $ renpy.music.set_volume(1.0, 0.0, 'music2')
-
-    stop music
-    music stop
-    music2 stop
-    img black_screen
-    with diss
-    pause 1.0
-    img 11462
-    with fadelong
-    sound bulk1
-    steve "АААААХХХХХХХ!!!"
-    m "!!!"
-    music Groove2_85
-    img 11463
-    with fadelong
-    m "Тьфу!"
-    mt "Мерзость!"
-
-# Моника уходит вытирая рот: только попробуй не перевести деньги, мерзавец!
-    music Power_Bots_Loop
-    img 11464
-    with fadelong
-    m "Только попробуй не перевести деньги, мерзавец!"
-    return
-
-label gallery_11566:
-    # Закрыть сделку со Стивом
-
-# Моника говорит Стиву чтобы встал с ее места и садится туда.
-# Затем говорит что хочет закрыть их сделку.
-# Стив отвечает что это можно сделать прямо сейчас.
-# Моника говорит что ее только беспокоит возможность нежелательной беременности.
-# Стив говорит что с этим нет проблем, у него есть специальная таблетка.
-# Стив кладет таблетку перед Моникой
-# Он всегда ее держит на всякий случай. Улыбается.
-# Моника злится. Я знаю что ты трахаешь всех налево и направо, Стив!
-# Ты мерзавец!
-# Стив отвечает что он не мерзавец, он честный бизнесмен, который заключает хорошие сделки!
-# Моника зло смотрит
-# Стив спрашивает, будет-ли Моника пить таблетку?
-    music stop
-    img black_screen
-    with diss
-    sound highheels_short_walk
-    pause 1.0
-    music Groove2_85
-    img 11495
-    with fadelong
-    m "Встань с моего стула, Стив!"
-    # Моника садится на стул
-    img 11496
-    with fade
-    steve "..."
-    img 11497
-    with diss
-    m "Я хочу закрыть нашу сделку, Стив!"
-    img black_screen
-    with diss
-    pause 1.0
-    img 11498
-    with fadelong
-    w
-    img 11499
-    with fade
-    m "Которую мы заключили у бассейна в моем доме..."
-    img 11500
-    with diss
-    steve "Моника, это можно сделать прямо сейчас."
-    img 11501
-    with fade
-    m "Стив, меня беспокоит возможность нежелательной беременности."
-    img 11502
-    with diss
-    steve "О, Моника! С этим нет проблем!"
-    steve "У меня есть специальная таблетка."
-    # Стив кладет таблетку
-    music stop
-    img black_screen
-    with diss
-    pause 1.0
-    music Groove2_85
-    img 11503
-    with fadelong
-    w
-    img 11504
-    with fade
-    steve "Я всегда держу ее на всякий случай."
-    # Стив улыбается
-    img 11505
-    with diss
-    steve "..."
-    img 11506
-    w
-    img 11507
-    with diss
-    m "!!!"
-    img 11508
-    with fade
-    steve "..."
-    music Power_Bots_Loop
-    img 11509
-    with diss
-    m "Я знаю, что ты трахаешь всех налево и направо, Стив!"
-    m "Ты мерзавец!"
-    music Groove2_85
-    img 11510
-    with fade
-    steve "Моника, я не мерзавец. Я честный бизнесмен."
-    steve "Который заключает хорошие сделки!"
-    music Power_Bots_Loop
-    img 11511
-    with diss
-    m "!!!"
-    img 11512
-    with fade
-    steve "Моника, будешь-ли ты пить таблетку?"
-    img 11513
-    with diss
-    menu:
-        "Я не собираюсь рисковать!":
-# Выбор:
-# Я не собираюсь рисковать!
-# Уходит
-            img 11514
-            with fadelong
-            m "Я не собираюсь рисковать!"
-            steve "Моника, если вдруг ты захочешь заключить еще сделку, то приходи!"
-            steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
-            m "!!!"
-            return
-        "Я выпью эту гребаную таблетку...":
-            pass
-# Я выпью эту гребаную таблетку...
-# Стив отвечает. Хорошо, сейчас я попрошу Джейн принести стакан воды.
-# Ты ведь будешь запивать таблетку?
-# Моника зло смотрит и отвечает: буду...
-# Стив зовет Джейн
-# Джейн заходит и спрашивает что угодно Мистеру Стиву
-# Стив просит Джейн принести стакан воды, у Миссис Бакфетт болит голова и ей надо запить таблетку.
-# Джейн приносит воду и ставит на стол перед Моникой. Говорит: пожалуйста, Миссис Бакфетт.
-# Моника зло смотрит на Джейн
-    music Groove2_85
-    mt "Не могу поверить что я соглашаюсь на это..."
-    img 11515
-    with diss
-    m "Я выпью эту гребаную таблетку..."
-    img 11516
-    with fade
-    steve "Хорошо, Моника."
-    steve "Сейчас я попрошу Джейн принести стакан воды."
-    steve "Ты ведь будешь запивать таблетку?"
-    music Power_Bots_Loop
-    img 11517
-    with diss
-    m "!!!"
-    music Groove2_85
-    img 11518
-    with fade
-    steve "..."
-    img 11519
-    with diss
-    m "Буду..."
-    # Бип телефон
-    music stop
-    img black_screen
-    with diss
-    sound snd_phone_short_beeps
-    img 11519
-    with fade
-    steve "Джейн! Зайди, пожалуйста, сюда!"
-    img black_screen
-    with diss
-    sound highheels_short_walk
-    pause 2.0
-    music Groove2_85
-    img 11520
-    with fadelong
-    jane "..."
-    img 11521
-    with diss
-    jane "Да, Мистер Стив."
-    jane "Что Вам угодно?"
-    img 11522
-    with fade
-    steve "Джейн, принести, пожалуйста, стакан воды."
-    steve "У Миссис Бакфетт болит голова и ей надо запить таблетку."
-    img 11523
-    with diss
-    jane "Хорошо, Мистер Стив, одну минуту."
-
-    music stop
-    img black_screen
-    with Dissolve(2.0)
-    call textonblack(_("Минуту спустя..."))
-    img black_screen
-    with Dissolve(2.0)
-    music Groove2_85
-    sound highheels_short_walk
-    img 11524
-    with fadelong
-
-    # уходит, приходит
-# Джейн приносит воду и ставит на стол перед Моникой. Говорит: пожалуйста, Миссис Бакфетт.
-# Моника зло смотрит на Джейн
-    w
-    img 11525
-    with fade
-    jane "Вот, пожалуйста, Миссис Бакфетт."
-    music Power_Bots_Loop
-    img 11526
-    with diss
-    m "!!!"
-# Джейн уходя подходит к Стиву и спрашивает: все хорошо, милый?
-# Стив отвечает что да, малышка, все хорошо.
-# Закрой, пожалуйста, дверь. Нам с Миссис Бакфетт надо закрыть сложный контракт и он бы не хотел чтобы кто-то мешал.
-# Джейн отвечает: Да, Мистер Стив.
-    music Groove2_85
-    img 11527
-    with fade
-    jane "Все хорошо, Милый?"
-    img 11528
-    with diss
-    steve "Да, малышка, все хорошо."
-    steve "Закрой, пожалуйста, дверь."
-    img 11529
-    with diss
-    steve "Нам с Миссис Бакфетт надо закрыть сложный контракт."
-    steve "И я бы не хотел чтобы кто-то мешал."
-    img 11530
-    with fade
-    jane "Да, Мистер Стив."
-
-
-# Джейн уходит
-# Моника смотрит на стакан с водой
-# Стив говорит Монике что она может выпить таблетку
-# Выбор:
-# Выпить таблетку или уйти
-    sound highheels_short_walk
-    img 11531
-    with fade
-    w
-    music stop
-    img black_screen
-    with diss
-    sound highheels_short_walk
-    pause 2.0
-    music Groove2_85
-    img 11532
-    with fadelong
-    m "..."
-    steve "..."
-    img 11533
-    with diss
-    m "..."
-    img 11534
-    with fade
-    steve "Моника, ты можешь выпить таблетку."
-    img 11535
-    with diss
-    menu:
-        "Выпить таблетку.":
-            pass
-        "Уйти.":
-            music Power_Bots_Loop
-            img 11536
-            with fadelong
-            m "Я не собираюсь рисковать!"
-            steve "Моника, если вдруг ты захочешь заключить еще сделку, то приходи!"
-            steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
-            m "!!!"
-            return
-
-# Если выпить:
-# Моника пьет стакан.
-# Стив говорит Монике: теперь ты можешь встать и задрать юбку. Мне требуется доступ к
-# объекту аренды в соответствии с контрактом
-# Моника зло смотрит:
-# Уйти или задрать юбку
-    music stop
-    img 11537
-    with fade
-    w
-    #глоток
-    sound snd_gulp
-    img 11538
-    with diss
-    w
-    img 11539
-    with diss
-    w
-    sound snd_drinking_water
-    img 11540
-    with diss
-    w
-    sound snd_glass_table
-    img 11541
-    with diss
-    w
-    music Groove2_85
-    img 11542
-    with fadelong
-    steve "Моника, теперь ты можешь встать и задрать платье."
-    img 11543
-    with diss
-    steve "Мне требуется доступ к объекту аренды в соответствии с контрактом."
-    img 11544
-    with fade
-    menu:
-        "Поднять платье.":
-            pass
-        "Уйти.":
-            music Power_Bots_Loop
-            img 11536
-            with fadelong
-            m "Я не собираюсь этого делать!"
-            steve "Моника, если вдруг ты захочешь заключить еще сделку, то приходи!"
-            steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
-            m "!!!"
-            return
-
-# Если задрать юбку:
-# Моника встает и задирает юбку.
-# Там трусики Юлии
-# Стив говорит: какие интересные у тебя трусики
-# В прошлый раз ты была в них-же, либо в прошлый раз ты была в других
-# Моника зло отвечает что это не его дело, пусть быстро закрывает контракт и отсылает деньги!
-# Стив входит в Монику и трахает ее.
-    img 11545
-    with diss
-    w
-    img 11546
-    with diss
-    w
-    img 11547
-    with fade
-    m "!!!"
-    img 11548
-    with diss
-    w
-    sound snd_fabric1
-    img 11549
-    with diss
-    w
-    img 11550
-    with diss
-    w
-    img 11551
-    with diss
-    w
-    img 11552
-    with diss
-    w
-    img 11553
-    with fade
-    steve "О! Моника!"
-    steve "Ты не одеваешь трусики?"
-    img 11554
-    with diss
-    steve "Это похвально!"
-
-#    steve "Какие интересные у тебя трусики..."
-    # если была в них
-#    steve "Не помню, в прошлый раз ты была в них же или была в других..."
-
-    img 11555
-    with fade
-    steve "У тебя нет трусиков под это платье или тебе просто нравится ходить без них?"
-    music Power_Bots_Loop
-    img 11556
-    with diss
-    m "Это не твое дело, Стив!"
-    img 11557
-    with diss
-    m "Быстро закрывай контракт и отсылай деньги!"
-    music Groove2_85
-    img 11558
-    with fade
-    steve "Моника, у тебя слишком длинные ноги!"
-    img 11559
-    with diss
-    steve "Можешь, пожалуйста, присесть пониже?"
-    steve "Мне нудобно вставать на цыпочки, как в прошлый раз, когда я брал в аренду твою..."
-    music Power_Bots_Loop
-    img 11560
-    m "Заткнись, Стив!"
-    img 11561
-    with diss
-    m "ТАК?!"
-    music Groove2_85
-    img 11562
-    with fade
-    steve "Да! Хе-хе!"
-
-
-    music stop
-    # video sex
-    img 11563
-    with diss
-    w
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
-    scene black
-    image videov_Steve_Monica_Sex_4_1 = Movie(play="video/v_Steve_Monica_Sex_4_1.mkv", fps=30)
-    show videov_Steve_Monica_Sex_4_1
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
-    scene black
-    image videov_Steve_Monica_Sex_4_2 = Movie(play="video/v_Steve_Monica_Sex_4_2.mkv", fps=30)
-    show videov_Steve_Monica_Sex_4_2
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
-    scene black
-    image videov_Steve_Monica_Sex_4_3 = Movie(play="video/v_Steve_Monica_Sex_4_3.mkv", fps=30)
-    show videov_Steve_Monica_Sex_4_3
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
-    scene black
-    image videov_Steve_Monica_Sex_4_4 = Movie(play="video/v_Steve_Monica_Sex_4_4.mkv", fps=30)
-    show videov_Steve_Monica_Sex_4_4
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
-    scene black
-    image videov_Steve_Monica_Sex_4_5 = Movie(play="video/v_Steve_Monica_Sex_4_5.mkv", fps=30)
-    show videov_Steve_Monica_Sex_4_5
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
-    scene black
-    image videov_Steve_Monica_Sex_4_6 = Movie(play="video/v_Steve_Monica_Sex_4_6.mkv", fps=30)
-    show videov_Steve_Monica_Sex_4_6
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
-    scene black
-    image videov_Steve_Monica_Sex_4_7 = Movie(play="video/v_Steve_Monica_Sex_4_7.mkv", fps=30)
-    show videov_Steve_Monica_Sex_4_7
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
-    scene black
-    image videov_Steve_Monica_Sex_4_8 = Movie(play="video/v_Steve_Monica_Sex_4_8.mkv", fps=30)
-    show videov_Steve_Monica_Sex_4_8
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
-    scene black
-    image videov_Steve_Monica_Sex_4_9 = Movie(play="video/v_Steve_Monica_Sex_4_9.mkv", fps=30)
-    show videov_Steve_Monica_Sex_4_9
-    with fadelong
-    wclean
-    img black_screen
-    with diss
-    stop music
-    play music "<from " + str((rand(1,5)*1.1666)) + " loop 0.0>Sounds/audio_Steve_Monica_Sex_4.mp3"
-    scene black
-    image videov_Steve_Monica_Sex_4_11 = Movie(play="video/v_Steve_Monica_Sex_4_11.mkv", fps=30)
-    show videov_Steve_Monica_Sex_4_11
-    with fadelong
-    wclean
-
-    stop music
-    music Loved_Up2
-    img 11564
-    with diss
-    w
-    img 11565
-    with diss
-    w
-    img 11566
-    with diss
-    w
-    img 11567
-    with diss
-    w
-    img 11568
-    with diss
-    w
-    img 11569
-    with diss
-    w
-
-
-# Затем кончает.
-    music Loved_Up2
-    img 11570
-    with fade
-    sound bulk1
-    steve "АААААХХХХ!!!"
-# Моника говорит чтобы он скорее высунул его мерзкий отросток из ее тела!
-# Стив говорит погоди, я еще не до конца кончил
-# Кончает снова
-# Моника зло говорит что теперь все?!
-# Стив кончает еще и еще и еще
-# Моника вскакивает и держится за киску, зло ругается на Стива что тот пожалеет о том что сделал!
-
-    img 11571
-    with diss
-    m "Вытаскивай скорее свой мерзкий отросток из моего тела!"
-    img 11572
-    with fade
-    steve "Погоди, я еще не до конца кончил."
-    sound bulk1
-    steve "АААААХХХХ!!!"
-    img 11573
-    with diss
-    m "Ну что, теперь все?!"
-    img 11574
-    with fade
-    sound bulk1
-    steve "АААААХХХХ!!!"
-    img 11575
-    with diss
-    sound bulk1
-    steve "АААААХХХХ!!!"
-    img 11576
-    with diss
-    sound bulk1
-    steve "АААААХХХХ!!!"
-
-    img 11741
-    with fade
-    w
-    img 11742
-    with diss
-    w
-
-    music Power_Bots_Loop
-    img 11577
-    with fadelong
-    m "Мерзавец!"
-    m "Ты пожалеешь о том что ты сделал!!!"
-    img 11578
-    with diss
-    m "Быстро переводи деньги!"
-    music Groove2_85
-    img 11579
-    with fade
-    steve "Да, Моника, конечно!"
-    steve "Наш контракт закрыт!"
-
-# Стив перечисляет деньги
-    img 11580
-    with fadelong
-    steve "Моника, если вдруг ты захочешь заключить еще сделку, то приходи!"
-    steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
-    m "!!!"
-    return
-
-label gallery_11629:
-# Входит Джейн
-# Сцена 1
-# Джейн входит и говорит Стиву что ему пришел факс.
-# Стив отвечает что положи, пожалуйста, его на стол.
-# Джейн спрашивает все-ли хорошо? Миссис Бакфетт уже ушла?
-    img black_screen
-    with diss
-    sound snd_door_open1
-    pause 2.0
-    music Groove2_85
-    img 11625
-    with fadelong
-    jane "Стив, тебе пришел факс."
-    img 11626
-    with diss
-    steve "Хорошо, Джейн."
-    steve "Положи, пожалуйста, его на полку."
-    #blowjob
-    music audio_Monica_Steve_Blowjob_IMG_1
-    img 11627
-    with diss
-    w
-    #
-    music Groove2_85
-    img 11628
-    with fade
-    w
-    img 11629
-    with diss
-    w
-    jane "Все-ли хорошо, Милый?"
-    music audio_Monica_Steve_Blowjob_IMG_1
-    img 11630
-    with diss
-    jane "Миссис Бакфетт уже ушла?"
-# Стив отвечает что она ушла Джейн просто не заметила ее.
-# Стив знает что Джейн все время отлучается от рабочего места.
-# И, если бы не ее хорошая попка, то он бы давно уволил ее за это.
-# Джейн отвечает, что дело не только в этом и чтобы Стив не забывал.
-# Джейн уходит
-    music Groove2_85
-    img 11631
-    with fade
-    steve "Да, Джейн."
-    steve "Она уже ушла. Просто ты не заметила этого."
-
-    music audio_Monica_Steve_Blowjob_IMG_1
-    #blowjob
-    img 11632
-    with fade
-    w
-    #
-    music Groove2_85
-    img 11633
-    with diss
-    steve "Я знаю, что ты все время отлучаешься от рабочего места."
-    steve "И, если бы не твоя хорошая попка, то я давно бы уволил тебя за это."
-    img 11634
-    with diss
-    jane "Дело не только в моей попке, Стив."
-    jane "Не забывай этого!"
-    music stop
-    img black_screen
-    with diss
-    sound snd_door_close1
-    pause 2.0
-    call gallery_20385_1() # Стив кончает
-    call gallery_20385_2() # Моника уходит
-    return
-
-label gallery_11664:
-# Входит Тиффани
-# Сцена 1
-# Тиффани заходит и говорит Стиву что принесла отчеты
-# Стив говорит чтобы она положила их на стол
-# Джейн кладет сексуально и уходит
-    img black_screen
-    with diss
-    sound snd_door_open1
-    pause 2.0
-    music Groove2_85
-    img 11662
-    with fadelong
-    tiffany "Мистер Стив, можно войти?"
-    img 11663
-    with diss
-    steve "Да, Тиффани, заходи!"
-    #blowjob
-    music audio_Monica_Steve_Blowjob_IMG_1
-    img 11627
-    with diss
-    w
-    #
-    sound highheels_short_walk
-    music Groove2_85
-    img 11664
-    with fadelong
-    tiffany "Мистер Стив! Я принесла Вам отчеты."
-    img 11665
-    with diss
-    steve "Да, Тиффани, можешь положить их на стол."
-    sound snd_folder_drop
-    img 11666
-    with diss
-    tiffany "..."
-
-    music stop
-    img black_screen
-    with diss
-    sound snd_door_close1
-    pause 2.0
-    call gallery_20385_1() # Стив кончает
-    call gallery_20385_2() # Моника уходит
-    return
-
-label gallery_11645:
-# Сцена 2
-# Джейн входит и спрашивает у Стива не забыл-ли он про свадьбу.
-# Стив отвечает что не забыл.
-# Джейн спрашивает когда будет дата свадьбы?
-# Стив отвечает что это будет очень скоро, Стив работает над этим!
-# Джейн отвечает: хорошо, милый и целует его в щечку
-    img black_screen
-    with diss
-    sound snd_door_open1
-    pause 2.0
-    music Groove2_85
-    img 11635
-    with fadelong
-    w
-    img 11637
-    with diss
-    jane "Милый, ты не забыл про нашу свадьбу?"
-    #blowjob
-    music audio_Monica_Steve_Blowjob_IMG_1
-    img 11627
-    with diss
-    w
-    #
-    music Groove2_85
-    img 11636
-    with fade
-    steve "Нет, милая, я не забыл."
-    img 11638
-    with diss
-    steve "Я все помню!"
-    img 11640
-    with fade
-    jane "Ты уже решил насчет даты, Милый?"
-
-    #blowjob
-    music audio_Monica_Steve_Blowjob_IMG_1
-    img 11641
-    with fade
-    w
-    #
-
-    music Groove2_85
-    img 11642
-    with fade
-    steve "Еще нет, Милая, но это будет очень скоро."
-    img 11639
-    with diss
-    steve "Я работаю над этим!"
-    img 11643
-    with fade
-    jane "Хорошо, милый."
-    music stop
-    img 11644
-    with diss
-    w
-    sound kiss2
-    img 11645
-    with diss
-    jane "Чмок!"
-    #уходит
-    music Groove2_85
-    sound highheels_short_walk
-    img 11646
-    with fadelong
-    w
-    music stop
-    img black_screen
-    with diss
-    sound snd_door_close1
-    pause 2.0
-    call gallery_20385_1() # Стив кончает
-    call gallery_20385_2() # Моника уходит
-    return
-
-label gallery_11669:
-# Сцена 2
-# Тиффани заходит и говорит Стиву что принесла отчеты
-# Стив просит Тиффани подойти поближе.
-# Тиффани подходит и спрашивает что будет угодно ее Боссу?
-# Стив говорит Тиффани что она такая красивая.
-# Что Стив очень хочет оценить ее красоту.
-# Стив кладет руку на ее ногу пониже попы
-    img black_screen
-    with diss
-    sound snd_door_open1
-    pause 2.0
-    music Groove2_85
-    img 11662
-    with fadelong
-    tiffany "Мистер Стив, можно войти?"
-    img 11663
-    with diss
-    steve "Да, Тиффани, заходи!"
-
-    music audio_Monica_Steve_Blowjob_IMG_1
-    #blowjob
-    img 11632
-    with fade
-    w
-
-    sound highheels_short_walk
-    music Groove2_85
-    img 11664
-    with fadelong
-    tiffany "Мистер Стив! Я принесла Вам отчеты."
-    sound snd_folder_drop
-    img 11667
-    with diss
-    steve "Тиффани, можешь подойти поближе?"
-    sound highheels_short_walk
-    img 11668
-    with fadelong
-    tiffany "Да, Босс, что Вам будет угодно?"
-    music Loved_Up
-    music2 audio_Monica_Steve_Blowjob_IMG_1
-    img 11669
-    with fade
-    steve "Тиффани, малышка."
-    steve "Ты такая красивая..."
-    music2 stop
-    img 11670
-    with diss
-    steve "Я так хочу оценить твою красоту!"
-# Стив кладет руку на ее ногу пониже попы
-    sound Jump2
-    img 11671
-    with diss
-    w
-
-# Тиффани спрашивает помнит-ли Мистер Стив ее условие?
-# Стив отвечает что ее условие трудно выполнимо, но ведь это не помешает ему насладиться ее красотой?
-# Тиффани жестко отвечает чтобы Стив убрал руку, иначе она заявит о харрасменте.
-# Стив убирает руку.
-    music Groove2_85
-    img 11672
-    with fade
-    tiffany "Помнит-ли Мистер Стив мое условие?"
-    img 11673
-    with diss
-    steve "Тиффани, твое условие трудно выполнимо."
-    img 11674
-    with diss
-    steve "Но ведь это не помешает мне насладиться твоей красотой?"
-    img 11675
-    with fade
-    tiffany "Уберите руку, Мистер Стив!"
-    img 11676
-    with diss
-    tiffany "Иначе я заявлю о харрасменте!"
-    img 11677
-    with diss
-    w
-    music stop
-    img 11678
-    with diss
-    w
-
-# У Стива падает член.
-    #звук вниз
-    sound snd_down1
-    img 11679
-    with diss
-    w
-# Тиффани уходит
-    music Groove2_85
-    img 11680
-    with fade
-    w
-    sound highheels_short_walk
-    img 11681
-    with fadelong
-    tiffany "..."
-    sound highheels_short_walk
-    img 11682
-    with diss
-    w
-    music stop
-    img black_screen
-    with diss
-    sound snd_door_close1
-    pause 2.0
-# Моника зло говорит из-под стола что у Стива упал член.
-# И что теперь? Из-за этой дешевой шлюхи ей придется снова его поднимать?
-# Стив отвечает что сложности бывают, но, Моника, что поделать, это твоя работа!
-# Моника зло продолжает сосать член.
-    music Groove2_85
-    img 11683
-    with fadelong
-    w
-    music Power_Bots_Loop
-    img 11684
-    with diss
-    m "У тебя упал член, Стив!"
-    img 11685
-    with diss
-    steve "..."
-    img 11686
-    with fade
-    m "И что теперь?"
-    m "Из-за этой дешевой шлюхи мне придется снова его поднимать?"
-    music Groove2_85
-    img 11687
-    with diss
-    steve "Моника, во время выполнения любого контракта бывают сложности."
-    steve "Но что поделать? Это твоя работа."
-    music Power_Bots_Loop
-    img 11688
-    with fade
-    m "!!!"
-    music Groove2_85
-    img 11689
-    with diss
-    steve "Моника, ты можешь продолжать. Контракт еще не закрыт."
-    img 11690
-    with fade
-    m "!!!"
-    #blowjob
-    music audio_Monica_Steve_Blowjob_IMG_1
-    img 11691
-    with fade
-    w
-    stop music fadeout 1.0
-    call textonblack(_("СПУСТЯ 15 МИНУТ..."))
-    img black_screen
-    with Dissolve(1)
-# Моника зло продолжает сосать член.
-    call gallery_20385_1() # Стив кончает
-    call gallery_20385_2() # Моника уходит
-    return
-
-label gallery_11659:
-# Сцена 3
-# Джейн входит и говорит что соскучилась по любимому.
-# А Стив? Стив отвечает что тоже соскучился.
-# Джейн подходит ближе и спрашивает, любит-ли ее Стив?
-# Стив отвечает что очень любит малышку Джейн.
-# Джейн спрашивает: правда? Ты больше никого не любишь?
-# У тебя больше никого нет кроме меня?
-# Стив отвечает что любит только Джейн и она у него единственная.
-    img black_screen
-    with diss
-    sound snd_door_open1
-    pause 2.0
-    music Groove2_85
-    img 11635
-    with fadelong
-    w
-    sound highheels_short_walk
-    img 11647
-    with fade
-    jane "Милый, Я соскучилась по тебе."
-
-    #blowjob
-    music audio_Monica_Steve_Blowjob_IMG_1
-    img 11648
-    with diss
-    w
-    img 11649
-    with diss
-    w
-    #
-    music Groove2_85
-    img 11650
-    with diss
-    steve "..."
-    jane "А ты?"
-    music Loved_Up
-    img 11651
-    with diss
-    steve "..."
-    music Groove2_85
-    img 11652
-    with diss
-    jane "А, Стив?! Ты меня слышишь?"
-    img 11653
-    with fade
-    steve "А?! Да, Джейн, я тоже соскучился по тебе."
-
-    # Джейн подходит ближе
-    sound highheels_short_walk
-    img 11654
-    with fade
-    w
-    img 11655
-    with fade
-    w
-    img 11656
-    with diss
-    jane "Ты меня любишь, Стив?"
-
-    img 11657
-    with diss
-    steve "Я очень люблю малышку Джейн!"
-    img 11658
-    with fade
-    jane "Правда?"
-    jane "Ты больше никого не любишь?"
-    jane "У тебя больше никого нет кроме меня?"
-    img 11659
-    with diss
-    jane "Я соблюдаю твой дурацкий дресс-код."
-    jane "И я жду свадьбы, Стив!"
-    img 11660
-    with fade
-    steve "Джейн, я люблю только тебя!"
-#    #blowjob
-#    music audio_Monica_Steve_Blowjob_IMG_1
-#    img 11632
-#    with fade
-#    w
-#    music Groove2_85
-#    img 11660
-#    with fade
-    steve "И ты у меня единственная!"
-    music stop
-    sound kiss2
-    img 11661
-    with diss
-    jane "Чмок!"
-    #уходит
-    music Groove2_85
-    img 11646
-    with fadelong
-    w
-    music stop
-    img black_screen
-    with diss
-    sound snd_door_close1
-    pause 2.0
-    call gallery_20385_1() # Стив кончает
-    call gallery_20385_2() # Моника уходит
-    return
-
-label gallery_11699:
-# Сцена 3
-# Тиффани заходит и говорит Стиву что принесла отчеты
-# Стив просит Тиффани подойти поближе
-# Тиффани подходит и говорит что все уже сказала.
-# Ее ответ нет и она догадывается что Стив хочет сейчас сделать.
-# Стив подносит руку к Тиффани
-    img black_screen
-    with diss
-    sound snd_door_open1
-    pause 2.0
-    music Groove2_85
-    img 11662
-    with fadelong
-    tiffany "Мистер Стив, можно войти?"
-    img 11663
-    with diss
-    steve "Да, Тиффани, заходи!"
-    sound highheels_short_walk
-    music Groove2_85
-    img 11664
-    with fadelong
-    tiffany "Мистер Стив! Я принесла Вам отчеты."
-    sound snd_folder_drop
-    img 11667
-    with diss
-    steve "Тиффани, можешь подойти поближе?"
-# Тиффани подходит и говорит что все уже сказала.
-
-    img black_screen
-    with diss
-    sound highheels_short_walk
-    pause 1.0
-    img 11692
-    with fadelong
-    tiffany "Мистер Стив, я Вам все уже сказала."
-    tiffany "Я догадываюсь что Вы сейчас хотите сделать."
-    img 11693
-    with diss
-    tiffany "Мой ответ НЕТ!"
-
-# Стив подносит руку к Тиффани
-    sound Jump1
-    img 11694
-    with diss
-    w
-    img 11695
-    with fade
-# Тиффани говорит: только попробуйте, Мистер Стив...
-# Стив говорит, что Тиффани так красива, так прекрасна
-# Что Стив настолько сильно хочет ее, если бы она только знала...
-# Что он.. он... Аааххх! Стив хватает Тиффани за попу под трусиками и кончает Монике в рот
-    tiffany "Только попробуйте, Мистер Стив..."
-    music Loved_Up
-    img 11697
-    with diss
-    steve "О, Тиффани!"
-    img 11696
-    with diss
-    steve "Ты так красива!"
-    steve "Так прекрасна!"
-    img 11698
-    with diss
-    steve "Если бы только знала как я хочу тебя!"
-    music Loved_Up2
-    sound Jump2
-    img 11699
-    with diss
-    steve "Если бы ты только, Аааах!!"
-# Что он.. он... Аааххх! Стив хватает Тиффани за попу под трусиками и кончает Монике в рот
-    img 11700
-    with diss
-    tiffany "!!!"
-    img 11701
-    with diss
-    steve "Аааах!"
-    img 11702
-    with diss
-    steve "Аааах!"
-    #звук кончания
-    img 11703
-    with diss
-    sound bulk1
-    steve "АААААААААААРГХХХХХ!!!"
-    img 11704
-    with diss
-    w
-    img 11705
-    with diss
-    sound bulk1
-    steve "АААААААААААРГХХХХХ!!!"
-    m "!!!"
-
-# Тиффани смеется.
-    music Groove2_85
-    img 11706
-    with fadelong
-    tiffany "Ха!"
-# Вы там что, кончили, Мистер Стив?
-# Хи-хи-хи. Вы пополнили мою смешную коллекцию мужчин, которые кончают себе в штаны при моем виде.
-# Моника зло смотрит из-под низа
-# Хорошего рабочего дня, Мистер Стив...
-# Уходит
-    tiffany "Вы там что, кончили, Мистер Стив?"
-    img 11707
-    with diss
-    steve "..."
-    sound highheels_short_walk
-    img 11708
-    with fadelong
-    tiffany "Хи-хи-хи."
-    tiffany "Вы дополнили мою смешную коллекцию мужчин, которые при виде меня кончают в штаны."
-    img 11709
-    with diss
-    w
-    img 11710
-    with diss
-    m "!!!"
-    sound highheels_short_walk
-    img 11711
-    with fadelong
-    tiffany "Хорошего рабочего дня, Мистер Стив!"
-
-    music stop
-    img black_screen
-    with diss
-    sound snd_door_close1
-    pause 2.0
-#    call gallery_20385_1() # Стив кончает
-    call gallery_20385_2() # Моника уходит
-    return
-
-label gallery_12633:
-# Приходит к Джейн.
-# Джейн с улыбкой смотрит на Монику.
-# Моника говорит чтобы Джейн встала, когда перед ней стоит ее Босс!
-# Джейн встает.
-    music stop
-    img black_screen
-    with diss
-    pause 1.5
-    sound highheels_short_walk
-    img 12578
-    music Sneaky_Snitch
-    with fadelong
-    jane "Миссис Бакфетт?"
-    music Pyro_Flow
-    img 12579
-    with fade
-    m "!!!"
-    img 12580
-    jane "..."
-    img 12581
-    with diss
-    m "Джейн!"
-    m "Встань, когда перед тобой стоит твой Босс!"
-    img 12582
-    with fade
-    w
-# Моника надменно спрашивает что Джейн хочет узнать у Моники по поводу ее великолепной фигуры?
-# Джейн спрашивает как Монике удалось достичь такой превосходной формы?
-# Моника отвечает что все дело в правильном питании и регулярном занятии фитнессом.
-# Джейн спрашивает, можно-ли ей рассмотреть Монику поближе.
-# Моника надменно отвечает что не видит в этои необходимости, но так уж и быть.
-# Джейн спрашивает у Моники чем она питается в данный момент? Какая сейчас лучшая диета?
-    music Stealth_Groover
-    img 12583
-    with fadelong
-    m "Итак..."
-    m "Что ты хочешь узнать относительно моей великолепной фигуры?"
-    img 12584
-    jane "Миссис Бакфетт, скажите, как Вам удалось достичь такой превосходной формы?"
-    img 12585
-    with diss
-    m "Все дело в правильном питании и регулярном занятии фитнесом."
-    img 12586
-    jane "Миссис Бакфетт, можно-ли мне рассмотреть Вашу фигуру поближе?"
-    img 12587
-    with fade
-    m "Я не вижу в этом особой необходимости..."
-    img 12588
-    with diss
-    jane "..."
-    img 12589
-    with fade
-    m "Но, так уж и быть!"
-    #Джейн подходит и осматривает Монику
-    music stop
-    img black_screen
-    with diss
-    pause 1.0
-    sound highheels_short_walk
-    music Sneaky_Snitch
-    img 12590
-    with fade
-    w
-    img 12591
-    with diss
-    sound highheels_short_walk
-    w
-    img 12592
-    with fade
-    jane "Миссис Бакфетт, скажите, чем Вы питаетесь в данный момент?"
-    jane "Какая сейчас лучшая диета?"
-
-# Моника сконфужена...
-# Чем я питаюсь? Моя диета?
-# Да уж! Я боюсь что эта толстая корова не сможет выжить на моей сегодняшней диете...
-    music Hidden_Agenda
-    img 12593
-    with fade
-    mt "Чем я питаюсь?"
-    mt "Моя диета?"
-    mt "Да уж!"
-    mt "Я боюсь что эта толстая корова не сможет выжить на моей сегодняшней диете..."
-
-# Моника отвечает что за ее рационом следит известный доктор, который скурпулезно составляет необходимые вещества.
-# В общем, Джейн. Ты себе такого позволить не сможешь. Если есть другие вопросы, то задавай скорее и закончим.
-    music Stealth_Groover
-    img 12594
-    with fade
-    m "За моим рационом следит известный доктор!"
-    m "Который скурпулезно составляет список блюд, содержащих необходимые вещества и витамины."
-    img 12595
-    with diss
-    m "В общем, Джейн."
-    img 12596
-    jane "..."
-    img 12597
-    m "Ты себе такого позволить не сможешь."
-    m "Если есть другие вопросы, то задавай скорее и закончим с этим."
-
-# Джейн обсматривает Монику.
-    music stop
-    img black_screen
-    with diss
-    pause 1.0
-    music Sneaky_Snitch
-    img 12598
-    with fadelong
-    w
-    img 12599
-    with diss
-    w
-    img 12600
-    with diss
-    jane "..."
-    img 12601
-    with diss
-    m "..."
-
-# Миссик Бакфетт, Вы говорили что-то по поводу фитнесса.
-# Да, Джейн. Фитнесс и йога - неотъемлемая часть построения изящной фигуры...
-    img 12602
-    with fadelong
-    jane "Миссис Бакфетт."
-    jane "Вы говорили по поводу фитнеса..."
-    img 12603
-    m "Да, Джейн."
-    m "Фитнес и йога - неотъемлемая часть построения изящной фигуры..."
-
-# Джейн спрашивает в какой фитнесс-центр сейчас ходит Моника и может-ли она помочь ей тоже устроиться туда на занятия.
-# Моника отвечает что с ней занимается личный тренер, который внешне соответствует здоровому образу жизни.
-# А также знает толк в упражнениях для достижения нужной цели.
-    img 12604
-    with fade
-    jane "Миссис Бакфетт."
-    jane "А в какой фитнес-центр Вы сейчас ходите заниматься?"
-    img 12605
-    jane "Могли-бы Вы мне помочь тоже устроиться туда на занятия?"
-    music Stealth_Groover
-    img 12606
-    with fade
-    m "Со мной занимается личный тренер, который даже внешне соответствует здоровому образу жизни."
-    m "А также знает толк в упражнениях для достижения нужной цели!"
-
-# Однако, к этому тренеру многие стараются попасть и у тебя, Джейн, нет никаких шансов на это.
-    img 12607
-    m "Однако, к этому тренеру многие стараются попасть."
-    m "И у тебя, Джейн, нет никаких шансов на это!"
-
-# Джейн спрашивает, можно-ли попасть в ее фитнесс-центр к другому тренеру?
-# Моника отвечает что ее центр - только для элитных девушек, имеющих положение в обществе
-# и туда можно попасть только по приглашению.
-# Моника, естественно, не собирается это пришлашение Джейн давать!
-    img 12608
-    jane "Можно-ли попасть в Ваш фитнес-центр к другому тренеру?"
-    img 12609
-    with fade
-    m "Фитнес-центр, куда я хожу - только для элитных девушек, имеющих положение в обществе!"
-    m "И туда можно попасть только по приглашению."
-    img 12610
-    jane "..."
-    img 12611
-    with diss
-    m "И, разумеется, я не собираюсь давать это приглашение для тебя, Джейн!"
-
-# Моника думает про себя, что ей не хватало еще в фитнесс центре Джейн или этой проститутки Тиффани.
-# Учитывая как Бетти обращается с Моникой там, не будет ничего хорошего если эти дуры станут свидетелями этого.
-    music Hidden_Agenda
-    img 12612
-    with fade
-    mt "Еще мне не хватало в фитнес-центре Джейн или этой проститутки..."
-    mt "Как ее там..."
-    mt "Тиффани..."
-    img 12613
-    with diss
-    mt "!!!"
-    mt "Учитывая, как Бетти обращается со мной там, не будет ничего хорошего если эти дуры станут свидетелями этого..."
-
-# Джейн обиженно смотрит.
-# Джейн говорит: Миссис Бакфетт.
-    music Sneaky_Snitch
-    img 12614
-    with fade
-    jane "..."
-    jane "Миссис Бакфетт..."
-
-# Моника прерывает. Джейн! Ты еще не закончила со своими дурацкими вопросами?!
-# Я оказываю безмерную услугу Стиву тем, что согласилась ответить на несколько вопросов для его будущей супруги.
-# Но ты начинаешь меня утомлять, Джейн!
-# Давай заканчивай!
-# Моника думает (я хочу побыстрее пообедать в дорогом ресторане!)
-    music Power_Bots_Loop
-    img 12615
-    with fade
-    m "Джейн! Ты еще не закончила со своими дурацкими вопросами?!"
-    m "Я оказываю безмерную услугу Стиву тем, что согласилась ответить на несколько вопросов для его будущей супруги."
-    img 12616
-    m "Но ты начинаешь меня утомлять, Джейн!"
-    m "Давай заканчивай!"
-    img 12617
-    with diss
-    mt "Мне надоела эта Джейн!"
-    mt "Я хочу побыстрее пообедать в дорогом ресторане!"
-
-# Джейн говорит: Миссис Бакфетт. Мистер Стив сказал что Вы покажете мне свою грудь...
-# Моника шипит. Джейн, ты не перегибаешь палку?!
-# Джейн отвечает, Миссис Бакфетт, простите! Просто так сказал Мистер Стив!...
-# Я не хотела как-то оскорбить Вас!
-    music stop
-    img black_screen
-    with diss
-    pause 1.0
-    music Sneaky_Snitch
-    img 12618
-    with fadelong
-    jane "Миссис Бакфетт..."
-    jane "Мистер Стив сказал, что Вы покажете мне свою грудь..."
-    music Power_Bots_Loop
-    img 12619
-    with diss
-    mt "!!!"
-    img 12620
-    m "Джейн! Ты не перегибаешь палку?!"
-    img 12621
-    with fade
-    jane "Миссис Бакфетт, простите! Просто так сказал Мистер Стив!..."
-    jane "Я не хотела как-то оскорбить Вас!"
-
-# выбор Моники:
-# показать грудь
-# не показывать грудь (нарушение контракта)
-    img 12622
-    with fade
-    menu:
-        "Показать грудь":
-            pass
-        "Не показывать грудь (нарушение контракта)":
-# Моника не показывает грудь:
-# Моника говорит что не собирается ничего показывать Джейн. Достаточно и так!
-            img 12623
-            with fade
-            m "Я не собираюсь ничего показывать, Джейн!"
-            m "Достаточно и так!"
-
-# После этого, Моника возвращается к Стиву закрыть контракт.
-# Моника говорит Стиву что сделала как они договорились и она ждет тикет на ланч в ресторане.
-            music stop
-            img black_screen
-            with diss
-            sound highheels_run2
-            pause 1.5
-            music Hidden_Agenda
-            img 12645
-            with fadelong
-            m "Стив!"
-            m "Я достаточно рассказала твоей невесте, как мы договорились."
-            img 12646
-            m "Я жду сертификат на ланч в ресторане."
-
-# Если Моника не показала грудь Джейн, то Стив заявляет что Моника нарушила контракт и не показала грудь.
-# За это полагается неустойка, в виде одного бесплатного контракта на массаж его члена.
-# Моника злится и говорит чтобы Стив пошел к черту со своими контрактами!
-            music Groove2_85
-            img 12647
-            with fade
-            steve "Моника, но ты не показала свою грудь Джейн!"
-            steve "Ты нарушила контракт!"
-            img 12648
-            with diss
-            steve "За это полагается неустойка в виде бесплатного контракта на массаж моего члена, хе-хе!"
-            music Power_Bots_Loop
-            img 12649
-            with fadelong
-            m "Иди ты к черту со своими контрактами!!!"
-            return
-
-# Моника говорит что Стив умолял Монику сделать это.
-# К тому же, Монике есть чем гордится и она, так уж и быть, сделает это.
-# Моника показывает грудь Джейн.
-    img 12624
-    with fade
-    mt "!!!"
-    img 12625
-    with diss
-    jane "..."
-    music Hidden_Agenda
-    img 12626
-    with fade
-    m "Ладно..."
-    m "Стив умолял меня сделать это..."
-    img 12627
-    jane "..."
-    img 12628
-    m "К тому же, мне есть чем гордиться."
-    m "И я, так уж и быть, сделаю это..."
-
-# Моника показывает грудь.
-    label gallery_12638:
-    music stop
-    img black_screen
-    with diss
-    sound snd_fabric1
-    pause 1.0
-    music Loved_Up
-    img 12629
-    with fadelong
-    w
-    img 12630
-    with diss
-    w
-    img 12631
-    with diss
-    w
-# Джейн спрашивает, а они настоящие? можно-ли потрогать?
-# выбор Моники: Можно потрогать или не дать трогать грудь
-    img 12632
-    jane "Миссис Бакфетт, а они настоящие?"
-    jane "Можно потрогать?"
-    img 12633
-    with diss
-    menu:
-        "Дать потрогать свою грудь.":
-# Если дает потрогать, то:
-# Моника шипит: Можно, только быстро, Джейн!
-# Джейн трогает грудь
-# Моника закрывается и говорит что довольно.
-            img 12634
-            with fade
-            m "Можно, только быстро, Джейн!"
-            music Loved_Up2
-            img 12636
-            with diss
-            w
-            img 12635
-            with diss
-            w
-            img 12637
-            with diss
-            mt "Как же мне противно!"
-            img 12638
-            with diss
-            jane "..."
-            music Power_Bots_Loop
-            img 12639
-            with fade
-            m "Довольно!"
-
-        "Не дать потрогать свою грудь.":
-
-# Моника говорит что нельзя потрогать грудь:
-# Моника шипит и говорит Джейн что только попробуй!
-# Джейн ошеломленно отвечает что просто хотела проверить, настоящие они или нет?
-# Моника отвечает что они настоящие, как и сама Моника, в отличие от Джейн, которая является лишь тенью Стива.
-            music Power_Bots_Loop
-            img 12640
-            with fade
-            m "Только попробуй!"
-            img 12641
-            jane "Простите, Миссис Бакфетт."
-            jane "Я только хотела проверить, настоящие они или нет..."
-            img 12642
-            with diss
-            m "Они настоящие, как и я сама!"
-            m "В отличие от тебя Джейн!"
-            img 12643
-            m "Ты являешься лишь тенью Стива!"
-# Джейн обиженно смотрит.
-            img 12644
-            jane "!!!"
-
-
-# Если Моника показала грудь Джейн, то Стив дает тикет на ланч в ресторане (предмет)
-    music stop
-    img black_screen
-    with diss
-    sound highheels_run2
-    pause 1.5
-    music Groove2_85
-    img 12650
-    with fadelong
-    m "Стив!"
-    m "Я достаточно рассказала твоей невесте, как мы договорились."
-    img 12651
-    m "Я жду сертификат на ланч в ресторане."
-
-    # Стив кладет сертивикат
-    sound snd_folder_drop
-    img 12652
-    with fade
-    steve "Моника!"
-    steve "Ты жестокая женщина!"
-    sound snd_take_paper
-    img 12653
-    with diss
-    steve "Сначала ты оставила меня без денег, а теперь оставляешь и без еды!"
-    # Моника уходит
-    music Power_Bots_Loop
-    img 12654
-    with fadelong
-    m "Не забывай при каких обстоятельствах это происходило!"
-    m "Ты еще ответишь за все, что сделал!"
     return
