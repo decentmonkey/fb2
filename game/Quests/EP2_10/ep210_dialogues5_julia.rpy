@@ -420,6 +420,7 @@ label ep210_dialogues5_julia_3:
     cafe_barista "..."
     img 23140
     cafe_barista "Ваша вилка, Мэм..."
+    cafe_barista "И, кстати, если Вам интересно узнать, то..."
     m "!!!"
     img 23141
     m "Попрошу Вас не беспокоить нас!!!"
