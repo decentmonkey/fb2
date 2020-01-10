@@ -161,7 +161,7 @@ label gallery_ep22_photoshoot1:
                 call corruption_required(PS1_monica_shot1_corruption_required)
                 jump gallery_ep22_photoshoot1_pose3
             w
-            $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot1_progress")
+            # $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot1_progress")
             call photoshoot_flash_count()
 ####            $ PS1_shoots_array.append(photoImage)
             w
@@ -230,7 +230,7 @@ label gallery_ep22_photoshoot1:
                 call corruption_required(PS1_monica_shot2_corruption_required)
                 jump gallery_ep22_photoshoot1_pose4
             w
-            $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot2_progress")
+            # $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot2_progress")
             call photoshoot_flash_count()
 #####            $ PS1_shoots_array.append(photoImage)
             w
@@ -276,7 +276,7 @@ label gallery_ep22_photoshoot1:
                 call corruption_required(PS1_monica_shot3_corruption_required)
                 jump gallery_ep22_photoshoot1_pose5
             w
-            $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot3_progress")
+            # $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot3_progress")
             call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot1_pose5
@@ -331,7 +331,7 @@ label gallery_ep22_photoshoot1:
                 call corruption_required(PS1_monica_shot4_corruption_required)
                 jump gallery_ep22_photoshoot1_pose6
             w
-            $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot4_progress")
+            # $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot4_progress")
             call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot1_pose6
@@ -376,7 +376,7 @@ label gallery_ep22_photoshoot1:
                 call corruption_required(PS1_monica_shot5_corruption_required)
                 jump gallery_ep22_photoshoot1_pose7
             w
-            $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot5_progress")
+            # $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot5_progress")
             call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot1_pose7
@@ -447,7 +447,7 @@ label gallery_ep22_photoshoot1:
                 call corruption_required(PS1_monica_shot6_corruption_required)
                 jump gallery_ep22_photoshoot1_pose8
             w
-            $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot6_progress")
+            # $ add_char_progress("AlexPhotograph", PS1_AlexProgressEachCorruptionShot, "PS1_monica_shot6_progress")
             call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot1_pose8
@@ -500,7 +500,7 @@ label gallery_ep22_photoshoot1_casting:
 
 
     m "Привет, Биф. Я пришла..."
-#######    $ add_char_progress("Biff", PS1_BiffProgressCasting, "PS1_BiffProgressCasting_day" + str(day))
+#######    # $ add_char_progress("Biff", PS1_BiffProgressCasting, "PS1_BiffProgressCasting_day" + str(day))
     biff "О! Цыпочка пришла к папочке!"
     menu:
         "Притвориться цыпочкой...":
@@ -512,7 +512,7 @@ label gallery_ep22_photoshoot1_casting:
             img 8440
             biff "Кто сегодня цыпочка?"
             m "Сегодня цыпочка - это Моника Бакфетт с благотворительного вечера..."
-######            $ add_char_progress("Biff", PS1_BiffProgressCastingChick, "PS1_BiffProgressCastingChick_day" + str(day))
+######            # $ add_char_progress("Biff", PS1_BiffProgressCastingChick, "PS1_BiffProgressCastingChick_day" + str(day))
             biff "Что Моника Бакфетт хочет показать папочке?"
             $ chickMode = True
             $ castingCloth = 1
@@ -799,7 +799,7 @@ label gallery_ep22_photoshoot5:
             m "..."
             m "Ну, ладно..."
             mt "Черт, мне надо узнать правду про Дика!"
-            $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot1_progress")
+            # $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot1_progress")
 
             jump gallery_ep22_photoshoot5_pose5
         show screen photoshoot_camera_icon(PS5_shoots_array)
@@ -870,7 +870,7 @@ label gallery_ep22_photoshoot5:
                 "И это не обсуждается!"
                 call corruption_required(PS5_monica_pose5_corruption_required)
                 return False
-            $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot2_progress")
+            # $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot2_progress")
             jump gallery_ep22_photoshoot5_pose6
         show screen photoshoot_camera_icon(PS5_shoots_array)
         show screen photoshoot_no_next()
@@ -1006,7 +1006,7 @@ label gallery_ep22_photoshoot5:
                 "И это не обсуждается!"
                 return False
             music Loved_Up
-            $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot2_progress")
+            # $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot2_progress")
             jump gallery_ep22_photoshoot5_pose8
         show screen photoshoot_camera_icon(PS5_shoots_array)
         show screen photoshoot_no_next()
@@ -1195,7 +1195,7 @@ label gallery_ep22_photoshoot5:
             $ arrowSide = True
             $ arrowDown = True
             hide screen photoshoot_no_next
-            $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot3_progress")
+            # $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot3_progress")
             return True
         show screen photoshoot_camera_icon(PS5_shoots_array)
         show screen photoshoot_no_next()
@@ -1601,7 +1601,7 @@ label gallery_ep27_photoshoot_suit8_pose1:
         alex_photograph "Из этого ракурса ничего не видно."
         w
         call photoshoot_flash_count()
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot1_progress")
+        # $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot1_progress")
         w
         jump expression photoPoseLabel
 
@@ -1670,7 +1670,7 @@ label gallery_ep27_photoshoot_suit8_pose2:
         alex_photograph "Из этого ракурса ничего не видно."
         w
         call photoshoot_flash_count()
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot2_progress")
+        # $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot2_progress")
         w
         jump expression photoPoseLabel
 
@@ -1732,7 +1732,7 @@ label gallery_ep27_photoshoot_suit8_pose3:
         alex_photograph "Из этого ракурса ничего не видно."
         w
         call photoshoot_flash_count()
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot3_progress")
+        # $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot3_progress")
         w
         jump expression photoPoseLabel
     if result == "down":
@@ -1810,7 +1810,7 @@ label gallery_ep27_photoshoot_suit8_pose4:
         alex_photograph "Я фотографирую издалека!"
         w
         call photoshoot_flash_count()
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot4_progress")
+        # $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot4_progress")
         w
         jump expression photoPoseLabel
     if result == "down":
@@ -1830,7 +1830,7 @@ label gallery_ep27_photoshoot_suit8_pose4:
         alex_photograph "Да, Миссис Бакфетт! Уверяю Вас!"
         w
         call photoshoot_flash_count()
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot5_progress")
+        # $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot5_progress")
         w
         jump expression photoPoseLabel
 
@@ -1907,7 +1907,7 @@ label gallery_ep27_photoshoot_suit8_pose5:
         alex_photograph "Украшение все скрывает!"
         w
         call photoshoot_flash_count()
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot6_progress")
+        # $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot6_progress")
         w
         jump expression photoPoseLabel
     if result == "down":
@@ -1925,7 +1925,7 @@ label gallery_ep27_photoshoot_suit8_pose5:
         alex_photograph "Больше ничего не попадает в кадр!"
         w
         call photoshoot_flash_count()
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot7_progress")
+        # $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot7_progress")
         w
         jump expression photoPoseLabel
 
@@ -2175,7 +2175,7 @@ label gallery_ep27_photoshoot_suit8_pose8:
         w
         call photoshoot_flash_count()
         w
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot8_progress")
+        # $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot8_progress")
         jump expression photoPoseLabel
     if result == "down":
         #down
@@ -2644,7 +2644,7 @@ label gallery_monica_office_photostudio_alex_dialogue2:
     img black_screen
     with Dissolve(1.0)
     #фотосессия Моники обычная
-    $ add_char_progress("AlexPhotograph", photoshot1AlexProgressAmount, "photoshot1")
+    # $ add_char_progress("AlexPhotograph", photoshot1AlexProgressAmount, "photoshot1")
 
     img 6588
     call photoshop_flash()
@@ -2795,7 +2795,7 @@ label gallery_monica_office_photostudio_alex_dialogue2:
     label gallery_local1:
         menu:
             "Продолжить делать кадры. (corruption)" if corruption >= monicaBiffWorkPhotoShot1PervertCorruptionRequired:
-                $ add_char_progress("AlexPhotograph", photoshot1AlexProgressPervertAmount, "photoshot1_corruption")
+                # $ add_char_progress("AlexPhotograph", photoshot1AlexProgressPervertAmount, "photoshot1_corruption")
                 img 6621
                 with fade
                 call photoshop_flash()
@@ -3150,7 +3150,7 @@ label gallery_ep22_photoshoot2:
                 m "Эй! Хватит брать свои правильные ракурсы!"
                 call corruption_required(PS2_monica_shot1_corruption_required)
                 jump gallery_ep22_photoshoot2_pose2
-            $ add_char_progress("AlexPhotograph", PS2_AlexProgressEachCorruptionShot, "PS2_monica_shot1_progress")
+            # $ add_char_progress("AlexPhotograph", PS2_AlexProgressEachCorruptionShot, "PS2_monica_shot1_progress")
             w
             call photoshoot_flash_count()
             w
@@ -3223,7 +3223,7 @@ label gallery_ep22_photoshoot2:
                 m "Эй! Хватит брать свои правильные ракурсы!"
                 call corruption_required(PS2_monica_shot2_corruption_required)
                 jump gallery_ep22_photoshoot2_pose3
-            $ add_char_progress("AlexPhotograph", PS2_AlexProgressEachCorruptionShot, "PS2_monica_shot2_progress")
+            # $ add_char_progress("AlexPhotograph", PS2_AlexProgressEachCorruptionShot, "PS2_monica_shot2_progress")
             w
             call photoshoot_flash_count()
             w
@@ -3304,7 +3304,7 @@ label gallery_ep22_photoshoot2:
             m "Алекс, не вздумай подвинуть камеру ни на градус!"
             alex_photograph "Хорошо, Мэм!"
             w
-            $ add_char_progress("AlexPhotograph", PS2_AlexProgressEachCorruptionShot, "PS2_monica_shot3_progress")
+            # $ add_char_progress("AlexPhotograph", PS2_AlexProgressEachCorruptionShot, "PS2_monica_shot3_progress")
             call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot2_pose4
@@ -3373,7 +3373,7 @@ label gallery_ep22_photoshoot2:
                 jump gallery_ep22_photoshoot2_pose5
             m "Алекс, не вздумай подвинуть камеру ни на градус!"
             w
-            $ add_char_progress("AlexPhotograph", PS2_AlexProgressEachCorruptionShot, "PS2_monica_shot4_progress")
+            # $ add_char_progress("AlexPhotograph", PS2_AlexProgressEachCorruptionShot, "PS2_monica_shot4_progress")
             call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot2_pose5
@@ -3461,7 +3461,7 @@ label gallery_ep22_photoshoot2:
                 jump gallery_ep22_photoshoot2_pose5
             m "Алекс, не вздумай подвинуть камеру ни на градус!"
             w
-            $ add_char_progress("AlexPhotograph", PS2_AlexProgressEachCorruptionShot, "PS2_monica_shot5_progress")
+            # $ add_char_progress("AlexPhotograph", PS2_AlexProgressEachCorruptionShot, "PS2_monica_shot5_progress")
             call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot2_pose6
@@ -3533,7 +3533,7 @@ label gallery_ep22_photoshoot2:
                 jump gallery_ep22_photoshoot2_pose7
             m "Алекс, не вздумай подвинуть камеру ни на градус!"
             w
-            $ add_char_progress("AlexPhotograph", PS2_AlexProgressEachCorruptionShot, "PS2_monica_shot6_progress")
+            # $ add_char_progress("AlexPhotograph", PS2_AlexProgressEachCorruptionShot, "PS2_monica_shot6_progress")
             call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot2_pose7
@@ -3570,7 +3570,7 @@ label gallery_ep22_photoshoot2:
             "Удали его немедленно!"
             alex_photograph "Мэм! Не переживайте!"
             "Оно получилось в затемнении и там ничего не видно!"
-            $ add_char_progress("AlexPhotograph", PS2_AlexProgressEachCorruptionShot, "PS2_monica_shot7_progress")
+            # $ add_char_progress("AlexPhotograph", PS2_AlexProgressEachCorruptionShot, "PS2_monica_shot7_progress")
             jump gallery_ep22_photoshoot2_pose7
 
     return
@@ -3826,7 +3826,7 @@ label gallery_ep22_photoshoot3:
                 call corruption_required(PS3_monica_shot1_corruption_required)
                 jump gallery_ep22_photoshoot3_pose2
             w
-            $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot1_progress")
+            # $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot1_progress")
             call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot3_pose2
@@ -3841,7 +3841,7 @@ label gallery_ep22_photoshoot3:
                 call corruption_required(PS3_monica_shot2_corruption_required)
                 jump gallery_ep22_photoshoot3_pose2
             w
-            $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot2_progress")
+            # $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot2_progress")
             call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot3_pose2
@@ -3968,7 +3968,7 @@ label gallery_ep22_photoshoot3:
                 call corruption_required(PS3_monica_shot3_corruption_required)
                 jump gallery_ep22_photoshoot3_pose4
             w
-            $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot3_progress")
+            # $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot3_progress")
             call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot3_pose4
@@ -3983,7 +3983,7 @@ label gallery_ep22_photoshoot3:
                 call corruption_required(PS3_monica_shot4_corruption_required)
                 jump gallery_ep22_photoshoot3_pose4
             w
-            $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot4_progress")
+            # $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot4_progress")
             call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot3_pose4
@@ -4057,7 +4057,7 @@ label gallery_ep22_photoshoot3:
                 call corruption_required(PS3_monica_shot5_corruption_required)
                 jump gallery_ep22_photoshoot3_pose5
             w
-            $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot5_progress")
+            # $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot5_progress")
             call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot3_pose5
@@ -4201,7 +4201,7 @@ label gallery_ep22_photoshoot3:
             w
             call photoshop_flash()
             w
-            $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot6_progress")
+            # $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot6_progress")
             call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot3_pose6
@@ -4226,7 +4226,7 @@ label gallery_ep22_photoshoot3:
                 call corruption_required(PS3_monica_shot7_corruption_required)
                 jump gallery_ep22_photoshoot3_pose5
             w
-            $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot7_progress")
+            # $ add_char_progress("AlexPhotograph", PS3_AlexProgressEachCorruptionShot, "PS3_monica_shot7_progress")
             call photoshoot_flash_count()
             w
             jump gallery_ep22_photoshoot3_pose6
