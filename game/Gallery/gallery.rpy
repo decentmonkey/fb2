@@ -4,6 +4,8 @@ label process_gallery(gallery_label):
     with diss
     pause 0.5
     call expression gallery_label
+    hide screen photoshoot_camera_icon
+    hide screen photoshoot
     call refresh_scene_fade_long()
     return
 
