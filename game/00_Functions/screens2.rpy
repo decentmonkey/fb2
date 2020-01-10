@@ -340,10 +340,20 @@ screen achievements_screen():
                     $ posX = i%cellsInRow * cellSizeX + rowOffset
                     $ posY = int(i/cellsInRow) * cellSizeY
                     if get_achievement(cellsList[i][0]) == True:
-                        add "images/Achievements/ach_" + cellsList[i][0] + ".jpg":
-                            pos(posX, posY + curY)
-                        add "gui/gallery_frame" + res.suffix + ".png":
-                            pos(posX-gui.resolution.gallery.frame.offset, posY-gui.resolution.gallery.frame.offset + curY)
+                        if len(cellsList[i]) >= 3 and cellsList[i][2] != False:
+                            add "images/Achievements/ach_" + cellsList[i][0] + ".jpg":
+                                pos(posX, posY + curY)
+                            imagebutton:
+                                idle "gui/gallery_frame_play" + res.suffix + ".png"
+                                hover "gui/gallery_frame_play_hover" + res.suffix + ".png"
+                                xpos posX-gui.resolution.gallery.frame.offset
+                                ypos posY-gui.resolution.gallery.frame.offset + curY
+                                action [
+                                    Call("process_gallery", cellsList[i][2])
+                                ]
+                        else:
+                            add "gui/gallery_frame" + res.suffix + ".png":
+                                pos(posX-gui.resolution.gallery.frame.offset, posY-gui.resolution.gallery.frame.offset + curY)
                     else:
                         add "images/Achievements/ach_" + cellsList[i][0] + "_disabled.jpg":
                             pos(posX, posY + curY)

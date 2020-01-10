@@ -1,3 +1,13 @@
+label process_gallery(gallery_label):
+    music stop
+    img black_screen
+    with diss
+    pause 0.5
+    call expression gallery_label
+    call refresh_scene_fade_long()
+    return
+
+
 ############ Betty 1############
 
 label gallery_7293:
