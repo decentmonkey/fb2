@@ -1,3 +1,9 @@
+default monicaPhillipHotel1 = False  # Моника торговалась с Филиппом из-за 300 баксов
+default monicaPhillipHotel2 = False  # Моника согласилась пойти с Филиппом в туалет
+default monicaPhillipHotel3 = False  # Моника занималась сексом с Филиппом в туалете
+default monicaPhillipHotelKick = False # Моника ударила Филиппа
+
+
 # Моника приходит в ресторан на ужин
 # ресторан отеля ЛеГранд
 label ep210_dialogues2_escort_start_Phillip_1:
@@ -122,6 +128,7 @@ label ep210_dialogues2_escort_start_Phillip_1:
             # Моника зло на него смотрит, тот мерзко улыбается и уходит
             return False
         "А почему 300?!":
+            $ monicaPhillipHotel1 = True # Моника торговалась с Филиппом из-за 300 баксов
             pass
 
     # Моника возмущенно
@@ -225,6 +232,7 @@ label ep210_dialogues2_escort_start_Phillip_1:
             # Моника зло на него смотрит, тот мерзко улыбается и уходит
             return False
         "Согласиться на предложение Филиппа.":
+            $ monicaPhillipHotel2 = True # Моника согласилась пойти с Филиппом в туалет
             pass
     # Моника смотрит на него пристально
     music Groove2_85
@@ -468,8 +476,10 @@ label ep210_dialogues2_escort_start_Phillip_2:
             m "Да пошел ты, придурок!"
             m "!!!"
             # Моника зло на него смотрит и уходит
+            $ monicaPhillipHotelKick = True # Моника ударила Филиппа
             return False
         "Раздвинуть ноги.":
+            $ monicaPhillipHotel3 = True # Моника занималась сексом с Филиппом в туалете
             pass
     music Pyro_Flow
     # Моника нагибается и раздвигает ноги
@@ -805,34 +815,48 @@ label ep210_dialogues2_escort_start_Phillip_13a: #На улице
 # в один из визитов Моники, после того, как она оказалась на улице
 label ep210_dialogues2_escort_start_Phillip_13:
     # к ней выходит шлюха номер 1
+    music Groove2_85
     img 23167
+    with fadelong
     whore_number_1 "Шлюха номер 2, подожди!"
     img 23168
+    with fade
     m "???" # смотрит на нее удивленно
     img 23169
+    with diss
     whore_number_1 "Слушай, я зарабатываю 200 долларов у него."
     whore_number_1 "Хочешь, я дам тебе 50 долларов?"
     img 23170
+    with fade
     m "50 долларов?"
     m "За что?"
     img 23171
+    with diss
     whore_number_1 "Ты мне поможешь удовлетворить Филиппа."
+    music Pyro_Flow
     img 23172
+    with fade
     m "Что? За 50 долларов?!"
+    music Groove2_85
     img 23173
+    with diss
     whore_number_1 "Да. 50 баксов тебе, остальные 150 - мои."
     img 23174
+    with diss
     m "..."
     menu:
         "Отказаться.":
             # Моника зло смотрит на нее
+            music Pyro_Flow
             img 23175
+            with fade
             mt "Он платит этой шлюхе 200 долларов!"
             mt "А мне - какие-то жалкие 100!"
             mt "Мне! Самой красивой женщине этого города!!!"
             mt "!!!"
             # высокомерно говорит шлюхе номер 1
             img 23176
+            with diss
             m "Неужели ты думала, что я соглашусь на такое?!"
             m "Конечно, нет!!!"
             mt "Да еще и за 50 долларов!"
@@ -883,7 +907,7 @@ label ep210_dialogues2_escort_start_Phillip_15:
             m "Нет. Я..."
             m "Я не буду этого делать!"
             m "Я не могу!"
-            snd highheels_short_walk
+            sound highheels_short_walk
             img 16389
             with diss
             m "!!!"
@@ -1214,9 +1238,19 @@ label ep210_dialogues2_escort_start_Phillip_16:
     with fade
     mt "Ненавижу этого мерзавца!"
     mt "!!!"
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    sound chpok6
+    pause 1.0
+    music Loved_Up2
     img 23177
+    with fadelong
     w
     img 23178
+    with fade
     w
     # подходит к нему и нерешительно выполняет, сев к нему на колени, лицом к нему
     # тот, откинувшись на диван, самодовольно ухмыляется
