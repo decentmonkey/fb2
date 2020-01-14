@@ -1,3 +1,11 @@
+#v0.10
+define monicaPhilipHotelSexCorruption = 250 # Моника соглашается заняться сексом с Филиппом
+define monica_philip_visits_swallowed_corruption = 5 # Дается за глотание спермы
+define monica_philip_ask_money1_corruption = 2 # Дается за то что просит еще денег
+define monicaPhilipVisitBlowjobCorruption = 10 # За минет
+define monicaPhilipVisitSexCorruption = 10 # За секс
+
+
 #v0.9 pub
 define monicaForgivenessDancingAgreeCorruption = 250 # Моника соглашается танцевать, чтобы отработать деньги (из меню)
 define monicaClaireOilingVest = 280 # Моника соглашается, чтобы Клэр намазала ее маслом

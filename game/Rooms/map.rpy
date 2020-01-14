@@ -173,6 +173,9 @@ label map_environment:
     if obj_name == "Teleport_College":
         call process_drive_teleport("College", "street_college") from _call_process_drive_teleport_15
         return
+    if obj_name == "Teleport_PhilipHome":
+        call process_drive_teleport("PhilipHome", "street_philiphome")
+        return
 
     m "drive!"
     return

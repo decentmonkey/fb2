@@ -328,7 +328,7 @@ label ep26_dialogues4_restaurant3:
     mt "Интересно, почему та девушка так смотрит на меня?"
 
     call ep210_quests_escort_eat_process()
-    if _return == False
+    if _return == False:
         return True
 
 # Моника говорит официантке. Я закончила. Было невкусно!
@@ -500,7 +500,7 @@ label ep26_dialogues4_restaurant4:
     mt "Интересно, почему та девушка так смотрит на меня?"
 
     call ep210_quests_escort_eat_process()
-    if _return == False
+    if _return == False:
         return True
 
 # Моника говорит официантке. Я закончила. Было очень вкусно, спасибо!

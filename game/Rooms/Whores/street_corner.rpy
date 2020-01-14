@@ -29,6 +29,10 @@ label street_corner_init:
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
 
+label street_corner_init2:
+    $ add_object_to_scene("Teleport_JuliaHome", {"type":3, "text" : _("ДОМ ЮЛИИ"), "rarrow" : "arrow_down_2", "base":"Street_Whores_Place_Car_Stop_Teleport_JuliaHome", "click" : "street_corner_teleport", "xpos" : 1713, "ypos" : 937, "zorder":15, "teleport":True, "high_sprite_hover":True})
+    return
+
 label street_corner_teleport:
     if obj_name == "Teleport_Street1":
         if cloth_type == "Nude":

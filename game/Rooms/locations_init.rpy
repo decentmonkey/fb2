@@ -188,3 +188,12 @@ label locations_init_laundry_wash_machine:
 label locations_init_basement_bedroom_table_opened:
     $ add_location("basement_bedroom_table_opened", caption=_("BASEMENT"), label="basement_bedroom_table_opened", init_label="basement_bedroom_table_opened_init", parent="basement_laundry")
     return
+
+
+label locations_init_julia_street:
+    $ add_location("street_juliahome", caption=_("ДОМ ЮЛИИ"), label="street_juliahome", init_label="street_juliahome_init", parent="Street_Corner")
+    return
+
+label locations_init_philip_home:
+    $ add_location("street_philiphome", caption=_("ДОМ ФИЛИППА"), label="street_philiphome", init_label="street_philiphome_init", parent="World")
+    return

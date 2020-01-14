@@ -1,5 +1,7 @@
 default richHotelReceptionMonicaSuffix = 1
 default richHotelReceptionReceptionSuffix = 1
+default richHotelReceptionPhilipSuffix = 1
+default richHotelReceptionHotelStaffSuffix = 1
 
 default richHotelReceptionSkipMusicOnce = False
 
@@ -35,6 +37,11 @@ label rich_hotel_reception_init:
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
+
+label rich_hotel_reception_init2:
+    $ add_object_to_scene("Philip", {"type" : 2, "base" : "Rich_Hotel_Reception_Philip[richHotelReceptionPhilipSuffix]", "click" : "rich_hotel_reception_environment", "actions" : "l", "zorder":2, "active":False}, scene="rich_hotel_reception")
+    $ add_object_to_scene("HotelStaff", {"type" : 2, "base" : "Rich_Hotel_Reception_HotelStaff[richHotelReceptionHotelStaffSuffix]", "click" : "rich_hotel_reception_environment", "actions" : "l", "zorder":1, "active":False}, scene="rich_hotel_reception")
+    return
 
 label rich_hotel_reception_teleport:
     if obj_name == "Teleport_Street_Rich_Hotel":
