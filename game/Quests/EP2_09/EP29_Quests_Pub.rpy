@@ -11,9 +11,9 @@ default ep29_quests_joe_catched_monica_claire = False
 default ep29_quests_monica_gave_money_forgivenes_last_day = 0
 label ep29_quests_pub1_dance_agree:
     # Моника согласилась отрабатывать танцами (из меню)
-    call dialogue_5_dance_strip_1() # Моника мнется
+    call dialogue_5_dance_strip_1() from _call_dialogue_5_dance_strip_1 # Моника мнется
     if _return == False:
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_212
         return
 
     $ monica_strip_forgiveness_money_left = 500
@@ -30,12 +30,12 @@ label ep29_quests_pub1_dance_agree:
     $ questLog(57, True) #Мне нужно отработать долг $500, выступая на сцене в пабе.
     $ ep29_quests_pub_forgiveness_dancing_quest_in_progress = True
     $ monicaStartedStripDanceFlag = True
-    call pub_ini2() # добавляем телепорт в гримерную комнату
+    call pub_ini2() from _call_pub_ini2 # добавляем телепорт в гримерную комнату
     $ set_active("Teleport_Pub_MakeupRoom", True, scene="pub")
-    call locations_init_pub_stage() # инициализируем локации гримерки и у сцены
-    call characters_pub_init2()
-    call pub_dance_movegirls_to_makeuproom()
-    call refresh_scene_fade()
+    call locations_init_pub_stage() from _call_locations_init_pub_stage # инициализируем локации гримерки и у сцены
+    call characters_pub_init2() from _call_characters_pub_init2
+    call pub_dance_movegirls_to_makeuproom() from _call_pub_dance_movegirls_to_makeuproom
+    call refresh_scene_fade() from _call_refresh_scene_fade_213
     return
 
 
@@ -48,7 +48,7 @@ label ep29_quests_pub1_dance_exit_pub:
     $ remove_objective("talk_claire")
     $ remove_objective("go_to_makeuproom")
     $ set_active("Teleport_Pub_MakeupRoom", False, scene="pub")
-    call pub_dance_movegirls_to_stage()
+    call pub_dance_movegirls_to_stage() from _call_pub_dance_movegirls_to_stage
     return
 
 
@@ -83,7 +83,7 @@ label ep29_quests_pub1_day1_molly:
         return
     $ remove_hook()
     $ remove_objective("go_to_makeuproom")
-    call dialogue_5_dance_strip_2a()
+    call dialogue_5_dance_strip_2a() from _call_dialogue_5_dance_strip_2a
     $ add_objective("ask_ashley_about_cloth", _("Спросить у Эшли костюм для выступления."), c_blue, 100)
     $ questLog(58,True)
 
@@ -91,7 +91,7 @@ label ep29_quests_pub1_day1_molly:
     $ add_hook("Teleport_Hostel_Street", "dialogue_5_dance_strip_4nb", scene="pub", label="monica_dance_block2")
     $ move_object("Bartender_Waitress", "empty")
 
-    call change_scene("pub", "Fade_long")
+    call change_scene("pub", "Fade_long") from _call_change_scene_445
     return False
 
 label ep29_quests_pub1_day1_joe:
@@ -99,12 +99,12 @@ label ep29_quests_pub1_day1_joe:
         return
     $ remove_hook()
     $ remove_objective("ask_ashley_about_cloth")
-    call dialogue_5_dance_strip_3()
+    call dialogue_5_dance_strip_3() from _call_dialogue_5_dance_strip_3
     $ add_objective("talk_claire", _("Поговорить в пабе с другой стриптизершей."), c_green, 100)
     $ add_hook("Bartender", "dialogue_5_dance_strip_4nc", scene="pub", label="evening_time_temp")
     $ add_hook("change_time_day", "ep29_quests_pub1_day2_init", scene="global")
     $ remove_hook(label="monica_dance_block2")
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_214
     return False
 
 label ep29_quests_pub1_day2_init:
@@ -122,21 +122,21 @@ label ep29_quests_pub1_day2_init:
 label ep29_quests_pub1_day2_ashley:
     if act=="l":
         return
-    call dialogue_5_dance_strip_6()
+    call dialogue_5_dance_strip_6() from _call_dialogue_5_dance_strip_6
     if _return == -1:
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_215
         return False
     if _return == 1:
         $ ep29_quests_pub_forgiveness_dancing_quest_in_progress = False
         $ ep29_quests_pub_forgiveness_dancing_stage = 0
-        call ep27_quests_pub_work7_tips_punishment_forgive()
+        call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive_8
         $ remove_hook(quest="monica_dance_forgiveness")
         $ remove_objective("talk_claire")
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_216
         return False
     if _return == 0:
         $ remove_hook(label="monica_dance_forgiveness_day2")
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_217
         return False
     $ add_objective("go_to_makeuproom", _("Идти в гримерку, чтобы подготовиться к выступлению на сцене."), c_orange, 110)
 
@@ -145,31 +145,31 @@ label ep29_quests_pub1_day2_ashley:
     $ add_hook("Bartender_Waitress", "dialogue_5_dance_strip_4na", scene="pub", label="monica_dance_block", quest="monica_dance_forgiveness")
     $ questLog(57, True)
     $ set_active("Teleport_Pub_MakeupRoom", True, scene="pub")
-    call pub_dance_movegirls_to_makeuproom()
-    call refresh_scene_fade()
+    call pub_dance_movegirls_to_makeuproom() from _call_pub_dance_movegirls_to_makeuproom_1
+    call refresh_scene_fade() from _call_refresh_scene_fade_218
     return False
 
 label ep29_quests_pub1_day2_ashley2: # Эшли встречает Монику, если та ушла и не стала танцевать
     if act=="l":
         return
-    call dialogue_5_dance_strip_7()
+    call dialogue_5_dance_strip_7() from _call_dialogue_5_dance_strip_7
     if _return == 1:
         $ ep29_quests_pub_forgiveness_dancing_quest_in_progress = False
         $ ep29_quests_pub_forgiveness_dancing_stage = 0
-        call ep27_quests_pub_work7_tips_punishment_forgive()
+        call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive_9
         $ remove_hook(quest="monica_dance_forgiveness")
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_219
         return False
     if _return == 0:
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_220
         return False
     $ add_objective("go_to_makeuproom", _("Идти в гримерку, чтобы подготовиться к выступлению на сцене."), c_orange, 110)
     $ add_hook("Bartender", "dialogue_5_dance_strip_4na", scene="pub", label="monica_dance_block", quest="monica_dance_forgiveness")
     $ add_hook("Bartender_Waitress", "dialogue_5_dance_strip_4na", scene="pub", label="monica_dance_block", quest="monica_dance_forgiveness")
     $ questLog(57, True)
     $ set_active("Teleport_Pub_MakeupRoom", True, scene="pub")
-    call pub_dance_movegirls_to_makeuproom()
-    call refresh_scene_fade()
+    call pub_dance_movegirls_to_makeuproom() from _call_pub_dance_movegirls_to_makeuproom_2
+    call refresh_scene_fade() from _call_refresh_scene_fade_221
     return False
 
 label ep29_quests_pub1_day2_claire1: # первый разговорс Клэр
@@ -178,7 +178,7 @@ label ep29_quests_pub1_day2_claire1: # первый разговорс Клэр
     $ remove_hook()
     $ char_info["Pub_StripteaseGirl1"]["name"] = _("Молли")
     $ char_info["Pub_StripteaseGirl2"]["name"] = _("Клэр")
-    call dialogue_5_dance_strip_8()
+    call dialogue_5_dance_strip_8() from _call_dialogue_5_dance_strip_8
 
     $ ep29_quests_pub_monica_knows_claire = True
     $ ep29_quests_pub_monica_knows_molly = True
@@ -199,19 +199,19 @@ label ep29_quests_pub1_day2_claire1: # первый разговорс Клэр
     $ cloth = "StripOutfit1"
     $ cloth_type = "StripOutfit"
     $ questLog(59, True)
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_222
     return False
 
 label ep29_quests_pub1_day2_joe:
     if act=="l":
         if obj_name == "Bartender":
-            call dialogue_5_dance_strip_9a()
+            call dialogue_5_dance_strip_9a() from _call_dialogue_5_dance_strip_9a
             return False
         return
     $ remove_hook(label="monica_dance_joe_catch1")
-    call dialogue_5_dance_strip_9()
+    call dialogue_5_dance_strip_9() from _call_dialogue_5_dance_strip_9
     $ move_object("Bartender", "pub")
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_223
     return False
 
 label ep29_quests_pub1_day2_ashley3_init:
@@ -222,18 +222,18 @@ label ep29_quests_pub1_day2_ashley3_init:
     $ add_hook("Stage", "dialogue_5_dance_strip_4m", scene="pub_stage1", label="monica_dance_block", quest="monica_dance_forgiveness")
     $ add_hook("Teleport_Pub", "ep29_quests_pub1_day2_ashley3", scene="pub_makeuproom", label="monica_dance_block", quest="monica_dance_forgiveness")
     $ pub_makeuproom_monica_suffix = 2
-    call pub_dance_remove_stage_visitors()
+    call pub_dance_remove_stage_visitors() from _call_pub_dance_remove_stage_visitors
     $ remove_hook(label="monica_dance_block_stage")
     music stop
     img black_screen
     with diss
     pause 1.5
-    call change_scene("pub_makeuproom")
+    call change_scene("pub_makeuproom") from _call_change_scene_446
     return False
 label ep29_quests_pub1_day2_ashley3:
     if cloth_type != "StripOutfit":
         $ remove_hook()
-        call dialogue_5_dance_strip_12()
+        call dialogue_5_dance_strip_12() from _call_dialogue_5_dance_strip_12
         $ add_hook("Bartender", "dialogue_5_dance_strip_4m", scene="pub", label=["evening_time_temp"], quest="monica_dance_forgiveness")
         $ add_hook("Bartender_Waitress", "dialogue_5_dance_strip_4m", scene="pub", label=["evening_time_temp"], quest="monica_dance_forgiveness")
         $ set_active("Teleport_Pub_MakeupRoom", False, scene="pub")
@@ -242,7 +242,7 @@ label ep29_quests_pub1_day2_ashley3:
     return
 
 label ep29_quests_pub1_day2_teleport_stage:
-    call change_scene("pub_stage1", "Fade_long")
+    call change_scene("pub_stage1", "Fade_long") from _call_change_scene_447
     return False
 
 label ep29_quests_pub1_day3_init:
@@ -257,20 +257,20 @@ label ep29_quests_pub1_day3_molly:
     if act=="l":
         return
     $ remove_hook(label="monica_dance_forgiveness_dialogue_molly1")
-    call dialogue_5_dance_strip_14a()
+    call dialogue_5_dance_strip_14a() from _call_dialogue_5_dance_strip_14a
     $ remove_objective("go_to_makeuproom")
     $ add_objective("go_dance", _("Выйти на сцену паба и танцевать."), c_orange, 110)
     $ add_hook("monica_pole_dance_end", "ep29_quests_pub1_day3_dance_end", scene="global", label="monica_pole_dance_end", quest="monica_dance_forgiveness")
     $ add_hook("Teleport_Pub", "ep29_quests_pub1_day2_ashley4", scene="pub_makeuproom", label="monica_dance_forgiveness_ashley_debt", quest="monica_dance_forgiveness")
     $ pub_makeuproom_monica_suffix = 2
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_224
     return False
 
 label ep29_quests_pub1_day3_dance_end:
     $ remove_hook()
     $ add_hook("enter_scene", "dialogue_5_dance_strip_15", scene="pub_makeuproom", once=True, quest="monica_dance_forgiveness")
-    call change_scene("pub_makeuproom", "Fade_long")
-    call pub_dance_remove_stage_visitors()
+    call change_scene("pub_makeuproom", "Fade_long") from _call_change_scene_448
+    call pub_dance_remove_stage_visitors() from _call_pub_dance_remove_stage_visitors_1
     $ pub_makeuproom_monica_suffix = 2
     $ set_active("Teleport_Pub_MakeupRoom", False, scene="pub")
     $ add_hook("change_time_day", "ep29_quests_pub1_day4_init", scene="global")
@@ -282,21 +282,21 @@ label ep29_quests_pub1_day2_ashley4: # Эшли забирает у Моники
     if cloth_type != "StripOutfit":
         if pubDanceCount <= 3:
             if ep29_quests_monica_gave_money_forgivenes_last_day != day:
-                call dialogue_5_dance_strip_13()
+                call dialogue_5_dance_strip_13() from _call_dialogue_5_dance_strip_13
                 $ ep29_quests_monica_gave_money_forgivenes_last_day = day
         else:
             # Монику прощают
-            call dialogue_5_dance_strip_19()
+            call dialogue_5_dance_strip_19() from _call_dialogue_5_dance_strip_19
             $ questLog(57, False)
             $ questLog(60, True)
             $ remove_hook(quest="monica_dance_forgiveness")
-            call ep27_quests_pub_work7_tips_punishment_forgive()
+            call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive_10
             $ ep29_quests_pub_forgiveness_dancing_enabled = False
             $ ep29_quests_pub_forgiveness_dancing_quest_in_progress = False
             $ monica_shared_tips_with_ashley_last_day = day
             $ add_hook("Bartender", "pub_dance_joe_after", scene="pub", label="monica_dance_joe_after", quest="monica_dance_forgiveness")
             $ add_hook("Bartender_Waitress", "pub_dance_ashley_after", scene="pub", label="monica_dance_ashley_after", quest="monica_dance_forgiveness")
-            call pub_dance_init() # инициализируем добровольные танцы
+            call pub_dance_init() from _call_pub_dance_init # инициализируем добровольные танцы
         $ add_hook("Bartender", "dialogue_5_dance_strip_4m", scene="pub", label=["evening_time_temp"], quest="monica_dance_forgiveness")
         $ add_hook("Bartender_Waitress", "dialogue_5_dance_strip_4m", scene="pub", label=["evening_time_temp"], quest="monica_dance_forgiveness")
         $ pubDanceGirlsBlockedDay = day
@@ -317,18 +317,18 @@ label ep29_quests_pub1_day4_claire:
         return
 #    $ remove_hook(label="monica_dance_forgiveness_claire_dialogue2")
     if ep29_quests_claire_talk_last_day == day or cloth != "Whore":
-        call dialogue_5_dance_strip_28()
+        call dialogue_5_dance_strip_28() from _call_dialogue_5_dance_strip_28
         $ pub_makeuproom_claire_suffix = "1"
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_225
         return False
     $ ep29_quests_claire_talk_last_day = day
-    call dialogue_5_dance_strip_16()
+    call dialogue_5_dance_strip_16() from _call_dialogue_5_dance_strip_16
     $ autorun_to_object("dialogue_5_dance_strip_16a", scene="pub_makeuproom")
     $ pub_makeuproom_claire_suffix = "Look1"
     $ pub_makeuproom_monica_suffix = 1
     music Molten_Alloy
     $ pubMakeupRoomSkipMusicOnce = True
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_226
 #    mt "Черт! Снова эта сцена! И толпа пьяных неудачников!"
     $ add_objective("go_dance", _("Выйти на сцену паба и танцевать."), c_orange, 110)
     $ remove_objective("go_to_makeuproom")
@@ -337,30 +337,30 @@ label ep29_quests_pub1_day4_claire:
 label ep29_quests_pub1_day4_joe:
     if cloth != "Whore":
         $ remove_hook()
-        call dialogue_5_dance_strip_17()
+        call dialogue_5_dance_strip_17() from _call_dialogue_5_dance_strip_17
         $ ep29_quests_joe_catched_monica_claire = True
         $ pubDanceGirlsBlockedDay = day
         $ move_object("Pub_StripteaseGirl2", "empty")
         $ ep29_quests_pub_forgiveness_dancing_stage = 4
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_227
 
     return
 
 label ep29_quests_pub1_day4_dance_end:
     $ add_hook("enter_scene", "dialogue_5_dance_strip_18", scene="pub_makeuproom", once=True)
-    call pub_dance_remove_stage_visitors()
+    call pub_dance_remove_stage_visitors() from _call_pub_dance_remove_stage_visitors_2
     $ pub_makeuproom_monica_suffix = 2
-    call change_scene("pub_makeuproom", "Fade_long")
+    call change_scene("pub_makeuproom", "Fade_long") from _call_change_scene_449
     return False
 
 label ep29_quests_dance:
-    call pub_dance1()
+    call pub_dance1() from _call_pub_dance1
     return
 
 label ep29_quests_dance_change_cloth:
     if act=="l":
         return
-    call dialogue_5_dance_strip_29()
+    call dialogue_5_dance_strip_29() from _call_dialogue_5_dance_strip_29
     if _return == 0:
         $ pub_makeuproom_monica_suffix = 1
         $ cloth = "StripOutfit1"
@@ -383,7 +383,7 @@ label ep29_quests_dance_change_cloth:
     with diss
     sound snd_fabric1
     pause 1.5
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_228
     return False
 
 #

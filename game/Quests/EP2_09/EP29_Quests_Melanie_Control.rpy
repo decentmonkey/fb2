@@ -170,7 +170,7 @@ label ep29_quests_melanie_control1_init:
 
 
 
-    call change_owner("Melanie")
+    call change_owner("Melanie") from _call_change_owner_6
     $ map_objects = {
             "Teleport_Monica_Office" : {"text" : _("ОФИС МОНИКИ"), "xpos" : 882, "ypos" : 320, "base" : "map_marker", "state" : "active", "owner":"Melanie"},
             "Teleport_Dick_Office" : {"text" : _("ОФИС ДИКА"), "xpos" : 1370, "ypos" : 127, "base" : "map_marker", "state" : "visible", "owner":"Melanie"},
@@ -178,7 +178,7 @@ label ep29_quests_melanie_control1_init:
     }
     $ hudDaySkipToEveningEnabled = False
     $ miniMapTurnedOff2 = True # выключаем minimap
-    call change_scene("monica_office_makeup_room", "Fade_long", False)
+    call change_scene("monica_office_makeup_room", "Fade_long", False) from _call_change_scene_450
 #    $ add_hook("Melanie", "ep29_dialogues3_melanie_monica_victoria_1f"
     return
 
@@ -186,95 +186,95 @@ label ep29_quests_melanie_control1_uninit:
     $ set_var("Monica", actions="l", scene="working_office_cabinet")
     $ miniMapTurnedOff2 = False
     $ hudDaySkipToEveningEnabled = True
-    call change_owner("Monica")
+    call change_owner("Monica") from _call_change_owner_7
     $ restore_scene(stored_scene)
     $ set_active("Monica", True, scene="World", recursive=True)
     $ set_active("Melanie", False, scene="World", recursive=True)
     return
 
 label ep29_quests_melanie_teleport_photostudio:
-    call change_scene("monica_office_photostudio")
+    call change_scene("monica_office_photostudio") from _call_change_scene_451
     return False
 
 label ep29_quests_melanie_teleport_makeuproom:
-    call change_scene("monica_office_makeup_room")
+    call change_scene("monica_office_makeup_room") from _call_change_scene_452
     return False
 
 label ep29_quests_melanie_teleport_secretary:
-    call change_scene("monica_office_secretary")
+    call change_scene("monica_office_secretary") from _call_change_scene_453
     return False
 
 label ep29_quests_melanie_teleport_monica_cabinet:
-    call change_scene("monica_office_cabinet")
+    call change_scene("monica_office_cabinet") from _call_change_scene_454
     return False
 
 label ep29_quests_melanie_teleport_lift:
     menu:
         "Модный Журнал.":
-            call change_scene("monica_office_secretary", "Fade_long", "snd_lift")
+            call change_scene("monica_office_secretary", "Fade_long", "snd_lift") from _call_change_scene_455
         "Офисы.":
-            call change_scene("working_office", "Fade_long", "snd_lift")
+            call change_scene("working_office", "Fade_long", "snd_lift") from _call_change_scene_456
         "Вестибюль.":
-            call change_scene("monica_office_entrance", "Fade_long", "snd_lift")
+            call change_scene("monica_office_entrance", "Fade_long", "snd_lift") from _call_change_scene_457
     return False
 
 
 label ep29_quests_melanie_teleport_monica_cabinet_table:
     if act=="l":
-        call ep29_dialogues3_melanie_monica_victoria_1o()
+        call ep29_dialogues3_melanie_monica_victoria_1o() from _call_ep29_dialogues3_melanie_monica_victoria_1o_2
         return False
-    call change_scene("monica_office_cabinet_table")
+    call change_scene("monica_office_cabinet_table") from _call_change_scene_458
     return False
 
 label ep29_quests_melanie_teleport_melanie_workingoffice:
-    call change_scene("working_office")
+    call change_scene("working_office") from _call_change_scene_459
     return False
 
 label ep29_quests_melanie_teleport_melanie_workingoffice2:
-    call change_scene("working_office2")
+    call change_scene("working_office2") from _call_change_scene_460
     return False
 
 label ep29_quests_melanie_teleport_melanie_workingoffice_cabinet:
-    call change_scene("working_office_cabinet", "Fade_long", "snd_door_open1")
+    call change_scene("working_office_cabinet", "Fade_long", "snd_door_open1") from _call_change_scene_461
     return False
 
 
 label ep29_quests_melanie_teleport_monica_office_street:
-    call change_scene("street_monica_office", "Fade_long")
+    call change_scene("street_monica_office", "Fade_long") from _call_change_scene_462
     return False
 
 label ep29_quests_melanie_teleport_monica_office_entrance:
     if act=="l":
-        call ep29_dialogues3_melanie_monica_victoria_1mm()
+        call ep29_dialogues3_melanie_monica_victoria_1mm() from _call_ep29_dialogues3_melanie_monica_victoria_1mm
         return False
-    call change_scene("monica_office_entrance", "Fade_long")
+    call change_scene("monica_office_entrance", "Fade_long") from _call_change_scene_463
     return False
 
 label ep29_quests_melanie_teleport_dick_office_entrance:
     if act=="l":
-        call ep29_dialogues3_melanie_monica_victoria_1jj()
+        call ep29_dialogues3_melanie_monica_victoria_1jj() from _call_ep29_dialogues3_melanie_monica_victoria_1jj
         return False
-    call change_scene("dick_office_entrance", "Fade_long")
+    call change_scene("dick_office_entrance", "Fade_long") from _call_change_scene_464
     return False
 
 label ep29_quests_melanie_teleport_dick_office_entrance2:
-    call change_scene("dick_office_entrance", "Fade_long", "snd_lift")
+    call change_scene("dick_office_entrance", "Fade_long", "snd_lift") from _call_change_scene_465
     return False
 
 label ep29_quests_melanie_teleport_dick_office_street:
-    call change_scene("street_dick_office", "Fade_long")
+    call change_scene("street_dick_office", "Fade_long") from _call_change_scene_466
     return False
 
 label ep29_quests_melanie_teleport_dick_office_hall1:
-    call change_scene("dick_office_hall1", "Fade_long", "snd_lift")
+    call change_scene("dick_office_hall1", "Fade_long", "snd_lift") from _call_change_scene_467
     return False
 
 label ep29_quests_melanie_teleport_dick_office_hall1b:
-    call change_scene("dick_office_hall1")
+    call change_scene("dick_office_hall1") from _call_change_scene_468
     return False
 
 label ep29_quests_melanie_teleport_dick_secretary:
-    call change_scene("dick_office_secretary")
+    call change_scene("dick_office_secretary") from _call_change_scene_469
     return False
 
 

@@ -459,7 +459,7 @@ label ep29_dialogues5_gun_monica_10b:
     music Continue_Life
     img black_screen
     with Dissolve(2.0)
-    call textonblack("TO BE CONTINUED IN THE NEXT UPDATE")
+    call textonblack("TO BE CONTINUED IN THE NEXT UPDATE") from _call_textonblack_46
     img black_screen
     with Dissolve(2.0)
     $ renpy.pause(2.0, hard=True)
@@ -476,7 +476,7 @@ label ep29_dialogues5_gun_monica_10b:
 ##    pause 30.0
 ##    music stop
 ##    pause 1.0
-    call credits()
+    call credits() from _call_credits_2
     $ MainMenu(confirm=False)()
     # заглядывает и видит там пистолет
     # тревожная музыка

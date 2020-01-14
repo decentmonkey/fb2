@@ -109,11 +109,11 @@ label ep23_quests_pub5_dishes: # Моника моет посуду
         call ep27_quests_pub_work2_begin() from _call_ep27_quests_pub_work2_begin
         return False
     if _return == 5: #Танцевать на сцене
-        call pub_dance_start()
+        call pub_dance_start() from _call_pub_dance_start
         return False
     if _return == 6:
-        call ep23_dialogues1_7()
-        call refresh_scene_fade()
+        call ep23_dialogues1_7() from _call_ep23_dialogues1_7
+        call refresh_scene_fade() from _call_refresh_scene_fade_235
         return False
 
     return False
