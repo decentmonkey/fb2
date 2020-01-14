@@ -123,7 +123,7 @@ label dialogue_5_dance_strip_2:
     mt "Фи, это же просто подсобка, а не гримерка!"
     mt "И все такое... старое!"
     mt "Как здесь можно готовиться к выступлениям?!"
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_234
     # переключение на движок
     return
 label dialogue_5_dance_strip_2a:
@@ -1444,7 +1444,7 @@ label dialogue_5_dance_strip_16:
     mt "Эта озабоченная Эшли со своим таким же озабоченным мужем уже достали меня!"
     mt "Кто бы предупредил меня заранее, что с ними не стоит связываться?!"
     # Моника переодевается
-    call dialogue_5_dance_strip_29b()
+    call dialogue_5_dance_strip_29b() from _call_dialogue_5_dance_strip_29b
     $ topless = False
     if _return == 0:
         $ cloth = "StripOutfit1"

@@ -899,7 +899,7 @@ label ep29_dialogues3_melanie_monica_victoria_3:
     img black_screen
     with diss
     sound highheels_short_walk
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_233
     # подхалим ведет ее через офис и открывает ей дверь в кабинет Моники, та заходит
     # Моника сидит за своим столом со скучающим видом и "работает", Юлия как всегда вся в работе
     return
@@ -925,7 +925,7 @@ label ep29_dialogues3_melanie_monica_victoria_3a:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("5 минут спустя..."))
+    call textonblack(_("5 минут спустя...")) from _call_textonblack_49
     img black_screen
     with Dissolve(2.0)
     return
@@ -950,7 +950,7 @@ label ep29_dialogues3_melanie_monica_victoria_3c:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Спустя некоторое время..."))
+    call textonblack(_("Спустя некоторое время...")) from _call_textonblack_50
     img black_screen
     with Dissolve(2.0)
     # в заданиях появляется "Пойти в кабинет Бифа и поговорить с ним"

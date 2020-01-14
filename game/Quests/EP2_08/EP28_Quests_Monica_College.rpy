@@ -219,13 +219,13 @@ label ep28_monica_bardie_eric_college4_visit1: # Моника приходит �
     if day_time == "evening":
         return
     if cloth_type == "CasualDress":
-        call dialogue_classmate_3_2b()
+        call dialogue_classmate_3_2b() from _call_dialogue_classmate_3_2b_6
         return False
     if cloth_type == "Whore":
-        call dialogue_classmate_3_2bb()
+        call dialogue_classmate_3_2bb() from _call_dialogue_classmate_3_2bb_9
         return False
     if cloth_type != "SchoolOutfit":
-        call dialogue_classmate_3_2bb()
+        call dialogue_classmate_3_2bb() from _call_dialogue_classmate_3_2bb_10
         return False
     call change_scene("college_class","Fade_long", "highheels_run2") from _call_change_scene_409
     return False
@@ -296,7 +296,7 @@ label ep28_monica_bardie_eric_college4_visit2:
         return
     if day_time == "evening":
         return
-    call ep29_quests_monica_college_visit2()
+    call ep29_quests_monica_college_visit2() from _call_ep29_quests_monica_college_visit2
 #    help "Продолжение квеста ожидайте в следующем обновлении игры!"
     return False
 
@@ -312,5 +312,4 @@ label ep28_monica_college_bardie_betty_lesbian_scene: # Лесби сцена Б
     $ add_hook("Teleport_BedroomBardie", "dialogue_classmate_1_1", scene="floor2", label=["evening_time_temp", "bardie_eric_quest_day1block"])
     $ autorun_to_object("dialogue_4_classmate_lesbian_1a", scene="floor2")
     $ monicaBettyLesbian = True
-    call ep210_quests_bardie_init()
     return False

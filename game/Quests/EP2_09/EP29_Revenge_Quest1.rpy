@@ -13,7 +13,7 @@ label ep29_revenge_quest1_init:
     # вешаем проверку на revenge quest при входе в спальню
     $ add_hook("before_open", "ep29_revenge_quest1_check", scene="basement_bedroom2", label="ep29_revenge_quest1_check", quest="revenge_quest")
     if marcus_visit1_completed == True:
-        call basement_bedroom2_init2() # Оставляем в basement_bedroom2 анальную пробку
+        call basement_bedroom2_init2() from _call_basement_bedroom2_init2 # Оставляем в basement_bedroom2 анальную пробку
         return
     return
 label ep29_revenge_quest1_check:
@@ -22,16 +22,16 @@ label ep29_revenge_quest1_check:
     if marcus_visit1_completed != True or ep29_victoria_melanie_licking != True or monica_teacher_sex != True or day-monica_teacher_sex_day < 2 or day - ep29_revenge_quest_last_try_day < ep29_revenge_quest_retry_days or ep29_revenge_quest_blocked == True or ep29_revenge_quest_started == True:
         return
     # Начинаем revenge quest
-    call ep29_dialogues5_gun_monica_1()
+    call ep29_dialogues5_gun_monica_1() from _call_ep29_dialogues5_gun_monica_1
     if _return == 0: # одеты трусики
         $ ep29_revenge_quest_last_try_day = day
         $ add_hook("enter_scene", "dialogue_classmate_15a", scene="basement_pool", once=True)
-        call change_scene("basement_pool", "Fade_long", False)
+        call change_scene("basement_pool", "Fade_long", False) from _call_change_scene_470
         return
     if _return == 1: # Моника убежала
         $ ep29_revenge_quest_blocked = True # Блокируем квест
         $ add_hook("enter_scene", "dialogue_classmate_15a", scene="basement_pool", once=True)
-        call change_scene("basement_pool", "Fade_long", False)
+        call change_scene("basement_pool", "Fade_long", False) from _call_change_scene_471
         return
     $ ep29_revenge_quest_started = True
     $ add_hook("ButtPlug", "ep29_revenge_quest1_buttplug", scene="basement_bedroom2", label="revenge_quest_buttplug", quest="revenge_quest")
@@ -42,12 +42,12 @@ label ep29_revenge_quest1_buttplug:
     if act=="l":
         return
     $ remove_hook()
-    call ep29_dialogues5_gun_monica_2()
+    call ep29_dialogues5_gun_monica_2() from _call_ep29_dialogues5_gun_monica_2
     $ add_objective("find_key", _("Найти ключ от прикроватной тумбочки"), c_green, 120)
     # Инициализируем среду поиска ключа и открытого стола
-    call locations_init_laundry_wash_machine()
-    call locations_init_basement_bedroom_table_opened()
-    call basement_laundry_init2()
+    call locations_init_laundry_wash_machine() from _call_locations_init_laundry_wash_machine
+    call locations_init_basement_bedroom_table_opened() from _call_locations_init_basement_bedroom_table_opened
+    call basement_laundry_init2() from _call_basement_laundry_init2
     $ add_hook("Panties_Box", "ep29_revenge_quest1_laundry_boxes", scene="basement_laundry", label = "revenge_quest_boxes", quest="revenge_quest")
     $ add_hook_multi("ep29_revenge_quest1_laundry_boxes", scene="basement_laundry", label = "revenge_quest_boxes", quest="revenge_quest", filter={"group":"laundry_boxes"})
     $ add_hook("IronDesk", "ep29_revenge_quest1_laundry_irondesk", scene="basement_laundry", label = "revenge_quest_boxes", quest="revenge_quest")
@@ -77,20 +77,20 @@ label ep29_revenge_quest1_buttplug:
     $ cloth = "Governess"
     $ cloth_type = "Governess"
 
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_229
     return False
 
 label ep29_revenge_quest1_laundry_boxes:
     if obj_name == "Panties_Box":
-        call ep29_dialogues5_gun_monica_9()
+        call ep29_dialogues5_gun_monica_9() from _call_ep29_dialogues5_gun_monica_9
         $ remove_hook()
         return
     $ set_active("Box5", False, scene="basement_laundry")
     $ set_active("Box6", False, scene="basement_laundry")
     if obj_name == "Box2" or obj_name == "Box4" or obj_name == "Box6":
-        call ep29_dialogues5_gun_monica_9b()
+        call ep29_dialogues5_gun_monica_9b() from _call_ep29_dialogues5_gun_monica_9b
     if obj_name == "Box3" or obj_name == "Box5":
-        call ep29_dialogues5_gun_monica_9b2()
+        call ep29_dialogues5_gun_monica_9b2() from _call_ep29_dialogues5_gun_monica_9b2
 
     $ set_active(obj_name, False, scene="basement_laundry")
     if get_active_objects(group="laundry_boxes", scene="basement_laundry") == False:
@@ -98,24 +98,24 @@ label ep29_revenge_quest1_laundry_boxes:
     return
 
 label ep29_revenge_quest1_laundry_irondesk:
-    call ep29_dialogues5_gun_monica_9b3()
+    call ep29_dialogues5_gun_monica_9b3() from _call_ep29_dialogues5_gun_monica_9b3
     $ set_active("IronDesk", False, scene="basement_laundry")
     $ set_active("WashMachine", True, scene="basement_laundry")
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_230
     return False
 
 label ep29_revenge_quest1_laundry_washmachine:
     if act=="l":
-        call ep29_dialogues5_gun_monica_9b4()
+        call ep29_dialogues5_gun_monica_9b4() from _call_ep29_dialogues5_gun_monica_9b4
         return False
     $ add_hook("enter_scene", "ep29_dialogues5_gun_monica_9b5", scene="basement_laundry_washmachine", once=True, quest="revenge_quest")
-    call change_scene("basement_laundry_washmachine")
+    call change_scene("basement_laundry_washmachine") from _call_change_scene_472
     return False
 
 label ep29_revenge_quest1_laundry_revenge_keys:
     if act=="l":
         return
-    call ep29_dialogues5_gun_monica_9b6()
+    call ep29_dialogues5_gun_monica_9b6() from _call_ep29_dialogues5_gun_monica_9b6
     $ set_active("RevengeKeys", False, scene="basement_laundry_washmachine")
     $ add_inventory("revenge_keys", 1, True)
     $ set_active("WashMachine", False, scene="basement_laundry")
@@ -124,7 +124,7 @@ label ep29_revenge_quest1_laundry_revenge_keys:
     $ add_hook("Box", "ep29_revenge_quest1_table_box_opening", scene="basement_bedroom_table", label="revenge_quest_keys", quest="revenge_quest")
     $ remove_objective("find_key")
     $ add_objective("open_table", _("Открыть запертый ящик"), c_red, 120)
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_231
     return
 
 label ep29_revenge_quest1_table_box_opening:
@@ -139,22 +139,22 @@ label ep29_revenge_quest1_table_box_opening:
     pause 1.5
     sound desk_open
     if ep29_revenge_quest_table_opened == False:
-        call ep29_dialogues5_gun_monica_10()
+        call ep29_dialogues5_gun_monica_10() from _call_ep29_dialogues5_gun_monica_10
         $ remove_objective("open_table")
         $ ep29_revenge_quest_table_opened = True
-    call change_scene("basement_bedroom_table_opened", "Fade", "desk_open")
+    call change_scene("basement_bedroom_table_opened", "Fade", "desk_open") from _call_change_scene_473
     return False
 
 label ep29_revenge_quest1_table_gun:
     if act=="l":
         return
-    call ep29_dialogues5_gun_monica_10b()
+    call ep29_dialogues5_gun_monica_10b() from _call_ep29_dialogues5_gun_monica_10b
     if _return == False:
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _call_refresh_scene_fade_232
     return False
 
 label ep29_revenge_quest1_exit_nap: # Выход из квеста, через кровать
-    call ep29_dialogues5_gun_monica_4a()
+    call ep29_dialogues5_gun_monica_4a() from _call_ep29_dialogues5_gun_monica_4a
     if _return == True:
         return False
     $ remove_hook(quest="revenge_quest")
@@ -168,7 +168,7 @@ label ep29_revenge_quest1_exit_nap: # Выход из квеста, через �
 #
 
 label ep29_revenge_quest1_exit_outside:
-    call ep29_dialogues5_gun_monica_4a()
+    call ep29_dialogues5_gun_monica_4a() from _call_ep29_dialogues5_gun_monica_4a_1
     if _return == True:
         return False
     $ remove_hook(quest="revenge_quest")
@@ -181,7 +181,7 @@ label ep29_revenge_quest1_exit_outside:
 
 label ep29_revenge_quest1_exit_map:
     if obj_name != "Teleport_House":
-        call ep29_dialogues5_gun_monica_4a()
+        call ep29_dialogues5_gun_monica_4a() from _call_ep29_dialogues5_gun_monica_4a_2
         if _return == True:
             return False
         $ remove_hook(quest="revenge_quest")
@@ -203,10 +203,10 @@ label Box_use_revenge_keys:
         pause 1.5
         sound desk_open
         if ep29_revenge_quest_table_opened == False:
-            call ep29_dialogues5_gun_monica_10()
+            call ep29_dialogues5_gun_monica_10() from _call_ep29_dialogues5_gun_monica_10_1
             $ remove_objective("open_table")
             $ ep29_revenge_quest_table_opened = True
-        call change_scene("basement_bedroom_table_opened", "Fade", "desk_open")
+        call change_scene("basement_bedroom_table_opened", "Fade", "desk_open") from _call_change_scene_474
     return
 
 label ep29_revenge_quest1_move_buttplug:

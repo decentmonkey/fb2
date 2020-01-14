@@ -122,7 +122,7 @@ label ep24_quests_steve7:
     $ basementBedSkipUntilFridayEnabled = True
     $ add_hook("Ralph", "ep24_quests_steve34", scene="living_room", label="steve_ralph_visit2")
 
-    call question_helper_enable("question_steve_ask_ralph")
+    call question_helper_enable("question_steve_ask_ralph") from _call_question_helper_enable_1
 
     $ add_objective("ask_ralph", _("Спросить у Ральфа по поводу Стива."), c_white, 55)
 

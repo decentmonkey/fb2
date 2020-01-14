@@ -148,7 +148,7 @@ label ep27_quests_pub_work6_tips_punishment: # Наказание за краж�
         call ep22_quests_pub_punishment_ashley() from _call_ep22_quests_pub_punishment_ashley
         return False
     if _return == 5:
-        call ep29_quests_pub1_dance_agree()
+        call ep29_quests_pub1_dance_agree() from _call_ep29_quests_pub1_dance_agree
         return False
     return
 

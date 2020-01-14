@@ -253,10 +253,10 @@ label ep28_quests_police_final_home:
     $ remove_inventory("butt_plug", 1, True)
     $ rain = False
     $ lightning = False
-    call ep29_revenge_quest1_init() # Запускаем проверку на revenge quest
-    call basement_bedroom2_init2() # Оставляем в basement_bedroom2 анальную пробку
+    call ep29_revenge_quest1_init() from _call_ep29_revenge_quest1_init_1 # Запускаем проверку на revenge quest
+    call basement_bedroom2_init2() from _call_basement_bedroom2_init2_1 # Оставляем в basement_bedroom2 анальную пробку
     sound chpok2
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _call_refresh_scene_fade_239
     return
 
 
