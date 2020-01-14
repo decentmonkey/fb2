@@ -4,7 +4,7 @@ default ep210_quests_erik_jerk_betty_panties = False
 
 label ep210_quests_bardie_init:
     if ep210_quests_bardie_init_flag == False and monicaBettyLesbian == True:
-        $ add_hook("enter_scene", "ep210_quests_bardie1", scene="basement_laundry", label="ep210_quests_bardie")
+        $ add_hook("before_open", "ep210_quests_bardie1", scene="basement_laundry", label="ep210_quests_bardie")
 
         $ ep210_quests_bardie_day = day
         $ ep210_quests_bardie_init_flag = True

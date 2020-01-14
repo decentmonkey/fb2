@@ -73,6 +73,7 @@ label ep210_dialogues3_bardie_erik_betty_1a:
 label ep210_dialogues3_bardie_erik_betty_2:
     # Бетти затаскивает Эрика, который пытается одной рукой уержать свои расстегнутые штаны, в комнату Барди
     # Барди стоит у окна спиной, но поворчивается когда они заходят
+    music stop
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
