@@ -1,7 +1,7 @@
 label ep22_casting:
     label ep22_dialogue6_6_loop1:
         #первый вызов
-        help "Пока доступны только две возможностьи. Другие пункты будут доступны в следующих версиях игры."
+#        help "Пока доступны только две возможностьи. Другие пункты будут доступны в следующих версиях игры."
         menu:
             "Показать обнаженную грудь.":
                 #Моника показывает грудь в зависимости от одежды
@@ -636,29 +636,38 @@ label ep22_casting:
 #                biff "Но папочке начинает надоедать одно и то же..."
             "Показать обнаженную попу. (фотосессия не завершена) (disabled)" if shotsAmountCompleted < shotsTotalAmount:
                 pass
-            "Раздеться и принимать различные модельные позы.":
+            "Раздеться и принимать различные модельные позы." if char_info["Biff"]["level"] >= 2:
                 $ store_music()
                 call ep210_dialogues1_office_biff_1a()
                 $ restore_music()
                 img 8445
                 biff "Хорошо, папочка доволен!"
-            "Раздеться и принимать различные модельные позы. (disabled)":
+                if biffCastingStage < 1:
+                    $ biffCastingStage = 1
+                $ add_char_progress("Biff", biffFlashCardQuestReportPose1, "biffFlashCardQuestReportPose1" + str(day))
+            "Раздеться и принимать различные модельные позы. (требуется ур.2) (disabled)" if char_info["Biff"]["level"] < 2:
                 pass
-            "Раздеться и встать на колени задом к Бифу.":
+            "Раздеться и встать на колени задом к Бифу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 1:
                 $ store_music()
                 call ep210_dialogues1_office_biff_1b()
                 $ restore_music()
                 img 8445
                 biff "Хорошо, папочка доволен!"
-            "Раздеться и встать на колени задом к Бифу. (disabled)":
+                if biffCastingStage < 2:
+                    $ biffCastingStage = 2
+                $ add_char_progress("Biff", biffFlashCardQuestReportPose2, "biffFlashCardQuestReportPose2" + str(day))
+            "Раздеться и встать на колени задом к Бифу. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 1:
                 pass
-            "Раздеться и лечь на пол раздвинув ноги.":
+            "Раздеться и лечь на пол раздвинув ноги." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 2:
                 $ store_music()
                 call ep210_dialogues1_office_biff_1c()
                 $ restore_music()
                 img 8445
                 biff "Хорошо, папочка доволен!"
-            "Раздеться и лечь на пол раздвинув ноги. (disabled)":
+                if biffCastingStage < 3:
+                    $ biffCastingStage = 3
+                $ add_char_progress("Biff", biffFlashCardQuestReportPose3, "biffFlashCardQuestReportPose3" + str(day))
+            "Раздеться и лечь на пол раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 2:
                 pass
             "Раздеться и сесть на стол.":
                 menu:

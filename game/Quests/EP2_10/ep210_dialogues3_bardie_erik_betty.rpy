@@ -363,6 +363,7 @@ label ep210_dialogues3_bardie_erik_betty_2:
     with diss
     w
     sound Jump2
+    ###zvuk licking
     img 16063
     with hpunch
     betty "ААААА!!!"

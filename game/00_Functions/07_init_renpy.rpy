@@ -164,4 +164,10 @@ define customers3 = Character(_("Зритель"), who_color=c_red)
 define customers4 = Character(_("Зритель"), who_color=c_green)
 define customers5 = Character(_("Зритель"), who_color=c_pink)
 
+define investor1 = Character(_("Инвестор"), who_color=c_blue)
+define investor2 = Character(_("Инвестор"), who_color=c_blue)
+define investor3 = Character(_("Инвестор"), who_color=c_blue)
+define investor4 = Character(_("Инвестор"), who_color=c_blue)
+
+
 #

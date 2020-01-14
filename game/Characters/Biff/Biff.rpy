@@ -35,9 +35,17 @@ default PS8_shoots_array = []
 define PS_Melanie_1_shots_amount = 24
 default PS_Melanie_1_shoots_array = []
 
+
+default biffLevel3Opened = False
+
+default biffCastingStage = 0
+
 label biffProgressLevelUp1:
     $ char_data["level"] = char_data["level"] + 1
-    if char_data["level"] == 2:
+    if char_data["level"] == 2 and biffLevel3Opened == False:
+        $ char_data["enabled"] = False
+        $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+    if char_data["level"] == 3:
         $ char_data["enabled"] = False
         $ char_data["caption_diabled"] = _("Work in progress...")
     return

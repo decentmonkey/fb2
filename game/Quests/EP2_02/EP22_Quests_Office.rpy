@@ -11,6 +11,11 @@ label ep22_quests_office_init:
 label ep22_quests_office1: #регулярный разговор с Бифом на работе
     if act=="l":
         return
+    if monicaOutfitsEnabled[7] == True and monicaWorkingAtBiffOffice == True and ep22_quests_biff_init_flag == False: # Если Моника открыла костюм и если работает в офисе
+        call ep22_quests_biff_init() # Инициализируем разговор о первой презентации
+        call change_scene("monica_office_cabinet")
+        return
+
     call ep22_dialogue6_3() from _call_ep22_dialogue6_3
     if _return == False:
         call change_scene("monica_office_cabinet") from _call_change_scene_207

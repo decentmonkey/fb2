@@ -269,6 +269,11 @@ define biffFlashCardQuestReportNoSelf = -10 # Флеш карта, регрес�
 define biffFlashCardQuestReportNone = 1 # Флеш карта, сдала отчета Бифу, ничего не показала
 define biffFlashCardQuestReportBoobs = 3 # Показала грудь
 define biffFlashCardQuestReportAss = 5 # Показала попу
+
+define biffFlashCardQuestReportPose1 = 6 # Показала другие позы
+define biffFlashCardQuestReportPose2 = 7
+define biffFlashCardQuestReportPose3 = 8
+
 define biffFlashCardQuestReportBoobsCorruptionRequired = 220
 define biffFlashCardQuestReportAssCorruptionRequired = 240
 define biffFlashCardQuestDaysBeforeBiffNotice = 14 # Кол-во дней между отчетами, пока Биф не ругается что не сдаются

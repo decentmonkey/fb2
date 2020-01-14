@@ -327,7 +327,9 @@ label ep26_dialogues4_restaurant3:
     with diss
     mt "Интересно, почему та девушка так смотрит на меня?"
 
-
+    call ep210_quests_escort_eat_process()
+    if _return == False
+        return True
 
 # Моника говорит официантке. Я закончила. Было невкусно!
 # waitress: Мэм, прошу прощения, в следующий раз мы постараемся угодить Вам... (злое лицо)
@@ -497,6 +499,9 @@ label ep26_dialogues4_restaurant4:
     with diss
     mt "Интересно, почему та девушка так смотрит на меня?"
 
+    call ep210_quests_escort_eat_process()
+    if _return == False
+        return True
 
 # Моника говорит официантке. Я закончила. Было очень вкусно, спасибо!
 # waitress: Мэм, добро пожаловать к нам снова!

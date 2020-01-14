@@ -1,7 +1,15 @@
+default ep210_presentation_monica_turned_steve = False
+default ep210_presentation_monica_turned_philip = False
+
 # Пункты меню окроются сразу 2 после достижения ур. 3 у Биффа. (после презентации) (мы добавляем 100)
 label ep210_dialogues1_office_biff_1a:
 #    menu:
 #        "Раздеться и принимать различные модельные позы.":
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.5
     music Groove2_85
     img 22908
     with fade
@@ -55,6 +63,11 @@ label ep210_dialogues1_office_biff_1a:
 
 label ep210_dialogues1_office_biff_1b:
 #        "Раздеться и встать на колени задом к Бифу.":
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.5
     music Groove2_85
     img 22908
     with fade
@@ -108,6 +121,11 @@ label ep210_dialogues1_office_biff_1b:
 
 label ep210_dialogues1_office_biff_1c:
 #        "Раздеться и лечь на пол раздвинув ноги.":
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.5
     music Groove2_85
     img 22908
     with fade
@@ -189,6 +207,10 @@ label ep210_dialogues1_office_biff_1c:
 # кабинет Биффа
 label ep210_dialogues1_office_biff_1:
     # при выборе пункта меню "Спросить о работе"
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
     music Groove2_85
     img 12783
     with fadelong
@@ -464,8 +486,7 @@ label ep210_dialogues1_office_biff_1:
     # Моника уходит
     # открываются пункты "Раздеться и принимать различные модельные позы" и "Раздеться и встать на колени задом к Бифу"
     # в заданиях появляется "Зайти завтра к Бифу, узнать про работу."
-    $ log1 = _("Зайти завтра к Бифу, узнать про работу.")
-    return
+    return True
 
 # Моника вышла из кабинета Бифа после примерки штанов
 # приемная, где сидит секретарша Бифа
@@ -500,8 +521,10 @@ label ep210_dialogues1_office_biff_2b:
 # мысли Моники на след. день, если хочет уйти из офиса, не посетив Бифа
 # не рендерить!
 label ep210_dialogues1_office_biff_2a:
-    mt "Мне нужно зайти к этой сволочи Бифу."
-    mt "Он сказал, что есть работа для меня."
+    if ep22_quests_biff1_day < day and day_time == "evening":
+        mt "Мне нужно зайти к этой сволочи Бифу."
+        mt "Он сказал, что есть работа для меня."
+        return False
     return
 
 # Моника приходит спросить Бифа о работе
@@ -775,12 +798,14 @@ label ep210_dialogues1_office_biff_3:
     # Моника уходит
     # в заданиях у Моники презентация перед инвесторами
     $ log1 = _("Провести презентацию журнала в кабинете Бифа.")
-    return
+    return True
 
 # мысли Моники на след. день, если хочет уйти из офиса, не проводя презентацию
 # не рендерить!
 label ep210_dialogues1_office_biff_3a:
-    mt "Мне нужно идти к Бифу и провести эту чертову презентацию!"
+    if ep22_quests_biff2_day < day and day_time == "evening":
+        mt "Мне нужно идти к Бифу и провести эту чертову презентацию!"
+        return False
     return
 
 # Моника заходит в кабинет Бифа (день проведения презентации)
@@ -830,10 +855,11 @@ label ep210_dialogues1_office_biff_4:
     m "Что, прямо здесь?!"
     biff "Да-да! Шевели своим задом быстрее!"
     # Моника надевает на себя юбка с открытым задом, начинает возмущаться
+    music stop
     img black_screen
     with diss
     sound snd_fabric1
-    pause 1.0
+    pause 2.0
     img 22907
     with hpunch
     sound plastinka1b
@@ -982,7 +1008,7 @@ label ep210_dialogues1_office_biff_4:
     img black_screen
     with diss
     pause 1.5
-    music Villainous_Treachery
+    music Groove2_85
     img 15940
     with fadelong
     mt "..."
@@ -999,9 +1025,14 @@ label ep210_dialogues1_office_biff_4:
     mt "Ненавижу сволочь Биффа!"
     mt "!!!"
     # на экране появляется ####1-й график####, Моника обращается к присутствующим
-    music Groove2_85
-    img 15942
+#    music Groove2_85
+    music stop
+    img black_screen
     with diss
+    pause 1.5
+    music Loved_Up
+    img 15942
+    with fadelong
     m "Прошло не так много времени с момента выпуска первого номера журнала."
     m "И уже сейчас наша компания показывает стабильный рост и ежемесячно растущий спрос среди покупателей."
     m "Каждый новый номер нашего журнала расходится многотысячными тиражами по всей стране."
@@ -1014,16 +1045,17 @@ label ep210_dialogues1_office_biff_4:
     with diss
     sound man_steps
     w
-    music Power_Bots_Loop
+#    music Groove2_85
     img 15945
     with diss
     mt "!!!" # зло на Бифа
-    music Groove2_85
+    music Loved_Up
     img 15946
     with fade
     m "Вы можете посмотреть на график..." # не поворачиваясь спиной к мужчинам, просто держит указку в руке
+    music Groove2_85
     img 15947
-    with diss
+    with hpunch
     mt "Что это за график?" # оглядывается на экран с графиком (рост биткоина)
     img 15948
     with diss
@@ -1038,7 +1070,7 @@ label ep210_dialogues1_office_biff_4:
     with diss
     mt "!!!" # снова зло на Бифа
     mt "Придурок!"
-    music Groove2_85
+    music Loved_Up
     img 15951
     with fade
     m "Да... Все верно." # неуверенно
@@ -1068,13 +1100,18 @@ label ep210_dialogues1_office_biff_4:
     with diss
     mt "!!!" # снова зло на Бифа
     # на экране появляется ####2-й график####. Моника оглядывается на экран, не поворачиваясь
-    music Power_Bots_Loop
-    img 15957
-    with fade
+    music stop
+    img black_screen
+    pause 0.5
     sound camera_lens1
+    pause 1.0
+    music Groove2_85
+    img 15957
+    with hpunch
     mt "!!!"
     mt "ИДИОТ!" # на Бифа
-    music Groove2_85
+#    music Groove2_85
+    music Loved_Up
     img 15958
     with diss
     m "..."
@@ -1105,11 +1142,11 @@ label ep210_dialogues1_office_biff_4:
             mt "Об этом узнает только один из них..."
             mt "И пусть только попробует мерзавец Стив рассказать об этом!"
             # Стив поворачивает голову в сторону Моники, замечает вырез на юбке
+            music Loved_Up
             img 15994
             with diss
             sound Jump2
             steve "!!!" # мерзко улыбается и остается на месте, рассматривая Монику
-            music Loved_Up
             img 15995
             with fade
             w
@@ -1156,6 +1193,7 @@ label ep210_dialogues1_office_biff_4:
             img 16006
             with diss
             philip "Пожалуйста, продолжайте, Мэм..." # улыбаясь
+            $ ep210_presentation_monica_turned_steve = True
             pass
         "Повернуться спиной к Филиппу.":
             # поворачивается лицом к Стиву так, что голый зад видно только Филиппу и Бифу
@@ -1165,11 +1203,11 @@ label ep210_dialogues1_office_biff_4:
             mt "Лучше уж этот извращенец Филипп, чем мерзкий Стив!"
             mt "По крайней мере, есть надежда, что он никому ничего не расскажет..."
             # Филипп поворачивает голову в сторону Моники, замечает вырез на юбке
+            music Loved_Up
             img 16007
             with diss
             sound Jump2
             philip "!!!" # мерзко улыбается и остается на месте, рассматривая Монику
-            music Loved_Up
             img 16008
             with fade
             w
@@ -1215,6 +1253,7 @@ label ep210_dialogues1_office_biff_4:
             img 16006
             with diss
             philip "Пожалуйста, продолжайте, Мэм..." # улыбаясь
+            $ ep210_presentation_monica_turned_steve = True
             pass
     # Стив и Филипп уходят и садятся на свои места
     # Моника берет себя в руки и продолжает
@@ -1352,6 +1391,10 @@ label ep210_dialogues1_office_biff_4:
     sound man_steps
     investor1 "Не сомневаюсь, что приму верное решение. Не факт, что в вашу пользу."
     biff "До свидания. Спасибо, что пришли."
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
     # Бифф смотрит на Монику, не скрывая насмешки
     # открывается следующий пункт в меню Бифа
     return
