@@ -352,3 +352,11 @@ translate german strings:
     old "Маркус ждет меня снова... Смогу-ли я решиться снова навестить его?"
     new "Marcus wartet wieder auf mich... Werde ich in der Lage sein, ihn nochmal zu treffen?"
 
+# TODO: Translation updated at 2020-01-07 23:40
+
+# game/Quests/Question_Helper_Info.rpy:125
+translate german question_steve_ask_ralph_03a21e4f:
+
+    # help "Спросить у Ральфа по поводу Стива."
+    help "Frage Ralph wegen Steve."
+
