@@ -53,15 +53,7 @@ label start:
 
 ###################
 
-#    call ep210_dialogues4_dance_strip_1()
-#    call ()
-#    call ()
-#    call ()
-#    call ()
-#    call ()
-#    call ()
-#    call ()
-#    call ()
+#    call ep210_dialogues6_gun_monica_fred_1b()
 #    call ()
 #    call ()
 ###################
