@@ -8,4 +8,5 @@ label process_afterload:
     call ep29_quests_init()
     call ep29_revenge_quest1_init()
     call monica_cheats_init()
+    call ep210_quests_load_init()
     return

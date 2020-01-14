@@ -1,5 +1,6 @@
 default bettyEricBardiesroom = False  # Бетти согласилась задрать юбку при Эрике
 
+
 # прачечная (когда Моника вышла из дома)
 label ep210_dialogues3_bardie_erik_betty_1:
     # темный экран "тем временем"
@@ -60,6 +61,12 @@ label ep210_dialogues3_bardie_erik_betty_1:
     pause 1.5
     sound highheels_run2
     pause 1.5
+    return
+
+label ep210_dialogues3_bardie_erik_betty_1a:
+    # Моника комментирует
+    mt "Мне показалось или здесь был какой-то звук?"
+    mt "Кажется, кричала Бетти. Интересно на кого?"
     return
 
 # комната Барди
