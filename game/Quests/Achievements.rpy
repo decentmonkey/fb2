@@ -18,7 +18,9 @@ init python:
         ["PoleDance", _("Strip Dance"), c_red],
         ["Slums", _("Slums"), c_blue],
         ["HotelLeGrand", _("Hotel Le Grand"), c_green],
-        ["GasStation", _("Gas Station"), c_gray]
+        ["EscortService", _("Escort Service"), c_pink],
+        ["GasStation", _("Gas Station"), c_gray],
+        ["Revenge", _("Revenge"), c_red]
     ]
     achievements_list = {
         "Betty" : [
@@ -96,7 +98,21 @@ init python:
             ["20424", "Restaurant", "gallery_20424"],
             ["20434", "Tasty dish", "gallery_20434"],
             ["20438", "Tasty dish", "gallery_20438"],
-            ["20444", "Tasty dish", "gallery_20444"]
+            ["20444", "Tasty dish", "gallery_20444"],
+            ["22982", "", False],
+            ["23018", "", False]
+        ],
+        "EscortService": [
+            ["16086", "", False],
+            ["16102", "", False],
+            ["16115", "", False],
+            ["16262", "", False],
+            ["16283", "", False],
+            ["16292", "", False],
+            ["16340", "", False],
+            ["16404", "", False],
+            ["16446", "", False],
+            ["16455", "", False]
         ],
         "House": [
             ["5999", "Basement", "gallery_5999"],
@@ -140,7 +156,8 @@ init python:
             ["22079", "", "gallery_22079"],
             ["22113", "", "gallery_22113"],
             ["22180", "", "gallery_22180"],
-            ["22199", "", "gallery_22199"]
+            ["22199", "", "gallery_22199"],
+            ["16068", "", False]
         ],
         "College": [
             ["14747", "", "gallery_14747"],
@@ -183,7 +200,12 @@ init python:
             ["22416", "", "gallery_22416"],
             ["22476", "", "gallery_22476"],
             ["22503", "", "gallery_22503"],
-            ["22553", "", "gallery_22553"]
+            ["22553", "", "gallery_22553"],
+            ["23082", "", False],
+            ["16498", "", False],
+            ["16512", "", False],
+            ["23062", "", False],
+            ["16503", "", False]
         ],
 
         "Marcus": [
@@ -272,6 +294,11 @@ init python:
             ["20210", "", "gallery_20210"],
             ["13920", "", "gallery_13920"],
             ["20599", "", "gallery_20599"],
+            ["22917", "", False],
+            ["22924", "", False],
+            ["22943", "", False],
+            ["15882", "", False],
+
         ],
 
         "PublicEvents": [
@@ -279,7 +306,10 @@ init python:
             ["6757", "Biff", "gallery_6757"],
             ["6875", "Philip", "gallery_6875"],
             ["6915", "Philip", "gallery_6915"],
-            ["6996", "Helper", "gallery_6996"]
+            ["6996", "Helper", "gallery_6996"],
+            ["15958", "", False],
+            ["15995", "", False],
+            ["16009", "", False]
         ],
 
         "Office": [
@@ -363,7 +393,9 @@ init python:
             ["22786", "", "gallery_22786"],
             ["22803", "", "gallery_22803"],
             ["22819", "", "gallery_22819"],
-            ["22874", "", "gallery_22874"]
+            ["22874", "", "gallery_22874"],
+            ["16191", "", False],
+            ["16227", "", False]
             ],
         "PoleDance": [
             ["v_Monica_Strip_A1_end", "", "gallery_v_Monica_Strip_A1_end"],
@@ -395,7 +427,9 @@ init python:
             ["v_Monica_Strip_H3_end", "", "gallery_v_Monica_Strip_H3_end"],
             ["v_Monica_Strip_I1_end", "", "gallery_v_Monica_Strip_I1_end"],
             ["v_Monica_Strip_I2_end", "", "gallery_v_Monica_Strip_I2_end"],
-            ["v_Monica_Strip_I3_end", "", "gallery_v_Monica_Strip_I3_end"]
+            ["v_Monica_Strip_I3_end", "", "gallery_v_Monica_Strip_I3_end"],
+            ["23180", "", False],
+            ["23181", "", False]
         ],
 
         "Slums": [
@@ -487,6 +521,10 @@ init python:
             ["11699", "Tiffany", "gallery_11699"],
             ["12633", "Jane", "gallery_12633"],
             ["12638", "Jane", "gallery_12638"]
+        ],
+        "Revenge": [
+            ["23034", "", False],
+            ["23050", "", False]
         ]
     }
     achievements_labels = {
@@ -1194,8 +1232,38 @@ init python:
         "v_Monica_Strip_Undress1A" : "v_Monica_Strip_Undress1A_end",
         "v_Monica_Strip_Undress1B" : "v_Monica_Strip_Undress1B_end",
         "v_Monica_Strip_Undress1C" : "v_Monica_Strip_Undress1C_end",
-        "img_22874": "22874"
-
+        "img_22874": "22874",
+        "img_22917": "22917",
+        "img_22924": "22924",
+        "img_22943": "22943",
+        "img_15882": "15882",
+        "img_15958": "15958",
+        "img_15995": "15995",
+        "img_16009": "16009",
+        "img_16068": "16068",
+        "img_22982": "22982",
+        "img_16086": "16086",
+        "img_16102": "16102",
+        "img_16115": "16115",
+        "img_16404": "16404",
+        "img_16446": "16446",
+        "img_16455": "16455",
+        "img_23018": "23018",
+        "img_16262": "16262",
+        "img_16283": "16283",
+        "img_16292": "16292",
+        "img_16340": "16340",
+        "img_23034": "23034",
+        "img_23050": "23050",
+        "img_16191": "16191",
+        "img_16227": "16227",
+        "img_23180": "23180",
+        "img_23181": "23181",
+        "img_23082": "23082",
+        "img_16498": "16498",
+        "img_16512": "16512",
+        "img_23062": "23062",
+        "img_16503": "16503"
     }
 
 init python:
