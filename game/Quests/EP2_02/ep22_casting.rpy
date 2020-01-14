@@ -636,10 +636,28 @@ label ep22_casting:
 #                biff "Но папочке начинает надоедать одно и то же..."
             "Показать обнаженную попу. (фотосессия не завершена) (disabled)" if shotsAmountCompleted < shotsTotalAmount:
                 pass
+            "Раздеться и принимать различные модельные позы.":
+                $ store_music()
+                call ep210_dialogues1_office_biff_1a()
+                $ restore_music()
+                img 8445
+                biff "Хорошо, папочка доволен!"
             "Раздеться и принимать различные модельные позы. (disabled)":
                 pass
+            "Раздеться и встать на колени задом к Бифу.":
+                $ store_music()
+                call ep210_dialogues1_office_biff_1b()
+                $ restore_music()
+                img 8445
+                biff "Хорошо, папочка доволен!"
             "Раздеться и встать на колени задом к Бифу. (disabled)":
                 pass
+            "Раздеться и лечь на пол раздвинув ноги.":
+                $ store_music()
+                call ep210_dialogues1_office_biff_1c()
+                $ restore_music()
+                img 8445
+                biff "Хорошо, папочка доволен!"
             "Раздеться и лечь на пол раздвинув ноги. (disabled)":
                 pass
             "Раздеться и сесть на стол.":
