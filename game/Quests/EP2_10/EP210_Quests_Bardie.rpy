@@ -13,7 +13,7 @@ label ep210_quests_bardie_init:
 label ep210_quests_bardie1:
     # Моника заходит в прачечную
     # Начинается сцена Барди, Эрика и Бетти
-    if ep210_quests_bardie_day == day:
+    if ep210_quests_bardie_day == day or day_time != "evening":
         return
     $ remove_hook()
     call ep210_dialogues3_bardie_erik_betty_1()
