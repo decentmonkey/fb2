@@ -176,4 +176,7 @@ define girl_2 = Character(_("Девочка по вызову"), who_color=c_ora
 define girl_3 = Character(_("Девочка по вызову"), who_color=c_green)
 define girl_4 = Character(_("Девочка по вызову"), who_color=c_pink)
 
+define cafe_visitor1 = Character(_("Посетитель кафе"), who_color=c_blue)
+define cafe_visitor2 = Character(_("Посетитель кафе"), who_color=c_red)
+define cafe_barista = Character(_("Бариста"), who_color=c_pink)
 #

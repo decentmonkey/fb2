@@ -30,7 +30,7 @@ label street_corner_init:
 #                            $ contrast_adjustment = 1.3
 
 label street_corner_init2:
-    $ add_object_to_scene("Teleport_JuliaHome", {"type":3, "text" : _("ДОМ ЮЛИИ"), "rarrow" : "arrow_down_2", "base":"Street_Whores_Place_Car_Stop_Teleport_JuliaHome", "click" : "street_corner_teleport", "xpos" : 1713, "ypos" : 937, "zorder":15, "teleport":True, "high_sprite_hover":True})
+    $ add_object_to_scene("Teleport_JuliaHome", {"type":3, "text" : _("ДОМ ЮЛИИ"), "rarrow" : "arrow_down_2", "base":"Street_Whores_Place_Car_Stop_Teleport_JuliaHome", "click" : "street_corner_teleport", "xpos" : 1713, "ypos" : 937, "zorder":15, "teleport":True, "high_sprite_hover":True}, scene="street_corner")
     return
 
 label street_corner_teleport:
@@ -45,6 +45,12 @@ label street_corner_teleport:
             call change_scene("hostel_street3", "Fade", "snd_walk_barefoot") from _call_change_scene_2
             return
         call change_scene("hostel_street3", "Fade", "highheels_run2") from _call_change_scene_3
+        return
+    if obj_name == "Teleport_JuliaHome":
+        if cloth_type == "Nude":
+            call change_scene("street_juliahome", "Fade", "snd_walk_barefoot")
+            return
+        call change_scene("street_juliahome", "Fade", "highheels_run2")
         return
     return
 label street_corner_environment:

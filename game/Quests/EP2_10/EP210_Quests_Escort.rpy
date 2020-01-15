@@ -72,10 +72,6 @@ label ep210_quests_escort1_philip1: # Первая встреча с Филип�
     # Инициализируем дальнейший прогресс в escort service
     $ ep210_quests_escort_stage = 1
 
-#    $ map_objects ["Teleport_JuliaHome"] = {"text" : _("ДОМ ЮЛИИ"), "xpos" : 521, "ypos" : 1014, "base" : "map_marker", "state" : "visible"}
-#    call street_corner_init2()
-#    call locations_init_julia_street()
-
     call change_scene("rich_hotel_reception", "Fade_long")
     return
 

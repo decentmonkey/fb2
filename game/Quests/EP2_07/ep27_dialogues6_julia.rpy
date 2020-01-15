@@ -1,8 +1,8 @@
 label ep27_dialogues6_julia0:
     menu:
-        "Отношения с Юлией..." if juliaQuestLastDay != day:
+        "Отношения с Юлией..." if juliaQuestLastDay != day and e210_quests_julia_aborted == False:
             return 3
-        "Отношения с Юлией... (disabled)" if juliaQuestLastDay == day and juliaQuestStage0_Progress > 0:
+        "Отношения с Юлией... (disabled)" if (juliaQuestLastDay == day and juliaQuestStage0_Progress > 0):
             pass
         "Заставить Юлию собрать отчеты вместо Моники." if monicaWorkFlashCardQuestActive == True and monicaWorkFlashCardNeedReportsAmount > monicaWorkFlashCardReportsCollected and monicaWorkFlashCardReportLastDay != day:
             return 2

@@ -176,7 +176,9 @@ label map_environment:
     if obj_name == "Teleport_PhilipHome":
         call process_drive_teleport("PhilipHome", "street_philiphome")
         return
-
+    if obj_name == "Teleport_JuliaHome":
+        call process_drive_teleport("JuliaHome", "street_juliahome")
+        return
     m "drive!"
     return
 

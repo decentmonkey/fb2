@@ -1,3 +1,26 @@
+default monica_kissed_julia_cafe = False
+
+label ep210_julia_dialogue1:
+    menu:
+        "Поцеловать Юлию" if day_time == "day" and ep210_julia_kissed_day_day != day:
+            return 1
+        "Сделать Юлии массаж." if char_info["Julia"]["level"] >= 4 and ep210_julia_massage_day != day:
+            return 3
+        "Сделать Юлии массаж. (требуется ур.4) (disabled)" if char_info["Julia"]["level"] < 4:
+            pass
+        "Пригласить Юлию на второе свидание. (в следующем обновлении) (disabled)":
+            return 4
+        "Уйти.":
+            return 0
+    return
+
+label ep210_julia_dialogue1_evening:
+    menu:
+        "Поцеловать Юлию" if day_time == "evening" and ep210_julia_kissed_day_evening != day:
+            return 2
+        "Уйти.":
+            return 0
+    return
 # Офис. Кабинет Моники.
 # Моника заходит в свой кабинет, Юлия сидит за своим столом
 # при клике на Юлию вместо обычного меню отношений вызывыется эта сцена
@@ -75,12 +98,13 @@ label ep210_dialogues5_julia_1:
     m "!!!"
     m "С чего ты это взяла?!"
     # Юлия смущенно
-    music Groove2_85
+    music Hidden_Agenda
     img 16462
     with diss
     julia "Вы мне тоже очень... Нравитесь..."
     julia "Но я всегда боялась Вам сказать об этом..."
     # Моника смотрит на нее удивленно
+    music Groove2_85
     img 16463
     with diss
     mt "Я ей нравлюсь?"
@@ -106,8 +130,8 @@ label ep210_dialogues5_julia_1:
             with fade
             m "Перестань отвлекать меня от работы этой чушью!"
             m "И сама иди займись работой!!!"
-            img 22883
-            with diss
+#            img 22883
+#            with diss
             mt "Никчемная глупая помощница!!!"
             mt "!!!"
             return False
@@ -120,12 +144,12 @@ label ep210_dialogues5_julia_1:
     mt "Сейчас мне просто нужно подыграть ей!"
     mt "Притворюсь, что она тоже мне нравится."
     mt "..."
-    img 21952
+    img 16466
     with diss
     mt "Я же не могу рассказать ей про настоящую причину своего поведения..."
     mt "Про мерзавца Фреда. Иначе она узнает правду про меня. А мне этого не нужно."
     mt "..."
-    img 16466
+    img 21952
     with diss
     mt "Я эту глупую Юлию могу легко обмануть..."
     mt "Скажу, что она мне нравится..."
@@ -144,7 +168,7 @@ label ep210_dialogues5_julia_1:
     with diss
     m "Именно поэтому я щипала тебя за попу..."
     img 16470
-    with fade
+    with hpunch
     julia "Это правда?!"
     julia "Я Вам нравлюсь?!"
     julia "Поэтому Вы... Хотите залезть ко мне в трусики?"
@@ -175,7 +199,7 @@ label ep210_dialogues5_julia_1:
     img 16474
     with fadelong
     w
-
+    sound Jump1
     img 16475
     with fade
     w
@@ -221,12 +245,13 @@ label ep210_dialogues5_julia_1:
     with diss
     julia "Я живу рядом с трущобами..."
 
-    #
-    img 16485
-    with fade
-    mt "Надеюсь, не рядом с Shiny Hole..."
-    $ notif(_("Моника работает в пабе Shiny Hole"))
-    #
+    if monicaWorkingAsDishwasher == True:
+        #
+        img 16485
+        with fade
+        $ notif(_("Моника работает в пабе Shiny Hole"))
+        mt "Надеюсь, не рядом с Shiny Hole..."
+        #
     music Hidden_Agenda
     img 16486
     with diss
@@ -256,11 +281,14 @@ label ep210_dialogues5_julia_1:
     with fade
     mt "Фи... На какие жертвы приходится идти из-за этой глупой просьбы Фреда..."
     # далее обычный рабочий день.
-    $ log1 = _("Я решила подыграть этой никчемной Юлии. Отличный способ узнать цвет ее трусиков.") # квест лог
+#    $ log1 = _("Я решила подыграть этой никчемной Юлии. Отличный способ узнать цвет ее трусиков.") # квест лог
     return
 
 # при клике на Юлию после назначения 1-го свидания
 label ep210_dialogues5_julia_1_2:
+    music Loved_Up
+    img 16468
+    with fadelong
     julia "Миссис Бакфетт, я не могу дождаться нашего свидания в кафе!"
     julia "Скорее бы наступил завтрашний день!"
     return
@@ -274,7 +302,6 @@ label ep210_dialogues5_julia_2:
     mt "Я же договорилась с ней сегодня сходить в кафе."
     mt "Оно находится где-то рядом с трущобами."
     mt "Мне нужно сейчас идти на свидание с Юлией."
-    $ log1 = _("Пойти на свидание с Юлией.")
     return
 
 # ранее:
@@ -294,12 +321,12 @@ label ep210_dialogues5_julia_3_2:
     mt "Мне придется притвориться, что эта никчемная Юлия мне нравится."
     mt "Поверить не могу. Это же моя бывшая гувернантка..."
     mt "Как такая, как она, может понравиться такой леди, как Я?!"
-    return
+    return False
 
 label ep210_dialogues5_julia_3_3: # На улице, глазик на Монику, либо на Юлию, либо клик на дом Юлии
     mt "Мне надо добиться чтобы она позвала меня в гости."
     mt "Там я смогу увидеть цвет этих проклятых трусиков!.."
-    return
+    return False
 
 label ep210_dialogues5_julia_3_4: # На улице, Моника говорит с Юлией
     m "Юлия, может быть ты пригласишь меня к себе в гости?"
@@ -307,6 +334,11 @@ label ep210_dialogues5_julia_3_4: # На улице, Моника говорит
     julia "Я еще не готова к этому..."
     julia "Спасибо за вечер, мне очень понравилось!"
     mt "Проклятие!.."
+    return
+
+label ep210_dialogues5_julia_3_4a: # Приходит в неправильной одежде
+    mt "Мне лучше не ходить на свидание с Юлией в этом!"
+    mt "Надо одеть мое красивое платье!"
     return
 
 label ep210_dialogues5_julia_3_5: #Глазик на дом Юлии
@@ -325,7 +357,14 @@ label ep210_dialogues5_julia_3_7: #Попытка зайти в кафе
     mt "Да и бариста там какая-то дура!"
     return
 
-
+label ep210_dialogues5_julia_3_8:
+    $ menu_price = [15,0]
+    menu:
+        "Идти на свидание к Юлии.":
+            return True
+        "Уйти.":
+            return False
+    return
 
 # Моника заходит в кафе в трущобах
 label ep210_dialogues5_julia_3:
@@ -333,10 +372,13 @@ label ep210_dialogues5_julia_3:
     # Моника садится к ней за столик
     music stop
     img black_screen
-    with diss
+    with Dissolve(1)
+    call textonblack(_("Спустя некоторое время..."))
+    img black_screen
+    with Dissolve(1)
     sound highheels_short_walk
-    pause 1.0
     music Stealth_Groover
+    pause 1.0
     img 23076
     with fadelong
     mt "Надо же, какая она радостная..."
@@ -493,19 +535,21 @@ label ep210_dialogues5_julia_3:
     mt "!!!"
     mt "Сучка, уйди отсюда! Это не для твоих ушей!"
 
-# если Моника заставляла Юлию оттирать пятно на ковре
-    #
-    music Groove2_85
-    img 23112
-    with fade
-    julia "Почему тогда Вы так со мной обращались, Миссис Бакфетт?"
-    $ notif(_("Моника заставляла Юлию оттирать пятно на ковре"))
-    img 23113
-    with diss
-    mt "Черт!"
-    mt "Надо что-то придумать..."
-    mt "..."
-    #
+
+    if juliaPunished == True or juliaPunishedLow == True:
+    # если Моника заставляла Юлию оттирать пятно на ковре
+        #
+        music Groove2_85
+        img 23112
+        with fade
+        julia "Почему тогда Вы так со мной обращались, Миссис Бакфетт?"
+        $ notif(_("Моника заставляла Юлию оттирать пятно на ковре"))
+        img 23113
+        with diss
+        mt "Черт!"
+        mt "Надо что-то придумать..."
+        mt "..."
+        #
 
     music Hidden_Agenda
     img 23114
@@ -575,13 +619,14 @@ label ep210_dialogues5_julia_3:
     img 23123
     with diss
     sound vjuh3
+    sound2 snd_forkfall
     m "Ой, я уронила столовый прибор!"
     img 23124
     with fade
     w
     sound Jump2
     img 23125
-    with diss
+    with hpunch
     mt "Черт!!!"
     mt "Как обычно!"
     mt "!!!"
@@ -605,6 +650,10 @@ label ep210_dialogues5_julia_3:
     img 23129
     with fade
     m "Потому что ты мне нравишься..."
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     # Юлия смущается
     music Hidden_Agenda
     img 23130
@@ -658,7 +707,13 @@ label ep210_dialogues5_julia_3:
     cafe_barista "Да, Мэм. конечно! Не смею вам мешать..."
     img 23143
     with diss
+    sound highheels_short_walk
     w
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Groove2_85
     img 23144
     with fade
     julia "Я читала в одной книжке... О похожих отношениях... Таких как у нас с Вами..."
@@ -667,6 +722,7 @@ label ep210_dialogues5_julia_3:
     with diss
     m "Юлия, не бери в голову разные дурацкие книжки."
     m "Все будет хорошо, если мы захотим этого... Доверься мне..."
+    music Loved_Up
     img 23146
     with fade
     julia "Возможно Вы правы, Миссис Бакфетт..."
@@ -688,9 +744,11 @@ label ep210_dialogues5_julia_3:
     with diss
     m "..."
     m "Если я буду делать также, ты мне поверишь?"
+    music Loved_Up
     img 23150
     with fade
     julia "Да, Миссис Бакфетт..."
+    music Hidden_Agenda
     img 23151
     with diss
     mt "Хорошо было бы попасть к ней в гости и там посмотреть, какого цвета у нее белье..."
@@ -723,7 +781,7 @@ label ep210_dialogues5_julia_3:
     with diss
     sound highheels_short_walk
     pause 1.0
-    music Groove2_85
+    music Loved_Up
     img 23156
     with fadelong
     w
@@ -744,6 +802,7 @@ label ep210_dialogues5_julia_3:
             sound snd_kiss2
             w
             pass
+            $ monica_kissed_julia_cafe = True
         "Не целовать.":
             music Power_Bots_Loop
             mt "Нет, я не хочу этого делать!" # сердито
@@ -751,6 +810,8 @@ label ep210_dialogues5_julia_3:
             mt "Что за глупости?!"
             mt "!!!"
 #            return False
+    img black_screen
+    with diss
     sound highheels_short_walk
     pause 1.0
     music Groove2_85
@@ -776,7 +837,7 @@ label ep210_dialogues5_julia_3:
     img 23165
     with fade
     cafe_barista "Хорошо, мэм. Тогда $ 15."
-    $ log1 = _("Мне нужно каждый день целовать Юлию и говорить ей комплименты.") # квест лог
+#    $ log1 = _("Мне нужно каждый день целовать Юлию и говорить ей комплименты.") # квест лог
     return
 
 # если Моника все делает правильно, то уровень Юлии повышается
@@ -903,7 +964,7 @@ label ep210_dialogues5_julia_4_2:
     mt "Ого! Даже так?!"
     mt "Чувствую, я на верном пути..."
     # Юлия садится на свое место
-    return
+    return True
 
 # Офис. Кабинет Моники. Моника, уходя с работы
 label ep210_dialogues5_julia_4_3:
@@ -918,11 +979,11 @@ label ep210_dialogues5_julia_4_3:
     # подходит к Юлии и целует ее в щечку
     img 16512
     with diss
+    sound snd_kiss2
     w
     music Loved_Up
     img 16511
     with fade
-    sound snd_kiss2
     m "Мне пора идти по делам."
     m "До встречи..."
     m "Милая..."
@@ -1012,7 +1073,7 @@ label ep210_dialogues5_julia_5:
     menu:
         "Заглянуть Юлии под платье.":
             pass
-        "Не заглядывать. (завершение сюжета с Юлией)":
+        "Не заглядывать.":
             music Power_Bots_Loop
             mt "Нет, я не буду этого делать!"
             mt "Мне надоело играть в эту глупую игру мерзавца Фреда!"
@@ -1084,7 +1145,7 @@ label ep210_dialogues5_julia_5:
     mt "Как же меня это бесит!"
     mt "Никчемная бесполезная Юлия!!!"
     mt "!!!"
-    return
+    return True
 
 
 

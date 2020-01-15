@@ -11,6 +11,11 @@ label juliaProgressLevelUp:
         $ char_data["caption"] = _("Юлия стесняется комплиментов Моники и боится ее.")
     if char_data["level"] == 3:
         $ char_data["enabled"] = False
+        $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+
+    if char_data["level"] == 4:
+        $ char_data["enabled"] = False
+        $ char_data["caption_diabled"] = _("Work in progress...")
 #    $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
 #    $ char_data["show_caption_diabled"] = True
 #    if char_data["level"] == 4:

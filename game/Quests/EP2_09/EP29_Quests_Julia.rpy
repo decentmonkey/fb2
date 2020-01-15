@@ -121,12 +121,15 @@ label ep29_quests_julia3d:
     call ep29_dialogues1_julia_10() from _call_ep29_dialogues1_julia_10
     $ juliaQuestStage1_workers_progress = 3
     $ juliaQuestStage1_workers_progress_day = day
-    $ add_hook("before_open", "ep29_quests_julia3e", scene="working_office", label="ep29_quests_julia3e")
-    $ add_hook("before_open", "ep29_quests_julia3e", scene="working_office_cabinet", label="ep29_quests_julia3e")
+    call ep210_quests_julia_init()
+#    $ add_hook("before_open", "ep29_quests_julia3e", scene="working_office", label="ep29_quests_julia3e")
+#    $ add_hook("before_open", "ep29_quests_julia3e", scene="working_office_cabinet", label="ep29_quests_julia3e")
     return
 
 label ep29_quests_julia3e:
     # Продолжение квеста
+    call ep210_quests_julia_init()
+    $ remove_hook(label="ep29_quests_julia3e")
     return
 
 

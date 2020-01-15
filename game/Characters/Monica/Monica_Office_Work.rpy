@@ -91,11 +91,13 @@ label office_life_evening:
 label office_life_day1:
     $ monicaOfficeWorkedToday = False
     if week_day != 7: # Если не воскресенье
-        $ move_object("Julia", "working_office_cabinet") # Юлия идет на работу
+        if ep210_julia_not_at_work == False:
+            $ move_object("Julia", "working_office_cabinet") # Юлия идет на работу
         $ set_active(True, group="workers", scene="working_office") # Сотрудники на работе
         $ set_active(True, group="workers", scene="working_office2")
     else:
-        $ move_object("Julia", "empty") # Юлия отдыхает
+        if ep210_julia_not_at_work == False:
+            $ move_object("Julia", "empty") # Юлия отдыхает
 
 
 #    $ move_object("Biff", "empty")
@@ -110,7 +112,8 @@ label office_life_evening1:
         $ add_office_working_day(False)
     $ monicaOfficeWorkedToday = False
 
-    $ move_object("Julia", "empty") # Юлия отдыхает
+    if ep210_julia_evening_at_work == False:
+        $ move_object("Julia", "empty") # Юлия отдыхает
     $ set_active(False, group="workers", scene="working_office") # Сотрудники уходят с работы
     $ set_active(False, group="workers", scene="working_office2")
 
@@ -227,7 +230,8 @@ label office_work_begin1:
     with diss
     pause 1.5
     $ monicaOfficeWorkedToday = True
-    $ move_object("Julia", "empty") # Юлия уходит с работы (обычный день)
+    if ep210_julia_evening_at_work == False:
+        $ move_object("Julia", "empty") # Юлия уходит с работы (обычный день)
     $ changeDayTime("evening")
     $ rand1 = random.choice([2,3,4,5])
     $ workingOfficeCabinetMonicaSuffix = rand1
@@ -253,7 +257,8 @@ label office_work_begin2:
 label office_work_process1:
     # Процессим работу
     # Заходит 1 человек в день
-    call ep26_quests_office_workers2(1) from _call_ep26_quests_office_workers2
+    if ep210_julia_not_at_work == False:
+        call ep26_quests_office_workers2(1) from _call_ep26_quests_office_workers2
     return
 
 label office_work_comment1:
