@@ -636,7 +636,7 @@ label ep22_casting:
 #                biff "Но папочке начинает надоедать одно и то же..."
             "Показать обнаженную попу. (фотосессия не завершена) (disabled)" if shotsAmountCompleted < shotsTotalAmount:
                 pass
-            "Раздеться и принимать различные модельные позы." if char_info["Biff"]["level"] >= 2:
+            "Раздеться и принимать различные модельные позы." if char_info["Biff"]["level"] >= 2 and biffLevel3Opened == True:
                 $ store_music()
                 call ep210_dialogues1_office_biff_1a()
                 $ restore_music()
@@ -645,7 +645,7 @@ label ep22_casting:
                 if biffCastingStage < 1:
                     $ biffCastingStage = 1
                 $ add_char_progress("Biff", biffFlashCardQuestReportPose1, "biffFlashCardQuestReportPose1" + str(day))
-            "Раздеться и принимать различные модельные позы. (требуется ур.2) (disabled)" if char_info["Biff"]["level"] < 2:
+            "Раздеться и принимать различные модельные позы. (требуется ур.2) (disabled)" if char_info["Biff"]["level"] < 2 or biffLevel3Opened != True:
                 pass
             "Раздеться и встать на колени задом к Бифу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 1:
                 $ store_music()

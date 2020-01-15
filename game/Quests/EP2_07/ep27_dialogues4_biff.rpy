@@ -316,7 +316,7 @@ label ep27_dialogues4_biff5:
                     $ add_corruption(10, "flash_card_quest_biff_reports_day_" + str(day))
                     $ add_char_progress("Biff", biffFlashCardQuestReportAss, "biffFlashCardQuestReportAss" + str(day))
 
-                "Раздеться и принимать различные модельные позы." if char_info["Biff"]["level"] >= 2:
+                "Раздеться и принимать различные модельные позы." if char_info["Biff"]["level"] >= 2 and biffLevel3Opened == True:
                     $ store_music()
                     call ep210_dialogues1_office_biff_1a()
                     $ restore_music()
@@ -325,7 +325,7 @@ label ep27_dialogues4_biff5:
                     if biffCastingStage < 1:
                         $ biffCastingStage = 1
                     $ add_char_progress("Biff", biffFlashCardQuestReportPose1, "biffFlashCardQuestReportPose1" + str(day))
-                "Раздеться и принимать различные модельные позы. (требуется ур.2) (disabled)" if char_info["Biff"]["level"] < 2:
+                "Раздеться и принимать различные модельные позы. (требуется ур.2) (disabled)" if char_info["Biff"]["level"] < 2 or biffLevel3Opened != True:
                     pass
                 "Раздеться и встать на колени задом к Бифу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 1:
                     $ store_music()
