@@ -508,6 +508,7 @@ label ep24_quests_steve34:
     if _return == False:
         return False
     $ remove_objective("ask_ralph")
+    call question_helper_disable()
     $ add_objective("wait_for_steve", _("Дождаться второго прихода Стива в субботу."), c_blue, 55)
 
     $ remove_hook(label="steve_ralph_visit2")

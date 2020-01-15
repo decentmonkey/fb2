@@ -122,6 +122,8 @@ label question_clothing_shop_sell_dress:
     return
 
 label question_steve_ask_ralph:
+    img 5806
+    with fadelong
     help "Спросить у Ральфа по поводу Стива."
     return
 
