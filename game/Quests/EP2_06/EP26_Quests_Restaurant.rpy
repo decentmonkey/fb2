@@ -62,7 +62,9 @@ label ep26_quests_restaurant3:
             call monicaEat() from _call_monicaEat_15
         $ richHotelReceptionMonicaSuffix = 2
         $ richHotelReceptionReceptionSuffix = 2
-        call change_scene("rich_hotel_reception", "Fade_long") from _call_change_scene_342
+        if restaurant_block_return_flag_once == False:
+            call change_scene("rich_hotel_reception", "Fade_long") from _call_change_scene_342
+        $ restaurant_block_return_flag_once = False
     else:
         # Если Моника помогла официантке
         call ep26_dialogues4_restaurant4() from _call_ep26_dialogues4_restaurant4
@@ -71,5 +73,7 @@ label ep26_quests_restaurant3:
             call monicaEat() from _call_monicaEat_16
         $ richHotelReceptionMonicaSuffix = 2
         $ richHotelReceptionReceptionSuffix = 2
-        call change_scene("rich_hotel_reception", "Fade_long") from _call_change_scene_343
+        if restaurant_block_return_flag_once == False:
+            call change_scene("rich_hotel_reception", "Fade_long") from _call_change_scene_343
+        $ restaurant_block_return_flag_once = False
     return

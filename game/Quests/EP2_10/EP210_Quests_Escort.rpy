@@ -1,3 +1,7 @@
+default monica_escort_service_started = False
+default monica_escort_service_started_day = 0
+default restaurant_block_return_flag_once = False
+
 default ep210_quests_escort_stage = 0
 default monica_philip_visits = 0
 default monica_philip_visits_stage = 1
@@ -8,9 +12,15 @@ default monica_philip_visits_blowjobs = 0
 default monica_philip_visits_sex = 0
 default monica_philip_visits_swallowed = 0
 
+default ep210_quests_escort_staff_refused = False
+
 label ep210_quests_escort_eat_process:
     if ep210_quests_escort_stage == 0 and ep22_quests_monica_presentation_completed == True:
         call ep210_quests_escort1_philip1()
+        return False
+    if ep210_quests_escort_stage == 1 and ep210_quests_escort_staff_refused == False:
+        call ep210_quests_escort1_hotel_staff1()
+        $ restaurant_block_return_flag_once = True
         return False
     return
 
@@ -58,6 +68,10 @@ label ep210_quests_escort1_philip1: # Первая встреча с Филип�
     $ map_objects ["Teleport_PhilipHome"] = {"text" : _("ДОМ ФИЛИППА"), "xpos" : 1767, "ypos" : 242, "base" : "map_marker", "state" : "visible"}
     $ add_hook("map_teleport", "ep210_quests_escort1_philip3_map", scene="global", label="philiphome_outfit_restrict")
     $ add_hook("Teleport_Building", "ep210_quests_escort1_philip4_enter", scene="street_philiphome")
+
+    # Инициализируем дальнейший прогресс в escort service
+    $ ep210_quests_escort_stage = 1
+
 #    $ map_objects ["Teleport_JuliaHome"] = {"text" : _("ДОМ ЮЛИИ"), "xpos" : 521, "ypos" : 1014, "base" : "map_marker", "state" : "visible"}
 #    call street_corner_init2()
 #    call locations_init_julia_street()
@@ -66,6 +80,7 @@ label ep210_quests_escort1_philip1: # Первая встреча с Филип�
     return
 
 label ep210_quests_escort1_philip2: # Повторный квест с Филиппом
+    $ remove_hook()
     call ep210_dialogues2_escort_start_Phillip_3a()
     $ move_object("Philip", "empty")
     $ ep210_quests_escort_stage = 0
@@ -187,11 +202,96 @@ label ep210_quests_escort1_philip5_bitch1_street_leave:
     $ move_object("Bitch1", "empty")
     return
 
+label ep210_quests_escort1_hotel_staff1: # К Монике подходит сотрудник отеля во время ужина
+    call ep210_dialogues7_escort_hotel_1()
+    $ add_hook("Teleport_Rich_Hotel_Reception", "ep210_dialogues7_escort_hotel_5", scene="street_rich_hotel", label=["hotel_restrict_today", "evening_time_temp"]) # Блокируем отель на сегодня
+    if _return == False:
+        $ autorun_to_object("ep210_dialogues7_escort_hotel_4", scene="street_rich_hotel")
+        $ move_object("HotelStaff", "rich_hotel_reception")
+        $ add_hook("HotelStaff", "ep210_quests_escort1_hotel_staff2", scene="rich_hotel_reception", label="ep210_quests_escort1_hotel_staff2")
+        $ ep210_quests_escort_staff_refused = True
+        call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1")
+        return
 
+    # Минет в корридоре
+    call ep210_dialogues7_escort_hotel_2()
+    if _return == False:
+        $ autorun_to_object("ep210_dialogues7_escort_hotel_4", scene="street_rich_hotel")
+        $ move_object("HotelStaff", "rich_hotel_reception")
+        $ add_hook("HotelStaff", "ep210_quests_escort1_hotel_staff2", scene="rich_hotel_reception", label="ep210_quests_escort1_hotel_staff2")
+        $ ep210_quests_escort_staff_refused = True
+        call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1")
+        return
 
+    $ ep210_quests_escort_stage = 2
+    $ autorun_to_object("ep210_dialogues7_escort_hotel_3", scene="street_rich_hotel")
+    $ add_hook("Teleport_Restaurant", "ep210_quests_escort1_reception", scene="rich_hotel_reception", label="ep210_quests_escort1_reception")
+    call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1")
+    return
 
+label ep210_quests_escort1_hotel_staff2: # Старт прихода сотрудника отеля снова
+    $ remove_hook()
+    call ep210_dialogues2_escort_start_HotelStaff_3b()
+    $ move_object("HotelStaff", "empty")
+    $ ep210_quests_escort_staff_refused = False
+    call refresh_scene_fade()
+    return
 
+label ep210_quests_escort1_reception: # Разговор с рецепшин о начале escort service
+    call ep210_dialogues7_escort_hotel_6()
+    if _return == False:
+        $ autorun_to_object("ep210_dialogues7_escort_hotel_7b", scene="street_rich_hotel")
+        $ add_hook("Teleport_Rich_Hotel_Reception", "ep210_dialogues7_escort_hotel_5", scene="street_rich_hotel", label=["hotel_restrict_today", "evening_time_temp"]) # Блокируем отель на сегодня
+        call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1")
+        return False
 
+    # Кастинг в корридоре
+    call ep210_dialogues7_escort_hotel_7()
+    if _return == False:
+        $ autorun_to_object("ep210_dialogues7_escort_hotel_7b", scene="street_rich_hotel")
+        $ add_hook("Teleport_Rich_Hotel_Reception", "ep210_dialogues7_escort_hotel_5", scene="street_rich_hotel", label=["hotel_restrict_today", "evening_time_temp"]) # Блокируем отель на сегодня
+        call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1")
+        return False
+
+    # Старт эскорта
+    $ monica_escort_service_started = True
+    $ monica_escort_service_started_day = day
+    $ remove_hook(label="ep210_quests_escort1_reception")
+    $ remove_hook(label="reception_capturing_monica")
+    $ add_objective("start_escort", _("Прийти в отель ЛеГранд завтра."), c_pink, 90)
+    $ questLog(62, True)
+    $ autorun_to_object("ep210_dialogues7_escort_hotel_7a", scene="street_rich_hotel")
+
+    $ add_hook("Teleport_Rich_Hotel_Reception", "ep210_dialogues7_escort_hotel_7e", scene="street_rich_hotel", label="hotel_escort_enter1", once=True) # Комментарий при входе в отель
+    $ add_hook("Teleport_Rich_Hotel_Reception", "ep210_dialogues7_escort_hotel_7c", scene="street_rich_hotel", label=["hotel_restrict_today", "evening_time_temp"]) # Блокируем отель на сегодня
+
+    # Вешаем обработку эскорта на вход в ресторан и на рецепшин
+    $ add_hook("Teleport_Restaurant", "ep210_quests_escort2", scene="rich_hotel_reception", label="ep210_quests_escort2")
+    $ add_hook("ReceptionGirl", "ep210_quests_escort2_reception", scene="rich_hotel_reception", label="ep210_quests_escort2")
+
+    call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1")
+
+    return False
+
+label ep210_quests_escort2: # Входит в отель на следующий день
+    $ remove_objective("start_escort")
+    call ep210_dialogues7_escort_hotel_8_menu()
+    if _return == 1:
+        if richHotelMonicaEatedDay == day:
+            call ep26_dialogues4_restaurant5()
+            return False
+        call ep210_dialogues7_escort_hotel_8_enter_restaurant()
+        # Входим в ресторан
+        call change_scene("rich_hotel_restaurant_entrance", "Fade_long")
+        return False
+
+    return False
+
+label ep210_quests_escort2_reception:
+    if act=="l":
+        return
+    call ep210_quests_escort2()
+    return _return
 
 
 

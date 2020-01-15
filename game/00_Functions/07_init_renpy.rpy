@@ -171,4 +171,9 @@ define investor4 = Character(_("Инвестор"), who_color=c_blue)
 
 define whore_number_1 = Character(_("Шлюха номер 1"), who_color=c_pink)
 
+define girl_1 = Character(_("Девочка по вызову"), who_color=c_red)
+define girl_2 = Character(_("Девочка по вызову"), who_color=c_orange)
+define girl_3 = Character(_("Девочка по вызову"), who_color=c_green)
+define girl_4 = Character(_("Девочка по вызову"), who_color=c_pink)
+
 #

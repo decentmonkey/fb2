@@ -316,16 +316,18 @@ label ep26_dialogues4_restaurant3:
     with diss
     pause 2.0
     $ monica_eated()
-    # смотрят
-    music Hidden_Agenda
-    img 20445
-    with fadelong
-    w
-    #
-    $ images_list = random.sample(set([20446, 20447, 20448, 20449]), 1)
-    img images_list[0]
-    with diss
-    mt "Интересно, почему та девушка так смотрит на меня?"
+
+    if monica_escort_service_started == False:
+        # смотрят
+        music Hidden_Agenda
+        img 20445
+        with fadelong
+        w
+        #
+        $ images_list = random.sample(set([20446, 20447, 20448, 20449]), 1)
+        img images_list[0]
+        with diss
+        mt "Интересно, почему та девушка так смотрит на меня?"
 
     call ep210_quests_escort_eat_process()
     if _return == False:
@@ -488,16 +490,17 @@ label ep26_dialogues4_restaurant4:
     with diss
     pause 2.0
     $ monica_eated()
-    # смотрят
-    music Hidden_Agenda
-    img 20445
-    with fadelong
-    w
-    #
-    $ images_list = random.sample(set([20446, 20447, 20448, 20449]), 1)
-    img images_list[0]
-    with diss
-    mt "Интересно, почему та девушка так смотрит на меня?"
+    if monica_escort_service_started == False:
+        # смотрят
+        music Hidden_Agenda
+        img 20445
+        with fadelong
+        w
+        #
+        $ images_list = random.sample(set([20446, 20447, 20448, 20449]), 1)
+        img images_list[0]
+        with diss
+        mt "Интересно, почему та девушка так смотрит на меня?"
 
     call ep210_quests_escort_eat_process()
     if _return == False:

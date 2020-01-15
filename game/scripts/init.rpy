@@ -5,6 +5,18 @@ define monica_philip_ask_money1_corruption = 2 # Дается за то что �
 define monicaPhilipVisitBlowjobCorruption = 10 # За минет
 define monicaPhilipVisitSexCorruption = 10 # За секс
 
+define monicaHotelStaffBlowjobCorruption1 = 300 # Моника соглашается пойти с сотрудником отеля
+define monicaHotelStaffBlowjobCorruption2 = 320 # Моника соглашается сделать минет
+define monicaHotelStaffBlowjobCorruptionEarn = 20 # За минет
+
+define monicaReceptionConversationCorruption1 = 340
+define monicaReceptionConversationCorruption2 = 345
+define monicaReceptionConversationCorruption3 = 350
+define monicaReceptionConversationCorruption4 = 360
+define monicaReceptionConversationCorruption5 = 370
+define monicaReceptionConversationCorruption6 = 380
+define monicaReceptionConversationCorruption7 = 400
+define monicaReceptionConversationCorruption8 = 420
 
 #v0.9 pub
 define monicaForgivenessDancingAgreeCorruption = 250 # Моника соглашается танцевать, чтобы отработать деньги (из меню)
