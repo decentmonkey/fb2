@@ -352,6 +352,8 @@ screen achievements_screen():
                                     Call("process_gallery", cellsList[i][2])
                                 ]
                         else:
+                            add "images/Achievements/ach_" + cellsList[i][0] + ".jpg":
+                                pos(posX, posY + curY)
                             add "gui/gallery_frame" + res.suffix + ".png":
                                 pos(posX-gui.resolution.gallery.frame.offset, posY-gui.resolution.gallery.frame.offset + curY)
                     else:
