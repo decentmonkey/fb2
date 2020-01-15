@@ -6,7 +6,11 @@ label ep210_dialogues6_gun_monica_fred_1a:
     return
 
 label ep210_dialogues6_gun_monica_fred_1b:
-    music Groove2_85
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Master_Disorder
     img 23019
     with fadelong
     mt "Итак..."
@@ -35,7 +39,7 @@ label ep210_dialogues6_gun_monica_fred_1b:
     mt "Он знал про все, что случилось со мной!"
     mt "Откуда?!"
     mt "Я начну с Фреда, с этого мерзавца..."
-    $ log1 = _("Идти к Фреду")
+#    $ log1 = _("Идти к Фреду")
     return
 
 label ep210_dialogues6_gun_monica_fred_1c:
@@ -43,12 +47,17 @@ label ep210_dialogues6_gun_monica_fred_1c:
     mt "Фред обычно во дворе у машины..."
     return
 
+label ep210_dialogues6_gun_monica_fred_1c_false:
+    #autorun
+    mt "Фред обычно во дворе у машины..."
+    return False
+
 label ep210_dialogues6_gun_monica_fred_1d:
     # Разговор с Фредом
     if act=="l":
         mt "Ага, вот он..."
         return
-    music Groove2_85
+    music Master_Disorder
     img 23023
     with fadelong
     m "Фред, Привет..."
@@ -79,24 +88,29 @@ label ep210_dialogues6_gun_monica_fred_1d:
     with diss
     fred "Я рад что Вы наконец-то это поняли, Миссис Бакфетт!"
     fred "Итак, как же вы собираетесь со мной 'Дружить'?"
+    music Master_Disorder
     img 23030
-    with fade
+    with fadelong
     m "Я понимаю, Фред, что ты вкладываешь в это слово..."
     m "Я согласна спать с тобой Фред, но за это ты будешь помогать мне..."
+    music Groove2_85
     img 23031
     with diss
     fred "Конечно, Миссис Бакфетт... Помогать Вам - это моя профессиональная обязанность!"
     fred "Но Вы должны понимать, что профессиональная дружба несет в себе определенное требование..."
     m "Какое?"
     fred "Вы должны будете оказывать мне профессиональные услуги в любое время, когда возникнет потребность в них..."
+    music Master_Disorder
     img 23032
     with fade
     m "Да... Фред... Я понимаю..."
     m "Я согласна оказывать тебе свои... профессиональные услуги..."
     m "В любой момент, когда ты пожелаешь..."
+    music Groove2_85
     img 23033
     with diss
     fred "Я рад это слышать, Миссис Бакфетт! Наша профессиональная дружба будет долгой и плодотворной!"
+    music Master_Disorder
     img 23034
     with fade
     m "Может быть ты желаешь воспользоваться мной прямо сейчас?"
@@ -115,6 +129,7 @@ label ep210_dialogues6_gun_monica_fred_1d:
     # затемнение
     # оказываются в подвале в спальне Моники
     # Моника стоит лицом к ящику, Фред берет ее за попу
+    music stop
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
@@ -132,17 +147,22 @@ label ep210_dialogues6_gun_monica_fred_1d:
     with diss
     fred "О, Миссис Бакфетт... На Вас нет трусиков..."
     # Открывается ящик, Моника смотрит на пистолет
+    music Master_Disorder
     img 23041
     with fade
     m "Да, Фред..."
     m "Я специально не стала их одевать, чтобы тебе было удобно использовать меня в любой момент..."
+    music Loved_Up
+    sound Jump1
     img 23042
     with diss
     fred "А я думал Вы соблюдаете правила этого дома..."
     fred "Которые установил маленький хозяин..."
+    music Master_Disorder
     img 23043
     with fade
     m "В этот раз я не стала одевать трусики специально для тебя, Фред..."
+    music Loved_Up
     img 23044
     with diss
     fred "Как это мило..."
@@ -160,6 +180,10 @@ label ep210_dialogues6_gun_monica_fred_1d:
     img 23048
     with diss
     m "Да, Фред... Один момент..."
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
     # Моника берет пистолет и целится в Фреда
     music vendetta
     img 23049
@@ -168,9 +192,36 @@ label ep210_dialogues6_gun_monica_fred_1d:
     img 23050
     with fade
     m "Вот ты и попался..."
+
+    stop music
+    sound snd_cinematic_impact
+
+    img black_screen
+#    pause 2.0
+    $ renpy.pause(4.0, hard=True)
+    music Continue_Life
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack("TO BE CONTINUED IN THE NEXT UPDATE")
+    img black_screen
+    with Dissolve(2.0)
+    $ renpy.pause(2.0, hard=True)
+    img black_screen
+    with Dissolve(0.5)
+    img Patreon_Game_Logo
+    with Dissolve(0.7)
+    $ renpy.pause(1.0, hard=True)
+##    pause 4.0
+    $ renpy.pause(4.0, hard=True)
+    img black_screen
+    with Dissolve(0.7)
+    $ renpy.pause(3.0, hard=True)
+##    pause 30.0
+##    music stop
+##    pause 1.0
+    call credits()
+    $ MainMenu(confirm=False)()
     return
-
-
 
 label ep210_dialogues6_gun_monica_fred_1:
     # Моника лежит на кровати и смотрит на прикроватную тумбочку, где закрыт пистолет

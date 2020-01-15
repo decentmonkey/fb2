@@ -453,6 +453,19 @@ label ep29_dialogues5_gun_monica_10b:
 #    pause 1.8
     stop music
     sound snd_cinematic_impact
+
+    img black_screen
+#    pause 2.0
+    $ renpy.pause(1.5, hard=True)
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack("FASHION BUSINESS")
+    img black_screen
+    with Dissolve(2.0)
+    return
+
+
     img black_screen
 #    pause 2.0
     $ renpy.pause(4.0, hard=True)
