@@ -315,7 +315,7 @@ label ep26_dialogues4_restaurant3:
     img black_screen
     with diss
     pause 2.0
-
+    $ monica_eated()
     # смотрят
     music Hidden_Agenda
     img 20445
@@ -487,7 +487,7 @@ label ep26_dialogues4_restaurant4:
     img black_screen
     with diss
     pause 2.0
-
+    $ monica_eated()
     # смотрят
     music Hidden_Agenda
     img 20445
