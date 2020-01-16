@@ -199,9 +199,9 @@ label ep27_photoshoot_suit8_pose1:
         music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS8_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20533, 20534, 20535], PS8_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -272,9 +272,9 @@ label ep27_photoshoot_suit8_pose2:
         music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS8_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20537, 20538, 20539], PS8_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -347,9 +347,9 @@ label ep27_photoshoot_suit8_pose3:
         music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS8_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20541, 20543, 20542], PS8_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -428,9 +428,9 @@ label ep27_photoshoot_suit8_pose4:
         music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS8_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20545, 20546, 20547], PS8_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -529,9 +529,9 @@ label ep27_photoshoot_suit8_pose5:
         music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS8_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20549, 20550, 20551], PS8_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -613,9 +613,9 @@ label ep27_photoshoot_suit8_pose6:
         music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS8_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20553, 20555, 20556], PS8_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -694,9 +694,9 @@ label ep27_photoshoot_suit8_pose7:
         music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS8_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20559, 20558, 20560], PS8_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -762,9 +762,9 @@ label ep27_photoshoot_suit8_pose8:
         $ arrowDown = True
         return
     show screen photoshoot_camera_icon(PS8_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20562, 20569, 20586], PS8_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -993,8 +993,8 @@ label ep27_photoshoot_suit8_pose8:
         with diss
         alex_photograph "Ой!"
 
-        hide screen photoshoot_camera_icon
-        hide screen photoshoot
+        hide screen photoshoot2_camera_icon
+        hide screen photoshoot2
         music stop
         img black_screen
         with diss
@@ -1022,8 +1022,8 @@ label ep27_photoshoot_suit8_pose8:
 
 
 label ep27_photoshoot_suit8_end:
-    hide screen photoshoot_camera_icon
-    hide screen photoshoot
+    hide screen photoshoot2_camera_icon
+    hide screen photoshoot2
     music Groove2_85
 
     # думает

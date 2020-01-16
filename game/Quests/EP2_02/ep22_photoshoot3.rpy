@@ -69,9 +69,9 @@ label ep22_photoshoot3:
             music stop
             jump ep22_photoshoot3_pose2
         show screen photoshoot_camera_icon(PS3_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8390, 8391, 8392], PS3_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot3_pose1
@@ -137,9 +137,9 @@ label ep22_photoshoot3:
             alex_photograph "Следующая поза, Миссис Бакфетт!"
             jump ep22_photoshoot3_pose3
         show screen photoshoot_camera_icon(PS3_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8394, 8395, 8396], PS3_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot3_pose2
@@ -219,9 +219,9 @@ label ep22_photoshoot3:
                 return
             jump ep22_photoshoot3_pose4
         show screen photoshoot_camera_icon(PS3_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8398, 8399, 8400], PS3_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot3_pose3
@@ -285,9 +285,9 @@ label ep22_photoshoot3:
             alex_photograph "Следующая поза, Миссис Бакфетт!"
             jump ep22_photoshoot3_pose5
         show screen photoshoot_camera_icon(PS3_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8402, 8403, 8404], PS3_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot3_pose4
@@ -362,9 +362,9 @@ label ep22_photoshoot3:
             alex_photograph "Следующая поза, Миссис Бакфетт!"
             jump ep22_photoshoot3_pose6
         show screen photoshoot_camera_icon(PS3_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8406, 8407, 8409], PS3_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot3_pose5
@@ -502,9 +502,9 @@ label ep22_photoshoot3:
             with fadelong
             jump ep22_photoshoot3_pose7
         show screen photoshoot_camera_icon(PS3_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8413, 8411, 8412], PS3_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot3_pose6
@@ -632,9 +632,9 @@ label ep22_photoshoot3:
             $ arrowDown = True
             return
         show screen photoshoot_camera_icon(PS3_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8420, 8425, 8429], PS3_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot3_pose7
@@ -745,8 +745,8 @@ label ep22_photoshoot3:
     return
 
 label ep22_photoshoot3_end:
-    hide screen photoshoot_camera_icon
-    hide screen photoshoot
+    hide screen photoshoot2_camera_icon
+    hide screen photoshoot2
 
     $ monicaOutfitsEnabled[3] = True # Открываем следующий костюм
     music Stealth_Groover

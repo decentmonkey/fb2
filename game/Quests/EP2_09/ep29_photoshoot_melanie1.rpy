@@ -32,9 +32,9 @@ label ep29_photoshoot_melanie_suit1_pose1:
 #        music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS_Melanie_1_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([22594, 22595, 22596], PS_Melanie_1_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -91,9 +91,9 @@ label ep29_photoshoot_melanie_suit1_pose2:
 #        music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS_Melanie_1_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([22598, 22599, 22600], PS_Melanie_1_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -151,9 +151,9 @@ label ep29_photoshoot_melanie_suit1_pose3:
 #        music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS_Melanie_1_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([22602, 22603, 22604], PS_Melanie_1_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -210,9 +210,9 @@ label ep29_photoshoot_melanie_suit1_pose4:
 #        music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS_Melanie_1_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([22606, 22607, 22608], PS_Melanie_1_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -270,9 +270,9 @@ label ep29_photoshoot_melanie_suit1_pose5:
 #        music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS_Melanie_1_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([22610, 22611, 22612], PS_Melanie_1_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -334,9 +334,9 @@ label ep29_photoshoot_melanie_suit1_pose6:
 #        music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS_Melanie_1_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([22614, 22615, 22616], PS_Melanie_1_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -394,9 +394,9 @@ label ep29_photoshoot_melanie_suit1_pose7:
 #        music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS_Melanie_1_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([22618, 22619, 22620], PS_Melanie_1_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -453,9 +453,9 @@ label ep29_photoshoot_melanie_suit1_pose8:
         #music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS_Melanie_1_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([22622, 22623, 22624], PS_Melanie_1_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -512,9 +512,9 @@ label ep29_photoshoot_melanie_suit1_pose9:
         #music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS_Melanie_1_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([22626, 22627, 22628], PS_Melanie_1_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -574,9 +574,9 @@ label ep29_photoshoot_melanie_suit1_pose10:
         #music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS_Melanie_1_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([22630, 22631, 22632], PS_Melanie_1_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -636,9 +636,9 @@ label ep29_photoshoot_melanie_suit1_pose11:
         #music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS_Melanie_1_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([22635, 22636, 22637], PS_Melanie_1_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -701,9 +701,9 @@ label ep29_photoshoot_melanie_suit1_pose12:
         #music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS_Melanie_1_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([22640, 22641, 22644], PS_Melanie_1_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -765,8 +765,8 @@ label ep29_photoshoot_melanie_suit1_pose12:
 
 
 label ep29_photoshoot_suit1_end:
-    hide screen photoshoot_camera_icon
-    hide screen photoshoot
+    hide screen photoshoot2_camera_icon
+    hide screen photoshoot2
     music stop
     img black_screen
     with diss

@@ -46,9 +46,9 @@ label ep22_photoshoot4:
             alex_photograph "Следующая поза, Миссис Бакфетт!"
             jump ep22_photoshoot4_pose2
         show screen photoshoot_camera_icon(PS4_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8843, 8844, 8845], PS4_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot4_pose1
@@ -108,9 +108,9 @@ label ep22_photoshoot4:
             alex_photograph "Следующая поза, Миссис Бакфетт!"
             jump ep22_photoshoot4_pose3
         show screen photoshoot_camera_icon(PS4_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8847, 8848, 8849], PS4_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot4_pose2
@@ -175,9 +175,9 @@ label ep22_photoshoot4:
             alex_photograph "Следующая поза, Миссис Бакфетт!"
             jump ep22_photoshoot4_pose4
         show screen photoshoot_camera_icon(PS4_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8851, 8852, 8853], PS4_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot4_pose3
@@ -246,9 +246,9 @@ label ep22_photoshoot4:
                 return
             jump ep22_photoshoot4_pose5
         show screen photoshoot_camera_icon(PS4_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8855, 8856, 8857], PS4_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot4_pose4
@@ -310,9 +310,9 @@ label ep22_photoshoot4:
             alex_photograph "Следующая поза, Миссис Бакфетт!"
             jump ep22_photoshoot4_pose6
         show screen photoshoot_camera_icon(PS4_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8859, 8860, 8861], PS4_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot4_pose5
@@ -377,9 +377,9 @@ label ep22_photoshoot4:
             alex_photograph "Следующая поза, Миссис Бакфетт!"
             jump ep22_photoshoot4_pose7
         show screen photoshoot_camera_icon(PS4_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8863, 8864, 8865], PS4_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot4_pose6
@@ -444,9 +444,9 @@ label ep22_photoshoot4:
             alex_photograph "Следующая поза, Миссис Бакфетт!"
             jump ep22_photoshoot4_pose8
         show screen photoshoot_camera_icon(PS4_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8867, 8868, 8869], PS4_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot4_pose7
@@ -517,9 +517,9 @@ label ep22_photoshoot4:
                 return
             jump ep22_photoshoot4_pose9
         show screen photoshoot_camera_icon(PS4_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8871, 8872, 8873], PS4_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot4_pose8
@@ -586,9 +586,9 @@ label ep22_photoshoot4:
             return
 #            jump ep22_photoshoot4_end
         show screen photoshoot_camera_icon(PS4_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8876, 8875, 8878], PS4_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot4_pose9
@@ -638,8 +638,8 @@ label ep22_photoshoot4:
 
 label ep22_photoshoot4_end:
 
-    hide screen photoshoot_camera_icon
-    hide screen photoshoot
+    hide screen photoshoot2_camera_icon
+    hide screen photoshoot2
 
     music Stealth_Groover
     img 8879

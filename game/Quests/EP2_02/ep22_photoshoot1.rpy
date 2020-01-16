@@ -32,9 +32,9 @@ label ep22_photoshoot1:
             with fadelong
             jump ep22_photoshoot1_pose2
         show screen photoshoot_camera_icon(PS1_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8320, 8321, 8322], PS1_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot1_pose1
@@ -84,9 +84,9 @@ label ep22_photoshoot1:
             with fadelong
             jump ep22_photoshoot1_pose3
         show screen photoshoot_camera_icon(PS1_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8324, 8325, 8326], PS1_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot1_pose2
@@ -136,9 +136,9 @@ label ep22_photoshoot1:
             with fadelong
             jump ep22_photoshoot1_pose4
         show screen photoshoot_camera_icon(PS1_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8535, 8328, 8329], PS1_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot1_pose3
@@ -194,9 +194,9 @@ label ep22_photoshoot1:
             with fadelong
             jump ep22_photoshoot1_pose5
         show screen photoshoot_camera_icon(PS1_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8331, 8332, 8333], PS1_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot1_pose4
@@ -252,9 +252,9 @@ label ep22_photoshoot1:
             with fadelong
             jump ep22_photoshoot1_pose6
         show screen photoshoot_camera_icon(PS1_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8335, 8336, 8337], PS1_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot1_pose5
@@ -310,9 +310,9 @@ label ep22_photoshoot1:
             with fadelong
             jump ep22_photoshoot1_pose7
         show screen photoshoot_camera_icon(PS1_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8339, 8340, 8341], PS1_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot1_pose6
@@ -368,9 +368,9 @@ label ep22_photoshoot1:
             with fadelong
             jump ep22_photoshoot1_pose8
         show screen photoshoot_camera_icon(PS1_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8343, 8344, 8345], PS1_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot1_pose7
@@ -420,9 +420,9 @@ label ep22_photoshoot1:
         if shots == 0 or shotsAmount == 0:
             return
         show screen photoshoot_camera_icon(PS1_shoots_array)
-        show screen photoshoot()
+        show screen photoshoot2([8347, 8348, 8349], PS1_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot
+        hide screen photoshoot2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot1_pose8
@@ -468,8 +468,8 @@ label ep22_photoshoot1:
     return
 
 label ep22_photoshoot1_end:
-    hide screen photoshoot_camera_icon
-    hide screen photoshoot
+    hide screen photoshoot2_camera_icon
+    hide screen photoshoot2
 
     music Stealth_Groover
     img 6632

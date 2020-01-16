@@ -194,6 +194,100 @@ screen photoshoot():
             hover "/Icons2/photo_next2_hover.png"
             action Return("next")
 
+screen photoshoot2(arrowImages, alreadyImagesList):
+    fixed:
+#        xpos getRes(1600)
+        xpos getRes(1650)
+        ypos getRes(430)
+        #up
+        if arrowUp == True:
+            if len(arrowImages) > 0 and arrowImages[0] in alreadyImagesList:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(50)
+                    ypos getRes(-40)
+                    idle "/Icons2/photo_up_already.png"
+                    hover "/Icons2/photo_up_already_hover.png"
+                    action [SetVariable("arrowUp", False), Return("up")]
+            else:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(50)
+                    ypos getRes(-40)
+                    idle "/Icons2/photo_up.png"
+                    hover "/Icons2/photo_up_hover.png"
+                    action [SetVariable("arrowUp", False), Return("up")]
+        else:
+            add "/Icons2/photo_up_Disabled.png":
+                xpos getRes(50)
+                ypos getRes(-40)
+                xanchor 0.5
+                yanchor 0.5
+        #left
+        if arrowSide == True:
+            if len(arrowImages) > 1 and arrowImages[1] in alreadyImagesList:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(0)
+                    ypos getRes(80)
+                    idle "/Icons2/photo_left_already.png"
+                    hover "/Icons2/photo_left_already_hover.png"
+                    action [SetVariable("arrowSide", False), Return("side")]
+            else:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(0)
+                    ypos getRes(80)
+                    idle "/Icons2/photo_left.png"
+                    hover "/Icons2/photo_left_hover.png"
+                    action [SetVariable("arrowSide", False), Return("side")]
+        else:
+            add "/Icons2/photo_left_Disabled.png":
+                xpos getRes(0)
+                ypos getRes(80)
+                xanchor 0.5
+                yanchor 0.5
+        #down
+        if arrowDown == True:
+            if len(arrowImages) > 2 and arrowImages[2] in alreadyImagesList:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(50)
+                    ypos getRes(200)
+                    idle "/Icons2/photo_down_already.png"
+                    hover "/Icons2/photo_down_already_hover.png"
+                    action [SetVariable("arrowDown", False), Return("down")]
+            else:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(50)
+                    ypos getRes(200)
+                    idle "/Icons2/photo_down.png"
+                    hover "/Icons2/photo_down_hover.png"
+                    action [SetVariable("arrowDown", False), Return("down")]
+        else:
+            add "/Icons2/photo_down_Disabled.png":
+                xpos getRes(50)
+                ypos getRes(200)
+                xanchor 0.5
+                yanchor 0.5
+        #next
+        imagebutton:
+            xanchor 0.5
+            yanchor 0.5
+            xpos getRes(170)
+            ypos getRes(80)
+            idle "/Icons2/photo_next2.png"
+            hover "/Icons2/photo_next2_hover.png"
+            action Return("next")
+
+
 screen photoshoot_no_next():
     fixed:
 #        xpos getRes(1600)
@@ -241,6 +335,90 @@ screen photoshoot_no_next():
                 idle "/Icons2/photo_down.png"
                 hover "/Icons2/photo_down_hover.png"
                 action [SetVariable("arrowDown", False), Return("down")]
+        else:
+            add "/Icons2/photo_down_Disabled.png":
+                xpos getRes(50)
+                ypos getRes(200)
+                xanchor 0.5
+                yanchor 0.5
+
+screen photoshoot_no_next2(arrowImages, alreadyImagesList):
+    fixed:
+#        xpos getRes(1600)
+        xpos getRes(1650)
+        ypos getRes(430)
+        #up
+        if arrowUp == True:
+            if len(arrowImages) > 0 and arrowImages[0] in alreadyImagesList:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(50)
+                    ypos getRes(-40)
+                    idle "/Icons2/photo_up_already.png"
+                    hover "/Icons2/photo_up_already_hover.png"
+                    action [SetVariable("arrowUp", False), Return("up")]
+            else:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(50)
+                    ypos getRes(-40)
+                    idle "/Icons2/photo_up.png"
+                    hover "/Icons2/photo_up_hover.png"
+                    action [SetVariable("arrowUp", False), Return("up")]
+        else:
+            add "/Icons2/photo_up_Disabled.png":
+                xpos getRes(50)
+                ypos getRes(-40)
+                xanchor 0.5
+                yanchor 0.5
+        #left
+        if arrowSide == True:
+            if len(arrowImages) > 1 and arrowImages[1] in alreadyImagesList:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(0)
+                    ypos getRes(80)
+                    idle "/Icons2/photo_left_already.png"
+                    hover "/Icons2/photo_left_already_hover.png"
+                    action [SetVariable("arrowSide", False), Return("side")]
+            else:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(0)
+                    ypos getRes(80)
+                    idle "/Icons2/photo_left.png"
+                    hover "/Icons2/photo_left_hover.png"
+                    action [SetVariable("arrowSide", False), Return("side")]
+        else:
+            add "/Icons2/photo_left_Disabled.png":
+                xpos getRes(0)
+                ypos getRes(80)
+                xanchor 0.5
+                yanchor 0.5
+        #down
+        if arrowDown == True:
+            if len(arrowImages) > 2 and arrowImages[2] in alreadyImagesList:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(50)
+                    ypos getRes(200)
+                    idle "/Icons2/photo_down_already.png"
+                    hover "/Icons2/photo_down_already_hover.png"
+                    action [SetVariable("arrowDown", False), Return("down")]
+            else:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(50)
+                    ypos getRes(200)
+                    idle "/Icons2/photo_down.png"
+                    hover "/Icons2/photo_down_hover.png"
+                    action [SetVariable("arrowDown", False), Return("down")]
         else:
             add "/Icons2/photo_down_Disabled.png":
                 xpos getRes(50)

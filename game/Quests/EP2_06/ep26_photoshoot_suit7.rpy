@@ -69,9 +69,9 @@ label ep26_photoshoot_suit7_pose1:
         alex_photograph "Следующая поза, Миссис Бакфетт!"
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS7_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20080, 20081, 20082], PS7_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -152,9 +152,9 @@ label ep26_photoshoot_suit7_pose2:
         music stop
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS7_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20084, 20085, 20086], PS7_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -222,9 +222,9 @@ label ep26_photoshoot_suit7_pose3:
         alex_photograph "Следующая поза, Миссис Бакфетт!"
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS7_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20088, 20090, 20092], PS7_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -300,9 +300,9 @@ label ep26_photoshoot_suit7_pose4:
         alex_photograph "Следующая поза, Миссис Бакфетт!"
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS7_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20094, 20095, 20096], PS7_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -367,9 +367,9 @@ label ep26_photoshoot_suit7_pose5:
         alex_photograph "Следующая поза, Миссис Бакфетт!"
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS7_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20098, 20099, 20100], PS7_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -456,9 +456,9 @@ label ep26_photoshoot_suit7_pose6:
         m "Снимай меня прямо и... красиво..."
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS7_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20102, 20103, 20104], PS7_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -527,9 +527,9 @@ label ep26_photoshoot_suit7_pose7:
         alex_photograph "Следующая поза, Миссис Бакфетт!"
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS7_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20106, 20109, 20110], PS7_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -603,9 +603,9 @@ label ep26_photoshoot_suit7_pose8:
         alex_photograph "Следующая поза, Миссис Бакфетт!"
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS7_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20113, 20114, 20116], PS7_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -684,9 +684,9 @@ label ep26_photoshoot_suit7_pose9:
         alex_photograph "Следующая поза, Миссис Бакфетт!"
         jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS7_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20118, 20119, 20122], PS7_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -792,9 +792,9 @@ label ep26_photoshoot_suit7_pose10:
 #        alex_photograph "Следующая поза, Миссис Бакфетт!"
 #        jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS7_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20125, 20127, 20131], PS7_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -1014,9 +1014,9 @@ label ep26_photoshoot_suit7_pose11:
 #        alex_photograph "Следующая поза, Миссис Бакфетт!"
 #        jump expression photoPoseNextLabel
     show screen photoshoot_camera_icon(PS7_shoots_array)
-    show screen photoshoot()
+    show screen photoshoot2([20157, 20160, 20164], PS7_shoots_array)
     $ result = ui.interact()
-    hide screen photoshoot
+    hide screen photoshoot2
     if result == "next":
         $ shots = 0
         jump expression photoPoseLabel
@@ -1171,8 +1171,8 @@ label ep26_photoshoot_suit7_pose11:
 
 
 label ep26_photoshoot_suit7_end:
-    hide screen photoshoot_camera_icon
-    hide screen photoshoot
+    hide screen photoshoot2_camera_icon
+    hide screen photoshoot2
     music Groove2_85
     img 20174
     with fadelong

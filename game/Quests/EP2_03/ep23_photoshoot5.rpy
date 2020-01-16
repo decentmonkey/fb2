@@ -47,9 +47,9 @@ label ep22_photoshoot5:
             alex_photograph "Пассажир авиакомпании замечает стюардессу..."
             jump ep22_photoshoot5_pose2
         show screen photoshoot_camera_icon(PS5_shoots_array)
-        show screen photoshoot_no_next()
+        show screen photoshoot_no_next2([8749, 8750, 8751], PS5_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot_no_next
+        hide screen photoshoot_no_next2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot5_pose1
@@ -112,9 +112,9 @@ label ep22_photoshoot5:
             alex_photograph "Представитель авиакомпании спешит помочь..."
             jump ep22_photoshoot5_pose3
         show screen photoshoot_camera_icon(PS5_shoots_array)
-        show screen photoshoot_no_next()
+        show screen photoshoot_no_next2([8753, 8754, 8755], PS5_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot_no_next
+        hide screen photoshoot_no_next2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot5_pose2
@@ -183,9 +183,9 @@ label ep22_photoshoot5:
             with fade
             jump ep22_photoshoot5_pose4
         show screen photoshoot_camera_icon(PS5_shoots_array)
-        show screen photoshoot_no_next()
+        show screen photoshoot_no_next2([8757, 8758, 8759], PS5_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot_no_next
+        hide screen photoshoot_no_next2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot5_pose3
@@ -263,9 +263,9 @@ label ep22_photoshoot5:
 
             jump ep22_photoshoot5_pose5
         show screen photoshoot_camera_icon(PS5_shoots_array)
-        show screen photoshoot_no_next()
+        show screen photoshoot_no_next2([8762, 8764, 8763], PS5_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot_no_next
+        hide screen photoshoot_no_next2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot5_pose4
@@ -336,9 +336,9 @@ label ep22_photoshoot5:
             $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot2_progress")
             jump ep22_photoshoot5_pose6
         show screen photoshoot_camera_icon(PS5_shoots_array)
-        show screen photoshoot_no_next()
+        show screen photoshoot_no_next2([8766, 8767, 8768], PS5_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot_no_next
+        hide screen photoshoot_no_next2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot5_pose5
@@ -400,9 +400,9 @@ label ep22_photoshoot5:
             alex_photograph "Следующая поза, девочки!"
             jump ep22_photoshoot5_pose7
         show screen photoshoot_camera_icon(PS5_shoots_array)
-        show screen photoshoot_no_next()
+        show screen photoshoot_no_next2([8770, 8771, 8772], PS5_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot_no_next
+        hide screen photoshoot_no_next2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot5_pose6
@@ -478,9 +478,9 @@ label ep22_photoshoot5:
             $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot2_progress")
             jump ep22_photoshoot5_pose8
         show screen photoshoot_camera_icon(PS5_shoots_array)
-        show screen photoshoot_no_next()
+        show screen photoshoot_no_next2([8774, 8778, 8777], PS5_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot_no_next
+        hide screen photoshoot_no_next2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot5_pose7
@@ -549,9 +549,9 @@ label ep22_photoshoot5:
             music Groove2_85
             jump ep22_photoshoot5_pose9_pre
         show screen photoshoot_camera_icon(PS5_shoots_array)
-        show screen photoshoot_no_next()
+        show screen photoshoot_no_next2([8780, 8781, 8782], PS5_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot_no_next
+        hide screen photoshoot_no_next2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot5_pose8
@@ -591,7 +591,7 @@ label ep22_photoshoot5:
 
     label ep22_photoshoot5_pose9_pre:
         #вступление
-        hide screen photoshoot_no_next
+        hide screen photoshoot_no_next2
         img 8783
         with fade
         w
@@ -670,13 +670,13 @@ label ep22_photoshoot5:
             $ arrowUp = True
             $ arrowSide = True
             $ arrowDown = True
-            hide screen photoshoot_no_next
+            hide screen photoshoot_no_next2
             $ add_char_progress("AlexPhotograph", PS5_AlexProgressEachCorruptionShot, "PS5_monica_shot3_progress")
             return True
         show screen photoshoot_camera_icon(PS5_shoots_array)
-        show screen photoshoot_no_next()
+        show screen photoshoot_no_next2([8793, 8795, 8798], PS5_shoots_array)
         $ result = ui.interact()
-        hide screen photoshoot_no_next
+        hide screen photoshoot_no_next2
         if result == "next":
             $ shots = 0
             jump ep22_photoshoot5_pose9
@@ -758,7 +758,7 @@ label ep22_photoshoot5:
 
 label ep22_photoshoot5_end:
     hide screen photoshoot_camera_icon
-    hide screen photoshoot_no_next
+    hide screen photoshoot_no_next2
     hide screen photoshoot
 
     music Stealth_Groover
