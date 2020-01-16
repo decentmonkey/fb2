@@ -1,6 +1,8 @@
 default pub_dance_claire_dialogues_up_list = []
 default pub_dance_claire_dialogues_up_list2 = []
 
+default pub_dance_claire_ahley_comment1_flag = False
+
 label pub_dance2_claire_dance: # Танец с Клэр
     hide screen poledance
     hide screen poledance_camera_icon
@@ -72,6 +74,9 @@ label pub_dance2_claire_dance: # Танец с Клэр
     pause 0.5
     music stageCurrentMusicIntro
     call ep210_dialogue_5_dance_clare()
+    if pub_dance_claire_ahley_comment1_flag == False:
+        call ep210_dialogues4_dance_strip_9()
+        $ pub_dance_claire_ahley_comment1_flag = True
 
     $ arrowUp = True
     $ arrowSide = True

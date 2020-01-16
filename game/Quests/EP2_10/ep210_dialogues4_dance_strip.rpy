@@ -985,9 +985,9 @@ label ep210_dialogues4_dance_strip_8:
 # во время танца Моники и Клэр из зала кричит Эшли
 label ep210_dialogues4_dance_strip_9:
     # во время выступления из зала
-    music Hidden_Agenda
-    img 16255
-    with fade
+#    music Hidden_Agenda
+#    img 16255
+#    with fade
     ashley "Давайте, девочки!!!"
     ashley "Покажите этим денежным мешкам, у кого самые аппетитные попки!"
     ashley "Пусть раскошеливаются!!!"
