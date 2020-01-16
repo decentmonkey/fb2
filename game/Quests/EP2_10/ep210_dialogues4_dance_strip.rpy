@@ -40,7 +40,7 @@ label ep210_dialogues4_dance_strip_1:
     mt "На что эта дрянь намекает?"
     mt "Ее бесит, что она, может быть, уже и не звезда?"
     # рыжая смотрит на Монику зло
-    music Villainous_Treachery
+    music Pyro_Flow
     img 16135
     with fade
     molly "Я тебя предупреждаю, шлюха!"
@@ -99,7 +99,7 @@ label ep210_dialogues4_dance_strip_1:
     mt "Не могу выносить ее присутствия!"
     mt "Надо скорее одеться и идти на сцену."
     m "..."
-    $ log1 = _("Выйти на сцену паба и танцевать.")
+#    $ log1 = _("Выйти на сцену паба и танцевать.")
     return
 
 # далее в этот день все, как обычно. Моника выступает на сцене, потом переодевается, платит проценты Эшли и уходит
@@ -382,7 +382,7 @@ label ep210_dialogues4_dance_strip_2:
     with diss
     mt "Черт! Снова эта сцена! И толпа пьяных неудачников!"
     m "..."
-    $ log1 = _("Выйти на сцену паба и танцевать.")
+#    $ log1 = _("Выйти на сцену паба и танцевать.")
     return
 
 # далее в этот день все, как обычно.
@@ -416,7 +416,7 @@ label ep210_dialogues4_dance_strip_3:
     mt "Не могу выносить ее присутствия!"
     mt "Надо скорее одеться и идти на сцену."
     m "..."
-    $ log1 = _("Выйти на сцену паба и танцевать.")
+#    $ log1 = _("Выйти на сцену паба и танцевать.")
     return
 
 
@@ -431,7 +431,7 @@ label ep210_dialogues4_dance_strip_4:
     with diss
     sound highheels_run2
     pause 1.5
-    music Villainous_Treachery
+    music Pyro_Flow
     img 16177
     with fadelong
     molly "Воровка!"
@@ -447,7 +447,7 @@ label ep210_dialogues4_dance_strip_4:
     m "Что происходит?!"
     m "!!!"
     m "Ты чего разоралась?! Какие деньги?!"
-    music Villainous_Treachery
+    music Pyro_Flow
     img 16180
     with diss
     molly "И не притворяйся, что ты тут ни при чем!!!"
@@ -473,7 +473,7 @@ label ep210_dialogues4_dance_strip_4:
     ashley "У меня клиенты просятся сюда и предлагают деньги..."
     ashley "Чтобы посмотреть на битву сучек!"
     # Молли орет, тыча пальцем в Монику
-    music Villainous_Treachery
+    music Pyro_Flow
     img 16184
     with diss
     molly "Эта дрянь украла у меня мои деньги!!!"
@@ -488,7 +488,7 @@ label ep210_dialogues4_dance_strip_4:
     with hpunch
     m "Что?!"
     m "!!!"
-    music Villainous_Treachery
+    music Pyro_Flow
     img 16187
     with fade
     molly "Я просто так этого не оставлю!"
@@ -511,7 +511,7 @@ label ep210_dialogues4_dance_strip_4:
     mt "Ненавижу!"
     mt "!!!"
     # Молли продолжает орать
-    music Villainous_Treachery
+    music Pyro_Flow
     img 16191
     with fade
     molly "Эшли, ты сама мне рассказывала..."
@@ -558,6 +558,7 @@ label ep210_dialogues4_dance_strip_4:
     with diss
     m "У меня нет ничего в карманах!"
     # Эшли засовывает руку во внутренний карман ее куртки, попутно лапая ее за грудь, Моника зло на нее смотрит
+    music Loved_Up
     img 16200
     with fade
     w
@@ -575,6 +576,7 @@ label ep210_dialogues4_dance_strip_4:
     mt "Извращенка!"
     # Эшли вытаскивает из кармана купюры
     # Моника растерянно смотрит на них
+    music Groove2_85
     img 16204
     with hpunch
     sound Jump2
@@ -593,7 +595,7 @@ label ep210_dialogues4_dance_strip_4:
     m "Эшли! Она специально это подстроила!"
     m "Она хочет, чтобы ты выгнала меня отсюда!"
     m "Потому что я популярнее, чем она!!!"
-    music Villainous_Treachery
+    music Pyro_Flow
     img 16208
     with fade
     molly "Это не так!"
@@ -626,7 +628,7 @@ label ep210_dialogues4_dance_strip_4:
     with fade
     ashley "А потом просишь простить тебя, извиняешься..."
     ashley "Пользуешься моей добротой..." # хитро смотрит на Монику
-    music Villainous_Treachery
+    music Pyro_Flow
     img 16213
     with diss
     ashley "И после этого снова крадешь деньги!" # снова строго
@@ -666,10 +668,39 @@ label ep210_dialogues4_dance_strip_4:
     with fade
     sound highheels_short_walk
     molly "..."
-    $ log1 = _("Из-за это рыжей сучки я теперь должна отдавать все свои чаевые Эшли! Ненавижу ее!!!") # квест лог
+#    $ log1 = _("Из-за это рыжей сучки я теперь должна отдавать все свои чаевые Эшли! Ненавижу ее!!!") # квест лог
     return
 
 # Паб. Гримерка танцовщиц.
+label ep210_dialogues4_dance_strip_5_0:
+    img 22718
+    with fadelong
+    mt "Никчемная!"
+    mt "Бесполезная!"
+    mt "Сучка!!!"
+    mt "!!!"
+    mt "..."
+    mt "Может быть сделать какую-то пакость ей?"
+    return
+
+label ep210_dialogues4_dance_strip_5_1:
+    mt "Лучше не делать этого при свидетелях..."
+    return
+label ep210_dialogues4_dance_strip_5_2:
+    if ep210_picture_marked == True:
+        img 16226
+        with fade
+        mt "Шедеврально!"
+        mt "!!!"
+    else:
+        img 22718
+        with fadelong
+        mt "Никчемная!"
+        mt "Бесполезная!"
+        mt "Сучка!!!"
+        mt "!!!"
+    return False
+
 label ep210_dialogues4_dance_strip_5:
     # Моника в ярости, смотрит на фото Молли на стене
     music Pyro_Flow
@@ -733,7 +764,7 @@ label ep210_dialogues4_dance_strip_5:
     with fade
     mt "Шедеврально!"
     mt "!!!"
-    return
+    return True
 
 # Паб. Гримерка танцовщиц. На работе Клэр.
 label ep210_dialogues4_dance_strip_6:
@@ -768,23 +799,25 @@ label ep210_dialogues4_dance_strip_6:
     with diss
     m "Я в этом не сомневаюсь!"
 
-    # если Моника разрисовала портрет Молли
-    # Клэр улыбаясь говорит
-    img 22723
-    with fade
-    clare "Кстати, отличный портрет получился!"
-    clare "Наша звезда прямо-таки засияла..."
-    #
-    $ notif(_("Моника разрисовала фотографию Молли"))
-    #
-    music Hidden_Agenda
-    img 16151
-    with diss
-    m "Нет-нет... Я тут ни при чем... Я ничего не делала."
-    # Клэр смотрит на нее и улыбается
-    img 16154
-    with diss
-    clare "Все ок. Я никому не скажу."
+    if ep210_picture_was_marked == True and ep210_picture_marked_claire_comment == False:
+        $ ep210_picture_marked_claire_comment = True
+        # если Моника разрисовала портрет Молли
+        # Клэр улыбаясь говорит
+        img 22723
+        with fade
+        #
+        $ notif(_("Моника разрисовала фотографию Молли"))
+        #
+        clare "Кстати, отличный портрет получился!"
+        clare "Наша звезда прямо-таки засияла..."
+        music Hidden_Agenda
+        img 16151
+        with diss
+        m "Нет-нет... Я тут ни при чем... Я ничего не делала."
+        # Клэр смотрит на нее и улыбается
+        img 16154
+        with diss
+        clare "Все ок. Я никому не скажу."
     music Groove2_85
     img 22720
     with fade
@@ -874,6 +907,7 @@ label ep210_dialogues4_dance_strip_7:
             mt "Эта рыжая сучка взбесится еще больше."
             mt "Мне нужно подумать об этом..."
             mt "..."
+            help "В следующем обновлении!"
             return False
         "Танцевать с Клэр. (доступно при открытии всех движений на сцене)":
             mt "Я ни за что не буду просить прощения у этой рыжей сучки!"
@@ -882,67 +916,71 @@ label ep210_dialogues4_dance_strip_7:
             mt "И позлить эту рыжую дрянь!"
             mt "Интересно, что она сделает, когда узнает об этом?"
             mt "..."
-            return
+            return True
     return
 
 # Паб. Гримерка танцовщиц, Клэр сидит у своего зеркала.
 # клик на Клэр
 # выбран пункт меню "Танцевать с Клэр"
 label ep210_dialogues4_dance_strip_8:
-    # если опция доступна, т.е. все движения на сцене открыты
-    # Моника растерянно
-    music Groove2_85
-    img 16240
-    with fade
-    m "Я... Я не ожидала, что ты..."
-    m "Поможешь мне..."
-    img 16241
-    with diss
-    clare "Да ладно! Ничего сложного для меня в этом нет."
-    img 16242
-    with fade
-    m "Я что-то должна тебе за это?"
-    # Клэр удивленно
-    img 16243
-    with diss
-    clare "Нет, конечно! О чем ты?!"
-    clare "Просто старайся больше не конфликтовать с нашей звездой..."
-    img 16176
-    with fade
-    mt "Я ей ничего не должна?"
-    mt "Хммм..."
-    img 16244
-    with diss
-    mt "Может, здесь какой-то подвох?"
-    mt "..."
-    img 16245
-    with fade
-    m "Клэр, а как мы будем танцевать вдвоем?"
-    m "Я так ни разу не танцевала..."
-    img 16246
-    with diss
-    clare "Моника, все получится отлично, вот увидишь!"
-    clare "Мужчин в зале это крайне порадует."
-    img 16247
-    with fade
-    clare "Переодевайся и выходи на сцену. Я присоединюсь к тебе во время твоего танца."
-    clare "Покажем им, кто здесь звезды!"
-
-    # если опция недоступна, движения открыты не полностью
-    img 16248
-    with fade
-    m "Клэр, а как мы будем танцевать вдвоем?"
-    m "Я так ни разу не танцевала..."
-    img 16249
-    with diss
-    clare "Моника, все получится отлично, вот увидишь!"
-    clare "Только сначала тебе нужно набраться больше опыта..."
-    clare "Ты еще слишком скованна на сцене."
-    img 16250
-    with diss
-    m "..."
-    $ log1 = _("Выйти на сцену паба и танцевать.")
-    return
+    if len(list(set(stage_Monica_shoots_array))) >= monicaPosesOpenedToDanceClaire:
+        # если опция доступна, т.е. все движения на сцене открыты
+        # Моника растерянно
+        music Groove2_85
+        img 16240
+        with fade
+        m "Я... Я не ожидала, что ты..."
+        m "Поможешь мне..."
+        img 16241
+        with diss
+        clare "Да ладно! Ничего сложного для меня в этом нет."
+        img 16242
+        with fade
+        m "Я что-то должна тебе за это?"
+        # Клэр удивленно
+        img 16243
+        with diss
+        clare "Нет, конечно! О чем ты?!"
+        clare "Просто старайся больше не конфликтовать с нашей звездой..."
+        img 16176
+        with fade
+        mt "Я ей ничего не должна?"
+        mt "Хммм..."
+        img 16244
+        with diss
+        mt "Может, здесь какой-то подвох?"
+        mt "..."
+        img 16245
+        with fade
+        m "Клэр, а как мы будем танцевать вдвоем?"
+        m "Я так ни разу не танцевала..."
+        img 16246
+        with diss
+        clare "Моника, все получится отлично, вот увидишь!"
+        clare "Мужчин в зале это крайне порадует."
+        music Molten_Alloy
+        img 16247
+        with fade
+        clare "Переодевайся и выходи на сцену. Я присоединюсь к тебе во время твоего танца."
+        clare "Покажем им, кто здесь звезды!"
+        return True
+    else:
+        # если опция недоступна, движения открыты не полностью
+        img 16248
+        with fade
+        m "Клэр, а как мы будем танцевать вдвоем?"
+        m "Я так ни разу не танцевала..."
+        img 16249
+        with diss
+        clare "Моника, все получится отлично, вот увидишь!"
+        clare "Только сначала тебе нужно набраться больше опыта..."
+        clare "Ты еще слишком скованна на сцене."
+        img 16250
+        with diss
+        m "..."
+        help "Окрыты не все движения. Требуется [monicaPosesOpenedToDanceClaire]."
+        return False
+    return False
 
 # во время танца Моники и Клэр из зала кричит Эшли
 label ep210_dialogues4_dance_strip_9:
@@ -967,6 +1005,7 @@ label ep210_dialogues4_dance_strip_10:
     ashley "[monica_pub_name], сколько вы заработали чаевых?"
     img 22792
     with fade
+    $ add_money(-monica_strip_tips_today)
     m "Сегодня мы заработали [monica_strip_tips_today]."
     img 22793
     with diss
@@ -1047,7 +1086,7 @@ label ep210_dialogues4_dance_strip_11:
     mt "Может, все-таки стоит двинуть ей стулом по голове?"
     mt "..."
     # рыжая поворачивается к Монике и смотрит на нее зло
-    music Villainous_Treachery
+    music Pyro_Flow
     img 22820
     with fade
     molly "Ты здесь долго не продержишься, поняла?"
@@ -1057,16 +1096,17 @@ label ep210_dialogues4_dance_strip_11:
     molly "Советую тебе искать другое место для заработка."
     molly "Например, в подворотне."
 
-
-    # если Моника разрисовала портрет Молли
-    img 16251
-    with fade
-    molly " И кстати!"
-    #
-    $ notif(_("Моника разрисовала фотографию Молли"))
-    #
-    molly "Еще раз увижу, что ты испортила мой портрет!"
-    molly "Простым штрафом ты не отделаешься, сучка!!!"
+    if ep210_picture_was_marked == True:
+        # если Моника разрисовала портрет Молли
+        img 16251
+        with fade
+        #
+        $ notif(_("Моника разрисовала фотографию Молли"))
+        #
+        molly " И кстати!"
+        molly "Еще раз увижу, что ты испортила мой портрет!"
+        molly "Простым штрафом ты не отделаешься, сучка!!!"
+        $ ep210_picture_marked_molly_comment = True
 
     # отворачивается от Моники к зеркалу
     # Моника смотрит злобно
@@ -1076,11 +1116,77 @@ label ep210_dialogues4_dance_strip_11:
     mt "Дрянь!"
     mt "!!!"
     mt "Ненавижу!!!"
-    $ log1 = _("Выйти на сцену паба и танцевать.")
+#    $ log1 = _("Выйти на сцену паба и танцевать.")
     return
 
 # Паб. Моника на сцене.
 label ep210_dialogues4_dance_strip_12:
+    music stageCurrentMusicLoop
+    img 23182
+    with fade
+    w
+    img 23181
+    with hpunch
+    sound vjuh3
+    w
+    sound2 fx_coins_b1
+    $ money += 20
+    $ monica_strip_tips_today += 20
+    $ notif ("+ $20")
+    $ idx = rand(1,3)
+    $ applauseSound = "snd_applause" + str(idx)
+    sound applauseSound
+    call pub_dance_stage_flash()
+    w
+    sound2 fx_coins_b1
+    $ money += 15
+    $ monica_strip_tips_today += 15
+    $ notif ("+ $15")
+    $ idx = rand(1,3)
+    $ applauseSound = "snd_applause" + str(idx)
+    sound applauseSound
+    call pub_dance_stage_flash()
+    w
+    sound2 fx_coins_b1
+    $ money += 30
+    $ monica_strip_tips_today += 30
+    $ notif ("+ $30")
+    $ idx = rand(1,3)
+    $ applauseSound = "snd_applause" + str(idx)
+    sound applauseSound
+    call pub_dance_stage_flash()
+    w
+    sound2 fx_coins_b1
+    $ money += 50
+    $ monica_strip_tips_today += 50
+    $ notif ("+ $50")
+    $ idx = rand(1,3)
+    $ applauseSound = "snd_applause" + str(idx)
+    sound applauseSound
+    call pub_dance_stage_flash()
+    w
+    sound2 fx_coins_b1
+    $ money += 40
+    $ monica_strip_tips_today += 40
+    $ notif ("+ $40")
+    $ idx = rand(1,3)
+    $ applauseSound = "snd_applause" + str(idx)
+    sound applauseSound
+    call pub_dance_stage_flash()
+    w
+    img 23185
+    with diss
+    sound vjuh3
+    $ idx = rand(1,3)
+    $ applauseSound = "snd_applause" + str(idx)
+    sound2 applauseSound
+    w
+    img 23184
+    with hpunch
+    $ idx = rand(1,3)
+    $ applauseSound = "snd_applause" + str(idx)
+    sound applauseSound
+    w
     # во время танца или сразу после него, когда Моника еще не ушла со сцены, с нее падают трусики
     # чаевые бешенно растут
     # Моника наклоняется, поднимает трусики
@@ -1089,24 +1195,36 @@ label ep210_dialogues4_dance_strip_12:
 
 # Паб. Моника в гримерке после выступления, когда упали трусики.
 label ep210_dialogues4_dance_strip_13:
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 3.0
+
     # не рендерить!!!
     # Моника переоделась в свою одежду и думает
+    music Power_Bots_Loop
     img 23186
+    with fadelong
     mt "Какой кошмар!"
     mt "Мои трусики чуть не упали перед толпой пьяных неудачников!!!"
     mt "!!!"
+    music Groove2_85
     img 23187
+    with diss
     mt "Как это могло произойти?!"
     mt "Что случилось?"
     mt "???"
     mt "Я столько раз танцевала в этих трусиках..."
     mt "Всегда все было хорошо, а тут..."
     img 23188
+    with diss
     mt "..." # выражение лица меняется, Монику посетила догадка
     mt "Хмммм..."
     mt "А возможно?.."
     # смотрит на трусики, они лежат где-нибудь на стуле
-
+    music Pyro_Flow
+    with fade
     mt "Возможно, что они расстегнулись на мне во время выступления не просто так..."
     mt "А из-за того что кто-то подстроил это до того, как я их надела!!!"
     mt "!!!"
@@ -1120,7 +1238,7 @@ label ep210_dialogues4_dance_strip_14:
     music Hidden_Agenda
     img 22849
     with fade
-    ashley "И кстати!"
+#    ashley "И кстати!"
     ashley "Тебе не кажется, что надо выступать вообще без трусиков, а?" # улыбочка
     music Power_Bots_Loop
     img 22852
@@ -1171,7 +1289,7 @@ label ep210_dialogues4_dance_strip_15:
     img 22709
     with fadelong
     mt "Наверняка, Клэр уже знает о том, что..."
-    mt "Что я стояла с голой попой на сцене."
+    mt "Что я стояла почти голой на сцене."
     # Клэр поворачивается к ней
     img 22712
     with fade
@@ -1182,12 +1300,12 @@ label ep210_dialogues4_dance_strip_15:
     m "Если не считать, что на прошлом выступлении с меня упали трусики..."
     img 16161
     with fade
-    m "И я стояла на сцене, сверкая голой попой..."
+    m "И я стояла на сцене, чуть-ли ни сверкая голой попой..."
     m "То у меня все просто отлично!"
     img 22716
     with diss
     clare "Да, я уже слышала об этом."
-    clare "Трусики просто так не могли порваться. Их специально кто-то надрезал."
+    clare "Трусики просто так не могли расстегнуться. Их специально кто-то надрезал."
     img 16144
     with fade
     m "И я догадываюсь, кто именно..."
@@ -1203,7 +1321,7 @@ label ep210_dialogues4_dance_strip_15:
     with diss
     m "Меня эта дрянь не напугает."
     m "Я и не с такими легко справлялась."
-    $ log1 = _("Выйти на сцену паба и танцевать.")
+#    $ log1 = _("Выйти на сцену паба и танцевать.")
     return
 
 
@@ -1222,6 +1340,22 @@ label ep210_dialogues4_dance_strip_16:
             pass
     return
 
+label ep210_dialogues4_dance_strip_17:
+    menu:
+        "Предложить Клэр танцевать с Моникой.":
+            m "Клэр, не хочешь составить мне компанию на сцене?"
+            if day - ep29_quests_dancing_with_claire_last_day >= monicaClaireDanceDaysInterval:
+                clare "Хорошо, Моника. Выходи на сцену."
+                clare "Я присоединюсь к тебе во время твоего танца."
+                clare "Покажем им, кто здесь звезды!"
+                return True
+            else:
+                clare "Я сегодня уже натанцевалась. Давай в другой раз?"
+                return False
+
+        "Уйти.":
+            return False
+    return
 
 ############################################ в след. апдейте
 # Джо или Эшли будут заставлять танцевать приват для сотрудника банка (т.к. у них кредит)

@@ -9,6 +9,7 @@ default pubMakeupRoomGirlsRandomSuffix = False
 default ep29_quests_claire_talk_last_day = 0
 default ep29_quests_joe_catched_monica_claire = False
 default ep29_quests_monica_gave_money_forgivenes_last_day = 0
+default ep29_quests_only_claire = False
 label ep29_quests_pub1_dance_agree:
     # Моника согласилась отрабатывать танцами (из меню)
     call dialogue_5_dance_strip_1() from _call_dialogue_5_dance_strip_1 # Моника мнется
@@ -68,7 +69,7 @@ label ep29_quests_pub1_begin_dance_quest_check:
             # сегодня работает Молли
             $ move_object("Pub_StripteaseGirl2", "empty")
             $ move_object("Pub_StripteaseGirl1", "pub")
-        if ep29_quests_pub_forgiveness_dancing_stage == 3:
+        if ep29_quests_pub_forgiveness_dancing_stage == 3 or ep29_quests_only_claire == True:
             # сегодня работает Клэр
             $ move_object("Pub_StripteaseGirl1", "empty")
             $ move_object("Pub_StripteaseGirl2", "pub")
@@ -76,6 +77,7 @@ label ep29_quests_pub1_begin_dance_quest_check:
         if pubMakeupRoomGirlsRandomSuffix == True:
             $ pub_makeuproom_claire_suffix= rand(1,7)
             $ pub_makeuproom_molly_suffix = rand(1,8)
+
     return
 
 label ep29_quests_pub1_day1_molly:
@@ -330,6 +332,7 @@ label ep29_quests_pub1_day4_claire:
     $ pubMakeupRoomSkipMusicOnce = True
     call refresh_scene_fade() from _call_refresh_scene_fade_226
 #    mt "Черт! Снова эта сцена! И толпа пьяных неудачников!"
+    call ep210_quests_pub9_claire_offer_check()
     $ add_objective("go_dance", _("Выйти на сцену паба и танцевать."), c_orange, 110)
     $ remove_objective("go_to_makeuproom")
     return False

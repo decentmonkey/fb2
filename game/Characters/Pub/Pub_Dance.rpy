@@ -11,6 +11,7 @@ default monicaAshleyTalkedAboutSharingTipsDay = 0
 default monicaDancingStage = 0 # 0 - корсет (1..3), 1 - топлесс (4..6), 2 - топлесс (7..9)
 default monicaDancingInProgress = False
 default monicaStartedStripDanceFlag = True
+default monicaDanceStartHookInited = False
 
 label pub_dance_movegirls_to_makeuproom:
     # перемещение стриптизерш в гримерку (вызывается при начале танцев)
@@ -52,6 +53,10 @@ label pub_dance_start: # Начало танцев (выбор в меню)
         $ pub_makeuproom_claire_suffix= rand(1,7)
         $ pub_makeuproom_molly_suffix = rand(1,8)
     call pub_dance_movegirls_to_makeuproom()
+    if monicaDanceStartHookInited == False:
+        $ add_hook("start_dance_event", "pub_dance_start_event_hook", scene="global", label="pub_dance_start_event_hook")
+        $ monicaDanceStartHookInited = True
+    call process_hooks("start_dance_event", "global")
     call refresh_scene_fade()
     return
 
@@ -133,7 +138,15 @@ label pub_dance_end1: # Обычное завершение танцев
         # Джо спрашивает о приватных танцах
         call dialogue_5_dance_strip_24()
         $ monicaDancingJoeAskedAboutPrivate = True
+    if ep29_quests_molly_fall_panties_planned == True and ep29_quests_molly_fall_panties_completed == False and monicaDancingTopless == True:
+        # Падают трусики
+        call ep210_dialogues4_dance_strip_12()
+        call ep210_dialogues4_dance_strip_13()
+        $ ep29_quests_molly_fall_panties_planned = False
+        $ ep29_quests_molly_fall_panties_completed = True
 
+    $ ep29_quests_claire_dance_planned = False
+    $ remove_hook(label="remove_after_dance")
     $ move_object("Pub_StripteaseGirl2", "empty")
     $ move_object("Pub_StripteaseGirl1", "empty")
     $ pubDanceGirlsBlockedDay = day
@@ -162,4 +175,12 @@ label pub_dance_exit_check: # проверка на выход из бара
         if _return == True:
             call refresh_scene_fade()
             return False
+    return
+
+
+label pub_dance_start_event_hook:
+    # Начало события (после разговора с Эшли/Джо)
+    if monicaDancingJoeAskedAboutPrivate == True: # Если Джо уже спрашивал о приватах
+        call ep210_quests_pub1() # Проверяем на события
+
     return

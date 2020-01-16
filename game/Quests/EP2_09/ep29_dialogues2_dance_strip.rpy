@@ -1428,16 +1428,17 @@ label dialogue_5_dance_strip_16:
     with diss
     mt "Еще бы она была недовольна! Она теперь может на меня пялиться." # сердито
     mt "Как и ее муж-неудачник!"
-    music Groove2_85
-    img 22830
-    with fade
-    clare "Надеюсь, у тебя не было конфликтов с ней?"
-    clare "Про Эшли ходят не очень хорошие слухи."
-    clare "Так что, лучше не связывайся с ней..."
-    img 22831
-    with diss
-    m "Да? Я не знала..." # удивленно
-    m "Спасибо за предупреждение..."
+    if ep29_quests_monica_molly_was_fine == False and ep29_quests_monica_molly_fine == False:
+        music Groove2_85
+        img 22830
+        with fade
+        clare "Надеюсь, у тебя не было конфликтов с ней?"
+        clare "Про Эшли ходят не очень хорошие слухи."
+        clare "Так что, лучше не связывайся с ней..."
+        img 22831
+        with diss
+        m "Да? Я не знала..." # удивленно
+        m "Спасибо за предупреждение..."
     music Groove2_85
     img 22832
     with diss
@@ -1707,6 +1708,7 @@ label dialogue_5_dance_strip_16:
 
             $ add_char_progress("Pub_StripteaseGirl2", 50, "oiling1")
 #            return 1
+
     # Клэр, осматривая Монику
     # Переход на движок
     return
@@ -2046,6 +2048,17 @@ label dialogue_5_dance_strip_22:
         with fade
         $ add_money(-monica_strip_tips_today)
         m "Вот чаевые, которые я смогла получить..."
+        if ep29_quests_monica_molly_fine == True:
+            img 22651
+            with diss
+            ashley "Ты помнишь что ты наказана!?"
+            ashley "Сделай так чтобы Молли простила тебя, иначе не будешь зарабатывать здесь ничего!"
+            img 22653
+            with fade
+            mt "Сучка!"
+            mt "Какой мне смысл танцевать, если приходится отдавать ей все деньги?!"
+            return
+
         $ tipsBack = round_down(float(monica_strip_tips_today)*pubMonicaDanceTipsKoeff, 0.05)
         if tipsBack == 0.0:
             $ tipsBack = 0.05
@@ -2174,6 +2187,19 @@ label dialogue_5_dance_strip_27:
     else:
         mt "Ответить ей в таком же тоне означает - опуститься до ее уровня."
         mt "Я, Моника Бакфетт, никогда не опущусь до уровня этой хамки."
+
+    if ep210_picture_was_marked == True and cloth == "Whore":
+        # если Моника разрисовала портрет Молли
+        img 16251
+        with fade
+        #
+        $ notif(_("Моника разрисовала фотографию Молли"))
+        #
+        molly " И кстати!"
+        molly "Еще раз увижу, что ты испортила мой портрет!"
+        molly "Простым штрафом ты не отделаешься, сучка!!!"
+        $ ep210_picture_marked_molly_comment = True
+
     return
 
 # Моника говорит с Клэр (диалог)

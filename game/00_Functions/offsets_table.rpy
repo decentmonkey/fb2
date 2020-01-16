@@ -2949,7 +2949,7 @@ init python:
     global offsets_table
     def get_canvas_offset(in_filename):
         in_filename = in_filename.lower()
-        if offsets_table.has_key(in_filename) == False:
+        if offsets_table.has_key(in_filename) == False or in_filename == False:
             return False
         src_canvas_offsets = offsets_table[in_filename]
 

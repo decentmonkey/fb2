@@ -20,6 +20,9 @@ define monicaReceptionConversationCorruption8 = 420
 
 define monicaJuliaKissProgress = 25
 
+define monicaPosesOpenedToDanceClaire = 27
+define monicaClaireDanceDaysInterval = 7
+
 #v0.9 pub
 define monicaForgivenessDancingAgreeCorruption = 250 # Моника соглашается танцевать, чтобы отработать деньги (из меню)
 define monicaClaireOilingVest = 280 # Моника соглашается, чтобы Клэр намазала ее маслом

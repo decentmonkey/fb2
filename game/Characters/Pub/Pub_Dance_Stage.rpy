@@ -103,6 +103,8 @@ label pub_dance1_stage_start1:
     $ arrowSide = True
     $ arrowDown = True
     $ arrowStop = True
+    if ep29_quests_claire_dance_planned == True:
+        $ arrowStop = False
 
     #stage_Monica_shoots_array
 
@@ -154,7 +156,6 @@ label pub_dance1_stage_start1:
     $ arrowUp = True
     $ arrowSide = True
     $ arrowDown = True
-    $ arrowStop = True
     # Поза1
     # B
     $ pose = 2
@@ -202,7 +203,6 @@ label pub_dance1_stage_start1:
     $ arrowUp = True
     $ arrowSide = True
     $ arrowDown = True
-    $ arrowStop = True
     # Поза1
     # C
     $ pose = 3
@@ -259,7 +259,7 @@ label pub_dance1_stage_start1:
                 call dialogue_5_dance_strip_4g()
                 jump pub_dance1_stage_end
             call dialogue_5_dance_strip_4h()
-        "Завершить танец.":
+        "Завершить танец." if ep29_quests_claire_dance_planned == False:
             jump pub_dance1_stage_stop
 
     hide screen poledance
@@ -316,7 +316,6 @@ label pub_dance1_stage_start1_topless:
     $ arrowUp = True
     $ arrowSide = True
     $ arrowDown = True
-    $ arrowStop = True
     # Поза1
     # D
     $ pose = 4
@@ -371,7 +370,6 @@ label pub_dance1_stage_start1_topless:
     $ arrowUp = True
     $ arrowSide = True
     $ arrowDown = True
-    $ arrowStop = True
     # Поза1
     # E
     $ pose = 5
@@ -419,7 +417,6 @@ label pub_dance1_stage_start1_topless:
     $ arrowUp = True
     $ arrowSide = True
     $ arrowDown = True
-    $ arrowStop = True
     # Поза1
     # F
     $ pose = 6
@@ -467,7 +464,6 @@ label pub_dance1_stage_start1_topless:
     $ arrowUp = True
     $ arrowSide = True
     $ arrowDown = True
-    $ arrowStop = True
     # Поза1
     # G
     $ pose = 7
@@ -521,7 +517,6 @@ label pub_dance1_stage_start1_topless:
     $ arrowUp = True
     $ arrowSide = True
     $ arrowDown = True
-    $ arrowStop = True
     # Поза1
     # H
     $ pose = 8
@@ -569,7 +564,6 @@ label pub_dance1_stage_start1_topless:
     $ arrowUp = True
     $ arrowSide = True
     $ arrowDown = True
-    $ arrowStop = True
     # Поза1
     # I
     $ pose = 9
