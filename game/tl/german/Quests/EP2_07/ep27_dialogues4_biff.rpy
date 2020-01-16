@@ -528,17 +528,17 @@ translate german strings:
 translate german ep27_dialogues4_biff5_c8cb2977:
 
     # biff "Хорошо, папочка доволен!"
-    biff "Хорошо, папочка доволен!"
+    biff "Okay, Daddy ist glücklich!"
 
 # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:335
 translate german ep27_dialogues4_biff5_c8cb2977_1:
 
     # biff "Хорошо, папочка доволен!"
-    biff "Хорошо, папочка доволен!"
+    biff "Okay, Daddy ist glücklich!"
 
 # game/Quests/EP2_07/ep27_dialogues4_biff.rpy:346
 translate german ep27_dialogues4_biff5_c8cb2977_2:
 
     # biff "Хорошо, папочка доволен!"
-    biff "Хорошо, папочка доволен!"
+    biff "Okay, Daddy ist glücklich!"
 

@@ -12,5 +12,5 @@ translate german pub_visitors_default_62d97fd1:
     # mt "Не собираюсь к нему подходить!"
     # "Мне противно это место!"
     mt "Ich werde mich ihm nicht nähern!"
-    "Ich hasse diesen Ort!"
+    "Dieser Ort ist widerlich!"
 

@@ -745,7 +745,7 @@ label ep22_photoshoot3:
     return
 
 label ep22_photoshoot3_end:
-    hide screen photoshoot2_camera_icon
+    hide screen photoshoot_camera_icon
     hide screen photoshoot2
 
     $ monicaOutfitsEnabled[3] = True # Открываем следующий костюм

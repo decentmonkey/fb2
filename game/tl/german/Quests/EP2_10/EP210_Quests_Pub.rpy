@@ -7,9 +7,9 @@ translate german ep210_quests_pub4_molly_photo2_2eac7cd8:
     # mt "Бесполезная!"
     # mt "Сучка!!!"
     # mt "!!!"
-    mt "Никчемная!"
-    mt "Бесполезная!"
-    mt "Сучка!!!"
+    mt "Nutzlos!!!"
+    mt "Wertlos!"
+    mt "Schlampe!"
     mt "!!!"
 
 translate german strings:

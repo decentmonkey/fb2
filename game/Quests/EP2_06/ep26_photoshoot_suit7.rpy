@@ -1171,7 +1171,7 @@ label ep26_photoshoot_suit7_pose11:
 
 
 label ep26_photoshoot_suit7_end:
-    hide screen photoshoot2_camera_icon
+    hide screen photoshoot_camera_icon
     hide screen photoshoot2
     music Groove2_85
     img 20174

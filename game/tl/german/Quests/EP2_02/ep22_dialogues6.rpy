@@ -165,7 +165,7 @@ translate german ep22_dialogue6_2_13f34d54:
     # "У меня есть $ 5 наличными и все..."
     # m "Дорогуша, дай мне, пожалуйста, эти $ 5..."
     secretary "Ich habe nur meine Kreditkarte, aber damit zahle ich meine Miete."
-    "Ich habe 5 Euro dabei, das wars..."
+    "Ich habe 5 Dollar dabei, das wars..."
     m "Meine Liebe, geben Sie mir den Fünfer, bitte..."
 
 # game/Quests/EP2_02/ep22_dialogues6.rpy:170
@@ -1628,7 +1628,7 @@ translate german strings:
 
     # game/Quests/EP2_02/ep22_dialogues6.rpy:891
     old "Подарочный сертификат на $ 5000 отправлен Виктории"
-    new "Geschenkgutschein im Wert von $ 5000 wurde zu Victoria gesandt"
+    new "Geschenkgutschein im Wert von 5000 $ wurde zu Victoria gesandt"
 
     # game/Quests/EP2_02/ep22_dialogues6.rpy:989
     old "Ты что-то говорил по поводу работы в офисе?"

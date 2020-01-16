@@ -918,7 +918,7 @@ label ep26_photoshoot_suit6_pose11:
     return
 
 label ep26_photoshoot_suit6_end:
-    hide screen photoshoot2_camera_icon
+    hide screen photoshoot_camera_icon
     hide screen photoshoot2
 
     music Groove2_85

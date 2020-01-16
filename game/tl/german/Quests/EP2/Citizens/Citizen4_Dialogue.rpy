@@ -372,13 +372,13 @@ translate german citizen4_show_boobs_first_time_4d8fb1d0:
 translate german citizen4_show_boobs_first_time_e07e6d72:
 
     # citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
-    citizen4 "Dann wird meien $ 50 ein aufgeschlosseneres Mädchen verdienen."
+    citizen4 "Dann wird meien 50 $ ein aufgeschlosseneres Mädchen verdienen."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:333
 translate german citizen4_show_boobs_first_time_9914d493:
 
     # mt "50$ были бы не лишними... Хорошо, что здесь никого нет."
-    mt "$ 50 sind jetzt nicht die Welt ... Gut, dass niemand sonst hier ist."
+    mt "50$ sind jetzt nicht die Welt ... Gut, dass niemand sonst hier ist."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:336
 translate german citizen4_show_boobs_first_time_feded4a2:
@@ -398,7 +398,7 @@ translate german citizen4_show_boobs_first_time_742c6916:
     # mt "Черт! Моника, ты уверена что станешь делать это???"
     # mt "Станешь показывать свою грудь какому-то нищему за жалкие 50$?"
     mt "Verdammt! Bist du sicher, dass du das tun willst, Monica?"
-    mt "Deine Brüste irgendeinem Penner für $ 50 zeigen?"
+    mt "Deine Brüste irgendeinem Penner für 50 $ zeigen?"
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:345
 translate german citizen4_show_boobs_first_time_43678127:
@@ -490,7 +490,7 @@ translate german citizen4_show_boobs_first_time_50ea7d20:
     # m "Да за кого ты меня принимаешь?!"
     # citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
     m "Für wen oder was hältst du mich?"
-    citizen4 "Dann wird meien $ 50 ein aufgeschlosseneres Mädchen verdienen."
+    citizen4 "Dann wird meien 50 $ ein aufgeschlosseneres Mädchen verdienen."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:428
 translate german citizen4_show_boobs_first_time_5eaa9c3c:
@@ -524,7 +524,7 @@ translate german citizen4_show_boobs_first_time_50ea7d20_1:
     # m "Да за кого ты меня принимаешь?!"
     # citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
     m "Für wen oder was hältst du mich?"
-    citizen4 "Dann wird meien $ 50 ein aufgeschlosseneres Mädchen verdienen."
+    citizen4 "Dann wird meien 50 $ ein aufgeschlosseneres Mädchen verdienen."
 
 # game/Quests/EP2/Citizens/Citizen4_Dialogue.rpy:458
 translate german citizen4_show_boobs_first_time_bb4d3628:
@@ -611,7 +611,7 @@ translate german citizen4_show_boobs_regular_time_45ccfdf5:
     # citizen4 "За малышек, которые я уже видел, я готов заплатить [monicaWhoringNakedBoobsMoney]$!"
     citizen4 "Was? Niemals!"
     citizen4 "Ich kenne deine doch schon!"
-    citizen4 "Willst du nochmal $ 50? Zeig mir mal was Neues."
+    citizen4 "Willst du nochmal 50 $? Zeig mir mal was Neues."
     citizen4 "Du kannst noch Eine mitbringen und das Geld mit ihr teilen."
     citizen4 "Aber, ich habe fast schon Jede hier in der Gegend gesehen..."
     citizen4 "Ich bin bereit zu zahlen, für das ich bereits gesehen habe [monicaWhoringNakedBoobsMoney]$ !"

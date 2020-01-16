@@ -581,7 +581,7 @@ label ep22_photoshoot2:
 
 
 label ep22_photoshoot2_end:
-    hide screen photoshoot2_camera_icon
+    hide screen photoshoot_camera_icon
     hide screen photoshoot2
 
     music Stealth_Groover

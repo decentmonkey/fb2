@@ -1750,7 +1750,7 @@ translate german strings:
 
     # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:1096
     old "Взять $ 100 и уйти."
-    new "Nimm die $ 100 und geh weg."
+    new "Nimm die 100 $ und geh weg."
 
     # game/Quests/EP2_05/ep25_dialogues2_steve.rpy:1096
     old "Как нам закрыть эту чертову сделку?!"

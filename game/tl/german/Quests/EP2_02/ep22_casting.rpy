@@ -616,15 +616,15 @@ translate german strings:
 
     # game/Quests/EP2_02/ep22_casting.rpy:5
     old "Раздеться и принимать различные модельные позы."
-    new "Раздеться и принимать различные модельные позы."
+    new "Zieh dich aus und mache verschiedene Modelposen."
 
     # game/Quests/EP2_02/ep22_casting.rpy:5
     old "Раздеться и встать на колени задом к Бифу."
-    new "Раздеться и встать на колени задом к Бифу."
+    new "Zieh dich aus und knie dich an Biff."
 
     # game/Quests/EP2_02/ep22_casting.rpy:5
     old "Раздеться и лечь на пол раздвинув ноги."
-    new "Раздеться и лечь на пол раздвинув ноги."
+    new "Zieh dich aus und lege dich mit gespreizten Beinen auf den Boden."
 
 # TODO: Translation updated at 2020-01-16 22:18
 

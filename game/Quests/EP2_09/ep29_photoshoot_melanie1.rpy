@@ -765,7 +765,7 @@ label ep29_photoshoot_melanie_suit1_pose12:
 
 
 label ep29_photoshoot_suit1_end:
-    hide screen photoshoot2_camera_icon
+    hide screen photoshoot_camera_icon
     hide screen photoshoot2
     music stop
     img black_screen

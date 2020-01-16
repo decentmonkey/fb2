@@ -290,7 +290,7 @@ translate german monica_office_secretary_dialogue2_dc29b0c6:
     # secretary "У меня есть только кредитная карточка, но мне надо платить за ипотечный кредит."
     # "У меня есть $ 5 наличными и все..."
     secretary "Ich habe nur meine Kreditkarte, aber damit zahle ich meine Miete."
-    "Ich habe 5 Euro dabei, das wars..."
+    "Ich habe 5 Dollar dabei, das wars..."
 
 # game/Quests/EP2/ep2_dialogues4.rpy:181
 translate german monica_office_secretary_dialogue2_3e99585a:
@@ -303,8 +303,8 @@ translate german monica_office_secretary_dialogue2_c4de147c:
 
     # secretary "Но Миссис Бакфетт! Зачем Вам какие-то $ 5?"
     # "Я даже не понимаю, для чего?"
-    secretary "Aber Frau Buckfett! Wofür brauchen sie denn 5€?"
-    "Ich verstehe nicht warum ausgerechnet Sie 5€ brauchen?"
+    secretary "Aber Frau Buckfett! Wofür brauchen sie denn 5 $?"
+    "Ich verstehe nicht warum ausgerechnet Sie 5 $ brauchen?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:186
 translate german monica_office_secretary_dialogue2_c924a1df:
@@ -1316,7 +1316,7 @@ translate german monica_office_cabinet_biff_dialogue3_e916b657:
     # "Я смогу продавать твое личико."
     # "Какое-то время."
     biff "Also ich schlage vor du machst eine Serie von Photoshoots die der neuen Ausrichtung des Magazins gewidmet sind."
-    "Für jedes Shooting biete ich dir... {c}1.000€{/c}."
+    "Für jedes Shooting biete ich dir... {c}1.000${/c}."
     "Also ich denke wir könenn dir ein Büro einrichten, in dem du zur Presse sprichst."
     "Und mit Partnern unseres Magazins."
     "So kann ich dein Gesicht verkaufen."
@@ -1326,7 +1326,7 @@ translate german monica_office_cabinet_biff_dialogue3_e916b657:
 translate german monica_office_cabinet_biff_dialogue3_8bbf3f36:
 
     # m "$ 5.000!!!"
-    m "$ 5.000 !!!"
+    m "5.000 $!!!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:902
 translate german monica_office_cabinet_biff_dialogue3_a2ce45ca:
@@ -1340,13 +1340,13 @@ translate german monica_office_cabinet_biff_dialogue3_a2ce45ca:
 translate german monica_office_cabinet_biff_dialogue3_17bd862d:
 
     # biff "Что ты имеешь ввиду под $ 5.000?"
-    biff "Was meinst du, '5.000€'?"
+    biff "Was meinst du, '5.000$'?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:909
 translate german monica_office_cabinet_biff_dialogue3_0649a99e:
 
     # m "$ 5.000 за каждую фотосессию!"
-    m "5.000€ pro Shooting!"
+    m "5.000 $ pro Shooting!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:911
 translate german monica_office_cabinet_biff_dialogue3_a4e50d51:
@@ -1359,7 +1359,7 @@ translate german monica_office_cabinet_biff_dialogue3_84b73f7f:
 
     # "Судя по твоему виду, ты делаешь минет за $ 10!"
     # "Не слишком-ли быстрый рост для какой-то шлюхи?"
-    "Wie du aussiehst, lutschst du Schwänze für 10€!"
+    "Wie du aussiehst, lutschst du Schwänze für 10$!"
     "Ist das nicht schon ein großer Sprung für eine Hure wie dich?"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:918
@@ -1428,7 +1428,7 @@ translate german monica_office_cabinet_biff_dialogue3_f5ed9f5d:
     # "Но я не обещаю тебе их регулярно!"
     # "Я посмотрю еще стоишь-ли ты этих денег!"
     biff "Ok! Mädchen!"
-    "Ich geb dir die {c}5.000€{/c}!"
+    "Ich geb dir die {c} 5.000 ${/c}!"
     "Aber ich verspreche dir keine regelmäßgen Löhne!"
     "Schaun wir erstmal, ob du das Geld wert bist!"
 
@@ -1544,7 +1544,7 @@ translate german monica_office_secretary_dialogue5b_local1_d09bd339:
     "Er sagte mehrere Photo-Shoots..."
     "Dezenter Wechsel des Stils..."
     "Ich muss nur ein Shooting durchstehen."
-    "Und ich brauche unbedingt diese 5.000€!"
+    "Und ich brauche unbedingt diese 5.000$!"
     "Ich bringe es zu Dick, wir kaufen ihm diese verdammte Krawatte und er wird aufhören mich zu erpressen..."
     "Er will nur einen Beweis meiner Loyalität und Wertschätzung."
     "Wenn ich ihm beweise eine echte Freundin zu sein, dan nwird er seine Einstellung wieder ändern..."
@@ -2420,7 +2420,7 @@ translate german monica_office_cabinet_biff_dialogue5_b37fca49:
     # "Что тогда?!"
     m "Ich behalte das Kleid! Es ist meins!"
     biff "Nein! Das kannst du vergessen!"
-    "Ich werde sicher keine 10€ Nutte in den Klamotten eines Modemagazins herumrennen lassen!"
+    "Ich werde sicher keine 10 $ Nutte in den Klamotten eines Modemagazins herumrennen lassen!"
     "Was, wenn jemand das Kleid wieder erkennt?!"
     "Was wäre dann?!"
 
@@ -2428,7 +2428,7 @@ translate german monica_office_cabinet_biff_dialogue5_b37fca49:
 translate german monica_office_cabinet_biff_dialogue5_4c122358:
 
     # m "Я поставлю пятно на него!"
-    m "Ich mache einen Felck drauf!"
+    m "Ich mache einen Fleck drauf!"
 
 # game/Quests/EP2/ep2_dialogues4.rpy:1827
 translate german monica_office_cabinet_biff_dialogue5_fbfe54da:
@@ -2502,7 +2502,7 @@ translate german strings:
 
     # game/Quests/EP2/ep2_dialogues4.rpy:895
     old "$ 5.000!!!"
-    new "$ 5.000 !!!"
+    new "5.000 $!!!"
 
     # game/Quests/EP2/ep2_dialogues4.rpy:971
     old "Да, я согласна... (corruption)"

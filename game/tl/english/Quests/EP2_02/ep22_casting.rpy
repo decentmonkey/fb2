@@ -616,15 +616,15 @@ translate english strings:
 
     # game/Quests/EP2_02/ep22_casting.rpy:5
     old "Раздеться и принимать различные модельные позы."
-    new "Раздеться и принимать различные модельные позы."
+    new "Undress and do various model poses."
 
     # game/Quests/EP2_02/ep22_casting.rpy:5
     old "Раздеться и встать на колени задом к Бифу."
-    new "Раздеться и встать на колени задом к Бифу."
+    new "Undress and kneel back to Biff."
 
     # game/Quests/EP2_02/ep22_casting.rpy:5
     old "Раздеться и лечь на пол раздвинув ноги."
-    new "Раздеться и лечь на пол раздвинув ноги."
+    new "Undress and lie on the floor spreading your legs."
 
 # TODO: Translation updated at 2020-01-16 22:17
 

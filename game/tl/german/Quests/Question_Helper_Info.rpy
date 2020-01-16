@@ -366,5 +366,5 @@ translate german strings:
 
     # game/Quests/Question_Helper_Info.rpy:131
     old "Фред обычно во дворе у машины..."
-    new ""
+    new "Fred ist meisten im Hof beim Auto..."
 

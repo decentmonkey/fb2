@@ -993,7 +993,7 @@ label ep27_photoshoot_suit8_pose8:
         with diss
         alex_photograph "Ой!"
 
-        hide screen photoshoot2_camera_icon
+        hide screen photoshoot_camera_icon
         hide screen photoshoot2
         music stop
         img black_screen
@@ -1022,7 +1022,7 @@ label ep27_photoshoot_suit8_pose8:
 
 
 label ep27_photoshoot_suit8_end:
-    hide screen photoshoot2_camera_icon
+    hide screen photoshoot_camera_icon
     hide screen photoshoot2
     music Groove2_85
 

@@ -4,7 +4,7 @@
 translate english ep210_dialogues5_julia_1_3093b251:
 
     # julia "Миссис Бакфетт... Я..."
-    julia "Миссис Бакфетт... Я..."
+    julia "Mrs. Buckfett ... I ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:10
 translate english ep210_dialogues5_julia_1_132167a0:
@@ -17,32 +17,32 @@ translate english ep210_dialogues5_julia_1_0e1c1efc:
 
     # julia "Я хотела сказать Вам, что Ваши сотрудники, Джон и Гретта..."
     # julia "Они... Они ворвались в этот кабинет и пытались задрать мое платье!"
-    julia "Я хотела сказать Вам, что Ваши сотрудники, Джон и Гретта..."
-    julia "Они... Они ворвались в этот кабинет и пытались задрать мое платье!"
+    julia "I wanted to tell you that your staff, John and Gretta ..."
+    julia "They ... They broke into this office and tried to pull my dress up!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:15
 translate english ep210_dialogues5_julia_1_93222b72:
 
     # m "И что, им это удалось?"
-    m "И что, им это удалось?"
+    m "And what, they succeeded?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:17
 translate english ep210_dialogues5_julia_1_eb88a1ed:
 
     # julia "Миссис Бакфетт, конечно я не позволила им сделать это!"
-    julia "Миссис Бакфетт, конечно я не позволила им сделать это!"
+    julia "Mrs. Buckfett, of course I did not let them do this!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:19
 translate english ep210_dialogues5_julia_1_01ca88fd:
 
     # mt "Никчемные и безполезные сотрудники..."
-    mt "Никчемные и безполезные сотрудники..."
+    mt "Worthless and useless employees ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:21
 translate english ep210_dialogues5_julia_1_80663c29:
 
     # julia "Миссис Бакфетт, они нарушают рабочую атмосферу своим поведением!"
-    julia "Миссис Бакфетт, они нарушают рабочую атмосферу своим поведением!"
+    julia "Mrs. Buckfett, they disrupt the working atmosphere with their behavior!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:23
 translate english ep210_dialogues5_julia_1_8fcf05f9:
@@ -50,9 +50,9 @@ translate english ep210_dialogues5_julia_1_8fcf05f9:
     # m "Я ничего не знаю!"
     # m "Просто так они не стали бы это делать."
     # m "Значит, они выполняют какое-то важное распоряжение начальства!"
-    m "Я ничего не знаю!"
-    m "Просто так они не стали бы это делать."
-    m "Значит, они выполняют какое-то важное распоряжение начальства!"
+    m "I do not know anything!"
+    m "Just like that, they would not do it."
+    m "So, they are fulfilling some important order of the authorities!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:27
 translate english ep210_dialogues5_julia_1_7a63d49e:
@@ -61,14 +61,14 @@ translate english ep210_dialogues5_julia_1_7a63d49e:
     # julia "Какое важное распоржение, Миссис Бакфетт?"
     # julia "Посмотрет мои трусики?!"
     julia "???"
-    julia "Какое важное распоржение, Миссис Бакфетт?"
-    julia "Посмотрет мои трусики?!"
+    julia "What is the important order, Mrs. Buckfett?"
+    julia "Look at my panties ?!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:31
 translate english ep210_dialogues5_julia_1_ecbf743d:
 
     # m "А я тут причем? Они просто выполняют свою работу..."
-    m "А я тут причем? Они просто выполняют свою работу..."
+    m "What do I have to do with this? They just do their job ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:33
 translate english ep210_dialogues5_julia_1_267482cd:
@@ -76,17 +76,17 @@ translate english ep210_dialogues5_julia_1_267482cd:
     # julia "Как Вы ни причем?"
     # julia "..."
     # julia "Это же по Вашему приказу они это делают..."
-    julia "Как Вы ни причем?"
+    julia "No matter how you do it?"
     julia "..."
-    julia "Это же по Вашему приказу они это делают..."
+    julia "It’s on your order that they do it ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:38
 translate english ep210_dialogues5_julia_1_bb216326:
 
     # m "Я не помню такого..."
     # m "Мне до этого вообще нет дела... До каких-то низкоуровневых сотрудников."
-    m "Я не помню такого..."
-    m "Мне до этого вообще нет дела... До каких-то низкоуровневых сотрудников."
+    m "I don’t remember that ..."
+    m "I don’t care about that at all ... Some low-level employees."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:42
 translate english ep210_dialogues5_julia_1_bd6b658f:
@@ -94,9 +94,9 @@ translate english ep210_dialogues5_julia_1_bd6b658f:
     # julia "Но, Миссис Бакфетт... Как же так?"
     # julia "Вы совсем недавно пытались ущипнуть меня... И поцеловать..."
     # julia "Я пытаюсь понять причину, почему Вы так делаете..."
-    julia "Но, Миссис Бакфетт... Как же так?"
-    julia "Вы совсем недавно пытались ущипнуть меня... И поцеловать..."
-    julia "Я пытаюсь понять причину, почему Вы так делаете..."
+    julia "But, Mrs. Buckfett ... How so?"
+    julia "You recently tried to pinch me ... And kiss ..."
+    julia "I'm trying to understand the reason why you do this ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:46
 translate english ep210_dialogues5_julia_1_17dcad92:
@@ -105,8 +105,8 @@ translate english ep210_dialogues5_julia_1_17dcad92:
     # julia "Вы пытаетесь сблизиться со мной?"
     # julia "Вы ко мне неравнодушны?"
     julia "You are."
-    julia "Вы пытаетесь сблизиться со мной?"
-    julia "Вы ко мне неравнодушны?"
+    julia "Are you trying to get close to me?"
+    julia "Are you not indifferent to me?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:51
 translate english ep210_dialogues5_julia_1_14cd6d52:
@@ -114,22 +114,22 @@ translate english ep210_dialogues5_julia_1_14cd6d52:
     # m "!!!"
     # m "С чего ты это взяла?!"
     m "!!!"
-    m "С чего ты это взяла?!"
+    m "Why did you get this ?!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:55
 translate english ep210_dialogues5_julia_1_8af9f190:
 
     # julia "Вы мне тоже очень... Нравитесь..."
     # julia "Но я всегда боялась Вам сказать об этом..."
-    julia "Вы мне тоже очень... Нравитесь..."
-    julia "Но я всегда боялась Вам сказать об этом..."
+    julia "I also like you very much..."
+    julia "But I was always afraid to tell you about this ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:59
 translate english ep210_dialogues5_julia_1_fc0f21e4:
 
     # mt "Я ей нравлюсь?"
     # mt "???"
-    mt "Я ей нравлюсь?"
+    mt "Does she like me?"
     mt "???"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:66
@@ -138,7 +138,7 @@ translate english ep210_dialogues5_julia_1_c26bb82e:
     # m "Юлия!!!"
     # m "Ты о чем вообще говоришь?!"
     m "Julia!!!"
-    m "Ты о чем вообще говоришь?!"
+    m "What are you talking about ?!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:69
 translate english ep210_dialogues5_julia_1_85a41922:
@@ -146,9 +146,9 @@ translate english ep210_dialogues5_julia_1_85a41922:
     # m "Как ты могла подумать, что такой как Я!"
     # m "Может понравится девушка твоего уровня?!"
     # m "Ты совсем глупая?!"
-    m "Как ты могла подумать, что такой как Я!"
-    m "Может понравится девушка твоего уровня?!"
-    m "Ты совсем глупая?!"
+    m "How could you think that someone like me!"
+    m "Maybe a girl of your level will like it ?!"
+    m "Are you completely stupid ?!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:73
 translate english ep210_dialogues5_julia_1_0a5616b8:
@@ -161,15 +161,15 @@ translate english ep210_dialogues5_julia_1_9ca94ae1:
 
     # m "Перестань отвлекать меня от работы этой чушью!"
     # m "И сама иди займись работой!!!"
-    m "Перестань отвлекать меня от работы этой чушью!"
-    m "И сама иди займись работой!!!"
+    m "Stop distracting me from working with this nonsense!"
+    m "And go do the work yourself !!!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:78
 translate english ep210_dialogues5_julia_1_e4e39a9f:
 
     # mt "Никчемная глупая помощница!!!"
     # mt "!!!"
-    mt "Никчемная глупая помощница!!!"
+    mt "Worthless stupid helper !!!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:82
@@ -182,10 +182,10 @@ translate english ep210_dialogues5_julia_1_77476d52:
     # mt "Притворюсь, что она тоже мне нравится."
     # mt "..."
     mt "Hmmm."
-    mt "Это отличный способ выяснить то, что мне нужно..."
-    mt "По-другому никак - она слишком быстро прыгает."
-    mt "Сейчас мне просто нужно подыграть ей!"
-    mt "Притворюсь, что она тоже мне нравится."
+    mt "This is a great way to find out what I need ..."
+    mt "No other way — she jumps too fast."
+    mt "Now I just need to play along with her!"
+    mt "I pretend I like her too."
     mt "..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:89
@@ -194,8 +194,8 @@ translate english ep210_dialogues5_julia_1_0f7a1434:
     # mt "Я же не могу рассказать ей про настоящую причину своего поведения..."
     # mt "Про мерзавца Фреда. Иначе она узнает правду про меня. А мне этого не нужно."
     # mt "..."
-    mt "Я же не могу рассказать ей про настоящую причину своего поведения..."
-    mt "Про мерзавца Фреда. Иначе она узнает правду про меня. А мне этого не нужно."
+    mt "I can’t tell her about the real reason for my behavior ..."
+    mt "About the bastard Fred. Otherwise, she will find out the truth about me. But I don’t need it."
     mt "..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:93
@@ -205,18 +205,18 @@ translate english ep210_dialogues5_julia_1_4a14d5fc:
     # mt "Скажу, что она мне нравится..."
     # mt "И она мне все расскажет и все покажет!"
     # mt "Это гениально, Моника!"
-    mt "Я эту глупую Юлию могу легко обмануть..."
-    mt "Скажу, что она мне нравится..."
-    mt "И она мне все расскажет и все покажет!"
-    mt "Это гениально, Моника!"
+    mt "I can easily deceive this stupid Julia ..."
+    mt "I will say that I like her ..."
+    mt "And she will tell me everything and show everything!"
+    mt "This is brilliant, Monica!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:99
 translate english ep210_dialogues5_julia_1_dde796ad:
 
     # m "Я думала, что скажу об этом тебе позже..."
     # m "Но ты и правда мне нравишься."
-    m "Я думала, что скажу об этом тебе позже..."
-    m "Но ты и правда мне нравишься."
+    m "I thought I would tell you about this later ..."
+    m "But I really like you."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:102
 translate english ep210_dialogues5_julia_1_1599b2d7:
@@ -228,7 +228,7 @@ translate english ep210_dialogues5_julia_1_1599b2d7:
 translate english ep210_dialogues5_julia_1_6f28495f:
 
     # m "Именно поэтому я щипала тебя за попу..."
-    m "Именно поэтому я щипала тебя за попу..."
+    m "That’s why I pinched your ass ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:106
 translate english ep210_dialogues5_julia_1_cf12c50c:
@@ -236,9 +236,9 @@ translate english ep210_dialogues5_julia_1_cf12c50c:
     # julia "Это правда?!"
     # julia "Я Вам нравлюсь?!"
     # julia "Поэтому Вы... Хотите залезть ко мне в трусики?"
-    julia "Это правда?!"
-    julia "Я Вам нравлюсь?!"
-    julia "Поэтому Вы... Хотите залезть ко мне в трусики?"
+    julia "It's true?!"
+    julia "Do you like me?!"
+    julia "So you ... Want to get into my panties?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:110
 translate english ep210_dialogues5_julia_1_f9956745:
@@ -247,8 +247,8 @@ translate english ep210_dialogues5_julia_1_f9956745:
     # julia "Я просто не могу поверить, что я вам и правда нравлюсь..."
     # julia "Вы такая красивая и умная. Как я могу вам нравиться?"
     m "Yes, Julia..."
-    julia "Я просто не могу поверить, что я вам и правда нравлюсь..."
-    julia "Вы такая красивая и умная. Как я могу вам нравиться?"
+    julia "I just can't believe that you really like me ..."
+    julia "You are so beautiful and smart. How can you like me?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:114
 translate english ep210_dialogues5_julia_1_3180e861:
@@ -256,8 +256,8 @@ translate english ep210_dialogues5_julia_1_3180e861:
     # mt "Черт! Мне ей еще и доказывать это придется?!"
     # mt "И уговаривать?!"
     # mt "!!!"
-    mt "Черт! Мне ей еще и доказывать это придется?!"
-    mt "И уговаривать?!"
+    mt "Heck! Will she have to prove it to me ?!"
+    mt "And to persuade ?!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:118
@@ -267,41 +267,41 @@ translate english ep210_dialogues5_julia_1_d059e399:
     # mt "Думаю, этот способ сработает с точностью в тысячу процентов."
     # mt "Так что я попробую."
     mt "From the other side..."
-    mt "Думаю, этот способ сработает с точностью в тысячу процентов."
-    mt "Так что я попробую."
+    mt "I think this method will work with an accuracy of a thousand percent."
+    mt "So I will try."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:128
 translate english ep210_dialogues5_julia_1_a3b559d5:
 
     # m "Да, я мечтаю залезть к тебе в трусики, Юлия..."
-    m "Да, я мечтаю залезть к тебе в трусики, Юлия..."
+    m "Yes, I dream to get into your panties, Julia ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:136
 translate english ep210_dialogues5_julia_1_b07d2231:
 
     # julia "Миссис Бакфетт... Сначала нам нужно узнать друг друга лучше."
-    julia "Миссис Бакфетт... Сначала нам нужно узнать друг друга лучше."
+    julia "Mrs. Buckfett ... First we need to get to know each other better."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:138
 translate english ep210_dialogues5_julia_1_f1c644fd:
 
     # m "И что ты хочешь от меня?"
-    m "И что ты хочешь от меня?"
+    m "And what do you want from me?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:140
 translate english ep210_dialogues5_julia_1_a0d27381:
 
     # julia "Ну не знаю..."
     # julia "Сначала люди ходят на свидания... Можно сходить в кафе и попить кофе."
-    julia "Ну не знаю..."
-    julia "Сначала люди ходят на свидания... Можно сходить в кафе и попить кофе."
+    julia "Well I do not know..."
+    julia "First, people go on dates ... we can go and drink coffee together."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:143
 translate english ep210_dialogues5_julia_1_077ff13c:
 
     # mt "Кафе?"
     # mt "..."
-    mt "Кафе?"
+    mt "Coffee?"
     mt "..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:146
@@ -310,29 +310,29 @@ translate english ep210_dialogues5_julia_1_4ae59a13:
     # m "Ну хорошо. Куда ты хочешь?"
     # m "Я не могу тебя вести в те пафосные места, куда хожу обычно..."
     # m "Боюсь, ты будешь чувствовать себя неудобно."
-    m "Ну хорошо. Куда ты хочешь?"
-    m "Я не могу тебя вести в те пафосные места, куда хожу обычно..."
-    m "Боюсь, ты будешь чувствовать себя неудобно."
+    m "Oh well. Where do you want?"
+    m "I can’t lead you to those locations where I usually go ..."
+    m "I'm afraid you will feel uncomfortable."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:150
 translate english ep210_dialogues5_julia_1_a6bb8f5e:
 
     # m "Выбирай то место, которое нравится тебе."
     # m "Например, рядом с твоим домом. Кстати, где ты живешь?"
-    m "Выбирай то место, которое нравится тебе."
-    m "Например, рядом с твоим домом. Кстати, где ты живешь?"
+    m "Choose the place you like."
+    m "For example, near your home. By the way, where do you live?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:153
 translate english ep210_dialogues5_julia_1_beb5f1d8:
 
     # julia "Я живу рядом с трущобами..."
-    julia "Я живу рядом с трущобами..."
+    julia "I live near the slums ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:157
 translate english ep210_dialogues5_julia_1_de39b28b:
 
     # mt "Надеюсь, не рядом с Shiny Hole..."
-    mt "Надеюсь, не рядом с Shiny Hole..."
+    mt "Hopefully not next to Shiny Hole ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:161
 translate english ep210_dialogues5_julia_1_412c24b8:
@@ -341,10 +341,10 @@ translate english ep210_dialogues5_julia_1_412c24b8:
     # m "Поэтому с удовольствием пойду с тобой в то кафе, где ты обычно бываешь."
     # m "Хочу узнать тебя получше..."
     # mt "Боже. Моника, что за чушь ты несешь?"
-    m "Я хочу доказать тебе, что ты мне и правда нравишься..."
-    m "Поэтому с удовольствием пойду с тобой в то кафе, где ты обычно бываешь."
-    m "Хочу узнать тебя получше..."
-    mt "Боже. Моника, что за чушь ты несешь?"
+    m "I want to prove to you that I really like you ..."
+    m "Therefore, with pleasure I will go with you to that cafe where you usually go."
+    m "I want to know you better ..."
+    mt "Oh god Monica, what nonsense are you talking about?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:167
 translate english ep210_dialogues5_julia_1_a1cbc2f2:
@@ -352,21 +352,21 @@ translate english ep210_dialogues5_julia_1_a1cbc2f2:
     # julia "Правда?!"
     # julia "У меня рядом с домом есть кафе!"
     # julia "Мы можем пойти туда. А когда?"
-    julia "Правда?!"
-    julia "У меня рядом с домом есть кафе!"
-    julia "Мы можем пойти туда. А когда?"
+    julia "True?!"
+    julia "I have a cafe near my house!"
+    julia "We can go there. And when?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:171
 translate english ep210_dialogues5_julia_1_82c6d095:
 
     # m "Думаю, завтра... Сегодня у меня много дел."
-    m "Думаю, завтра... Сегодня у меня много дел."
+    m "I think tomorrow ... Today I have a lot to do."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:173
 translate english ep210_dialogues5_julia_1_f926983c:
 
     # mt "Уверена в том, что мне удастся улучить момент и подсмотреть ей под юбку..."
-    mt "Уверена в том, что мне удастся улучить момент и подсмотреть ей под юбку..."
+    mt "I am sure that I will be able to seize the moment and peek under her skirt ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:175
 translate english ep210_dialogues5_julia_1_1889b3dd:
@@ -374,21 +374,21 @@ translate english ep210_dialogues5_julia_1_1889b3dd:
     # julia "Хорошо, Миссис Бакфетт!"
     # julia "Завтра встретимся с Вами в кафе."
     julia "Well, Mrs. Buckfett!"
-    julia "Завтра встретимся с Вами в кафе."
+    julia "Tomorrow we will meet you in a cafe."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:178
 translate english ep210_dialogues5_julia_1_09d9174d:
 
     # mt "Фи... На какие жертвы приходится идти из-за этой глупой просьбы Фреда..."
-    mt "Фи... На какие жертвы приходится идти из-за этой глупой просьбы Фреда..."
+    mt "Fi ... What sacrifices have to be made because of this stupid request from Fred ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:185
 translate english ep210_dialogues5_julia_1_2_7487ad66:
 
     # julia "Миссис Бакфетт, я не могу дождаться нашего свидания в кафе!"
     # julia "Скорее бы наступил завтрашний день!"
-    julia "Миссис Бакфетт, я не могу дождаться нашего свидания в кафе!"
-    julia "Скорее бы наступил завтрашний день!"
+    julia "Mrs. Buckfett, I can't wait for our date at the cafe!"
+    julia "Hopefully, tomorrow comes soon!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:193
 translate english ep210_dialogues5_julia_2_c61947ec:
@@ -398,17 +398,17 @@ translate english ep210_dialogues5_julia_2_c61947ec:
     # mt "Я же договорилась с ней сегодня сходить в кафе."
     # mt "Оно находится где-то рядом с трущобами."
     # mt "Мне нужно сейчас идти на свидание с Юлией."
-    mt "А где эта никчемная помощница?!"
-    mt "Вот черт! Я совсем забыла..."
-    mt "Я же договорилась с ней сегодня сходить в кафе."
-    mt "Оно находится где-то рядом с трущобами."
-    mt "Мне нужно сейчас идти на свидание с Юлией."
+    mt "And where is this worthless helper ?!"
+    mt "Damn it! I completely forgot ..."
+    mt "I agreed with her to go to a cafe today."
+    mt "It is located somewhere near the slums."
+    mt "I need to go on a date with Julia now."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:210
 translate english ep210_dialogues5_julia_3_1_e68505b6:
 
     # mt "Фи. Какая-то дешевая забегаловка."
-    mt "Фи. Какая-то дешевая забегаловка."
+    mt "Phi. Some kind of cheap eatery."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:215
 translate english ep210_dialogues5_julia_3_2_b0a5a4dd:
@@ -416,9 +416,9 @@ translate english ep210_dialogues5_julia_3_2_b0a5a4dd:
     # mt "Мне придется притвориться, что эта никчемная Юлия мне нравится."
     # mt "Поверить не могу. Это же моя бывшая гувернантка..."
     # mt "Как такая, как она, может понравиться такой леди, как Я?!"
-    mt "Мне придется притвориться, что эта никчемная Юлия мне нравится."
-    mt "Поверить не могу. Это же моя бывшая гувернантка..."
-    mt "Как такая, как она, может понравиться такой леди, как Я?!"
+    mt "I have to pretend that I like this worthless Julia ."
+    mt "I can’t believe it. This is my former governess ..."
+    mt "How can someone like me, a lady like me, like her ?!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:224
 translate english ep210_dialogues5_julia_3_3e5558d1:
@@ -447,30 +447,30 @@ translate english ep210_dialogues5_julia_3_3e5558d1:
     # m "И еще..."
     # m "Ты очень красивая..."
     # julia "Почему тогда Вы так со мной обращались, Миссис Бакфетт?"
-    mt "Надо же, какая она радостная..."
-    mt "Ну что ж, не буду портить ей настроение..."
-    julia "Миссис Бакфетт, я так рада, что Вы пришли!"
-    julia "Я заказала Вам чай."
+    mt "Wow, how joyful she is ..."
+    mt "Well, I will not spoil her mood ..."
+    julia "Mrs. Buckfett, I'm so glad you came!"
+    julia "I ordered you some tea."
     m "Good, Julia. Thank you."
-    julia "Я всю ночь не могла уснуть..."
-    julia "Неужели, я Вам и правда нравлюсь?"
-    m "Это правда, Юлия."
-    m "Я хочу узнать тебя поближе и..."
-    mt "Узнать цвет твоих трусиков!"
-    m "И проводить с тобой больше времени."
-    julia "Не могу поверить в это..."
-    julia "Вы такая красивая и успешная женщина, настоящая леди..."
-    julia "Что Вы могли найти в такой как я?"
-    mt "Я что, должна сейчас ей делать комплименты какие-то?"
-    mt "И как это делать?!"
+    julia "I couldn’t sleep all night ..."
+    julia "Do you really like me?"
+    m "It's true, Julia."
+    m "I want to get to know you better and ..."
+    mt "Find out the color of your panties!"
+    m "And spend more time with you."
+    julia "I can not believe it..."
+    julia "You are such a beautiful and successful woman, a real lady ..."
+    julia "What could you find in someone like me?"
+    mt "Am I supposed to give her some compliments now?"
+    mt "And how to do it ?!"
     m "..."
-    m "Ты очень милая и добрая."
-    m "В моем окружении редко можно встретить таких людей..."
+    m "You are very sweet and kind."
+    m "In my environment, you can rarely meet such people ..."
     m "..."
-    m "Ты очень ответственная и старательно выполняешь все поручения..."
+    m "You are very responsible and diligently carry out all the tasks ..."
     m "And one more..."
-    m "Ты очень красивая..."
-    julia "Почему тогда Вы так со мной обращались, Миссис Бакфетт?"
+    m "You are very beautiful..."
+    julia "Why then did you treat me like that, Mrs. Buckfett?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:253
 translate english ep210_dialogues5_julia_3_281d7945:
@@ -496,24 +496,24 @@ translate english ep210_dialogues5_julia_3_281d7945:
     # mt "Возможно, сейчас у меня получится заглянуть ей под платье..."
     # mt "..."
     mt "Heck!"
-    mt "Надо что-то придумать..."
+    mt "Need to come up with something..."
     mt "..."
-    m "Я не могла понять, что меня в тебе так притягивает..."
+    m "I could not understand what attracted me so much about you ..."
     m "..."
-    m "И злилась на это. Поэтому так вела себя."
-    julia "А сейчас что изменилось?"
-    m "Я решила, что мне нужно сделат каминг аут, несмотря на то, что скажут остальные..."
-    m "Я устала притворяться и выдавать себя не за ту, какая я есть настоящая."
-    m "При этом скрывать свои чувства к другой девушке..."
-    m "Хоть она и совершенно другого, несравнимого с моим, социального статуса... Гувернантка."
-    julia "Это очень смелый поступок, Миссис Бакфетт."
-    julia "И я готова поддержать Вас."
-    mt "Что за чушь мне приходится говорить?!"
+    m "And I was angry because of it. Therefore, it behaved like that."
+    julia "Now what has changed?"
+    m "I decided that I need to do a coming out, despite what the others say ..."
+    m "I'm tired of pretending and not pretending to be who I am."
+    m "At the same time, hide your feelings for another girl ..."
+    m "Although she has a completely different, incomparable with mine, social status ... Governess."
+    julia "This is a very bold act, Mrs. Buckfett."
+    julia "And I am ready to support you."
+    mt "What nonsense do I have to say ?!"
     mt "!!!"
-    mt "Как бы подсмотреть ей под платье?"
+    mt "How would I spy on her dress?"
     mt "???"
-    julia "Мне нужно время, чтобы привыкнуть к этому..."
-    mt "Возможно, сейчас у меня получится заглянуть ей под платье..."
+    julia "I need time to get used to it ..."
+    mt "Perhaps now I can look under her dress ..."
     mt "..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:283
@@ -529,13 +529,13 @@ translate english ep210_dialogues5_julia_3_4768bcd4:
     # m "Просто забудь!"
     # m "!!!"
     mt "No, I won't do that!" 
-    mt "Мне надоело играть в эту глупую игру мерзавца Фреда!"
-    mt "Да еще и притворяться перед никчемной Юлией!"
+    mt "I'm sick of playing this stupid bastard game Fred!"
+    mt "Yes, and pretend to be a friend of worthless Julia!"
     mt "!!!"
-    m "Юлия, забудь о том, что я тебе тут наговорила."
-    m "У меня сегодня полно других, более важных дел."
-    julia "Но... Миссис Бакфетт!"
-    m "Просто забудь!"
+    m "Julia, forget what I told you here."
+    m "Today I am full of other, more important matters."
+    julia "But ... Mrs. Buckfett!"
+    m "Just forget!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:296
@@ -582,45 +582,45 @@ translate english ep210_dialogues5_julia_3_a7cadb72:
     # mt "Что она там говорила про свою дурацкую книжку?"
     # mt "Каждый день ее нужно целовать и говорить комплименты?"
     mt "Fuck!!!"
-    mt "Как обычно!"
+    mt "As usual!"
     mt "!!!"
-    julia "Миссис Бакфетт, зачем Вы подглядываете мне под платье?"
-    m "Потому что ты мне нравишься..."
-    m "Юлия, а ты вообще носишь трусики?"
+    julia "Mrs. Buckfett, why are you peeking at my dress?"
+    m "Because I like you..."
+    m "Julia, do you wear panties at all?"
     julia "Yes, Mrs. Buckfett ..."
-    m "А какого они цвета?"
-    julia "Миссис Бакфетт, это слишком личное..."
-    julia "И еще слишком рано обсуждать такие вещи..."
-    m "А сколько должно пройти времени?"
-    julia "Я читала в одной книжке... О похожих отношениях... Таких как у нас с Вами..."
-    julia "Это все... плохо закончилось там..."
-    m "Юлия, не бери в голову разные дурацкие книжки."
-    m "Все будет хорошо, если мы захотим этого... Доверься мне..."
-    julia "Возможно Вы правы, Миссис Бакфетт..."
-    julia "В той книжке начальница каждый день целовала свою подчиненную... Говорила ей комплименты."
-    julia "И я хочу также..."
-    mt "Кто написал такую дурацкую книжку?!"
+    m "What color are they?"
+    julia "Mrs. Buckett, this is too personal ..."
+    julia "And it's too early to discuss such things ..."
+    m "And how much time should pass?"
+    julia "I read in a book ... About comparable relationships ... Such as we have ..."
+    julia "This all ... ended badly there ..."
+    m "Julia, don't care about stupid books."
+    m "Everything will be fine if we want this ... Trust me ..."
+    julia "Maybe you're right, Mrs. Buckfett ..."
+    julia "In that book, the boss kissed her subordinate every day ... She told her compliments."
+    julia "And I like that also ..."
+    mt "Who wrote such a stupid book ?!"
     mt "!!!"
-    mt "Теперь мне придется заниматься этими глупостями!"
-    mt "Только для того, чтобы втереться этой никчемной Юлии в доверие!"
+    mt "Now I have to deal with these nonsense!"
+    mt "Only in order to rub this worthless Julia into confidence!"
     m "..."
-    m "Если я буду делать также, ты мне поверишь?"
+    m "If I do too, will you believe me?"
     julia "Yes, Mrs. Buckfett ..."
-    mt "Хорошо было бы попасть к ней в гости и там посмотреть, какого цвета у нее белье..."
-    m "Юлия, а ты живешь где-то рядом?"
-    m "Может быть, пригласишь меня к себе в гости?"
-    m "Я хочу посмотреть, как ты живешь..."
-    julia "Миссис Бакфетт, после одного свидания в гости я Вас не могу пригласить..."
-    julia "Мне нужно время, чтобы привыкнуть к этому..."
-    julia "И вообще поверить, что я действително нравлюсь Вам."
+    mt "It would be nice to visit her and see what color her panty has ..."
+    m "Julia, do you live somewhere nearby?"
+    m "Maybe you like to invite me to visit you?"
+    m "I want to see how you live ..."
+    julia "Mrs. Buckfett, after one visit I cannot invite you ..."
+    julia "I need time to get used to it ..."
+    julia "And in general, I believe that you really like me."
     julia "..."
     mt "!!!"
-    m "Хорошо, я не буду торопить тебя."
-    m "Сейчас мне нужно идти по делам."
-    m "Встретимся в офисе..."
-    mt "Она что, ждет чего-то от меня?!"
-    mt "Что она там говорила про свою дурацкую книжку?"
-    mt "Каждый день ее нужно целовать и говорить комплименты?"
+    m "Well, I will not rush you."
+    m "Now I need to care about my business."
+    m "Meet me at the office ..."
+    mt "Is she expecting something from me ?!"
+    mt "What did she want before with her stupid book?"
+    mt "Every day she needs to be kissed and complimented?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:348
 translate english ep210_dialogues5_julia_3_4ede5279:
@@ -629,9 +629,9 @@ translate english ep210_dialogues5_julia_3_4ede5279:
     # mt "Не хочу и не буду!"
     # mt "Что за глупости?!"
     # mt "!!!"
-    mt "Нет, я не хочу этого делать!" 
-    mt "Не хочу и не буду!"
-    mt "Что за глупости?!"
+    mt "No, I do not want to do this!" 
+    mt "I do not want and I will not!"
+    mt "What nonsense ?!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:364
@@ -645,14 +645,14 @@ translate english ep210_dialogues5_julia_4_1_7d3e615c:
     # m "Милая..."
     # m "Ты прекрасно выглядишь сегодня."
     # julia "Миссис Бакфетт... Спасибо. Мне так приятно..."
-    mt "Мне нужно просто чмокнуть ее в щечку..."
-    mt "В это же нет ничего такого?"
-    mt "Так я смогу втереться к ней в доверие."
+    mt "I just need to smack her cheek ..."
+    mt "Would that be nothing?"
+    mt "So I can club my confidence in her."
     m "..."
-    m "Я так соскучилась по тебе..."
-    m "Милая..."
-    m "Ты прекрасно выглядишь сегодня."
-    julia "Миссис Бакфетт... Спасибо. Мне так приятно..."
+    m "I miss you so much ..."
+    m "Sweet..."
+    m "You look great today."
+    julia "Mrs. Buckfett ... Thank you. I am so pleased..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:379
 translate english ep210_dialogues5_julia_4_2_a6e86dab:
@@ -665,30 +665,30 @@ translate english ep210_dialogues5_julia_4_2_7d1ebbbd:
 
     # mt "Ну что еще ей от меня нужно?!"
     # mt "!!!"
-    mt "Ну что еще ей от меня нужно?!"
+    mt "Well, what else does she need from me ?!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:384
 translate english ep210_dialogues5_julia_4_2_9208d6e0:
 
     # m "Да, милая?"
-    m "Да, милая?"
+    m "Yes darling?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:387
 translate english ep210_dialogues5_julia_4_2_88d021b3:
 
     # julia "Вы, наверное, устали?"
     # julia "Хотите, я Вам помассирую плечи?"
-    julia "Вы, наверное, устали?"
-    julia "Хотите, я Вам помассирую плечи?"
+    julia "Are you probably tired?"
+    julia "Do you want me to massage your shoulders?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:394
 translate english ep210_dialogues5_julia_4_2_5791864c:
 
     # m "Нет, Юлия!" 
     # m "Мне сейчас не до этого!"
-    m "Нет, Юлия!" 
-    m "Мне сейчас не до этого!"
+    m "No, Julia!" 
+    m "I'm not up to it now!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:397
 translate english ep210_dialogues5_julia_4_2_8824a755:
@@ -697,9 +697,9 @@ translate english ep210_dialogues5_julia_4_2_8824a755:
     # mt "!!!"
     # m "Иди работай. И не отвлекай меня."
     # julia "..." 
-    mt "Что за глупости?!"
+    mt "What nonsense ?!"
     mt "!!!"
-    m "Иди работай. И не отвлекай меня."
+    m "Go to work. And do not distract me."
     julia "..." 
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:404
@@ -714,15 +714,15 @@ translate english ep210_dialogues5_julia_4_2_b6234c0c:
     # m "Спасибо, милая."
     # mt "Ого! Даже так?!"
     # mt "Чувствую, я на верном пути..."
-    mt "Боже. Как же приятно!"
-    mt "Я так давно не была на массаже..."
-    mt "Пожалуй, в этом нелепом притворстве есть свои плюсы."
+    mt "Oh god, how nice!"
+    mt "I haven’t been massaged for so long ..."
+    mt "Perhaps this ridiculous pretense has its advantages."
     m "Mmmm..."
-    julia "Вам понравилось, Миссис Бакфетт?"
-    m "Да, очень..."
-    m "Спасибо, милая."
-    mt "Ого! Даже так?!"
-    mt "Чувствую, я на верном пути..."
+    julia "Did you like it, Mrs. Buckfett?"
+    m "Yes very..."
+    m "Thanks, honey."
+    mt "Wow! Even so?!"
+    mt "I feel I'm on the right track ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:420
 translate english ep210_dialogues5_julia_4_3_43c18d1c:
@@ -734,13 +734,13 @@ translate english ep210_dialogues5_julia_4_3_43c18d1c:
     # m "Милая..."
     # m "Буду скучать по тебе."
     # julia "Миссис Бакфетт... Я тоже по Вам буду скучать..."
-    mt "Теперь мне нужно поцеловать ее, прощаясь..."
+    mt "Now I need to kiss her, saying goodbye ..."
     m "..."
-    m "Мне пора идти по делам."
-    m "До встречи..."
-    m "Милая..."
-    m "Буду скучать по тебе."
-    julia "Миссис Бакфетт... Я тоже по Вам буду скучать..."
+    m "I have to go on business."
+    m "See you..."
+    m "Sweet..."
+    m "Will miss you."
+    julia "Mrs. Buckfett ... I will miss you too ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:443
 translate english ep210_dialogues5_julia_5_237a39fd:
@@ -759,20 +759,20 @@ translate english ep210_dialogues5_julia_5_237a39fd:
     # m "Просто помогу тебе немного расслабиться. Сделаю массаж."
     # m "Ты можешь довериться мне..."
     # m "Милая."
-    mt "Что бы мне такого еще сделать для Юлии?"
-    mt "Я должна как-то расположить ее к себе."
+    mt "What else could I do for Julia?"
+    mt "I have to somehow get her close to me."
     mt "..."
     mt "Hmmm."
-    mt "Массаж - это хорошая идея."
-    m "Юлия, милая, ты так много работаешь..."
-    m "Тебе нужно отдохнуть немного."
-    m "Пойдем в комнату отдыха, посидим там немного? Отдохнем."
+    mt "Massage is a good idea."
+    m "Julia, honey, you work so hard ..."
+    m "You need to rest a bit."
+    m "Let's go to the rest room, sit there a bit? Have a rest."
     julia "Thank you, Mrs. Buckfett."
-    julia "Я и правда устала. А еще так много работы..."
-    m "Не переживай, я не буду делать ничего такого..."
-    m "Просто помогу тебе немного расслабиться. Сделаю массаж."
-    m "Ты можешь довериться мне..."
-    m "Милая."
+    julia "I'm really tired. And so much work ..."
+    m "Don’t worry, I won’t do anything like that ..."
+    m "Just help you relax a bit. I will do a massage."
+    m "You can trust me ..."
+    m "Sweet."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:466
 translate english ep210_dialogues5_julia_5_d689359f:
@@ -786,12 +786,12 @@ translate english ep210_dialogues5_julia_5_d689359f:
     # julia "Спасибо за массаж. Мне очень понравилось."
     # m "Иди работай!" 
     mt "No, I won't do that!"
-    mt "Мне надоело играть в эту глупую игру мерзавца Фреда!"
-    mt "Да еще и притворяться перед никчемной Юлией!"
+    mt "I'm sick of playing this stupid bastard game Fred!"
+    mt "Yes, and pretend to be a friend of worthless Julia!"
     mt "!!!"
-    m "Все, Юлия!"
+    m "That's it, Julia!"
     julia "Yes, Mrs. Buckfett ..."
-    julia "Спасибо за массаж. Мне очень понравилось."
+    julia "Thanks for the massage. I really liked it."
     m "Get back to work!" 
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:477
@@ -813,66 +813,66 @@ translate english ep210_dialogues5_julia_5_781c0c91:
     # mt "Никчемная бесполезная Юлия!!!"
     # mt "!!!"
     mt "Fuck!!!"
-    mt "Как обычно!"
+    mt "As usual!"
     mt "!!!"
-    mt "Ну сколько можно?!"
-    julia "Миссис Бакфетт, я еще к этому не готова."
-    m "Конечно... Милая..."
+    mt "Well, howfar can I go ?!"
+    julia "Mrs. Buckfett, I'm not ready for this yet."
+    m "Of course honey..."
     m "..."
-    m "Я тебя не тороплю..." 
-    julia "Спасибо за массаж. Мне очень понравилось."
-    mt "Я была почти у цели!!!"
+    m "I'm not rushing you ..." 
+    julia "Thanks for the massage. I really liked it."
+    mt "I was almost there !!!"
     mt "!!!"
-    mt "Еще бы чуть-чуть и я смогла бы закончить весь этот цирк!"
-    mt "Как же меня это бесит!"
-    mt "Никчемная бесполезная Юлия!!!"
+    mt "Just a little more and I could have finished this whole circus!"
+    mt "How it enrages me!"
+    mt "Useless useless Julia !!!"
     mt "!!!"
 
 translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:61
     old "Подыграть Юлии."
-    new "Подыграть Юлии."
+    new "Play along with Julia."
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:61
     old "Как она могла про такое подумать?! (завершение сюжета с Юлией)"
-    new "Как она могла про такое подумать?! (завершение сюжета с Юлией)"
+    new "How could she think of such a thing ?! (completion of the plot with Julia)"
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:158
     old "Моника работает в пабе Shiny Hole"
-    new "Моника работает в пабе Shiny Hole"
+    new "Monica works at Shiny Hole Pub"
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:180
     old "Я решила подыграть этой никчемной Юлии. Отличный способ узнать цвет ее трусиков."
-    new "Я решила подыграть этой никчемной Юлии. Отличный способ узнать цвет ее трусиков."
+    new "I decided to play along with this worthless Julia. A great way to find out the color of her panties."
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:198
     old "Пойти на свидание с Юлией."
-    new "Пойти на свидание с Юлией."
+    new "Go on a date with Julia."
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:252
     old "Моника заставляла Юлию оттирать пятно на ковре"
-    new "Моника заставляла Юлию оттирать пятно на ковре"
+    new "Monica made Julia wipe the stain on the carpet"
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:354
     old "Мне нужно каждый день целовать Юлию и говорить ей комплименты."
-    new "Мне нужно каждый день целовать Юлию и говорить ей комплименты."
+    new "I need to kiss Julia every day and tell her compliments."
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:389
     old "Да, Юлия. Хорошая идея."
-    new "Да, Юлия. Хорошая идея."
+    new "Yes, Julia. A good idea."
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:389
     old "Нет, не отвлекай меня от работы."
-    new "Нет, не отвлекай меня от работы."
+    new "No, do not distract me from work."
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:433
     old "Сделать Юлии массаж."
-    new "Сделать Юлии массаж."
+    new "Make Julia a massage."
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:433
     old "Пригласить Юлию на второе свидание. (в следующем обновлении)"
-    new "Пригласить Юлию на второе свидание. (в следующем обновлении)"
+    new "Invite Julia for a second date. (in the next update)"
 
 # TODO: Translation updated at 2020-01-16 22:17
 
@@ -889,9 +889,9 @@ translate english ep210_dialogues5_julia_1_b702c4fb:
     # m "И сама иди займись работой!!!"
     # mt "Никчемная глупая помощница!!!"
     # mt "!!!"
-    m "Перестань отвлекать меня от работы этой чушью!"
-    m "И сама иди займись работой!!!"
-    mt "Никчемная глупая помощница!!!"
+    m "Stop distracting me from working with this nonsense!"
+    m "And go do the work yourself !!!"
+    mt "Worthless stupid helper !!!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:327
@@ -958,13 +958,13 @@ translate english ep210_dialogues5_julia_3_7_da99599d:
 translate english ep210_dialogues5_julia_3_fb5be34a:
 
     # mt "Надо же, какая она радостная..."
-    mt "Надо же, какая она радостная..."
+    mt "Wow, how joyful she is ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:388
 translate english ep210_dialogues5_julia_3_a19c7430:
 
     # mt "Ну что ж, не буду портить ей настроение..."
-    mt "Ну что ж, не буду портить ей настроение..."
+    mt "Well, I will not spoil her mood ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:391
 translate english ep210_dialogues5_julia_3_f3236949:
@@ -977,14 +977,14 @@ translate english ep210_dialogues5_julia_3_b6f59c94:
 
     # julia "Миссис Бакфетт, я так рада, что Вы пришли!"
     # julia "Я заказала Вам сок. И еще... Кхм..."
-    julia "Миссис Бакфетт, я так рада, что Вы пришли!"
+    julia "Mrs. Buckfett, I'm so glad you came!"
     julia "Я заказала Вам сок. И еще... Кхм..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:399
 translate english ep210_dialogues5_julia_3_f198b09e:
 
     # m "Что?"
-    m "Что?"
+    m "What?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:402
 translate english ep210_dialogues5_julia_3_30e3b56c:
@@ -1017,7 +1017,7 @@ translate english ep210_dialogues5_julia_3_9fc0f886:
 
     # julia "Спасибо, Миссис Бакфетт!"
     # julia "Я так переживала, что Вы скажете мне самой оплачивать чек..."
-    julia "Спасибо, Миссис Бакфетт!"
+    julia "Thank you, Mrs. Buckfett!"
     julia "Я так переживала, что Вы скажете мне самой оплачивать чек..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:420
@@ -1054,7 +1054,7 @@ translate english ep210_dialogues5_julia_3_3635b206:
     # m "Да, Юлия..."
     # m "Конечно... Для меня это пустяк..."
     # m "Ты права..."
-    m "Да, Юлия..."
+    m "Yes, Julia..."
     m "Конечно... Для меня это пустяк..."
     m "Ты права..."
 
@@ -1097,7 +1097,7 @@ translate english ep210_dialogues5_julia_3_70d06980:
     # mt "Бестолковая Юлия!"
     # mt "Хорошо что у меня есть деньги на этот дурацкий обед!"
     # mt "Но какой ценой они мне достались!"
-    mt "Черт!"
+    mt "Heck!"
     mt "Бестолковая Юлия!"
     mt "Хорошо что у меня есть деньги на этот дурацкий обед!"
     mt "Но какой ценой они мне достались!"
@@ -1110,27 +1110,27 @@ translate english ep210_dialogues5_julia_3_d2f0a0e3:
     # julia "Неужели, я Вам и правда нравлюсь?"
     m "..."
     julia "Миссис Бакфетт, я всю ночь не могла уснуть..."
-    julia "Неужели, я Вам и правда нравлюсь?"
+    julia "Do you really like me?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:488
 translate english ep210_dialogues5_julia_3_f78909a3:
 
     # m "Это правда, Юлия."
     # m "Я хочу узнать тебя поближе и..."
-    m "Это правда, Юлия."
-    m "Я хочу узнать тебя поближе и..."
+    m "It's true, Julia."
+    m "I want to get to know you better and ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:493
 translate english ep210_dialogues5_julia_3_f73e8c02:
 
     # mt "Узнать цвет твоих трусиков!"
-    mt "Узнать цвет твоих трусиков!"
+    mt "Find out the color of your panties!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:497
 translate english ep210_dialogues5_julia_3_b0454cb6:
 
     # m "И проводить с тобой больше времени."
-    m "И проводить с тобой больше времени."
+    m "And spend more time with you."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:501
 translate english ep210_dialogues5_julia_3_9b47bf99:
@@ -1138,17 +1138,17 @@ translate english ep210_dialogues5_julia_3_9b47bf99:
     # julia "Не могу поверить в это..."
     # julia "Вы такая красивая и успешная женщина, настоящая леди..."
     # julia "Что Вы могли найти в такой как я?"
-    julia "Не могу поверить в это..."
-    julia "Вы такая красивая и успешная женщина, настоящая леди..."
-    julia "Что Вы могли найти в такой как я?"
+    julia "I can not believe it..."
+    julia "You are such a beautiful and successful woman, a real lady ..."
+    julia "What could you find in someone like me?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:506
 translate english ep210_dialogues5_julia_3_64792938:
 
     # mt "Я что, должна сейчас ей делать комплименты какие-то?"
     # mt "И как это делать?!"
-    mt "Я что, должна сейчас ей делать комплименты какие-то?"
-    mt "И как это делать?!"
+    mt "Am I supposed to give her some compliments now?"
+    mt "And how to do it ?!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:510
 translate english ep210_dialogues5_julia_3_e612037c:
@@ -1161,8 +1161,8 @@ translate english ep210_dialogues5_julia_3_cdc32443:
 
     # m "Ты очень милая и добрая."
     # m "В моем окружении редко можно встретить таких людей..."
-    m "Ты очень милая и добрая."
-    m "В моем окружении редко можно встретить таких людей..."
+    m "You are very sweet and kind."
+    m "In my environment, you can rarely meet such people ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:520
 translate english ep210_dialogues5_julia_3_d1f70c04:
@@ -1175,14 +1175,14 @@ translate english ep210_dialogues5_julia_3_273aa06c:
 
     # m "Ты очень ответственная и старательно выполняешь все поручения..."
     # m "И еще..."
-    m "Ты очень ответственная и старательно выполняешь все поручения..."
-    m "И еще..."
+    m "You are very responsible and diligently carry out all the tasks ..."
+    m "And one more..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:527
 translate english ep210_dialogues5_julia_3_87610bfa:
 
     # m "Ты очень красивая..."
-    m "Ты очень красивая..."
+    m "You are very beautiful..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:535
 translate english ep210_dialogues5_julia_3_757bbef6:
@@ -1196,7 +1196,7 @@ translate english ep210_dialogues5_julia_3_757bbef6:
 translate english ep210_dialogues5_julia_3_889b5af2:
 
     # julia "Почему тогда Вы так со мной обращались, Миссис Бакфетт?"
-    julia "Почему тогда Вы так со мной обращались, Миссис Бакфетт?"
+    julia "Why then did you treat me like that, Mrs. Buckfett?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:549
 translate english ep210_dialogues5_julia_3_b6ff3b39:
@@ -1204,8 +1204,8 @@ translate english ep210_dialogues5_julia_3_b6ff3b39:
     # mt "Черт!"
     # mt "Надо что-то придумать..."
     # mt "..."
-    mt "Черт!"
-    mt "Надо что-то придумать..."
+    mt "Heck!"
+    mt "Need to come up with something..."
     mt "..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:557
@@ -1213,20 +1213,20 @@ translate english ep210_dialogues5_julia_3_270fb393:
 
     # m "Я не могла понять, что меня в тебе так притягивает..."
     # m "..."
-    m "Я не могла понять, что меня в тебе так притягивает..."
+    m "I could not understand what attracted me so much about you ..."
     m "..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:561
 translate english ep210_dialogues5_julia_3_9e36f189:
 
     # m "И злилась на это. Поэтому так вела себя."
-    m "И злилась на это. Поэтому так вела себя."
+    m "And I was angry because of it. Therefore, it behaved like that."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:564
 translate english ep210_dialogues5_julia_3_f0f466e0:
 
     # julia "А сейчас что изменилось?"
-    julia "А сейчас что изменилось?"
+    julia "Now what has changed?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:568
 translate english ep210_dialogues5_julia_3_4f169bf9:
@@ -1235,18 +1235,18 @@ translate english ep210_dialogues5_julia_3_4f169bf9:
     # m "Я устала притворяться и выдавать себя не за ту, какая я есть настоящая."
     # m "При этом скрывать свои чувства к другой девушке..."
     # m "Хоть она и совершенно другого, несравнимого с моим, социального статуса... Гувернантка."
-    m "Я решила, что мне нужно сделат каминг аут, несмотря на то, что скажут остальные..."
-    m "Я устала притворяться и выдавать себя не за ту, какая я есть настоящая."
-    m "При этом скрывать свои чувства к другой девушке..."
-    m "Хоть она и совершенно другого, несравнимого с моим, социального статуса... Гувернантка."
+    m "I decided that I need to do a coming out, despite what the others say ..."
+    m "I'm tired of pretending and not pretending to be who I am."
+    m "At the same time, hide your feelings for another girl ..."
+    m "Although she has a completely different, incomparable with mine, social status ... Governess."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:575
 translate english ep210_dialogues5_julia_3_09147c36:
 
     # julia "Это очень смелый поступок, Миссис Бакфетт."
     # julia "И я готова поддержать Вас."
-    julia "Это очень смелый поступок, Миссис Бакфетт."
-    julia "И я готова поддержать Вас."
+    julia "This is a very bold act, Mrs. Buckfett."
+    julia "And I am ready to support you."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:580
 translate english ep210_dialogues5_julia_3_83596b26:
@@ -1255,22 +1255,22 @@ translate english ep210_dialogues5_julia_3_83596b26:
     # mt "!!!"
     # mt "Как бы подсмотреть ей под платье?"
     # mt "???"
-    mt "Что за чушь мне приходится говорить?!"
+    mt "What nonsense do I have to say ?!"
     mt "!!!"
-    mt "Как бы подсмотреть ей под платье?"
+    mt "How would I spy on her dress?"
     mt "???"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:586
 translate english ep210_dialogues5_julia_3_0082c65e:
 
     # julia "Мне нужно время, чтобы привыкнуть к этому..."
-    julia "Мне нужно время, чтобы привыкнуть к этому..."
+    julia "I need time to get used to it ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:592
 translate english ep210_dialogues5_julia_3_c09482d3:
 
     # mt "Возможно, сейчас у меня получится заглянуть ей под платье..."
-    mt "Возможно, сейчас у меня получится заглянуть ей под платье..."
+    mt "Perhaps now I can look under her dress ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:598
 translate english ep210_dialogues5_julia_3_8a5fe6f0:
@@ -1279,9 +1279,9 @@ translate english ep210_dialogues5_julia_3_8a5fe6f0:
     # mt "Мне надоело играть в эту глупую игру мерзавца Фреда!"
     # mt "Да еще и притворяться перед никчемной Юлией!"
     # mt "!!!"
-    mt "Нет, я не буду этого делать!" 
-    mt "Мне надоело играть в эту глупую игру мерзавца Фреда!"
-    mt "Да еще и притворяться перед никчемной Юлией!"
+    mt "No, I won't do that!" 
+    mt "I'm sick of playing this stupid bastard game Fred!"
+    mt "Yes, and pretend to be a friend of worthless Julia!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:607
@@ -1292,10 +1292,10 @@ translate english ep210_dialogues5_julia_3_ffb31f11:
     # julia "Но... Миссис Бакфетт!"
     # m "Просто забудь!"
     # m "!!!"
-    m "Юлия, забудь о том, что я тебе тут наговорила."
-    m "У меня сегодня полно других, более важных дел."
-    julia "Но... Миссис Бакфетт!"
-    m "Просто забудь!"
+    m "Julia, forget what I told you here."
+    m "Today I am full of other, more important matters."
+    julia "But ... Mrs. Buckfett!"
+    m "Just forget!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:618
@@ -1316,57 +1316,57 @@ translate english ep210_dialogues5_julia_3_741cfc3b:
     # mt "Черт!!!"
     # mt "Как обычно!"
     # mt "!!!"
-    mt "Черт!!!"
-    mt "Как обычно!"
+    mt "Fuck!!!"
+    mt "As usual!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:648
 translate english ep210_dialogues5_julia_3_f708e7f2:
 
     # julia "Миссис Бакфетт, зачем Вы подглядываете мне под платье?"
-    julia "Миссис Бакфетт, зачем Вы подглядываете мне под платье?"
+    julia "Mrs. Buckfett, why are you peeking at my dress?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:652
 translate english ep210_dialogues5_julia_3_1a0b5d36:
 
     # m "Потому что ты мне нравишься..."
-    m "Потому что ты мне нравишься..."
+    m "Because I like you..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:661
 translate english ep210_dialogues5_julia_3_355b34ce:
 
     # m "Юлия, а ты вообще носишь трусики?"
-    m "Юлия, а ты вообще носишь трусики?"
+    m "Julia, do you wear panties at all?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:664
 translate english ep210_dialogues5_julia_3_15ebc45e:
 
     # julia "Да, Миссис Бакфетт..."
-    julia "Да, Миссис Бакфетт..."
+    julia "Yes, Mrs. Buckfett ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:667
 translate english ep210_dialogues5_julia_3_341b2d4c:
 
     # m "А какого они цвета?"
-    m "А какого они цвета?"
+    m "What color are they?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:671
 translate english ep210_dialogues5_julia_3_00b1f759:
 
     # julia "Миссис Бакфетт, это слишком личное..."
-    julia "Миссис Бакфетт, это слишком личное..."
+    julia "Mrs. Buckett, this is too personal ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:674
 translate english ep210_dialogues5_julia_3_72c4a0c2:
 
     # julia "И еще слишком рано обсуждать такие вещи..."
-    julia "И еще слишком рано обсуждать такие вещи..."
+    julia "And it's too early to discuss such things ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:677
 translate english ep210_dialogues5_julia_3_3ac930ed:
 
     # m "А сколько должно пройти времени?"
-    m "А сколько должно пройти времени?"
+    m "And how much time should pass?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:691
 translate english ep210_dialogues5_julia_3_72623ce8:
@@ -1409,30 +1409,30 @@ translate english ep210_dialogues5_julia_3_40b27cec:
 
     # julia "Я читала в одной книжке... О похожих отношениях... Таких как у нас с Вами..."
     # julia "Это все... плохо закончилось там..."
-    julia "Я читала в одной книжке... О похожих отношениях... Таких как у нас с Вами..."
-    julia "Это все... плохо закончилось там..."
+    julia "I read in a book ... About comparable relationships ... Such as we have ..."
+    julia "This all ... ended badly there ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:723
 translate english ep210_dialogues5_julia_3_302db805:
 
     # m "Юлия, не бери в голову разные дурацкие книжки."
     # m "Все будет хорошо, если мы захотим этого... Доверься мне..."
-    m "Юлия, не бери в голову разные дурацкие книжки."
-    m "Все будет хорошо, если мы захотим этого... Доверься мне..."
+    m "Julia, don't care about stupid books."
+    m "Everything will be fine if we want this ... Trust me ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:728
 translate english ep210_dialogues5_julia_3_52f9e817:
 
     # julia "Возможно Вы правы, Миссис Бакфетт..."
     # julia "В той книжке начальница каждый день целовала свою подчиненную... Говорила ей комплименты."
-    julia "Возможно Вы правы, Миссис Бакфетт..."
-    julia "В той книжке начальница каждый день целовала свою подчиненную... Говорила ей комплименты."
+    julia "Maybe you're right, Mrs. Buckfett ..."
+    julia "In that book, the boss kissed her subordinate every day ... She told her compliments."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:733
 translate english ep210_dialogues5_julia_3_7cb50b59:
 
     # julia "И я хочу также..."
-    julia "И я хочу также..."
+    julia "And I like that also ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:738
 translate english ep210_dialogues5_julia_3_c8cec6c5:
@@ -1441,10 +1441,10 @@ translate english ep210_dialogues5_julia_3_c8cec6c5:
     # mt "!!!"
     # mt "Теперь мне придется заниматься этими глупостями!"
     # mt "Только для того, чтобы втереться этой никчемной Юлии в доверие!"
-    mt "Кто написал такую дурацкую книжку?!"
+    mt "Who wrote such a stupid book ?!"
     mt "!!!"
-    mt "Теперь мне придется заниматься этими глупостями!"
-    mt "Только для того, чтобы втереться этой никчемной Юлии в доверие!"
+    mt "Now I have to deal with these nonsense!"
+    mt "Only in order to rub this worthless Julia into confidence!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:745
 translate english ep210_dialogues5_julia_3_ea98321b:
@@ -1452,19 +1452,19 @@ translate english ep210_dialogues5_julia_3_ea98321b:
     # m "..."
     # m "Если я буду делать также, ты мне поверишь?"
     m "..."
-    m "Если я буду делать также, ты мне поверишь?"
+    m "If I do too, will you believe me?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:750
 translate english ep210_dialogues5_julia_3_15ebc45e_1:
 
     # julia "Да, Миссис Бакфетт..."
-    julia "Да, Миссис Бакфетт..."
+    julia "Yes, Mrs. Buckfett ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:754
 translate english ep210_dialogues5_julia_3_afaafa1d:
 
     # mt "Хорошо было бы попасть к ней в гости и там посмотреть, какого цвета у нее белье..."
-    mt "Хорошо было бы попасть к ней в гости и там посмотреть, какого цвета у нее белье..."
+    mt "It would be nice to visit her and see what color her panty has ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:757
 translate english ep210_dialogues5_julia_3_fb5c0ebc:
@@ -1472,9 +1472,9 @@ translate english ep210_dialogues5_julia_3_fb5c0ebc:
     # m "Юлия, а ты живешь где-то рядом?"
     # m "Может быть, пригласишь меня к себе в гости?"
     # m "Я хочу посмотреть, как ты живешь..."
-    m "Юлия, а ты живешь где-то рядом?"
-    m "Может быть, пригласишь меня к себе в гости?"
-    m "Я хочу посмотреть, как ты живешь..."
+    m "Julia, do you live somewhere nearby?"
+    m "Maybe you like to invite me to visit you?"
+    m "I want to see how you live ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:763
 translate english ep210_dialogues5_julia_3_e53f32a6:
@@ -1483,9 +1483,9 @@ translate english ep210_dialogues5_julia_3_e53f32a6:
     # julia "Мне нужно время, чтобы привыкнуть к этому..."
     # julia "И вообще поверить, что я действително нравлюсь Вам."
     # julia "..."
-    julia "Миссис Бакфетт, после одного свидания в гости я Вас не могу пригласить..."
-    julia "Мне нужно время, чтобы привыкнуть к этому..."
-    julia "И вообще поверить, что я действително нравлюсь Вам."
+    julia "Mrs. Buckfett, after one visit I cannot invite you ..."
+    julia "I need time to get used to it ..."
+    julia "And in general, I believe that you really like me."
     julia "..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:770
@@ -1500,9 +1500,9 @@ translate english ep210_dialogues5_julia_3_6b39ec05:
     # m "Хорошо, я не буду торопить тебя."
     # m "Сейчас мне нужно идти по делам."
     # m "Встретимся в офисе..."
-    m "Хорошо, я не буду торопить тебя."
-    m "Сейчас мне нужно идти по делам."
-    m "Встретимся в офисе..."
+    m "Well, I will not rush you."
+    m "Now I need to care about my business."
+    m "Meet me at the office ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:793
 translate english ep210_dialogues5_julia_3_f4596bd4:
@@ -1510,9 +1510,9 @@ translate english ep210_dialogues5_julia_3_f4596bd4:
     # mt "Она что, ждет чего-то от меня?!"
     # mt "Что она там говорила про свою дурацкую книжку?"
     # mt "Каждый день ее нужно целовать и говорить комплименты?"
-    mt "Она что, ждет чего-то от меня?!"
-    mt "Что она там говорила про свою дурацкую книжку?"
-    mt "Каждый день ее нужно целовать и говорить комплименты?"
+    mt "Is she expecting something from me ?!"
+    mt "What did she want before with her stupid book?"
+    mt "Every day she needs to be kissed and complimented?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:820
 translate english ep210_dialogues5_julia_3_2ed278de:
@@ -1542,9 +1542,9 @@ translate english ep210_dialogues5_julia_4_1_bec1c6c4:
     # mt "Мне нужно просто чмокнуть ее в щечку..."
     # mt "В это же нет ничего такого?"
     # mt "Так я смогу втереться к ней в доверие."
-    mt "Мне нужно просто чмокнуть ее в щечку..."
-    mt "В это же нет ничего такого?"
-    mt "Так я смогу втереться к ней в доверие."
+    mt "I just need to smack her cheek ..."
+    mt "Would that be nothing?"
+    mt "So I can club my confidence in her."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:858
 translate english ep210_dialogues5_julia_4_1_e612037c:
@@ -1558,29 +1558,29 @@ translate english ep210_dialogues5_julia_4_1_bdf57f14:
     # m "Я так соскучилась по тебе..."
     # m "Милая..."
     # m "Ты прекрасно выглядишь сегодня."
-    m "Я так соскучилась по тебе..."
-    m "Милая..."
-    m "Ты прекрасно выглядишь сегодня."
+    m "I miss you so much ..."
+    m "Sweet..."
+    m "You look great today."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:873
 translate english ep210_dialogues5_julia_4_1_5b181f3e:
 
     # julia "Миссис Бакфетт... Спасибо. Мне так приятно..."
-    julia "Миссис Бакфетт... Спасибо. Мне так приятно..."
+    julia "Mrs. Buckfett ... Thank you. I am so pleased..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:907
 translate english ep210_dialogues5_julia_4_2_4e0976ae:
 
     # mt "Что за глупости?!"
     # mt "!!!"
-    mt "Что за глупости?!"
+    mt "What nonsense ?!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:912
 translate english ep210_dialogues5_julia_4_2_5e48d9e1:
 
     # m "Иди работай. И не отвлекай меня."
-    m "Иди работай. И не отвлекай меня."
+    m "Go to work. And do not distract me."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:915
 translate english ep210_dialogues5_julia_4_2_77a2759b:
@@ -1594,43 +1594,43 @@ translate english ep210_dialogues5_julia_4_2_254f4074:
     # mt "Боже. Как же приятно!"
     # mt "Я так давно не была на массаже..."
     # mt "Пожалуй, в этом нелепом притворстве есть свои плюсы."
-    mt "Боже. Как же приятно!"
-    mt "Я так давно не была на массаже..."
-    mt "Пожалуй, в этом нелепом притворстве есть свои плюсы."
+    mt "Oh god, how nice!"
+    mt "I haven’t been massaged for so long ..."
+    mt "Perhaps this ridiculous pretense has its advantages."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:937
 translate english ep210_dialogues5_julia_4_2_233c8716:
 
     # m "Ммммм..."
-    m "Ммммм..."
+    m "Mmmm..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:950
 translate english ep210_dialogues5_julia_4_2_1227486d:
 
     # julia "Вам понравилось, Миссис Бакфетт?"
-    julia "Вам понравилось, Миссис Бакфетт?"
+    julia "Did you like it, Mrs. Buckfett?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:953
 translate english ep210_dialogues5_julia_4_2_c3d62fb6:
 
     # m "Да, очень..."
     # m "Спасибо, милая."
-    m "Да, очень..."
-    m "Спасибо, милая."
+    m "Yes very..."
+    m "Thanks, honey."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:964
 translate english ep210_dialogues5_julia_4_2_1775116d:
 
     # mt "Ого! Даже так?!"
     # mt "Чувствую, я на верном пути..."
-    mt "Ого! Даже так?!"
-    mt "Чувствую, я на верном пути..."
+    mt "Wow! Even so?!"
+    mt "I feel I'm on the right track ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:974
 translate english ep210_dialogues5_julia_4_3_295f5569:
 
     # mt "Теперь мне нужно поцеловать ее, прощаясь..."
-    mt "Теперь мне нужно поцеловать ее, прощаясь..."
+    mt "Now I need to kiss her, saying goodbye ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:978
 translate english ep210_dialogues5_julia_4_3_e612037c:
@@ -1645,16 +1645,16 @@ translate english ep210_dialogues5_julia_4_3_3df3c893:
     # m "До встречи..."
     # m "Милая..."
     # m "Буду скучать по тебе."
-    m "Мне пора идти по делам."
-    m "До встречи..."
-    m "Милая..."
-    m "Буду скучать по тебе."
+    m "I have to go on business."
+    m "See you..."
+    m "Sweet..."
+    m "Will miss you."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:994
 translate english ep210_dialogues5_julia_4_3_80d81598:
 
     # julia "Миссис Бакфетт... Я тоже по Вам буду скучать..."
-    julia "Миссис Бакфетт... Я тоже по Вам буду скучать..."
+    julia "Mrs. Buckfett ... I will miss you too ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1015
 translate english ep210_dialogues5_julia_5_42ee2ea3:
@@ -1664,11 +1664,11 @@ translate english ep210_dialogues5_julia_5_42ee2ea3:
     # mt "..."
     # mt "Хммм..."
     # mt "Массаж - это хорошая идея."
-    mt "Что бы мне такого еще сделать для Юлии?"
-    mt "Я должна как-то расположить ее к себе."
+    mt "What else could I do for Julia?"
+    mt "I have to somehow get her close to me."
     mt "..."
-    mt "Хммм..."
-    mt "Массаж - это хорошая идея."
+    mt "Hmmm."
+    mt "Massage is a good idea."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1025
 translate english ep210_dialogues5_julia_5_a1b534f1:
@@ -1676,41 +1676,41 @@ translate english ep210_dialogues5_julia_5_a1b534f1:
     # m "Юлия, милая, ты так много работаешь..."
     # m "Тебе нужно отдохнуть немного."
     # m "Пойдем в комнату отдыха, посидим там немного? Отдохнем."
-    m "Юлия, милая, ты так много работаешь..."
-    m "Тебе нужно отдохнуть немного."
-    m "Пойдем в комнату отдыха, посидим там немного? Отдохнем."
+    m "Julia, honey, you work so hard ..."
+    m "You need to rest a bit."
+    m "Let's go to the rest room, sit there a bit? Have a rest."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1030
 translate english ep210_dialogues5_julia_5_441c5aad:
 
     # julia "Спасибо, Миссис Бакфетт."
     # julia "Я и правда устала. А еще так много работы..."
-    julia "Спасибо, Миссис Бакфетт."
-    julia "Я и правда устала. А еще так много работы..."
+    julia "Thank you, Mrs. Buckfett."
+    julia "I'm really tired. And so much work ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1042
 translate english ep210_dialogues5_julia_5_a11acc43:
 
     # m "Не переживай, я не буду делать ничего такого..."
-    m "Не переживай, я не буду делать ничего такого..."
+    m "Don’t worry, I won’t do anything like that ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1045
 translate english ep210_dialogues5_julia_5_fcb16172:
 
     # m "Просто помогу тебе немного расслабиться. Сделаю массаж."
-    m "Просто помогу тебе немного расслабиться. Сделаю массаж."
+    m "Just help you relax a bit. I will do a massage."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1048
 translate english ep210_dialogues5_julia_5_a4db50fc:
 
     # m "Ты можешь довериться мне..."
-    m "Ты можешь довериться мне..."
+    m "You can trust me ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1051
 translate english ep210_dialogues5_julia_5_9a53d083:
 
     # m "Милая."
-    m "Милая."
+    m "Sweet."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1065
 translate english ep210_dialogues5_julia_5_7384f903:
@@ -1725,8 +1725,8 @@ translate english ep210_dialogues5_julia_5_2db32c90:
 
     # m "А так?"
     # julia "Да..."
-    m "А так?"
-    julia "Да..."
+    m "What about like this?"
+    julia "Yes..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1078
 translate english ep210_dialogues5_julia_5_b56f2a6d:
@@ -1735,16 +1735,16 @@ translate english ep210_dialogues5_julia_5_b56f2a6d:
     # mt "Мне надоело играть в эту глупую игру мерзавца Фреда!"
     # mt "Да еще и притворяться перед никчемной Юлией!"
     # mt "!!!"
-    mt "Нет, я не буду этого делать!"
-    mt "Мне надоело играть в эту глупую игру мерзавца Фреда!"
-    mt "Да еще и притворяться перед никчемной Юлией!"
+    mt "No, I won't do that!"
+    mt "I'm sick of playing this stupid bastard game Fred!"
+    mt "Yes, and pretend to be a friend of worthless Julia!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1085
 translate english ep210_dialogues5_julia_5_50cfcccc:
 
     # m "Все, Юлия!"
-    m "Все, Юлия!"
+    m "That's it, Julia!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1088
 translate english ep210_dialogues5_julia_5_c688b3c8:
@@ -1752,15 +1752,15 @@ translate english ep210_dialogues5_julia_5_c688b3c8:
     # julia "Да, Миссис Бакфетт..."
     # julia "Спасибо за массаж. Мне очень понравилось."
     # m "Иди работай!" 
-    julia "Да, Миссис Бакфетт..."
-    julia "Спасибо за массаж. Мне очень понравилось."
-    m "Иди работай!" 
+    julia "Yes, Mrs. Buckfett ..."
+    julia "Thanks for the massage. I really liked it."
+    m "Get back to work!" 
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1113
 translate english ep210_dialogues5_julia_5_caa8adc3:
 
     # julia "Ахххх!"
-    julia "Ахххх!"
+    julia "Ahhh!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1117
 translate english ep210_dialogues5_julia_5_7672131f:
@@ -1769,36 +1769,36 @@ translate english ep210_dialogues5_julia_5_7672131f:
     # mt "Как обычно!"
     # mt "!!!"
     # mt "Ну сколько можно?!"
-    mt "Черт!!!"
-    mt "Как обычно!"
+    mt "Fuck!!!"
+    mt "As usual!"
     mt "!!!"
-    mt "Ну сколько можно?!"
+    mt "Well, howfar can I go ?!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1124
 translate english ep210_dialogues5_julia_5_219213de:
 
     # julia "Миссис Бакфетт, я еще к этому не готова."
-    julia "Миссис Бакфетт, я еще к этому не готова."
+    julia "Mrs. Buckfett, I'm not ready for this yet."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1127
 translate english ep210_dialogues5_julia_5_cc3aadb6:
 
     # m "Конечно... Милая..."
     # m "..."
-    m "Конечно... Милая..."
+    m "Of course honey..."
     m "..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1131
 translate english ep210_dialogues5_julia_5_bd63bc95:
 
     # m "Я тебя не тороплю..." 
-    m "Я тебя не тороплю..." 
+    m "I'm not rushing you ..." 
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1135
 translate english ep210_dialogues5_julia_5_d8c296e1:
 
     # julia "Спасибо за массаж. Мне очень понравилось."
-    julia "Спасибо за массаж. Мне очень понравилось."
+    julia "Thanks for the massage. I really liked it."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1142
 translate english ep210_dialogues5_julia_5_f31993e6:
@@ -1809,11 +1809,11 @@ translate english ep210_dialogues5_julia_5_f31993e6:
     # mt "Как же меня это бесит!"
     # mt "Никчемная бесполезная Юлия!!!"
     # mt "!!!"
-    mt "Я была почти у цели!!!"
+    mt "I was almost there !!!"
     mt "!!!"
-    mt "Еще бы чуть-чуть и я смогла бы закончить весь этот цирк!"
-    mt "Как же меня это бесит!"
-    mt "Никчемная бесполезная Юлия!!!"
+    mt "Just a little more and I could have finished this whole circus!"
+    mt "How it enrages me!"
+    mt "Useless useless Julia !!!"
     mt "!!!"
 
 translate english strings:

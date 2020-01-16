@@ -366,5 +366,5 @@ translate english strings:
 
     # game/Quests/Question_Helper_Info.rpy:131
     old "Фред обычно во дворе у машины..."
-    new ""
+    new "Fred is usually in the courtyard of a car ..."
 

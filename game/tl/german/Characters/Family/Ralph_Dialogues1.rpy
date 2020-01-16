@@ -60,7 +60,7 @@ translate german ralphDialogue2_21b7df00:
     # m "Мистер Робертс. Мне Ваша супруга только что сказала что я слишком дорого для Вас стою."
     # "И что у меня зарплата $90 в час..."
     m "Herr Roberts, Ihre Frau sagte mir gerade, dass ich zu teuer bin für Sie."
-    "Und dass mein Lohn 90 € die Stunde beträgt."
+    "Und dass mein Lohn $ 90 die Stunde beträgt."
 
 # game/Characters/Family/Ralph_Dialogues1.rpy:55
 translate german ralphDialogue2_3e4f1b21:

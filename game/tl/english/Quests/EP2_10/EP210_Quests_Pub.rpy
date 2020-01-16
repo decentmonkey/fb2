@@ -7,9 +7,9 @@ translate english ep210_quests_pub4_molly_photo2_2eac7cd8:
     # mt "Бесполезная!"
     # mt "Сучка!!!"
     # mt "!!!"
-    mt "Никчемная!"
-    mt "Бесполезная!"
-    mt "Сучка!!!"
+    mt "Worthless!"
+    mt "Useless!"
+    mt "Bitch!"
     mt "!!!"
 
 translate english strings:

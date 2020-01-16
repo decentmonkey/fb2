@@ -3287,7 +3287,7 @@ translate german dialogue_5_dance_strip_22_368e900d:
 
     # mt "Сучка!"
     # mt "Какой мне смысл танцевать, если приходится отдавать ей все деньги?!"
-    mt "Сучка!"
+    mt "Schlampe!"
     mt "Какой мне смысл танцевать, если приходится отдавать ей все деньги?!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2198
@@ -3296,7 +3296,29 @@ translate german dialogue_5_dance_strip_27_c59e502f:
     # molly " И кстати!"
     # molly "Еще раз увижу, что ты испортила мой портрет!"
     # molly "Простым штрафом ты не отделаешься, сучка!!!"
-    molly " И кстати!"
-    molly "Еще раз увижу, что ты испортила мой портрет!"
-    molly "Простым штрафом ты не отделаешься, сучка!!!"
+    molly "Ach, und noch was!"
+    molly "Wenn ich dich nochmal sehe, wie du mein Bild beschmuddelst!"
+    molly "Dann kommst du nicht mit einer einfachen Strafe davon, Bitch!"
+
+# TODO: Translation updated at 2020-01-16 23:48
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1432
+translate german dialogue_5_dance_strip_16_e9a604be:
+
+    # clare "Кстати, отличный портрет получился!"
+    # clare "Наша звезда прямо-таки засияла..."
+    clare "Anbei, ich habe ein tolles Bild gefunden!"
+    clare "Unser Star scheinte einst sehr hell..."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1437
+translate german dialogue_5_dance_strip_16_6ae6b8f1:
+
+    # m "Нет-нет... Я тут ни при чем... Я ничего не делала."
+    m "Nein, nein... Damit habe ich nichts zu tun... Ich war nichts dergleichen."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1441
+translate german dialogue_5_dance_strip_16_ca1e9a08:
+
+    # clare "Все ок. Я никому не скажу."
+    clare "Alles gut. Ich werde es niemandem verraten."
 

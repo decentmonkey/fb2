@@ -1556,14 +1556,14 @@ translate german ep22_dialogues5_9_947818a6:
 translate german ep22_dialogues5_9_a551ad0c:
 
     # philip "Вы заработали свои $ 500!"
-    philip "Du hast dir deine 500€ verdient!"
+    philip "Du hast dir deine $ 500 verdient!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1291
 translate german ep22_dialogues5_9_a5a29da3:
 
     # m "Мне нужно еще $ 500!"
     # "Пожалуйста! Прошу Вас!!!"
-    m "Ich brauche wietere 500€!"
+    m "Ich brauche wietere $ 500!"
     "Bitte!! Ich flehe Sie an!!!"
 
 # game/Quests/EP2_02/ep22_dialogues5.rpy:1295
