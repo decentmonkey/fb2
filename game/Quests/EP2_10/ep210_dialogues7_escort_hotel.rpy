@@ -436,22 +436,106 @@ label ep210_dialogues7_escort_hotel_2:
     sound chpok6
     $ add_corruption(monicaHotelStaffBlowjobCorruptionEarn, "hotelstaff_blowjob1")
     pause 1.0
-    music Loved_Up
+    music2 Loved_Up2
     img 16283
     with fadelong
     hotel_staff "ОООООО!!!"
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_2_1 = Movie(play="video/v_Monica_Helper_Blowjob_2_1.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob_2_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     img 16284
     with fade
     hotel_staff "Какой каааайф!"
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_2_2 = Movie(play="video/v_Monica_Helper_Blowjob_2_2.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob_2_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 16285
     with diss
     hotel_staff "ААААААХ! О, Мэм, сделайте так еще раз!"
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_2_3 = Movie(play="video/v_Monica_Helper_Blowjob_2_3.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob_2_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     img 16286
     with fade
     hotel_staff "Да, еще-еще!"
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_2_4 = Movie(play="video/v_Monica_Helper_Blowjob_2_4.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob_2_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     img 16287
     with diss
     hotel_staff "МММММММ!"
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_2_5 = Movie(play="video/v_Monica_Helper_Blowjob_2_5.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob_2_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_2_6 = Movie(play="video/v_Monica_Helper_Blowjob_2_6.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob_2_6
+    with fade
+    wclean
+    stop music
+    music stop
+    music2 stop
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     # заходит китаянка-админ, грозно смотрит на служащего
     sound plastinka1b
     music stop
@@ -462,7 +546,7 @@ label ep210_dialogues7_escort_hotel_2:
     reception "Тебе нельзя пользоваться услугами нелегальных шлюх!"
     sound Jump2
     img 16289
-    with diss
+    with hpunch
     hotel_staff "А... Что... Нет-нет!"
     hotel_staff "Я не..."
     sound snd_runaway

@@ -526,19 +526,136 @@ label ep210_dialogues2_escort_start_Phillip_2:
     img 16114
     with hpunch
     w
-    music Loved_Up2
+    music stop
+    music2 Loved_Up2
     img 16115
     with fade
+    w
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex2_1 = Movie(play="video/v_Monica_Philip_Sex2_1.mkv", fps=30)
+    show videov_Monica_Philip_Sex2_1
+    with fade
     philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex2_2 = Movie(play="video/v_Monica_Philip_Sex2_2.mkv", fps=30)
+    show videov_Monica_Philip_Sex2_2
+    with fade
     philip "У Вас неплохая киска, Миссис Бакфетт..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex2_3 = Movie(play="video/v_Monica_Philip_Sex2_3.mkv", fps=30)
+    show videov_Monica_Philip_Sex2_3
+    with fade
     philip "Конечно, она не стоит 300 долларов..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex2_4 = Movie(play="video/v_Monica_Philip_Sex2_4.mkv", fps=30)
+    show videov_Monica_Philip_Sex2_4
+    with fade
     philip "Но все же..."
     philip "Ммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     img 16116
     with diss
+    w
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex2_5 = Movie(play="video/v_Monica_Philip_Sex2_5.mkv", fps=30)
+    show videov_Monica_Philip_Sex2_5
+    with fade
     philip "Мне приятно Вас трахать, Миссис Бакфетт..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex2_6 = Movie(play="video/v_Monica_Philip_Sex2_6.mkv", fps=30)
+    show videov_Monica_Philip_Sex2_6
+    with fade
     philip "Думаю, это не последняя наша с Вами встреча..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex2_7 = Movie(play="video/v_Monica_Philip_Sex2_7.mkv", fps=30)
+    show videov_Monica_Philip_Sex2_7
+    with fade
     philip "Ммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex2_8 = Movie(play="video/v_Monica_Philip_Sex2_8.mkv", fps=30)
+    show videov_Monica_Philip_Sex2_8
+    with fade
+    wclean
+    stop music
+    music stop
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     sound ahhh11
     img 16117
     with fade
@@ -567,6 +684,7 @@ label ep210_dialogues2_escort_start_Phillip_2:
     with fade
     w
     music stop
+    music2 stop
     img black_screen
     with diss
     sound snd_fabric1
@@ -996,7 +1114,24 @@ label ep210_dialogues2_escort_start_Phillip_15:
     pause 1.0
     sound chpok6
     pause 1.0
-    music Loved_Up
+    music2 Loved_Up
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Philip_Blowjob2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob2_1 = Movie(play="video/v_Monica_Philip_Blowjob2_1.mkv", fps=30)
+    show videov_Monica_Philip_Blowjob2_1
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 16395
     with fadelong
     philip "Да... Вот так..."
@@ -1015,6 +1150,23 @@ label ep210_dialogues2_escort_start_Phillip_15:
     img 16399
     with fade
     philip "Возьми его глубже..."
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Philip_Blowjob2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob2_2 = Movie(play="video/v_Monica_Philip_Blowjob2_2.mkv", fps=30)
+    show videov_Monica_Philip_Blowjob2_2
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+
     img 16400
     with diss
     w
@@ -1030,10 +1182,26 @@ label ep210_dialogues2_escort_start_Phillip_15:
     img 16403
     with diss
     w
-    music Loved_Up2
+    music2 Loved_Up2
     img 16404
     with fade
     philip "Еще глубже."
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Philip_Blowjob2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob2_3 = Movie(play="video/v_Monica_Philip_Blowjob2_3.mkv", fps=30)
+    show videov_Monica_Philip_Blowjob2_3
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 16405
     with diss
     w
@@ -1048,6 +1216,24 @@ label ep210_dialogues2_escort_start_Phillip_15:
     img 16408
     with diss
     w
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Philip_Blowjob2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob2_4 = Movie(play="video/v_Monica_Philip_Blowjob2_4.mkv", fps=30)
+    show videov_Monica_Philip_Blowjob2_4
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 16409
     sound bulk1
     show screen photoshot_screen()
@@ -1064,6 +1250,7 @@ label ep210_dialogues2_escort_start_Phillip_15:
     sound man_moan18
     philip "Мммммм..."
     music stop
+    music2 stop
     img black_screen
     with diss
     pause 1.0
@@ -1297,7 +1484,7 @@ label ep210_dialogues2_escort_start_Phillip_16:
     pause 1.0
     sound chpok6
     pause 1.0
-    music Loved_Up2
+    music2 Loved_Up2
     # подходит к нему и нерешительно выполняет, сев к нему на колени, лицом к нему
     # тот, откинувшись на диван, самодовольно ухмыляется
     img 16442
@@ -1309,15 +1496,83 @@ label ep210_dialogues2_escort_start_Phillip_16:
     mt "Это так... Так неприятно..."
     mt "Скорее бы это закончилось."
     mt "Хочу забрать деньги и уйти отсюда."
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex1_1 = Movie(play="video/v_Monica_Philip_Sex1_1.mkv", fps=30)
+    show videov_Monica_Philip_Sex1_1
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 16443
     with diss
     philip "Да..."
     img 16444
     with fade
     philip "Давай, быстрее..."
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex1_2 = Movie(play="video/v_Monica_Philip_Sex1_2.mkv", fps=30)
+    show videov_Monica_Philip_Sex1_2
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex1_3 = Movie(play="video/v_Monica_Philip_Sex1_3.mkv", fps=30)
+    show videov_Monica_Philip_Sex1_3
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 16445
     with diss
     philip "Еще..."
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex1_4 = Movie(play="video/v_Monica_Philip_Sex1_4.mkv", fps=30)
+    show videov_Monica_Philip_Sex1_4
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+
     # Моника смотрит на него с отвращением
     img 16446
     with diss
@@ -1325,9 +1580,59 @@ label ep210_dialogues2_escort_start_Phillip_16:
     img 16447
     with diss
     m "..."
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex1_5 = Movie(play="video/v_Monica_Philip_Sex1_5.mkv", fps=30)
+    show videov_Monica_Philip_Sex1_5
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 16449
     with fade
     philip "Оооо... Даааа..."
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex1_7 = Movie(play="video/v_Monica_Philip_Sex1_7.mkv", fps=30)
+    show videov_Monica_Philip_Sex1_7
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex1_6 = Movie(play="video/v_Monica_Philip_Sex1_6.mkv", fps=30)
+    show videov_Monica_Philip_Sex1_6
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     # кончает ей на платье или на живот
     img 16450
     with diss
@@ -1353,6 +1658,7 @@ label ep210_dialogues2_escort_start_Phillip_16:
     w
     # Филипп одевается и бросает на диван купюру
     music stop
+    music2 stop
     img black_screen
     with diss
     sound snd_fabric1
