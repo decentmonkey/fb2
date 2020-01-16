@@ -1357,6 +1357,66 @@ label ep210_dialogues4_dance_strip_17:
             return False
     return
 
+
+label ep210_dialogue_5_dance_clare:
+    img 23179
+    with fadelong
+    w
+    img 23180
+    with diss
+    clare "Заждалась меня, Моника?"
+    clare "Покажем им, кто здесь звезды!"
+    return
+
+label ep210_dialogue_5_dance_strip_5a:
+    if len(pub_dance_claire_dialogues_up_list) == 0:
+        $ pub_dance_claire_dialogues_up_list = random.sample(set([1,2,3,4,5,6,7,8,9,10,11,12,13,14]), 14)
+    $ idx = pub_dance_claire_dialogues_up_list.pop()
+
+    # правильные стрелки
+    if idx == 1:
+        customers1 "Эй, смотри, какие телки!"
+    if idx == 2:
+        customers2 "Одна - это Клэр, а как зовут другую? Я ее раньше не видел!"
+    if idx == 3:
+        customers3 "Смотри что они вытворяют! Вау!"
+    if idx == 4:
+        customers4 "Красотки! Спускайтесь к нам!"
+    if idx == 5:
+        customers5 "Раздевайтесь! Покажите нам свои задницы! Да!"
+    if idx == 6:
+        customers1 "Вот это девочки, вау! Посмотрите!"
+    if idx == 7:
+        customers2 "Раздевайтесь! Покажите нам свои задницы! Да!"
+    if idx == 8:
+        customers3 "Покрутитесь на моем члене так же!"
+    if idx == 9:
+        customers4 "Давай! Поцелуй ее!"
+    if idx == 10:
+        customers5 "Полижи ей киску на сцене!"
+    if idx == 11:
+        customers1 "Я сейчас кончу! Вот это шоу!"
+    if idx == 12:
+        customers2 "Нереально красиво!"
+    if idx == 13:
+        customers3 "Раздвиньте ножки! Покажите что у вас там!"
+    if idx == 14:
+        customers4 "Задницы! Задницы!!!"
+    return
+
+label ep210_dialogue_5_dance_strip_5aa1:
+    if len(pub_dance_claire_dialogues_up_list2) == 0:
+        $ pub_dance_claire_dialogues_up_list2 = random.sample(set([1,2,3]), 3)
+    $ idx = pub_dance_claire_dialogues_up_list2.pop()
+    # неправильные стрелки
+    if idx == 1:
+        customers1 "Эй! Хорош уже! Давайте, раздевайтесь!"
+    if idx == 2:
+        customers2 "Где стриптиз?!"
+    if idx == 3:
+        customers3 "Это что?! Где сиськи голые?!"
+    return
+
 ############################################ в след. апдейте
 # Джо или Эшли будут заставлять танцевать приват для сотрудника банка (т.к. у них кредит)
 # Моника танцует голая, клиент может ее потрогать

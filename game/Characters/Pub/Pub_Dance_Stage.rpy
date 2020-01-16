@@ -14,7 +14,9 @@ default stage_Monica_last_zone = False
 default stage_Monica_Excitement_Current = 0
 default stage_Monica_Excitement_Last = 0
 
-
+default stage_shoots_total_amount_default = 27
+default stage_shoots_total_amount_claire = 24
+default stage_shoots_total_amount_cur = 27
 default stage_achievements_list = []
 #monicaDancingStage
 
@@ -94,7 +96,7 @@ label pub_dance1_stage_start1:
     call pub_dance_dialogues_start_dancing() # Комментарий при начале танца
 
 
-    $ shotsTotalAmount = 27
+    $ shotsTotalAmount = stage_shoots_total_amount_cur
     $ stage_Monica_shoots_array_current = []
 
     if cloth == "StripOutfit2":
@@ -608,7 +610,27 @@ label pub_dance1_stage_start1_topless:
         call pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_I3_end")
 
+
+    if ep29_quests_claire_dance_planned == True:
+        jump pub_dance2_claire_dance
+
     jump pub_dance1_stage_end
+
+
+
+
+
+
+
+
+
+
+
+
+##############################################
+
+
+#############################
 
 label pub_dance1_stage_stop:
     # Прерывание танца

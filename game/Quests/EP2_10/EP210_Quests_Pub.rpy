@@ -161,6 +161,7 @@ label ep210_quests_pub5_claire:
         return False
     $ remove_hook(label="claire_dance_dialogue1")
     $ ep29_quests_claire_dance_planned = True
+    $ stage_shoots_total_amount_cur = stage_shoots_total_amount_default + stage_shoots_total_amount_claire
     $ add_hook("Pub_StripteaseGirl2", "dialogue_5_dance_strip_9b", scene="pub_makeuproom", label="remove_after_dance")
     $ pub_makeuproom_claire_suffix = "Look1"
     $ cloth = "StripOutfit1"

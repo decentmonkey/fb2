@@ -124,6 +124,52 @@ label pub_dance_dialogues_react(pose, zone): # Реакция зала
 
     return
 
+
+label pub_dance_claire_dialogues_react(pose, zone): # Реакция зала
+
+    show screen poledance_camera_icon(stage_Monica_shoots_array)
+    python:
+        checkZoneKey = str(pose) + zone
+        moveRepeated = False
+        if checkZoneKey in stage_Monica_last_shoots_array:
+            moveRepeated = True
+        zoneRepeated = False
+        if zone == stage_Monica_last_zone:
+            zoneRepeated = True
+
+        stage_Monica_shoots_array_current.append(checkZoneKey)
+        stage_Monica_shoots_array.append(checkZoneKey)
+        stage_Monica_last_zone = zone
+
+#    if moveRepeated == True or zoneRepeated == True: # движение не понравилось
+    if zoneRepeated == True: # движение не понравилось
+        if moveRepeated == True:
+            $ notif(_("Моника с Клэр делали это движение в прошлый раз"))
+        if zoneRepeated == True:
+            $ notif(_("Моника с Клэр повторяют направления танца"))
+        call pub_dance_dialogues_excitement_down(pose, zone)
+        show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
+        $ idx = rand(1,4)
+        $ crowdSound = "snd_crowd_uuu" + str(idx)
+        sound crowdSound
+        call ep210_dialogue_5_dance_strip_5aa1()
+    else:
+        # Движение понравилось
+        call pub_dance_dialogues_excitement_up(pose, zone)
+        show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
+        call pub_dance_dialogues_excitement_tips()
+        $ idx = rand(1,3)
+        $ applauseSound = "snd_applause" + str(idx)
+        sound applauseSound
+        call pub_dance_stage_flash()
+        call ep210_dialogue_5_dance_strip_5a()
+
+
+#    wclean
+    $ notif_clean()
+
+    return
+
 label pub_dance_dialogues_excitement_up(pose, zone):
     python:
         idx1 = 0
