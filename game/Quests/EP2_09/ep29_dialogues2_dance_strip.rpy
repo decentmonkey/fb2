@@ -1420,6 +1420,27 @@ label dialogue_5_dance_strip_16:
     with fade
     clare "Привет, [monica_pub_name]. Ну как ты?"
     clare "Эшли говорит, что у тебя уже лучше получается. Она тобой довольна."
+    if ep210_picture_was_marked == True and ep210_picture_marked_claire_comment == False:
+        $ ep210_picture_marked_claire_comment = True
+        # если Моника разрисовала портрет Молли
+        # Клэр улыбаясь говорит
+        img 22723
+        with fade
+        #
+        $ notif(_("Моника разрисовала фотографию Молли"))
+        #
+        clare "Кстати, отличный портрет получился!"
+        clare "Наша звезда прямо-таки засияла..."
+        music Hidden_Agenda
+        img 16151
+        with diss
+        m "Нет-нет... Я тут ни при чем... Я ничего не делала."
+        # Клэр смотрит на нее и улыбается
+        img 16154
+        with diss
+        clare "Все ок. Я никому не скажу."
+
+
     img 22828
     with diss
     m "Хм. Я не удивлена, что Эшли довольна мной."  # проходит в гримерку и начинает раздеваться
