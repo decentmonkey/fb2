@@ -402,14 +402,24 @@ screen poledance():
         ypos getRes(430)
         #up
         if arrowUp == True:
-            imagebutton:
-                xanchor 0.5
-                yanchor 0.5
-                xpos getRes(50)
-                ypos getRes(-40)
-                idle "/Icons2/dance_up.png"
-                hover "/Icons2/dance_up_hover.png"
-                action [SetVariable("arrowUp", False), Return("up")]
+            if str(pose) + "up" in stage_Monica_shoots_array:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(50)
+                    ypos getRes(-40)
+                    idle "/Icons2/dance_up_already.png"
+                    hover "/Icons2/dance_up_already_hover.png"
+                    action [SetVariable("arrowUp", False), Return("up")]
+            else:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(50)
+                    ypos getRes(-40)
+                    idle "/Icons2/dance_up.png"
+                    hover "/Icons2/dance_up_hover.png"
+                    action [SetVariable("arrowUp", False), Return("up")]
         else:
             add "/Icons2/dance_up_Disabled.png":
                 xpos getRes(50)
@@ -418,14 +428,24 @@ screen poledance():
                 yanchor 0.5
         #left
         if arrowSide == True:
-            imagebutton:
-                xanchor 0.5
-                yanchor 0.5
-                xpos getRes(0)
-                ypos getRes(80)
-                idle "/Icons2/dance_left.png"
-                hover "/Icons2/dance_left_hover.png"
-                action [SetVariable("arrowSide", False), Return("side")]
+            if str(pose) + "side" in stage_Monica_shoots_array:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(0)
+                    ypos getRes(80)
+                    idle "/Icons2/dance_left_already.png"
+                    hover "/Icons2/dance_left_already_hover.png"
+                    action [SetVariable("arrowSide", False), Return("side")]
+            else:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(0)
+                    ypos getRes(80)
+                    idle "/Icons2/dance_left.png"
+                    hover "/Icons2/dance_left_hover.png"
+                    action [SetVariable("arrowSide", False), Return("side")]
         else:
             add "/Icons2/dance_left_Disabled.png":
                 xpos getRes(0)
@@ -434,14 +454,24 @@ screen poledance():
                 yanchor 0.5
         #down
         if arrowDown == True:
-            imagebutton:
-                xanchor 0.5
-                yanchor 0.5
-                xpos getRes(50)
-                ypos getRes(200)
-                idle "/Icons2/dance_down.png"
-                hover "/Icons2/dance_down_hover.png"
-                action [SetVariable("arrowDown", False), Return("down")]
+            if str(pose) + "down" in stage_Monica_shoots_array:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(50)
+                    ypos getRes(200)
+                    idle "/Icons2/dance_down_already.png"
+                    hover "/Icons2/dance_down_already_hover.png"
+                    action [SetVariable("arrowDown", False), Return("down")]
+            else:
+                imagebutton:
+                    xanchor 0.5
+                    yanchor 0.5
+                    xpos getRes(50)
+                    ypos getRes(200)
+                    idle "/Icons2/dance_down.png"
+                    hover "/Icons2/dance_down_hover.png"
+                    action [SetVariable("arrowDown", False), Return("down")]
         else:
             add "/Icons2/dance_down_Disabled.png":
                 xpos getRes(50)
