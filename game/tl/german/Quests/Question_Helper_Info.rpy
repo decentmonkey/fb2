@@ -360,3 +360,11 @@ translate german question_steve_ask_ralph_03a21e4f:
     # help "Спросить у Ральфа по поводу Стива."
     help "Frage Ralph wegen Steve."
 
+# TODO: Translation updated at 2020-01-16 22:18
+
+translate german strings:
+
+    # game/Quests/Question_Helper_Info.rpy:131
+    old "Фред обычно во дворе у машины..."
+    new ""
+

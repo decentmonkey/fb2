@@ -106,3 +106,27 @@ translate german strings:
     old "Copies the errors.txt file to the clipboard as Markdown for Discord."
     new "Copies the errors.txt file to the clipboard as Markdown for Discord."
 
+# TODO: Translation updated at 2020-01-16 22:18
+
+translate german strings:
+
+    # renpy/common/_developer/developer.rpym:63
+    old "Image Attributes"
+    new ""
+
+    # renpy/common/_developer/developer.rpym:90
+    old "[name] [attributes] (hidden)"
+    new ""
+
+    # renpy/common/_developer/developer.rpym:94
+    old "[name] [attributes]"
+    new ""
+
+    # renpy/common/_developer/developer.rpym:154
+    old "Hide deleted"
+    new ""
+
+    # renpy/common/_developer/developer.rpym:154
+    old "Show deleted"
+    new ""
+

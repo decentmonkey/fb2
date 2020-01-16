@@ -398,3 +398,27 @@ translate german strings:
     old "Зритель"
     new "Zuschauer"
 
+# TODO: Translation updated at 2020-01-16 22:18
+
+translate german strings:
+
+    # game/00_Functions/07_init_renpy.rpy:167
+    old "Инвестор"
+    new ""
+
+    # game/00_Functions/07_init_renpy.rpy:172
+    old "Шлюха номер 1"
+    new ""
+
+    # game/00_Functions/07_init_renpy.rpy:174
+    old "Девочка по вызову"
+    new ""
+
+    # game/00_Functions/07_init_renpy.rpy:179
+    old "Посетитель кафе"
+    new ""
+
+    # game/00_Functions/07_init_renpy.rpy:181
+    old "Бариста"
+    new ""
+

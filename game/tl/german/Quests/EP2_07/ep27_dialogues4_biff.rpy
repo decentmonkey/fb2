@@ -522,3 +522,23 @@ translate german strings:
     old "Моника давно не сдавала отчеты."
     new "Monica hat seit einer Weile keine Berichte mehr gebracht."
 
+# TODO: Translation updated at 2020-01-16 22:18
+
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:324
+translate german ep27_dialogues4_biff5_c8cb2977:
+
+    # biff "Хорошо, папочка доволен!"
+    biff "Хорошо, папочка доволен!"
+
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:335
+translate german ep27_dialogues4_biff5_c8cb2977_1:
+
+    # biff "Хорошо, папочка доволен!"
+    biff "Хорошо, папочка доволен!"
+
+# game/Quests/EP2_07/ep27_dialogues4_biff.rpy:346
+translate german ep27_dialogues4_biff5_c8cb2977_2:
+
+    # biff "Хорошо, папочка доволен!"
+    biff "Хорошо, папочка доволен!"
+

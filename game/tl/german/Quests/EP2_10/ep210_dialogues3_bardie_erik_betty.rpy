@@ -504,3 +504,25 @@ translate german strings:
     old "Послать малявку и уйти."
     new "Послать малявку и уйти."
 
+# TODO: Translation updated at 2020-01-16 22:18
+
+# game/Quests/EP2_10/ep210_dialogues3_bardie_erik_betty.rpy:68
+translate german ep210_dialogues3_bardie_erik_betty_1a_87797c12:
+
+    # mt "Мне показалось или здесь был какой-то звук?"
+    # mt "Кажется, кричала Бетти. Интересно на кого?"
+    mt "Мне показалось или здесь был какой-то звук?"
+    mt "Кажется, кричала Бетти. Интересно на кого?"
+
+# game/Quests/EP2_10/ep210_dialogues3_bardie_erik_betty.rpy:140
+translate german ep210_dialogues3_bardie_erik_betty_2_38b5b8b5:
+
+    # bardie "Вообще-то..."
+    bardie "Вообще-то..."
+
+# game/Quests/EP2_10/ep210_dialogues3_bardie_erik_betty.rpy:246
+translate german ep210_dialogues3_bardie_erik_betty_2_efa51258_1:
+
+    # bardie "..." 
+    bardie "..." 
+

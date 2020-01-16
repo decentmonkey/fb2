@@ -626,3 +626,11 @@ translate german strings:
     old "Раздеться и лечь на пол раздвинув ноги."
     new "Раздеться и лечь на пол раздвинув ноги."
 
+# TODO: Translation updated at 2020-01-16 22:18
+
+translate german strings:
+
+    # game/Quests/EP2_02/ep22_casting.rpy:5
+    old "Раздеться и принимать различные модельные позы. (требуется ур.2) (disabled)"
+    new ""
+

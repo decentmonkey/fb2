@@ -3272,3 +3272,31 @@ translate english dialogue_5_dance_strip_6_b833e5d7:
     # ashley "В прошлый раз я так и не увидела эту попку на сцене голой..." 
     ashley "Last time I didn't see that ass on stage naked..." 
 
+# TODO: Translation updated at 2020-01-16 22:17
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2054
+translate english dialogue_5_dance_strip_22_28af4dda:
+
+    # ashley "Ты помнишь что ты наказана!?"
+    # ashley "Сделай так чтобы Молли простила тебя, иначе не будешь зарабатывать здесь ничего!"
+    ashley "Ты помнишь что ты наказана!?"
+    ashley "Сделай так чтобы Молли простила тебя, иначе не будешь зарабатывать здесь ничего!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2058
+translate english dialogue_5_dance_strip_22_368e900d:
+
+    # mt "Сучка!"
+    # mt "Какой мне смысл танцевать, если приходится отдавать ей все деньги?!"
+    mt "Сучка!"
+    mt "Какой мне смысл танцевать, если приходится отдавать ей все деньги?!"
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2198
+translate english dialogue_5_dance_strip_27_c59e502f:
+
+    # molly " И кстати!"
+    # molly "Еще раз увижу, что ты испортила мой портрет!"
+    # molly "Простым штрафом ты не отделаешься, сучка!!!"
+    molly " И кстати!"
+    molly "Еще раз увижу, что ты испортила мой портрет!"
+    molly "Простым штрафом ты не отделаешься, сучка!!!"
+

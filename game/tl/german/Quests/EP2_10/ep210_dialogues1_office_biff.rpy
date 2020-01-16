@@ -1748,3 +1748,75 @@ translate german strings:
     old "Повернуться спиной к Филиппу."
     new "Повернуться спиной к Филиппу."
 
+# TODO: Translation updated at 2020-01-16 22:18
+
+# game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:270
+translate german ep210_dialogues1_office_biff_1_7c20726e:
+
+    # biff "Значит так!"
+    # biff "Мне надоело смотреть на тебя в этом скучном костюме." 
+    biff "Значит так!"
+    biff "Мне надоело смотреть на тебя в этом скучном костюме." 
+
+# game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:344
+translate german ep210_dialogues1_office_biff_1_b8564d89:
+
+    # m "Я могу носить другой офисный костюм..."
+    m "Я могу носить другой офисный костюм..."
+
+# game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:346
+translate german ep210_dialogues1_office_biff_1_63719d8b:
+
+    # m "Но не такой!"
+    # m "И мерять я подобное не собираюсь!"
+    m "Но не такой!"
+    m "И мерять я подобное не собираюсь!"
+
+# game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:511
+translate german ep210_dialogues1_office_biff_2b_f5d0aa60:
+
+    # m "Биф... А что насчет работы?"
+    m "Биф... А что насчет работы?"
+
+# game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:514
+translate german ep210_dialogues1_office_biff_2b_ac53e21f:
+
+    # biff "Говорю же тебе, приходи завтра!"
+    biff "Говорю же тебе, приходи завтра!"
+
+# game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:517
+translate german ep210_dialogues1_office_biff_2b_8cf19c80:
+
+    # mt "Сволочь!"
+    # mt "Надеюсь, завтра он даст мне работу... Мне нужны деньги..."
+    mt "Сволочь!"
+    mt "Надеюсь, завтра он даст мне работу... Мне нужны деньги..."
+
+# game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:648
+translate german ep210_dialogues1_office_biff_3_0d3c6517:
+
+    # biff "То тебе придется делать то что я тебе говорю!"
+    biff "То тебе придется делать то что я тебе говорю!"
+
+# game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:650
+translate german ep210_dialogues1_office_biff_3_0de5925b:
+
+    # m "Я не двадцатидолларовая шлюха, Биф! Хватит так называть меня!!!" 
+    m "Я не двадцатидолларовая шлюха, Биф! Хватит так называть меня!!!" 
+
+# game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:840
+translate german ep210_dialogues1_office_biff_4_d6b0bd50:
+
+    # mt "???"
+    # m "Что это значит? Что еще за юбка?"
+    mt "???"
+    m "Что это значит? Что еще за юбка?"
+
+# game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:844
+translate german ep210_dialogues1_office_biff_4_4ad0c88a:
+
+    # biff "Цыпочка долго не развлекала папочку чем-нибудь новым."
+    # biff "Папочка даст ей возможность исправить это!"
+    biff "Цыпочка долго не развлекала папочку чем-нибудь новым."
+    biff "Папочка даст ей возможность исправить это!"
+

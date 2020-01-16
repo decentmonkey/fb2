@@ -1714,3 +1714,337 @@ translate german strings:
     old "Сесть на член Филиппа."
     new "Сесть на член Филиппа."
 
+# TODO: Translation updated at 2020-01-16 22:18
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:61
+translate german ep210_dialogues2_escort_start_Phillip_1_7b4fcc67:
+
+    # philip "На этой презентации я увидел у Вас кое-что интересное, Мэм..."
+    # m "..."
+    philip "На этой презентации я увидел у Вас кое-что интересное, Мэм..."
+    m "..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:66
+translate german ep210_dialogues2_escort_start_Phillip_1_72c42df0:
+
+    # philip "Я, конечно, не использую одну и ту же женщину дважды..."
+    philip "Я, конечно, не использую одну и ту же женщину дважды..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:129
+translate german ep210_dialogues2_escort_start_Phillip_1_eed1819e:
+
+    # philip "Хорошо, сейчас я уйду..."
+    # philip "Но в следующий раз..."
+    philip "Хорошо, сейчас я уйду..."
+    philip "Но в следующий раз..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:132
+translate german ep210_dialogues2_escort_start_Phillip_1_872a2468:
+
+    # m "Не будет никакого следующего раза!!!"
+    # m "!!!"
+    m "Не будет никакого следующего раза!!!"
+    m "!!!"
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:234
+translate german ep210_dialogues2_escort_start_Phillip_1_eed1819e_1:
+
+    # philip "Хорошо, сейчас я уйду..."
+    # philip "Но в следующий раз..."
+    philip "Хорошо, сейчас я уйду..."
+    philip "Но в следующий раз..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:237
+translate german ep210_dialogues2_escort_start_Phillip_1_872a2468_1:
+
+    # m "Не будет никакого следующего раза!!!"
+    # m "!!!"
+    m "Не будет никакого следующего раза!!!"
+    m "!!!"
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:261
+translate german ep210_dialogues2_escort_start_Phillip_1_29502cdd:
+
+    # philip "Это повысит общую стоимость моих расходов, и они превысят стоимость Вашей киски."
+    philip "Это повысит общую стоимость моих расходов, и они превысят стоимость Вашей киски."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:263
+translate german ep210_dialogues2_escort_start_Phillip_1_384e119d:
+
+    # m "Мерзавец!"
+    # m "!!!"
+    m "Мерзавец!"
+    m "!!!"
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:318
+translate german ep210_dialogues2_escort_start_Phillip_2_14dec086:
+
+    # philip "Задирайте платье, Миссис Бакфетт. Покажите мне Вашу киску."
+    philip "Задирайте платье, Миссис Бакфетт. Покажите мне Вашу киску."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:320
+translate german ep210_dialogues2_escort_start_Phillip_2_e7d2104e:
+
+    # m "!!!"
+    # m "Что, прямо вот так?! Так быстро?!"
+    m "!!!"
+    m "Что, прямо вот так?! Так быстро?!"
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:545
+translate german ep210_dialogues2_escort_start_Phillip_2_160c07fd:
+
+    # philip "Мммммм..."
+    philip "Мммммм..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:560
+translate german ep210_dialogues2_escort_start_Phillip_2_cc5746f5:
+
+    # philip "У Вас неплохая киска, Миссис Бакфетт..."
+    philip "У Вас неплохая киска, Миссис Бакфетт..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:575
+translate german ep210_dialogues2_escort_start_Phillip_2_527a0e9c:
+
+    # philip "Конечно, она не стоит 300 долларов..."
+    philip "Конечно, она не стоит 300 долларов..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:590
+translate german ep210_dialogues2_escort_start_Phillip_2_91b71237:
+
+    # philip "Но все же..."
+    # philip "Ммммм..."
+    philip "Но все же..."
+    philip "Ммммм..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:609
+translate german ep210_dialogues2_escort_start_Phillip_2_952f4db6:
+
+    # philip "Мне приятно Вас трахать, Миссис Бакфетт..."
+    philip "Мне приятно Вас трахать, Миссис Бакфетт..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:624
+translate german ep210_dialogues2_escort_start_Phillip_2_8c00f7c6:
+
+    # philip "Думаю, это не последняя наша с Вами встреча..."
+    philip "Думаю, это не последняя наша с Вами встреча..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:639
+translate german ep210_dialogues2_escort_start_Phillip_2_cffbe214:
+
+    # philip "Ммммм..."
+    philip "Ммммм..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:754
+translate german ep210_dialogues2_escort_start_Phillip_3a_ec023af4:
+
+    # mt "Что этот мерзавец здесь делает?"
+    # mt "Я не собираюсь подходить к нему!"
+    # help "Квест вип эскорта перезапущен!"
+    mt "Что этот мерзавец здесь делает?"
+    mt "Я не собираюсь подходить к нему!"
+    help "Квест вип эскорта перезапущен!"
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:759
+translate german ep210_dialogues2_escort_start_HotelStaff_3b_a700fa13:
+
+    # mt "Что это ничтожество здесь делает?"
+    # mt "Я не собираюсь подходить к нему!"
+    # help "Квест вип эскорта запущен снова!"
+    mt "Что это ничтожество здесь делает?"
+    mt "Я не собираюсь подходить к нему!"
+    help "Квест вип эскорта запущен снова!"
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:928
+translate german ep210_dialogues2_escort_start_Phillip_12_51415d73:
+
+    # philip "У меня сегодня субботняя шлюха номер 1."
+    philip "У меня сегодня субботняя шлюха номер 1."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:931
+translate german ep210_dialogues2_escort_start_Phillip_12_2370c5e0:
+
+    # philip "Субботняя шлюха номер 2 может прийти через неделю."
+    philip "Субботняя шлюха номер 2 может прийти через неделю."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:949
+translate german ep210_dialogues2_escort_start_Phillip_12_2aaa7e08:
+
+    # m "Я Моника Бакфетт!"
+    # philip "У меня нет ничего общего с Миссис Бакфетт."
+    m "Я Моника Бакфетт!"
+    philip "У меня нет ничего общего с Миссис Бакфетт."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:955
+translate german ep210_dialogues2_escort_start_Phillip_13a_8c37f705:
+
+    # whore_number_1 "Шлюха номер 2, подожди!"
+    whore_number_1 "Шлюха номер 2, подожди!"
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:959
+translate german ep210_dialogues2_escort_start_Phillip_13b_c888bfbc:
+
+    # mt "Вот мерзавец!"
+    # mt "Неужели я стала шлюхой?!"
+    # mt "Нет. Это не так."
+    # mt "Это просто временные трудности!"
+    # mt "Я делаю это вынужденно..."
+    # mt "Так что этот раз не считается..."
+    mt "Вот мерзавец!"
+    mt "Неужели я стала шлюхой?!"
+    mt "Нет. Это не так."
+    mt "Это просто временные трудности!"
+    mt "Я делаю это вынужденно..."
+    mt "Так что этот раз не считается..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:974
+translate german ep210_dialogues2_escort_start_Phillip_13_8c37f705:
+
+    # whore_number_1 "Шлюха номер 2, подожди!"
+    whore_number_1 "Шлюха номер 2, подожди!"
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:977
+translate german ep210_dialogues2_escort_start_Phillip_13_7a84cfbf:
+
+    # m "???" 
+    m "???" 
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:980
+translate german ep210_dialogues2_escort_start_Phillip_13_f720f52d:
+
+    # whore_number_1 "Слушай, я зарабатываю 200 долларов у него."
+    # whore_number_1 "Хочешь, я дам тебе 50 долларов?"
+    whore_number_1 "Слушай, я зарабатываю 200 долларов у него."
+    whore_number_1 "Хочешь, я дам тебе 50 долларов?"
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:984
+translate german ep210_dialogues2_escort_start_Phillip_13_b5d3cc3d:
+
+    # m "50 долларов?"
+    # m "За что?"
+    m "50 долларов?"
+    m "За что?"
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:988
+translate german ep210_dialogues2_escort_start_Phillip_13_5c238795:
+
+    # whore_number_1 "Ты мне поможешь удовлетворить Филиппа."
+    whore_number_1 "Ты мне поможешь удовлетворить Филиппа."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:992
+translate german ep210_dialogues2_escort_start_Phillip_13_32c46929:
+
+    # m "Что? За 50 долларов?!"
+    m "Что? За 50 долларов?!"
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:996
+translate german ep210_dialogues2_escort_start_Phillip_13_902ec5e2:
+
+    # whore_number_1 "Да. 50 баксов тебе, остальные 150 - мои."
+    whore_number_1 "Да. 50 баксов тебе, остальные 150 - мои."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:999
+translate german ep210_dialogues2_escort_start_Phillip_13_e612037c:
+
+    # m "..."
+    m "..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1006
+translate german ep210_dialogues2_escort_start_Phillip_13_5314e0e8:
+
+    # mt "Он платит этой шлюхе 200 долларов!"
+    # mt "А мне - какие-то жалкие 100!"
+    # mt "Мне! Самой красивой женщине этого города!!!"
+    # mt "!!!"
+    mt "Он платит этой шлюхе 200 долларов!"
+    mt "А мне - какие-то жалкие 100!"
+    mt "Мне! Самой красивой женщине этого города!!!"
+    mt "!!!"
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1013
+translate german ep210_dialogues2_escort_start_Phillip_13_3afee615:
+
+    # m "Неужели ты думала, что я соглашусь на такое?!"
+    # m "Конечно, нет!!!"
+    # mt "Да еще и за 50 долларов!"
+    # mt "!!!"
+    m "Неужели ты думала, что я соглашусь на такое?!"
+    m "Конечно, нет!!!"
+    mt "Да еще и за 50 долларов!"
+    mt "!!!"
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1164
+translate german ep210_dialogues2_escort_start_Phillip_15_160c07fd_1:
+
+    # philip "Мммммм..."
+    philip "Мммммм..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1200
+translate german ep210_dialogues2_escort_start_Phillip_15_160c07fd_2:
+
+    # philip "Мммммм..."
+    philip "Мммммм..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1231
+translate german ep210_dialogues2_escort_start_Phillip_15_160c07fd_3:
+
+    # philip "Мммммм..."
+    philip "Мммммм..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1251
+translate german ep210_dialogues2_escort_start_Phillip_15_160c07fd_4:
+
+    # philip "Мммммм..."
+    philip "Мммммм..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1534
+translate german ep210_dialogues2_escort_start_Phillip_16_160c07fd_1:
+
+    # philip "Мммммм..."
+    philip "Мммммм..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1550
+translate german ep210_dialogues2_escort_start_Phillip_16_160c07fd_2:
+
+    # philip "Мммммм..."
+    philip "Мммммм..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1570
+translate german ep210_dialogues2_escort_start_Phillip_16_160c07fd_3:
+
+    # philip "Мммммм..."
+    philip "Мммммм..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1595
+translate german ep210_dialogues2_escort_start_Phillip_16_160c07fd_4:
+
+    # philip "Мммммм..."
+    philip "Мммммм..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1615
+translate german ep210_dialogues2_escort_start_Phillip_16_160c07fd_5:
+
+    # philip "Мммммм..."
+    philip "Мммммм..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1631
+translate german ep210_dialogues2_escort_start_Phillip_16_160c07fd_6:
+
+    # philip "Мммммм..."
+    philip "Мммммм..."
+
+# game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1639
+translate german ep210_dialogues2_escort_start_Phillip_16_160c07fd_7:
+
+    # philip "Мммммм..."
+    philip "Мммммм..."
+
+translate german strings:
+
+    # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:831
+    old "Зайти к Филиппу."
+    new ""
+
+    # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1000
+    old "Мне нужны эти деньги (в следующем обновлении). (disabled)"
+    new ""
+

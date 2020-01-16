@@ -156,3 +156,251 @@ translate english strings:
     old "Идти к Фреду"
     new "Идти к Фреду"
 
+# TODO: Translation updated at 2020-01-16 22:17
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:16
+translate english ep210_dialogues6_gun_monica_fred_1b_949625e8:
+
+    # mt "Итак..."
+    # mt "Я больше не буду терпеть эти... унижения..."
+    # mt "Я - Королева!"
+    # mt "И я не собираюсь ждать удобного случая или чтобы кто-то вернул мне то, что МОЕ!"
+    # mt "Вместо этого я сама возьму то, что принадлежит МНЕ!!!"
+    # mt "..."
+    mt "Итак..."
+    mt "Я больше не буду терпеть эти... унижения..."
+    mt "Я - Королева!"
+    mt "И я не собираюсь ждать удобного случая или чтобы кто-то вернул мне то, что МОЕ!"
+    mt "Вместо этого я сама возьму то, что принадлежит МНЕ!!!"
+    mt "..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:24
+translate english ep210_dialogues6_gun_monica_fred_1b_4af481e1:
+
+    # mt "Но, мне все равно нужен план..."
+    # mt "Мне надо выяснить кто стоит за всем этим..."
+    # mt "И тогда я прихлопну этого человека как муху..."
+    # mt "Пусть даже это окажется сам Маркус!"
+    # mt "..."
+    mt "Но, мне все равно нужен план..."
+    mt "Мне надо выяснить кто стоит за всем этим..."
+    mt "И тогда я прихлопну этого человека как муху..."
+    mt "Пусть даже это окажется сам Маркус!"
+    mt "..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:31
+translate english ep210_dialogues6_gun_monica_fred_1b_b478fca4:
+
+    # mt "Кто же в этом еще замешан?.."
+    # mt "Моника, думай..."
+    # mt "..."
+    mt "Кто же в этом еще замешан?.."
+    mt "Моника, думай..."
+    mt "..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:37
+translate english ep210_dialogues6_gun_monica_fred_1b_6a3b8637:
+
+    # mt "Фред!"
+    # mt "Когда я вышла от Дика, он знал!"
+    # mt "Он знал про все, что случилось со мной!"
+    # mt "Откуда?!"
+    # mt "Я начну с Фреда, с этого мерзавца..."
+    mt "Фред!"
+    mt "Когда я вышла от Дика, он знал!"
+    mt "Он знал про все, что случилось со мной!"
+    mt "Откуда?!"
+    mt "Я начну с Фреда, с этого мерзавца..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:52
+translate english ep210_dialogues6_gun_monica_fred_1c_false_e2f39a4f:
+
+    # mt "Фред обычно во дворе у машины..."
+    mt "Фред обычно во дворе у машины..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:63
+translate english ep210_dialogues6_gun_monica_fred_1d_c5eb48d8:
+
+    # m "Фред, Привет..."
+    m "Фред, Привет..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:66
+translate english ep210_dialogues6_gun_monica_fred_1d_c6e3fa12:
+
+    # fred "Здравствуйте, Миссис Бакфетт..."
+    # fred "Отлично выглядите сегодня..."
+    fred "Здравствуйте, Миссис Бакфетт..."
+    fred "Отлично выглядите сегодня..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:70
+translate english ep210_dialogues6_gun_monica_fred_1d_3dcf1be4:
+
+    # m "Спасибо, Фред..."
+    # m "..."
+    # m "Фред?"
+    # fred "Да, Миссис Бакфетт..."
+    m "Спасибо, Фред..."
+    m "..."
+    m "Фред?"
+    fred "Да, Миссис Бакфетт..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:77
+translate english ep210_dialogues6_gun_monica_fred_1d_aa19457c:
+
+    # m "Фред, я хотела бы извиниться за то что обходилась с тобой не слишком вежливо..."
+    m "Фред, я хотела бы извиниться за то что обходилась с тобой не слишком вежливо..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:80
+translate english ep210_dialogues6_gun_monica_fred_1d_f3e7dc5d:
+
+    # fred "?"
+    fred "?"
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:83
+translate english ep210_dialogues6_gun_monica_fred_1d_2f0ef969:
+
+    # m "Дело в том, что я поняла, какой ты умный человек..."
+    # m "У тебя повсюду связи и..."
+    # m "Учитывая мое положение, мне лучше дружить с тобой..."
+    m "Дело в том, что я поняла, какой ты умный человек..."
+    m "У тебя повсюду связи и..."
+    m "Учитывая мое положение, мне лучше дружить с тобой..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:89
+translate english ep210_dialogues6_gun_monica_fred_1d_d5244797:
+
+    # fred "Я рад что Вы наконец-то это поняли, Миссис Бакфетт!"
+    # fred "Итак, как же вы собираетесь со мной 'Дружить'?"
+    fred "Я рад что Вы наконец-то это поняли, Миссис Бакфетт!"
+    fred "Итак, как же вы собираетесь со мной 'Дружить'?"
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:94
+translate english ep210_dialogues6_gun_monica_fred_1d_7aae5a6b:
+
+    # m "Я понимаю, Фред, что ты вкладываешь в это слово..."
+    # m "Я согласна спать с тобой Фред, но за это ты будешь помогать мне..."
+    m "Я понимаю, Фред, что ты вкладываешь в это слово..."
+    m "Я согласна спать с тобой Фред, но за это ты будешь помогать мне..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:99
+translate english ep210_dialogues6_gun_monica_fred_1d_41d11f30:
+
+    # fred "Конечно, Миссис Бакфетт... Помогать Вам - это моя профессиональная обязанность!"
+    # fred "Но Вы должны понимать, что профессиональная дружба несет в себе определенное требование..."
+    # m "Какое?"
+    # fred "Вы должны будете оказывать мне профессиональные услуги в любое время, когда возникнет потребность в них..."
+    fred "Конечно, Миссис Бакфетт... Помогать Вам - это моя профессиональная обязанность!"
+    fred "Но Вы должны понимать, что профессиональная дружба несет в себе определенное требование..."
+    m "Какое?"
+    fred "Вы должны будете оказывать мне профессиональные услуги в любое время, когда возникнет потребность в них..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:106
+translate english ep210_dialogues6_gun_monica_fred_1d_5d80dc19:
+
+    # m "Да... Фред... Я понимаю..."
+    # m "Я согласна оказывать тебе свои... профессиональные услуги..."
+    # m "В любой момент, когда ты пожелаешь..."
+    m "Да... Фред... Я понимаю..."
+    m "Я согласна оказывать тебе свои... профессиональные услуги..."
+    m "В любой момент, когда ты пожелаешь..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:112
+translate english ep210_dialogues6_gun_monica_fred_1d_94576761:
+
+    # fred "Я рад это слышать, Миссис Бакфетт! Наша профессиональная дружба будет долгой и плодотворной!"
+    fred "Я рад это слышать, Миссис Бакфетт! Наша профессиональная дружба будет долгой и плодотворной!"
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:116
+translate english ep210_dialogues6_gun_monica_fred_1d_95ef0e54:
+
+    # m "Может быть ты желаешь воспользоваться мной прямо сейчас?"
+    m "Может быть ты желаешь воспользоваться мной прямо сейчас?"
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:119
+translate english ep210_dialogues6_gun_monica_fred_1d_ea28eda4:
+
+    # fred "О, Миссис Бакфетт! Предложить это было очень профессионально с Вашей стороны!"
+    fred "О, Миссис Бакфетт! Предложить это было очень профессионально с Вашей стороны!"
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:122
+translate english ep210_dialogues6_gun_monica_fred_1d_deee1323:
+
+    # m "У меня есть... своя спальня в подвале..."
+    # m "Если тебе будет удобно..."
+    m "У меня есть... своя спальня в подвале..."
+    m "Если тебе будет удобно..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:127
+translate english ep210_dialogues6_gun_monica_fred_1d_c0350afb:
+
+    # fred "Да, Миссис Бакфетт."
+    # fred "Мне там будет вполне удобно. Пройдемте!"
+    fred "Да, Миссис Бакфетт."
+    fred "Мне там будет вполне удобно. Пройдемте!"
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:148
+translate english ep210_dialogues6_gun_monica_fred_1d_814fe4bb:
+
+    # fred "О, Миссис Бакфетт... На Вас нет трусиков..."
+    fred "О, Миссис Бакфетт... На Вас нет трусиков..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:153
+translate english ep210_dialogues6_gun_monica_fred_1d_1c95b66f:
+
+    # m "Да, Фред..."
+    # m "Я специально не стала их одевать, чтобы тебе было удобно использовать меня в любой момент..."
+    m "Да, Фред..."
+    m "Я специально не стала их одевать, чтобы тебе было удобно использовать меня в любой момент..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:159
+translate english ep210_dialogues6_gun_monica_fred_1d_eb14fd04:
+
+    # fred "А я думал Вы соблюдаете правила этого дома..."
+    # fred "Которые установил маленький хозяин..."
+    fred "А я думал Вы соблюдаете правила этого дома..."
+    fred "Которые установил маленький хозяин..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:164
+translate english ep210_dialogues6_gun_monica_fred_1d_fe5b52a9:
+
+    # m "В этот раз я не стала одевать трусики специально для тебя, Фред..."
+    m "В этот раз я не стала одевать трусики специально для тебя, Фред..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:168
+translate english ep210_dialogues6_gun_monica_fred_1d_ea89a996:
+
+    # fred "Как это мило..."
+    # fred "Нагибайтесь, Миссис Бакфетт..."
+    fred "Как это мило..."
+    fred "Нагибайтесь, Миссис Бакфетт..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:176
+translate english ep210_dialogues6_gun_monica_fred_1d_3410cfb1:
+
+    # m "Конечно, Фред. как пожелаешь..."
+    m "Конечно, Фред. как пожелаешь..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:179
+translate english ep210_dialogues6_gun_monica_fred_1d_b720b79c:
+
+    # fred "Пришло время начать нашу профессиональную дружбу!"
+    fred "Пришло время начать нашу профессиональную дружбу!"
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:182
+translate english ep210_dialogues6_gun_monica_fred_1d_d2eb96ae:
+
+    # m "Да, Фред... Один момент..."
+    m "Да, Фред... Один момент..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:191
+translate english ep210_dialogues6_gun_monica_fred_1d_934bad7e:
+
+    # m "Ну здравствуй, корнюшон..."
+    m "Ну здравствуй, корнюшон..."
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:194
+translate english ep210_dialogues6_gun_monica_fred_1d_a673adb1:
+
+    # m "Вот ты и попался..."
+    m "Вот ты и попался..."
+

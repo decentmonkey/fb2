@@ -360,3 +360,11 @@ translate english question_steve_ask_ralph_03a21e4f:
     # help "Спросить у Ральфа по поводу Стива."
     help "Ask Ralph about Steve."
 
+# TODO: Translation updated at 2020-01-16 22:17
+
+translate english strings:
+
+    # game/Quests/Question_Helper_Info.rpy:131
+    old "Фред обычно во дворе у машины..."
+    new ""
+

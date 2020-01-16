@@ -70,3 +70,15 @@ translate german strings:
     old "Strip Dance"
     new "Strip Dance"
 
+# TODO: Translation updated at 2020-01-16 22:18
+
+translate german strings:
+
+    # game/Quests/Achievements.rpy:2
+    old "Escort Service"
+    new ""
+
+    # game/Quests/Achievements.rpy:2
+    old "Revenge"
+    new ""
+

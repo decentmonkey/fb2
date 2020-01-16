@@ -2602,3 +2602,157 @@ translate english strings:
     old "Залезть под стол и сделать клиенту минет."
     new "Залезть под стол и сделать клиенту минет."
 
+# TODO: Translation updated at 2020-01-16 22:17
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:36
+translate english ep210_dialogues7_escort_hotel_1_5a3d0d61:
+
+    # mt "Я помню этого неудачника!"
+    mt "Я помню этого неудачника!"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:40
+translate english ep210_dialogues7_escort_hotel_1_5f2846a7:
+
+    # mt "Это он тогда был в туалете, когда я..."
+    # mt "Когда мерзавец Филипп заставил меня..."
+    # mt "Делать всякие его извращенские гадости!"
+    mt "Это он тогда был в туалете, когда я..."
+    mt "Когда мерзавец Филипп заставил меня..."
+    mt "Делать всякие его извращенские гадости!"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:57
+translate english ep210_dialogues7_escort_hotel_1_be1047d2:
+
+    # m "???" 
+    # m "Ужин за счет ресторана?"
+    m "???" 
+    m "Ужин за счет ресторана?"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:68
+translate english ep210_dialogues7_escort_hotel_1_2ceac500:
+
+    # hotel_staff "Так Вы позволите, Мэм?"
+    # m "Что позволю?"
+    hotel_staff "Так Вы позволите, Мэм?"
+    m "Что позволю?"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:177
+translate english ep210_dialogues7_escort_hotel_1_03090b9c:
+
+    # m "Ты пожалеешь, если расскажешь об этом хоть одной живой душе!"
+    # m "Я сделаю так, что тебя выкинут с работы!"
+    m "Ты пожалеешь, если расскажешь об этом хоть одной живой душе!"
+    m "Я сделаю так, что тебя выкинут с работы!"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:180
+translate english ep210_dialogues7_escort_hotel_1_f22e0a4d:
+
+    # m "И ты после этого не сможешь устроиться на работу даже..."
+    m "И ты после этого не сможешь устроиться на работу даже..."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:285
+translate english ep210_dialogues7_escort_hotel_2_7f1b2644:
+
+    # hotel_staff "Если бы я сразу сказал, что это обычный коридор..."
+    # hotel_staff "То Вы не согласились бы, Мэм."
+    # hotel_staff "Однако, прошу Вас, поверьте! Здесь никто никогда не ходит!"
+    hotel_staff "Если бы я сразу сказал, что это обычный коридор..."
+    hotel_staff "То Вы не согласились бы, Мэм."
+    hotel_staff "Однако, прошу Вас, поверьте! Здесь никто никогда не ходит!"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:677
+translate english ep210_dialogues7_escort_hotel_6_b1f79569:
+
+    # m "!!!"
+    # m "Я делала это не за деньги! Это мои личные отношения! И это тебя не должно касаться!"
+    m "!!!"
+    m "Я делала это не за деньги! Это мои личные отношения! И это тебя не должно касаться!"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:767
+translate english ep210_dialogues7_escort_hotel_6_57a264e4:
+
+    # m "..."
+    # m "Да... Я пришла, чтобы заработать денег..."
+    m "..."
+    m "Да... Я пришла, чтобы заработать денег..."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:770
+translate english ep210_dialogues7_escort_hotel_6_1c88d382:
+
+    # reception "И? Ты леди?"
+    reception "И? Ты леди?"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:890
+translate english ep210_dialogues7_escort_hotel_6_62ca7f99:
+
+    # mt "Какой кошмар!!!"
+    # mt "Мне предложили работать шлюхой в отеле!"
+    # mt "Моника, до чего ты докатилась?!"
+    # mt "..."
+    # mt "С другой стороны..."
+    # mt "Это хорошая возможность быстро заработать неплохие деньги."
+    # mt "Но черт! Неужели я смогу работать здесь?!"
+    mt "Какой кошмар!!!"
+    mt "Мне предложили работать шлюхой в отеле!"
+    mt "Моника, до чего ты докатилась?!"
+    mt "..."
+    mt "С другой стороны..."
+    mt "Это хорошая возможность быстро заработать неплохие деньги."
+    mt "Но черт! Неужели я смогу работать здесь?!"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1204
+translate english ep210_dialogues7_escort_hotel_7_2acdca2e:
+
+    # girl_4 "Добро пожаловать в наш дружный коллектив." 
+    girl_4 "Добро пожаловать в наш дружный коллектив." 
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1206
+translate english ep210_dialogues7_escort_hotel_7_16bd7868:
+
+    # mt "!!!" 
+    mt "!!!" 
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1217
+translate english ep210_dialogues7_escort_hotel_7_6d543bf5:
+
+    # m "Меня зовут..."
+    m "Меня зовут..."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1368
+translate english ep210_dialogues7_escort_hotel_8_enter_restaurant_937f7632:
+
+    # reception "Куда собралась? Тебе надо переодеться!"
+    reception "Куда собралась? Тебе надо переодеться!"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1371
+translate english ep210_dialogues7_escort_hotel_8_enter_restaurant_910799f0:
+
+    # m "Я не на работу. Я просто поесть..."
+    m "Я не на работу. Я просто поесть..."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1374
+translate english ep210_dialogues7_escort_hotel_8_enter_restaurant_86424ace:
+
+    # reception "Хорошо, иди."
+    # reception "Но учти, что здесь надо работать и ублажать клиентов, а не отдыхать!"
+    reception "Хорошо, иди."
+    reception "Но учти, что здесь надо работать и ублажать клиентов, а не отдыхать!"
+
+translate english strings:
+
+    # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:38
+    old "Моника делала минет Филиппу в туалете"
+    new ""
+
+    # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1218
+    old "Снежанна"
+    new ""
+
+    # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1357
+    old "Работать в эскорте (в следующем апдейте). (disabled)"
+    new ""
+
+    # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1357
+    old "Идти в ресторан."
+    new ""
+
