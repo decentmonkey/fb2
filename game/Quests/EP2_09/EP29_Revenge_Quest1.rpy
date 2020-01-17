@@ -149,7 +149,7 @@ label ep29_revenge_quest1_table_box_opening:
     sound desk_open
     if ep29_revenge_quest_table_opened == False:
         call ep29_dialogues5_gun_monica_10() from _call_ep29_dialogues5_gun_monica_10
-        $ remove_hook()
+#        $ remove_hook()
         $ remove_objective("open_table")
         $ ep29_revenge_quest_table_opened = True
     call change_scene("basement_bedroom_table_opened", "Fade", "desk_open") from _call_change_scene_473

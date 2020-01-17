@@ -60,7 +60,7 @@ label ep210_revenge_quest3_teleport_yard:
     return False
 
 label ep210_revenge_quest3_teleport_bedroom:
-    call change_scene("bedroom2", "Fade_long")
+    call change_scene("basement_bedroom2", "Fade_long")
     return False
 
 label ep210_revenge_quest3_fred: # Диалог с Фредом
