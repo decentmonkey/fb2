@@ -188,7 +188,7 @@ label ep210_dialogues6_gun_monica_fred_1d:
     music vendetta
     img 23049
     with hpunch
-    m "Ну здравствуй, корнюшон..."
+    m "Ну здравствуй, корнишон..."
     img 23050
     with fade
     m "Вот ты и попался..."
