@@ -1137,6 +1137,7 @@ label ep210_dialogues4_dance_strip_12:
     $ applauseSound = "snd_applause" + str(idx)
     sound applauseSound
     call pub_dance_stage_flash()
+    customers1 "ДА! ДААААА!!!"
     w
     sound2 fx_coins_b1
     $ money += 15
@@ -1146,6 +1147,7 @@ label ep210_dialogues4_dance_strip_12:
     $ applauseSound = "snd_applause" + str(idx)
     sound applauseSound
     call pub_dance_stage_flash()
+    customers2 "СНИМИ ИХ! СНИМИ!!!"
     w
     sound2 fx_coins_b1
     $ money += 30
@@ -1155,6 +1157,7 @@ label ep210_dialogues4_dance_strip_12:
     $ applauseSound = "snd_applause" + str(idx)
     sound applauseSound
     call pub_dance_stage_flash()
+    customers3 "ПОКАЖИ НАМ СВОЮ КИСКУ! ВАУ!!!"
     w
     sound2 fx_coins_b1
     $ money += 50
@@ -1164,6 +1167,7 @@ label ep210_dialogues4_dance_strip_12:
     $ applauseSound = "snd_applause" + str(idx)
     sound applauseSound
     call pub_dance_stage_flash()
+    customers4 "Я ХОЧУ ТРАХНУТЬ ЭТУ СТРИПТИЗЕРШУ! Я ПЕРВЫЙ!!!"
     w
     sound2 fx_coins_b1
     $ money += 40
@@ -1173,6 +1177,7 @@ label ep210_dialogues4_dance_strip_12:
     $ applauseSound = "snd_applause" + str(idx)
     sound applauseSound
     call pub_dance_stage_flash()
+    customers4 "НУ ЖЕ! СНИМИ ТРУСИКИ! СНИМИ ИХ ПОЛНОСТЬЮ!!!"
     w
     img 23185
     with diss
@@ -1180,6 +1185,7 @@ label ep210_dialogues4_dance_strip_12:
     $ idx = rand(1,3)
     $ applauseSound = "snd_applause" + str(idx)
     sound2 applauseSound
+    customers4 "ОНА СПЕЦИАЛЬНО ТАК СДЕЛАЛА! Я ЗНАЮ!"
     w
     img 23184
     with hpunch
