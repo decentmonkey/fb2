@@ -1110,7 +1110,7 @@ translate german monica_charity_event_dialogue10_041616f4:
 translate german monica_charity_event_dialogue10_009fed20:
 
     # "Твои $ 4.000!"
-    "Deine $ 4.000 !"
+    "Deine 4.000€ !"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:818
 translate german monica_charity_event_dialogue10_3b07704e:
@@ -1122,7 +1122,7 @@ translate german monica_charity_event_dialogue10_3b07704e:
 translate german monica_charity_event_dialogue10_efcd3cde:
 
     # "Здесь должно быть $ 5.000!"
-    "Es sollten aber $ 5.000 sein!"
+    "Es sollten aber 5.000€ sein!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:823
 translate german monica_charity_event_dialogue10_40034e37:
@@ -1156,7 +1156,7 @@ translate german monica_charity_event_dialogue10_da24091f:
 translate german monica_charity_event_dialogue10_4c8d1b9e:
 
     # m "Мне нужно $ 5.000!"
-    m "Ich brauche aber $ 5.000 !"
+    m "Ich brauche aber 5.000€ !"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:840
 translate german monica_charity_event_dialogue10_59b1c611:
@@ -1208,20 +1208,20 @@ translate german monica_charity_event_dialogue11_d06f874d:
     # "Или попробовать уговорить {c}Бифа{/c}?"
     mt "Dieser Bastard!"
     "Er hat mich ausgetrickst!"
-    "Wenn ich gewusst hätte dass dieser Wein mich $ 1.000 kostet, hätte ich ihn nicht getrunken!"
+    "Wenn ich gewusst hätte dass dieser Wein mich 1.000€ kostet, hätte ich ihn nicht getrunken!"
     "Außerdem dachte ich, Philip lädt mich ein!"
     "Was für eine Art Männer seid ihr eigentlich?!"
     "Solche Typen verdienen es, benutzt zu werden!"
     "Angebrachte Etiquette ist ein Fremdwort für diese Leute! Absolut ungehörig."
     "..."
     "Dennoch..."
-    "Ich brauche aber $ 5.000 !"
+    "Ich brauche aber 5.000€ !"
     "Victoria sagte klar und duetlich, dass ich das Geld haben muss, sonst kommt sie nicht mit!"
     "Mit Dick zu sprechen bringt auch nichts!"
     "Er hört blind auf dieses Miststück!"
     "Es ist schon Abend und ich muss mich beeilen!"
     "Ich muss los, diese verdammte Krawatte kaufen!"
-    "Und mir fehlen $ 1.000 !"
+    "Und mir fehlen 1.000€ !"
     "Wenn ich das nicht schaffe, lande ich bei Marcus!!!"
     "Oh mein Gott!!!"
     "Wie komme ich nur an das Geld!?!"
@@ -1359,7 +1359,7 @@ translate german monica_charity_event_dialogue14_d27b95d5:
 
     # m "Всего-лишь $ 300.000!"
     # "Ничего особенного!"
-    m "Nur $ 300.000 !"
+    m "Nur 300.000€ !"
     "Kein Problem!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1001
@@ -1480,14 +1480,14 @@ translate german monica_charity_event_dialogue14_2e58cf14:
 translate german monica_charity_event_dialogue14_e8166d50:
 
     # m "Ты думаешь что я способна сделать минет за $ 300.000?"
-    m "Glauben Sie wirklich ich sei die Art Frau, die einen Blowjob für $ 300.000 macht?"
+    m "Glauben Sie wirklich ich sei die Art Frau, die einen Blowjob für 300.000€ macht?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1069
 translate german monica_charity_event_dialogue14_eb315ec2:
 
     # philip "Я знаю что Вы будете делать минеты, но я хочу быть одним из первых!"
     # "Потому я и пришел сюда!"
-    philip "Ich weiß, dass Sie schon sehr bald sehr viele Blowjobs für erheblich weniger machen werden. Aber ich will einer der Ersten sein!"
+    philip "Ich weiß, dass Sie schon sehr bald sehr viele Blowjobs für erheblich weniger machen werden. Aber ich will eienr der Ersten sein!"
     "Deshalb bin ich hier!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1084
@@ -1495,7 +1495,7 @@ translate german monica_charity_event_dialogue14_local1_d9fc079a:
 
     # m "Если Вы подымете сумму до $ 30.000.000, то я готова подумать..."
     # mt "В конце концов еще один небольшой кошмар, но я смогу решить все свои проблемы!"
-    m "Wenn sie das Angebot auf $ 30.000.000 erhöhen, bin ich bereit darüber nachzudenken..."
+    m "Wenn sie das Angebot auf 30.000.000€ erhöhen, bin ich bereit darüber nachzudenken..."
     mt "Und noch ein Alptraum... aber ich werde das schon schaffen! Ich muss!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1093
@@ -1512,7 +1512,7 @@ translate german monica_charity_event_dialogue14_local1_9555aae1:
     # "Я хорошо умею считать и я оцениваю Ваш ротик в $ 500!"
     philip "Was meinen Sie?"
     "Wie könne Sie nur so schlecht von mir denken?"
-    "Ich bin ziemlich gut im Kalkulieren von Werten und ich schätzen Ihren Mund auf... $ 500!"
+    "Ich bin ziemlich gut im Kalkulieren von Werten und ich schätzen Ihren Mund auf... 500€!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1102
 translate german monica_charity_event_dialogue14_local1_cf0d85a6:
@@ -1551,7 +1551,7 @@ translate german monica_charity_event_dialogue15_939d835a:
     "Bastard!"
     "..."
     "Was soll ich nur tun?"
-    "Wenn ich nicht schnellstens {c}$ 1.000 auftreibe{/c}, dann wars das!"
+    "Wenn ich nicht schnellstens {c}1.000€ auftreibe{/c}, dann wars das!"
     "Mir bleiben nur noch Minuten!"
     "Ich muss nachdenken, vielleicht sollte ich nochmal {c}mit Biff sprechen{/c}?"
     "Oder ich {c}gehe zurück zu Philip{/c}?"
@@ -1564,7 +1564,7 @@ translate german monica_charity_event_dialogue16_5d8cf607:
     # m "Биф!"
     # "Мне нужна $ 1.000!"
     m "Biff!"
-    "Ich brauche $ 1.000!"
+    "Ich brauche 1.000€!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1138
 translate german monica_charity_event_dialogue16_2674bf33:
@@ -1720,7 +1720,7 @@ translate german monica_charity_event_dialogue16_d61b8796:
     # "Ты забыла там свою одежду!"
     # "Ха-ха-ха!"
     "Okay, Püppchen!"
-    "Nimm die $ 1.000 und geh ins Büro!"
+    "Nimm die 1.000€ und geh ins Büro!"
     "Da sind noch deine Klamotten!"
     "Ha Ha Ha!"
 
@@ -1778,34 +1778,34 @@ translate german monica_charity_event_dialogue17_3a22feb0:
     # philip "Итак... Миссис Бакфетт!"
     # "$ 500 и мой член в Вашем прекрасном ротике!"
     philip "Also... Monica!"
-    "$ 500 für meinen Schwanz in deinem Mund!"
+    "500€ für meinen Schwanz in deinem Mund!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1319
 translate german monica_charity_event_dialogue17_55071e67:
 
     # m "$ 10.000, Филипп..."
-    m "Nein, .000, Philip..."
+    m "Nein, 10.000€, Philip..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1321
 translate german monica_charity_event_dialogue17_bf8c27eb:
 
     # philip "$ 500, Миссис Бакфетт! Сегодня Ваш ротик не стоит больше..."
     # "Это как на Бирже! Я покупаю акции на низкой цене!"
-    philip "$ 500, Мonica! Dein Mund ist heute nicht mehr wert..."
+    philip "500€, Мonica! Dein Mund ist heute nicht mehr wert..."
     "Es ist wie an der Börse. Ich kaufe, wenn die Aktien tief stehen!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1325
 translate german monica_charity_event_dialogue17_2435008b:
 
     # m "Мне нужна хотя бы $ 1.000, Филипп!"
-    m "Ich brauche mindestens $ 1.000, Philip!"
+    m "Ich brauche mindestens 1.000€, Philip!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1328
 translate german monica_charity_event_dialogue17_99422fd5:
 
     # philip "$ 500, Миссис Бакфетт!"
     # "Ваш ротик слишком долго говорит! Скоро он начнет дешеветь!"
-    philip "$ 500, Monica!"
+    philip "500€, Monica!"
     "Dein Mund redet zu viel. Du solltest aufpassen, dass der Preis nicht weiter fällt!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1333
@@ -2094,13 +2094,13 @@ translate german monica_charity_event_dialogue18_local3_1d7fc3ae:
 translate german monica_charity_event_dialogue18_local3_b8827b2c:
 
     # "Если честно, я сомневался что Ваш ротик стоит $ 500!"
-    "Um ehrlich zu sein, hatte ich meine Zweifel, ob dein Mund $ 500 wert ist!"
+    "Um ehrlich zu sein, hatte ich meine Zweifel, ob dein Mund 500€ wert ist!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1647
 translate german monica_charity_event_dialogue18_local3_5f8bc01b:
 
     # "Я думал что ему больше подходит цена в $ 300!"
-    "Ich dachte eher an $ 300 !"
+    "Ich dachte eher an 300€ !"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1660
 translate german monica_charity_event_dialogue18_local3_8adb05a0:
@@ -2108,7 +2108,7 @@ translate german monica_charity_event_dialogue18_local3_8adb05a0:
     # "Но нет!"
     # "Теперь я уверен что $ 500 он стоит вполне!"
     "Aber nein!"
-    "Jetzt bin ich mir sicher, $ 500 passt ziemlich gut!"
+    "Jetzt bin ich mir sicher, 500€ passt ziemlich gut!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1700
 translate german monica_charity_event_dialogue18_local3_84144033:
@@ -2117,7 +2117,7 @@ translate german monica_charity_event_dialogue18_local3_84144033:
     # "А я уже начала было сомневаться в своем чутье!"
     # "Эта шлюха искусно маскируется!"
     reception_t "Ja!"
-    "Und ich hätte schon fast meinem Bauchgefühl misstraut!"
+    "Und ich hätte scho nfast meinem Bauchgefühl misstraut!"
     "Diese Hure ist überzeugend verkleidet!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1713
@@ -2152,13 +2152,13 @@ translate german monica_charity_event_dialogue18_local3_38a2ca68:
     # philip "Спасибо, Моника Бакфетт!"
     # philip "Вы заработали свои $ 500!"
     philip "Danke, Monica!"
-    philip "Du hast dir deine $ 500 verdient!"
+    philip "Du hast dir deine 500€ verdient!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1762
 translate german monica_charity_event_dialogue18_local3_2030cc2a:
 
     # m "Еще $ 500!"
-    m "Nochmal $ 500!"
+    m "Nochmal 500€!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1764
 translate german monica_charity_event_dialogue18_local3_79dc8e91:
@@ -2170,7 +2170,7 @@ translate german monica_charity_event_dialogue18_local3_79dc8e91:
 translate german monica_charity_event_dialogue18_local3_0af385d8:
 
     # m "Мне нужно еще $ 500!"
-    m "Ich brauche wietere $ 500!"
+    m "Ich brauche wietere 500€!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1769
 translate german monica_charity_event_dialogue18_local3_9998fe87:
@@ -2184,7 +2184,7 @@ translate german monica_charity_event_dialogue18_local3_c86f0170:
     # philip "Миссис Бакфетт!"
     # "Почему я должен давать Вам еще $ 500?"
     philip "Frau Buckfett..."
-    "Warum sollte ich dir nochmal $ 500 geben ?"
+    "Warum sollte ich dir nochmal 500€ geben ?"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1775
 translate german monica_charity_event_dialogue18_local3_d39316a6:
@@ -2218,7 +2218,7 @@ translate german monica_charity_event_dialogue18_local4_a4912742:
 translate german monica_charity_event_dialogue18_local4_a0fd8f9d:
 
     # "Вы дадите мне еще $ 500..."
-    "Und Sie geben mir nochmal $ 500..."
+    "Und Sie geben mir nochmal 500€..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1796
 translate german monica_charity_event_dialogue18_local4_1cda21fc:
@@ -2280,7 +2280,7 @@ translate german monica_charity_event_dialogue18_local4_60c90766:
     # "Вы сделаете миньет первому мужчине, который зайдет сюда!"
     # "Тогда Вы получите еще $ 500!"
     "Du lutschst dem nächsten Kerl der hier reinkommt den Schwanz!"
-    "Dann kriegst du deine $ 500!"
+    "Dann kriegst du deine 500€!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:1827
 translate german monica_charity_event_dialogue18_local4_9c5a9762:
@@ -2751,7 +2751,7 @@ translate german monica_charity_event_dialogue18_local6_4273793a:
     "Ich habe..."
     "MIR FEHLEN DIE WORTE!!!"
     "WAS HABEN DIE MIT MIR GEMACHT???"
-    "FÜR TAUSEND DOLLAR!!!"
+    "FÜR TAUSEND EURO!!!"
     "МОNICA, WIE KONNTEST DU NUR?!?!"
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2345
@@ -2834,7 +2834,7 @@ translate german monica_office_biff_dialogue_evening1_174473eb:
     # biff "Детка, ты свободна на сегодня!"
     # "Не уверен что ты стоишь $ 5.000, но я подумаю..."
     biff "Baby, du kannst gehen!"
-    "Ich bin mir nicht sicher, dass du 5.000 $ wert bist, aber ich denk drüber nach..."
+    "Ich bin mir nicht sicher, dass du 5.000€ wert bist, aber ich denk drüber nach..."
 
 # game/Quests/EP2/ep2_dialogues5.rpy:2419
 translate german monica_office_biff_dialogue_evening1_86c1ddb3:
@@ -3042,11 +3042,11 @@ translate german strings:
 
     # game/Quests/EP2/ep2_dialogues5.rpy:1077
     old "$ 30.000.000 и я подумаю! (corruption)"
-    new "30.000.000 $ und ich überlege es mir (Verdorbenheit)"
+    new "30.000.000€ und ich überlege es mir (Verdorbenheit)"
 
     # game/Quests/EP2/ep2_dialogues5.rpy:1077
     old "$ 30.000.000 и я подумаю! (low corruption, required [monicaPhilipTalkBlowjobCorruptionRequired]) (disabled)"
-    new "Für 30.000.000 $ überlege ich es mir (disabled)"
+    new "Für 30.000.000€ überlege ich es mir (disabled)"
 
     # game/Quests/EP2/ep2_dialogues5.rpy:1077
     old "Вы правда думаете что я стою так мало?"
@@ -3118,7 +3118,7 @@ translate german strings:
 
     # game/Quests/EP2/ep2_dialogues5.rpy:1757
     old "Пожалуйста, дайте еще $ 500!!!"
-    new "Bitte gib mir weitere 500 $ !!!"
+    new "Bitte gib mir weitere 500€ !!!"
 
     # game/Quests/EP2/ep2_dialogues5.rpy:1782
     old "Я могу сделать это еще раз... (corruption)"

@@ -150,7 +150,7 @@ translate english ep210_dialogues2_escort_start_Phillip_1_bdee1365:
     # mt "Сволочь!"
     mt "Vile narcissistic pervert!"
     m "Get out of here and don't spoil my appetite!"
-    mt "You bastard!"
+    mt "That bastard!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:79
 translate english ep210_dialogues2_escort_start_Phillip_1_22d004c2:
@@ -320,7 +320,7 @@ translate english ep210_dialogues2_escort_start_Phillip_1_bdee1365_1:
     # mt "Сволочь!"
     mt "Vile narcissistic pervert!"
     m "Get out of here and don't spoil my appetite!"
-    mt "You bastard!"
+    mt "That bastard!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:153
 translate english ep210_dialogues2_escort_start_Phillip_1_22d004c2_1:
@@ -486,7 +486,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_93cd7597:
     # mt "Мерзкий самовлюбленный извращенец!"
     # mt "Сволочь!"
     mt "Vile narcissistic pervert!"
-    mt "You bastard!"
+    mt "That bastard!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:238
 translate english ep210_dialogues2_escort_start_Phillip_2_22d004c2:
@@ -527,7 +527,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_0a1a17a4:
 
     # m "Сволочь!"
     # m "!!!"
-    m "You bastard!"
+    m "That bastard!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:261
@@ -608,7 +608,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_93cd7597_1:
     # mt "Мерзкий самовлюбленный извращенец!"
     # mt "Сволочь!"
     mt "Vile narcissistic pervert!"
-    mt "You bastard!"
+    mt "That bastard!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:304
 translate english ep210_dialogues2_escort_start_Phillip_2_22d004c2_1:
@@ -649,7 +649,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_0a1a17a4_1:
 
     # m "Сволочь!"
     # m "!!!"
-    m "You bastard!"
+    m "That bastard!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:327
@@ -1323,7 +1323,7 @@ translate english ep210_dialogues2_escort_start_Phillip_15_a9f69322:
 
     # mt "Сволочь!"
     # mt "!!!"
-    mt "You bastard!"
+    mt "That bastard!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:767
@@ -1421,7 +1421,7 @@ translate english ep210_dialogues2_escort_start_Phillip_16_a9f69322:
 
     # mt "Сволочь!"
     # mt "!!!"
-    mt "You bastard!"
+    mt "That bastard!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:819
@@ -1583,7 +1583,7 @@ translate english ep210_dialogues2_escort_start_Phillip_16_a9f69322_1:
 
     # mt "Сволочь!"
     # mt "!!!"
-    mt "You bastard!"
+    mt "That bastard!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:915
@@ -1652,15 +1652,15 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:225
     old "Ударить мерзавца и уйти! (прерывание квеста)"
-    new "Hit the bastard and leave! (interruption of the quest)"
+    new "Hit the bastard and leave! (forfeits the quest)"
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:225
     old "Задрать платье."
-    new "To pull up the dress."
+    new "Pull up your dress."
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:291
     old "Ударить мерзавца и уйти! (завершение квеста)"
-    new "Hit the bastard and leave! (completion of the quest)"
+    new "Hit the bastard and leave! (completes the quest)"
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:291
     old "Раздвинуть ноги."
@@ -1668,7 +1668,7 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:411
     old "У меня появилась возможность дополнительного заработка по субботам. У Филиппа. Но смогу ли я?"
-    new "I got the opportunity to earn extra money on Saturdays. Philip. But can I?"
+    new "I got the opportunity to earn extra money on Saturdays. At Philip's. But will I be able to do it?"
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:520
     old "Субботняя шлюха номер 2."
@@ -1684,7 +1684,7 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:613
     old "Минет."
-    new "Blow job."
+    new "Blowjob."
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:613
     old "Секс."
@@ -1692,7 +1692,7 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:631
     old "Сделать, что требует Филипп."
-    new "Do what Philip requires."
+    new "Do what Philip asks."
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:708
     old "Выплюнуть."
@@ -1712,7 +1712,7 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:825
     old "Сесть на член Филиппа."
-    new "Sit on a member of Philip."
+    new "Sit on Philip's dick."
 
 # TODO: Translation updated at 2020-01-16 22:17
 
@@ -1840,9 +1840,9 @@ translate english ep210_dialogues2_escort_start_Phillip_3a_ec023af4:
     # mt "Что этот мерзавец здесь делает?"
     # mt "Я не собираюсь подходить к нему!"
     # help "Квест вип эскорта перезапущен!"
-    mt "Что этот мерзавец здесь делает?"
-    mt "Я не собираюсь подходить к нему!"
-    help "Квест вип эскорта перезапущен!"
+    mt "What does this bastard do here?"
+    mt "I won't come close to him!"
+    help "Quest Escort for VIP's started!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:759
 translate english ep210_dialogues2_escort_start_HotelStaff_3b_a700fa13:
@@ -1850,9 +1850,9 @@ translate english ep210_dialogues2_escort_start_HotelStaff_3b_a700fa13:
     # mt "Что это ничтожество здесь делает?"
     # mt "Я не собираюсь подходить к нему!"
     # help "Квест вип эскорта запущен снова!"
-    mt "Что это ничтожество здесь делает?"
-    mt "Я не собираюсь подходить к нему!"
-    help "Квест вип эскорта запущен снова!"
+    mt "What does this idiot do here?"
+    mt "I won't come close to him!"
+    help "Quest Escort for VIP's started again!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:928
 translate english ep210_dialogues2_escort_start_Phillip_12_51415d73:
@@ -2042,9 +2042,9 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:831
     old "Зайти к Филиппу."
-    new ""
+    new "Go to Philip."
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1000
     old "Мне нужны эти деньги (в следующем обновлении). (disabled)"
-    new ""
+    new "I need this money. (in the next update) (disabled)"
 

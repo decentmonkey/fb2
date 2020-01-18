@@ -777,7 +777,7 @@ translate german ep210_dialogues2_escort_start_Phillip_2_820d6dcf:
 
     # philip "Я предлагаю Вам быть моей личной шлюхой, которая приходит ко мне по субботам..."
     # m "!!!"
-    philip "Ich schlage vor, dass du meine persönliche Hure bist, du immer samstags zu mir kommt..."
+    philip "Ich schlage vor, dass du meine persönliche Hure bist, du immer Samstags zu mir kommt..."
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:395
@@ -1010,7 +1010,7 @@ translate german ep210_dialogues2_escort_start_Phillip_12_33e4a995:
 translate german ep210_dialogues2_escort_start_Phillip_12_2ce65748:
 
     # philip "Субботняя шлюха номер 2 может заходить."
-    philip "Die Samstagshure Nummer 2 darf eintreten."
+    philip "Die Samstabshure Nummer 2 darf eintreten."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:544
 translate german ep210_dialogues2_escort_start_Phillip_12_da4a8c2b:
@@ -1668,7 +1668,7 @@ translate german strings:
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:411
     old "У меня появилась возможность дополнительного заработка по субботам. У Филиппа. Но смогу ли я?"
-    new "Ich habe die Möglichkeit, samstags extra Geld zu verdienen. Durch Philip. Aber kann ich das tun?"
+    new "Ich habe die Möglichkeit, Samstags extra Geld zu verdienen. Durch Philip. Aber kann ich das tun?"
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:520
     old "Субботняя шлюха номер 2."
@@ -1840,9 +1840,9 @@ translate german ep210_dialogues2_escort_start_Phillip_3a_ec023af4:
     # mt "Что этот мерзавец здесь делает?"
     # mt "Я не собираюсь подходить к нему!"
     # help "Квест вип эскорта перезапущен!"
-    mt "Что этот мерзавец здесь делает?"
-    mt "Я не собираюсь подходить к нему!"
-    help "Квест вип эскорта перезапущен!"
+    mt "Was macht dieser Bastard hier?"
+    mt "Ich werde mich ihm nicht nähern!"
+    help "Quest Escort VIP neu gestartet!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:759
 translate german ep210_dialogues2_escort_start_HotelStaff_3b_a700fa13:
@@ -1850,9 +1850,9 @@ translate german ep210_dialogues2_escort_start_HotelStaff_3b_a700fa13:
     # mt "Что это ничтожество здесь делает?"
     # mt "Я не собираюсь подходить к нему!"
     # help "Квест вип эскорта запущен снова!"
-    mt "Что это ничтожество здесь делает?"
-    mt "Я не собираюсь подходить к нему!"
-    help "Квест вип эскорта запущен снова!"
+    mt "Was macht dieser Idiot hier?"
+    mt "Ich werde mich ihm nicht nähern!"
+    help "Quest Escort VIP erneut gestartet!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:928
 translate german ep210_dialogues2_escort_start_Phillip_12_51415d73:
@@ -2042,9 +2042,9 @@ translate german strings:
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:831
     old "Зайти к Филиппу."
-    new ""
+    new "Geh zu Philip."
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1000
     old "Мне нужны эти деньги (в следующем обновлении). (disabled)"
-    new ""
+    new "Ich brauche dieses Geld (im nächsten Update). (deaktiviert)"
 

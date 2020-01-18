@@ -448,7 +448,7 @@ translate german ep210_dialogues3_bardie_erik_betty_2_8e7c00ce:
     # betty "Я твоя приемная мать! А ты заставляешь меня раздеваться перед этим... Этим сопляком-извращенцем!!!"
     # betty "И ради чего?! Ради какой-то домашки!!!"
     # betty "!!!"
-    betty "Ich bin deine Stiefmutter! Und du zwingst mich mich auszuziehen... vor diesem Wichs-Irren!!!"
+    betty "Ich bin deine Stiefmutter! Und di zwingst mich mich auszuziehen... vor diesem Wichs-Irren!!!"
     betty "Und wofür?! Für Hausaufgaben!!!"
     betty "!!!"
 
@@ -511,8 +511,8 @@ translate german ep210_dialogues3_bardie_erik_betty_1a_87797c12:
 
     # mt "Мне показалось или здесь был какой-то звук?"
     # mt "Кажется, кричала Бетти. Интересно на кого?"
-    mt "Мне показалось или здесь был какой-то звук?"
-    mt "Кажется, кричала Бетти. Интересно на кого?"
+    mt "Habe ich da was gehört? Es kam mir so vor..."
+    mt "Betty schien zu schreien. Ich frage mich, warum?"
 
 # game/Quests/EP2_10/ep210_dialogues3_bardie_erik_betty.rpy:140
 translate german ep210_dialogues3_bardie_erik_betty_2_38b5b8b5:

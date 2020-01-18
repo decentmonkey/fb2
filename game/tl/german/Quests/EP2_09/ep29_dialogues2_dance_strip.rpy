@@ -3279,8 +3279,8 @@ translate german dialogue_5_dance_strip_22_28af4dda:
 
     # ashley "Ты помнишь что ты наказана!?"
     # ashley "Сделай так чтобы Молли простила тебя, иначе не будешь зарабатывать здесь ничего!"
-    ashley "Ты помнишь что ты наказана!?"
-    ashley "Сделай так чтобы Молли простила тебя, иначе не будешь зарабатывать здесь ничего!"
+    ashley "Erinnerst du dich, dass du bestraft werden wirst?"
+    ashley "Molly muss dir verzeihen, sonst verdienst du hier nichts mehr!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2058
 translate german dialogue_5_dance_strip_22_368e900d:
@@ -3288,7 +3288,7 @@ translate german dialogue_5_dance_strip_22_368e900d:
     # mt "Сучка!"
     # mt "Какой мне смысл танцевать, если приходится отдавать ей все деньги?!"
     mt "Schlampe!"
-    mt "Какой мне смысл танцевать, если приходится отдавать ей все деньги?!"
+    mt "Was bringt es mir, zu tanzen, wenn ich ihr das ganze Geld geben muss ?!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2198
 translate german dialogue_5_dance_strip_27_c59e502f:

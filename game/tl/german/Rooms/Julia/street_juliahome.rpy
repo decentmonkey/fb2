@@ -4,5 +4,5 @@
 translate german street_juliahome_environment_11264c3e:
 
     # mt "Здесь живет Юлия..."
-    mt "Здесь живет Юлия..."
+    mt "Julia wohnt hier ..."
 

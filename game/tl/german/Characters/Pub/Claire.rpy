@@ -12,5 +12,5 @@ translate german strings:
 
     # game/Characters/Pub/Claire.rpy:6
     old "Клэр знает имя Моники и помогает ей. Она ее друг."
-    new ""
+    new "Claire kennt Monicas Namen und hilft ihr. Sie ist ihre Freundin."
 

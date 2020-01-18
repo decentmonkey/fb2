@@ -42,6 +42,8 @@ aIMissRyu23
 
 Jetvoice
 
+Just
+
 Joe Swenson
 
 Miguel
@@ -61,6 +63,8 @@ Stefan Kemske
 The big Dog
 
 Виталий Рябоконь
+
+희국 강
 
 for great support!
 

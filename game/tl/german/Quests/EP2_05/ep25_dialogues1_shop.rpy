@@ -1294,11 +1294,11 @@ translate german strings:
 
     # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:114
     old "Купить платье за $ 250. (не хватает денег) (disabled)"
-    new "Kaufe das Kleid für 250 $ (nicht genug Geld) (disabled)"
+    new "Kaufe das Kleid für $ 250 (nicht genug Geld) (disabled)"
 
     # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:114
     old "Купить платье за $ 250."
-    new "Kaufe ein Kleid für 250 $."
+    new "Kaufe ein Kleid für $ 250."
 
     # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:114
     old "Поискать другой способ получить платье..."
@@ -1310,11 +1310,11 @@ translate german strings:
 
     # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:135
     old "Купить платье за $ 125."
-    new "Kaufe ein Kleid für 125 $."
+    new "Kaufe ein Kleid für $ 125."
 
     # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:135
     old "Купить платье за $ 125. (не хватает денег) (disabled)"
-    new "Kaufe ein Kleid für 125 $ ( nicht genug Geld) (disabled)"
+    new "Kaufe ein Kleid für $ 125 ( nicht genug Geld) (disabled)"
 
     # game/Quests/EP2_05/ep25_dialogues1_shop.rpy:175
     old "Моника была недостаточно добра к продавцу."

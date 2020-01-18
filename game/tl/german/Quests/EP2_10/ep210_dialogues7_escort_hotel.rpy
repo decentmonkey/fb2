@@ -1674,7 +1674,7 @@ translate german ep210_dialogues7_escort_hotel_8_87bbe345:
     # reception "У которой нет глупых предрассудков."
     reception "Dann hat er das Recht dich nicht zu bezahlen."
     reception "Wenn der Kunde dich nicht bezahlt, bezahlt er eine Andere..."
-    reception "Welche keine dummen Vorurteile hat."
+    reception "Welches keine dummen Vorurteile hat."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:848
 translate german ep210_dialogues7_escort_hotel_8_1336c0e7:
@@ -1691,7 +1691,7 @@ translate german ep210_dialogues7_escort_hotel_8_45fc422e:
     # mt "Если что-то пойдет не так - уйду отсюда."
     # mt "..."
     mt "Ich werde es einfach versuchen ..."
-    mt "Wenn es etwas schief geht - verschwinde ich einfach."
+    mt "Wenn es das schief geht - verschwinde ich einfach."
     mt "..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:863
@@ -1820,7 +1820,7 @@ translate german ep210_dialogues7_escort_hotel_9_892e4101:
     m "Guten Abend."
     m "Ich bin [monica_hotel_name]."
     client "[monica_hotel_name]. Der Name ist so wuderschön, wie die Besitzerin"
-    client "[monica_hotel_name,] ich freue mich sehr, den Abend mit Ihnen verbringen zu können."
+    client "[monica_hotel_name,] ich freue mich sehr, den Abend mit Ihnen zu verbringen."
     mt "Hmm ... Er redet höflich, sieht ziemlich anständig aus."
     mt "Ich denke, er sollte keine Schwierigkeiten machen..."
     client "[monica_hotel_name] können wir jetzt auf dein Zimmer gehen?"
@@ -1841,7 +1841,7 @@ translate german ep210_dialogues7_escort_hotel_9_3d014ec3:
     m "Ich kann mit dir nicht gehen..."
     m "Ich... Ich arbeite hier nicht!"
     m "Ich bin gerade nur zum Essen hier...."
-    client "Oh Entschuldigung."
+    client "Oh Entschuldigung"
     client "Ich habe wohl den Tisch verwechselt."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:968
@@ -1852,7 +1852,7 @@ translate german ep210_dialogues7_escort_hotel_9_aa4bd397:
     # mt "Наверное, приходит сюда раз в месяц в день зарплаты. Фи!"
     # mt "Что-то пойдет не так - я просто уйду отсюда."
     # m "Да, мы можем пойти в номер."
-    mt "Er ist völlig harmlos."
+    mt "Er ist völlig harmlos"
     mt "Er ist nur ein gewöhnlicher Verlierer."
     mt "Kommt wahrscheinlich nur an seinem Zahltag einmal im Monat hierher."
     mt "Es wird etwas schief gehen - ich gehe einfach hier weg."
@@ -1869,7 +1869,7 @@ translate german ep210_dialogues7_escort_hotel_9_1_43fccd5d:
     # mt "Что-то пойдет не так - я просто уйду отсюда."
     client "Lass und aufs Zimmer gehen, [monica_hotel_name]."
     mt "..."
-    mt "Er ist völlig harmlos."
+    mt "Er ist völlig harmlos"
     mt "Er ist nur ein gewöhnlicher Verlierer."
     mt "Kommt wahrscheinlich nur an seinem Zahltag einmal im Monat hierher."
     mt "Es wird etwas schief gehen - ich gehe einfach hier weg."
@@ -1906,17 +1906,17 @@ translate german ep210_dialogues7_escort_hotel_10_68939711:
     # client "И пососет его..."
     # mt "???"
     m "Was muss ich tun?"
-    mt "Ich würde gern nur das Geld nehmen und verschwinden..."
+    mt "Ich würde gern nur das Geld nehmen und einfach gehen..."
     mt "Ich habe keine Lust, etwas für ihn zu tun."
     client "Zu Beginn muss [monica_hotel_name] ihr Kleid ausziehen ..."
     mt "Monica, hab keine Angst."
     mt "Du musst sich für nichts schämen. Du hast einen großartigen Körper."
     mt "..."
-    mt "Er hat wahrscheinlich noch nie so eine schöne Frau wie mich gesehen."
+    mt "Er hat wahrscheinlich noch nie so schöne Frau wie mich gesehen."
     mt "Jetzt wird er sich ausziehen und anfangen, meinen schönen Körper zu begrapschen. Puh!"
     client "Setz dich neben mich [monica_hotel_name]."
     client "Wenn du mir erlaubst deine Beine zu küssen [monica_hotel_name]...."
-    client "Werde ich großzügig zu dir sein."
+    client "Werde ich zu dir großzügig sein."
     mt "Er will meine Beine küssen?"
     mt "Und dafür auch noch bezahlen?"
     mt "Ist das sein Ernst?"
@@ -1931,7 +1931,7 @@ translate german ep210_dialogues7_escort_hotel_10_68939711:
     mt "Huch!"
     mt "Ich bin bereit, jeden Abend so zu arbeiten."
     client "Und jetzt wird [monica_hotel_name] meinen Finger in Ihren Mund nehmen ..."
-    client "Und sie ablecken...."
+    client "Und ihn ablecken...."
     mt "???"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1029
@@ -1948,7 +1948,7 @@ translate german ep210_dialogues7_escort_hotel_10_12fd811f:
     m "Ich kann das nicht..."
     m "Ich... Ich biete diesen Service nicht an!"
     client "Aber Frau....Mir wurde gesagt, dass ..."
-    m "Nein. Ich werde es nicht tun!"
+    m "Nicht. Ich werde es nicht tun!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1040
 translate german ep210_dialogues7_escort_hotel_10_706f823a:
@@ -2217,7 +2217,7 @@ translate german ep210_dialogues7_escort_hotel_12_60279d1c:
     mt "Monica, heute hast du Glück mit dem Kunden ..."
     mt "Ein leckeres Abendessen, Smalltalk in Gesellschaft von anständigen Menschen ..."
     mt "Und nichts perverses."
-    mt "All das, was ich gewöhnt bin... und mir zur Zeit so fehlt..."
+    mt "Alles, wasich gewöhnt bin... und mir zur Zeit so fehlt..."
     mt "Es scheint so, dass diese Arbeit gar nicht so schlecht ist ..."
     mt "Nein, natürlich ist es widerlich, aber ..."
     mt "Angesichts anderer Möglichkeiten, Geld zu verdienen, ist Eskortservice gar nicht so schlecht..."
@@ -2236,7 +2236,7 @@ translate german ep210_dialogues7_escort_hotel_12_60279d1c:
     client_friend_2 "Oh wirklich ?!" 
     m "Ja, ich habe viele Angestellte."
     client_friend_1 "Steht Ihre Tätigkeit im Zusammenhang mit der Modebranche?"
-    client_friend_1 "Erzähle uns mehr, dass ist sehr interessant." 
+    client_friend_1 "Erzähle uns mehr, dass ist der interessant." 
     m "Ich muss beruflich oft an öffentlichen Veranstaltungen teilnehmen."
     m "Reden in der Öffentlichkeit halten und Interviews geben."
     m "Und natürlich bin ich über alle Ereignisse in der Modewelt auf dem Laufenden."
@@ -2258,7 +2258,7 @@ translate german ep210_dialogues7_escort_hotel_12_60279d1c:
     m "Und natürlich die Hilfe meiner persönlichen Assistenten ..."
     m "Sie ermöglichen mir gelegtlich, dass ich mir den Abend frei nehmen kann."
     client_friend_1 "Das ist erstaunlich, bei so einen vollen Terminkalender." 
-    client_friend_1 "[monica_hotel_name], Sie finden dennoch Zeit um ..."
+    client_friend_1 "[monica_hotel_name], Sie finden dennoch Zeit für ..."
     client_friend_1 "Als Escort zu arbeiten!" 
     m "WAS?"
     m "???"
@@ -2271,7 +2271,7 @@ translate german ep210_dialogues7_escort_hotel_12_60279d1c:
     client_friend_2 "Du hast selbst gesagt, du hast für sie 900 Dollar am Abend bezahlt."
     client "Aha ha !!! Verstehst du, wer sie ist?"
     client_friend_2 "Ja, du hast es wieder nicht geschafft, uns zu täuschen."
-    client "Ich dachte, es könnte diesmal klappen."
+    client "Ich dachte, ich könnte es dieses Mal tun."
     client "Diese Prostituierte sieht einem anständigen Mädchen sehr ähnlich."
     client_friend_1 "Komm schon! Nicht nach all dem!"
     client_friend_1 "Sie lügt über große Dinge, von denen klar ist, dass sie davon keine Ahnung hat!"
@@ -2305,7 +2305,7 @@ translate german ep210_dialogues7_escort_hotel_12_0120cd0f:
     m "Ein Haufen erbärmlicher Verlierer !!!"
     client "Wow... ganz ruhig!"
     client "Dann wirst du ohne Geld dastehen!"
-    m "Steck es dir in deinen Arsch!"
+    m "Steck es in dein Arsch!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1268
@@ -2328,7 +2328,7 @@ translate german ep210_dialogues7_escort_hotel_12_110c33c2:
     m "Ein Haufen erbärmlicher Verlierer !!!"
     client "Wow... ganz ruhig!"
     client "Dann wirst du ohne Geld dastehen!"
-    m "Steck es dir in deinen Arsch!"
+    m "Steck es in dein Arsch!"
     m "!!!"
     m "Du Bastard!"
     m "!!!"
@@ -2427,12 +2427,12 @@ translate german ep210_dialogues7_escort_hotel_12_59c0695e:
     mt "Puh!"
     client_friend_2 "Hey, ich möchte auch etwas in sie Stecken!"
     client_friend_2 "Nur nicht in den Mund..."
-    client "Kein Problem, Mann. Du kannst sie haben."
+    client "Kein Problem, Mann. Du kannst sie mitnehmen."
     client "Ich brauche sie nicht mehr."
     mt "!!!"
     client "Hast du das gehört?"
     client "Verschwinde von hier!"
-    m "Niemand hat mir gesagt, dass es mehr als einen Kunden geben wird!"
+    m "Niemand hat michgesagt, dass es mehr als einen Kunden geben wird!"
     client "Tatsächlich hat Ihre Firma eine zusätzliche Preisliste."
     client "Ich zahle noch 300 Dollar dazu ..."
     client "Und du kannst nicht ablehnen."
@@ -2463,9 +2463,9 @@ translate german ep210_dialogues7_escort_hotel_12_59c0695e:
     client "Hahaha!"
     client "Was für eine Hure!"
     client_friend_2 "AAAAA!!!"
-    mt "Jetzt verstehe ich, welche Art von Kunden die anderen Escort Mädchen vom Hotel meinen!"
+    mt "Jetzt verstehe ich, welche Art von Kunden die anderen Escort Mädchen vom Hotel meinenn!"
     mt "!!!"
-    client_friend_2 "Die Hure ist diesmal natürlich nicht die Schickste ..."
+    client_friend_2 "Die Hure ist diesmal natürlich nicht die schickste ..."
     client "Komm schon... Für ein Bier!!!! Aha Ha!!!"
     mt "!!!"
     mt "!!!!!"
@@ -2524,7 +2524,7 @@ translate german strings:
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:128
     old "Моника работает посудомойщицей в Shiny Hole"
-    new "Monica arbeitet als Tellerwäscherin im Shiny Hole."
+    new "Monica arbeitet als Tellerwäscherin im Shiny Hole"
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:213
     old "Моника по приказу Филиппа делала служащему отеля минет в туалете"
@@ -2656,7 +2656,7 @@ translate german ep210_dialogues7_escort_hotel_2_7f1b2644:
     # hotel_staff "Если бы я сразу сказал, что это обычный коридор..."
     # hotel_staff "То Вы не согласились бы, Мэм."
     # hotel_staff "Однако, прошу Вас, поверьте! Здесь никто никогда не ходит!"
-    hotel_staff "Если бы я сразу сказал, что это обычный коридор..."
+    hotel_staff "Wenn ich sofort gesagt hätte, dass dies ein normaler Korridor ist ..."
     hotel_staff "Hätten sie nicht zugestimmt."
     hotel_staff "Egal, bitte glauben sie mir! Hier kommt niemand lang!"
 
@@ -2666,7 +2666,7 @@ translate german ep210_dialogues7_escort_hotel_6_b1f79569:
     # m "!!!"
     # m "Я делала это не за деньги! Это мои личные отношения! И это тебя не должно касаться!"
     m "!!!"
-    m "Я делала это не за деньги! Это мои личные отношения! И это тебя не должно касаться!"
+    m "Ich habe es nicht für Geld getan! Das ist eine persönliche Beziehung! Und das sollte dir egal sein!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:767
 translate german ep210_dialogues7_escort_hotel_6_57a264e4:
@@ -2722,37 +2722,37 @@ translate german ep210_dialogues7_escort_hotel_7_6d543bf5:
 translate german ep210_dialogues7_escort_hotel_8_enter_restaurant_937f7632:
 
     # reception "Куда собралась? Тебе надо переодеться!"
-    reception "Куда собралась? Тебе надо переодеться!"
+    reception "Wohin gehst du? Du musst dich umziehen!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1371
 translate german ep210_dialogues7_escort_hotel_8_enter_restaurant_910799f0:
 
     # m "Я не на работу. Я просто поесть..."
-    m "Я не на работу. Я просто поесть..."
+    m "Ich bin nicht wegen der Arbeit hier. Ich esse nur ..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1374
 translate german ep210_dialogues7_escort_hotel_8_enter_restaurant_86424ace:
 
     # reception "Хорошо, иди."
     # reception "Но учти, что здесь надо работать и ублажать клиентов, а не отдыхать!"
-    reception "Хорошо, иди."
-    reception "Но учти, что здесь надо работать и ублажать клиентов, а не отдыхать!"
+    reception "Okay, geh."
+    reception "Aber denke daran, dass du hier arbeiten musst, um Kunden zufrieden zu stellen. Nicht um sich zu entspannen!"
 
 translate german strings:
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:38
     old "Моника делала минет Филиппу в туалете"
-    new ""
+    new "Monica gab Phillip einen Blowjob auf der Toilette"
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1218
     old "Снежанна"
-    new ""
+    new "Chantall."
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1357
     old "Работать в эскорте (в следующем апдейте). (disabled)"
-    new ""
+    new "Arbeite in der Gruppe mit den Mädchen (im nächsten Update). (deaktiviert)"
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1357
     old "Идти в ресторан."
-    new ""
+    new "v"
 

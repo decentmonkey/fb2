@@ -1756,13 +1756,13 @@ translate german ep210_dialogues1_office_biff_1_7c20726e:
     # biff "Значит так!"
     # biff "Мне надоело смотреть на тебя в этом скучном костюме." 
     biff "Ja."
-    biff "Мне надоело смотреть на тебя в этом скучном костюме." 
+    biff "Ich habe es satt, dich in diesem langweiligen Kleid anzusehen." 
 
 # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:344
 translate german ep210_dialogues1_office_biff_1_b8564d89:
 
     # m "Я могу носить другой офисный костюм..."
-    m "Я могу носить другой офисный костюм..."
+    m "Ich kann einen anderen Büroanzug tragen ..."
 
 # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:346
 translate german ep210_dialogues1_office_biff_1_63719d8b:

@@ -54,34 +54,34 @@ translate german gallery_6875_3a22feb0:
     # philip "Итак... Миссис Бакфетт!"
     # "$ 500 и мой член в Вашем прекрасном ротике!"
     philip "Also... Monica!"
-    "$ 500 für meinen Schwanz in deinem Mund!"
+    "500€ für meinen Schwanz in deinem Mund!"
 
 # game/Gallery/gallery9.rpy:64
 translate german gallery_6875_55071e67:
 
     # m "$ 10.000, Филипп..."
-    m "Nein, .000, Philip..."
+    m "Nein, 10.000€, Philip..."
 
 # game/Gallery/gallery9.rpy:66
 translate german gallery_6875_bf8c27eb:
 
     # philip "$ 500, Миссис Бакфетт! Сегодня Ваш ротик не стоит больше..."
     # "Это как на Бирже! Я покупаю акции на низкой цене!"
-    philip "$ 500, Мonica! Dein Mund ist heute nicht mehr wert..."
+    philip "500€, Мonica! Dein Mund ist heute nicht mehr wert..."
     "Es ist wie an der Börse. Ich kaufe, wenn die Aktien tief stehen!"
 
 # game/Gallery/gallery9.rpy:70
 translate german gallery_6875_2435008b:
 
     # m "Мне нужна хотя бы $ 1.000, Филипп!"
-    m "Ich brauche mindestens $ 1.000, Philip!"
+    m "Ich brauche mindestens 1.000€, Philip!"
 
 # game/Gallery/gallery9.rpy:73
 translate german gallery_6875_99422fd5:
 
     # philip "$ 500, Миссис Бакфетт!"
     # "Ваш ротик слишком долго говорит! Скоро он начнет дешеветь!"
-    philip "$ 500, Monica!"
+    philip "500€, Monica!"
     "Dein Mund redet zu viel. Du solltest aufpassen, dass der Preis nicht weiter fällt!"
 
 # game/Gallery/gallery9.rpy:78
@@ -370,13 +370,13 @@ translate german gallery_6915_3_1d7fc3ae:
 translate german gallery_6915_3_b8827b2c:
 
     # "Если честно, я сомневался что Ваш ротик стоит $ 500!"
-    "Um ehrlich zu sein, hatte ich meine Zweifel, ob dein Mund $ 500 wert ist!"
+    "Um ehrlich zu sein, hatte ich meine Zweifel, ob dein Mund 500€ wert ist!"
 
 # game/Gallery/gallery9.rpy:388
 translate german gallery_6915_3_5f8bc01b:
 
     # "Я думал что ему больше подходит цена в $ 300!"
-    "Ich dachte eher an $ 300 !"
+    "Ich dachte eher an 300€ !"
 
 # game/Gallery/gallery9.rpy:401
 translate german gallery_6915_3_8adb05a0:
@@ -384,7 +384,7 @@ translate german gallery_6915_3_8adb05a0:
     # "Но нет!"
     # "Теперь я уверен что $ 500 он стоит вполне!"
     "Aber nein!"
-    "Jetzt bin ich mir sicher, $ 500 passt ziemlich gut!"
+    "Jetzt bin ich mir sicher, 500€ passt ziemlich gut!"
 
 # game/Gallery/gallery9.rpy:441
 translate german gallery_6915_3_84144033:
@@ -393,7 +393,7 @@ translate german gallery_6915_3_84144033:
     # "А я уже начала было сомневаться в своем чутье!"
     # "Эта шлюха искусно маскируется!"
     reception_t "Ja!"
-    "Und ich hätte schon fast meinem Bauchgefühl misstraut!"
+    "Und ich hätte scho nfast meinem Bauchgefühl misstraut!"
     "Diese Hure ist überzeugend verkleidet!"
 
 # game/Gallery/gallery9.rpy:454
@@ -428,13 +428,13 @@ translate german gallery_6915_3_38a2ca68:
     # philip "Спасибо, Моника Бакфетт!"
     # philip "Вы заработали свои $ 500!"
     philip "Danke, Monica!"
-    philip "Du hast dir deine $ 500 verdient!"
+    philip "Du hast dir deine 500€ verdient!"
 
 # game/Gallery/gallery9.rpy:503
 translate german gallery_6915_3_2030cc2a:
 
     # m "Еще $ 500!"
-    m "Nochmal $ 500!"
+    m "Nochmal 500€!"
 
 # game/Gallery/gallery9.rpy:505
 translate german gallery_6915_3_79dc8e91:
@@ -446,7 +446,7 @@ translate german gallery_6915_3_79dc8e91:
 translate german gallery_6915_3_0af385d8:
 
     # m "Мне нужно еще $ 500!"
-    m "Ich brauche wietere $ 500!"
+    m "Ich brauche wietere 500€!"
 
 # game/Gallery/gallery9.rpy:510
 translate german gallery_6915_3_9998fe87:
@@ -460,7 +460,7 @@ translate german gallery_6915_3_c86f0170:
     # philip "Миссис Бакфетт!"
     # "Почему я должен давать Вам еще $ 500?"
     philip "Frau Buckfett..."
-    "Warum sollte ich dir nochmal $ 500 geben ?"
+    "Warum sollte ich dir nochmal 500€ geben ?"
 
 # game/Gallery/gallery9.rpy:516
 translate german gallery_6915_3_d39316a6:
@@ -494,7 +494,7 @@ translate german gallery_6915_4_a4912742:
 translate german gallery_6915_4_a0fd8f9d:
 
     # "Вы дадите мне еще $ 500..."
-    "Und Sie geben mir nochmal $ 500..."
+    "Und Sie geben mir nochmal 500€..."
 
 # game/Gallery/gallery9.rpy:536
 translate german gallery_6915_4_1cda21fc:
@@ -556,7 +556,7 @@ translate german gallery_6915_4_60c90766:
     # "Вы сделаете миньет первому мужчине, который зайдет сюда!"
     # "Тогда Вы получите еще $ 500!"
     "Du lutschst dem nächsten Kerl der hier reinkommt den Schwanz!"
-    "Dann kriegst du deine $ 500!"
+    "Dann kriegst du deine 500€!"
 
 # game/Gallery/gallery9.rpy:566
 translate german gallery_6915_4_9c5a9762:
@@ -1027,7 +1027,7 @@ translate german gallery_6996_2_4273793a:
     "Ich habe..."
     "MIR FEHLEN DIE WORTE!!!"
     "WAS HABEN DIE MIT MIR GEMACHT???"
-    "FÜR TAUSEND DOLLAR!!!"
+    "FÜR TAUSEND EURO!!!"
     "МОNICA, WIE KONNTEST DU NUR?!?!"
 
 # game/Gallery/gallery9.rpy:1078
@@ -1151,7 +1151,7 @@ translate german gallery_8285_13f34d54:
     # "У меня есть $ 5 наличными и все..."
     # m "Дорогуша, дай мне, пожалуйста, эти $ 5..."
     secretary "Ich habe nur meine Kreditkarte, aber damit zahle ich meine Miete."
-    "Ich habe 5 Dollar dabei, das wars..."
+    "Ich habe 5 Euro dabei, das wars..."
     m "Meine Liebe, geben Sie mir den Fünfer, bitte..."
 
 # game/Gallery/gallery9.rpy:1188

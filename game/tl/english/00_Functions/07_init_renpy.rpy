@@ -404,21 +404,21 @@ translate english strings:
 
     # game/00_Functions/07_init_renpy.rpy:167
     old "Инвестор"
-    new ""
+    new "Investor"
 
     # game/00_Functions/07_init_renpy.rpy:172
     old "Шлюха номер 1"
-    new ""
+    new "Whore number 1"
 
     # game/00_Functions/07_init_renpy.rpy:174
     old "Девочка по вызову"
-    new ""
+    new "Call a girl."
 
     # game/00_Functions/07_init_renpy.rpy:179
     old "Посетитель кафе"
-    new ""
+    new "Cafe visitor"
 
     # game/00_Functions/07_init_renpy.rpy:181
     old "Бариста"
-    new ""
+    new "Barista"
 

@@ -632,5 +632,5 @@ translate german strings:
 
     # game/Quests/EP2_02/ep22_casting.rpy:5
     old "Раздеться и принимать различные модельные позы. (требуется ур.2) (disabled)"
-    new ""
+    new "Zieh dich aus und nimm verschiedene Model-PoE20181:E20332sen ein. (benötigt lvl.2) (deaktiviert)"
 

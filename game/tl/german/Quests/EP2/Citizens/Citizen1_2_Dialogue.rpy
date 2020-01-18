@@ -1416,7 +1416,7 @@ translate german cit1_2_grooping_regular_fbd12921:
     citizen1 "Nun, allgemein..."
     citizen1 "Wir schlagen ein bisschen deinen Arsch und zählen... Nur 5 Mal, nicht viel."
     citizen1 "Aber bedenke, das ist wichtig für uns, wir geben dir 10 $ !"
-    mt "10 $ ... Ich soll das für schäbige 10 $ machen?"
+    mt "10$ ... Ich soll das für schäbige 10 $ machen?"
 
 # game/Quests/EP2/Citizens/Citizen1_2_Dialogue.rpy:1033
 translate german cit1_2_grooping_regular_c8e6f74e:

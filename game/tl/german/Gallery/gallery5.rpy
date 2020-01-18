@@ -2334,13 +2334,13 @@ translate german gallery_6127_fc21055c:
 translate german gallery_6127_6a85058e:
 
     # shawarma "Хорошо, Мадаме! Только для Вас самый вкусный кебаб за $ 1! Мадаме!"
-    shawarma "Okay. Der super leckere Kebab kostet nur 1 $!"
+    shawarma "Okay. Der super leckere Kebab kostet nur 1€!"
 
 # game/Gallery/gallery5.rpy:2116
 translate german gallery_6127_b95b69e5:
 
     # mt "Черт! У меня нет этого гребаного доллара!!!"
-    mt "Verdammt, ich habe keinen verfluchten Dollar!"
+    mt "Verdammt, ich habe keinen verfluchten Euro!"
 
 # game/Gallery/gallery5.rpy:2118
 translate german gallery_6127_3fe4c2df:
@@ -2352,13 +2352,13 @@ translate german gallery_6127_3fe4c2df:
 translate german gallery_6127_7db9d8a8:
 
     # shawarma "Нет, Мадаме! Только за $ 1, Мадаме!"
-    shawarma "Nein, Fräulein! Nur für 1 $, Fräulein!!"
+    shawarma "Nein, Fräulein! Nur für 1€, Fräulein!!"
 
 # game/Gallery/gallery5.rpy:2123
 translate german gallery_6127_349d457d:
 
     # m "У меня нет этого гребаного доллара! Есть еще какие-то варианты?"
-    m "Ich habe keinen verdammten Dollar! Gibt's da keine andere Möglichkeit?"
+    m "Ich habe keinen verdammten Euro! Gibt's da keine andere Möglichkeit?"
 
 # game/Gallery/gallery5.rpy:2126
 translate german gallery_6127_8e9f3993:
@@ -2898,13 +2898,13 @@ translate german gallery_10597_4d8fb1d0:
 translate german gallery_10597_e07e6d72:
 
     # citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
-    citizen4 "Dann wird meien 50 $ ein aufgeschlosseneres Mädchen verdienen."
+    citizen4 "Dann wird meien $ 50 ein aufgeschlosseneres Mädchen verdienen."
 
 # game/Gallery/gallery5.rpy:2498
 translate german gallery_10597_9914d493:
 
     # mt "50$ были бы не лишними... Хорошо, что здесь никого нет."
-    mt "50$ sind jetzt nicht die Welt ... Gut, dass niemand sonst hier ist."
+    mt "$ 50 sind jetzt nicht die Welt ... Gut, dass niemand sonst hier ist."
 
 # game/Gallery/gallery5.rpy:2501
 translate german gallery_10597_feded4a2:
@@ -2924,7 +2924,7 @@ translate german gallery_10597_742c6916:
     # mt "Черт! Моника, ты уверена что станешь делать это???"
     # mt "Станешь показывать свою грудь какому-то нищему за жалкие 50$?"
     mt "Verdammt! Bist du sicher, dass du das tun willst, Monica?"
-    mt "Deine Brüste irgendeinem Penner für 50 $ zeigen?"
+    mt "Deine Brüste irgendeinem Penner für $ 50 zeigen?"
 
 # game/Gallery/gallery5.rpy:2510
 translate german gallery_10597_43678127:
@@ -3016,7 +3016,7 @@ translate german gallery_10597_50ea7d20:
     # m "Да за кого ты меня принимаешь?!"
     # citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
     m "Für wen oder was hältst du mich?"
-    citizen4 "Dann wird meien 50 $ ein aufgeschlosseneres Mädchen verdienen."
+    citizen4 "Dann wird meien $ 50 ein aufgeschlosseneres Mädchen verdienen."
 
 # game/Gallery/gallery5.rpy:2593
 translate german gallery_10597_5eaa9c3c:
@@ -3050,7 +3050,7 @@ translate german gallery_10597_50ea7d20_1:
     # m "Да за кого ты меня принимаешь?!"
     # citizen4 "Тогда мои 50$ достанутся более сговорчивой девочке."
     m "Für wen oder was hältst du mich?"
-    citizen4 "Dann wird meien 50 $ ein aufgeschlosseneres Mädchen verdienen."
+    citizen4 "Dann wird meien $ 50 ein aufgeschlosseneres Mädchen verdienen."
 
 # game/Gallery/gallery5.rpy:2623
 translate german gallery_10597_bb4d3628:

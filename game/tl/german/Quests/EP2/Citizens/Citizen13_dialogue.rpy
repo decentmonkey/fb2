@@ -1712,7 +1712,7 @@ translate german cit13_lipstick_event_accc9a66:
 translate german cit13_lipstick_event_6f3c13b7:
 
     # m "Это помада для двадцатидолларовой шлюхи, а не для меня!"
-    m "Dieser Lippenstift passt zu einer 20 Dollar Nutte, aber nicht zu mir!"
+    m "Dieser Lippenstift passt zu einer 2ß Dollar Nutte, aber nicht zu mir!"
 
 # game/Quests/EP2/Citizens/Citizen13_dialogue.rpy:1187
 translate german cit13_lipstick_event_41b78ab2:

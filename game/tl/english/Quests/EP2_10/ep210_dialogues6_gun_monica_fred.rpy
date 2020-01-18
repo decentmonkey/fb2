@@ -182,7 +182,7 @@ translate english ep210_dialogues6_gun_monica_fred_1b_4af481e1:
     # mt "И тогда я прихлопну этого человека как муху..."
     # mt "Пусть даже это окажется сам Маркус!"
     # mt "..."
-    mt "Но, мне все равно нужен план..."
+    mt "But I still ned a plan..."
     mt "I need to find out who is behind all this ..."
     mt "And then I slam this man like a fly ..."
     mt "Even if it turns out to be Marcus himself!"
@@ -194,7 +194,7 @@ translate english ep210_dialogues6_gun_monica_fred_1b_b478fca4:
     # mt "Кто же в этом еще замешан?.."
     # mt "Моника, думай..."
     # mt "..."
-    mt "Кто же в этом еще замешан?.."
+    mt "Who else could be involved?..."
     mt "Monica, think ..."
     mt "..."
 
@@ -378,7 +378,7 @@ translate english ep210_dialogues6_gun_monica_fred_1d_ea89a996:
 translate english ep210_dialogues6_gun_monica_fred_1d_3410cfb1:
 
     # m "Конечно, Фред. как пожелаешь..."
-    m "Конечно, Фред. как пожелаешь..."
+    m "Sure, Fred. As you like to..."
 
 # game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:179
 translate english ep210_dialogues6_gun_monica_fred_1d_b720b79c:
@@ -403,4 +403,12 @@ translate english ep210_dialogues6_gun_monica_fred_1d_a673adb1:
 
     # m "Вот ты и попался..."
     m "So you got ..."
+
+# TODO: Translation updated at 2020-01-18 12:56
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:191
+translate english ep210_dialogues6_gun_monica_fred_1d_5a1f17be:
+
+    # m "Ну здравствуй, корнишон..."
+    m "Well hello pickle ..."
 

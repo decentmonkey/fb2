@@ -3279,8 +3279,8 @@ translate english dialogue_5_dance_strip_22_28af4dda:
 
     # ashley "Ты помнишь что ты наказана!?"
     # ashley "Сделай так чтобы Молли простила тебя, иначе не будешь зарабатывать здесь ничего!"
-    ashley "Ты помнишь что ты наказана!?"
-    ashley "Сделай так чтобы Молли простила тебя, иначе не будешь зарабатывать здесь ничего!"
+    ashley "Do you remeber being punished?"
+    ashley "Molly needs to forgive you, else you won't earn a single more dollar here!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2058
 translate english dialogue_5_dance_strip_22_368e900d:
@@ -3288,7 +3288,7 @@ translate english dialogue_5_dance_strip_22_368e900d:
     # mt "Сучка!"
     # mt "Какой мне смысл танцевать, если приходится отдавать ей все деньги?!"
     mt "Bitch!!!"
-    mt "Какой мне смысл танцевать, если приходится отдавать ей все деньги?!"
+    mt "Why should I dance when I have to give her all my tips?!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2198
 translate english dialogue_5_dance_strip_27_c59e502f:
@@ -3297,8 +3297,8 @@ translate english dialogue_5_dance_strip_27_c59e502f:
     # molly "Еще раз увижу, что ты испортила мой портрет!"
     # molly "Простым штрафом ты не отделаешься, сучка!!!"
     molly "And by the way!"
-    molly "Once again I will see that you ruined my portrait!"
-    molly "You won’t get off with a simple fine, bitch !!!"
+    molly "If I see you ruin my picture again!"
+    molly "You won’t get off with a simple fine, bitch!!!"
 
 # TODO: Translation updated at 2020-01-16 23:52
 
@@ -3307,18 +3307,18 @@ translate english dialogue_5_dance_strip_16_e9a604be:
 
     # clare "Кстати, отличный портрет получился!"
     # clare "Наша звезда прямо-таки засияла..."
-    clare "By the way, a great portrait turned out!"
-    clare "Our star really shone ..."
+    clare "By the way, the picture turned out great!"
+    clare "Our star is really shining now..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1437
 translate english dialogue_5_dance_strip_16_6ae6b8f1:
 
     # m "Нет-нет... Я тут ни при чем... Я ничего не делала."
-    m "No, no ... I have nothing to do with it ... I did nothing."
+    m "No, no, no... I have nothing to do with it... Not my doing."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:1441
 translate english dialogue_5_dance_strip_16_ca1e9a08:
 
     # clare "Все ок. Я никому не скажу."
-    clare "All OK. I will not tell anyone."
+    clare "It's ok. I won't tell anyone."
 

@@ -156,13 +156,13 @@ translate german monica_shawarma_dialogue1_fc21055c:
 translate german monica_shawarma_dialogue1_6a85058e:
 
     # shawarma "Хорошо, Мадаме! Только для Вас самый вкусный кебаб за $ 1! Мадаме!"
-    shawarma "Okay. Der super leckere Kebab kostet nur 1 $!"
+    shawarma "Okay. Der super leckere Kebab kostet nur 1€!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:99
 translate german monica_shawarma_dialogue1_b95b69e5:
 
     # mt "Черт! У меня нет этого гребаного доллара!!!"
-    mt "Verdammt, ich habe keinen verfluchten Dollar!"
+    mt "Verdammt, ich habe keinen verfluchten Euro!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:101
 translate german monica_shawarma_dialogue1_3fe4c2df:
@@ -174,13 +174,13 @@ translate german monica_shawarma_dialogue1_3fe4c2df:
 translate german monica_shawarma_dialogue1_7db9d8a8:
 
     # shawarma "Нет, Мадаме! Только за $ 1, Мадаме!"
-    shawarma "Nein, Fräulein! Nur für 1 $, Fräulein!!"
+    shawarma "Nein, Fräulein! Nur für 1€, Fräulein!!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:106
 translate german monica_shawarma_dialogue1_349d457d:
 
     # m "У меня нет этого гребаного доллара! Есть еще какие-то варианты?"
-    m "Ich habe keinen verdammten Dollar! Gibt's da keine andere Möglichkeit?"
+    m "Ich habe keinen verdammten Euro! Gibt's da keine andere Möglichkeit?"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:109
 translate german monica_shawarma_dialogue1_8e9f3993:
@@ -318,7 +318,7 @@ translate german monica_shawarma_dialogue2_debfd935:
 translate german monica_shawarma_dialogue2_6ef85f2c:
 
     # mt "У меня нет этого гребаного доллара!"
-    mt "Weil ich nichtmal einen Dollar habe!"
+    mt "Weil ich nichtmal einen Euro habe!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:209
 translate german monica_shawarma_dialogue2_85adcca4:
@@ -392,7 +392,7 @@ translate german monica_shawarma_dialogue2_8e0d7ead:
 translate german monica_shawarma_dialogue2a_6ef85f2c:
 
     # mt "У меня нет этого гребаного доллара!"
-    mt "Weil ich nichtmal einen Dollar habe!"
+    mt "Weil ich nichtmal einen Euro habe!"
 
 # game/Quests/EP2/ep2_dialogues2.rpy:277
 translate german monica_shawarma_dialogue2a_85adcca4:
@@ -616,7 +616,7 @@ translate german strings:
 
     # game/Quests/EP2/ep2_dialogues2.rpy:203
     old "Купить кебаб за $ 1"
-    new "Kaufe einen Kebab für 1 $"
+    new "Kaufe einen Kebab für 1€"
 
     # game/Quests/EP2/ep2_dialogues2.rpy:203
     old "Разносить флаеры."

@@ -642,7 +642,7 @@ translate german ep25_dialogues3_steve2_27d7c8c1:
     # steve "Зато $ 5000 сразу отправятся на твой любимый адрес!"
     steve "Und als Geschäftsfrau solltest du doch damit vertraut sein, Monica."
     steve "Das ist völlig normal."
-    steve "Und sofort bekommst du die 5000 $ dahin, wo du sie haben willst."
+    steve "Und sofort bekommst du die $ 5000 dahin, wo du sie haben willst."
 
 # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:778
 translate german ep25_dialogues3_steve2_29a4f6ab_1:
@@ -684,7 +684,7 @@ translate german ep25_dialogues3_steve2_77e1c5e4:
     # m "Мне надо больше денег, Стив!"
     # m "Хотя бы $ 5500!"
     m "Ich brauche mehr Geld, Steve!"
-    m "5500 $ wenigstens!"
+    m "$ 5500 wenigstens!"
 
 # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:821
 translate german ep25_dialogues3_steve2_a5b3bde2:
@@ -1332,11 +1332,11 @@ translate german strings:
 
     # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:829
     old "Согласиться на $ 5050"
-    new "Stimme 5050 $zu"
+    new "Stimme $ 5050 zu"
 
     # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:829
     old "Согласиться на $ 5000"
-    new "Stimme 5000 $ zu"
+    new "Stimme $ 5000 zu"
 
     # game/Quests/EP2_05/ep25_dialogues3_steve.rpy:1449
     old "СПУСТЯ 15 МИНУТ..."

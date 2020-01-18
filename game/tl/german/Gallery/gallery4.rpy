@@ -4952,14 +4952,14 @@ translate german gallery_6757_947818a6:
 translate german gallery_6757_a551ad0c:
 
     # philip "Вы заработали свои $ 500!"
-    philip "Du hast dir deine $ 500 verdient!"
+    philip "Du hast dir deine 500€ verdient!"
 
 # game/Gallery/gallery4.rpy:4882
 translate german gallery_6757_a5a29da3:
 
     # m "Мне нужно еще $ 500!"
     # "Пожалуйста! Прошу Вас!!!"
-    m "Ich brauche wietere $ 500!"
+    m "Ich brauche wietere 500€!"
     "Bitte!! Ich flehe Sie an!!!"
 
 # game/Gallery/gallery4.rpy:4886

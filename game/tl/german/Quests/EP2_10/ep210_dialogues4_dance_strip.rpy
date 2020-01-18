@@ -160,7 +160,7 @@ translate german ep210_dialogues4_dance_strip_2_0fe02dcd:
 translate german ep210_dialogues4_dance_strip_2_fe9fdb6a:
 
     # clare "Ты скоро научишься получать от этого удовольствие."
-    clare "Du wirst es bald genießen."
+    clare "Du wirst es bald geniessen."
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:102
 translate german ep210_dialogues4_dance_strip_2_900d85d6:
@@ -429,7 +429,7 @@ translate german ep210_dialogues4_dance_strip_2_8b16dc4e:
     # mt "Не хочу, чтобы здесь кто-то знал обо мне правду."
     mt "Ich kann nicht zugeben, dass ich noch als Dienstmädchen arbeite... Schlimmer noch, in meinem früheren zu Hause..."
     mt "..."
-    mt "Und alles Andere erst recht nicht..."
+    mt "Und alles Andere erst Recht nicht..."
     mt "Ich will nicht, dass hier irgendjemand die Wahrheit über mich kennt."
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:211
@@ -1690,13 +1690,13 @@ translate german ep210_dialogues4_dance_strip_5_0_36ff996b:
     mt "Schlampe!"
     mt "!!!"
     mt "..."
-    mt "Может быть сделать какую-то пакость ей?"
+    mt "Vielleicht, um ihr ein paar schmutzige Tricks anzutun?"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:687
 translate german ep210_dialogues4_dance_strip_5_1_fc6ca22a:
 
     # mt "Лучше не делать этого при свидетелях..."
-    mt "Лучше не делать этого при свидетелях..."
+    mt "Es ist besser, dies nicht mit Zeugen zu tun ..."
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:693
 translate german ep210_dialogues4_dance_strip_5_2_9ccf37fd:
@@ -1748,7 +1748,7 @@ translate german ep210_dialogues4_dance_strip_7_071daf6d:
     mt "Diese rothaarige Bitch wird nur noch aufgebrachter sein."
     mt "Ich muss darüber nachdenken..."
     mt "..."
-    help "В следующем обновлении!"
+    help "Im nächsten Update!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:980
 translate german ep210_dialogues4_dance_strip_8_5cae7e9f:
@@ -1756,7 +1756,7 @@ translate german ep210_dialogues4_dance_strip_8_5cae7e9f:
     # m "..."
     # help "Окрыты не все движения. Требуется [monicaPosesOpenedToDanceClaire]."
     m "..."
-    help "Окрыты не все движения. Требуется [monicaPosesOpenedToDanceClaire]."
+    help "Nicht alle Bewegungen sind frei geschlaten. Benötigt [monicaPosesOpenedToDanceClaire]."
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1106
 translate german ep210_dialogues4_dance_strip_11_c59e502f:
@@ -1775,7 +1775,7 @@ translate german ep210_dialogues4_dance_strip_13_19db5600:
     # mt "Мои трусики чуть не упали перед толпой пьяных неудачников!!!"
     # mt "!!!"
     mt "Was für ein Alptraum!"
-    mt "Мои трусики чуть не упали перед толпой пьяных неудачников!!!"
+    mt "Mein Höschen fiel fast runter vor einer Menge betrunkener Verlierer !!!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1215
@@ -1811,8 +1811,8 @@ translate german ep210_dialogues4_dance_strip_13_0ea6a374:
     # mt "И этим 'кто-то' мог быть только один человек!"
     # mt "Сучка Молли!!!"
     # mt "!!!"
-    mt "Возможно, что они расстегнулись на мне во время выступления не просто так..."
-    mt "А из-за того что кто-то подстроил это до того, как я их надела!!!"
+    mt "Es ist möglich, dass sie aus einem bestimmten Grund manipuliert wurden ..."
+    mt "Jemand war daran zu Gange, bevor ich sie angezogen habe !!!"
     mt "!!!"
     mt "Und dieser 'jemand' kann nur eine Person sein!"
     mt "Die Schlampe Molly!!!"
@@ -1846,14 +1846,14 @@ translate german ep210_dialogues4_dance_strip_15_97cdbd7c:
     # mt "Наверняка, Клэр уже знает о том, что..."
     # mt "Что я стояла почти голой на сцене."
     mt "Claire weiß sicher schon bescheid..."
-    mt "Что я стояла почти голой на сцене."
+    mt "So dass ich auf der Bühne fast nackt war."
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1303
 translate german ep210_dialogues4_dance_strip_15_78ce0c97:
 
     # m "И я стояла на сцене, чуть-ли ни сверкая голой попой..."
     # m "То у меня все просто отлично!"
-    m "И я стояла на сцене, чуть-ли ни сверкая голой попой..."
+    m "Und ich stand auf der Bühne, nackt vor allen ..."
     m "Abgesehen davon, ist alles ok mit mir!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1307
@@ -1862,13 +1862,13 @@ translate german ep210_dialogues4_dance_strip_15_74258bb8:
     # clare "Да, я уже слышала об этом."
     # clare "Трусики просто так не могли расстегнуться. Их специально кто-то надрезал."
     clare "Ja, davon habe ich schon gehört."
-    clare "Трусики просто так не могли расстегнуться. Их специально кто-то надрезал."
+    clare "Das Höschen konnte nicht einfachso aufgehen. Jemand hat sie aufgeschnitten."
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1346
 translate german ep210_dialogues4_dance_strip_17_28a2e553:
 
     # m "Клэр, не хочешь составить мне компанию на сцене?"
-    m "Клэр, не хочешь составить мне компанию на сцене?"
+    m "Claire, willst du mich auf die Bühne begleiten?"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1348
 translate german ep210_dialogues4_dance_strip_17_ce5dd127:
@@ -1876,113 +1876,113 @@ translate german ep210_dialogues4_dance_strip_17_ce5dd127:
     # clare "Хорошо, Моника. Выходи на сцену."
     # clare "Я присоединюсь к тебе во время твоего танца."
     # clare "Покажем им, кто здесь звезды!"
-    clare "Хорошо, Моника. Выходи на сцену."
-    clare "Я присоединюсь к тебе во время твоего танца."
+    clare "Gut, Monica. Geh auf die Bühne."
+    clare "Ich werde dich während deines Tanzes unterstützen."
     clare "Zeig ihnen, wer der wirkliche Star ist!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1353
 translate german ep210_dialogues4_dance_strip_17_76a1fba6:
 
     # clare "Я сегодня уже натанцевалась. Давай в другой раз?"
-    clare "Я сегодня уже натанцевалась. Давай в другой раз?"
+    clare "Heute habe ich schon getanzt. Komm ein anderes Mal!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1367
 translate german ep210_dialogue_5_dance_clare_e177d089:
 
     # clare "Заждалась меня, Моника?"
     # clare "Покажем им, кто здесь звезды!"
-    clare "Заждалась меня, Моника?"
+    clare "Ich habe auf dich gewartet, Monica."
     clare "Zeig ihnen, wer der wirkliche Star ist!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1378
 translate german ep210_dialogue_5_dance_strip_5a_13716f83:
 
     # customers1 "Эй, смотри, какие телки!"
-    customers1 "Эй, смотри, какие телки!"
+    customers1 "Hey schaut mal, die Mädels!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1380
 translate german ep210_dialogue_5_dance_strip_5a_dda1494d:
 
     # customers2 "Одна - это Клэр, а как зовут другую? Я ее раньше не видел!"
-    customers2 "Одна - это Клэр, а как зовут другую? Я ее раньше не видел!"
+    customers2 "Eine ist Claire, aber wie heißt die Andere? Ich habe sie noch nie gesehen!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1382
 translate german ep210_dialogue_5_dance_strip_5a_86c507a2:
 
     # customers3 "Смотри что они вытворяют! Вау!"
-    customers3 "Смотри что они вытворяют! Вау!"
+    customers3 "Beobachten wir, was sie tun! Wow!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1384
 translate german ep210_dialogue_5_dance_strip_5a_1226f081:
 
     # customers4 "Красотки! Спускайтесь к нам!"
-    customers4 "Красотки! Спускайтесь к нам!"
+    customers4 "Schönheiten! Kommt runter zu uns!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1386
 translate german ep210_dialogue_5_dance_strip_5a_460d4924:
 
     # customers5 "Раздевайтесь! Покажите нам свои задницы! Да!"
-    customers5 "Раздевайтесь! Покажите нам свои задницы! Да!"
+    customers5 "Zieht euch aus! Zeigt uns eure Ärsche! Ja"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1388
 translate german ep210_dialogue_5_dance_strip_5a_0fcfd43b:
 
     # customers1 "Вот это девочки, вау! Посмотрите!"
-    customers1 "Вот это девочки, вау! Посмотрите!"
+    customers1 "Das sind die Mädchen, wow! Schau mal!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1390
 translate german ep210_dialogue_5_dance_strip_5a_7ed12fc4:
 
     # customers2 "Раздевайтесь! Покажите нам свои задницы! Да!"
-    customers2 "Раздевайтесь! Покажите нам свои задницы! Да!"
+    customers2 "Zieht euch aus! Zeigt uns eure Ärsche! Ja"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1392
 translate german ep210_dialogue_5_dance_strip_5a_cabf1eb7:
 
     # customers3 "Покрутитесь на моем члене так же!"
-    customers3 "Покрутитесь на моем члене так же!"
+    customers3 "Dreh dich genauso auf meinen Schwanz!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1394
 translate german ep210_dialogue_5_dance_strip_5a_86200db0:
 
     # customers4 "Давай! Поцелуй ее!"
-    customers4 "Давай! Поцелуй ее!"
+    customers4 "Komm schon! Küss sie!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1396
 translate german ep210_dialogue_5_dance_strip_5a_5663f6bf:
 
     # customers5 "Полижи ей киску на сцене!"
-    customers5 "Полижи ей киску на сцене!"
+    customers5 "Leck ihre Muschi auf der Bühne!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1398
 translate german ep210_dialogue_5_dance_strip_5a_05eefeeb:
 
     # customers1 "Я сейчас кончу! Вот это шоу!"
-    customers1 "Я сейчас кончу! Вот это шоу!"
+    customers1 "Ich bin jetzt total fertig! Was für eine Show!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1400
 translate german ep210_dialogue_5_dance_strip_5a_103e4d1d:
 
     # customers2 "Нереально красиво!"
-    customers2 "Нереально красиво!"
+    customers2 "Wirklich schön!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1402
 translate german ep210_dialogue_5_dance_strip_5a_390c1743:
 
     # customers3 "Раздвиньте ножки! Покажите что у вас там!"
-    customers3 "Раздвиньте ножки! Покажите что у вас там!"
+    customers3 "Spreize deine Beine! Zeige, was du dort hast!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1404
 translate german ep210_dialogue_5_dance_strip_5a_eec8a32a:
 
     # customers4 "Задницы! Задницы!!!"
-    customers4 "Задницы! Задницы!!!"
+    customers4 "Ärsche! Ärsche!!!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1413
 translate german ep210_dialogue_5_dance_strip_5aa1_a0ea98aa:
 
     # customers1 "Эй! Хорош уже! Давайте, раздевайтесь!"
-    customers1 "Эй! Хорош уже! Давайте, раздевайтесь!"
+    customers1 "Hey! Schon gut. Komm zieh dich aus!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1415
 translate german ep210_dialogue_5_dance_strip_5aa1_0b9814cf:
@@ -2000,5 +2000,43 @@ translate german strings:
 
     # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1344
     old "Предложить Клэр танцевать с Моникой."
-    new ""
+    new "Bitte Claire, mit Monica zu tanzen."
+
+# TODO: Translation updated at 2020-01-18 13:00
+
+# game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1140
+translate german ep210_dialogues4_dance_strip_12_8353eb25:
+
+    # customers1 "ДА! ДААААА!!!"
+    customers1 "Ja DAAAAA !!!"
+
+# game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1150
+translate german ep210_dialogues4_dance_strip_12_2e0467f9:
+
+    # customers2 "СНИМИ ИХ! СНИМИ!!!"
+    customers2 "ENTFERNE DICH! MIT IHR!!!"
+
+# game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1160
+translate german ep210_dialogues4_dance_strip_12_10a4c4a6:
+
+    # customers3 "ПОКАЖИ НАМ СВОЮ КИСКУ! ВАУ!!!"
+    customers3 "ZEIG UNS DEINE PUSSY! WOW !!!"
+
+# game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1170
+translate german ep210_dialogues4_dance_strip_12_f5a117b3:
+
+    # customers4 "Я ХОЧУ ТРАХНУТЬ ЭТУ СТРИПТИЗЕРШУ! Я ПЕРВЫЙ!!!"
+    customers4 "ICH MÖCHTE DIESE STRIPPERIN FICKEN! Ich bin der ERSTE !!!"
+
+# game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1180
+translate german ep210_dialogues4_dance_strip_12_ba7b1597:
+
+    # customers4 "НУ ЖЕ! СНИМИ ТРУСИКИ! СНИМИ ИХ ПОЛНОСТЬЮ!!!"
+    customers4 "GUT! WEG MIT DEM HÖSCHEN! ENTFERNE ES VOLLSTÄNDIG !!!"
+
+# game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1188
+translate german ep210_dialogues4_dance_strip_12_52033c58:
+
+    # customers4 "ОНА СПЕЦИАЛЬНО ТАК СДЕЛАЛА! Я ЗНАЮ!"
+    customers4 "SIE HAT DAS ABSICHTLICH GEMACHT! ICH WEISS ES!"
 

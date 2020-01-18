@@ -16,9 +16,9 @@ translate german strings:
 
     # game/Characters/Pub/Pub_Dance_Dialogues.rpy:147
     old "Моника с Клэр делали это движение в прошлый раз"
-    new ""
+    new "Monica und Claire haben diese Bewegung letztes Mal gemacht"
 
     # game/Characters/Pub/Pub_Dance_Dialogues.rpy:149
     old "Моника с Клэр повторяют направления танца"
-    new ""
+    new "Monica und Claire wiederholen die Tanzabläufe."
 

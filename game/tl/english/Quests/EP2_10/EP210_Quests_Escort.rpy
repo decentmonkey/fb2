@@ -4,5 +4,5 @@ translate english strings:
 
     # game/Quests/EP2_10/EP210_Quests_Escort.rpy:68
     old "ДОМ ФИЛИППА"
-    new ""
+    new "PHILIPS HOUSE"
 

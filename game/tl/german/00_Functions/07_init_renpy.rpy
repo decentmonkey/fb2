@@ -404,21 +404,21 @@ translate german strings:
 
     # game/00_Functions/07_init_renpy.rpy:167
     old "Инвестор"
-    new ""
+    new "Investor"
 
     # game/00_Functions/07_init_renpy.rpy:172
     old "Шлюха номер 1"
-    new ""
+    new "Hure Nummer 1"
 
     # game/00_Functions/07_init_renpy.rpy:174
     old "Девочка по вызову"
-    new ""
+    new "Ruf ein Mädchen"
 
     # game/00_Functions/07_init_renpy.rpy:179
     old "Посетитель кафе"
-    new ""
+    new "Cafe Besucher"
 
     # game/00_Functions/07_init_renpy.rpy:181
     old "Бариста"
-    new ""
+    new "Barista"
 

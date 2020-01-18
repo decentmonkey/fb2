@@ -14,7 +14,7 @@ translate english ep210_dialogues1_office_biff_1a_6248ef3c:
     # biff "Давай, цыпочка. Я жду."
     # mt "Сволочь!"
     biff "Come on, chick. I am waiting."
-    mt "You bastard!"
+    mt "That bastard!"
 
 # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:17
 translate english ep210_dialogues1_office_biff_1a_6182af9b:
@@ -56,7 +56,7 @@ translate english ep210_dialogues1_office_biff_1b_03fa075d:
     # biff "Давай, без лишних разговоров. Не утомляй меня!"
     # mt "Сволочь!"
     biff "Come on, without too much talk. Do not bore me!"
-    mt "You bastard!"
+    mt "That bastard!"
 
 # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:44
 translate english ep210_dialogues1_office_biff_1b_542fd8e1:
@@ -99,7 +99,7 @@ translate english ep210_dialogues1_office_biff_1c_46fbb74b:
 
     # mt "Сволочь!"
     # biff "Покажи папочке, что там у тебя между ног."
-    mt "You bastard!"
+    mt "That bastard!"
     biff "Show daddy what's between your legs."
 
 # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:79
@@ -541,7 +541,7 @@ translate english ep210_dialogues1_office_biff_1_8cf19c80:
 
     # mt "Сволочь!"
     # mt "Надеюсь, завтра он даст мне работу... Мне нужны деньги..."
-    mt "You bastard!"
+    mt "That bastard!"
     mt "I hope he gives me work tomorrow ... I need money ..."
 
 # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:297
@@ -569,7 +569,7 @@ translate english ep210_dialogues1_office_biff_2b_b4560d11:
     # mt "Надеюсь, завтра он даст мне работу... Мне нужны деньги..."
     m "Biff ... What about work?"
     biff "I tell you, come tomorrow!"
-    mt "You bastard!"
+    mt "That bastard!"
     mt "I hope he gives me work tomorrow ... I need money ..."
 
 # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:315
@@ -717,7 +717,7 @@ translate english ep210_dialogues1_office_biff_3_a9f69322:
 
     # mt "Сволочь!"
     # mt "!!!"
-    mt "You bastard!"
+    mt "That bastard!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:380
@@ -958,7 +958,7 @@ translate english ep210_dialogues1_office_biff_3_9bbbf241:
     # mt "Надеюсь, близок тот день, когда я снова займу свое место в этом кабинете..."
     mt "Biff hopes to attract investors with my help ..."
     mt "To make cheap porn out of MY magazine!"
-    mt "You bastard!"
+    mt "That bastard!"
     mt "!!!"
     mt "I hope the day is near when I will again take my place in this office ..."
 
@@ -1718,7 +1718,7 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:189
     old "Сделать, как приказывает Биф."
-    new "To do as Biff commands."
+    new "Do as Biff commands."
 
     # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:289
     old "Зайти завтра к Бифу, узнать про работу."
@@ -1730,19 +1730,19 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:420
     old "Я не буду говорить этого!"
-    new "I will not say that!"
+    new "I won't say this!"
 
     # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:454
     old "Не делать этого!"
-    new "Do not do this!"
+    new "Don't do this!"
 
     # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:502
     old "Провести презентацию журнала в кабинете Бифа."
-    new "Present the magazine in Biff’s office."
+    new "Hold the magazine's presentation in Biff’s office."
 
     # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:711
     old "Повернуться спиной к Стиву."
-    new "Turn your back on Steve."
+    new "Turn your back to Steve."
 
     # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:711
     old "Повернуться спиной к Филиппу."
@@ -1756,13 +1756,13 @@ translate english ep210_dialogues1_office_biff_1_7c20726e:
     # biff "Значит так!"
     # biff "Мне надоело смотреть на тебя в этом скучном костюме." 
     biff "So it is!"
-    biff "Мне надоело смотреть на тебя в этом скучном костюме." 
+    biff "I am tired of watching you in this boring dress." 
 
 # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:344
 translate english ep210_dialogues1_office_biff_1_b8564d89:
 
     # m "Я могу носить другой офисный костюм..."
-    m "Я могу носить другой офисный костюм..."
+    m "I can wear another business dress..."
 
 # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:346
 translate english ep210_dialogues1_office_biff_1_63719d8b:
@@ -1789,7 +1789,7 @@ translate english ep210_dialogues1_office_biff_2b_8cf19c80:
 
     # mt "Сволочь!"
     # mt "Надеюсь, завтра он даст мне работу... Мне нужны деньги..."
-    mt "You bastard!"
+    mt "That bastard!"
     mt "I hope he gives me work tomorrow ... I need money ..."
 
 # game/Quests/EP2_10/ep210_dialogues1_office_biff.rpy:648

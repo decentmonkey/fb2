@@ -620,7 +620,7 @@ translate english strings:
 
     # game/Quests/EP2_02/ep22_casting.rpy:5
     old "Раздеться и встать на колени задом к Бифу."
-    new "Undress and kneel back to Biff."
+    new "Undress and kneel with your back turned to Biff."
 
     # game/Quests/EP2_02/ep22_casting.rpy:5
     old "Раздеться и лечь на пол раздвинув ноги."
@@ -632,5 +632,5 @@ translate english strings:
 
     # game/Quests/EP2_02/ep22_casting.rpy:5
     old "Раздеться и принимать различные модельные позы. (требуется ур.2) (disabled)"
-    new ""
+    new "Undress and make different model poses. (needs lvl. 2) (disabled)"
 

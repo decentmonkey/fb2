@@ -131,7 +131,7 @@ translate german ep210_dialogues6_gun_monica_fred_1d_0b31ad3b:
     m "Ich stimme zu, dich jederzeit mit... meinen professionellen Diensten zu ... erfreuen..."
     m "Jederzeit..."
     fred "Das freut mich sehr zu hören, Frau Buckfett! Unsere professionelle Freundschaft wird lange währen."
-    m "Willst du mich gleich jetzt benutzen?"
+    m "Willst du mich gleich jetzt beutzen?"
     fred "Oh Frau Buckfett, das war sehr professionell, das vorzuschlagen!"
     m "Ich habe... ein eigenes Schlafzimmer im Keller..."
     m "Wenn du möchtest..."
@@ -182,7 +182,7 @@ translate german ep210_dialogues6_gun_monica_fred_1b_4af481e1:
     # mt "И тогда я прихлопну этого человека как муху..."
     # mt "Пусть даже это окажется сам Маркус!"
     # mt "..."
-    mt "Но, мне все равно нужен план..."
+    mt "Aber ich brauche noch einen Plan ..."
     mt "Ich muss rausfinden, wer hinter all dem steckt..."
     mt "Und dann zerquetsche ich ihn wie eine Fliege..."
     mt "Selbst, wenn es Marcus sein sollte!"
@@ -194,7 +194,7 @@ translate german ep210_dialogues6_gun_monica_fred_1b_b478fca4:
     # mt "Кто же в этом еще замешан?.."
     # mt "Моника, думай..."
     # mt "..."
-    mt "Кто же в этом еще замешан?.."
+    mt "Wer ist sonst noch daran beteiligt? ..."
     mt "Monica, denk nach..."
     mt "..."
 
@@ -314,7 +314,7 @@ translate german ep210_dialogues6_gun_monica_fred_1d_94576761:
 translate german ep210_dialogues6_gun_monica_fred_1d_95ef0e54:
 
     # m "Может быть ты желаешь воспользоваться мной прямо сейчас?"
-    m "Willst du mich gleich jetzt benutzen?"
+    m "Willst du mich gleich jetzt beutzen?"
 
 # game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:119
 translate german ep210_dialogues6_gun_monica_fred_1d_ea28eda4:
@@ -378,7 +378,7 @@ translate german ep210_dialogues6_gun_monica_fred_1d_ea89a996:
 translate german ep210_dialogues6_gun_monica_fred_1d_3410cfb1:
 
     # m "Конечно, Фред. как пожелаешь..."
-    m "Конечно, Фред. как пожелаешь..."
+    m "Natürlich Fred. Wie du willst ..."
 
 # game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:179
 translate german ep210_dialogues6_gun_monica_fred_1d_b720b79c:
@@ -403,4 +403,12 @@ translate german ep210_dialogues6_gun_monica_fred_1d_a673adb1:
 
     # m "Вот ты и попался..."
     m "Was haben wir denn da..."
+
+# TODO: Translation updated at 2020-01-18 13:00
+
+# game/Quests/EP2_10/ep210_dialogues6_gun_monica_fred.rpy:191
+translate german ep210_dialogues6_gun_monica_fred_1d_5a1f17be:
+
+    # m "Ну здравствуй, корнишон..."
+    m "Oh hallo Gürkchen..."
 

@@ -834,7 +834,7 @@ translate german monica_dick_secretary_dialogue2_91d2fa8c:
     # "Я знаю хороший галстук за {c}$ 5.000{/c}."
     # "Так что {c}приготовьте деньги{/c}."
     # "{c}Если у Вас не будет нужной суммы, то, пожалуйста, не беспокойте меня{/c}."
-    "Ichh abe da schon eine Krawatte im Kopf für... {c}5.000 $ {/c}."
+    "Ichh abe da schon eine Krawatte im Kopf für... {c}5.000€ {/c}."
     "Also {c}ich hoffe sie haben das Geld{/c}."
     "{c}Wenn das zuviel für Sie ist, verschwenden sie nicht meine Zeit{/c}."
 
@@ -912,7 +912,7 @@ translate german monica_dick_secretary_dialogue3_51572e53:
 translate german monica_dick_secretary_dialogue3_02dba953:
 
     # "Либо не отправлю, если мы проведем хорошо время в следующую {c}пятницу{/c}."
-    "Oder ich sende es nicht, wenn wir eine gute Zeit zusammen haben, am {c}Freitag{/c}."
+    "Oder ich sende es nicht, wenn wir eine gute Zeit zusamme nhaben, am {c}Freitag{/c}."
 
 # game/Quests/EP2/ep2_dialogues3.rpy:588
 translate german monica_dick_secretary_dialogue3_5da2dfc9:
@@ -975,7 +975,7 @@ translate german monica_dick_office_dialogue2_1882e706:
     "Ich muss mir was überlegen!"
     "Diese Krawatte, das ist auf ihrem Mist gewachsen, da bin ich mir sicher!"
     "Da komme ich nicht mehr raus, ich muss eine verdammte Krawatte kaufen!"
-    "Ich muss mich wehren... aber erstmal muss ich irgendwie die {c}5.000 ${/c} besorgen!"
+    "Ich muss mich wehren... aber erstmal muss ich irgendwie die {c}5.000€{/c} besorgen!"
     "Andernfalls war es das wohl für mich!"
     "Dick hat nicht geblufft!"
     "Mein Schicksal hängt jetzt an diesem Geld!"

@@ -880,7 +880,7 @@ translate german strings:
 translate german ep210_dialogues5_julia_1_b384c43b:
 
     # mt "Никчемные и бесполезные сотрудники..."
-    mt "Никчемные и бесполезные сотрудники..."
+    mt "Wertlose und nutzlose Mitarbeiter ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:131
 translate german ep210_dialogues5_julia_1_b702c4fb:
@@ -899,8 +899,8 @@ translate german ep210_dialogues5_julia_3_3_113de01d:
 
     # mt "Мне надо добиться чтобы она позвала меня в гости."
     # mt "Там я смогу увидеть цвет этих проклятых трусиков!.."
-    mt "Мне надо добиться чтобы она позвала меня в гости."
-    mt "Там я смогу увидеть цвет этих проклятых трусиков!.."
+    mt "Ich muss sie dazu bringen, dass ich sie besuchen kann."
+    mt "Dort kann ich dann die Farbe dieses verdammten Höschens sehen!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:332
 translate german ep210_dialogues5_julia_3_4_f0130dbb:
@@ -910,33 +910,33 @@ translate german ep210_dialogues5_julia_3_4_f0130dbb:
     # julia "Я еще не готова к этому..."
     # julia "Спасибо за вечер, мне очень понравилось!"
     # mt "Проклятие!.."
-    m "Юлия, может быть ты пригласишь меня к себе в гости?"
-    julia "Миссис Бакфетт, это слишком рано..."
-    julia "Я еще не готова к этому..."
-    julia "Спасибо за вечер, мне очень понравилось!"
-    mt "Проклятие!.."
+    m "Julia, vielleicht lädst du mich ein, dich zu besuchen?"
+    julia "Frau Buckfett, es ist zu früh ..."
+    julia "Ich bin noch nicht bereit dafür ..."
+    julia "Danke für den Abend, es hat mir sehr gut gefallen!"
+    mt "Verdammt!..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:340
 translate german ep210_dialogues5_julia_3_4a_61d42170:
 
     # mt "Мне лучше не ходить на свидание с Юлией в этом!"
     # mt "Надо одеть мое красивое платье!"
-    mt "Мне лучше не ходить на свидание с Юлией в этом!"
-    mt "Надо одеть мое красивое платье!"
+    mt "Ich gehe besser nicht mit Julia aus!"
+    mt "Ich muss mein schönes Kleid tragen!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:345
 translate german ep210_dialogues5_julia_3_5_5876d208:
 
     # mt "Значит в этой холупе обитает Юлия?"
     # mt "Я не удивлена..."
-    mt "Значит в этой холупе обитает Юлия?"
-    mt "Я не удивлена..."
+    mt "Also lebt Julia in dieser Gegend?"
+    mt "Ich bin nicht überrascht ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:349
 translate german ep210_dialogues5_julia_3_6_85670ba2:
 
     # mt "Убогое кафе, с убогими клиентами, в убогом районе..."
-    mt "Убогое кафе, с убогими клиентами, в убогом районе..."
+    mt "Elendes Café, mit elenden Kunden, in einer elenden Gegend ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:352
 translate german ep210_dialogues5_julia_3_7_da99599d:
@@ -947,12 +947,12 @@ translate german ep210_dialogues5_julia_3_7_da99599d:
     # mt "Хотя... Может быть попробовать устроиться туда работать?"
     # mt "Нет! Не хватало еще чтобы меня там заметила Юлия!"
     # mt "Да и бариста там какая-то дура!"
-    mt "У меня нет желания покупать еду по их ценам!"
-    mt "Они слишком завышены для такой дыры!"
+    mt "Ich habe keine Lust, Lebensmittel zu diesen Preisen zu kaufen!"
+    mt "Sie sind zu teuer für ein solches Loch!"
     mt "..."
-    mt "Хотя... Может быть попробовать устроиться туда работать?"
-    mt "Нет! Не хватало еще чтобы меня там заметила Юлия!"
-    mt "Да и бариста там какая-то дура!"
+    mt "Obwohl ... Vielleicht versuche ich, dort einen Job zu finden?"
+    mt "Nein! Es war nicht möglich für Julia, mich dort zu bemerken!"
+    mt "Und der Barista dort ist ein Idiot!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:384
 translate german ep210_dialogues5_julia_3_fb5be34a:
@@ -970,7 +970,7 @@ translate german ep210_dialogues5_julia_3_a19c7430:
 translate german ep210_dialogues5_julia_3_f3236949:
 
     # cafe_visitor2 "Ого! Вот это телка!"
-    cafe_visitor2 "Ого! Вот это телка!"
+    cafe_visitor2 "Wow! Das ist ein Küken!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:395
 translate german ep210_dialogues5_julia_3_b6f59c94:
@@ -978,7 +978,7 @@ translate german ep210_dialogues5_julia_3_b6f59c94:
     # julia "Миссис Бакфетт, я так рада, что Вы пришли!"
     # julia "Я заказала Вам сок. И еще... Кхм..."
     julia "Frau Buckfett, ich bin so froh, dass sie gekommen sind!"
-    julia "Я заказала Вам сок. И еще... Кхм..."
+    julia "Ich habe Ihnen einen Saft bestellt. Und mehr ... Ahm ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:399
 translate german ep210_dialogues5_julia_3_f198b09e:
@@ -990,27 +990,27 @@ translate german ep210_dialogues5_julia_3_f198b09e:
 translate german ep210_dialogues5_julia_3_30e3b56c:
 
     # julia "Я... Просто я Вас уже давно жду здесь и решила заказать себе обед..."
-    julia "Я... Просто я Вас уже давно жду здесь и решила заказать себе обед..."
+    julia "Ich ... Es ist nur so, dass ich hier schon lange auf sie gewartet habe und beschlossen habe, ein Mittagessen für mich zu bestellen ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:405
 translate german ep210_dialogues5_julia_3_5ca5c213:
 
     # julia "Вы же не будете против, Миссис Бакфетт?"
-    julia "Вы же не будете против, Миссис Бакфетт?"
+    julia "Sie werden nichts dagegen haben, Frau. Buckfett?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:408
 translate german ep210_dialogues5_julia_3_26f6bf50:
 
     # mt "Зачем она мне это рассказывает? Мне должно быть это интересно?!"
     # mt "Какая мне разница, что там себе заказала эта никчемная Юлия?"
-    mt "Зачем она мне это рассказывает? Мне должно быть это интересно?!"
-    mt "Какая мне разница, что там себе заказала эта никчемная Юлия?"
+    mt "Warum sagt sie mir das? Sollte mich das interessieren ?!"
+    mt "Welchen Unterschied macht es für mich, dass sich diese wertlose Julia hier was bestellt?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:412
 translate german ep210_dialogues5_julia_3_bba6fa75:
 
     # m "Хорошо, Юлия. Конечно, я не против." 
-    m "Хорошо, Юлия. Конечно, я не против." 
+    m "Gut, Julia. Natürlich macht es mir nichts aus." 
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:415
 translate german ep210_dialogues5_julia_3_9fc0f886:
@@ -1018,7 +1018,7 @@ translate german ep210_dialogues5_julia_3_9fc0f886:
     # julia "Спасибо, Миссис Бакфетт!"
     # julia "Я так переживала, что Вы скажете мне самой оплачивать чек..."
     julia "Vielen Dank, Frau Buckfett."
-    julia "Я так переживала, что Вы скажете мне самой оплачивать чек..."
+    julia "Ich war so besorgt, dass Sie mir sagen würden, ich solle die Rechnung selbst bezahlen ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:420
 translate german ep210_dialogues5_julia_3_483279a5:
@@ -1027,10 +1027,10 @@ translate german ep210_dialogues5_julia_3_483279a5:
     # julia "Я пока еще очень мало зарабатываю на моей новой работе."
     # julia "А Вы самая богатая леди этого города."
     # julia "Для Вас это сущий пустяк..."
-    julia "А у меня совсем нет денег."
-    julia "Я пока еще очень мало зарабатываю на моей новой работе."
-    julia "А Вы самая богатая леди этого города."
-    julia "Для Вас это сущий пустяк..."
+    julia "Und ich habe absolut kein Geld."
+    julia "Mit meinem neuen Job verdiene ich immer noch sehr wenig."
+    julia "Und sie sind die reichste Frau dieser Stadt."
+    julia "Für Sie ist das nur eine Kleinigkeit ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:427
 translate german ep210_dialogues5_julia_3_1b1f8d48:
@@ -1045,7 +1045,7 @@ translate german ep210_dialogues5_julia_3_7420ac2c:
 
     # mt "Это Я должна оплачивать ее обед?!"
     # mt "?!?!?!"
-    mt "Это Я должна оплачивать ее обед?!"
+    mt "Muss ich für ihr Mittagessen bezahlen ?!"
     mt "?!?!?!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:437
@@ -1055,28 +1055,28 @@ translate german ep210_dialogues5_julia_3_3635b206:
     # m "Конечно... Для меня это пустяк..."
     # m "Ты права..."
     m "Ja, Julia..."
-    m "Конечно... Для меня это пустяк..."
-    m "Ты права..."
+    m "Natürlich ... Für mich ist es nichts ..."
+    m "Du hast Recht..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:442
 translate german ep210_dialogues5_julia_3_457c0b03:
 
     # m "Это заведение настолько дешевое, что я даже не замечу изменения баланса на моей кредитной карте!"
-    m "Это заведение настолько дешевое, что я даже не замечу изменения баланса на моей кредитной карте!"
+    m "Dieser Ort ist so günstig, dass ich keine Änderung des Guthabens auf meiner Kreditkarte bemerke!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:445
 translate german ep210_dialogues5_julia_3_90f0c658:
 
     # m "Да и честно, здесь такие посетители, что среди них дискомфортно находиться такой леди как Я!"
-    m "Да и честно, здесь такие посетители, что среди них дискомфортно находиться такой леди как Я!"
+    m "Und ehrlich gesagt gibt es hier gewisse Besucher, dass es unter ihnen unangenehm ist, eine Frau wie ich zu sein!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:453
 translate german ep210_dialogues5_julia_3_b3bead50:
 
     # cafe_visitor1 "Можно убирать еду!"
     # cafe_visitor1 "У меня пропал аппетит!"
-    cafe_visitor1 "Можно убирать еду!"
-    cafe_visitor1 "У меня пропал аппетит!"
+    cafe_visitor1 "Sie können die Teller wegbringen!"
+    cafe_visitor1 "Ich habe meinen Appetit verloren!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:460
 translate german ep210_dialogues5_julia_3_e88bec36:
@@ -1098,9 +1098,9 @@ translate german ep210_dialogues5_julia_3_70d06980:
     # mt "Хорошо что у меня есть деньги на этот дурацкий обед!"
     # mt "Но какой ценой они мне достались!"
     mt "Huch!"
-    mt "Бестолковая Юлия!"
-    mt "Хорошо что у меня есть деньги на этот дурацкий обед!"
-    mt "Но какой ценой они мне достались!"
+    mt "Blöde Julia!"
+    mt "Gut, dass ich das Geld für dieses blöde Mittagessen habe!"
+    mt "Aber zu welchem ​​Preis ?!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:482
 translate german ep210_dialogues5_julia_3_d2f0a0e3:
@@ -1109,7 +1109,7 @@ translate german ep210_dialogues5_julia_3_d2f0a0e3:
     # julia "Миссис Бакфетт, я всю ночь не могла уснуть..."
     # julia "Неужели, я Вам и правда нравлюсь?"
     m "..."
-    julia "Миссис Бакфетт, я всю ночь не могла уснуть..."
+    julia "Frau Buckfett, ich konnte die ganze Nacht nicht schlafen ..."
     julia "Mögen sie mich wirklich?"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:488
@@ -1190,7 +1190,7 @@ translate german ep210_dialogues5_julia_3_757bbef6:
     # mt "!!!"
     # mt "Сучка, уйди отсюда! Это не для твоих ушей!"
     mt "!!!"
-    mt "Сучка, уйди отсюда! Это не для твоих ушей!"
+    mt "Schlampe, verschwinde hier! Das will ich nicht hören!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:545
 translate german ep210_dialogues5_julia_3_889b5af2:
@@ -1308,7 +1308,7 @@ translate german ep210_dialogues5_julia_3_72c4389d:
 translate german ep210_dialogues5_julia_3_aef229e2:
 
     # m "Ой, я уронила столовый прибор!"
-    m "Ой, я уронила столовый прибор!"
+    m "Oh, ich habe das Besteck fallen lassen!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:630
 translate german ep210_dialogues5_julia_3_741cfc3b:
@@ -1379,8 +1379,8 @@ translate german ep210_dialogues5_julia_3_76395480:
 
     # cafe_barista "Ваша вилка, Мэм..."
     # cafe_barista "И, кстати, если Вам интересно узнать, то..."
-    cafe_barista "Ваша вилка, Мэм..."
-    cafe_barista "И, кстати, если Вам интересно узнать, то..."
+    cafe_barista "Ihre Gabel, gnädige Frau ..."
+    cafe_barista "Übrigens, wenn Sie an einem Job interessiert sind, dann ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:697
 translate german ep210_dialogues5_julia_3_29a4f6ab:
@@ -1394,15 +1394,15 @@ translate german ep210_dialogues5_julia_3_ed3375c8:
     # m "Попрошу Вас не беспокоить нас!!!"
     # m "У нас важный разговор, Вы мешаете нам!"
     # m "Исчезните!!!"
-    m "Попрошу Вас не беспокоить нас!!!"
-    m "У нас важный разговор, Вы мешаете нам!"
-    m "Исчезните!!!"
+    m "Ich bitte Sie, uns nicht zu stören !!!"
+    m "Wir haben ein wichtiges Gespräch, Sie stören uns!"
+    m "Verschwinde!!!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:707
 translate german ep210_dialogues5_julia_3_271a56c0:
 
     # cafe_barista "Да, Мэм. конечно! Не смею вам мешать..."
-    cafe_barista "Да, Мэм. конечно! Не смею вам мешать..."
+    cafe_barista "Ja, gnädige Frau. natürlich! Ich wage es nicht, Sie zu belästigen ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:719
 translate german ep210_dialogues5_julia_3_40b27cec:
@@ -1518,7 +1518,7 @@ translate german ep210_dialogues5_julia_3_f4596bd4:
 translate german ep210_dialogues5_julia_3_2ed278de:
 
     # cafe_barista "С вас $ 25!"
-    cafe_barista "С вас $ 25!"
+    cafe_barista "Das macht 25 Dollar!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:833
 translate german ep210_dialogues5_julia_3_3f613e37:
@@ -1526,15 +1526,15 @@ translate german ep210_dialogues5_julia_3_3f613e37:
     # m "Я не ела это пирожное и не буду платить за него!"
     # m "Это не вопрос денег."
     # m "Это вопрос принципа!"
-    m "Я не ела это пирожное и не буду платить за него!"
-    m "Это не вопрос денег."
-    m "Это вопрос принципа!"
+    m "Ich habe diesen Kuchen nicht gegessen und werde ihn auch nicht bezahlen!"
+    m "Das ist keine Frage des Geldes."
+    m "Das ist eine Grundsatzfrage!"
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:839
 translate german ep210_dialogues5_julia_3_44580ba5:
 
     # cafe_barista "Хорошо, мэм. Тогда $ 15."
-    cafe_barista "Хорошо, мэм. Тогда $ 15."
+    cafe_barista "Alles klar. Dann 15 Dollar."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:852
 translate german ep210_dialogues5_julia_4_1_bec1c6c4:
@@ -1717,8 +1717,8 @@ translate german ep210_dialogues5_julia_5_7384f903:
 
     # m "Тебе приятно, Юлия?"
     # julia "Мне приятно, Миссис Бакфетт..."
-    m "Тебе приятно, Юлия?"
-    julia "Мне приятно, Миссис Бакфетт..."
+    m "Gefällt es dir, Julia?"
+    julia "Ich freue mich, Frau Buckfett ..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:1069
 translate german ep210_dialogues5_julia_5_2db32c90:
@@ -1820,21 +1820,21 @@ translate german strings:
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:4
     old "Поцеловать Юлию"
-    new ""
+    new "Küsse Julia"
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:4
     old "Сделать Юлии массаж. (требуется ур.4) (disabled)"
-    new ""
+    new "Gib Julia eine Massage. (Stufe 4 erforderlich) (deaktiviert)"
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:4
     old "Пригласить Юлию на второе свидание. (в следующем обновлении) (disabled)"
-    new ""
+    new "Lade Julia zu einem zweiten Date ein. (im nächsten Update) (deaktiviert)"
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:362
     old "Идти на свидание к Юлии."
-    new ""
+    new "Verabrede dich mit Julia."
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:594
     old "Не заглядывать. (завершение сюжета с Юлией)"
-    new ""
+    new "Gehe nicht hin. (Ende der Handlung mit Julia)"
 

@@ -16,5 +16,5 @@ translate german strings:
 
     # game/Quests/EP2_10/EP210_Quests_Pub.rpy:98
     old "Сделать пакость..."
-    new ""
+    new "Mach einen schmutzigen Trick ..."
 

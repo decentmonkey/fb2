@@ -232,7 +232,7 @@ translate english ep210_dialogues3_bardie_erik_betty_2_b2fa65fd:
     # betty "Я!"
     # betty "Не буду!"
     # betty "Этого делать!"
-    betty "I!"
+    betty "ME!"
     betty "I will not!"
     betty "Do it!"
 
@@ -502,7 +502,7 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues3_bardie_erik_betty.rpy:132
     old "Послать малявку и уйти."
-    new "Send the little one and leave."
+    new "Tell the pip-squeak to fuck off and leave."
 
 # TODO: Translation updated at 2020-01-16 22:17
 
@@ -511,8 +511,8 @@ translate english ep210_dialogues3_bardie_erik_betty_1a_87797c12:
 
     # mt "Мне показалось или здесь был какой-то звук?"
     # mt "Кажется, кричала Бетти. Интересно на кого?"
-    mt "Мне показалось или здесь был какой-то звук?"
-    mt "Кажется, кричала Бетти. Интересно на кого?"
+    mt "Did I hear something? I had the feeling..."
+    mt "Betty seemed to shout, I wonder, why?"
 
 # game/Quests/EP2_10/ep210_dialogues3_bardie_erik_betty.rpy:140
 translate english ep210_dialogues3_bardie_erik_betty_2_38b5b8b5:

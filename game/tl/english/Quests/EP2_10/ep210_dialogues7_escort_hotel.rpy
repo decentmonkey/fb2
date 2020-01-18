@@ -8,11 +8,11 @@ translate english ep210_dialogues7_escort_hotel_1_1115b3b3:
     # mt "Как он посмел так со мной обращаться?!"
     # mt "Сволочь!"
     # mt "Почему меня, такую добрую и красивую женщину, окружают одни подлецы?!"
-    mt "I hope I do not see this pervert Philip today ..."
+    mt "I hope I won't see this pervert Philip today..."
     mt "It was awful!"
-    mt "How dare he treat me like that ?!"
-    mt "You bastard!"
-    mt "Why am I, such a kind and beautiful woman, surrounded by some scoundrels ?!"
+    mt "How dare he treat me like that?!"
+    mt "That bastard!"
+    mt "Why am I, such a kind and beautiful woman, surrounded by scoundrels?!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:13
 translate english ep210_dialogues7_escort_hotel_1_a7bd557d:
@@ -20,9 +20,9 @@ translate english ep210_dialogues7_escort_hotel_1_a7bd557d:
     # hotel_staff "Мэм... Добрый вечер, Мэм..."
     # m "Что?"
     # mt "Что могло понадобиться этому неудачнику от меня?!"
-    hotel_staff "Ma'am ... Good evening, Ma'am ..."
+    hotel_staff "Ma'am... Good evening, Ma'am..."
     m "What?"
-    mt "What could this loser need from me ?!"
+    mt "What could this loser need from me?!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:21
 translate english ep210_dialogues7_escort_hotel_1_0a63eb3e:
@@ -32,9 +32,9 @@ translate english ep210_dialogues7_escort_hotel_1_0a63eb3e:
     # mt "Когда мерзавец Филипп заставил меня..."
     # mt "Делать всякие его извращенские гадости!"
     mt "I remember this loser!"
-    mt "It was he who was in the toilet when I ..."
-    mt "When the bastard Philip made me ..."
-    mt "To do all sorts of perverted nasty things to him!"
+    mt "He was in the toilet when I..."
+    mt "When the bastard Philip made me..."
+    mt "Do all sorts of nasty perverted things with him!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:27
 translate english ep210_dialogues7_escort_hotel_1_c78569db:
@@ -42,7 +42,7 @@ translate english ep210_dialogues7_escort_hotel_1_c78569db:
     # hotel_staff "Один наш очень уважаемый клиент сказал мне, что..."
     # hotel_staff "..."
     # m "Что?"
-    hotel_staff "One of our very respected clients told me that ..."
+    hotel_staff "One of our very respected clients told me that..."
     hotel_staff "..."
     m "What?"
 
@@ -51,8 +51,8 @@ translate english ep210_dialogues7_escort_hotel_1_ec0340a9:
 
     # hotel_staff "Кхм... Что я могу договориться и..."
     # hotel_staff "Вам не нужно будет оплачивать Ваш ужин, Мэм."
-    hotel_staff "Ahem ... What can I agree on and ..."
-    hotel_staff "You won’t have to pay for your dinner, ma'am."
+    hotel_staff "Ahem... That I can make a deal with you..."
+    hotel_staff "So you won’t have to pay for your dinner, ma'am."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:34
 translate english ep210_dialogues7_escort_hotel_1_47c904cd:
@@ -60,7 +60,7 @@ translate english ep210_dialogues7_escort_hotel_1_47c904cd:
     # mt "???" 
     # m "Ужин за счет ресторана?"
     mt "???" 
-    m "Dinner at the restaurant?"
+    m "A free dinner at the restaurant?"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:37
 translate english ep210_dialogues7_escort_hotel_1_83e5051d:
@@ -70,10 +70,10 @@ translate english ep210_dialogues7_escort_hotel_1_83e5051d:
     # mt "А не администратор или, хотя бы, официант?"
     # mt "Странно это все..."
     # m "..."
-    mt "Maybe one of my fans decided in this way to make me enjoyable?"
-    mt "Then why does this worthless service representative inform me of this?"
-    mt "And not an administrator, or at least a waiter?"
-    mt "Strange is all ..."
+    mt "Maybe one of my fans decided to please me with this?"
+    mt "Then why do I hear about it from this worthless peasant?"
+    mt "He's not even an administrator, or at least a waiter!"
+    mt "It seems fishy..."
     m "..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:43
@@ -82,7 +82,7 @@ translate english ep210_dialogues7_escort_hotel_1_1161f0d9:
     # hotel_staff "Так Вы позволите, Мэм?"
     # mt "Что позволю?"
     hotel_staff "So will you allow me, ma'am?"
-    mt "What will I let?"
+    mt "What are you talking about?"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:47
 translate english ep210_dialogues7_escort_hotel_1_950e9351:
@@ -105,8 +105,8 @@ translate english ep210_dialogues7_escort_hotel_1_0bcfcd23:
     # hotel_staff "Тогда вы пойдете со мной. И за 50 долларов проведете со мной время..."
     # hotel_staff "В каком-нибудь уединенном месте."
     # hotel_staff "Я знаю одно такое место, Мэм."
-    hotel_staff "If I agree that your dinner will be free for you, then ..."
-    hotel_staff "Then you come with me. And for $ 50, spend time with me ..."
+    hotel_staff "If I arrange you a free dinner, then ..."
+    hotel_staff "Then you'll come with me. And youll spend some time with me for $ 50..."
     hotel_staff "In some secluded place."
     hotel_staff "I know one such place, ma'am."
 
@@ -135,9 +135,9 @@ translate english ep210_dialogues7_escort_hotel_1_99fb8dcb:
     # m "И заговорить со МНОЙ?!"
     # m "!!!"
     m "I can’t believe it!"
-    m "Chaldea, how dare you offer me such a thing ?!"
-    m "How dare you even approach my table ?!"
-    m "And talk to ME ?!"
+    m "How dare you suggest such a thing to me, you lowly peasant?!"
+    m "How dare you even approach my table?!"
+    m "And talk to ME?!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:73
@@ -147,8 +147,8 @@ translate english ep210_dialogues7_escort_hotel_1_89f9e800:
     # m "Еще слово - и я сделаю так. Что тебя сегодня же вышвырнут с этой работы!!!"
     # m "Пошел вон отсюда!!!"
     # m "!!!"
-    m "Worthless loser!"
-    m "Another word - and I will arrange that today you will be kicked out of this job !!!"
+    m "You worthless loser!"
+    m "Another word - and I will make sure they kick you out from this place today!!!"
     m "Get out of here!!!"
     m "!!!"
 
@@ -164,9 +164,9 @@ translate english ep210_dialogues7_escort_hotel_1_6807851d:
     # mt "Мало того, что этот мерзавец сказал этому неудачнику..."
     # mt "Что можно купить меня..."
     # mt "Так еще и за 50 долларов!!!"
-    mt "Not only did this bastard tell this loser ..."
+    mt "Not only did that bastard tell this loser..."
     mt "That I can be bought..."
-    mt "But also for $ 50 !!!"
+    mt "He also named a price! $ 50 !!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:89
 translate english ep210_dialogues7_escort_hotel_1_56bb04d1:
@@ -174,15 +174,15 @@ translate english ep210_dialogues7_escort_hotel_1_56bb04d1:
     # m "!!!"
     # m "За 50 долларов ты можешь пойти и сам с собой провести время!"
     m "!!!"
-    m "For $ 50 you can go and spend time with yourself!"
+    m "For $ 50 you can go and spend some time with yourself!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:92
 translate english ep210_dialogues7_escort_hotel_1_bfcf2e42:
 
     # hotel_staff "Мэм, но ведь... Помимо этих 50 долларов..."
     # hotel_staff "Вам не нужно будет оплачивать Ваш чек."
-    hotel_staff "Ma'am, but ... Besides those $ 50 ..."
-    hotel_staff "You will not need to pay your bill."
+    hotel_staff "Ma'am, but... Along with those $ 50..."
+    hotel_staff "You won't need to pay your restaraunt bill."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:95
 translate english ep210_dialogues7_escort_hotel_1_8f36ea57:
@@ -190,13 +190,13 @@ translate english ep210_dialogues7_escort_hotel_1_8f36ea57:
     # m "И что?!"
     # m "Ужин я и сама могу оплатить!"
     m "So what?!"
-    m "I can pay for dinner myself!"
+    m "I can pay for the dinner myself!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:98
 translate english ep210_dialogues7_escort_hotel_1_a0b15db9:
 
     # mt "Хотя ужинать здесь чертовски дорого для меня сейчас..."
-    mt "Although dining here is damn expensive for me now ..."
+    mt "Although eating here is damn expensive for me right now..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:100
 translate english ep210_dialogues7_escort_hotel_1_7938a00f:
@@ -215,8 +215,8 @@ translate english ep210_dialogues7_escort_hotel_1_24cfda66:
     # mt "С другой стороны... 55 долларов... Они не будут лишними."
     # mt "А если кто-нибудь узнает?!"
     mt "This is all disgusting!"
-    mt "On the other hand ... 55 dollars ... They could be helpful."
-    mt "And if anyone finds out ?!"
+    mt "On the other hand... 55 dollars... They could be helpful."
+    mt "And what if someone finds out?!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:109
 translate english ep210_dialogues7_escort_hotel_1_be49c468:
@@ -230,7 +230,7 @@ translate english ep210_dialogues7_escort_hotel_1_be49c468:
 translate english ep210_dialogues7_escort_hotel_1_bff2ac65:
 
     # hotel_staff "Мэм, Вы можете не переживать. Об этом никто не узнает."
-    hotel_staff "Ma'am, you can not worry. No one will know about this."
+    hotel_staff "Don't worry, ma'am. No one will know about this."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:115
 translate english ep210_dialogues7_escort_hotel_1_4bb7ded8:
@@ -241,10 +241,10 @@ translate english ep210_dialogues7_escort_hotel_1_4bb7ded8:
     # mt "Зато у меня прибавится 55 долларов. Плюс бесплатный ужин."
     # mt "И я не собираюсь делать ничего из такого, что требовал Филипп от меня..."
     # mt "..."
-    mt "Heck! I really need this money ..."
-    mt "I can threaten this loser with dismissal if he tells someone ..."
+    mt "Heck! I really need money..."
+    mt "I can threaten this loser into keeping his mouth shut or else he gest fired..."
     mt "Then he will be scared and nobody will ever know about it."
-    mt "But I will have 55 dollars added. Plus a free dinner."
+    mt "And I will have 55 dollars. Plus a free dinner."
     mt "And I'm not going to do anything that Philip demanded of me ..."
     mt "..."
 
@@ -254,15 +254,15 @@ translate english ep210_dialogues7_escort_hotel_1_2eb937fa:
     # m "Ты пожалеешь, если расскажешь об этом хоть одной живой душе!"
     # m "Я сделаю так, что тебя выкинут с работы!"
     # m "И ты после этого не сможешь устроиться на работу даже..."
-    m "You will regret it if you tell at least one living soul about it!"
-    m "I'll make you kick out of work!"
-    m "And after that you won’t be able to get a job even ..."
+    m "You will regret it if you tell one living soul about it!"
+    m "I'll make so they kick you out!"
+    m "And after that you won’t be able to get a job even..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:130
 translate english ep210_dialogues7_escort_hotel_1_aee8074b:
 
     # m "Даже посудомойщиком в какой-нибудь грязной дыре в трущобах!"
-    m "Even a dishwasher in some dirty hole in a slum!"
+    m "Even as a dishwasher in some dirty hole in the slums!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:133
 translate english ep210_dialogues7_escort_hotel_1_0040eca6:
@@ -270,9 +270,9 @@ translate english ep210_dialogues7_escort_hotel_1_0040eca6:
     # m "Думаю, ты догадываешься о том..."
     # m "Что у меня много знакомых, которые легко смогут это устроить..."
     # m "Я большой и влиятельный человек в этом городе!"
-    m "I think you can guess ..."
-    m "That I have many friends who can easily arrange this ..."
-    m "I am a big and influential person in this city!"
+    m "I think you understand..."
+    m "That I have many friends who can easily arrange this..."
+    m "I am a big person and I have a ton of influence in this city!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:137
 translate english ep210_dialogues7_escort_hotel_1_a44e7980:
@@ -288,9 +288,9 @@ translate english ep210_dialogues7_escort_hotel_1_007d0ff0:
     # m "Проституток?!"
     # m "!!!"
     # m "По-твоему, я проститутка?!"
-    m "Prostitutes ?!"
+    m "Prostitutes?!"
     m "!!!"
-    m "Do you think I'm a prostitute ?!"
+    m "Do you think I'm a prostitute?!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:146
 translate english ep210_dialogues7_escort_hotel_1_1c6fd7a3:
@@ -300,8 +300,8 @@ translate english ep210_dialogues7_escort_hotel_1_1c6fd7a3:
     # hotel_staff "Никто из руководства разбираться не будет."
     # hotel_staff "Меня просто уволят и все."
     hotel_staff "No ma'am! Of course not!!!"
-    hotel_staff "Simply..."
-    hotel_staff "None of the management will understand."
+    hotel_staff "It's just..."
+    hotel_staff "The management won't investigate it."
     hotel_staff "I’ll just get fired and that's it."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:152
@@ -312,10 +312,10 @@ translate english ep210_dialogues7_escort_hotel_1_e583c2ae:
     # m "Если это какой-то туалет, то даже не думай!"
     # hotel_staff "Мэм, я взял ключи от пустого роскошного номера..."
     # hotel_staff "Мы можем пройти туда незаметно. Нас никто не увидит..."
-    m "What a secluded place?"
+    m "What's that secluded place you talked about?"
     m "..."
-    m "If this is some kind of toilet, then do not even think!"
-    hotel_staff "Ma'am, I took the keys to an empty luxury room ..."
+    m "If it's some kind of toilet, then don't even think about it!"
+    hotel_staff "Ma'am, I took the keys to an empty penthouse..."
     hotel_staff "We can go there unnoticed. Nobody will see us ..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:160
@@ -325,9 +325,9 @@ translate english ep210_dialogues7_escort_hotel_1_6fe45f1a:
     # mt "Минимален риск того, что меня кто-нибудь увидит и..."
     # mt "Догадается, что я оказала услугу за деньги этому неудачнику."
     # m "..."
-    mt "Hmm ... In that case ..."
-    mt "There is minimal risk that someone will see me and ..."
-    mt "Guess that I rendered a favor for the money to this loser."
+    mt "Hmm... In that case ..."
+    mt "There's minimal risk of someone seeing me and..."
+    mt "And finding out that I serviced this fool for a fee."
     m "..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:165
@@ -343,7 +343,7 @@ translate english ep210_dialogues7_escort_hotel_1_9d6d6e44:
 
     # m "Я тебя предупредила, если кто-нибудь узнает..."
     # m "!!!"
-    m "I warned you if anyone finds out ..."
+    m "I warned you. If anyone finds out..."
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:172
@@ -352,15 +352,15 @@ translate english ep210_dialogues7_escort_hotel_1_84c1130f:
     # hotel_staff "Не переживайте, Мэм. Об этом никто никогда не узнает."
     # hotel_staff "Пойдемте, Мэм?"
     hotel_staff "Don’t worry, ma'am. Nobody will ever know about this."
-    hotel_staff "Come on, ma'am?"
+    hotel_staff "Let's go, ma'am?"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:181
 translate english ep210_dialogues7_escort_hotel_2_67f2fac4:
 
     # m "Это и есть твое уединенное место?!"
     # m "Это что вообще?! Служебный коридор?!"
-    m "Is this your secluded place ?!"
-    m "Is that what ?! Service corridor ?!"
+    m "And this is your secluded place ?!"
+    m "What even is this?! Some service hallway?!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:184
 translate english ep210_dialogues7_escort_hotel_2_e6618c21:
@@ -368,7 +368,7 @@ translate english ep210_dialogues7_escort_hotel_2_e6618c21:
     # m "!!!"
     # m "Ты же говорил, что у тебя есть ключи от номера..."
     m "!!!"
-    m "You said you have room keys ..."
+    m "You said you have a key to some room..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:188
 translate english ep210_dialogues7_escort_hotel_2_d9d8bc80:
@@ -376,9 +376,9 @@ translate english ep210_dialogues7_escort_hotel_2_d9d8bc80:
     # hotel_staff "Это у мистера Филиппа есть деньги на номер в отеле."
     # hotel_staff "Он водит в специальные номера всех девушек, которые стоят больше $ 100."
     # hotel_staff "А я всего лишь служащий здесь и у меня нет столько денег."
-    hotel_staff "Mr. Philip has the money for a hotel room."
-    hotel_staff "He brings to special rooms all the girls who cost more than $ 100."
-    hotel_staff "And I'm just an employee here and I don’t have that much money."
+    hotel_staff "I'm not Mr. Philip, you know. He has the money for a hotel room."
+    hotel_staff "He brings all the girls who cost more than $ 100 to special rooms."
+    hotel_staff "And I'm just an employee here so I don’t have that much money."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:192
 translate english ep210_dialogues7_escort_hotel_2_440c3053:
@@ -386,9 +386,9 @@ translate english ep210_dialogues7_escort_hotel_2_440c3053:
     # hotel_staff "Если бы я сразу сказал, что это обычный корридор..."
     # hotel_staff "То Вы не согласились бы, Мэм."
     # hotel_staff "Однако, прошу Вас, поверьте! Здесь никто никогда не ходит!"
-    hotel_staff "If I would have said that this is a normal corridor ..."
+    hotel_staff "If I would have said that this is a simple hallway..."
     hotel_staff "You wouldn't agree, ma'am."
-    hotel_staff "However, please, believe me! Nobody ever walks here!"
+    hotel_staff "But please believe me! Nobody ever walks here!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:197
 translate english ep210_dialogues7_escort_hotel_2_4dfdaca1:
@@ -397,7 +397,7 @@ translate english ep210_dialogues7_escort_hotel_2_4dfdaca1:
     # mt "Сволочь! Наговорил этому неудачнику непонятно что про меня!!!"
     # mt "..."
     mt "This bastard Philip has only enough conscience and money for a dirty toilet!"
-    mt "You bastard! I told this loser that I won't do it !!!"
+    mt "You bastard! I told this loser that I won't do it!!!"
     mt "..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:201
@@ -406,8 +406,8 @@ translate english ep210_dialogues7_escort_hotel_2_78bf1641:
     # mt "Стоп... Он водит в номера только тех, кто стоит дороже $ 100???"
     # mt "Но Я... Вот сволочь!!!"
     # mt "Ненавижу его!"
-    mt "Stop ... He leads to the rooms only those who cost more than $ 100 ???"
-    mt "But I ... you bastard !!!"
+    mt "Wait... He rents a room only for those who cost more than $ 100???"
+    mt "And I... that bastard!!!"
     mt "I hate him!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:205
@@ -416,29 +416,29 @@ translate english ep210_dialogues7_escort_hotel_2_5daa885b:
     # hotel_staff "Кхм..." 
     # hotel_staff "Мэм, мне очень хотелось бы, чтобы Вы..."
     # hotel_staff "Поработали своим ротиком..." 
-    hotel_staff "Ahem ..." 
-    hotel_staff "Ma'am, I would really like you to ..."
-    hotel_staff "Work with your mouth ..." 
+    hotel_staff "Ahem..." 
+    hotel_staff "Ma'am, I would really like you to..."
+    hotel_staff "Work with your mouth..." 
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:211
 translate english ep210_dialogues7_escort_hotel_2_89d36db4:
 
     # hotel_staff "У Вас очень удобный для члена ротик..."
-    hotel_staff "Your mouth is very comfortable for a wiener ..."
+    hotel_staff "Your mouth is very comfortable for a cock..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:215
 translate english ep210_dialogues7_escort_hotel_2_2b7ddd6e:
 
     # hotel_staff "Мне в прошлый раз очень понравилось..."
     # hotel_staff "И мне хочется повторить..."
-    hotel_staff "I really liked the last time ..."
-    hotel_staff "And I want to repeat it ..."
+    hotel_staff "I really liked it last time..."
+    hotel_staff "And I want to repeat it..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:220
 translate english ep210_dialogues7_escort_hotel_2_89d36db4_1:
 
     # hotel_staff "У Вас очень удобный для члена ротик..."
-    hotel_staff "Your mouth is very comfortable for a wiener ..."
+    hotel_staff "Your mouth is very comfortable for a cock..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:226
 translate english ep210_dialogues7_escort_hotel_2_674db6ec:
@@ -447,7 +447,7 @@ translate english ep210_dialogues7_escort_hotel_2_674db6ec:
     # m "Да как ты смеешь так со мной говорить?!"
     # m "!!!"
     m "What?!"
-    m "How dare you talk to me like that ?!"
+    m "How dare you talk to me like that?!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:230
@@ -457,8 +457,8 @@ translate english ep210_dialogues7_escort_hotel_2_97de3cbd:
     # hotel_staff "Так сказал мистер Филипп. А еще он сказал, что Вы согласитесь..."
     # hotel_staff "Я отказался от Вашего предложения в прошлый раз..."
     hotel_staff "But ma'am ..."
-    hotel_staff "So said Mr. Philip. He also said that you would agree ..."
-    hotel_staff "I declined your offer last time ..."
+    hotel_staff "Mr. Philip told me to say that. He also said that you would agree..."
+    hotel_staff "I declined your offer last time..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:234
 translate english ep210_dialogues7_escort_hotel_2_9cfd9e2f:
@@ -466,9 +466,9 @@ translate english ep210_dialogues7_escort_hotel_2_9cfd9e2f:
     # hotel_staff "Но потом жалел об этом. Я... Я передумал."
     # hotel_staff "И хочу, чтобы Вы сделали это, Мэм..."
     # mt "Этот неудачник Филипп еще пожалеет об этом!"
-    hotel_staff "But then he regretted it. I ... I changed my mind."
-    hotel_staff "And I want you to do this, ma'am ..."
-    mt "This loser Philip will still regret it!"
+    hotel_staff "But then I regretted it. I... I changed my mind."
+    hotel_staff "And I want you to do this, ma'am..."
+    mt "This loser Philip will regret it!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:239
 translate english ep210_dialogues7_escort_hotel_2_0a5616b8:
@@ -484,7 +484,7 @@ translate english ep210_dialogues7_escort_hotel_2_2e3c6062:
     # m "Никчемный неудачник!"
     m "How dare you offer me that?"
     m "!!!"
-    m "Worthless loser!"
+    m "You worthless loser!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:248
 translate english ep210_dialogues7_escort_hotel_2_8a148dd1:
@@ -493,7 +493,7 @@ translate english ep210_dialogues7_escort_hotel_2_8a148dd1:
     # m "Я ни за что не стану делать этого!!!"
     # m "!!!"
     m "Keep yourself the 55 dollars and entertain yourself!"
-    m "I will never do this !!!"
+    m "I will never do this!!!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:257
@@ -503,26 +503,26 @@ translate english ep210_dialogues7_escort_hotel_2_515ce2b6:
     # hotel_staff "Просто я очень... Стесняюсь... И никак не хотел Вас обидеть."
     # hotel_staff "..."
     hotel_staff "Ma'am, I'm sorry if you feel uncomfortable ..."
-    hotel_staff "It's just that I’m very ... Shy ... And I didn’t mean to offend you."
+    hotel_staff "It's just that I’m very... shy... and I didn’t mean to offend you."
     hotel_staff "..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:261
 translate english ep210_dialogues7_escort_hotel_2_4a1c5312:
 
     # m "Ну и отлично! Тогда я пошла."
-    m "So that's great! I will be going."
+    m "That's great then! I'll be going."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:263
 translate english ep210_dialogues7_escort_hotel_2_9d38bf90:
 
     # mt "Достаточно и того, что мне не нужно оплачивать чек."
-    mt "It’s enough that I don’t have to pay a check."
+    mt "Not paying for my dinner will do."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:265
 translate english ep210_dialogues7_escort_hotel_2_989b24dd:
 
     # hotel_staff "Мэм, в таком случае. Я вынужден буду сообщить охране, что Вы не оплатили свой чек."
-    hotel_staff "Ma'am, in that case. I will be forced to inform the guard that you did not pay your check."
+    hotel_staff "Ma'am, in that case I will be forced to inform the guards that you didn't pay your bill."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:268
 translate english ep210_dialogues7_escort_hotel_2_a0164c57:
@@ -534,21 +534,21 @@ translate english ep210_dialogues7_escort_hotel_2_a0164c57:
 translate english ep210_dialogues7_escort_hotel_2_457d2baf:
 
     # hotel_staff "Мэм, простите, но я жду, когда Вы начнете..."
-    hotel_staff "Ma'am, I'm sorry, but I'm waiting for you to start ..."
+    hotel_staff "Ma'am, I'm sorry, but I'm waiting for you to begin..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:272
 translate english ep210_dialogues7_escort_hotel_2_ecdbdbe2:
 
     # mt "Черт! И зачем я только согласилась?!"
-    mt "Heck! And why did I just agree ?!"
+    mt "Fuck! Why did I agree to this?!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:275
 translate english ep210_dialogues7_escort_hotel_2_657e00cf:
 
     # mt "Моника, неужели ты сейчас сделаешь это?!"
     # mt "Но ведь 55 долларов не будут лишними..."
-    mt "Monica, will you really do it now ?!"
-    mt "But 55 dollars will not be superfluous ..."
+    mt "Monica, will you really do it?!"
+    mt "But these 55 dollars will really help..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:278
 translate english ep210_dialogues7_escort_hotel_2_a2abfdb2:
@@ -556,9 +556,9 @@ translate english ep210_dialogues7_escort_hotel_2_a2abfdb2:
     # mt "Да и я уже свыклась с мыслью, что мне не надо платить за счет в ресторане..."
     # mt "..."
     # mt "К черту! Все-равно об этом никто не узнает..."
-    mt "Yes, and I already got used to the idea that I do not have to pay the bill in a restaurant ..."
+    mt "Besides, I already got used to the idea that I won't have to pay the bill in the restaurant..."
     mt "..."
-    mt "To hell! Anyway, no one will know about it ..."
+    mt "To hell with it! No one will know about it anyway..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:282
 translate english ep210_dialogues7_escort_hotel_2_40b06156:
@@ -566,9 +566,9 @@ translate english ep210_dialogues7_escort_hotel_2_40b06156:
     # mt "А я в такой ситуации, когда приходится идти на жертвы..."
     # mt "Хотя я никогда не предполагала, что жертвой будет необходимость трогать член какого-то халдея..."
     # mt "Моими восхитительными губами... О БОЖЕ!!!"
-    mt "And I am in a situation where I have to make sacrifices ..."
-    mt "Although I never imagined that the sacrifice would be to touch the dick of some servant ..."
-    mt "My delightful lips ... OH GOD !!!"
+    mt "And I am in a situation where I have to make sacrifices..."
+    mt "Although I never imagined that the sacrifice would be to touching some bellboy's dick..."
+    mt "With my delightful lips ... OH GOD!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:286
 translate english ep210_dialogues7_escort_hotel_2_e106f39d:
@@ -576,8 +576,8 @@ translate english ep210_dialogues7_escort_hotel_2_e106f39d:
     # hotel_staff "Мэм... Простите... Я жду..."
     # hotel_staff "Мне надо скорее закончить, ведь меня ждут важные дела..."
     # hotel_staff "В отеле много гостей и мне надо предложить каждому отести его одежду в гардероб..."
-    hotel_staff "Ma'am ... I'm sorry ... I'm waiting ..."
-    hotel_staff "I need to finish soon, because important things are waiting for me ..."
+    hotel_staff "Ma'am... Excuse me... I'm still waiting..."
+    hotel_staff "I need to finish soon, important things are waiting for me ..."
     hotel_staff "The hotel has many guests and I need to invite everyone to take his clothes to the wardrobe ..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:290
@@ -585,8 +585,8 @@ translate english ep210_dialogues7_escort_hotel_2_7eba29db:
 
     # mt "Это... Важные дела?!"
     # mt "Он считает это важнее того, что перед ним стою Я?!"
-    mt "This is ... Important matters ?!"
-    mt "He considers this more important than the fact that I am standing in front of him ?!"
+    mt "This is... important matters to you?!"
+    mt "He considers this more important than the fact that I am standing in front of him?!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:293
 translate english ep210_dialogues7_escort_hotel_2_82249b71:
@@ -594,8 +594,8 @@ translate english ep210_dialogues7_escort_hotel_2_82249b71:
     # hotel_staff "Мэм. Если Вы не решитесь, то я вынужден буду уйти."
     # hotel_staff "А Вы - платить за счет в ресторане..."
     # mt "!!!"
-    hotel_staff "Ma'am. If you do not decide, then I will be forced to leave."
-    hotel_staff "And you - pay the bill in a restaurant ..."
+    hotel_staff "Ma'am. If you do not decide, I'll have to leave."
+    hotel_staff "And you'll have to pay the bill in the restaurant ..."
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:298
@@ -633,32 +633,32 @@ translate english ep210_dialogues7_escort_hotel_2_d16c8ee7:
 
     # reception "Ага!!! Я так и знала!!!"
     # reception "Тебе нельзя пользоваться услугами нелегальных шлюх!"
-    reception "Yeah !!! I knew it!!!"
-    reception "You cannot use the services of illegal whores!"
+    reception "Yeah!!! I knew it!!!"
+    reception "You're prohibited from using services of illegal whores!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:312
 translate english ep210_dialogues7_escort_hotel_2_daf05117:
 
     # hotel_staff "А... Что... Нет-нет!"
     # hotel_staff "Я не..."
-    hotel_staff "Ah ... What ... No, no!"
-    hotel_staff "I do not..."
+    hotel_staff "Ah... What... No, no!"
+    hotel_staff "I didin't..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:318
 translate english ep210_dialogues7_escort_hotel_2_9ed146f3:
 
     # reception "И кто посмел оказывать этому халдею такие услуги?!"
     # reception "Ага! Я так и знала, что это ты, шлюха!"
-    reception "And who dared to offer such services to this servant ?!"
-    reception "Yeah! I knew that it was you, whore!"
+    reception "And who dared to offer such services to this bellboy?!"
+    reception "Yeah! I knew that it was you, you whore!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:321
 translate english ep210_dialogues7_escort_hotel_2_c7ea3606:
 
     # reception "Еще раз тут появишься - сдам тебя полиции!!!"
     # reception "А сейчас быстро пошла отсюда, пока я не позвала охрану!"
-    reception "Once again you will appear here - I'll hand you over to the police !!!"
-    reception "And now you dissapear from here, or I call the security!"
+    reception "If I see you again even once - I'll hand you over to the police!!!"
+    reception "And now get the hell out of here before I call the security!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:325
 translate english ep210_dialogues7_escort_hotel_2_0a5616b8_1:
@@ -683,14 +683,14 @@ translate english ep210_dialogues7_escort_hotel_3_56a9a62e:
     # mt "Ее мнение для меня ничего не значит!"
     mt "What a nightmare!!!"
     mt "Monica, you did a blowjob to some hotel employee!"
-    mt "Unsure loser!"
-    mt "And this worthless administrator saw everything !!!"
+    mt "An insecure loser!"
+    mt "And this worthless administrator saw everything!!!"
     mt "!!!"
     mt "What should I do now?!"
-    mt "She thought I was a prostitute! But this is not so! (grunt)"
+    mt "She thought I was a prostitute! But it's not true! (grunt)"
     mt "..."
     mt "From the other side..."
-    mt "What does it matter to me what some kind of worthless administrator thinks?"
+    mt "Why do I care what some kind of worthless administrator thinks?"
     mt "Useless!"
     mt "Her opinion means nothing to me!"
 
@@ -701,15 +701,15 @@ translate english ep210_dialogues7_escort_hotel_4_efcc141d:
     # mt "Как он мог предлагать мне такую мерзость?!"
     # mt "Неужели он думал, что я, Моника Бакфетт, соглашусь на подобное?! Фи!"
     mt "Worthless employee of a worthless hotel!"
-    mt "How could he offer me such an abomination ?!"
-    mt "Did he really think that I, Monica Buckfett, would agree to such a thing ?! Phi!"
+    mt "How could he offer me such horible things?!"
+    mt "Did he really think that I, Monica Buckfett, would agree to do such a thing?! Ew!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:356
 translate english ep210_dialogues7_escort_hotel_5_a025b5b3:
 
     # mt "Я не хочу больше возвращаться в этот никчемный ресторан!"
     # mt "По крайней мере, не сегодня..."
-    mt "I do not want to return to this worthless restaurant anymore!"
+    mt "I don't want to return to this worthless restaurant anymore!"
     mt "For today, at least..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:366
@@ -720,7 +720,7 @@ translate english ep210_dialogues7_escort_hotel_5_1_6b5fe713:
     # m "Стоит тут какая-то ничегонезначащая низкоквалифицированная служащая!"
     m "I don’t care what you think!"
     m "Your opinion means nothing to me!"
-    m "There is some kind of unimportant low-skilled employee here!"
+    m "You're just some kind of unimportant low-skilled employee standing before me!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:370
 translate english ep210_dialogues7_escort_hotel_5_1_3d919782:
@@ -728,16 +728,16 @@ translate english ep210_dialogues7_escort_hotel_5_1_3d919782:
     # m "Какого-то второсортного отеля!"
     # m "Никчемная! Бесполезная!"
     # m "И пытается строить из себя тут главную! Это смешно!"
-    m "Some second-rate hotel!"
+    m "Working in some second-rate hotel!"
     m "Worthless! Useless!"
-    m "And it's trying to proclaim it's importance! That's funny!"
+    m "And you're trying to demonstrate your superiority! That's funny!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:375
 translate english ep210_dialogues7_escort_hotel_5_1_dbfacf71:
 
     # reception "Всегда рады видеть Вас в нашем отеле!" 
     # m "Сучка!!!"
-    reception "We are always glad to see you at our hotel!" 
+    reception "We are always glad to see you in our hotel!" 
     m "Bitch!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:388
@@ -752,17 +752,17 @@ translate english ep210_dialogues7_escort_hotel_6_0b252955:
     # reception "Это снова ты?! Иди отсюда!"
     # reception "Я знаю, что ты сюда пришла заниматься проституцией."
     # reception "Нелегально этого делать нельзя!"
-    reception "Is it you again ?! Get out!"
-    reception "I know that you came here to engage in prostitution."
-    reception "It is illegal to do this!"
+    reception "It's you again?! Get out!"
+    reception "I know you came here to engage in prostitution."
+    reception "It is illegal!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:396
 translate english ep210_dialogues7_escort_hotel_6_d844fa61:
 
     # m "Я пришла в ресторан, просто поужинать."
     # m "Что мне сделать, чтоб ты меня пропустила?"
-    m "I came because of the restaurant, just for dinner."
-    m "What should I do to let me enter?"
+    m "I came to the restaurant, just for dinner."
+    m "What should I do for you to let me enter?"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:399
 translate english ep210_dialogues7_escort_hotel_6_7300c5af:
@@ -784,7 +784,7 @@ translate english ep210_dialogues7_escort_hotel_6_ca816f27:
 translate english ep210_dialogues7_escort_hotel_6_0bad1949:
 
     # reception "Влиятельная женщина? Которая за деньги сосет член в коридоре у служащего отеля?"
-    reception "Influential woman? Which for money sucks a member in the hallway of a hotel?"
+    reception "Influential woman? You? That's why you suck some bellboy's dick in a service hallway?"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:408
 translate english ep210_dialogues7_escort_hotel_6_0113b610:
@@ -794,7 +794,7 @@ translate english ep210_dialogues7_escort_hotel_6_0113b610:
     # mt "Что же мне придумать?!"
     mt "Fuck!!!"
     mt "!!!"
-    mt "What should I come up with ?!"
+    mt "What should I come up with?!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:413
 translate english ep210_dialogues7_escort_hotel_6_dc0e42e7:
@@ -802,7 +802,7 @@ translate english ep210_dialogues7_escort_hotel_6_dc0e42e7:
     # m "!!!"
     # m "Я делал это не за деньги! Это мои личные отношения! И это тебя не должно касаться!"
     m "!!!"
-    m "I did not do it for money! This is my personal relationship! And this should not concern you!"
+    m "I didn't fo it for money! We have a relationship! And this is none of your business!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:417
 translate english ep210_dialogues7_escort_hotel_6_5d61a707:
@@ -810,8 +810,8 @@ translate english ep210_dialogues7_escort_hotel_6_5d61a707:
     # reception "Да? А служащий признался, что ты делала это за деньги."
     # reception "Так что, про личные отношения расскажи кому-нибудь другому..."
     # mt "!!!"
-    reception "Yes? And the employee admitted that you did it for the money."
-    reception "So, tell someone else about personal relationships ..."
+    reception "Really? And our employee admitted that you did it for money."
+    reception "So, go tell someone else about having a relationships with him..."
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:421
@@ -854,7 +854,7 @@ translate english ep210_dialogues7_escort_hotel_6_fbf0bcbb:
     # reception "С уважаемыми посетителями нашего дорогого отеля."
     reception "You have to admit you're a whore."
     reception "Who comes here to have sex for money."
-    reception "With dear visitors of our expensive hotel."
+    reception "With well-respected visitors of our expensive hotel."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:444
 translate english ep210_dialogues7_escort_hotel_6_0a5616b8_1:
@@ -877,10 +877,10 @@ translate english ep210_dialogues7_escort_hotel_6_b8565c81:
     # reception "И естественно, что ты хочешь обслуживать более респектабельных и богатых клиентов."
     # reception "Которых можно найти только здесь, а не на улице."
     # reception "В принципе, по внешнему виду ты подходишь нам..."
-    reception "That you serve customers on the street."
-    reception "And of course, you want to serve more respectable and wealthy customers."
-    reception "Which can only be found here, and not on the street."
-    reception "In principle, in appearance you suit us ..."
+    reception "You walk here by foot, which means you service customers in the streets."
+    reception "And of course, you want to service more respectable and wealthy customers."
+    reception "Who can only be found here, and not on the street."
+    reception "I mean, you look good enough..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:454
 translate english ep210_dialogues7_escort_hotel_6_b37da0e3:
@@ -889,8 +889,8 @@ translate english ep210_dialogues7_escort_hotel_6_b37da0e3:
     # reception "И делиться заработанными деньгами с администрацией."
     # reception "И не строить из себя какую-то леди!"
     reception "But in order to work in our prestigious place, you need to follow the rules."
-    reception "And share the money earned with the administration."
-    reception "And do not make yourself a lady!"
+    reception "And share some of your earnings with the administration."
+    reception "And stop pretending to be a lady!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:458
 translate english ep210_dialogues7_escort_hotel_6_b71ae042:
@@ -898,9 +898,9 @@ translate english ep210_dialogues7_escort_hotel_6_b71ae042:
     # m "Но я леди..."
     # reception "Смотрю, ты снова за свое..."
     # reception "Можешь идти отсюда!"
-    m "But I'm a lady ..."
-    reception "I see, you pretend it again ..."
-    reception "You can go!"
+    m "But I am a lady ..."
+    reception "I see, you're at it again..."
+    reception "Get the hell out then!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:464
 translate english ep210_dialogues7_escort_hotel_6_8b0c5a25:
@@ -915,8 +915,8 @@ translate english ep210_dialogues7_escort_hotel_6_ec3b14d3:
     # m "Да... Я пришла, чтобы заработать денег..."
     # reception "И? Ты леди?"
     m "..."
-    m "Yes ... I came to make money ..."
-    reception "AND? Are you a lady?"
+    m "Yes... I came to make money ..."
+    reception "And? Are you a lady?"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:470
 translate english ep210_dialogues7_escort_hotel_6_88e90a24:
@@ -936,7 +936,7 @@ translate english ep210_dialogues7_escort_hotel_6_89a6cf3e:
 translate english ep210_dialogues7_escort_hotel_6_132b1416:
 
     # m "Да... Я... Я... Шлюха..."
-    m "Yes ... I ... I ... Am a Whore ..."
+    m "Yes... I'm... I'm... a whore..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:479
 translate english ep210_dialogues7_escort_hotel_6_1f23a40e:
@@ -945,7 +945,7 @@ translate english ep210_dialogues7_escort_hotel_6_1f23a40e:
     # reception "А сама пыталась заработать деньги..."
     # reception "Осуществляя незаконные услуги сексуального характера. Нелегально."
     # m "..."
-    reception "Do you admit that you lied to just have dinner at the restaurant?"
+    reception "Do you admit that you lied about just having dinner at the restaurant?"
     reception "And tried to make money ..."
     reception "Carrying out illegal sexual services. Illegally."
     m "..."
@@ -954,7 +954,7 @@ translate english ep210_dialogues7_escort_hotel_6_1f23a40e:
 translate english ep210_dialogues7_escort_hotel_6_722e8148:
 
     # m "Да, признаю."
-    m "Yes, I admit."
+    m "Yes, I admit it."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:488
 translate english ep210_dialogues7_escort_hotel_6_e1888b44:
@@ -962,7 +962,7 @@ translate english ep210_dialogues7_escort_hotel_6_e1888b44:
     # reception "В тот раз... Когда ты пришла сюда с целью снять номер..."
     # reception "И врала что-то про потеряный багаж, про забытую сумочку в такси..."
     # reception "Твоя истинная цель была - продать свое тело кому-то из постояльцев отеля?"
-    reception "That time ... When you came here to rent a room ..."
+    reception "That time... When you came here to rent a room..."
     reception "And lied about something about lost luggage, about a forgotten handbag in a taxi ..."
     reception "Was your true goal - to sell your body to someone from the hotel guests?"
 
@@ -1187,7 +1187,7 @@ translate english ep210_dialogues7_escort_hotel_7_c72f05af:
     # m "Не собираюсь!"
     # m "Раздеваться перед вами!"
     # m "К черту ваш второсортный отель и ваши правила!"
-    m "I!"
+    m "ME!"
     m "Not going to do it!"
     m "Undress in front of you!"
     m "To hell with your second-rate hotel and your rules!"
@@ -2091,7 +2091,7 @@ translate english ep210_dialogues7_escort_hotel_12_1_ab8fa91a:
     mt "I hope today I can earn at least something ..."
     mt "I need money."
     hotel_staff "Uh ma'am?"
-    mt "Worthless loser!"
+    mt "You worthless loser!"
     mt "Because of him the administration found out that I..."
     mt "Was with him for the money!"
     mt "I still remember that!"
@@ -2330,7 +2330,7 @@ translate english ep210_dialogues7_escort_hotel_12_110c33c2:
     client "And then you will be left without money!"
     m "Put them in your ass!"
     m "!!!"
-    m "You bastard!"
+    m "That bastard!"
     m "!!!"
     client "Bitch!"
     m "Fuck you moron!"
@@ -2528,11 +2528,11 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:213
     old "Моника по приказу Филиппа делала служащему отеля минет в туалете"
-    new "Monica on the orders of Philip gave a hotel employee a blowjob in the toilet"
+    new "Monica gave a hotel employee a blowjob in the toilet on Philip's orders"
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:222
     old "Моника была вежлива со служащим отеля и он не остался в туалете, как предлагал ему Филипп."
-    new "Monica was polite with the hotel employee and he did not stay in the toilet, as Philip had suggested."
+    new "Monica was polite with the hotel employee and he didn't stay in the toilet, as Philip had suggested."
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:240
     old "Сделать ему минет."
@@ -2540,15 +2540,15 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:362
     old "Пошла она к черту!"
-    new "She went to hell!"
+    new "She can go to hell!"
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:362
     old "Сказать то, что требует администратор."
-    new "Say what the administrator requires."
+    new "Tell the administrator what she asked."
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:582
     old "Что за бред?! Я не собираюсь раздеваться!"
-    new "What nonsense ?! I'm not going to undress!"
+    new "What the hell?! I'm not going to undress!"
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:582
     old "Раздеться."
@@ -2564,7 +2564,7 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:753
     old "Мне предложили работу в эскорте! Неужели я решусь на такое?! Хотя... Там можно неплохо заработать."
-    new "I was offered an escort job! Can I really decide on this ?! Although ... There you can make good money."
+    new "I was offered an escort job! Will I really agree to this?! Although... I can make good money there."
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:820
     old "Переодеться и идти в ресторан."
@@ -2580,19 +2580,19 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1026
     old "Нет, я не смогу!"
-    new "No I can not!"
+    new "No, I can't!"
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1026
     old "Сделать, как требует клиент."
-    new "Do as the client requires."
+    new "Do what the client asks."
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1071
     old "Пойти на ресепшн и отдать 50 процентов от заработка администратору."
-    new "Go to the reception and give 50 percent of the earnings to the administrator."
+    new "Go to the reception and give 50 percent of earnings to the administrator."
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1145
     old "Вызов к клиенту. Он ждет в кафе."
-    new "Call the customer. He is waiting in a cafe."
+    new "A customer called. He's waiting in a cafe."
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1255
     old "Ударить мерзавца и уйти!"
@@ -2600,7 +2600,7 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1255
     old "Залезть под стол и сделать клиенту минет."
-    new "Climb under the table and give the client a blow job."
+    new "Climb under the table and give the client a blowjob."
 
 # TODO: Translation updated at 2020-01-16 22:17
 
@@ -2616,9 +2616,9 @@ translate english ep210_dialogues7_escort_hotel_1_5f2846a7:
     # mt "Это он тогда был в туалете, когда я..."
     # mt "Когда мерзавец Филипп заставил меня..."
     # mt "Делать всякие его извращенские гадости!"
-    mt "It was he who was in the toilet when I ..."
-    mt "When the bastard Philip made me ..."
-    mt "To do all sorts of perverted nasty things to him!"
+    mt "He was in the toilet when I..."
+    mt "When the bastard Philip made me..."
+    mt "Do all sorts of nasty perverted things with him!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:57
 translate english ep210_dialogues7_escort_hotel_1_be1047d2:
@@ -2626,7 +2626,7 @@ translate english ep210_dialogues7_escort_hotel_1_be1047d2:
     # m "???" 
     # m "Ужин за счет ресторана?"
     m "???" 
-    m "Dinner at the restaurant?"
+    m "A free dinner at the restaurant?"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:68
 translate english ep210_dialogues7_escort_hotel_1_2ceac500:
@@ -2634,21 +2634,21 @@ translate english ep210_dialogues7_escort_hotel_1_2ceac500:
     # hotel_staff "Так Вы позволите, Мэм?"
     # m "Что позволю?"
     hotel_staff "So will you allow me, ma'am?"
-    m "What will I let?"
+    m "What are you talking about?"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:177
 translate english ep210_dialogues7_escort_hotel_1_03090b9c:
 
     # m "Ты пожалеешь, если расскажешь об этом хоть одной живой душе!"
     # m "Я сделаю так, что тебя выкинут с работы!"
-    m "You will regret it if you tell at least one living soul about it!"
-    m "I'll make you kick out of work!"
+    m "You will regret it if you tell one living soul about it!"
+    m "I'll make so they kick you out!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:180
 translate english ep210_dialogues7_escort_hotel_1_f22e0a4d:
 
     # m "И ты после этого не сможешь устроиться на работу даже..."
-    m "And after that you won’t be able to get a job even ..."
+    m "And after that you won’t be able to get a job even..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:285
 translate english ep210_dialogues7_escort_hotel_2_7f1b2644:
@@ -2656,9 +2656,9 @@ translate english ep210_dialogues7_escort_hotel_2_7f1b2644:
     # hotel_staff "Если бы я сразу сказал, что это обычный коридор..."
     # hotel_staff "То Вы не согласились бы, Мэм."
     # hotel_staff "Однако, прошу Вас, поверьте! Здесь никто никогда не ходит!"
-    hotel_staff "Если бы я сразу сказал, что это обычный коридор..."
+    hotel_staff "If I told you before, this is a regular corridor..."
     hotel_staff "You wouldn't agree, ma'am."
-    hotel_staff "However, please, believe me! Nobody ever walks here!"
+    hotel_staff "But please believe me! Nobody ever walks here!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:677
 translate english ep210_dialogues7_escort_hotel_6_b1f79569:
@@ -2666,7 +2666,7 @@ translate english ep210_dialogues7_escort_hotel_6_b1f79569:
     # m "!!!"
     # m "Я делала это не за деньги! Это мои личные отношения! И это тебя не должно касаться!"
     m "!!!"
-    m "Я делала это не за деньги! Это мои личные отношения! И это тебя не должно касаться!"
+    m "I didn't do it for money, it's my private relationship. It doesn't have to bother you!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:767
 translate english ep210_dialogues7_escort_hotel_6_57a264e4:
@@ -2674,13 +2674,13 @@ translate english ep210_dialogues7_escort_hotel_6_57a264e4:
     # m "..."
     # m "Да... Я пришла, чтобы заработать денег..."
     m "..."
-    m "Yes ... I came to make money ..."
+    m "Yes... I came to make money ..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:770
 translate english ep210_dialogues7_escort_hotel_6_1c88d382:
 
     # reception "И? Ты леди?"
-    reception "AND? Are you a lady?"
+    reception "And? Are you a lady?"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:890
 translate english ep210_dialogues7_escort_hotel_6_62ca7f99:
@@ -2722,37 +2722,37 @@ translate english ep210_dialogues7_escort_hotel_7_6d543bf5:
 translate english ep210_dialogues7_escort_hotel_8_enter_restaurant_937f7632:
 
     # reception "Куда собралась? Тебе надо переодеться!"
-    reception "Куда собралась? Тебе надо переодеться!"
+    reception "Where are you going? You have to change your dress!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1371
 translate english ep210_dialogues7_escort_hotel_8_enter_restaurant_910799f0:
 
     # m "Я не на работу. Я просто поесть..."
-    m "Я не на работу. Я просто поесть..."
+    m "I'm not here because of work. I just wanna eat..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1374
 translate english ep210_dialogues7_escort_hotel_8_enter_restaurant_86424ace:
 
     # reception "Хорошо, иди."
     # reception "Но учти, что здесь надо работать и ублажать клиентов, а не отдыхать!"
-    reception "Хорошо, иди."
-    reception "Но учти, что здесь надо работать и ублажать клиентов, а не отдыхать!"
+    reception "Okay, do it."
+    reception "But be aware that you have to work to satisfy our customers. You're not here to relax!"
 
 translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:38
     old "Моника делала минет Филиппу в туалете"
-    new ""
+    new "Monica gave Philip a blowjob in the toilet"
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1218
     old "Снежанна"
-    new ""
+    new "Ruby."
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1357
     old "Работать в эскорте (в следующем апдейте). (disabled)"
-    new ""
+    new "Work with the girls. (in the next update) (disabled)"
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1357
     old "Идти в ресторан."
-    new ""
+    new "Go to the restaurant."
 

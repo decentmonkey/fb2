@@ -1722,7 +1722,7 @@ translate german gallery_monica_office_cabinet_biff_dialogue5_b37fca49:
     # "Что тогда?!"
     m "Ich behalte das Kleid! Es ist meins!"
     biff "Nein! Das kannst du vergessen!"
-    "Ich werde sicher keine 10 $ Nutte in den Klamotten eines Modemagazins herumrennen lassen!"
+    "Ich werde sicher keine 10€ Nutte in den Klamotten eines Modemagazins herumrennen lassen!"
     "Was, wenn jemand das Kleid wieder erkennt?!"
     "Was wäre dann?!"
 
@@ -1730,7 +1730,7 @@ translate german gallery_monica_office_cabinet_biff_dialogue5_b37fca49:
 translate german gallery_monica_office_cabinet_biff_dialogue5_4c122358:
 
     # m "Я поставлю пятно на него!"
-    m "Ich mache einen Fleck drauf!"
+    m "Ich mache einen Felck drauf!"
 
 # game/Gallery/gallery_photoshoots1.rpy:2998
 translate german gallery_monica_office_cabinet_biff_dialogue5_fbfe54da:
