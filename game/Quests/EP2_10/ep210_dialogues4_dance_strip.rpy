@@ -1139,6 +1139,8 @@ label ep210_dialogues4_dance_strip_12:
     call pub_dance_stage_flash()
     customers1 "ДА! ДААААА!!!"
     w
+    img 23191
+    with diss
     sound2 fx_coins_b1
     $ money += 15
     $ monica_strip_tips_today += 15
@@ -1159,6 +1161,8 @@ label ep210_dialogues4_dance_strip_12:
     call pub_dance_stage_flash()
     customers3 "ПОКАЖИ НАМ СВОЮ КИСКУ! ВАУ!!!"
     w
+    img 23191
+    with diss
     sound2 fx_coins_b1
     $ money += 50
     $ monica_strip_tips_today += 50

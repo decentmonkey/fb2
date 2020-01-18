@@ -507,19 +507,20 @@ label ep210_dialogues7_escort_hotel_2:
     img 16287
     with diss
     hotel_staff "МММММММ!"
-    music stop
-    img black_screen
-    with diss
-    stop music
-    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob_2_1.ogg"
-    scene black
-    image videov_Monica_Helper_Blowjob_2_5 = Movie(play="video/v_Monica_Helper_Blowjob_2_5.mkv", fps=30)
-    show videov_Monica_Helper_Blowjob_2_5
-    with fade
-    wclean
-    stop music
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    if game.extra == True:
+        music stop
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob_2_1.ogg"
+        scene black
+        image videov_Monica_Helper_Blowjob_2_5 = Movie(play="video/v_Monica_Helper_Blowjob_2_5.mkv", fps=30)
+        show videov_Monica_Helper_Blowjob_2_5
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     music stop
     img black_screen
     with diss
