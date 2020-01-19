@@ -76,7 +76,7 @@ translate english strings:
 
     # game/Quests/Achievements.rpy:2
     old "Escort Service"
-    new "Escort Service"
+    new "Escort service"
 
     # game/Quests/Achievements.rpy:2
     old "Revenge"

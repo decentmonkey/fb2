@@ -2746,7 +2746,7 @@ translate german strings:
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1218
     old "Снежанна"
-    new "Chantall."
+    new "Chantall"
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1357
     old "Работать в эскорте (в следующем апдейте). (disabled)"

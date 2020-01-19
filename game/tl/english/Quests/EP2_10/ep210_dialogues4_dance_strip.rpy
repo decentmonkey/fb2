@@ -1690,13 +1690,13 @@ translate english ep210_dialogues4_dance_strip_5_0_36ff996b:
     mt "Bitch!"
     mt "!!!"
     mt "..."
-    mt "Maybe to do some dirty tricks on her?"
+    mt "Should I do something awful to her?"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:687
 translate english ep210_dialogues4_dance_strip_5_1_fc6ca22a:
 
     # mt "Лучше не делать этого при свидетелях..."
-    mt "It's better to do that without witnesses ..."
+    mt "I'd better avoid any witnesses..."
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:693
 translate english ep210_dialogues4_dance_strip_5_2_9ccf37fd:
@@ -1748,7 +1748,7 @@ translate english ep210_dialogues4_dance_strip_7_071daf6d:
     mt "This redhead bitch will get even more mad."
     mt "I need to think about it ..."
     mt "..."
-    help "More in the next update!"
+    help "In the next update!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:980
 translate english ep210_dialogues4_dance_strip_8_5cae7e9f:
@@ -1756,7 +1756,7 @@ translate english ep210_dialogues4_dance_strip_8_5cae7e9f:
     # m "..."
     # help "Окрыты не все движения. Требуется [monicaPosesOpenedToDanceClaire]."
     m "..."
-    help "Not all movements are possible. Requires [monicaPosesOpenedToDanceClaire]."
+    help "Not all of the moves are available. [monicaPosesOpenedToDanceClaire] required."
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1106
 translate english ep210_dialogues4_dance_strip_11_c59e502f:
@@ -1775,7 +1775,7 @@ translate english ep210_dialogues4_dance_strip_13_19db5600:
     # mt "Мои трусики чуть не упали перед толпой пьяных неудачников!!!"
     # mt "!!!"
     mt "What a nightmare!"
-    mt "My panty nearly dropped in front of a bunch drunken losers!!!"
+    mt "My panties almost fell off in front of a bunch of drunk losers!!!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1215
@@ -1811,8 +1811,8 @@ translate english ep210_dialogues4_dance_strip_13_0ea6a374:
     # mt "И этим 'кто-то' мог быть только один человек!"
     # mt "Сучка Молли!!!"
     # mt "!!!"
-    mt "It's possible they were manipulated out of a certain reason..."
-    mt "Someone did that on purpose before I used them."
+    mt "Maybe it wasn't an accident that they came undone on me during the dance..."
+    mt "But someone set it up before I put them on!!!"
     mt "!!!"
     mt "And this 'someone' could only be one person!"
     mt "This bitch, Molly!!!"
@@ -1846,14 +1846,14 @@ translate english ep210_dialogues4_dance_strip_15_97cdbd7c:
     # mt "Наверняка, Клэр уже знает о том, что..."
     # mt "Что я стояла почти голой на сцене."
     mt "Claire must already know that I..."
-    mt "I was nearly naked on stage."
+    mt "So I would stand on stage naked."
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1303
 translate english ep210_dialogues4_dance_strip_15_78ce0c97:
 
     # m "И я стояла на сцене, чуть-ли ни сверкая голой попой..."
     # m "То у меня все просто отлично!"
-    m "And I was on stage, nude in front of everyboy..."
+    m "And I stood on stage, my naked ass shining..."
     m "Then everything is just fine!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1307
@@ -1862,13 +1862,13 @@ translate english ep210_dialogues4_dance_strip_15_74258bb8:
     # clare "Да, я уже слышала об этом."
     # clare "Трусики просто так не могли расстегнуться. Их специально кто-то надрезал."
     clare "Yes, I've already heard about it."
-    clare "It's impossible that it happened occasionally. Someone prepared it and made a cut."
+    clare "Your panties couldn't have snapped on their own. Somebody cut them on purpose."
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1346
 translate english ep210_dialogues4_dance_strip_17_28a2e553:
 
     # m "Клэр, не хочешь составить мне компанию на сцене?"
-    m "Claire, do you wanna join me on stage?"
+    m "Claire, do you want to join me on stage?"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1348
 translate english ep210_dialogues4_dance_strip_17_ce5dd127:
@@ -1876,101 +1876,101 @@ translate english ep210_dialogues4_dance_strip_17_ce5dd127:
     # clare "Хорошо, Моника. Выходи на сцену."
     # clare "Я присоединюсь к тебе во время твоего танца."
     # clare "Покажем им, кто здесь звезды!"
-    clare "Fine, go on stage, Monica."
-    clare "I will support you during your dance."
+    clare "Sure, Monica. Get on stage."
+    clare "I'll join you during your dance."
     clare "We'll show them who the reals stars are!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1353
 translate english ep210_dialogues4_dance_strip_17_76a1fba6:
 
     # clare "Я сегодня уже натанцевалась. Давай в другой раз?"
-    clare "I danced already today. Come another time!"
+    clare "I've had enough dancing for today. Maybe another time?"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1367
 translate english ep210_dialogue_5_dance_clare_e177d089:
 
     # clare "Заждалась меня, Моника?"
     # clare "Покажем им, кто здесь звезды!"
-    clare "I've been waiting for you, Monica."
+    clare "Did I keep you waiting for long, Monica?"
     clare "We'll show them who the reals stars are!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1378
 translate english ep210_dialogue_5_dance_strip_5a_13716f83:
 
     # customers1 "Эй, смотри, какие телки!"
-    customers1 "Hey, look at that girls!"
+    customers1 "Hey, look at those chicks!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1380
 translate english ep210_dialogue_5_dance_strip_5a_dda1494d:
 
     # customers2 "Одна - это Клэр, а как зовут другую? Я ее раньше не видел!"
-    customers2 "One of them is Claire, but who is the other girl? I've never seen her before!"
+    customers2 "One of them is Claire, and who's the other one? Haven't seen her before!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1382
 translate english ep210_dialogue_5_dance_strip_5a_86c507a2:
 
     # customers3 "Смотри что они вытворяют! Вау!"
-    customers3 "Let's watch what they are doing. Wow!"
+    customers3 "Check those moves out! Wow!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1384
 translate english ep210_dialogue_5_dance_strip_5a_1226f081:
 
     # customers4 "Красотки! Спускайтесь к нам!"
-    customers4 "Beauties, come done to us!"
+    customers4 "Hey beauties! Come down to us!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1386
 translate english ep210_dialogue_5_dance_strip_5a_460d4924:
 
     # customers5 "Раздевайтесь! Покажите нам свои задницы! Да!"
-    customers5 "Strip! Show us your asses, yeah!"
+    customers5 "Get naked! Show us your asses! Yeah!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1388
 translate english ep210_dialogue_5_dance_strip_5a_0fcfd43b:
 
     # customers1 "Вот это девочки, вау! Посмотрите!"
-    customers1 "This are the girls, wow! Just look at that!"
+    customers1 "Damn! Will you look at these girls!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1390
 translate english ep210_dialogue_5_dance_strip_5a_7ed12fc4:
 
     # customers2 "Раздевайтесь! Покажите нам свои задницы! Да!"
-    customers2 "Strip! Show us your asses, yeah!"
+    customers2 "Get naked! Show us your asses! Yeah!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1392
 translate english ep210_dialogue_5_dance_strip_5a_cabf1eb7:
 
     # customers3 "Покрутитесь на моем члене так же!"
-    customers3 "Move like that on my dick!"
+    customers3 "Wish you'd swirl on my dick like that!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1394
 translate english ep210_dialogue_5_dance_strip_5a_86200db0:
 
     # customers4 "Давай! Поцелуй ее!"
-    customers4 "Come on, kiss her!"
+    customers4 "Come on! Kiss her!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1396
 translate english ep210_dialogue_5_dance_strip_5a_5663f6bf:
 
     # customers5 "Полижи ей киску на сцене!"
-    customers5 "Lick her clit on stage!"
+    customers5 "Lick her pussy right there, on stage!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1398
 translate english ep210_dialogue_5_dance_strip_5a_05eefeeb:
 
     # customers1 "Я сейчас кончу! Вот это шоу!"
-    customers1 "I'm totally done. What a show!"
+    customers1 "What a show! I'm coming!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1400
 translate english ep210_dialogue_5_dance_strip_5a_103e4d1d:
 
     # customers2 "Нереально красиво!"
-    customers2 "Really beautiful!"
+    customers2 "Amazing! Beautiful!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1402
 translate english ep210_dialogue_5_dance_strip_5a_390c1743:
 
     # customers3 "Раздвиньте ножки! Покажите что у вас там!"
-    customers3 "Spread your legs, show us what you've got there!"
+    customers3 "Spread your legs! Show us what you've got there!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1404
 translate english ep210_dialogue_5_dance_strip_5a_eec8a32a:
@@ -1982,7 +1982,7 @@ translate english ep210_dialogue_5_dance_strip_5a_eec8a32a:
 translate english ep210_dialogue_5_dance_strip_5aa1_a0ea98aa:
 
     # customers1 "Эй! Хорош уже! Давайте, раздевайтесь!"
-    customers1 "Hey, it's fine. Undress yourself!"
+    customers1 "Hey! That's enough! Come on, get naked!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1415
 translate english ep210_dialogue_5_dance_strip_5aa1_0b9814cf:
@@ -2000,7 +2000,7 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1344
     old "Предложить Клэр танцевать с Моникой."
-    new "Ask Claire to dance with Monica."
+    new "Offer Claire to dance with Monica."
 
 # TODO: Translation updated at 2020-01-18 12:56
 
@@ -2008,13 +2008,13 @@ translate english strings:
 translate english ep210_dialogues4_dance_strip_12_8353eb25:
 
     # customers1 "ДА! ДААААА!!!"
-    customers1 "Yes. THEEEERE!!!"
+    customers1 "YEAH! YEAAAAAAH!!!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1150
 translate english ep210_dialogues4_dance_strip_12_2e0467f9:
 
     # customers2 "СНИМИ ИХ! СНИМИ!!!"
-    customers2 "DISAPPEAR WITH HER!!!"
+    customers2 "TAKE THEM OFF! COME ON!!!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1160
 translate english ep210_dialogues4_dance_strip_12_10a4c4a6:
@@ -2026,17 +2026,17 @@ translate english ep210_dialogues4_dance_strip_12_10a4c4a6:
 translate english ep210_dialogues4_dance_strip_12_f5a117b3:
 
     # customers4 "Я ХОЧУ ТРАХНУТЬ ЭТУ СТРИПТИЗЕРШУ! Я ПЕРВЫЙ!!!"
-    customers4 "I WANNA FUCK THAT STRIPPER! I'm the FIRST ONE!!!"
+    customers4 "I WANT TO FUCK THIS STRIPPER! I'M FIRST!!!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1180
 translate english ep210_dialogues4_dance_strip_12_ba7b1597:
 
     # customers4 "НУ ЖЕ! СНИМИ ТРУСИКИ! СНИМИ ИХ ПОЛНОСТЬЮ!!!"
-    customers4 "GOOD! REMOVE THE PANTY! REMOVE IT COMPLETELY!!!"
+    customers4 "COME ON! TAKE OFF YOUR PANTIES! TAKE THEM OFF COMPLETELY!!!"
 
 # game/Quests/EP2_10/ep210_dialogues4_dance_strip.rpy:1188
 translate english ep210_dialogues4_dance_strip_12_52033c58:
 
     # customers4 "ОНА СПЕЦИАЛЬНО ТАК СДЕЛАЛА! Я ЗНАЮ!"
-    customers4 "SHE DID THAT ON PURPOSE! I AM SURE ABOUT IT!"
+    customers4 "SHE DID THIS ON PURPOSE! I KNOW IT!"
 

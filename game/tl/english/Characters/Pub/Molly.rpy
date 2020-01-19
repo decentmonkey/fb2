@@ -4,5 +4,5 @@ translate english strings:
 
     # game/Characters/Pub/Molly.rpy:4
     old "Молли ненавидит Монику и пакостит ей. Моника тоже..."
-    new "Molly hates Monica and plays dirty tricks on her. Monica hates her, too..."
+    new "Molly hates Monica and plots agains her. Monica answers in kind..."
 

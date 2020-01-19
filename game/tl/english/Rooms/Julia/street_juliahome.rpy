@@ -4,5 +4,5 @@
 translate english street_juliahome_environment_11264c3e:
 
     # mt "Здесь живет Юлия..."
-    mt "Julia's living here..."
+    mt "Julia lives here..."
 

@@ -316,7 +316,7 @@ translate english ep210_dialogues7_escort_hotel_1_e583c2ae:
     m "..."
     m "If it's some kind of toilet, then don't even think about it!"
     hotel_staff "Ma'am, I took the keys to an empty penthouse..."
-    hotel_staff "We can go there unnoticed. Nobody will see us ..."
+    hotel_staff "We can go there unnoticed. Nobody will see us..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:160
 translate english ep210_dialogues7_escort_hotel_1_6fe45f1a:
@@ -867,7 +867,7 @@ translate english ep210_dialogues7_escort_hotel_6_003329ff:
 
     # reception "Я могу понять тебя..."
     # mt "???"
-    reception "I can understand you ..."
+    reception "I can understand you..."
     mt "???"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:449
@@ -898,7 +898,7 @@ translate english ep210_dialogues7_escort_hotel_6_b71ae042:
     # m "Но я леди..."
     # reception "Смотрю, ты снова за свое..."
     # reception "Можешь идти отсюда!"
-    m "But I am a lady ..."
+    m "But I am a lady..."
     reception "I see, you're at it again..."
     reception "Get the hell out then!"
 
@@ -963,7 +963,7 @@ translate english ep210_dialogues7_escort_hotel_6_e1888b44:
     # reception "И врала что-то про потеряный багаж, про забытую сумочку в такси..."
     # reception "Твоя истинная цель была - продать свое тело кому-то из постояльцев отеля?"
     reception "That time... When you came here to rent a room..."
-    reception "And lied about something about lost luggage, about a forgotten handbag in a taxi ..."
+    reception "And lied about some lost luggage, about a handbag you forgot in a taxi..."
     reception "Was your true goal - to sell your body to someone from the hotel guests?"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:492
@@ -976,7 +976,7 @@ translate english ep210_dialogues7_escort_hotel_6_011f5b04:
 translate english ep210_dialogues7_escort_hotel_6_c408c925:
 
     # reception "Что 'да'? Отвечай более развернуто!"
-    reception "What 'yes'? Answer in more detail!"
+    reception "Just 'yes'? I need more details!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:496
 translate english ep210_dialogues7_escort_hotel_6_a6ab4abd:
@@ -988,7 +988,7 @@ translate english ep210_dialogues7_escort_hotel_6_a6ab4abd:
 translate english ep210_dialogues7_escort_hotel_6_a508de27:
 
     # m "Да... Я пришла тогда, чтобы... Продать свое тело."
-    m "Yes ... I came then to ... Sell my body."
+    m "Yes... Back then... I came here to sell my body."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:503
 translate english ep210_dialogues7_escort_hotel_6_843d974a:
@@ -996,8 +996,8 @@ translate english ep210_dialogues7_escort_hotel_6_843d974a:
     # reception "Я наконец-то вывела тебя на чистую воду!"
     # reception "Отныне, если ты хочешь посещать этот отель..."
     # reception "Ты можешь это делать только в качестве девушки по вызову."
-    reception "I finally brought you to clean water!"
-    reception "From now on, if you want to visit this hotel ..."
+    reception "A-ha, so I've finally made you show your true colors!"
+    reception "From now on, if you want to visit this hotel..."
     reception "You can only do this as a call girl."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:507
@@ -1006,7 +1006,7 @@ translate english ep210_dialogues7_escort_hotel_6_492d2137:
     # reception "Которая официально работает на администрацию отеля."
     # reception "Ты же об этом меня хочешь попросить?"
     reception "Which officially works for the hotel administration."
-    reception "You want to ask me about this?"
+    reception "You want me to hire you, don't you?"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:510
 translate english ep210_dialogues7_escort_hotel_6_e612037c:
@@ -1026,8 +1026,8 @@ translate english ep210_dialogues7_escort_hotel_6_83fc57b3:
     # reception "Наши клиенты очень респектабельны... Поэтому наши девочки должны быть высшего качества."
     # reception "Я должна быть уверена, что ты подходишь."
     # reception "Надеюсь, у тебя нет проблем с тем, чтобы доказать свою пригодность?"
-    reception "Our customers are very respectable ... Therefore, our girls must be of the highest quality."
-    reception "I have to make sure that you fit."
+    reception "Our customers are very respectable... Therefore, our girls must be of the highest quality."
+    reception "I have to make sure that you'll fit in."
     reception "I hope you have no problem proving your suitability?"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:520
@@ -1036,7 +1036,7 @@ translate english ep210_dialogues7_escort_hotel_6_dbfede7e:
     # m "..."
     # m "Я готова доказать свою пригодность к этой работе..."
     m "..."
-    m "I am ready to prove my suitability for this work ..."
+    m "I'm ready to prove I'm suitable for this work..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:523
 translate english ep210_dialogues7_escort_hotel_6_4262ea96:
@@ -1053,7 +1053,7 @@ translate english ep210_dialogues7_escort_hotel_6_8f697fb4:
     # mt "..."
     mt "What a nightmare!!!"
     mt "I was offered to work as a whore in a hotel!"
-    mt "Monica, what are you up to ?!"
+    mt "How did it come to this, Monica?!"
     mt "..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:531
@@ -1063,8 +1063,8 @@ translate english ep210_dialogues7_escort_hotel_6_467dbf51:
     # mt "Это хорошая возможность быстро заработать неплохие деньги."
     # mt "Но черт! Неужели я смогу работать здесь?!"
     mt "From the other side..."
-    mt "This is a good opportunity to quickly earn good money."
-    mt "But hell! Can I really work here ?!"
+    mt "This is a good opportunity to earn good money quickly."
+    mt "But hell! Can I really work here?!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:543
 translate english ep210_dialogues7_escort_hotel_7_7f1c141a:
@@ -1072,32 +1072,32 @@ translate english ep210_dialogues7_escort_hotel_7_7f1c141a:
     # reception "У нас тут дружный коллектив."
     # reception "Поэтому все девочки должны одобрить твою кандидатуру."
     reception "We have a friendly team here."
-    reception "Therefore, all girls must approve your candidacy."
+    reception "Therefore, all of the girls must approve you first."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:546
 translate english ep210_dialogues7_escort_hotel_7_ae808af9:
 
     # girl_1 "А, это она... Я тут раньше ее видела..." 
-    girl_1 "Ah, it's her ... I've seen her here before ..." 
+    girl_1 "Ah, it's her... I've seen her here before..." 
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:548
 translate english ep210_dialogues7_escort_hotel_7_00542798:
 
     # girl_2 "Я так и знала, что она не просто посетитель, а работает здесь..." 
-    girl_2 "I knew that she is not just a visitor, but works here ..." 
+    girl_2 "I knew that she is not just a visitor, but a worker..." 
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:550
 translate english ep210_dialogues7_escort_hotel_7_28276371:
 
     # girl_3 "Она и правда тут работала?!" 
-    girl_3 "Did she really work here ?!" 
+    girl_3 "Did she really work here?!" 
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:553
 translate english ep210_dialogues7_escort_hotel_7_aa7b7b06:
 
     # reception "Да, девочки. Я вывела ее на чистую воду."
     # reception "Она пыталась отобрать у вас клиентов."
-    reception "Yes, girls. I brought her to clean water."
+    reception "Yes, girls. I made her show her true colors."
     reception "She tried to take customers from you."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:556
@@ -1105,8 +1105,8 @@ translate english ep210_dialogues7_escort_hotel_7_f8bc3a1f:
 
     # reception "Теперь она хочет стать одной из вас."
     # reception "Подходит она или нет? Как вы считаете?"
-    reception "Now she wants to be one of you."
-    reception "Is it suitable or not? How do you think?"
+    reception "Now she wants to become one of you."
+    reception "Is she suitable or not? What do you think?"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:560
 translate english ep210_dialogues7_escort_hotel_7_5770dff7:
@@ -1128,15 +1128,15 @@ translate english ep210_dialogues7_escort_hotel_7_768ddf16:
     # mt "..."
     # mt "Черт! По-моему, они не очень дружелюбно настроены..."
     mt "..."
-    mt "Heck! In my opinion, they are not very friendly ..."
+    mt "Shit! I don't think they'll be friendly ..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:569
 translate english ep210_dialogues7_escort_hotel_7_e3818cc4:
 
     # girl_4 "Нас и так много..."
     # girl_4 "Зачем нам еще одна? Еще и такая?" 
-    girl_4 "There are so many of us ..."
-    girl_4 "Why do we need one more? Another one like that?" 
+    girl_4 "There are so many of us already..."
+    girl_4 "Why do we need one more? Another a one like that to boot?" 
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:572
 translate english ep210_dialogues7_escort_hotel_7_dec36140:
@@ -1144,7 +1144,7 @@ translate english ep210_dialogues7_escort_hotel_7_dec36140:
     # girl_1 "Согласна. Она пыталась отнять у нас наш заработок!" 
     # girl_3 "Да ладно. Пусть разденется. Давайте посмотрим сначала на нее." 
     # girl_1 "Да. Вдруг у нее жирная задница?"
-    girl_1 "Agree. She tried to rob us of our earnings!" 
+    girl_1 "That's right. She tried to rob us of our earnings!" 
     girl_3 "Come on. Let her undress. Let's look at her first." 
     girl_1 "Yes. What if she has a fat ass?"
 
@@ -1155,7 +1155,7 @@ translate english ep210_dialogues7_escort_hotel_7_0cec6bc8:
     # mt "На свою задницу посмотрела бы!"
     # mt "Сучка!"
     mt "!!!"
-    mt "My butt is perfect."
+    mt "Watch your own ass, bitch!"
     mt "Bitch!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:580
@@ -1163,7 +1163,7 @@ translate english ep210_dialogues7_escort_hotel_7_d9ac91f4:
 
     # reception "Да. Давай, раздевайся!"
     # mt "???"
-    reception "Yes. Come undress!"
+    reception "Alright. Come on, undress!"
     mt "???"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:586
@@ -1174,10 +1174,10 @@ translate english ep210_dialogues7_escort_hotel_7_9d1a784d:
     # m "Эти девушки..."
     # m "Решали, подойду я для работы или нет?!"
     # m "!!!"
-    m "Are you serious now ?!"
-    m "I have to undress so that these ..."
-    m "These girls ..."
-    m "They decided whether I would come for work or not ?!"
+    m "Are you serious?!"
+    m "I have to undress so that these..."
+    m "These girls..."
+    m "Could decide whether I would fit for work?!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:592
@@ -1189,7 +1189,7 @@ translate english ep210_dialogues7_escort_hotel_7_c72f05af:
     # m "К черту ваш второсортный отель и ваши правила!"
     m "ME!"
     m "Not going to do it!"
-    m "Undress in front of you!"
+    m "Undressing in front of you!"
     m "To hell with your second-rate hotel and your rules!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:597
@@ -1205,8 +1205,8 @@ translate english ep210_dialogues7_escort_hotel_7_5a5e1e47:
 
     # reception "Посмотрим, как много ты заработаешь..." 
     # reception "На нищих с улицы!"
-    reception "Let's see how much you earn ..." 
-    reception "On the beggars from the street!"
+    reception "Let's see how much will you earn ..." 
+    reception "From street beggars!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:604
 translate english ep210_dialogues7_escort_hotel_7_f16f7bf6:
@@ -1214,7 +1214,7 @@ translate english ep210_dialogues7_escort_hotel_7_f16f7bf6:
     # reception "Когда в кармане не останется ни цента..."
     # reception "Ты знаешь, к кому обращаться." 
     # m "Сучка!!!"
-    reception "When there’s not a cent left in your pocket ..."
+    reception "When there’s not a cent left in your pocket..."
     reception "You know who to contact." 
     m "Bitch!"
 
@@ -1225,7 +1225,7 @@ translate english ep210_dialogues7_escort_hotel_7_172736e4:
     # mt "Эти сучки осматривают меня, как товар."
     # mt "Как это мерзко!"
     mt "!!!"
-    mt "These knots are examining me like a commodity."
+    mt "These bitches are examining me like a commodity."
     mt "How disgusting!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:621
@@ -1234,8 +1234,8 @@ translate english ep210_dialogues7_escort_hotel_7_1a5ac263:
     # girl_2 "А она красивая..." 
     # girl_1 "Да ну! А вдруг у нее задница жирная?" 
     # girl_3 "А ну-ка повернись!" 
-    girl_2 "And she is beautiful ..." 
-    girl_1 "Yah! What if her ass is fat?" 
+    girl_2 "Hey, she's pretty..." 
+    girl_1 "No way! What if her ass is fat?" 
     girl_3 "Well, turn around!" 
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:626
@@ -1243,7 +1243,7 @@ translate english ep210_dialogues7_escort_hotel_7_fe57e446:
 
     # reception "Чего стоишь?! Поворачивайся!"
     # mt "!!!"
-    reception "What are you worth ?! Turn around"
+    reception "Quit standing still! Turn around!!!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:632
@@ -1255,30 +1255,30 @@ translate english ep210_dialogues7_escort_hotel_7_1837972d:
     # girl_2 "Ага..." 
     girl_3 "Well look, she has a great ass!"
     girl_1 "So what? Why do we need one more?"
-    girl_1 "Yes girls? Why do we need it?"
-    girl_2 "Yeah ..." 
+    girl_1 "Yes girls? Why do we need her?"
+    girl_2 "Yeah..." 
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:637
 translate english ep210_dialogues7_escort_hotel_7_36ce00b3:
 
     # reception "Послушайте, вы всегда отказываетесь обслуживать проблемных клиентов..."
     # girl_3 "Пффф... С какой стати мы должны обслуживать всяких козлов?!"
-    reception "Listen, you always refuse to serve problem customers ..."
-    girl_3 "Pffff ... Why on earth should we serve all sorts of goats ?!"
+    reception "Listen, you always refuse to serve problematic customers..."
+    girl_3 "Pffff... Why on earth should we serve those assholes?!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:640
 translate english ep210_dialogues7_escort_hotel_7_7fdbf30b:
 
     # reception "А у нас приличное заведение с отличной репутацией."
     # reception "Ни один клиент не должен уйти неудовлетворенным, даже проблемный!"
-    reception "And we have a decent institution with an excellent reputation."
-    reception "No client should leave unsatisfied, even a problem one!"
+    reception "And we're a reputable establishment."
+    reception "So no client should leave unsatisfied, even a problematic one!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:643
 translate english ep210_dialogues7_escort_hotel_7_0688bb56:
 
     # girl_4 "Ты хочешь, чтобы она работала с проблемными? Не отбирала наших?" 
-    girl_4 "Do you want her to work with troubled ones? Didn’t take ours?" 
+    girl_4 "Do you want her to work with them? And she won't take on our clients?" 
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:645
 translate english ep210_dialogues7_escort_hotel_7_fb982f1b:
@@ -1287,10 +1287,10 @@ translate english ep210_dialogues7_escort_hotel_7_fb982f1b:
     # mt "!!!"
     # reception "Она провинилась и ей нужно сначала заслужить наше доверие."
     # reception "Поэтому она будет работать с проблемными клиентами!"
-    reception "Yes that's right."
+    reception "That's right."
     mt "!!!"
-    reception "She isn't worthy yet and she must first earn our trust first."
-    reception "Therefore, she will work with problem customers!"
+    reception "She isn't worthy yet and she must earn our trust first."
+    reception "Therefore, she will work with problematic customers!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:650
 translate english ep210_dialogues7_escort_hotel_7_ae6a0778:
@@ -1298,29 +1298,29 @@ translate english ep210_dialogues7_escort_hotel_7_ae6a0778:
     # mt "О боже! Они хотят меня отправить ко всяким извращенцам!!!"
     # mt "С которыми сами не хотят работать!!!"
     # mt "!!!"
-    mt "Oh my God! They want to send me to all sorts of perverts !!!"
-    mt "With which they themselves do not want to work !!!"
+    mt "Oh my God! They want to send me to all sorts of perverts!!!"
+    mt "With whom they don't want to work with themselves!!!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:654
 translate english ep210_dialogues7_escort_hotel_7_121af78d:
 
     # girl_4 "Думаю, это хорошая идея..."
-    girl_4 "I think this is a good idea ..."
+    girl_4 "I think that's a good idea ..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:656
 translate english ep210_dialogues7_escort_hotel_7_2975d464:
 
     # girl_1 "Давно надо было так сделать!"
     # girl_3 "Да, я согласна с девочками! А ты что скажешь?" 
-    girl_1 "It has long been necessary to do so!"
-    girl_3 "Yes, I agree with the girls! What do you think?" 
+    girl_1 "We should've done something like that long before!"
+    girl_3 "Yes, I agree with the other girls! What do you think?" 
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:659
 translate english ep210_dialogues7_escort_hotel_7_6f43fe75:
 
     # girl_2 "Ага. Я тоже так считаю..."
-    girl_2 "Yeah. I think so too..."
+    girl_2 "Yeah, I think so too..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:662
 translate english ep210_dialogues7_escort_hotel_7_e0cab437:
@@ -1336,7 +1336,7 @@ translate english ep210_dialogues7_escort_hotel_7_1fbea979:
     # reception "Ну что? Ты согласна работать с теми, кого мы тебе дадим?"
     # reception "У нас здесь строгие правила."
     # reception "Будешь зарабатывать 50 процентов от суммы, оплаченной клиентом."
-    reception "Well? Do you agree to work with those we will give you?"
+    reception "Well? Do you agree to work with the clienst we'll assign to you?"
     reception "We have strict rules here."
     reception "You will earn 50 percent of the amount paid by the client."
 
@@ -1345,7 +1345,7 @@ translate english ep210_dialogues7_escort_hotel_7_ec6767d5:
 
     # mt "50 процентов? Всего?"
     # m "..."
-    mt "50 percent? Total?"
+    mt "50 percent? And that's it?"
     m "..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:673
@@ -1354,8 +1354,8 @@ translate english ep210_dialogues7_escort_hotel_7_29b0893b:
     # reception "Решение по вопросу чаевых принимается отдельно."
     # reception "Нельзя говорить 'нет' клиентам."
     # reception "Любая запрошенная услуга, если она есть в прайсе, должна быть оказана!"
-    reception "The decision on the tip is made separately."
-    reception "You can not say no to customers."
+    reception "The decision regarding tips is made separately."
+    reception "You can't say 'no' to customers."
     reception "Any requested service, if it is in the price list, must be provided!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:677
@@ -1365,9 +1365,9 @@ translate english ep210_dialogues7_escort_hotel_7_ed44597c:
     # reception "За отказ или грубость к клиенту - предупреждение или увольнение."
     # reception "И еще у тебя нет права выбирать клиентов, как у других девушек."
     # mt "!!!"
-    reception "And in our price list there is almost everything!"
-    reception "For refusal or rudeness to the client - a warning or dismissal will follow."
-    reception "And yet you do not have the right to choose customers, like other girls."
+    reception "And there's a lot of stuff in our price list!"
+    reception "You'll be warned or fired following refusal or rudeness toward the client."
+    reception "And yet you don't have the right to choose customers, like other girls."
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:682
@@ -1376,15 +1376,15 @@ translate english ep210_dialogues7_escort_hotel_7_00de58af:
     # reception "Тебе нужно просто сидеть за столиком. Клиент сам подойдет к тебе."
     # reception "А если поступит вызов, то тебя позовут."
     reception "You just need to sit at the table. The client will come to you."
-    reception "And if you get a call, they’ll call you."
+    reception "And if you get a client somewhere else, they’ll call you."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:685
 translate english ep210_dialogues7_escort_hotel_7_b42cbdf9:
 
     # reception "Если согласна на такие условия..."
     # reception "То завтра можешь приступать к работе."
-    reception "If you agree to such conditions ..."
-    reception "Then tomorrow you can get to work."
+    reception "If you agree to these conditions..."
+    reception "Then you can get to work tomorrow."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:688
 translate english ep210_dialogues7_escort_hotel_7_72c4389d:
@@ -1397,16 +1397,16 @@ translate english ep210_dialogues7_escort_hotel_7_0e530d9a:
 
     # mt "Она сказала, что у меня будут проблемные клиенты..."
     # mt "Значит, будут одни извращенцы."
-    mt "She said that I will have problem customers ..."
-    mt "So, there will be some perverts."
+    mt "She said that I'll get problematic customers..."
+    mt "Which means they'll be complete perverts."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:696
 translate english ep210_dialogues7_escort_hotel_7_84f19c0a:
 
     # mt "Неизвестно, чего мне от них ожидать..."
     # mt "Нет! Я не могу согласиться на такое!"
-    mt "It is not known what to expect from them ..."
-    mt "Not! I can’t agree to that!"
+    mt "I wouldn't know what to expect from them..."
+    mt "No! I can’t agree to that!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:699
 translate english ep210_dialogues7_escort_hotel_7_5711f77c:
@@ -1415,7 +1415,7 @@ translate english ep210_dialogues7_escort_hotel_7_5711f77c:
     # m "Я не смогу..."
     # m "Мне нужно время, чтобы подумать..."
     m "I..."
-    m "I can not..."
+    m "I can't..."
     m "I need time to think..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:703
@@ -1423,15 +1423,15 @@ translate english ep210_dialogues7_escort_hotel_7_6ea237b5:
 
     # reception "Здесь у тебя будет неплохой заработок..."
     # reception "Если, конечно, будешь хорошо себя вести с клиентами."
-    reception "Here you will have good earnings ..."
-    reception "Unless, of course, you will behave well with customers."
+    reception "You'll earn good money here..."
+    reception "If, of course, you behave well with customers."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:706
 translate english ep210_dialogues7_escort_hotel_7_671b513d:
 
     # reception "Подумай..."
     # reception "Ты знаешь, где меня найти."
-    reception "Think about it ..."
+    reception "Think about it..."
     reception "You know where to find me."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:714
@@ -1441,9 +1441,9 @@ translate english ep210_dialogues7_escort_hotel_7_ce32695b:
     # mt "Значит, будут одни извращенцы."
     # mt "Неизвестно, чего мне от них ожидать..."
     # mt "..."
-    mt "She said that I will have problem customers ..."
-    mt "So, there will be some perverts."
-    mt "It is not known what to expect from them ..."
+    mt "She said that I'll get problematic customers..."
+    mt "Which means they'll be complete perverts."
+    mt "I wouldn't know what to expect from them..."
     mt "..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:719
@@ -1456,9 +1456,9 @@ translate english ep210_dialogues7_escort_hotel_7_d4d5fcca:
     # mt "Мне нужно попытаться заработать хоть какие-то деньги..."
     mt "On the other hand, I need money."
     mt "And 50 percent of the amount the client pays here is a lot."
-    mt "Nothing prevents me from agreeing now ..."
-    mt "And if something goes wrong with the client, I’ll just leave here and that's it."
-    mt "I need to try to earn at least some money ..."
+    mt "Nothing stops me from agreeing now..."
+    mt "And if something goes wrong with the client, I'll just quit."
+    mt "I need to try to earn at least some money..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:726
 translate english ep210_dialogues7_escort_hotel_7_d386a0a9:
@@ -1468,15 +1468,15 @@ translate english ep210_dialogues7_escort_hotel_7_d386a0a9:
     # m "Обещаю, что не буду отбирать у девочек их клиентов."
     m "I..."
     m "I agree to any work."
-    m "I promise that I will not select their clients from the girls."
+    m "I promise that I won't pick the other girls' clients."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:731
 translate english ep210_dialogues7_escort_hotel_7_3c823767:
 
     # girl_1 "Да зачем она нам нужна?!"
     # girl_1 "Давай, не будем ее брать!"
-    girl_1 "Why do we need her ?!"
-    girl_1 "Come on, we won’t take her!"
+    girl_1 "Why do we need her?!"
+    girl_1 "Come on, don't hire her!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:734
 translate english ep210_dialogues7_escort_hotel_7_c8ca7036:
@@ -1484,7 +1484,7 @@ translate english ep210_dialogues7_escort_hotel_7_c8ca7036:
     # reception "Все! Решение принято, вопрос закрыт!" 
     # reception "Все, девочки! Расходимся! Пора работать!"
     reception "Silence! The decision is made, the question is closed!" 
-    reception "All girls! Back to tables! It's time to work!"
+    reception "Come on, girls! Back to your posts! Time to work!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:740
 translate english ep210_dialogues7_escort_hotel_7_60ec4ec6:
@@ -1506,7 +1506,7 @@ translate english ep210_dialogues7_escort_hotel_7_43e5d226:
 translate english ep210_dialogues7_escort_hotel_7_142b1871:
 
     # reception "Да, совсем забыла... Как тебя зовут то?"
-    reception "Yes, I completely forgot ... What is your name then?"
+    reception "Yes, I completely forgot... What's your name?"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:748
 translate english ep210_dialogues7_escort_hotel_7_27538e90:
@@ -1518,7 +1518,7 @@ translate english ep210_dialogues7_escort_hotel_7_27538e90:
 translate english ep210_dialogues7_escort_hotel_7_dc3437fd:
 
     # reception "Завтра жду тебя на работе, [monica_hotel_name]!"
-    reception "Waiting for you at work tomorrow, [monica_hotel_name]!"
+    reception "I'll see you at work tomorrow, [monica_hotel_name]!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:759
 translate english ep210_dialogues7_escort_hotel_7a_dde7c0aa:
@@ -1535,16 +1535,16 @@ translate english ep210_dialogues7_escort_hotel_7a_dde7c0aa:
     # mt "Мне нужно будет прийти сюда завтра."
     # mt "Я ведь в любой момент смогу отказаться и уйти."
     mt "What a nightmare!!!"
-    mt "Can I really decide on this ?! This is prostitution!"
-    mt "Will I be able to serve men for money ?!"
+    mt "Will I really agree to this?! This is prostitution!"
+    mt "Will I be able to serve men for money?!"
     mt "Perhaps these escort services do not imply intimacy?"
     mt "Maybe I just need to accompany rich men to some events?"
-    mt "If so, then I can handle this completely."
+    mt "If so, then I can handle this no problem."
     mt "..."
-    mt "And if then you will need to have sex with them ?!"
+    mt "And what if I'll need to have sex with them later?!"
     mt "!!!"
     mt "I will need to come here tomorrow."
-    mt "I can at any time refuse and leave."
+    mt "I can refuse and quit at any time anyway."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:775
 translate english ep210_dialogues7_escort_hotel_7b_7bf16a7f:
@@ -1553,7 +1553,7 @@ translate english ep210_dialogues7_escort_hotel_7b_7bf16a7f:
     # mt "Я никогда не смогу решиться на такую работу!"
     # mt "Я Моника Бакфетт, а не какая-то проститутка! Я леди!"
     mt "This is disgusting!"
-    mt "I can never decide on such a job!"
+    mt "I can never agree to such a job!"
     mt "I'm Monica Buckfett, not some prostitute! I am a lady!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:783
@@ -1561,7 +1561,7 @@ translate english ep210_dialogues7_escort_hotel_7c_7b526d94:
 
     # mt "Я не хочу больше возвращаться туда! Не сегодня."
     # mt "Администратор сказала приходить завтра."
-    mt "I don't want to go back there anymore! Not today."
+    mt "I don't want to go back there! Not today."
     mt "The receptionist said to come tomorrow."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:790
@@ -1571,17 +1571,17 @@ translate english ep210_dialogues7_escort_hotel_7e_9ab743bd:
     # mt "Смогу ли я обслуживать мужчин за деньги?!"
     # mt "!!!"
     # mt "Я ведь в любой момент смогу отказаться и уйти..."
-    mt "Can I really decide on this ?!"
-    mt "Will I be able to serve men for money ?!"
+    mt "Will I really agree to this?!"
+    mt "Will I be able to serve men for money?!"
     mt "!!!"
-    mt "After all, at any moment I can refuse and leave ..."
+    mt "I can refuse and quit at any time anyway..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:802
 translate english ep210_dialogues7_escort_hotel_8_7cc5ec6f:
 
     # reception "Пришла?"
     # m "Да..."
-    reception "You have come?"
+    reception "You're here?"
     m "Yes..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:805
@@ -1591,15 +1591,15 @@ translate english ep210_dialogues7_escort_hotel_8_e650a62a:
     # reception "В этой одежде чтобы я тебя на работе не видела!"
     # reception "В служебном коридоре для тебя приготовлено платье."
     reception "Fine."
-    reception "In these clothes I don't wish to see you at work!"
-    reception "A dress is prepared for you in the service corridor."
+    reception "I don't wish to see you at work in these clothes !"
+    reception "A dress is prepared for you in the service hallway."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:809
 translate english ep210_dialogues7_escort_hotel_8_b979bdc1:
 
     # reception "Работать в ресторане всегда только в этом платье."
     # reception "Переодевайся и иди за столик."
-    reception "The work at the restaurant is always only in this dress."
+    reception "You work at the restaurant only in this dress."
     reception "Change clothes and go to the table."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:813
@@ -1607,8 +1607,8 @@ translate english ep210_dialogues7_escort_hotel_8_abdd0dba:
 
     # m "А мне... Мне прямо сегодня нужно будет..."
     # m "Провести встречу с клиентом?"
-    m "And I ... I’ll need to be ok today ..."
-    m "Do I have a meeting with a client?"
+    m "And I ... I’ll need to meet a client..."
+    m "Right away?"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:816
 translate english ep210_dialogues7_escort_hotel_8_5d814a50:
@@ -1616,7 +1616,7 @@ translate english ep210_dialogues7_escort_hotel_8_5d814a50:
     # reception "Да. Если ты пришла заработать денег, то иди и работай."
     # reception "Здесь не место разводить сопли."
     reception "Yes. If you came to earn money, then go and work."
-    reception "There is no place to breed snot."
+    reception "Here's not a place to whine."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:819
 translate english ep210_dialogues7_escort_hotel_8_72c4389d:
@@ -1637,7 +1637,7 @@ translate english ep210_dialogues7_escort_hotel_8_5711f77c:
     # m "Я не смогу..."
     # m "Мне нужно время, чтобы подумать..."
     m "I..."
-    m "I can not..."
+    m "I can't..."
     m "I need time to think..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:830
@@ -1645,15 +1645,15 @@ translate english ep210_dialogues7_escort_hotel_8_6ea237b5:
 
     # reception "Здесь у тебя будет неплохой заработок..."
     # reception "Если, конечно, будешь хорошо себя вести с клиентами."
-    reception "Here you will have good earnings ..."
-    reception "Unless, of course, you will behave well with customers."
+    reception "You'll earn good money here..."
+    reception "If, of course, you behave well with customers."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:833
 translate english ep210_dialogues7_escort_hotel_8_c455f783:
 
     # reception "Подумай..."
     # reception "Ты всегда меня можешь найти здесь."
-    reception "Think about it ..."
+    reception "Think about it..."
     reception "You can always find me here."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:840
@@ -1664,7 +1664,7 @@ translate english ep210_dialogues7_escort_hotel_8_645c1930:
     # reception "Если отказываешь от чего-либо, что требует клиент..."
     reception "Remember, no nonsense!" 
     reception "The customer is always right. You should not argue with the client."
-    reception "If you refuse anything that the client requires ..."
+    reception "If you refuse anything that the client requires..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:844
 translate english ep210_dialogues7_escort_hotel_8_87bbe345:
@@ -1672,8 +1672,8 @@ translate english ep210_dialogues7_escort_hotel_8_87bbe345:
     # reception "То он вправе не заплатить тебе."
     # reception "Если клиент не заплатил тебе, значит он мог заплатить другой девушке..."
     # reception "У которой нет глупых предрассудков."
-    reception "That he has the right not to pay you."
-    reception "If the client didn’t pay you, then he could pay another girl ..."
+    reception "He has the right not to pay you."
+    reception "If the client didn’t pay you, then he could pay another girl..."
     reception "Which has no stupid prejudice."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:848
@@ -1690,8 +1690,8 @@ translate english ep210_dialogues7_escort_hotel_8_45fc422e:
     # mt "Я просто попробую..."
     # mt "Если что-то пойдет не так - уйду отсюда."
     # mt "..."
-    mt "I'll just try ..."
-    mt "If something goes wrong - get out of here."
+    mt "I'll just try..."
+    mt "If something goes wrong - I'll leave."
     mt "..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:863
@@ -1699,7 +1699,7 @@ translate english ep210_dialogues7_escort_hotel_8a_7cc5ec6f:
 
     # reception "Пришла?"
     # m "Да..."
-    reception "You have come?"
+    reception "You're here?"
     m "Yes..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:866
@@ -1722,13 +1722,13 @@ translate english ep210_dialogues7_escort_hotel_8a_cbfab5d3:
 translate english ep210_dialogues7_escort_hotel_8a_9c6deac0:
 
     # m "Да-да, я помню..."
-    m "Yes Yes i remember..."
+    m "Yes, yes, I remember..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:874
 translate english ep210_dialogues7_escort_hotel_8a_9f749cfa:
 
     # mt "Что-то пойдет не так - я просто уйду и все."
-    mt "Something will go wrong - I’ll just leave and that's it."
+    mt "If something goes wrong, I’ll just leave and that's it."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:884
 translate english ep210_dialogues7_escort_hotel_8a2_3d1a6460:
@@ -1739,7 +1739,7 @@ translate english ep210_dialogues7_escort_hotel_8a2_3d1a6460:
     # m "..."
     # mt "Сучка. Не хочу с ней разговаривать."
     girl_1 "Oh, who came to us!"
-    girl_1 "Today you can’t get our customers away ..."
+    girl_1 "You won't be luring our customers away today..."
     girl_1 "You will work with the one we give to you!"
     m "..."
     mt "Bitch. I don’t want to talk to her."
@@ -1753,9 +1753,9 @@ translate english ep210_dialogues7_escort_hotel_8b_89c2aea9:
     # girl_2 "Ну, не знаю... Тебе то, что останется..."
     # mt "!!!"
     girl_2 "Hey."
-    girl_2 "I hope I get a normal client today ..."
-    m "Yes ... Me too."
-    girl_2 "Well, I don’t know ... What remains for you ..."
+    girl_2 "I hope I get a normal client today..."
+    m "Yes... Me too."
+    girl_2 "Well, I don’t know ... You get what's left from us..."
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:902
@@ -1770,13 +1770,13 @@ translate english ep210_dialogues7_escort_hotel_8c_c5c1c040:
     # mt "Или на фото репортеров с конференции!"
     # mt "Я не хочу, чтобы они узнали, что я Моника Бакфетт!"
     girl_3 "I've seen you somewhere before."
-    girl_3 "Not in this restaurant ..."
-    girl_3 "Hmmm ... I can’t remember where ..."
+    girl_3 "Not in this restaurant..."
+    girl_3 "Hmmm... I can’t remember where ..."
     m "You must be confusing me with someone."
     mt "Heck!"
-    mt "She could see me on the cover of a magazine!"
-    mt "Or in the photo of the reporters from the conference!"
-    mt "I do not want them to know that I am Monica Buckett!"
+    mt "She could've seen me on the magazine cover!"
+    mt "Or in photos reporters made at some conference!"
+    mt "I don't want them to know that I am Monica Buckett!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:914
 translate english ep210_dialogues7_escort_hotel_8d_f6c89520:
@@ -1788,12 +1788,12 @@ translate english ep210_dialogues7_escort_hotel_8d_f6c89520:
     # mt "Я поставлю эту сучку на место!"
     # mt "При первой же возможности!"
     # mt "!!!"
-    girl_4 "Have you come? It's good."
+    girl_4 "Have you come? Good."
     girl_4 "This means that today I will not have jerks-clients."
-    girl_4 "What can not be said about you ..."
-    mt "How is she talking to me ?!"
-    mt "I'll put this bitch in place!"
-    mt "At the first opportunity!"
+    girl_4 "Which can't be said about you..."
+    mt "How is she talking to me?!"
+    mt "I'll put this bitch in her place!"
+    mt "At the first opportunity I get!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:939
@@ -1817,12 +1817,12 @@ translate english ep210_dialogues7_escort_hotel_9_892e4101:
     mt "You can send everyone to hell at any moment and leave."
     client "Good evening, Miss."
     client "I have not seen you here before. What is your name?"
-    m "Good evening, Mr."
+    m "Good evening, Mister."
     m "My name is [monica_hotel_name]."
-    client "[monica_hotel_name]. What a beautiful name. Like its owner."
+    client "[monica_hotel_name]. What a beautiful name. Just like its owner."
     client "I am very happy to spend the evening with you, [monica_hotel_name]."
-    mt "Hmm ... He talks politely, looks pretty decent."
-    mt "I think you should not expect any distortions from him ..."
+    mt "Hmm... He talks politely, looks pretty decent."
+    mt "I think I shouldn't expect any perversions from him..."
     client "Let me invite you to your room right now, [monica_hotel_name]?"
     mt "..."
 
@@ -1838,11 +1838,11 @@ translate english ep210_dialogues7_escort_hotel_9_3d014ec3:
     # client "Наверное, я перепутал столик."
     mt "No! I cannot do it!"
     m "I..."
-    m "I can’t go with you ..."
-    m "I ... I do not work here!"
-    m "I just went to eat at a restaurant ..."
+    m "I can’t go with you..."
+    m "I... I don't work here!"
+    m "I just went to eat at a restaurant..."
     client "Oh sorry, Miss."
-    client "I guess I messed up the table."
+    client "I guess I got the wrong the table."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:968
 translate english ep210_dialogues7_escort_hotel_9_aa4bd397:
@@ -1852,10 +1852,10 @@ translate english ep210_dialogues7_escort_hotel_9_aa4bd397:
     # mt "Наверное, приходит сюда раз в месяц в день зарплаты. Фи!"
     # mt "Что-то пойдет не так - я просто уйду отсюда."
     # m "Да, мы можем пойти в номер."
-    mt "This is completely fearless."
+    mt "This is totally not scary."
     mt "This is just an ordinary loser."
-    mt "Probably comes here once a month on a payday. Phi!"
-    mt "Something will go wrong - I’ll just leave here."
+    mt "Probably comes here once a month on a payday. Ew!"
+    mt "If something goes wrong - I’ll just leave here."
     m "Yes, we can go to the room."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:978
@@ -1869,10 +1869,10 @@ translate english ep210_dialogues7_escort_hotel_9_1_43fccd5d:
     # mt "Что-то пойдет не так - я просто уйду отсюда."
     client "Let's go to the room, [monica_hotel_name]."
     mt "..."
-    mt "This is completely fearless."
+    mt "This is totally not scary."
     mt "This is just an ordinary loser."
-    mt "Probably comes here once a month on a payday. Phi!"
-    mt "Something will go wrong - I’ll just leave here."
+    mt "Probably comes here once a month on a payday. Ew!"
+    mt "If something goes wrong - I’ll just leave here."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:989
 translate english ep210_dialogues7_escort_hotel_10_68939711:
@@ -1906,31 +1906,31 @@ translate english ep210_dialogues7_escort_hotel_10_68939711:
     # client "И пососет его..."
     # mt "???"
     m "What do I need to do?"
-    mt "I would give money just like that and let go ..."
+    mt "I wish he would just give me money and let me go..."
     mt "I have no desire to do anything for him."
-    client "To start, [monica_hotel_name] must take off her dress ..."
+    client "To start, [monica_hotel_name] must take off her dress..."
     mt "Monica, don’t worry."
     mt "You have nothing to be shy about. You have a great body."
     mt "..."
     mt "He probably never saw such a beautiful woman like me."
-    mt "Now he will undress and begin to paw my beautiful body. Phew!"
+    mt "Now he will undress and begin to paw my beautiful body. Ew!"
     client "[monica_hotel_name], have a seat next to me."
-    client "If [monica_hotel_name] allows me to kiss her leg ..."
+    client "If [monica_hotel_name] allows me to kiss her leg..."
     client "I will be generous with Miss."
     mt "Does he want to kiss my legs?"
-    mt "Yes, and pay for it ?!"
-    mt "Is he serious ?!"
+    mt "And pay for it as well?!"
+    mt "Is he serious?!"
     mt "???"
     mt "Maybe I misheard?"
-    m "Mister, do you want to kiss my leg?"
-    client "Yes, miss. Let your foot."
+    m "Mister, you want to kiss my leg?"
+    client "Yes, miss. Let me kiss your leg."
     m "..."
-    mt "Oh, how is it ..."
+    mt "Oh, this is so..."
     m "Mmmm..."
-    mt "It's nice..."
+    mt "So nice..."
     mt "Heck!"
     mt "I am ready to work like this every night."
-    client "And now [monica_hotel_name] will take my finger in his mouth ..."
+    client "And now [monica_hotel_name] will take my finger in her mouth..."
     client "And suck it ..."
     mt "???"
 
@@ -1943,12 +1943,12 @@ translate english ep210_dialogues7_escort_hotel_10_12fd811f:
     # m "Я... Я не предоставляю такую услугу!"
     # client "Но, Мисс... Мне сказали, что..."
     # m "Нет. Я не буду этого делать!"
-    mt "Phew! Not! I can not do it!"
+    mt "Ew! No! I can't do it!"
     m "I..."
-    m "I can not..."
-    m "I ... I do not provide such a service!"
-    client "But, Miss ... I was told that ..."
-    m "Not. I will not do it!"
+    m "I can't..."
+    m "I... I do not provide such a service!"
+    client "But, Miss... I was told that..."
+    m "No. I will not do it!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1040
 translate english ep210_dialogues7_escort_hotel_10_706f823a:
@@ -1976,29 +1976,29 @@ translate english ep210_dialogues7_escort_hotel_10_706f823a:
     # mt "С другой стороны, здесь я за вечер могу заработать такие большие деньги."
     # mt "А она меня больше не пустит в ресторан."
     # mt "Нет, мне не стоит пока терять эту возможность заработка."
-    mt "It is humiliating and ..."
+    mt "It is humiliating and..."
     mt "It's disgusting!"
-    mt "But he said he would be generous ..."
-    mt "Yet this is not some nasty perversion there ..."
-    mt "The main thing is not to puke me directly at him."
+    mt "But he said he would be generous..."
+    mt "Yet this is not some nasty perversion there..."
+    mt "The main thing is not to puke on him."
     client "Suck it!"
-    client "Oooooh !!!"
+    client "Oooooh!!!"
     client "Oh yeah!"
-    client "How nice! More !!!"
-    client "AAAAAAA !!!"
-    mt "Phew! It was disgusting!"
-    client "[monica_hotel_name] tried and I really liked it."
+    client "How nice! More!!!"
+    client "AAAAAAA!!!"
+    mt "Ew! It was disgusting!"
+    client "[monica_hotel_name] did her best and I really liked it."
     m "..."
     client "Here is 700 dollars. I will definitely come to you again, [monica_hotel_name]." 
-    mt "700 dollars ?!"
-    mt "I earned $ 700 by licking my finger on a stranger!"
+    mt "700 dollars?!"
+    mt "I earned $ 700 by licking some stranger's finger!"
     mt "..."
-    mt "Least of all I want to give half to this bitch at the reception ..."
-    mt "Maybe to leave and just not come here anymore?"
+    mt "Least of all I want to give half to this bitch at the reception..."
+    mt "Maybe I should just leave and never return here?"
     mt "What will she do to me?"
-    mt "On the other hand, here I can earn so much money over the evening."
+    mt "On the other hand, here I can earn so much money over one evening."
     mt "And she will not let me into the restaurant anymore."
-    mt "No, I should not lose this opportunity of earning yet."
+    mt "No, I should not lose this money opportunity yet."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1077
 translate english ep210_dialogues7_escort_hotel_11_a2a20df3:
@@ -2018,18 +2018,18 @@ translate english ep210_dialogues7_escort_hotel_11_a2a20df3:
     # mt "Она подглядывала?!"
     # mt "!!!"
     m "The client paid 700 dollars."
-    reception "And was pleased."
+    reception "And he was pleased."
     reception "You did a good job with your mouth."
     mt "!!!"
-    m "Where are you from?.."
+    m "Why do you...?"
     reception "I know..."
     reception "Absolutely, your wish is my command!"
     reception "Here's your money."
     reception "You can come again tomorrow."
     reception "That's all for today. Customers do not like used goods."
     mt "What a bitch!"
-    mt "How does she know that I ... Worked by mouth ?!"
-    mt "Did she peep ?!"
+    mt "How does she know that I... worked with mouth?!"
+    mt "Did she peep on me?!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1097
@@ -2039,7 +2039,7 @@ translate english ep210_dialogues7_escort_hotel_11_1_2a417654:
     # mt "Эта сучка меня не пустит больше в ресторан, если я не отдам ей 50 процентов."
     # mt "А мне не выгодно терять такой заработок."
     # mt "..."
-    mt "I can’t take such a risk so far!"
+    mt "I can’t take such a risk!"
     mt "This bitch won't let me go to the restaurant anymore unless I give her 50 percent."
     mt "And it’s not profitable for me to lose that kind of income."
     mt "..."
@@ -2056,18 +2056,18 @@ translate english ep210_dialogues7_escort_hotel_11a_1c313cdf:
     # mt "Я ведь в любой момент смогу отказаться и уйти."
     mt "I made $ 350 this evening."
     mt "Good money, given my temporary situation."
-    mt "Perhaps I should overpower myself and work here for some more time."
+    mt "Perhaps I should accept my fate and work here for some time."
     mt "Perhaps I will manage to earn even more."
     mt "I will need to come here tomorrow."
     mt "..."
-    mt "I can at any time refuse and leave."
+    mt "I can refuse and quit at any time anyway."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1121
 translate english ep210_dialogues7_escort_hotel_11b_4ad016fe:
 
     # mt "Я никогда не смогу решиться на такое!"
     # mt "Я Моника Бакфетт, а не какая-то проститутка!"
-    mt "I can never decide on that!"
+    mt "I'll never be able to accept this!"
     mt "I'm Monica Buckett, not some prostitute!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1127
@@ -2088,21 +2088,21 @@ translate english ep210_dialogues7_escort_hotel_12_1_ab8fa91a:
     # mt "Мне предстоит сопровождать клиента на мероприятии?"
     # mt "???"
     # mt "Ну что ж... Если мне что-то не понравится, я просто уйду из кафе."
-    mt "I hope today I can earn at least something ..."
+    mt "I hope today I can earn at least something..."
     mt "I need money."
     hotel_staff "Uh ma'am?"
     mt "You worthless loser!"
     mt "Because of him the administration found out that I..."
-    mt "Was with him for the money!"
+    mt "Was with him for money!"
     mt "I still remember that!"
-    hotel_staff "From the reception they asked me to tell you that you have a client."
+    hotel_staff "The reception asked me to tell you that you have a client."
     mt "And where is he?"
     hotel_staff "He is waiting for you at this address."
     mt "..."
-    mt "Hmm ... This is a cafe ..."
+    mt "Hmm... This is a cafe..."
     mt "Do I have to accompany the client at the event?"
     mt "???"
-    mt "Well ... If I don’t like something, I’ll just leave the cafe."
+    mt "Well... If I don’t like something, I’ll just leave the cafe."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1151
 translate english ep210_dialogues7_escort_hotel_12_60279d1c:
@@ -2200,28 +2200,28 @@ translate english ep210_dialogues7_escort_hotel_12_60279d1c:
     # mt "!!!"
     mt "And where should I look for this loser?"
     mt "???"
-    mt "How long should I stand here ?!"
+    mt "How long should I stand here?!"
     client "Are you [monica_hotel_name]?"
     client "Glad you came."
     mt "Finally..."
-    client "I first turn to the services of an escort girl." 
-    client "And I'm a little worried how everything goes."
+    client "This is my first time ordering the services of an escort girl." 
+    client "And I'm a little nervous about the whole thing."
     client "The fact is that I have an event here in the company of friends and colleagues."
-    client "And I need a girl who will just accompany me ..."
-    client "Pretend that we have known each other for a long time ..."
-    client "Chat with them, have dinner and, in principle, that's all."
+    client "And I need a girl who will just accompany me..."
+    client "Pretend that we have known each other for a long time..."
+    client "Chat with them, have dinner and that's all."
     m "Is that all?" 
-    m "Will this be my job done?"
-    client "Yes Yes. I do not need other services that your company provides."
-    client "Only escort escort at dinner. And that’s all."
-    mt "Monica, today you are lucky with the client ..."
-    mt "A delicious dinner, small talk in the company of decent people ..."
+    m "And that's where my job ends?"
+    client "Y-yes. I do not need other services that your company provides."
+    client "Only to escort me at a dinner. And that’s all."
+    mt "You got lucky with the client today, Monica..."
+    mt "A delicious dinner, small talk in the company of decent people..."
     mt "And no perverts."
-    mt "All that you are so used to ... And what is so lacking now."
-    mt "It seems that this work is not so bad ..."
-    mt "No, of course it's disgusting, but ..."
-    mt "Given other options for making money, an escort is not so bad ..."
-    client "[monica_hotel_name], if you do not mind, then I can invite you to the table ..."
+    mt "Everything that you're so used to... And everything you miss so dearly right now."
+    mt "It seems that this work is not so bad..."
+    mt "No, of course it's disgusting, but..."
+    mt "Given other options for making money, an escort job is not so bad..."
+    client "[monica_hotel_name], if you do not mind, may I invite you to the table...?"
     m "Yes, let's go to the table."
     client "Guys, a moment of attention."
     client "I want to introduce you [monica_hotel_name]."
@@ -2230,61 +2230,61 @@ translate english ep210_dialogues7_escort_hotel_12_60279d1c:
     client_friend_2 "Nice to meet you, [monica_hotel_name]!"
     m "Thank you." 
     client_friend_1 "[monica_hotel_name], tell me, what are you doing?" 
-    m "I am a leader in one large company."
-    m "In addition to the main activities related to the fashion industry ..."
+    m "I am a CEO of a large company."
+    m "In addition to the main activities related to the fashion industry..."
     m "I also have a real estate business."
-    client_friend_2 "Oh seriously ?!" 
-    m "Yes, I have a lot of employees subordinate."
+    client_friend_2 "Oh seriously?!" 
+    m "Yes, I have a lot of employees."
     client_friend_1 "Is your activity related to the fashion industry?"
     client_friend_1 "Tell us. It is very interesting." 
-    m "At work, I often have to attend public events ..."
-    m "To speak to the public, give interviews."
+    m "At work, I often have to attend public events..."
+    m "Speak to the public, give out interviews."
     m "And, of course, I am always up to date with all the events in the fashion world."
     client "Yes, [monica_hotel_name] is a very busy girl." 
-    client "It rarely happens that we can spend an evening together ..."
-    client "She usually conducts some kind of negotiations in the evenings ..."
+    client "It rarely happens that we can spend an evening together..."
+    client "She usually conducts some kind of negotiations in the evenings..."
     client "And important business meetings."
     client "After all, such meetings are very important for the development of her business."
     client "Yes, [monica_hotel_name]?"
-    m "All right."
-    m "I have a wide circle of friends who have considerable weight in this city ..."
+    m "That's right."
+    m "I have a wide circle of friends who have considerable weight in this city..."
     m "And even in the country."
     m "And it is not in my interests to refuse them when I am invited to a meeting."
     client_friend_2 "And how do you have enough time for something other than work?" 
-    mt "Worthless little people ..."
-    mt "They are dying at the sight of me and from the thought of who I am !!!"
+    mt "Worthless little people..."
+    mt "They are fawning over me at the mere sight of me and from the thought of who I am!!!"
     m "Yes, it’s rather difficult ..."
-    m "Proper planning of your working time ..."
-    m "And also the help of my personal assistants ..."
+    m "Proper planning of your working time..."
+    m "And also the help of my personal assistants..."
     m "They sometimes allow me to spend the evening not at work, but for my pleasure."
-    client_friend_1 "It's amazing that with such a busy schedule ..." 
-    client_friend_1 "You, [monica_hotel_name], find time to ..."
-    client_friend_1 "Work in the escort!" 
-    m "What?"
+    client_friend_1 "It's amazing that with such a busy schedule..." 
+    client_friend_1 "You, [monica_hotel_name], finds time to..."
+    client_friend_1 "Work as an escort!" 
+    m "W-what?"
     m "???"
     mt "Did I hear that?"
-    mt "Or did he really say something about ... Escort ?!"
+    mt "Or did he really say something about ... Escort services?!"
     m "..."
-    m "Sorry, Mister, I don’t understand what you mean ..."
+    m "Sorry, Mister, I don’t understand what you mean..."
     client_friend_2 "Do not confuse her with an escort girl."
     client_friend_2 "This is an ordinary prostitute."
     client_friend_2 "You yourself said you bought it for the evening for 900 bucks."
-    client "Aha ha !!! Do you understand who she is, huh ?!"
-    client_friend_2 "Yes, you failed to lead us again."
+    client "Ahaha!!! You saw through her, huh?!"
+    client_friend_2 "Yes, you failed to trick us again."
     client "I thought I could do it this time."
     client "This prostitute looks a lot like a decent girl."
-    client_friend_1 "Come on! Not at all like that!"
-    client_friend_1 "She is lying about big things, in which it is clear that she does not understand anything!"
-    mt "What?! I don’t understand anything ?!"
+    client_friend_1 "Come on! No she doesn't!"
+    client_friend_1 "She is lying about big things, which she clearly knows nothing about!"
+    mt "What?! I? Know nothing about?!"
     mt "!!!"
-    mt "I can not believe!!!"
-    mt "He’s all ... He adjusted everything or something ?!"
-    mt "From the beginning of the evening they knew that I ... From an escort ..."
+    mt "Unbelievable!!!"
+    mt "He... He set it all up?!"
+    mt "From the beginning of the evening they knew that I... was an escort..."
     mt "!!!"
     mt "You bastard! Bastard!"
-    mt "AAAAAA !!!"
+    mt "AAAAAAH!!!"
     mt "I HATE HER!!!"
-    client "Now you need to work out the money."
+    client "Now you need to work for the money."
     client "I pay 900 bucks."
     client "Get under the table and suck me!"
     mt "Fucking loser!"
@@ -2302,10 +2302,10 @@ translate english ep210_dialogues7_escort_hotel_12_0120cd0f:
     # m "!!!"
     m "Fuck you!"
     m "Together with your friends!"
-    m "A bunch of pathetic losers !!!"
-    client "Wow ... Easy!"
-    client "And then you will be left without money!"
-    m "Put them in your ass!"
+    m "A bunch of pathetic losers!!!"
+    client "Wow... Easy!"
+    client "Or you won't get any money!"
+    m "You can shove them in your ass!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1268
@@ -2325,15 +2325,15 @@ translate english ep210_dialogues7_escort_hotel_12_110c33c2:
     # m "!!!"
     m "Fuck you!"
     m "Together with your friends!"
-    m "A bunch of pathetic losers !!!"
-    client "Wow ... Easy!"
-    client "And then you will be left without money!"
-    m "Put them in your ass!"
+    m "A bunch of pathetic losers!!!"
+    client "Wow... Easy!"
+    client "Or you won't get any money!"
+    m "You can shove them in your ass!"
     m "!!!"
     m "That bastard!"
     m "!!!"
     client "Bitch!"
-    m "Fuck you moron!"
+    m "Fuck you, moron!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1286
@@ -2406,71 +2406,71 @@ translate english ep210_dialogues7_escort_hotel_12_59c0695e:
     # mt "АААААА!!!"
     # client "Свободна!"
     mt "Swine!!!"
-    mt "They humiliate me! They laughed at me!"
-    mt "The company of morons! Pitiful losers!"
+    mt "They humiliated me! They laughed at me!"
+    mt "This bunch of morons! Pitiful losers!"
     mt "!!!"
-    mt "If I refuse him now ..."
+    mt "If I refuse him now..."
     mt "I will not earn 450 dollars. He said he would pay 900."
-    mt "And 450 dollars for me now will not be superfluous ..."
+    mt "And 450 dollars will come handy for me..."
     mt "..."
-    mt "And then, if I refuse now ..."
-    mt "I will lose not only money, but also work."
-    mt "And I won’t be able to earn so much anywhere else."
+    mt "And then, if I refuse now..."
+    mt "I will lose not only money, but also my job."
+    mt "And I won’t be able to earn this much anywhere else."
     mt "Fuck!!!"
-    client "Come on, work out your money, whore!"
+    client "Come on, work for your money, whore!"
     mt "I hate this!!!" 
-    client "Good suck. Feels the experience. Aha ha!"
-    mt "I wonder what will happen if I sharply grit my teeth now?"
-    mt "And bite him a member."
+    client "You're good at this. I can feel years of experience. Ahaha!"
+    mt "I wonder what will happen if I grit my teeth now?"
+    mt "And bite his dick off."
     mt "..."
-    client "Mmmmmm ..."
+    client "Mmmmmm..."
     mt "Phew!"
-    client_friend_2 "Hey, I want to shove her too!"
-    client_friend_2 "Just not in the mouth ..."
+    client_friend_2 "Hey, I want to shove it in too!"
+    client_friend_2 "Just not in her mouth..."
     client "No problem, man. You can take her."
     client "I don't need her anymore."
     mt "!!!"
-    client "Did you hear?"
+    client "Did you hear that?"
     client "Get out of there!"
     m "Nobody warned me that there will be more than one client!"
     client "In fact, your organization has an additional price list."
-    client "I pay another 300 dollars on top ..."
+    client "I pay another 300 dollars on top..."
     client "And you cannot refuse."
     client "So your boss said to me."
-    client "Do you understand ?!"
+    client "Do you get it?!"
     mt "!!!"
     mt "Bastard !!!"
     client "You’ll go with him now."
     mt "Pitiful losers!"
-    mt "The administrator did not tell me anything about adding money to the price list!"
-    mt "What the hell am I learning from this asshole ?!"
+    mt "The administrator didn't tell me about adding new services to the price list!"
+    mt "Why the hell am I learning all of this from this asshole?!"
     mt "This worthless bitch could not warn me in advance ?!"
     mt "!!!"
-    mt "On the other hand ... In addition, I will earn another 300 dollars."
+    mt "On the other hand... I will earn another 300 dollars."
     mt "..."
-    client_friend_2 "You say you're a big boss? Aha ha!"
-    client_friend_2 "Never fucked a big boss. Aha ha!"
+    client_friend_2 "You say you're a big boss? Ahaha!"
+    client_friend_2 "Never fucked a big boss. Ahaha!"
     client_friend_2 "Come on, suck me first. Whore."
-    mt "Worthless loser !!!"
+    mt "Worthless loser!!!"
     mt "!!!"
     client_friend_2 "It's time to fuck the big boss!"
     mt "!!!"
-    mt "Oh god Monica! Is it worth it to endure for 900 dollars ?!"
-    mt "Some 900 dollars !!!"
-    client "Oh dude! Come on, so her!"
+    mt "Oh god Monica! Is it worth it to endure this for 900 dollars?!"
+    mt "Mere 900 dollars!!!"
+    client "Oh dude! Yeah, just like that!"
     mt "!!!"
-    client_friend_2 "Hey, I fuck the big boss. Aha ha!"
+    client_friend_2 "Hey, I'm fucking the big boss. Ahaha!"
     client "Aha-ha!!!"
-    client "So her, that whore!"
-    client_friend_2 "AAAAAAA !!!"
-    mt "Now I understand what kind of clients those knots from the hotel meant!"
+    client "Yeah, get that, whore!"
+    client_friend_2 "AAAAAAA!!!"
+    mt "Now I understand what kind of clients those bitches from the hotel meant!"
     mt "!!!"
-    client_friend_2 "The whore this time, of course, is not the most chic ..."
-    client "Come on ... For a beer. Aha ha !!!"
+    client_friend_2 "This whore is not excatly top-notch..."
+    client "She will do... After five cans of beer. Ahaha !!!"
     mt "!!!"
     mt "!!!!!!!"
-    mt "AAAAAA !!!"
-    client "Is free!"
+    mt "AAAAAAH!!!"
+    client "Go!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1376
 translate english ep210_dialogues7_escort_hotel_11c_f916e7af:
@@ -2495,20 +2495,20 @@ translate english ep210_dialogues7_escort_hotel_11c_f916e7af:
     # reception "На сегодня все. Клиенты не любят использованный товар."
     # mt "Вот сучка!"
     # mt "!!!"
-    m "The customer paid $ 900. Plus on top of 300 dollars."
-    m "For an additional service ..."
+    m "The customer paid $ 900. And another 300 on top."
+    m "For additional services..."
     m "He changed the conditions!"
     m "I did not know that customers were allowed this!"
     reception "But the client was satisfied!"
-    reception "There is a desire of the client and there is a price list ..."
+    reception "There is a desire of the client and there is a price list..."
     reception "If something does not suit you, you can go to the street."
     mt "!!!"
-    mt "Maybe to hell with those stupid price lists?"
-    mt "I'll try to make money on the street ... Although less, but without such humiliation."
+    mt "Maybe screw those stupid price lists?"
+    mt "I'll try to make money on the street... It'll be less, but without such humiliation."
     mt "..."
-    mt "No. I need money. And here is a good income."
-    mt "Today I earned $ 600 in one evening."
-    mt "Perhaps I should work a little more here."
+    mt "No. I need money. And the income is good here."
+    mt "I earned $ 600 in one evening."
+    mt "Perhaps I should work here a little more."
     mt "..."
     reception "Here's your money."
     reception "You can come again tomorrow."
@@ -2656,7 +2656,7 @@ translate english ep210_dialogues7_escort_hotel_2_7f1b2644:
     # hotel_staff "Если бы я сразу сказал, что это обычный коридор..."
     # hotel_staff "То Вы не согласились бы, Мэм."
     # hotel_staff "Однако, прошу Вас, поверьте! Здесь никто никогда не ходит!"
-    hotel_staff "If I told you before, this is a regular corridor..."
+    hotel_staff "If I told you it was a simple serive hallway right away..."
     hotel_staff "You wouldn't agree, ma'am."
     hotel_staff "But please believe me! Nobody ever walks here!"
 
@@ -2666,7 +2666,7 @@ translate english ep210_dialogues7_escort_hotel_6_b1f79569:
     # m "!!!"
     # m "Я делала это не за деньги! Это мои личные отношения! И это тебя не должно касаться!"
     m "!!!"
-    m "I didn't do it for money, it's my private relationship. It doesn't have to bother you!"
+    m "I didn't do it for money! We have a relationship! And that's none of your business!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:767
 translate english ep210_dialogues7_escort_hotel_6_57a264e4:
@@ -2694,11 +2694,11 @@ translate english ep210_dialogues7_escort_hotel_6_62ca7f99:
     # mt "Но черт! Неужели я смогу работать здесь?!"
     mt "What a nightmare!!!"
     mt "I was offered to work as a whore in a hotel!"
-    mt "Monica, what are you up to ?!"
+    mt "How did it come to this, Monica?!"
     mt "..."
     mt "From the other side..."
-    mt "This is a good opportunity to quickly earn good money."
-    mt "But hell! Can I really work here ?!"
+    mt "This is a good opportunity to earn good money quickly."
+    mt "But hell! Can I really work here?!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1204
 translate english ep210_dialogues7_escort_hotel_7_2acdca2e:
@@ -2722,37 +2722,37 @@ translate english ep210_dialogues7_escort_hotel_7_6d543bf5:
 translate english ep210_dialogues7_escort_hotel_8_enter_restaurant_937f7632:
 
     # reception "Куда собралась? Тебе надо переодеться!"
-    reception "Where are you going? You have to change your dress!"
+    reception "Where are you going? You need to change!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1371
 translate english ep210_dialogues7_escort_hotel_8_enter_restaurant_910799f0:
 
     # m "Я не на работу. Я просто поесть..."
-    m "I'm not here because of work. I just wanna eat..."
+    m "I'm not going to work. Just to eat..."
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1374
 translate english ep210_dialogues7_escort_hotel_8_enter_restaurant_86424ace:
 
     # reception "Хорошо, иди."
     # reception "Но учти, что здесь надо работать и ублажать клиентов, а не отдыхать!"
-    reception "Okay, do it."
-    reception "But be aware that you have to work to satisfy our customers. You're not here to relax!"
+    reception "Alright, you may go."
+    reception "But bear in mind that you need to work hard hear and pleasure our clients, and not have fun!"
 
 translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:38
     old "Моника делала минет Филиппу в туалете"
-    new "Monica gave Philip a blowjob in the toilet"
+    new "Monica will give Philip a blowjob in the bathroom"
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1218
     old "Снежанна"
-    new "Ruby."
+    new "Ruby"
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1357
     old "Работать в эскорте (в следующем апдейте). (disabled)"
-    new "Work with the girls. (in the next update) (disabled)"
+    new "Work in escort services (in the next update). (disabled)"
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1357
     old "Идти в ресторан."
-    new "Go to the restaurant."
+    new "Go to the restaraunt."
 

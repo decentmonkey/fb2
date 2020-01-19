@@ -3279,8 +3279,8 @@ translate english dialogue_5_dance_strip_22_28af4dda:
 
     # ashley "Ты помнишь что ты наказана!?"
     # ashley "Сделай так чтобы Молли простила тебя, иначе не будешь зарабатывать здесь ничего!"
-    ashley "Do you remeber being punished?"
-    ashley "Molly needs to forgive you, else you won't earn a single more dollar here!"
+    ashley "Did you forget you're punished!?"
+    ashley "Make Molly forgive you or you won't be able to make money here!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2058
 translate english dialogue_5_dance_strip_22_368e900d:
@@ -3288,7 +3288,7 @@ translate english dialogue_5_dance_strip_22_368e900d:
     # mt "Сучка!"
     # mt "Какой мне смысл танцевать, если приходится отдавать ей все деньги?!"
     mt "Bitch!!!"
-    mt "Why should I dance when I have to give her all my tips?!"
+    mt "Why should I dance if I need to give all my earnings to her?!"
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2198
 translate english dialogue_5_dance_strip_27_c59e502f:

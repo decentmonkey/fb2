@@ -5,6 +5,6 @@ translate english street_philiphome_environment_71fefb01:
 
     # mt "Дешевая шлюха, которая приходит к Филиппу."
     # mt "Как можно пасть так низко, Фу!"
-    mt "Cheap whore, going to Philip."
-    mt "How could you fall so deep, fu?!"
+    mt "Cheap whore taht visits Philip."
+    mt "How can one stoop so low, ew!"
 

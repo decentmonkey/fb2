@@ -12,5 +12,5 @@ translate english strings:
 
     # game/Characters/Pub/Claire.rpy:6
     old "Клэр знает имя Моники и помогает ей. Она ее друг."
-    new "Claire knows Monicas true name and is helping her."
+    new "Claire knows Monica's namde and helps her. They're friends."
 

@@ -7,10 +7,10 @@ translate english ep210_dialogues2_escort_start_Phillip_1_24741e58:
     # mt "Я на верном пути."
     # mt "Совсем недавно я могла себе позволить только ужасный кебаб..."
     # mt "Или не менее ужасное пирожное..."
-    mt "Finally, my old life is gradually returning ..."
+    mt "Finally, my old life is gradually returning..."
     mt "I'm on the right track."
-    mt "More recently, I could only afford a terrible kebab ..."
-    mt "Or no less awful cake ..."
+    mt "Just recently, I could only afford a terrible kebab..."
+    mt "Or a similarly awful cake..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:12
 translate english ep210_dialogues2_escort_start_Phillip_1_154ba4d0:
@@ -19,10 +19,10 @@ translate english ep210_dialogues2_escort_start_Phillip_1_154ba4d0:
     # mt "Я поела такой вкусный ужин..."
     # mt "Скоро Моника Бакфетт вернет себе все, что у нее отняли!"
     # mt "И накажет всех, кто посмел недостойно себя вести в отношении нее..."
-    mt "And now I'm in a restaurant, I’m wearing a beautiful dress ..."
-    mt "I ate such a delicious dinner ..."
+    mt "And now I'm in a restaurant, wearing a beautiful dress..."
+    mt "I ate such a delicious dinner..."
     mt "Soon, Monica Buckfett will regain everything that was taken from her!"
-    mt "And she will punish all who dared to behave unworthily in relation to her ..."
+    mt "And she will punish all who dared to be rude to her..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:18
 translate english ep210_dialogues2_escort_start_Phillip_1_efd27a69:
@@ -35,14 +35,14 @@ translate english ep210_dialogues2_escort_start_Phillip_1_f3a6669d:
 
     # mt "О нет! Только не этот мерзкий тип!"
     # mt "Что он здесь делает?!"
-    mt "Oh no! Just not this nasty type!"
-    mt "What is he doing here ?!"
+    mt "Oh no! Just not this nasty man!"
+    mt "What is he doing here?!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:25
 translate english ep210_dialogues2_escort_start_Phillip_1_518b3f93:
 
     # philip "Добрый вечер, Миссис Бакфетт. Позвольте вашу ручку?"
-    philip "Good evening, Mrs. Buckfett. Allow your pen?"
+    philip "Good evening, Mrs. Buckfett. May I have your hand?"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:28
 translate english ep210_dialogues2_escort_start_Phillip_1_83b6e617:
@@ -55,7 +55,7 @@ translate english ep210_dialogues2_escort_start_Phillip_1_da720fcf:
 
     # m "Спасибо, Филипп."
     # mt "Что ему от меня надо?"
-    m "Thanks Philip."
+    m "Thanks, Philip."
     mt "What does he want from me?"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:33
@@ -64,30 +64,30 @@ translate english ep210_dialogues2_escort_start_Phillip_1_11c530df:
     # philip "На этой презентации я увидел у Вас кое-что интересное, Мэм..."
     # m "..."
     # philip "Я, конечно, не использую одну и ту же женщину дважды..."
-    philip "At this presentation, I saw you have something interesting, Ma'am ..."
+    philip "At this presentation, I saw you have something interesting, Ma'am..."
     m "..."
-    philip "Of course, I do not use the same woman twice ..."
+    philip "I don't usually use the same woman twice..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:41
 translate english ep210_dialogues2_escort_start_Phillip_1_183e3603:
 
     # philip "Но у Вас я пробовал только ротик..."
     # philip "Я решил, что неплохо было бы мне засунуть член в Ваше отверстие."
-    philip "But I only tried your mouth ..."
+    philip "But I only tried your mouth..."
     philip "I decided that it would be nice for me to put my dick in your hole."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:45
 translate english ep210_dialogues2_escort_start_Phillip_1_9aee03e5:
 
     # m "Это не твое дело, Филипп! Мне без разницы, что ты там увидел..."
-    m "It's none of your business, Philip! It makes no difference to me what you saw there ..."
+    m "It's none of your business, Philip! It makes no difference to me what you saw there..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:47
 translate english ep210_dialogues2_escort_start_Phillip_1_539a7c61:
 
     # philip "Как что? Вашу прекрасную попу, Миссис Бакфетт!"
     # philip "И я решил, что неплохо было бы мне засунуть член в Ваше отверстие."
-    philip "Like what? Your beautiful ass, Mrs. Buckfett!"
+    philip "What did I see? Your beautiful ass, Mrs. Buckfett!"
     philip "I decided that it would be nice for me to put my dick in your hole."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:52
@@ -96,7 +96,7 @@ translate english ep210_dialogues2_escort_start_Phillip_1_763b0dd5:
     # mt "!!!"
     # m "Даже не мечтай, Филипп! Ты никогда не сможешь этого сделать!"
     mt "!!!"
-    m "Do not even dream, Philip! You can never do it!"
+    m "In your dreams, Philip! You can never do it!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:55
 translate english ep210_dialogues2_escort_start_Phillip_1_d545ce91:
@@ -109,8 +109,8 @@ translate english ep210_dialogues2_escort_start_Phillip_1_4fe2edd6:
 
     # m "Ты меня считаешь проституткой?!"
     # m "С чего ты взял, что меня можно купить?!"
-    m "Do you consider me a prostitute ?!"
-    m "Why did you think that you can buy me ?!"
+    m "Do you consider me a prostitute?!"
+    m "Why did you think that you can buy me?!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:62
 translate english ep210_dialogues2_escort_start_Phillip_1_1f45d590:
@@ -138,8 +138,8 @@ translate english ep210_dialogues2_escort_start_Phillip_1_4d2a6955:
     # m "Моя... Она стоит миллионы долларов!"
     # m "А таким негодяям, как ты, о ней остается только мечтать!"
     # m "!!!"
-    m "My ... It costs millions of dollars!"
-    m "And you can only dream of such things which belong to me!"
+    m "My pussy... It costs millions of dollars!"
+    m "And crooks like you can only dream about getting their hands on it!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:75
@@ -171,8 +171,8 @@ translate english ep210_dialogues2_escort_start_Phillip_1_411593db:
     # philip "Но в следующий раз..."
     # m "Не будет никакого следующего раза!!!"
     # m "!!!"
-    philip "Okay, now I'm leaving ..."
-    philip "But next time ..."
+    philip "Okay, I'm leaving for now..."
+    philip "But next time..."
     m "There will be no next time !!!"
     m "!!!"
 
@@ -180,14 +180,14 @@ translate english ep210_dialogues2_escort_start_Phillip_1_411593db:
 translate english ep210_dialogues2_escort_start_Phillip_1_193ca8dd:
 
     # m "А почему 300?!"
-    m "Why 300?"
+    m "Why only 300?!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:96
 translate english ep210_dialogues2_escort_start_Phillip_1_84ff9eec:
 
     # philip "Ну вот видите, Вы уже торгуетесь..."
     # philip "Вы обычная шлюха, которую я сейчас куплю."
-    philip "Well, you see, you are already bargaining ..."
+    philip "Ah, see, you're already bargaining..."
     philip "You are an ordinary whore that I will buy now."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:99
@@ -195,8 +195,8 @@ translate english ep210_dialogues2_escort_start_Phillip_1_a14c4f34:
 
     # m "Как ты смеешь такое обсуждать со мной?!"
     # m "Я не шлюха! Меня нельзя купить!!!"
-    m "How dare you discuss this with me ?!"
-    m "I'm not a whore! I can not be bought !!!"
+    m "How dare you discuss this with me?!"
+    m "I'm not a whore! I can't be bought!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:102
 translate english ep210_dialogues2_escort_start_Phillip_1_2f5211fc:
@@ -210,15 +210,15 @@ translate english ep210_dialogues2_escort_start_Phillip_1_0558ba02:
     # m "И вообще, почему 300?!"
     # m "В прошлый раз ты предлагал 500 долларов и за меньшее!"
     # m "Ты считаешь, что моя... Неважно... Что она стоит так мало?!"
-    m "And anyway, why 300 ?!"
-    m "Last time, you offered $ 500 !"
-    m "Do you think that my ... It does not matter ... That it costs so little ?!"
+    m "And anyway, why only 300?!"
+    m "Last time, you offered $ 500!"
+    m "Do you think that my... whatever... costs so little?!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:108
 translate english ep210_dialogues2_escort_start_Phillip_1_05aa4f22:
 
     # philip "Ваши акции дешевеют, Миссис Бакфетт..."
-    philip "Your shares are getting cheaper, Mrs. Buckfett ..."
+    philip "Your shares are getting cheaper, Mrs. Buckfett..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:110
 translate english ep210_dialogues2_escort_start_Phillip_1_d0666177:
@@ -244,7 +244,7 @@ translate english ep210_dialogues2_escort_start_Phillip_1_7e9af7bc:
     # mt "Какая же сволочь этот Филипп!"
     mt "Heck!"
     mt "I need money!"
-    mt "But not in the same way!"
+    mt "But not like that!"
     mt "!!!"
     mt "What a bastard this Philip is!"
 
@@ -261,7 +261,7 @@ translate english ep210_dialogues2_escort_start_Phillip_1_9e5dcd27:
 
     # philip "Это не в моих интересах..."
     # philip "Я не хочу, чтобы все знали, что я покупаю женщину так дешево."
-    philip "This is not in my interests ..."
+    philip "This is not in my interests..."
     philip "I do not want everyone to know that I am buying a woman so cheaply."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:128
@@ -288,12 +288,12 @@ translate english ep210_dialogues2_escort_start_Phillip_1_0a94fb0b:
     # mt "Что же мне делать?!"
     # mt "Моника, неужели ты способна на такое пойти?!"
     # mt "..."
-    mt "How dare he offer me that ?!"
+    mt "How dare he offer me that?!"
     mt "On the other hand, I need money ..."
-    mt "Soon I will get everything back and I cannot undermine my reputation ..."
+    mt "Soon I will get everything back and I cannot undermine my reputation..."
     mt "And he said that he would not tell anyone about it."
     mt "What should I do?!"
-    mt "Monica, are you really capable of such a thing ?!"
+    mt "Monica, are you really capable of such a thing?!"
     mt "..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:143
@@ -308,8 +308,8 @@ translate english ep210_dialogues2_escort_start_Phillip_1_4d2a6955_1:
     # m "Моя... Она стоит миллионы долларов!"
     # m "А таким негодяям, как ты, о ней остается только мечтать!"
     # m "!!!"
-    m "My ... It costs millions of dollars!"
-    m "And you can only dream of such things which belong to me!"
+    m "My pussy... It costs millions of dollars!"
+    m "And crooks like you can only dream about getting their hands on it!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:149
@@ -341,8 +341,8 @@ translate english ep210_dialogues2_escort_start_Phillip_1_411593db_1:
     # philip "Но в следующий раз..."
     # m "Не будет никакого следующего раза!!!"
     # m "!!!"
-    philip "Okay, now I'm leaving ..."
-    philip "But next time ..."
+    philip "Okay, I'm leaving for now..."
+    philip "But next time..."
     m "There will be no next time !!!"
     m "!!!"
 
@@ -360,8 +360,8 @@ translate english ep210_dialogues2_escort_start_Phillip_1_4e3094a8:
     # philip "Не беспокойтесь, мой член бывал и не в таких местах..."
     # philip "И при этом у меня все прекрасно."
     # m "..."
-    philip "Do not worry, what my dick does, stays a secret ..."
-    philip "And at the same time, everything is fine with me."
+    philip "My dick has been to even greater places..."
+    philip "And I'm perfectly fine and healthy."
     m "..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:174
@@ -390,13 +390,13 @@ translate english ep210_dialogues2_escort_start_Phillip_1_79c39fae:
 translate english ep210_dialogues2_escort_start_Phillip_2_4e247ba1:
 
     # m "Снова это жуткое место..."
-    m "Again this is a creepy place ..."
+    m "This creepy place again..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:194
 translate english ep210_dialogues2_escort_start_Phillip_2_47120227:
 
     # m "Неужели нельзя было в этот раз подобрать место получше?!"
-    m "Was it really impossible to pick a better place this time ?!"
+    m "Was it really impossible to pick a better place this time?!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:196
 translate english ep210_dialogues2_escort_start_Phillip_2_55548a45:
@@ -448,7 +448,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_5f09f83c:
     # m "Что, прямо вот так?! Так быстро?!"
     philip "Tuck up your dress, Mrs. Buckfett. Show me your pussy."
     m "!!!"
-    m "What, right like that ?! So fast?!"
+    m "What, just like that?! So fast?!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:220
 translate english ep210_dialogues2_escort_start_Phillip_2_64cf83d3:
@@ -469,15 +469,15 @@ translate english ep210_dialogues2_escort_start_Phillip_2_5d76fb2d:
 
     # m "Как ты смеешь так со мной обращаться?!"
     # m "Моя... Она стоит миллионы долларов!"
-    m "How dare you treat me like that ?!"
-    m "My ... It costs millions of dollars!"
+    m "How dare you treat me like that?!"
+    m "My pussy... It costs millions of dollars!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:232
 translate english ep210_dialogues2_escort_start_Phillip_2_41c73582:
 
     # m "А таким негодяям, как ты, о ней остается только мечтать!"
     # m "!!!"
-    m "And you can only dream of such things which belong to me!"
+    m "And crooks like you can only dream about getting their hands on it!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:235
@@ -502,7 +502,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_341cf478:
     # philip "Но в следующий раз..."
     m "!!!"
     philip "Fine..."
-    philip "But next time ..."
+    philip "But next time..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:244
 translate english ep210_dialogues2_escort_start_Phillip_2_872a2468:
@@ -518,7 +518,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_5a7e6c7f:
     # m "Как ты смеешь так со мной обращаться?!"
     # m "Мерзкий самовлюбленный извращенец!"
     # m "!!!"
-    m "How dare you treat me like that ?!"
+    m "How dare you treat me like that?!"
     m "Vile narcissistic pervert!"
     m "!!!"
 
@@ -543,7 +543,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_a299229f:
 
     # m "Да пошел ты, придурок!"
     # m "!!!"
-    m "Fuck you moron!"
+    m "Fuck you, moron!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:272
@@ -551,7 +551,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_b6e4297a:
 
     # philip "Это никуда не годится, Миссис Бакфетт..."
     # philip "Я за это и цента не заплачу."
-    philip "This is no good, Mrs. Buckfett ..."
+    philip "This is no good, Mrs. Buckfett..."
     philip "I will not pay a cent for this."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:275
@@ -565,7 +565,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_e5e3a696:
 
     # philip "А теперь предложите мне себя..."
     # philip "Раздвиньте ноги и покажите мне, что там между ними."
-    philip "Now offer me yourself ..."
+    philip "Now offer me yourself..."
     philip "Spread your legs and show me what's in between."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:284
@@ -582,7 +582,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_0a080681:
     # philip "Никаких 'но'. Будете много разговаривать, ничего не заработаете."
     # philip "Раздвигайте ноги!"
     # mt "!!!"
-    philip "No buts. You will talk a lot, you will not earn anything."
+    philip "No buts. The more you talk, the less you earn."
     philip "Spread your legs!"
     mt "!!!"
 
@@ -591,15 +591,15 @@ translate english ep210_dialogues2_escort_start_Phillip_2_5d76fb2d_1:
 
     # m "Как ты смеешь так со мной обращаться?!"
     # m "Моя... Она стоит миллионы долларов!"
-    m "How dare you treat me like that ?!"
-    m "My ... It costs millions of dollars!"
+    m "How dare you treat me like that?!"
+    m "My pussy... It costs millions of dollars!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:298
 translate english ep210_dialogues2_escort_start_Phillip_2_41c73582_1:
 
     # m "А таким негодяям, как ты, о ней остается только мечтать!"
     # m "!!!"
-    m "And you can only dream of such things which belong to me!"
+    m "And crooks like you can only dream about getting their hands on it!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:301
@@ -624,7 +624,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_341cf478_1:
     # philip "Но в следующий раз..."
     m "!!!"
     philip "Fine..."
-    philip "But next time ..."
+    philip "But next time..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:310
 translate english ep210_dialogues2_escort_start_Phillip_2_872a2468_1:
@@ -640,7 +640,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_5a7e6c7f_1:
     # m "Как ты смеешь так со мной обращаться?!"
     # m "Мерзкий самовлюбленный извращенец!"
     # m "!!!"
-    m "How dare you treat me like that ?!"
+    m "How dare you treat me like that?!"
     m "Vile narcissistic pervert!"
     m "!!!"
 
@@ -665,7 +665,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_a299229f_1:
 
     # m "Да пошел ты, придурок!"
     # m "!!!"
-    m "Fuck you moron!"
+    m "Fuck you, moron!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:338
@@ -679,7 +679,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_0c03196c:
 
     # philip "Давно я не трахал таких 'леди' в туалете ресторана."
     # m "!!!"
-    philip "For a long time I have not fucked such 'ladies' in the restroom of the restaurant."
+    philip "I haven't fucked such 'ladies' in a restaraunt bathroom in a good while."
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:346
@@ -689,7 +689,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_99192b98:
     # mt "Но потом я ему отомщу!"
     # mt "Он будет одним из первых, кого Моника Бакфетт накажет за все его мерзкие поступки!"
     mt "I will try to endure it now, because I need money."
-    mt "But then I will avenge him!"
+    mt "But then I will get him for this!"
     mt "He will be one of the first who Monica Buckfett will punish for all his vile deeds!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:353
@@ -700,9 +700,9 @@ translate english ep210_dialogues2_escort_start_Phillip_2_9c34532c:
     # philip "Конечно, она не стоит 300 долларов..."
     # philip "Но все же..."
     # philip "Ммммм..."
-    philip "Mmmmmm ..."
-    philip "You have a nice pussy, Mrs. Buckfett ..."
-    philip "Of course, it does not cost 300 dollars ..."
+    philip "Mmmmmm..."
+    philip "You have a nice pussy, Mrs. Buckfett..."
+    philip "Of course, it does not cost 300 dollars..."
     philip "But still..."
     philip "Mmmm..."
 
@@ -712,15 +712,15 @@ translate english ep210_dialogues2_escort_start_Phillip_2_603b9d4f:
     # philip "Мне приятно Вас трахать, Миссис Бакфетт..."
     # philip "Думаю, это не последняя наша с Вами встреча..."
     # philip "Ммммм..."
-    philip "I am pleased to fuck you, Mrs. Buckfett ..."
-    philip "I think this is not our last meeting with you ..."
+    philip "I am pleased to fuck you, Mrs. Buckfett..."
+    philip "I think this is not our last meeting with you..."
     philip "Mmmm..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:363
 translate english ep210_dialogues2_escort_start_Phillip_2_b4b18d11:
 
     # philip "Даааа..."
-    philip "Yeah ..."
+    philip "Yeah..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:370
 translate english ep210_dialogues2_escort_start_Phillip_2_bf6fdb5a:
@@ -733,7 +733,7 @@ translate english ep210_dialogues2_escort_start_Phillip_2_50fe1c7d:
 
     # philip "Неплохо, Миссис Бакфетт..."
     # philip "Можете забирать свои деньги."
-    philip "Not bad, Mrs. Buckfett ..."
+    philip "Not bad, Mrs. Buckfett..."
     philip "You can take your money."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:378
@@ -749,8 +749,8 @@ translate english ep210_dialogues2_escort_start_Phillip_2_8c344342:
 
     # philip "Вы знаете, Миссис Бакфетт..."
     # philip "Я готов сделать исключение из своего правила не использовать одну и ту же женщину дважды..."
-    philip "You know, Mrs. Buckfett ..."
-    philip "I am ready to make an exception to my rule not to use the same woman twice ..."
+    philip "You know, Mrs. Buckfett..."
+    philip "I am ready to make an exception to my rule not to use the same woman twice..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:385
 translate english ep210_dialogues2_escort_start_Phillip_2_fdd4413b:
@@ -770,14 +770,14 @@ translate english ep210_dialogues2_escort_start_Phillip_2_b9055bdd:
 translate english ep210_dialogues2_escort_start_Phillip_2_c2e2e09b:
 
     # m "Что за мерзкое название?"
-    m "What a nasty name?"
+    m "What a nasty name!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:392
 translate english ep210_dialogues2_escort_start_Phillip_2_820d6dcf:
 
     # philip "Я предлагаю Вам быть моей личной шлюхой, которая приходит ко мне по субботам..."
     # m "!!!"
-    philip "I suggest you be my personal whore who comes to me on Saturdays ..."
+    philip "I suggest you be my personal whore who comes to me on Saturdays..."
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:395
@@ -786,16 +786,16 @@ translate english ep210_dialogues2_escort_start_Phillip_2_e13767d9:
     # philip "Это исключение, которое я делаю далеко немногим."
     # philip "Будешь приходить в субботу. Остальные дни у меня расписаны."
     # philip "Вообще, субботняя шлюха у меня уже есть... Но она иногда по субботам приходить не может."
-    philip "This is an exception that I make by far few."
+    philip "This is an exception that I make by for a select few girls."
     philip "You will come on Saturday. The rest of my days are scheduled."
-    philip "Actually, I already have a Saturday whore ... But sometimes she can’t come on Saturdays."
+    philip "Actually, I already have a Saturday whore... But sometimes she can’t come on Saturdays."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:399
 translate english ep210_dialogues2_escort_start_Phillip_2_2e1b043d:
 
     # philip "Поэтому Вы, Миссис Бакфетт, будете субботней шлюхой номер два... На замену."
     # philip "Придете ко мне вечером в субботу. Я плачу 100 долларов за вечер."
-    philip "So you, Mrs. Buckfett, will be Saturday's whore number two ... For a replacement."
+    philip "So you, Mrs. Buckfett, will be the Saturday whore number two... A replacement."
     philip "Come to me on Saturday evening. I pay $ 100 a night."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:402
@@ -833,13 +833,13 @@ translate english ep210_dialogues2_escort_start_Phillip_3_e08e841c:
     # mt "Этот никчемный жадный неудачник думает, что я соглашусь на подобное?!"
     # mt "!!!"
     mt "God, what a nightmare!"
-    mt "I do not believe that I was able to decide on this !!!"
-    mt "Monica, is this really happening to you ?!"
+    mt "I do not believe that I agreed to this!!!"
+    mt "Monica, is this really happening to you?!"
     mt "... (grunt)"
-    mt "How could he offer me to become his Saturday whore ?!"
-    mt "Yes, and a replacement!"
-    mt "He offered it to me, Monica Buckfett !!!"
-    mt "This worthless greedy loser thinks I’ll agree to such a thing ?!"
+    mt "How could he offer me to become his Saturday whore?!"
+    mt "Yes, and a replacement one to boot!"
+    mt "He offered it to me, Monica Buckfett!!!"
+    mt "This worthless greedy loser thinks I’ll agree to such a thing?!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:431
@@ -849,9 +849,9 @@ translate english ep210_dialogues2_escort_start_Phillip_4_098bd6e3:
     # mt "Никчемный неудачник!!!"
     # mt "Как он посмел со мной так обращаться!!!"
     # mt "Ненавижу его!"
-    mt "Vile pervert !!!"
-    mt "Worthless loser !!!"
-    mt "How dare he treat me like that !!!"
+    mt "Vile pervert!!!"
+    mt "Worthless loser!!!"
+    mt "How dare he treat me like that!!!"
     mt "I hate him!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:440
@@ -859,7 +859,7 @@ translate english ep210_dialogues2_escort_start_Phillip_5_56fd555f:
 
     # reception "А что это за мужчина присел за ваш столик, Мэм?"
     # reception "Вы уверены в том, что это был просто ужин?"
-    reception "And what kind of man crouched at your table, Ma'am?"
+    reception "Who was the man that joined you at the table, Ma'am?"
     reception "Are you sure it was just dinner?"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:443
@@ -867,7 +867,7 @@ translate english ep210_dialogues2_escort_start_Phillip_5_1301a184:
 
     # m "А вы уверены, что я должны отчитываться перед каким-то администратором?"
     # m "Это мое личное дело и вас это не касается!"
-    m "Are you sure that I should report to some administrator?"
+    m "Are you sure that I should tell anything to some administrator?"
     m "This is my own business and it does not concern you!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:446
@@ -875,7 +875,7 @@ translate english ep210_dialogues2_escort_start_Phillip_5_5473a60f:
 
     # mt "Какая-то никчемная администраторша, а задает мне такие вопросы!"
     # mt "!!!"
-    mt "Some kind of worthless administrator, but asks me such questions!"
+    mt "Some kind of worthless administrator asking me such questions!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:454
@@ -894,34 +894,34 @@ translate english ep210_dialogues2_escort_start_Phillip_6_096e584d:
     # mt "Тогда я смогу купить себе дом..."
     # mt "И послать к черту тех деревенщин, что живут сейчас в моем бывшем доме."
     # mt "Хммм... Мне кажется, что мне нужно будет поехать домой к Филиппу... И попытаться найти с ним общий язык."
-    mt "I can send everything to hell and just don’t go to this bastard ..."
+    mt "I can send everything to hell and just don’t go to this bastard..."
     mt "And look for another way to make money."
     mt "On the other hand, I can quickly earn from him."
     mt "..."
-    mt "He also said that he did not meet with one woman twice ... And he invited me to his home ..."
+    mt "He also said that he did not meet with one woman twice... And he invited me to his home..."
     mt "..."
-    mt "Perhaps he is not indifferent to me ... In principle, like all men ..."
-    mt "And under such a rude manner of communication, he is trying to hide it."
+    mt "Perhaps he is not indifferent to me... Like all men..."
+    mt "And he's just trying to hide his affection under his rude demeanor."
     mt "..."
-    mt "He is also rich and, perhaps, you can make him help me with money."
-    mt "Then I can buy a house for myself ..."
+    mt "He is also rich and, perhaps, I can make him help me with money."
+    mt "Then I can buy a house for myself..."
     mt "And send to hell those villagers who now live in my former home."
-    mt "Hmmm ... It seems to me that I will need to go home to Philip ... and try to find a common language with him."
+    mt "Hmmm... It seems that I will need to go to Philip's housr... and try to find some common ground with him."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:472
 translate english ep210_dialogues2_escort_start_Phillip_7_0b565747:
 
     # mt "Неужели я на такое пойду?!"
     # mt "Но мне нужны эти деньги..."
-    mt "Am I really going to do such a thing ?!"
-    mt "But I need this money ..."
+    mt "Am I really going to do such a thing?!"
+    mt "But I need this money..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:479
 translate english ep210_dialogues2_escort_start_Phillip_8_e3219184:
 
     # mt "Мне сегодня нечего там делать."
     # mt "Этот мерзавец сказал приходить к нему в субботу вечером."
-    mt "Today I have nothing to do there."
+    mt "I have nothing to do there today."
     mt "This bastard said to come to him on Saturday night."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:486
@@ -948,7 +948,7 @@ translate english ep210_dialogues2_escort_start_Phillip_11_1fb6c86f:
     # mt "Я не могу прийти к этому мерзавцу в такой одежде."
     # mt "Он знает, что я Моника Бакфетт. Я леди. И должна выглядеть соответствующе."
     mt "I can’t come to this bastard in such clothes."
-    mt "He knows that I'm Monica Buckfett. I am a lady. And it should look appropriate."
+    mt "He knows that I'm Monica Buckfett. I am a lady. And I should look appropriate."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:510
 translate english ep210_dialogues2_escort_start_Phillip_12_1b5dbe2b:
@@ -957,7 +957,7 @@ translate english ep210_dialogues2_escort_start_Phillip_12_1b5dbe2b:
     # m "Филипп, я пришла..."
     # m "..."
     philip "..."
-    m "Philip, I have come ..."
+    m "Philip, I have come..."
     m "..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:516
@@ -982,7 +982,7 @@ translate english ep210_dialogues2_escort_start_Phillip_12_3ab985c0:
     # mt "Но если я не скажу это..."
     mt "Heck!"
     mt "I do not want to say it!"
-    mt "But if I do not say this ..."
+    mt "But if I do not say this..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:527
 translate english ep210_dialogues2_escort_start_Phillip_12_075ba536:
@@ -997,7 +997,7 @@ translate english ep210_dialogues2_escort_start_Phillip_12_31cff06b:
 
     # m "Я субботняя... Субботняя ш-шлюха..."
     # philip "У меня уже есть одна субботняя шлюха. А ты кто?"
-    m "I'm Saturday ... Saturday sh-whore ..."
+    m "I'm a Saturday... Saturday w-whore..."
     philip "I already have one Saturday whore. And who are you?"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:533
@@ -1017,7 +1017,7 @@ translate english ep210_dialogues2_escort_start_Phillip_12_da4a8c2b:
 
     # philip "У меня сегодня субботняя шлюха номер 1."
     # philip "Субботняя шлюха номер 2 может прийти через неделю."
-    philip "Today is my number one Saturday whore here."
+    philip "My number one Saturday whore is here tonight."
     philip "Saturday whore number 2 may come in a week."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:550
@@ -1030,11 +1030,11 @@ translate english ep210_dialogues2_escort_start_Phillip_12_c888bfbc:
     # mt "Я делаю это вынужденно..."
     # mt "Так что этот раз не считается..."
     mt "That bastard!"
-    mt "Have I become a whore ?!"
+    mt "Have I become a whore?!"
     mt "No. This is not true."
     mt "These are just temporary difficulties!"
-    mt "I do it forcibly ..."
-    mt "So this time does not count ..."
+    mt "I'm forcing myself to di it..."
+    mt "So this time does not count..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:559
 translate english ep210_dialogues2_escort_start_Phillip_12_482c2229:
@@ -1049,7 +1049,7 @@ translate english ep210_dialogues2_escort_start_Phillip_12_5287a3c0:
 
     # mt "Не дождется!!!"
     # mt "Достаточно того, что я сюда приехала!"
-    mt "Will not do that !!!"
+    mt "I won't do that!!!"
     mt "It’s enough that I came here!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:565
@@ -1064,11 +1064,11 @@ translate english ep210_dialogues2_escort_start_Phillip_12_a4aec58d:
     # mt "Так что этот раз не считается..."
     m "I'm Monica Buckfett!"
     philip "I have nothing to do with Mrs. Buckfett."
-    mt "Have I become a whore ?!"
+    mt "Have I become a whore?!"
     mt "No. This is not true."
     mt "These are just temporary difficulties!"
-    mt "I do it forcibly ..."
-    mt "So this time does not count ..."
+    mt "I'm forcing myself to di it..."
+    mt "So this time does not count..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:581
 translate english ep210_dialogues2_escort_start_Phillip_13_0109b2da:
@@ -1107,9 +1107,9 @@ translate english ep210_dialogues2_escort_start_Phillip_13_4ad2b262:
     # mt "!!!"
     mt "He pays this whore 200 dollars!"
     mt "And to me - some miserable 100!"
-    mt "To me! The most beautiful woman in this city !!!"
+    mt "To me! The most beautiful woman in this city!!!"
     mt "!!!"
-    m "Did you really think that I would agree to such a thing ?!"
+    m "Did you really think that I would agree to such a thing?!"
     m "Of course not!!!"
     mt "Yes, and for $ 50!"
     mt "!!!"
@@ -1119,7 +1119,7 @@ translate english ep210_dialogues2_escort_start_Phillip_14_9ea05a6a:
 
     # mt "Мне даже думать противно о том, что мне предстоит сейчас сделать..."
     # mt "Чтобы заработать какие-то жалкие 100 долларов."
-    mt "I even are disgusted thinking about what I have to do now ..."
+    mt "I'm disgusted from even thinking about what I have to do now..."
     mt "To earn some pathetic $ 100."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:625
@@ -1136,14 +1136,14 @@ translate english ep210_dialogues2_escort_start_Phillip_15_b6824cf7:
 translate english ep210_dialogues2_escort_start_Phillip_15_56afe426:
 
     # mt "Моника, неужели ты способна на такое пойти?!"
-    mt "Monica, are you really capable of such a thing ?!"
+    mt "Monica, are you really capable of such a thing?!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:635
 translate english ep210_dialogues2_escort_start_Phillip_15_63e20e11:
 
     # mt "Этот мерзавец обращается со мной, как с дешевой шлюхой..."
     # mt "Я не могу пойти на это!"
-    mt "This bastard treats me like a cheap whore ..."
+    mt "This bastard treats me like a cheap whore..."
     mt "I can't do it!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:638
@@ -1168,7 +1168,7 @@ translate english ep210_dialogues2_escort_start_Phillip_15_39f137b5:
     # m "..."
     # philip "В чем дело? Мне долго еще ждать?"
     m "..."
-    philip "What's the matter? Do I have to wait long?"
+    philip "What's the matter? How long do I have to wait?"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:652
 translate english ep210_dialogues2_escort_start_Phillip_15_91d81828:
@@ -1177,8 +1177,8 @@ translate english ep210_dialogues2_escort_start_Phillip_15_91d81828:
     # mt "Боже! Как же это все омерзительно!"
     # mt "Но мне нужны эти деньги..."
     mt "..."
-    mt "Oh god How disgusting all this is!"
-    mt "But I need this money ..."
+    mt "Oh God! This is so disgusting!"
+    mt "But I need this money..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:657
 translate english ep210_dialogues2_escort_start_Phillip_15_6869ac85:
@@ -1191,7 +1191,7 @@ translate english ep210_dialogues2_escort_start_Phillip_15_ff2cab2c:
 
     # m "Я тебе буду делать это... А ты... Будешь смотреть телевизор?!"
     # m "!!!"
-    m "I will do it to you ... And you ... Will you watch TV ?!"
+    m "I will do it to you... and you... You'll be watching TV?!"
     m "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:663
@@ -1200,9 +1200,9 @@ translate english ep210_dialogues2_escort_start_Phillip_15_110e2fc9:
     # philip "Это тебя не касается."
     # philip "Шлюха номер 2 должна отрабатывать свои деньги..."
     # philip "А не задавать мне глупые вопросы."
-    philip "It doesn't concern you."
-    philip "Whore number 2 must work out her money ..."
-    philip "And do not ask me stupid questions."
+    philip "It's none of your business."
+    philip "Whore number 2 must work for her money..."
+    philip "And not ask me stupid questions."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:667
 translate english ep210_dialogues2_escort_start_Phillip_15_736e72c4:
@@ -1218,13 +1218,13 @@ translate english ep210_dialogues2_escort_start_Phillip_15_736e72c4:
 translate english ep210_dialogues2_escort_start_Phillip_15_3bf60171:
 
     # philip "Да... Вот так..."
-    philip "Yes ... There you go ..."
+    philip "Yes... There you go..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:681
 translate english ep210_dialogues2_escort_start_Phillip_15_bd814bd1:
 
     # philip "Возьми его глубже..."
-    philip "Take it deeper ..."
+    philip "Take it deeper..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:691
 translate english ep210_dialogues2_escort_start_Phillip_15_76a8cd88:
@@ -1236,7 +1236,7 @@ translate english ep210_dialogues2_escort_start_Phillip_15_76a8cd88:
 translate english ep210_dialogues2_escort_start_Phillip_15_160c07fd:
 
     # philip "Мммммм..."
-    philip "Mmmmmm ..."
+    philip "Mmmmmm..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:706
 translate english ep210_dialogues2_escort_start_Phillip_15_77148440:
@@ -1283,7 +1283,7 @@ translate english ep210_dialogues2_escort_start_Phillip_15_63ed9b15:
 
     # mt "Может, поросить у него еще денег?"
     # mt "Ведь в прошлый раз он заплатил мне 300 долларов."
-    mt "Maybe he should still have money?"
+    mt "Maybe I should ask for more money?"
     mt "After all, the last time he paid me $ 300."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:740
@@ -1292,7 +1292,7 @@ translate english ep210_dialogues2_escort_start_Phillip_15_bde3a7c7:
     # m "Филипп, я..."
     # m "..."
     # m "Хотела спросить, не мог бы ты дать мне еще немного денег?"
-    m "Philip, I ..."
+    m "Philip, I..."
     m "..."
     m "I wanted to ask, could you give me some more money?"
 
@@ -1331,7 +1331,7 @@ translate english ep210_dialogues2_escort_start_Phillip_16_33156881:
 
     # philip "Сейчас шлюха номер 2 предложит мне себя, как в прошлый раз."
     # philip "А я пока подумаю, что я с ней сегодня сделаю."
-    philip "Now whore number 2 will offer me herself, as last time."
+    philip "Now whore number 2 will offer me herself, like last time."
     philip "In the meantime, I'll think about what I’ll do with her today."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:771
@@ -1339,7 +1339,7 @@ translate english ep210_dialogues2_escort_start_Phillip_16_88eb8107:
 
     # mt "Моника, неужели ты способна на такое пойти?!"
     # mt "..."
-    mt "Monica, are you really capable of such a thing ?!"
+    mt "Monica, are you really capable of such a thing?!"
     mt "..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:777
@@ -1347,7 +1347,7 @@ translate english ep210_dialogues2_escort_start_Phillip_16_63e20e11:
 
     # mt "Этот мерзавец обращается со мной, как с дешевой шлюхой..."
     # mt "Я не могу пойти на это!"
-    mt "This bastard treats me like a cheap whore ..."
+    mt "This bastard treats me like a cheap whore..."
     mt "I can't do it!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:780
@@ -1382,7 +1382,7 @@ translate english ep210_dialogues2_escort_start_Phillip_16_8d89ac9b:
     # philip "Что же шлюха может предложить мне сегодня?"
     # philip "Возможно, свою задницу?"
     philip "What can the whore offer me today?"
-    philip "Perhaps your ass?"
+    philip "Perhaps her ass?"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:802
 translate english ep210_dialogues2_escort_start_Phillip_16_c8e92992:
@@ -1390,8 +1390,8 @@ translate english ep210_dialogues2_escort_start_Phillip_16_c8e92992:
     # mt "О, нет! Он хочет сделать это с моей попой?!"
     # mt "Нет! Я не перенесу этого!"
     # mt "!!!"
-    mt "Oh no! He wants to do it with my booty ?!"
-    mt "No! I can’t bear it!"
+    mt "Oh no! He wants to do it with my ass?!"
+    mt "No! I won't be able to bear it!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:806
@@ -1400,15 +1400,15 @@ translate english ep210_dialogues2_escort_start_Phillip_16_bbc03c02:
     # philip "Хммм... Нет, задницу я оставлю на потом..."
     # philip "Я подожду, когда твои акции подешевеют..."
     # philip "А сейчас... Может быть, ротик?"
-    philip "Hmmm ... No, I’ll leave your ass for later ..."
-    philip "I'll wait for your stock to go down ..."
-    philip "And now ... Maybe a mouth?"
+    philip "Hmmm... No, I’ll leave your ass for later..."
+    philip "I'll wait for your stock to go down..."
+    philip "And for now... Maybe your mouth?"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:811
 translate english ep210_dialogues2_escort_start_Phillip_16_b276b892:
 
     # philip "Субботняя шлюха, повернись и покажи мне свою грудь, приспусти платье."
-    philip "Saturday whore, turn around and show me your chest, lower your dress."
+    philip "Saturday whore, turn around and show me your breasts, free them from the dress."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:814
 translate english ep210_dialogues2_escort_start_Phillip_16_9d1b7564:
@@ -1429,8 +1429,8 @@ translate english ep210_dialogues2_escort_start_Phillip_16_c11bab35:
 
     # philip "Кстати, я даже не предложил своей субботней шлюхе номер 2 присесть..."
     # philip "Иди сюда. Присаживайся."
-    philip "By the way, I didn’t even offer my Saturday whore number 2 to sit down ..."
-    philip "Go here. Have a seat."
+    philip "By the way, I didn’t even offer my Saturday whore number 2 to sit down..."
+    philip "Come here. Have a seat."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:823
 translate english ep210_dialogues2_escort_start_Phillip_16_0cc77dc8:
@@ -1443,7 +1443,7 @@ translate english ep210_dialogues2_escort_start_Phillip_16_63e20e11_1:
 
     # mt "Этот мерзавец обращается со мной, как с дешевой шлюхой..."
     # mt "Я не могу пойти на это!"
-    mt "This bastard treats me like a cheap whore ..."
+    mt "This bastard treats me like a cheap whore..."
     mt "I can't do it!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:832
@@ -1474,7 +1474,7 @@ translate english ep210_dialogues2_escort_start_Phillip_16_007936c2:
 translate english ep210_dialogues2_escort_start_Phillip_16_c4b17667:
 
     # philip "Давай, выполняй. Шлюха же хочет заработать денег?"
-    philip "Come on, do it. The whore wants to make money?"
+    philip "Come on, do it. The whore wants to make money, right?"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:851
 translate english ep210_dialogues2_escort_start_Phillip_16_553439af:
@@ -1482,7 +1482,7 @@ translate english ep210_dialogues2_escort_start_Phillip_16_553439af:
     # mt "Это так... Так неприятно..."
     # mt "Скорее бы это закончилось."
     # mt "Хочу забрать деньги и уйти отсюда."
-    mt "This is so ... So unpleasant ..."
+    mt "This is so... So unpleasant..."
     mt "When will it end?"
     mt "I want to take the money and get out of here."
 
@@ -1502,7 +1502,7 @@ translate english ep210_dialogues2_escort_start_Phillip_16_27f45a05:
 translate english ep210_dialogues2_escort_start_Phillip_16_910e2103:
 
     # philip "Еще..."
-    philip "Yet..."
+    philip "More..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:864
 translate english ep210_dialogues2_escort_start_Phillip_16_e612037c:
@@ -1514,13 +1514,13 @@ translate english ep210_dialogues2_escort_start_Phillip_16_e612037c:
 translate english ep210_dialogues2_escort_start_Phillip_16_6ebf0cf9:
 
     # philip "Оооо... Даааа..."
-    philip "Ohhh ... Yeah ..."
+    philip "Ohhh... Yeah..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:869
 translate english ep210_dialogues2_escort_start_Phillip_16_160c07fd:
 
     # philip "Мммммм..."
-    philip "Mmmmmm ..."
+    philip "Mmmmmm..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:877
 translate english ep210_dialogues2_escort_start_Phillip_16_990e2da3:
@@ -1528,7 +1528,7 @@ translate english ep210_dialogues2_escort_start_Phillip_16_990e2da3:
     # philip "Это твой сегодняшний заработок."
     # philip "Субботняя шлюха номер 2 может забрать свои деньги."
     # philip "И уходить."
-    philip "This is your current earnings."
+    philip "This is your today's earnings."
     philip "Saturday whore number 2 can take her money."
     philip "And leave."
 
@@ -1543,7 +1543,7 @@ translate english ep210_dialogues2_escort_start_Phillip_16_63ed9b15:
 
     # mt "Может, поросить у него еще денег?"
     # mt "Ведь в прошлый раз он заплатил мне 300 долларов."
-    mt "Maybe he should still have money?"
+    mt "Maybe I should ask for more money?"
     mt "After all, the last time he paid me $ 300."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:889
@@ -1552,7 +1552,7 @@ translate english ep210_dialogues2_escort_start_Phillip_16_bde3a7c7:
     # m "Филипп, я..."
     # m "..."
     # m "Хотела спросить, не мог бы ты дать мне еще немного денег?"
-    m "Philip, I ..."
+    m "Philip, I..."
     m "..."
     m "I wanted to ask, could you give me some more money?"
 
@@ -1593,7 +1593,7 @@ translate english ep210_dialogues2_escort_start_Phillip_17_f54a6301:
     # mt "Он еще будет умолять меня о прощении!"
     # mt "!!!"
     mt "I will make him regret it!"
-    mt "He will still beg me for forgiveness!"
+    mt "He will beg me for forgiveness!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:923
@@ -1603,7 +1603,7 @@ translate english ep210_dialogues2_escort_start_Phillip_18_02e977ee:
     # mt "Притворяется джентельменом, а на деле ведет себя как грязный хам!"
     # mt "Ненавижу его!"
     mt "Vile pervert!"
-    mt "Pretending to be a gentleman, but in fact behaves like a dirty boor!"
+    mt "Pretending to be a gentleman, but behaving like a dirty boor!"
     mt "I hate him!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:931
@@ -1611,7 +1611,7 @@ translate english ep210_dialogues2_escort_start_Phillip_19_9fcf6bd1:
 
     # mt "Не хочу его больше видеть!!!"
     # mt "Мерзавец!"
-    mt "I do not want to see him anymore !!!"
+    mt "I do not want to see him anymore!!!"
     mt "Bastard!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:938
@@ -1640,7 +1640,7 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:66
     old "А почему 300?!"
-    new "Why 300?"
+    new "Why only 300?!"
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:140
     old "Уйти!"
@@ -1721,22 +1721,22 @@ translate english ep210_dialogues2_escort_start_Phillip_1_7b4fcc67:
 
     # philip "На этой презентации я увидел у Вас кое-что интересное, Мэм..."
     # m "..."
-    philip "At this presentation, I saw you have something interesting, Ma'am ..."
+    philip "At this presentation, I saw you have something interesting, Ma'am..."
     m "..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:66
 translate english ep210_dialogues2_escort_start_Phillip_1_72c42df0:
 
     # philip "Я, конечно, не использую одну и ту же женщину дважды..."
-    philip "Of course, I do not use the same woman twice ..."
+    philip "I don't usually use the same woman twice..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:129
 translate english ep210_dialogues2_escort_start_Phillip_1_eed1819e:
 
     # philip "Хорошо, сейчас я уйду..."
     # philip "Но в следующий раз..."
-    philip "Okay, now I'm leaving ..."
-    philip "But next time ..."
+    philip "Okay, I'm leaving for now..."
+    philip "But next time..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:132
 translate english ep210_dialogues2_escort_start_Phillip_1_872a2468:
@@ -1751,8 +1751,8 @@ translate english ep210_dialogues2_escort_start_Phillip_1_eed1819e_1:
 
     # philip "Хорошо, сейчас я уйду..."
     # philip "Но в следующий раз..."
-    philip "Okay, now I'm leaving ..."
-    philip "But next time ..."
+    philip "Okay, I'm leaving for now..."
+    philip "But next time..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:237
 translate english ep210_dialogues2_escort_start_Phillip_1_872a2468_1:
@@ -1788,25 +1788,25 @@ translate english ep210_dialogues2_escort_start_Phillip_2_e7d2104e:
     # m "!!!"
     # m "Что, прямо вот так?! Так быстро?!"
     m "!!!"
-    m "What, right like that ?! So fast?!"
+    m "What, just like that?! So fast?!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:545
 translate english ep210_dialogues2_escort_start_Phillip_2_160c07fd:
 
     # philip "Мммммм..."
-    philip "Mmmmmm ..."
+    philip "Mmmmmm..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:560
 translate english ep210_dialogues2_escort_start_Phillip_2_cc5746f5:
 
     # philip "У Вас неплохая киска, Миссис Бакфетт..."
-    philip "You have a nice pussy, Mrs. Buckfett ..."
+    philip "You have a nice pussy, Mrs. Buckfett..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:575
 translate english ep210_dialogues2_escort_start_Phillip_2_527a0e9c:
 
     # philip "Конечно, она не стоит 300 долларов..."
-    philip "Of course, it does not cost 300 dollars ..."
+    philip "Of course, it does not cost 300 dollars..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:590
 translate english ep210_dialogues2_escort_start_Phillip_2_91b71237:
@@ -1820,13 +1820,13 @@ translate english ep210_dialogues2_escort_start_Phillip_2_91b71237:
 translate english ep210_dialogues2_escort_start_Phillip_2_952f4db6:
 
     # philip "Мне приятно Вас трахать, Миссис Бакфетт..."
-    philip "I am pleased to fuck you, Mrs. Buckfett ..."
+    philip "I am pleased to fuck you, Mrs. Buckfett..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:624
 translate english ep210_dialogues2_escort_start_Phillip_2_8c00f7c6:
 
     # philip "Думаю, это не последняя наша с Вами встреча..."
-    philip "I think this is not our last meeting with you ..."
+    philip "I think this is not our last meeting with you..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:639
 translate english ep210_dialogues2_escort_start_Phillip_2_cffbe214:
@@ -1840,9 +1840,9 @@ translate english ep210_dialogues2_escort_start_Phillip_3a_ec023af4:
     # mt "Что этот мерзавец здесь делает?"
     # mt "Я не собираюсь подходить к нему!"
     # help "Квест вип эскорта перезапущен!"
-    mt "What does this bastard do here?"
-    mt "I won't come close to him!"
-    help "Quest Escort for VIP's started!"
+    mt "What is this slug doing here?"
+    mt "I'm not going anywhere near to him!"
+    help "VIP escort quest restarted!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:759
 translate english ep210_dialogues2_escort_start_HotelStaff_3b_a700fa13:
@@ -1850,15 +1850,15 @@ translate english ep210_dialogues2_escort_start_HotelStaff_3b_a700fa13:
     # mt "Что это ничтожество здесь делает?"
     # mt "Я не собираюсь подходить к нему!"
     # help "Квест вип эскорта запущен снова!"
-    mt "What does this idiot do here?"
-    mt "I won't come close to him!"
-    help "Quest Escort for VIP's started again!"
+    mt "What is this worthless mand doing here?"
+    mt "I'm not going anywhere near to him!"
+    help "VIP escort quest started once more!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:928
 translate english ep210_dialogues2_escort_start_Phillip_12_51415d73:
 
     # philip "У меня сегодня субботняя шлюха номер 1."
-    philip "Today is my number one Saturday whore here."
+    philip "My number one Saturday whore is here tonight."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:931
 translate english ep210_dialogues2_escort_start_Phillip_12_2370c5e0:
@@ -1890,11 +1890,11 @@ translate english ep210_dialogues2_escort_start_Phillip_13b_c888bfbc:
     # mt "Я делаю это вынужденно..."
     # mt "Так что этот раз не считается..."
     mt "That bastard!"
-    mt "Have I become a whore ?!"
+    mt "Have I become a whore?!"
     mt "No. This is not true."
     mt "These are just temporary difficulties!"
-    mt "I do it forcibly ..."
-    mt "So this time does not count ..."
+    mt "I'm forcing myself to di it..."
+    mt "So this time does not count..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:974
 translate english ep210_dialogues2_escort_start_Phillip_13_8c37f705:
@@ -1957,7 +1957,7 @@ translate english ep210_dialogues2_escort_start_Phillip_13_5314e0e8:
     # mt "!!!"
     mt "He pays this whore 200 dollars!"
     mt "And to me - some miserable 100!"
-    mt "To me! The most beautiful woman in this city !!!"
+    mt "To me! The most beautiful woman in this city!!!"
     mt "!!!"
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1013
@@ -1967,7 +1967,7 @@ translate english ep210_dialogues2_escort_start_Phillip_13_3afee615:
     # m "Конечно, нет!!!"
     # mt "Да еще и за 50 долларов!"
     # mt "!!!"
-    m "Did you really think that I would agree to such a thing ?!"
+    m "Did you really think that I would agree to such a thing?!"
     m "Of course not!!!"
     mt "Yes, and for $ 50!"
     mt "!!!"
@@ -1976,75 +1976,75 @@ translate english ep210_dialogues2_escort_start_Phillip_13_3afee615:
 translate english ep210_dialogues2_escort_start_Phillip_15_160c07fd_1:
 
     # philip "Мммммм..."
-    philip "Mmmmmm ..."
+    philip "Mmmmmm..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1200
 translate english ep210_dialogues2_escort_start_Phillip_15_160c07fd_2:
 
     # philip "Мммммм..."
-    philip "Mmmmmm ..."
+    philip "Mmmmmm..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1231
 translate english ep210_dialogues2_escort_start_Phillip_15_160c07fd_3:
 
     # philip "Мммммм..."
-    philip "Mmmmmm ..."
+    philip "Mmmmmm..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1251
 translate english ep210_dialogues2_escort_start_Phillip_15_160c07fd_4:
 
     # philip "Мммммм..."
-    philip "Mmmmmm ..."
+    philip "Mmmmmm..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1534
 translate english ep210_dialogues2_escort_start_Phillip_16_160c07fd_1:
 
     # philip "Мммммм..."
-    philip "Mmmmmm ..."
+    philip "Mmmmmm..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1550
 translate english ep210_dialogues2_escort_start_Phillip_16_160c07fd_2:
 
     # philip "Мммммм..."
-    philip "Mmmmmm ..."
+    philip "Mmmmmm..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1570
 translate english ep210_dialogues2_escort_start_Phillip_16_160c07fd_3:
 
     # philip "Мммммм..."
-    philip "Mmmmmm ..."
+    philip "Mmmmmm..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1595
 translate english ep210_dialogues2_escort_start_Phillip_16_160c07fd_4:
 
     # philip "Мммммм..."
-    philip "Mmmmmm ..."
+    philip "Mmmmmm..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1615
 translate english ep210_dialogues2_escort_start_Phillip_16_160c07fd_5:
 
     # philip "Мммммм..."
-    philip "Mmmmmm ..."
+    philip "Mmmmmm..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1631
 translate english ep210_dialogues2_escort_start_Phillip_16_160c07fd_6:
 
     # philip "Мммммм..."
-    philip "Mmmmmm ..."
+    philip "Mmmmmm..."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1639
 translate english ep210_dialogues2_escort_start_Phillip_16_160c07fd_7:
 
     # philip "Мммммм..."
-    philip "Mmmmmm ..."
+    philip "Mmmmmm..."
 
 translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:831
     old "Зайти к Филиппу."
-    new "Go to Philip."
+    new "Visit Philip."
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1000
     old "Мне нужны эти деньги (в следующем обновлении). (disabled)"
-    new "I need this money. (in the next update) (disabled)"
+    new "I need the money (in the next update). (disabled)"
 
