@@ -28,7 +28,7 @@ label pub_makeuproom_init:
     $ add_object_to_scene("Journals", {"type" : 2, "base" : "Pub_MakeupRoom_Journals", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub_makeuproom")
     $ add_object_to_scene("JOY", {"type" : 2, "base" : "Pub_MakeupRoom_JOY", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub_makeuproom")
     $ add_object_to_scene("MoulinRouge", {"type" : 2, "base" : "Pub_MakeupRoom_MoulinRouge", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub_makeuproom")
-    $ add_object_to_scene("Picture", {"type" : 2, "base" : "Pub_MakeupRoom_Picture", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub_makeuproom")
+    $ add_object_to_scene("Picture", {"type" : 2, "base" : "Pub_MakeupRoom_Picture", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":1, "group":"environment"}, scene="pub_makeuproom")
     $ add_object_to_scene("TableClaire", {"type" : 2, "base" : "Pub_MakeupRoom_TableClaire", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub_makeuproom")
     $ add_object_to_scene("TableMolly", {"type" : 2, "base" : "Pub_MakeupRoom_TableMolly", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub_makeuproom")
     $ add_object_to_scene("Trash1", {"type" : 2, "base" : "Pub_MakeupRoom_Trash1", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub_makeuproom")
@@ -38,7 +38,10 @@ label pub_makeuproom_init:
     return
 
 label pub_makeuproom_init2:
-    $ add_object_to_scene("Picture", {"type" : 2, "base" : "Pub_MakeupRoom_Picture", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub_makeuproom")
+    $ add_object_to_scene("Picture", {"type" : 2, "base" : "Pub_MakeupRoom_Picture", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":1, "group":"environment"}, scene="pub_makeuproom")
+    return
+label pub_makeuproom_init3:
+    $ add_object_to_scene("Picture", {"type" : 2, "base" : "Pub_MakeupRoom_Picture_Marked", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":1, "group":"environment"}, scene="pub_makeuproom")
     return
 
 label pub_makeuproom_teleport:

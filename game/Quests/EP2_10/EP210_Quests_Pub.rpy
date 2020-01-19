@@ -111,7 +111,8 @@ label ep210_quests_pub4_molly_photo2: # Действие с фото Молли
             if _return == False:
                 return False
             $ remove_hook(label="ep210_quests_pub4_molly_photo2")
-            $ set_var("Picture", img="Pub_MakeupRoom_Picture_Marked", scene="pub_makeuproom")
+#            $ set_var("Picture", img="Pub_MakeupRoom_Picture_Marked", scene="pub_makeuproom")
+            call pub_makeuproom_init3()
             $ add_hook("Picture", "ep210_dialogues4_dance_strip_5_2", scene="pub_makeuproom", label="ep210_dialogues4_dance_strip_5_2")
             $ add_hook("before_open", "ep210_quests_pub4_molly_photo3", scene="pub_makeuproom", priority = 1000)
 
