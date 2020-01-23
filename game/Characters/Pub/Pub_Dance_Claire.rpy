@@ -10,6 +10,7 @@ label pub_dance2_claire_dance: # Танец с Клэр
     hide screen poledance_shoot
     hide screen poledance_coins
 
+    $ ep29_quests_dancing_with_claire_last_day = day
     $ shotsTotalAmount = stage_shoots_total_amount_cur
     python:
         excitementTableUp = [
