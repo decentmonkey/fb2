@@ -1,5 +1,5 @@
 # Моника сидит за столиком в ожидании клиента
-label ep210_dialogues7_escort_hotel_9:
+label ep211_escort_scene1_1:
     mt "Так, Моника. Соберись!"
     mt "Не надо так нервничать."
     mt "Ты в любой момент может послать всех к черту и уйти."
@@ -38,7 +38,7 @@ label ep210_dialogues7_escort_hotel_9:
     return
 
 # Моника с клиентм возле лифтов в отеле
-label ep210_dialogues7_escort_hotel_9_1:
+label ep211_escort_scene1_2:
     client "Пройдемте в номер, [monica_hotel_name]."
     mt "..."
     mt "Это же совсем нестрашно."
@@ -48,7 +48,7 @@ label ep210_dialogues7_escort_hotel_9_1:
     return
 
 # Моника с клиентом в номере отеля
-label ep210_dialogues7_escort_hotel_10:
+label ep211_escort_scene1_3:
     # клиент сидит на кровати, Моника растерянно стоит перед ним
     m "Что мне нужно сделать?"
     mt "Дал бы денег просто так и отпустил бы..."
@@ -136,7 +136,7 @@ label ep210_dialogues7_escort_hotel_10:
     return
 
 # Моника после клиента идет на ресепшен
-label ep210_dialogues7_escort_hotel_11:
+label ep211_escort_scene1_4:
     # китаянка стоит за стойкой ресепшена
     m "Клиент заплатил 700 долларов."
     reception "И остался доволен."
@@ -157,7 +157,7 @@ label ep210_dialogues7_escort_hotel_11:
     return
 
 # если Моника хочет уйти, не отдавая денег
-label ep210_dialogues7_escort_hotel_11_1:
+label ep211_escort_scene1_5:
     mt "Я пока не могу так рисковать!"
     mt "Эта сучка меня не пустит больше в ресторан, если я не отдам ей 50 процентов."
     mt "А мне не выгодно терять такой заработок."
@@ -169,7 +169,7 @@ label ep210_dialogues7_escort_hotel_11_1:
 # если заработала 5500 в отеле, то фотосессии и контракт со Стивом недоступны
 
 # Моника, выйдя из отеля после того, как обслужила клиента
-label ep210_dialogues7_escort_hotel_11a:
+label ep211_escort_scene1_6:
     # не рендерить!
     mt "Я сегодня за вечер заработала 350 долларов."
     mt "Неплохой заработок, учитывая мою временную ситуацию."
@@ -181,7 +181,7 @@ label ep210_dialogues7_escort_hotel_11a:
     return
 
 # Моника, выйдя из отеля после того, как отказалась обслуживать клиента
-label ep210_dialogues7_escort_hotel_11b:
+label ep211_escort_scene1_7:
     # не рендерить!
     mt "Я никогда не смогу решиться на такое!"
     mt "Я Моника Бакфетт, а не какая-то проститутка!"
