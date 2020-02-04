@@ -1,3 +1,4 @@
+### исправлено
 label gallery_10416:
 # Теперь, когда Бетти находится в спальне, там периодически находится Барди, который проверяет ее трусики.
 # Моника может подойти к Бетти в спальне и проверить ее трусики.
@@ -19,59 +20,14 @@ label gallery_10416:
     img 10420
     with fade
     sound Jump2
-    if bettyPantiesCurrent >= 1:
-        bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
-    else:
-        w
 
-    #betty
-    if bettyPantiesCurrent == 1:
-        img 10405
-        with fade
-        w
-        img 10406
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 2:
-        img 10407
-        with fade
-        w
-        img 10408
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 3:
-        img 10409
-        with fade
-        w
-        img 10410
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 4:
-        img 10411
-        with fade
-        w
-        img 10412
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 5:
-        img 10413
-        with fade
-        w
-        img 10414
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 0:
-        #nude
-        img 10415
-        with fade
-        bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
-            #random
-        call showRandomImagesDiss([10416, 10417, 10418, 10419], 2)
+
+    #nude
+    img 10415
+    with fade
+    bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
+        #random
+    call showRandomImagesDiss([10416, 10417, 10418, 10419], 2)
 #        w
 #    bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
     #
@@ -83,6 +39,7 @@ label gallery_10416:
     music Sneaky_Snitch
     return
 
+### исправлено
 label gallery_10432:
     # Бетти у зеркала, Барди проверяет ее трусики
     $ store_music()
@@ -96,66 +53,16 @@ label gallery_10432:
     bardie "Бетти! Можешь не отвлекаться!"
 
     #betty
-    if bettyPantiesCurrent == 1:
-        img 10423
-        with diss
-        sound Jump2
-        w
-        bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
-        img 10424
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 2:
-        img 10426
-        with diss
-        sound Jump2
-        w
-        bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
-        img 10425
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 3:
-        img 10427
-        with diss
-        sound Jump2
-        w
-        bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
-        img 10428
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 4:
-        img 10430
-        with diss
-        sound Jump2
-        w
-        bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
-        img 10429
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 5:
-        img 10431
-        with diss
-        sound Jump2
-        w
-        bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
-        img 10432
-        with diss
-        w
-    #nude
-    if bettyPantiesCurrent == 0:
-        img 10433
-        with diss
-        sound Jump2
-        bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
-        #random
-        img 10434
-        with diss
-        w
-        call showRandomImagesDiss([10435, 10436, 10437, 10438], 2)
+
+    img 10431
+    with diss
+    sound Jump2
+    w
+    bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
+    img 10432
+    with diss
+    w
+
 
 #    bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
     #
@@ -167,6 +74,7 @@ label gallery_10432:
 
     return
 
+### исправлено
 label gallery_10435:
     # Бетти у зеркала, Барди проверяет ее трусики
     $ store_music()
@@ -179,67 +87,15 @@ label gallery_10435:
     sound Jump1
     bardie "Бетти! Можешь не отвлекаться!"
 
-    #betty
-    if bettyPantiesCurrent == 1:
-        img 10423
-        with diss
-        sound Jump2
-        w
-        bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
-        img 10424
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 2:
-        img 10426
-        with diss
-        sound Jump2
-        w
-        bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
-        img 10425
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 3:
-        img 10427
-        with diss
-        sound Jump2
-        w
-        bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
-        img 10428
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 4:
-        img 10430
-        with diss
-        sound Jump2
-        w
-        bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
-        img 10429
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 5:
-        img 10431
-        with diss
-        sound Jump2
-        w
-        bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
-        img 10432
-        with diss
-        w
-    #nude
-    if bettyPantiesCurrent == 0:
-        img 10433
-        with diss
-        sound Jump2
-        bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
-        #random
-        img 10434
-        with diss
-        w
-        call showRandomImagesDiss([10435, 10436, 10437, 10438], 2)
+    img 10433
+    with diss
+    sound Jump2
+    bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
+    #random
+    img 10434
+    with diss
+    w
+    call showRandomImagesDiss([10435, 10436, 10437, 10438], 2)
 
 #    bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
     #
@@ -251,6 +107,7 @@ label gallery_10435:
 
     return
 
+## исправлено
 label gallery_10452:
     # Моника у зеркала проверяет трусики Бетти
     $ store_music()
@@ -261,59 +118,19 @@ label gallery_10452:
     music Groove2_85 high
     img 10441
     betty "!!!"
-    if bettyShowedPantiesLastDay == day:
-        betty "Гувернантка, Я уже показывала тебе сегодня!"
-        $ restore_music()
-        return
+
     img 10442
     with fade
     m "..."
     #betty
     sound snd_fabric1
-    if bettyPantiesCurrent == 1:
-        img 10443
-        with fade
-        betty "На, гувернантка, смотри."
-        img 10444
-        with fade
-        w
-        betty "И не вздумай одеть другие!"
-    #
-    if bettyPantiesCurrent == 2:
-        img 10446
-        with fade
-        betty "На, гувернантка, смотри."
-        img 10445
-        with fade
-        w
-        betty "И не вздумай одеть другие!"
-    #
-    if bettyPantiesCurrent == 3:
-        img 10447
-        with fade
-        betty "На, гувернантка, смотри."
-        img 10448
-        with fade
-        w
-        betty "И не вздумай одеть другие!"
-    #
-    if bettyPantiesCurrent == 4:
-        img 10450
-        with fade
-        betty "На, гувернантка, смотри."
-        img 10449
-        with fade
-        w
-        betty "И не вздумай одеть другие!"
-    #
-    if bettyPantiesCurrent == 5:
-        img 10451
-        with fade
-        betty "На, гувернантка, смотри."
-        img 10452
-        with fade
-        w
-        betty "И не вздумай одеть другие!"
+    img 10451
+    with fade
+    betty "На, гувернантка, смотри."
+    img 10452
+    with fade
+    w
+    betty "И не вздумай одеть другие!"
 
 #    betty "На, гувернантка, смотри. И не вздумай одеть другие!"
     $ restore_music()
@@ -327,12 +144,7 @@ label gallery_10459:
 #        "Уйти.":
 #            return False
 
-    # Если есть какие-то трусики
-    if monicaUnder != "Nude":
-        mt "Мне не следует проверять трусики у Бетти, потому что я сама сейчас в трусиках..."
-        mt "Бетти может проверить в ответ и я рискую потерять крышу над головой..."
-        return
-    #
+
 
     $ store_music()
     music Hidden_Agenda high
@@ -342,10 +154,7 @@ label gallery_10459:
     music Groove2_85 high
     img 10454
     betty "..."
-    if bettyShowedPantiesLastDay == day:
-        betty "Гувернантка, Я уже показывала тебе сегодня!"
-        $ restore_music()
-        return
+
     w
     # Бетти показывает попу
     sound snd_fabric1
@@ -402,10 +211,7 @@ label gallery_10463:
 #            return False
 
     # Если есть какие-то трусики
-    if monicaUnder != "Nude":
-        mt "Мне не следует проверять трусики у Бетти, потому что я сама сейчас в трусиках..."
-        mt "Бетти может проверить в ответ и я рискую потерять крышу над головой..."
-        return
+
     #
 
     $ store_music()
@@ -416,10 +222,7 @@ label gallery_10463:
     music Groove2_85 high
     img 10454
     betty "..."
-    if bettyShowedPantiesLastDay == day:
-        betty "Гувернантка, Я уже показывала тебе сегодня!"
-        $ restore_music()
-        return
+
     w
     # Бетти показывает попу
     sound snd_fabric1
@@ -485,10 +288,7 @@ label gallery_10482:
     music Groove2_85 high
     img 10471
     betty "!!!"
-    if bettyShowedPantiesLastDay == day:
-        betty "Гувернантка, Я уже показывала тебе сегодня!"
-        $ restore_music()
-        return
+
     img 10472
     with diss
     m "..."
@@ -501,80 +301,22 @@ label gallery_10482:
     w
 
     #betty
-    if bettyPantiesCurrent == 1:
-        img 10475
-        with fade
-        w
-        img 10476
-        with diss
-        betty "На, гувернантка, смотри."
-        w
-        img 10477 #общий
-        with diss
-        w
-        img 10478
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 2:
-        img 10479
-        with fade
-        w
-        img 10480
-        with diss
-        betty "На, гувернантка, смотри."
-        w
-        img 10477 #общий
-        with diss
-        w
-        img 10481
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 3:
-        img 10482
-        with fade
-        w
-        img 10483
-        with diss
-        betty "На, гувернантка, смотри."
-        w
-        img 10477 #общий
-        with diss
-        w
-        img 10484
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 4:
-        img 10485
-        with fade
-        w
-        img 10486
-        with diss
-        betty "На, гувернантка, смотри."
-        w
-        img 10477 #общий
-        with diss
-        w
-        img 10487
-        with diss
-        w
-    #
-    if bettyPantiesCurrent == 5:
-        img 10488
-        with fade
-        w
-        img 10489
-        with diss
-        w
-        img 10477 #общий
-        with diss
-        w
-        img 10490
-        with diss
-        w
-    #
+
+
+    img 10482
+    with fade
+    w
+    img 10483
+    with diss
+    betty "На, гувернантка, смотри."
+    w
+    img 10477 #общий
+    with diss
+    w
+    img 10484
+    with diss
+    w
+
 
     betty "И не вздумай одеть другие!"
 
@@ -595,10 +337,7 @@ label gallery_10498:
 #            return False
 
     # Если есть какие-то трусики
-    if monicaUnder != "Nude":
-        mt "Мне не следует проверять трусики у Бетти, потому что я сама сейчас в трусиках..."
-        mt "Бетти может проверить в ответ и я рискую потерять крышу над головой..."
-        return
+
     #
 
     $ store_music()
@@ -612,58 +351,55 @@ label gallery_10498:
     img 10494
     with fade
     betty "!!!"
-    if bettyShowedPantiesLastDay == day:
-        betty "Гувернантка, Я уже показывала тебе сегодня!"
-        $ restore_music()
-        return
 
-    if char_info["Betty"]["level"] < 6:
-        #обычный
-        # Бетти показывает попу
-        img 10495
-        with fade
-        w
 
-        img 10496
-        with fade
-        w
-        sound snd_fabric1
-        img 10497
-        with fade
-        w
 
-        #random
-        call showRandomImagesDiss([10498, 10499, 10500, 10501, 10502, 10503, 10504, 10505], rand(3,4))
-        #
+    #обычный
+    # Бетти показывает попу
+    img 10495
+    with fade
+    w
 
-        img 10506
-        with diss
-        betty "Я соблюдаю правила этого дома..."
-        img 10507
-        with fade
-        betty "Покажи, что ты тоже!"
-        img 10508
-        w
-        img 10509
-        with fade
-        m "Да, Миссис Робертс, конечно..."
+    img 10496
+    with fade
+    w
+    sound snd_fabric1
+    img 10497
+    with fade
+    w
 
-        sound snd_fabric1
-        img 10510
-        with fade
-        w
-        img 10511
-        with diss
-        w
-        img 10512
-        with diss
-        w
-        img 10513
-        with diss
-        w
+    #random
+    call showRandomImagesDiss([10498, 10499, 10500, 10501, 10502, 10503, 10504, 10505], rand(3,4))
+    #
 
-        #random
-        call showRandomImagesDiss([10514, 10515, 10516, 10517, 10518, 10519, 10520, 10521], rand(3,4))
+    img 10506
+    with diss
+    betty "Я соблюдаю правила этого дома..."
+    img 10507
+    with fade
+    betty "Покажи, что ты тоже!"
+    img 10508
+    w
+    img 10509
+    with fade
+    m "Да, Миссис Робертс, конечно..."
+
+    sound snd_fabric1
+    img 10510
+    with fade
+    w
+    img 10511
+    with diss
+    w
+    img 10512
+    with diss
+    w
+    img 10513
+    with diss
+    w
+
+    #random
+    call showRandomImagesDiss([10514, 10515, 10516, 10517, 10518, 10519, 10520, 10521], rand(3,4))
 #        img 10514
 #        img 10515
 #        img 10516
@@ -672,99 +408,19 @@ label gallery_10498:
 #        img 10519
 #        img 10520
 #        img 10521
-        #
-        img 10522
-        with diss
-        w
-        img 10523
-        with diss
-        w
-        img 10524
-        with fade
-        m "Я тоже соблюдаю правила этого дома..."
-        $ restore_music()
-        return
-
-    else:
-        #бонус
-        music Loved_Up high
-        sound snd_fabric1
-        img 10525
-        with fade
-        w
-        img 10526
-        with fade
-        w
-        img 10527
-        with diss
-        w
-        img 10528
-        with diss
-        w
-        img 10529
-        with diss
-        w
-        #random
-        call showRandomImagesDiss([10530, 10531, 10532, 10533, 10534, 10535], 3)
-#        img 10530
-#        img 10531
-#        img 10532
-#        img 10533
-#        img 10534
-#        img 10535
-        #
-
-        img 10536
-        with fade
-        betty "Я соблюдаю правила этого дома..."
-        betty "Покажи, что ты тоже!"
-
-        img 10537
-        with fade
-        m "Да, Миссис Робертс, конечно..."
-        sound snd_fabric1
-        img 10538
-        with fade
-        w
-        img 10539
-        with diss
-        w
-        #random
-        call showRandomImagesDiss([10540, 10541, 10542, 10543, 10544, 10545], 3)
-#        img 10540
-#        img 10541
-#        img 10542
-#        img 10543
-#        img 10544
-#        img 10545
-        #
-        img 10546
-        with diss
-        w
-        img 10547
-        with diss
-        w
-        img 10548
-        with diss
-        w
-        img 10549
-        with diss
-        w
-        img 10550
-        with diss
-        w
-        img 10551
-        with diss
-        w
-        img 10552
-        with diss
-        w
-        img 10553
-        with fade
-        m "Я тоже соблюдаю правила этого дома..."
-
+    #
+    img 10522
+    with diss
+    w
+    img 10523
+    with diss
+    w
+    img 10524
+    with fade
+    m "Я тоже соблюдаю правила этого дома..."
     $ restore_music()
     return
+
 
 label gallery_10515:
     # Моника проверяет без трусиков Бетти в спальне
@@ -775,11 +431,7 @@ label gallery_10515:
 #            return False
 
     # Если есть какие-то трусики
-    if monicaUnder != "Nude":
-        mt "Мне не следует проверять трусики у Бетти, потому что я сама сейчас в трусиках..."
-        mt "Бетти может проверить в ответ и я рискую потерять крышу над головой..."
-        return
-    #
+
 
     $ store_music()
     music Hidden_Agenda high
@@ -792,58 +444,53 @@ label gallery_10515:
     img 10494
     with fade
     betty "!!!"
-    if bettyShowedPantiesLastDay == day:
-        betty "Гувернантка, Я уже показывала тебе сегодня!"
-        $ restore_music()
-        return
 
-    if char_info["Betty"]["level"] < 6:
-        #обычный
-        # Бетти показывает попу
-        img 10495
-        with fade
-        w
+    #обычный
+    # Бетти показывает попу
+    img 10495
+    with fade
+    w
 
-        img 10496
-        with fade
-        w
-        sound snd_fabric1
-        img 10497
-        with fade
-        w
+    img 10496
+    with fade
+    w
+    sound snd_fabric1
+    img 10497
+    with fade
+    w
 
-        #random
-        call showRandomImagesDiss([10498, 10499, 10500, 10501, 10502, 10503, 10504, 10505], rand(3,4))
-        #
+    #random
+    call showRandomImagesDiss([10498, 10499, 10500, 10501, 10502, 10503, 10504, 10505], rand(3,4))
+    #
 
-        img 10506
-        with diss
-        betty "Я соблюдаю правила этого дома..."
-        img 10507
-        with fade
-        betty "Покажи, что ты тоже!"
-        img 10508
-        w
-        img 10509
-        with fade
-        m "Да, Миссис Робертс, конечно..."
+    img 10506
+    with diss
+    betty "Я соблюдаю правила этого дома..."
+    img 10507
+    with fade
+    betty "Покажи, что ты тоже!"
+    img 10508
+    w
+    img 10509
+    with fade
+    m "Да, Миссис Робертс, конечно..."
 
-        sound snd_fabric1
-        img 10510
-        with fade
-        w
-        img 10511
-        with diss
-        w
-        img 10512
-        with diss
-        w
-        img 10513
-        with diss
-        w
+    sound snd_fabric1
+    img 10510
+    with fade
+    w
+    img 10511
+    with diss
+    w
+    img 10512
+    with diss
+    w
+    img 10513
+    with diss
+    w
 
-        #random
-        call showRandomImagesDiss([10514, 10515, 10516, 10517, 10518, 10519, 10520, 10521], rand(3,4))
+    #random
+    call showRandomImagesDiss([10514, 10515, 10516, 10517, 10518, 10519, 10520, 10521], rand(3,4))
 #        img 10514
 #        img 10515
 #        img 10516
@@ -852,99 +499,20 @@ label gallery_10515:
 #        img 10519
 #        img 10520
 #        img 10521
-        #
-        img 10522
-        with diss
-        w
-        img 10523
-        with diss
-        w
-        img 10524
-        with fade
-        m "Я тоже соблюдаю правила этого дома..."
-        $ restore_music()
-        return
-
-    else:
-        #бонус
-        music Loved_Up high
-        sound snd_fabric1
-        img 10525
-        with fade
-        w
-        img 10526
-        with fade
-        w
-        img 10527
-        with diss
-        w
-        img 10528
-        with diss
-        w
-        img 10529
-        with diss
-        w
-        #random
-        call showRandomImagesDiss([10530, 10531, 10532, 10533, 10534, 10535], 3)
-#        img 10530
-#        img 10531
-#        img 10532
-#        img 10533
-#        img 10534
-#        img 10535
-        #
-
-        img 10536
-        with fade
-        betty "Я соблюдаю правила этого дома..."
-        betty "Покажи, что ты тоже!"
-
-        img 10537
-        with fade
-        m "Да, Миссис Робертс, конечно..."
-        sound snd_fabric1
-        img 10538
-        with fade
-        w
-        img 10539
-        with diss
-        w
-        #random
-        call showRandomImagesDiss([10540, 10541, 10542, 10543, 10544, 10545], 3)
-#        img 10540
-#        img 10541
-#        img 10542
-#        img 10543
-#        img 10544
-#        img 10545
-        #
-        img 10546
-        with diss
-        w
-        img 10547
-        with diss
-        w
-        img 10548
-        with diss
-        w
-        img 10549
-        with diss
-        w
-        img 10550
-        with diss
-        w
-        img 10551
-        with diss
-        w
-        img 10552
-        with diss
-        w
-        img 10553
-        with fade
-        m "Я тоже соблюдаю правила этого дома..."
-
+    #
+    img 10522
+    with diss
+    w
+    img 10523
+    with diss
+    w
+    img 10524
+    with fade
+    m "Я тоже соблюдаю правила этого дома..."
     $ restore_music()
     return
+
+
 
 label gallery_10539:
     # Моника проверяет без трусиков Бетти в спальне
@@ -954,12 +522,7 @@ label gallery_10539:
 #        "Уйти.":
 #            return False
 
-    # Если есть какие-то трусики
-    if monicaUnder != "Nude":
-        mt "Мне не следует проверять трусики у Бетти, потому что я сама сейчас в трусиках..."
-        mt "Бетти может проверить в ответ и я рискую потерять крышу над головой..."
-        return
-    #
+
 
     $ store_music()
     music Hidden_Agenda high
@@ -972,156 +535,83 @@ label gallery_10539:
     img 10494
     with fade
     betty "!!!"
-    if bettyShowedPantiesLastDay == day:
-        betty "Гувернантка, Я уже показывала тебе сегодня!"
-        $ restore_music()
-        return
 
-    if char_info["Betty"]["level"] < 6:
-        #обычный
-        # Бетти показывает попу
-        img 10495
-        with fade
-        w
-
-        img 10496
-        with fade
-        w
-        sound snd_fabric1
-        img 10497
-        with fade
-        w
-
-        #random
-        call showRandomImagesDiss([10498, 10499, 10500, 10501, 10502, 10503, 10504, 10505], rand(3,4))
-        #
-
-        img 10506
-        with diss
-        betty "Я соблюдаю правила этого дома..."
-        img 10507
-        with fade
-        betty "Покажи, что ты тоже!"
-        img 10508
-        w
-        img 10509
-        with fade
-        m "Да, Миссис Робертс, конечно..."
-
-        sound snd_fabric1
-        img 10510
-        with fade
-        w
-        img 10511
-        with diss
-        w
-        img 10512
-        with diss
-        w
-        img 10513
-        with diss
-        w
-
-        #random
-        call showRandomImagesDiss([10514, 10515, 10516, 10517, 10518, 10519, 10520, 10521], rand(3,4))
-#        img 10514
-#        img 10515
-#        img 10516
-#        img 10517
-#        img 10518
-#        img 10519
-#        img 10520
-#        img 10521
-        #
-        img 10522
-        with diss
-        w
-        img 10523
-        with diss
-        w
-        img 10524
-        with fade
-        m "Я тоже соблюдаю правила этого дома..."
-        $ restore_music()
-        return
-
-    else:
-        #бонус
-        music Loved_Up high
-        sound snd_fabric1
-        img 10525
-        with fade
-        w
-        img 10526
-        with fade
-        w
-        img 10527
-        with diss
-        w
-        img 10528
-        with diss
-        w
-        img 10529
-        with diss
-        w
-        #random
-        call showRandomImagesDiss([10530, 10531, 10532, 10533, 10534, 10535], 3)
+    #бонус
+    music Loved_Up high
+    sound snd_fabric1
+    img 10525
+    with fade
+    w
+    img 10526
+    with fade
+    w
+    img 10527
+    with diss
+    w
+    img 10528
+    with diss
+    w
+    img 10529
+    with diss
+    w
+    #random
+    call showRandomImagesDiss([10530, 10531, 10532, 10533, 10534, 10535], 3)
 #        img 10530
 #        img 10531
 #        img 10532
 #        img 10533
 #        img 10534
 #        img 10535
-        #
+    #
 
-        img 10536
-        with fade
-        betty "Я соблюдаю правила этого дома..."
-        betty "Покажи, что ты тоже!"
+    img 10536
+    with fade
+    betty "Я соблюдаю правила этого дома..."
+    betty "Покажи, что ты тоже!"
 
-        img 10537
-        with fade
-        m "Да, Миссис Робертс, конечно..."
-        sound snd_fabric1
-        img 10538
-        with fade
-        w
-        img 10539
-        with diss
-        w
-        #random
-        call showRandomImagesDiss([10540, 10541, 10542, 10543, 10544, 10545], 3)
+    img 10537
+    with fade
+    m "Да, Миссис Робертс, конечно..."
+    sound snd_fabric1
+    img 10538
+    with fade
+    w
+    img 10539
+    with diss
+    w
+    #random
+    call showRandomImagesDiss([10540, 10541, 10542, 10543, 10544, 10545], 3)
 #        img 10540
 #        img 10541
 #        img 10542
 #        img 10543
 #        img 10544
 #        img 10545
-        #
-        img 10546
-        with diss
-        w
-        img 10547
-        with diss
-        w
-        img 10548
-        with diss
-        w
-        img 10549
-        with diss
-        w
-        img 10550
-        with diss
-        w
-        img 10551
-        with diss
-        w
-        img 10552
-        with diss
-        w
-        img 10553
-        with fade
-        m "Я тоже соблюдаю правила этого дома..."
+    #
+    img 10546
+    with diss
+    w
+    img 10547
+    with diss
+    w
+    img 10548
+    with diss
+    w
+    img 10549
+    with diss
+    w
+    img 10550
+    with diss
+    w
+    img 10551
+    with diss
+    w
+    img 10552
+    with diss
+    w
+    img 10553
+    with fade
+    m "Я тоже соблюдаю правила этого дома..."
 
     $ restore_music()
     return
@@ -1356,12 +846,7 @@ label gallery_13001:
 
 # Моника соглашается либо нет.
 # Если соглашается и у нее надеты трусики, то Барди злится и устраивает порку.
-    if monicaUnder != "Nude":
-        music Hidden_Agenda
-        img 12995
-        with fade
-        mt "Черт! У меня надеты трусики!"
-        mt "Мне лучше не показывать их этому сопляку!"
+
     music Groove2_85
     img 13078
     with fade
@@ -1393,36 +878,7 @@ label gallery_13001:
     img 13185
     with fadelong
     w
-    if monicaUnder != "Nude":
-        # Моника показывает
-        #governess
-        if monicaBettyPanties == False:
-            img 20508
-        else:
-            #betty
-            if monicaBettyPantiesId == 1:
-                img 13002
-            if monicaBettyPantiesId == 2:
-                img 13003
-            if monicaBettyPantiesId == 3:
-                img 13004
-            if monicaBettyPantiesId == 4:
-                img 13005
-            if monicaBettyPantiesId == 5:
-                img 13006
-        with diss
-        w
-        music Groove2_85
-        img 12998
-        with fade
-        bardie "Нерадивая гувернантка!"
-        bardie "Ты не соблюдаешь правила дома!"
-#        img 12999
-        bardie "Следуй к себе в подвал для прохождения наказания!"
-        img 13000
-        m "!!!"
-        # идет наказание
-        return
+
     img 13001
     with diss
     w
@@ -2317,19 +1773,7 @@ label gallery_14600:
     bardie "Или ты не соблюдаешь правила этого дома и хочешь получить штраф?"
     bardie "???"
     # Моника думает
-    if monicaUnder != "Nude":
-        music Hidden_Agenda
-        img 14594
-        with fade
-        mt "Черт!!!"
-        mt "Он увидит, что я в трусиках и снова накажет меня!"
-        # Моника убегает
-        sound highheels_run2
-        music Groove2_85
-        img 14595
-        with diss
-        m "Я хорошая гувернантка! Но я не буду этого делать!"
-        return
+
     img 14594
     with diss
     menu:
@@ -2740,16 +2184,7 @@ label gallery_15130:
     bardie "Гувернантку это не касается! Поднимай юбку!"
     # Барди поднимает руку с телефоном, чтобы сделать фото
     mt "..."
-    if monicaUnder != "Nude":
-        img 14594
-        with diss
-        mt "Черт!!!"
-        mt "Он увидит, что я в трусиках и снова накажет меня!"
-        sound highheels_run2
-        img 14595
-        with fade
-        m "Я хорошая гувернантка! Но я не буду этого делать!"
-        return
+
     menu:
         "Сделать, как требует Барди.":
             pass
@@ -3282,19 +2717,7 @@ label gallery_22069:
     img 15264
     with fade
     bardie "Ну? Я долго должен ждать?"
-    if monicaUnder != "Nude":
-        img 15265
-        mt "Черт!!!"
-        mt "Он увидит, что я в трусиках и снова накажет меня!"
-        img 15266
-        with fade
-        m "Я хорошая гувернантка! Но я не буду этого делать!"
-        music stop
-        img black_screen
-        with diss
-        sound highheels_run2
-        pause 2.0
-        return
+
     img 15267
     with diss
     menu:
