@@ -1126,24 +1126,13 @@ label gallery_8285:
 
     $ store_music()
     music Stealth_Groover
-    if cloth == "Whore":
-        img 8282
-        with fade
-        secretary "Мистер Биф лучше нас знает что нам необходимо."
-        secretary "Мистер Биф заботится о нас..."
-        img 8283
-    if cloth == "CasualDress1":
-        img 11242
-        with fade
-        secretary "Мистер Биф лучше нас знает что нам необходимо."
-        secretary "Мистер Биф заботится о нас..."
-        img 11243
-    if cloth == "WorkingOutfit1":
-        img 12771
-        with fade
-        secretary "Мистер Биф лучше нас знает что нам необходимо."
-        secretary "Мистер Биф заботится о нас..."
-        img 12772
+
+    img 8282
+    with fade
+    secretary "Мистер Биф лучше нас знает что нам необходимо."
+    secretary "Мистер Биф заботится о нас..."
+    img 8283
+
 
     #если Моника сегодня не просила деньги, то появляется меню выбора
     menu:
@@ -1151,12 +1140,7 @@ label gallery_8285:
             "Дорогая..."
             secretary "Да, Миссис Бакфетт?"
             m "Скажи, у тебя не будет немного денег?"
-            if cloth == "Whore":
-                img 8284
-            if cloth == "CasualDress1":
-                img 11244
-            if cloth == "WorkingOutfit1":
-                img 12773
+            img 8284
 
             with fade
             secretary "Миссис Бакфетт! Я пока не видела зарплаты здесь, после Вашего ухода..."
@@ -1165,12 +1149,9 @@ label gallery_8285:
                 secretary "Поэтому у меня нет никаких денег сейчас, Миссис Бакфетт!"
                 "Простите!"
                 m "А как же Биф? Он что, не дает тебе деньги?"
-                if cloth == "Whore":
-                    img 8285
-                if cloth == "CasualDress1":
-                    img 11240
-                if cloth == "WorkingOutfit1":
-                    img 12769
+
+                img 8285
+
                 with fade
                 secretary "Мистер Биф лучше нас знает что нам необходимо."
             else:
@@ -1178,12 +1159,8 @@ label gallery_8285:
                 secretary "У меня есть только кредитная карточка, но мне надо платить за ипотечный кредит."
                 "У меня есть $ 5 наличными и все..."
                 m "Дорогуша, дай мне, пожалуйста, эти $ 5..."
-                if cloth == "Whore":
-                    img 8286
-                if cloth == "CasualDress1":
-                    img 11245
-                if cloth == "WorkingOutfit1":
-                    img 12774
+                img 8286
+
                 with fade
                 secretary "Да, Миссис Бакфетт!"
                 "Держите..."
@@ -1206,42 +1183,19 @@ label gallery_8285_1:
     # Вопрос у секретарши: Где Мелани?
     # Секретарша отвечает что не видела ее и, может быть, Моника знает где она.
     music Groove2_85
-    if cloth == "Whore":
-        img 8268
-        with fade
-        m "Дорогуша, ты не видела Мелани?"
-        img 8285
-        secretary "Нет, Миссис Бакфетт."
-        "Ее все ищут!"
-        "Может быть Вы в курсе где она?"
-        img 8270
-        with fade
-        m "Нет, дорогуша..."
-        "Я... Я не имею представления где она может быть..."
-    if cloth == "CasualDress1":
-        img 11239
-        with fade
-        m "Дорогуша, ты не видела Мелани?"
-        img 11240
-        secretary "Нет, Миссис Бакфетт."
-        "Ее все ищут!"
-        "Может быть Вы в курсе где она?"
-        img 11241
-        with fade
-        m "Нет, дорогуша..."
-        "Я... Я не имею представления где она может быть..."
-    if cloth == "WorkingOutfit1":
-        img 12768
-        with fade
-        m "Дорогуша, ты не видела Мелани?"
-        img 12769
-        secretary "Нет, Миссис Бакфетт."
-        "Ее все ищут!"
-        "Может быть Вы в курсе где она?"
-        img 12770
-        with fade
-        m "Нет, дорогуша..."
-        "Я... Я не имею представления где она может быть..."
+
+    img 8268
+    with fade
+    m "Дорогуша, ты не видела Мелани?"
+    img 8285
+    secretary "Нет, Миссис Бакфетт."
+    "Ее все ищут!"
+    "Может быть Вы в курсе где она?"
+    img 8270
+    with fade
+    m "Нет, дорогуша..."
+    "Я... Я не имею представления где она может быть..."
+
     return
 
 
@@ -2464,7 +2418,7 @@ label gallery_9654: # Барменша
     mt "Это место - действительно Shiny Hole с извращенцами!"
     return
 
-label gallery_9664:
+label gallery_9664_1:
     if obj_name == "Bartender":
         if act=="l":
             if monicaWorkingAsDishwasher == False:
@@ -2512,6 +2466,7 @@ label gallery_9664:
                     img 9671
             if obj_name == "Pub_StripteaseGirl2":
                 if pubStripteaseGirl2Suffix == 1:
+                    label gallery_9664:
                     img 9664
                 if pubStripteaseGirl2Suffix == 2:
                     label gallery_9665:
@@ -3088,7 +3043,7 @@ label gallery_14219:
             img 14223
             with diss
             customer1 "Эй, ты куда?"
-            return
+    return
 
 label gallery_14231:
     music Hidden_Agenda
@@ -3313,7 +3268,7 @@ label gallery_14254:
             img 14258
             with diss
             mt "Козел!"
-            return
+    return
 
 label gallery_14268:
     music Hidden_Agenda
@@ -3763,7 +3718,7 @@ label gallery_14340:
             img 14344
             with diss
             customer4 "Не хочешь? Это все потому, что ты тут недавно..."
-            return
+    return
 
 label gallery_14358:
     music Hidden_Agenda
@@ -3855,7 +3810,7 @@ label gallery_14358:
             img 14358
             with diss
             customer5 "Да! Свали отсюда!"
-            return
+    return
 
 label gallery_14370:
     music Hidden_Agenda
@@ -4381,7 +4336,7 @@ label gallery_14452:
             customer12 "Как раз вовремя! Молодчина!"
             customer12 "Вот, держи! Доллар за скорость и доллар за твою попку!"
             customer12 "Что стоишь? Иди, не заставляй клиентов ждать!"
-            return
+    return
 
 label gallery_14474:
     music stop
@@ -4570,7 +4525,7 @@ label gallery_14477:
             img 14487
             with diss
             mt "Он дал мне 20 долларов! Ничего себе..."
-            return
+    return
 
 label gallery_21047:
 # Если идет, вызывается меню со сценами с Джо (открываются последовательно)
