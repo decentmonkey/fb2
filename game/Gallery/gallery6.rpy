@@ -632,41 +632,97 @@ label gallery_22251:
     img 22233
     with fadelong
     m "Я хочу купить обычную одежду, которую носят домохозяйки!"
-    # Если Моника толкала Вивиан
-    if monicaKickedVivianForDress == True: # Моника ударила Вивиен
-        mt "Кажется, она не помнит меня..."
-        mt "Видимо я хорошо приложила эту дуру в прошлый раз..."
-#    cashier "Я сейчас вам принесу."
-#
 
-    sound highheels_short_walk
-    img 22235
-    with diss
-    cashier "О, это ты? Хочешь 'купить' одежду, как в прошлый раз?"
-    mt "На что эта лесбиянка намекает?"
-    mt "???"
-
-    music stop
-    img black_screen
-    with diss
-    pause 2.0
-    music Groove2_85
-    img 22236
-    with fadelong
-    cashier "У меня есть подходящий костюм."
-    sound highheels_short_walk
-    img 22237
-    with diss
-    cashier "Можешь отработать этот костюм манекеном. У меня есть еще товар, который надо продать."
-    music Loved_Up
-    sound highheels_short_walk
-    img 22238
-    with fadelong
-    cashier "Или могу предложить другой вариант."
-    cashier "Я сделаю большую скидку, если ты мне сделаешь что-нибудь приятное."
-    mt "..."
+    if monicaNeedToSellDress == False: # Моника не продавала платье манекеном
+    # если Моника хорошо обращалась с Вивиан и не было сцен (покупала платье)
+        img 22234
+        with diss
+        cashier "Здравствуйте! Да, конечно!"
+        cashier "Пройдемте за мной."
+        music stop
+        img black_screen
+        with diss
+        sound highheels_run2
+        pause 2.0
+        music Groove2_85
+        img 22236
+        with fadelong
+        cashier "Вот, пожалуйста..."
+        if monicaKickedVivianForDress == True: # Моника ударила Вивиен
+            mt "Кажется, она не помнит меня..."
+            mt "Видимо я хорошо приложила эту дуру в прошлый раз..."
+    else:
+        # Если Моника толкала Вивиан
+        if monicaKickedVivianForDress == True: # Моника ударила Вивиен
+            mt "Кажется, она не помнит меня..."
+            mt "Видимо я хорошо приложила эту дуру в прошлый раз..."
+    #    cashier "Я сейчас вам принесу."
     #
+
+    # если Моника работала манекеном
+        sound highheels_short_walk
+        img 22235
+        with diss
+        cashier "О, это ты? Хочешь 'купить' одежду, как в прошлый раз?"
+        mt "На что эта лесбиянка намекает?"
+        mt "???"
+
+        music stop
+        img black_screen
+        with diss
+        pause 2.0
+        music Groove2_85
+        img 22236
+        with fadelong
+        cashier "У меня есть подходящий костюм."
+        sound highheels_short_walk
+        img 22237
+        with diss
+        cashier "Можешь отработать этот костюм манекеном. У меня есть еще товар, который надо продать."
+        music Loved_Up
+        sound highheels_short_walk
+        img 22238
+        with fadelong
+        cashier "Или могу предложить другой вариант."
+        cashier "Я сделаю большую скидку, если ты мне сделаешь что-нибудь приятное."
+        mt "..."
+        #
     music Groove2_85
+    menu:
+        "Купить костюм.":
+            # Вивьен оформляет покупку, отдает костюм с улыбкой, Моника держится высокомерно
+            # Моника в примерочной меряет платье
+            call gallery_22268()
+            img black_screen
+            with diss
+            sound highheels_short_walk
+            pause 1.5
+#            music Road_Trip
+            img 22269
+            with fadelong
+            m "Я беру его."
+#            cashier "Пожалуйста, ваш костюм."
+
+            # Если Моника вела себя хорошо с Вивиан
+            img 22270
+            if clothShopCashierOffended2 == False and clothShopCashierOffended3ReturnDress == False and clothShopCashierFirstNightOffended == False:
+                $ notif(_("Моника вела себя с Вивиан вежливо."))
+                cashier "Специально для Вас скидка 50 процентов."
+
+            cashier "Приходите к нам еще. Мы всегда рады вас видеть."
+            #
+            m "Спасибо. Обязательно."
+            return
+        "Получить костюм бесплатно." if monicaNeedToSellDress == True:
+            # если Моника работала манекеном
+            mt "Я могу получить этот костюм бесплатно, если соглашусь работать манекеном."
+            mt "Но у меня нет времени на это."
+            mt "Малявка сказал, что чем быстрее я поговорю с учителем, тем лучше."
+            mt "..."
+            return
+        "Получить скидку на костюм." if monicaNeedToSellDress == True:
+            # если Моника работала манекеном
+            pass
 
     # Моника подозрительно
     img 22239

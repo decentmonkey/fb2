@@ -700,7 +700,7 @@ label gallery_ep23_photoshoot4_casting:
 ##########################################################
 ##########################################################
 
-label gallery_ep26_photoshoot_suit6:
+label gallery_gallery_ep26_photoshoot_suit6:
     music Groove2_85
     $ shotsAmount = PS6_shots_amount
     $ shotsTotalAmount = 33
@@ -759,9 +759,9 @@ label gallery_ep26_photoshoot_suit6:
     img 20009
     with fadelong
 
-$ photoPoseLabel = "gallery_ep26_photoshoot_suit6_pose1"
-$ photoPoseNextLabel = "gallery_ep26_photoshoot_suit6_pose2"
-label gallery_ep26_photoshoot_suit6_pose1:
+$ photoPoseLabel = "gallery_gallery_ep26_photoshoot_suit6_pose1"
+$ photoPoseNextLabel = "gallery_gallery_ep26_photoshoot_suit6_pose2"
+label gallery_gallery_ep26_photoshoot_suit6_pose1:
     #кадр
     img 20009
     # up
@@ -817,9 +817,9 @@ label gallery_ep26_photoshoot_suit6_pose1:
         jump expression photoPoseLabel
 
 
-label gallery_ep26_photoshoot_suit6_pose2:
-    $ photoPoseLabel = "gallery_ep26_photoshoot_suit6_pose2"
-    $ photoPoseNextLabel = "gallery_ep26_photoshoot_suit6_pose3"
+label gallery_gallery_ep26_photoshoot_suit6_pose2:
+    $ photoPoseLabel = "gallery_gallery_ep26_photoshoot_suit6_pose2"
+    $ photoPoseNextLabel = "gallery_gallery_ep26_photoshoot_suit6_pose3"
     # кадр
     img 20013
     # up
@@ -885,9 +885,9 @@ label gallery_ep26_photoshoot_suit6_pose2:
         jump expression photoPoseLabel
 
 
-label gallery_ep26_photoshoot_suit6_pose3:
-    $ photoPoseLabel = "gallery_ep26_photoshoot_suit6_pose3"
-    $ photoPoseNextLabel = "gallery_ep26_photoshoot_suit6_pose4"
+label gallery_gallery_ep26_photoshoot_suit6_pose3:
+    $ photoPoseLabel = "gallery_gallery_ep26_photoshoot_suit6_pose3"
+    $ photoPoseNextLabel = "gallery_gallery_ep26_photoshoot_suit6_pose4"
     # кадр +
     img 20017
     # up
@@ -943,9 +943,9 @@ label gallery_ep26_photoshoot_suit6_pose3:
         jump expression photoPoseLabel
 
 
-label gallery_ep26_photoshoot_suit6_pose4:
-    $ photoPoseLabel = "gallery_ep26_photoshoot_suit6_pose4"
-    $ photoPoseNextLabel = "gallery_ep26_photoshoot_suit6_pose5"
+label gallery_gallery_ep26_photoshoot_suit6_pose4:
+    $ photoPoseLabel = "gallery_gallery_ep26_photoshoot_suit6_pose4"
+    $ photoPoseNextLabel = "gallery_gallery_ep26_photoshoot_suit6_pose5"
     # кадр
     img 20021
     # up
@@ -1005,9 +1005,9 @@ label gallery_ep26_photoshoot_suit6_pose4:
         w
         jump expression photoPoseLabel
 
-label gallery_ep26_photoshoot_suit6_pose5:
-    $ photoPoseLabel = "gallery_ep26_photoshoot_suit6_pose5"
-    $ photoPoseNextLabel = "gallery_ep26_photoshoot_suit6_pose6"
+label gallery_gallery_ep26_photoshoot_suit6_pose5:
+    $ photoPoseLabel = "gallery_gallery_ep26_photoshoot_suit6_pose5"
+    $ photoPoseNextLabel = "gallery_gallery_ep26_photoshoot_suit6_pose6"
     # кадр
     img 20025
     # up
@@ -1063,9 +1063,9 @@ label gallery_ep26_photoshoot_suit6_pose5:
         w
         jump expression photoPoseLabel
 
-label gallery_ep26_photoshoot_suit6_pose6:
-    $ photoPoseLabel = "gallery_ep26_photoshoot_suit6_pose6"
-    $ photoPoseNextLabel = "gallery_ep26_photoshoot_suit6_pose7"
+label gallery_gallery_ep26_photoshoot_suit6_pose6:
+    $ photoPoseLabel = "gallery_gallery_ep26_photoshoot_suit6_pose6"
+    $ photoPoseNextLabel = "gallery_gallery_ep26_photoshoot_suit6_pose7"
     # кадр
     img 20029
     # up
@@ -1121,9 +1121,9 @@ label gallery_ep26_photoshoot_suit6_pose6:
         w
         jump expression photoPoseLabel
 
-label gallery_ep26_photoshoot_suit6_pose7:
-    $ photoPoseLabel = "gallery_ep26_photoshoot_suit6_pose7"
-    $ photoPoseNextLabel = "gallery_ep26_photoshoot_suit6_pose8"
+label gallery_gallery_ep26_photoshoot_suit6_pose7:
+    $ photoPoseLabel = "gallery_gallery_ep26_photoshoot_suit6_pose7"
+    $ photoPoseNextLabel = "gallery_gallery_ep26_photoshoot_suit6_pose8"
 
     # кадр
     img 20033
@@ -1187,9 +1187,9 @@ label gallery_ep26_photoshoot_suit6_pose7:
         jump expression photoPoseLabel
 
 
-label gallery_ep26_photoshoot_suit6_pose8:
-    $ photoPoseLabel = "gallery_ep26_photoshoot_suit6_pose8"
-    $ photoPoseNextLabel = "gallery_ep26_photoshoot_suit6_pose9"
+label gallery_gallery_ep26_photoshoot_suit6_pose8:
+    $ photoPoseLabel = "gallery_gallery_ep26_photoshoot_suit6_pose8"
+    $ photoPoseNextLabel = "gallery_gallery_ep26_photoshoot_suit6_pose9"
     # кадр
     img 20037
     # up
@@ -1249,9 +1249,9 @@ label gallery_ep26_photoshoot_suit6_pose8:
         w
         jump expression photoPoseLabel
 
-label gallery_ep26_photoshoot_suit6_pose9:
-    $ photoPoseLabel = "gallery_ep26_photoshoot_suit6_pose9"
-    $ photoPoseNextLabel = "gallery_ep26_photoshoot_suit6_pose10"
+label gallery_gallery_ep26_photoshoot_suit6_pose9:
+    $ photoPoseLabel = "gallery_gallery_ep26_photoshoot_suit6_pose9"
+    $ photoPoseNextLabel = "gallery_gallery_ep26_photoshoot_suit6_pose10"
 
     # кадр
     img 20041
@@ -1331,9 +1331,9 @@ label gallery_ep26_photoshoot_suit6_pose9:
         jump expression photoPoseLabel
 
 
-label gallery_ep26_photoshoot_suit6_pose10:
-    $ photoPoseLabel = "gallery_ep26_photoshoot_suit6_pose10"
-    $ photoPoseNextLabel = "gallery_ep26_photoshoot_suit6_pose11"
+label gallery_gallery_ep26_photoshoot_suit6_pose10:
+    $ photoPoseLabel = "gallery_gallery_ep26_photoshoot_suit6_pose10"
+    $ photoPoseNextLabel = "gallery_gallery_ep26_photoshoot_suit6_pose11"
     # кадр
     img 20048
     # up
@@ -1462,9 +1462,9 @@ label gallery_ep26_photoshoot_suit6_pose10:
         jump expression photoPoseLabel
 
 
-label gallery_ep26_photoshoot_suit6_pose11:
-    $ photoPoseLabel = "gallery_ep26_photoshoot_suit6_pose11"
-    $ photoPoseNextLabel = "gallery_ep26_photoshoot_suit6_pose12"
+label gallery_gallery_ep26_photoshoot_suit6_pose11:
+    $ photoPoseLabel = "gallery_gallery_ep26_photoshoot_suit6_pose11"
+    $ photoPoseNextLabel = "gallery_gallery_ep26_photoshoot_suit6_pose12"
     # кадр +
     img 20060
     # up
@@ -1584,7 +1584,7 @@ label gallery_ep26_photoshoot_suit6_pose11:
         jump expression photoPoseLabel
     return
 
-label gallery_ep26_photoshoot_suit6_end:
+label gallery_gallery_ep26_photoshoot_suit6_end:
     hide screen photoshoot_camera_icon
     hide screen photoshoot
 
@@ -1610,13 +1610,13 @@ label gallery_ep26_photoshoot_suit6_end:
             if monicaSaidBiffSheIsWillBeAGoodChick == True:
                 "..."
                 "Черт... Тем более я ему обещала быть хорошей цыпочкой и, в противном случае, он может перестать давать работу мне..."
-            call gallery_ep26_photoshoot6_casting()
+            call gallery_gallery_ep26_photoshoot6_casting()
             return
         "Идти на кастинг к Бифу и притвориться цыпочкой... (low corruption, required [photoshoot6_casting_corruption_required]) (disabled)" if (biffMonicaCastingsEnabled == True or monicaWorkingAtBiffOffice == True) and corruption < photoshoot6_casting_corruption_required:
             pass
     return
 
-label gallery_ep26_photoshoot6_casting:
+label gallery_gallery_ep26_photoshoot6_casting:
     music Groove2_85
     sound highheels_short_walk
     img 20176

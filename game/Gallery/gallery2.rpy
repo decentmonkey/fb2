@@ -2043,300 +2043,320 @@ label gallery_7739:
     mt "СУЧКИ!!!"
     return
 
-
-#### исправлено
-label gallery_7909:
-    $ imagesListIdx = 0
-    music Ready_and_Waiting
-    #Stephanie - 7756, 7757, 7765, 7766, 7767, 7768, 7780, 7781, 7782, 7783, 7798, 7799, 7800, 7801, 7802, 7803, 7816, 7817, 7818, 7819, 7824, 7825, 7826, 7827, 7828, 7829,
-    # 7842, 7843, 7844, 7845, 7846, 7861, 7862, 7863, 7864, 7875, 7876, 7877, 7878, 7879, 7880, 7892, 7893, 7894, 7895, 7896, 7908, 7909, 7910, 7911
-    $ images = [7756, 7757, 7765, 7766, 7767, 7768, 7780, 7781, 7782, 7783, 7798, 7799, 7800, 7801, 7802, 7803, 7816, 7817, 7818, 7819, 7824, 7825, 7826, 7827, 7828, 7829, 7842, 7843, 7844, 7845, 7846, 7861, 7862, 7863, 7864, 7875, 7876, 7877, 7878, 7879, 7880, 7892, 7893, 7894, 7895, 7896, 7908, 7909, 7910, 7911]
-    $ imagesAmount = 25
-    $ imagesList = random.sample(set(images), imagesAmount)
-    $ imagesList.sort()
-    label gallery_7909_1:
-        if imagesListIdx < imagesAmount:
-            $ imageName = str(imagesList[imagesListIdx])
-            img imageName
-            if imagesListIdx == 0:
-                with fadelong
-            w
-            $ imagesListIdx += 1
-            jump gallery_7909_1
-
-    $ videoList = [1, 2, 3, 4, 5]
-    $ videosAmount = 3
-    $ videoList = random.sample(set(videoList), videosAmount)
-    if 1 in videoList:
-        scene black
-        image videov_Fitness_Stephanie_1_1 = Movie(play="video/v_Fitness_Stephanie_1_1.mkv", fps=30)
-        show videov_Fitness_Stephanie_1_1
-        wclean
-    if 2 in videoList:
-        scene black
-        image videov_Fitness_Stephanie_1_2 = Movie(play="video/v_Fitness_Stephanie_1_2.mkv", fps=30)
-        show videov_Fitness_Stephanie_1_2
-        wclean
-    if 3 in videoList:
-        scene black
-        image videov_Fitness_Stephanie_1_3 = Movie(play="video/v_Fitness_Stephanie_1_3.mkv", fps=30)
-        show videov_Fitness_Stephanie_1_3
-        wclean
-    if 4 in videoList:
-        scene black
-        image videov_Fitness_Stephanie_1_4 = Movie(play="video/v_Fitness_Stephanie_1_4.mkv", fps=30)
-        show videov_Fitness_Stephanie_1_4
-        wclean
-    if 5 in videoList:
-        scene black
-        image videov_Fitness_Stephanie_1_5 = Movie(play="video/v_Fitness_Stephanie_1_5.mkv", fps=30)
-        show videov_Fitness_Stephanie_1_5
-        wclean
-
-    music Loved_Up
-    #Инструктор подходит к Стефани
-    img 7933
-    with fadelong
-    fitness_instructor "Стефани, давай я помогу тебе..."
-    #Если был секс
-    if stephanieFitnessJustSex == True:
-        img 7934
-        with fade
-        stephanie "Муррр..."
-        stephanie "Мой тигр хочет помочь мне?..."
-        img 7935
-        fitness_instructor "Стефани, твой тигр всегда готов придти на помощь!"
-        img 7936
-        with fade
-        stephanie "Муррр..."
-        img 7937
-        with fade
-        w
-        img 7938
-        with fade
-        w
-
-    else:
-        #Если секса не было
-        music Groove2_85
-        img 7933
-        with fadelong
-        stephanie "Я предпочитаю помощь от кого-то более сообразительного чем ты..."
-        fitness_instructor "Стефани, что я могу сделать?"
-        img 7939
-        with fade
-        stephanie "Продолжай быть настойчивым..."
-        "Хи-хи..."
-    return
-
-
 label gallery_7793:
+    #render
+    #Сцена занятия йогой.
+    #Стефани, Ребекка, Бетти
+
+
+    #выбор
+#    img 7755
+    label gallery_7909:
     $ imagesListIdx = 0
-    music Ready_and_Waiting
-    #Rebecca - 7760, 7761, 7762, 7763, 7764, 7784, 7785, 7786, 7787, 7788, 7789, 7790, 7791, 7792, 7793, 7794, 7795, 7796, 7797, 7820, 7821, 7822, 7823, 7830, 7831, 7832,
-    # 7833, 7834, 7847, 7848, 7849, 7850, 7851, 7852, 7858, 7859, 7860, 7881, 7882, 7883, 7884, 7885, 7897, 7898, 7899, 7900, 7901, 7902, 7903, 7904, 7912, 7913, 7914, 7915, 7916
-    $ images = [7760, 7761, 7762, 7763, 7764, 7784, 7785, 7786, 7787, 7788, 7789, 7790, 7791, 7792, 7793, 7794, 7795, 7796, 7797, 7820, 7821, 7822, 7823, 7830, 7831, 7832, 7833, 7834, 7847, 7848, 7849, 7850, 7851, 7852, 7858, 7859, 7860, 7881, 7882, 7883, 7884, 7885, 7897, 7898, 7899, 7900, 7901, 7902, 7903, 7904, 7912, 7913, 7914, 7915, 7916]
-    $ imagesAmount = 27
-    $ imagesList = random.sample(set(images), imagesAmount)
-    $ imagesList.sort()
-    $ videoFlag = False
-    label gallery_7909_2:
-        if imagesListIdx < imagesAmount:
-            $ imageName = str(imagesList[imagesListIdx])
-            if imagesList[imagesListIdx] >= 7832 and videoFlag == False:
-                $ videoFlag = True
-                $ videoList = [1, 3, 4]
-                $ videosAmount = 2
-                $ videoList = random.sample(set(videoList), videosAmount)
-                if 1 in videoList:
-                    scene black
-                    image videov_Fitness_Rebecca_1_1 = Movie(play="video/v_Fitness_Rebecca_1_1.mkv", fps=30)
-                    show videov_Fitness_Rebecca_1_1
-                    wclean
-                if 3 in videoList:
-                    scene black
-                    image videov_Fitness_Rebecca_1_3 = Movie(play="video/v_Fitness_Rebecca_1_3.mkv", fps=30)
-                    show videov_Fitness_Rebecca_1_3
-                    wclean
-                if 4 in videoList:
-                    scene black
-                    image videov_Fitness_Rebecca_1_4 = Movie(play="video/v_Fitness_Rebecca_1_4.mkv", fps=30)
-                    show videov_Fitness_Rebecca_1_4
-                    wclean
 
-            img imageName
-            if imagesListIdx == 0:
-                with fadelong
-            w
-            $ imagesListIdx += 1
-            jump gallery_7909_2
+    if obj_name == "Stephanie":
+        menu:
+            "Смотреть на Стефани.":
+                pass
+            "Нет.":
+                return
 
-    #Инструктор подходит к Ребекке
-    music Loved_Up
-    img 7931
-    with fadelong
-    fitness_instructor "Ребекка, давай я помогу тебе..."
-    img 7932
-    rebecca "Спасибо, не надо..."
-    return
-
-label gallery_7926:
-    $ imagesListIdx = 0
-    music Ready_and_Waiting
-    #Betty - 7758, 7759, 7769, 7770, 7771, 7772, 7773, 7774, 7775, 7776, 7777, 7778, 7779, 7804, 7805, 7806, 7807, 7808, 7809, 7810, 7811, 7812, 7813, 7814, 7815,
-    # 7835, 7836, 7837, 7838, 7839, 7840, 7841, 7853, 7854, 7855, 7856, 7857, 7865, 7866, 7867, 7868, 7869, 7870, 7871, 7872, 7873, 7874, 7886, 7887, 7888, 7889, 7890, 7891,
-    # 7905, 7906, 7907, 7917, 7918, 7919, 7920, 7921, 7922, 7923, 7924, 7925, 7926, 7927, 7928, 7929, 7930
-    $ images = [7758, 7759, 7769, 7770, 7771, 7772, 7773, 7774, 7775, 7776, 7777, 7778, 7779, 7804, 7805, 7806, 7807, 7808, 7809, 7810, 7811, 7812, 7813, 7814, 7815, 7835, 7836, 7837, 7838, 7839, 7840, 7841, 7853, 7854, 7855, 7856, 7857, 7865, 7866, 7867, 7868, 7869, 7870, 7871, 7872, 7873, 7874, 7886, 7887, 7888, 7889, 7890, 7891, 7905, 7906, 7907, 7917, 7918, 7919, 7920, 7921, 7922, 7923, 7924, 7925, 7926, 7927, 7928, 7929, 7930]
-    $ imagesAmount = 35
-    $ imagesList = random.sample(set(images), imagesAmount)
-    $ imagesList.sort()
-    $ videoFlag1 = False
-    $ videoFlag2 = False
-    label gallery_7926_1:
-        if imagesListIdx < imagesAmount:
-            $ imageName = str(imagesList[imagesListIdx])
-            if imagesList[imagesListIdx] >= 7808 and videoFlag1 == False:
-                $ videoList = [1, 2, 3, 4]
-                $ videosAmount = 2
-                $ videoList = random.sample(set(videoList), videosAmount)
-                $ videoFlag1 = True
-                if 1 in videoList:
-                    scene black
-                    image videov_Fitness_Betty_1_1 = Movie(play="video/v_Fitness_Betty_1_1.mkv", fps=30)
-                    show videov_Fitness_Betty_1_1
-                    wclean
-                if 2 in videoList:
-                    scene black
-                    image videov_Fitness_Betty_1_2 = Movie(play="video/v_Fitness_Betty_1_2.mkv", fps=30)
-                    show videov_Fitness_Betty_1_2
-                    wclean
-                if 3 in videoList:
-                    scene black
-                    image videov_Fitness_Betty_1_3 = Movie(play="video/v_Fitness_Betty_1_3.mkv", fps=30)
-                    show videov_Fitness_Betty_1_3
-                    wclean
-                if 4 in videoList:
-                    scene black
-                    image videov_Fitness_Betty_1_4 = Movie(play="video/v_Fitness_Betty_1_4.mkv", fps=30)
-                    show videov_Fitness_Betty_1_4
-                    wclean
-
-
-
-            img imageName
-            if imagesListIdx == 0:
-                with fadelong
-            w
-            $ imagesListIdx += 1
-            jump gallery_7926_1
-
-
-    #Инструктор подходит к Бетти
-    music Loved_Up
-    img 7940
-    with fadelong
-    fitness_instructor "Бетти, давай я помогу тебе..."
-    betty "Конечно!"
-    "С удовольствием!"
-    img 7941
-    with fade
-    fitness_instructor "Сосредоточься на себе..."
-    img 7942
-    betty "Хорошо..."
-    img 7943
-    fitness_instructor "Давай попробуем еще одно упражнение..."
-    betty "Хорошо..."
-    #fade
-    #если первый раз
-    if fitness_gym_betty_first_time_interact_with_trainer == True:
-        img 7944
-        with fade
-        betty "Ой! Мне больно!"
-        img 7945
-        fitness_instructor "Надо немножечко потерпеть..."
-        betty "У меня не получается..."
-        img 7946
-        fitness_instructor "Бетти, ты прекрасна!"
-        "У тебя все получится!"
-        img 7947
-        betty "Правда?"
-        img 7948
-        fitness_instructor "Хочешь остаться на частный урок?"
-        img 7949
-        "У меня есть методики, которые дадут потрясающе быстрый результат..."
-        img 7950
-        betty "Хочу..."
-        music Groove2_85
-        img 7951
-        with fade
-        stephanie "Эй! Прошу прощения!"
-        img 7952
-        "Мне тут нужна небольшая помощь в упражнениях!"
-        img 7953
-        with fade
-        fitness_instructor "Тогда до встречи после занятий, Бетти..."
-        img 7954
-        betty "До встречи!"
-    else:
-        #если последующие разы
-        img 7944
-        with fade
-        fitness_instructor "У тебя уже лучше получается, Бетти!"
-        img 7950
-        betty "Спасибо!"
-        img 7948
-        with fade
-        fitness_instructor "Останешься сегодня снова на частный урок?"
-        img 7949
-        fitness_instructor "Тебе надо еще позаниматься..."
-        img 7954
-        betty "Да, я останусь..."
-        img 7953
-        with fade
-        fitness_instructor "Тогда до встречи после занятий, Бетти..."
-        img 7954
-        betty "До встречи!"
-        #
-
-
-    if fitness_gym_betty_first_time_interact_with_trainer == False:
         music Ready_and_Waiting
-#            if imagesList[imagesListIdx] >= 7808 and videoFlag2 == False:
-#                $ videoFlag2 = True
-        $ videoList = [5, 6, 7, 8, 9]
+        #Stephanie - 7756, 7757, 7765, 7766, 7767, 7768, 7780, 7781, 7782, 7783, 7798, 7799, 7800, 7801, 7802, 7803, 7816, 7817, 7818, 7819, 7824, 7825, 7826, 7827, 7828, 7829,
+        # 7842, 7843, 7844, 7845, 7846, 7861, 7862, 7863, 7864, 7875, 7876, 7877, 7878, 7879, 7880, 7892, 7893, 7894, 7895, 7896, 7908, 7909, 7910, 7911
+        $ images = [7756, 7757, 7765, 7766, 7767, 7768, 7780, 7781, 7782, 7783, 7798, 7799, 7800, 7801, 7802, 7803, 7816, 7817, 7818, 7819, 7824, 7825, 7826, 7827, 7828, 7829, 7842, 7843, 7844, 7845, 7846, 7861, 7862, 7863, 7864, 7875, 7876, 7877, 7878, 7879, 7880, 7892, 7893, 7894, 7895, 7896, 7908, 7909, 7910, 7911]
+        $ imagesAmount = 25
+        $ imagesList = random.sample(set(images), imagesAmount)
+        $ imagesList.sort()
+        label gallery_7909_1:
+            if imagesListIdx < imagesAmount:
+                $ imageName = str(imagesList[imagesListIdx])
+                img imageName
+                if imagesListIdx == 0:
+                    with fadelong
+                w
+                $ imagesListIdx += 1
+                jump gallery_7909_1
+
+        $ videoList = [1, 2, 3, 4, 5]
         $ videosAmount = 3
         $ videoList = random.sample(set(videoList), videosAmount)
+        if 1 in videoList:
+            scene black
+            image videov_Fitness_Stephanie_1_1 = Movie(play="video/v_Fitness_Stephanie_1_1.mkv", fps=30)
+            show videov_Fitness_Stephanie_1_1
+            wclean
+        if 2 in videoList:
+            scene black
+            image videov_Fitness_Stephanie_1_2 = Movie(play="video/v_Fitness_Stephanie_1_2.mkv", fps=30)
+            show videov_Fitness_Stephanie_1_2
+            wclean
+        if 3 in videoList:
+            scene black
+            image videov_Fitness_Stephanie_1_3 = Movie(play="video/v_Fitness_Stephanie_1_3.mkv", fps=30)
+            show videov_Fitness_Stephanie_1_3
+            wclean
+        if 4 in videoList:
+            scene black
+            image videov_Fitness_Stephanie_1_4 = Movie(play="video/v_Fitness_Stephanie_1_4.mkv", fps=30)
+            show videov_Fitness_Stephanie_1_4
+            wclean
         if 5 in videoList:
             scene black
-            image videov_Fitness_Betty_1_5 = Movie(play="video/v_Fitness_Betty_1_5.mkv", fps=30)
-            show videov_Fitness_Betty_1_5
+            image videov_Fitness_Stephanie_1_5 = Movie(play="video/v_Fitness_Stephanie_1_5.mkv", fps=30)
+            show videov_Fitness_Stephanie_1_5
             wclean
-        if 6 in videoList:
-            scene black
-            image videov_Fitness_Betty_1_6 = Movie(play="video/v_Fitness_Betty_1_6.mkv", fps=30)
-            show videov_Fitness_Betty_1_6
-            wclean
-        if 7 in videoList:
-            scene black
-            image videov_Fitness_Betty_1_7 = Movie(play="video/v_Fitness_Betty_1_7.mkv", fps=30)
-            show videov_Fitness_Betty_1_7
-            wclean
-        if 8 in videoList:
-            scene black
-            image videov_Fitness_Betty_1_8 = Movie(play="video/v_Fitness_Betty_1_8.mkv", fps=30)
-            show videov_Fitness_Betty_1_8
-            wclean
-        if 9 in videoList:
-            scene black
-            image videov_Fitness_Betty_1_9 = Movie(play="video/v_Fitness_Betty_1_9.mkv", fps=30)
-            show videov_Fitness_Betty_1_9
-            wclean
-        img v_Fitness_Betty_1_5_23
+
+        music Loved_Up
+        #Инструктор подходит к Стефани
+        img 7933
+        with fadelong
+        fitness_instructor "Стефани, давай я помогу тебе..."
+        #Если был секс
+        if stephanieFitnessJustSex == True:
+            img 7934
+            with fade
+            stephanie "Муррр..."
+            stephanie "Мой тигр хочет помочь мне?..."
+            img 7935
+            fitness_instructor "Стефани, твой тигр всегда готов придти на помощь!"
+            img 7936
+            with fade
+            stephanie "Муррр..."
+            img 7937
+            with fade
+            w
+            img 7938
+            with fade
+            w
+
+        else:
+            #Если секса не было
+            music Groove2_85
+            img 7933
+            with fadelong
+            stephanie "Я предпочитаю помощь от кого-то более сообразительного чем ты..."
+            fitness_instructor "Стефани, что я могу сделать?"
+            img 7939
+            with fade
+            stephanie "Продолжай быть настойчивым..."
+            "Хи-хи..."
+
+    if obj_name == "Rebecca":
+        menu:
+            "Смотреть на Ребекку.":
+                pass
+            "Нет.":
+                return
+
+        music Ready_and_Waiting
+        #Rebecca - 7760, 7761, 7762, 7763, 7764, 7784, 7785, 7786, 7787, 7788, 7789, 7790, 7791, 7792, 7793, 7794, 7795, 7796, 7797, 7820, 7821, 7822, 7823, 7830, 7831, 7832,
+        # 7833, 7834, 7847, 7848, 7849, 7850, 7851, 7852, 7858, 7859, 7860, 7881, 7882, 7883, 7884, 7885, 7897, 7898, 7899, 7900, 7901, 7902, 7903, 7904, 7912, 7913, 7914, 7915, 7916
+        $ images = [7760, 7761, 7762, 7763, 7764, 7784, 7785, 7786, 7787, 7788, 7789, 7790, 7791, 7792, 7793, 7794, 7795, 7796, 7797, 7820, 7821, 7822, 7823, 7830, 7831, 7832, 7833, 7834, 7847, 7848, 7849, 7850, 7851, 7852, 7858, 7859, 7860, 7881, 7882, 7883, 7884, 7885, 7897, 7898, 7899, 7900, 7901, 7902, 7903, 7904, 7912, 7913, 7914, 7915, 7916]
+        $ imagesAmount = 27
+        $ imagesList = random.sample(set(images), imagesAmount)
+        $ imagesList.sort()
+        $ videoFlag = False
+        label gallery_7909_2:
+            if imagesListIdx < imagesAmount:
+                $ imageName = str(imagesList[imagesListIdx])
+                if imagesList[imagesListIdx] >= 7832 and videoFlag == False:
+                    $ videoFlag = True
+                    $ videoList = [1, 3, 4]
+                    $ videosAmount = 2
+                    $ videoList = random.sample(set(videoList), videosAmount)
+                    if 1 in videoList:
+                        scene black
+                        image videov_Fitness_Rebecca_1_1 = Movie(play="video/v_Fitness_Rebecca_1_1.mkv", fps=30)
+                        show videov_Fitness_Rebecca_1_1
+                        wclean
+                    if 3 in videoList:
+                        scene black
+                        image videov_Fitness_Rebecca_1_3 = Movie(play="video/v_Fitness_Rebecca_1_3.mkv", fps=30)
+                        show videov_Fitness_Rebecca_1_3
+                        wclean
+                    if 4 in videoList:
+                        scene black
+                        image videov_Fitness_Rebecca_1_4 = Movie(play="video/v_Fitness_Rebecca_1_4.mkv", fps=30)
+                        show videov_Fitness_Rebecca_1_4
+                        wclean
+
+                img imageName
+                if imagesListIdx == 0:
+                    with fadelong
+                w
+                $ imagesListIdx += 1
+                jump gallery_7909_2
+
+        #Инструктор подходит к Ребекке
+        music Loved_Up
+        img 7931
+        with fadelong
+        fitness_instructor "Ребекка, давай я помогу тебе..."
+        img 7932
+        rebecca "Спасибо, не надо..."
+    label gallery_7926:
+    if obj_name == "Betty":
+        menu:
+            "Смотреть на Бетти.":
+                pass
+            "Нет.":
+                return
+        music Ready_and_Waiting
+        #Betty - 7758, 7759, 7769, 7770, 7771, 7772, 7773, 7774, 7775, 7776, 7777, 7778, 7779, 7804, 7805, 7806, 7807, 7808, 7809, 7810, 7811, 7812, 7813, 7814, 7815,
+        # 7835, 7836, 7837, 7838, 7839, 7840, 7841, 7853, 7854, 7855, 7856, 7857, 7865, 7866, 7867, 7868, 7869, 7870, 7871, 7872, 7873, 7874, 7886, 7887, 7888, 7889, 7890, 7891,
+        # 7905, 7906, 7907, 7917, 7918, 7919, 7920, 7921, 7922, 7923, 7924, 7925, 7926, 7927, 7928, 7929, 7930
+        $ images = [7758, 7759, 7769, 7770, 7771, 7772, 7773, 7774, 7775, 7776, 7777, 7778, 7779, 7804, 7805, 7806, 7807, 7808, 7809, 7810, 7811, 7812, 7813, 7814, 7815, 7835, 7836, 7837, 7838, 7839, 7840, 7841, 7853, 7854, 7855, 7856, 7857, 7865, 7866, 7867, 7868, 7869, 7870, 7871, 7872, 7873, 7874, 7886, 7887, 7888, 7889, 7890, 7891, 7905, 7906, 7907, 7917, 7918, 7919, 7920, 7921, 7922, 7923, 7924, 7925, 7926, 7927, 7928, 7929, 7930]
+        $ imagesAmount = 35
+        $ imagesList = random.sample(set(images), imagesAmount)
+        $ imagesList.sort()
+        $ videoFlag1 = False
+        $ videoFlag2 = False
+        label gallery_7926_1:
+            if imagesListIdx < imagesAmount:
+                $ imageName = str(imagesList[imagesListIdx])
+                if imagesList[imagesListIdx] >= 7808 and videoFlag1 == False:
+                    $ videoList = [1, 2, 3, 4]
+                    $ videosAmount = 2
+                    $ videoList = random.sample(set(videoList), videosAmount)
+                    $ videoFlag1 = True
+                    if 1 in videoList:
+                        scene black
+                        image videov_Fitness_Betty_1_1 = Movie(play="video/v_Fitness_Betty_1_1.mkv", fps=30)
+                        show videov_Fitness_Betty_1_1
+                        wclean
+                    if 2 in videoList:
+                        scene black
+                        image videov_Fitness_Betty_1_2 = Movie(play="video/v_Fitness_Betty_1_2.mkv", fps=30)
+                        show videov_Fitness_Betty_1_2
+                        wclean
+                    if 3 in videoList:
+                        scene black
+                        image videov_Fitness_Betty_1_3 = Movie(play="video/v_Fitness_Betty_1_3.mkv", fps=30)
+                        show videov_Fitness_Betty_1_3
+                        wclean
+                    if 4 in videoList:
+                        scene black
+                        image videov_Fitness_Betty_1_4 = Movie(play="video/v_Fitness_Betty_1_4.mkv", fps=30)
+                        show videov_Fitness_Betty_1_4
+                        wclean
+
+
+
+                img imageName
+                if imagesListIdx == 0:
+                    with fadelong
+                w
+                $ imagesListIdx += 1
+                jump gallery_7926_1
+
+
+        #Инструктор подходит к Бетти
+        music Loved_Up
+        img 7940
+        with fadelong
+        fitness_instructor "Бетти, давай я помогу тебе..."
+        betty "Конечно!"
+        "С удовольствием!"
+        img 7941
         with fade
-        w
-        img v_Fitness_Betty_1_6_20
-        with fade
-        w
+        fitness_instructor "Сосредоточься на себе..."
+        img 7942
+        betty "Хорошо..."
+        img 7943
+        fitness_instructor "Давай попробуем еще одно упражнение..."
+        betty "Хорошо..."
+        #fade
+        #если первый раз
+        if fitness_gym_betty_first_time_interact_with_trainer == True:
+            img 7944
+            with fade
+            betty "Ой! Мне больно!"
+            img 7945
+            fitness_instructor "Надо немножечко потерпеть..."
+            betty "У меня не получается..."
+            img 7946
+            fitness_instructor "Бетти, ты прекрасна!"
+            "У тебя все получится!"
+            img 7947
+            betty "Правда?"
+            img 7948
+            fitness_instructor "Хочешь остаться на частный урок?"
+            img 7949
+            "У меня есть методики, которые дадут потрясающе быстрый результат..."
+            img 7950
+            betty "Хочу..."
+            music Groove2_85
+            img 7951
+            with fade
+            stephanie "Эй! Прошу прощения!"
+            img 7952
+            "Мне тут нужна небольшая помощь в упражнениях!"
+            img 7953
+            with fade
+            fitness_instructor "Тогда до встречи после занятий, Бетти..."
+            img 7954
+            betty "До встречи!"
+        else:
+            #если последующие разы
+            img 7944
+            with fade
+            fitness_instructor "У тебя уже лучше получается, Бетти!"
+            img 7950
+            betty "Спасибо!"
+            img 7948
+            with fade
+            fitness_instructor "Останешься сегодня снова на частный урок?"
+            img 7949
+            fitness_instructor "Тебе надо еще позаниматься..."
+            img 7954
+            betty "Да, я останусь..."
+            img 7953
+            with fade
+            fitness_instructor "Тогда до встречи после занятий, Бетти..."
+            img 7954
+            betty "До встречи!"
+            #
+
+
+        if fitness_gym_betty_first_time_interact_with_trainer == False:
+            music Ready_and_Waiting
+#            if imagesList[imagesListIdx] >= 7808 and videoFlag2 == False:
+#                $ videoFlag2 = True
+            $ videoList = [5, 6, 7, 8, 9]
+            $ videosAmount = 3
+            $ videoList = random.sample(set(videoList), videosAmount)
+            if 5 in videoList:
+                scene black
+                image videov_Fitness_Betty_1_5 = Movie(play="video/v_Fitness_Betty_1_5.mkv", fps=30)
+                show videov_Fitness_Betty_1_5
+                wclean
+            if 6 in videoList:
+                scene black
+                image videov_Fitness_Betty_1_6 = Movie(play="video/v_Fitness_Betty_1_6.mkv", fps=30)
+                show videov_Fitness_Betty_1_6
+                wclean
+            if 7 in videoList:
+                scene black
+                image videov_Fitness_Betty_1_7 = Movie(play="video/v_Fitness_Betty_1_7.mkv", fps=30)
+                show videov_Fitness_Betty_1_7
+                wclean
+            if 8 in videoList:
+                scene black
+                image videov_Fitness_Betty_1_8 = Movie(play="video/v_Fitness_Betty_1_8.mkv", fps=30)
+                show videov_Fitness_Betty_1_8
+                wclean
+            if 9 in videoList:
+                scene black
+                image videov_Fitness_Betty_1_9 = Movie(play="video/v_Fitness_Betty_1_9.mkv", fps=30)
+                show videov_Fitness_Betty_1_9
+                wclean
+            img v_Fitness_Betty_1_5_23
+            with fade
+            w
+            img v_Fitness_Betty_1_6_20
+            with fade
+            w
     return
 
 label gallery_8649:
@@ -3347,7 +3367,6 @@ label gallery_5999:
     "Мне, почему-то, кажется что еду брать она все-равно не разрешит."
     return
 
-### исправлено
 label gallery_7079:
     if monicaLastPissedDay == day and monicaLastPissedDayTime == day_time:
         mt "Я уже писала недавно. Я пока не хочу."
@@ -3358,10 +3377,27 @@ label gallery_7079:
     #звук
     #whore
     #вариации (случайно)
+    if cloth == "Whore":
+        $ toilet_images = ["7079", "7080", "7081", "7082", "7083", "7084", "7085", "7086", "7087"]
+        $ images = random.sample(set(toilet_images), 4)
 
-    $ toilet_images = ["7079", "7080", "7081", "7082", "7083", "7084", "7085", "7086", "7087"]
-    $ images = random.sample(set(toilet_images), 4)
+    if cloth == "CasualDress1":
+        $ images = ["11724", "11725", "11726"]
+        $ images = random.sample(set(images), 3)
 
+    if cloth == "SchoolOutfit1":
+        $ images = ["22274", "22275", "22276"]
+        $ images = random.sample(set(images), 3)
+
+
+    #governess
+    if cloth == "Governess":
+        if monicaUnder != "Nude":
+            $ toilet_images = ["7088", "7089", "7090", "7091", "7092", "7093", "7094"]
+            $ images = random.sample(set(toilet_images), 3)
+        else:
+            $ images = ["10568", "10569", "10570"]
+            $ images = random.sample(set(images), 3)
 
     if monicaBettyPanties == True:
         if monicaBettyPantiesId == 1:
@@ -3444,18 +3480,59 @@ label gallery_7102:
 
     $ restore_music()
     return
- ### исправлено
+
 label gallery_7159:
     sound snd_fabric1
-
-    $ images = [7154, 7155, 7156, 7157, 7158, 7159, 7160, 7161, 7162]
-    img 7153
-    with fade
-    mt "Это трусики Бетти..."
-    call showRandomImages(images, 5)
+    if monicaBettyPanties == False:
+        if monicaUnder == "Nude":
+            img 10612
+            with fade
+            $ images = [10613, 10614, 10615, 10616]
+            mt "Я... Не привыкла..."
+            call showRandomImages(images, 2)
+            mt "Ходить без трусиков..."
+        else:
+            $ images = [7121, 7122]
+            img 7120
+            with fade
+            mt "Это трусики Юлии..."
+            "Я уже к ним привыкла..."
+            w
+            call showRandomImages(images, 2)
+    else:
+        if monicaBettyPantiesId == 1:
+            $ images = [7124, 7125, 7126, 7127, 7128, 7129, 7130]
+            img 7123
+            with fade
+            mt "Это трусики Бетти..."
+            call showRandomImages(images, 4)
+        if monicaBettyPantiesId == 2:
+            $ images = [7132, 7133, 7134, 7135, 7136]
+            img 7131
+            with fade
+            mt "Это трусики Бетти..."
+            call showRandomImages(images, 3)
+        if monicaBettyPantiesId == 3:
+            $ images = [7138, 7139, 7140, 7141, 7142, 7143, 7144]
+            img 7137
+            with fade
+            mt "Это трусики Бетти..."
+            call showRandomImages(images, 4)
+        if monicaBettyPantiesId == 4:
+            $ images = [7146, 7147, 7148, 7149, 7150, 7151, 7152]
+            img 7145
+            with fade
+            mt "Это трусики Бетти..."
+            call showRandomImages(images, 4)
+        if monicaBettyPantiesId == 5:
+            $ images = [7154, 7155, 7156, 7157, 7158, 7159, 7160, 7161, 7162]
+            img 7153
+            with fade
+            mt "Это трусики Бетти..."
+            call showRandomImages(images, 5)
     return
 
-#### исправлено
+#??
 label gallery_7433:
     $ images = [7420, 7422, 7423, 7424, 7425, 7426, 7427, 7428, 7429, 7430, 7431]
     $ imagesList = random.sample(set(images), 4)
@@ -3463,16 +3540,72 @@ label gallery_7433:
     $ bettyHere = False
     if get_active_objects("Betty", scene="floor2") != False:
         $ bettyHere = True
+    if cloth == "Governess":
+        if monicaBettyPanties == False:
+            if monicaUnder == "Nude":
+                if bettyHere == True:
+                    img 10609
+                    w
+                img 10610
+                call showRandomImages(images, 4, True)
+                img 10611
+                w
 
-
-    if bettyHere == True:
-        img 7419
-        w
-    img 7421
-    call showRandomImages(images, 4, True)
-    img 7432
-    w
-
+            else:
+                if bettyHere == True:
+                    img 7419
+                    w
+                img 7421
+                call showRandomImages(images, 4, True)
+                img 7432
+                w
+        else:
+            if monicaBettyPantiesId == 1:
+                if bettyHere == True:
+                    img 7436
+                    w
+                img 7437
+                call showRandomImages(images, 4)
+                img 7437
+                w
+            if monicaBettyPantiesId == 2:
+                if bettyHere == True:
+                    img 7440
+                    w
+                img 7441
+                call showRandomImages(images, 4)
+                img 7441
+                w
+            if monicaBettyPantiesId == 3:
+                if bettyHere == True:
+                    img 7444
+                    w
+                img 7445
+                w
+                img 7446
+                w
+                call showRandomImages(images, 4)
+                img 7447
+                w
+            if monicaBettyPantiesId == 4:
+                if bettyHere == True:
+                    img 7448
+                    w
+                img 7449
+                call showRandomImages(images, 4)
+                img 7449
+                w
+            if monicaBettyPantiesId == 5:
+                if bettyHere == True:
+                    img 7452
+                    w
+                img 7453
+                w
+                img 7454
+                w
+                call showRandomImages(images, 4)
+                img 7455
+                w
     call gallery_7433_1()
     return
 
@@ -3728,7 +3861,6 @@ label gallery_7578:
     $ restore_music()
     return
 
-### исправлено
 label gallery_7635:
     #render+
     #когда Моника убирает у Барди в комнате
@@ -3745,18 +3877,76 @@ label gallery_7635:
     mt "!!!"
     m "Да, Барди... Я стараюсь убираться хорошо..."
 #    bardie "И подними юбку! Я хочу проверить твои трусики!"
-
-    #Betty5
-    img 7634
-    w
-    img 7635
-    w
-    img 7636
-    w
-
-    bardie "Ты одела правильные трусики! Хорошая гувернантка!"
-    mt "!!!"
-
+    if monicaBettyPanties == False:
+        if monicaUnder == "Nude":
+            img 10555
+            w
+            img 10556
+            w
+            img 10557
+            w
+        else:
+            #Governess Pants - 7619, 7620, 7621
+            img 7619
+            w
+            img 7620
+            w
+            img 7621
+            w
+    else:
+        if monicaBettyPantiesId == 1:
+            #Betty1
+            img 7622
+            w
+            img 7623
+            w
+            img 7624
+            w
+        if monicaBettyPantiesId == 2:
+            #Betty2
+            img 7625
+            w
+            img 7626
+            w
+            img 7627
+            w
+        if monicaBettyPantiesId == 3:
+            #Betty3
+            img 7628
+            w
+            img 7629
+            w
+            img 7630
+            w
+        if monicaBettyPantiesId == 4:
+            #Betty4
+            img 7631
+            w
+            img 7632
+            w
+            img 7633
+            w
+        if monicaBettyPantiesId == 5:
+            #Betty5
+            img 7634
+            w
+            img 7635
+            w
+            img 7636
+            w
+    if monicaMustWearBettyPanties == True and (monicaBettyPantiesId != bettyPantiesLog[1] or monicaBettyPanties == False):
+        music Groove2_85 high
+        bardie "Ты одела не те трусики! Бетти была вчера в других!"
+        mt "!!!"
+    else:
+        if monicaMustWearBettyPanties == True:
+            bardie "Ты одела правильные трусики! Хорошая гувернантка!"
+            mt "!!!"
+        if monicaMustNotWearPanties == True:
+            if monicaUnder != "Nude":
+                call gallery_7635_1()# замечание
+            else:
+                bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
 #    music Pyro_Flow
 #    music Marty_Gots_a_Plan high
     $ restore_music()
@@ -3771,7 +3961,6 @@ label gallery_7635_1:
     bardie "Если ты будешь нарушать правила, то тебя будет ждать наказание!"
     return
 
-## исправлено
 label gallery_7655:
     #render+
     #когда Моника убирает в bedroom_second
@@ -3788,26 +3977,86 @@ label gallery_7655:
     w
     img 7638
     bardie "Моника! Покажи трусики!"
+    if monicaBettyPanties == False:
+        if monicaUnder == "Nude":
+            #Nude
+            img 10558
+            w
+            img 10559
+            w
+            img 10560
+            w
+        else:
+            #Governess Pants
+            img 7639
+            w
+            img 7640
+            w
+            img 7641
+            w
+    else:
+        if monicaBettyPantiesId == 1:
+            #Betty1
+            img 7642
+            w
+            img 7643
+            w
+            img 7644
+            w
+        if monicaBettyPantiesId == 2:
+            #Betty2
+            img 7645
+            w
+            img 7646
+            w
+            img 7647
+            w
+        if monicaBettyPantiesId == 3:
+            #Betty3
+            img 7648
+            w
+            img 7649
+            w
+            img 7650
+            w
+        if monicaBettyPantiesId == 4:
+            #Betty4
+            img 7651
+            w
+            img 7652
+            w
+            img 7653
+            w
+        if monicaBettyPantiesId == 5:
+            #Betty5
+            img 7654
+            w
+            img 7655
+            w
+            img 7656
+            w
 
-    #Betty5
-    img 7654
-    w
-    img 7655
-    w
-    img 7656
-    w
 
-
-    bardie "Ты одела правильные трусики! Хорошая гувернантка!"
-    mt "!!!"
-
+    if monicaMustWearBettyPanties == True and (monicaBettyPantiesId != bettyPantiesLog[1] or monicaBettyPanties == False):
+        music Groove2_85 high
+        img 7657
+        bardie "Ты одела не те трусики! Бетти была вчера в других!"
+        mt "!!!"
+    else:
+        if monicaMustWearBettyPanties == True:
+            bardie "Ты одела правильные трусики! Хорошая гувернантка!"
+            mt "!!!"
+        if monicaMustNotWearPanties == True:
+            if monicaUnder != "Nude":
+                call gallery_7635_1() # замечание
+            else:
+                bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
 #    music Pyro_Flow high
 #    $ add_corruption(bardieCleaning2UpskirtCorruption, "bardie_monica_upskirt_corruption_day_" + str(day))
     $ restore_music()
 #    call EP22_Quests_Bardie4_check_progress()
     return
 
-### исправлено
 label gallery_7675:
     #render+
     #иногда Барди появляется в комнате, где убирается Моника
@@ -3823,40 +4072,116 @@ label gallery_7675:
     w
     #Governess Pants
 #    bardie "Моника! Покажи трусики!"
-
-    #Betty5
-    img 7674
-    sound Jump2
-    bardie "Моника! Можешь не отвлекаться!"
-    img 7675
-    "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
-    img 7676
-    w
-    img 7677
-    w
+    if monicaBettyPanties == False:
+        if monicaUnder == "Nude":
+            img 10561
+            sound Jump2
+            w
+            img 10562
+            w
+            img 10563
+            w
+        else:
+            img 7659
+            sound Jump2
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7660
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7661
+            w
+    else:
+        if monicaBettyPantiesId == 1:
+            #Betty1
+            img 7662
+            sound Jump2
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7663
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7664
+        if monicaBettyPantiesId == 2:
+            #Betty2
+            img 7665
+            sound Jump2
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7666
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7667
+            w
+        if monicaBettyPantiesId == 3:
+            #Betty3
+            img 7668
+            sound Jump2
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7669
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7670
+            w
+        if monicaBettyPantiesId == 4:
+            #Betty4
+            img 7671
+            sound Jump2
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7672
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7673
+            w
+        if monicaBettyPantiesId == 5:
+            #Betty5
+            img 7674
+            sound Jump2
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7675
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7676
+            w
+            img 7677
+            w
 
     img 7658
     mt "!!!"
-
-    bardie "Ты одела правильные трусики! Хорошая гувернантка!"
-    mt "!!!"
-
+    if monicaMustWearBettyPanties == True and (monicaBettyPantiesId != bettyPantiesLog[1] or monicaBettyPanties == False):
+        # Если Моника одела не те трусики
+        music Groove2_85 high
+        bardie "Ты одела не те трусики! Бетти была вчера в других!"
+        mt "!!!"
+    else:
+        if monicaMustWearBettyPanties == True:
+            bardie "Ты одела правильные трусики! Хорошая гувернантка!"
+            mt "!!!"
+        if monicaMustNotWearPanties == True:
+            if monicaUnder != "Nude":
+                call gallery_7635_1() # замечание
+            else:
+                bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
 #    music Pyro_Flow high
     # Моника
     $ restore_music()
 #    call EP22_Quests_Bardie4_check_progress()
     return
 
-### исправлено
 label gallery_8683:
     $ store_music()
     music Groove2_85 high
-
-    img 8683
-
+    if monicaBettyPanties == False:
+        if monicaUnder == "Nude":
+            img 10554
+        else:
+            img 8683
+    else:
+        if monicaBettyPantiesId == 1:
+            img 8684
+        if monicaBettyPantiesId == 2:
+            img 8685
+        if monicaBettyPantiesId == 3:
+            img 8686
+        if monicaBettyPantiesId == 4:
+            img 8687
+        if monicaBettyPantiesId == 5:
+            img 8688
     with fade
     w
-
+    if monicaUnder == "Nude":
+        fred "Вау! Какой вид, Миссис Бакфетт!"
 
     img 8689
     m "Фред! Что ты шляешься здесь?!"
@@ -3868,7 +4193,8 @@ label gallery_8683:
     "И ищу вдруг где-то надо применить мой профессионализм!"
     img 8691
     m "Это точно не здесь, Фред!"
-
+    if monicaUnder == "Nude":
+        m "И не вздумай приближаться ко мне, мерзавец!"
     $ restore_music()
     return
 
@@ -4204,13 +4530,53 @@ label gallery_10322_1:
 
 label gallery_10615:
     sound snd_fabric1
-
-    img 10612
-    with fade
-    $ images = [10613, 10614, 10615, 10616]
-    mt "Я... Не привыкла..."
-    call showRandomImages(images, 2)
-    mt "Ходить без трусиков..."
+    if monicaBettyPanties == False:
+        if monicaUnder == "Nude":
+            img 10612
+            with fade
+            $ images = [10613, 10614, 10615, 10616]
+            mt "Я... Не привыкла..."
+            call showRandomImages(images, 2)
+            mt "Ходить без трусиков..."
+        else:
+            $ images = [7121, 7122]
+            img 7120
+            with fade
+            mt "Это трусики Юлии..."
+            "Я уже к ним привыкла..."
+            w
+            call showRandomImages(images, 2)
+    else:
+        if monicaBettyPantiesId == 1:
+            $ images = [7124, 7125, 7126, 7127, 7128, 7129, 7130]
+            img 7123
+            with fade
+            mt "Это трусики Бетти..."
+            call showRandomImages(images, 4)
+        if monicaBettyPantiesId == 2:
+            $ images = [7132, 7133, 7134, 7135, 7136]
+            img 7131
+            with fade
+            mt "Это трусики Бетти..."
+            call showRandomImages(images, 3)
+        if monicaBettyPantiesId == 3:
+            $ images = [7138, 7139, 7140, 7141, 7142, 7143, 7144]
+            img 7137
+            with fade
+            mt "Это трусики Бетти..."
+            call showRandomImages(images, 4)
+        if monicaBettyPantiesId == 4:
+            $ images = [7146, 7147, 7148, 7149, 7150, 7151, 7152]
+            img 7145
+            with fade
+            mt "Это трусики Бетти..."
+            call showRandomImages(images, 4)
+        if monicaBettyPantiesId == 5:
+            $ images = [7154, 7155, 7156, 7157, 7158, 7159, 7160, 7161, 7162]
+            img 7153
+            with fade
+            mt "Это трусики Бетти..."
+            call showRandomImages(images, 5)
 
     return
 
@@ -4230,15 +4596,76 @@ label gallery_10555:
     mt "!!!"
     m "Да, Барди... Я стараюсь убираться хорошо..."
 #    bardie "И подними юбку! Я хочу проверить твои трусики!"
-
-    img 10555
-    w
-    img 10556
-    w
-    img 10557
-    w
-
-    bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+    if monicaBettyPanties == False:
+        if monicaUnder == "Nude":
+            img 10555
+            w
+            img 10556
+            w
+            img 10557
+            w
+        else:
+            #Governess Pants - 7619, 7620, 7621
+            img 7619
+            w
+            img 7620
+            w
+            img 7621
+            w
+    else:
+        if monicaBettyPantiesId == 1:
+            #Betty1
+            img 7622
+            w
+            img 7623
+            w
+            img 7624
+            w
+        if monicaBettyPantiesId == 2:
+            #Betty2
+            img 7625
+            w
+            img 7626
+            w
+            img 7627
+            w
+        if monicaBettyPantiesId == 3:
+            #Betty3
+            img 7628
+            w
+            img 7629
+            w
+            img 7630
+            w
+        if monicaBettyPantiesId == 4:
+            #Betty4
+            img 7631
+            w
+            img 7632
+            w
+            img 7633
+            w
+        if monicaBettyPantiesId == 5:
+            #Betty5
+            img 7634
+            w
+            img 7635
+            w
+            img 7636
+            w
+    if monicaMustWearBettyPanties == True and (monicaBettyPantiesId != bettyPantiesLog[1] or monicaBettyPanties == False):
+        music Groove2_85 high
+        bardie "Ты одела не те трусики! Бетти была вчера в других!"
+        mt "!!!"
+    else:
+        if monicaMustWearBettyPanties == True:
+            bardie "Ты одела правильные трусики! Хорошая гувернантка!"
+            mt "!!!"
+        if monicaMustNotWearPanties == True:
+            if monicaUnder != "Nude":
+                call gallery_7635_1() # замечание
+            else:
+                bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
 #    music Pyro_Flow
 #    music Marty_Gots_a_Plan high
     $ restore_music()
@@ -4261,16 +4688,80 @@ label gallery_10559:
     w
     img 7638
     bardie "Моника! Покажи трусики!"
+    if monicaBettyPanties == False:
+        if monicaUnder == "Nude":
+            #Nude
+            img 10558
+            w
+            img 10559
+            w
+            img 10560
+            w
+        else:
+            #Governess Pants
+            img 7639
+            w
+            img 7640
+            w
+            img 7641
+            w
+    else:
+        if monicaBettyPantiesId == 1:
+            #Betty1
+            img 7642
+            w
+            img 7643
+            w
+            img 7644
+            w
+        if monicaBettyPantiesId == 2:
+            #Betty2
+            img 7645
+            w
+            img 7646
+            w
+            img 7647
+            w
+        if monicaBettyPantiesId == 3:
+            #Betty3
+            img 7648
+            w
+            img 7649
+            w
+            img 7650
+            w
+        if monicaBettyPantiesId == 4:
+            #Betty4
+            img 7651
+            w
+            img 7652
+            w
+            img 7653
+            w
+        if monicaBettyPantiesId == 5:
+            #Betty5
+            img 7654
+            w
+            img 7655
+            w
+            img 7656
+            w
 
-    #Nude
-    img 10558
-    w
-    img 10559
-    w
-    img 10560
-    w
 
-    bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+    if monicaMustWearBettyPanties == True and (monicaBettyPantiesId != bettyPantiesLog[1] or monicaBettyPanties == False):
+        music Groove2_85 high
+        img 7657
+        bardie "Ты одела не те трусики! Бетти была вчера в других!"
+        mt "!!!"
+    else:
+        if monicaMustWearBettyPanties == True:
+            bardie "Ты одела правильные трусики! Хорошая гувернантка!"
+            mt "!!!"
+        if monicaMustNotWearPanties == True:
+            if monicaUnder != "Nude":
+                call gallery_7635_1() # замечание
+            else:
+                bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
 #    music Pyro_Flow high
 #    $ add_corruption(bardieCleaning2UpskirtCorruption, "bardie_monica_upskirt_corruption_day_" + str(day))
     $ restore_music()
@@ -4292,23 +4783,93 @@ label gallery_10563:
     w
     #Governess Pants
 #    bardie "Моника! Покажи трусики!"
+    if monicaBettyPanties == False:
+        if monicaUnder == "Nude":
+            img 10561
+            sound Jump2
+            w
+            img 10562
+            w
+            img 10563
+            w
+        else:
+            img 7659
+            sound Jump2
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7660
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7661
+            w
+    else:
+        if monicaBettyPantiesId == 1:
+            #Betty1
+            img 7662
+            sound Jump2
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7663
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7664
+        if monicaBettyPantiesId == 2:
+            #Betty2
+            img 7665
+            sound Jump2
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7666
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7667
+            w
+        if monicaBettyPantiesId == 3:
+            #Betty3
+            img 7668
+            sound Jump2
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7669
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7670
+            w
+        if monicaBettyPantiesId == 4:
+            #Betty4
+            img 7671
+            sound Jump2
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7672
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7673
+            w
+        if monicaBettyPantiesId == 5:
+            #Betty5
+            img 7674
+            sound Jump2
+            bardie "Моника! Можешь не отвлекаться!"
+            img 7675
+            "Я лишь проверю что у тебя все в порядке с твоими трусиками!"
+            img 7676
+            w
+            img 7677
+            w
 
-    img 10561
-    sound Jump2
-    w
-    img 10562
-    w
-    img 10563
-    w
-
-    bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
+    img 7658
+    mt "!!!"
+    if monicaMustWearBettyPanties == True and (monicaBettyPantiesId != bettyPantiesLog[1] or monicaBettyPanties == False):
+        # Если Моника одела не те трусики
+        music Groove2_85 high
+        bardie "Ты одела не те трусики! Бетти была вчера в других!"
+        mt "!!!"
+    else:
+        if monicaMustWearBettyPanties == True:
+            bardie "Ты одела правильные трусики! Хорошая гувернантка!"
+            mt "!!!"
+        if monicaMustNotWearPanties == True:
+            if monicaUnder != "Nude":
+                call gallery_7635_1() # замечание
+            else:
+                bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
 #    music Pyro_Flow high
     # Моника
     $ restore_music()
 #    call EP22_Quests_Bardie4_check_progress()
     return
 
-### исправлено
 label gallery_10414:
 # Теперь, когда Бетти находится в спальне, там периодически находится Барди, который проверяет ее трусики.
 # Моника может подойти к Бетти в спальне и проверить ее трусики.
@@ -4330,22 +4891,59 @@ label gallery_10414:
     img 10420
     with fade
     sound Jump2
-    bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
-
-    w
+    if bettyPantiesCurrent >= 1:
+        bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
+    else:
+        w
 
     #betty
-
-
-    img 10413
-    with fade
-    w
-    img 10414
-    with diss
-    w
+    if bettyPantiesCurrent == 1:
+        img 10405
+        with fade
+        w
+        img 10406
+        with diss
+        w
     #
-
-
+    if bettyPantiesCurrent == 2:
+        img 10407
+        with fade
+        w
+        img 10408
+        with diss
+        w
+    #
+    if bettyPantiesCurrent == 3:
+        img 10409
+        with fade
+        w
+        img 10410
+        with diss
+        w
+    #
+    if bettyPantiesCurrent == 4:
+        img 10411
+        with fade
+        w
+        img 10412
+        with diss
+        w
+    #
+    if bettyPantiesCurrent == 5:
+        img 10413
+        with fade
+        w
+        img 10414
+        with diss
+        w
+    #
+    if bettyPantiesCurrent == 0:
+        #nude
+        img 10415
+        with fade
+        bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
+            #random
+        call showRandomImagesDiss([10416, 10417, 10418, 10419], 2)
 #        w
 #    bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
     #

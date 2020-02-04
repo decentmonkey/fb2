@@ -2598,126 +2598,136 @@ label gallery_9206:
 
     return
 
-### исправлено
+
 label gallery_20503:
 
 # Моника подходит к Мелани в гримерной (первый раз)
 # Мелани сидит за гримерным столиком
+    menu:
+        "Мелани, ты вернулась?":
+            music Groove2_85
+            img 20485
+            with fadelong
+            m "Мелани, ты вернулась?"
+            img 20486
+            with diss
+            m "Где ты так долго была? Что с тобой случилось?"
+            music Master_Disorder
+            img 20487
+            with fade
+            melanie "Миссис Бакфетт, это Вы?"
+            music Groove2_85
+            img 20488
+            with fade
+            m "Да, Мелани, это Я!"
+            m "И я ждала тебя все это время!"
+            img 20489
+            with diss
+            m "Почему тебя так долго не было?!"
+            m "Я уже думала что Маркус забрал тебя!"
+            music Master_Disorder
+            img 20490
+            with fade
+            melanie "Миссис Бакфетт, я не понимаю о чем Вы говорите..."
+            music Groove2_85
+            img 20491
+            with fade
+            m "Что значит ты не понимаешь, Мелани?"
+            m "Я говорю про твой визит к Маркусу!"
+            img 20492
+            with diss
+            m "Ты должна была решить с ним вопрос по поводу меня!"
+            m "Но, вместо этого, ты куда-то пропала!"
+            music Master_Disorder
+            img 20493
+            with fade
+            melanie "Мэм, Я не знаю о чем и о ком Вы говорите..."
+            music Pyro_Flow
+            img 20494
+            with fade
+            m "Ты что, играешь со мной, Мелани?!"
+            m "Ты прекрасно знаешь что я говорю о Маркусе!"
+            # Мелани отворачивается
+            music stop
+            img black_screen
+            with diss
+            pause 2.0
+            music Master_Disorder
+            img 20495
+            with fadelong
+            melanie "Мэм, я не знаю кто это..."
+            img 20496
+            with diss
+            melanie "Миссис Бакфетт, я очень занята. Пожалуйста, не отвлекайте меня..."
 
-    music Groove2_85
-    img 20485
-    with fadelong
-    m "Мелани, ты вернулась?"
-    img 20486
-    with diss
-    m "Где ты так долго была? Что с тобой случилось?"
-    music Master_Disorder
-    img 20487
-    with fade
-    melanie "Миссис Бакфетт, это Вы?"
-    music Groove2_85
-    img 20488
-    with fade
-    m "Да, Мелани, это Я!"
-    m "И я ждала тебя все это время!"
-    img 20489
-    with diss
-    m "Почему тебя так долго не было?!"
-    m "Я уже думала что Маркус забрал тебя!"
-    music Master_Disorder
-    img 20490
-    with fade
-    melanie "Миссис Бакфетт, я не понимаю о чем Вы говорите..."
-    music Groove2_85
-    img 20491
-    with fade
-    m "Что значит ты не понимаешь, Мелани?"
-    m "Я говорю про твой визит к Маркусу!"
-    img 20492
-    with diss
-    m "Ты должна была решить с ним вопрос по поводу меня!"
-    m "Но, вместо этого, ты куда-то пропала!"
-    music Master_Disorder
-    img 20493
-    with fade
-    melanie "Мэм, Я не знаю о чем и о ком Вы говорите..."
-    music Pyro_Flow
-    img 20494
-    with fade
-    m "Ты что, играешь со мной, Мелани?!"
-    m "Ты прекрасно знаешь что я говорю о Маркусе!"
-    # Мелани отворачивается
-    music stop
-    img black_screen
-    with diss
-    pause 2.0
-    music Master_Disorder
-    img 20495
-    with fadelong
-    melanie "Мэм, я не знаю кто это..."
-    img 20496
-    with diss
-    melanie "Миссис Бакфетт, я очень занята. Пожалуйста, не отвлекайте меня..."
+            img black_screen
+            with diss
+            pause 2.0
+            music Groove2_85
+            img 20497
+            with fade
+            mt "Она не хочет говорить про Маркуса..."
+            mt "Она что, обманула меня и не ходила к нему?!"
 
-    img black_screen
-    with diss
-    pause 2.0
-    music Groove2_85
-    img 20497
-    with fade
-    mt "Она не хочет говорить про Маркуса..."
-    mt "Она что, обманула меня и не ходила к нему?!"
 
-    music stop
-    img black_screen
-    with fadelong
-    music Malicious
-    pause 1.0
-    img 20498
-    show screen vignette_screen
-    with fadelong
-    m "У меня странное чувство..."
-    img 20499
-    with Dissolve(1.0)
-    m "Мелани?"
-    img 20500
-    with Dissolve(1.0)
-    m "Мелани!"
-    # убирает волосы
-    img 20501
-    with Dissolve(1.0)
-    m "Что там? Что там такое?"
-    img 20502
-    with Dissolve(1.0)
-    w
-    music Villainous_Treachery
-    img 20503
-    with Dissolve(1.0)
-    with hpunch
-    w
-    img 20504
-    with hpunch
-    m "О БОЖЕ!"
-    sound snd_woman_scream1a
-    img 20505
-    with diss
-    m "НЕТ!"
-    hide screen vignette_screen
-    img 20506
-    with fade
-    melanie "Миссис Бакфетт, я просила Вас не беспокоить меня."
-    img 20507
-    with diss
-    m "!!!"
+        "Посмотреть на Мелани." if ep26_dialogues7_melanie1_flag1 == True:
+            music stop
+            img black_screen
+            with fadelong
+            music Malicious
+            pause 1.0
+            img 20498
+            show screen vignette_screen
+            with fadelong
+            m "У меня странное чувство..."
+            img 20499
+            with Dissolve(1.0)
+            m "Мелани?"
+            img 20500
+            with Dissolve(1.0)
+            m "Мелани!"
+            # убирает волосы
+            img 20501
+            with Dissolve(1.0)
+            m "Что там? Что там такое?"
+            img 20502
+            with Dissolve(1.0)
+            w
+            music Villainous_Treachery
+            img 20503
+            with Dissolve(1.0)
+            with hpunch
+            w
+            img 20504
+            with hpunch
+            m "О БОЖЕ!"
+            sound snd_woman_scream1a
+            img 20505
+            with diss
+            m "НЕТ!"
+            hide screen vignette_screen
+            img 20506
+            with fade
+            melanie "Миссис Бакфетт, я просила Вас не беспокоить меня."
+            img 20507
+            with diss
+            m "!!!"
 #            music stop
-    img black_screen
-    with diss
-    pause 2.0
-    return
+            img black_screen
+            with diss
+            pause 2.0
+            return
 
-    img black_screen
-    with Dissolve(2.0)
-
+            img black_screen
+            with Dissolve(2.0)
+    #    "Мелани, сучка, ты что, никуда не ходила?! (next update) (disabled)":
+    #        pass
+#        "Мелани, пожалуйста, для меня это очень важно! (next update) (disabled)":
+#            pass
+        "Уйти.":
+            img black_screen
+            with diss
+            return
 
     return
 
@@ -3776,730 +3786,738 @@ label gallery_15443:
 
 ############ BiffCastings 1############
 
-
-#    label gallery_8442_1:
-
 label gallery_8442:
-    $ store_music()
-    music Loved_Up
+    label gallery_8442_1:
+        #первый вызов
+#        help "Пока доступны только две возможностьи. Другие пункты будут доступны в следующих версиях игры."
+        menu:
+            "Показать обнаженную грудь.":
+                #Моника показывает грудь в зависимости от одежды
+                label gallery_8453:
+                $ store_music()
+                music Loved_Up
+                if castingCloth == 1:
+                    if chickMode == True:
+                        img 8441
+                        with Dissolve(0.5)
+                        m "Моника Бакфетт хочет показать папочке грудь..."
+                        img 8442
+                        with fade
+                        w
+                        img 8444
+                        with Dissolve(0.5)
+                        w
+                    else:
+                        img 8441
+                        with Dissolve(0.5)
+                        m "Я покажу тебе грудь, потому что ты заставил меня..."
+                        img 8442
+                        with fade
+                        w
+                        img 8443
+                        with Dissolve(0.5)
+                        w
+                if castingCloth == 2:
+                    if chickMode == True:
+                        sound snd_fabric1
+                        img 8460
+                        with fade
+                        m "Леди Нуар хочет показать папочке грудь..."
+                        img 8461
+                        biff "Давай, Леди Нуар! Показывай свои сиськи!"
+                        "Не прячь их от папочки!"
+                        img 8456
+                        with Dissolve(0.5)
+                        w
+                        img 8457
+                        with Dissolve(0.5)
+                        w
+                        img 8458
+                        with Dissolve(0.5)
+                        w
+                        img 8459
+                        with Dissolve(0.5)
+                        w
 
-    if chickMode == True:
+                    else:
+                        sound snd_fabric1
+                        img 8453
+                        with fade
+                        m "Биф, мне обязательно это делать?"
+                        img 8454
+                        biff "Давай, Леди Нуар! Показывай свои сиськи!"
+                        "Не прячь их от папочки!"
+                        "А то я заставлю Леди Нуар показать еще кое-что!"
+                        img 8455
+                        with fade
+                        w
+                        img 8445
+                        biff "Я жду!"
+                        img 8455
+                        with fade
+                        w
+                        img 8456
+                        with Dissolve(0.5)
+                        w
+                        img 8457
+                        with Dissolve(0.5)
+                        w
+                        img 8458
+                        with Dissolve(0.5)
+                        w
+                        img 8459
+                        with Dissolve(0.5)
+                        w
+                if castingCloth == 3:
+                    if chickMode == True:
+                        img 8473
+                        with fade
+                        m "Девушка с календаря хочет показать папочке грудь..."
+                        sound snd_fabric1
+                        img 8477
+                        with Dissolve(0.5)
+                        w
+                        img 8478
+                        with Dissolve(0.5)
+                        w
+                        img 8479
+                        with Dissolve(0.5)
+                        w
+                    else:
+                        label gallery_8474:
+                        img 8469
+                        with fade
+                        m "Я знаю, я должна показать тебе грудь..."
+                        "Но можно я не буду делать этого?"
+                        img 8470
+                        biff "Давай! Девушка с календаря!"
+                        "Показывай свои сиськи!"
+                        "Иначе я скажу Алексу чтобы эти голые сиськи смотрели прямо с календаря!"
+                        img 8471
+                        with fade
+                        mt "Черт! У меня молоток... Может убить этого мерзавца?!"
+                        "Сколько мне терпеть это???"
+                        "..."
+                        "Нет... Слишком опасно..."
+                        img 8472
+                        biff "Ну же! Сиськи!"
+                        img 8471
+                        with fade
+                        w
+                        img 8474
+                        with Dissolve(0.5)
+                        w
+                        img 8475
+                        with Dissolve(0.5)
+                        m "На, смотри..."
+                        img 8476
+                        with Dissolve(0.5)
+                        w
+                        "Мне не нужны проблемы..."
+                        w
+                if castingCloth == 4:
+                    if chickMode == True:
+                        label gallery_9479:
+                        img 9477
+                        with fade
+                        sound snd_fabric1
+                        m "Роза надежды хочет показать папочке грудь..."
+                        img 9478
+                        with Dissolve(0.5)
+                        w
+                        img 9479
+                        with Dissolve(0.5)
+                        w
+                        img 9480
+                        with Dissolve(0.5)
+                        w
+                    else:
+                        img 9481
+                        with fade
+                        m "Я покажу тебе грудь, потому что ты заставил меня..."
 
-        img 8441
-        with Dissolve(0.5)
-        m "Моника Бакфетт хочет показать папочке грудь..."
-        img 8442
-        with fade
-        w
-        img 8444
-        with Dissolve(0.5)
-        w
-    else:
+                        img 9482
+                        with Dissolve(0.5)
+                        w
+                        img 9483
+                        with Dissolve(0.5)
+                        w
+                if castingCloth == 5:
+                    if chickMode == True:
+                        img 9500
+                        with fade
+                        sound snd_fabric1
+                        m "Стюардесса хочет показать папочке грудь..."
+                        img 9501
+                        with Dissolve(0.5)
+                        w
+                        img 9502
+                        with Dissolve(0.5)
+                        w
+                        img 9503
+                        with Dissolve(0.5)
+                        w
+                        img 9504
+                        with Dissolve(0.5)
+                        w
+                    else:
+                        img 9500
+                        with fade
+                        m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
+                        img 9501
+                        with Dissolve(0.5)
+                        w
+                        img 9502
+                        with Dissolve(0.5)
+                        w
+                        img 9503
+                        with Dissolve(0.5)
+                        w
+                        img 9504
+                        with Dissolve(0.5)
+                        w
+                if castingCloth == 6:
+                    if chickMode == True:
+                        label gallery_20187:
+                        img 20184
+                        with fade
+                        sound snd_fabric1
+                        m "Алая Жемчужина хочет показать папочке грудь..."
+                        img 20185
+                        with Dissolve(0.5)
+                        w
+                        img 20186
+                        with Dissolve(0.5)
+                        w
+                        img 20187
+                        with Dissolve(0.5)
+                        w
+                    else:
+                        img 20184
+                        with fade
+                        m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
+                        img 20185
+                        with Dissolve(0.5)
+                        w
+                        img 20186
+                        with Dissolve(0.5)
+                        w
+                        img 20187
+                        with Dissolve(0.5)
+                        w
+                if castingCloth == 7:
+                    if chickMode == True:
+                        label gallery_20205:
+                        img 20202
+                        with fade
+                        m "Запретное Желание хочет показать папочке грудь..."
+                        img 20203
+                        with Dissolve(0.5)
+                        w
+                        img 20204
+                        with Dissolve(0.5)
+                        w
+                        img 20205
+                        with Dissolve(0.5)
+                        w
+                        img 20206
+                        with diss
+                        w
+                    else:
+                        img 20202
+                        with fade
+                        m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
+                        img 20203
+                        with Dissolve(0.5)
+                        w
+                        img 20204
+                        with Dissolve(0.5)
+                        w
+                        img 20205
+                        with Dissolve(0.5)
+                        w
+                        img 20206
+                        with diss
+                        w
+                $ restore_music()
+                img 8445
+                biff "Хорошо, папочка доволен!"
+                #если уже несколько раз
+                biff "Но папочке начинает надоедать одно и то же..."
+            "Показать обнаженную попу." if shotsAmountCompleted >= shotsTotalAmount:
+                label gallery_9444:
+                $ store_music()
+                music Loved_Up
+                if castingCloth == 1:
+                    if chickMode == True:
+                        img 9443
+                        with Dissolve(0.5)
+                        m "Моника Бакфетт хочет показать папочке свой зад..."
+                        img 9444
+                        with fade
+                        w
+                        img 9445
+                        with fade
+                        w
+                        img 9446
+                        with Dissolve(0.5)
+                        w
+                    else:
+                        img 9443
+                        with Dissolve(0.5)
+                        m "Я покажу тебе зад, потому что ты заставил меня..."
+                        img 9444
+                        with fade
+                        w
+                        img 9445
+                        with fade
+                        w
+                        img 9446
+                        with Dissolve(0.5)
+                        w
+                if castingCloth == 2:
+                    if chickMode == True:
+                        label gallery_9453:
+                        sound snd_fabric1
+                        img 9447
+                        with fade
+                        m "Леди Нуар хочет показать папочке свой зад..."
+                        img 9448
+                        biff "Давай, Леди Нуар! Показывай свои зад!"
+                        "Не прячь его от папочки!"
+                        img 9452
+                        with fade
+                        w
+                        img 9453
+                        with Dissolve(0.5)
+                        w
+                        img 9454
+                        with Dissolve(0.5)
+                        w
+                        img 9455
+                        with Dissolve(0.5)
+                        w
+                        img 9456
+                        with Dissolve(0.5)
+                        w
+                        img 9456
+                        with Dissolve(0.5)
+                        w
+                        img 9457
+                        with Dissolve(0.5)
+                        w
+                        img 9458
+                        with Dissolve(0.5)
+                        w
+                    else:
+                        sound snd_fabric1
+                        img 9449
+                        with fade
+                        m "Биф, мне обязательно это делать?"
+                        img 9450
+                        biff "Давай, Леди Нуар! Показывай свои зад!"
+                        "Не прячь его от папочки!"
+                        "А то я заставлю Леди Нуар показать свой зад на камеру!"
+                        img 9451
+                        with fade
+                        w
+                        biff "Я жду!"
+                        img 9452
+                        with fade
 
-        img 8441
-        with Dissolve(0.5)
-        m "Я покажу тебе грудь, потому что ты заставил меня..."
-        img 8442
-        with fade
-        w
-        img 8443
-        with Dissolve(0.5)
-        w
-    $ restore_music()
-    img 8445
-    biff "Хорошо, папочка доволен!"
-    #если уже несколько раз
-    biff "Но папочке начинает надоедать одно и то же..."
-    return
+                        img 9453
+                        with Dissolve(0.5)
+                        w
+                        img 9454
+                        with Dissolve(0.5)
+                        w
+                        img 9455
+                        with Dissolve(0.5)
+                        w
+                        img 9456
+                        with Dissolve(0.5)
+                        w
+                        img 9456
+                        with Dissolve(0.5)
+                        w
+                        img 9457
+                        with Dissolve(0.5)
+                        w
+                        img 9458
+                        with Dissolve(0.5)
+                        w
+                if castingCloth == 3:
+                    if chickMode == True:
+                        label gallery_9465:
+                        img 9459
+                        with fade
+                        m "Девушка с календаря хочет показать папочке свою попу..."
+                        img 9460
+                        biff "Давай! Девушка с календаря!"
+                        "Показывай свой зад!"
+                        img 9464
+                        with fade
+                        w
+                        sound snd_fabric1
+                        img 9465
+                        with Dissolve(0.5)
+                        w
+                        m "На, смотри..."
+                        img 9466
+                        with Dissolve(0.5)
+                        w
+                        img 9467
+                        with Dissolve(0.5)
+                        w
+                        img 9468
+                        with Dissolve(0.5)
+                        w
+                        img 9469
+                        with Dissolve(0.5)
+                        w
+                    else:
+                        img 9461
+                        with fade
+                        m "Я знаю, я должна показать тебе свой зад..."
+                        "Но можно я не буду делать этого?"
+                        img 9462
+                        biff "Давай! Девушка с календаря!"
+                        "Показывай свой зад!"
+                        "Иначе я скажу Алексу чтобы этот голый зад смотрел на всех прямо с календаря!"
+                        img 9463
+                        biff "Ну же! Зад!"
+                        img 9464
+                        with fade
+                        w
+                        sound snd_fabric1
+                        img 9465
+                        with Dissolve(0.5)
+                        w
+                        m "На, смотри..."
+                        img 9466
+                        with Dissolve(0.5)
+                        w
+                        img 9467
+                        with Dissolve(0.5)
+                        w
+                        img 9468
+                        with Dissolve(0.5)
+                        w
+                        img 9469
+                        with Dissolve(0.5)
+                        "Мне не нужны проблемы..."
+                if castingCloth == 4:
+                    if chickMode == True:
+                        label gallery_9492:
+                        img 9485
+                        with fade
+                        sound snd_fabric1
+                        m "Роза надежды хочет показать папочке свой зад..."
+                        img 9486
+                        biff "Давай, Роза!"
+                        "Показывай свой зад!"
 
+                        img 9487
+                        with Dissolve(0.5)
+                        w
+                        img 9488
+                        with Dissolve(0.5)
+                        w
+                        img 9489
+                        with Dissolve(0.5)
+                        w
+                        img 9490
+                        with Dissolve(0.5)
+                        w
+                        img 9491
+                        with Dissolve(0.5)
+                        w
+                        img 9492
+                        with Dissolve(0.5)
+                        w
+                    else:
+                        img 9484
+                        with fade
+                        m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
+                        img 9486
+                        biff "Давай, Роза!"
+                        "Показывай свой зад!"
 
-label gallery_8453:
-    $ store_music()
-    music Loved_Up
-    if chickMode == True:
-        sound snd_fabric1
-        img 8460
-        with fade
-        m "Леди Нуар хочет показать папочке грудь..."
-        img 8461
-        biff "Давай, Леди Нуар! Показывай свои сиськи!"
-        "Не прячь их от папочки!"
-        img 8456
-        with Dissolve(0.5)
-        w
-        img 8457
-        with Dissolve(0.5)
-        w
-        img 8458
-        with Dissolve(0.5)
-        w
-        img 8459
-        with Dissolve(0.5)
-        w
+                        img 9487
+                        with Dissolve(0.5)
+                        w
+                        img 9488
+                        with Dissolve(0.5)
+                        w
+                        img 9489
+                        with Dissolve(0.5)
+                        w
+                        img 9490
+                        with Dissolve(0.5)
+                        w
+                        img 9491
+                        with Dissolve(0.5)
+                        w
+                        img 9492
+                        with Dissolve(0.5)
+                        w
+                if castingCloth == 5:
+                    if chickMode == True:
+                        label gallery_9513:
+                        img 9506
+                        with fade
+                        sound snd_fabric1
+                        m "Стюардесса Fashion Airlines хочет показать папочке свой зад..."
+                        img 9507
+                        biff "Давай, Стюардесса!"
+                        "Показывай свой зад!"
+                        img 9508
+                        with fade
 
-    else:
+                        img 9509
+                        with Dissolve(0.5)
+                        w
+                        img 9510
+                        with Dissolve(0.5)
+                        w
+                        img 9511
+                        with Dissolve(0.5)
+                        w
+                        img 9512
+                        with Dissolve(0.5)
+                        w
+                        img 9513
+                        with Dissolve(0.5)
+                        w
+                        img 9514
+                        with Dissolve(0.5)
+                        w
+                    else:
+                        img 9505
+                        with fade
+                        m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
+                        img 9507
+                        biff "Давай, Стюардесса!"
+                        "Показывай свой зад!"
+                        img 9508
+                        with fade
 
-        sound snd_fabric1
-        img 8453
-        with fade
-        m "Биф, мне обязательно это делать?"
-        img 8454
-        biff "Давай, Леди Нуар! Показывай свои сиськи!"
-        "Не прячь их от папочки!"
-        "А то я заставлю Леди Нуар показать еще кое-что!"
-        img 8455
-        with fade
-        w
-        img 8445
-        biff "Я жду!"
-        img 8455
-        with fade
-        w
-        img 8456
-        with Dissolve(0.5)
-        w
-        img 8457
-        with Dissolve(0.5)
-        w
-        img 8458
-        with Dissolve(0.5)
-        w
-        img 8459
-        with Dissolve(0.5)
-        w
-    $ restore_music()
-    img 8445
-    biff "Хорошо, папочка доволен!"
-    #если уже несколько раз
-    biff "Но папочке начинает надоедать одно и то же..."
-    return
-
-label gallery_8474:
-    $ store_music()
-    music Loved_Up
-    if chickMode == True:
-        img 8473
-        with fade
-        m "Девушка с календаря хочет показать папочке грудь..."
-        sound snd_fabric1
-        img 8477
-        with Dissolve(0.5)
-        w
-        img 8478
-        with Dissolve(0.5)
-        w
-        img 8479
-        with Dissolve(0.5)
-        w
-    else:
-
-        img 8469
-        with fade
-        m "Я знаю, я должна показать тебе грудь..."
-        "Но можно я не буду делать этого?"
-        img 8470
-        biff "Давай! Девушка с календаря!"
-        "Показывай свои сиськи!"
-        "Иначе я скажу Алексу чтобы эти голые сиськи смотрели прямо с календаря!"
-        img 8471
-        with fade
-        mt "Черт! У меня молоток... Может убить этого мерзавца?!"
-        "Сколько мне терпеть это???"
-        "..."
-        "Нет... Слишком опасно..."
-        img 8472
-        biff "Ну же! Сиськи!"
-        img 8471
-        with fade
-        w
-        img 8474
-        with Dissolve(0.5)
-        w
-        img 8475
-        with Dissolve(0.5)
-        m "На, смотри..."
-        img 8476
-        with Dissolve(0.5)
-        w
-        "Мне не нужны проблемы..."
-        w
-    $ restore_music()
-    img 8445
-    biff "Хорошо, папочка доволен!"
-    #если уже несколько раз
-    biff "Но папочке начинает надоедать одно и то же..."
-    return
-
-label gallery_9479:
-    $ store_music()
-    music Loved_Up
-    if chickMode == True:
-
-        img 9477
-        with fade
-        sound snd_fabric1
-        m "Роза надежды хочет показать папочке грудь..."
-        img 9478
-        with Dissolve(0.5)
-        w
-        img 9479
-        with Dissolve(0.5)
-        w
-        img 9480
-        with Dissolve(0.5)
-        w
-    else:
-        img 9481
-        with fade
-        m "Я покажу тебе грудь, потому что ты заставил меня..."
-
-        img 9482
-        with Dissolve(0.5)
-        w
-        img 9483
-        with Dissolve(0.5)
-        w
-    $ restore_music()
-    img 8445
-    biff "Хорошо, папочка доволен!"
-    #если уже несколько раз
-    biff "Но папочке начинает надоедать одно и то же..."
-    return
-
-
-label gallery_20187:
-    $ store_music()
-    music Loved_Up
-    if chickMode == True:
-
-        img 20184
-        with fade
-        sound snd_fabric1
-        m "Алая Жемчужина хочет показать папочке грудь..."
-        img 20185
-        with Dissolve(0.5)
-        w
-        img 20186
-        with Dissolve(0.5)
-        w
-        img 20187
-        with Dissolve(0.5)
-        w
-    else:
-        img 20184
-        with fade
-        m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
-        img 20185
-        with Dissolve(0.5)
-        w
-        img 20186
-        with Dissolve(0.5)
-        w
-        img 20187
-        with Dissolve(0.5)
-        w
-    $ restore_music()
-    img 8445
-    biff "Хорошо, папочка доволен!"
-    #если уже несколько раз
-    biff "Но папочке начинает надоедать одно и то же..."
-    return
-
-label gallery_20205:
-    $ store_music()
-    music Loved_Up
-    if chickMode == True:
-
-        $ store_music()
-        music Loved_Up
-        img 20202
-        with fade
-        m "Запретное Желание хочет показать папочке грудь..."
-        img 20203
-        with Dissolve(0.5)
-        w
-        img 20204
-        with Dissolve(0.5)
-        w
-        img 20205
-        with Dissolve(0.5)
-        w
-        img 20206
-        with diss
-        w
-    else:
-        img 20202
-        with fade
-        m "Я покажу тебе грудь, потому что ты заставляешь меня это делать!.."
-        img 20203
-        with Dissolve(0.5)
-        w
-        img 20204
-        with Dissolve(0.5)
-        w
-        img 20205
-        with Dissolve(0.5)
-        w
-        img 20206
-        with diss
-        w
-    $ restore_music()
-    img 8445
-    biff "Хорошо, папочка доволен!"
-    #если уже несколько раз
-    biff "Но папочке начинает надоедать одно и то же..."
-    return
-
-
-label gallery_9444:
-    $ store_music()
-    music Loved_Up
-
-    if chickMode == True:
-        img 9443
-        with Dissolve(0.5)
-        m "Моника Бакфетт хочет показать папочке свой зад..."
-        img 9444
-        with fade
-        w
-        img 9445
-        with fade
-        w
-        img 9446
-        with Dissolve(0.5)
-        w
-    else:
-        img 9443
-        with Dissolve(0.5)
-        m "Я покажу тебе зад, потому что ты заставил меня..."
-        img 9444
-        with fade
-        w
-        img 9445
-        with fade
-        w
-        img 9446
-        with Dissolve(0.5)
-        w
-    $ restore_music()
-    img 8445
-    biff "Хорошо, папочка доволен!"
-    #если уже несколько раз
-    biff "Но папочке начинает надоедать одно и то же..."
-    return
-
-label gallery_9453:
-    $ store_music()
-    music Loved_Up
-    if chickMode == True:
-
-        sound snd_fabric1
-        img 9447
-        with fade
-        m "Леди Нуар хочет показать папочке свой зад..."
-        img 9448
-        biff "Давай, Леди Нуар! Показывай свои зад!"
-        "Не прячь его от папочки!"
-        img 9452
-        with fade
-        w
-        img 9453
-        with Dissolve(0.5)
-        w
-        img 9454
-        with Dissolve(0.5)
-        w
-        img 9455
-        with Dissolve(0.5)
-        w
-        img 9456
-        with Dissolve(0.5)
-        w
-        img 9456
-        with Dissolve(0.5)
-        w
-        img 9457
-        with Dissolve(0.5)
-        w
-        img 9458
-        with Dissolve(0.5)
-        w
-    else:
-        sound snd_fabric1
-        img 9449
-        with fade
-        m "Биф, мне обязательно это делать?"
-        img 9450
-        biff "Давай, Леди Нуар! Показывай свои зад!"
-        "Не прячь его от папочки!"
-        "А то я заставлю Леди Нуар показать свой зад на камеру!"
-        img 9451
-        with fade
-        w
-        biff "Я жду!"
-        img 9452
-        with fade
-
-        img 9453
-        with Dissolve(0.5)
-        w
-        img 9454
-        with Dissolve(0.5)
-        w
-        img 9455
-        with Dissolve(0.5)
-        w
-        img 9456
-        with Dissolve(0.5)
-        w
-        img 9456
-        with Dissolve(0.5)
-        w
-        img 9457
-        with Dissolve(0.5)
-        w
-        img 9458
-        with Dissolve(0.5)
-        w
-    $ restore_music()
-    img 8445
-    biff "Хорошо, папочка доволен!"
-    #если уже несколько раз
-    biff "Но папочке начинает надоедать одно и то же..."
-    return
-
-
-
-label gallery_9465:
-    $ store_music()
-    music Loved_Up
-    if chickMode == True:
-
-        img 9459
-        with fade
-        m "Девушка с календаря хочет показать папочке свою попу..."
-        img 9460
-        biff "Давай! Девушка с календаря!"
-        "Показывай свой зад!"
-        img 9464
-        with fade
-        w
-        sound snd_fabric1
-        img 9465
-        with Dissolve(0.5)
-        w
-        m "На, смотри..."
-        img 9466
-        with Dissolve(0.5)
-        w
-        img 9467
-        with Dissolve(0.5)
-        w
-        img 9468
-        with Dissolve(0.5)
-        w
-        img 9469
-        with Dissolve(0.5)
-        w
-    else:
-        img 9461
-        with fade
-        m "Я знаю, я должна показать тебе свой зад..."
-        "Но можно я не буду делать этого?"
-        img 9462
-        biff "Давай! Девушка с календаря!"
-        "Показывай свой зад!"
-        "Иначе я скажу Алексу чтобы этот голый зад смотрел на всех прямо с календаря!"
-        img 9463
-        biff "Ну же! Зад!"
-        img 9464
-        with fade
-        w
-        sound snd_fabric1
-        img 9465
-        with Dissolve(0.5)
-        w
-        m "На, смотри..."
-        img 9466
-        with Dissolve(0.5)
-        w
-        img 9467
-        with Dissolve(0.5)
-        w
-        img 9468
-        with Dissolve(0.5)
-        w
-        img 9469
-        with Dissolve(0.5)
-        "Мне не нужны проблемы..."
-    $ restore_music()
-    img 8445
-    biff "Хорошо, папочка доволен!"
-    #если уже несколько раз
-    biff "Но папочке начинает надоедать одно и то же..."
-    return
-
-
-label gallery_9492:
-    $ store_music()
-    music Loved_Up
-    if chickMode == True:
-
-        img 9485
-        with fade
-        sound snd_fabric1
-        m "Роза надежды хочет показать папочке свой зад..."
-        img 9486
-        biff "Давай, Роза!"
-        "Показывай свой зад!"
-
-        img 9487
-        with Dissolve(0.5)
-        w
-        img 9488
-        with Dissolve(0.5)
-        w
-        img 9489
-        with Dissolve(0.5)
-        w
-        img 9490
-        with Dissolve(0.5)
-        w
-        img 9491
-        with Dissolve(0.5)
-        w
-        img 9492
-        with Dissolve(0.5)
-        w
-    else:
-        img 9484
-        with fade
-        m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
-        img 9486
-        biff "Давай, Роза!"
-        "Показывай свой зад!"
-
-        img 9487
-        with Dissolve(0.5)
-        w
-        img 9488
-        with Dissolve(0.5)
-        w
-        img 9489
-        with Dissolve(0.5)
-        w
-        img 9490
-        with Dissolve(0.5)
-        w
-        img 9491
-        with Dissolve(0.5)
-        w
-        img 9492
-        with Dissolve(0.5)
-        w
-    $ restore_music()
-    img 8445
-    biff "Хорошо, папочка доволен!"
-    #если уже несколько раз
-    biff "Но папочке начинает надоедать одно и то же..."
-    return
-
-label gallery_9513:
-    $ store_music()
-    music Loved_Up
-    if chickMode == True:
-
-        img 9506
-        with fade
-        sound snd_fabric1
-        m "Стюардесса Fashion Airlines хочет показать папочке свой зад..."
-        img 9507
-        biff "Давай, Стюардесса!"
-        "Показывай свой зад!"
-        img 9508
-        with fade
-
-        img 9509
-        with Dissolve(0.5)
-        w
-        img 9510
-        with Dissolve(0.5)
-        w
-        img 9511
-        with Dissolve(0.5)
-        w
-        img 9512
-        with Dissolve(0.5)
-        w
-        img 9513
-        with Dissolve(0.5)
-        w
-        img 9514
-        with Dissolve(0.5)
-        w
-    else:
-        img 9505
-        with fade
-        m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
-        img 9507
-        biff "Давай, Стюардесса!"
-        "Показывай свой зад!"
-        img 9508
-        with fade
-
-        img 9509
-        with Dissolve(0.5)
-        w
-        img 9510
-        with Dissolve(0.5)
-        w
-        img 9511
-        with Dissolve(0.5)
-        w
-        img 9512
-        with Dissolve(0.5)
-        w
-        img 9513
-        with Dissolve(0.5)
-        w
-        img 9514
-        with Dissolve(0.5)
-        w
-    $ restore_music()
-    img 8445
-    biff "Хорошо, папочка доволен!"
-    #если уже несколько раз
-    biff "Но папочке начинает надоедать одно и то же..."
-    return
-
-label gallery_20191:
-    $ store_music()
-    music Loved_Up
-    if chickMode == True:
-
-        img 20188 #9506
-        with fade
-        sound snd_fabric1
-        m "Алая Жемчужина хочет показать папочке свой зад..."
+                        img 9509
+                        with Dissolve(0.5)
+                        w
+                        img 9510
+                        with Dissolve(0.5)
+                        w
+                        img 9511
+                        with Dissolve(0.5)
+                        w
+                        img 9512
+                        with Dissolve(0.5)
+                        w
+                        img 9513
+                        with Dissolve(0.5)
+                        w
+                        img 9514
+                        with Dissolve(0.5)
+                        w
+                if castingCloth == 6:
+                    if chickMode == True:
+                        label gallery_20191:
+                        img 20188 #9506
+                        with fade
+                        sound snd_fabric1
+                        m "Алая Жемчужина хочет показать папочке свой зад..."
 #                        img 9507
-        biff "Давай, Жемчужина!"
-        "Показывай свой зад!"
-        img 20189 #9508
-        with fade
-        m "Биф, можно Я не буду снимать костюм?"
-        m "Это долго..."
+                        biff "Давай, Жемчужина!"
+                        "Показывай свой зад!"
+                        img 20189 #9508
+                        with fade
+                        m "Биф, можно Я не буду снимать костюм?"
+                        m "Это долго..."
 
-        img 20190
-        with fade
-        biff "Хорошо, цыпочка."
-        biff "У папочки нет времени на переодевания."
+                        img 20190
+                        with fade
+                        biff "Хорошо, цыпочка."
+                        biff "У папочки нет времени на переодевания."
 
-        img 20191
-        biff "Пусть цыпочка сядет на стол."
-        biff "Папочка хочет посмотреть на сидящую цыпочку."
+                        img 20191
+                        biff "Пусть цыпочка сядет на стол."
+                        biff "Папочка хочет посмотреть на сидящую цыпочку."
 
-        img 20192
-        with diss
-        m "Так, Биф?"
-        img 20193
-        biff "Да, цыпочка. Привыкай сидеть на жердочке."
-        biff "Скоро ты займешь место рядом с малышкой Мелани!"
+                        img 20192
+                        with diss
+                        m "Так, Биф?"
+                        img 20193
+                        biff "Да, цыпочка. Привыкай сидеть на жердочке."
+                        biff "Скоро ты займешь место рядом с малышкой Мелани!"
 
-        img 20194
-        mt "!!!"
+                        img 20194
+                        mt "!!!"
 
-    else:
-        img 20188 #9506
-        with fade
-        sound snd_fabric1
-        m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
+                    else:
+                        img 20188 #9506
+                        with fade
+                        sound snd_fabric1
+                        m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
 #                        img 9507
-        biff "Давай, Жемчужина!"
-        "Показывай свой зад!"
-        img 20189 #9508
-        with fade
-        m "Биф, можно Я не буду снимать костюм?"
-        m "Это долго..."
+                        biff "Давай, Жемчужина!"
+                        "Показывай свой зад!"
+                        img 20189 #9508
+                        with fade
+                        m "Биф, можно Я не буду снимать костюм?"
+                        m "Это долго..."
 
-        img 20190
-        with fade
-        biff "Хорошо, цыпочка."
-        biff "У папочки нет времени на переодевания."
+                        img 20190
+                        with fade
+                        biff "Хорошо, цыпочка."
+                        biff "У папочки нет времени на переодевания."
 
-        img 20191
-        biff "Пусть цыпочка сядет на стол."
-        biff "Папочка хочет посмотреть на сидящую цыпочку."
+                        img 20191
+                        biff "Пусть цыпочка сядет на стол."
+                        biff "Папочка хочет посмотреть на сидящую цыпочку."
 
-        img 20192
-        with diss
-        m "Так, Биф?"
-        img 20193
-        biff "Да, цыпочка. Привыкай сидеть на жердочке."
-        biff "Скоро ты займешь место рядом с малышкой Мелани!"
+                        img 20192
+                        with diss
+                        m "Так, Биф?"
+                        img 20193
+                        biff "Да, цыпочка. Привыкай сидеть на жердочке."
+                        biff "Скоро ты займешь место рядом с малышкой Мелани!"
 
-        img 20194
-        mt "!!!"
-    $ restore_music()
-    img 8445
-    biff "Хорошо, папочка доволен!"
-    #если уже несколько раз
-    biff "Но папочке начинает надоедать одно и то же..."
+                        img 20194
+                        mt "!!!"
+                if castingCloth == 7:
+                    if chickMode == True:
+                        label gallery_20210:
+                        img 20207
+                        with fade
+                        sound snd_fabric1
+                        m "Запретное Желание хочет показать папочке свой зад..."
+                        img 20208
+                        with diss
+                        biff "Давай, Запретное Желание!"
+                        "Показывай свой зад!"
+                        img 20209
+                        with fade
+                        w
+
+                        img 20210
+                        with Dissolve(0.5)
+                        w
+                        img 20211
+                        with Dissolve(0.5)
+                        w
+                        img 20212
+                        with Dissolve(0.5)
+                        w
+                    else:
+                        img 20207
+                        with fade
+                        m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
+                        img 20208
+                        biff "Давай, Запретное Желание!"
+                        "Показывай свой зад!"
+                        img 20209
+                        with fade
+                        w
+
+                        img 20210
+                        with Dissolve(0.5)
+                        w
+                        img 20211
+                        with Dissolve(0.5)
+                        w
+                        img 20212
+                        with Dissolve(0.5)
+                        w
+                $ restore_music()
+                img 8445
+                biff "Хорошо, папочка доволен!"
+                #если уже несколько раз
+#                biff "Но папочке начинает надоедать одно и то же..."
+            "Показать обнаженную попу. (фотосессия не завершена) (disabled)" if shotsAmountCompleted < shotsTotalAmount:
+                pass
+#            "Раздеться и принимать различные модельные позы.":
+#                $ store_music()
+#                call ep210_dialogues1_office_biff_1a()
+#                $ restore_music()
+#                img 8445
+#                biff "Хорошо, папочка доволен!"
+            "Раздеться и принимать различные модельные позы. (disabled)":
+                pass
+#            "Раздеться и встать на колени задом к Бифу.":
+#                $ store_music()
+#                call ep210_dialogues1_office_biff_1b()
+#                $ restore_music()
+#                img 8445
+#                biff "Хорошо, папочка доволен!"
+            "Раздеться и встать на колени задом к Бифу. (disabled)":
+                pass
+#            "Раздеться и лечь на пол раздвинув ноги.":
+#                $ store_music()
+#                call ep210_dialogues1_office_biff_1c()
+#                $ restore_music()
+#                img 8445
+#                biff "Хорошо, папочка доволен!"
+            "Раздеться и лечь на пол раздвинув ноги. (disabled)":
+                pass
+            "Раздеться и сесть на стол.":
+                menu:
+                    "Поставить на стол одну ногу. (disabled)":
+                        pass
+                    "Сесть на стол лицом к Бифу, широко раздвинув ноги. (disabled)":
+                        pass
+                    "Сесть на стол спиной к Бифу. (disabled)":
+                        pass
+                    "Сесть на стол, достать член Бифа и взять его в рот. (disabled)":
+                        pass
+                    "Сесть на стол. достать член Бифа и возить им по киске. (disabled)":
+                        pass
+                    "Сесть на стол, достать член Бифа и вставить его в свою киску. (disabled)":
+                        pass
+                    "Сесть на стол, достать член Бифа и вставить его в анальное отверстие. (disabled)":
+                        pass
+                    "Назад.":
+                        jump gallery_8442_1
+            "Раздеться и сесть на Бифа.":
+                menu:
+                    "Сесть к Бифу на коленки лицом к нему. (disabled)":
+                        pass
+                    "Сесть к Бифу на коленки спиной. (disabled)":
+                        pass
+                    "Сесть Бифу киской на лицо. (disabled)":
+                        pass
+                    "Достать член Бифа и сесть на него лицом к Бифу (disabled)":
+                        pass
+                    "Достать член Бифа и сесть на него спиной к Бифу (disabled)":
+                        pass
+                    "Достать член Бифа и сесть на него анальным отверстием (disabled)":
+                        pass
+                    "Полизать папочке зад. (disabled)":
+                        pass
+                    "Назад.":
+                        jump gallery_8442_1
+            "Позвать секретаршу.":
+                label gallery_8442_2:
+                    menu:
+                        "Поцеловать секретаршу. (disabled)":
+                            pass
+                        "Полизать секретарше грудь. (disabled)":
+                            pass
+                        "Полизать секретарше киску. (disabled)":
+                            pass
+                        "Засунуть секретарше язык глубоко в анальное отверстие. (disabled)":
+                            pass
+                        "Достать член Бифа и засунуть его в секретаршу. (disabled)":
+                            pass
+                        "Засунуть член в ее киску, затем вытащить и облизать его. (disabled)":
+                            pass
+                        "Засунуть член в ее анальное отверстие, затем вытащить и облизать его. (disabled)":
+                            pass
+#                        "Назад.":
+#                                jump gallery_8442_2
+                        "Назад.":
+                            jump gallery_8442_1
     return
-
-
-label gallery_20210:
-    $ store_music()
-    music Loved_Up
-    if chickMode == True:
-
-        img 20207
-        with fade
-        sound snd_fabric1
-        m "Запретное Желание хочет показать папочке свой зад..."
-        img 20208
-        with diss
-        biff "Давай, Запретное Желание!"
-        "Показывай свой зад!"
-        img 20209
-        with fade
-        w
-
-        img 20210
-        with Dissolve(0.5)
-        w
-        img 20211
-        with Dissolve(0.5)
-        w
-        img 20212
-        with Dissolve(0.5)
-        w
-    else:
-        img 20207
-        with fade
-        m "Я покажу тебе свой зад, потому что ты заставляешь меня это делать!"
-        img 20208
-        biff "Давай, Запретное Желание!"
-        "Показывай свой зад!"
-        img 20209
-        with fade
-        w
-
-        img 20210
-        with Dissolve(0.5)
-        w
-        img 20211
-        with Dissolve(0.5)
-        w
-        img 20212
-        with Dissolve(0.5)
-        w
-    $ restore_music()
-    img 8445
-    biff "Хорошо, папочка доволен!"
-    #если уже несколько раз
-    biff "Но папочке начинает надоедать одно и то же..."
-    return
-
 
 label gallery_13920:
 # Если Моника заходит сразу же, то происходит диалог с Бифом после сдачи отчетов. Если не приходит в этот вечер, то диалог пропадает.
