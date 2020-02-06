@@ -1121,8 +1121,6 @@ label gallery_6915:
 label gallery_8285:
     #render
     #Моника разговаривает с секретаршей повторно
-    if act == "l":
-        return
 
     $ store_music()
     music Stealth_Groover
@@ -1145,26 +1143,15 @@ label gallery_8285:
             with fade
             secretary "Миссис Бакфетт! Я пока не видела зарплаты здесь, после Вашего ухода..."
             #если у Моники меньше 5 долларов, то дает, иначе нет
-            if money > 2:
-                secretary "Поэтому у меня нет никаких денег сейчас, Миссис Бакфетт!"
-                "Простите!"
-                m "А как же Биф? Он что, не дает тебе деньги?"
+            secretary "Поэтому у меня нет никаких денег сейчас, Миссис Бакфетт!"
+            "Простите!"
+            m "А как же Биф? Он что, не дает тебе деньги?"
 
-                img 8285
+            img 8285
 
-                with fade
-                secretary "Мистер Биф лучше нас знает что нам необходимо."
-            else:
-                #
-                secretary "У меня есть только кредитная карточка, но мне надо платить за ипотечный кредит."
-                "У меня есть $ 5 наличными и все..."
-                m "Дорогуша, дай мне, пожалуйста, эти $ 5..."
-                img 8286
+            with fade
+            secretary "Мистер Биф лучше нас знает что нам необходимо."
 
-                with fade
-                secretary "Да, Миссис Бакфетт!"
-                "Держите..."
-                #дает 5 баксов
 
         "Дорогуша, ты не видела Мелани?" if melanieDisappeared == True:
             call gallery_8285_1()
@@ -1200,14 +1187,7 @@ label gallery_8285_1:
 
 
 label gallery_13869:
-    # У пилона (Моника, секретарша, ситизен)
-    imgl Dial_begin35_17
-    imgr Dial_Citizen_4_1
-    m "Привет! Помню, ты хотел познакомиться поближе?"
-    imgr Dial_Citizen_4_3
-    citizen4 "Конечно, давай познакомимся."
-    m "Ну я не о близком знакомстве...Немного о другом."
-    citizen4 "Да не вопрос, я понимаю о чем речь. Любой из нашего района тебя поймет с полуслова."
+
 
 # Там Моника говорит ему что он обещал $ 50 за новую пару сисек.
 # Тот отвечает что да, он заплатит $ 50, но только за новую пару малышек.
@@ -2418,85 +2398,98 @@ label gallery_9654: # Барменша
     mt "Это место - действительно Shiny Hole с извращенцами!"
     return
 
-label gallery_9664_1:
-    if obj_name == "Bartender":
-        if act=="l":
-            if monicaWorkingAsDishwasher == False:
-                mt "Он похож на бармена в этой дыре..."
-            else:
-                mt "Это Джо. Он дал мне работу посудомойщицей."
-                mt "Это ужас, конечно, но, по крайней мере, у меня есть еда..."
-    if obj_name == "Bartender_Waitress":
-        if act=="l":
-            if monicaWorkingAsDishwasher == False:
-                mt "Похоже это официантка в этой дыре или что-то вроде того..."
-            else:
-                mt "Это Эшли. Жена Джо."
-                mt "Мне кажется что она немного странная."
-                mt "Хотя что может быть не странного в этой дыре?!"
 
-    if obj_name == "Monica":
-        mt "Какое жуткое место!"
-        "Я даже представить себе не могла что могу оказаться в подобном заведении!"
-    if obj_name == "Pub_Bar":
-        img 9662
-        with fade
-        mt "SHINY HOLE?!?"
-        mt "О БОЖЕ!"
-        "ЧТО ЭТО ЗА ДЫРА?!?"
-
-    if obj_name == "Pub_Bar_Table":
-        mt "Жуткое заведение, жуткая мебель!"
-        "Какой кошмар, Моника!"
-
-    if obj_name == "Pub_StripteaseGirl1" or obj_name == "Pub_StripteaseGirl2":
-        if act=="l":
-            if obj_name == "Pub_StripteaseGirl1":
-                if pubStripteaseGirl1Suffix == 1:
-                    label gallery_9668:
-                    img 9668
-                if pubStripteaseGirl1Suffix == 2:
-                    label gallery_9669:
-                    img 9669
-                if pubStripteaseGirl1Suffix == 3:
-                    label gallery_9670:
-                    img 9670
-                if pubStripteaseGirl1Suffix == 4:
-                    label gallery_9671:
-                    img 9671
-            if obj_name == "Pub_StripteaseGirl2":
-                if pubStripteaseGirl2Suffix == 1:
-                    label gallery_9664:
-                    img 9664
-                if pubStripteaseGirl2Suffix == 2:
-                    label gallery_9665:
-                    img 9665
-                if pubStripteaseGirl2Suffix == 3:
-                    label gallery_9666:
-                    img 9666
-                if pubStripteaseGirl2Suffix == 4:
-                    label gallery_9667:
-                    img 9667
-            with fade
-            w
-            if ep29_quests_pub_monica_knows_molly == True and obj_name == "Pub_StripteaseGirl1":
-                call gallery_9667_1()
-                return
-            if ep29_quests_pub_monica_knows_claire == True and obj_name == "Pub_StripteaseGirl2":
-                call gallery_9667_2()
-                return
-            mt "Эти девушки совсем не уважают себя!"
-            "Как можно делать подобное у всех на виду?!"
-
-        if act=="w":
-            mt "Я не собираюсь подходить туда!"
-            "Мне не на что там смотреть!!!"
-
-    if obj_name == "Pub_Washbasin":
-        mt "Там готовят еду и моют посуду..."
-        mt "Какое жуткое место!"
-
+label gallery_9668:
+    music2 pub_noise1_low
+    music RocknRoll_loop
+    img 9668
+    with fadelong
+    mt "Эти девушки совсем не уважают себя!"
+    "Как можно делать подобное у всех на виду?!"
+    if ep29_quests_pub_monica_knows_molly == True and obj_name == "Pub_StripteaseGirl1":
+        call gallery_9667_1()
     return
+
+label gallery_9669:
+    music2 pub_noise1_low
+    music RocknRoll_loop
+    img 9669
+    with fadelong
+    mt "Эти девушки совсем не уважают себя!"
+    "Как можно делать подобное у всех на виду?!"
+    if ep29_quests_pub_monica_knows_molly == True and obj_name == "Pub_StripteaseGirl1":
+        call gallery_9667_1()
+    return
+
+label gallery_9670:
+    music2 pub_noise1_low
+    music RocknRoll_loop
+    img 9670
+    with fadelong
+    mt "Эти девушки совсем не уважают себя!"
+    "Как можно делать подобное у всех на виду?!"
+    if ep29_quests_pub_monica_knows_molly == True and obj_name == "Pub_StripteaseGirl1":
+        call gallery_9667_1()
+    return
+
+
+label gallery_9671:
+    music2 pub_noise1_low
+    music RocknRoll_loop
+    img 9671
+    with fadelong
+    mt "Эти девушки совсем не уважают себя!"
+    "Как можно делать подобное у всех на виду?!"
+    if ep29_quests_pub_monica_knows_molly == True and obj_name == "Pub_StripteaseGirl1":
+        call gallery_9667_1()
+    return
+
+
+label gallery_9664:
+    music2 pub_noise1_low
+    music RocknRoll_loop
+    img 9664
+    with fadelong
+    mt "Эти девушки совсем не уважают себя!"
+    "Как можно делать подобное у всех на виду?!"
+    if ep29_quests_pub_monica_knows_claire == True and obj_name == "Pub_StripteaseGirl2":
+        call gallery_9667_2()
+    return
+
+
+label gallery_9665:
+    music2 pub_noise1_low
+    music RocknRoll_loop
+    img 9665
+    with fadelong
+    mt "Эти девушки совсем не уважают себя!"
+    "Как можно делать подобное у всех на виду?!"
+    if ep29_quests_pub_monica_knows_claire == True and obj_name == "Pub_StripteaseGirl2":
+        call gallery_9667_2()
+    return
+
+label gallery_9666:
+    music2 pub_noise1_low
+    music RocknRoll_loop
+    img 9666
+    with fadelong
+    mt "Эти девушки совсем не уважают себя!"
+    "Как можно делать подобное у всех на виду?!"
+    if ep29_quests_pub_monica_knows_claire == True and obj_name == "Pub_StripteaseGirl2":
+        call gallery_9667_2()
+    return
+
+label gallery_9667:
+    music2 pub_noise1_low
+    music RocknRoll_loop
+    img 9667
+    with fadelong
+    mt "Эти девушки совсем не уважают себя!"
+    "Как можно делать подобное у всех на виду?!"
+    if ep29_quests_pub_monica_knows_claire == True and obj_name == "Pub_StripteaseGirl2":
+        call gallery_9667_2()
+    return
+
 
 label gallery_9667_1:
     mt "Молли. Считает себя королевой сцены Shiny Hole..."
@@ -2510,10 +2503,101 @@ label gallery_9667_2:
 
 
 label gallery_20482:
-    if monicaEatedLastDay == day:
-        mt "Я уже ела сегодня."
-        mt "Ни к чему тратить деньги..."
-        return
+    music2 stop
+    music Groove2_85
+    img 20462
+    with fadelong
+    ashley "Привет, [monica_pub_name]!"
+    img 20461
+    with diss
+    ashley "Ты пришла, чтобы мыть посуду?"
+    img 20463
+    with diss
+    m "Нет, я хочу заказать еду!"
+    img 20464
+    with fade
+    ashley "Правда?"
+    ashley "И что же ты хочешь заказать?"
+    img 20465
+    with diss
+    m "Я хочу заказать..."
+    $ menu_price = [pubShinyBurger, pubSphagettiPrice, pubSoupPrice]
+    $ menu_price2 = [pubShinyBurger, pubSphagettiPrice, pubSoupPrice]
+    $ choose_var = 0
+    menu:
+        "Спагетти.":
+            $ choose_var = 2
+            img 20466
+            with fade
+            m "Я хочу заказать..."
+            m "Спагетти."
+            $ images_list = [20474, 20479, 20482]
+        "Уйти.":
+            img 20470
+            with fade
+            m "Я передумала."
+            img 20471
+            with diss
+            ashley "Ах, [monica_pub_name], у тебя нет денег!"
+            ashley "Но ведь ты посудомойка. Ты всегда можешь помыть посуду!"
+            img 20472
+            with diss
+            mt "!!!"
+            # на улице
+            return
+    img 20467
+    with diss
+    joe "А выпивку?"
+    img 20468
+    m "Спасибо, не надо!"
+    img 20469
+    with fade
+    ashley "Хорошо, присаживайся за стол."
+    ashley "Я сейчас принесу."
+
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 2.0
+    sound snd_plates2
+    $ pubFoodHistory.append(choose_var)
+    music Groove2_85
+    img images_list[0]
+    with fadelong
+    ashley "Но ты могла бы не тратить деньги."
+    ashley "Эту еду легко заработать посудомойкой."
+
+    img 20476
+    with diss
+    mt "!!!"
+
+    if monicaPubWashingDishesCount > 5:
+        # если часто мыла
+        img images_list[1]
+        with fade
+        ashley "К тому же, я уже привыкла что ты моешь посуду."
+        ashley "Мне стало как-то лень заниматься этим."
+        img 20480
+        with diss
+        m "Спасибо, Эшли."
+        m "Сегодня я не хочу... мыть посуду..."
+        img 20481
+        with diss
+        ashley "Хорошо, [monica_pub_name], если надумаешь, приходи..."
+        #
+    img images_list[2]
+    with fade
+    mt "Эшли готовит отвратительно."
+    mt "Это место - действительно дыра."
+    music stop
+    sound snd_gulp
+    img black_screen
+    with diss
+    mt "Но это нормальная еда, а не пирожные с заправки..."
+    return
+
+label gallery_20483:
     music2 stop
     music Groove2_85
     img 20462
@@ -2537,22 +2621,102 @@ label gallery_20482:
     $ choose_var = 0
     menu:
         "Shiny Бургер.":
-            label gallery_20483:
             $ choose_var = 1
             img 20466
             with fade
             m "Я хочу заказать..."
             m "Shiny Бургер."
             $ images_list = [20473, 20478, 20483]
-        "Спагетти.":
-            $ choose_var = 2
-            img 20466
+        "Уйти.":
+            img 20470
             with fade
-            m "Я хочу заказать..."
-            m "Спагетти."
-            $ images_list = [20474, 20479, 20482]
+            m "Я передумала."
+            img 20471
+            with diss
+            ashley "Ах, [monica_pub_name], у тебя нет денег!"
+            ashley "Но ведь ты посудомойка. Ты всегда можешь помыть посуду!"
+            img 20472
+            with diss
+            mt "!!!"
+            # на улице
+            return
+    img 20467
+    with diss
+    joe "А выпивку?"
+    img 20468
+    m "Спасибо, не надо!"
+    img 20469
+    with fade
+    ashley "Хорошо, присаживайся за стол."
+    ashley "Я сейчас принесу."
+
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 2.0
+    sound snd_plates2
+    $ pubFoodHistory.append(choose_var)
+    music Groove2_85
+    img images_list[0]
+    with fadelong
+    ashley "Но ты могла бы не тратить деньги."
+    ashley "Эту еду легко заработать посудомойкой."
+
+    img 20476
+    with diss
+    mt "!!!"
+
+    if monicaPubWashingDishesCount > 5:
+        # если часто мыла
+        img images_list[1]
+        with fade
+        ashley "К тому же, я уже привыкла что ты моешь посуду."
+        ashley "Мне стало как-то лень заниматься этим."
+        img 20480
+        with diss
+        m "Спасибо, Эшли."
+        m "Сегодня я не хочу... мыть посуду..."
+        img 20481
+        with diss
+        ashley "Хорошо, [monica_pub_name], если надумаешь, приходи..."
+        #
+    img images_list[2]
+    with fade
+    mt "Эшли готовит отвратительно."
+    mt "Это место - действительно дыра."
+    music stop
+    sound snd_gulp
+    img black_screen
+    with diss
+    mt "Но это нормальная еда, а не пирожные с заправки..."
+    return
+
+label gallery_20484:
+    music2 stop
+    music Groove2_85
+    img 20462
+    with fadelong
+    ashley "Привет, [monica_pub_name]!"
+    img 20461
+    with diss
+    ashley "Ты пришла, чтобы мыть посуду?"
+    img 20463
+    with diss
+    m "Нет, я хочу заказать еду!"
+    img 20464
+    with fade
+    ashley "Правда?"
+    ashley "И что же ты хочешь заказать?"
+    img 20465
+    with diss
+    m "Я хочу заказать..."
+    $ menu_price = [pubShinyBurger, pubSphagettiPrice, pubSoupPrice]
+    $ menu_price2 = [pubShinyBurger, pubSphagettiPrice, pubSoupPrice]
+    $ choose_var = 0
+    menu:
         "Суп харчо.":
-            label gallery_20484:
+
             $ choose_var = 3
             img 20466
             with fade
@@ -2593,12 +2757,6 @@ label gallery_20482:
     music Groove2_85
     img images_list[0]
     with fadelong
-    #Shiny Бургер.
-#    img 20473
-    #Спагетти.
-#    img 20474
-    #Суп харчо.
-#    img 20475
     ashley "Но ты могла бы не тратить деньги."
     ashley "Эту еду легко заработать посудомойкой."
 
@@ -2609,12 +2767,6 @@ label gallery_20482:
     if monicaPubWashingDishesCount > 5:
         # если часто мыла
         img images_list[1]
-        #Shiny Бургер.
-#        img 20478
-        #Спагетти.
-#        img 20479
-        #Суп харчо.
-#        img 20477
         with fade
         ashley "К тому же, я уже привыкла что ты моешь посуду."
         ashley "Мне стало как-то лень заниматься этим."
@@ -2622,22 +2774,12 @@ label gallery_20482:
         with diss
         m "Спасибо, Эшли."
         m "Сегодня я не хочу... мыть посуду..."
-
         img 20481
         with diss
         ashley "Хорошо, [monica_pub_name], если надумаешь, приходи..."
         #
-
-
     img images_list[2]
     with fade
-    #Shiny Бургер.
-#    img 20483
-    #Спагетти.
-#    img 20482
-    #Суп харчо.
-#    img 20484
-    #
     mt "Эшли готовит отвратительно."
     mt "Это место - действительно дыра."
     music stop
@@ -2646,6 +2788,8 @@ label gallery_20482:
     with diss
     mt "Но это нормальная еда, а не пирожные с заправки..."
     return
+
+
 
 label gallery_20985:
 #    menu:
@@ -4108,12 +4252,10 @@ label gallery_14428:
     sound highheels_short_walk
     pause 1.0
     music RocknRoll_loop
-    if get_active_objects("Pub_StripteaseGirl1", scene="pub") != False:
-        img 14453
-        with fadelong
-    if get_active_objects("Pub_StripteaseGirl2", scene="pub") != False:
-        img 14425
-        with fadelong
+
+    img 14453
+    with fadelong
+
     m "Здравствуйте! Что будете заказывать?"
     img 14426
     with diss
@@ -4139,12 +4281,10 @@ label gallery_14428:
     img 14432
     with diss
     m "Да, именно за этим я здесь."
-    if get_active_objects("Pub_StripteaseGirl1", scene="pub") != False:
-        img 14454
-        with fadelong
-    if get_active_objects("Pub_StripteaseGirl2", scene="pub") != False:
-        img 14433
-        with fadelong
+
+    img 14454
+    with fadelong
+
     customer7 "Я так и думал... Просто для информации: гораздо больше можно заработать тут.." # показывает на шест
     img 14434
     with diss

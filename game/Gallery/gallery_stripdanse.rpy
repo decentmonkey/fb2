@@ -1,8 +1,12 @@
 label gallery_pub_dance1_stage_start1:
+    music Groove2_85
+    img 22900
+    with fadelong
     $ stageMusicControlEnabled = True
     music stop
     music2 stop
     call gallery_dialogue_5_dance_strip_scene_menu() # выбор музыки
+    $ stageMusicMode = 1   #######
     $ stage_Monica_Excitement_Current = 0
     $ stage_Monica_Excitement_Last = 0
     $ stage_achievements_list = []
@@ -66,19 +70,23 @@ label gallery_pub_dance1_stage_start1:
     music stop
     img black_screen
     with diss
-    pause 2.0
+    pause 1.0
     if cloth == "StripOutfit2":
         music stageCurrentMusicLoop
+
     else:
         music stageCurrentMusicIntro
-    call gallery_pub_dance_dialogues_start_dancing() # Комментарий при начале танца
+
+#    call gallery_pub_dance_dialogues_start_dancing() # Комментарий при начале танца
 
 
     $ shotsTotalAmount = 27
     $ stage_Monica_shoots_array_current = []
 
     if cloth == "StripOutfit2":
-        jump pub_dance1_stage_start1_topless
+        jump gallery_pub_dance1_stage_start1_topless
+    img 22900
+    with fadelong
     $ arrowUp = True
     $ arrowSide = True
     $ arrowDown = True
@@ -94,14 +102,14 @@ label gallery_pub_dance1_stage_start1:
     show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
     $ result = ui.interact()
     if result == "stop":
-        jump pub_dance1_stage_stop
+        jump gallery_pub_dance1_stage_stop
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
     hide screen poledance_shoot
     hide screen poledance_coins
     if result == "up":
-        label gallery_v_Monica_Strip_A1_end:
+
         scene black
         image videov_Monica_Strip_A1 = Movie(play="video/v_Monica_Strip_A1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_A1_end.jpg")
         show videov_Monica_Strip_A1
@@ -112,7 +120,7 @@ label gallery_pub_dance1_stage_start1:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_A1_end")
     if result == "side":
-        label gallery_v_Monica_Strip_A2_end:
+
         scene black
         image videov_Monica_Strip_A2 = Movie(play="video/v_Monica_Strip_A2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_A2_end.jpg")
         show videov_Monica_Strip_A2
@@ -123,7 +131,7 @@ label gallery_pub_dance1_stage_start1:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_A2_end")
     if result == "down":
-        label gallery_v_Monica_Strip_A3_end:
+
         scene black
         image videov_Monica_Strip_A3 = Movie(play="video/v_Monica_Strip_A3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_A3_end.jpg")
         show videov_Monica_Strip_A3
@@ -145,14 +153,14 @@ label gallery_pub_dance1_stage_start1:
     show screen poledance()
     $ result = ui.interact()
     if result == "stop":
-        jump pub_dance1_stage_stop
+        jump gallery_pub_dance1_stage_stop
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
     hide screen poledance_shoot
     hide screen poledance_coins
     if result == "up":
-        label gallery_v_Monica_Strip_B1_end:
+
         scene black
         image videov_Monica_Strip_B1 = Movie(play="video/v_Monica_Strip_B1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_B1_end.jpg")
         show videov_Monica_Strip_B1
@@ -163,7 +171,7 @@ label gallery_pub_dance1_stage_start1:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_B1_end")
     if result == "side":
-        label gallery_v_Monica_Strip_B2_end:
+
         scene black
         image videov_Monica_Strip_B2 = Movie(play="video/v_Monica_Strip_B2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_B2_end.jpg")
         show videov_Monica_Strip_B2
@@ -174,7 +182,7 @@ label gallery_pub_dance1_stage_start1:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_B2_end")
     if result == "down":
-        label gallery_v_Monica_Strip_B3_end:
+
         scene black
         image videov_Monica_Strip_B3 = Movie(play="video/v_Monica_Strip_B3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_B3_end.jpg")
         show videov_Monica_Strip_B3
@@ -196,14 +204,14 @@ label gallery_pub_dance1_stage_start1:
     show screen poledance()
     $ result = ui.interact()
     if result == "stop":
-        jump pub_dance1_stage_stop
+        jump gallery_pub_dance1_stage_stop
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
     hide screen poledance_shoot
     hide screen poledance_coins
     if result == "up":
-        label gallery_v_Monica_Strip_C1_end:
+
         scene black
         image videov_Monica_Strip_C1 = Movie(play="video/v_Monica_Strip_C1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_C1_end.jpg")
         show videov_Monica_Strip_C1
@@ -214,7 +222,7 @@ label gallery_pub_dance1_stage_start1:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_C1_end")
     if result == "side":
-        label gallery_v_Monica_Strip_C2_end:
+
         scene black
         image videov_Monica_Strip_C2 = Movie(play="video/v_Monica_Strip_C2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_C2_end.jpg")
         show videov_Monica_Strip_C2
@@ -225,7 +233,7 @@ label gallery_pub_dance1_stage_start1:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_C2_end")
     if result == "down":
-        label gallery_v_Monica_Strip_C3_end:
+
         scene black
         image videov_Monica_Strip_C3 = Movie(play="video/v_Monica_Strip_C3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_C3_end.jpg")
         show videov_Monica_Strip_C3
@@ -246,10 +254,10 @@ label gallery_pub_dance1_stage_start1:
                 hide screen poledance_shoot
                 hide screen poledance_coins
                 call gallery_dialogue_5_dance_strip_4g()
-                jump pub_dance1_stage_end
+                jump gallery_pub_dance1_stage_end
             call gallery_dialogue_5_dance_strip_4h()
         "Завершить танец.":
-            jump pub_dance1_stage_stop
+            jump gallery_pub_dance1_stage_stop
 
     hide screen poledance
     hide screen poledance_camera_icon
@@ -263,7 +271,7 @@ label gallery_pub_dance1_stage_start1:
     pause 1.0
     show screen photoshot_screen()
     if pubDanceCount%3 == 0:
-        label gallery_v_Monica_Strip_Undress1A_end:
+
         scene black
         image videov_Monica_Strip_Undress1A = Movie(play="video/v_Monica_Strip_Undress1A.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Undress1A_end.jpg")
         show videov_Monica_Strip_Undress1A
@@ -276,7 +284,7 @@ label gallery_pub_dance1_stage_start1:
         wclean
         $ stage_achievements_list.append("v_Monica_Strip_Undress1A")
     if pubDanceCount%3 == 1:
-        label gallery_v_Monica_Strip_Undress1B_end:
+
         scene black
         image videov_Monica_Strip_Undress1B = Movie(play="video/v_Monica_Strip_Undress1B.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Undress1B_end.jpg")
         show videov_Monica_Strip_Undress1B
@@ -289,7 +297,7 @@ label gallery_pub_dance1_stage_start1:
         wclean
         $ stage_achievements_list.append("v_Monica_Strip_Undress1B")
     if pubDanceCount%3 == 2:
-        label gallery_v_Monica_Strip_Undress1C_end:
+
         scene black
         image videov_Monica_Strip_Undress1C = Movie(play="video/v_Monica_Strip_Undress1C.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Undress1C_end.jpg")
         show videov_Monica_Strip_Undress1C
@@ -302,6 +310,8 @@ label gallery_pub_dance1_stage_start1:
         wclean
         $ stage_achievements_list.append("v_Monica_Strip_Undress1C")
 label gallery_pub_dance1_stage_start1_topless:
+    img 22903
+    with fadelong
     $ monicaDancingTopless = True
     if monicaDancingStage < 1:
         $ monicaDancingStage = 1
@@ -318,7 +328,7 @@ label gallery_pub_dance1_stage_start1_topless:
     music2 stop
     $ result = ui.interact()
     if result == "stop":
-        jump pub_dance1_stage_stop
+        jump gallery_pub_dance1_stage_stop
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
@@ -330,7 +340,7 @@ label gallery_pub_dance1_stage_start1_topless:
     pause 1.0
     music stageCurrentMusicLoop
     if result == "up":
-        label gallery_v_Monica_Strip_D1_end:
+
         scene black
         image videov_Monica_Strip_D1 = Movie(play="video/v_Monica_Strip_D1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_D1_end.jpg")
         show videov_Monica_Strip_D1
@@ -341,7 +351,7 @@ label gallery_pub_dance1_stage_start1_topless:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_D1_end")
     if result == "side":
-        label gallery_v_Monica_Strip_D2_end:
+
         scene black
         image videov_Monica_Strip_D2 = Movie(play="video/v_Monica_Strip_D2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_D2_end.jpg")
         show videov_Monica_Strip_D2
@@ -352,7 +362,7 @@ label gallery_pub_dance1_stage_start1_topless:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_D2_end")
     if result == "down":
-        label gallery_v_Monica_Strip_D3_end:
+
         scene black
         image videov_Monica_Strip_D3 = Movie(play="video/v_Monica_Strip_D3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_D3_end.jpg")
         show videov_Monica_Strip_D3
@@ -374,14 +384,14 @@ label gallery_pub_dance1_stage_start1_topless:
     show screen poledance()
     $ result = ui.interact()
     if result == "stop":
-        jump pub_dance1_stage_stop
+        jump gallery_pub_dance1_stage_stop
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
     hide screen poledance_shoot
     hide screen poledance_coins
     if result == "up":
-        label gallery_v_Monica_Strip_E1_end:
+
         scene black
         image videov_Monica_Strip_E1 = Movie(play="video/v_Monica_Strip_E1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_E1_end.jpg")
         show videov_Monica_Strip_E1
@@ -392,7 +402,7 @@ label gallery_pub_dance1_stage_start1_topless:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_E1_end")
     if result == "side":
-        label gallery_v_Monica_Strip_E2_end:
+
         scene black
         image videov_Monica_Strip_E2 = Movie(play="video/v_Monica_Strip_E2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_E2_end.jpg")
         show videov_Monica_Strip_E2
@@ -403,7 +413,7 @@ label gallery_pub_dance1_stage_start1_topless:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_E2_end")
     if result == "down":
-        label gallery_v_Monica_Strip_E3_end:
+
         scene black
         image videov_Monica_Strip_E3 = Movie(play="video/v_Monica_Strip_E3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_E3_end.jpg")
         show videov_Monica_Strip_E3
@@ -425,14 +435,14 @@ label gallery_pub_dance1_stage_start1_topless:
     show screen poledance()
     $ result = ui.interact()
     if result == "stop":
-        jump pub_dance1_stage_stop
+        jump gallery_pub_dance1_stage_stop
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
     hide screen poledance_shoot
     hide screen poledance_coins
     if result == "up":
-        label gallery_v_Monica_Strip_F1_end:
+
         scene black
         image videov_Monica_Strip_F1 = Movie(play="video/v_Monica_Strip_F1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_F1_end.jpg")
         show videov_Monica_Strip_F1
@@ -443,7 +453,7 @@ label gallery_pub_dance1_stage_start1_topless:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_F1_end")
     if result == "side":
-        label gallery_v_Monica_Strip_F2_end:
+
         scene black
         image videov_Monica_Strip_F2 = Movie(play="video/v_Monica_Strip_F2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_F2_end.jpg")
         show videov_Monica_Strip_F2
@@ -454,7 +464,7 @@ label gallery_pub_dance1_stage_start1_topless:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_F2_end")
     if result == "down":
-        label gallery_v_Monica_Strip_F3_end:
+
         scene black
         image videov_Monica_Strip_F3 = Movie(play="video/v_Monica_Strip_F3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_F3_end.jpg")
         show videov_Monica_Strip_F3
@@ -476,10 +486,10 @@ label gallery_pub_dance1_stage_start1_topless:
     show screen poledance()
     $ result = ui.interact()
     if result == "stop":
-        jump pub_dance1_stage_stop
+        jump gallery_pub_dance1_stage_stop
     if len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
         call gallery_dialogue_5_dance_strip_4k()
-        jump pub_dance1_stage_end
+        jump gallery_pub_dance1_stage_end
     if monicaDancingStage < 2:
         $ monicaDancingStage = 2
 
@@ -489,7 +499,7 @@ label gallery_pub_dance1_stage_start1_topless:
     hide screen poledance_shoot
     hide screen poledance_coins
     if result == "up":
-        label gallery_v_Monica_Strip_G1_end:
+
         scene black
         image videov_Monica_Strip_G1 = Movie(play="video/v_Monica_Strip_G1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_G1_end.jpg")
         show videov_Monica_Strip_G1
@@ -500,7 +510,7 @@ label gallery_pub_dance1_stage_start1_topless:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_G1_end")
     if result == "side":
-        label gallery_v_Monica_Strip_G2_end:
+
         scene black
         image videov_Monica_Strip_G2 = Movie(play="video/v_Monica_Strip_G2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_G2_end.jpg")
         show videov_Monica_Strip_G2
@@ -511,7 +521,7 @@ label gallery_pub_dance1_stage_start1_topless:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_G2_end")
     if result == "down":
-        label gallery_v_Monica_Strip_G3_end:
+
         scene black
         image videov_Monica_Strip_G3 = Movie(play="video/v_Monica_Strip_G3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_G3_end.jpg")
         show videov_Monica_Strip_G3
@@ -533,14 +543,14 @@ label gallery_pub_dance1_stage_start1_topless:
     show screen poledance()
     $ result = ui.interact()
     if result == "stop":
-        jump pub_dance1_stage_stop
+        jump gallery_pub_dance1_stage_stop
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
     hide screen poledance_shoot
     hide screen poledance_coins
     if result == "up":
-        label gallery_v_Monica_Strip_H1_end:
+
         scene black
         image videov_Monica_Strip_H1 = Movie(play="video/v_Monica_Strip_H1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_H1_end.jpg")
         show videov_Monica_Strip_H1
@@ -551,7 +561,7 @@ label gallery_pub_dance1_stage_start1_topless:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_H1_end")
     if result == "side":
-        label gallery_v_Monica_Strip_H2_end:
+
         scene black
         image videov_Monica_Strip_H2 = Movie(play="video/v_Monica_Strip_H2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_H2_end.jpg")
         show videov_Monica_Strip_H2
@@ -562,7 +572,7 @@ label gallery_pub_dance1_stage_start1_topless:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_H2_end")
     if result == "down":
-        label gallery_v_Monica_Strip_H3_end:
+
         scene black
         image videov_Monica_Strip_H3 = Movie(play="video/v_Monica_Strip_H3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_H3_end.jpg")
         show videov_Monica_Strip_H3
@@ -584,14 +594,14 @@ label gallery_pub_dance1_stage_start1_topless:
     show screen poledance()
     $ result = ui.interact()
     if result == "stop":
-        jump pub_dance1_stage_stop
+        jump gallery_pub_dance1_stage_stop
     hide screen poledance
     hide screen poledance_camera_icon
     hide screen love_bar_screen
     hide screen poledance_shoot
     hide screen poledance_coins
     if result == "up":
-        label gallery_v_Monica_Strip_I1_end:
+
         scene black
         image videov_Monica_Strip_I1 = Movie(play="video/v_Monica_Strip_I1.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_I1_end.jpg")
         show videov_Monica_Strip_I1
@@ -602,7 +612,7 @@ label gallery_pub_dance1_stage_start1_topless:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_I1_end")
     if result == "side":
-        label gallery_v_Monica_Strip_I2_end:
+
         scene black
         image videov_Monica_Strip_I2 = Movie(play="video/v_Monica_Strip_I2.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_I2_end.jpg")
         show videov_Monica_Strip_I2
@@ -613,7 +623,7 @@ label gallery_pub_dance1_stage_start1_topless:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_I2_end")
     if result == "down":
-        label gallery_v_Monica_Strip_I3_end:
+
         scene black
         image videov_Monica_Strip_I3 = Movie(play="video/v_Monica_Strip_I3.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_I3_end.jpg")
         show videov_Monica_Strip_I3
@@ -624,12 +634,12 @@ label gallery_pub_dance1_stage_start1_topless:
         call gallery_pub_dance_dialogues_react(pose, result)
         $ stage_achievements_list.append("v_Monica_Strip_I3_end")
 
-    jump pub_dance1_stage_end
+    jump gallery_pub_dance1_stage_end
 
 label gallery_pub_dance1_stage_stop:
     # Прерывание танца
     call gallery_dialogue_5_dance_strip_4m()
-    jump pub_dance1_stage_end
+    jump gallery_pub_dance1_stage_end
 
 label gallery_pub_dance1_stage_end:
     music stop
@@ -754,6 +764,13 @@ label gallery_dialogue_5_dance_strip_4e:
 label gallery_dialogue_5_dance_strip_4f:
     # После того как поругалась с Молли (после d, e)
     mt "И не забывать про Молли... Надо поставить ее на место... В подворотню со шлюхами!"
+    return
+
+label gallery_dialogue_5_dance_strip_4h:
+    # Переход на стадию 1 успешен
+
+    mt "Если я сниму жилет, то заработаю больше денег..."
+    mt "Они же просто будут смотреть... на голую грудь [monica_pub_name]."
     return
 
 label gallery_pub_dance_dialogues_react(pose, zone): # Реакция зала

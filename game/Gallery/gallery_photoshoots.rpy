@@ -2575,30 +2575,18 @@ label gallery_ep26_photoshoot_suit7_pose11_pre:
     mt "..."
     mt "Итак, что же мне делать?"
 
-    if char_info["AlexPhotograph"]["level"] < 2:
-        menu:
-            "Опустить руки. (недостаточные отношения с Алексом, required lvl. 2) (disabled)": #corruption
-                pass
-            "Прекратить фотосессию":
-                music Groove2_85
-                img 20147
-                with fadelong
-                m "Нет, Алекс!"
-                m "Я не поддамся на твои уловки!"
-                m "С меня хватит!"
-                return
-    else:
-        menu:
-            "Опустить руки.": #corruption
-                pass
-            "Прекратить фотосессию":
-                music Groove2_85
-                img 20147
-                with fadelong
-                m "Нет, Алекс!"
-                m "Я не поддамся на твои уловки!"
-                m "С меня хватит!"
-                return
+
+    menu:
+        "Опустить руки.": #corruption
+            pass
+        "Прекратить фотосессию":
+            music Groove2_85
+            img 20147
+            with fadelong
+            m "Нет, Алекс!"
+            m "Я не поддамся на твои уловки!"
+            m "С меня хватит!"
+            return
 
     music stop
     img black_screen
@@ -2627,7 +2615,7 @@ label gallery_ep26_photoshoot_suit7_pose11_pre:
 
 label gallery_ep26_photoshoot_suit7_pose11:
     $ photoPoseLabel = "gallery_ep26_photoshoot_suit7_pose11"
-#    $ photoPoseNextLabel = "gallery_ep26_photoshoot_suit7_pose11"
+    $ photoPoseNextLabel = "gallery_ep26_photoshoot_suit7_pose11"
 
     # кадр
     img 20151

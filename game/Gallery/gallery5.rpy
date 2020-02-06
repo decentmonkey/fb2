@@ -1403,14 +1403,8 @@ label gallery_22841:
     mt "Эта озабоченная Эшли со своим таким же озабоченным мужем уже достали меня!"
     mt "Кто бы предупредил меня заранее, что с ними не стоит связываться?!"
     # Моника переодевается
-    call gallery_22841_1()
-    if _return == 0:
-        $ cloth = "StripOutfit1"
-        $ cloth_type = "StripOutfit"
-    if _return == 1:
-        $ topless = True
-        $ cloth = "StripOutfit2"
-        $ cloth_type = "StripOutfit"
+
+
 #    menu:
 #        "Надеть костюм с жилетом.":
 #            pass
@@ -1424,262 +1418,134 @@ label gallery_22841:
     sound snd_fabric1
     pause 1.5
     music Groove2_85
-    # корсет
-    if topless == False:
-        img 22753
-        with fade
+
     # без корсета
-    else:
-        img 22833
-        with fade
+
+    img 22833
+    with fade
     clare "Ты забыла намазаться маслом для тела..."
     clare "[monica_pub_name], давай я тебе помогу?"
     menu:
         "Взять у Клэр масло и намазаться самой.":
             pass
-        "Позволить Клэр намазать меня маслом." if game.extra == True or cloth == "StripOutfit1":
+        "Позволить Клэр намазать меня маслом.":
             # Клэр намазывает ее маслом
-            if topless == True:
-                img 22754
-                with fade
-                sound hlup2
-                w
-                music stop
-                music2 Loved_Up
-                img 22834
-                with diss
-                sound skin_lotion11
-                w
-                img black_screen
-                with diss
-                music stop
-                stop music
-                play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-                scene black
-                image videov_Monica_Claire_Oiling1_1 = Movie(play="video/v_Monica_Claire_Oiling1_1.mkv", fps=30)
-                show videov_Monica_Claire_Oiling1_1
-                with fadelong
-                wclean
+
+            img 22754
+            with fade
+            sound hlup2
+            w
+            music stop
+            music2 Loved_Up
+            img 22834
+            with diss
+            sound skin_lotion11
+            w
+            img black_screen
+            with diss
+            music stop
+            stop music
+            play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+            scene black
+            image videov_Monica_Claire_Oiling1_1 = Movie(play="video/v_Monica_Claire_Oiling1_1.mkv", fps=30)
+            show videov_Monica_Claire_Oiling1_1
+            with fadelong
+            wclean
 
 #                music Loved_Up
-                img 22835
-                with diss
-                clare "Какая же у тебя отличная фигура, [monica_pub_name]."
+            img 22835
+            with diss
+            clare "Какая же у тебя отличная фигура, [monica_pub_name]."
 
-                img 22836
-                with fade
-                sound skin_lotion11
-                mt "Она что, снова ко мне пытается пристать, как Эшли?!"
+            img 22836
+            with fade
+            sound skin_lotion11
+            mt "Она что, снова ко мне пытается пристать, как Эшли?!"
 
-                music stop
-                stop music
-                play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-                scene black
-                image videov_Monica_Claire_Oiling1_2 = Movie(play="video/v_Monica_Claire_Oiling1_2.mkv", fps=30)
-                show videov_Monica_Claire_Oiling1_2
-                with fadelong
-                wclean
+            music stop
+            stop music
+            play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+            scene black
+            image videov_Monica_Claire_Oiling1_2 = Movie(play="video/v_Monica_Claire_Oiling1_2.mkv", fps=30)
+            show videov_Monica_Claire_Oiling1_2
+            with fadelong
+            wclean
 #                music Loved_Up
-                img 22837
-                with diss
-                sound skin_lotion11
-                w
-                img 22838
-                with diss
-                sound skin_lotion11
-                clare "Мужчины в зале с ума сойдут, когда тебя увидят."
-                img 22839
-                with fade
-                mt "Я к этому привыкла."
-                mt "Мужчины всегда по мне с ума сходили..."
-                img 22840
-                with diss
-                w
+            img 22837
+            with diss
+            sound skin_lotion11
+            w
+            img 22838
+            with diss
+            sound skin_lotion11
+            clare "Мужчины в зале с ума сойдут, когда тебя увидят."
+            img 22839
+            with fade
+            mt "Я к этому привыкла."
+            mt "Мужчины всегда по мне с ума сходили..."
+            img 22840
+            with diss
+            w
 
-                music stop
-                stop music
-                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling2_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-                scene black
-                image videov_Monica_Claire_Oiling2_1 = Movie(play="video/v_Monica_Claire_Oiling2_1.mkv", fps=30)
-                show videov_Monica_Claire_Oiling2_1
-                with fadelong
-                wclean
+            music stop
+            stop music
+            play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling2_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+            scene black
+            image videov_Monica_Claire_Oiling2_1 = Movie(play="video/v_Monica_Claire_Oiling2_1.mkv", fps=30)
+            show videov_Monica_Claire_Oiling2_1
+            with fadelong
+            wclean
 
-                img 22841
-                with diss
-                sound skin_lotion11
-                w
-                img 22842
-                with diss
-                sound skin_lotion11
-                clare "Ты сегодня будешь звездой, [monica_pub_name]."
+            img 22841
+            with diss
+            sound skin_lotion11
+            w
+            img 22842
+            with diss
+            sound skin_lotion11
+            clare "Ты сегодня будешь звездой, [monica_pub_name]."
 
-                img 22843
-                with fade
-                sound skin_lotion11
-                mt "Конечно, буду! Мне нет здесь равных!"
-                mt "И не только здесь! Мне нигде нет равных!"
+            img 22843
+            with fade
+            sound skin_lotion11
+            mt "Конечно, буду! Мне нет здесь равных!"
+            mt "И не только здесь! Мне нигде нет равных!"
 
-                music stop
-                stop music
-                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-                scene black
-                image videov_Monica_Claire_Oiling3_1 = Movie(play="video/v_Monica_Claire_Oiling3_1.mkv", fps=30)
-                show videov_Monica_Claire_Oiling3_1
-                with fadelong
-                wclean
+            music stop
+            stop music
+            play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+            scene black
+            image videov_Monica_Claire_Oiling3_1 = Movie(play="video/v_Monica_Claire_Oiling3_1.mkv", fps=30)
+            show videov_Monica_Claire_Oiling3_1
+            with fadelong
+            wclean
 #                music Loved_Up
-                img 22844
-                with diss
-                sound skin_lotion11
-                clare "Таким шикарным ногам и такой попе, как у тебя, позавидует любая модель."
-                img 22845
-                with diss
-                sound skin_lotion11
-                clare "Ты просто создана для обложки какого-нибудь модного журнала."
-                music stop
-                stop music
-                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-                scene black
-                image videov_Monica_Claire_Oiling3_2 = Movie(play="video/v_Monica_Claire_Oiling3_2.mkv", fps=30)
-                show videov_Monica_Claire_Oiling3_2
-                with fadelong
-                wclean
-                music2 stop
-                music Groove2_85
-                img 22846
-                with fade
-                mt "Хм... Хорошо, что она их не читает."
-                mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
-                ###################################
+            img 22844
+            with diss
+            sound skin_lotion11
+            clare "Таким шикарным ногам и такой попе, как у тебя, позавидует любая модель."
+            img 22845
+            with diss
+            sound skin_lotion11
+            clare "Ты просто создана для обложки какого-нибудь модного журнала."
+            music stop
+            stop music
+            play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+            scene black
+            image videov_Monica_Claire_Oiling3_2 = Movie(play="video/v_Monica_Claire_Oiling3_2.mkv", fps=30)
+            show videov_Monica_Claire_Oiling3_2
+            with fadelong
+            wclean
+            music2 stop
+            music Groove2_85
+            img 22846
+            with fade
+            mt "Хм... Хорошо, что она их не читает."
+            mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
 
-
-
-
-
-                ###################################
-
-            else:
-                img 22754
-                with fade
-                sound hlup2
-                w
-                music Loved_Up
-                img 22755
-                with diss
-                sound skin_lotion11
-                w
-                img 22756
-                with diss
-                w
-                img 22757
-                with fade
-                w
-                img 22758
-                with diss
-                sound skin_lotion11
-                clare "Какая же у тебя отличная фигура, [monica_pub_name]."
-                img 22759
-                with fade
-                sound skin_lotion11
-                mt "Она что, снова ко мне пытается пристать, как Эшли?!"
-                img 22760
-                with diss
-                sound skin_lotion11
-                clare "Мужчины в зале с ума сойдут, когда тебя увидят."
-                img 22761
-                with diss
-                mt "Я к этому привыкла."
-                mt "Мужчины всегда сходили по мне с ума..."
-                img 22762
-                with fade
-                sound skin_lotion11
-                w
-                img 22763
-                with diss
-                w
-                img 22764
-                with fade
-                sound skin_lotion11
-                clare "Ты сегодня будешь звездой, [monica_pub_name]."
-                img 22765
-                with diss
-                sound skin_lotion11
-                mt "Конечно, буду! Мне нет здесь равных!"
-                mt "И не только здесь! Мне нет равных нигде!"
-                img 22766
-                with fade
-                sound skin_lotion11
-                w
-
-                img black_screen
-                with diss
-                music stop
-                stop music
-                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-                scene black
-                image videov_Monica_Claire_Oiling3_1 = Movie(play="video/v_Monica_Claire_Oiling3_1.mkv", fps=30)
-                show videov_Monica_Claire_Oiling3_1
-                with fadelong
-                wclean
-
-                music Loved_Up
-                img 22767
-                with diss
-                sound skin_lotion11
-                w
-                img 22768
-                with diss
-                sound skin_lotion11
-                clare "Таким шикарным ногам и такой попе, как у тебя, позавидует любая модель."
-
-                music stop
-                stop music
-                play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-                scene black
-                image videov_Monica_Claire_Oiling3_2 = Movie(play="video/v_Monica_Claire_Oiling3_2.mkv", fps=30)
-                show videov_Monica_Claire_Oiling3_2
-                with fadelong
-                wclean
-                music Loved_Up
-                img 22769
-                with fade
-                sound skin_lotion11
-                w
-                img 22770
-                with diss
-                sound skin_lotion11
-                clare "Ты просто создана для обложки какого-нибудь модного журнала."
-                img 22771
-                with fade
-                mt "Хм... Хорошо, что она их не читает."
-                mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
-                ###################################
-
-
-
-                ###################################
-
-#            return 1
-    # Клэр, осматривая Монику
-    # Переход на движок
     return
 
-label gallery_22841_1:
-    menu:
-        "Костюм для сцены (с жилетом)":
-            return
-        "Костюм для сцены (без жилета)":
-            if pubDanceCount < 4 or len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
-                m "Я не выйду на сцену с голой грудью!!!"
-                help "У Моники мало опыта работы танцовщицей."
-                if len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
-                    help "Окрыты не все движения. Требуется [monicaPosesOpenedToStage2]."
-                if pubDanceCount < monicaDanceAmountToTopless:
-                    help "Требуется выйти на сцену [monicaDanceAmountToTopless] раз."
-                return
-            return
-    return
+
 
 label gallery_22777:
     # Джо стоит перед выходом на сцену
@@ -2206,16 +2072,15 @@ label gallery_6127:
     return
 
 label gallery_7110:
+    music Groove2_85
+    img scene_Hostel_Street
     imgl Dial_Monica_Sandwich_0
 #    menu:
 #        "Можно к Вам обратиться?":
     m "Мистер... Можно к Вам обратиться?"
     #img Моника спрашивает
     imgr Dial_Citizen_9_1
-    if citizen9_offered_last_day == day and monicaGotJoint != True:
-        imgr Dial_Citizen_9_4
-        citizen9 "Хэй! Мы уже разговаривали."
-        return
+
     citizen9 "А? Да?"
     "Что?"
     menu:
@@ -2290,17 +2155,15 @@ label gallery_7110:
     return
 
 label gallery_7118:
+    music Groove2_85
+    img scene_Hostel_Street3
     imgl Dial_Monica_Sandwich_0
 #    menu:
 #        "Можно к Вам обратиться?":
     m "Мистер... Можно к Вам обратиться?"
     #img Моника спрашивает
     imgr Dial_Citizen_7_1
-    if citizen7_offered_last_day == day:
-        imgr Dial_Citizen_7_4
-        citizen7 "Я пытаюсь сосредоточиться на искусстве!"
-        "Не отвлекайте меня!"
-        return
+
     citizen7 "Да? Что Вы хотели?"
     menu:
         "Возьмите, пожалуйста, этот флаер...":
@@ -2350,121 +2213,101 @@ label gallery_7118:
     return
 
 label gallery_8493:
+    music Groove2_85
+    img scene_Hostel_Street3
     imgl Dial_Monica_Sandwich_0
 #    menu:
 #        "Мистер... Можно к Вам обратиться?":
     m "Мистер... Можно к Вам обратиться?"
     #img Моника спрашивает
     imgr Dial_Citizen_12_1
-    if citizen12_offered_last_day == day:
-        imgr Dial_Citizen_12_4
-        citizen12 "Я тороплюсь! Мне некогда!"
-        return
+
     citizen12 "Да, Крошка? Что ты хочешь от меня?"
     menu:
         "Возьмите, пожалуйста, этот флаер...":
             imgl Dial_Monica_Sandwich_1
             m "Возьмите, пожалуйста, этот флаер..."
-            if questOffendMonicaFlyersCitizen12Started == True:
-                citizen12 "Конечно, крошка, а ты не хочешь ничего у меня взять?"
-                m "Вы это о чем?"
-                imgr Dial_Citizen_12_4
-                citizen12 "Сейчас, я покажу..."
-                music Power_Bots_Loop
-                sound snd_bodyfall
-                img 8484
-                with fadelong
-                #звук падения тела
-                w
-                sound snd_woman_pain
-                img 8485
-                with hpunch
-                m "Аххх!!!"
-                # img хватает монику за плечи и сажает на колени
-                img 8486
-                with fade
-                m "Что ты себе позволяешь?! Что ты делаешь?"
 
-                sound snd_zip
-                img 8487
-                with fade
-                #звук ширинки
-                citizen12 "Расслабься, уверен, тебе это не впервой."
-                # img ситизен расстегивает ширинку
-                img 8488
-                mt "Черт, из за дурацкой рекламы мне сложно двигаться..."
-                img 8489
-                m "Помогите! Кто-нибудь! Полиция!"
-                img 8490
-                with fade
-                mt "Черт! Какая еще полиция?! Мне нельзя полицию!"
-                img 8491
-                with fade
-                citizen12 "Крошка, сейчас сделаешь мне минет и получишь свои 5 долларов."
-                img 8492
-                w
-                img 8493
-                with fade
-                m "Что ты сказал?! ПОМОГИТЕ, КТО НИБУДЬ!"
-                # img появлятеся citizen6
-                music Groove2_85
-                img 8494
-                with fadelong
-                citizen6 "Что здесь происходит?"
-                img 8495
-                citizen12 "Эй, мужик, иди своей дорогой, или присоединяйся!"
-                img 8496
-                m "Пожалуйста, помогите мне! Я не шлюха!"
-                img 8497
-                citizen6 "А что мне за это будет?"
-                img 8498
-                m "Все, что захочешь, только помоги мне!"
-                # citizen6 бьет citizen12 и тд тп
-                img 8499
-                with fadelong
-                #звук удара
-                sound snd_punch_face
-                w
-                #звук падения тела
-                sound snd_bodyfall
-                img 8500
-                w
-                img 8501
-                w
-                img 8502
-                with fade
-                w
-                img 8503
-                w
-                img 8504
-                w
-                img 8505
-                with fade
-                m "Спасибо, спасибо большое!"
-                citizen6 "Ага, подойдешь ко мне, обсудим мою награду."
-                m "Что?"
-                citizen6 "Ну ты же сама обещала, что у меня будет все, что я захочу..."
-                return
-            if rand(0, citizen12_refuse_probability) > 0:
-                imgr Dial_Citizen_12_2
-                citizen12 "Ээээ... взять что?"
-                m "Возьмите, пожалуйста, этот флаер..."
-                citizen12 "Ок..."
-                imgr Dial_Citizen_12_3
-                citizen12 "И все? А как же развлечься?"
-                menu:
-                    "Я никого не собираюсь развлекать!":
-                        imgl Dial_Monica_Sandwich_2
-                        #img Моника злится
-                        m "Я никого не собираюсь развлекать!"
-                    "Чем тебя развлечь?":
-                        m "Ты это о чем?"
-                        citizen12 "Да все просто, отойдем в сторонку, покажешь сиськи, может что еще."
-                        m "Не сегодня, засранец!"
-                        citizen12 "Да ладно тебе! Подумай об этом. Это быстрый способ заработать."
-            else:
-                imgr Dial_Citizen_12_4
-                citizen12 "Мне неинтересны никакие флаеры!"
+            citizen12 "Конечно, крошка, а ты не хочешь ничего у меня взять?"
+            m "Вы это о чем?"
+            imgr Dial_Citizen_12_4
+            citizen12 "Сейчас, я покажу..."
+            music Power_Bots_Loop
+            sound snd_bodyfall
+            img 8484
+            with fadelong
+            #звук падения тела
+            w
+            sound snd_woman_pain
+            img 8485
+            with hpunch
+            m "Аххх!!!"
+            # img хватает монику за плечи и сажает на колени
+            img 8486
+            with fade
+            m "Что ты себе позволяешь?! Что ты делаешь?"
+
+            sound snd_zip
+            img 8487
+            with fade
+            #звук ширинки
+            citizen12 "Расслабься, уверен, тебе это не впервой."
+            # img ситизен расстегивает ширинку
+            img 8488
+            mt "Черт, из за дурацкой рекламы мне сложно двигаться..."
+            img 8489
+            m "Помогите! Кто-нибудь! Полиция!"
+            img 8490
+            with fade
+            mt "Черт! Какая еще полиция?! Мне нельзя полицию!"
+            img 8491
+            with fade
+            citizen12 "Крошка, сейчас сделаешь мне минет и получишь свои 5 долларов."
+            img 8492
+            w
+            img 8493
+            with fade
+            m "Что ты сказал?! ПОМОГИТЕ, КТО НИБУДЬ!"
+            # img появлятеся citizen6
+            music Groove2_85
+            img 8494
+            with fadelong
+            citizen6 "Что здесь происходит?"
+            img 8495
+            citizen12 "Эй, мужик, иди своей дорогой, или присоединяйся!"
+            img 8496
+            m "Пожалуйста, помогите мне! Я не шлюха!"
+            img 8497
+            citizen6 "А что мне за это будет?"
+            img 8498
+            m "Все, что захочешь, только помоги мне!"
+            # citizen6 бьет citizen12 и тд тп
+            img 8499
+            with fadelong
+            #звук удара
+            sound snd_punch_face
+            w
+            #звук падения тела
+            sound snd_bodyfall
+            img 8500
+            w
+            img 8501
+            w
+            img 8502
+            with fade
+            w
+            img 8503
+            w
+            img 8504
+            w
+            img 8505
+            with fade
+            m "Спасибо, спасибо большое!"
+            citizen6 "Ага, подойдешь ко мне, обсудим мою награду."
+            m "Что?"
+            citizen6 "Ну ты же сама обещала, что у меня будет все, что я захочу..."
+
+
 #        "Уйти.":
 #            pass
     return
@@ -2657,6 +2500,7 @@ label gallery_10597:
     return
 
 label gallery_11759:
+    music Groove2_85
     img 11745
     with fade
     citizen1 "Тетя, у нас с братом возникла шикарная идея!"

@@ -4630,6 +4630,7 @@ label gallery_13920:
 
 label gallery_6700:
     #нажатие на Монику
+    music Groove2_85
     img 6696
     with fade
     m "..."
@@ -4693,8 +4694,6 @@ label gallery_6700:
             call textonblack(_("Продолжение следует..."))
             img black_screen
             with Dissolve(1)
-            $ renpy.full_restart(transition=Fade(1.0, 1.0, 1.0))
-            # конец игры
             return
 
         "Подыграть Бифу. Если я хочу все вернуть назад, то надо быть хитрее...":

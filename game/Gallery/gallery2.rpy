@@ -2592,24 +2592,10 @@ label gallery_8649:
 ############ GasStation 1############
 
 label gallery_7074:
-    menu:
-        "Купить продукты.":
-            if money <= 0:
-                mt "У меня нет денег на это..."
-                return
-            call gallery_7074_1()
-            return
-        "Украсть еду.":
-            pass
-        "Не делать этого.":
-            mt "Я не стану рисковать..."
-            return
+
 
     #Моника ворует еду
-    if monicaEatedLastDay == day:
-        mt "Я не так уж голодна."
-        "Не стоит лишний раз рисковать..."
-        return
+
     $ store_music()
     music Hidden_Agenda
     #render
@@ -2632,23 +2618,6 @@ label gallery_7074:
     $ restore_music()
     return
 
-label gallery_7074_1:
-    if gasStationFoodInited == False:
-        $ add_location("gas_station_buy_food", caption=_("Gas Station"), label="gas_station_buy_food", init_label="gas_station_buy_food_init", parent="street_gas_station")
-        $ gasStationFoodInited = True
-    # Моника заходит
-    $ gasStationFoodBought = False
-    if cloth == "CasualDress1":
-        music Groove2_85
-        img 11743
-        with fade
-        m "Я хочу купить продукты!"
-        m "И только попробуй сказать мне что у тебя не работает касса, детка!"
-        img 11744
-        saleswoman "Мэм, касса работает."
-        saleswoman "Пожалуйста, скажите, если я смогу чем-то помочь Вам!"
-        music Hidden_Agenda
-        return
 
 ############ HotelLeGrand 1############
 

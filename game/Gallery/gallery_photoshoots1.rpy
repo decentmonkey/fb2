@@ -1116,6 +1116,7 @@ label gallery_ep22_photoshoot5:
 
     label gallery_ep22_photoshoot5_pose9_pre:
         #вступление
+        music Groove2_85
         hide screen photoshoot_no_next
         img 8783
         with fade
@@ -1146,45 +1147,15 @@ label gallery_ep22_photoshoot5:
         img 8788
         with fade
         melanie "Миссис Бакфетт?"
-        menu:
-            "Прервать фотосессию.":
-                return
-            "Сделать что просит Алекс.":
-                mt "Похоже у меня нет выхода..."
-                "Мне надо любой ценой узнать замешан-ли во всем этом Дик!"
-                "И Мелани единственная надежда на это!"
-                music Loved_Up2
-                img 8791
-                with fade
-            "Попросить Мелани не делать этого (хорошие отношения с Мелани)" if melanieOffended2 == False and melanieOffended1 == False:
-                m "Мелани, пожалуйста!"
-                "Скажи Алексу что хватит!"
-                melanie "Хорошо, Миссис Бакфетт..."
-                img 8789
-                with fade
-                melanie "Алекс, я думаю этого достаточно!"
-                "Я ведь знаю что этот кадр твоя инициатива!"
-                # конец фотосессии
-                return
-            "Попросить Мелани не делать этого (плохие отношения с Мелани) (disabled)" if melanieOffended2 == True or melanieOffended1 == True:
-                pass
 
-        #кадр
-#        img 8791
-        #up
-#        img 8800
-#        img 8792
-#        img 8793
-        #side
-#        img 8801
-#        img 8790
-#        img 8794
-#        img 8795
-        #down
-#        img 8799
-#        img 8796
-#        img 8797
-#        img 8798
+        mt "Похоже у меня нет выхода..."
+        "Мне надо любой ценой узнать замешан-ли во всем этом Дик!"
+        "И Мелани единственная надежда на это!"
+        music Loved_Up2
+        img 8791
+        with fade
+    
+
 
     label gallery_ep22_photoshoot5_pose9:
         img 8791

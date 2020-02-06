@@ -575,8 +575,7 @@ label gallery_11229:
     music2 stop
     $ renpy.music.set_volume(1.0, 0.0, 'music2')
 
-    music stop
-    call textonblack(_("Спустя некоторое время..."))
+
     img black_screen
     with Dissolve(1)
     return
