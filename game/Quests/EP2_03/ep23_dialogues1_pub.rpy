@@ -163,6 +163,7 @@ label ep23_dialogues1_2b:
         $ monica_pub_name = renpy.input(__("Меня зовут... (enter для ввода)"), monica_pub_name)
     with fadelong
     m "Меня зовут... [monica_pub_name]..."
+    $ pubLocationInitializedForced = True
     img 9601
     with fade
     joe "[monica_pub_name], слушай..."

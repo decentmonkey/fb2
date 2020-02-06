@@ -35,7 +35,7 @@ label pub:
     if get_active_objects(scene="pub", group="visitors") != False:
         music2 pub_noise1
 
-    if pubLocationInitializedForced == False and monica_pub_name == False:
+    if pubLocationInitializedForced == False and monicaWorkingAsDishwasher == False:
         $ add_hook("enter_scene", "ep23_quests_pub1", scene="pub")
         $ set_active("Pub_Washbasin", False, scene="pub")
         $ pubLocationInitializedForced = True
