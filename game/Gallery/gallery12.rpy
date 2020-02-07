@@ -2267,15 +2267,4 @@ label gallery_23034:
     with fade
     m "Вот ты и попался..."
 
-    stop music
-    sound snd_cinematic_impact
-
-    img black_screen
-#    pause 2.0
-    $ renpy.pause(4.0, hard=True)
-    music Continue_Life
-    img black_screen
-    with Dissolve(2.0)
-    call textonblack("TO BE CONTINUED IN THE NEXT UPDATE")
-
     return
