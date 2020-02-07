@@ -201,11 +201,11 @@ init python:
             ["22476", "", "gallery_22476"],
             ["22503", "", "gallery_22503"],
             ["22553", "", "gallery_22553"],
-            ["23082", "", False],
-            ["16498", "", False],
-            ["16512", "", False],
-            ["23062", "", False],
-            ["16503", "", False]
+            ["23082", "", "gallery_23082"],
+            ["16498", "", "gallery_16498"],
+            ["16512", "", "gallery_16512"],
+            ["23062", "", "gallery_23062"],
+            ["16503", "", "gallery_16503"]
         ],
 
         "Marcus": [
@@ -269,8 +269,8 @@ init python:
             ["20014", "", "gallery_ep26_photoshoot_suit6"],
             ["20071", "", "gallery_ep26_photoshoot_suit6"],
             ["20083", "", "gallery_ep26_photoshoot_suit7"],
-            ["20152", "", "gallery_ep26_photoshoot_suit7_pose11_pre"],
-            ["20170", "", "gallery_ep26_photoshoot_suit7_pose11_pre"],
+            ["20152", "", "gallery_ep26_photoshoot_suit7"],
+            ["20170", "", "gallery_ep26_photoshoot_suit7"],
             ["20511", "", "gallery_ep27_photoshoot_suit8"],
             ["20569", "", "gallery_ep27_photoshoot_suit8_pose8"],
             ["20578", "", "gallery_ep27_photoshoot_suit8_pose8"],
@@ -294,10 +294,10 @@ init python:
             ["20210", "", "gallery_20210"],
             ["13920", "", "gallery_13920"],
             ["20599", "", "gallery_20599"],
-            ["22917", "", False],
-            ["22924", "", False],
-            ["22943", "", False],
-            ["15882", "", False],
+            ["22917", "", "gallery_22917"],
+            ["22924", "", "gallery_22924"],
+            ["22943", "", "gallery_22943"],
+            ["15882", "", "gallery_15882"],
 
         ],
 
@@ -307,9 +307,9 @@ init python:
             ["6875", "Philip", "gallery_6875"],
             ["6915", "Philip", "gallery_6915"],
             ["6996", "Helper", "gallery_6996"],
-            ["15958", "", False],
-            ["15995", "", False],
-            ["16009", "", False]
+            ["15958", "", "gallery_15958"],
+            ["15995", "", "gallery_15995"],
+            ["16009", "", "gallery_16009"]
         ],
 
         "Office": [
@@ -394,8 +394,8 @@ init python:
             ["22803", "", "gallery_22803"],
             ["22819", "", "gallery_22819"],
             ["22874", "", "gallery_22874"],
-            ["16191", "", False],
-            ["16227", "", False]
+            ["16191", "", "gallery_16191"],
+            ["16227", "", "gallery_16227"]
             ],
         "PoleDance": [
             ["v_Monica_Strip_A1_end", "", False],
@@ -549,8 +549,8 @@ init python:
             ["12638", "Jane", "gallery_12638"]
         ],
         "Revenge": [
-            ["23034", "", False],
-            ["23050", "", False]
+            ["23034", "", "gallery_23034"],
+            ["23050", "", "gallery_23050"]
         ]
     }
     achievements_labels = {
