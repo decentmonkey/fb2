@@ -1154,7 +1154,7 @@ label gallery_ep22_photoshoot5:
         music Loved_Up2
         img 8791
         with fade
-    
+
 
 
     label gallery_ep22_photoshoot5_pose9:

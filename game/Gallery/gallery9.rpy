@@ -2521,8 +2521,8 @@ label gallery_20482:
     img 20465
     with diss
     m "Я хочу заказать..."
-    $ menu_price = [pubShinyBurger, pubSphagettiPrice, pubSoupPrice]
-    $ menu_price2 = [pubShinyBurger, pubSphagettiPrice, pubSoupPrice]
+    $ menu_price = [pubSphagettiPrice]
+
     $ choose_var = 0
     menu:
         "Спагетти.":
@@ -2616,8 +2616,8 @@ label gallery_20483:
     img 20465
     with diss
     m "Я хочу заказать..."
-    $ menu_price = [pubShinyBurger, pubSphagettiPrice, pubSoupPrice]
-    $ menu_price2 = [pubShinyBurger, pubSphagettiPrice, pubSoupPrice]
+    $ menu_price = [pubShinyBurger]
+
     $ choose_var = 0
     menu:
         "Shiny Бургер.":
@@ -2711,8 +2711,8 @@ label gallery_20484:
     img 20465
     with diss
     m "Я хочу заказать..."
-    $ menu_price = [pubShinyBurger, pubSphagettiPrice, pubSoupPrice]
-    $ menu_price2 = [pubShinyBurger, pubSphagettiPrice, pubSoupPrice]
+    $ menu_price = [pubSoupPrice]
+
     $ choose_var = 0
     menu:
         "Суп харчо.":

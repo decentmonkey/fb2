@@ -1367,51 +1367,7 @@ label gallery_22725:
     return
 
 label gallery_22841:
-    # брюнетка стоит спиной к Монике, переодевается, Моника стоит в дверях
-    # Моника задумчиво смотрит на Клэр
-    music Groove2_85
-    img 22826
-    with fadelong
-    mt "Эта Клэр могла бы являть свою красоту с обложки журнала..."
-    mt "А не танцуя в пабе перед толпой пьяных неудачников!"
-    # Клэр в маске поворачивается к Монике, с улыбкой
-    img 22827
-    with fade
-    clare "Привет, [monica_pub_name]. Ну как ты?"
-    clare "Эшли говорит, что у тебя уже лучше получается. Она тобой довольна."
-    img 22828
-    with diss
-    m "Хм. Я не удивлена, что Эшли довольна мной."  # проходит в гримерку и начинает раздеваться
-    music Power_Bots_Loop
-    img 22829
-    with diss
-    mt "Еще бы она была недовольна! Она теперь может на меня пялиться." # сердито
-    mt "Как и ее муж-неудачник!"
-    music Groove2_85
-    img 22830
-    with fade
-    clare "Надеюсь, у тебя не было конфликтов с ней?"
-    clare "Про Эшли ходят не очень хорошие слухи."
-    clare "Так что, лучше не связывайся с ней..."
-    img 22831
-    with diss
-    m "Да? Я не знала..." # удивленно
-    m "Спасибо за предупреждение..."
-    music Groove2_85
-    img 22832
-    with diss
-    mt "Эта озабоченная Эшли со своим таким же озабоченным мужем уже достали меня!"
-    mt "Кто бы предупредил меня заранее, что с ними не стоит связываться?!"
-    # Моника переодевается
 
-
-#    menu:
-#        "Надеть костюм с жилетом.":
-#            pass
-#        "Надеть только трусики.":
-#            m "Я не выйду на сцену с голой грудью!!!"
-#            return False
-    # Клэр берет со столика в руки флакон
     music stop
     img black_screen
     with diss
@@ -1425,123 +1381,121 @@ label gallery_22841:
     with fade
     clare "Ты забыла намазаться маслом для тела..."
     clare "[monica_pub_name], давай я тебе помогу?"
-    menu:
-        "Взять у Клэр масло и намазаться самой.":
-            pass
-        "Позволить Клэр намазать меня маслом.":
-            # Клэр намазывает ее маслом
 
-            img 22754
-            with fade
-            sound hlup2
-            w
-            music stop
-            music2 Loved_Up
-            img 22834
-            with diss
-            sound skin_lotion11
-            w
-            img black_screen
-            with diss
-            music stop
-            stop music
-            play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-            scene black
-            image videov_Monica_Claire_Oiling1_1 = Movie(play="video/v_Monica_Claire_Oiling1_1.mkv", fps=30)
-            show videov_Monica_Claire_Oiling1_1
-            with fadelong
-            wclean
+
+        # Клэр намазывает ее маслом
+
+    img 22754
+    with fade
+    sound hlup2
+    w
+    music stop
+    music2 Loved_Up
+    img 22834
+    with diss
+    sound skin_lotion11
+    w
+    img black_screen
+    with diss
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Claire_Oiling1_1 = Movie(play="video/v_Monica_Claire_Oiling1_1.mkv", fps=30)
+    show videov_Monica_Claire_Oiling1_1
+    with fadelong
+    wclean
 
 #                music Loved_Up
-            img 22835
-            with diss
-            clare "Какая же у тебя отличная фигура, [monica_pub_name]."
+    img 22835
+    with diss
+    clare "Какая же у тебя отличная фигура, [monica_pub_name]."
 
-            img 22836
-            with fade
-            sound skin_lotion11
-            mt "Она что, снова ко мне пытается пристать, как Эшли?!"
+    img 22836
+    with fade
+    sound skin_lotion11
+    mt "Она что, снова ко мне пытается пристать, как Эшли?!"
 
-            music stop
-            stop music
-            play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-            scene black
-            image videov_Monica_Claire_Oiling1_2 = Movie(play="video/v_Monica_Claire_Oiling1_2.mkv", fps=30)
-            show videov_Monica_Claire_Oiling1_2
-            with fadelong
-            wclean
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,5))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling1_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Claire_Oiling1_2 = Movie(play="video/v_Monica_Claire_Oiling1_2.mkv", fps=30)
+    show videov_Monica_Claire_Oiling1_2
+    with fadelong
+    wclean
 #                music Loved_Up
-            img 22837
-            with diss
-            sound skin_lotion11
-            w
-            img 22838
-            with diss
-            sound skin_lotion11
-            clare "Мужчины в зале с ума сойдут, когда тебя увидят."
-            img 22839
-            with fade
-            mt "Я к этому привыкла."
-            mt "Мужчины всегда по мне с ума сходили..."
-            img 22840
-            with diss
-            w
+    img 22837
+    with diss
+    sound skin_lotion11
+    w
+    img 22838
+    with diss
+    sound skin_lotion11
+    clare "Мужчины в зале с ума сойдут, когда тебя увидят."
+    img 22839
+    with fade
+    mt "Я к этому привыкла."
+    mt "Мужчины всегда по мне с ума сходили..."
+    img 22840
+    with diss
+    w
 
-            music stop
-            stop music
-            play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling2_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-            scene black
-            image videov_Monica_Claire_Oiling2_1 = Movie(play="video/v_Monica_Claire_Oiling2_1.mkv", fps=30)
-            show videov_Monica_Claire_Oiling2_1
-            with fadelong
-            wclean
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling2_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Claire_Oiling2_1 = Movie(play="video/v_Monica_Claire_Oiling2_1.mkv", fps=30)
+    show videov_Monica_Claire_Oiling2_1
+    with fadelong
+    wclean
 
-            img 22841
-            with diss
-            sound skin_lotion11
-            w
-            img 22842
-            with diss
-            sound skin_lotion11
-            clare "Ты сегодня будешь звездой, [monica_pub_name]."
+    img 22841
+    with diss
+    sound skin_lotion11
+    w
+    img 22842
+    with diss
+    sound skin_lotion11
+    clare "Ты сегодня будешь звездой, [monica_pub_name]."
 
-            img 22843
-            with fade
-            sound skin_lotion11
-            mt "Конечно, буду! Мне нет здесь равных!"
-            mt "И не только здесь! Мне нигде нет равных!"
+    img 22843
+    with fade
+    sound skin_lotion11
+    mt "Конечно, буду! Мне нет здесь равных!"
+    mt "И не только здесь! Мне нигде нет равных!"
 
-            music stop
-            stop music
-            play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-            scene black
-            image videov_Monica_Claire_Oiling3_1 = Movie(play="video/v_Monica_Claire_Oiling3_1.mkv", fps=30)
-            show videov_Monica_Claire_Oiling3_1
-            with fadelong
-            wclean
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_1.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Claire_Oiling3_1 = Movie(play="video/v_Monica_Claire_Oiling3_1.mkv", fps=30)
+    show videov_Monica_Claire_Oiling3_1
+    with fadelong
+    wclean
 #                music Loved_Up
-            img 22844
-            with diss
-            sound skin_lotion11
-            clare "Таким шикарным ногам и такой попе, как у тебя, позавидует любая модель."
-            img 22845
-            with diss
-            sound skin_lotion11
-            clare "Ты просто создана для обложки какого-нибудь модного журнала."
-            music stop
-            stop music
-            play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
-            scene black
-            image videov_Monica_Claire_Oiling3_2 = Movie(play="video/v_Monica_Claire_Oiling3_2.mkv", fps=30)
-            show videov_Monica_Claire_Oiling3_2
-            with fadelong
-            wclean
-            music2 stop
-            music Groove2_85
-            img 22846
-            with fade
-            mt "Хм... Хорошо, что она их не читает."
-            mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
+    img 22844
+    with diss
+    sound skin_lotion11
+    clare "Таким шикарным ногам и такой попе, как у тебя, позавидует любая модель."
+    img 22845
+    with diss
+    sound skin_lotion11
+    clare "Ты просто создана для обложки какого-нибудь модного журнала."
+    music stop
+    stop music
+    play music "<from " + str(float(rand(1,7))*1.2) + " loop 0.0>Sounds/v_Monica_Claire_Oiling3_2.ogg" # 1,3 - это рандом от 1 до 3-х. 1.66666 - длина видео в секундах
+    scene black
+    image videov_Monica_Claire_Oiling3_2 = Movie(play="video/v_Monica_Claire_Oiling3_2.mkv", fps=30)
+    show videov_Monica_Claire_Oiling3_2
+    with fadelong
+    wclean
+    music2 stop
+    music Groove2_85
+    img 22846
+    with fade
+    mt "Хм... Хорошо, что она их не читает."
+    mt "Боюсь себе даже представить, если меня здесь кто-нибудь узнает."
 
     return
 
@@ -2214,7 +2168,7 @@ label gallery_7118:
 
 label gallery_8493:
     music Groove2_85
-    img scene_Hostel_Street3
+    img scene_Hostel_Street2
     imgl Dial_Monica_Sandwich_0
 #    menu:
 #        "Мистер... Можно к Вам обратиться?":

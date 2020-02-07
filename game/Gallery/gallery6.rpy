@@ -408,10 +408,6 @@ label gallery_11229:
             m "То-то же..."
             mt "Мне надо было с самого начала так и поступить."
             mt "Ни к чему было терпеть все эти унижения..."
-            music stop
-            call textonblack(_("Спустя некоторое время..."))
-            img black_screen
-            with Dissolve(1)
             return
     if monicaBitch == True:
         mt "В моем списке для убийств теперь появится еще один человек..."

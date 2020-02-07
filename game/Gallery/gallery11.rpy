@@ -1537,3 +1537,2635 @@ label gallery_12633:
     m "Не забывай при каких обстоятельствах это происходило!"
     m "Ты еще ответишь за все, что сделал!"
     return
+
+######################### Ле Гранд, Филлип
+
+label gallery_22982:
+
+    # Моника заказывает еду у официантки ( ep26_dialogues4_restaurant - разговор с официанткой и заказ еды)
+    # пока ждет, когда принесут ее заказ, сидит на стуле с задумчивым видом
+    music Poppers_and_Prosecco
+    img 22946
+    with fadelong
+    mt "Наконец-то моя прежняя жизнь постепенно возвращается..."
+    mt "Я на верном пути."
+    mt "Совсем недавно я могла себе позволить только ужасный кебаб..."
+    mt "Или не менее ужасное пирожное..."
+    img 22947
+    with fade
+    mt "А сейчас я в ресторане, на мне красивое платье..."
+    mt "Я поела такой вкусный ужин..."
+    mt "Скоро Моника Бакфетт вернет себе все, что у нее отняли!"
+    mt "И накажет всех, кто посмел недостойно себя вести в отношении нее..."
+    # приносят ужин и тут ее мысли прерывает мужской голос
+    img black_screen
+    with diss
+    sound man_steps
+    pause 1.5
+    img 22948
+    with hpunch
+    sound plastinka1b
+    philip "Миссис Бакфетт, какая неожиданная и приятная встреча!"
+    # Моника поднимает взгляд, рядом с ее столиком стоит Филипп
+    music Pyro_Flow
+    img 22949
+    with fade
+    mt "О нет! Только не этот мерзкий тип!"
+    mt "Что он здесь делает?!"
+    # Филипп продолжает любезно улыбаться
+    music Groove2_85
+    img 22950
+    with diss
+    sound kiss1
+    philip "Добрый вечер, Миссис Бакфетт. Позвольте вашу ручку?"
+    # Филипп целует ее руку и садится за ее столик. Она вопросительно смотрит на него
+    img 22951
+    with fade
+    philip "Я впечатлен Вашей презентацией, Миссис Бакфетт."
+    img 22952
+    with diss
+    m "Спасибо, Филипп."
+    mt "Что ему от меня надо?"
+    img 22953
+    with fade
+    philip "На этой презентации я увидел у Вас кое-что интересное, Мэм..."
+    m "..."
+
+    # если Моника делала ему минет в туалете
+    if monicaMadeBlowjobToPhilip == True:
+        philip "Я, конечно, не использую одну и ту же женщину дважды..."
+        #
+        $ notif(_("Моника делала Филиппу минет в туалете"))
+        #
+        philip "Но у Вас я пробовал только ротик..."
+        philip "Я решил, что неплохо было бы мне засунуть член в Ваше отверстие."
+    else:
+        # если Моника НЕ делала ему минет в туалете
+        img 22954
+        with diss
+        m "Это не твое дело, Филипп! Мне без разницы, что ты там увидел..."
+        img 22953
+        with fade
+        philip "Как что? Вашу прекрасную попу, Миссис Бакфетт!"
+        philip "И я решил, что неплохо было бы мне засунуть член в Ваше отверстие."
+        #
+
+    music Power_Bots_Loop
+    img 22954
+    with diss
+    mt "!!!"
+    m "Даже не мечтай, Филипп! Ты никогда не сможешь этого сделать!"
+    music Groove2_85
+    img 22955
+    with fade
+    philip "Я всегда могу сделать это с Вами. За деньги."
+    # Моника злится, говорит возмущенно
+    img 22956
+    with diss
+    m "Ты меня считаешь проституткой?!"
+    m "С чего ты взял, что меня можно купить?!"
+    # Филипп, улыбаясь
+    img 22957
+    with fade
+    philip "Я знаю это."
+    philip "Я куплю Вашу киску за 300 долларов."
+    music Pyro_Flow
+    img 22958
+    with diss
+    mt "!!!"
+    menu:
+        "Как он смеет предлагать мне подобное?!":
+            # Монику бомбит
+            m "Как ты смеешь предлагать мне подобное?"
+            img 22959
+            with fade
+            m "Моя... Она стоит миллионы долларов!"
+            m "А таким негодяям, как ты, о ней остается только мечтать!"
+            m "!!!"
+            img 22960
+            with diss
+            mt "Мерзкий самовлюбленный извращенец!"
+            m "Уходи отсюда и не порти мне аппетит!"
+            mt "Сволочь!"
+            music Groove2_85
+            img 22961
+            with fade
+            philip "Вы уверены, Миссис Бакфетт?"
+            img 22962
+            with diss
+            m "!!!"
+            img 22963
+            with fade
+            philip "Хорошо, сейчас я уйду..."
+            philip "Но в следующий раз..."
+            music Pyro_Flow
+            m "Не будет никакого следующего раза!!!"
+            m "!!!"
+            # Моника зло на него смотрит, тот мерзко улыбается и уходит
+            return
+        "А почему 300?!":
+            pass
+
+    # Моника возмущенно
+    img 22964
+    with fade
+    m "А почему 300?!"
+    music Groove2_85
+    img 22965
+    with diss
+    philip "Ну вот видите, Вы уже торгуетесь..."
+    philip "Вы обычная шлюха, которую я сейчас куплю."
+    music Pyro_Flow
+    img 22966
+    with fade
+    m "Как ты смеешь такое обсуждать со мной?!"
+    m "Я не шлюха! Меня нельзя купить!!!"
+    music Groove2_85
+    img 22967
+    with diss
+    philip "..." # улыбается
+    img 22968
+    with fade
+    m "И вообще, почему 300?!"
+    m "В прошлый раз ты предлагал 500 долларов и за меньшее!"
+    m "Ты считаешь, что моя... Неважно... Что она стоит так мало?!"
+    img 22969
+    with diss
+    philip "Ваши акции дешевеют, Миссис Бакфетт..."
+    music Power_Bots_Loop
+    img 22970
+    with hpunch
+    m "???"
+    music Groove2_85
+    img 22971
+    with fade
+    philip "Ваша киска сейчас стоит не более 100 долларов..."
+    philip "И я делаю Вам щедрое предложение, предлагая 300."
+    # Моника смотрит на него зло
+    img 22972
+    with diss
+    mt "Черт!"
+    mt "Мне нужны деньги..."
+    mt "Но не таким же способом!"
+    mt "!!!"
+    mt "Какая же сволочь этот Филипп!"
+    img 22973
+    with fade
+    m "..."
+    m "Ты хочешь сделать это и рассказать всем?"
+    img 22974
+    with diss
+    philip "Это не в моих интересах..."
+    philip "Я не хочу, чтобы все знали, что я покупаю женщину так дешево."
+    music Power_Bots_Loop
+    img 22975
+    with fade
+    mt "!!!"
+    music Groove2_85
+    img 22976
+    with diss
+    philip "Миссис Бакфетт, вы закончили свою трапезу?"
+    philip "Мы можем идти."
+    img 22977
+    with diss
+    mt "Как он смеет такое мне предлагать?!"
+    mt "С другой стороны, мне нужны деньги..."
+    mt "Скоро я все верну и мне нельзя подрывать свою репутацию..."
+    mt "А он сказал, что никому не расскажет об этом."
+    mt "Что же мне делать?!"
+    mt "Моника, неужели ты способна на такое пойти?!"
+    mt "..."
+
+    # Моника смотрит на него пристально
+    music Groove2_85
+    img 22978
+    with fade
+    philip "Мы можем идти."
+    m "Если про это кто-то узнает - я тебя убью!"
+    img 22979
+    with diss
+    philip "Не беспокойтесь, мой член бывал и не в таких местах..."
+    philip "И при этом у меня все прекрасно."
+    m "..."
+    img 22980
+    with fade
+    m "Оплати мой счет."
+    # Моника смотрит на него, тот ей улыбается в ответ
+    img 22981
+    with diss
+    philip "Это повысит общую стоимость моих расходов, и они превысят стоимость Вашей киски."
+    music Power_Bots_Loop
+    m "Мерзавец!"
+    m "!!!"
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Poppers_and_Prosecco
+    img 22982
+    with fadelong
+    philip "Пойдемте, Миссис Бакфетт. Думаю, что мне пора попробовать Вашу киску."
+    return
+
+label gallery_23018:
+
+    # Моника заказывает еду у официантки ( ep26_dialogues4_restaurant - разговор с официанткой и заказ еды)
+    # пока ждет, когда принесут ее заказ, сидит на стуле с задумчивым видом
+    music Poppers_and_Prosecco
+    img 22983
+    with fadelong
+    mt "Надеюсь, я не увижу этого извращенца Филиппа сегодня..."
+    mt "Это было ужасно!"
+    mt "Как он посмел так со мной обращаться?!"
+    mt "Сволочь!"
+    mt "Почему меня, такую добрую и красивую женщину, окружают одни подлецы?!"
+    # ее мысли прерывает мужской голос
+    img 22984
+    with fade
+    hotel_staff "Мэм... Добрый вечер, Мэм..."
+    # Моника смотрит на него вопросительно, тот стоит, смущаясь
+    m "Что?"
+    # если не было сцены в туалете с Филиппом и со служащим отеля
+    mt "Что могло понадобиться этому неудачнику от меня?!"
+
+    # если была сцена в туалете
+    if monicaMadeBlowjobToPhilip == True:
+        music Pyro_Flow
+        img 22985
+        with diss
+        mt "Я помню этого неудачника!"
+        #
+        $ notif(_("Моника делала минет Филиппу в туалете"))
+        #
+        mt "Это он тогда был в туалете, когда я..."
+        mt "Когда мерзавец Филипп заставил меня..."
+        mt "Делать всякие его извращенские гадости!"
+        #
+
+    music Groove2_85
+    img 22986
+    with fade
+    hotel_staff "Один наш очень уважаемый клиент сказал мне, что..."
+    hotel_staff "..."
+    m "Что?"
+    img 22987
+    with diss
+    hotel_staff "Кхм... Что я могу договориться и..."
+    hotel_staff "Вам не нужно будет оплачивать Ваш ужин, Мэм."
+    img 22988
+    with fade
+    m "???" # удивленно
+    m "Ужин за счет ресторана?"
+    img 22989
+    with diss
+    mt "Может быть, кто-то из моих поклонников решил таким образом сделать мне приятное?"
+    mt "Тогда почему этот никчемный представитель обслуживающего персонала мне об этом сообщает?"
+    mt "А не администратор или, хотя бы, официант?"
+    mt "Странно это все..."
+    m "..."
+    img 22990
+    with fade
+    hotel_staff "Так Вы позволите, Мэм?"
+    m "Что позволю?"
+    # парень еще больше смутившись
+    img 22991
+    with diss
+    hotel_staff "..."
+    hotel_staff "Мистер Филипп сказал мне, что если я... Кхм..."
+    music Pyro_Flow
+    img 22992
+    with fade
+    mt "!!!"
+    music Groove2_85
+    img 22993
+    with diss
+    hotel_staff "Если я договорюсь, что Ваш ужин будет бесплатным для Вас, то..."
+    hotel_staff "Тогда вы пойдете со мной. И за 50 долларов проведете со мной время..."
+    hotel_staff "В каком-нибудь уединенном месте."
+    hotel_staff "Я знаю одно такое место, Мэм."
+    # Моника в шоке
+    music Power_Bots_Loop
+    img 22994
+    with hpunch
+    m "ЧТО???"
+    m "Филипп?!"
+    music Groove2_85
+    img 22995
+    with fade
+    hotel_staff "Да, Мэм."
+    mt "!!!"
+    menu:
+        "Как он смеет предлагать мне подобное?!":
+            # Монику бомбит
+            music Power_Bots_Loop
+            img 22996
+            with hpunch
+            m "Я поверить не могу!"
+            m "Халдей, как ты смеешь предлагать мне подобное?!"
+            m "Как ты вообще посмел подойти к МОЕМУ столику?!"
+            m "И заговорить со МНОЙ?!"
+            m "!!!"
+            img 22997
+            with fade
+            m "Никчемный неудачник!"
+            m "Еще слово - и я сделаю так. Что тебя сегодня же вышвырнут с этой работы!!!"
+            m "Пошел вон отсюда!!!"
+            m "!!!"
+            # Моника зло на него смотрит, тот вконец смутившись, уходит
+            return
+        "50 долларов?!":
+            pass
+    # Моника возмущенно спрашивает
+
+    m "50 долларов?!"
+    music Pyro_Flow
+    img 22998
+    with diss
+    mt "Мало того, что этот мерзавец сказал этому неудачнику..."
+    mt "Что можно купить меня..."
+    mt "Так еще и за 50 долларов!!!"
+    img 22999
+    with fade
+    m "!!!"
+    m "За 50 долларов ты можешь пойти и сам с собой провести время!"
+    music Groove2_85
+    img 23000
+    with diss
+    hotel_staff "Мэм, но ведь... Помимо этих 50 долларов..."
+    hotel_staff "Вам не нужно будет оплачивать Ваш чек."
+    img 23001
+    with fade
+    m "И что?!"
+    m "Ужин я и сама могу оплатить!"
+    img 23002
+    with diss
+    mt "Хотя ужинать здесь чертовски дорого для меня сейчас..."
+    img 23003
+    with fade
+    hotel_staff "Я готов дать вам 55 долларов, Мэм."
+    hotel_staff "Извините, но у меня просто больше нет денег."
+    hotel_staff "55 долларов и бесплатный ужин."
+    # Моника зло смотрит на него
+    img 23004
+    with diss
+    mt "Это все отвратительно и мерзко!"
+    mt "С другой стороны... 55 долларов... Они не будут лишними."
+    mt "А если кто-нибудь узнает?!"
+    img 23005
+    with fade
+    m "..."
+    m "Я не могу согласиться на такое..."
+    img 23006
+    with diss
+    hotel_staff "Мэм, Вы можете не переживать. Об этом никто не узнает."
+    # Моника молчит и смотрит на него с подозрением
+    img 23007
+    with diss
+    mt "Черт! Мне действительно нужны эти деньги..."
+    mt "Я могу пригрозить этому неудачнику увольнением, если он кому-то расскажет..."
+    mt "Тогда он испугается и об этом никто никогда не узнает."
+    mt "Зато у меня прибавится 55 долларов. Плюс бесплатный ужин."
+    mt "И я не собираюсь делать ничего из такого, что требовал Филипп от меня..."
+    mt "..."
+    # говорит служащему с угрозой
+
+    music Pyro_Flow
+    img 23008
+    with fade
+    m "Ты пожалеешь, если расскажешь об этом хоть одной живой душе!"
+    m "Я сделаю так, что тебя выкинут с работы!"
+    if monicaWorkingAsDishwasher == True:
+        m "И ты после этого не сможешь устроиться на работу даже..."
+        # если работала в пабе посудомойщицей
+        #
+        $ notif(_("Моника работает посудомойщицей в Shiny Hole"))
+        #
+        m "Даже посудомойщиком в какой-нибудь грязной дыре в трущобах!"
+
+
+    img 23009
+    with diss
+    m "Думаю, ты догадываешься о том..."
+    m "Что у меня много знакомых, которые легко смогут это устроить..."
+    m "Я большой и влиятельный человек в этом городе!"
+    music Groove2_85
+    img 23010
+    with fade
+    hotel_staff "Конечно, Мэм! Я никому не скажу, Мэм!"
+    hotel_staff "Сотрудникам отеля запрещено пользоваться услугами проституток. За это могут уволить..."
+    # Моника возмущенно
+    music Power_Bots_Loop
+    img 23011
+    with diss
+    m "Проституток?!"
+    m "!!!"
+    m "По-твоему, я проститутка?!"
+    # парень испугавшись, что сморозил что-то не то
+    music Groove2_85
+    img 23012
+    with fade
+    hotel_staff "Нет, Мэм! Конечно, нет!!!"
+    hotel_staff "Просто..."
+    hotel_staff "Никто из руководства разбираться не будет."
+    hotel_staff "Меня просто уволят и все."
+    # Моника грозно смотрит на него
+    img 23013
+    with diss
+    m "Что за уединенное место?"
+    m "..."
+    m "Если это какой-то туалет, то даже не думай!"
+    # парень радостно
+    hotel_staff "Мэм, я взял ключи от пустого роскошного номера..."
+    hotel_staff "Мы можем пройти туда незаметно. Нас никто не увидит..."
+    # Моника задумчиво смотрит на него
+    img 23014
+    with fade
+    mt "Хм... В таком случае..."
+    mt "Минимален риск того, что меня кто-нибудь увидит и..."
+    mt "Догадается, что я оказала услугу за деньги этому неудачнику."
+    m "..."
+    img 23015
+    with diss
+    hotel_staff "..."
+    hotel_staff "Мэм? Могу я Вас пригласить в этот номер?"
+    # Моника бросает на него еще один грозный взгляд
+    music Pyro_Flow
+    img 23016
+    with fade
+    m "Я тебя предупредила, если кто-нибудь узнает..."
+    m "!!!"
+    music Groove2_85
+    img 23017
+    with diss
+    hotel_staff "Не переживайте, Мэм. Об этом никто никогда не узнает."
+    hotel_staff "Пойдемте, Мэм?"
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    music Poppers_and_Prosecco
+    # Моника встает и идет за служащим
+    img 23018
+    with fadelong
+    sound highheels_short_walk
+    w
+    return
+
+label gallery_16086:
+    # Моника с Филиппом стоят в туалете
+    music Groove2_85
+    if monicaMadeBlowjobToPhilip == True:
+        # если Моника делала ему минет в туалете
+        img 16086
+        with fadelong
+        sound highheels_short_walk
+        m "Снова это жуткое место..."
+        #
+        $ notif(_("Моника делала Филиппу минет в туалете"))
+        #
+        m "Неужели нельзя было в этот раз подобрать место получше?!"
+        img 16087
+        with fade
+        philip "Гостиничный номер будет стоить гораздо дороже Вашей киски!"
+        philip "Как Вы знаете, я умею считать деньги!"
+    else:
+        # если Моника НЕ делала ему минет в туалете
+        img 16086
+        with fadelong
+        sound highheels_short_walk
+        m "Куда ты меня привел, Филипп?"
+        m "Это мужской туалет!"
+        img 16087
+        with fade
+        philip "Миссис Бакфетт!"
+        philip "Мне будет неудобно находиться в женском туалете!"
+        philip "Ну а для Вас, полагаю, нет никакой разницы, ведь так?"
+        img 16088
+        with diss
+        m "Я думала это будет хотя бы гостиничный номер!"
+        img 16089
+        with fade
+        philip "Гостиничный номер будет стоить гораздо дороже Вашей киски!"
+        philip "Как Вы знаете, я умею считать деньги!"
+        philip "Поэтому туалет как раз подойдет для этой цели!"
+        #
+
+    # Моника зло на него смотрит
+    img 16090
+    with diss
+    philip "Задирайте платье, Миссис Бакфетт. Покажите мне Вашу киску."
+    music Pyro_Flow
+    m "!!!"
+    m "Что, прямо вот так?! Так быстро?!"
+    music Groove2_85
+    img 16091
+    with fade
+    philip "Да. Я это купил и это уже мое."
+    img 16092
+    with diss
+    mt "Мерзавец!"
+    m "..."
+    img 16093
+    with fade
+    menu:
+        "Уйти!":
+            # Монику бомбит
+            music Pyro_Flow
+            img 16094
+            with diss
+            m "Как ты смеешь так со мной обращаться?!"
+            m "Моя... Она стоит миллионы долларов!"
+            img 16095
+            with fade
+            m "А таким негодяям, как ты, о ней остается только мечтать!"
+            m "!!!"
+            img 16096
+            with diss
+            mt "Мерзкий самовлюбленный извращенец!"
+            mt "Сволочь!"
+            music Groove2_85
+            img 16097
+            with fade
+            philip "Вы уверены, Миссис Бакфетт?"
+            img 16098
+            with diss
+            m "!!!"
+            philip "Хорошо..."
+            philip "Но в следующий раз..."
+            music Pyro_Flow
+            img 16099
+            with fade
+            sound highheels_short_walk
+            m "Не будет никакого следующего раза!!!"
+            m "!!!"
+            # Моника зло на него смотрит и уходит
+            return
+        "Ударить мерзавца и уйти! (прерывание квеста)":
+            label gallery_16102:
+            # Монику бомбит, она подходит к нему ближе и орет на него
+            music Power_Bots_Loop
+            img 16094
+            with diss
+            m "Как ты смеешь так со мной обращаться?!"
+            m "Мерзкий самовлюбленный извращенец!"
+            m "!!!"
+            # бьет между ног коленом
+            sound anger2
+            img 16100
+            w
+            sound snd_kick_fred1
+            img 16101
+            with diss
+
+            m "Сволочь!"
+            m "!!!"
+            sound snd_fred_argh
+            img 16102
+            with diss
+            philip "АААААААА!!!" # падает
+            philip "Сучка!!!"
+            img 16103
+            with fade
+            m "Да пошел ты, придурок!"
+            m "!!!"
+            # Моника зло на него смотрит и уходит
+            return
+        "Задрать платье.":
+            pass
+    # Моника неуверенно поворачивается к нему задом и задирает платье немного
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    music Groove2_85
+    img 16104
+    with fadelong
+    philip "Это никуда не годится, Миссис Бакфетт..."
+    philip "Я за это и цента не заплачу."
+    img 16105
+    with fade
+    philip "Поднимай платье еще выше."
+    # Моника задирает его до талии и стоит перед ним с голой попой
+    label gallery_16115:
+    music Loved_Up
+    img 16106
+    with diss
+    sound snd_fabric1
+    w
+    img 16107
+    with diss
+    philip "А теперь предложите мне себя..."
+    philip "Раздвиньте ноги и покажите мне, что там между ними."
+    # Моника злится
+    music Groove2_85
+    img 16108
+    with fade
+    m "!!!"
+    m "Но..."
+    img 16109
+    with diss
+    philip "Никаких 'но'. Будете много разговаривать, ничего не заработаете."
+    philip "Раздвигайте ноги!"
+    mt "!!!"
+    img 16110
+    with diss
+
+    music Pyro_Flow
+    # Моника нагибается и раздвигает ноги
+    img 16111
+    with fade
+    mt "Ненавижу!!!"
+    # он расстегивает ширинку и достает член
+    music stop
+    img black_screen
+    with diss
+    sound snd_zip
+    pause 1.0
+    sound snd_fabric1
+    pause 1.0
+    music Loved_Up
+    img 16112
+    with fadelong
+    philip "Давно я не трахал таких 'леди' в туалете ресторана."
+    m "!!!"
+    # подходит к ней ближе и засовывает член в нее
+    # Моника в ужасе, но не сопротивляется
+    img 16113
+    with fade
+    mt "Я постараюсь это сейчас перетерпеть, потому что мне нужны деньги."
+    mt "Но потом я ему отомщу!"
+    mt "Он будет одним из первых, кого Моника Бакфетт накажет за все его мерзкие поступки!"
+    # секс с Филиппом
+    sound chpok6
+    img 16114
+    with hpunch
+    w
+    music stop
+    music2 Loved_Up2
+    img 16115
+    with fade
+    w
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex2_1 = Movie(play="video/v_Monica_Philip_Sex2_1.mkv", fps=30)
+    show videov_Monica_Philip_Sex2_1
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex2_2 = Movie(play="video/v_Monica_Philip_Sex2_2.mkv", fps=30)
+    show videov_Monica_Philip_Sex2_2
+    with fade
+    philip "У Вас неплохая киска, Миссис Бакфетт..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex2_3 = Movie(play="video/v_Monica_Philip_Sex2_3.mkv", fps=30)
+    show videov_Monica_Philip_Sex2_3
+    with fade
+    philip "Конечно, она не стоит 300 долларов..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex2_4 = Movie(play="video/v_Monica_Philip_Sex2_4.mkv", fps=30)
+    show videov_Monica_Philip_Sex2_4
+    with fade
+    philip "Но все же..."
+    philip "Ммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    img 16116
+    with diss
+    w
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex2_5 = Movie(play="video/v_Monica_Philip_Sex2_5.mkv", fps=30)
+    show videov_Monica_Philip_Sex2_5
+    with fade
+    philip "Мне приятно Вас трахать, Миссис Бакфетт..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    if game.extra == True:
+        music stop
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+        scene black
+        image videov_Monica_Philip_Sex2_6 = Movie(play="video/v_Monica_Philip_Sex2_6.mkv", fps=30)
+        show videov_Monica_Philip_Sex2_6
+        with fade
+        philip "Думаю, это не последняя наша с Вами встреча..."
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+        music stop
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+        scene black
+        image videov_Monica_Philip_Sex2_7 = Movie(play="video/v_Monica_Philip_Sex2_7.mkv", fps=30)
+        show videov_Monica_Philip_Sex2_7
+        with fade
+        philip "Ммммм..."
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex2_8 = Movie(play="video/v_Monica_Philip_Sex2_8.mkv", fps=30)
+    show videov_Monica_Philip_Sex2_8
+    with fade
+    wclean
+    stop music
+    music stop
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    sound ahhh11
+    img 16117
+    with fade
+    philip "Даааа..."
+    # кончает
+    img 16118
+    with diss
+    philip "АААААААА!!!"
+    w
+    img 16119
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    w
+    img 16120
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    sound man_moan18
+    w
+    img 16121
+    with fade
+    w
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    music Groove2_85
+    # кадр меняется, Филипп с застегнутой ширинкой, Моника с недовольным видом поправляет платье
+    img 16122
+    with fadelong
+    philip "Неплохо, Миссис Бакфетт..."
+    philip "Можете забирать свои деньги."
+    # кладет деньги куда-нибудь на столик или раковины
+    img 16123
+    with fade
+    m "Мерзавец!"
+    m "!!!"
+    img 16124
+    with diss
+    philip "Вы знаете, Миссис Бакфетт..."
+    philip "Я готов сделать исключение из своего правила не использовать одну и ту же женщину дважды..."
+    # протягивает ей свою визитку
+    img 16125
+    with fade
+    m "???"
+    m "Что это значит?"
+    img 16126
+    with diss
+    philip "Это значит, что мне нужна шлюха выходного дня."
+    music Pyro_Flow
+    img 16127
+    with fade
+    m "Что за мерзкое название?"
+    img 16098
+    with diss
+    philip "Я предлагаю Вам быть моей личной шлюхой, которая приходит ко мне по субботам..."
+    m "!!!"
+    music Groove2_85
+    img 16128
+    with fade
+    philip "Это исключение, которое я делаю далеко немногим."
+    philip "Будешь приходить в субботу. Остальные дни у меня расписаны."
+    philip "Вообще, субботняя шлюха у меня уже есть... Но она иногда по субботам приходить не может."
+    img 16091
+    with diss
+    philip "Поэтому Вы, Миссис Бакфетт, будете субботней шлюхой номер два... На замену."
+    philip "Придете ко мне вечером в субботу. Я плачу 100 долларов за вечер."
+    music Power_Bots_Loop
+    img 16095
+    with fade
+    m "!!!"
+    m "Я никогда на такое не пойду!"
+    # Моника злобно смотрит на него, тот улыбается мерзкой улыбочкой
+    music Groove2_85
+    img 16129
+    with diss
+    philip "Не забудьте, Миссис Бакфетт! Вечером в субботу."
+    music Power_Bots_Loop
+    img 16099
+    with fade
+    sound highheels_short_walk
+    m "Иди к черту!"
+    m "!!!"
+    # Моника уходит
+#    $ log1 = _("У меня появилась возможность дополнительного заработка по субботам. У Филиппа. Но смогу ли я?") # квест лог
+    return
+
+label gallery_16262:
+
+    # Моника оглядывается с отвращением
+
+    music Pyro_Flow
+    img 16256
+    with fadelong
+    m "Это и есть твое уединенное место?!"
+    m "Это что вообще?! Служебный коридор?!"
+    img 16257
+    with fade
+    m "!!!"
+    m "Ты же говорил, что у тебя есть ключи от номера..."
+    # служащий, смущаясь
+    music Groove2_85
+    img 16258
+    with diss
+    hotel_staff "Это у мистера Филиппа есть деньги на номер в отеле."
+    hotel_staff "Он водит в специальные номера всех девушек, которые стоят больше $ 100."
+    hotel_staff "А я всего лишь служащий здесь и у меня нет столько денег."
+    img 16259
+    with diss
+    hotel_staff "Если бы я сразу сказал, что это обычный коридор..."
+    hotel_staff "То Вы не согласились бы, Мэм."
+    hotel_staff "Однако, прошу Вас, поверьте! Здесь никто никогда не ходит!"
+    # Моника оглядывается, при этом думает
+    img 16260
+    with fade
+    mt "У этого мерзавца Филиппа совести и денег хватает только на грязный туалет!"
+    mt "Сволочь! Наговорил этому неудачнику непонятно что про меня!!!"
+    mt "..."
+    music Pyro_Flow
+    img 16261
+    with diss
+    mt "Стоп... Он водит в номера только тех, кто стоит дороже $ 100???"
+    mt "Но Я... Вот сволочь!!!"
+    mt "Ненавижу его!"
+    music Groove2_85
+    img 16262
+    with fade
+    hotel_staff "Кхм..." # Моника смотрит на него
+    hotel_staff "Мэм, мне очень хотелось бы, чтобы Вы..."
+    hotel_staff "Поработали своим ротиком..." # очень смущается
+
+    # если Халдей имел blowjob с Моникой
+    if monicaMadeBlowjobToHotelStaff == True:
+        img 16263
+        with diss
+        hotel_staff "У Вас очень удобный для члена ротик..."
+        #
+        $ notif(_("Моника по приказу Филиппа делала служащему отеля минет в туалете"))
+        #
+        hotel_staff "Мне в прошлый раз очень понравилось..."
+        hotel_staff "И мне хочется повторить..."
+
+    if monicaMadeBlowjobToPhilip == True and hotelStaffOffended1 == False:
+        # Моника хорошо относилась к Халдею и он ушел, не став оставаться на сцену
+        img 16263
+        with diss
+        hotel_staff "У Вас очень удобный для члена ротик..."
+        #
+        $ notif(_("Моника была вежлива со служащим отеля и он не остался в туалете, как предлагал ему Филипп."))
+        #
+        music Power_Bots_Loop
+        # Моника возмущенно
+        img 16264
+        with hpunch
+        m "Что?!"
+        m "Да как ты смеешь так со мной говорить?!"
+        m "!!!"
+        music Groove2_85
+        img 16265
+        with fade
+        hotel_staff "Но, Мэм..."
+        hotel_staff "Так сказал мистер Филипп. А еще он сказал, что Вы согласитесь..."
+        hotel_staff "Я отказался от Вашего предложения в прошлый раз..."
+        img 16266
+        with diss
+        hotel_staff "Но потом жалел об этом. Я... Я передумал."
+        hotel_staff "И хочу, чтобы Вы сделали это, Мэм..."
+        mt "Этот неудачник Филипп еще пожалеет об этом!"
+        #
+
+    img 16267
+    with diss
+    mt "!!!"
+    menu:
+        "Как он смеет предлагать мне подобное?!":
+            # Монику бомбит
+            music Power_Bots_Loop
+            img 16268
+            with fade
+            m "Как ты смеешь предлагать мне подобное?!"
+            m "!!!"
+            m "Никчемный неудачник!"
+            sound highheels_short_walk
+            img 16269
+            with diss
+            m "Оставь себе свои 55 долларов и развлекай себя сам!"
+            m "Я ни за что не стану делать этого!!!"
+            m "!!!"
+            # Моника зло на него смотрит и уходит
+            return
+        "Сделать ему минет.":
+
+            pass
+    # служащий мнется и стесняется
+    img 16270
+    with fade
+    hotel_staff "Мэм, простите, что я говорю что-то не так..."
+    hotel_staff "Просто я очень... Стесняюсь... И никак не хотел Вас обидеть."
+    hotel_staff "..."
+    music Pyro_Flow
+    img 16271
+    with diss
+    m "Ну и отлично! Тогда я пошла."
+    img 16272
+    with diss
+    mt "Достаточно и того, что мне не нужно оплачивать чек."
+    music Groove2_85
+    img 16273
+    with fade
+    hotel_staff "Мэм, в таком случае. Я вынужден буду сообщить охране, что Вы не оплатили свой чек."
+    # при этом он снимает штаны и смотрит на нее выжидающе
+    music Pyro_Flow
+    img 16274
+    with diss
+    m "Никчемный сотрудник никчемного отеля!"
+    sound snd_fabric1
+    img 16275
+    with fade
+    hotel_staff "Мэм, простите, но я жду, когда Вы начнете..."
+    music Pyro_Flow
+    img 16276
+    with diss
+    mt "Черт! И зачем я только согласилась?!"
+    # Моника подходит к нему, смотрит на него
+    sound highheels_short_walk
+    img 16277
+    with fade
+    mt "Моника, неужели ты сейчас сделаешь это?!"
+    mt "Но ведь 55 долларов не будут лишними..."
+    img 16278
+    with diss
+    mt "Да и я уже свыклась с мыслью, что мне не надо платить за счет в ресторане..."
+    mt "..."
+    mt "К черту! Все-равно об этом никто не узнает..."
+    img 16279
+    with diss
+    mt "А я в такой ситуации, когда приходится идти на жертвы..."
+    mt "Хотя я никогда не предполагала, что жертвой будет необходимость трогать член какого-то халдея..."
+    mt "Моими восхитительными губами... О БОЖЕ!!!"
+    label gallery_16283:
+    music Groove2_85
+    img 16280
+    with fade
+    hotel_staff "Мэм... Простите... Я жду..."
+    hotel_staff "Мне надо скорее закончить, ведь меня ждут важные дела..."
+    hotel_staff "В отеле много гостей и мне надо предложить каждому отести его одежду в гардероб..."
+    img 16281
+    with diss
+    mt "Это... Важные дела?!"
+    mt "Он считает это важнее того, что перед ним стою Я?!"
+    img 16282
+    with fade
+    hotel_staff "Мэм. Если Вы не решитесь, то я вынужден буду уйти."
+    hotel_staff "А Вы - платить за счет в ресторане..."
+    mt "!!!"
+    # опускается перед ним на колени и берет его член в рот, начинает делать ему минет
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    sound chpok6
+    pause 1.0
+    music2 Loved_Up2
+    img 16283
+    with fadelong
+    hotel_staff "ОООООО!!!"
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_2_1 = Movie(play="video/v_Monica_Helper_Blowjob_2_1.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob_2_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    img 16284
+    with fade
+    hotel_staff "Какой каааайф!"
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_2_2 = Movie(play="video/v_Monica_Helper_Blowjob_2_2.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob_2_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img 16285
+    with diss
+    hotel_staff "ААААААХ! О, Мэм, сделайте так еще раз!"
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_2_3 = Movie(play="video/v_Monica_Helper_Blowjob_2_3.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob_2_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    img 16286
+    with fade
+    hotel_staff "Да, еще-еще!"
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_2_4 = Movie(play="video/v_Monica_Helper_Blowjob_2_4.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob_2_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    img 16287
+    with diss
+    hotel_staff "МММММММ!"
+    if game.extra == True:
+        music stop
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob_2_1.ogg"
+        scene black
+        image videov_Monica_Helper_Blowjob_2_5 = Movie(play="video/v_Monica_Helper_Blowjob_2_5.mkv", fps=30)
+        show videov_Monica_Helper_Blowjob_2_5
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob_2_6 = Movie(play="video/v_Monica_Helper_Blowjob_2_6.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob_2_6
+    with fade
+    wclean
+    stop music
+    music stop
+    music2 stop
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    # заходит китаянка-админ, грозно смотрит на служащего
+    sound plastinka1b
+    music stop
+    label gallery_16292:
+    music Villainous_Treachery
+    img 16288
+    with hpunch
+    reception "Ага!!! Я так и знала!!!"
+    reception "Тебе нельзя пользоваться услугами нелегальных шлюх!"
+    sound Jump2
+    img 16289
+    with hpunch
+    hotel_staff "А... Что... Нет-нет!"
+    hotel_staff "Я не..."
+    sound snd_runaway
+    img 16290
+    with fade
+    w
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Pyro_Flow
+    # не договаривает, убегает, на ходу натягивая штаны
+    # админ смотрит теперь на Монику, та испугана
+    img 16291
+    with fadelong
+    reception "И кто посмел оказывать этому халдею такие услуги?!"
+    reception "Ага! Я так и знала, что это ты, шлюха!"
+    img 16292
+    with fade
+    reception "Еще раз тут появишься - сдам тебя полиции!!!"
+    reception "А сейчас быстро пошла отсюда, пока я не позвала охрану!"
+    # Моника смотрит на нее зло и уходит (вытирая рот)
+    img 16293
+    with diss
+    mt "!!!"
+    return
+
+label gallery_16340:
+
+    # в коридоре стоят или сидят все девочки, их четверо, Моника с китаянкой стоят перед ними
+
+    music Groove2_85
+    img 16321
+    with fadelong
+    sound highheels_short_walk
+    w
+    img 16322
+    with fade
+    reception "У нас тут дружный коллектив."
+    reception "Поэтому все девочки должны одобрить твою кандидатуру."
+    img 16323
+    with diss
+    girl_1 "А, это она... Я тут раньше ее видела..." # брюнетка, каре с челкой - смотрит нагло
+    img 16324
+    with fade
+    girl_2 "Я так и знала, что она не просто посетитель, а работает здесь..." # рыжая с каре - равнодушно
+    img 16325
+    with diss
+    girl_3 "Она и правда тут работала?!" # шатенка с хвостом - удивляется
+    # girl_4 - брюнетка с длинными волосами, молча смотрит надменно
+    img 16326
+    with fade
+    reception "Да, девочки. Я вывела ее на чистую воду."
+    reception "Она пыталась отобрать у вас клиентов."
+    img 16327
+    with diss
+    reception "Теперь она хочет стать одной из вас."
+    reception "Подходит она или нет? Как вы считаете?"
+    # Моника спрашивает у китаянки
+    img 16328
+    with fade
+    m "Эти девушки что, все работают здесь?"
+    img 16329
+    with diss
+    reception "Да. И работают они легально."
+    reception "В отличие от тебя!"
+    img 16330
+    with fade
+    mt "..."
+    mt "Черт! По-моему, они не очень дружелюбно настроены..."
+    # девочки начинают возмущаться
+    music Groove2_85
+    img 16331
+    with diss
+    girl_4 "Нас и так много..."
+    girl_4 "Зачем нам еще одна? Еще и такая?" # надменно
+    img 16332
+    with fade
+    girl_1 "Согласна. Она пыталась отнять у нас наш заработок!" # критикуя
+    girl_3 "Да ладно. Пусть разденется. Давайте посмотрим сначала на нее." # с любобытством
+    girl_1 "Да. Вдруг у нее жирная задница?"
+    music Power_Bots_Loop
+    img 16333
+    with diss
+    mt "!!!"
+    mt "На свою задницу посмотрела бы!"
+    mt "Сучка!"
+    music Groove2_85
+    img 16334
+    with diss
+    reception "Да. Давай, раздевайся!"
+    mt "???"
+    menu:
+        "Что за бред?! Я не собираюсь раздеваться!":
+            # Моника высокомерно
+            music Pyro_Flow
+            img 16335
+            with fade
+            m "Ты сейчас серьезно?!"
+            m "Я должна раздеться, чтобы эти..."
+            m "Эти девушки..."
+            m "Решали, подойду я для работы или нет?!"
+            m "!!!"
+            img 16336
+            with diss
+            m "Я!"
+            m "Не собираюсь!"
+            m "Раздеваться перед вами!"
+            m "К черту ваш второсортный отель и ваши правила!"
+            img 16337
+            with fade
+            m "В отличие от вас всех я умная..."
+            m "И легко найду другой способ заработать деньги!"
+            # Моника зло на нее смотрит и уходит
+            img 16338
+            with diss
+            reception "Посмотрим, как много ты заработаешь..." # ехидно
+            reception "На нищих с улицы!"
+            sound highheels_short_walk
+            img 16339
+            with fade
+            reception "Когда в кармане не останется ни цента..."
+            reception "Ты знаешь, к кому обращаться." # Монике вслед
+            # Моника поворачивает, бросает злобный взгляд
+            m "Сучка!!!"
+            # уходит
+            return
+        "Раздеться.":
+            pass
+    # Моника раздевается и стоит перед девочками голая, прикрываясь
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    music Loved_Up
+    img 16340
+    with fadelong
+    w
+    img 16341
+    with fade
+    mt "!!!"
+    mt "Эти сучки осматривают меня, как товар."
+    mt "Как это мерзко!"
+    # девочки ее обсуждают
+    music Groove2_85
+    img 16342
+    with diss
+    girl_2 "А она красивая..." # равнодушно
+    girl_1 "Да ну! А вдруг у нее задница жирная?" # критикуя
+    girl_3 "А ну-ка повернись!" # с любобытством
+    # girl_4 смотрит надменно
+    img 16343
+    with diss
+    reception "Чего стоишь?! Поворачивайся!"
+    mt "!!!"
+    # Моника поворачивается
+    music Loved_Up
+    img 16344
+    with fadelong
+    w
+    img 16345
+    with diss
+    girl_3 "Ну смотри, у нее отличная задница!"
+    girl_1 "Ну и что? Зачем нам еще одна нужна?"
+    girl_1 "Да, девочки? Зачем она нам?"
+    girl_2 "Ага..." # равнодушно
+    music Groove2_85
+    img 16346
+    with fade
+    reception "Послушайте, вы всегда отказываетесь обслуживать проблемных клиентов..."
+    girl_3 "Пффф... С какой стати мы должны обслуживать всяких козлов?!"
+    img 16347
+    with diss
+    reception "А у нас приличное заведение с отличной репутацией."
+    reception "Ни один клиент не должен уйти неудовлетворенным, даже проблемный!"
+    img 16348
+    with fade
+    girl_4 "Ты хочешь, чтобы она работала с проблемными? Не отбирала наших?" # с насмешливой легкой улыбкой
+    img 16349
+    with diss
+    reception "Да, все верно."
+    mt "!!!"
+    reception "Она провинилась и ей нужно сначала заслужить наше доверие."
+    reception "Поэтому она будет работать с проблемными клиентами!"
+    music Pyro_Flow
+    img 16350
+    with fade
+    mt "О боже! Они хотят меня отправить ко всяким извращенцам!!!"
+    mt "С которыми сами не хотят работать!!!"
+    mt "!!!"
+    music Groove2_85
+    img 16351
+    with diss
+    girl_4 "Думаю, это хорошая идея..."
+    img 16352
+    with fade
+    girl_1 "Давно надо было так сделать!"
+    girl_3 "Да, я согласна с девочками! А ты что скажешь?" # спрашивает у girl_2
+    img 16353
+    with diss
+    girl_2 "Ага. Я тоже так считаю..."
+    # админ обращается к Монике
+    img 16354
+    with fade
+    reception "Можешь одеться."
+    # кадр меняется. Моника стоит на том же месте, уже в одежде
+    m "..."
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    music Groove2_85
+    img 16355
+    with fadelong
+    reception "Ну что? Ты согласна работать с теми, кого мы тебе дадим?"
+    reception "У нас здесь строгие правила."
+    reception "Будешь зарабатывать 50 процентов от суммы, оплаченной клиентом."
+    img 16330
+    with fade
+    mt "50 процентов? Всего?"
+    m "..."
+    img 16356
+    with diss
+    reception "Решение по вопросу чаевых принимается отдельно."
+    reception "Нельзя говорить 'нет' клиентам."
+    reception "Любая запрошенная услуга, если она есть в прайсе, должна быть оказана!"
+    img 16357
+    with fade
+    reception "А в нашем прайсе есть практически все!"
+    reception "За отказ или грубость к клиенту - предупреждение или увольнение."
+    reception "И еще у тебя нет права выбирать клиентов, как у других девушек."
+    mt "!!!"
+    img 16358
+    with diss
+    reception "Тебе нужно просто сидеть за столиком. Клиент сам подойдет к тебе."
+    reception "А если поступит вызов, то тебя позовут."
+    img 16334
+    with fade
+    reception "Если согласна на такие условия..."
+    reception "То завтра можешь приступать к работе."
+    img 16359
+    with diss
+    mt "..."
+    menu:
+        "Нет. Я не смогу.":
+            # Моника нерешительно
+            music Pyro_Flow
+            img 16360
+            with fade
+            mt "Она сказала, что у меня будут проблемные клиенты..."
+            mt "Значит, будут одни извращенцы."
+            img 16361
+            with diss
+            mt "Неизвестно, чего мне от них ожидать..."
+            mt "Нет! Я не могу согласиться на такое!"
+            music Groove2_85
+            img 16335
+            with fade
+            m "Я..."
+            m "Я не смогу..."
+            m "Мне нужно время, чтобы подумать..."
+            img 16338
+            with diss
+            reception "Здесь у тебя будет неплохой заработок..."
+            reception "Если, конечно, будешь хорошо себя вести с клиентами."
+            img 16339
+            with fade
+            reception "Подумай..."
+            reception "Ты знаешь, где меня найти."
+            # Моника уходит
+            return
+        "Согласиться.":
+            pass
+    # Моника сомневаясь
+    music Pyro_Flow
+    img 16361
+    with fade
+    mt "Она сказала, что у меня будут проблемные клиенты..."
+    mt "Значит, будут одни извращенцы."
+    mt "Неизвестно, чего мне от них ожидать..."
+    mt "..."
+    img 16360
+    with diss
+    mt "С другой стороны, мне нужны деньги."
+    mt "А 50 процентов от суммы, которую платит здесь клиент - это немало."
+    mt "Мне ничего не мешает сейчас согласиться..."
+    mt "А если что-то пойдет не так с клиентом, я просто уйду отсюда и все."
+    mt "Мне нужно попытаться заработать хоть какие-то деньги..."
+    # Моника нерешительно
+    music Groove2_85
+    img 16322
+    with fade
+    m "Я..."
+    m "Согласна на любую работу."
+    m "Обещаю, что не буду отбирать у девочек их клиентов."
+    # брюнетка с каре
+    img 16362
+    with diss
+    girl_1 "Да зачем она нам нужна?!"
+    girl_1 "Давай, не будем ее брать!"
+    img 16363
+    with fade
+    reception "Все! Решение принято, вопрос закрыт!" # обращаясь к girl_1
+    reception "Все, девочки! Расходимся! Пора работать!"
+    # девочки расходятся и смотрят на Монику, кто с любопытством, кто надменно
+    music stop
+    img black_screen
+    with diss
+    sound highheels_short_walk
+    pause 0.5
+    sound highheels_short_walk
+    music Groove2_85
+    img 16364
+    with fadelong
+    w
+    sound highheels_short_walk
+    img 16365
+    with fade
+    girl_4 "Добро пожаловать в наш дружный коллектив." # насмешливо, проходя мимо Моники
+    music Pyro_Flow
+    mt "!!!" # смотрит на нее подозрительно
+    img 16366
+    with diss
+    mt "Они тут все сучки! А эта - особенно."
+    m "..."
+    music Groove2_85
+    img 16326
+    with fade
+    reception "Да, совсем забыла... Как тебя зовут то?"
+    img 16328
+    with diss
+    m "Меня зовут..."
+
+    m "Меня зовут [monica_hotel_name]."
+    # девочки разошлись, админ обращается к Монике
+    img 16329
+    with fade
+    reception "Завтра жду тебя на работе, [monica_hotel_name]!"
+#    $ log1 = _("Прийти в отель ЛеГранд завтра.")
+#    $ log1 = _("Мне предложили работу в эскорте! Неужели я решусь на такое?! Хотя... Там можно неплохо заработать.") # квест лог
+    return
+
+label gallery_16404:
+
+    # Филипп садится на диван перед ТВ
+    music Groove2_85
+    img 16385
+    with fadelong
+    philip "У меня была тяжелая неделя."
+    philip "Я хочу, чтобы шлюха номер 2 расслабила меня своим ротиком."
+    mt "..."
+    # он берет пульт от ТВ и смотрит телевизор
+    music Pyro_Flow
+    img 16386
+    with fade
+    mt "Моника, неужели ты способна на такое пойти?!"
+    menu:
+        "Убежать!":
+            # Моника смотрит с отвращением
+            img 16387
+            with diss
+            mt "Этот мерзавец обращается со мной, как с дешевой шлюхой..."
+            mt "Я не могу пойти на это!"
+            img 16388
+            with fade
+            m "Нет. Я..."
+            m "Я не буду этого делать!"
+            m "Я не могу!"
+            sound highheels_short_walk
+            img 16389
+            with diss
+            m "!!!"
+            # Моника уходит
+            return
+        "Сделать, что требует Филипп.":
+            pass
+    # Филипп поворачивается к Монике
+    music Groove2_85
+    img 16390
+    with diss
+    m "..."
+    philip "В чем дело? Мне долго еще ждать?"
+    img 16387
+    with fade
+    mt "..."
+    mt "Боже! Как же это все омерзительно!"
+    mt "Но мне нужны эти деньги..."
+    # Моника подходит к дивану, на котором сидит Филипп, и опускается перед ним на колени
+    img 16391
+    with diss
+    philip "Открывай свой ротик и приступай к работе."
+    # расстегивает ширинку, достает член и продолжает смотреть в ТВ
+    music stop
+    img black_screen
+    with diss
+    sound snd_zip
+    pause 1.5
+    music Groove2_85
+    img 16392
+    with fade
+    m "Я тебе буду делать это... А ты... Будешь смотреть телевизор?!"
+    m "!!!"
+    img 16393
+    with diss
+    philip "Это тебя не касается."
+    philip "Шлюха номер 2 должна отрабатывать свои деньги..."
+    philip "А не задавать мне глупые вопросы."
+    music Power_Bots_Loop
+    img 16394
+    with fade
+    mt "!!!"
+    mt "Мерзавец!"
+    mt "Ненавижу!!!"
+    # Моника берет в рот его член, Филипп в это время продолжает смотреть ТВ со скучающим видом
+    # минет
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    sound chpok6
+    pause 1.0
+    music2 Loved_Up
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Philip_Blowjob2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob2_1 = Movie(play="video/v_Monica_Philip_Blowjob2_1.mkv", fps=30)
+    show videov_Monica_Philip_Blowjob2_1
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img 16395
+    with fadelong
+    philip "Да... Вот так..."
+    img 16396
+    with fade
+    w
+    sound keyboard
+    img 16397
+    with diss
+    w
+    sound keyboard
+    img 16398
+    with diss
+    w
+    sound keyboard
+    img 16399
+    with fade
+    philip "Возьми его глубже..."
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Philip_Blowjob2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob2_2 = Movie(play="video/v_Monica_Philip_Blowjob2_2.mkv", fps=30)
+    show videov_Monica_Philip_Blowjob2_2
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+
+    img 16400
+    with diss
+    w
+    sound keyboard
+    img 16401
+    with fade
+    w
+    sound keyboard
+    img 16402
+    with diss
+    w
+    sound keyboard
+    img 16403
+    with diss
+    w
+    music2 Loved_Up2
+    img 16404
+    with fade
+    philip "Еще глубже."
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Philip_Blowjob2_1.ogg"
+    scene black
+    image videov_Monica_Philip_Blowjob2_3 = Movie(play="video/v_Monica_Philip_Blowjob2_3.mkv", fps=30)
+    show videov_Monica_Philip_Blowjob2_3
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img 16405
+    with diss
+    w
+    img 16406
+    with fade
+    w
+    sound keyboard
+    img 16407
+    with diss
+    w
+    sound keyboard
+    img 16408
+    with diss
+    w
+    if game.extra == True:
+        music stop
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Philip_Blowjob2_1.ogg"
+        scene black
+        image videov_Monica_Philip_Blowjob2_4 = Movie(play="video/v_Monica_Philip_Blowjob2_4.mkv", fps=30)
+        show videov_Monica_Philip_Blowjob2_4
+        with fade
+        philip "Мммммм..."
+        wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img 16409
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    w
+    img 16410
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    sound man_moan18
+    philip "Мммммм..."
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Groove2_85
+    # сперма стекает изо рта Моники
+    img 16411
+    with fadelong
+    philip "Теперь проглоти это."
+    m "..."
+    menu:
+        "Выплюнуть.":
+            # Моника смотрит на него с отвращением
+            music Pyro_Flow
+            img 16412
+            with fade
+            mt "Я не смогу проглотить это!"
+            mt "Меня стошнит."
+            # выплевывает
+            img 16413
+            with diss
+            m "Я не буду этого делать!"
+            m "Я не могу!"
+            m "!!!"
+            # Моника уходит
+#            sound highheels_short_walk
+#            img 16389
+#            with fade
+#            w
+#            pass
+        "Проглотить.":
+            pass
+            img 16414
+            with fade
+            sound snd_gulp
+            w
+    # Филипп достает из кармана купюру 100 долларов и кидает ее на диван
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    music Groove2_85
+    img 16415
+    with fade
+    philip "Субботняя шлюха номер 2 может забрать свои деньги."
+    philip "И уходить."
+    # Моника забирает деньги
+    img 16416
+    with diss
+    m "..."
+    img 16419
+    with fade
+    menu:
+        "Попросить еще денег.":
+            img 16417
+            with diss
+            mt "Может, поросить у него еще денег?"
+            mt "Ведь в прошлый раз он заплатил мне 300 долларов."
+            img 16420
+            with fade
+
+            m "Филипп, я..."
+            m "..."
+            m "Хотела спросить, не мог бы ты дать мне еще немного денег?"
+            # поворачивается к ней
+            img 16421
+            with diss
+            philip "???"
+            philip "Моей субботней шлюхе нужны деньги?"
+            img 16422
+            with diss
+            philip "Я тебе их только что заплатил."
+            philip "Хочешь еще денег - приходи через неделю."
+            # отворачивается
+            music Pyro_Flow
+            img 16423
+            with fade
+            mt "Жадный неудачник!"
+            return
+        "Уйти.":
+            pass
+    music Pyro_Flow
+    img 16417
+    with diss
+    mt "Сволочь!"
+    mt "!!!"
+    sound highheels_short_walk
+    img 16418
+    with fade
+    # Моника уходит
+    return
+
+label gallery_16446:
+
+    # Филипп садится на диван
+    music Groove2_85
+    img 16424
+    with fadelong
+    philip "Сейчас шлюха номер 2 предложит мне себя, как в прошлый раз."
+    philip "А я пока подумаю, что я с ней сегодня сделаю."
+    # выбор: уйти или предложить себя Филиппу
+    music Pyro_Flow
+    img 16386
+    with fade
+    mt "Моника, неужели ты способна на такое пойти?!"
+    mt "..."
+    menu:
+        "Убежать!":
+            # Моника смотрит с отвращением
+            img 16387
+            with diss
+            mt "Этот мерзавец обращается со мной, как с дешевой шлюхой..."
+            mt "Я не могу пойти на это!"
+            img 16425
+            with fade
+            m "Нет. Я..."
+            m "Я не буду этого делать!"
+            m "Я не могу!"
+            m "!!!"
+            # Моника уходит
+            sound highheels_short_walk
+            img 16418
+            with diss
+            return
+        "Предложить себя Филиппу.":
+            pass
+    # Моника стоит перед ним в нерешительности
+    music Groove2_85
+    img 16426
+    with diss
+    m "..."
+    m "Ч-что мне сделать?"
+    img 16427
+    with fade
+    philip "Задирай платье и нагибайся, раздвинув ноги."
+    # Моника поворачивается к нему задом и делает, как он сказал
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    music Loved_Up
+    img 16428
+    with fade
+    w
+    img 16429
+    with diss
+    philip "Что же шлюха может предложить мне сегодня?"
+    philip "Возможно, свою задницу?"
+    music Pyro_Flow
+    img 16430
+    with fade
+    mt "О, нет! Он хочет сделать это с моей попой?!"
+    mt "Нет! Я не перенесу этого!"
+    mt "!!!"
+    music Loved_Up
+    img 16431
+    with diss
+    philip "Хммм... Нет, задницу я оставлю на потом..."
+    philip "Я подожду, когда твои акции подешевеют..."
+    philip "А сейчас... Может быть, ротик?"
+    # Филипп расстегивает штаны, достает стояк, начинает подрачивать его
+    img 16432
+    with diss
+    philip "Субботняя шлюха, повернись и покажи мне свою грудь, приспусти платье."
+    # Моника поворачивается и приспускает платье, смотрит на него зло
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    music Loved_Up
+    img 16433
+    with fade
+    philip "Хорошо. Мне нравится, что моя шлюха такая послушная."
+    img 16434
+    with diss
+    mt "Сволочь!"
+    mt "!!!"
+    img 16435
+    with fade
+    philip "Кстати, я даже не предложил своей субботней шлюхе номер 2 присесть..."
+    philip "Иди сюда. Присаживайся."
+    # Моника смотрит на диван и делает шаг
+    img 16436
+    with diss
+    philip "Нет, не на диван. Садись на мой член."
+    img 16437
+    with diss
+    menu:
+        "Убежать!":
+            # Моника смотрит с отвращением
+            music Pyro_Flow
+            img 16438
+            with fade
+            mt "Этот мерзавец обращается со мной, как с дешевой шлюхой..."
+            mt "Я не могу пойти на это!"
+            img 16439
+            with diss
+            m "Нет. Я..."
+            m "Я не буду этого делать!"
+            img 16440
+            with fade
+            sound highheels_short_walk
+            m "Я не могу!"
+            m "!!!"
+            # Моника уходит
+            return
+        "Сесть на член Филиппа.":
+            pass
+    # Моника смотрит на его член
+    music Groove2_85
+    img 16441
+    with fade
+    mt "Ненавижу этого мерзавца!"
+    mt "!!!"
+    img 23177
+    with fadelong
+    w
+    sound snd_fabric1
+    img 23178
+    with fadelong
+    w
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    sound chpok6
+    pause 1.0
+    music2 Loved_Up2
+    # подходит к нему и нерешительно выполняет, сев к нему на колени, лицом к нему
+    # тот, откинувшись на диван, самодовольно ухмыляется
+    img 16442
+    with fadelong
+    philip "Давай, выполняй. Шлюха же хочет заработать денег?"
+    # секс, Моника на его коленях, двигается вверх-вниз, он лапает ее за попу и за грудь
+    img 16448
+    with fade
+    mt "Это так... Так неприятно..."
+    mt "Скорее бы это закончилось."
+    mt "Хочу забрать деньги и уйти отсюда."
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex1_1 = Movie(play="video/v_Monica_Philip_Sex1_1.mkv", fps=30)
+    show videov_Monica_Philip_Sex1_1
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img 16443
+    with diss
+    philip "Да..."
+    img 16444
+    with fade
+    philip "Давай, быстрее..."
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex1_2 = Movie(play="video/v_Monica_Philip_Sex1_2.mkv", fps=30)
+    show videov_Monica_Philip_Sex1_2
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex1_3 = Movie(play="video/v_Monica_Philip_Sex1_3.mkv", fps=30)
+    show videov_Monica_Philip_Sex1_3
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img 16445
+    with diss
+    philip "Еще..."
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex1_4 = Movie(play="video/v_Monica_Philip_Sex1_4.mkv", fps=30)
+    show videov_Monica_Philip_Sex1_4
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+
+    # Моника смотрит на него с отвращением
+    img 16446
+    with diss
+    w
+    img 16447
+    with diss
+    m "..."
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex1_5 = Movie(play="video/v_Monica_Philip_Sex1_5.mkv", fps=30)
+    show videov_Monica_Philip_Sex1_5
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img 16449
+    with fade
+    philip "Оооо... Даааа..."
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex1_7 = Movie(play="video/v_Monica_Philip_Sex1_7.mkv", fps=30)
+    show videov_Monica_Philip_Sex1_7
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    music stop
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Philip_Sex1_6 = Movie(play="video/v_Monica_Philip_Sex1_6.mkv", fps=30)
+    show videov_Monica_Philip_Sex1_6
+    with fade
+    philip "Мммммм..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    # кончает ей на платье или на живот
+    img 16450
+    with diss
+    philip "Мммммм..."
+    w
+    img 16451
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    w
+    img 16452
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    sound man_moan18
+    w
+    img 16453
+    with diss
+    w
+    # Филипп одевается и бросает на диван купюру
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    music Groove2_85
+    img 16415
+    with fade
+    philip "Это твой сегодняшний заработок."
+    philip "Субботняя шлюха номер 2 может забрать свои деньги."
+    philip "И уходить."
+    # Моника одевается и забирает деньги
+    img 16416
+    with diss
+    m "..."
+    menu:
+        "Попросить еще денег.":
+            img 16417
+            with fade
+            mt "Может, поросить у него еще денег?"
+            mt "Ведь в прошлый раз он заплатил мне 300 долларов."
+            img 16420
+            with diss
+            m "Филипп, я..."
+            m "..."
+            m "Хотела спросить, не мог бы ты дать мне еще немного денег?"
+            # смотрит на нее
+            img 16421
+            with fade
+            philip "???"
+            philip "Моей субботней шлюхе нужны деньги?"
+            img 16422
+            with diss
+            philip "Я тебе их только что заплатил."
+            philip "Хочешь еще денег - приходи через неделю."
+            # отворачивается
+            music Pyro_Flow
+            img 16423
+            with fade
+            sound highheels_short_walk
+            mt "Жадный неудачник!"
+
+            return
+        "Уйти.":
+            pass
+    music Pyro_Flow
+    img 16418
+    with fade
+    sound highheels_short_walk
+    mt "Сволочь!"
+    mt "!!!"
+    # Моника уходит
+    return
+
+label gallery_16455:
+
+    # Моника заходит в дом Филиппа, стоит рядом с входной дверью в гостиной
+    # Филипп на диване или стоит посередине гостиной
+
+    music Groove2_85
+    img 16373
+    with fadelong
+    philip "..."
+    m "Филипп, я пришла..."
+    m "..."
+    sound highheels_short_walk
+    img 16374
+    with fade
+    w
+    img 16375
+    with diss
+    philip "Скажи, кто ты?"
+    philip "Кто ко мне пришел?"
+    img 16376
+    with diss
+    m "???"
+
+    music Pyro_Flow
+    img 16377
+    with fade
+    mt "Черт!"
+    mt "Я не хочу это говорить!"
+    mt "Но если я не скажу это..."
+    img 16378
+    with diss
+    mt "Он выгонит меня и я не смогу заработать денег."
+    mt "..."
+    music Groove2_85
+    img 16379
+    with fade
+    m "Я субботняя... Субботняя ш-шлюха..."
+    philip "У меня уже есть одна субботняя шлюха. А ты кто?"
+    img 16380
+    with diss
+    m "Субботняя шлюха номер 2."
+
+
+
+    # если Филипп в этот день с шлюхой номер 1
+    # к нему подходит другая девушка с отеля и он ее обнимает
+    # шлюха номер 1 на Монику смотрит пренебрежительно
+    sound plastinka1b
+    music Loved_Up
+    img 16381
+    with fade
+    philip "У меня сегодня субботняя шлюха номер 1."
+    img 16454
+    with diss
+    philip "Субботняя шлюха номер 2 может прийти через неделю."
+    img 16455
+    with fade
+    w
+    # Моника оказывается на улице
+
+    return
+
+label gallery_16068:
+
+    # Бетти затаскивает Эрика, который пытается одной рукой уержать свои расстегнутые штаны, в комнату Барди
+    # Барди стоит у окна спиной, но поворчивается когда они заходят
+
+    music Groove2_85
+    img 16012
+    with fadelong
+    bardie "Эй, что случилось?"
+    img 16013
+    with fade
+    betty "Ты у него спрашиваешь что случилось?! Я скажу тебе!"
+    betty "Я нашла твоего друга в прачечной!"
+    img 16078
+    with diss
+    w
+    music Power_Bots_Loop
+    img 16014
+    with fade
+    betty "Он залез в шкафчик с моим бельем!!!"
+    betty "Он дергал свой... Свой отросток! И делал это на МОИ трусики!!!"
+    # Бетти злится, орет и продолжает держать Эрика за ухо
+    music Groove2_85
+    img 16015
+    with diss
+    betty "Я не хочу больше видеть этого сопляка-извращенца в моем доме!"
+    betty "Я порядочная женщина и живу в этом доме со своим мужем!"
+    img 16016
+    with diss
+    betty "И я не потерплю, что какая-то малявка приходит сюда..."
+    betty "И делает непотребства на белье супруги Ральфа!"
+    # Барди смотрит на Эрика удивленно
+    img 16017
+    with fade
+    bardie "Что он делал?"
+    bardie "Дрочил что-ли? На ее трусы?"
+    img 16018
+    with diss
+    eric "Нууу..."
+    # Барди смеется и говорит Бетти
+    img 16019
+    with fade
+    bardie "Тебе-то какое дело? Они тебе не нужны, все равно ты их не носишь!"
+    bardie "Аха-ха!"
+    # Бетти бомбит
+    music Power_Bots_Loop
+    img 16020
+    with diss
+    betty "Я не вижу здесь ничего смешного!!!"
+    betty "!!!"
+    betty "Еще раз такое повторится, я расскажу маме этого сопляка, что он тут творит!"
+    # Барди опять смеется
+    music Groove2_85
+    img 16021
+    with fade
+    bardie "Расскажешь его маме?! Аха-ха!!!"
+    img 16022
+    with diss
+    betty "!!!"
+    betty "Ничего смешного я тут не вижу!"
+    img 16023
+    with fade
+    bardie "..." # видно, что что-то задумывает
+    music Marty_Gots_a_Plan
+    bardie "Вообще-то..."
+    # потом Барди делает вид, что недоволен поведением одноклассника
+    img 16024
+    with diss
+    bardie "Эй, чувак! Это же белье моей приемной мамы..."
+    bardie "А я ее очень люблю и очень уважаю!"
+    # Бетти отпускает Эрика и удивленно смотрит на Барди
+    sound Jump1
+    img 16025
+    with fade
+    betty "???"
+    bardie "Все, Эрик! Ты больше не можешь приходить ко мне домой!"
+    # Эрик взволнованно
+    music Groove2_85
+    img 16026
+    with diss
+    eric "Нет, не надо! Барди, я могу..."
+    eric "Домашку еще поделать тебе могу! Как в прошлый раз, помнишь?"
+    eric "Еще напишу для тебя сочинение по литературе! Ты за это получишь высший балл по колледжу!"
+    # Барди делает вид, что сомневается
+    music Marty_Gots_a_Plan
+    img 16027
+    with fade
+    bardie "Домашку? Ну, помню..."
+    img 16028
+    with diss
+    eric "..."
+    eric "Только я хочу, как и в прошлый раз... Посмотреть... Ну ты понял..."
+    img 16029
+    with fade
+    bardie "..."
+    bardie "Два месяца домашки!"
+    bardie "И годовое тестирование по математике!!!"
+    img 16030
+    with diss
+    eric "Месяц домашки, если просто посмотрю!"
+    img 16031
+    with diss
+    bardie "Месяц домашки и годовое тестирование по математике!"
+    # Бетти смотрит на них с подозрением
+    music Groove2_85
+    img 16032
+    with fade
+    betty "На что ты собрался смотреть, сопляк?"
+#    music Sneaky_Snitch
+    img 16033
+    with diss
+    bardie "На тебя..."
+    bardie "Ты сейчас покажешь, как ты соблюдаешь правила этого дома. А мы с Эриком посмотрим."
+    # Бетти опять бомбит
+    music Power_Bots_Loop
+    img 16034
+    with hpunch
+    betty "ЧТОООО?!"
+    betty "Да ты охренел!!!"
+    betty "Я порядочная женщина и ни за что не стану..."
+    # Барди перебивает
+    music Groove2_85
+    img 16035
+    with fade
+    bardie "Да-да-да... Ты 'порядочная женщина' и что там еще?"
+    bardie "А, ты еще и 'верная жена'..."
+    bardie "По крайне мере, мой отец так думает. Пока что..."
+    # Бетти стоит руки в боки и смотрит на Барди зло
+    img 16036
+    with diss
+    betty "Я!"
+    betty "Не буду!"
+    betty "Этого делать!"
+    # Барди с мерзкой улыбочкой берет в руки телефон и смотрит вопросительно на нее
+    img 16037
+    with fade
+    bardie "Ты уверена?"
+    music Power_Bots_Loop
+    img 16038
+    with diss
+    betty "Ненавижу!!!"
+    betty "Мерзкая малявка!!!"
+    music Groove2_85
+    img 16039
+    with diss
+    menu:
+        "Сделать, как требует Барди.":
+            pass
+        "Послать малявку и уйти.":
+            img 16040
+            with fade
+            betty_t "Этот малявка думает, что может вытворять любую глупость, которая взбредет ему голову..."
+            betty_t "Ну уж нет! И ничего он мне за это не сделает!"
+            music Power_Bots_Loop
+            img 16041
+            with diss
+            betty "Да пошел ты к черту со своими правилами!"
+            betty "Я не буду этого делать!"
+            betty "!!!"
+            music stop
+            img black_screen
+            with diss
+            sound highheels_short_walk
+            pause 2.0
+            # уходит (поставить флаг, показывала или нет)
+            return
+    # Бетти злобно смотрит на Барди
+    img 16042
+    with fade
+    bardie "..." # Прищурившись, типа попробуй не послушайся
+    img 16022
+    with diss
+    betty "Ладно..."
+    betty "Я..."
+    betty "Я сделаю это..."
+    betty "Только быстро!"
+    betty "Подниму платье и сразу опущу!"
+    img 16043
+    with diss
+    betty "На этом все! Только на секунду, не больше!" # строго
+    betty "!!!"
+    # Барди с улыбочкой
+    img 16044
+    with fade
+    bardie "Боюсь, мне придется наказать тебя."
+    bardie "Ты споришь с хозяином дома и не хочешь слушаться его приказов."
+    # Бетти смотрит на него зло
+    img 16045
+    with diss
+    betty "!!!"
+    bardie "Ну, я жду! Быстро в угол и снимай платье!"
+    music Power_Bots_Loop
+    img 16046
+    with fade
+    betty "Да как ты смеешь?! При своем друге!!!"
+    betty "Я не буду ничего делать при нем!"
+    music Groove2_85
+    img 16047
+    with diss
+    sound keyboard
+    bardie "Будешь..."
+    # Барди нажимает что-то в телефоне
+    # Бетти пугается, хватает его за руку
+    sound Jump2
+    img 16048
+    with diss
+    betty "Хорошо! Я сделаю, что нужно...."
+    betty "Только не прикасаться ко мне!"
+    # поворачивается к Эрику
+    music Power_Bots_Loop
+    img 16049
+    with diss
+    betty "Ты понял?!"
+    # Эрик молча смотрит на нее как маньяк и кивает, что понял
+    music Sneaky_Snitch
+    img 16050
+    with fade
+    eric "Ага..."
+    # кадр меняется. Бетти стоит в углу. в одном шарфике. зло смотрит на малявок
+    # Эрик смотрит на нее и говорит Барди
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    sound snd_fabric1
+    music Loved_Up
+    img 16051
+    with fade
+    w
+    img 16052
+    with diss
+    eric "Чувак, я согласен... Два месяца домашки и годовое тестирование."
+    # Барди радостно
+    music Sneaky_Snitch
+    img 16053
+    with fade
+    bardie "Серьезно?! Точно?!"
+    img 16054
+    with diss
+    eric "Ага..."
+    img 16055
+    with diss
+    bardie "По рукам!"
+    # Барди обращается к Бетти
+    music Groove2_85
+    img 16056
+    with fade
+    bardie "Сядь на кровать и раздвинь ноги шире!"
+    # Бетти возмущенно
+    img 16057
+    with diss
+    betty "Нет!"
+    betty "!!!"
+    img 16058
+    with fade
+    sound keyboard
+    bardie "Ты снова не хочешь исполнять приказов хозяина дома?"
+    # Барди снова показывает ей свой телефон и нажимает на экран
+    bardie "Или мне это показалось, м?"
+    # Бетти зло смотрит на него
+    music Power_Bots_Loop
+    img 16059
+    with diss
+    betty_t "Ненавижу!"
+    betty_t "!!!"
+    # кадр меняется. Бетти сидит на кровати, откинувшись назад. широко раздвинув ноги
+    # Эрик рассматривает ее в упор, потом мнется, смотрит на Барди, потом на Бетти
+    # потом резко подается вперед и присасывается к ее киске (как в сцене с Моникой)
+    # Бетти
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    sound snd_fabric1
+    music Loved_Up
+    img 16060
+    with fadelong
+    w
+    img 16061
+    with fade
+    w
+    img 16062
+    with diss
+    w
+    music Turbo_Tornado
+    img 22057
+    with diss
+    w
+    sound Jump2
+    ###zvuk licking
+    img 16063
+    with hpunch
+    betty "ААААА!!!"
+    betty "Что ты делаешь?! Не смей!!!"
+    img 16064
+    with diss
+    betty "Мелкий извращенец!"
+    betty "БАРДИ!!!"
+    betty "!!!"
+    img 16065
+    with diss
+    w
+    # Барди смотрит на это и офигевает
+#    music Groove2_85
+    img 16066
+    with fade
+    bardie "Эй! Ты чего творишь?!"
+    bardie "Это же моя приемная мать!!!"
+    # Эрик продолжает еще сильнее
+    img 16067
+    with diss
+    bardie "Эй! Чувак! Ты меня слышишь?!"
+    # Эрик отстраняется от ее киски, хватается за свой член и убегает из комнаты
+    # Бетти возмущается
+    sound plastinka1b
+    music stop
+    img 16068
+    with diss
+    w
+    music Turbo_Tornado
+    img 16069
+    with fade
+    sound snd_runaway
+    w
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
+    sound snd_fabric1
+    music Power_Bots_Loop
+    img 16070
+    with hpunch
+    betty "Безобразие!"
+    betty "!!!"
+    betty "Как ты мог такое позволить?!"
+    img 16071
+    with fade
+    betty "Я твоя приемная мать! А ты заставляешь меня раздеваться перед этим... Этим сопляком-извращенцем!!!"
+    betty "И ради чего?! Ради какой-то домашки!!!"
+    betty "!!!"
+    # Барди смотрит на нее
+    music Groove2_85
+    img 16072
+    with diss
+    bardie_t "Черт! Этот придурок Эрик совсем уже головой поехал."
+    bardie_t "Ладно к моей гувернантке своим языком полез между ног..."
+    bardie_t "Но эта дура Бетти - моя приемная мать..."
+    bardie_t "Как-то стремно получилось..."
+    music Power_Bots_Loop
+    img 16073
+    with fade
+    betty "Я порядочная женщина, я не потерплю такого отношения к себе!"
+    betty "!!!"
+    # Барди отмахивается от Бетти
+    music Groove2_85
+    img 16074
+    with diss
+    bardie "Бетти, я не рассчитывал, что так будет и..." # Барди чешет репу
+    img 16075
+    with fade
+    betty "Это тебе так не сойдет с рук!"
+    img 16076
+    with diss
+    bardie "Ладно..."
+    bardie "Давай это... Короче, просто забудем об этом."
+#    music Power_Bots_Loop
+    img 16077
+    with fade
+    betty "Мерзкая малявка!" # Бетти убегает
+    img black_screen
+    with diss
+    sound highheels_run2
+    pause 2.0
+    return
