@@ -33,6 +33,7 @@ default hud_preset_default = "default"
 default minimap_coords_preset = 0
 
 default after_load_ready_to_render = False
+default nextFriday = -1
 
 label start:
     #new game
