@@ -206,7 +206,8 @@ label after_load():
         $ imageSizeClearCache()
         $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
         $ scene_data = process_character_info_buttons(scene_data) #добавляем кнопки info для персонажей со свойствами
-#        hide screen show_image_screen
+        if renpy.get_screen("show_image_screen"):
+            show screen show_image_screen(scene_image_file)
         hide screen screen_sprites
 #        if dialogue_active_flag == True or renpy.get_screen("dialogue_image_black_overlay") or renpy.get_screen("show_image_screen"):
 #        if dialogue_active_flag == True or renpy.get_screen("dialogue_image_black_overlay") or renpy.get_screen("show_image_screen"):
@@ -252,5 +253,4 @@ label call_save():
     if renpy.get_screen("say") != None or renpy.get_screen("choice") != None:
         return
     call screen save()
-    return
     return
