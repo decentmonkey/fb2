@@ -2,7 +2,8 @@ default monica_cheats_inited = False
 default monica_cheats_iteration_count = 0
 default monica_cheats_hungry_enabled = True
 label monica_cheats_init:
-    if game.extra == True and monica_cheats_inited == False:
+#    if game.extra == True and monica_cheats_inited == False:
+    if monica_cheats_inited == False:
         $ set_var("Picture", actions="lh", scene="bedroom2")
         $ add_hook("Picture", "monica_cheats", scene="bedroom2", label="cheats")
     return

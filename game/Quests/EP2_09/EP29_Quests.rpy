@@ -10,9 +10,6 @@ label ep29_quests_init:
             $ miniMapTurnedOff2 = True
             $ set_active(True, teleport=True, scene="working_office") # Включаем телепорты
 
-        if monica_pub_name == False:
-            $ add_hook("enter_scene", "ep23_quests_pub1", scene="pub")
-            $ set_active("Pub_Washbasin", False, scene="pub")
         $ ep29_quests_fix2_initialized = True
 
     return
