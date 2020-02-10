@@ -23,9 +23,17 @@ init python:
         if debugMode != True:
             return
         print "Debug!"
-        if os.path.isdir("/Users//Documents/work/browse") == True:
+        dir1 = "/Users//Documents/work/browse"
+        if os.path.isdir(dir1) == True:
             str1 = json.dumps(scenes_data)
-            f = open("/Users//Documents/work/browse/renpy_debug.json","w")
+            f = open(dir1 + "/renpy_debug.json","w")
+            f.write(str1)
+            f.close()
+            import operator
+            x = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+            sorted_x = sorted(hooks_log.items(), key=operator.itemgetter(1))
+            str1 = json.dumps(sorted_x)
+            f = open(dir1 + "/renpy_debug_hooks.json","w")
             f.write(str1)
             f.close()
         if os.path.isdir("c:/debug") == True:
