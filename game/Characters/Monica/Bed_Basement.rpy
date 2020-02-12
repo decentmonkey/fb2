@@ -9,6 +9,8 @@ default basementBedSkipUntilFridayEnabled = False
 default skipDaysInterrupted = False # Флаг того что надо заблокировать пропускание дней и проснуться
 default skipDaysActiveFlag = False # В данный момент пропускаются дни (инфа для хуков)
 
+default skipUntilFridayTargetDay = 5
+
 label basement_bed_hook:
     if act == "l":
         return True
@@ -131,12 +133,31 @@ label monica_gosleep1a:
 #            call process_hooks("basement_monica_after_sleep", "global") from _call_process_hooks_32
 #            call refresh_scene_fade() from _call_refresh_scene_fade_48
 #            return False
-        "Пропустить до Пятницы." if basementBedSkipUntilFridayEnabled == True and week_day != 5:
-            img black_screen
-            with Dissolve(0.2)
-            $ basementBedroomMonicaSleepGfx = False
-            call monica_skip_until_friday() from _call_monica_skip_until_friday
-            return False
+        "Пропустить до...":
+            menu:
+                "Пропустить до Понедельника." if basementBedSkipUntilFridayEnabled == True and week_day > 5:
+                    $ skipUntilFridayTargetDay = 1
+                    jump basement_bed_skip_until_day1
+                "Пропустить до Вторника." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 2):
+                    $ skipUntilFridayTargetDay = 2
+                    jump basement_bed_skip_until_day1
+                "Пропустить до Среды." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 3):
+                    $ skipUntilFridayTargetDay = 3
+                    jump basement_bed_skip_until_day1
+                "Пропустить до Четверга." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 4):
+                    $ skipUntilFridayTargetDay = 4
+                    jump basement_bed_skip_until_day1
+                "Пропустить до Пятницы." if basementBedSkipUntilFridayEnabled == True and week_day != 5:
+                    img black_screen
+                    with Dissolve(0.2)
+                    $ basementBedroomMonicaSleepGfx = False
+                    $ skipUntilFridayTargetDay = 5
+                    call monica_skip_until_friday() from _call_monica_skip_until_friday
+                    return False
+                "Не ложиться.":
+                    $ basementBedroomMonicaSleepGfx = False
+                    call refresh_scene_fade()
+                    return False
         "Не ложиться.":
             $ basementBedroomMonicaSleepGfx = False
             call refresh_scene_fade() from _call_refresh_scene_fade_49
@@ -165,19 +186,38 @@ label monica_gosleep1b:
 #            call process_hooks("basement_monica_after_sleep", "global") from _call_process_hooks_34
 #            call refresh_scene_fade() from _call_refresh_scene_fade_51
 #            return False
-        "Пропустить до Пятницы." if basementBedSkipUntilFridayEnabled == True and week_day != 5:
-            $ basementBedroomMonicaSleepGfx = False
-            if cloth != "Nude":
-                $ cloth_type = "Nude"
-                if monicaUnder == "Nude":
-                    $ cloth = "Nude"
-                else:
-                    $ cloth = "GovernessPants"
-                $ monicaBettyPanties = False
-            img black_screen
-            with Dissolve(0.2)
-            call monica_skip_until_friday() from _call_monica_skip_until_friday_1
-            return False
+        "Пропустить до..." if basementBedSkipUntilFridayEnabled == True and week_day != 5:
+            menu:
+                "Пропустить до Понедельника." if basementBedSkipUntilFridayEnabled == True and week_day > 5:
+                    $ skipUntilFridayTargetDay = 1
+                    jump basement_bed_skip_until_day2
+                "Пропустить до Вторника." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 2):
+                    $ skipUntilFridayTargetDay = 2
+                    jump basement_bed_skip_until_day2
+                "Пропустить до Среды." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 3):
+                    $ skipUntilFridayTargetDay = 3
+                    jump basement_bed_skip_until_day2
+                "Пропустить до Четверга." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 4):
+                    $ skipUntilFridayTargetDay = 4
+                    jump basement_bed_skip_until_day2
+                "Пропустить до Пятницы." if basementBedSkipUntilFridayEnabled == True and week_day != 5:
+                    $ basementBedroomMonicaSleepGfx = False
+                    if cloth != "Nude":
+                        $ cloth_type = "Nude"
+                        if monicaUnder == "Nude":
+                            $ cloth = "Nude"
+                        else:
+                            $ cloth = "GovernessPants"
+                        $ monicaBettyPanties = False
+                    img black_screen
+                    with Dissolve(0.2)
+                    $ skipUntilFridayTargetDay = 5
+                    call monica_skip_until_friday() from _call_monica_skip_until_friday_1
+                    return False
+                "Не ложиться.":
+                    $ basementBedroomMonicaSleepGfx = False
+                    call refresh_scene_fade()
+                    return False
         "Не ложиться.":
             $ basementBedroomMonicaSleepGfx = False
             call refresh_scene_fade() from _call_refresh_scene_fade_52
@@ -270,7 +310,7 @@ label monica_skip_until_friday: # Пропуск дней до пятницы
                 #call processHouseCleaningEvening()
                 $ changeDayTime("day")
                 call process_hooks("basement_monica_after_sleep", "global") from _call_process_hooks_56
-        if week_day != 5 and skipDaysInterrupted == False:
+        if week_day != skipUntilFridayTargetDay and skipDaysInterrupted == False:
             jump monica_skip_until_friday_loop1
 
     if skipDaysInterrupted == True:
@@ -325,3 +365,25 @@ label basement_monica_hungry_cant_sleep:
     mt "Может быть я смогу что-то найти на заправке?"
     mt "Или у кого-нибудь занять деньги на еду?"
     return
+
+label basement_bed_skip_until_day1:
+    img black_screen
+    with Dissolve(0.2)
+    $ basementBedroomMonicaSleepGfx = False
+    call monica_skip_until_friday()
+    return False
+    return
+
+label basement_bed_skip_until_day2:
+    $ basementBedroomMonicaSleepGfx = False
+    if cloth != "Nude":
+        $ cloth_type = "Nude"
+        if monicaUnder == "Nude":
+            $ cloth = "Nude"
+        else:
+            $ cloth = "GovernessPants"
+        $ monicaBettyPanties = False
+    img black_screen
+    with Dissolve(0.2)
+    call monica_skip_until_friday()
+    return False
