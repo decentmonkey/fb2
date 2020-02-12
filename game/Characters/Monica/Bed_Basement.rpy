@@ -133,7 +133,7 @@ label monica_gosleep1a:
 #            call process_hooks("basement_monica_after_sleep", "global") from _call_process_hooks_32
 #            call refresh_scene_fade() from _call_refresh_scene_fade_48
 #            return False
-        "Пропустить до...":
+        "Пропустить до..." if basementBedSkipUntilFridayEnabled == True and week_day != 5::
             menu:
                 "Пропустить до Понедельника." if basementBedSkipUntilFridayEnabled == True and week_day > 5:
                     $ skipUntilFridayTargetDay = 1
