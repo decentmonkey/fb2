@@ -135,19 +135,19 @@ label monica_gosleep1a:
 #            return False
         "Пропустить до..." if basementBedSkipUntilFridayEnabled == True and week_day != 5:
             menu:
-                "Пропустить до Понедельника." if basementBedSkipUntilFridayEnabled == True and week_day > 5:
+                "Пропустить до Понедельника." if basementBedSkipUntilFridayEnabled == True and week_day > 5 and week_day < 7:
                     $ skipUntilFridayTargetDay = 1
                     jump basement_bed_skip_until_day1
-                "Пропустить до Вторника." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 2):
+                "Пропустить до Вторника." if basementBedSkipUntilFridayEnabled == True and (week_day > 5):
                     $ skipUntilFridayTargetDay = 2
                     jump basement_bed_skip_until_day1
-                "Пропустить до Среды." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 3):
+                "Пропустить до Среды." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 2):
                     $ skipUntilFridayTargetDay = 3
                     jump basement_bed_skip_until_day1
-                "Пропустить до Четверга." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 4):
+                "Пропустить до Четверга." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 3):
                     $ skipUntilFridayTargetDay = 4
                     jump basement_bed_skip_until_day1
-                "Пропустить до Пятницы." if basementBedSkipUntilFridayEnabled == True and week_day != 5:
+                "Пропустить до Пятницы." if basementBedSkipUntilFridayEnabled == True and week_day != 5 and week_day != 4:
                     img black_screen
                     with Dissolve(0.2)
                     $ basementBedroomMonicaSleepGfx = False
@@ -188,19 +188,19 @@ label monica_gosleep1b:
 #            return False
         "Пропустить до..." if basementBedSkipUntilFridayEnabled == True and week_day != 5:
             menu:
-                "Пропустить до Понедельника." if basementBedSkipUntilFridayEnabled == True and week_day > 5:
+                "Пропустить до Понедельника." if basementBedSkipUntilFridayEnabled == True and week_day > 5 and week_day < 7:
                     $ skipUntilFridayTargetDay = 1
                     jump basement_bed_skip_until_day2
-                "Пропустить до Вторника." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 2):
+                "Пропустить до Вторника." if basementBedSkipUntilFridayEnabled == True and (week_day > 5):
                     $ skipUntilFridayTargetDay = 2
                     jump basement_bed_skip_until_day2
-                "Пропустить до Среды." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 3):
+                "Пропустить до Среды." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 2):
                     $ skipUntilFridayTargetDay = 3
                     jump basement_bed_skip_until_day2
-                "Пропустить до Четверга." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 4):
+                "Пропустить до Четверга." if basementBedSkipUntilFridayEnabled == True and (week_day > 5 or week_day < 3):
                     $ skipUntilFridayTargetDay = 4
                     jump basement_bed_skip_until_day2
-                "Пропустить до Пятницы." if basementBedSkipUntilFridayEnabled == True and week_day != 5:
+                "Пропустить до Пятницы." if basementBedSkipUntilFridayEnabled == True and week_day != 5 and week_day != 4:
                     $ basementBedroomMonicaSleepGfx = False
                     if cloth != "Nude":
                         $ cloth_type = "Nude"
