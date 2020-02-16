@@ -1,16 +1,5 @@
 default monicaShlut1PhillipBlowjob1 = False  # Моника согласилась на блоуджоб Филиппу со шлюхой номер 1
 default monicaShlut1PhillipBlowjob2 = False  # Моника делала минет Филиппу со шлюхой номер 1
-default skip_scenes_list = []
-
-label check_skip_scene(skip_scene_check_name):
-    if skip_scene_check_name in skip_scenes_list:
-        menu:
-            "Продолжить.":
-                return False
-            "Пропустить.":
-                return True
-    $ skip_scenes_list.append(skip_scene_check_name)
-    return False
 
 # если у Филиппа шлюха номер 1 и Моника оказалась на улице
 # при выборе пункта 'Мне нужны эти деньги' в диалоге со шлюхой номер 1 (ep210_dialogues2_escort_start_Phillip_13)
