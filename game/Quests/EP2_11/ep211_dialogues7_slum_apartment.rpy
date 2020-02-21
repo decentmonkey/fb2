@@ -75,7 +75,9 @@ label ep211_dialogues6_slum_apartment_2:
 label ep211_dialogues6_slum_apartment_3:
     menu:
         "Спросить про апартаменты...": #corruption
+            music DarxieLand
             img 16940
+            with fadelong
             shawarma "О, Мадаме!"
             shawarma "Вы пришли за самый вкусный кебаб в округе?"
             m "Нет. Мне не нужен твой кебаб!"
@@ -83,70 +85,92 @@ label ep211_dialogues6_slum_apartment_3:
             $ monicaShawarmaApartment1 = True # Моника спросила у продавца шавермы про квартиру
             pass
         "Уйти отсюда.":
+            music DarxieLand
             img 16940
+            with fadelong
             shawarma "О, Мадаме!"
             shawarma "Вы пришли за самый вкусный кебаб в округе?"
             img 16941
+            with fade
             mt "Нет, я пока не готова тратить деньги на апартаменты."
             mt "Мне это сейчас не по карману."
+            music Pyro_Flow
             img 16942
+            with diss
             m "Сам ешь свой отвратительный кебаб!"
             # если называла его животным
             #
             $ notif(_("Моника называла продавца шавермы животным"))
             #
             img 16943
+            with diss
             mt "Животное!"
             #
             m "!!!"
             return False
     # ехидно смотрит на него
     img 16942
+    with fade
     m "Я хотела кое-что у тебя спросить..."
     img 16944
+    with diss
     shawarma "Все, что Мадаме захотеть, Джек все сделать!"
     shawarma "Для прекрасной Мадаме Джеку ничего не жалко!"
+    music Hidden_Agenda
     img 16945
+    with fade
     m "Мне..."
     m "..."
     m "Одной моей знакомой нужны апартаменты."
     img 16946
+    with diss
     m "Она хочет их арендовать..."
     m "За небольшую плату."
     m "Ты знаешь, где можно найти что-то подходящее?"
+    music DarxieLand
     img 16947
+    with fade
     shawarma "О, Мадаме!"
     shawarma "Вы правильно сделали, что пришли ко мне!"
     shawarma "Джек все здесь знать!"
     shawarma "Для восхитительной Мадаме у Джека есть апрартаменты!"
     img 16948
+    with diss
     m "Это... Это не для меня квартира..."
     shawarma "Мадаме может не волноваться."
     shawarma "Джек никому не рассказывать!" # подмигивает ей
     img 16949
+    with fade
     m "!!!"
     m "Так у тебя есть апартаменты под аренду?" # воодушевленно
     img 16944
+    with diss
     shawarma "Конечно, Мадаме!!!"
     shawarma "И как раз сейчас они свободны!"
     shawarma "Это шикарный апрартамент! Мадаме будет очень доволен!"
     shawarma "И всего за 50 долларов за один неделя!"
     shawarma "Прекрасный Мадаме не найдет ничего дешевле!"
+    music RnB3_65
     img 16950
+    with fade
     mt "Всего 50 долларов в неделю?!"
     mt "Боже! Я не верю в эту удачу!"
     mt "Наконец-то!"
     img 16951
+    with diss
     mt "..."
     mt "Хотя... Это не такие уж маленькие деньги для меня сейчас..."
     mt "!!!"
     mt "Интересно, что это за апартаменты?"
+    music DarxieLand
     img 16945
+    with fade
     m "А где эти апартаменты находятся?"
     shawarma "Недалеко отсюда, Мадаме!"
 
 # если отказалась идти смотреть квартиру, диалог начнется с этого момента
     img 16940
+    with diss
     shawarma "Мадаме хочет посмотреть свой будущий шикарный апрартамент?"
     m "..."
     menu:
@@ -154,23 +178,33 @@ label ep211_dialogues6_slum_apartment_3:
             $ monicaShawarmaApartment2 = True # Моника сразу согласилась посмотреть квартиру продавца шавермы
             pass
         "Нет. $ 50 в неделю - это слишком дорого.":
+            music Groove2_85
             img 16941
+            with fade
             mt "Я пока не готова тратить деньги на жилье."
             mt "Мне это сейчас не по карману."
             img 16942
+            with diss
             m "Нет."
             m "Мне нужно еще подумать."
+            music DarxieLand
             img 16944
+            with fade
             shawarma "Если Мадаме надумает, может приходить к Джеку!"
             shawarma "Джек будет рад помочь прекрасной Мадаме!"
             return False
     # подозрительно
+    music Hidden_Agenda
     img 16945
+    with fade
     m "А там никто больше не будет жить, кроме меня?"
+    music DarxieLand
     img 16947
+    with diss
     shawarma "Конечно, нет!"
     shawarma "Мадаме будет хозяйкой в этот шикарный апрартамент!"
     img 16946
+    with fade
     m "Отлично!"
     m "Я хочу их посмотреть!"
     # Некоторое время спустя Моника и животное оказываются в новой локации перед страшным домом в трущобах
@@ -201,75 +235,109 @@ label ep211_dialogues6_slum_apartment_5:
 # квартира Моники
 label ep211_dialogues6_slum_apartment_6:
     # Моника стоит посередине квартиры
+    music Groove2_85
     img 16968
+    with fadelong
     w
     img 16953
+    with fade
     w
     img 16954
+    with diss
     m "Куда ты меня привел?!"
     m "Это что?! Квартира?!"
     m "?!?!?!"
+    music DarxieLand
     img 16955
+    with fade
     shawarma "Да, Мадаме!"
     shawarma "Теперь это Ваш шикарный апрартамент!"
+    music Power_Bots_Loop
     img 16956
+    with hpunch
     m "Шикарный?!"
     m "Да ты охренел?!"
+    music DarxieLand
     img 16957
+    with fade
     shawarma "В этот прекрасный апрартамент раньше жить рабочие."
     m "Рабочие?!"
     img 16958
+    with diss
     shawarma "Да! Они делать ремонт в очень богатых местах!"
     shawarma "Может быть, Мадаме слышать про отель Ле Фгранд или офис Модный Журнал?"
+    music Power_Bots_Loop
     img 16959
+    with fade
     m "!!!"
+    music DarxieLand
     img 16960
+    with diss
     shawarma "Рабочий, который делать такую хорошую работу, всегда любить комфорт и чистота."
     shawarma "Они бы не жить здесь, если бы это место не быть таким хорошим!"
     img 16961
+    with fade
     m "..."
-    m "А что это за убогие обои?! Это тоже от рабочих?"
+    m "А что это за убогая картина?! Это тоже от рабочих?"
     img 16962
+    with diss
     shawarma "Нет, Мадаме."
     shawarma "Еще раньше здесь жить прекрасный женщин, чистый ангел!"
     shawarma "Он оказывать здесь небольшие услуги уважаемым жителям нашей улица!"
+    music Power_Bots_Loop
     img 16963
+    with fade
     mt "Боже! Какой кошмар!"
+    music DarxieLand
     img 16964
+    with diss
     shawarma "Ну что? Мадаме будет жить в этот шикарный квартир?"
 ########
     img 17053
+    with fade
     shawarma "Джек специально для Мадаме приготовить самый восхитительный напиток!"
     shawarma "Напиток богов!"
     # указывает на столик с мохито
     shawarma "Вот он, Мадаме!"
     shawarma "Великолепный махит для прекрасный леди!"
+    music Groove2_85
     img 17054
+    with diss
     m "..."
     m "Я не пью!"
+    music DarxieLand
     img 16985
+    with fade
     shawarma "А здесь и нет алкоголь, Мадаме!"
     shawarma "Я просто налить воды из крана!"
     shawarma "Джек стараться специально для Вас!"
     img 17055
+    with diss
     shawarma "В этот апартмент есть шикарный кухня, где можно делать махит каждый день!"
     shawarma "А потом садиться на этот прекрасный стул для пляж!"
     shawarma "И наслаждаться этот изумительный вид из окна!" # указывает на окно
+    music Groove2_85
     img 16978
+    with fade
     m "Ты что, издеваешься?!"
     m "Где здесь окно с изумительным видом?!"
     m "!!!"
+    music DarxieLand
     img 17056
+    with diss
     shawarma "А Мадаме пить напиток богов и представлять, что за теми домами океан!"
     shawarma "Чистейший песок, прозрачный волны и крики чаек..."
     img 17057
+    with fade
     shawarma "Тут даже есть рыбка на стене! Смотрите, Мадаме!" # на рыбку
     m "О Божееее!!!"
     m "..."
     img 17058
+    with diss
     shawarma "Я же Вам говорить, что Джек стараться для прекрасной Мадаме!"
     shawarma "Мадаме сейчас платить Джек деньги за шикарный апартамент..."
     shawarma "И сразу может оставаться здесь жить! И пить махит каждый день!"
+    music Groove2_85
 ##########
     m "..."
     menu:
@@ -277,83 +345,116 @@ label ep211_dialogues6_slum_apartment_6:
             $ monicaShawarmaApartment3 = True # Моника посмотрела квартиру и согласилась ее арендовать (50 баксов)
             pass
         "Уйти отсюда!":
+            music Power_Bots_Loop
             img 16965
-            m "Я не буду жить в этом!"
-            m "В этом!"
+            with hpunch
+            m "Я не буду жить в этой!"
+            m "В этой!"
             m "В этом пристанище для бомжей!!!"
             m "!!!"
+            music DarxieLand
             img 16966
+            with fade
             shawarma "Если Мадаме надумает, может приходить к Джеку!"
             shawarma "Джек будет рад помочь прекрасной Мадаме!"
             # если называла его животным
             #
             $ notif(_("Моника называла продавца шавермы животным"))
             #
+            music Power_Bots_Loop
             img 16967
+            with diss
             mt "Животное!"
             #
             m "!!!"
             # Моника уходит
             return False
+    music Groove2_85
     img 16967
+    with fade
     mt "Может быть, стоит арендовать эту грязную дыру?"
     mt "Всего 50 долларов в неделю..."
     mt "..."
     img 16969
+    with diss
     mt "Это ведь на какое-то время."
     mt "Потом я подберу себе жилье получше."
     img 16970
+    with fade
     m "Я... Я согласна арендовать эти ужасные апра... апартаменты ненадолго."
+    music DarxieLand
     shawarma "Отлично! Мадаме сделать правильный решение!"
     shawarma "Джек очень счастлив, что такой восхитительный женщин будет жить в его апрартамент!"
     img 16971
+    with diss
     m "Когда требуется оплата, прямо сейчас? Я сразу смогу здесь жить?"
     img 16972
+    with diss
     shawarma "Конечно, Мадаме сразу может тут остаться и жить!"
     shawarma "Только Джеку сначала нужен документ Мадаме..."
+    music Power_Bots_Loop
     img 16973
+    with diss
     mt "Документы?!"
     mt "Дъявол!!!"
     mt "!!!"
     mt "Что же делать?!"
+    music Hidden_Agenda
     img 16974
+    with fade
     m "Я... Я не хотела бы показывать свои документы..."
     m "Тем более, у меня их нет с собой..."
     img 16975
+    with diss
     m "Я их забыла дома..."
     m "..."
     m "Без документов никак нельзя?"
+    music DarxieLand
     img 16976
+    with fade
     shawarma "Если Мадаме хочет снять этот квартир без документ..."
     shawarma "То Джек легко помочь Мадаме с этим!"
     shawarma "Этот прекрасный апартамент не входит в жилой фонд..."
     img 16966
+    with diss
     shawarma "Поэтому здесь нет злой проверяющий миграционных бумаг!"
     shawarma "И такой прекрасный леди мочь жить здесь без документ!"
+    music Groove2_85
     img 16977
+    with fade
     m "В таком случае, мы договорились."
     m "Я арендую эту ужасную квартиру!"
+    music DarxieLand
     img 16962
+    with diss
     shawarma "Прекрасно! Джек счастлив помочь такой восхитительный женщин!"
     shawarma "Этот шикарный квартир будет стоить всего 300 долларов в неделю для Мадаме!"
+    music Power_Bots_Loop
     img 16956
+    with hpunch
     m "!!!"
     m "ЧТО?!"
     m "Ты же говорил, что она стоит $ 50 в неделю!"
     m "Почему сейчас стало $ 300?!"
     m "?!?!?!"
+    music DarxieLand
     img 16957
+    with fade
     shawarma "Специально для Мадаме!"
     shawarma "Документ есть - апартамент стоит $ 50 в неделю!"
     shawarma "Документ нет - апартамент стоит $ 300 в неделю!"
     img 16964
+    with diss
     shawarma "Джек все для Вас готов сделать, Мадаме!"
     shawarma "Мадаме никакой квартир больше не найдет, если у нее нет документ!"
     shawarma "Да еще и по специальный цена!"
+    music Groove2_85
     img 16978
+    with fade
     m "Апартаменты в трущобах за 300 долларов в неделю?!"
     m "?!?!?!"
     img 16959
+    with diss
     mt "Вот сволочь!"
     mt "!!!"
     mt "300 долларов в неделю..."
@@ -363,48 +464,66 @@ label ep211_dialogues6_slum_apartment_6:
             $ monicaShawarmaApartment4 = True # Моника согласилась арендовать квартиру за 300 баксов
             pass
         "Уйти отсюда!":
+            music Power_Bots_Loop
             img 16965
+            with hpunch
             m "Я не буду жить в этом!"
             m "В этом пристанище для бомжей!!!"
             m "Да еще и за такие деньги!"
             m "!!!"
+            music DarxieLand
             img 16966
+            with fade
             shawarma "Если Мадаме надумает, может приходить к Джеку!"
             shawarma "Джек будет рад помочь прекрасной Мадаме!"
             # если называла его животным
             #
             $ notif(_("Моника называла продавца шавермы животным"))
             #
+            music Power_Bots_Loop
             img 16967
+            with diss
             mt "Животное!"
             #
             m "!!!"
             # Моника уходит
             return False
+    music Groove2_85
     img 16979
+    with fade
     mt "Вот дъявол!"
     mt "Мне не удастся снять жилье без документов..."
     mt "Получается, что это единственный вариант, который я могу найти..."
     mt "..."
+    music DarxieLand
     img 16980
+    with diss
     shawarma "Мадаме жить один и Джек ее не беспокоить совсем."
     shawarma "Только один раз в неделю Джек приходить за деньгами."
+    music Groove2_85
     img 16981
+    with fade
     mt "И что мне делать?"
     mt "???"
     mt "С другой стороны... Это будет МОЕ жилье... МОЕ!!!"
+    music RnB3_65
     img 16982
+    with diss
     mt "О том, где я живу, никто не будет знать..."
     mt "Я буду сама себе хозяйка..."
     mt "И больше никакие никчемные деревенщины мною не будут командовать!"
     # поворачивается к Джеку
+    music Groove2_85
     img 16955
+    with fade
     shawarma "Мадаме согласен?"
     m "Деньги платить сейчас?"
     shawarma "Да. Сейчас."
     shawarma "И Мадаме может сразу оставаться жить здесь."
     img 16970
+    with diss
     m "Следующая оплата ровно через неделю?"
+    music DarxieLand
     shawarma "Джек будет приходить {c}каждая суббота вечер{/c} за деньгами."
     shawarma "Мадаме платить и оставаться здесь жить!"
     m "..."
@@ -414,36 +533,64 @@ label ep211_dialogues6_slum_apartment_6:
             pass
     # у Моники списываются с баланса деньги
     img 16983
+    with fade
     shawarma "Джек счастлив помочь прекрасной Мадаме!"
     shawarma "Джек придти за деньгами в следующий суббота."
     img 16987
+    with diss
     shawarma "Вот ключи от Ваш шикарный апартамент!"
     # ключи кладет куда-нибудь на стол и уходит
     img 16984
+    with fade
+    sound man_steps
     shawarma "До суббота, прекрасный леди!"
     img 16986
+    with diss
+    pause 2.0
+    sound snd_door_open1
+    pause 1.0
+    sound snd_door_locked1
+    pause 1.0
     m "..." # смотрит на него недовольно
     # Джек уходит
     # затемнение экрана, несколько минут спустя
     # Моника стоит возле гардероба
+    scene black_screen
+    with Dissolve(1)
+    stop music fadeout 1.0
+    call textonblack(_("Несколько минут спустя..."))
+    scene black_screen
+    with Dissolve(1)
+    sound highheels_short_walk
+    pause 1.5
+    music Groove2_85
     img 16988
+    with fadelong
     mt "Это еще что?!"
     mt "?!?!?!"
     mt "Это одежда тех рабочих, про которых говорил этот идиот?"
     img 16990
+    with fade
     mt "Фууу! Она же грязная! От нее воняет!!!"
     mt "Какого дъявола он ее здесь оставил?!"
     mt "!!!"
     img 16989
+    with diss
     mt "Нужно будет принести сюда свои наряды..."
     mt "А это все - вышвырнуть в мусорку!!!"
     mt "Я наведу здесь порядок!"
     # затемнение экрана, несколько минут спустя
     # Моника подходит к деревянной тумбочке и, открыв ее, находит там домашнюю одежду
+    scene black_screen
+    with Dissolve(1)
+    sound highheels_short_walk
+    pause 1.5
     img 16991
+    with fadelong
     mt "А это еще что за ящик?!"
     mt "Может, там что-то есть?"
     img 16992
+    with fade
     mt "Хммм... Это даже не одежда... Просто какие-то дешевые тряпки..."
     mt "Фи!"
     mt "..."
@@ -452,26 +599,37 @@ label ep211_dialogues6_slum_apartment_6:
     mt "А у меня нет домашней одежды..."
     mt "..."
     img 17051
+    with diss
     mt "Не буду же я ходить здесь в своем платье или в этом ужасном костюме!"
     mt "От этого отвратительного костюма меня уже тошнит!"
     mt "А платье я могу здесь испачкать!"
     img 17052
+    with fade
     mt "Почему бы мне не носить это дома?"
     mt "Меня все равно никто в этом не увидит."
     mt "..."
     mt "Мне нужно примерить эту одежду."
     # переодевается и смотрит на себя в зеркало. если нет зеркала, то просто смотрит на себя
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.5
+    music Groove2_85
     img 16993
+    with fadelong
     mt "..."
     mt "Выглядит, конечно, ужасно..."
     mt "Дешевые, ношенные кем-то тряпки! Фи!"
     w
     img 16994
+    with fade
     mt "И я догадываюсь, кто носил это раньше..."
     mt "..."
     mt "Но это неважно..."
     mt "Теперь эта домашняя одежда МОЯ!"
     img 16995
+    with diss
     w
     $ log1 = _("Заработать $ 300 за аренду апартаментов до субботы.")
     $ log1 = _("У меня теперь есть место, где я могу жить. Апартаменты в трущобах... Но это лучше, чем подвал в доме, где живет семейка идиотов.") # квест-лог
@@ -574,12 +732,20 @@ label ep211_dialogues6_slum_apartment_8m:
 
 label ep211_dialogues6_slum_apartment_8n:
     # мохито на столике в комнате (hand)
-    # вставить арт!!!
+    # если в домашней одежде
+    music Groove2_85
     img 17062
+    with fadelong
     w
+    # если голая
+    music Groove2_85
     img 17063
+    with fadelong
     w
+    # если в полотенце
+    music Groove2_85
     img 17076
+    with fadelong
     mt "Мне очень хочется пить..."
     mt "Пожалуй, можно сделать пару маленьких глотков..."
     return
@@ -597,66 +763,106 @@ label ep211_dialogues6_slum_apartment_9:
 # квартира Моники, вечером в субботу приходит Джек за деньгами
 label ep211_dialogues6_slum_apartment_10:
     # стук в дверь, затемнение экрана - шаги, звук открывающейся двери
+    music stop
+    img black_screen
+    with diss
+    sound snd_door_knock
+    pause 2.0
+    sound snd_door_open1
+    pause 1.0
+    sound snd_door_locked1
+    pause 1.0
+    music DarxieLand
     img 16996
+    with fadelong
     shawarma "Прекрасный Мадаме!"
     shawarma "Джек пришел взять с нее деньги за шикарный апартамент!"
+    music Groove2_85
     img 16997
+    with fade
     mt "За эту квартиру и $ 50 жалко платить..."
     m "..."
+    music DarxieLand
     img 16998
+    with diss
     shawarma "Мадаме стал еще прекрасней в этот домашней костюм!"
     shawarma "Джек не может отвести глаз от прелестной Мадаме!"
     img 16999
+    with fade
     shawarma "Вы такой яркий сияющий женщин!"
     shawarma "Я подходить к дом и видеть, как он светится, благодаря Ваша красота!"
+    music Groove2_85
     img 17000
+    with diss
     mt "Когда он уже заткнется и уйдет отсюда?!"
     m "..."
+    music DarxieLand
     img 17001
+    with fade
     shawarma "Я подумал, что Мадаме слишком прекрасен, чтобы давать Джеку целых $ 300!"
     shawarma "Джек сделать благородный поступок и предложить скидку для Мадаме!"
     img 17002
+    with diss
     m "Скидку?"
     img 17003
+    with fade
     shawarma "Да!"
     shawarma "Джек сделать скидка в 10 процент, если..."
     shawarma "Мадаме позволит прикоснуться ему к ее красота и целовать Джека!"
     mt "!!!"
     img 17004
+    with diss
     shawarma "Но это еще не все!"
     shawarma "Джек сделать очень-очень щедрый скидка для Мадаме. 20 процент!"
     shawarma "Если нефритовый стержень Джека проникать внутрь прекрасный Мадаме!!!"
+    music Power_Bots_Loop
     img 17005
+    with fade
     m "Что ты несешь?!"
     m "Что это все значит?!"
+    music DarxieLand
     img 17006
+    with diss
     shawarma "Это значит, Джек предлагать Вам выгодный сделка."
     shawarma "Скидка в 10 или 20 процент."
+    music Groove2_85
     img 17007
+    with diss
     m "..."
     menu:
         "Заплатить со скидкой.": #corruption
             menu:
                 "Скидка 10 процентов.":
                     # Моника с подозрением
+                    music Groove2_85
                     img 17008
+                    with fade
                     mt "Почему бы мне не воспользоваться его предложением?"
                     mt "Скидка мне не помешает."
                     img 17009
+                    with diss
                     m "И что мне сделать, чтобы получить эту скидку?"
+                    music DarxieLand
                     img 17010
+                    with fade
                     shawarma "У прекрасной Мадаме рот как лепесток роз!"
                     shawarma "Такой же восхитительный и нежный!"
                     shawarma "Джек будет счастлив дать в этот рот свой нефритовый стержень!"
+                    music Power_Bots_Loop
                     img 17011
+                    with hpunch
                     m "ЧТО?!"
                     m "Да как ты смеешь мне подобное предлагать?!"
                     m "!!!"
+                    music DarxieLand
                     img 17012
+                    with fade
                     shawarma "Джек делать очень щедрый и благородный предложение Мадаме..."
                     shawarma "Но если Мадаме откажется, Джек на нее не обижаться."
                     shawarma "Тогда она может просто заплатить Джеку $ 300 за шикарный квартир."
+                    music Groove2_85
                     img 17013
+                    with diss
                     mt "Черт!"
                     mt "И что же мне делать?"
                     mt "10 процентов от $ 300 - это немало."
@@ -668,7 +874,9 @@ label ep211_dialogues6_slum_apartment_10:
                             # переход к лейблу ep211_dialogues6_slum_apartment_11
                             return
                         "Ни за что!!!":
+                            music Power_Bots_Loop
                             img 17014
+                            with hpunch
                             m "Ты что, ненормальный?!"
                             m "Конечно, я не буду этого делать!"
                             m "Как ты мог вообще до такого додуматься!!!"
@@ -677,36 +885,50 @@ label ep211_dialogues6_slum_apartment_10:
                             $ notif(_("Моника называла продавца шавермы животным"))
                             #
                             img 17015
+                            with diss
                             mt "Животное!"
                             #
                             m "!!!"
+                            music DarxieLand
                             img 16962
+                            with fade
                             shawarma "Тогда Мадаме платить Джеку $ 300."
                             # jump на первоначальное меню
                             return
                     return
                 "Скидка 20 процентов.": #corruption
                     # Моника с подозрением
+                    music Groove2_85
                     img 17008
+                    with fade
                     mt "Почему бы мне не воспользоваться его предложением?"
                     mt "Скидка мне не помешает."
                     img 17009
+                    with diss
                     m "И что мне сделать, чтобы получить эту скидку?"
+                    music DarxieLand
                     img 17010
+                    with fade
                     shawarma "Красота Мадаме ослеплять Джека!"
                     shawarma "Мадаме прекрасна как древнегреческий богинь!"
                     shawarma "Джек будет счастлив, если она позволит..."
                     shawarma "Проникнуть нефритовый стержень Джека в ее сладкий дырочка!"
+                    music Power_Bots_Loop
                     img 17011
+                    with hpunch
                     m "ЧТО-О-О-О?!"
                     m "?!?!?!"
                     m "Да как ты смеешь мне подобное предлагать?!"
                     m "!!!"
+                    music DarxieLand
                     img 17012
+                    with fade
                     shawarma "Джек делать очень щедрый и благородный предложение Мадаме..."
                     shawarma "Но если Мадаме откажется, Джек на нее не обижаться."
                     shawarma "Тогда она может просто заплатить Джеку $ 300 за шикарный квартир."
+                    music Groove2_85
                     img 17013
+                    with diss
                     mt "Черт!"
                     mt "И что же мне делать?"
                     mt "20 процентов от $ 300 - это немало."
@@ -718,7 +940,9 @@ label ep211_dialogues6_slum_apartment_10:
                             # переход к лейблу ep211_dialogues6_slum_apartment_12
                             return
                         "Ни за что!!!":
+                            music Power_Bots_Loop
                             img 17014
+                            with hpunch
                             m "Ты что, ненормальный?!"
                             m "Конечно, я не буду этого делать!"
                             m "Как ты мог вообще до такого додуматься!!!"
@@ -727,10 +951,13 @@ label ep211_dialogues6_slum_apartment_10:
                             $ notif(_("Моника называла продавца шавермы животным"))
                             #
                             img 17015
+                            with diss
                             mt "Животное!"
                             #
                             m "!!!"
+                            music DarxieLand
                             img 16962
+                            with fade
                             shawarma "Тогда Мадаме платить Джеку $ 300."
                             # jump на первоначальное меню
                             return
@@ -738,42 +965,58 @@ label ep211_dialogues6_slum_apartment_10:
             return
         "Заплатить $ 300":
             # Моника с деловым видом
+            music Groove2_85
             img 17016
+            with fade
             m "Мне не нужны никакие скидки!"
             m "Я готова заплатить сумму полностью."
             m "Забирай деньги и иди!"
+            music DarxieLand
             img 17017
+            with diss
             shawarma "Отлично, Мадаме! Джек очень рад!"
             shawarma "Джек придет в {c}следующий суббота вечер{/c}!"
             shawarma "И Мадаме может не сомневаться!"
             img 17018
+            with fade
             shawarma "Джек очень благородный и щедрый!"
             shawarma "Он снова предлагать Мадаме скидку в следующий суббота!"
+            music Groove2_85
             img 17019
+            with diss
             m "Все! Иди! Мне некогда!"
             # $ 300 списываются с баланса Моники, Джек уходит
             # лейбл ep211_dialogues6_slum_apartment_19 (про квартиру и ремонт)
+            music Groove2_85
             img 17015
+            with diss
             mt "Животное!"
             mt "Как хорошо, что я его целую неделю теперь не увижу!"
             $ monicaShawarmaApartment8 = True # Моника заплатила $ 300 за квартиру (без скидки)
             return
         "У меня нет денег.":
             # Моника нерешительно
+            music Groove2_85
             img 17013
+            with fade
             mt "Что же мне делать?"
             mt "У меня не хватает денег на оплату..."
             mt "Может, он согласится подождать несколько дней?"
             m "..."
+            music Hidden_Agenda
             img 17016
+            with diss
             m "Я тебе смогу заплатить за апартаменты через несколько дней."
             m "Ты же не выселишь такую прекрасную леди, как я, на улицу?"
             m "Всего лишь несколько дней и я все оплачу."
+            music DarxieLand
             img 17017
+            with fade
             shawarma "Нет-нет, Мадаме!"
             shawarma "Джек восхищается Вашей красотой."
             shawarma "Но Джек с Мадаме договорился, что деньги будут каждый суббота."
             img 17018
+            with diss
             shawarma "Нет денег в суббота - нет шикарный апрартамент у Мадаме!"
             shawarma "Джеку, конечно, очень жаль..."
             shawarma "Но он вынужден выселять прекрасный леди прямо сейчас!"
@@ -790,80 +1033,138 @@ label ep211_dialogues6_slum_apartment_11:
 
 
     # Моника смотрит на Джека зло
+    music Groove2_85
     img 17020
+    with fade
     m "10 процентов - это сколько?"
+    music DarxieLand
     img 17021
+    with diss
     shawarma "Целых $ 30, Мадаме!"
     shawarma "Джек делать очень щедрый предложение для Вас!"
+    music Groove2_85
     img 17000
+    with fade
     mt "Черт!"
     mt "Если я соглашусь, я сэкономлю целых $ 30!"
     mt "..."
+    music Power_Bots_Loop
     img 17015
+    with diss
     m "Если об этом узнает хоть одна живая душа!!!"
     m "!!!"
+    music DarxieLand
     img 16980
+    with fade
     shawarma "Что Вы, Мадаме?!"
     shawarma "Джек честный и благородный!"
     shawarma "Джек никому не рассказать о Мадаме!"
+    music Power_Bots_Loop
     img 17014
+    with diss
     m "Если кто-то узнает, я тебя убью!"
+    music DarxieLand
     img 16996
+    with fade
     shawarma "Прекрасный Мадаме может не переживать!"
     shawarma "Джек дает слово мужчины!"
     # Джек расстегивает штаны и достает свой причиндал
+    music Groove2_85
     img 17022
+    with diss
     mt "Моника, до чего ты докатилась?"
     mt "Ты собралась делать минет какому-то неудачнику за скидку..."
     mt "..."
     img 17023
+    with diss
     mt "Но об этом ведь никто не узнает..."
     mt "Тем более он даже не догадывается кто я такая..."
     mt "..."
     mt "А я сэкономлю деньги."
     # Моника опускается на колени перед ним
     img 17024
+    with fade
     mt "Фу! Не могу поверить, что я делаю это..."
     mt "И, главное, кому?!"
     mt "Фу!!!"
     mt "!!!"
     # минет
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    music Loved_Up
     img 17025
+    with fadelong
     shawarma "О, прекрасный Мадаме!"
     img 17026
+    with fade
     shawarma "Словно лепестки роз ласкают мой нефритовый стержень!"
     img 17027
+    with diss
     shawarma "Такие нежный и сладкий губы и ротик у Мадаме."
     img 17028
+    with fade
     shawarma "Джек готов наслаждаться этим вечно!"
     img 17029
+    with diss
     shawarma "О, Мадаме! Поласкайте мой стержень своим нежным языком!"
     img 17030
+    with fade
     shawarma "Да, восхитительно!"
+    music Loved_Up2
     img 17031
+    with diss
     shawarma "Мммммм!!!"
     img 17032
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     shawarma "Ещееее!"
     img 17033
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    sound man_moan18
     shawarma "ОООООООО!!!" # кончает
     img 17034
+    with fade
+    w
     # Моника недовольно вытирает рот
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    music DarxieLand
     img 16999
+    with fadelong
     shawarma "Мадаме, мне никто не доставлял большего наслаждения, чем Вы!!!"
     shawarma "Джек сдержать свое слово и сделать для Мадаме скидку в 10 процент!"
     m "..."
     img 17001
+    with fade
     shawarma "Джек снова предлагать Мадаме скидку в следующий суббота!"
+    music Groove2_85
     img 17007
+    with diss
     m "Все! Иди! Мне некогда!"
     # $ 270 списываются с баланса Моники, Джек уходит
     # лейбл ep211_dialogues6_slum_apartment_19 (про квартиру и ремонт)
+    music Power_Bots_Loop
     img 16997
+    with fade
     mt "Животное!"
     mt "Как хорошо, что я его целую неделю теперь не увижу!"
     mt "Не могу поверить, что я сделала это!!!"
     img 17035
+    with diss
     mt "Какая мерзость!!!"
+    music Groove2_85
     mt "В следующий раз никаких скидок, Моника!"
     mt "Такой леди, как ты, не пристало заниматься подобными непотребствами!"
     mt "!!!"
@@ -877,100 +1178,173 @@ label ep211_dialogues6_slum_apartment_12:
         return True
 
     # Моника смотрит на Джека зло
+    music Groove2_85
     img 17009
+    with fade
     m "20 процентов - это сколько?"
+    music DarxieLand
     img 17003
+    with diss
     shawarma "Целых $ 60, Мадаме!"
     shawarma "Джек делать очень щедрый предложение для прекрасный леди!!!"
+    music Groove2_85
     img 16997
+    with fade
     mt "Черт!"
     mt "Если я соглашусь, я сэкономлю целых $ 60!"
     mt "..."
+    music Pyro_Flow
     mt "Моника, ты сейчас серьезно?!"
     img 17035
+    with diss
     mt "Как ты можешь даже предполагать подобное?!"
     mt "Ты действительно займешься с этим животным сексом за скидку в $ 60?!"
     mt "?!?!?!"
     mt "..."
+    music Groove2_85
     img 17008
+    with diss
     mt "Но об этом ведь никто не узнает..."
     mt "..."
     mt "А я сэкономлю деньги."
     # с угрозой
+    music Power_Bots_Loop
     img 17005
+    with hpunch
     m "Я тебя сразу предупрежаю!!!"
     m "Если об этом узнает хоть одна живая душа!!!"
     m "Если ты хотя бы намекнешь кому-то о том, что здесь сейчас будет!!!"
     img 17007
+    with diss
     m "Я тебя убью!!!"
     m "!!!"
     m "Ты меня понял?!"
+    music DarxieLand
     img 17004
+    with fade
     shawarma "Что Вы, Мадаме?!"
     shawarma "Джек честный и благородный!"
     shawarma "Джек никому не рассказать о Мадаме!"
     img 16996
+    with diss
     shawarma "Прекрасный Мадаме может не переживать!"
     shawarma "Джек дает слово мужичины!"
     # Джек расстегивает штаны и достает свой причиндал
     img 17036
+    with fade
     w
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    music DarxieLand
     img 17037
+    with fadelong
     shawarma "У Мадаме великолепный попочка!!!"
     shawarma "Сладкий и прекрасный попочка!!!"
     shawarma "Джек очень любить такие!"
+    music Power_Bots_Loop
     img 17038
+    with fade
     m "Не смей делать какие-нибудь извращенства!"
+    music DarxieLand
     img 17001
+    with diss
     shawarma "Нет-нет, что Вы, Мадаме."
     shawarma "Джек просто трогать сладкий попочка."
     shawarma "Ммммм, гладкий и упругий... как персик!"
+    music Groove2_85
     img 17008
+    with fade
     mt "Боже... Когда же он заткнется?!"
     # Моника опирается на стол или кушетку, встает задом к Джеку
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.5
+    music Loved_Up
     img 17041
+    with fadelong
     w
     img 17042
+    with fade
     mt "Фу! Не могу поверить, что я делаю это..."
     mt "!!!"
     # секс
     img 17039
+    with diss
     shawarma "О, какой сладкий дырочка у Мадаме!!!"
     img 17040
+    with fade
     shawarma "Как тепло и хорошо мой нефритовый стержень!!!"
     img 17043
+    with diss
     shawarma "Ооооо, как сладко!!!"
     shawarma "Джек готов наслаждаться этим вечно!"
     img 17044
+    with diss
     shawarma "Мммммм!!!"
     img 17045
+    with fade
     shawarma "Джек делать прекрасный Мадаме скидка каждый суббот!!!"
     img 17046
+    with diss
     shawarma "Оооо, Джек просто на седьмом небе!!!"
+    music Loved_Up2
     img 17047
+    with diss
     shawarma "Ааааа!!!"
     img 17048
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     shawarma "Мммммм!!!"
     img 17049
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    sound man_moan18
     shawarma "ОООООООО!!!" # кончает
     img 17050
+    with fade
+    w
     # Моника недовольно вытирает рот
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.0
+    music DarxieLand
     img 16999
+    with fadelong
     shawarma "Мадаме, мне никто не доставлял больший наслаждений, чем Вы!!!"
     shawarma "Джек сдержать свое слово и сделать для Мадаме скидку в 20 процент!"
     m "..."
     img 17001
+    with fade
     shawarma "Джек снова предлагать Мадаме скидку в следующий суббота!"
+    music Groove2_85
     img 17000
+    with diss
     m "Все! Иди! Мне некогда!"
     # лейбл ep211_dialogues6_slum_apartment_19 (про квартиру и ремонт)
     # $ 240 списываются с баланса Моники, Джек уходит
+    music Power_Bots_Loop
     img 16997
+    with fade
     mt "Животное!"
     mt "Как хорошо, что я его целую неделю теперь не увижу!"
     mt "Не могу поверить, что я сделала это!!!"
     img 17035
+    with diss
     mt "Какая мерзость!!!"
+    music Groove2_85
     mt "В следующий раз никаких скидок, Моника!"
     mt "Такой леди, как ты, не пристало заниматься подобными непотребствами!"
     mt "!!!"
@@ -1032,50 +1406,67 @@ label ep211_dialogues6_slum_apartment_16:
 label ep211_dialogues6_slum_apartment_17:
     menu:
         "Спросить про квартиру...":
+            music DarxieLand
             img 16940
+            with fadelong
             shawarma "О, Мадаме!"
             shawarma "Вы пришли за самый вкусный кебаб в округе?"
             shawarma "Или Мадаме хочет снова жить в шикарный апрартамент?"
             img 16942
+            with fade
             m "Я хочу вернуться в свою квартиру!"
             img 16944
+            with diss
             shawarma "Джек не может отказать такой прекрасный леди!"
             shawarma "А у Мадаме есть деньги?"
             img 16945
+            with diss
             m "Да!"
             shawarma "Мадаме может заплатить деньги Джеку прямо сейчас."
             shawarma "Джек даст Мадаме новый ключ."
             shawarma "И она может снова жить в шикарный апрартамент Джека!"
             menu:
                 "Заплатить $ 300.":
+                    music DarxieLand
                     img 16947
+                    with fade
                     shawarma "Отлично, Мадаме!"
                     shawarma "Джек счастлив, что прекрасный Мадаме снова будет жить в его апрартамент!"
                     shawarma "Вот Ваш ключ. С возвращенем, прекрасный леди!"
+                    music Groove2_85
                     img 16950
+                    with diss
                     mt "Наконец-то я могу вернуться в свою квартиру!"
                     mt "!!!"
                     $ monicaShawarmaApartment10 = True # Моника заплатила денег после ее выселения и снова может жить в квартире
                     return
                 "Нет! Я не готова платить такую сумму!":
+                    music Groove2_85
                     img 16943
+                    with fade
                     mt "Нет, я пока не готова тратить деньги на жилье."
                     mt "Мне это сейчас не по карману."
                     img 16948
+                    with diss
                     m "Я пока не готова заплатить деньги..."
                     shawarma "Если Мадаме передумает, она знать, где найти Джека!"
                     m "..."
                     return False
             return
         "Уйти отсюда.":
+            music DarxieLand
             img 16940
+            with fadelong
             shawarma "О, Мадаме!"
             shawarma "Вы пришли за самый вкусный кебаб в округе?"
             shawarma "Или Мадаме хочет снова жить в шикарный апрартамент?"
+            music Groove2_85
             img 16943
+            with fade
             mt "Нет, я пока не готова тратить деньги на жилье."
             mt "Мне это сейчас не по карману."
             img 16946
+            with diss
             m "Я пока не готова заплатить деньги..."
             shawarma "Если Мадаме передумает, она знать, где найти Джека!"
             m "..."
@@ -1096,18 +1487,26 @@ label ep211_dialogues6_slum_apartment_18:
 
 # после оплаты аренды в субботу, перед уходом Джек предлагает ей ремонт и мебель в квартире
 label ep211_dialogues6_slum_apartment_19:
+    music DarxieLand
     img 17021
+    with fade
     shawarma "О, Мадаме! Я чуть не забыть!"
     shawarma "Джек мочь сделать полезный дело для прекрасный Мадаме!"
+    music Groove2_85
     img 17020
+    with diss
     mt "???"
     m "Какое еще полезное дело?" # подозрительно
+    music DarxieLand
     img 17012
+    with fade
     shawarma "Джек привозить для Мадаме новый мебель и делать ремонт!"
     img 17059
+    with diss
     m "Серьезно?!"
     m "?!?!?!"
     img 17003
+    with fade
     shawarma "Все ради Вас, прекрасный леди!"
     shawarma "Джек очень благородный и хорошо относиться к Мадаме!"
     # если был секс
@@ -1117,29 +1516,40 @@ label ep211_dialogues6_slum_apartment_19:
     #
     # если секса не было
     shawarma "Ведь Мадаме когда-нибудь пускать нефритовый стержень Джека в свой чудесный дырочка!!!"
+    music Groove2_85
     img 17000
+    with diss
     mt "О, Боже!!!"
     mt "Он опять несет эту чушь! Это отвратительно!!!"
     mt "!!!"
     img 17009
+    with fade
     m "Ты правда сделаешь тут ремонт?" # с подозрением
     m "И привезешь новую мебель?"
+    music DarxieLand
     img 17010
+    with diss
     shawarma "Конечно, Мадаме!"
     shawarma "Джек сделать это специально для Вас!"
     m "Когда ты это сделаешь?"
     shawarma "Как только Мадаме платить - Джек мебель привозить!"
     img 17019
+    with fade
     m "То есть я заплачу за ремонт и мебель и ты эту сумму вычтешь из арендной платы?"
     img 17018
+    with diss
     shawarma "Нет, Мадаме."
     shawarma "Вы платить - Джек привозить."
     shawarma "Но аренда шикарный апартамент оставаться $ 300."
     shawarma "Мебель и ремонт оставаться потом у Джека в апартамент."
+    music Groove2_85
     img 17023
+    with fade
     mt "Сволочь, мог бы и снизить аренду!"
     mt "!!!"
+    music DarxieLand
     img 17017
+    with diss
     shawarma "Ну что? Мадаме хочет новый мебель и ремонт?"
     m "..."
     menu:
@@ -1147,12 +1557,16 @@ label ep211_dialogues6_slum_apartment_19:
 
             return
         "У меня нет на это денег.":
+            music Groove2_85
             img 17060
+            with fade
             m "Я..."
             m "Я пока не буду этого делать..."
             m "Если я передумаю, я скажу тебе об этом."
             m "..."
+            music DarxieLand
             img 17061
+            with diss
             shawarma "Хорошо, Мадаме."
             shawarma "Джеку будет приятно помочь такой прекрасный леди!"
             # Джек уходит
