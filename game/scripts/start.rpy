@@ -53,14 +53,9 @@ label start:
 
 ###################
 
-#    call ep211_dialogues6_slum_apartment_3()
-#    call ()
-#    call ()
-#    call ()
-#    call ()
-#    call ()
-#    call ()
-#    call ()
+
+#    call ep211_escort_scene2_7()
+
 
 
 
