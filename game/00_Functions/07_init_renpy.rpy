@@ -187,3 +187,5 @@ define daniel = Character(_("Дэниел"), who_color=c_blue)
 define marty = Character(_("Марти"), who_color=c_green)
 define emma = Character(_("Эмма"), who_color=c_orange)
 define natalie = Character(_("Натали"), who_color=c_pink)
+
+define banker = Character(_("Банкир"), who_color=c_green)
