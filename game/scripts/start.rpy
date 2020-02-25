@@ -54,7 +54,7 @@ label start:
 ###################
 
 
-#    call ep211_dialogues5_shiny_hole_1()
+#    call ()
 #    call ()
 #    call ()
 #    call ()
