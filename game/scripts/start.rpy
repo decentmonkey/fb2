@@ -59,11 +59,6 @@ label start:
 #    call ()
 #    call ()
 #    call ()
-#    call ()
-#    call ()
-#    call ()
-#    call ()
-
 
 
 
