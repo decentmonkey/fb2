@@ -54,9 +54,16 @@ label start:
 
 ###################
 
-#    call ep210_dialogues6_gun_monica_fred_1b()
+
 #    call ()
 #    call ()
+#    call ()
+#    call ()
+#    call ()
+
+
+
+
 ###################
 
     call intro_questions() from _call_intro_questions
