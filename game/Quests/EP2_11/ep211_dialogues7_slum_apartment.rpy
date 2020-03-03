@@ -705,6 +705,9 @@ label ep211_dialogues6_slum_apartment_8c:
     mt "На которой спит теперь эта сучка Бетти."
     mt "Но все же, на этом можно спать..."
     return
+label ep211_dialogues6_slum_apartment_8db:
+    mt "Что за кошмарная мебель здесь?!"
+    return
 label ep211_dialogues6_slum_apartment_8d:
     # деревянные стулья, столик, деревянная рыбка, тумбочка
     mt "Что за кошмарная мебель здесь?!"
@@ -714,7 +717,7 @@ label ep211_dialogues6_slum_apartment_8d:
 label ep211_dialogues6_slum_apartment_8f:
     # кухня (стены, пол)
     mt "Ужасная кухня!"
-    mt "Я не смогу готовить здесь еду!"
+#    mt "Я не смогу готовить здесь еду!"
     mt "..."
     mt "Хммм... Здесь есть что-то съедобное..."
     mt "Выглядит неплохо..."
@@ -723,7 +726,8 @@ label ep211_dialogues6_slum_apartment_8f:
 label ep211_dialogues6_slum_apartment_8g:
     # кухонная утварь, посуда
     mt "Эта посуда осталась от прежних жильцов?"
-    mt "Фи! Я не буду ее трогать!"
+    mt "Фи!"
+#    mt "Фи! Я не буду ее трогать!"
     return
 # ванная комната
 label ep211_dialogues6_slum_apartment_8h:
@@ -1605,4 +1609,75 @@ label ep211_dialogues6_slum_apartment_19:
             # Джек уходит
             $ monicaShawarmaApartment11 = True # Моника отказалась оплачивать ремонт и мебель
             return
+    return
+
+
+label ep211_dialogues6_slum_apartment_20:
+    mt "Какой жуткий мусор!"
+    mt "И прямо под моим окном!"
+    mt "Какой мерзавец посмел оставить это здесь?!"
+    mt "В месте, где живет... Стоп... Моника, лучше не называй себя по имени в этом месте."
+    mt "Никто не должен узнать кто я на самом деле. Это ведь все временно..."
+    return
+
+label ep211_dialogues6_slum_apartment_21:
+    mt "Заколоченные окна..."
+    mt "Похоже, у меня нет соседей, и это хорошо."
+    mt "Меньше никчемных бездельников извращенцев!"
+    return
+
+label ep211_dialogues6_slum_apartment_22:
+    mt "Одинокое окно..."
+    mt "Не могу поверить что это мой новый дом..."
+    mt "Но, по крайней мере, у меня есть крыша над головой..."
+    return
+
+label ep211_dialogues6_slum_apartment_23:
+    mt "Это что, рыба?!"
+    return
+
+label ep211_dialogues6_slum_apartment_24:
+    mt "Этот маленький светильник светит ночью для меня."
+    mt "Он как маленький лучик солнца в моей кошмарной жизни..."
+    return
+
+label ep211_dialogues6_slum_apartment_25:
+    mt "Какие жуткие лампы..."
+    mt "Они напоминают мне освещение в камере у Маркуса..."
+    return
+
+label ep211_dialogues6_slum_apartment_26:
+    mt "Какая безвкусица!"
+    mt "Но я не буду трогать эту картину, боюсь что эта стена держится на ней..."
+    mt "Или за картиной окажется огромная дыра или что-нибудь еще..."
+    return
+
+label ep211_dialogues6_slum_apartment_27:
+    mt "В этом столе больше ничего нет..."
+    return
+
+label ep211_dialogues6_slum_apartment_28:
+    mt "Жираф..."
+    mt "Это портрет хозяина апартаментов?"
+    mt "Поражает натуральность визуального сходства!"
+    return
+
+label ep211_dialogues6_slum_apartment_29:
+    mt "Выход на улицу... На кошмарную улицу..."
+    return
+
+label ep211_dialogues6_slum_apartment_30:
+    mt "Здесь осталась какая-то еда..."
+    mt "Возможно я смогу что-то приготовить себе..."
+    return
+
+label ep211_dialogues6_slum_apartment_31:
+    mt "Какое-то грязное полотенце..."
+    mt "Я не буду его трогать, у меня есть хорошее чистое."
+    return
+label ep211_dialogues6_slum_apartment_32:
+    mt "В это мутное зеркало ничего не видно..."
+    return
+label ep211_dialogues6_slum_apartment_33:
+    mt "Не удивлюсь если в этих ящиках живут тараканы..."
     return

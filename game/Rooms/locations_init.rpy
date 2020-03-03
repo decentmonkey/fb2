@@ -197,3 +197,32 @@ label locations_init_julia_street:
 label locations_init_philip_home:
     $ add_location("street_philiphome", caption=_("ДОМ ФИЛИППА"), label="street_philiphome", init_label="street_philiphome_init", parent="World")
     return
+
+
+label locations_init_monicahome:
+    $ add_location("street_monicahome", caption=_("Дом в трущобах"), label="street_monicahome", init_label="street_monicahome_init", parent="Street_Corner")
+    $ add_location("monicahome_livingroom", caption=_("СПАЛЬНЯ"), label="monicahome_livingroom", init_label="monicahome_livingroom_init", parent="street_monicahome")
+    $ add_location("monicahome_livingroomwardrobe", caption=_("ГАРДЕРОБ"), label="monicahome_livingroomwardrobe", init_label="monicahome_livingroomwardrobe_init", parent="monicahome_livingroom")
+    $ add_location("monicahome_kitchen", caption=_("КУХНЯ"), label="monicahome_kitchen", init_label="monicahome_kitchen_init", parent="monicahome_livingroom")
+    $ add_location("monicahome_bathroom", caption=_("ВАННАЯ КОМНАТА"), label="monicahome_bathroom", init_label="monicahome_bathroom_init", parent="monicahome_livingroom")
+    return
+
+label locations_init_juliahome:
+    $ add_location("juliahome_livingroom", caption=_("АПАРТАМЕНТЫ ЮЛИИ"), label="juliahome_livingroom", init_label="juliahome_livingroom_init", parent="street_juliahome")
+    $ add_location("juliahome_kitchen", caption=_("АПАРТАМЕНТЫ ЮЛИИ"), label="juliahome_kitchen", init_label="juliahome_kitchen_init", parent="juliahome_livingroom")
+    $ add_location("juliahome_bathroom", caption=_("АПАРТАМЕНТЫ ЮЛИИ"), label="juliahome_bathroom", init_label="juliahome_bathroom_init", parent="juliahome_livingroom")
+    $ add_location("juliahome_bathroomshower", caption=_("АПАРТАМЕНТЫ ЮЛИИ"), label="juliahome_bathroomshower", init_label="juliahome_bathroomshower_init", parent="juliahome_bathroom")
+
+    return
+
+label locations_init_public_event2:
+    $ add_location("public_event2", caption=_("КЛУБ КЭМПБЕЛЛА"), label="public_event2", init_label="public_event2_init", parent="World")
+    return
+
+
+
+
+
+
+
+#
