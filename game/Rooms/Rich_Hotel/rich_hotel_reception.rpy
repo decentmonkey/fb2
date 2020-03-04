@@ -43,6 +43,13 @@ label rich_hotel_reception_init2:
     $ add_object_to_scene("HotelStaff", {"type" : 2, "base" : "Rich_Hotel_Reception_HotelStaff[richHotelReceptionHotelStaffSuffix]", "click" : "rich_hotel_reception_environment", "actions" : "l", "zorder":4, "active":False}, scene="rich_hotel_reception")
     return
 
+label rich_hotel_reception_init3:
+    # escort
+    $ add_object_to_scene("Teleport_Restaurant", {"type":3, "text" : _("РЕСТОРАН"), "larrow" : "arrow_left_2", "base":"Rich_Hotel_Reception_Teleport_Restaurant2", "click" : "rich_hotel_reception_teleport", "xpos" : 1687, "ypos" : 202, "zorder":11, "teleport":True}, scene="rich_hotel_reception")
+    $ add_object_to_scene("Teleport_Lift", {"type":3, "text" : _("ЛИФТ"), "rarrow" : "arrow_down_2", "base":"Rich_Hotel_Reception_Teleport_Lift", "click" : "rich_hotel_reception_teleport", "xpos" : 1219, "ypos" : 110, "zorder":11, "teleport":True}, scene="rich_hotel_reception")
+    $ add_object_to_scene("Door", {"type":2, "base":"Rich_Hotel_Reception_Door_Corridor", "click" : "rich_hotel_reception_environment", "actions" : "lw", "b":0.15, "zorder" : 1}, scene="rich_hotel_reception")
+    return
+
 label rich_hotel_reception_teleport:
     if obj_name == "Teleport_Street_Rich_Hotel":
         call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1") from _call_change_scene_331
@@ -50,6 +57,10 @@ label rich_hotel_reception_teleport:
     if obj_name == "Teleport_Restaurant":
         call change_scene("rich_hotel_restaurant_entrance", "Fade_long") from _call_change_scene_332
         return
+    if obj_name == "Teleport_Lift":
+        call change_scene("rich_hotel_lift", "Fade_long")
+        return
+
     return
 label rich_hotel_reception_environment:
     if obj_name == "Clocks":

@@ -1,10 +1,11 @@
 default monicaHomeLivingRoomMonicaSuffix = 1
 default monicaHomeLivingRoomJackSuffix = 1
 default monicaHomeLivingRoomSceneSuffix = ""
+default monicaHomeLivingRoomSceneSuffix2 = ""
 label monicahome_livingroom:
     $ print "enter_monicahome_livingroom"
     $ miniMapData = []
-    $ scene_image = "scene_MonicaHome_LivingRoom[day_suffix][monicaHomeLivingRoomSceneSuffix]"
+    $ scene_image = "scene_MonicaHome_LivingRoom[day_suffix][monicaHomeLivingRoomSceneSuffix][monicaHomeLivingRoomSceneSuffix2]"
 
     if day_time == "day":
         music Mandeville
@@ -13,8 +14,8 @@ label monicahome_livingroom:
     return
 
 label monicahome_livingroom_init:
-    $ add_object_to_scene("Monica", {"type" : 2, "base" : "MonicaHome_LivingRoom_Monica_[cloth]_[monicaHomeLivingRoomMonicaSuffix][day_suffix]", "click" : "monicahome_livingroom_environment", "actions" : "l", "zorder":10}, scene="monicahome_livingroom")
-    $ add_object_to_scene("Shawarma_Trader", {"type" : 2, "base" : "MonicaHome_LivingRoom_Jack_[monicaHomeLivingRoomJackSuffix][day_suffix]", "click" : "monicahome_livingroom_environment", "actions" : "lt", "zorder":9}, scene="monicahome_livingroom")
+    $ add_object_to_scene("Monica", {"type" : 2, "base" : "MonicaHome_LivingRoom_Monica_[cloth]_[monicaHomeLivingRoomMonicaSuffix][day_suffix][monicaHomeLivingRoomSceneSuffix2]", "click" : "monicahome_livingroom_environment", "actions" : "l", "zorder":10}, scene="monicahome_livingroom")
+    $ add_object_to_scene("Shawarma_Trader", {"type" : 2, "base" : "MonicaHome_LivingRoom_Jack_[monicaHomeLivingRoomJackSuffix][day_suffix][monicaHomeLivingRoomSceneSuffix2]", "click" : "monicahome_livingroom_environment", "actions" : "lt", "zorder":9}, scene="monicahome_livingroom")
     $ add_object_to_scene("Cocktail", {"type" : 2, "base" : "MonicaHome_LivingRoom_Cocktail", "click" : "monicahome_livingroom_environment", "actions" : "lh", "zorder":0, "b":0.15, "group":"environment"}, scene="monicahome_livingroom")
     $ add_object_to_scene("Bed1", {"type" : 2, "base" : "MonicaHome_LivingRoom_Bed1", "click" : "monicahome_livingroom_environment", "actions" : "lw", "zorder":0, "b":0.15, "group":"environment"}, scene="monicahome_livingroom")
     $ add_object_to_scene("Chair1", {"type" : 2, "base" : "MonicaHome_LivingRoom_Chair1", "click" : "monicahome_livingroom_environment", "actions" : "lw", "zorder":0, "b":0.15, "group":"environment"}, scene="monicahome_livingroom")
@@ -32,6 +33,7 @@ label monicahome_livingroom_init:
     $ add_object_to_scene("Teleport_Kitchen", {"type":3, "text" : _("КУХНЯ"), "rarrow" : "arrow_down_2", "base":"MonicaHome_LivingRoom_TeleportKitchen", "click" : "monicahome_livingroom_teleport", "xpos" : 244, "ypos" : 1006, "zorder":15, "teleport":True, "high_sprite_hover":True}, scene="monicahome_livingroom")
     $ add_object_to_scene("Teleport_Wardrobe", {"type":3, "text" : _("ГАРДЕРОБ"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "monicahome_livingroom_teleport", "xpos" : 220, "ypos" : 545, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="monicahome_livingroom")
     return
+    
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3

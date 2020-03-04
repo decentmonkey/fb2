@@ -1,4 +1,6 @@
 default publicEvent2MonicaSuffix = 1
+
+default publicEvent2MonicaCommentCount = 0
 label public_event2:
     $ print "enter_public_event2"
     $ miniMapData = []
@@ -19,7 +21,7 @@ label public_event2_init:
     $ add_object_to_scene("PublicGuest3", {"type" : 2, "base" : "PublicEvent2_PublicGuest3", "click" : "public_event2_environment", "actions" : "lt", "zorder":10}, scene="public_event2")
     $ add_object_to_scene("PublicGuest4", {"type" : 2, "base" : "PublicEvent2_PublicGuest4", "click" : "public_event2_environment", "actions" : "lt", "zorder":10}, scene="public_event2")
     $ add_object_to_scene("PublicGuest5", {"type" : 2, "base" : "PublicEvent2_PublicGuest5", "click" : "public_event2_environment", "actions" : "lt", "zorder":10}, scene="public_event2")
-    $ add_object_to_scene("PublicGuest6", {"type" : 2, "base" : "PublicEvent2_PublicGuest6", "click" : "public_event2_environment", "actions" : "lt", "zorder":10}, scene="public_event2")
+    $ add_object_to_scene("PublicGuest6", {"type" : 2, "base" : "PublicEvent2_PublicGuest6", "click" : "public_event2_environment", "actions" : "lt", "zorder":11}, scene="public_event2")
     $ add_object_to_scene("PublicGuest7", {"type" : 2, "base" : "PublicEvent2_PublicGuest7", "click" : "public_event2_environment", "actions" : "lt", "zorder":10}, scene="public_event2")
     $ add_object_to_scene("PublicGuest8", {"type" : 2, "base" : "PublicEvent2_PublicGuest8", "click" : "public_event2_environment", "actions" : "lt", "zorder":10}, scene="public_event2")
     return
@@ -33,29 +35,50 @@ label public_event2_teleport:
     return
 label public_event2_environment:
     if obj_name == "Monica":
-        pass
+        if publicEvent2MonicaCommentCount%4 == 0:
+            call ep211_dialogues2_public_event_36()
+        if publicEvent2MonicaCommentCount%4 == 1:
+            call ep211_dialogues2_public_event_37()
+        if publicEvent2MonicaCommentCount%4 == 2:
+            call ep211_dialogues2_public_event_38()
+        if publicEvent2MonicaCommentCount%4 == 3:
+            call ep211_dialogues2_public_event_39()
+        $ publicEvent2MonicaCommentCount += 1
     if obj_name == "Biff":
-        pass
+        if act=="l":
+            call ep211_dialogues2_public_event_40()
     if obj_name == "FitnessRebecca":
-        pass
+        if act=="l":
+            call ep211_dialogues2_public_event_24()
     if obj_name == "FitnessStephanie":
-        pass
+        if act=="l":
+            call ep211_dialogues2_public_event_24()
     if obj_name == "Investor1":
-        pass
+        if act=="l":
+            call ep211_dialogues2_public_event_34()
     if obj_name == "PublicGuest1":
-        pass
+        if act=="l":
+            call ep211_dialogues2_public_event_8()
     if obj_name == "PublicGuest2":
-        pass
+        if act=="l":
+            call ep211_dialogues2_public_event_11()
     if obj_name == "PublicGuest3":
-        pass
+        if act=="l":
+            call ep211_dialogues2_public_event_14()
     if obj_name == "PublicGuest4":
-        pass
+        if act=="l":
+            call ep211_dialogues2_public_event_17()
     if obj_name == "PublicGuest5":
-        pass
+        if act=="l":
+            call ep211_dialogues2_public_event_20()
     if obj_name == "PublicGuest6":
-        pass
+        if act=="l":
+            call ep211_dialogues2_public_event_20()
     if obj_name == "PublicGuest7":
-        pass
+        if act=="l":
+            call ep211_dialogues2_public_event_32()
+
     if obj_name == "PublicGuest8":
-        pass
+        if act=="l":
+            call ep211_dialogues2_public_event_27()
     return

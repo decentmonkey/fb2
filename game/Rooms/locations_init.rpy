@@ -219,7 +219,11 @@ label locations_init_public_event2:
     $ add_location("public_event2", caption=_("КЛУБ КЭМПБЕЛЛА"), label="public_event2", init_label="public_event2_init", parent="World")
     return
 
+label locations_init_rich_hotel_restaurant2:
+    $ add_location("rich_hotel_restaurant", caption=_("Restaurant"), label="rich_hotel_restaurant", init_label="rich_hotel_restaurant_init", parent="rich_hotel_reception")
+    $ add_location("rich_hotel_lift", caption=_("Lift"), label="rich_hotel_lift", init_label="rich_hotel_lift_init", parent="rich_hotel_reception")
 
+    return
 
 
 

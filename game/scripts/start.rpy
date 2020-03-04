@@ -289,7 +289,11 @@ label start_game:
     call locations_init_monicahome()
     call locations_init_juliahome()
     call locations_init_public_event2()
-    call change_scene("public_event2") #debug !!!!!
+    call locations_init_rich_hotel_restaurant2()
+    call locations_init_rich_hotel_restaurant()
+    call rich_hotel_reception_init2()
+    call rich_hotel_reception_init3()
+    call change_scene("rich_hotel_reception") #debug !!!!!
     jump show_scene
 #    $ renpy.pause(100, hard=True)
 
