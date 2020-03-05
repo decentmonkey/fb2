@@ -112,6 +112,14 @@ label ep22_quests_office4_l1:
             jump ep22_quests_office4_loop1
         call ep27_photoshoot_suit8_end() from _call_ep27_photoshoot_suit8_end
         $ photoshoot8_count += 1
+    if monicaPhotoShootOutfitIdx == 9:
+        if ep211_quests_photoshoot_stage == 1:
+            jump ep211_quests_publicevent2_photoshoot2
+        if ep211_quests_photoshoot_stage == 2:
+            call ep211_quests_publicevent2_photoshoot3()
+        if ep211_quests_photoshoot_stage == 3:
+            call ep211_dialogues3_photoshoot_6() # фотосессия
+            call ep211_dialogues3_photoshoot_7()
 #        $ monicaOutfitsEnabled[8] = True # Открываем следующий костюм
     #конец фотосессии
     sound snd_fabric1

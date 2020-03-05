@@ -6,13 +6,27 @@ label public_event2:
     $ miniMapData = []
     $ scene_image = "scene_PublicEvent2"
 
-    music Stealth_Groover
+    if len(ep211_quests_guests_progress) == 0:
+        $ set_active("Investor1", True)
+        $ remove_objective("talk_people")
+        $ add_objective("talk_investor1", _("Пообщаться с Мистером Кэмпбеллом."), c_blue, 95)
+    else:
+        if len(ep211_quests_guests_progress) == 1:
+            $ set_active("PublicGuest7", True) # появляется дизайнер
+
+        $ ep211_quests_guests_progress_cur = 9-len(ep211_quests_guests_progress)
+        $ add_objective("talk_people", _("Пообщаться с гостями ([ep211_quests_guests_progress_cur]/9)."), c_orange, 95)
+
+    music crowd10
+    show screen Reporters_Shoots_Screen4_low()
+
+    music2 Poppers_and_Prosecco
     return
 
 label public_event2_init:
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "PublicEvent2_Monica[publicEvent2MonicaSuffix]", "click" : "public_event2_environment", "actions" : "l", "zorder":16}, scene="public_event2")
 
-    $ add_object_to_scene("Biff", {"type" : 2, "base" : "PublicEvent2_Biff", "click" : "public_event2_environment", "actions" : "lt", "zorder":10}, scene="public_event2")
+    $ add_object_to_scene("Biff", {"type" : 2, "base" : "PublicEvent2_Biff", "click" : "public_event2_environment", "actions" : "l", "zorder":10}, scene="public_event2")
     $ add_object_to_scene("FitnessRebecca", {"type" : 2, "base" : "PublicEvent2_FitnessRebecca", "click" : "public_event2_environment", "actions" : "lt", "zorder":10}, scene="public_event2")
     $ add_object_to_scene("FitnessStephanie", {"type" : 2, "base" : "PublicEvent2_FitnessStephanie", "click" : "public_event2_environment", "actions" : "lt", "zorder":10}, scene="public_event2")
     $ add_object_to_scene("Investor1", {"type" : 2, "base" : "PublicEvent2_Investor1", "click" : "public_event2_environment", "actions" : "lt", "zorder":15}, scene="public_event2")

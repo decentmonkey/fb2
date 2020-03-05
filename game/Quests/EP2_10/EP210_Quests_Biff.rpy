@@ -4,6 +4,7 @@ default ep22_quests_biff2_day = 0
 
 default ep22_quests_monica_agreed_change_cloth = False
 default ep22_quests_monica_presentation_completed = False
+default ep22_quests_monica_presentation_completed_day = -1
 
 label ep22_quests_biff_init:
     call ep210_dialogues1_office_biff_1()
@@ -59,6 +60,7 @@ label ep22_quests_biff2:
     call ep210_dialogues1_office_biff_4()
     call ep210_dialogues1_office_biff_5() # Разговор с Бифом
     $ ep22_quests_monica_presentation_completed = True
+    $ ep22_quests_monica_presentation_completed_day = day
     $ biffLevel3Opened = True
     $ remove_objective("visit_biff_presentation")
     $ add_char_progress("Biff", 10, "ep22_quests_monica_presentation_completed")

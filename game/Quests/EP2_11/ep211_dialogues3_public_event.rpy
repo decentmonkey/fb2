@@ -258,7 +258,7 @@ label ep211_dialogues2_public_event_1:
             sound highheels_short_walk
             pause 2.0
             # Моника уходит. В след. визит к Бифу разговор возобновляется (Биф не дает ей фотосессии)
-            return
+            return False
     # Моника сквозь зубы
     music Power_Bots_Loop
     img 15892
@@ -283,7 +283,7 @@ label ep211_dialogues2_public_event_1:
     with fade
     biff "Я жду тебя {c}завтра{/c}, цыпочка."
     m "..."
-    return
+    return True
 
 # если Моника вернулась к Бифу после их разговора
 label ep211_dialogues2_public_event_2:
@@ -318,7 +318,7 @@ label ep211_dialogues2_public_event_3:
     biff "А, цыпочка пришла!"
     biff "Иди переодевайся."
     biff "И поторопись! Нам уже пора выезжать."
-    $ log1 = _("Переодеться в вечернее платье.")
+#    $ log1 = _("Переодеться в вечернее платье.")
     return
 
 # если Моника пытается пойти на любую другую локация, кроме фотостудии
@@ -326,7 +326,7 @@ label ep211_dialogues2_public_event_4:
     # не рендерить!
     mt "Мне нужно пойти в фотостудию."
     mt "Биф сказал, что мне надо поторопиться."
-    return
+    return False
 
 # фотостудия, клик на Алекса
 label ep211_dialogues2_public_event_5:
@@ -377,7 +377,7 @@ label ep211_dialogues2_public_event_5:
     with diss
     alex_photograph "Нет, конечно! Оно идеально подчеркивает всю Вашу красоту."
     img 16851
-    with diss
+    sound Jump2
     w
     music Stealth_Groover
     img 16852
@@ -523,6 +523,7 @@ label ep211_dialogues2_public_event_7:
     music Backbay_Lounge
     img 30118
     with fadelong
+    show screen Reporters_Shoots_Screen()
     w
     img 30119
     with fade
@@ -531,6 +532,8 @@ label ep211_dialogues2_public_event_7:
     mt "А вокруг меня будут крутиться журналисты и мои поклонники..."
     mt "Черт! Я заслужила возможность побыть собой настоящей!"
     # Бифф наклоняется к ней
+    hide screen Reporters_Shoots_Screen
+    show screen Reporters_Shoots_Screen2()
     img 30120
     with diss
     sound man_steps
@@ -538,6 +541,7 @@ label ep211_dialogues2_public_event_7:
     music Groove2_85
     img 30121
     with fade
+    hide screen Reporters_Shoots_Screen2
     biff "Цыпочка, ты помнишь о том, что ты должна быть хорошей..."
     biff "И не расстраивать папочку?"
     img 30122
@@ -565,7 +569,7 @@ label ep211_dialogues2_public_event_7:
     w
     sound Jump2
     img 30128
-    with diss
+    with hpunch
     biff "Все, иди. Папочка будет за тобой присматривать."
     img 30129
     with diss
@@ -578,7 +582,7 @@ label ep211_dialogues2_public_event_7:
     mt "Пусть этот болван говорит, что хочет."
     mt "Я буду наслаждаться и ничего не сможет испортить мне настроение."
     # Биф отходит от нее
-    $ log1 = _("Пообщаться с гостями.")
+#    $ log1 = _("Пообщаться с гостями.")
     return
 
 # присутствуют и кликабельны гости 1-6, дизайнер (7) и звезда (8) появятся позже, после разговора с подружками с фитнеса
@@ -710,6 +714,8 @@ label ep211_dialogues2_public_event_9:
     mt "Ненавижу эту грымзу!"
     mt "Злобная стерва!"
     mt "!!!"
+    return
+label ep211_dialogues2_public_event_9b:
     # подходит Биф (не рендерить)
     biff "Цыпочка должна притворяться лучше."
     biff "Будешь и дальше себя так вести и спорить с уважаемыми людьми..."
@@ -767,7 +773,7 @@ label ep211_dialogues2_public_event_12:
         "Какие пробы, Грейс?":
             pass
     img 30158
-    with fade
+    with vpunch
     mt "???"
     img 30159
     with diss
@@ -780,24 +786,25 @@ label ep211_dialogues2_public_event_12:
     img 30161
     with diss
     mt "Мой менеджер Биф? Как интересно..."
-    img 30162
-    with fade
-    guest2 "Я хотела спросить, Мелани у Вас больше не работает?"
-    menu:
-        "Мелани в отпуске.":
-            pass
-    img 30163
-    with diss
-    m "Мелани сейчас в небольшом отпуске."
-    music Master_Disorder
-    img 30164
-    with diss
-    mt "Мелани..."
-    mt "Ее давно уже не видно на работе."
-    mt "Она должна была раздобыть компромат на Викторию и пропала куда-то."
-    mt "..."
-    mt "Нужно спросить у этого придурка Бифа."
-    mt "Может, он знает, когда вернется Мелани..."
+    if ep29_victoria_melanie_victoria_quest_fully_completed == True:
+        img 30162
+        with fade
+        guest2 "Я хотела спросить, Мелани у Вас больше не работает?"
+        menu:
+            "Мелани в отпуске.":
+                pass
+        img 30163
+        with diss
+        m "Мелани сейчас в небольшом отпуске."
+        music Master_Disorder
+        img 30164
+        with diss
+        mt "Мелани..."
+        mt "Ее давно уже не видно на работе."
+        mt "Она должна была раздобыть компромат на Викторию и пропала куда-то."
+        mt "..."
+        mt "Нужно спросить у этого придурка Бифа."
+        mt "Может, он знает, когда вернется Мелани..."
     music Backbay_Lounge
     img 30165
     with fade
@@ -831,6 +838,9 @@ label ep211_dialogues2_public_event_12:
     img 30168
     with fade
     mt "Интересно, как Биф собирается заставить ее раздеваться перед камерой?"
+    $ monicaBiffCampbellEvent2 = True # Моника разговаривала с guest2 (девушка-модель)
+    return
+label ep211_dialogues2_public_event_12b:
     # подходит Биф (не рендерить)
     biff "Цыпочка не должна забывать, что она Моника Бакфетт."
     biff "А не шлюха, которая совсем недавно отсасывала у бомжей..."
@@ -839,7 +849,6 @@ label ep211_dialogues2_public_event_12:
     biff "И не задает глупых вопросов будущим моделям журнала."
     # Биф уходит
     mt "!!!"
-    $ monicaBiffCampbellEvent2 = True # Моника разговаривала с guest2 (девушка-модель)
     return
 
 # повторный клик на девушку-модель в коротком красном платье после их диалога
@@ -942,6 +951,9 @@ label ep211_dialogues2_public_event_15:
     img 30161
     with fade
     mt "Биф сволочь!!!"
+    $ monicaBiffCampbellEvent3 = True # Моника разговаривала с guest3 (парень-модель)
+    return
+label ep211_dialogues2_public_event_15b:
     # подходит Биф (не рендерить)
     biff "Кукла!"
     biff "Ты на грани провала!"
@@ -960,7 +972,6 @@ label ep211_dialogues2_public_event_15:
     # Биф уходит
     mt "НЕНАВИЖУ!"
     mt "!!!"
-    $ monicaBiffCampbellEvent3 = True # Моника разговаривала с guest3 (парень-модель)
     return
 
 # повторный клик на парня-модель после их диалога
@@ -1080,6 +1091,9 @@ label ep211_dialogues2_public_event_18:
     mt "Я уверена, это сделал Биф!!!"
     mt "АААААА!!!!"
     mt "НЕНАВИЖУ!!!!!!"
+    $ monicaBiffCampbellEvent4 = True # Моника разговаривала с guest4 (фотограф)
+    return
+label ep211_dialogues2_public_event_18b:
     # подходит Биф (не рендерить)
     biff "Нужно быть вежливее с такими уважаемыми людьми!"
     biff "Ничего не понимаешь в том, что они говорят - улыбайся и молчи!"
@@ -1102,7 +1116,6 @@ label ep211_dialogues2_public_event_18:
     # Биф уходит
     mt "!!!"
     mt "Я не могу допустить, чтобы кто-то увидел те кадры!"
-    $ monicaBiffCampbellEvent4 = True # Моника разговаривала с guest4 (фотограф)
     return
 
 # повторный клик на фотографа после их диалога
@@ -1200,6 +1213,9 @@ label ep211_dialogues2_public_event_21:
     with diss
     m "Я считаю, что вообще вести диалог о подобных вещах, не соответствует моему высокому уровню."
     m "До свидания. Возможно, увидимся на одном из будущих модных показов."
+    $ monicaBiffCampbellEvent5 = True # Моника разговаривала с guest5-6 (светские львицы)
+    return
+label ep211_dialogues2_public_event_21b:
     # Моника отходит от них
     # подходит Биф (не рендерить)
     biff "Ты пятно на платье не поставила, глупая кукла?"
@@ -1209,7 +1225,6 @@ label ep211_dialogues2_public_event_21:
     biff "Тебе придется целый месяц сниматься с членом во рту за бесплатно!"
     mt "Да пошел ты!"
     mt "Козел!"
-    $ monicaBiffCampbellEvent5 = True # Моника разговаривала с guest5-6 (светские львицы)
     return
 
 # повторный клик на светских львиц после их диалога
@@ -1220,18 +1235,20 @@ label ep211_dialogues2_public_event_22:
 
 # после того, как Моника пообщается с несколькими гостями, к ней подходит репортер
 label ep211_dialogues2_public_event_23:
+    music stop
+    img black_screen
+    with diss
+    pause 1.0
+    reporter1 "Миссис Бакфетт, можно взять у Вас интервью."
+    show screen Reporters_Shoots_Screen
     music Backbay_Lounge
     img 30212
     with fadelong
-    reporter1 "Миссис Бакфетт, можно взять у Вас интервью."
     m "Можно..."
     # кадр меняется, Моника с уверенным видом позирует журналистам
     # журналисты сыпят вопросами, Моника держится очень уверенно
     music Stealth_Groover
-    hide screen Reporters_Shoots_Screen2
-    hide screen Reporters_Shoots_Screen
-    hide screen Reporters_Shoots_Screen3
-    show screen Reporters_Shoots_Screen
+#    show screen Reporters_Shoots_Screen
     img 30213
     with fadelong
     reporter1 "Скажите, это правда, что Ваш журнал теперь больше про эротику?"
@@ -1276,6 +1293,8 @@ label ep211_dialogues2_public_event_23:
     with diss
     m "Интервью окончено. Вы можете сделать еще несколько снимков."
     music stop
+    img black_screen
+    with diss
     pause(1.0)
     sound microphone_off
     pause(1.0)
@@ -1283,13 +1302,14 @@ label ep211_dialogues2_public_event_23:
     hide screen Reporters_Shoots_Screen
     hide screen Reporters_Shoots_Screen2
     hide screen Reporters_Shoots_Screen3
-    music Pyro_Flow
+    music Hidden_Agenda
     img 30220
     with fade
     mt "Никчемные журналисты!"
     mt "Про какие слухи они говорили? Откуда они их узнают?"
     mt "Кто может рассказывать такие подробности? Алекс? Бифф?"
     mt "Узнаю - уволю всех к черту!"
+    music Pyro_Flow
     img 30221
     with diss
     mt "Когда снова стану Боссом..."
@@ -1329,94 +1349,95 @@ label ep211_dialogues2_public_event_25:
     img 23531
     with fade
     m "Спасибо, девочки."
-    #
-    img 23532
-    with diss
-    $ notif(_("Моника ходила на фитнес с Бетти"))
-    rebecca "Немного непривычно видеть тебя вновь в таком раскошном образе."
-    rebecca "Мы уже привыкли, что ты носишь вещи какой-то провинциальной дуры, которая покрикивает на тебя."
-    #
-    img 23533
-    with diss
-    menu:
-        "Я же вам говорила, что у меня приключения...":  # строит из себя
-            pass
-    music Stealth_Groover
-    img 23534
-    with fade
-    m "Я же вам говорила, что у меня приключения..."
-    m "Но сегодня я решила принять прглашение Мистера Кэмпбелла."
-    music Backbay_Lounge
-    img 23535
-    with diss
-    rebecca "Все равно странно, что ты позволяешь этой провинциалке командовать тобой..."
-    rebecca "Это выглядит очень смешно."
-    rebecca "То, что ты носишь за ней ее вещи - это тоже приключения, да?"
-    rebecca "А сюда ты ее не стала брать? Хи-хи..."
-    music Power_Bots_Loop
-    img 23536
-    with fade
-    mt "Черт! Вот пристали со своими глупыми вопросами!"
-    mt "Как хорошо, что здесь нет Бетти..."
-    music Backbay_Lounge
-    img 23537
-    with diss
-    m "Ничего странного. Просто такая игра."
-    img 23538
-    with fade
-    stephanie "И как долго она еще будет продолжаться?"
-    stephanie "Ведь ты пропускаешь все наши девичники."
-    music Stealth_Groover
-    img 23539
-    with diss
-    m "Я же сказала, что недолго! Скоро я закончу это дело и займусь своими обычными заботами."
-    music Backbay_Lounge
-    img 23540
-    with fade
-    stephanie "Да? Ты говорила что тебе больше неинтересны обычные развлечения."
-    stephanie "Что ты тогда делаешь здесь?"
-    img 23541
-    with diss
-    rebecca "Да, Моника. Я помню, что ты говорила, что это скучно."
-    rebecca "И что твои развлечения сейчас гораздо интереснее!"
-    music Power_Bots_Loop
-    img 23542
-    with diss
-    mt "!!!"
-    music Stealth_Groover
-    img 23543
-    with fade
-    m "Подружки... Да, мне сейчас это не очень интересно."
-    m "Но не забывайте кто Я!"
-    img 23544
-    with diss
-    m "Я - владелица крупнейшего журнала моды!"
-    m "И мне необходимо бывать на подобных вечерах, чтобы решать серьезные дела и вести переговоры!"
-    music Backbay_Lounge
-    img 23545
-    with fade
-    rebecca "Хорошо, Моника."
-    rebecca "Мы рады видеть тебя здесь!"
-    img 23546
-    with diss
-    stephanie "Да, Моника. Мы рады."
-    stephanie "А то, если честно, мы начали сомневаться, говоришь ли ты нам правду."
-    stephanie "Вдруг ты действительно работаешь гувернанткой у той провинциальной дуры."
-    music Stealth_Groover
-    img 23547
-    with fade
-    m "Что вы, подружки!"
-    m "Как вы могли такое подумать?!"
-    m "Это ведь было бы так нелепо! Фи!"
-    img 23548
-    with diss
-    m "Моника Бакфетт и какая-то гувернантка..."
-    music Backbay_Lounge
-    img 23549
-    with fade
-    stephanie "Да, Моника. Это было бы совершенно нелепо."
-    stephanie "И я очень рада, что это не так."
-    #
+    if fitness_gym_visited_amount > 0:
+        #
+        img 23532
+        with diss
+        $ notif(_("Моника ходила на фитнес с Бетти"))
+        rebecca "Немного непривычно видеть тебя вновь в таком раскошном образе."
+        rebecca "Мы уже привыкли, что ты носишь вещи какой-то провинциальной дуры, которая покрикивает на тебя."
+        #
+        img 23533
+        with vpunch
+        menu:
+            "Я же вам говорила, что у меня приключения...":  # строит из себя
+                pass
+        music Stealth_Groover
+        img 23534
+        with fade
+        m "Я же вам говорила, что у меня приключения..."
+        m "Но сегодня я решила принять прглашение Мистера Кэмпбелла."
+        music Backbay_Lounge
+        img 23535
+        with diss
+        rebecca "Все равно странно, что ты позволяешь этой провинциалке командовать тобой..."
+        rebecca "Это выглядит очень смешно."
+        rebecca "То, что ты носишь за ней ее вещи - это тоже приключения, да?"
+        rebecca "А сюда ты ее не стала брать? Хи-хи..."
+        music Power_Bots_Loop
+        img 23536
+        with fade
+        mt "Черт! Вот пристали со своими глупыми вопросами!"
+        mt "Как хорошо, что здесь нет Бетти..."
+        music Backbay_Lounge
+        img 23537
+        with diss
+        m "Ничего странного. Просто такая игра."
+        img 23538
+        with fade
+        stephanie "И как долго она еще будет продолжаться?"
+        stephanie "Ведь ты пропускаешь все наши девичники."
+        music Stealth_Groover
+        img 23539
+        with diss
+        m "Я же сказала, что недолго! Скоро я закончу это дело и займусь своими обычными заботами."
+        music Backbay_Lounge
+        img 23540
+        with fade
+        stephanie "Да? Ты говорила что тебе больше неинтересны обычные развлечения."
+        stephanie "Что ты тогда делаешь здесь?"
+        img 23541
+        with diss
+        rebecca "Да, Моника. Я помню, что ты говорила, что это скучно."
+        rebecca "И что твои развлечения сейчас гораздо интереснее!"
+        music Power_Bots_Loop
+        img 23542
+        with diss
+        mt "!!!"
+        music Stealth_Groover
+        img 23543
+        with fade
+        m "Подружки... Да, мне сейчас это не очень интересно."
+        m "Но не забывайте кто Я!"
+        img 23544
+        with diss
+        m "Я - владелица крупнейшего журнала моды!"
+        m "И мне необходимо бывать на подобных вечерах, чтобы решать серьезные дела и вести переговоры!"
+        music Backbay_Lounge
+        img 23545
+        with fade
+        rebecca "Хорошо, Моника."
+        rebecca "Мы рады видеть тебя здесь!"
+        img 23546
+        with diss
+        stephanie "Да, Моника. Мы рады."
+        stephanie "А то, если честно, мы начали сомневаться, говоришь ли ты нам правду."
+        stephanie "Вдруг ты действительно работаешь гувернанткой у той провинциальной дуры."
+        music Stealth_Groover
+        img 23547
+        with fade
+        m "Что вы, подружки!"
+        m "Как вы могли такое подумать?!"
+        m "Это ведь было бы так нелепо! Фи!"
+        img 23548
+        with diss
+        m "Моника Бакфетт и какая-то гувернантка..."
+        music Backbay_Lounge
+        img 23549
+        with fade
+        stephanie "Да, Моника. Это было бы совершенно нелепо."
+        stephanie "И я очень рада, что это не так."
+        #
 
     img 23550
     with diss
@@ -1523,7 +1544,7 @@ label ep211_dialogues2_public_event_25:
     m "Ждите меня здесь, девочки."
     m "Я сейчас вернусь."
     # отходит от них
-    $ log1 = _("Поговорить с Тернером.")
+#    $ log1 = _("Поговорить с Тернером.")
     $ monicaBiffCampbellEvent9 = True # Моника 1-й раз поговорила со Стефани и Ребеккой
     return
 
@@ -1645,7 +1666,7 @@ label ep211_dialogues2_public_event_28:
     guest8 "Без проблем."
     guest8 "Буду ждать."
     # он уходит
-    $ log1 = _("Вернуться к Ребекке и Стефани.")
+#    $ log1 = _("Вернуться к Ребекке и Стефани.")
     $ monicaBiffCampbellEvent8 = True # Моника разговаривала с guest8 (звезда шоу-бизнеса)
     return
 
@@ -2219,3 +2240,14 @@ label ep211_dialogues2_public_event_40:
     mt "Не могу выносить этого Бифа!"
     mt "Как бы я хотела пристукнуть его!!!"
     return
+
+label ep211_dialogues2_public_event_41:
+    mt "Ненавижу этого придурка!"
+    mt "!!!"
+    return
+
+label ep211_dialogues2_public_event_42:
+    mt "У меня плохое предчувствие насчет этой фотосессии..."
+    mt "Я еле вытерпела этого придурка Бифа на протяжении вечера."
+    mt "С меня хватит. Пора домой!"
+    return False

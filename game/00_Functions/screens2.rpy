@@ -70,7 +70,7 @@ screen choose_photoshoot_outfit():
                 imagebutton:
                     xpos (offsetXIdx * getRes(200))
                     ypos (offsetYIdx * getRes(330))
-                    if monicaOutfitsEnabled[idx] == True:
+                    if (monicaOutfitsEnabled[idx] == True and monicaOutfitsAltEnabled == False) or (monicaOutfitsEnabled_Alt[idx] == True and monicaOutfitsAltEnabled == True):
                         idle monicaOutfitsIcons2[idx] + ".png"
                         hover monicaOutfitsIcons2[idx] + "_hover.png"
                         action Return(idx)

@@ -315,6 +315,12 @@ label ep22_dialogue6_3:
         "Уйти.":
             return False
     music Groove2_85
+    if ep22_quests_monica_presentation_completed == True and math.floor((day+1)/7) > math.floor((ep22_quests_monica_presentation_completed_day+1)/7) and len(list(set(PS8_shoots_array))) >= shotsTotalAmount-1:
+        # Если был первый паблик евент и наступила следующая неделя
+        if biffWeeklyPhotoShootEnabled == True: # Если Моника может сделать фотосессию
+            call ep211_quests_publicevent2_1() # # Первый разговор о втором паблик евенте
+            return False
+
     if cloth == "Whore":
         img 8287
         with fade

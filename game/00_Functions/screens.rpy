@@ -2383,6 +2383,11 @@ screen Reporters_Shoots_Screen2:
 
 screen Reporters_Shoots_Screen3:
     timer 3.0 action [Hide("Reporters_Shoots_Screen"), Show("Reporters_Shoots_Screen3")]
+
+screen Reporters_Shoots_Screen4_low:
+    timer 4.5 repeat True action [SPlay("snd_photo_capture4", "thunder3"), Hide("photoshot_screen_low"), Show("photoshot_screen_low")]
+    timer 3.1 repeat True action [SPlay("snd_photo_capture3", "thunder3"), Hide("photoshot_screen_low"), Show("photoshot_screen_low")]
+
 screen Rain:
     # включаем и выключаем дождь вместе с экраном
     if rain == True:

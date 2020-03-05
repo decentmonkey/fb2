@@ -4749,7 +4749,6 @@ label gallery_6700:
             img 6712
             "Мое чутье никогда не обманывало меня!"
 
-            music
             hide screen Reporters_Shoots_Screen2
             hide screen Reporters_Shoots_Screen
             hide screen Reporters_Shoots_Screen3
