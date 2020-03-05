@@ -214,6 +214,7 @@ label ep211_quests_escort6_scene1e_admin: # Отдача денег админи
     call ep211_escort_scene1_5()
     $ autorun_to_object("ep211_escort_scene1_7", scene="street_rich_hotel")
     $ remove_hook(label="escort_scene1")
+    $ remove_objective("go_customer")
     call ep211_quests_escort2_end_day()
     return False
 
