@@ -940,7 +940,6 @@ label ep211_escort_scene1_15:
     sound highheels_short_walk
     mt "Никчемная администраторша!"
     mt "!!!"
-<<<<<<< HEAD
     return
 
 label ep211_escort_scene1_16:
@@ -956,6 +955,3 @@ label ep211_escort_scene1_17:
 label ep211_escort_scene1_18:
     mt "Мне надо переодеться..."
     return False
-=======
-	return
->>>>>>> update escort
