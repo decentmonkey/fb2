@@ -871,3 +871,42 @@ label ep211_escort_scene1_13:
     mt "Мне нечего там делать сейчас!"
     mt "Ненавижу это место!"
     return
+
+# Моника уходит, не работая
+label ep211_escort_scene1_14:
+    # китаянка стоит за стойкой ресепшена
+    music Groove2_85
+    img 30106
+    with fadelong
+    sound highheels_short_walk
+    w
+    img 30107
+    with fade
+    m "Я на сегодня закончила работу."
+    m "Мне не удалось найти клиента."
+    m "Мне нужно идти."
+    img 30113
+    with diss
+    reception "И куда ты собралась в этом платье?"
+    reception "Оно для работы в ВИП-эскорте."
+    reception "В нем нельзя работать на улице!"
+    music Pyro_Flow
+    img 30114
+    with diss
+    mt "!!!"
+    mt "Сучка!"
+    music Groove2_85
+    img 30107
+    with fade
+    m "Я не собираюсь работать на улице!"
+    img 30108
+    with diss
+    reception "Тогда переодевайся и приходи потом..."
+    reception "Нечего занимать просто так место в ресторане!"
+    music Pyro_Flow
+    img 30115
+    with fade
+    sound highheels_short_walk
+    mt "Никчемная администраторша!"
+    mt "!!!"
+    return
