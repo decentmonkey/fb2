@@ -177,7 +177,7 @@ label ep211_escort_scene1_2:
     with diss
     mt "Вроде он не похож на извращенца."
     img 30093
-    with fade
+    with diss
     reception "У него не встает, но он никак не хочет смириться с этим..."
     reception "Он всегда заказывает девочек и мурыжит их до утра."
     img 30094
@@ -204,13 +204,13 @@ label ep211_escort_scene1_2:
     m "Ты же сама говоришь, что дело в клиенте, а не в девочках!"
     m "Какой еще штраф?!"
     img 30100
-    with fade
+    with diss
     reception "Это правило нашего ВИП Эскорта."
     img 30098
     with diss
     mt "Что за бред!!!"
     img 30101
-    with fade
+    with diss
     reception "И я переоделась бы на твоем месте..."
     reception "У девочек есть много разной одежды, подходящей для таких случаев."
     reception "Иди в служебный коридор. Поищи там что-нибудь по-сексуальнее."
@@ -240,7 +240,7 @@ label ep211_escort_scene1_2:
     reception "Все! Иди переодевайся! Не заставляй клиента ждать тебя!"
     music Power_Bots_Loop
     img 30104
-    with fade
+    with diss
     mt "Сучка!"
     mt "!!!"
 #    img 30105
@@ -289,7 +289,7 @@ label ep211_escort_scene1_2_1:
     reception "Может, у тебя есть что-то подобное?"
     m "..."
     img 17097
-    with fade
+    with diss
     reception "Нет?"
     reception "Вот и не спорь со мной!"
     reception "Не нравится носить белье девочек, приноси свое белье!"
@@ -307,7 +307,7 @@ label ep211_escort_scene1_2_1:
     with diss
     mt "Надеюсь, это белье хоть постирали после вчерашнего клиента?! Фу!"
     img 17101
-    with fade
+    with diss
     reception "Все. Хватит тут возиться. Иди к клиенту!"
     m "Мне..."
     m "Мне идти в номер прямо в таком виде?"
@@ -319,13 +319,13 @@ label ep211_escort_scene1_2_1:
     reception "Но у нас тут приличное заведение!"
 #    reception "Но, боюсь, что тебя увидит кто-то из гостей нашего отеля..."
     img 17103
-    with fade
+    with diss
     reception "Надевай сверху свое рабочее платье!"
     img 17104
     with diss
     m "И как я буду выглядеть?! Через это платье все видно!"
     img 17105
-    with fade
+    with diss
     reception "[monica_hotel_name]!!! Ты испытываешь мое терпение!"
     reception "Сейчас же прекрати со мной спорить!"
     reception "И делай, что Я тебе говорю!"
