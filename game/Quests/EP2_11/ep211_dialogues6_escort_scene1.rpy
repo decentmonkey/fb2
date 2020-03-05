@@ -23,6 +23,7 @@ label ep211_escort_scene1_1a:
     # после регулярного диалога с администраторшей (лейбл ep210_dialogues7_escort_hotel_8a) возникает меню
     mt "Что мне делать дальше?"
     mt "..."
+label ep211_escort_scene1_1a_loop1:
     menu:
         "Встреча с клиентом (сцена)." if math.floor(monicaEscortScene1Day/7)<math.floor(day/7):
             menu:
@@ -31,11 +32,13 @@ label ep211_escort_scene1_1a:
                     # при повторном выборе начинается с лейбла ep211_escort_scene1_3 (перед лифтом + сцена)
                     $ monicaEscortClientHotel4 = True # выбор сцены 1 с клиентом в отеле
                     return 1
-                "Выезд к клиенту.":
+                "Выезд к клиенту." if monicaEscortScenesCount > 0:
                     # запускается сцена 2 - выезд к клиенту, начиная с лейбла ep211_escort_scene2_1 (если в первый раз)
                     # при повторном выборе начинается с лейбла ep211_escort_scene2_3 (служ. коридор + выезд)
                     $ monicaEscortClientHotel5 = True # выбор сцены 2 с клиентом на выезде
                     return 2
+                "Назад.":
+                    jump ep211_escort_scene1_1a_loop1
             return
         "Встреча с клиентом (на следующей неделе) (disabled)" if math.floor(monicaEscortScene1Day/7)==math.floor(day/7):
             pass
@@ -50,6 +53,8 @@ label ep211_escort_scene1_1a:
                     pass
                 "Кастинг в номерах. (в следующих обновлениях) (disabled)":
                     pass
+                "Назад.":
+                    jump ep211_escort_scene1_1a_loop1
             return
         "Уйти отсюда!":
             mt "Нет! Я не буду заниматься этим!!!"

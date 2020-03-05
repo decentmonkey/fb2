@@ -66,6 +66,7 @@ label ep211_quests_escort2_exit_dialogue:
 label ep211_quests_escort2_end_day:
     $ remove_hook(quest="work_escort")
     $ remove_hook(quest="work_escort")
+    $ remove_hook(label="escort_scene1")
     $ cloth = ep211_quests_stored_cloth
     $ cloth_type = ep211_quests_stored_cloth_type
     call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1")
@@ -160,8 +161,9 @@ label ep211_quests_escort6_scene1a:
     $ add_objective("change_clothes", _("Пойти в служебный коридор и переодеться."), c_pink, 105)
     $ add_hook("Teleport_Lift", "ep211_escort_scene1_18", scene="rich_hotel_reception", label="escort_scene1")
     $ add_hook("Teleport_Restaurant", "ep211_escort_scene1_18", scene="rich_hotel_reception", label="escort_scene1")
+    $ add_hook("ReceptionGirl", "ep211_escort_scene1_18", scene="rich_hotel_reception", label="escort_scene1")
     $ add_hook("Door", "ep211_quests_escort6_scene1b", scene="rich_hotel_reception", label="escort_scene1")
-    call change_scene
+    call refresh_scene_fade()
     return False
 
 label ep211_quests_escort6_scene1b:
@@ -176,6 +178,8 @@ label ep211_quests_escort6_scene1b:
     return False
 
 label ep211_quests_escort6_scene1c: #Лифт
+    if act=="l":
+        return
     $ remove_objective("go_customer")
     call ep211_escort_scene1_4()
     if _return == False:
@@ -187,8 +191,8 @@ label ep211_quests_escort6_scene1c: #Лифт
     $ add_hook("Teleport_Lift", "ep211_escort_scene1_17", scene="rich_hotel_reception", label="escort_scene1")
     $ add_hook("Teleport_Restaurant", "ep211_escort_scene1_17", scene="rich_hotel_reception", label="escort_scene1")
     $ add_hook("Teleport_Street_Rich_Hotel", "ep211_quests_escort6_scene1d_exit", scene="rich_hotel_reception", label="escort_scene1")
-    $ add_hook("ReceptionGirl", "ep211_quests_escort6_scene1a", scene="rich_hotel_reception", label="escort_scene1")
-
+    $ add_hook("ReceptionGirl", "ep211_quests_escort6_scene1e_admin", scene="rich_hotel_reception", label="escort_scene1")
+    $ add_corruption(monicaEscortScene1CorruptionAdd, "escort_scene1")
     $ richHotelLiftMonicaSuffix = 1
     $ add_objective("go_customer", _("Пойти на ресепшн и отдать 50 процентов от заработка администратору."), c_red, 105)
     call change_scene("rich_hotel_reception", "Fade_long", "snd_lift")
