@@ -684,7 +684,7 @@ label ep211_escort_scene1_4:
     with hpunch
     pause 0.7
     hide screen photoshot_screen
-    sound man_moan18
+    sound man_moan9
     # клиент кончает на постель
     img 16817
     with diss

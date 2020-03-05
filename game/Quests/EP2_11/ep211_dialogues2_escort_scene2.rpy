@@ -1152,7 +1152,7 @@ label ep211_escort_scene2_6:
     daniel "О, просто чертовски охренительно!!!"
     daniel "Даааа!"
     img 16701
-    sound ahhh11
+    sound ahhh4
     with diss
     daniel "Ааааа!!!"
     # затемнение экрана, надпись "В это время в гостиной..."
@@ -1234,7 +1234,7 @@ label ep211_escort_scene2_8:
     daniel "Какие же у тебя сиськи!"
     img 16703
     with fade
-    sound ahhh11
+    sound ahhh6
     daniel "Даааа!"
     daniel "В следующий раз я куплю тебя на всю ночь!"
     img 16704
@@ -1287,7 +1287,7 @@ label ep211_escort_scene2_8:
     with hpunch
     pause 0.7
     hide screen photoshot_screen
-    sound man_moan18
+    sound man_moan3
     daniel "АААААА!!!"
     w
     music stop
@@ -1463,7 +1463,7 @@ label ep211_escort_scene2_10:
     marty "Мммм, какая у тебя клевая попка!"
     img 16730
     with fade
-    sound ahhh11
+    sound ahhh7
     marty "Такая упругая..."
     # Моника со злым лицом
     img 16731
@@ -1512,7 +1512,7 @@ label ep211_escort_scene2_10:
     with hpunch
     pause 0.7
     hide screen photoshot_screen
-    sound man_moan18
+    sound man_moan5
     # затемнение экрана, надпись "В это время в гостиной..."
     return
 
@@ -1653,7 +1653,7 @@ label ep211_escort_scene2_12:
     ned2 "Аааа..."
     img 16757
     with diss
-    sound ahhh11
+    sound ahhh8
     ned2 "Аааааа..."
     img 16758
     with fade
@@ -1680,7 +1680,7 @@ label ep211_escort_scene2_12:
     with hpunch
     pause 0.7
     hide screen photoshot_screen
-    sound man_moan18
+    sound man_moan8
     # затемнение экрана
     return
 
