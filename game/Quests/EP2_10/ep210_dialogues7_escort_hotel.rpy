@@ -1416,28 +1416,64 @@ label ep210_dialogues7_escort_hotel_8a:
 
 # Моника проходит мимо девочек-эскортниц, брюнетка с каре и челкой
 label ep210_dialogues7_escort_hotel_8a2:
+    music Groove2_85
+    img 30000
+    with fadelong
+    sound highheels_short_walk
+    w
+    img 30001
+    with fade
     girl_1 "О, кто к нам пришел!"
     girl_1 "Сегодня у тебя не получится уводить наших клиентов..."
     girl_1 "Будешь работать с тем, кого мы тебе дадим!"
+    music Pyro_Flow
+    img 30002
+    with diss
     m "..."
     mt "Сучка. Не хочу с ней разговаривать."
     return
 
 # Моника проходит мимо девочек-эскортниц, рыжая с каре
 label ep210_dialogues7_escort_hotel_8b:
+    music Groove2_85
+    img 30003
+    with fadelong
+    sound highheels_short_walk
+    w
+    img 30004
+    with fade
     girl_2 "Привет."
     girl_2 "Надеюсь, мне сегодня подвернется нормальный клиент..."
+    img 30005
+    with diss
     m "Да... И мне тоже."
+    img 30006
+    with fade
     girl_2 "Ну, не знаю... Тебе то, что останется..."
+    music Pyro_Flow
+    img 30007
+    with diss
     mt "!!!"
     return
 
 # Моника проходит мимо девочек-эскортниц, шатенка с хвостом
 label ep210_dialogues7_escort_hotel_8c:
+    music Groove2_85
+    img 30008
+    with fadelong
+    sound highheels_short_walk
+    w
+    img 30009
+    with fade
     girl_3 "Я тебя где-то видела раньше."
     girl_3 "Не в этом ресторане..."
     girl_3 "Хммм... Не могу вспомнить, где..."
+    img 30010
+    with diss
     m "Наверное, ты меня с кем-то путаешь."
+    music Pyro_Flow
+    img 30011
+    with fade
     mt "Черт!"
     mt "Она могла видеть меня на обложке журнала!"
     mt "Или на фото репортеров с конференции!"
@@ -1446,11 +1482,23 @@ label ep210_dialogues7_escort_hotel_8c:
 
 # Моника проходит мимо девочек-эскортниц, брюнетка с длинными волосами
 label ep210_dialogues7_escort_hotel_8d:
+    music Groove2_85
+    img 30012
+    with fadelong
+    sound highheels_short_walk
+    w
+    img 30013
+    with fade
     girl_4 "Пришла? Это хорошо."
     girl_4 "Это значит, что у меня сегодня не будет придурков-клиентов."
     girl_4 "Чего не скажешь о тебе..."
+    music Pyro_Flow
+    img 30014
+    with diss
     mt "Как она со мной разговаривает?!"
     mt "Я поставлю эту сучку на место!"
+    img 30015
+    with diss
     mt "При первой же возможности!"
     mt "!!!"
     return
